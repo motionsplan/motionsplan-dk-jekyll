@@ -23,7 +23,7 @@ category:
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Concept_2_model_D_sort(2).jpg
-    alt: "Concept 2 til rotræning, ropoprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine"
+    alt: "Concept 2 egnet til rotræning og ropoprogrammer"
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
@@ -112,7 +112,7 @@ Således varer grupperne henholdsvis 20, 15, 10 og 5 minutter.
 
 Er nem at forlænge eller forkorte ved at fjerne en gruppe i den ene eller anden ende.
 
-{% include pinterest image_path="/assets/images/pinterest/60-seconds-staircase.png" data-pin-media="/assets/images/pinterest/60-seconds-staircase.png" %}
+{% include pinterest image_path="/assets/images/pinterest/60-seconds-staircase.jpg" data-pin-media="/assets/images/pinterest/60-seconds-staircase.jpg" %}
 
 ### 6-18-6 pyramide
 
@@ -124,7 +124,7 @@ Såre simpel: seks gange ét minut, seks gange tre og igen seks gange ét.
 
 Jeg holder bare 1 minuts pause for hver.
 
-{% include pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.png" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.png" %}
+{% include pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.jpg" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.jpg" %}
 
 ### Pyramid of fours
 
@@ -132,7 +132,7 @@ En eller to omgange af (1111 22 4 22 1111 minutter)
 
 Hele tiden med 1 minuts pause.
 
-{% include pinterest image_path="/assets/images/pinterest/pyramid-of-fours.png" data-pin-media="/assets/images/pinterest/pyramid-of-fours.png" %}
+{% include pinterest image_path="/assets/images/pinterest/pyramid-of-fours.jpg" data-pin-media="/assets/images/pinterest/pyramid-of-fours.jpg" %}
 
 ### Krintels Favorit
 
@@ -154,7 +154,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
 
 ### 90 seconds shuffle
 

@@ -3,8 +3,8 @@ title: &title "Strukturel balance i forskellige styrketræningsøvelser 💪"
 permalink: /strukturel-balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=400&q=5
   caption: *title
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med strukturel balance"
@@ -73,10 +73,14 @@ Vi har skrevet et andet indlæg, hvor du kan lære, hvordan man [tester sin _one
 
 På exrx.net har de samlet en række [styrkestandarder](http://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), hvor du kan få et bud på, om du er stærk.
 
-## Referencer om strukturel balance
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [www.t-nation.com](https://www.t-nation.com/training/know-your-ratios-destroy-weaknesses)
 - [www.functionalps.com](http://www.functionalps.com/blog/2010/09/28/upper-body-structural-balance/)
 - [www.t-nation.com](https://www.t-nation.com/training/how-much-can-you-lift-wimp)
 - [athleticsi.com](https://athleticsi.com/structural-balance-assessments-identifying-preventing-injuries/)
 - [breakingmuscle.com](https://breakingmuscle.com/fitness/individualizing-training-structural-balance-intensity-and-autoregulation)
+</details>

@@ -1,10 +1,10 @@
 ---
-title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓 [2021]"
-seo_title: "Liste over sportsgrene, idræt og motion [2022]"
+title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓 (2022)"
+seo_title: "Liste over sportsgrene, idræt og motion (2022)"
 permalink: /sportsgrene-liste/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -257,7 +257,7 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 - Danmarks Idræts-forbund: [DIF](https://www.dif.dk/om-dif/organisation/forbund)
 - Danske Gymnastik og Idrætsforeninger: [DGI](https://www.dgi.dk/)
 - Dansk Arbejder Idrætsforbund: [DAI](http://dai-sport.dk/)
-- Dansk Firmaidrætsforbund: [DFIF](http://www.firmaidraet.dk/)
+- Dansk Firmaidrætsforbund: [DFIF](https://www.firmaidraet.dk/)
 - Dansk Handicap Idræts-Forbund: DHIF
 - For børn (site med forslag til idræt for børn): [Nysport](http://www.nysport.dk/)
 

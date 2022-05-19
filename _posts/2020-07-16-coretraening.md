@@ -1,9 +1,9 @@
 ---
-title: "Coretræning: 9 øvelser til stærk core og kropsstamme [2022]"
+title: "Coretræning: 9 øvelser til stærk core og kropsstamme (2022)"
 permalink: /core/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Coretræning: 9 øvelser til stærk core og kropsstamme"
 tags:

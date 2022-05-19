@@ -1,12 +1,12 @@
 ---
-title: "Beregn dit daglige energiforbrug og energibehov [Beregner]"
+title: "Beregn dit daglige energiforbrug og energibehov (Beregner)"
 permalink: /beregner/dagligt-energiforbrug-energibehov/
 redirect_from:
   - /beregner/stofskifte-energiforbrug-energibehov/
   - /stofskifte/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: Beregn dit daglige energibehov og energiforbrug
 category:
@@ -89,6 +89,10 @@ Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde 
 
 [Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
-## Referencer om stofskifte, energibehov og energiforbrug
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012)
+</details>

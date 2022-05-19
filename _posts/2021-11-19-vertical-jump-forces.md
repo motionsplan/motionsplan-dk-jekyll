@@ -180,7 +180,7 @@ Hvis du ikke kender kræfterne ved afsættet eller den oprindelige hastighed ved
 
 Det er noget lettere at finde udstyr, som kan hjælpe os med at måle svævetiden. Vi kan enten få svævetiden fra en hoppemåtte eller ved at måle svævetiden med et _high speed_ kamera eller en smartphone. Det er bl.a. den teknologi, som bruges i [The Hoops Geek online måleinstrument](https://www.thehoopsgeek.com/measurement-app/).
 
-{% include figure image_path="/assets/images/blog/thehoopgeek.png" caption="Du kan bruge [The Hoops Geek onlineredskab](https://www.thehoopsgeek.com/measurement-app/) til at måle hoppehøjde ud fra en video baseret på svævetiden." %}
+{% include figure image_path="/assets/images/blog/thehoopgeek.jpg" caption="Du kan bruge [The Hoops Geek onlineredskab](https://www.thehoopsgeek.com/measurement-app/) til at måle hoppehøjde ud fra en video baseret på svævetiden." %}
 
 I vores eksempel blev svævetiden udregnet til <em>t = 0,5 s</em>, men den kunne vi også aflæse.
 

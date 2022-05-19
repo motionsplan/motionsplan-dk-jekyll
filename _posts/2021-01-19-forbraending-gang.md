@@ -7,7 +7,7 @@ last_modified_at: 2021-05-11T09:41:09Z
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -143,7 +143,7 @@ Gang er ikke bedre en andre aktiviteter til at forbrænde mange kalorier, men fo
 
 Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigheden og intensiteten.
 
-Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som [intervaltræning](/intervaltraening/) for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
+Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som [intervaltræning](/intervaltraening/) for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
 
 ## Kalorieberegner for gang
 

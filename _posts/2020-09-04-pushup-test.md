@@ -3,7 +3,7 @@ title: &title "Hvor mange armstrækninger skal jeg kunne tage?"
 permalink: /armstraekninger-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -67,7 +67,11 @@ Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger p�
 
 Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
 
-## Referencer til armstrækningstest
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Adult Norms: Nieman, DC, Exercise testing and Prescription: A health related approach, 4th ed., Mountain View, CA: Mayfield Publishing, 1999.
 - Adolescent Norms: Canadian Standardized Test of Fitness Operations Manual, 3rd ed., Health Canada, 1986.
+</details>

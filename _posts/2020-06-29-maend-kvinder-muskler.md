@@ -1,10 +1,10 @@
 ---
 title: "Er der forskel på mænds og kvinders muskler?"
-seo_title: "Er der forskel på mænds og kvinders muskler? [2021]"
+seo_title: "Er der forskel på mænds og kvinders muskler? (2022)"
 permalink: /maend-kvinder-muskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Er der forskel på mænd og kvinders muskler?"
 category:
@@ -183,4 +183,4 @@ Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog
 - WALTS, CORY T., ERIK D. HANSON, MATTHEW J. DELMONICO, LILI YAO, MIN QI WANG, og BEN F. HURLEY. 2008. “Do Sex or Race Differences Influence Strength Training Effects on Muscle or Fat?” Medicine and science in sports and exercise 40 (4): 669–76. <https://doi.org/10.1249/MSS.0b013e318161aa82>.
 </details>
 
-{% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" class="hidden" %}
+{% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.jpg" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.jpg" class="hidden" %}

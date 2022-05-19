@@ -1,10 +1,11 @@
 ---
 title: &title "Excentrisk træning: Beskyt musklerne og skab muskelvækst"
+description: "Vil du gerne i gang med excentrisk træning? Læs her hvad excentrisk træning kan gøre for din muskelmasse, muskelstyrke og skadesforebyggende træning."
 permalink: /excentrisk-traening/
 last_modified_at: 2020-08-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1589579234096-25cb6b83e021?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1589579234096-25cb6b83e021?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1589579234096-25cb6b83e021?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -18,15 +19,6 @@ tags:
 
 Jeg har researchet lidt på hvad excentrisk træning er, hvordan man kan bruge excentriske træning, og hvad man får ud af at lægge mere vægt på den excentriske fase i sine løft.
 
-Hvad er excentrisk træning? **Excentrisk træning indeholder øvelser, hvor musklen udvikler kraft samtidig med at musklen forlænges. I excentrisk træning skal musklerne modstå en udefrakommende belastning, som musklerne skal bremse.**
-
-Nogle kalder det også **eccentrisk træning**, men det er faktisk en stavefejl, men stammer nok fra, at det på engelsk hedder _eccentric_.
-{: .notice .notice--info }
-
-Musklerne kan enten arbejde [koncentrisk, excentrisk eller isometrisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}). Når musklerne arbejder koncentrisk trækker de sig sammen, mens de arbejder under forlængelse i i excentriske bevægelser.
-
-Musklerne kan yde mere kraft i den excentriske fase end i den koncentriske fase.
-
 Du kender det måske godt på din egen krop. Du ligger under stangen i bænkpres. Du bliver presset ned i bænken, og du ser skiverne hænge faretruende på hver sin side af stangen.
 
 Du sænker langsomt excentrisk stangen mod brystet i din sjette gentagelse. Du trækker vejret ind. Du har fin kontrol over stangen, og brystmuskulaturen og triceps er klar til at presse stangen op i strakte arme igen.
@@ -37,15 +29,25 @@ Du er glad for, at der var en spotter, som kunne hjælpe dig. Spotteren skulle b
 
 Du prøver igen at sænke stangen, og det går igen rigtig godt. I den excentriske fase af løftet kan du sænke stangene rolig og kontrolleret, men det samme sker i bunden. Du kan ikke flytte stangen overhovedet.
 
-Hvordan kan det være, at det er sådan?
+Hvordan kan det være, at det er sådan? Det får du svaret på i det følgende.
+
+## Hvad er excentrisk træning?
+
+Excentrisk træning indeholder øvelser, hvor musklen udvikler kraft samtidig med at musklen forlænges. Ved excentrisk muskelarbejde skal musklerne modstå en udefrakommende belastning, som musklerne skal bremse.
+
+## Hvad sker der ved excentrisk arbejde?
+
+Musklerne kan enten arbejde [koncentrisk, excentrisk eller isometrisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}). Men hvad er forskellen på excentrisk og koncentrisk træning? Når musklerne laver en koncentrisk bevægelse trækker de sig sammen, mens de arbejder under forlængelse i i excentriske bevægelser.
+
+Musklerne kan yde mere kraft i den excentriske fase end i den koncentriske fase.
 
 Det skyldes ganske enkelt at musklerne er stærkere i det excentriske arbejde i forhold det koncentriske arbejde. I den koncentriske fase begynder musklerne at udvikle styrke fra 0% og op til 100%, men som du kan se i **force-velocity-kurven** nedenunder, så kan musklerne i den excentriske fase udvikle over 100% af kraft i forhold til den koncentriske fase.
 
 {% include figure image_path="https://upload.wikimedia.org/wikipedia/en/2/22/Muscle_Force_Velocity_relationship.png" caption="Force-velocity og power kurve. Billede: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction)." %}
 
-Du har altså lige været i gang med at lave **excentrisk træning** i bænkpres.
+Du har altså lige været i gang med at lave **excentrisk træning** i bænkpres i eksemplet fra indledningen.
 
-Vi kan stort set sige, at excentrisk bevægelse og excentrisk træning er forlængelse af musklerne under kraft.
+Vi kan stort set sige, at excentrisk bevægelse og excentrisk muskelarbejde er forlængelse af musklerne under en ydre kraftpåvirkning.
 
 Sommetider kalder man også den excentriske sammentrækning for **negativt arbejde**, fordi musklen arbejder under forlængelse - eller at man sænker sig langsomt mod tyngdekraften.
 
@@ -81,7 +83,7 @@ Excentrisk træning laver flere mikroskader i musklerne, hvilket man tidligere h
 
 Vi ved at volumen og mekanisk load er vigtige for muskelvækst. Derfor kan excentrisk træning være et værktøj til at lave et større mekanisk load på musklerne i bestemt faser af træningen.
 
-Derfor kan _forced reps_ eller excentrisk træning have sin placering i træningen i forhold til muskelvækst. Du skal imidlertid være meget opmærksom på, at excentrisk træning også indebærer en større risiko for skader, og det kan være vanskeligere at lave en **progressiv træningsopbygning**, hvis du bruger excentrisk træning og _forced reps_. 
+Derfor kan _forced reps_ eller excentrisk træning have sin placering i træningen i forhold til muskelvækst. Du skal imidlertid være meget opmærksom på, at excentrisk træning også indebærer en større risiko for skader, og det kan være vanskeligere at lave en **progressiv træningsopbygning**, hvis du bruger excentrisk træning og _forced reps_.
 
 Overvej derfor hvornår det passer ind i din træning.
 
@@ -101,9 +103,9 @@ Det viser sig, at [excentrisk træning beskytter mod fibersprængninger i baglå
 
 — <cite>[Proske og Morgan (2001)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278966/)</cite>
 
-Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](http://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet. 
+Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](http://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet.
 
-[Kongsgaard et al (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer i sit træningsstudium med et træningsforløb i forhold til rehabilitering af patellasenen, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene. 
+[Kongsgaard et al (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer i sit træningsstudium med et træningsforløb i forhold til rehabilitering af patellasenen, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene.
 
 Der ser også ud til, at [excentrisk træning er med til at stimulere senens dannelse af kollagen](http://web.archive.org/web/20120411053543/http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/){: rel="nofollow noopener" } og måske den vej styrker senevævet, så det ikke overbelastes af træning.
 
@@ -119,6 +121,6 @@ Du kan lave [glute ham raise]({% link _exercises/glute-ham-raises-261.md %}) og 
 
 Du kan også lave [dips]({% link _exercises/dips-18.md %}) og [pull-ups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
 
-Hvis du er på udkig efter mere inspiration til excentrisk træning, så har [Christian Thibaudeau](https://www.t-nation.com/training/accentuated-eccentric-training) lavet en guide til det. 
+Hvis du er på udkig efter mere inspiration til excentrisk træning, så har [Christian Thibaudeau](https://www.t-nation.com/training/accentuated-eccentric-training) lavet en guide til det.
 
 Excentrisk træning ser helt sikkert ud til at have sin plads i træningen i forhold til beskyttelse mod skader. Hvis du vil bruge excentrisk træning i forhold til muskelvækst, så skal du virkelig overveje om de få procenter, Schoenfeld et al (2017) kunne finde i deres metastudium, hvor der ikke blev taget højde for den samlede træningsvolumen, er risikoen værd.

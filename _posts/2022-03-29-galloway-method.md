@@ -80,7 +80,7 @@ Screenshot af JeffGalloway.
 
 ## Beregner til Galloway Magic Mile
 
-Galloway har en [beregner](http://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
+Galloway har en [Beregner](http://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
 
 I denne beregner kan du udregne forskellige hastigheder, som du kan bruge i din træning alt efter, hvilket tempo du skal løbe i. Du skal først have løbet en _Magic Mile_. Baseret på din sluttid kan du udregne, hvilket tempo du skal bruge på forskellige distancer.
 

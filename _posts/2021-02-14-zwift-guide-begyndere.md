@@ -4,7 +4,7 @@ seo_title: "Zwift cykling på hometrainer: Komplet guide til begyndere"
 permalink: /komplet-begynderguide-zwift/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -62,7 +62,7 @@ faq:
 
 Jeg er lige gået i gang med at køre Zwift på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
 
-Zwift er en meget populær app, når du flytter cykeltræningen indendørs. Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor.
+Zwift er en meget populær app, når du flytter [cykeltræningen indendørs på en app](/hometrainer-apps/). Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor.
 
 Min motivation for træning på min indendørs cykel har i hvert fald været noget højere de seneste uger efter jeg fik øjnene op for Zwift. Men der er lige nogle ting, du skal vide inden du kan komme i gang med at køre på din hometrainer, mens du følger dig selv og din avatar på skærmen.
 

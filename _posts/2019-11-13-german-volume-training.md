@@ -3,7 +3,7 @@ title: &title "German Volume Training: Virker GVT til hypertrofi?"
 permalink: /gvt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -66,10 +66,10 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 
 {% include video provider="youtube" id="iiQK-P_KWLA" %}
 
-## Referencer om German Volume Training (GVT)
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om GVT</summary>
+  <summary>Se referencer</summary>
 
 - [Programanmeldelse: German Volume Training](https://andersnedergaard.dk/kropblog/programanmeldelse-german-volume-training/)
 - [German Volume Training](https://www.bodybuilding.com/content/german-volume-training-programs.html)

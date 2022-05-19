@@ -47,12 +47,15 @@ Studier har vist, at hvis man i bænkpres intenderer den dobbelte hastighed af s
 
 Men det er absolut ikke den eneste måde at løfte på. Skriv i kommentarerne, hvis vi skal få opdateret artiklen med mange flere detaljer om løftetempo og _time under tension_.
 
-## Referencer til tempo løft
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Robertson, Mike (2012): [6 questions about tempo training](https://www.t-nation.com/training/questions-about-tempo-training), t-nation.com
 - Nucklos, Greg (2014): [Speed kills: 2x the intended bar speed yields 2x the bench press gains](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com.
 - https://amdipt.dk/2018/04/24/tempomanipulation/
-
+</details>
 
 {% comment %}
 

@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og maksimale iltoptagelse (VO2max) med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.2
@@ -133,10 +133,10 @@ Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. 
 
 [Hvad er et godt kondital?](/kondital/){: .btn .btn--large .btn--info }
 
-## Referencer om konditest
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om kondition og tests</summary>
+  <summary>Se referencer</summary>
 
 - Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 - Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.

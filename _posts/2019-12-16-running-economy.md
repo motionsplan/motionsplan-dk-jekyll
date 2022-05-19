@@ -1,6 +1,6 @@
 ---
 title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
-seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt [Beregner]"
+seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt (Beregner)"
 description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
 permalink: /lobeokonomi/
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor."
   alt: "Photo by Fitsum Admasu on Unsplash"
@@ -301,10 +301,10 @@ Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rig
 
 Hvordan arbejder du med din løbeøkonomi?
 
-## Referencer om løbeøkonomi
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om løbeøkonomi</summary>
+  <summary>Se flere referencer</summary>
 
 - [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
 - Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.

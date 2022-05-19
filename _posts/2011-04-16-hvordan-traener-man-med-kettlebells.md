@@ -3,7 +3,7 @@ title: &title "Hvordan træner man med kettlebells?"
 permalink: /artikel/hvordan-traener-man-med-kettlebells/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
@@ -58,13 +58,13 @@ Det er hårdt for hænderne, håndleddene og underarmene at gå i gang med træn
 
 ## Klassiske øvelser med kettlebells
 
-- Swings - [se øvelsen](/oevelse/tohaandssving)
-- Clean and press - [se øvelsen](/oevelse/one-arm-clean-and-jerk)
-- Turkish getups - [se øvelsen](/oevelse/turkish-getup)
+- [Kettlbell Swings](/oevelse/tohaandssving/)
+- [Clean and press](/oevelse/one-arm-clean-and-jerk/)
+- [Turkish getups](/oevelse/turkish-getup/)
 
 ## Forslag til træningsprogram med kettlebells
 
-Du kan [sammensætte et træningsprogram til styrketræning](/artikel/opbygning-af-program) på rigtig mange måder. En meget populær måde at træne på i øjeblikket er at lave så mange runder som muligt på 20 minutter. Runderne kunne fx bestå af 20 swings og 2 turkish getups til hver side. Dette program kører du fx tre gange om ugen. Måske skal du starte med 10 minutter den første dag, da swings sagtens kan mærkes i baglårene.
+Du kan [sammensætte et træningsprogram til styrketræning](/anmeldelse-traeningsprogrammer/) på rigtig mange måder. En meget populær måde at træne på i øjeblikket er at lave så mange runder som muligt på 20 minutter. Runderne kunne fx bestå af 20 swings og 2 turkish getups til hver side. Dette program kører du fx tre gange om ugen. Måske skal du starte med 10 minutter den første dag, da swings sagtens kan mærkes i baglårene.
 
 {% include pa-banner product="kettlebell program" %}
 

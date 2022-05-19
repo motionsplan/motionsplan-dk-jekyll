@@ -3,7 +3,7 @@ title: &title "Crossfit workouts: Hvad er Workout of the Day i crossfit?"
 permalink: /crossfit-workouts/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -172,7 +172,7 @@ Jeg spurgte crossfitlæreren på Vejle Idrætshøjskole, hvad hendes favorit cro
 
 1) Handstand Pushups (HSPU)
 2) Pistols (one legged squats)
-3) Burpees
+3) [Burpees](/oevelse/burpees/)
 
 Jeg har skrevet et andet indlæg, der går lidt mere i dybden med [crossfitøvelser](/crossfit-crossfit-oevelser/).
 

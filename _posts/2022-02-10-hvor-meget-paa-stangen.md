@@ -10,14 +10,6 @@ category:
 tags:
   - beregner
 last_modified_at: 2022-01-27T22:21:26Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-    title: The Secret of Running
-    excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-    btn_label: Læs mere
-    btn_class: btn--success
-    rel: sponsored nofollow nooopener
 ---
 
 I styrketræning kan det sommetider være lidt besværligt at finde ud af, hvor meget vægt man skal have på stangen i specifikke løft. Her får du hjælp til, hvor meget du skal løfte i de enkelte sæt.
@@ -46,7 +38,7 @@ http://bonvecstrength.com/2020/06/29/choosing-the-weight-on-the-bar-percentage-r
 
 Hvis du skal træne baseret på procenter, så har du brug for at vide, hvor meget vægt du kan løfte en gang. Derefter bruger du den procentvise udregning til at estimere, hvor meget du kan løfte. Du kan udregne dit maksimale løft i en [RM-beregner](/rm-beregner/). Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.
 
-{% include figure image_path="/assets/images/blog/rm-beregner.png" caption="Her er et eksempel påat din _1 Repetition Maximum_ intensitetsprocenterne af dit bedste løft er udregnet i vores egen [RM-beregner](/rm-beregner/)." %}
+{% include figure image_path="/assets/images/blog/rm-beregner.jpg" caption="Her er et eksempel påat din _1 Repetition Maximum_ intensitetsprocenterne af dit bedste løft er udregnet i vores egen [RM-beregner](/rm-beregner/)." %}
 
 ## Vægt baseret på RPE beregner
 
@@ -54,9 +46,9 @@ Jeg kan godt lide at bruge RPE til at smide den rigtige vægt på stangen. Jeg e
 
 Open Powerliftings beregner ser sådan her ud, og den kan du bruge, hvis du foretrækker en beregner på engelsk. Ellers kan du bruge vores [RPE beregner](/rpe/).
 
-{% include figure image_path="/assets/images/blog/openpowerlifting-rpe-calculator.png" caption="Du kan bruge denne gratis udregner fra [Open Powerlifting](https://www.plsource.org/rpe-calc/) til at estimere, hvor meget du kan løfte baseret på RPE." %}
+{% include figure image_path="/assets/images/blog/openpowerlifting-rpe-calculator.jpg" caption="Du kan bruge denne gratis udregner fra [Open Powerlifting](https://www.plsource.org/rpe-calc/) til at estimere, hvor meget du kan løfte baseret på RPE." %}
 
-Du skal huske at RPE og RIR fungerer modsat. Hvis du har en RPE på 10, så er din RIR 0. 
+Du skal huske at RPE og RIR fungerer modsat. Hvis du har en RPE på 10, så er din RIR 0.
 
 | RPE | RIR |
 |-|-|
@@ -70,7 +62,7 @@ Du skal huske at RPE og RIR fungerer modsat. Hvis du har en RPE på 10, så er d
 
 Hvis du bruger [RTS-appen som træningslog](/rts-app/) til at tracke din træning, så får du i 'Workout Planner' en let mulighed for at få træningssæt baseret på både procenter og RPE (eller RIR) direkte ind i din træningsplan.
 
-{% include figure image_path="/assets/images/blog/rts-rpe-calculator.png" caption="RTS-appen fra Reactive Strength Systems er en genial app til at tracke og planlægge træning. Når du har valgt en øvelse, så kan du vælge både at basere dit sæt på en procent af dit estimerede maksimale løft eller baseret på RPE i forhold til dit maksimale løft. Her har jeg fx brugt RTS-appen til at beregne min bænkpres i [Smolov Jr.](/smolov-jr-beregner/)." %}
+{% include figure image_path="/assets/images/blog/rts-rpe-calculator.jpg" caption="RTS-appen fra Reactive Strength Systems er en genial app til at tracke og planlægge træning. Når du har valgt en øvelse, så kan du vælge både at basere dit sæt på en procent af dit estimerede maksimale løft eller baseret på RPE i forhold til dit maksimale løft. Her har jeg fx brugt RTS-appen til at beregne min bænkpres i [Smolov Jr.](/smolov-jr-beregner/)." %}
 
 Når du bruger en beregner til at finde vægten baseret på RPE (og RIR), så er det reelt stadig et løft baseret på procent af dit maksimale løft taget fra en tabel. Pointen undervejs i træningen er så, at du mærker efter om det passer med din RPE på dagen. Du kan have gode dage eller mindre gode dage.
 

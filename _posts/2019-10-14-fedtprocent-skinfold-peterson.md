@@ -78,7 +78,7 @@ Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne 
   {% endfor %}
 {% endif %}
 
-## Referencer til Peterson (2003)
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer til {{ page.title }}</summary>

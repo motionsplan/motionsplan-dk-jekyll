@@ -61,12 +61,12 @@ const urls = posts.map(post => objectToParams({
   // use `utoa` to encode emojis/special characters
   const url = `http://127.0.0.1:8080/generate-image/${args.type}?${utoa(params)}`
   // uncomment this to print the url for debug purposes
-  //console.log(url)
+  console.log(url)
   return url
 })
 
 // call chromium, get a buffer
-async function takeScreenshot(url) {
+async function takeScreenshot(url, file_path) {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
   await page.setViewport({
@@ -75,14 +75,17 @@ async function takeScreenshot(url) {
     deviceScaleFactor: 1,
   })
   await page.goto(url)
-  const buffer = await page.screenshot()
+  await page.screenshot({
+    path: file_path,
+    type: "jpeg",
+    fullPage: true
+  })
+  await page.close()
   await browser.close()
-  return Buffer.from(buffer, 'base64')
 }
 
 // take a buffer, save an image
 async function generateImage(url, path) {
-  const buffer = await takeScreenshot(url)
   // strip leading and trailing slashes off of link
   const fixedPath = () => {
     const letters = [...path]
@@ -90,11 +93,9 @@ async function generateImage(url, path) {
     if (letters[letters.length - 1] === '/') { delete letters[letters.length - 1] }
     return letters.join('').replace(/\//g, '-')
   }
-  const fileName = `./build/generated/${args.type}/${fixedPath()}.png`
-  fs.writeFile(fileName, buffer, (err) => {
-    if (err) return console.error(err)
-    console.log('file saved to ', fileName)
-  })
+  let fileName = `./build/generated/${args.type}/${fixedPath()}.jpg`
+  await takeScreenshot(url, fileName)
+  console.log('file saved to ', fileName)
 }
 
 // set up a queue so 200+ chromium instances don't open...
@@ -110,7 +111,7 @@ posts.map(async (post, index) => {
   } else {
     // ... so follow the `permalink: /:categories/:title/` pattern from _config.yaml
     const category = post.category[0].toLowerCase()
-    
+
     // build the title different if this is a single file or from a directory
     let title
     if (fs.lstatSync(args.path).isDirectory()) {

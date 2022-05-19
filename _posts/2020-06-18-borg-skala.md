@@ -7,7 +7,7 @@ redirect_from:
   - /borg/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -124,7 +124,7 @@ Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob tr�
 
 Til konditionstræning kunne følgende RPE-skala bruges, hvor der også er pulszoner skrevet ind i:
 
-{% include figure image_path="/assets/images/rpe-intensitetsskala.png" caption="Fysiologisk intensitetsskala baseret på Borgskalaen set fra [DGI](https://www.dgi.dk/butikken/intensitetsskala-indoor-cycling-137-x-200)." alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
+{% include figure image_path="/assets/images/rpe-intensitetsskala.jpg" caption="Fysiologisk intensitetsskala baseret på Borgskalaen set fra [DGI](https://www.dgi.dk/butikken/intensitetsskala-indoor-cycling-137-x-200)." alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
 
 RPE-skalaen er også adapteret til styrketræning. Jeg har skrevet lidt mere om [RPE-skalaen til styrketræning her](/rpe/).
 
@@ -154,10 +154,10 @@ Hvis du vil teste dig selv med en cykelergometer test, der bygger på Borg-skala
 
 {% include faq.html %}
 
-## Referencer om Borg RPE skala
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om Borgskalaen</summary>
+  <summary>Se referencer</summary>
 
 - Borg, G. 1970. “Perceived Exertion as an Indicator of Somatic Stress”. Scandinavian Journal of Rehabilitation Medicine 2 (2): 92–98. <https://pubmed.ncbi.nlm.nih.gov/5523831/>
 - Borg, G. 1990. “Psychophysical Scaling with Applications in Physical Work and the Perception of Exertion.” Scandinavian Journal of Work, Environment & Health 16: 55–58. <https://doi.org/10.5271/sjweh.1815>.

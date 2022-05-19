@@ -5,7 +5,7 @@ redirect_from:
   - /simpel-stofskifte/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -309,7 +309,7 @@ I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
 Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg]({% link _posts/2019-10-14-kropskomposition.md %}) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
 
 ## Hvad kan du bruge hvilestofskiftet til?
 
@@ -321,12 +321,12 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 
 [Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
-## Referencer om hvilestofskiftet og basalstofskiftet
+## Referencer
 
 {% include feature_row type="left" %}
 
 <details markdown="1">
-  <summary>Se flere referencer bag BMR-beregneren</summary>
+  <summary>Se flere referencer</summary>
 
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
 - Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.

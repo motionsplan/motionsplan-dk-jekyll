@@ -4,7 +4,7 @@ permalink: /opvarmning/
 excerpt: "Opvarmning før træning, idræt og sport har mange fordele. Her leder vi dig gennem de forskellige faser i dit opvarmningsprogram, så du kan præstere bedre og undgå skader."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1608138278545-366680accc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1608138278545-366680accc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1608138278545-366680accc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: "Opvarmning før træning og sport"
 category:
@@ -164,7 +164,10 @@ I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være for
 
 Opvarmning til træning og sport bør være en integreret del af din samlede træning. Du kan arbejde med mange gode elementer. Særligt opbygningen med generel opvarmning gående mod specifik opvarmning og med et eksplosivt element er rigtig god at holde sig for øje.
 
-## Referencer til opvarmning
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
 - [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)
@@ -172,3 +175,4 @@ Opvarmning til træning og sport bør være en integreret del af din samlede tr�
 - [Foam rolling isn't stretching, but still important](https://deansomerset.com/foam-rolling-isnt-stretching-still-important/)
 - [The most efficient Warm-Ups, Period](https://www.t-nation.com/training/the-most-efficient-warm-ups-period)
 - [Agile 8](https://breakingmuscle.com/workouts/use-the-agile-8-to-warm-up-quickly/)
+</details>

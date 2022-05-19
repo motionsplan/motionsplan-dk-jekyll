@@ -37,4 +37,4 @@ last_modified_at: 2013-10-21T12:45:50Z
 ---
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
-De der løfter skal kigge fremefter og spænde godt op i kropsstammen. Stå med bredstående, og sørg for at hælen er i jorden under hele bevægelsen. Se i øvrigt teknikken under [squat](/oevelse/back-squat).
+De der løfter skal kigge fremefter og spænde godt op i kropsstammen. Stå med bredstående, og sørg for at hælen er i jorden under hele bevægelsen. Se i øvrigt teknikken under [squat](/oevelse/back-squat/).

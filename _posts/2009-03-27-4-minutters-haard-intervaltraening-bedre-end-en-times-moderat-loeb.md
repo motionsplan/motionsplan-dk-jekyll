@@ -109,7 +109,7 @@ Her er nogle af vores favoritter - første gang du prøver, så brug ikke for h�
 
 {% include exercises exercises="Swing, to hænder" match="exact" type="left" %}
 
-## Referencer om Tabata-intervaller og Tabata-træning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om Tabata-intervaller og Tabata-træning</summary>

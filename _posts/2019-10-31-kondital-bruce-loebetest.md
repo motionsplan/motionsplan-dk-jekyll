@@ -78,6 +78,6 @@ Du kan sammenligne dit resultat med [tabellen med kondital for mænd og kvinder]
 
 {% include calculate-bruce.html %}
 
-## Referencer om Bruce Test
+## Referencer
 
 {% include feature_row type="left" %}

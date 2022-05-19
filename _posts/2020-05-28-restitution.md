@@ -4,7 +4,7 @@ excerpt: "Når man gerne vil bygge kroppen op, så skal man finde en balance mel
 permalink: /restitution/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
@@ -75,7 +75,7 @@ restitution og muskler
 ### 8 effekter af restitutionen
 
 - Na-K pumpen genoprettes
-- Ophobet mælkesyre i muskler fjernes
+- [Ophobet mælkesyre i muskler](/maelkesyre-traening/) fjernes
 - Hormonbalance i nerve-muskelovergange genoprettes
 - Blodsukkerniveauet genreguleres
 - Tømte celleenergilagre opbygges
@@ -325,7 +325,7 @@ https://pubmed.ncbi.nlm.nih.gov/29755363/
 
 {% endcomment %}
 
-## Referencer om restitution
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om restitution</summary>

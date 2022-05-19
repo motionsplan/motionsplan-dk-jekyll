@@ -3,7 +3,7 @@ title: &title "Muskelømhed: Hvorfor får jeg ømme muskler efter træning?"
 permalink: /omme-muskler-efter-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -199,10 +199,10 @@ Hvis du har fået DOMS og ømme muskler, så har du brug for [restitution](/rest
 
 Du kan sagtens træne med lidt muskelømhed i kroppen, men hvis dine muskler er meget ømme, så skal du respektere signalerne fra kroppen og give den en mindre pause.
 
-## Referencer om DOMS og ømme muskler
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om DOMS og delayed onset muscle soreness</summary>
+  <summary>Se flere referencer</summary>
 
   - Hotfiel et al (2018):  [Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics](https://pubmed.ncbi.nlm.nih.gov/30537791/)
   - Heiss et al (2019):  [Advances in Delayed-Onset Muscle Soreness (DOMS) - Part II: Treatment and Prevention](https://pubmed.ncbi.nlm.nih.gov/30865998/)

@@ -4,7 +4,7 @@ permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -104,10 +104,11 @@ Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft]({% l
 
 Hvordan forbereder du dig til en maxtest, styrkeløftkonkurrence og 1RM-test? Brug endelig kommentarerne til at inspirere os andre.
 
-## Referencer om maxtest og forberedelse
+## Referencer
 
 <details markdown="1">
-  <summary>Se referecer maxtest, forberedelse og opvarmning</summary>
+  <summary>Se referencer</summary>
+
 - Masamoto, N et al. "Acute Effects of Plyometric Exercise on Maximum Squat Performance in Male Athletes." Journal of Strength and Conditioning Research. 2003 Feb; 17(1):68-71.
 - Wilcox, J et al. "Acute Explosive-Force Movements Enhance Bench-Press Performance in Athletic Men." International Journal of Sports Physiology and Performance. 2006 Sep; 1(3):261-269.
 - Chiu, LZF et al. "Post-activation Potentiation Response in Athletic and Recreationally Trained Individuals." Journal of Strength and Conditioning Research. 2003 Nov; 17(4):671-677.

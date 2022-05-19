@@ -1,13 +1,13 @@
 ---
 title: &title "Anabolic Window: Hvad er facts om det åbne vindue?"
-seo_title: "Anabolic Window: Hvad er facts om det åbne vindue? [2022]"
+seo_title: "Anabolic Window: Hvad er facts om det åbne vindue? (2022)"
 excerpt: "Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?"
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:
   - /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -136,7 +136,7 @@ Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. De
 
 Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index. Du kan ganske givet sænke [restitutionstiden](/restitutionstid/) ved at fylde depoterne op hurtigst muligt.
 
-## Referencer om det åbne vindue
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om det åbne vindue</summary>

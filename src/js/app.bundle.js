@@ -43,6 +43,8 @@ const bmr_benedict_harris = require('./bmr-benedict-harris');
 const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
+const bmievaluation = require('./bmi-evaluation');
+const ponderalindex = require('./ponderal-index');
 const idealweight = require('./ideal-weight');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
@@ -69,6 +71,12 @@ require('image-map-resizer');
 
 $(function() {
     $('map').imageMapResize();
+
+    $('.rating input[name="rating"]').one('click', function () {
+      console.log("Clicked star");
+      let votes = Number($('#votes').text() * 1);
+      $('#votes').text(votes + 1);
+    });
 
     $("#target_bmi_man").change(function() {
         console.log('Ready to calculate');
@@ -179,7 +187,6 @@ $(function() {
         $(this).find('td').eq(5).html(weight.toFixed(2));
       });
     });
-
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
@@ -233,6 +240,16 @@ $(function() {
         $(".walk-met").hide();
         $(".met-explanation").hide();
         $(".walk-pandolf").hide();
+    });
+    $("#bmi-evaluation-criteria").ready(function() {
+        $("#bmi-evaluation-criteria").hide();
+    });
+    $("#calculator_bmi").change(function() {
+        if (Number($("[name='age']").val()) < 18) {
+            $("#bmi-evaluation-criteria").hide();
+        } else {
+            $("#bmi-evaluation-criteria").show();
+        }
     });
     $("#calculator_running_walking").change(function() {
         if ($("#formula-energy-running").val() == 'met') {
@@ -475,6 +492,17 @@ $(function() {
 
       $("[name='e1rm']").val(hr.getE1RM().toFixed(1));
       $("[name='want_weight']").val(hr.getWantWeight(want_reps, want_rpe).toFixed(1));
+    });
+    $("#calculator_fat_bai").submit(function(e) {
+      console.log("Calculate BAI");
+      e.preventDefault();
+
+      let HC = Number($("[name='hc']").val());
+      let HM = Number($("[name='hm']").val() / 100);
+
+      let bai = (HC / Math.pow(HM,1.5)) - 18;
+
+      $("[name='bai']").val(bai.toFixed(1));
     });
     $("#calculator_maffetone").submit(function(e) {
         console.log("Calculate Maffetone");
@@ -868,6 +896,64 @@ $(function() {
 
       $("[name='relative_ppo']").val(relative_ppo.toFixed(2));
     });
+    $("#calculator_musclemass_upper_limit").submit(function(e) {
+      console.log("musclemass_upper_limit");
+      e.preventDefault();
+
+      let height = Number($("[name='height']").val()) / 100;
+
+      let ffm = height * height * 34;
+      let musclemass = height * height * 17;
+
+      $("[name='ffm']").val(ffm.toFixed(2));
+      $("[name='musclemass']").val(musclemass.toFixed(2));
+    });
+    $("#calculator_musclemass").submit(function(e) {
+      console.log("musclemass");
+      e.preventDefault();
+
+      let ethniticity = $("[name='ethniticity']").val();
+      let gender = $("[name='gender']").val();
+
+      console.log(ethniticity + ' ' + gender);
+      let H = Number($("[name='height']").val());
+      let W = Number($("[name='weight']").val());
+      let A = Number($("[name='age']").val());
+      let WC = Number($("[name='waist']").val())
+
+      let SM;
+      if (WC > 0) {
+        if (gender == 'man') {
+          if (ethniticity == 'white') {
+            SM = 0.46 * W + 0.03 * H + 0.013 * A - 0.0006 * Math.pow(A, 2)  - 0.28 * WC + 13.8;
+          } else {
+            SM = 0.50 * W + 0.03 * H + 0.031 * A - 0.0008* Math.pow(A, 2) - 0.31 * WC + 13.3;
+          }
+        } else {
+          if (ethniticity == 'white') {
+            SM = 0.24 * W + 0.09 * H - 0.097 * A + 0.0004 * Math.pow(A, 2) - 0.06 * WC - 3.9;
+          } else {
+            SM = 0.26 * W + 0.10 * H - 0.120 * A + 0.0006 * Math.pow(A, 2) - 0.06 * WC - 4.9;
+          }
+        }
+      } else {
+        if (gender == 'man') {
+          if (ethniticity == 'white') {
+            SM = 0.23 * W + 0.15 * H - 0.058 * A - 0.0005 * Math.pow(A, 2) - 13.2;
+          } else {
+            SM = 0.26 * W + 0.16 * H - 0.054 * A - 0.0007 * Math.pow(A, 2) - 14.8;
+          }
+        } else {
+          if (ethniticity == 'white') {
+            SM = 0.19 * W + 0.11 * H - 0.095 * A + 0.0003 * A2 - 9.0;
+          } else {
+            SM = 0.21 * W + 0.12 * H - 0.132 * A + 0.0006 * A2 - 9.6;
+          }
+        }
+      }
+
+      $("[name='musclemass']").val(SM.toFixed(2));
+    });
     $("#calculator_6sek_fi").submit(function(e) {
       console.log("6sek_fi");
       e.preventDefault();
@@ -1076,25 +1162,50 @@ $(function() {
         console.log("Calculate BMI");
         e.preventDefault();
 
-      let h = Number($("[name='height']").val());
-      let w = Number($("[name='weight']").val());
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+        let age = Number($("[name='age']").val());
+        let gender = $("[name='gender']:checked").val();
+        let type = $("[name='type']").val();
 
-      let b = bmi.BMI(h, w);
+        let b = bmi.BMI(h, w);
+        let evaluation = bmievaluation.BMIEvaluation(type, gender, age);
+        let meter_text = $("#meter-text");
+        meter_text.text(evaluation.getEvaluation(b.getBMI()));
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
-        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+
+        let meter = $("#meter-bmi");
+        meter.val(b.getBMI().toFixed(1));
+        meter.text(b.getBMI().toFixed(1));
+        meter.attr('low', evaluation.getLow());
+        meter.attr('high', evaluation.getHigh());
+        meter.attr('optimum', evaluation.getOptimum());
+        meter.attr('min', evaluation.getMin());
+        meter.attr('max', evaluation.getMax());
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
         console.log("Calculate Water Intake");
         e.preventDefault();
 
-      let w = Number($("[name='weight']").val());
-
-      let b = water.WaterIntake(w);
+        let w = Number($("[name='weight']").val());
+        let b = water.WaterIntake(w);
 
         $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
         $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
+    });
+    // Calculate BMI
+    $("#calculator_ponderal_index").submit(function(e) {
+        console.log("Calculate BMI");
+        e.preventDefault();
+
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+
+        let b = ponderalindex.PonderalIndex(h, w);
+
+        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {

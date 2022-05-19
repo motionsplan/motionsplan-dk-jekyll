@@ -1,10 +1,10 @@
 ---
 title: "Magnesium: Har du brug for et tilskud?"
-seo_title: "Magnesium: Har du brug for et tilskud? [2022]"
+seo_title: "Magnesium: Har du brug for et tilskud? (2022)"
 permalink: /magnesium/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Magnesium: Har du brug for et tilskud?"
   overlay_filter: 0.4
@@ -14,7 +14,7 @@ category:
 tags:
   - kosttilskud
   - magnesium
-last_modified_at: 2020-07-11T07:33:14Z
+last_modified_at: 2022-03-11T07:33:14Z
 toc: true
 feature_row:
   - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
@@ -223,7 +223,7 @@ Forskningen på området er dog stadig ret ny. Gröber et al (2017) konkluderer 
 
 — <cite>[Gröber et al 2017](https://doi.org/10.3390/nu9090946)</cite>
 
-## Hvad er det bedste og billigste magnesium [2020]?
+## Hvad er det bedste og billigste magnesium (2022)?
 
 Når du søger på Google efter "Det bedste og billigste magnesium", så støder du på flere guides, der sammenligner magnesium fra forskellige brands. De har næsten altid en favorit og et eller andet argument, som at netop denne pille er letoptageligt. Man får fornemmelsen af, at de rent faktisk har testet de forskellige typer magnesium i forhold til hinanden.
 
@@ -260,7 +260,7 @@ Magnesium indgår også i en række lægemidler, fx behandlingen af mavesår (An
 
 ## Magnesium og D-vitamin
 
-Vitaminer og mineralerne i din krop påvirker og supplerer hinanden. Når du tager D-vitamin, så bliver der brugt magnesium. Hvis du tager meget høje mængder af D-vitamin, så kan det skabe mangel på magnesium. Derfor er væsentligt at være opmærksom at få nok magnesium, hvis du tager meget D-vitamin (Reddy og Edwards 2019)
+Vitaminer og mineralerne i din krop påvirker og supplerer hinanden. Når du tager [D-vitamin](/kosttilskud-d-vitamin/), så bliver der brugt magnesium. Hvis du tager meget høje mængder af D-vitamin, så kan det skabe mangel på magnesium. Derfor er væsentligt at være opmærksom at få nok magnesium, hvis du tager meget D-vitamin (Reddy og Edwards 2019)
 
 ## Sport og præstation
 
@@ -304,7 +304,10 @@ Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra mag
 
 {% include feature_row type="left" %}
 
-## Referencer til magnesium
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Abbasi, Behnood, Masud Kimiagar, Khosro Sadeghniiat, Minoo M. Shirazi, Mehdi Hedayati, og Bahram Rashidkhani. “The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial”. _Journal of Research in Medical Sciences: The Official Journal of Isfahan University of Medical Sciences_ 17, nr. 12 (december 2012): 1161–69.
 - Al Alawi, Abdullah M., Sandawana William Majoni, og Henrik Falhammar. “Magnesium and Human Health: Perspectives and Research Directions”. _International Journal of Endocrinology_ 2018 (16. april 2018). [https://doi.org/10.1155/2018/9041694](https://doi.org/10.1155/2018/9041694).
@@ -320,3 +323,4 @@ Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra mag
 - Wang, Ru, Cheng Chen, Wei Liu, Tang Zhou, Pengcheng Xun, Ka He, og Peijie Chen. “The Effect of Magnesium Supplementation on Muscle Fitness: A Meta-Analysis and Systematic Review”. _Magnesium Research_ 30, nr. 4 (1. november 2017): 120–32. [https://doi.org/10.1684/mrh.2018.0430](https://doi.org/10.1684/mrh.2018.0430).
 - Zhang, Yijia, Pengcheng Xun, Ru Wang, Lijuan Mao, og Ka He. “Can Magnesium Enhance Exercise Performance?” _Nutrients_ 9, nr. 9 (28. august 2017). [https://doi.org/10.3390/nu9090946](https://doi.org/10.3390/nu9090946).
 - Gröber, Uwe, Tanja Werner, Jürgen Vormann, og Klaus Kisters. “Myth or Reality—Transdermal Magnesium?” Nutrients 9, nr. 8 (28. juli 2017). <https://doi.org/10.3390/nu9080813>.
+</details>

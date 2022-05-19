@@ -1,6 +1,6 @@
 ---
-title: &title "Cykeltræningsprogram - Den ultimative styrketrænings guide til cykling"
-seo_title: Cykeltræningsprograam - Den ultimative styrketræningsguide til cykling
+title: &title "Cykeltræningsprogram - Få en styrketræningsguide til cykling"
+seo_title: Cykeltræningsprogram - Få en styrketræningsguide til cykling
 permalink: /cykeltraeningsprogram/
 excerpt: "Her har du en omfattende guide til træningsøvelser til dit cykeltræningsprogram, der fokuserer på mere end bare dine lårmuskler. De 5 udvalgte øvelser, kan laves både i hjemmet og i fitnesscenteret, og styrker din performance under cykling."
 language: da
@@ -12,7 +12,7 @@ category:
   - Cykling
 tags:
   - styrketræning
-  - cykliing
+  - cykling
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
 author: nikolai.jauk
@@ -79,7 +79,7 @@ Man behøver som udgangspunkt ikke vægte til squat på ét ben, da øvelsen er 
 
 ### 5. Burpees
 
-Burpees er en øvelse, hvor der er høj fokus på, at få bevæget og styrke størstedelen af kroppen. Denne dynamiske øvelse styrker muskler og led, men også kondition da den helt sikkert får pulsen op. Derfor er det også en super smart måde at få inkorporeret adræthed i sit cykeltræningsprogram.
+[Burpees](/oevelse/burpees/) er en øvelse, hvor der er høj fokus på, at få bevæget og styrke størstedelen af kroppen. Denne dynamiske øvelse styrker muskler og led, men også kondition da den helt sikkert får pulsen op. Derfor er det også en super smart måde at få inkorporeret adræthed i sit cykeltræningsprogram.
 
 Du laver en burpee ved at starte, som om du skal lave en armbøjning. I én bevægelse trækker du benene op, så det ligner, at du er ved at lave et squat. Til sidst laver du rutinen modsat, så du igen står i stilling med maven pegende mod jorden.
 

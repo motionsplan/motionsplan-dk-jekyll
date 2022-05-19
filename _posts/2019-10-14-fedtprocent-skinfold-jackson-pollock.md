@@ -91,7 +91,7 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
   {% endfor %}
 {% endif %}
 
-## Referencer til Pollock og Jackson
+## Referencer
 
 {% include feature_row id="feature_row_references" type="left" %}
 

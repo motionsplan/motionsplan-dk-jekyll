@@ -51,8 +51,14 @@ Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skul
 
 Der er forskellige formler for drenge i forhold til, hvor langt fremme de er i puberteten. I denne udregner har vi brugt formlen for [Tanner 1](http://www.scientificspine.com/spine-scores/tanner-scale.html).
 
-| Drenge | Fedtprocent = 1,21 * (triceps + subscapular) - 0,008 * (triceps + subscapular)<sup>2</sup> - 1.7 |
-| Piger  | Fedtprocent = 1,33 * (triceps + subscapular) - 0,013 (triceps + subscapular)<sup>2</sup> - 2,5 |
+- Drenge: Fedtprocent = 1,21 * (triceps + subscapular) - 0,008 * (triceps + subscapular)<sup>2</sup> - 1,7
+- Piger: Fedtprocent = 1,33 * (triceps + subscapular) - 0,013 (triceps + subscapular)<sup>2</sup> - 2,5 |
+
+## Konklusion
+
+Slaughter-formlen bruges til at estimere børns fedtprocent. Det er dog formentlig endnu bedre bare at sammenligne børnenes hudfoldstykkelser over tid uden at omregne til fedtprocent. Den estimerede fedtprocent vil alligevel ikke være helt præcis, og derved begynder vi ikke at lære børnene, at vi rent faktisk får et præcist tal ud.
+
+Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI til børn og unge](/bmi-beregner-boern-unge-teenagere/).
 
 ## Referencer
 

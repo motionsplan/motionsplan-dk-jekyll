@@ -3,7 +3,7 @@ title: &title "Cirkeltræning: Effektiv træning - Øvelser og variationer"
 permalink: /cirkeltraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.4
   caption: *title
@@ -138,7 +138,7 @@ Du kan læse mere om, hvordan du kan skrue arbejds- og pauseperioder sammen i mi
 
 {% include faq.html %}
 
-## Referencer til cirkeltræning og circuit træning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer</summary>

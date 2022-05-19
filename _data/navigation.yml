@@ -75,6 +75,8 @@ blog:
         url: /bmr-beregner-hvilestofskifte-basalstofskifte/
       - title: "Ligevægtsindtag beregner"
         url: /ligevaegtsindtag-beregner/
+      - title: "BMI beregner"
+        url: /bmi-beregner/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"
@@ -325,11 +327,9 @@ methods:
       - title: Okklusion
         url: /styrketraening/okklusion/
       - title: Partial reps
-        url: /styrketraening/partial-reps/
+        url: /styrketraening/range-of-motion/
       - title: Pyramide
         url: /styrketraening/pyramide/
-      - title: Regressive range of motion
-        url: /styrketraening/regressive-range-of-motion/
       - title: Myoreps
         url: /styrketraening/myoreps/
       - title: Rest-pause

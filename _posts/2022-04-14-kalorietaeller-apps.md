@@ -33,9 +33,9 @@ De fleste af de apps, vi har testet har en gratis udgave, men hvis du skal have 
 
 [MyFitnessPal](https://www.myfitnesspal.com/da/){: rel="nofollow noopener" } er den førende kalorietæller app og har været det i mange år. Appen er ejet af sportsfirmaet Under Armor, og da det er en gammel spiller, så kan mange andre apps let integrere med MyFitnessPal. Fx kan Garmin Connect få resultaterne af næringsindtaget direkte fra MyFitnessPal.
 
-{% include figure image_path="/assets/images/blog/kalorietaeller-app-myfitnesspal.png" %}
+{% include figure image_path="/assets/images/blog/kalorietaeller-app-myfitnesspal.jpg" alt="MyFitnessPal hjemmeside kalorietæller" %}
 
-Appen er udenlandsk, men den er oversat til dansk, og den indeholder virkelig mange danske madvarer, som er blevet tilføjet af brugerne. Det gør det virkelig let at bruge appen i dagligdagen, når der er alle de gængse varer fra de danske dagligbutikker. 
+Appen er udenlandsk, men den er oversat til dansk, og den indeholder virkelig mange danske madvarer, som er blevet tilføjet af brugerne. Det gør det virkelig let at bruge appen i dagligdagen, når der er alle de gængse varer fra de danske dagligbutikker.
 
 Integrationen med andre apps går også den anden vej, så du i MyFitnessPal også kan få en ide om, hvad dit [daglige energibehov](/beregner/dagligt-energiforbrug-energibehov/) er baseret på din aktivitet.
 
@@ -45,7 +45,7 @@ Hvis du gerne vil have en app med et stort _community_, og hvor du kan dele din 
 
 [Lifesum](https://lifesum.com/da/){: rel="nofollow noopener" } er en omfattende og avanceret app med måltidsforslag og aktivitetsregistrering. Ligesom MyFitnessPal kan du forbinde appen til langt de fleste fitness apps, og derfor kan Lifesum være det sted, du har alle dine data. Lifesum kan også give dig måltidsforslag og kostplaner.
 
-{% include figure image_path="/assets/images/blog/kalorietaeller-app-lifesum.png" %}
+{% include figure image_path="/assets/images/blog/kalorietaeller-app-lifesum.jpg" alt="lifesum hjemmeside" %}
 
 I Lifesum skal du svare på en række spørgsmål, som giver dig en score for, hvor sund du er? Det er et ambitiøst mål, men herefter forsøger Lifesum at give dig gode råd til, hvordan du kan blive sundere. Jeg fik selv et råd om at spise mere frugt og grønt, hvis jeg ville have en højere score.
 
@@ -53,13 +53,13 @@ Lifesum giver dig mulighed for at få en kostplan eller en [slankekur](/slankeku
 
 Lifesum er også en kalorietæller app, hvor du kan registrere alle dine måltider. Du kan enten taste madvarerne ind, selv søge i den omfattende database eller ganske enkelt scanne stregkoden. Det er virkelig smart. Lifesum er noget mere brugervenlig end MyFitnessPal.
 
-Desværre er det begrænset i Lifesum, hvad man kan gøre uden at betale, men den er noget billigere end Arono. Den koster faktisk kun <del>34</del><ins>17</ins> kroner om måneden i øjeblikket. 
+Desværre er det begrænset i Lifesum, hvad man kan gøre uden at betale, men den er noget billigere end Arono. Den koster faktisk kun <del>34</del><ins>17</ins> kroner om måneden i øjeblikket.
 
 ### 3. Madital
 
 [Madital.dk](https://www.madital.dk/) brugte jeg næsten fra starten sammen med eleverne på Vejle Idrætshøjskole, da den blev tilgængelig for offentligheden i 2005. Det var den første online kalorieberegner på det danske marked, og den var gratis i starten.
 
-{% include figure image_path="/assets/images/blog/kalorietaeller-app-madital.png" %}
+{% include figure image_path="/assets/images/blog/kalorietaeller-app-madital.jpg" alt="madital kalorietæller" %}
 
 Madital.dk drives af en person, men der er sket meget siden starten. Du kan stadig få en gratis version, hvor du kan få kontrol over, om du spiser for lidt, for meget eller lige tilpas i forhold til dit mål. Hvis du har brug for en let app til kalorietælling, så er Madital.dk faktisk den app, jeg vil foreslå. Den er let at bruge, og de gratis muligheder er typisk nok for mig.
 
@@ -69,7 +69,7 @@ Madital.dk drives af en person, men der er sket meget siden starten. Du kan stad
 
 Hos Madlog.dk kan du købe adgang for helt ned til en uge ad gangen. Det er ret smart, når man tænker på, at man ofte kun har brug for at få et indblik i, om ens kostvaner svarer nogenlunde til de behov, man har.
 
-{% include figure image_path="/assets/images/blog/kalorietaeller-app-madlog.png" %}
+{% include figure image_path="/assets/images/blog/kalorietaeller-app-madlog.jpg" alt="madlog kalorietæller" %}
 
 ### 5. Arono
 
@@ -79,7 +79,7 @@ Når du tilmelder dig, så fortæller du Arono, hvor høj du er, hvor gammel og 
 
 Ud fra disse oplysninger forsøger Arono at bregne, hvor mange kalorier du skal spise om dagen i forhold til dit mål. Du skal dog være opmærksom på, at disse generelle beregninger netop er generelle, så de ikke nødvendigvis passer på alle mennesker.
 
-{% include figure image_path="/assets/images/blog/kalorietaeller-app-arono.png" %}
+{% include figure image_path="/assets/images/blog/kalorietaeller-app-arono.jpg" %}
 
 Selve kostplanen planlægges ud fra spørgsmål om dine madvaner. Du skal vælge, om du spiser kød eller er veganer, vegetar eller pescetar. Nu kan Arono fine opskrifter og indkøbslister til dig, så du får en god og alsidig kost med det rigtige makronæringsindhold og forhold mellem kulhydrat, fedt og protein.
 

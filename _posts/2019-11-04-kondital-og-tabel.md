@@ -10,8 +10,8 @@ description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder,
 excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
   for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital.
 header:
-  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
-  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
     kvinder og børn?
 last_modified_at: 2021-04-09T04:46:02+02:00
@@ -164,7 +164,7 @@ Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvæ
 
 Derfor foreslår [Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 
-Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde [BMI](/bmi/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
+Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde et [beregnet BMI](/bmi-beregner/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
 ## Hvordan udregnes Kondital ved Index 23?
 
@@ -217,7 +217,7 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 
 {% include faq.html %}
 
-## Referencer for kondition og kondital
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer</summary>
@@ -227,5 +227,7 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 * Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
 * Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
 </details>
+
+{% include pinterest image_path="/assets/images/pinterest/hvad-er-et-godt-kondital.jpg" data-pin-media="/assets/images/pinterest/hvad-er-et-godt-kondital.jpg" class="hidden" %}
 
 ## Noter til kondition og kondital

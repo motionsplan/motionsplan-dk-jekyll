@@ -6,8 +6,8 @@ redirect_from:
   - /kondital-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -30,7 +30,7 @@ polar:
 
 Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på. Hvis du leder efter en "kondital beregner", så kan du her finde forskellige metoder til udregning af konditallet.
 
-En måde er at beregne dit kondital ud fra en [vilkårlig løbedistance](/kondital-loeb-distance-tid/), løbe en [bip-test](/bip-test/) eller en [Cooper test](/cooper-test/). Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
+En måde er at beregne [dit kondital](/kondital/) ud fra en [vilkårlig løbedistance](/kondital-loeb-distance-tid/), løbe en [bip-test](/bip-test/) eller en [Cooper test](/cooper-test/). Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
 
 Men hvis du helst ikke vil rejse dig fra sofaen for at få svaret, så kan kan denne artikel være svaret. Her får du nemlig en række beregnere til kondital, som du kan udføre mens du ligger ned.
 
@@ -132,7 +132,7 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 
 ***
 
-[Se alle konditionstests](/kondition/tests/){: .btn .btn--large .btn--info }
+[Se alle konditionstests](/test-kondition-konditest-kondital/){: .btn .btn--large .btn--info }
 
 ## Validitet af beregning af kondital
 

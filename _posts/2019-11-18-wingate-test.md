@@ -125,7 +125,7 @@ Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er l
 
 {% include flipcard id="quiz" %}
 
-## Referencer om Wingate testen
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer</summary>

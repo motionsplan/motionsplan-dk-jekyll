@@ -54,7 +54,7 @@ class ExerciseAdapter implements ExerciseInterface
     }
     public function getUrl()
     {
-        return 'http://motionsplan.dk' . $this->document->getYaml()['permalink'];
+        return 'https://www.motionsplan.dk' . $this->document->getYaml()['permalink'];
     }
 
     /**

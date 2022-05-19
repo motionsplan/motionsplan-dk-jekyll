@@ -5,7 +5,7 @@ permalink: /intervallob-intervaltraening/
 excerpt: "Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.4
   caption: "Intervalløb: 10 effektive metoder til intervaltræning til løb"
@@ -142,7 +142,7 @@ Eksempler på sprintintervaller kan fx være:
 
 ### 2. Intervalløb til mælkesyreproduktion
 
-Hvis du gerne vil træne mælkesyreproduktionen og evnen til at løbe virkelig hurtigt i intervaller, så kan du bruge intervaller fra 200-600 meter. Pauselængden er mindst 1:3, men kan sagtens være endnu længere. Typisk er den totale dsitance 2-3 km.
+Hvis du gerne vil træne [mælkesyreproduktionen](/maelkesyre-traening/) og evnen til at løbe virkelig hurtigt i intervaller, så kan du bruge intervaller fra 200-600 meter. Pauselængden er mindst 1:3, men kan sagtens være endnu længere. Typisk er den totale dsitance 2-3 km.
 
 Formålet med de maksimale intervaller, som skaber rigtig meget træthed og mælkesyre, er at træne hastighed, mens du bliver træt. Samtidig forbedrer det evnen til at arbejde med mange træthedsstoffer og mælkesyre.
 
@@ -200,9 +200,9 @@ Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de l
 | 60-60              | 3-10 x 60 sekunders løb med 60 sek pause. Pausen kan fx være fra ½-2 min. Pausen kan være aktiv.                                                                                   | Tempoet dikterer udbyttet. Tjek også Billat-intervaller.  |
 | 30-30                      | 6-20 x 30 sek med 30 sek pause. Pause fra 15 sek til 1 min. Pausen kan være aktiv med at jogge en distance i stedet for at tage tid.                                                         | Tempoet dikterer udbyttet. Tjek også Billat intervaller  |
 | 10-20-30                                   | 30 s jog - 20 s løb - 10 s sprint gentages fx 8 runder. De første gange kan du gå 30 s - jogge 20 s og sprinte 10 s. Varier antallet af runder                                                                                              | Træningsformen har vist rigtig gode resultater på løbetider, kondition og sundhedsparametre. Dansk forskning af Jens Bangsbo                                            |
-| 20-10 (Tabata)                             | 20 sek løb – 10 sek pause. Den oprindelige protokol - som var lavet på cykel - var 8 gentagelser. Du kan lave fra 4-12 gentagelser.                                                                                                       | Jeg har skrevet et andet indlæg om [Tabata-intervaller](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Hvis du laver intervallerne på løbebånd, kan du hoppe af og på. |
+| 20-10 (Tabata)                             | 20 sek løb – 10 sek pause. Den oprindelige protokol - som var lavet på cykel - var 8 gentagelser. Du kan lave fra 4-12 gentagelser.                                                                                                       | Jeg har skrevet et andet indlæg om [Tabata-intervaller](/artikel/tabata-traening-intervaller/). Hvis du laver intervallerne på løbebånd, kan du hoppe af og på. |
 | 15-15                                      | 15 sek løb – 15 sek pause. Gentages fx fra 10 til 40 intervaller. Pause fra 10 til 15 sek.                                                                                                                                 | Løbes fx på en fodboldbane. Hvis du løber på løbebåndet, så kan du hoppe af og på ved at sætte fødderne ud til siden. Tjek også [HIIT](/hiit/). |
-| Sprint 8                                   | Sprint 30 sekunder. Pause i halvandet minut. Det er vigtigt, at du i pausen restituerer nok til at næste sprint er effektiv.                                                                                   | Læs mere om [Sprint 8](/artikel/sprint-8-intervaltræning-der-virker/)                                                                             |
+| Sprint 8                                   | Sprint 30 sekunder. Pause i halvandet minut. Det er vigtigt, at du i pausen restituerer nok til at næste sprint er effektiv.                                                                                   | Læs mere om [Sprint 8](/artikel/sprint-8-intervaltraening-der-virker/)                                                                             |
 | Billat-intervaller                                   | Billat intervaller til at forbedre hastigheden ved VO2max. Du udregner distance som du skal gennemføre i forskellige varigheder fra 30-30, 60-60 til 3-3. | Jeg har skrevet uddybende om [Billat-intervaller]({% link _posts/2020-08-08-billat.md %}).                                                                             |
 
 </div>

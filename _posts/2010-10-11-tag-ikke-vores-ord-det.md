@@ -6,7 +6,7 @@ redirect_from:
   - /artikel/hvordan-kan-du-laese-en-videnskabelig-artikel/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
@@ -36,7 +36,7 @@ Det er desværre ikke tilfældet i øjeblikket. Artiklerne er naturligvis beskyt
 
 Men der er også kræfter, der arbejder på at gøre artiklerne offentlige, som er lidt i den grå afdeling på internettet. [Sci-Hub](https://da.wikipedia.org/wiki/Sci-Hub) er startet som en reaktion på de høje priser, forlagene tager for den videnskabelige litteratur.
 
-{% include figure image_path="/assets/images/blog/scihub.png" %}
+{% include figure image_path="/assets/images/blog/scihub.jpg" %}
 
 Sci-Hub skifter jævnligt internet-adresse, men hvis du lige skal læse en enkelt videnskabelig artikel, som du ikke kan få adgang til, så kan du prøve at Google siden.
 
@@ -62,17 +62,21 @@ En videnskabelig artikel har næsten altid denne opbygning.
 
 ## Hvordan vurderer vi de videnskabelige artikler?
 
-Design
-: Har studiet et solidt design? Hvordan måles effekten af det studiet undersøger? Er der en kontrolgruppe? Er grupperne tilfældigt sammensat? Er forsøget blindet? Det mest solide design er dobbeltblindet, randomiseret forsøg med kontrolgruppe.
+### 1. Design
 
-Udvælgelseskriterier
-: Hvordan er forsøgspersonerne udvalgt? Bliver det sandsynliggjort at forsøgsgruppen er repræsentativ for den befolkningsgruppe, forsøget gerne vil sige noget om. Er der _selektionsbias_?
+Har studiet et solidt design? Hvordan måles effekten af det studiet undersøger? Er der en kontrolgruppe? Er grupperne tilfældigt sammensat? Er forsøget blindet? Det mest solide design er dobbeltblindet, randomiseret forsøg med kontrolgruppe.
 
-Tid
-: Foregår studiet over så lang tid, at det er sandsynligt, at der vil komme en effekt?
+### 2. Udvælgelseskriterier
 
-Kausal sammenhæng?
-: Bliver det sandsynliggjort at effekten skyldes det undersøgte, eller kan der være andre forklaringer?
+Hvordan er forsøgspersonerne udvalgt? Bliver det sandsynliggjort at forsøgsgruppen er repræsentativ for den befolkningsgruppe, forsøget gerne vil sige noget om. Er der _selektionsbias_?
+
+### 3. Tid
+
+Foregår studiet over så lang tid, at det er sandsynligt, at der vil komme en effekt?
+
+### 4. Kausal sammenhæng?
+
+Bliver det sandsynliggjort at effekten skyldes det undersøgte, eller kan der være andre forklaringer?
 
 Hvilke kriterier kigger I efter, når I forsøger at tilegne jer viden?
 
@@ -121,7 +125,7 @@ Selvom to datasæt og statistikker følges af, så betyder det ikke nødvendigvi
 ## Hvad er sammenhængen mellem korrelationskvotienten (r) og r<sup>2</sup>?
 
 R
-: R er korrelationskvotienten mellem fx x og y, og den ligger mellem -1 og 1. Hvis x og y er perfekt korreleret vil den ligge på enten 1 eller -1. Hvis der ikke er nogen sammenhæng mellem x og y vil den ligge på 0. 
+: R er korrelationskvotienten mellem fx x og y, og den ligger mellem -1 og 1. Hvis x og y er perfekt korreleret vil den ligge på enten 1 eller -1. Hvis der ikke er nogen sammenhæng mellem x og y vil den ligge på 0.
 
 Korrelationskvotienten giver kun mening for en simpel linær model. Hvis der er flere uafhængige variable, så kan man bruge R<sup>2</sup>.
 

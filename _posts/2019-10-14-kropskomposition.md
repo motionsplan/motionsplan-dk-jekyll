@@ -126,13 +126,13 @@ Der er stor forskel i kvaliteten og præcisionen af BIA-apparater - og det er no
 
 Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar information også om vandbalancen i kroppen. Samtidig får man information om muskelmasse, _lean body mass_ og fedtprocent.
 
-[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans){: .btn .btn--large .btn--success }
+[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans/){: .btn .btn--large .btn--success }
 
 ### 5. Målinger og udregninger
 
-Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx en [BMI beregner](/bmi/) eller andre lignende mere generelle målinger.
+Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx en [BMI beregner](/bmi-beregner/) eller andre lignende mere generelle målinger.
 
-[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info .btn--large }
+[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent/){: .btn .btn--info .btn--large }
 
 ## Afslutning om kropskomposition
 
@@ -147,6 +147,10 @@ InBody har lavet en fin video, der hurtigt gennemgår pointerne ift. kropskompos
 Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I min optik må du aldrig lade mere eller mindre nøjagtige tests og målinger definere, hvad du synes din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) skal være og overveje en [slankekur]({% link _posts/2020-09-04-slankekur.md%}). Bliv stærk, hurtig, udholdende i stedet, og så vil du blive stadig mere tilfreds med din krop.
 {: .notice .notice--info }
 
-## Referencer om kropskomposition
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide)
+</details>

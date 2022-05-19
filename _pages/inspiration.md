@@ -83,19 +83,19 @@ yogastream:
     alt: "Bliv medlem af Yogastream og lær yoga"
     rel: sponsored nofollow noopener
 feature_row_running:
-  - image_path: https://www.pulsure.dk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/a/garmin_hrm-run-pulsmaaler_010-10997-12_2.jpg
+  - image_path: https://m2.apuls.dk/media/catalog/product/0/1/0101125403_1.jpg
     alt: "Garmin HRM-Tri Pulsbælte"
     title: "Garmin HRM-Run Pulsbælte"
     excerpt: "Garmins pulsbælte fungerer rigtig fint sammen med EliteHRV-appen til at måle heart rate variability og naturligvis sammen med de forskellige Garmin Produkter, fx det fantastiske FENIX-ur."
-    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-hrm-run-pulsmalerrem-black-1476604
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/garmin-pulsblte-hrm-tri-og-hrm-swim
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: "sponsored nofollow noopener"
-  - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
-    alt: "Garmin FENIX 5S Smartwatch"
-    title: "Garmin FENIX 5S Smartwatch"
+  - image_path: https://www.proshop.dk/Images/600x800/2800146_4b59fc4eda4b.jpg
+    alt: "Garmin FENIX 6X PRO Smartwatch"
+    title: "Garmin FENIX 6X PRO Smartwatch"
     excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
-    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Sportsur-Aktivitetstracker/Garmin-fenix-6X-Pro-Solar-Titanium-blackgrey/2800146
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -107,11 +107,11 @@ feature_row_running:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
+  - image_path: https://comtek.dk/wp-content/uploads/2020/10/db7db160-56ae-493f-86f1-f488c90a3615.jpg
     alt: "Bose Spoundsport Free"
     title: "Bose Spoundsport Free"
     excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74162&htmlurl=https://comtek.dk/produkt/bose-soundsport-free-in-ear/
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -145,7 +145,7 @@ På denne side har jeg samlet alle mine anbefalinger og de ting til træning, je
 
 ## Løbeur, pulsbælte og høretelefoner
 
-Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitution/) på.
+Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution](/restitution/) og [restitutionstid](/restitutionstid/) på.
 
 {% include feature_row type="left" id="feature_row_running" %}
 
