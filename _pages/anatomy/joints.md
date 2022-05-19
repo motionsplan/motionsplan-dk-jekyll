@@ -64,7 +64,7 @@ Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion
 
 **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 
-I alt har du i kroppen omkring [270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop.
+I alt har du i kroppen omkring [270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop. [Musklerne](/muskler/) fæster på [knoglerne](/knogler/) og dermed kan kroppen bevæge sig.
 
 ## Ægte og uægte led
 
