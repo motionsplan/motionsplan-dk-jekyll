@@ -172,3 +172,16 @@ Vi har også set på, hvordan man opbygger muskelmasse, og forklaret nogle af de
 {% endif %}
 
 </div>
+
+Hvordan opbygger man muskler?
+Hvad hedder de forskellige muskelgrupper?
+Hvordan fungere musklen?
+Hvor mange muskler i kroppen?
+Hvor meget af kroppens vægt er muskler?
+Hvad er muskler?
+Hvad er musklernes funktion?
+Hvad er skeletmuskler?
+
+### Muskelmasse kvinder
+
+### Ømme muskler
