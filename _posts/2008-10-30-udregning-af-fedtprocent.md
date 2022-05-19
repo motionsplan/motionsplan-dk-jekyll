@@ -2,7 +2,8 @@
 title: "Beregn din fedtprocent: Udregning med alder, højde og vægt"
 seo_title: "Fedtprocent beregner: Beregn fra alder, højde og vægt"
 permalink: /artikel/udregning-af-fedtprocent/
-excerpt: Beregn din fedtprocent med en udregning med dit køn, alder, højde og vægt i denne
+description: Vil du gerne kende din fedtprocent? Beregn din fedtprocent på baggrund af køn, alder, højde og vægt i denne beregner for mænd og kvinder.
+excerpt: Beregn din fedtprocent med en udregning baseret på køn, alder, højde og vægt i denne
   fedtprocent beregner for mænd og kvinder. Avanceret beregner med forskellige fedtprocent formler.
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
@@ -32,22 +33,35 @@ toc: true
 redirect_from:
   - /udregn-fp/
 language: da
+faq:
+  - question: Hvad er en normal fedtprocent?
+    answer: En normal fedtprocent er forskellig for mænd og kvinder. En sund fedtprocent for mænd ligger mellem 8% til 25% alt efter alderen. En normal fedtprocent hos kvinder ligger på 21% til 36% alt efter alderen. Kvinder har ganske enkelt en større mængde fedt i forhold til deres kropsvægt. Du kan læse mere om [normal fedtprocent for kvinder og mænd](/fedtprocent-normer/).
+  - question: Hvordan kan man måle fedtprocent?
+    answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/) med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/artikel/inbody-570-bioimpedans/) på en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/maal-fedtprocent/).
+  - question: Kan man have for lav fedtprocent?
+    answer: Du kan sagtens have for lav fedtprocent. Fedt er en helt essentiel del af kroppens processer. Derfor der det også godt at holde sig inden for den anbefalede fedtprocent. Hvis du allerede har en meget lav fedtprocent, så kan det gå ud over din sundhed, hvis du går efter en lavere fedtprocent.
+  - question: Kan man have for høj fedtprocent?
+    answer: Du kan have for høj fedtprocent, hvis du er overvægtig og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet](/taljemaal/) eller [hofte-talje-forholdet](/talje-hofte-ratio/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan være farligt, hvis fedtet er centreret omkring de indre organer.
 ---
 Jeg har lavet en fedtprocent-beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
 
 *[BMI]: Body Mass Index
 
-Udregningen af fedtprocent ud fra en generel formel er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og passer kun på gennemsnitlige folk, der deler din højde, vægt, alder og køn. Derfor skal du tage resultaterne i beregneren med forbehold, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
+Mange vil gerne kende sin fedtprocent. Derfor vil mange også gerne kunne beregne og måle fedtprocent. Her får du en beregner til at udregne din fedtprocent.
 
-Mange går op i at beregne og måle fedtprocent. Udregning af fedtindholdet i kroppen er bare en af metoderne. Du kan [bestemme din kropskomposition](/kropskomposition/) på flere måder, og der er [flere metoder til måling af fedtprocent](/maal-fedtprocent/). Der er udfordringer med alle måder at udregne fedtprocent.
+Udregning af fedtindholdet i kroppen er bare en af metoderne til at bestemme fedtprocenten. Du kan [bestemme din kropskomposition](/kropskomposition/) på flere måder, og der er [flere metoder til måling af fedtprocent](/maal-fedtprocent/).
 
 Overvej altid hvorfor du gerne vil prøve at udregne din fedtprocent. Vil viden om din kropskomposition tilføje noget til dit liv. Hvis du træner, så synes jeg styrke, hurtighed, udholdenhed og springhøjde er mere interessante parametre.
+
+## Beregn din fedtprocent: Udregning med alder, højde og vægt
+
+Mange forskere har lavet et bud på, hvor dan man kan beregne sin fedtprocent på baggrund af køn, alder, højde og vægt. Man kan altså udregne sin fedtprocent for kvinder og mænd ved et par enkle indtastninger.
 
 Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle beregner.
 
 ## Udregn din fedtprocent i vores beregner
 
-Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
+Beregn din fedtprocent i vores fedtprocent beregner.
 
 {% include calculate-fat-percent.html %}
 
@@ -71,7 +85,7 @@ Hvis du kigger på formlen fra Gallagher et al (2002), så beskriver den en kurv
 
 {% include figure image_path="/assets/images/blog/bmi-gallagher.png" caption="Formlen fra Gallagher et (2000) har en kurvet sammenhæng." %}
 
-Når du kigger formlerne igennem, så vil du se at **alder** er et vigtigt parameter i de fleste formler. Dette indikerer, at det **ikke** er rimeligt at bruge et fast BMI på tværs af alle aldersgrupper til at definere **overvægt**.
+Når du kigger formlerne igennem, så vil du se at alder er et vigtigt parameter i de fleste formler. Dette indikerer, at det ikke er rimeligt at bruge et fast BMI på tværs af alle aldersgrupper til at definere overvægt.
 
 Hvis vi kan etablere en fælles reference for, hvornår en fedtprocent kan opfattes som overvægtig, så ville vi i teorien kunne regne baglæns til forskellige aldersgrupper med, hvad BMI skulle være.
 
@@ -95,7 +109,7 @@ Fedtprocent = 1,37 * BMI - 3,47
 </details>
 
 <details markdown="1">
-  <summary>Se formler Jackson & Pollock (1980)</summary>
+  <summary>Se formel fra Jackson & Pollock (1980)</summary>
 
 Adult Body Fat % = (1,61 * BMI) + (0,13 * age) - (12,1 * gender) - 13.9
 
@@ -167,46 +181,57 @@ gender: men = 1; female = 0
 
 ## Usikkerhed i udregningen af fedtprocent
 
-Hvad kan jeg så bruge udregningen af fedtprocent til?
+Hvad kan jeg så bruge fedtprocent beregningen til? Når du vurderer dit resultat fra en fedtprocent beregner, så skal du være helt klar over de usikkerheder, der er forbundet med de forskellige formler for fedtprocent.
 
-Når du vurderer det, så skal du være helt klar over de usikkerheder, der er forbundet med de forskellige formler.
+Der er udfordringer med alle måder at bestemme sin fedtprocent på. Udregningen af fedtprocent ud fra en generel formel er naturligvis også forbundet med flere usikkerheder.
 
-- Der er **ikke en linæer sammenhæng mellem fedtprocent og BMI**. Antagelsen i de fleste af de præsenterede formler holder altså ikke for yderområderne af BMI.
-- Da højden og vægten indgår i de fleste formler for fedtprocent, så er beregninger af fedtprocentent behæftet med de samme usikkerheder som BMI. Det er umuligt at vide, om vægten er forårsaget af muskler eller fedt.
+Du skal altså ikke gå på en [tvivlsom slankekur](/slankekur/) på baggrund af disse beregninger.
 
-Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
+## Fedtprocent i forhold til Body Mass Index?
 
-Jeg har skrevet mere om [BMI skalen](/bmi/) og lavet en [BMI beregner](/bmi-beregner/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+Beregningen af din fedtprocent er indirekte og passer kun på gennemsnitlige folk, der deler din højde, vægt, alder og køn. Derfor skal du tage resultaterne i beregneren med forbehold, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt. Det er de samme udfordringer der findes med BMI.
+
+Der er reelt ikke en linæer sammenhæng mellem fedtprocent og BMI. Antagelsen i de fleste af de præsenterede formler holder altså ikke for yderområderne af dit Body Mass Index.
+
+Da højden og vægten indgår i de fleste formler for fedtprocent, så er beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI. Det er umuligt at vide, om vægten er forårsaget af muskler eller fedt.
+
+Jeg har skrevet mere om [Body Mass Index](/bmi/) og lavet en [BMI beregner](/bmi-beregner/), og jeg har også skrevet et omfattende indlæg om [idealvægt](/idealvaegt/).
+
+## Hvad er en god fedtprocent?
 
 Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at kombinere udregningen af fedtprocent med en øjemålstest. Den kan give dig en nogenlunde ide, om din fedtprocent ligger inden for et sundt spektrum.
 
-{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
+{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten: Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
 
-Vi har skrevet et andet indlæg, hvor du kan tjekke din [fedtprocent i forhold til normerne for mænd og kvinder]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
-
-## Er kvinders fedtprocent større end mænds?
-
-Kvinders fedtprocent er højere end mænds for det samme BMI. Jackson et al (2002) viste, at kvindernes fedtprocent faktisk var 10,4% højere end mænds. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
-
-{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
-
-**Læs**: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
-
-## Hvad er en god fedtprocent?
+**Læs**: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
 
 Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
 
 {% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan beregner jeg fedtprocent?" %}
 
-**Læs**: [Hvad er en god fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
+Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)).
+
+## Er kvinders fedtprocent større end mænds?
+
+Kvinders fedtprocent er højere end mænds for det samme BMI. Jackson et al (2002) viste, at kvindernes fedtprocent faktisk var 10,4% højere end mænds i gennemsnit. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
+
+{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
+
+Mænds fedtprocent er lavere end kvindernes, fordi de relativt set har en større muskelmasse end kvinder.
+
+**Læs**: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
+
+## Ofte stillede spørgsmål om fedtprocent
+
+{% include faq.html %}
 
 ## Konklusion
 
-Her har du haft mulighed for at beregne din fedtprocent baseret på alder, køn og højde. Det siger sig selv, at du ikke ender med din faktiske fedtprocent med mindre du er helt usædvanlig gennemsnitlig ift. den gruppe forsøgsdeltagere formlerne er baseret på.
+Her har du haft mulighed for at beregne din fedtprocent baseret på alder, køn og højde. Det siger sig selv, at du ikke ender med din faktiske fedtprocent med mindre, at du er helt usædvanlig gennemsnitlig ift. den gruppe forsøgsdeltagere formlerne er baseret på.
 
 Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/maal-fedtprocent/) på.
 
-Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge de tal til.
+Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge det tal til.
 
 ## Referencer
 
