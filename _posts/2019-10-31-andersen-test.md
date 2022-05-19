@@ -36,13 +36,13 @@ feature_row:
     rel: nofollow noopener
 ---
 
-Andersen testen er en konditionstest, som er særligt velegnet til børn. Andersens test er let at udføre med mange børn og alle er aktiveret undervejs.
+Andersen testen er en [konditionstest](/test-kondition-konditest-kondital/), som er særligt velegnet til børn. Andersens test er let at udføre med mange børn og alle er aktiveret undervejs.
 
 Andersen testen er særlig god til test af børn, og det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/). Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), og den er samtidig meget nem at udføre.
 
 Testen udstiller heller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane.
 
-Andersen Testen er udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/) og er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet. 
+Andersen Testen er udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/) og er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet.
 
 Du skal bruge en bane på 20 meter, hvor deltagerne skal løbe fra side til side. Deltagerne skal løbe i 15 sekunder og holde pause i 15 sekunder. Det kan være en fordel at have noget musik til testen eller en _timer_, så du ikke behøver at tage tid undervejs.
 

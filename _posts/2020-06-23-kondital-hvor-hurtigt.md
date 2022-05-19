@@ -22,7 +22,7 @@ last_modified_at: 2021-04-04T08:14:14Z
 toc: true
 ---
 
-Jeg har undersøgt, hvor hurtigt man mister formen, hvis man holder pause fra træningen? Man bruger mange kræfter på at komme i god kondition, men hvor hurtigt falder konditallet egentlig, når man holder ferie fra træningen?
+Jeg har undersøgt, hvor hurtigt man mister formen, hvis man holder pause fra træningen? Man bruger mange kræfter på at komme i god [kondition](/kondition/), men hvor hurtigt falder konditallet egentlig, når man holder ferie fra træningen?
 
 I dette indlæg kigger jeg på følgende spørgsmål:
 

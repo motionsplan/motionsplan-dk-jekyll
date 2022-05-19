@@ -19,7 +19,7 @@ toc: true
 breadcrumbs: true
 ---
 
-Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver konditionstræning. Så lad os kigge på, hvad effekten er af kredsløbstræning?
+Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver [konditionstræning og kredsløbstræning](/konditionstraening/). Så lad os kigge på, hvad effekten er af kredsløbstræning?
 
 Konditionstræning kaldes også pulstræning, kredsløbstræning eller cardio-træning eller slet og ret _cardio_. Træningen handler naturligvis om at få kredsløbet med hjertet, lungerne og musklerne til at arbejde og sende blod rundt i systemet.
 
@@ -41,7 +41,7 @@ Når kroppen skal producere vedvarende energi under længere tids arbejde, skal 
 
 **Kondition er et mål for, hvor effektiv ilt transporteres rundt i kroppen, og hvor effektivt musklerne udnytter ilten til at skabe energi.**
 
-Kondition kan måles med konditallet. **Konditallet** er et udtryk for, hvor mange ml ilt en atlet kan optage pr. kg kropsvægt i minuttet. Desto mere ilt musklerne kan optage, desto større arbejdskapacitet har atleten og jo større er udholdenheden.
+[Kondition](/kondition/) kan måles med [konditallet](/kondital/). **Konditallet** er et udtryk for, hvor mange ml ilt en atlet kan optage pr. kg kropsvægt i minuttet. Desto mere ilt musklerne kan optage, desto større arbejdskapacitet har atleten og jo større er udholdenheden.
 
 Det er til stadig diskussion hvor de begrænsende faktorer er i kredsløbssystemet. Enten er det lungerne og kredsløbets evne til at få sendt ilten rundt i kroppen, eller også er det musklernes evne til at optage og bruge ilten.
 
@@ -59,15 +59,15 @@ Lad os komme til sagen med, hvilke adaptationer der sker ved konditionstræning.
 
 ## Hvilken effekt har konditionstræning?
 
-Kredsløbstræning har en række fysiologiske effekter.
+Kredsløbstræning har en række fysiologiske effekter. Her kan du se en række af de det mest oplagte ting, der sker.
 
-## Blodmængden og hæmoglobinmængden stiger
+### 1. Blodmængden og hæmoglobinmængden stiger
 
 Blodbanen skal ved hjælp af de røde blodlegemer (hæmoglobin) transportere ilt og næringsstoffer til musklerne og fjerne affaldsstofferne fra musklerne igen. Du trækker vejret, så der kommer ilt ned i lungerne. Ilten bliver optaget i blodet, hvor iltmolekylet binder sig til hæmoglobin. Med de røde blodlegemer transporteres ilten hen til musklerne.
 
 Når du belaster kredsløbet over længere tid, så begynder kroppen at producere mere blod for at tilpasse sig træningen. En utrænet voksen har omkring 5-6 liter blod i kroppen, men ekstremt veltrænede atleter kan have helt op til 6-8 liter blod. Med stigningen i blodmængden stiger andelen af røde blodlegemer også.
 
-## Hjertet vokser og bliver stærkere
+### 2. Hjertet vokser og bliver stærkere
 
 Hjertets er ansvarlig for at pumpe blod ud til de arbejdende muskler. Hjertets pumpefunktion og -kapacitet udgøres af to faktorer:
 
@@ -97,7 +97,7 @@ Der sker to tilpasninger i hjertet ved konditionstræning. Hvilken tilpasning de
 
 Så hjertet vokser altså både i størrelse, og hjertet bliver stærkere.
 
-## Kapillærnettet udbygges
+### 3. Kapillærnettet udbygges
 
 Kapillærerne er kroppens mindste blodårer. Kapillærerne omkranser muskler og organer, og det er her udvekslingen af næringsstoffer, ilt og affaldsstoffer foregår.
 
@@ -105,17 +105,17 @@ Når man laver specifik træning udbygges kapillærnettet lokalt i de arbejdende
 
 Med flere kapillærer kan processen med at levere ilt og næringsstoffer forløbe hurtigere og mere effektivt, og musklernes arbejdsbetingelser bliver bedre.
 
-## Myoglobinniveauet i musklen stiger
+### 4. Myoglobinniveauet i musklen stiger
 
 Myoglobin og hæmoglobin er gode venner i kroppen. Hæmoglobinet findes i blodbanen og transporterer ilt, og myoglobinet findes i muskelcellerne for at tage imod ilten fra hæmoglobinet.
 
 Når du træner får du mere myoglobin i muskelcellerne, så der er flere modtagere til at modtage ilten fra blodets hæmoglobin (som jo også er steget).
 
-## Antallet af mitokondrier vokser
+### 5. Antallet af mitokondrier vokser
 
 Mitokondrierne er de små kraftværker i musklerne, som kan lave energi. Mitokondrierne bruger næringsstofferne og ilten til at lave energimolekylet ATP. Antallet af mitokondrier øges med træning, og sandsynligvis bliver koncentrationen af mitokondrier tæt på cellevæggen formentlig også højere.
 
-## Antallet af enzymer stiger
+### 6. Antallet af enzymer stiger
 
 Enzymer hjælper gør processerne i forbindelse med forbrændingen i mitokondrierne mere effektive. Der findes mange forskellige enzymer i kroppen, som hjælper i forskellige processer.
 

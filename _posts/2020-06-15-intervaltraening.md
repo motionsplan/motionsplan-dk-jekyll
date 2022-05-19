@@ -21,7 +21,7 @@ toc: true
 breadcrumb: true
 ---
 
-Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min kondition, kraft og hastighed. Intervaller er en fast del af mit træningsprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer.
+Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min [kondition](/kondition/), kraft og hastighed. Intervaller er en fast del af mit træningsprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer.
 
 **Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du er i stand til at arbejde med en højere intensitet i din træning. Formålet med intervaltræning er ofte at arbejde med både det aerobe og det anaerobe energisystem.**
 
