@@ -3,7 +3,7 @@ layout: single
 title: &title "Skulderleddet og skulderbladet (skulderbæltet)"
 seo_title: "Skulderleddet og skulderbladet: Skulderbæltets anatomi"
 permalink: /joints/skulderleddet/
-excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
+excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet. Skulderbæltet består af skulderleddet og skulderbladet."
 latin: Scapula
 tags:
   - led
