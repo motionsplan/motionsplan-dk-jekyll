@@ -11,46 +11,11 @@ categories:
   - Anatomi
 tags:
   - anatomi
-feature_row:
-  - image_path: /assets/images/anatomy/glideled.png
-    alt: "Glideled"
-    title: "Glideled"
-    excerpt: "Et glideled kan lave to forskellige parallelforskydninger og en vinkelbevægelse. Der er glideled mellem tappene i ryghvirvlerne."
-  - image_path: /assets/images/anatomy/haengselled.png
-    alt: "Hængselled"
-    title: "Hængselled"
-    excerpt: "Et hængselled kan lave en bevægelse som ligner en drejning i et dørhængsel. Albueleddet og knæleddet er fx hængselled."
-  - image_path: /assets/images/anatomy/drejeled.png
-    alt: "Drejeled"
-    title: "Drejeled"
-    excerpt: "Et drejeled kan lave en drejning omkring knoglens længderetning. Der er fx et drejeled mellem ulna og radius, som er underarmens knogler."
-  - image_path: /assets/images/anatomy/saddelled.png
-    alt: "Saddelled"
-    title: "Saddelled"
-    excerpt: "Et saddelled kan lave to bevægelser, som går vinkelret på hinanden. Tommelfingerens rodled er fx et saddelled."
-  - image_path: /assets/images/anatomy/aegled.png
-    alt: "Ægled"
-    title: "Ægled"
-    excerpt: "I et ægled foregår bevægelserne som et æg kan bevæge sig i et æggebæger. Den sidste nakkehvirvel inden kraniet er et ægled."
-  - image_path: /assets/images/anatomy/kugleled.png
-    alt: "Kugleled"
-    title: "Kugleled"
-    excerpt: "Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og i skulderleddet."
 toc: true
 sidebar:
   nav: anatomi
-gallery:
-  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
-    title: Skelettet fra siden - Anatomi plakat
-    rel: sponsored nofollow noopener
 last_modified_at: 2021-12-24T08:14:14Z
 breadcrumbs: true
-faq:
-  - question: Hvad er et led?
-    answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
-  - question: Hvor mange led har vi i kroppen?
-    answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
 ---
 
 Her kigger vi på de forskellige bevægelsestyper og bevægelsesplaner i anatomien. Kroppen har mange frihedsgrader, men her får du et anatomisk sprog til at beskrive kroppens bevægelser.
