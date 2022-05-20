@@ -1,7 +1,7 @@
 ---
 title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder"
 seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder (2022)"
-description: "Er du interesseret i at kende din fedtprocent? Her får viden om alle måder, man kan måle sin fedtprocent på? Flere kan du lave derhjemme i dag!"
+description: "Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere kan du lave derhjemme i dag!"
 permalink: /maal-fedtprocent/
 language: da
 header:
