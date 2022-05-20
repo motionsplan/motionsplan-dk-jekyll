@@ -60,6 +60,8 @@ Knæet er et af de led, hvor man ofte hører om alvorlige skader. Men knæleddet
   {{ m.muscles | join: ", " }}
 {% endfor %}
 
+## Knæets anatomi
+
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 
 ## Muskler i knæleddet

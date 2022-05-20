@@ -236,7 +236,7 @@ Når man strækker ud, får man faktisk ikke længere muskler. **Tilsyneladende 
 
 Når du strækker ud, så stimulerer du i høj grad nervesystemet. Hjernen og nervesystemet registrerer, at musklerne bliver strakt.
 
-I musklerne sidder proprioceptive sanser, der hele tiden fortæller hjernen, hvor meget stræk musklen er under, så den kan beskytte musklerne og senerne, hvis det er nødvendigt.
+I [musklerne](/muskler/) sidder proprioceptive sanser, der hele tiden fortæller hjernen, hvor meget stræk musklen er under, så den kan beskytte musklerne og senerne, hvis det er nødvendigt.
 
 Når man kommer tættere på en yderstilling, så vil strækket i musklerne efterhånden gøre mere og mere ondt. Det er et faresignal fra hjernen om, at nu skal man til at passe på for ikke at gøre skade på kroppen.
 

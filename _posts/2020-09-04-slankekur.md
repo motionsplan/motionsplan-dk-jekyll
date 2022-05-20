@@ -83,7 +83,7 @@ På den måde havde jeg maksimeret, hvad jeg kan tjene på at teste slankekuren 
 
 Kortvarige slankekure kommer aldrig til at virke. Faktisk er det usundt at have en vægt, der går op og ned.
 
-Ude og Hjemmes kure har ofte rigtig kort varighed, for så kan læserne næste uge igen hoppe på den nye mirakel-slankekur.
+Ude og Hjemmes kure har ofte rigtig kort varighed, for så kan læserne næste uge igen hoppe på den nye mirakel-slankekur. Årsagen er naturligvis, at mange gerne vil [tabe fedt på maven](/tab-fedt-paa-maven/).
 
 Med en slankekur skal du i øvrigt altid huske, at når du har tabt dig, så har du brug for mindre dagligt energi. Det er også derfor, at en slankekur meget sjældent virker. Du kan nemlig aldrig gå tilbage til dine gamle spisevaner uden at tage det hele på igen, fordi du nu skal bruge mindre energi.
 
