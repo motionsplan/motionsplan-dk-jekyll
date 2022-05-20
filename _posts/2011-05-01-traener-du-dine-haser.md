@@ -114,7 +114,7 @@ Derfor er det væsentligt at finde nogle øvelser, som kan forebygge skader i ba
 
 Du kan naturligvis bruge øvelserne ovenfor, men lad os også dykke lidt ned i videnskaben.
 
-## Øvelser som forebygger skader i baglåret
+## Øvelser som forebygger skader i hasemusklerne
 
 Horst et al (2015) har fundet ud af, at _Nordic Hamstring_-øvelsen er en rigtig god måde at forebygge baglårsskader for fodboldspillere, men det ikke reducerede alvorligheden af skaden.
 

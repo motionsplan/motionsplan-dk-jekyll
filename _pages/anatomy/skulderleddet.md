@@ -3,11 +3,12 @@ layout: single
 title: &title "Skulderleddet og skulderbladet (skulderbæltet)"
 seo_title: "Skulderleddet og skulderbladet: Skulderbæltets anatomi"
 permalink: /joints/skulderleddet/
-excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
+excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet. Skulderbæltet består af skulderleddet og skulderbladet."
 latin: Scapula
 tags:
   - led
 categories:
+  - Anatomi
   - Led
 movements:
   - title: Bøjning
@@ -65,19 +66,27 @@ header:
 toc: true
 sidebar:
   nav: anatomi
+last_modified_at: 2022-05-19T08:14:14.000Z
 ---
 
-{{ page.excerpt }}
+Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet. Skulderbæltet består af skulderleddet og skulderbladet.
 
-{% comment %}
+Her kigger vi på den overordnede [anatomi](/anatomi/) for skulderbæltet og strukturerne omkring. Vi kigger på, hvilke [knogler](/knogler/) og [muskler](/muskler/), der er med til at skabe det [led](/led/), som har den største alsidighed i bevægelser for kroppen.
 
-Skulderens utroligt store bevægelsesfrihed skabes gennem flere forskellige led, som man tilsammen kalder for skulderbæltet. Dette består af leddene mellem henholdsvis: overarmsknoglen og skulderbladet, skulderbladet og brystkassen, kravebenet og skulderbladet og leddet mellem kravebenet og brystbenet.
+## Hvad er skulderbæltet?
 
-For at kunne forstå skulderens bevægelser er det imidlertid kun nødvendigt at se på to dele, nemlig det egentlige skulderled (mellem overarmsknoglen og skulderbladet) og selve skulderbladets bevægelser. De fleste store bevægelser med armen vil være en kombination af bevægelser i begge disse “led”.
+Skulderbæltet består af leddene mellem:
+
+- overarmsknoglen og skulderbladet
+- skulderbladet og brystkassen
+- kravebenet og skulderbladet
+- kravebenet og brystbenet
+
+Det er altså tydeligt, at skulderbæltet er en kompliceret struktur. I det følgende koncentrerer vi os om selve skulderleddet, som er leddet mellem overarmsknoglen og skulderbladet, og skulderbladets bevægelser. Bevægelserne i disse to led kan nemlig være med til at analysere og forklare de fleste betydningsfulde bevægelser, man kan lave med armen.
 
 ## Skulderleddet
 
-Det egentlige skulderled består af et kugleled mellem overarmsknoglen og skulderbladet. Ledkapslen omkring skulderleddet er temmelig slap, til gengæld bliver leddet holdt aktivt på plads af en gruppe mindre muskler (rotatormanchetten).
+Skulderleddet er et kugleled mellem overarmsknoglen og skulderbladet. Overarmsknoglen bliver holdt aktivt på plads i skulderleddet ved de muskler, som samlet set kaldes rotatormanchetten. Ledkapslen er rimelig løs i skulderleddet, hvilket også er derfor nogle oplever, at skulderen går af led.
 
 ### Bevægelser i skulderleddet
 
@@ -88,20 +97,29 @@ Det egentlige skulderled består af et kugleled mellem overarmsknoglen og skulde
 
 ## Skulderbladet
 
-Skulderbladets bevægelser er som før nævnt en vigtig del af hele skulderens bevægelser. Kontakten mellem skulderbladet og bagsiden af brystkassen kan betragtes som et stort glideled.
+Skulderbladet, eller skulderbladet, er en stor flad knogle, der ligger på bagsiden af brystkassen. Det har en række vigtige funktioner:
 
-{% for m in page.movements_scapula %}
-- **{{ m.title }}**.
-  {{ m.muscles | join: ", " }}
-{% endfor %}
+- at give en overflade til fastgørelse af de muskler, der bevæger armen
+- at beskytte de underliggende strukturer
+- at fungere som en løftestang til at bevæge armen
 
-{% endcomment %}
+Skulderbladets bevægelser er en vigtig del af hele skulderens bevægelser. Skulderbladet kan bevæge sig rundt på bagsiden af rygsøjlen.
+
+Her kan du se de bevægelser, der kan foregå i skulderbladet.
 
 ### Bevægelser i skulderbladet
 
+{% for m in page.movements_scapula %}
+
+- **{{ m.title }}**.
+ {{ m.muscles | join: ", " }}
+{% endfor %}
+
+I denne video kan du blive klogere på, hvilken betydning skulderbladet har for skulderens bevægelser.
+
 {% include video provider="youtube" id="PPKlGlwxr5s" %}
 
-{% include figure image_path="https://i.pinimg.com/564x/2f/4b/ba/2f4bba694aee93da1f566dbd49791c4b.jpg" caption="Bevægelser i skulderbladet" %}
+I dette billede kan du se, hvilket bevægelser der er mulige i skulderbladet.
 
 {% include figure image_path="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12178-020-09672-6/MediaObjects/12178_2020_9672_Fig2_HTML.png" caption="Bevægelser i skulderbladet" %}
 

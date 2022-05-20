@@ -1,7 +1,7 @@
 ---
 layout: single
-title: &title "Led, ledtyper, bevægelser og bevægelsestyper 🔧"
-seo_title: "Led, ledtyper, bevægelser og bevægelsestyper"
+title: &title "Led, ledtyper og ledbevægelser 🔧"
+seo_title: "Hvad er et led? Forskellige ledtyper og ledbevægelser"
 excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 header:
@@ -45,53 +45,66 @@ gallery:
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
     title: Skelettet fra siden - Anatomi plakat
     rel: sponsored nofollow noopener
-last_modified_at: 2021-12-24T08:14:14Z
+last_modified_at: 2022-04-24T08:14:14Z
 breadcrumbs: true
 faq:
-  - question: Hvad er et led? 
+  - question: Hvad er et led?
     answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
   - question: Hvor mange led har vi i kroppen?
     answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
+  - question: Hvilke led er der i kroppen?
+    answer: Der findes mange forskellige typer af led i kroppen. Den mest almindelige type led hængselleddet, som bl.a. findes i albuen, knæet, anklen, fingre og tæer. Andre ledtyper omfatter kugleleddet, som findes i skulderen og hoften. Drejeleddet (findes i nakken) og glideleddet (findes i håndleddet). Der er et saddelled ved tommelfingeren, og endelig er der et ægled ved den sidste nakkehvirvel inden kraniet.
 ---
 
-Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
+Led er en vigtig del af læren om [kroppens anatomi](/anatomi/). Kroppens led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled.
 
-Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
+Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er at være samlingspunkt mellem [knogler](/knogler/), så kroppen kan lave bevægelser. Disse bevægelser kan deles op i forskellige bevægelsestyper.
 
-I alt har du i [kroppen omkring 270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop.
+## Hvad er et led?
 
-Der er mange forskellige ledtyper i kroppen. Led kan overordnet set opdeles i ægte og uægte led.
+**Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 
-Uægte led (dannet af brusk eller bindevæv)
-: Uægte led er led uden ledhule og synovialmembran. I de flestge uægte led er bevægelsesmulighederne små og typisk praktisk talt nul. De uægte led kan forenklet opdeles i uægte led skabt af brusk eller bindevæv.
+I alt har du i kroppen omkring [270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop. [Musklerne](/muskler/) fæster på [knoglerne](/knogler/) og dermed kan kroppen bevæge sig.
 
-Ægte led (hængselsled, drejeled, saddelled, ægled, kugleled og glideled)
-: Et ægte led omsluttes af en ledkapsel og en synovialmembran, som beskytter leddet. Et ægte led har en ledhule. Et ægte led består typisk af to ledflader med et ledhoved og en ledskål.
+## Ægte og uægte led
 
-{% comment %}
+Der er mange forskellige ledtyper i kroppen. Led kan overordnet set opdeles i ægte og uægte led. Her får du en hurtig definition, hvorefter vi går videre med at beskrive først de ægte led, som har størst betydning for bevægelser, og derefter de uægte led.
 
-## Ægte led
+### Uægte led (dannet af brusk eller bindevæv)
 
-Et ægte led omsluttes af en ledkapsel, som beskytter leddet. Ledkapslen producerer ledvæske, som smører og giver næring til ledbrusken, der er stødabsorberende. I de meget bevægelige led er der yderligere forstærkninger omkring ledkapslen med ledbånd. Fysisk aktivitet stimulerer en øget produktion af ledvæske og derved næring til ledbrusken. Desuden styrkes kapsel og ledbånd.
-{: .notice .notice--info }
+Uægte led er led uden ledhule og synovialmembran. I de fleste uægte led er bevægelsesmulighederne små og typisk praktisk talt nul. De uægte led kan forenklet opdeles i uægte led skabt af brusk eller bindevæv.
 
-Et ægte led består af to ledflader typisk med et ledhoved og en ledskål. Ledfladerne er beklædt med glat, elastisk ledbrusk. Brusken sikrer at de to flader kan glide mod hinanden med mindst mulig gnidningsmodstand. Tykkelsen på ledbrusken varierer naturligvis, men på de tykkeste steder kan brusken være helt op til 7 mm.
+### Ægte led (bevægelsesled)
 
-Ledbrusken indeholder ikke blodkar, men brusken får næring fra ledvæsken. Når leddene bevæges øges bruskens væskeindhold og tykkelse, hvilket forbedrer stabiliteten i ledddet. Bruskfladen i yderkanten af leddene er tyndere i yderkanterne end i midten, hvilket kan være en grund til ikke at belaste leddene i yderstillinger over længere tid. Med alderen mindskes elasticiteten i brusken.
+Et ægte led omsluttes af en ledkapsel og en synovialmembran, som beskytter leddet. Et ægte led har en ledhule. Et ægte led består typisk af to ledflader med et ledhoved og en ledskål.
 
-Leddene er omgivet af en ledkapsel, som består af bindevæv. Inderst i ledkapslen er en synovialhinde, der udskiller væske, som fylder ledhulen ud og skaber en lille adskillese mellem leddene. Sammen med brusken hjælper ledvæsken til at nedsætte friktionen i leddet. De fleste led er også forstærket med sener og ledbånd og på hver side af leddet er der også muskler, der er med til at stabilisere leddet.
+## Hvad er et ægte led?
 
-De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesudslaget afhænger af formen på knoglerne, stramheden i ledkapslen og ledbåndene og smidigheden af musklerne omkring leddet. Det vigtigste parameter er knoglernes form, og derfor kan man (forenklet) opdele kroppens led i forskellige mekaniske typer.
+Et ægte led har en ledhule, hvor to ledflader mødes. Et ægte led indkapsles af en ledkapsel og har en synovialmembran, som udskiller ledvæske og smører leddet.
 
-{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbygning af et kroppens ægte led og ledtyper" caption="Opbygning af et ægte led" %}
+Ledfladerne i de ægte led er beklædt med ledbrusk. Brusken er glat, elastisk og stødabsorberende. Den sikrer, at de to flader kan glide mod hinanden med mindst mulig modstand. Med alderen bliver brusken mindre elastisk, hvilket ofte kan mærkes som slidtage i fx ankler, knæ og hofter.
 
-{% endcomment %}
+Ledbrusken varierer i tykkelse, men på de tykkeste steder på fx lårbensknoglen kan den være helt op til 7 mm tykt. I yderkanterne af ledfladerne er tykkelsen på ledbrusken mindre.
 
-{% include gallery id="gallery" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
+Leddene er omgivet af en **ledkapsel**. Ledkapslen består af bindevæv. Inderst i findes en synovialhinde, der udskiller væske. Ledvæsken fylder ledhulen ud og skaber et lille mellemrum mellem ledfladerne.
 
-## Oversigt over ledtyper
+Ledkapslen producerer **ledvæske**. Ledvæsken smører leddet og giver næring til ledbrusken, da der ikke er nogen blodkar i brusken.
 
-Kroppens led kan inddeles i seks mekaniske typer led. Formen på leddene er det, der har størst betydning for bevægeligheden i leddene.
+Ledvæsken og brusken hjælper med at nedsætte gnidningsmodstanden i leddet. De fleste meget bevægelige led er også forstærket med sener og ledbånd, og [musklerne](/muskler/) er også med til at stabilisere leddet.
+
+Når leddet bevæges, så øges mængden af ledvæske, hvilket samtidig øger bruskens væskeindhold og tykkelsen. Det forbedrer stabiliteten i leddet, fordi det bliver mere kompakt. Det er derfor, man siger, at [opvarmning](/opvarmning/) smører leddene. Derved styrkes både ledkapsel og ledbånd gennem ledvæskens tilførsel af næring.
+
+## Bevægelser i de ægte led
+
+Formålet med led er at give skelettet bevægelsesfriheder. Hovedparten af kroppens bevægelser foregår i de ægte led. Retning og størrelse på bevægelsesudslaget afhænger af knoglernes form, ledkapslens stramhed og smidigheden i ledbånd og muskler omkring leddet.
+
+Afgørende for bevægelserne i leddene er dog knoglernes form. Derfor deles kroppens ægte led også op i forskellige ledtyper, som er med til at kategorisere de forskellige bevægelsestyper, der kan foregå i det pågældende led. Man kalder denne inddeling de **mekaniske ledtyper**.
+
+Ledkapslen producerer **ledvæske**. Ledvæsken smører leddet og giver næring til ledbrusken, da der ikke er nogen blodkar i brusken.
+
+## Oversigt over ledtyper i de ægte led
+
+Kroppens led kan inddeles i seks mekaniske typer led: hængselsled, drejeled, saddelled, ægled, kugleled og glideled. Formen på knoglefladerne i leddene er det, der har størst betydning for, hvordan bevægeligheden i leddene ser ud.
 
 {% include feature_row %}
 
@@ -99,13 +112,17 @@ Her kan du se, hvor nogle af de forskellige ledtyper er placeret i kroppen.
 
 {% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/909_Types_of_Synovial_Joints.jpg" alt="skelettet, led og ledtyper: ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-4-synovial-joints/)." %}
 
-## Uægte led
+## Hvad er uægte led?
 
-Et uægte led er et led uden ledhule og synovialmembran. I de fleste uægte led er bevægelsesmulighederne små, og i nogle praktisk talt nul, alligevel taler vi om led, fordi det drejer sig om selvstændige forbindelser mellem to eller flere knogler.
+De uægte led har ingen ledhule og synovialmembran. Der kan kun foregå mindre bevægelser i de fleste uægte led. De uægte led kendetegner altså selvstændige forbindelser mellem to eller flere knogler, hvor der kun kan foregå mindre bevægelser.
+
+De uægte led kan være holdt sammen af ledbånd eller fungere som symfyser.
 
 {% comment %}
 
 ### Uægte led holdt sammen af ledbånd
+
+I foden omkring anklen er der tilstødende knogler i foden, som holdes sammen af ledbånd.
 
 Ledbånd kender vi f.eks fra underbenet og foden, hvor tilstødende knogler holdes sammen af ledbånd.
 
@@ -117,7 +134,7 @@ Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og der
 
 {% endcomment %}
 
-## Bevægelser og bevægelsestyper i leddene
+## Bevægelser i leddene
 
 Der kan foregå bevægelser i leddene på mange forskellige måder. Ledtypen definerer, hvordan leddene kan bevæge sig.
 
@@ -139,80 +156,27 @@ Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 
 {% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
-Hvis du skal forstå de forskellige bevægelsesplaner, så kan du forestille dig, at du står i en meget smal korridor, hvor dine skuldre næsten rammer væggene i begge sider.
+Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/), så tjek følgende artikel.
 
-Bevægelser i det **sagitale plan** er de bevægelser, du kan lave med fleksion og ekstension frem og tilbage i den smalle korridor. Her har du en omdrejningsakse i leddene, som går fra igennem leddet sidevejs fra den ene side af kroppen (medialt) til den anden side af kroppen (lateralt).
+**Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
 
-Bevægelser som går ud til siden fra denne smalle korridor, men hvor du ikke har plads til at bevæge dig, vil være **bevægelser i det frontale plan**. Bevægelserne foregår gennem en akse, som går fra foran på kroppen (anterior) til bagved på kroppen (posterior).
+## Konklusion
 
-Rotationer omkring din akse vil være bevægelser i det **transversale plan**. Bevægelserne foregår fra en akse der går fra hovedet (superior) ned gennem kroppen (inferior).
+I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led der findes. Vi har også set på de bevægelser, der kan forekomme i et led, og hvordan disse bevægelser klassificeres. Endelig har vi udforsket de tre bevægelsesplaner, der definerer alle kroppens bevægelser.
 
-Jeg synes de forskellige bevægelsestyper og bevægelsesplan bliver forklaret godt i denne Youtube-video.
+## Ofte stillede spørgsmål
 
-{% include video provider="youtube" id="B1eG9DyYK9E" %}
-
-Bevægelser kan foregå i et eller flere af disse bevægelsesplaner. De forskellige bevægelsestyper hører typisk til i de forskellige bevægelsesplan på denne måde.
-
-### Sagitale plan
-
-- Bøjning (fleksion)
-- Stræk (ekstension)
-
-### Frontale plan
-
-- Udadføring (abduktion)
-- Indadføring (adduktion)
-- Sidebøjning (lateral fleksion)
-
-### Transversale plan
-
-- Rotationer (ind- og udad)
-
-## Analyse af bevægelser
-
-Lad os nu kigge på et par konkrete eksempler, og hvilke bevægelsesplaner bevægelserne foregår i.
-
-- **Dødløft**. Dødløft kan foregå i en smal korridor, og derfor foregår dødløft i det sagitale plan. Der er en ekstension i hoften. Ekstension i knæleddet. Men hvad så med **sumo-dødløft**? Her har du lavet en udadføring og udadrotation i hoften (alt efter om du lader tæerne pege udad) og en fleksion i hofteleddet for at komme i den rigtige position. Når du rejser dig fra et sumo-dødløft, skal du altså lave en indadføring i hofteleddet, mens selve udadrotationen fastholdes i hele bevægelsen, da fødderne jo står fast på gulvet. Der er stadig en ekstension i hoften og knæleddet. Sumo-dødløft går mere i lårets indadfører af denne årsag.
-- **Squat**. Et squat foregår i det sagitale plan. Der foregår en ekstension i knæleddet og hoften, når du rejser dig op i en squat. Hvis du laver en bredstående squat, så kan nogle af de samme overvejelser som under sumodødløft gøre sig gældende.
-- **Pullup**. En [pullup]({% link _posts/2020-06-30-pullup-chinup.md %}) med overhåndsgreb foregår bl.a. i det frontale plan, fordi der sker en indadføring i skulderleddet - særligt hvis du holder relativt bredt. Desuden foregår der en fleksion i albueleddet, som er i det sagitale plan.
-- **Chinup**. En [chinup]({% link _posts/2020-06-30-pullup-chinup.md %}) foregår i det sagitale plan, fordi du laver en ekstension i skulderleddet og en fleksion i albueleddet, når du hæver dig op.
-
-## Bevægelsesplan og bevægelsestyper for skulderen og hoften
-
-Skulderleddet og hoften er lidt anderledes i forhold til, hvordan bevægelserne hører til de forskellige bevægelsesplan.
-
-Nu kommer vi så til et par af de bevægelser, som jeg selv har brugt længst tid på at forstå i for hold til bevægelsestyper og bevægelsesplaner.
-
-Det drejer sig om fx armstrækninger og bænkpres, hvor skulderleddet er involveret, men de samme overvejelser gør sig gældende for hofteleddet.
-
-Når skulderen er hævet i halvfems graders vinkel fra kroppen, og du bevæger armene rundt i nogenlunde denne højde, så foregår bevægelserne i det transversale plan. Det er tydeligt, når du tænker på, hvor aksen er for bevægelsen, som jo går ovenfra (superior) og ned (inferior).
-
-{% include figure image_path="https://blog.nasm.org/hubfs/Imported_Blog_Media/Screen-Shot-2019-05-28-at-1_56_36-PM-1024x451.png" caption="Når armene og benene holdes i 90 graders vinkel på kroppen, så er bevægelserne i det transverale plan. Kilde: [NASM](https://blog.nasm.org/exercise-programming/sagittal-frontal-traverse-planes-explained-with-exercises)" alt="bevægelsesplan for skulderen i det transversale plan" %}
-
-Du har i dette tilfælde en overarm, der roterer omkring den transversale akse.
-
-Lad os prøve at kigge lidt på armstrækninger og bænkpres.
-
-- **Armstrækning**. En [armstrækning - eller en armbøjning]({% link _posts/2020-07-05-pushups.md %}) som den også ofte kaldes kan enten være udført smalt eller bredt. Hvis **armstrækningen er smal**, så foregår bevægelserne i det sagitale plan, fordi der er en bøjning i skulderleddet og en strækning i albueleddet.
-- Hvis du laver **bred armstrækning**, så foregår der stadig en strækning i albueleddet. Desuden foregår der en indadføring (adduktion) i skulderleddet. Dette er en kombineret bevægelse, som derfor foregår i det transversale plan, fordi armene er hævet. Det betyder, at den kombinerede bevægelse skaber en rotation i bevægelsesplanet, men fordi det er en lukket kæde, så foregår der ikke rotation i selve skulderleddet.
-
-Det samme er tilfældet for **bænkpres**. Den kombinerede bevægelse er altså samlet en bevægelse i det transversale plan, men den er ikke forårsaget af en rotation i skulderleddet. Den er forårsaget af en kombineret bevægelse mellem indadføring og fleksion eller udadføring og ekstension. Du kan fx læse lidt mere på [t-nation.com](https://www.t-nation.com/training/5-things-you-need-to-know-about-every-exercise) eller på [NACM](https://blog.nasm.org/exercise-programming/sagittal-frontal-traverse-planes-explained-with-exercises).
-
-Det er mit bedste bud på en god forklaring af bevægelsesplaner. Du er meget velkommen til at foreslå forbedringer til teksten, hvis du har gode ideer.
+{% include faq.html %}
 
 ## Oversigt over kroppens led
 
-{% assign pages = site.anatomy | where: "tags", "led" %}
+Her kan du se en oversigt over de store led i kroppen.
+
+{% assign pages = site.pages | where: "tags", "led" %}
 {% for p in pages %}
 - **[{{ p.title }}]({{ p.url }})**.
   {{ p.excerpt | markdownify }}
 {% endfor %}
-
-{% comment %}
-
-Du kan læse mere om led og ledtyper i [Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow noopener"}.
-
-{% endcomment %}
 
 ## Muskeloversigt sorteret efter led
 
