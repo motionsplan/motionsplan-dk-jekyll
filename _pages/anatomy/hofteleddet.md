@@ -40,9 +40,16 @@ image: https://www.orthonow.com/3d-images/Hip-Anatomy.jpg
 toc: true
 sidebar:
   nav: anatomi
+last_modified_at: 2022-05-19T08:14:14.000Z
 ---
 
-Hofteleddet er et kugleled. Hofteleddet dannes af en ledskål på hoftebenet og et kugleformet ledhoved på lårbensknoglen. Hofteleddet er forstærket af kraftige ledbånd.
+Vidste du, at hofteleddet er et kugleled? Det er dannet af en ledskål på hoftebenet og et kugleformet ledhoved på lårbenet. Hofteleddet er forstærket af stærke ledbånd, som holder det stabilt.
+
+Vi kigger her på hofteleddets opbygning, sammensætning og [anatomi](/anatomi/).
+
+## Hvad er hofteleddet?
+
+Hofteleddet er et [kugleled](/led/). Hofteleddet dannes af en ledskål på hoftebenet og et kugleformet ledhoved på lårbensknoglen. Hofteleddet er forstærket af kraftige ledbånd.
 
 En bøjning i hoften er med strakt knæ typisk begrænset af smidigheden i hasemusklerne, mens en bøjning i hofteleddet med bøjet knæ typisk begrænses, når låret og maven møder hinanden.
 

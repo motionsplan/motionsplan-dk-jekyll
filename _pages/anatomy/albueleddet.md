@@ -31,9 +31,12 @@ header:
 toc: true
 sidebar:
   nav: anatomi
+last_modified_at: 2020-05-19T08:14:14.000Z
 ---
 
 Albueleddet er et hængselled, der forbinder overarmen med underarmen og hånden. Albueleddet består af den nederste del af overarmsknoglen og to underarmsknogler, der både gør det muligt at bøje og strække albuen, men også at dreje i hånden og underarmen.
+
+Her kigger vi lidt på albueleddets opbygning, struktur og [anatomi](/anatomi/).
 
 På hver side af albueleddet er ledkapslen forstærket med et sideledbånd, der holder albueleddet sammen.
 

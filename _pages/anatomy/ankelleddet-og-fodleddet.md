@@ -23,21 +23,34 @@ header:
 toc: true
 sidebar:
   nav: anatomi
+last_modified_at: 2022-05-19T08:14:14.000Z
 ---
 
-**Ankelleddet** er et hængselled mellem skinnebenet og lægbenet.
+Ofte kalder vi det bare anklen, men faktisk er der to forskellige led nederst på vores ben. Det kalder vi hhv. ankelleddet og fodleddet.
 
-Du kan læse mere om [ankelleddet og fodleddet her](http://web.archive.org/web/20090528100757/http://www.motion-online.dk/styrketraening/anatomiliste/ankelleddet_og_foden/){:rel="nofollow"}.
+Her kigger vi på [anatomi](/anatomi/) for de to led, og hvilke [knogler](/knogler/) og [muskler](/muskler/), der har betydning for bevægelserne og bevægeligheden omkring anklen.
 
-{% comment %}
+## Ankelleddet vs fodleddet
 
-Skinneben og lægben danner nedadtil en gaffelformet ledskål. De to knogler er holdt sammen af kraftige ledbånd.
+Ankelleddet er et [hængselled](/led/). Skinneben og lægben danner nedadtil en gaffelformet ledskål til et hængselsled. De to knogler er holdt sammen af kraftige ledbånd. I de øvrige fodrodsknogler kan der foregå mindre bevægelser. Dette led kaldes fodleddet.
 
-“Gaflen” går ned over rullebenet, der er kileformet, det vil sige smalt bagtil og bredt fortil.
+{% include figure image_path=page.image caption=page.title alt=page.title %}
 
-Når foden bøjes opad vil den brede del af rullebenet kile sig fast i gaflen og derfor gøre leddet mere stabilt. Det er derfor man altid vrikker om på vej nedad bakke og ikke opad.
+## Ankelleddet
 
-{% endcomment %}
+**Ankelleddet** er et hængselled, fordi det kun giver mulighed for bevægelse i et plan, nemlig op og ned. Ankelleddet er et vægtbærende led, hvilket betyder, at det bærer kroppens vægt.
+
+Skinneben og lægben danner en gaffelformet ledskål, hvor de to knogler mødes nedadtil. Knoglerne holdes sammen af kraftige ledbånd, som sørger for at knoglerne bliver sammen.
+
+Ledskålen mellem skinneben og lægben går som en gaffel ned over rullebenet. Rullebenet er kileformet. Det betyder at rullebenet er bredt fortil og smalt bagtil.
+
+Når foden bøjes opad i ankelleddet, så kiler den brede del af rullebenet sig fast mellem skinnebenets og lægbenets gaffel, hvilket gør ankelleddet mere stabilt. Det er bl.a. derfor man aldrig vrikker op på ved op ad bakke.
+
+Ankelleddet er omgivet af en kapsel, som er et tykt lag væv, der holder knoglerne sammen. Kapslen holdes sammen af ledbånd, som er stærke bånd af væv, der forbinder knoglerne medmuskler og sener. Disse ledbånd støtter ankelleddet og forhindrer det i at bevæge sig for meget i en uhensigtsmæssig retning.
+
+Ankelleddet er også omgivet af et lag brusk, som er en vævstype, der polstrer knoglerne og gør det muligt for dem at bevæge sig let mod hinanden.
+
+Ankelleddet holdes sammen af muskler og ledbånd. Musklerne omkring ankelleddet er ansvarlige for at bevæge ankelleddet. Akillessenen er den stærkeste sene i kroppen, og den fæstner sig til ankelleddet.
 
 ## Bevægelser i ankelleddet
 
@@ -46,18 +59,19 @@ Når foden bøjes opad vil den brede del af rullebenet kile sig fast i gaflen og
   {{ m.muscles | join: ", " }}
 {% endfor %}
 
+Samlet set så kan følgende bevægelser foregår i ankelleddet og fodleddet.
+
+{% include figure image_path="" caption="Når du taler anatomisk om bevægelser, så kan det godt forvirre lidt i forhold til den måde vi taler om bevægelserne i daglig tale. Man skelner mellem en plantarfleksion og en dorsalfleksion. Når fodboldtræneren siger stræk vristen, så hedder det i anatomisprog en plantarfleksion (eller en bøjning). Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" alt="plantarfleksion og dorsifleksion - inversion og eversion" %}
+
 ## Fodleddet
 
-{% comment %}
+Mellem de øvrige fodrodsknogler kan der foregå andre mindre bevægelser. Disse knogler er ankelknoglen (talus), hælknoglen (calcaneus) og de små knogler i foden (metatarsaler).
 
-I de øvrige fodrodsknogler kan der foregå andre bevægelser. Vigtigst er pronations/supinationsbevægelsen. Når man vrikker om i ankelleddet svarer det til, at man har lavet for kraftig supination.
+De vigtigste bevægelser i fodleddet er _pronation og supination_ eller _inversion og eversion_. Hvis du forstuver anklen er det typisk, fordi du har lavet en for kraftig supination.
 
-Fodens evne til at være støddæmper skabes bl.a ved den såkaldte fodhvælving. Fodhvælvingen dannes af den tværgående fodbue, den indre fodbue og den ydre fodbue. Disse buer bliver hovedsaligt holdt i spænd af stærke ligamenter, der løber på undersiden af foden (mærk efter!).
+En af fodens funktioner er at kunne støddæmpe de mange kræfter, som møder kroppen, når man går og løber. Fodhvælvingen er en genial konstruktion, som primært holdes i spænd af nogle meget stærke ligamenter på undersiden af foden.
 
-Bemærk at anatomisk sprogbrug er anderledes end daglig tale. Det man normalt kalder for en strækning af fodleddet (strækning af vristen) hedder på anatomisprog en bøjning (plantarfleksion).
-{: .notice .notice--danger }
-
-{% endcomment %}
+## Anatomi i anklen og fodleddet
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 
