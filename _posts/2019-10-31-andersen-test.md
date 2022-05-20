@@ -19,7 +19,7 @@ tags:
   - løb
   - beregner
   - test
-last_modified_at: 2022-04-06T23:14:14Z
+last_modified_at: 2022-05-20T08:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/andersen-notering.png
@@ -46,9 +46,9 @@ Testen udstiller heller _ikke_ de mest utrænede børn, da man ikke umiddelbart 
 
 ## Hvad er Andersen Test?
 
-Andersen Testen er en konditionstest for børn og unge udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/). Testen foregår på en 20 meter lang bane, hvor deltagerne skal løbe fra side til side. Deltagerne skal løbe i 15 sekunder og holde pause i 15 sekunder. Det kan være en fordel at have noget musik til testen eller en _timer_, så du ikke behøver at tage tid undervejs.
+Andersen Testen er en konditionstest for børn og unge udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/). Testen foregår på en 20 meter lang bane, hvor deltagerne skal løbe fra side til side. Deltagerne skal løbe i 15 sekunder og holde pause i 15 sekunder. Det gør de 20 gange, så testen tager altså kun 10 minutter at gennemføre.
 
-Testen er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet.
+Testen er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet. Fordelene ved testen er, at den er let at organisere. Hvis du fx har en hal, så svarer de 20 meter til bredden på en håndboldbane.
 
 ## Instruktion til Andersens Test
 
@@ -61,7 +61,7 @@ Hvis du foretrækker at læse, hvordan du laver testen, så tjek her:
 - Banen til Andersen Testen skal være 20 m lang og markeres med en streg i hver ende.
 - Stil fx kegler for hver 5. meter på banen. Dette gør måling af distance nemmere.
 - Deltagerne løber frem og tilbage mellem stregerne. Ved hver vending skal deltageren sætte foden på stregen og røre gulvet med hånden.
-- Deltagerne løber i 15 sekunder og holder pause i 15 sekunder. Det letteste er klart at have forberedt enten en automatisk timer eller et stykke musik, der angiver intervallerne.
+- Deltagerne løber i 15 sekunder og holder pause i 15 sekunder. Det letteste er klart at have forberedt enten en automatisk timer eller et stykke musik, der angiver intervallerne. Se lidt længere nede på siden for forslag til, hvordan du tager tid.
 - Testen varer i alt 10 minutter. Deltagerne skal altså løbe 20 intervaller i alt.
 - Klassen kan fx deles op i 2 hold. Det ene hold løber, og det andet hold tæller, hvor mange baner de løber. Bagefter byttes der.
 - Husk at eleverne skal varme grundigt op før testen, 5-10 minutter efterfulgt af nogle minutters pause.
@@ -69,6 +69,24 @@ Hvis du foretrækker at læse, hvordan du laver testen, så tjek her:
 ## Beregn kondital med Andersen Testen
 
 {% include calculate-fitness-andersen-test.html %}
+
+## Test-materiale til Andersens Test
+
+Hvis du gerne vil lave testen, så er der nogle dokumenter her, som du kan bruge.
+
+{% include feature_row type="right" %}
+
+## Timer til Andersen testen
+
+Det kan være en fordel at have noget musik til testen eller en _timer_, så du ikke behøver at tage tid undervejs. Du kan finde timere på Youtube, men du kan også bruge din egen interval timer.
+
+Når jeg skal tage tid på fx [cirkeltræning](/cirkeltraening/) bruger jeg selv den gratis app **[Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da){: rel="nofollow noopener" }** (som dog har reklamer) fra Google Play Store. Her kan jeg sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Youtube Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568){: rel="nofollow noopener" }.
+
+{% include figure image_path="/assets/images/blog/andersen-test-timer.png" caption="Andersen Test timer med 20 gentagelser af 15/15 lavet på [www.intervaltimer.com](https://www.intervaltimer.com/timers/11192285-andersen-test){: rel='nofollow noopener' }." alt="Andersen Test Timer" %}
+
+Du kan også finde videoer på Youtube, fx denne timer til at styre tiden undervejs.
+
+{% include video provider="youtube" id="tOh-Lgz-eYg" %}
 
 ## Reliabilitet og validitet for testen
 
@@ -95,14 +113,6 @@ Nedenunder har jeg sakset kondital for børn og unge fra [tabellerne over normal
 |-|-|-|-|-|-|
 | 5-14 år | < 38 | 38-43 | 44-51 | 52-56 | > 57 |
 | 15-19 år | < 43 | 44-48 | 49-56 | 57-61 | > 62 |
-
-## Test-materiale til Andersens Test
-
-{% include feature_row type="right" %}
-
-Du kan bruge denne video som en timer til at styre tiden undervejs.
-
-{% include video provider="youtube" id="tOh-Lgz-eYg" %}
 
 ## Hvad er formlen til at udregne konditallet med Andersen Testen?
 
