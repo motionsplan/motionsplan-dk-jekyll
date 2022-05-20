@@ -72,7 +72,7 @@ I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den
 
 Som løber bruger man ofte løbepace som udgangspunkt for, hvor hurtigt du skal løbe.
 
-Hvad er pace? **Pace er hvor hurtigt du er om at løbe en kilometer. Hvis du fx løber 3 km på 15 minutter, så er dit pace 6 min/km, da du er 6 minutter om at løbe 1 km.**
+Hvad er pace? **Pace er hvor hurtigt du er om at løbe en kilometer. Hvis du fx løber 3 km på 18 minutter, så er dit pace 6 min/km, da du er 6 minutter om at løbe 1 km.**
 
 {% include convert-hastighed-kmt-minkm.html %}
 
