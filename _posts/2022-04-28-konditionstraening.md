@@ -95,7 +95,7 @@ Typisk er dette en træningszone, hvor kune en mindre del af din træning skal l
 
 Du kan læse mere om, hvordan du laver tempotræning i indlægget nedenfor. Du finder også et udgangspunkt for at lave dit eget kredsløbstræningsprogram.
 
-**Læs:** [Tempotræning: Hvad er det, og hvordan man gør det] (/loebesiden-jack-daniels-loebeberegner/)
+**Læs:** [Tempotræning: Hvad er det, og hvordan man gør det](/loebesiden-jack-daniels-loebeberegner/)
 
 ### 4. Udholdenhedstræning
 
