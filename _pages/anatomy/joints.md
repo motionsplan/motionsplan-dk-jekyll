@@ -64,7 +64,7 @@ Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion
 
 **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 
-I alt har du i kroppen omkring [270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop.
+I alt har du i kroppen omkring [270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop. [Musklerne](/muskler/) fæster på [knoglerne](/knogler/) og dermed kan kroppen bevæge sig.
 
 ## Ægte og uægte led
 
@@ -100,7 +100,7 @@ Formålet med led er at give skelettet bevægelsesfriheder. Hovedparten af kropp
 
 Afgørende for bevægelserne i leddene er dog knoglernes form. Derfor deles kroppens ægte led også op i forskellige ledtyper, som er med til at kategorisere de forskellige bevægelsestyper, der kan foregå i det pågældende led. Man kalder denne inddeling de **mekaniske ledtyper**.
 
-{% include gallery id="gallery" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
+Ledkapslen producerer **ledvæske**. Ledvæsken smører leddet og giver næring til ledbrusken, da der ikke er nogen blodkar i brusken.
 
 ## Oversigt over ledtyper i de ægte led
 
@@ -157,10 +157,18 @@ Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 {% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
 Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/), så tjek følgende artikel.
+<<<<<<< HEAD
 
 **Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
 
 ## Konklusion
+=======
+
+**Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
+
+## Konklusion
+
+>>>>>>> bb2c38b1701195bde755e114fe1093dbbfa9b808
 I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led der findes. Vi har også set på de bevægelser, der kan forekomme i et led, og hvordan disse bevægelser klassificeres. Endelig har vi udforsket de tre bevægelsesplaner, der definerer alle kroppens bevægelser.
 
 ## Ofte stillede spørgsmål
