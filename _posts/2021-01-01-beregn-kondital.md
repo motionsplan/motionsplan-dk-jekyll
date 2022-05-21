@@ -118,7 +118,7 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 
 ### Udregn kondital fra gangtest
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gåtest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gangtest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

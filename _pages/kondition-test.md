@@ -58,7 +58,7 @@ Her har du en oversigt over alle konditionstests. Vi har skrevet et indlæg, der
 
 ## Konditionstests til gang
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gåtest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gangtest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

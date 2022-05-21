@@ -1,6 +1,7 @@
 ---
 title: &title "Hvad er forskellen på anatomi og fysiologi?"
 permalink: /forskel-anatomi-fysiologi/
+description: "Er du også i tvivl om forskellen på anatomi og fysiologi? Her får du hele forklaringen på, hvordan anatomien og fysiologien hænger sammen!"
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
@@ -44,9 +45,11 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan anatomi og fysiologi hænger sammen, og hvordan de adskiller sig fra hinanden.
+Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan [anatomi](/anatomi7) og [fysiologi](/fysiologi/) hænger sammen, og hvordan de adskiller sig fra hinanden.
 
-Hvad er forskellen på anatomi og fysiologi? **Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
+## Hvad er forskellen på anatomi og fysiologi? 
+
+**Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
 
 Anatomi og fysiologi hjælper til at forstå den menneskelige krop. Anatomien er ret konkret, da strukturerne i kroppen kan ses, føles og undersøges. Du kan konkret tage fat i det og se det. Fysiologien kan du ikke på samme måde tage at føle på uden at have avancerede måleredskaber.
 
