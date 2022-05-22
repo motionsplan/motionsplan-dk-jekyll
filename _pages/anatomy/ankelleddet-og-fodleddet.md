@@ -76,6 +76,14 @@ En af fodens funktioner er at kunne støddæmpe de mange kræfter, som møder kr
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 
+## Hvilke knogler findes i foden?
+
+Fodens skelet inddeles i fodroden, mellemfoden og tæerne.
+
+Fodroden omfatter 7 store knogler, hvoraf hælbenet og rullebenet er de største. Foran rullebenet ligger det bådformede ben og foran hælbenet findes terningebenet, der sammen med 3 små kileben danner overgangen til mellemfodsknoglerne. 
+
+De 3 kileben er via hver sit rodled forbundet med 3 mellemfodsknogler. De 2 yderste mellemfodsknogler danner rodled med terningbenet. De 5 mellemfodsknogler er via grundled forbundet med tåknoglerne. Der er i alt 14 tåknogler. De fordeler sig på 4 tæer med hver 3 knogler (grundstykke, mellemstykke og yderstykke) og storetåen med kun 2 knogler (grundstykke og yderstykke).
+
 ## Muskler i ankelleddet og fodleddet
 
 {% include anatomy/table-muscles-ancle.html %}

@@ -1,6 +1,6 @@
 ---
-title: &title "Outdoor fitness: Dogmefitness forslag til udendørs træning"
-seo_title: "Outdoor fitness: Dogmefitness er udendørs træning"
+title: &title "Dogmefitness forslag til udendørs træning"
+seo_title: "Outdoor fitness: 38 øvelser til udendørs træning"
 permalink: /artikel/dogmefitness/
 language: da
 header:
@@ -17,9 +17,9 @@ tags:
 last_modified_at: 2020-02-13T22:23:21Z
 ---
 
-Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscyklen, se om du kan vikle dig ud af styrkemaskinen, og gør dig klar til en træning udenfor. 
+Er du klar på udendørs træning? Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscyklen, se om du kan vikle dig ud af styrkemaskinen, og gør dig klar til en træning udenfor. 
 
-I dette indlæg kan du læse lidt om begrebet dogmefitness, som jeg fandt på i forbindelse med fysisk træning på Vejle Idrætshøjskole.
+I dette indlæg kan du læse lidt om begrebet dogmefitness, som jeg fandt på i forbindelse med fysisk træning på Vejle Idrætshøjskole. Det handler om træning udenfor, hvor du enten bruger kropsvægt, naturen eller nogle lidt anderledes genstande til at få en sjov og motiverende træning.
 
 Du kan også læse om:
 
@@ -28,9 +28,9 @@ Du kan også læse om:
 
 Men lad os nu dykke ned i lidt ekstra forslag til din træning udenfor.
 
-## Hvad er dogmefitness?
+## Hvad er dogmefitness og udendørs træning?
 
-I dogmefitness krydrer vi styrketræning, udholdenhed, behændighed, eksplosivitet og balancetræning i en fysisk udfordrende cocktail, men det er ikke det særlige ved dogmefitness.
+I **dogmefitness** krydrer vi styrketræning, udholdenhed, behændighed, eksplosivitet og balancetræning i en fysisk udfordrende cocktail, men det er ikke det særlige ved dogmefitness.
 
 Det særlige er, at vi laver øvelserne udendørs i omgivelser, der inspirerer til bevægelse. Dogmefitness indeholder to ting:
 

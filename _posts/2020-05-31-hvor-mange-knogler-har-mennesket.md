@@ -47,7 +47,7 @@ sidebar:
   nav: anatomi
 faq:
   - question: Hvem har flest knogler - mænd eller kvinder?
-    answer: Hos voksne ses forskellene mellem mænd og kvinder især på kraniet og bækkenet. Her ses at mænd generelt har længere knogler og større led end kvinder. Desuden har mænd større muskeltilhæftninger og dermed kraftigere knogler end kvinder.
+    answer: Hos voksne ses forskellene mellem mænd og kvinder især på kraniet og bækkenet. Her ses at mænd generelt har længere knogler og større led end kvinder. Desuden har mænd større muskeltilhæftninger og dermed kraftigere knogler end kvinder. Grundlæggende har mænd og kvinder dog det samme antal knogler i kroppen.
   - question: Hvor mange ribben har et menneske?
     answer: Både mænd og kvinder har 24 ribben i kroppen.
   - question: Hvor mange knogler har et menneske i hånden?
@@ -56,6 +56,10 @@ faq:
     answer: Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop. Vi har skrevet meget mere om [led og ledtyper](/led/).
   - question: Hvor mange knogler har man når man bliver født?
     answer: Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
+  - question: Hvad er den største knogle i kroppen?
+    answer: "Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg."
+  - question: Hvor mange knogler er der i foden?
+    answer: Selve fodens skelet består af 26 fodknogler, der holdes sammen af kraftige ledbånd. Du kan læse mere om fodens knogler under [ankelleddet og fodleddet](/joints/ankelleddet-og-fodleddet/).
 ---
 
 Jeg får ofte spørgsmålet om, hvor mange knogler et menneske har i kroppen, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor mange knogler skelettet består af, og jeg har lavet en liste over, hvad knoglerne i kroppen hedder på dansk, engelsk og latin?

@@ -1,6 +1,6 @@
 ---
-title: &title "De bedste fitness apps i 2022"
-seo_title: "De bedste trænings apps i 2022"
+title: &title "De bedste trænings og fitness apps i 2022"
+seo_title: "De bedste fitness og trænings apps i 2022"
 permalink: /fitness-apps/
 language: da
 header:
@@ -14,31 +14,11 @@ tags:
   - hjemmetræning
 last_modified_at: 2021-11-03T08:14:14Z
 toc: true
-faq:
- - question: "Hvad hedder træningsafhængighed på engelsk?"
-   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise addiction' og 'exercise dependence'."
- - question: "Er træningsafhængighed en spiseforstyrrelse?"
-   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og spiseforstyrrelser følges dog ofte ad."
-feature_row:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/besat-af-traening-naar-sund-motion-bliver-til-skadelig-afhaengighed_mia-beck-lichtenstein_9788777068515
-    image_path: https://cdn6.tales.dk/00002/10544/cover.20160910.jpg
-    title: "Besat af træning"
-    excerpt: "Denne bog er den første på dansk, der omhandler den overdrevne og ekstreme træningsiver, som i nogle tilfælde kan udvikle sig til en negativ afhængighedstilstand. Bogen er skrevet af Mia Beck Lichtenstein."
-    btn_class: btn--danger
-    btn_label: Læs mere
-    rel: sponsored nofollow noopener
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973
-    image_path: https://imgcdn.saxo.com/_9788771581973/0x500
-    title: "Find træningsbalancen"
-    excerpt: "Er du vild med sport, at bruge kroppen, træne målrettet og konkurrere? Giver motion og idræt dig glæde og energi? Men sker det også at træningen styrer dit liv? Eller at du træner , selvom du har smerter og ved, at du burde lade være?"
-    btn_class: btn--danger
-    btn_label: Læs mere
-    rel: sponsored nofollow noopener
 skadefri:
   - image_path: /assets/images/apps/skadefri-1.jpg
     url: /assets/images/apps/skadefri-1.jpg
     title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret træning app"
+    alt: "Træn med Forsvaret trænings app"
   - image_path: /assets/images/apps/skadefri-2.jpg
     url: /assets/images/apps/skadefri-2.jpg
     title: "Træn med Forsvaret træning app" 
@@ -46,20 +26,20 @@ skadefri:
   - image_path: /assets/images/apps/skadefri-3.jpg
     url: /assets/images/apps/skadefri-3.jpg
     title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret træning app"
+    alt: "Træn med Forsvaret trænings app"
 tmf:
   - image_path: /assets/images/apps/tmf-1.jpg
     url: /assets/images/apps/tmf-1.jpg
-    title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret træning app"
+    title: "Træn med Forsvaret trænings app" 
+    alt: "Træn med Forsvaret træningsapp"
   - image_path: /assets/images/apps/tmf-2.jpg
     url: /assets/images/apps/tmf-2.jpg
     title: "Træn med Forsvaret træning app" 
     alt: "Træn med Forsvaret træning app"
   - image_path: /assets/images/apps/tmf-3.jpg
     url: /assets/images/apps/tmf-3.jpg
-    title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret træning app"
+    title: "Træn med Forsvaret trænings app" 
+    alt: "Træn med Forsvaret træningsapp"
 elitehrv:
   - image_path: /assets/images/apps/elitehrv-1.jpg
     url: /assets/images/apps/elitehrv-1.jpg
@@ -71,7 +51,7 @@ elitehrv:
 
 Markedet er næsten oversvømmet af fitness apps og træningsapps. Du kan få apps til at tracke din træning og din kost, men det kan være svært at vælge mellem alle mulighederne, når du står i app store.
 
-Vi har prøvet rigtig mange forskellige fitness og trænings apps, og vi har også prøvet nogle enkelte kost apps.
+Vi har prøvet rigtig mange forskellige fitness apps og trænings apps, og vi har også prøvet nogle enkelte kost apps. Her har vi valgt de bedste træningsapps.
 
 Når du vælger apps, så husk at være opmærksom på din personlighed. Hvis du har et anstrengt forhold til træning og kost, så er apps ikke nødvendigvis en god ide. Du kan prøve vores [tests for spiseforstyrrelser](/spiseforstyrrelser/) og [træningsafhængighed](/traeningsafhaengighed/).
 
@@ -97,7 +77,7 @@ I fitness app’en kan du også sammenligne dit niveau med de nuværende fysiske
 
 Træn med Forsvaret er naturligvis ment som et redskab til de værnepligtige, men alle kan faktisk bruge app’en. Også hvis du er i gang med at [træne til politiets optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/), eller du bare er i gang med at bygge din form op i dit eget tempo. Det gode ved træningsprogrammerne er, at de er udviklet, så de minimerer risikoen for skader, men samtidig vil du opleve en fremgang.
 
-{% include gallery id="tmf" caption="’Træn med Forsvaret er en fremragende app, hvis du har brug for et træningsprogram.’" alt="Træn med Forsvaret træning app" %}
+{% include gallery id="tmf" caption="Træn med Forsvaret er en fremragende app, hvis du har brug for en hjemmetræning app." alt="Træn med Forsvaret træning app" %}
 
 ## 3. EliteHRV
 
@@ -113,4 +93,4 @@ Resultatet af morgenmålingerne giver dig en _morning readiness_. EliteHRV har l
 
 ## Konklusion
 
-Her var nogle gode fitness og træningsapps, som du kan prøve kræfter med. Hvis du kender andre apps, som du vil give et par ord med på vejen, så skriv endelig til {{ site.email }}.
+Her var nogle gode fitness og træningsapps, som du kan prøve kræfter med. Har du prøvet en rigtig god træningsapp, som mangler på listen, eller kender du andre apps, som du vil give et par ord med på vejen, så skriv endelig til {{ site.email }}.

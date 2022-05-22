@@ -65,7 +65,7 @@ feature_row:
     url: https://amdipt.dk/blog/
     title: "Christian Amdi Personlig Træner"
     alt: "Christian Amdi Personlig Træner"
-    excerpt: "Christian Amdi er personlig træner. Jeg har fordybet mig i flere af indlæggene på Christian Amdis side. Alle blogindlæggene er meget dybdegående, og der er masser af referencer på de enkelte påstande i artiklerne. Samtidig er der masser af underholdende små kommentarer undervejs."
+    excerpt: "Christian Amdi er personlig træner. Jeg har fordybet mig i flere af indlæggene på Christian Amdis side. Alle blogindlæggene er meget dybdegående, og der er masser af referencer på de enkelte påstande i artiklerne. Samtidig er der masser af underholdende små kommentarer undervejs på Amdis træningsblog."
     btn_label: "Besøg Fitness Blog"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/poulhaacker.jpg
@@ -130,6 +130,6 @@ For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine
 
 ## Fitness Blogs og træningsblogs
 
-Det var den foreløbige liste over danske fitnessblogs og træningsblogs.
+Det var den foreløbige liste over danske fitnessblogs og træningsblogs. Der er mange rigtig fine bloggere i Danmark.
 
 Hvis jeg har overset nogle sunde blogs om fitness, træning, motion og sundhed i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.
