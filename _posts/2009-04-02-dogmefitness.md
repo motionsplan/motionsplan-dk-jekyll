@@ -1,6 +1,6 @@
 ---
-title: &title "Outdoor fitness Dogmefitness"
-seo_title: "Outdoor fitness og naturfitness"
+title: &title "Outdoor fitness: Dogmefitness forslag til udendørs træning"
+seo_title: "Outdoor fitness: Dogmefitness er udendørs træning"
 permalink: /artikel/dogmefitness/
 language: da
 header:
@@ -8,26 +8,25 @@ header:
   teaser: /assets/images/blog/dogmefitness.jpg
   caption: *title
 category:
-  - Kondition
-  - Styrketræning
+  - Træning
 tags:
   - styrketræning
   - konditionstræning
   - træning
+  - udendørs træning
 last_modified_at: 2020-02-13T22:23:21Z
 ---
 
-Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscyklen, se om du kan vikle dig ud af styrkemaskinen, og gør dig klar til en 
+Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscyklen, se om du kan vikle dig ud af styrkemaskinen, og gør dig klar til en træning udenfor. 
 
 I dette indlæg kan du læse lidt om begrebet dogmefitness, som jeg fandt på i forbindelse med fysisk træning på Vejle Idrætshøjskole.
 
 Du kan også læse om:
 
-- [Øvelser til udendørs træning og naturfitness](/naturfitness/)
+- [Øvelser til træning i naturen og naturfitness](/naturfitness/)
+- [Svinetræning ](/svintetraening/)
 
-
-### [Svinetræning](/svinetraening/)
-
+Men lad os nu dykke ned i lidt ekstra forslag til din træning udenfor.
 
 ## Hvad er dogmefitness?
 

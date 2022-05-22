@@ -1,19 +1,16 @@
 ---
-## Træning i naturen: Træning i naturen: 
-title: "Naturfitness: 38 øvelser til udendørs træning og fitness"
-seo_title: "Naturfitness: 38 øvelser til udendørs træning og fitness (2022)"
+title: "Naturfitness: 38 øvelser til træning i naturen"
+seo_title: "Naturfitness: 38 øvelser til naturtræning (2022)"
 permalink: /naturfitness/
 last_modified_at: 2020-06-24T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
-  caption: "Naturfitness: 38 øvelser til udendørs træning og outdoor fitness"
+  caption: "Naturfitness: 38 øvelser til træning i naturen"
 category:
   - Træning
 tags:
-  - dogmefitness
-  - outdoor fitness
   - naturtræning
   - udendørs træning
   - træningsprogram
@@ -179,11 +176,14 @@ feature_row_stretching:
     excerpt: "Tag fat med begge hænder og lad dig hænge fra en gren eller stang. Slap af. Mærk strækket i overkroppen."
 ---
 
-Vi har rigtig mange muligheder for at lave udendørs træning og fitness i Danmark. Vi kan både bruge skovene, parkerne, men også byerne til at lave outdoor fitness. 
+Vi har rigtig mange muligheder for at lave træning i naturen i Danmark. Vi kan både bruge skovene, parkerne, men også byerne til at lave naturtræning. Det erlet at få en dejlig træningsoplevelse i naturen. Ud over træningen kan du nyde duftene, farverne, den friske luft og de varierende årstider.
 
-### dejlig træningsoplevelse i naturen. Ud over træningen kan du nyde duftene, farverne, den friske luft og de varierende årstider.
+Hvis du er på udkig efter andre forslag til at træne ude, som også sagtens kan bruges til træning i naturen, så tjek disse indlæg.
 
-### [Svinetræning](/svinetraening/)
+- [Svinetræning: Beskidt træning](/svinetraening/)
+- [Outdoor Fitness og Dogmefitness og udendørs træning](/artikel/dogmefitness/)
+
+Men lad os dykke lidt mere ned i øvelser til naturfitness og naturtræning.
 
 ## Hvad er Naturfitness?
 
