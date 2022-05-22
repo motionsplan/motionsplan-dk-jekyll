@@ -1,18 +1,16 @@
 ---
-title: "Naturfitness: 38 øvelser til udendørs træning og fitness"
-seo_title: "Naturfitness: 38 øvelser til udendørs træning og fitness (2022)"
+title: "Naturfitness: 38 øvelser til træning i naturen"
+seo_title: "Naturfitness: 38 øvelser til naturtræning (2022)"
 permalink: /naturfitness/
 last_modified_at: 2020-06-24T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
-  caption: "Naturfitness: 38 øvelser til udendørs træning og outdoor fitness"
+  caption: "Naturfitness: 38 øvelser til træning i naturen"
 category:
   - Træning
 tags:
-  - dogmefitness
-  - outdoor fitness
   - naturtræning
   - udendørs træning
   - træningsprogram
@@ -178,9 +176,18 @@ feature_row_stretching:
     excerpt: "Tag fat med begge hænder og lad dig hænge fra en gren eller stang. Slap af. Mærk strækket i overkroppen."
 ---
 
-Vi har rigtig mange muligheder for at lave udendørs træning og fitness i Danmark. Vi kan både bruge skovene, parkerne, men også byerne til at lave outdoor fitness.
+Vi har rigtig mange muligheder for at lave træning i naturen i Danmark. Vi kan både bruge skovene, parkerne, men også byerne til at lave naturtræning. Det erlet at få en dejlig træningsoplevelse i naturen. Ud over træningen kan du nyde duftene, farverne, den friske luft og de varierende årstider.
 
-Naturstyrelsen har lavet et glimrende hæfte om at træne udenfor. De kalder træningen for Naturfitness, men vi kunne lige så godt kalde det for outdoor fitness og udendørs træning. Du kan læse mere på [Naturstyrelsens hjemmeside om Naturfitness](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/). Du kan også [printe en folder med alle øvelserne](https://naturstyrelsen.dk/media/207368/naturfitness_haefte_print_2012.pdf).
+Hvis du er på udkig efter andre forslag til at træne ude, som også sagtens kan bruges til træning i naturen, så tjek disse indlæg.
+
+- [Svinetræning: Beskidt træning](/svinetraening/)
+- [Outdoor Fitness og Dogmefitness og udendørs træning](/artikel/dogmefitness/)
+
+Men lad os dykke lidt mere ned i øvelser til naturfitness og naturtræning.
+
+## Hvad er Naturfitness?
+
+Naturstyrelsen har lavet et glimrende hæfte om at træne udenfor. De kalder træningen for Naturfitness, men vi kunne lige så godt kalde det for outdoor fitness og udendørs træning. Du kan læse mere på [Naturstyrelsens hjemmeside](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/) om Naturfitness. Du kan også [printe en folder med alle øvelserne](https://naturstyrelsen.dk/media/207368/naturfitness_haefte_print_2012.pdf).
 
 Jeg har samlet alle øvelserne fra konceptet til udendørs træning herunder.
 
@@ -210,6 +217,10 @@ Jeg har samlet alle øvelserne fra konceptet til udendørs træning herunder.
 
 Skriv endelig i kommentarerne, hvordan du praktiserer outdoor fitness eller udendørs træning.
 
-Du kan også se vores anden artikel om [Outdoor Fitness]({% link _posts/2009-04-02-dogmefitness.md %}), hvor vi bruger lidt anderledes redskaber.
+Du kan også se vores anden artikel om [Outdoor Fitness](/artikel/dogmefitness/), hvor vi bruger lidt anderledes redskaber.
 
 {% include figure image_path="/assets/images/naturfitness/forside.jpg" caption="[Download](https://naturstyrelsen.dk/media/207368/naturfitness_haefte_print_2012.pdf) Naturstyrelsens pjece med alle øvelserne til udendørs fitness og naturfitness" alt="Forside til pjece om Outdoor fitness, udendørs fitness og naturfitness" %}
+
+## Referencer
+
+- [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/)
