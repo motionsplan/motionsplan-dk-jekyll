@@ -31,7 +31,7 @@ Jeg har samlet en liste over muskler i dine ben her. Det er godt at vide, hvorda
 
 Du bruger dine ben hele tiden. Benene skal bære hele vægten for din krop. Derfor kan det også betale sig at styrke musklerne - både for at [forebygge skader]({% link _posts/2020-11-23-skadesforebyggelse.md %}), men også for at få bedre præstationer.
 
-Hvis musklerne omkring knæet - på både forsiden og bagsiden - er stærke, så vil det fjerne lidt af belastningen på knæleddet, når du står, går og løber. Det kan hjælpe dig med at have et sundt knæled over mange år.
+Hvis musklerne omkring knæet - på både forsiden og bagsiden - er stærke, så vil det fjerne lidt af belastningen på [knæleddet](/joints/knaeleddet/), når du står, går og løber. Det kan hjælpe dig med at have et sundt knæled over mange år.
 
 Når musklerne i benene er stærke, så vil du også præstere bedre, når du springer, løber og sprinter.
 
