@@ -37,7 +37,7 @@ breadcrumbs: true
 
 Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium.
 
-Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkeligt hårde.
+Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkelig hårde.
 
 Jeg har også skrevet lidt om [Watt-max-testen til børn]({% link _posts/2019-10-31-kondital-watt-max-children-test.md %}).
 
