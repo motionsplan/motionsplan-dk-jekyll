@@ -124,7 +124,7 @@ Jeg kan virkelig godt selv lide Wattbikes, da følelsen af at køre på dem mind
 
 Jeg kan godt lide at træne intervaller på cyklen. Fx kan [HIIT-intervaller elle High Intensity Interval Training]() virkelig give en intensiv træning. Marina Aagaard har [andre forskalg til intervaltræning](http://marinaaagaardblog.com/2013/01/06/intervaltraening-hiit-det-er-et-hit/).
 
-Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, så kan du også lave forskellige tests. Fx kan du finde dit kondital med [Wattmax-testen](/kondital-wattmax/). Det er også oplagt at prøve kræfter med [V<sub>max</sub>-træning](/vmax/), som for øvrigt også kan bruges på løbebåndet.
+Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, så kan du også lave forskellige tests. Fx kan du finde dit kondital med en [Watt-max-konditest](/kondital-wattmax/). Det er også oplagt at prøve kræfter med [V<sub>max</sub>-træning](/vmax/), som for øvrigt også kan bruges på løbebåndet.
 
 ## Andre cardiomaskiner
 
