@@ -15,6 +15,7 @@ tags:
   - aktivitet
 category:
   - Sundhed
+  - Gang
 last_modified_at: 2021-12-24T10:51:18Z
 ---
 
@@ -40,7 +41,7 @@ Skridttællere placeres på hoften, på håndleddet eller i en lomme.
 
 > ”Det bliver hurtigt sjovt og vanedannende at følge sin egen udvikling, og mindst lige så sjovt at slå kollegerne. Det kan motivere en til at tage endnu flere skridt.”
 
---- <cite>[Nikolaj Nielsen], produktchef for avXperten.dk(https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }</cite>
+--- <cite>[Nikolaj Nielsen](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }, produktchef for avXperten.dk</cite>
 
 ## Får skridttællere folk til at gå mere?
 

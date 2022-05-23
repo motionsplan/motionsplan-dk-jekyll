@@ -1,5 +1,6 @@
 ---
 title: Du forbrænder mere ved at løbe end ved at gå. Punktum.
+seo_title: "Du forbrænder 4x mere ved løb end ved gang!"
 permalink: /loeb-mere-energi-gang/
 header:
   overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
@@ -8,19 +9,20 @@ header:
   caption: Forbrænding af kalorier ved at gå og løbe
 language: da
 category:
-  - Viden om
-  - Kondition
   - Løb
+  - Gang
 tags:
-  - sammenligning
   - energiforbrug
   - løb
+  - gang
   - beregner
 toc: true
-last_modified_at: 2021-05-10T08:14:14Z
+last_modified_at: 2022-05-10T08:14:14Z
 faq:
   - question: "Hvor mange kalorier forbrænder man ved at gå?"
     answer: "Hvor meget du forbrænder ved at gå, handler om hvor hurtigt du går. Du kan læse meget mere om [hvor meget du forbrænder ved at gå her](/forbraending-ved-gaa-gang/)."
+  - question: "Hvilke fordele er der ved at gå?"
+    answer: "Selvom løb forbrænder flere kalorier end gang, så er der stadig masser af gode grunde til at gå. Faktisk er der [mindst 20 fordele ved at gå](/gang-fordele-ved-at-gaa/)."
 breadcrumbs: true
 ---
 
@@ -57,7 +59,7 @@ Lad os kigge lidt på, hvordan du kan estimere energiforbruget ved gang og løb,
 
 ## Du forbrænder flere kalorier ved at løbe end ved at gå!
 
-Morten Zacho skriver i artiklen [Du forbrænder flere kalorier ved at løbe end ved at gå](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}:
+[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} skriver i artiklen "Du forbrænder flere kalorier ved at løbe end ved at gå":
 
 > Ja, det er faktisk rigtigt - ikke bare pr. minut, men også pr. kilometer. Faktisk forbrænder du næsten dobbelt så meget pr. kilometer og pr. minut er det næste fire gange så meget.
 
@@ -209,7 +211,7 @@ Når det er dyrere at løbe, skyldes det primært at løb er karakteriseret ved 
 
 ## Løb har højere efterforbrænding end gang!
 
-*[EPOC: Excess Post-exercise Oxygen Consumption
+*[EPOC]: Excess Post-exercise Oxygen Consumption
 
 Løb har også en højere efterforbrænding end gang (eller med et fagord _excess post-exercise oxygen consumption_ (EPOC)). Din krop vil blive ved at forbrænde energi, indtil den er nået helt ned i hvilestatus efter løbeturen.
 
@@ -281,7 +283,6 @@ Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), 
 ## Ofte stillede spørgsmål
 
 {% include faq.html %}
-
 
 <details markdown="1">
   <summary>Se referencer</summary>

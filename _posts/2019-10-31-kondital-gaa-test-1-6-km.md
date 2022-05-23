@@ -10,6 +10,7 @@ header:
   caption: "Rockports Gangtest: 1,6 km gåtest"
 category:
   - Kondition
+  - Gang
 tags:
   - konditionstest
   - gang
