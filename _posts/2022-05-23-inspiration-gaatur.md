@@ -1,6 +1,6 @@
 ---
 title: &title "Inspiration til din gåtur og vandretur"
-seo_title: "20+ forslag til gåture og inspiration til din vandretur" 
+seo_title: "20+ forslag til gåture og inspiration til din vandretur"
 permalink: /inspiration-til-gaature/
 language: da
 header:
@@ -16,13 +16,13 @@ last_modified_at: 2022-05-22T10:21:26Z
 
 Det er sundt at gå. Gåture gør så meget godt for vores krop, fordi frisk luft og motion renser både kroppen og hovedet. Samtidig er det pærelet, socialt og drønhyggeligt, når vi går sammen, og der er mange ideer til at gøre gåturen endnu mere interessant.
 
-I dette indlæg får du inspiration til, hvordan du kan gøre gang til en fast bestanddel af hverdagen, og hvordan du kan få flere skridt dagligt. 
+I dette indlæg får du inspiration til, hvordan du kan gøre gang til en fast bestanddel af hverdagen, og hvordan du kan få flere skridt dagligt for at få mest muligt ud af [fordelene ved gang](/gang-fordele-ved-at-gaa/).
 
 ## We Walk: Hele Danmark går sammen
 
 Flere gange om året går foreninger, institutioner, virksomheder og private i hele landet sammen i små og store gangfællesskaber, når de arrangerer **WE WALK**. Bevæg Dig For Livet støtter op, når der skal sættes gang i dit nabolag og fællesskabet skal hyldes ved at arrangere en gåtur. Du kan også gå med på en af de mange ture, der arrangeres af andre. Du kan se, hvilke gåture, der findes i dit område ved at holde øje med Danmarkskortet på [Bevæg Dig For Livet](https://www.bevaegdigforlivet.dk/wewalk/bliv-en-del-af-we-walk/deltag-i-en-gaatur).
 
-{% include figure image_path="" caption="We Walk " alt="we walk inspiration til gåture og gåruter" %}
+{% include video provider="youtube" id="y5cnywh4ld0" %}
 
 ## Inspiration til vandreruter og gåture
 
@@ -58,13 +58,15 @@ Danmark har hundredvis af korte og længere vandreruter. Nogle ligger langt fra 
 
 På kortet her har Dansk Vandrelaug samlet alle de bedste gå- og vandreruter i Danmark. Du kan blandt andet finde kløverstier, nationalparkernes markerede ruter og udvalgte kvalitetsstier.
 
+{% include video provider="youtube" id="hfSDAA-SDws" %}
+
 Klik ind på kortet og find inspiration til en ny gåtur, lige hvor du har lyst.
 
 [Se Dansk Vandrelaugs kort](https://www.google.com/maps/d/u/0/viewer?mid=1e91JPTmjFbrBF3ZuExw68a_-ZGfKvnYL&ll=56.21946956223288%2C11.81822760931276&z=7){: .btn .btn--large .btn--success }
 
 ### Her er din guide til alternative gåture i Danmarks fem største byer
 
-Under corona er der ikke mange aktivteter i byerne, der er åbne. Heldigvis har naturen altid åbent, og derfor er det oplagt at gå en tur. Men der er nærmest folkevandring på de mest populære ruter.
+Naturen har altid åben, og derfor er det oplagt at gå en tur. Men der er nærmest folkevandring på de mest populære ruter.
 
 Bor du i København, Aarhus, Odense, Aalborg eller Esbjerg - eller lige i nærheden, er der god inspiration at hente til din weekend-gåtur lige her.
 
@@ -90,6 +92,8 @@ Kræftens Bekæmpelse har lavet en podcast om at vandre. Lyt til podcasten på e
 
 ## Gå-meditation til den aktive pause
 
+{% include video provider="youtube" id="o1H3WPlCWms" %}
+
 Tag meditationen i ørene, sæt det ene ben foran det andet og få ro på tankerne med en kort gåtur. En aktiv pause kan være lige det du har brug for, uanset om du arbejder hjemmefra, hjemmeskoler dine børn eller savner et pusterum i en foranderlig hverdag.
 
 Podcasten er produceret af Kræftens Bekæmpelse.
@@ -98,7 +102,7 @@ Podcasten er produceret af Kræftens Bekæmpelse.
 
 ## Tips til at få mere tid til vandring
 
-Det er lettere at få flere skridt, hvis du gør vandring til en del af hverdagens vaner og gøremål. Her er 10 tips til at komme i gang med at vandre noget mere.
+Det er lettere at få flere skridt, hvis du gør vandring til en del af hverdagens vaner og gøremål. Her er 7 tips til at komme i gang med at vandre noget mere. Tips er bl.a. inspireret af [www.friefodspor.dk](https://www.friefodspor.dk/).
 
 1. **Flyt vennerne ud af stuen.** Hvis du gerne vil vandre mere, så tilbring din tid med venner ude på stierne. Skal du have venner med, der ikke er vant til at vandre, så læg en plan: Find en rute, du kender, og fortæl om planen. Giv tips til god påklædning og pak noget med at sidde på og byde på. Pauserne er vigtige.
 2. **Gør dine møder til walk and talk.** Tag et gående møde i stedet for at sætte dig ved mødebordet. Du er værten – så tjek en god rute uden for mange forstyrrelser og tag med, hvad der er brug for at kunne se på. Ideen kan fungere på mange arbejdspladser – den er gratis, og du får tit bedre ideer under åben himmel.
