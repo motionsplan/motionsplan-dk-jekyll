@@ -12,6 +12,7 @@ header:
   caption: *title
 category:
   - Sundhed
+  - Gang
 tags:
   - forbrænding
   - gang

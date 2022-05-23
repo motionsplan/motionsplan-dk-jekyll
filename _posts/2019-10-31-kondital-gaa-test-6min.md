@@ -10,6 +10,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Gang
 tags:
   - konditionstest
   - submaksimal test
