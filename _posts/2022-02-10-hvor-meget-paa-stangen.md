@@ -38,7 +38,7 @@ http://bonvecstrength.com/2020/06/29/choosing-the-weight-on-the-bar-percentage-r
 
 Hvis du skal træne baseret på procenter, så har du brug for at vide, hvor meget vægt du kan løfte en gang. Derefter bruger du den procentvise udregning til at estimere, hvor meget du kan løfte. Du kan udregne dit maksimale løft i en [RM-beregner](/rm-beregner/). Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.
 
-{% include figure image_path="/assets/images/blog/rm-beregner.jpg" caption="Her er et eksempel påat din _1 Repetition Maximum_ intensitetsprocenterne af dit bedste løft er udregnet i vores egen [RM-beregner](/rm-beregner/)." %}
+{% include figure image_path="/assets/images/blog/rm-beregner.png" caption="Her er et eksempel påat din _1 Repetition Maximum_ intensitetsprocenterne af dit bedste løft er udregnet i vores egen [RM-beregner](/rm-beregner/)." %}
 
 ## Vægt baseret på RPE beregner
 

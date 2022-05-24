@@ -58,8 +58,8 @@ gallery:
     url: /assets/images/pinterest/citat-dwayne-johnson.jpg
   - image_path: /assets/images/pinterest/wendler-accessories.jpg
     url: /assets/images/pinterest/wendler-accessories.jpg
-  - image_path: /assets/images/pinterest/wendler-get-it-done.png
-    url: /assets/images/pinterest/wendler-get-it-done.png
+  - image_path: /assets/images/pinterest/wendler-get-it-done.jpg
+    url: /assets/images/pinterest/wendler-get-it-done.jpg
 citatplakat:
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Definition-fitness-ML10014-214x300.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/definitionsplakater/fitness-definition-engelsk/
