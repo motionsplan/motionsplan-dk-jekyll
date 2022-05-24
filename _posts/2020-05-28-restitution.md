@@ -303,7 +303,7 @@ Men tilsyneladende er det altså ikke min alder, der gør, at jeg synes restitut
 
 Du kan også lade dig inspirere af Team Danmarks restitutionskoncept, som har forsøgt at sætte det sammen i en samlet figur over restitution.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" %}
 
 ## Konklusion
 

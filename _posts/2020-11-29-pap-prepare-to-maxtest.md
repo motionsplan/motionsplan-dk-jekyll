@@ -72,7 +72,7 @@ Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-dep
 
 ## Heavy walkouts og liftoffs
 
-[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
+[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs/) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
 
 Kuster forelår, at man sætter **10% ekstra på stangen** i forhold til det, du vil løfte som din 1RM. Formålet er, at **bære vægten i omkring 10 sekunder**, inden man sætter den pænt på plads igen. Så **venter du 5 minutter og prøver dit maxforsøg**.
 

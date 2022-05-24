@@ -3,8 +3,7 @@ title: &title "Vejer muskler mere end fedt?"
 permalink: /vejer-muskler-mere-end-fedt/
 language: da
 header:
-  overlay_image: https://ketofatfurnace.com/wp-content/uploads/2020/04/DD_fats_topp_yellow3.jpg
-  teaser: https://ketofatfurnace.com/wp-content/uploads/2020/04/DD_fats_topp_yellow3.jpg
+  teaser: https://images.unsplash.com/photo-1551651056-2cb4d5c104be?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om
@@ -37,7 +36,7 @@ Der er to forskellige typer **fedt** i kroppen; hvidt og brunt. Langt hovedparte
 
 {% include figure image_path="https://videnskab.dk/files/styles/columns_6_12_desktop/public/article_media/fedt3_2.jpg" caption="Forskellen på de hvide fedtceller og de brune fedtceller er hovedsageligt, hvordan de ophobede triglycerider fordeler sig. I de hvide fedtceller er fedtet samlet. Foto fra videnskab.dk." alt="Opbygning af hvidt og brunt fedt." %}
 
-En fedtcelle består af omkring 87% fedt (triglycerid), mens de sidste 13% udgøres af cellemembranen, cellekernen og de mitokondrier, der producerer energi. 
+En fedtcelle består af omkring 87% fedt (triglycerid), mens de sidste 13% udgøres af cellemembranen, cellekernen og de mitokondrier, der producerer energi.
 
 **Muskelcellerne** er langstrakte celler, som er 0,02 og 0,1 mm i diameter. Muskelcellerne har flere cellekerner, der ligger med mellemrum nær cellens ydervæg. Muskelceller består hovedsageligt af lange proteintråde, der kaldes myofibriller. Myofibrillerne består af proteinerne actin og myosin. De kan få musklerne til at trække sig sammen. Muskelcellerne har også mitokondrier, der producerer energi til at fiberen kan trække sig sammen.
 

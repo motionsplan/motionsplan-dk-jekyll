@@ -1098,46 +1098,6 @@
   old_price: 11999.00
   discounted: false
   id: "POWER-MAGI"
-- image_path: "https://fitnessshoppen.dk/images/TM1037-100 Alpha run 200.jpg"
-  url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=74933&partnerid=28187&htmlurl=https://fitnessshoppen.dk/shop/kettler-alpha-run-62743p.html"
-  title: "Kettler Alpha Run 200 Løbebånd"
-  excerpt: "Kettler Alpha Run 200 er det billigste løbebånd i den Nye ALPHA RUNNER Serie fra det tyske mærke Kettler. Løbebåndet er velegnet til begyndere og motionister og har desuden et unikt støddæmpningssystem, som giver dig en behagelig og dynamisk løbefølelse"
-  vendor: "Fitnessshoppen.dk"
-  category: "Løbebånd"
-  price: 9999.00
-  old_price: 11999.00
-  discounted: false
-  id: "TM1037-100I"
-- image_path: "https://fitnessshoppen.dk/images/Alpha Runner 400 .jpg"
-  url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=74933&partnerid=28187&htmlurl=https://fitnessshoppen.dk/shop/kettler-alpha-run-62745p.html"
-  title: "Kettler Alpha Run 400 Løbebånd"
-  excerpt: "Kettlers Alpha Run 400 gør det mulighed for dig at holde dig godt i form. Løbebåndet er velegnet til begyndere og motionister generelt. Desuden har det et lækkert og unikt støddæmpningssystem, som både giver dig en behagelig og dynamisk løbefølelse samt m"
-  vendor: "Fitnessshoppen.dk"
-  category: "Løbebånd"
-  price: 11499.00
-  old_price: 14999.00
-  discounted: false
-  id: "TM1038-100I"
-- image_path: "https://fitnessshoppen.dk/images/Alpha Run 600.jpg"
-  url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=74933&partnerid=28187&htmlurl=https://fitnessshoppen.dk/shop/kettler-alpha-run-62747p.html"
-  title: "Kettler Alpha Run 600 Løbebånd"
-  excerpt: "Kettlers Alpha Run 600 giver dig en fuldstændig optimal træning og er velegnet til de seriøse løbere. Løbebåndet har et optimalt støddæmpningssystem, som er med til at give dig en behagelig løbefølelse, samt skåne dine knæ og led. Den smarte, men letbetje"
-  vendor: "Fitnessshoppen.dk"
-  category: "Løbebånd"
-  price: 13499.00
-  old_price: 17499.00
-  discounted: false
-  id: "TM1039-100I"
-- image_path: "https://fitnessshoppen.dk/images/TM1040-100 Alpha Run 800.jpg"
-  url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=74933&partnerid=28187&htmlurl=https://fitnessshoppen.dk/shop/kettler-alpha-run-62749p.html"
-  title: "Kettler Alpha Run 800 Løbebånd"
-  excerpt: "Kettler Alpha Run 800 er din optimale løbepartner. Løbebåndet er velegnet til den seriøse løber og til sportsklubber på grund af dens kraftige motor på hele 4 HK. Løbebåndet har et optimalt støddæmpningssystem, som giver dig en behagelig løbefølelse og"
-  vendor: "Fitnessshoppen.dk"
-  category: "Løbebånd"
-  price: 17499.00
-  old_price: 22999.00
-  discounted: false
-  id: "TM1040-100I"
 - image_path: "https://fitnessshoppen.dk/images/Grand Cruiser.png"
   url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=74933&partnerid=28187&htmlurl=https://fitnessshoppen.dk/shop/toorx-trx-grand-59363p.html"
   title: "Toorx TRX Grand Cruiser Løbebånd"

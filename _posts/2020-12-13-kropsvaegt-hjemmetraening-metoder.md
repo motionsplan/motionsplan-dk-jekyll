@@ -16,7 +16,7 @@ tags:
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-Vaegtvest-Produkt_900x.png?v=1625157946
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
     alt: "KINETIK Vægtvest VX1"
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."

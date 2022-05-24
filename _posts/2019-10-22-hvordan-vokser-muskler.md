@@ -58,13 +58,13 @@ Grundlæggende kan man dog sige, at musklen kan gå i gennem disse tre stadier f
 
 - **Følsomhed over for spænding.** Det stress træning placerer på muskelfibrene fordi flere kontraktile proteiner linker, signalerne kommer hurtigere fra _motor units_, og strækket på fiberen fra bevægelsen forårsager en øget aktivering af proteinsyntesen gennem nogle komplicerede modeller, som . Det ser også ud til at cellehævelsen måske har effekt på muskelvæksten.
 - **Metabolit ophobning forårsaget af udtrætning.** Ophobning af lactat, hydrogen ioner (sænker pH) og phosphat-molekyler i cellerne kan også være med til at øge aktiveringen af proteinsyntesen gennem andre komplicerede processer.
-- **Muskelskade**. Når cellerne tager skade under træningen, vil de aktivere et immun respons, rydde op i cellerne og begynde reparationsprocessen, og derved stimuleres proteinsyntesen. I denne proces ser det ud til, at der også skabes satellitceller, som er med til at gøre musklerne stærkere. 
+- **Muskelskade**. Når cellerne tager skade under træningen, vil de aktivere et immun respons, rydde op i cellerne og begynde reparationsprocessen, og derved stimuleres proteinsyntesen. I denne proces ser det ud til, at der også skabes satellitceller, som er med til at gøre musklerne stærkere.
 
-På muskelcelleniveauet er den _mekaniske spænding_ sandsynligvis den afgørende faktor for, om en muskelcelle vil vokse sig større. En muskelcelle er enten slukket eller tændt; enten rekrutteres den, eller også gør den ikke. En muskelcelle skal være _tændt_ for at opleve en betydelig mekanisk spænding. Det er der groft sagt to strategier til opnå. 
+På muskelcelleniveauet er den _mekaniske spænding_ sandsynligvis den afgørende faktor for, om en muskelcelle vil vokse sig større. En muskelcelle er enten slukket eller tændt; enten rekrutteres den, eller også gør den ikke. En muskelcelle skal være _tændt_ for at opleve en betydelig mekanisk spænding. Det er der groft sagt to strategier til opnå.
 
-- **Høj ekstern belastning**. Enten kan den eksterne belastning være tilpas nok høj til, at vi rekrutterer en betydelig mængde fibre i den arbejdende muskel. 
+- **Høj ekstern belastning**. Enten kan den eksterne belastning være tilpas nok høj til, at vi rekrutterer en betydelig mængde fibre i den arbejdende muskel.
 - **Udtrætning og metabolisk stress.** Eller kan vi løfte en relativ lav vægt mange gange nok til, at musklen udtrættes (metabolisk stress), og musklen tvinges til at rekruttere flere og flere af sine fibre for at kunne opretholde arbejdet. Derfor er metabolisk stress et værktøj til at skabe mekanisk spænding i flest mulige fibre i en given muskel. Udtrætning af musklerne til nær-udmattelse er sandsynligvis et vigtigt parameter - især ved træning med lavere belastning (mindre end 60-70% af [1RM-max](/rm-beregner/)).
- 
+
 Træning til udmattelse er formentlig mest relevant ved relativt lave eksterne belastninger (mindre end 60-70% af 1RM), mens høje(re) eksterne belastninger burde være nok til at skabe mekanisk spænding i en tilpas stor mængde af fibre for at lave et signal til muskeltilvækst.
 
 Det er bl.a. udtrætningens rolle i muskelvækst, der er med til at gøre [okklusionstræning så effektivt for muskelvækst]({% link _posts/2021-01-30-okklusion-vol1.md %}).
@@ -79,8 +79,8 @@ Traditionelt har man anbefalet relativt korte pauser i forbindelse med hypertrof
 
 ## Hypertrofi og periodisering
 
-Hvis man træner for hypertrofi, så er det vigtigste parameter formentlig at sammensætte en træning, der rammer en given muskelgruppe med den størst mulige volumen, man kan overkomme at restituere fra på ugentlig basis. Restitutionen kan løbende hjælpes på vej af nogle strategisk placerede _deload_-perioder. 
-For relativt utrænede er den allervigtigste parameter for både muskelstyrke og muskeltilvækst _complicance_ (altså overholdelse) af ens træning. 
+Hvis man træner for hypertrofi, så er det vigtigste parameter formentlig at sammensætte en træning, der rammer en given muskelgruppe med den størst mulige volumen, man kan overkomme at restituere fra på ugentlig basis. Restitutionen kan løbende hjælpes på vej af nogle strategisk placerede _deload_-perioder.
+For relativt utrænede er den allervigtigste parameter for både muskelstyrke og muskeltilvækst _complicance_ (altså overholdelse) af ens træning.
 
 Hvis man derimod gerne vil opnå flere mål samtidigt, fx både hypertrofi og styrke, så kan periodisering være et godt redskab til at styre ens træning, da kroppen har svært ved at forfølge to mål på en gang.
 
@@ -88,7 +88,7 @@ Hvis man derimod gerne vil opnå flere mål samtidigt, fx både hypertrofi og st
 
 Det varierer mellem de enkelte løftere, men [Mike Israetel](https://renaissanceperiodization.com/training-volume-landmarks-muscle-growth/) opererer med nogle interessante begreber i forhold til hypertrofi.
 
-Mike Israetel skriver, at der er et antal sæt i de enkelte øvelser, som kan være nødvendige alt efter, hvilke mål udøveren har. 
+Mike Israetel skriver, at der er et antal sæt i de enkelte øvelser, som kan være nødvendige alt efter, hvilke mål udøveren har.
 
 Forudsætningerne for angivelserne af antallet af arbejdssæt er:
 
@@ -135,7 +135,7 @@ Hør Mike Israetel selv forklare begreberne.
 | Tabel baseret på Mike Israetels angivelser af ugentligt sæt                                 ||||||||
 |                           | MV  | MEV | MAV   | MRV  | Frequency | Intensity | Variation           |
 |---------------------------|-----|-----|-------|------|-----------|-----------|---------------------|
-| Triceps[^triceps]         | 4   | 6   | 10-14 | >18  | 2-4/uge   | 8-20      | 2-3 vinkler         | 
+| Triceps[^triceps]         | 4   | 6   | 10-14 | >18  | 2-4/uge   | 8-20      | 2-3 vinkler         |
 | Biceps[^biceps]           | 4-6 | 8   | 14-20 | >26  | 2-6/uge   | 8-15      | Fornuftigt          |
 | Abs[^abs]                 | 0   | 0   | 16-20 | >25  | 3-5/uge   | 8-20      | Planer og reps      |
 | Trap[^trap]               | 0   | 0   | 12-20 | >26  | 2-6/uge   | 10-20     | None                |
@@ -159,11 +159,11 @@ Hør Mike Israetel selv forklare begreberne.
 [^back]: [Back Training Tips for hypertrophy](https://renaissanceperiodization.com/expert-advice/back-training-tips-hypertrophy)
 [^hamstrings]: [Hamstring Training Tips for Hypertrophy](https://renaissanceperiodization.com/expert-advice/hamstring-training-tips-hyprtrophy)
 [^glutes]: [Glute Training Tips for Hypertrophy](https://renaissanceperiodization.com/expert-advice/glute-training-tips-hypertrophy)
-[^calves]: [Calves Training Tips for Hypertrophy](https://renaissanceperiodization.com/expert-advice/calves-training-tips-hypertrophy)
+[^calves]: [Calves Training Tips for Hypertrophy](https://rpstrength.com/expert-advice/calves-training-tips-hypertrophy)
 
 ## Ledvinkler og variationer
 
-Hvis man gerne vil have muskler til at vokse, så kan det have betydning at ramme musklerne fra forskellige ledvinkler. Fx løber triceps over to led, og det lange hoved af triceps kan rammes bedre af nogle øvelser end af andre. Det samme er tilfældet med brystmusklen. 
+Hvis man gerne vil have muskler til at vokse, så kan det have betydning at ramme musklerne fra forskellige ledvinkler. Fx løber triceps over to led, og det lange hoved af triceps kan rammes bedre af nogle øvelser end af andre. Det samme er tilfældet med brystmusklen.
 
 Det handler altså om, at musklen kan opleve mere eller mindre stræk og mekanisk belastning i forhold til arbejdsvinklerne.
 
