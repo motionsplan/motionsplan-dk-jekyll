@@ -1,5 +1,6 @@
 ---
 title: "Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx"
+seo_title: "Muskelfibertyper: Hvilke 3 typer muskelfibre findes der?"
 permalink: /muskelfibertyper/
 language: da
 header:

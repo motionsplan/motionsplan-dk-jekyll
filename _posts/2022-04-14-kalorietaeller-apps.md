@@ -75,7 +75,7 @@ Hos Madlog.dk kan du købe adgang for helt ned til en uge ad gangen. Det er ret 
 
 [Arono](https://arono.dk/){: rel="nofollow noopener" } er en dansk app, som er et forsøg på at tilbyde online diætist hjælp. Udgangspunktet for Arono er at tilbyde en skræddersyet kostplan, som kombineres med en ugentlig indkøbsliste.
 
-Når du tilmelder dig, så fortæller du Arono, hvor høj du er, hvor gammel og hvor meget du vejer. Sammen med spørgsmål om aktivitetsniveau, så beregnes dit [daglige stofskifte og forbrænding]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
+Når du tilmelder dig, så fortæller du Arono, hvor høj du er, hvor gammel og hvor meget du vejer. Sammen med spørgsmål om aktivitetsniveau, så beregnes dit [daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/).
 
 Ud fra disse oplysninger forsøger Arono at bregne, hvor mange kalorier du skal spise om dagen i forhold til dit mål. Du skal dog være opmærksom på, at disse generelle beregninger netop er generelle, så de ikke nødvendigvis passer på alle mennesker.
 

@@ -1,5 +1,6 @@
 ---
 title: &title "Restitution og alder: Hvad betyder alderen for kroppens genopbygning?"
+seo_title: "Restitution og alder: Restituerer du dårligere med alderen?"
 excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitution. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
 permalink: /restitutionstid-og-alder/
 language: da
