@@ -1,6 +1,6 @@
 ---
 title: &title "Dynamic Strength Index (DSI)"
-seo_title: "Dynamic Strength Index (DSI)"
+seo_title: "DSI: Dynamic Strength Index"
 permalink: /dynamic-strength-index-dsi/
 language: da
 header:
@@ -22,7 +22,9 @@ toc: true
 #   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 gallery:
   - image_path: /assets/images/blog/dsi-cmj.png
+    alt: Dynamic Strength Index CMJ
   - image_path: /assets/images/blog/dsi-imtp.png
+    alt: Dynamic Strength Index IMTP
 feature_row:
   - image_path: /assets/images/freebies/dsi-sheet.png
     title: Dynamic Strength Index arbejdsark
@@ -37,7 +39,7 @@ Dynamic Strength Index (DSI) er et godt værktøj til finde ud af, om du har bru
 
 Der findes også andre mål, hvor du kan finde ud af, hvordan forholdet er mellem din springstyrke og din evne til hurtigt at udvikle kraft i forbindelse med [plyometrisk træning](/plyometrisk-traening/). Læs mere om [reactive strength index (RSI)](/reactive-strength-index-rsi/).
 
-Det **dynamiske styrke index** (DSI) måler forskellen mellem et atlets maksimale styrke og den eksplosive styrkekapacitet. DSI er et mål for et altlets nuværende præstationsniveau. DSI kan være med til at identificere om en atlet bør prioritere styrketræning, ballistisk træning eller samtidig (concurrent) træning i deres træningsprogram for at blive mere eksplosiv. 
+Det **dynamiske styrke index** (DSI) måler forskellen mellem et atlets maksimale styrke og den eksplosive styrkekapacitet. DSI er et mål for et altlets nuværende præstationsniveau. DSI kan være med til at identificere om en atlet bør prioritere styrketræning, ballistisk træning eller samtidig (concurrent) træning i deres træningsprogram for at blive mere eksplosiv.
 
 I praksis er **Dynamic Strength Index** en ratio mellem et atlets ballistiske _peak force_ og den dynamiske eller isometriske _peak force_. Det har [www.scienceforsport.com](https://www.scienceforsport.com/dynamic-strength-index/) skrevet en rigtig god artikel om på engelsk, som er baggrunden for dette indlæg.
 
@@ -59,7 +61,7 @@ Der bliver brugt lidt forskellige måder i litteraturen til at udregne det.
 Det er meget sædvanligt at bruge _counter movement test_ (CMJ) eller squat jump (SJ) som den ballistiske test og en IMTP for at udregne en udøvers DSI.
 
 Det betyder altså, at man måler atletens **maksimale kraft** med fx IMTP-testen, mens den ballistiske CMJ-test måler **hvor meget kraft atleten kan producere på kort tid**.
- 
+
 ## Hvad kan man bruge Dynamic Strength Index til?
 
 Indekset kan hjælpe træneren og atleten med at forstå, hvor kraftfuld - altså hvor stærk - en atlet er, og hvor meget kraft atleten kan bruge under hurtige bevægelser. Det giver træneren mulighed for at målrette træningen til den enkelte atlet i forhold til om, der skal arbejdes med den maksimale styrke eller kraftudviklingsegenskaberne.
@@ -77,7 +79,7 @@ I disse to grafer kan du se, hvordan kraftkurverne ser ud for hhv. CMJ og IMTP l
 {% include gallery caption="CMJ-test målte en _peak force_ på 1896 N. IMTP-test har i dette eksempel en _peak force_ på 2060 N. Her skal der ikke tages højde for kropsvægten, da kraftplatformen blev nulstillet med forsøgspersonen på platformen." %}
 
 Den interessante forskel er hvor meget kraft, atleten kan producere, når der ikke er nogen tidsbegræsning (som i IMTP-testen) i forhold til hvor meget kraft, atleten kan producere på kort tid, fx i afsæt.
- 
+
 | Øvelse | Peak Force (N) | Time to Peak Force (ms) |
 | -|-|-|
 | IMTP | 3.178 | 260 |
@@ -106,9 +108,9 @@ Du kan bruge denne formular til at udregne dit eget DSI.
 | Low     | < 0,60        | Ballistisk træning     |
 | Moderat | 0,60 - 0,80   | Samtidig træning       |
 | Høj     | > 0,80        | Maksimal styrketræning |
- 
+
 ## Ulemper ved DSI
- 
+
 Desværre har man brug for en kraftplatform til at finde _peak force_ i fx CMJ-hoppet, men da det også er nødvendigt for IMTP-testen, så skal du alligevel have dyrt udstyr for at kunne lave testen.
 
 ## Arbejdsark

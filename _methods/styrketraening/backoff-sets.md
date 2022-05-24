@@ -1,6 +1,6 @@
 ---
 title: "Backoff sæt"
-excerpt: ""
+excerpt: "Back-off sæt er en teknik, hvor man kører ét (eller nogle gange flere) sæt med lettere vægte, efter man har kørt sine ‘hovedsæt’ med tungere vægte."
 permalink: /styrketraening/backoff-sets/
 header:
   teaser: /assets/images/hypertrofi/backoff-sets.jpg

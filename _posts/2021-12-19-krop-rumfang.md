@@ -1,5 +1,6 @@
 ---
-title: &title "Udregn kroppens rumfang"
+title: &title "Udregn kroppens rumfang (Beregner)"
+seo_title: "Kroppens rumfang: Udregn hvor stor kroppen er (Beregner)"
 permalink: /kroppens-rumfang/
 language: da
 header:

@@ -1,9 +1,10 @@
 ---
 title: "Anconeus"
-seo_title: "Anconeus | Muskler"
+seo_title: "Anconeus | Anconæus | Muskler"
 group:
   - Arme
 name:
+  da: Anconæus
   latin: Anconeus
 tags:
   - imagemap

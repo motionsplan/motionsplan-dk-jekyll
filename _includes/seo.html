@@ -75,6 +75,18 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
+{% comment %} HACK to accomodate for missing work on titles in training exercises {% endcomment %}
+{% if page.path contains '_exercises' %}
+  {% if seo_title.size < 30 %}
+    {% assign seo_title = seo_title | append: " | Træningsøvelse" %}
+  {% endif %}
+{% endif %}
+{% if page.path contains '_methods' %}
+  {% if seo_title.size < 30 %}
+    {% assign seo_title = seo_title | append: " | Træningsmetode" %}
+  {% endif %}
+{% endif %}
+
 <title>{{ seo_title | default: page_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 <meta name="description" content="{{ seo_description }}">
 

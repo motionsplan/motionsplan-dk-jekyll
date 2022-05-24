@@ -9,14 +9,14 @@ header:
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "I et compund sæt kører du to forskellige øvelser til samme muskelgruppe som et supersæt."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:
@@ -56,7 +56,7 @@ Ideen er, at du udtrætter den specifikke muskel ved hjælp af isolationsøvelse
 Det betyder med andre ord, at du kan udtrætte specifikke muskelgrupper rigtigt meget, ved at supersætte en isolationsøvelse med en flerledsøvelse. Har du nogle muskelgrupper, der halter bagefter – så er det bestemt en effektiv teknik til at udvikle dem endnu mere!
 
 
-Use an isolation movement to ‘pre-exhaust’ a particular muscle group, before performing a more compound exercise straight afterwards.  In other words a same muscle group super-set.  So A1 might be a dumbbell chest flye for a set of 15 reps which will preexhaust the pectorals muscles prior to performing A2 which could be a heavy flat bench dumbbell press.  These are typically used when there is a lagging muscle group which the trainee wants to bring up, or when a trainee has trouble feeling a muscle working or activating it sufficiently. 
+Use an isolation movement to ‘pre-exhaust’ a particular muscle group, before performing a more compound exercise straight afterwards.  In other words a same muscle group super-set.  So A1 might be a dumbbell chest flye for a set of 15 reps which will preexhaust the pectorals muscles prior to performing A2 which could be a heavy flat bench dumbbell press.  These are typically used when there is a lagging muscle group which the trainee wants to bring up, or when a trainee has trouble feeling a muscle working or activating it sufficiently.
 
 ***
 

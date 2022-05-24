@@ -1,5 +1,6 @@
 ---
 title: &title "Løbebånd beregner"
+seo_title: "Løbebånd beregner: Udregn hældning og kalorier"
 permalink: /loebebaand-beregner/
 language: da
 header:

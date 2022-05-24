@@ -7,14 +7,14 @@ header:
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "Modsat opnår du en excentrisk bevægelse, når du sænker vægten ned mod brystet igen og dine muskler bliver strukket ud. Det er den excentriske bevægelse som sørger for at vægten sænkes kontrolleret, fremfor at falde falde til brystet pga. tyngdekraften."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

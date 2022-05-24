@@ -7,14 +7,14 @@ header:
 breadcrumbs: true
 category:
   - Styrketræning
-excerpt: ""
+excerpt: "Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil bruge waves til hypertrofi, skal du naturligvis køre flere reps for at skabe volumen end du gør ifm. maksimal styrke."
 tags:
   - maksimal styrke
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

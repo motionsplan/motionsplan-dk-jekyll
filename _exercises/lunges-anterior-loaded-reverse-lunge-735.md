@@ -16,6 +16,7 @@ tags:
   - Lunges
 categories:
   - Ben
+  - Lunges
 training_type:
   - Styrketræning
 training_focus:

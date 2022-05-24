@@ -2,12 +2,12 @@
 layout: single
 title: "Fartlek"
 permalink: /metode/fartlek/
+excerpt: "I fartlek eller fartleg varierer du dit tempo i løbet af løbeturen. Du skifter mellem hurtige segmenter og strækninger, hvor du jogger langsommere, og måske sprinter du også."
 breadcrumbs: true
 category:
   - Kondition
 header:
   teaser: /assets/images/kondition/fartlek.jpg
-excerpt: ""
 tags:
   - aerob træning
   - anaerob træning

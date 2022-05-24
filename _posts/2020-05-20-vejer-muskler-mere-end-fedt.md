@@ -1,5 +1,6 @@
 ---
 title: &title "Vejer muskler mere end fedt?"
+seo_title: "Vejer muskler mere end fedt? Få svaret her!"
 permalink: /vejer-muskler-mere-end-fedt/
 language: da
 header:
