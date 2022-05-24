@@ -1,5 +1,6 @@
 ---
-title: "Bulletproof Athlete og R7"
+title: "Bulletproof Athlete og R7-metoden"
+seo_title: "Bulletproof Athlete og R7-metoden af Mike Robertson"
 permalink: /artikel/bulletproof-athlete/
 language: da
 header:

@@ -119,7 +119,7 @@ Helt grundlæggende kan du forbedre restitutionstiden og blive hurtigere klar ti
 
 Du kan lade dig inspirere af Team Danmarks restitutionskoncept for at forkorte din genopbygningsperiode.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" %}
 
 Der er ingen tvivl om, at kosten er en stor del af restitutionen. Team Danmark vælger dog også at medtage [kontrast- og kuldebehandling](/isbad-og-kryoterapi/) og [udstrækning](/udstraekning-udspaending/) som passiv restitution. Så vidt jeg læser litteraturen, så er det lidt kontroversielt at tænke, at de to restitutionsformer skulle forkorte restitutionstiden.
 

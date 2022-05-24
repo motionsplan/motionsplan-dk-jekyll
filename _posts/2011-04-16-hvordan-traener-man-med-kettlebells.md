@@ -33,7 +33,9 @@ feature_row:
 toc: true
 ---
 
-Kettlebells er et rigtig godt træningsredskab. Kettlebells er meget velegnede, hvis du går efter allround fitness. Det meste af kroppen trænes, når man bruger kettlebells, og der er komponenter af behændighed, smidighed, eksplosivitet, udholdenhed og styrke. Og det kræver ikke særlig meget plads at træne med kettlebells. Kettlebells bruges først og fremmest til at lave dynamisk træning med flere gentagelser.
+Kettlebells er et rigtig godt træningsredskab. Kettlebells er meget velegnede, hvis du går efter allround fitness. Kettlebells bruges først og fremmest til at lave dynamisk træning med flere gentagelser.
+
+Det meste af kroppen trænes, når man bruger kettlebells, og der er komponenter af behændighed, smidighed, eksplosivitet, udholdenhed og styrke. Og det kræver ikke særlig meget plads at træne med kettlebells.
 
 ## Vælg den rigtige kettlebell
 

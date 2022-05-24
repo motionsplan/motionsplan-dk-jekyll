@@ -5,14 +5,14 @@ permalink: /styrketraening/okklusion/
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "Okklusionstræning er en træningsform, der benytter lave vægtbelastninger kombineret med delvis aflukning af blodgennemstrømningen for at opnå hypertrofi og styrkevækst."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

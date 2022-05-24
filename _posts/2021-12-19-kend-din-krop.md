@@ -1,5 +1,6 @@
 ---
 title: &title "Kend din krop: Gæt og quiz"
+seo_title: "Kend din krop: Gæt og quiz om kroppen"
 permalink: /kend-din-krop/
 language: da
 header:

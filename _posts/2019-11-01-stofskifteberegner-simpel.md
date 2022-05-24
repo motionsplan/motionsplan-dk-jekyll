@@ -1,5 +1,6 @@
 ---
 title: &title "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte 🔥"
+seo_title: "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte"
 permalink: /bmr-beregner-hvilestofskifte-basalstofskifte/
 redirect_from:
   - /simpel-stofskifte/
@@ -64,7 +65,7 @@ Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinducere
 
 Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
-Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), så har jeg også skrevet om det.
+Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), så har jeg også skrevet om det.
 
 ## Er der forskel på hvilestofskiftet og basalstofskiftet?
 
@@ -311,15 +312,18 @@ Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din 
 
 Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
 
+{% comment %}
 ## Hvad kan du bruge hvilestofskiftet til?
 
 ## Hvad påvirker basalstofskiftet?
 
+{% endcomment %}
+
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde en på [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du gerne vil have en beregner på engelsk, så kan du finde en på [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
 ## Referencer
 

@@ -63,7 +63,7 @@ Det ser ud til at være forbundet med lavere risiko for livsstilssygdomme, hvis 
 
 Talje-højde-målet er blevet plottet ind i en simpel _Shape Chart_ foreslået af Ashwell (bl.a. 2011). Se også [Ashwell (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223160/).
 
-{% include figure image_path="https://www.nebido.com/sites/g/files/vrxlpx13426/files/2020-08/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. Kilde: [Ashwell Shape Chart](https://www.nebido.com/hcp/tools/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
+{% include figure image_path="https://www.nebido.com/sites/g/files/vrxlpx39276/files/2020-08/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. Kilde: [Ashwell Shape Chart](https://www.nebido.com/hcp/tools/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
 
 ## Mere om de forskellige taljemål
 

@@ -2,20 +2,20 @@
 layout: single
 title: "Range of motion"
 permalink: /styrketraening/range-of-motion/
-redirect_from: 
+redirect_from:
   - /styrketraening/regressive-range-of-motion/
   - /styrketraening/partial-reps/
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "I styrketræning vil full range of motion ofte være et udtryk, der kommer i spil for korrekt udførsel af en øvelse. Du kan bruge det som en træningsmetode at variere din ROM."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

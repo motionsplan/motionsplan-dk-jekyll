@@ -40,7 +40,7 @@ Hvad er ligevægtsindtag? **Ligevægtsindtag er, når du indtager lige så meget
 
 Hvis du gerne vil finde dit ligevægtsindtag, så er der forskellige måder at gøre det på. Da de færreste har adgang til et laboratorium, så estimerer man ofte sit ligevægtsindtag med forskellige udregninger. Der findes mange forskellige måder at udregne ligevægtsindtaget på.
 
-Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har skrevet et andet indlæg om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og et indlæg om hvordan du [udregner dit daglige stofskifte og forbrænding]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}) med en mere nøjagtig angivelse af aktivitetsniveauet.
+Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har skrevet et andet indlæg om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og et indlæg om hvordan du [udregner dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) med en mere nøjagtig angivelse af aktivitetsniveauet.
 
 I dette indlæg kan du få svar på følgende spørgsmål:
 
@@ -61,7 +61,7 @@ Beregn ligevægtsindtag i vores ligevægtsberegner. Du får det bedste estimat, 
 
 Du kan estimere dit ligevægtsindtag i vores ligevægtsindtagsberegner ovenfor, så du ved, hvad dit daglige kalorieindtag skal være. På den måde undgår du at indtage færre kalorier, end du har brug for, hvis du gerne vil have gode resultater af din træning. Du får også overblik over, om du indtager flere kalorier end nødvendigt.
 
-Når energiforbruget svarer overens med dit kalorieindtag, så holder du den nuværende vægt. 
+Når energiforbruget svarer overens med dit kalorieindtag, så holder du den nuværende vægt.
 
 ## Hvilken formel skal jeg vælge til beregning af ligevægtsindtag?
 
@@ -115,7 +115,7 @@ Nu kender du dit omtrentlige ligevægtsindtag. Som du kan se så er den største
 
 ## Andre beregnere til ligevægtsindtag
 
-Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan du besøge vores BMR-beregner]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Hvis du vil læse mere om udregning af [samlet dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller besøge en [avanceret beregner med en mere præcis aktivitetsregistrering]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
+Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan du besøge vores BMR-beregner]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Hvis du vil læse mere om udregning af [samlet dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller besøge en [avanceret beregner med en mere præcis aktivitetsregistrering](/beregner/dagligt-stofskifte-og-forbraending/).
 
 ## Ofte stillede spørgsmål om ligevægtsberegnere
 

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Træningsformer og motionsformer"
-seo_title: "Træningsformer og motionsformer - få inspiration til bevægelse"
+seo_title: "Træningsformer og motionsformer - inspiration til bevægelse"
 permalink: /traeningsformer/
 description: "Er du på udkig efter spændende træningsformer og motionsformer? Her får du en grundig gennemgang af, hvad man kan træne for at være fysisk aktiv."
 excerpt: "Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på."

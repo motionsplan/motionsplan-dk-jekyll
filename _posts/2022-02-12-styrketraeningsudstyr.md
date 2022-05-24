@@ -1,6 +1,6 @@
 ---
 title: &title "Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr"
-seo_title: "Styrketræningsudstyr | Vælg det rigtige udstyr til styrketræning"
+seo_title: "Styrketræningsudstyr: 8 tips til udstyr til styrketræning"
 permalink: /styrketraening-udstyr/
 language: da
 header:

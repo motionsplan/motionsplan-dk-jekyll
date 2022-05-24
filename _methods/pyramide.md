@@ -2,11 +2,11 @@
 layout: single
 title: "Pyramide"
 seo_title: "Pyramide | Konditionstræning | Løbetræning"
+excerpt: "Pyramideløb er intervaller, som er organiseret som en pyramide i varigheden af de enkelte intervaller."
 permalink: /metode/pyramide/
 breadcrumbs: true
 category:
   - Kondition
-excerpt: ""
 tags:
   - aerob træning
   - anaerob træning

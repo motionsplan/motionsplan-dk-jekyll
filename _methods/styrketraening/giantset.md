@@ -7,14 +7,14 @@ header:
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "Et giant-set minder på mange måder om cirkeltræning, dog med den primære forskel, at du som udgangspunkt træner den samme muskelgruppe i et giant-set. Typisk vil du starte med den teknisk sværeste øvelse, og sænke øvelsernes sværhedsgrad i takt med at du bliver mere træt."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

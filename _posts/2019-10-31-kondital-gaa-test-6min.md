@@ -5,8 +5,8 @@ permalink: /gaatest-6min/
 excerpt: "6 minutters gangtest (6MWT) er en gåtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker i samme aldersgruppe som dig selv. Gangtesten henvender sig til relativt fysisk svage personer."
 language: da
 header:
-  overlay_image: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
-  teaser: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
+  overlay_image: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
+  teaser: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
   caption: *title
 category:
   - Kondition

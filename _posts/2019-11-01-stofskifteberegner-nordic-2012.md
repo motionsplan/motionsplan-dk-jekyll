@@ -37,7 +37,7 @@ Jeg har lavet en beregner til at udregne dit daglige energibehov og energiforbru
 
 Hvordan kan jeg udregne mit daglige energibehov og energiforbrug? **Du kan udregne dit daglige energibehov ved at estimere dit hvilestofskifte og gange det med en faktor, der beskriver dit fysiske aktivitetsniveau for en dag (PAL).**
 
-Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan [læse en lidt mere uddybende forklaring af, hvad stofskiftet er]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
+Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan [læse en lidt mere uddybende forklaring af, hvad stofskiftet er](/beregner/dagligt-stofskifte-og-forbraending/).
 
 Denne beregner af dit daglige energiforbrug og energibehov kan du vælge mellem forskellige beregninger af hvilestofskiftet. Derefter ganger vi hvilestofskiftet med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL.
 
@@ -83,11 +83,11 @@ Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (P
 
 ## Flere beregnere til dit daglig energibehov
 
-Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
+Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
 
 Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde en på [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
 ## Referencer
 

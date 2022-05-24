@@ -152,5 +152,5 @@ Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I mi
 <details markdown="1">
   <summary>Se referencer</summary>
 
-- [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide)
+- [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide/)
 </details>
