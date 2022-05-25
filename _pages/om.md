@@ -4,7 +4,6 @@ title: "Om Motionsplans formål og tilblivelse"
 permalink: /om/
 excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning."
 author_profile: true
-toc: true
 sitemap: false
 ---
 
@@ -20,6 +19,20 @@ Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universi
 - **Holder sitet opdateret.** Artikler og øvelser gennemlæses og revideres løbende for at tage højde for den nyeste viden. Hvis nogle af læserne har konstruktive kommentarer til artikler, tager vi det til efterretning så hurtigt som muligt. Du finder altså ingen gammel og outdated viden her.
 
 Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ site.email }}.
+
+## Gratis medie om træning
+
+Motionsplan.dk er et gratis medie for alle brugerne. Der ligger rigtig mange timer bag ved udviklingen af artiklerne og beregnerne.
+
+Motionsplan finansierer bl.a. driften gennem reklamer. Nogle links på sitet er affiliate links. Det betyder, at vi tjener en lille kommision, hvis du køber produkter efter at have klikket på et link til en leverandør.
+
+Alle reklamelinks er altid markeret tydeligt. Du skal også være opmærksom på, at produkterne ikke bliver dyrere af, at du støtter Motionsplan.
+
+Indtjeningen går til at støtte arbejdet med hjemmesiden, den løbende opdatering og optimering og til nye tiltag. Vi håber, at du vil støtte op om arbejdet.
+
+Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har fortjent det.
+
+{% include buymeacoffee.html %}
 
 ## Materiale på sitet
 
