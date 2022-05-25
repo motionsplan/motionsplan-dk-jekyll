@@ -45,9 +45,9 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan [anatomi](/anatomi7) og [fysiologi](/fysiologi/) hænger sammen, og hvordan de adskiller sig fra hinanden.
+Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan [anatomi](/anatomi/) og [fysiologi](/fysiologi/) hænger sammen, og hvordan de adskiller sig fra hinanden.
 
-## Hvad er forskellen på anatomi og fysiologi? 
+## Hvad er forskellen på anatomi og fysiologi?
 
 **Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
 

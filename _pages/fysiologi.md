@@ -119,7 +119,7 @@ Vi har skrevet en del forskellige indlæg her, som du kunne være intereseret i.
 - [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx](/muskelfibertyper/)
 - [Er der forskel på mænds og kvinders muskler?](/maend-kvinder-muskler/)
 - [Hvor hurtigt vokser dine muskler?](/hvor-hurtigt-vokser-muskler/)
-- [Hvor mange muskler har mennesket i kroppen?](/hvor-mange-muskler-i-kroppen/)
+- [Hvor mange muskler er der i menneskekroppen?](/hvor-mange-muskler-i-kroppen/)
 - [Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?](/atrofi-muskelmasse-muskelstyrke/)
 
 ## Fysiologiske tilpasninger til træning
@@ -147,7 +147,7 @@ Jeg har lavet en lille quiz med [Kend din krop](/kend-din-krop/), hvor der også
 - [Lunger: Hvor stor er din lungekapacitet? [Beregner]](/lunger-lungekapacitet/)
 - [Udregn hvor meget vand du har i kroppen [Beregner]?](/vand-i-kroppen/)
 
-Hvis du savner nogle andre beregnere, så kan du kigge under oversigten over [alle beregnere](/beregnere/).
+Hvis du savner nogle andre beregnere, så kan du kigge under oversigten over [alle beregnere](/beregnere-tests/).
 
 ## Konklusion
 

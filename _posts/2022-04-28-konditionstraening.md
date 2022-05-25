@@ -144,7 +144,7 @@ Du kan altså tænke over, at dit konditionsprogram hen over ugerne tager højde
 - **Højere intensitet.** Du kan langsomt øge intensiteten i de hårde træningspas. Du kan fx de første par uger arbejde med 85-90% af [maxpulsen](/test-max-puls/), mens du øger den til 90-95% af maxpulsen i de sidste par uger. Det kræver naturligvis at du har en pulsmåler, men du kan også bruge [Borg-skalaen](/borg-skala/). Du kan også i de senere uger indføre to hårde træningspas i stedet for et. Du kan også variere, hvor mange gentagelser, du laver af de enkelte intervaller i din intervaltræning.
 - **Træningsmængde**. Du kan øge træningsmængden langsomt hen over træningsugerne. Du kan enten øge antallet af træningspas på en uge, eller du kan træne lidt længere. Hvis du fx første uge laver en træningstur med fokus på udholdenhed, hvor du løber 30 minutter, så kan du i næste uge løbe 35 minutter og så fremdeles.
 
-Du skal også **vælge nogle passende øvelser** i forhold til dine mål. Du kan få inspiration til nogle effektive øvelser under fx [løbetræning](/loebetraening/) eller [forskellige intervalløbtyper](/intervallob-intervaltraening/).
+Du skal også **vælge nogle passende øvelser** i forhold til dine mål. Du kan få inspiration til nogle effektive øvelser under fx [løbetræning](/loebesiden/) eller [forskellige intervalløbtyper](/intervallob-intervaltraening/).
 
 ### 4. Gennemfør programmet
 

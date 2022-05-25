@@ -37,7 +37,7 @@ feature_row_skridt_til_km:
     title: "Hvor hurtigt går du?"
     excerpt: "Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her får du også svaret på, hvor hurtigt man går 1 kilometer?"
     btn_label: "Hvor hurtigt går du?"
-    btn_class: "btn--info"    
+    btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
 ---
@@ -73,7 +73,7 @@ Mange er interesserede i, hvor mange kalorier de forbrænder, når de går. Du [
 
 Regelmæssige gåture styrker både musklerne, dit kredsløb og din [kondition](/kondition/), hvis du sætter tempoet lidt op og vandrer gennem et kuperet terræn.
 
-**Læs**: [Få inspiration til din gåtur](/inspiration-gaatur/)
+**Læs**: [Få inspiration til din gåtur](/inspiration-til-gaature/)
 
 At gå har altså en positiv indvirkning på din krop, men der er også mange mentale fordele ved gang. Det ser ud til, at det er et godt værn mod stress i en travl hverdag.
 
@@ -81,7 +81,7 @@ Og det er så let at komme i gang. Du kan enten have aftaler med andre, eller v�
 
 ### 1. Det er let  og for alle
 
-Det er let at komme i gang med at gå. Du behøver ikke være i fantastisk form. Det virker ikke så uoverskueligt at komme afsted. Du har ikke brug for særlig instruktion. Der er ikke krav om noget særligt udstyr. Du kan komme afsted uden at skulle klæde om først. 
+Det er let at komme i gang med at gå. Du behøver ikke være i fantastisk form. Det virker ikke så uoverskueligt at komme afsted. Du har ikke brug for særlig instruktion. Der er ikke krav om noget særligt udstyr. Du kan komme afsted uden at skulle klæde om først.
 
 **Gang er for alle** (dem, der kan gå). Du bestemmer selv, hvor hurtigt og hvor langt du vil gå.
 
@@ -155,7 +155,7 @@ Når du bevæger dig, så forbruger du energi. Hvis du går meget, ofte og langt
 
 En meget udbredt tommelfingerregel er, at man forbrænder cirka 1 kcal pr. kg kropsvægt pr. km, men det betyder også noget, hvor hurtigt man går og hvor kuperet ruten er.
 
-Du kan bruge min [beregner til kalorieforbrænding ved gang](/forbraending-ved-gaa-gang/), hvis du vil have et mere præcist bud på nøjagtig, hvor mange kalorier, du bruger på flytte benene.  
+Du kan bruge min [beregner til kalorieforbrænding ved gang](/forbraending-ved-gaa-gang/), hvis du vil have et mere præcist bud på nøjagtig, hvor mange kalorier, du bruger på flytte benene.
 
 ### 13. Få et pusterum i hverdagen og reducer stress
 

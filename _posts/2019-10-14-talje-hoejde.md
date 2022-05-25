@@ -23,7 +23,7 @@ Talje-højde-forholdet siger ifølge studier noget om din risiko for livsstilssy
 
 *[WHR]: Waist/Hip-ratio
 
-[Taljemålet](/taljemaal) er et meget udbredt mål, men ulempen er, at det ikke er helt retfærdigt i forhold personer som ligger langt fra den [gennemsnitlige højde](/hvad-er-gennemsnitshoejden-i-danmark/). Derfor er det mere og mere udbredt at sætte taljemålet i forhold til højden. Dette mål vinder også indpas i de internationale studier.
+[Taljemålet](/taljemaal/) er et meget udbredt mål, men ulempen er, at det ikke er helt retfærdigt i forhold personer som ligger langt fra den [gennemsnitlige højde](/hvad-er-gennemsnitshoejden-i-danmark/). Derfor er det mere og mere udbredt at sætte taljemålet i forhold til højden. Dette mål vinder også indpas i de internationale studier.
 
 Her kigger vi på baggrunden for talje-højde-målet. Men lad os springe direkte til vores beregner først.
 
