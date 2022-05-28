@@ -112,6 +112,10 @@ Knoglerne kan opdeles i fire forskellige knogletyper:
 
 {% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/601_Bone_Classification_revised-874x1024.png" caption="Knogletyper i menneskekroppen: rørknogler, flade knogler, korte knogler og uregelmæssige knogler. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/6-2-bone-classification/)." alt="Knogletyper: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" %}
 
+## Quiz om knogler
+
+{% include quiz.html %}
+
 ## Ofte stillede spørgsmål
 
 {% include faq.html %}

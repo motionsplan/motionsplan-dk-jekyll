@@ -135,5 +135,12 @@
           $(this).parent().replaceWith(iframe);
       });
     });
+    $('#quiz').quiz({
+      //resultsScreen: '#results-screen',
+      //counter: false,
+      //homeButton: '#custom-home',
+      counterFormat: 'Question %current of %total',
+      questions: questions
+    });
 
   });
