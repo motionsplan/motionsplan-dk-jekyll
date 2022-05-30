@@ -75,6 +75,18 @@ Der er imidlertid også mange håndboldspillere og fodboldspillere, som ikke rig
 
 Der er også blevet mere og mere populært i cykelsport, at man skal rulle af efter en hård dag på cyklen, fx i etapeløbene som Tour de France.
 
+## Hvordan forbedrer jeg min restitution efter træning?
+
+Der er flere måder at forbedre din restitution efter træning på. Selvom det ikke skader noget at nedvarme efter træning, så er det langt vigtigere, at du har alle de centrale elementer i restitutionen på plads.
+
+- Søvn
+- Kost
+- Hvile
+
+Disse tre ting er klart de vigtigste parametre for at have en fornuftig restitution efter træning og kamp. Når du har styr på de parametre, så kan du begynde at optimere på andre restitutionsaktiviteter. 
+
+Men husk at mange prøver at sælge dig en genvej. Og der er formentlig ingen genveje til bedre resultater.
+
 ## Konklusion
 
 Fordelene ved nedvarmning er altså ikke overbevisende belyst i den videnskabelige litteratur. Til gengæld er der heller ikke nogle negative effekter ved nedvarmning, så hvis du synes det passer ind i din hverdag og strategi for træning, så kan du sagtens gøre det.
