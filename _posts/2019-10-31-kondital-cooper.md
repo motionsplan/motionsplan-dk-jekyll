@@ -104,11 +104,11 @@ kondital = (22,351 x distance i kilometer) - 11,288
 
 ***
 
-Der findes vist også formler, der inkluderer vægt, køn og alder, men jeg har ikke kunnet finde dem specifikt.
+Der findes vist også formler, der inkluderer vægt, køn og alder, men dem har jeg ikke kunnet finde.
 
 Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at bruge den samme formel hver gang.
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit resultat med [tabellen over kondital for mænd og kvinder](/kondital/).
 
 ## Usikkerheder i Cooper-testen
 

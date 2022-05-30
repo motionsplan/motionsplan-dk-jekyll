@@ -150,7 +150,11 @@ Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
 ## Konklusion
 
-Jeg har imidlertid ofte brug for at kunne udregne min løbehastighed og omregne mellem min/km og km/t, fx når jeg skal sætte [løbebåndet]({% link _posts/2020-08-14-loebebaand.md %}) til at have den rigtige hastighed.
+Her kunne du altså finde flere måde at udregne din fart og hastighed på.
+
+Jeg har ofte brug for at kunne udregne min løbehastighed og omregne mellem min/km og km/t, fx når jeg skal sætte [løbebåndet]({% link _posts/2020-08-14-loebebaand.md %}) til at have den rigtige hastighed.
+
+Mange er også interesserede i at få svar på spørgsmålet: "Hvor hurtigt går man i km/t?" og finde deres [gangtempo](/tid-at-gaa/).
 
 ## Ofte stillede spørgsmål
 

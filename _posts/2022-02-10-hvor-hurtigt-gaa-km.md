@@ -19,13 +19,13 @@ Det kan være rart at vide, hvor længe man skal gå for at få de anbefalede 10
 
 {% include figure image_path="https://images.unsplash.com/photo-1451156351305-d4f9bff58036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5" caption="Hvor hurtigt går man 1 kilometer, og hvor lang tid tager det at gå 10.000 skridt. Tjek vores beregner for svaret!" alt="skridt til km og 10.000 skridt" %}
 
-Vi kigger altså i dette indlæg lidt på ganghastighed. Vi tager udgangspunkt i almindelige mennesker, som går i et almindeligt tempo.
+Vi kigger altså i dette indlæg lidt på ganghastighed og gangtempo. Vi tager udgangspunkt i almindelige mennesker, som går i et almindeligt tempo.
 
 Hvis du vil se nogle folk, der virkelig går hurtigt, så kan du jo kigge lidt på en virkelig hurtig kapgænger her. Det er klart, at en topklasse kapgænger går noget hurtigere pr. kilometer end os almindelige mennesker.
 
 {% include video provider="youtube" id="HAA6tfbyJDA" %}
 
-## Hvordan kan jeg vide om jeg har gået 10.000 skridt?
+## Hvordan kan jeg vide, om jeg har gået 10.000 skridt?
 
 Den letteste måde du kan finde ud af om du har gået de 10.000 skridt, er helt klart ved at have en skridttæller eller et aktivitetsur.
 

@@ -2,7 +2,7 @@
 title: "Find konditallet med Watt-Max testen på cykel"
 seo_title: "Watt-max test: Find dit kondital på cykel"
 permalink: /kondital-wattmax/
-description: "Vil du prøve en Watt-max test? Her får du en forklaring på, hvordan du kan bruge Watt-max testen til at lave en konditionstest på cykel."
+description: "Vil du prøve en Watt-max test? Her får du en forklaring på, hvordan du kan bruge max watt testen til at lave en konditionstest på cykel."
 excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testen kan bruges til at estimere din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv."
 language: da
 header:
@@ -65,7 +65,7 @@ I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cy
 
 {% include calculate-fitness-wattmax.html %}
 
-## Videnskabelig baggrund for Watt max-testen
+## Videnskabelig baggrund for max watt testen
 
 Watt-max-testen er udviklet af Andersen (1995). I studiet blev 232 mænd og 303 kvinder i alderen fra 15-28 år testet. Studiet fandt en korelation på r=0,88 mellem _maximal power output_ og VO<sub>2</sub>max.
 
