@@ -29,7 +29,7 @@ Hvordan bliver jeg hurtigst klar til at træne igen? - Hvad forbedrer restitutio
 
 {% endcomment %}
 
-**Restitutionstiden afhænger af den aktivitet, du laver. Hvis du har trænet rigtig hårdt, så vil restitutionstiden være længere end efter en lettere træning. Restitutionstiden afhænger også af din nuværende form, og hvad du laver ud over træningen. Din søvn og kost spiller også ind på restitutionstiden. Endelig spiller det samlede stress på kroppen i perioden også ind, og alderen klan også have betydning for restitutionstiden.**
+**Restitutionstiden afhænger af den aktivitet, du laver. Hvis du har trænet rigtig hårdt, så vil restitutionstiden være længere end efter en lettere træning. Restitutionstiden afhænger også af din nuværende form, og hvad du laver ud over træningen. Din søvn og kost spiller også ind på restitutionstiden. Endelig spiller det samlede stress på kroppen i perioden også ind, og alderen kan også have betydning for restitutionstiden.**
 
 I dette indlæg fokuserer vi på genopbygningsperioden mellem to træningspas, og hvordan du kan optimere tiden det tager at blive genopbygget. Vi kigger altså på:
 
@@ -73,6 +73,10 @@ Det er meget individuelt, hvor lang tid det tager at restituere. Her giver vi et
 [Iform](https://iform.dk/traening/friske-muskler-i-en-fart) beskriver, hvor længe man bruger på at blive klar i forskellige aktiviteter. Som man kan se i skemaet har intensiteten stor betydning for, hvornår man kan være frisk igen. Jeg savner lidt videnskabeligt belæg for de enkelte tidspunkter, men kan godt lide, at de har anført en 90-95% frisk-kategori, da man sagtens kan træne igen her. Det er noget andet, hvis man skal til en konkurrence, hvor man skal ramme sit maksimale præstationsniveau.
 
 {% include figure image_path="/assets/images/restitution.png" caption="Restitutionstid for forskellige aktiviteter lige fra ang til maksimal sprint. Kilde: [Iform](https://iform.dk/traening/friske-muskler-i-en-fart)" alt="restitutionstid for forskellige aktiviteter" %}
+
+[Marina Aagaard](http://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) præsenterer restitutionstiden i denne overskuelige tabel.
+
+{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](http://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/)" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
 
 ### Restitutionstid for styrketræning
 

@@ -15,33 +15,52 @@ sitemap: false
 <fieldset>
     <legend>Få gratis opdateringer</legend>
     <div id="mc_embed_signup_scroll">
-		<div class="mc-field-group">
+		<div class="mc-field-group form-group">
 			<label for="mce-EMAIL">E-mail <span class="asterisk">*</span></label>
 			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 		</div>
-		<div class="mc-field-group">
+		<div class="mc-field-group form-group">
 			<label for="mce-FNAME">Fornavn</label>
 			<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 		</div>
-		<div class="mc-field-group">
+		<div class="mc-field-group form-group">
 			<label for="mce-LNAME">Efternavn </label>
 			<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 		</div>
 	</div>
 </fieldset>
-<fieldset class="mc-field-group input-group">
+<fieldset>
     <legend>Interesser</legend>
-    <label for="mce-group[83726]-83726-0" class="checkbox inline"><input type="checkbox" value="1" name="group[83726][1]" id="mce-group[83726]-83726-0"> Styrketræning</label>
-	<label for="mce-group[83726]-83726-1" class="checkbox inline"><input type="checkbox" value="2" name="group[83726][2]" id="mce-group[83726]-83726-1"> Konditionstræning</label>
-	<label for="mce-group[83726]-83726-2" class="checkbox inline"><input type="checkbox" value="4" name="group[83726][4]" id="mce-group[83726]-83726-2"> Løbetræning</label>
-	<label for="mce-group[83726]-83726-3" class="checkbox inline"><input type="checkbox" value="8" name="group[83726][8]" id="mce-group[83726]-83726-3"> Yoga og mindfulness</label>
+
+	<div class="form-group">
+	<label class="checkbox">
+		<input type="checkbox" value="1" name="group[83726][1]"> Styrketræning
+	</label>
+	<label class="checkbox">
+		<input type="checkbox" value="2" name="group[83726][2]"> Konditionstræning
+	</label>
+	<label class="checkbox">
+		<input type="checkbox" value="4" name="group[83726][4]"> Løb og Løbetræning
+	</label>
+	<label class="checkbox">
+		<input type="checkbox" value="8" name="group[83726][8]"> Yoga og mindfulness
+	</label>
+	<label class="checkbox">
+		<input type="checkbox" name="group[83726][16]" value="1"> Cykling og cykeltræning
+	</label>
+	<label class="checkbox">
+		<input type="checkbox" name="group[83726][32]" value="1"> At gå og gangtræning
+	</label>
+	</div>
+
+	<input type="submit" value="Få gratis opdateringer" name="subscribe" id="mc-embedded-subscribe">
 </fieldset>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value=""></div>
-    <div class="clear"><br><input type="submit" value="Få gratis opdateringer" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <input aria-hidden="true" type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="" class="hidden">
+
 </form>
 </div>
 
