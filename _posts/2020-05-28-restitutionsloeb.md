@@ -21,7 +21,7 @@ last_modified_at: 2022-04-20T08:14:14Z
 toc: true
 ---
 
-Restitutionsløb er en af de strategier, du kan bruge, når kroppen skal bygges op igen efter en hård træning. Du kan [fremme restitutionen]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstiden](/restitutionstid/), hvis du løber en langsom tur med lav intensitet.
+Restitutionsløb er en af de strategier, du kan bruge, når kroppen skal bygges op igen efter en hård træning. Du kan [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/), hvis du løber en langsom tur med lav intensitet.
 
 ## Hvad er restitutionsløb?
 

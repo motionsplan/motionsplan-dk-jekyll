@@ -31,7 +31,7 @@ Studiet viste også, at nybegyndere hyppigere får skader, og hvis man tidligere
 
 Det er ikke løbeskoene, der forebygger skader. [Hverken støddæmpning i sko](https://www.motion-online.dk/daempning-loebesko-forhindrer-ikke-skader/){:rel="nofollow"} eller [løbesko med korrektion forebygger skader](https://politiken.dk/forbrugogliv/motion/art5429312/Stabiliserende-l%C3%B8besko-giver-flere-l%C3%B8beskader) og nogle læger [fraråder endda løbeanalyser](https://politiken.dk/forbrugogliv/motion/art5469708/L%C3%A6ge-Drop-l%C3%B8beb%C3%A5ndstest-og-v%C3%A6lg-selv-dine-sko). 
 
-Træningsmetoden ser altså ud til at være noget af det vigtigste, og her kommer [restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/) naturligvis også ind i billedet.
+Træningsmetoden ser altså ud til at være noget af det vigtigste, og her kommer [restitution](/restitution/) og [restitutionstid](/restitutionstid/) naturligvis også ind i billedet.
 
 ## Gode råd om løb og skader
 

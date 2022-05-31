@@ -28,7 +28,7 @@ Men er det stadig sådan, eller har forskningen på området rykket sig?
 
 ## Hvad er nedvarmning?
 
-Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/resitutionstid-og-alder/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
+Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/resitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
 
 ## Hvordan laver man nedvarmning?
 

@@ -77,7 +77,7 @@ Nyere studier fra 2015 tyder imidlertid på, at hvis man bruger isbade efter sty
 
 Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udføre en bedre præstation dagen efter. Det er dog værd at tage med, at man op til 24 timer vil føle, at man har bedre ben (Kinugasa og Kilding 2009). Det betød dog ikke noget for de enkeltes præstation, men at opleve at tingene føles lettere, er også værd at tage med.
 
-Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/), som du måske skal prøve først.
+Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution](/restitution/) og [restitutionstid](/restitutionstid/), som du måske skal prøve først.
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 

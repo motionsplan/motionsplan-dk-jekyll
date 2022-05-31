@@ -141,7 +141,7 @@ Konklusionen af Sabag et al (2018) er altså, at hvis man sørger for at holde e
 
 ## Kan du vente 8 timer mellem styrketræning og udholdenhedstræning?
 
-Leveritt et al (2000) undersøgte, hvordan forskellige styrkemålinger påvirkes af et hårdt træningspas på cykel. Leveritt et al (2000) undersøgte styrken efter 8 og 32 timer. Tilsyneladende er muskelstyrken fuldt restitueret efter 8 timer. Dog så det ud til, at der var en større ophobning af affaldsstoffer i musklerne, hvilket tyder på, at træthed kan opstå hurtigere. Sporer og Wenger (2003) er siden kommet til samme konklusion med en sammenligning af steady state sub-maksimale konditionstræning og høj intensitet konditionstræning på cykel. Intensiteten betød ikke noget, men det gjorde restitutionstiden.
+Leveritt et al (2000) undersøgte, hvordan forskellige styrkemålinger påvirkes af et hårdt træningspas på cykel. Leveritt et al (2000) undersøgte styrken efter 8 og 32 timer. Tilsyneladende er muskelstyrken fuldt restitueret efter 8 timer. Dog så det ud til, at der var en større ophobning af affaldsstoffer i musklerne, hvilket tyder på, at træthed kan opstå hurtigere. Sporer og Wenger (2003) er siden kommet til samme konklusion med en sammenligning af steady state sub-maksimale konditionstræning og høj intensitet konditionstræning på cykel. Intensiteten betød ikke noget, men det gjorde [restitutionstiden](/restitutionstid/).
 
 Hvis du vil være sikker på at musklerne er helt klar til at kraftudvikle maksimalt, så er det formentlig en god ide at vente otte timer, inden du går i gang med styrketræningen, hvis du har mulighed for det i din hverdag.
 

@@ -56,7 +56,7 @@ Hav en **plan**, **skriv planen ned** og **lav noter** om din træning.
 ## Træningslære
 
 - 20% af indsatsen giver 80% af resultaterne
-- Træning og [restitution]({% link _posts/2020-05-28-restitution.md %}) går hånd i hånd.
+- Træning og [restitution](/restitution/) går hånd i hånd.
 - Ingen resultater uden at du har styr på, hvordan restitution virker.
 - Det samlede stress på kroppen afgør, hvor gode resultaterne bliver.
 
