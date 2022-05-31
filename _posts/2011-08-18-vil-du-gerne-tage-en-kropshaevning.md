@@ -36,7 +36,13 @@ I dette indlæg får du svar på følgende:
 
 Principperne i et træningsprogram for at **lære at tage en pull up og en chin up** er i fremgangsmåden den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
 
+[Download træningsprogram](#mc-embedded-subscribe-form){: .btn .btn--large .btn--lead .popup-with-form }
+
+{% comment %}
+
 ## Grundlæggende om at træne pullups
+
+{% endcomment %}
 
 ### Motorisk indlæring og bevægelse i pullups
 
@@ -138,7 +144,7 @@ Fitness FAQ har lavet en fin video om at bruge elastik i træningen, og i videoe
 
 {% include video provider="youtube" id="GyBVkt-VgwE" %}
 
-[Nikolaj Bach problematiserer også brugen af elastik til pullup og chinups](https://nikolajbach.dk/pull-ups-elastik/), og han foreslår endda øvelser i maskiner som bedre alternativer. Personligt kan jeg bedre lide de assisterede varianter, som er valgt på denne side.
+[Nikolaj Bach](https://nikolajbach.dk/pull-ups-elastik/) problematiserer også brugen af elastik til pullup og chinups, og han foreslår endda øvelser i maskiner som bedre alternativer. Personligt kan jeg bedre lide de assisterede varianter, som er valgt på denne side.
 
 Jeg har valgt at inkludere pullups og chinups med elastik i fase tre for at få volumen på i en bevægelse, der minder om den rigtige pullupbevægelse. Tanken er at du skal udfordre dig selv, så du bruger et så lille elastik som muligt. 
 
@@ -190,8 +196,18 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 - **2. dag: Kropshævning med hjælp.** Hæng i baren og lav kropshævninger med hjælp. Du skal have lige nøjagtig så meget hjælp, at du kan lave fx 5 gentagelser og lav tre sæt.
 - **3. dag: Superlangsom nedsænkning.** Start med bøjede arme og sænk dig så langsomt som du overhovedet kan. Lav 5 - 6 gentagelser.
 
-Hvis du laver en god plan, så bør du kunne [lave en pullup eller en chinup i løbet af 30 dage](https://www.nerdfitness.com/blog/do-a-pull-up/).
+Hvis du laver en god plan, så bør du kunne lave en pullup eller en chinup i løbet af 30 dage ifølge [www.nerdfitness.com](https://www.nerdfitness.com/blog/do-a-pull-up/).
 
+{% include newsletter.html 
+  u="c17bb696b7624b69cbd0acaff"
+  id="67651fdd38"
+  title="Gratis program til at få din første kropshævning"
+  excerpt="Jeg arbejder på et træningsprogram, som skal lære dig at lave din første kropshævning. Hvis du er interesseret i at prøve det <strong>gratis program</strong>, så kan jeg sende det til dig, hvis du skriver din e-mail nedenunder. Du skal imidlertid være dedikeret for at lære at lave en kropshævning, for programmet tager 16 uger, men så skulle du også gerne have taget din første kropshævning."
+  cta="Få programmet"
+%}
+
+
+{% comment %}
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=67651fdd38" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class="calculator">
@@ -217,5 +233,7 @@ Hvis du laver en god plan, så bør du kunne [lave en pullup eller en chinup i l
 </form>
 </div>
 <!--End mc_embed_signup-->
+
+{% endcomment %}
 
 Jeg har skrevet lidt mere om [forskellen på chin ups og pull ups her]({% link _posts/2020-06-30-pullup-chinup.md %}).

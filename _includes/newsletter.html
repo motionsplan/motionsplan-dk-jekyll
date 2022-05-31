@@ -4,6 +4,9 @@
 {% assign title = include.title | default: 'Få gratis mere af det samme' %}
 {% assign excerpt = include.excerpt | default: '' %}
 {% assign cta = include.cta | default: 'Få gratis opdateringer' %}
+{% assign group = include.group | default: '88559' %}
+{% assign giveaway = include.giveaway | default: 'Kropshævninger' %}
+{% assign giveaway_number = include.giveaway_number | default: '1' %}
 
 <form action="https://motionsplan.us2.list-manage.com/subscribe/post?u={{ u }}&amp;id={{ id }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate lead-magnet newsletter" target="_blank" novalidate>
     <fieldset id="mc_embed_signup_scroll">
@@ -13,23 +16,13 @@
     {% endif %}
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="" class="hidden">
+    <input type="text" name="b_{{ include.u }}_{{ include.id }}" tabindex="-1" value="" class="hidden">
 
     <input type="submit" value="{{ cta }}" name="subscribe" id="mc-embedded-subscribe" class="button">
 
-    <ul class="interestgroup_field checkbox-group hidden">
-        <li class="!margin-bottom--lv2">
-            <label class="checkbox" for="group_1">
-                <input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="group_1" name="group[88559][1]" value="1" class="av-checkbox"><span>Kropshævninger</span>
-             </label>
-        </li>
-        <li class="!margin-bottom--lv2">
-            <label class="checkbox" for="group_2">
-                <input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="group_2" name="group[88559][2]" value="1" class="av-checkbox"><span>Træningsprogram</span>
-            </label>
-        </li>
-    </ul>
-
+    <div class="hidden">
+        <input type="checkbox" name="group[{{ group }}][{{ giveaway_number }}]" value="1"> {{ giveaway }}
+    </div>
     </fieldset>
 </form>
 
