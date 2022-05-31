@@ -75,15 +75,15 @@ Baggrunden for formlerne i beregneren er, at BMI på populationsniveau er nogenl
 
 En lang række af formlerne er baseret på en lineær sammenhæng mellem BMI og fedtprocent.
 
-{% include figure image_path="/assets/images/blog/bmi-linear.png" caption="Forskellige lineære formler til at bestemme fedtprocenten ud fra BMI, alder og køn. Durnin og Wormsley (1977) bruger kun BMI og køn, mens de andre formler også bruger alder som et parameter." %}
+{% include figure image_path="/assets/images/blog/bmi-linear.png" caption="Forskellige lineære formler til at bestemme fedtprocenten ud fra BMI, alder og køn. Durnin og Wormsley (1977) bruger kun BMI og køn, mens de andre formler også bruger alder som et parameter." alt="figur sammenligner beregning af fedtprocent og bmi" %}
 
 Alle formlerne giver altså resultater, som ikke ligger så langt fra hinanden. Ulempen ved disse formler er naturligvis, at de alle viser en lineær sammenhæng, men Jackson et al (2002) og Gallagher et al (2000) viser tydeligt, at sammenhængen er kurvet.
 
-{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
+{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" alt="figur viser kurvet sammenhæng mellem bmi og fedtprocent udregninger" %}
 
 Hvis du kigger på formlen fra Gallagher et al (2002), så beskriver den en kurvet sammenhæng mellem BMI og den udregnede fedtprocent.
 
-{% include figure image_path="/assets/images/blog/bmi-gallagher.png" caption="Formlen fra Gallagher et (2000) har en kurvet sammenhæng." %}
+{% include figure image_path="/assets/images/blog/bmi-gallagher.png" caption="Formlen fra Gallagher et (2000) har en kurvet sammenhæng." alt="Gallahgers formel sammenholdt med BMI" %}
 
 Når du kigger formlerne igennem, så vil du se at alder er et vigtigt parameter i de fleste formler. Dette indikerer, at det ikke er rimeligt at bruge et fast BMI på tværs af alle aldersgrupper til at definere overvægt.
 
