@@ -18,9 +18,9 @@ Det er populært at lave nedvarmning og afjogging efter træning og kamp. Formå
 
 Det står sort på hvidt i træningshæfterne fra Dansk Idræts-Forbund, at nedvarmning er lige så vigtig som opvarmning.
 
-> Restitutionsaktiviteterne bør være en ligeså naturlig del af træningen som opvarmning. 
+> Restitutionsaktiviteterne bør være en ligeså naturlig del af træningen som opvarmning.
 
---- <cite>>Lars Bojsen Michalsik, DIF, Anaerob Træning 2007</cite>
+--- <cite>Lars Bojsen Michalsik, DIF, Anaerob Træning 2007</cite>
 
 Nedvarmning foreslås altså som en [måde at restitutere på](/restitution/) for at gøre [restitutionstiden kortere](/restitutionstid-og-alder/).
 
@@ -38,7 +38,7 @@ Det er meget populært i fx fodbold at lave **afjogging** efter træning og kamp
 
 Flere mener fx at **[åndedrætsøvelser](/aandedraetstraening-forbedrer-udholdenheden/)** kan være med til at skifte kroppen over mod det parasympatiske nervesystem, så kroppen hurtigt begynder på de genopbyggende processer.
 
-Rigtig mange slutter også træningen med at lave **[strækøvelser](/udstraekning-udspaending/)**. Når musklerne bliver brugt i løbet af træning og kamp, så spænder de op. Rationalet bagved strækøvelserne efter træning er at sikre, at bevægeligheden forbliver den samme. 
+Rigtig mange slutter også træningen med at lave **[strækøvelser](/udstraekning-udspaending/)**. Når musklerne bliver brugt i løbet af træning og kamp, så spænder de op. Rationalet bagved strækøvelserne efter træning er at sikre, at bevægeligheden forbliver den samme.
 
 ## Virker nedvarmning og afjogging?
 
@@ -52,7 +52,7 @@ Der kan være nogle positive effekter af nedvarmning. En af forklaringerne på, 
 
 {% include figure image_path="/assets/images/blog/restitution-nedvarmning-maelkesyre.png" caption="Mælkesyreindholdet i blodet efter udførelse af hårdt arbejde efterfulgt af dels jogning (aktiv restitution) og dels passiv restitution. Mælkesyren blev fjernet langt hurtigere ved den aktive restitution, hvor koncentrationen – i modsætning til den passive restitution – var tilbage på hvileniveau 30 minutter efter afslutningen af det hårde arbejde. (Figur fra DIFs hæfte Anaerob Træning (2007))." alt="mælkesyre fjernelse ved nedvarmning" %}
 
-Her er nogle af de fordele, der bliver foreslået med en cool down. 
+Her er nogle af de fordele, der bliver foreslået med en cool down.
 
 - Det ser ud til, at laktat fjernes hurtigere fra blodbanen.
 - Immunforsvaret sænkes mindre efter restitution
@@ -63,7 +63,7 @@ Der er altså nogle enkelte parametre, hvor videnskaben har indikeret en positiv
 
 ## Kan afjogging forbedre præstationen i løb?
 
-[Wiewelhove et al. (2017)](https://pubmed.ncbi.nlm.nih.gov/29720949/) undersøgte om nedvarmning resulterer i bedre tilpasninger til løbetræning. Tilpasningerne var måske en anelse bedre, men det kan lige så godt skyldes, at løberne løb mere ved nedvarmningen end kontrolgruppen. 
+[Wiewelhove et al. (2017)](https://pubmed.ncbi.nlm.nih.gov/29720949/) undersøgte om nedvarmning resulterer i bedre tilpasninger til løbetræning. Tilpasningerne var måske en anelse bedre, men det kan lige så godt skyldes, at løberne løb mere ved nedvarmningen end kontrolgruppen.
 
 Den eneste fysiologiske negativ af nedvarmning er, at det ser ud til, at glykogenresyntesen måske mindskes en smule, særligt ved længere varigheder. Relevansen heraf er nok minimal, hvis du kun træner en gang om dagen.
 
@@ -83,7 +83,7 @@ Der er flere måder at forbedre din restitution efter træning på. Selvom det i
 - Kost
 - Hvile
 
-Disse tre ting er klart de vigtigste parametre for at have en fornuftig restitution efter træning og kamp. Når du har styr på de parametre, så kan du begynde at optimere på andre restitutionsaktiviteter. 
+Disse tre ting er klart de vigtigste parametre for at have en fornuftig restitution efter træning og kamp. Når du har styr på de parametre, så kan du begynde at optimere på andre restitutionsaktiviteter.
 
 Men husk at mange prøver at sælge dig en genvej. Og der er formentlig ingen genveje til bedre resultater.
 
