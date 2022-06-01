@@ -1,12 +1,12 @@
 <!-- Begin Mailchimp Signup Form -->
 {% assign u = include.u | default: 'c17bb696b7624b69cbd0acaff' %}
 {% assign id = include.id | default: '90126d39b0' %}
-{% assign title = include.title | default: 'Få gratis mere af det samme' %}
-{% assign excerpt = include.excerpt | default: '' %}
+{% assign title = include.title | default: 'Bliv træningsekspert' %}
+{% assign excerpt = include.excerpt | default: 'Bliv en del af vores fællesskab og få gratis opdateringer om træning og træningsprogrammer direkte i din indbakke. Du får også Motionsplan uden reklamer.' %}
 {% assign cta = include.cta | default: 'Få gratis opdateringer' %}
 {% assign group = include.group | default: '88559' %}
-{% assign giveaway = include.giveaway | default: 'Kropshævninger' %}
-{% assign giveaway_number = include.giveaway_number | default: '1' %}
+{% assign giveaway = include.giveaway | default: '' %}
+{% assign giveaway_number = include.giveaway_number | default: '' %}
 
 <form action="https://motionsplan.us2.list-manage.com/subscribe/post?u={{ u }}&amp;id={{ id }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate lead-magnet newsletter" target="_blank" novalidate>
     <fieldset id="mc_embed_signup_scroll">
@@ -20,9 +20,11 @@
 
     <input type="submit" value="{{ cta }}" name="subscribe" id="mc-embedded-subscribe" class="button">
 
+    {% if giveaway_number %}
     <div class="hidden">
         <input type="checkbox" name="group[{{ group }}][{{ giveaway_number }}]" value="1"> {{ giveaway }}
     </div>
+    {% endif %}
     </fieldset>
 </form>
 

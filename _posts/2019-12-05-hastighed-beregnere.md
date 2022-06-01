@@ -47,6 +47,8 @@ Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsm
 
 Hvis du leder efter en [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider, så tjek Jack Daniels Running Formula]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
+{% include lead-magnet-button.html %}
+
 ## Hvordan angiver man løbehastighed?
 
 Typisk kan man i angive hastigheden på to forskellige måder:
@@ -148,6 +150,10 @@ Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
 {% include math formula="Pace (min/km) = \frac{60}{Hastighed (km/t)}" %}
 
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
+
 ## Konklusion
 
 Her kunne du altså finde flere måde at udregne din fart og hastighed på.
@@ -156,6 +162,4 @@ Jeg har ofte brug for at kunne udregne min løbehastighed og omregne mellem min/
 
 Mange er også interesserede i at få svar på spørgsmålet: "Hvor hurtigt går man i km/t?" og finde deres [gangtempo](/tid-at-gaa/).
 
-## Ofte stillede spørgsmål
-
-{% include faq.html %}
+{% include lead-magnet.html %}

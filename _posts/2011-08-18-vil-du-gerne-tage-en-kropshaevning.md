@@ -1,6 +1,8 @@
 ---
 title: &title "Kropshævninger: Lær at lave en pullup og chinup? 💪"
 seo_title: "Kropshævninger: Lær at lave pullup og chinup [Med program]"
+excerpt: "Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram."
+description: "Vil du lære at tage en pullup eller en chinup? Få et træningsprogram i denne guide, der giver dig øvelser, så du kan få din første kropshævning."
 permalink: /laer-kropshaevning-chinup-pullup-program/
 redirect_from:
   - /artikel/vil-du-gerne-tage-en-kropshaevning/
@@ -36,7 +38,7 @@ I dette indlæg får du svar på følgende:
 
 Principperne i et træningsprogram for at **lære at tage en pull up og en chin up** er i fremgangsmåden den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
 
-[Download træningsprogram](#mc-embedded-subscribe-form){: .btn .btn--large .btn--lead .popup-with-form }
+{% include lead-magnet-button.html title="Download træningsprogram" url="#mc-embedded-subscribe-form" %}
 
 {% comment %}
 
@@ -146,7 +148,7 @@ Fitness FAQ har lavet en fin video om at bruge elastik i træningen, og i videoe
 
 [Nikolaj Bach](https://nikolajbach.dk/pull-ups-elastik/) problematiserer også brugen af elastik til pullup og chinups, og han foreslår endda øvelser i maskiner som bedre alternativer. Personligt kan jeg bedre lide de assisterede varianter, som er valgt på denne side.
 
-Jeg har valgt at inkludere pullups og chinups med elastik i fase tre for at få volumen på i en bevægelse, der minder om den rigtige pullupbevægelse. Tanken er at du skal udfordre dig selv, så du bruger et så lille elastik som muligt. 
+Jeg har valgt at inkludere pullups og chinups med elastik i fase tre for at få volumen på i en bevægelse, der minder om den rigtige pullupbevægelse. Tanken er at du skal udfordre dig selv, så du bruger et så lille elastik som muligt.
 
 Hvis du bruger elastik som hjælpe til at tage pullups, så kan du enten have det rundt om fødderne eller eller på det ene knæ.
 
@@ -198,7 +200,7 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 
 Hvis du laver en god plan, så bør du kunne lave en pullup eller en chinup i løbet af 30 dage ifølge [www.nerdfitness.com](https://www.nerdfitness.com/blog/do-a-pull-up/).
 
-{% include newsletter.html 
+{% include lead-magnet.html
   u="c17bb696b7624b69cbd0acaff"
   id="67651fdd38"
   title="Gratis program til at få din første kropshævning"
