@@ -469,33 +469,6 @@ img.youtube-thumb {
   left: 0;
 }
 
-/* Lead magnet embed form */
-
-form.lead-magnet {
-  text-align: center;
-  padding: 0;
-  max-width: 700px;
-
-  fieldset {
-    padding: 2.5em !important;
-    padding-top: 4em;
-    padding-bottom: 4em;
-  }
-
-  legend {
-    font-weight: bolder;
-    font-size: 1.5em;
-  }
-
-  input {
-    width: 100%;
-  }
-
-  input[type="submit"] {
-    text-transform: uppercase;
-  }
-}
-
 /* STAR RATING */
 
 aside#star-rating {
