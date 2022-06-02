@@ -1,6 +1,8 @@
 ---
 title: &title "Kropshævninger: Lær at lave en pullup og chinup? 💪"
 seo_title: "Kropshævninger: Lær at lave pullup og chinup [Med program]"
+excerpt: "Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram."
+description: "Vil du lære at tage en pullup eller en chinup? Få et træningsprogram i denne guide, der giver dig øvelser, så du kan få din første kropshævning."
 permalink: /laer-kropshaevning-chinup-pullup-program/
 redirect_from:
   - /artikel/vil-du-gerne-tage-en-kropshaevning/
@@ -36,7 +38,13 @@ I dette indlæg får du svar på følgende:
 
 Principperne i et træningsprogram for at **lære at tage en pull up og en chin up** er i fremgangsmåden den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
 
+{% include lead-magnet-button.html title="Download træningsprogram" element="sender-pullup-popup" %}
+
+{% comment %}
+
 ## Grundlæggende om at træne pullups
+
+{% endcomment %}
 
 ### Motorisk indlæring og bevægelse i pullups
 
@@ -138,9 +146,9 @@ Fitness FAQ har lavet en fin video om at bruge elastik i træningen, og i videoe
 
 {% include video provider="youtube" id="GyBVkt-VgwE" %}
 
-[Nikolaj Bach problematiserer også brugen af elastik til pullup og chinups](https://nikolajbach.dk/pull-ups-elastik/), og han foreslår endda øvelser i maskiner som bedre alternativer. Personligt kan jeg bedre lide de assisterede varianter, som er valgt på denne side.
+[Nikolaj Bach](https://nikolajbach.dk/pull-ups-elastik/) problematiserer også brugen af elastik til pullup og chinups, og han foreslår endda øvelser i maskiner som bedre alternativer. Personligt kan jeg bedre lide de assisterede varianter, som er valgt på denne side.
 
-Jeg har valgt at inkludere pullups og chinups med elastik i fase tre for at få volumen på i en bevægelse, der minder om den rigtige pullupbevægelse. Tanken er at du skal udfordre dig selv, så du bruger et så lille elastik som muligt. 
+Jeg har valgt at inkludere pullups og chinups med elastik i fase tre for at få volumen på i en bevægelse, der minder om den rigtige pullupbevægelse. Tanken er at du skal udfordre dig selv, så du bruger et så lille elastik som muligt.
 
 Hvis du bruger elastik som hjælpe til at tage pullups, så kan du enten have det rundt om fødderne eller eller på det ene knæ.
 
@@ -190,32 +198,8 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 - **2. dag: Kropshævning med hjælp.** Hæng i baren og lav kropshævninger med hjælp. Du skal have lige nøjagtig så meget hjælp, at du kan lave fx 5 gentagelser og lav tre sæt.
 - **3. dag: Superlangsom nedsænkning.** Start med bøjede arme og sænk dig så langsomt som du overhovedet kan. Lav 5 - 6 gentagelser.
 
-Hvis du laver en god plan, så bør du kunne [lave en pullup eller en chinup i løbet af 30 dage](https://www.nerdfitness.com/blog/do-a-pull-up/).
-
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=67651fdd38" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class="calculator">
-    <div id="mc_embed_signup_scroll">
-	<h2>Gratis program til at få din første kropshævning</h2>
-	<p>Jeg arbejder på et træningsprogram, som skal lære dig at lave din første kropshævning. Hvis du er interesseret i at prøve det <strong>gratis program</strong>, så kan jeg sende det til dig, hvis du skriver din e-mail nedenunder. Du skal imidlertid være dedikeret for at lære at lave en kropshævning, for programmet tager 16 uger, men så skulle du også gerne have taget din første kropshævning.</p>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">E-mail  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">Fornavn </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c17bb696b7624b69cbd0acaff_67651fdd38" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Få programmet" name="subscribe" id="mc-embedded-subscribe" class="btn btn--large btn--info"></div>
-    </div>
-</form>
-</div>
-<!--End mc_embed_signup-->
+Hvis du laver en god plan, så bør du kunne lave en pullup eller en chinup i løbet af 30 dage ifølge [www.nerdfitness.com](https://www.nerdfitness.com/blog/do-a-pull-up/).
 
 Jeg har skrevet lidt mere om [forskellen på chin ups og pull ups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
+
+{% include lead-magnet.html id="l3vofz1jaqj6ybz2p5g" %}

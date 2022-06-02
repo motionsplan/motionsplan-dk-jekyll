@@ -29,6 +29,8 @@ faq:
 
 Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
 
+{% include lead-magnet-button.html %}
+
 ## Hvad er idealvægt?
 
 Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du har en sund vægt ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.
@@ -44,6 +46,8 @@ Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag ti
 ## Om beregneren til idealvægt fra højde og køn
 
 I gennem forskellige studier har der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten.
+
+{% include lead-magnet-button.html %}
 
 Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler til, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne medregner således ikke kropsbygning og muskelmasse.
 
@@ -123,6 +127,8 @@ Der er mange forskellige måder at udregne idealvægt på. Et er øjnene der kig
 På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange mennesker. Mange fokuserer i øjeblikket på, at det er ideelt at have en [lav fedtprocent](/fedtprocent-normer/) snarere end, hvad der er sundt.
 
 Du skal også huske at normalvægtige personer ikke nødvendigvis har en sund krop. Man kan godt holde sig inden for grænserne for normalvægt, men stadig have en fedtprocent, der er for høj i forhold til sin sundhed.
+
+{% include lead-magnet.html %}
 
 ## Referencer
 

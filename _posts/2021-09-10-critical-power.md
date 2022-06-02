@@ -132,5 +132,3 @@ Zonerne er navngivet på samme måde som [Jack Daniels løbeberegner]({% link _p
 ## Konklusion
 
 Du kan læse mere om critical power i dette studium af [Poole et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5070974/).
-
-{% include newsletter.html %}

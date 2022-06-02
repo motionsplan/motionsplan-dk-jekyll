@@ -53,6 +53,8 @@ Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fys
 
 Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
+{% include lead-magnet-button.html %}
+
 I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
 
 - Hvad er en god Cooper test?
@@ -75,6 +77,8 @@ I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
 {% include calculate-fitness-cooper.html %}
 
 Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering af konditallet i denne [tabel over kondital](/kondital/).
+
+{% include lead-magnet-button.html %}
 
 ## Baggrund for kondital og Cooper-test
 
@@ -284,6 +288,8 @@ Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er
 Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-testen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+
+{% include lead-magnet.html %}
 
 ## Referencer
 
