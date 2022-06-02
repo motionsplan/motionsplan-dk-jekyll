@@ -24,6 +24,7 @@ if ("serviceWorker" in navigator) {
 }
 </script>
 
+{% if jekyll.environment == 'production' %}
 <script>
   (function (s, e, n, d, er) {
     s['Sender'] = er;
@@ -38,3 +39,4 @@ if ("serviceWorker" in navigator) {
   })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
   sender('b7b3f25e1d2425')
 </script>
+{% endif %}
