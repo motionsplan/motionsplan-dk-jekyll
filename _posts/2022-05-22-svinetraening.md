@@ -41,7 +41,7 @@ Svinetræning er en træningsform, som Jens Bojsen-Møller og Peter Løwenstein 
 
 ## Typer af svinetræning
 
-{% include figure image_path="/assets/images/blog/svinetraening-typer.png" caption="De forskellige typer svin er præsenteret med billeder på [svinetraening.dk](http://svinetraening.dk/)" alt="Screenshot fra svinetraening.dk" %}
+{% include figure image_path="/assets/images/blog/svinetraening-typer.jpg" caption="De forskellige typer svin er præsenteret med billeder på [svinetraening.dk](http://svinetraening.dk/)" alt="Screenshot fra svinetraening.dk" %}
 
 På hjemmesiden præsenterer de nogle forskellige typer 'svin', men der er jo ingen grænser for opfindssomheden, hvis du selv vil finde på nogle svinestreger.
 
@@ -178,11 +178,11 @@ Hvis du vil have endnu mere inspiration til træning udenfor, hvor du helt sikke
 
 Du kan også tjekke flere videoer på forlagets [Vimeo-kanal](https://vimeo.com/user59490904){: rel="nofollow noopener" }
 
-{% include figure image_path="/assets/images/blog/svinetraening-vimeo.png" %}
+{% include figure image_path="/assets/images/blog/svinetraening-vimeo.jpg" %}
 
 Eller Jens Bojsen-Møllers [Youtube-kanal](https://www.youtube.com/channel/UCiw38RHs_1U7as6qYxPVa6g/videos){: rel="nofollow noopener" }
 
-{% include figure image_path="/assets/images/blog/svinetraening-youtube.png" %}
+{% include figure image_path="/assets/images/blog/svinetraening-youtube.jpg" %}
 
 Endelig kan du også følge Svinetræning på deres [Facebook-side](https://www.facebook.com/svinetraening/){: rel="nofollow noopener" }, hvor der også sommetider kommer nogle videoer og kommentarer op. 
 

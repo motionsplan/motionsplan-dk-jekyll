@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/blog/worldfitnesslevel-www.png
+  - image_path: /assets/images/blog/worldfitnesslevel-www.jpg
     url: https://www.worldfitnesslevel.org/#/
 polar:
   - image_path: /assets/images/blog/polar-ownindex-2.jpg
