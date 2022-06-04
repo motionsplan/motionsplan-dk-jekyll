@@ -4,8 +4,8 @@ permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
 last_modified_at: 2020-08-17T09:41:09Z
 language: da
 header:
-  overlay_image: https://www.vih.dk/sites/vih/files/2K2A7536-41%20-%20Kopi.JPG
-  teaser: https://www.vih.dk/sites/vih/files/2K2A7536-41%20-%20Kopi.JPG
+  overlay_image: /assets/images/e/vih-dk-politiforeredelse-fysisk-proeve.jpg
+  teaser: /assets/images/e/vih-dk-politiforeredelse-fysisk-proeve.jpg
   caption: *title
 category:
   - Test
