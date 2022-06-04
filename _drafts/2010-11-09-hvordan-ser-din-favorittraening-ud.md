@@ -3,8 +3,6 @@ title: "Hvordan ser din favorittræning ud?"
 permalink: /artikel/hvordan-ser-din-favorittraening-ud
 language: da
 header:
-  overlay_image: /assets/images/blog/hvordan-ser-din-favorittraening-ud.jpg
-  teaser: /assets/images/blog/hvordan-ser-din-favorittraening-ud.jpg
 tags:
   - afstemning
 category:
