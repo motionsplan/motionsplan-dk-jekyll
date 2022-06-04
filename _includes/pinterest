@@ -2,6 +2,7 @@
 {% assign excerpt = page.description | default: page.excerpt %}
 {% assign excerpt = excerpt | markdownify | strip_html | truncate: 400 %}
 {% assign excerpt = excerpt | strip | append: " #" | append: tags %}
+{% assign alt = include.alt | default: page.title %}
 
 {% assign image_path = include.image_path %}
 {% if include.hidden == "true" %}
@@ -15,7 +16,7 @@
 
 <figure class="{{ include.class }}{% if include.hidden == "true" %} hidden{% endif %}">
   <img src="{{ image_path | relative_url }}"
-       alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+       alt="{% if alt %}{{ alt }}{% endif %}"
        {% if data_pin_media %}data-pin-media="{{ data_pin_media | absolute_url }}"{% endif %}
        {% if data_pin_description %}data-pin-description="{{ data_pin_description }}"{% endif %}
        {% if data_pin_id %}data-pin-id="{{ data_pin_id }}"{% endif %}>
