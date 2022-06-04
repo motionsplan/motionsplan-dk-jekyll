@@ -5,7 +5,7 @@ permalink: /intervaltraening/
 excerpt: "Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit træningsprogram. Jeg har researchet lidt på, hvad intervaltræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1612032636260-70ff387b0d5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1612032636260-70ff387b0d5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   overlay_filter: 0.4
   caption: "Intervaltræning: Effektive metoder til intervaltræning"
 category:

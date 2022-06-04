@@ -4,7 +4,7 @@ permalink: /trappetest-cykel/
 excerpt: "En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest, som du let kan udføre selv."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1590523329673-7b10bd21e519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1590523329673-7b10bd21e519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Kondition

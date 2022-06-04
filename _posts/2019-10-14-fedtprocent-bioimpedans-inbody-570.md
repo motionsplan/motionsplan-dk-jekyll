@@ -6,13 +6,13 @@ redirect_from:
   - /inbody/
   - /bioimpedans/
   - /artikel/inbody-570-bioimpedans
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. De nyere vægte til kropsanalyse og bioimpedansmåling er relativt reliabile og valide, hvis du følger anvisningerne i forhold til guldstandarderne for måling af kropskomposition."
+excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. De nyere vægte til kropsanalyse og bioimpedansmåling er relativt reliable og valide, hvis du følger anvisningerne i forhold til guldstandarderne for måling af kropskomposition."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
   alt: Photo by Yannis Papanastasopoulos on Unsplash
   caption: *title
-  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
 category:
   - Test
   - Fedtprocent

@@ -5,7 +5,7 @@ permalink: /sko-styrketraening-fitness/
 excerpt: "Skal du vælge styrketræningssko? Skal sko til styrketræning og fitness være vægtløftersko, fitness sko, løbesko eller bare fødder?"
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning

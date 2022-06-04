@@ -3,8 +3,8 @@ title: &title "Kondital på romaskine ud fra 2000 meter test i roning 🚣"
 permalink: /kondital-roning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1523198249121-7bfaf1f5797c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1523198249121-7bfaf1f5797c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1523198249121-7bfaf1f5797c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1523198249121-7bfaf1f5797c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Kondition
