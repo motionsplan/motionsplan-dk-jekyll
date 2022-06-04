@@ -43,7 +43,7 @@
     "unicode-encode": "^1.4",
     "watchify": "^4.0",
     "minipass": "2.7.0",
-    "sharp": "^0.23.0",
+    "sharp": "^0.30.5",
     "uglify-js": "^3.13"
   },
   "scripts": {
