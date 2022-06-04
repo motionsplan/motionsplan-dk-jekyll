@@ -46,9 +46,11 @@ gallery_grip:
   - url: https://images.unsplash.com/photo-1606657830879-00d70555b1b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60
     image_path: https://images.unsplash.com/photo-1606657830879-00d70555b1b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
     title: "Overhåndsgreb"
+    alt: "Overhåndsgreb i dødløft"
   - url: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60
     image_path: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
     title: "Mixed grip"
+    alt: "Mixed grip i dødløft"
 video:
   provider: youtube
   id: 91TMWH1AYAM
@@ -76,7 +78,7 @@ Lad os kigge på et par enkelte fokuspunkter i dødløft.
 
 I dødløft skal du lave en hængselsbevægelse. Det er en hoftedomineret øvelse, men der er naturligvis lidt forskelle alt efter den variation, du vælger.
 
-{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
+{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" alt="hoftedominant eller knædominant kontinuum" %}
 
 Hvordan vinklen i overkroppen er er forskelligt alt efter, hvilken teknik du benytter dig af. Her er et eksempel på forskellen i ryggens position i forhold til *hex bar*-deadlift eller almindelig, konventionel dødløft.
 
@@ -129,7 +131,7 @@ Dit kontaktpunkt med jorden er dine fødder. Derfor er fødderne også rigtig vi
 
 Et godt *cue* kan være at tænke foden som en 'tripod foot'. Mærk at du har kontakt med jorden i tre punkter tre punkter, som det er illustreret i figuren nedenunder.
 
-{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)" alt="tripod foot i ødløft" %}
+{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)" alt="tripod foot i dødløft" %}
 
 ## Dødløft på et ben
 
@@ -155,7 +157,7 @@ Der findes flere forskellige variationer af dødløft. Her kan du se en liste ov
 
 Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal vælge. [Bodylab](https://www.bodylab.dk/shop/hvilken-doedloeft-variant-1790c1.html) gennemgår her forskellige strategier for valg af enten konventionel eller sumo-varianten for dit primære løft til en [styrkeløft-konkurrence]({% link _posts/2019-11-19-regler-styrkeloft.md %}).
 
-{% include figure image_path="https://www.bodylab.dk/images/bodyfeed/Dodloft_variant_tabel1.jpg" %}
+{% include figure image_path="https://www.bodylab.dk/images/bodyfeed/Dodloft_variant_tabel1.jpg" alt="skema til at vælge dødløftvariant" %}
 
 ## Hvordan skal grebet være i dødløft?
 

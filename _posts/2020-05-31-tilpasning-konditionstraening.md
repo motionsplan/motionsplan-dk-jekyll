@@ -93,7 +93,7 @@ Der sker to tilpasninger i hjertet ved konditionstræning. Hvilken tilpasning de
 - **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger.
 - **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så den kan pumpe kraftigere.
 
-{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." %}
+{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." alt="fysiologiske og strukturelle tilpasninger i venstre hjertekammer i forhold størrelse" %}
 
 Så hjertet vokser altså både i størrelse, og hjertet bliver stærkere.
 
