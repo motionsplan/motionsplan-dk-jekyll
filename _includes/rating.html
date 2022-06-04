@@ -1,3 +1,4 @@
+{% if page.rating.show == 'true' %}
 {%- assign min = 9 -%}
 {%- assign max = 21 -%}
 {%- assign diff = max | minus: min -%}
@@ -12,7 +13,12 @@
 {% assign rating = random_rating_final | default: 4.7 %}
 {% assign worst_rating = 1 %}
 {% assign best_rating = 5 %}
-{% assign rating_count = random_rating_count | default: 17 %}
+{% assign rating_count = random_rating_count | page.rating.count | default: 17 %}
+
+{% assign rating = include.rating | default: page.rating.rating | default: rating | default: 4.7 %}
+{% assign rating_round = rating | round | plus: 0 %}
+{% assign stars = "5,4,3,2,1" | split: "," %}
+{% assign votes = include.votes | default: page.rating.votes | default: rating_count | default: 11 %}
 
 <script type="application/ld+json">
   {
@@ -30,10 +36,6 @@
   }
 </script>
 
-{% assign rating = include.rating | default: rating | default: 4.7 %}
-{% assign rating_round = rating | round | plus: 0 %}
-{% assign stars = "5,4,3,2,1" | split: "," %}
-{% assign votes = include.votes | default: rating_count | default: 11 %}
 <aside id="star-rating">
 <form>
     <fieldset>
@@ -52,3 +54,4 @@
 </fieldset>
 </form>
 </aside>
+{% endif %}
