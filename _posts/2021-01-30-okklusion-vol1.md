@@ -4,6 +4,7 @@ toc: true
 author: andreas.christensen
 permalink: /introduktion-okklusionstraening/
 title: &title "Fitness, forskere og elite: Alle vil have okklusionstræning"
+seo_title: "Okklusionstrænining: Både fitness forskere og elite vil have det"
 header:
   overlay_image: /assets/images/occlude/occlusion-training.jpg
   teaser: /assets/images/occlude/occlusion-training-768.jpg

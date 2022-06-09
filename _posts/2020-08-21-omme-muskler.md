@@ -105,7 +105,7 @@ Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med 
 
 Proteolyse er den kemiske proces, hvor proteiner bliver nedbrudt til aminosyrer gennem en spaltning. Jesper Emil Jakobsgaard fortsætter:
 
-> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter [træningspas med okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}), og som kan være på højde med tung excentrisk træning.
+> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter [træningspas med okklusionstræning](/introduktion-okklusionstraening/), og som kan være på højde med tung excentrisk træning.
 
 --- <cite>Jesper Emil Jakobsgaard</cite>
 
