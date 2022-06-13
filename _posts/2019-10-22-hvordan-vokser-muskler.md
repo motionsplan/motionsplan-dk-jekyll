@@ -67,7 +67,7 @@ På muskelcelleniveauet er den _mekaniske spænding_ sandsynligvis den afgørend
 
 Træning til udmattelse er formentlig mest relevant ved relativt lave eksterne belastninger (mindre end 60-70% af 1RM), mens høje(re) eksterne belastninger burde være nok til at skabe mekanisk spænding i en tilpas stor mængde af fibre for at lave et signal til muskeltilvækst.
 
-Det er bl.a. udtrætningens rolle i muskelvækst, der er med til at gøre [okklusionstræning så effektivt for muskelvækst]({% link _posts/2021-01-30-okklusion-vol1.md %}).
+Det er bl.a. udtrætningens rolle i muskelvækst, der er med til at gøre [okklusionstræning så effektivt for muskelvækst](/introduktion-okklusionstraening/).
 
 ## RPE ved hypertrofi træning
 

@@ -6,7 +6,7 @@ description: "Vil du prøve en Watt-max test? Her får du en forklaring på, hvo
 excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testen kan bruges til at estimere din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1598289333486-1d36791de1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1598289333486-1d36791de1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
 category:
   - Kondition

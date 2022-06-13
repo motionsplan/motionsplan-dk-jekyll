@@ -4,8 +4,8 @@ permalink: /kalorietabel-frugt/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Ernæring

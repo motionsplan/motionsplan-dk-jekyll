@@ -5,8 +5,8 @@ excerpt: "Funktionel styrketræning er træning, som forbereder kroppen til en g
 permalink: /artikel/funktionel-styrketraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
   caption: "Funktionel træning og styrketræning"
 tags:
   - funktionel træning

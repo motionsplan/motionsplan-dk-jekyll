@@ -4,15 +4,15 @@ seo_title: "Liste over sportsgrene, idræt og motion (2022)"
 permalink: /sportsgrene-liste/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Viden om
 tags:
   - liste
   - sportsgrene
-last_modified_at: 2019-09-03T23:14:14Z
+last_modified_at: 2022-09-03T23:14:14Z
 toc: true
 dialaegt:
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/cykelrytteren-klassisk-graa_600x600.jpg?v=1606398625

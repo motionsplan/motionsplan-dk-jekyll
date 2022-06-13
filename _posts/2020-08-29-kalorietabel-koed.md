@@ -5,8 +5,8 @@ permalink: /kalorietabel-koed/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Ernæring
@@ -16,6 +16,14 @@ tags:
   - fødevarer
   - kost
   - ernæring
+faq:
+  - question: Hvor mange proteiner er der i kød?
+    answer: Proteinindholdet i kød varierer alt efter kødtypen. For at vide, hvor meget protein, der er i kød, så skal du altså bruge en tabel, hvor du kan slå forskellige kødtyper op.
+# bøf kalorier
+#steg kcal
+#hakket svinekød kalorier
+#hvor mange proteiner er der i kød
+#kalorier i kyllingebryst
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer kød. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for oksekød, kylling, svin og andre typer kød.
@@ -46,3 +54,7 @@ Alle tallene i kalorietabellen med kød er per 100 gram rå fødevare (spiselig 
 {% include table-kalorietabellen.html where="kød" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer kød indholder af ernæring og kalorier.
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}

@@ -5,7 +5,7 @@ redirect_from:
   - /a-eller-b-menneske
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
 category:
   - Restitution
   - Søvn

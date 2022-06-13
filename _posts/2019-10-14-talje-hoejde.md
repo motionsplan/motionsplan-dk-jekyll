@@ -6,7 +6,7 @@ excerpt: "Studier har vist, at forholdet mellem din taljeomkreds og din højde e
 permalink: /talje-hoejde-beregner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1633009824205-51c01df4b577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1633009824205-51c01df4b577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test

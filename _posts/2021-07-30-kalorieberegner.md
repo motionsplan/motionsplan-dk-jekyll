@@ -5,8 +5,8 @@ description: "Har du brug for en kalorie beregner? Her har vi samlet forskellige
 permalink: /kalorieberegner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Kost
@@ -57,15 +57,15 @@ Når man kigger rundt på nettet, så finder man ofte en masse lækre opskrifter
 
 I opskriftsberegneren kan du ganske enkelt bare indtaste hele opskriften på en gang. Du kan altså ganske enkelt bare kopiere opskriften, og så begynder beregningerne.
 
-{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-1.png" caption="Først kopierer du bare den engelske opskrift direkte ind i opskriftsberegneren." alt="trin 1 i beregner af kalorier fra very well fit" %}
+{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-1.jpg" caption="Først kopierer du bare den engelske opskrift direkte ind i opskriftsberegneren." alt="trin 1 i beregner af kalorier fra very well fit" %}
 
 Nu gætter værktøjet selv på, hvilke madvarer og størrelser opskriften indeholder. Du får en meget overskuelig oversigt, som du kan kigge igennem.
 
-{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-2.png" caption="Du kigger programmets kvalificerede gæt igennem for at se, om det er de rigtige madvarer og vægtangivelser." alt="oversigt over opskrift på very well fit" %}
+{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-2.jpg" caption="Du kigger programmets kvalificerede gæt igennem for at se, om det er de rigtige madvarer og vægtangivelser." alt="oversigt over opskrift på very well fit" %}
 
 Når du har justeret opskriften til, så får du et overblik over energiindholdet og fordelingen af energi i den samlede opskrift i en fin lille varedeklaration.
 
-{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-3.png" caption="Du ender med en ret tjekket varedeklaration til den indtastede opskrift." alt="varedeklaration fra kalorieudregneren fra very well fit" %}
+{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-3.jpg" caption="Du ender med en ret tjekket varedeklaration til den indtastede opskrift." alt="varedeklaration fra kalorieudregneren fra very well fit" %}
 
 ### Fødevarestyrelsens madberegner (dansk)
 

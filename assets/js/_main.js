@@ -8,10 +8,11 @@
 
     // Sticky sidebar
     var stickySideBar = function() {
+      var button = $(".author__urls-wrapper").find("button");
       var show =
-        $(".author__urls-wrapper").find("button").length === 0
+        button.length === 0
           ? $(window).width() > 1024 // width should match $large Sass variable
-          : !$(".author__urls-wrapper").find("button").is(":visible");
+          : !button.is(":visible");
       if (show) {
         // fix
         $(".sidebar").addClass("sticky");
@@ -28,28 +29,31 @@
     });
 
     // Follow menu drop down
-    $(".author__urls-wrapper").find("button").on("click", function() {
+    var author_wrapper = $(".author__urls-wrapper").find("button");
+    author_wrapper.on("click", function(author_wrapper) {
       $(".author__urls").toggleClass("is--visible");
-      $(".author__urls-wrapper").find("button").toggleClass("open");
+      author_wrapper.toggleClass("open");
     });
 
     // Close search screen with Esc key
     $(document).keyup(function(e) {
       if (e.keyCode === 27) {
-        if ($(".initial-content").hasClass("is--hidden")) {
+        var initial_content = $(".initial-content");
+        if (initial_content.hasClass("is--hidden")) {
           $(".search-content").toggleClass("is--visible");
-          $(".initial-content").toggleClass("is--hidden");
+          initial_content.toggleClass("is--hidden");
         }
       }
     });
 
     // Search toggle
     $(".search__toggle").on("click", function() {
-      $(".search-content").toggleClass("is--visible");
+      var search_content = $(".search-content");
+      search_content.toggleClass("is--visible");
       $(".initial-content").toggleClass("is--hidden");
       // set focus on input
       setTimeout(function() {
-        $(".search-content").find("input").focus();
+        search_content.find("input").focus();
       }, 400);
     });
 

@@ -4,7 +4,7 @@ seo_title: "20+ forslag til gåture og inspiration til din vandretur"
 permalink: /inspiration-til-gaature/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1623930979475-19a6f4dee7b1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1623930979475-19a6f4dee7b1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Træning
