@@ -1,9 +1,11 @@
 ---
 layout: splash
-sitemap: false
-permalink: /404.html
-title: &title "404 - Siden blev ikke fundet - Motionsplan.dk"
-excerpt: "Siden blev ikke fundet, men heldigvis har vi så mange andre interessante sider. Så lad dig inspirere nedenfor."
+permalink: /confirm/
+title: Din e-mail blev bekræftet
+excerpt: "Din e-mail blev bekræftet. Vi er rigtig glade for, at du vil følge med på sitet. Måske har du allerede nu lyst til at kigge lidt rundt."
+feature_row_intro:
+  - title: Din e-mail blev bekræftet
+    excerpt: "Din e-mail blev bekræftet. Vi er rigtig glade for, at du vil følge med på sitet. Måske har du allerede nu lyst til at kigge lidt rundt."
 header:
   overlay_image: https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
 not_found:
@@ -56,6 +58,10 @@ feature_row_content:
     btn_label: "Se træningsprogrammer"
     btn_class: "btn--danger"
 ---
+
+{% include feature_row id="feature_row_intro" type="center" %}
+
+<hr>
 
 {% include feature_row id="not_found" type="center" %}
 
