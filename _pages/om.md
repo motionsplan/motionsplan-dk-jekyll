@@ -7,9 +7,13 @@ author_profile: true
 sitemap: false
 ---
 
+Motionsplan.dk er et gratis medie for alle brugerne. Der ligger rigtig mange timer bag ved artiklerne og udviklingen af beregnerne.
+
 Motionsplan ejes og drives af Lars Olesen (chefredaktør). Der er tilknyttet en række freelance-journalister til at hjælpe med det redaktionelle stof.
 
 Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universitet. Siden da har han undervist siden 1999 i bl.a. fitnessinstruktør, test og træning og idræt på [Vejle Idrætshøjskole](https://www.vih.dk/).
+
+[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning rel="nofollow noopener" }
 
 ## Om motionsplan.dk
 
@@ -20,15 +24,17 @@ Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universi
 
 Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ site.email }}.
 
-## Gratis medie om træning
+## Gratis medie med reklamer
 
-Motionsplan.dk er et gratis medie for alle brugerne. Der ligger rigtig mange timer bag ved udviklingen af artiklerne og beregnerne.
-
-Motionsplan finansierer bl.a. driften gennem reklamer. Nogle links på sitet er affiliate links. Det betyder, at vi tjener en lille kommision, hvis du køber produkter efter at have klikket på et link til en leverandør.
+Motionsplan finansierer bl.a. driften gennem reklamer. Nogle links på sitet er affiliate links. Det betyder, at vi tjener en lille kommision, hvis du køber produkter efter at have klikket på et link til en leverandør. Prisen for dig er den samme.
 
 Alle reklamelinks er altid markeret tydeligt. Du skal også være opmærksom på, at produkterne ikke bliver dyrere af, at du støtter Motionsplan.
 
 Indtjeningen går til at støtte arbejdet med hjemmesiden, den løbende opdatering og optimering og til nye tiltag. Vi håber, at du vil støtte op om arbejdet.
+
+Du kan aktivere et **reklamefrit Motionsplan** ved at støtte Motionsplan. Forhåbentlig giver det dig en endnu bedre oplevelse på sitet.
+
+[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning rel="nofollow noopener" }
 
 Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har fortjent det.
 
@@ -36,9 +42,9 @@ Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har f
 
 ## Materiale på sitet
 
-Vi bruger billeder fra [Unsplash.com](https://unsplash.com/) og skriver selv alle artiklerne.
+Vi bruger billeder fra [Unsplash.com](https://unsplash.com/){: rel="nofollow noopener" } og skriver selv alle artiklerne.
 
-Ikoner brugt på sitet er lavet af <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> fra <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+Ikoner brugt på sitet er lavet af <a href="https://www.flaticon.com/authors/dave-gandy" rel="nofollow noopener" title="Dave Gandy">Dave Gandy</a> fra <a rel="nofollow noopener" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
 
 ## Tal om Motionsplan
 
@@ -58,4 +64,4 @@ Ikoner brugt på sitet er lavet af <a href="https://www.flaticon.com/authors/dav
 
 Du er meget velkommen til at fortælle, hvad du synes om Motionsplan.dk på [Trustpilot](https://dk.trustpilot.com/review/motionsplan.dk){: rel="nofollow noopener" }.
 
-[![](/assets/images/miljoe-pakning-badge.png)](https://miljoevenlig-pakning.dk/)
+[![](/assets/images/miljoe-pakning-badge.png)](https://miljoevenlig-pakning.dk/){: rel="nofollow noopener" }
