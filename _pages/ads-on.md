@@ -12,11 +12,11 @@ Motionsplan finansieres normalt af reklamer for at dække driften af sitet. Norm
 
 Du kan aktivere et **reklamefrit Motionsplan** ved at støtte Motionsplan. Forhåbentlig giver det dig en endnu bedre oplevelse på sitet.
 
-[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning }
+[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning rel="nofollow noopener" }
 
 ## Støt på andre måder
 
-Hvis du ikke allerede gør det, så kan du overveje at **[købe mig en kaffe](https://www.buymeacoffee.com/lsolesen/)** for anstrengelserne for at opdatere Motionsplan :)
+Hvis du ikke allerede gør det, så kan du overveje at **[købe mig en kaffe](https://www.buymeacoffee.com/lsolesen/){: rel="nofollow noopener" }** for anstrengelserne for at opdatere Motionsplan :)
 
 {% include buymeacoffee.html %}
 

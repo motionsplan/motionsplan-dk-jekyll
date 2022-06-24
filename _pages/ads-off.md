@@ -17,7 +17,7 @@ Formålet med Motionsplan er at give de bedste oplysninger om træning og sundhe
 
 Normalt ville Motionsplan tjene omkring 100-200 kroner om dagen på reklameindtægter.
 
-Hvis du synes, at du får værdi af indlæggene, så kan du overveje at **[købe mig en kaffe](https://www.buymeacoffee.com/lsolesen/)** for mine anstrengelser, men det er absolut ikke et krav :)
+Hvis du synes, at du får værdi af indlæggene, så kan du overveje at **[købe mig en kaffe](https://www.buymeacoffee.com/lsolesen/){: rel="nofollow noopener" }** for mine anstrengelser, men det er absolut ikke et krav :)
 
 {% include buymeacoffee.html %}
 
