@@ -7,13 +7,10 @@ header:
   teaser: https://images.unsplash.com/photo-1602853186862-723dee51784c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
-  - Styrketræning
-  - Træningsprogrammer
+  - Løb
 tags:
-  - træningsprogram
   - træning
-  - styrketræning
-  - programanmeldelse
+  - løb
 last_modified_at: 2022-01-27T22:21:26Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
