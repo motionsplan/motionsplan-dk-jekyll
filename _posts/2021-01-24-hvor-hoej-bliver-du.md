@@ -1,8 +1,9 @@
 ---
 title: &title "Hvor høj bliver jeg? 📏 (Beregner)"
-seo_title: "Hvor høj bliver jeg 2022? 📏 (Beregner)"
+seo_title: "Højdeberegner: Hvor høj bliver jeg? (2022)"
+excerpt: "Der er mange, der stiller spørgsmålet: Hvor høj bliver jeg? Du kan udregne hvor høj du bliver på baggrund af din mors og fars højde."
 permalink: /hvor-hoej-bliver-jeg/
-last_modified_at: 2021-01-18T09:41:09Z
+last_modified_at: 2022-07-17T09:41:09Z
 author: lsolesen
 language: da
 header:
@@ -15,6 +16,18 @@ tags:
   - højde
   - beregner
 ---
+
+{% comment %}
+
+http://www.wright.edu/~harry.khamis/stature_prediction/
+
+Fels Longitudinal Study data to conduct an exhaustive investigation in an attempt to determine the most important predictors of adult stature. Their conclusion: the most important predictors of adult stature for a child of a given age and gender are (i) current stature (big surprise!), (ii) current weight, (iii) midparent stature (another no-brainer), and (iv) skeletal age (a measurement of bone age based on a skeletal X-ray of the hand and wrist)
+
+Be aware, however, that the height predictor on the web, based on the tables in (39), are valid only for White Americans who are free from any growth-related condition or disease. The 90% error margin of such individuals is 2.1 inches for boys and 1.7 inches for girls on the average - somewhat higher during the puberty years, and lower for other years.
+
+***
+
+{% endcomment %}
 
 Der er mange, der stiller spørgsmålet: Hvor høj bliver jeg? Du kan udregne hvor høj du bliver på baggrund af din mors og fars højde.
 
@@ -60,3 +73,17 @@ Rigshospitalet bruger dog en mere præcis metode på deres afdeling til at estim
 ## Konklusion
 
 Du kan sammenligne den udregnede højde med [gennemsnitshøjden i Danmark]({% link _posts/2016-06-04-gennemsnitshojde-danmark.md %}) eller læse mere om, [hvordan du bliver højere]({% link _posts/2020-07-04-hvordan-hojere.md %})?.
+
+{% comment %}
+
+***
+
+<div class="omni-calculator" data-calculator="health/height" data-width="600" data-config='{}' data-currency="DKK" data-show-row-controls="false" data-version="3" data-t="1658060754895">
+  <div class="omni-calculator-header"></div>
+  <div class="omni-calculator-footer">
+    <a href="https://www.omnicalculator.com/health/height" target="_blank"><img alt="Omni" class="omni-calculator-logo" src="https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg" /></a>
+  </div>
+</div>
+<script async src="https://cdn.omnicalculator.com/sdk.js"></script>
+
+{% endcomment %}
