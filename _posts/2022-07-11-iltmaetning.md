@@ -19,6 +19,7 @@ feature_row:
     excerpt: Pulsoximeteret CMS50D2 er et lille og handy pulsoximeter, der hurtigt og nemt kan måle dit blods iltmætning blot ved at gennemlyse din pegefinger.
     btn_label: Tjek prisen
     btn_class: btn--danger
+    rel: sponsored nofollow noopener
 ---
 
 Kun få mennesker ved, hvad deres iltmætningsgrad i blodet er? Iltmætningen i blodet kan give et øjebliksbillede af dit generelle helbred.

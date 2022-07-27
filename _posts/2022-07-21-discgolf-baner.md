@@ -96,9 +96,12 @@ Der er mange faktorer, der har betydning for, hvor langt tid det tager at spille
 Det er en rigtig god ide at være rigtig opmærksom på, hvor discen lander. Så er den noget lettere at finde.
 
 ## Hvad har jeg brug for for at spille discgolf?
+
 Du skal bare selv medbringe discs til at spille med. Du kan sagtens bruge en almindelig frisbee, men ellers kan du se vores forslag til, hvad du skal tænke over som [begynder i discgolf](http://discimport.dk/blog/begynder-i-discgolf).
 
 {% include video provider="youtube" id="1SRa1hc8NAI" %}
+
+Vi har skrevet en guide til, [hvordan du vælger en golfdisc til begyndere](/golfdisc-til-discgolf/). Her får du alle detaljerne til, hvad du skal tænke på, når du gerne vil i gang med at spille lidt discgolf.
 
 ## Hvor kan jeg købe discs?
 
