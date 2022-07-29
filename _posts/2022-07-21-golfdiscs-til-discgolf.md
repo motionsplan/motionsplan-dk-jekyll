@@ -16,7 +16,7 @@ faq:
   - question: Hvor mange disctyper findes der?
     answer: Der findes fire typer golfdiscs. Vi har distance drivers, som bruges til lange kast. Fairway drivers bruges til de mellem-lange drives). Midrange discs bruges til kortere drives og de lidt længere indspil. Putt og approach discs bruges til korte indspil og putts.
   - question: Hvad er de bedste discs for en begynder?
-    answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-taI). Mange forhandlere tilbyder begyndersæt, som er velegnet til nybegyndere at kaste med.
+    answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Mange forhandlere tilbyder begyndersæt, som er velegnet til nybegyndere at kaste med.
   - question: Hvad betyder udtrykkene overstabil, stabil og understabil?
     answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
 ---
@@ -71,8 +71,8 @@ Det er for det meste ikke noget producenten oplyser i de tal for flyveegenskaber
 
 De fleste golfdisc-producenter bruger fire kategorier til at karakterisere flyveegenskaberne for frisbeen. Følgende beskrivelser gælder for et **højrehåndet baghåndskast**.
 
-- **Speed** er discens evne til at skære gennem luften med maksimal fart og derfor et udtryk for, hvor langt du kan kaste frisbeen.
-- **Glide** er discen evne til at holde sit svæv i luften.
+- **Speed** er discens evne til at skære gennem luften med maksimal fart og derfor et udtryk for, hvor langt du kan kaste frisbeen. Tallet handler naturligvis om aerodynamik, og hvordan frisbeen kan skære igennem luften, hvilket resulteer i længde. Som nybegynder er det en god idé at starte med en disc, der har en speed på omkring 7-10 frem for maksimal speed, da dette også kræver maksimal spin. Det kræver øvelse og god teknik at kunne aflevere discen med høj spin, så derfor vil begynderen med høj sandsynlighed kaste længere med en disc med fx 8 i speed end en med 13.
+- **Glide** er discen evne til at holde sit svæv i luften. Du skal være opmærksom på, at discs med meget glide kan være svære at kontrollere i meget vind, da discens udformning tillader mere luft under discen.
 - **Turn** er golfdiscens evne til at gå i en højredrejet retning i starten af flyvebanen. Jo lavere tallet er, jo mere understabil er discen - og jo mere vil den i et højrehåndet baghåndskast gå mod højre i starten af svævefasen.
 - **Fade** er discens tendens til at dreje til venstre i slutningen af flyvebanen for et baghåndskast med højre hånd. Jo højre tallet er, jo mere vil den _fade_ mod venstre i slutningen af svævefasen.
 
@@ -174,3 +174,5 @@ Discgolfsporten er i rivende udvikling. Det betyder, at der er mange forhandlere
 Nu hvor du ved lidt mere om de forskellige typer golfskiver, og hvad du skal kigge efter, når du vælger en, burde det være lidt lettere at træffe en beslutning.
 
 Husk at tage hensyn til din kasteevne og vejrforholdene, inden du foretager dit køb. Hvis du stadig er usikker på, hvilken disc der er den rigtige for dig, kan du spørge en erfaren spiller eller forhandler om.
+
+Når du har valgt dine frisbees, så har du måske lyst til at dykke lidt ned i [hvordan du kaster en frisbee](/discgolf-teknik/).

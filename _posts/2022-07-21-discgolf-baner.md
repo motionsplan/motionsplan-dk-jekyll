@@ -8,6 +8,7 @@ header:
   caption: *title
 category:
   - Sportsgrene
+  - Discgolf
 tags:
   - sport
 last_modified_at: 2022-07-21T10:21:26Z
@@ -102,6 +103,8 @@ Du skal bare selv medbringe discs til at spille med. Du kan sagtens bruge en alm
 {% include video provider="youtube" id="1SRa1hc8NAI" %}
 
 Vi har skrevet en guide til, [hvordan du vælger en golfdisc til begyndere](/golfdisc-til-discgolf/). Her får du alle detaljerne til, hvad du skal tænke på, når du gerne vil i gang med at spille lidt discgolf.
+
+Når du har fået fat i nogle discs, så er det også meget rart at vide, hvilken [teknik du skal kaste golfdiscen med](/discgolf-teknik/).
 
 ## Hvor kan jeg købe discs?
 

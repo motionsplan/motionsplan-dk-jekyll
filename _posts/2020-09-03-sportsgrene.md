@@ -265,7 +265,7 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 
 Jeg håber du fandt noget inspiration til, hvilken sport, idræt og motion du gerne vil gå til.
 
-Jeg har i hvert fald forsøgt at lave en liste over alle sportsgrene i Danmark. Der kan vælge største sportsgrene i Danmark, men du kan sikkert også finde sjove sportsgrene, du ikke anede eksisterede.
+Jeg har i hvert fald forsøgt at lave en liste over alle sportsgrene i Danmark. Du kan vælge største idrætsgrene i Danmark, men du kan sikkert også finde sjove idrætter, du ikke anede eksisterede. Jeg er selv blevet ret glad for [discgolf](/discgolf/), som er en god måde også at få [gået nogle skridt](/skridt-pr-km-10000/).
 
 Hvis du har tilføjelser eller forbedringer til at listen, så skriv endelig.
 
