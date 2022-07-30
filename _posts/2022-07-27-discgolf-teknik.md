@@ -1,6 +1,7 @@
 ---
 title: &title "Teknik i discgolf: Hvordan kaster man i discgolf?"
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
+excerpt: "Det er ikke så let at kaste en golfdisc til discgolf, som det ser ud til at være. Her er nogle tips til, hvordan du kaster en golfdisc, når du spiller frisbeegolf."
 permalink: /discgolf-teknik/
 language: da
 header:
@@ -284,6 +285,8 @@ I uDisc kan du også træne din præcision. Du kan udnytte GPS'en i telefonen ti
 Jeg bruger altid en rigtig kurv til at sigte efter, for så er det lidt sjovere. Det kunne være smart, hvis GPS'en også blev brugt til at vurdere de enkelte discs.
 
 {% include gallery id="gallery_udisc_precision" %}
+
+Så er det egentlig bare om at komme i gang med træningen, så du kan få sænket dit [discgolf-handicap](/discgolf-handicap/).
 
 ## Konklusion
 

@@ -1,5 +1,6 @@
 ---
 title: &title "4 bedste discgolf apps i 2022 (til at forbedre dit spil)"
+excerpt: "Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når du spiller discgolf."
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /discgolf-apps/
 language: da
@@ -115,7 +116,7 @@ Discgolf Metrix er en app til discgolfere, som på mange måder ligner UDisc. Ap
 
 Til forskel fra Udisc så får du i Discgolf Metrix en rating. Ratingen ligner nogenlunde den officielle rating fra PDGA, men hvis du vælger at bruge Discgolf Metrix til at holde styr på din score, så får du efter tre konkurrencer en rating.
 
-Det betyder, at du kan begynde at spille med andre efter et handicap-system, som man kender fra almindelig golf. Det gør det endnu sjovere at spille sammen på forskellige niveauer, for så er det ikke bare den mest øvede, der altid vinder.
+Det betyder, at du kan begynde at spille med andre efter et [handicap-system til discgolf](/discgolf-handicap/), som man kender fra almindelig golf. Det gør det endnu sjovere at spille sammen på forskellige niveauer, for så er det ikke bare den mest øvede, der altid vinder.
 
 Noget andet sjovt i Discgolf Metrix er, at man i klubber kan lave en _bag tag challenge_. Det indebærer, at du fysisk får et mærke på din taske. Hvis du vinder over en spiller, der har et lavere nummer end dit, så bytter I _tag_. På den måde kan man spille sig op af rangstien i klubben. Det er en af de måder Discgolf Metrix tjener penge på.
 

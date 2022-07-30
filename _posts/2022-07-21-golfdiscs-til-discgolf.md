@@ -1,5 +1,6 @@
 ---
 title: &title "Golfdiscs: Hvilken frisbee skal jeg vælge til discgolf?"
+excerpt: "Når du leder efter en golfdisc til discgolf, så er der rigtig mange muligheder. Her får du nogle tips til at vælge den rigtige disc, når du gerne vil i gang med at spille discgolf."
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /golfdisc-til-discgolf/
 language: da

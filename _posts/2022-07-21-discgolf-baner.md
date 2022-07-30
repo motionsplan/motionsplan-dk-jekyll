@@ -1,6 +1,7 @@
 ---
 title: &title "Discgolf baner i Danmark: Hvor kan du spille?"
 seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
+excerpt: "At gå en runde på en af de mange discgolf baner i danmark er en fantastisk måde at tilbring tid sammen med vennerne på. Her kan du læse mere om, hvor du kan spille discgolf?"
 permalink: /discgolf-baner/
 language: da
 header:
@@ -64,6 +65,8 @@ På dette kort fra uDisc kan du se fordelingen af baner rundt omkring i Danmark.
 
 {% include figure image_path="https://cdn.shopify.com/s/files/1/0528/0845/0204/files/Kort_over_disc_golf_baner_i_Danmark_2022_2a5e3f90-03a0-41ed-8c2b-5b4e0fd8d9ca_1024x1024.png?v=1646678224" caption="Discgolfbaner i Danmark ifølge Udisc. Opdateret 2022. Se hele listen på deres [hjemmeside](https://www.pdga.com/course-directory?field_course_location_country=DK). Kilde: [disctree.dk](https://disctree.dk/pages/disc-golf-i-danmark){: rel='nofollow noopener' }" alt="Kort over Discgolf baner i Danmark" %}
 
+Når du har fundet en bane, du gerne vil spille, så kan du også tjekke om der findes nogle [lokale regler for handicap på banen](/discgolf-handicap/).
+
 ## Hvordan finder jeg en velholdt bane?
 
 Der er stor forskel på, hvor velholdte de forskellige baner er. Derfor er det en god ide at tjekke banen i uDisc-appen. Her opdaterer brugerne konstant banens beskaffenhed.
@@ -117,4 +120,4 @@ Discgolfsporten er virkelig blomstret de seneste år. Nu kan du både købe disc
 
 Discgolf er en fantastisk måde at tilbringe tid i det fri med venner på. Det er nemt at lære, og du behøver kun dine egne skiver for at spille. Du kan finde discgolf baner over hele Danmark, og de varierer i forhold til, hvor velholdte de er.
 
-Tjek uDisc-appen, inden du tager af sted, for at sikre dig, at banen er i god stand, og hvad du skal tænke på.
+Tjek uDisc-appen, inden du tager af sted, for at sikre dig, at banen er i god stand, og hvad du skal tænke på. Du kan også udnytte nogle af de andre [discgolf apps](/discgolf-apps/).
