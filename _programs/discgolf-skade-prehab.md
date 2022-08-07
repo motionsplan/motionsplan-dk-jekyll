@@ -66,7 +66,7 @@ Discgolf kræver, at du kaster med høj kraft, når du skal drive. Det betyder, 
 
 Det er formentlig særligt denne bevægelse kan både være med til at skabe de **akutte forstrækninger**, men også over tid skabe **overbelastning** af vævet.
 
-Langt de fleste skader opstår, hvis man ikke bygger træningen stille og roligt. Jeg synes selv, at det er sjovt at spille discgolf. Jeg går ofte ud og spiller 9-18 huller på de forskellige [danske discgolfbaner](/discgolf-baner/), som efterhånden er over det hele.
+Langt de fleste skader opstår, hvis man ikke bygger træningen stille og roligt. Jeg synes selv, at det er sjovt at spille discgolf. Jeg går ofte ud og spiller 9-18 huller nogle af [Danmarks mange discgolfbaner](/discgolf-baner/), som efterhånden er over det hele.
 
 Det er en god ide at tænke over, hvor mange gange du kaster, og med hvilken kraft du kaster i de forskellige kast. Hvis du første gang i sæsonen skal ud på banen, så kan det være en fordel fx kun at gå 9 huller og langsomt bygge op til flere og flere kast.
 

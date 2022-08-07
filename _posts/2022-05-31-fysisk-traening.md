@@ -15,7 +15,7 @@ last_modified_at: 2022-05-31T10:21:26Z
 
 Fysisk træning er en vigtig del af enhver sport, men også for at kunne klare hverdagen endnu bedre. Læs her hvordan du får det optimale udbytte af din træning.
 
-Alle har gavn af at lave fysisk træning, så kroppen bliver stærkere, mere udholdende og for at kunne bevæge sig bedre og hurtigere.
+Alle har gavn af at lave fysisk træning, så kroppen bliver stærkere, mere udholdende og for at kunne bevæge sig bedre og hurtigere. Når du skal planlægge fysisk træning, så er det godt at have styr på, hvordan [fysiologien påvirker kroppen](/fysiologi/), og hvordan [anatomien virker](/anatomi/).
 
 I dette indlæg gennemgår vi alle elementerne i fysisk træning for at inspirere dig til at planlægge en træning, som kommer hele vejen rundt.
 
@@ -112,7 +112,7 @@ Balancetræning er en vigtig del af den fysiske træning. Det hjælper med at fo
 
 ## Nedvarmning og restitution
 
-Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/resitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
+Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
 
 **Læs**: [Virker nedvarmning og afjogging på restitutionen?](/nedvarmning-som-restitutionsaktivitet/)
 

@@ -5,7 +5,7 @@ excerpt: "Det er ikke så let at kaste en golfdisc til discgolf, som det ser ud 
 permalink: /discgolf-teknik/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161919642-7d318b88a40b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1655161920414-e25dc7e0f1de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Sportsgrene

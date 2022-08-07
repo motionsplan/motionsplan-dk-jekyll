@@ -67,6 +67,8 @@ const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 const treadmill = require('../js/treadmill');
 const flyer_handicap = require('../js/flyer-handicap');
+const rowing_power_calculator = require('../js/rowing-power-calculator');
+const rowing_vo2 = require('../js/rowing-vo2');
 require('image-map-resizer');
 
 $(function() {
@@ -1961,23 +1963,44 @@ $(function() {
         console.log("Calculate CP Time");
         e.preventDefault();
 
-      let cp = Number($("[name='time_cp']").val());
-      let w = Number($("[name='time_w']").val());
-      let p = Number($("[name='time_p']").val());
+        let cp = Number($("[name='time_cp']").val());
+        let w = Number($("[name='time_w']").val());
+        let p = Number($("[name='time_p']").val());
 
-      let time = ((1000 * w) / (p - cp));
+        let time = ((1000 * w) / (p - cp));
 
         $("[name='time']").val(time.toFixed(0));
     });
+    $("#calculator_rowing_2000_meter_time").submit(function(e) {
+      console.log("Calculate VO2max rowing");
+      e.preventDefault();
+
+      let min = Number($("[name='tid_min']").val());
+      let sek = Number($("[name='tid_sek']").val());
+      let bw = Number($("[name='rowing_body_weight']").val());
+      let gender = $("[name='rowing_gender']").val();
+
+      let b = rowing_power_calculator.RowingPowerCalculator();
+      let pace = b.getPaceFromTimeAndDistance(2000, min, sek);
+
+      let WM = b.getWattsFromPace(pace);
+
+      let r = rowing_vo2.RowingVO2(WM, gender);
+
+      $("[name='vo2_max']").val(r.getVO2().toFixed(2));
+      $("[name='kondital']").val(r.getFitnessLevel(bw).toFixed(0));
+      $("[name='mean_power']").val(WM.toFixed(0));
+    });
+
     $("#calculator_critical_power_power_for_time").submit(function(e) {
         console.log("Calculate CP Power for time");
         e.preventDefault();
 
-      let cp = Number($("[name='power_time_cp']").val());
-      let w = Number($("[name='power_time_w']").val());
-      let t = Number($("[name='power_time_time']").val());
+        let cp = Number($("[name='power_time_cp']").val());
+        let w = Number($("[name='power_time_w']").val());
+        let t = Number($("[name='power_time_time']").val());
 
-      let p = ((1000 * w) / t) + cp;
+        let p = ((1000 * w) / t) + cp;
 
         $("[name='power_for_time']").val(p.toFixed(0));
     });
@@ -1985,9 +2008,9 @@ $(function() {
         console.log("Calculate Bruce");
         e.preventDefault();
 
-      let T = Number($("[name='bruce_time']").val());
+        let T = Number($("[name='bruce_time']").val());
 
-      let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
+        let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
 
         $("[name='bruce_kondital']").val(kondital.toFixed(0));
     });
@@ -1995,11 +2018,11 @@ $(function() {
         console.log("Calculate CP");
         e.preventDefault();
 
-      let p3 = Number($("[name='p3']").val());
-      let p12 = Number($("[name='p12']").val());
+        let p3 = Number($("[name='p3']").val());
+        let p12 = Number($("[name='p12']").val());
 
-      let cp = ((12 * p12) - (3 * p3)) / 9;
-      let w = 0.24 * (p3 - p12);
+        let cp = ((12 * p12) - (3 * p3)) / 9;
+        let w = 0.24 * (p3 - p12);
 
         $("[name='cp']").val(cp.toFixed(0));
         $("[name='w']").val(w.toFixed(0));
@@ -2009,13 +2032,13 @@ $(function() {
         console.log("Calculate Blood");
         e.preventDefault();
 
-      let formula = $("[name='bloodvolume-formula']").val();
-      let gender = $("[name='gender']").val();
-      let age = Number($("[name='age']").val());
-      let weight = Number($("[name='weight']").val());
-      let height = Number($("[name='height']").val());
+        let formula = $("[name='bloodvolume-formula']").val();
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
 
-      let b = blood.Blood(gender, age, weight, height);
+        let b = blood.Blood(gender, age, weight, height);
 
         $("[name='bloodvolume']").val(b.getVolume().toFixed(0));
     });

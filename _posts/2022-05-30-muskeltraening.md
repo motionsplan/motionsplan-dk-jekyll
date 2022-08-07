@@ -49,7 +49,7 @@ Du kan i figuren også se, at hver type muskeltræning er opdelt i statisk eller
 
 ## Hvad er formålet med muskeltræning?
 
-Muskeltræning er ofte en bestanddel af et [træningsprogram](/traeningsprogram/). Det har flere formål at træne musklerne specifikt.
+Muskeltræning er ofte en bestanddel af et [træningsprogram](/traeningsprogrammer/). Det har flere formål at træne musklerne specifikt.
 
 - udvikle musklerne, senerne og skeletstrukturerne til at blive stærkere eller mere udholdende.
 - udvikle bedre funktionsevne og koordination mellem musklerne, hvilket forbedrer forudsætningerne for at deltage i alle former for fysisk aktivitet.

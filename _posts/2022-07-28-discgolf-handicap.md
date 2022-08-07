@@ -5,7 +5,7 @@ excerpt: "Her dykker vi ned i, hvordan rating i discgolf fungerer, og hvordan du
 permalink: /discgolf-handicap/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161920099-86c24c59f1bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1655161920099-86c24c59f1bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
 category:
   - Sportsgrene

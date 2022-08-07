@@ -24,7 +24,7 @@ I dette indlæg kan du læse lidt om begrebet dogmefitness, som jeg fandt på i 
 Du kan også læse om:
 
 - [Øvelser til træning i naturen og naturfitness](/naturfitness/)
-- [Svinetræning ](/svintetraening/)
+- [Svinetræning ](/svinetraening/)
 
 Men lad os nu dykke ned i lidt ekstra forslag til din træning udenfor.
 
