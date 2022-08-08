@@ -66,7 +66,7 @@ gallery_udisc_precision:
 
 Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når du spiller discgolf.
 
-[Discgolf](/discgolf/) er en sportsgren, som bliver mere og mere udbredt. For at spille skal du finde nogle gode baner, du har brug for at øve dig, og du vil måske også gerne have en discgolf app til at holde styr på scoren på turen.
+[Discgolf eller frisbeegolf](/discgolf/) er en sportsgren, som bliver mere og mere udbredt. For at spille skal du finde nogle gode baner, du har brug for at øve dig, og du vil måske også gerne have en discgolf app til at holde styr på scoren på turen.
 
 {% include figure image_path="https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="disc golf apps og programmer" %}
 
