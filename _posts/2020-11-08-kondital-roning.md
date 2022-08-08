@@ -104,6 +104,8 @@ Hvis du kan aflæse den gennemsnitlige power, du har roet med i testen direkte p
 
 Du kan læse meget mere om trappetesten til roning i Aldersrelateret Træning, som jeg har linket til lidt højere oppe.
 
+{% include calculate-fitness-rowing-trappetest.html %}
+
 ## Hvordan får jeg det bedste resultat?
 
 For at få det bedste resultat i en test på romaskinen, så er der et par ting, du bør tænke over.

@@ -12,7 +12,7 @@ category:
   - Discgolf
 tags:
   - sport
-last_modified_at: 2022-07-21T10:21:26Z
+last_modified_at: 2022-08-08T10:21:26Z
 faq:
   - question: Hvad er de bedste discs for en begynder?
     answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at vælge disc](/golfdisc-til-discgolf/).
@@ -245,13 +245,13 @@ Du får naturligvis noget fart fra armen og håndleddet, men det er din evne til
 
 Ofte kan det betale sig for begyndere at kaste lidt mere afslappet, da man så kan koncentere sig om at få mere _spin_ på discen. Jo mere spin, jo bedre vil discen nemlig opføre sig i luften. Det betyder også, at man typisk kan kaste lige længere.
 
-## Måle længden på dine kast
+## Mål længden på dine kast med frisbee
 
 Hvis du gerne vil måle længden af dine kast, så har du lidt forskellige muligheder.
 
-Du kan naturligvis gå ud på et åbent område og medbringe et langt målebånd. Jeg bruger imidlertid uDisc til at måle længden på mine kast. Det smarte er, at jeg kan registrere mine discs, og så kan jeg bruge GPS'en og appen til at estimere længden af kastet.
+Du kan naturligvis gå ud på et åbent område og medbringe et langt målebånd. Jeg bruger selv uDisc til at måle længden på mine kast. Det smarte er, at jeg kan registrere mine discs, og så kan jeg bruge GPS'en og appen til at estimere længden af kastet.
 
-En GPS er naturligvis ikke fuldstændig præcis, men præcisionen er god nok for mig, når jeg kigger på, hvor langt kastet er. Jeg kan også registrere, om jeg har kastet baghånd eller forhånd.
+En GPS er naturligvis ikke fuldstændig præcis, men præcisionen er god nok for mig til at måle, hvor langt kastet er. Jeg kan også registrere, om jeg har kastet baghånd eller forhånd.
 
 {% include gallery id="gallery_length" %}
 
@@ -272,7 +272,7 @@ Distancerekorder med en golfdisc og en frisbee er følgende:
 
 Jeg har i hvert fald en del, jeg skal have øvet på for at komme i nærheden af de rekorder. Og jeg har prøvet at kaste med alle de forskellige frisbees.
 
-## Træne putts med en app
+## Træne putting med en app
 
 Du kan også bruge uDisc til at træne dine putting skills. Du skal selv nogenlunde vide, hvor langt du står væk fra kurven, men så kan du i appen skrive, hvor mange putts du sænker i din prøverunde.
 

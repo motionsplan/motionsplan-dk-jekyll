@@ -1,11 +1,10 @@
 ---
-title: &title "4 bedste discgolf apps i 2022 (til at forbedre dit spil)"
+title: &title "5 bedste discgolf apps i 2022 (til at forbedre dit spil)"
 excerpt: "Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når du spiller discgolf."
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /discgolf-apps/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=height=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=height=300&w=400&q=10
   caption: *title
 category:
@@ -69,6 +68,8 @@ Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre d
 
 [Discgolf](/discgolf/) er en sportsgren, som bliver mere og mere udbredt. For at spille skal du finde nogle gode baner, du har brug for at øve dig, og du vil måske også gerne have en discgolf app til at holde styr på scoren på turen.
 
+{% include figure image_path="https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="disc golf apps og programmer" %}
+
 ## Hvad findes der discgolf apps til?
 
 Discgolf-apps er designet til at gøre det nemmere og sjovere at spille discgolf. De kan hjælpe dig med at finde baner, de kan holde øje med din score, give dig tips til, hvordan du kan forbedre dit spil og der findes også en app, som hjælper dig med at undgå skader.
@@ -120,13 +121,21 @@ Det betyder, at du kan begynde at spille med andre efter et [handicap-system til
 
 Noget andet sjovt i Discgolf Metrix er, at man i klubber kan lave en _bag tag challenge_. Det indebærer, at du fysisk får et mærke på din taske. Hvis du vinder over en spiller, der har et lavere nummer end dit, så bytter I _tag_. På den måde kan man spille sig op af rangstien i klubben. Det er en af de måder Discgolf Metrix tjener penge på.
 
-## 3. Discgolf Handicap
+## 3. Tjing
+
+[Tjing](https://tjing.se/) linger UDisc og Discgolf Metrix, men er ikke helt så langt i udviklingen endnu. Til gengæld er interfacet noget mere lækkert, og den er rigtig lovende.
+
+Du kan endnu ikke finde banekort, øve dig eller andre af de smarte ting, du fx kan i UDisc. Til gengæld så er deres turneringsmanager noget mere lækkert sat op end de andre systemer.
+
+{% include figure image_path="https://tjing.se/img/LiveScoring%E2%80%93Expanded_New.a85de9f4.png" alt="tjing app til discgolf" %}
+
+## 4. Discgolf Handicap
 
 [Discgolfhandicap.net](https://www.discgolfhandicap.net) er et forsøg på at udbrede et discgolf-handicap og gøre det let for alle. Det er mere en hjemmeside end en app, men siden er mobilvenlig, så du kan let bruge den, når du spiller.
 
 {% include figure image_path="/assets/images/blog/discgolf-handicap.png" caption="Discgolfhandicap.net har til formål at forsøge at udbrede et discgolfhandicap, som man kan bruge til at gøre kampene mere jævnbyrdige. Forløbig foretrækker jeg dog Discgolf Metrix, som har et større hold bag sig i udviklingen." alt="Screenshot af Discgolfhandicap.net hjemmeside" %}
 
-## 4. Discgolf Strong
+## 5. Discgolf Strong
 
 Det er en god ide at forebygge skader, når du spiller discgolf. Faktisk er [skader rimelig udbredte i discgolf sporten](/program/discgolf-skade-prehab/). Her kan Discgolf Strong hjælpe dig med at lave et træningsprogram.
 

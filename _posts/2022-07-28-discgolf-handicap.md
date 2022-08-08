@@ -96,7 +96,7 @@ Mange steder skal man fx spille 3 x 9 huller for at få sit starthandicap. Genne
 
 Du kan naturligvis konkurrere med det samme, men så spiller du med handicap 0, indtil du har spillet det nødvendige antal runder. Når starthandicappet er sat, så vil du altså kunne konkurrere på mere lige vilkår. 
 
-For at sikre at handicappet viser spillerens aktuelle spilstyrke, skal det løbende **reguleres**. Handicappet reguleres fx med faktor 0,1. Hvis din score er bedre end end _par_ (efter fratræk af handicap)på banen, så fratrækkes for hvert kast man er bedre 0,1. 
+For at sikre at handicappet viser spillerens aktuelle spilstyrke, skal det løbende **reguleres**. Handicappet reguleres fx med faktor 0,1. Hvis din score er bedre end _par_ (efter fratræk af handicap) på banen, så fratrækkes for hvert kast man er bedre 0,1. 
 
 Er scoren dårligere end _par_ (efter fratræk af handicap) tillægges for hvert kast man er dårligere  0,1.
 
@@ -107,6 +107,7 @@ Det besværlige med handicaps på de enkelte baner er vedligeholdelsen af system
 Heldigvis er der lidt andre muligheder, som du kan dykke ned i.
 
 ## Hvordan kan jeg bruge handicap i uDisc?
+
 UDisc er en [discgolf app](/discgolf-apps/), hvor du kan finde baner og lave scorecards. Hvis du gerne vil have, at en spiller har handicap allerede på scorekortet, så skal du sætte det op med det samme.
 
 Det gør du på denne måde i appen. Først opretter du scorekortet. Her skal du vælge _Start Score_. Dette kan nemlig ikke ændres senere, så du skal gøre det allerede under oprettelsen.
@@ -117,11 +118,11 @@ Der er ikke nogen måde i uDisc automatisk at bruge og udregne handicaps. Det be
 
 ## Hvordan kan jeg bruge handicap i Discgolf Metrix?
 
-I Discgolf Metrix kan du lave en turnering, hvor du introducerer handicap i pointsystemet. Det kan du gøre uden at skulle have en rating.
+I Discgolf Metrix kan du lave en turnering, hvor du introducerer handicap i pointsystemet. Det kan du gøre uden at skulle have en rating. Det kræver imidlertid, at du spiller flere runder i appen.
 
 Normalt skal man i Discgolf Metrix har en rating, men det kræver typisk, at du deltager i turneringer, hvor der er mindst 10 deltagere og banen også er ratet.
 
-Hvis du vælger WeeklyHC som pointsystem i din turnering, så kan du bruge præstationerne i turneringen, og du behøver ikke være officielt ratet. Det er en fordel, når banen du spiller på ikke er ratet.
+Hvis du vælger 'WeeklyHC' som pointsystem i din turnering, så kan du bruge præstationerne i turneringen, og du behøver ikke være officielt ratet. Det er en fordel, når banen du spiller på ikke er ratet.
 
 Her kan du se en kort forklaring af de enkelte pointsystemer, som du kan vælge til din discgolf turnering.
 
@@ -133,7 +134,7 @@ Du kan vælge dit pointsystem, når du redigerer din turnering. Her har jeg valg
 
 Denne metode kan dog kun bruges, hvis du har alle dine spillere til at deltage i den samme turnering hen over flere runder. Du kan ikke bare lave et enkeltstående arrangement, hvor folk kommer ind og spiller. Der har de brug for en rating for at kunne dyste på lige vilkår.
 
-## Discgolf Handicap
+## Discgolf Handicap website
 
 [Discgolfhandicap.net](https://www.discgolfhandicap.net) er et forsøg på at udbrede et discgolf-handicap og gøre det let for alle. Det er mere en hjemmeside end en app, men siden er mobilvenlig, så du kan let bruge den, når du spiller.
 

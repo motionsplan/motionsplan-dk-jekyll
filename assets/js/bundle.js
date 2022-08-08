@@ -2354,7 +2354,29 @@ $(function() {
       $("[name='kondital']").val(r.getFitnessLevel(bw).toFixed(0));
       $("[name='mean_power']").val(WM.toFixed(0));
     });
+    $("#calculator_rowing_trappetest").submit(function(e) {
+      console.log("Calculate VO2max rowing");
+      e.preventDefault();
 
+      let min = Number($("[name='trappetest_tid_min']").val());
+      let sek = Number($("[name='trappetest_tid_sek']").val());
+      let bw = Number($("[name='trappetest_body_weight']").val());
+      let second_watt = Number($("[name='trappetest_second_watts']").val());
+      let last_watt = Number($("[name='trappetest_last_watts']").val());
+
+      let increment = last_watt - second_watt;
+
+      let time_on_increment = min / 5;
+
+      let power = second_watt + (increment / time_on_increment);
+
+      let vo2max = (13.7 * power + 287) / 1000;
+      let kondital = vo2max / bw * 1000;
+      
+      $("[name='trappetest_vo2_max']").val(vo2max.toFixed(2));
+      $("[name='trappetest_kondital']").val(kondital.toFixed(0));
+      $("[name='trappetest_mean_power']").val(power.toFixed(0));
+    });
     $("#calculator_critical_power_power_for_time").submit(function(e) {
         console.log("Calculate CP Power for time");
         e.preventDefault();
