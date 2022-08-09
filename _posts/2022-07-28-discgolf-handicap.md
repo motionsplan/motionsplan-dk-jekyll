@@ -98,9 +98,15 @@ Du kan naturligvis konkurrere med det samme, men så spiller du med handicap 0, 
 
 For at sikre at handicappet viser spillerens aktuelle spilstyrke, skal det løbende **reguleres**. Handicappet reguleres fx med faktor 0,1. Hvis din score er bedre end _par_ (efter fratræk af handicap) på banen, så fratrækkes for hvert kast man er bedre 0,1. 
 
-Er scoren dårligere end _par_ (efter fratræk af handicap) tillægges for hvert kast man er dårligere  0,1.
+Er scoren dårligere end _par_ (efter fratræk af handicap) tillægges for hvert kast man er dårligere 0,1.
 
-Med denne metode så har hver spiller både et spillehandicap og et decimalhandicap. Spillehandicappet er det praktiske handicap, som er decimalhandicappet, der rundes op og ned efter de almindelige matematiske regler. 
+Med denne metode så har hver spiller både et spillehandicap og et decimalhandicap. Spillehandicappet er det praktiske handicap, som er decimalhandicappet, der rundes op og ned efter de almindelige matematiske regler.
+
+Lad os tage et **eksempel på udregning af handicap på en bane**.
+
+Jeg har spillet på Vejle Idrætshøjskoles bane tre gange for at få sat mit starthandicap. Banens par er 27 for de ni huller. Jeg har lave en runde på 31, 32 og 35. Det giver 32,7 i gennemsnit. Mit handicap starter altså på 32,7 - 27, hvilket giver 5,7.
+
+Udstyret med mit nye handicap spiller jeg så endnu en runde. Jeg har et handicap på 6 for runden. Det betyder, at jeg har 33 kast til at komme banen rundt for at spille til par med handicap. Jeg spiller runden på 32. Nu skal mit handicap justeres, fordi jeg spiller 1 under par. Jeg er altså nu på et handicap på 5,6, fordi det justeres med 0,1 pr kast jeg er under par.
 
 Det besværlige med handicaps på de enkelte baner er vedligeholdelsen af systemet, da der så vidt jeg ved ikke er nogle gode apps, der kan hjælpe med at sørge for det. Det betyder, at den skal vedligeholdes af en person.
 
