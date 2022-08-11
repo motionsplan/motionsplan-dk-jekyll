@@ -7,7 +7,6 @@ motionsplan.RowingPowerCalculator = function() {
     // return ³√(2.80/watts);
   }
 
-
   // distance in meters
   function getPaceFromTimeAndDistance(distance, min, sec) {
     return (min * 60 + sec) / distance;

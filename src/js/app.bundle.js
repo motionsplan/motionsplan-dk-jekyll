@@ -2003,9 +2003,9 @@ $(function() {
 
       let increment = last_watt - second_watt;
 
-      let time_on_increment = min / 5;
+      let time_on_increment = (min + ((sek / 60) / 100)) / 5;
 
-      let power = second_watt + (increment / time_on_increment);
+      let power = second_watt + (increment * time_on_increment);
 
       let vo2max = (13.7 * power + 287) / 1000;
       let kondital = vo2max / bw * 1000;

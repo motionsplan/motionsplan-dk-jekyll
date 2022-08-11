@@ -102,9 +102,13 @@ Hvis du kan aflæse den gennemsnitlige power, du har roet med i testen direkte p
 
 ## 3. Trappetest i roning
 
-Du kan læse meget mere om trappetesten til roning i Aldersrelateret Træning, som jeg har linket til lidt højere oppe.
+Kurt Jensen, tidligere TeamDanmark Testcenter, har udarbejdet en pålidelig konditionstest til roning, som Aldersrelateret Træning i Roning kaldes for Trappetesten.
 
-{% include calculate-fitness-rowing-trappetest.html %}
+[Trappetesten i roning](/roning-trappetest/) er en enkel test, som bare kræver et roergometer, evnen til at ro stabilt og en tabel, så du ved, hvilken belastning du skal ro med.
+
+Jeg har skrevet et indlæg om trappetesten, hvor du også kan finde en beregner.
+
+[Trappetesten i roning](/roning-trappetest/){: .btn--large .btn--info }
 
 ## Hvordan får jeg det bedste resultat?
 
