@@ -1,6 +1,6 @@
 let motionsplan = {};
 
-motionsplan.RowingErgrowing = function (minuts, seconds, splitseconds) {
+motionsplan.RowingErgRowing = function (minutes, seconds, splitseconds) {
 
     let totalseconds = Number(minutes) * 60 + Number(seconds);
     let totalsplitseconds = Number(totalseconds) * 10 + Number(splitseconds);
@@ -11,7 +11,6 @@ motionsplan.RowingErgrowing = function (minuts, seconds, splitseconds) {
     //Calculate watts for 2k
     let pacepowerthree = Math.pow(seconds_per_500 / 500, 3);
     let watts = 2.8 / pacepowerthree;
-    return watts;
 
     //Watts for each test with Jensen percentages
     let watts10sec = watts * 1.73;
@@ -22,6 +21,22 @@ motionsplan.RowingErgrowing = function (minuts, seconds, splitseconds) {
 
     function getWatts10Sec() {
       return watts10sec;
+    }
+
+    function getWatts60Sec() {
+      return watts60sec;
+    }
+
+    function getWatts2k() {
+      return watts;
+    }
+
+    function getWatts6k() {
+      return watts6k;
+    }
+    
+    function getWatts60min() {
+      return watts60min;
     }
 
     /*
@@ -181,6 +196,7 @@ motionsplan.RowingErgrowing = function (minuts, seconds, splitseconds) {
     return minutes + ":" + parseFloat(seconds).toFixed(1);
   }
 
+  /*
   function score_min_sec(score, element) {
     console.log(score);
     var arr = score.split(":");
@@ -221,10 +237,15 @@ motionsplan.RowingErgrowing = function (minuts, seconds, splitseconds) {
 
     return hours + ":" + minutes + "." + seconds;
   }
+  */
 
   let publicAPI = {
-    getVO2: getVO2,
-    getFitnessLevel: getFitnessLevel,
+    getPaceFromWatts : getPaceFromWatts,
+    getWatts10Sec : getWatts10Sec,
+    getWatts60Sec : getWatts60Sec,
+    getWatts2k : getWatts2k,
+    getWatts6k : getWatts6k,
+    getWatts60min : getWatts60min
   };
 
   return publicAPI;

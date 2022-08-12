@@ -432,6 +432,7 @@ const treadmill = require('../js/treadmill');
 const flyer_handicap = require('../js/flyer-handicap');
 const rowing_power_calculator = require('../js/rowing-power-calculator');
 const rowing_vo2 = require('../js/rowing-vo2');
+const rowing_powerprofile = require('../js/rowing-ergrowing');
 require('image-map-resizer');
 
 $(function() {
@@ -2377,6 +2378,131 @@ $(function() {
       $("[name='trappetest_kondital']").val(kondital.toFixed(0));
       $("[name='trappetest_mean_power']").val(power.toFixed(0));
     });
+    $("#calculator_rowing_powerprofile").submit(function(e) {
+      console.log("Calculate VO2max rowing");
+      e.preventDefault();
+
+      let min = Number($("[name='roning_pp_tid_min']").val());
+      let sek = Number($("[name='roning_pp_tid_sek']").val());
+      let ms = Number($("[name='roning_pp_tid_ms']").val());
+
+      let b = rowing_powerprofile.RowingErgRowing(min, sek, ms);
+
+      $("#pace10sec").text(b.getPaceFromWatts(b.getWatts10Sec()));
+      $("#pace60sec").text(b.getPaceFromWatts(b.getWatts60Sec()));
+      $("#pace2k").text(b.getPaceFromWatts(b.getWatts2k()));
+      $("#pace6k").text(b.getPaceFromWatts(b.getWatts6k()));
+      $("#pace60min").text(b.getPaceFromWatts(b.getWatts60min()));
+
+      $("#watts10sec").text(b.getWatts10Sec().toFixed(0));
+      $("#watts60sec").text(b.getWatts60Sec().toFixed(0));
+      $("#watts2k").text(b.getWatts2k().toFixed(0));
+      $("#watts6k").text(b.getWatts6k().toFixed(0));
+      $("#watts60min").text(b.getWatts60min().toFixed(0));
+
+      /*
+      //RENDER CHART
+      var speedCanvas = document.getElementById("speedChart");
+
+      //Chart.defaults.global.defaultFontFamily = "Lato";
+      //Chart.defaults.global.defaultFontSize = 18;
+
+      var speedData = {
+        labels: [
+          moment().set({ minutes: 0, seconds: 10 }),
+          moment().set({ minutes: 1, seconds: 0 }),
+          moment().set({
+            minutes: score_min_sec(calculate_score(watts2k, 2000), "min"),
+            seconds: score_min_sec(calculate_score(watts2k, 2000), "sec"),
+          }),
+          moment().set({
+            minutes: score_min_sec(calculate_score(watts6k, 6000), "min"),
+            seconds: score_min_sec(calculate_score(watts6k, 6000), "sec"),
+          }),
+          moment().set({ minutes: 60, seconds: 00 }),
+        ],
+
+        datasets: [
+          {
+            label: "Watts/Time",
+            data: [
+              parseFloat(watts10sec).toFixed(1),
+              parseFloat(watts60sec).toFixed(1),
+              parseFloat(watts2k).toFixed(1),
+              parseFloat(watts6k).toFixed(1),
+              parseFloat(watts60min).toFixed(1),
+            ],
+            lineTension: 0.3,
+            fill: false,
+            borderColor: "blue",
+            backgroundColor: "transparent",
+            pointBorderColor: "#007bff",
+            pointBackgroundColor: "rgba(255,150,0,0.5)",
+            // borderDash: [5, 1],
+            pointRadius: 5,
+            pointHoverRadius: 10,
+            pointHitRadius: 30,
+            pointBorderWidth: 2,
+            pointStyle: "rectRounded",
+          },
+        ],
+      };
+
+      var chartOptions = {
+        legend: {
+          display: true,
+          position: "top",
+          labels: {
+            boxWidth: 30,
+            fontColor: "black",
+          },
+        },
+
+        scales: {
+          xAxes: [
+            {
+              type: "time",
+              time: {
+                unit: "minute",
+                unitStepSize: 5,
+                round: "second",
+                tooltipFormat: "mm:ss",
+                displayFormats: {
+                  minute: "mm:ss",
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Time MM:SS",
+                fontColor: "grey",
+              },
+            },
+          ],
+
+          yAxes: [
+            {
+              gridLines: {
+                color: "black",
+                // borderDash: [2, 5],
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Watts (W)",
+                fontColor: "grey",
+              },
+            },
+          ],
+        },
+      };
+
+      var lineChart = new Chart(speedCanvas, {
+        type: "line",
+        data: speedData,
+        options: chartOptions,
+      });
+    */
+
+    });
     $("#calculator_critical_power_power_for_time").submit(function(e) {
         console.log("Calculate CP Power for time");
         e.preventDefault();
@@ -3241,7 +3367,7 @@ $(function() {
 	});
 });
 
-},{"../js/bodywater":17,"../js/fatenergypct":25,"../js/flyer-handicap":29,"../js/hr-intensity":31,"../js/rowing-power-calculator":44,"../js/rowing-vo2":45,"../js/treadmill":61,"../js/waist":64,"../js/walktest-rockport-16":65,"../js/walktest-sixminutes":66,"../js/wattmax":68,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":11,"./bmi-evaluation":10,"./bmr-benedict-harris":12,"./bmr-ligevaegt":13,"./bmr-nordic-2012":14,"./bmr-schofield":15,"./bmr-totalenergy-pal":16,"./borg15":18,"./cooper":20,"./cooper-running":19,"./etpunkttest":21,"./fat-pct":24,"./fat-pct-measurements":22,"./fat-pct-navy":23,"./fitness-hr":26,"./fitness-index-23":27,"./fitness-jogging":28,"./how-tall":30,"./ideal-weight":32,"./index100":33,"./inol":34,"./ipf-points":36,"./ipf-points-mcculloch":35,"./jumpreach":37,"./karvonen":38,"./lung":39,"./max-hr":40,"./ponderal-index":41,"./pushup":42,"./riegel":43,"./rpe-strength":46,"./running":54,"./running-distance-vo2":47,"./running-economy":48,"./running-walking":52,"./running-walking-energy.js":49,"./running-walking-leger.js":50,"./running-walking-pandolf.js":51,"./running-weightloss":53,"./skinfold-durnin":55,"./skinfold-lohman":56,"./skinfold-peterson":57,"./skinfold-pollock":58,"./skinfold-slaughter":59,"./topunkttest":60,"./vmax":63,"./vmax-intervals":62,"./water-intake":67,"./y-balance":69,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
+},{"../js/bodywater":17,"../js/fatenergypct":25,"../js/flyer-handicap":29,"../js/hr-intensity":31,"../js/rowing-ergrowing":44,"../js/rowing-power-calculator":45,"../js/rowing-vo2":46,"../js/treadmill":62,"../js/waist":65,"../js/walktest-rockport-16":66,"../js/walktest-sixminutes":67,"../js/wattmax":69,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":11,"./bmi-evaluation":10,"./bmr-benedict-harris":12,"./bmr-ligevaegt":13,"./bmr-nordic-2012":14,"./bmr-schofield":15,"./bmr-totalenergy-pal":16,"./borg15":18,"./cooper":20,"./cooper-running":19,"./etpunkttest":21,"./fat-pct":24,"./fat-pct-measurements":22,"./fat-pct-navy":23,"./fitness-hr":26,"./fitness-index-23":27,"./fitness-jogging":28,"./how-tall":30,"./ideal-weight":32,"./index100":33,"./inol":34,"./ipf-points":36,"./ipf-points-mcculloch":35,"./jumpreach":37,"./karvonen":38,"./lung":39,"./max-hr":40,"./ponderal-index":41,"./pushup":42,"./riegel":43,"./rpe-strength":47,"./running":55,"./running-distance-vo2":48,"./running-economy":49,"./running-walking":53,"./running-walking-energy.js":50,"./running-walking-leger.js":51,"./running-walking-pandolf.js":52,"./running-weightloss":54,"./skinfold-durnin":56,"./skinfold-lohman":57,"./skinfold-peterson":58,"./skinfold-pollock":59,"./skinfold-slaughter":60,"./topunkttest":61,"./vmax":64,"./vmax-intervals":63,"./water-intake":68,"./y-balance":70,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.YYIR1 = function(level, shuttles) {
@@ -5751,6 +5877,262 @@ motionsplan.Riegel = function(dist, hours, minutes, seconds) {
 module.exports = motionsplan;
 
 },{}],44:[function(require,module,exports){
+let motionsplan = {};
+
+motionsplan.RowingErgRowing = function (minutes, seconds, splitseconds) {
+
+    let totalseconds = Number(minutes) * 60 + Number(seconds);
+    let totalsplitseconds = Number(totalseconds) * 10 + Number(splitseconds);
+
+    let splitseconds_per_500 = totalsplitseconds / 4;
+    let seconds_per_500 = splitseconds_per_500 / 10;
+
+    //Calculate watts for 2k
+    let pacepowerthree = Math.pow(seconds_per_500 / 500, 3);
+    let watts = 2.8 / pacepowerthree;
+
+    //Watts for each test with Jensen percentages
+    let watts10sec = watts * 1.73;
+    let watts60sec = watts * 1.53;
+    let watts2k = watts;
+    let watts6k = watts * 0.85;
+    let watts60min = watts * 0.76;
+
+    function getWatts10Sec() {
+      return watts10sec;
+    }
+
+    function getWatts60Sec() {
+      return watts60sec;
+    }
+
+    function getWatts2k() {
+      return watts;
+    }
+
+    function getWatts6k() {
+      return watts6k;
+    }
+    
+    function getWatts60min() {
+      return watts60min;
+    }
+
+    /*
+    //Assign Watts to Table
+    document.getElementById("watts10sec").innerHTML =
+      parseFloat(watts10sec).toFixed(1);
+    document.getElementById("watts60sec").innerHTML =
+      parseFloat(watts60sec).toFixed(1);
+    document.getElementById("watts2k").innerHTML =
+      parseFloat(watts2k).toFixed(1);
+    document.getElementById("watts6k").innerHTML =
+      parseFloat(watts6k).toFixed(1);
+    document.getElementById("watts60min").innerHTML =
+      parseFloat(watts60min).toFixed(1);
+  //Calculate Pace
+    document.getElementById("pace10sec").innerHTML = calculate_pace(watts10sec);
+    document.getElementById("pace60sec").innerHTML = calculate_pace(watts60sec);
+    document.getElementById("pace2k").innerHTML = calculate_pace(watts2k);
+    document.getElementById("pace6k").innerHTML = calculate_pace(watts6k);
+    document.getElementById("pace60min").innerHTML = calculate_pace(watts60min);
+
+    //Calculate Distance/Score
+    document.getElementById("score10sec").innerHTML = calculate_distance(
+      pace_in_seconds(watts10sec),
+      10
+    );
+    document.getElementById("score60sec").innerHTML = calculate_distance(
+      pace_in_seconds(watts60sec),
+      60
+    );
+    document.getElementById("score2k").innerHTML =
+      document.getElementById("m").value +
+      ":" +
+      document.getElementById("s").value +
+      "." +
+      document.getElementById("ss").value;
+
+    document.getElementById("score6k").innerHTML = calculate_score(
+      watts6k,
+      6000
+    );
+
+    document.getElementById("score60min").innerHTML = calculate_distance(
+      pace_in_seconds(watts60min),
+      3600
+    );
+  */
+
+    /*
+    //RENDER CHART
+    var speedCanvas = document.getElementById("speedChart");
+
+    //Chart.defaults.global.defaultFontFamily = "Lato";
+    //Chart.defaults.global.defaultFontSize = 18;
+
+    var speedData = {
+      labels: [
+        moment().set({ minutes: 0, seconds: 10 }),
+        moment().set({ minutes: 1, seconds: 0 }),
+        moment().set({
+          minutes: score_min_sec(calculate_score(watts2k, 2000), "min"),
+          seconds: score_min_sec(calculate_score(watts2k, 2000), "sec"),
+        }),
+        moment().set({
+          minutes: score_min_sec(calculate_score(watts6k, 6000), "min"),
+          seconds: score_min_sec(calculate_score(watts6k, 6000), "sec"),
+        }),
+        moment().set({ minutes: 60, seconds: 00 }),
+      ],
+
+      datasets: [
+        {
+          label: "Watts/Time",
+          data: [
+            parseFloat(watts10sec).toFixed(1),
+            parseFloat(watts60sec).toFixed(1),
+            parseFloat(watts2k).toFixed(1),
+            parseFloat(watts6k).toFixed(1),
+            parseFloat(watts60min).toFixed(1),
+          ],
+          lineTension: 0.3,
+          fill: false,
+          borderColor: "blue",
+          backgroundColor: "transparent",
+          pointBorderColor: "#007bff",
+          pointBackgroundColor: "rgba(255,150,0,0.5)",
+          // borderDash: [5, 1],
+          pointRadius: 5,
+          pointHoverRadius: 10,
+          pointHitRadius: 30,
+          pointBorderWidth: 2,
+          pointStyle: "rectRounded",
+        },
+      ],
+    };
+
+    var chartOptions = {
+      legend: {
+        display: true,
+        position: "top",
+        labels: {
+          boxWidth: 30,
+          fontColor: "black",
+        },
+      },
+
+      scales: {
+        xAxes: [
+          {
+            type: "time",
+            time: {
+              unit: "minute",
+              unitStepSize: 5,
+              round: "second",
+              tooltipFormat: "mm:ss",
+              displayFormats: {
+                minute: "mm:ss",
+              },
+            },
+            scaleLabel: {
+              display: true,
+              labelString: "Time MM:SS",
+              fontColor: "grey",
+            },
+          },
+        ],
+
+        yAxes: [
+          {
+            gridLines: {
+              color: "black",
+              // borderDash: [2, 5],
+            },
+            scaleLabel: {
+              display: true,
+              labelString: "Watts (W)",
+              fontColor: "grey",
+            },
+          },
+        ],
+      },
+    };
+
+    var lineChart = new Chart(speedCanvas, {
+      type: "line",
+      data: speedData,
+      options: chartOptions,
+    });
+  }
+
+  */
+
+  function getPaceFromWatts(watts) {
+    let paceinseconds = Math.cbrt(2.8 / watts) * 500;
+    let minutes = Math.floor(paceinseconds / 60);
+    let seconds = paceinseconds - minutes * 60;
+    return minutes + ":" + parseFloat(seconds).toFixed(1);
+  }
+
+  /*
+  function score_min_sec(score, element) {
+    console.log(score);
+    var arr = score.split(":");
+
+    if (element == "min") return arr[0];
+    else return arr[1];
+  }
+
+  function getPaceFromWattsInSeconds(watts) {
+    return Math.cbrt(2.8 / watts) * 500;
+  }
+
+  function calculate_score(watts, distance) {
+    split = pace_in_seconds(watts);
+
+    if (distance == 6000) time = split * (6000 / 500);
+    else time = split * (2000 / 500);
+
+    scoreminutes = Math.floor(time / 60);
+    scoreseconds = time - scoreminutes * 60;
+
+    return scoreminutes + ":" + parseFloat(scoreseconds).toFixed(1);
+  }
+
+  function calculate_distance(pace, time) {
+    return parseFloat((time / pace) * 500).toFixed(1);
+  }
+
+  function sports_format(tenths) {
+    hours = Math.floor(tenths / 36000);
+    tenths -= hours * 36000;
+
+    minutes = Math.floor(tenths / 600);
+    tenths -= minutes * 600;
+
+    seconds = Math.floor(tenths / 10);
+    tenths -= seconds * 10;
+
+    return hours + ":" + minutes + "." + seconds;
+  }
+  */
+
+  let publicAPI = {
+    getPaceFromWatts : getPaceFromWatts,
+    getWatts10Sec : getWatts10Sec,
+    getWatts60Sec : getWatts60Sec,
+    getWatts2k : getWatts2k,
+    getWatts6k : getWatts6k,
+    getWatts60min : getWatts60min
+  };
+
+  return publicAPI;
+};
+
+module.exports = motionsplan;
+
+},{}],45:[function(require,module,exports){
 let motionsplan = {}
 
 // https://www.concept2.com/indoor-rowers/training/calculators/watts-calculator
@@ -5781,7 +6163,7 @@ motionsplan.RowingPowerCalculator = function() {
 
 module.exports = motionsplan;
 
-},{}],45:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 let motionsplan = {}
 
 // weight in kg
@@ -5820,7 +6202,7 @@ motionsplan.RowingVO2 = function(WM, gender = 'male') {
 
 module.exports = motionsplan;
 
-},{}],46:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RPEStrength = function (have_weight, have_reps, have_rpe) {
@@ -5923,7 +6305,7 @@ motionsplan.RPEStrength = function (have_weight, have_reps, have_rpe) {
 
 module.exports = motionsplan;
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RunningDistanceVO2 = function() {
@@ -5985,7 +6367,7 @@ motionsplan.RunningDistanceVO2 = function() {
 
 module.exports = motionsplan;
 
-},{}],48:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 let motionsplan = {}
 
 // weight in kg
@@ -6025,7 +6407,7 @@ motionsplan.RunningEconomy= function(weight, oxygenuptake) {
 
 module.exports = motionsplan;
 
-},{}],49:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 let motionsplan = {};
 
 // grade in decimal form - 5% incline is 0.05
@@ -6069,7 +6451,7 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
 
 module.exports = motionsplan;
 
-},{}],50:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 let motionsplan = {};
 
 // grade in decimal form - 5% incline is 0.05
@@ -6104,7 +6486,7 @@ motionsplan.RunningWalkingEnergyExpenditureLeger = function(bw, velocity) {
 
 module.exports = motionsplan;
 
-},{}],51:[function(require,module,exports){
+},{}],52:[function(require,module,exports){
 let motionsplan = {};
 
 // grade in decimal form - 5% incline is 0.05
@@ -6146,7 +6528,7 @@ motionsplan.RunningWalkingEnergyExpenditurePandolf = function(bw, velocity, grad
 
 module.exports = motionsplan;
 
-},{}],52:[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RunningWalking = function(activity, speed, body_weight) {
@@ -6196,7 +6578,7 @@ motionsplan.RunningWalking = function(activity, speed, body_weight) {
 
 module.exports = motionsplan;
 
-},{}],53:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
@@ -6241,7 +6623,7 @@ motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
 
 module.exports = motionsplan;
 
-},{}],54:[function(require,module,exports){
+},{}],55:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -6332,7 +6714,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],55:[function(require,module,exports){
+},{}],56:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis, weight, gender, age = 20) {
@@ -6414,7 +6796,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
 
 module.exports = motionsplan;
 
-},{}],56:[function(require,module,exports){
+},{}],57:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
@@ -6446,7 +6828,7 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
 
 module.exports = motionsplan;
 
-},{}],57:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 let motionsplan = {}
 
 // https://academic.oup.com/ajcn/article/77/5/1186/4689818
@@ -6497,7 +6879,7 @@ motionsplan.SkinfoldPeterson = function(triceps, subscapularis, suprailiac, midt
 
 module.exports = motionsplan;
 
-},{}],58:[function(require,module,exports){
+},{}],59:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldPollock = function(weight, age) {
@@ -6530,7 +6912,7 @@ motionsplan.SkinfoldPollock = function(weight, age) {
 
 module.exports = motionsplan;
 
-},{}],59:[function(require,module,exports){
+},{}],60:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
@@ -6558,7 +6940,7 @@ motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
 
 module.exports = motionsplan;
 
-},{}],60:[function(require,module,exports){
+},{}],61:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) {
@@ -6594,7 +6976,7 @@ motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) 
 
 module.exports = motionsplan;
 
-},{}],61:[function(require,module,exports){
+},{}],62:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Treadmill = function(gradient, speed, time, distance, weight) {
@@ -7085,7 +7467,7 @@ motionsplan.Treadmill = function(gradient, speed, time, distance, weight) {
 
 module.exports = motionsplan;
 
-},{}],62:[function(require,module,exports){
+},{}],63:[function(require,module,exports){
 let motionsplan = {}
 
 // vo2max i ml
@@ -7121,7 +7503,7 @@ motionsplan.VmaxIntervals = function(vmax, tmax_min, tmax_sec) {
 
 module.exports = motionsplan;
 
-},{}],63:[function(require,module,exports){
+},{}],64:[function(require,module,exports){
 let motionsplan = {};
 
 // vo2max i ml
@@ -7141,7 +7523,7 @@ motionsplan.Vmax = function(vo2max) {
 
 module.exports = motionsplan;
 
-},{}],64:[function(require,module,exports){
+},{}],65:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.WaistRatio = function() {
@@ -7164,7 +7546,7 @@ motionsplan.WaistRatio = function() {
 
 module.exports = motionsplan;
 
-},{}],65:[function(require,module,exports){
+},{}],66:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
@@ -7203,7 +7585,7 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
 
 module.exports = motionsplan;
 
-},{}],66:[function(require,module,exports){
+},{}],67:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
@@ -7259,7 +7641,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
 
 module.exports = motionsplan;
 
-},{}],67:[function(require,module,exports){
+},{}],68:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.WaterIntake = function(weight) {
@@ -7284,7 +7666,7 @@ motionsplan.WaterIntake = function(weight) {
 
 module.exports = motionsplan;
 
-},{}],68:[function(require,module,exports){
+},{}],69:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
@@ -7335,7 +7717,7 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
 
 module.exports = motionsplan;
 
-},{}],69:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.YBalance = function(anterior, posterolateral, posteromedial) {
