@@ -1,5 +1,5 @@
 ---
-title: &title "Trappetest i roning"
+title: &title "Trappetest i roning: Test din maksimale præstation"
 excerpt: "Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest pålidelige [tests til roning](/kondital-roning/), hvis du gerne vil finde din maksimale ydeevne."
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /roning-trappetest/
