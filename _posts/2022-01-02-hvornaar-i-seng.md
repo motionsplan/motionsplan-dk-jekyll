@@ -72,6 +72,8 @@ I et studie publiceret i [The Journal of the National Sleep Foundation](http://w
 
 Hvis du føler dig træt i løbet af dagen, så kan det måske være en ide at teste, [om du er et A- eller B-menneske](/a-eller-b-menneske/). Her kan du se alle de karakteristika, som A- og B-mennesker har, og du kan prøve forskellige tests.
 
+Du kan også føre [søvndagbog og lave søvnregistrering](/soevndagbog/) eller [tracke din søvn med et ur](/soevn-tracking/).
+
 ## Sov bedre
 
 Du kommer til at sove bedre, hvis du forbereder dig på at skulle sove. Du skal med andre ord sørge for, at stimulanser bliver reduceret desto tættere du kommer på dit sovetidspunkt.

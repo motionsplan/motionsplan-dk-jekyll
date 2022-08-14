@@ -98,3 +98,5 @@ Du kan tage Epworths søvnighedstest [sundhed.dk](https://www.sundhed.dk/sundhed
 ## Konklusion
 
 Nu skulle du gerne have en ide om, du er et A- eller B-menneske? Vi har skrevet et andet indlæg om at [optimere din søvn](/soevn/), som det kan være godt at fortsætte med.
+
+Måske er ud også interesseret i at læse mere om, hvordan du kan [kortlægge din søvn med søvndagbog](/soevndagbog/) eller [bruge dit ur til søvntracking](/soevn-tracking/).
