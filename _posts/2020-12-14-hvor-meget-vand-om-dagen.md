@@ -1,7 +1,7 @@
 ---
-title: &title "Hvor meget vand skal man drikke om dagen? 🚰🚱 (Beregner)"
-seo_title: "Hvor meget vand skal man drikke om dagen? (Beregner)"
-description: "Drikker du for lidt vand? Eller måske for meget? Prøv vores beregner til at udregne dit daglige væskebehov og hvor meget vand man skal drikke om dagen?"
+title: &title "Hvor meget vand skal man drikke om dagen? (Beregner)"
+seo_title: "Hvor meget væske skal man drikke om dagen? (Beregner)"
+description: "Drikker du for lidt vand? Eller måske for meget? Prøv vores beregner til at udregne dit daglige væskebehov og hvor meget væske man skal drikke om dagen?"
 permalink: /hvor-meget-vand-skal-man-drikke-om-dagen/
 language: da
 author: lsolesen
@@ -92,6 +92,8 @@ Noget tyder imidlertid på, at [ældre ikke føler tørst](https://www.herlevhos
 Hvis du ofte oplever at skulle op at tisse om natten, så kan det også være en god ide, at du skubber lidt rundt på, hvornår på dagen, du drikker.
 
 Hvor meget væske man skal drikke om dagen afhænger naturligvis også af, hvor meget du sveder. Hvis du er rigtig aktiv med intenst arbejde på en varm dag, så har du brug for mere vand.
+
+Læs: [Varmeakklimatisering: Træning i varmen](/varmeakklimatisering-traening-i-varmen/)
 
 Hvis du kommer over tre liter vand om dagen, så skal du tænke over, hvilke salte og mineraler der er i vandet, så du undgår uheldige bivirkninger.
 
