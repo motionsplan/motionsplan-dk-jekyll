@@ -29,7 +29,11 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 *[RER]: Respiratoriske udvekslingskvotient
 *[RQ]: Metaboliske udvekslingskvotient
 
-Hvad er den respiratoriske udviklingskvotient (RER)? **Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+## Hvad er den respiratoriske udviklingskvotient (RER)?
+
+**Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+
+{% include video provider="youtube" id="_NevUAOpQAw" %}
 
 Den [respiratoriske udvekslingskvotient](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) kan give et indblik i, hvilken metabolisme der foregår i kroppen.
 
