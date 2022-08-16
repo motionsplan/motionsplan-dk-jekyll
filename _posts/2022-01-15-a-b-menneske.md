@@ -43,6 +43,8 @@ A-mennesker og B-mennesker er betegnelser for, hvordan det enkelte menneske fore
 
 Vi kan naturligvis ikke [reducere](https://videnskab.dk/krop-sundhed/vores-doegnrytmer-kan-ikke-kun-reduceres-til-a-og-b-mennesker) mennesker til en bestemt type. De fleste af os er nemlig nok [hverken eller](https://www.dr.dk/nyheder/viden/kroppen/natteravn-eller-morgen-mus-de-fleste-af-os-er-hverken-eller-b-menneske), men et sted midt imellem.
 
+{% include figure image_path="https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=600&q=60" alt="a-menneske eller b-menneske i sengen" %}
+
 ## Hvad er din kronotype?
 
 Till Roenneberg fra Ludwig-Maximilians-Universität i München har kortlagt mere end 220.000 menneskers døgnrytme. Han har fundet ud af, at fordelingen af kronotyper  og døgnrytmer spænder fra ekstremt A-menneske til ekstremt B-menneske.
@@ -112,7 +114,7 @@ Hvis du gerne vil finde ud af din kronotype, så kan du bruge en søvndagbog til
 
 Her kan du se en søvndagbog for to forskellige kronotyper. Det er tydeligt at B-menneskets søvndagbog varierer lidt mere for at passe ind i den samfundsskabte hverdag.
 
-{% include gallery caption="Søvndagbog for et A-menneske og et B-menneske. Ingen af personerne kan selv bestemme deres arbejdstider. Det er tydeligt at B-mennesket har meget større variation i søvnvanerne. De sorte bjælker er arbejdsdage, mens de grå bjælker er weekenden." %}
+{% include gallery caption="Søvndagbog for et A-menneske og et B-menneske. Ingen af personerne kan selv bestemme deres arbejdstider. Det er tydeligt at B-mennesket har meget større variation i søvnvanerne. De sorte bjælker er arbejdsdage, mens de grå bjælker er weekenden. Kilde: [Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske)." %}
 
 For B-mennesket er der stor uoverensstemmelse mellem det biologiske indre ur og den sociale tid. Denne uoverensstemmelse kaldes ofte i litteraturen **socialt jetlag**.
 
