@@ -19,7 +19,7 @@ Søvn er meget vigtig for dit generelle helbred og velvære. Hvis du gerne vil d
 
 Her kigger vi på, hvordan du kan kortlægge din søvn med et søvnskema. Søvndagbogen kan hjælpe dig med at identificere evt. problemer, der kan forbindre dig i at få en god nattesøvn og derved [restituere optimalt](/restitution/).
 
-En god søvn handler primært om kvaliteten af din søvn, og der kan søvndagbogen være med til at afdække uhensigtsmæssigheder i din søvnhygiejne. Bevæbnet med den viden kan du [optimere din søvn](/soevn/).
+En god søvn handler primært om kvaliteten af din søvn, og der kan søvndagbogen være med til at afdække uhensigtsmæssigheder i din søvnhygiejne. Bevæbnet med den viden kan du [optimere din søvn](/soevn-optimering/).
 
 {% include figure image_path="https://images.unsplash.com/photo-1525169267298-12532cf95139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNsZWVwaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="søvndagbog og søvnregistrering" %}
 
@@ -33,7 +33,7 @@ Der er mange måder at føre en søvndagbog på. Du kan bruge papir og blyant, e
 
 ## Hvad er formålet med en søvndagbogen?
 
-Der kan være flere forskellige formål med at føre søvndabog og registrere sin søvn. 
+Der kan være flere forskellige formål med at føre søvndabog og registrere sin søvn.
 
 En søvndagbog kan hjælpe dig med at:
 
@@ -77,11 +77,11 @@ For at finde mønstre kræver det, at du har data fra fx 14 dage, og det er noge
 
 ## Tips til at føre søvndagbog
 
-Her får du nogle tips til, hvordan du kan lave en søvndagbog. 
+Her får du nogle tips til, hvordan du kan lave en søvndagbog.
 
-1. Vælg den rigtige notesbog eller app. Der findes mange forskellige notesbøger og apps, der er specielt beregnet til at spore din søvn. Vælg en, der passer til dine behov og er nem at bruge i hverdagen. 
+1. Vælg den rigtige notesbog eller app. Der findes mange forskellige notesbøger og apps, der er specielt beregnet til at spore din søvn. Vælg en, der passer til dine behov og er nem at bruge i hverdagen.
 2. Registrer, hvornår du går i seng og vågner op hver dag. Sørg for at notere klokkeslættet, samt hvor lang tid det tog dig at falde i søvn, og hvor mange timers søvn du fik hver nat.
-3. Registrer også dine lure i løbet af dagen! Hvis du tager en lille lur i løbet af dagen, skal du sørge for at notere, hvor længe de varede, og om de var forfriskende eller ej. 
+3. Registrer også dine lure i løbet af dagen! Hvis du tager en lille lur i løbet af dagen, skal du sørge for at notere, hvor længe de varede, og om de var forfriskende eller ej.
 4. Noter eventuelle forstyrrelser, der kan have påvirket din søvnkvalitet . Det kan være alt fra snorkende partnere til høje lyde uden for vinduet.
 5. Vær opmærksom på dit humør i løbet af dagen. Er der nogen mønstre? Føler du dig mere irritabel eller træt end normalt. Hvis det er tilfældet, kan det påvirke din søvnkvalitet.
 6. Brug dagbogen til at identificere mønstre i dine søvnvaner. Når du har et par ugers data, kan du begynde at se tendenser i din søvnkvalitet og -mængde. Dette vil hjælpe dig med at foretage de nødvendige ændringer for at forbedre din søvnhygiejne.

@@ -180,7 +180,7 @@ Sørg for at der er en fornuftig balance i dit træningsprogram. Ved at have god
 
 Få en nogenlunde [jævn døgnrytme og søvnrytme](/soevn/), hvor du går får færdiggjort dine søvncyklusser. Sov i et helt mørkt værelse.
 
-**Læs:** [7 trin til optimering af din søvn](/soevn/)
+**Læs:** [7 trin til optimering af din søvn](/soevn-optimering/)
 
 ### 3. Kost, væske og ernæring
 

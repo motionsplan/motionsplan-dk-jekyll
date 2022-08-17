@@ -186,7 +186,7 @@ Du har en naturlig udskillelse af væksthormon.
 
 Væksthormon stimuleres af følgende faktorer:
 
-- [Dyb og god søvn](/soevn/) (specielt de første timer).
+- Dyb og god søvn med god[søvnhygiejne](/soevn-optimering/) (specielt de første timer).
 - Proteinrige varierede måltider.
 - Træning - særligt i korte perioder med høj intensitet.
 - Hormonet GHRH, som frigives fra hypothalamus.

@@ -31,7 +31,7 @@ gallery:
 
 Om du er et A-menneske eller et B-menneske styres af et indre biologisk ur. Vores kronotype styres altså ubevidst af en masse mekanismer, som påvirker døgnrytmen og hvornår du er mest frisk på dagen.
 
-Her kan du blive klogere på, hvad det vil sige at være A- og B-menneske. Hvordan finder du ud af, hvilken kronotype, du er, og hvilke kendetegn har mennesker med forskellig døgnrytme.
+Her kan du blive klogere på, hvad det vil sige at være A- og B-menneske, og hvordan det påvirker [din søvn](/soevn/). Hvordan finder du ud af, hvilken kronotype, du er, og hvilke kendetegn har mennesker med forskellig døgnrytme.
 
 Vores samfund er primært konstrueret med udgangspunkt i døgnrytmen for A-mennesker, men du kan sagtens fungere i den som et B-menneske, hvis du tager højde for nogle bestemte ting.
 
@@ -54,7 +54,7 @@ Søvnbehovet for den enkelte er ifølge Till Roenneberg individuelt og uafhængi
 Et menneske der går i seng kl. 23.00 og står op kl. 7.00 har altså samme døgnrytme eller kronotype som en der går i seng kl. 24.00 og står op kl. 6.00. Midtpunktet for begge personers søvn er nemlig kl. 3.00.
 
 Du kan finde din egen kronotype på Munich ChronoType Questionnaire, som du finder på [www.thewep.org](https://www.thewep.org/). Du kan læse mere om dette spørgeskema lidt længere nede.
-{: .notice .notice--info } 
+{: .notice .notice--info }
 
 ## Døgnrytmen ændrer sig gennem livet
 
@@ -156,11 +156,11 @@ Fx kan du relativt let beregne [hvornår du skal gå i seng?](/hvornaar-gaa-i-se
 
 Når du skal finde et godt søvnmønster, så er det godt at finde ud af, hvornår dit søvnvindue er. Alle har forskellige søvnbehov, men der kan være tidspunkter som passer bedre til den enkelte at falde i søvn på.
 
-Et søvnvindue for et A-menneske kunne eksempelvis være fra kl. 22-6, og for et B-menneske kunne det være fra kl. 1-9. 
+Et søvnvindue for et A-menneske kunne eksempelvis være fra kl. 22-6, og for et B-menneske kunne det være fra kl. 1-9.
 
 ## Test: Er jeg A- eller B-menneske?
 
-Du kan naturligvis bruge ovenstående karakteristika for at finde ud af, om du er A- eller B-menneske. 
+Du kan naturligvis bruge ovenstående karakteristika for at finde ud af, om du er A- eller B-menneske.
 
 Der findes også et par forskellige online tests, som kan hjælpe dig med at afdække din kronotype.
 
@@ -192,7 +192,7 @@ Du kan tage Epworths søvnighedstest [sundhed.dk](https://www.sundhed.dk/sundhed
 
 ## Konklusion
 
-Nu skulle du gerne have en ide om, du er et A- eller B-menneske eller et eller andet sted indimellem? Vi har skrevet et andet indlæg om at [optimere din søvn](/soevn/), som det kan være godt at fortsætte med.
+Nu skulle du gerne have en ide om, du er et A- eller B-menneske eller et eller andet sted indimellem? Vi har skrevet et andet indlæg om at [optimere din søvn](/soevn-optimering/), som det kan være godt at fortsætte med.
 
 Måske er ud også interesseret i at læse mere om, hvordan du kan [kortlægge din søvn med søvndagbog](/soevndagbog/) eller [bruge dit ur til søvntracking](/soevn-tracking/).
 
