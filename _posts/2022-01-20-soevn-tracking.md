@@ -18,6 +18,8 @@ Der er uendeligt mange grunde til at sove godt. Hvis du gerne vil fokusere mere 
 
 Her kigger vi på, hvordan du kan lave søvntracking, og hvor præcist du egentlig kan måle din søvn med de forskellige devices, der reklamerer med søvnmåling som en af deres features.
 
+Når du har styr på, hvor længe du sover, så kan du holde det op mod de generelle anbefalinger for, [hvor meget man skal sove](/hvor-meget-skal-man-sove/)?
+
 Først dykker vi lige lidt ned i nogle generelle begreber om søvn og søvnkvalitet.
 
 ## Forstå søvnstudier og søvntracking

@@ -54,7 +54,7 @@ Når du har udregnet, hvornår du skal sove, så ved du også, hvornår du skal 
 
 ## Hvor længe skal man sove?
 
-Jeg har skrevet et andet indlæg inspireret af Nick Littlehales, som foreslår at [optimeret søvn skal foregå i cyklusser](/soevn/). En søvncyklus er omkring 90 minutter. Littlehales mener, at det vigtigste er, at du sover i cyklusser end nøjagtigt, hvor lang tid, man sover den enkelte nat. Det væsentligste er, at du får et passende antal søvncyklusser på en uge.
+Jeg har skrevet et andet indlæg inspireret af Nick Littlehales, som foreslår at du [optimerer din søvn ved at sove i cyklusser](/soevn/). En søvncyklus er omkring 90 minutter. Littlehales mener, at det vigtigste er, at du sover i cyklusser end nøjagtigt, hvor lang tid, man sover den enkelte nat. Det væsentligste er, at du får et passende antal søvncyklusser på en uge.
 
 I et studie publiceret i [The Journal of the National Sleep Foundation](http://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext) anførte de disse omtrentlige tidspunkter at sove på de enkelte nætter.
 

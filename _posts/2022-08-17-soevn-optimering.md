@@ -40,7 +40,7 @@ gallery_soevnhygiejne:
 
 Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har brug for at sove godt for at fungere. Her kan du læse mere om søvnhygiejne og søvnoptimering, og hvordan du får en god nattesøvn.
 
-Hvis du gerne vil forbedre din [søvn](/soevn/) og søvnkvalitet, så er der mange ting, du kan gøre i løbet af dagen og lige inden sengetid.
+Når du ved [hvor meget søvn man skal have](/hvor-meget-skal-man-sove/), så vil du sikkert gerne i gang med at optimere din [søvn](/soevn/). Der er mange ting, du kan gøre i løbet af dagen og lige inden sengetid for at forbedre din søvn.
 
 Dette indlæg skulle gerne hjælpe dig til en bedre søvn, så du undgår søvnproblemer. Det er godt for din sundhed og dit velbefindende, men også din præstation.
 
