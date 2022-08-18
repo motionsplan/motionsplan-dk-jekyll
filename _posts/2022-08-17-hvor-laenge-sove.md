@@ -70,6 +70,8 @@ Voksne mennesker skal sove mellem 7-9 timer. Det gennemsnitlige søvnbehov er om
 
 Det skiftende søvnbehov kan ses i et _review_ studie publiceret i [The Journal of the National Sleep Foundation](http://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext). Her konkluderer forskerne på baggrund af en opsamling af en række undersøgelser, at søvnbehovet den enkelte nat varierer med alderen.
 
+{% include figure image_path="https://www.vipra.dk/wp-content/uploads/2019/11/hvor-mange-timer-skal-man-sove-tabel-2019.jpg" caption="Søvnbehov gennem livet. Kilde: [www.vipra.dk](https://www.vipra.dk/blog/soevnmangel-under-vaegttab-saa-mange-timer-skal-du-sove/)." alt="søvnbehov med alder" %}
+
 Jeg har samlet deres anbefalinger i forhold til alder og **søvnens varighed** i timer i følgende tabel. Det er tydeligt, at der gennem livet er stor forskel på, hvor længe man skal sove?
 
 | Aldersgruppe | Alder | Søvnanbefaling |
@@ -107,6 +109,12 @@ Her er et eksempel på, hvordan en søvncyklus kunne se ud. Her kan man se, at m
 {% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Hypro_zyklus_1_en_103.svg/2560px-Hypro_zyklus_1_en_103.svg.png" caption="En søvncyklus med de forskellige faser. Her er den dybe søvn N3. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Sleep_cycle)" %}
 
 Alle søvnfaserne er naturligvis vigtige, men den dybe søvn har særlige effekter på kroppens genopbygning. Derfor er det også interessant at kigge på, hvor meget af den samlede sovetid, der helst skal være i den dybe søvn.
+
+## Sover du for meget eller for lidt?
+
+I denne grafik kan du få en fornemmelse af, om du sover for meget eller for lidt.
+
+{% include figure image_path="https://www.bedrenaetter.dk/media/wysiwyg/Artikler/Sover_du_for_meget/Anbefaling_Af_S_vn_Uden_Overskrift.jpg" caption="Kilde: [www.bedrenaetter.dk](https://www.bedrenaetter.dk/inspiration-artikler/sover-du-for-meget.html)" %}
 
 ## Konklusion
 
