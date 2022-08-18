@@ -3,6 +3,7 @@ last_modified_at: 2021-01-02T10:14:14.000Z
 toc: true
 title: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 seo_title: Hvad er Runner's High - og hvordan opnår du følelsen?
+excerpt: "Har du hørt om Runner's High? Men hvad gør, at du bliver høj på løb, og hvordan får du følelsen af af velvære, når du anstrenger dig på løbeturen."
 permalink: /runners-high/
 header:
   overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
@@ -25,6 +26,8 @@ Mange har oplevet Runner's High i forbindelse med fx løb, cykling, crossfit ell
 {% include video provider="youtube" id="DTj03aodcLI" %}
 
 {% comment %}
+
+https://jyllands-posten.dk/livsstil/familiesundhed/sundhed/ECE3935936/runners-high-er-nu-dokumenteret1/
 
 ## Hvad er Runners high?
 
@@ -77,7 +80,7 @@ Der er forskellige teorier om, hvad der fremprovokerer Runner's High. [Gupta og 
 
 Hvis du ved noget mere om forskningen om Runner's High, så brug endelig kommentarerne.
 
-## Hvordan opnår du ”Runner's high”?
+## Hvordan opnår du Runner's high?
 
 {% include video provider="youtube" id="jKrh2qGotvI" %}
 
@@ -87,7 +90,7 @@ Hvis du ved noget mere om forskningen om Runner's High, så brug endelig komment
 * **Hold et godt tempo.** Det vanskeligste for at opnå Runner's High er at ramme den rigtige intensitet. Du får kun kroppen til at producere det neurokemiske respons, hvis intensiteten er passende. Hvis du træner for hårdt, så modvirker det fysiske ubehag ved træningen følelsen.
 * **Hold dig i form.** Når du er i form, så kan du lettere træne i længere tid og med den passende anstrengelse for at få følelsen af Runner's High.
 
-## Konklusion om Runner's High
+## Konklusion
 
 Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig *ikke* få Runner's High, hvis du laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/).
 
