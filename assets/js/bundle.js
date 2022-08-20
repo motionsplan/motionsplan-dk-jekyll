@@ -824,7 +824,7 @@ $(function() {
         console.log("Calculate FTPa");
         e.preventDefault();
 
-      let ftp = Number($("#ftpa").val());
+        let ftp = Number($("#ftpa").val());
 
         $("#ftpa_value").text(ftp);
 
@@ -835,6 +835,18 @@ $(function() {
         $("#ftpa_vo2").val((ftp * 0.97).toFixed(0) + '-' + (ftp * 1.01).toFixed(0));
         $("#ftpa_anaerob").val((ftp * 0.90).toFixed(0) + '-' + (ftp * 0.97).toFixed(0));
     });
+    $("#calculator_koffein").submit(function(e) {
+        console.log("Calculate Koffein");
+        e.preventDefault();
+
+        let weight = $("#body_weight").val();
+        let koffein_intake_kg = $("#koffein_intake_kg").val();
+        let recommended_koffein_intake = koffein_intake_kg * weight;
+        // let equals_to =  recommended_daily_protein_intake / food_protein * 100;
+        $("#koffein_intake").val(recommended_koffein_intake);
+        //$("#equals_to").val(equals_to.toFixed());
+        //$("#food").text(food);
+  });
     $("#calculator_kroppens_rumfang").submit(function(e) {
       console.log("Calculate Kroppens Rumfang");
       e.preventDefault();
@@ -2373,7 +2385,7 @@ $(function() {
 
       let vo2max = (13.7 * power + 287) / 1000;
       let kondital = vo2max / bw * 1000;
-      
+
       $("[name='trappetest_vo2_max']").val(vo2max.toFixed(2));
       $("[name='trappetest_kondital']").val(kondital.toFixed(0));
       $("[name='trappetest_mean_power']").val(power.toFixed(0));
