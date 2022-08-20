@@ -8,7 +8,7 @@ redirect_from:
   - /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1582004228576-14e8b1256618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1582004228576-14e8b1256618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Beregnere

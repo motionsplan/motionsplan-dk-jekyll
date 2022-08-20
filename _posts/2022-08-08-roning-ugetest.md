@@ -5,7 +5,7 @@ excerpt: "De bedste roere har noget til fælles. De har nogenlunde den samme pow
 permalink: /roning-powerprofil/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -23,7 +23,7 @@ Powerprofilen kan danne udgangspunkt for at lave en **ugetest i roning**. Ugetes
 
 Lad os dykke ned i, hvordan en powerprofil ser ud, og hvordan du kan lave en test, som kan guide dig i din rotræning.
 
-{% include figure image_path="https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=600&q=60" alt="powerprofil og ugetest i roning på concept 2" %}
+{% include figure image_path="https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="powerprofil og ugetest i roning på concept 2" %}
 
 ## Hvad er powerprofil i roning?
 

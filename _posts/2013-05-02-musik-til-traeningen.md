@@ -6,8 +6,8 @@ redirect_from:
   - /artikel/musik-til-træningen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!"
 tags:
   - gode råd

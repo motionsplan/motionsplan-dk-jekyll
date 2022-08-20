@@ -5,9 +5,9 @@ redirect_from:
   - /measure-fp/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   alt: Photo by Annie Spratt on Unsplash
-  teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Test

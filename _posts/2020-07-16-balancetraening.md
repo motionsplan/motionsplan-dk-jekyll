@@ -5,8 +5,8 @@ description: "Balancetræning bør være en del af din træning. Vi har kigget p
 permalink: /balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - balance

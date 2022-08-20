@@ -4,8 +4,8 @@ seo_title: "BKOOL cykling på hometrainer: Komplet guide til begyndere"
 permalink: /bkool-begynderguide/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -44,7 +44,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
-  - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2980.64-FBS-BUNDLE/tacx-flux-2-zwift-bundle_1.jpg?v=01cfa580e94d3cafbadcdd64e2a2634a&width=756&height=516&mode=crop
+  - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2980.64-FBS-BUNDLE/tacx-flux-2-zwift-bundle_1.jpg?v=01cfa580e94d3cafbadcdd64e2a2634a&width=756&h=516&mode=crop
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-T2900S-64/tacx-flux-s-smart-hometrainer
     title: Tacx Flux 2 Smart Zwift Bundle
     excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."

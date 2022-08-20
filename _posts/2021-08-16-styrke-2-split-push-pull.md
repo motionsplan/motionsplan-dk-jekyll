@@ -3,8 +3,8 @@ title: &title "2-split træningsprogram - træk/pres - push/pull"
 seo_title: "2-split program: Effektiv træning med træk/pres eller push/pull"
 permalink: /2-split-push-pull/
 header:
-  overlay_image: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning

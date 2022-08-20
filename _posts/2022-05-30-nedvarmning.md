@@ -4,7 +4,7 @@ seo_title: "Er nedvarmning og afjogging en god restitutionssaktivitet?"
 permalink: /nedvarmning-som-restitutionsaktivitet/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1513378628213-b8f36d8c2878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1513378628213-b8f36d8c2878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning

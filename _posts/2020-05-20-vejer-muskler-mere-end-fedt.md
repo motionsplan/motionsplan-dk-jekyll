@@ -4,7 +4,7 @@ seo_title: "Vejer muskler mere end fedt? Få svaret her!"
 permalink: /vejer-muskler-mere-end-fedt/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1551651056-2cb4d5c104be?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1551651056-2cb4d5c104be?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Viden om

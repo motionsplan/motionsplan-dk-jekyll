@@ -6,8 +6,8 @@ redirect_from:
   - /intensitet-vo2max/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition

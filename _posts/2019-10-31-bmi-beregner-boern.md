@@ -6,7 +6,7 @@ permalink: /bmi-beregner-boern-unge-teenagere/
 excerpt: "Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Beregnere

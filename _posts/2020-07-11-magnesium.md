@@ -4,8 +4,8 @@ seo_title: "Magnesium: Har du brug for et tilskud? (2022)"
 permalink: /magnesium/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Magnesium: Har du brug for et tilskud?"
   overlay_filter: 0.4
 category:

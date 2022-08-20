@@ -4,7 +4,7 @@ permalink: /aldersgraduerede-tider/
 last_modified_at: 2022-03-24T09:41:09Z
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.2
   caption: "Alder og løbetider: Sammenlign med aldersgraduerede løbetider"
 category:

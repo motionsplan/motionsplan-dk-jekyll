@@ -3,8 +3,8 @@ title: &title "Test træthed i nervesystemet med finger tapping test?"
 permalink: /cns-fatigue/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.3
   title: *title
 category:

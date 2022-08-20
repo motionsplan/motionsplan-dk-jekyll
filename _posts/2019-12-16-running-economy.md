@@ -8,8 +8,8 @@ redirect_from:
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor."
   alt: "Photo by Fitsum Admasu on Unsplash"
 category:

@@ -8,8 +8,8 @@ last_modified_at: 2021-01-18T09:41:09Z
 author: karsten.thor.lund
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning
@@ -21,14 +21,14 @@ tags:
   - træningsprogram
   - øvelser
 gallery:
-  - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
+  - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
     title: Downward dog
-  - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
+  - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
     title: Frog
-  - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&height=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&height=630&w=1200&q=10
+  - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+    url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=630&w=1200&q=10
     title: Worlds greatest stretch
 ---
 

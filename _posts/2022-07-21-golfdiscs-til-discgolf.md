@@ -5,7 +5,7 @@ excerpt: "Når du leder efter en golfdisc til discgolf, så er der rigtig mange 
 permalink: /golfdisc-til-discgolf/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161919642-7d318b88a40b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1655161919642-7d318b88a40b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Sportsgrene

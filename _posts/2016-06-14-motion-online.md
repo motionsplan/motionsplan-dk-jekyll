@@ -7,7 +7,7 @@ language: da
 header:
   overlay_image: https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
   caption: Motion-Online.dk virker ikke!
-  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
+  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
 category:
   - Viden om
 tags:

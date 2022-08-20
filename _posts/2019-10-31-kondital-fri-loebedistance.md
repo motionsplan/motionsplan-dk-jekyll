@@ -5,8 +5,8 @@ permalink: /kondital-loeb-distance-tid/
 excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden for at gennemføre distancen. Hvis det var et maksimalt løb, kan du få estimeret dit kondital."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition

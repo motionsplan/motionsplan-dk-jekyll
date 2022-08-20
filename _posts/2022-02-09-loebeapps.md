@@ -3,7 +3,7 @@ title: &title "Hvad er den bedste løbe app til løbetræning 2022?"
 permalink: /loebe-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585250003309-694ff34512d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHJ1bm5pbmclMjBhcHB8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1585250003309-694ff34512d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHJ1bm5pbmclMjBhcHB8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition

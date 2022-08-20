@@ -5,7 +5,7 @@ redirect_from:
   - /a-eller-b-menneske
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
   - Restitution
   - Søvn
@@ -43,7 +43,7 @@ A-mennesker og B-mennesker er betegnelser for, hvordan det enkelte menneske fore
 
 Vi kan naturligvis ikke [reducere](https://videnskab.dk/krop-sundhed/vores-doegnrytmer-kan-ikke-kun-reduceres-til-a-og-b-mennesker) mennesker til en bestemt type. De fleste af os er nemlig nok [hverken eller](https://www.dr.dk/nyheder/viden/kroppen/natteravn-eller-morgen-mus-de-fleste-af-os-er-hverken-eller-b-menneske), men et sted midt imellem.
 
-{% include figure image_path="https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=600&q=60" alt="a-menneske eller b-menneske i sengen" %}
+{% include figure image_path="https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="a-menneske eller b-menneske i sengen" %}
 
 ## Hvad er din kronotype?
 

@@ -4,7 +4,7 @@ seo_title: "Fysisk træning: Hvad skal du træne?"
 permalink: /fysisk-traening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning
