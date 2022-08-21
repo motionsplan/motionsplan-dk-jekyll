@@ -26,7 +26,7 @@ Kun få mennesker ved, hvad deres iltmætningsgrad i blodet er? Iltmætningen i 
 
 I dette blogindlæg forklarer vi, hvad blodets iltmætningsprocent er, hvordan man måler det, og hvad de forskellige niveauer betyder for dit generelle helbred og din præstationsevne. Graden af iltmætning er en af de spændende [emner i fysiologien](/fysiologi/).
 
-{% include figure image_path="https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&&w=600&q=60" caption="Pulsoximeter til at måle iltmætningsgraden i blodet." alt="pulsoximeter til måling af iltmætning procent" %}
+{% include figure image_path="https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Pulsoximeter til at måle iltmætningsgraden i blodet." alt="pulsoximeter til måling af iltmætning procent" %}
 
 ## Hvad er iltmætningsgrad i blodet?
 
