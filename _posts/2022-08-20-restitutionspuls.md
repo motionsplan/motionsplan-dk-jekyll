@@ -68,11 +68,13 @@ Det er også en **indbygget funktion** i visse pulsure. Fx kan du med Garmin eft
 
 Lad os tage et eksempel:
 
-Du træner med omkring 160 slag pr. minut. Når du stopper træningspasset, så står du helt stille. Efter 1 minut har du en puls på 135.
+Du træner med omkring 140 slag pr. minut. Når du stopper træningspasset, så står du helt stille. Efter 1 minut har du en puls på 105 og efter 2 minutter har du en puls på 98 slag/min.
+
+{% include figure image_path="/assets/images/blog/restitutionspuls-1600m.png" alt="graf med restitutionspuls" caption="Pulsgraf med omkring 10 minutters arbejde ved _steady state_. Pulsen måles når arbejdet slutter, 1 minut efter og 2 minutter efter." %}
 
 Så skal vi bare regne lidt.
 
-Din arbejdspuls var 160. Det trækker vi 135 fra, som var din puls efter 1 minut. I alt er din restitutionspuls altså 25. 
+Din arbejdspuls var 140. Det trækker vi 105 fra, som var din puls efter 1 minut. I alt er din restitutionspuls altså HRR<sub>1 minut</sub>=35 og HRR<sub>1 minut</sub>=42.
 
 ## Hvordan kan jeg bruge min restitutionspuls?
 
