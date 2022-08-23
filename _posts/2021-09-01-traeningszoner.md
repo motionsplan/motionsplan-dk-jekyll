@@ -1,7 +1,7 @@
 ---
 title: &title "Træningszoner: Find din intensitetszoner i træning"
 permalink: /traeningszoner/
-excerpt: "I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte intensitetszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. På denne måde kan du få meget ud af din træning."
+excerpt: "Vil du gerne optimere din træning? Ved konditionstræning kan det være gavnligt at træne i forskellige træningszoner. Lær alt om de forskellige intensitetszoner og deres formål."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
@@ -16,7 +16,9 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. Ved at være opmærksom på din træningsintensitet kan du få meget ud af din træning.
+Vil du gerne træne mere optimalt og få mere ud af din træning? I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. 
+
+Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. Ved at være opmærksom på din træningsintensitet kan du få meget ud af din træning.
 
 Først kigger vi på de to forskellige opfattelser af træningszoner. Vi kigger på en udbredt **5-7-zoners model** og en **3-zoners-model**. Begge modeller kan være et godt udgangspunkt for træning alt efter, hvordan du vil styre din træning.
 
@@ -77,7 +79,7 @@ Du kan se Joe Friel diskutere de to træningstyper i denne Youtube-video:
 
 {% include video provider="youtube" id="azuM56dXl6I" %}
 
-Du kan sagtens finde studier, der viser, at den ene eller anden træningsmetode er bedst. Sandheden er nok, at en træningsfilosofi, hvor du over tid træner dine energisystemer varieret over tid giver de bedste resultater.
+Du kan sagtens finde studier, der viser, at den ene eller anden træningsmetode er bedst. Sandheden er nok, at en træningsfilosofi, hvor du træner dine energisystemer varieret over tid giver de bedste resultater.
 
 Zonerne kan her være et rigtig godt redskab til, at du netop får trænet hele spektret i dine energissystemer.
 
@@ -187,9 +189,9 @@ En anden model at forstå træning ud fra kan være 3-zoners-modellen. Her arbej
 
 Dine træningszoner kan styres på flere forskellige måder.
 
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}), [max pulsen]({% link _posts/2020-06-02-max-hr.md %}) og pulsen ved den anaerob tærskel. Du kan kun bruge pulsen i zone 1-5, da du ikke kan få meningsfulde svar i zone 6 og 7.
-- **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp-power.md %}).
+- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/puls/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
+- **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane, andre opmålte distancer eller et GPS-ur at træne på denne måde. Det er klart lettest at bruge pace, hvis du løber nogenlunde flade ruter.
+- **Watt**. Du har brug for særligt udstyr for at bruge watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [wattmåling til løb](/loeb-watt/). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp-power.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
 
 Ved at tænke træningen ind i forskellige træningszoner, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af træningen.

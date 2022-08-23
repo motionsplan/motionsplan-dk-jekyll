@@ -127,7 +127,9 @@ Man kan løbe omkring den maksimale iltoptagelse i maksimalt omkring 6 minutter.
 
 VDOT og 30 minutters tidstagning var valide til at bestemme hastigheden ved den anaerobe tærskel. 30 minutters testen kunne også bruges til at bestemme pulsen ved den anaerobe tærskel. Samlet konkluderer McGehee et al (2005) at 30 minutters testen er den bedste felttest til at bestemme den anaerobe tærskel.
 
-På de moderne pulsure er det også relativt enkelt at lave en test af den anaerobe tærskelHer er et eksempel fra et Garmin Fenix ur.
+På de moderne pulsure er det også relativt enkelt at lave en test af den anaerobe tærskel.
+
+Her er et eksempel fra et Garmin Fenix ur.
 
 {% include gallery id="garmin_lactate" caption="Der er en test af den anaerobe tærskel direkte på dit Garmin-ur." %}
 
@@ -135,4 +137,4 @@ På de moderne pulsure er det også relativt enkelt at lave en test af den anaer
 
 Joel Jamieson foreslår, at man løber med en puls fra 120-150 i det han kalder _cardiac output_-træning.
 
-[Andre](https://missadventurepants.com/blog/lactate-test-aerobic-threshold) foreslår, at man tester sin aerobe tærskel ved at trække vejret gennem næsen. Når du når et tempo, hvor du ikke længere kan få ilt nok ved kune at trække vejret gennem næsen, så er du omkring din aerobe tærskel.
+[Andre](https://missadventurepants.com/blog/lactate-test-aerobic-threshold) foreslår, at man tester sin aerobe tærskel ved at trække vejret gennem næsen. Når du når et tempo, hvor du ikke længere kan få ilt nok ved kun at trække vejret gennem næsen, så er du omkring din aerobe tærskel.
