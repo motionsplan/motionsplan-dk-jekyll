@@ -136,7 +136,7 @@ Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv k
 
 **Læs**: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
 
-## Ofte stillede spørgsmål om
+## Ofte stillede spørgsmål
 
 {% include faq.html %}
 
