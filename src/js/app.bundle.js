@@ -1842,7 +1842,7 @@ $(function() {
 
       let hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
 
-        $("[name='reference_distance']").val(hr.getReferenceMeter(repeated));
+        $("[name='reference_distance']").val(hr.getReferenceMeter(repeated).toFixed(1));
         $("[name='procent']").val(hr.getPercent(repeated).toFixed(0));
         $("#walktest_gauge").val(hr.getPercent(repeated));
     });

@@ -48,7 +48,7 @@ Lad os dykke ned i dem allesammen i det følgende.
 
 ## Hvor høje er vi i gennemsnit i Danmark?
 
-Gennemsnitshøjden blandt danskere vurderes til at være 182 cm for mænd og 167 cm for kvinder. Det er et af de højeste gennemsnit i verden. Men hvordan er vækstkurverne for drenge og piger og kvinder og mænd egentlig?
+[Gennemsnitshøjden blandt danskere](/hvad-er-gennemsnitshoejden-i-danmark/) vurderes til at være 181 cm for mænd og 167 cm for kvinder. Det er et af de højeste gennemsnit i verden. Men hvordan er vækstkurverne for drenge og piger og kvinder og mænd egentlig?
 
 Er du højere eller lavere end gennemsnittet i Danmark?
 
@@ -66,7 +66,9 @@ Du har garanteret set højde-kurver før. Med vækstkurver kan du sammenligne di
 
 Jeg har ledt med lys og lygte, men jeg har kun kunnet finde en graf over udviklingen for mænd, hvor man har relativt pålidelige målinger, fordi mænd har været til session.
 
-{% include figure image_path="https://www.museumskanderborg.dk/Files/Billeder/0120_Oem_Kloster_Museum/0610_MIDDELALDERSKELETTER/0611_Skeletterne_fortaeller/hoejde_graf.jpg" caption="Udviklingen af den mandlige danske befolknings gennemsnitshøjde fra 1850 – 2000. Middelalderbefolkningen havde den samme højde som man havde i 1850. . Kilde: [Skanderborg Museum](https://www.museumskanderborg.dk/skeletterne-fort%C3%A6ller)" %}
+Her kan du se udviklingen for mændene.
+
+{% include figure image_path="https://www.museumskanderborg.dk/Files/Billeder/0120_Oem_Kloster_Museum/0610_MIDDELALDERSKELETTER/0611_Skeletterne_fortaeller/hoejde_graf.jpg" caption="Udviklingen af den mandlige danske befolknings gennemsnitshøjde fra 1850 – 2000. Middelalderbefolkningen havde den samme højde som man havde i 1850. Kilde: [Skanderborg Museum](https://www.museumskanderborg.dk/skeletterne-fort%C3%A6ller)" %}
 
 Jeg har ledt efter gennemsnitstal for både mænd og kvinder, og dem jeg har kunnet finde, har jeg lagt ind i følgende tabel.
 

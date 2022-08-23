@@ -63,11 +63,11 @@ Når du har udregnet dit overfladeareal (BSA), så kan det også være interessa
 
 Det gennemsnitlige overfladeaareal for kroppen er følgende ifølge [omnicalculator.com](https://www.omnicalculator.com/health/bsa):
 
-- Spædbørn: 0.25 m<sup>2</sup>
-- Børn på 2 år: 0.5 m<sup>2</sup>
-- Børn på 10 år: 1.14 m<sup>2</sup>
-- Kvinder: 1.6 m<sup>2</sup>
-- Mænd: 1.9 m<sup>2</sup>
+- Spædbørn: 0,25 m<sup>2</sup>
+- Børn på 2 år: 0,5 m<sup>2</sup>
+- Børn på 10 år: 1,14 m<sup>2</sup>
+- Kvinder: 1,6 m<sup>2</sup>
+- Mænd: 1,9 m<sup>2</sup>
 
 ## Konklusion
 

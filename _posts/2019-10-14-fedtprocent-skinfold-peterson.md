@@ -41,9 +41,7 @@ Bestemmelsen af 4-komponentmodellen er baseret på tre forskellige metoder, som 
 
 På baggrund af 4-komponentmodellen fik lavede forskerne regressionsligninger med forskellige parametre, og de fandt frem til en sammenhæng for både kvinder og mænd, hvor man skulle måle fire hudfolde, vægt, højde og alder for at bestemme fedtprocenten.
 
-I Peterson et al (2003) undersøgte de også formlerne fra [Womersley og Durnin]({% link _posts/2019-10-14-fedtprocent-skinfold-durnin-womersley.md %}) og [Jackson og Pollock]({% link _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md %}). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
-
-Se mere i den originale artikel af [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818).
+I [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818) undersøgte de også formlerne fra [Womersley og Durnin]({% link _posts/2019-10-14-fedtprocent-skinfold-durnin-womersley.md %}) og [Jackson og Pollock]({% link _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md %}). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
 
 ## Beskrivelse af hudfoldsmålinger i Peterson (2003)
 
@@ -60,7 +58,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). 
+Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 
 Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/).
 

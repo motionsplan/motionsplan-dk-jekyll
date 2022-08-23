@@ -27,7 +27,7 @@ Body Mass Index (BMI) bruges ofte i forhold til børn, unge og teenagere. Vi har
 
 Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og vægt, men det skal fortolkes anderledes for børn end for voksne.
 
-Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/). 
+Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/).
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
@@ -71,7 +71,7 @@ I graferne nedefor kan du se de grænseværdier for børn, der anbefales af IOTF
 
 ## BMI tabel
 
-| Alder BMI	| Grænser	for	overvægt drenge | BMI	- Grænser	for	overvægt Piger | BMI - Grænser	
+| Alder BMI	| Grænser	for	overvægt drenge | BMI	- Grænser	for	overvægt Piger | BMI - Grænser
 for	svær overvægt Drenge | BMI	- Grænser	for	svær overvægt Piger |
 |-|-|-|-|-|
 | 2	år | 18,4 | 18,0 | 20,0 | 19,8 |

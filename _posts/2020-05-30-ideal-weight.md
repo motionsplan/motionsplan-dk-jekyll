@@ -43,6 +43,12 @@ Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag ti
 
 {% include calculate-ideal-weight.html %}
 
+Lad os tage et eksempel:
+
+[Danske kvinder er i gennemsnit](/hvad-er-gennemsnitshoejden-i-danmark/) er 167 cm. Lad os prøve det i beregneren.
+
+Resultaterne i beregneren ligger mellem 58,5 - 68,3 kg for en på den højde. Det er let at regne ud, men noget sværere i praksis at forklare forskellene mellem de forskellige beregninger.
+
 ## Om beregneren til idealvægt fra højde og køn
 
 I gennem forskellige studier har der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten.

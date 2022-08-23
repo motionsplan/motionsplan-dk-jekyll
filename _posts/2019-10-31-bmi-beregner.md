@@ -62,6 +62,14 @@ Beregn dit BMI med denne formel:
 
 {% include math formula="BMI = \frac{\text{weight (kg)}}{\text{height (m)}^2}" %}
 
+Et eksempel:
+
+Lad os bruge 1,67 m, som er [danske kvinders gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) og en vægt på 65 kg.
+
+{% include math formula="BMI = \frac{\text{65 (kg)}}{\text{1,67 (m)}^2} = 23,3" %}
+
+Så bliver BMI-resultatet altså 23,3.
+
 ## Har jeg et godt BMI tal?
 
 Jeg argumenterer i det grundlæggende indlæg for BMI for, at de sædvanlige vurderingsskemaer for BMI ikke er retvisende for, hvad der er et sundt BMI. Ifølge de nyeste studier, så kan normalvægt og overvægt begge være sunde kategorier.
