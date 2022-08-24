@@ -53,7 +53,7 @@ Når [Helsam](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bann
 
 ## Hvilke kosttilskud virker?
 
-[Styrk](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt) foreslår følgende pyramide over kosttilskud, som virker, men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
+[Styrk](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/) foreslår følgende pyramide over kosttilskud, som virker, men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
 
 - Proteinpulver
 - Kreatin
@@ -146,7 +146,7 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
 
-— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)</cite>
+— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
 
 ## 4. D-vitamin
 
@@ -191,7 +191,7 @@ Mange har sikkert spist fiskeolie som kosttilskud ud fra devicen, at fede fisk h
 
 > Det mest forbløffende ved fiskeolie er næsten, hvor lidt vi kan sige om det på trods af, at der er lavet så mange studier omkring det.
 
-— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)</cite>
+— <cite>Nikolaj Bach i [Træningstimen] om Kosttilskud(https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
 
 I bedste fald er der en (meget) lille effekt på hjerte-kar-sygdomme eller også er der ingen effekt i de meta-reviews, der er lavet. Der kan være forskellige grunde til, at man ikke har kunnet finde så god evidens for fiskeolien.
 
@@ -240,7 +240,7 @@ Hvis du ved mere om Probiotika og kan have lyst til at skrive et endnu mere evid
 
 ## Kosttilskud som er spild af penge
 
-Fisker Performance taler i deres podcast om [Kosttilskud som er spild af penge](https://www.fisker-performance.dk/podcast/kosttilskud-som-er-spild-af-penge), hvor de nævner følgende.
+Styrk taler i deres [podcast Træningstimen](https://styrkmig.dk/ep-18-kosttilskud-som-er-spild-af-penge/) om "Kosttilskud som er spild af penge", hvor de nævner følgende.
 
 - BCAA og EAA
 - HMB
@@ -276,8 +276,8 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 
 - [Hvilke kosttilskud tager forskerne selv? - Videnskab.dk](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv)
 - [Kosttilskudshierarkiet: De bedste kosttilskud til styrketræning.](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html)
-- [EP #18: Kosttilskud som er spild af penge - Fisker Performance](https://www.fisker-performance.dk/podcast/kosttilskud-som-er-spild-af-penge)
-- [EP #21: Kosttilskud med dokumenteret effekt - Fisker ...](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)
+- [EP #18: Kosttilskud som er spild af penge - Styrk](https://styrkmig.dk/ep-18-kosttilskud-som-er-spild-af-penge/)
+- [EP #21: Kosttilskud med dokumenteret effekt - Styrk](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)
 </details>
 
 ### Referencer om protein som kosttilskud

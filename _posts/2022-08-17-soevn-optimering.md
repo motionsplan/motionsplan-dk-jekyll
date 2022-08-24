@@ -60,7 +60,7 @@ Fx kan du kigge på din madras og pude, temperaturen i soveværelset, mærklægn
 
 Søvn er en rigtig vigtig del af dit liv. Når du får en god søvn, så giver du kroppen de bedste muligheder for at klare og tilpasse sig til dagligdagens strabadser.
 
-Rigtig mange danskere sover ikke så godt. Der er kommet nogle strømninger, bl.a. inden for [biohacking kulturen](/biohacking/), hvor folk bruger rigtig meget tid på søvnoptimering. Thomas Munksgaard fortæller fx til [DR](https://www.dr.dk/nyheder/viden/kroppen/thomas-indretter-hele-sin-dag-optimere-sin-soevn-mange-af-tingene-er), at han indretter hele sin dag, så han kan få en god søvnkvalitet.
+Rigtig mange danskere sover ikke så godt. Der er kommet nogle strømninger, bl.a. inden for [biohacking kulturen](/hvad-er-biohacking/), hvor folk bruger rigtig meget tid på søvnoptimering. Thomas Munksgaard fortæller fx til [DR](https://www.dr.dk/nyheder/viden/kroppen/thomas-indretter-hele-sin-dag-optimere-sin-soevn-mange-af-tingene-er), at han indretter hele sin dag, så han kan få en god søvnkvalitet.
 
 {% include figure image_path="/assets/images/blog/dr-optimering-af-soevn.png" alt="Søvnoptimering og søvnhygiejne overskrift" %}
 

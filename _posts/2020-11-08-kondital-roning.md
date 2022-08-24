@@ -90,7 +90,7 @@ De konkluderer i deres studium følgende:
 
 For at få estimeret konditallet, så kan vi altså bruge _mean power output_ på 2-kilometer testen i roning til at estimere den maksimale iltoptagelse.
 
-Jeg har lavet en beregner, hvor du får anslået dit kondital ved bare at indtaste din tid for de 2000 meter i nedenstående beregner. Her omregnes automatisk fra tid til power efter anvisninger hos [Concept2](https://www.concept2.com/indoor-rowers/training/calculators/watts-calcula).
+Jeg har lavet en beregner, hvor du får anslået dit kondital ved bare at indtaste din tid for de 2000 meter i nedenstående beregner. Her omregnes automatisk fra tid til power efter anvisninger hos [Concept2](https://www.concept2.com/indoor-rowers/training/calculators/watts-calculator).
 
 {% include calculate-fitness-rowing-2000-meter-time.html %}
 

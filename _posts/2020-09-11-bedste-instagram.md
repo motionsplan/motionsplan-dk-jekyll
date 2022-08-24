@@ -29,7 +29,7 @@ feature_row_nikolajbachdk:
   - url: https://www.instagram.com/nikolajbachdk/
     title: "Nikolaj Bach - @nikolajbachdk"
     alt: "Nikolaj Bach - @nikolajbachdk"
-    excerpt: "Nikolaj Bach er personlig træner. De fleste af opdateringerne fra Nikolaj Bach på Instagram er små humoristiske indsigter i træning - ofte opstillet som en lille infographic. Nikolaj Bach er også med i Fisker Performance, og leverer også fremragende indhold på [podcast](/bedste-fitness-traening-podcasts/), [blogs](/bedste-fitness-blogs/) og Youtube."
+    excerpt: "Nikolaj Bach er personlig træner. De fleste af opdateringerne fra Nikolaj Bach på Instagram er små humoristiske indsigter i træning - ofte opstillet som en lille infographic. Nikolaj Bach er også med i Styrk, og leverer også fremragende indhold på [podcast](/bedste-fitness-traening-podcasts/), [blogs](/bedste-fitness-blogs/) og Youtube."
     btn_label: "<i class='fab fa-fw fa-instagram'></i> Besøg @nikolajbachdk"
     btn_class: "btn--warning"
 feature_row_kaptajnmeier:

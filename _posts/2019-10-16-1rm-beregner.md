@@ -4,8 +4,8 @@ seo_title: "RM-beregner: 1RM max i bænkpres, squat og dødløft"
 permalink: /rm-beregner/
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/
-description: "Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og udregn dit 1RM max - eller one repetition maximum - i fx bænkpres, squat og dlødløft."
-excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Udregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres."
+description: "Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og udregn dit 1RM max - eller one repetition maximum - i fx bænkpres, squat og dødløft."
+excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
@@ -56,7 +56,9 @@ faq:
     answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
 ---
 
-Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist.
+Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. Her får du en beregner, hvor du kan udregne din 1RM ud fra forskellige løft.
+
+I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist.
 
 Du kan også lave submaksimale løft med flere gentagelser og bagefter bruge en formel eller en RM-beregner til at estimere og udregne din one repetition maximum (1RM) eller hvad du netop kan løfte en gang.
 
@@ -78,6 +80,10 @@ Ud fra en maksimal test med fx 5 reps og en given vægt, kan du udregne dit maks
 *[RM]: Repetition Maximum
 *[RPE]: Rate of Perceived Exertion
 
+## RM-beregner til 1RM max
+
+{% include calculate-1rm.html %}
+
 ## Hvorfor er det godt at kende sin 1RM?
 
 Men hvorfor har du overhovedet brug for at vide, hvad din 1RM er?
@@ -85,10 +91,6 @@ Men hvorfor har du overhovedet brug for at vide, hvad din 1RM er?
 Hvis du laver procentbaserede træningsprogrammer, så har du brug for at vide, hvad du kan maksimalt kan løfte, da din træning bliver udregnet ud fra det. Ud fra 1RM kan du estimere, hvor meget, du skal have på stangen for at arbejde i et bestemt _rep-range_ i forhold til programmet.
 
 RM-værdierne kan altså bruges som et udgangspunkt for planlægningen af dine træningsprogrammer. Desuden kan de være med til at give end indikation på, om du har oplevet fremgang i din præstation i løbet af dit træningsprogram.
-
-## RM-beregner til 1RM max
-
-{% include calculate-1rm.html %}
 
 ## Skema og tabel med RM-værdier
 
@@ -102,7 +104,7 @@ Hvis du vil have et endnu mere individualiseret bud på dine egne vægte, så ka
 
 En RM-test bliver mest præcist jo tættere du ligger i antallet af gentagelser ift. den RM-vægt, du gerne vil udregne. Fx vil en 3RM være et bedre udgangspunkt for at estimere 1RM end en 15RM-test. Jeg beder oftest eleverne om at forsøge at ramme en 5RM.
 
-Inden du går i gang med testen, skal du sørge for at lave en grundig, [specifik opvarmning](/opvarmning-styrketraening/). Opvarmningssættene skal naturligvis ikke udtrætte dine muskler, men den skal samtidig gøre dig klar til at løfte tungt.
+Inden du går i gang med testen, skal du sørge for at lave en grundig, [specifik opvarmning til styrketræning](/opvarmning-styrketraening/). Opvarmningssættene skal naturligvis ikke udtrætte dine muskler, men den skal samtidig gøre dig klar til at løfte tungt.
 
 Hvis du har brug for flere forsøg, skal du holde mindst 3-5 minutters pause mellem forsøgene, så din krop kan være helt klar til de næste løft.
 
@@ -217,6 +219,8 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
 </details>
 
+***
+
 Formlerne estimerer forskellige RM-vægte. Fælles for alle formlerne er, at de er bedst til at forudsige RM-vægte, der ligger tæt på den testede vægt.
 
 [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum) viser en sammenligning mellem de enkelte formler, og hvordan de vil opføre sig med forskellige vægte og gentagelser.
@@ -266,7 +270,7 @@ Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har be
 
 I styrketræning arbejder man med begrebet 1RM (one repetition maximum), som er et udtryk for den vægt, man netop kan løfte en gang. Det kan være forbundet med høj skadesrisiko, at lave tests i 1RM, så man kan også estimere sin maksimale styrke ud fra forskellige beregninger.
 
-Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gange. Du behøver ikke på forhånd at vide nøjagtigt hvor mange gange, du kan løfte vægten. Du må blot ikke kunne løfte den flere end 10 gange. Når du har prøvet øvelsen noterer du hvor mange gange, du kunne løfte vægten.
+Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gange. Du behøver ikke på forhånd at vide nøjagtigt hvor mange gange, du kan løfte vægten. Du må blot ikke kunne løfte den flere end 10 gange. Når du har prøvet øvelsen, noterer du hvor mange gange, du kunne løfte vægten.
 
 **Eksempel.** Jeg vil teste min maksimale styrke i bænkpres. Først laver jeg et par opvarmningssæt med let vægt og middelhøj vægt. Så sætter jeg 80 kg på, og det forventer jeg, at jeg kan løfte 4 gange. Jeg prøver, og det viser sig, at jeg kan løfte vægten 3 gange. Min 3RM er altså 80 kg.
 

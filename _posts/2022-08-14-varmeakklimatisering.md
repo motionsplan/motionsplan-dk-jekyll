@@ -21,7 +21,7 @@ faq:
   - question: Hvor længe tager tilvænning til varmen?
     answer: Det tager ca. 10-14 dage at blive tilvænnet ekstremt varme forhold (+30 grader celsius).
   - question: Hvor meget væske kan man optage i timen?
-    answer: I laboratorieforsøg har man indtil videre ikke observeret højere væskeoptag i omegnen af 1200 ml/timen. Du kan læse mere om, [hvor meget væske man skal drikke](/hvor-meget-svand-skal-man-drikke-om-dagen/).
+    answer: I laboratorieforsøg har man indtil videre ikke observeret højere væskeoptag i omegnen af 1200 ml/timen. Du kan læse mere om, [hvor meget væske man skal drikke](/hvor-meget-vand-skal-man-drikke-om-dagen/).
 ---
 
 Det er varmt udenfor. Rigtig varmt. Så hvordan træner og præsterer man i varmen? Her er nogle tips, der kan hjælpe dig med at vænne dig til varmen og akklimatisere dig, så du kan yde dit bedste, når det gælder mest.
@@ -158,7 +158,7 @@ Hvis du lever under knap så varme himmelstrøg, men skal forberede dig til at k
 
 Du kan enten bruge opvarmede rum eller ekstra tøj for at opleve varmen.
 
-Ultraløberen Christian Madsen har stor [erfaring](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimtiserer-til-at-loebe-i-ekstrem-varme) med varmetræning. Han giver følgende gode råd til, hvordan du kan lave varmetræning.
+Ultraløberen Christian Madsen har stor [erfaring](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme) med varmetræning. Han giver følgende gode råd til, hvordan du kan lave varmetræning.
 
 - Træning kan foregå med **mere tøj på de varmeste tidspunkter** på dagen. Hvert lag tøj kan svare til ~10°C i temperaturforskel.
 - Træning i sauna. Her kan du arbejde med tør varme eller varme med højere luftfugtighed.
@@ -178,11 +178,11 @@ I denne video kan du desuden lære mere om et nyere studie, hvor saunaturene kan
 
 ## Hvordan bygger man varmetræning op?
 
-Ultraløberen Christian Madsen [foreslår](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimtiserer-til-at-loebe-i-ekstrem-varme) følgende opbygning af varmetræningen.
+Ultraløberen Christian Madsen [foreslår](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme) følgende opbygning af varmetræningen.
 
 > Jeg anbefaler at du bygger din varmetræning op med gradvist stigende varmetræningsperioder á 30-100 minutter hver dag i ca. 10-14 dage op til løbet, med en aktivitet ved eller højere end 50% af VO2max, svarende til ca. 70% af HRmax eller meget langsomt løb/aktivitet. Byg det gradvist op, så kroppen vænnes til den øgede belastning, som varmetræning er. Da varmetræningen foretages i din nedtrapningsperiode, så mindskes træningsmængden.
 
---- <cite>[Ultraløberen Christian Madsen](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimtiserer-til-at-loebe-i-ekstrem-varme)</cite>
+--- <cite>[Ultraløberen Christian Madsen](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)</cite>
 
 Du bør altså bygge varmetræningen op stille og roligt. Det er en god ide at lave en plan for, hvordan du vil inkludere varmen som en del af træningen. Det kræver nemlig også lidt planlægning, hvis du har brug for enten at finde en lokal sauna eller et dampbad, hvor du kan udføre dine regelmæssige sessioner.
 
