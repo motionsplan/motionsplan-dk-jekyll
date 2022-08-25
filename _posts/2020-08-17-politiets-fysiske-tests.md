@@ -4,8 +4,8 @@ permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
 last_modified_at: 2020-08-17T09:41:09Z
 language: da
 header:
-  overlay_image: /assets/images/e/vih-dk-politiforeredelse-fysisk-proeve.jpg
-  teaser: /assets/images/e/vih-dk-politiforeredelse-fysisk-proeve.jpg
+  overlay_image: /assets/images/blog/politiets-fysiske-test.jpg
+  teaser: /assets/images/blog/politiets-fysiske-test.jpg
   caption: *title
 category:
   - Test
@@ -24,11 +24,11 @@ Når du søger ind til Politiet og er så heldig at komme til optagelsesprøve, 
 
 Den fysiske optagelsesprøve til Politiet tager omkring tre timer inklusiv tilbagemelding på din præstation i de fysiske tests.
 
-Jeg gennemgår i det følgende de forskellige [fysiske krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og [fysiske krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation. 
+Jeg gennemgår i det følgende de forskellige [fysiske krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og [fysiske krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation.
 
 ## Træn til hele den fysiske test
 
-Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve. 
+Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve.
 
 Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner disciplinerne enkeltvis.
 
@@ -88,7 +88,7 @@ Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opd
 
 Du kan forberede dig godt på opvarmningen, for det er altid de samme øvelser, der laves.
 
-For at bestå opvarmningen skal du gennemføre alle øvelserne og elementerne i opvarmningen, og du skal følge anvisningerne undervejs. 
+For at bestå opvarmningen skal du gennemføre alle øvelserne og elementerne i opvarmningen, og du skal følge anvisningerne undervejs.
 
 ## Hurtighedstest
 

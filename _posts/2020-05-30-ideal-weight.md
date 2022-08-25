@@ -1,13 +1,12 @@
 ---
-title: &title "Udregn idealvægt for mænd og kvinder i vores enkle beregner"
+title: &title "Beregn idealvægt for mænd og kvinder i vores enkle beregner"
 seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
-description: "Her får du alt at vide om idealvægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores idealvægt beregner og se om du har en sund vægt."
-excerpt: "Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
+description: "Vil du gerne kende din idealvægt? Her kigger vi på normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores idealvægt beregner og se om du har en sund vægt."
+excerpt: "Er du interesseret i at kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
 permalink: /idealvaegt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.1
 category:
@@ -18,7 +17,7 @@ tags:
   - beregner
   - kropskomposition
   - featured
-last_modified_at: 2021-12-22T08:14:14Z
+last_modified_at: 2022-08-22T08:14:14Z
 toc: true
 faq:
   - question: Hvad er idealvægt?
@@ -27,7 +26,13 @@ faq:
     answer: Der findes en lang række forskellige måder at beregne idealvægt på. Enten kan man tage udgangspunkt i højde og vægttabeller baseret på en lang række mennesker. Ellers kan man beregne den ud fra et [ideelt BMI](/bmi/). Læs meget mere om fordele og ulemper her.
 ---
 
-Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
+Vil du gerne kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
+
+Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten.
+
+{% include figure image_path="https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="vægt til at måle idealvægt, gennemsnitsvægt og normalvægt" %}
+
+Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
 
 {% include lead-magnet-button.html %}
 
@@ -43,13 +48,19 @@ Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag ti
 
 {% include calculate-ideal-weight.html %}
 
+Lad os tage et eksempel:
+
+[Danske kvinder er i gennemsnit](/hvad-er-gennemsnitshoejden-i-danmark/) er 167 cm. Lad os prøve det i beregneren.
+
+Resultaterne i beregneren ligger mellem 58,5 - 68,3 kg for en på den højde. Det er let at regne ud, men noget sværere i praksis at forklare forskellene mellem de forskellige beregninger.
+
 ## Om beregneren til idealvægt fra højde og køn
 
-I gennem forskellige studier har der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten.
+Der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten for mænd og kvinder.
 
 {% include lead-magnet-button.html %}
 
-Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler til, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne medregner således ikke kropsbygning og muskelmasse.
+Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne medregner således ikke kropsbygning og muskelmasse.
 
 Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er beregnet til mennesker, der er højere end 152 cm.
 {: .notice .notice--info }
@@ -80,6 +91,26 @@ Når man skal udregne idealvægten for kvinder, så kan du altså bruge BMI på 
 
 Men ud over at tage højde for BMI, så kan du også i beregneren tage højde for din kropstype.
 
+## Skema med mænds og kvinders idealvægt
+
+Det kan være interessant at se på, hvordan de forskellige formler kan sammenlignes. Derfor har jeg lavet et par grafer, der sammenligner formlerne til at udregne den ideelle vægt for kvinder og mænd her.
+
+Først for mændene:
+
+{% include figure image_path="/assets/images/blog/idealvaegt-maend.png" alt="graf med idealvægt for mænd" %}
+
+Og så for kvinderne:
+
+{% include figure image_path="/assets/images/blog/idealvaegt-kvinder.png" alt="graf med idealvægt for mænd" %}
+
+## Tabel med idealvægt for mænd og kvinder
+
+Jeg har lavet en tabel baseret på Peterson et al (2016) beregning for idealvægt for mænd og kvinder, der baserer sig på et target BMI. Du kan selv udfylde det target BMI, du mener er mest optimalt for kvinder og mænd.
+
+Hvis du gerne vil have et mere præcist tal, der er baseret på en helt specifik højde og dig selv, så brug vores beregner i stedet for.
+
+{% include table-idealweight.html %}
+
 ## Hvordan spiller kropsbygning ind på idealvægten?
 
 > Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10 % af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8 % i hver retning.
@@ -87,14 +118,6 @@ Men ud over at tage højde for BMI, så kan du også i beregneren tage højde fo
 --- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 
 Jeg har derfor inkluderet en mulighed for at vælge din kropstype i beregneren, så idealvægtberegneren tager højde for skeletbredden.
-
-## Skema med idealvægt for mænd og kvinder
-
-Jeg har lavet en tabel baseret på Peterson et al (2016) beregning for idealvægt for mænd og kvinder, der baserer sig på et target BMI. Du kan selv udfylde det target BMI, du mener er mest optimalt for kvinder og mænd.
-
-Hvis du gerne vil have et mere præcist tal, der er baseret på en helt specifik højde og dig selv, så brug vores beregner i stedet for.
-
-{% include table-idealweight.html %}
 
 ## Hvor stor er usikkerheden på idealvægt?
 

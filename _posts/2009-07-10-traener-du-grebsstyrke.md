@@ -4,8 +4,8 @@ permalink: /artikel/traener-du-grebsstyrke/
 description: "Hvis du har dårlig grebsstyrke, når du laver øvelser, hvor grebet spiller en vigtig rolle? Så tjek disse fire øvelser til et stærkere greb!"
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdyaXAlMjBzdHJlbmd0aHxlbnwwfDB8MHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdyaXAlMjBzdHJlbmd0aHxlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdyaXAlMjBzdHJlbmd0aHxlbnwwfDB8MHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdyaXAlMjBzdHJlbmd0aHxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - grebsstyrke

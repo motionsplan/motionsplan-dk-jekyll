@@ -4,7 +4,7 @@ excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra
 permalink: /powerprofil-cykling/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition

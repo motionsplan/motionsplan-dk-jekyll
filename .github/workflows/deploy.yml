@@ -7,6 +7,15 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
+
+  workflow_dispatch:
+
+env:
+  RUBY_VERSION: "2.7"
 
 # Here is where we define our jobs.
 # Which means the tasks we want Github to execute
@@ -30,9 +39,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
           sudo gem install bundler:2.2.7
-      - uses: ruby/setup-ruby@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7 # Not needed with a .ruby-version file
+          ruby-version: ${{ env.RUBY_VERSION }} # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: ⚡️ Cache node modules
         uses: actions/cache@v2
@@ -58,13 +68,19 @@ jobs:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.run_number }}
       - name: 🔨 Build site
-        run: |
-          JEKYLL_ENV=production bundle exec jekyll build --lsi
+        run: bundle exec jekyll build --lsi
+        env:
+          JEKYLL_ENV: production
 #          npm run build:js
 #      - name: 🔨 Test calculations JS
 #        run: |
 #          npm run test
+      - name: Installing minifier
+        run: sudo apt-get install minify
+      - name: Minifying files
+        run: minify -r ./_site/ -o ./_site/ --html-keep-document-tags --html-keep-end-tags --html-keep-default-attrvals
   deploy:
+    name: deploy
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -81,6 +97,31 @@ jobs:
           build_dir: _site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  build_and_deploy_azure:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    needs: build
+    runs-on: ubuntu-latest
+    name: Build and Deploy Azure
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_COAST_0BC93F003 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          skip_app_build: true
+          app_location: "/" # App source code path
+          api_location: "" # Api source code path - optional
+          output_location: "_site" # Built app content directory - optional
+          ###### End of Repository/Build Configurations ######
+        env:
+          JEKYLL_ENV: development
   test:
     needs: build
     runs-on: ubuntu-latest
@@ -103,8 +144,9 @@ jobs:
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: --only-4xx --assume-extension --check-favicon --check-html --check_opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w" --url-ignore "bjsm.bmj.com"
+          arguments: --only-4xx --assume-extension --check-favicon --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w" --url-ignore "bjsm.bmj.com"
           # The arguments to pass to HTMLProofer
+
   clean:
     needs: [build,deploy,test]
     runs-on: ubuntu-latest
@@ -116,6 +158,19 @@ jobs:
           key: ${{ runner.os }}-${{ github.run_number }}
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
+
+  close_pull_request_azure:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_COAST_0BC93F003 }}
+          action: "close"
+
   lighthouse:
     runs-on: ubuntu-latest
     steps:
@@ -123,4 +178,67 @@ jobs:
     - name: Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        urls: 'https://www.motionsplan.dk/,https://www.motionsplan.dk/bmi/'
+        urls: 'https://www.motionsplan.dk/,https://www.motionsplan.dk/bmi-beregner-boern-unge-teenagere/,https://www.motionsplan.dk/skridt-pr-km-10000/,https://www.motionsplan.dk/idealvaegt/'
+
+  lighthouse_staging_azure:
+    name: Lighthouse report
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Static Web App - get preview URL
+        id: static_web_app_preview_url
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            CUSTOM_DOMAIN='calm-coast-0bc93f003.1.azurestaticapps.net'
+            LOCATION='westeurope'
+
+            PREVIEW_URL="https://${CUSTOM_DOMAIN/.[1-9]./-${{github.event.pull_request.number }}.$LOCATION.1.}"
+
+            echo "::set-output name=PREVIEW_URL::$PREVIEW_URL"
+
+      - name: Static Web App - wait for preview
+        id: static_web_app_wait_for_preview
+        uses: nev7n/wait_for_response@v1
+        with:
+          url: '${{ steps.static_web_app_preview_url.outputs.PREVIEW_URL }}'
+          responseCode: 200
+          timeout: 600000
+          interval: 1000
+
+      - name: Audit URLs using Lighthouse
+        id: lighthouse_audit
+        uses: treosh/lighthouse-ci-action@v8
+        with:
+          urls: |
+            ${{ steps.static_web_app_preview_url.outputs.PREVIEW_URL }}
+          configPath: ./.github/workflows/lighthousesrc.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          runs: 5
+
+      - name: Format lighthouse score
+        id: format_lighthouse_score
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const lighthouseCommentMaker = require('./.github/workflows/lighthouseCommentMaker.js');
+
+            const lighthouseOutputs = {
+              manifest: ${{ steps.lighthouse_audit.outputs.manifest }},
+              links: ${{ steps.lighthouse_audit.outputs.links }}
+            };
+
+            const comment = lighthouseCommentMaker({ lighthouseOutputs });
+            core.setOutput("comment", comment);
+
+      - name: Add Lighthouse stats as comment
+        id: comment_to_pr
+        uses: marocchino/sticky-pull-request-comment@v2.0.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ github.event.pull_request.number }}
+          header: lighthouse
+          message: ${{ steps.format_lighthouse_score.outputs.comment }}

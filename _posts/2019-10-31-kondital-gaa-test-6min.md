@@ -50,16 +50,30 @@ I denne beregner for 6 minutters gangdistancetest kan du sammenligne dit resulta
 
 Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen.
 
+### 1. Enright & Sherill (1998)
+
 Derfor kan du i beregneren enten vælge referenceværdier fra [Enright & Sherill (1998)](https://pubmed.ncbi.nlm.nih.gov/9817683/) baseret på forsøgspersoner, der **ikke på forhånd er blevet tilvænnnet til gangtesten**. Referenceværdierne gælder for både mænd og kvinder i alderen 40-80 år.
 
 - Mænd: 6MWD = (7,57 x højde cm) - (5,02 x alder) - (1,76 x vægt kg) - 309 m
 - Kvinder: 6MWD = (2,11 x højde cm) - (2,29 x vægt kg) - (5,78 x alder) + 667 m
 
-Gibbons et al (2001) baerede deres regressionsmodel på raske voksne, hvor de tog det bedste resultat fra flere forsøg. Derfor har jeg også inkluderet referenceværdier for **gentagne forsøg** i beregneren.
+Lad os tage et eksempel:
+
+[Kvinders gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) er 1,67 meter. Sætter vi det ind i formlen med en vægt på 65 kg og en alder på 78 år:
+
+- 6MWD = (2,11 x 167 cm) - (2,29 x 65 kg) - (5,78 x 78) + 667 m = 449 meter
+
+Referenceværdien sammenligner du så med det antal meter, du rent faktisk gik på testen.
+
+### 2. Gibbons et al (2001)
+
+Gibbons et al (2001) baserede deres regressionsmodel på raske voksne, hvor de tog det bedste resultat fra flere forsøg.
+
+Derfor har jeg også inkluderet referenceværdier for **gentagne forsøg** i beregneren.
 
 Det resulterede i følgende regressionsmodel for gentagne forsøg på 6 minutters testen:
 
-- 6MWD = 868,8 - 2,99 * Age - 74,7 * Køn
+- 6MWD = 868,8 - 2,99 * Alder- 74,7 * Køn
 
 Hvor køn ved mand = 0 og for kvinde = 1.
 

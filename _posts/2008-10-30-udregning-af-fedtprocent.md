@@ -6,10 +6,10 @@ description: Vil du gerne kende din fedtprocent? Beregn din fedtprocent på bagg
 excerpt: Beregn din fedtprocent med en udregning baseret på køn, alder, højde og vægt i denne
   fedtprocent beregner for mænd og kvinder. Avanceret beregner med forskellige fedtprocent formler.
 header:
-  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   caption: Beregn din fedtprocent ud fra højde og vægt.
   alt: Photo by i yunmai on Unsplash
-  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
 category:
   - Test
   - Fedtprocent
@@ -43,19 +43,19 @@ faq:
   - question: Kan man have for høj fedtprocent?
     answer: Du kan have for høj fedtprocent, hvis du er overvægtig og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet](/taljemaal/) eller [hofte-talje-forholdet](/talje-hofte-ratio/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan være farligt, hvis fedtet er centreret omkring de indre organer.
 ---
-Jeg har lavet en fedtprocent-beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
+Vil du gerne kende din fedtprocent? Jeg har lavet en fedtprocent-beregner, hvor du kan beregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
 
 *[BMI]: Body Mass Index
 
-Mange vil gerne kende sin fedtprocent. Derfor vil mange også gerne kunne beregne og måle fedtprocent. Her får du en beregner til at udregne din fedtprocent.
-
 Udregning af fedtindholdet i kroppen er bare en af metoderne til at bestemme fedtprocenten. Du kan [bestemme din kropskomposition](/kropskomposition/) på flere måder, og der er [flere metoder til måling af fedtprocent](/maal-fedtprocent/).
+
+Husk at få alle detaljerne med.
 
 Overvej altid hvorfor du gerne vil prøve at udregne din fedtprocent. Vil viden om din kropskomposition tilføje noget til dit liv. Hvis du træner, så synes jeg styrke, hurtighed, udholdenhed og springhøjde er mere interessante parametre.
 
 ## Beregn din fedtprocent: Udregning med alder, højde og vægt
 
-Mange forskere har lavet et bud på, hvor dan man kan beregne sin fedtprocent på baggrund af køn, alder, højde og vægt. Man kan altså udregne sin fedtprocent for kvinder og mænd ved et par enkle indtastninger.
+Mange forskere har lavet et bud på, hvordan man kan beregne sin fedtprocent på baggrund af køn, alder, højde og vægt. Man kan altså udregne sin fedtprocent for kvinder og mænd ved et par enkle indtastninger.
 
 Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle beregner.
 
@@ -64,6 +64,10 @@ Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle 
 Beregn din fedtprocent i vores fedtprocent beregner.
 
 {% include calculate-fat-percent.html %}
+
+Et eksempel:
+
+Hvis jeg bruger [danske mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) på 181 cm, en vægt på 81 kg og en alder på 46 år, så får jeg resultater i formularen på alt fra 19,5% - 24,7%. Så selvom beregneren er enkel, så kan fortolkningen af resultatet være lidt mere besværligt.
 
 ## Beregn fedtprocent fra alder, højde, køn og vægt
 

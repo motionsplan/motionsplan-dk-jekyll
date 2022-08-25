@@ -4,7 +4,7 @@ seo_title: "Fysisk træning: Hvad skal du træne?"
 permalink: /fysisk-traening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning
@@ -15,7 +15,7 @@ last_modified_at: 2022-05-31T10:21:26Z
 
 Fysisk træning er en vigtig del af enhver sport, men også for at kunne klare hverdagen endnu bedre. Læs her hvordan du får det optimale udbytte af din træning.
 
-Alle har gavn af at lave fysisk træning, så kroppen bliver stærkere, mere udholdende og for at kunne bevæge sig bedre og hurtigere.
+Alle har gavn af at lave fysisk træning, så kroppen bliver stærkere, mere udholdende og for at kunne bevæge sig bedre og hurtigere. Når du skal planlægge fysisk træning, så er det godt at have styr på, hvordan [fysiologien påvirker kroppen](/fysiologi/), og hvordan [anatomien virker](/anatomi/).
 
 I dette indlæg gennemgår vi alle elementerne i fysisk træning for at inspirere dig til at planlægge en træning, som kommer hele vejen rundt.
 
@@ -112,7 +112,7 @@ Balancetræning er en vigtig del af den fysiske træning. Det hjælper med at fo
 
 ## Nedvarmning og restitution
 
-Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/resitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
+Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
 
 **Læs**: [Virker nedvarmning og afjogging på restitutionen?](/nedvarmning-som-restitutionsaktivitet/)
 

@@ -6,8 +6,8 @@ redirect_from:
 excerpt: "En direkte måling af iltoptagelsen gennem både submaksimale og maksimale forsøgsprotokoller med maske, hvor man måler ilt- og kuldioxidindholdet og volumen af indåndingsluften og udåndingsluften."
 language: da
 header:
-  overlay_image: /assets/images/e/vih-dk-laboratorie-cykeltest.jpg
-  teaser: /assets/images/e/vih-dk-laboratorie-cykeltest.jpg
+  overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
+  teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: *title
 category:
   - Kondition
@@ -20,7 +20,6 @@ tags:
   - test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
-breadcrumbs: true
 ---
 
 {% comment %}

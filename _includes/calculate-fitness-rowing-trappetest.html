@@ -1,0 +1,41 @@
+<form class="calculator" id="calculator_rowing_trappetest">
+    <fieldset>
+        <legend>Beregn kondital fra trappetest i roning</legend>
+        <div class="form-group">
+            <label for="trappetest_watts">Sidste helt gennemførte belastning (watt)</label>
+            <input type="number" min="20" max="10000" id="trappetest_second_watts" name="trappetest_second_watts" placeholder="fx 70" required>
+        </div>
+        <div class="form-group">
+            <label for="trappetest_watts">Sidste ufuldstændige belastning (watt)</label>
+            <input type="number" min="20" max="10000" id="trappetest_last_watts" name="trappetest_last_watts" placeholder="fx 70" required>
+        </div>
+        <div class="form-group">
+            <label>Tid på sidste belastning (mm:ss)</label>
+            <input type="number" min="0" max="4" name="trappetest_tid_min" id="trappetest_tid_min" placeholder="min" class="input-mini" required>
+            <input type="number" min="0" max="59" name="trappetest_tid_sek" id="trappetest_tid_sek" placeholder="sek" class="input-mini">
+        </div>
+        <div class="form-group">
+            <label for="rowing_body_weight">Vægt (kg)</label>
+            <input type="number" min="20" max="200" id="trappetest_body_weight" name="trappetest_body_weight" placeholder="fx 70" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>VO<sub>2</sub>max (L/min)
+                <input type="text" name="trappetest_vo2_max" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="text" name="trappetest_kondital" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Power (watts)
+                <input type="text" name="trappetest_mean_power" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

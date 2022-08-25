@@ -4,8 +4,8 @@ permalink: /rygoevelser/
 title: "Rygøvelser: De mest effektive styrkeøvelser til ryggen 🏋"
 seo_title: "Rygøvelser: 10+ mest effektive øvelser til din rygtræning"
 header:
-  overlay_image: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
   caption: "Rygøvelser: De mest effektive styrkeøvelser til ryggen"
 author_profile: true
 excerpt: "Rygøvelser bør være en vigtig del af din træning. Her har vi samlet ryg øvelser, som du kan bruge i din rygtræning, når du laver styrketræning. Vi har bla.a samlet de 10+ bedste rygøvelser."

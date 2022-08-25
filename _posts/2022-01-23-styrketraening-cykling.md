@@ -5,7 +5,7 @@ permalink: /cykeltraeningsprogram/
 excerpt: "Her har du en omfattende guide til træningsøvelser til dit cykeltræningsprogram, der fokuserer på mere end bare dine lårmuskler. De 5 udvalgte øvelser, kan laves både i hjemmet og i fitnesscenteret, og styrker din performance under cykling."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning

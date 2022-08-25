@@ -6,33 +6,33 @@ permalink: /gang-fordele-ved-at-gaa/
 description: "Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå."
 excerpt: "Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå, som også dannede baggrund for #danmarkgårsammen."
 header:
-  teaser: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
   caption: Gang - fordele ved at gå
 author_profile: true
 author: lsolesen
 toc: true
 feature_row_gaatur:
-  - image_path: https://images.unsplash.com/photo-1573997138674-20b6c4bb17ad?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  - image_path: https://images.unsplash.com/photo-1573997138674-20b6c4bb17ad?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
     url: /inspiration-til-gaature/
     title: "Inspiration til gåture"
     excerpt: "Her kan du finde inspiration til dine gåture. Hvor kan du gå, og hvad kan du lave undervejs?"
     btn_label: "Få inspiration"
     btn_class: "btn--info"
 feature_row_training:
-  - image_path: https://images.unsplash.com/photo-1558724041-f4de24818f17?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  - image_path: https://images.unsplash.com/photo-1558724041-f4de24818f17?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
     url: /gangtraening/
     title: "Træning og gang"
     excerpt: "Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning."
     btn_label: "Inspiration til gåtræning"
     btn_class: "btn--info"
 feature_row_skridt_til_km:
-  - image_path: https://images.unsplash.com/photo-1610317482217-2b660603f46a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  - image_path: https://images.unsplash.com/photo-1610317482217-2b660603f46a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
     url: /skridt-pr-km-10000/
     title: "Hvor langt går du?"
     excerpt: "Hvor mange kilometer er 10.000 skridt? Hvor mange skridt er 1 km? Vi har lavet en omregner fra skridt til km, der kan give dig svaret!"
     btn_label: "Hvor langt går du?"
     btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1596014330348-3d37213dc36c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  - image_path: https://images.unsplash.com/photo-1596014330348-3d37213dc36c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
     url: /tid-at-gaa/
     title: "Hvor hurtigt går du?"
     excerpt: "Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her får du også svaret på, hvor hurtigt man går 1 kilometer?"

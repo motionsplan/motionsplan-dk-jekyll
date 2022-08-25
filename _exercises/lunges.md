@@ -8,7 +8,7 @@ id: 20210818093400
 key: 20210818093400
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1593234270607-66cc705a0aaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1593234270607-66cc705a0aaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
 tags:
   - knædomineret
   - vægtstang

@@ -73,7 +73,7 @@ Hvorfor valgte IPF at udvikle en ny formel til at gøre konkurrencerne mere retf
 
 --- <cite>[WeightTraining.NZ](http://weighttraining.nz/ipf_calculator.php)</cite>
 
-### McCulloch aldersjustering 
+### McCulloch aldersjustering
 
 Min alder stiger hver eneste år. Derfor synes jeg det bliver mere og mere interessant at tage alderen med, når man skal sammenligne styrkeniveauet med andre. Heldigvis kan McCulloch hjælpe med at aldersjustere mine løft.
 
@@ -146,7 +146,7 @@ hvor T er forventet for en topklasseløfter, og hvor bw er kropsvægt (kg) og `a
 
 ## Index100
 
-Morten Zacho har udviklet en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast. 
+Morten Zacho har udviklet en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast.
 
 {% include calculate-strength-index-100.html %}
 

@@ -5,8 +5,8 @@ permalink: /ruteopmaaler-loebetur/
 excerpt: "Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten op på forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til. Vi kigger her på nogle gode gratis alternativer til Iforms ruteplanner."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb

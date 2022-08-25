@@ -10,8 +10,8 @@ description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder,
 excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
   for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital.
 header:
-  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
     kvinder og børn?
 last_modified_at: 2021-04-09T04:46:02+02:00
@@ -52,6 +52,10 @@ faq:
     answer: "Du kan finde dit kondital ved enten direkte tests eller indirekte tests. Du kan lave maksimale tests eller submaksimale tests. Du kan finde mange eksempler på, hvordan du kan lave konditionstests her på siden."
   - question: "Hvordan forbedrer man konditallet?"
     answer: "Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration her på siden under [kondition, kredsløb og konditionstræning](/kondition/)."
+  - question: Falder konditallet med alderen?
+    answer: Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsniveauet typisk går ned med alderen. Hvis du bliver ved med at træne og forsøger at holde det samme aktivitetsniveau, så kan du vedligeholde konditallet over tid, men da muskelmassen typisk også går ned med alderen, så vil den maksimale iltoptagelse og derved konditallet også falde.
+  - question: Hvorfor er kvinders kondital lavere end mænds?
+    answer: Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
 ---
 Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
 
@@ -61,7 +65,7 @@ Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, 
 
 ## Hvad er kondital og hvad er det et udtryk for?
 
-Hvad er konditallet? **Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
+Hvad er kondital? **Dit kondital fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
 
 ## Hvad er et godt kondital?
 
@@ -99,13 +103,13 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 50-64 | < 21       | 22-28 | 29-36  | 37-41 | \> 42      |
 | 65-   | < 19       | 20-26 | 27-34  | 35-39 | \> 40      |
 
-Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){:rel="nofollow"}.
+Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
 {% include feature_row id="feature_row_kondital" type="left" %}
 
 ## Hvad er de højeste kondital der er målt?
 
-Den norske skiløber, [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie), har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har ifølge [www.procycling.no](https://www.procycling.no/3467273/) slået rekorden for det højeste maksimale iltoptagelse, der er målt på 97,5 ml/min/kg.
+Den norske skiløber, [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie), har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har ifølge [www.procycling.no](https://www.procycling.no/3467273/) slået rekorden for det højeste maksimale iltoptagelse, der er målt til 97,5 ml/min/kg.
 
 Det er interessant, hvor mange nordmænd der er på listen over de højeste kondital i verden på [www.topendsports.com](https://www.topendsports.com/testing/records/vo2max.htm).
 
@@ -122,7 +126,7 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over
 | Mænd    | < 60 | 60-70  | 70-80 | 80-90      | \> 90         |
 | Kvinder | < 50 | 50-58  | 58-64 | 64-72      | \> 72         |
 
-Tabellen er udformet af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){:rel="nofollow"}.
+Tabellen er udformet af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
 ## Hvordan beregner man kondital?
 
@@ -189,14 +193,6 @@ En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til 
 
 {% include calculate-fitness-index-23.html %}
 
-## Falder konditallet med alderen?
-
-Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsniveauet typisk går ned med alderen. Hvis du bliver ved med at træne og forsøger at holde det samme aktivitetsniveau, så kan du vedligeholde konditallet over tid, men da muskelmassen typisk også går ned med alderen, så vil den maksimale iltoptagelse og derved konditallet også falde.
-
-## Hvorfor er kvinders kondital lavere end mænds?
-
-Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
-
 ## Kondital og risiko for sygdomme
 
 Konditallet er med til at fortælle om hjerte og kredsløb fungerer optimalt. Konditionsniveauet har vist sig at hænge sammen med den relative risiko for at udvikle livsstilsbetingede sygdomme.
@@ -207,11 +203,11 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den r
 
 ## Hvordan forbedrer man sit kondital?
 
-Hvis du gerne vil forbedre dit kondital, så kan du finde inspiration under vores afsnit om [kondition og konditionstræning](/kondition/).
+Hvis du gerne vil forbedre dit kondital og komme i god form, så kan du finde inspiration under vores afsnit om at komme i [god kondition og konditionstræning](/kondition/).
 
-Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/test-kondition-konditest-kondital/).
+Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests](/test-kondition-konditest-kondital/), vi har skrevet her.
 
-Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne artikel](/maksimale-iltoptagelse-vo2max/).
+Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 ## Ofte stillede spørgsmål om kondital
 

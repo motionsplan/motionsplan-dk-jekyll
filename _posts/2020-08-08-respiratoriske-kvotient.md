@@ -5,8 +5,8 @@ permalink: /respiratoriske-metaboliske-udvekslingskvotient/
 last_modified_at: 2021-01-17T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Viden om
@@ -29,7 +29,11 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 *[RER]: Respiratoriske udvekslingskvotient
 *[RQ]: Metaboliske udvekslingskvotient
 
-Hvad er den respiratoriske udviklingskvotient (RER)? **Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+## Hvad er den respiratoriske udviklingskvotient (RER)?
+
+**Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+
+{% include video provider="youtube" id="_NevUAOpQAw" %}
 
 Den [respiratoriske udvekslingskvotient](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) kan give et indblik i, hvilken metabolisme der foregår i kroppen.
 

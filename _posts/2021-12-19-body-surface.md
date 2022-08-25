@@ -5,7 +5,7 @@ redirect_from:
   - /body-surface-area/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1611784601573-409f9b545ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1611784601573-409f9b545ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
   - Anatomi
 tags:
@@ -63,11 +63,11 @@ Når du har udregnet dit overfladeareal (BSA), så kan det også være interessa
 
 Det gennemsnitlige overfladeaareal for kroppen er følgende ifølge [omnicalculator.com](https://www.omnicalculator.com/health/bsa):
 
-- Spædbørn: 0.25 m<sup>2</sup>
-- Børn på 2 år: 0.5 m<sup>2</sup>
-- Børn på 10 år: 1.14 m<sup>2</sup>
-- Kvinder: 1.6 m<sup>2</sup>
-- Mænd: 1.9 m<sup>2</sup>
+- Spædbørn: 0,25 m<sup>2</sup>
+- Børn på 2 år: 0,5 m<sup>2</sup>
+- Børn på 10 år: 1,14 m<sup>2</sup>
+- Kvinder: 1,6 m<sup>2</sup>
+- Mænd: 1,9 m<sup>2</sup>
 
 ## Konklusion
 
