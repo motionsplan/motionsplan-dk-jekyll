@@ -18,7 +18,7 @@ category:
   - Restitution
 last_modified_at: 2020-05-28T20:39:39Z
 gallery:
-  - image_path: https://yourboots.dk/wp-content/uploads/2019/12/cool-framegrab-2048x871.png
+  - image_path: /assets/images/e/yourboots-cool.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/
     alt: Yourboots Cool til kryoterapi
     title: Yourboots Cool

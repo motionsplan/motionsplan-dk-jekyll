@@ -4,7 +4,7 @@ permalink: /recovery-boots-restitution/
 excerpt: "Recovery boots markedsføres i øjeblikket både til motionister og eliteidrætsudøvere som en måde at forbedre restitutionen på. Recovery boots er en slags kompressionsbukser med luft, som også kaldes: vakuum støvler eller vakuum bukser."
 language: da
 header:
-  overlay_image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
+  overlay_image: /assets/images/e/hearstapps-com-recovery-boots.jpg
   teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
   caption: Er recovery boots effektiv restitution?
 category:

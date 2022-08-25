@@ -134,7 +134,7 @@ R<sup>2</sup>
 
 R<sup>2</sup> er altså mere brugbar end R, da den også kan bruges til multivariate modeller.
 
-Du skal imidlertid være [varsom med at overfortolke R<sup>2</sup>](https://emu.dk//sites/default/files/2019-02/Brugen%20af%20R2%20i%20gymnasiet%20Ekstr%c3%b8m%20Hansen%20Brockhoff%20%202017.pdf). R<sup>2</sup>-værdien må aldrig stå alene. Den skal stå sammen med fx en visualisering af data.
+Du skal imidlertid være [varsom med at overfortolke R<sup>2</sup>](https://emu.dk/sites/default/files/2019-02/Brugen%20af%20R2%20i%20gymnasiet%20Ekstr%C3%B8m%20Hansen%20Brockhoff%20%202017.pdf). R<sup>2</sup>-værdien må aldrig stå alene. Den skal stå sammen med fx en visualisering af data.
 
 Der findes _ingen_ meningsfulde globae kriterier for acceptable R<sup>2</sup>-værdier på tværs af fagområder, og man skal være meget opmærksom på ikke at misfortolke høje R<sup>2</sup>-værdier som kausalitet.
 

@@ -44,7 +44,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
-  - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2980.64-FBS-BUNDLE/tacx-flux-2-zwift-bundle_1.jpg?v=01cfa580e94d3cafbadcdd64e2a2634a&width=756&h=516&mode=crop
+  - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-T2900S-64/tacx-flux-s-smart-hometrainer
     title: Tacx Flux 2 Smart Zwift Bundle
     excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."

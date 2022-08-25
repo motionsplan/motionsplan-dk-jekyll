@@ -124,8 +124,6 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 
 {% include video provider="youtube" id="BLJtNxBtv_8" %}
 
-{% include video provider="youtube" id="n1PyiFuSnX8" %}
-
 ### Jackknife pullups eller chair supported pullups og chinups
 
 I Jackknife pullups har du fødderne på en bænk. Sørg for kun at hjælpe det nødvendige med fødderne. Sørg også for, at de ikke bliver en body row til slut, men netop en pullup eller chinup.
