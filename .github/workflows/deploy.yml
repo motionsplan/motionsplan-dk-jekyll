@@ -146,6 +146,7 @@ jobs:
           # The directory to scan
           arguments: --only-4xx --assume-extension --check-favicon --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w" --url-ignore "bjsm.bmj.com"
           # The arguments to pass to HTMLProofer
+
   clean:
     needs: [build,deploy,test]
     runs-on: ubuntu-latest
@@ -157,6 +158,7 @@ jobs:
           key: ${{ runner.os }}-${{ github.run_number }}
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
+
   close_pull_request_azure:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
