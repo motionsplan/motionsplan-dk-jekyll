@@ -66,7 +66,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ github.sha }}
       - name: 🔨 Build site
         run: bundle exec jekyll build --lsi
         env:
@@ -89,7 +89,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ github.sha }}
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
@@ -108,7 +108,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ github.sha }}
       - name: Remove exercise images
         uses: JesseTG/rm@v1.0.3
         with:
@@ -141,7 +141,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ github.sha }}
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v2
@@ -165,7 +165,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
+          key: ${{ runner.os }}-${{ github.sha }}
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
   close_pull_request_azure:
