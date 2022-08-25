@@ -109,11 +109,11 @@ jobs:
       - name: Remove exercise images
         uses: JesseTG/rm@v1.0.3
         with:
-        path: ./_site/assets/images/exercises/
+          path: ./_site/assets/images/exercises/
       - name: Remove exercise Pdfs
         uses: JesseTG/rm@v1.0.3
         with:
-        path: ./_site/assets/pdf/
+          path: ./_site/assets/pdf/
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
