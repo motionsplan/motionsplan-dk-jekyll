@@ -189,6 +189,7 @@ jobs:
         urls: 'https://www.motionsplan.dk/,https://www.motionsplan.dk/bmi-beregner-boern-unge-teenagere/,https://www.motionsplan.dk/skridt-pr-km-10000/,https://www.motionsplan.dk/idealvaegt/'
   lighthouse_staging_azure:
     name: Lighthouse report
+    needs: build_and_deploy_azure
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
     steps:
