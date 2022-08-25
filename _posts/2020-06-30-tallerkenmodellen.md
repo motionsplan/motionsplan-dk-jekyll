@@ -5,7 +5,6 @@ description: "Tallerkenmodeller kan bruges i forbindelse med sundhed og vægttab
 permalink: /tallerken-modeller/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -13,7 +12,7 @@ category:
 tags:
   - kost
   - ernæring
-last_modified_at: 2021-01-11T08:14:14Z
+last_modified_at: 2022-08-11T08:14:14Z
 toc: true
 ---
 
@@ -22,6 +21,8 @@ Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har re
 Hvad er tallerkenmodeeller? **Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-tallerken, T-tallerken, E-tallerken og X-tallerkenmodel.**
 
 Kosten er helt afgørende for dit velvære. Kosten er det brændstof kroppen lever af. Der er imidlertid så meget information om kost og ernæring, og nye fødevarer tilføjes til listen over ekstra sundt mad eller udskammes for alverdens dårligdomme.
+
+{% include figure image_path="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="tallerkenmodeller" %}
 
 **Tallerkenmodellerne kan hjælpe dig til at navigere i den store kompleksitet.** Det er jo alt for vildt, at man næsten kan putte hvad som helst i kroppen, og så kan den bruge det som energi. Men jo bedre kvalitet brændstoffet har, jo bedre fungerer kroppen.
 
@@ -57,7 +58,7 @@ Du får svar på følgende spørgsmål:
 
 Fødevarestyrelsen anbefaler Y-modellen til normalbefolkningen, som har et lavt til normalt aktivitetsniveau. Det betyder, at man træner under 1-1½ time om dagen.
 
-{% include figure image_path="https://altomkost.dk/fileadmin/user_upload/altomkost.dk/Publikationsdatabase/Logo_mv/Y-tallerken_boern.JPG" caption="Y-tallerken foreslået af [Fødevarestyrelsen](https://altomkost.dk/raad-og-anbefalinger/hjaelp-til-det-gode-maaltid/)" alt="Y-tallerken-modellen" %}
+{% include figure image_path="/assets/images/blog/y-tallerken.png" caption="Y-tallerken foreslået af [Fødevarestyrelsen](https://altomkost.dk/raad-og-anbefalinger/hjaelp-til-det-gode-maaltid/)" alt="Y-tallerken-modellen" %}
 
 Tallerkenen skal i Y-modellen bestå af følgende:
 
@@ -99,7 +100,7 @@ Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud:
 
 [Marina Aagaard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) formulerede i 2013 T-modellen. Marina Aagard var inspireret af tendenserne i _My Plate_ med mere grønt og lavede en forenklet model, som hun kaldte T-modellen.
 
-{% include figure image_path="https://fruslank.dk/wp-content/uploads/2018/02/T-TALLERKEN-modellen.jpg" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
+{% include figure image_path="/assets/images/blog/t-tallerken.jpg" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
 
 T-modellen er altså en forenkling af den amerikanske model.
 
