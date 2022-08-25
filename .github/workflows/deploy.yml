@@ -45,7 +45,7 @@ jobs:
           ruby-version: ${{ env.RUBY_VERSION }} # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: ⚡️ Cache node modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: cache-node-modules
         with:
@@ -63,7 +63,7 @@ jobs:
       - name: Checking Jekyll configuration
         run: bundle exec jekyll doctor
       - name: Cache jekyll
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
@@ -105,7 +105,7 @@ jobs:
     name: Build and Deploy Azure
     steps:
       - name: Use cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
@@ -138,13 +138,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer-${{ github.sha }}
@@ -162,7 +162,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
