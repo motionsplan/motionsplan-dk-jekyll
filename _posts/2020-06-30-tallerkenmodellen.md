@@ -100,7 +100,7 @@ Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud:
 
 [Marina Aagaard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) formulerede i 2013 T-modellen. Marina Aagard var inspireret af tendenserne i _My Plate_ med mere grønt og lavede en forenklet model, som hun kaldte T-modellen.
 
-{% include figure image_path="/assets/images/blog/t-tallerken.jpg" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
+{% include figure image_path="/assets/images/blog/t-tallerken.png" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
 
 T-modellen er altså en forenkling af den amerikanske model.
 
