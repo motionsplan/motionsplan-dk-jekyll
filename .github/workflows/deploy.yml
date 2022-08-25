@@ -62,6 +62,11 @@ jobs:
           npm install
       - name: Checking Jekyll configuration
         run: bundle exec jekyll doctor
+      - name: Cache jekyll
+        uses: actions/cache@v2
+        with:
+          path: "_site/"
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: 🔨 Build site
         run: bundle exec jekyll build --lsi
         env:
@@ -74,11 +79,6 @@ jobs:
         run: sudo apt-get install minify
       - name: Minifying files
         run: minify -r _site/ -o _site/ --html-keep-document-tags --html-keep-end-tags --html-keep-default-attrvals --verbose
-      - name: Cache jekyll
-        uses: actions/cache@v2
-        with:
-          path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}
   deploy:
     if: github.event_name == 'push'
     name: deploy
@@ -89,7 +89,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
@@ -108,7 +108,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: Remove exercise images
         uses: JesseTG/rm@v1.0.3
         with:
@@ -141,7 +141,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v2
@@ -165,7 +165,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-${{ github.run_number }}
+          key: ${{ runner.os }}-${{ github.run_number }}-${{ github.run_attempt }}
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
   close_pull_request_azure:
