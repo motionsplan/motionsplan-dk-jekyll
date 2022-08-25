@@ -110,7 +110,7 @@ Kroppens led kan inddeles i seks mekaniske typer led: hængselsled, drejeled, sa
 
 Her kan du se, hvor nogle af de forskellige ledtyper er placeret i kroppen.
 
-{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/909_Types_of_Synovial_Joints.jpg" alt="skelettet, led og ledtyper: ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-4-synovial-joints/)." %}
+{% include figure image_path="/assets/images/e/oregonstate-edu-aegte-ledtyper.jpg" alt="skelettet, led og ledtyper: ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-4-synovial-joints/)." %}
 
 ## Hvad er uægte led?
 
