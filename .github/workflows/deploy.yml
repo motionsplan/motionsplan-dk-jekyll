@@ -101,7 +101,7 @@ jobs:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     needs: build
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: Build and Deploy Azure
     steps:
       - uses: actions/checkout@v2
         with:
@@ -115,9 +115,10 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "./_site" # App source code path
+          skip_app_build: true
+          app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "" # Built app content directory - optional
+          output_location: "_site" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
           JEKYLL_ENV: development
