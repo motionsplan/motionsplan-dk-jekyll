@@ -42,7 +42,7 @@ Andersen testen er en [konditionstest](/test-kondition-konditest-kondital/), som
 
 Andersen testen er særlig god til test af børn, og det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/). Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), og den er samtidig meget nem at udføre og organisere.
 
-Testen udstiller heller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
+Testen udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
 
 ## Hvad er Andersen Test?
 

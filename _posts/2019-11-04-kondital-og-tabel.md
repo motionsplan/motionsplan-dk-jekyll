@@ -109,7 +109,7 @@ Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn 
 
 ## Hvad er de højeste kondital der er målt?
 
-Den norske skiløber, [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie), har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har ifølge [www.procycling.no](https://www.procycling.no/3467273/) slået rekorden for det højeste maksimale iltoptagelse, der er målt til 97,5 ml/min/kg.
+Den norske skiløber, [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie), har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har ifølge [www.procycling.no](https://www.procycling.no/3467273/) slået rekorden for den højeste maksimale iltoptagelse, der er målt til 97,5 ml/min/kg.
 
 Det er interessant, hvor mange nordmænd der er på listen over de højeste kondital i verden på [www.topendsports.com](https://www.topendsports.com/testing/records/vo2max.htm).
 
