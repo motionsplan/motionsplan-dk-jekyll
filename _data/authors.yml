@@ -18,7 +18,7 @@ lsolesen:
       url: "https://www.buymeacoffee.com/lsolesen"
 jesper.emil.jakobsgaard:
   name             : "Jesper Emil Jakobsgaard"
-  avatar           : "/assets/images/authors/jesper-emil-jakobsgaard.png"
+  avatar           : "/assets/images/authors/jesper-emil-jakobsgaard.jpg"
   bio              : "Ph.d.-studerende ved Aarhus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter. Underviser i fysisk træning ved Aarhus Universitet"
   links:
     - label: "Linkedin"
@@ -35,7 +35,7 @@ nikolai.jauk:
       url: "https://www.linkedin.com/in/najauk/"
 andreas.christensen:
   name             : "Andreas Kjærsgaard Christensen"
-  avatar           : "/assets/images/authors/andreas-christensen.png"
+  avatar           : "/assets/images/authors/andreas-christensen.jpg"
   bio              : "Siden januar 2017 har jeg været medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
   links:
     - label: "www.occlude.dk"
@@ -56,7 +56,7 @@ jakob.nielsson:
   featured: true
 karsten.thor.lund:
   name             : "Karsten Thor Lund"
-  avatar           : "/assets/images/authors/karsten-thor-lund.png"
+  avatar           : "/assets/images/authors/karsten-thor-lund.jpg"
   bio              : "Kandidat i Idræt fra Århus Universitet. Højskolelærer på Vejle Idrætshøjskole, hvor han bl.a. har ansvaret for styrketræning, calistenics og fodbold."
   links:
     - label: "Linkedin"
@@ -65,7 +65,7 @@ karsten.thor.lund:
   featured: true
 mads.davidsen:
   name             : "Mads Davidsen"
-  avatar           : "/assets/images/authors/madsdavidsen.png"
+  avatar           : "/assets/images/authors/madsdavidsen.jpg"
   bio              : "UEFA Pro Football Coach, Owner at Optima Football, Technical Director & Strategic Advisor, Author, Keynote speaker"
   links:
     - label: "Website"
@@ -80,7 +80,7 @@ mads.davidsen:
   featured: true
 martin.madsen:
   name             : "Martin Madsen"
-  avatar           : "/assets/images/authors/martinmadsen.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/authors/martinmadsen.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig underviser han fitnessinstruktører og politiaspiranter på Vejle Idrætshøjskole. Desuden er han tilknyttet Team Danmark."
   links:
     - label: "Linkedin"
@@ -89,7 +89,7 @@ martin.madsen:
       featured: true
 kathrine.christensen:
   name             : "Kathrine Christensen"
-  avatar           : "/assets/images/authors/kathrinechristensen.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/authors/kathrinechristensen.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Kathrine er en passioneret underviser og udøver af yoga og mindfulness meditation. Hun underviser på hold og workshops i primært i Vejle og Århus. Derudover underviser hun på Vejle Idrætshøjskole, DGI-huset Vejle og Mindfulness akademiet."
   links:
     - label: "Website"
@@ -98,7 +98,7 @@ kathrine.christensen:
   featured: true
 linda.kruse:
   name             : "Linda Kruse"
-  avatar           : "/assets/images/authors/lindakruse.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/authors/lindakruse.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Linda Kruse er bachelor i Idræt og Sundhed fra Syddansk Universitet. Hun arbejder som bevægelseskonsulent og projektleder i sundhedsafdelingen i Vejle Kommune - og driver Kroptimal."
   links:
     - label: "Website"

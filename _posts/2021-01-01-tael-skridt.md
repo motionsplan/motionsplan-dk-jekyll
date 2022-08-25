@@ -5,8 +5,8 @@ description: "Deltag i den landsdækkende kampagne Tæl skridt og vind op til 25
 permalink: /artikel/tael-skridt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - skridt
@@ -15,6 +15,7 @@ tags:
   - aktivitet
 category:
   - Sundhed
+  - Gang
 last_modified_at: 2021-12-24T10:51:18Z
 ---
 
@@ -40,7 +41,7 @@ Skridttællere placeres på hoften, på håndleddet eller i en lomme.
 
 > ”Det bliver hurtigt sjovt og vanedannende at følge sin egen udvikling, og mindst lige så sjovt at slå kollegerne. Det kan motivere en til at tage endnu flere skridt.”
 
---- <cite>[Nikolaj Nielsen], produktchef for avXperten.dk(https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }</cite>
+--- <cite>[Nikolaj Nielsen](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }, produktchef for avXperten.dk</cite>
 
 ## Får skridttællere folk til at gå mere?
 
@@ -74,7 +75,7 @@ Der er flere fysiske fordele ved at gå. Se bare på denne liste over fordele ve
 
 Der er også psykologiske fordele ved at gå mere. Og skridttælling kan motivere de fleste. Når du er mere aktiv - og særligt ved at gå - så foreslår [motion-oline.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" } følgende psykologiske fordele ved at gå:
 
-- **[Bedre søvn om natten](/soevn/)**. Når kroppen har været fysisk aktiv og er blevet træt på en naturlig måde, vil den lettere kunne finde ro og slappe af om natten.
+- **[Bedre søvn om natten](/soevn-optimering/)**. Når kroppen har været fysisk aktiv og er blevet træt på en naturlig måde, vil den lettere kunne finde ro og slappe af om natten.
 - **Færre spændinger**. Gang har en muskelafspændende effekt, som hjælper mod spændinger i fx skuldre og nakke.
 - **Humøret stiger**. Når du går, stiger produktionen af hormoner, særligt endorfiner. De er kroppens naturlige lykkestoffer, som gør os gladere og mere veltilpasse.
 - **Bedre indlæringsevne**.

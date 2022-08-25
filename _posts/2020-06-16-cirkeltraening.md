@@ -3,8 +3,8 @@ title: &title "Cirkeltræning: Effektiv træning - Øvelser og variationer"
 permalink: /cirkeltraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.4
   caption: *title
 category:
@@ -115,7 +115,7 @@ Der findes et utal af apps til Cirkeltræning, hvis du vil downloade et program 
 
 Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale følgende app til tidtagning.
 
-- **Interval timer**. Jeg bruger selv den gratis [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da) (dog med reklamer) fra Google Play Store, hvor jeg kan sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Google Play Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568).
+- **Interval timer**. Jeg bruger selv den gratis [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da){: rel="nofollow noopener" } (dog med reklamer) fra Google Play Store, hvor jeg kan sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Youtube Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568){: rel="nofollow noopener" }.
 
 ## Fordele ved cirkeltræning og circuit træning
 

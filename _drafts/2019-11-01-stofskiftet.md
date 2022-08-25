@@ -43,7 +43,7 @@ Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den en
 
 Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. PAL afhænger af den samlede fysiske aktivitet gennem hele dagen - både træning, men også mindre bevægelser. Energiforbruget brugt på fysisk aktivitet afhænger af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
 
-Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
+Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
@@ -57,9 +57,9 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
 {% comment %}
 
@@ -141,9 +141,9 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
 *[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)

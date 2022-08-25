@@ -4,8 +4,8 @@ permalink: /guide-til-loebeprogram/
 excerpt: "Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb
@@ -323,7 +323,7 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 ### Restitutionstræning
 
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstiden](/restitutionstid/).
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/).
 
 Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstraening.md %}).
 

@@ -8,8 +8,8 @@ redirect_from:
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor."
   alt: "Photo by Fitsum Admasu on Unsplash"
 category:
@@ -30,7 +30,7 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1612526420.jpg
+  - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale og har fine betragninger om løbeøknomomi. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
@@ -242,7 +242,7 @@ Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips t
 
 Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inden du får flyttet din løbeøkonomi.
 
-Allan Zachariasen og Jesper Petersen foreslår følgende [træningspas for at forbedre løbeøkonomien](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober).
+Allan Zachariasen og Jesper Petersen foreslår [følgende træningspas](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober) for at forbedre løbeøkonomien.
 
 ### 2) Løb i konkurrence-tempo
 

@@ -4,7 +4,7 @@ description: Er du på udkig efter udstyr til hjemmetræning? Så kan du se vore
 permalink: /fitnessbutikker/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Fitness
@@ -39,7 +39,7 @@ Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis
 
 Den Intelligente Krop er en af Danmarks førende webshops indenfor 'en sund krop i udvikling'. De har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit. Hjemmesiden er godt skruet sammen. Jeg har bl.a. købt mine [Blazepods](/blazepod/) på siden. Leveringen var hurtig, og der var en god kundeservice, da jeg havde spørgsmål.
 
-{% include figure image_path="/assets/images/blog/fitnessbutik-denintelligentekrop.png" alt="fitness webshop den intelligente krop" %}
+{% include figure image_path="/assets/images/blog/fitnessbutik-denintelligentekrop.jpg" alt="fitness webshop den intelligente krop" %}
 
 [Besøg Den Intelligente Krop »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 

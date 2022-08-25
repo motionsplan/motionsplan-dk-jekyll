@@ -1,12 +1,13 @@
 ---
 layout: single
-title: &title "Ryggen"
-seo_title: "Ryggen: Rygsøjlens anatomi og opbygning"
+title: &title "Ryggen og rygsøjlen"
+seo_title: "Rygsøjlen: Struktur og opbygning af de 24 ryghvirvler"
 permalink: /joints/rygsojlen/
 excerpt: "Din rygsøjle går fra halebenet og op til kraniet. Den består af 24 knoglehvirvler: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler."
 tags:
   - led
 categories:
+  - Anatomi
   - Led
 latin: ""
 movements:
@@ -38,17 +39,30 @@ header:
 toc: true
 sidebar:
   nav: anatomi
+last_modified_at: 2022-05-19T08:14:14.000Z
 ---
 
-{{ page.excerpt }}
+Din rygsøjle er en fantastisk ting. Den starter ved bunden af din rygsøjle, lige under dit haleben, og løber hele vejen op til din kraniebase.
 
-{% comment %}
+Rygsøjlen består af 24 ryghvirvler: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler. Hver af disse ryghvirvler har en specifik opgave, men de omtales oftest i forhold til deres sektioner i ryggen.
 
-Udover halebenet og korsbenet består rygsøjlen af 24 hvirvler. Disse kan inddeles i: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler.
+Her kigger vi på den [grundlæggende anatomi](/anatomi/) for rygsøjlen og ryghvirvlerne. Vi kigger på, hvilke [knogler](/knogler/) ryggen består af, og hvilke muskler der stabiliserer og bevæger rygsøjlen.
 
-Set fra siden er rygsøjlen S-formet med 4 krumninger, hvis man medtager halebenet. Det er vigtigt at vide, at halsdelen buer fremad, brystdelen buer bagud og lænden buer fremad (lændesvajet). Disse krumninger er med til at gøre rygsøjlen fjedrende overfor påvirkninger i længderetningen.
+## Hvad er rygsøjlen?
 
-Den lige rygstrækker (Erector Spinae) er betegnelsen for den muskulatur, der løber op langs selve rygsøjlen. I virkeligheden er det ikke een muskel, men et helt kompleks af større og mindre muskler, der løber både lige op og på skrå.
+Rygsøjlen er den centrale søjle i det menneskelige skelet. Den beskytter rygmarven og gør det muligt for os at stå oprejst. Inde i ryghvirvlerne løber rygmarven, som er et bundt af nervefibre, der transporterer nervesignaler mellem hjernen og resten af kroppen.
+
+Der er 24 ryghvirvler i rygsøjlen: syv halshvirvler (nakke), 12 brysthvirvler (midtersteryg) og fem lændehvirvler (nederste del af ryggen). Derudover er der også halebenet (coccyx) og korsbenet (en trekantet knogle i bunden af rygsøjlen, der er smeltet sammen med hoftebenene).
+
+Hvirvlerne er adskilt af båndskiver, der fungerer som støddæmpere. Skiverne består af et hårdt ydre lag (annulus fibrosus) og et blødt gel-lignende indre lag (nucleus pulposus).
+
+Set forfra og bagfra ser rygsøjlen lige ud. Set fra siden er rygsøjlen S-formet. Den består af fire krumninger.
+
+- Halsdelen buer sig fremad.
+- Brystdelen buer bagud.
+- Lænden buer fremad og kaldes ofte lændesvajet.
+
+Rygsøjlens naturlige kurve er med til at fordele kropsvægten og giver stabilitet. Krumningerne er medvirkende til at gøre rygsøjlen fjedrende overfor påvirkninger i længderetningen.
 
 ## Bevægelser i rygsøjlen
 
@@ -59,11 +73,13 @@ De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader
   {{ m.muscles | join: ", " }}
 {% endfor %}
 
-{% endcomment %}
+## Rygsøjlens anatomi
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 
 ## Muskler omkring rygsøjlen
+
+Den lige rygstrækker (Erector Spinae) er betegnelsen for den muskulatur, der løber op langs selve rygsøjlen. I virkeligheden er det ikke een muskel, men et helt kompleks af større og mindre muskler, der løber både lige op og på skrå.
 
 {% include anatomy/table-muscles-back.html %}
 

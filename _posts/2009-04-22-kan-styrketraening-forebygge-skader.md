@@ -50,7 +50,7 @@ Den generelle tilgang er, at styrketræning er skadesforebyggende, da en større
 
 I takt med at man indenfor videnskaben har fået bedre målemetoder, har man også kunne nuancere styrketræningens reelle effekter på fysiologiske parametre associeret med skadesrisici. En veldokumenteret effekt er i denne forbindelse styrketræningsøvelser, der indeholder et fokus på excentrisk muskelarbejde (Al Attar et al 2016). En periode med [excentrisk domineret styrketræning]({% link _posts/2020-08-24-excentrisk-traening.md %}) fx baglårsmuskulaturen gennem fx [øvelsen Nordic Hamstring]({% link _exercises/nordic-hamstring-12.md %}), har demonstreret at kunne øge antallet af kontraktile enheder i forlængelse af hinanden i en muskelcelle (hvilket skaber en øget længde af de såkaldte fasickler). Dette gør muskelcellerne, og hele musklen de er en del af, mere modstandsdygtig overfor overrivninger i forbindelse med høj-hastighedskontraktioner (fx under sprint) (Bourne et al 2018).
 
-Men det har også vist sig, at [okklusionstræning er effektivt i forbindelse med skader]({% link _posts/2021-01-30-okklusion-vol1.md %}).
+Men det har også vist sig, at [okklusionstræning er effektivt i forbindelse med skader](/introduktion-okklusionstraening/).
 
 ### Knæ og skadesforebyggelse
 

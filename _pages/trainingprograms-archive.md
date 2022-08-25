@@ -6,7 +6,7 @@ excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der p
 comments: false
 toc: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=5
   caption: "Træningsprogrammer: fullbody, 2-split, 3-split, 4-split og 5-split styrketræning"
 faq:

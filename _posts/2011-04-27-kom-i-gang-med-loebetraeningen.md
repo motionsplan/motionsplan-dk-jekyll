@@ -4,8 +4,8 @@ seo_title: "Løbetræning: Kom i gang med at løbe med et løbeprogram"
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - løb
@@ -27,7 +27,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1622156561.jpg
+  - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
@@ -167,7 +167,7 @@ Hvis du har løbet meget, men ikke helt ser den fremgang, du gerne vil, så har 
 
 Når du laver løbetræning og laver din træningsplanlægning, så kan du veksle mellem tre forskellige slags løbeture:
 
-1. **Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitution.md %}).
+1. **Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution](/restitution/).
 2. **Den hurtige tempotur omkring den anaerobe tærskel**. Dette tempo skal ligge omkring mælkesyregrænsen. Hvis du gerne vil finde, hvilken puls din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) ligger på, så svarer det nogenlunde til gennemsnitspulsen af et maksimalt løb på omkring 30 minutter til 60 minutter.
 3. **Højintense intervalløb**. Du kan træne kredsløbets maksimale iltoptagelse ved at arbejde omkring din maksimale ydeevne. Typisk kan du løbe maksimalt 6-10 minutter omkring den maksimale ydeevne, hvis du gerne vil teste, hvor hurtigt du skal løbe for at træne dette. Derfor træner man ofte med intervaller fra 2-5 minutter.
 

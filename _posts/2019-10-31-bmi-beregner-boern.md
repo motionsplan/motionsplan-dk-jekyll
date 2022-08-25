@@ -6,7 +6,7 @@ permalink: /bmi-beregner-boern-unge-teenagere/
 excerpt: "Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Beregnere
@@ -27,7 +27,7 @@ Body Mass Index (BMI) bruges ofte i forhold til børn, unge og teenagere. Vi har
 
 Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og vægt, men det skal fortolkes anderledes for børn end for voksne.
 
-Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/). 
+Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/).
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
@@ -71,7 +71,7 @@ I graferne nedefor kan du se de grænseværdier for børn, der anbefales af IOTF
 
 ## BMI tabel
 
-| Alder BMI	| Grænser	for	overvægt drenge | BMI	- Grænser	for	overvægt Piger | BMI - Grænser	
+| Alder BMI	| Grænser	for	overvægt drenge | BMI	- Grænser	for	overvægt Piger | BMI - Grænser
 for	svær overvægt Drenge | BMI	- Grænser	for	svær overvægt Piger |
 |-|-|-|-|-|
 | 2	år | 18,4 | 18,0 | 20,0 | 19,8 |

@@ -5,8 +5,8 @@ permalink: /metoder-hjemmetraening-kropsvaegt-mere-effektiv/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning
@@ -16,7 +16,7 @@ tags:
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-Vaegtvest-Produkt_900x.png?v=1625157946
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
     alt: "KINETIK Vægtvest VX1"
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."

@@ -5,8 +5,8 @@ permalink: /superkompensation/
 last_modified_at: 2020-07-06T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Superkompensation: Hvornår er jeg klar til at træne igen?"
 category:
   - Viden om
@@ -60,7 +60,7 @@ Når du udsætter kroppen for en stor belastning, fx gennem [intervaltræning](/
 
 Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas. 
 
-Denne genopbygningfase kaldes for [restitutionsfasen]({% link _posts/2020-05-28-restitution.md %}). Hvor hurtigt [restitutionstiden](/restitutionstid/) i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
+Denne genopbygningfase kaldes for [restitutionsfasen](/restitution/). Hvor hurtigt [restitutionstiden](/restitutionstid/) i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
 
 Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis kroppen ikke får et stimulus igen, så vil man falde tilbage til det gamle træningsniveau og venter man endnu længere, så kommer man i dårligere form.
 

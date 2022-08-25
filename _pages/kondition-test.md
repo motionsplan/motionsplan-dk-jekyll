@@ -7,7 +7,7 @@ title: &title "Test din kondition"
 seo_title: "Konditionstests: Test din kondition i gang, løb, cykling og roning"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
@@ -15,7 +15,7 @@ header:
       url: "/kondition/"
 classes: wide
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
     alt: "Om kondition og tests"
     title: "Om kondition og tests"
     excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
@@ -58,7 +58,7 @@ Her har du en oversigt over alle konditionstests. Vi har skrevet et indlæg, der
 
 ## Konditionstests til gang
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gåtest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gangtest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

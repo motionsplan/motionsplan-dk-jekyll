@@ -32,7 +32,7 @@ Træner du dit baglår og dine haser? Det tror jeg nok du går, så næste gang 
 
 Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges.
 
-Lad os dykke lidt ned i anatomien i baglåret.
+Lad os dykke lidt ned i anatomien i baglåret. Musklerne har nemlig både betydning for [knæledet](/joints/knaeleddet/) og [hofteleddet](/joints/hofteleddet/).
 
 {% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/bin/gr1.jpg" caption="Musklerne i baglåret. Kilde: [Ernlund og Viera (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/)" %}
 
@@ -40,7 +40,7 @@ Det er vigtigt at forstå, at musklerne i baglåret har flere funktioner - og at
 
 - **Fleksion af knæet** og **ekstension af hoften****.** Begge disse typer bevægelser skal altså en del af træningsprogrammet - og det er helt centrale bevægelser i sprint.
 
-{% include gallery caption="Musklerne i baglåret flekterer knæet og stræker hoften." %}
+{% include gallery caption="Musklerne i baglåret flekterer knæet og strækker hoften." alt="muskler i baglåret flekterer knæ og strækker hofte" %}
 
 - **væsentlige i nedbremsninger**. Musklerne i baglåret er meget vigtige, når man decellerer (bremser). Jo stærkere baglårsmuskler, jo hurtigere kan man stoppe, og derefter skifte retning og fortsætte sin fremdrift. Det kan atlså være en god ide med relativt tungt excentrisk arbejde - og måske endda isometrisk arbejde.
 - **bygget til hastighed**, og derfor har de ofte mange hurtige fibre. Træningen bør altså være eksplosiv, men også gerne excentrisk som tenderer til at rekruttere også de hurtige muskelfibre.
@@ -114,7 +114,7 @@ Derfor er det væsentligt at finde nogle øvelser, som kan forebygge skader i ba
 
 Du kan naturligvis bruge øvelserne ovenfor, men lad os også dykke lidt ned i videnskaben.
 
-## Øvelser som forebygger skader i baglåret
+## Øvelser som forebygger skader i hasemusklerne
 
 Horst et al (2015) har fundet ud af, at _Nordic Hamstring_-øvelsen er en rigtig god måde at forebygge baglårsskader for fodboldspillere, men det ikke reducerede alvorligheden af skaden.
 

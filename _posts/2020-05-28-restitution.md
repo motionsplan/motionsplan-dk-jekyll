@@ -4,8 +4,8 @@ excerpt: "Når man gerne vil bygge kroppen op, så skal man finde en balance mel
 permalink: /restitution/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:
@@ -180,7 +180,7 @@ Sørg for at der er en fornuftig balance i dit træningsprogram. Ved at have god
 
 Få en nogenlunde [jævn døgnrytme og søvnrytme](/soevn/), hvor du går får færdiggjort dine søvncyklusser. Sov i et helt mørkt værelse.
 
-**Læs:** [7 trin til optimering af din søvn](/soevn/)
+**Læs:** [7 trin til optimering af din søvn](/soevn-optimering/)
 
 ### 3. Kost, væske og ernæring
 
@@ -303,7 +303,7 @@ Men tilsyneladende er det altså ikke min alder, der gør, at jeg synes restitut
 
 Du kan også lade dig inspirere af Team Danmarks restitutionskoncept, som har forsøgt at sætte det sammen i en samlet figur over restitution.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" %}
 
 ## Konklusion
 

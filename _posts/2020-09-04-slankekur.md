@@ -4,8 +4,8 @@ toc: true
 permalink: /slankekur/
 title: "Vægttab: Effektiv slankekur der virker fra Ude & Hjemme ⚖"
 header:
-  overlay_image: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Vægttab: Utrolig effektiv slankekur der virker fra Ude og Hjemme"
 language: da
 category:
@@ -83,7 +83,7 @@ På den måde havde jeg maksimeret, hvad jeg kan tjene på at teste slankekuren 
 
 Kortvarige slankekure kommer aldrig til at virke. Faktisk er det usundt at have en vægt, der går op og ned.
 
-Ude og Hjemmes kure har ofte rigtig kort varighed, for så kan læserne næste uge igen hoppe på den nye mirakel-slankekur.
+Ude og Hjemmes kure har ofte rigtig kort varighed, for så kan læserne næste uge igen hoppe på den nye mirakel-slankekur. Årsagen er naturligvis, at mange gerne vil [tabe fedt på maven](/tab-fedt-paa-maven/).
 
 Med en slankekur skal du i øvrigt altid huske, at når du har tabt dig, så har du brug for mindre dagligt energi. Det er også derfor, at en slankekur meget sjældent virker. Du kan nemlig aldrig gå tilbage til dine gamle spisevaner uden at tage det hele på igen, fordi du nu skal bruge mindre energi.
 

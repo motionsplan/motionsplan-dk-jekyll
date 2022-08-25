@@ -1,13 +1,14 @@
 ---
 layout: single
 title: &title "Knæleddet"
-seo_title: "Knæleddet: Knæets opbygning og anatomi"
-excerpt: "Knæleddet er kroppens største led. Knæleddet danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener og ligamenter både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i patella-senen, der går fra lårmusklen og ned på skinnebenet."
+seo_title: "Knæleddet: Knæets komplicerede opbygning og anatomi"
+excerpt: "Knæleddet er kroppens største led. Knæleddet er et hængselled, der danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener og ligamenter både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i patella-senen, der går fra lårmusklen og ned på skinnebenet."
 permalink: /joints/knaeleddet/
 latin:
 tags:
   - led
 categories:
+  - Anatomi
   - Led
 movements:
   - title: Bøjning
@@ -25,25 +26,32 @@ header:
 toc: true
 sidebar:
   nav: anatomi
+last_modified_at: 2022-05-19T08:14:14.000Z
 ---
 
-Knæleddet er kroppens største og mest komplicerede led. Knæleddet danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i en sene, der går fra lårmusklen og ned på skinnebenet.
+Vidste du, at knæleddet er det største og mest komplicerede led i kroppen? Knæleddet forbinder lårbenet, skinnebenet og knæskallen. Det er stabiliseret af en række stærke sener både inde i knæet og på indersiden og ydersiden af knæet.
 
-Du kan læse mere om knæleddet i [knæets anatomi på ondtiknæet.dk](https://ondtiknaet.dk/knaeets-anatomi/).
+Knæskallen er omsluttet af en sene, der løber fra lårmusklen ned langs skinnebenet. Hvis du vil vide mere om knæleddet, så er du kommet til det rette sted.
 
-{% comment %}
+Her kigger vi lidt på [anatomien](/anatomi/) i knæet, hvilke [knogler](/knogler/) og [muskler](/muskler/), der er involveret i at holde knæet stabilt og funktionsdygtigt.
 
-Dette er ikke mærkeligt når man tænker på de belastninger leddet udsættes for f.eks. under idrætsudfoldelse. Af samme grund opstår der ofte skader i dette led, og det er derfor vigtigt at kende til dets opbygning.
+## Hvad er knæleddet?
 
-Knæleddet er nærmest et hængselled, men når knæet er flekteret kan der laves drejebevægelser med underbenet. Ledfladerne dannes af lårbenet og skinnebenet. Knæskallen danner også ledforbindelser til disse to knogler. Knæskallen sidder indskudt i senen fra den firhovede knæstrækker, der fæster på forsiden af skinnebenet.
+Knæleddet er et [hængselled](/led/). Lårbenet og skinnebenet danner ledfladerne.
 
-Imellem ledfladerne i knæleddet er der indskudt menisker, der dels udfylder ledhulen og dels medvirker til stødabsorption. Meniskerne er halvmåneformede bruskskiver, der ligger forholdsvis løst i ledhulen. Ved vridning af knæet under stor belastning kan de derfor bliver revet i stykker.
+**Knæskallen** ligger indskudt i senen, som går fra den store firehovede knæstrækker to ned og hæfter forrest på skinnebenet. Knæskallen ligger udvendigt på leddet og har også ledflader mod både lårbenet og skinnebenet.
 
-Inde i ledhulen findes også korsbåndene. Disse sørger primært for at underbenet ikke kan glide frem eller tilbage i forhold til lårbenet. Oftest er det det forreste korsbånd der bliver beskadiget/overrevet. Det forreste korsbånd holder normalt underbenet tilbage, man kan derfor delvist erstatte dets funktion ved at optræne hasemusklerne.
+Når knæet er bøjet, så kan man faktisk lave små drejebevægelser i underbenet.
 
-Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere når knæet bøjes. Kort sagt kan man sige at jo mere knæet er flekteret, jo større belastning udsættes leddet for og jo mere ustabilt bliver det. Man bør derfor undgå langvarige eller store belastninger med en knævinkel der er dybere end 90 grader.
+I knæleddet finder du **menisker**, som udfylder ledhulen i knæleddet og har en stødabsorberende effekt. Meniskerne er små bruskskiver, som kan få skader ved vrid i knæet.
 
-{% endcomment %}
+I ledhulen er der **korsbånd**. Korsbåndenes primære funktion er at sikre, at underbenet ikke kan glide frem eller tilbage i forhold til lårbenet. Korsbåndenes funktion suppleres af musklerne, som også er med til at stabilisere knæet. Det er bl.a. en af grundene til, at du bør [træne hasemusklerne](/artikel/traener-du-dine-haser/) for at støtte det forreste korsbånd, så underbenet ikke kan skride frem i ledkapslen.
+
+Ledkapslen er på siderne forstærket af **sideledbånd** på både udvendige og indvendige side.
+
+## Skader i knæet og knæleddet
+
+Knæet er et af de led, hvor man ofte hører om alvorlige skader. Men knæleddet skal også holde til rigtig høje belastninger under idrætsudøvelse.
 
 ## Bevægelser i knæleddet
 
@@ -51,6 +59,8 @@ Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere
 - **{{ m.title }}**.
   {{ m.muscles | join: ", " }}
 {% endfor %}
+
+## Knæets anatomi
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 

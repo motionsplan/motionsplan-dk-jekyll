@@ -67,6 +67,9 @@ const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 const treadmill = require('../js/treadmill');
 const flyer_handicap = require('../js/flyer-handicap');
+const rowing_power_calculator = require('../js/rowing-power-calculator');
+const rowing_vo2 = require('../js/rowing-vo2');
+const rowing_powerprofile = require('../js/rowing-ergrowing');
 require('image-map-resizer');
 
 $(function() {
@@ -458,7 +461,7 @@ $(function() {
         console.log("Calculate FTPa");
         e.preventDefault();
 
-      let ftp = Number($("#ftpa").val());
+        let ftp = Number($("#ftpa").val());
 
         $("#ftpa_value").text(ftp);
 
@@ -469,6 +472,18 @@ $(function() {
         $("#ftpa_vo2").val((ftp * 0.97).toFixed(0) + '-' + (ftp * 1.01).toFixed(0));
         $("#ftpa_anaerob").val((ftp * 0.90).toFixed(0) + '-' + (ftp * 0.97).toFixed(0));
     });
+    $("#calculator_koffein").submit(function(e) {
+        console.log("Calculate Koffein");
+        e.preventDefault();
+
+        let weight = $("#body_weight").val();
+        let koffein_intake_kg = $("#koffein_intake_kg").val();
+        let recommended_koffein_intake = koffein_intake_kg * weight;
+        // let equals_to =  recommended_daily_protein_intake / food_protein * 100;
+        $("#koffein_intake").val(recommended_koffein_intake);
+        //$("#equals_to").val(equals_to.toFixed());
+        //$("#food").text(food);
+  });
     $("#calculator_kroppens_rumfang").submit(function(e) {
       console.log("Calculate Kroppens Rumfang");
       e.preventDefault();
@@ -1827,7 +1842,7 @@ $(function() {
 
       let hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
 
-        $("[name='reference_distance']").val(hr.getReferenceMeter(repeated));
+        $("[name='reference_distance']").val(hr.getReferenceMeter(repeated).toFixed(1));
         $("[name='procent']").val(hr.getPercent(repeated).toFixed(0));
         $("#walktest_gauge").val(hr.getPercent(repeated));
     });
@@ -1961,23 +1976,191 @@ $(function() {
         console.log("Calculate CP Time");
         e.preventDefault();
 
-      let cp = Number($("[name='time_cp']").val());
-      let w = Number($("[name='time_w']").val());
-      let p = Number($("[name='time_p']").val());
+        let cp = Number($("[name='time_cp']").val());
+        let w = Number($("[name='time_w']").val());
+        let p = Number($("[name='time_p']").val());
 
-      let time = ((1000 * w) / (p - cp));
+        let time = ((1000 * w) / (p - cp));
 
         $("[name='time']").val(time.toFixed(0));
+    });
+    $("#calculator_rowing_2000_meter_time").submit(function(e) {
+      console.log("Calculate VO2max rowing");
+      e.preventDefault();
+
+      let min = Number($("[name='tid_min']").val());
+      let sek = Number($("[name='tid_sek']").val());
+      let bw = Number($("[name='rowing_body_weight']").val());
+      let gender = $("[name='rowing_gender']").val();
+
+      let b = rowing_power_calculator.RowingPowerCalculator();
+      let pace = b.getPaceFromTimeAndDistance(2000, min, sek);
+
+      let WM = b.getWattsFromPace(pace);
+
+      let r = rowing_vo2.RowingVO2(WM, gender);
+
+      $("[name='vo2_max']").val(r.getVO2().toFixed(2));
+      $("[name='kondital']").val(r.getFitnessLevel(bw).toFixed(0));
+      $("[name='mean_power']").val(WM.toFixed(0));
+    });
+    $("#calculator_rowing_trappetest").submit(function(e) {
+      console.log("Calculate VO2max rowing");
+      e.preventDefault();
+
+      let min = Number($("[name='trappetest_tid_min']").val());
+      let sek = Number($("[name='trappetest_tid_sek']").val());
+      let bw = Number($("[name='trappetest_body_weight']").val());
+      let second_watt = Number($("[name='trappetest_second_watts']").val());
+      let last_watt = Number($("[name='trappetest_last_watts']").val());
+
+      let increment = last_watt - second_watt;
+
+      let time_on_increment = (min + ((sek / 60) / 100)) / 5;
+
+      let power = second_watt + (increment * time_on_increment);
+
+      let vo2max = (13.7 * power + 287) / 1000;
+      let kondital = vo2max / bw * 1000;
+
+      $("[name='trappetest_vo2_max']").val(vo2max.toFixed(2));
+      $("[name='trappetest_kondital']").val(kondital.toFixed(0));
+      $("[name='trappetest_mean_power']").val(power.toFixed(0));
+    });
+    $("#calculator_rowing_powerprofile").submit(function(e) {
+      console.log("Calculate VO2max rowing");
+      e.preventDefault();
+
+      let min = Number($("[name='roning_pp_tid_min']").val());
+      let sek = Number($("[name='roning_pp_tid_sek']").val());
+      let ms = Number($("[name='roning_pp_tid_ms']").val());
+
+      let b = rowing_powerprofile.RowingErgRowing(min, sek, ms);
+
+      $("#pace10sec").text(b.getPaceFromWatts(b.getWatts10Sec()));
+      $("#pace60sec").text(b.getPaceFromWatts(b.getWatts60Sec()));
+      $("#pace2k").text(b.getPaceFromWatts(b.getWatts2k()));
+      $("#pace6k").text(b.getPaceFromWatts(b.getWatts6k()));
+      $("#pace60min").text(b.getPaceFromWatts(b.getWatts60min()));
+
+      $("#watts10sec").text(b.getWatts10Sec().toFixed(0));
+      $("#watts60sec").text(b.getWatts60Sec().toFixed(0));
+      $("#watts2k").text(b.getWatts2k().toFixed(0));
+      $("#watts6k").text(b.getWatts6k().toFixed(0));
+      $("#watts60min").text(b.getWatts60min().toFixed(0));
+
+      /*
+      //RENDER CHART
+      var speedCanvas = document.getElementById("speedChart");
+
+      //Chart.defaults.global.defaultFontFamily = "Lato";
+      //Chart.defaults.global.defaultFontSize = 18;
+
+      var speedData = {
+        labels: [
+          moment().set({ minutes: 0, seconds: 10 }),
+          moment().set({ minutes: 1, seconds: 0 }),
+          moment().set({
+            minutes: score_min_sec(calculate_score(watts2k, 2000), "min"),
+            seconds: score_min_sec(calculate_score(watts2k, 2000), "sec"),
+          }),
+          moment().set({
+            minutes: score_min_sec(calculate_score(watts6k, 6000), "min"),
+            seconds: score_min_sec(calculate_score(watts6k, 6000), "sec"),
+          }),
+          moment().set({ minutes: 60, seconds: 00 }),
+        ],
+
+        datasets: [
+          {
+            label: "Watts/Time",
+            data: [
+              parseFloat(watts10sec).toFixed(1),
+              parseFloat(watts60sec).toFixed(1),
+              parseFloat(watts2k).toFixed(1),
+              parseFloat(watts6k).toFixed(1),
+              parseFloat(watts60min).toFixed(1),
+            ],
+            lineTension: 0.3,
+            fill: false,
+            borderColor: "blue",
+            backgroundColor: "transparent",
+            pointBorderColor: "#007bff",
+            pointBackgroundColor: "rgba(255,150,0,0.5)",
+            // borderDash: [5, 1],
+            pointRadius: 5,
+            pointHoverRadius: 10,
+            pointHitRadius: 30,
+            pointBorderWidth: 2,
+            pointStyle: "rectRounded",
+          },
+        ],
+      };
+
+      var chartOptions = {
+        legend: {
+          display: true,
+          position: "top",
+          labels: {
+            boxWidth: 30,
+            fontColor: "black",
+          },
+        },
+
+        scales: {
+          xAxes: [
+            {
+              type: "time",
+              time: {
+                unit: "minute",
+                unitStepSize: 5,
+                round: "second",
+                tooltipFormat: "mm:ss",
+                displayFormats: {
+                  minute: "mm:ss",
+                },
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Time MM:SS",
+                fontColor: "grey",
+              },
+            },
+          ],
+
+          yAxes: [
+            {
+              gridLines: {
+                color: "black",
+                // borderDash: [2, 5],
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "Watts (W)",
+                fontColor: "grey",
+              },
+            },
+          ],
+        },
+      };
+
+      var lineChart = new Chart(speedCanvas, {
+        type: "line",
+        data: speedData,
+        options: chartOptions,
+      });
+    */
+
     });
     $("#calculator_critical_power_power_for_time").submit(function(e) {
         console.log("Calculate CP Power for time");
         e.preventDefault();
 
-      let cp = Number($("[name='power_time_cp']").val());
-      let w = Number($("[name='power_time_w']").val());
-      let t = Number($("[name='power_time_time']").val());
+        let cp = Number($("[name='power_time_cp']").val());
+        let w = Number($("[name='power_time_w']").val());
+        let t = Number($("[name='power_time_time']").val());
 
-      let p = ((1000 * w) / t) + cp;
+        let p = ((1000 * w) / t) + cp;
 
         $("[name='power_for_time']").val(p.toFixed(0));
     });
@@ -1985,9 +2168,9 @@ $(function() {
         console.log("Calculate Bruce");
         e.preventDefault();
 
-      let T = Number($("[name='bruce_time']").val());
+        let T = Number($("[name='bruce_time']").val());
 
-      let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
+        let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
 
         $("[name='bruce_kondital']").val(kondital.toFixed(0));
     });
@@ -1995,11 +2178,11 @@ $(function() {
         console.log("Calculate CP");
         e.preventDefault();
 
-      let p3 = Number($("[name='p3']").val());
-      let p12 = Number($("[name='p12']").val());
+        let p3 = Number($("[name='p3']").val());
+        let p12 = Number($("[name='p12']").val());
 
-      let cp = ((12 * p12) - (3 * p3)) / 9;
-      let w = 0.24 * (p3 - p12);
+        let cp = ((12 * p12) - (3 * p3)) / 9;
+        let w = 0.24 * (p3 - p12);
 
         $("[name='cp']").val(cp.toFixed(0));
         $("[name='w']").val(w.toFixed(0));
@@ -2009,13 +2192,13 @@ $(function() {
         console.log("Calculate Blood");
         e.preventDefault();
 
-      let formula = $("[name='bloodvolume-formula']").val();
-      let gender = $("[name='gender']").val();
-      let age = Number($("[name='age']").val());
-      let weight = Number($("[name='weight']").val());
-      let height = Number($("[name='height']").val());
+        let formula = $("[name='bloodvolume-formula']").val();
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
 
-      let b = blood.Blood(gender, age, weight, height);
+        let b = blood.Blood(gender, age, weight, height);
 
         $("[name='bloodvolume']").val(b.getVolume().toFixed(0));
     });

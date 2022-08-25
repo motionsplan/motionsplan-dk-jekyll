@@ -4,15 +4,15 @@ seo_title: "Liste over sportsgrene, idræt og motion (2022)"
 permalink: /sportsgrene-liste/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Viden om
 tags:
   - liste
   - sportsgrene
-last_modified_at: 2019-09-03T23:14:14Z
+last_modified_at: 2022-07-03T23:14:14Z
 toc: true
 dialaegt:
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/cykelrytteren-klassisk-graa_600x600.jpg?v=1606398625
@@ -265,7 +265,7 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 
 Jeg håber du fandt noget inspiration til, hvilken sport, idræt og motion du gerne vil gå til.
 
-Jeg har i hvert fald forsøgt at lave en liste over alle sportsgrene i Danmark. Der kan vælge største sportsgrene i Danmark, men du kan sikkert også finde sjove sportsgrene, du ikke anede eksisterede.
+Jeg har i hvert fald forsøgt at lave en liste over alle sportsgrene i Danmark. Du kan vælge største idrætsgrene i Danmark, men du kan sikkert også finde sjove idrætter, du ikke anede eksisterede. Jeg er selv blevet ret glad for [discgolf](/discgolf/), som er en god måde også at få [gået nogle skridt](/skridt-pr-km-10000/).
 
 Hvis du har tilføjelser eller forbedringer til at listen, så skriv endelig.
 

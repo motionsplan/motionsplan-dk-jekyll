@@ -4,8 +4,8 @@ permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning
@@ -68,11 +68,11 @@ Trænede løftere med nogenlunde de stats kan altså med eksplosive, specifikke 
 
 Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [elitefts.com](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) skriver mere om, hvordan man kan bruge depth jumps til at forbedre sin squat.
 
-{% include pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.png" %}
+{% include pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.jpg" %}
 
 ## Heavy walkouts og liftoffs
 
-[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
+[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs/) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
 
 Kuster forelår, at man sætter **10% ekstra på stangen** i forhold til det, du vil løfte som din 1RM. Formålet er, at **bære vægten i omkring 10 sekunder**, inden man sætter den pænt på plads igen. Så **venter du 5 minutter og prøver dit maxforsøg**.
 

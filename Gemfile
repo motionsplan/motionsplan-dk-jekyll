@@ -8,11 +8,9 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
     gem 'jekyll-gist'
     gem 'jekyll-include-cache'
-    gem 'jekyll-remote-theme'
     gem 'jekyll-sitemap'
     gem 'jekyll-gzip'
     gem 'jekyll-brotli'
-    gem "jekyll-algolia"
 end
 gem 'classifier-reborn'
 gem 'gsl'

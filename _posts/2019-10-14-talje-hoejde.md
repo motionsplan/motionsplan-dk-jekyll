@@ -6,7 +6,7 @@ excerpt: "Studier har vist, at forholdet mellem din taljeomkreds og din højde e
 permalink: /talje-hoejde-beregner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1633009824205-51c01df4b577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1633009824205-51c01df4b577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test
@@ -23,7 +23,7 @@ Talje-højde-forholdet siger ifølge studier noget om din risiko for livsstilssy
 
 *[WHR]: Waist/Hip-ratio
 
-[Taljemålet](/taljemaal) er et meget udbredt mål, men ulempen er, at det ikke er helt retfærdigt i forhold personer som ligger langt fra den [gennemsnitlige højde](/hvad-er-gennemsnitshoejden-i-danmark/). Derfor er det mere og mere udbredt at sætte taljemålet i forhold til højden. Dette mål vinder også indpas i de internationale studier.
+[Taljemålet](/taljemaal/) er et meget udbredt mål, men ulempen er, at det ikke er helt retfærdigt i forhold personer som ligger langt fra den [gennemsnitlige højde](/hvad-er-gennemsnitshoejden-i-danmark/). Derfor er det mere og mere udbredt at sætte taljemålet i forhold til højden. Dette mål vinder også indpas i de internationale studier.
 
 Her kigger vi på baggrunden for talje-højde-målet. Men lad os springe direkte til vores beregner først.
 
@@ -63,7 +63,7 @@ Det ser ud til at være forbundet med lavere risiko for livsstilssygdomme, hvis 
 
 Talje-højde-målet er blevet plottet ind i en simpel _Shape Chart_ foreslået af Ashwell (bl.a. 2011). Se også [Ashwell (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223160/).
 
-{% include figure image_path="https://www.nebido.com/sites/g/files/vrxlpx13426/files/2020-08/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. Kilde: [Ashwell Shape Chart](https://www.nebido.com/hcp/tools/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
+{% include figure image_path="https://www.nebido.com/sites/g/files/vrxlpx39276/files/2020-08/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. Kilde: [Ashwell Shape Chart](https://www.nebido.com/hcp/tools/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
 
 ## Mere om de forskellige taljemål
 

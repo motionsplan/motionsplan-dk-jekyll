@@ -55,7 +55,7 @@ const urls = posts.map(post => objectToParams({
     'post-excerpt': post.description || post.excerpt || '',
     'author-name': post.author && authors[post.author].name || authors['lsolesen'].name || '',
     'author-image': post.author && authors[post.author].avatar || authors['lsolesen'].avatar || '',
-    'post-image': post.header.overlay_image || '',
+    'post-image': post.header.featured_image || post.header.image || post.header.overlay_image || post.header.teaser || 'https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80',
   })
 ).map(params => {
   // use `utoa` to encode emojis/special characters

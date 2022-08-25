@@ -6,8 +6,8 @@ redirect_from:
   - /artikel/hvordan-kan-du-laese-en-videnskabelig-artikel/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - videnskab
@@ -104,7 +104,7 @@ I lang tid troede man, at sukker var direkte skyld i overvægt, da der indtil fo
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">US added sugar intake vs. obesity prevalence. Sugar intake has decreased more than 15% since 1999. <a href="https://t.co/udhP5ubrR6">pic.twitter.com/udhP5ubrR6</a></p>&mdash; Stephan Guyenet, PhD (@whsource) <a href="https://twitter.com/whsource/status/669638118400749568?ref_src=twsrc%5Etfw">November 25, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Man skal virkelig være varsom med at fortolke en korrelation som kausalitet. Tyler Vigen har lavet en side, han kalder [spurious correlations](http://tylervigen.com/).
+Man skal virkelig være varsom med at fortolke en korrelation som kausalitet. Tyler Vigen har lavet en side, han kalder [spurious correlations](https://tylervigen.com/spurious-correlations).
 
 Her er et par humoristiske eksempler på korrelationer, som næppe er kausale årsagssammenhænge.
 
@@ -112,11 +112,11 @@ Her er et par humoristiske eksempler på korrelationer, som næppe er kausale å
 
 Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](https://medium.com/@menaka_17260/will-your-bedsheet-kill-you-if-you-consume-cheese-aka-does-correlation-imply-causation-5453c6901b88):
 
-{% include figure image_path="https://miro.medium.com/max/912/0*13a3q6hWpsLBnNtr." caption="Der er en korrelation mellem salget af ost og dødsfald efter at være blevet viklet ind i sit lagen. Kausalitet? Næppe! Kilde: [tylervigen.com](http://www.tylervigen.com/spurious-correlations)." %}
+{% include figure image_path="https://miro.medium.com/max/912/0*13a3q6hWpsLBnNtr." caption="Der er en korrelation mellem salget af ost og dødsfald efter at være blevet viklet ind i sit lagen. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/spurious-correlations)." %}
 
 Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mellem druknede og film med Nicolas Cage](https://www.nationalgeographic.com/science/phenomena/2015/09/11/nick-cage-movies-vs-drownings-and-more-strange-but-spurious-correlations/):
 
-{% include figure image_path="http://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! - via [tylervigen.com](http://tylervigen.com/view_correlation?id=359). " %}
+{% include figure image_path="https://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359). " %}
 
 Korrelation bliver ofte forvekslet med kausalitet i medierne og i fitnessmiljøet. Når man laver fejlfortolkninger, så kan det ende med at specifikke næringsstoffer eller fødevarer bliver gjort til uretmæssig syndebuk - tag bare et kig på sukker, kulhydrater og mælkeprodukter. Men det gælder også årsagssammenhænge i forhold til folks vægt og sindstilstand.
 

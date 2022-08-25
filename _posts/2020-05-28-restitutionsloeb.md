@@ -6,8 +6,8 @@ redirect_from:
   - /restitutionloeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:
@@ -21,7 +21,7 @@ last_modified_at: 2022-04-20T08:14:14Z
 toc: true
 ---
 
-Restitutionsløb er en af de strategier, du kan bruge, når kroppen skal bygges op igen efter en hård træning. Du kan [fremme restitutionen]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstiden](/restitutionstid/), hvis du løber en langsom tur med lav intensitet.
+Restitutionsløb er en af de strategier, du kan bruge, når kroppen skal bygges op igen efter en hård træning. Du kan [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/), hvis du løber en langsom tur med lav intensitet.
 
 ## Hvad er restitutionsløb?
 

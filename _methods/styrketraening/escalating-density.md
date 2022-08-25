@@ -7,14 +7,14 @@ header:
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "Inden for hver træningsblok er målet at udføre så mange sæt med en given vægt som overhovedet muligt. Som udgangspunkt skal du starte med en vægt, der svarer til den maksimale vægt, du kan løfte 10-12 gange."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

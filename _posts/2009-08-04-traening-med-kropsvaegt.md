@@ -5,8 +5,8 @@ redirect_from:
   - /artikel/traening-med-kropsvaegt
 language: da
 header:
-  overlay_image: /assets/images/blog/traening-med-kropsvaegt.jpg
-  teaser: /assets/images/blog/traening-med-kropsvaegt.jpg
+  overlay_image: https://images.unsplash.com/photo-1599744331120-3226c87a6e25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1599744331120-3226c87a6e25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 tags:
   - styrketræning
   - kropsvægt
@@ -14,7 +14,7 @@ category:
   - Styrketræning
 last_modified_at: 2020-02-13T22:09:52Z
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-Vaegtvest-Produkt_900x.png?v=1625157946
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
     alt: "KINETIK Vægtvest VX1"
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."

@@ -3,8 +3,8 @@ title: &title "Starting Strength: Styrketræningsprogram af Mark Rippetoe"
 permalink: /starting-strength-styrketraeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning
@@ -177,7 +177,7 @@ Starting Strength er altså ikke bare linære programmering i det uendelige. Nå
 
 ## Mark Rippetoes træningstips til Starting Strength
 
-Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/), din hvile og sørger for at få rigeligt at spise.
+Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution](/restitution/) og [restitutionstid](/restitutionstid/), din hvile og sørger for at få rigeligt at spise.
 
 ## 1. Hvil rigeligt
 

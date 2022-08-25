@@ -8,8 +8,8 @@ redirect_from:
 excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
   - Kondition
@@ -53,6 +53,8 @@ Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fys
 
 Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
+{% include lead-magnet-button.html %}
+
 I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
 
 - Hvad er en god Cooper test?
@@ -75,6 +77,8 @@ I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
 {% include calculate-fitness-cooper.html %}
 
 Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering af konditallet i denne [tabel over kondital](/kondital/).
+
+{% include lead-magnet-button.html %}
 
 ## Baggrund for kondital og Cooper-test
 
@@ -104,11 +108,11 @@ kondital = (22,351 x distance i kilometer) - 11,288
 
 ***
 
-Der findes vist også formler, der inkluderer vægt, køn og alder, men jeg har ikke kunnet finde dem specifikt.
+Der findes vist også formler, der inkluderer vægt, køn og alder, men dem har jeg ikke kunnet finde.
 
 Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at bruge den samme formel hver gang.
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit resultat med [tabellen over kondital for mænd og kvinder](/kondital/).
 
 ## Usikkerheder i Cooper-testen
 
@@ -284,6 +288,8 @@ Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er
 Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-testen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+
+{% include lead-magnet.html %}
 
 ## Referencer
 

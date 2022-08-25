@@ -1,13 +1,14 @@
 ---
 title: &title "Hvor mange muskler har mennesket i kroppen? 💪"
-seo_title: "Hvor mange muskler har mennesket i kroppen?"
+seo_title: "Hvor mange muskler er der i menneskekroppen? (Omkring 7000)"
+description: "Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt."
 permalink: /hvor-mange-muskler-i-kroppen/
 last_modified_at: 2021-01-18T09:41:09Z
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Anatomi
@@ -16,9 +17,13 @@ tags:
   - anatomi
 ---
 
-Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt.
+Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt.
+
+Det korte svar på spørgsmålet er, at det er der måske ikke nogen, der nøjagtigt ved. Derfor må vi operere med et cirkatal.
 
 Hvor mange muskler er der i kroppen? **Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer meget an på, hvordan man tæller. Der er kun 200-300 muskler, som selv massageterapeuter og fysioterapeuter er interesserede i.**
+
+## Hvor mange muskler har vi i kroppen?
 
 På [Wikipedia](https://da.wikipedia.org/wiki/Krop) står der meget præcist, at der er 639 muskler i kroppen. Alle mennesker har de samme muskler, men størrelsen og formen på musklerne kan variere, og derfor ser vi ret forskellige ud.
 
@@ -65,7 +70,7 @@ Paul Ingraham samler derfor følgende liste i forhold til, hvor mange muskler de
 
 ## Hvor mange skeletmuskler har vi?
 
-Skeletmusklerne kaldes også den tværstribede skeletmuskulatur. Den er under hjernens kontrol. 
+Skeletmusklerne kaldes også den tværstribede skeletmuskulatur. Den er under hjernens kontrol.
 
 Den viljestyrede muskulatur har et tværstribet mønster. Viljestyrede muskler, som dem vi har i armene og benene, er under bevidsthedens kontrol. De trækker sig kun sammen, når hjernen giver besked om det.
 
@@ -93,4 +98,4 @@ Men hvis du kun tæller skeletmuskulaturen med, så er der omkring 700 muskler. 
 
 Jeg har skrevet mere om, hvordan [muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}) og jeg har også lavet en [muskeloversigt]({% link _pages/anatomy/muscles.md %}), hvor du kan se de mest nødvendige muskler i forhold til træning.
 
-Hvis du leder efter, hvor mange [knogle menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.
+Hvis du leder efter, hvor mange [knogler menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.

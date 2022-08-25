@@ -7,14 +7,14 @@ header:
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "Isometrisk træning vil sige, at man spænder musklerne uden af bevæge dem eller ledet. Det kommer fra Iso (samme) og metric (afstand). Hvis man er ude efter rigtig styrke, så skal man udføre både dynamisk og isometrisk styrketræning."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:
@@ -112,7 +112,7 @@ One of the best ways to take advantage of yielding isometrics is to perform them
 Yielding Isometrics Upper Back Routine
 
 A1: Shoulder-width supinated chin ups, 5 x 5-7***, 4/0/X/0, 180 seconds rest
-A2: Seated cable rope face pull, 3 x 10-12, 2/0/1/2, 120 seconds rest 
+A2: Seated cable rope face pull, 3 x 10-12, 2/0/1/2, 120 seconds rest
 ***Perform 3 seperate 8-second isometric pauses on the eccentric portion of your final repetition. You should perform these pauses near the top, at mid-range, and near the bottom of the exercise.
 
 In my experience the upper back and biceps respond extremely well to yielding isometric protocols. If you give this upper back routine an honest try I am sure you will be pleased with the results!

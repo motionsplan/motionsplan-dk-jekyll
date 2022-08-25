@@ -87,30 +87,35 @@ Zacho bruger også sin formel i nedenstående beregner til Åstrands etpunktstes
 
 I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
 
-- kvinder: VO<sub>2</sub>max = (0.00193 x workload + 0.326) / (0.769 x HRss - 56.1) x 100
-- mænd: VO<sub>2max</sub> = (0.00212 x workload + 0.299) / (0.769 x HRss - 48.5) x 100
+- kvinder: VO<sub>2</sub>max = (0,00193 x workload + 0.326) / (0,769 x HRss - 56.1) x 100
+- mænd: VO<sub>2max</sub> = (0,00212 x workload + 0.299) / (0,769 x HRss - 48.5) x 100
 
 Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
+
+{% comment %}
+https://books.google.dk/books?id=BQ2ZDfO6d6MC&pg=PA170&dq=idr%C3%A6t+c&hl=da&sa=X&ved=2ahUKEwiewZj18IL4AhUilMMKHeIPBu0Q6AF6BAgIEAI#v=onepage&q=idr%C3%A6t%20c&f=false
+Se side 63
+{% endcomment %}
 
 ## Alderskorrektion til etpunktstesten
 
 Til Åstrands etpunktstest giver de mest pålidelige resultater, hvis du korrigerer for alder. I beregneren ovenfor korrigerer jeg for alder med følgende formel fra Buono et al (1989).
 
-VO<sub>2</sub> = (0.166 - 0.028 * age) + 0.026 * weight + 0.66 * VO<sub>2</sub>
+VO<sub>2</sub> = (0,166 - 0,028 * age) + 0,026 * weight + 0,66 * VO<sub>2</sub>
 
 Der er også lavet en tabel med [korrektionsfaktorer til alderskorrektion](https://www.topendsports.com/testing/tests/astrand.htm) af resultatet.
 
 | Alder	| Korrektionsfaktor |
 |-|-|
-| 15 | 1.10 |
-| 25 | 1.00 |
-| 35 | 0.87 |
-| 40 | 0.83 |
-| 45 | 0.78 |
-| 50 | 0.75 |
-| 55 | 0.71 |
-| 60 | 0.68 |
-| 65 | 0.65 |
+| 15 | 1,10 |
+| 25 | 1,00 |
+| 35 | 0,87 |
+| 40 | 0,83 |
+| 45 | 0,78 |
+| 50 | 0,75 |
+| 55 | 0,71 |
+| 60 | 0,68 |
+| 65 | 0,65 |
 
 ## Hvilke usikkerheder er der ved et-punktstesten?
 

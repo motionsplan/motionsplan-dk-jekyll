@@ -1,12 +1,12 @@
 ---
 title: &title "Kalorieberegner: Beregn alt om kalorier"
-seo_title: "Kalorieberegner: 4 måder at udregne kaloriebehov og kalorieindtag på"
-description: "Har du brug for en kalorie beregner? Her har vi samlet forskellige kalorieberegnere, som kan udregne kaloriebehov og kalorieindtag gratis. Prøv dem nu!" 
+seo_title: "Kalorieberegner: 4 måder at beregne alt om kalorier"
+description: "Har du brug for en kalorie beregner? Her har vi samlet forskellige kalorieberegnere, som kan udregne kaloriebehov og kalorieindtag gratis. Prøv dem nu!"
 permalink: /kalorieberegner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kost
@@ -22,7 +22,7 @@ faq:
   - question: "Hvad er en kalorieberegner?"
     answer: "En kalorieberegner kan betyde mindst tre forskellige ting. For det første kan man beregne sit daglige energiforbrug baseret på dit aktivitetsniveau eller specifikke aktiviteter. For det andet kan man beregne indholdet af kalorier i din mad og kost. For det tredje kan man i en energiomregner omregne mellem kJ og kalorier eller den anden vej."
   - question: "Hvordan beregner man sit daglige kaloriebehov?"
-    answer: "Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn kaloriebehov i vores [avancerede stofskifteberegner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %})."
+    answer: "Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn kaloriebehov i vores [avancerede stofskifteberegner](/beregner/dagligt-stofskifte-og-forbraending/)."
 ---
 
 En kalorieberegner kan være flere ting. Du kan udregne dit eget energibehov eller hvor mange kalorier der er i mad. Jeg har samlet flere forskellige beregnere til kalorier her.
@@ -39,7 +39,7 @@ Alle kalorieberegnere er naturligvis baseret på et gennemsnitligt kaloriebehov 
 
 Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag beregner](/ligevaegtsindtag-beregner/). Beregn dit kaloriebehov i vores [beregner til dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
 
-Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en ret [avanceret beregner til dit stofskifte og daglige forbrænding]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}) på baggrund af et detaljeret fysisk aktivitetsniveau.
+Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en ret [avanceret beregner til dit stofskifte og daglige forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) på baggrund af et detaljeret fysisk aktivitetsniveau.
 
 Husk at en kalorieberegner ikke kan stå alene. Du skal ikke bare blindt følge forslagene i disse generelle programmer. Du finder først dit reelle kaloriebehov, hvis du ved hvor meget energi, du indtager over tid, og du fastholder din nuværende vægt.
 
@@ -57,15 +57,15 @@ Når man kigger rundt på nettet, så finder man ofte en masse lækre opskrifter
 
 I opskriftsberegneren kan du ganske enkelt bare indtaste hele opskriften på en gang. Du kan altså ganske enkelt bare kopiere opskriften, og så begynder beregningerne.
 
-{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-1.png" caption="Først kopierer du bare den engelske opskrift direkte ind i opskriftsberegneren." alt="trin 1 i beregner af kalorier fra very well fit" %}
+{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-1.jpg" caption="Først kopierer du bare den engelske opskrift direkte ind i opskriftsberegneren." alt="trin 1 i beregner af kalorier fra very well fit" %}
 
 Nu gætter værktøjet selv på, hvilke madvarer og størrelser opskriften indeholder. Du får en meget overskuelig oversigt, som du kan kigge igennem.
 
-{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-2.png" caption="Du kigger programmets kvalificerede gæt igennem for at se, om det er de rigtige madvarer og vægtangivelser." alt="oversigt over opskrift på very well fit" %}
+{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-2.jpg" caption="Du kigger programmets kvalificerede gæt igennem for at se, om det er de rigtige madvarer og vægtangivelser." alt="oversigt over opskrift på very well fit" %}
 
 Når du har justeret opskriften til, så får du et overblik over energiindholdet og fordelingen af energi i den samlede opskrift i en fin lille varedeklaration.
 
-{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-3.png" caption="Du ender med en ret tjekket varedeklaration til den indtastede opskrift." alt="varedeklaration fra kalorieudregneren fra very well fit" %}
+{% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-3.jpg" caption="Du ender med en ret tjekket varedeklaration til den indtastede opskrift." alt="varedeklaration fra kalorieudregneren fra very well fit" %}
 
 ### Fødevarestyrelsens madberegner (dansk)
 

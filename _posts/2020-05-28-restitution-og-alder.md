@@ -1,11 +1,12 @@
 ---
 title: &title "Restitution og alder: Hvad betyder alderen for kroppens genopbygning?"
+seo_title: "Restitution og alder: Restituerer du dårligere med alderen?"
 excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitution. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
 permalink: /restitutionstid-og-alder/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1528310911867-ffae9984b3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1528310911867-ffae9984b3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1528310911867-ffae9984b3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1528310911867-ffae9984b3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:

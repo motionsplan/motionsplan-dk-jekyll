@@ -3,8 +3,8 @@ title: &title "Makkerøvelser: Træn med en makker"
 permalink: /artikel/traen-med-en-makker/
 language: da
 header:
-  overlay_image: /assets/images/blog/traen-med-en-makker.jpg
-  teaser: /assets/images/blog/traen-med-en-makker.jpg
+  overlay_image: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHBhcnRuZXIlMjBleGVyY2lzZXxlbnwwfDB8MHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHBhcnRuZXIlMjBleGVyY2lzZXxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - styrketræning

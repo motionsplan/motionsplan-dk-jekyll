@@ -4,8 +4,8 @@ seo_title: "Bedste cardiomaskiner 2022 til kondition og fedtforbrænding"
 permalink: /bedste-cardiomaskiner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   title: *title
 tags:
   - kondition
@@ -124,7 +124,7 @@ Jeg kan virkelig godt selv lide Wattbikes, da følelsen af at køre på dem mind
 
 Jeg kan godt lide at træne intervaller på cyklen. Fx kan [HIIT-intervaller elle High Intensity Interval Training]() virkelig give en intensiv træning. Marina Aagaard har [andre forskalg til intervaltræning](http://marinaaagaardblog.com/2013/01/06/intervaltraening-hiit-det-er-et-hit/).
 
-Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, så kan du også lave forskellige tests. Fx kan du finde dit kondital med [Wattmax-testen](/kondital-wattmax/). Det er også oplagt at prøve kræfter med [V<sub>max</sub>-træning](/vmax/), som for øvrigt også kan bruges på løbebåndet.
+Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, så kan du også lave forskellige tests. Fx kan du finde dit kondital med en [Watt-max-konditest](/kondital-wattmax/). Det er også oplagt at prøve kræfter med [V<sub>max</sub>-træning](/vmax/), som for øvrigt også kan bruges på løbebåndet.
 
 ## Andre cardiomaskiner
 

@@ -6,8 +6,8 @@ last_modified_at: 2020-12-29T09:41:09Z
 excerpt: "Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet 12 citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.8
 category:
@@ -58,8 +58,8 @@ gallery:
     url: /assets/images/pinterest/citat-dwayne-johnson.jpg
   - image_path: /assets/images/pinterest/wendler-accessories.jpg
     url: /assets/images/pinterest/wendler-accessories.jpg
-  - image_path: /assets/images/pinterest/wendler-get-it-done.png
-    url: /assets/images/pinterest/wendler-get-it-done.png
+  - image_path: /assets/images/pinterest/wendler-get-it-done.jpg
+    url: /assets/images/pinterest/wendler-get-it-done.jpg
 citatplakat:
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Definition-fitness-ML10014-214x300.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/definitionsplakater/fitness-definition-engelsk/

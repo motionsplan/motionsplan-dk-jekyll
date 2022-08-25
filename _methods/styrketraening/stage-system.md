@@ -7,14 +7,14 @@ header:
 breadcrumbs: true
 category:
   - Styrketræning
-excerpt: ""
+excerpt: "Stage Systemet inkluderer flere niveauer af belastning på en given øvelse. Den første etape udføres tungt. Den anden fase udføres lettere."
 tags:
   - maksimal styrke
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

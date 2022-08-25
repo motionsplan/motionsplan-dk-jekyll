@@ -6,8 +6,8 @@ redirect_from:
   - /kondital-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/blog/worldfitnesslevel-www.png
+  - image_path: /assets/images/blog/worldfitnesslevel-www.jpg
     url: https://www.worldfitnesslevel.org/#/
 polar:
   - image_path: /assets/images/blog/polar-ownindex-2.jpg
@@ -118,7 +118,7 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 
 ### Udregn kondital fra gangtest
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gåtest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gangtest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

@@ -7,7 +7,7 @@ header:
 breadcrumbs: true
 category:
   - Hypertrofi
-excerpt: ""
+excerpt: "Målet bag mekaniske dropset er at ophobe laktat, og udmatte musklerne, som ved alle andre hypertrofi/accumulation faser. Ved denne metode vælges først den mest komplekse øvelse, direkte efter en lignende øvelse, men lettere øvelse. Vi valgte i dag at køre 6+4 gentagelser."
 tags:
   - hypertrofi
 rpe:

@@ -47,9 +47,12 @@ Kroppen består af virkelig mange forskellige specialiserede celler. Alle levend
 
 ## Anatomi
 
-Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen.
+Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen. Her kan du læse mere om de forskellige grene i anatomien.
 
-[Læs mere om anatomi](/anatomi/).
+- [Grundlæggende anatomi](/anatomi/)
+- [Muskler](/muskler/)
+- [Knogler](/knogler/)
+- [Led](/led/)
 
 ## Træningslære
 

@@ -3,7 +3,7 @@ title: &title "Hvornår skal jeg gå i seng og sove?"
 permalink: /hvornaar-gaa-i-seng/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
   - Restitution
   - Søvn
@@ -54,7 +54,7 @@ Når du har udregnet, hvornår du skal sove, så ved du også, hvornår du skal 
 
 ## Hvor længe skal man sove?
 
-Jeg har skrevet et andet indlæg inspireret af Nick Littlehales, som foreslår at [optimeret søvn skal foregå i cyklusser](/soevn/). En søvncyklus er omkring 90 minutter. Littlehales mener, at det vigtigste er, at du sover i cyklusser end nøjagtigt, hvor lang tid, man sover den enkelte nat. Det væsentligste er, at du får et passende antal søvncyklusser på en uge.
+Jeg har skrevet et andet indlæg inspireret af Nick Littlehales, som foreslår at du [optimerer din søvn ved at sove i cyklusser](/soevn/). En søvncyklus er omkring 90 minutter. Littlehales mener, at det vigtigste er, at du sover i cyklusser end nøjagtigt, hvor lang tid, man sover den enkelte nat. Det væsentligste er, at du får et passende antal søvncyklusser på en uge.
 
 I et studie publiceret i [The Journal of the National Sleep Foundation](http://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext) anførte de disse omtrentlige tidspunkter at sove på de enkelte nætter.
 
@@ -71,6 +71,8 @@ I et studie publiceret i [The Journal of the National Sleep Foundation](http://w
 ## Test din søvn
 
 Hvis du føler dig træt i løbet af dagen, så kan det måske være en ide at teste, [om du er et A- eller B-menneske](/a-eller-b-menneske/). Her kan du se alle de karakteristika, som A- og B-mennesker har, og du kan prøve forskellige tests.
+
+Du kan også føre [søvndagbog og lave søvnregistrering](/soevndagbog/) eller [tracke din søvn med et ur](/soevn-tracking/).
 
 ## Sov bedre
 

@@ -1,12 +1,12 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
-seo_title: "Hvilepuls - Tabel med normalt for mænd og kvinder"
-description: "Vil du vide mere om hvilepuls? Hvordan du måler den? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over en normal hvilepuls."
+seo_title: "Hvilepuls - Hvad er normalt for mænd og kvinder (Tabel)"
+description: "Vil du vide mere om hvilepuls? Hvordan du måler pulsen i hvile? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over en normal hvilepuls."
 permalink: /hvilepuls/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Jude Beck on Unsplash
   overlay_filter: 0.2
@@ -48,7 +48,7 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 
 ## Hvad er hvilepuls?
 
-Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile.
+En hvilepuls er antallet af hjerteslag pr. minut, når din krop er i hvile. Mænd har typisk en gennemsnitshvilepuls på 60-80 slag i minuttet, mens hvilepulsen for kvinder ofte ligger på 70-90 slag i minuttet. Disse tal dækker dog over store variationer.
 
 Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som **pulsen**.
 
@@ -63,7 +63,7 @@ Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for
 - **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger.
 - **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så det kan pumpe kraftigere.
 
-{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." alt="hvilepuls afhænger af slagvolumen" %}
+{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." alt="hvilepuls afhænger af slagvolumen" %}
 
 Når hjertekammeret bliver større, så kan hjertet fyldes mere op, og når hjertet er stærkere kan hjertet også tømme sig mere pr. hjerteslag. Alt andet lige skal vi bruge den samme mængde blod rundt i systemet i minuttet. Derfor behøver hjertet altså ikke at slå så mange gange, og hvilepulsen falder, fordi du kommer i bedre form.
 

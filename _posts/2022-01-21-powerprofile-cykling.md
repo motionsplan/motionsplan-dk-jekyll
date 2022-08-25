@@ -4,7 +4,7 @@ excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra
 permalink: /powerprofil-cykling/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -72,7 +72,7 @@ Lad os kigge på nogle af de tests, som vi også beskriver her på sitet.
 
 - [6 sekunders sprinttest](/6sek/). Her finder du dit peak power output.
 - [30 sekunders Wingate-test](/wingate/). Her finder du din maksimale ydeevne på en sprint og evne til at modstå træthed i det anaerobe system.
-- [Wattmax-test](/kondital-wattmax/). Wattmax-testen kan være med til at finde din præstationsevne ved dit absolutte max.
+- [Watt-max-test](/kondital-wattmax/). Watt-max-testen kan være med til at finde din præstationsevne ved dit absolutte max.
 - [Trappetest](/trappetest-cykel/). Trappetesten kan være med til at etablere din maksimale iltoptagelse og hvad din maksimale power output er ved VO<sub>2</sub>max.
 - [FTP-test](/ftp-cykling/). Her kan du finde din _functional threshold power (FTP)_ med en hård test.
 

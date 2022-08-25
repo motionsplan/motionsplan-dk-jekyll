@@ -4,7 +4,6 @@ permalink: /kondital-wattmax-boern/
 excerpt: "Watt-max test for børn er en trinvist stigende maksimaltest på ergometercykel, som du kan bruge til at udregne konditallet. Testen er tilpasset børn fra 7 - 15 år og lavet af danske forskere."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
   caption: *title
 category:
@@ -25,14 +24,11 @@ breadcrumbs: true
 
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
 
-Wattmax-testen nem og præcis måde at finde kondital for børn på. I testen stiger belastningen progressivt, så den kræver et pålideligt cykelergometer, hvor du kan aflæse belastningen og et stopur. Du kan estimere din maksimale iltoptagelse ud fra den maksimale belastning, du kan træde på cyklen.
+[Watt max-testen](/kondital-wattmax/) nem og præcis måde at finde kondital for børn på. I testen stiger belastningen progressivt, så den kræver et pålideligt cykelergometer, hvor du kan aflæse belastningen og et stopur. Du kan estimere din maksimale iltoptagelse ud fra den maksimale belastning, du kan træde på cyklen.
 
-Dette er en modificeret udgave af [Wattmax-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der kan køre sig selv til grænsen af sin maksimale ydeevne. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation i forhold til iltoptagelsesmålinger lavet i et laboratorium.
+Dette er en modificeret udgave af [Watt-max-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der kan køre sig selv til grænsen af sin maksimale ydeevne. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation i forhold til iltoptagelsesmålinger lavet i et laboratorium.
 
-Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http://web.archive.org/web/20110606132059/http://www.motion-online.dk/konditionstraening/testning/watt-max_test_for_boern/){:rel="nofollow"}. Siden har han lavet en ny beregner på [exercise.dk](https://exercise.dk/kondition/44-watt-max-test-for-born).
-{: .notice .notice--info }
-
-## Instruktion til wattmax-testen for børn
+## Instruktion til watt-max-testen for børn
 
 1. Først vejer du dig.
 2. Varm op i 10 minutter.
@@ -45,9 +41,9 @@ Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http
 
 {% include calculate-fitness-wattmax-children.html %}
 
-## Om Wattmax-testen for børn
+## Om Watt-max-testen for børn
 
-Wattmax-testen til børn er baseret på testen til voksne, men der arbejdes med en anden stigning i belastning.
+Watt-max-testen til børn er baseret på testen til voksne, men der arbejdes med en anden stigning i belastning.
 
 > Testen er valideret på en elektronisk Monark-cykel, der automatisk holder den indstillede watt-belastning. Testen blev typisk stoppet, hvis kadencen faldt til under 30 RPM.
 
@@ -57,7 +53,7 @@ Wedderkopp et al (2004) anbefaler, at hvis børnene vejer mindre end 30 kg, så 
 
 Testen bør køres med en kadence på 60-80 RPM.
 
-## Formler bag Wattmax-testen for børn
+## Formler bag Watt-max-testen for børn
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 
@@ -71,7 +67,7 @@ VO<sub>2</sub>max = 13.16 * MPO + 5 * weight
 
 Hvis du har en større gruppe børn, du gerne vil teste på en gang, så bør du kigge på [Andersen testen](/andersen-test/), som er en let måde at teste flere børn ad gangen med mindre udstyr.
 
-## Reference om Watt-maxtesten for børn
+## Reference om Watt-max-testen for børn
 
 <details markdown="1">
   <summary>Referencer om Wattmax-test for børn</summary>

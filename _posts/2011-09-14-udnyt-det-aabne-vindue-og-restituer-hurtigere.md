@@ -7,8 +7,8 @@ redirect_from:
   - /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Ernæring
@@ -26,7 +26,7 @@ Hvad er det åbne vindue? **Det åbne vindue eller anabolic window er et populæ
 
 Det åbne vindue har i mange år været brugt meget, når man skulle rådgive omkring kost og ernæring i forhold til idræt. Rationalet har været, at jo hurtigere du tanker op efter træning, jo hurtigere restituerer du. Fornemmelsen har næsten også været, at hvis ikke du fik protein umiddelbart efter træning, så var der ingen gains.
 
-Derfor kan det **åbne vindue være en blandt [flere strategier til restitution]({% link _posts/2020-05-28-restitution.md %}).
+Derfor kan det **åbne vindue være en blandt [flere strategier til restitution](/restitution/).
 
 Der er ingen tvivl om, at kroppen under træning bruger kulhydrat, som efterfølgende skal bygges op ved at få tilført nyt kulhydrat til musklerne. Der er heller ingen tvivl om, at træning skaber mikroskopiske skader i muskelvævet, og at kroppen gerne vil respondere på træningen ved at genopbygge musklerne og vævet.
 

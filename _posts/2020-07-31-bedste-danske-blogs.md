@@ -7,8 +7,8 @@ redirect_from:
 last_modified_at: 2020-09-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Bedste fitness blogs og træningsblogs fra danske bloggere"
 category:
   - Webclips
@@ -65,7 +65,7 @@ feature_row:
     url: https://amdipt.dk/blog/
     title: "Christian Amdi Personlig Træner"
     alt: "Christian Amdi Personlig Træner"
-    excerpt: "Christian Amdi er personlig træner. Jeg har fordybet mig i flere af indlæggene på Christian Amdis side. Alle blogindlæggene er meget dybdegående, og der er masser af referencer på de enkelte påstande i artiklerne. Samtidig er der masser af underholdende små kommentarer undervejs."
+    excerpt: "Christian Amdi er personlig træner. Jeg har fordybet mig i flere af indlæggene på Christian Amdis side. Alle blogindlæggene er meget dybdegående, og der er masser af referencer på de enkelte påstande i artiklerne. Samtidig er der masser af underholdende små kommentarer undervejs på Amdis træningsblog."
     btn_label: "Besøg Fitness Blog"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/poulhaacker.jpg
@@ -130,6 +130,6 @@ For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine
 
 ## Fitness Blogs og træningsblogs
 
-Det var den foreløbige liste over danske fitnessblogs og træningsblogs.
+Det var den foreløbige liste over danske fitnessblogs og træningsblogs. Der er mange rigtig fine bloggere i Danmark.
 
 Hvis jeg har overset nogle sunde blogs om fitness, træning, motion og sundhed i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.

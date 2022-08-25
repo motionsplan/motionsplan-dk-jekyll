@@ -5,7 +5,7 @@ description: "Vil du gerne i bedre form? Så skal du i gang med konditionstræni
 permalink: /konditionstraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -95,7 +95,7 @@ Typisk er dette en træningszone, hvor kune en mindre del af din træning skal l
 
 Du kan læse mere om, hvordan du laver tempotræning i indlægget nedenfor. Du finder også et udgangspunkt for at lave dit eget kredsløbstræningsprogram.
 
-**Læs:** [Tempotræning: Hvad er det, og hvordan man gør det] (/loebesiden-jack-daniels-loebeberegner/)
+**Læs:** [Tempotræning: Hvad er det, og hvordan man gør det](/loebesiden-jack-daniels-loebeberegner/)
 
 ### 4. Udholdenhedstræning
 
@@ -144,7 +144,7 @@ Du kan altså tænke over, at dit konditionsprogram hen over ugerne tager højde
 - **Højere intensitet.** Du kan langsomt øge intensiteten i de hårde træningspas. Du kan fx de første par uger arbejde med 85-90% af [maxpulsen](/test-max-puls/), mens du øger den til 90-95% af maxpulsen i de sidste par uger. Det kræver naturligvis at du har en pulsmåler, men du kan også bruge [Borg-skalaen](/borg-skala/). Du kan også i de senere uger indføre to hårde træningspas i stedet for et. Du kan også variere, hvor mange gentagelser, du laver af de enkelte intervaller i din intervaltræning.
 - **Træningsmængde**. Du kan øge træningsmængden langsomt hen over træningsugerne. Du kan enten øge antallet af træningspas på en uge, eller du kan træne lidt længere. Hvis du fx første uge laver en træningstur med fokus på udholdenhed, hvor du løber 30 minutter, så kan du i næste uge løbe 35 minutter og så fremdeles.
 
-Du skal også **vælge nogle passende øvelser** i forhold til dine mål. Du kan få inspiration til nogle effektive øvelser under fx [løbetræning](/loebetraening/) eller [forskellige intervalløbtyper](/intervallob-intervaltraening/).
+Du skal også **vælge nogle passende øvelser** i forhold til dine mål. Du kan få inspiration til nogle effektive øvelser under fx [løbetræning](/loebesiden/) eller [forskellige intervalløbtyper](/intervallob-intervaltraening/).
 
 ### 4. Gennemfør programmet
 

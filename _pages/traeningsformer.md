@@ -1,11 +1,13 @@
 ---
 layout: single
-title: "Træningsformer"
+title: "Træningsformer og motionsformer"
+seo_title: "Træningsformer og motionsformer - inspiration til bevægelse"
 permalink: /traeningsformer/
-excerpt: "Vi præsenterer viden om en lang række forskellige træningsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på."
+description: "Er du på udkig efter spændende træningsformer og motionsformer? Her får du en grundig gennemgang af, hvad man kan træne for at være fysisk aktiv."
+excerpt: "Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på."
 header:
-  overlay_image: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
   caption: Træningsformer
   actions:
     - label: "<i class='fas fa-download'></i> Styrketræning"
@@ -25,7 +27,7 @@ sidebar:
   nav: trainingtypes
 ---
 
-{{ page.excerpt }}
+Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på.
 
 Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-traening/). Vi har også lavet en oversigt over mange forskellige [træningsmetoder](/traeningsmetoder/), som du kan lade dig inspirere af.
 
@@ -119,7 +121,7 @@ Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 
 ## Springtræning og plyometrisk træning
 
-Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springstyrke-og-springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).](/plyometrisk-traening/).
+Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springstyrke-og-springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).
 
 ## Træning af muskelgrupper
 

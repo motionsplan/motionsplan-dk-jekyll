@@ -22,7 +22,7 @@ Hvis dit formål med træningen er at blive stærkere, så advokerer vi for træ
 
 Et godt sæt med vægtstænger og -skiver er ret bekosteligt, men det er der heldigvis råd for. Det behøver ikke at koste alverden at lave sit eget fitnessrum i garagen. Vi har fundet en masse inspiration hos en af vores store helte, Ross Enamait.
 
-Ross står bag den helt fabelagtige [rosstraining.com](http://rosstraining.com/), som jævnligt giver gode råd til, hvordan man kan lave sit eget træningsudstyr.
+Ross står bag den helt fabelagtige [rosstraining.com](https://rosstraining.com/blog/), som jævnligt giver gode råd til, hvordan man kan lave sit eget træningsudstyr.
 
 ## Eksempler på home gyms
 
