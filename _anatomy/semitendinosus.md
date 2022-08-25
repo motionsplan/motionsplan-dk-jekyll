@@ -33,7 +33,7 @@ function:
       extended: This means that the semitendinosus muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
     - short: Extends the leg at the hip.
       extended: This means that the semitendinosus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
-image: /assets/images/anatomy/semitendinosus.png
+image: /assets/images/anatomy/semitendinosus.jpg
 image_focus: /assets/images/anatomy/focus-semitendinosus.jpg
 coords:
   - "434,283,429,299,429,310,426,326,424,339,428,358,430,355,429,343,434,324,437,314,439,296"

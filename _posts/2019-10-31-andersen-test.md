@@ -5,8 +5,8 @@ description: "Vil du finde kondital for børn og unge? Download skema og beregne
 permalink: /andersen-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -42,7 +42,7 @@ Andersen testen er en [konditionstest](/test-kondition-konditest-kondital/), som
 
 Andersen testen er særlig god til test af børn, og det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/). Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), og den er samtidig meget nem at udføre og organisere.
 
-Testen udstiller heller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
+Testen udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
 
 ## Hvad er Andersen Test?
 

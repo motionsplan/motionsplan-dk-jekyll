@@ -1,12 +1,12 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
-seo_title: "Hvilepuls - Tabel med normalt for mænd og kvinder"
-description: "Vil du vide mere om hvilepuls? Hvordan du måler den? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over en normal hvilepuls."
+seo_title: "Hvilepuls - Hvad er normalt for mænd og kvinder (Tabel)"
+description: "Vil du vide mere om hvilepuls? Hvordan du måler pulsen i hvile? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over en normal hvilepuls."
 permalink: /hvilepuls/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Jude Beck on Unsplash
   overlay_filter: 0.2
@@ -48,7 +48,7 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 
 ## Hvad er hvilepuls?
 
-Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile.
+En hvilepuls er antallet af hjerteslag pr. minut, når din krop er i hvile. Mænd har typisk en gennemsnitshvilepuls på 60-80 slag i minuttet, mens hvilepulsen for kvinder ofte ligger på 70-90 slag i minuttet. Disse tal dækker dog over store variationer.
 
 Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som **pulsen**.
 

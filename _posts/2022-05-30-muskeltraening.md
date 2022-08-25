@@ -4,7 +4,7 @@ seo_title: "Hvad er muskeltræning?"
 permalink: /muskeltraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1642519068837-b75f17ed65d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1642519068837-b75f17ed65d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning
@@ -49,7 +49,7 @@ Du kan i figuren også se, at hver type muskeltræning er opdelt i statisk eller
 
 ## Hvad er formålet med muskeltræning?
 
-Muskeltræning er ofte en bestanddel af et [træningsprogram](/traeningsprogram/). Det har flere formål at træne musklerne specifikt.
+Muskeltræning er ofte en bestanddel af et [træningsprogram](/traeningsprogrammer/). Det har flere formål at træne musklerne specifikt.
 
 - udvikle musklerne, senerne og skeletstrukturerne til at blive stærkere eller mere udholdende.
 - udvikle bedre funktionsevne og koordination mellem musklerne, hvilket forbedrer forudsætningerne for at deltage i alle former for fysisk aktivitet.

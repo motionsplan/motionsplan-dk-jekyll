@@ -1,0 +1,72 @@
+<form class="calculator" id="calculator_koffein">
+    <fieldset>
+        <legend>Beregn koffeinindtag</legend>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="body_weight" id="body_weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Koffeinindtag pr. kg kropsvægt (mg/kg)
+                <input name="koffein_intake_kg" id="koffein_intake_kg" type="number" min="0" max="5" placeholder="Koffeinindtag" step="0.1" value="3" required>
+            </label>
+        </div>
+        {% comment %}
+        <div class="form-group">
+            <label for="answers">Sammenlign med denne fødevare</label>
+            <input list="answers" name="answer" placeholder="Vælg fødevare" id="answerInput">
+            <datalist id="answers">
+              {% for row in food offset:2 %}
+              <option value="{{ row.Protein }}">{{ row.Navn }}</option>
+              {% endfor %}
+            </datalist>
+            <input type="hidden" name="answer" id="answerInput-hidden">
+        </div>
+        {% endcomment %}
+        <input type="submit" value="Beregn" onclick="return calculateProtein();">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Koffein (mg)
+                <input type="number" id="koffein_intake" disabled>
+            </label>
+        </div>
+        {% comment %}
+        <div class="form-group">
+            <label>Svarer til gram <span id="food"></span>
+                <input type="number" id="equals_to" disabled>
+            </label>
+            <p class="notes">Der er protein i langt de fleste fødevarer, og du bør dække dit daglige behov for protein med forskellige fødevarer.</p>
+        </div>
+        {% endcomment %}
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>
+{% comment %}
+<script>
+    document.querySelector('#answerInput').addEventListener('input', function(e) {
+        var input = e.target,
+            list = input.getAttribute('list'),
+            options = document.querySelectorAll('#' + list + ' option[value="' + input.value + '"]'),
+            hiddenInput = document.getElementById(input.getAttribute('id') + '-hidden');
+
+        if (options.length > 0) {
+            hiddenInput.value = input.value;
+            input.value = options[0].innerText;
+        }
+    });
+
+    function calculateProtein() {
+        let food = $("#answerInput").val();
+        let food_protein = $("#answerInput-hidden").val();
+        let weight = $("#weight").val();
+        let protein_intake_kg = $("#protein_intake_kg").val();
+        let recommended_daily_protein_intake = protein_intake_kg * weight;
+        let equals_to =  recommended_daily_protein_intake / food_protein * 100;
+        $("#protein_intake").val(recommended_daily_protein_intake);
+        $("#equals_to").val(equals_to.toFixed());
+        $("#food").text(food);
+        return false;
+    }
+</script>
+{% endcomment %}

@@ -4,8 +4,8 @@ seo_title: "Udregn hvor meget vand du har i kroppen (Beregner)?"
 permalink: /vand-i-kroppen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Jong Marshes on Unsplash
 category:
@@ -91,10 +91,18 @@ Du kan med andre ord ikke undvære vand i kroppen, og du skal sørge for at din 
 
 Watson (1980) har lavet en formel, som bruges i beregneren ovenfor.
 
-**Mænd:** TBW (l) = 2.447 – (0.09145 x age) + (0.1074 x height cm) + (0.3362 x weight kg)  
-**Kvinder:** TBW (l) = –2.097 + (0.1069 x height cm) + (0.2466 x weight kg)
+**Mænd:** TBW (l) = 2.447 – (0.09145 x alder) + (0.1074 x højde cm) + (0.3362 x vægt kg)
+**Kvinder:** TBW (l) = –2.097 + (0.1069 x højde cm) + (0.2466 x vægt kg)
 
-Hvis du gerne vil have procentdelen af vand i din krop, så kan du gå ud fra, at en liter vand vejer tæt på et kilo. Så deler du bare din TBW med din vægt. Vandindholdet i kroppen udregnet med Watson er naturligvis et estimat.
+Et eksempel:
+
+Når vi kigger på [gennemsnitshøjde i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/), så ser vi at danske kvinder i gennemsnit er 1,67 m høje. Lad os bruge et i formlen sammen med en kropsvægt på 65 kg.
+
+TBW (l) = –2.097 + (0.1069 x 167 cm) + (0.2466 x 65 kg) = 31,78 l
+
+I alt har personen altså ~32 liter vand i kroppen. Vandindholdet i kroppen udregnet med formlen fra Watson er naturligvis et estimat.
+
+Hvis du gerne vil have procentdelen af vand i din krop, så kan du gå ud fra, at en liter vand vejer tæt på et kilo. Så deler du bare din TBW med din vægt.
 
 Som tidligere skrevet i indlægget, så kan du få en lidt mere præcis angivelse af dine vandværdier gennem en DEXA-scanning eller en [bioimpedans-måling]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
 

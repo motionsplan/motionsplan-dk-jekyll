@@ -5,8 +5,8 @@ description: "Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende
 permalink: /hvad-er-biohacking/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.2
   caption: *title
 category:
@@ -139,7 +139,7 @@ Aaron Traywick blev i 2018 fundet død i en såkaldt en lydisoleret, mørk vandt
 
 ## Teemu Arina skriver _A Biohacker Handbook_
 
-{% include figure image_path="https://lounge.fim.com/wp-content/uploads/2018/10/FIM_asiantuntija_Teemu-Arina_3_.jpg" caption="Teemu Arina begynder at biohacke sig selv for at blive rask" alt="teemu arina biohacker handbook" %}
+{% include figure image_path="/assets/images/e/fim-com-biohacker-teemu-arina.jpg" caption="Teemu Arina begynder at biohacke sig selv for at blive rask. Kilde: [fim.com](https://lounge.fim.com/wp-content/uploads/2018/10/FIM_asiantuntija_Teemu-Arina_3_.jpg)" alt="teemu arina biohacker handbook" %}
 
 Teemu Arina gik som 19 årig ned med stress og blev medicineret hårdt mod et mavesår. Teemu valgte at gøre, som mang gør nu om dag. Han søgte på internettet efter en måde at få det bedre på. På den måde er Teemu et godt billede på mange biohackere.
 

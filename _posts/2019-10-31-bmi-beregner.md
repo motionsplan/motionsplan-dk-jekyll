@@ -8,7 +8,7 @@ permalink: /bmi-beregner/
 excerpt: "Body Mass Index (BMI) er et meget udbredt formel til at teste og måle, om du er sund. I denne BMI-beregner kan du udregne dit BMI og vurdere resultatet ud fra en forbedret BMI skala og tabel for voksne mænd og kvinder."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1627820751275-e44b937c5d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG1lYXN1cmVtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1627820751275-e44b937c5d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG1lYXN1cmVtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: "BMI beregner: Udregn dit BMI"
 category:
   - Beregnere
@@ -61,6 +61,14 @@ For at få dit BMI tal, så skal du lave en BMI udregning. Du kan selv beregne B
 Beregn dit BMI med denne formel:
 
 {% include math formula="BMI = \frac{\text{weight (kg)}}{\text{height (m)}^2}" %}
+
+Et eksempel:
+
+Lad os bruge 1,67 m, som er [danske kvinders gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) og en vægt på 65 kg.
+
+{% include math formula="BMI = \frac{\text{65 (kg)}}{\text{1,67 (m)}^2} = 23,3" %}
+
+Så bliver BMI-resultatet altså 23,3.
 
 ## Har jeg et godt BMI tal?
 

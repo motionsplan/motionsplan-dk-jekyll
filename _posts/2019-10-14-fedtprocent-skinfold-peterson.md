@@ -4,7 +4,6 @@ permalink: /skinfold-peterson/
 excerpt: "Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition."
 language: da
 header:
-  overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
   teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
   caption: "[Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
 category:
@@ -19,11 +18,11 @@ tags:
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://www.bodyman.dk/images/Accu-Measure%20Fitness%203000%20Body%20Fat%20Caliper1-p.jpg
+  - image_path: /assets/images/e/accumeasure-fat-caliper.jpg
     alt: "Accu-Measure Fitness 3000 Body Fat Caliper"
     title: "Accu-Measure Fitness 3000 Body Fat Caliper"
     excerpt: "Mål din fedtprocent nemt med Accu-Measure Fitness 3000 Body Fat Caliper. Fedttangen bliver brugt af mange amerikanske personlige trænere på grund af dens præcise målinger. Du kan både bruge den hjemme eller have den med på farten."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/fedttang"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -41,9 +40,7 @@ Bestemmelsen af 4-komponentmodellen er baseret på tre forskellige metoder, som 
 
 På baggrund af 4-komponentmodellen fik lavede forskerne regressionsligninger med forskellige parametre, og de fandt frem til en sammenhæng for både kvinder og mænd, hvor man skulle måle fire hudfolde, vægt, højde og alder for at bestemme fedtprocenten.
 
-I Peterson et al (2003) undersøgte de også formlerne fra [Womersley og Durnin]({% link _posts/2019-10-14-fedtprocent-skinfold-durnin-womersley.md %}) og [Jackson og Pollock]({% link _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md %}). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
-
-Se mere i den originale artikel af [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818).
+I [Peterson et al (2003)](https://academic.oup.com/ajcn/article/77/5/1186/4689818) undersøgte de også formlerne fra [Womersley og Durnin]({% link _posts/2019-10-14-fedtprocent-skinfold-durnin-womersley.md %}) og [Jackson og Pollock]({% link _posts/2019-10-14-fedtprocent-skinfold-jackson-pollock.md %}). Peterson et al (2003) fandt, at deres nyudviklede formel havde en bedre korrelation med formlen baseret på 4-komponentmodellen end de ældre formler, som kun var baseret og valideret i forhold til undervandsvejning.
 
 ## Beskrivelse af hudfoldsmålinger i Peterson (2003)
 
@@ -60,7 +57,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). 
+Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 
 Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/).
 

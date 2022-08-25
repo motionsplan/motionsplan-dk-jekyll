@@ -8,8 +8,8 @@ redirect_from:
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor."
   alt: "Photo by Fitsum Admasu on Unsplash"
 category:
@@ -242,7 +242,7 @@ Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips t
 
 Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inden du får flyttet din løbeøkonomi.
 
-Allan Zachariasen og Jesper Petersen foreslår følgende [træningspas for at forbedre løbeøkonomien](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober).
+Allan Zachariasen og Jesper Petersen foreslår [følgende træningspas](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober) for at forbedre løbeøkonomien.
 
 ### 2) Løb i konkurrence-tempo
 

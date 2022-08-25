@@ -51,7 +51,7 @@ feature_row_occlude:
     btn_class: btn--info
 ---
 
-Okklusionstræning kræver, at man har det rigtige okklusionsudstyr for at kunne lave okklusionen effektivt. Du skal altså bruge okklusionsbånd for at kunne træne effektivt med okklusionstræning. Vi kigger her på mulighederne for okklusionsbånd.
+[Okklusionstræning](/introduktion-okklusionstraening/) kræver, at man har det rigtige okklusionsudstyr for at kunne lave okklusionen effektivt. Du skal altså bruge okklusionsbånd for at kunne træne effektivt med okklusionstræning. Vi kigger her på mulighederne for okklusionsbånd.
 
 Okklusionstræning kaldes også KAATSU-træning eller _blood flow restriction_ (BFR)-træning. Helt grundlæggende handler det om at afklemme blodtilførslen til enten armene eller benene for derefter at lave træning med relativt lav vægt og mange gentagelser. Du skal bruge okklusionsbånd for at afklemme blodtilførslen.
 
@@ -109,7 +109,7 @@ Helt basalt fungerer okklusionstræning ved at du laver en delvis afklemning af 
 ## Hvilket okklusionsudstyr skal jeg vælge?
 Når du skal vælge udstyr til okklusionstræning, så kan du primært vælge mellem to forskellige typer:
 
-- **Okklusionsstroper, okklusionsbånd og okklusionselastikker** sælges til ‘praktisk’ okklusionstræning. Formålet med stropperne er at skabe afklemning, og årsagen til at det sommetider refereres til som ‘praktisk’ okklusionstræning, fordi stropperne er relativt billige og mange kan komme i nærheden af dem.
+- **Okklusionsstropper, okklusionsbånd og okklusionselastikker** sælges til ‘praktisk’ okklusionstræning. Formålet med stropperne er at skabe afklemning, og årsagen til at det sommetider refereres til som ‘praktisk’ okklusionstræning, fordi stropperne er relativt billige og mange kan komme i nærheden af dem.
 - **Trykreguleret og pumpestyret okklusionsudstyr** består af manchetter, som man man sætte på armene og benene. Okklusionsmanchetterne kan pumpes op til et bestemt tryk. Denne oppumpning kan pumpes op enten automatisk eller manuelt. Her beskæftiger jeg mig kun med de manuelle løsninger, som er til at komme i nærheden af prismæssigt for os almindelige mennesker.
 
 ## Simple okklusionsmanchetter og okklusionsbånd

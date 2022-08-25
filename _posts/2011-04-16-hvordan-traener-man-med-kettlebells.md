@@ -3,8 +3,8 @@ title: &title "Hvordan træner man med kettlebells?"
 permalink: /artikel/hvordan-traener-man-med-kettlebells/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
   - styrketræning
@@ -14,7 +14,7 @@ category:
   - Styrketræning
 last_modified_at: 2015-03-09T15:37:15Z
 feature_row:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Peak_Fitness_Kettlebell_-_12_kg._4.jpg
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Peak_Fitness_Kettlebell_12_kg.jpg
     alt: "Peak Fitness Kettlebell"
     title: "Peak Fitness Kettlebell"
     excerpt: "En super lækker kettlebell af støbejern, som er delvist betrukket med et kraftigt lag neopren for at beskytte gulv."
@@ -22,7 +22,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/12_kg._Competition_Kettlebell_clipped_rev_1.jpg
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Peak_Fitness_Competition_Kettlebell_12_kg_2.jpg
     alt: "Peak Fitness Competition Kettlebell"
     title: "Peak Fitness Competition Kettlebell"
     excerpt: "Peak Fitness Competition Kettlebells er lavet af stål, og har de internationale farvekoder, hvilket gør det nemt at kende de forskellige kg. fra hinanden. Håndtaget er poleret og giver en god komfort."

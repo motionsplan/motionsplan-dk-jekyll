@@ -5,8 +5,8 @@ permalink: /superkompensation/
 last_modified_at: 2020-07-06T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Superkompensation: Hvornår er jeg klar til at træne igen?"
 category:
   - Viden om

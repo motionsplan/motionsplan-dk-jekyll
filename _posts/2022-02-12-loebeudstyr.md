@@ -4,7 +4,7 @@ seo_title: "Løbeudstyr | Begynderguide med alt du behøver"
 permalink: /loebeudstyr/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1610969524483-2898ee78a41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1610969524483-2898ee78a41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb

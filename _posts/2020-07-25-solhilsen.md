@@ -6,8 +6,8 @@ description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke y
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Komplet guide til yoga solhilsen A og B"
 tags:
   - yoga

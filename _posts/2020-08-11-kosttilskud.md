@@ -1,11 +1,12 @@
 ---
 title: &title "Hvilke kosttilskud virker og hvilke er spild af penge i 2022?"
+excerpt: "Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning."
 permalink: /kosttilskud/
-last_modified_at: 2022-01-24T09:41:09Z
+last_modified_at: 2022-08-19T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Ernæring
@@ -16,15 +17,27 @@ tags:
   - kosttilskud
 ---
 
-Kosttilskud er en milliardforretning, og når man søger efter "de bedste kosttilskud", så er de første 10 resultater på Google fra firmaer, der enten sælger kosttilskud eller tjener penge på affiliatesalg af kosttilskud.
+Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning.
 
-Videnskab.dk [skriver](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv), at [kosttilskud er en milliardforretning](https://www.statista.com/statistics/521746/market-size-vitamins-minerals-and-supplements-worldwide-category/) i deres artikel om, hvilke kosttilskud forskerne selv tager, og det bliver meget tydeligt, når man kigger på de øverste resultater søgningen på "de bedste kosttilskud"
+Kosttilskud er [en milliardforretning](https://www.statista.com/statistics/521746/market-size-vitamins-minerals-and-supplements-worldwide-category/), og når man søger efter "de bedste kosttilskud", så er de første 10 resultater på Google fra firmaer, der enten sælger kosttilskud eller tjener penge på affiliatesalg af kosttilskud.
 
-[Bodylab](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html) skriver om de bedste kosttilskud til træning. [Myprotein](https://www.myprotein.dk/thezone/kosttilskud/kosttilskud-booste-styrketraening/) skriver om 5 kosttilskud så du får mere ud af din træning, men de topper det i en anden artikel, hvor de [anbefaler de 7 bedste](https://www.myprotein.dk/thezone/kosttilskud/7-bedste-kosttilskud-funktionel/) kosttilskud når du træner funktionelt. [Bodyman](https://www.bodyman.dk/shop/cms-de-bedste-kosttilskud-til-styrketraening.html) foreslår ganske enkelt de bedste kosttilskud til styrketræning.
+Videnskab.dk skriver, at [forskerne selv tager](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv) tilskud, og der er risiko for _bias_ denne vej også.
 
-Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der sælger dem. Derfor kigger man måske efter andre kilder, og [igodform.dk](https://igodform.dk/5-af-de-bedste-kosttilskud-for-begyndere-det-har-aldrig-vaeret-lettere-at-vaelge/) nævner de 5 af de bedste kosttilskud for begyndere og [Sublab](https://suplab.dk/) lader som om de har en videnskabelig laboratoriumtilgang til analysen af kosttilskud og foreslår de 8 bedste kosttilskud til træning.
+## Kosttilskud er en stor forretning
 
-_Husk også at Motionsplan har affiliate links, og der er også affiliate links i denne blogpost. Jeg er imidlertid også nærrig, så jeg gider kun købe det, der rent faktisk virker._
+At salget af kosttilskud er en lukrativ forretning bliver meget tydeligt, når man kigger på de øverste resultater søgningen på "de bedste kosttilskud" på Google.
+
+Hvem anbefaler egentlig kosttilskud?
+
+Det gør firmaerne. [Bodylab](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html) skriver om de bedste kosttilskud til træning. [Myprotein](https://www.myprotein.dk/thezone/kosttilskud/kosttilskud-booste-styrketraening/) skriver om 5 kosttilskud så du får mere ud af din træning, men de topper det i en anden artikel, hvor de [anbefaler de 7 bedste](https://www.myprotein.dk/thezone/kosttilskud/7-bedste-kosttilskud-funktionel/) kosttilskud, når du træner funktionelt. [Bodyman](https://www.bodyman.dk/shop/cms-de-bedste-kosttilskud-til-styrketraening.html) foreslår også de bedste kosttilskud til styrketræning.
+
+Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der både anbefaler dem og sælger dem.
+
+Derfor kigger man måske efter andre (uvildige) kilder. Og hvad finder du så?
+
+Sites der tjener penge på affiliatesalg. [igodform.dk](https://igodform.dk/5-af-de-bedste-kosttilskud-for-begyndere-det-har-aldrig-vaeret-lettere-at-vaelge/) nævner de 5 af de bedste kosttilskud for begyndere og [Sublab](https://suplab.dk/) lader som om de har en videnskabelig laboratoriumtilgang til analysen af kosttilskud og foreslår de 8 bedste kosttilskud til træning.
+
+_Husk også at Motionsplan har affiliate links, og der er også affiliate links i denne blogpost. Jeg er imidlertid også nærig, så jeg gider kun købe det, der rent faktisk virker._
 
 ## Hvornår har jeg brug for kosttilskud?
 
@@ -51,7 +64,7 @@ Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående betragtn
 
 Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 
-## Proteinpulver
+## 1. Proteinpulver
 
 Du kan dække dig daglige behov for protein gennem kvalitetsprotein fra mejeriprodukter, fisk, fjerkræ, æg og kød. Du behøver altså ikke tage et proteintilskud, hvis du får dækket dit proteinbehov gennem kosten.
 
@@ -87,7 +100,7 @@ Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage o
 
 Inden du køber proteinpulver, så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
 
-## Kreatin
+## 2. Kreatin
 
 **Kreatin monohydrat er det eneste kosttilskud, der har en veldokumenteret effekt på både muskelvækst og styrke.**
 
@@ -109,7 +122,7 @@ Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 10
 
 Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en rigtig god indføring om, hvad kreatin er og hvordan det virker? på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
 
-## Koffein
+## 3. Koffein
 
 Den primære effekt af koffein som kosttilskud er en træthedsbekæmpende effekt, som gør, at du kan arbejde hårdere i din træning.
 
@@ -135,7 +148,7 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 
 — <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)</cite>
 
-## D-vitamin
+## 4. D-vitamin
 
 Kroppen danner selv [D-vitamin](/kosttilskud-d-vitamin/), når du får sol. Derfor er det godt at eksponere noget bar hud for solen og komme uden for i det hele taget, men du får også D-vitamin fra fed fisk.
 

@@ -4,8 +4,8 @@ permalink: /vaegttab-loebetid/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1555412568-12659dc76380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1555412568-12659dc76380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1555412568-12659dc76380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1555412568-12659dc76380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Vægttab og løb: Beregn effekten af et vægttab på løbetid"
 category:
   - Løb

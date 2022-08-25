@@ -8,8 +8,8 @@ redirect_from:
   - /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Kropshævninger: Hvordan lærer jeg at lave pullups og chinups?"
 tags:
   - styrketræning
@@ -123,8 +123,6 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 {% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
 
 {% include video provider="youtube" id="BLJtNxBtv_8" %}
-
-{% include video provider="youtube" id="n1PyiFuSnX8" %}
 
 ### Jackknife pullups eller chair supported pullups og chinups
 

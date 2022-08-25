@@ -3,8 +3,8 @@ title: &title "Muskelømhed: Hvorfor får jeg ømme muskler efter træning?"
 permalink: /omme-muskler-efter-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning
@@ -105,7 +105,7 @@ Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med 
 
 Proteolyse er den kemiske proces, hvor proteiner bliver nedbrudt til aminosyrer gennem en spaltning. Jesper Emil Jakobsgaard fortsætter:
 
-> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter [træningspas med okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}), og som kan være på højde med tung excentrisk træning.
+> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter [træningspas med okklusionstræning](/introduktion-okklusionstraening/), og som kan være på højde med tung excentrisk træning.
 
 --- <cite>Jesper Emil Jakobsgaard</cite>
 

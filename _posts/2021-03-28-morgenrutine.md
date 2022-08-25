@@ -6,8 +6,8 @@ title: En god morgenrutine kan hjælpe dig med mere overskud
 permalink: /morgenrutine-giver-overskud/
 seo_title: "Morgenrutine: 5 tips til at få mere overskud i hverdagen"
 header:
-  overlay_image: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: En god morgenrutine kan hjælpe dig med mere overskud
 language: da
 category:
@@ -32,9 +32,12 @@ Jeg har samlet fem tips til en god morgenrutine:
 
 Hele idéen med en effektiv morgenrutine handler om at undgå at skulle tage stilling til alle mulige ting lige så snart, du vågner op. Du kan hurtigt bruge meget tid på at tænke over, hvad du rent faktisk vil spise, hvilket tøj du skal have på og andet forberedelse til resten af dagen.
 
-Tøjet kan du lægge frem dagen før, og du kan også tjekke din to-do-liste, inden du går i seng. Sørg gerne for at skrive ting ned som pligter, men også aktiviteter, der er med til at gøre dig glad. Hvis du udelukkende fylder din to-do-liste op med aktiviteter, som ikke ligefrem får dig til at smile, kommer du måske ikke engang i gang med listen. Derfor kan du inkludere aktiviteter som for eksempel at sætte ti minutter af til spil på sider som [comeon.dk](https://www.comeon.com/da/sportsbook), inkludere udstrækning før du går i seng, skrive ned at du skal ringe til din søster osv.
+Tøjet kan du lægge frem dagen før, og du kan også tjekke din to-do-liste, inden du går i seng. Sørg gerne for at skrive ting ned som pligter, men også aktiviteter, der er med til at gøre dig glad. Hvis du udelukkende fylder din to-do-liste op med aktiviteter, som ikke ligefrem får dig til at smile, kommer du måske ikke engang i gang med listen.
 
-Formålet er at tømme hovedet for ting, som du skal huske på.
+Derfor kan du inkludere aktiviteter som for eksempel at sætte ti minutter af til spil på sider som [comeon.dk](https://www.comeon.com/da/sportsbook).
+{: .hidden }
+
+Du kan inkludere udstrækning før du går i seng, skrive ned at du skal ringe til din søster. Formålet er at tømme hovedet for ting, som du skal huske på.
 
 Med hensyn til morgenmaden kan du følge en lækker opskrift med havregrød, som vi deler i den næste sektion.
 

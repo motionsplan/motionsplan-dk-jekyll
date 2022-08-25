@@ -3,7 +3,7 @@ title: &title "Vælg den rette vægt på stangen: Hvor meget skal jeg løfte?"
 permalink: /hvor-meget-vaegt-paa-stangen/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1517836477839-7072aaa8b121?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1517836477839-7072aaa8b121?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning

@@ -3,7 +3,7 @@ title: &title "Søvntracking: Kan mit aktivitetsur måle søvn?"
 permalink: /soevn-tracking/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Restitution
@@ -17,6 +17,8 @@ toc: true
 Der er uendeligt mange grunde til at sove godt. Hvis du gerne vil fokusere mere på din søvn, så kan søvntracking med en søvndagbog, et smartwatch eller et aktivitetsur, en ring eller en app på telefonen måske være en motiverende faktor.
 
 Her kigger vi på, hvordan du kan lave søvntracking, og hvor præcist du egentlig kan måle din søvn med de forskellige devices, der reklamerer med søvnmåling som en af deres features.
+
+Når du har styr på, hvor længe du sover, så kan du holde det op mod de generelle anbefalinger for, [hvor meget man skal sove](/hvor-meget-skal-man-sove/)?
 
 Først dykker vi lige lidt ned i nogle generelle begreber om søvn og søvnkvalitet.
 
@@ -34,7 +36,7 @@ I forhold til målingen af din søvn og din søvnkvalitet, så er der nogle inte
 
 De tre begreber er imidlertid ikke nok til at fastslå søvnkvaliteten. En god søvnkvalitet kræver, at du kommer igennem de forskellige søvnstadier. Det kræver typisk dyrt udstyr, men efterhånden er der kommet flere søvnmålere frem, som påstår at de kan bestemme kvaliteten af søvnen.
 
-Kvaliteten af søvn afgøres af, om du kommer igennem de forskellige søvnfaser. Man snakker ofte om fire faser i søvnen:
+Kvaliteten af søvn afgøres af, om du kommer igennem de [forskellige søvnfaser](/soevn/). Man snakker ofte om fire faser i søvnen:
 
 - NREM Fase 1
 - NREM Fase 2
@@ -53,7 +55,7 @@ Vi præsenterer tre forskellige måder, du kan måle din søvn på derhjemme:
 
 - Aktivitetstracker og fitnessur
 - Oura Ring
-- Søvndagbog
+- [Søvndagbog](/soevndagbog/)
 
 Først kigger vi lige kort på teknologien bag søvntracking.
 
@@ -93,6 +95,9 @@ Selvom Oura Ring altså har lovende resultater, så gætter den altså noget for
 En søvndagbog kan være en god måle at kortlægge din søvn på. Der findes mange forskellige skabeloner til at lave en søvndagbog. Typisk giver det et godt billede, hvis du fører dagbog i et par uger.
 
 Når du har kortlagt din søvn, så kan det være, at der dukker nogle skjulte mønstre frem, som du ikke havde tænkt over.
+
+Læs: [Se eksempler på søvndagbog og søvnregistrering](/soevndagbog/)
+
 Formålet med at tracke sin søvn er for de fleste, at de gerne over tid vil forbedre søvnen.
 
 ## Konklusion
@@ -101,4 +106,4 @@ Udstyr til private til søvnmåling lover nok mere end det kan holde lige nu. S�
 
 Desværre foregiver aktivitetsmålerne at kunne sige noget om kvaliteten af søvnen og tiden i de enkelte søvnfaser, men de er i virkeligheden relativt upålidelige til at estimere dette.
 
-Vi har skrevet nogle gode råd til at [optimere din søvn](/soevn/) uanset om du er [A eller B-menneske](/a-eller-b-menneske/), og vi har lavet en beregner, som kan udregne, [hvornår du bør gå i seng og sove](/hvornaar-gaa-i-seng/).
+Vi har skrevet nogle gode råd til at [optimere din søvn](/soevn-optimering/) uanset om du er [A eller B-menneske](/a-eller-b-menneske/), og vi har lavet en beregner, som kan udregne, [hvornår du bør gå i seng og sove](/hvornaar-gaa-i-seng/).

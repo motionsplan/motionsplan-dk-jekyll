@@ -3,8 +3,8 @@ title: "6 fysiologiske forandringer i kroppen ved konditionstræning?"
 permalink: /tilpasning-konditionstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Fysiologiske forandringer og adaptationer ved konditionstræning"
   overlay_filter: 0.2
 category:
@@ -29,7 +29,7 @@ Hvis du ikke vil læse hele indlægget, så har jeg sammenfattet effekten af kon
 
 **Under konditionstræning sker der en række fysiologiske forandringer i kroppen. Blodmængden stiger og du får mere hæmoglobin. Hjertet bliver større og stærkere. Du får flere mitokondrier og myoglobin i musklerne. Enzymaktiviteten bliver højere og mere effektiv. Alt dette er med til at øge din maksimale iltoptagelse og derved din kondition.**
 
-{% include figure image_path="https://www.ambulancevejen.dk/wp-content/uploads/2016/09/Circulation-designed-by-freepik.jpg" caption="Oversigt over kredsløbet, hvor de fysiologiske ændringer sker" alt="Tilpasninger og adaptationer ved konditionstræning" %}
+{% include figure image_path="/assets/images/e/freepik-kredsloeb-fysiologi.jpg" caption="Oversigt over kredsløbet, hvor de fysiologiske ændringer sker" alt="Tilpasninger og adaptationer ved konditionstræning" %}
 
 ## Kroppen tilpasser sig træning
 

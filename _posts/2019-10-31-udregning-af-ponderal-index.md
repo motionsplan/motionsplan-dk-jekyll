@@ -4,8 +4,8 @@ permalink: /ponderal-index/
 excerpt: "Ponderal Index eller Corpulence Index er en metode til at bestemme om man er overvægtig. Det er et alternativ til BMI. Se vores gratis beregner, formler og tabeller for børn og voksne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
-  teaser: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.5
   caption: *title
 category:
@@ -27,7 +27,7 @@ Jeg har været på udkig efter et alternativ til Body Mass Index (BMI) og er st�
 
 Ponderal Index er et mål for magerhed og fedme, som udregnes på baggrund af vægten og højden. Ponderal Index er et alternativ til Body Mass Index, som bedre kan bruges til personer af forskellig højde. Ponderal Index behøver ikke at blive justeret for alderen - og kan bruges til både børn og voksne.**
 
-Jeg har skrevet en del om [ulemperne ved Body Mass Index (BMI)]({% link _posts/2019-10-31-bmi.md %}). En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk af forskellig statur. 
+Jeg har skrevet en del om [ulemperne ved Body Mass Index (BMI)]({% link _posts/2019-10-31-bmi.md %}). En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk af forskellig statur.
 
 Ponderal Index opløfter højden i tredje potens for at gøre formlen mere uafhængig af højden (se mere på [Wikipedia](https://en.wikipedia.org/wiki/Corpulence_index)).
 
@@ -35,7 +35,7 @@ Ponderal Index opløfter højden i tredje potens for at gøre formlen mere uafh�
 
 {% include calculate-ponderal-index.html %}
 
-Du kan også beregne [BMI]({% link _posts/2019-10-31-bmi.md %}), som er et noget mere udbredt begreb i populærlitteraturen og videnskaben.
+Du kan også [beregne BMI](/bmi-beregner/), som er et noget mere udbredt begreb i populærlitteraturen og videnskaben.
 
 ## Udregning af Ponderal Index med formel
 
@@ -43,7 +43,9 @@ Til forskel fra BMI er højden (m) altså løftet i tredje potens i Ponderal Ind
 
 {% include math formula="Ponderal Index = \frac{weight (kg)}{height (m)^3}" %}
 
-Jeg vejer 82 kg og er 1,81 cm høj. Jeg har altså et Ponderal Index på 13,8.
+Et eksempel:
+
+Danske [mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) er 181 centimeter. Hvis vi bruger en vægt på 82 kg og sætter ind i formlen, så får vi et Ponderal Index på 13,8.
 
 {% include math formula="Ponderal Index = \frac{82 (kg)}{1,81 (m)^3} = 13.8" %}
 

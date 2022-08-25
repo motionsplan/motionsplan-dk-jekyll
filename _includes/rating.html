@@ -1,4 +1,6 @@
 {% if page.rating.show == 'true' %}
+{% assign wordCount = page.content | number_of_words %}
+{% if wordCount > 300 %}
 {%- assign min = 9 -%}
 {%- assign max = 21 -%}
 {%- assign diff = max | minus: min -%}
@@ -54,4 +56,5 @@
 </fieldset>
 </form>
 </aside>
+{% endif %}
 {% endif %}
