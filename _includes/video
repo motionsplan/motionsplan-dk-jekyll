@@ -13,7 +13,7 @@
   <div class="youtube-container">
     <div class="youtube-player" data-id="{{ video_id }}">
       <a href="https://www.youtube.com/watch?v={{ video_id }}" rel="nofollow noopener">
-        <img class="youtube-thumb" src="//i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" loading="lazy" alt="video til {{ page.title }}">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" loading="lazy" alt="video til {{ page.title }}">
         <span class="play-button"></span>
       </a>
     </div>
