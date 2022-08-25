@@ -103,9 +103,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Azure
     steps:
-      - uses: actions/checkout@v2
+      - name: Use cache
+        uses: actions/cache@v2
         with:
-          submodules: true
+          path: "_site/"
+          key: ${{ runner.os }}-${{ github.run_number }}
       - name: Remove exercise images
         uses: JesseTG/rm@v1.0.3
         with:
