@@ -143,7 +143,7 @@ jobs:
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: --only-4xx --assume-extension --check-favicon --check_opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w" --url-ignore "bjsm.bmj.com"
+          arguments: --only-4xx --assume-extension --check-favicon --check-opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w" --url-ignore "bjsm.bmj.com"
           # The arguments to pass to HTMLProofer
   clean:
     needs: [build,deploy,test]
