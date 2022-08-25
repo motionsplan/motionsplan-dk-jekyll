@@ -176,7 +176,7 @@ jobs:
     - name: Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        urls: 'https://www.motionsplan.dk/,https://www.motionsplan.dk/bmi/'
+        urls: 'https://www.motionsplan.dk/,https://www.motionsplan.dk/bmi-beregner-boern-unge-teenagere/,https://www.motionsplan.dk/skridt-pr-km-10000/,https://www.motionsplan.dk/idealvaegt/'
 
   lighthouse_staging_azure:
     name: Lighthouse report
