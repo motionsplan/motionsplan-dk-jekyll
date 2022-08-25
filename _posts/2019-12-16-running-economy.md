@@ -242,7 +242,7 @@ Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips t
 
 Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inden du får flyttet din løbeøkonomi.
 
-Allan Zachariasen og Jesper Petersen foreslår følgende [træningspas for at forbedre løbeøkonomien](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober).
+Allan Zachariasen og Jesper Petersen foreslår [følgende træningspas](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober) for at forbedre løbeøkonomien.
 
 ### 2) Løb i konkurrence-tempo
 

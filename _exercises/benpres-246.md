@@ -52,13 +52,13 @@ feature_row:
     btn_label: Tjek pris
     btn_class: btn--success
     rel: sponsored nofollow noopener
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Relax_PL1211.jpg
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Relax_PL1211_Seated_Leg_Press.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-seated-leg-press/
     title: 45 graders extension
     btn_label: Tjek pris
     btn_class: btn--success
     rel: sponsored nofollow noopener
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Relax_PTT0116.jpg
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Relax_PTT0116_45_leg_press.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-45-degree-leg-press/
     title: Leg press
     btn_label: Tjek pris
