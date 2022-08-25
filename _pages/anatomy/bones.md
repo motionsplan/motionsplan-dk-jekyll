@@ -18,6 +18,7 @@ feature_row:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
     title: Skelettet - Anatomi plakat
+    alt: plakat med menneskets skelet og knogler
     rel: sponsored nofollow noopener
 breadcrumbs: true
 last_modified_at: 2022-05-19T08:14:14.000Z
