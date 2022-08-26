@@ -150,15 +150,15 @@ jobs:
         uses: actions/cache@v3
         with:
           path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer-${{ github.sha }}
+          key: ${{ runner.os }}-htmlproofer
           restore-keys: |
-            ${{ runner.os }}-htmlproofer-
+            ${{ runner.os }}-htmlproofer
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
         with:
           directory: "./_site"
           # The directory to scan
-          arguments: --only-4xx --assume-extension --ignore-status-codes "400, 403, 409, 429" --allow-hash-href --ignore-empty-alt --ignore-urls "bjsm.bmj.com"
+          arguments: --only-4xx --assume-extension --ignore-status-codes "400, 403, 409, 429" --allow-hash-href --ignore-empty-alt --ignore-urls "bjsm.bmj.com" --cache '{ "timeframe": { "external": "1w", "internal": "1d" }}'
           # The arguments to pass to HTMLProofer
   clean:
     needs: [build,deploy,test]
