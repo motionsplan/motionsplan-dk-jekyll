@@ -77,7 +77,7 @@ jobs:
           key: ${{ runner.os }}-${{ github.sha }}
       - name: Moving to _site
         run: |
-          mv _build/ _site/
+          mv _build/ _site/ -v
 #          npm run build:js
 #      - name: 🔨 Test calculations JS
 #        run: |
