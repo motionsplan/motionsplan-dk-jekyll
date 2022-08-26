@@ -65,7 +65,6 @@ jobs:
       - name: 🔨 Build site
         run: |
           bundle exec jekyll build --lsi --destination _build
-          minify -r -o _build/ --html-keep-document-tags --html-keep-end-tags --html-keep-default-attrvals --verbose _build
         env:
           JEKYLL_ENV: production
       - name: Optimize
