@@ -162,7 +162,7 @@ jobs:
             --allow-hash-href
             --ignore-empty-alt
             --ignore-urls "bjsm.bmj.com"
-            --cache "{ \"timeframe\": { \"external\": \"7d\", \"internal\": \"7d\" } }"
+            --cache "{ \"timeframe\": { \"external\": \"30d\" } }"
           # The arguments to pass to HTMLProofer
   clean:
     needs: [build,deploy,test]
