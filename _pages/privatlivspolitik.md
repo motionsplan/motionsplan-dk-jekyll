@@ -64,4 +64,4 @@ info@motionsplan.dk
 
 ## Uden reklamer
 
-Vi arbejder på en løsning, så du kan slippe for reklamer ved en lille donation ved at [købe mig en kop kaffe](https://www.buymeacoffee.com/lsolesen/){: rel='nofollow noopener' }.
+Vi arbejder på en løsning, så du kan slippe for reklamer ved en lille donation ved at [købe mig en kop kaffe](https://www.buymeacoffee.com/lsolesen){: rel='nofollow noopener' }.
