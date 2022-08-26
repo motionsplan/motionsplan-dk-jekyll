@@ -37,7 +37,7 @@ Ross står bag den helt fabelagtige [rosstraining.com](https://rosstraining.com/
 ## Flere ideer til home gyms
 
 <a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="400" data-pin-scale-width="80" href="https://www.pinterest.dk/lsolesen/garage-gym/"></a>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
 
 ## Del dit eget garagegym
 

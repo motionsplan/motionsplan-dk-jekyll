@@ -87,7 +87,7 @@ Her er bl.a. citater fra B. K. S. Iyengar, Dalai Lama, Gandhi og Yogi Bhajan.
 Jeg har lavet et board med citater om yoga på Pinterest. Skynd dig ind og følge det og foreslå gerne dine egne citater også.
 
 <a data-pin-do="embedBoard" data-pin-lang="da" data-pin-board-width="600" data-pin-scale-height="400" data-pin-scale-width="115" href="https://www.pinterest.dk/motionsplan/tr%25C3%25A6ningscitater-citater-om-tr%25C3%25A6ning-og-motivation/"></a>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
 
 ## Konklusion om citater om yoga, mindfulness og meditation
 
