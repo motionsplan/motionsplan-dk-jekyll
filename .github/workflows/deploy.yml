@@ -70,7 +70,7 @@ jobs:
       - name: 🔨 Build site
         run: |
           bundle exec jekyll build --lsi
-          minify -r -o _site/ --html-keep-document-tags --html-keep-end-tags --html-keep-default-attrvals --verbose _site
+          minify -r -o /home/runner/work/motionsplan-dk-jekyll/motionsplan-dk-jekyll/_site/ --html-keep-document-tags --html-keep-end-tags --html-keep-default-attrvals --verbose /home/runner/work/motionsplan-dk-jekyll/motionsplan-dk-jekyll/_site
         env:
           JEKYLL_ENV: production
 #          npm run build:js
