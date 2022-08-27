@@ -43,7 +43,6 @@ GEM
     ffi (1.15.4)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    gsl (2.1.0.3)
     html-pipeline (2.14.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -151,6 +150,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
     yell (2.2.2)
     zeitwerk (2.5.1)
 
@@ -160,7 +160,6 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
-  gsl
   html-proofer
   jekyll (~> 4.2)
   jekyll-brotli
@@ -173,6 +172,7 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   minimal-mistakes-jekyll (~> 4.24)
+  webrick
 
 BUNDLED WITH
    2.2.7

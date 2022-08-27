@@ -13,6 +13,6 @@ group :jekyll_plugins do
     gem 'jekyll-brotli'
 end
 gem 'classifier-reborn'
-gem 'gsl'
 gem 'html-proofer'
+gem 'webrick'
 gem "minimal-mistakes-jekyll", "~> 4.24"
