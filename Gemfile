@@ -15,4 +15,5 @@ end
 gem 'classifier-reborn'
 gem 'html-proofer'
 gem 'webrick'
+gem 'gsl'
 gem "minimal-mistakes-jekyll", "~> 4.24"
