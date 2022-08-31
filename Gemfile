@@ -15,5 +15,6 @@ group :jekyll_plugins do
 end
 gem 'classifier-reborn'
 gem 'gsl', git: 'https://github.com/SciRuby/rb-gsl.git', ref: '103a3e1'
+gem 'webrick'
 gem 'html-proofer'
 gem "minimal-mistakes-jekyll", "~> 4.24"
