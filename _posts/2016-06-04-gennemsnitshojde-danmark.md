@@ -5,7 +5,6 @@ description: "Hvordan ser det ud med Danmarks gennemsnitshøjde? Den gennemsnitl
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -31,13 +30,15 @@ Vi har fundet flere interessante facts om højde i Danmark, og vi sammenligner o
 
 Den gennemsnitlige danske mand er ifølge de nyeste tal 181,4 centimeter høj, og den gennemsnitlige danske kvinde er 167,2 centimeter høj. Den gennemsnitlige dansker har haft vokseværk de sidste 100 år. Gennemsnitshøjden er øget med 10 cm de seneste 100 år.
 
+{% include figure image_path="https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="gennemsnitshøjde i Danmark" %}
+
 ## Hvad er gennemsnitshøjden i Danmark for mænd og kvinder?
 
 **I dag er gennemsnitshøjden i Danmark for danske mænd 181,4 cm. Den gennemsnitlige danske kvinde er 167,2 cm høj. Det gør danskerne til nogle af de højeste i verden.**
 
-DR skriver, at forskere ifølge [dr.dk](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) i en stor undersøgelse af næsten 1.500 tidligere undersøgelser har undersøgt, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
+[DR.dk](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) skriver, at forskere ifølge i en stor undersøgelse af næsten 1.500 tidligere undersøgelser har undersøgt, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
 
-Du kan læse mere om [Gennemsnitsdanskeren](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren) hos Dansk Statistik. Jeg synes altid, at det er sjovt at se, hvordan man er i forhold til andre mennesker. Der er Dansk Statistik en guldgrube for at se, hvordan den gennemsnitlige dansker lever. Du vil sikkert opleve, at du har mange fællestræk med andre danskere.
+Du kan læse mere om Gennemsnitsdanskeren hos [Dansk Statistik](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren). Jeg synes altid, at det er sjovt at se, hvordan man er i forhold til andre mennesker. Der er Dansk Statistik en guldgrube for at se, hvordan den gennemsnitlige dansker lever. Du vil sikkert opleve, at du har mange fællestræk med andre danskere.
 
 ## Undersøgelse af gennemsnitshøjde i Danmark
 
@@ -45,7 +46,7 @@ Undersøgelsen sammenligner de indberettede højder for hver befolkningsgruppe f
 
 Gennemsnitshøjden for mænd er generelt højere end for kvinder, men hvis vi kigger på gennemsnitshøjden i Danmark, så er gennemsnittet for en dansker uanset køn 174,3 centimeter høj.
 
-> Mænd født i 1896 blev i gennemsnit **170,0 cm** høje, mens kvinderne i gennemsnit blev 157,1 cm høje. Siden da er danskerne skudt gevaldigt i vejret. I dag er gennemsnitshøjden for danske mænd og kvinder henholdsvis **181,4 cm** og **167,2 cm**, og det gør os til nogle af de højeste mennesker i verden.
+> Mænd født i 1896 blev i gennemsnit **170,0 cm** høje, mens kvinderne i gennemsnit blev **157,1 cm** høje. Siden da er danskerne skudt gevaldigt i vejret. I dag er gennemsnitshøjden for danske mænd og kvinder henholdsvis **181,4 cm** og **167,2 cm**, og det gør os til nogle af de højeste mennesker i verden.
 
 --- <cite>[Janne Tolstrup](https://www.sdu.dk/da/sif/ugens_tal/35_2016), professor ved Syddansk Universitet</cite>
 
@@ -57,11 +58,15 @@ I undersøgelsen er det nok til at give mændene en femteplads og kvinderne en s
 
 {% endcomment %}
 
-Men det betyder faktisk også, at mændenes gennemsnitshøjde er steget med 11,8 cm og kvindernes gennemsnitshøjde emd 10,1 cm de seneste 100 år. Det er ret vildt synes jeg.
+Men det betyder faktisk også, at mændenes gennemsnitshøjde er steget med 11,8 cm og kvindernes gennemsnitshøjde emd 10,1 cm de seneste 100 år.
+
+Det er ret vildt, synes jeg.
 
 ## Hvorfor er gennemsnitshøjden så høj i Danmark?
 
-Danmark følger altså godt med, når det gælder gennemsnitshøjden. Generne spiller naturligivs ind, men de vigtigste parametre for, at gennemsnitshøjden i Danmark bliver høj er kost og sundhed i løbet af barndommen. Vi spiser en relativt varieret og sund kost, [får nok søvn](/soevn/) og har et godt, mentalt helbred. Det gør det lettere at opnå en høj gennemsnitshøjde.
+Danmark følger altså godt med, når det gælder gennemsnitshøjden. Generne spiller naturligivs ind, men de vigtigste parametre for, at gennemsnitshøjden i Danmark bliver høj er kost og sundhed i løbet af barndommen.
+
+Vi spiser en relativt varieret og sund kost, [får nok søvn](/soevn/) og har et godt, mentalt helbred. Det gør det lettere at opnå en høj gennemsnitshøjde.
 
 Generne spiller naturligvis også ind, men det gør følgende formentlig også:
 
