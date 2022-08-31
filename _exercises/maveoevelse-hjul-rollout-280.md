@@ -50,7 +50,7 @@ De fleste starter på knæene, men så lærer man meget sjældent at komme op og
 
 {% include video provider="youtube" id="3vfTLXQUZeI" %}
 
-Teknikken i øvelsen er rigtig vigtig. Her gennemgår [Eric Cressey](http://www.ericcressey.com/rollouts-friend-or-foe) hvad man skal være særligt opmærksom på.
+Teknikken i øvelsen er rigtig vigtig. Her gennemgår [Eric Cressey](https://www.ericcressey.com/rollouts-friend-or-foe) hvad man skal være særligt opmærksom på.
 
 {% include video provider="youtube" id="Gg4o745td04" %}
 

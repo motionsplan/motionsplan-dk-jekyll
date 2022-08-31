@@ -50,7 +50,7 @@ Du bør nok være opmærksom på, at svarene i spørgeskemaet er vejledende og i
 
 Du kan også udføre _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_ på engelsk ved at klikke på nedenstående link.
 
-[Udfør testen på engelsk](http://www.health-calc.com/health/9-mortality-risk){: .btn .btn--success .btn--large }
+[Udfør testen på engelsk](https://www.health-calc.com/health/9-mortality-risk){: .btn .btn--success .btn--large }
 
 ## Referencer
 

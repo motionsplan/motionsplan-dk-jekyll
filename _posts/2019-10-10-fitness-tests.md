@@ -56,7 +56,7 @@ Der er virkelig mange forskellige onlineværktøjer, hvor du kan teste forskelli
 
 > On this site you will find calculators and utilities related to health, exercise and diet. All utilities on this site are well-proven and scientifically based tools and scientific references are provided where relevant. Health-calc.com is owned and developed by exercise physiologist Morten Zacho (M.Sc.).
 
----<cite>[About Health-calc.com](http://www.health-calc.com/miscellaneous/about-health-calc)</cite>
+---<cite>[About Health-calc.com](https://www.health-calc.com/miscellaneous/about-health-calc)</cite>
 
 ## Omnicalculator
 

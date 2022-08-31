@@ -96,7 +96,7 @@ Hvis du gerne vil lave en maxtest eller en 1RM-test, så skal du også have valg
 
 ## PAP virker også i forhold til at forbedre din springhøjde
 
-Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg har forstået, så er det sådan man oprindeligt har brugt PAP. Det kan du læse mere om på [t-nation.com](https://www.t-nation.com/training/tip-a-very-weird-way-to-boost-your-vertical) og [jackedathlete.com](http://jackedathlete.com/instantly-jump-higher-post-activation-potentiation/).
+Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg har forstået, så er det sådan man oprindeligt har brugt PAP. Det kan du læse mere om på [t-nation.com](https://www.t-nation.com/training/tip-a-very-weird-way-to-boost-your-vertical) og [jackedathlete.com](https://jackedathlete.com/instantly-jump-higher-post-activation-potentiation/).
 
 ## Konklusion om forberedelse til maxløft
 

@@ -60,5 +60,5 @@ DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en deload uge, h
 
 - [Daily Undulating Periodization: The Bogeyman of Training Programs](https://www.strongerbyscience.com/daily-undulating-periodization/)
 - [Daily Undulating Periodization (DUP) Training](https://www.askmen.com/sports/bodybuilding/daily-undulating-periodization-dup-training.html)
-- [The DUP Bible](http://www.jmaxfitness.com/blog/daily-undulating-periodization/)
+- [The DUP Bible](https://www.jmaxfitness.com/blog/daily-undulating-periodization/)
 - [Daily Undulating Periodization: Conjugate Adapted for Raw Lifters](https://www.elitefts.com/education/daily-undulating-periodization-conjugate-adapted-for-raw-lifters/)

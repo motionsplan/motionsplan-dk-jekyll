@@ -59,7 +59,7 @@ Du bruger lidt mindre ilt, når du løber på et fladt løbebånd sammenlignet m
 
 Det gælder ikke nødvendigvis for alle hastigheder, da Jones og Doust (1996) først fandt siginfikante resultater, da hastigheden blev højere end 12,87 km/t på løbebåndet.
 
-Kender du andre studier i forhold til _incline_ på løbebåndet, der kan gøre os alle klogere, så brug endelig kommentarerne. 1% reglen bliver [jævnligt diskuteret](http://blog.cybexintl.com/post/the-1-incline-simulating-over-ground-running).
+Kender du andre studier i forhold til _incline_ på løbebåndet, der kan gøre os alle klogere, så brug endelig kommentarerne. 1% reglen bliver [jævnligt diskuteret](https://www.lifefitness.com/en-us/cybex/cybex-blog/the-1-incline-simulating-over-ground-running--1304874).
 
 Det bliver ofte foreslået, at knæsmerter kan reduceres ved at ændre sin landing til midtfod eller forfod, mens [løbere med overbelastede akillessener og lægmuskulatur kan fokusere på at lande længere tilbage på foden](https://www.tendinopathyrehab.com/blog/tendinopathy-updates/what-are-the-best-run-retraining-strategies-for-achilles-tendinopathy).
 

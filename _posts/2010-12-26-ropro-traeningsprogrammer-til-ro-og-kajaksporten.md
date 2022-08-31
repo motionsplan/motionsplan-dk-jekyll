@@ -36,7 +36,7 @@ Jeg har været på udkig efter et træningsprogram til indendørs roning på rom
 
 Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside om rotræning.
 
-{% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer. Anders har kigget på et et indendørs træningsprogram til din rotræning og roning med intervaltræning" alt="Anders Krintel om roprogrammer og intervaller" %}
+{% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](https://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer. Anders har kigget på et et indendørs træningsprogram til din rotræning og roning med intervaltræning" alt="Anders Krintel om roprogrammer og intervaller" %}
 
 Jeg kan godt afsløre, at Anders Krintel har en forkærlighed for [intervaller og intervaltræning](/intervaltraening/), så sådan er alle træningsforslagene her bygget op.
 
@@ -154,7 +154,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
 
 ### 90 seconds shuffle
 

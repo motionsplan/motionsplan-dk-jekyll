@@ -69,7 +69,7 @@ Energiforbruget ved aktivitet afhænger af forskellige faktorer:
 
 I de følgende beregninger for gang kigger vi hovedsageligt på hastigheden og hældningen, men det er en relativt grov generalisering.
 
-{% include figure image_path="https://images.unsplash.com/photo-1607326005396-d82f932c55bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Når du kigger på forbrænding af kalorier i forhold til gang, så betyder både din hastighed, landskabet og intensiteten noget." %}
+{% include figure image_path="https://images.unsplash.com/photo-1607326005396-d82f932c55bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Når du kigger på forbrænding af kalorier i forhold til gang, så betyder både din hastighed, landskabet og intensiteten noget." %}
 
 Hvis du vil have en mere præcis vurdering af din intensitet under gang, så kan du bruge en pulsmåler.
 

@@ -57,7 +57,7 @@ Når du træner, så kan du formentlig ikke undgå at blive øm i musklerne enga
 
 ## Hvad skaber ømheden i musklerne?
 
-Man kender ikke nøjagtigt årsagen til muskelømheden. [forskning.no](http://forskning.no/) har spurgt to eksperter om, hvorfor der opstår ømhed efter træning. Kristoffer Toldnes Cumming fra Norges Idrætshøjskole og Jan Helgerud fra Norges teknisk-naturvidenskabelige universitet (NTNU) i Trondheim.
+Man kender ikke nøjagtigt årsagen til muskelømheden. [forskning.no](https://forskning.no/) har spurgt to eksperter om, hvorfor der opstår ømhed efter træning. Kristoffer Toldnes Cumming fra Norges Idrætshøjskole og Jan Helgerud fra Norges teknisk-naturvidenskabelige universitet (NTNU) i Trondheim.
 
 De forklarer først og fremmest begge to, at der ikke findes noget sikkert svar på, hvad der sker i kroppen, når vi bliver ømme.
 

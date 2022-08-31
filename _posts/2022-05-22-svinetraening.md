@@ -35,13 +35,13 @@ Lad os dykke ned i konceptet bag svinetræning.
 
 Svinetræning er svinehård, effektiv træning, hvor der næsten er garanti for at blive beskidt, når man roder rundt på jorden eller skal have fat i naturmaterialer som redskaber.
 
-Svinetræning er en træningsform, som Jens Bojsen-Møller og Peter Løwenstein står bag. De har lavet en [hjemmeside](http://svinetraening.dk/), hvor du kan læse endnu mere om træningen.
+Svinetræning er en træningsform, som Jens Bojsen-Møller og Peter Løwenstein står bag. De har lavet en [hjemmeside](https://svinetraening.dk/), hvor du kan læse endnu mere om træningen.
 
 {% include feature_row type="left" %}
 
 ## Typer af svinetræning
 
-{% include figure image_path="/assets/images/blog/svinetraening-typer.jpg" caption="De forskellige typer svin er præsenteret med billeder på [svinetraening.dk](http://svinetraening.dk/)" alt="Screenshot fra svinetraening.dk" %}
+{% include figure image_path="/assets/images/blog/svinetraening-typer.jpg" caption="De forskellige typer svin er præsenteret med billeder på [svinetraening.dk](https://svinetraening.dk/)" alt="Screenshot fra svinetraening.dk" %}
 
 På hjemmesiden præsenterer de nogle forskellige typer 'svin', men der er jo ingen grænser for opfindssomheden, hvis du selv vil finde på nogle svinestreger.
 

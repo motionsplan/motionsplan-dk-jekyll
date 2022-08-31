@@ -68,7 +68,7 @@ Men det er også væsentligt at kigge på, hvordan du kommer igennem de forskell
 
 Voksne mennesker skal sove mellem 7-9 timer. Det gennemsnitlige søvnbehov er omkring 7,5 timer, men nogen kan have brug for mere eller mindre søvn. Søvnbehovet er forskellig fra person til person, og det varierer også igennem livet med alderen.
 
-Det skiftende søvnbehov kan ses i et _review_ studie publiceret i [The Journal of the National Sleep Foundation](http://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext). Her konkluderer forskerne på baggrund af en opsamling af en række undersøgelser, at søvnbehovet den enkelte nat varierer med alderen.
+Det skiftende søvnbehov kan ses i et _review_ studie publiceret i [The Journal of the National Sleep Foundation](https://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext). Her konkluderer forskerne på baggrund af en opsamling af en række undersøgelser, at søvnbehovet den enkelte nat varierer med alderen.
 
 {% include figure image_path="https://www.vipra.dk/wp-content/uploads/2019/11/hvor-mange-timer-skal-man-sove-tabel-2019.jpg" caption="Søvnbehov gennem livet. Kilde: [www.vipra.dk](https://www.vipra.dk/blog/soevnmangel-under-vaegttab-saa-mange-timer-skal-du-sove/)." alt="søvnbehov med alder" %}
 

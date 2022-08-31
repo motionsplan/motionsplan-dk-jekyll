@@ -71,7 +71,7 @@ Grundlæggende sundhedsprofil
 Avanceret sundhedsprofil
 : I den avancerede sundhedsprofil laver du nogle målinger på dig selv. Alle målingerne er ret enkle at lave, og der er gode forklaringer på siden.
 
-[Tag din egen sundhedstest](http://www.health-calc.com/component/sundhedsprofiler/default){: .btn .btn--large .btn--info }
+[Tag din egen sundhedstest](https://www.health-calc.com/component/sundhedsprofiler/default){: .btn .btn--large .btn--info }
 
 ## Hvordan tester jeg fitness?
 
@@ -89,7 +89,7 @@ Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også
 
 ## Teoretisk baggrund for sundhedsprofilen og sundhedstest
 
-I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}, som den ser ud på [health-calc.com](http://www.health-calc.com/component/sundhedsprofiler/default) og de ting, der er taget med i sundhedsprofilen.
+I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}, som den ser ud på [health-calc.com](https://www.health-calc.com/component/sundhedsprofiler/default) og de ting, der er taget med i sundhedsprofilen.
 
 {% comment %}
 
@@ -161,7 +161,7 @@ Er du enige med de forskellige paramtre, der bliver inddraget i sundhedstesten? 
 
 Men måler testen overhovedet sundhed?
 
-Du kan læse mere om danskernes sundhed generelt på [www.danskernessundhed.dk](http://www.danskernessundhed.dk/). Der er målt forskellige parametre, som forskerne har relateret til sundhed.
+Du kan læse mere om danskernes sundhed generelt på [www.danskernessundhed.dk](https://www.danskernessundhed.dk/). Der er målt forskellige parametre, som forskerne har relateret til sundhed.
 
 Hvad er din definition af sundhed?
 

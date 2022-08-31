@@ -52,4 +52,4 @@ Retningslinjerne er udregnet efter det, de kalder den totale systemvægt. Den to
 
 Anbefalingerne ift. den totale systemvægt ligger fra 10% til maksimalt 40%. Start i den lave ende og arbejd dig opad som du bliver stærkere.
 
-Læs også [Jump Squats: How much load?](http://www.dieselcrew.com/articles-pdf/DC-IM-JumpSquats.pdf)
+Læs også [Jump Squats: How much load?](https://www.dieselcrew.com/articles-pdf/DC-IM-JumpSquats.pdf)

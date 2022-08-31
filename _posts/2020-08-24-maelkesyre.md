@@ -129,7 +129,7 @@ Hvad fordelingen er af omsætningen mellem de forskellige vævstyper under og li
 
 Tidligere troede man, at der blev produceret eksponentielt mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
 
-Det ser ud til, at [nyrere fortsætter med at fjerne mælkesyre under moderat arbejde](http://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
+Det ser ud til, at [nyrere fortsætter med at fjerne mælkesyre under moderat arbejde](https://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
 
 I træningsfysiologien snakker man om den [anaerobe tærskel eller mælkesyretolerancetærsklen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) som det tidspunkt, hvor kroppen netop kan nå at fjerne den ekstra mælkesyre, der produceres.
 
