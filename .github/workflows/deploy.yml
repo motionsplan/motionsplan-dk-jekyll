@@ -160,7 +160,7 @@ jobs:
           # The directory to scan
           arguments: |
             --only-4xx true
-            --assume-extension true
+            --assume-extension ".html"
             --ignore-status-codes "400,403,409,429"
             --allow-hash-href true
             --ignore-empty-alt true
