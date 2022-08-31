@@ -2,7 +2,7 @@
 layout: single
 title: "Om Motionsplans formål og tilblivelse"
 permalink: /om/
-excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning."
+excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning. Her får du alle detaljerne."
 author_profile: true
 sitemap: false
 ---
@@ -26,9 +26,9 @@ Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ si
 
 ## Gratis medie med reklamer
 
-Motionsplan finansierer bl.a. driften gennem reklamer. Nogle links på sitet er affiliate links. Det betyder, at vi tjener en lille kommision, hvis du køber produkter efter at have klikket på et link til en leverandør. Prisen for dig er den samme.
+Motionsplan finansierer bl.a. driften gennem reklamer. Der kan optræde bannerannoncer og nogle links på sitet er affiliate links. Affiliate links er tydeligt markeret med (*). Det betyder, at vi tjener en lille kommision, hvis du køber produkter efter at have klikket på et link til en leverandør. Produkterne ikke bliver dyrere af, at du støtter Motionsplan. Prisen for dig er den samme.
 
-Alle reklamelinks er altid markeret tydeligt. Du skal også være opmærksom på, at produkterne ikke bliver dyrere af, at du støtter Motionsplan.
+Når der er affiliate links i en artikel, betyder det ikke at alt indholdet er kommercielt.
 
 Indtjeningen går til at støtte arbejdet med hjemmesiden, den løbende opdatering og optimering og til nye tiltag. Vi håber, at du vil støtte op om arbejdet.
 
