@@ -50,7 +50,11 @@ Derfor har kroppen en række **nedkølingsmekanismer**. Når omgivelserne samtid
 
 De primære nedkølingsmekansimer er subcutant blodflow og øget svedproduktion. Disse mekanismer skal fungere endnu mere effektivt, når det er varmt. Når du sveder mere, så mister du også en masse væske.
 
-[Kroppen består af 50-60% vand](/vand-i-kroppen/) alt efter din alder, dit køn og din højde. Hvis du vejer omkring 84 kg, er 46 år og 181 cm høj, så kan du i beregneren anslå, at du har 46 liter vand i kroppen.
+[Kroppen består af 50-60% vand](/vand-i-kroppen/) alt efter din alder, dit køn og din højde.
+
+Lad os tage et eksempel:
+
+Hvis du vejer omkring 84 kg, er 46 år og som [gennemsnitsmanden er 181 cm høj](/hvad-er-gennemsnitshoejden-i-danmark/), så kan du i beregneren anslå, at du har 46 liter vand i kroppen.
 
 Præstationsevnen påvirkes negativt, hvis du dehydrerer for meget. Der sker formentlig ikke det helt store, hvis du tager 1-2% væske, men kommer du over 2% så falder præstationsevnen en del. Det mindsker både svedraten og det subcutane blodflow. Derved komprimitteres kroppens nedkølingsmekanismer.
 
