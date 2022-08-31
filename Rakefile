@@ -12,7 +12,7 @@ task :test do
       :allow_hash_href => true,
       :empty_alt_ignore => true,
       :alt_ignore => '/.*/',
-      :http_status_ignore => [400, 403, 409, 429]
+      :ignore_http_status => [400, 403, 409, 429]
   }
   HTMLProofer.check_directory("./_site", options).run
 end
