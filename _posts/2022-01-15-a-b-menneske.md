@@ -176,9 +176,9 @@ Desværre har jeg ikke kunnet finde en måde at lave testen online på. Du kan s
 
 ### 2. Horne-Ostberg Morning-Eveningness Questionnaire (MEQ)
 
-Derfor kan tage *Horne-Ostberg Morning-Eveningness Questionnaire (MEQ)*, som du kan udføre [online](http://www.cet-surveys.com/index.php?sid=61524). Det tager omkring 5 minutter at udføre testen for at finde din kronotype.
+Derfor kan tage *Horne-Ostberg Morning-Eveningness Questionnaire (MEQ)*, som du kan udføre [online](https://www.cet-surveys.com/index.php?sid=61524). Det tager omkring 5 minutter at udføre testen for at finde din kronotype.
 
-{% include figure image_path="/assets/images/blog/kronotype-horne-ostberg.jpg" caption="Du kan tage Horne-Ostberg Morning-Eveningness Questionnaire online på [www.cet-surveys.com](http://www.cet-surveys.com/index.php?sid=61524)." alt="Horne-Ostberg Morning-Eveningness Questionnaire - A- eller B-menneske?" %}
+{% include figure image_path="/assets/images/blog/kronotype-horne-ostberg.jpg" caption="Du kan tage Horne-Ostberg Morning-Eveningness Questionnaire online på [www.cet-surveys.com](https://www.cet-surveys.com/index.php?sid=61524)." alt="Horne-Ostberg Morning-Eveningness Questionnaire - A- eller B-menneske?" %}
 
 ## Bonus: Epworths Søvnighedsskala
 

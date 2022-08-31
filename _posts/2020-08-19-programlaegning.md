@@ -82,7 +82,7 @@ Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kr
 
 De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-beregner/) med fordel kunne være.
 
-Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
+Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
 
 |            | Begynder         | Trænet              |
 |------------|------------------|---------------------|

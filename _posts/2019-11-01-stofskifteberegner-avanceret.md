@@ -74,13 +74,13 @@ Hvis du har et rigtig godt bud, så brug endelig kommentarerne.
 
 ### Energiforbrug korrigeret for vægt og BMI ifølge Morten Zacho
 
-Denne beregner er delvist baseret på Morten Zachos [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
+Denne beregner er delvist baseret på Morten Zachos [energiforbrugberegner](https://health-calc.com/diet/energy-expenditure-advanced).
 
 Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %})_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
 
 Målet for beregneren af energiforbrug er, at den er pålidelig både for børn, normalvægtige voksne og overvægtige voksne.
 
-Morten Zacho foreslår [to korrektioner til energiberegneren](http://health-calc.com/diet/energy-expenditure-advanced), som vi også har implementeret i denne beregner:
+Morten Zacho foreslår [to korrektioner til energiberegneren](https://health-calc.com/diet/energy-expenditure-advanced), som vi også har implementeret i denne beregner:
 
 #### Korrektion for overvægtige
 
@@ -112,7 +112,7 @@ TEE = BMR + weight * (0.03 * sitting + 0.1 * standing + 0.26 * light * correctio
 
 Morten Zacho forklarer ikke nogen steder, hvordan han er endt på de korrektioner, eller hvor han har formlen til TEE fra.
 
-Hvis du kender algoritmerne bag udregneren på [health-calc.com](http://health-calc.com/diet/energy-expenditure-advanced), så skriv endelig.
+Hvis du kender algoritmerne bag udregneren på [health-calc.com](https://health-calc.com/diet/energy-expenditure-advanced), så skriv endelig.
 
 {% endcomment %}
 
@@ -124,7 +124,7 @@ Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktivi
 
 Jeg har lavet en [simpel beregner til hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og en [beregner af dit stofskifte, energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) med en lidt mere generel angivelse af dit daglige fysiske aktivitetsniveau. Endelig kan du tjekke vores [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
 
-Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
+Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](https://health-calc.com/diet/energy-expenditure-advanced).
 
 ## Referencer
 
@@ -132,5 +132,5 @@ Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet
   <summary>Se referencer</summary>
 
 - Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41. <https://pubmed.ncbi.nlm.nih.gov/4044297/>
-- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
+- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
 </summary>

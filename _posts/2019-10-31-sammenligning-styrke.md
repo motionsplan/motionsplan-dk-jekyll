@@ -146,7 +146,7 @@ hvor T er forventet for en topklasseløfter, og hvor bw er kropsvægt (kg) og `a
 
 ## Index100
 
-Morten Zacho har udviklet en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast.
+Morten Zacho har udviklet en [Index100 beregner](https://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast.
 
 {% include calculate-strength-index-100.html %}
 
@@ -162,7 +162,7 @@ Beregningen kan som sagt bruges på andre løft end styrkeløft, da det er rimel
 **Eksempel:** A vejer 90 kg og kan tage 115 kg i bænkpres. B vejer 75 kg og kan tage 100 kg i bænkpres. Hvem er stærkest? A løfter 1,28 kg pr. kg kropsvægt og B løfter 1,33 kg pr. kg kropsvægt. Er B så stærkest? Nej, ifølge Index100-beregningen ville A løfte 120 kg hvis han vejede 100 kg og B ville kun løfte 117 kg. A er altså den stærkeste (efter retfærdig normalisering)
 {: .notice .notice--info }
 
- og Morten Zacho har baseret en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"} på Mel Siffs arbejde
+ og Morten Zacho har baseret en [Index100 beregner](https://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"} på Mel Siffs arbejde
 
 {% endcomment %}
 
@@ -179,7 +179,7 @@ Her har vi præsenteret Wilks Score IPFs måde at sammenligne løft på. Disse s
 <details markdown="1">
   <summary>Se referencer om sammenligning af styrke</summary>
 
-- [Evolution of Bodymass Adjustments](http://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm)
+- [Evolution of Bodymass Adjustments](https://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm)
 - [About relative strength](http://tsampa.org/training/scripts/relative_strength/#about)
 - [Who is the most impressive powerlifter](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/)
 </details>

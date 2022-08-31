@@ -48,7 +48,7 @@ Principperne i et træningsprogram for at **lære at tage en pull up og en chin 
 
 ### Motorisk indlæring og bevægelse i pullups
 
-[Niklas Meier](http://niklasmeier.dk/2016/10/09/pull-ups-part-1-motorisk-indlaering-og-bevaegelse/) har lavet nogle videoer, der handler om, hvordan man træner sig op til pullups.
+[Niklas Meier](https://niklasmeier.dk/2016/10/09/pull-ups-part-1-motorisk-indlaering-og-bevaegelse/) har lavet nogle videoer, der handler om, hvordan man træner sig op til pullups.
 
 Du kan først se videoen om, hvad du skal tænke på, og hvordan du får lært selve bevægelsen.
 
@@ -62,7 +62,7 @@ Du kan se i videoen ovenfor, hvordan skulderbladene skal bevæge sig, og hvordan
 
 Du træner op til at lave pullups ved at have tålmodighed og bygge træningen fornuftigt op. Når du gør det, så kan du også træne dig op til at lave din første pullup.
 
-[Niklas Meier](http://niklasmeier.dk/2016/10/14/hvordanfaarjegminfoerstepullup/) forklarer i videoen nedenunder, hvordan man kan lave sin første pullup. Der er også øvelser, som du kan supplere din træning med for at lave din første pullup.
+[Niklas Meier](https://niklasmeier.dk/2016/10/14/hvordanfaarjegminfoerstepullup/) forklarer i videoen nedenunder, hvordan man kan lave sin første pullup. Der er også øvelser, som du kan supplere din træning med for at lave din første pullup.
 
 {% include video provider="youtube" id="WPNHzkM_O1g" %}
 

@@ -58,7 +58,7 @@ Sundhedsprofilen viser et øjebliksbillede af din nuværende sundhed og livsstil
 
 > Motion-online’s Sundhedsprofil er tænkt som et værktøj der kan bruges af alle – både private og professionelle. Vi har derfor lagt vægt på en let tilgængelig og pædagogisk brugerflade samt et evidensbaseret fundament for test og resultatberegning. I denne artikel gives de bagvedliggende principper og referencer.Sundhed kan beskrives på mange forskellige måder. I Motion-online’s sundhedsprofil tages der udgangspunkt i variable, der er relateret til fysisk sundhed, set som muligheden for at leve et langt liv uden sygdomme og med en høj grad af fysisk funktion gennem hele livet.
 
---- <cite>[Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+--- <cite>[Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 Oprindeligt var sundhedsprofilen udviklet på dansk, men nu findes den kun på engelsk. Så det kan være, at du skal have ordbogen frem.
 {: .notice .notice--info }
@@ -89,7 +89,7 @@ Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også
 
 ## Teoretisk baggrund for sundhedsprofilen og sundhedstest
 
-I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}, som den ser ud på [health-calc.com](http://www.health-calc.com/component/sundhedsprofiler/default) og de ting, der er taget med i sundhedsprofilen.
+I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}, som den ser ud på [health-calc.com](http://www.health-calc.com/component/sundhedsprofiler/default) og de ting, der er taget med i sundhedsprofilen.
 
 {% comment %}
 
@@ -137,7 +137,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 >
 > Smidighed er nok den mindst vigtige af de anvendte faktorer, men ikke desto mindre, så er god bevægelighed væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Selvom sammenhængen er en anelse spekulativ, så er det dog rimeligt at antage en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at oprethold en god holdning i både hvile og under aktivitet, hvilket har betydning for opståen af rygproblemer.
 
---- <cite> [Morten Zacho](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+--- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 [Test din smidighed]({% link _posts/2020-09-11-smidighedstest.md %}){: .btn .btn--large .btn--success }
 
@@ -151,7 +151,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 >
 > Ikke alle elementer tæller lige meget i den samlede score. Det trækker fx meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
 
---- <cite> [Morten Zacho](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+--- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 {% endcomment %}
 

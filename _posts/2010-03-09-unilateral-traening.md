@@ -37,7 +37,7 @@ Der er flere **fordele** ved at træne unilateralt:
 
 ## Hvordan implementerer jeg ensidige øvelser i min træning?
 
-- Kabeltræk og håndvægte er ideelle til unilaterale øvelser. Der er masser af eksempler her på sitet, men Thomas Jagd har også skrevet en glimrende artikel om [unilateral træning med øvelseseksempler](http://news.bodylab.dk/artikler/3188-unilateral-traening).
+- Kabeltræk og håndvægte er ideelle til unilaterale øvelser. Der er masser af eksempler her på sitet, men Thomas Jagd har også skrevet en glimrende artikel om [unilateral træning med øvelseseksempler](https://news.bodylab.dk/artikler/3188-unilateral-traening).
 - Vælg en unilateral øvelse hver gang du træner.
 - Skift mellem laterale og unilaterale øvelser på de forskellige træning. Hvis du laver squat i dag, så lav lunges næste gang du træner.
 - Brug en lavere vægt, så du kan udføre øvelserne med god teknik.
@@ -50,7 +50,7 @@ I denne Youtube-video kan du se en række rigtig gode unilaterale øvelser.
 
 {% include video provider="youtube" id="Eh60H4J_bqw" %}
 
-Andre eksempler på unilaterale øvelser kan du se i [denne liste over ensidige øvelser](http://news.bodylab.dk/artikler/3188-unilateral-traening), som er samlet af Thomas Jagd.
+Andre eksempler på unilaterale øvelser kan du se i [denne liste over ensidige øvelser](https://news.bodylab.dk/artikler/3188-unilateral-traening), som er samlet af Thomas Jagd.
 
 ### Unilaterale øvelser til underkroppen
 

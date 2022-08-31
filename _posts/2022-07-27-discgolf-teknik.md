@@ -233,7 +233,7 @@ Der kan være andre disc-producenter, der rangerer discs på en anden måde, men
 
 {% include figure image_path="/assets/images/blog/vaelg-golfdics-til-discgolf-essence.png" caption="Her kan du se flyveegenskaberne for Essence fra Discmania skrevet på selve discen." alt="frisbee til discgolf med discens flyveegenskaber" %}
 
-Du kan sammenligne discs på [inboundsdiscgolf.com](http://www.inboundsdiscgolf.com), men husk at tallene kun giver mening, hvis man kan kaste med samme kraft og mængde spin. Det er således potentialet i discen, du kan aflæse i sammenligninger.
+Du kan sammenligne discs på [inboundsdiscgolf.com](https://www.inboundsdiscgolf.com), men husk at tallene kun giver mening, hvis man kan kaste med samme kraft og mængde spin. Det er således potentialet i discen, du kan aflæse i sammenligninger.
 
 ## Hvordan kaster jeg længst muligt med frisbee?
 

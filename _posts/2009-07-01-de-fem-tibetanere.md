@@ -64,7 +64,7 @@ gallery:
     title: "Rite 5: De 5 tibetanere"
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: http://motionsplan.yogastream.dk
+    url: https://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
     rel: "sponsored nofollow noopener"
@@ -218,9 +218,9 @@ De første gange jeg selv udførte de fem tibetanere havde jeg udskrevet en guid
 
 Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme selv kan lave øvelserne.
 
-[Udskriv øvelserne med forklaring](http://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
+[Udskriv øvelserne med forklaring](https://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
 ### Video af tibetanerne på Youtube
 
@@ -358,7 +358,7 @@ Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske
 
 Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}), og vi har også skrevet et andet indlæg om at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
 ## Anbefalinger for de 5 tibetanske riter
 

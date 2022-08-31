@@ -99,7 +99,7 @@ Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale pu
 
 {% include figure image_path="/assets/images/helgerud-2007-vo2-sv.png" caption="Procentvis ændringer i absolutte VO<sub>2</sub>max og absolutte slagvolumen. Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="procentvise ændringer absolutte VO2 max og slagvolumen" %}
 
-[Anette Dalbøge](http://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
+[Anette Dalbøge](https://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
 
 Derudover viser studiet, at man ikke kan kompensere for en reduceret arbejdsintensitet ved at forøge arbejdstiden for at opretholde det samme totale arbejde, hvis du gerne vil forbedre din maksimale iltoptagelse. Intensiteten ser ud til at være afgørende for at forbedre VO<sub>2</sub>max.
 

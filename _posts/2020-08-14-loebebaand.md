@@ -37,7 +37,7 @@ Det er anderledes at løbe på et løbebånd end på en almindelig vej eller i s
 - "Terrænet" er ens hele vejen.
 - Vejrudsigten melder altid vindstille tørvejr.
 
-Umiddelbart burde det altså være lettere at løbe på et løbebånd, men [Kong et al (2012)](http://www.ncbi.nlm.nih.gov/pubmed/22357398) undersøgte en gruppe løbere, hvor de skulle finde en selvvalgt foretrukken hastighed både på en udendørs løbebane og et løbebånd.
+Umiddelbart burde det altså være lettere at løbe på et løbebånd, men [Kong et al (2012)](https://www.ncbi.nlm.nih.gov/pubmed/22357398) undersøgte en gruppe løbere, hvor de skulle finde en selvvalgt foretrukken hastighed både på en udendørs løbebane og et løbebånd.
 
 Løberne startede på banen og skulle derefter finde samme hastighed på løbebåndet uden at kunne følge med i deres _pace_. Efter nogle minutter på løbebåndet gik løberne igen ud på løbebanen for at finde deres foretrukne løbehastighed.
 
@@ -45,7 +45,7 @@ Resultaterne var lidt overraskende. På banen fandt løberne i gennemsnit nogenl
 
 Naturligvis vil det variere fra person til person, men du kan jo selv prøve det. Hvis løberne havde længere tid til at vænne sig til at løbe på løbebånd, så ville resultaterne måske have ligget tættere.
 
-[Oliveira et. al. (2016)](http://www.ncbi.nlm.nih.gov/pubmed/27064978) konkluderede, at løb på løbebånd og løb på fast underlag ligner hinanden motorisk og i timingen i forhold til den muskulære peak aktiveringen inden for et motorisk modul. Løbere anvender altså nogenlunde ens muskulære strategier for at løbe på et løbebånd og løbe andre steder.
+[Oliveira et. al. (2016)](https://www.ncbi.nlm.nih.gov/pubmed/27064978) konkluderede, at løb på løbebånd og løb på fast underlag ligner hinanden motorisk og i timingen i forhold til den muskulære peak aktiveringen inden for et motorisk modul. Løbere anvender altså nogenlunde ens muskulære strategier for at løbe på et løbebånd og løbe andre steder.
 
 Der blev dog fundet forskelle i den måde skinnebenet bliver accelereret på, og derfor fandt de at den dybe del af lægmusklen (mm. soleus) har et ændret aktiveringsmønster på løbebåndet.
 
@@ -55,7 +55,7 @@ Det har også været anført, at man på et løbebånd ikke aktiverer bagkæden 
 
 Du bruger lidt mindre ilt, når du løber på et fladt løbebånd sammenlignet med at løbe udenfor. Jones og Doust (1996) fandt i deres studium, at en hældning på omkring 1% på løbebåndet er med til at simulere det samme energiforbrug som bliver brugt på udendørs løb.
 
-{% include figure image_path="https://www.researchgate.net/profile/Andrew_Jones18/publication/14320136/figure/fig1/AS:601591753232386@1520442059508/figure-fig1.png" caption="Figur viser forskelle målt på iltforbrug mellem udendørs løb og løb på løbebånd med forskellige hældninger. Figur fra [Jones og Doust (1996)](http://www.ncbi.nlm.nih.gov/pubmed/8887211)." %}
+{% include figure image_path="https://www.researchgate.net/profile/Andrew_Jones18/publication/14320136/figure/fig1/AS:601591753232386@1520442059508/figure-fig1.png" caption="Figur viser forskelle målt på iltforbrug mellem udendørs løb og løb på løbebånd med forskellige hældninger. Figur fra [Jones og Doust (1996)](https://www.ncbi.nlm.nih.gov/pubmed/8887211)." %}
 
 Det gælder ikke nødvendigvis for alle hastigheder, da Jones og Doust (1996) først fandt siginfikante resultater, da hastigheden blev højere end 12,87 km/t på løbebåndet.
 

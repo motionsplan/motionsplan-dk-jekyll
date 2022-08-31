@@ -118,15 +118,15 @@ Hvis andelen af type I-fibre er større hos kvinder, så vil de selvsagt også h
 
 ## Er kvinder dårligere til at bruge deres muskler end mænd?
 
-Morten Zacho skriver, at man hos [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen.
+Morten Zacho skriver, at man hos [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](https://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen.
 
-Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale forhold](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}.
+Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale forhold](https://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}.
 
 > Mænds højere testosteron-niveau giver dem bedre forudsætninger for en aggressiv adfærd, hvilket kan udmønte sig i en mere komplet aktivering af en given muskelmasse. Dertil vil mange drenge gennem deres opvækst have haft en legeadfærd, der har øvet dem i at bruge deres muskler mere end pigerne.
 >
 > Hvis man sammenligner kvindelige og mandlige topatleter vil man se, at de er lige gode til at aktivere deres muskler – Det er altså i sidste ende et træningsspørgsmål og dermed et godt argument for at kvinder også skal løfte tunge vægte.
 
-— <cite>[Morten Zacho](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}</cite>
+— <cite>[Morten Zacho](https://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}</cite>
 
 ## Er der forskel på kvinder og mænds muskulære tilpasning til udholdenhedstræning?
 
@@ -136,7 +136,7 @@ Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale for
 >
 > **Resultater**: Den maksimale iltoptagelse blev øget med 22% og 17% for henholdsvis kvinder og mænd - men uden statistisk forskel. De mitokondrielle enzymer blev øget med omtrent 40% hos både mænd og kvinder. Endvidere havde mændene relativt større areal af de hurtige type II muskelfibre og kvinderne havde et relativt større areal af de langsomme type I muskelfibre.
 
---- <cite>[Morten Zacho](http://web.archive.org/web/20130605160953/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/ingen_forskel_i_effekten_af_udholdenhedstraening_paa_kvinder_og_maends_muskler/){: rel="nofollow" }</cite>
+--- <cite>[Morten Zacho](https://web.archive.org/web/20130605160953/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/ingen_forskel_i_effekten_af_udholdenhedstraening_paa_kvinder_og_maends_muskler/){: rel="nofollow" }</cite>
 
 ## Skal kvinder og mænd træne forskelligt?
 

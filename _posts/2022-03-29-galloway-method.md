@@ -40,7 +40,7 @@ Jeff Galloway er en tidligere olympisk løber fra USA. Han slog mange løberekor
 
 Men det er jo ikke nok at have vundet en række større løb på forskellige distancer. Han forsøgte at sætte sin træning i system, og han opfattes nu som en af de toneangivende løbetrænere i verden. Han er bl.a. en af de coaches, som Garmin bruger til at lave løbeprogrammer.
 
-Du kan læse mere om Jeff Galloway på hans hjemmeside [www.jeffgalloway.com](http://www.jeffgalloway.com). Her kan du høre Jeff Galloway fortælle mere om sin egen filosofi:
+Du kan læse mere om Jeff Galloway på hans hjemmeside [www.jeffgalloway.com](https://www.jeffgalloway.com). Her kan du høre Jeff Galloway fortælle mere om sin egen filosofi:
 
 {% include video provider="youtube" id="-j-SdZwS_ac" %}
 
@@ -80,7 +80,7 @@ Screenshot af JeffGalloway.
 
 ## Beregner til Galloway Magic Mile
 
-Galloway har en [Beregner](http://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
+Galloway har en [Beregner](https://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
 
 I denne beregner kan du udregne forskellige hastigheder, som du kan bruge i din træning alt efter, hvilket tempo du skal løbe i. Du skal først have løbet en _Magic Mile_. Baseret på din sluttid kan du udregne, hvilket tempo du skal bruge på forskellige distancer.
 
