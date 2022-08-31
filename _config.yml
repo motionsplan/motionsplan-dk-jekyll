@@ -383,6 +383,8 @@ defaults:
       author: lsolesen
       sidebar:
         nav: blog
+      rating:
+        show: true
   # _exercises
   - scope:
       path: ""
@@ -402,6 +404,8 @@ defaults:
         nav: exercises
       tag_archive_path: /exercises/tags/
       category_archive_path: /exercises/categories/
+      rating:
+        show: true
   # _methods
   - scope:
       path: ""
@@ -451,6 +455,8 @@ defaults:
       category_archive_path: /anatomi/categories/
       sidebar:
         nav: "muscles"
+      rating:
+        show: true
   # _pages
   - scope:
       path: ""
