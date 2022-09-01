@@ -35,7 +35,7 @@ Når du skal finde musik, der passer til en aktivitet, så er en af de væsentli
 
 ## Hvad siger videnskaben om musik til yoga og mindfulness?
 
-Jeg har ikke kunnet finde studier, hvor man direkte har undersøgt brugen af musik i forbindelse med yoga. Men at der er en videnskabelig relation mellem musik og træning går helt [tilbage til 1911](http://www.scientificamerican.com/article/psychology-workout-music/), hvor et studie fandt at cyklister cyklede hurtigere, når bandet spillede musik, end hvis der var stille.
+Jeg har ikke kunnet finde studier, hvor man direkte har undersøgt brugen af musik i forbindelse med yoga. Men at der er en videnskabelig relation mellem musik og træning går helt [tilbage til 1911](https://www.scientificamerican.com/article/psychology-workout-music/), hvor et studie fandt at cyklister cyklede hurtigere, når bandet spillede musik, end hvis der var stille.
 
 Et [studie fra 2010](http://www.ncbi.nlm.nih.gov/pubmed/19585590) målte deltagernes hjerneaktivitet med fMRI og konkluderede at de motoriske systemer responderede positivt på rytmisk musik og timing i musikken. I 2012 fandt forskere i et [andet studie](http://www.ncbi.nlm.nih.gov/pubmed/22828457) at cyklister er lyttede til musik bruge mindre ilt end kontrolgruppen, som kørte til langsommere musik.
 

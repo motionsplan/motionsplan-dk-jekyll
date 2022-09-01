@@ -28,7 +28,7 @@ Vi har samlet en liste over alle [springtests for hoppehøjde her](/springtests-
 
 ## Hvordan udføres Sargent Jump Test
 
-{% include figure image_path="https://www.homeexerciseequipmenthq.com/wp-content/uploads/2015/05/Vertical-Jump-Test-2.jpg" caption="Sargent Jump Test. Kilde: [www.homeexerciseequipmenthq.com](http://www.homeexerciseequipmenthq.com/vertical-jump-test/)." %}
+{% include figure image_path="https://www.homeexerciseequipmenthq.com/wp-content/uploads/2015/05/Vertical-Jump-Test-2.jpg" caption="Sargent Jump Test. Kilde: [www.homeexerciseequipmenthq.com](https://www.homeexerciseequipmenthq.com/vertical-jump-test/)." %}
 
 Harman et al. (1991) brugte følgende protokol, da de udførte Sargent Jump Test.
 

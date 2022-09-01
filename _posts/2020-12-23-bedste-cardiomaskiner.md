@@ -68,7 +68,7 @@ Marina Aagaard har også [vurderet de fire populære cardiomaskiner](http://mari
 
 ## Løbebånd
 
-{% include figure image_path="https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Løbebåndet er godt til at træne kondition og forbrænding" alt="Løbebånd er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Løbebåndet er godt til at træne kondition og forbrænding" alt="Løbebånd er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 Løbebåndet er rigtig godt at træne sin kondition på. Du kan let lave intervaller, hvor du kan arbejde meget præcist omkring din maksimale iltoptagelse eller anaerobe tærskel. Zacho vurderer da også løbebåndet som værende bedst til at træne kondition af de fire cardiomaskiner.
 
@@ -88,7 +88,7 @@ Jeg har skrevet en [guide til at vælge løbebånd](/guide-loebebaand/), som du 
 
 ## Romaskine
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=5" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 Morten Zacho vurderer, at romaskinen er bedst til at træne styrke. Det er dog især muskeludholdenheden, der bliver styrket ved romaskiner, og det kræver kraftfulde tag på romaskinen, hvis du decideret skal styrke dine muskler.
 
@@ -112,7 +112,7 @@ Når du første gang prøver en crosstrainer, så virker det ret unaturligt at f
 
 ## Motionscykel og kondicykel
 
-{% include figure image_path="https://images.unsplash.com/photo-1520877880798-5ee004e3f11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=5" caption="Motionscykel og kondicykel er godt til at træne kondition og forbrænding" alt="Motionscykel og kondicykel er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1520877880798-5ee004e3f11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="Motionscykel og kondicykel er godt til at træne kondition og forbrænding" alt="Motionscykel og kondicykel er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 En motionscykel, kondicykel, spinningcykel, wattbike eller lignende fungerer rigtig godt til konditionstræning og til at få en høj forbrænding. Morten Zacho vurderer, at kondicyklen er bedst til forbrænding af de fire populære cardiomaskiner. Hvis du gerne vil læse mere om det, så kan du læse lidt om [fedtforbrændingszonen](/fedtforbraendingszonen/) og [kontinuerlig træning eller intervaltræning er bedst for fedtforbrændingen](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/).
 

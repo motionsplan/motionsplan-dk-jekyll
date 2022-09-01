@@ -32,7 +32,7 @@ Derefter kigger vi lidt på, hvad et rundt tråd er, og hvordan du kan træne de
 
 Netop kadencen er noget, af det Rolf Sørensen og Jørgen Leth kalder den smukke gentagelse, som du kan læse mere om i deres bog med [samtaler om cykling](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/netop-gentagelsen-er-det-smukke_joergen-lethrolf-soerensenflemming-toft_indbundet_9788771083590){: rel="sponsored nofollow noopener" }.
 
-{% include figure image_path="https://images.unsplash.com/photo-1516725630185-19ae408fbc83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="At finde den rigtige kadence på cyklen for at være mest effektiv på cyklen kan hjælpe dine præstationer." alt="kadence cykling" %}
+{% include figure image_path="https://images.unsplash.com/photo-1516725630185-19ae408fbc83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="At finde den rigtige kadence på cyklen for at være mest effektiv på cyklen kan hjælpe dine præstationer." alt="kadence cykling" %}
 
 ## Findes der en optimal kadence i cykling?
 

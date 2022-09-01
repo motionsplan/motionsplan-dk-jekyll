@@ -39,7 +39,7 @@ Når du skal vælge gode sko til styrketræning, træning og fitness, så er der
 
 Du skal tænke over, hvilke sko du vælger til din træning, fordi fødderne er det fundament, du står på. Du kan overføre meget mere kraft til dine løft, hvis du tænker over, hvor godt skoene passer til din træning.
 
-{% include figure image_path="https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Vægtløftningssko kan være en styrketræningssko." alt="vægtløftningssko styrketrænings sko" %}
+{% include figure image_path="https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Vægtløftningssko kan være en styrketræningssko." alt="vægtløftningssko styrketrænings sko" %}
 
 ## Vælg sko der passer til din træning
 
@@ -67,7 +67,7 @@ Når du står stabilt, så kan du overføre mere kraft fra gulvet. Derfor er det
 
 I langt de fleste øvelser, så foretrækker jeg at træne i sko, som er flade eller har et lille drop. Der er dog et par undtagelser, hvor du kan overveje at få en sko med et større drop. Du kan ofte i træningscentret se folk squatte i denne type sko.
 
-{% include figure image_path="https://images.unsplash.com/flagged/photo-1566064336477-864e4f308992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Hvis du laver squat og andre knædominerede øvelser, så kan det måske være en fordel at vælge en vægtløftersko." alt="vægtløftersko kan bruges som styrketræningssko" %}
+{% include figure image_path="https://images.unsplash.com/flagged/photo-1566064336477-864e4f308992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Hvis du laver squat og andre knædominerede øvelser, så kan det måske være en fordel at vælge en vægtløftersko." alt="vægtløftersko kan bruges som styrketræningssko" %}
 
 Denne type sko går også under navnet vægtløftersko. En vægtløftersko adskiller sig fra andre træningssko ved at have en meget hård sål samtidig med, at hælen er hævet.
 

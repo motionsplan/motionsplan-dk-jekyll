@@ -32,7 +32,7 @@ feature_row:
 
 Strukturel balance i forskellige styrketræningsøvelser som koncept er ideen om, at man der bør være en balance mellem, hvor stærk man er i forskellige styrketræningsøvelser, så der er balance i kroppens styrke.
 
-Hvis du vil dykke mere ned i strukturel balance, så har Peter Roberts skrevet en god [gennemgang af strukturel balance på engelsk](http://www.peterrobertscoaching.com/blog/definitive-guide-to-structural-balance-training).
+Hvis du vil dykke mere ned i strukturel balance, så har Peter Roberts skrevet en god [gennemgang af strukturel balance på engelsk](https://www.peterrobertscoaching.com/blog/definitive-guide-to-structural-balance-training).
 
 Peter Roberts giver et indblik i sit syn på strukturel balance i denne Youtube-video.
 
@@ -79,7 +79,7 @@ På exrx.net har de samlet en række [styrkestandarder](http://www.exrx.net/Test
   <summary>Se referencer</summary>
 
 - [www.t-nation.com](https://www.t-nation.com/training/know-your-ratios-destroy-weaknesses)
-- [www.functionalps.com](http://www.functionalps.com/blog/2010/09/28/upper-body-structural-balance/)
+- [www.functionalps.com](https://www.functionalps.com/blog/2010/09/28/upper-body-structural-balance/)
 - [www.t-nation.com](https://www.t-nation.com/training/how-much-can-you-lift-wimp)
 - [athleticsi.com](https://athleticsi.com/structural-balance-assessments-identifying-preventing-injuries/)
 - [breakingmuscle.com](https://breakingmuscle.com/fitness/individualizing-training-structural-balance-intensity-and-autoregulation)

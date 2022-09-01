@@ -5,7 +5,7 @@ title: &title "Eksplosivitet, sprint og spring"
 excerpt: "Hvordan arbejder man med eksplosivitet? Hvordan sprinter du hurtigere og springer højere?"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
   alt: "Photo by Tikkho Maciel on Unsplash"
   caption: *title

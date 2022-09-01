@@ -7,7 +7,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
   caption: *title
 feature_row_energysystems:
-  - image_path: https://images.unsplash.com/photo-1526676317768-d9b14f15615a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=5
+  - image_path: https://images.unsplash.com/photo-1526676317768-d9b14f15615a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
     alt: "Energisystemer 101"
     title: "Energisystemer 101"
     excerpt: "Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre kredsløb og udholdenhed."
@@ -15,7 +15,7 @@ feature_row_energysystems:
     btn_label: "Lær om energisystemer"
     btn_class: "btn--info"
 feature_row_tests:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=5
+  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
     alt: "Kondition og tests"
     title: "Kondition og tests"
     excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
@@ -23,7 +23,7 @@ feature_row_tests:
     btn_label: "Læs om konditionstests"
     btn_class: "btn--success"
 feature_row_kondital:
-  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=5
+  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
     alt: "Hvad er en god kondition?"
     title: "Hvad er en god kondition?"
     excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."

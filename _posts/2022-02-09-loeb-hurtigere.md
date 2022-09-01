@@ -21,7 +21,7 @@ De forskellige tips og råd kan bruges uanset om du gerne vil løbe hurtigere p�
 
 Lad os dykke ned i de gode tips til at få mere fart i fødderne på løbeturen. Gør dig klar til at optimere dit løb.
 
-{% include figure image_path="https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Hvordan løber jeg hurtigere? Tjek disse tips til at blive en hurtigere løber." alt="hurtige løbere" %}
+{% include figure image_path="https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Hvordan løber jeg hurtigere? Tjek disse tips til at blive en hurtigere løber." alt="hurtige løbere" %}
 
 Tjek først denne video for at få en grundlæggende forståelse for, hvad der skal til for at **løbe hurtigere**.
 
@@ -82,7 +82,7 @@ Her kan du se nogle af de indlæg vi har skrevet om styrketræning og løb.
 
 Løb er en vægtbærende aktivitet. Når du beregner dit [kondital](/kondital/), så er vægten en væsentlig del af udregningen. Min filosofi er, at kroppen tilpasser sig til det du laver. Det kan bedre betale sig at træne for at blive hurtigere til at løbe end at tabe vægt for at blive hurtigere.
 
-{% include figure image_path="https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Når du ser verdensklasseløbere, så er der ikke meget ekstravægt på kroppen. Hvis du gerne vil være rigtig hurtig, så har vægten betydning. Det er dog det sidste parameter, jeg selv ville optimere." %}
+{% include figure image_path="https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Når du ser verdensklasseløbere, så er der ikke meget ekstravægt på kroppen. Hvis du gerne vil være rigtig hurtig, så har vægten betydning. Det er dog det sidste parameter, jeg selv ville optimere." %}
 
 Men derfor anslår man stadig, at du kan forbedre dine kilometertider, hvis du bliver en lettere løber. Du kan prøve vores beregner til at estimere din [vægtændrings estimerede påvirkening af din løbetid](/vaegttab-loebetid/).
 

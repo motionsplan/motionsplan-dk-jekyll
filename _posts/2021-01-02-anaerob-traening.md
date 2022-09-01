@@ -88,7 +88,7 @@ Den **laktacide anaerobe træning** opdeler man igen i **to forskellige typer**.
 
 ### Anaerob tolerancetræning
 
-I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en 
+I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en
 periode. Målet er at opretholde et højt laktatniveau over en længere periode. Formålet er at kunne arbejde mere effektivt i perioder, hvor laktatniveauet er forhøjet. I den anaerobe tolerancetræning forsøger man at holde laktatniveauet nogenlunde konstant. Arbejdet vil typisk være 30-100% af maksimal intensitet.
 
 ### Anaerob produktionstræning
@@ -113,7 +113,7 @@ Den anaerobe effekt er musklernes evne til at genoplade ATP hurtigt, så du igen
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) foreslår anaerob træning til at give den sidste fart til løbere, men det gælder faktisk alle discipliner, hvor [kondition](/kondition/) også betyder noget.
 
-{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
+{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) skriver at præstationen afhænger af fire parametre:
 

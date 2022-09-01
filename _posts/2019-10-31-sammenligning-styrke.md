@@ -71,7 +71,7 @@ Hvorfor valgte IPF at udvikle en ny formel til at gøre konkurrencerne mere retf
 
 > In the following year, not satisfied with the new formula, the IPF released another one using a different algorithm with the intention to update the parameters used in it every four years, to keep it better aligned with the performance of elite powerlifters over time. The calculator below is based on this new formula and is current for lifts performed in the period 2020 - 2023. Points are referred to as IPF GL to distinguish them from the IPF points of the 2019 formula. IPF GL points are normalised in an attempt to represent performance as a percentage of that of an elite lifter with the same body weight.
 
---- <cite>[WeightTraining.NZ](http://weighttraining.nz/ipf_calculator.php)</cite>
+--- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
 
 ### McCulloch aldersjustering
 
@@ -79,7 +79,7 @@ Min alder stiger hver eneste år. Derfor synes jeg det bliver mere og mere inter
 
 >  Sometimes scores are further adjusted by multipling by a factor that takes the lifter's age into account. The McCulloch coefficients take into account the fact that younger athletes generally have not developed to their potential strength, while from about the age of 40 onwards strength starts to steadily diminish.
 
---- <cite>[WeightTraining.NZ](http://weighttraining.nz/ipf_calculator.php)</cite>
+--- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
 
 ## 5. Greg Nuckols styrkesammenligning
 

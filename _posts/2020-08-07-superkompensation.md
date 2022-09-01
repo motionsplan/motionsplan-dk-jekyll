@@ -27,7 +27,7 @@ Når du træner og restituerer med en afmålt balance, så kan du være heldig a
 
 I superkompensationen forbereder kroppen sig til næste intensive træningsperiode ved at gøre sig ekstra stærk. Kroppen overkompenserer.
 
-{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/254233/files/2019/10/superkompensation.jpg" caption="Superkompensationsteorien. Kilde: [wisemovement.be](http://wisemovement.be/2016/05/17/superkompensation/)." %}
+{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/254233/files/2019/10/superkompensation.jpg" caption="Superkompensationsteorien. Kilde: [wisemovement.be](https://wisemovement.be/supercompensation/)." %}
 
 ## Superkompensationsteorien
 
@@ -50,7 +50,7 @@ Uden en træningsplan risikerer du at træne for hårdt over længere tid, så k
 
 Hvis du udnytter superkompensationsfasen til træningsblokke, så betyder en _deload_-uge ikke, at du ikke skal træne. Du skal bare træne med en mindre _load_ - og typisk gør man det med en mindre volumen.
 
-Kroppen vil reagere positivt på den lavere volumen og kompensere ved at opbygge kroppen til et højere niveau. 
+Kroppen vil reagere positivt på den lavere volumen og kompensere ved at opbygge kroppen til et højere niveau.
 
 Jeg har ikke kunnet finde præcise vejledninger til, om det er mest effektivt at sænke volumen eller intensiteten for at forsøge at opnå superkompensation. Hvis du ved noget om det, så brug endelig kommentarerne.
 
@@ -58,13 +58,13 @@ Jeg har ikke kunnet finde præcise vejledninger til, om det er mest effektivt at
 
 Når du udsætter kroppen for en stor belastning, fx gennem [intervaltræning](/intervaltraening/) eller et hårdt styrketræningspas, så vil kroppen tilpasse sig den nye belastning.
 
-Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas. 
+Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas.
 
 Denne genopbygningfase kaldes for [restitutionsfasen](/restitution/). Hvor hurtigt [restitutionstiden](/restitutionstid/) i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
 
 Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis kroppen ikke får et stimulus igen, så vil man falde tilbage til det gamle træningsniveau og venter man endnu længere, så kommer man i dårligere form.
 
-Når du planlægger din træning, så kan det altså være hensigtsmæssigt at have teorien om superkompensation i baghovedet. 
+Når du planlægger din træning, så kan det altså være hensigtsmæssigt at have teorien om superkompensation i baghovedet.
 
 ## General adaption syndrome (GAS)
 

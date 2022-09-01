@@ -22,11 +22,11 @@ category:
   - Kondition
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Concept_2_model_D_sort(2).jpg
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/ro_erg_model_E.jpg
     alt: "Concept 2 egnet til rotræning og ropoprogrammer"
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2/
     btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -154,7 +154,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
 
 ### 90 seconds shuffle
 
@@ -245,7 +245,7 @@ Træningsprogrammerne skifter, så du kan altid få lidt ny inspiration til din 
 
 ## Ergometertræning for øvede fra roning.dk
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=5" caption="En romaskine kaldes også for et ergometer. Ergometertræning på romaskine er effektiv træning af konditionen og forbrændingen." %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="En romaskine kaldes også for et ergometer. Ergometertræning på romaskine er effektiv træning af konditionen og forbrændingen." %}
 
 Roere kalder en romaskine for et _ergometer_, og træning på en romaskine for _ergometertræning_. Dansk Forening for Rosport har på [roning.dk](https://www.roning.dk) samlet en masse viden om roning.
 
@@ -280,7 +280,7 @@ Jeg har stillet træningsprogrammet op i en [overskuelig tabel her](https://docs
 
 ## Concept2 træningsprogram til begyndere
 
-{% include figure image_path="https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=5" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 Concept2 har også lavet et [træningsprogram til begyndere](https://www.concept2.com/indoor-rowers/training/tips-and-general-info/first-workouts). Her varieres rotræningen mellem intensive intervaller i pyramidetræning og længere distancer og tid. Det er et fint program, hvis du skal i gang med træningen.
 

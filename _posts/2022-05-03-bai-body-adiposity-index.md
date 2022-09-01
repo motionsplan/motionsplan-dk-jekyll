@@ -30,7 +30,7 @@ Body Adiposity Index beregneren er et alternativ til fx [BMI](/bmi/) og [taljem�
 
 **Note**: Hofteomkredsen skal måles, så du placerer målebåndet rundt om hofterne, så det passerer det bredeste sted på numsen, når man ser kroppen fra siden.
 
-{% include figure image_path="https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=5" caption="Sådan måles hofteomkredsen" alt="måling af hofteomkredsen" %}
+{% include figure image_path="https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="Sådan måles hofteomkredsen" alt="måling af hofteomkredsen" %}
 
 ## Hvad er et godt BAI?
 
