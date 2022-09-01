@@ -88,7 +88,7 @@ Den **laktacide anaerobe træning** opdeler man igen i **to forskellige typer**.
 
 ### Anaerob tolerancetræning
 
-I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en 
+I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en
 periode. Målet er at opretholde et højt laktatniveau over en længere periode. Formålet er at kunne arbejde mere effektivt i perioder, hvor laktatniveauet er forhøjet. I den anaerobe tolerancetræning forsøger man at holde laktatniveauet nogenlunde konstant. Arbejdet vil typisk være 30-100% af maksimal intensitet.
 
 ### Anaerob produktionstræning

@@ -24,7 +24,7 @@ Galloway-metoden kan være en brugbar metode, hvis du gerne vil forbedre din per
 
 Jeg er lige ved at testkøre Garmin Coach, hvor Jeff Galloway er en af trænerne. Det er gratis, men der er nogle begreber, som man lige skal have styr på for at forstå programmet. Der er nogle forklaringer i Garmin Connect-appen, men jeg havde brug for at dykke lidt ekstra ned i detaljerne.
 
-{% include figure image_path="https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Jeff Galloways metode kan bruges af mange, men egner sig særlig godt til begyndere og moderat trænede." alt="Jeff Galloway løbemetode" %}
+{% include figure image_path="https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Jeff Galloways metode kan bruges af mange, men egner sig særlig godt til begyndere og moderat trænede." alt="Jeff Galloway løbemetode" %}
 
 I denne artikel kan du læse om følgende:
 
@@ -144,7 +144,7 @@ Galloway har udviklet følgende tabel, som du kan bruge som udgangspunkt for, hv
 
 Du finder altså dit ønskede pace i tabellens kolonne til venstre. Meningen er altså, at jo hurtigere løber du er, jo længere er dine løbeintervaller. Tempoet under løbeintervallerne skal naturligvis være lidt hurtigere, end hvis du løber hele tiden for at holde tempoet.
 
-For at få det til at fungere, skal du prøve dig frem under din træning. For mange begyndere vil kombinationen være helt naturlig, mens den for mere øvede løbere formentlig kræver nogen tilvænning. 
+For at få det til at fungere, skal du prøve dig frem under din træning. For mange begyndere vil kombinationen være helt naturlig, mens den for mere øvede løbere formentlig kræver nogen tilvænning.
 
 Meningen med Run Walk Run®-metoden er, at du under din løbetræning gerne skulle føle dig bedre tilpas og have mere energi, end hvis du løber under hele løbeturen.
 

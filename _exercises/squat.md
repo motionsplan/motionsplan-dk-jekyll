@@ -148,7 +148,7 @@ En god måde at lave varianter på er ved at lave etbenssquat. Der er nogle gode
 
 En anden variation er **split squat** hvor du står med et langt skridt. Det ser nogenlunde sådan her ud:
 
-{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=5
+{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60
 " caption="Split squat" alt="split squat" %}
 
 ## Variationer af squat

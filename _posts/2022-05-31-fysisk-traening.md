@@ -104,7 +104,7 @@ En vigtig del af den fysiske træning er mobilitetstræning. Denne type træning
 
 ## Balancetræning og sansemotoriske system
 
-{% include figure image_path="https://images.unsplash.com/photo-1599079708942-4330c2a304a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=50" alt="balancetræning på sub board" %}
+{% include figure image_path="https://images.unsplash.com/photo-1599079708942-4330c2a304a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=600" alt="balancetræning på sub board" %}
 
 Balancetræning er en vigtig del af den fysiske træning. Det hjælper med at forbedre din balance og koordination. Balancetræning kan også omfatte træningsformer som yoga, pilates og tai chi.
 

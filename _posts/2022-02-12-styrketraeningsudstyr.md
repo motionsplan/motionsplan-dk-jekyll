@@ -77,7 +77,7 @@ Håndledsbind kan være en fordel at bruge i styrketræning. De giver et ekstra 
 
 Håndledsbind bruges også ofte ved atleter der laver styrkeøvelser, hvor du skal vende håndledsfladerne opad. Fx i snatch eller clean and jerk.
 
-{% include figure image_path="https://images.unsplash.com/photo-1533560777802-046814bc297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=50" caption="" alt="håndledsbind" %}
+{% include figure image_path="https://images.unsplash.com/photo-1533560777802-046814bc297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=600" caption="" alt="håndledsbind" %}
 
 ## Knæbind
 

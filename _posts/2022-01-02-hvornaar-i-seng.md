@@ -19,7 +19,7 @@ Vores vaner står sommetider i vejen for den gode søvn. Men du behøver ikke be
 
 Hvornår du skal gå i seng afhænger naturligvis af, hvornår du skal op næste morgen. Men det er en myte, at du skal sove 8 timer. Du skal sove i søvncyklusser. Derfor hjælper denne søvnberegner med at finde ud af, hvornår du skal sove.
 
-{% include figure image_path="https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5
+{% include figure image_path="https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60
 " caption="Hvornår skal jeg gå i seng for at sove?" alt="hvornår skal jeg gå i seng og sove" %}
 
 ## Søvnens cyklusser

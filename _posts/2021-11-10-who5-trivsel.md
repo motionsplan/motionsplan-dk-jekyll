@@ -4,7 +4,7 @@ seo_title: "Trivselsindeks: Test din trivsel og livskvalitet med WHO-5"
 permalink: /who5-trivselindekset/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1970&q=5
+  overlay_image: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -62,7 +62,7 @@ WHO-5 tager temperaturen på din trivsel. Hvis du scorer lavt i spørgeskemaet, 
 
 WHO-5 er udviklet af professor Per Bech for WHO, men kan frit anvendes til måling af trivsel. Hvis du er i tvivl om resultatet, så bør du altid få hjælp af en lægefaglig person til at vurdere dit resultat.
 
-WHO-5 kan også bruges til før- og eftermålinger, hvis du laver livsstilsændringer. Det er en let måde at vurdere på, om du har forbedret din generelle trivsel i en tidsperiode. 
+WHO-5 kan også bruges til før- og eftermålinger, hvis du laver livsstilsændringer. Det er en let måde at vurdere på, om du har forbedret din generelle trivsel i en tidsperiode.
 
 Da testen spørger om din oplevelse de seneste 14 dage, så kan du fx teste dig selv hver 14. dag for at få et bud på din generelle trivsel, hvis du gerne vil følge den tæt. Udsving på et par enkelte point betyder naturligvis ikke ret meget, men hvis du pludselig får markant dårligere trivsel, så kan det være alarmerende.
 

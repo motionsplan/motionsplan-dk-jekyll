@@ -102,7 +102,7 @@ Din væskebalance er i varmen en af de allervigtigste ting at have styr på. Alt
 
 Når du sveder, så mister du 1-3 g salt (NaCl) per liter sved. Du har altså salt nok i kroppen til mange timers aktivitet. Det er dog en fordel at have styr på sit saltindtag, når du arbejder over længere tid i varmen.
 
-Samtidig indtag af kulhydrat, elektrolytter og væske har en videnskabelig effekt på hastigheden af din rehydrering. Den vigtigste salt du skal indtage er natriumklorid (NaCl), som er den salttype du sætter på bordet og salter din mad med. 
+Samtidig indtag af kulhydrat, elektrolytter og væske har en videnskabelig effekt på hastigheden af din rehydrering. Den vigtigste salt du skal indtage er natriumklorid (NaCl), som er den salttype du sætter på bordet og salter din mad med.
 
 Du kan imidlertid også købe energidrikke og elektrolyttabletter, der indeholder et bredere udvalg af salte. De er lette at bruge, når du træner, og du kan få dem i forskellige smagsvarianter.
 
@@ -126,7 +126,7 @@ Det er let at måle nogenlunde hvor meget væske du taber under en aktivitet. Du
 
 [Shirreffs et al (2007)](https://pubmed.ncbi.nlm.nih.gov/17693686/) undersøgte nogle forskellige sportsdrikke, men typisk var der ikke nok salte i sportsdrikkene til at fastholde en positiv saltbalance.
 
-Du kan indtage omkring 1200 ml/timen. Men **undervejs** i træningen eller konkurrencen er det smartest at ligge omkring **ligevægtsindtaget**. 
+Du kan indtage omkring 1200 ml/timen. Men **undervejs** i træningen eller konkurrencen er det smartest at ligge omkring **ligevægtsindtaget**.
 
 Det er en god ide under varme forhold at fylde væskedepoterne op undervejs, når du arbejder. Det er også en god ide at supplere med salte, fx i form af elektrolytter. Du kan gå efter et saltindtag, der modsvarer nogenlunde det du sveder ud altså 1-3 g/l væske du drikker.
 
@@ -172,7 +172,7 @@ Ultraløberen Christian Madsen har stor [erfaring](https://www.loberen.dk/conten
 
 Der er altså alternative metoder, hvis du skal varmetræne og forberede dig til varmen. Hvis du skal akklimatisere til at kunne bevæge dig i varmen, så skal du bevæge dig med en intensitet over 50% af VO<sub>2</sub>max. Det er ikke nok at sidde stille i saunaen.
 
-[Scoon et al 2006](http://www.jsams.org/article/S1440-2440%2806%2900139-3/abstract) havde seks distanceløbere til at sidde i sauna i en fugtig sauna på omkring 90°C i ~30 minutter fordelt på 12 gange over tre uger. Forskerne konkluderede, at dette kunne være en måde at vænne sig til varmen, formentlig fordi saunaturene var med til skabe en stigende blodvolumen.
+[Scoon et al 2006](https://www.jsams.org/article/S1440-2440%2806%2900139-3/abstract) havde seks distanceløbere til at sidde i sauna i en fugtig sauna på omkring 90°C i ~30 minutter fordelt på 12 gange over tre uger. Forskerne konkluderede, at dette kunne være en måde at vænne sig til varmen, formentlig fordi saunaturene var med til skabe en stigende blodvolumen.
 
 Effekten kan imidlertid være endnu større, hvis du laver aktiv saunatræning, hvor du i saunaen arbejder med fx Bikra Yoga eller laver anden aktivitet i saunaen.
 

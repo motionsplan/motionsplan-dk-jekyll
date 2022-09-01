@@ -45,7 +45,7 @@ Der er mange årsager til, at folk vil styrketræne. Alle årsagerne er lige god
 
 Vi starter med nogle grundlæggende tanker om, hvordan kroppen bliver bedre. Derefter fortsætter vi med mere specifikke råd om programlægning.
 
-**“Standing on the shoulders of giants.”** Denne artikel er kraftigt inspireret af [Nucklos og Isuf (2015a og 2015b)](https://www.strongerbyscience.com/art-and-science/). Vi bliver også dagligt klogere af at læse tanker fra følgende: [Eric Cressey](https://ericcressey.com/) (performance og balance), [Bret Contreas](https://bretcontreras.com/) (styrketræning og hoftens funktion), [Gray Cook](http://graycook.com/) (functional movement og screening), [Dean Somerset](https://deansomerset.com/) (performance og stabilitet), [Eric Helms](https://3dmusclejourney.com/) (good ideas about what is more important) og [Mike Robertson](https://robertsontrainingsystems.com/).
+**“Standing on the shoulders of giants.”** Denne artikel er kraftigt inspireret af [Nucklos og Isuf (2015a og 2015b)](https://www.strongerbyscience.com/art-and-science/). Vi bliver også dagligt klogere af at læse tanker fra følgende: [Eric Cressey](https://ericcressey.com/) (performance og balance), [Bret Contreas](https://bretcontreras.com/) (styrketræning og hoftens funktion), [Gray Cook](https://www.functionalmovement.com/) (functional movement og screening), [Dean Somerset](https://deansomerset.com/) (performance og stabilitet), [Eric Helms](https://3dmusclejourney.com/) (good ideas about what is more important) og [Mike Robertson](https://robertsontrainingsystems.com/).
 {: .notice .notice--info }
 
 ## Lav en træningsplan!
@@ -213,7 +213,7 @@ Du skal lære at knække i hoften med bløde knæ og hovedet i forlængelse af k
 
 Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget. Nedenstående sprinter er tæt på at være i den perfekte position.
 
-{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=5" caption="" %}
+{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="" %}
 
 - Albueleddene holdes i 90 grader.
 - Håndfladerne er åbne.
@@ -395,7 +395,7 @@ Længden på disse pauser er naturligvis bare retningslinjer. Du skal lytte til 
 
 Første gang du træner prøver du stille og roligt gennem opvarmningssættene at ramme en vægt, som passer i det rep range, du har valgt. Du noterer jo hver gang nøjagtigt, hvor meget vægt du har på. Hvis du efterhånden i din træning bliver i stand til at løfte flere gentagelser, end dem du har besluttet dig for i din træning i alle sættene, kan du sætte mere vægt på stangen.
 
-En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kg på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
+En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kg på stangen (Bradsted: [Bliv stærkere med dobbelt progression](https://fitness-blog.dk/dobbelt-progression/)):
 
 {% include figure image_path="/assets/images/training/dobbelt-progression.png" caption="" %}
 
