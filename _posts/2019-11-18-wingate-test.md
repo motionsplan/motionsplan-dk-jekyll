@@ -81,7 +81,7 @@ Når du har kørt Wingate-testen, så har du fået nogle relevante resultater og
 
 ## Sammenligning
 
-Du kan sammenligne dine resultater med andre unge voksne på baggrund af dette skema. [Maud og Shultz (1998)](http://www.ncbi.nlm.nih.gov/pubmed/2489835) testede i alt 112 mænd og 74 kvinder i alderen fra 18-28 år.
+Du kan sammenligne dine resultater med andre unge voksne på baggrund af dette skema. [Maud og Shultz (1998)](https://www.ncbi.nlm.nih.gov/pubmed/2489835) testede i alt 112 mænd og 74 kvinder i alderen fra 18-28 år.
 
 Her er et skema for **Peak Power Output**.
 
@@ -132,5 +132,5 @@ Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er l
 
 - [Wingate Anaerobic Test](https://www.scienceforsport.com/wingate-anaerobic-test/)
 - Driller, Matthew, Christos Argus, og Cecilia Kitic. “The Reliability of a 30 Second Sprint Test on the Wattbike Cycle Ergometer.” International journal of sports physiology and performance, 19. november 2012.
-- Maud, P.J. and Shultz, B.B. (1998) Norms for the Wingate anaerobic test with comparison to another similar test. Res Q Exerc Sport,60 (2), p. 144-151. [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/2489835)
+- Maud, P.J. and Shultz, B.B. (1998) Norms for the Wingate anaerobic test with comparison to another similar test. Res Q Exerc Sport,60 (2), p. 144-151. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/2489835)
 </details>

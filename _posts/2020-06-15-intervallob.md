@@ -207,7 +207,7 @@ Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de l
 
 </div>
 
-Skemaet ovenfor tager udgangspunkt i [Morten Zachos](http://web.archive.org/web/20150212105109/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/oversigt_over_de_mest_effektive_intervalprogrammer_til_loeb/){: rel="nofollow" } glimrende oversigt over intervalløb.
+Skemaet ovenfor tager udgangspunkt i [Morten Zachos](https://web.archive.org/web/20150212105109/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/oversigt_over_de_mest_effektive_intervalprogrammer_til_loeb/){: rel="nofollow" } glimrende oversigt over intervalløb.
 {: .notice .notice--info }
 
 ## Sådan løbes intervalløb

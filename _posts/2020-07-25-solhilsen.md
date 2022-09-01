@@ -45,7 +45,7 @@ feature_row_yogamat:
     rel: sponsored nofollow noopener
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: http://motionsplan.yogastream.dk
+    url: https://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga og solhilsen"
     rel: sponsored nofollow noopener
@@ -215,7 +215,7 @@ Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter,
 
 Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
 ## Udstyr til solhilsen og yoga
 

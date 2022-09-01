@@ -215,6 +215,6 @@ Nu kan du fortsætte programmet så længe som muligt. Hvis vægtene for hurtigt
 
 Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering, som du fx kan finde i Rippetoes [Texas Method]({% link _posts/2019-10-24-texas-method.md %}), som er målrettet let øvede.
 
-Du kan læse mere på [startingstrength.com](http://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ). Desværre kan jeg ikke umiddelbart finde bogen til salg nogen steder. Hvis du ved, hvor man kan købe bogen, så brug gerne kommentarerne.
+Du kan læse mere på [startingstrength.com](https://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ). Desværre kan jeg ikke umiddelbart finde bogen til salg nogen steder. Hvis du ved, hvor man kan købe bogen, så brug gerne kommentarerne.
 
 {% include pinterest-gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}

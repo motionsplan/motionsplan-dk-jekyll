@@ -33,7 +33,7 @@ breadcrumbs: true
 
 Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver et pålideligt løbebånd, som kan håndtere hældninger på op til 22%.
 
-Bruce-løbetest er [meget almindelig i fx USA](http://health-calc.com/fitness-tests/bruce-treadmill-test).
+Bruce-løbetest er [meget almindelig i fx USA](https://health-calc.com/fitness-tests/bruce-treadmill-test).
 
 ## Forberedelse til Bruce-testen
 

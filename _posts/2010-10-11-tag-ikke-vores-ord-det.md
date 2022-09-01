@@ -22,7 +22,7 @@ Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskablig
 
 ## Hvordan finder vi videnskabelige artikler?
 
-Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) efter emnet. Vi bruger gerne lidt forskellige søgninger og synonymer. Hvis du er forsker, så skal du kunne dokumentere, hvordan du har lavet søgningen.
+Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](https://pubmed.org) efter emnet. Vi bruger gerne lidt forskellige søgninger og synonymer. Hvis du er forsker, så skal du kunne dokumentere, hvordan du har lavet søgningen.
 
 Jeg læser naturligvis titlen og _abstractet_ for at se om artiklen ser spændende ud. Hvis den gør det, så går jeg i gang med at vurdere, hvilke resultater studiet giv - og hvor solidt studiet er opbygget.
 

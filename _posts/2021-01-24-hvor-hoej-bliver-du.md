@@ -40,15 +40,15 @@ Hvorfor kan jeg bruge forældrenes højde til at udregne, hvor høj et barn bliv
 
 > Børn vokser i en vis udstrækning ligesom deres forældre gjorde, dvs. et barn med små forældre vil sandsynligvis ligge i den nederste del af normalområdet, mens et barn med høje forældre vil ligge i den øverste del af normalområdet.
 
---- <cite>[vækstkurver.dk](http://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html)</cite>
+--- <cite>[vækstkurver.dk](https://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html)</cite>
 
-Du kan derfor finde den samme formel hos [vækstkurver.dk](http://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html), som er lavet af Rigshospitalet.
+Du kan derfor finde den samme formel hos [vækstkurver.dk](https://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html), som er lavet af Rigshospitalet.
 
 Rigshospitalet bruger dog en mere præcis metode på deres afdeling til at estimere sluthøjden for børn.
 
 > På børneafdelingerne anvendes et mere præcist estimat af sluthøjden, som baseres på en kombination af barnets aktuelle højde, forældrehøjderne og "vækstreserven", dvs. hvor meget vækst er der igen. Denne "vækstreserve" vurderes udfra et røntgenbillede af venstre hånd, hvorfra man kan bestemme en knoglealder, der svarer til den den biologiske alder.
 
---- <cite>[vækstkurver.dk](http://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html)</cite>
+--- <cite>[vækstkurver.dk](https://xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html)</cite>
 
 ## Hvor høj bliver barnet i voksenalder?
 

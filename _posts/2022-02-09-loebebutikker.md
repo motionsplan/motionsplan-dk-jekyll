@@ -91,7 +91,7 @@ Her er en liste over fysiske løbebutikker, som har et særligt godt udvalg i l�
 | Landsdel | By | Butik | Adresse | Postnr | Postby | Telefon | E-mail | Hjemmeside |
 | - | - | - | - | - | - | - | - | - |
 {% for shop in site.data.loebebutikker -%}
-| {{ shop.Landsdel }} | {{ shop.By }} | {{ shop.Butik }} | {{ shop.Adresse }} | {{ shop.Postnr }} | {{ shop.Postby }} | {{ shop.Telefon }} | {{ shop.Email }} | [{{ shop.Hjemmeside }}](){: rel="{{ shop.rel }}" } |
+| {{ shop.Landsdel }} | {{ shop.By }} | {{ shop.Butik }} | {{ shop.Adresse }} | {{ shop.Postnr }} | {{ shop.Postby }} | {{ shop.Telefon }} | {{ shop.Email }} | {% if shop.Hjemmeside %}[Besøg]({{ shop.Hjemmeside }}){: rel="{{ shop.rel }}" }{% endif %} |
 {% endfor %}
 
 ## Konklusion

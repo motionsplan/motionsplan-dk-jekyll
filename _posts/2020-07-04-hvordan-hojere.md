@@ -56,11 +56,11 @@ Du har garanteret set højde-kurver før. Med vækstkurver kan du sammenligne di
 
 ### Vækstkurven for drenge:
 
-{% include figure image_path="https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF](http://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/)" %}
+{% include figure image_path="https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/)" %}
 
 ### Vækstkurven for piger:
 
-{% include figure image_path="https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF](http://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/)" %}
+{% include figure image_path="https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/)" %}
 
 ## Hvordan har udviklingen historisk været i gennemsnitshøjden?
 

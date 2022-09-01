@@ -31,7 +31,7 @@ Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vu
 
 ## Test af armstrækninger
 
-Beregneren gælder for 15-69 årige, og den er baseret på beregneren fra [exrx.net](https://exrx.net/Calculators/PushUps). Umiddelbart virker kategoriseringen lidt hård, og hvis du gerne vil have mere ros, så skal du bruge beregneren på [health-calc.om](http://health-calc.com/exercise/push-up-test).
+Beregneren gælder for 15-69 årige, og den er baseret på beregneren fra [exrx.net](https://exrx.net/Calculators/PushUps). Umiddelbart virker kategoriseringen lidt hård, og hvis du gerne vil have mere ros, så skal du bruge beregneren på [health-calc.om](https://health-calc.com/exercise/push-up-test).
 
 {% include calculator-pushup.html %}
 

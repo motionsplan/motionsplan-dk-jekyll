@@ -71,7 +71,7 @@ Bruger du strukturel balance i din træning?
 
 Vi har skrevet et andet indlæg, hvor du kan lære, hvordan man [tester sin _one repetition maximum_ med en 1RM-maxtest](/rm-beregner/)
 
-På exrx.net har de samlet en række [styrkestandarder](http://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), hvor du kan få et bud på, om du er stærk.
+På exrx.net har de samlet en række [styrkestandarder](https://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), hvor du kan få et bud på, om du er stærk.
 
 ## Referencer
 

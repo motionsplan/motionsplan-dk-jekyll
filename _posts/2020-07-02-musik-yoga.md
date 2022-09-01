@@ -20,7 +20,7 @@ last_modified_at: 2020-07-02T08:12:14Z
 toc: true
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: http://motionsplan.yogastream.dk
+    url: https://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Musik og yoga - Bliv medlem af Yogastream og lær yoga"
 ---
@@ -37,7 +37,7 @@ Når du skal finde musik, der passer til en aktivitet, så er en af de væsentli
 
 Jeg har ikke kunnet finde studier, hvor man direkte har undersøgt brugen af musik i forbindelse med yoga. Men at der er en videnskabelig relation mellem musik og træning går helt [tilbage til 1911](https://www.scientificamerican.com/article/psychology-workout-music/), hvor et studie fandt at cyklister cyklede hurtigere, når bandet spillede musik, end hvis der var stille.
 
-Et [studie fra 2010](http://www.ncbi.nlm.nih.gov/pubmed/19585590) målte deltagernes hjerneaktivitet med fMRI og konkluderede at de motoriske systemer responderede positivt på rytmisk musik og timing i musikken. I 2012 fandt forskere i et [andet studie](http://www.ncbi.nlm.nih.gov/pubmed/22828457) at cyklister er lyttede til musik bruge mindre ilt end kontrolgruppen, som kørte til langsommere musik.
+Et [studie fra 2010](https://www.ncbi.nlm.nih.gov/pubmed/19585590) målte deltagernes hjerneaktivitet med fMRI og konkluderede at de motoriske systemer responderede positivt på rytmisk musik og timing i musikken. I 2012 fandt forskere i et [andet studie](https://www.ncbi.nlm.nih.gov/pubmed/22828457) at cyklister er lyttede til musik bruge mindre ilt end kontrolgruppen, som kørte til langsommere musik.
 
 Jeg har skrevet et andet indlæg om at vælge musik til træningen, hvor jeg skriver følgende:
 
@@ -126,4 +126,4 @@ Du skal næsten også lige læse et andet af vores meget populære indlæg, der 
 
 Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}

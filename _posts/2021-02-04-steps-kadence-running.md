@@ -31,11 +31,11 @@ Lad os kigge på både løbekadence og skridtlængde, og hvad der er mest betydn
 
 ## Hurtigere løber – skridtlængde eller kadence?
 
-Løb er jo defineret ved, at man har en svævefase. Når man tager færre skridt i minuttet, så vil tiden i luften - i svævefasen - være længere pr. minut. [Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/) skriver, at man derved som begynder kommer højere op i luften for hvert skridt. Det betyder samtidig, at belastningen ved landingen også er større. Netop landingen efter hver svævfase er med til at belaste kroppen mange gange ens kropsvægt.
+Løb er jo defineret ved, at man har en svævefase. Når man tager færre skridt i minuttet, så vil tiden i luften - i svævefasen - være længere pr. minut. [Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" } skriver, at man derved som begynder kommer højere op i luften for hvert skridt. Det betyder samtidig, at belastningen ved landingen også er større. Netop landingen efter hver svævfase er med til at belaste kroppen mange gange ens kropsvægt.
 
 ## Løbekadence: Hvor mange skridt tager løbere gennemsnitligt pr. minut?
 
-[Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/) skriver, at de fleste eliteløbere løber med nogenlunde samme kadence i løb. Eliteløbernes kadence måles gennemsnitligt til 182 skridt i minuttet. Hvis du måler kadencen på begynderløbere, så er deres kadence typisk noget lavere - faktisk helt op til 25-30 skridt færre pr. minut.
+[Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" } skriver, at de fleste eliteløbere løber med nogenlunde samme kadence i løb. Eliteløbernes kadence måles gennemsnitligt til 182 skridt i minuttet. Hvis du måler kadencen på begynderløbere, så er deres kadence typisk noget lavere - faktisk helt op til 25-30 skridt færre pr. minut.
 
 Løbecoach, Jonas Pedersen, viser i denne Youtube video forskellen mellem at løbe med 160 skridt i minuttet, som er meget typisk for motionister og 180 skridt i minuttet, som eliteløbere gør.
 
@@ -47,7 +47,7 @@ Både skridtlængden og kadencen har selvfølgelig betydning for din hastighed. 
 
 ## Hvordan kommer du i gang med at arbejde med din løbekadence?
 
-For at blive en hurtigere løber skal du enten tage flere skridt eller tage længere skridt. Langt de fleste løbecoaches vil starte med kadencen. Først kan du prøve at tælle din løbekadence. Hvor mange skridt tager du pr. minut? Hvis din kadence er under 180, så foreslår [Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/), at du forestiller dig, at dine ben er hjul, der bare kører afsted.
+For at blive en hurtigere løber skal du enten tage flere skridt eller tage længere skridt. Langt de fleste løbecoaches vil starte med kadencen. Først kan du prøve at tælle din løbekadence. Hvor mange skridt tager du pr. minut? Hvis din kadence er under 180, så foreslår [Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" }, at du forestiller dig, at dine ben er hjul, der bare kører afsted.
 
 [van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/) undersøgte rekreative løbere og kadencen. Selvom det ser ud til, at 180 fungerer godt for eliteløbere, så er det tvivlsomt, at den kadence er bedst for alle. De fik folk til at løbe med forskellige kadence og forsøgte at finde løbernes optimale kadence i forhold til pulsen.
 
@@ -174,7 +174,7 @@ Det med at træne skridtlængden og løbekadencen er faktisk lidt svært. Først
 
 Men har du mod på det, kan du give det et forsøg
 
-Vil du optimere din løbetræning yderligere? Artiklen[Grundlæggende intervaltræning – guide til intervaltræning!](http://aktivmotion.dk/grundl%c3%a6ggende-intervaltr%c3%a6ning-%e2%80%93-guide-til-intervaltr%c3%a6ning/)anbefales herfra. Er du til intervaltræning og hurtig fremgang, skal du næsten også læse:[Den bedste intervaltræning](http://aktivmotion.dk/den-bedste-intervaltr%c3%a6ning-til-l%c3%b8b/)
+Vil du optimere din løbetræning yderligere? Artiklen[Grundlæggende intervaltræning – guide til intervaltræning!](http://aktivmotion.dk/grundl%c3%a6ggende-intervaltr%c3%a6ning-%e2%80%93-guide-til-intervaltr%c3%a6ning/)anbefales herfra. Er du til intervaltræning og hurtig fremgang, skal du næsten også læse: [Den bedste intervaltræning](http://aktivmotion.dk/den-bedste-intervaltr%c3%a6ning-til-l%c3%b8b/)
 
 ***
 

@@ -68,7 +68,7 @@ Det er enkelt. Du kan gøre det på to forskellige måder.
 
 ## Brug en applikation til at lære armstrækninger
 
-Hvis du vælger den første metode, hvor du fordeler træningen over hele dagen, kan du bruge en applikationen _One Hundred Pushups_ på din telefon; enten til [iPhone](http://hundredpushups.com/iphoneapp.html) eller [Android](http://hundredpushups.com/androidapp.html).
+Hvis du vælger den første metode, hvor du fordeler træningen over hele dagen, kan du bruge en applikationen _One Hundred Pushups_ på din telefon; enten til [iPhone](https://hundredpushups.com/iphoneapp.html) eller [Android](https://hundredpushups.com/androidapp.html).
 
 ## Videnskabeligt belæg for grease the groove?
 

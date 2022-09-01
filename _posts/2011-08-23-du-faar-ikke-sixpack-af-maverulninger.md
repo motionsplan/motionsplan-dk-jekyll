@@ -37,7 +37,7 @@ Hvis man vil have en sixpack, skal man have [styr på søvnrytmen](/soevn/), sin
 
 {% include video provider="youtube" id="vj3gALk2cB0" %}
 
-Læg mærke til at der i programmet ikke er valgt nogle af de klassiske maveøvelser. Det skyldes dels at de ikke aktiverer nok muskelmasse, og dels at de ikke nødvendigvis er allerbedst for ryggen. Se fx disse interviews med en af de førende forskere i lænde- og rygsmerter, Stuart McGill: [Is Your Ab Workout Hurting Your Back?](http://well.blogs.nytimes.com/2009/06/17/core-myths/?em) og til [Big Back Attack fra Mens Health](http://www.menshealth.com/cda/article.do?site=menshealth&channel=health&category=back.pain&conitem=c6f999edbbbd201099edbbbd2010cfe793cd____).
+Læg mærke til at der i programmet ikke er valgt nogle af de klassiske maveøvelser. Det skyldes dels at de ikke aktiverer nok muskelmasse, og dels at de ikke nødvendigvis er allerbedst for ryggen. Se fx disse interviews med en af de førende forskere i lænde- og rygsmerter, Stuart McGill: [Is Your Ab Workout Hurting Your Back?](https://well.blogs.nytimes.com/2009/06/17/core-myths/?em) og til [Big Back Attack fra Mens Health](https://www.menshealth.com/cda/article.do?site=menshealth&channel=health&category=back.pain&conitem=c6f999edbbbd201099edbbbd2010cfe793cd____).
 
 ## Redskaber til at fortsætte arbejdet mod en sixpack
 
@@ -58,9 +58,9 @@ Du er måske også interesseret i at læse mere om at [tabe fedt på maven](/tab
 ## Referencer
 
 - [Jacob Søndergaards side om 6-pack på 6 uger](https://web.archive.org/web/20120201111214/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"}
-- [How to Get 6-Pack Abs Without Crunches or Sit-ups!](http://www.getprograde.com/blog/how-to-get-6-pack-abs-without-crunches-or-sit-ups/)
-- [Anterior core traning](http://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
-- [Core training for smart folks](http://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
-- [21st Century Core training](http://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
+- [How to Get 6-Pack Abs Without Crunches or Sit-ups!](https://www.getprograde.com/blog/how-to-get-6-pack-abs-without-crunches-or-sit-ups/)
+- [Anterior core traning](https://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
+- [Core training for smart folks](https://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
+- [21st Century Core training](https://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
 - [The real core exercises](https://www.t-nation.com/training/the-real-core-exercise/)
 - [The 2008 alphabet of manliness](https://www.t-nation.com/training/the-2008-alphabet-of-manliness/)

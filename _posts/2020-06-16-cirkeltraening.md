@@ -75,7 +75,7 @@ Mulighederne er uendelige. Du kan vælge andre kategorier eller du kan vælge fo
 
 ## Intervallerne i cirkeltræningsprogrammet
 
-Ofte er arbejdstiden i et cirkeltræningsprogram ifølge [Morten Zacho](http://web.archive.org/web/20150403151005/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/cirkeltraening/){:rel="nofollow"} dobbelt så lang som pausen. Fx 30/15, 40/20 eller 60/30.
+Ofte er arbejdstiden i et cirkeltræningsprogram ifølge [Morten Zacho](https://web.archive.org/web/20150403151005/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/cirkeltraening/){:rel="nofollow"} dobbelt så lang som pausen. Fx 30/15, 40/20 eller 60/30.
 
 Hvis jeg har høj variation i øvelserne, så kan jeg godt arbejde med mindre pause.
 

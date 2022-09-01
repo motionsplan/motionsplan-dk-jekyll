@@ -3,7 +3,7 @@ title: &title "Elsker du en udfordring? Prøv Kipchoge Challenge"
 permalink: /kipchoge-challenge/
 language: da
 header:
-  teaser: http://i.ytimg.com/vi/MoxFkJlVZlA/hqdefault.jpg
+  teaser: https://i.ytimg.com/vi/MoxFkJlVZlA/hqdefault.jpg
 category:
   - Løb
 tags:

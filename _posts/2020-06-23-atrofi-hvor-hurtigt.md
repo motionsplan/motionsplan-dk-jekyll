@@ -63,7 +63,7 @@ Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse p
 
 Taaffe og Marcus (1997) lod deltagerne styrketræne i 24 uger. Deltagerne fik et øget tværsnitsareal på 26% og en styrkefremgang på 40%. Efter 12 ugers pause var tværsnitsarealet tilbage på udgangspunktet. Styrken var imidlertid kun faldet med 30%.
 
-[Løvind et al (2008, ej publiceret)](http://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"} undersøgte hvor hurtigt detræningsfasen går i forhold til muskelstørrelse og opdelt på muskelfibertyper. 13 utrænede unge mænd udførte først progressiv tung styrketræning tre gange om ugen i tre måneder. Dernæst var der en detræningsperiode på 90 dage.
+[Løvind et al (2008, ej publiceret)](https://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"} undersøgte hvor hurtigt detræningsfasen går i forhold til muskelstørrelse og opdelt på muskelfibertyper. 13 utrænede unge mænd udførte først progressiv tung styrketræning tre gange om ugen i tre måneder. Dernæst var der en detræningsperiode på 90 dage.
 
 I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelte fibre for at se graden af hypertrofi og atrofi i perioden. Gennem træningsperioden var der en forøgelse på tværsnittet på 25% efter tre måneders træning. Hovedparten af væksten var i de hurtige type II-fibre.
 
@@ -75,7 +75,7 @@ Løvind et al (2008, ej publiceret) konkluderer lidt skarpt, at hvis man holder 
 
 > Nu er der meget der tyder på at et enkelt træningspas med ganske lange intervaller (6-8 dage) sagtens kan opretholde fiberstørrelsen i en længere periode (flere måneder), inden der igen skal sættes ind med en ny intensiv periode.
 
---- <cite>[Løvind et al (2008, ej publiceret)](http://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"}</cite>
+--- <cite>[Løvind et al (2008, ej publiceret)](https://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"}</cite>
 
 Type II-fibre er altså både de mest vækstvillig, men de er også ivrige efter at skrumpe igen, hvis ikke længere de får et eksternt stimulus.
 

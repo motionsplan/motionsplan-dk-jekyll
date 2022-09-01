@@ -179,4 +179,4 @@ Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde f
 
 ## Konklusion
 
-Hvis du gerne samlet vil tænke mindre over din kost og have noget sund mad, så kan du overveje at lave en madplan. Jeg har skrevet et indlæg om [et billigt madbudget og madplaner på ifire.dk](http://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/).
+Hvis du gerne samlet vil tænke mindre over din kost og have noget sund mad, så kan du overveje at lave en madplan. Jeg har skrevet et indlæg om [et billigt madbudget og madplaner på ifire.dk](https://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/).

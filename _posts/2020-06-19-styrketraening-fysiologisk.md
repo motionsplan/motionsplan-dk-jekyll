@@ -88,7 +88,7 @@ Den trænede kan altså i forhold til den utrænede:
 
 {% comment %}
 
-Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} med neurale tilpasninger til styrketræning:
+Per Aagaard (2009) har lavet følgende [liste](https://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} med neurale tilpasninger til styrketræning:
 
 - øget neuralt drive til muskelfibre (større iEMG) (Moritani & DeVries 1979, Schmidtbleicher 1987, Narici et al. 1989, Aagaard et al. 1998, 2000)
 - øget “rate of EMG rise” (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1999)
@@ -143,7 +143,7 @@ Følgende har også været foreslået som udløsere af vækstfaktorer:
 
 Der er altså en lang række forhold, som er blevet foreslået til at være _trigger_ for vækstfaktorerne. Den vigtigste er imidlertid som nævnt det mekaniske stress på musklerne.
 
-Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} med morfologiske forandringer ved styrketræning.
+Per Aagaard (2009) har lavet følgende [liste](https://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} med morfologiske forandringer ved styrketræning.
 
 - øget anatomisk muskel-tværsnitsareal og volumen (målt ved MRI og CT) (Jones & Rutherford 1987, Narici et al. 1989,1996, Aagaard et al. 1999, 2000)
 - øget fysiologisk muskelfiber areal (målt ved muskel biopsier) (McDonagh & Davies 1984, Andersen et al. 1994, Andersen & Aagaard 2000)
@@ -201,9 +201,9 @@ Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ve
 
 ## Fysiologiske tilpasninger i forhold til tung styrketræning
 
-Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den.
+Per Aagaard (2009) har [foreslået](https://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den.
 
-{% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-ovede.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen. Vi mener primært den er retvisende for trænede individer. Baseret på [Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)" %}
+{% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-ovede.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen. Vi mener primært den er retvisende for trænede individer. Baseret på [Aagaard (2009)](https://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)" %}
 
 Figuren giver en relativt forenklet opfattelse af, hvilket styrketræningsstimulus, der skaber hvilke fysiologiske tilpasninger. Vi mener dog, at det er nødvendigt at skelne mellem utrænede, lettere trænede og trænede i forståelsen, da billedet for tilpasningerne ikke er det samme for de to grupper.
 
@@ -225,7 +225,7 @@ Træning udført ønsket om at flytte stangen så hurtigt som muligt med **1-8 R
 
 {% comment %}
 
-Den tunge styrketræning kan siges at resultere i ([Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"}):
+Den tunge styrketræning kan siges at resultere i ([Aagaard (2009)](https://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"}):
 
 - øget maksimal muskelkraft og effekt ved både langsomme og hurtige bevægelseshastigheder (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1994)
 - øget maksimal ‘eksplosiv’ muskelstyrke (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1999)

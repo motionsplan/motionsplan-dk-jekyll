@@ -66,4 +66,4 @@ Du skal arbejde frem mod i hvert fald at kunne komme ned til at lårene er vandr
 - **Sæt dig ned**. Sæt dig ned på en bænk og rejs dig igen. Når du har fornemmelsen af det, skal du forestille dig at der er en æggebakke på bænken, som går i stykker, hvis du sætter dig får hårdt og i stedet rejse dig igen.
 - **Kiler**. Hvis du har brug for at bruge kiler under hælene for at kunne komme lidt længere ned, anbefaler vi at du gradvist gør kilerne mindre.
 
-Se i øvrigt [10 tips for flawless squattin'](http://www.t-nation.com/free_online_article/sports_body_training_performance/10_tips_for_flawless_squattin)
+Se i øvrigt [10 tips for flawless squattin'](https://www.t-nation.com/free_online_article/sports_body_training_performance/10_tips_for_flawless_squattin)

@@ -50,7 +50,7 @@ gallery_explain:
 
 Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning. Rationalet bag begrebet er, at fedtforbrændingen er størst med en bestemt intensitet. Og det er sådan set relativt rigtigt, men der er absolut udfordringer ved forståelsen af fedtforbrændingszonen.
 
-Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
+Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
 
 Jeg synes imidlertid sagtens at fedtforbrændingszonen kan have sin plads i træningen, når man kigger på den bagvedliggende fysiologi. 
 
@@ -68,17 +68,17 @@ Det er relativt let ud fra den [respiratoriske udvekslingskvotient]({% link _pos
 
 ## Skal vi "glemme" fedtforbrændingszonen?
 
-[Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev glem fedtforbrændingszonen. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
+[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev glem fedtforbrændingszonen. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
 
 Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste i forhold til vægttab er ikke en fedtforbrændingszone, men hvad der sker over hele døgnet.
 
-Rationalet bag fedtforbrædingen kan skitseres i følgende grafer, som [Morten Zacho forklarer](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}.
+Rationalet bag fedtforbrædingen kan skitseres i følgende grafer, som [Morten Zacho forklarer](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}.
 
-{% include feature_row id="gallery" type="left" caption="Den vandrette akse er intensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
+{% include feature_row id="gallery" type="left" caption="Den vandrette akse er intensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
 
-Men når man kigger på det samlede energiforbrug og vægttab, så skal du også ifølge [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} være opmærksom på følgende:
+Men når man kigger på det samlede energiforbrug og vægttab, så skal du også ifølge [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} være opmærksom på følgende:
 
-{% include feature_row id="gallery_explain" type="left" caption="Den vandrette akse er træningsintensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
+{% include feature_row id="gallery_explain" type="left" caption="Den vandrette akse er træningsintensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
 
 Morten Zachos konkluderer, at hvis du skal tabe sig, så kan det ikke betale sig at holde pulsen nede for at træne i **fedtforbrændingszonen**, hvis du har lyst og evne til at arbejde med en højere intensitet.
 
@@ -90,7 +90,7 @@ I forhold til vægttab og fedtforbrænding foreslår Morten Zacho, at du arbejde
 > Spørgsmål: Hvis man f.eks har afsat 40 minutter til at motionere i, hvilken intensitet er så den bedste hvis man vil tabe sig?
 > Svar: Den højeste intensitet man kan holde i de 40 minutter!
 
-— <cite>[Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
+— <cite>[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
 
 Hvis du har sat et bestemt tidsrum af til motion og træning, så kan det i forhold til vægttab formentlig ikke betale sig at blive i **fedtforbrændingszonen** i forhold til træningen. 
 

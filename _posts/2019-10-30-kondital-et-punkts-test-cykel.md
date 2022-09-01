@@ -79,7 +79,7 @@ Oprindeligt skulle konditallet findes ved at bruge det [nomogram](https://www.ss
 
 Senere er der lavet regressionsanalyser, hvor forskere har givet deres bud på formler, som kan bruges til at udregne iltoptagelsen på baggrund af Åstrands etpunktstest.
 
-Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"} af Åstrand-testen, men formlen er desværre ikke offentligt tilgængelig.
+Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse](https://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"} af Åstrand-testen, men formlen er desværre ikke offentligt tilgængelig.
 
 Zacho bruger også sin formel i nedenstående beregner til Åstrands etpunktstest, som er på engelsk.
 
@@ -123,7 +123,7 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 
 > Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil få vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
 
---- <cite>[Morten Zacho](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho](https://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}</cite>
 
 Åstrands etpunktstest kan imidlertid sagtens bruges til at måle ændringer i konditionen over tid. Du behøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at din kondition er blevet bedre.
 

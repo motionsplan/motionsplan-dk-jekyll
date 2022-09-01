@@ -89,7 +89,7 @@ Her kan du læse en masse anbefalinger til løbebøger, som er passende til dig,
 
 ## Liste over {{ page.feature_row.size }} løbebøger 2021
 
-Denne liste over løbebøger er både inspireret af [Herlev Bibliotek](https://www.herlevbibliotek.dk/) og [The Greatness of Running](http://thegreatnessofrunning.dk/tag/loebeboeger/). Jeg håber, at du finder nogle interessante bøger at dykke ned i. Linksene er reklamelinks, men du skal også huske, at du kan låne en del af bøgerne gratis på [biblioteket](https://bibliotek.dk/) eller på [eReolen](https://ereolen.dk/).
+Denne liste over løbebøger er både inspireret af [Herlev Bibliotek](https://www.herlevbibliotek.dk/) og [The Greatness of Running](https://thegreatnessofrunning.dk/tag/loebeboeger/). Jeg håber, at du finder nogle interessante bøger at dykke ned i. Linksene er reklamelinks, men du skal også huske, at du kan låne en del af bøgerne gratis på [biblioteket](https://bibliotek.dk/) eller på [eReolen](https://ereolen.dk/).
 
 {% include feature_row type="left" %}
 

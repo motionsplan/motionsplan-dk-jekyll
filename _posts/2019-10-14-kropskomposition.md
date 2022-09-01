@@ -106,7 +106,7 @@ I modsætning til vandvejning kan DEXA-scannere måle de enkelte segmenter, så 
 
 DEXA-scanninger er ofte relativt dyrt at få lavet.
 
-{% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](http://www.nicksmithphotography.com/)" alt="DEXA Scanner" %}
+{% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](https://nicksmithphotography.com/)" alt="DEXA Scanner" %}
 
 ### 3. Hudfoldsmåling (fedttang)
 

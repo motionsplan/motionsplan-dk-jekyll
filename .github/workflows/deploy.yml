@@ -16,6 +16,7 @@ on:
 
 env:
   RUBY_VERSION: "3.1.2"
+  BUNDLER_VERSION: "2.3.21"
 
 # Here is where we define our jobs.
 # Which means the tasks we want Github to execute
@@ -38,7 +39,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev minify
-          sudo gem install bundler:2.3.21
+          sudo gem install bundler:${{ env.BUNDLER_VERSION }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -159,12 +160,12 @@ jobs:
           directory: "./_site"
           # The directory to scan
           arguments: |
-            --only-4xx
-            --assume-extension
+            --only-4xx true
+            --assume-extension ".html"
             --ignore-status-codes "400,403,409,429"
-            --allow-hash-href
-            --ignore-empty-alt
-            --ignore-urls "bjsm.bmj.com"
+            --allow-hash-href true
+            --ignore-empty-alt true
+            --ignore-urls "/bjsm.bmj.com/"
             --cache '{ "timeframe": { "external": "30d" } }'
           # The arguments to pass to HTMLProofer
   clean:

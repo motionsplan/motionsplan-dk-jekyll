@@ -72,7 +72,7 @@ Løbeøkonomien vil typisk være forskellig ved forskellige hastigheder. I litte
 
 Løberens præstation er betinget af, hvor god vedkommende er til at udnytte den disponible ilt. Det er et multifaktorielt samspil mellem en lang række forskellige faktorer.
 
-[Barness (2015)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/) afdækkede i sit systematiske review de faktorer forskere er begyndt at fokusere på i forbindelse med løbeøkonomi:
+[Barness (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/) afdækkede i sit systematiske review de faktorer forskere er begyndt at fokusere på i forbindelse med løbeøkonomi:
 
 {% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/bin/40798_2015_7_Fig2_HTML.jpg" caption="Faktorer som har betydning for løbeøkonomien efter Barness (2015)" alt="Faktorer som har betydning for løbeøkonomien" %}
 
@@ -134,7 +134,7 @@ Vær opmærksom på, at du kan reproducere testene, så du får en pålidelig te
 
 Hvis du laver ændringer, der påvirker din løbeøkonomi, så skal du være opmærksom på, hvor væsentlig ændringen i virkeligheden er i forhold til måleusikkerhederne.
 
-[Saunders et. al., 2004](http://www.ncbi.nlm.nih.gov/pubmed/15514515) vurderer, at der er en minimumsgrænse på 2,2% - 2,6% før man kan karakterisere ændringen som _Smallest Worthwhile Change (SWC)_.
+[Saunders et. al., 2004](https://www.ncbi.nlm.nih.gov/pubmed/15514515) vurderer, at der er en minimumsgrænse på 2,2% - 2,6% før man kan karakterisere ændringen som _Smallest Worthwhile Change (SWC)_.
 
 Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forskellige løbehastigheder. Hvis du løber på den samme relative løbehastighed, så kan du måske være tilfreds med mindre ændringer.
 
@@ -306,7 +306,7 @@ Hvordan arbejder du med din løbeøkonomi?
 <details markdown="1">
   <summary>Se flere referencer</summary>
 
-- [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
+- [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
 - Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
 </details>
 
