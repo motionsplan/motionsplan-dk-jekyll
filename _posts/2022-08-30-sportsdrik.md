@@ -76,7 +76,7 @@ Mange sportsdrikke er rimelig dyre, og du kan hurtigt og let fremstille din egen
 
 For at lave en sportsdrik med både energi og essentielle salte, så behøver du bare almindeligt postevand, sukker, køkkensalt og noget smagsstof (fx citronsaft).
 
-Et forslag til sportsdrik-opskrift:
+Opskrift på hjemmelavet sportsdrik:
 
 - 1 liter vand
 - 25-30 g almindelig sukker
