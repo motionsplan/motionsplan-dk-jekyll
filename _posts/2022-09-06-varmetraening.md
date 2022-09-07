@@ -30,7 +30,7 @@ Vil du gerne præstere bedre i varmen? Det er en god ide at lave varmetræning, 
 
 [Tyler et al (2016)](https://pubmed.ncbi.nlm.nih.gov/27106556) konkluderer i en metaanalyse af 96 studier, at _time-to-exhaustion_ og _time trial performance_ blev forbedret med op til hhv. ~23% og ~7% efter varmetræning.
 
-Måske er der også en effekt på den aerobe præstation i koldere omgivelser på op til 6% ([Lorenzo et al(2010)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2963322/)), mens andre studier ikke viste nogen effekt ([Karlsen et al (2015)](https://pubmed.ncbi.nlm.nih.gov/25943678) og [Keiser et al (2015)](https://pubmed.ncbi.nlm.nih.gov/26150574)). Uanset om varmetræning virker i koldere omgivelser, så er der ingen studier, der har vist en negativ effekt.
+Måske er der også en effekt på den aerobe præstation i koldere omgivelser på op til 6% ([Lorenzo et al 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2963322/)), mens andre studier ikke viste nogen effekt ([Karlsen et al 2015](https://pubmed.ncbi.nlm.nih.gov/25943678), [Keiser et al 2015](https://pubmed.ncbi.nlm.nih.gov/26150574)). Uanset om varmetræning virker i koldere omgivelser, så er der ingen studier, der har vist en negativ effekt.
 
 Det kan altså betale sig at [varmeakklimatisere](/varmeakklimatisering-traening-i-varmen/), hvis du skal klare dig bedre i varmen.
 
