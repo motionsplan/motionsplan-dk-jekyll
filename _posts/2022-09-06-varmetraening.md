@@ -115,7 +115,7 @@ Sådan så det ud.
 
 {% include figure image_path="/assets/images/blog/varmetraening-tempo-kontrol.png" caption="Et tidligere træningspas med samme formål og samme intensitet er det tydeligt at pulsen er relativt set noget lavere." %}
 
-I mit tempererede træningspas var der kun ganske lidt _cardiac drift_, og der var en forskel på xxxx pulsslag pr. minut i gennemsnitspulsen på det to træningspas.
+I mit tempererede træningspas var der kun ganske lidt _cardiac drift_, og der var en forskel på 11 pulsslag pr. minut i gennemsnitspulsen på det to træningspas.
 
 Den eneste forskel var en regnjakke og nogle vintertights.
 
