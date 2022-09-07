@@ -56,7 +56,7 @@ Lad os tage et eksempel:
 
 Hvis du vejer omkring 84 kg, er 46 år og som [gennemsnitsmanden er 181 cm høj](/hvad-er-gennemsnitshoejden-i-danmark/), så kan du i beregneren anslå, at du har 46 liter vand i kroppen.
 
-Præstationsevnen påvirkes negativt, hvis du dehydrerer for meget. Der sker formentlig ikke det helt store, hvis du tager 1-2% væske, men kommer du over 2% så falder præstationsevnen en del. Det mindsker både svedraten og det subcutane blodflow. Derved komprimitteres kroppens nedkølingsmekanismer.
+Præstationsevnen påvirkes negativt, hvis du dehydrerer for meget. Der sker formentlig ikke det helt store, hvis du taber 1-2% væske, men kommer du over 2% så falder præstationsevnen en del. Det mindsker både svedraten og det subcutane blodflow. Derved komprimitteres kroppens nedkølingsmekanismer.
 
 Hvis du ikke kan køle dig selv ordentligt ned under bevægelse, så kan du risikere _hedeslag_.
 
@@ -92,7 +92,7 @@ Efter 10-14 dage har kroppen i høj grad vænnet sig til varmen og har lavet til
 
 Ultraløber, Christian Madsen, anbefaler følgende:
 
-> Derfor anbefaler jeg, at du bruger ca. 10-14 dage på varmetræning, så tæt på dit løb som muligt, for at få nærlig fuld effekt af varmeakklimatiseringen, idet ca. 75% af varmeakklimatiseringen sker allerede i de første ca. 5 dage af varmepåvirkningen. Varmeakklimatiseringen fastholdes fuldt ud i op til ca. én uge, når man returnerer til et køligere klima, hvorefter den aftager fuldstændigt (alt efter person) efter ca. 28 dage.
+> Derfor anbefaler jeg, at du bruger ca. 10-14 dage på varmetræning, så tæt på dit løb som muligt, for at få fuld effekt af varmeakklimatiseringen, idet ca. 75% af varmeakklimatiseringen sker allerede i de første ca. 5 dage af varmepåvirkningen. Varmeakklimatiseringen fastholdes fuldt ud i op til ca. én uge, når man returnerer til et køligere klima, hvorefter den aftager fuldstændigt (alt efter person) efter ca. 28 dage.
 
 --- <cite>[Christian Madsen, ultraløber](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)</cite>
 
@@ -126,17 +126,21 @@ Det er let at måle nogenlunde hvor meget væske du taber under en aktivitet. Du
 
 [Shirreffs et al (2007)](https://pubmed.ncbi.nlm.nih.gov/17693686/) undersøgte nogle forskellige sportsdrikke, men typisk var der ikke nok salte i sportsdrikkene til at fastholde en positiv saltbalance.
 
-Du kan indtage omkring 1200 ml/timen. Men **undervejs** i træningen eller konkurrencen er det smartest at ligge omkring **ligevægtsindtaget**.
+Du kan maksimalt optage omkring 1200 ml/timen. Men **undervejs** i træningen eller konkurrencen er det smartest at ligge omkring **ligevægtsindtaget**.
 
-Det er en god ide under varme forhold at fylde væskedepoterne op undervejs, når du arbejder. Det er også en god ide at supplere med salte, fx i form af elektrolytter. Du kan gå efter et saltindtag, der modsvarer nogenlunde det du sveder ud altså 1-3 g/l væske du drikker.
+Det er en god ide under varme forhold at fylde væskedepoterne op undervejs, når du arbejder. Det er også en god ide at supplere med salte, fx i form af elektrolytter, hvis du arbejder i længere tid.
 
-Hvis det er en vigtig konkurrence, så bliver du nødt til at træne indtaget af væske, kulhydrat og salte, da det kan påvirke maven og fordøjelsessystemet, når du arbejder hårdt. Ellers kan du ende med en mave, der gør vrøvl, og det er jo heller ikke sjovt.
+Du kan gå efter et saltindtag, der modsvarer salttabet gennem sveden. Et bud er omkring 1-3 g salt/l væske du drikker.
 
-**Efter** aktiviteten skal man ifølge konklusionerne fra studiet af [Shirreffs et al (2010)](https://pubmed.ncbi.nlm.nih.gov/11131686/) indtage mere væske, end man har tabt i svedproduktionen, og man skal være særligt opmærksom på at få sodium og potassium nok.
+Hvis det er en vigtig konkurrence, så bliver du nødt til at træne indtaget af væske, kulhydrat og salte på forhånd. Indtage af sukkerholdige væsker kan nemlig påvirke maven og fordøjelsessystemet, når du arbejder hårdt.
+
+Uden forberedelse kan du ende med en mave, der gør vrøvl, og det er jo ikke sjovt.
+
+**Efter** aktiviteten skal man ifølge konklusionerne fra studiet af [Shirreffs et al (2010)](https://pubmed.ncbi.nlm.nih.gov/11131686/) indtage mere væske, end man har tabt i svedproduktionen, og man skal være særligt opmærksom på at få natrium og kalium nok.
 
 [Christian Madsen, ultraløber](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme) foreslår, at man indtager op til 150% af den tabte væske suppleret med salte.
 
-Du kan selv lave en test og få yderligere råd i beregneren nedenunder, som Team Danmark har udformet.
+Du kan selv lave en test og få yderligere råd i Team Danmarks beregner nedenunder.
 
 ## Test hvor meget væske du skal have?
 
@@ -159,6 +163,8 @@ Stine Rex forberedte sig bl.a. også i sauna, da hun skulle gennemføre et ultra
 ## Hvordan kan jeg lave varmetræning?
 
 Hvis du lever under knap så varme himmelstrøg, men skal forberede dig til at konkurrere i ekstrem varme, så skal du være lidt kreativ.
+
+Læs: [Varmetræning: Hvorddan gør du i praksis?](/varmetraening/)
 
 Du kan enten bruge opvarmede rum eller ekstra tøj for at opleve varmen.
 
@@ -194,7 +200,9 @@ Du bør altså bygge varmetræningen op stille og roligt. Det er en god ide at l
 
 Når vi snakker om varme, så kan vi næsten ikke komme udenom også lige at runde brugen af solcreme. Kræftens Bekæmpelse anbefaler på det kraftigste solcreme for at mindske risikoen for hudkræft, og når du er et varmt sted, så skal kroppen nok få dannet nok [D-vitamin](/kosttilskud-d-vitamin/).
 
-Hvis du ender med at blive forbrændt af solen, så er det ekstra hårdt for kroppen at præstere i varmen, for så skal noget af energien gå til at reparere huden. [Gilaberte et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8850489/) har gennemgået brugen af solcreme under sport, og de anbefaler klart, at solcreme bliver en del af alle atleters hverdag, når solen er fremme. Solcremen skal mindst være SPF 30, smøres på 30 minutter før solen ramme og gensmøring for hver 2-3 timer.
+Hvis du ender med at blive forbrændt af solen, så er det ekstra hårdt for kroppen at præstere i varmen, for så skal noget af energien gå til at reparere huden.
+
+[Gilaberte et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8850489/) har gennemgået brugen af solcreme under sport, og de anbefaler klart, at solcreme bliver en del af alle atleters hverdag, når solen er fremme. Solcremen skal mindst være SPF 30, smøres på 30 minutter før solen ramme og gensmøring for hver 2-3 timer.
 
 [Ou-Yang et al](https://pubmed.ncbi.nlm.nih.gov/29105107/) undersøgte om nedkølingseffekten af svedprocessen var påvirket af solcreme. De konkluderede at der ikke var en målelig effekt. Du er altså ikke interesseret i at blive forbrændt, og selvom det kan være ubelejligt eller du glemmer det, så vil solcreme hjælpe dig under varme forhold.
 
