@@ -2,7 +2,7 @@ let motionsplan = {};
 
 motionsplan.WaterIntake = function(weight) {
   
-  // upper and lower limit from LetLiv
+  // upper and lower limit from LetLiv og Team Danmark
   let lower = 30; // ml
   let upper = 40; // ml
 

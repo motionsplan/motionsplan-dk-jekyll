@@ -18,7 +18,7 @@ tags:
   - beregner
   - featured
 popular: true
-last_modified_at: 2020-12-16T23:14:14Z
+last_modified_at: 2022-09-07T10:14:14Z
 toc: true
 faq:
   - question: "Hvor meget vand skal man drikke om dagen?"
@@ -27,11 +27,15 @@ faq:
     answer: "Ja. Du kan godt drikke for meget vand. Hvis du drikker rigtig meget vand, så skal du være meget opmærksom på indholdet af salte og mineraler i det væske du indtager. Læs meget mere i denne artikel..."
 ---
 
-Det er blevet rigtig populært at drikke rigtig meget vand, men hvor meget vand skal man egentlig drikke om dagen? Vi har kigget på videnskaben og lavet en beregner til at udregne dit daglige væskebehov.
+Er du også i tvivl om, hvor meget vand du bør drikke dagligt? Jeg har researchet og samlet svaret på spørgsmålet i det følgende her.
 
-Mange er tvivl om, hvor meget væske man bør drikke dagligt. Derfor har jeg researchet lidt på spørgsmålet her.
+Det er blevet rigtig populært at drikke rigtig meget vand, men mange drikker formentlig mere end rigeligt vand, mens andre får for lidt væske dagligt.
 
-Vandflasken har virkelig indtaget Danmark - og de fleste har efterhånden altid en vandflaske med sig. Men mange drikker formentlig mere end rigeligt hver dag. Lad os dykke ned i fakta!
+Hvor meget væske skal du egentlig drikke om dagen?
+
+Vi har kigget på videnskaben og lavet en beregner til at udregne dit daglige væskebehov.
+
+Lad os dykke ned i fakta!
 
 I dette indlæg kan du læse mere om:
 
@@ -53,11 +57,13 @@ I dette indlæg kan du læse mere om:
 
 ## Beregn hvor meget vand skal du drikke om dagen?
 
-Letliv.dk [foreslår](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov) følgende måde at beregne hvor meget vand, man bør drikke om dagen.
-
-De skriver, at mennesker har behov for 30-40 ml væske pr. kg legemsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
+Team Danmark [foreslår](https://www.teamdanmark.dk/performance/sportsernaering/vaesketest), at du har et basalbehov på 30-40 ml væske pr. kg kropsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
 
 {% include calculate-water-intake.html %}
+
+I beregneren udregner du dit basalbehov for væske om dagen. Men det er naturligvis noget andet, hvis du er i meget varme omgivelser eller dyrker idræt, hvor du sveder meget.
+
+Læs: [Hvad skal jeg drikke til træning og konkurrence?](/hvad-skal-jeg-drikke/)
 
 ## Hvor meget skal jeg drikke om dagen?
 
@@ -95,7 +101,7 @@ Hvor meget væske man skal drikke om dagen afhænger naturligvis også af, hvor 
 
 Læs: [Varmeakklimatisering: Træning i varmen](/varmeakklimatisering-traening-i-varmen/)
 
-Hvis du kommer over tre liter vand om dagen, så skal du tænke over, hvilke salte og mineraler der er i vandet, så du undgår uheldige bivirkninger.
+Hvis du kommer over tre liter vand om dagen, så skal du tænke over, hvilke salte og mineraler der er i vandet, så du undgår uheldige bivirkninger. Du kan måske blive inspireret til at [blande din egen sportsdrik](/sportsdrik/).
 
 ## Hvor meget sveder man om dagen?
 
