@@ -73,7 +73,6 @@ Hvilken effekt intervallerne har afhænger helt af arbejdstid, arbejdsintensitet
 
 Lad os dykke lidt ned i de forskellige typer intervaller, som kan have forskellige formål.
 
-
 Jeg har alligevel forsøgt at lave en tabel, som indeholder nogle af de mest udbredte metoder til træning.
 
 ## Forskellige typer intervaller
@@ -179,6 +178,8 @@ Endelig har jeg løbet mange **4 minutters-intervaller**, hvor jeg har arbejdet 
 - Start altid dit intervalløb med mindst 10 minutters roligt løb og generel opvarmning.
 - Løb intervallerne i et passende tempo. Mange typer intervaltræning lægger op til, at du skal løbe i et så højt tempo, at du kun lige kan gennemføre de planlagte intervaller (men kan holde samme intensitet hele vejen igennem). Andre typer intervaller har andre træningsformål og derfor en anden intensitet.
 - I pausen kan du holde dig i gang med langsomt løb eller gang, så systemet hurtigst muligt restituerer igen. Hvis du har pulsmåler på, så kan du holde øje med at pulsen, når at falde til det samme niveau i alle pauserne.
+
+Læs: [Aktiv eller passiv pause ved HIIT-intervaller](/hiit-aktiv-eller-passiv-pause/)
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 

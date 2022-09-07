@@ -19,7 +19,7 @@ lsolesen:
 jesper.emil.jakobsgaard:
   name             : "Jesper Emil Jakobsgaard"
   avatar           : "/assets/images/authors/jesper-emil-jakobsgaard.jpg"
-  bio              : "Ph.d.-studerende ved Aarhus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter. Underviser i fysisk træning ved Aarhus Universitet"
+  bio              : "Erhvervsforsker med en ph.d. fra Aarhus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter. Underviser i fysisk træning og træningsfysiologi ved Aarhus Universitet."
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -36,7 +36,7 @@ nikolai.jauk:
 andreas.christensen:
   name             : "Andreas Kjærsgaard Christensen"
   avatar           : "/assets/images/authors/andreas-christensen.jpg"
-  bio              : "Siden januar 2017 har jeg været medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
+  bio              : "Medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
   links:
     - label: "www.occlude.dk"
       icon: "fas fa-fw fa-link"
