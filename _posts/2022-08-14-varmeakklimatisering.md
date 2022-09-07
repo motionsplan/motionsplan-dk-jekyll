@@ -126,7 +126,7 @@ Det er let at måle nogenlunde hvor meget væske du taber under en aktivitet. Du
 
 [Shirreffs et al (2007)](https://pubmed.ncbi.nlm.nih.gov/17693686/) undersøgte nogle forskellige sportsdrikke, men typisk var der ikke nok salte i sportsdrikkene til at fastholde en positiv saltbalance.
 
-Du kan indtage omkring 1200 ml/timen. Men **undervejs** i træningen eller konkurrencen er det smartest at ligge omkring **ligevægtsindtaget**.
+Du kan indtage omkring 1200 ml væske/timen. Men **undervejs** i træningen eller konkurrencen er det smartest at ligge omkring **ligevægtsindtaget**.
 
 Det er en god ide under varme forhold at fylde væskedepoterne op undervejs, når du arbejder. Det er også en god ide at supplere med salte, fx i form af elektrolytter. Du kan gå efter et saltindtag, der modsvarer nogenlunde det du sveder ud altså 1-3 g/l væske du drikker.
 
