@@ -164,7 +164,7 @@ Stine Rex forberedte sig bl.a. også i sauna, da hun skulle gennemføre et ultra
 
 Hvis du lever under knap så varme himmelstrøg, men skal forberede dig til at konkurrere i ekstrem varme, så skal du være lidt kreativ.
 
-Læs: [Varmetræning: Hvorddan gør du i praksis?](/varmetraening/)
+Læs: [Varmetræning: Hvordan gør du i praksis?](/varmetraening/)
 
 Du kan enten bruge opvarmede rum eller ekstra tøj for at opleve varmen.
 
@@ -204,7 +204,7 @@ Hvis du ender med at blive forbrændt af solen, så er det ekstra hårdt for kro
 
 [Gilaberte et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8850489/) har gennemgået brugen af solcreme under sport, og de anbefaler klart, at solcreme bliver en del af alle atleters hverdag, når solen er fremme. Solcremen skal mindst være SPF 30, smøres på 30 minutter før solen ramme og gensmøring for hver 2-3 timer.
 
-[Ou-Yang et al](https://pubmed.ncbi.nlm.nih.gov/29105107/) undersøgte om nedkølingseffekten af svedprocessen var påvirket af solcreme. De konkluderede at der ikke var en målelig effekt. Du er altså ikke interesseret i at blive forbrændt, og selvom det kan være ubelejligt eller du glemmer det, så vil solcreme hjælpe dig under varme forhold.
+[Ou-Yang et al (2018)](https://pubmed.ncbi.nlm.nih.gov/29105107/) undersøgte om nedkølingseffekten af svedprocessen var påvirket af solcreme. De konkluderede at der ikke var en målelig effekt. Du er altså ikke interesseret i at blive forbrændt, og selvom det kan være ubelejligt eller du glemmer det, så vil solcreme hjælpe dig under varme forhold.
 
 ## Tips til varmeakklimatisering
 
