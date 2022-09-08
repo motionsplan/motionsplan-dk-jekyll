@@ -3,7 +3,6 @@ layout: single
 title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
 excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
-last_modified_at: 2021-12-28T20:14:14Z
 header:
   overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
