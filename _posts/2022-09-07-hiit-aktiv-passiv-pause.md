@@ -2,11 +2,11 @@
 last_modified_at: 2022-09-07T02:18:02+01:00
 toc: true
 author: jesper.emil.jakobsgaard
+title: Aktiv eller passiv pause ved HIIT - hvad er optimalt?
 permalink: /hiit-aktiv-eller-passiv-pause/
-title: &title "Aktiv eller passiv pause ved HIIT - hvad er optimalt?"
 header:
   teaser: https://images.unsplash.com/photo-1612032882906-2fa6f7b5f30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fHRyYWNrJTIwcnVubmVyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  caption: Aktiv eller passiv pause ved HIIT - hvad er optimalt?
 category:
   - Kondition
 tags:
@@ -20,8 +20,12 @@ tags:
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781492552123/0x500
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/science-and-application-of-high-intensity-interval-training_paul-laursen_hardback_9781492552123
-    title: "Science and Application of High Intensity Interval Training"
-    excerpt: "Paul Laursen og Martin Buchheit har skrevet _Science and Application of High-Intensity Interval Training_, som er _must-have_ for alle coaches, trænere, fysiologer og researchers, der bruger HIIT - high-intensity interval training - som en del af deres arbejdsområde og laver træning og træningsprogrammer."
+    title: Science and Application of High Intensity Interval Training
+    excerpt: Paul Laursen og Martin Buchheit har skrevet _Science and Application of
+      High-Intensity Interval Training_, som er _must-have_ for alle coaches,
+      trænere, fysiologer og researchers, der bruger HIIT - high-intensity
+      interval training - som en del af deres arbejdsområde og laver træning og
+      træningsprogrammer.
     alt: HIIT - Højintensitets Intervaltræning - træningsprogram - træning
     btn_label: Tjek prisen*
     btn_class: btn--info
@@ -29,21 +33,20 @@ feature_row:
 gallery:
   - image_path: /assets/images/pinterest/hiit-47x15.jpg
     url: /assets/images/pinterest/hiit-47x15.jpg
-    title: "HIIT træning"
-    alt: "HIIT træning"
+    title: HIIT træning
+    alt: HIIT træning
   - image_path: /assets/images/pinterest/hiit-4x4.jpg
     url: /assets/images/pinterest/hiit-4x4.jpg
-    title: "HIIT træningsprogram"
-    alt: "HIIT træning"
+    title: HIIT træningsprogram
+    alt: HIIT træning
   - image_path: /assets/images/pinterest/hiit-4x30.jpg
     url: /assets/images/pinterest/hiit-4x30.jpg
-    title: "HIIT træning"
-    alt: "HIIT træning"
+    title: HIIT træning
+    alt: HIIT træning
 language: da
 sidebar:
   nav: methods
 ---
-
 Skal dine pauser i HIIT-træning være aktive eller passive? Hvordan gør du egentlig bedst klar til det næste interval, når det det skal være rigtig hårdt? Få svaret her!
 
 [Høj-intensiv interval træning (HIIT)](/hiit/) er et effektivt træningsværktøj til at forbedre din kondition, når den udføres efter foreskrifterne. 
@@ -81,8 +84,8 @@ Lad os kigge på, hvad litteraturen rent faktisk siger om emnet.
 
 Umiddelbare argumenter for at anvende aktiv restitution mellem arbejdsperioder kunne være:
 
-- Man holder gang i blodomløbet, venepumperne m.m., således at blod og “affaldsstoffer” ikke ophobes i og omkring den arbejdende muskulatur.
-- Man holder gang i et minimum af tråd ogkadence, der gør det nemmere og hurtigere at komme op i intensitet når arbejdsintervallet starter igen. Således starter man ikke fra “nul” ved hvert arbejdsinterval.
+* Man holder gang i blodomløbet, venepumperne m.m., således at blod og “affaldsstoffer” ikke ophobes i og omkring den arbejdende muskulatur.
+* Man holder gang i et minimum af tråd ogkadence, der gør det nemmere og hurtigere at komme op i intensitet når arbejdsintervallet starter igen. Således starter man ikke fra “nul” ved hvert arbejdsinterval.
 
 Ovenstående argumenter kunne tale for, at aktiv restitution i din intervaltræning sikrer, at du kan yde bedre i dine arbejdsintervaller.
 
@@ -94,9 +97,9 @@ Og har det nogen betydning for træningsudbyttet på sigt, om man vælger det en
 
 En række forsøg har kigget på hvorvidt det at holde aktive pauser under HIIT sammenlignet med passive pauser har indflydelse på en række akutte parametre såsom:
 
-- Watt-output på cykel eller distance tilbagelagt eller tid brugt på en distance ved løb
-- Arbejdspuls
-- Subjektiv vurdering af udmattelse/indsats (RPE)
+* Watt-output på cykel eller distance tilbagelagt eller tid brugt på en distance ved løb
+* Arbejdspuls
+* Subjektiv vurdering af udmattelse/indsats (RPE)
 
 Perrier-Melo og kollegaer har sågar været så flink at forsøge at opsummere en række af disse fund for os i en nyligt udgivet [systematisk oversigtsartikel](https://pubmed.ncbi.nlm.nih.gov/32744041/), for således at kunne beregne overordnede effekter af pause-typen.
 
@@ -118,7 +121,7 @@ Martin Buchheit og Paul Laursen behandler også emnet i deres [velskrevne HIIT-b
 
 Hertil skal restitutionsperioden imellem arbejdsintervaller anses som værende musklernes mulighed for at genoplade batteriet under HIIT. Jo længere restitutionsperioden er, og jo lavere intensitet der arbejdes med i restitutionsperiode, desto bedre forudsætninger har vores muskler for at nå at genoplade batteriet inden næste arbejdsperiode.
 
-Dette er ganske godt eksemplificeret i et studie af [Dupont og kollegaer fra 2004]( https://pubmed.ncbi.nlm.nih.gov/14767255/):
+Dette er ganske godt eksemplificeret i et studie af [Dupont og kollegaer fra 2004](https://pubmed.ncbi.nlm.nih.gov/14767255/):
 
 I tilfældig rækkefølge blev en gruppe moderat-trænede mænd (gennemsnitligt kondital på 55) udsat for et HIIT træningspas på cykel med enten aktiv eller passiv restitution i mellem arbejdsperioderne.
 
@@ -130,9 +133,9 @@ Ligeledes demonstrerede studiet, at iltmætningen i lårmuskulaturen udviste et 
 
 Konklusionen var derfor:
 
-Aktiv restitution fremskyndede trætheden i muskulaturen sammenlignet med passiv restitution, og at dette begrænser mængden af arbejdsintervaller man kan præstere ved HIIT.
+Aktiv restitution fremskyndede trætheden i muskulaturen sammenlignet med passiv restitution, og at dette begrænser mængden af arbejdsintervaller, man kan præstere ved HIIT.
 
-Ovenstående fund kunne tænkes at være unikke for den pågældende HIIT-protokol. Eksempelvis er 15 sekunder ikke nok til, at iltoptagelsen kan nå at falde betydeligt inden at næste arbejdsinterval påbegyndes. 
+Ovenstående fund kunne tænkes at være unikke for den pågældende HIIT-protokol. Eksempelvis er 15 sekunder ikke nok til, at iltoptagelsen kan nå at falde betydeligt, inden at næste arbejdsinterval påbegyndes. 
 
 Man ved at aktiv restitution under HIIT opretholder en højere “baseline” iltoptagelse under hele træningspasset. Hvis restitutionsperioden er længere (minutter i stedet for sekunder), så vil man således med aktiv restitution kunne opretholde et højere gennemsnitligt iltoptag under sin træning, og (må man formode) hurtigere kunne ramme VO2peak under arbejdsintervallet for at maksimere den samlede tid under højt iltoptag.
 
@@ -140,7 +143,7 @@ Man ved at aktiv restitution under HIIT opretholder en højere “baseline” il
 
 Men forholder det sig så også sådan, når vi kigger længerevarende på HIIT-intervaller og restitutionsperioder, under forhold hvor man ikke arbejder til udmattelse som i ovenstående Dupont-studie?
 
-[Sánchez-Otero og kollegaer (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012711/) undersøgte dette med trænede mandlige løbere (gennemsnitligt kondital på omkring 60, og gennemsnitlig 10km-tid på omkring 31 min).
+[Sánchez-Otero og kollegaer (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012711/) undersøgte dette i trænede mandlige løbere (gennemsnitligt kondital på omkring 60, og gennemsnitlig 10km-tid på omkring 31 min).
 
 I studiet af blev løberne udsat for en HIIT-protokol bestående af 4 x 2 min. arbejdsintervaller ved en hastighed svarende til VO<sub>2</sub>max (maximal aerobic speed, målt ved en University of Montréal Track Test), og 2 min. restitution imellem arbejdsperioden.
 
@@ -148,7 +151,7 @@ Dette HIIT-træningspas blev udført to gange, hvor restitutionen i det ene pas 
 
 Således var forholdet 1:1 mellem arbejds- og restitutionsperioden, som i ovenstående Dupont-studie, men varigheden 8x så lang, hvilket gør det muligt for iltoptagelsen at nå at falde markant i restitutionsperioden.
 
-Som forventet observerede man i studiet, at løberne under HIIT med aktiv restitution udviste et højere gennemsnitligt iltoptagelse sammenlignet med træningspasset hvor restitutionsperioden var passiv.
+Som forventet observerede man i studiet, at løberne under HIIT med aktiv restitution udviste et højere gennemsnitligt iltoptagelse sammenlignet med træningspasset, hvor restitutionsperioden var passiv.
 
 Men overraskende nok, så var der ikke forskel på tiden det tog løberne at nå VO<sub>2</sub>peak efter at arbejdsperioden startede - på trods af at de med aktiv restitution startede ud fra en højere “baseline”.
 
@@ -174,7 +177,7 @@ Ligeledes rapporterede både det pågældende studie af Fennell & Hopker, og det
 
 Det vil sige, at man som minimum kan opnå samme mængde af træningstid med højt iltoptag under sine arbejdsintervaller (måske endda mere), og samtidigt føle sig mindre udmattet set over et helt træningspas, hvis dine restitutionsperioder er passive.
 
-_What's not to like?_
+*What's not to like?*
 
 Et modsat rettet argument kunne være, at aktive restitutionsperioder sikrer akkumulering af en højere træningsmængde i løbet af et træningspas, omend at den ikke er af samme intensitet som den mængde, der tilbagelægges i arbejdsperioden.
 
@@ -198,14 +201,14 @@ Efter de to ugers træning blev der ikke fundet forbedringer i VO<sub>2</sub>pea
 
 Det pågældende studie efterlader dog meget tilbage at ønske af ting, som ville være relevante at undersøge.
 
-Især i form af en længere træningsperiode, men også brug af HIIT-intervaller af længere arbejdsvarigheder end 30 sek i mindre arbejds-restitutions forhold end 1:8, således at iltoptagelseshastigheden når højere op i løbet af arbejdsperioden.
+Især i form af en længere træningsperiode, men også brug af HIIT-intervaller af længere arbejdsvarigheder end 30 sek. i mindre arbejds-restitutions forhold end 1:8, således at iltoptagelseshastigheden når højere op i løbet af arbejdsperioden.
 
 ## Praktiske anbefalinger
 
-Da det ikke vil vælte din intervaltræning om du vælger aktive eller passive restitutionsperioder, så kunne en umiddelbar anbefaling stadig være, at du skal **vælge dét, du føler mest for**.
+Da det ikke vil vælte din intervaltræning, om du vælger aktive eller passive restitutionsperioder, så kunne en umiddelbar anbefaling stadig være, at du skal **vælge dét, du føler mest for**.
 
 Lidt mere udpenslet er de praktiske anbefalinger:
 
-- Har du planlagt en hård intervaltræning med korte og meget intensive intervaller (eks. 15/15s), hvor du ved, at du bliver udfordret henimod slutningen af træningen, så vil det være anbefalelsesværdigt at lade restitutionsperioderne være passive. Således sikrer du, at du kan gennemføre det planlagte antal intervaller.
-- Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere hastigheden hvormed du når op på dit VO2peak-plateau i dit arbejdsinterval.
-- Har du planlagt længere intervaller (4 min. eller derover) og tilsvarende længere restitution (på 2-3 min. eller derover) er det sandsynligvis mindre relevant, om du vælger det ene fremfor det andet.
+* Har du planlagt en hård intervaltræning med korte og meget intensive intervaller (eks. 15/15s), hvor du ved, at du bliver udfordret henimod slutningen af træningen, så vil det være anbefalelsesværdigt at lade restitutionsperioderne være passive. Således sikrer du, at du kan gennemføre det planlagte antal intervaller.
+* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO2peak i dine arbejdsintervaller.
+* Har du planlagt længere intervaller (4 min. eller derover) og tilsvarende længere restitution (på 2-3 min. eller derover) er det sandsynligvis mindre relevant, om du vælger det ene fremfor det andet.
