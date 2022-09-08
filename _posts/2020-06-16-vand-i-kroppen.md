@@ -91,14 +91,14 @@ Du kan med andre ord ikke undvære vand i kroppen, og du skal sørge for at din 
 
 Watson (1980) har lavet en formel, som bruges i beregneren ovenfor.
 
-**Mænd:** TBW (l) = 2.447 – (0.09145 x alder) + (0.1074 x højde cm) + (0.3362 x vægt kg)
-**Kvinder:** TBW (l) = –2.097 + (0.1069 x højde cm) + (0.2466 x vægt kg)
+- **Mænd:** TBW (l) = 2,447 – (0,09145 x alder) + (0,1074 x højde cm) + (0,3362 x vægt kg)
+- **Kvinder:** TBW (l) = –2,097 + (0,1069 x højde cm) + (0,2466 x vægt kg)
 
 Et eksempel:
 
 Når vi kigger på [gennemsnitshøjde i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/), så ser vi at danske kvinder i gennemsnit er 1,67 m høje. Lad os bruge et i formlen sammen med en kropsvægt på 65 kg.
 
-TBW (l) = –2.097 + (0.1069 x 167 cm) + (0.2466 x 65 kg) = 31,78 l
+TBW (l) = –2,097 + (0,1069 x 167 cm) + (0,2466 x 65 kg) = 31,78 l
 
 I alt har personen altså ~32 liter vand i kroppen. Vandindholdet i kroppen udregnet med formlen fra Watson er naturligvis et estimat.
 
