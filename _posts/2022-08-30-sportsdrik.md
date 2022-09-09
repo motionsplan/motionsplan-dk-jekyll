@@ -17,12 +17,12 @@ faq:
   - question: Hvad betyder isotonisk opløsning?
     answer: |
       En isotonisk opløsning er en vandig opløsning, hvor de opløste stoffer, fx salte, har en koncentration, så den svarer nogenlunde til cellerne i levende organsimer. Det betyder, at opløsningen ikke forårsager osmose på tværs af cellemembranen.
-      
+
       Når du ser reklamer for isotoniske sportsdrikke, så betyder det altså, at drikken nogenlunde modsvarer saltopløsningen i kroppens celler.
   - question: Hvad er elektrolytter?
     answer: |
       Elektrolytter er mineraler i kroppen, der har en elektrisk ladning. De er nødvendige for mange funktioner i kroppen, herunder muskelfunktion og hydrering.
-      
+
       De vigtigste elektrolytter i kroppen er natrium, kalium, klorid og magnesium.
 ---
 
@@ -159,6 +159,12 @@ Hvis du arbejde over længere tid, så er det også en god ide at fylde op med s
 
 Saltindholdet pr. liter kan være 0-2 g/L. En tsk salt vejer omkring 5 g, så der skal ikke alt for meget i.
 
+Salt har naturligvis også nogle uhensigtsmæssige konsekvenser, hvis du får for meget salt om dagen.
+
+Med den almindelige danske kost skal du ikke være så bekymret for saltindtagelsen. Ifølge [Fødevarestyrelsen](https://www.foedevarestyrelsen.dk/SiteCollectionDocuments/Kommunikation%20og%20Kunderaadgivning/Faktaomsalt.pdf), så er saltindtagelsen i Danmark 9-11 gram for mænd og 7-8 gram for kvinder per dag. 9 ud af 10 danskere spiser mere end de officielle anbefalinger på 5-6 gram pr. dag. Du behøver ikke mere end 1,5 g salt per dag for almindelige mennesker.
+
+Hvis du sveder rigtig meget over lang tid og har drukket rigelige mængder væske, så er anbefalingen imidlertid at supplere med lidt salt. Men du skal ud at arbejde i flere timer med høj svedudskillelse, inden det er nødvendigt.
+
 ## Hvor meget væske kan man optage?
 
 Kroppen kan maksimalt optage omkring 1,2 liter væske i timen.
@@ -183,7 +189,7 @@ Du har bare brug for en måde at måle din intensitet under træningen på og en
 
 Når intensiteterne kommer over 70% af den maksimale iltoptagelse kombineret med forskellige temperaturer, så optages vand hurtigst, mens maltodextrin-drikken optages hurtigere end glukose-drikken.
 
-Når temperaturen stiger, så falder mavetømningshastigheden for vand og endnu mere for maltodextrin-drikken. 
+Når temperaturen stiger, så falder mavetømningshastigheden for vand og endnu mere for maltodextrin-drikken.
 
 Der hvor det bliver interessant er ved de højere arbejdsintensiteter fra 70% af max iltoptagelse og derover og kombineret med forskellige temperaturer. Her tømmes vand hurtigst under alle forhold, 6-7% maltodextrindrik tømmes hurtigere end 6-7% glucosedrik. Når temperaturen stiger falder mavetømningshastigheden for både vand og maltodextrindrik, men mest for sidstnævnte.
 
@@ -199,7 +205,7 @@ Her er udvalgte priser på sportsdrikke. Energidrikke kan både være som pulver
 |-|-|-|-|-|-|
 | [Bodylabs Carbo Fuel neutral](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-carbo-fuel-676p.html){: rel="sponsored nofollow noopener" } | Pulver | 1 kg | 69 kr | 80 g/L | 5,52 kr/L |
 | [Bodylabs Carbo Fuel med smag](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/carbo-fuel-3785p.html){: rel="sponsored nofollow noopener" } | Pulver | 1 kg | 119 kr | 80 g/L | 9,52 kr/L |
-| [PowerBar Hydro PowerGel](https://cykelexperten.dk/powerbar-hydro-powergel-cola/){: rel="sponsored nofollow noopener" } | Gel | 67 ml | 
+| [PowerBar Hydro PowerGel](https://cykelexperten.dk/powerbar-hydro-powergel-cola/){: rel="sponsored nofollow noopener" } | Gel | 67 ml |
 
 ### Elektrolyt-tabletter pris
 
