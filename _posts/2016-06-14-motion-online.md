@@ -26,7 +26,7 @@ Jeg gennemgår her, hvordan du stadig kan finde følgende funktioner:
 - motion online forum --> Desværre er der i øjeblikket ikke noget forum, der matcher, som jeg kender til.
 - motion online **løbeprogram** --> Jeg har endnu ikke lavet løbeprogrammer, men hvis du er interesseret i det, så skriv endelig i kommentarerne.
 - motion online **cirkeltræning** --> Du kan læse Motionsplans [udvidede guide til cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}).
-- motion online **coopertest** --> Du kan læse [vores dybdegående forklaring på Coopertesten]({% link _posts/2019-10-31-kondital-cooper.md %}).
+- motion online **coopertest** --> Du kan læse vores dybdegående [forklaring på Cooper-testen](/cooper-test/).
 - motion online **6 min gangtest** --> Du kan læse vores [fine guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}).
 - motion online løberute --> Jeg bruger selv Garmin Connect
 - motion online ruteplanner --> Jeg bruger selv Garmin Connect
@@ -118,9 +118,9 @@ Motion-online.dk havde flere artikler om BMI, bl.a. hvordan man retfærdigt vurd
 
 Motion-online.dk havde lavet nogle sider med _cirkeltræning_. Jeg har skrevet en [grundig guide til cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}). Vi har også et stort øvelsesbibliotek, så du selv kan lave din egen træning.
 
-## Motion Online og Coopertesten
+## Motion Online og Cooper-testen
 
-Motion-online.dk fik relativt mange besøgende på deres side om Coopertesten. Vi har udvidet [vores dybdegående forklaring på Coopertesten]({% link _posts/2019-10-31-kondital-cooper.md %}), så du bl.a. kan udregne dit kondital på baggrund af den distance, du har løbet, eller slå dit kondital fra Coopertesten op i en tabel.
+Motion-online.dk fik relativt mange besøgende på deres side om Cooper-testen. Vi har udvidet [vores dybdegående forklaring på Cooper-testen](/cooper-test/), så du bl.a. kan udregne dit kondital på baggrund af den distance, du har løbet, eller slå dit kondital fra Cooper-testen op i en tabel.
 
 ## Motion-Onlines gangtest og gåtest
 

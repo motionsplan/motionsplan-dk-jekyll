@@ -1,5 +1,6 @@
 ---
 title: &title "Hvad er den bedste løbe app til løbetræning 2022?"
+description: Er du på udkig efter en løbe app? Jeg har fundet nogle rigtig gode bud på de bedste løbe apps, der kan hjælpe dig med din løbetræning.
 permalink: /loebe-apps/
 language: da
 header:
@@ -13,8 +14,11 @@ tags:
 last_modified_at: 2022-01-27T22:21:26Z
 gallery_garmin:
   - image_path: /assets/images/blog/loebeapp-garmin-1.jpg
+    alt: garmin løbe app
   - image_path: /assets/images/blog/loebeapp-garmin-2.jpg
+    alt: løbe app fra garmin connect
   - image_path: /assets/images/blog/loebeapp-garmin-3.jpg
+    alt: løbe appen fra garmin
 gallery_vdot:
   - image_path: /assets/images/blog/loebeapp-vdot-1.jpg
   - image_path: /assets/images/blog/loebeapp-vdot-2.jpg

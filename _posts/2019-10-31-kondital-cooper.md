@@ -45,26 +45,30 @@ about:
 breadcrumbs: true
 ---
 
+Har du løbet en Cooper-test og vil du gerne finde dit kondital? Vi har lavet en gratis beregner, hvor du kan sammenligne dit resultat med andre i en tabel og et skema.
+
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
 
-Hvad er en Cooper-test? **Cooper-test er en klassisk [konditionstest](/test-kondition-konditest-kondital/), hvor du skal løbe så langt som muligt på 12 minutter. Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968.**
-
 Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter.
-
-Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
 {% include lead-magnet-button.html %}
 
 I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
 
 - Hvad er en god Cooper test?
-- Hvor hurtigt skal man løbe en coopertest?
+- Hvor hurtigt skal man løbe en Cooper-test?
 - Hvor mange meter kan man løbe på 12 min?
-- Hvad er formålet med coopertest?
-- Hvordan forbedrer man sin coopertest?
-- Hvem opfandt Coopertesten?
+- Hvad er formålet med Cooper-test?
+- Hvordan forbedrer man sin Cooper-test?
+- Hvem opfandt Cooper-testen?
 - Beregne dit kondital på baggrund af Cooper-testen
-  Se en tabel og skema over Cooper-testen
+- Se en tabel og skema over Cooper-testen
+
+## Hvad er en Cooper-test? 
+
+Cooper-test er en klassisk [konditionstest](/test-kondition-konditest-kondital/), hvor du skal løbe så langt som muligt på 12 minutter. Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968.
+
+Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
 ## Hvordan laver du en Cooper-test?
 
@@ -88,11 +92,11 @@ Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</s
 
 Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
 
-## Formel til at udregne konditallet fra Coopertesten
+## Formel til at udregne konditallet fra Cooper-testen
 
 Der findes forskellige formler til at udregne konditallet fra Cooper-testen.
 
-Her er den mest enkle for at udregne konditallet på baggrund af distancen løbet i meter på Coopertesten:
+Her er den mest enkle for at udregne konditallet på baggrund af distancen løbet i meter på Cooper-testen:
 
 {% include math formula="kondital = \frac{d_{12} - 505}{45}" %}
 
@@ -281,7 +285,7 @@ Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/in
 
 {% include faq.html %}
 
-## Konklusion på Cooper-testen
+## Konklusion
 
 Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Fordelen ved Cooper-testen er også, at den kan laves overalt og med store grupper ad gangen.
 
