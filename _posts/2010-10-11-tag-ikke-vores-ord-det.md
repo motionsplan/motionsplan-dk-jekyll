@@ -1,5 +1,6 @@
 ---
-title: &title "Hvordan finder jeg og læser en videnskabelig artikel?"
+title: &title "Hvordan finder du og læser en videnskabelig artikel?"
+description: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
 permalink: /videnskabelig-sogning/
 redirect_from:
   - /artikel/tag-ikke-vores-ord-det
@@ -13,12 +14,16 @@ tags:
   - videnskab
 category:
   - Viden om
-last_modified_at: 2020-02-13T21:55:25Z
+last_modified_at: 2022-09-13T21:55:25Z
 ---
+
+Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her.
 
 Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Her kan du læse lidt om, hvordan vi prøver at finde viden i videnskabelige artikler og fortolker dem.
 
 Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskablig artikel](https://videnskab.dk/kultur-samfund/saadan-laeser-og-forstaar-du-en-videnskabelig-artikel) og [vurderinger af forskningsartikler](https://dsr.dk/sygeplejersken/arkiv/sy-nr-2004-33/laesning-og-vurdering-af-forskningsartikler).
+
+{% include video provider="youtube" id="5T_vK0mLQ14" %}
 
 ## Hvordan finder vi videnskabelige artikler?
 
