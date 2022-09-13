@@ -235,7 +235,7 @@ Først skal du naturligvis have kigget på dit mål for træningen. Det er forsk
 Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen]({% link _posts/2020-06-02-max-hr.md %}).
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen](/test-max-puls/).
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 
@@ -307,7 +307,7 @@ Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den
 
 Hvis du løbetræner, så du kan flytte din anaerobe tærskel, vil du altså træne evnen til at løbe med en højere intensitet, men stadig primært bruge det aerobe system, som kan arbejde meget længere end det anaerobe system.
 
-Hvis du har en [maxpuls]({% link _posts/2020-06-02-max-hr.md %}) på 200 slag/min og formår at flytte din anaerobe tærskel målt som hjerteslag fra 180 slag/min til 185 slag/min, så kan du altså løbe med en højere intensitet, hvilket også alt andet lige vil sige hurtigere med den aerobe forbrænding og uden at ophobe mælkesyre.
+Hvis du har en [maxpuls](/test-max-puls/) på 200 slag/min og formår at flytte din anaerobe tærskel målt som hjerteslag fra 180 slag/min til 185 slag/min, så kan du altså løbe med en højere intensitet, hvilket også alt andet lige vil sige hurtigere med den aerobe forbrænding og uden at ophobe mælkesyre.
 
 ### Udførelse
 

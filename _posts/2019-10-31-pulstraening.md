@@ -139,7 +139,7 @@ Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive
 
 ## Pulstræning i praksis
 
-Uanset hvordan du laver pulstræning, skal du først **fastlægge din maxpuls** med en test. Du kan udregne den, men det er ikke særlig præcist, fordi maxpulsen i høj grad er individuel. Vi har foreslået en [effektiv måde at teste maxpulsen]({% link _posts/2020-06-02-max-hr.md %}), som du kan lave med et pulsur. Husk at en maxpuls test er en maksimal kraftanstrengelse.
+Uanset hvordan du laver pulstræning, skal du først **fastlægge din maxpuls** med en test. Du kan udregne den, men det er ikke særlig præcist, fordi maxpulsen i høj grad er individuel. Vi har foreslået en [effektiv måde at teste maxpulsen](/test-max-puls/), som du kan lave med et pulsur. Husk at en maxpuls test er en maksimal kraftanstrengelse.
 
 Hvis du baserer din træning på maxpulsen, så har du faktisk alt hvad du skal bruge, inden du kan dykke ned i de enkelte pulszoner.
 

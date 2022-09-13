@@ -202,7 +202,7 @@ Hvis du allerede er veltrænet, så tager det naturligvis længere tid at få en
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge pulsen til at udregne forskellige træningsparametre.
 
-Sammen med [max-pulsen]({% link _posts/2020-06-02-max-hr.md %}) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
+Sammen med [max-pulsen](/test-max-puls/) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
 
 Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.
 

@@ -15,11 +15,6 @@ tags:
   - eksplosivitet
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
-#faq:
-# - question: "Hvad hedder træningsafhængighed på engelsk?"
-#   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
-# - question: "Er træningsafhængighed en spiseforstyrrelse?"
-#   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 ---
 
 Det horisontale hop bliver ofte brugt som en test for styrken i benene. Fordelen ved _broad jump_ er, at dte er relativt let at teste og måle.
