@@ -18,17 +18,11 @@ toc: true
 
 Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har researchet lidt på, hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved tallerkenmodellerne: Y-tallerken, T-tallerken, E-tallerken og X-tallerken.
 
-Hvad er tallerkenmodeeller? **Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-tallerken, T-tallerken, E-tallerken og X-tallerkenmodel.**
-
 Kosten er helt afgørende for dit velvære. Kosten er det brændstof kroppen lever af. Der er imidlertid så meget information om kost og ernæring, og nye fødevarer tilføjes til listen over ekstra sundt mad eller udskammes for alverdens dårligdomme.
 
 {% include figure image_path="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="tallerkenmodeller" %}
 
-**Tallerkenmodellerne kan hjælpe dig til at navigere i den store kompleksitet.** Det er jo alt for vildt, at man næsten kan putte hvad som helst i kroppen, og så kan den bruge det som energi. Men jo bedre kvalitet brændstoffet har, jo bedre fungerer kroppen.
-
-Der kunne være forskellige måder at opnå samme mål på, men den letteste løsning til at få sund mad fungerer helt uden at måle og veje, hvad du spiser.
-
-Du kan bruge en tallerkenmodel, når du tager en portion mad. Det er en let og pragmatisk måde at få en sund kost på.
+Du kan bruge en tallerkenmodel, når du tager en portion mad. Det er en let og pragmatisk måde at få en sund kost på. Det er en af de letteste måder at få sund mad - og det fungerer helt uden at måle og veje, hvad du spiser.
 
 Her beskriver jeg de mest udbredte tallerkenmodeller:
 
@@ -42,6 +36,14 @@ Du får svar på følgende spørgsmål:
 - Hvad er tallerkenmodellerne - og hvordan kan man sammensætte sin tallerken?
 - Hvad har tallerkenstørrelsen af betydningen for måltidet?
 - Hvilke generelle kostanbefalinger hjælper tallerkenmodellerne med at opfylde?
+
+## Hvad er tallerkenmodeller?
+
+**Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-tallerken, T-tallerken, E-tallerken og X-tallerkenmodel.**
+
+**Tallerkenmodellerne kan hjælpe dig til at navigere i den store kompleksitet.** Det er jo alt for vildt, at man næsten kan putte hvad som helst i kroppen, og så kan den bruge det som energi. Men jo bedre kvalitet brændstoffet har, jo bedre fungerer kroppen.
+
+I forbindelse med idræt så skal tallerkenmodellerne tage højde for [proteinbehovet pr. dag](/dagligt-protein-indtagelse/), og hvor meget kulhydrat man typisk har brug for.
 
 ## Samlet overblik over tallerkenmodellerne
 

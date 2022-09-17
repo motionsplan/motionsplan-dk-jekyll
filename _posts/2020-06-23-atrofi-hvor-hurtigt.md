@@ -45,7 +45,7 @@ Hvor meget muskelmasse man taber i en træningspause hænger naturligvis sammen 
 
 - **Træningserfaring**. Jo længere du har trænet kontinuerligt, jo længere kan du holde på muskelmassen (McMaster et al 2013).
 - **Graden af inaktivitet i pausen**. Desto højere aktivitetsniveau, du kan opretholde i træningspausen, desto længere kan du opretholde muskelstyrken og muskelmassen (McMaster et al 2013).
-- **Kosten**. Et proteinindtag på mere end 1 gram pr. kg kropsvægt kan være med til at sænke hastighedden for tabet af styrke og muskelmasse (English et al 2010).
+- **Kosten**. Et [dagligt proteinindtag](/dagligt-protein-indtagelse/) på mere end 1 gram pr. kg kropsvægt kan være med til at sænke hastighedden for tabet af styrke og muskelmasse (English et al 2010).
 - **Alderen**. Med alderen ændrer hormonniveauerne sig. Særligt hvis du er mere end 60 år gammel, så vil tabet af muskelmasse gå hurtigere.
 
 Desuden er der formentlig forskel på, hvordan detræning påvirker begyndere og trænede.
