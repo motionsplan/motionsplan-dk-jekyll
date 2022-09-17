@@ -146,7 +146,9 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
 
-— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
+— <cite>Nikolaj Bach i [Træningstimen](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/) om Kosttilskud</cite>
+
+Læs: [Koffein og træning: Hvordan virker det og hvor meget?](/koffein/)
 
 ## 4. D-vitamin
 
