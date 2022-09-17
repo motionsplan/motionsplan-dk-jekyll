@@ -113,6 +113,8 @@ Formentlig gør det ikke så meget at overskride denne dosering, men hvis du få
 
 Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne betale sig at få protein efter træning, hvis du gerne vil bygge muskler og have hypertrofi. Dvs. hvis træningen påbegyndes ~3-4 timer efter det forudgående måltid, så kan det overvejes at indtage noget proteinholdigt i nærheden af træningen.
 
+Læs: [Hvor meget protein har du brug for om dagen?](/dagligt-protein-indtagelse/)
+
 ## Hvem skal spise i det åbne vindue?
 
 - Hvis du dyrker hård træning, så skal du være opmærksom på at få mad omkring din træning.
