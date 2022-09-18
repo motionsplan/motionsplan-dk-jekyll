@@ -1,5 +1,6 @@
 ---
-title: &title "Hvor meget protein har jeg brug for om dagen?"
+title: &title "Hvor meget protein har jeg brug for om dagen? (Beregner)"
+seo_title: "Hvor meget protein har man behov for om dagen? (Beregner)"
 description: "Er du interesseret i, hvor meget protein du skal indtage om dagen i forbindelse med træning? Her har du svaret!"
 permalink: /dagligt-protein-indtagelse/
 language: da
