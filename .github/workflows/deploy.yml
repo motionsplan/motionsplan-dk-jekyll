@@ -145,12 +145,10 @@ jobs:
           key: ${{ runner.os }}-${{ github.sha }}
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
-        uses: actions/cache@v3
+        uses: actions/cache@v2
         with:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer
-          restore-keys: |
-            ${{ runner.os }}-htmlproofer
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
         with:
