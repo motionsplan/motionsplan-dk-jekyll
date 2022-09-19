@@ -109,7 +109,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 
 {% endcomment %}
 
-[Test dit taljemål]({% link _posts/2019-10-14-taljemaal.md %}){: .btn .btn--large .btn--success }
+[Test dit taljemål](/taljemaal/){: .btn .btn--large .btn--success }
 
 {% comment %}
 

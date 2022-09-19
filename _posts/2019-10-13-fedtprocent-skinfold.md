@@ -1,23 +1,23 @@
 ---
 title: &title "Mål din fedtprocent med en fedttang (skinfold caliper)"
+seo_title: &title "Fedtprocentmåling: Mål din fedtprocent med en fedttang"
 permalink: /skinfold/
 redirect_from:
   - /artikel/fedtprocent-skinfold/
   - /skinfold-lohman/
   - /skinfold-slaughter/
-excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en fedttang eller hudfoldsmåler. Vi har beregnere til de meste almindelige metoder."
+excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Lær mere om meste almindelige metoder til fedtmåling med en fedttang."
 language: da
 header:
-  overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "Mål din fedtprocent med fedttang. Image credit: [Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  teaser: /assets/images/shutterstock/fedtmaaling-fedttang.jpg
 category:
   - Test
   - Fedtprocent
 breadcrumbs: true
 tags:
   - fedtprocent
-last_modified_at: 2019-03-06T23:14:14Z
+  - skinfold
+last_modified_at: 2022-09-19T08:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/e/accumeasure-fat-caliper.jpg
@@ -35,19 +35,28 @@ feature_row:
     url: "https://www.bodystore.dk/harpenden-skinfold-caliper"
     btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: nofollow noopener
 ---
+
+Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Her kan du lære mere om meste almindelige metoder til fedtmåling med en fedttang. Vi dykker ned i både fordele og ulemper ved hudfoldsmålinger.
 
 Det er meget udbredt at bruge en fedttang til at måle hudfoldstykkelser rundt omkring på kroppen for at bestemme fedtprocenten. Man bruger tykkelsen af hudfolderne til ved hjælp af en formel at estimere, hvor meget fedt man i alt har på kroppen.
 
 Jeg har kigget lidt på, hvad man skal være opmærksom på i forbindelse med måling af fedtprocent med hudfoldsmålinger og fedttang - og så har jeg lavet beregnere til de mest udbredte metoder.
 
-**I hudfoldsmålinger måler man tykkelsen af hudfolderne rundt omkring på kroppen med en hudfoldsmåler (fedttang). Ud fra målingerne af hudfolder udregner man kroppens densitet, og derfra forholdet mellem fedtmasse og fedtfri masse. Hudfoldsmålinger anbefales hovedsageligt til at tracke ændringer i fedtprocenten og ikke de faktiske værdier.**
-
 I forbindelse med træning og vægttab kan det være motiverende at følge ændringer i kropskompositionen og fedtprocenten, da ændringer i kropsvægt både kan skyldes ændringer i muskel- og fedtmasse.
+
+{% include figure image_path="/assets/images/shutterstock/fedtmaaling-fedttang.jpg" alt="hudfoldsmåling med en fedttang" %}
+
+## Hvad er hudfoldsmålinger?
+
+**I hudfoldsmålinger måler man tykkelsen af hudfolderne rundt omkring på kroppen med en hudfoldsmåler (fedttang). Ud fra målingerne af hudfolder udregner man kroppens densitet, og derfra forholdet mellem fedtmasse og fedtfri masse. Hudfoldsmålinger anbefales hovedsageligt til at tracke ændringer i fedtprocenten og ikke de faktiske værdier.**
 
 En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med.
 
-## Om fedttangen til hudfoldsmålinger
+## Om fedttangen og hudfoldsmåleren
+
+Egentlig hedder det en hudfoldsmåler, men det bliver også ofte kaldet en fedttang.
 
 Målingerne med fedttangen skal naturligvis være til at stole på, så derfor skal:
 
@@ -93,11 +102,19 @@ Jeg foretrækker selv at bruge [Durnin & Womersley 4-punkts måling af fedtproce
 
 Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fedttang til at lave målinger for at estimere fedtprocenten.
 
-{% assign site_posts = site.posts | where: "tags", "skinfold" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% assign i = 0 %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html %}
+
+{% assign i = i | plus: 1 %}
+
+### [{{ i }}. {{ post.title }}]({{ post.url }})
+
+{{ post.excerpt }}
+
   {% endfor %}
 {% endif %}
 

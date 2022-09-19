@@ -125,13 +125,13 @@ Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten m
 
 En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne i hudfoldstykkelsen over tid.
 
-**Læs**: [Måling af fedtprocent med hudfoldsmålinger og fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %})
+**Læs**: [Måling af fedtprocent med hudfoldsmålinger og fedttang](/skinfold/)
 
 ### 7. Måling af fedtprocent med bioimpedans
 
 Nogle af de nye, ret dyre bioimpedansmålere kan give et fornuftigt bud på din fedtprocent. Du kan også få relativt prisbillige badevægte, der reklamerer med at kunne måle fedtprocenten med bioimpedans, men de billige modeller er formentlig meget upræcise. Hvis du kan følge alle anvisninger, så du kan foretage målingerne under de samme forhold over tid, så kan du måske godt bruge denne metode til at holde øje med ændringer i din kropskomposition.
 
-Jeg har skrevet mere om [bioimpedansmålinger her]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
+Jeg har skrevet mere om [bioimpedansmålinger her](/artikel/inbody-570-bioimpedans/).
 
 ## Hvad er en sund normal fedtprocent?
 
@@ -168,7 +168,7 @@ Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/
 
 ## Mere om at måle fedtprocent og kropskomposition
 
-Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan inspirere til at få et endnu mere nuanceret billede af, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
+Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på](/kropskomposition/), som måske kan inspirere til at få et endnu mere nuanceret billede af, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
 
 Når nu det er så vanskeligt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur]({% link _posts/2020-09-04-slankekur.md %}) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfordring med din fedtprocent.
 

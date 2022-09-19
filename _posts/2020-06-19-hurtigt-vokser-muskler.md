@@ -111,13 +111,13 @@ Et eksempel:
 
 Så kan jeg hurtigt regne ud, at en [dansk mand af gennemsnitlig højde](/hvad-er-gennemsnitshoejden-i-danmark/) på 1,81 meter kan pakke lige omkring 55 kg muskler.
 
-Jeg rammer selv gennemsnitshøjden i Danmark for mænd. Jeg fik for nylig lavet en [bioimpedans kropskomposition med InBody]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
+Jeg rammer selv gennemsnitshøjden i Danmark for mænd. Jeg fik for nylig lavet en [bioimpedans kropskomposition med InBody](/artikel/inbody-570-bioimpedans/), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
 
 Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træningspauser, og så er jeg blevet mere end 40 år gammel. Hvis jeg går i gang nu, så kan jeg måske tage 4-5 kg muskelmasse på, hvis jeg virkelig fokuserer på det på det første år. Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vanskeligere med under et kg om året. Jeg skal nok aldrig regne med at opfylde mit fulde potentiale ifølge denne model.
 
 David Epstein foreslår i bogen ‘The sports gene’ fra 2013, at der er en ratio på 5:1 i forhold til knoglemassen. Musklerne kan altså aldrig komme til at veje mere end 5 gange så meget som knoglemassen, hvis hans observationer er korrekte. Jeg har lavet et indlæg om, [hvor meget skelettet vejer]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %}).
 
-Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et indlæg om [forskellige modeller for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et indlæg om [forskellige modeller for kropskomposition](/kropskomposition/).
 
 ## Hvad skal der til for at få musklerne til at vokse?
 

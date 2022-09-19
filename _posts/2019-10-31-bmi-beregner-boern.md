@@ -106,9 +106,9 @@ BMI tager ikke højde for kropsbygning og muskelmasse. Derfor er det også meget
 
 BMI er enkelt at bruge, men det er ikke retvisende til at sige noget om kropskompositionen og fedtprocenten hos børn og unge. Derfor skal man være meget varsom med at med bruge BMI som udgangspunkt for en snak om sundhed med det enkelte barn.
 
-For at finde ud af om barnet reelt er undervægtig eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
+For at finde ud af om barnet reelt er undervægtig eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål](/taljemaal/). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
 
-Endelig kan du dykke lidt ned i din [samlede kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}) for at få en større forståelse af det emne, eller du kan dykke ned i, hvordan man kan [måle fedtprocenten](/maal-fedtprocent/).
+Endelig kan du dykke lidt ned i din [samlede kropskomposition](/kropskomposition/) for at få en større forståelse af det emne, eller du kan dykke ned i, hvordan man kan [måle fedtprocenten](/maal-fedtprocent/).
 
 Det vigtigste for barnets sundhed er at give det sunde kostvaner og motionsvaner. Ikke for at tabe sig, men for at få en god og stærk krop, som kan overkomme hverdagens strabadser.
 

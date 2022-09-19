@@ -6,8 +6,7 @@ redirect_from:
 excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel."
 language: da
 header:
-  teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "Durnin & Womersley 4-punktsmåling af fedtprocent. [Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
@@ -32,7 +31,7 @@ feature_row:
 
 Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel.
 
-Durnin & Womersley er en blandt mange [formler til bestemmelse af fedtprocent fra hudfoldsmåling]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). Durnin & Womersleys formel er baseret på at en 4-punktsmåling af hudfolde. Testen anses for relativt præcis til at estimere fedtprocenten for mennesker mellem 16 og 72 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3%).
+Durnin & Womersley er en blandt mange [formler til bestemmelse af fedtprocent fra hudfoldsmåling](/skinfold/). Durnin & Womersleys formel er baseret på at en 4-punktsmåling af hudfolde. Testen anses for relativt præcis til at estimere fedtprocenten for mennesker mellem 16 og 72 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3%).
 
 Det er en fordel med Durnin og Womersley-formlen, at vi måler de samme steder for både mænd og kvinder. Det gør det lettere for testlederne at blive rigtig gode og præcise til at lave målingerne.
 
@@ -89,18 +88,26 @@ I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https:/
 
 En skinfold-test kan være meget brugbar til at følge ændringer i kropskomposition over tid.
 
-Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). Du kan også sammenligne med [normalværdier for fedtprocent](/fedtprocent-normer/).
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang](/skinfold/). Du kan også sammenligne med [normalværdier for fedtprocent](/fedtprocent-normer/).
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-## Andre formler til hudfoldsmålinger
+## Alternativer til Durnin & Womersleys formel
 
 {% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
+{% assign i = 0 %}
+
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html %}
+
+{% assign i = i | plus: 1 %}
+
+### [{{ i }}. {{ post.title }}]({{ post.url }})
+
+{{ post.excerpt }}
+
   {% endfor %}
 {% endif %}
 

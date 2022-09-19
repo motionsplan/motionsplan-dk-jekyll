@@ -4,8 +4,7 @@ permalink: /slaughter-fedtprocent-boern/
 excerpt: "Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen."
 language: da
 header:
-  teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "[Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
@@ -25,6 +24,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/fedttang"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Slaughter har udviklet en relativt enkel og pålidelig måde at estimere fedtprocenten på hos børn ved at måle hudfoldstykkelsen kun to forskellige steder. Hudfoldene skal måles midt på triceps og på skulderbladsspidsen.

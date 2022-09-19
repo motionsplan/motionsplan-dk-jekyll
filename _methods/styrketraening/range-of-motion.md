@@ -35,7 +35,7 @@ video:
 
 ## Regressive range of motion
 
-{% include figure image_path="/assets/images/hypertrofi/21-partial-rom.jpg" %}
+{% include figure image_path="/assets/images/hypertrofi/partial-rom.jpg" %}
 
 {% comment %}
 

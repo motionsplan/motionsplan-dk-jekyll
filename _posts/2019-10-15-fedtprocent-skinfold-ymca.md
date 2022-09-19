@@ -4,8 +4,7 @@ permalink: /skinfold-ymca/
 excerpt: "YMCA-metoden er baseret på Jackson & Pollocks formler, men specielt tilpasset YMCA's behov. Det betyder, at mænd og kvinder måles på de samme punkter, og hvis det volder problemer at måle på låret, så kan den måling let udelades."
 language: da
 header:
-  teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "[Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
@@ -24,6 +23,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/fedttang"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent. Den har den fordel, at man frit kan vælge om lår-målingen skal indgå. Det kan nemlig godt være besværligt at lave lårmålingen - og det kan være forbundet blufærdighed også.
@@ -52,6 +52,24 @@ Angiv værdierne i beregneren nedenunder.
 YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog specielt tilpasset til YMCA og gjort enklere, så både mænd og kvinder vurderes ud fra de samme målepunkter. Samtidig kan lårmålingen let ekskluderes. Validiteten i testen påvirkes kun ganske lidt af at udelade låret.
 
 Når du har beregnet din fedtprocent, så kan du tjekke en [normal fedtprocent i vores tabel](/fedtprocent-normer/).
+
+## Alternativer til YMCA-formlen
+
+{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% assign i = 0 %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+
+{% assign i = i | plus: 1 %}
+
+### [{{ i }}. {{ post.title }}]({{ post.url }})
+
+{{ post.excerpt }}
+
+  {% endfor %}
+{% endif %}
 
 ## Referencer
 

@@ -70,7 +70,7 @@ På celleniveau fordeler vandet sig sådan:
 
 Omkring to-tredjedele af kroppens vand er inde i cellerne, mens resten er uden for cellerne. Mineraler og salte er med til at sikre den korrekte balance mellem ICF og ECF.
 
-Hvis du fx tager en DEXA-scanning eller en måling af din kropskomposition med bioimpedans, så får du et mål for den intracellulære og extracellulære væske og en ratio mellem de to. Jeg har skrevet lidt om [bioimpedans-målinger]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), hvis du er interesseret i at læse det.
+Hvis du fx tager en DEXA-scanning eller en måling af din kropskomposition med bioimpedans, så får du et mål for den intracellulære og extracellulære væske og en ratio mellem de to. Jeg har skrevet lidt om [bioimpedans-målinger](/artikel/inbody-570-bioimpedans/), hvis du er interesseret i at læse det.
 
 Den extracellulære til intracellulære væske ratio (E/I) varierer mellem 0,59 til 0,75 i raske voksne. Hvis du kommer uden for disse værdier, kan det være fordi du har inflammation i kroppen eller at du ikke har nok væske i kroppen.
 
@@ -104,7 +104,7 @@ I alt har personen altså ~32 liter vand i kroppen. Vandindholdet i kroppen udre
 
 Hvis du gerne vil have procentdelen af vand i din krop, så kan du gå ud fra, at en liter vand vejer tæt på et kilo. Så deler du bare din TBW med din vægt.
 
-Som tidligere skrevet i indlægget, så kan du få en lidt mere præcis angivelse af dine vandværdier gennem en DEXA-scanning eller en [bioimpedans-måling]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
+Som tidligere skrevet i indlægget, så kan du få en lidt mere præcis angivelse af dine vandværdier gennem en DEXA-scanning eller en [bioimpedans-måling](/artikel/inbody-570-bioimpedans/).
 
 ## Hvordan sikrer du en sund vandbalance i kroppen?
 

@@ -4,8 +4,7 @@ permalink: /lohman-fedtprocent-boern/
 excerpt: "Lohman-formlen kan bruges til at teste børn fra 8-18 år. Hudfoldene måles ved triceps og på læggen."
 language: da
 header:
-  teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "[Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
@@ -25,11 +24,12 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/fedttang"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Lohman-formlen er en enkel måling af fedtprocent hos børn mellem 8-18 år baseret på hudfoldsmålinger. Den kræver bare to målinger af hudfoldstykkelsen ved triceps og ved læggen.
 
-Lohman-formlen bruges som reference i mange større undersøgelser med børn. Der findes mange andre lignende [hudfoldsmålinger for voksne](/skinfold/).
+Lohman-formlen bruges som reference i mange større undersøgelser med børn. Der findes mange andre lignende [fedtmålinger med fedttang for voksne](/skinfold/).
 
 ## Instruktion til Lohman-formlen
 

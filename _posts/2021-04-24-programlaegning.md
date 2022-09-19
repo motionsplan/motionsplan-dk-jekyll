@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-04-12T23:14:14.000Z
+last_modified_at: 2022-09-14T09:14:14.000Z
 toc: true
 author: jakob.nielsson
 title: Hvordan laver man et træningsprogram til styrketræning? 6 enkle trin!
@@ -31,7 +31,7 @@ Vi går lige til sagen med at præsentere elementerne i at kunne lave sit eget s
 
 {% include figure image_path=page.header.overlay_image caption=page.title alt="hvordan laver du et styrketræningsprogram" %}
 
-## 1) Vælg muskelgrupper, løft og bevægelsesmønstre til træningsprogrammet
+## 1. Vælg muskelgrupper, løft og bevægelsesmønstre til træningsprogrammet
 
 Til at starte med arbejder vi ud fra muskelgrupper og bevægelsesmønstre. Et eksempel kan være bryst som muskelgruppe, eller bænkpres som bevægelsesmønster.
 
@@ -39,17 +39,21 @@ Hvis man arbejder med mange enkelte muskler skal man være opmærksom på overla
 
 Helt grundlæggende så vælger vi hvilke muskelgrupper, løft eller bevægelsesmønstre vi vil prøve at **forbedre**, og hvilke løft vi bare vil **vedligeholde**.
 
-Det kan være man vil prøve at forbedre alt på samme tid. Det kan man som regel sagtens hvis man er begynder, eller man har god tid og få stressfaktorer i ens liv.
+Grundlæggende er der følgende muligheder:
 
-Det kan også være man vil vedligeholde alt. Det kan fx være hvis man er i en travl periode, eller man dyrker meget af en anden sport i en periode.
+- Det kan være man vil prøve at forbedre alt på samme tid. Det kan man som regel sagtens, hvis man er begynder, eller man har god tid og få stressfaktorer i ens liv.
+- Det kan også være man vil vedligeholde alt. Det kan fx være hvis man er i en travl periode, eller man dyrker meget af en anden sport i en periode.
+- Den sidste mulighed er selvfølgelig at man har nogle ting på vedligehold, mens man prøver at forbedre nogle andre ting.
 
-Den sidste mulighed er selvfølgelig at man har nogle ting på vedligehold mens man prøver at forbedre nogle andre ting.
+Så vurderer vi ud fra hver kategori af muskelgrupper, løft eller bevægelsesmønstre følgende:
 
-Så vurderer vi ud fra hver kategori af muskelgrupper, løft eller bevægelsesmønstre, hvor mange sæt om ugen vi skal have, hvor mange træningspas det skal fordeles ud over og hvilke øvelser der skal i spil.
+- hvor mange sæt om ugen vi skal have?
+- hvor mange træningspas det skal fordeles ud over?
+- hvilke øvelser der skal i spil?
 
-## 2) Beslut antal sæt og frekvens
+## 2. Beslut antal sæt og frekvens
 
-Følgende tabel giver et bud på rammerne man bør arbejde inden for per muskelgruppe/bevægelsesmønster hvis man vil hhv. forbedre eller vedligeholde:
+Følgende tabel giver et bud på rammerne man bør arbejde inden for per muskelgruppe eller bevægelsesmønster, hvis man vil hhv. forbedre eller vedligeholde:
 
 |                         | Forbedring | Vedligehold |
 | ----------------------- | ---------- | ----------- |
@@ -58,7 +62,7 @@ Følgende tabel giver et bud på rammerne man bør arbejde inden for per muskelg
 | Sæt pr. træningspas     | 3-8        | 2-4         |
 | Øvelser pr. træningspas | 1-2        | 1           |
 
-Det er meget grove tal, og rimelig store spænd. Hvor man ligger er afhængig af mange ting.
+Det er meget grove tal og rimelig store spænd. Hvor man ligger er afhængig af mange ting?
 
 Følgende er eksempler på nogle aspekter, der trækker i den ene eller anden retning ift. hvor meget volumen, du har gavn af i din træning.
 
@@ -68,34 +72,43 @@ Følgende er eksempler på nogle aspekter, der trækker i den ene eller anden re
 * **Køn**: Kvinder har ofte gavn af lidt mere volumen end mænd, især til overkroppen. Læs mere om [forskellen på mænd og kvinders muskler](/maend-kvinder-muskler/).
 * **Individuel variation**: Mange andre ting kan spille ind som fibertype distribution, træningshistorik, mental profil mm.
 
-Følgende figur giver en idé om hvad der betyder mest:
+Følgende figur giver en idé om, hvad der betyder mest:
 
 {% include figure image_path="/assets/images/blog/nielsson-optimal-volumen.png" caption="Hvordan vælger du den optimale volumen til at få fremgang i din styrketræning?" alt="vælg optimal volumen til din styrketræning" %}
 
 Er man helt i tvivl er det et godt sted at starte at tage 8 sæt om ugen til en muskelgruppe fordelt ligeligt på 2 træningspas med 1 øvelse per gang. Så kan man altid forøge antallet af sæt eller træningspas derfra i senere programmer.
 
-## 3) Vælg øvelser
+## 3. Vælg øvelser
 
 Træner du efter specifikke løft giver øvelsesvalget langt hed ad vejen sig selv; Hvis du eksempelvis gerne vil forbedre dit squat bør du selvfølgelig vælge squat. Du kan evt. supplere med øvelser der ligner eller støtter dit primære løft.
 
 Træner du efter almen styrke bør du primært vælge de store flerleds- frivægtsøvelser, som squat, dødløft, kropshævninger/lat pulldown og stående skulderpres, for de bedste resultater.
+
 Træner du efter hypertrofi er øvelsesvalget meget fleksibelt, så længe øvelserne du vælger er nogle som du føler rammer musklen/musklerne du prøver at træne. I praksis vil man dog også her oftest have en overvægt af de store løft.
 
-## 4) Fordel træningen ud over ugen
+## 4. Fordel træningen ud over ugen
 
-Derfra skal du tage stilling til, hvordan du rent praktisk vil fordele træningen ud over din uge. Der er ikke et "træningssplit" der er bedre end andre. Frekvensen kan have en betydning især hvis man er på et vis niveau, men så længe hver muskel eller hvert løft bliver trænet med tilstrækkelig volumen og intensitet i løbet af ugen er resten detaljer.
+Derfra skal du tage stilling til, hvordan du rent praktisk vil fordele træningen ud over din uge.
 
-Der er praktiske hensyn der kan have en vis betydning, men det handler primært om præferencer, så længe man ikke gør noget ulogisk som at proppe al sin træning ind på mandag og tirsdag og så hvile hele resten af ugen eller lignende.
+Der er ikke et "træningssplit" der er bedre end andre.
 
-Senere i artiklen giver jeg et håndgribeligt overblik over hvordan denne proces kan se ud.
+Frekvensen kan have en betydning - især hvis man er på et vis niveau - men så længe hver muskel eller hvert løft bliver trænet med tilstrækkelig volumen og intensitet i løbet af ugen er resten detaljer.
 
-## 5) Beslut programmets længde
+Der er praktiske hensyn, der kan have en vis betydning, men det handler primært om præferencer, så længe man ikke gør noget ulogisk som at proppe al sin træning ind på mandag og tirsdag og så hvile hele resten af ugen eller lignende.
+
+Senere i artiklen giver jeg et håndgribeligt overblik over, hvordan denne proces kan se ud.
+
+## 5. Beslut programmets længde
 
 Som udgangspunkt er det mest optimale at træne hårdt og progressivt i en bestemt periode, hvorefter man tager en kortere restitutionsfase, inden man begynder på hård træning igen.
 
 Flere ting kan spille ind i hvor længe man vil køre den hårde træning, som man oftest beregner i antal uger. Er man ikke så stærk og træner man ikke så hårdt kan man have en længere træningsfase (op til 8-10 uger).
 
-Er man rigtig stærk og presser sig selv til det yderste må træningsfasen være meget kortere. Oftest træner man 3-6 uger progressivt inden man tager en deload uge, og 4 er nok det mest almindelige og et rigtig godt sted at starte.
+Er man rigtig stærk og presser sig selv til det yderste må træningsfasen være meget kortere.
+
+**Husk at tage en deload-uge!**
+
+Oftest træner man 3-6 uger progressivt inden man tager en deload uge, og 4 er nok det mest almindelige og et rigtig godt sted at starte.
 
 Det er klogt at være praktisk og realistisk når man planlægger længden af sine programmer. Ved man at man skal være væk hjemmefra i uge 15, og man starter et program i uge 10, så er det meget nærliggende at planlægge sit program sådan at det varer 5 uger, og så kan restitutionsfasen (hvor man ikke træner særlig meget) ligge i den uge man er væk.
 
@@ -109,7 +122,7 @@ En deload uge kan fungere som en mild form for nulstilling, så man igen kan få
 
 Der er ingen tvivl om at det er fordelagtigt at anvende deload uger, og at den hurtigste måde at blive stærkere og mere muskuløs på, inkluderer brugen af deload uger.
 
-## 6) Lav en progressionsplan for de enkelte træningsøvelser
+## 6. Lav en progressionsplan for de enkelte træningsøvelser
 
 Herefter, eller samtidig med at man vælger øvelser, da det ofte vil spille sammen, skal vi til en helt ESSENTIEL del af programlægningsprocessen. Desværre en proces som rigtig mange overser, da de kalder det en dag efter at have valgt øvelser og fordelt dem ud på forskellige dage.
 
@@ -139,7 +152,7 @@ Tag inspiration i følgende progressionsmodeller, og ellers vær kreative - nogl
 
 ### Eksempel 1: Single progression
 
-Man ændrer én parameter fra uge til uge, her har jeg valgt at gøre det med vægt - godt til styrke!
+Man ændrer én parameter fra uge til uge. Her har jeg valgt at gøre det med vægt - godt til styrke!
 
 * 4x6x80 (4 sæt x 6 gentagelser x 80 kg)
 * 4x6x82,5
@@ -148,7 +161,7 @@ Man ændrer én parameter fra uge til uge, her har jeg valgt at gøre det med v�
 
 ### Eksempel 2: Double progression
 
-Her ændrer man i to parametre, hvorved man kan trække progressionen ud - det er desværre ikke altid muligt at have så hurtig fremgang som single progression kræver!
+Her ændrer man i to parametre, hvorved man kan trække progressionen ud. Det er desværre ikke altid muligt at have så hurtig fremgang som single progression kræver!
 
 * 3x10x15 (3 sæt x 10 gentagelser x 15 kg)
 * 3x11x15
@@ -159,7 +172,7 @@ Her ændrer man i to parametre, hvorved man kan trække progressionen ud - det e
 
 ### Eksempel 3: Total antal gentagelser
 
-Her forøger man det totale antal gentagelser man vil tage i en øvelse, så tager det så mange sæt som det nu tager - det er oplagt til kropsvægtsøvelser
+Her forøger man det totale antal gentagelser man vil tage i en øvelse, så tager det så mange sæt som det nu tager. Det er oplagt til kropsvægtsøvelser.
 
 * 30 gentagelser i alt med 40 kg
 * 33 gentagelser i alt med 40 kg
@@ -168,14 +181,14 @@ Her forøger man det totale antal gentagelser man vil tage i en øvelse, så tag
 
 ### Eksempel 4: Styrke progression
 
-Man stiger i vægt lidt hurtigere med henblik på at træne mere fokuseret styrke, og antal gentagelser må nødvendigvis falde. Vi kompenserer for faldet i gentagelser ved at stige i antal sæt
+Man stiger i vægt lidt hurtigere med henblik på at træne mere fokuseret styrke, og antal gentagelser må nødvendigvis falde. Vi kompenserer for faldet i gentagelser ved at stige i antal sæt.
 
 * 4x7x90
 * 4x6x95
 * 5x5x100
 * 5x4x105
 
-### Eksempel 5: En lidt mere "løs" eller fleksibel, men dog struktureret, tilgang
+### Eksempel 5: En lidt mere fleksibel tilgang
 
 "+?" henviser til at afhængig af hvordan det gik i ugen inden er der mulighed for at sætte mere vægt på i den pågældende uge. I dette tilfælde hvis man fik 25 gentagelser i alle 3 sæt i uge 1 ville man stige i vægt i uge 2, og så fortsætte med den vægt de næste uger, indtil man kan tage 25 gentagelser i alle sættene igen.
 
@@ -191,7 +204,7 @@ Når du gerne vil lave et styrketræningsprogram, så kan du altså følge disse
 1. Gennemgå muskelgrupper/løft/bevægelsesmønstre og beslut dig for om de skal være på vedligehold eller forbedring.
 2. Beslut derfra total antal sæt og frekvens.
 3. Vælg øvelser.
-4. Fordel øvelserne ud over ugen efter hvad der er mest praktisk.
+4. Fordel øvelserne ud over ugen efter, hvad der er mest praktisk.
 5. Beslut programmets længde.
 6. Vælg en progressionsmodel for hver øvelse og fordel sættene ud på øvelserne.
 

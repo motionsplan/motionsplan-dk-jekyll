@@ -51,7 +51,7 @@ Aragon og Shoenfeld (2013) skriver, at styrketræning med moderat volumen med 6-
 
 Det er mere afgørende i forhold andre idrætsgrene, hvor du har en større udtømning af dine glykogenlagre som fx løb, cykling, fodbold og lignende.
 
-Man snakker om et åbent vindue i forhold til kulhydrat primært fordi glukosetransportøren GLUT-4 bliver mere aktiv og søger hen mod cellevæggen i musklen, når musklen trækker sig sammen, og herfra sørger for at få transporteret en masse glukose ind i muskelcellerne. 
+Man snakker om et åbent vindue i forhold til kulhydrat primært fordi glukosetransportøren GLUT-4 bliver mere aktiv og søger hen mod cellevæggen i musklen, når musklen trækker sig sammen, og herfra sørger for at få transporteret en masse glukose ind i muskelcellerne.
 
 Man kalder også denne effekt for _kontraktionsinduceret GLUT-4 translokation_. GLUT-4 er en glukosetransportør, der findes i skeletmusklerne og i fedtvævet.
 
@@ -105,7 +105,7 @@ Kerksick et al (2017) konkluderer i deres "International society of sports nutri
 
 ## Hvor meget protein skal du spise omkring træning?
 
-Aragon og Schoenfeld (2013) støtter fleksibiliteten om, hvornår man skal indtage protein. De giver en fejlsikker generel anbefaling, som kan give et akut maksimal anabolsk effekt på 0,4-0,5 g/kg af _lean body mass_ for og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein. (Husk at de arbejder med lean body mass, som du kan læse lidt mere om under [kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %})).
+Aragon og Schoenfeld (2013) støtter fleksibiliteten om, hvornår man skal indtage protein. De giver en fejlsikker generel anbefaling, som kan give et akut maksimal anabolsk effekt på 0,4-0,5 g/kg af _lean body mass_ for og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein. (Husk at de arbejder med lean body mass, som du kan læse lidt mere om under [kropskomposition](/kropskomposition/)).
 
 Formentlig gør det ikke så meget at overskride denne dosering, men hvis du får for lidt protein, så maksimerer du ikke det opbyggende respons.
 

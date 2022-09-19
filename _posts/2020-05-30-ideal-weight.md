@@ -131,7 +131,7 @@ Jeg har skrevet en lang grundig artikel om [Body Mass Index (BMI)](/bmi/), som o
 
 Men husk at din vægt kan ikke betragtes som en faktuel videnskab. Begrebet om idealvægt er bare retningslinjer, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
 
-Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om forskellige [modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}) og hvordan man kan [måle fedtprocent](/maal-fedtprocent/).
+Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om forskellige [modeller til at beskrive kropskomposition](/kropskomposition/) og hvordan man kan [måle fedtprocent](/maal-fedtprocent/).
 
 ## Hvad er gennemsnitsvægt i forhold til idealvægt?
 
