@@ -210,5 +210,5 @@ Da det ikke vil vælte din intervaltræning, om du vælger aktive eller passive 
 Lidt mere udpenslet er de praktiske anbefalinger:
 
 * Har du planlagt en hård intervaltræning med korte og meget intensive intervaller (eks. 15/15s), hvor du ved, at du bliver udfordret henimod slutningen af træningen, så vil det være anbefalelsesværdigt at lade restitutionsperioderne være passive. Således sikrer du, at du kan gennemføre det planlagte antal intervaller.
-* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO2peak i dine arbejdsintervaller.
+* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO<sub>2</sub>peak i dine arbejdsintervaller.
 * Har du planlagt længere intervaller (4 min. eller derover) og tilsvarende længere restitution (på 2-3 min. eller derover) er det sandsynligvis mindre relevant, om du vælger det ene fremfor det andet.
