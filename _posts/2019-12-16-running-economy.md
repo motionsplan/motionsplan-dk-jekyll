@@ -156,7 +156,7 @@ Hvis du kun har behov for selve konditallet ud fra din iltoptagelse og vægt, s�
 
 {% include calculate-oxygenuptake.html %}
 
-I forhold til betragtninger om løbeøkonomi, så giver det ikke helt mening at bruge en indirekte måde at estimere din maksimale iltoptagelse. Hvis du fx estimerer iltoptagelsen med en [Cooper-test]({% link _posts/2019-10-31-kondital-cooper.md %}), så er løbeøkonomien allerede en del af resultatet.
+I forhold til betragtninger om løbeøkonomi, så giver det ikke helt mening at bruge en indirekte måde at estimere din maksimale iltoptagelse. Hvis du fx estimerer iltoptagelsen og dit kondital med en [Cooper-test beregner](/cooper-test/), så er løbeøkonomien allerede en del af resultatet.
 
 Men derfor kan det jo godt være sjovt at bruge sine egne tal til at kigge på løbeøkonomi, så du kan tage et kig på vores side med måder at [teste konditallet og den maksimale iltoptagelse på]({% link _posts/2019-11-04-kondition-og-test.md %}).
 

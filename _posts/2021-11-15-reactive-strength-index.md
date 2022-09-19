@@ -22,11 +22,6 @@ feature_row:
     btn_label: <i class='fas fa-file-excel'></i> Download
     btn_class: btn--success
     rel: nofollow noopener
-#faq:
-# - question: "Hvad hedder træningsafhængighed på engelsk?"
-#   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
-# - question: "Er træningsafhængighed en spiseforstyrrelse?"
-#   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 ---
 
 Reactive Strength Index (RSI) er et godt værktøj til at bruge til at forbedre sin springteknik i hurtige bevægelser, som er meget anvendelige som atlet.

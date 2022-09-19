@@ -11,11 +11,6 @@ tags:
   - træning
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
-#faq:
-# - question: "Hvad hedder træningsafhængighed på engelsk?"
-#   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
-# - question: "Er træningsafhængighed en spiseforstyrrelse?"
-#   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 ---
 
 Der er flere måder at måle kraften i baglåret på, men de fleste kræver dyrt udstyr. På det seneste har forskerne været interesseret i at finde lavpraktiske måder at måle, hvor stærke atleterne i er baglårene. Noget tyder nemlig på, at det kan være skadesforebyggende.

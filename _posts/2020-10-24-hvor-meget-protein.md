@@ -1,9 +1,10 @@
 ---
-title: &title "Hvor meget protein har jeg brug for om dagen?"
+title: &title "Hvor meget protein har jeg brug for om dagen? (Beregner)"
+seo_title: "Hvor meget protein har man behov for om dagen? (Beregner)"
+description: "Er du interesseret i, hvor meget protein du skal indtage om dagen i forbindelse med træning? Her har du svaret!"
 permalink: /dagligt-protein-indtagelse/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -13,21 +14,48 @@ tags:
   - kost
   - protein
   - kosttilskud
-last_modified_at: 2020-10-13T23:14:14Z
+last_modified_at: 2022-09-13T23:14:14Z
 toc: true
 ---
 
-Protein er helt sikkert en væsentlig del af en velafbalanceret kost, men hvor meget protein har du egentlig behov for, når du træner? Det har jeg researchet lidt på.
+Er du interesseret i, hvor meget protein du skal indtage om dagen for at få de optimale resultater af din træning? Her har du svaret!
 
-Hvor meget protein har jeg brug for om dagen? **Du bør indtage 0,75-2,5 gram protein pr. kg kropsvægt pr. dag alt efter, hvor meget du træner og hvilken type træning du laver. Der er flere studier der viser, at man kan udnytte op til 2 gram protein pr. kg kropsvægt pr. dag, men som en helgardering kan folk, der træner rigtig meget indtage lidt mere.**
+Hvor meget protein skal du have for at give dine muskler de bedste betingelser for muskelvækst og restitution?
 
-Der er stor interesse for protein nu om dage. Når du søger på Google efter: "Hvor meget protein har jeg behov for om dagen?", så kommer der mange resultater frem. Resultaterne har imidlertid forskellige anbefalinger, så jeg forsøger i det følgende at dykke lidt dybere ned i, hvor meget protein du behøver at indtage om dagen.
+Og risikerer du at indtage for meget protein på en dag, så du slet ikke kan optage det?
 
-Videnskab.dk behandler [10 myter om protein](https://videnskab.dk/krop-sundhed/10-myter-om-proteiner-del-i) og Aktiv Træning har lavet en [beregner til at estimere, hvor meget protein forskellige træningsformer kræver](https://aktivtraening.dk/sund-livsstil/test-hvor-meget-protein-har-jeg-brug-for).
+Der er stor interesse for protein nu om dage. Når du søger på Google efter: "Hvor meget protein har jeg behov for om dagen?", så kommer der mange resultater frem.
+
+Videnskab.dk behandler [10 myter](https://videnskab.dk/krop-sundhed/10-myter-om-proteiner-del-i) om protein og Aktiv Træning har lavet en [beregner](https://aktivtraening.dk/sund-livsstil/test-hvor-meget-protein-har-jeg-brug-for) til at estimere, hvor meget protein forskellige træningsformer kræver.
+
+Men der er mange forskellige tal og anbefalinger i de forskellige artikler.
+
+Hvad skal man tro på?
+
+Så lad os dykke ned i, hvor meget protein du skal indtage om dagen?
+
+## Hvor meget protein har du brug for om dagen?
+
+**Du bør indtage 0,75-2,5 gram protein pr. kg kropsvægt pr. dag alt efter, hvor meget du træner og hvilken type træning du laver. Der er flere studier der viser, at man kan udnytte op til 2 gram protein pr. kg kropsvægt pr. dag, men som en helgardering kan folk, der træner rigtig meget indtage lidt mere.**
+
+Det er en bred anbefaling. Du kan regne lidt på dit eget daglige proteindtag i beregneren nedenunder.
+
+Men du bør bagefter sætte dig ind i optagelseshastigheden for protein.
 
 ## Beregn dit daglige proteinbehov
 
 {% include calculate-protein.html %}
+
+{% comment %}
+
+
+https://dovefitness.dk/hvor-meget-protein-skal-man-spise/
+
+https://youtu.be/59baGu7E0e8
+
+https://www.bodylab.dk/shop/proteinhierarkiet-det-2751c1.html
+
+{% endcomment %}
 
 ## Hvor meget protein kan man optage om dagen?
 
@@ -39,10 +67,16 @@ Nikolaj Bach besvarer spørgsmålet på [bodylab.dk](https://www.bodylab.dk/shop
 
 --- <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/hvor-mange-gram-protein-kan-man-optage-3185c1.html)</cite>
 
-## Hvor meget protein er der i fødevarer?
+{% comment %}
 
-Jeg har lavet en tabel med proteinindhold i forskellige fødevarer, så du let kan finde ud af, hvilke fødevarer, der indholder meget protein. Tabellen er sorteret efter de fødevarer med mest protein i øverst.
+## Hvor hurtigt optager man protein?
 
-Du kan i tabellen altså se, hvor meget protein der er i æg, havregryn og kylling.
+## Hvor meget protein kan man optage pr. måltid?
 
-{% include table-protein.html %}
+{% endcomment %}
+
+## Konklusion
+
+Det kan sagtens lade sig gøre at få dækket sit daglige proteinbehov gennem den almindelige kost, men det kan godt kræve lidt planlægning.
+
+Hvis du er interesseret i at vide, hvor du kan få din protein gennem den almindelige kost, så kan du tjekke vores [tabel med proteinindhold i forskellige fødevarer](/protein-i-madvarer/).

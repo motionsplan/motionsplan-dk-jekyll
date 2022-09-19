@@ -119,7 +119,7 @@ Der er også lavet en tabel med [korrektionsfaktorer til alderskorrektion](https
 
 ## Hvilke usikkerheder er der ved et-punktstesten?
 
-Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at estimere den maksimale iltoptagelse korrekt. Usikkerheden hører bl.a. sammen med de store individuelle forskelle, der er i folks maksimale puls, selvom de har samme alder.
+Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at estimere den maksimale iltoptagelse korrekt. Usikkerheden hører bl.a. sammen med de store individuelle forskelle, der er i folks [max-puls](/test-max-puls), selvom de har samme alder.
 
 > Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil få vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
 

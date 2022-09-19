@@ -197,7 +197,7 @@ De fleste beregnere du kan finde til Starting Strength online på nettet tager i
 
 Hvis du vil have et styrketræningsprogram til at fungere, så har du brug for rigeligt med fornuftig proteinrig kost. Rigtig mange spiser ikke nok, og derfor er det vanskeligere at restituere og respondere til programmet.
 
-Jeg har skrevet lidt om, [hvor meget protein, du har brug for]({% link _posts/2020-10-24-hvor-meget-protein.md %}). Mark Rippetoe foreslår mælk til at give kalorieoverskud, men du kan få protein fra lige nøjagtig de proteinkilder, du foretrækker. Det kan være en fordel at få nogle af proteinerne fra flydende kilder.
+Jeg har skrevet lidt om, [hvor meget protein, du har brug for](/dagligt-protein-indtagelse/). Mark Rippetoe foreslår mælk til at give kalorieoverskud, men du kan få protein fra lige nøjagtig de proteinkilder, du foretrækker. Det kan være en fordel at få nogle af proteinerne fra flydende kilder.
 
 ## Hvordan udfører man Starting Strength?
 

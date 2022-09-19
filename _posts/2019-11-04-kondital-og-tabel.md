@@ -142,7 +142,7 @@ Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% li
 
 Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/test-kondition-konditest-kondital/).
 
-Nogle af de populære er bl.a. [Coopertest](/cooper-test/) og [bip test](/bip-test/).
+Nogle af de populære er bl.a. [Cooper-test](/cooper-test/) og [bip test](/bip-test/).
 
 ## Hvad kan du bruge konditallet til?
 

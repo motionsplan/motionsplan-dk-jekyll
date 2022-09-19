@@ -95,7 +95,7 @@ Studiet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 me
 
 Studiet viste også, at **slagvolumen (SV) var signifikant forøget i 15/15- og 4x4-gruppen**, hvilket ikke var tilfældet for LSD- og LT-gruppen. Den øgede slagvolumen i 15/15 og 4x4 korrelerede med den øgede VO<sub>2</sub>max, hvilket understøtter at den maksimale iltoptagelse også afhænger af slagvolumen.
 
-Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale puls]({% link _posts/2020-06-02-max-hr.md %}) ikke ændrer sig, så er der altså brug for, at hjertet kan pumpe mere blod rundt pr. slag for at forøge minutvolumen.
+Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale puls](/test-max-puls/) ikke ændrer sig, så er der altså brug for, at hjertet kan pumpe mere blod rundt pr. slag for at forøge minutvolumen.
 
 {% include figure image_path="/assets/images/helgerud-2007-vo2-sv.png" caption="Procentvis ændringer i absolutte VO<sub>2</sub>max og absolutte slagvolumen. Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="procentvise ændringer absolutte VO2 max og slagvolumen" %}
 

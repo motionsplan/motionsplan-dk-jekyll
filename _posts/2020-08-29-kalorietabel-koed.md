@@ -19,6 +19,8 @@ tags:
 faq:
   - question: Hvor mange proteiner er der i kød?
     answer: Proteinindholdet i kød varierer alt efter kødtypen. For at vide, hvor meget protein, der er i kød, så skal du altså bruge en tabel, hvor du kan slå forskellige kødtyper op.
+  - question: Hvad er det anbefalede daglige proteinindtag?
+    answer: De generelle anbefalinger for proteinindtag er, at det skal udgøre omkring 10% af det daglige energiindtag. Vi har skrevet meget mere om [det anbefalede daglige proteindindtag](/dagligt-protein-indtagelse/).
 # bøf kalorier
 #steg kcal
 #hakket svinekød kalorier

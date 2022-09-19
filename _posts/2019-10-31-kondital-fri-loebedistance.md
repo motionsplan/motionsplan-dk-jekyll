@@ -50,7 +50,7 @@ I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
 ## Andre konditionstests
 
-Du kan også bruge en [Cooper Test til at finde dit kondital]({% link _posts/2019-10-31-kondital-cooper.md %}) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [konditionstests](/test-kondition-konditest-kondital/).
+Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [konditionstests](/test-kondition-konditest-kondital/).
 
 Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
 

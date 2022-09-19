@@ -64,7 +64,7 @@ Når du tager tid på din løbetid, så kan du holde øje med, om du forbedrer d
 
 Hvis du tager tid, og du bruger mindre tid på den samme strækning, så er din hastighed steget. Vi har lavet en beregner, hvor du kan [udregne din hastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}) eller [omregne fra km/t til min/km]({% link _posts/2019-12-05-hastighed-beregnere.md %}).
 
-Du kan også på løbebane eller med et GPS-ur løbe et bestemt antal minutter, fx en [Cooper-test]({% link _posts/2019-10-31-kondital-cooper.md %}), for at se om du kan komme længere på det samme tidsrum. Du kan også bare bruge den samme løberute, for at se om du kommer længere frem på den samme tid.
+Du kan også på løbebane eller med et GPS-ur løbe et bestemt antal minutter, fx en [Cooper-test](/cooper-test/), for at se om du kan komme længere på det samme tidsrum. Du kan også bare bruge den samme løberute, for at se om du kommer længere frem på den samme tid.
 
 Når du tager tid på løbeturene, så kan du regelmæssigt tjekke, om du bliver en bedre og hurtigere løber. Der kan være forskellige grunde til, at du bliver hurtigere som løber. Du kan enten have forbedret din [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), være bedre til at løbe på den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) eller have forbedret din [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}).
 

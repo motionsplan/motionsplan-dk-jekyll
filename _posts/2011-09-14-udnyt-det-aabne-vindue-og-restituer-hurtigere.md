@@ -105,11 +105,15 @@ Kerksick et al (2017) konkluderer i deres "International society of sports nutri
 
 ## Hvor meget protein skal du spise omkring træning?
 
-Aragon og Schoenfeld (2013) støtter fleksibiliteten om, hvornår man skal indtage protein. De giver en fejlsikker generel anbefaling, som kan give et akut maksimal anabolsk effekt på 0,4-0,5 g/kg af _lean body mass_ for og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein. (Husk at de arbejder med lean body mass, som du kan læse lidt mere om under [kropskomposition](/kropskomposition/)).
+Aragon og Schoenfeld (2013) støtter fleksibiliteten om, hvornår man skal indtage protein. De giver en generel anbefaling, som kan give et akut maksimal anabolsk effekt på 0,4-0,5 g/kg af _lean body mass_ for og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein.
+
+(Husk at de arbejder med lean body mass, som du kan læse lidt mere om under [kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %})).
 
 Formentlig gør det ikke så meget at overskride denne dosering, men hvis du får for lidt protein, så maksimerer du ikke det opbyggende respons.
 
 Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne betale sig at få protein efter træning, hvis du gerne vil bygge muskler og have hypertrofi. Dvs. hvis træningen påbegyndes ~3-4 timer efter det forudgående måltid, så kan det overvejes at indtage noget proteinholdigt i nærheden af træningen.
+
+Læs: [Hvor meget protein har du brug for om dagen?](/dagligt-protein-indtagelse/)
 
 ## Hvem skal spise i det åbne vindue?
 

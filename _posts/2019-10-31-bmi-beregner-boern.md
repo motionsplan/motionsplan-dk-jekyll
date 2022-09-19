@@ -1,9 +1,9 @@
 ---
 title: &title "BMI-beregner for børn, unge og teenagere"
 seo_title: "BMI beregner for børn, unge og teenagere"
-description: "BMI beregner og tabel for børn, unge og teenagere. Forstå hvordan BMI tallet og skalaen skal forstås og fortolkes for for børn og unge."
+description: "Vil du gerne forstå BMI-tallet for børn, unge og teenagere? Her har du en gratis BMI beregner og tabel, som gælder for børn og unge."
 permalink: /bmi-beregner-boern-unge-teenagere/
-excerpt: "Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
+excerpt: "Hvordan kan du bruge BMI-skalaer for børn, unge og teenagere? Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan hænger BMI og tabeller sammen for børn, unge og teenagere."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
@@ -15,17 +15,18 @@ tags:
   - beregner
   - børn
 popular: true
-last_modified_at: 2022-04-19T10:14:14Z
+last_modified_at: 2022-09-13T10:14:14Z
 faq:
   - question: "Hvad er normal BMI for børn?"
     answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden."
   - question: "Hvad er normal BMI for teenagere?"
     answer: "Du skal vurdere teenageres BMI ud fra WHO's BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
+  - question: "Hvordan beregner man BMI for børn?"
+    answer: "Du beregner BMI for børn og unge på samme måde som for voksne. Men du skal fortolke tallene anderledes. Bliv klogere i denne artikel."
 ---
+Hvordan kan du bruge BMI til børn, unge og teenagere? Body Mass Index (BMI) bruges til at udregne idealvægt, men hvordan hænger BMI, BMI-skalaer og og -tabeller sammen for børn, unge og teenagere?
 
-Body Mass Index (BMI) bruges ofte i forhold til børn, unge og teenagere. Vi har kigget på, hvordan du skal fortolke BMI tabeller og skalaer for børn, unge og teenagere.
-
-Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og vægt, men det skal fortolkes anderledes for børn end for voksne.
+Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og vægt. Men når du fortolker BMI-tabeller for børn og unge, så skal du være opmærksom på, at du skal fortolke BMI-skalaen anderledes for børn end for voksne.
 
 Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/).
 
@@ -41,7 +42,7 @@ I dette indlæg får du svar på følgende spørgsmål:
 
 Men lad os først springe til selve BMI beregneren til børn og unge.
 
-## Beregn BMI for børn og unge
+## BMI-beregner for børn og unge
 
 {% include calculate-bmi.html children="true" %}
 

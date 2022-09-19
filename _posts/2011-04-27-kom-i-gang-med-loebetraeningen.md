@@ -251,7 +251,7 @@ Grundlæggende kan du bruge enten tempo, watt eller puls til at bestemme dit lø
 
 Der er fordele og ulemper ved begge ting.
 
-- **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din maksimale puls og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
+- **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din [maksimale puls](/test-max-puls/) og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
 - **Watt**. Hvis du fx har en Stryd Wattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
 

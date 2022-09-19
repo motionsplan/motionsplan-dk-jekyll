@@ -15,11 +15,6 @@ tags:
   - eksplosivitet
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
-#faq:
-# - question: "Hvad hedder træningsafhængighed på engelsk?"
-#   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
-# - question: "Er træningsafhængighed en spiseforstyrrelse?"
-#   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 ---
 
 Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Det kræver en fornuftig progression at træne plyometriske øvelser. Her er fire enkle trin til, hvordan du kan komme i gang med at træne plyometri.
