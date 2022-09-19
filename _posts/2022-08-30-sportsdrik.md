@@ -108,7 +108,7 @@ Det kræver, at vi dykker dybere ned i forskellige sukkertyper, og hvordan de op
 
 Du kan sagtens bruge almindeligt sukker, men du har sikkert også hørt om andre sukkertyper, fx druesukker. Lad os kigge på nogle af de sukkerformer, du kan bruge til din sportsdrik.
 
-Når man kigger på optagelsestider, så er der to relevante begreber: Glykæmiske index og [Insulin Index](http://en.wikipedia.org/wiki/Insulin_index).
+Når man kigger på optagelsestider, så er der to relevante begreber: Glykæmiske index og [Insulin Index](https://en.wikipedia.org/wiki/Insulin_index).
 
 Det glykæmiske index er en måling af, hvor hurtigt blodsukkeret reagerer på optagelsen af en fødevare.
 

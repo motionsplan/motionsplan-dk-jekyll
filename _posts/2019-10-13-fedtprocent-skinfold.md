@@ -28,11 +28,11 @@ feature_row:
     btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dweed812b8/Hi-res/h/a/harpenden-skinfold-caliper-baty_1.png?sw=710&sh=710&sm=fit
+  - image_path: /assets/images/blog/harpenden-skinfold-caliper.png
     alt: "Harpenden Skinfold Caliper"
     title: "Harpenden Skinfold Caliper"
     excerpt: "Harpenden Skinfold Caliper - Kvalitetscaliper fra Baty til nem og præcis måling af fedtprocent!"
-    url: "https://www.bodystore.dk/harpenden-skinfold-caliper"
+    url: "https://medshop.dk/da/kropsfedtmaaler/6096-harpenden-skinfold-caliper-fedtmaaler-tang-p-1053-859001.html?SubmitCurrency=1&id_currency=5"
     btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: nofollow noopener

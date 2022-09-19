@@ -62,7 +62,7 @@ Ankelleddet holdes sammen af muskler og ledbånd. Musklerne omkring ankelleddet 
 
 Samlet set så kan følgende bevægelser foregår i ankelleddet og fodleddet.
 
-{% include figure image_path="" caption="Når du taler anatomisk om bevægelser, så kan det godt forvirre lidt i forhold til den måde vi taler om bevægelserne i daglig tale. Man skelner mellem en plantarfleksion og en dorsalfleksion. Når fodboldtræneren siger stræk vristen, så hedder det i anatomisprog en plantarfleksion (eller en bøjning). Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" alt="plantarfleksion og dorsifleksion - inversion og eversion" %}
+{% include figure image_path="/assets/images/e/oregonstate-edu-inversion-eversion.png" caption="Når du taler anatomisk om bevægelser, så kan det godt forvirre lidt i forhold til den måde vi taler om bevægelserne i daglig tale. Man skelner mellem en plantarfleksion og en dorsalfleksion. Når fodboldtræneren siger stræk vristen, så hedder det i anatomisprog en plantarfleksion (eller en bøjning). Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" alt="plantarfleksion og dorsifleksion - inversion og eversion" %}
 
 ## Fodleddet
 
@@ -80,7 +80,7 @@ En af fodens funktioner er at kunne støddæmpe de mange kræfter, som møder kr
 
 Fodens skelet inddeles i fodroden, mellemfoden og tæerne.
 
-Fodroden omfatter 7 store knogler, hvoraf hælbenet og rullebenet er de største. Foran rullebenet ligger det bådformede ben og foran hælbenet findes terningebenet, der sammen med 3 små kileben danner overgangen til mellemfodsknoglerne. 
+Fodroden omfatter 7 store knogler, hvoraf hælbenet og rullebenet er de største. Foran rullebenet ligger det bådformede ben og foran hælbenet findes terningebenet, der sammen med 3 små kileben danner overgangen til mellemfodsknoglerne.
 
 De 3 kileben er via hver sit rodled forbundet med 3 mellemfodsknogler. De 2 yderste mellemfodsknogler danner rodled med terningbenet. De 5 mellemfodsknogler er via grundled forbundet med tåknoglerne. Der er i alt 14 tåknogler. De fordeler sig på 4 tæer med hver 3 knogler (grundstykke, mellemstykke og yderstykke) og storetåen med kun 2 knogler (grundstykke og yderstykke).
 
