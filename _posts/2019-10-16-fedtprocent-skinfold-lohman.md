@@ -4,7 +4,7 @@ permalink: /lohman-fedtprocent-boern/
 excerpt: "Lohman-formlen kan bruges til at teste børn fra 8-18 år. Hudfoldene måles ved triceps og på læggen."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent

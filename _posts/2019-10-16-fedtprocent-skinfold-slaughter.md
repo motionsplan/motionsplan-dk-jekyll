@@ -4,7 +4,7 @@ permalink: /slaughter-fedtprocent-boern/
 excerpt: "Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent

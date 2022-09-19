@@ -4,7 +4,7 @@ permalink: /skinfold-peterson/
 excerpt: "Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent

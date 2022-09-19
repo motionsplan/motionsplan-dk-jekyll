@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
