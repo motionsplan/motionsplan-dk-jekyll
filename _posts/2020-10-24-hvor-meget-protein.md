@@ -5,7 +5,7 @@ description: "Er du interesseret i, hvor meget protein du skal indtage om dagen 
 permalink: /dagligt-protein-indtagelse/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1583532452513-a02186582ccd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Ernæring
