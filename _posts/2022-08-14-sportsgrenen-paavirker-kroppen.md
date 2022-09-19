@@ -35,7 +35,7 @@ Det er også meget tydeligt i boksning, hvor før-og-efter-billeder ofte kan se 
 
 Howard Schatz har udgivet en fotobog med billeder fra før og efter en boksekamp. Du kan finde bogen "At the Fights: Inside the World of Professional Boxing" på [Amazon](https://www.amazon.com/At-Fights-Inside-Professional-Boxing/dp/1618930052).
 
-{% include figure image_path="https://i.insider.com/50a6755069bedda67700000e?width=1000&format=jpeg&auto=webp" caption="Fotografiet er taget af Howard Schatz. Kilde: [www.businessinsider.com](https://www.businessinsider.com/before-and-after-boxing-photos-2012-11?r=US&IR=T) og [www.howardschatz.com](https://www.howardschatz.com/books.php?galleryID=51)" %}
+{% include figure image_path="https://i.insider.com/50a6755069bedda67700000e?width=1000&format=jpeg&auto=webp" caption="Fotografiet er taget af Howard Schatz. Kilde: [www.businessinsider.com](https://www.businessinsider.com/before-and-after-boxing-photos-2012-11?r=US&IR=T) og [www.howardschatz.com](https://howardschatz.com/)" %}
 
 ### Langsigtede tilpasninger
 
