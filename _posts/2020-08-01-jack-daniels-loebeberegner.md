@@ -166,7 +166,7 @@ I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på ba
 
 ## Konklusion
 
-Du kan læse en kritik af Jack Daniels udregninger på [jaredmcqueen.com](http://jaredmcqueen.com/jackdanielsflaw.html).
+Du kan læse en kritik af Jack Daniels udregninger på [jaredmcqueen.com](https://web.archive.org/web/20111211031947/http://jaredmcqueen.com/jackdanielsflaw.html){: rel="nofollow noopener" }.
 
 ## Andre løbeberegnere
 

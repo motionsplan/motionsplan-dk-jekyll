@@ -124,7 +124,7 @@ Din højde bestemmes først og fremmest af genetiske faktorer. Hvis din familie 
 
 Når tingene er genetiske, så kan man også regne lidt på det. Sundhed.dk har lavet en [beregner](https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/vaekst-hos-barnet/), hvor du på baggrund af din fars og mors højde kan få et bud på, hvor høj du selv bliver. Den kunne faktisk gætte min egen højde på centimeteren, men den virker nok ikke så godt for alle.
 
-Du kan læse mere om baggrunden bag beregneren på [Rigshosptalets Vækstkurver](http://www.xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html).
+Du kan læse mere om baggrunden bag beregneren på [Rigshosptalets Vækstkurver](https://www.xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html).
 
 ## Hvordan bliver jeg højere?
 

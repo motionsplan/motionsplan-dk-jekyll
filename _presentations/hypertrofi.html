@@ -83,7 +83,9 @@ title: Metoder til hypertrofi
 {% if m.excerpt != "" %}
 <section>
 <div class="wrap">
+  {% if m.header.teaser %}
   <img class="alignright size-40" src="{{ m.header.teaser | relative_url }}" alt="{{ m.title }}">
+  {% endif %}
   <h2>{{ m.title }}</h2>
   {{ m.excerpt | markdownify }}
 </div>

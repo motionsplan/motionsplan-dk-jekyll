@@ -221,7 +221,7 @@ Gå i gang allerede i dag med at identificere dine mål. Afsæt en time og få s
 
 ## Gratis skabelon til dine mål
 
-Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. Du kan hente den ved at klikke på [kortlink.dk/fmq8](http://kortlink.dk/fmq8).
+Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. Du kan hente den ved at klikke på [kortlink.dk/fmq8](https://kortlink.dk/fmq8).
 
 ## Bliv klogere om SMART målsætning
 
