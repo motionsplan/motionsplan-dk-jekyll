@@ -120,7 +120,7 @@ feature_row_citatplakat:
     title: Fysiologi - Anatomi plakat
     rel: sponsored nofollow noopener
     alt: fysiologi plakat
-  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
+  - image_path: "https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
     title: "Blodkredsløbet - Anatomi plakat"
     vendor: "Citatplakat.dk"
