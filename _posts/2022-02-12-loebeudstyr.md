@@ -126,7 +126,7 @@ Huen skal ikke være for varm, for når du begynder at få varmen på løbeturen
 
 Du har ikke brug for et løbeur, men jeg er virkelig glad for mit. Ud over løbesko og tights er det nok det jeg nødigst vil undvære. Jeg bruger løbeuret til at holde øje med min træning og automatisk registrere den. Desuden bruger jeg uret til at holde øje med, om jeg træner i de rigtige [træningszoner](/traeningszoner/) og [pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), når jeg laver [pulstræning](/pulstraening/).
 
-Når jeg skal [løbe intervalløb]({% link _posts/2020-06-15-intervallob.md %}), så programmerer jeg min intervaller på uret, så jeg ikke skal tænke så meget over at tage tid undervejs.
+Når jeg skal [løbe intervalløb](/intervallob-intervaltraening/), så programmerer jeg min intervaller på uret, så jeg ikke skal tænke så meget over at tage tid undervejs.
 
 Desuden bruger jeg uret til at holde styr på mine daglige skridt for at inspirere mig til at gå lidt mere hver dag.
 

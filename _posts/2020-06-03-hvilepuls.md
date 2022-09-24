@@ -1,11 +1,10 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
 seo_title: "Hvilepuls - Hvad er normalt for mænd og kvinder (Tabel)"
-description: "Vil du vide mere om hvilepuls? Hvordan du måler pulsen i hvile? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over en normal hvilepuls."
+description: "Vil du vide mere om hvilepuls? Hvordan måler du pulsen i hvile? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over normal hvilepuls."
 permalink: /hvilepuls/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Jude Beck on Unsplash
@@ -16,7 +15,7 @@ tags:
   - test
   - hvilepuls
   - tracking
-last_modified_at: 2022-05-12T08:14:14Z
+last_modified_at: 2022-09-24T08:14:14Z
 toc: true
 faq:
   - question: "Hvad er normal hvilepuls for kvinder?"
@@ -45,6 +44,8 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 - hvordan måler man sin hvilepuls?
 - hvad er en god hvilepuls?
 - hvordan træner man sin hvilepuls?
+
+{% include figure image_path="https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="hvilepuls for mænd og kvinder" %}
 
 ## Hvad er hvilepuls?
 

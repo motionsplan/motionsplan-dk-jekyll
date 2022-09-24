@@ -1,6 +1,7 @@
 ---
 title: &title "Muskelømhed: Hvorfor får jeg ømme muskler efter træning?"
 permalink: /omme-muskler-efter-traening/
+description: Hvorfor får du ømme muskler efter træning? Jeg har kigget på teorierne om DOMS og ømhed i kroppen efter træning og konkurrence.
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
@@ -11,7 +12,7 @@ category:
 tags:
   - muskler
   - doms
-last_modified_at: 2021-02-14T08:14:14Z
+last_modified_at: 2022-09-24T08:14:14Z
 toc: true
 ---
 

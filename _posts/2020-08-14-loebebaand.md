@@ -85,7 +85,7 @@ Jeg synes ikke løbetræning er så inspirerende med mindre jeg har et mål og n
 
 Hvis du laver nogle inspirerende omgivelser, så kan der faktisk være fine udfordringer på løbebåndet, som et supplement til at træne udendørs.
 
-Du kan [løbe bakkesprints](https://www.rekordjagt.dk/loebebaand-intervaltraening/) og [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på løbebåndet.
+Du kan [løbe bakkesprints](https://www.rekordjagt.dk/loebebaand-intervaltraening/) og [intervalløb](/intervallob-intervaltraening/) på løbebåndet.
 
 ## Opsamling på løbebånd vs. udendørs løb
 

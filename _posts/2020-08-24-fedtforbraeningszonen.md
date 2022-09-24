@@ -106,7 +106,7 @@ Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med v
 
 Hvis vi i stedet kigger på fedtforbrændingszonen som bevægelse ved den intensitet, hvor fedtforbrændingen udgør en større del af den samlede forbrænding, så er historien en anden. At forbedre fedtforbrændingen kan nemlig også betyde noget for præstationen.
 
-Det viser med al tydelighed, at det er godt at træne med forskellige intensiteter, så du træner hele dit [energisystem]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Det viser med al tydelighed, at det er godt at træne med forskellige intensiteter, så du træner hele dit [energisystem](/energisystemer/).
 
 I nedenstående figur kan man få en fornemmelse for, at fedtforbrændingen topper på et tidspunkt.
 

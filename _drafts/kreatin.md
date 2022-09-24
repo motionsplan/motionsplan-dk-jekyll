@@ -69,7 +69,7 @@ Hvis du gerne vil tage kreatin er det godt at kende [den fysiologiske virkning a
 
 {% include video provider="youtube" id="ieRA67pwbrk" %}
 
-Jeg har skrevet et længere indlæg om [energisystemerne og aerob og anaerob arbejde]({% link _posts/2019-11-14-energisystemer-101.md %}). I forhold til kreatin, så kigger jeg her på det lynhurtige anaerobe energisystem, hvor processerne foregår uden ilt.
+Jeg har skrevet et længere indlæg om [energisystemerne og aerob og anaerob arbejde](/energisystemer/). I forhold til kreatin, så kigger jeg her på det lynhurtige anaerobe energisystem, hvor processerne foregår uden ilt.
 
 Når man laver højintenst arbejde, så stiger kravet til tilgængeligheden af kroppens energimolekyle ATP med op til 1000 gange sammenlignet med i hvile (Baker et al 2010). De anaerobe processer kan skabe ATP relativt hurtigt, men de er langt fra så effektive som de aerobe processer, hvor der er ilt til stede.
 

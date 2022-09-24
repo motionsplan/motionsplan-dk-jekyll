@@ -142,7 +142,7 @@ For at træne det aerobe system, så kan man følge disse principper:
 
 - Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}).
 - Desto lavere intensiteten er, desto højere skal volumen være.
-- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
+- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb](/intervallob-intervaltraening/).
 
 Eksempler på træningsmetoder til det aerobe system kunne være:
 
@@ -233,7 +233,7 @@ En baseline for den **anaerobe træning** kan være:
 - Alactic power 3-6 sec, fx [6 sekunders sprint]({% link _posts/2019-11-18-6-sek-sprint.md %})
 - Alactic capacity 6-10 sec
 - Jump tests, fx [counter movement jump]({% link _posts/2020-01-17-test-jump-cmj.md %}) eller [jump & reach]({% link _posts/2020-01-17-test-jump-reach.md %})
-- Lactic power 30-40 sec, fx [Wingate 30 sekunders test]({% link _posts/2019-11-18-wingate-test.md %})
+- Lactic power 30-40 sec, fx [Wingate 30 sekunders test](/wingate/)
 
 Når du har etableret en _baseline_ for dine energisystemer, så kan du fokusere på at lave et program, der vil træne systemerne, så du kan opnå dine mål.
 

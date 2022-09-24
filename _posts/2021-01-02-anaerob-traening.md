@@ -21,7 +21,7 @@ Anaerob træning bør være en del af din træning. Det anaerobe system er en vi
 
 Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerobt arbejde kan være alaktacid og laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
 
-Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her]({% link _posts/2019-11-14-energisystemer-101.md %}). Hvis du ledte efter [aerob træning, så tjek her]({% link _posts/2021-06-19-aerob-traening.md %}).
+Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her](/energisystemer/). Hvis du ledte efter [aerob træning, så tjek her]({% link _posts/2021-06-19-aerob-traening.md %}).
 
 I dette indlæg kan du få svar på følgende spørgsmål:
 
@@ -41,7 +41,7 @@ Grundlæggende har mennesket to energisystemer. Det aerobe system kan levere ene
 
 I **modsætning til aerob træning**, der primært retter sig mod at forbedre kredsløbet (hjerte, lunger og blodkredsløbet), så er anaerob træning rettet mod at forbedre musklernes ydeevne under højintenst og maksimalt arbejde. Der er dog overlap mellem energisystemerne, så når du træner aerobt med høj intensitet, så forbedrer du til en vis grad din anaerobe kapacitet, og tilsvarende kan der ske forbedringer i det aerobe system ved at træne anaerobt.
 
-**Læs**: [Energisystemer 101: Alt om det aerobe og anaerobe energisystem]({% link _posts/2019-11-14-energisystemer-101.md %})
+**Læs**: [Energisystemer 101: Alt om det aerobe og anaerobe energisystem](/energisystemer/)
 
 ## ATP fra det anaerobe system
 
@@ -160,7 +160,7 @@ Husk at den anaerobe træning kræver tilvænning, og husk at tænke på princip
 
 ## Eksempler på anaerob træning
 
-Jeg kan godt lide at lave intervaller, hvor jeg arbejder maksimalt i 30 sekunder og holder 1-5 minutters pause alt efter om jeg forsøger at træne den anaerobe kapacitet eller effekt med intervallet. Det bliver ikke lettere af at holde længere pauser, men du kan lave mere arbejde i arbejdsintervallet. Du kan fx lave det som [Wingate-tests]({% link _posts/2019-11-18-wingate-test.md %}). Du kan fx starte med 3x30 sekunder med tre minutters pause. Næste uge kan du lave 4x30 sekunder med 3 minutters pause.
+Jeg kan godt lide at lave intervaller, hvor jeg arbejder maksimalt i 30 sekunder og holder 1-5 minutters pause alt efter om jeg forsøger at træne den anaerobe kapacitet eller effekt med intervallet. Det bliver ikke lettere af at holde længere pauser, men du kan lave mere arbejde i arbejdsintervallet. Du kan fx lave det som [Wingate-tests](/wingate/). Du kan fx starte med 3x30 sekunder med tre minutters pause. Næste uge kan du lave 4x30 sekunder med 3 minutters pause.
 
 Du har sikkert også hørt om [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}), som virkelig sætter det anaerob system på prøve.
 

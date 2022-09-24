@@ -95,7 +95,7 @@ Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger
 
 --- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
 
-Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne](/energisystemer/).
 
 ## Intervaller til roning og rotræning
 

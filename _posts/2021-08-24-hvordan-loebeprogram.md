@@ -35,7 +35,7 @@ Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/
 
 Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til at løbe 5 km rigtig hurtigt](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton-42km/).
 
-Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
+Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer](/energisystemer/), som er nødvendige for effekten af løbetræningen.
 
 Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver løbetræningen forhåbentlig også mere inspirerende.
 
@@ -216,7 +216,7 @@ Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arb
 
 *[HRR]: Heart Rate Reserve
 
-For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/).
+For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/).
 
 Du kan arbejde med din maksimale iltoptagelse på flere forskellige måder. Det afgørende er, at intensiteten er høj nok. Den intensive del af træningen vil typisk vare mellem 16-24 minutter.
 
@@ -224,7 +224,7 @@ Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltopt
 
 #### Intervaltræning og intervalløb
 
-Når man laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
+Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
 
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
 

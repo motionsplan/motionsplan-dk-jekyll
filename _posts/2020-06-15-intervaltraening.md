@@ -87,7 +87,7 @@ Her har du en oversigt over effektive intervalprogrammer baseret på formålet m
 | Aerobe intervaller | Konditalintervaller | 400-1500 m | 4000-6000 m | | |
 | Tærskelintervaller | Anaerob tærskel | 8-15 min | 30-60 min | 1:1/4 | |
 
-Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Hvis du vil forstå formålet med de forskellige itnervaller, så kan du dykke ned i [vores guide til energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Hvis du vil forstå formålet med de forskellige itnervaller, så kan du dykke ned i [vores guide til energisystemer](/energisystemer/).
 
 Hvad de enkelte intervaller ender med at træne afhænger af, hvilken intensitet de enkelte intervaller løbes med, og hvor lang pausen mellem intervallerne bliver.
 

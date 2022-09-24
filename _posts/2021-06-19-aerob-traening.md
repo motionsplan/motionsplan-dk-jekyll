@@ -19,7 +19,7 @@ Aerob træning handler om at træne det aerobe energisystem. Det er den del af e
 
 **Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
 
-Jeg har skrevet uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen]({% link _posts/2019-11-14-energisystemer-101.md %}) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen](/energisystemer/) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
 
@@ -64,7 +64,7 @@ Din krop tilpasser sig både træning med høj intensitet og med lavere intensit
 For at træne det aerobe system, så kan man følge disse principper:
 
 - Desto lavere intensiteten er, desto højere skal volumen være.
-- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
+- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb](/intervallob-intervaltraening/).
 - Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Dog skal man være opmærksom på, at meget højintens træning også kan være med til at flytte det aerobe system.
 
 ## Programlægning af aerob træning
@@ -118,7 +118,7 @@ HIIT-træning er [intervaltræning](/intervaltraening/), og du kommer nok til at
 
 Du kan forbedre det aerobe system på mange måder.
 
-Du kan se mange flere eksempler under [intervalløb]({% link _posts/2020-06-15-intervallob.md %}). [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) har også vist sig at have en god effekt på det aerobe system.
+Du kan se mange flere eksempler under [intervalløb](/intervallob-intervaltraening/). [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) har også vist sig at have en god effekt på det aerobe system.
 
 Når man laver aerob træning, så er intensiteten vigtig. Det er blevet ret populært at lave _polarized_ træning. Det betyder, at man enten arbejder meget intenst eller relaivt lavintenst.
 
