@@ -28,6 +28,8 @@ Her kigger vi på de mange forskellige discgolf-butikker online, så du kan bliv
 
 I denne artikel vil vi diskutere nogle vigtige faktorer, som du skal overveje, når du vælger en discgolf-butik online - og hvor kan du finde fysiske discgolf forretninger?
 
+{% include figure image_path="https://images.unsplash.com/photo-1655161920449-cd10d9391f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="discgolf butikker online" %}
+
 ## 1. Discimport
 
 Discimport driver både webshop og fysiske butikker i København, Aarhus og Silkeborg. Discimport er så vidt jeg ved den ældste butik med salg af golfdiscs i Danmark. De har eksisteret siden 1999. 
