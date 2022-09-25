@@ -1,5 +1,6 @@
 ---
 title: &title "Elsker du en udfordring? Prøv Kipchoge Challenge"
+description: Er ud klar til en løbeudfordring? Prøv Kipchoge Challenge. Hvor længe kan du følge tempoet for verdensrekordholderen?
 permalink: /kipchoge-challenge/
 language: da
 header:
@@ -9,13 +10,15 @@ category:
 tags:
   - intervalløb
   - kondition
-last_modified_at: 2022-01-02T08:14:14Z
+last_modified_at: 2022-09-25T08:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/pinterest/challenge-kipchoge.jpg
     url: /assets/images/pinterest/challenge-kipchoge.jpg
+    alt: Kipchoge Challenge
   - image_path: /assets/images/pinterest/challenge-kosgei.jpg
     url: /assets/images/pinterest/challenge-kosgei.jpg
+    alt: Kosgei challenge
 ---
 
 Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve Kipchoge Challenge. Det handler ganske enkelt om at forsøge at løbe lige så hurtigt, som verdensrekorden på maraton - og se hvor længe du kan følge tempoet.
@@ -24,9 +27,11 @@ Verdensrekorden for mænd på maraton er sat af [Eliud Kipchoge](https://www.fac
 
 Faktisk løb han under 2 timer under helt ideelle forhold i Ineos Challenge, hvor han løb på en flad rute med nogle af verdens bedste løbere til at sætte pacet gennem løbet. Vi tager hans tid fra dette løb som udgangspunktet for Kipchoge Challenge.
 
-Det svarer til, at han har løbet 21,16 km/t i gennemsnit i hele løbet. Det svarer til en kilometertid på 2:50 min/km. Et pace som han holder i et helt maraton.
+Det svarer til, at han har løbet 21,16 km/t i gennemsnit i hele løbet. 
 
-Hvor længe kan du klare det, når du får lov til at gribe udfordringen an i mindre intervaller?
+Det er en kilometertid på 2:50 min/km. Et pace som han holder i et helt maraton.
+
+Hvor længe kan du klare det samme pace, når du får lov til at gribe udfordringen an i mindre intervaller?
 
 ## Hvad er Ineos Challenge?
 
@@ -40,7 +45,7 @@ Er du klar til at tage udfordringen op?
 
 ## Hvordan laver du Kipchoge Challenge?
 
-Sådan fungerer Kipchoge Challenge.
+Sådan her fungerer Kipchoge Challenge.
 
 - Løb 200m. Hvil 2 minutter
 - Løb 400m. Hvil 2 minutter
@@ -52,7 +57,7 @@ Du kan enten **løbe på et [løbebånd](/guide-loebebaand/)**, hvor du bare ska
 
 Du kan også **løbe på en løbebane**, hvor det er let at vide, hvor langt du løber. Jeg har lavet en beregner, så du let kan udregne, hvor hurtigt du skal løbe de enkelte intervaller for at holde tempoet.
 
-Beregneren gør det også muligt at omdøbe løbe-udfordringen, fx til verdensrekordholderen for kvinder. Du kan også let finde den [nødvendige hastighed i vores paceberegner](/hastighed/).
+Beregneren gør det også muligt at omdøbe løbe-udfordringen, fx til verdensrekordholderen for kvinder. Du kan også let finde den nødvendige [hastighed i vores paceberegner](/hastighed/).
 
 ## Kipchoge Challenge beregner
 
@@ -67,21 +72,31 @@ Her er nogle udvalgte løbetider, som du kan prøve at løbe efter. Du kan bare 
 | Person | Challenge | Tid | Hastighed |
 |-|-|-|
 | Eluid Kipchoge, Kenya | Ineos Challenge 2019 | 1:59:40 | 21,16 km/t |
-| Eluid Kipchoge, Kenya | Berlin Maraton Mænd 2018 | 2:01:39 | 20,81 km/t |
+| Eluid Kipchoge, Kenya | Berlin Maraton Mænd 2022 | 2:01:09 | 20,90 km/t |
 | Brigid Kosgei, Kenya | Chicago Marathon Kvinder 2019 | 2:14:04 | 18,89 km/t |
 | Henrik Jørgensen, Danmark | Dansk rekord på maraton 1985 | 2:09:43 | 19,52 km/t |
 | Dorthe Skovshoved Rasmussen | Dansk rekord for kvinder på maraton 1989 | 2:29:34 | 16,93 km/t |
 
 ## Hvordan klarer andre sig i løbeudfordringen?
 
-Det er en vanvittig udfordring at skulle løbe i tempoet for verdensrekordholderne.
+Det er en vanvittig udfordring at skulle løbe i samme tempo som verdensrekordholderne.
 
 Se, hvordan den tidligere olympiske løber, Nick Symmonds, klarede sig i denne udfordring:
 
 {% include video provider="youtube" id="mqupmANUIqQ" %}
 
-Wow! Det kommer til at være hårdt, og du skal presse dig selv. Det kræver helt sikkert, at du får styr på [din løbeteknik]({% link _posts/2020-08-16-loebeteknik.md %}).
+Wow!
+
+Det kommer til at være hårdt, og du skal presse dig selv. Det kræver helt sikkert, at du får styr på [din løbeteknik](/loebeteknik/).
 
 ## Udskriv løbeudfordringen
 
 {% include gallery %}
+
+## Konklusion
+
+Kipchoge Challenge foregår som [intervalløb](/intervallob-intervaltraening/), så det kan være en sjov tilføjelse til din træning.
+
+Når du laver [intervaltræning](/intervaltraening/), så kan du gøre det på forskellige måder. Over tid så kan du forhåbentlig blive bedre og bedre til at holde tempoet i flere intervaller.
+
+De fleste skal nok omdøbe deres challenge til en af løberne, der løber lidt langsommere end Kipchoge, hvis man skal have en chance. Tempoet svarer jo til at løbe 100 meter på omkring 17 sekunder.
