@@ -85,7 +85,7 @@ Det kan sættes på følgende formel:
 
 Hvis minutvolumen skal være konstant og slagvolumen er faldet, så bliver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj. Derfor falder hvilepulsen, når du kommer i bedre form.
 
-**Læs**: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/).
+Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/).
 
 ## Hvad påvirker din hvilepuls?
 

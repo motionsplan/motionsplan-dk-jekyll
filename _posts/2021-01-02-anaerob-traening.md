@@ -41,7 +41,7 @@ Grundlæggende har mennesket to energisystemer. Det aerobe system kan levere ene
 
 I **modsætning til aerob træning**, der primært retter sig mod at forbedre kredsløbet (hjerte, lunger og blodkredsløbet), så er anaerob træning rettet mod at forbedre musklernes ydeevne under højintenst og maksimalt arbejde. Der er dog overlap mellem energisystemerne, så når du træner aerobt med høj intensitet, så forbedrer du til en vis grad din anaerobe kapacitet, og tilsvarende kan der ske forbedringer i det aerobe system ved at træne anaerobt.
 
-**Læs**: [Energisystemer 101: Alt om det aerobe og anaerobe energisystem](/energisystemer/)
+Læs: [Energisystemer 101: Alt om det aerobe og anaerobe energisystem](/energisystemer/)
 
 ## ATP fra det anaerobe system
 

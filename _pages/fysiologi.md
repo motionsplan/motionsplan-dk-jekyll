@@ -68,7 +68,7 @@ Studiet af træningsfysiologi hjælper os med at forstå, hvordan kroppen funger
 
 Anatomi er studiet af kroppens opbygning og fysiske struktur, mens fysiologi er studiet af, hvordan kroppen og kroppens strukturer fungerer.
 
-**Læs**: [Hvad er forskellen på anatomi og fysiologi?](/forskel-anatomi-fysiologi/)
+Læs: [Hvad er forskellen på anatomi og fysiologi?](/forskel-anatomi-fysiologi/)
 
 ## Kroppens fysiologiske overlevelsesmekanismer
 

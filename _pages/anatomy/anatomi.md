@@ -154,19 +154,19 @@ De tre grundelementer i bevægeapparatets anatomi er:
 
 Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig. Knoglerne opdeles i forskellige knogletyper.
 
-**Læs**: [Skelettet, knogler og knogletyper 🦴](/knogler/)
+Læs: [Skelettet, knogler og knogletyper 🦴](/knogler/)
 
 ### 2. Led, ledtyper og ledbevægelser 🔧
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
 
-**Læs**: [Led, ledtyper og ledbevægelser 🔧](/anatomi/)
+Læs: [Led, ledtyper og ledbevægelser 🔧](/anatomi/)
 
 ### 3. Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪
 
 Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk.
 
-**Læs**: [Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪](/muskler/)
+Læs: [Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪](/muskler/)
 
 ## Bevægelsesanalyse og anatomi
 

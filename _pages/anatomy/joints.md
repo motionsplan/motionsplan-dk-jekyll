@@ -2,6 +2,7 @@
 layout: single
 title: &title "Led, ledtyper og ledbevægelser 🔧"
 seo_title: "Hvad er et led? Forskellige ledtyper og ledbevægelser"
+description: "Her får du en oversigt over led i kroppen. Vi kigger på kroppens uægte og ægte led og deler dem i ledtyper, bevægelsestyper og bevægelsesplaner."
 excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 header:
@@ -130,7 +131,9 @@ Ledbånd kender vi f.eks fra underbenet og foden, hvor tilstødende knogler hold
 
 En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød kerne. Fibrene gør, at leddets knogler ikke kan trækkes væk fra hinanden, fuldstændigt som ved et ledbånd. Den bløde kerne gør, at leddets knogler heller ikke kan presses sammen, og dette er specielt for symfyser.
 
-Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og derved udvide sig mod siderne. Det forhindres imidlertid af ledbåndsfibrene, der ligger hele vejen rundt om kernen, der således kommer til at virke som en stødpude mellem knoglerne. En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk. Det har vi brug for i rygsøjlen, der skal kunne bære stor vægt uden at hvirvlerne støder mod hinanden, så de er alle adskilt af symfyser. Leddet mellem de to skamben er også en symfyse.
+Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og derved udvide sig mod siderne. Det forhindres imidlertid af ledbåndsfibrene, der ligger hele vejen rundt om kernen, der således kommer til at virke som en stødpude mellem knoglerne.
+
+En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk. Det har vi brug for i rygsøjlen, der skal kunne bære stor vægt uden at hvirvlerne støder mod hinanden, så de er alle adskilt af symfyser. Leddet mellem de to skamben er også en symfyse.
 
 {% endcomment %}
 
@@ -157,18 +160,11 @@ Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 {% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
 Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/), så tjek følgende artikel.
-<<<<<<< HEAD
 
-**Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
-
-## Konklusion
-=======
-
-**Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
+Læs: [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
 
 ## Konklusion
 
->>>>>>> bb2c38b1701195bde755e114fe1093dbbfa9b808
 I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led der findes. Vi har også set på de bevægelser, der kan forekomme i et led, og hvordan disse bevægelser klassificeres. Endelig har vi udforsket de tre bevægelsesplaner, der definerer alle kroppens bevægelser.
 
 ## Ofte stillede spørgsmål

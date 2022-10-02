@@ -48,7 +48,7 @@ Hvis du træner før kroppen er fuldt restitueret, så vil du nedbryde kroppen y
 
 Det besværlige er at vide nøjagtigt, hvor lang tid man bør restituere.
 
-**Læs**: [Restitution: Hvornår kan jeg træne igen?](/restitution/)
+Læs: [Restitution: Hvornår kan jeg træne igen?](/restitution/)
 
 ## Hvad har betydning for restitutionstiden?
 

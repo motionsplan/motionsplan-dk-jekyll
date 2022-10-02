@@ -43,7 +43,7 @@ Samtidig med, at du bliver en mere udholdende idrætsudøver, så falder [din hv
 
 Alt dette gør, at iltoptagelsen øges og din kondition forbedres. Du kan læse uddybende om de forskellige parametre i nedenstående indlæg.
 
-**Læs**: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
+Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
 
 ## Aerob træning
 
@@ -51,7 +51,7 @@ Alt dette gør, at iltoptagelsen øges og din kondition forbedres. Du kan læse 
 
 Aerob betyder “med ilt”. Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til aerob træning, så snakker man typisk om de træningsformer, der normalt kategoriseres som konditionstræning.
 
-**Læs**: [Aerob træning: 5 forslag til at træne det aerobe system 💗](/aerob-traening/)
+Læs: [Aerob træning: 5 forslag til at træne det aerobe system 💗](/aerob-traening/)
 
 ## Anaerob træning
 
@@ -59,7 +59,7 @@ Aerob betyder “med ilt”. Når kroppen arbejder aerobt, så omsætter den kul
 
 Eller den kan være laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer [mælkesyre](/maelkesyre-traening/) som biprodukt. Det er særligt den type anaerob træning, der skaber træthedsstoffer og mælkesyre, som flere studier har vist kan være med til at flytte den iltoptagelsen og konditionen.
 
-**Læs**: [Anaerob træning: Øvelser og træningsprogram](/anaerob-traening/)
+Læs: [Anaerob træning: Øvelser og træningsprogram](/anaerob-traening/)
 
 ## Eksempler på konditionstræning
 
@@ -73,7 +73,7 @@ Mange bruger begrebet HIIT lidt i flæng for, men her bruger vi den oprindelige 
 
 Du kan læse meget mere om, hvordan HIIT skal forstås og udføres i nedenstående indlæg. Her finder du også et godt udgangspunkt for at lave dit eget kredsløbstræningsprogram.
 
-**Læs**: [HIIT-træning: Øvelser og træningsprogrammer](/hiit/)
+Læs: [HIIT-træning: Øvelser og træningsprogrammer](/hiit/)
 
 ### 2. Tærskel-træning med høj intensitet
 
@@ -95,7 +95,7 @@ Typisk er dette en træningszone, hvor kune en mindre del af din træning skal l
 
 Du kan læse mere om, hvordan du laver tempotræning i indlægget nedenfor. Du finder også et udgangspunkt for at lave dit eget kredsløbstræningsprogram.
 
-**Læs:** [Tempotræning: Hvad er det, og hvordan man gør det](/loebesiden-jack-daniels-loebeberegner/)
+Læs: [Tempotræning: Hvad er det, og hvordan man gør det](/loebesiden-jack-daniels-loebeberegner/)
 
 ### 4. Udholdenhedstræning
 
@@ -109,7 +109,7 @@ Før du begynder at lave konditionstræning, så kan det være en rigtig god ide
 
 Der er mange forskellige måder konditallet måles på. Du kan teste udåndingsluften
 
-**Læs**: [Konditionstests og konditests](/test-kondition-konditest-kondital/)
+Læs: [Konditionstests og konditests](/test-kondition-konditest-kondital/)
 
 ## Hvor ofte skal jeg træne?
 

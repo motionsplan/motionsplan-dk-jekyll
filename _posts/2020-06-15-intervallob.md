@@ -178,7 +178,7 @@ Eksempler på løbeintervaller, som skal forbedre den maksimale iltoptagelse:
 - [V<sub>max</sub>](/vmax-loeb/)
 - Se intervallerne i skemaet over intervalprogrammer i løb nedenunder
 
-**Læs**: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
+Læs: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
 
 ### 5. Tærskelintervaller
 

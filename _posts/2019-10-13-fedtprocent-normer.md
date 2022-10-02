@@ -151,7 +151,7 @@ Der er flere forskellige måder at måle fedtprocenten på. Lige fra den højtek
 
 Hvis du gerne vil have en ide om, hvad din fedtprocent er baseret på din alder, højde og vægt, så har forskere i mange studier forsøgt at lave nogle formler til at udregne fedtprocenten.
 
-**Læs**: [Fedtprocent beregner: Udregn fra alder, højde og vægt](/artikel/udregning-af-fedtprocent/)
+Læs: [Fedtprocent beregner: Udregn fra alder, højde og vægt](/artikel/udregning-af-fedtprocent/)
 
 
 {% comment %}

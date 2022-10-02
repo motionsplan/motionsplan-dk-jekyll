@@ -65,7 +65,7 @@ Vi har beskrevet mange flere testmuligheder i nedenstående indlæg.
 
 {% include feature_row id="feature_row_tests" type="left" %}
 
-**Læs**: [Konditionstests: Test din kondition og dit kondital](/test-kondition-konditest-kondital/)
+Læs: [Konditionstests: Test din kondition og dit kondital](/test-kondition-konditest-kondital/)
 
 ## Beregn kondital
 
@@ -102,13 +102,13 @@ For at arbejde skal kroppen bruge energi. Det er mest effektivt at nedbryde nær
 
 Vi dykker yderligere ned i de fysiologiske tilpasninger i det grundige indlæg herunder.
 
-**Læs**: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
+Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
 
 ## Hvad forstår man ved iltoptagelsen?
 
 Iltoptagelsen er den mængde ilt, der optages i forhold til et givent arbejde. Iltoptagelsen stiger gradvist jo hårdere du arbejder. På et tidspunkt arbejder du så hårdt, at kroppen ikke længere kan optage nok ilt til de energigivende aerobe processer. Der siger man, at man har opnået den maksimale iltoptagelse. Iltoptagelsen måles i liter ilt pr. minut.
 
-**Læs**: [Alt om den maksimale iltoptagelse og VO2max](/maksimale-iltoptagelse-vo2max/)
+Læs: [Alt om den maksimale iltoptagelse og VO2max](/maksimale-iltoptagelse-vo2max/)
 
 Jo mere intenst man arbejder, jo mere suppleres energifrigivelsen af de anaerobe processer, som kun kan levere ilt i relativt kort tid.
 
@@ -118,7 +118,7 @@ Jo mere intenst man arbejder, jo mere suppleres energifrigivelsen af de anaerobe
 
 Konditionstræning handler om at træne kredsløbet til bedre at kunne arbejde over længere tid. Konditionstræning skal både flytte din udholdenhed med træning af længere varighed og arbejde med en puls i nærheden af [din maksimale puls](/test-max-puls/). Du kan læse mere om at lave et træningsprogram til konditionstræning i dette indlæg.
 
-**Læs**: [Konditionstræning: Hvordan træner du din kondition?](/konditionstraening/)
+Læs: [Konditionstræning: Hvordan træner du din kondition?](/konditionstraening/)
 
 {% include figure image_path="https://images.unsplash.com/photo-1559503125-48103276f1b3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="løber i god kondition" %}
 
@@ -128,13 +128,13 @@ Når du skal arbejde med din maksimale ydeevne for at få et højt kondital, så
 
 Vi har skrevet en guide til intervaltræning, og hvad intervaller kan bruges til i træningen. Du kan også tjekke vores mere specifikke guides i [intervaltræning til løb](/intervallob-intervaltraening/) og [intervaltræning til cykling](/intervaltraening-cykling/).
 
-**Læs**: [Guide til intervaltræning og hvad der virker?](/intervaltraening/)
+Læs: [Guide til intervaltræning og hvad der virker?](/intervaltraening/)
 
 ## Hvor hurtigt bliver ens kondition dårligere?
 
 Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det kan gå, når du holder træningspause.
 
-**Læs**: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
+Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
 
 ## Ofte stillede spørgsmål
 

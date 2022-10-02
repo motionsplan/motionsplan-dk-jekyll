@@ -74,7 +74,7 @@ Igen skal du holde intensiteten lav på løbeturen, så du kan udnytte de gode e
 
 Du kan fx arbejde med 50-60% af din [pulsreserve]({% link _posts/2019-10-31-hrzones-puls.md %}). Et restitutionsløb kan vare fra 20 minutter til 60 minutter alt efter din nuværende form. Vælg gerne en rute, hvor underlaget måske er lidt blødere. Du kan læse mere om [løb og løbetræning](/loebesiden/).
 
-**Læs**: [Restitutionsløb: Løb langsomt for at løbe hurtigere](/restitutionsloeb/)
+Læs: [Restitutionsløb: Løb langsomt for at løbe hurtigere](/restitutionsloeb/)
 
 ## Konklusion
 

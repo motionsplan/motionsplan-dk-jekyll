@@ -37,7 +37,7 @@ Zwift tilbyder ogsået stort fællesskabsaspekt. Du kan følge andre ryttere, gi
 
 Hvis du leder efter en app, der både giver dig en god træning og er sjov, er Zwift en god mulighed.
 
-**Læs**: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
+Læs: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
 
 ## BKOOL
 
@@ -47,7 +47,7 @@ Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også
 
 Hvis du leder efter en app, der både giver dig en god træning og er sjov, er BKOOL en god mulighed.
 
-**Læs**: [Begynderguide til BKOOL](/bkool-begynderguide/)
+Læs: [Begynderguide til BKOOL](/bkool-begynderguide/)
 
 ## Royvu
 
@@ -55,7 +55,7 @@ Royvu er en anden fantastisk app til hometrainer, der giver dig en realistisk tr
 
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen indeholder også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring undervejs, og snakke med dem.
 
-**Læs**: [Royvu Beginner's Guide](/rouvy/)
+Læs: [Royvu Beginner's Guide](/rouvy/)
 
 ## RGT Cycling
 
@@ -63,7 +63,7 @@ RGT Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den 
 
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring sammen , og snakke med dem.
 
-**Læs**: [RGT Cycling anmeldelse](/rgt-cycling/)
+Læs: [RGT Cycling anmeldelse](/rgt-cycling/)
 
 ## Konklusion
 
