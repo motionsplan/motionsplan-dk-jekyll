@@ -34,6 +34,11 @@ Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalv�
 
 Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
 
+{% comment %}
+TODO
+## Hvad skal jeg veje?
+{% endcomment %}
+
 {% include lead-magnet-button.html %}
 
 ## Hvad er idealvægt?
