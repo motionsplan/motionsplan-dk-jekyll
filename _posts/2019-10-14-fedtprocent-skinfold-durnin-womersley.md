@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
@@ -59,14 +59,14 @@ I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topend
 
 | Alder |	Formler for mænd	      | Formler for kvinder     |
 |-------------|---------------------------|---------------------------|
-| < 17	      | D = 1.1533 - (0.0643 X L)	| D = 1.1369 - (0.0598 X L) |
-| 17-19	      | D = 1.1620 - (0.0630 X L)	| D = 1.1549 - (0.0678 X L) |
-| 20-29	      | D = 1.1631 - (0.0632 X L)	| D = 1.1599 - (0.0717 X L) |
-| 30-39	      | D = 1.1422 - (0.0544 X L)	| D = 1.1423 - (0.0632 X L) |
-| 40 -49	    | D = 1.1620 - (0.0700 X L)	| D = 1.1333 - (0.0612 X L) |
-| > 50	      | D = 1.1715 - (0.0779 X L)	| D = 1.1339 - (0.0645 X L) |
+| < 17	      | D = 1,1533 - (0,0643 X L)	| D = 1,1369 - (0,0598 X L) |
+| 17-19	      | D = 1,1620 - (0,0630 X L)	| D = 1,1549 - (0,0678 X L) |
+| 20-29	      | D = 1,1631 - (0,0632 X L)	| D = 1,1599 - (0,0717 X L) |
+| 30-39	      | D = 1,1422 - (0,0544 X L)	| D = 1,1423 - (0,0632 X L) |
+| 40 -49	    | D = 1,1620 - (0,0700 X L)	| D = 1,1333 - (0,0612 X L) |
+| > 50	      | D = 1,1715 - (0,0779 X L)	| D = 1,1339 - (0,0645 X L) |
 
-Hvor D = estimeret density af kroppen (g/ml), og L = log af den totale sum af de 4 skinfolds (mm)
+Hvor D = estimeret densitet af kroppen (g/ml), og L = log af den totale sum af de 4 skinfolds (mm)
 
 Læg mærke til at Durnin og Womersley-formlerne tager højde for alderen. Det skyldes, at ældre mennesker i hovedreglen begynder at deponere mere fedt omkring de indre organer, hvilket naturligvis ikke vil vise sig i en hudfoldsmåling.
 

@@ -187,7 +187,7 @@ Lad os sammenfatte nogle gode kostråd, som tallerkenmodellerne skal understøtt
 
 Drik omkring to liter vand hver dag (cirka 8 glas i alt). Drik gerne 2 glas allerede fra morgenstunden. Du har svedt i løbet af natten. Du skal drikke mere, hvis du vejer meget eller træner meget. Læg mærke til, at der står **vand** og ikke sukkerholdige væsker, som fx sodavand, saftevand og juice.
 
-**Læs**: [Hvor meget vand har man brug?](/hvor-meget-vand-skal-man-drikke-om-dagen/)
+Læs: [Hvor meget vand har man brug?](/hvor-meget-vand-skal-man-drikke-om-dagen/)
 
 ### 2. Spis rigeligt med grøntsager
 

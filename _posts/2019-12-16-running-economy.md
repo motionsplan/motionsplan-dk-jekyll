@@ -220,7 +220,7 @@ Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du
 - Spændstighed i sener og ligamenter
 - Din styrke
 
-Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her]({% link _posts/2020-08-16-loebeteknik.md %}).
+Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her](/loebeteknik/).
 
 ## Kan man træne sin løbeøkonomi?
 

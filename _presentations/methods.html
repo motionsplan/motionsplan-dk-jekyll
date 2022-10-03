@@ -171,7 +171,7 @@ title: Træningsmetoder
 {% if m.teaser != "" %}
 <section>
 <div class="wrap">
-  <img class="alignright size-40" src="{{ m.teaser | relative_url }}" alt="{{ m.title }}">
+  <img class="alignright size-40" src="{{ m.image | relative_url }}" alt="{{ m.title }}">
   <h2>{{ m.title }}</h2>
   {{ m.excerpt | markdownify }}
 </div>

@@ -1,10 +1,10 @@
 ---
 title: &title "SMART-modellen: Gør din målsætning SMART og nå nye mål!"
 seo_title: "SMART-modellen: Nå dine mål med en målsætning [Eksempel]"
+description: "Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!"
 permalink: /smart/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Estée Janssens on Unsplash
@@ -16,25 +16,26 @@ tags:
   - mål
   - vaner
   - modeller
-last_modified_at: 2020-07-01T08:14:14Z
-toc: true
+last_modified_at: 2022-10-01T08:14:14Z
 ---
 
-Jeg sætter ofte nye målsætninger, og jeg bruger SMART-modellen til at formulere mine egne mål. Her giver jeg et eksempel på, hvordan du laver en målsætning.
+Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!
 
 Målsætning er et rigtig godt redskab til at **garantere fremgang i din træning**.
 
-Jeg arbejder selv struktureret med målsætning - og jeg har opstillet nogle mål for min træning, som jeg gerne vil opfylde.
+Jeg arbejder selv struktureret med målsætning - og jeg har opstillet nogle mål for min træning, som jeg gerne vil opfylde. Jeg bruger SMART-modellen til at formulere mine egne mål.
 
-I dette får du svar på følgende spørgsmål:
+Her får du et eksempel på, hvordan du laver en målsætning.
+
+I dette indlæg får du svar på følgende spørgsmål:
 
 - Hvordan kan jeg lave en SMART-målsætning?
-- Hvordan ser et eksempel ud på en målsætning, der er lavet efter SMART-modellen?
+- Hvordan ser et eksempel ud på en målsætning, der er lavet efter en SMART-model?
 - Hvordan opnår jeg mine mål?
 
 Husk at få læst helt til slutningen af indlægget. Det er nemlig ikke nok at lave en målsætning. Du skal også lave en plan for, hvordan du vil opfylde din målsætning.
 
-{% include figure image_path=page.header.overlay_image caption=page.title alt="smart målsætning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption=page.title alt="smart målsætning" %}
 
 ## Fordele ved at have en målsætning
 
@@ -191,29 +192,29 @@ Så hvis dit SMART-mål er et langsigtet mål, så skal du altså lave flere kor
 
 Jeg har lavet et papir som kan støtte dig i at lave en SMART-målsætning.
 
-### 1) Identificer dine målsætninger.
+### 1. Identificer dine målsætninger.
 
 Tag et stykke papir og start med at skrive dine målsætninger ned. Målsætningerne skal være formuleret som _“Jeg vil tage 100 armstrækninger inden den 20. december”_.
 
 Skriv maksimalt 7 målsætninger på dit stykke papir.
 
-### 2) Klargør dine målsætninger.
+### 2. Klargør dine målsætninger.
 
 Tag nu et nyt stykke papir, hvor overskriften skal være dit mål. På dette stykke papir svarer du på følgende spørgsmål.
 
-### 3) Motivation for målsætningen.
+### 3. Motivation for målsætningen.
 
 Hvorfor er dette mål væsentligt for dig. Skriv 3-5 årsager til at du har valgt dette mål.
 
-### 4) Hvad er de næste handlinger
+### 4. Hvad er de næste handlinger
 
 Hvad er de næste handlinger**, du bliver nødt til at lave for at opnå målsætningen?
 
-### 5) Fremskridtsrapport
+### 5. Fremskridtsrapport
 
 Du skal følge dit fremskridt, hvis du skal blive bedre eller komme tættere på din målsætning.
 
-### 6) Følg op på dine målsætninger
+### 6. Følg op på dine målsætninger
 
 Du bør mindst en gang om ugen kigge på dit papir med målsætninger - og sørge for jævnligt at følge op på målsætningerne og notere, hvordan det går - eller om målsætningerne skal justeres, fx hvis du er blevet skadet, eller målet ikke er så vigtigt for dig længere.
 
@@ -221,8 +222,6 @@ Gå i gang allerede i dag med at identificere dine mål. Afsæt en time og få s
 
 ## Gratis skabelon til dine mål
 
-Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. Du kan hente den ved at klikke på [kortlink.dk/fmq8](http://kortlink.dk/fmq8).
+Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. Du kan hente den ved at klikke på [kortlink.dk/fmq8](https://kortlink.dk/fmq8).
 
-## Bliv klogere om SMART målsætning
-
-- Mads Davidsen (2015): [Write down your goals for 2015 - the way to success](https://madsdavidsen.com/blog/set-goals-targets-or-not), madsdavidsen.com
+Nu er du klar til at nå dit mål!

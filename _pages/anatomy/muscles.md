@@ -1,7 +1,9 @@
 ---
 layout: single
 title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
-excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
+seo_title: "Muskler i kroppen: Muskelgrupper og muskeloversigt"
+description: Har du brug for en oversigt over alle muskler i kroppen? Her er en muskeloversigt fordelt på muskelgrupper og muskelanatomi.
+excerpt: "Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
 header:
   overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60
@@ -35,6 +37,8 @@ faq:
     answer: "Den mindste muskel i menneskekroppen er stapedius, som hæfter til bøjlebenet i mellemøret."
 ---
 
+Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler på latin og dansk.
+
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. De er knyttet til skelettet og arbejder sammen med nervesystemet for at skabe bevægelse.
 
 Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres [anatomi](/anatomi/). Derefter kigger jeg på de forskellige muskelgrupper.
@@ -59,7 +63,7 @@ Teorien om "sliding filaments" er den mest populære forklaring på, hvordan en 
 
 {% include video provider="youtube" id="7V-zFVnFkWg" %}
 
-**Læs**: [Sliding Filament Teorien: Hvordan trækker musklen sig sammen?]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
+Læs: [Sliding Filament Teorien: Hvordan trækker musklen sig sammen?]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
 
 ## Skeletmusklernes opdeling
 
@@ -102,7 +106,7 @@ Musklerne består af muskelfibre. Typen af muskelfibre bestemmes af, hvordan mus
 
 Jeg har skrevet meget mere om de forskellige muskelfibertyper i nedenstående indlæg.
 
-**Læs**: [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx](/muskelfibertyper/)
+Læs: [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx](/muskelfibertyper/)
 
 ## Muskler og muskelgrupper i kroppen
 

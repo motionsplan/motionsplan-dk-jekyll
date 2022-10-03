@@ -122,7 +122,7 @@ Der er en lang række metoder til at lave intervaltræning til løb. Jeg har for
 
 Da folk løber i meget forskellig tempo, så kan jeg godt lide at strukturere intervaltræning ud fra tid i stedet for tempo, men det er også meget almindeligt at bruge løbedistancer.
 
-Jeg har i det følgende skema brugt tid på intervallerne som styringsredskab. Det kan virkelig også betale sig at læse min [guide til kroppens energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}) for at få indblik i, hvor forskellig træning er, og hvad du har brug for at træne.
+Jeg har i det følgende skema brugt tid på intervallerne som styringsredskab. Det kan virkelig også betale sig at læse min [guide til kroppens energisystemer](/energisystemer/) for at få indblik i, hvor forskellig træning er, og hvad du har brug for at træne.
 
 Lad os kigge lidt på, hvilke typer intervaller der findes. Effekten af intervallerne afhænger naturligvis af, hvilken intensitet de løbes med.
 
@@ -178,7 +178,7 @@ Eksempler på løbeintervaller, som skal forbedre den maksimale iltoptagelse:
 - [V<sub>max</sub>](/vmax-loeb/)
 - Se intervallerne i skemaet over intervalprogrammer i løb nedenunder
 
-**Læs**: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
+Læs: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
 
 ### 5. Tærskelintervaller
 
@@ -254,6 +254,6 @@ Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metod
 
 ## Konklusion
 
-Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}). Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
+Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer](/energisystemer/). Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning](/artikel/traeningsprogrammer-intervaller-roning/). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
 
 I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket energisystem du gerne vil træne.

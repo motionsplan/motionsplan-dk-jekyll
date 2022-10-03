@@ -92,6 +92,6 @@ Hvis du ved noget mere om forskningen om Runner's High, så brug endelig komment
 
 ## Konklusion
 
-Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig *ikke* få Runner's High, hvis du laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/).
+Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig *ikke* få Runner's High, hvis du laver [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/).
 
 Runner's High opstår formentlig som en kombination af endorfiner og det endocannabinoide system.

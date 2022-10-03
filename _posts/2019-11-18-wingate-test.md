@@ -111,7 +111,7 @@ For at forbedre din anaerobe kapacitet og power, som er nødvendige for at få e
 
 Du kan faktisk bruge Wingate testen som en form for træning. Det er en meget brugt protokol at køre allout i 30 sekunder, holde en pause i 30 sekunder til 5 minutter alt efter formålet med intervallerne. Det kan du så gentage 2-6 gange alt efter hvilket niveau af lidelse, du kan tåle.
 
-Du kan også bruge Wingate-testen som [anaerob træning]({% link _posts/2019-11-18-wingate-test.md %}). Du kan fx køre 2-4 gentagelser som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+Du kan også bruge Wingate-testen som [anaerob træning](/wingate/). Du kan fx køre 2-4 gentagelser som [intervaltræning](/intervallob-intervaltraening/).
 
 ## Resultatark til Wingate test
 

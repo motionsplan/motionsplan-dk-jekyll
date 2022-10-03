@@ -30,7 +30,7 @@ At være effektiv handler om at få mest mulig træningseffekt for færrest muli
 
 Når du løber med høj intensitet i træningen, så får du både effekt på den maksimale iltoptagelse, den anaerobe tærskel og løbeøkonomien.
 
-Du kan udnytte [intervaltræning til løb]({% link _posts/2020-06-15-intervallob.md %}), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
+Du kan udnytte [intervaltræning til løb](/intervallob-intervaltraening/), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
 
 Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utrolig effektivt. [Motion-online.dk](https://web.archive.org/web/20110606134040/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/){:rel="nofollow"} foreslår dette effektive løbeprogram:
 
@@ -64,7 +64,7 @@ Du kan lave programmet i en måned og reteste for at se, om ikke også programme
 
 Hvis du gerne vil opbygge din træning på en lidt anden måde, så kan du også følge nedenstående formular. Her træner du stadig tre gange om ugen, og den enkelte træning giver maksimalt udbytte på relativt kort tid. Fordelen ved denne fremgangsmåde er at du **sætter lidt mere fokus på udholdenheden også**.
 
-- **Dag 1**: [Intervalløb]({% link _posts/2020-06-15-intervallob.md %}) + 3-5 stigningsløb
+- **Dag 1**: [Intervalløb](/intervallob-intervaltraening/) + 3-5 stigningsløb
 - **Dag 2**: Tempotur - fx 5 kilometer omkring den anaerobe tærskel + 3-5 bakkesprints
 - **Dag 3**: En lidt længere tur med lidt lavere intensitet
 

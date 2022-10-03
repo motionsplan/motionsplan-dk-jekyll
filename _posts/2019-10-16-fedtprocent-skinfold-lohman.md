@@ -1,10 +1,12 @@
 ---
 title: "Lohman formlen: Mål fedtprocent for børn 8-18 år"
 permalink: /lohman-fedtprocent-boern/
+redirect_from:
+  - /skinfold-lohman/
 excerpt: "Lohman-formlen kan bruges til at teste børn fra 8-18 år. Hudfoldene måles ved triceps og på læggen."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent
@@ -29,7 +31,9 @@ feature_row:
 
 Lohman-formlen er en enkel måling af fedtprocent hos børn mellem 8-18 år baseret på hudfoldsmålinger. Den kræver bare to målinger af hudfoldstykkelsen ved triceps og ved læggen.
 
-Lohman-formlen bruges som reference i mange større undersøgelser med børn. Der findes mange andre lignende [fedtmålinger med fedttang for voksne](/skinfold/).
+Lohman-formlen bruges som reference i mange større undersøgelser med børn. I studier af danske skolebørn, har man imidlertid brugt [Slaughter-formlen](/slaughter-fedtprocent-boern/).
+
+Der findes mange andre lignende [fedtmålinger med fedttang for voksne](/skinfold/). Læs den artikel grundigt igennem for alle faldgruberne om fedtprocent-målinger.
 
 ## Instruktion til Lohman-formlen
 
@@ -57,7 +61,11 @@ Jeg bruger i beregneren formlen som præsenteres på [www.topendsports.com](http
 
 ## Konklusion
 
-Lohman-formlen kan bruges til at estimere fedtprocenten for børn. Metoden er dog mest anvendelig til at sammenligne hudfoldstykkelserne for børnene over tid, hvis de har behov for at tabe sig. Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI beregner til børn og unge](/bmi-beregner-boern-unge-teenagere/).
+Lohman-formlen kan bruges til at estimere fedtprocenten for børn.
+
+Metoden er dog mest anvendelig til at sammenligne hudfoldstykkelserne for børnene over tid, hvis de har behov for at tabe sig. 
+
+Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI beregner til børn og unge](/bmi-beregner-boern-unge-teenagere/).
 
 ## Referencer
 
@@ -65,7 +73,7 @@ Lohman-formlen kan bruges til at estimere fedtprocenten for børn. Metoden er do
   <summary>Se referencer</summary>
 
 - Lohman, T.G.: The use of skinfolds to estimate body fatness on children and youth. Journal of physical education, recreation and dance, 58(9):67, 69, 1987.
-- Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 2014. “Skinfold Equations for Estimation of Body Fatness in Children and Youth”. Human Biology 60 (5). <https://digitalcommons.wayne.edu/humbiol/vol60/iss5/4>.
+- Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 2014. “[Skinfold Equations for Estimation of Body Fatness in Children and Youth](https://www.researchgate.net/publication/19931264_Skinfold_Equations_for_Estimation_of_Body_Fatness_in_Children_and_Youth)”. Human Biology 60 (5).
 </details>
 
 ## Køb en hudfoldsmåler

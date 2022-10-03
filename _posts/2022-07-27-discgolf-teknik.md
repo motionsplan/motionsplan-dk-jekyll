@@ -1,7 +1,7 @@
 ---
-title: &title "Teknik i discgolf: Hvordan kaster man i discgolf?"
+title: &title "Teknik i discgolf: Hvordan kaster man en golfdisc?"
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
-excerpt: "Det er ikke så let at kaste en golfdisc til discgolf, som det ser ud til at være. Her er nogle tips til, hvordan du kaster en golfdisc, når du spiller frisbeegolf."
+excerpt: "Vil du gerne lære at kaste en golfdisc i discgolf? Her er nogle tips til, hvordan du kaster en frisbee, når du spiller frisbeegolf."
 permalink: /discgolf-teknik/
 language: da
 header:

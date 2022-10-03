@@ -14,13 +14,14 @@ tags:
 last_modified_at: 2020-11-19T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://playr.catapultsports.com/wp-content/themes/playr/assets/images/home2/system.png?v1.3
-    url: https://playr.catapultsports.com/eu/
+  - image_path: https://cdn.shopify.com/s/files/1/0010/8091/8081/t/120/assets/kit.jpg?v=148305553389522072821660646143
+    url: https://one.catapultsports.com/eu/
     alt: "Playertek"
     title: "Playertek"
     excerpt: "Playr fra Playertek er den eneste tracker til fodbold, der kombinerer den seneste GPS teknologi og aktivitetstracker, som du kan bruge til at individualisere din træning. Playr er perfekt til alle, der synes det er sjovt at tracke sin træning."
     btn_class: "btn--info"
     btn_label: "Køb Playr football gps tracker"
+    rel: nofollow noopener
 ---
 
 Playr fra Playertek er en GPS-tracker, aktivitetstracker og accelerometer, som kan bruges til at _tracke_ fodbold og andre idrætsgrene.

@@ -1,7 +1,7 @@
 ---
 title: &title "Mælkesyre: Hvorfor syrer dine muskler til?"
 seo_title: "Mælkesyre: Hvorfor syrer dine ben ved hård træning?"
-description: "Hvorfor opstår mælkesyre i musklerne i forbindelse med træning? Få svaret på, hvorfor kroppen syrer til under træning og der kommer laktat i blodet."
+description: "Hvorfor får du mælkesyre i musklerne i forbindelse med træning? Få svaret på, hvorfor kroppen syrer til under træning og der kommer laktat i blodet."
 permalink: /maelkesyre-traening/
 last_modified_at: 2021-01-20T09:41:09Z
 language: da
@@ -22,8 +22,6 @@ tags:
 
 Jeg oplever ofte, at folk bliver forvirrede over, hvorfor og hvordan mælkesyre opstår i musklerne i forbindelse med træning. Derfor har jeg researchet lidt på mælkesyre i musklerne i forbindelse med træning, og hvorfor kroppen syrer til under træning.
 
-Hvad er mælkesyre? **Mælkesyre er et biologisk nedbrydningsprodukt, som dannes ved mikrobielle gæringsprocesser og ved metabolske processer i kroppen. Mælkesyre fremkommer bl.a. når mennesket spalter glykose for at skabe energi til musklerne i forhold uden ilt.**
-
 I dette indlæg vil du måske blive overrasket over, at **mælkesyre IKKE er årsag til træthed i musklerne**. Derudover kan du læse om følgende:
 
 - Hvad er mælkesyre?
@@ -32,9 +30,13 @@ I dette indlæg vil du måske blive overrasket over, at **mælkesyre IKKE er år
 - Hvad er forskellen på mælkesyre og laktat?
 - Hvordan nedbrydes og fjernes mælkesyre i muskler, lever og nyrer?
 
+## Hvad er mælkesyre?
+
+**Mælkesyre er et biologisk nedbrydningsprodukt, som dannes ved mikrobielle gæringsprocesser og ved metabolske processer i kroppen. Mælkesyre fremkommer bl.a. når mennesket spalter glykose for at skabe energi til musklerne i forhold uden ilt.**
+
 ## Energiomsætning uden ilt skaber mælkesyre 
 
-Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning]({% link _posts/2019-11-14-energisystemer-101.md %}). Meget anstrengende arbejde kan fx være [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
+Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning](/energisystemer/). Meget anstrengende arbejde kan fx være [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
 
 Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hvis du bruger [Borgskalaen til at vurdere intensiteten og anstrengelsen]({% link _posts/2020-06-18-borg-skala.md %}) nærmer arbejdet sig altså maksimal intensitet på Borg 18-20.
 
@@ -72,13 +74,13 @@ Når du laver let til moderat arbejde, så er der ilt nok til stede i musklerne 
 
 Hvad er mælkesyrebalancen? **Mælkesyrebalancen er en kombination af den mængde mælkesyre, der produceres, og den mængde mælkesyre, der fjernes igen.**
 
-## Mælkesyre og træthed i musklerne
+## Mælkesyre og træthed i musklerne under træning
 
 Mange anser stadig mælkesyre for at være hovedårsagen til muskeltræthed, som fx i denne artikel fra [aktivtraening.dk](https://aktivtraening.dk/traening/maelkesyre-derfor-syrer-dine-muskler-til), men nyere forskning peger i en anden retning.
 
 Der er ingen tvivl om, at du ved hårdt, intensivt arbejde producerer mere mælkesyre og får højere koncentrationer af laktat i musklerne. Men det er faktisk ikke mælkesyrens skyld, at miljøet i musklerne forsures. Det kan rent biokemisk ikke lade sig gøre, at mælkesyren og laktat er skyld i forsuringen.
 
-Musklernes funktion hæmmes således ikke af selve mælkesyren. Måske [beskytter mælkesyre i virkeligheden musklerne](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), og der er sket meget med [forskningen i laktat og mælkesyre gennem tiden](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192418/).
+Musklernes funktion hæmmes således ikke af selve mælkesyren. [Måske](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/) beskytter mælkesyre i virkeligheden musklerne, og der er sket meget med [forskningen](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192418/) i laktat og mælkesyre gennem tiden.
 
 Forsuringen i musklerne sker formentlig pga. andre processer, fx forskellige kinase-reaktioner.
 
@@ -92,11 +94,11 @@ Denne forskel i koncentration af kalium er en forudsætning for, at cellerne kan
 
 Under hårdt intensivt arbejde afgives der kalium til væsken uden om muskelcellerne. Dermed forskydes den naturlige fordeling af kalium i kroppen. I yderste instans så kan musklerne ikke længere opfatte signalerne fra hjernen pga. forskydningen i kaliumbalancen.
 
-Nogle danske forskere har foreslået, at [mælkesyre er med til at beskytte musklerne mod denne lammelse](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), mens andre forskere konkluderer, at [mælkesyre ikke beskytter musklerne mod træthed i aktive muskler](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665519/).
+Nogle danske forskere har foreslået, at mælkesyre er med til at [beskytte musklerne mod denne lammelse](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), mens andre forskere konkluderer, at mælkesyre [ikke beskytter musklerne mod træthed i aktive muskler](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665519/).
 
 ## Udnyt mælkesyren i musklerne
 
-Aktiv Træning foreslår, at man kan [udnytte teorien om, at mælkesyre beskytter musklerne mod træthed](https://aktivtraening.dk/traening/maelkesyre-derfor-syrer-dine-muskler-til) i sin træning.
+[Aktiv Træning](https://aktivtraening.dk/traening/maelkesyre-derfor-syrer-dine-muskler-til) foreslår, at man kan udnytte teorien om, at mælkesyre beskytter musklerne mod træthed i sin træning.
 
 De foreslår, at man gør følgende i sin almindelige træning:
 
@@ -127,9 +129,9 @@ Cori cyklus er en cyklus, hvor muskler nedbryder glukose til laktat. Derefter fr
 
 Hvad fordelingen er af omsætningen mellem de forskellige vævstyper under og lige efter aktivitet, har jeg ikke kunnet finde ud af.
 
-Tidligere troede man, at der blev produceret eksponentielt mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
+Tidligere troede man, at der blev produceret eksponentielt mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok, fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
 
-Det ser ud til, at [nyrere fortsætter med at fjerne mælkesyre under moderat arbejde](https://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
+Det ser ud til, at [nyrerne fortsætter med at fjerne mælkesyre under moderat arbejde](https://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
 
 I træningsfysiologien snakker man om den [anaerobe tærskel eller mælkesyretolerancetærsklen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) som det tidspunkt, hvor kroppen netop kan nå at fjerne den ekstra mælkesyre, der produceres.
 
@@ -157,6 +159,6 @@ Selvom man ved mere om den anaerobe tærskel, så er der ikke fuldstændig enigh
 
 Du kan træne din evne til at udholde mælkesyre i kroppen. Jeg er fortaler for, at man træner alle kroppens energisystemer, og glykolytisk arbejde med mælkesyre er en af formerne. Typisk kræver det maksimalt arbejde i 30 sekunder til 2 minutter.
 
-Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}), [rointervaller]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}) eller en [prowler]({% link _posts/2020-08-07-prowler.md %}), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen]({% link _posts/2019-11-18-wingate-test.md %}).
+Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}), [rointervaller](/artikel/traeningsprogrammer-intervaller-roning/) eller en [prowler](/prowler/), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb](/intervallob-intervaltraening/) og [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen](/wingate/).
 
-Hvis du er interesseret i at læse mere om [kroppens energisystemer og aerob og anaerob energiforsyning]({% link _posts/2019-11-14-energisystemer-101.md %}), så har jeg skrevet en lidt grundigere artikel om det.
+Jeg har skrevet en grundig artikel om [kroppens energisystemer og aerob og anaerob energiforsyning](/energisystemer/).

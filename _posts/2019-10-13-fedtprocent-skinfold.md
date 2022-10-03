@@ -4,8 +4,6 @@ seo_title: &title "Fedtprocentmåling: Mål din fedtprocent med en fedttang"
 permalink: /skinfold/
 redirect_from:
   - /artikel/fedtprocent-skinfold/
-  - /skinfold-lohman/
-  - /skinfold-slaughter/
 excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en hudfoldsmåler. Lær mere om meste almindelige metoder til fedtmåling med en fedttang."
 language: da
 header:

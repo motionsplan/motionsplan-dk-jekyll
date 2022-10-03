@@ -194,7 +194,7 @@ Dine træningszoner kan styres på flere forskellige måder.
 - **Watt**. Du har brug for særligt udstyr for at bruge watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [wattmåling til løb](/loeb-watt/). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp-power.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
 
-Ved at tænke træningen ind i forskellige træningszoner, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af træningen.
+Ved at tænke træningen ind i forskellige træningszoner, kan man tage højde for [kroppens forskellige energisystemer](/energisystemer/), som er nødvendige for effekten af træningen.
 
 Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på forskellige måder. Du behøver ikke tænke så meget over de enkelte forkortelser. De skal først bruges, når du har valgt en måde at regne de enkelte zoner ud.
 
@@ -239,7 +239,7 @@ Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 
-Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
+Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer](/energisystemer/), som er nødvendige for effekten af løbetræningen.
 
 Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver løbetræningen forhåbentlig også mere inspirerende.
 
@@ -361,7 +361,7 @@ Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arb
 
 *[HRR]: Heart Rate Reserve
 
-For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/). Typisk vil intervallerne ligge på 2-5 minutter ad gangen for at opnå den bedste effekt af træning i dit løbeprogram.
+For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/). Typisk vil intervallerne ligge på 2-5 minutter ad gangen for at opnå den bedste effekt af træning i dit løbeprogram.
 
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
 
@@ -371,7 +371,7 @@ Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltopt
 
 ### Intervaltræning
 
-Når man laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
+Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
 
 Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
 

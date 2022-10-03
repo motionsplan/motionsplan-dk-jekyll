@@ -34,7 +34,7 @@ gallery:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
     title: Det respiratoriske system - Anatomi plakat
-  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
+  - image_path: "https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
     title: "Blodkredsløbet - Anatomi plakat"
     vendor: "Citatplakat.dk"
@@ -68,7 +68,7 @@ Studiet af træningsfysiologi hjælper os med at forstå, hvordan kroppen funger
 
 Anatomi er studiet af kroppens opbygning og fysiske struktur, mens fysiologi er studiet af, hvordan kroppen og kroppens strukturer fungerer.
 
-**Læs**: [Hvad er forskellen på anatomi og fysiologi?](/forskel-anatomi-fysiologi/)
+Læs: [Hvad er forskellen på anatomi og fysiologi?](/forskel-anatomi-fysiologi/)
 
 ## Kroppens fysiologiske overlevelsesmekanismer
 

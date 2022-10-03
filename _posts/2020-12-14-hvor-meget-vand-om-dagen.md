@@ -167,7 +167,7 @@ Du kan typisk også se på din urin, om du får nok væske. Hvis din urin er mø
 
 Mennesket består i høj grad af vand. Væskebalancen er livsvigtig for, at vores krop og hjerne kan fungere effektivt. Andelen af vand varierer med højden, vægten, køn og alder. Vores krop består af mellem 45 og 75 procent af vægten er vand.
 
-**Læs**: [Hvor meget vand har mennesket i kroppen?]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
+Læs: [Hvor meget vand har mennesket i kroppen?]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
 
 ## Hvordan får jeg nok væske på en dag?
 

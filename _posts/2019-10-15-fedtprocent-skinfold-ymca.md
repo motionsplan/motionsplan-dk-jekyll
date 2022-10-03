@@ -4,7 +4,7 @@ permalink: /skinfold-ymca/
 excerpt: "YMCA-metoden er baseret på Jackson & Pollocks formler, men specielt tilpasset YMCA's behov. Det betyder, at mænd og kvinder måles på de samme punkter, og hvis det volder problemer at måle på låret, så kan den måling let udelades."
 language: da
 header:
-  teaser: /assets/images/shutterstock/feedtmaaling-hudfoldsmaaling.jpg
+  teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
   - Test
   - Fedtprocent

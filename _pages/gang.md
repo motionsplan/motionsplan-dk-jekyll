@@ -72,7 +72,7 @@ Mange er interesserede i, hvor mange kalorier de forbrænder, når de går. Du [
 
 Regelmæssige gåture styrker både musklerne, dit kredsløb og din [kondition](/kondition/), hvis du sætter tempoet lidt op og vandrer gennem et kuperet terræn.
 
-**Læs**: [Få inspiration til din gåtur](/inspiration-til-gaature/)
+Læs: [Få inspiration til din gåtur](/inspiration-til-gaature/)
 
 At gå har altså en positiv indvirkning på din krop, men der er også mange mentale fordele ved gang. Det ser ud til, at det er et godt værn mod stress i en travl hverdag.
 

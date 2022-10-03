@@ -207,7 +207,7 @@ Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at 
 
 {% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten: Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
 
-**Læs**: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
+Læs: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
 
 Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
 
@@ -223,7 +223,7 @@ Kvinders fedtprocent er højere end mænds for det samme BMI. Jackson et al (200
 
 Mænds fedtprocent er lavere end kvindernes, fordi de relativt set har en større muskelmasse end kvinder.
 
-**Læs**: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
+Læs: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
 
 ## Ofte stillede spørgsmål om fedtprocent
 

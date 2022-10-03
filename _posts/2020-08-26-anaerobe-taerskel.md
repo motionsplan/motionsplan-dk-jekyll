@@ -82,7 +82,7 @@ Gennemsnitspulsen i arbejdstiden i testen kan fortolkes som den anaerobe tærske
 - **Løb**. Varm grundigt op i 15-20 minutter med stigende intensitet. Derefter løbet 30 minutter _all-out_ gerne på løbebane eller et andet sted, hvor du ikke risikerer at blive forstyrret undervejs. Fordelen er også at du her får en ret præcis distance, og bakker ikke forstyrrer testresultatet. Du kan fx læse om [FTPa: Threshold Pace til løb](/ftpa-loeb/).
 - **Cykling**. Det er en god ide at lave testen på en hjemmetræner eller en Wattbike, da det er lettest at kontrollere intensiteten her. Start med 15-20 minutters grundig opvarmning med stigende intenstitet. Kør i alt en halv time med høj intensitet, men brug gennemsnitspulsen fra de sidste 20 minutter. Du kan læse mere om [trappetest til cykling](/trappetest-cykel/) eller [FTP og Functional Threshold Power til cykling](/ftp-cykling/).
 
-Hvis du bruger pulsen som rettesnor for dine træningszoner, så skal du huske at pulsen er meget specifik i forhold til, om du laver et [roprogram på en romaskine]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}), løber eller cykler.
+Hvis du bruger pulsen som rettesnor for dine træningszoner, så skal du huske at pulsen er meget specifik i forhold til, om du laver et [roprogram på en romaskine](/artikel/traeningsprogrammer-intervaller-roning/), løber eller cykler.
 
 ## Pulszoner på baggrund af _lactate threshold heart rate (LTHR)_?
 

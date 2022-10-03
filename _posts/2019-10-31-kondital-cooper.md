@@ -279,7 +279,7 @@ Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimal
 
 Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
 
-**Læs**: [Konditionstræning og kredsløbstræning](/konditionstraening/)
+Læs: [Konditionstræning og kredsløbstræning](/konditionstraening/)
 
 ## Ofte stillede spørgsmål om Cooper testen
 

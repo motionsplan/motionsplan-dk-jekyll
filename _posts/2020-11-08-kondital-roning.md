@@ -167,7 +167,7 @@ Du kan finde de danske rekorder for roning på roergometer på [ergometertider.d
 
 ## Konklusion
 
-Hvis du gerne vil forbedre din maksimale iltoptagelse på et roergometer, så kan jeg anbefale at prøve nogle af disse [intervaller og roprogrammer]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}).
+Hvis du gerne vil forbedre din maksimale iltoptagelse på et roergometer, så kan jeg anbefale at prøve nogle af disse [intervaller og roprogrammer](/artikel/traeningsprogrammer-intervaller-roning/).
 
 {% comment %}
 
