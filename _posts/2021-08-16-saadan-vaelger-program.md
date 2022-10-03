@@ -53,7 +53,7 @@ De mest interessante programmer for langt de fleste er 2-split og 3-split-progra
 
 Når du skal vælge et splitprogram, så foreslår [Christian Thibaudeau](https://www.t-nation.com/training/best-workout-splits-bodybuilding/) en række parametre, som du med fordel kan kigge efter.
 
-### 1) Er der nok frekvens for hver muskelgruppe?
+### 1. Er der nok frekvens for hver muskelgruppe?
 
 Den nyeste forskning viser, at det er mere effektivt at ramme en muskelgruppe to gange om ugen frem for en - også selvom den samlede volumen er den samme. Det gælder uanset om vi snakker om muskelvækst eller muskelstyrke (Schoenfeld 2016; Ochi 2018). For nogle er det marginalt bedre at ramme musklerne 3 gange om ugen.
 
@@ -63,11 +63,11 @@ Bænkpres bliver ofte kategoriseret som en brystøvelse, men triceps og det forr
 
 Du behøver altså ikke have isoleret arbejde for muskelgrupperne. Du kan sagtens bruge de store flerledsøvelser. Når du skal vælge træningsprogram, så tjek at du rammer de enkelte muskelgrupper mindst 2 gange om ugen.
 
-### 2) Er der minimal negativ overførsel fra en træning til den næste?
+### 2. Er der minimal negativ overførsel fra en træning til den næste?
 
 Hvis du fx træner dine arme rigtig hårdt om mandagen, og tænker at du skal træne bryst og ryg om tirsdagen, så vil din træning tirsdag være negativt påvirket af mandagens strabadser.
 
-### 3) Er ratioen mellem arbejdsdage og restitutionsdage optimalt?
+### 3. Er ratioen mellem arbejdsdage og restitutionsdage optimalt?
 
 Nogle gange kan en rigtig høj frekvens virke, men kun hvis volumen og intensiteten i de enkelte træningspas holdes nede.
 

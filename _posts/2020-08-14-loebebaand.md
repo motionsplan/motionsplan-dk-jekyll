@@ -27,7 +27,7 @@ Løbebånd bruges også ofte nu om dage, hvis man skal have nye løbesko. Mange 
 
 Løbebåndet minder om et rullende hamsterhjul, men det kan også være brugbart. Lad os dykke lidt ned i, hvad løbebåndet kan bruges til, og hvordan man skal gribe træningen an på et løbebånd?
 
-### 1) Et løbebånd kræver tilvænning
+### 1. Et løbebånd kræver tilvænning
 
 Det er anderledes at løbe på et løbebånd end på en almindelig vej eller i skoven.
 
@@ -51,7 +51,7 @@ Der blev dog fundet forskelle i den måde skinnebenet bliver accelereret på, og
 
 Det har også været anført, at man på et løbebånd ikke aktiverer bagkæden på samme måde som i det frie løb, fordi man ikke skal skubbe sig selv fremad. Derfor har man opfundet _curve_ løbebånd, som bl.a. kan købes ses hos Woodway. Hvis du har studier ift. dette, så hjælp meget gerne med at forbedre artiklen ved at kommentere på løbebånd og muskelaktivering i kommentarerne.
 
-### 2) 1% forskel på at løbe på løbebånd og udenfor?
+### 2. 1% forskel på at løbe på løbebånd og udenfor?
 
 Du bruger lidt mindre ilt, når du løber på et fladt løbebånd sammenlignet med at løbe udenfor. Jones og Doust (1996) fandt i deres studium, at en hældning på omkring 1% på løbebåndet er med til at simulere det samme energiforbrug som bliver brugt på udendørs løb.
 
@@ -63,7 +63,7 @@ Kender du andre studier i forhold til _incline_ på løbebåndet, der kan gøre 
 
 Det bliver ofte foreslået, at knæsmerter kan reduceres ved at ændre sin landing til midtfod eller forfod, mens [løbere med overbelastede akillessener og lægmuskulatur kan fokusere på at lande længere tilbage på foden](https://www.tendinopathyrehab.com/blog/tendinopathy-updates/what-are-the-best-run-retraining-strategies-for-achilles-tendinopathy).
 
-### 3) "Set and forget": Løbeteknik på løbebåndet
+### 3. "Set and forget": Løbeteknik på løbebåndet
 
 Jeg synes ikke det er så spændende at løbe på løbebånd selv, men når jeg har et specifikt formål, så giver det meget god mening.
 
@@ -77,7 +77,7 @@ Mange professionelle bruger løbebåndet, som en del af deres daglige træning. 
 
 Barton (2016) fandt også løbebåndet hjælpsomt, når træneren skal give øjeblikkelig feedback enten visuelt på en skærm eller verbal feedback til den pågældende løbestil.
 
-### 4) Træn varieret på løbebåndet
+### 4. Træn varieret på løbebåndet
 
 Ligesom med al anden træning så er _variation_ på løbebåndet også fornuftigt. Variationen kan ligge i den måde du tilrettelægger træningen i forhold til distance, tempo, intervaller og hældning.
 
