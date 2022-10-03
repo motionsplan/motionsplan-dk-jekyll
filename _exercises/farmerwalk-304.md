@@ -42,19 +42,19 @@ I farmer walk går du en distance med noget tungt i hænderne. Øvelsen er utrol
 
 Her kan du se alle fordelene ved at gå farmers walk, og hvad du træner:
 
-## 1) Hele kroppen bliver brugt
+## 1. Hele kroppen bliver brugt
 
 Du træner arme, grebsstyrke, core, ben, nakke og ryg. Alle muskler er involveret i farmer walk, når du sørger for at bruge høj nok belastning. Også de skrå mavemuskler er yderst aktive i at stabilisere kroppen, når du flytter benene. Der er meget få øvelser, der aktiverer så meget af kroppen som farmer walks.
 
-## 2) Kondition og kredsløb
+## 2. Kondition og kredsløb
 
 Det stiller store krav til iltoptagelsen, når hele kroppen bliver presset både statisk og dynamisk. En farmer walk skal loades relativt tungt, så når din grebsstyrke er høj nok, så er farmer walk en glimrende øvelse til at begynde at træne kredsløbet.
 
-## 3) Farmers walk er meget funktionel
+## 3. Farmers walk er meget funktionel
 
 Farmer walks er meget funktionelle. Du løfter en tung vægt, som du går med. Det modsvarer ganske glimrende aktiviteter, du laver til dag, fx hvis du skal bære bæreposer fra supermarkedet. Du kan således også bare sørge for at købe noget rigtig tungt i supermarkedet, så får du også trænet din farmer walk.
 
-## 4) Variation i farmer walks
+## 4. Variation i farmer walks
 
 Der er mange muligheder for at variere farmer walk. Du kan variere vægten, du løfter, distancen du går, pauserne mellem sæt og antallet af sæt, du laver. Jeg bruger også ofte farmer walks til slut i min træning for at få noget variation i det hele taget. Vægten varieres alt efter styrke og alder.
 

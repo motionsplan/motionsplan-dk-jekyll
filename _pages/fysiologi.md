@@ -143,9 +143,9 @@ Læs videre for at få endnu mere at vide om de forskellige typer fysiologiske t
 
 Jeg har lavet en lille quiz med [Kend din krop](/kend-din-krop/), hvor der også er nogle fysiologiske spørgsmål. Svarene på spørgsmålene, kan du finde i nogle af vores fysiologiske beregnere, fx:
 
-- [Hvor meget blod har mennesket? [Beregner]](/hvor-meget-blod-har-mennesket/)
-- [Lunger: Hvor stor er din lungekapacitet? [Beregner]](/lunger-lungekapacitet/)
-- [Udregn hvor meget vand du har i kroppen [Beregner]?](/vand-i-kroppen/)
+- [Hvor meget blod har mennesket? (Beregner)](/hvor-meget-blod-har-mennesket/)
+- [Lunger: Hvor stor er din lungekapacitet? (Beregner)](/lunger-lungekapacitet/)
+- [Udregn hvor meget vand du har i kroppen (Beregner)?](/vand-i-kroppen/)
 
 Hvis du savner nogle andre beregnere, så kan du kigge under oversigten over [alle beregnere](/beregnere-tests/).
 

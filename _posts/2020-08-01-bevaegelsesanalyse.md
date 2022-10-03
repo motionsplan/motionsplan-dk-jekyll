@@ -75,19 +75,19 @@ Nedenfor har jeg samlet en række videoer om bevægelsesanalyser, der hjælper d
 
 En tilgang til at lave en bevægelsesanalyse kommer her i punktform, så du hurtigt kan komme i gang med at lave dine egne bevægelsesanalyser.
 
-### 1) Beskrivelse: Beskriv bevægelsen overordnet
+### 1. Beskrivelse: Beskriv bevægelsen overordnet
 
 - Hvilken bevægelse
 - Hvilken idrætsgren
 - Hvilken funktion har bevægelsen
 
-### 2) Visualisering af bevægelsen
+### 2. Visualisering af bevægelsen
 
 Lav en skitse af bevægelsen, så får du nemlig et bedre overblik over bevægelsen. Du kan enten tegne eller tage billeder med mobilen af de forskellige faser, der er i bevægelsen.
 
 Så kan du analysere de forskellige faser i bevægelsen bagefter. De fleste idrætsbevægelser har flere faser, og du skal beskrive overgangen fra en fase til den næste. Det er overgangen mellem faserne, der er vigtige i bevægelsesanalysen.
 
-### 3) Analyse af bevægelsen
+### 3. Analyse af bevægelsen
 
 - Hvor mange og hvilke faser i bevægelsen udvælger du?
 - Hvilke led bevæges under bevægelsen i de forskellige faser?
