@@ -27,9 +27,11 @@ Her kigger vi på følgende spørgsmål:
 
 ## Hvad er restitutionstræning?
 
-Restitutionstræning hanlder om at få brugt kroppen aktivt i skånsomme træningsformer med det formål at gøre kroppen klar til igen at kunne gennemføre hårdere træning. Træning med det formål kan bl.a. være løb, cykling, mobilitetsøvelser, lettere styrketræning.
+Restitutionstræning handler om at få brugt kroppen aktivt i skånsomme træningsformer med det formål at gøre kroppen klar til igen at kunne gennemføre hårdere træning efterfølgende.
 
-Restitutionstræning handler om at bruge gymnastiske øvelser og mobilitetsøvelser, der kan være med til at øge blodgennemstrømningen i musklerne, så kroppens genopretningsberedskab kan arbejde optimalt.
+Træning med det formål kan bl.a. være løb, cykling, mobilitetsøvelser og lettere styrketræning.
+
+Du kan bruge gymnastiske øvelser og mobilitetsøvelser, der kan være med til at øge blodgennemstrømningen i musklerne, så kroppens genopretningsberedskab kan arbejde optimalt.
 
 ## Hvorfor skal du lave restitutionstræning?
 

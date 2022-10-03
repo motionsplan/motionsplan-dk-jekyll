@@ -69,7 +69,7 @@ Jeg har samlet nogle enkle retningslinjer, som kan hjælpe med at minimere skade
 
 Hvis du er usikker på, om du udfører en øvelse på en hensigtsmæssig måde, er det en god ide at få en til at holde øje med om du i hvert fald overholder følgende:
 
-### 1) Ryggen i neutral stilling - hovedet og rygsøjlen følger et kosteskaft
+### 1. Ryggen i neutral stilling - hovedet og rygsøjlen følger et kosteskaft
 
 Ryggen er allerstærkest, når den er i sin neutrale stilling. Du skal ikke forsøge at rette de naturlige krumninger i ryggen ud, da de netop er med til at gøre ryggen stærk. Du kan tjekke om ryggen har en hensigtsmæssig stilling ved at lægge eller holde et kosteskaft op ad ryggen på vedkommende som træner. For de fleste vil det formentlig være hensigtsmæssigt med tre kontaktpunkter; lænden, øvre ryg og baghovedet.
 
@@ -77,11 +77,11 @@ Hvis du fx laver et dødløft, så vil ryggen formentlig krumme lidt, selvom du 
 
 Men faktisk er løfteteknik ikke så afgørende for skadesrisikoen i forhold til ryggen, som man ofte får det til at lyde som om. Det har Jacob Beermann skrevet mere om på [maxer.dk](https://maxer.dk/artikler/loefteteknik-rygsmerter).
 
-### 2) Bevar dobbelthagen og gør dig høj
+### 2. Bevar dobbelthagen og gør dig høj
 
 For at opfylde ovenstående punkt er det en god ide altid at styrketræne med en dobbelthage. Så træk hagen ind og forestil dig, at du har en til at trække dig opad i håret.
 
-### 3) Bevægelse i hofteleddet med lænderyggen i neutral
+### 3. Bevægelse i hofteleddet med lænderyggen i neutral
 
 I øvelser hvor der er bevægelse i hofteleddet, fx dødløft, good mornings og lignende, skal du forsøge at holde lænderyggen i neutral og isolere bevægelsen i hofteleddet. Det er _hinge_-bevægelsen, du træner, så forsøg at isolere bevægelsen der.
 
@@ -99,13 +99,13 @@ Du kan lære lidt mere om 'butt wink' her:
 
 {% include video provider="youtube" id="Ebhp6tPhi5g" %}
 
-### 4) Knæene peger samme vej som tæerne
+### 4. Knæene peger samme vej som tæerne
 
 I øvelser hvor du har bevægelse i knæleddet kan det være hensigtsmæssigt at tæerne peger i samme retning som knæleddet. Så hvis tæerne peger lidt ud til siden, skal knæene pege samme vej, hvis der er en bøjning i knæleddet.
 
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette *case* studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
 
-### 5) Stå på hele foden - 'tripod foot'
+### 5. Stå på hele foden - 'tripod foot'
 
 Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraftoverførslen fra føddernes position. Hvis du laver fx squat og dødløft, så kan det være en god ide at tænke over, hvordan du fordeler vægten på fødderne.
 
@@ -113,7 +113,7 @@ Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre
 
 {% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)." alt="tripod foot teknik styrketræning" %}
 
-### 6) Respekter bevægeligheden i skuldrene
+### 6. Respekter bevægeligheden i skuldrene
 
 **Hold skuldrene sænkede.** Når du laver øvelser, hvor albuerne holdes under skuldrene i en vinkel på omkring 60 grader, skal du sørge for at holde skuldrene nede. Når du fører armene opad, vil skulderbladdet langsomt åbne ledskålen i skuldrene op, og så vil skuldrene automatisk pga. skulderbladets bevægelse komme lidt opad.
 
@@ -121,7 +121,7 @@ Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre
 
 Det betyder imidlertid ikke, at du skal undgå at bevæge dig i nærheden af din bevægelighed i skulderen. Hvordan skal den ellers nogensinde blive bedre. Det handler om belastning og progression, så du langsomt bliver bedre til at bevæge skulderleddet. Kroppen er skabt til at bevæge sig.
 
-### 7) Stram op i bækkenbunden
+### 7. Stram op i bækkenbunden
 
 Bækkenbunden er en del af det muskelkorset, der stabiliserer din kropsstamme. Derfor skal du sørge for at spænde godt op i bækkenbunden, når du laver en øvelse. Dette gælder både for mænd og kvinder. Fornemmelsen er at du lukker for både "gas" og "vand".
 

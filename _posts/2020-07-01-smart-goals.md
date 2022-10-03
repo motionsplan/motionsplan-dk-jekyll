@@ -92,7 +92,7 @@ Det er altså et eksempel på en ret specifik målsætning i forhold til at løb
 
 ## Hvad er de enkelte trin i en SMART-målsætning?
 
-### 1) S: Dit SMART-mål skal være SPECIFIKT
+### 1. S: Dit SMART-mål skal være SPECIFIKT
 
 En typisk målsætning og nytårsfortsæt for mange handler om deres sundhed eller træning på en eller anden måde. Lad os kigge på et par typiske **uspecifikke eksempler**.
 
@@ -106,7 +106,7 @@ Hvis vi skal **lave disse eksempler på målsætninger specifikke**, så kan du 
 
 Forskellen er, at man sætter ord på præcis, hvad man vil i målsætningerne.
 
-### 2) M: Dit SMART-mål skal være MÅLBART
+### 2. M: Dit SMART-mål skal være MÅLBART
 
 Når du opstiller en målsætning er det jo godt at vide nøjagtigt, hvornår du har opnået dit mål.
 
@@ -119,7 +119,7 @@ De lidt generelle målsætninger som "jeg vil i bedre form" eller jeg vil "dyrke
 
 Du kan både have hovedmål og delmål. Men det er ekstra befriende, når man har sat sig op til noget, at det rent faktisk virker.
 
-### 3) A: Dit SMART-mål skal være ATTRAKTIVT
+### 3. A: Dit SMART-mål skal være ATTRAKTIVT
 
 Der er ikke meget ved at have et mål, som du ikke rigtig er engageret i. Derfor er det væsentligt, at du opstiller et attraktivt mål for dig selv. Noget du rigtig gerne vil.
 
@@ -131,7 +131,7 @@ Hvis du hader at løbe, så er der jo ingen grund til, at du skal gå i gang med
 
 For mig er det vigtigt at spise plantebaseret, fordi jeg oplever, at jeg får meget mere energi i min hverdag.
 
-### 4) R: Dit SMART-mål skal være REALISTISK
+### 4. R: Dit SMART-mål skal være REALISTISK
 
 Når du opstiller dit mål, skal du naturligvis overveje om det er realistisk. For de fleste er det ikke nogen udfordring at forfølge et mål i en uges tid, men det skal jo passe ind i din virkelighed i længere tid.
 
@@ -150,7 +150,7 @@ Jeg er generelt imod målsætninger om at tabe sig. Det er langt mere inspireren
 
 Så er målsætningen realistisk. Husk at en realistisk målsætning ikke behøver at være uambitiøs. I styrketræning kan man som begynder fx i dødløft sagtens drømme om en rigtig stor fremgang i styrke på relativt kort tid.
 
-### 5) T: Dit SMART-mål skal være TIDSBESTEMT
+### 5. T: Dit SMART-mål skal være TIDSBESTEMT
 
 Når du sætter et mål, så er det godt at sætte en deadline. Jeg synes det er rigtig godt at melde sig til en begivenhed eller opstille sin egen begivenhed, så man har noget at se frem til.
 

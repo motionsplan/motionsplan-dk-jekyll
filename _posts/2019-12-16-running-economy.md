@@ -236,7 +236,7 @@ Du kan altså træne din løbeøkonomi, og derfor vil du begynde at bruge mindre
 
 Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips til, hvordan du kan forbedre din løbeøkonomi:
 
-### 1) Løb mange kilometer
+### 1. Løb mange kilometer
 
 [Scrimgeour et al (1986)](https://pubmed.ncbi.nlm.nih.gov/3699009/) viste, at løbere, der løb **mere end 100 km** om ugen, havde en markant bedre løbeøkonomi end de løbere, der løb **mindre end 100 km** om ugen.
 
@@ -244,7 +244,7 @@ Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inde
 
 Allan Zachariasen og Jesper Petersen foreslår [følgende træningspas](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober) for at forbedre løbeøkonomien.
 
-### 2) Løb i konkurrence-tempo
+### 2. Løb i konkurrence-tempo
 
 Løbeøkonomien hænger ofte sammen med det tempo, man har trænet mest i. Derfor skal du løbe en del i det tempo, du forestiller dig at løbe konkurrence i.
 
@@ -257,7 +257,7 @@ Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede kon
 
 Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
 
-### 3) Sprinttræning
+### 3. Sprinttræning
 
 Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan også forbedre løbeøkonomien. Det kan fx være:
 
@@ -268,7 +268,7 @@ Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
 
-### 4) Eksplosiv spændstighedstræning og styrketræning
+### 4. Eksplosiv spændstighedstræning og styrketræning
 
 Eksplosiv styrketræning i form af plyometrisk træning som hop, hink, bakkehop, trappetræning, trappehop, squat, lunges og lignende kan også være med til at forbedre og fastholde løbeøkonomien.
 
@@ -295,7 +295,7 @@ Kender du nogle studier, der kan sige noget om det?
 
 Jeg har skrevet et indlæg om [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), hvor du kan lære endnu mere om begrebet.
 
-### Flere forslag til at arbejde med løbeøkonomi
+## Flere forslag til at arbejde med løbeøkonomi
 
 Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rigtig god side om [Løbeøkonomi](https://www.rekordjagt.dk/loebeoekonomi/), hvor han giver gode øvelser til at arbejde med løbeøkonomien.
 

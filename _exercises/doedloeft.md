@@ -113,7 +113,7 @@ Nogle dødløft-varianter starter stående, og der kan teknikken naturligvis væ
 
 ## Tips til et godt dødløft
 
-### 1) Hold ryggen i en neutral stilling
+### 1. Hold ryggen i en neutral stilling
 
 Ryggen er allerstærkest i neutral stilling. De naturlige krumninger i ryggen er med til at gøre den stærk. Du kan arbejde lidt med ryggens position ved at lægge et kosteskaft på ryggen. Typisk er det hensigtsmæssigt med tre kontaktpunkter; lænden, øvre ryg og baghovedet.
 
@@ -121,11 +121,11 @@ Ryggen er allerstærkest i neutral stilling. De naturlige krumninger i ryggen er
 
 Det er ikke usædvanligt, at når man løfter dødløft, så vil ryggen ændre en lille smule position. Din opgave er at sørge for at den ændring bliver så lille som muligt gennem løftet, ved at lave et godt opspænd.
 
-### 2) Sørg for at det er en hængselsbevægelse
+### 2. Sørg for at det er en hængselsbevægelse
 
 Forsøg at holde lænderyggen i neutral stilling, så bevægelsen foregår i hofteleddet. Dødløft skal være en _hinge_-bevægelse, så derfor skal den primære bevægelse foregå i hoften. Prøv derfor at få adskilt bevægelsen, så den nederste del af ryggen og bækkenet ikke bøjer ind under dig for at komme i den rette position. Nogle kan have behov for at arbejde med bevægeligheden i bundpositionen.
 
-### 3) Stå på hele foden - '*tripod* fod'
+### 3. Stå på hele foden - '*tripod* fod'
 
 Dit kontaktpunkt med jorden er dine fødder. Derfor er fødderne også rigtig vigtig i squat, fordi det er der kraftoverførslen kommer fra. Det kan derfor betale sig at tænke over, hvordan du står på fødderne og fordeler vægten.
 
