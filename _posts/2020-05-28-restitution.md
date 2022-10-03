@@ -1,6 +1,7 @@
 ---
 title: &title "Restitution: Komplet guide til optimering"
-excerpt: "Når man gerne vil bygge kroppen op, så skal man finde en balance mellem træning og restitution. Her er en komplet guide til restitution, og hvordan du kan optimere den og gøre den så effektiv som muligt."
+description: "Er du interesseret i at få det optimale udbytte af din træning? Restitution er et vigtigt parameter, når du skal optimere effekten af din træning. Få alle detaljer her."
+excerpt: "Lær alt om, hvordan du får en balance mellem træning og restitution, så du kan bygge kroppen op og få de optimale resultater. Her er en komplet guide til restitution, så du kan gøre den så optimal og effektiv som muligt."
 permalink: /restitution/
 language: da
 header:
@@ -17,6 +18,9 @@ tags:
   - begynder
 last_modified_at: 2022-05-20T08:14:14Z
 toc: true
+faq:
+  - question: Kan jeg restituere for længe?
+    answer: Du kan sagtens restituere for længe. Eksempler er når folk er sengeliggende eller hvis du får et ben i gips. Hvis ikke kroppens vedholdende bliver udsat for et træningsstimlus, så vil den stille og roligt forfalde. Det er vores livsopgave at blive ved med at bevæge os, så kroppen hele tiden holder sig stærk og udholdende.
 ---
 
 Når du gerne vil træne så effektivt som muligt, så skal du finde en balance mellem restitution og træning. Her får du svar på alle dine spørgsmål om, hvad det vil sige at restituere i forbindelse med træning.
@@ -40,7 +44,9 @@ Jeg er mange gange selv blevet for ivrig, men kroppen får altid ret til sidst. 
 
 Formålet med restitutionen er at give kroppen hvile, så den prioriterer at opbygge og forstærke det væv, du har belastet under træning.
 
-Det er nemlig sådan, at du **nedbryder kroppen under træning**. Du bliver faktisk svagere ved at træne. Heldigvis genopbygger kroppen sig selv, så den bliver stærkere og mere modstandsdygtig efter træningen. **Det er i pausen mellem træningspas, at du forbedrer dig**. Derfor er en tilstrækkelig restitution mellem træningspas vigtigt for at fortsætte din udvikling.
+Det er nemlig sådan, at du **nedbryder kroppen under træning**. Du bliver faktisk svagere ved at træne. Heldigvis genopbygger kroppen sig selv, så den bliver stærkere og mere modstandsdygtig efter træningen. **Det er i pausen mellem træningspas, at du forbedrer dig**.
+
+Derfor er det vigtigt at få tilstrækkelig restitution, inden dit næste træningspas, så du kan fortsætte din udvikling.
 
 ## Hvorfor er restitution vigtig?
 
@@ -103,13 +109,15 @@ Din restitutionstid afhænger med af mange faktorer:
 
 ## Hvor lang tid tager det at restituere?
 
-Det varierer meget fra person til person, hvor lang tid det tager at restituere. Restitutionstiden afhænger primært af, hvor meget energi og med hvilken intensitet, dit træningspas har været. Du kan sagtens lave et rigtig kort træningspas, som har en stor ødelæggende effekt på musklerne og fibrene.
+Det varierer meget fra person til person, hvor lang tid det tager at restituere. Restitutionstiden afhænger primært af, hvor meget energi og med hvilken intensitet, dit træningspas har været.
+
+Du kan sagtens lave et rigtig kort træningspas, som har en stor ødelæggende effekt på musklerne og fibrene.
 
 Læs: [Restitutionstid: Hvor længe tager det at restituere?](/restitutionstid/)
 
 ## Restitutionsskema
 
-I dette restitutionsskema kan du få et overblik over, hvor lang tid restitution tager efter forskellige aktiviteter.
+I dette restitutionsskema kan du få et overblik over, hvor lang tid restitution kan tage efter forskellige aktiviteter.
 
 | Træningsintensitet | 90-95% frisk | Maksimal restitution |
 |-|-|-|
@@ -154,11 +162,17 @@ Læs: [Muskelømhed: Hvorfor får jeg ømme muskler efter træning?](/omme-muskl
 
 ### 4. Heart rate variability (HRV)
 
-Det er blevet foreslået, at du kan bruge _heart rate variability_ for at finde ud af, om du er klar til at træne igen. Det er tilgængeligt gennem gratis apps og relativt billige pulsbælter for alle og enhver. Jeg har skrevet lidt om [HRV og heart rate variability](/hrv/), hvis du vil læse lidt mere om det.
+Det er blevet foreslået, at du kan bruge _heart rate variability_ for at finde ud af, om du er klar til at træne igen. Det er tilgængeligt gennem gratis apps og relativt billige pulsbælter for alle og enhver.
+
+Jeg har skrevet lidt om [HRV og heart rate variability](/hrv/), hvis du vil læse lidt mere om det.
 
 ### 5. Restitution og puls
 
-Din daglige [hvilepuls](/hvilepuls/) kan også være et individuelt mål, som kan sige noget om dit restitutionsniveau. Den kan ikke sige nøjagtigt, hvornår du er fuldt restitueret, men du kan holde øje med den hver morgen. Hvis den pludselig er højere end normalt, så kan en af årsagerne være, at du presser kroppen lidt for hårdt på den ene eller anden måde, og så skal du nok prioritere en mere afslappende træning.
+Din daglige [hvilepuls](/hvilepuls/) kan også være et individuelt mål, som kan sige noget om dit restitutionsniveau. Den kan ikke sige nøjagtigt, hvornår du er fuldt restitueret, men du kan holde øje med den hver morgen.
+
+Hvis hvilepulsen pludselig er højere end normalt, så kan en af årsagerne være, at du presser kroppen lidt for hårdt på den ene eller anden måde.
+
+Så skal du nok prioritere en mere afslappende træning.
 
 Restitutionstiden er meget individuel, men den har stor betydning for, hvordan effekten af din træning bliver. Derfor bør du tage den alvorligt.
 
@@ -186,11 +200,25 @@ Læs: [7 trin til optimering af din søvn](/soevn-optimering/)
 
 Sørg for at få rigeligt at spise. Basér kosten på grove grøntsager, grove kulhydrater, proteinholdige fødevarer, og så er du 90 procent ad vejen.
 
-Du kan tænke over det [åbne vindue efter træning](/artikel/aabne-vindue-og-anabolic-window/). Her kan du med med fordel fylde dine energidepoter op igen og få styr på væskebalancen. Du vil finde rigtig mange producenter, som vil love dig, at netop deres kosttilskud vil gøre, at du restituerer hurtigere, men du kan sagtens selv lave et **restitutionsmåltid** eller lave en **efter træning snack**, som ikke koster alverden.
+Du kan tænke over det [åbne vindue efter træning](/artikel/aabne-vindue-og-anabolic-window/). Her kan du med med fordel fylde dine energidepoter op igen og få styr på væskebalancen.
 
-Det gælder om at få noget ny energi lige efter træning, og det gælder både kulhydrat som kroppens brændstof og protein som kroppens byggesten. Lige efter træning kan du optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
+Du vil finde rigtig mange producenter, som vil love dig, at netop deres kosttilskud vil hjælpe dig med at restituere hurtigere.
 
-I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som opstår af træning. Her anbefaler de at sørger for at få n-3-fedtsyrene EPA og DHA kan mindske betændelsestilstandene. Det vil vi gerne se et studium på. I Form omtaler også et studium, hvor forsøgspersonerne drak kirsebærjuice, som er fyldt med antioxidanter, hvor de havde markant mindre styrkenedgang efter et hårdt træningspas end en kontrolgruppe. Det studium vil vi gerne se.
+Men du kan sagtens selv lave et **restitutionsmåltid** eller en **efter træning snack**, som ikke koster alverden.
+
+Det gælder om at få noget ny energi lige efter træning, og det gælder både kulhydrat som kroppens brændstof og protein som kroppens byggesten.
+
+Lige efter træning kan du optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein.
+
+Vi leder i øjeblikket efter studier, der kan dokumentere dette.
+
+I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som opstår af træning. Her anbefaler de at sørger for at få n-3-fedtsyrene EPA og DHA kan mindske betændelsestilstandene.
+
+Det vil vi gerne se et studium på.
+
+I Form omtaler også et studium, hvor forsøgspersonerne drak kirsebærjuice, som er fyldt med antioxidanter, hvor de havde markant mindre styrkenedgang efter et hårdt træningspas end en kontrolgruppe.
+
+Det studium vil vi gerne se.
 
 Læs: [Hvad er facts om det åbne vindue?](/artikel/aabne-vindue-og-anabolic-window/)
 
@@ -204,7 +232,9 @@ Du kan finde inspiration i denne Youtube-video omkring restitution.
 
 ### 1. Cooldown eller nedvarmning efter træning for at restituere
 
-Forskere har ifølge [www.legestue.net](https://www.legestue.net/hold-pause-restitutionstraening/) i et studie sammenlignet en gruppe voksne, der aktivt varmer ned i 12 minutter med en gruppe, som siddende slapper af i 12 minutter. Begge grupper blev testet før en fodboldkamp og fulgt efter kampen. Gruppen der varmede ned med fem minutters jogging, fem minutters strækøvelser og to minutter hvor spillerne fik benene rystet af deres holdkammerater, restituerede hurtigere, når man sammenlignede med kontrolgruppen – og de klarede sig bedre på både spring- og sprinttests.
+Forskere har ifølge [www.legestue.net](https://www.legestue.net/hold-pause-restitutionstraening/) i et studie sammenlignet en gruppe voksne, der aktivt varmer ned i 12 minutter med en gruppe, som siddende slapper af i 12 minutter.
+
+Begge grupper blev testet før en fodboldkamp og fulgt efter kampen. Gruppen der varmede ned med fem minutters jogging, fem minutters strækøvelser og to minutter hvor spillerne fik benene rystet af deres holdkammerater, restituerede hurtigere, når man sammenlignede med kontrolgruppen – og de klarede sig bedre på både spring- og sprinttests.
 
 Forskerne viste, at man 72 timer efter en kamp kan være fuldstændig restitueret, hvis man varmer ned, mens det tager længere tid, hvis man ikke gør. Det er uklart nøjagtig, hvilke faktorer der forårsager forskellene mellem grupperne.
 
@@ -279,10 +309,6 @@ Hvis du ikke får restitueret i tilstrækkelig grad, så vil du formentlig oplev
 - **Overbalastningsskader**. De fleste har formentlig prøvet at have en overbelastningsskade på et eller andet tidspunkt. Det kommer altid fra, at det ikke er lykkes at lave en fornuftig træningsplan, hvor doseringen stille og roligt er steget over tid.
 - **Overtræning**. I sidste ende kan du ende i overtræning, hvis du ikke respekterer kroppens behov for hvile. Det sker ikke for så mange, og der skal virkelig meget til, men overtræning ender med, at du bliver nødt til at holde pause. Og det er nu engang altid sjovere, hvis man selv bestemmer.
 
-## Kan jeg restituere for længe?
-
-Du kan sagtens restituere for længe. Eksempler er når folk er sengeliggende eller hvis du får et ben i gips. Hvis ikke kroppens vedholdende bliver udsat for et træningsstimlus, så vil den stille og roligt forfalde. Det er vores livsopgave at blive ved med at bevæge os, så kroppen hele tiden holder sig stærk og udholdende.
-
 ## Hvad sker der med restitutionstiden med alderen?
 
 Man kunne jo håbe at ens tidligere træningserfaring have en positiv indvirkning på restitutionstiden. Desværre giver alderen ikke den fordel.
@@ -303,7 +329,11 @@ Læs: [Restitution og alder: Hvad betyder alderen for kroppens genopbygning?](/r
 
 Du kan også lade dig inspirere af Team Danmarks restitutionskoncept, som har forsøgt at sætte det sammen i en samlet figur over restitution.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" alt="team danmark restitution" %}
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
 
 ## Konklusion
 
