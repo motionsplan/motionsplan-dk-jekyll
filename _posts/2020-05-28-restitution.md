@@ -281,7 +281,7 @@ Massage virker altså tilsyndeladende rigtig godt i forhold til at minimere musk
 
 Læs: [Sportsmassage og fysiurgisk massage til restitution?](/massage/)
 
-## Restitution udstyr
+## Restitution og udstyr
 
 Nu er du kommet så langt, og du er sikkert klar til at få flere genveje, som kan hjælpe dig med at blive helt klar til næste træning. Hvis du har en eller anden grad af onlinetilstedeværelse, så er du garanteret også stødt på det følgende udstyr til restitution, som producenterne lover dig vil virke rigtig godt.
 
@@ -293,7 +293,7 @@ Læs: [Kompressionsstrømper og restitution](/kompressionsstroemper-restitution-
 
 ### 2. Cold Water Immersion (CWI)
 
-Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge Versey et al. (2013) kunne ligge mellem 10 og 15 grader.
+Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge [Versey et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23743793/) kunne ligge mellem 10 og 15 grader.
 
 Læs: [Kryoterapi: Virker et isbad efter træning på restitution?](/isbad-og-kryoterapi/)
 
