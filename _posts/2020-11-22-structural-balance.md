@@ -42,10 +42,12 @@ Peter Roberts lægger vægt på, at ratio mellem de forskellige styrketrænings�
 
 [Charles Poliquin](https://www.t-nation.com/training/achieving-structural-balance) gik oprindeligt meget op i at teste følgende bevægelser for at få et mål for den strukturelle balance i overkroppen.
 
-- close-grip bench press [1RM](/rm-beregner/)
+- close-grip bench press 1RM
 - weighted chin-up 1RM
 - seated dumbbell external rotation 8RM on each side
 - and the bent-over trap-3 raise 8RM on each side
+
+Hvis du er i tvivl om, hvad din 1RM er, så kan du [beregne din 1RM ud fra submaksimale løft](/rm-beregner/).
 
 Her er særligt de to sidste øvelser ifølge Charles Poliquin væsentlige for at kunne præstere optimalt i andre overkropsøvelser.
 
