@@ -26,7 +26,7 @@ feature_row:
     alt: "Bog Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    url: "https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -42,7 +42,7 @@ feature_row:
     alt: "Træning og anatomi"
     title: "Træning og anatomi"
     excerpt: "Træning og anatomi henvender sig til sundhedsprofessionelle, til anatomi- og idrætsstuderende - morgendagens trænere - og til sportsudøvere, bodybuildere og andre, som vil forbedre deres fysiske form. Øger din forståelse af, hvordan kroppen fungerer under træningIndeholder mere end 200 detaljerede anatomiske illustrationer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/traening-og-anatomi-50-vigtige-oevelser-med-flotte-illustrationer_ken-ashwell_9788778423191"
+    url: "https://tales.dk/traening-og-anatomi-50-vigtige-oevelser-med-flotte-illustrationer_ken-ashwell_9788778423191"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

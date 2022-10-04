@@ -24,7 +24,7 @@ feature_row:
     title: Exercise Physiology - Nutrition, Energy, and Human Performance
     excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L.
       Katch - og indeholder bl.a. formlen til at udregne fedtprocenten.
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831
+    url: https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831
     btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener

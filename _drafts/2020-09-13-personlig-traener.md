@@ -14,7 +14,7 @@ last_modified_at: 2020-09-12T10:14:14Z
 toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00078/70778/cover.1581295925.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/atomic-habits-the-life-changing-million-copy-bestseller_james-clear_9781847941831
+    url: https://tales.dk/atomic-habits-the-life-changing-million-copy-bestseller_james-clear_9781847941831
     excerpt: "I sin bog _Atomic Habits_ forklarer James Clear, hvordan man med små 'atomvaner' såsom at stå fem minutter tidligere op end normalt og at tage to armbøjninger om dagen, hurtigt kan få trænet sig op til at leve et bedre, sundere eller mere effektivt liv."
     title: "Atomic Habits"
     btn_label: "Tjek prisen*"
