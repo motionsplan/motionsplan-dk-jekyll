@@ -17,7 +17,7 @@ tags:
   - vejrtrækning
   - åndedrætstræning
   - løb
-last_modified_at: 2021-01-06T08:14:14Z
+last_modified_at: 2022-10-03T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/r/e/relaxator-aandedraetstraener-1.jpg
@@ -46,11 +46,13 @@ feature_row_books:
 
 Din vejrtrækning kan forbedres gennem åndedrætstræning. Når man lærer at trække vejret optimalt kan det have indflydelse på dit energiniveau, stressniveau og restitution. Det kan helt sikkert betale sig at lave øvelser med åndedrætstræning for langt de fleste mennesker.
 
-Hvad er åndedrætstræning? **Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen og åndedrætsøvelser træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.**
-
 I det følgende kan du læse lidt mere om åndedrætstræning og se nogle eksempler på øvelser til åndedrættet.
 
 Vi starter med en vejrtrækningsøvelse, som kræver et lille apparat - og derefter kommer to øvelser, som du kan lave uden noget ekstra udstyr ud over din mund, næse, lunger og en portion koncentration.
+
+## Hvad er åndedrætstræning?
+
+**Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen og åndedrætsøvelser træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.**
 
 ## Åndedrætstræning og din udholdenhed
 
@@ -95,7 +97,7 @@ Du kan læse lidt mere om vejrtrækning og åndedræt og effekten på det parasy
 
 [Mindhelper](https://mindhelper.dk/mental-fitness/traek-vejret-dybt/) præsenterer to gode øvelser til din åndedrætstræning. Når du træner åndedrættet, så skal du huske at være opmærksom på, at det tager noget tid at få den rigtige effekt frem.
 
-### 4-7-8-teknikken ('The Relaxing Breath')
+### 1. 4-7-8-teknikken ('The Relaxing Breath')
 
 [Netdoktor](https://www.netdoktor.dk/nyheder/saadan-falder-du-i-soevn-paa-et-minut.htm) lover at du falder i søvn på et minut, hvis du bruger denne teknik til at trække vejret.
 
@@ -115,15 +117,17 @@ Du kan se åndedrætsøvelsen beskrevet i denne Youtube-video.
 
 {% include video provider="youtube" id="n5BB8ljfqhk" %}
 
-### Vekselåndedrættet
+### 2. Vekselåndedrættet
 
 Denne øvelse til vejrtrækningen skriver [Mindhelper](https://mindhelper.dk/mental-fitness/traek-vejret-dybt/) er en rigtig god øvelse at <q>kende, når du føler dig stresset og urolig</q>. Igen så kræver vekselåndedrættet bare nogle minutter om dagen.
 
 {% include video provider="youtube" id="hQRVGn5yuU4" %}
 
-## Lisbeth Lysdals åndedrætsøvelser
+### 3. Lisbeth Lysdals åndedrætsøvelser
 
-Lisbet Lysdal præsenterer tre øvelser, som er med til at give bedre velvære. Hun [skriver](https://liseboegsted.dk/blog/dit-aandedraet-har-betydning-for-kropsligt-velvaere-og-stress-niveau) at <q>Dit åndedræt har betydning for kropsligt velvære og for dit stressniveau</q>.
+Lisbet Lysdal præsenterer tre øvelser, som er med til at give bedre velvære. Hun [skriver](https://liseboegsted.dk/blog/dit-aandedraet-har-betydning-for-kropsligt-velvaere-og-stress-niveau), at:
+
+> Dit åndedræt har betydning for kropsligt velvære og for dit stressniveau.
 
 ## Åndedrætstræning er kommet for at blive
 
@@ -133,14 +137,10 @@ Det er helt sikkert værd at tænke meget mere over åndedrættet i hverdagen. �
 
 Jeg har fundet nogle ret gode bøger om åndedrættet og vejrtrækning her.
 
-{% include feature_row type="left" %}
+{% include feature_row id="feature_row_books" type="left" %}
 
 ## Køb en åndedrætstræner
 
 Dr. Cobb anbefaler en åndedrætstræner til at arbejde med din vejrtrækning. Du kan se en åndedrætstræner her.
 
 {% include feature_row type="left" %}
-
-## Referencer
-
-- [Cobb: Improve Endurance in 7 minutes a day](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)
