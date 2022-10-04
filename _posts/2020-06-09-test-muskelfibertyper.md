@@ -47,11 +47,11 @@ Det er blevet foreslået, at man kan teste sin muskelfibertypesammensætning med
 
 Pipes (1994) har foreslået følgende protokol for at finde ud af, om man er _slow-twitch_ eller _fast-twitch_ dominant.
 
-1. Først finder du din [_one-repetition maximum_ (1RM)](/rm-beregner/) for en given øvelse. Du kan få hjælp af vores [1RM-beregner](/rm-beregner/).
+1. Først finder du din [_one-repetition maximum_ (1RM)](/rm-maxtest/) for en given øvelse.
 2. Hold pause i 15 minutter.
 3. Dernæst laver du så mange gentagelser, som du kan med **80%** af din 1RM.
 
-Jeg har lavet en [beregner, hvor du kan læse mere om _one-repetition maximum_](/rm-beregner/). Det mest præcise er naturligvis, hvis du rammer det du kan løfte præcist en gang.
+Det mest præcise er naturligvis, hvis du rammer det du kan løfte præcist en gang, men du kan også få hjælp fra [1RM-beregner](/rm-beregner/) til at estimere dit maxløft.
 
 Du vurderer, hvad den dominerende muskelfibertype er ud fra følgende tabel i forhold til, hvor mange gentagelser du kunne lave med 80% af din 1RM.
 

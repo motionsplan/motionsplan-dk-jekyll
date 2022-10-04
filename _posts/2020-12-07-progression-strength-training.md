@@ -177,7 +177,7 @@ Efter fire uger øger du vægten med 5%, og så kan du starte cyklus forfra, fx 
 
 ### Vælg vægten til fixed weight protocol
 
-Start med omkring 75% af [1RM](/rm-beregner/) for 3x5 gentagelser. Du skal gå efter fem gentagelser i hvert sæt med god teknik. Du kan bruge vores [1RM-beregner](/rm-beregner/) til at finde dit udgangspunkt.
+Start med omkring 75% af [1RM](/rm-maxtest/) for 3x5 gentagelser. Du skal gå efter fem gentagelser i hvert sæt med god teknik. Du kan bruge vores [1RM-beregner](/rm-beregner/) til at finde dit udgangspunkt.
 
 [Christian Thibaudeau](https://www.t-nation.com/workouts/best-way-to-keep-getting-stronger) foreslår 6 gange træning om ugen fordelt på workout A og workout B. Han foreslår at lave to store løft hver gang, fx military press og bænkpres og squat og chest-supported rows. Dertil skal du vælge to assistance-øvelser, hvor du ikke behøver at tænke over progressionsmodellen, men bare sørge for at lave et godt arbejde, fx 3x8-12 reps.
 

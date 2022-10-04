@@ -32,7 +32,7 @@ En forklaring til de tre ord:
 
 ## Hvordan laves DUP?
 
-Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Programmet tager udgangspunkt i [1RM](/rm-beregner/),, og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
+Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Programmet tager udgangspunkt i [1RM](/rm-maxtest/), og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
 
 Et eksempel kunne være sådan her:
 

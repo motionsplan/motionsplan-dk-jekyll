@@ -145,7 +145,7 @@ Det er flere gange blevet konkluderet i studier, at stimulerende musik er præst
 
 Hvis vi kigger på **dynamisk styrke**, så undersøgte Biagini et al (2012) effekten af selvalgt musik sammenlignet med stilhed på performance på bænkpres, squat jumps og humør. Der var ingen forskel i antal reps eller RPE i bænkpres. Der blev fundet lidt større power og _[rate of force development (RFD)]({% link _posts/2020-10-14-rate-of-force-development.md %})_ i squat jump. Deltagerne oplevede "at være mere klar". Den selvvalgte musik blev dog ikke undersøgt.
 
-Bartolomei et al (2015) undersøgte effekten af stimulerende musik på over 120 bpm på performance på [1RM](/rm-beregner/) styrke og antallet af _reps to failure_ på 60% af 1RM-styrken. Størstedelen af deltagerne havde valgt rock eller dance musik. Der var ikke signifikant forskel på 1RM-styrken, men der blev fundet en lille signifikant forskel på en gentagelse på antallet af reps på 60% af 1RM.
+Bartolomei et al (2015) undersøgte effekten af stimulerende musik på over 120 bpm på performance på [1RM](/rm-maxtest/) styrke og antallet af _reps to failure_ på 60% af 1RM-styrken. Størstedelen af deltagerne havde valgt rock eller dance musik. Der var ikke signifikant forskel på 1RM-styrken, men der blev fundet en lille signifikant forskel på en gentagelse på antallet af reps på 60% af 1RM.
 
 Ballmann et al (2018) testede igen _reps to failure_ på bænkpres med 75% af 1RM. De undersøgte effekten af foretrukket musik i forhold til _ikke_ foretrukket musik. Forsøgspersonerne prioriterede seks musikgenrer. Derefter valgte deltagerne en sang fra deres favoritgenre, mens forskerne valgte en tilfældig sang fra deres mindst foretrukne genre.
 
