@@ -23,15 +23,15 @@ last_modified_at: 2022-10-05T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "Bogen De 5 tibetanere af Peter Kelder"
-    title: "Peter Kelder - de fem tibetanere (bog 1)"
-    excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Bogen har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Yogaøvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
+    title: "De fem tibetanere (bog 1)"
+    excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder. Solgt i mere end 2 millioner eksemplarer. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: "sponsored nofollow noopener"
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
     alt: "Peter Kelders anden bog om de 5 tibetanere"
-    title: "Peter Kelder - de fem tibetanere (bog 2)"
+    title: "De fem tibetanere (bog 2)"
     excerpt: "Den gamle hemmelighed om ungdommens kilde er opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
     btn_label: "Tjek prisen"
@@ -102,6 +102,8 @@ Jeg har samlet den vigtigste information om de fem tibetanere i dette indlæg.
 
 Lær **hvordan riterne skal laves med både video og illustrationer**, fordele og ulemper og historien og den filosofiske baggrund bag de 5 tibetanere.
 
+{% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Illustration af de fem tibetanere. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
+
 ## Hvad er de fem tibetanere?
 
 De fem tibetanere stammer fra tibetanske munke. De fem enkle yogaøvelser er efter sigende kilden til evig ungdom, når du udfører dem hver dag.
@@ -110,7 +112,7 @@ Yogaøvelserne blev bragt til vesten af Oberst Bradford, og vennen Peter Kelder 
 
 Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
 
-{% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere." %}
+{% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere og hans erfaringer med øvelserne. Du kan købe bøgerne hos [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
 
 ## Hvordan laver man øvelserne?
 
@@ -180,11 +182,7 @@ Hvis du er til en ret dynamisk gennemgang af øvelserne med markant yogamusik, s
 
 ## Illustreret øvelsesbeskrivelse af de 5 tibetanere
 
-Her gennemgår jeg øvelserne **illustreret** og gennemgået på skrift, hvis du foretrækker det.
-
-{% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Illustration af de fem tibetanere. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
-
-Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter.
+Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter med illustrationer af øvelserne.
 
 Husk at lytte til kroppen, når du laver øvelserne. Selvom målet er at lave 21 gentagelser af hver rite, så start stille og roligt med øvelserne, når du går i gang første gang.
 
@@ -326,12 +324,6 @@ Peter Kelder fulgte interesseret med, og han besluttede sig for at skrive en bog
 
 Hvis du for alvor vil dykke ned i historien, så er der ingen vej uden om at læse bøgerne.
 
-## Bogen om de fem tibetanere
-
-De fem tibetanere blev for alvor udbredt i den vestlige verden i Peter Kelders bog med hans erfaringer med øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
-
-{% include feature_row type="left" %}
-
 ## Virker de 5 tibetanere?
 
 Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
@@ -376,13 +368,19 @@ Vi har et andet indlæg her på sitet, der handler om [mindfulness meditation]({
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
-## DVD om 5 tibetanske riter
+## Bogen om de fem tibetanere
 
-{% include feature_row id="feature_row_dvd" type="left" %}
+De fem tibetanere blev for alvor udbredt i den vestlige verden i Peter Kelders bog med hans erfaringer med øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
+
+{% include feature_row type="left" %}
+
+{% comment %}
 
 ## Bog om de fem tibetanere
 
 {% include gallery id="feature_row" caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
+
+{% endcomment %}
 
 ## Plakat med de fem tibetanere
 
