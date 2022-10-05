@@ -86,11 +86,9 @@ faq:
 
 De fem tibetanere er fem enkle yogaøvelser, og det siges at øvelserne er en af hemmelighederne bag ungdommens kilde. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
 
-De fem tibetanere er en sammensætning af 5 forholdsvist simle yogaøvelser.
+De fem tibetanske riter er en rigtig god introduktion til yoga, og de simple yogaøvelser er lette at implementere i din hverdag. De fem øvelser kan udføres hvor som helst.
 
-De fem tibetanske riter er en rigtig god introduktion til yoga, og øvelserne er lette at implementere i din hverdag. De fem øvelser kan udføres hvor som helst.
-
-De fem tibetanske riter skal laves 21 gange hver, og det tager omkring 15-20 minutter at lave alle øvelserne.
+Du skal udføre yogaøvelserne 21 gange hver, og det tager omkring 15-20 minutter at lave alle øvelserne.
 
 {% comment %}
 
@@ -100,7 +98,9 @@ De blev beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan 
 
 {% endcomment %}
 
-Jeg har samlet den vigtigste information om de fem tibetanere på denne side. Jeg beskriver her på siden historien bag de fem tibetanere, **hvordan riterne skal laves med både video og illustrationer** og noget af det filosofiske baggrund bag de 5 tibetanere.
+Jeg har samlet den vigtigste information om de fem tibetanere i dette indlæg. 
+
+Lær **hvordan riterne skal laves med både video og illustrationer**, fordele og ulemper og historien og den filosofiske baggrund bag de 5 tibetanere.
 
 ## Hvad er de fem tibetanere?
 
