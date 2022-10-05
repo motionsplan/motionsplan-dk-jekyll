@@ -72,6 +72,6 @@ Nordic Hamstring har nogle ulemper. I den excentriske fase ser man ofte udøvere
 ## Referencer til Nordic Hamstring
 
 - [Muskelskader i Baglåret – Forebyggelse vs præstationsfremme](https://dansksportsmedicin.dk/muskelskader-i-baglaaret-forebyggelse-vs-praestationsfremme/)
-- [Evidensen bag Nordic Hamstring](http://web.archive.org/web/20210416204730/https://physioblogandreasbjerregaard.com/2016/12/26/10923/){: rel="nofollow noopener" }
+- [Evidensen bag Nordic Hamstring](https://web.archive.org/web/20210416204730/https://physioblogandreasbjerregaard.com/2016/12/26/10923/){: rel="nofollow noopener" }
 - Dyk, Nicol van, Fearghal P. Behan, og Rod Whiteley. 2019. “Including the Nordic Hamstring Exercise in Injury Prevention Programmes Halves the Rate of Hamstring Injuries: A Systematic Review and Meta-Analysis of 8459 Athletes”. _British Journal of Sports Medicine_ 53 (21): 1362–70. [https://bjsm.bmj.com/content/53/21/1362](https://bjsm.bmj.com/content/53/21/1362).
 - [Bret Contreas: Nordic Ham Curl: Stable exercise for athletes](https://bretcontreras.com/nordic-ham-curl-staple-exercise-athletes/)
