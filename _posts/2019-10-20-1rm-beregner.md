@@ -69,11 +69,11 @@ I dette indlæg får du svaret på følgende spørgsmål:
 
 En **RM-beregner** kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser.
 
-Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.
+Ud fra en test med fx 5 reps på en given vægt, kan du udregne hvad dit maksimale løft er i en given øvelse.
 
-Ud fra en maksimal test med fx 5 reps og en given vægt, kan du udregne dit maksimale 1RM-max løft.
+Du kan altså løfte lette vægte med flere gentagelser og stadig få et nogenlunde bud på, hvor stærk du er i øvelsen.
 
-Du kan altså løfte lette vægte med mange gentagelser og stadig få et nogenlunde bud på, hvor stærk du er i øvelsen.
+Når du har din 1RM-max kan du estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer eller bare stå som rekorder.
 
 *[1RM]: One Repetition Maximum
 *[RM]: Repetition Maximum
@@ -111,7 +111,9 @@ Jeg taster mine tal ind, og finder ud af, at min 1RM er 85 kg.
 
 ## Fordele ved beregning af 1RM
 
-Den submaksimale estimering af 1RM-max kan være hurtigere og mere sikker særligt for uerfarne løftere end at lave 1RM-løft. Det kan være forbundet med høj skadesrisiko, at lave direkte tests af 1RM, og derfor er det smart, at man kan estimere sin maksimale styrke ud fra forskellige beregninger.
+Den submaksimale estimering af 1RM-max kan være hurtigere og mere sikker særligt for uerfarne løftere end at lave 1RM-løft.
+
+Det kan være forbundet med høj skadesrisiko, at lave maksimale løft for at finde 1RM. Derfor er det smart, at man kan estimere sin maksimale styrke ud fra beregninger.
 
 Men metoden er ikke fejlfri.
 
