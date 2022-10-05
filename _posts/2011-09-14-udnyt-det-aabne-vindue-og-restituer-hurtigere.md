@@ -17,22 +17,30 @@ tags:
   - træning
   - ernæring
   - restitution
-last_modified_at: 2020-06-03T10:34:52Z
+last_modified_at: 2022-10-03T10:34:52Z
 ---
 
 Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?
-
-Hvad er det åbne vindue? **Det åbne vindue eller anabolic window er et populært udtryk inden for sportsernæringen. Rationalet er, at man i det åbne vindue optager protein og kulhydrat rigtig hurtigt. Tidligere troede man, at det åbne vindue var et relativt snævert tidsrum, men nyere forskning viser at det snarere er et 4-6 timers vindue omkring din træning.**
 
 Det åbne vindue har i mange år været brugt meget, når man skulle rådgive omkring kost og ernæring i forhold til idræt. Rationalet har været, at jo hurtigere du tanker op efter træning, jo hurtigere restituerer du. Fornemmelsen har næsten også været, at hvis ikke du fik protein umiddelbart efter træning, så var der ingen gains.
 
 Derfor kan det **åbne vindue** være en blandt [flere strategier til restitution](/restitution/).
 
+Men hvordan griber du det åbne vindue an i praksis?
+
+## Hvad er det åbne vindue (anabolic window)?
+
+**Det åbne vindue eller anabolic window er et populært udtryk inden for sportsernæringen. Rationalet er, at man i det åbne vindue optager protein og kulhydrat rigtig hurtigt. Tidligere troede man, at det åbne vindue var et relativt snævert tidsrum, men nyere forskning viser at det snarere er et 4-6 timers vindue omkring din træning.**
+
 Der er ingen tvivl om, at kroppen under træning bruger kulhydrat, som efterfølgende skal bygges op ved at få tilført nyt kulhydrat til musklerne. Der er heller ingen tvivl om, at træning skaber mikroskopiske skader i muskelvævet, og at kroppen gerne vil respondere på træningen ved at genopbygge musklerne og vævet.
 
 Men hvordan skal man forholde sig til kosten i forbindelse med dette? Du skal sørge for at få nok at spise, så kroppen har nok kulhydrat og protein at bruge.
 
-Lemon et al (2002) talte om et <q>anabolic window of time associated with exercise training sessions</q>, og Ivy og Ferguson-Stegall (2013) anbefalede i deres _review_ af mere end 100 studier, at man inden for 45 minutter efter sin træning.
+Lemon et al (2002) taler om et:
+
+> anabolic window of time associated with exercise training sessions.
+
+Ivy og Ferguson-Stegall (2013) anbefalede i deres _review_ af mere end 100 studier, at man inden for 45 minutter efter sin træning får både kulhydrat og protein.
 
 > When carbohydrate and protein are ingested in the minutes post-exercise, the glucose and amino acids derived from these macronutrients initiate the shift to an anabolic state
 
@@ -49,7 +57,7 @@ Vi starter med at kigge på det åbne vindue for muskelglykogen og derefter _ana
 
 Aragon og Shoenfeld (2013) skriver, at styrketræning med moderat volumen med 6-9 sæt pr. muskelgruppe kun reducerer glykogenlagre i musklerne med 36-39%. Der skal altså i forhold til styrketræning ikke så meget til for at genopbygge glykogenlagrene i kroppen.
 
-Det er mere afgørende i forhold andre idrætsgrene, hvor du har en større udtømning af dine glykogenlagre som fx løb, cykling, fodbold og lignende.
+Det er mere afgørende i forhold andre idrætsgrene, hvor du har en større udtømning af dine glykogenlagre. Det sker fx i mere udholdenhedsbaserede idrætsgrene som fx løb, cykling, fodbold og lignende.
 
 Man snakker om et åbent vindue i forhold til kulhydrat primært fordi glukosetransportøren GLUT-4 bliver mere aktiv og søger hen mod cellevæggen i musklen, når musklen trækker sig sammen, og herfra sørger for at få transporteret en masse glukose ind i muskelcellerne.
 
@@ -69,15 +77,25 @@ Deltagerne fik taget en biopsi 2 og 4 timer efter træningen. Figuren nedenunder
 
 Denne viden har imidlertid størst betydning, hvis du træner flere gange om dagen eller træner meget hårdt to gange i træk.
 
+## Hvor meget kulhydrat skal jeg have lige efter træning?
+
+[Kerksick et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18834505/) konkluderer i deres _position statement_, at atleter inden for 30 minutter med fordel kan indtage 1,1 - 1,5 gram kulhydrat pr. kilo kropsvægt for hurtigst muligt at genopfylde depoterne igen.
+
 Det er også sandsynligt at protein har lettere ved at deltage i muskelopbygningen og -reparationen lige efter træning, fordi proteinsyntesen er forøget.
 
 ## Det åbne vindue for protein
 
 Proteinsyntesen efter træning og særligt styrketræning er forhøjet. Derfor har man snakket om et _anabolic window_ for proteinindtagelse.
 
-Schoenfeld et al (2013) fandt kun <q>a **small to moderate effect** was seen for **protein timing** on lean mass gain</q>, og de lavede en subanalyse, der viste at mange af forskellene i hypertrofi kunne forklares af den **daglige totale proteinindtagelse** snarere end timing af proteinindtaget.
+Schoenfeld et al (2013) fandt kun:
 
-Jeg har skrevet en anden artikel, der handler om [hypertrofi og de fysiologiske tilpasninger til træning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+> a **small to moderate effect** was seen for **protein timing** on lean mass gain
+
+--- <cite>Schoenfeld et al (2013)</cite>
+
+De lavede en subanalyse, der viste at mange af forskellene i hypertrofi kunne forklares af den **daglige totale proteinindtagelse** snarere end timing af proteinindtaget.
+
+Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %})
 
 Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at spise protein i det såkaldet _anabolic window_ i virkeligheden bare har spist mere protein i alt i løbet af dagen.
 
@@ -91,7 +109,11 @@ Efter styrketræning vil proteinsyntesen være forhøjet i op til 24 timer (mås
 
 Men det er tydeligt i figuren, at det anabolske vindue for protein er noget længere end man tidligere har opereret med. Forudsætningen i ovenstående figur er også, at man ikke træner fastende.
 
-Shoenfeld et al (2017) konkluderer senere at <q>interval for protein intake may be as wide as several hours or perhaps more after a training bout depending on when the pre-workout meal was consumed.</q>
+Shoenfeld et al (2017) konkluderer senere, at:
+
+> interval for protein intake may be as wide as several hours or perhaps more after a training bout depending on when the pre-workout meal was consumed.
+
+--- <cite>Shoenfeld et al (2017)</cite>
 
 Hvis der er nok tilgængelige aminosyrer i dit system i forbindelse med træningen, så kan du udnytte det såkaldte anabolske, åbne vindue. Vinduet i forhold til protein er bare noget større end man tidligere foreslog.
 
@@ -101,11 +123,13 @@ Du kan se [Jeff Nippard](https://jeffnippard.com/) gennemgå det åbne vindue i 
 
 {% include video provider="youtube" id="tALUxxVxqA8" %}
 
-Kerksick et al (2017) konkluderer i deres "International society of sports nutrition position stand" i forhold til timing, at man får protein så hurtigt efter træning som muligt eller op til 2 timer.
+Kerksick et al (2017) konkluderer i deres "International society of sports nutrition position stand" i forhold til timing, at man indtager protein så hurtigt efter træning som muligt eller op til 2 timer.
 
 ## Hvor meget protein skal du spise omkring træning?
 
-Aragon og Schoenfeld (2013) støtter fleksibiliteten om, hvornår man skal indtage protein. De giver en generel anbefaling, som kan give et akut maksimal anabolsk effekt på 0,4-0,5 g/kg af _lean body mass_ for og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein.
+Aragon og Schoenfeld (2013) støtter fleksibiliteten i forhold til, hvornår man skal indtage protein.
+
+For at få en akut maksimal anabolsk effekt giver de en generel anbefaling på indtagelse på 0,4-0,5 g/kg protein af _lean body mass_ før og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein.
 
 (Husk at de arbejder med lean body mass, som du kan læse lidt mere om under [kropskomposition](/kropskomposition/)).
 
@@ -128,13 +152,15 @@ Læs: [Hvor meget protein har du brug for om dagen?](/dagligt-protein-indtagelse
 - _... når aftensmaden står klar kort efter træning?_ Så er det ikke så nødvendigt. Hvis du træner rigtig meget - og rigtig hårdt kan du overveje om du skal spise en hurtig snack med hurtigt-optagelige kulhydrater og erstatte lidt af hovedmåltidet, får så er der måske en tendens til, at du hurtigere får genopfyldt glykogenlagrene.
 - _... når jeg styrketræner for at øge muskelmassen?_ Måske. Hvis du spiser en snack med et højt indhold af protein lige efter træning, så er det sandsynligt at du over en dag får et øget indhold af protein i din kost, som kan hjælpe med muskelopbygning. Jeg har skrevet lidt mere om [kosttilskud, hvor jeg også nævner protein]({% link _posts/2020-08-11-kosttilskud.md %}).
 
-## Hvad spiser du så?
+## Hvad spiser du så lige efter træning?
 
-Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
+Lige efter træning kan du med fordel indtage 1,1-1,5 gram kulhydrat pr. kg. kropsvægt sammen med 0,25-0,5 g/kg protein i forhold til _lean body mass_ alt efter om dit mål er udholdenhed eller styrketræning.
 
-Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne kommentarerne for at hjælpe med det.
+Når du indtager kulhydrater og protein sammen, så stimuleres insulinudskillelsen bedre, og derfor vil genopbygningen af glykogenlagrene være mere effektiv (se fx [Poole et al (2010)](https://pubmed.ncbi.nlm.nih.gov/24149627/)).
 
-## Konklusion om timing af næringsstoffer
+Hvis du indtager kulhydrat og protein i en ratio der siger 3:1 (se fx [Miller et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12618575/)), så går du nok ikke helt galt i byen.
+
+## Konklusion
 
 Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. Der er et vindue, men det lukker ikke brat i efter et præcist tidsrum.
 
