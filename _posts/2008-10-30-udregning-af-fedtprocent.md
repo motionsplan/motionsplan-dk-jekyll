@@ -73,7 +73,7 @@ Hvis jeg bruger [danske mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at få energi og at kunne holde varmen, og fedt er også en central del af mange processer og dannelsen af flere i kroppen.
 
-Formularen benytter sig af flere forskellige formler til udregning af fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
+Beregneren benytter sig af **flere forskellige formler til udregning af fedtprocenten**. Formlerne for de enkelte beregninger kan du se nedenunder.
 
 Baggrunden for formlerne i beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
 
