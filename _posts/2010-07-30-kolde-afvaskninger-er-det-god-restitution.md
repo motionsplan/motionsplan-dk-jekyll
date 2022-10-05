@@ -48,7 +48,7 @@ Der eksisterer forskellige protokoller til at fremme den kortvarige restitution,
 
 Versey et al (2013) konkluderer, at Cold Water Immersion og Contrast Water Therapy ser ud til at kunne have en effekt, mens studierne ikke viser noget klart om de andre typer.
 
-I dette indlæg fokuserer vi på isbade, men vi har skrevet et andet indlæg om [effekten af kontrastbade på restitutionen](/kontrastbad/).
+I dette indlæg fokuserer vi på isbade, men vi har skrevet et andet indlæg om [effekten af kontrastbade på restitutionen](/kontrastbade/).
 
 [Malta et al (2021)](https://pubmed.ncbi.nlm.nih.gov/33146851/) konkluderer i deres metastudie, at de kolde isbade har en positiv effekt i forhold til udholdenhedsidræt, men har en hæmmende effekt på styrketræning.
 
