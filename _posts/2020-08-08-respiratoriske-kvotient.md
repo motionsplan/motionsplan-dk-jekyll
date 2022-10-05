@@ -2,10 +2,9 @@
 title: &title "Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)"
 description: "Den respiratoriske udvekslingskvotient (R eller RER) og metaboliske udvekslingskvotient (RQ) beskriver forholdet mellem fedt og kulhydrat i forbrændingen."
 permalink: /respiratoriske-metaboliske-udvekslingskvotient/
-last_modified_at: 2021-01-17T09:41:09Z
+last_modified_at: 2022-10-05T20:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -21,6 +20,11 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
+faq:
+  - question: Hvad er den respiratorisk kvotient?
+    answer: Den respiratoriske kvotient er et lidt kortere navn for den respiratoriske udvekslingskvotient, som også forkortes R eller RER.
+  - question: Hvad er forskellen på den metaboliske udvekslingskvotient og den respiratoriske udvekslingskvotient?
+    answer: Begge kvotienter er forholdet mellem mængden af kuldioxid, der udskilles, divideret med mængden af ilt, der optages, på samme tid. Forskellen er at den metaboliske kvotient måles på celleniveau, mens den respiratoriske kvotient måles i udåndingsluften.
 ---
 
 Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. Derfor forklarer jeg lidt mere om, hvad den respiratoriske udviklingskvotient er i forhold til den metaboliske udvekslingskvotient (RQ).
@@ -31,15 +35,17 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 
 ## Hvad er den respiratoriske udviklingskvotient (RER)?
 
-**Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+**Den respiratoriske udvekslingskvotient er den mængde kuldioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
 
 {% include video provider="youtube" id="_NevUAOpQAw" %}
 
-Den [respiratoriske udvekslingskvotient](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) kan give et indblik i, hvilken metabolisme der foregår i kroppen.
+Den respiratoriske udvekslingskvotient kan ifølge [Wikipedia](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) give et indblik i, hvilken metabolisme der foregår i kroppen.
 
-Den metoboliske udvekslingskvotient (RQ) afhænger af, hvilke fødevarer der forbrændes i kroppen. Der kan forbrændes kulhydrat, fedt, protein og alkohol. RQ afspejler, hvilke næringsstoffer der forbrændes.
+Den metoboliske udvekslingskvotient (RQ) afhænger af, hvilke fødevarer der forbrændes i kroppen. Kroppen forbrænder kulhydrat, fedt, protein og alkohol. RQ afspejler, hvilke næringsstoffer der forbrændes.
 
-Hvad er den metaboliske udviklingskvotient (RQ)? **Den metaboliske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde oxygen (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
+## Hvad er den metaboliske udviklingskvotient (RQ)?
+
+**Den metaboliske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde oxygen (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
 
 RQ varierer mellem 0,6 og 1,0 og afspejler den øjeblikkelige CO<sub>2</sub>-produktion i vævene delt med det samtidige O<sub>2</sub>-forbrug.
 
@@ -55,11 +61,9 @@ Når man laver tests på løbebånd med iltmaske måler man altså den respirato
 
 På en normal kost er RER omkring 0,8 - 0,85 i hvile. Der forbrændes hovedsageligt fedt med værdier fra 0,7 - 0,85, hvor der er 100% fedtforbrænding ved 0,7.
 
-{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQogintensitet.jpg" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode. Kilde: Schibye (2017)" alt="Metaboliske udvekslingskvotient (RQ)" %}
+{% include figure image_path="/assets/images/blog/rq-og-intensitet.png" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode. Frit efter: Schibye (2017)" alt="Metaboliske udvekslingskvotient (RQ)" %}
 
-Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrrater.
-
-{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQ.jpg" caption="Den respiratoriske kvotient ved forbrænding af fedt og kulhydrat i forskellige blandingsforhold. Kilde: Schibye (2017)" alt="Den respiratoriske udvekslingskvotient (RER)" %}
+Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrater.
 
 | RQ   | %E fra fedt | %E fra kulhydrat |
 |------|:-----------:|:----------------:|
@@ -75,7 +79,7 @@ Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER
 
 RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse. Hvis RER-værdien kommer over 1,0 og gerne lidt højere, så kan det være et slutpunktskriterium for VO<sub>2</sub>-max-testen.
 
-## Konklusion om RER og RQ
+## Konklusion
 
 RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
 
@@ -89,6 +93,10 @@ Udskillelsen af CO<sub>2</sub> gennem udåndingsluften kan i øvrigt stige efter
 
 Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
 
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
+
 ## Referencer
 
-{% include feature_row type="left"%}
+{% include feature_row type="left" %}
