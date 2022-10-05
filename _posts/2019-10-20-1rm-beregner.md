@@ -49,7 +49,7 @@ faq:
 
 Vil du gerne vide, hvor meget du kan løfte i styrketræning? Du kan bruge en RM-beregner, hvis du gerne vil vide, hvor stærk du er ud fra submaksimale løft.
 
-I styrketræning arbejder man med begrebet 1RM (one repetition maximum), som er et udtryk for den vægt, man netop kan løfte en gang.
+I styrketræning arbejder man med begrebet 1RM, som er et udtryk for den vægt, man netop kan løfte en gang.
 
 Hvis du løbende vil teste din styrke, så er et rigtig godt alternativ til en [1RM-test](/rm-maxtest/) at udregne din one rep max ud fra de løft, du laver i træningen.
 
@@ -120,13 +120,17 @@ Men metoden er ikke fejlfri.
 En RM-beregning kan både underestimere og overestimere den aktuelle 1RM for løfterne. Der er i hvert fald et par forhold, som man skal tænke på:
 
 - **Træningserfaring**. Nervesystemet og tilvænning er en stor del af maksimal styrke. En begynder som fx løfter 10 gentagelser til udmattelse får herved udregnet en 1RM. Hvis vedkommende ikke er vant til at løfte tunge vægte med maksimal intensitet, så kan nervesystemet måske ikke rekruttere tilstrækkeligt med muskelfibre, eller teknikken bryder ned.
-- **Muskelfibertypesammensætningen** kan også betyde noget for præcisionen. Hvis man har en overvægt af type II fibre, kan man forestille sig, at RM-testen vil underestimere sin 1RM, fordi man ikke er så udholdende ved de submaksimale løft. Omvendt ser det så ud for løftere med en overvægt af de udholdende type I-fibre. Jeg har skrevet et andet indlæg, der går i dybden med [muskelfibertyper]({% link _posts/2020-06-09-muskelfibertyper.md %}).
+- **Muskelfibertypesammensætningen** kan også betyde noget for præcisionen af udregningen. Hvis man har en overvægt af type II fibre, kan man forestille sig, at RM-testen vil underestimere 1RM, fordi man ikke er så udholdende ved de submaksimale løft. Omvendt ser det så ud for løftere med en overvægt af de udholdende type I-fibre.
+ 
+Læs: [Alt om hurtige og langsomme muskelfibertyper]({% link _posts/2020-06-09-muskelfibertyper.md %})
 
-Du skal også have valgt den mest pålidelige algoritme til at bestemme netop din egen 1RM max ud fra alle de forskellige formler, der findes.
+Du skal altså have valgt den mest pålidelige algoritme til at bestemme netop din egen 1RM max ud fra alle de forskellige formler, der findes.
 
 ## Baggrunden for RM-beregneren
 
-Der er lavet rigtig mange forskellige studier, der har forsøgt at give sit bud på en formel til at estimere 1RM. Den **mest udbredte formel virker til at være Brzyckis formel og Epleys formel**. Jeg har i RM-beregneren inkluderet en lang række forskellige algoritmers, som du kan se under beregneren.
+Der er lavet rigtig mange forskellige studier, der har forsøgt at give sit bud på en formel til at estimere 1RM.
+
+Den **mest udbredte formel lader til at være Brzyckis formel og Epleys formel**. Jeg har i RM-beregneren inkluderet en lang række forskellige algoritmer, som du kan se under beregneren.
 
 [Reynolds (2006)](https://doi.org/10.1519/R-15304.1) har lavet et metastudium, hvor de kårer **Reynolds egen formel til at være den mest præcise** (men studiet er baseret på, at man nøjagtigt laver en 5RM-tests).
 
@@ -143,7 +147,9 @@ I nogle studier har forskerne også målt biometriske værdier som fx armlængde
 
 Derefter har forskerene lavet regressionsanlyse på tallene. Typisk har de fundet sammenhænge som fx at: "højere 5RM også resulterer i en højere 1RM" eller at "folk med kortere arme er stærkere i bænkpres". Regressionanalysen ender så med et at ende ud i en formel.
 
-Når forskerne så har lavet en formel på baggrund af resultaterne fra de første deltagere, så kan de tage en anden gruppe for at teste, hvor præcise forudsigelserne med formlerne er.  Reynolds (2006) har bl.a. lavet et meta-review af en del af de tidligere formler.
+Når forskerne så har lavet en formel på baggrund af resultaterne fra de første deltagere, så kan de tage en anden gruppe for at teste, hvor præcise forudsigelserne med formlerne er.
+
+Reynolds (2006) har lavet et meta-review af en del af de tidligere formler.
 
 De fleste studier er blevet lavet på mænd, men Mayhew et al (2008) fandt at deres formel passede fint på kvinder også.
 
@@ -264,5 +270,4 @@ Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion]({% li
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
 - [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){: rel='sponsored nofollow noopener' }
-
 </details>
