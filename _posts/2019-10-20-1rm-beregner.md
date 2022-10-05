@@ -61,6 +61,10 @@ I dette indlæg får du svaret på følgende spørgsmål:
 - Udregn din 1RM max i vores RM-udregner
 - Hvad er fordelene og ulemperne ved formlerne til at udregne 1RM-max?
 
+## RM-beregner til 1RM max
+
+{% include calculate-1rm.html %}
+
 ## Hvad er en RM-beregner?
 
 En **RM-beregner** kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser.
@@ -74,10 +78,6 @@ Du kan altså løfte lette vægte med mange gentagelser og stadig få et nogenlu
 *[1RM]: One Repetition Maximum
 *[RM]: Repetition Maximum
 *[RPE]: Rate of Perceived Exertion
-
-## RM-beregner til 1RM max
-
-{% include calculate-1rm.html %}
 
 ## Hvordan finder jeg min 1RM med beregneren?
 
