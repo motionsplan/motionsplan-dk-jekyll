@@ -82,25 +82,25 @@ Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). 
 
 ### Mænd
 
-| Disciplin | Tid | Navn | Land | Land | Dato | Kommentar |
-|-|-|-|-|-|-|
-| 10.000 m kapgang (bane) | 37:53.09 | Paquillo Fernández | Spanien | Spanien | 27. juli 2008 | Spanish Championships	Spanien Santa Cruz de Tenerife, Spain	|
-| 10 km kapgang (landevejsløb) | 37:11 | Roman Rasskazov | Rusland | Rusland | 28. maj 2000 | Rusland Saransk, Russia |
-| 20.000 m kapgang (bane) | 1:17:25.6 | Bernardo Segura | Mexico | Mexico | 7. maj 1994 | Norge Bergen, Norway |
-| 20 km kapgang (landevejsløb) | 1:16:36 | Yusuke Suzuki | Japan | Japan | 15. marts 2015 | Asian Race Walking Championships | Japan Nomi, Japan |
-| 2 timer kapgang (bane) | 29,572 m |	Maurizio Damilano | Italien | Italien | 3. oktober 1992 |	Italien Cuneo, Italy |
-| 30.000 m kapgang (bane) | 2:01:44.1 | Maurizio Damilano | Italien | Italien | 3. oktober 1992	|	Italien Cuneo, Italy |
-| 50.000 m kapgang (bane) | 3:35:27.20 | Yohann Diniz | Frankrig | Frankrig | 12. marts 2011 | Frankrig Reims, France	|
-| 50 km kapgang (landevejsløb) | 3:32:33 | Yohann Diniz | Frankrig | Frankrig | 15. august 2014 |	European Championships | Schweiz Zürich, Switzerland |
+| Disciplin | Tid | Navn | Land | Dato | Kommentar |
+|-|-|-|-|-|
+| 10.000 m kapgang (bane) | 37:53.09 | Paquillo Fernández | Spanien | 27. juli 2008 | Spanish Championships	Spanien Santa Cruz de Tenerife, Spain	|
+| 10 km kapgang (landevejsløb) | 37:11 | Roman Rasskazov | Rusland | 28. maj 2000 | Rusland Saransk, Russia |
+| 20.000 m kapgang (bane) | 1:17:25.6 | Bernardo Segura | Mexico | 7. maj 1994 | Norge Bergen, Norway |
+| 20 km kapgang (landevejsløb) | 1:16:36 | Yusuke Suzuki | Japan | 15. marts 2015 | Asian Race Walking Championships, Japan Nomi, Japan |
+| 2 timer kapgang (bane) | 29,572 m |	Maurizio Damilano | Italien | 3. oktober 1992 |	Italien Cuneo, Italy |
+| 30.000 m kapgang (bane) | 2:01:44.1 | Maurizio Damilano | Italien | 3. oktober 1992	|	Italien Cuneo, Italy |
+| 50.000 m kapgang (bane) | 3:35:27.20 | Yohann Diniz | Frankrig | 12. marts 2011 | Frankrig Reims, France |
+| 50 km kapgang (landevejsløb) | 3:32:33 | Yohann Diniz | Frankrig | 15. august 2014 | European Championships, Schweiz Zürich, Switzerland |
 
 ### Verdensrekorder for kvinders kapgang
 
-| Disciplin | Tid | Navn | Land | Land | Dato | Kommentar |
-|-|-|-|-|-|-|
-| 10.000 m kapgang (bane)	| 41:56.23 | Nadezhda Ryashkina | Sovjetunionen | Sovjetunionen | 24. juli 1990	| USA Seattle, United States |
-|| 41:37.9 | Gao Hongmiao | Kina | Kina | 7. april 1994 | Kina | Beijing, PR China |
-| 10 km kapgang (landevejsløb) | 41:04 | Yelena Nikolayeva | Rusland | Rusland | 20. april 1996 | Rusland Sochi, Russia	|
-| 20.000 m kapgang (bane)	| 1:26:52.3 | Olimpiada Ivanova | Rusland | Rusland | 6. September 2001 | Australien Brisbane, Australia |
+| Disciplin | Tid | Navn | Land | Dato | Kommentar |
+|-|-|-|-|-|
+| 10.000 m kapgang (bane)	| 41:56.23 | Nadezhda Ryashkina | Sovjetunionen | 24. juli 1990	| USA Seattle, United States |
+|| 41:37.9 | Gao Hongmiao | Kina | 7. april 1994 | Kina, Beijing, PR China |
+| 10 km kapgang (landevejsløb) | 41:04 | Yelena Nikolayeva | Rusland | 20. april 1996 | Rusland Sochi, Russia	|
+| 20.000 m kapgang (bane)	| 1:26:52.3 | Olimpiada Ivanova | Rusland | 6. September 2001 | Australien Brisbane, Australia |
 | 20 km kapgang (landevejsløb) | 1:24:38 | Liu Hong | China | 6. juni 2015 | Gran Premio Cantones	Spanien A Coruña, Spain	|
 | 50 km kapgang (landevejsløb) | 4:08:26 | Inês Henriques | Portugal | 15. januar 2017 | Portuguese Championships	Portugal Porto de Mós, Portugal	|
 
