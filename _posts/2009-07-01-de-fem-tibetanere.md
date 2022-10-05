@@ -381,5 +381,3 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 ## Plakat med de fem tibetanere
 
 {% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
-
-## Noter til de 5 tibetanere
