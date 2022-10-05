@@ -84,37 +84,47 @@ faq:
     answer: Det tager kun omkring 10-20 minutter at lave de fem tibetanere.
 ---
 
-De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
+De fem tibetanere er fem yogaøvelser, og det siges at øvelserne er en af hemmelighederne bag ungdommens kilde. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
 
-Hvad er de fem tibetanere? **De fem tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom.**
+De fem tibetanere er en sammensætning af 5 forholdsvist simle yogaøvelser. De blev beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0.
 
-De fem tibetanere er en sammensætning af 5 forholdsvist simle yogaøvelser. Øvelserne har vundet større og større indpas i den vestlige verden og udføres dagligt af flere millioner mennesker.
+De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne er lette at implementere i din hverdag. De fem øvelser kan udføres hvor som helst, og tager ikke mere end 20 minutter.
+
+Øvelserne har vundet større og større indpas i den vestlige verden og udføres dagligt af flere millioner mennesker.
+
+{% comment %}
 
 Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
 
-Måske er du klar til selv at kaste dig ud i øvelserne. De fem øvelser kan udføres hvor som helst, og tager ikke mere end 20 minutter.
+{% endcomment %}
 
 Jeg har samlet den vigtigste information om de fem tibetanere på denne side. Jeg beskriver her på siden historien bag de fem tibetanere, **hvordan riterne skal laves med både video og illustrationer** og noget af det filosofiske baggrund bag de 5 tibetanere.
 
-Du kan nu komme i gang med at udføre de fem tibetanere.
-
 ## Hvad er de fem tibetanere?
 
-Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også herligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til vennen Peter Kelder, som i slutningen af 1930'erne skrev bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
+De fem tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere.
+
+De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom.
+
+Tibetanske munke lavede øvelserne for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil.
+
+Derfor var det også herligt, at Oberst Bradford bragte disse øvelser til vesten. Her beskrev vennen, Peter Kelder, i slutningen af 1930'erne øvelserne i bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
 
 Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
 
 {% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere." %}
 
-Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
+## Hvordan laver man øvelserne?
 
-Baggrunden for øvelserne i **de fem tibetanere**, og hvordan de udføres forklares udemærket i den her lidt ældre video fra Youtube:
+Men nu til det vigtigste:
+
+Hvordan laver man de fem tibetanere? Det får du en god forklaring på i denne lidt ældre video fra Youtube.
 
 {% include video provider="youtube" id="x2lOypwVfKo" %}
 
 ## Hvor ofte skal jeg lave de fem tibetanere?
 
-De fem øvelser i _De Fem Tibetanere_ skal gentages 21 gange hver dag. Du kan fx udføre øvelserne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng.
+De fem riter skal gentages 21 gange hver dag. Du kan fx udføre øvelserne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng.
 
 Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove. Du skal derfor selv finde ud af, hvilken tid på dagen, der passer dig bedst.
 
@@ -122,7 +132,7 @@ Hvis du ikke kan afse tid til at lave riterne hver dag, så er det bedre at lave
 
 Det er vigtigt, at du tager dig god tid til at lave øvelserne rigtigt og fokusere på vejrtrækningen, så det tager omkring 15-20 minutter at lave øvelserne.
 
-Det er umuligt at give et endegyldigt svar på spørgsmålet: "Hvor ofte skal de fem tibetanere udføres?".
+Det er umuligt at give et endegyldigt svar på spørgsmålet: "Hvor ofte skal de fem tibetanere udføres?"
 
 Det handler om at få de fem tibetanere til at passe ind, så de gør en forskel i dit liv og dit energiniveau.
 
@@ -130,13 +140,11 @@ Det handler om at få de fem tibetanere til at passe ind, så de gør en forskel
 
 De gamle forskrifter siger, at hver af de 5 øvelser skal gentages 21 gange hver dag. Det er dog bedre at lave tre gentagelser end slet ikke at udføre øvelserne. Så hvis du en dag ikke har tid eller har lyst til at springe over, så tager det det under 5 minutter at lave tre gentagelser.
 
-I begyndelsen skal du ikke regne med, at du kan lave alle 21 gentagelser af hver øvelse. Det bør du heller ikke gøre i starten, da øvelserne efter signende kan fremme udrensning af giftstoffer fra kroppen og deraf følgende udrensningssymptomer.[^1]
-
-[^1]: Jeg har ikke kunnet finde kilder, der underbygger, at De 5 tibetanere skulle kunne udrense giftstoffer og skabe udregningssymptomer, men det anføres ofte på forskellige sites om yoga.
+I begyndelsen skal du ikke regne med, at du kan lave alle 21 gentagelser af hver øvelse.
 
 For at **komme i gang med de fem tibetanere, så anbefaler jeg**, at du starter langsomt.
 
-Start fx med at lave 3 gentagelser af hver øvelse og trap så langsomt op hver uge, så du når op til 21 gentagelser i løbet af en måneds tid. **21 gentagelser er det optimale antal gentagelser af de 5 tibetanere**, og du bør ikke lave flere gentagelser, for så skubber du til energibalancerne i kroppen. Selvom du er i god fysisk form, skal du altså maksimalt gentage øvelserne det foreskrevne antal gange.
+Start fx med at lave 3 gentagelser af hver øvelse og trap så langsomt op hver uge, så du når op til 21 gentagelser i løbet af en måneds tid. **21 gentagelser er det optimale antal gentagelser af de enkelte riter**, og du bør ikke lave flere gentagelser, for så skubber du til energibalancerne i kroppen. Selvom du er i god fysisk form, skal du altså maksimalt gentage øvelserne det foreskrevne antal gange.
 
 Find dit eget tempo til hver af øvelserne - det handler ikke om at kunne gøre dem hurtigt, men om at føle dig godt tilpas med øvelserne.
 
@@ -150,7 +158,9 @@ Først kan du se nogle simple tændstikmænd, der illustrerer øvelserne:
 
 {% include gallery caption="Animation af de 5 tibetanske øvelser fra [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)" %}
 
-Jeg har først udvalgt to videoer om de fem tibetanere fra Youtube, hvor danske yogainstruktører forklarer de fem yogaøvelser og sammenhængen mellem riterne. Du kan prøve at klikke på begge to for at se, hvilken instruktør, du helst vil have til at forklare øvelserne.
+Jeg har først udvalgt to videoer fra Youtube, hvor danske yogainstruktører forklarer de fem yogaøvelser og sammenhængen mellem riterne.
+
+Du kan prøve at klikke på begge to for at se, hvilken instruktør, du helst vil have til at forklare øvelserne.
 
 Yogainstruktøren, Brian Dernje Nielsen, **forklarer og viser øvelserne i denne video**, hvor der er lidt yogamusik til øvelserne også.
 
@@ -162,7 +172,7 @@ Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og
 
 ## Illustreret øvelsesbeskrivelse af de 5 tibetanere
 
-Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så gennemgår jeg her hvilke 5 yogaøvelser, du kommer igennem i de 5 tibetanere?
+Her gennemgår jeg øvelserne **illustreret** og gennemgået på skrift, hvis du foretrækker det.
 
 {% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Illustration af de fem tibetanere. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
 
@@ -220,8 +230,6 @@ Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme se
 
 [Udskriv øvelserne med forklaring](https://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
-
 ### Video af tibetanerne på Youtube
 
 Hvis du er til en ret dynamisk gennemgang af øvelserne med markant yogamusik, så gennemgår yogainstruktøren, Helle "Dayal Kaur" Nissen øvelserne i denne video:
@@ -246,7 +254,7 @@ Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
-## Virkning: Hvordan virker de 5 tibetanere?
+## Hvordan virker de 5 tibetanere?
 
 Tanken bag de 5 tibetanere er, at gennemførelsen af øvelserne skal stimulere strømmen af naturlig livsenergi gennem kroppen. Påstanden er at øvelserne har en gennemgribende virkning på kroppen og kroppens energibalance.
 
