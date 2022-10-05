@@ -183,6 +183,13 @@ Start med omkring 75% af [1RM](/rm-maxtest/) for 3x5 gentagelser. Du skal gå ef
 
 [Lee Boyce foreslår på t-nation.com](https://www.t-nation.com/training/forget-prs-first-own-the-weight) også andre metoder og teknikker, du kan bruge til først at eje den enkelte vægt.
 
+## Hvordan kan du lave progression i din træning?
+
+Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har besluttet dig for en bestemt vægt, bliver det lettere, når du har trænet et stykke tid.
+
+- **Tilfældig.** Føl dig frem til, hvor meget vægt, der skal være på stangen. Sørg for at slå en rekord hver gang, du træner. Tag et sæt mere. Smid lidt mere vægt på stangen i en af øvelserne.
+- **Systematisk.** Lav et program, hvor du systematisk tester, hvad dit niveau er, og hvad du skal løfte til hver træning. Du laver jævnligt tests, så du kan justere vægten til næste træning. Fx kan du lave tests hver fjerde uge, hvis du går efter fx 3RM eller 5RM.
+
 ## Konklusion om progressionsmodeller og progressivt overload
 
 Når du laver træningsplanlægning, så husk at progressionsmodeller typisk kun skal bruges i forhold til dine primære løft. Progressionsmodeller kan måske bruges på 1-3 øvelser, mens assistance-øvelser og suppleringsøvelser typisk skal laves så de udfordrer dig.

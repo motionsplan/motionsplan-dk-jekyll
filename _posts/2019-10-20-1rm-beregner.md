@@ -42,9 +42,9 @@ faq:
   - question: Hvad er en RM-beregner?
     answer: "En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer."
   - question: Hvordan beregner man sin 1 RM?
-    answer: Du kan naturligvis bruge vores RM-udregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM-formel. Jeg har samlet de mest populære formler til at udregne 1RM-max på denne side.
+    answer: Du kan bruge en RM-formel. Her kan du finde de mest populære formler i vores RM-udregner.
   - question: Hvad betyder RM, 1RM max og one repetition maximum?
-    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+    answer: "**One Repetition Maximum** kaldes også 1RM. Det er et udtryk for den vægt, du maksimalt kan løfte en gang i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
 ---
 
 Vil du gerne vide, hvor meget du kan løfte i styrketræning? Du kan bruge en RM-beregner, hvis du gerne vil vide, hvor stærk du er ud fra submaksimale løft.
@@ -63,7 +63,7 @@ I dette indlæg får du svaret på følgende spørgsmål:
 
 ## Hvad er en RM-beregner?
 
-**En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser.**
+En **RM-beregner** kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser.
 
 Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.
 
@@ -128,7 +128,7 @@ Du skal også have valgt den mest pålidelige algoritme til at bestemme netop di
 
 Der er lavet rigtig mange forskellige studier, der har forsøgt at give sit bud på en formel til at estimere 1RM. Den **mest udbredte formel virker til at være Brzyckis formel og Epleys formel**. Jeg har i RM-beregneren inkluderet en lang række forskellige algoritmers, som du kan se under beregneren.
 
-Reynolds (2006) har lavet et metastudium, hvor de kårer **Reynolds egen formel til at være den mest præcise** (men studiet er baseret på, at man nøjagtigt laver en 5RM-tests).
+[Reynolds (2006)](https://doi.org/10.1519/R-15304.1) har lavet et metastudium, hvor de kårer **Reynolds egen formel til at være den mest præcise** (men studiet er baseret på, at man nøjagtigt laver en 5RM-tests).
 
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
 
@@ -222,16 +222,21 @@ Formlerne estimerer forskellige RM-vægte. Fælles for alle formlerne er, at de 
 
 {% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)." alt="Sammenligning af formler til 1RM beregner" %}
 
-## Hvordan kan jeg sikre progression med en RM-beregner?
+## Hvordan kan jeg sikre progression med en 1RM-formel?
 
-Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har besluttet dig for en bestemt vægt, bliver det altså lettere, når du har trænet et stykke tid. Progression kan man sikre sig på flere måder.
+Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har besluttet dig for en bestemt vægt, bliver det lettere, når du har trænet et stykke tid.
 
-- **Tilfældig.** Føl dig frem til, hvor meget vægt, der skal være på stangen. Sørg for at slå en rekord hver gang, du træner. Tag et sæt mere. Smid lidt mere vægt på stangen i en af øvelserne.
-- **Systematisk.** Lav et program, hvor du systematisk tester, hvad dit niveau er, og hvad du skal løfte til hver træning. Du laver jævnligt tests, så du kan justere vægten til næste træning. Fx kan du lave tests hver fjerde uge, hvis du går efter fx 3RM eller 5RM.
+Du kan bruge udregningen af din 1RM til at følge din progression. Du kan jævnligt lave tests, så du kan justere vægten til på stangen i de kommende træninger.
 
-## Regneark med RM-beregner
+Et eksempel:
 
-Her har jeg lavet en RM-beregner i Google Sheets, hvis du foretrækker at have data på din egen computer.
+Hver måned estimerer du din 1RM ved at beregne den ud fra dit submaksimale løft.
+
+Læs: [Alt om progression i styrketræning](/progressionsmodeller-progressivt-overload/)
+
+## Regneark med RM-formler
+
+Her har jeg lavet en regneark med RM-formlerne i Google Sheets, hvis du foretrækker at have data på din egen computer.
 
 {% include feature_row id="feature_row_sheet" type="left" %}
 
@@ -247,9 +252,9 @@ Hvis du vil have et endnu mere individualiseret bud på dine egne vægte, så ka
 
 Der er rigtig mange måder at lave programmer til styrketræning på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge RM-tests til at sikre dig, at din træning rent faktisk virker.
 
-Selvom en RM-beregner aldrig kan give dig det helt præcise tal, så kan du få et fornuftigt estimat, når du skal udregne træningsvægte i andre rep ranges.
+Selvom en RM-udregner aldrig kan give dig det helt præcise tal, så kan du få et fornuftigt estimat, når du skal udregne træningsvægte i andre rep ranges.
 
-Jeg kan også rigtig godt selv lide at bruge [RPE-tabeller baseret på Rate of Perceived Exertion]({% link _posts/2019-08-10-rpe.md %}) til at estimere mine træningsvægte.
+Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion]({% link _posts/2019-08-10-rpe.md %}) til at estimere mine træningsvægte.
 
 ## Referencer
 
@@ -258,7 +263,6 @@ Jeg kan også rigtig godt selv lide at bruge [RPE-tabeller baseret på Rate of P
 
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
-- [Jacob Beermann om Maxtest](https://maxer.dk/artikler/maxtest)
 - [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){: rel='sponsored nofollow noopener' }
 
 </details>
