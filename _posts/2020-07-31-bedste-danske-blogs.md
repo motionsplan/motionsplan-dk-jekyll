@@ -76,7 +76,7 @@ feature_row:
     btn_label: "Besøg Poul Haacker"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/marinaaagaard.jpg
-    url: http://marinaaagaardblog.com/
+    url: https://marinaaagaardblog.com/
     title: "Marina Aagaard"
     alt: "Marina Aagaard"
     excerpt: "Marina Aagaard er foredragsholder, forfatter, træner og fitness blogger. Marina deler ud af sine erfaringer med idræt og sundhed, hvordan man holder gejsten oppe og du vil også kunne finde ideer til træningsprogrammer. Bloggen har virkelig mange blogindlæg delt på forskellige træningsemner."

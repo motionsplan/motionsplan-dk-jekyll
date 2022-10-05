@@ -54,7 +54,7 @@ Alle kast ser fundamentalt ens ud, alle hop ser ens ud, og acceleration er uanse
 
 Et vigtigt element i funktionel træning er styrketræning af kropsstammen, musklerne mellem bækken og mellemgulv. Med en stærk og stabil kropsstamme opnår du større kraft, kvalitet og effektivitet i alle øvelser og hermed kropsligt overskud og forbedret total præstationsevne. Sidst, men ikke mindst, er træning af balancen med i al funktionel træning, fordi en bedre balance optimerer alle dine bevægelsesmønstre både i dagligdagen og under udøvelse af sport.
 
-[Marina Aaagaard](http://marinaaagaardblog.com/2013/09/04/hvad-er-funktionel-traening/) har opstillet følgende nøgleord for funktionel træning:
+[Marina Aaagaard](https://marinaaagaardblog.com/2013/09/04/hvad-er-funktionel-traening/) har opstillet følgende nøgleord for funktionel træning:
 
 - Balance, dynamisk og statisk, og stabilitet
 - Koordination, generel samt ben- og armarbejde

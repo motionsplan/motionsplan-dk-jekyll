@@ -149,7 +149,7 @@ Brug en [ruteplanlægger](/ruteopmaaler-loebetur/) inden du cykler afsted, så d
 
 ## Intervaller på motionscykel
 
-http://marinaaagaardblog.com/2015/08/14/inspirerende-intervaltraening-tidseffektiv-sundhedsfremmende-konditionstraening-pa-cykel/
+https://marinaaagaardblog.com/2015/08/14/inspirerende-intervaltraening-tidseffektiv-sundhedsfremmende-konditionstraening-pa-cykel/
 
 {% endcomment %}
 

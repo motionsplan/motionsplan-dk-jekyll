@@ -43,7 +43,7 @@ Postural kontrol
 
 **Hvad er balancetræning?** Balancetræning er træning, der har til formål at forbedre evnen til at holde eller genfinde balancen og holde kroppen i ro under forskellige betingelser. Balancetræning forbedrer den posturale stabilitet, hvilket omfatter at opreholde en ligevægtstilstand både med og uden bevægelse.
 
-Balancetræning gavner præstationsevnen og forebygger skader. Samtidig er det sjovt at lave, og du kan lave balancetræning på rigtig mange forskellige måder. [Marina Aagaard](http://marinaaagaardblog.com/2015/08/10/balancetraening-3-basis-balanceoevelser-der-goer-dig-staerk-og-stabil/) fastslår, at balancetræning kan:
+Balancetræning gavner præstationsevnen og forebygger skader. Samtidig er det sjovt at lave, og du kan lave balancetræning på rigtig mange forskellige måder. [Marina Aagaard](https://marinaaagaardblog.com/2015/08/10/balancetraening-3-basis-balanceoevelser-der-goer-dig-staerk-og-stabil/) fastslår, at balancetræning kan:
 
 - Iaves inde og ude
 - med og uden redskaber
@@ -140,7 +140,7 @@ Jeg kan godt lide at lave balancetræning uden sko, fordi fødderne får lov at 
 
 **Først** skal du kunne holde balancen stående på to ben, hvor du holder dig rank og stabil. Forestil dig at der er nogen, der blidt tager fat i dit hoved og trækker det lidt opad. Mærk hvordan kroppen hele tiden laver små mikrojusteringer i din balance, og hvordan trykket flytter sig rundt på fødderne. Det er den proprioceptive sans, der er på arbejde.
 
-Marina Aagaard har [samlet en progression i sin balancetræning](http://marinaaagaardblog.com/2017/04/26/bedre-balance-traening-progression-af-ovelser-fra-let-til-udfordrende/) fra Dr. Cobb fra Zhealth i en ret overskuelig liste.
+Marina Aagaard har [samlet en progression i sin balancetræning](https://marinaaagaardblog.com/2017/04/26/bedre-balance-traening-progression-af-ovelser-fra-let-til-udfordrende/) fra Dr. Cobb fra Zhealth i en ret overskuelig liste.
 
 Først starter du således:
 
@@ -271,7 +271,7 @@ Yoga Tree Pose er en rigtig god balanceøvelse på et ben. Den kan godt være li
 
 ## Balanceøvelser og stabilitet med modstand (Pertubationstræning)
 
-[Marina Aagaard](http://marinaaagaardblog.com/2015/05/27/traening-af-balance-og-stabilitet-pertubationstraening/) har skrevet et glimrende indlæg om balancetræning, hvor man skal holde balance i forhold til udefrakommende påvirkninger.
+[Marina Aagaard](https://marinaaagaardblog.com/2015/05/27/traening-af-balance-og-stabilitet-pertubationstraening/) har skrevet et glimrende indlæg om balancetræning, hvor man skal holde balance i forhold til udefrakommende påvirkninger.
 
 En god balance og stabilitet er evnen til at være stabil i alle stillinger og kunne genoprette balancen, hvis man kommer ud af balance.
 
