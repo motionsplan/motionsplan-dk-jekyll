@@ -101,9 +101,9 @@ linda.kruse:
   avatar           : "/assets/images/authors/lindakruse.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Linda Kruse er bachelor i Idræt og Sundhed fra Syddansk Universitet. Hun arbejder som bevægelseskonsulent og projektleder i sundhedsafdelingen i Vejle Kommune - og driver Kroptimal."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.kroptimal.dk/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kroptimal/"
 simon.glue:
   name             : "Simon Glue"
   avatar           : "https://www.webopskrifter.dk/billeder/simonsorthvid.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"

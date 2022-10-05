@@ -168,10 +168,10 @@ title: Træningsmetoder
   </div>
 </section>
 {% endif %}
-{% if m.teaser != "" %}
+{% if m.header.teaser != "" %}
 <section>
 <div class="wrap">
-  <img class="alignright size-40" src="{{ m.image | relative_url }}" alt="{{ m.title }}">
+  <img class="alignright size-40" src="{{ m.header.teaser | relative_url }}" alt="{{ m.title }}">
   <h2>{{ m.title }}</h2>
   {{ m.excerpt | markdownify }}
 </div>
