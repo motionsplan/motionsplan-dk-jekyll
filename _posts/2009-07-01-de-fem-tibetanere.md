@@ -104,7 +104,7 @@ Lær **hvordan riterne skal laves med både video og illustrationer**, fordele o
 
 ## Hvad er de fem tibetanere?
 
-De fem tibetanere er fem enkle yogaøvelser, som stammer fra tibetanske munke. Øvelserne er efter sigende kilden til evig ungdom, når du udfører dem hver dag.
+De fem tibetanere stammer fra tibetanske munke. De fem enkle yogaøvelser er efter sigende kilden til evig ungdom, når du udfører dem hver dag.
 
 Yogaøvelserne blev bragt til vesten af Oberst Bradford, og vennen Peter Kelder beskrev i slutningen af 1930'erne øvelserne i en [ret interessant bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
 
