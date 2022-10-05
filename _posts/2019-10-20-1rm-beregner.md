@@ -8,7 +8,6 @@ description: "Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og ud
 excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Victor Freitas on Unsplash
@@ -24,7 +23,6 @@ category:
 tags:
   - styrketræning
   - beregner
-  - repetition maximum
   - test
   - træningsplanlægning
 last_modified_at: 2022-10-04T07:14:14Z
