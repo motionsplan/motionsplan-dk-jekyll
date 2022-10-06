@@ -232,7 +232,7 @@ Et eksempel:
 
 Hver måned estimerer du din 1RM ved at beregne den ud fra dit submaksimale løft.
 
-Læs: [Alt om progression i styrketræning](/progressionsmodeller-progressivt-overload/)
+{% include readmore.html title="Alt om progression i styrketræning" url="/progressionsmodeller-progressivt-overload/" %}
 
 ## Regneark med RM-formler
 
