@@ -64,7 +64,7 @@ De fire populære cardiomaskiner han valgte at vurdere var en crosstrainer, moti
 
 Styrke som parameter giver mest mening, hvis man laver meget korte og kraftfulde intervaller, fx 6-10 sekunders sprint, som kræver en maksimal kraftudvikling, eller nogle meget kraftfulde tag på fx romaskinen i intervaller op til et minuts tid.
 
-[Marina Aagaard](http://marinaaagaardblog.com/2015/06/12/bedre-cardiotraening-disse-cardiomaskiner-giver-bedst-kondition-og-fedtforbraending/) har også vurderet de fire populære cardiomaskiner, og de følgende vurderinger baserer sig på en blanding af Aagaards, Zachos og mine egne vurderinger af cardiomaskinerne.
+[Marina Aagaard](https://marinaaagaardblog.com/2015/06/12/bedre-cardiotraening-disse-cardiomaskiner-giver-bedst-kondition-og-fedtforbraending/) har også vurderet de fire populære cardiomaskiner, og de følgende vurderinger baserer sig på en blanding af Aagaards, Zachos og mine egne vurderinger af cardiomaskinerne.
 
 ## Løbebånd
 
@@ -122,7 +122,7 @@ Det er rigtig let at gå i gang med en motionscykel og kondicykel. Der findes ma
 
 Jeg kan virkelig godt selv lide Wattbikes, da følelsen af at køre på dem minder utrolig meget om at køre på en almindelig cykel. Med Wattbikes kan man ramme [energisystemerne](/energisystemer/) på mange forskellige måder. Du kan både træne aerobt og anaerobt.
 
-Jeg kan godt lide at træne intervaller på cyklen. Fx kan [HIIT-intervaller elle High Intensity Interval Training](/hiit/) virkelig give en intensiv træning. Marina Aagaard har [andre forskalg til intervaltræning](http://marinaaagaardblog.com/2013/01/06/intervaltraening-hiit-det-er-et-hit/).
+Jeg kan godt lide at træne intervaller på cyklen. Fx kan [HIIT-intervaller elle High Intensity Interval Training](/hiit/) virkelig give en intensiv træning. Marina Aagaard har [andre forskalg til intervaltræning](https://marinaaagaardblog.com/2013/01/06/intervaltraening-hiit-det-er-et-hit/).
 
 Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, så kan du også lave forskellige tests. Fx kan du finde dit kondital med en [Watt-max-konditest](/kondital-wattmax/). Det er også oplagt at prøve kræfter med [V<sub>max</sub>-træning](/vmax/), som for øvrigt også kan bruges på løbebåndet.
 

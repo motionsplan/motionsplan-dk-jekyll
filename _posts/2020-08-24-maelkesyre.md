@@ -42,7 +42,7 @@ Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hv
 
 Når kroppen kører på anaerob energiomsætning, så producerer musklerne energi fra kroppens hurtigste energikilder, som er ATP og kreatinfosfat og spaltning af glykose. ATP er vores energimolekyle, som vi hele tiden skal genoplade, så kroppen kan fungere. 
 
-{% include figure image_path="https://bioteknologi.systime.dk/fileadmin/_processed_/6/d/csm_875_To_veje_for_pyruvat_da10a08a22.png" caption="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde i musklerne, når glykose spaltes uden ilt til stede. Processen går meget hurtigt, men producerer ikke så meget ATP. Kilde: [Systime. Bioteknologi](https://bioteknologi.systime.dk/?id=591)." alt="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde og træning" %}
+{% include figure image_path="https://bioteknologi.systime.dk/api/fileadmin/_processed_/6/d/csm_875_To_veje_for_pyruvat_acc5603600.png" caption="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde i musklerne, når glykose spaltes uden ilt til stede. Processen går meget hurtigt, men producerer ikke så meget ATP. Kilde: [Systime. Bioteknologi](https://bioteknologi.systime.dk/?id=591)." alt="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde og træning" %}
 
 Når vi arbejder uden ilt i længere tid, så er vi afhængige af at spalte glykose for at genoplade ATP. Når vi skal spalte glykose for at skabe ATP, så er ilt ikke nødvendigt. Processen foregår lynhurtigt, men når vi arbejder uden ilt, så kan vi ikke arbejde så længe.
 
@@ -60,7 +60,7 @@ Mælkesyren der skabes i musklerne under træning kan også skabe energi. Det in
 
 Når man taler om mælkesyre, så skal du være opmærksom på forskellen mellem mælkesyre og laktat. På engelsk hedder mælkesyre 'lactic acid' og laktat hedder 'lactate'.
 
-Når mælkesyre dannes i glykoysen fra 'pyruvat', så afgiver den altid en proton / H<sup>+</sup> til omgivelserne. Derfor bliver mælkesyren med det samme til laktat, og det er laktat, man kan måle i blodet.
+Når mælkesyre dannes i glykoysen fra 'pyruvat', så afgiver den altid en proton, H<sup>+</sup>, til omgivelserne. Derfor bliver mælkesyren med det samme til laktat, og det er laktat, man kan måle i blodet.
 
 Du kan lære lidt mere om forskellen på laktat og mælkesyre i denne video.
 
@@ -159,6 +159,6 @@ Selvom man ved mere om den anaerobe tærskel, så er der ikke fuldstændig enigh
 
 Du kan træne din evne til at udholde mælkesyre i kroppen. Jeg er fortaler for, at man træner alle kroppens energisystemer, og glykolytisk arbejde med mælkesyre er en af formerne. Typisk kræver det maksimalt arbejde i 30 sekunder til 2 minutter.
 
-Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}), [rointervaller](/artikel/traeningsprogrammer-intervaller-roning/) eller en [prowler](/prowler/), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb](/intervallob-intervaltraening/) og [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen](/wingate/).
+Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}), [rointervaller](/artikel/traeningsprogrammer-intervaller-roning/) eller en [prowler](/prowler-traening-workout-intervaller/), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb](/intervallob-intervaltraening/) og [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen](/wingate/).
 
 Jeg har skrevet en grundig artikel om [kroppens energisystemer og aerob og anaerob energiforsyning](/energisystemer/).

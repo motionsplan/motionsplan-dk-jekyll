@@ -167,10 +167,10 @@ Hvad er din definition af sundhed?
 
 ## Anden inspiration om testning af sundhed og fitness
 
-- [Sundhedstjek og formtest: Testskemaer](http://marinaaagaardblog.com/2015/06/26/sundhedstjek-og-formtest-testskemaer/)
-- [Fitness testning: Testskemaer](http://marinaaagaardblog.com/2015/06/26/fitness-testning-testskemaer/)
-- [Testning: Fysisk testning øger motivation og træningseffekt](http://marinaaagaardblog.com/2015/04/14/testning-fysisk-testning-oger-motivation-og-traeningseffekt/)
-- [Test dig selv: Fitness testning giver mere målrettet og motiverende træning](http://marinaaagaardblog.com/2013/08/28/test-dig-selv-fitness-testning-giver-mere-malrettet-og-motiverende-traening/)
+- [Sundhedstjek og formtest: Testskemaer](https://marinaaagaardblog.com/2015/06/26/sundhedstjek-og-formtest-testskemaer/)
+- [Fitness testning: Testskemaer](https://marinaaagaardblog.com/2015/06/26/fitness-testning-testskemaer/)
+- [Testning: Fysisk testning øger motivation og træningseffekt](https://marinaaagaardblog.com/2015/04/14/testning-fysisk-testning-oger-motivation-og-traeningseffekt/)
+- [Test dig selv: Fitness testning giver mere målrettet og motiverende træning](https://marinaaagaardblog.com/2013/08/28/test-dig-selv-fitness-testning-giver-mere-malrettet-og-motiverende-traening/)
 
 {% include feature_row type="left" %}
 

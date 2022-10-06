@@ -184,4 +184,4 @@ Du kan læse en kritik af Jack Daniels udregninger på [jaredmcqueen.com](https:
 
 ## Gode bøger om løbetræning
 
-{% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Tales](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214){: rel='sponsored nofollow noopener' } eller hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel='sponsored nofollow noopener' }." %}
+{% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel='sponsored nofollow noopener' }." %}

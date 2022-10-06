@@ -21,8 +21,6 @@ tags:
   - tracking
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
-toc: true
-breadcrumbs: true
 ---
 
 **Rockports 1,6 km gåtest er en submaksimal konditionstest. Konditallet estimeres ud fra tiden for gennemførelse af testen og pulsen ved afslutningen af gåtesten. Testen er oprindeligt udviklet af Kline et al (1987).**
@@ -67,7 +65,7 @@ Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan a
 
 Denne formel bliver brugt til at estimere konditallet og er lavet af Kline (1987).
 
-Kondital = 132.853 - (0.169535479 × Kropsvægt) - (0.3877 × Alder) + (6.315 × Køn) - (3.2649 × Tid) - (0.1565 × HR)
+Kondital = 132,853 - (0,169535479 × Kropsvægt) - (0,3877 × Alder) + (6,315 × Køn) - (3,2649 × Tid) - (0,1565 × HR)
 
 Hvor:
 
@@ -81,7 +79,9 @@ Hvor:
 
 Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
 
-Du kan lade 1,6 km gåtesten være en del af dit mål om at komme i bedre form. Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor langt 10.000 skridt er, og hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
+Du kan lade 1,6 km gåtesten være en del af dit mål om at komme i bedre form. Du kan sammenligne din egen tid med [hvor hurtigt man normalt går](/tid-at-gaa/).
+
+Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
 
 ## Referencer
 

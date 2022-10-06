@@ -74,9 +74,9 @@ Det er meget individuelt, hvor lang tid det tager at restituere. Her giver vi et
 
 {% include figure image_path="/assets/images/restitution.png" caption="Restitutionstid for forskellige aktiviteter lige fra ang til maksimal sprint. Kilde: [Iform](https://iform.dk/traening/friske-muskler-i-en-fart)" alt="restitutionstid for forskellige aktiviteter" %}
 
-[Marina Aagaard](http://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) præsenterer restitutionstiden i denne overskuelige tabel.
+[Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) præsenterer restitutionstiden i denne overskuelige tabel.
 
-{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](http://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/)" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
+{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/)" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
 
 ### Restitutionstid for styrketræning
 

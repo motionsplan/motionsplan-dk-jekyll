@@ -93,7 +93,9 @@ Du kan bruge MET til at sammenligne energiforbruget ved løb og gang. 1 MET er d
 
 Gang forbruger 3-6 MET alt efter tempoet og løb bruger mere end 6 MET.
 
-Undtagelsen er hvis du begynder at gå virkelig hurtigt. I nedenstående tabel vil du lægge mærke til, at gang og løb med 8 km/t bruger den samme mængde energi, mens du ved en løbehastighed på 6,4 km/t vil bruge mindre energi på at gå.
+Undtagelsen er hvis du begynder at gå virkelig hurtigt.
+
+I nedenstående tabel vil du lægge mærke til, at gang og løb med 8 km/t bruger den samme mængde energi, mens du ved en løbehastighed på 6,4 km/t vil bruge mindre energi på at gå.
 
 | Aktivitet     | MET      |
 |---------------|----------|
@@ -112,11 +114,11 @@ Undtagelsen er hvis du begynder at gå virkelig hurtigt. I nedenstående tabel v
 
 ## Udregn energiforbruget ved løb og gang
 
-I denne beregner kan du sammenligne, hvor mange kalorier man forbrænder i hhv. gang og løb.
+I denne beregner kan du sammenligne, hvor mange kalorier du forbrænder i hhv. gang og løb.
 
 Du kan enten vælge formlen fra ACSM eller basere dine udregninger på MET-værdierne.
 
-I beregnere kan du selv regne lidt på de forskellige løbehastigheder og ganghastigheder for at se, hvordan energiforbruget pr. kilometer og pr. minut ændrer sig sammen med hastigheden.
+I beregneren kan du selv regne lidt på de forskellige løbehastigheder og ganghastigheder for at se, hvordan energiforbruget pr. kilometer og pr. minut ændrer sig sammen med hastigheden.
 
 Løb bruger altid mere energi end gang!
 

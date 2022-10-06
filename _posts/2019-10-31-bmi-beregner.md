@@ -89,9 +89,13 @@ Her er grænserne for normal BMI udvidet, så det ligger mellem 20-30. Et højt 
 
 Her havde du mulighed for at udregne BMI i vores beregner. Nu har du altså fået sat et tal på dig selv, som angiveligt siger noget om din sundhed. Husk at hvis du har en sund livsstil, laver fysisk aktivitet og følger de officielle kostråd, så er et højere BMI ikke nødvendigvis nogen udfordring.
 
-Der er mange andre parametre, som betyder noget for dit helbred. Du kan sagtens være normalvægtig, selvom du får et højt BMI, da BMI ikke tager højde for muskelmasse. Hvis du har en stor muskelmasse, så har du stadig en sund vægt. Muskler vejer en del, så du skal altså ikke tabe dig, bare fordi vægten står et bestemt sted.
+Der er mange andre parametre, som betyder noget for dit helbred. Du kan sagtens være normalvægtig, selvom du får et højt BMI, da BMI ikke tager højde for muskelmasse. Hvis du har en stor muskelmasse, så har du stadig en sund vægt.
 
-Du kan fx lave en mere nøjagtig [måling af din fedtprocent](/maal-fedtprocent/), men hvis du skal vide noget om placeringen af fedtdepoterne på kroppen, så kan du også måle [dit taljemål](/taljemaal/). Taljemålet kan altså være en bedre indikation for, om du er i høj risiko for visse sygdomme.
+Muskler vejer en del, så du skal altså ikke tabe dig, bare fordi vægten står et bestemt sted.
+
+Du kan fx lave en mere nøjagtig [måling af din fedtprocent](/maal-fedtprocent/). Fx kan man på baggrund af alder, vægt og højde [udregne din fedtprocent](/artikel/udregning-af-fedtprocent/) med simple formler.
+
+Hvis du gerne vil vide noget om placeringen af fedtdepoterne på kroppen, så kan du også måle [dit taljemål](/taljemaal/). Taljemålet kan altså være en bedre indikation for, om du er i høj risiko for visse sygdomme.
 
 ## Ofte stillede spørgsmål
 

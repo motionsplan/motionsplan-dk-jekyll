@@ -44,7 +44,7 @@ Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsm
 - Hvad er min gennemsnitsfart, og hvor hurtigt løber jeg i gennemsnit på en given distance?
 - Hvor lang tid tager det at løbe en bestemt distance?
 
-Hvis du leder efter en [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider, så tjek Jack Daniels Running Formula]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+Hvis du er på udkig efter en hastighedsberegner til løb, så har vi også denne [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
 {% include lead-magnet-button.html %}
 

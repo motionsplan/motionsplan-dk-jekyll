@@ -62,7 +62,7 @@ Ud over selv at være en rigtig dygtig roer, så har Anders Krintel også lavet 
 
 Jeg har spurgt om han ville udvælge **de 10 bedste intervalprogrammer til roning på indendørs romaskine**, så jeg kan komme i bedre form.
 
-Hvis du kigger rundt på [ropro.dk](http://ropro.dk) kan du helt sikkert finde en masse god inspiration til roprogrammer, intervaller og træningsmoduler til din egen træning.
+Hvis du kigger rundt på [ropro.dk](https://www.ropro.dk/) kan du helt sikkert finde en masse god inspiration til roprogrammer, intervaller og træningsmoduler til din egen træning.
 
 Siden er en no-bullshit side, hvor du ikke finder videnskabelig baggrund eller forkromede, længerevarende træningsprogrammer. Til gengæld finder du mere end 120 forskellige roprogrammer til voksne og 30 træningsprogrammer til børn, som du kan afprøve på dine enkelte træninger.
 
@@ -76,7 +76,7 @@ Anders Krintel fortæller selv, at man langsomt skal vænne sig til at roning p�
 >
 > Det er sådan et underligt nederlag, hvis man ikke kan gennemføre træningen, men det er også et antiklimaks, hvis man sidder til sidst og tænker, at det er alt for let.
 
---- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
+--- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
 
 Du kan altså bruge en anstrengelsesskala til at styre din intensitet i træningen, så du rammer nogenlunde det, du har forberedt. Anders Krintel foreslår, at hvis du træner 4 x om ugen, så er der tre længere træningspas med lavere intensitet og et rigtig hårdt træningspas.
 
@@ -93,7 +93,7 @@ Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger
 
 > Du kan jo sagtens ro 30 sekunder med 30 sekunders aktiv hvile, hvor det er utrolig hårdt, men du kan også slappe lidt mere af arbjedsintervallet og på den måde have et langt træningspas, der kører på den måde. Du kan selv lære at styre intensiteten, som du kommer i bedre form.
 
---- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
+--- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
 
 Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne](/energisystemer/).
 
@@ -251,7 +251,7 @@ Roere kalder en romaskine for et _ergometer_, og træning på en romaskine for _
 
 De har også [træningsprogrammer til ergometertræning](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/). Træningsprogrammerne er udarbejdet for at hjælpe instruktører, men vi kan alle finde inspiration i de forskellige træningsprogrammer, som findes til både begyndere og øvede.
 
-Træningsprogrammerne til rotræningen varer fra 50-60 minutter. Træningsprogrammerne er lidt mere varierede end Concept2s træningsprogrammer. Ligesom Anders Krintel på [Ropro.dk](http://www.ropro.dk/), så er mange af programmerne organiseret som en form for træningspyramide, hvor kadencen undervejs bygges op og sænkes igen - eller hvor distancerne i de enkelte intervaller skifter.
+Træningsprogrammerne til rotræningen varer fra 50-60 minutter. Træningsprogrammerne er lidt mere varierede end Concept2s træningsprogrammer. Ligesom Anders Krintel på [Ropro.dk](https://www.ropro.dk//), så er mange af programmerne organiseret som en form for træningspyramide, hvor kadencen undervejs bygges op og sænkes igen - eller hvor distancerne i de enkelte intervaller skifter.
 
 Programmerne på [roning.dk](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/) er skrevet til erfarne roere som instruktører i programmerne. Derfor kan det godt være, at du lige skal læse programmerne nogle gange for at forstå, hvordan de er opbygget, hvis du ikke er så erfaren med træningsprogrammer til rotræning.
 

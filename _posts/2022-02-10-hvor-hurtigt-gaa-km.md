@@ -1,5 +1,6 @@
 ---
 title: &title "Hvor lang tid tager det at gå 10.000 skridt?"
+description: Få svaret på, hvor lang tid det tager at gå 10.000 skridt, hvor hurtigt man går 1 kilometer og hvor langt man kan gå på en time?
 permalink: /tid-at-gaa/
 language: da
 header:
@@ -10,7 +11,12 @@ category:
 tags:
   - gang
   - beregner
-last_modified_at: 2022-01-27T22:21:26Z
+last_modified_at: 2022-10-5T10:21:26Z
+faq:
+  - question: Hvor mange km går man på en time?
+    answer: Hvis du går rask gang, så går du 5-6 km i timen. Se flere hastigheder her på siden.
+  - question: Hvor hurtigt går man 1 kilometer?
+    answer: Hvis du går i et raskt tempo med 6 km i timen, så tager det dig 10 minutter at gå 1 kilometer. Regn dit tempo ud her på siden.
 ---
 
 Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her får du også svaret på, hvor hurtigt man går 1 kilometer?
@@ -29,7 +35,11 @@ Hvis du vil se nogle folk, der virkelig går hurtigt, så kan du jo kigge lidt p
 
 Den letteste måde du kan finde ud af om du har gået de 10.000 skridt, er helt klart ved at have en skridttæller eller et aktivitetsur.
 
-Hvis du ikke vil bruge penge på en skridttæller, så ved du, at 10.000 skridt er omkring 8 kilometer. Du kan læse meget mere om, hvordan du [omregner skridt til km](/skridt-pr-km-10000/). Det tager omkring 1 time og 40 minutter, hvis du holder en gennemsnitshastighed på 5-6 km/t.
+Hvis du ikke vil bruge penge på en skridttæller, så ved du, at 10.000 skridt er omkring 8 kilometer. Du kan læse meget mere om, hvordan du [omregner skridt til km](/skridt-pr-km-10000/).
+
+Et eksempel:
+
+Det tager omkring 1 time og 40 minutter, hvis du holder en gennemsnitshastighed på 5-6 km/t.
 
 ## Hvor lang tid tager det at gå 1 kilometer?
 
@@ -46,6 +56,8 @@ Vi har alle sammen forskellige tempo, når vi går. Men der er nogle definitione
 | Kapgang/meget hurtigt tempo | 7-8+ km/t |
 
 Alt afhængig af hvad dit tempo er, så vil tiden for at få gået x-antal skridt også variere. Det siger sig selv at jo hurtigere man går, jo hurtigere er man også i mål.
+
+Læs: [Hvor lang tid tager det at gå en kilometer?](/tid-at-gaa/)
 
 ## Hvor lang tid tager det at gå 10.000 skridt?
 
@@ -70,28 +82,32 @@ Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). 
 
 ### Mænd
 
-| Disciplin | Tid | Navn | Land | Land | Dato | Kommentar |
-|-|-|-|-|-|-|
-| 10.000 m kapgang (bane) | 37:53.09 | Paquillo Fernández | Spanien | Spanien | 27. juli 2008 | Spanish Championships	Spanien Santa Cruz de Tenerife, Spain	|
-| 10 km kapgang (landevejsløb) | 37:11 | Roman Rasskazov | Rusland | Rusland | 28. maj 2000 | Rusland Saransk, Russia |
-| 20.000 m kapgang (bane) | 1:17:25.6 | Bernardo Segura | Mexico | Mexico | 7. maj 1994 | Norge Bergen, Norway |
-| 20 km kapgang (landevejsløb) | 1:16:36 | Yusuke Suzuki | Japan | Japan | 15. marts 2015 | Asian Race Walking Championships | Japan Nomi, Japan |
-| 2 timer kapgang (bane) | 29,572 m |	Maurizio Damilano | Italien | Italien | 3. oktober 1992 |	Italien Cuneo, Italy |
-| 30.000 m kapgang (bane) | 2:01:44.1 | Maurizio Damilano | Italien | Italien | 3. oktober 1992	|	Italien Cuneo, Italy |
-| 50.000 m kapgang (bane) | 3:35:27.20 | Yohann Diniz | Frankrig | Frankrig | 12. marts 2011 | Frankrig Reims, France	|
-| 50 km kapgang (landevejsløb) | 3:32:33 | Yohann Diniz | Frankrig | Frankrig | 15. august 2014 |	European Championships | Schweiz Zürich, Switzerland |
+| Disciplin | Tid | Navn | Land | Dato | Kommentar |
+|-|-|-|-|-|
+| 10.000 m kapgang (bane) | 37:53.09 | Paquillo Fernández | Spanien | 27. juli 2008 | Spanish Championships	Spanien Santa Cruz de Tenerife, Spain	|
+| 10 km kapgang (landevejsløb) | 37:11 | Roman Rasskazov | Rusland | 28. maj 2000 | Rusland Saransk, Russia |
+| 20.000 m kapgang (bane) | 1:17:25.6 | Bernardo Segura | Mexico | 7. maj 1994 | Norge Bergen, Norway |
+| 20 km kapgang (landevejsløb) | 1:16:36 | Yusuke Suzuki | Japan | 15. marts 2015 | Asian Race Walking Championships, Japan Nomi, Japan |
+| 2 timer kapgang (bane) | 29,572 m |	Maurizio Damilano | Italien | 3. oktober 1992 |	Italien Cuneo, Italy |
+| 30.000 m kapgang (bane) | 2:01:44.1 | Maurizio Damilano | Italien | 3. oktober 1992	|	Italien Cuneo, Italy |
+| 50.000 m kapgang (bane) | 3:35:27.20 | Yohann Diniz | Frankrig | 12. marts 2011 | Frankrig Reims, France |
+| 50 km kapgang (landevejsløb) | 3:32:33 | Yohann Diniz | Frankrig | 15. august 2014 | European Championships, Schweiz Zürich, Switzerland |
 
 ### Verdensrekorder for kvinders kapgang
 
-| Disciplin | Tid | Navn | Land | Land | Dato | Kommentar |
-|-|-|-|-|-|-|
-| 10.000 m kapgang (bane)	| 41:56.23 | Nadezhda Ryashkina | Sovjetunionen | Sovjetunionen | 24. juli 1990	| USA Seattle, United States |
-|| 41:37.9 | Gao Hongmiao | Kina | Kina | 7. april 1994 | Kina | Beijing, PR China |
-| 10 km kapgang (landevejsløb) | 41:04 | Yelena Nikolayeva | Rusland | Rusland | 20. april 1996 | Rusland Sochi, Russia	|
-| 20.000 m kapgang (bane)	| 1:26:52.3 | Olimpiada Ivanova | Rusland | Rusland | 6. September 2001 | Australien Brisbane, Australia |
+| Disciplin | Tid | Navn | Land | Dato | Kommentar |
+|-|-|-|-|-|
+| 10.000 m kapgang (bane)	| 41:56.23 | Nadezhda Ryashkina | Sovjetunionen | 24. juli 1990	| USA Seattle, United States |
+|| 41:37.9 | Gao Hongmiao | Kina | 7. april 1994 | Kina, Beijing, PR China |
+| 10 km kapgang (landevejsløb) | 41:04 | Yelena Nikolayeva | Rusland | 20. april 1996 | Rusland Sochi, Russia	|
+| 20.000 m kapgang (bane)	| 1:26:52.3 | Olimpiada Ivanova | Rusland | 6. September 2001 | Australien Brisbane, Australia |
 | 20 km kapgang (landevejsløb) | 1:24:38 | Liu Hong | China | 6. juni 2015 | Gran Premio Cantones	Spanien A Coruña, Spain	|
 | 50 km kapgang (landevejsløb) | 4:08:26 | Inês Henriques | Portugal | 15. januar 2017 | Portuguese Championships	Portugal Porto de Mós, Portugal	|
 
 ## Konklusion
 
 Nu har du en ide om, hvor lang tid det tager at gå. Hvis du kender din distance og tid, så kan du også [regne din gennemsnitsfart i vores fartberegner](/hastighed/).
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}

@@ -127,9 +127,9 @@ I fitnessregi hænger der mange fortolkninger af skalaen rundt omkring. Især h�
 
 Princippet kaldes på engelsk [Rating of perceived exertion (RPE)](https://en.wikipedia.org/wiki/Rating_of_perceived_exertion) eller løst oversat: vurdering af oplevet anstrengelse.
 
-[Marina Aaagaard](http://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/) har lavet følgende oversigt, hvor du kan fornemme og lytte til kroppen, hvilken anstrengelse aktiviteten kræver. Intensitetsskalaen er kørt sammen med en RPE-vurdering fra 1-10 fra Borgs CR-10-skala.
+[Marina Aaagaard](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/) har lavet følgende oversigt, hvor du kan fornemme og lytte til kroppen, hvilken anstrengelse aktiviteten kræver. Intensitetsskalaen er kørt sammen med en RPE-vurdering fra 1-10 fra Borgs CR-10-skala.
 
-{% include figure image_path="/assets/images/borgskala-udvidet-mol.jpg" caption="Borgskalaen sat sammen med intensitetsskalaen set fra [Marina Aaagaard](http://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/)." alt="Borgskalaen - Borg intensitetsskala bearbejdet Morten Zacho" %}
+{% include figure image_path="/assets/images/borgskala-udvidet-mol.jpg" caption="Borgskalaen sat sammen med intensitetsskalaen set fra [Marina Aaagaard](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/)." alt="Borgskalaen - Borg intensitetsskala bearbejdet Morten Zacho" %}
 
 Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob træning. I området fra 8-10 så skal det anaerobe system træde mere til.
 

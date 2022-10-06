@@ -48,7 +48,7 @@ Hvis du vil læse mere om retningslinjerne for at komme ind til US Navy, så kan
 
 Når du har fået et bud på din fedtprocent, så kan du sammenligne den i vores [fedtprocent skema for mænd og kvinder](/fedtprocent-normer/).
 
-Jeg har også beskrevet en anden [fedtprocentmåling med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}).
+Jeg har også beskrevet andre måder at lave en [beregning af din fedtprocent](/artikel/udregning-af-fedtprocent/) på baggrund af din vægt og din højde.
 
 Husk at testen estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner fundet på internettet.
 {: .notice .notice--info }
