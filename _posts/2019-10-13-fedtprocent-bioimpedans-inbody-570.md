@@ -67,21 +67,21 @@ Når strømmen sendes igennem kroppen, så skal det passere cellerne i kroppen. 
 
 Både den intracellulære og ekstracellulære væske kan lede strøm, mens cellemembranen er elektrisk isolerende.
 
-{% include figure image_path="/assets/images/blog/bioimpedans-1.png" caption="Figuren er baseret på De Lorenzo et al 1997. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+{% include figure image_path="/assets/images/blog/bioimpedans-1.png" caption="Figuren er baseret på De Lorenzo et al 1997. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="bioimpedans måling" %}
 
 Når vekselstrømmen har meget **lav frekvens**, så kan strømmen ikke passere cellemembranen. Derfor løber strømmen kun i den ekstracellulære væske.
 
-{% include figure image_path="/assets/images/blog/bioimpedans-2.png" caption="Sådan passerer lavfrekvent strøm forbi cellerne i kroppen. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+{% include figure image_path="/assets/images/blog/bioimpedans-2.png" caption="Sådan passerer lavfrekvent strøm forbi cellerne i kroppen. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="bioimpedansmålinger med lavfrekvent strøm gennem musklerne" %}
 
 Når vekselstrømmen får en **høj frekvens**, så kan strømmen passere gennem cellemembranen, som om cellemembranen slet ikke er der. Strømmen kan altså skyde genvej direkte gennem cellerne.
 
-{% include figure image_path="/assets/images/blog/bioimpedans-3.png" caption="Højfrekvent strøm løber direkte gennem cellerne. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+{% include figure image_path="/assets/images/blog/bioimpedans-3.png" caption="Højfrekvent strøm løber direkte gennem cellerne. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="måling med bioimpedans med højfrekvent strøm gennem cellerne" %}
 
 Udregninger med modstand tager typisk udgangspunkt i en geometrisk rund form, men det lever menneskekroppen jo ikke helt op til. De Lorenzo et al (1997) har lavet nogle beregninger af mennesket, som har givet en konstant, der passer på voksne gennemsnitlige personer, der har har samme relation mellem arme, ben og overkrop.
 
 Den ekstracellulære væske har modstand i sig selv, men modstanden bliver også større jo flere celler strømmen skal bevæge sig udenom. Dette kaldes Hanai-teori.
 
-{% include figure image_path="/assets/images/blog/bioimpedans-4.png" caption="Desto flere celler der er i forhold til en bestemt volumen, desto større er modstanden i vævet for den lavfrekvente strøm, fordi den skal bøje af for den elektrisk isolerende cellevæg. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+{% include figure image_path="/assets/images/blog/bioimpedans-4.png" caption="Desto flere celler der er i forhold til en bestemt volumen, desto større er modstanden i vævet for den lavfrekvente strøm, fordi den skal bøje af for den elektrisk isolerende cellevæg. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="bioimpedans med mange celler" %}
 
 For at bioimpedans-beregningerne virker pålidelige, så kræver det at forudsætningerne om, hvor meget vand den fedtfri masse indeholder holder stik. Det er forventningerne om modstanden med forskellige frekvenser gennem vævet, der består af både ekstracellulær væske og celler, der gør, at vi kan bruge bioimpedans til at estimere fedtprocenter.
 
@@ -118,6 +118,8 @@ Percent Body Fat (PBF)
 Extra Cellular Water-ratio (ECW Ratio)
 : Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen.
 
+Resultatarket indeholder også dit Body Mass Index. Vi har skrevet meget uddybdende om, hvordan du skal fortolke [BMI for kvinder og mænd](/bmi/).
+
 ### Fortolkning af resultatarket fra InBody 570
 
 Når du har lavet testen, så får du også et resultatark skrevet ud. Resultat fra kropskompositionstesten ser nogenlunde sådan her ud:
@@ -152,7 +154,9 @@ Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage de
 
 ## Konklusion
 
-Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine. Du kan sammenligne dit resultat med [normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
+Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
+
+Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine. Du kan sammenligne dit resultat med [normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
 
 Måske rammer du allerede din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 
