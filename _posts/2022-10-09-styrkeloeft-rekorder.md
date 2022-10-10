@@ -84,17 +84,19 @@ Måske er 500 kg i squat uden udstyr ikke helt umuligt?
 
 Inden vi kigger på tabellen over verdensrekorderne i squat, så er der lige en anden vi bør nævne.
 
-Polakken Andrzej Stanaszek har løftet 290 kg i 2002, da han kun selv vejede omkring 50 kg. Det svarer til at løfte sin egen vægt næsten 6 gange. Løftet herunder er fra et stævne i Vejle i 2003, hvor Stanaszek bruger en understøttende dragt, og der var 300,5 kg på stangen.
+Polakken, Andrzej Stanaszek, har løftet 290 kg i 2002, da han kun selv vejede omkring 50 kg. Det svarer til at løfte sin egen vægt næsten 6 gange. Løftet herunder er fra et stævne i Vejle i 2003, hvor Stanaszek bruger en understøttende dragt, og der var 300,5 kg på stangen.
 
 {% include video provider="youtube" id="X57aLTTEX_w" %}
+
+Stanaszeks kropbygning ser dog ud til, at han er væksthæmmet, og derfor er hans kropsbygning lidt anderledes end de fleste menneskers.
 
 ### Squat raw rekorder for mænd
 
 {% assign records = site.data.powerlifting-records-squat | where: "Gender", "Male" %}
-| Kropsvægt | Navn | Vægt | Wilks | IPF | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilks }} | {{ row.IPF }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Squat rekorder for kvinder
@@ -110,10 +112,10 @@ Det er en skræmmende styrke.
 ### Squat raw rekorder for kvinder
 
 {% assign records = site.data.powerlifting-records-squat | where: "Gender", "Female" %}
-| Kropsvægt | Navn | Vægt | Wilks | IPF | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilks | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilks }} | {{ row.IPF }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ## Bænkpres rekorder
@@ -128,7 +130,7 @@ Hvis du vil sammenligne din styrke med disse vanvittige præstationer, så skal 
 
 I bænkpres findes der særskilte konkurrencer kun i bænkpres. Her stiller der naturligvis bænkpresspecialister op. Det betyder, at rekorderne er højere i disse konkurrencer.
 
-## Bænkpres verdensrekorder for mænd 
+## Bænkpres verdensrekorder for mænd
 
 Det tungeste løft i bænkpres er lavet af Kirill Sarychev fra Rusland. Han løftede i et officielt stævne i 2015 335 kg RAW. Du kan se løftet i videoen nedenunder.
 
@@ -149,10 +151,10 @@ Det betyder at ROM er meget lille, og det er faktisk vanskeligt at se om, der er
 ### Bænkpres raw rekorder for mænd
 
 {% assign records = site.data.powerlifting-records-bench | where: "Gender", "Male" %}
-| Kropsvægt | Navn | Vægt | Wilks | IPF | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilks }} | {{ row.IPF }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Bænkpres verdensrekorder for kvinder
@@ -163,17 +165,17 @@ De to løft siger også om, at hun sikkert er gået lidt ned i vægtklasse for a
 
 At gå lidt op i vægtklasse har imidlertid også givet lidt flere kg på stangen!
 
-Det er særligt imponerende at Ghazouani er paraatlet. Her kan du se hende bænkpresse i 2016 ved OL i Rio. 
+Det er særligt imponerende at Ghazouani er paraatlet. Her kan du se hende bænkpresse i 2016 ved OL i Rio.
 
 {% include video provider="youtube" id="Je13bShetwo" %}
 
 ### Bænkpres raw rekorder for kvinder
 
 {% assign records = site.data.powerlifting-records-bench | where: "Gender", "Female" %}
-| Kropsvægt | Navn | Vægt | Wilks | IPF | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilks }} | {{ row.IPF }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ## Dødløft rekorder
@@ -211,10 +213,10 @@ Eddie Hall løftede i 2016 500 kg med straps i World Deadlift Championships, hvo
 ### Dødløft raw rekorder for mænd
 
 {% assign records = site.data.powerlifting-records-deadlift | where: "Gender", "Male" %}
-| Kropsvægt | Navn | Vægt | Wilks | IPF | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilks }} | {{ row.IPF }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Dødløft verdensrekord for kvinder
@@ -226,10 +228,10 @@ Jeg synes 200 kg er lidt en magisk grænse i dødløft. Den napper kvinderne all
 ### Dødløft raw rekorder for kvinder
 
 {% assign records = site.data.powerlifting-records-deadlift | where: "Gender", "Female" %}
-| Kropsvægt | Navn | Vægt | Wilks | IPF | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilks }} | {{ row.IPF }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ## Konklusion
