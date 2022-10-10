@@ -1,6 +1,7 @@
 ---
 title: &title "Hvem er stærkest? Sammenligning på tværs af køn og vægtklasser"
 seo_title: "Hvem er stærkest? Sammenlign på tværs af køn og vægtklasser"
+excerpt: "Når du vil sammenligne styrke på tværs af forskellige løftere, så kan du du bruge forskellige strategier. Her kigger vi på, hvilke muligheder der er for at se, hvor stærk du er ift. andre mennesker ift. køn, vægt og alder."
 permalink: /sammenligning-styrke/
 language: da
 header:
@@ -22,6 +23,7 @@ feature_row:
     excerpt: "En klassiker inden for styrketræningslitteratur."
     btn_label: "Se den på Amazon"
     btn_class: "btn--warning"
+    rel: nofollow noopener
 ---
 
 Når du vil sammenligne styrke på tværs af forskellige løftere, så kan du du bruge forskellige strategier. Her kigger vi på, hvilke muligheder der er for at se, hvor stærk du er ift. andre mennesker ift. køn, vægt og alder.
@@ -30,7 +32,7 @@ Der er to udbredte måder at sammenligne styrke på. Den ene er den relative sty
 
 Det er imidlertid for enkelt bare at bruge den relative styrke, da sammenhængen mellem løft og kropsvægt ikke er lineær. Styrkestandarder kan være behæftet med flere problemer, som vi kigger på i det følgende.
 
-I [styrkeløft](/powerlifting-rules/) bruger man derfor i stedet nogle andre formler til at sammenligne løfternes styrke. Tidligere Wilks Score, men er de seneste år gået over til IPF Points. Disse systemer kan sammenligne hvor stærke løftere er på tværs af køn og vægtklasser.
+I [styrkeløft](/powerlifting-rules/) bruger man derfor i stedet nogle andre formler til at sammenligne løfternes styrke. Tidligere brugte man Wilks Score, men er de seneste år gået over til IPF Points. Disse systemer kan sammenligne hvor stærke løftere er på tværs af køn og vægtklasser.
 
 ## Hvilke typer sammenligningsmodeller findes der?
 
