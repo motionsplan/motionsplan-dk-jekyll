@@ -120,7 +120,7 @@ Du kan sammenligne dit resultat med [tabellen over kondital for mænd og kvinder
 
 ## Usikkerheder i Cooper-testen
 
-12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
+12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi](/lobeokonomi/) vil få undervurderet deres iltoptagelse.
 
 Cooper (1968) rapporterede selv een korrelation på 0,9 mellem VO<sub>2</sub>max og distancen løbet på de 12 minutter.
 

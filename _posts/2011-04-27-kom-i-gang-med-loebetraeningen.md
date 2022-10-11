@@ -175,7 +175,7 @@ Der er alt for mange, der løber i et tempo, der ligger mellem den langsomme lø
 
 Det betyder, at du løber for hurtigt, så du får ikke for alvor forbedret din fedtforbrænding og udholdenhed. Men du løber også for langsomt til at rykke ved den anaerobe tærskel.
 
-Faktisk har den langsomme løbetur både en god effekt på udholdenheden, [løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}) og de [langsomme type I-fibres evne til at fjerne mælkesyre i kroppen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), hvilket hjælper på den anaerobe tærskel.
+Faktisk har den langsomme løbetur både en god effekt på udholdenheden, [løbeøkonomien](/lobeokonomi/) og de [langsomme type I-fibres evne til at fjerne mælkesyre i kroppen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), hvilket hjælper på den anaerobe tærskel.
 
 Men den langsomme løbetur hjælper kun, hvis du rammer det rigtige tempo.
 

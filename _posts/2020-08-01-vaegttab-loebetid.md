@@ -25,7 +25,7 @@ Hvis vi leger med ideen om, at vægtændringer sker uden at du ændrer din maksi
 
 Vi tænker også i beregneren at vægtændringer hovedsageligt består af fedtvæv. Det er naturligvis usandsynligt, at vægttab og vægtændringer kun består af fedt.
 
-I praksis vil der være store individuelle forskelle på, hvordan folk responderer på en vægtændring med [løbeteknik og løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}).
+I praksis vil der være store individuelle forskelle på, hvordan folk responderer på en vægtændring med [løbeteknik og løbeøkonomi](/lobeokonomi/).
 
 [Løbesiden.dk](https://loebesiden.dk/beregninger/beregn_vaegt/) estimerer, at at hastigheden **øges med 80% i forhold til den potentielle forbedring ved, at konditionen ændrer sig**.
 

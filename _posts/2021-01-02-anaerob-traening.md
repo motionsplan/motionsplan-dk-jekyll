@@ -118,7 +118,7 @@ Den anaerobe effekt er musklernes evne til at genoplade ATP hurtigt, så du igen
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) skriver at præstationen afhænger af fire parametre:
 
 1. Din [kondition og maksimale iltoptagelse](/kondition/) - altså evnen til at optage meget ilt.
-2. [Din løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) - og hvordan du løber effektivt med så lidt energiforbrug som muligt.
+2. [Din løbeøkonomi](/lobeokonomi/) - og hvordan du løber effektivt med så lidt energiforbrug som muligt.
 3. Din relative arbejdsbelastning - altså evnen til at løbe omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) - og hvor meget du kan presse dig selv.
 4. Den anaerobe energiproduktion - som giver den sidste fart - og som trænes gennem anaerob træning.
 

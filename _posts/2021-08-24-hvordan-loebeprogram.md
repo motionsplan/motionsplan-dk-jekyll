@@ -92,7 +92,7 @@ Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/) og [functional threshold pace]({% link _posts/2021-08-29-ftp-pace.md %}). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
 - **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen](/test-max-puls/).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
-- **Watt**. Du har brug for særligt udstyr for at bruge Watt, men det kan både lade sig gøre med løb og cykling at måle watt. Du kan læse lidt mere om [Functional Threshold Power]({% link _posts/2021-08-29-ftp-power.md %}) og [critical speed]({% link _posts/2021-09-10-critical-power.md %}). Tjek også afsnittet om [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}).
+- **Watt**. Du har brug for særligt udstyr for at bruge Watt, men det kan både lade sig gøre med løb og cykling at måle watt. Du kan læse lidt mere om [Functional Threshold Power]({% link _posts/2021-08-29-ftp-power.md %}) og [critical speed]({% link _posts/2021-09-10-critical-power.md %}). Tjek også afsnittet om [løbeøkonomi og løbeteknik](/lobeokonomi/).
 
 Der er fordele og ulemper ved de forskellige måder at måle intensiteten i din træning, som du kan læse mere om under overvejelserne i forhold til [intensitet og træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}).
 
@@ -260,7 +260,7 @@ Løbes der eksempelvis 50 km en uge, må der højest trænes maksimal iltoptagel
 
 Som løber er det også gavnligt at arbeje med sprinttræning og hastighedstræning. Når du arbejder med højere hastigheder, bliver du nemlig stærkere og arbejder med nervesystemet.
 
-Derefter bliver det relativt lettere at løbe med lavere hastigheder, og når du forbedrer din teknik, dit nervesystem og får større muskelstyrke, så vil det også påvirke din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}).
+Derefter bliver det relativt lettere at løbe med lavere hastigheder, og når du forbedrer din teknik, dit nervesystem og får større muskelstyrke, så vil det også påvirke din [løbeøkonomi](/lobeokonomi/).
 
 Når du træner med høj hastighed, så sker følgende i kroppen:
 
@@ -293,7 +293,7 @@ Du kan udføre intervallerne på forskellige måder:
 - **Stigningsløb**. Hvis du laver 100 meter stigningsløb, så øger du progressivt dit tempo til dit maksimale tempo og holder det tempo de sidste 50 meter. Fordelen ved stigningsløb er, at de er relativt skånsomme.
 - **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så kan du løbe hurtigere fra start, så du får accelerationen med.
 
-Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden og løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
+Studier har vist, at [eksplosiv træning måske kan forbedre løbeøkonomien og præstationen](/lobeokonomi/), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
 
 #### Hyppighed
 

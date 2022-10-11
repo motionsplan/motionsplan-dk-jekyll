@@ -103,7 +103,7 @@ Da programmet er på minutter, så behøver du ikke at finde nogen ruter med bes
 
 Som begynder er det svært at finde det rigtige løbetempo. I første fase skal du fokusere på at gennemføre programmet i et roligt tempo. Husk at respektere, hvad du er ved at træne i de forskellige faser og træninger af programmet. Du skal enten løbe relativt langsomt eller også skal du op at løbe, hvor du bliver ret træt undervejs.
 
-Sørg altid for at varme lidt op. Opvarmningen skal naturligvis gradvist nærme sig løbetempoet, men det er også en gylden mulighed for at arbejde lidt med din [løbeteknik, hvilket kan hjælpe på din løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}).
+Sørg altid for at varme lidt op. Opvarmningen skal naturligvis gradvist nærme sig løbetempoet, men det er også en gylden mulighed for at arbejde lidt med din [løbeteknik, hvilket kan hjælpe på din løbeøkonomi](/lobeokonomi/).
 
 ### Løbesko og løbetøj
 

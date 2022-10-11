@@ -67,7 +67,7 @@ Det bliver ofte foreslået, at knæsmerter kan reduceres ved at ændre sin landi
 
 Jeg synes ikke det er så spændende at løbe på løbebånd selv, men når jeg har et specifikt formål, så giver det meget god mening.
 
-Når jeg arbejder med et specifikt teknisk fokus eller et øget _pace_, så synes jeg et løbebånd kan være godt at træne på. Her kan jeg lettere filme min egen træning og se, hvordan løbeteknikken er. Det gør det muligt at arbejde med [løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}) på en meget præcis måde, fordi du kan kontrollere hastigheden og måle pulsen.
+Når jeg arbejder med et specifikt teknisk fokus eller et øget _pace_, så synes jeg et løbebånd kan være godt at træne på. Her kan jeg lettere filme min egen træning og se, hvordan løbeteknikken er. Det gør det muligt at arbejde med [løbeøkonomien](/lobeokonomi/) på en meget præcis måde, fordi du kan kontrollere hastigheden og måle pulsen.
 
 Jeg er naturligvis opmærksom på at mekanikken er en lille smule anderledes på løbebåndet end når jeg løber udendørs.
 

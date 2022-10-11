@@ -44,7 +44,7 @@ Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i t
 Der er mange fordele ved at løbe intervalløb. Her kigger vi på nogle af fordelene ved at have intervaltræning med i din løbetræning:
 
 - Du kan sammenlagt løbe flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt løb. Du kan arbejde flere minutter med høj intensitet, så din samlede træning kan få større effekt på den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [kondital](/kondital/).
-- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller.
+- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi](/lobeokonomi/) med intervaller.
 - Intervalløb med rigtig høj intensitet kan være med til at øge din anaerobe kapacitet.
 - Du kan være frisk i arbejdsperioderne, hvis du arbejder med løbeteknik eller løbehastighed.
 

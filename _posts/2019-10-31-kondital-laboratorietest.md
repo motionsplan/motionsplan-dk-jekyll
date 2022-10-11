@@ -73,7 +73,7 @@ På baggrund af ovenstående, er det muligt at estimere en række træningszoner
 
 {% include figure image_path="https://testcenter.vih.dk/assets/images/traeningszoner.jpg" caption="Puls og løbehastighedszoner" alt="Puls og løbehastighedszoner og løbeøkonomi" %}
 
-En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder]({% link _posts/2019-12-16-running-economy.md %}).
+En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder](/lobeokonomi/).
 
 ## Maksimal iltoptagelsestest
 

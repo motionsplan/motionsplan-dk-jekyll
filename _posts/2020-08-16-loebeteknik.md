@@ -1,5 +1,5 @@
 ---
-title: &title "Løbeteknik og løbestil: Præstation, løbeskader og løbeøkonomi"
+title: &title "Løbeteknik og løbestil i forhold til præstation og løbeskader"
 permalink: /loebeteknik/
 last_modified_at: 2020-08-15T09:41:09Z
 language: da
@@ -16,22 +16,27 @@ tags:
   - løbetræning
   - løbeteknik
   - løb
-breadcrumbs: true
 ---
 
 Når du løber, så kan det være en rigtig god ide at tænke over din løbeteknik. Jeg kigger i det følgende på, hvilke elementer i din løbestil, du kan arbejde med, hvis du vil forbedre din teknik, når du løber.
 
 Jeg taler ikke om rigtig eller forkert løbestil og løbeteknik, men om at finde en teknik, der passer godt til dig, dine mål med løb og din krop.
 
-Hvad er løbestil og løbeteknik? **Løbestil er en individuel motorisk bevægelsesstrategi, der bør betragtes lige så unikt som et fingeraftryk. Ændring af en hvilken som helst parameter sker således potentielt forskelligt fra løber til løber, hvorfor både det motoriske (løberens) output og den faktiske (målte) effekt også kan være forskelligt fra løber til løber.**
-
 Jeg tror mange har glemt at arbejde med deres løbeteknik og bare løber som de “plejer”. Løbeteknik handler om, hvordan du håndterer din krop helt fra hovedets position, brug af armene, afslappede skuldre, kroppens hældning, knæløft og hælisæt.
 
-Løbeteknikken har betydning for dit flow i løbet og din effektivitet og [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), men din løbestil har også betydning for risikoen for og forebyggelse af [løbeskader]({% link _posts/2013-05-04-loeb-uden-skader.md %}).
+Løbeteknikken har betydning for dit flow i løbet og din effektivitet og [løbeøkonomi](/lobeokonomi/), men din løbestil har også betydning for risikoen for og forebyggelse af [løbeskader]({% link _posts/2013-05-04-loeb-uden-skader.md %}).
+
+{% include figure image_path="https://images.unsplash.com/photo-1539966903171-89770f33f468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Her kan du se en del forskellige løbestile samlet på et billede. Der er tydelige hællandere og folk, der lander lidt mere på midtfoden." alt="løbeteknik og løbestil for almindelige løbere" %}
+
+## Hvad er løbestil og løbeteknik?
+
+**Løbestil er en individuel motorisk bevægelsesstrategi, der bør betragtes lige så unikt som et fingeraftryk. Ændring af en hvilken som helst parameter sker således potentielt forskelligt fra løber til løber, hvorfor både det motoriske (løberens) output og den faktiske (målte) effekt også kan være forskelligt fra løber til løber.**
 
 Barton (2016) har lavet et større _review_, hvor han brugte en såkaldt _mixed method_. Barton (2016) gennemgik den eksisterende evidens om _retraining_, hvor man laver løbetræning med fokus på løbestilændring til løbere med skader blev sammenholdt med udvalgte eksperters udtalelser og praksierfaringer.
 
-Barton (2016) forsøgte at bygge en bro mellem det teoretiske og praktiske felt. I alt blev 46 artikler inkluderet i _reviewet_. De inkluderede artikler identificerer en række faktorer, forskere typisk har kigget på i forbindelse med løbestilsændringer i forhold til løbeskader. Det primære _outcome_ af studierne har altså været, hvilken løbestilsændring, der har været med til at reducere smerter forbundet med løb.
+Barton (2016) forsøgte at bygge en bro mellem det teoretiske og praktiske felt. I alt blev 46 artikler inkluderet i _reviewet_. De inkluderede artikler identificerer en række faktorer, forskere typisk har kigget på i forbindelse med løbestilsændringer i forhold til løbeskader.
+
+Det primære _outcome_ af studierne har altså været, hvilken løbestilsændring, der har været med til at reducere smerter forbundet med løb.
 
 Lad os kigge på de forskellige faktorer, Barton identificerede.
 
@@ -49,7 +54,7 @@ Hvis du vil ændre din kadence, så er den optimale ændring omkring 5-10% for a
 
 {% include video provider="youtube" id="08lmp5zQAmA" %}
 
-At arbejde med kadencen har [flere positive indvirkninger på dit løb](https://www.physio-pedia.com/Running_Gait_Retraining):
+At arbejde med kadencen har flere positive indvirkninger på dit løb:
 
 > [Bramah et al (2019)](https://pubmed.ncbi.nlm.nih.gov/31657964/) found that step retraining can result in a reduction in peak contralateral pelvic drop, hip adduction and hip internal rotation. In the sagittal plane, step retraining can reduce the foot inclination and increases knee flexion at initial contact possibly reducing the overstride mechanics and reducing the breaking and impact forces on the joints.
 
@@ -104,11 +109,11 @@ Her er nogle forslag fra Claus Hechmann:
 
 ## Andre tips til din løbeteknik
 
-### Løft hovedet og hold det højt
+### 1. Løft hovedet og hold det højt
 
 Når du løber så kan det betale sig at holde sig høj. Forestil dig at nogen trækker opad i dit hoved. Det kan gøre din kropsposition bedre, og luftvejene får optimale betingelser for at en god vejrtrækning.
 
-### Armene og armsvinget
+### 2. Armene og armsvinget
 
 Dine arme og armbevægelser har også betydning for din løbeøkonomi.
 

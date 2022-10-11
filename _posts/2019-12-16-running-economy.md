@@ -50,8 +50,6 @@ feature_row_stryd:
 
 Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkonomi. Jeg har derfor researchet lidt på løbeøkonomi, præsenterer en definition, og dykker ned i hvilke faktorer der påvirker din løbeøkonomi.
 
-Hvad er løbeøkonomi? **Løbeøkonomi er et udtryk for løberens evne til at holde høj fart i lang tid med et minimalt energiforbrug. Løbeøkonomien er helt præcist den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien bestemmes af kroppens sammensætningen, kroppens evne til effektiv energiforbrænding og løbeteknik.**
-
 *[GCT]: Ground Contact Time
 *[RE]: Running Economy
 *[FTP]: Functional Threshold Power
@@ -65,6 +63,10 @@ Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og 
 - Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den anaerobe tærskel.
 
 Lad os dykke lidt længere ned i begrebet løbeøkonomi.
+
+## Hvad er løbeøkonomi?
+
+**Løbeøkonomi er et udtryk for løberens evne til at holde høj fart i lang tid med et minimalt energiforbrug. Løbeøkonomien er helt præcist den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien bestemmes af kroppens sammensætningen, kroppens evne til effektiv energiforbrænding og løbeteknik.**
 
 ## Hvilke faktorer bestemmer løbeøkonomien?
 
@@ -140,7 +142,9 @@ Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forske
 
 ## Ulempen ved at bruge iltoptagelsen som mål for løbeøkonomien
 
-Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten](https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel="nofollow sponsored noopener" } et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
+Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten](https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel="nofollow sponsored noopener" } et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg på maratontempoet efter 12 ugers træning.
+
+Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
 
 > Efter min mening er der ingen tivvl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
 
@@ -276,7 +280,9 @@ Hvis du træner eksplosiv styrketræning og spændstighed kan du også blive hur
 
 [Paavolainen et al (1999)](https://doi.org/10.1152/jappl.1999.86.5.1527) undersøgte, hvordan eksplosiv træning påvirker præstationen på løbetiden på 5 kilometer.
 
-To grupper af veltrænede forsøgspersoner trænede med lige stor træningsvolumen i 9 uger. Den ene gruppe fik 32% af sin træning erstattet med eksplosiv styrketræning, mens den anden kun erstattede 3% af sin træning med eksplosiv styrketræning. Gruppen der trænede eksplosiv styrketræning forbedrede sin 5 km løbetid uden at forbedre deres maksimale iltoptagelse.
+To grupper af veltrænede forsøgspersoner trænede med lige stor træningsvolumen i 9 uger. Den ene gruppe fik 32% af sin træning erstattet med eksplosiv styrketræning, mens den anden kun erstattede 3% af sin træning med eksplosiv styrketræning.
+
+Gruppen der trænede eksplosiv styrketræning forbedrede sin 5 km løbetid uden at forbedre deres maksimale iltoptagelse.
 
 Den eksplosive træning varede i 15 minutter til 90 minutter og bestod af følgende øvelser:
 
@@ -293,11 +299,13 @@ Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- 
 
 Kender du nogle studier, der kan sige noget om det?
 
-Jeg har skrevet et indlæg om [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), hvor du kan lære endnu mere om begrebet.
+Jeg har skrevet et indlæg om [kombinationen af styrketræning og løb](/artikel/bedste-kombination-af-loeb-og-styrketraening/), hvor du kan lære endnu mere om begrebet.
+
+Læs: [Styrkeøvelser til at forbedre dit løb](/styrketraening-til-loeb/)
 
 ## Flere forslag til at arbejde med løbeøkonomi
 
-Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rigtig god side om [Løbeøkonomi](https://www.rekordjagt.dk/loebeoekonomi/), hvor han giver gode øvelser til at arbejde med løbeøkonomien.
+Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rigtig god side om løbeøkonomi, hvor du kan finde endnu flere gode [øvelser](https://www.rekordjagt.dk/loebeoekonomi/).
 
 Hvordan arbejder du med din løbeøkonomi?
 
