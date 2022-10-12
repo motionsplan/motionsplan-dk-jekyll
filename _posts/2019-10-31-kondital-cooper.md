@@ -12,6 +12,7 @@ header:
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
   - Kondition
+  - Løb
 tags:
   - konditionstest
   - løb
