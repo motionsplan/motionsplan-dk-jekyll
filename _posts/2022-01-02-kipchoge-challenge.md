@@ -25,11 +25,11 @@ Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve 
 
 Verdensrekorden for mænd på maraton er sat af [Eliud Kipchoge](https://www.facebook.com/EliudKipchogeOfficial/). Kenyaneren har løbet 42,195 km på lige omkring to timer.
 
-Faktisk løb han under 2 timer under helt ideelle forhold i Ineos Challenge, hvor han løb på en flad rute med nogle af verdens bedste løbere til at sætte pacet gennem løbet. Vi tager hans tid fra dette løb som udgangspunktet for Kipchoge Challenge.
+Faktisk løb han under 2 timer under helt ideelle forhold i Ineos Challenge, hvor han løb på en flad rute med nogle af verdens bedste løbere til at sætte pacet gennem løbet. Vi tager hans uofficielle verdensrekordtid fra dette løb som udgangspunktet for Kipchoge Challenge.
 
-Det svarer til, at han har løbet 21,16 km/t i gennemsnit i hele løbet. 
+Det svarer til, at Kipchoge løb 21,16 km/t i gennemsnit i hele løbet.
 
-Det er en kilometertid på 2:50 min/km. Et pace som han holder i et helt maraton.
+Det er en kilometertid på 2:50 min/km. Et pace som han holder i et helt maraton!
 
 Hvor længe kan du klare det samme pace, når du får lov til at gribe udfordringen an i mindre intervaller?
 

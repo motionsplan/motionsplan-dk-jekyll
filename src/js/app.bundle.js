@@ -2689,7 +2689,7 @@ $(function() {
       min = Math.floor(time);
       sec = (time - min) * 60;
       sec = sec.toFixed(0);
-      if (sec > 10) {
+      if (sec < 10) {
         sec = '0' + sec;
       }
 
@@ -2698,60 +2698,100 @@ $(function() {
       time = run.getTimeFromDistanceAndVelocity(0.2, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t200']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(0.4, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t400']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(0.6, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t600']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(0.8, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t800']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(1, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t1000']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(1.2, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t1200']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(1.4, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t1400']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(1.6, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t1600']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(1.8, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t1800']").val(min + ':' + sec);
 
       time = run.getTimeFromDistanceAndVelocity(2, velocity);
       min = Math.floor(time);
       sec = (time - min) * 60;
+      sec = sec.toFixed(0);
+      if (sec < 10) {
+        sec = '0' + sec;
+      }
 
       $("[name='t2000']").val(min + ':' + sec);
     });
@@ -2834,10 +2874,10 @@ $(function() {
         console.log("Calculate CooperTest 2400");
         e.preventDefault();
 
-      let min = Number($("#tid_min").val());
-      let sek = Number($("#tid_sek").val());
+        let min = Number($("#tid_min").val());
+        let sek = Number($("#tid_sek").val());
 
-      let c = cooper_test.CooperRunning();
+        let c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO22400MeterTest(min, sek));
     });
@@ -2846,11 +2886,22 @@ $(function() {
         console.log("Calculate CooperTest");
         e.preventDefault();
 
-      let distance = Number($("#distance").val());
+        let distance = Number($("#distance").val());
+
+        let c = cooper_test.CooperRunning();
+
+        $("#kondital").val(c.getVO212MinTest(distance).toFixed(0));
+    });
+    // Calculate Cooper 12 min
+    $("#calculator_cooper_reverse_test").submit(function(e) {
+      console.log("Calculate CooperTest");
+      e.preventDefault();
+
+      let kondital = Number($("#reverse-kondital").val());
 
       let c = cooper_test.CooperRunning();
 
-        $("#kondital").val(c.getVO212MinTest(distance).toFixed(0));
+      $("#reverse-distance").val(c.getDistanceFromVO2Max(kondital).toFixed(0));
     });
     $("#calculator_fat_percent_food").submit(function(e) {
         console.log("Calculate Fat Energy Pct");

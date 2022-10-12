@@ -18,12 +18,12 @@ describe('CooperRunning', function() {
       assert.equal(fitness.getVO212MinTest(3000), 55.781354795439306);
     });
   });
-  describe('getCooperOriginal', function() {
+  describe('getDistance', function() {
     it('should return the correct number', function() {
 
       // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
       let fitness = motionsplan.CooperRunning();
-      assert.equal(fitness.getCooperOriginal(3000), 55.765);
+      assert.equal(fitness.getDistanceFromVO2Max(55), 55.781354795439306);
     });
   });
 });

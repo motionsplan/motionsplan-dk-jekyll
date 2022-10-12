@@ -12,17 +12,15 @@ motionsplan.CooperRunning = function() {
   function getVO212MinTest(distance) {
     return (distance - 504.9) / 44.73;
   }
-  
-  // distance in meters
-  function getOriginalCooper(distance) {
-    distance = distance / 1000;
-    return (22.351 * distance) - 11.288;
+
+  function getDistanceFromVO2Max(vo2max) {
+    return (vo2max * 44.73) + 504.9;
   }
 
   let publicAPI = {
     getVO22400MeterTest: getVO22400MeterTest,
     getVO212MinTest: getVO212MinTest,
-    getCooperOriginal : getOriginalCooper
+    getDistanceFromVO2Max : getDistanceFromVO2Max
   };
 
   return publicAPI;
