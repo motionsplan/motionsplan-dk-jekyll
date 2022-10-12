@@ -124,7 +124,7 @@ Motion-online.dk fik relativt mange besøgende på deres side om Cooper-testen. 
 
 ## Motion-Onlines gangtest og gåtest
 
-Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}) og denne [guide til Rockports 1,6 km gåtest]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
+Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}) og denne [guide til Rockports 1,6 km gåtest](/gaatest/).
 
 ## Motion Onlines forum
 

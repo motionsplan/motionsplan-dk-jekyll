@@ -25,7 +25,7 @@ breadcrumbs: true
 
 I **6 minutters gangtest (6MWT)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg.
 
-Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke er særlig godt gående. Derfor kaldes den også ofte senior fitness test. Hvis du ikke du er i den kategori, så kan du overveje at bruge [1,6 km gåtest i stedet]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
+Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke er særlig godt gående. Derfor kaldes den også ofte senior fitness test. Hvis du ikke du er i den kategori, så kan du overveje at bruge [1,6 km gåtest i stedet](/gaatest/).
 
 *[6MWT]: 6 Minutes Walk Test
 

@@ -1,11 +1,11 @@
 ---
 title: &title "️Submaksimal 1609 m løbetest til at finde VO2max"
 permalink: /submaximal-jogging-test-vo2/
+description: "I denne løbetest på 1609 meter kan du finde dit kondital og VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
 excerpt: "Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560281105-d58d81dfc5bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1560281105-d58d81dfc5bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -19,24 +19,68 @@ tags:
   - tracking
   - beregner
   - begynder
-last_modified_at: 2020-08-06T23:14:14Z
-toc: true
-breadcrumbs: true
+last_modified_at: 2022-10-12T10:14:14Z
 ---
 
 Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit [kondital](/kondital/) over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.
 
-George et al (1993) lavede en _1 mile track jog_-test for at estimere den maksimale iltoptagelse for college-studenter. Testen er let at lave, og den kan bruges jævnligt, da det er en submaksimal test. Den oprindelige teste er lavet på sunde college elever, og er formentlig ikke så velegnet til ældre målgrupper.
+George et al (1993) har udformet denne _1 mile track jog_-test for at estimere den maksimale iltoptagelse for college-studenter.
 
-Hunt et al (2000) validerede senere testen for 13-17 årige. I beregneren bruger jeg Hunt et al (2000) til alle under 18 år, mens George et al (1993) bruges til forsøgspersoner fra 18 år og ældre.
+Den oprindelige test er lavet på sunde college elever og Hunt et al (2000) validerede den for 13-17 årige.
 
-Du skal helst bruge mere en 8 minutter for mænd og 9 minutter for kvinder på at gennemføre distancen. Det var nu ikke noget problem for mig at jogge så langsomt.
+Selvom du er ældre end en college student, så kan du stadig bruge udregningerne, men måske får du ikke dit nøjagtige kondital. Men ved at bruge den samme udregning hver gang, så kan du stadig bruge tallet til at tracke din fremgang.
 
-Hvis du er på udkig efter [1,6 km gangtesten, så har vi beskrevet den her]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
+Hvis du er på udkig efter [1,6 km gangtesten, så har vi beskrevet den her](/gaatest/).
+
+Når du har lavet testen, så kan du bruge beregneren lidt længere nede på siden.
+
+{% include figure image_path="https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="løbere i jogging-testen" %}
+
+## Hvordan laver en testen?
+
+Du starter tiden, når du begynder at løbe og du stopper tiden, når du er færdig. Pulsen skulle gerne være nogenlunde _steady state_ undervejs.
+
+Mænd skal helst bruge mere en 8 minutter og kvinder mere end 9 minutter for at gennemføre distancen. Det var nu ikke noget problem for mig at jogge i det tempo.
+
+Du kan gå efter at pulsen ligger fra 140 - 160 slag i minuttet. Husk at det er en submaksimal test.
+
+Jeg synes det er lettest at bruge mit pulsur og appen fra min telefon. Så kan jeg efterfølgende kigge på pulsværdierne og tempoet.
+
+Det ser sådan her ud i Garmin Connect:
+
+{% include figure image_path="/assets/images/blog/1600-meter-joggingtest.png" caption="Her har jeg selv løbet joggingtesten. Jeg løb på løbebane og forsøgte at holde nogenlunde hastighed. Jeg har måske snakket lidt undervejs, for pulsen går lidt op og ned undervejs." alt="jogging løbetest submaksimal puls og tempo" %}
+
+På baggrund af disse målinger kan du så udregne dit kondital i beregneren nedenunder.
 
 ## Beregn kondital med jogging test
 
 {% include calculate-fitness-jog-vo2.html %}
+
+Et eksempel:
+
+Jeg brugte 9:40 til at løbe distancen, og jeg havde en gennemsnitlig puls på 145 bpm. Jeg er en mand på 46 år og 84 kilo.
+
+Jeg taster det ind i beregneren og ...
+
+... finder ud af at mit kondital er 53.
+
+## Baggrunden for testen
+
+George et al (1993) lavede oprindeligt jogging-testen for at estimere den maksimale iltoptagelse for college-studenter.
+
+Hunt et al (2000) validerede senere testen for 13-17 årige.
+
+I beregneren bruger jeg formlerne fra Hunt et al (2000) til alle under 18 år, mens udregningerne fra George et al (1993) bruges til forsøgspersoner fra 18 år og ældre.
+
+Nøjagtigheden af det udregnede kondital må forventes at afvige lidt for ældre personer.
+
+## Fordele og ulemper ved testen
+
+Testen er let at lave. Du kan bruge den som en del af din opvarmning. En af de store fordele ved testen er, at du kan løbe den jævnligt, da det er en submaksimal test. På den måde kan du følge med i om din træning virker efter hensigten.
+
+At testen er submaksimal er også en ulempe. Samtidig er testen indirekte, og derfor får du kun et tilnærmet kondital. Tallet kan således kun bruges til at holde styr på din egen træning.
+
+Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores [guide til puls](/puls/) og lære endnu mere om, [hvordan du kan bruge pulstræning](/pulstraening/).
 
 ## Referencer
 
