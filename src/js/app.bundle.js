@@ -2496,17 +2496,17 @@ $(function() {
         console.log("Calculate IPF Score");
         e.preventDefault();
 
-      let gender = $("[name='ipf_gender']:checked").val();
-      let bodyweight = Number($("[name='ipf_bodyweight']").val());
-      let lifted = Number($("[name='ipf_lifted']").val());
-      let event = $("[name='ipf_event']").val();
-      let equipment = $("[name='ipf_equipment']").val();
-      let age = Number($("[name='ipf_age']").val());
+        let gender = $("[name='ipf_gender']:checked").val();
+        let bodyweight = Number($("[name='ipf_bodyweight']").val());
+        let lifted = Number($("[name='ipf_lifted']").val());
+        let event = $("[name='ipf_event']").val();
+        let equipment = $("[name='ipf_equipment']").val();
+        let age = Number($("[name='ipf_age']").val());
 
-      let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
+        let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
 
-      let mc = mcculloch.McCulloch(age);
-      let age_adjusted;
+        let mc = mcculloch.McCulloch(age);
+        let age_adjusted;
         if (mc.getCoefficient() != "") {
             age_adjusted = ipf_points.getPoints() * mc.getCoefficient();
         } else {
@@ -2522,11 +2522,11 @@ $(function() {
         console.log("Calculate Karvonen Intensity Zones");
         e.preventDefault();
 
-      let min_hr = Number($("#karvonen_min_hr").val());
-      let max_hr = Number($("#karvonen_max_hr").val());
+        let min_hr = Number($("#karvonen_min_hr").val());
+        let max_hr = Number($("#karvonen_max_hr").val());
 
-      let k = karvonen.Karvonen(min_hr, max_hr);
-      let hrr = max_hr - min_hr;
+        let k = karvonen.Karvonen(min_hr, max_hr);
+        let hrr = max_hr - min_hr;
 
         $("#karvonen_zone1_a").val(k.getTargetHR(50));
         $("#karvonen_zone1_b").val(k.getTargetHR(60));
@@ -2544,8 +2544,9 @@ $(function() {
         console.log("Calculate Friel Intensity Zones");
         e.preventDefault();
 
-      let lthr = Number($("#friel_lthr").val());
+        let lthr = Number($("#friel_lthr").val());
 
+        $("#friel_zone1_a").val((0.60 * lthr).toFixed(0));
         $("#friel_zone1_b").val((0.75 * lthr).toFixed(0));
         $("#friel_zone2_a").val((0.75 * lthr).toFixed(0));
         $("#friel_zone2_b").val((0.85 * lthr).toFixed(0));
@@ -2560,7 +2561,7 @@ $(function() {
         console.log("Calculate Maxhr Intensity Zones");
         e.preventDefault();
 
-      let maxhr = Number($("#maxhr_max_hr").val());
+        let maxhr = Number($("#maxhr_max_hr").val());
 
         $("#maxhr_zone1_a").val((0.65 * maxhr).toFixed(0));
         $("#maxhr_zone1_b").val((0.70 * maxhr).toFixed(0));
