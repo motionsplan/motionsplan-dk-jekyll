@@ -1851,16 +1851,18 @@ $(function() {
         console.log("Calculate Walktest 1,6 km");
         e.preventDefault();
 
-      let min = Number($("[name='min']").val());
-      let sec = Number($("[name='sec']").val());
-      let hr_after = Number($("[name='hr_after']").val());
-      let gender = $("[name='gender']").val();
-      let age = Number($("[name='age']").val());
-      let weight = Number($("[name='weight']").val());
+        let formula = $("[name='walktest-formula']").val();
+
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+        let hr_after = Number($("[name='hr_after']").val());
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
 
         console.log(gender);
 
-      let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
+      let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight, formula);
 
         $("[name='kondital']").val(rp.getFitnessLevel().toFixed(0));
         $("[name='vo2max']").val(rp.getMaximalOxygenUptake().toFixed(2));

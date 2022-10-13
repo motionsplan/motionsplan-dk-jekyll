@@ -23,7 +23,7 @@ describe('CooperRunning', function() {
 
       // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
       let fitness = motionsplan.CooperRunning();
-      assert.equal(fitness.getDistanceFromVO2Max(55), 55.781354795439306);
+      assert.equal(fitness.getDistanceFromVO2Max(55), 2965.0499999999997);
     });
   });
 });
