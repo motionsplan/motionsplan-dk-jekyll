@@ -159,7 +159,7 @@ Personligt ville jeg nok lægge styrketræningen først, men tilsyneladende kan 
 
 {% include video provider="youtube" id="qrkxcOtScvQ" %}
 
-Så hvis formålet er at komme til at løbe hurtigere eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen (Chtara 2005; Paavolainen et al 1999).
+Så hvis formålet er at komme til at [løbe hurtigere](/loeb-hurtigere/) eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen (Chtara 2005; Paavolainen et al 1999).
 
 Hvis du derimod går efter den fedtforbrændende effekt, så skal styrketræningen nok ligge før konditionstræningen (Goto 2005 og 2007).
 
