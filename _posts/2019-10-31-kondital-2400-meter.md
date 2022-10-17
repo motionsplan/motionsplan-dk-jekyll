@@ -41,7 +41,7 @@ I dette indlæg kan du læse mere om:
 - Finde en beregner til 2400-meter testen, så du kan udregne dit kondital
 - Få en tabel over tider på 2400 meter-testen
 
-{% include figure image_path="  overlay_image: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=600&q=60" alt="løber på 2400-meter test" %}
+{% include figure image_path="https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=600&q=60" alt="løber på 2400-meter test" %}
 
 ## Hvad er 2400-meter-testen?
 
