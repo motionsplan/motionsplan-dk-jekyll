@@ -15,9 +15,7 @@ category:
 tags:
   - regler
   - styrkeløft
-  - powerlifting
 last_modified_at: 2020-04-19T23:14:14Z
-toc: true
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat - styrkeløft og powerlifting regler for squat"
@@ -95,7 +93,8 @@ I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet 
 
 Kommandoerne i squat er:
 
-- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg Unrack vægtstangen. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
+- **Stangen er klar** eller **The bar is loaded**. Efter kommandoen så har man maksimalt et minut til at lave sit forsøg.
+- _Unrack vægtstangen_. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 
@@ -121,7 +120,7 @@ Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. De
 
 Kommandoerne under dødløft er:
 
-- **Stangen er klar** eller **Bar is loaded**
+- **Stangen er klar** eller **Bar is loaded**.
 - Når man er klar til at løfte, løfter dommeren sin arm.
 - Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
 
@@ -138,7 +137,9 @@ Når du løfter efter de klassiske regler (raw), så gælder følgende generelle
 - Der må anvendes godkendte håndledsbind på maksimalt 10 cm.
 - Der må anvendes godkendte neopren knæbind i et stykke.
 
-Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr. Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
+Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr.
+
+Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
 
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
 
