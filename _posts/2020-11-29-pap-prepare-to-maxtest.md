@@ -1,5 +1,7 @@
 ---
 title: &title "Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋"
+seo_title: "Hvordan varmer du op til en 1RM-maxtest med PAP?"
+excerpt: Hvordan forbereder du dig i opvarmningen til en 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op.
 permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
@@ -16,20 +18,23 @@ tags:
   - 1rm
   - styrketræning
 last_modified_at: 2020-11-13T23:14:14Z
-toc: true
 ---
 
-Hvordan forbereder du dig i opvarmningen til en 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op. Her kigger vi lidt på, hvad du kan tænke over i dine forberedelser og opvarmning til en maxtest eller styrkeløftstævne.
+Hvordan forbereder du dig i opvarmningen til en [1RM-test](/rm-maxtest/)? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op. Her kigger vi lidt på, hvad du kan tænke over i dine forberedelser og opvarmning til en maxtest eller styrkeløftstævne.
 
-Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nemlig på den efterfølgende træning at lave en maxtest. Maxtesten kan imidlertid være motiverende og være med til at afslutte en træningsblok. Hvis du på forhånd planlægger, hvornår du laver din maxtest, så kan du planlægge, at maxtesten er en del af træningen.
+Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nemlig på den efterfølgende træning at lave en maxtest.
+
+Maxtesten kan imidlertid være motiverende og være med til at afslutte en træningsblok. Hvis du på forhånd planlægger, hvornår du laver din maxtest, så kan du planlægge, at maxtesten er en del af træningen.
 
 {% include figure image_path=page.header.overlay_image caption=page.title alt="opvarmning til maxløft og 1rm" %}
 
 ## Hvordan skal jeg varme op til mit 1RM-forsøg?
 
-Jacob Beermann foreslår, at du kan [sammensætte din træning på denne måde](https://maxer.dk/artikler/maxtest), hvis du vil lave en maxtest, og jeg tænker at samme fremgangsmåde kan være anvendelig i forhold til et [styrkeløftstævne og styrkeløftkonkurrence](/powerlifting-rules/).
+[Jacob Beermann foreslår](https://maxer.dk/artikler/maxtest), at du kan sammensætte din træning på denne måde, hvis du vil lave en maxtest. Samme fremgangsmåde kan anbefales i forhold til et [styrkeløftstævne og styrkeløftkonkurrence](/powerlifting-rules/).
 
-Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**.
+Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/).
+
+Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**.
 
 Du kan eksempelvis gå frem i din opvarmning til maxtesten på denne måde:
 
@@ -44,17 +49,23 @@ Denne måde at varme op på til en maxtest og en 1RM-test minder meget om [Tim H
 
 ## Hvordan kan jeg bruge PAP til at forbedre mit 1RM-maxforsøg?
 
-Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop. Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
+Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop.
+
+Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
 
 [Stack](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight) skriver, at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
 
-[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en [højintensiv plyometrisk øvelse](/plyometrisk-traening/). Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
+[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en [højintensiv plyometrisk øvelse](/plyometrisk-traening/).
+
+Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
 
 Studiet tyder altså på, at intensiteten i bevægelsen har betydning for, hvor godt PAP virker.
 
 {% include video provider="youtube" id="AzPJZHOmGEg" %}
 
-[Wilcox et al (2006)](https://www.ncbi.nlm.nih.gov/pubmed/19116439) undersøgte en lignende protokol i forbindelse med bænkpres. De lavede enten to plyometriske pushups eller to _med ball chest passes_ med 3-5 kg 30 sekunder før et bænkpres. Dem der lavede plyometriske pushups havde en gennemsnitlig forbedring på 2,9 kg, mens dem der lavede _med ball chest pass_ havde en gennemsnitlig forbedring på 3,1 kg. Samlet var det en stigning på hhv. 2,4% og 2,6% i forhold til kontrolgruppen, der ikke lavede nogen PAP-øvelser.
+[Wilcox et al (2006)](https://www.ncbi.nlm.nih.gov/pubmed/19116439) undersøgte en lignende protokol i forbindelse med bænkpres. De lavede enten to plyometriske pushups eller to _med ball chest passes_ med 3-5 kg 30 sekunder før et bænkpres.
+
+Dem der lavede plyometriske pushups havde en gennemsnitlig forbedring på 2,9 kg, mens dem der lavede _med ball chest pass_ havde en gennemsnitlig forbedring på 3,1 kg. Samlet var det en stigning på hhv. 2,4% og 2,6% i forhold til kontrolgruppen, der ikke lavede nogen PAP-øvelser.
 
 Det kunne være interessant med endnu flere studier, da _med ball chest pass_ primært er en koncentrisk bevægele, som jeg vil tro er mindre intensiv ift. plyometriske pushups. Wilcox et al (2006) har altså et lidt andet resultat end Masamoto et al (2003) i forhold til intensiteten.
 
