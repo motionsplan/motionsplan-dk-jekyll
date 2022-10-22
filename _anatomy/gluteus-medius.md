@@ -27,12 +27,12 @@ function:
     - short: Indadrotation i hoften (forreste fibre)
       extended: De anteriore fibre af gluteus medius deltager i indadrotation af benet i hoften.
     - short: Fleksion i hoften (forreste fibre)
-      extended: De anterior fibre af gluteus medius er med til at lave en fleksion i hoften.
+      extended: De anteriore fibre af gluteus medius er med til at lave en fleksion i hoften.
     - short: Udadrotation i hoften (mediale og bagereste fibre)
       extended: De posteriore fibre af gluteus medius er med til at lave en udadrotation i hoften.
     - short: Ekstension i hoften
       extended: De posteriore fibre af gluteus medius er med til at lave en strækning i hoften.
-    - short: Stabiliserer hoften under gang
+    - short: Stabiliserer hoften under gang og løb
       extended: Gluteus medius er med til at holde bækkenet lige, når benet i den anden side løfter sig fra jorden.
   en:
     - short: Abducts the leg at the hip.
@@ -52,6 +52,7 @@ image_focus: /assets/images/anatomy/focus-gluteus-medius.jpg
 coords:
   - "422,216,435,216,443,219,428,224,417,234"
   - "497,235,491,215,481,216,471,218,486,224"
+last_modified_at: 2022-10-19T22:21:11Z
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
