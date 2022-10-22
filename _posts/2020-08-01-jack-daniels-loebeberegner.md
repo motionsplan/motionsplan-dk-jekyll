@@ -19,14 +19,14 @@ tags:
   - løb
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
-    url: https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
     excerpt: "Jack Daniels er en af de toneangivende løbetrænere i verden. Han har udviklet Daniels' Running Formula, hvor du via dine konkurrencetider kan udregne dine løbetider til træning og konkurrence. Læs alle detaljerne i hans bog."
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
-    url: https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen"
@@ -47,7 +47,7 @@ I denne løbsberegner kan du beregne dit træningstempo og konkurrencetider ud f
 
 Enhver løbeside med respekt for sig selv skal naturligvis have en løbeberegner.
 
-Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula](https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){: rel='sponsored nofollow noopener' }.
+Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){: rel='sponsored nofollow noopener' }.
 
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren kan du finde dine løbetider for forskellige distancer. Du får også et bud på, hvilket tempo du bør træne efter i forskellige træningszoner og træningsmetoder, når du fx laver [intervalløb](/intervallob-intervaltraening/).
 
@@ -146,11 +146,11 @@ Hvis ingen af tiderne helt passer til din løbehastighed, så kan du altid bruge
 
 Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er baseret på konkurrencetempo for fx 5 kilometer.
 
-Claus Hechmann påpeger i sin bog [Løb som eliten](https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
+Claus Hechmann påpeger i sin bog [Løb som eliten](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
 
 Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende med hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
 
-Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog](https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }.
+Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }.
 
 Når du har lavet det to tests, så kan du få Hechmanns bud på hastigheder i hans træningszoner ved at bruge løbeberegneren på [www.hechmannsport.dk](https://www.hechmannsport.dk/beregneren).
 

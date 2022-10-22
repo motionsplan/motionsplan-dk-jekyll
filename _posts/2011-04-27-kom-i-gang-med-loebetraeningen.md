@@ -21,14 +21,14 @@ category:
 last_modified_at: 2020-02-13T21:41:09Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
-    url: https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
-    url: https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen"

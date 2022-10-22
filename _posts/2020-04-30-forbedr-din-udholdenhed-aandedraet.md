@@ -36,7 +36,7 @@ feature_row_books:
     btn_class: btn--success
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/22072/cover.20160910.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/hold-vejret-en-bog-om-fridykning_morten-rosenvold-villadsen_9788799089758
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/hold-vejret-en-bog-om-fridykning_morten-rosenvold-villadsen_9788799089758
     title: Hold vejret
     excerpt: "Morten Rosenvold Villadsens bog handler om fridykning og om at lære teknikker i forhold til åndedrættet og vejrtrækningn. Lær også om mental og fysisk træning og få det illustreret med fremragende fotos af nogle af verdens bedste undervandsfotografer."
     btn_label: Se prisen

@@ -17,7 +17,7 @@ last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00019/15424/cover.1494853237.jpg
-    url: https://tales.dk/shut-up-legs-mit-vilde-ridt-med-og-uden-cyklen_jens-voigt_9788740616811
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/shut-up-legs-mit-vilde-ridt-med-og-uden-cyklen_jens-voigt_9788740616811
     title: Shutup Legs
     excerpt: "Fortællingen om Jens Voigts vej til professionel cykelsport er bemærkelsesværdig. Lige fra hans opvækst i Østtyskland, hvor Tour de France blot var noget, man hørte rygter om, til den sene professionelle debut i 1997 og de mange bedrifter, der fulgte på landevejene i de efterfølgende år."
     btn_class: btn--success
@@ -31,21 +31,21 @@ feature_row:
     btn_label: Se prisen
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00001/70375/cover.1497214104.jpg
-    url: https://tales.dk/tri_torbjoern-sindballe_9788702129410
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/tri_torbjoern-sindballe_9788702129410
     title: Tri – Den ultimative træningsbog
     excerpt: "Hvis du vil optimere dine præstationer, så tjek bogen _Tri – Den ultimative træningsbog_. Bogen henvender sig godt nok til triatlonudøvere, men er stadig meget brugbar for almindelige landevejscyklister. Bogens tips om teknik, træning, ernæring og psykologi sagtens kan videreføres over til landevejscyklister."
     btn_class: btn--success
     btn_label: Tjek prisen
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
-    url: https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
-    url: https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen"
