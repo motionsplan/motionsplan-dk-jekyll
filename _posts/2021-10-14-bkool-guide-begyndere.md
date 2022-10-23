@@ -17,11 +17,14 @@ tags:
   - cykling
 gallery:
   - image_path: /assets/images/blog/bkool-1.jpg
+    url: /assets/images/blog/bkool-1.jpg
   - image_path: /assets/images/blog/bkool-2.jpg
+    url: /assets/images/blog/bkool-2.jpg
   - image_path: /assets/images/blog/bkool-3.jpg
+    url: /assets/images/blog/bkool-3.jpg
   - image_path: /assets/images/blog/bkool-4.jpg
+    url: /assets/images/blog/bkool-4.jpg
 last_modified_at: 2021-10-14T08:14:14Z
-toc: true
 feature_row:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx
@@ -175,3 +178,5 @@ Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, 
 ## Konklusion
 
 Læs mere om BKOOL på [ecycleklub.dk](https://www.ecykleklub.dk/page/kom-godt-igang-med-bkool). Særligt afsnit 5 er en god oversigt.
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) | [Wahoo RGT Cycling](/rgt-cycling/) | [Rouvy](/rouvy/)

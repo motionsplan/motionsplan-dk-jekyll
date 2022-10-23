@@ -1,5 +1,5 @@
 ---
-title: &title "RGT Cycling: Gratis alternativ til Zwift"
+title: &title "Wahoo RGT Cycling: Gratis alternativ til Zwift"
 permalink: /rgt-cycling/
 language: da
 header:
@@ -9,20 +9,34 @@ category:
   - Cykling
 tags:
   - apps
-last_modified_at: 2022-02-12T22:21:26Z
+  - virtuel cykling
+last_modified_at: 2022-10-23T22:21:26Z
+gallery:
+  - image_path: /assets/images/blog/wahoo-rgt-1.jpg
+    url: /assets/images/blog/wahoo-rgt-1.jpg
+  - image_path: /assets/images/blog/wahoo-rgt-2.jpg
+    url: /assets/images/blog/wahoo-rgt-2.jpg
+  - image_path: /assets/images/blog/wahoo-rgt-3.jpg
+    url: /assets/images/blog/wahoo-rgt-3.jpg
+  - image_path: /assets/images/blog/wahoo-rgt-4.jpg
+    url: /assets/images/blog/wahoo-rgt-4.jpg
 ---
 
 Her har du en guide til at cykle på hometrainer med RGT Cyling. Det er en virtuel cykelplatform, som kan gøre indendørs træningen lidt mere interessant.
 
-RGT Cykling er et alternativ til det meget populære Zwift. Fordelen ved RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
+Wahoo RGT Cykling er et alternativ til det meget populære Zwift. Fordelen ved Wahoo RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
 
 Her har du en guide til at cykle på hometrainer med RGT Cyling. Det er en [virtuel cykelplatform](/hometrainer-apps/), som kan gøre indendørs træningen lidt mere interessant.
 
-RGT Cykling er et alternativ til det meget [populære Zwift](/komplet-begynderguide-zwift/). Fordelen ved RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
+Wahoo RGT Cykling er et alternativ til det meget [populære Zwift](/komplet-begynderguide-zwift/). Fordelen ved RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
+
+{% include figure image_path="/assets/images/blog/wahoo-rgt-4.jpg" alt="Wahoo RGT Cycling" %}
 
 ## Hvad er RGT Cycling?
 
-RGT Cycling er en relativt ny platform inden for træning på hometrainer. Det er gratis at deltage i cykelløb på platformen. Du skal altså ikke betale et abonnement for at køre på platformen.
+Wahoo RGT Cycling er en relativt ny platform inden for træning på hometrainer. Det er gratis at deltage i cykelløb på platformen. Du skal altså ikke betale et abonnement for at køre på platformen.
+
+{% include video provider="youtube" id="D29q_wssy0k" %}
 
 RGT Cycling har lige nu også et lille forspring på en mere realistisk dynamik i løbene. På RGT Cycling kan du blive lukket inde i en sprint, hvis du sidder forkert. Du kan heller ikke træde rundt i skarpe sving, hvor farten altså bliver lidt lavere.
 
@@ -64,6 +78,8 @@ Når du har downloadet RGT appen, skal du oprette en konto. Det kan du gøre dir
 
 Hvis du vil bruge RGT Cycling sammen med en pulsmåler, skal du tilslutte pulsmåleren til appen. RGT Cycling bruger ANT+ og Bluetooth Smart til at oprette forbindelse til pulsmåler.
 
+{% include gallery id="gallery" layout="half" %}
+
 Når du har konfigureret alt, kan du begynde at køre!
 
 Når du er færdig med at køre, skal du ikke glemme at synkronisere din træning i din træningslogbog. RGT Cycling synkroniserer med Garmin Connect, Strava og TrainingPeaks.
@@ -88,6 +104,8 @@ Dette er blot nogle af de begivenheder og løb, der er tilgængelige på RGT Cyc
 
 RGT Cycling er et gratis alternativ til Zwift, der tilbyder nogle fordele i forhold til sidstnævnte. RGT Cycling forsøger at være lidt mere realistisk med hensyn til løbsdynamikken, og der er ikke behov for at betale et abonnementsgebyr for at deltage i begivenheder på platformen.
 
-Derudover er grafikken på RGT Cycling-appener lidt bedre end på Zwift-appen, og det er lettere at få et overblik over ruten, mens man kører. RGT Cycling har dog ikke så mange brugere som Zwift, og udvalget af ruter på den gratis version er meget begrænset.
+Derudover er grafikken på Wahoo RGT Cycling-appener lidt bedre end på Zwift-appen, og det er lettere at få et overblik over ruten, mens man kører. RGT Cycling har dog ikke så mange brugere som Zwift, og udvalget af ruter på den gratis version er meget begrænset.
 
 Ikke desto mindre er RGT Cycling en god mulighed for dem, der er på udkig efter en gratis alternativ til Zwift.
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) | [Rouvy](/rouvy/) | [BKOOL](/bkool-begynderguide/)

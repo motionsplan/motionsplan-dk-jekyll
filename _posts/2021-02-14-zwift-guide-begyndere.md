@@ -49,8 +49,11 @@ feature_row:
     rel: sponsored nofollow noopener
 zwift:
   - image_path: /assets/images/apps/zwift-1.jpg
+    url: /assets/images/apps/zwift-1.jpg
   - image_path: /assets/images/apps/zwift-2.jpg
+    url: /assets/images/apps/zwift-2.jpg
   - image_path: /assets/images/apps/zwift-3.jpg
+    url: /assets/images/apps/zwift-3.jpg
 faq:
   - question: "Hvordan vender jeg om i Zwift?"
     answer: "Hvis du er kommet på en lang tur og gerne vil køre tilbage, så kan du vende om. Det gør du ved at klikke på 'pil ned' på dit keyboard eller holde U-turn-knappen nede på din mobilapp. Du kan også bare stå af cyklen, og klikke på 'end ride', hvis ikke du vil køre mere."
@@ -75,6 +78,8 @@ I denne guide kan du få svar på:
 - Gode råd fra en rigtig erfaren Zwift-rytter fra A-klassen.
 
 Lad os dykke ned i begynderguiden til Zwift.
+
+Relateret: [Wahoo RGT Cycling](/rgt-cycling/) | [Rouvy](/rouvy/) | [BKOOL](/bkool-begynderguide/)
 
 ## Hvad er Zwift og hvordan kommer jeg i gang?
 
