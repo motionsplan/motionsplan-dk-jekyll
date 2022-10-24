@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-gzip'
     gem 'jekyll-brotli'
+    gem 'jekyll_picture_tag', '~> 2.0'
 end
 gem 'classifier-reborn'
 gem 'gsl', git: 'https://github.com/SciRuby/rb-gsl.git', ref: '103a3e1'

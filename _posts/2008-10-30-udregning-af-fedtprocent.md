@@ -81,6 +81,8 @@ En lang række af formlerne er baseret på en lineær sammenhæng mellem BMI og 
 
 {% include figure image_path="/assets/images/blog/bmi-linear.png" caption="Forskellige lineære formler til at bestemme fedtprocenten ud fra BMI, alder og køn. Durnin og Wormsley (1977) bruger kun BMI og køn, mens de andre formler også bruger alder som et parameter." alt="figur sammenligner beregning af fedtprocent og bmi" %}
 
+{% picture assets/images/blog/bmi-linear.png %}
+
 Alle formlerne giver altså resultater, som ikke ligger så langt fra hinanden. Ulempen ved disse formler er naturligvis, at de alle viser en lineær sammenhæng, men Jackson et al (2002) og Gallagher et al (2000) viser tydeligt, at sammenhængen er kurvet.
 
 {% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" alt="figur viser kurvet sammenhæng mellem bmi og fedtprocent udregninger" %}
