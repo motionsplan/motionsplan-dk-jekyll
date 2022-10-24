@@ -122,4 +122,4 @@ Derudover er grafikken på Wahoo RGT Cycling-appener lidt bedre end på Zwift-ap
 
 Ikke desto mindre er RGT Cycling en god mulighed for dem, der er på udkig efter en gratis alternativ til Zwift.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) | [Rouvy](/rouvy/) | [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
