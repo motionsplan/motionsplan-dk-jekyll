@@ -7,7 +7,6 @@ redirect_from:
   - /2009-07-01-de-fem-tibetanere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: "De fem tibetanere: 5 tibetanske yoga øvelser og riter"
 popular: true
@@ -86,6 +85,8 @@ faq:
 
 De fem tibetanere er fem enkle yogaøvelser, og det siges at øvelserne er en af hemmelighederne bag ungdommens kilde. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
 
+{% include figure image_path="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="øvelse fra de 5 tibetanere" %}
+
 De fem tibetanske riter er en rigtig god introduktion til yoga, og de simple yogaøvelser er lette at implementere i din hverdag. De fem øvelser kan udføres hvor som helst.
 
 Du skal udføre yogaøvelserne 21 gange hver, og det tager omkring 15-20 minutter at lave alle øvelserne.
@@ -98,7 +99,7 @@ De blev beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan 
 
 {% endcomment %}
 
-Jeg har samlet den vigtigste information om de fem tibetanere i dette indlæg. 
+Jeg har samlet den vigtigste information om de fem tibetanere i dette indlæg.
 
 Lær **hvordan riterne skal laves med både video og illustrationer**, fordele og ulemper og historien og den filosofiske baggrund bag de 5 tibetanere.
 
