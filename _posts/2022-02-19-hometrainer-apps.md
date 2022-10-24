@@ -48,9 +48,9 @@ Hvis du leder efter en app, der både giver dig en god træning og er sjov, er Z
 
 Læs: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
 
-### 2. RGT Cycling
+### 2. Wahoo RGT Cycling
 
-RGT Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
+Wahoo RGT Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
 
 {% include video provider="youtube" id="D29q_wssy0k" %}
 
@@ -77,6 +77,14 @@ Rouvy er en anden fantastisk app til hometrainer, der giver dig en realistisk tr
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen indeholder også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring undervejs, og snakke med dem.
 
 Læs: [Rouvy begynderguide](/rouvy/)
+
+{% comment %}
+
+## eBioPassport
+
+#RIDEFAIR
+
+{% endcomment %}
 
 ## Konklusion
 
