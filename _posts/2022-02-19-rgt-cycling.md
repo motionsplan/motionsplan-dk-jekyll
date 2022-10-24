@@ -26,7 +26,7 @@ Her har du en guide til at cykle på hometrainer med RGT Cyling. Det er en virtu
 
 Wahoo RGT Cykling er et alternativ til det meget populære Zwift. Fordelen ved Wahoo RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
 
-Her har du en guide til at cykle på hometrainer med RGT Cyling. Det er en [virtuel cykelplatform](/hometrainer-apps/), som kan gøre indendørs træningen lidt mere interessant.
+Her har du en guide til at cykle på hometrainer med RGT Cyling. Det er en [virtuel cykelplatform på hometrainer](/hometrainer-apps/), som kan gøre indendørs træningen lidt mere interessant.
 
 Wahoo RGT Cykling er et alternativ til det meget [populære Zwift](/komplet-begynderguide-zwift/). Fordelen ved RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
 
