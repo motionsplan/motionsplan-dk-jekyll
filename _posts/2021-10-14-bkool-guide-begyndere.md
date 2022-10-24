@@ -4,7 +4,6 @@ seo_title: "BKOOL cykling på hometrainer: Komplet guide til begyndere"
 permalink: /bkool-begynderguide/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -70,6 +69,8 @@ I denne guide kan du få svar på:
 - Hvordan kommer du i gang med BKOOL?
 
 Lad os dykke ned i begynderguiden til BKOOL.
+
+{% include figure image_path="https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="BKOOL begynder" %}
 
 ## Hvad er BKOOL og hvordan kommer jeg i gang?
 
@@ -154,6 +155,12 @@ Du kan [søge efter ruter](https://my.bkool.com/search/searchTracksGps), som du 
 Du kan også søge efter cykelruter direkte fra simulatoren.
 
 Første gang jeg prøvede BKOOL blev jeg lidt forvirret. I Zwift er der arrangeret virtuelle cykelløb på forskellige tidspunkter. I BKOOL startes ruterne op af **EN** person. Derefter kan andre _joine_ ruten i simulatoren.
+
+{% comment %}
+
+## BKOOL ligaen
+
+{% endcomment %}
 
 ## Beskyt cyklen mod sveden
 
