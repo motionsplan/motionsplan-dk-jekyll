@@ -6,7 +6,6 @@ permalink: /loebesiden-jack-daniels-loebeberegner/
 last_modified_at: 2021-08-28T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider"
 category:
@@ -40,7 +39,6 @@ template:
     btn_label: "<i class='fas fa-file-alt'></i> Download Google Docs"
     btn_class: "btn--info"
     rel: nofollow noopener
-breadcrumbs: true
 ---
 
 I denne løbsberegner kan du beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du skal bare bruge en aktuel løbetid, så kan du udregne din løbehastighed og dit løbepace, så du ved hvor hurtigt du skal løbe til træning for at blive bedre.
@@ -52,6 +50,8 @@ Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsm
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren kan du finde dine løbetider for forskellige distancer. Du får også et bud på, hvilket tempo du bør træne efter i forskellige træningszoner og træningsmetoder, når du fx laver [intervalløb](/intervallob-intervaltraening/).
 
 Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løbere og er efterhånden meget udbredt til at udregne træningstempo og konkurrencetider. Inden Jack Daniels lavede sin løbeberegner, så var [Pete Riegels formel til at udregne konkurrencetider til løb]({% link _posts/2020-08-01-riegels-loebeberegner.md %}) meget udbredt, men den er blevet overhalet af Jack Daniels beregninger.
+
+{% include figure image_path="https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="løber efter løbsberegner fra jack daniels" %}
 
 ## Om Løbesidens løbsberegner
 
