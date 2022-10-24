@@ -83,6 +83,8 @@ En lang række af formlerne er baseret på en lineær sammenhæng mellem BMI og 
 
 {% picture assets/images/blog/bmi-linear.png %}
 
+{% picture https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10 %}
+
 Alle formlerne giver altså resultater, som ikke ligger så langt fra hinanden. Ulempen ved disse formler er naturligvis, at de alle viser en lineær sammenhæng, men Jackson et al (2002) og Gallagher et al (2000) viser tydeligt, at sammenhængen er kurvet.
 
 {% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" alt="figur viser kurvet sammenhæng mellem bmi og fedtprocent udregninger" %}
