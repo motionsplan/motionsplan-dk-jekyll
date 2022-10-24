@@ -4,7 +4,7 @@ seo_title: &title "Apps til Hometrainer: 4 Platforme til Virtuel Cykling"
 permalink: /hometrainer-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Cykling
@@ -14,17 +14,17 @@ tags:
 last_modified_at: 2022-02-12T22:21:26Z
 ---
 
-Nu hvor vinteren nærmer sig hastigt, så leder du måske efter en alternativ måde at holde dig i form på cyklen? En motionscykel eller hometrainer er et godt alternativ, og der findes nu en række apps, som kan gøre oplevelsen endnu sjovere og mere givende. 
+Nu hvor vinteren nærmer sig hastigt, så leder du måske efter en alternativ måde at holde dig i form på cyklen? En motionscykel eller hometrainer er et godt alternativ, og der findes nu en række apps, som kan gøre oplevelsen endnu sjovere og mere givende.
 
 At cykle på en motionscykel indendørs er en fantastisk måde at forbedre din kondition på, og du kan nu gøre det, mens du kører gennem virtuelle verdener eller konkurrerer mod andre online.
 
 Der er masser af muligheder for at få en indendørs cykeloplevelse, så tag et kig på nogle af de bedste apps til virtuel cykling på din hometrainer, og kom i gang i dag!
 
-{% include figure image_path="https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Virtuel cykling og e-cycling" %}
+{% include figure image_path="https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=450&w=600&q=60" caption="Virtuel cykling og e-cycling" %}
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) | [Wahoo RGT Cycling](/rgt-cycling/) | [Rouvy](/rouvy/) | [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) \| [Wahoo RGT Cycling](/rgt-cycling/) \| [Rouvy](/rouvy/) \| [BKOOL](/bkool-begynderguide/)
 
-## Apps til virtuel cykling
+## Apps til virtuel cykling og e-cykling
 
 Der findes en lang række forskellige apps, som du kan bruge sammen med din hometrainer og få en fornemmelse af at cykle i virtuelle verdener sammen med andre.
 
