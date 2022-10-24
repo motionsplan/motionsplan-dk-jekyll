@@ -22,7 +22,7 @@ Der er masser af muligheder for at få en indendørs cykeloplevelse, så tag et 
 
 {% include figure image_path="https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=450&w=600&q=60" caption="Virtuel cykling og e-cycling" %}
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) \| [Wahoo RGT Cycling](/rgt-cycling/) \| [Rouvy](/rouvy/) \| [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
 
 ## Apps til virtuel cykling og e-cykling
 

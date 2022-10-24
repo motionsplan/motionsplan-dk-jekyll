@@ -46,7 +46,21 @@ feature_row:
 ---
 
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) | [Wahoo RGT Cycling](/rgt-cycling/) | [Rouvy](/rouvy/) | [BKOOL](/bkool-begynderguide/)
+
+## Hvordan gjorde jeg?
+
+Jeg har prøvet de forskellige hometrainers. Alle hometrainers var relativt lette at bruge.
+
+Et godt parameter for en hometrainer er også **lydniveauet**, så du ikke generer dine omgivelser for meget. Derfor har jeg også målt lydniveauet på apparaterne.
+
+Jeg brugte [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel="nofollow noopener" } til at måle lydniveauet. Jeg stod omkring en armslængde væk fra hometrainerne, da jeg lavede målingerne.
+
+{% include figure image_path="/assets/images/blog/sound-meter-hometrainer.jpg" alt="[Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel='nofollow noopener' } til at måle lydniveau" caption="Sådan ser interfacet ud, når man måler lydniveauet på hometraineren." %}
+
+
+
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
 
 
 ## Hvilket udstyr har jeg brug for for at cykle på BKOOL?
