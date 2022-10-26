@@ -45,6 +45,43 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
+Hvilket udstyr har du brug for, når du gerne vil i gang med cykling på motionscykel eller e-cykling? Her kigger vi på det bedste setup til virtuel cykling i forskellige prislejer.
+
+For at kunne være med i e-cykling, så har du brug følgende:
+
+- en cykel med watt. Her kigger vi på det bedste hometrainer-setup til at deltage i løb på [Zwift](/komplet-begynderguide-zwift/), [Wahoo RGT Cycling](/rgt-cycling/), [Rouvy](/rouvy/) og [BKOOL](/bkool-begynderguide/).
+- et device hvor du kan køre programmmet på.
+
+Men der er også andre ting, der kan gøre din oplevelse bedre.
+
+Her dykker vi ned i dine muligheder for forskellige setups. Det fede er nemlig, at du kan bruge det samme udstyr til alle platformene.
+
+## Den bedste hometrainer
+
+## Computer, tablet eller AppleTV?
+
+Du kan installere alle platformene på din telefon, men jeg vil klart anbefale, at du finder noget større, når du vil følge med i løbene.
+
+Jeg har brugt mange forskellige setups, når jeg har kørt på de forskellige platforme:
+
+### 1. AppleTV
+
+AppleTV kører rigtig godt med de forskellige programmer. Grafikken reagerer hurtigt, og det er let at navigere rundt i menuerne med fjernbetjeningen.
+
+AppleTV har den ulempe, at den ikke understøtter ANT+. Det betyder, at du skal tilknytte dine enheder via Bluetooth. Så du skal sikre dig, at dit udstyr understøtter bluetooth.
+
+Der er imidlertid kun 3 bluetooth indgange på AppleTV, og den ene bliver brugt af den medfølgende fjernbetjening.
+
+Det betyder, at der kun er to bluetooth-indgange ledigt på AppleTV. Hvis din smarttrainer udsender effekt og kadence på to forskellige kanaler, og du også gerne vil have tilknyttet en pulsmåler, så har du altså en udfordring.
+
+Jeg har fx kørt en del på Wattbike, som udsender kadencen over ANT+. Heldigvis er der en løsning, som kan afhjælpe både udfordringer.
+
+En ret genial pulsmåler fra 4iiii Viiiiva pulsmåler. Den kan samle signaler fra ANT+, så den fungerer som en bridge, og så kan du få flere signaler ind via den samme bluetooth indgang.
+
+{% include video provider="youtube" id="6sQKK5Z_V50" %}
+
+## Den bedste pulsmåler
+
 
 
 ## Hvordan gjorde jeg?
