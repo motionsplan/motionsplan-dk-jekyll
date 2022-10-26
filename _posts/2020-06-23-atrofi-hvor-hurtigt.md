@@ -3,7 +3,6 @@ title: &title "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -12,16 +11,19 @@ category:
   - muskler
   - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
-toc: true
 ---
 
-Jeg har haft en længere styrketræningspause, så jeg synes det er interessant at kigge på, hvor hurtigt musklerne forsvinder. Det er naturligvis ikke selve musklerne, der forsvinder, men hvor hurtigt forsvinder muskelmassen, muskelstørrelsen og muskelstyrken?
+Jeg har haft en længere styrketræningspause, så jeg synes det er interessant at kigge på, hvor hurtigt musklerne forsvinder.
+
+Det er naturligvis ikke selve musklerne, der forsvinder, men hvor hurtigt forsvinder muskelmassen, muskelstørrelsen og muskelstyrken?
 
 **Tilsyneladende kan både begyndere og trænede opretholde muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis de sørger for ikke at være helt inaktiv i pauserne. De fleste forskningsresultater peger på, at muskelstørrelsen forsvinder før selve muskelstyrken går ned.**
 
 Styrketræning får musklerne til at vokse (hypertrofi), mens detræning får musklerne til at skrumpe igen (atrofi). Vi har kigget på, [hvor hurtigt du kan bygge muskelmasse op]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}), så det er også interessant at vide, hvor hurtigt musklerne forsvinder igen, når man holder pause fra sin træning?
 
 Men lad os først kigge lidt på fysiologien bag ved, at muskelmassen forsvinder, når man holder pause fra træningen.
+
+{% include figure image_path="https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke" %}
 
 ## Atrofi har en fysiologisk forklaring
 
@@ -69,7 +71,9 @@ I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af
 
 Allerede efter 10 dages detræning var der signifikant fald i tværsnitsarealet i type II-fibrene. Der sker et yderligere markant fald hen mod dag 120, hvorefter det ser ud til at type II-fibrene stabiliserer sig størrelsesmæssigt på et niveau, der nogenlunde svarer til før træningsinterventionen. For type I fibrene glider de også langsomt tilbage til udgangsværdien.
 
-Et relativt kort ophold (mindre end 14 dage) i styrketræningen medfører altså tilsyneladende et betydeligt tab i muskelvolumen, men efter en yderligere pause kommer der yderligere tab af muskelvolumen, men ikke i nær så høj grad som i de første uger. Jespersen et al (2011) og McMahon (2014) konkluderer også, at muskeltab vil ske indenfor 2 uger, men Ochi et al (2018) viser, at muskeltab først sker efter 3-6 uger.
+Et relativt kort ophold (mindre end 14 dage) i styrketræningen medfører altså tilsyneladende et betydeligt tab i muskelvolumen, men efter en yderligere pause kommer der yderligere tab af muskelvolumen, men ikke i nær så høj grad som i de første uger.
+
+Jespersen et al (2011) og McMahon (2014) konkluderer også, at muskeltab vil ske indenfor 2 uger, men Ochi et al (2018) viser, at muskeltab først sker efter 3-6 uger.
 
 Løvind et al (2008, ej publiceret) konkluderer lidt skarpt, at hvis man holder 14 dages træningsfri, er det sandsynligt, at man lige så godt kan tage 30-45 dage uden at den længere pause forstærker atrofien voldsomt.
 
@@ -103,7 +107,9 @@ Det hænger imidlertid ikke helt sammen med fundene Taaffe og Marcus (1997), hvo
 
 Hortobagyi et al. (1993) så i deres studium, at styrken var bevaret efter to ugers pause hos styrkeatleter. Flere senere studier har vist at nybegyndere kan fastholde hovedparten af styrken i tre uger efter træningsforløb på 10-24 uger (Häkkinen et al 2000; Ogasawara 2011; Ogasawara 2013).
 
-Studiet med Ogasawara (2013) er særligt interessant, fordi de sammenlignede effekterne af et periodisk styrketræningsprogram (PTR) og et kontinuerligt styrketræningsprogram (CTR). Begge grupper udførte bænkpres tre gange om ugen med en intensitet på 75% af [1RM](/rm-maxtest/) i tre sæt med 10 gentagelser. CTR gruppen gennemførte træningen i alle 24 uger, mens PTR gruppen udførte træningen fordelt på 6 ugers træning efterfulgt af 3 ugers pause.
+Studiet med Ogasawara (2013) er særligt interessant, fordi de sammenlignede effekterne af et periodisk styrketræningsprogram (PTR) og et kontinuerligt styrketræningsprogram (CTR).
+
+Begge grupper udførte bænkpres tre gange om ugen med en intensitet på 75% af [1RM](/rm-maxtest/) i tre sæt med 10 gentagelser. CTR gruppen gennemførte træningen i alle 24 uger, mens PTR gruppen udførte træningen fordelt på 6 ugers træning efterfulgt af 3 ugers pause.
 
 {% include figure image_path="/assets/images/blog/ogasawara-traeningspause.png" caption="Procentvise ændring af 1RM i bænkpres gennem 24 ugers træningsforløb. PRT gruppen trænede i 6 uger og holdt derefter 3 ugers pause. CTR trænede kontinuerligt igennem alle 24 uger. Ved slutningen af studiet var begge gruppers fremgang i 1RM i bænkpres omtrent ens (Ogasawara 2013)." %}
 
@@ -139,7 +145,9 @@ Evnen til at genvinde tabt muskelstyrke efter en pause igen er ret veldokumenter
 
 Staron et al (1991) udførte et studium på studerende gennemførte et træningsløb på 20 uger med squats med intensiteten 6-8 RM eller 10-12 RM. Deres muskelstyrke steg med 67% efter 20 uger.
 
-Derefter havde deltagerne 30 uger uden træning. Deres fald i muskelstyrke var kun på ~13%, hvilket er ret overraskende, men ligger lidt i tråde med Lemmer (2000). Det interessante ved studiet er at de sluttede 6 ugers retræning. Retræningen fik deres muskelstyrke til at stige med 40%, så de faktisk på ret kort tid var endnu stærkere end efter de første 20 ugers træning. Staron et al (1991) indikerer, at du ikke mister al din styrke, selvom du holder pause, hvis du er begynder.
+Derefter havde deltagerne 30 uger uden træning. Deres fald i muskelstyrke var kun på ~13%, hvilket er ret overraskende, men ligger lidt i tråde med Lemmer (2000). Det interessante ved studiet er at de sluttede 6 ugers retræning.
+
+Retræningen fik deres muskelstyrke til at stige med 40%, så de faktisk på ret kort tid var endnu stærkere end efter de første 20 ugers træning. Staron et al (1991) indikerer, at du ikke mister al din styrke, selvom du holder pause, hvis du er begynder.
 
 Når det handler om genvindelsen af muskelmasse, så er der ikke helt så meget forskning på området endnu.
 
@@ -155,9 +163,13 @@ Det er bl.a. undersøgelsen af _muscle memory_ podcasten med Anders Nedergaard s
 
 ## Konklusion
 
-Tilsyneladende kan man opretholde sin muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis du sørger for ikke at være helt inaktiv i pauserne. Så det er jo slet ikke så slemt med en sommerferie. Bare sørg for ikke kun at spise is ved poolen, så kan du måske endda komme stærkere tilbage efter pausen.
+Tilsyneladende kan man opretholde sin muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis du sørger for ikke at være helt inaktiv i pauserne.
 
-Fatouros (2006) viste på ældre mænd (70 år i gennemsnit), at hvis du inden træningspausen træner med en høj intensitet, så får du ud over en større øgning i muskelstyrke i træningsperioden, så kunne du også bedre holde på muskelstyrken i løbet af en 6 måneders pause. Jeg vil dog på ingen måde anbefale en pause, hvis du er kommet op i den alder.
+Så det er jo slet ikke så slemt med en sommerferie. Bare sørg for ikke kun at spise is ved poolen, så kan du måske endda komme stærkere tilbage efter pausen.
+
+Fatouros (2006) viste på ældre mænd (70 år i gennemsnit), at hvis du inden træningspausen træner med en høj intensitet, så får du ud over en større øgning i muskelstyrke i træningsperioden, så kunne du også bedre holde på muskelstyrken i løbet af en 6 måneders pause.
+
+Jeg vil dog på ingen måde anbefale en pause, hvis du er kommet op i den alder.
 
 Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysiologiske tilpasninger er ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}) eller [hvor hurtigt muskler vokser]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}).
 

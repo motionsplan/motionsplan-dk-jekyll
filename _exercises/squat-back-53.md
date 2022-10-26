@@ -54,7 +54,9 @@ last_modified_at: 2015-03-15T19:32:25Z
 
 Stangen skal være placeret i et stativ, så den er let at løfte fri. Tag fat i stangen så tæt på dine skuldre, som du kan samtidig med at det er behageligt. Stangen skal primært hvile på den kødede del af trapezius og deltoideus.
 
-Fødderne placeres nogenlunde i skulderbredde. Fordel vægten jævnt på fødderne. Hvis du lader tæerne pege lidt udad, er det lettere at lave bevægelsen korrekt. Spænd godt op i maven og bækkenbunden og hold ryggen ret som et kosteskaft. Vi anbefaler at du bibeholder denne position under hele løftet. En god måde at få hovedet til at være en forlængelse af rygsøjlen er at tage et mentalt billede af væggen i den oprejste position og af gulvet i den nederste position af løftet.
+Fødderne placeres nogenlunde i skulderbredde. Fordel vægten jævnt på fødderne. Hvis du lader tæerne pege lidt udad, er det lettere at lave bevægelsen korrekt. Spænd godt op i maven og bækkenbunden og hold ryggen ret som et kosteskaft.
+
+Vi anbefaler at du bibeholder denne position under hele løftet. En god måde at få hovedet til at være en forlængelse af rygsøjlen er at tage et mentalt billede af væggen i den oprejste position og af gulvet i den nederste position af løftet.
 
 Forestil dig at du skal sætte dig ned på en bænk bagved dig. Bevægelsen starter med at du strutter bagud med numsen, samtidig med at går ned i knæ. Det er vigtigt at knæene bevæges i samme retning som fødderne peger. Lav bevægelsen så dyb som muligt. Så snart du ikke længere kan holde dit lændesvaj, begynder du igen at strække benene og hoften.
 
