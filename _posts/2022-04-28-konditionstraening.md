@@ -5,7 +5,7 @@ description: "Vil du gerne i bedre form? Så skal du i gang med konditionstræni
 permalink: /konditionstraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
@@ -33,7 +33,7 @@ Kredsløbstræning og konditionstræning kræver, at du belaster kroppen ved at 
 
 Det kan du gøre med løbetræning, cykeltræning, roning eller andre typer træning, hvor man holder pulsen oppe over længere tid med forskellige intensiteter.
 
-{% include figure image_path="https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="konditionstræning og kredsløbstræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="konditionstræning og kredsløbstræning" %}
 
 ## Hvad er konditionstræning og kredsløbstræning?
 
