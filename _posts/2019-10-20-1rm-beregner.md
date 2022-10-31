@@ -1,6 +1,7 @@
 ---
 title: &title "RM-beregner: 9 formler til at teste og udregne 1RM max"
-seo_title: "RM-beregner: Udregn 1RM max i bænkpres, squat og dødløft"
+#seo_title: "RM-beregner: Udregn 1RM max i bænkpres, squat og dødløft"
+seo_title: "RM-beregner • Udregn 1RM i bænkpres, squat og dødløft"
 permalink: /rm-beregner/
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/

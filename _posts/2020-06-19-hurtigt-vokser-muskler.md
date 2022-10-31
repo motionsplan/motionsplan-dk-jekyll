@@ -1,5 +1,7 @@
 ---
 title: "Hvor hurtigt vokser dine muskler? 💪"
+seo_title: "Hvor hurtigt vokser dine muskler?"
+description: Hvor hurtigt får du resultater af styrketræning? Her kigger vi på, hvor hurtigt muskler vokser og hvor meget muskelmasse du kan opbygge på et år.
 permalink: /hvor-hurtigt-vokser-muskler/
 language: da
 header:

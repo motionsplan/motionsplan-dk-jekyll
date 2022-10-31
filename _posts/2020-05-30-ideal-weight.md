@@ -1,7 +1,8 @@
 ---
 title: &title "Beregn idealvægt for mænd og kvinder i vores enkle beregner"
-seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
-description: "Vil du gerne kende din idealvægt? Her kigger vi på normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores idealvægt beregner og se om du har en sund vægt."
+#seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
+seo_title: "Idealvægt beregner: Hvad bør mænd og kvinder veje?"
+description: "Vil du gerne kende din idealvægt? Her kigger vi på sund vægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Komplet guide med beregner."
 excerpt: "Er du interesseret i at kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
 permalink: /idealvaegt/
 language: da

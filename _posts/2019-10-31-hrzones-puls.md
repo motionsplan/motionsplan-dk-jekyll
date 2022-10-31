@@ -1,6 +1,7 @@
 ---
 title: &title "Udregn pulszoner: Fra maxpuls, laktattærskel eller pulsreserve (Beregner)"
 seo_title: "Find dine pulszoner med vores beregner"
+description: "Har du brug for at udregne dine pulszoner? Her får du en beregner til at udregne træningszoner ud fra din maxpuls, laktattærksel eller pulsreserve."
 excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:

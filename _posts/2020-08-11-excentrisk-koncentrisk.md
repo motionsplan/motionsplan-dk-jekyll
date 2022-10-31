@@ -1,6 +1,7 @@
 ---
 title: &title "Hvad er excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse?"
-seo_title: "Excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse"
+#seo_title: "Excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse"
+seo_title: "Forstå excentrisk, koncentrisk og isometrisk bevægelse"
 permalink: /koncentrisk-excentrisk-isometrisk/
 last_modified_at: 2021-12-24T09:41:09Z
 language: da

@@ -1,6 +1,8 @@
 ---
 title: "Glute-ham raise: Bedste all-round baglårsøvelse"
 seo_title: "Glute-ham raises: Bedste all-round baglårsøvelse (2022)"
+description: Vil du gerne have stærke baglår? Få tips i denne guide til glute-ham raises (GHR), som er en af de absolut bedste all-round baglårsøvelser.
+excerpt: Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse.
 instructions: Anklerne placeres mellem de små puder, og det nederste af lårene
   mod den store pude.
 permalink: /oevelse/glute-ham-raises/
@@ -45,7 +47,9 @@ video:
 toc: true
 ---
 
-Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse. Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
+Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse.
+
+Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
 
 Glute-ham raises kræver, at du har en nogenlunde god styrke i baglårene allerede, da det er en virkelig hård øvelse. Du kan opbygge den styrke med andre typer øvelser til baglårene.
 

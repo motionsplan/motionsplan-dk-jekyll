@@ -211,7 +211,7 @@ Nu skal du hinke i den rigtige rækkefølge gennem hinkebanen på et ben. Du ska
 
 Y-balancetest er en enkel test til at teste balancen. Det er en forenkling af STAR-balancetesten med de vigtigste retninger at teste balancen i. Du kan læse [mere om Y-balancetesten her]({% link _posts/2020-11-19-y-balance.md %}).
 
-# Kom i gang med balancetræning
+## Kom i gang med balancetræning
 
 Meget balancetræning foregår typisk på et ben, men der er faktisk mange forskellige muligehder. Balancetræning kan foregå på alle kropsdele, fx fødder, hænder, hoved, numse. At arbejde med buegangene i ørerne vil jeg også kalde en balanceøvelse.
 
