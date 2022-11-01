@@ -4,7 +4,8 @@ toc: true
 author: andreas.christensen
 permalink: /introduktion-okklusionstraening/
 title: &title "Fitness, forskere og elite: Alle vil have okklusionstræning"
-seo_title: "Okklusionstrænining: Både fitness forskere og elite vil have det"
+description: "I denne guide til okklusionstræning kigger vi på, hvorfor træning med afklemning af blodårerne kan være effektiv træning for mange målgrupper."
+seo_title: "Okklusionstræning: Fitness, forskere og elite vil have det"
 header:
   overlay_image: /assets/images/occlude/occlusion-training.jpg
   teaser: /assets/images/occlude/occlusion-training-768.jpg
@@ -17,11 +18,11 @@ tags:
 language: da
 gallery_example:
   - image_path: /assets/images/occlude/handball-player-768.jpg
-    title: "Okklusionstræning for ligahåndboldspiller Okklusionstræning for 80-årig artrosepatient"
-    alt: "Okklusionstræning for ligahåndboldspiller Okklusionstræning for 80-årig artrosepatient"
+    title: "Okklusionstræning for ligahåndboldspiller"
+    alt: "Okklusionstræning for ligahåndboldspiller"
   - image_path: /assets/images/occlude/artrosepatient-768.jpg
-    title: "Okklusionstræning for ligahåndboldspiller Okklusionstræning for 80-årig artrosepatient"
-    alt: "Okklusionstræning for ligahåndboldspiller Okklusionstræning for 80-årig artrosepatient"
+    title: "Okklusionstræning for 80-årig artrosepatient"
+    alt: "Okklusionstræning for 80-årig artrosepatient"
 gallery_manchet:
   - image_path: /assets/images/occlude/occlude-arm-768.jpg
     title: "Okklusionsmanchetten skal placeres på det øverste af armen"
@@ -48,29 +49,45 @@ Senere indlæg vil beskrive brugen af okklusionstræning i forskellige kontekste
 
 ## Evidensniveau og omtale af okklusionstræning
 
-Okklusionstræning får stadig en større interesse og opmærksomhed i videnskabelige kredse, og antallet af videnskabelige publikationer stiger fra år til år. _Okklusionstræning kan noget!_ Flere internationale topforskere i styrketræningsfysiologi beskæftiger sig med okklusionstræning, ligesom jeg også bør fremhæve de danske forskningsgrupper, som har bidraget med værdifuld viden til vores forståelse. Særligt forskningsgrupperne under hhv. professor ved Syddansk Universitet, Per Aagaard og lektor ved Aarhus Universitet, Kristian Vissing. Det er bl.a. deres videnskabelige bidrag, der gør dette indlæg muligt.
+Okklusionstræning får stadig en større interesse og opmærksomhed i videnskabelige kredse, og antallet af videnskabelige publikationer stiger fra år til år. 
 
-Dagsdato er der publiceret ikke færre end 450 videnskabelige artikler om okklusionstræning. Okklusionstræning har i Danmark bl.a. fået spalteplads i fysioterapeuternes fagblad og på videnskab.dk. Okklusionstræning har ved flere lejligheder afstedkommet opmærksomhed på den årlige Sportskongres (DIMS), og ved den seneste fagkongres for danske fysioterapeuter i 2018, blev okklusionstræning præsenteret af ingen ringere end Jeremy Loenneke (USA) – En af verdens absolutte topforskere i styrketræningsfysiologi generelt og okklusionstræning specifikt.
+_Okklusionstræning kan noget!_
+
+Flere internationale topforskere i styrketræningsfysiologi beskæftiger sig med okklusionstræning, ligesom jeg også bør fremhæve de danske forskningsgrupper, som har bidraget med værdifuld viden til vores forståelse. Særligt forskningsgrupperne under hhv. professor ved Syddansk Universitet, Per Aagaard og lektor ved Aarhus Universitet, Kristian Vissing. Det er bl.a. deres videnskabelige bidrag, der gør dette indlæg muligt.
+
+Dagsdato er der publiceret ikke færre end 450 videnskabelige artikler om okklusionstræning. Okklusionstræning har i Danmark bl.a. fået spalteplads i fysioterapeuternes fagblad og på videnskab.dk.
+
+Okklusionstræning har ved flere lejligheder afstedkommet opmærksomhed på den årlige Sportskongres (DIMS), og ved den seneste fagkongres for danske fysioterapeuter i 2018, blev okklusionstræning præsenteret af ingen ringere end Jeremy Loenneke (USA) – En af verdens absolutte topforskere i styrketræningsfysiologi generelt og okklusionstræning specifikt.
 
 ## Den korte historie om okklusionstræning
 
-Interessen for okklusionstræning herhjemme og i den vestlige forskning generelt er først for alvor slået igennem fra 2010 og frem, men det er faktisk mange år siden, at fundamentet til okklusionstræning blev lagt. Tilbage i 1960’erne eksperimenterede japaneren Dr. Youshiaki Sato med træning under afklemning af blodflow, hvad der senere blev kendt som ”kaatsu træning”. Den nærmeste oversættelse af kaatsu træning er ”træning med tilføjet tryk”.
+Interessen for okklusionstræning herhjemme og i den vestlige forskning generelt er først for alvor slået igennem fra 2010 og frem, men det er faktisk mange år siden, at fundamentet til okklusionstræning blev lagt.
 
-I dag er den mest almindelige og anvendte internationale betegnelse for okklusionstræning enten ”blood flow restriction training” eller ”blood flow restriction exercise”, populært forkortet til BFR training eller BFR exercise \[1\]. I den videnskabelige litteratur dækker ”vascular occlusion training”, ”arterial occlusion training” og ”occlusion training” også over okklusionstræning.
+Tilbage i 1960’erne eksperimenterede japaneren Dr. Youshiaki Sato med træning under afklemning af blodflow, hvad der senere blev kendt som ”kaatsu træning”. Den nærmeste oversættelse af kaatsu træning er ”træning med tilføjet tryk”.
+
+I dag er den mest almindelige og anvendte internationale betegnelse for okklusionstræning enten ”blood flow restriction training” eller ”blood flow restriction exercise”, populært forkortet til BFR training eller BFR exercise \[1\].
+
+I den videnskabelige litteratur dækker ”vascular occlusion training”, ”arterial occlusion training” og ”occlusion training” også over okklusionstræning.
 
 ## Hvad er okklusionstræning og hvordan trænes det?
 
-Okklusionstræning kan bedst forstås som en fysiologisk genvej til at opnå muskeltilvækst (hypertrofi), styrkefremgang og forbedret funktionsniveau, med minimal belastning af sener og leder. Under okklusionstræning påføres en manchet proksimalt på enten armen eller benet. Manchetten pumpes op til et fastsat tryk, og trykket i manchetten vil begrænse det arterielle indløb (det iltede blod der løber ud til musklen) og afklemme det venøse tilbageløb (det afiltede blod der løber væk fra musklen) \[1, 2\].
+Okklusionstræning kan bedst forstås som en fysiologisk genvej til at opnå muskeltilvækst (hypertrofi), styrkefremgang og forbedret funktionsniveau, med minimal belastning af sener og leder. Under okklusionstræning påføres en manchet proksimalt på enten armen eller benet.
+
+Manchetten pumpes op til et fastsat tryk, og trykket i manchetten vil begrænse det arterielle indløb (det iltede blod der løber ud til musklen) og afklemme det venøse tilbageløb (det afiltede blod der løber væk fra musklen) \[1, 2\].
 
 {% include pinterest image_path="/assets/images/occlude/occlusion-training-768.jpg" data-pin-media="/assets/images/pinterest/occlusion-training.jpg" caption="Pumpestyret okklusionstræning" alt="Pumpestyret okklusionstræning" %}
 
 Det individualiserede tryk fastsættes ud fra AOP: ”arterial occlusion pressure”. På dansk oversat til _det arterielle okklusionstryk_ som er det tryk, hvor der er total afklemning (100 % AOP) af det arterielle indløb. Okklusionstræning praktiseres ved mellem 40 og 80 % af dette tryk.
 
-I okklusionstræning arbejdes der, modsat konventionel free-flow styrketræning, med lave belastninger. Den typiske belastning i okklusionstræning er mellem 20 og 40 % af 1 repetitions maksimum (1 RM). En øvelse består typisk af 2-4 arbejdssæt, med 30-60 sekunders sætpause. Afklemningen af blodflow opretholdes i pauserne inden for samme øvelse, og det giver en samlet okklusionstid på mellem 5 og 10 minutter for de fleste øvelser.
+I okklusionstræning arbejdes der, modsat konventionel free-flow styrketræning, med lave belastninger. Den typiske belastning i okklusionstræning er mellem 20 og 40 % af 1 repetitions maksimum (1 RM).
+
+En øvelse består typisk af 2-4 arbejdssæt, med 30-60 sekunders sætpause. Afklemningen af blodflow opretholdes i pauserne inden for samme øvelse, og det giver en samlet okklusionstid på mellem 5 og 10 minutter for de fleste øvelser.
 
 De klassiske okklusionstræningsprotokoller består af 30-15-15-15 repetitioner eller 3-4 sæt til koncentrisk udmattelse. Imellem to okklusionsøvelser frigives trykket eller manchetterne tages helt af \[1\]. Der er udført okklusionstræning hvor den samlede okklusionstid overstiger 17 minutter \[3\], men **vi anbefaler en maksimal okklusionstid på 10 minutter ad gangen.**
 
-Okklusionstræning kan både laves i etleds- og flerledsbevægelser og i uni- og bilaterale øvelser. Okklusionstræning vil dog være adskilt til afklemning af enten underekstremitet eller overekstremitet og aldrig samtidig. Okklusionstræning kan med fordel også kombineres med kontinuerte aktivitetsformer som gang eller cykling. Sidstnævnte er særlig relevant i rehabiliterings- eller genoptræningssammenhænge.
+Okklusionstræning kan både laves i etleds- og flerledsbevægelser og i uni- og bilaterale øvelser. Okklusionstræning vil dog være adskilt til afklemning af enten underekstremitet eller overekstremitet og aldrig samtidig.
+
+Okklusionstræning kan med fordel også kombineres med kontinuerlige aktivitetsformer som gang eller cykling. Sidstnævnte er særlig relevant i rehabiliterings- eller genoptræningssammenhænge.
 
 {% include gallery id="gallery_manchet" caption="En proksimal placering af manchetten på ekstremiteten betyder i praksis, at **benmanchetten** placeres højt oppe på låret, lige under ballen og **armmanchetten** placeres på overarmen, helt oppe ved armhulen." alt="Placering af manchetter ved okklusionstræning for bentræning og armtræning" %}
 
@@ -104,13 +121,19 @@ Effekterne målt på ændring i både stigning i muskelmasse og muskelstyrke eft
 
 Interessen for okklusionstræning skyldes især, at det er meget potent træningsstimuli til hypertrofi, som er helt på niveau med det vi kender fra tung styrketræning. Et metastudie fra 2018 (resultater fra flere studier samlet i ét) viste en gennemsnitlig stigning i muskelmasse på ca. 7 % over 21 træningspas for både tung styrketræning (> 65 % af 1 RM) og okklusionsbaseret styrketræning (< 50 % af 1 RM) \[11\]. Sammenlignelige data er også observeret andetsteds for styrketræning generelt \[12\].
 
-Okklusionstræning forbedrer også den maksimale styrke \[13, 14\], men ikke med samme effekt som tung styrketræning \[11\]. Det tidligere omtalte metastudie fra 2018 undersøgte også forskellen i styrkeadaptioner mellem low-load okklusionstræning og tung styrketræning. Studiets resultater viste at den gennemsnitlige fremgang i styrke for begge træningsmodaliteter var 14.36 % over 21 træningspas, men at der var en statistisk signifikant forskel på 7.36 % til fordel for den tunge træning \[11\]. Det svarer til en forbedring i maksimal styrke på ca. 11 % for dem der trænede okklusionstræning, og ca. 18 % for dem der trænede tung styrketræning. Forskellen i styrkefremgang mellem okklusionstræning og tung styrketræning forklares af neurale adaptationer og den forbedrede evne til at aktivere musklen efter tung styrketræning \[11\].
+Okklusionstræning forbedrer også den maksimale styrke \[13, 14\], men ikke med samme effekt som tung styrketræning \[11\]. Det tidligere omtalte metastudie fra 2018 undersøgte også forskellen i styrkeadaptioner mellem low-load okklusionstræning og tung styrketræning.
 
-Kombinationen af tung styrketræning og okklusionstræning er sandsynligvis det stærkeste stimuli, hvis målet både er at forbedre den maksimale styrke og øge muskelmassen. To studier har undersøgt effekten af okklusionstræning som et supplement til den tunge træning hos amerikanske fodboldspillere. Her gennemførte forsøgspersonerne først deres tunge styrketræning, og afsluttede træningspasset med okklusionstræning med 30-20-20-20 repetitioner i hhv. squat og bænkpres. Denne kombination forbedrede styrke og hypertrofi signifikant mere end tung styrketræning alene \[9, 10\].
+Studiets resultater viste at den gennemsnitlige fremgang i styrke for begge træningsmodaliteter var 14.36 % over 21 træningspas, men at der var en statistisk signifikant forskel på 7.36 % til fordel for den tunge træning \[11\]. Det svarer til en forbedring i maksimal styrke på ca. 11 % for dem der trænede okklusionstræning, og ca. 18 % for dem der trænede tung styrketræning. Forskellen i styrkefremgang mellem okklusionstræning og tung styrketræning forklares af neurale adaptationer og den forbedrede evne til at aktivere musklen efter tung styrketræning \[11\].
+
+Kombinationen af tung styrketræning og okklusionstræning er sandsynligvis det stærkeste stimuli, hvis målet både er at forbedre den maksimale styrke og øge muskelmassen.
+
+To studier har undersøgt effekten af okklusionstræning som et supplement til den tunge træning hos amerikanske fodboldspillere. Her gennemførte forsøgspersonerne først deres tunge styrketræning, og afsluttede træningspasset med okklusionstræning med 30-20-20-20 repetitioner i hhv. squat og bænkpres. Denne kombination forbedrede styrke og hypertrofi signifikant mere end tung styrketræning alene \[9, 10\].
 
 Okklusionstræning er altså et effektivt træningsredskab til både at øge muskelmasse og styrke, særligt hos populationer eller i kliniske sammenhænge hvor tung styrketræning ikke kan udføres. Okklusionstræning må ikke erstatte den tunge styrketræning hvis denne kan udføres, da okklusionstræning er underlegen på styrkeadaptioner og neurale tilpasninger. Det gælder i udgangspunktet for alle raske og smertefri populationer.
 
-Kombinationen af tung styrketræning og okklusionstræning ser ud til at være den mest effektive hvis målet både er at øge styrke og muskelmasse, og jeg har personligt praktiseret dette med både professionelle basketballspillere og håndboldspillere. Er du derimod træner eller aktiv i en sportsgren hvor styrke-vægt forholdet er altafgørende for præstationen (fx sprint- og springdiscipliner i atletik), så vil jeg i udgangspunktet være forbeholden overfor brugen af okklusionstræning til præstationsoptimering. Den øgede muskelmasse koster sandsynligvis mere for præstationen, end hvad vi vinder på at forbedre den generelle styrke.
+Kombinationen af tung styrketræning og okklusionstræning ser ud til at være den mest effektive hvis målet både er at øge styrke og muskelmasse, og jeg har personligt praktiseret dette med både professionelle basketballspillere og håndboldspillere.
+
+Er du derimod træner eller aktiv i en sportsgren hvor styrke-vægt forholdet er altafgørende for præstationen (fx sprint- og springdiscipliner i atletik), så vil jeg i udgangspunktet være forbeholden overfor brugen af okklusionstræning til præstationsoptimering. Den øgede muskelmasse koster sandsynligvis mere for præstationen, end hvad vi vinder på at forbedre den generelle styrke.
 
 ## Sikkerhed og kontraindikationer ved okklusionstræning
 
@@ -135,13 +158,19 @@ Andre kontraindikationer end kardiovaskulære og perifere kredsløbssygdomme er
 
 I nærværende indlæg refererer jeg til brugen af trykreguleret og pumpstyret okklusionstræningsudstyr, som er betinget af, at udstyret består af manchetter som kan pumpes op – Enten automatisk eller manuelt. Jeg er bekendt med, at mange fitnesskæder, udstyrsleverandører, m.fl., i dag sælger stropper, bånd og elastikker til det der populært kaldes ”praktisk okklusionstræning”.
 
-Under praktisk okklusionstræning er det objektivt ikke muligt at bestemme graden af afklemning. Derfor vurderes graden af afklemning subjektivt på en _perceived tightness scale_ fra 1-10. Denne metode er videnskabeligt efterprøvet, og har vist sig at være upålidelig \[24\], hvorfor dette indlæg tager udgangspunkt okklusionstræning hvor arbejdstrykket præcist kan bestemmes, reguleres og individualiseres ud fra AOP (det individuelle okklusionstryk). Dette muliggør også monitorering og protokolføring for den sundhedsprofessionelle. Brugen af pumpestyret udstyr er i overensstemmelse med de generelle videnskabelige anbefalinger til okklusionstræning generelt \[1, 15, 16\].
+Under praktisk okklusionstræning er det objektivt ikke muligt at bestemme graden af afklemning. Derfor vurderes graden af afklemning subjektivt på en _perceived tightness scale_ fra 1-10. Denne metode er videnskabeligt efterprøvet, og har vist sig at være upålidelig \[24\], hvorfor dette indlæg tager udgangspunkt okklusionstræning hvor arbejdstrykket præcist kan bestemmes, reguleres og individualiseres ud fra AOP (det individuelle okklusionstryk).
+
+Dette muliggør også monitorering og protokolføring for den sundhedsprofessionelle. Brugen af pumpestyret udstyr er i overensstemmelse med de generelle videnskabelige anbefalinger til okklusionstræning generelt \[1, 15, 16\].
 
 Derudover er praktisk okklusionsudstyr ofte også smallere (3-5 cm bredde stropper) end det pumpestyrede udstyr (10-12 cm bredde manchetter). Jo smallere en cuff eller strop du vælger, jo større tryk skal der til for at opnå den tilstrækkelige grad af afklemning. Med et øget tryk, øges risiko for komplikationer som perifere nerveforstyrrelser, nervekompression og blå mærker også \[16\].
 
 {% include gallery id="gallery_manchetter" caption="Occlude benmanchet størrelse large (11 cm bred) sammenlignt med en 'praktisk' okklusionsstrop fra BFR BANDS (5 cm bred). NB! Billedet af BFR BANDS er kun taget med som eksempel på en praktisk okklusionsstrop." %}
 
-Et blåt mærke er ganske harmløst, men i min tid i Occlude, er vi i flere tilfælde blevet kontaktet af personer som har haft længerevarende nerveforstyrrelser efter at have brugt praktisk okklusionsudstyr, fx efter brug af helt smalle elastikker. _Numbness_ (følelsesforstyrrelse som følge af nervekompression) er i øvrigt den næst hyppigst indrapporterede komplikation i forbindelse med okklusionstræning ved en spørgeskemaundersøgelse i 2018, foretaget blandt fysiske trænere, fysioterapeuter ol. sundhedsprofesionelle. Her svarede 18.5 % at de havde patienter/klienter som havde oplevet følelsesforstyrrelser. Det sammenholdt med, at kun 11.5 % af de adspurgte sundhedsprofessionelle anvendte individualiseret arbejdstryk ud fra AOP som trykangivelse til deres patienters/klienters træning\[16\], understreger behovet for viden og uddannelse i okklusionstræning inden man går i gang.
+Et blåt mærke er ganske harmløst, men i min tid i Occlude, er vi i flere tilfælde blevet kontaktet af personer som har haft længerevarende nerveforstyrrelser efter at have brugt praktisk okklusionsudstyr, fx efter brug af helt smalle elastikker.
+
+_Numbness_ (følelsesforstyrrelse som følge af nervekompression) er i øvrigt den næst hyppigst indrapporterede komplikation i forbindelse med okklusionstræning ved en spørgeskemaundersøgelse i 2018, foretaget blandt fysiske trænere, fysioterapeuter ol. sundhedsprofesionelle.
+
+Her svarede 18.5 % at de havde patienter/klienter som havde oplevet følelsesforstyrrelser. Det sammenholdt med, at kun 11.5 % af de adspurgte sundhedsprofessionelle anvendte individualiseret arbejdstryk ud fra AOP som trykangivelse til deres patienters/klienters træning\[16\], understreger behovet for viden og uddannelse i okklusionstræning inden man går i gang.
 
 Er du sundhedsprofessionel og står med ansvaret for andres okklusionstræning, vil jeg på det kraftigste anbefale dig at bruge trykreguleret og pumpestyret okklusionsudstyr, hvor du kan individualiseret arbejdstrykket og føre patients træning til protokol som foreskrevet i den videnskabelige litteratur. Vælger du at gå med praktisk okklusionsudstyr til din egen træning, så er mit råd, at du afklemmer så bredt som muligt.
 

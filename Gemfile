@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.2"
 group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-feed'
@@ -15,4 +15,5 @@ end
 gem 'classifier-reborn'
 gem 'gsl', git: 'https://github.com/SciRuby/rb-gsl.git', ref: '103a3e1'
 gem 'html-proofer'
+gem 'webrick'
 gem "minimal-mistakes-jekyll", "~> 4.24"
