@@ -154,7 +154,7 @@ DEPENDENCIES
   classifier-reborn
   gsl!
   html-proofer
-  jekyll (~> 4.2)
+  jekyll (~> 4.3)
   jekyll-brotli
   jekyll-feed
   jekyll-gist
@@ -165,7 +165,6 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   minimal-mistakes-jekyll (~> 4.24)
-  webrick
 
 BUNDLED WITH
    2.3.21
