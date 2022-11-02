@@ -1,13 +1,13 @@
 ---
 title: &title "Bedste udstyr til e-cykling på hometrainer (Guide 2022)"
 seo_title: "Bedste udstyr til e-cykling på hometrainer (Guide 2022)"
+description: Her får du en komplet guide til at komme i gang med cykling på motionscykel og e-cykling? Hvad er det bedste setup i forskellige prislejer.
 permalink: /udstyr-hometrainer-ecykling/
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Kondition
   - Cykling
 tags:
   - konditionstræning
@@ -82,6 +82,24 @@ En ret genial pulsmåler fra 4iiii Viiiiva pulsmåler. Den kan samle signaler fr
 
 ## Den bedste pulsmåler
 
+### 1. 4iiii Viiiiva pulsmåler
+
+Hvis du ikke har nogen pulsmåler, så kan du overveje at starte med 4iiii Viiiva pulsmåleren. Den fungerer rigtig fint som pulsmåler, og den virker nøjagtig.
+
+Du kan forbinde til den med både Bluetooth og ANT+. Samtidig kan du gemme 65 timers aktivitet på pulsmåleren.
+
+Den største fordel ved 4iiii Viiiiva pulsmåleren i forhold til de andre pulsmålere er imidlertid, at du kan bruge den som ANT+ bridge til bluetooth. Det betyder, at dine ANT+ enheder får mulighed for at forbinde devices, som kun accepterer bluetooth.
+
+Det er genialt.
+
+### 2. Garmin HRM Dual
+
+
+
+### 3. Polar H10
+
+### 4. Wahoo 
+
 
 
 ## Hvordan gjorde jeg?
@@ -92,7 +110,7 @@ Et godt parameter for en hometrainer er også **lydniveauet**, så du ikke gener
 
 Jeg brugte [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel="nofollow noopener" } til at måle lydniveauet. Jeg stod omkring en armslængde væk fra hometrainerne, da jeg lavede målingerne.
 
-{% include figure image_path="/assets/images/blog/sound-meter-hometrainer.jpg" alt="[Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel='nofollow noopener' } til at måle lydniveau" caption="Sådan ser interfacet ud, når man måler lydniveauet på hometraineren." %}
+{% include figure image_path="/assets/images/blog/sound-meter-hometrainer.jpg" alt="Sound meter til at måle lydniveau" caption="Sådan ser interfacet ud, når man måler lydniveauet på hometraineren i [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel='nofollow noopener' }." %}
 
 
 
@@ -136,7 +154,7 @@ Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan ogs�
 
 Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
 
-## Køb udstyr til BKOOL
+## Køb udstyr til hometrainer
 
 {% include feature_row type="left" %}
 
