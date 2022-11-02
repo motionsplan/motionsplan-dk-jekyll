@@ -6,7 +6,7 @@ description: "Vil du gerne præstere bedre, så kan du forberede din krop med ek
 excerpt: "Vil du gerne præstere bedre, så kan du forberede din krop med eksplosiv styrketræning inden kampen. Det kalder man gameday priming."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1579722820903-01d3e776f85e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1613330652294-1d4dae5affe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHNwcmludHxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Optimer træning
