@@ -1,6 +1,7 @@
 ---
 title: "Magnesium: Har du brug for et tilskud?"
 seo_title: "Magnesium: Har du brug for et tilskud? (2022)"
+description: Overvejer du magnesium som kosttilskud? Kan det betale sig at tage magnesium som tilskud, eller får du rigeligt gennem de rigtige fødevarer?
 permalink: /magnesium/
 language: da
 header:

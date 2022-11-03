@@ -1,6 +1,7 @@
 ---
 title: "Dødløft"
 seo_title: "Dødløft teknik: Komplet guide og tips til dødløft"
+description: I denne guide til dødløft får du effektive tips og variationer fra en rutineret træner til denne teknisk krævende øvelse til styrktræning.
 excerpt: "Dødløft er en af de store hoftedominerede multiøvelser, som kan passe rigtig godt ind i de fleste træningsprogrammer, fordi den træner hoften. Her kigger vi på teknik i dødløft og variationer."
 instructions: "Tag fat i vægten med hænderne. Stå i hoftebredde med fødderne. Den primære bevægelse foregår i hoften, mens knæene er bøjet alt efter dødløft variationen. Rejs dig op og sæt vægten igen kontrolleret."
 permalink: /doedloeft/

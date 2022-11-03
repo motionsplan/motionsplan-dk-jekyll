@@ -1,7 +1,7 @@
 ---
 title: &title "Sportsdrik: Hvordan laver du en hjemmelavet energidrik?"
 permalink: /sportsdrik/
-excerpt: "Vil du gerne vide mere om dit kredsløb? Dit hjerte og dine lunger arbejder sammen for at holde dig i live. Men hvordan virker kredsløbet egentlig?"
+excerpt: "Vil du gerne lære at lave en hjemmelavet sportsdrik? Her får du tips til at lave din egen energidrik, der sikrer dig energi og de rigtige salte til træning og konkurrence."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1474222300086-56f8a438e47d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10

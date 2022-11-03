@@ -1,5 +1,6 @@
 ---
 title: "Hvordan tester jeg min muskelfibertype?"
+description: Vil du gerne kende din sammensætning af muskelfibertyper? Her gennemgår vi en enkelt test, som giver dig et bud på din muskelfibertypesammensætning.
 permalink: /test-muskelfibertyper/
 language: da
 header:

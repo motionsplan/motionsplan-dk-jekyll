@@ -1,6 +1,7 @@
 ---
 title: &title "Konditionstest: Test din kondition og kondital med konditests"
 permalink: /test-kondition-konditest-kondital/
+description: Kommer du i bedre form og kondition? Udregn dit kondital og maksimale iltoptagelse (VO2max) med vores beregnere og følg dit kondital.
 redirect_from:
   - /kondition-og-test/
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og maksimale iltoptagelse (VO2max) med vores beregnere og se om du får et bedre kondital og fremgang i træningen."

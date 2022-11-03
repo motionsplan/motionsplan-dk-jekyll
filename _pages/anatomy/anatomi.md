@@ -2,6 +2,7 @@
 layout: single
 title: &title "Anatomi: Kroppens opbygning og strukturer"
 seo_title: "Anatomi: Studiet af hvordan kroppen er opbygget"
+description: "Få en let forståelig oversigt over anatomi. Lær alt om hvordan de forskellige strukturer i kroppen er opbygget, fx knogler, muskler og led."
 system:
   - fitnessinstruktør
 excerpt: "Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen."

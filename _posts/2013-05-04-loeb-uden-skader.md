@@ -1,6 +1,7 @@
 ---
 title: &title "Løbeskader: Hvordan forebygger jeg skader i løb?"
 seo_title: "Løb og skader: Hvordan forebygger jeg løbeskader i 2022?"
+description: Vil du også gerne undgå løbeskader? Her får du en guide om skadesforebyggelse i løb, så du selv ved, hvordan du effektivt forebygger skader.
 permalink: /artikel/loebeskader-loebe-uden-skader/
 redirect_from: 
   - /artikel/løb-uden-skader

@@ -1,5 +1,6 @@
 ---
 title: &title "Løb og wattmåling: Hvordan bruger du running power?"
+description: "Få en mere præcis måling af din intensitet i løb med wattmåling. Her får du en guide til, hvordan løbeeffekt kan hjælpe dig i din løbetræning."
 excerpt: "Vil du gerne have en mere præcis måling af din intensitet i løb? Wattmåling kan være svaret. Vi kigger på, hvordan løbeeffekt kan hjælpe dig i din løbetræning."
 permalink: /loeb-watt/
 language: da
