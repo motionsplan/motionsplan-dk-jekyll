@@ -17,8 +17,8 @@ tags:
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:
-  - image_path: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
-    url: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
+  - image_path: https://qph.cf2.quoracdn.net/main-qimg-a540ceb3adb874e5ad3a0e987107b34e-pjlq
+    url: https://qph.cf2.quoracdn.net/main-qimg-a540ceb3adb874e5ad3a0e987107b34e-pjlq
     title: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
     alt: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
 ---
