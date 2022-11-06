@@ -120,7 +120,7 @@ For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga 
 2. Vælg varieret musik
 3. Tænk over teksterne i musikken eller vælg musik uden tekst
 
-Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}).
+Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning](/artikel/musik-til-traeningen/).
 
 Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere](/artikel/de-fem-tibetanere/) eller [Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 

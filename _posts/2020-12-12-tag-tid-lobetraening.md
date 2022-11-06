@@ -80,6 +80,6 @@ Jeg bruger selv et Garmin Fenix med en pulsmåler. Det giver mig et virkelig god
 
 Det jeg nyder mest ved Garmin løbeuret er, at det er let at bruge til at tage tid på min træning og i mine intervaller, samtidig med at jeg får pulsmålingerne og kan arbejde med træning i pulszoner.
 
-De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
+De nyeste Garmin-løbeure kan du endda have [musik til din træning](/artikel/musik-til-traeningen/) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
 
 {% include feature_row type="left" %}

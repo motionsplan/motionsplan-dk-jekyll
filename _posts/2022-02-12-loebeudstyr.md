@@ -142,7 +142,7 @@ Tjek i øvrigt vores [guide til pulsure](/pulsure/).
 
 ### Hovedtelefoner
 
-Du har naturligvis ikke brug for hovedtelefoner til din træning. Men jeg nyder selv at lytte til [gode podcasts]({% link _posts/2020-08-03-podcasts.md %}) eller har [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg foretrækker trådløse hovedtelefoner, så jeg ikke skal bøvle med ledninger undervejs.
+Du har naturligvis ikke brug for hovedtelefoner til din træning. Men jeg nyder selv at lytte til [gode podcasts]({% link _posts/2020-08-03-podcasts.md %}) eller har [musik til træningen](/artikel/musik-til-traeningen/). Jeg foretrækker trådløse hovedtelefoner, så jeg ikke skal bøvle med ledninger undervejs.
 
 Jeg har løbet med [Bose Sport Free](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel="sponsored nofollow noopener" }, som har en virkelig god lyd. Det er en in-ear hovedtelefon. Men jeg bliver godt nok også sommetider overrasket, hvis nogen pludselig overhaler mig, fordi jeg ikke kunne høre dem.
 
