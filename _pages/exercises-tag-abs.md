@@ -44,7 +44,7 @@ Mange ender med at træne maven med en høj frekvens og mange gentagelser. Hvis 
 
 Det kan være mere effektivt at vælge sværere varianter af øvelserne eller gøre de enkelte øvelser sværere med at sætte belastning på.
 
-Mavemusklerne er muskler, som bør trænes som andre muskler. Hvis [muskler skal vokse]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), så skal du følge de samme guidelines som resten af kroppen. Hvis du gerne vil have stærke mavemuskler, så skal de følge principperne for muskelstyrke. Og udholdende mavemuskler får du med mange gentagelser.
+Mavemusklerne er muskler, som bør trænes som andre muskler. Hvis [muskler skal vokse](/hvordan-vokser-muskler/), så skal du følge de samme guidelines som resten af kroppen. Hvis du gerne vil have stærke mavemuskler, så skal de følge principperne for muskelstyrke. Og udholdende mavemuskler får du med mange gentagelser.
 
 Ligesom de andre muskler så er det altså godt at ramme mavemusklerne med forskellige intensiteter og tempi. Et godt sted for stærkere og større mavemuskler er nok i det _rep range_, der hedder 6-12 gentagelser, mens flere gentagelser arbejder med udholdenheden i mavemusklerne.
 

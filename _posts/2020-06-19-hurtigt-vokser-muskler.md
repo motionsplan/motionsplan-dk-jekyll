@@ -129,7 +129,7 @@ Hvis man derimod bruger tungere vægte, fx 10RM, så er det nok at køre omkring
 
 {% include figure image_path="/assets/images/blog/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
 
-Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %})
+Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?](/hvordan-vokser-muskler/)
 
 ## Opsamling
 

@@ -18,7 +18,7 @@ I ferier så plejer jeg altid at lave mikrotræning. På den måde kan jeg spare
 
 Først laver jeg en plan for min ferietræning, så jeg ikke ender med at have dårlig samvittighed, fordi jeg ikke får trænet nok.
 
-Derefter forsøger jeg at udnytte alle de muligheder jeg får for at bevæge mig. Fangeleg med ungerne. På legepladsen kan der lige passes nogle pullups ind. Om morgenen kan der være plads til [øvelserne fra De 5 Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller en [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).
+Derefter forsøger jeg at udnytte alle de muligheder jeg får for at bevæge mig. Fangeleg med ungerne. På legepladsen kan der lige passes nogle pullups ind. Om morgenen kan der være plads til [øvelserne fra De 5 Tibetanere](/artikel/de-fem-tibetanere/) eller en [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/).
 
 ## Hvad er mikrotræning?
 
@@ -70,7 +70,7 @@ Jeg har fundet nogle rigtig gode eksempler på mikrotræning direkte fra det dan
 
 ## Eksempler på kortvarig træning med kondition
 
-Du kan naturligvis også lade dig inspirere af [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), grusomme [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) eller [forskellige typer for anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Du kan naturligvis også lade dig inspirere af [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), grusomme [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) eller [forskellige typer for anaerob træning](/anaerob-traening/).
 
 ## Hvem kan bruge mikrotræning?
 

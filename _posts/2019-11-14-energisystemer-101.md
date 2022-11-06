@@ -211,7 +211,7 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
 
-Jeg har skrevet endnu [mere om anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet endnu [mere om anaerob træning](/anaerob-traening/).
 
 ## Programlægning af aerob og anaerob træning
 
@@ -284,7 +284,7 @@ Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem
 
 ## Mere om energisystemer
 
-Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning](/anaerob-traening/).
 
 ## Referencer
 
