@@ -142,7 +142,7 @@ Når du beregner dit kondital, så skal du huske, at alle _indirekte_ tests er f
 
 Dit beregnede kondital vil forbedres, hvis du træner over længere tid, hvor du udfordrer kredsløbet. Den hurtigeste måde at forbedre et udregnet kondital er ved at tabe dig. Det skyldes, at konditallet bl.a. afhænger af vægten.
 
-For at forbedre beregningen af dit kondital, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
+For at forbedre beregningen af dit kondital, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 Hvis du bruger samme beregner til dit kondital næste gang, så skal du altså bare præstere bedre i testen, og så vil udregningen af konditallet give et bedre tal.
 

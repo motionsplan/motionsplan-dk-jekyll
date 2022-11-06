@@ -58,4 +58,4 @@ Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen 
 
 Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen på en udånding.
 
-Denne rite er en del af [de fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}).
+Denne rite er en del af [de fem tibetanere](/artikel/de-fem-tibetanere/).

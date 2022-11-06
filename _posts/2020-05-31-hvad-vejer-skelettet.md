@@ -1,5 +1,7 @@
 ---
 title: "Hvad vejer skelettet og knoglerne i mennesket? ⚖"
+seo_title: "Hvad vejer skelettet & knoglerne i mennesket?"
+description: Hvad vejer knoglerne og skelettet egentlig? Her får du en guide til, hvor meget knoglevævet i mennesker vejer. Du bliver sikkert overrasket over svaret!
 permalink: /hvad-vejer-skelettet/
 language: da
 header:

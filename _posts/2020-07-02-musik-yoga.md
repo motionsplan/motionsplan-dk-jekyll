@@ -1,6 +1,6 @@
 ---
 title: "Den bedste musik til yoga, mindfulness og meditation"
-seo_title: "Yogamusik • Find det bedste musik til yoga og mindfulness (2022)"
+seo_title: "Yogamusik • Det bedste musik til yoga og mindfulness (2022)"
 description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
 permalink: /yoga-musik/
 language: da
@@ -120,9 +120,9 @@ For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga 
 2. Vælg varieret musik
 3. Tænk over teksterne i musikken eller vælg musik uden tekst
 
-Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}).
+Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning](/artikel/musik-til-traeningen/).
 
-Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere](/artikel/de-fem-tibetanere/) eller [Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 

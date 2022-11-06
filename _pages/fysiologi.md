@@ -82,7 +82,7 @@ Disse tre fysiologiske principper påvirkes hver dag af de aktiviteter, vi foret
 
 ## Det anaerobe og aerobe energisystem
 
-Kroppen har [to energisystemer](/energisystemer/) til at skabe energi til musklernes bevægelser. Det er godt at sætte sig ind i begge energisystemer. Det er nemlig først når du kender energisystemerne, at du kan planlægge den [aerobe træning]({% link _posts/2021-06-19-aerob-traening.md %}) og [anaerobe træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Kroppen har [to energisystemer](/energisystemer/) til at skabe energi til musklernes bevægelser. Det er godt at sætte sig ind i begge energisystemer. Det er nemlig først når du kender energisystemerne, at du kan planlægge den [aerobe træning]({% link _posts/2021-06-19-aerob-traening.md %}) og [anaerobe træning](/anaerob-traening/).
 
 ## Nervesystemet
 

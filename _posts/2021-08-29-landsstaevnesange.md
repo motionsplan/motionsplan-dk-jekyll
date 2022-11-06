@@ -75,7 +75,7 @@ Jeg har samlet de officielle landsstævnesange her. Jeg har ikke kunnet finde an
 
 DGI holder landsstævne hver 4. år, og der bliver hvert år lavet officiel sang til begivenheden. Det er altid nogle flotte og ørehængende sange, som kan inspiere dig til bevægelse.
 
-Jeg har skrevet mere om [musik til træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) og et indlæg om den [bedste musik til yoga og meditation]({% link _posts/2020-07-02-musik-yoga.md %}).
+Jeg har skrevet mere om [musik til træning](/artikel/musik-til-traeningen/) og et indlæg om den [bedste musik til yoga og meditation]({% link _posts/2020-07-02-musik-yoga.md %}).
 
 ## Sange til Efterskolernes Landsstævne hold
 

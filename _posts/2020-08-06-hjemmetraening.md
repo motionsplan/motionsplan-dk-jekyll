@@ -137,7 +137,7 @@ Vi har samlet nogle [TRX-øvelser]({% link _posts/2014-04-14-træning-med-slynge
 
 Det er oplagt at træne yoga hjemme på stuegulvet. Der findes en masse forskellige forslag til, hvordan du kan komme i gang med yoga. Hvis du vil se om det er noget for dig, så tjek vores forskellige [yogaøvelser og yogastillinger]({% link _posts/2020-08-30-yogastillinger.md %}).
 
-Du kan fx prøve [yogaserien De fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller en af de [kendte solhilsner]({% link _posts/2020-07-25-solhilsen.md %})
+Du kan fx prøve [yogaserien De fem Tibetanere](/artikel/de-fem-tibetanere/) eller en af de [kendte solhilsner](/artikel/solhilsen-a-b-surya-namaskar/)
 
 ## Corona Workouts til hjemmetræning
 

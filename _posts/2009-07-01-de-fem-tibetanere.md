@@ -363,7 +363,7 @@ Riterne vækker dine chakraer og stimulerer dem til at rotere hurtigt og ved sam
 
 Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og i samme hastighed.
 
-Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde]({% link _posts/2020-07-25-solhilsen.md %}).
+Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde](/artikel/solhilsen-a-b-surya-namaskar/).
 
 Vi har et andet indlæg her på sitet, der handler om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}), og vi har også skrevet et andet indlæg om at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 

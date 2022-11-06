@@ -75,7 +75,7 @@ Når de samlede studierne, så medførte exentrisk træning en muskelvækst på 
 
 Nikolaj Bach påpeger imidlertid flere udfordringer ved fortolkningen af studiet.
 
-Man havde kun kontrolleret **antallet af løft** mellem forsøgsgrupperne, men **ikke sørget for, at den totale mængde arbejde i grupperne var ens**. Force-velocity-kurven viser tydeligt, at man kan løfte mere i excentrisk træning, og vi ved at [volumen er vigtig for muskelvækst]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}). Måske er effekten den større _workload_, som har forårsaget forskellen i den excentriske træning.
+Man havde kun kontrolleret **antallet af løft** mellem forsøgsgrupperne, men **ikke sørget for, at den totale mængde arbejde i grupperne var ens**. Force-velocity-kurven viser tydeligt, at man kan løfte mere i excentrisk træning, og vi ved at [volumen er vigtig for muskelvækst](/hvordan-vokser-muskler/). Måske er effekten den større _workload_, som har forårsaget forskellen i den excentriske træning.
 
 Excentrisk træning laver flere mikroskader i musklerne, hvilket man tidligere har troet var med til at skabe muskelvækst. Det ser ikke ud til at de små muskelskader i sig selv er en _driver_ bag muskelvækst, men kroppen vil helt sikkert respondere ved at gøre sig stærkere. Hvis musklen er større har den også større potentiale til at holde godt fast under eksterne påvirkninger.
 

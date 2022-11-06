@@ -72,7 +72,7 @@ Kathrine Christensen, yogalærer i Vejle, har lavet en guidet meditation til min
 
 ##  Mere om yoga...
 
-Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik]({% link _posts/2020-07-02-musik-yoga.md %}). Du skal naturligvis også lige kigge forbi et af vores mest populære indlæg, som handler om [De Fem Tibetanere og se de fem øvelser]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [yogaøvelserne til Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}).
+Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik]({% link _posts/2020-07-02-musik-yoga.md %}). Du skal naturligvis også lige kigge forbi et af vores mest populære indlæg, som handler om [De Fem Tibetanere og se de fem øvelser](/artikel/de-fem-tibetanere/) eller [yogaøvelserne til Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/).
 
 Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger til yoga og mindfulness meditation](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/interesse/yoga-og-meditation/yoga-og-meditation-musik-og-lyd-cd){: rel="nofollow sponsored noopener" }.
 

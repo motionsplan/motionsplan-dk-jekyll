@@ -101,4 +101,4 @@ Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hyp
 
 Hvilke metoder holder du mest af?
 
-Jeg har skrevet et andet indlæg om [metoder til maksimal muskelstyrke]({% link _posts/2019-10-22-metoder-til-maksimal-styrke.md %}). Men først og fremmest bør du tjekke mit indlæg om [hvordan muskler vokser ud]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
+Jeg har skrevet et andet indlæg om [metoder til maksimal muskelstyrke]({% link _posts/2019-10-22-metoder-til-maksimal-styrke.md %}). Men først og fremmest bør du tjekke mit indlæg om [hvordan muskler vokser ud](/hvordan-vokser-muskler/).

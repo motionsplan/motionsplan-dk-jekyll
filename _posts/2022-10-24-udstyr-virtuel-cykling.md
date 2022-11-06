@@ -10,9 +10,15 @@ header:
 category:
   - Cykling
 tags:
+<<<<<<< HEAD
   - konditionstræning
   - kondition
   - cykling
+=======
+  - kondition
+  - cykling
+  - hometrainer
+>>>>>>> f76efb904ca999ea0eee165d76a7bad5f82741a2
 last_modified_at: 2022-10-24T08:14:14Z
 feature_row:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
@@ -31,8 +37,13 @@ feature_row:
     rel: sponsored nofollow noopener
   - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
+<<<<<<< HEAD
     title: Wahoo Kickr Headwind til BKOOL
     excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i BKOOL."
+=======
+    title: Wahoo Kickr Headwind
+    excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder."
+>>>>>>> f76efb904ca999ea0eee165d76a7bad5f82741a2
     btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
@@ -50,6 +61,7 @@ Hvilket udstyr har du brug for, når du gerne vil i gang med cykling på motions
 For at kunne være med i e-cykling, så har du brug følgende:
 
 - en cykel med watt. Her kigger vi på det bedste hometrainer-setup til at deltage i løb på [Zwift](/komplet-begynderguide-zwift/), [Wahoo RGT Cycling](/rgt-cycling/), [Rouvy](/rouvy/) og [BKOOL](/bkool-begynderguide/).
+<<<<<<< HEAD
 - et device hvor du kan køre programmmet på.
 
 Men der er også andre ting, der kan gøre din oplevelse bedre.
@@ -58,6 +70,95 @@ Her dykker vi ned i dine muligheder for forskellige setups. Det fede er nemlig, 
 
 ## Den bedste hometrainer
 
+=======
+- et device hvor du kan køre programmmet på, fx tablet, smartphone eller Apple TV.
+- evt. en pulsmåler.
+
+Men der er også andre ting, der kan gøre din oplevelse bedre.
+
+Her dykker vi ned i dine muligheder for forskellige setups. Det fede er nemlig, at du kan bruge det samme udstyr til alle de [virtuelle cykelplatforme](/hometrainer-apps/).
+
+## Hvilket udstyr har jeg brug for for at cykle e-cykling?
+
+{% include feature_row type="left" %}
+
+## Hvordan testede jeg de forskellige hometrainer?
+
+Jeg har prøvet de forskellige hometrainers. Alle hometrainers var relativt lette at bruge.
+
+### Hvordan målte jeg lydniveauet?
+
+Et godt parameter for en hometrainer er også **lydniveauet**, så du ikke generer dine omgivelser for meget. Derfor har jeg også målt lydniveauet på apparaterne.
+
+Jeg brugte [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel="nofollow noopener" } til at måle lydniveauet. Jeg stod omkring en armslængde væk fra hometrainerne, da jeg lavede målingerne.
+
+{% include figure image_path="/assets/images/blog/sound-meter-hometrainer.jpg" alt="Sound meter til at måle lydniveau" caption="Sådan ser interfacet ud, når man måler lydniveauet på hometraineren i [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel='nofollow noopener' }." %}
+
+## Den bedste hometrainer
+
+Når du vil i gang med ecykling, så skal du bruge udstyr, der kan måle hvor mange watt, du træder på cyklen. De fleste bruger en _hometrainer_, som de sætter deres egen cykel på, men du kan også få komplette cykler, der kan det samme.
+
+En hjemmetræner har typisk indbygget effektmåler og variabel modstand, som kan spille sammen med de foreskellige virtuelle apps. Hvis du fx kører opad, så vil trådet blive tungere, og du skal skifte gear.
+
+Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du rent faktisk kører rigtigt. Når det går op ad bakke, så øges modstanden, og modstanden sænkes, når du kører ned ad bakke.
+
+### 1. Wahoo Kickr Bike
+
+Jeg cykler selv på en [Wahoo Kickr Bike v2](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-bike-v2.aspx){: rel='sponsored nofollow noopener' }. Wahoo Kickr Bike er ikke rigtig en hometrainer. Men den er genial til at køre de virtuelle løb på.
+
+Den eneste ulempe ved cyklen er prisen, men lige nu kan du være heldig at få en god pris på den [første version af cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-bike.aspx){: rel='sponsored nofollow noopener' } af cyklen, da den nye udgave lige er kommet.
+
+Fordelen ved cyklen er, at du ikke skal til at montere din egen cykel på en hometrainer, og at du ikke risikerer at svede på din egen (dyre) cykel.
+
+{% include video provider="youtube" id="SPzzeBI0nyU" %}
+
+Samtidig er der også indbygget i cyklen, at den følger bakkerne på den virtuelle platform. Når det går opad så hæves styret, og når det går nedad, så sænker styret sig. Det giver en ret unik indendørs cykeloplevelse.
+
+Denne feature kan du også købe til en hometrainer, men så bliver for den almindelige hometrainer lidt højere.
+
+Den larmer nærmest heller ikke, når du kører, hvilket er en stor fordel, hvis du skal køre i dit eget hus.
+
+### 2. Wahoo Kickr 6.0
+
+Jeg cykler selv på en [Wahoo Kickr 6.0](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-6-0.aspx){: rel='sponsored nofollow noopener' } hometrainer, som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse. 
+
+Du kan stadig få [den tidligere model nedsat](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx){: rel='sponsored nofollow noopener' }.
+
+Hvis du helst vil have en hometrainer, så er det også denne version den tidligere professionelle cykelrytter og meget ivrige Zwift-rytter, Martin Mortensen, anbefaler.
+
+Der følger adaptere med, så du kan sætte cykler på med forskellige nav og kasetter, men du skal huske at tjekke, at den passer til din cykel inden du køber. Du kan også køre hometrainer på en mountainbike så længe den passer på hometraineren.
+
+Hvis du gerne vil have styret til at hæve og sænke sig, så kan du købe en Kickr Climb ([se den nyeste pris](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger){: rel="sponsored nofollow noopener" }).
+
+{% include video provider="youtube" id="xdV8v6dXKZU" %}
+
+Hvis du køber både Kickr hometrainer og Kickr Climb, så kan du overveje om en komplet cykel er et bedre valg.
+
+### 3. Wahoo Kickr Core
+
+[Wahoo Kickr Core](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykler.dk/wahoo-kickr-core.aspx){: rel="sponsored nofollow noopener" }) er den smarttrainer, hvor du får allermest for pengene.
+
+Hometraineren fungerer virkelig godt, og den koster næsten kun halvdelen af Wahoos topmodel, men køreoplevelsen er stadig rigtig god. Jeg har testet denne hometrainer ved flere lejligheder, og jeg har ikke haft udfordringer.
+
+{% include video provider="youtube" id="Hmr2GiTm9rM" %}
+
+## Hvad er computerkravene til e-cykling?
+
+De fleste platforme kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play.
+
+Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
+
+{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i fx Zwift, Wahoo RGT Cycling og BKOOL med et Wahoo Bike Desk"  %}
+
+Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen.
+
+Mange bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2092/tacx-tablet-beslag-til-cykelstyr) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
+
+Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret smarte kombinerede smartphone-holder og [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på BKOOL.
+
+Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre e-cykling på en virtuel platform.
+
+>>>>>>> f76efb904ca999ea0eee165d76a7bad5f82741a2
 ## Computer, tablet eller AppleTV?
 
 Du kan installere alle platformene på din telefon, men jeg vil klart anbefale, at du finder noget større, når du vil følge med i løbene.
@@ -80,6 +181,7 @@ En ret genial pulsmåler fra 4iiii Viiiiva pulsmåler. Den kan samle signaler fr
 
 {% include video provider="youtube" id="6sQKK5Z_V50" %}
 
+<<<<<<< HEAD
 ## Den bedste pulsmåler
 
 ### 1. 4iiii Viiiiva pulsmåler
@@ -153,6 +255,79 @@ Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan ogs�
 ## Få fat i Bluetooth høretelefoner
 
 Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
+=======
+### 2. Din egen computer
+
+Jeg kører oftest med min egen computer, da jeg kører på en del forskelligt udstyr. Jeg har kørt på Wattbike med et ANT+-stick i siden, og jeg har kørt på de forskellige hometrainers gennem Bluetooth.
+
+Skærmen på din computer har en fornuftig størrelse, så det er let at holde overblik i spillet.
+
+### 3. Tablet
+
+Hvis du har en rimelig stor tablet på mindst 10" tommer, så kan programmerne også køre her. Det fede ved en tablet er, at du har en touchskærm, som er let at navigere i.
+
+Hvis du har tabletten tæt på, så er grafikken stor nok til at holde overblik over løbet.
+
+### 4. Din smartphone
+
+Du kan også køre de virtuelle cykelløb på din smartphone. Men alting bliver ret småt. Jeg synes ikke nogen af platformene er lykkes med at gøre oplevelsen rigtig god på den ret lille skærm.
+
+## Den bedste pulsmåler
+
+Hvis du gerne vil forbedre oplevelsen og _tracke_ om du kommer i bedre form, så kan du med fordel også koble en **pulsmåler** til systemet. Jeg bruger selv en Polar H10, som kan sende både via Bluetooth og ANT+.
+
+### 1. 4iiii Viiiiva pulsmåler
+
+Hvis du ikke har nogen pulsmåler, så kan du overveje at starte med 4iiii Viiiva pulsmåleren. Den fungerer rigtig fint som pulsmåler, og den virker nøjagtig.
+
+Du kan forbinde til den med både Bluetooth og ANT+. Samtidig kan du gemme 65 timers aktivitet på pulsmåleren.
+
+Den største fordel ved 4iiii Viiiiva pulsmåleren i forhold til de andre pulsmålere er imidlertid, at du kan bruge den som ANT+ bridge til bluetooth. Det betyder, at dine ANT+ enheder får mulighed for at forbinde devices, som kun accepterer bluetooth.
+
+Det er genialt.
+
+Du kan også gemme op til 65 timers træning på pulsbæltet.
+
+### 3. Polar H10
+
+På Vejle Idrætshøjskole bruger vi Polar H10. De fungerer rigtig godt sammen med Polar Beat appen, men også med både hometrainers og smartbikes - og de forskellige virtuelle cykelapps.
+
+Forbindelsen er stabil, og du kan gemme træningspas på enheden, hvis du bruger Polar Beat appen.
+
+Det har du naturligvis ikke brug for, når du bare kører ecykling.
+
+### 3. Garmin HRM Dual
+
+Jeg bruger selv Garmin HRM Dual. Den har et rigtig behageligt bælte, som er let at justere.
+
+Jeg har aldrig haft forbindelsesproblemer med hverken Wattbikes, de forskellige hometrainer apps eller bare med mine øvrige træningsapps.
+
+Pulsbæltet er ret basic, og derfor koster det heller ikke så meget.
+
+### 4. Wahoo 
+
+Wahoo laver også pulsbælter. Hvis du hovedsageligt skal bruge dit pulsbælte til cykling på hometrainer, og du i øvrigt godt kan lide Wahoo, så kan du lige så godt købe deres bælte.
+
+Det prisbilligt og i det tests, jeg har lavet af bæltet, så har der aldrig været issues med forbindelsen eller stabiliteten.
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+
+## Beskyt cyklen mod sveden
+
+Du kommer til at svede meget, og blæseren kan være en god ide. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }.
+
+Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
+
+Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre.
+
+Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller et håndklæde klar, når du kører.
+
+## Få fat i Bluetooth høretelefoner
+
+Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen](/artikel/musik-til-traeningen/).
+
+Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
+>>>>>>> f76efb904ca999ea0eee165d76a7bad5f82741a2
 
 ## Køb udstyr til hometrainer
 

@@ -211,13 +211,13 @@ Nu skal du hinke i den rigtige rækkefølge gennem hinkebanen på et ben. Du ska
 
 Y-balancetest er en enkel test til at teste balancen. Det er en forenkling af STAR-balancetesten med de vigtigste retninger at teste balancen i. Du kan læse [mere om Y-balancetesten her]({% link _posts/2020-11-19-y-balance.md %}).
 
-# Kom i gang med balancetræning
+## Kom i gang med balancetræning
 
 Meget balancetræning foregår typisk på et ben, men der er faktisk mange forskellige muligehder. Balancetræning kan foregå på alle kropsdele, fx fødder, hænder, hoved, numse. At arbejde med buegangene i ørerne vil jeg også kalde en balanceøvelse.
 
 ### Rundt om sin egen akse
 
-Måske stiller du dig selv spørgsmålet: Hvorfor i alverden skal jeg dreje rundt i balancetræningen. Men svaret er ganske enkelt. Det skal du pga. balancesansen i det indre øre og buegangene. Den [første rite fra de 5 tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) er en glimrende måde at aktivere buegangssansen på. Når du har øvet dig, så skal du ifølge vejledningen til de fem tibetanere lave øvelsen 21 gange, men du kan jo starte med et par gange første gang, du prøver.
+Måske stiller du dig selv spørgsmålet: Hvorfor i alverden skal jeg dreje rundt i balancetræningen. Men svaret er ganske enkelt. Det skal du pga. balancesansen i det indre øre og buegangene. Den [første rite fra de 5 tibetanere](/artikel/de-fem-tibetanere/) er en glimrende måde at aktivere buegangssansen på. Når du har øvet dig, så skal du ifølge vejledningen til de fem tibetanere lave øvelsen 21 gange, men du kan jo starte med et par gange første gang, du prøver.
 
 {% include video provider="youtube" id="EpZ8dAD56eU" %}
 

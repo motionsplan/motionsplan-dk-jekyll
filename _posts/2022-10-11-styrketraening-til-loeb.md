@@ -15,7 +15,7 @@ category:
 tags:
   - styrketræning
   - løb
-last_modified_at: 2022-10-11T07:14:14Z
+last_modified_at: 2022-11-04T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?
 #    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
@@ -25,7 +25,7 @@ last_modified_at: 2022-10-11T07:14:14Z
 
 Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme til at løbe hurtigere?
 
-Du kan finde masser af gode råd til, hvordan du [kombinerer styrketræning og løb](https://www.motionsplan.dk/artikel/bedste-kombination-af-loeb-og-styrketraening/), men her kigger vi udelukkende på, hvordan du kan styrketræne for at forbedre dit løb.
+Du kan finde masser af gode råd til, hvordan du [kombinerer styrketræning og løb](/artikel/bedste-kombination-af-loeb-og-styrketraening/), men her kigger vi udelukkende på, hvordan du kan styrketræne for at forbedre dit løb.
 
 Lad os dykke direkte ned i det.
 
@@ -94,6 +94,10 @@ Flotte resultater, men det er ikke muligt at sige, om løbetræningen eller styr
 
 ## Har styrketræning en plads i et løbeprogram?
 
+[Blagrove et al (2018)](https://pubmed.ncbi.nlm.nih.gov/29249083/) konkluderer i deres systematiske review, at styrketræning ser ud til at kunne være med til at forbedre løbeøkonomien (2-8%). Samtidig viser studierne en tendens til forbedringer i _time trial_ og anaerobe hastighedsparametre også.
+
+De anbefaler derfor 2-3 styrketræningssessioner med forskellige typer øvelser til mellemdistance og langdistance løbere.
+
 De fleste studier er relativt begrænsede i deres udstrækning. Når du laver en træningsblok med et bestemt fokus og har forskernes opmærksomhed, så er det måske lettere at få resultater af et specifikt træningsstimuli.
 
 Men hvad sker der, hvis vi sætter styrketræning ind i et længerevarende træningsprogram?
@@ -159,6 +163,25 @@ Men hvad er en halv squat?
 Det er interessant, at squatdybden naturligvis kommer an på, hvad dine mål er med dine benbøjninger.
 
 Den fremgang kan naturligvis ikke fortsætte i det uendelige!
+
+## Hvor ofte skal løbere styrketræne?
+
+[Blagrove et al (2018)](https://pubmed.ncbi.nlm.nih.gov/29249083/) anbefaler ud fra observationerne i deres systematiske oversigtsartikel styrketræning 2-3 gange om ugen.
+
+Dette er en meget almindelig anbefaling for at få effekt af styrketræning.
+
+[Štohanzl et al (2018)](https://pubmed.ncbi.nlm.nih.gov/28462571/) havde sat sig for at undersøge, hvad den **minimale dosis** styrketræning er?
+
+I studiet deltog 41 kvindelige motionsløbere. Studiet varede 10 uger. 
+Kvinderne trænede i alt i 3 timer om ugen.
+
+- En gruppe trænede styrketræning 1 gang om ugen i 30 minutter og 2,5 timers udholdenhedstræning.
+- En anden gruppe 2 gange om ugen i 2x30 minutter og 2 timers udholdenhedstræning.
+- Endelig trænede kontrolgruppe 3 timers udholdenhedstræning.
+
+Begge grupper der styrketrænede forbedrede deres løbehastighed, men de forbedrede ikke løbeøkonomi eller aerobe kapacitet.
+
+Det er tankevækkende at på en relativt lille træningsmængde på 3 timer, så kan du erstatte så lidt som 30 minutter med styrketræning og alligevel komme til at løbe hurtigere.
 
 ## Anbefalinger for styrketræning til løb
 
