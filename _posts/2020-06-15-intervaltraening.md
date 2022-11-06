@@ -77,7 +77,7 @@ Jeg har alligevel forsøgt at lave en tabel, som indeholder nogle af de mest udb
 
 ## Forskellige typer intervaller
 
-Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
+Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
 
 | Intervalform | Formål | Distance | Total | Pause | Hastighed |
 |-|-|-|-|-|-|
@@ -149,7 +149,7 @@ Det kan være en god måde at vænne sig til at lave flere intervaller over tid.
 
 - På **de lange intervaller** over 3 minutter, så er intervallerne så lange at du undervejs kan nå at få pulsen højt nok op til at arbejde i det rigtige energisystem. Derfor skal pausen passe med, at du kan nå at systemet op at arbejde hårdt nok i intervallet.
 - På **de korte intervaller** skal pausen typisk være kort, så du udnytter den blandede effekt på kredsløbet - både det aerobe og det anaerobe system. Typisk ønsker man ikke, at pulsen falder for langt ned, inden næste interval startes. Der kan være en markant anaerob effekt af denne type træning, fx Tabatas 20 sekunders maksimalt arbejde og 10 sekunders pause.
-- Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+- Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning](/anaerob-traening/).
 
 ## Intensitet i intervallerne
 

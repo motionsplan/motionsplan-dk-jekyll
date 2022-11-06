@@ -34,7 +34,7 @@ Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times
 
 Hvad er Tabata? **Tabata er intervaltræning med 8 x 20 sek _all out_-intervaller med 10 sek pause mellem arbejdsintervallerne. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
 
-Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), som også har en god effekt på det aerobe system. Tabata er [intervaltræning](/intervaltraening/).
+Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning](/anaerob-traening/), som også har en god effekt på det aerobe system. Tabata er [intervaltræning](/intervaltraening/).
 
 I dag bliver Tabata-intervallerne flittigt brugt inden for holdtræning, crossfit, men også løbere, roere, cykelmotionister bruger træningen. Langt de fleste laver dog i virkeligheden ikke træning efter Tabatas foreskrifter, selvom de arbejder i 20 sekunder og holder pause i 10 sekunder. Tabataintervaller er nemlig **all out** i arbejdsperioden.
 
@@ -53,7 +53,7 @@ Tabata (1996) sammenlignede to træningsprotokoller for deres virkning på det a
 
 ## Resultater fra Tabata-studiet
 
-Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
+Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
 
 ## Diskussion af Tabata og intensive intervaller
 

@@ -87,7 +87,7 @@ Når der er mere tilgængeligt kreatinfosfat i musklerne, så har du i praksis e
 
 ## Bivirkninger af kreatin
 
-Når du tager kreatin, så ser man også ofte at _lean body mass (LBM)_ eller den fedtfri masse stiger over tid. En stor del af dette skal formentlig tilskrives ophobning af intracellulært væske i musklen, da kreatin binder vand, men også at arbejdskapaciteten øges, så volumen potentielt går op i træningen. Volumen og de ekstra gentagelser kan netop være en driver for, [hvordan muskler vokser og skaber hypertrofi]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
+Når du tager kreatin, så ser man også ofte at _lean body mass (LBM)_ eller den fedtfri masse stiger over tid. En stor del af dette skal formentlig tilskrives ophobning af intracellulært væske i musklen, da kreatin binder vand, men også at arbejdskapaciteten øges, så volumen potentielt går op i træningen. Volumen og de ekstra gentagelser kan netop være en driver for, [hvordan muskler vokser og skaber hypertrofi](/hvordan-vokser-muskler/).
 
 Når man tager kreatin, så er der en akut nedregulering af din egen kreatinproduktion, men kroppen starter med at producere kreatin igen, når du stopper med at tage kreatin som kosttilskud (Branch 2003).
 

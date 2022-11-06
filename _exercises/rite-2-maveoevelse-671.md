@@ -52,4 +52,4 @@ Træk vejret ind, når du løfter hoved og ben og pust ud, når du sænker dem.
 
 Hvis denne øvelse er for hård, kan du med fordele bøje dine ben i stedet for at have dem fuldt udstrakte.
 
-Denne rite er en del af [de fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}).
+Denne rite er en del af [de fem tibetanere](/artikel/de-fem-tibetanere/).

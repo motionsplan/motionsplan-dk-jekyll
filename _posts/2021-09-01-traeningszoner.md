@@ -347,7 +347,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
 
-Der er flere faktorer, der bestemmer den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), som fx:
+Der er flere faktorer, der bestemmer den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), som fx:
 
 - Hjertets evne til at pumpe blod rundt i minuttet (puls x slagvolumen)
 - Mængden af røde blodlegemer
@@ -377,7 +377,7 @@ Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke l
 
 Typisk vil man løbe omkring 20 minutter per træningspas, når man gerne vil flytte den maksimale iltoptagelse.
 
-Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO<sub>2</sub>max]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
+Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/).
 
 ### Fartleg
 
