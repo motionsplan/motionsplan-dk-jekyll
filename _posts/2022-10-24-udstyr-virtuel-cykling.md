@@ -14,7 +14,15 @@ tags:
   - cykling
   - hometrainer
 last_modified_at: 2022-11-06T08:14:14Z
-feature_row:
+feature_row_kickr_bike:
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-bike-v2.aspx
+    image_path: https://www.fotoagent.dk/images/w/JqJAsn3HMfMDXAHPYw6btw/s/10678/138/1_Wahoo_KICKR_BIKE_V2_150241.jpg?v=116122064
+    title: Wahoo Kickr Bike v2
+    excerpt: Nu kommer Wahoo Kickr Bike 2, en ny og forbedret version af den oprindelige Kickr Bike. Og her har vi virkelig at gøre med det ypperste indenfor e-cycling/indendørs cykling.
+    btn_label: "Tjek prisen"
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+feature_row_kickr:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx
     title: Wahoo Kickr 5.0
@@ -22,6 +30,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+feature_row_kickr_climb:
   - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
     title: Wahoo Kickr Climb
@@ -29,6 +38,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
+feature_row_kickr_headwind:
   - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
     title: Wahoo Kickr Headwind
@@ -36,10 +46,11 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
+feature_row_kickr_tacx_flux:
   - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-T2900S-64/tacx-flux-s-smart-hometrainer
-    title: Tacx Flux 2 Smart Zwift Bundle
-    excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
+    title: Tacx Flux 2
+    excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr."
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
@@ -47,23 +58,27 @@ feature_row:
 
 Hvilket udstyr har du brug for, når du gerne vil i gang med cykling på motionscykel eller e-cykling? Her kigger vi på det bedste setup til virtuel cykling i forskellige prislejer.
 
-For at kunne være med i e-cykling, så har du brug følgende:
+Du skal naturligvis bruge en hometrainer eller smartbike, men der er også andre ting, der kan gøre din oplevelse bedre.
 
-- en cykel med watt. Her kigger vi på det bedste hometrainer-setup til at deltage i løb på [Zwift](/komplet-begynderguide-zwift/), [Wahoo RGT Cycling](/rgt-cycling/), [Rouvy](/rouvy/) og [BKOOL](/bkool-begynderguide/).
-- et device hvor du kan køre programmmet på, fx tablet, smartphone eller Apple TV.
-- evt. en pulsmåler.
-
-Men der er også andre ting, der kan gøre din oplevelse bedre.
+Vi har testet og tester stadig hvilket setup, du får den bedste oplevelse på. Udstyret betyder nemlig noget, når du gerne vil cykle indendørs.
 
 Her dykker vi ned i dine muligheder for forskellige setups. Det fede er nemlig, at du kan bruge det samme udstyr til alle de [virtuelle cykelplatforme](/hometrainer-apps/).
 
 ## Hvilket udstyr har jeg brug for for at cykle e-cykling?
 
-{% include feature_row type="left" %}
+Du kan let komme i gang med virtuel cykling. For at kunne være med i e-cykling, så har du brug følgende:
+
+- en cykel med watt. Her kigger vi på det bedste hometrainer-setup til at deltage i løb på [Zwift](/komplet-begynderguide-zwift/), [Wahoo RGT Cycling](/rgt-cycling/), [Rouvy](/rouvy/) og [BKOOL](/bkool-begynderguide/).
+- et device hvor du kan køre programmmet på, fx tablet, smartphone eller Apple TV.
+- evt. en pulsmåler.
+
+Først gennemgår vi alt det basale for at komme i gang med den virtuelle cykling. Bagefter kigger vi lidt på de ting, der kan gøre din oplevelse endnu bedre.
 
 ## Hvordan testede jeg de forskellige hometrainer?
 
-Jeg har prøvet de forskellige hometrainers. Alle hometrainers var relativt lette at bruge.
+Jeg har testet fem forskellige hometrainers og smartbikes. Alle devices var relativt lette at bruge og connecte til de virtuelle apps.
+
+{% comment %}
 
 ### Hvordan målte jeg lydniveauet?
 
@@ -72,6 +87,8 @@ Et godt parameter for en hometrainer er også **lydniveauet**, så du ikke gener
 Jeg brugte [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel="nofollow noopener" } til at måle lydniveauet. Jeg stod omkring en armslængde væk fra hometrainerne, da jeg lavede målingerne.
 
 {% include figure image_path="/assets/images/blog/sound-meter-hometrainer.jpg" alt="Sound meter til at måle lydniveau" caption="Sådan ser interfacet ud, når man måler lydniveauet på hometraineren i [Sound Meter](https://play.google.com/store/apps/details?id=com.noise.sound.meter.decibel&hl=en_US&gl=US){: rel='nofollow noopener' }." %}
+
+{% endcomment %}
 
 ## Den bedste hometrainer
 
@@ -97,11 +114,15 @@ Denne feature kan du også købe til en hometrainer, men så bliver for den almi
 
 Den larmer nærmest heller ikke, når du kører, hvilket er en stor fordel, hvis du skal køre i dit eget hus.
 
+{% include feature_row type="left" id="feature_row_kickr_bike" %}
+
 ### 2. Wahoo Kickr 6.0
 
 Jeg cykler selv på en [Wahoo Kickr 6.0](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-6-0.aspx){: rel='sponsored nofollow noopener' } hometrainer, som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse. 
 
 Du kan stadig få [den tidligere model nedsat](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx){: rel='sponsored nofollow noopener' }.
+
+{% include feature_row type="left" id="feature_row_kickr" %}
 
 Hvis du helst vil have en hometrainer, så er det også denne version den tidligere professionelle cykelrytter og meget ivrige Zwift-rytter, Martin Mortensen, anbefaler.
 
@@ -112,6 +133,8 @@ Hvis du gerne vil have styret til at hæve og sænke sig, så kan du købe en Ki
 {% include video provider="youtube" id="xdV8v6dXKZU" %}
 
 Hvis du køber både Kickr hometrainer og Kickr Climb, så kan du overveje om en komplet cykel er et bedre valg.
+
+{% include feature_row type="left" id="feature_row_kickr_climb" %}
 
 ### 3. Wahoo Kickr Core
 
@@ -131,9 +154,9 @@ Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen.
 
-Mange bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2092/tacx-tablet-beslag-til-cykelstyr) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
+Mange bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2092/tacx-tablet-beslag-til-cykelstyr){: rel="sponsored nofollow noopener" } eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
 
-Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret smarte kombinerede smartphone-holder og [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på BKOOL.
+Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret smarte kombinerede smartphone-holder og [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem de virtuelle løb.
 
 Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre e-cykling på en virtuel platform.
 
@@ -219,6 +242,8 @@ Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cyc
 
 Du kommer til at svede meget, og blæseren kan være en god ide. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
+{% include feature_row type="left" id="feature_row_kickr_headwind" %}
+
 Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
 Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre.
@@ -231,11 +256,24 @@ Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, 
 
 Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
 
+{% comment %}
+
 ## Køb udstyr til hometrainer
 
 {% include feature_row type="left" %}
 
+{% endcomment %}
+
 ## Konklusion
 
+Jeg håber, at det er klart i denne guide, at du kan komme i gang med indendørs cykling i mange forskellige prisklasser.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) | [Wahoo RGT Cycling](/rgt-cycling/) | [Rouvy](/rouvy/) | [BKOOL](/bkool-begynderguide/)
+Uanset hvilket budget du har, så er det en rigtig god ide at vælge en blæser af en eller anden art. Ellers bliver det utrolig varmt at køre.
+
+Den dyreste vej er at købe en dedikeret indendørs cykel. Her får du en helt igennem fremragende oplevelse, men det er også noget dyrere.
+
+Hvis du allerede har en cykel, du er glad for, så kan du komme i gang for omkring 5000 kroner. Hvis du køber en af hjemmetrænerne fra det mellemste prisleje, så får du rigtig meget for pengene.
+
+Du kan opgradere din oplevelse, hvis du køber en blæser som også kan kontrolleres af spillet og fx en Kickr Climb, så cyklen også bevæger sig op og ned, men det er ikke nødvendigt for at komme i gang.
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
