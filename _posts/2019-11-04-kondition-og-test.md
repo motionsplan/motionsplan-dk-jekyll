@@ -31,7 +31,7 @@ Men lad os dykke ned i, hvordan du tester den **maksimale iltoptagelse** og **ko
 
 ## Hvad er maksimal iltoptagelse og kondital?
 
-Men lad os først definere den [maksimale iltoptagelse (VO2max)]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og [konditallet](/kondital/) for at se, hvad en test af konditionen tester:
+Men lad os først definere den [maksimale iltoptagelse (VO2max)](/maksimale-iltoptagelse-vo2max/) og [konditallet](/kondital/) for at se, hvad en test af konditionen tester:
 
 Maksimal iltoptagelse (VO<sub>2</sub>max) (l/min)
 : Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O<sub>2</sub>) kroppen optager pr. minut.
@@ -126,7 +126,7 @@ Konditionen forbedres ved at udfordre kredsløbet, og det kan man gøre på mang
 
 Derfor kan jeg godt lidt at opdele kredsløbstræningen i forskellige metoder, så man husker at få det hele med i sin træing.
 
-For at forbedre konditionen, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
+For at forbedre konditionen, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 ## Konklusion om konditionstests
 

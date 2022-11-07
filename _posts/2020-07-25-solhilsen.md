@@ -112,7 +112,7 @@ _Vinyasa_ betyder egentlig "at plaere noget på en særlig måde". Derfor er det
 
 Når du opnår at bevægelserne "sker af sig selv", så opstår følelsen af at være i "flow". Kan du slippe kontrollen og lade dig optage fuldstændigt i det, der foregår lige nu, så kan du komme ind i en meditativ tilstand med bevægelserne.
 
-Det er målet for mange, der laver yoga. Jeg dyrker ikke yoga til dagligt, men bruger solhilsener og [De 5 tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) som en del af min træning. Og **solhilsen giver virkelig velvære**.
+Det er målet for mange, der laver yoga. Jeg dyrker ikke yoga til dagligt, men bruger solhilsener og [De 5 tibetanere](/artikel/de-fem-tibetanere/) som en del af min træning. Og **solhilsen giver virkelig velvære**.
 
 ## Hvornår skal jeg lave solhilsen?
 
@@ -213,7 +213,7 @@ Eller den her:
 
 Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter, hvor du laver en lille afspænding. Yogalærer, Kathrine Christensen, har skrevet en lille guide her på Motionsplan til [mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
-Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
+Jeg udfører også ofte [De fem tibetanere](/artikel/de-fem-tibetanere/), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 

@@ -160,7 +160,7 @@ Per Aagaard (2009) har lavet følgende [liste](https://web.archive.org/web/20110
 
 Det diskuteres [jævnligt](https://andersnedergaard.dk/kropblog/sarcoplasmisk-vs-myofibrillaer-hypertrofi-endnu-mere-fitness-fail/) om sarcoplasmatisk eller myofibrillær hypertrofi. Men det er en meget længere diskussion., men der forskes fortsat i emnet og [Roberts et al  (2020)](https://www.frontiersin.org/articles/10.3389/fphys.2020.00816/abstract) har lige udgivet et _review_.
 
-Hvis du er interesseret i en praktisk tilgang til, [hvordan muskler vokser, så tjek vores tidligere indlæg her]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
+Du kan fx læse videre i vores praktiske tilgang til, [hvordan muskler vokser](/hvordan-vokser-muskler/).
 
 {% comment %}
 
@@ -170,7 +170,7 @@ Musklerne bliver stærkere ved styrketræning, men musklerne er jo en del af et 
 
 Styrketræning med belastninger over 70% af 1RM udløser også signifikante adaptationer i den trænede muskulaturs sene- og ligamentvæv. Et styrketræningspas medfører en **akut øgning i proteinsyntesen** i de belastede sener (Miller 2005). På sigt kan styrketræning øge både sene-tykkelsen og -stivhed (Rønnestad 2012, Kubo 2010).
 
-Det har vist sig at excentrisk styrketræning tilsyneladende har en positiv effekt på rehabilitering i forbindelse med overbelastningsskader på senerne, fx springerknæ (Alfredson 1998, Croisier 2002, Jonsson & Alfredson 2005, Langberg 2007)
+Det har vist sig at excentrisk styrketræning tilsyneladende har en positiv effekt på rehabilitering i forbindelse med overbelastningsskader på senerne, fx springerknæ (Alfredson 1998, Croisier 2002, Jonsson & Alfredson 2005, Langberg 2007).
 
 Energitabet ved cykliske bevægelser (den mekaniske hysterese)ser ud til at være reduceret efter en periode med styrketræning både hos unge (Kubo 2002) og gamle individer (Reeves 2003b). Det betyder altså, at kroppen bliver mere effektiv i fx løb efter et styrketræningspas.
 
@@ -182,13 +182,13 @@ Det er særligt interessant for ældre mennesker, da styrketræning er en sikker
 
 Der er lavet en del studier, der viser at styrketræning forbedrer præstationen i aerobe aktiviteter. En stor del af forklaringen skal findes i, at styrketræningen øger musklernes styrke, hvilket gør den enkelte bevægelse relativt lettere.
 
-Hoff et al (2002) lavede et forsøg med meget veltrænede langrendsløbere tilføjede fx 45 minutters funktionel styrketræning med 85% af 1RM fordelt på tre træningspas, og de havde en forbedring i udholdenhed på 20% i forhold til kontrolgruppen. Dette skete vel at mærke med den samme maksimale iltoptagelse, hvilket tyder på at bevægelsesøkonomien for langrendsløberne steg. Der er lavet [lignende forsøg med løb]({% link link _posts/2019-12-16-running-economy.md %}).
+Hoff et al (2002) lavede et forsøg med meget veltrænede langrendsløbere tilføjede fx 45 minutters funktionel styrketræning med 85% af 1RM fordelt på tre træningspas, og de havde en forbedring i udholdenhed på 20% i forhold til kontrolgruppen. Dette skete vel at mærke med den samme maksimale iltoptagelse, hvilket tyder på at bevægelsesøkonomien for langrendsløberne steg. Der er lavet [lignende forsøg med bevægelsesøkonomi i løb](/lobeokonomi/).
 
 Ud over at styrketræning forbedrer præstationen i aerobt betingede aktiviteter, så sker der også metaboliske tilpasninger ved styrketræning.
 
 Traditionelt set har man opstillet styrketræning og udholdenhedstræning som to modpoler indenfor fysisk træning. Dette primært fordi, at de to træningsformer menes at skabe tilpasninger lokalt i muskulaturen, der trækker i hver sin retning.
 
-I modsætning til ovenstående morfologiske forandringer som følge af styrketræning, menes udholdenhedstræning primært at stimulere metaboliske forhold omkring og i muskulaturen. Eksempelvis vaskulære tilpasninger såsom et øget og forbedret kapillær-net omkring muskulaturen, samt indre metaboliske tilpasninger som øget effektivitet og indhold af de såkaldte mitokondrier, flere sukker- og fedt-transportører m.m. (Egan & Zierath, 2013).
+I modsætning til ovenstående morfologiske forandringer som følge af styrketræning, menes udholdenhedstræning primært at stimulere metaboliske forhold omkring og i muskulaturen. Eksempelvis vaskulære tilpasninger såsom et øget og forbedret kapillærnet omkring muskulaturen, samt indre metaboliske tilpasninger som øget effektivitet og indhold af de såkaldte mitokondrier, flere sukker- og fedt-transportører m.m. (Egan & Zierath, 2013).
 
 Ultimativt er disse tilpasninger med til at gøre, at en udholdenhedstrænet muskel derved bedre kan trække ilt-, sukker- og fedt-molekyler ud af blodet, omsætte disse til cellulær energi og samtidigt borttransportere såkaldte affaldsstoffer.
 
@@ -197,7 +197,7 @@ I takt med at man inden for forskningsverdenen har fået mere sofistikerede mål
 - Det er demonstreret, at styrketræning kan forbedre mitokondriers funktion og igangsætte protein syntesen af nye mitokondrielle proteiner (Groennebaek & Vissing, 2017).
 - Styrketræning kan også forøge kapillær-nettet omkring muskelfibrene i takt med hypertrofien, for at kunne matche fibrenes øgede volumen (Holloway et al. 2017).
 
-Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ved styrketræning primært går i retningen af øget muskelstørrelse og -styrke, så kan træningsformen eksempelvis også være med til at vedligeholde en sund mitokondrie-pulje og -funktion, hvilket har stor betydning for muskulaturens sundhed og derved også hele kroppens.
+Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ved styrketræning primært går i retningen af øget muskelstørrelse og -styrke, så kan træningsformen fx også være med til at vedligeholde en sund mitokondrie-pulje og -funktion, hvilket har stor betydning for muskulaturens sundhed og derved også hele kroppens.
 
 {% endcomment %}
 
@@ -242,7 +242,7 @@ Det er vigtigt at huske på, at _rep ranges_ er en tommelfingerregel i forhold t
 
 {% include figure image_path="https://myzone-strengtheory.netdna-ssl.com/wp-content/uploads/2016/02/12752057_10153492667389016_1119053659_o.jpg" caption="Der er mange veje til det samme mål i forhold til styrke og hypertrofi. Kilde: [Greg Nuckols](https://www.strongerbyscience.com/hypertrophy-range-fact-fiction/)" %}
 
-Tidligere har vi skrevet en artikel, der handler om, [hvordan muskler vokser]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), som giver nogle praktiske anvisninger på, hvordan du kan træne for muskeltilvækst.
+Tidligere har vi skrevet en artikel, der handler om, [hvordan muskler vokser](/hvordan-vokser-muskler/), som giver nogle praktiske anvisninger på, hvordan du kan træne for muskeltilvækst.
 
 Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 

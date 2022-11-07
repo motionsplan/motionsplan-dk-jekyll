@@ -66,7 +66,7 @@ Hvis du tager tid, og du bruger mindre tid på den samme strækning, så er din 
 
 Du kan også på løbebane eller med et GPS-ur løbe et bestemt antal minutter, fx en [Cooper-test](/cooper-test/), for at se om du kan komme længere på det samme tidsrum. Du kan også bare bruge den samme løberute, for at se om du kommer længere frem på den samme tid.
 
-Når du tager tid på løbeturene, så kan du regelmæssigt tjekke, om du bliver en bedre og hurtigere løber. Der kan være forskellige grunde til, at du bliver hurtigere som løber. Du kan enten have forbedret din [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), være bedre til at løbe på den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) eller have forbedret din [løbeøkonomi og løbeteknik](/lobeokonomi/).
+Når du tager tid på løbeturene, så kan du regelmæssigt tjekke, om du bliver en bedre og hurtigere løber. Der kan være forskellige grunde til, at du bliver hurtigere som løber. Du kan enten have forbedret din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), være bedre til at løbe på den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) eller have forbedret din [løbeøkonomi og løbeteknik](/lobeokonomi/).
 
 Din løbetid skulle naturligvis gerne blive bedre, hvis du træner regelmæssigt, fordi kroppen [tilpasser sig løbetræningen og konditionstræningen]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 
@@ -80,6 +80,6 @@ Jeg bruger selv et Garmin Fenix med en pulsmåler. Det giver mig et virkelig god
 
 Det jeg nyder mest ved Garmin løbeuret er, at det er let at bruge til at tage tid på min træning og i mine intervaller, samtidig med at jeg får pulsmålingerne og kan arbejde med træning i pulszoner.
 
-De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
+De nyeste Garmin-løbeure kan du endda have [musik til din træning](/artikel/musik-til-traeningen/) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
 
 {% include feature_row type="left" %}

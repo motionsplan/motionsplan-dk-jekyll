@@ -460,7 +460,7 @@ Bøgerne går i dybden med teorien om udstrækning, og så kan de give inspirati
 
 Du kan også lede videre her på siden for at finde en masse udstrækningsøvelser eller lære mere om, hvordan du bliver smidigere med udstrækning. Tjek det ud før din nabo.
 
-Du kan også finde inspiration til udstrækning og udspænding i forskellige yoga-flows. Jeg har beskrevet [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}), som kombinerer muskeløvelser med strækøvelser, og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).
+Du kan også finde inspiration til udstrækning og udspænding i forskellige yoga-flows. Jeg har beskrevet [De fem tibetanere](/artikel/de-fem-tibetanere/), som kombinerer muskeløvelser med strækøvelser, og [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/).
 
 {% assign site_posts = site.exercises | where: "training_type", "Strækøvelser" | sort: "title" %}
 

@@ -17,9 +17,9 @@ toc: true
 
 Aerob træning handler om at træne det aerobe energisystem. Det er den del af energisystemet, hvor der er ilt til stedet til forbrændingen.
 
-**Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
+**Aerob** betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
 
-Jeg har skrevet uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen](/energisystemer/) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet uddybende om [det aerobe og anaerobe energisystem](/energisystemer/) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning](/anaerob-traening/).
 
 Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
 
@@ -86,7 +86,9 @@ Når du har etableret en _baseline_ for dit aerobe system, så kan du fokusere p
 
 En af de vigtige parametre, når du træner aerobt er at forbedre den **aerobe power**.
 
-Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
+Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften ellerhastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT).
+
+Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
 
 ## Eksempler på aerob træning
 
@@ -122,7 +124,7 @@ Du kan se mange flere eksempler under [intervalløb](/intervallob-intervaltraeni
 
 Når man laver aerob træning, så er intensiteten vigtig. Det er blevet ret populært at lave _polarized_ træning. Det betyder, at man enten arbejder meget intenst eller relaivt lavintenst.
 
-Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) eller hvad [HIIT-træning og HIIT-intervaller egentlig er]({% link _posts/2020-09-22-hiit.md %}). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
+Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) eller hvad [HIIT-træning og HIIT-intervaller egentlig er]({% link _posts/2020-09-22-hiit.md %}). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
 
 Desto bedre det aerobe system virker, desto bedre bliver din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) også, så du kan fjerne [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}) lige så hurtigt, som du danner den.
 

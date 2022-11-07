@@ -43,7 +43,7 @@ Styrketræning
 : Formålet med styrketræning kan både være at bygge større muskler (hypertrofi), forbedre evnen til at løfte tungere (styrke) og evnen til at kunne yde mere kraft (power).
 
 Konditionstræning og løb
-: Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
+: Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
 
 ## Hvordan påvirker styrketræning og løb som udholdenhedstræning hinanden?
 

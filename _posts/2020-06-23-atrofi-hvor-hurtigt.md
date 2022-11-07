@@ -31,7 +31,7 @@ Det kræver rigtig meget energi at have en stor muskelmasse. Man kan kalde det e
 
 Kroppen vil derfor skille sig af med overflødig muskelmasse, som ikke bruges. Hvis du holder pause fra træningen, så behøver kroppen ikke vedligeholde den muskelmasse, der er nødvendig for at klare din træning.
 
-Når dine muskler vokser (hypertrofi), så ved man at der er en lang række vækstfaktorer, der får musklerne til at vokse. Vi har skrevet andre indlæg, der handler om [vækstfaktorerne]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}) og [hvor hurtigt musklerne kan vokse]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}).
+Når dine muskler vokser (hypertrofi), så ved man at der er en lang række vækstfaktorer, der får musklerne til at vokse. Vi har skrevet andre indlæg, der handler om [vækstfaktorerne](/hvordan-vokser-muskler/) og [hvor hurtigt musklerne kan vokse]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}).
 
 Når man holder pause, så aktiverer man naturligvis ikke længere vækstfaktorerne. Men det ser også ud til, at der er signalveje, der ansporer kroppen til at miste muskelmasse. Atrofi kan ske enten som følge af faste, inaktivitet eller sygdomme, og det ser ud til, at muskelnedbrydningen sættes i gang af nogle proteinnedbrydende processer.
 

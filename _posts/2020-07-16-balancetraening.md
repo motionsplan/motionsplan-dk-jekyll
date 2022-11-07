@@ -217,7 +217,7 @@ Meget balancetræning foregår typisk på et ben, men der er faktisk mange forsk
 
 ### Rundt om sin egen akse
 
-Måske stiller du dig selv spørgsmålet: Hvorfor i alverden skal jeg dreje rundt i balancetræningen. Men svaret er ganske enkelt. Det skal du pga. balancesansen i det indre øre og buegangene. Den [første rite fra de 5 tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) er en glimrende måde at aktivere buegangssansen på. Når du har øvet dig, så skal du ifølge vejledningen til de fem tibetanere lave øvelsen 21 gange, men du kan jo starte med et par gange første gang, du prøver.
+Måske stiller du dig selv spørgsmålet: Hvorfor i alverden skal jeg dreje rundt i balancetræningen. Men svaret er ganske enkelt. Det skal du pga. balancesansen i det indre øre og buegangene. Den [første rite fra de 5 tibetanere](/artikel/de-fem-tibetanere/) er en glimrende måde at aktivere buegangssansen på. Når du har øvet dig, så skal du ifølge vejledningen til de fem tibetanere lave øvelsen 21 gange, men du kan jo starte med et par gange første gang, du prøver.
 
 {% include video provider="youtube" id="EpZ8dAD56eU" %}
 

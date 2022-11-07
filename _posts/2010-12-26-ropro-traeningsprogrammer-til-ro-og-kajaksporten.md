@@ -66,7 +66,7 @@ Hvis du kigger rundt på [ropro.dk](https://www.ropro.dk/) kan du helt sikkert f
 
 Siden er en no-bullshit side, hvor du ikke finder videnskabelig baggrund eller forkromede, længerevarende træningsprogrammer. Til gengæld finder du mere end 120 forskellige roprogrammer til voksne og 30 træningsprogrammer til børn, som du kan afprøve på dine enkelte træninger.
 
-Jeg ved, at Krintel elsker følelsen af brændende muskler, og en del af programmerne har karakter af [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), og der er garanti for [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) undervejs. Hvis du kører roprogrammerne igennem, så garanterer jeg, at du kommer i bedre form, men også kommer til at finde lidt smerte.
+Jeg ved, at Krintel elsker følelsen af brændende muskler, og en del af programmerne har karakter af [anaerob træning](/anaerob-traening/), og der er garanti for [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) undervejs. Hvis du kører roprogrammerne igennem, så garanterer jeg, at du kommer i bedre form, men også kommer til at finde lidt smerte.
 
 ## Hvordan skal jeg bruge roprogrammerne?
 
