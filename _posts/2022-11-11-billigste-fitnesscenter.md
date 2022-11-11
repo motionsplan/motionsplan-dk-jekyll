@@ -49,40 +49,59 @@ Derfor skal du lige have en liste klar på, hvad du gerne vil have ud af dit fit
 
 Her har vi lavet et overblik over de billigste fitnesskæder i Danmark.
 
-{% assign fitnesscentre = site.data.fitnesscentre %}
+{% assign fitnesscentre = site.data.fitnesscentre | sort: "Navn" %}
 
 | By | Fitnesscenter | Oprettelse | Pris uden hold | Pris med hold | Holdtræning | Hjemmeside |
-| - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
 {% for shop in fitnesscentre -%}
-| {{ shop.By }} | {{ shop.Navn }} | {{ shop.Oprettelse }} | {{ shop.Pris-uden-hold }} | {{ shop.Pris-med-hold }} | {{ shop.Holdtræning }} | {% if shop.Link %}[Besøg]({{ shop.Link }}){: rel="{{ shop.Rel }}" }{% endif %} |
+| {{ shop.By }} | {{ shop.Navn }} | {{ shop.Oprettelse }} | {{ shop.Pris-uden-hold }} | {{ shop.Pris-med-hold }} | {{ shop.Holdtraening }} | {% if shop.Link %}[Besøg]({{ shop.Link }}){: rel="{{ shop.Rel }}" }{% endif %} |
 {% endfor %}
 
 Hvis du har ændringer til listen, så skriv endelig til mig på {{ site.email }}.
 
 {% include figure image_path="https://images.unsplash.com/photo-1596357395217-80de13130e92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="billige fitnesskæder i Kbh, Odense, Århus og Ålborg" %}
 
-{% comment %}
-
 ## Billigste fitness i København
 
+{% assign fitnesscentre = site.data.fitnesscentre | where: "By", "København" | sort: "Navn" %}
 
+| Fitnesscenter | Oprettelse | Pris uden hold | Pris med hold | Holdtræning | Hjemmeside |
+| - | - | - | - | - | - |
+{% for shop in fitnesscentre -%}
+| {{ shop.Navn }} | {{ shop.Oprettelse }} | {{ shop.Pris-uden-hold }} | {{ shop.Pris-med-hold }} | {{ shop.Holdtraening }} | {% if shop.Link %}[Besøg]({{ shop.Link }}){: rel="{{ shop.Rel }}" }{% endif %} |
+{% endfor %}
 
 ## Billigste fitnesskæde i Odense
 
+{% assign fitnesscentre = site.data.fitnesscentre | where: "By", "Odense" | sort: "Navn" %}
 
+| Fitnesscenter | Oprettelse | Pris uden hold | Pris med hold | Holdtræning | Hjemmeside |
+| - | - | - | - | - | - |
+{% for shop in fitnesscentre -%}
+| {{ shop.Navn }} | {{ shop.Oprettelse }} | {{ shop.Pris-uden-hold }} | {{ shop.Pris-med-hold }} | {{ shop.Holdtraening }} | {% if shop.Link %}[Besøg]({{ shop.Link }}){: rel="{{ shop.Rel }}" }{% endif %} |
+{% endfor %}
 
 ## Fitnesskæder med billige pris i Aarhus
 
+{% assign fitnesscentre = site.data.fitnesscentre | where: "By", "Århus" | sort: "Navn" %}
 
+| Fitnesscenter | Oprettelse | Pris uden hold | Pris med hold | Holdtræning | Hjemmeside |
+| - | - | - | - | - | - |
+{% for shop in fitnesscentre -%}
+| {{ shop.Navn }} | {{ shop.Oprettelse }} | {{ shop.Pris-uden-hold }} | {{ shop.Pris-med-hold }} | {{ shop.Holdtraening }} | {% if shop.Link %}[Besøg]({{ shop.Link }}){: rel="{{ shop.Rel }}" }{% endif %} |
+{% endfor %}
 
 ## Bedste pris på fitness i Aalborg
 
+{% assign fitnesscentre = site.data.fitnesscentre | where: "By", "Aalborg" | sort: "Navn" %}
 
-
+| Fitnesscenter | Oprettelse | Pris uden hold | Pris med hold | Holdtræning | Hjemmeside |
+| - | - | - | - | - | - |
+{% for shop in fitnesscentre -%}
+| {{ shop.Navn }} | {{ shop.Oprettelse }} | {{ shop.Pris-uden-hold }} | {{ shop.Pris-med-hold }} | {{ shop.Holdtraening }} | {% if shop.Link %}[Besøg]({{ shop.Link }}){: rel="{{ shop.Rel }}" }{% endif %} |
+{% endfor %}
 
 {% include figure image_path="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="prisvenlige fitnesscentre" %}
-
-{% endcomment %}
 
 ## Hvordan har vi lavet vores pristjek?
 
