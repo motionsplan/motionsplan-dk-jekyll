@@ -9,9 +9,9 @@ header:
   teaser: https://images.unsplash.com/photo-1596357395104-ba989e72b5ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Løb
+  - Fitness
 tags:
-  - løb
+  - anmeldelse
 last_modified_at: 2022-11-11T07:14:14Z
 faq:
   - question: Hvordan finder man et billigt træningscenter?
