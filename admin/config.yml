@@ -91,7 +91,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text", required: false}
           - {label: "Url", name: "url", widget: "string", required: false}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success", required: false}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success", required: false}
       - label: Gallery
         name: gallery
         widget: list
@@ -151,7 +151,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text"}
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
@@ -263,7 +263,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text"}
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
