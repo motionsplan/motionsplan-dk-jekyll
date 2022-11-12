@@ -29,14 +29,18 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : false # "custom" # false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "motionsplan-dk"
 staticman:
   branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
+google_forms_comments:
+  google_app_script: https://script.google.com/macros/s/AKfycbwaDD-4GgMel7vbbrKy-4Yb4DvM0blSKe1UrA3PL91sN-kLu_onoegfntWKFuw-eJu6/exec
+  lazy_load_comments: false
+  comment_replies_enabled: true
+  chunked_comment_loading: true
 
 after_footer_scripts:
   - /assets/js/bundle.js

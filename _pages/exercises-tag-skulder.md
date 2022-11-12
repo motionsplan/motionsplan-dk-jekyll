@@ -26,7 +26,7 @@ Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forske
 
 Det er vigtigt at bevæge skulderen på mange forskellige måder for at forebygge skuldersmerter og ondt i skulderen. Skuldre, nakke og skulderblade bør udfordres i træningen, og du bør have en forståelse for, hvordan sammenhængen er mellem de tre. Du kan også læse mere om selve [skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
 
-Jeg har skrevet mere om [armstrækninger]({% link _posts/2020-07-05-pushups.md %}), [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), som udfordrer skulderbladet og for- og bagskulder på forskellige måder.
+Jeg har skrevet mere om [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups og chinups](/chinup-vs-pullup/), som udfordrer skulderbladet og for- og bagskulder på forskellige måder.
 
 ## 10 gode skulder øvelser
 

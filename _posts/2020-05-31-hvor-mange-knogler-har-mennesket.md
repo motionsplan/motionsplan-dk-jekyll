@@ -68,7 +68,7 @@ Hvor mange knogler har et menneske i kroppen? **Et voksent menneske har 206 knog
 
 ## Hvor mange knogler er der i et menneske?
 
-Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [forskellige led]({% link _pages/anatomy/joints.md %}). Alle mennesker har knogler, der ligner hinanden, men størrelsen og længden kan være forskellige. Derfor har vi forskellig kropsbygning.
+Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [forskellige led](/led/). Alle mennesker har knogler, der ligner hinanden, men størrelsen og længden kan være forskellige. Derfor har vi forskellig kropsbygning.
 
 Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
 

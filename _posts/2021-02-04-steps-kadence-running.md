@@ -95,7 +95,7 @@ Når du har løbet med metronom nogle uger, så kan det være en fordel at sætt
 
 Der findes et utal af metronomer til både Android og IOS. Jeg synes Soundbrenner virker meget godt og har et fint interface.
 
-Det er også derfor, at det betyder noget, hvilket [musik du vælger til din løbetræning]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Hvis du vælger musik med en for langsom rytme, så kan du risikere at sætte din løbekadence ned.
+Det er også derfor, at det betyder noget, hvilket [musik du vælger til din løbetræning](/artikel/musik-til-traeningen/). Hvis du vælger musik med en for langsom rytme, så kan du risikere at sætte din løbekadence ned.
 
 Nyere løbeure måler også løbekadencen for dig. Du kan sætte løbekadencen på et af dine skærmbilleder, så du kan holde styr på den undervejs. På flere af de moderne løbeure er der også en metronom, du kan bruge.
 

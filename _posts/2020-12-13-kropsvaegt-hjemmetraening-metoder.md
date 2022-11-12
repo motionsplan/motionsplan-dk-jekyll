@@ -214,7 +214,7 @@ Ud over at du kan bruge forskellige metoder, så husk også, at du kan øge svæ
 
 Du kan fx tage en rygsæk på eller bruge en vægtvest. Jeg synes [Kinetik laver en fed vægtvest](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' }.
 
-Jeg har skrevet et andet indlæg om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}).
+Jeg har skrevet et andet indlæg om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/).
 
 ## Køb en vægtvest
 

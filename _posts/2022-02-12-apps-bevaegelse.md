@@ -1,5 +1,6 @@
 ---
 title: &title "Apps til bevægelse med familien og børn"
+seo_title: "Bevægelsesapps: 5 apps til motion til familien med børn"
 permalink: /apps-bevaegelse-familie-boern/
 language: da
 header:
@@ -16,12 +17,20 @@ tags:
 last_modified_at: 2022-02-12T22:21:26Z
 gallery_goplaydot:
   - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-1.jpg
+    alt: Go Play Dot - aktivitetsapp til børn
   - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-2.jpg
+    alt: Go Play Dot - aktivitetsapp til børn
 ---
 
-Jeg har samlet nogle sjove aktivitetsapps, som kan få dig og familien til at bevæge sig. Med disse apps, så skal du nok få gang i bevægelse med dine børn og familien.
+Vil du gerne lave noget motiverende motion med dine børn og familien? Her er nogle bevægelsesapps, som børnefamilien kan samles om.
+
+Jeg har samlet nogle sjove aktivitetsapps, som kan være sjove for dig og familien, hvis I har brug for inspiration til at bevæge sig.
+
+Med disse apps, så skal du nok få gang i bevægelse med dine børn og familien.
 
 ## Apps til bevægelse med børn og familien
+
+Der findes mange forskellige apps, som kombinerer din smartphone med motion i virkeligheden.
 
 ### 1. Woop - Lav dit eget orienteringsløb
 
@@ -43,29 +52,17 @@ Woop app'en er gratis til både IOS og Android - og den er meget brugervenlig. T
 
 [Tjek Woop ud på Det Danske Spejderkrops](https://dds.dk/woop){: .btn .btn--large .btn--info rel="noopener" }
 
-### 2. GoPlayDot
+### 2. NaturEventyr
 
-GoPlayDOT er en form for udendørs fangeleg. Du skal bruge en smartphone med adgang til GPS og mobildata. Der findes lidt forskellige måder at spille på, men her får du lige den grundlæggende måde at spille på.
+Natureventyr er en app, hvor du kan høre eventyr, mens du går en tur i naturen. De fleste eventyr er gratis, fordi de samarbejder med kommunerne rundt omkring i landet.
 
-Man dyster tre hold mod hinanden i 5-15 minutter på en virtuel bane, som kun kan ses på din mobiltelefon. Her kan du både se med- og modspillere. På banen kan du se en række virtuelle baser, som holdene skal indtage, inden de andre hold når at gøre det. Du indtager baserne ved at løbe hen til dem og tappe på telefonen, når du står inden i basen.
+Når du har installeret Natureventyr, så kan du gå på opdagelse i naturen samtidig med at du får en At gå et eventyr er en fantastisk lytte- og læseoplevelse for både børn og voksne.
 
-Du kan undervejs også fange modstanderne, eller risikere selv at blive fanget.
+Undervejs er er indlagt dialog og udfordringer, som er både lærerige og kan være med til at skubbe til børnenes lærelyst.
 
-Det tog lige lidt tid at finde ud af spillet, da jeg spillede det med mine døtre. Den måde du kan se, om du er blevet fanget på er, at du mister din farve på den lille prik du kan se på skærmen. For at genoplive dig selv, så skal du løbe hen til en base, der har din farve. Så kan du igen løbe rundt og indtage baserne.
+{% include figure image_path="/assets/images/blog/eventyrnu.jpg" caption="[NaturEventyr](https://natureventyr.nu/) er en genial gratis app, hvor du kan høre eventyr, mens du går en tur i naturen." alt="Natureventyr app til din gåtur" %}
 
-Du kan se lidt mere om GoPlayDOT i denne video.
-
-{% include video provider="youtube" id="3uBSNihsMCI" %}
-
-GoPlayDOT kan spilles alle steder i større åbne områder. Det er let at koble sig op på spillene sammen med de andre.
-
-I starten bliver man lidt forvirret, fordi din egen 'prik' på skærmen ikke bevæger sig. Den måde du kan se, om du er ved at løbe i den rigtige retning er om din 'prik' kommer tættere på baserne. Der kan man godt blive lidt rundtosset undervejs - særligt hvis GPS'en reagerer lidt langsomt på telefonen.
-
-{% include gallery id="gallery_goplaydot" %}
-
-Det kunne være meget hjælpsomt, hvis der i selv appen var lidt flere forklaringer til, hvad man skal gøre i de forskellige spil på selve skærmen. Vi måtte prøve 4-5 gange inden vi forstod konceptet ordentligt.
-
-[Besøg GoPlayDOT](https://www.goplaydot.com/){: .btn .btn--large .btn--info rel="noopener" }
+Du bør egentlig bare selv gå på opdagelse og se om der er nogle ruter omkring dig.
 
 ### 3. Geocaching
 
@@ -100,6 +97,30 @@ Pokémon GO skal du fange, kæmpe med og træne virtuelle pokémoner. Der findes
 Jeg spiller selv på rødt hold sammen med mine døtre. Det er en hyggelig måde at få gået lidt skridt.
 
 [Besøg Pokemon Go](https://pokemongolive.com/){: .btn .btn--large .btn--info rel="noopener" }
+
+### 5. GoPlayDot
+
+GoPlayDOT er en form for udendørs fangeleg. Du skal bruge en smartphone med adgang til GPS og mobildata. Der findes lidt forskellige måder at spille på, men her får du lige den grundlæggende måde at spille på.
+
+Man dyster tre hold mod hinanden i 5-15 minutter på en virtuel bane, som kun kan ses på din mobiltelefon. Her kan du både se med- og modspillere. På banen kan du se en række virtuelle baser, som holdene skal indtage, inden de andre hold når at gøre det. Du indtager baserne ved at løbe hen til dem og tappe på telefonen, når du står inden i basen.
+
+Du kan undervejs også fange modstanderne, eller risikere selv at blive fanget.
+
+Det tog lige lidt tid at finde ud af spillet, da jeg spillede det med mine døtre. Den måde du kan se, om du er blevet fanget på er, at du mister din farve på den lille prik du kan se på skærmen. For at genoplive dig selv, så skal du løbe hen til en base, der har din farve. Så kan du igen løbe rundt og indtage baserne.
+
+Du kan se lidt mere om GoPlayDOT i denne video.
+
+{% include video provider="youtube" id="3uBSNihsMCI" %}
+
+GoPlayDOT kan spilles alle steder i større åbne områder. Det er let at koble sig op på spillene sammen med de andre.
+
+I starten bliver man lidt forvirret, fordi din egen 'prik' på skærmen ikke bevæger sig. Den måde du kan se, om du er ved at løbe i den rigtige retning er om din 'prik' kommer tættere på baserne. Der kan man godt blive lidt rundtosset undervejs - særligt hvis GPS'en reagerer lidt langsomt på telefonen.
+
+{% include gallery id="gallery_goplaydot" %}
+
+Det kunne være meget hjælpsomt, hvis der i selv appen var lidt flere forklaringer til, hvad man skal gøre i de forskellige spil på selve skærmen. Vi måtte prøve 4-5 gange inden vi forstod konceptet ordentligt.
+
+[Besøg GoPlayDOT](https://www.goplaydot.com/){: .btn .btn--large .btn--info rel="noopener" }
 
 ## Mobildata og fri data til apps
 

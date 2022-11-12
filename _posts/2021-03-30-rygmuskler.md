@@ -28,7 +28,7 @@ Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan
 
 {% include figure image_path=page.header.teaser caption="Du ser sjældent dine rygmuskler, men de er vigtige for at have en god og ret holdning" alt="rygmuskler og muskler i ryggen" %}
 
-[Pullup og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) er rigtig gode øvelser til ryggen, ligesom du ikke kan undvære de mange [rows og row-variationer]({% link _posts/2020-07-06-rows.md %}).
+[Pullup og chinups](/chinup-vs-pullup/) er rigtig gode øvelser til ryggen, ligesom du ikke kan undvære de mange [rows og row-variationer]({% link _posts/2020-07-06-rows.md %}).
 
 Jeg har lavet en liste over [gode øvelser til ryggen]({% link _pages/exercises-tag-ryg.md %}).
 

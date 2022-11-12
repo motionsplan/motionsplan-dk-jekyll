@@ -11,8 +11,8 @@ header:
 category:
   - Optimer træning
 tags:
-  - skadesbehandling
-last_modified_at: 2022-11-01T07:14:14Z
+  - priming
+last_modified_at: 2022-11-02T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?
 #    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.

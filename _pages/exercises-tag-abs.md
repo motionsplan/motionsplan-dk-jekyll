@@ -28,7 +28,7 @@ Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetr
 
 Du man måske få mere ud af din mavetræning. Her får du en grundig indføring i, hvordan du kan træne din mave med de bedste maveøvelser. Du bliver også klogere på, hvor høj intensitet og hvor mange gentagelser, du bør køre for at opfylde dine mål.
 
-Der kan være mange grunde til at træne maven. Den vigtigste grund er, at maven er en del af din core. En stærk kropsstamme er med til at skabe et godt fundament for at bevæge sig. Vi har skrevet et indlæg om [coretræning]({% link _posts/2020-07-16-coretraening.md %}).
+Der kan være mange grunde til at træne maven. Den vigtigste grund er, at maven er en del af din core. En stærk kropsstamme er med til at skabe et godt fundament for at bevæge sig. Vi har skrevet et indlæg om [coretræning](/core/).
 
 Der er mange muligheder for at supplere mavebøjningerne med meget mere udfordrende varianter af øvelser for maven, men hvis du gerne vil have en sixpack, så er der ikke en magisk øvelse, som vil hjælpe dig. Så skal du [tabe fedt på maven]({% link _posts/2020-07-07-mavefedt.md %}).
 

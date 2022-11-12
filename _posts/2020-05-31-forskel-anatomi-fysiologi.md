@@ -99,7 +99,7 @@ Du skal vide noget om anatomi som træner for:
 Anatomi omfatter viden om:
 
 - [Knogler]({% link _pages/anatomy/bones.md %})
-- [Led]({% link _pages/anatomy/joints.md %})
+- [Led](/led/)
 - Bevægelsestyper
 - [Muskler]({% link _pages/anatomy/muscles.md %})
 

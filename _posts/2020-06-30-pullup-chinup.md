@@ -95,9 +95,9 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 Både chinups og pullups er kropshævninger, som er et vertikalt træk. Begge bevægelser træner primært den brede rygmuskel, trapezius og armbøjerne, men de gør det på lidt forskellige måder.
 
-Pullups er en kombineret adduktion og alt efter udførelsen kan der være en lille ekstension i skulderen. Albuerne kommer ned fra siden og trækkes måske lidt tilbage. En pullup foregår primært i det [frontale bevægelsesplan]({% link _pages/anatomy/joints.md %}).
+Pullups er en kombineret adduktion og alt efter udførelsen kan der være en lille ekstension i skulderen. Albuerne kommer ned fra siden og trækkes måske lidt tilbage. En pullup foregår primært i det [frontale bevægelsesplan](/led/).
 
-I chinups foregår en estension i skulderen, hvor albuerne kommer ned og tilbage fra forsiden, og en bøjning i albuen. En chinup foregår primært i det [sagitale bevægelsesplan]({% link _pages/anatomy/joints.md %}).
+I chinups foregår en estension i skulderen, hvor albuerne kommer ned og tilbage fra forsiden, og en bøjning i albuen. En chinup foregår primært i det [sagitale bevægelsesplan](/led/).
 
 **Bemærk**. Det hedder _chin up_, fordi man typisk siger at hagen skal over stangen, men dette instruktionsmoment kan faktisk gøre at bevægelsen bliver lidt forkert og du ender med at krumme i det øverste af ryggen og stikke hagen op.
 {: .notice .notice--danger }

@@ -27,7 +27,7 @@ Supersæt kan være en måde at spare tid under træning, så din træning blive
 
 Et supersæt er grundlæggende at man kombinerer to øvelser med hinanden.
 
-Hvis du fx laver en [pull up eller chinup]({% link _posts/2020-06-30-pullup-chinup.md %}) og umiddelbart bagefter laver en [laver armstrækning eller armbøjning]({% link _posts/2020-07-05-pushups.md %}), så har du lavet et supersæt.
+Hvis du fx laver en [pull up eller chinup](/chinup-vs-pullup/) og umiddelbart bagefter laver en [laver armstrækning eller armbøjning](/armbojninger-eller-armstraekninger-pushups/), så har du lavet et supersæt.
 
 Når du har udført begge øvelser, så har du lavet dit første supersæt. Nu holder du så en lidt længere pause, inden du igen går i gang med armstræknigerne for at lavet dit andet superset.
 
@@ -57,7 +57,7 @@ Hvis øvelserne i stedet skal køres som superset i min træning, så kan det sk
 - A1) Bænkpres
 - A2) One arm rows
 
-I dette supersæt laver du altså først A1 og derefter laver du A2. Der kunne også stå A1, A2, A3 og A4, men så kalder vi det typisk et **[triset]({% link _methods/styrketraening/triset.md %})** eller et **[giant set]({% link _methods/styrketraening/giantset.md %})** i stedet for et **superset**.
+I dette supersæt laver du altså først A1 og derefter laver du A2. Der kunne også stå A1, A2, A3 og A4, men så kalder vi det typisk et **[triset](/styrketraening/triset/)** eller et **[giant set](/styrketraening/giantset/)** i stedet for et **superset**.
 
 Der er forskellige muligheder for supersets, hvor den mest brugte formentlig er et agonist-antagonist supersæt. Lad os tage et hurtigt eksempel på hvad et agonist-antagonist superset er:
 
@@ -72,7 +72,7 @@ Du laver altså først et sæt med biceps curls, hvorefter du bruger din triceps
 
 Du kan altså med supersets nå en del mere arbejde for de involverede muskler i din træning, fordi du holder mindre pause.
 
-I supersæt behøver øvelserne ikke nødvendigvis at være styrketræningsøvelser, men det kan også være [udstrækningsøvelser]({% link _posts/2020-07-08-udstraekning.md %}). [Miranda et al](https://www.tandfonline.com/doi/abs/10.1080/15438627.2014.975812) (2015) foreslår fx at stræk af antagonisten i pausen kan forbedre præstationen i de efterfølgende styrketræningssæt.
+I supersæt behøver øvelserne ikke nødvendigvis at være styrketræningsøvelser, men det kan også være [udstrækningsøvelser](/udstraekning-udspaending/). [Miranda et al](https://www.tandfonline.com/doi/abs/10.1080/15438627.2014.975812) (2015) foreslår fx at stræk af antagonisten i pausen kan forbedre præstationen i de efterfølgende styrketræningssæt.
 
 Men supersets er ikke bare agonist og antagonist. Der er mange måder at lave supersæt på.
 
@@ -90,7 +90,7 @@ Det findes flere forskellige måder at køre superset i din træning på. Her er
 
 Hvis du skal i gang med supersæts, så er **push-pull supersæt** et godt sted at starte, men prøv at eksperimentere lidt med det.
 
-En anden mulighed er at bruge [coretræning]({% link _posts/2020-07-16-coretraening.md %}) i et supersæt, som det foreslås i denne video:
+En anden mulighed er at bruge [coretræning](/core/) i et supersæt, som det foreslås i denne video:
 
 {% include video provider="youtube" id="axgv7H_VQOo" %}
 

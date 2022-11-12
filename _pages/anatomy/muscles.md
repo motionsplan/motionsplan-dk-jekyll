@@ -122,7 +122,7 @@ Læs mere om [benmuskler]({% link _posts/2021-03-30-benmuskler.md %}).
 
 Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
 
-Nogle af de populære muskler til at træne ryggen er [rygøvelserne pullup og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) og [de mange rows og variationer af trækøvelser]({% link _posts/2020-07-06-rows.md %}).
+Nogle af de populære muskler til at træne ryggen er [rygøvelserne pullup og chinups](/chinup-vs-pullup/) og [de mange rows og variationer af trækøvelser]({% link _posts/2020-07-06-rows.md %}).
 
 Læs mere om [rygmusklerne her]({% link _posts/2021-03-30-rygmuskler.md %}).
 

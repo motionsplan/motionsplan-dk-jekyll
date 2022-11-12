@@ -20,7 +20,7 @@ toc: true
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
-Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [brystøvelser]({% link _pages/exercises-tag-bryst.md %}), [balleøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}), [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}), så har vi lavet en selvstændig side om de muskelgrupper. Vi har også skrevet selvstændigt om [balanceøvelser]({% link _posts/2020-07-16-balancetraening.md %}), [coretræning]({% link _posts/2020-07-16-coretraening.md %}) eller [udstrækningsøvelser]({% link _posts/2020-07-08-udstraekning.md %}).
+Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [brystøvelser]({% link _pages/exercises-tag-bryst.md %}), [balleøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}), [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}), så har vi lavet en selvstændig side om de muskelgrupper. Vi har også skrevet selvstændigt om [balanceøvelser](/balance/), [coretræning](/core/) eller [udstrækningsøvelser](/udstraekning-udspaending/).
 
 **Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelse, så skriv endelig.**
 
@@ -44,7 +44,7 @@ Her kan du se de nyeste træningsøvelser.
 
 ## Maveøvelser, mavetræning og coretræning
 
-Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere og mere udholdende _core_ og kropsstamme. Maveøvelserne kan enten udføres med kropsvægt, håndvægte, elastikker, bolde og hjul. Du kan også læse meget mere om [kropsstammetræning og coretræning i dette indlæg]({% link _posts/2020-07-16-coretraening.md %}) og udfordringerne med [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
+Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere og mere udholdende _core_ og kropsstamme. Maveøvelserne kan enten udføres med kropsvægt, håndvægte, elastikker, bolde og hjul. Du kan også læse meget mere om [kropsstammetræning og coretræning i dette indlæg](/core/) og udfordringerne med [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
 
 [Se alle maveøvelser]({% link _pages/exercises-tag-abs.md %}).
 
@@ -74,13 +74,13 @@ Dine baller bliver trænet i mange forskellige bevægelser. Vi har samlet alle d
 
 ## Rygøvelser
 
-Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning. Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %})) og vertikale træk (som [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %})), men husk også at de mange variationer af dødløft er fremragende til at træne ryggen.
+Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning. Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %})) og vertikale træk (som [chinup og pullup](/chinup-vs-pullup/)), men husk også at de mange variationer af dødløft er fremragende til at træne ryggen.
 
 [Se alle rygøvelser]({% link _pages/exercises-tag-ryg.md %}).
 
 ## Skulderøvelser
 
-Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Skulderøvelser handler naturligvis om [armstrækninger]({% link _posts/2020-07-05-pushups.md %}), [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), men der er også andre øvelser, der udfordrer skulderbladet og for- og bagskulder på forskellige måder.
+Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Skulderøvelser handler naturligvis om [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups og chinups](/chinup-vs-pullup/), men der er også andre øvelser, der udfordrer skulderbladet og for- og bagskulder på forskellige måder.
 
 Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatormanchetten]({% link _posts/2020-12-12-styrk-dine-skuldre.md %}), og du kan også læse mere om [anatomiske opbygning af skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
 
@@ -90,13 +90,13 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?
 
-[Læs mere om balance og balanceøvelser]({% link _posts/2020-07-16-balancetraening.md %}).
+[Læs mere om balance og balanceøvelser](/balance/).
 
 ## Strækøvelser og smidighedsøvelser
 
 Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser eller strækøvelser.
 
-[Læs mere om strækøvelser og smidighedstræning]({% link _posts/2020-07-08-udstraekning.md %})
+[Læs mere om strækøvelser og smidighedstræning](/udstraekning-udspaending/)
 
 ## Foamrolling og lacrossbolde
 

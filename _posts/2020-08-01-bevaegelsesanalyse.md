@@ -59,7 +59,7 @@ Når du skal beskrive de arbejdende muskler, så skal du identficere den primær
 
 {% include feature_row type="left" %}
 
-Nedenfor har jeg samlet en række videoer om bevægelsesanalyser, der hjælper dig med at få styr på begreberne. Du kan også kigge under afsnittet om [led, ledtyper og bevægelse]({% link _pages/anatomy/joints.md %}).
+Nedenfor har jeg samlet en række videoer om bevægelsesanalyser, der hjælper dig med at få styr på begreberne. Du kan også kigge under afsnittet om [led, ledtyper og bevægelse](/led/).
 
 ## Videoer om bevægelsesanalyse
 
