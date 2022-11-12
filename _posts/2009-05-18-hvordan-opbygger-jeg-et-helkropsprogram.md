@@ -58,7 +58,7 @@ Fx [dødløft](/doedloeft/) og [rumænsk dødløft]({% link _exercises/doedloeft
 
 Find øvelser hvor du starter med hænderne tæt på kroppen og skubber en modstand væk fra dig. Du ksla gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [armstrækning]({% link _posts/2020-07-05-pushups.md %}), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
+Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
 
 ### Træk for arme og øvre ryg
 

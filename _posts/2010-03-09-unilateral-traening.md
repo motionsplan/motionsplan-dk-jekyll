@@ -41,7 +41,7 @@ Der er flere **fordele** ved at træne unilateralt:
 - Vælg en unilateral øvelse hver gang du træner.
 - Skift mellem laterale og unilaterale øvelser på de forskellige træning. Hvis du laver squat i dag, så lav lunges næste gang du træner.
 - Brug en lavere vægt, så du kan udføre øvelserne med god teknik.
-- Hold øje med din teknik. Det stiller store krav til balancen og stabiliteten i kroppens [core og kropsstamme]({% link _posts/2020-07-16-coretraening.md %}).
+- Hold øje med din teknik. Det stiller store krav til balancen og stabiliteten i kroppens [core og kropsstamme](/core/).
 - Simon Bigshooter har også [tips til den unilaterale bentræning](http://supertraining.dk/147-tips-til-unilateral-bentraening/), som kan være værd at læse.
 
 ## Eksempler på unilateral træning

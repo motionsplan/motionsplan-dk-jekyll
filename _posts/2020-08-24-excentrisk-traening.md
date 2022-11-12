@@ -119,7 +119,7 @@ Hvis du ikke har en træningsmakker, så kan du lave **selvspottet træning**. H
 
 Du kan lave [glute ham raise]({% link _exercises/glute-ham-raises-261.md %}) og [nordic hamstring]({% link _exercises/nordic-hamstring-12.md %}), som har vist sig at være rigtig gode til at beskytte baglårene for skader.
 
-Du kan også lave [dips]({% link _exercises/dips-18.md %}) og [pull-ups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
+Du kan også lave [dips]({% link _exercises/dips-18.md %}) og [pull-ups og chinups](/chinup-vs-pullup/), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
 
 Hvis du er på udkig efter mere inspiration til excentrisk træning, så har [Christian Thibaudeau](https://www.t-nation.com/training/accentuated-eccentric-training) lavet en guide til det.
 

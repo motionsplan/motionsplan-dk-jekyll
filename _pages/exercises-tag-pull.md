@@ -21,7 +21,7 @@ Trækøvelser træner ryggen og armene. Vi samlet mere om gode trækøvelser bå
 
 I et godt træningsprogrm skal der både være nogle [presøvelser]({% link _pages/exercises-tag-press.md %}) og nogle trækøvelser.
 
-Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows]({% link _posts/2020-07-06-rows.md %}) er i gruppen horisontale træk og [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %}) er et eksempel på vertikale eller lodrette trækøvelser.
+Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows]({% link _posts/2020-07-06-rows.md %}) er i gruppen horisontale træk og [chinup og pullup](/chinup-vs-pullup/) er et eksempel på vertikale eller lodrette trækøvelser.
 
 ## Trækøvelser for øvre ryg og armene
 
