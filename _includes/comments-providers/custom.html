@@ -1,58 +1,35 @@
-{%- comment -%}
+{%- comment -%}<!--
     https://github.com/jdvp/jekyll-comments-google-forms
 	This section is to determine whether or not chunked comment loading is enabled.
 	By default this is turned ON. If the page has enabled or disabled this feature explicitly,
 	the individual page value is used. Otherwise the site's value, if any, is used.
-{%- endcomment -%}
-{%- assign chunked_loading_enabled = true -%}
-{%- if page.chunked_comment_loading == false -%}
-	{%- assign chunked_loading_enabled = false -%}
-{%- else -%}
-	{%- if site.google_forms_comments.chunked_comment_loading == false and page.chunked_comment_loading != true -%}
-		{%- assign chunked_loading_enabled = false -%}
-	{%- endif -%}
-{%- endif -%}
+-->{%- endcomment -%}
+{%- assign chunked_loading_enabled = page.chunked_comment_loading | default: site.google_forms_comments.chunked_comment_loading | default: true -%}
 
-{%- comment -%} 
+{%- comment -%}<!--
 	This section is to determine whether or not lazy loading of the comments is enabled.
 	By default this is turned OFF. If the page has enabled or disabled this feature explicitly,
 	the individual page value is used. Otherwise the site's value, if any, is used.
-{%- endcomment -%}
-{%- assign lazy_load_enabled = false -%}
-{%- if page.lazy_load_comments == true -%}
-	{%- assign lazy_load_enabled = true -%}
-{%- elsif site.google_forms_comments.lazy_load_comments == true -%}
-	{%- unless page.lazy_load_comments == false -%}
-		{%- assign lazy_load_enabled = true -%}
-	{%- endunless -%}
-{%- endif -%}
+-->{%- endcomment -%}
+{%- assign lazy_load_enabled = page.lazy_load_comments | default: site.google_forms_comments.lazy_load_comments | default: false -%}
 
-{%- comment -%} 
-	This section is to determine whether or recaptcha is enabled.
-{%- endcomment -%}
+{%- comment -%}<!--This section is to determine whether or recaptcha is enabled. -->{%- endcomment -%}
 {%- assign recaptcha_enabled = false -%}
 {%- if site.google_forms_comments.recaptcha_site_key -%}
 	{%- assign recaptcha_enabled = true -%}
 {%- endif -%}
 
 
-{%- comment -%} 
-	This section is to determine whether or comment replies are enabled.
-{%- endcomment -%}
-{%- assign comment_replies_enabled = false -%}
-{%- if site.google_forms_comments.comment_replies_enabled == true -%}
-	{%- assign comment_replies_enabled = true -%}
-{%- endif -%}
+{%- comment -%}<!-- This section is to determine whether or comment replies are enabled. -->{%- endcomment -%}
+{%- assign comment_replies_enabled = site.google_forms_comments.comment_replies_enabled | default: false -%}
 
-
-{%- if site.comment-read or site.google_forms_comments.google_app_script -%}
 <script>
 
-	{%- comment -%}
+	{%- comment -%}/*
 		Helper functions used so that we can forego using jQuery 
 		functions. When appscripts is enabled, this allows us to
 		get rid of the jQuery dependency (for comments) altogether. 
-	{%- endcomment -%}
+	*/{%- endcomment -%}
 	function setText(elementId, textContent) {
 		document.getElementById(elementId).textContent = textContent;
 	};
@@ -98,13 +75,13 @@
 	}
 
 	function disablePostCommentButton() {
-		disableButtonWithLoader("comment-submit");
+		disableButtonWithLoader("comment-form-submit");
 	};
 
 	function enablePostCommentButton() {
-		var postCommentButton = document.getElementById("comment-submit");
+		var postCommentButton = document.getElementById("comment-form-submit");
 		postCommentButton.disabled = false;
-		setText("comment-submit", "Post");
+		setText("comment-form-submit", "Post");
 	};
 
 
@@ -123,15 +100,6 @@
     {%- endcomment -%}
 	async function initialCommentLoad() {
 		disableButtonWithLoader("load-comment-button");
-		{%- unless site.google_forms_comments.google_app_script -%}
-		{%- comment -%}
-        /* Load JQuery, only needed in order to use JQuery CSV */
-		{%- endcomment -%}
-		var loadJquery = document.createElement("script");
-		loadJquery.type = "text/javascript";
-		loadJquery.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js";
-		document.head.appendChild(loadJquery);
-		{%- endunless -%}
 
 		{%- if recaptcha_enabled -%}
 		{%- comment -%}
@@ -157,44 +125,7 @@
 		{%- endif -%} 
 		await loadValidator.onload;
 
-		{%- if site.google_forms_comments.google_app_script -%}
 		reloadComments();
-		{%- else -%}
-		loadJquery.onload = function() {
-			{%- comment -%}
-			/* We need to ensure that jQuery is ready before we can load JQuery CSV (used for .csv parsing) */
-    		{%- endcomment -%}
-			async function checkJQuery() {
-				if (typeof jQuery === "undefined") {
-					return false;
-				} else {
-					clearTimeout(interval);
-
-					{%- comment -%}
-					/* Load JQuery CSV (need regular JQuery first) */
-					{%- endcomment -%}
-					var loadJqueryCsv = document.createElement("script");
-					loadJqueryCsv.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js";
-					document.head.appendChild(loadJqueryCsv);
-
-					{%- comment -%}
-					/* Wait for JQuery CSV to finish loading */
-					{%- endcomment -%}
-					await loadJqueryCsv.onload;
-
-					{%- comment -%}
-					/* Now, load the comments */
-					{%- endcomment -%}
-					reloadComments();
-				}
-			};
-			{%- comment -%}
-			/* check if JQuery is ready every 250 MS
-			   this timer will be cleared after the check passes */
-			{%- endcomment -%}
-			var interval = setInterval(checkJQuery, 250);
-		};
-		{%- endif -%}
 	};
 
 	var thisPageUrl = "{{ page.url }}";
@@ -249,7 +180,6 @@
 		commentIds = new Set();
 		{%- endif -%}
 
-		{%- if site.google_forms_comments.google_app_script -%}
 		var newHiddenComments = comments
 			{%- if comment_replies_enabled -%}
 			.map(item => {
@@ -259,21 +189,6 @@
 			{%- endif -%}
 			.sort((a, b) => (new Date(a.timestamp).getTime() || 0) - (new Date(b.timestamp).getTime() || 0))
 			.map(item => JSON.stringify(item));
-		{%- else -%}
-		{%- comment -%}
-		/* Add headers so json objects are named properly */
-		{%- endcomment -%}
-		comments = `timestamp,name,comment,isAuthor\n${comments}`;
-		var newHiddenComments = $.csv.toObjects(comments)
-			{%- if comment_replies_enabled -%}
-			.map(item => {
-				commentIds.add(Date.parse(item.timestamp)?.toString());
-				return item;
-			})
-			{%- endif -%}
-			.sort((a, b) => (new Date(a.timestamp).getTime() || 0) - (new Date(b.timestamp).getTime() || 0))
-			.map(item => JSON.stringify(item));
-		{%- endif -%}
 
 		if (hasVisibleComments) {
 			netNewComments = newHiddenComments
@@ -412,7 +327,7 @@
 		var replyToHtml = null;
 		var replyId = comment?.extraCommentInfo?.replyToCommentId;
 		if (replyId != null && replyId != "" && commentIds.has(replyId)) {
-			replyToHtml = `<p class="comemnt-reply-id" onclick="jumpToComment('${replyId}')"><<< ${replyId}</p>`;
+			replyToHtml = `<p class="comment-reply-id" onclick="jumpToComment('${replyId}')"><<< ${replyId}</p>`;
 		}
 		var currentCommentReplyButton = `<span class="comment-reply-button" onclick="replyToComment(${commentReplyId})"><img />Reply</span>`;
 		{%- endif -%}
@@ -447,7 +362,6 @@
 		show("num-comments-displayed");
 	};
 
-	{%- if site.google_forms_comments.google_app_script -%}
 	function reloadComments() {
 		fetch(`{{ site.google_forms_comments.google_app_script }}?url=${thisPageUrl}`)
 		.then(response => response.json())
@@ -463,32 +377,7 @@
 				displayComments(response);
 			}
 		});
-		
 	};
-	{%- else -%}
-	{%- comment -%}
-	/* Calls to the Google Sheets gviz API to load the comment data
-	   Since we are storing comments for all of our blog articles in one sheet, we filter
-	   by page URL. */
-	{%- endcomment -%}
-	function reloadComments() {
-		{%- comment -%}
-		/*
-		Use SQL in the gviz URL to load the correct csv.
-		In this implementation, columns are mapped to the following:
-			A - timestamp, the time the comment was left
-			B - page url, the page the comment was left on
-			C - name, the text left in the comment name field
-			D - comment, the text left in the comment field
-			E - isAuthor, boolean indicating if the comment was left by the actual author
-		*/
-		{%- endcomment -%}
-		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E WHERE B = '${thisPageUrl}'`);
-		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
-		.then(response => response.text())
-		.then(response => displayComments(response));
-	};
-	{%- endif -%}
 
 	{%- comment -%}
 	/* encodes the form data for http transport */
@@ -502,7 +391,7 @@
 	{%- if recaptcha_enabled -%}
 	function checkRecaptcha() {
 		{%- comment -%}
-			Disallow posting a new comment until this one has posted or failed.
+			/* Disallow posting a new comment until this one has posted or failed. */
 		{%- endcomment -%}
 		disablePostCommentButton();
         grecaptcha.ready(function() {
@@ -517,7 +406,7 @@
 
 
 	function getCommentContent() {
-		var comment = getValue("comment-comment")?.toString();
+		var comment = getValue("comment-form-message")?.toString();
 
 		var extraCommentInfo = {};
 
@@ -538,10 +427,9 @@
 	{%- comment -%}
 	/* Posts a comment */
 	{%- endcomment -%}
-	{%- if site.google_forms_comments.google_app_script -%}
 	function postComment(recaptchaToken) {
 		disablePostCommentButton();
-		var username = getValue("comment-name");
+		var username = getValue("comment-form-name");
 		var comment = getCommentContent();
 
 		fetch(`{{ site.google_forms_comments.google_app_script }}`, {
@@ -565,8 +453,8 @@
 				setText("comment-submit-error", error);
 				show("comment-submit-error");
 			} else {
-				setValue("comment-name", '');
-				setValue("comment-comment", '');
+				setValue("comment-form-name", '');
+				setValue("comment-form-message", '');
 				setText("comment-submit-error", '');
 				hide("comment-submit-error");
 				displayComments(response);
@@ -580,39 +468,9 @@
 
 		return false;
 	};
-	{%- else -%}
-	function postComment(recaptchaToken) {
-		disablePostCommentButton();
-		var username = getValue("comment-name");
-		var comment = getCommentContent();
-
-		fetch(`{{ site.comment-post }}/formResponse`, {
-		  method: 'POST',
-		  mode: 'no-cors',
-		  headers: {
-		    "Content-Type": "application/x-www-form-urlencoded"
-		  },
-		  body: encodeFormData({
-		  	"{{ site.comment-post-fields[0] }}" : thisPageUrl?.toString(),
-		  	"{{ site.comment-post-fields[1] }}" : username?.toString(),
-		  	"{{ site.comment-post-fields[2] }}" : comment?.toString()
-		  })
-		}).then(response => {
-			setValue("comment-name", '');
-			setValue("comment-comment", '');
-			{%- if comment_replies_enabled -%}
-			clearCommentReplyItem();
-			{%- endif -%}
-			reloadComments();
-		})
-		.catch(error => {console.log(error);})
-		.finally(() => { enablePostCommentButton(); });
-
-		return false;
-	};
-	{%- endif -%}
 
 	{%- unless lazy_load_enabled -%}
+		console.log('initialCommentLoad() with no lazy load');
 		initialCommentLoad();
 	{%- endunless -%}
 </script>
@@ -621,6 +479,87 @@
 	HTML for displaying the actual comment section.
 	It has a state for oth when the article has comments and when it does not. -->
 {%- endcomment -%}
+<div class="page__comments">
+	<h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
+	<!-- CUSTOM -->
+	<div id="load-comments" class="comments">
+		<button id="load-comment-button" class="comment-button" onclick="initialCommentLoad()">Load Comments</button>
+	</div>
+	<!-- CUSTOM -->
+	<section id="comments-and-input">
+		<div id="comment-section" class="comments">
+		<p id="num-comments-displayed"></p>
+		<button id="load-more-comments" class="comment-button" onclick="loadMoreComments(true)" type="button">Load Older Comments</button>
+		<div id="no-comments" class="comment-info-text">
+			<p>There are currently no comments on this article, be the first to add one below</p>
+		</div>
+		<div id="comment-container"></div>
+
+		<div class="page__comments-form">
+			<h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
+			<p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
+			<p>Note that I may remove comments for any reason, so try to be civil. If you are looking for a response to your comment, either leave your email address or check back on this page periodically.</p>
+			{%- if site.google_forms_comments.google_app_script -%}
+			<p id="comment-submit-error"></p>
+			{%- endif -%}
+			<!-- CUSTOM -->
+			<form id="comment-form" class="page__comments-form js-form form" onsubmit="return postComment()">
+			<!-- CUSTOM OFF -->
+			<div class="form__spinner">
+				<i class="fas fa-spinner fa-spin fa-3x fa-fw"></i>
+				<span class="sr-only">{{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}</span>
+			</div>
+
+			<div class="form-group">
+				<label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label>
+				<textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+				<div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
+			</div>
+			<div class="form-group">
+				<label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
+				<input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+				{%- if comment_replies_enabled -%}
+				<p id="comment-reply-info"></p>
+				{%- endif -%}
+			</div>
+			<div class="form-group">
+				<label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
+				<input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+			</div>
+			<div class="form-group">
+				<label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
+				<input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+			</div>
+			<div class="form-group hidden" style="display: none;">
+				<input type="hidden" name="options[slug]" value="{{ page.slug }}">
+				<label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+				<input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+				{% if site.reCaptcha.siteKey %}<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">{% endif %}
+				{% if site.reCaptcha.secret %}<input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">{% endif %}
+			</div>
+			<!-- Start comment form alert messaging -->
+			<p class="hidden js-notice">
+				<strong class="js-notice-text"></strong>
+			</p>
+			<!-- End comment form alert messaging -->
+			{% if site.reCaptcha.siteKey %}
+				<div class="form-group">
+				<div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+				</div>
+			{% endif %}
+			<div class="form-group">
+				<button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--primary btn--large">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}</button>
+			</div>
+			</form>
+		</div>
+		<!-- End new comment form -->
+		{% if site.reCaptcha.siteKey %}<script async src="https://www.google.com/recaptcha/api.js"></script>{% endif %}
+	</section>
+</div>
+
+{% comment %}
+<!--- ORIGINAL INPUT-->
+<!--
 <h4 class="post-subtitle">Comments</h4>
 <div id="load-comments" class="comments">
 	<button id="load-comment-button" class="comment-button" onclick="initialCommentLoad()">Load Comments</button>
@@ -668,6 +607,8 @@
 		</div>
 	</div>
 </div>
+-->
+{% endcomment %}
 {%- comment -%}
 <!-- 
 	Styling information.
@@ -911,10 +852,10 @@
 
 {%- if recaptcha_enabled -%}
 {%- comment -%}
-If you want to use the regular recaptcha badge (instead of the text currently below
+/* If you want to use the regular recaptcha badge (instead of the text currently below
 the submit button), remove this and the text disclaimer in the HTML above. Note that
 according to their FAQ page, one or the other must be displayed.
-https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-badge.-what-is-allowed
+https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-badge.-what-is-allowed */
 {%- endcomment -%}
 .grecaptcha-badge {
 	visibility: hidden;
@@ -928,12 +869,10 @@ https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-b
 }
 {%- endif -%}
 
-{%- if site.google_forms_comments.google_app_script -%}
 #comment-submit-error {
 	color: red;
 	display: none;
 }
-{%- endif -%}
 
 .comment-info-text {
 	letter-spacing: 0.5px;
@@ -967,4 +906,3 @@ https://developers.google.com/recaptcha/docs/faq#id-like-to-hide-the-recaptcha-b
 }
 {%- endif -%}
 </style>
-{%- endif -%}
