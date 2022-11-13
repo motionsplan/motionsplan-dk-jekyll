@@ -128,7 +128,7 @@ Du kan få ømme muskler af forskellige øvelser, så snart du arbejder hårdere
 
 Der er imidlertid også nogle øvelser, hvor risikoen for ømme muskler er større end ved andre øvelser.
 
-Hvis du laver øvelser med et stort [excentrisk komponent]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning]({% link _posts/2020-08-24-excentrisk-traening.md %}) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
+Hvis du laver øvelser med et stort [excentrisk komponent]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning](/excentrisk-traening/) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
 
 Hvis du laver mange sprintøvelser og spring med landinger, er der et stort excentrisk komponent, fordi du skal bremse bevægelsen nedad. Hvis du aldrig har prøvet at blive øm i musklerne i forbindelse med træning, så kan du prøve at sprinte flere gange efter hinanden på en bakke, der går en lille smule nedad. Så lover jeg dig, at du finder ud af, hvad andendagsømhed er.
 
