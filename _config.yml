@@ -33,7 +33,7 @@ comments:
   disqus:
     shortname            : "motionsplan-dk"
   graphcomment:
-    id:                  : "motionsplan"
+    id                   : "motionsplan"
 staticman:
   branch                 : "master"
 atom_feed:
