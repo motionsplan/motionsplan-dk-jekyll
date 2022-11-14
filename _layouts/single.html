@@ -55,6 +55,9 @@ layout: default
         {% endif %}
       </section>
 
+      {% assign signup = page.signup | default: site.signup.enabled %}
+      {% if signup %}{% include signup.html %}{% endif %}
+
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <p class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</p>

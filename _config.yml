@@ -39,6 +39,12 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+signup:
+  enabled: true
+  provider: mailchimp # false
+  url: https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0
+  recaptcha: b_c17bb696b7624b69cbd0acaff_90126d39b0
+
 after_footer_scripts:
   - /assets/js/bundle.js
 
