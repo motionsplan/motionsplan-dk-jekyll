@@ -21,7 +21,7 @@ Rygøvelser gør ryggen og lænden stærkere og mere udholdende. Øvelser til ry
 
 Der er mange styrketræningsøvelser for ryggen. Ryggen er stærk og skal trænes på mange måder. Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning.
 
-Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %}))) og vertikale træk (som [chinup og pullup](/chinup-vs-pullup/)), men husk også at de mange variationer af [dødløft](/doedloeft/) er fremragende til at træne ryggen.
+Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows](/rows/))) og vertikale træk (som [chinup og pullup](/chinup-vs-pullup/)), men husk også at de mange variationer af [dødløft](/doedloeft/) er fremragende til at træne ryggen.
 
 ## Ondt i ryggen
 
@@ -31,13 +31,13 @@ Ifølge [Rigshospitalet](https://www.rigshospitalet.dk/afdelinger-og-klinikker/h
 
 Ryggen er delt op i øvre ryg og nedre ryg. Når du vælger øvelser, så skal du både træne lænden, men også den øvre ryg. Derfor er det en god ide med et alsidigt program. Heldigvis findes der nogle store *basisøvelser*, så du kan ramme rigtig mange af rygmusklerne på samme tid.
 
-En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle]({% link _pages/anatomy/rygsojlen.md %}). Her har samlet en masse gode [maveøvelser til din mavetræning]({% link _pages/exercises-tag-abs.md %}).
+En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle]({% link _pages/anatomy/rygsojlen.md %}). Her har samlet en masse gode [maveøvelser til din mavetræning](/maveoevelser/).
 
 ## 7 gode rygøvelser til rygtræning
 
 {% include exercise key="20210819091800" title="1) Dødløft" %}
 
-Dødløft er en rigtig god øvelse til din rygtræning. Det er en basisøvelse, som rammer rigtig mange muskelgrupper, men de hjælper dig også med at lære at spænde op omkring din rygsøjle. Øvelsen findes i mange varianter, fx [konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}), [sumo dødløft]({% link _exercises/doedloeft-sumo-40.md %}), [stivbenet dødløft]({% link _exercises/doedloeft-stivbenet-620.md %}), trækfat dødløft og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}). Dødløft er ikke farligt. Du skal bare sørge for at dosere rigtigt og prioritere din teknik.
+Dødløft er en rigtig god øvelse til din rygtræning. Det er en basisøvelse, som rammer rigtig mange muskelgrupper, men de hjælper dig også med at lære at spænde op omkring din rygsøjle. Øvelsen findes i mange varianter, fx [konventionel dødløft](/oevelse/konventionel-doedloeft/), [sumo dødløft](/oevelse/sumo-doedloeft/), [stivbenet dødløft](/oevelse/doedloeft-stivbenet/), trækfat dødløft og [rumænsk dødløft](/oevelse/romanian-deadlift/). Dødløft er ikke farligt. Du skal bare sørge for at dosere rigtigt og prioritere din teknik.
 
 {% include exercise key="20210819092000" title="2) Rows" %}
 

@@ -44,7 +44,7 @@ Trapezius kaldes også kappemusklen på dansk. Musklen består af 3 dele: den ø
 
 Trapezius er en stor trekantet muskel, som dækker størstedelen af din øvre ryg. De 3 dele af Trapezius har pga. forskellig hæfte og udspring forskellige funktioner. Tilsammen kan de 3 dele samle, løfte, sænke og dreje skulderbladene opad.
 
-Trapezius trænes i varianter, hvor du enten løfter skulderbladene fx i shrugs, eller øvelser hvor du sænker og samler skulderbladene. Det gør du især i vandrette træk øvelser og [rows]({% link _posts/2020-07-06-rows.md %}).
+Trapezius trænes i varianter, hvor du enten løfter skulderbladene fx i shrugs, eller øvelser hvor du sænker og samler skulderbladene. Det gør du især i vandrette træk øvelser og [rows](/rows/).
 
 ## Træning af {{ page.title }}
 

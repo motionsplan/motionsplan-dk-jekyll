@@ -21,13 +21,13 @@ Trækøvelser træner ryggen og armene. Vi samlet mere om gode trækøvelser bå
 
 I et godt træningsprogrm skal der både være nogle [presøvelser]({% link _pages/exercises-tag-press.md %}) og nogle trækøvelser.
 
-Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows]({% link _posts/2020-07-06-rows.md %}) er i gruppen horisontale træk og [chinup og pullup](/chinup-vs-pullup/) er et eksempel på vertikale eller lodrette trækøvelser.
+Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows](/rows/) er i gruppen horisontale træk og [chinup og pullup](/chinup-vs-pullup/) er et eksempel på vertikale eller lodrette trækøvelser.
 
 ## Trækøvelser for øvre ryg og armene
 
 Ryggen er delt op i øvre ryg og nedre ryg. Når du vælger øvelser, så skal du både træne lænden, men også den øvre ryg. Derfor er det en god ide med et alsidigt program. Heldigvis findes der nogle store *basisøvelser*, så du kan ramme rigtig mange af rygmusklerne på samme tid.
 
-En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle]({% link _pages/anatomy/rygsojlen.md %}). Her har samlet en masse gode [maveøvelser til din mavetræning]({% link _pages/exercises-tag-abs.md %}).
+En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle]({% link _pages/anatomy/rygsojlen.md %}). Her har samlet en masse gode [maveøvelser til din mavetræning](/maveoevelser/).
 
 ## De bedste trækøvelser til træktræning
 

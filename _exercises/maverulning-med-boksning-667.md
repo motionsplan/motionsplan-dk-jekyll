@@ -50,4 +50,4 @@ last_modified_at: 2015-04-07T11:57:18Z
 
 {{ page.excerpt }}
 
-Tjek [flere øvelser til styrketræning af maven]({% link _pages/exercises-tag-abs.md %}).
+Tjek [flere øvelser til styrketræning af maven](/maveoevelser/).

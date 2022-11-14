@@ -83,7 +83,7 @@ Du starter bevægelsen i glute-ham-raises med ballemusklerne og den del af bagl�
 
 Det er en stor fordel, at musklerne ikke arbejder isolerede, men arbejder synergistisk, så den intermuskulære koordination også forbedres.
 
-I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/doedloeft-romanian-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
+I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift](/oevelse/romanian-deadlift/) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
 
 ## Hvad hjælper glute ham raises på?
 
@@ -94,7 +94,7 @@ Nordic hamstrings (og derved bør det gælde for glute ham raises også)
 - nedsætter risikoen for fiberskader i baglåret
 - forbedre sprinthastighed og hoppehøjde
 
-Vi har skrevet et andet indlæg om [Nordic hamstring her]({% link _exercises/nordic-hamstring-12.md %}).
+Vi har skrevet et andet indlæg om [Nordic hamstring her](/oevelse/nordic-hamstring/).
 
 ## Hvor mange gentagelser skal jeg lave?
 
@@ -105,7 +105,7 @@ Glute ham-raises egner sig bedst til lave eller medium rep ranges. Det e ren rig
 - **Flyt armene for at ændre vægten**. Du kan variere hvor hård øvelsen er ved at placere hænderne forskelligt. Prøv ved hoften, ved brystet og strakt ud foran dig.
 - **Brug en vægtskive**. Du kan også benytte en vægtskive, hvis du har brug for mere vægt. I den koncentriske fase kan du holde vægtskiven tæt på brystet, mens du strækker armene lidt i den excentriske fase. Netop det excentriske overload er en stor del af det gavnlige ved glute ham raises.
 
-Hvis du ikke har adgang til en ordentlig bænk til glute-ham raises, så kan du lave halvdelen af bevægelsen med øvelsen [Nordic hamstring]({% link _exercises/nordic-hamstring-12.md %}), som vi også har skrevet om og ikke kræver noget udstyr.
+Hvis du ikke har adgang til en ordentlig bænk til glute-ham raises, så kan du lave halvdelen af bevægelsen med øvelsen [Nordic hamstring](/oevelse/nordic-hamstring/), som vi også har skrevet om og ikke kræver noget udstyr.
 
 ## Alternativ brug af Glute Ham Raise-bænken
 

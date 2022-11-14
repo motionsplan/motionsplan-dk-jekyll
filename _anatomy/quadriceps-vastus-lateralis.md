@@ -38,4 +38,4 @@ coords:
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
-Lårmusklens ydre hoved (Vastus Lateralis) er en del af [firehovede knæstrækker (quadriceps femoris)]({% link _anatomy/quadriceps-femoris.md %}). Musklen ligger som det yderste hoved af de fire hoveder.
+Lårmusklens ydre hoved (Vastus Lateralis) er en del af [firehovede knæstrækker (quadriceps femoris)](/quadriceps-femoris/). Musklen ligger som det yderste hoved af de fire hoveder.

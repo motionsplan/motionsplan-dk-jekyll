@@ -47,9 +47,9 @@ video:
 
 Leg curls i maskine kan også kaldes knæbøjninger på dansk. Det er en isolationsøvelse, som du kan lave i maskine til at træne baglåret og hasemusklerne.
 
-Leg curls kan være en fin isolationsøvelse til [træning af dine baglår]({% link _posts/2011-05-01-traener-du-dine-haser.md %}). Her går vi lidt i dybden med hvordan du kan lave *leg curls*, og hvordan du kan variere dem.
+Leg curls kan være en fin isolationsøvelse til [træning af dine baglår](/artikel/traener-du-dine-haser/). Her går vi lidt i dybden med hvordan du kan lave *leg curls*, og hvordan du kan variere dem.
 
-Dette er en isolationsøvelse der retter sig mod baglåret. Hvis du er interesseret i øvelser, der inkluderer flere muskelgrupper kan vi anbefale [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}), [glute ham raises]({% link _exercises/glute-ham-raises-261.md %}) eller [nordic hamstring]({% link _exercises/nordic-hamstring-12.md %}).
+Dette er en isolationsøvelse der retter sig mod baglåret. Hvis du er interesseret i øvelser, der inkluderer flere muskelgrupper kan vi anbefale [rumænsk dødløft](/oevelse/romanian-deadlift/), [glute ham raises](/oevelse/glute-ham-raises/) eller [nordic hamstring](/oevelse/nordic-hamstring/).
 
 ## Hvordan laver jeg leg curls?
 
@@ -76,7 +76,7 @@ Siddende leg curls foregår i en træningsmaskine, hvor du sidder ned med benene
 
 Fordelene ved maskinerne til de to typer leg curls er at du enten kan køre begge ben samtidigt eller et ben ad gangen. Det kalder man at træne bilateralt eller unilateralt.
 
-Du kan få lidt støre *range of motion* med liggende leg curls. Det er en fordel at du kan arbejde med fuldt bevægeudslag. 
+Du kan få lidt støre *range of motion* med liggende leg curls. Det er en fordel at du kan arbejde med fuldt bevægeudslag.
 
 ## Variationer af liggende leg curls
 

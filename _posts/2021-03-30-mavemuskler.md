@@ -61,4 +61,4 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Konklusion
 
-Det er vigtigt at træne musklerne i maven. Jeg har samlet flere forslag til din [mavetræning og effektive maveøvelser her]({% link _pages/exercises-tag-abs.md %}).
+Det er vigtigt at træne musklerne i maven. Jeg har samlet flere forslag til din [mavetræning og effektive maveøvelser her](/maveoevelser/).
