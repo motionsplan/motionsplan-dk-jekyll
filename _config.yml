@@ -32,6 +32,8 @@ comments:
   provider               : "custom" # false # "custom" # false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "motionsplan-dk"
+  graphcomment:
+    id:                  : "motionsplan"
 staticman:
   branch                 : "master"
 atom_feed:
