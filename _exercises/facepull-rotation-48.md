@@ -54,7 +54,7 @@ key: 20201213171600
 
 Facepulls er en rigtig god øvelse til at træne bagskulderen. Du rammer både bagskulderen, det øverste af ryggen og rotatormanchetten i øvelsen.
 
-Facepulls er en god variant til [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups](/chinup-vs-pullup/).
+Facepulls er en god variant til [rows](/rows/) og [pullups](/chinup-vs-pullup/).
 
 ## Teknikken i facepulls
 

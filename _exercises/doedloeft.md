@@ -60,7 +60,7 @@ last_modified_at: 2021-03-21T16:06:44Z
 
 Dødløft er en klassisk træningsøvelse, hvor der er stort fokus på at træne hængselsbevægelsen i hoften. Dødløft kan laves i mange forskellige variationer, og her kigger vi lidt på teknikken.
 
-De meste kendte variationer af dødløft er helt sikkert [grebet i konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}) og [sumo dødløft]({% link _exercises/doedloeft-sumo-40.md %}), men der findes også fx [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) og [stivbenet dødløft]({% link _exercises/doedloeft-stivbenet-620.md %}). Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men her kigger jeg på den generelle teknik i dødløft.
+De meste kendte variationer af dødløft er helt sikkert [grebet i konventionel dødløft](/oevelse/konventionel-doedloeft/) og [sumo dødløft](/oevelse/sumo-doedloeft/), men der findes også fx [rumænsk dødløft](/oevelse/romanian-deadlift/) og [stivbenet dødløft](/oevelse/doedloeft-stivbenet/). Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men her kigger jeg på den generelle teknik i dødløft.
 
 ## Teknik i dødløft
 
@@ -162,6 +162,6 @@ Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal 
 
 ## Hvordan skal grebet være i dødløft?
 
-Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange spørger om [grebet i konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}), hvor jeg har skrevet mere om grebet.
+Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange spørger om [grebet i konventionel dødløft](/oevelse/konventionel-doedloeft/), hvor jeg har skrevet mere om grebet.
 
 {% include gallery id="gallery_grip" caption="Grebet i dødløft kan se forskelligt ud. Her kan du se overhåndsgreb og *mixed grip*. Man kan også bruge et *hook greb*." layout="half" %}

@@ -138,7 +138,7 @@ Når du opstiller dit mål, skal du naturligvis overveje om det er realistisk. F
 
 Her er et par eksempler på **urealistiske målsætninger**:
 
-- Jeg vil gerne tabe mig 5 kg på 5 dage med en [slankekur]({% link _posts/2020-09-04-slankekur.md %})
+- Jeg vil gerne tabe mig 5 kg på 5 dage med en [slankekur](/slankekur/)
 - Jeg vil løbe fem kilometer på 18 minutter om to måneder - og lige nu løber jeg kilometer på 25 minutter
 
 Lad os prøve at gøre det til **realistiske målsætninger**.

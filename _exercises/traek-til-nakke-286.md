@@ -58,4 +58,4 @@ Vi anbefaler at du i stedet for denne øvelse laver træk til bryst. Det gør vi
 
 Hvis du alligevel insisterer på at lave denne øvelse, så hold øje med om du får problemer med skuldrene.
 
-Vi har skrevet om [træk til bryst her]({% link _exercises/traek-til-bryst-62.md %}).
+Vi har skrevet om [træk til bryst her](/oevelse/pulldown-traek-til-bryst/).

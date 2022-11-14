@@ -129,7 +129,7 @@ Når du gerne vil træne forskellige muskelgrupper, så skal du vælge passende 
 
 Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser](/udstraekning-udspaending/), [balanceøvelser](/balance/), [træning af core og kropsstammen](/core/) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
-Du kan også tjekke vores dedikerede sider til [øvelser til maven]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [øvelser til brystet]({% link _pages/exercises-tag-bryst.md %}), [baldeøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}) eller [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}).
+Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [øvelser til brystet](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/) eller [skulderøvelser](/skulderoevelser/).
 
 Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups](/chinup-vs-pullup/) og [armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/).
 

@@ -130,7 +130,7 @@ Programmet er delt op i to faser, der hver tager 8 uger:
 
 Træningsprogrammet tager typisk mellem 1-2 timer, da der er rigtig mange sæt og gentagelser, og du skal have lidt pause undervejs. I begyndelsen af programmet er vægtene ikke så tunge, og der kan du lave pauserne lidt kortere, mens du senere får brug for lidt længere pauser.
 
-For hver dag i styrketræningsprogrammet er det angivet, hvilke muskelgrupper du med fordel kan træne som suppleringsøvelser. Det er en rigtig god ide i hvert fald at afsætte lidt tid i programmet til de små skuldermuskler og lidt aktivt horisontalt træk, som forskellige [træk og rows-varianter]({% link _posts/2020-07-06-rows.md %}), men det kan også anbefales at lave nogle [unilaterale øvelser]({% link _posts/2010-03-09-unilateral-traening.md %}), da programmet fokuserer meget på bilaterale øvelser.
+For hver dag i styrketræningsprogrammet er det angivet, hvilke muskelgrupper du med fordel kan træne som suppleringsøvelser. Det er en rigtig god ide i hvert fald at afsætte lidt tid i programmet til de små skuldermuskler og lidt aktivt horisontalt træk, som forskellige [træk og rows-varianter](/rows/), men det kan også anbefales at lave nogle [unilaterale øvelser]({% link _posts/2010-03-09-unilateral-traening.md %}), da programmet fokuserer meget på bilaterale øvelser.
 
 Den overordnede progression i programmet giver en god ide om, hvordan programmet er bygget op. Hvis du vil kende alle detaljerne om, hvordan programmet er skruet sammen for de enkelte variationer, og hvad det nøjagtigt betyder for antallet af sæt og gentagelser, må du købe bogen.
 

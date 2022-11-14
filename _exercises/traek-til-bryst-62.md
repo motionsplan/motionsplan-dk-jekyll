@@ -151,7 +151,7 @@ Der findes et hav af forskellige greb, du kan bruge til pulldowns. Det mest typi
 - **Pulldown med en arm**. Det kan være godt at arbejde med en arm ad gangen for at arbejde med balance i styrken.
 - **Knælende pulldown**. Jeg kan godt lide at lave ting knælende enten med begge knæ i jorden eller et knæ op. Du kan altså sagtens træne pulldowns også uden en pulldown maskine.
 
-Et andet alternativ til at træne nogenlunde det samme er også at lave [kropshævninger, pullups og chinups](/chinup-vs-pullup/) eller andre [variationer af rows]({% link _posts/2020-07-06-rows.md %}).
+Et andet alternativ til at træne nogenlunde det samme er også at lave [kropshævninger, pullups og chinups](/chinup-vs-pullup/) eller andre [variationer af rows](/rows/).
 
 ## Ofte stillede spørgsmål om lat pulldown
 

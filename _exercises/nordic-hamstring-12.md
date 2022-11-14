@@ -67,7 +67,7 @@ Hvis du vil lave Nordic Hamstring både koncentrisk og excentrisk og har adgang 
 
 Nordic Hamstring har nogle ulemper. I den excentriske fase ser man ofte udøvere holde rigtig fint igen i toppen af bevægelsen for senere at droppe til bunden. Hvis den udføres på den måde, så ender man med kun at få excentrisk overload i en del af bevægelsen.
 
-Øvelsen træner også kun den knæflekterende del af hamstrings, mens den hofteudstrækkende del ikke trænes. Det er der sådan set ikke noget i vejen med, men hvis du har adgang til en Glute Ham Developer bænk, så har vi skrevet et indlæg om [glute ham raises]({% link _exercises/glute-ham-raises-261.md %}), som er noget nær en ultimativ øvelse for baglåret.
+Øvelsen træner også kun den knæflekterende del af hamstrings, mens den hofteudstrækkende del ikke trænes. Det er der sådan set ikke noget i vejen med, men hvis du har adgang til en Glute Ham Developer bænk, så har vi skrevet et indlæg om [glute ham raises](/oevelse/glute-ham-raises/), som er noget nær en ultimativ øvelse for baglåret.
 
 ## Referencer til Nordic Hamstring
 

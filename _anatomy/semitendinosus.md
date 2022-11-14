@@ -42,4 +42,4 @@ coords:
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
-Semimembranosus er en del af baglåret eller _hamstrings_ sammen med [biceps femoris]({% link _anatomy/biceps-femoris.md %}) og [semimembranosus]({% link _anatomy/semimembranosus.md %}).
+Semimembranosus er en del af baglåret eller _hamstrings_ sammen med [biceps femoris](/biceps-femoris/) og [semimembranosus](/semimembranosus/).

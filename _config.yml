@@ -29,18 +29,21 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : false # "custom" # false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "custom" # false # "custom" # false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "motionsplan-dk"
+  graphcomment:
+    id:                  : "motionsplan"
 staticman:
   branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-google_forms_comments:
-  google_app_script: https://script.google.com/macros/s/AKfycbwaDD-4GgMel7vbbrKy-4Yb4DvM0blSKe1UrA3PL91sN-kLu_onoegfntWKFuw-eJu6/exec
-  lazy_load_comments: false
-  comment_replies_enabled: true
-  chunked_comment_loading: true
+
+signup:
+  enabled: true
+  provider: mailchimp # false
+  url: https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0
+  recaptcha: b_c17bb696b7624b69cbd0acaff_90126d39b0
 
 after_footer_scripts:
   - /assets/js/bundle.js
@@ -223,18 +226,17 @@ exclude:
   - composer.lock
   - composer.phar
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-  - /vendor
-  - /src
-  - /build
-  - /node_modules
+  - docs # ignore Minimal Mistakes /docs
+  - test # ignore Minimal Mistakes /test
+  - vendor
+  - src
+  - build
+  - node_modules
   - .git
   - .svn
-  - /build
 keep_files:
-  - /assets/images
-  - /assets/pdf
+  - assets/images
+  - assets/pdf
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

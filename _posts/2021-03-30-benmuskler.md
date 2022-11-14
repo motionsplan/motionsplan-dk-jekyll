@@ -62,4 +62,4 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Konklusion
 
-Det er vigtigt at træne musklerne i benet. Jeg har samlet flere forslag til din [bentræning og øvelser til træning af benene]({% link _pages/exercises-tag-ben.md %}).
+Det er vigtigt at træne musklerne i benet. Jeg har samlet flere forslag til din [bentræning og øvelser til træning af benene](/benoevelser/).

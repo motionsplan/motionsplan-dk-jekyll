@@ -53,4 +53,4 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Konklusion
 
-Det er vigtigt at træne musklerne i armene. Jeg har samlet flere forslag til din [armtræning og øvelser til træning af armene]({% link _pages/exercises-tag-arme.md %}).
+Det er vigtigt at træne musklerne i armene. Jeg har samlet flere forslag til din [armtræning og øvelser til træning af armene](/arme-triceps-biceps/).

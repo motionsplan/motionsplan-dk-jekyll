@@ -52,7 +52,7 @@ Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({
 
 Find hoftedominante øvelser der især udfordrer musklerne omkring baglår og hofte og nederste ryg.
 
-Fx [dødløft](/doedloeft/) og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
+Fx [dødløft](/doedloeft/) og [rumænsk dødløft](/oevelse/romanian-deadlift/) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
 
 ### Presøvelser for arme og bryst
 

@@ -25,7 +25,7 @@ Her kigger vi primært på den lavpraktiske videobaserede måling med telefon ti
 
 ## Nordic hamstring breakpoint angle
 
-[Nordic hamstring]({% link _exercises/nordic-hamstring-12.md %}) er en af de øvelser, der er blevet forsket rigtig meget i forhold til at se effekten for skadesforebyggelse.
+[Nordic hamstring](/oevelse/nordic-hamstring/) er en af de øvelser, der er blevet forsket rigtig meget i forhold til at se effekten for skadesforebyggelse.
 
 Men Nordic Hamstring kan måske også bruge som test.
 

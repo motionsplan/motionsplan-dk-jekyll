@@ -47,7 +47,7 @@ Når man træner underkoppen, så opererer man med et kontinuum for, hvornår en
 
 Det betyder også, at der er mere eller mindre aktivering af musklerne i de forskellige variationer.
 
-Vi har lavet en anden oversigt med en [oversigt over alle benøvelser]({% link _pages/exercises-tag-ben.md %}).
+Vi har lavet en anden oversigt med en [oversigt over alle benøvelser](/benoevelser/).
 
 ## Knædominerede øvelser
 
