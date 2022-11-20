@@ -1,0 +1,67 @@
+---
+title: &title "Træningspyramiden: 6 vigtige trin i muskel- og styrketræning"
+seo_title: "Træningspyramiden: 6 vigtige trin i muskel- og styrketræning"
+permalink: /traeningspyramiden-styrketraening/
+description: "Vil du gerne have gode resultater af din styrketræning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning."
+excerpt: "Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning."
+language: da
+header:
+  teaser: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  caption: *title
+category:
+  - Styrketræning
+tags:
+  - styrketræning
+last_modified_at: 2022-11-14T07:14:14Z
+#faq:
+#  - question: Hvordan finder man et billigt træningscenter?
+#    answer: På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige services.
+#  - question: Hvad skal du være opmærksom på, når du vælger fitnesscenter?
+#    answer: Når du vælger et fitnesscenter, så sørg for at det lever op til dine krav. Vil du gerne træne i maskiner, frie vægte eller måske følge holdtræning? Vil du gerne have omklædningsfaciliteter? Hvilket fællesskab vil du gerne opleve i fitensscenteret? Husk også at holde øje med de forskellige abonnementstyper.
+---
+
+Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning.
+
+Når du går i gang med at planlægge din styrketræning, så kan man ofte blive overvældet af alle de muligheder, der er.
+
+Træningspyramiden er et forsøg på at prioritere lidt i kompleksiteten. Her gennemgår vi styrketræningspyramiden og fortæller, hvordan du kan bruge modellen i praksis med din egen træning.
+
+## Hvad er træningspyramiden?
+
+Træningspyramiden er en model, der prioriterer i de væsentligste parametre for styrketræning. Modellen er udformet af Eric Helms, og efterhånden er den blevet brugt flere steder.
+
+{% include figure image_path="/assets/images/blog/eric-helms-traeningspyramiden.png" alt="Træningspyramiden lavet af Eric Helms" caption="Træningspyramiden udformet af Eric Helms" %}
+
+Eric Helms beskriver selv træningspyramiden i en rigtig fin videoserie, som vi også gennemgår i det følgende.
+
+Vi tager pyramiden nedenfra.
+
+## 1. Vedholdenhed
+
+{% include video provider="youtube" id="OWmchPCyDvw" %}
+
+## 2. Volumen, intensitet og frekvens
+
+{% include video provider="youtube" id="Dl8v6frDJHc" %}
+
+## 3. Progression
+
+{% include video provider="youtube" id="nun-vSQV6wU" %}
+
+## 4. Øvelsesvalg
+
+{% include video provider="youtube" id="XMpntp3TqSA" %}
+
+## 5. Pauser
+
+{% include video provider="youtube" id="_C_7n704rvc" %}
+
+## 6. Tempo
+
+{% include video provider="youtube" id="CM3Kgp9c7PE" %}
+
+## Konklusion
+
+Styrketræningspyramiden ser enkel ud, og den giver nogle gode retningslinjer for, hvad der er vigtigst, når du gerne vil have resultater af din styrketræning.
+
+Under de enkelte lag i pyramiden er der naturligvis også ting, der er vigtigere end andre ting. Dem forklarer Eric Helms rigtig godt i videoerne.
