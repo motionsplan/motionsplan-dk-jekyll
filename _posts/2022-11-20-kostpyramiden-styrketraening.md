@@ -22,23 +22,29 @@ last_modified_at: 2022-11-14T07:14:14Z
 #    answer: Når du vælger et fitnesscenter, så sørg for at det lever op til dine krav. Vil du gerne træne i maskiner, frie vægte eller måske følge holdtræning? Vil du gerne have omklædningsfaciliteter? Hvilket fællesskab vil du gerne opleve i fitensscenteret? Husk også at holde øje med de forskellige abonnementstyper.
 ---
 
-Vil du gerne have gode resultater af din styrketræning? Kosten er en vigtig medspiller, og her kan kostpyramiden til muskeltræning og styrketræning hjælpe dig med, hvad du først og fremmest skal fokusere på.
+Hvad skal du spise, når du styrketræner? Vil du gerne have gode resultater af din styrketræning, så er kosten en vigtig medspiller. Kostpyramiden til muskeltræning og styrketræning hjælpe dig med, hvad du først og fremmest skal fokusere på.
 
 Du bliver konstant bombarderet med gode råd til din kost og ernæring, hvis du gerne vil have mest ud af din træning. Men hvad skal du egentlig starte med at optimere?
 
+Hvad er vigtigst?
+
 Her hjælper kostpyramiden dig med at prioritere i kompleksiteten. Vi gennemgår kostpyramiden og fortæller, hvordan du kan bruge modellen i praksis i forbindelse med din egen kost.
+
+I det følgende omsætter vi de enkelte lag i pyramiden til konkrete retningslinjer, som du kan bruge for at få bedre resultater af din træning.
 
 ## Hvad er kostpyramiden til styrketræning?
 
 Kostpyramiden til styrketræning er en model, der prioriterer i de væsentligste parametre for kost i forbindelse med muskeltræning. Modellen er udformet af Eric Helms, og efterhånden er den blevet brugt flere steder.
 
-{% include figure image_path="/assets/images/blog/eric-helms-traeningspyramiden.png" alt="Træningspyramiden lavet af Eric Helms" caption="Træningspyramiden udformet af Eric Helms" %}
+{% include figure image_path="/assets/images/blog/eric-helms-nutrition-pyramid.jpg" alt="Kostpyramiden til styrketræning og muskeltræning lavet af Eric Helms" caption="Kostpyramiden til styrketræning og muskeltræning er udformet af Eric Helms." %}
 
-Eric Helms beskriver selv træningspyramiden i en rigtig fin videoserie, som vi også gennemgår i det følgende.
+Eric Helms beskriver selv kostpyramiden i en rigtig fin videoserie, som vi også gennemgår i det følgende.
 
 Vi tager pyramiden nedenfra.
 
 ## 1. Energibalance og kalorieindtag
+
+
 
 {% include video provider="youtube" id="GAvW6xBZjSk" %}
 
