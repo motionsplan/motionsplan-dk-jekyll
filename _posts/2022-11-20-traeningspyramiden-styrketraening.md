@@ -38,25 +38,59 @@ Vi tager pyramiden nedenfra.
 
 ## 1. Vedholdenhed
 
+Den bedste træning er den træning, du får lavet. Vedholdenhed og kontinuerlig træning er uden tvivl det vigtigste parameter for dine træningsresultater.
+
+Mange af os kender formentlig træningspauser, hvor vi ikke får trænet.
+
+Hvis det kan lykkes for dig kontinuerligt at træne, så kan du hele tiden bygge oven på.
+
+Vi oplever alle dalende motivation i træningen nogle gange. Hvis du kan sørge for at have en plan for at vedligeholde træningen i disse perioder, så kan du bygge oven på næste gang du er inspireret.
+
+Det nytter med andre ord ikke noget at lave et avanceret træningsprogram, hvis det ikke er noget du er motiveret for at lave.
+
+Hør Eric Helms selv fortælle om dette trin:
+
 {% include video provider="youtube" id="OWmchPCyDvw" %}
 
 ## 2. Volumen, intensitet og frekvens
+
+Dette trin i pyramiden handler om det samlede arbejde, du får lavet i din træning.
+
+Der kan være forskellige måder at måle det samlede arbejde. 
+
+- **Volumen**: Antallet af sæt gange med gentagelserne.
+- **Tonnage**: Antallet af sæt gang med gentagelser gange med vægten.
+- **INOL**. Antallet af løft gange med intensiteten i de enkelte løft.
+
+Det der nok giver bedst mening er at tælle antallet af hårde sæt - altså arbejdssæt. Hvis et sæt skal have en træningseffekt, så kræver det en vis intensitet.
+
+Intensiteten kan fx måles ved _Reps In Reserve (RIR)_. Hvis du maksimalt kan tage 4 ekstra reps i et sæt, så kan det tælle med som et arbejdssæt.
+
+Og her fortæller Eric Helms selv om dette punkt:
 
 {% include video provider="youtube" id="Dl8v6frDJHc" %}
 
 ## 3. Progression
 
+Eric Helms fortæller om progression:
+
 {% include video provider="youtube" id="nun-vSQV6wU" %}
 
 ## 4. Øvelsesvalg
+
+Helms fortæller om øvelsesvalg:
 
 {% include video provider="youtube" id="XMpntp3TqSA" %}
 
 ## 5. Pauser
 
+Eric Helms fortæller om pauser:
+
 {% include video provider="youtube" id="_C_7n704rvc" %}
 
 ## 6. Tempo
+
+Eric Helms dykker ned i tempo her:
 
 {% include video provider="youtube" id="CM3Kgp9c7PE" %}
 
