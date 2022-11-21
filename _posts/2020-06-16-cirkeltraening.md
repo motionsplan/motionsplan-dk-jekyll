@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 faq:
-  - question: Hvad er cirkeltræning? 
+  - question: Hvad er cirkeltræning?
     answer: Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser, som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.
   - question: Hvor mange øvelser skal jeg vælge til cirkeltræning?
     answer: Du bestemmer naturligvis selv, hvor mange øvelser du vælger til cirkeltræning. Men du skal nok i hvert fald vælge 3-4 øvelser før du kan kalde det cirkeltræning.
@@ -35,7 +35,7 @@ Du kan selv vælge, hvordan du udformer dit cirkeltræningsprogram. Du kan have 
 **Vores øvelseskatalog er perfekt til cirkeltræning**, da PDF-udskriften af alle øvelserne har forberedt et sted, hvor du kan skrive nummer på øvelsen, så man ved, hvilken rækkefølge øvelserne skal laves i.
 {: .notice .notice--info }
 
-Cirkeltræning behøver ikke noget udstyr, og du kan alligevel opnå en betydelig kombineret effekt på både styrke, kondition, metabolisk fitness, fedtforbrænding og motorisk udfordring. 
+Cirkeltræning behøver ikke noget udstyr, og du kan alligevel opnå en betydelig kombineret effekt på både styrke, kondition, metabolisk fitness, fedtforbrænding og motorisk udfordring.
 
 ## Hvordan sammensættes et cirkeltræningsprogram?
 
@@ -57,7 +57,7 @@ Lad os tage et simpelt eksempel på denne fremgangsmåde til at planlægge dit c
 
 Når jeg bruger cirkeltræning i min undervisning, så plejer jeg altid at lade den første runde være en introduktion til programmet, organisationen og øvelserne. På den måde lærer alle øvelserne rigtig godt at kende. På de følgende runder kører jeg i et passende tempo alt efter målet med træningen.
 
-Du skal naturligvis varme op først og nedvarme bagefter, men den samlede cirkeltræning kan holdes på en relativt kort tid. Jeg kan ofte godt lide at træne lidt længere, men så laver jeg typisk opvarmningen længere, så jeg kan øve mig på noget, jeg gerne vil være bedre til. 
+Du skal naturligvis varme op først og nedvarme bagefter, men den samlede cirkeltræning kan holdes på en relativt kort tid. Jeg kan ofte godt lide at træne lidt længere, men så laver jeg typisk opvarmningen længere, så jeg kan øve mig på noget, jeg gerne vil være bedre til.
 
 Her på motionsplan.dk kan du finde et hav af [forskellige øvelser]({% link _pages/activities-archive.md %}) lige til at printe ud. Tænk lidt over hvad dit formål er. Hvis det primært er at få pulsen op og arbejde hårdt, så vælg en masse helkropsøvelser, hvor du aktiverer en stor del af din muskelmasse.
 
@@ -125,7 +125,7 @@ Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale f�
 
 ## Ulemper ved cirkeltræningsprogrammer
 
-- **Fokus**. Cirkeltræningsprogrmmer kan ofte godt virke lidt tilfældige. Jeg kan godt lide at have et mål for programmet.
+- **Fokus**. Cirkeltræningsprogrammer kan ofte godt virke lidt tilfældige. Jeg kan godt lide at have et mål for programmet.
 - **Progression**. Hvis du kører forskellige cirkeltræningsprogrammer i hvert træningspas, så er det sværere at se, hvad progressionen i din træning er - og om du overhovedet går frem i træningen.
 
 ## Cirkeltræning som en del af din træning
