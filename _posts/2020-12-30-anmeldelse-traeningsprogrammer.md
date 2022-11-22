@@ -115,7 +115,9 @@ Du kan grundlæggende fx vælge mellem følgende programtyper:
 
 ## Hvor mange sæt og gentagelser?
 
-Prilepin har udviklet en tabel over det optimale antal reps og sæt i en træning baseret på vægtløftere. Tabellen passer naturligvis ikke på alle, men det kan være et godt udgangspunkt i træningsplanlægningen i begyndelsen. Når træningen er i gang, skal den naturligvis tage udgangspunkt i den enkelte løfter.
+[Prilepin](/prilepins-tabel/) har udviklet en tabel over det optimale antal reps og sæt i en træning baseret på vægtløftere. Tabellen passer naturligvis ikke på alle, men det kan være et godt udgangspunkt i træningsplanlægningen i begyndelsen.
+
+Når træningen er i gang, skal træningsplanen naturligvis tage udgangspunkt i den enkelte løfter.
 
 {% include video provider="youtube" id="vMFeD1ziHAE" %}
 
