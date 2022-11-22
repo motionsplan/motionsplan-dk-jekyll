@@ -12,7 +12,7 @@ category:
   - Styrketræning
 tags:
   - styrketræning
-last_modified_at: 2022-11-14T07:14:14Z
+last_modified_at: 2022-11-20T07:14:14Z
 #faq:
 #  - question: Hvordan finder man et billigt træningscenter?
 #    answer: På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige services.

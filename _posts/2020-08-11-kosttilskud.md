@@ -84,7 +84,7 @@ De generelle anbefalinger undervurderer formentlig behovet for protein for lette
 
 Hvis du ikke får dækket dit proteinbehov gennem kosten, så kan man tage proteinpulver som kosttilskud. Særligt valleprotein har pga. sit høje indhold af bl.a. leucin og et komplet spektrum af andre essentielle aminosyrer medfører et højt respons i muskelproteinsyntesen i forhold til dosis.
 
-**Timing** af proteindtaget er tilsyneladende også et vigtigt parameter.
+**Timing** af proteinindtaget er tilsyneladende også et vigtigt parameter.
 
 [Bodylab](https://www.bodylab.dk/shop/boer-vi-i-2559c1.html) foreslår, at vi bør tale om proteinindtag pr. måltid og ikke pr. dag. Proteinindtaget bør formentlig fordeles på 4-5 måltider over dagen, og dosis inden sengetid er dobbelt så stor som de øvrige måltider (Trommelen og Loon 2016).
 

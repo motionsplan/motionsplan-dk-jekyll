@@ -12,7 +12,7 @@ category:
   - Styrketræning
 tags:
   - styrketræning
-last_modified_at: 2022-11-14T07:14:14Z
+last_modified_at: 2022-11-21T07:14:14Z
 #faq:
 #  - question: Hvordan finder man et billigt træningscenter?
 #    answer: På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige services.
@@ -25,6 +25,8 @@ Vil du gerne have gode resultater af din træning? Træningspyramiden kan være 
 Når du går i gang med at planlægge din styrketræning, så kan man ofte blive overvældet af alle de muligheder, der er.
 
 Træningspyramiden er et forsøg på at prioritere lidt i kompleksiteten. Her gennemgår vi styrketræningspyramiden og fortæller, hvordan du kan bruge modellen i praksis med din egen træning.
+
+{% include figure image_path="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="kostpyramiden til styrketræning" %}
 
 ## Hvad er træningspyramiden?
 
