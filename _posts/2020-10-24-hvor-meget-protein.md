@@ -38,7 +38,7 @@ Så lad os dykke ned i, hvor meget protein du skal indtage om dagen?
 
 **Du bør indtage 0,75-2,5 gram protein pr. kg kropsvægt pr. dag alt efter, hvor meget du træner og hvilken type træning du laver. Der er flere studier der viser, at man kan udnytte op til 2 gram protein pr. kg kropsvægt pr. dag, men som en helgardering kan folk, der træner rigtig meget indtage lidt mere.**
 
-Det er en bred anbefaling. Du kan regne lidt på dit eget daglige proteindtag i beregneren nedenunder.
+Det er en bred anbefaling. Du kan regne lidt på dit eget daglige proteinindtag i beregneren nedenunder.
 
 Men du bør bagefter sætte dig ind i optagelseshastigheden for protein.
 
