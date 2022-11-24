@@ -14,11 +14,18 @@ category:
 tags:
   - skadesbehandling
 last_modified_at: 2022-11-01T07:14:14Z
-#faq:
-#  - question: Hvordan beregner man sin egen 1 RM?
-#    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
-#  - question: Hvad betyder RM, 1RM max og one repetition maximum?
-#    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+faq:
+  - question: Hvad er en akut skade?
+    answer: |
+      En akut skade opstår typisk i forbindelse med en høj kraft eller et hurtigt retningsskifte. Det kan ske pga. en kraftig og eksplosiv bevægelse eller fordi du lander forkert.
+
+      Ved akutte skader bliver musker, ledbånd, sener eller knogler påvirket kraftigere end hvad de normalt kan holde til.
+  - question: Hvad står RICEM for?
+    answer: RICEM står for **R**est, **I**ce, **C**ompression, **E**levation og **M**ovement.
+  - question: Hvad står POLICE for?
+    answer: POLICE står for **P**rotect, **O**ptimal **L**oading, **I**ce, **C**ompression og **E**levation.
+  - question: Hvad står PEACE & LOVE for?
+    answer: PEACE & LOVE står for **P**roctection, **E**levate, **A**void Anti-Inflammatory, **C**ompress og **E**ducate & **L**oad, **O**ptimism, **V**ascularisation og **Exercise.
 ---
 
 Når der opstår en akut skade, så kan de første timer og dage have stor betydning for, hvor lang tid det tager for dig at komme i gang med træning og konkurrence igen.
@@ -30,6 +37,18 @@ Men hvordan laver du egentlig akut skadesbehandling?
 Der findes et hav af forskellige forkortelser, der skal guide dig gennem behandlingen af akutte sportsskader, men hvilken skal du bruge? RICEM? POLICE? eller PEACE & LOVE?
 
 {% include figure image_path="https://images.unsplash.com/photo-1579722820903-01d3e776f85e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="akut skadesbehandling" %}
+
+## Hvad er akutte skader?
+
+En akut skade opstår typisk på to forskellige måder. Enten i forbindelse med en kraftig eller eksplosiv bevægelse med høj kraftudfoldelse eller et hurtigt retningsskifte. Eller ved at lande forkert, så kroppen kommer til at bevæge sig uhensigtsmæssigt i forhold til leddenes bevægelser.
+
+Ved akutte skader bliver musker, ledbånd, sener eller knogler påvirket kraftigere end hvad de normalt kan holde til ud over deres normale evne til at strække eller give efter.
+
+Akutte skader kan typisk opdeles i:
+
+1. Muskelskader
+2. Knogleskader
+3. Ledskader
 
 ## Traditionel skadesbehandling
 
@@ -261,6 +280,10 @@ I LOVE har vi også de psykologiske udfordringer med.
 Der er mange akronymer. Tidligere havde RICEM nærmest monopol på skadesbehandlingen.
 
 PEACE & LOVE ser for mig ud til at være en huskeregel, som godt kunne ende med at være en ny god huskeregel, der kan guide os allesammen til bedre skadeshåndtering.
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
 
 {% comment %}
 
