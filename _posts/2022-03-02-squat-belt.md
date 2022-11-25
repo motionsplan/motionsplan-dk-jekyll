@@ -2,6 +2,7 @@
 title: "Bælte til styrketræning - har du brug for et træningsbælte?"
 seo_title: "Alt om træningsbælter til styrketræning og fitness"
 permalink: /baelte-styrketraening/
+description: Vil du gerne løfte tungere i squat og dødløft? Et træningsbælte til styrketræning kan hjælpe dig med at gøre dine løft mere stabile. Vi forklarer hvordan du bruger bæltet!
 excerpt: "Et bælte til styrketræning kan gøre dine løft mere stabile, så du kan løfte mere. Men du skal vælge det rigtige træningsbælte og vide hvordan, du bruger bæltet til fitness, vægtløftning og styrkeløft."
 language: da
 header:
@@ -11,7 +12,7 @@ category:
 tags:
   - styrketræning
   - træningsbælte
-last_modified_at: 2022-03-17T23:14:14Z
+last_modified_at: 2022-11-24T23:14:14Z
 toc: true
 feature_row_powerlifting:
   - image_path: https://shop.getbig.dk/images/large/bodybuilding-dreikampfguertel_LRG.jpg
@@ -46,7 +47,11 @@ Her kan du læse mere om forskellige typer af træningsbælter til styrketrænin
 
 Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx [squat](/squat/) og [dødløft](/doedloeft/), men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
 
+Husk at tjekke videoen længere nede på siden med, hvordan du bruger et træningsbælte.
+
 Hvis du i denne guide finder ud af, at du har brug for et bælte, så tjek en af vores [udvalgte fitnessshops](/fitnessbutikker/).
+
+{% include figure image_path="https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="træningsbælte på kvinde til styrketræning" %}
 
 ## Hvad er et styrketræningsbælte?
 
@@ -102,11 +107,13 @@ Hvis du derimod løfter tunge vægte regelmæssigt, eller hvis du ønsker at øg
 
 Langt den største del af min egen træning foregår uden bælte. Jeg bruger det primært til de store løft, eller hvis jeg arbejder med at forbedre min teknik og brug af bæltet.
 
-## Hvordan virker bæltet?
+## Hvordan virker træningsbælter?
 
-Bæltet virker ved at øge trykket i maven, også kendt som det intraabdominale tryk. Når bughulen komprimeres af de omkringliggende muskler, der trækker sig sammen, presses luften i den ud. Kroppens kerne bliver mere stabil og bedre i stand til at modstå bøjninger, når dette sker.
+Bæltet virker ved at øge trykket i maven, også kendt som det intraabdominale tryk. Når bughulen komprimeres af de omkringliggende muskler, der trækker sig sammen, presses luften i den ud. Kroppens kerne bliver mere stabil og bedre i stand til at modstå bøjninger i rygsøjlen, når dette sker.
 
 Kort sagt trækker de andre mavemuskler end transversus abdominis (de indre tværgående mavemuskler) ryggen mod bøjning. Erector spinae og mulitifidi er blandt dem, der aktiveres for at modstå dette. Dette trækker rygsøjlen i to modsatte retninger, samtidig med at den holdes stabil.
+
+Derfor kan du løfte tungere vægte med et bælte.
 
 ## Sådan bruger du et træningsbælte?
 
@@ -118,6 +125,10 @@ Bæltet hjælper med at øge bugtrykket, når du spænder mavemusklerne ud mod t
 Det er altså ikke nok at spænde bæltet stramt. Du skal aktivt fylde mellemgulvet med luft og presse mavemusklerne ud mod bæltet.
 
 Du bliver nødt til at arbejde lidt med placeringen af bæltet i forhold til, hvordan du synes at det hjælper til at få det største opspænd omkring rygsøjlen. Du kan fx kigge efter, hvor du mister stabiliteten og spændet, når løftene bliver tunge.
+
+Squat University forklarer i denne video, hvordan du bruger et bælte:
+
+{% include video provider="youtube" id="671OihFu9eg" %}
 
 ## Forskningen om brug af styrketræningsbælter
 
