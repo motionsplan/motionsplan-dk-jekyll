@@ -115,7 +115,7 @@ Kort sagt trækker de andre mavemuskler end transversus abdominis (de indre tvæ
 
 Derfor kan du løfte tungere vægte med et bælte.
 
-## Sådan bruger du et træningsbælte?
+## Sådan bruger du et vægtløftningsbælte?
 
 1. **Tag en dyb indånding, hold vejret**. Når du gør det, så øges det det intraabdominale tryk i bughulen og det intrathorakale tryk i brysthulen. Dét øger i sig selv stabiliteten. omkring rygsøjlen.
 2. Derefter skal du **spænde mavemusklerne og spænde dem ud mod bæltet**.
