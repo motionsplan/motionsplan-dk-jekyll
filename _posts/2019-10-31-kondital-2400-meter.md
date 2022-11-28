@@ -94,7 +94,7 @@ Hvis vi kigger på **verdensrekordholderen for mænd på 3000 meter**, Daniel Ko
 
 Den **kvindelige verdensrekordholder på 3000 meter**, Wang Junxia, løb 3000 meter på 8:06.11, hvilket svarer til 22,22 km/t og et pace på 2:42 min/km. Wang Junxia kunne således med samme hastighed løbe 2400 meter på 6:29.
 
-{% include video provider="youtube" id="ZMjcBD5EdM" %}
+{% include video provider="youtube" id="-ZMjcBD5EdM" %}
 
 ## Formel til at udregne konditallet
 
