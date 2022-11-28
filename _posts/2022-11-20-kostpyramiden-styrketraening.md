@@ -136,8 +136,8 @@ Sundhedsstyrelsen anbefaler, at **[alle danskere indtager D-vitamin i vinterhalv
 Ellers er der kun et par kosttilskud, som giver mening. Vi er dykket ned i de [bedste kosttilskud](/kosttilskud/).
 
 - **Protein**. Det kan være belejligt at bruge proteinpulver. Proteinpulver er samtidig en af de [billigste måder at få protein på](/billig-protein/).
-- **Kreatin**. Kreatin er det kosttilskud, som der er bedst evidens for virker i forbindelse med styrketræning.
-- **Koffein**. Koffein kan bruges opkvikkende. Mange drikker kaffe, men nogle tager også en koffeinpille eller andre drikkevarer med koffein. Koffein skal dog ikke være en erstatning for fornuftig søvn.
+- **Kreatin**. [Kreatin er det kosttilskud](/kreatin/), som der er bedst evidens for virker i forbindelse med styrketræning.
+- **Koffein**. [Koffein](/koffein/) kan bruges opkvikkende. Mange drikker kaffe, men nogle tager også en koffeinpille eller andre drikkevarer med koffein. Koffein skal dog ikke være en erstatning for fornuftig søvn.
 
 Eric Helms fortæller her:
 

@@ -60,7 +60,7 @@ ADP + P + Kulhydrat → ATP + Mælkesyre
 
 Begge processer i det anaerobe system skaber altså mere ATP.
 
-Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at kreatin virker som kosttilskud, da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
+Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at [kreatin virker som kosttilskud](/kreatin/), da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
 
 Spaltningen af kulhydrat kan levere energi længere, men den lokale træthed i musklerne bliver meget høj, og der skabes bl.a. [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) i musklerne.
 

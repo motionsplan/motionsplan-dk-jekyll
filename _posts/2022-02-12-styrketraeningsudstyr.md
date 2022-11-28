@@ -106,7 +106,7 @@ Kosttilskud bør kun overvejes, hvis du har specifikke mål med din træning, el
 Der er dog nogle få kosttilskud der kan være en fordel at bruge i styrketræning:
 
 - **Proteinpulver**: Proteinpulver kan være en fordel at bruge, hvis du har svært ved at få nok proteiner gennem din kost. Det er især relevant hvis du træner meget og har et højt forbrug.
-- **Kreatin**:  Kreatin kan give en forøgelse af styrke og muskelmasse. Det er dog ikke alle der responderer positivt på kreatin, så det er ikke nødvendigvis for alle.
+- **Kreatin**:  [Kreatin kan give en forøgelse af styrke og muskelmasse](/kreatin/). Det er dog ikke alle der responderer positivt på kreatin, så det er ikke nødvendigvis for alle.
 
 Vi har skrevet meget mere om, hvilke [kosttilskud, der kan betale sig](/kosttilskud/). Hvis du er på udkig efter et sted at købe kosttilskud, så tjek vores liste over, hvor du kan købe [kosttilskud i danske webshops](/koeb-kosttilskud-online/).
 

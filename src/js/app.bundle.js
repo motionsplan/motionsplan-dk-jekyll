@@ -483,7 +483,16 @@ $(function() {
         $("#koffein_intake").val(recommended_koffein_intake);
         //$("#equals_to").val(equals_to.toFixed());
         //$("#food").text(food);
-  });
+    });
+    $("#calculator_kreatin").submit(function(e) {
+      console.log("Calculate Kreatin");
+      e.preventDefault();
+
+      let weight = $("#body_weight").val();
+      let kreatin_intake_kg = $("#kreatin_intake_kg").val();
+      let recommended_kreatin_intake = kreatin_intake_kg * weight;
+      $("#kreatin_intake").val(recommended_kreatin_intake);
+    });
     $("#calculator_kroppens_rumfang").submit(function(e) {
       console.log("Calculate Kroppens Rumfang");
       e.preventDefault();
