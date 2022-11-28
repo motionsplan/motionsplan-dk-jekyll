@@ -1,5 +1,6 @@
 ---
 title: "Hvad er reglerne til styrkeløft og powerlifting? 🏋️‍♀️"
+excerpt: Her får du en grunding introduktion til reglerne i styrkeløft. I styrkeløft konkurrerer man i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft efter nogle særlige regler.
 permalink: /powerlifting-rules/
 slanguage: da
 header:
@@ -15,7 +16,7 @@ category:
 tags:
   - regler
   - styrkeløft
-last_modified_at: 2020-04-19T23:14:14Z
+last_modified_at: 2022-11-19T23:14:14Z
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat - styrkeløft og powerlifting regler for squat"
@@ -169,7 +170,7 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-fors�
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-{% include feature_row id="feature_row_spreadsheet" type="left" %}
+{% include feature_row id="feature_row_spreadsheet" type="center" %}
 
 ## Konklusion
 
