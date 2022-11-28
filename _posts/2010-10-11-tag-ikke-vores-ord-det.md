@@ -1,6 +1,7 @@
 ---
 title: &title "Hvordan finder du og læser en videnskabelig artikel?"
 description: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
+excerpt: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
 permalink: /videnskabelig-sogning/
 redirect_from:
   - /artikel/tag-ikke-vores-ord-det
@@ -121,7 +122,7 @@ Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](
 
 Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mellem druknede og film med Nicolas Cage](https://www.nationalgeographic.com/science/phenomena/2015/09/11/nick-cage-movies-vs-drownings-and-more-strange-but-spurious-correlations/):
 
-{% include figure image_path="https://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359). " %}
+{% include figure image_path="https://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359)." %}
 
 Korrelation bliver ofte forvekslet med kausalitet i medierne og i fitnessmiljøet. Når man laver fejlfortolkninger, så kan det ende med at specifikke næringsstoffer eller fødevarer bliver gjort til uretmæssig syndebuk - tag bare et kig på sukker, kulhydrater og mælkeprodukter. Men det gælder også årsagssammenhænge i forhold til folks vægt og sindstilstand.
 

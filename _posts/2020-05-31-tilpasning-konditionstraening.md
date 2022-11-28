@@ -1,5 +1,6 @@
 ---
 title: "6 fysiologiske forandringer i kroppen ved konditionstræning?"
+excerpt: Her får du en oversigt over de fysiologiske tilpasninger og adaptationer, der sker i kroppen, når du laver konditionstræning. Hvordan virker kredsløbstræning egentlig?
 permalink: /tilpasning-konditionstraening/
 language: da
 header:
@@ -15,8 +16,6 @@ tags:
   - træningslære
   - løb
 last_modified_at: 2020-05-31T08:14:14Z
-toc: true
-breadcrumbs: true
 ---
 
 Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver [konditionstræning og kredsløbstræning](/konditionstraening/). Så lad os kigge på, hvad effekten er af kredsløbstræning?
