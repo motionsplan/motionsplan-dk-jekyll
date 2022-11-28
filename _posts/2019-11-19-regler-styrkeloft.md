@@ -142,6 +142,8 @@ Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke u
 
 Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
 
+{% include readmore.html title="Alt om bælter til styrketræning" url="/baelte-styrketraening/" %}
+
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
 
 Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM max](/rm-maxtest/) i alle løftene.

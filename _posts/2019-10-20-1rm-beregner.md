@@ -52,15 +52,15 @@ I styrketræning arbejder man med begrebet 1RM, som er et udtryk for den vægt, 
 
 Hvis du løbende vil teste din styrke, så er et rigtig godt alternativ til en [1RM-test](/rm-maxtest/) at udregne din one rep max ud fra de løft, du laver i træningen.
 
-Her får du en 1RM-beregner med de mest udbredte formler til at beregne din one rep max i forskellige løft.
-
 I dette indlæg får du svaret på følgende spørgsmål:
 
-- Hvordan beregner man sin egen 1RM ud fra submaksimale løft?
+- Hvordan beregner du din 1RM ud fra submaksimale løft?
 - Udregn din 1RM max i vores RM-udregner
 - Hvad er fordelene og ulemperne ved formlerne til at udregne 1RM-max?
 
 ## RM-beregner til 1RM max
+
+Her får du en 1RM-beregner med de mest udbredte formler til at beregne din one rep max i forskellige løft.
 
 {% include calculate-1rm.html %}
 
@@ -78,6 +78,8 @@ Når du har din 1RM-max kan du estimere forskellige RM-vægte, som fx kan anvend
 *[RM]: Repetition Maximum
 *[RPE]: Rate of Perceived Exertion
 
+{% include figure image_path="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60" alt="kvinde tester styrke til rm beregner" %}
+
 ## Hvordan finder jeg min 1RM med beregneren?
 
 Når du bruger beregneren, så er der et par ting du skal vide:
@@ -87,6 +89,8 @@ Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gan
 Du behøver ikke på forhånd at vide nøjagtigt hvor mange gange, du kan løfte vægten. Du må blot ikke kunne løfte den flere end 10 gange. Når du har prøvet øvelsen, noterer du hvor mange gange, du kunne løfte vægten.
 
 Du får et mere præcist tal, jo tættere du ligger i antallet af gentagelser ift. den RM-vægt, du gerne vil udregne.
+
+Husk også at bruge det samme udstyr, som du normalt gør i dine maxløft. Hvis du fx er vant til at [bruge et træningsbælte](/baelte-styrketraening/), så skal du også gøre det i dine testløft.
 
 Fx vil en 3RM være et bedre udgangspunkt for at estimere 1RM end en 10RM-test.
 
@@ -116,13 +120,15 @@ Det kan være forbundet med høj skadesrisiko, at lave maksimale løft for at fi
 
 Men metoden er ikke fejlfri.
 
+{% include figure image_path="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="bænkpres 1 rm hand off" %}
+
 ## Ulemper ved en RM-udregner
 
 En RM-beregning kan både underestimere og overestimere den aktuelle 1RM for løfterne. Der er i hvert fald et par forhold, som man skal tænke på:
 
 - **Træningserfaring**. Nervesystemet og tilvænning er en stor del af maksimal styrke. En begynder som fx løfter 10 gentagelser til udmattelse får herved udregnet en 1RM. Hvis vedkommende ikke er vant til at løfte tunge vægte med maksimal intensitet, så kan nervesystemet måske ikke rekruttere tilstrækkeligt med muskelfibre, eller teknikken bryder ned.
 - **Muskelfibertypesammensætningen** kan også betyde noget for præcisionen af udregningen. Hvis man har en overvægt af type II fibre, kan man forestille sig, at RM-testen vil underestimere 1RM, fordi man ikke er så udholdende ved de submaksimale løft. Omvendt ser det så ud for løftere med en overvægt af de udholdende type I-fibre.
- 
+
 Læs: [Alt om hurtige og langsomme muskelfibertyper]({% link _posts/2020-06-09-muskelfibertyper.md %})
 
 Du skal altså have valgt den mest pålidelige algoritme til at bestemme netop din egen 1RM max ud fra alle de forskellige formler, der findes.
@@ -146,9 +152,11 @@ Det varierer lidt mellem studierne, hvordan de nøjagtigt har gjort det. Deltage
 I nogle studier har forskerne også målt biometriske værdier som fx armlængde for bænkpres, fedtprocent, brystmål. Formålet med disse mål har formentlig primært været at se, om disse variable kunne spille ind på resultatet.
 {: .notice .notice--info }
 
-Derefter har forskerene lavet regressionsanlyse på tallene. Typisk har de fundet sammenhænge som fx at: "højere 5RM også resulterer i en højere 1RM" eller at "folk med kortere arme er stærkere i bænkpres". Regressionanalysen ender så med et at ende ud i en formel.
+Derefter har forskerene lavet regressionsanlyse på tallene. Typisk har de fundet sammenhænge som fx at: "højere 5RM også resulterer i en højere 1RM" eller at "folk med kortere arme er stærkere i bænkpres".
 
-Når forskerne så har lavet en formel på baggrund af resultaterne fra de første deltagere, så kan de tage en anden gruppe for at teste, hvor præcise forudsigelserne med formlerne er.
+Regressionanalysen ender så ud i en formel for sammenhængen.
+
+Når forskerne har lavet en formel på baggrund af resultaterne fra de første deltagere, så kan de tage en anden gruppe for at teste, hvor præcise forudsigelserne med formlerne er.
 
 Reynolds (2006) har lavet et meta-review af en del af de tidligere formler.
 
