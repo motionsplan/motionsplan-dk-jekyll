@@ -34,13 +34,13 @@ I dette indlæg vil du måske blive overrasket over, at **mælkesyre IKKE er år
 
 **Mælkesyre er et biologisk nedbrydningsprodukt, som dannes ved mikrobielle gæringsprocesser og ved metabolske processer i kroppen. Mælkesyre fremkommer bl.a. når mennesket spalter glykose for at skabe energi til musklerne i forhold uden ilt.**
 
-## Energiomsætning uden ilt skaber mælkesyre 
+## Energiomsætning uden ilt skaber mælkesyre
 
 Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning](/energisystemer/). Meget anstrengende arbejde kan fx være [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
 
 Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hvis du bruger [Borgskalaen til at vurdere intensiteten og anstrengelsen]({% link _posts/2020-06-18-borg-skala.md %}) nærmer arbejdet sig altså maksimal intensitet på Borg 18-20.
 
-Når kroppen kører på anaerob energiomsætning, så producerer musklerne energi fra kroppens hurtigste energikilder, som er ATP og kreatinfosfat og spaltning af glykose. ATP er vores energimolekyle, som vi hele tiden skal genoplade, så kroppen kan fungere. 
+Når kroppen kører på anaerob energiomsætning, så producerer musklerne energi fra kroppens hurtigste energikilder, som er ATP og [kreatinfosfat](/kreatin/) og spaltning af glykose. ATP er vores energimolekyle, som vi hele tiden skal genoplade, så kroppen kan fungere.
 
 {% include figure image_path="https://bioteknologi.systime.dk/api/fileadmin/_processed_/6/d/csm_875_To_veje_for_pyruvat_acc5603600.png" caption="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde i musklerne, når glykose spaltes uden ilt til stede. Processen går meget hurtigt, men producerer ikke så meget ATP. Kilde: [Systime. Bioteknologi](https://bioteknologi.systime.dk/?id=591)." alt="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde og træning" %}
 
@@ -48,11 +48,11 @@ Når vi arbejder uden ilt i længere tid, så er vi afhængige af at spalte glyk
 
 Spaltning af glykose uden ilt kaldes også _glykolysen_. Processerne under spaltning af kulhydrat i glykolysen giver biproduktet mælkesyre.
 
-På dansk siger vi også ofte, at jeg "syrer til", når vi arbejder rigtig hårdt. Her henviser vi ofte til, at der kommer en ophobning af mælkesyre i musklerne. Når vi arbejder rigtig intensivt, så kommer der en stor produktion af mælkesyre, hvilket giver en forhøjet surhedsgrad i de arbejdende muskler. 
+På dansk siger vi også ofte, at jeg "syrer til", når vi arbejder rigtig hårdt. Her henviser vi ofte til, at der kommer en ophobning af mælkesyre i musklerne. Når vi arbejder rigtig intensivt, så kommer der en stor produktion af mælkesyre, hvilket giver en forhøjet surhedsgrad i de arbejdende muskler.
 
 Tidligere troede man at mælkesyren og de sure miljø i musklerne var årsagen til muskeltræthed ved intensivt arbejde.
 
-Senere har man fundet ud af, at mælkesyre langt fra er den eneste træthedsfaktor under anstrengende arbejde. 
+Senere har man fundet ud af, at mælkesyre langt fra er den eneste træthedsfaktor under anstrengende arbejde.
 
 Mælkesyren der skabes i musklerne under træning kan også skabe energi. Det inaktive muskelvæv og hjertet kan bruge mælkesyren som brændstof, når der er ilt til stedet. Desuden optager leveren mælkesyren og bearbejder det, så det igen kan bruges som energi i de arbejdende muskler.
 
@@ -86,7 +86,7 @@ Forsuringen i musklerne sker formentlig pga. andre processer, fx forskellige kin
 
 Men hvis det ikke er mælkesyren, der udtrætter musklerne og gør, at jeg ikke længere kan arbejde, når jeg træner intensivt, hvad er det så?
 
-**Kaliumbalancen** kan være en anden træthedsfaktor. 
+**Kaliumbalancen** kan være en anden træthedsfaktor.
 
 Vores krop er opbygget af celler. Der er både væske inden i cellerne og uden for cellerne. I væsken er mineralet kalium. I cellerne er der store mængder opløste kaliumsalte, mens der uden for cellerne under almindelige forhold ikke er ret meget kalium.
 
@@ -104,11 +104,11 @@ De foreslår, at man gør følgende i sin almindelige træning:
 
 - Tag 2-4 korte, intensive sprints (uanset om du løber, cykler eller ror), hvor du akkurat kan mærke, at kroppen begynder at danne mælkesyre.
 
-Herefter foreslår Aktiv Træning, at du vil kunne yde mere i den efterfølgende træning. 
+Herefter foreslår Aktiv Træning, at du vil kunne yde mere i den efterfølgende træning.
 
 Der er et par problemer med den forklaring.
 
-- Hvis mælkesyren ikke beskytter aktive muskler mod lammelsen forårsaget af den forskubbede kaliumbalance, så virker det naturligvis ikke. 
+- Hvis mælkesyren ikke beskytter aktive muskler mod lammelsen forårsaget af den forskubbede kaliumbalance, så virker det naturligvis ikke.
 - Mælkesyren fjernes jo igen, når intensiteten sættes ned, og der er det ret tvivlsomt at mælkesyren stadig vil kunne have beskyttende effekt, hvis den findes.
 
 ## Hvordan fjernes mælkesyren og laktat fra musklerne?
