@@ -6,7 +6,7 @@ description: "Det er ikke så svært at blive en bedre løber, som du måske tro
 excerpt: "Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613330652294-1d4dae5affe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHNwcmludHxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1622407769557-e48f257b96b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb
@@ -25,6 +25,8 @@ last_modified_at: 2022-11-07T07:14:14Z
 I dette indlæg kigger vi på, hvad der kendetegner en god løber, og hvad ud kan arbejde med for at optimere dit løb.
 
 Løb er rigtig fedt, når du begynder at få en god fornemmelse og føler dig stærk og udholdende. Men hvordan opnår du følelsen af at være en god løber?
+
+{% include figure image_path="https://images.unsplash.com/photo-1622407769557-e48f257b96b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="mand vil geren være bedre løber" %}
 
 ## Hvad kendetegner en god løber?
 
@@ -98,6 +100,8 @@ Andre studier har kigget mere specifikt på løbehastigheden:
 [Kasmer et al (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801105/) undersøgte 1.991 maratonløbere. De fandt, at der er en tendens til at eliteløbere med de hurtigste tider landede mindre på hælene end ikke-eliteløbere.
 
 Studiet bekræftede også den observation mange andre studier har gjort, at der i gennemsnit er flest hællandere.
+
+{% include figure image_path="https://images.unsplash.com/photo-1449358070958-884ac9579399?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="bliv en god løber" %}
 
 ## Hvordan bliver du en bedre løber?
 
