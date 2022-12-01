@@ -25,6 +25,7 @@ author: lsolesen
 toc: true
 sidebar:
   nav: trainingtypes
+breadcrumbs: true
 ---
 
 Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på.

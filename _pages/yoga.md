@@ -11,6 +11,9 @@ author_profile: false
 toc: true
 sidebar:
   nav: trainingtypes
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

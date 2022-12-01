@@ -10,6 +10,7 @@ header:
 author_profile: true
 author: lsolesen
 toc: true
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

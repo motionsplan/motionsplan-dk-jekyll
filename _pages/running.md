@@ -41,6 +41,9 @@ feature_row_feature:
     btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 {% include feature_row type="center" id="feature_row_excerpt" %}

@@ -41,6 +41,7 @@ faq:
     answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
   - question: Hvad er dårlig kondition?
     answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition. Konditionen afhænger især af alderen.
+breadcrumbs: true
 ---
 
 Kondition forbinder man ofte med det at være i form. Når man laver udholdenhedsidræt, fx løb eller cykling, så bliver man hurtigt interesseret i at være i at være i en god kondition.

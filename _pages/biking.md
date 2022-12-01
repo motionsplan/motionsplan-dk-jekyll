@@ -16,6 +16,9 @@ sidebar:
 toc: true
 feature_row_excerpt:
   - excerpt: "Guide til cykeltræning. Her kan du finde nyttig viden om cykling og cykeltræning. Lær om [pulstræning](/pulstraening/) og [intervaltræning til cykling](/intervaltraening-cykling/)."
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

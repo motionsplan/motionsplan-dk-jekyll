@@ -39,6 +39,9 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+categories:
+  - Fitnessinstruktør
+breadcrumbs: true
 ---
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.

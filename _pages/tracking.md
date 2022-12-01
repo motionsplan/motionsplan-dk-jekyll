@@ -21,6 +21,7 @@ feature_row:
     url: "/tests/"
     btn_label: "Se tests"
     btn_class: "btn--info"
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

@@ -44,6 +44,7 @@ gallery:
     discounted: false
     id: "59381"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Fysiologi er studiet af, hvordan kroppen fungerer. Den ser på, hvordan de forskellige organsystemer fungerer under normale forhold, men også under fysisk aktivitet.

@@ -11,6 +11,7 @@ header:
   teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

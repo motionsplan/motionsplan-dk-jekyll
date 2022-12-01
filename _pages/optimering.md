@@ -33,6 +33,7 @@ feature_row_feature:
     btn_label: "Track"
     btn_class: "btn--info"
 toc: true
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

@@ -140,6 +140,7 @@ feature_row_strength:
     excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 På denne side har jeg samlet alle mine anbefalinger og de ting til træning, jeg selv bruger.

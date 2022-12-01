@@ -40,6 +40,9 @@ feature_row_skridt_til_km:
     btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå.
