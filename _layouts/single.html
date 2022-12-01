@@ -45,6 +45,9 @@ layout: default
 
         {% include rating.html %}
 
+        {% assign signup = page.signup | default: site.signup.enabled %}
+        {% if signup %}{% include signup.html %}{% endif %}
+
         <!-- Pinterest -->
         {% assign size = page.permalink.size | minus: 1 %}
         {% capture path %}{{ page.permalink | slice: 0, size | remove_first: "/" | replace: "/", "-" | append: ".jpg" | prepend: "/assets/images/pinterest/generated/" }}{% endcapture %}
@@ -54,9 +57,6 @@ layout: default
           {% include pinterest image_path=path hidden="true" %}
         {% endif %}
       </section>
-
-      {% assign signup = page.signup | default: site.signup.enabled %}
-      {% if signup %}{% include signup.html %}{% endif %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
