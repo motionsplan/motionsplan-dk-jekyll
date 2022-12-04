@@ -21,7 +21,7 @@ toc: true
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
     alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
+    title: "Anatomisk Guide"
     excerpt: "En praktisk guide til lokalisering af muskler, skelettet, knogler og led. Du lærer at undersøge bevægeapparatet og kende opbygningen af skelettet og knoglerne og lokalisere de relevante vævsstrukturer."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
     btn_label: "Se prisen"
@@ -30,7 +30,7 @@ feature_row:
   - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen beskrives med anatomi, fysiologi og sygdomme i et anatomisk atlas med menneskets knogler og skelettet. Gennem de computergenererede 3D-billeder og fantastiske illustrationer af knogler og muskler kan du opleve menneskekroppens anatomi i hidtil uset detaljegrad."
+    excerpt: "Menneskekroppen beskrives med anatomi, fysiologi og sygdomme i et anatomisk atlas med menneskets knogler og skelettet. Gennem de computergenererede 3D-billeder og fantastiske illustrationer af knogler og muskler kan du opleve menneskekroppens anatomi."
     url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
@@ -38,7 +38,7 @@ feature_row:
   - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
     alt: "Bevægeapparatets anatomi"
     title: "Bevægeapparatets anatomi"
-    excerpt: "_Bevægeapparatets anatomi_ er en klassiker, når du skal lære om kroppens anatomi. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner kroppen."
+    excerpt: "_Bevægeapparatets anatomi_ er en klassiker, når du skal lære om kroppens anatomi. Forfatterne kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner kroppen."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
     btn_label: "Se prisen"
     btn_class: "btn--success"
@@ -54,7 +54,7 @@ faq:
     answer: I hænderne er der 27 små knogler i hver hånd. Håndleddet er et meget komplekst led, der består af underarmsknoglen, spolebenet og 8 håndrodsknogler.
   - question: Hvor mange led har vi i kroppen?
     answer: Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop. Vi har skrevet meget mere om [led og ledtyper](/led/).
-  - question: Hvor mange knogler har man når man bliver født?
+  - question: Hvor mange knogler har man, når man bliver født?
     answer: Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
   - question: Hvad er den største knogle i kroppen?
     answer: "Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg."

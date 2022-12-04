@@ -18,7 +18,7 @@ tags:
   - beregner
   - featured
 popular: true
-last_modified_at: 2022-09-07T10:14:14Z
+last_modified_at: 2022-12-02T10:14:14Z
 toc: true
 faq:
   - question: "Hvor meget vand skal man drikke om dagen?"
@@ -182,3 +182,7 @@ Hvis du får for lidt at drikke, så kan du gøre følgende til en lille vane:
 - Hav altid en vanddunk med, så du kan få lidt at drikke
 
 Hvordan holder du styr på en sund væskebalance?
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
