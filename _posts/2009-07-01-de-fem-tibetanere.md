@@ -83,7 +83,7 @@ faq:
     answer: Det tager kun omkring 10-20 minutter at lave de fem tibetanere.
 ---
 
-De fem tibetanere er fem enkle yogaøvelser, og det siges at øvelserne er en af hemmelighederne bag ungdommens kilde. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
+Vil du gerne vide mere om de fem tibetanere? Her lærer du, hvordan du udfører de 5 yogaøvelser, og hvilken virkning øvelserne har på kroppen. Lad os dykke ned i hemmelighederne bag ungdommens kilde.
 
 {% include figure image_path="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="øvelse fra de 5 tibetanere" %}
 
