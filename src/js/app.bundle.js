@@ -1783,12 +1783,22 @@ $(function() {
     $("#calculator_inol").submit(function(e) {
         console.log("Calculate INOL");
         e.preventDefault();
-      let reps = Number($("[name='reps']").val());
-      let intensity = Number($("[name='intensity']").val());
+        let reps = Number($("[name='reps']").val());
+        let intensity = Number($("[name='intensity']").val());
 
-      let watt = inol.INOL(reps, intensity);
+        let watt = inol.INOL(intensity);
 
-        $("[name='inol']").val(watt.getINOL());
+        $("[name='inol']").val(watt.getINOL(reps));
+    });
+    $("#calculator_inol_reverse").submit(function(e) {
+      console.log("Calculate INOL");
+      e.preventDefault();
+      let inol_value = Number($("[name='inol_reverse_inol']").val());
+      let intensity = Number($("[name='inol_reverse_intensity']").val());
+
+      let watt = inol.INOL(intensity);
+
+      $("[name='inol_reverse_reps']").val(watt.getReps(inol_value));
     });
     // Calculate Wattmax
     $("#calculator_fitness_wattmax").submit(function(e) {
