@@ -1,7 +1,7 @@
 ---
 title: &title "Spiseforstyrrelser: Har du forstyrret spisning?"
-seo_title: "Har du en spiseforstyrrelse? Test om du har forstyrret spisning!"
-discription: Har du en spiseforstyrrelse? Test om du har forstyrret spisning i dette spørgeskema, som er baseret på videnskabelige studier af spiseforstyrrelser.
+seo_title: "Har du en spiseforstyrrelse? Har du forstyrret spisning? (Test)"
+description: Har du en spiseforstyrrelse? Test om du har forstyrret spisning i dette spørgeskema, som er baseret på videnskabelige studier af spiseforstyrrelser.
 permalink: /spiseforstyrrelser/
 language: da
 header:

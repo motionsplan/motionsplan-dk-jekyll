@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Rest-pause"
-seo_title: "Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med dene teknik"
+seo_title: "Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med denne teknik"
 permalink: /styrketraening/rest-pause/
 header:
   teaser: /assets/images/hypertrofi/rest-pause-hypertrofi.jpg
@@ -75,7 +75,7 @@ Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
 
 {% comment %}
 
-Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med dene teknik
+Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med denne teknik
 Hvis du ønsker at tilføje nogle ekstra centimeter til dine arme eller ben, skal du ikke kigge længere end til rest-pause-metoden til styrketræning. 
 
 Denne avancerede teknik kan hjælpe dig med at bryde igennem plateauer og tage dine bodybuildingfremskridt til det næste niveau. 

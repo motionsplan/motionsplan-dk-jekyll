@@ -1,9 +1,9 @@
 ---
 title: &title "Styrkeløft rekorder: Hvem løfter mest i squat, bænkpres og dødløft?"
-seo_title: "Styrkeløft rekorder: Hvem løfter mest i squat, bænkpres og dødløft?"
+seo_title: "Styrkeløft rekorder: De stærkeste i squat, bænkpres og dødløft?"
 permalink: /styrkeloeft-rekorder/
 description: "Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem løfter mest i squat, bænkpres og dødløft?"
-excerpt: "Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem løfter mest i squat, bænkpres og dødløft?"
+excerpt: "Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem er de stærkeste i squat, bænkpres og dødløft?"
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1534368270820-9de3d8053204?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&&h=300&w=400&q=10
@@ -239,6 +239,8 @@ Jeg synes 200 kg er lidt en magisk grænse i dødløft. Den napper kvinderne all
 ## Konklusion
 
 Nu er du forhåbentlig inspireret til at gå ned i træningscenteret og prøve at sætte dine egne rekorder i squat, bænkpres og dødløft.
+
+Nu kan du sammenligne dine løft med de stærkeste i squat, dødløft og squat.
 
 Husk at standardisere dine løft. Jeg kan godt lide reglerne i styrkeløft, for så har du et godt udgangspunkt for sammenligning. Når du laver testen så følg vores [guide til at lave en maxtest i styrketræning](/rm-maxtest/).
 
