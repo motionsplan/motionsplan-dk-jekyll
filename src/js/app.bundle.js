@@ -1800,6 +1800,23 @@ $(function() {
 
       $("[name='inol_reverse_reps']").val(watt.getReps(inol_value));
     });
+    $("#calculator_ffmi").submit(function(e) {
+      console.log("Calculate FFMI");
+      e.preventDefault();
+      let weight = Number($("[name='ffmi_weight']").val());
+      let height = Number($("[name='ffmi_height']").val());
+      let fp = Number($("[name='ffmi_fat_percent']").val());
+
+      let body_fat = weight * (fp / 100);
+
+      let fat_free_mass = weight * (1 - (body_fat / 100));
+
+      let ffmi = fat_free_mass / Math.Pow(height, 2);
+      let ffmi_normalized = ffmi + 6.1 * (1.8 - height);
+
+      $("[name='ffmi']").val(ffmi);
+      $("[name='ffmi_normalized']").val(ffmi_normalized);
+    });
     // Calculate Wattmax
     $("#calculator_fitness_wattmax").submit(function(e) {
         console.log("Calculate Wattmax");
