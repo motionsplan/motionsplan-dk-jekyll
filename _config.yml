@@ -253,22 +253,18 @@ incremental: false
 
 
 # Markdown Processing
-#markdown: kramdown
-#kramdown:
-#  input: GFM
-#  hard_wrap: false
-#  auto_ids: true
-#  footnote_nr: 1
-#  entity_output: as_char
-#  toc_levels: 1..3
-#  smart_quotes: lsquo,rsquo,ldquo,rdquo
-#  enable_coderay: false
-#  highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..3
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  highlighter: rouge
 
-markdown: CommonMark
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
 
 # Sass/SCSS
 sass:
@@ -294,7 +290,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-gzip
   - jekyll-brotli
-  - jekyll-commonmark
 
 
 # mimic GitHub Pages with --safe
