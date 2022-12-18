@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls til at finde dit kondital."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=5
+  overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -26,7 +26,7 @@ breadcrumbs: true
 
 Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
-Testen bygger på en forudsætning om, at desto større afstand der er mellem hvilepulsen og den maksimale puls, desto større sandsynlighed er der for, at testpersonen har en høj maksimal iltoptagelse og derved et højt kondital. Testen forsøger altså at estimere den maksimale iltoptagelse blot ved hjælp af hvilepulsen og maxpulsen.
+Testen bygger på en forudsætning om, at desto større afstand der er mellem hvilepulsen og den maksimale puls, desto større sandsynlighed er der for, at testpersonen har en høj maksimal iltoptagelse og derved et højt kondital. Testen forsøger altså at estimere den maksimale iltoptagelse blot ved hjælp af hvilepulsen og max-pulsen.
 
 Testen er baseret på en test af veltrænede mænd i alderen 20-50 år. Det betyder, at man ikke kan forvente, at testen er præcis på andre målgrupper.
 
@@ -70,7 +70,7 @@ HR<sub>max</sub> = 208 – 0,7 x alder
 
 {% include calculate-max-hr.html %}
 
-Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls. Jeg skriver mere om [hvordan du kan måle, beregne og teste maxpulsen]({% link _posts/2020-06-02-max-hr.md %}) i et andet indlæg.
+Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls. Jeg skriver mere om [hvordan du kan måle, beregne og teste maxpulsen](/test-max-puls/) i et andet indlæg.
 
 ## Udregn dit kondital på baggrund af hvilepuls og maxpuls
 

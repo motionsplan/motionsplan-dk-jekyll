@@ -1,5 +1,7 @@
 ---
 title: "Hvad vejer skelettet og knoglerne i mennesket? ⚖"
+seo_title: "Hvad vejer skelettet & knoglerne i mennesket?"
+description: Hvad vejer knoglerne og skelettet egentlig? Her får du en guide til, hvor meget knoglevævet i mennesker vejer. Du bliver sikkert overrasket over svaret!
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
@@ -30,7 +32,7 @@ feature_row:
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen beskrives med anatomi, fysiologi og sygdomme i et anatomisk atlas med menneskets knogler og skelettet. Gennem de computergenererede 3D-billeder og fantastiske illustrationer af knogler og muskler kan du opleve menneskekroppens anatomi i hidtil uset detaljegrad."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -122,5 +124,5 @@ Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) o
 <details markdown="1">
   <summary>Se referencer</summary>
 
-- Lindstedt, S. L. and Calder, W. A. III (marts 1981).["Body Size, Physiological Time, and Longevity of Homeothermic Animals"](http://www.jstor.org/stable/2826367)._The Quarterly Review of Biology_.**56**(1): 1-16.
+- Lindstedt, S. L. and Calder, W. A. III (marts 1981).["Body Size, Physiological Time, and Longevity of Homeothermic Animals"](https://www.jstor.org/stable/2826367)._The Quarterly Review of Biology_.**56**(1): 1-16.
 </details>

@@ -34,7 +34,7 @@ Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times
 
 Hvad er Tabata? **Tabata er intervaltræning med 8 x 20 sek _all out_-intervaller med 10 sek pause mellem arbejdsintervallerne. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
 
-Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), som også har en god effekt på det aerobe system. Tabata er [intervaltræning](/intervaltraening/).
+Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning](/anaerob-traening/), som også har en god effekt på det aerobe system. Tabata er [intervaltræning](/intervaltraening/).
 
 I dag bliver Tabata-intervallerne flittigt brugt inden for holdtræning, crossfit, men også løbere, roere, cykelmotionister bruger træningen. Langt de fleste laver dog i virkeligheden ikke træning efter Tabatas foreskrifter, selvom de arbejder i 20 sekunder og holder pause i 10 sekunder. Tabataintervaller er nemlig **all out** i arbejdsperioden.
 
@@ -53,13 +53,13 @@ Tabata (1996) sammenlignede to træningsprotokoller for deres virkning på det a
 
 ## Resultater fra Tabata-studiet
 
-Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
+Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
 
 ## Diskussion af Tabata og intensive intervaller
 
 Disse resultater viser, at man med **meget intensiv intervaltræning kan forbedre både den aerobe og den anaerobe kapacitet**. Hvis man varmer op i fem minutter og nedvarmer i fem minutter, kan man altså med 14 minutters træning træning opnå bedre resultater end med længerevarende træning med moderat intensitet. Den positive effekt på både det aerobe og det anaerobe system skal formentlig findes i den meget korte pause.
 
-Helgerud (2007) viste, at intervaltræning set i forhold til træning med moderat intensitet var mere effektivt for at forbedre VO<sup>2</sup>max for moderat trænede mandlige løbere. Forsøgsgrupperne trænede 3 gange om ugen i 8 uger. To grupper trænede intensivt. Gruppe 3 lavede 47 gentagelser med 15 sekunders arbejde og 15 sekunders pause på en intensitet omkring 95% af den [maksimale puls]({% link _posts/2020-06-02-max-hr.md %}), mens gruppe 4 lavede 4 gentagelser af 4 minutters arbejde (90-95% af maxpulsen) og 3 minutters aktiv restitution (70% af maxpulsen).
+Helgerud (2007) viste, at intervaltræning set i forhold til træning med moderat intensitet var mere effektivt for at forbedre VO<sup>2</sup>max for moderat trænede mandlige løbere. Forsøgsgrupperne trænede 3 gange om ugen i 8 uger. To grupper trænede intensivt. Gruppe 3 lavede 47 gentagelser med 15 sekunders arbejde og 15 sekunders pause på en intensitet omkring 95% af den [maksimale puls](/test-max-puls/), mens gruppe 4 lavede 4 gentagelser af 4 minutters arbejde (90-95% af maxpulsen) og 3 minutters aktiv restitution (70% af maxpulsen).
 
 Det kunne være interessant at sammenligne disse to protokoller med forsøgsprotokollen hos Tabata (1996) for at se effekten både på den aerobe del og den anaerobe del. Helgerud et al (2007) viser desuden, at man formentlig ikke kan kompensere for intensitet ved at forlænge træningstiden.
 

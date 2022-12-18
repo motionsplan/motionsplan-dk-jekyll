@@ -85,13 +85,13 @@ collections:
         collapsed: true
         required: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Alt", name: "alt", widget: "string"}
-          - {label: "Exerpt", name: "excerpt", widget: "text"}
-          - {label: "Url", name: "url", widget: "string"}
+          - {label: "Title", name: "title", widget: "string", required: false}
+          - {label: "Image", name: "image_path", widget: "string", required: false}
+          - {label: "Alt", name: "alt", widget: "string", required: false}
+          - {label: "Exerpt", name: "excerpt", widget: "text", required: false}
+          - {label: "Url", name: "url", widget: "string", required: false}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success"}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success", required: false}
       - label: Gallery
         name: gallery
         widget: list
@@ -151,7 +151,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text"}
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
@@ -263,7 +263,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text"}
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
@@ -416,13 +416,13 @@ collections:
         collapsed: true
         required: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Alt", name: "alt", widget: "string"}
-          - {label: "Exerpt", name: "excerpt", widget: "text"}
-          - {label: "Url", name: "url", widget: "string"}
-          - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
+          - {label: "Title", name: "title", widget: "string", required: false}
+          - {label: "Image", name: "image_path", widget: "string", required: false}
+          - {label: "Alt", name: "alt", widget: "string", required: false}
+          - {label: "Exerpt", name: "excerpt", widget: "text", required: false}
+          - {label: "Url", name: "url", widget: "string", required: false}
+          - {label: "Btn label", name: "btn_label", widget: "string", required: false}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
@@ -484,7 +484,7 @@ collections:
               - {label: "Exerpt", name: "excerpt", widget: "text", required: false}
               - {label: "Url", name: "url", widget: "string", required: false}
               - {label: "Btn label", name: "btn_label", widget: "string", required: false}
-              - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "", required: false}
+              - {label: "Btn class", name: "btn_class", widget: "select", options: ["", "btn--success", "btn--warning", "btn--danger", "btn--info"], default: "", required: false}
           - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
           - label: Gallery
             name: gallery

@@ -58,17 +58,17 @@ Dine træningsresultater afhænger af intensiteten i forhold til dine mål. Hvis
 
 Der er især fire cardiomaskiner, der er meget populære. Crosstrainer, motionscykel, romaskine og løbebånd findes næsten altid i de forskellige motionscentre, og mange har også købt disse cardiomaskiner til hjemmebrug.
 
-Morten Zacho [vurderer de fire mest populære cardiomaskiner](https://jyllands-posten.dk/livsstil/familiesundhed/motion/ECE7680201/loebebaandet-motionscyklen-crosstraineren-eller-romaskinen/) i forhold til kondition, forbrænding og styrke i Jyllands-Posten Livsstil i 2015.
+Morten Zacho [vurderer](https://jyllands-posten.dk/livsstil/familiesundhed/motion/ECE7680201/loebebaandet-motionscyklen-crosstraineren-eller-romaskinen/) de fire mest populære cardiomaskiner i forhold til kondition, forbrænding og styrke i Jyllands-Posten Livsstil i 2015.
 
 De fire populære cardiomaskiner han valgte at vurdere var en crosstrainer, motionscykel, romaskine og løbebånd. Kriterierne for at vurdere maskinerne er velvalgte, selvom de fleste har kondition og forbrænding som deres primære mål, når de bruger en kredsløbsmaskine.
 
 Styrke som parameter giver mest mening, hvis man laver meget korte og kraftfulde intervaller, fx 6-10 sekunders sprint, som kræver en maksimal kraftudvikling, eller nogle meget kraftfulde tag på fx romaskinen i intervaller op til et minuts tid.
 
-Marina Aagaard har også [vurderet de fire populære cardiomaskiner](http://marinaaagaardblog.com/2015/06/12/bedre-cardiotraening-disse-cardiomaskiner-giver-bedst-kondition-og-fedtforbraending/), og de følgende vurderinger baserer sig på en blanding af Aagaards, Zachos og mine egne vurderinger af cardiomaskinerne.
+[Marina Aagaard](https://marinaaagaardblog.com/2015/06/12/bedre-cardiotraening-disse-cardiomaskiner-giver-bedst-kondition-og-fedtforbraending/) har også vurderet de fire populære cardiomaskiner, og de følgende vurderinger baserer sig på en blanding af Aagaards, Zachos og mine egne vurderinger af cardiomaskinerne.
 
 ## Løbebånd
 
-{% include figure image_path="https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Løbebåndet er godt til at træne kondition og forbrænding" alt="Løbebånd er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Løbebåndet er godt til at træne kondition og forbrænding" alt="Løbebånd er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 Løbebåndet er rigtig godt at træne sin kondition på. Du kan let lave intervaller, hvor du kan arbejde meget præcist omkring din maksimale iltoptagelse eller anaerobe tærskel. Zacho vurderer da også løbebåndet som værende bedst til at træne kondition af de fire cardiomaskiner.
 
@@ -82,13 +82,13 @@ Jeg har skrevet lidt mere om [intervalløb](/intervallob-intervaltraening/) og [
 
 De fleste oplever, at det er mindre hårdt for knæene at løbe på løbebånd end udenfor. Jeg kan godt lide, at tempoet er sat, og man ikke skal tænke så meget over at holde tempoet. Men jeg har helt sikkert brug for lidt adspredelse undervejs, når jeg løber, så det ikke bliver kedeligt på løbebåndet.
 
-Jeg har skrevet endnu mere [om løbebåndet i forhold udendørs løb](/loebebaand-udendoers-loeb/), og hvis du har et løbebånd og en pulsmåler, så kan du fx også lave en [Bruce-test](/bruce-test/) til at finde din kondition. Du kan også lave en [2400-meter-test](/kondital-2400-meter/) eller [Cooper-test](/cooper-test/) på løbebåndet. Der skal du bare være opmærksom på, at dit udregnede kondital nok bliver lidt højere, da det er lidt lettere at løbe på løbebåndet.
+Jeg har skrevet endnu mere [om løbebåndet i forhold udendørs løb](/loebebaand-udendoers-loeb/). Hvis du har et løbebånd og en pulsmåler, så kan du fx også lave en [Bruce-test](/bruce-test/) til at finde din kondition. Du kan også lave en [2400-meter-test](/kondital-2400-meter/) eller [Cooper-test](/cooper-test/) på løbebåndet. Der skal du bare være opmærksom på, at dit udregnede kondital nok bliver lidt højere, da det er lidt lettere at løbe på løbebåndet.
 
 Jeg har skrevet en [guide til at vælge løbebånd](/guide-loebebaand/), som du med fordel kan læse, inden du vælger at investere i dit eget løbebånd.
 
 ## Romaskine
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=5" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 Morten Zacho vurderer, at romaskinen er bedst til at træne styrke. Det er dog især muskeludholdenheden, der bliver styrket ved romaskiner, og det kræver kraftfulde tag på romaskinen, hvis du decideret skal styrke dine muskler.
 
@@ -112,7 +112,7 @@ Når du første gang prøver en crosstrainer, så virker det ret unaturligt at f
 
 ## Motionscykel og kondicykel
 
-{% include figure image_path="https://images.unsplash.com/photo-1520877880798-5ee004e3f11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=5" caption="Motionscykel og kondicykel er godt til at træne kondition og forbrænding" alt="Motionscykel og kondicykel er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1520877880798-5ee004e3f11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="Motionscykel og kondicykel er godt til at træne kondition og forbrænding" alt="Motionscykel og kondicykel er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 En motionscykel, kondicykel, spinningcykel, wattbike eller lignende fungerer rigtig godt til konditionstræning og til at få en høj forbrænding. Morten Zacho vurderer, at kondicyklen er bedst til forbrænding af de fire populære cardiomaskiner. Hvis du gerne vil læse mere om det, så kan du læse lidt om [fedtforbrændingszonen](/fedtforbraendingszonen/) og [kontinuerlig træning eller intervaltræning er bedst for fedtforbrændingen](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/).
 
@@ -122,7 +122,7 @@ Det er rigtig let at gå i gang med en motionscykel og kondicykel. Der findes ma
 
 Jeg kan virkelig godt selv lide Wattbikes, da følelsen af at køre på dem minder utrolig meget om at køre på en almindelig cykel. Med Wattbikes kan man ramme [energisystemerne](/energisystemer/) på mange forskellige måder. Du kan både træne aerobt og anaerobt.
 
-Jeg kan godt lide at træne intervaller på cyklen. Fx kan [HIIT-intervaller elle High Intensity Interval Training]() virkelig give en intensiv træning. Marina Aagaard har [andre forskalg til intervaltræning](http://marinaaagaardblog.com/2013/01/06/intervaltraening-hiit-det-er-et-hit/).
+Jeg kan godt lide at træne intervaller på cyklen. Fx kan [HIIT-intervaller elle High Intensity Interval Training](/hiit/) virkelig give en intensiv træning. Marina Aagaard har [andre forskalg til intervaltræning](https://marinaaagaardblog.com/2013/01/06/intervaltraening-hiit-det-er-et-hit/).
 
 Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, så kan du også lave forskellige tests. Fx kan du finde dit kondital med en [Watt-max-konditest](/kondital-wattmax/). Det er også oplagt at prøve kræfter med [V<sub>max</sub>-træning](/vmax/), som for øvrigt også kan bruges på løbebåndet.
 

@@ -48,7 +48,7 @@ Hvis du træner før kroppen er fuldt restitueret, så vil du nedbryde kroppen y
 
 Det besværlige er at vide nøjagtigt, hvor lang tid man bør restituere.
 
-**Læs**: [Restitution: Hvornår kan jeg træne igen?](/restitution/)
+Læs: [Restitution: Hvornår kan jeg træne igen?](/restitution/)
 
 ## Hvad har betydning for restitutionstiden?
 
@@ -74,9 +74,9 @@ Det er meget individuelt, hvor lang tid det tager at restituere. Her giver vi et
 
 {% include figure image_path="/assets/images/restitution.png" caption="Restitutionstid for forskellige aktiviteter lige fra ang til maksimal sprint. Kilde: [Iform](https://iform.dk/traening/friske-muskler-i-en-fart)" alt="restitutionstid for forskellige aktiviteter" %}
 
-[Marina Aagaard](http://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) præsenterer restitutionstiden i denne overskuelige tabel.
+[Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) præsenterer restitutionstiden i denne overskuelige tabel.
 
-{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](http://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/)" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
+{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/)" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
 
 ### Restitutionstid for styrketræning
 
@@ -161,7 +161,7 @@ Der findes også mange gode råd og en masse udstyr, som lover, at du kan forkor
 - **Brug kompressionsstrømper til din restitution**. Det ser ud til at [kompressionsstrømper kan være en god ide](/kompressionsstroemper-restitution-praestation-bivirkninger/), når du vil forbedre din restitution og undgå anden-dags-ømhed.
 - **Aktiv hvile og restitutionstræning**. Aktiv hvile arbejder du med relativt lav intensitet i fx 10-20 minutter. Det kan være med til at forbedre restitutionsprocesserne.
 - **Udspænding** Tilsyneladende virker udspænding ikke på restitutionstiden - og udspænding [forhindrer heller ikke andendagsømhed](/udstraekning-udspaending/). Til gengæld hjælper det på _range of motion_ og bevægeligheden.
-- **Cold Water Immersion (CWI)**. Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge Versey et al. (2013) kunne ligge mellem 10 og 15 grader.
+- **Cold Water Immersion (CWI)**. Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge [Versey et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23743793/) kunne ligge mellem 10 og 15 grader.
 - **Massage**. [Massage](/massage/) er virkelig behageligt - og teoretisk set bør det være med til at afslappe musklerne. Det har så vidt jeg ved ikke kunnet påvises, at det forbedrer restitutionstiden.
 
 ## Konklusion

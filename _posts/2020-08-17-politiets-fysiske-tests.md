@@ -4,8 +4,8 @@ permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
 last_modified_at: 2020-08-17T09:41:09Z
 language: da
 header:
-  overlay_image: /assets/images/blog/politiets-fysiske-test.jpg
-  teaser: /assets/images/blog/politiets-fysiske-test.jpg
+  overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
+  teaser: /assets/images/blog/politiets-fysiske-test.jpeg
   caption: *title
 category:
   - Test

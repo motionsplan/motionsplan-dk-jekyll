@@ -1,6 +1,7 @@
 ---
 title: &title "Udregn pulszoner: Fra maxpuls, laktattærskel eller pulsreserve (Beregner)"
 seo_title: "Find dine pulszoner med vores beregner"
+description: "Har du brug for at udregne dine pulszoner? Her får du en beregner til at udregne træningszoner ud fra din maxpuls, laktattærksel eller pulsreserve."
 excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:
@@ -92,7 +93,7 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
-De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsværdier, som er sat i forhold til hans løbeformer og den maksimale puls. Dem har vi forsøgt at tilpasse til denne beregner. Hvis du kender nogle bedre standarder for intensitet i forhold til maxpuls, så skriv endelig.
+De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsværdier, som er sat i forhold til hans løbeformer og [den maksimale puls](/test-max-puls/). Dem har vi forsøgt at tilpasse til denne beregner. Hvis du kender nogle bedre standarder for intensitet i forhold til maxpuls, så skriv endelig.
 
 Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
 

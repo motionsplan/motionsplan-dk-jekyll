@@ -17,13 +17,12 @@ tags:
   - kalorieberegner
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
-toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -250,7 +249,7 @@ Jeg har foreløbigt valgt nogle af de mest brugte formler i beregneren, men tilp
 
 ## Hvordan måles BMR, hvilestofskiftet og basalstofskiftet?
 
-Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://web.archive.org/web/20110606134040/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
+Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](https://web.archive.org/web/20110606134040/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
 
 De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.
 
@@ -308,7 +307,7 @@ eller
 
 I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
-Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg]({% link _posts/2019-10-14-kropskomposition.md %}) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
+Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg](/kropskomposition/) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
 Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
 
@@ -340,6 +339,6 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 - Sabounchi, Nasim S., Hazhir Rahmandad, og Alice Ammerman. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. International journal of obesity (2005) 37 (10): 1364–70. <https://doi.org/10.1038/ijo.2012.218>.
 - Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
 - Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. <https://doi.org/10.1139/apnm-2018-0412>.
-- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
+- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
 - Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). <https://doi.org/10.3389/fphys.2013.00090>.
 </details>

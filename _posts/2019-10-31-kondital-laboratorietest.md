@@ -73,7 +73,7 @@ På baggrund af ovenstående, er det muligt at estimere en række træningszoner
 
 {% include figure image_path="https://testcenter.vih.dk/assets/images/traeningszoner.jpg" caption="Puls og løbehastighedszoner" alt="Puls og løbehastighedszoner og løbeøkonomi" %}
 
-En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder]({% link _posts/2019-12-16-running-economy.md %}).
+En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder](/lobeokonomi/).
 
 ## Maksimal iltoptagelsestest
 
@@ -86,6 +86,6 @@ Vi opererer typisk med fire indikatorer på, om man har opnået sin maksimale yd
 1. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden.
 2. Den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
 3. Laktatmåling skal være over 8 mmol.
-4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls]({% link _posts/2020-06-02-max-hr.md %}).
+4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
 
 Når alle ovenstående indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale.

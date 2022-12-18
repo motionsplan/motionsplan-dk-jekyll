@@ -99,11 +99,11 @@ Der er flere fordele ved at bruge pulsreserven som udgangspunkt for din træning
 
 > "Procent af pulsreserven" giver den bedste beskrivelse af intensiteten og er i bedre overensstemmelse med den intensitet der beregnes, når man laver direkte måling af iltoptagelsen.
 
-— <cite>[Morten Zacho](http://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"}</cite>
+— <cite>[Morten Zacho](https://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"}</cite>
 
 Hvis du tager en person som har en hvilepuls på 60 og en maxpuls på 200 slag i minuttet, så er det yderpunkterne for hjertes præstationsevne. 60 slag i minuttet er lig med absolut hvile, mens 200 slag i minuttet er lig med maksimalt arbejde.
 
-Ifølge [Morten Zacho](http://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"} er det også typisk pulsreserven, der bruges i videnskabelige tekster, når forskerne måler intensitet i forhold puls.
+Ifølge [Morten Zacho](https://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"} er det også typisk pulsreserven, der bruges i videnskabelige tekster, når forskerne måler intensitet i forhold puls.
 
 ## Pulstræning ud fra maxpulsen
 
@@ -139,7 +139,7 @@ Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive
 
 ## Pulstræning i praksis
 
-Uanset hvordan du laver pulstræning, skal du først **fastlægge din maxpuls** med en test. Du kan udregne den, men det er ikke særlig præcist, fordi maxpulsen i høj grad er individuel. Vi har foreslået en [effektiv måde at teste maxpulsen]({% link _posts/2020-06-02-max-hr.md %}), som du kan lave med et pulsur. Husk at en maxpuls test er en maksimal kraftanstrengelse.
+Uanset hvordan du laver pulstræning, skal du først **fastlægge din maxpuls** med en test. Du kan udregne den, men det er ikke særlig præcist, fordi maxpulsen i høj grad er individuel. Vi har foreslået en [effektiv måde at teste maxpulsen](/test-max-puls/), som du kan lave med et pulsur. Husk at en maxpuls test er en maksimal kraftanstrengelse.
 
 Hvis du baserer din træning på maxpulsen, så har du faktisk alt hvad du skal bruge, inden du kan dykke ned i de enkelte pulszoner.
 

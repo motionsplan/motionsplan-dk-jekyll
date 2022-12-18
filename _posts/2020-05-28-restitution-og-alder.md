@@ -28,7 +28,7 @@ Restitution forstås her som perioden mellem to træningspas. Det er i denne gen
 
 Når du bliver for ivrig i din træning, så risikerer du at føle dig træt, ikke have fremgang eller blive skadet. Har din dåbsattest nogen betydning for, hvordan din restitution ser ud?
 
-**Læs**: [Restitution: Komplet guide til kroppens genopbygning](/restitution/)
+Læs: [Restitution: Komplet guide til kroppens genopbygning](/restitution/)
 
 ## Restitutionstid og alder
 
@@ -40,7 +40,7 @@ Restitutionstiden skal med andre ord være passende, så du hele tiden kan forts
 
 Uanset hvilken alder du har, så har du brug for at gennemgå denne cyklus mellem nedbrydning og opbygning. Spørgsmålet er, om alderen har noget at sige i forhold til, hvor lang restitutionstiden bliver?
 
-**Læs**: [Restitutionstid: Hvor hurtigt kan du træne igen?](/restitutionstid/)
+Læs: [Restitutionstid: Hvor hurtigt kan du træne igen?](/restitutionstid/)
 
 ## Hvor lang tid tager det at restituere med alderen?
 

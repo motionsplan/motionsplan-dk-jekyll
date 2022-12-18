@@ -37,4 +37,4 @@ I denne beregner kan du hurtigt udregne, hvor langt du skal løbe på et interva
 
 ## Konklusion
 
-Jeg håber du kunne bruge beregneren til at udregne, hvor langt du skal løbe på de enkelte intervaller. Når jeg planlægger [intervalløb]({% link _posts/2020-06-15-intervallob.md %}), så foretrækker jeg at bruge tidsintervaller. Derfor er denne beregner meget anvendelig.
+Jeg håber du kunne bruge beregneren til at udregne, hvor langt du skal løbe på de enkelte intervaller. Når jeg planlægger [intervalløb](/intervallob-intervaltraening/), så foretrækker jeg at bruge tidsintervaller. Derfor er denne beregner meget anvendelig.

@@ -22,7 +22,7 @@ Når du vurderer træningsprogrammer og laver din egen træningsplan, så er det
 
 Det er ganske enkelt de gyldne regler om træning, som du bør kende, når du går i gang med at forberede din træning. Reglerne gælder ganske enkelt uanset om du træner [styrketræning](/styrketraening/), [konditionstræning](/kondition/) eller [løbetræning](/loebesiden/).
 
-{% include figure image_path="https://images.unsplash.com/photo-1541757088-1c919081357f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="At planlægge sin træning er i høj grad en balancegang. Derfor er det godt at følge nogle træningsprincipper." alt="træningsprincipper skal balanceres" %}
+{% include figure image_path="https://images.unsplash.com/photo-1541757088-1c919081357f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="At planlægge sin træning er i høj grad en balancegang. Derfor er det godt at følge nogle træningsprincipper." alt="træningsprincipper skal balanceres" %}
 
 ## 1. Regelmæssig træning
 

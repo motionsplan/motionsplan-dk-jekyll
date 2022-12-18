@@ -15,6 +15,9 @@ header:
 author_profile: true
 author: lsolesen
 toc: true
+category:
+  - Træningsformer
+breadcrumbs: true
 feature_row_strength:
   - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
     alt: "RepOne device"
@@ -53,13 +56,13 @@ Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del
 
 Styrketræning består typisk af en række forskellige øvelser. Vi har samlet de bedste træningsøvelser med forklaringer her på siden.
 
-Du kan finde [maveøvelser]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [brystøvelser]({% link _pages/exercises-tag-bryst.md %}), [baldeøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}), [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}), så har vi lavet en selvstændig side om de muskelgrupper.
+Du kan finde [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper.
 
 Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvelser](/traeningsoevelser/).
 
 ## Styrketræning program og træningsprogram
 
-Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer](/traeningsprogrammer/).
+Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/traeningsprogrammer/).
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | sort: "date" %}
 
@@ -147,28 +150,14 @@ Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020
 
 </div>
 
-## Eric Helms Strength Training Pyramid
+## Eric Helms Styrketræningspyramide
 
 Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er skrevet af Eric Helms.
 
 Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning. Du kan se pyramiden nedenunder.
 
-Vi er i færd med at skrive artikler, så du kan blive klogere på sammensætningen af din styrketræning.
-
 {% include strength-pyramid.html nav="strength" %}
 
-## Styrketræningspyramiden
+Jeg har skrevet uddybdende om [træningspyramiden til styrketræning](/traeningspyramiden-styrketraening/). Styrketræningspyramiden er en måde at prioritere de vigtigste indsatser på, når du laver styrketræning.
 
-Eric Helms beskriver selv træningspyramiden i følgende helt fremragende videoserie.
-
-{% include video provider="youtube" id="OWmchPCyDvw" %}
-
-{% include video provider="youtube" id="Dl8v6frDJHc" %}
-
-{% include video provider="youtube" id="nun-vSQV6wU" %}
-
-{% include video provider="youtube" id="XMpntp3TqSA" %}
-
-{% include video provider="youtube" id="_C_7n704rvc" %}
-
-{% include video provider="youtube" id="CM3Kgp9c7PE" %}
+Eric Helms fortæller selv om træningspyramiden i en helt [fremragende videoserie](/traeningspyramiden-styrketraening/).

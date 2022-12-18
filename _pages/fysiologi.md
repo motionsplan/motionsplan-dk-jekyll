@@ -24,7 +24,7 @@ feature_row:
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -34,7 +34,7 @@ gallery:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
     title: Det respiratoriske system - Anatomi plakat
-  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
+  - image_path: "https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
     title: "Blodkredsløbet - Anatomi plakat"
     vendor: "Citatplakat.dk"
@@ -44,6 +44,7 @@ gallery:
     discounted: false
     id: "59381"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Fysiologi er studiet af, hvordan kroppen fungerer. Den ser på, hvordan de forskellige organsystemer fungerer under normale forhold, men også under fysisk aktivitet.
@@ -68,7 +69,7 @@ Studiet af træningsfysiologi hjælper os med at forstå, hvordan kroppen funger
 
 Anatomi er studiet af kroppens opbygning og fysiske struktur, mens fysiologi er studiet af, hvordan kroppen og kroppens strukturer fungerer.
 
-**Læs**: [Hvad er forskellen på anatomi og fysiologi?](/forskel-anatomi-fysiologi/)
+{% include readmore.html title="Hvad er forskellen på anatomi og fysiologi?" url="/forskel-anatomi-fysiologi/" %}
 
 ## Kroppens fysiologiske overlevelsesmekanismer
 
@@ -82,7 +83,7 @@ Disse tre fysiologiske principper påvirkes hver dag af de aktiviteter, vi foret
 
 ## Det anaerobe og aerobe energisystem
 
-Kroppen har [to energisystemer](/energisystemer/) til at skabe energi til musklernes bevægelser. Det er godt at sætte sig ind i begge energisystemer. Det er nemlig først når du kender energisystemerne, at du kan planlægge den [aerobe træning]({% link _posts/2021-06-19-aerob-traening.md %}) og [anaerobe træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Kroppen har [to energisystemer](/energisystemer/) til at skabe energi til musklernes bevægelser. Det er godt at sætte sig ind i begge energisystemer. Det er nemlig først når du kender energisystemerne, at du kan planlægge den [aerobe træning]({% link _posts/2021-06-19-aerob-traening.md %}) og [anaerobe træning](/anaerob-traening/).
 
 ## Nervesystemet
 
@@ -143,9 +144,9 @@ Læs videre for at få endnu mere at vide om de forskellige typer fysiologiske t
 
 Jeg har lavet en lille quiz med [Kend din krop](/kend-din-krop/), hvor der også er nogle fysiologiske spørgsmål. Svarene på spørgsmålene, kan du finde i nogle af vores fysiologiske beregnere, fx:
 
-- [Hvor meget blod har mennesket? [Beregner]](/hvor-meget-blod-har-mennesket/)
-- [Lunger: Hvor stor er din lungekapacitet? [Beregner]](/lunger-lungekapacitet/)
-- [Udregn hvor meget vand du har i kroppen [Beregner]?](/vand-i-kroppen/)
+- [Hvor meget blod har mennesket? (Beregner)](/hvor-meget-blod-har-mennesket/)
+- [Lunger: Hvor stor er din lungekapacitet? (Beregner)](/lunger-lungekapacitet/)
+- [Udregn hvor meget vand du har i kroppen (Beregner)?](/vand-i-kroppen/)
 
 Hvis du savner nogle andre beregnere, så kan du kigge under oversigten over [alle beregnere](/beregnere-tests/).
 

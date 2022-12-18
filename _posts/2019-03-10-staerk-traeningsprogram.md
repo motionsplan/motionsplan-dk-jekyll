@@ -119,7 +119,7 @@ Den højfrekvente træning vil være ny for mange, og det kræver tålmodighed a
 
 I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin tid, når man går i gang med træningen.
 
-Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max]({% link _posts/2019-10-16-1rm-beregner.md %}) ud fra en 5RM test.
+Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max](/rm-maxtest/) ud fra en 5RM test. Vi har lavet en [1RM-beregner](/rm-beregner/).
 
 Køb Stærk hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" } eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="sponsored nofollow noopener" class="btn btn--large btn--info" }
 
@@ -130,7 +130,7 @@ Programmet er delt op i to faser, der hver tager 8 uger:
 
 Træningsprogrammet tager typisk mellem 1-2 timer, da der er rigtig mange sæt og gentagelser, og du skal have lidt pause undervejs. I begyndelsen af programmet er vægtene ikke så tunge, og der kan du lave pauserne lidt kortere, mens du senere får brug for lidt længere pauser.
 
-For hver dag i styrketræningsprogrammet er det angivet, hvilke muskelgrupper du med fordel kan træne som suppleringsøvelser. Det er en rigtig god ide i hvert fald at afsætte lidt tid i programmet til de små skuldermuskler og lidt aktivt horisontalt træk, som forskellige [træk og rows-varianter]({% link _posts/2020-07-06-rows.md %}), men det kan også anbefales at lave nogle [unilaterale øvelser]({% link _posts/2010-03-09-unilateral-traening.md %}), da programmet fokuserer meget på bilaterale øvelser.
+For hver dag i styrketræningsprogrammet er det angivet, hvilke muskelgrupper du med fordel kan træne som suppleringsøvelser. Det er en rigtig god ide i hvert fald at afsætte lidt tid i programmet til de små skuldermuskler og lidt aktivt horisontalt træk, som forskellige [træk og rows-varianter](/rows/), men det kan også anbefales at lave nogle [unilaterale øvelser]({% link _posts/2010-03-09-unilateral-traening.md %}), da programmet fokuserer meget på bilaterale øvelser.
 
 Den overordnede progression i programmet giver en god ide om, hvordan programmet er bygget op. Hvis du vil kende alle detaljerne om, hvordan programmet er skruet sammen for de enkelte variationer, og hvad det nøjagtigt betyder for antallet af sæt og gentagelser, må du købe bogen.
 

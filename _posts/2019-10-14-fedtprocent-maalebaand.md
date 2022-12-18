@@ -17,15 +17,13 @@ tags:
   - fedtprocent
   - test
   - kropskomposition
-  - skinfold
 last_modified_at: 2019-03-06T23:14:14Z
-toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology_bs_9781451193831"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology_bs_9781451193831"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -56,6 +54,8 @@ McArdle og Katch (2010) algoritme tager højde for køn og alder.
 Formlerne bag måling af fedtprocent med målebånd er lavet af McArdle og Katch (2010), og hvis du vil have en engelsk side om målingerne kan du kigge på [www.brianmac.co.uk](https://www.brianmac.co.uk/fatgirth.htm).
 
 Nu har du mulighed for at sammenligne dig selv med, hvad [mænds og kvinders fedtprocent normalt er](/fedtprocent-normer/)?
+
+Jeg har også beskrevet andre måder at [beregne din fedtprocent](/artikel/udregning-af-fedtprocent/) på baggrund af din vægt, alder og din højde.
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }

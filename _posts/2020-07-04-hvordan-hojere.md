@@ -56,11 +56,11 @@ Du har garanteret set højde-kurver før. Med vækstkurver kan du sammenligne di
 
 ### Vækstkurven for drenge:
 
-{% include figure image_path="https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF](http://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/)" %}
+{% include figure image_path="https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/)" %}
 
 ### Vækstkurven for piger:
 
-{% include figure image_path="https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF](http://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/)" %}
+{% include figure image_path="https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/)" %}
 
 ## Hvordan har udviklingen historisk været i gennemsnitshøjden?
 
@@ -124,7 +124,7 @@ Din højde bestemmes først og fremmest af genetiske faktorer. Hvis din familie 
 
 Når tingene er genetiske, så kan man også regne lidt på det. Sundhed.dk har lavet en [beregner](https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/vaekst-hos-barnet/), hvor du på baggrund af din fars og mors højde kan få et bud på, hvor høj du selv bliver. Den kunne faktisk gætte min egen højde på centimeteren, men den virker nok ikke så godt for alle.
 
-Du kan læse mere om baggrunden bag beregneren på [Rigshosptalets Vækstkurver](http://www.xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html).
+Du kan læse mere om baggrunden bag beregneren på [Rigshosptalets Vækstkurver](https://www.xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html).
 
 ## Hvordan bliver jeg højere?
 
@@ -233,7 +233,7 @@ Her er et par gode forslag til øvelser:
 
 ## Stræk kroppen ved at hænge fra en stang
 
-At hænge fra en stang er også en oplagt måde til at strække sig. Jeg har sat [en stang op i min døråbning](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' }, som jeg primært bruger til at [træne pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), men jeg bruger den også ofte bare til at hænge i. Jeg griber jeg bare fat i stangen og hænger så længe jeg kan for at få udspændt ryggen.
+At hænge fra en stang er også en oplagt måde til at strække sig. Jeg har sat [en stang op i min døråbning](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' }, som jeg primært bruger til at [træne pullups og chinups](/chinup-vs-pullup/), men jeg bruger den også ofte bare til at hænge i. Jeg griber jeg bare fat i stangen og hænger så længe jeg kan for at få udspændt ryggen.
 
 Jeg har ejet lidt forskellige pullup bars til døråbninger, men man kan helt sikkert købe dem for billige. Jeg synes [den her pull up bar fra Fitwood](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' } har et ret fedt design, den er ret stabil, og den er let at sætte op og pille ned igen. Du kan [tjekke prisen på Fitwood pullup bar hos Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' }. Jeg har også haft denne [pullupbar fra c9 fra Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pull-up-bar){: rel='sponsored nofollow noopener' }, som er lidt billigere og forskellige grebsmuligheder, når du vil hænge i den.
 

@@ -19,7 +19,7 @@ sidebar:
 
 {{ page.excerpt }}
 
-Din bagkæde bliver trænet i mange forskellige bevægelser. Vi har lavet en anden oversigt med en [oversigt over alle benøvelser]({% link _pages/exercises-tag-ben.md %}).
+Din bagkæde bliver trænet i mange forskellige bevægelser. Vi har lavet en anden oversigt med en [oversigt over alle benøvelser](/benoevelser/).
 
 ## Hængselsbevægelsen og _hinge_
 

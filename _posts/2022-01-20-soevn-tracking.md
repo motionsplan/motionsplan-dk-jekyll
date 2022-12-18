@@ -77,7 +77,7 @@ Jeg vil dog mene, at du skal være varsom med at lægge dit liv efter resultater
 
 [Mouritzen et al (2020)](https://pubmed.ncbi.nlm.nih.gov/33306678/) undersøgte Garmin Vivosmart 4 i forhold professionelt søvnmålingsudstyr. Uret kan ikke pålideligt beskrive søvnarkitekturen, men være med til at detektere ændringer i *sleep onset*, søvn og *total sleep time*, når man følger den samme gruppe over længere tid.
 
-{% include figure image_path="https://images.unsplash.com/photo-1510017803434-a899398421b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="De fleste aktivitetstrackere reklamerer med, at de kan måle søvnen. Det virker nogenlunde pålidelige i forhold søvnlængde, og om man er vågen eller sover, men de er ikke pålidelige til at måle søvnfaserne i søvncyklus." %}
+{% include figure image_path="https://images.unsplash.com/photo-1510017803434-a899398421b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="De fleste aktivitetstrackere reklamerer med, at de kan måle søvnen. Det virker nogenlunde pålidelige i forhold søvnlængde, og om man er vågen eller sover, men de er ikke pålidelige til at måle søvnfaserne i søvncyklus." %}
 
 ## Oura Ring
 

@@ -19,23 +19,35 @@ garmin_metronom:
   - image_path: /assets/images/blog/lobekadence-garmin-metronom-3.jpg
 ---
 
+Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber? Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber.
+
 Jeg kigger i dette indlæg på, hvad den gennemsnitlige skridtlængde er for mænd og kvinder ved løb, og hvilken kadence (løbekadence) folk typisk løber med - altså hvor mange skridt, løbere tager i minuttet.
 
-Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber? Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber. Men din kadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil]({% link _posts/2020-08-16-loebeteknik.md %}) og kan også være med til at bestemme din [løbeøkononomi]({% link _posts/2019-12-16-running-economy.md %}). Nogle kobler også din kadence sammen med skadesrisikoen, fx i [Schubert et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000471/).
+Men din kadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil](/loebeteknik/) og kan også være med til at bestemme din [løbeøkononomi](/lobeokonomi/).
 
-[Heiderscheit (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3022995/) konkluderer, at forøgelsen af kadencen med 5-10% i forhold til den nuværende kadence kan være med til at skabe mindre belastning på knæ- og hofteled, en mindre forskydning af tyngdepunktet og mindre bremsekraft i forbindelse med landingen. Den øgede kadence sænkede imidlertid også skridtlængden, hvilket potentielt kan gøre din løbehastighed kortere.
+Lad os kigge på både løbekadence og skridtlængde, og hvad der er mest betydningsfuldt for at have fornøjelse af løb på den lange bane.
 
-Lad os kigge på både løbekadence og skridtlængde, og hvad der er mest betydningsfuldt for at have fornøjelse af løb på den lange bane. Jeg tror, at du skal arbejde allermest med løbekadencen, indtil den er blevet optimal, men døm selv, når du læser videre.
+Du skal nok først arbejde med løbekadencen, inden du arbejder med skridtlængden, men døm selv, når du læser videre.
 
 {% include figure image_path=page.header.overlay_image caption=page.title alt="skridtlængde og kadence ved løb og løbekadence" %}
 
 ## Hurtigere løber – skridtlængde eller kadence?
 
-Løb er jo defineret ved, at man har en svævefase. Når man tager færre skridt i minuttet, så vil tiden i luften - i svævefasen - være længere pr. minut. [Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/) skriver, at man derved som begynder kommer højere op i luften for hvert skridt. Det betyder samtidig, at belastningen ved landingen også er større. Netop landingen efter hver svævfase er med til at belaste kroppen mange gange ens kropsvægt.
+Løb er jo defineret ved, at man har en svævefase. Når du tager færre skridt i minuttet, så vil tiden i luften - i svævefasen - være længere pr. minut.
+
+[Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" } skriver, at man derved som begynder kommer højere op i luften for hvert skridt. Det betyder samtidig, at belastningen ved landingen også er større.
+
+Netop landingen efter hver svævefase er med til at belaste kroppen mange gange din egen kropsvægt.
+
+## Løbekadence og skader
+
+Nogle kobler også din kadence sammen med skadesrisikoen, fx i [Schubert et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000471/).
+
+[Heiderscheit (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3022995/) konkluderer, at forøgelsen af kadencen med 5-10% i forhold til den nuværende kadence kan være med til at skabe mindre belastning på knæ- og hofteled, en mindre forskydning af tyngdepunktet og mindre bremsekraft i forbindelse med landingen. Den øgede kadence sænkede imidlertid også skridtlængden, hvilket potentielt kan gøre din løbehastighed kortere.
 
 ## Løbekadence: Hvor mange skridt tager løbere gennemsnitligt pr. minut?
 
-[Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/) skriver, at de fleste eliteløbere løber med nogenlunde samme kadence i løb. Eliteløbernes kadence måles gennemsnitligt til 182 skridt i minuttet. Hvis du måler kadencen på begynderløbere, så er deres kadence typisk noget lavere - faktisk helt op til 25-30 skridt færre pr. minut.
+[Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" } skriver, at de fleste eliteløbere løber med nogenlunde samme kadence i løb. Eliteløbernes kadence måles gennemsnitligt til 182 skridt i minuttet. Hvis du måler kadencen på begynderløbere, så er deres kadence typisk noget lavere - faktisk helt op til 25-30 skridt færre pr. minut.
 
 Løbecoach, Jonas Pedersen, viser i denne Youtube video forskellen mellem at løbe med 160 skridt i minuttet, som er meget typisk for motionister og 180 skridt i minuttet, som eliteløbere gør.
 
@@ -47,7 +59,7 @@ Både skridtlængden og kadencen har selvfølgelig betydning for din hastighed. 
 
 ## Hvordan kommer du i gang med at arbejde med din løbekadence?
 
-For at blive en hurtigere løber skal du enten tage flere skridt eller tage længere skridt. Langt de fleste løbecoaches vil starte med kadencen. Først kan du prøve at tælle din løbekadence. Hvor mange skridt tager du pr. minut? Hvis din kadence er under 180, så foreslår [Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/), at du forestiller dig, at dine ben er hjul, der bare kører afsted.
+For at blive en hurtigere løber skal du enten tage flere skridt eller tage længere skridt. Langt de fleste løbecoaches vil starte med kadencen. Først kan du prøve at tælle din løbekadence. Hvor mange skridt tager du pr. minut? Hvis din kadence er under 180, så foreslår [Aktiv Motion](https://web.archive.org/web/20191230183153/http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/){: rel="nofollow noopener" }, at du forestiller dig, at dine ben er hjul, der bare kører afsted.
 
 [van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/) undersøgte rekreative løbere og kadencen. Selvom det ser ud til, at 180 fungerer godt for eliteløbere, så er det tvivlsomt, at den kadence er bedst for alle. De fik folk til at løbe med forskellige kadence og forsøgte at finde løbernes optimale kadence i forhold til pulsen.
 
@@ -83,7 +95,7 @@ Når du har løbet med metronom nogle uger, så kan det være en fordel at sætt
 
 Der findes et utal af metronomer til både Android og IOS. Jeg synes Soundbrenner virker meget godt og har et fint interface.
 
-Det er også derfor, at det betyder noget, hvilket [musik du vælger til din løbetræning]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Hvis du vælger musik med en for langsom rytme, så kan du risikere at sætte din løbekadence ned.
+Det er også derfor, at det betyder noget, hvilket [musik du vælger til din løbetræning](/artikel/musik-til-traeningen/). Hvis du vælger musik med en for langsom rytme, så kan du risikere at sætte din løbekadence ned.
 
 Nyere løbeure måler også løbekadencen for dig. Du kan sætte løbekadencen på et af dine skærmbilleder, så du kan holde styr på den undervejs. På flere af de moderne løbeure er der også en metronom, du kan bruge.
 
@@ -124,27 +136,35 @@ Hvis du som 5- og 10-km-løber også kan tage lidt længere skridt, men holde de
 
 Styrketræning er effektivt både til at forebygge skader, forbedre løbeøkonomien og til at få længere skridt. Særligt kan du vælge squat og lunges med en relativt tung vægt. Fx kan du forbedre styrken uden at tage for meget muskelmasse ved at arbejde med en høj intensitet i forhold til [1RM max](/rm-beregner/). Denne måde at lave styrketræning på rammer hovedsageligt det neuromuskulære system og gør musklerne stærkere.
 
-[Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/) undersøgte en mindre interventionsgruppe, der lavede fire sæt med fire gentagelser af halve squats med 3 mintuters pause mellem hvert sæt. De trænede 3 dage om ugen i 8 uger ud over deres normale udholdenhedstræning. Progressionen foregik ved, at hvis løberne kunne lave fem gentagelser i et sæt, så blev der sat 2,5 kg mere på i næste sæt. Kontrolgruppen fortsatte bare deres almindelige løbetræning.
+[Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/) undersøgte en mindre interventionsgruppe, der lavede fire sæt med fire gentagelser af halve squats med 3 minutters pause mellem hvert sæt. De trænede 3 dage om ugen i 8 uger ud over deres normale udholdenhedstræning. Progressionen foregik ved, at hvis løberne kunne lave fem gentagelser i et sæt, så blev der sat 2,5 kg mere på i næste sæt. Kontrolgruppen fortsatte bare deres almindelige løbetræning.
 
 > The intervention manifested significant improvements in 1RM (33.2%), RFD (26.0%), RE (5.0%), and time to exhaustion at MAS (21.3%). No changes were found in VO2max or body weight. The control group exhibited no changes from pre to post values in any of the parameters.
 
 — <cite>[Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/)</cite>
 
-Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løbeøskonomien og forbedrede tiden til udmattelse ved den maksimale aerobe hastighed (MAS) for allerede veltrænede langdistanceløbere..
+Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løbeøskonomien og forbedrede tiden til udmattelse ved den maksimale aerobe hastighed (MAS) for allerede veltrænede langdistanceløbere.
 
 *[MAS]: Maximal Aerobic Speed
 
-[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det [plyometrisk træning](/plyometrisk-traening/) og styrketræning med mindre intensitet også kan være gavnligt for løbeøknomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
+[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det [plyometrisk træning](/plyometrisk-traening/) og styrketræning med mindre intensitet også kan være gavnligt for løbeøkonomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
 
-Det er dog ikke sikkert, at styrketræning virker for alle målgrupper. Fx fandt [Ferrauti et al (2010)](https://pubmed.ncbi.nlm.nih.gov/20885197/), at maraton-motionister ikke havde gavnlig effekt på løbeøkonomien efter et 8-ugers træningsforløb med styrketræning, selvom benstyrken blev signifikant forbedret undervejs. Forskerne foreslår, at interventionsperioden var for kort, eller der ikke var nok deltagere med i studiet. Det kan imidlertid også være, fordi styrken i benene ikke var næste skridt til at forbedre disse løberes løbeøkonomi, men en teknikændring var nødvendig først.
+Det er dog ikke sikkert, at styrketræning virker for alle målgrupper. Fx fandt [Ferrauti et al (2010)](https://pubmed.ncbi.nlm.nih.gov/20885197/), at maraton-motionister ikke havde gavnlig effekt på løbeøkonomien efter et 8-ugers træningsforløb med styrketræning, selvom benstyrken blev signifikant forbedret undervejs.
 
-Baseret på disse studier, så vil jeg anbefale tung styrketræning for at forbedre skridtlængden og løbeøkonomien. Det betyder at 3-5 gentagelser med 3-5 sæt, hvor du har 1-3 gentagelser tilbage i tanken efter at have lavet sættene. Det kan man også skrive som 3-5 x 3-5 @ RPE 7-9. Det er formentlig nok at lave kvarte squats for at få effekterne, men jeg ville kombinere det med bevægelser i større bevægelsesudslag.
+Forskerne foreslår, at interventionsperioden var for kort, eller der ikke var nok deltagere med i studiet. Det kan imidlertid også være, fordi styrken i benene ikke var næste skridt til at forbedre disse løberes løbeøkonomi, men en teknikændring var nødvendig først.
 
-### Bakkesprints
+Baseret på disse studier, så vil jeg anbefale tung styrketræning for at forbedre skridtlængden og løbeøkonomien. Det betyder at 3-5 gentagelser med 3-5 sæt, hvor du har 1-3 gentagelser tilbage i tanken efter at have lavet sættene.
 
-Bakkesprints er med til at øge din styrke og gøre de enkelte skridt mere kraftfulde. Det kan du omsætte til din almindelige løbe, hvor der kan komme mere kraft på. En af fordelene ved bakkesprints er også, at du har knap så meget [excentrisk arbejde]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), og derfor kan du holde til nogle gentagelser. Du skal dog også huske din [excentriske træning]({% link _posts/2020-08-24-excentrisk-traening.md %}), fordi den kan være med til at beskytte musklerne og leddene og gøre din teknik endnu mere effektiv.
+Det kan man også skrive som 3-5 x 3-5 @ RPE 7-9.
 
-### Løbeteknik
+Det er formentlig nok at lave kvarte squats for at få effekterne, men jeg ville kombinere det med bevægelser i større bevægelsesudslag.
+
+Læs: [Styrketræning til løb: Øvelser og effekt](/styrketraening-til-loeb/)
+
+### 2. Bakkesprints
+
+Bakkesprints er med til at øge din styrke og gøre de enkelte skridt mere kraftfulde. Det kan du omsætte til din almindelige løbe, hvor der kan komme mere kraft på. En af fordelene ved bakkesprints er også, at du har knap så meget [excentrisk arbejde]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), og derfor kan du holde til nogle gentagelser. Du skal dog også huske din [excentriske træning](/excentrisk-traening/), fordi den kan være med til at beskytte musklerne og leddene og gøre din teknik endnu mere effektiv.
+
+### 3. Løbeteknik
 
 Der findes et hav af løbetekniske øvelser, som kan være med til at forbedre din skridtlængde.
 
@@ -174,7 +194,7 @@ Det med at træne skridtlængden og løbekadencen er faktisk lidt svært. Først
 
 Men har du mod på det, kan du give det et forsøg
 
-Vil du optimere din løbetræning yderligere? Artiklen[Grundlæggende intervaltræning – guide til intervaltræning!](http://aktivmotion.dk/grundl%c3%a6ggende-intervaltr%c3%a6ning-%e2%80%93-guide-til-intervaltr%c3%a6ning/)anbefales herfra. Er du til intervaltræning og hurtig fremgang, skal du næsten også læse:[Den bedste intervaltræning](http://aktivmotion.dk/den-bedste-intervaltr%c3%a6ning-til-l%c3%b8b/)
+Vil du optimere din løbetræning yderligere? Artiklen[Grundlæggende intervaltræning – guide til intervaltræning!](http://aktivmotion.dk/grundl%c3%a6ggende-intervaltr%c3%a6ning-%e2%80%93-guide-til-intervaltr%c3%a6ning/)anbefales herfra. Er du til intervaltræning og hurtig fremgang, skal du næsten også læse: [Den bedste intervaltræning](http://aktivmotion.dk/den-bedste-intervaltr%c3%a6ning-til-l%c3%b8b/)
 
 ***
 

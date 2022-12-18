@@ -84,7 +84,7 @@ De generelle anbefalinger undervurderer formentlig behovet for protein for lette
 
 Hvis du ikke får dækket dit proteinbehov gennem kosten, så kan man tage proteinpulver som kosttilskud. Særligt valleprotein har pga. sit høje indhold af bl.a. leucin og et komplet spektrum af andre essentielle aminosyrer medfører et højt respons i muskelproteinsyntesen i forhold til dosis.
 
-**Timing** af proteindtaget er tilsyneladende også et vigtigt parameter.
+**Timing** af proteinindtaget er tilsyneladende også et vigtigt parameter.
 
 [Bodylab](https://www.bodylab.dk/shop/boer-vi-i-2559c1.html) foreslår, at vi bør tale om proteinindtag pr. måltid og ikke pr. dag. Proteinindtaget bør formentlig fordeles på 4-5 måltider over dagen, og dosis inden sengetid er dobbelt så stor som de øvrige måltider (Trommelen og Loon 2016).
 
@@ -122,6 +122,8 @@ Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 10
 
 Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en rigtig god indføring om, hvad kreatin er og hvordan det virker? på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
 
+Læs: [Kreatin: Det bedste og billigste kosttilskud?](/kreatin/)
+
 ## 3. Koffein
 
 Den primære effekt af koffein som kosttilskud er en træthedsbekæmpende effekt, som gør, at du kan arbejde hårdere i din træning.
@@ -146,7 +148,9 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
 
-— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
+— <cite>Nikolaj Bach i [Træningstimen](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/) om Kosttilskud</cite>
+
+Læs: [Koffein og træning: Hvordan virker det og hvor meget?](/koffein/)
 
 ## 4. D-vitamin
 

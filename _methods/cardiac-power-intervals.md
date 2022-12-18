@@ -36,7 +36,7 @@ Cardiac power intervals giver træneren mulighed for at coache teknik under træ
 Generelle retningslinjer for cardiac power intervaller:
 
 - Få pulsen op på maxpulsen samtidig med at du fastholder god teknik.
-- Fasthold pulsen på den maksimale puls i omkring 20-30 sekunder. Typisk tager det 1-2 minutter for at have pulsen helt oppe omkring maxpulsen.
+- Fasthold pulsen på den [maksimale puls](/test-max-puls/) i omkring 20-30 sekunder. Typisk tager det 1-2 minutter for at have pulsen helt oppe omkring maxpulsen.
 - Lav fx 60 sekunders planke lige efter intervallet er slut.
 - Få pulsen til at falde til omkring 120-130 slag/min så hurtigt som muligt.
 - Lav i alt 2-4 sæt.

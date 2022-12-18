@@ -26,11 +26,11 @@ feature_row:
     btn_label: "Køb her"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://yourboots.dk/wp-content/uploads/2019/06/yourboots_model_ultimate.jpg
-    alt: "Yourboots.dk vakuumbukser og recovery boots"
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/r/e/reecover-recovery-boots-pro6-6-kamre-large-up-800x800.jpg
+    alt: "Recover vakuumbukser og recovery boots"
     title: "Vakuumbukser og recovery boots"
-    excerpt: "Yourboots.dk har et stort udvalg i vakuumbukser og recovery boots. Der er både versioner, du kan bruge til at rejse eller større setups til hjemmetræning og restitution."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/en/product/recovery-boots-model-ultimate/
+    excerpt: "Recovery Boots er designet med henblik på restitution gennem øget cirkulation i lymfesystemet ved dybe tryk."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre
     btn_label: "Se prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
@@ -62,13 +62,13 @@ Effekten af recovery boots markedsføres nemlig meget kraftigt:
 
 > 20 minutters behandling giver samme effekt som op til 48 timers passiv restitution.
 
---- <cite>[Løberen](https://www.loberen.dk/Optima-Recovery-Boots)</cite>
+--- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
 
 Det er noget af et løfte, og rationalet bagved løftet er følgende:
 
 > Den mængde blod, der flyttes ved en behandling på 20 minutter svarer til den mængde, du vil flytte ved mellem 12 og 48 timers passiv restitution. Der er med andre ganske stor gevinst ved at smide benene i et par Recovery Boots og lade dem arbejde med din restitution.
 
---- <cite>[Løberen](https://www.loberen.dk/Optima-Recovery-Boots)</cite>
+--- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
 
 Mit bedste bud er at det er en meningsløs påstand. Man kan ikke flytte lige så meget blod rundt på 20 minutter ved at sidde stille, som man ville på 12 timer ved passiv restitution, hvis hjertet ikke slår hurtigere.
 
@@ -112,7 +112,7 @@ Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist 
 
 Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning]({% link _posts/2020-05-28-restitutionstid.md %}).
 
-Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){: rel='sponsored nofollow noopener' }, hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){: rel='sponsored nofollow noopener' } eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){: rel='sponsored nofollow noopener' }.
+Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre){: rel='sponsored nofollow noopener' } eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){: rel='sponsored nofollow noopener' }.
 
 ## Køb recovery boots og vakuum bukser
 

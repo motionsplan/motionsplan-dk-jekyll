@@ -26,7 +26,7 @@ Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg h
 
 Kropshævning er en af de absolut bedste overkropsøvelser, så du kan egentlig ikke komme i gang med den hurtigt nok. Kropshævninger kommer i to overordnede variationer - chinups og pullups - men der er et hav af andre variationer af kropshævninger.
 
-Jeg har skrevet en guide til [forskellen på en pullup og en chinup]({% link _posts/2020-06-30-pullup-chinup.md %}), men kort forklaret så handler det om, hvordan man holder i stangen.
+Jeg har skrevet en guide til [forskellen på en pullup og en chinup](/chinup-vs-pullup/), men kort forklaret så handler det om, hvordan man holder i stangen.
 
 {% include figure image_path="https://res-5.cloudinary.com/rubberbanditz/image/upload/c_lpad,dpr_1.0,f_auto,q_auto/v1/media/wysiwyg/blog_images/pullupchinup-image1.jpg" caption="Forskel på chinups og pullups fra [Rubberbanditz](https://www.rubberbanditz.com/blog/pull-up-vs-chin-up/)"  %}
 
@@ -48,7 +48,7 @@ Principperne i et træningsprogram for at **lære at tage en pull up og en chin 
 
 ### Motorisk indlæring og bevægelse i pullups
 
-[Niklas Meier](http://niklasmeier.dk/2016/10/09/pull-ups-part-1-motorisk-indlaering-og-bevaegelse/) har lavet nogle videoer, der handler om, hvordan man træner sig op til pullups.
+[Niklas Meier](https://niklasmeier.dk/2016/10/09/pull-ups-part-1-motorisk-indlaering-og-bevaegelse/) har lavet nogle videoer, der handler om, hvordan man træner sig op til pullups.
 
 Du kan først se videoen om, hvad du skal tænke på, og hvordan du får lært selve bevægelsen.
 
@@ -62,7 +62,7 @@ Du kan se i videoen ovenfor, hvordan skulderbladene skal bevæge sig, og hvordan
 
 Du træner op til at lave pullups ved at have tålmodighed og bygge træningen fornuftigt op. Når du gør det, så kan du også træne dig op til at lave din første pullup.
 
-[Niklas Meier](http://niklasmeier.dk/2016/10/14/hvordanfaarjegminfoerstepullup/) forklarer i videoen nedenunder, hvordan man kan lave sin første pullup. Der er også øvelser, som du kan supplere din træning med for at lave din første pullup.
+[Niklas Meier](https://niklasmeier.dk/2016/10/14/hvordanfaarjegminfoerstepullup/) forklarer i videoen nedenunder, hvordan man kan lave sin første pullup. Der er også øvelser, som du kan supplere din træning med for at lave din første pullup.
 
 {% include video provider="youtube" id="WPNHzkM_O1g" %}
 
@@ -74,7 +74,7 @@ Hvis du ikke kan lave en pullup lige nu, så tager det lidt tid at lære det. De
 2. Film dit forsøg og få visuel feedback
 Det er en god ide at filme de første forsøg. Derved får du visuelt feedback på din bevægelse, men du kan også se over tid, om du har rykket dig i din teknik og styrke.
 
-Det er naturligvis vigtigt, at du har øje for, [hvilke muskler der bruges i en pullup og en chinup]({% link _posts/2020-06-30-pullup-chinup.md %}), hvis du gerne vil lære at lave øvelsen uden hjælpemidler.
+Det er naturligvis vigtigt, at du har øje for, [hvilke muskler der bruges i en pullup og en chinup](/chinup-vs-pullup/), hvis du gerne vil lære at lave øvelsen uden hjælpemidler.
 
 ## Gode øvelser til chinup og pull up progression
 
@@ -198,6 +198,6 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 
 Hvis du laver en god plan, så bør du kunne lave en pullup eller en chinup i løbet af 30 dage ifølge [www.nerdfitness.com](https://www.nerdfitness.com/blog/do-a-pull-up/).
 
-Jeg har skrevet lidt mere om [forskellen på chin ups og pull ups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
+Jeg har skrevet lidt mere om [forskellen på chin ups og pull ups her](/chinup-vs-pullup/).
 
 {% include lead-magnet.html id="l3vofz1jaqj6ybz2p5g" %}

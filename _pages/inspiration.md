@@ -78,7 +78,7 @@ feature_row_ads:
     rel: sponsored nofollow noopener
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: http://motionsplan.yogastream.dk
+    url: https://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
     rel: sponsored nofollow noopener
@@ -140,13 +140,14 @@ feature_row_strength:
     excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 På denne side har jeg samlet alle mine anbefalinger og de ting til træning, jeg selv bruger.
 
 ## Løbeur, pulsbælte og høretelefoner
 
-Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution](/restitution/) og [restitutionstid](/restitutionstid/) på.
+Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen](/artikel/musik-til-traeningen/) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution](/restitution/) og [restitutionstid](/restitutionstid/) på.
 
 {% include feature_row type="left" id="feature_row_running" %}
 
@@ -168,7 +169,7 @@ På [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&banneri
 
 Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb/) og [bøger om træning](/traeningsboeger-boeger-om-traening/). Jeg har også skrevet et forslag til [cykelbøger](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](http://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
 ## Samarbejdspartnere (reklamelinks)
 

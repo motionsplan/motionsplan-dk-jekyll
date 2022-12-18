@@ -1,6 +1,7 @@
 ---
 title: &title "Muskelømhed: Hvorfor får jeg ømme muskler efter træning?"
 permalink: /omme-muskler-efter-traening/
+description: Hvorfor får du ømme muskler efter træning? Jeg har kigget på teorierne om DOMS og ømhed i kroppen efter træning og konkurrence.
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
@@ -11,7 +12,7 @@ category:
 tags:
   - muskler
   - doms
-last_modified_at: 2021-02-14T08:14:14Z
+last_modified_at: 2022-09-24T08:14:14Z
 toc: true
 ---
 
@@ -57,7 +58,7 @@ Når du træner, så kan du formentlig ikke undgå at blive øm i musklerne enga
 
 ## Hvad skaber ømheden i musklerne?
 
-Man kender ikke nøjagtigt årsagen til muskelømheden. [forskning.no](http://forskning.no/) har spurgt to eksperter om, hvorfor der opstår ømhed efter træning. Kristoffer Toldnes Cumming fra Norges Idrætshøjskole og Jan Helgerud fra Norges teknisk-naturvidenskabelige universitet (NTNU) i Trondheim.
+Man kender ikke nøjagtigt årsagen til muskelømheden. [forskning.no](https://forskning.no/) har spurgt to eksperter om, hvorfor der opstår ømhed efter træning. Kristoffer Toldnes Cumming fra Norges Idrætshøjskole og Jan Helgerud fra Norges teknisk-naturvidenskabelige universitet (NTNU) i Trondheim.
 
 De forklarer først og fremmest begge to, at der ikke findes noget sikkert svar på, hvad der sker i kroppen, når vi bliver ømme.
 
@@ -127,7 +128,7 @@ Du kan få ømme muskler af forskellige øvelser, så snart du arbejder hårdere
 
 Der er imidlertid også nogle øvelser, hvor risikoen for ømme muskler er større end ved andre øvelser.
 
-Hvis du laver øvelser med et stort [excentrisk komponent]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning]({% link _posts/2020-08-24-excentrisk-traening.md %}) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
+Hvis du laver øvelser med et stort [excentrisk komponent]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning](/excentrisk-traening/) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
 
 Hvis du laver mange sprintøvelser og spring med landinger, er der et stort excentrisk komponent, fordi du skal bremse bevægelsen nedad. Hvis du aldrig har prøvet at blive øm i musklerne i forbindelse med træning, så kan du prøve at sprinte flere gange efter hinanden på en bakke, der går en lille smule nedad. Så lover jeg dig, at du finder ud af, hvad andendagsømhed er.
 

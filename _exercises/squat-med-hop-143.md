@@ -50,6 +50,8 @@ Der er ikke nogen facitliste på, hvor meget vægt, der skal på i jump squats, 
 
 Retningslinjerne er udregnet efter det, de kalder den totale systemvægt. Den totale systemvægt er løfterens 1RM squat (altså den vægt løfteren kan løfte netop en gang) og så løfterens kropsvægt.
 
+Hvis du er i tvivl om, hvad din 1RM er, så kan du bruge [vores 1RM-beregner](/rm-beregner/).
+
 Anbefalingerne ift. den totale systemvægt ligger fra 10% til maksimalt 40%. Start i den lave ende og arbejd dig opad som du bliver stærkere.
 
-Læs også [Jump Squats: How much load?](http://www.dieselcrew.com/articles-pdf/DC-IM-JumpSquats.pdf)
+Læs også [Jump Squats: How much load?](https://www.dieselcrew.com/articles-pdf/DC-IM-JumpSquats.pdf)

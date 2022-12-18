@@ -2,6 +2,7 @@
 title: &title "Biohacking: Definition og begynderguide til at blive biohacker"
 seo_title: "Biohacking - Bliv biohacker med træning [Begynderguide]"
 description: "Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge din biohacker træning. Kom i gang nu!"
+excerpt: Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
 permalink: /hvad-er-biohacking/
 language: da
 header:

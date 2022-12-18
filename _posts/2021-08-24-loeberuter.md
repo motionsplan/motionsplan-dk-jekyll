@@ -47,7 +47,7 @@ Ellers kan du bare bruge tiden og evt. pulsen på den test-løberute, du har val
 
 ## Find løberuter der passer til løbeformerne
 
-Når du løbetræner, så kan du både løbe hurtigt, løbe intervaller og løbe i et stabilt tempo over længere tid. Din løberute kan med fordel være lidt forskellig, når du skal [løbe intervalløb]({% link _posts/2020-06-15-intervallob.md %}) eller skal løbe en længere langsom tur i et stabilt tempo.
+Når du løbetræner, så kan du både løbe hurtigt, løbe intervaller og løbe i et stabilt tempo over længere tid. Din løberute kan med fordel være lidt forskellig, når du skal [løbe intervalløb](/intervallob-intervaltraening/) eller skal løbe en længere langsom tur i et stabilt tempo.
 
 Når du skal løbe på en bestemt tid, så kan du overveje at få løberuten til at gå forbi fx et atletikstadion eller flade passager. Hvis du skal løbe bakkesprints, så kan du gøre det midt på en løberute, hvor du finder en bakke i passende hældning.
 

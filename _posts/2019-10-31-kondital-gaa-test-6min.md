@@ -5,7 +5,6 @@ permalink: /gaatest-6min/
 excerpt: "6 minutters gangtest (6MWT) er en gåtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker i samme aldersgruppe som dig selv. Gangtesten henvender sig til relativt fysisk svage personer."
 language: da
 header:
-  overlay_image: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
   teaser: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
   caption: *title
 category:
@@ -19,22 +18,22 @@ tags:
   - test
   - beregner
 last_modified_at: 2022-05-06T23:14:14Z
-toc: true
-breadcrumbs: true
 ---
 
 I **6 minutters gangtest (6MWT)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg.
 
-Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke er særlig godt gående. Derfor kaldes den også ofte senior fitness test. Hvis du ikke du er i den kategori, så kan du overveje at bruge [1,6 km gåtest i stedet]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
+Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke er særlig godt gående. Derfor kaldes den også ofte senior fitness test. Hvis du ikke du er i den kategori, så kan du overveje at bruge [1,6 km gåtest i stedet](/gaatest/).
 
 *[6MWT]: 6 Minutes Walk Test
+
+{% include figure image_path="https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg" alt="asiatiske kvinder gennemfører 6 min gangtest (6MWT)" %}
 
 ## Sådan udfører du gangtesten på 6 minutter
 
 {% include figure image_path="https://www.researchgate.net/profile/Parul_Sharma9/publication/317952000/figure/fig1/AS:509936111190016@1498589651200/6-minutes-walk-test-diagram.png" %}
 
 1. 6-minutters gangtesten udføres på en 30 meter strækning, der tilbagelægges flere gange. Du kan sætte testen op overalt, og det påvirker ikke testens resultat selvom strækningen mellem vendepunkterne er mellem 20 - 50 meter i stedet for 30 meter.
-2. Testresultaterne påvirkes en del af, hvor meget opmuntring testpersonerne får undervejs. Morten Zacho skriver, at [opmuntring kan påvirke resultatet med op til 30%](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"}. Det er altså vigtigt, at du som testleder standardiserer, hvor meget opmuntring du giver forsøgspersonerne undervejs. Du kan finde inspiration i de oprindelige studier, hvor de bruger sætningerne: "You are doing well", "Keep up the good work" og en tidsangivelse for, hvornår testen er færdig.
+2. Testresultaterne påvirkes en del af, hvor meget opmuntring testpersonerne får undervejs. Opmuntring kan påvirke resultatet [med op til 30%](https://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"}. Det er altså vigtigt, at du som testleder standardiserer, hvor meget opmuntring du giver forsøgspersonerne undervejs. Du kan finde inspiration i de oprindelige studier, hvor de bruger sætningerne: "You are doing well", "Keep up the good work" og en tidsangivelse for, hvornår testen er færdig.
 3. Gå så langt som muligt på de 6 minutter og noter den samlede distance.
 4. Indtast resultaterne i nedenstående beregner. Beregneren sammenligner med referenceværdier.
 
@@ -73,7 +72,7 @@ Derfor har jeg også inkluderet referenceværdier for **gentagne forsøg** i ber
 
 Det resulterede i følgende regressionsmodel for gentagne forsøg på 6 minutters testen:
 
-- 6MWD = 868,8 - 2,99 * Alder- 74,7 * Køn
+- 6MWD = 868,8 - 2,99 * Alder - 74,7 * Køn
 
 Hvor køn ved mand = 0 og for kvinde = 1.
 
@@ -87,7 +86,9 @@ Studier har vist, at testen er ret påvirkelig af tilvænning. Gibbons et al (20
 
 --- <cite>[Gibbons et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11314289/)</cite>
 
-Hvis du laver testen med tilvænning, så skal du også sammenligne med referenceværdier, hvor forsøgspersonerne har vænnet sig til testen. Du kan fx finde referenceværdier hos Gibbons et al (2001). Baseret på Gibbons (2001) så kan du overveje at lave to tilvænningsforsøg og lade det tredje forsøg være tællende, hvis du har tid til det, når du laver testene.
+Hvis du laver testen med tilvænning, så skal du også sammenligne med referenceværdier, hvor forsøgspersonerne har vænnet sig til testen. Du kan fx finde referenceværdier hos Gibbons et al (2001). 
+
+Baseret på Gibbons (2001) så kan du overveje at lave to tilvænningsforsøg og lade det tredje forsøg være tællende, hvis du har tid til det, når du laver testene.
 
 Validiteten for testen vurderes som rigtig god i mange studier ([se physio-pedia.com](https://www.physio-pedia.com/Six_Minute_Walk_Test_/_6_Minute_Walk_Test)).
 

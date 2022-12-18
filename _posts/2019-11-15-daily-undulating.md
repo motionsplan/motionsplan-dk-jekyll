@@ -32,7 +32,7 @@ En forklaring til de tre ord:
 
 ## Hvordan laves DUP?
 
-Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Programmet tager udgangspunkt i [1RM](/rm-beregner/),, og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
+Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Programmet tager udgangspunkt i [1RM](/rm-maxtest/), og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
 
 Et eksempel kunne være sådan her:
 
@@ -60,5 +60,9 @@ DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en deload uge, h
 
 - [Daily Undulating Periodization: The Bogeyman of Training Programs](https://www.strongerbyscience.com/daily-undulating-periodization/)
 - [Daily Undulating Periodization (DUP) Training](https://www.askmen.com/sports/bodybuilding/daily-undulating-periodization-dup-training.html)
-- [The DUP Bible](http://www.jmaxfitness.com/blog/daily-undulating-periodization/)
+- [The DUP Bible](https://www.jmaxfitness.com/blog/daily-undulating-periodization/)
 - [Daily Undulating Periodization: Conjugate Adapted for Raw Lifters](https://www.elitefts.com/education/daily-undulating-periodization-conjugate-adapted-for-raw-lifters/)
+
+{% comment %}
+https://powerliftingtechnique.com/dup-for-powerlifting/
+{% endcomment %}

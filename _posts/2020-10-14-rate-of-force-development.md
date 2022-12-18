@@ -52,7 +52,7 @@ I nervesystemet har fyringsfrekvensen af signaler, hvor mange motoriske enheder 
 
 Når du vil træne RFD i styrketræningen skal du fokusere på maksimal kraftudvikling i øvelserne. Du kan træne den RFD på flere forskellige måder.
 
-En typisk måde er er 2-4 sæt med 4-6 reps med en vægt, som ligger tæt på fx [1RM (one repetition maximum)]({% link _posts/2019-10-16-1rm-beregner.md %}).
+En typisk måde er er 2-4 sæt med 4-6 reps med en vægt, som ligger tæt på fx [1RM (one repetition maximum)](/rm-maxtest/).
 
 [Aagaard et al (2002)](https://pubmed.ncbi.nlm.nih.gov/12235031/) undersøgte effekten af tung styrketræning med et 14 ugers træningsprogram med 38 træningssessioner. Testen blev lavet med en maksimal isometrisk kontraktion i quadriceps femoris.
 
@@ -73,6 +73,6 @@ En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du træ
 
 ## Hvad sker der med Rate of Force Development med alderen
 
-[Henning Langberg](http://web.archive.org/web/20210305220145/http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/){: rel="nofollow noopener" } skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
+[Henning Langberg](https://web.archive.org/web/20210305220145/http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/){: rel="nofollow noopener" } skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
 
 *[RFD]: Rate of Force Development

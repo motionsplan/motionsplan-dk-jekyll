@@ -21,14 +21,14 @@ category:
 last_modified_at: 2020-02-13T21:41:09Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen"
@@ -175,7 +175,7 @@ Der er alt for mange, der løber i et tempo, der ligger mellem den langsomme lø
 
 Det betyder, at du løber for hurtigt, så du får ikke for alvor forbedret din fedtforbrænding og udholdenhed. Men du løber også for langsomt til at rykke ved den anaerobe tærskel.
 
-Faktisk har den langsomme løbetur både en god effekt på udholdenheden, [løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}) og de [langsomme type I-fibres evne til at fjerne mælkesyre i kroppen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), hvilket hjælper på den anaerobe tærskel.
+Faktisk har den langsomme løbetur både en god effekt på udholdenheden, [løbeøkonomien](/lobeokonomi/) og de [langsomme type I-fibres evne til at fjerne mælkesyre i kroppen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), hvilket hjælper på den anaerobe tærskel.
 
 Men den langsomme løbetur hjælper kun, hvis du rammer det rigtige tempo.
 
@@ -251,7 +251,7 @@ Grundlæggende kan du bruge enten tempo, watt eller puls til at bestemme dit lø
 
 Der er fordele og ulemper ved begge ting.
 
-- **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din maksimale puls og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
+- **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din [maksimale puls](/test-max-puls/) og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
 - **Watt**. Hvis du fx har en Stryd Wattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
 

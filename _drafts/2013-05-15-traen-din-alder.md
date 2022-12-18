@@ -1,6 +1,6 @@
 ---
 title: "Træn din alder"
-permalink: /artikel/træn-din-alder
+permalink: /artikel/træn-din-alder/
 language: da
 header:
   overlay_image: /assets/images/blog/traen-din-alder.jpg
@@ -15,7 +15,7 @@ Desto ældre man bliver, desto mere brug for træning har man for at holde sin k
 
 ## Hvilke øvelser kan jeg lave?
 
-Du kan vælge de øvelser, du synes bedst om. Det er dog smart at følge vores vejledning til, [hvad der bør være i et træningsprogram, hvor man træner hele kroppen](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). 
+Du kan vælge de øvelser, du synes bedst om. Det er dog smart at følge vores vejledning til, [hvad der bør være i et træningsprogram, hvor man træner hele kroppen](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/).
 
 ## Hvad synes du?
 

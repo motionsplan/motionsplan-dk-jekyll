@@ -1,6 +1,6 @@
 let motionsplan = {};
 
-motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
+motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight, formula = 'kline') {
   let sex;
   hr = hr;
   gender = gender;
@@ -19,15 +19,29 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
   let time = tm + ts;
 
   function getFitnessLevel() {
-    return 132.853 - (0.0769 * weight_lbs) - (0.3877 * age) + (6.3150 * sex) - (3.2649 * time) - (0.1565 * hr);
+    if (formula == 'lunt') {
+      return getLunt();
+    }
+    return getKline();
   }
   
   function getMaximalOxygenUptake() {
     return (getFitnessLevel() * weight / 1000);
   }
 
+  // https://academic.oup.com/milmed/article/178/7/753/4243559
+  // British military personel 18-39 år
+  function getLunt() {
+    return 51.047 + (8.336 * sex) + (635.012 * 1 / time) - (0.225 * hr) - (0.271 * weight) - (0.231 * age);
+  }
+
+  function getKline() {
+    return 132.853 - (0.0769 * weight_lbs) - (0.3877 * age) + (6.3150 * sex) - (3.2649 * time) - (0.1565 * hr);
+  }
+
   let publicAPI = {
     getFitnessLevel : getFitnessLevel,
+    getLunt : getLunt,
     getMaximalOxygenUptake : getMaximalOxygenUptake
   };
 

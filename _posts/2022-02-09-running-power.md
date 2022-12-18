@@ -1,5 +1,6 @@
 ---
 title: &title "Løb og wattmåling: Hvordan bruger du running power?"
+description: "Få en mere præcis måling af din intensitet i løb med wattmåling. Her får du en guide til, hvordan løbeeffekt kan hjælpe dig i din løbetræning."
 excerpt: "Vil du gerne have en mere præcis måling af din intensitet i løb? Wattmåling kan være svaret. Vi kigger på, hvordan løbeeffekt kan hjælpe dig i din løbetræning."
 permalink: /loeb-watt/
 language: da
@@ -127,7 +128,7 @@ Men hvordan tester vi?
 
 ## Hvordan finder vi rFTPw?
 
-Der er flere måder, du kan teste rFTPw på. For at gøre det enkelt, så præsenterer vi den test en af de førende skribenter om wattmåling i løb foretrækker.
+Der er flere måder, du kan [teste rFTPw på](/rftp-test/). For at gøre det enkelt, så præsenterer vi den test en af de førende skribenter om wattmåling i løb foretrækker.
 
 Jim Vance [foreslår](https://www.trainingpeaks.com/learn/articles/running-with-power-how-to-find-your-run-ftp/) følgende test til at finde rFTPw. Han har valgt en _all out_ 3 minutters test og en _all out_ 9 minutters test adskilt af 30 minutter restitution.
 
@@ -169,9 +170,9 @@ Og her skal du være opmærksom.
 
 Husk at få sat dine wattzoner korrekt op, så de ikke overskriver dine wattzoner til cykling eller din FTP til cykling.
 
-Her er wattzonerne foreslået af Jim Vance i hans bog
+Her er wattzonerne foreslået af Jim Vance i hans bog:
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/5af9e068697a988a0d722b70/1546901044037-FVWKFBGZYUUZ9AUWDOJL/Screen+Shot+2019-01-07+at+2.43.26+PM.png?format=600w" caption="Kilde: [www.tristarathletes.com](https://www.tristarathletes.com/coaches-corner/2019/1/7/running-with-power-vs-biking-with-power)" %}
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/5af9e068697a988a0d722b70/1546901189079-OGL5AF63YIKR4WFT07DB/Screen+Shot+2019-01-07+at+2.46.08+PM.png?format=1500w" caption="Kilde: [www.tristarathletes.com](https://www.tristarathletes.com/coaches-corner/2019/1/7/running-with-power-vs-biking-with-power)" %}
 
 ## Løbeøkonomi og watt
 
@@ -184,7 +185,9 @@ Efterhånden findes der rigtig overvældende mange forskellige [målinger af lø
 Hvad er Running Effectiveness (RE)?
 
 ***
+
 RE = speed (m/s) / power (W/kg)
+
 ***
 
 [Van Dijk og van Megen](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/) foreslår, at wattmålinger kan bruges til at måle begrebet **Energy Cost Of Running (ECOR)**.
@@ -192,7 +195,9 @@ RE = speed (m/s) / power (W/kg)
 Formlen for ECOR?
 
 ***
+
 ECOR (kJ/kg/km) = Power (Watt/kg) / hastigheden (m/s)
+
 ***
 
 Men...

@@ -30,6 +30,12 @@ video:
   {% include figure image_path=page.header.teaser %}
 {% endif %}
 
+I 'back off'-sæt laver du flere sæt med en lettere vægt umiddelbart efter, at du har lavet dine tunge hovedløft. 'Back off'-sæt kan enten køres til udmattelse eller med en RPE på 7-8 eller en RIR på 2-3 alt efter formålet med øvelsen.
+
+Formålet med 'back off'-sæt er at få en lidt større volumen i det pågældende løft. Det giver mulighed for at arbejde med teknikken med overskud og giver en større eksponering til bevægelsesbanen. Derfor bliver denne metode også ofte brugt af styrkeatleter.
+
+'Back off'-sæt kan være med til at stimulere hypertrofi. Det sker formentlig fordi det mekaniske load på musklerne bliver større. Fordelen er at du får en stimulering på styrken, men bagefter kan arbejde med både teknik, men også flere stimulerende sæt på muskeludviklingen.
+
 {% comment %}
 
 Back off sets involve performing additional sets with a lighter weight immediately (or shortly) after a main sequence of heavier sets. Since heavy loads are used in the main part of the workout, this technique is more often used by strength athletes, than by bodybuilders.

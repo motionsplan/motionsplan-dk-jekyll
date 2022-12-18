@@ -21,7 +21,7 @@ Anaerob træning bør være en del af din træning. Det anaerobe system er en vi
 
 Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerobt arbejde kan være alaktacid og laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
 
-Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her]({% link _posts/2019-11-14-energisystemer-101.md %}). Hvis du ledte efter [aerob træning, så tjek her]({% link _posts/2021-06-19-aerob-traening.md %}).
+Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her](/energisystemer/). Hvis du ledte efter [aerob træning, så tjek her]({% link _posts/2021-06-19-aerob-traening.md %}).
 
 I dette indlæg kan du få svar på følgende spørgsmål:
 
@@ -41,7 +41,7 @@ Grundlæggende har mennesket to energisystemer. Det aerobe system kan levere ene
 
 I **modsætning til aerob træning**, der primært retter sig mod at forbedre kredsløbet (hjerte, lunger og blodkredsløbet), så er anaerob træning rettet mod at forbedre musklernes ydeevne under højintenst og maksimalt arbejde. Der er dog overlap mellem energisystemerne, så når du træner aerobt med høj intensitet, så forbedrer du til en vis grad din anaerobe kapacitet, og tilsvarende kan der ske forbedringer i det aerobe system ved at træne anaerobt.
 
-**Læs**: [Energisystemer 101: Alt om det aerobe og anaerobe energisystem]({% link _posts/2019-11-14-energisystemer-101.md %})
+Læs: [Energisystemer 101: Alt om det aerobe og anaerobe energisystem](/energisystemer/)
 
 ## ATP fra det anaerobe system
 
@@ -60,7 +60,7 @@ ADP + P + Kulhydrat → ATP + Mælkesyre
 
 Begge processer i det anaerobe system skaber altså mere ATP.
 
-Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at kreatin virker som kosttilskud, da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
+Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at [kreatin virker som kosttilskud](/kreatin/), da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
 
 Spaltningen af kulhydrat kan levere energi længere, men den lokale træthed i musklerne bliver meget høj, og der skabes bl.a. [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) i musklerne.
 
@@ -88,7 +88,7 @@ Den **laktacide anaerobe træning** opdeler man igen i **to forskellige typer**.
 
 ### Anaerob tolerancetræning
 
-I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en 
+I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en
 periode. Målet er at opretholde et højt laktatniveau over en længere periode. Formålet er at kunne arbejde mere effektivt i perioder, hvor laktatniveauet er forhøjet. I den anaerobe tolerancetræning forsøger man at holde laktatniveauet nogenlunde konstant. Arbejdet vil typisk være 30-100% af maksimal intensitet.
 
 ### Anaerob produktionstræning
@@ -113,12 +113,12 @@ Den anaerobe effekt er musklernes evne til at genoplade ATP hurtigt, så du igen
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) foreslår anaerob træning til at give den sidste fart til løbere, men det gælder faktisk alle discipliner, hvor [kondition](/kondition/) også betyder noget.
 
-{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
+{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) skriver at præstationen afhænger af fire parametre:
 
 1. Din [kondition og maksimale iltoptagelse](/kondition/) - altså evnen til at optage meget ilt.
-2. [Din løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) - og hvordan du løber effektivt med så lidt energiforbrug som muligt.
+2. [Din løbeøkonomi](/lobeokonomi/) - og hvordan du løber effektivt med så lidt energiforbrug som muligt.
 3. Din relative arbejdsbelastning - altså evnen til at løbe omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) - og hvor meget du kan presse dig selv.
 4. Den anaerobe energiproduktion - som giver den sidste fart - og som trænes gennem anaerob træning.
 
@@ -160,7 +160,7 @@ Husk at den anaerobe træning kræver tilvænning, og husk at tænke på princip
 
 ## Eksempler på anaerob træning
 
-Jeg kan godt lide at lave intervaller, hvor jeg arbejder maksimalt i 30 sekunder og holder 1-5 minutters pause alt efter om jeg forsøger at træne den anaerobe kapacitet eller effekt med intervallet. Det bliver ikke lettere af at holde længere pauser, men du kan lave mere arbejde i arbejdsintervallet. Du kan fx lave det som [Wingate-tests]({% link _posts/2019-11-18-wingate-test.md %}). Du kan fx starte med 3x30 sekunder med tre minutters pause. Næste uge kan du lave 4x30 sekunder med 3 minutters pause.
+Jeg kan godt lide at lave intervaller, hvor jeg arbejder maksimalt i 30 sekunder og holder 1-5 minutters pause alt efter om jeg forsøger at træne den anaerobe kapacitet eller effekt med intervallet. Det bliver ikke lettere af at holde længere pauser, men du kan lave mere arbejde i arbejdsintervallet. Du kan fx lave det som [Wingate-tests](/wingate/). Du kan fx starte med 3x30 sekunder med tre minutters pause. Næste uge kan du lave 4x30 sekunder med 3 minutters pause.
 
 Du har sikkert også hørt om [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}), som virkelig sætter det anaerob system på prøve.
 

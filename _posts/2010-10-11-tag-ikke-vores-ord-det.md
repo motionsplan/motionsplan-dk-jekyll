@@ -1,5 +1,7 @@
 ---
-title: &title "Hvordan finder jeg og læser en videnskabelig artikel?"
+title: &title "Hvordan finder du og læser en videnskabelig artikel?"
+description: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
+excerpt: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
 permalink: /videnskabelig-sogning/
 redirect_from:
   - /artikel/tag-ikke-vores-ord-det
@@ -13,16 +15,20 @@ tags:
   - videnskab
 category:
   - Viden om
-last_modified_at: 2020-02-13T21:55:25Z
+last_modified_at: 2022-09-13T21:55:25Z
 ---
+
+Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her.
 
 Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Her kan du læse lidt om, hvordan vi prøver at finde viden i videnskabelige artikler og fortolker dem.
 
 Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskablig artikel](https://videnskab.dk/kultur-samfund/saadan-laeser-og-forstaar-du-en-videnskabelig-artikel) og [vurderinger af forskningsartikler](https://dsr.dk/sygeplejersken/arkiv/sy-nr-2004-33/laesning-og-vurdering-af-forskningsartikler).
 
+{% include video provider="youtube" id="5T_vK0mLQ14" %}
+
 ## Hvordan finder vi videnskabelige artikler?
 
-Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) efter emnet. Vi bruger gerne lidt forskellige søgninger og synonymer. Hvis du er forsker, så skal du kunne dokumentere, hvordan du har lavet søgningen.
+Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](https://pubmed.org) efter emnet. Vi bruger gerne lidt forskellige søgninger og synonymer. Hvis du er forsker, så skal du kunne dokumentere, hvordan du har lavet søgningen.
 
 Jeg læser naturligvis titlen og _abstractet_ for at se om artiklen ser spændende ud. Hvis den gør det, så går jeg i gang med at vurdere, hvilke resultater studiet giv - og hvor solidt studiet er opbygget.
 
@@ -116,7 +122,7 @@ Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](
 
 Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mellem druknede og film med Nicolas Cage](https://www.nationalgeographic.com/science/phenomena/2015/09/11/nick-cage-movies-vs-drownings-and-more-strange-but-spurious-correlations/):
 
-{% include figure image_path="https://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359). " %}
+{% include figure image_path="https://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359)." %}
 
 Korrelation bliver ofte forvekslet med kausalitet i medierne og i fitnessmiljøet. Når man laver fejlfortolkninger, så kan det ende med at specifikke næringsstoffer eller fødevarer bliver gjort til uretmæssig syndebuk - tag bare et kig på sukker, kulhydrater og mælkeprodukter. Men det gælder også årsagssammenhænge i forhold til folks vægt og sindstilstand.
 
@@ -136,7 +142,7 @@ R<sup>2</sup> er altså mere brugbar end R, da den også kan bruges til multivar
 
 Du skal imidlertid være [varsom med at overfortolke R<sup>2</sup>](https://emu.dk/sites/default/files/2019-02/Brugen%20af%20R2%20i%20gymnasiet%20Ekstr%C3%B8m%20Hansen%20Brockhoff%20%202017.pdf). R<sup>2</sup>-værdien må aldrig stå alene. Den skal stå sammen med fx en visualisering af data.
 
-Der findes _ingen_ meningsfulde globae kriterier for acceptable R<sup>2</sup>-værdier på tværs af fagområder, og man skal være meget opmærksom på ikke at misfortolke høje R<sup>2</sup>-værdier som kausalitet.
+Der findes _ingen_ meningsfulde globale kriterier for acceptable R<sup>2</sup>-værdier på tværs af fagområder, og man skal være meget opmærksom på ikke at misfortolke høje R<sup>2</sup>-værdier som kausalitet.
 
 σ
 : **Spredningen** eller **residualspredningen** kan være med til at kvalificere sammenhængen. **Spredningen udtrykker den gennemsnitlige lodrette afstand til datapunkterne fra modellinjen.

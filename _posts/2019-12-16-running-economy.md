@@ -31,7 +31,7 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale og har fine betragninger om løbeøknomomi. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen"
@@ -50,8 +50,6 @@ feature_row_stryd:
 
 Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkonomi. Jeg har derfor researchet lidt på løbeøkonomi, præsenterer en definition, og dykker ned i hvilke faktorer der påvirker din løbeøkonomi.
 
-Hvad er løbeøkonomi? **Løbeøkonomi er et udtryk for løberens evne til at holde høj fart i lang tid med et minimalt energiforbrug. Løbeøkonomien er helt præcist den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien bestemmes af kroppens sammensætningen, kroppens evne til effektiv energiforbrænding og løbeteknik.**
-
 *[GCT]: Ground Contact Time
 *[RE]: Running Economy
 *[FTP]: Functional Threshold Power
@@ -60,11 +58,15 @@ Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigg
 
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
-- Den **[maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %})** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
 - **Løbeøkonomien**
 - Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den anaerobe tærskel.
 
 Lad os dykke lidt længere ned i begrebet løbeøkonomi.
+
+## Hvad er løbeøkonomi?
+
+**Løbeøkonomi er et udtryk for løberens evne til at holde høj fart i lang tid med et minimalt energiforbrug. Løbeøkonomien er helt præcist den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien bestemmes af kroppens sammensætningen, kroppens evne til effektiv energiforbrænding og løbeteknik.**
 
 ## Hvilke faktorer bestemmer løbeøkonomien?
 
@@ -72,7 +74,7 @@ Løbeøkonomien vil typisk være forskellig ved forskellige hastigheder. I litte
 
 Løberens præstation er betinget af, hvor god vedkommende er til at udnytte den disponible ilt. Det er et multifaktorielt samspil mellem en lang række forskellige faktorer.
 
-[Barness (2015)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/) afdækkede i sit systematiske review de faktorer forskere er begyndt at fokusere på i forbindelse med løbeøkonomi:
+[Barness (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/) afdækkede i sit systematiske review de faktorer forskere er begyndt at fokusere på i forbindelse med løbeøkonomi:
 
 {% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/bin/40798_2015_7_Fig2_HTML.jpg" caption="Faktorer som har betydning for løbeøkonomien efter Barness (2015)" alt="Faktorer som har betydning for løbeøkonomien" %}
 
@@ -134,17 +136,19 @@ Vær opmærksom på, at du kan reproducere testene, så du får en pålidelig te
 
 Hvis du laver ændringer, der påvirker din løbeøkonomi, så skal du være opmærksom på, hvor væsentlig ændringen i virkeligheden er i forhold til måleusikkerhederne.
 
-[Saunders et. al., 2004](http://www.ncbi.nlm.nih.gov/pubmed/15514515) vurderer, at der er en minimumsgrænse på 2,2% - 2,6% før man kan karakterisere ændringen som _Smallest Worthwhile Change (SWC)_.
+[Saunders et. al., 2004](https://www.ncbi.nlm.nih.gov/pubmed/15514515) vurderer, at der er en minimumsgrænse på 2,2% - 2,6% før man kan karakterisere ændringen som _Smallest Worthwhile Change (SWC)_.
 
 Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forskellige løbehastigheder. Hvis du løber på den samme relative løbehastighed, så kan du måske være tilfreds med mindre ændringer.
 
 ## Ulempen ved at bruge iltoptagelsen som mål for løbeøkonomien
 
-Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel="nofollow sponsored noopener" } et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
+Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel="nofollow sponsored noopener" } et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg på maratontempoet efter 12 ugers træning.
+
+Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
 
 > Efter min mening er der ingen tivvl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
 
---- <cite>[Claus Hechmann](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }</cite>
+--- <cite>[Claus Hechmann](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }</cite>
 
 Claus Hechmann skriver efterfølgende lidt beklagende om fortolkningen af træningsstudiet, at man i store dele af <q>det danske atletikmiljø ... skiftede fokus fra mængdetræning til højintensitetstræning.</q>
 
@@ -156,7 +160,7 @@ Hvis du kun har behov for selve konditallet ud fra din iltoptagelse og vægt, s�
 
 {% include calculate-oxygenuptake.html %}
 
-I forhold til betragtninger om løbeøkonomi, så giver det ikke helt mening at bruge en indirekte måde at estimere din maksimale iltoptagelse. Hvis du fx estimerer iltoptagelsen med en [Cooper-test]({% link _posts/2019-10-31-kondital-cooper.md %}), så er løbeøkonomien allerede en del af resultatet.
+I forhold til betragtninger om løbeøkonomi, så giver det ikke helt mening at bruge en indirekte måde at estimere din maksimale iltoptagelse. Hvis du fx estimerer iltoptagelsen og dit kondital med en [Cooper-test beregner](/cooper-test/), så er løbeøkonomien allerede en del af resultatet.
 
 Men derfor kan det jo godt være sjovt at bruge sine egne tal til at kigge på løbeøkonomi, så du kan tage et kig på vores side med måder at [teste konditallet og den maksimale iltoptagelse på]({% link _posts/2019-11-04-kondition-og-test.md %}).
 
@@ -220,7 +224,7 @@ Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du
 - Spændstighed i sener og ligamenter
 - Din styrke
 
-Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her]({% link _posts/2020-08-16-loebeteknik.md %}).
+Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her](/loebeteknik/).
 
 ## Kan man træne sin løbeøkonomi?
 
@@ -236,7 +240,7 @@ Du kan altså træne din løbeøkonomi, og derfor vil du begynde at bruge mindre
 
 Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips til, hvordan du kan forbedre din løbeøkonomi:
 
-### 1) Løb mange kilometer
+### 1. Løb mange kilometer
 
 [Scrimgeour et al (1986)](https://pubmed.ncbi.nlm.nih.gov/3699009/) viste, at løbere, der løb **mere end 100 km** om ugen, havde en markant bedre løbeøkonomi end de løbere, der løb **mindre end 100 km** om ugen.
 
@@ -244,7 +248,7 @@ Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inde
 
 Allan Zachariasen og Jesper Petersen foreslår [følgende træningspas](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober) for at forbedre løbeøkonomien.
 
-### 2) Løb i konkurrence-tempo
+### 2. Løb i konkurrence-tempo
 
 Løbeøkonomien hænger ofte sammen med det tempo, man har trænet mest i. Derfor skal du løbe en del i det tempo, du forestiller dig at løbe konkurrence i.
 
@@ -257,7 +261,7 @@ Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede kon
 
 Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
 
-### 3) Sprinttræning
+### 3. Sprinttræning
 
 Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan også forbedre løbeøkonomien. Det kan fx være:
 
@@ -268,7 +272,7 @@ Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
 
-### 4) Eksplosiv spændstighedstræning og styrketræning
+### 4. Eksplosiv spændstighedstræning og styrketræning
 
 Eksplosiv styrketræning i form af plyometrisk træning som hop, hink, bakkehop, trappetræning, trappehop, squat, lunges og lignende kan også være med til at forbedre og fastholde løbeøkonomien.
 
@@ -276,7 +280,9 @@ Hvis du træner eksplosiv styrketræning og spændstighed kan du også blive hur
 
 [Paavolainen et al (1999)](https://doi.org/10.1152/jappl.1999.86.5.1527) undersøgte, hvordan eksplosiv træning påvirker præstationen på løbetiden på 5 kilometer.
 
-To grupper af veltrænede forsøgspersoner trænede med lige stor træningsvolumen i 9 uger. Den ene gruppe fik 32% af sin træning erstattet med eksplosiv styrketræning, mens den anden kun erstattede 3% af sin træning med eksplosiv styrketræning. Gruppen der trænede eksplosiv styrketræning forbedrede sin 5 km løbetid uden at forbedre deres maksimale iltoptagelse.
+To grupper af veltrænede forsøgspersoner trænede med lige stor træningsvolumen i 9 uger. Den ene gruppe fik 32% af sin træning erstattet med eksplosiv styrketræning, mens den anden kun erstattede 3% af sin træning med eksplosiv styrketræning.
+
+Gruppen der trænede eksplosiv styrketræning forbedrede sin 5 km løbetid uden at forbedre deres maksimale iltoptagelse.
 
 Den eksplosive træning varede i 15 minutter til 90 minutter og bestod af følgende øvelser:
 
@@ -293,11 +299,13 @@ Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- 
 
 Kender du nogle studier, der kan sige noget om det?
 
-Jeg har skrevet et indlæg om [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), hvor du kan lære endnu mere om begrebet.
+Jeg har skrevet et indlæg om [kombinationen af styrketræning og løb](/artikel/bedste-kombination-af-loeb-og-styrketraening/), hvor du kan lære endnu mere om begrebet.
 
-### Flere forslag til at arbejde med løbeøkonomi
+Læs: [Styrkeøvelser til at forbedre dit løb](/styrketraening-til-loeb/)
 
-Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rigtig god side om [Løbeøkonomi](https://www.rekordjagt.dk/loebeoekonomi/), hvor han giver gode øvelser til at arbejde med løbeøkonomien.
+## Flere forslag til at arbejde med løbeøkonomi
+
+Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rigtig god side om løbeøkonomi, hvor du kan finde endnu flere gode [øvelser](https://www.rekordjagt.dk/loebeoekonomi/).
 
 Hvordan arbejder du med din løbeøkonomi?
 
@@ -306,7 +314,7 @@ Hvordan arbejder du med din løbeøkonomi?
 <details markdown="1">
   <summary>Se flere referencer</summary>
 
-- [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
+- [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
 - Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
 </details>
 

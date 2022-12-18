@@ -79,7 +79,7 @@ Der findes forskellige yogablokke. Typisk er yogablokke udformet, så de ser rel
 
 Der findes både yogablokke i hård skum, bambus og kork, og en yogablok koster heldigvis ikke alverden. Tjek fx [et større udvalg af yogablokke her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/yoga-pilates-blokke){: rel='sponsored nofollow noopener' }.
 
-{% include figure image_path="https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=5" caption="Sådan kan man også bruge en yogablok, men de fleste plejer mest at bruge den til lettere at nå ud i lidt mere almindelige positioner i yogaøvelserne" alt="Yogaudstyr – yogablokke" %}
+{% include figure image_path="https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Sådan kan man også bruge en yogablok, men de fleste plejer mest at bruge den til lettere at nå ud i lidt mere almindelige positioner i yogaøvelserne" alt="Yogaudstyr – yogablokke" %}
 
 ## Øjenpuder til yoga
 
@@ -153,7 +153,7 @@ Det kan også være inspirerende at pynte dit yogarum op med wallstickers og pla
 
 Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert fald en yogamåtte, og du vil formentlig også blive glad for at hav enogle yogablokke.
 
-Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere](/artikel/de-fem-tibetanere/) og [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' } og [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
 

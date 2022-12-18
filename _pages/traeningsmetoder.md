@@ -12,6 +12,7 @@ author: lsolesen
 toc: true
 sidebar:
   nav: methods
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

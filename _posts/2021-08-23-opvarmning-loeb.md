@@ -51,7 +51,7 @@ Det behøver ikke at være så indviklet at varme op til din løbetræning. Jeg 
 
 ### 1. Balanceøvelser
 
-Du kan fx stå på et ben. Du kan arbejde med åbne og lukkede øjne. Du kan også arbejde med at dreje hovedet i forskellige stillinger, mens du forsøger at holde balancen. Du kan se mange [flere balanceøvelser her]({% link _posts/2020-07-16-balancetraening.md %}).
+Du kan fx stå på et ben. Du kan arbejde med åbne og lukkede øjne. Du kan også arbejde med at dreje hovedet i forskellige stillinger, mens du forsøger at holde balancen. Du kan se mange [flere balanceøvelser her](/balance/).
 
 ### 2. Dynamisk mobilitet
 
@@ -67,7 +67,7 @@ Det er godt at få lavet nogle sving i både arme og ben. Fx er det rigtig godt 
 
 ### 4. Styrkerelaterede træningsøvelser
 
-Jeg bruger også ofte nogle træningsøvelser til at udfordre styrken en lille smule samtidig med balancen. Øvelserne bliver ikke brugt som decideret styrketræning. Jeg udfører først et par sæt relativt kontrolleret. Derefter udføres de lidt mere eksplosivt. Det kan fx være [squat](/squat/), [lunges](/lunges/) og [variationer af armstrækninger]({% link _posts/2020-07-05-pushups.md %}).
+Jeg bruger også ofte nogle træningsøvelser til at udfordre styrken en lille smule samtidig med balancen. Øvelserne bliver ikke brugt som decideret styrketræning. Jeg udfører først et par sæt relativt kontrolleret. Derefter udføres de lidt mere eksplosivt. Det kan fx være [squat](/squat/), [lunges](/lunges/) og [variationer af armstrækninger](/armbojninger-eller-armstraekninger-pushups/).
 
 ### 5. Coreøvelser
 

@@ -1,5 +1,6 @@
 ---
 title: &title "Hvornår skal jeg gå i seng og sove?"
+description: Vil du også gerne sove godt og vågne frisk og veludhvilet? Her får du svaret på, hvornår du skal gå i seng for at få den bedste søvn.
 permalink: /hvornaar-gaa-i-seng/
 language: da
 header:
@@ -10,7 +11,6 @@ category:
 tags:
   - søvn
 last_modified_at: 2022-01-02T08:14:14Z
-toc: true
 ---
 
 Hvis du gerne vil vågne frisk og veludhvilet, så skal du gå i seng på det rigtige tidspunkt. Her kan du få svaret på, hvornår du skal sove for at få den bedste søvn.
@@ -19,7 +19,7 @@ Vores vaner står sommetider i vejen for den gode søvn. Men du behøver ikke be
 
 Hvornår du skal gå i seng afhænger naturligvis af, hvornår du skal op næste morgen. Men det er en myte, at du skal sove 8 timer. Du skal sove i søvncyklusser. Derfor hjælper denne søvnberegner med at finde ud af, hvornår du skal sove.
 
-{% include figure image_path="https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5
+{% include figure image_path="https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60
 " caption="Hvornår skal jeg gå i seng for at sove?" alt="hvornår skal jeg gå i seng og sove" %}
 
 ## Søvnens cyklusser
@@ -56,7 +56,7 @@ Når du har udregnet, hvornår du skal sove, så ved du også, hvornår du skal 
 
 Jeg har skrevet et andet indlæg inspireret af Nick Littlehales, som foreslår at du [optimerer din søvn ved at sove i cyklusser](/soevn/). En søvncyklus er omkring 90 minutter. Littlehales mener, at det vigtigste er, at du sover i cyklusser end nøjagtigt, hvor lang tid, man sover den enkelte nat. Det væsentligste er, at du får et passende antal søvncyklusser på en uge.
 
-I et studie publiceret i [The Journal of the National Sleep Foundation](http://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext) anførte de disse omtrentlige tidspunkter at sove på de enkelte nætter.
+I et studie publiceret i [The Journal of the National Sleep Foundation](https://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext) anførte de disse omtrentlige tidspunkter at sove på de enkelte nætter.
 
 - Nyfødte (0-3 måneder): 14–17 timer
 - Spædbørn (4-11 måneder): 12–15 timer

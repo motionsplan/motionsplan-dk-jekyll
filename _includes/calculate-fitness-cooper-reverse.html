@@ -1,0 +1,19 @@
+<form class="calculator" id="calculator_cooper_reverse_test">
+    <fieldset>
+        <legend>Udregn forventet distance på Cooper-test ud fra kondital</legend>
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="number" min="10" max="100" id="reverse-kondital" placeholder="Kondital i ml/kg/min" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Distance (m)
+                <input type="text" id="reverse-distance" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

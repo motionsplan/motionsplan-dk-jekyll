@@ -45,7 +45,7 @@ Prøv at tænke igennem alt hvad du spiser. Hvad kan du undvære fra din junklis
 
 ## Bliv endnu klogere!
 
-- Chris Shugart: [The Simple Diet for Athletes](http://www.t-nation.com/diet-fat-loss/simple-diet-for-athletes), t-nation.com
+- Chris Shugart: [The Simple Diet for Athletes](https://www.t-nation.com/diet-fat-loss/simple-diet-for-athletes), t-nation.com
 - Wolfgang Unsoeld: [Start the Day Right: Lime & Salt Water](https://ypsi.de/start-your-day-right-with-salt-lime-water/)
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53063" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=53063" border="0"></a>

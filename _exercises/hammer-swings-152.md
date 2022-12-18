@@ -32,9 +32,9 @@ gallery:
 last_modified_at: 2014-10-10T21:22:17Z
 ---
 
-Du skal bruge noget at slå på. Du kan enten bruge et traktordæk, eller [grave et bildæk ned på højkant](http://www.rosstraining.com/articles/sledge2.html).
+Du skal bruge noget at slå på. Du kan enten bruge et traktordæk, eller [grave et bildæk ned på højkant](https://www.rosstraining.com/articles/sledge2.html).
 
-Der er grundlæggende [to måder at svinge på](http://www.rosstraining.com/articles/sledge.html):
+Der er grundlæggende [to måder at svinge på](https://www.rosstraining.com/articles/sledge.html):
 
 **Diagonalt sving**: Stå omkring en halv meter fra dækket. Hammeren starter på den ene side af kroppen og kommer på tværs af kroppen indtil dækket rammes. Den ene hånd holder stationært på bunden af håndtaget. Når du svinger diagonalt kan det være godt med den ene fod lidt tættere på dækket. Når du tager hammeren op, har du adskilte hænder. Når du slår, samler hænderne sig igen. Det er den variation du kan se på videoen.
 

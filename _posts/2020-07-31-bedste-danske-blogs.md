@@ -41,7 +41,7 @@ feature_row:
     btn_label: "Besøg Styrk"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/niklasmeier.jpg
-    url: http://niklasmeier.dk/traenings-vlog/
+    url: https://niklasmeier.dk/traenings-vlog/
     title: "Niklas Meier Trænings Vlog"
     alt: "Niklas Meier Trænings Vlog"
     excerpt: "Niklas Meier er personlig træner, og han har en ganske udemærket Vlog, hvor han humoristisk med en kop kaffe i hånden forklarer, hvordan træning kan hænge sammen. Desværre bliver bloggen ikke opdateret så ofte længere."
@@ -76,7 +76,7 @@ feature_row:
     btn_label: "Besøg Poul Haacker"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/marinaaagaard.jpg
-    url: http://marinaaagaardblog.com/
+    url: https://marinaaagaardblog.com/
     title: "Marina Aagaard"
     alt: "Marina Aagaard"
     excerpt: "Marina Aagaard er foredragsholder, forfatter, træner og fitness blogger. Marina deler ud af sine erfaringer med idræt og sundhed, hvordan man holder gejsten oppe og du vil også kunne finde ideer til træningsprogrammer. Bloggen har virkelig mange blogindlæg delt på forskellige træningsemner."
@@ -126,7 +126,7 @@ Jeg har også udvalgt et par gode blogs med danske bloggere af høj kvalitet fra
 
 ## Hvordan følger jeg med i træningsblogs og fitnessblogs?
 
-For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine favoritblogs om træning til min _bloglæser_. Jeg bruger selv [Feedly](http://www.feedly.com), men der findes flere forskellige muligheder for at læse blogs uden at skulle klikke ind på alle hjemmesiderne.
+For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine favoritblogs om træning til min _bloglæser_. Jeg bruger selv [Feedly](https://www.feedly.com), men der findes flere forskellige muligheder for at læse blogs uden at skulle klikke ind på alle hjemmesiderne.
 
 ## Fitness Blogs og træningsblogs
 

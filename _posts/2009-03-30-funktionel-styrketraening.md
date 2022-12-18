@@ -18,13 +18,13 @@ author: linda.kruse
 
 Funktionel træning er trenden og det blivende indenfor fitness. Hvad er det, og hvorfor kan du drage nytte funktionel træning? Her får du svar på, hvordan du kan optimere din træning, så du hurtigere og lettere får en stærkere, slankere og sundere krop.
 
-Som mennesker og især som idrætsudøvere udfører vi mange forskellige bevægelser. Vi går, jogger, løber, sprinter, hopper, løfter, skubber, trækker, bøjer, roterer, står, starter, stopper og klatrer. Alle de bevægelser involverer glidende, rytmiske bevægelser i [forskellige bevægelsesplaner]({% link _pages/anatomy/joints.md %}).
+Som mennesker og især som idrætsudøvere udfører vi mange forskellige bevægelser. Vi går, jogger, løber, sprinter, hopper, løfter, skubber, trækker, bøjer, roterer, står, starter, stopper og klatrer. Alle de bevægelser involverer glidende, rytmiske bevægelser i [forskellige bevægelsesplaner](/led/).
 
 Hvad er funktionel styrketræning? **Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt.**
 
 Kroppen er en funktionel helhed designet til at arbejde som et sammenhængende system, og derfor bør kroppen også trænes sammenhængende i din træning og styrketræning.
 
- {% include figure image_path=page.header.overlay_image caption=page.title alt="funktionel styrketræning og træning" %}
+{% include figure image_path=page.header.overlay_image caption=page.title alt="funktionel styrketræning og træning" %}
 
 ## Definition af funktionel træning
 
@@ -54,7 +54,7 @@ Alle kast ser fundamentalt ens ud, alle hop ser ens ud, og acceleration er uanse
 
 Et vigtigt element i funktionel træning er styrketræning af kropsstammen, musklerne mellem bækken og mellemgulv. Med en stærk og stabil kropsstamme opnår du større kraft, kvalitet og effektivitet i alle øvelser og hermed kropsligt overskud og forbedret total præstationsevne. Sidst, men ikke mindst, er træning af balancen med i al funktionel træning, fordi en bedre balance optimerer alle dine bevægelsesmønstre både i dagligdagen og under udøvelse af sport.
 
-[Marina Aaagaard](http://marinaaagaardblog.com/2013/09/04/hvad-er-funktionel-traening/) har opstillet følgende nøgleord for funktionel træning:
+[Marina Aaagaard](https://marinaaagaardblog.com/2013/09/04/hvad-er-funktionel-traening/) har opstillet følgende nøgleord for funktionel træning:
 
 - Balance, dynamisk og statisk, og stabilitet
 - Koordination, generel samt ben- og armarbejde
@@ -111,7 +111,7 @@ Du behøver som sådan ikke at lege for at lave funktionel træning. Fordelen ve
 
 ### 8. Hvordan kan jeg ellers variere min træning?
 
-Funktionel træning kan laves overalt. Du kan bruge forskellige redskaber. Der er fx forskel på at lave pullups i en stang og i gymnastikringe. Du kan også udfordre din [balanceevne med balancetræning]({% link _posts/2020-07-16-balancetraening.md %}). Du kan lave styrketræning med naturredskaber eller lave [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}). Du kan lave noget hårdt og intenst eller du kan arbejde med mindre intensitet.
+Funktionel træning kan laves overalt. Du kan bruge forskellige redskaber. Der er fx forskel på at lave pullups i en stang og i gymnastikringe. Du kan også udfordre din [balanceevne med balancetræning](/balance/). Du kan lave styrketræning med naturredskaber eller lave [træning med kropsvægt](/artikel/traening-med-kropsvaegt/). Du kan lave noget hårdt og intenst eller du kan arbejde med mindre intensitet.
 
 ## Planlægning af funktionel træning
 
@@ -137,5 +137,5 @@ Hvis du planlægger funktionel træning, så kan du bruge følgende tjekliste ti
 - [ ] Tag højde for bevægelsesplaner, så du arbejder både i det sagitale-, frontale- og horisontale bevægelsesplan
 - [ ] Muskelbalancer tilgodeses i træningen - og meget gerne i det enkelte træningspas, så agonister, antagonister og synergister trænes. Når der skubbes, trækkes der også.
 - [ ] Giv mulighed for at have kvalitet i bevægelserne
-- [ ] Stabilitet med '[core træning]({% link _posts/2020-07-16-coretraening.md %})'
+- [ ] Stabilitet med '[core træning](/core/)'
 - [ ] Træn de små stabilisatorer også, så fundamentet bliver stærkt, fx 'rotator cuff'

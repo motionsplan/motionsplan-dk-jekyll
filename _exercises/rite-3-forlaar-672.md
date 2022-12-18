@@ -52,4 +52,4 @@ Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær o
 
 Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forover.
 
-Denne rite er en del af [de fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}).
+Denne rite er en del af [de fem tibetanere](/artikel/de-fem-tibetanere/).

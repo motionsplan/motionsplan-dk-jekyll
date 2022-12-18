@@ -30,7 +30,7 @@ polar:
 
 Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på. Hvis du leder efter en "kondital beregner", så kan du her finde forskellige metoder til udregning af konditallet.
 
-En måde er at beregne [dit kondital](/kondital/) ud fra en [vilkårlig løbedistance](/kondital-loeb-distance-tid/), løbe en [bip-test](/bip-test/) eller en [Cooper test](/cooper-test/). Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
+En måde er at beregne [dit kondital](/kondital/) ud fra en [vilkårlig løbedistance](/kondital-loeb-distance-tid/), løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
 
 Men hvis du helst ikke vil rejse dig fra sofaen for at få svaret, så kan kan denne artikel være svaret. Her får du nemlig en række beregnere til kondital, som du kan udføre mens du ligger ned.
 
@@ -142,7 +142,7 @@ Når du beregner dit kondital, så skal du huske, at alle _indirekte_ tests er f
 
 Dit beregnede kondital vil forbedres, hvis du træner over længere tid, hvor du udfordrer kredsløbet. Den hurtigeste måde at forbedre et udregnet kondital er ved at tabe dig. Det skyldes, at konditallet bl.a. afhænger af vægten.
 
-For at forbedre beregningen af dit kondital, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
+For at forbedre beregningen af dit kondital, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 Hvis du bruger samme beregner til dit kondital næste gang, så skal du altså bare præstere bedre i testen, og så vil udregningen af konditallet give et bedre tal.
 

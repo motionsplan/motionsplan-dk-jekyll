@@ -24,7 +24,7 @@ V<sub>max</sub>-cykeltræning er cykelintervaller med en intensitet omkring den 
 
 Jeg har skrevet en [teoretisk gennemgang af V<sub>max</sub>-træning](/vmax/), som du kan læse først. V-max-cykeltræning er [intervaltræning](/intervaltraening/) omkring den maksimale iltoptagelse. Træningsformen er baseret på et træningsstudium af [Smith et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/06000/Effects_of_4_wk_training_using_Vmax_Tmax_on.19.aspx). . Hvis du vil have det bedste udbytte af træningen, så er det godt at lave en plan, der sikrer _progressivt overload_ i løbet af fx en måned, som de gjorde i det oprindelige studium.
 
-Det oprindelige studium er lavet med løbere, men teoretisk set kan man overføre tankegangen bag studiet til cykling og roning også. [Morten Zacho](http://web.archive.org/web/20110606133951/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/){:rel="nofollow"} foreslår også V<sub>max</sub> træning til cykling.
+Det oprindelige studium er lavet med løbere, men teoretisk set kan man overføre tankegangen bag studiet til cykling og roning også. [Morten Zacho](https://web.archive.org/web/20110606133951/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/){:rel="nofollow"} foreslår også V<sub>max</sub> træning til cykling.
 
 ## Cykelprogrammet baseret på studiet
 
@@ -43,7 +43,7 @@ I studiet træner de højintensive intervaller to gange om ugen, mens de lavede 
 
 ## Beregning af V<sub>max</sub> til cykel
 
-Det oprindelige studium er lavet med løbere, men teoretisk set kan man overføre tankegangen bag studiet til cykling og roning også. Morten Zacho foreslår også [V<sub>max</sub> træning til cykling](http://web.archive.org/web/20110606133951/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/){:rel="nofollow"}.
+Det oprindelige studium er lavet med løbere, men teoretisk set kan man overføre tankegangen bag studiet til cykling og roning også. Morten Zacho foreslår også [V<sub>max</sub> træning til cykling](https://web.archive.org/web/20110606133951/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/){:rel="nofollow"}.
 
 Du kan også bruge V<sub>max</sub> træning på cykel, hvis du har adgang til en cykel, der kan vise din watt-belastning.
 

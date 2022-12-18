@@ -4,20 +4,27 @@ seo_title: &title "Apps til Hometrainer: 4 Platforme til Virtuel Cykling"
 permalink: /hometrainer-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Cykling
 tags:
   - træningsudstyr
+  - hometrainer
 last_modified_at: 2022-02-12T22:21:26Z
 ---
 
-Nu hvor vinteren nærmer sig hastigt, leder mange cyklister efter alternativer til at holde dem i form i de kolde måneder. En motionscykel er et godt alternativ, og der findes nu en række apps, som kan gøre oplevelsen endnu sjovere og mere givende. 
+Nu hvor vinteren nærmer sig hastigt, så leder du måske efter en alternativ måde at holde dig i form på cyklen? En motionscykel eller hometrainer er et godt alternativ, og der findes nu en række apps, som kan gøre oplevelsen endnu sjovere og mere givende.
 
-At cykle på en motionscykel indendørs er en fantastisk måde at forbedre din kondition på, og du kan nu gøre det, mens du kører gennem virtuelle verdener eller konkurrerer mod andre online. Der er masser af muligheder, så tag et kig på nogle af de bedste apps til virtuel cykling på din hometrainer, og kom i gang i dag!
+At cykle på en motionscykel indendørs er en fantastisk måde at forbedre din kondition på, og du kan nu gøre det, mens du kører gennem virtuelle verdener eller konkurrerer mod andre online.
 
-## Apps til virtuel cykling
+Der er masser af muligheder for at få en indendørs cykeloplevelse, så tag et kig på nogle af de bedste apps til virtuel cykling på din hometrainer, og kom i gang i dag!
+
+{% include figure image_path="https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=450&w=600&q=60" caption="Virtuel cykling og e-cycling" %}
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+
+## Apps til virtuel cykling og e-cykling
 
 Der findes en lang række forskellige apps, som du kan bruge sammen med din hometrainer og få en fornemmelse af at cykle i virtuelle verdener sammen med andre.
 
@@ -29,7 +36,7 @@ Det er ikke helt tilfældigt, at jeg har sat Zwift øverst på listen. Zwift er 
 
 Jeg kan godt lidt RGT Cycling, fordi det er gratis, og da jeg bruger cykeltræningen, som et supplement, så har jeg en lidt bedre fornemmelse, når jeg hellere vil løbe i dag, når platformen er gratis.
 
-## Zwift
+### 1. Zwift
 
 Zwift er en app, der har taget træningsverdenen med storm. Det er en onlineplatform, som du kan bruge til at træne med eller uden andre mennesker. Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har en række forskellige kurser at vælge imellem, samt træningsprogrammer.
 
@@ -37,9 +44,21 @@ Zwift tilbyder ogsået stort fællesskabsaspekt. Du kan følge andre ryttere, gi
 
 Hvis du leder efter en app, der både giver dig en god træning og er sjov, er Zwift en god mulighed.
 
-**Læs**: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
+{% include video provider="youtube" id="5MI7Jfamd-Q" %}
 
-## BKOOL
+Læs: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
+
+### 2. Wahoo RGT Cycling
+
+Wahoo RGT Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
+
+{% include video provider="youtube" id="D29q_wssy0k" %}
+
+Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring sammen , og snakke med dem.
+
+Læs: [RGT Cycling anmeldelse](/rgt-cycling/)
+
+### 3. BKOOL
 
 BKOOL er en anden motionscykel-app, der giver en fantastisk træningsoplevelse. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
 
@@ -47,23 +66,25 @@ Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også
 
 Hvis du leder efter en app, der både giver dig en god træning og er sjov, er BKOOL en god mulighed.
 
-**Læs**: [Begynderguide til BKOOL](/bkool-begynderguide/)
+Læs: [Begynderguide til BKOOL](/bkool-begynderguide/)
 
-## Royvu
+### 4. Rouvy
 
-Royvu er en anden fantastisk app til hometrainer, der giver dig en realistisk træningsoplevelse. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
+Rouvy er en anden fantastisk app til hometrainer, der giver dig en realistisk træningsoplevelse. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
+
+{% include video provider="youtube" id="cX1LycvFv3c" %}
 
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen indeholder også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring undervejs, og snakke med dem.
 
-**Læs**: [Royvu Beginner's Guide](/rouvy/)
+Læs: [Rouvy begynderguide](/rouvy/)
 
-## RGT Cycling
+{% comment %}
 
-RGT Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
+## eBioPassport
 
-Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring sammen , og snakke med dem.
+#RIDEFAIR
 
-**Læs**: [RGT Cycling anmeldelse](/rgt-cycling/)
+{% endcomment %}
 
 ## Konklusion
 

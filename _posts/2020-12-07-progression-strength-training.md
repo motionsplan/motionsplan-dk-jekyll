@@ -177,11 +177,18 @@ Efter fire uger øger du vægten med 5%, og så kan du starte cyklus forfra, fx 
 
 ### Vælg vægten til fixed weight protocol
 
-Start med omkring 75% af [1RM](/rm-beregner/) for 3x5 gentagelser. Du skal gå efter fem gentagelser i hvert sæt med god teknik. Du kan bruge vores [1RM-beregner](/rm-beregner/) til at finde dit udgangspunkt.
+Start med omkring 75% af [1RM](/rm-maxtest/) for 3x5 gentagelser. Du skal gå efter fem gentagelser i hvert sæt med god teknik. Du kan bruge vores [1RM-beregner](/rm-beregner/) til at finde dit udgangspunkt.
 
 [Christian Thibaudeau](https://www.t-nation.com/workouts/best-way-to-keep-getting-stronger) foreslår 6 gange træning om ugen fordelt på workout A og workout B. Han foreslår at lave to store løft hver gang, fx military press og bænkpres og squat og chest-supported rows. Dertil skal du vælge to assistance-øvelser, hvor du ikke behøver at tænke over progressionsmodellen, men bare sørge for at lave et godt arbejde, fx 3x8-12 reps.
 
 [Lee Boyce foreslår på t-nation.com](https://www.t-nation.com/training/forget-prs-first-own-the-weight) også andre metoder og teknikker, du kan bruge til først at eje den enkelte vægt.
+
+## Hvordan kan du lave progression i din træning?
+
+Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har besluttet dig for en bestemt vægt, bliver det lettere, når du har trænet et stykke tid.
+
+- **Tilfældig.** Føl dig frem til, hvor meget vægt, der skal være på stangen. Sørg for at slå en rekord hver gang, du træner. Tag et sæt mere. Smid lidt mere vægt på stangen i en af øvelserne.
+- **Systematisk.** Lav et program, hvor du systematisk tester, hvad dit niveau er, og hvad du skal løfte til hver træning. Du laver jævnligt tests, så du kan justere vægten til næste træning. Fx kan du lave tests hver fjerde uge, hvis du går efter fx 3RM eller 5RM.
 
 ## Konklusion om progressionsmodeller og progressivt overload
 

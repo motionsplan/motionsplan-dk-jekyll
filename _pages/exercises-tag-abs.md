@@ -28,7 +28,7 @@ Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetr
 
 Du man måske få mere ud af din mavetræning. Her får du en grundig indføring i, hvordan du kan træne din mave med de bedste maveøvelser. Du bliver også klogere på, hvor høj intensitet og hvor mange gentagelser, du bør køre for at opfylde dine mål.
 
-Der kan være mange grunde til at træne maven. Den vigtigste grund er, at maven er en del af din core. En stærk kropsstamme er med til at skabe et godt fundament for at bevæge sig. Vi har skrevet et indlæg om [coretræning]({% link _posts/2020-07-16-coretraening.md %}).
+Der kan være mange grunde til at træne maven. Den vigtigste grund er, at maven er en del af din core. En stærk kropsstamme er med til at skabe et godt fundament for at bevæge sig. Vi har skrevet et indlæg om [coretræning](/core/).
 
 Der er mange muligheder for at supplere mavebøjningerne med meget mere udfordrende varianter af øvelser for maven, men hvis du gerne vil have en sixpack, så er der ikke en magisk øvelse, som vil hjælpe dig. Så skal du [tabe fedt på maven]({% link _posts/2020-07-07-mavefedt.md %}).
 
@@ -44,7 +44,7 @@ Mange ender med at træne maven med en høj frekvens og mange gentagelser. Hvis 
 
 Det kan være mere effektivt at vælge sværere varianter af øvelserne eller gøre de enkelte øvelser sværere med at sætte belastning på.
 
-Mavemusklerne er muskler, som bør trænes som andre muskler. Hvis [muskler skal vokse]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), så skal du følge de samme guidelines som resten af kroppen. Hvis du gerne vil have stærke mavemuskler, så skal de følge principperne for muskelstyrke. Og udholdende mavemuskler får du med mange gentagelser.
+Mavemusklerne er muskler, som bør trænes som andre muskler. Hvis [muskler skal vokse](/hvordan-vokser-muskler/), så skal du følge de samme guidelines som resten af kroppen. Hvis du gerne vil have stærke mavemuskler, så skal de følge principperne for muskelstyrke. Og udholdende mavemuskler får du med mange gentagelser.
 
 Ligesom de andre muskler så er det altså godt at ramme mavemusklerne med forskellige intensiteter og tempi. Et godt sted for stærkere og større mavemuskler er nok i det _rep range_, der hedder 6-12 gentagelser, mens flere gentagelser arbejder med udholdenheden i mavemusklerne.
 

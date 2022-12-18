@@ -25,6 +25,7 @@ author: lsolesen
 toc: true
 sidebar:
   nav: trainingtypes
+breadcrumbs: true
 ---
 
 Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på.
@@ -127,10 +128,10 @@ Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej ud
 
 Når du gerne vil træne forskellige muskelgrupper, så skal du vælge passende træningsøvelser, så du træner de rigtige muskler.
 
-Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser]({% link _posts/2020-07-08-udstraekning.md %}), [balanceøvelser]({% link _posts/2020-07-16-balancetraening.md %}), [træning af core og kropsstammen]({% link _posts/2020-07-16-coretraening.md %}) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
+Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser](/udstraekning-udspaending/), [balanceøvelser](/balance/), [træning af core og kropsstammen](/core/) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
-Du kan også tjekke vores dedikerede sider til [øvelser til maven]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [øvelser til brystet]({% link _pages/exercises-tag-bryst.md %}), [baldeøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}) eller [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}).
+Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [øvelser til brystet](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/) eller [skulderøvelser](/skulderoevelser/).
 
-Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups]({% link _posts/2020-06-30-pullup-chinup.md %}) og [armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}).
+Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups](/chinup-vs-pullup/) og [armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/).
 
 Under alle omstændigheder bør du til inspiration dykke ned i [alle vores træningsøvelser](/traeningsoevelser/).

@@ -1,7 +1,8 @@
 ---
 title: &title "Beregn idealvægt for mænd og kvinder i vores enkle beregner"
-seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
-description: "Vil du gerne kende din idealvægt? Her kigger vi på normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores idealvægt beregner og se om du har en sund vægt."
+#seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
+seo_title: "Idealvægt beregner: Hvad bør mænd og kvinder veje?"
+description: "Vil du gerne kende din idealvægt? Her kigger vi på sund vægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Komplet guide med beregner."
 excerpt: "Er du interesseret i at kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
 permalink: /idealvaegt/
 language: da
@@ -33,6 +34,11 @@ Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalv�
 {% include figure image_path="https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="vægt til at måle idealvægt, gennemsnitsvægt og normalvægt" %}
 
 Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
+
+{% comment %}
+TODO
+## Hvad skal jeg veje?
+{% endcomment %}
 
 {% include lead-magnet-button.html %}
 
@@ -131,7 +137,7 @@ Jeg har skrevet en lang grundig artikel om [Body Mass Index (BMI)](/bmi/), som o
 
 Men husk at din vægt kan ikke betragtes som en faktuel videnskab. Begrebet om idealvægt er bare retningslinjer, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
 
-Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om forskellige [modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}) og hvordan man kan [måle fedtprocent](/maal-fedtprocent/).
+Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om forskellige [modeller til at beskrive kropskomposition](/kropskomposition/) og hvordan man kan [måle fedtprocent](/maal-fedtprocent/).
 
 ## Hvad er gennemsnitsvægt i forhold til idealvægt?
 

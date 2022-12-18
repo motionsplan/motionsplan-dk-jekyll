@@ -50,7 +50,7 @@ gallery_explain:
 
 Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning. Rationalet bag begrebet er, at fedtforbrændingen er størst med en bestemt intensitet. Og det er sådan set relativt rigtigt, men der er absolut udfordringer ved forståelsen af fedtforbrændingszonen.
 
-Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
+Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
 
 Jeg synes imidlertid sagtens at fedtforbrændingszonen kan have sin plads i træningen, når man kigger på den bagvedliggende fysiologi. 
 
@@ -68,17 +68,17 @@ Det er relativt let ud fra den [respiratoriske udvekslingskvotient]({% link _pos
 
 ## Skal vi "glemme" fedtforbrændingszonen?
 
-[Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev glem fedtforbrændingszonen. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
+[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev glem fedtforbrændingszonen. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
 
 Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste i forhold til vægttab er ikke en fedtforbrændingszone, men hvad der sker over hele døgnet.
 
-Rationalet bag fedtforbrædingen kan skitseres i følgende grafer, som [Morten Zacho forklarer](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}.
+Rationalet bag fedtforbrædingen kan skitseres i følgende grafer, som [Morten Zacho forklarer](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}.
 
-{% include feature_row id="gallery" type="left" caption="Den vandrette akse er intensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
+{% include feature_row id="gallery" type="left" caption="Den vandrette akse er intensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
 
-Men når man kigger på det samlede energiforbrug og vægttab, så skal du også ifølge [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} være opmærksom på følgende:
+Men når man kigger på det samlede energiforbrug og vægttab, så skal du også ifølge [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} være opmærksom på følgende:
 
-{% include feature_row id="gallery_explain" type="left" caption="Den vandrette akse er træningsintensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
+{% include feature_row id="gallery_explain" type="left" caption="Den vandrette akse er træningsintensiteten i forhold til den maksimale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}." %}
 
 Morten Zachos konkluderer, at hvis du skal tabe sig, så kan det ikke betale sig at holde pulsen nede for at træne i **fedtforbrændingszonen**, hvis du har lyst og evne til at arbejde med en højere intensitet.
 
@@ -90,7 +90,7 @@ I forhold til vægttab og fedtforbrænding foreslår Morten Zacho, at du arbejde
 > Spørgsmål: Hvis man f.eks har afsat 40 minutter til at motionere i, hvilken intensitet er så den bedste hvis man vil tabe sig?
 > Svar: Den højeste intensitet man kan holde i de 40 minutter!
 
-— <cite>[Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
+— <cite>[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
 
 Hvis du har sat et bestemt tidsrum af til motion og træning, så kan det i forhold til vægttab formentlig ikke betale sig at blive i **fedtforbrændingszonen** i forhold til træningen. 
 
@@ -106,13 +106,13 @@ Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med v
 
 Hvis vi i stedet kigger på fedtforbrændingszonen som bevægelse ved den intensitet, hvor fedtforbrændingen udgør en større del af den samlede forbrænding, så er historien en anden. At forbedre fedtforbrændingen kan nemlig også betyde noget for præstationen.
 
-Det viser med al tydelighed, at det er godt at træne med forskellige intensiteter, så du træner hele dit [energisystem]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Det viser med al tydelighed, at det er godt at træne med forskellige intensiteter, så du træner hele dit [energisystem](/energisystemer/).
 
 I nedenstående figur kan man få en fornemmelse for, at fedtforbrændingen topper på et tidspunkt.
 
 {% include figure image_path="https://gym-idraet.dk/app/uploads/2019/09/Fig.-2_837x500_acf_cropped-610x0-c-default_quality-85.jpg" caption="Fedtforbrænding under cykling som funktion af intensitet, somer angivet i % af maksimal iltoptagelse (VO₂–max). De hvide (uden opvarmning) og sorte cirkler (med 10 min progressiv opvarmning) angiver gennemsnitsværdier for en gruppe på 13 moderat til veltrænede motionscykelryttere med VO₂–max – opgivet som kondital – mellem 50-70 ml O₂·min⁻¹·kg⁻¹). Kilde: [Simon Riis: Din fedtforbrændingszone - En sandhed med modifikationer](https://gym-idraet.dk/nyheder-viden/din-fedtforbraendingszone-en-sandhed-med-modifikationer/)" %}
 
-Som jeg har skrevet om i forhold til den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}), så er andelen af fedt ved moderate intensiteter omkring 50%, mens den ved højere intensiteter går mere og mere over mod ren kulhydratforbrænding indtil du rammer din [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
+Som jeg har skrevet om i forhold til den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}), så er andelen af fedt ved moderate intensiteter omkring 50%, mens den ved højere intensiteter går mere og mere over mod ren kulhydratforbrænding indtil du rammer din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 At man absolut set kan forbrænde mere fedt ved at køre med højere intensitet i det samme tidsrum, kan få folk til at negligere fedtforbrændingszonen.
 

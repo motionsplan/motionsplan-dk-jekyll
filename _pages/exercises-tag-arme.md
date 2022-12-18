@@ -22,7 +22,7 @@ Vi har samlet det bedste og mest effektive armøvelser på en side her. Der er b
 
 ## Bicepsøvelser og øvelser til biceps
 
-Bicepsøvelser kan både være isolerede bevægelser eller flerledsøvelser. Når du laver armtræning så er det en god ide også at vælge øvelser, hvor biceps er med i trækøvelser for ryggen som fx [rows]({% link _posts/2020-07-06-rows.md %}), [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [chinups og pullups](/chinup-vs-pullup/). Du kan også lave isolationsøvelser for biceps, hvis du gerne vil have en større biceps.
+Bicepsøvelser kan både være isolerede bevægelser eller flerledsøvelser. Når du laver armtræning så er det en god ide også at vælge øvelser, hvor biceps er med i trækøvelser for ryggen som fx [rows](/rows/), [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [chinups og pullups](/chinup-vs-pullup/). Du kan også lave isolationsøvelser for biceps, hvis du gerne vil have en større biceps.
 
 Vi har samlet de mest effektive øvelser for biceps både med stang, håndvægte og kabel - og du kan også bruge forskellige greb, håndtag og vinkler i din træning.
 

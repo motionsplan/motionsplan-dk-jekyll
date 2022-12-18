@@ -1,6 +1,6 @@
 ---
-title: &title "Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2 max"
-seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2max"
+title: &title "Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2max"
+seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2 max"
 permalink: /maksimale-iltoptagelse-vo2max/
 redirect_from:
   - /intensitet-vo2max/
@@ -95,11 +95,11 @@ Studiet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 me
 
 Studiet viste også, at **slagvolumen (SV) var signifikant forøget i 15/15- og 4x4-gruppen**, hvilket ikke var tilfældet for LSD- og LT-gruppen. Den øgede slagvolumen i 15/15 og 4x4 korrelerede med den øgede VO<sub>2</sub>max, hvilket understøtter at den maksimale iltoptagelse også afhænger af slagvolumen.
 
-Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale puls]({% link _posts/2020-06-02-max-hr.md %}) ikke ændrer sig, så er der altså brug for, at hjertet kan pumpe mere blod rundt pr. slag for at forøge minutvolumen.
+Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale puls](/test-max-puls/) ikke ændrer sig, så er der altså brug for, at hjertet kan pumpe mere blod rundt pr. slag for at forøge minutvolumen.
 
 {% include figure image_path="/assets/images/helgerud-2007-vo2-sv.png" caption="Procentvis ændringer i absolutte VO<sub>2</sub>max og absolutte slagvolumen. Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="procentvise ændringer absolutte VO2 max og slagvolumen" %}
 
-[Anette Dalbøge](http://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
+[Anette Dalbøge](https://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
 
 Derudover viser studiet, at man ikke kan kompensere for en reduceret arbejdsintensitet ved at forøge arbejdstiden for at opretholde det samme totale arbejde, hvis du gerne vil forbedre din maksimale iltoptagelse. Intensiteten ser ud til at være afgørende for at forbedre VO<sub>2</sub>max.
 

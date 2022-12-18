@@ -47,4 +47,4 @@ last_modified_at: 2013-10-03T11:04:45Z
 
 Sprint er en overset øvelse. Selvom der ikke er vægtskiver involveret er det rigtig god styrketræning, fordi kroppen er tvunget til at arbejde maksimalt. Tænk over din teknik, når du sprinter for at få mest muligt ud af det.
 
-Læs mere under [How to improve your sprinting technique](http://www.google.com/url?sa=t&source=web&cd=10&sqi=2&ved=0CEgQFjAJ&url=http%3A%2F%2Fwww.sport-fitness-advisor.com%2Fsprintingtechnique.html&rct=j&q=sprint%20technique&ei=66j4TOuwOI3Fswamp823Aw&usg=AFQjCNFzBeRGjkQzjhzmSNaG3TPjEhhuxQ&sig2=8G-tKYmax4mwfqbmOxGCZA&cad=rja).
+Læs mere under [How to improve your sprinting technique](https://www.google.com/url?sa=t&source=web&cd=10&sqi=2&ved=0CEgQFjAJ&url=http%3A%2F%2Fwww.sport-fitness-advisor.com%2Fsprintingtechnique.html&rct=j&q=sprint%20technique&ei=66j4TOuwOI3Fswamp823Aw&usg=AFQjCNFzBeRGjkQzjhzmSNaG3TPjEhhuxQ&sig2=8G-tKYmax4mwfqbmOxGCZA&cad=rja).

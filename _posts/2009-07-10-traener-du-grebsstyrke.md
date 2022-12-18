@@ -64,18 +64,18 @@ Vi er imidlertid interesseret i, om du træner din grebsstyrke - og hvordan du g
 
 {% comment %}
 
-https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=5
+https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60
 
 https://www.bodylab.dk/shop/saadan-faar-du-2105c1.html
 
-**Svigter grebet når du kører dødløft? Er du generelt hæmmet af dårlig grebsstyrke, når du laver øvelser, hvor grebet spiller en vigtig rolle? Så kan det være denne artikel er noget for dig.**  
-  
+**Svigter grebet når du kører dødløft? Er du generelt hæmmet af dårlig grebsstyrke, når du laver øvelser, hvor grebet spiller en vigtig rolle? Så kan det være denne artikel er noget for dig.**
+
 Et stærkt greb spiller en vigtig rolle i forhold til mange øvelser, og i særdeleshed de store rygøvelser. Man kan altid maskere problemet, ved at anskaffe sig[løftestropper (straps)](https://www.bodylab.dk/shop/power-straps-et-209p.html), men det løser ikke rigtigt problemet. Det skal selvfølgelig ikke forstås sådan, at løftestropper er bandlyst i et fornuftigt[træningsprogram](https://www.bodylab.dk/shop/traeningsprogram-saadan-1202c1.html). Der er tidspunkter, hvor de tjener et formål, men er grebsstyrken et problem, så gør man sig selv en tjeneste ved at arbejde specifikt på at gøre den bedre. 
 
 ## Hvad vil det sige at have et stærkt greb?
 
-Umiddelbart skulle man tro, at det siger sig selv, hvad det vil sige at have et stærkt greb, men det gør sig ikke nødvendigvis gældende. Grebsstyrke er nemlig mange ting. Der findes primært 3 typer af grebsarbejde, hvor grebsstyrke spiller en rolle.   
-  
+Umiddelbart skulle man tro, at det siger sig selv, hvad det vil sige at have et stærkt greb, men det gør sig ikke nødvendigvis gældende. Grebsstyrke er nemlig mange ting. Der findes primært 3 typer af grebsarbejde, hvor grebsstyrke spiller en rolle. 
+
 ![Greb på vægtstang](https://www.bodylab.dk/images/bodyfeed/starkere_greb_1.jpg)
 
 ## ”Crushing”
@@ -98,51 +98,51 @@ Wrist curls kan være ganske fine til at øge massen i underarmen, men de har ik
 
 Et stærkt greb spiller en vigtig rolle i forhold til mange øvelser, og i særdeleshed de store rygøvelser
 
-  
+
 ![Captain of crunch](https://www.bodylab.dk/images/bodyfeed/starkere_greb_2.jpg)
 
 ## Sådan bruger du din tid fornuftigt  
 
-Din grebstræning bør ikke overraskende nok være planlagt efter hvad du vil opnå med den. Hvis du ikke har interesse i at optimere dit greb på alle fronter, så er der selvfølgelig ingen grund til at gå i gang med det store udvidede program. Hvis du bare vil optimere grebet i forhold til dine normale vægttræningsøvelser, så er det rigeligt at fokusere på ”static holds”, måske suppleret med en mindre mængde ”crushing” træning. Hvis du derimod ønsker det absolut stærkeste greb du kan få, så bliver programmet noget mere udbygget.  
-  
-Lad os prøve at se på hvordan man kunne strukturere det, hvis man kun er interesseret i at optimere sit greb i forhold til sin almindelige træning. Jeg vil anbefale at man kører nedenstående program igennem 2 gange i ugen for optimale resultater.   
-  
+Din grebstræning bør ikke overraskende nok være planlagt efter hvad du vil opnå med den. Hvis du ikke har interesse i at optimere dit greb på alle fronter, så er der selvfølgelig ingen grund til at gå i gang med det store udvidede program. Hvis du bare vil optimere grebet i forhold til dine normale vægttræningsøvelser, så er det rigeligt at fokusere på ”static holds”, måske suppleret med en mindre mængde ”crushing” træning. Hvis du derimod ønsker det absolut stærkeste greb du kan få, så bliver programmet noget mere udbygget.
+
+Lad os prøve at se på hvordan man kunne strukturere det, hvis man kun er interesseret i at optimere sit greb i forhold til sin almindelige træning. Jeg vil anbefale at man kører nedenstående program igennem 2 gange i ugen for optimale resultater. 
+
 Grebsstyrke til forbedring af grebet i normale vægttræningsøvelser
 
 * Dødløft holds i squatrack 5 sæt x 20-30 sekunder 
 * Hangs fra pullup bar 5 sæt x 20-30 sekunder
 
-  
+
 Det er vigtigt, at man vælger en vægt som gør at man holder sig indenfor 20-30 sekunders intervallet. Det passer nemlig med, at det er det tidsinterval man ligger indenfor i de fleste normale sæt. Hvis man er styrkeløfter og har grebsproblemer, så bør man selvfølgelig sænke intervallet en smule. Det kunne eksempelvis være helt ned til omkring 5-10 sekunder, og dermed noget tungere vægte.
 
 Læs også:[De 5 vigtigste træningsprincipper!](https://www.bodylab.dk/shop/de-5-vigtigste-277c1.html)
 
-Hvis man er ejer af et par Captain of Crush grippere, så kan man med fordel supplere ovenstående med lidt ”crushing” træning. En 4-5 sæt af 6-8 reps kan gøre tricket.  
-Men det er på ingen måde et krav. ”Static holds” har klart den bedste overførlighed til almindelige vægttræningsøvelser, sammenlignet med ”crushing” og ”pinch-gripping” øvelser. Det tydeliggøres også af det faktum, at mange styrkeløftere som uden problemer kan holde +250 kg i dødløft uden stropper, stadigvæk har problemer med at lukke de hardcore udgaver af Captain of Crush gripperne. Der er simpelthen ikke den store overførlighed fra statisk grebsstyrke til dynamisk grebsstyrke. Dermed ikke sagt, at der ikke er en overførlighed mellem de forskellige typer af grebsstyrke. Den er bare ikke så udtalt som man umiddelbart skulle tro.  
-  
-De fleste er nok mest interesseret i at optimere deres greb i forhold til deres normale vægttræningsøvelser, men skulle der være et par grebsentusiaster imellem læserne, så er her et program som er en tand mere avanceret og krævende.  
-   
-Dag 1: ”crushing” og ”pinch-gripping”  
-Captain of Crush træning:   
-Opvarmning med passende gripper.   
-10 singles på hver hånd med en Captain of Crush som gør en i stand til at lave hårde singles  
-5 negatives med en Captain of Crush som ligger et trin over den bedste man kan lukke (luk den eventuelt på benet, og slip den så langsomt)   
-2-3 sæt af 10-15 reps med en relativt let Captain of Crush gripper   
-”Pinch-gripping”   
-5 sæt x 15-20 sekunder med en passende vægtmængde   
-    
-Dag 2: ”static holds”   
-Opvarmning i dødløft holds op til nedenstående:  
-Dødløft holds i squatrack 5 sæt x 5, 10, 15, 20, 25 sekunder  
-Hangs fra pullup bar 5 sæt x 5, 10, 15, 20, 25 sekunder    
-  
+Hvis man er ejer af et par Captain of Crush grippere, så kan man med fordel supplere ovenstående med lidt ”crushing” træning. En 4-5 sæt af 6-8 reps kan gøre tricket.
+Men det er på ingen måde et krav. ”Static holds” har klart den bedste overførlighed til almindelige vægttræningsøvelser, sammenlignet med ”crushing” og ”pinch-gripping” øvelser. Det tydeliggøres også af det faktum, at mange styrkeløftere som uden problemer kan holde +250 kg i dødløft uden stropper, stadigvæk har problemer med at lukke de hardcore udgaver af Captain of Crush gripperne. Der er simpelthen ikke den store overførlighed fra statisk grebsstyrke til dynamisk grebsstyrke. Dermed ikke sagt, at der ikke er en overførlighed mellem de forskellige typer af grebsstyrke. Den er bare ikke så udtalt som man umiddelbart skulle tro.
+
+De fleste er nok mest interesseret i at optimere deres greb i forhold til deres normale vægttræningsøvelser, men skulle der være et par grebsentusiaster imellem læserne, så er her et program som er en tand mere avanceret og krævende.
+ 
+Dag 1: ”crushing” og ”pinch-gripping”
+Captain of Crush træning: 
+Opvarmning med passende gripper. 
+10 singles på hver hånd med en Captain of Crush som gør en i stand til at lave hårde singles
+5 negatives med en Captain of Crush som ligger et trin over den bedste man kan lukke (luk den eventuelt på benet, og slip den så langsomt) 
+2-3 sæt af 10-15 reps med en relativt let Captain of Crush gripper 
+”Pinch-gripping” 
+5 sæt x 15-20 sekunder med en passende vægtmængde 
+  
+Dag 2: ”static holds” 
+Opvarmning i dødløft holds op til nedenstående:
+Dødløft holds i squatrack 5 sæt x 5, 10, 15, 20, 25 sekunder
+Hangs fra pullup bar 5 sæt x 5, 10, 15, 20, 25 sekunder  
+
 Uanset om man vælger den avancerede udgave, eller om man vælger den skrabede udgave, så vil det have en positiv effekt på grebet i ens normale vægttræning. Og når grebet ikke længere er det svage led, så vil det resultere i mere styrke og masse i de primære muskelgrupper. Så hvad venter du på? I gang med grebstræningen.
 
 ![Citat element](https://www.bodylab.dk/images/bodyfeed/citat_element_blaa.jpg)Uanset om man vælger den avancerede udgave, eller den skrabede udgave, så vil det have en positiv effekt på grebet i ens normale vægttræning
 
 [![](https://www.bodylab.dk/images/campaigns/2021-02-protein-shakes/dk/1080x429.jpg)](https://www.bodylab.dk/shop/protein-shake-12x330ml-3690p.html)
 
-  
+
 Artikler og indlæg udformes af skribenter, som fungerer uafhængigt fra Bodylab.dk. Dette betyder, at de holdninger der udtrykkes ikke skal ses som et udtryk for virksomhedens eller medarbejdernes holdninger. Alle artikler og indlæg på Bodylab.dk er derfor udelukkende et udtryk for **skribentens egne holdninger.**
 
 {% endcomment %}

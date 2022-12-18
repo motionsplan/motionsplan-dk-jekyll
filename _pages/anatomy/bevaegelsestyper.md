@@ -5,7 +5,7 @@ seo_title: "Bevægelsestyper og bevægelsesplaner i anatomien"
 excerpt: "Her kigger vi på de forskellige bevægelsestyper og bevægelsesplaner i anatomien. Kroppen har mange frihedsgrader, men her får du et anatomisk sprog til at beskrive kroppens bevægelser."
 permalink: /bevaegelsestyper-og-bevaegelsesplaner/
 header:
-  overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   caption: *title
 categories:
   - Anatomi
@@ -83,11 +83,11 @@ Et squat foregår i det sagitale plan. Der foregår en ekstension i knæleddet o
 
 ### Pullup
 
-En [pullup]({% link _posts/2020-06-30-pullup-chinup.md %}) med overhåndsgreb foregår bl.a. i det frontale plan, fordi der sker en indadføring i skulderleddet - særligt hvis du holder relativt bredt. Desuden foregår der en fleksion i albueleddet, som er i det sagitale plan.
+En [pullup](/chinup-vs-pullup/) med overhåndsgreb foregår bl.a. i det frontale plan, fordi der sker en indadføring i skulderleddet - særligt hvis du holder relativt bredt. Desuden foregår der en fleksion i albueleddet, som er i det sagitale plan.
 
 ### Chinup
 
-En [chinup]({% link _posts/2020-06-30-pullup-chinup.md %}) foregår i det sagitale plan, fordi du laver en ekstension i skulderleddet og en fleksion i albueleddet, når du hæver dig op.
+En [chinup](/chinup-vs-pullup/) foregår i det sagitale plan, fordi du laver en ekstension i skulderleddet og en fleksion i albueleddet, når du hæver dig op.
 
 ## Bevægelsesplan og bevægelsestyper for skulderen og hoften
 
@@ -107,7 +107,7 @@ Lad os prøve at kigge lidt på armstrækninger og bænkpres.
 
 ### Armstrækning
 
-En [armstrækning - eller en armbøjning]({% link _posts/2020-07-05-pushups.md %}) som den også ofte kaldes kan enten være udført smalt eller bredt. Hvis **armstrækningen er smal**, så foregår bevægelserne i det sagitale plan, fordi der er en bøjning i skulderleddet og en strækning i albueleddet.
+En [armstrækning - eller en armbøjning](/armbojninger-eller-armstraekninger-pushups/) som den også ofte kaldes kan enten være udført smalt eller bredt. Hvis **armstrækningen er smal**, så foregår bevægelserne i det sagitale plan, fordi der er en bøjning i skulderleddet og en strækning i albueleddet.
 
 Hvis du laver **bred armstrækning**, så foregår der stadig en strækning i albueleddet. Desuden foregår der en indadføring (adduktion) i skulderleddet. Dette er en kombineret bevægelse, som derfor foregår i det transversale plan, fordi armene er hævet. Det betyder, at den kombinerede bevægelse skaber en rotation i bevægelsesplanet, men fordi det er en lukket kæde, så foregår der ikke rotation i selve skulderleddet.
 

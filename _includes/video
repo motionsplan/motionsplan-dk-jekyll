@@ -10,8 +10,13 @@
 {% if video_provider == "vimeo" %}
   <iframe src="https://player.vimeo.com/video/{{ video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen loading="lazy"></iframe>
 {% elsif video_provider == "youtube" %}
-  <div class="youtube-container">
+  <div class="youtube-container" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
     <div class="youtube-player" data-id="{{ video_id }}">
+      <meta itemprop="name" content="{{ page.title }}" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/{{ video_id }}/default.jpg">
+      <meta itemprop="uploadDate" content="{{ page.date | date_to_xmlschema }}">
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/{{ video_id }}">
+      <meta itemprop="description" content="{{ page.excerpt  | markdownify | strip_html | strip_newlines | escape_once }}">
       <a href="https://www.youtube.com/watch?v={{ video_id }}" rel="nofollow noopener">
         <img class="youtube-thumb" src="https://i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" loading="lazy" alt="video til {{ page.title }}">
         <span class="play-button"></span>

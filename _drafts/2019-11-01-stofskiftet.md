@@ -18,7 +18,7 @@ feature_row:
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831"
     btn_label: "Læs mere*"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
@@ -156,7 +156,7 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 {% include feature_row type="left" %}
 
 - Nordiska næringsrekommendationer 1996. Nordiska ministerrådet. København, 1996.
-- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
+- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
 - World Health Organisation, Fao, and Unu. Energy and protein requirements. Geneva: WHO, Technical Report Series 724, 1985.
 - Exercise Physiology, McArdle, Katch & Katch, 5th ed
 - WHO Obesity Guidelines, 2000 - Technical Report Series 894

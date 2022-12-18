@@ -1,6 +1,6 @@
 lsolesen:
   name: "Lars Olesen"
-  bio: "Lars Olesen er cand.scient. i Idræt og Sundhed fra Syddansk Universitet. Til daglig lærer på Vejle Idrætshøjskole, hvor han underviser i styrketræning, ernæring og teambuilding - og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness."
+  bio: "Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet. Til daglig er jeg lærer på Vejle Idrætshøjskole. Her underviser jeg i styrketræning, ernæring og test & træning. Desuden uddanner jeg fitnessinstruktører for DGI og DIF's Foreningsfitness."
   avatar: "/assets/images/authors/larsolesen.jpg"
   featured: true
   links:
@@ -19,7 +19,7 @@ lsolesen:
 jesper.emil.jakobsgaard:
   name             : "Jesper Emil Jakobsgaard"
   avatar           : "/assets/images/authors/jesper-emil-jakobsgaard.jpg"
-  bio              : "Ph.d.-studerende ved Aarhus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter. Underviser i fysisk træning ved Aarhus Universitet"
+  bio              : "Erhvervsforsker med en ph.d. fra Aarhus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter. Underviser i fysisk træning og træningsfysiologi ved Aarhus Universitet."
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -36,7 +36,7 @@ nikolai.jauk:
 andreas.christensen:
   name             : "Andreas Kjærsgaard Christensen"
   avatar           : "/assets/images/authors/andreas-christensen.jpg"
-  bio              : "Siden januar 2017 har jeg været medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
+  bio              : "Medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
   links:
     - label: "www.occlude.dk"
       icon: "fas fa-fw fa-link"
@@ -101,9 +101,9 @@ linda.kruse:
   avatar           : "/assets/images/authors/lindakruse.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Linda Kruse er bachelor i Idræt og Sundhed fra Syddansk Universitet. Hun arbejder som bevægelseskonsulent og projektleder i sundhedsafdelingen i Vejle Kommune - og driver Kroptimal."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "http://www.kroptimal.dk/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kroptimal/"
 simon.glue:
   name             : "Simon Glue"
   avatar           : "https://www.webopskrifter.dk/billeder/simonsorthvid.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"

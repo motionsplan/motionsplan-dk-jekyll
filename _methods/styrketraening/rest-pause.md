@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Rest-pause"
+seo_title: "Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med denne teknik"
 permalink: /styrketraening/rest-pause/
 header:
   teaser: /assets/images/hypertrofi/rest-pause-hypertrofi.jpg
@@ -71,3 +72,47 @@ Ultimately, rest pause training likely allows the same number of stimulating rep
 {% endif %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
+
+{% comment %}
+
+Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med denne teknik
+Hvis du ønsker at tilføje nogle ekstra centimeter til dine arme eller ben, skal du ikke kigge længere end til rest-pause-metoden til styrketræning. 
+
+Denne avancerede teknik kan hjælpe dig med at bryde igennem plateauer og tage dine bodybuildingfremskridt til det næste niveau. 
+
+Hvad er et rest-pause-sæt så? Kort sagt er det en måde at udføre en øvelse til næsten _failure_, hvile kortvarigt - og derefter fortsætte igen indtil du ikke kan løfte vægten længere. Det er en fantastisk måde at presse dig selv hårdere og opnå bedre resultater på!
+
+Hvad er et rest-pausesæt, og hvordan fungerer det?
+Et rest-pause sæt er en måde at udføre en øvelse til næsten _fejl_, hvile kortvarigt - og så fortsætte igen indtil du ikke kan løfte vægten mere 
+
+Ideen er, at ved at hvile kortvarigt mellem sættene, vil du kunne presse dig selv hårdere og få bedre resultater 
+
+Hvordan man udfører et hvile-pausesæt?
+Der er et par forskellige måder at udføre et sæt med hvilepause, men den mest almindelige metode er at vælge en vægt, som du kan løfte i ca. 12 gentagelser 
+
+Når du har nået failure ved 12 reps, skal du hvile i 20-30 sekunder og derefter fortsætte, indtil du når failure igen.
+
+Du kan gentage denne proces en gang til, hvis du har lyst, men det er ikke nødvendigt.
+
+Hvilke øvelser egner sig til rest-pause-metoden?
+Alle øvelser kan udføres som et hvilesæt, men nogle øvelser egner sig bedre til denne metode end andre 
+
+Nogle af de bedste øvelser til rest-pause sæt er: squat, dødløft, bænkpres, skulderpres og rows.
+
+Fordelene ved at bruge hvile-pause-metoden
+Fordelene ved at bruge hvile-pause-metoden er mange, men nogle af de mest bemærkelsesværdige er bl.a.:
+
+- Du vil være i stand til at løfte tungere vægte og bryde igennem plateauer 
+
+- Du vil se bedre resultater på kortere tid 
+
+- Det er en fantastisk måde at presse dig selv hårdere og få bedre resultater!
+
+Hvornår du bør bruge rest-pause-metoden?
+Pausemetoden kan bruges når som helst, men den er især nyttig, når du forsøger at bryde igennem et plateau 
+
+Hvis du føler, at du sidder fast i en rutine og ikke gør nogen fremskridt, så prøv hvilepausemetoden!
+
+Du vil måske blive overrasket over, hvor godt den virker.
+
+{% endcomment %}

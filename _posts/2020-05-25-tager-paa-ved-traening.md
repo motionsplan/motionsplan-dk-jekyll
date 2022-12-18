@@ -22,7 +22,7 @@ Jeg er kommet i gang med at træne igen efter at have holdt lidt pause. Jeg ople
 
 **Når du træner kan du opleve at tage på, fordi du opbygger dine muskler, fylder dine energilagre, får mere blod i kroppen, forbedrer dit bindevæv og fordi kroppen er i gang med genopbygningen.**
 
-Jeg har lavet lidt mere research og samlet 7 ufarlige fordele til, at du tager på ved træning. 
+Jeg har lavet lidt mere research og samlet 7 ufarlige fordele til, at du tager på ved træning.
 
 ## 1. Der lagres mere kulhydrat i musklerne
 
@@ -41,23 +41,23 @@ I tabellen nedenunder kan du se, hvor store energilagrene til kulhydrat kan vær
 | Muskler | 300-700 g |
 | Lever | 50-120 g |
 | Blodsukker | 2-4 g |
- 
-Det er selvfølgelig lidt vanskeligt nøjagtigt at sætte tal på, hvor store dine kulhydratlagre er. Det afhænger af kropsvægt, dit træningsniveau, hvor meget du har lavet, hvor meget du har spist og størrelsen på dine muskler. Det svinger jo 
 
-Det er med andre ord meget forskelligt fra person til person, hvor meget glykogen, man har. 
+Det er selvfølgelig lidt vanskeligt nøjagtigt at sætte tal på, hvor store dine kulhydratlagre er. Det afhænger af kropsvægt, dit træningsniveau, hvor meget du har lavet, hvor meget du har spist og størrelsen på dine muskler. Det svinger jo
+
+Det er med andre ord meget forskelligt fra person til person, hvor meget glykogen, man har.
 
 [Acheson et al (1988)](https://academic.oup.com/ajcn/article-abstract/48/2/240/4694971) har imidlertid vist, at det måske er muligt at lagre endnu mere glykogen i visse tilfælde).
 {: .notice .notice--info }
 
-Din vægt vil altså gå op og ned, hvis du indtager kulhydratholdige måltider. 
+Din vægt vil altså gå op og ned, hvis du indtager kulhydratholdige måltider.
 
 Træningen er samtidig med til at forbedre din evne til at lagre kulhydrat på sigt, men den ændring tager naturligvis noget tid.
 
 Du har altså ikke taget fedt på, fordi du har spist en masse kulhydrater. Din vægt stiger, fordi du har mere glykogen i kroppen og mere væske.
 
-Forskellen på din vægt vil være endnu større, hvis du normalt ikke spiser så mange kulhydrater i din kost. 
+Forskellen på din vægt vil være endnu større, hvis du normalt ikke spiser så mange kulhydrater i din kost.
 
-Forskellen fra at have relativt tømte glykogenlagre til at fylde dem helt op kan altså være helt op til 1-2 kilo. Det kan det, fordi du binder omkring 3 gram vand pr. kg glykogen. 
+Forskellen fra at have relativt tømte glykogenlagre til at fylde dem helt op kan altså være helt op til 1-2 kilo. Det kan det, fordi du binder omkring 3 gram vand pr. kg glykogen.
 
 Det er umuligt at tømme sine kulhydratdepoter helt, fordi hjernen er afhængig af, at der er kulhydrat til stede. Så lad os bare sige, at du kan fylde depoterne med 500 g og hvert gram binder 3 gram vand. Så har du altså i alt 2 kg ekstra på vægten.
 
@@ -83,7 +83,7 @@ Faktisk kan måltidet gøre dig endnu mere klar til hård træning senere.
 
 ## 3. Blodvolumen øges ved træning
 
-Når du træner, så forbedres dit kredsløb også. Særligt hvis du træner cardio og udholdenhedstræning så er en af effekterne, at du får mere blod. Faktisk kan blodvolumen øges med helt op til et kilo, når du begynder at træne. 
+Når du træner, så forbedres dit kredsløb også. Særligt hvis du træner cardio og udholdenhedstræning så er en af effekterne, at du får mere blod. Faktisk kan blodvolumen øges med helt op til et kilo, når du begynder at træne.
 
 En voksen person har cirka **5,5 liter blod i kroppen**. Blodet transporterer ilt og næringsstoffer ud til vævet og cellerne, og blodet transporterer også affaldsstoffer og kuldioxid væk fra cellerne. Blodets celler udgøres af de røde og hvide blodlegemer samt af blodpladerne.
 
@@ -105,10 +105,10 @@ Blodcellerne fylder cirka 2 liter og består af omkring 25.000 milliarder røde 
 Tallene ovenfor varierer naturligvis meget alt efter, hvor meget træning man laver. Men både mængden af blodceller kan øges ved træning og mængden af plama.
 
 I forhold til din krop og din sundhed er det rigtig godt, men hvis du fokuserer meget på vægten, så kan det drille lidt.
- 
+
 ## 4. Du opbygger muskelmasse
 
-Jeg har ofte hørt, at årsagen til at man tager på af træning er at [muskler vejer mere end fedt](/vejer-muskler-mere-end-fedt/). Muskler vejer mere end fedt, hvis det er den samme volumen, men hvis du tager 100 gram fedt og bygger 100 gram muskler op, så vejer du naturligvis det samme efterfølgende. 
+Jeg har ofte hørt, at årsagen til at man tager på af træning er at [muskler vejer mere end fedt](/vejer-muskler-mere-end-fedt/). Muskler vejer mere end fedt, hvis det er den samme volumen, men hvis du tager 100 gram fedt og bygger 100 gram muskler op, så vejer du naturligvis det samme efterfølgende.
 
 Når du begynder at træne, vil du langsomt bygge lidt muskler på, men det er ikke sikkert, at det erstatter fedtet med det samme. Når du bygger muskler på vi vægten altså stige lidt undervejs, hvis [fedtprocenten](/maal-fedtprocent/) forbliver den samme.
 
@@ -122,7 +122,7 @@ Bindevævet er alt det der er udenom de andre celle-baserede organer og fysiolog
 
 Bindevævet består altså af de tynde og elastiske senehinder, den tætte, kompakte og støddæmpende brusk, de porøse og stærke knogler, og den elastiske hud og eftergivelige tarm.
 
-Når du laver vægtbærende aktiviteter og belaster dit skelet og dine sener og ledbånd, så vil bindevævet også langsomt bygge sig op. Det tager naturligvis lidt tid. 
+Når du laver vægtbærende aktiviteter og belaster dit skelet og dine sener og ledbånd, så vil bindevævet også langsomt bygge sig op. Det tager naturligvis lidt tid.
 
 [Skelettet udgør cirka 15% af din kropsvægt](https://da.wikipedia.org/wiki/Skelet), mens overhuden udgør omkring 6% og bindevævet udgør omkring 16%.
 
@@ -136,18 +136,18 @@ Hvor hurtigt det går med at bindevævet bliver tungere og hvor meget ekstra væ
 
 ## 6. Du bliver mere sulten
 
-Træning regulerer din appetit, men man kan godt føle sig mere sulten. Jeg oplever ofte, at jeg får lyst til større portioner, når jeg træner meget. Det er naturligvis, fordi kroppen gerne vil have noget brændstof, så den kan bygge sig selv op. 
+Træning regulerer din appetit, men man kan godt føle sig mere sulten. Jeg oplever ofte, at jeg får lyst til større portioner, når jeg træner meget. Det er naturligvis, fordi kroppen gerne vil have noget brændstof, så den kan bygge sig selv op.
 
 Det er faktisk en god ide under træning at sørge for at få nok energi. Kroppen lader dig nemlig ikke tabe fedt, hvis den er føler, at den er under angreb.
 
 ## 7. Den fedtfrie masse stiger ved træning
- 
+
 Der er forskellige måder at anskue, hvad kroppen består af. Den fedtfrie masse består af vand, protein og mineraler. Hvis ikke din fedtfrie masse stiger ved træning på den ene eller anden måde, så er der formentlig et eller andet galt. Det gælder uanset om du er gået i gang med styrketræning, konditionstræning eller en blanding af dem.
 
-Jeg synes selv det er spændende at dykke lidt ned i de forskellige modeller, der findes for, hvordan kroppen er skruet sammen. Typisk kan man forstå kropssammensætningen ud fra en [2- eller 4-komponentmodel]({% link _posts/2019-10-14-kropskomposition.md %}).
+Jeg synes selv det er spændende at dykke lidt ned i de forskellige modeller, der findes for, hvordan kroppen er skruet sammen. Typisk kan man forstå kropssammensætningen ud fra en [2- eller 4-komponentmodel](/kropskomposition/).
 
 ## Vægten er altså en dårlig indikator for træningsfremgang
- 
+
 Du kan altså ikke bruge din vægt som indikator for, om din træning hjælper. Din vægt vil svinge op og ned flere gange om dagen.
 
 Der er mange årsager til, at vægten kan stige når du begynder at træne. Hård træning skaber en en tilstand i kroppen med hævelse, fordi kroppen genopbygger. Hvis du tager kreativ binder det også vand. Dit hormonspejl ændrer sig lidt. [Hvis du er stresset]({% link _posts/2021-11-10-stress.md %}), kan din vægt stige lidt.
@@ -158,7 +158,7 @@ Du skal ikke tage dig af tallet på vægten. Det er godt at du træner. Jeg syne
 
 Dit mål kan være at ændre lidt på din kropssammensætning, men der er vægten en dårlig indikator for, hvordan det går.
 
-Jeg synes til hver en tid, at det er mere interessant at holde øje med, om jeg er blevet stærkere, kan springe højere, løbe hurtigere eller længere. 
+Jeg synes til hver en tid, at det er mere interessant at holde øje med, om jeg er blevet stærkere, kan springe højere, løbe hurtigere eller længere.
 
 Men jeg fornemmer også, at rigtig mange bekymrer sig om deres vægt, fedtprocent og [mavefedt](/tab-fedt-paa-maven/).
 

@@ -4,7 +4,6 @@ seo_title: "BKOOL cykling på hometrainer: Komplet guide til begyndere"
 permalink: /bkool-begynderguide/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -17,11 +16,14 @@ tags:
   - cykling
 gallery:
   - image_path: /assets/images/blog/bkool-1.jpg
+    url: /assets/images/blog/bkool-1.jpg
   - image_path: /assets/images/blog/bkool-2.jpg
+    url: /assets/images/blog/bkool-2.jpg
   - image_path: /assets/images/blog/bkool-3.jpg
+    url: /assets/images/blog/bkool-3.jpg
   - image_path: /assets/images/blog/bkool-4.jpg
+    url: /assets/images/blog/bkool-4.jpg
 last_modified_at: 2021-10-14T08:14:14Z
-toc: true
 feature_row:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx
@@ -68,6 +70,10 @@ I denne guide kan du få svar på:
 
 Lad os dykke ned i begynderguiden til BKOOL.
 
+{% include figure image_path="https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="BKOOL begynder" %}
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) \| [Wahoo RGT Cycling](/rgt-cycling/) \| [Rouvy](/rouvy/)
+
 ## Hvad er BKOOL og hvordan kommer jeg i gang?
 
 BKOOL er [virtuel cykling](/hometrainer-apps/), som kobles sammen med din _hometrainer_ til cykling. BKOOL er en platform for cykelryttere. BKOOL giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i BKOOL og køre løb mod andre i den virtuelle BKOOL-verden.
@@ -110,9 +116,9 @@ BKOOL kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. De
 
 {% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i BKOOL med et Wahoo Bike Desk"  %}
 
-Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=100-T2092) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
+Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2092/tacx-tablet-beslag-til-cykelstyr) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
 
-Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret [smarte kombinerede smartphone-holder og svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på BKOOL.
+Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret [smarte kombinerede smartphone-holder og svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på BKOOL.
 
 Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre BKOOL.
 
@@ -152,13 +158,19 @@ Du kan også søge efter cykelruter direkte fra simulatoren.
 
 Første gang jeg prøvede BKOOL blev jeg lidt forvirret. I Zwift er der arrangeret virtuelle cykelløb på forskellige tidspunkter. I BKOOL startes ruterne op af **EN** person. Derefter kan andre _joine_ ruten i simulatoren.
 
+{% comment %}
+
+## BKOOL ligaen
+
+{% endcomment %}
+
 ## Beskyt cyklen mod sveden
 
-Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller noget andet. Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }. Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }.
+Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller noget andet. Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }. Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
 ## Få fat i Bluetooth høretelefoner
 
-Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
+Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen](/artikel/musik-til-traeningen/). Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
 
 {% comment %}
 
@@ -175,3 +187,5 @@ Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, 
 ## Konklusion
 
 Læs mere om BKOOL på [ecycleklub.dk](https://www.ecykleklub.dk/page/kom-godt-igang-med-bkool). Særligt afsnit 5 er en god oversigt.
+
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/)

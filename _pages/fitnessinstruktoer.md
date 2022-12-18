@@ -29,6 +29,7 @@ doping:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

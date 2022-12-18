@@ -46,7 +46,7 @@ Kæmperne bygget af genbrugsmaterialer gemmer sig spredt over hele landet – of
 
 Du kan finde et komplet overblik over Thomas Dambos kæmper på hans store troldekort. Der er kæmper både på Sjælland, Fyn og Jylland og på flere af øerne.
 
-[Besøg Frie Fodspor](http://www.friefodspor.dk/vandrerute-kaemperne-paa-vestegnen/){: .btn .btn--large .btn--success }
+[Besøg Frie Fodspor](https://www.friefodspor.dk/vandrerute-kaemperne-paa-vestegnen/){: .btn .btn--large .btn--success }
 
 ### 15 fine vandreruter nær Danmarks store byer
 
@@ -133,7 +133,7 @@ Sæt dig og træk vejret dybt og roligt. Kig dig omkring og tænk aktivt over, h
 
 Er I 2 eller flere, så tal om hvad I ser, når I sidder der ved siden af hinanden.
 
-**Læs**: [Gåtræning: Inspiration til at få træning ud af gåturen](/gangtraening/)
+Læs: [Gåtræning: Inspiration til at få træning ud af gåturen](/gangtraening/)
 
 ### 4. Gå & Snak
 

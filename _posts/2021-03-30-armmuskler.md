@@ -7,7 +7,6 @@ redirect_from:
   - /armmuskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -25,7 +24,7 @@ breadcrumbs: true
 
 Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvordan dine armmuskler virker, hvis du gerne vil træne musklerne i armene.
 
-{% include figure image_path=page.header.teaser caption="Biceps curls er en meget brugt øvelse til at træne musklerne i armene. Hvis du gerne vil have store armmuskler skal du både træne armbøjerne og armstrækkerne, bl.a. triceps." alt="muskler i arme trænes med biceps curls og triceps" %}
+{% include figure image_path="https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="Biceps curls er en meget brugt øvelse til at træne musklerne i armene. Hvis du gerne vil have store armmuskler skal du både træne armbøjerne og armstrækkerne, bl.a. triceps." alt="muskler i arme trænes med biceps curls og triceps" %}
 
 ## Hvorfor træne musklerne i dine arme?
 
@@ -54,4 +53,4 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Konklusion
 
-Det er vigtigt at træne musklerne i armene. Jeg har samlet flere forslag til din [armtræning og øvelser til træning af armene]({% link _pages/exercises-tag-arme.md %}).
+Det er vigtigt at træne musklerne i armene. Jeg har samlet flere forslag til din [armtræning og øvelser til træning af armene](/arme-triceps-biceps/).

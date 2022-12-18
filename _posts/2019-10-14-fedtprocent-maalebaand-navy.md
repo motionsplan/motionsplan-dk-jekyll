@@ -18,7 +18,6 @@ tags:
   - fedtprocent
   - test
   - kropskomposition
-  - skinfold
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -26,7 +25,7 @@ feature_row:
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology_bs_9781451193831"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology_bs_9781451193831"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -49,7 +48,7 @@ Hvis du vil læse mere om retningslinjerne for at komme ind til US Navy, så kan
 
 Når du har fået et bud på din fedtprocent, så kan du sammenligne den i vores [fedtprocent skema for mænd og kvinder](/fedtprocent-normer/).
 
-Jeg har også beskrevet en anden [fedtprocentmåling med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}). 
+Jeg har også beskrevet andre måder at lave en [beregning af din fedtprocent](/artikel/udregning-af-fedtprocent/) på baggrund af din vægt og din højde.
 
 Husk at testen estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner fundet på internettet.
 {: .notice .notice--info }

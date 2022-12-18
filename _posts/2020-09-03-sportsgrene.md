@@ -154,7 +154,7 @@ Listen over sportsgrene har mange forskellige typer idrætsgrene. Men sport og i
 - **Motion** er selvorganiseret idræt og træning, som man laver i sin fritid. Man kan sagtens motionere ved at dyrke både sport og idræt, men en gåtur er også motion.
 - **Træning** kan være selvorganiseret eller organiseret i foreninger. Træning er målrettet for at forbedre enten sundheden eller præstationsevnen.
 
-Idræt, motion og træning kan ifølge [Marina Aaagaard](http://marinaaagaardblog.com/2015/11/09/aktiv-fritid-motionsformer-100-former-for-sport-idraet-og-motion/) være:
+Idræt, motion og træning kan ifølge [Marina Aaagaard](https://marinaaagaardblog.com/2015/11/09/aktiv-fritid-motionsformer-100-former-for-sport-idraet-og-motion/) være:
 
 - **Organiseret** i klub, foreninger (eller fitnesscentre); man melder sig til sport eller idræt på faste hold og faste tider; fordelene er instruktion og fællesskab. Eller:
 - **Selvorganiseret**: Man kan designe, sammensætte og arrangere sine egne idrætsaktiviteter og træning og træne når som helst og hvor som helst.
@@ -256,10 +256,10 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 
 - Danmarks Idræts-forbund: [DIF](https://www.dif.dk/om-dif/organisation/forbund)
 - Danske Gymnastik og Idrætsforeninger: [DGI](https://www.dgi.dk/)
-- Dansk Arbejder Idrætsforbund: [DAI](http://dai-sport.dk/)
+- Dansk Arbejder Idrætsforbund: [DAI](https://dai-sport.dk/)
 - Dansk Firmaidrætsforbund: [DFIF](https://www.firmaidraet.dk/)
 - Dansk Handicap Idræts-Forbund: DHIF
-- For børn (site med forslag til idræt for børn): [Nysport](http://www.nysport.dk/)
+- For børn (site med forslag til idræt for børn): [Nysport](https://nysport.dk/)
 
 ## Konklusion
 

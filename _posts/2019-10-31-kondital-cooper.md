@@ -1,6 +1,6 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-seo_title: "Cooper test • Skema og beregner til kondital"
+seo_title: "Cooper test • Nyt skema og beregner til kondital (2022)"
 description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
 permalink: /cooper-test/
 redirect_from:
@@ -8,11 +8,11 @@ redirect_from:
 excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
   - Kondition
+  - Løb
 tags:
   - konditionstest
   - løb
@@ -23,7 +23,7 @@ tags:
   - beregner
   - featured
 popular: true
-last_modified_at: 2021-05-20T10:14:14Z
+last_modified_at: 2022-10-12T10:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png
@@ -36,35 +36,40 @@ feature_row:
     rel: nofollow noopener
 faq:
   - question: Hvordan beregner man Cooper test?
-    answer: Du kan bruge distancen på Cooper testen til at beregne dit kondital. Der findes forskellige formler for konditallet, som du kan se her på siden.
+    answer: Du kan bruge distancen på løbetesten til at beregne dit kondital. Her på siden kan du finde formlen og en beregner til at udregne tallet.
   - question: Hvad er godt i en Cooper test?
-    answer: "Coopers løbetest kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med at vurdere, hvor godt resultatet er. Hvis du har forbedret dig siden sidst, så kan man godt sige, at du har fået et godt resultat i Cooper testen."
+    answer: "Coopers løbetest kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med at vurdere, hvor godt resultatet er. Hvis du har forbedret dig siden sidst, så kan man godt sige, at du har fået et godt resultat i Coopers løbetest."
 about:
   name: "Cooper test"
   url: "https://da.wikipedia.org/wiki/Coopertest"
-breadcrumbs: true
 ---
 
-Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
+Har du løbet en Cooper-test, og vil du gerne finde dit kondital? Vi har lavet en gratis beregner, hvor du kan sammenligne dit resultat med andre i en tabel og et skema.
 
-Hvad er en Cooper-test? **Cooper-test er en klassisk [konditionstest](/test-kondition-konditest-kondital/), hvor du skal løbe så langt som muligt på 12 minutter. Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968.**
+Cooper-testen er en maksimal løbetest. Det gælder om at løbe så langt som muligt på 12 minutter. Ud fra den tilbagelagte distance kan du **udregne dit kondital**.
 
-Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter.
+I dette indlæg kan du få svar på følgende spørgsmål om Coopers løbetest:
 
-Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
+- Hvem opfandt Cooper-testen?
+- Hvad er formålet med Cooper-test?
+- Hvad er en god Cooper test?
+- Hvor hurtigt skal man løbe en Cooper-test?
+- Hvor mange meter kan man løbe på 12 min?
+- Hvordan forbedrer man sin Cooper-test?
+- Beregn dit kondital på baggrund af Cooper-testen
+- Se en tabel og skema over Cooper-testen
 
 {% include lead-magnet-button.html %}
 
-I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
+{% include figure image_path="https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" %}
 
-- Hvad er en god Cooper test?
-- Hvor hurtigt skal man løbe en coopertest?
-- Hvor mange meter kan man løbe på 12 min?
-- Hvad er formålet med coopertest?
-- Hvordan forbedrer man sin coopertest?
-- Hvem opfandt Coopertesten?
-- Beregne dit kondital på baggrund af Cooper-testen
-  Se en tabel og skema over Cooper-testen
+## Hvad er en Cooper-test?
+
+Cooper-test er en klassisk [konditionstest](/test-kondition-konditest-kondital/), hvor du skal løbe så langt som muligt på 12 minutter.
+
+Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form.
+
+Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
 ## Hvordan laver du en Cooper-test?
 
@@ -84,29 +89,21 @@ Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering 
 
 Formålet med testen er at se, hvor hurtigt du kan løbe på 12 minutter.
 
-Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten. Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
+Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten.
 
-Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
+Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
 
-## Formel til at udregne konditallet fra Coopertesten
+Når en person der vejer det dobbelte, nemlig 100 kg, skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min.
+
+Da personen jo netop har dobbelt så høj kropsvægt, så ender konditallet med at være det samme.
+
+## Formel til at udregne konditallet fra Cooper-testen
 
 Der findes forskellige formler til at udregne konditallet fra Cooper-testen.
-
-Her er den mest enkle for at udregne konditallet på baggrund af distancen løbet i meter på Coopertesten:
-
-{% include math formula="kondital = \frac{d_{12} - 505}{45}" %}
 
 I beregneren bruger jeg denne formel til at beregne konditallet ud fra Cooper-testen, som er den formel der bruges på [www.brianmac.co.uk](https://www.brianmac.co.uk/gentest.htm) og [Wikipedia](https://en.wikipedia.org/wiki/Cooper_test).
 
 {% include math formula="kondital = \frac{d_{12} - 504,9}{44,73}" %}
-
-[Topendsports](https://www.topendsports.com/testing/tests/cooper.htm) angiver nedenstående formel for at udregne konditallet baseret på distancen i kilometer, som er udledt fra den originale artikel af Cooper (1968).
-
-***
-
-kondital = (22,351 x distance i kilometer) - 11,288
-
-***
 
 Der findes vist også formler, der inkluderer vægt, køn og alder, men dem har jeg ikke kunnet finde.
 
@@ -116,7 +113,7 @@ Du kan sammenligne dit resultat med [tabellen over kondital for mænd og kvinder
 
 ## Usikkerheder i Cooper-testen
 
-12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
+12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi](/lobeokonomi/) vil få undervurderet deres iltoptagelse.
 
 Cooper (1968) rapporterede selv een korrelation på 0,9 mellem VO<sub>2</sub>max og distancen løbet på de 12 minutter.
 
@@ -124,21 +121,41 @@ McCutcheon et al (1990) fandt, at Cooper testen gav en systematisk underestimeri
 
 [Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
 
-[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke har adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
+[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet.
+
+Når du ikke har adgang til en laboratorie-test, så er en Cooper-test altså en af de bedste konditionstests, og det er en klassiker inden for løb og løbetræning.
+
+Testen er altså et rigtig fint alternativ til at estimere konditallet og finde ud af, hvor god din kondition er.
 
 ## Hvor langt skal jeg løbe på Cooper-testen?
 
 Mange stiller spørgsmålet: "Hvor langt kan man løbe på 12 minutter?" Hvis du løber mindre end 2000 meter, skal du nok træne lidt, og hvis du kan løbe længere end 3000 meter, så er du i ret god form.
 
-Det afhænger naturligvis af din kondition og løbeøkonomi, hvor hurtigt og hvor langt du kan løbe på Cooper-testens 12 minutter. Der findes tabeller, hvor du kan vurdere din løbedistance på Cooper-testen med normalværdier.
+Det afhænger naturligvis af din kondition og løbeøkonomi, hvor hurtigt og hvor langt du kan løbe på Cooper-testens 12 minutter.
+
+Hvis du kender dit kondital, så kan du prøve at regne baglæns til en forventet distance.
+
+{% include calculate-fitness-cooper-reverse.html %}
+
+Tjek tabellerne længere nede på siden for at få en vurdering af din løbedistance på Cooper-testen. Her kan du sammenligne din tid med normalværdier.
 
 Lad os prøve at sammenligne med de bedste løbere i verden?
 
 ## Hvad er rekorden for at løbe 12 minutter?
 
-Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
+Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han 23,84 km/t i gennemsnit.
 
-Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t. Hvis Gidey skulle løbe Cooper-testen på 12 minutter, ville hun nå at løbe 4,3 kilometer.
+Det svarer til, at Cheptegei løber 4,8 kilometer på 12 minutter.
+
+{% include video provider="youtube" id="uN9Y6gi24B4" %}
+
+Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t.
+
+Hvis Gidey skulle løbe Cooper-testen på 12 minutter, ville hun nå at løbe 4,3 kilometer.
+
+Du kan se en analyse af Gideys verdensrekordløb herunder.
+
+{% include video provider="youtube" id="yb6Gu_V4E6I" %}
 
 Så langt når du nok ikke, men du kan sammenligne dig selv i tabellerne nedenunder.
 
@@ -151,9 +168,11 @@ Cooper (1968) lavede selv en tabel over normalværdier for distance på Cooper-t
 Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på den [danske Wikipedia-side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
 {: notice .notice--info }
 
-Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit din kondition.
+Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere din kondition.
 
-Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'. Det er en uforklarlig forskel.
+Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'.
+
+Det er en uforklarlig forskel.
 
 Du kan se de **oprindelige skemaer** til Cooper-testen her, men **læs lidt længere for at få nye modificerede tabeller** baseret på tabellerne over kondital for almindelige danske mennesker, der ikke dyrker idræt på konkurrenceplan.
 
@@ -256,18 +275,36 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 
 {% endcomment %}
 
-## Fordele ved Cooper-testen
+## Fordele ved Coopers løbetest
 
 - Du kan teste store grupper ad gangen
 - Det er meget simpelt at sætte op, særligt hvis du har adgang til en løbebane
 - Der er ingen udgifter
 - Cooper-testen giver et rimeligt estimat på konditallet for de fleste
 
-## Ulemper ved Cooper-testen
+## Ulemper ved Coopers løbetest
 
 - Pacing undervejs kan være en udfordring for mange
 - Det kræver fuld motivation for at gå _all out_ i alle 12 minutter
 - Testen løbes bedst på flad og lige vej, og allerhelst på løbebane
+
+## Hvad kan jeg bruge testen til?
+
+### 1. Beregne dit kondital
+
+Du kan naturligvis udregne din VO<sub>2</sub>max på baggrund af Cooper-testen. Men testen kan også guide dig til din efterfølgende træning.
+
+### 2. Udregne dit træningstempo
+
+Du kan fx bruge vores [løbeberegner til at udregne dit træningstempo](/loebesiden-jack-daniels-loebeberegner/). Når du kender dit træningstempo, så er det lettere at _pace_ sin egen træning.
+
+### 3. Beregne dit konkurrencetempo
+
+[Alvero-Cruz et al (2020)](https://pubmed.ncbi.nlm.nih.gov/32000136/) fandt en enkel formel, som du kan bruge til at udregne din halvmaratontid på baggrund af en Cooper-test. Faktisk mener de, at de 12 minutters løbetest er bedre til at forudsige maraton-tiden en en laboratorietest.
+
+### 4. Finde pulszoner
+
+Gennemsnitspulsen på de 12 minutter ligger ikke så langt væk fra din [anaerobe tærskel](/anaerobe-taerskel/). Derfor kan du bruge det som udgangspunkt for at [beregne dine pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
 
 ## Hvordan forbedrer jeg min tid på Cooper-testen?
 
@@ -275,13 +312,13 @@ Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimal
 
 Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
 
-**Læs**: [Konditionstræning og kredsløbstræning](/konditionstraening/)
+Læs: [Konditionstræning og kredsløbstræning](/konditionstraening/)
 
-## Ofte stillede spørgsmål om Cooper testen
+## Ofte stillede spørgsmål om 12 minutters testen
 
 {% include faq.html %}
 
-## Konklusion på Cooper-testen
+## Konklusion
 
 Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Fordelen ved Cooper-testen er også, at den kan laves overalt og med store grupper ad gangen.
 

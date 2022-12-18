@@ -181,11 +181,11 @@ Her kan du se den komplette liste over Corona Workouts. God træning.
 
 ## Læs mere om hjemmetræning og kropsvægtstræning
 
-Hjemmetræning og kropsvægtstræning er oplagt at lave i nedlukningen under Corona. Du kan altså sagtens lave dine egne Corona Workouts. Fx kan du læse mere om [øvelser til hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}). Vi har skrevet andre artikler, der handler om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til din Corona-træning.
+Hjemmetræning og kropsvægtstræning er oplagt at lave i nedlukningen under Corona. Du kan altså sagtens lave dine egne Corona Workouts. Fx kan du læse mere om [øvelser til hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}). Vi har skrevet andre artikler, der handler om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til din Corona-træning.
 
 ## Har jeg brug for udstyr til Corona træning?
 
-I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis altid supplere med lidt forskelligt udstyr. Fx synes mange, at en vægtvest er meget fed. Jeg kan godt lide den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' }, men du kan læse lidt mere om vægtvest under [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}).
+I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis altid supplere med lidt forskelligt udstyr. Fx synes mange, at en vægtvest er meget fed. Jeg kan godt lide den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' }, men du kan læse lidt mere om vægtvest under [træning med kropsvægt](/artikel/traening-med-kropsvaegt/).
 
 Du behøver ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells]({% link _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md %}), [TRX og slyngetræning]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %}) eller måske vil du gerne have det helt store udstyr.
 

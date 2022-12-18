@@ -75,7 +75,7 @@ Når de samlede studierne, så medførte exentrisk træning en muskelvækst på 
 
 Nikolaj Bach påpeger imidlertid flere udfordringer ved fortolkningen af studiet.
 
-Man havde kun kontrolleret **antallet af løft** mellem forsøgsgrupperne, men **ikke sørget for, at den totale mængde arbejde i grupperne var ens**. Force-velocity-kurven viser tydeligt, at man kan løfte mere i excentrisk træning, og vi ved at [volumen er vigtig for muskelvækst]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}). Måske er effekten den større _workload_, som har forårsaget forskellen i den excentriske træning.
+Man havde kun kontrolleret **antallet af løft** mellem forsøgsgrupperne, men **ikke sørget for, at den totale mængde arbejde i grupperne var ens**. Force-velocity-kurven viser tydeligt, at man kan løfte mere i excentrisk træning, og vi ved at [volumen er vigtig for muskelvækst](/hvordan-vokser-muskler/). Måske er effekten den større _workload_, som har forårsaget forskellen i den excentriske træning.
 
 Excentrisk træning laver flere mikroskader i musklerne, hvilket man tidligere har troet var med til at skabe muskelvækst. Det ser ikke ud til at de små muskelskader i sig selv er en _driver_ bag muskelvækst, men kroppen vil helt sikkert respondere ved at gøre sig stærkere. Hvis musklen er større har den også større potentiale til at holde godt fast under eksterne påvirkninger.
 
@@ -93,7 +93,7 @@ Excentrisk træning har fundet vej ind i skadesforebyggelse og genoptræning.
 
 Det viser sig, at [excentrisk træning beskytter mod fibersprængninger i baglåret](https://traenerlounge.dbu.dk/form-og-fysik/excentrisk-traening-beskytter-mod-fiberspraengninger-i-baglaaret/), og man anbefaler også tung styrketræning med en tung excentrisk fase til forstrækninger, korsbåndsskader, achillesseneproblemer og knæproblemer.
 
-[Lorenz og Reiman (2011)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/) beskriver, hvordan excentrisk træning kan bruges **atletisk rehabilitering**.
+[Lorenz og Reiman (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/) beskriver, hvordan excentrisk træning kan bruges **atletisk rehabilitering**.
 
 ## Excentrisk træning og skader
 
@@ -103,11 +103,11 @@ Det viser sig, at [excentrisk træning beskytter mod fibersprængninger i baglå
 
 — <cite>[Proske og Morgan (2001)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278966/)</cite>
 
-Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](http://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet.
+Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](https://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet.
 
-[Kongsgaard et al (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer i sit træningsstudium med et træningsforløb i forhold til rehabilitering af patellasenen, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene.
+[Kongsgaard et al (2009)](https://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer i sit træningsstudium med et træningsforløb i forhold til rehabilitering af patellasenen, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene.
 
-Der ser også ud til, at [excentrisk træning er med til at stimulere senens dannelse af kollagen](http://web.archive.org/web/20120411053543/http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/){: rel="nofollow noopener" } og måske den vej styrker senevævet, så det ikke overbelastes af træning.
+Der ser også ud til, at [excentrisk træning er med til at stimulere senens dannelse af kollagen](https://web.archive.org/web/20120411053543/http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/){: rel="nofollow noopener" } og måske den vej styrker senevævet, så det ikke overbelastes af træning.
 
 ## Hvordan kan jeg lave excentrisk træning?
 
@@ -117,9 +117,9 @@ Excentrisk træning er lettest at lave med en træningsmakker, som kan hjælpe m
 
 Hvis du ikke har en træningsmakker, så kan du lave **selvspottet træning**. Her kan du vælge øn øvelse, hvor du kan hjælpe dig selv forbi den koncentriske fase.
 
-Du kan lave [glute ham raise]({% link _exercises/glute-ham-raises-261.md %}) og [nordic hamstring]({% link _exercises/nordic-hamstring-12.md %}), som har vist sig at være rigtig gode til at beskytte baglårene for skader.
+Du kan lave [glute ham raise](/oevelse/glute-ham-raises/) og [nordic hamstring](/oevelse/nordic-hamstring/), som har vist sig at være rigtig gode til at beskytte baglårene for skader.
 
-Du kan også lave [dips]({% link _exercises/dips-18.md %}) og [pull-ups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
+Du kan også lave [dips]({% link _exercises/dips-18.md %}) og [pull-ups og chinups](/chinup-vs-pullup/), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
 
 Hvis du er på udkig efter mere inspiration til excentrisk træning, så har [Christian Thibaudeau](https://www.t-nation.com/training/accentuated-eccentric-training) lavet en guide til det.
 

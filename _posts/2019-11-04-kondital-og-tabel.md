@@ -103,7 +103,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 50-64 | < 21       | 22-28 | 29-36  | 37-41 | \> 42      |
 | 65-   | < 19       | 20-26 | 27-34  | 35-39 | \> 40      |
 
-Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
+Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
 {% include feature_row id="feature_row_kondital" type="left" %}
 
@@ -126,7 +126,7 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over
 | Mænd    | < 60 | 60-70  | 70-80 | 80-90      | \> 90         |
 | Kvinder | < 50 | 50-58  | 58-64 | 64-72      | \> 72         |
 
-Tabellen er udformet af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
+Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
 ## Hvordan beregner man kondital?
 
@@ -142,7 +142,7 @@ Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% li
 
 Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/test-kondition-konditest-kondital/).
 
-Nogle af de populære er bl.a. [Coopertest](/cooper-test/) og [bip test](/bip-test/).
+Nogle af de populære er bl.a. [Cooper-test](/cooper-test/) og [bip test](/bip-test/).
 
 ## Hvad kan du bruge konditallet til?
 
@@ -156,9 +156,9 @@ Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
 
 > Problemet med konditallet er imidlertid, at vægten indgår som en del af beregningen, og derfor vil stort set ingen overvægtige vil få tildelt et godt kondital, selv om de faktisk er i god form.
 
---- <cite>[Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho](https://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} foreslår i Retfærdig vurdering af overvægtiges kondition at bruge princippet om *Kondital ved Index 23*.[^note]
+[Morten Zacho](https://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} foreslår i Retfærdig vurdering af overvægtiges kondition at bruge princippet om *Kondital ved Index 23*.[^note]
 
 [^note]: Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princippet om skalering og dividere iltoptagelsen med højden i anden potens.
 
@@ -166,7 +166,7 @@ Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
 
 Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvægten. Konditallet er altså et udtryk for dit kredsløbs maksimale kapacitet i forhold til din krop. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til din sundhedstilstand.
 
-Derfor foreslår [Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
+Derfor foreslår [Morten Zacho](https://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 
 Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde et [beregnet BMI](/bmi-beregner/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
@@ -182,9 +182,9 @@ Samtidigt skriver Morten Zacho, at Kondital<sub>Index 23</sub> er en værdi, der
 
 > "Dette er det kondital du ville have, såfremt du var normalvægtig".
 
---- <cite>[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho](https://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i [denne artikel af Morten Zacho](http://web.archive.org/web/20130605152402/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}: Effekt af kropsvægt på den maksimale iltoptagelse.
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi](/lobeokonomi/) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i [denne artikel af Morten Zacho](https://web.archive.org/web/20130605152402/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}: Effekt af kropsvægt på den maksimale iltoptagelse.
 {: .notice .notice--warning }
 
 ## Kondital beregning ved index 23

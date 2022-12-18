@@ -52,4 +52,4 @@ For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på und
 
 Du tager her en indånding, når du går ned og lungerne har mest plads, mens du puster al luften ud, når du går op i “pyramiden”.
 
-Denne rite er en del af [de fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}).
+Denne rite er en del af [de fem tibetanere](/artikel/de-fem-tibetanere/).

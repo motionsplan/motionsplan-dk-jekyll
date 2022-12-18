@@ -9,12 +9,13 @@ title: &title "Beregnere & Tests"
 seo_title: "Beregnere & Tests til træning | Motionsplan"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=5
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
     - label: "<i class='fas fa-download'></i> Læs mere om tests"
       url: "/tests/"
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}
@@ -27,7 +28,7 @@ Du kan læse mere om [alle tests til træning her](/tests/).
 
 Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
 
-Du kan bl.a. prøve vores [beregner til idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), [taljemål]({% link _posts/2019-10-14-taljemaal.md %}) og [talje-hofte-forhold](/talje-hofte-ratio/).
+Du kan bl.a. prøve vores [beregner til idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), [taljemål](/taljemaal/) og [talje-hofte-forhold](/talje-hofte-ratio/).
 
 ## Beregnere til kropssammensætning og fedtprocent
 

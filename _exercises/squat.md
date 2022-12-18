@@ -108,13 +108,13 @@ Squat er en knædomineret øvelse, men i de forskellige variationer er der forsk
 
 {% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
 
-### 1) Hold ryggen i neutral stilling
+### 1. Hold ryggen i neutral stilling
 
 Ryggen er allerstærkest i neutral stilling. De naturlige krumninger i ryggen er med til at gøre den stærk. Du kan arbejde lidt med ryggens position ved at lægge et kosteskaft på ryggen. Typisk er det hensigtsmæssigt med tre kontaktpunkter; lænden, øvre ryg og baghovedet.
 
 **Husk** dog at **neutral ryg ikke er en helt bestemt position**, men der er et spænd som sagtens kan tolereres. Det handler også om, hvor man kan holde sig stærkest muligt.
 
-### 2) Bevægelse i hofteleddet med lænderyggen i neutral
+### 2. Bevægelse i hofteleddet med lænderyggen i neutral
 
 Forsøg at holde lænderyggen i neutral stilling, og hold bevægelsen hofteleddet. Hvis du fx laver en squat og forsøger at holde ryggen som et kosteskaft, så vil der ofte komme et _butt wink_, som er en medbevægelse i det nederste af ryggen. Det sker fordi bækkenet tilter lidt ind under dig. Det er ikke i sig selv farligt, men det kan være godt at arbejde med bevægeligheden i bundpositionen.
 
@@ -126,13 +126,13 @@ Du kan lære lidt mere om 'butt wink' her:
 
 {% include video provider="youtube" id="Ebhp6tPhi5g" %}
 
-### 3) Knæene følger tæerne
+### 3. Knæene følger tæerne
 
 I alle øvelser hvor der er stor bevægelse i knæleddet, så kan det være hensigtsmæssigt, at du arbejder med at knæleddet beger i samme retning som fødderne. Hvis du står med tæerne pegende lidt ud til siden, så skal knæene pege samme i samme retning, når der er bøjning i knæleddet.
 
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette _case_ studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
 
-### 4) Stå på hele foden - 'tripod foot'
+### 4. Stå på hele foden - 'tripod foot'
 
 Dit kontaktpunkt med jorden er dine fødder. Derfor er fødderne også rigtig vigtig i squat, fordi det er der kraftoverførslen kommer fra. Det kan derfor betale sig at tænke over, hvordan du står på fødderne og fordeler vægten.
 
@@ -148,7 +148,7 @@ En god måde at lave varianter på er ved at lave etbenssquat. Der er nogle gode
 
 En anden variation er **split squat** hvor du står med et langt skridt. Det ser nogenlunde sådan her ud:
 
-{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=5
+{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60
 " caption="Split squat" alt="split squat" %}
 
 ## Variationer af squat
@@ -173,4 +173,4 @@ Her kan du se de mange forskellige variationer af squat. De mest brugte er som n
 
 ## Konklusion
 
-Squats er virkelig effektive [benøvelser og bentræning]({% link _pages/exercises-tag-ben.md %}). De fleste vil kunne finde en eller anden måde, hvor de kan lave squat på. Husk at alle ikke behøver at lave rigtig tung back squats. Det kan være rigtig godt at variere bentræningen med fx [lunges](/lunges/) eller [dødløft](/doedloeft/).
+Squats er virkelig effektive [benøvelser og bentræning](/benoevelser/). De fleste vil kunne finde en eller anden måde, hvor de kan lave squat på. Husk at alle ikke behøver at lave rigtig tung back squats. Det kan være rigtig godt at variere bentræningen med fx [lunges](/lunges/) eller [dødløft](/doedloeft/).

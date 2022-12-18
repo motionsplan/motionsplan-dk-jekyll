@@ -18,17 +18,11 @@ toc: true
 
 Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har researchet lidt på, hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved tallerkenmodellerne: Y-tallerken, T-tallerken, E-tallerken og X-tallerken.
 
-Hvad er tallerkenmodeeller? **Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-tallerken, T-tallerken, E-tallerken og X-tallerkenmodel.**
-
 Kosten er helt afgørende for dit velvære. Kosten er det brændstof kroppen lever af. Der er imidlertid så meget information om kost og ernæring, og nye fødevarer tilføjes til listen over ekstra sundt mad eller udskammes for alverdens dårligdomme.
 
 {% include figure image_path="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="tallerkenmodeller" %}
 
-**Tallerkenmodellerne kan hjælpe dig til at navigere i den store kompleksitet.** Det er jo alt for vildt, at man næsten kan putte hvad som helst i kroppen, og så kan den bruge det som energi. Men jo bedre kvalitet brændstoffet har, jo bedre fungerer kroppen.
-
-Der kunne være forskellige måder at opnå samme mål på, men den letteste løsning til at få sund mad fungerer helt uden at måle og veje, hvad du spiser.
-
-Du kan bruge en tallerkenmodel, når du tager en portion mad. Det er en let og pragmatisk måde at få en sund kost på.
+Du kan bruge en tallerkenmodel, når du tager en portion mad. Det er en let og pragmatisk måde at få en sund kost på. Det er en af de letteste måder at få sund mad - og det fungerer helt uden at måle og veje, hvad du spiser.
 
 Her beskriver jeg de mest udbredte tallerkenmodeller:
 
@@ -42,6 +36,14 @@ Du får svar på følgende spørgsmål:
 - Hvad er tallerkenmodellerne - og hvordan kan man sammensætte sin tallerken?
 - Hvad har tallerkenstørrelsen af betydningen for måltidet?
 - Hvilke generelle kostanbefalinger hjælper tallerkenmodellerne med at opfylde?
+
+## Hvad er tallerkenmodeller?
+
+**Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-tallerken, T-tallerken, E-tallerken og X-tallerkenmodel.**
+
+**Tallerkenmodellerne kan hjælpe dig til at navigere i den store kompleksitet.** Det er jo alt for vildt, at man næsten kan putte hvad som helst i kroppen, og så kan den bruge det som energi. Men jo bedre kvalitet brændstoffet har, jo bedre fungerer kroppen.
+
+I forbindelse med idræt så skal tallerkenmodellerne tage højde for [proteinbehovet pr. dag](/dagligt-protein-indtagelse/), og hvor meget kulhydrat man typisk har brug for.
 
 ## Samlet overblik over tallerkenmodellerne
 
@@ -78,7 +80,7 @@ Det Amerikanske Landbrugsministerium, U.S. Department of Agriculture (USDA) anbe
 
 X-modellen er baseret på amerikanske ernæringsanbefalinger. Tendensen i X-tallerkenen er at der anbefales færre kornprodukter og mere protein, især i forbindelse med diæter til vægttab. Der foregår fortsat en del debat om, hvordan den sundeste fordeling mellem kulhydrat og protein er.
 
-{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="X-tallerken-modellen fra [USDA](http://www.cnpp.usda.gov/)" alt="X-tallerkenmodellen" %}
+{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="X-tallerken-modellen fra [USDA](https://www.nal.usda.gov/fnic/usda-nutrient-data-laboratory)" alt="X-tallerkenmodellen" %}
 
 _My Plate_ indeholder følgende følgende:
 
@@ -98,9 +100,9 @@ Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud:
 
 ## T-tallerken-modellen
 
-[Marina Aagaard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) formulerede i 2013 T-modellen. Marina Aagard var inspireret af tendenserne i _My Plate_ med mere grønt og lavede en forenklet model, som hun kaldte T-modellen.
+[Marina Aagaard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) formulerede i 2013 T-modellen. Marina Aagard var inspireret af tendenserne i _My Plate_ med mere grønt og lavede en forenklet model, som hun kaldte T-modellen.
 
-{% include figure image_path="/assets/images/blog/t-tallerken.png" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
+{% include figure image_path="/assets/images/blog/t-tallerken.png" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
 
 T-modellen er altså en forenkling af den amerikanske model.
 
@@ -118,7 +120,7 @@ Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud for de
 
 ## E-tallerken-modellen
 
-Team Danmark anbefaler i hæftet [Kost og Elitesport](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf?), at når man træner hårdt i 1½ - 2 timer om dagen, så har man også behov for at få mange kulhydrater. Team Danmark kalder deres tallerken for **Elitemodellen**.  [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) omdøber modellen til E-tallerken-modellen for at passe den ind i de andre modeller.
+Team Danmark anbefaler i hæftet [Kost og Elitesport](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf?), at når man træner hårdt i 1½ - 2 timer om dagen, så har man også behov for at få mange kulhydrater. Team Danmark kalder deres tallerken for **Elitemodellen**.  [Marina Aaagard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) omdøber modellen til E-tallerken-modellen for at passe den ind i de andre modeller.
 
 Team Danmark anbefaler E-tallerkenmodellen til trænende med moderat til højt aktivitetsniveau - supermotionister - og eliteidrætsudøvere.
 
@@ -185,7 +187,7 @@ Lad os sammenfatte nogle gode kostråd, som tallerkenmodellerne skal understøtt
 
 Drik omkring to liter vand hver dag (cirka 8 glas i alt). Drik gerne 2 glas allerede fra morgenstunden. Du har svedt i løbet af natten. Du skal drikke mere, hvis du vejer meget eller træner meget. Læg mærke til, at der står **vand** og ikke sukkerholdige væsker, som fx sodavand, saftevand og juice.
 
-**Læs**: [Hvor meget vand har man brug?](/hvor-meget-vand-skal-man-drikke-om-dagen/)
+Læs: [Hvor meget vand har man brug?](/hvor-meget-vand-skal-man-drikke-om-dagen/)
 
 ### 2. Spis rigeligt med grøntsager
 

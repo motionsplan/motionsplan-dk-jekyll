@@ -35,7 +35,7 @@ Alt du skal gøre er at indtaste dit daglige energiforbrug og dit forventede ene
 
 Kortvarige vægttab er primært bestemt af forskellen i energiindtag og energiforbruget. Et kilo fedt har et kalorieindhold på omtrent 9000 kalorier eller 38000 kJ. Med den viden kan vi med en vis rimelighed estimere, hvor højt energiunderskuddet skal være for at tabe fedt.
 
-Beregningen er baseret på visse præmisser. Først og fremmest at hele vores vægttab vil komme fra fedt. I begyndelsen af en [slankekur]({% link _posts/2020-09-04-slankekur.md %}) vil de fleste typisk miste vand fra kroppen, og vægttabet vil derfor i begyndelsen være højere.
+Beregningen er baseret på visse præmisser. Først og fremmest at hele vores vægttab vil komme fra fedt. I begyndelsen af en [slankekur](/slankekur/) vil de fleste typisk miste vand fra kroppen, og vægttabet vil derfor i begyndelsen være højere.
 
 Hvis kalorieunderskuddet er for højt (> 1.000 kcal / dag), så vil de fleste typisk begynde at miste muskelmasse. På den korte bane vil tab af muskelmasse naturligvis gøre vægttabet ved slankekuren eller kostplanen større, men på den lange bane vil det gå ud over dit energistofskifte og din fysiske præstationsevne. Hvis stofskiftet går ned pga. mindre muskelmasse vil det blive endnu vanskeligere at fastholde vægttabet.
 

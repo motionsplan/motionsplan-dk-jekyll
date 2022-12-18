@@ -18,7 +18,7 @@ Der er flere måder at finde ud af, hvor meget du skal løfte i dine sæt i styr
 
 Grundlæggende kan du basere dit styrketræningsprogram på:
 
-- Procenter i forhold til [1RM-max](/rm-beregner/)
+- Procenter i forhold til [1RM-max](/rm-maxtest/)
 - [Rate of Perceived Exertion (RPE)](/rpe/)
 - Reps in Reserve (RIR)
 

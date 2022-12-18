@@ -68,10 +68,10 @@ Det er enkelt. Du kan gøre det på to forskellige måder.
 
 ## Brug en applikation til at lære armstrækninger
 
-Hvis du vælger den første metode, hvor du fordeler træningen over hele dagen, kan du bruge en applikationen _One Hundred Pushups_ på din telefon; enten til [iPhone](http://hundredpushups.com/iphoneapp.html) eller [Android](http://hundredpushups.com/androidapp.html).
+Hvis du vælger den første metode, hvor du fordeler træningen over hele dagen, kan du bruge en applikationen _One Hundred Pushups_ på din telefon; enten til [iPhone](https://hundredpushups.com/iphoneapp.html) eller [Android](https://hundredpushups.com/androidapp.html).
 
 ## Videnskabeligt belæg for grease the groove?
 
 Er der nogen, der har set noget videnskabeligt belæg for _grease the groove_ eller selv har erfaring med at træne op til at kunne tage en armstrækning eller mange armstrækninger?
 
-Jeg har skrevet en grundlæggende artikel om, hvad [armbøjninger og armstrækninger er?]({% link _posts/2020-07-05-pushups.md %}).
+Jeg har skrevet en grundlæggende artikel om, hvad [armbøjninger og armstrækninger er?](/armbojninger-eller-armstraekninger-pushups/).

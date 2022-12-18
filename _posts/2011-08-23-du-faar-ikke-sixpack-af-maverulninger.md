@@ -31,13 +31,15 @@ Hvis man vil have en sixpack, skal man have [styr på søvnrytmen](/soevn/), sin
 
 {% include video provider="youtube" id="FtFAie0MXPU" %}
 
-**Kost og ernæring**. Der skal luges ud i hvad der er i skabene, og der skal være opbakning fra omgivelserne til projektet. Man kan tabe sig rigtig effektivt på en såkaldt hulemandskost; hovedsageligt kød og grønne grøntsager. Kosten indeholder således masser af protein og fedt og ikke ret mange kulhydrater. Det kan være en ret streng diæt for nogen, og derfor skal man også planlægge nøjagtigt, hvornår man må snyde. 'Cheat meals' er med til at fylde alle cellerne op med energi igen. [Jacob Søndergaard giver et eksempel på, hvad diæten kunne bestå i](https://web.archive.org/web/20120123112631/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/ernaering/){:rel="nofollow"}.
+**Kost og ernæring**. Der skal luges ud i hvad der er i skabene, og der skal være opbakning fra omgivelserne til projektet. Man kan tabe sig rigtig effektivt på en såkaldt hulemandskost; hovedsageligt kød og grønne grøntsager.
+
+Kosten indeholder således masser af protein og fedt og ikke ret mange kulhydrater. Det kan være en ret streng diæt for nogen, og derfor skal man også planlægge nøjagtigt, hvornår man må snyde. 'Cheat meals' er med til at fylde alle cellerne op med energi igen. Jacob Søndergaard giver et [eksempel](https://web.archive.org/web/20120123112631/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/ernaering/){:rel="nofollow"} på, hvad diæten kunne bestå i.
 
 **Træning**. Træningen bestod af [20 minutters opvarmning](https://nauchidatski.files.wordpress.com/2014/02/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf){:rel="nofollow"} efterfulgt af 20 minutters intensiv træning hver dag og fri i weekenden. Jacob Søndergaard anbefaler at træningen ligger så tidligt på dagen som muligt for bedst muligt at påvirke den 24 timers-rytme, så fedtforbrændingen om natten optimeres. Træningen bestod af øvelser med [kettlebells](/artikel/hvordan-traener-man-med-kettlebells/) og [kropsvægt](/artikel/traening-med-kropsvaegt/). Øvelserne involverer hele kroppen, og der er et stort element af koordination, stor mængde muskelmasse og de udføres med relativ stor kraft. Følgende øvelser anbefales til træningskomplekset: [swings](/oevelse/tohaandssving/), [turkish getup](/oevelse/turkish-getup/), [bear complex](https://web.archive.org/web/20130302041503/http://www.jacobsondergaard.dk/2011/07/27/kettlebell-bear-complex-tip-1/#){:rel="nofollow"}, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/) efter ['grease the groove'](/artikel/hvordan-laerer-jeg-tage-en-armstraekning/)-princippet og [kropshævning](/oevelse/pullup/). [Jacob Søndergaard giver eksempler på, hvad træningsprogrammet kunne indeholde](https://web.archive.org/web/20120218083547/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/traening/video-af-getups-swings/){:rel="nofollow"}.
 
 {% include video provider="youtube" id="vj3gALk2cB0" %}
 
-Læg mærke til at der i programmet ikke er valgt nogle af de klassiske maveøvelser. Det skyldes dels at de ikke aktiverer nok muskelmasse, og dels at de ikke nødvendigvis er allerbedst for ryggen. Se fx disse interviews med en af de førende forskere i lænde- og rygsmerter, Stuart McGill: [Is Your Ab Workout Hurting Your Back?](http://well.blogs.nytimes.com/2009/06/17/core-myths/?em) og til [Big Back Attack fra Mens Health](http://www.menshealth.com/cda/article.do?site=menshealth&channel=health&category=back.pain&conitem=c6f999edbbbd201099edbbbd2010cfe793cd____).
+Læg mærke til at der i programmet ikke er valgt nogle af de klassiske maveøvelser. Det skyldes dels at de ikke aktiverer nok muskelmasse, og dels at de ikke nødvendigvis er allerbedst for ryggen. Se fx disse interviews med en af de førende forskere i lænde- og rygsmerter, Stuart McGill: [Is Your Ab Workout Hurting Your Back?](https://well.blogs.nytimes.com/2009/06/17/core-myths/?em) og til [Big Back Attack fra Mens Health](https://www.menshealth.com/cda/article.do?site=menshealth&channel=health&category=back.pain&conitem=c6f999edbbbd201099edbbbd2010cfe793cd____).
 
 ## Redskaber til at fortsætte arbejdet mod en sixpack
 
@@ -58,9 +60,9 @@ Du er måske også interesseret i at læse mere om at [tabe fedt på maven](/tab
 ## Referencer
 
 - [Jacob Søndergaards side om 6-pack på 6 uger](https://web.archive.org/web/20120201111214/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"}
-- [How to Get 6-Pack Abs Without Crunches or Sit-ups!](http://www.getprograde.com/blog/how-to-get-6-pack-abs-without-crunches-or-sit-ups/)
-- [Anterior core traning](http://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
-- [Core training for smart folks](http://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
-- [21st Century Core training](http://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
+- [How to Get 6-Pack Abs Without Crunches or Sit-ups!](https://www.getprograde.com/blog/how-to-get-6-pack-abs-without-crunches-or-sit-ups/)
+- [Anterior core traning](https://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
+- [Core training for smart folks](https://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
+- [21st Century Core training](https://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
 - [The real core exercises](https://www.t-nation.com/training/the-real-core-exercise/)
 - [The 2008 alphabet of manliness](https://www.t-nation.com/training/the-2008-alphabet-of-manliness/)

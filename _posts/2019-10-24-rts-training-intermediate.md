@@ -190,7 +190,7 @@ Realistisk set er det først i uge 9 af programmet, hvor det også er meningen, 
 
 ## Hvad så nu?
 
-Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbefale at kigge på [reactivetrainingsystems.com](http://wwww.reactivetrainingsystems.com). Der er masser af gratis artikler, forum og videoklip om træningsmetoden.
+Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbefale at kigge på [reactivetrainingsystems.com](https://www.reactivetrainingsystems.com/). Der er masser af gratis artikler, forum og videoklip om træningsmetoden.
 
 ## Referencer
 

@@ -1,6 +1,8 @@
 ---
 title: "Glute-ham raise: Bedste all-round baglårsøvelse"
 seo_title: "Glute-ham raises: Bedste all-round baglårsøvelse (2022)"
+description: Vil du gerne have stærke baglår? Få tips i denne guide til glute-ham raises (GHR), som er en af de absolut bedste all-round baglårsøvelser.
+excerpt: Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse.
 instructions: Anklerne placeres mellem de små puder, og det nederste af lårene
   mod den store pude.
 permalink: /oevelse/glute-ham-raises/
@@ -45,7 +47,9 @@ video:
 toc: true
 ---
 
-Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse. Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
+Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse.
+
+Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
 
 Glute-ham raises kræver, at du har en nogenlunde god styrke i baglårene allerede, da det er en virkelig hård øvelse. Du kan opbygge den styrke med andre typer øvelser til baglårene.
 
@@ -79,7 +83,7 @@ Du starter bevægelsen i glute-ham-raises med ballemusklerne og den del af bagl�
 
 Det er en stor fordel, at musklerne ikke arbejder isolerede, men arbejder synergistisk, så den intermuskulære koordination også forbedres.
 
-I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/doedloeft-romanian-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
+I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift](/oevelse/romanian-deadlift/) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
 
 ## Hvad hjælper glute ham raises på?
 
@@ -90,7 +94,7 @@ Nordic hamstrings (og derved bør det gælde for glute ham raises også)
 - nedsætter risikoen for fiberskader i baglåret
 - forbedre sprinthastighed og hoppehøjde
 
-Vi har skrevet et andet indlæg om [Nordic hamstring her]({% link _exercises/nordic-hamstring-12.md %}).
+Vi har skrevet et andet indlæg om [Nordic hamstring her](/oevelse/nordic-hamstring/).
 
 ## Hvor mange gentagelser skal jeg lave?
 
@@ -101,7 +105,7 @@ Glute ham-raises egner sig bedst til lave eller medium rep ranges. Det e ren rig
 - **Flyt armene for at ændre vægten**. Du kan variere hvor hård øvelsen er ved at placere hænderne forskelligt. Prøv ved hoften, ved brystet og strakt ud foran dig.
 - **Brug en vægtskive**. Du kan også benytte en vægtskive, hvis du har brug for mere vægt. I den koncentriske fase kan du holde vægtskiven tæt på brystet, mens du strækker armene lidt i den excentriske fase. Netop det excentriske overload er en stor del af det gavnlige ved glute ham raises.
 
-Hvis du ikke har adgang til en ordentlig bænk til glute-ham raises, så kan du lave halvdelen af bevægelsen med øvelsen [Nordic hamstring]({% link _exercises/nordic-hamstring-12.md %}), som vi også har skrevet om og ikke kræver noget udstyr.
+Hvis du ikke har adgang til en ordentlig bænk til glute-ham raises, så kan du lave halvdelen af bevægelsen med øvelsen [Nordic hamstring](/oevelse/nordic-hamstring/), som vi også har skrevet om og ikke kræver noget udstyr.
 
 ## Alternativ brug af Glute Ham Raise-bænken
 

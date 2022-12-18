@@ -33,6 +33,7 @@ feature_row_feature:
     btn_label: "Track"
     btn_class: "btn--info"
 toc: true
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}
@@ -87,9 +88,9 @@ Tjek mere på vores side om [træningsprogrammer](/traeningsprogrammer/).
 
 Du skal vælge passende træningsøvelser til din træning, så du træner det, du gerne vil blive bedre til.
 
-Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser]({% link _posts/2020-07-08-udstraekning.md %}), [balanceøvelser]({% link _posts/2020-07-16-balancetraening.md %}), [træning af core og kropsstammen]({% link _posts/2020-07-16-coretraening.md %}) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
+Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser](/udstraekning-udspaending/), [balanceøvelser](/balance/), [træning af core og kropsstammen](/core/) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
-Du kan også tjekke vores dedikerede sider til [øvelser til maven]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [øvelser til brystet]({% link _pages/exercises-tag-bryst.md %}), [balleøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}) eller [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}).
+Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [øvelser til brystet](/brystoevelser/), [balleøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/) eller [skulderøvelser](/skulderoevelser/).
 
 Under alle omsændigheder bør du dykke ned i [alle vores træningsøvelser til inspiration](/traeningsoevelser/).
 

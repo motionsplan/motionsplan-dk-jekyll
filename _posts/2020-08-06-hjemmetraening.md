@@ -137,7 +137,7 @@ Vi har samlet nogle [TRX-øvelser]({% link _posts/2014-04-14-træning-med-slynge
 
 Det er oplagt at træne yoga hjemme på stuegulvet. Der findes en masse forskellige forslag til, hvordan du kan komme i gang med yoga. Hvis du vil se om det er noget for dig, så tjek vores forskellige [yogaøvelser og yogastillinger]({% link _posts/2020-08-30-yogastillinger.md %}).
 
-Du kan fx prøve [yogaserien De fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller en af de [kendte solhilsner]({% link _posts/2020-07-25-solhilsen.md %})
+Du kan fx prøve [yogaserien De fem Tibetanere](/artikel/de-fem-tibetanere/) eller en af de [kendte solhilsner](/artikel/solhilsen-a-b-surya-namaskar/)
 
 ## Corona Workouts til hjemmetræning
 
@@ -173,7 +173,7 @@ Du kan lave hjemmetræning utrolig effektivt, hvis du finder motivationen til at
 
 Andre har brug for selskab for rigtig at blive motiveret, men det kan du også sagtens være ved hjemmetræning. Du kan finde sammen med andre, og I kan enten gøre det online, hvis I skal holde afstand, eller I kan mødes udenfor et sted.
 
-Der kan I fx skiftes til at stå for træningsøvelserne, og på den måde motivere hinanden. Vi har skrevet andre artikler, der handler om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til hjemmetræning.
+Der kan I fx skiftes til at stå for træningsøvelserne, og på den måde motivere hinanden. Vi har skrevet andre artikler, der handler om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til hjemmetræning.
 
 ## Har jeg brug for udstyr til hjemmetræning?
 

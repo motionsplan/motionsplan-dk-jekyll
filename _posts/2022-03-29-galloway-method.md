@@ -24,7 +24,7 @@ Galloway-metoden kan være en brugbar metode, hvis du gerne vil forbedre din per
 
 Jeg er lige ved at testkøre Garmin Coach, hvor Jeff Galloway er en af trænerne. Det er gratis, men der er nogle begreber, som man lige skal have styr på for at forstå programmet. Der er nogle forklaringer i Garmin Connect-appen, men jeg havde brug for at dykke lidt ekstra ned i detaljerne.
 
-{% include figure image_path="https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Jeff Galloways metode kan bruges af mange, men egner sig særlig godt til begyndere og moderat trænede." alt="Jeff Galloway løbemetode" %}
+{% include figure image_path="https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Jeff Galloways metode kan bruges af mange, men egner sig særlig godt til begyndere og moderat trænede." alt="Jeff Galloway løbemetode" %}
 
 I denne artikel kan du læse om følgende:
 
@@ -40,7 +40,7 @@ Jeff Galloway er en tidligere olympisk løber fra USA. Han slog mange løberekor
 
 Men det er jo ikke nok at have vundet en række større løb på forskellige distancer. Han forsøgte at sætte sin træning i system, og han opfattes nu som en af de toneangivende løbetrænere i verden. Han er bl.a. en af de coaches, som Garmin bruger til at lave løbeprogrammer.
 
-Du kan læse mere om Jeff Galloway på hans hjemmeside [www.jeffgalloway.com](http://www.jeffgalloway.com). Her kan du høre Jeff Galloway fortælle mere om sin egen filosofi:
+Du kan læse mere om Jeff Galloway på hans hjemmeside [www.jeffgalloway.com](https://www.jeffgalloway.com). Her kan du høre Jeff Galloway fortælle mere om sin egen filosofi:
 
 {% include video provider="youtube" id="-j-SdZwS_ac" %}
 
@@ -80,7 +80,7 @@ Screenshot af JeffGalloway.
 
 ## Beregner til Galloway Magic Mile
 
-Galloway har en [Beregner](http://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
+Galloway har en [beregner](https://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
 
 I denne beregner kan du udregne forskellige hastigheder, som du kan bruge i din træning alt efter, hvilket tempo du skal løbe i. Du skal først have løbet en _Magic Mile_. Baseret på din sluttid kan du udregne, hvilket tempo du skal bruge på forskellige distancer.
 
@@ -144,7 +144,7 @@ Galloway har udviklet følgende tabel, som du kan bruge som udgangspunkt for, hv
 
 Du finder altså dit ønskede pace i tabellens kolonne til venstre. Meningen er altså, at jo hurtigere løber du er, jo længere er dine løbeintervaller. Tempoet under løbeintervallerne skal naturligvis være lidt hurtigere, end hvis du løber hele tiden for at holde tempoet.
 
-For at få det til at fungere, skal du prøve dig frem under din træning. For mange begyndere vil kombinationen være helt naturlig, mens den for mere øvede løbere formentlig kræver nogen tilvænning. 
+For at få det til at fungere, skal du prøve dig frem under din træning. For mange begyndere vil kombinationen være helt naturlig, mens den for mere øvede løbere formentlig kræver nogen tilvænning.
 
 Meningen med Run Walk Run®-metoden er, at du under din løbetræning gerne skulle føle dig bedre tilpas og have mere energi, end hvis du løber under hele løbeturen.
 

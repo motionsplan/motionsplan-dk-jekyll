@@ -1,5 +1,6 @@
 ---
 title: "6 fysiologiske forandringer i kroppen ved konditionstræning?"
+excerpt: Her får du en oversigt over de fysiologiske tilpasninger og adaptationer, der sker i kroppen, når du laver konditionstræning. Hvordan virker kredsløbstræning egentlig?
 permalink: /tilpasning-konditionstraening/
 language: da
 header:
@@ -15,8 +16,6 @@ tags:
   - træningslære
   - løb
 last_modified_at: 2020-05-31T08:14:14Z
-toc: true
-breadcrumbs: true
 ---
 
 Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver [konditionstræning og kredsløbstræning](/konditionstraening/). Så lad os kigge på, hvad effekten er af kredsløbstræning?
@@ -86,7 +85,9 @@ En utrænet person har en slagvolumen på omkring 85 ml blod pr. hjerteslag, nå
 
 Når du træner kan slagvolumen øges til omkring 120 ml blod pr. pulsslag. Nu behøver hjertet kun at slå 40 gange for at transportere 5 liter blod rundt i kroppen pr. minut. [Hvilepulsen](/hvilepuls/) kan altså falde, fordi den trænede har en bedre evne til at pumpe mere blod ud pr. hjerteslag.
 
-Når vi har trænet, så behøver hjertet ikke at arbejde så hårdt i hvile. Derfor kan hvilepulsen være en god indikator for, hvor god din kondition er. Når du kan pumpe mere blod rundt, så stiller det samme arbejde ikke lige så høje krav til hjertet, og derfor vil du kunne bevæge dig hurtigere uden at komme i nærheden af din maksimale puls.
+Når vi har trænet, så behøver hjertet ikke at arbejde så hårdt i hvile. Derfor kan hvilepulsen være en god indikator for, hvor god din kondition er.
+
+Når du kan pumpe mere blod rundt, så stiller det samme arbejde ikke lige så høje krav til hjertet, og derfor vil du kunne bevæge dig hurtigere uden at komme i nærheden af din maksimale puls.
 
 Der sker to tilpasninger i hjertet ved konditionstræning. Hvilken tilpasning der sker afhænger af intensiteten af træningen.
 

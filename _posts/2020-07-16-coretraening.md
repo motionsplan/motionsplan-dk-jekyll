@@ -84,7 +84,7 @@ Kropsstammen er naturligvis også med til at sætte ekstra kraft på fx kaste- o
 
 En stærk core skaber er fundamentet for en god stabilitet, når vi bevæger os. Det kan faktisk både være ved løb og gang, når vi har vægten på det ene ben. Det kan også være, når vi bærer noget i den ene arm, eller for den sags skyld i begge arme.
 
-Der kan være mange kræfter, der virker på rygsøjlen. Store helkropsøvelser som squat, dødløft, [armstrækninger]({% link _posts/2020-07-05-pushups.md %}), [kropshævninger]({% link _posts/2020-06-30-pullup-chinup.md %}) er med til at træne core-musklerne, fordi de alle kræver et godt opspænd omkring ryggen.
+Der kan være mange kræfter, der virker på rygsøjlen. Store helkropsøvelser som squat, dødløft, [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [kropshævninger](/chinup-vs-pullup/) er med til at træne core-musklerne, fordi de alle kræver et godt opspænd omkring ryggen.
 
 Men forskellige _loaded carries_ (at bære noget tungt) og _unilaterale øvelser_ (fx one arm rows, en arms bænkpres, stepups) kan også være med til at forbedre stabiliteten. Jeg har skrevet et indlæg om at arbejde med [unilaterale øvelser her]({% link _posts/2010-03-09-unilateral-traening.md %}).
 
@@ -103,7 +103,7 @@ Jeg venter typisk med hård og udmattende core-træning til efter de store flerl
 | Opvarmning | Generel og specifik opvarmning | Core-øvelser køres for at aktivere musklerne til de efterfølgende aktiviteter, men der køres ikke til udmattelse |
 | Primære del af træningen | Styrketræning, konditionstræning, sportsspecifik træning | Her skal kropsstammen og 'core' være 'klar' til at modstå og hjælpe med udfordringerne |
 | Assistanceøvelser | Supplerende øvelser til den primære træning | Her kan de assisterende styrkeøvelser og core-øvelser ligge |
-| Cool down | [Udstrækning]({% link _posts/2020-07-08-udstraekning.md %}) og nedkøling | Her kan man arbejde med lettere core- og vejrtrækningsøvelser, som er med til at sætte kroppen i _recovery mode_ og tænde for det parasympatiske nervesystem |
+| Cool down | [Udstrækning](/udstraekning-udspaending/) og nedkøling | Her kan man arbejde med lettere core- og vejrtrækningsøvelser, som er med til at sætte kroppen i _recovery mode_ og tænde for det parasympatiske nervesystem |
 
 Core-øvelser ligger altså ikke højest på prioriteringslisten i mine træningsprogrammer, fordi jeg vurderer at core får en del træning i de store flerledsøvelser, men jeg sørger altid for at programmere mindst en øvelse i forhold til core.
 

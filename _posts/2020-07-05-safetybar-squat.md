@@ -89,7 +89,7 @@ Meldrum og DeBeliso (2018) fulgte baseball spillere, og der var squat med safety
 | Safety bar squats | +2,9 cm | -0,08 s | +40,3 kg |
 | Barbell squats | +1,9 cm | 0,07 s | +29,9 kg |
 
-\* [1RM](/rm-beregner/) blev lavet med samme bar som træningen.
+\* [1RM](/rm-maxtest/) blev lavet med samme bar som træningen.
 
 Når tyngdepunktet flytter sig, så ændrer muskelaktiviteten sig også. Der er ikke overbevisende forskning, der endnu viser, hvad det nøjagtigt betyder, når vi sammenligner safety bar squats med almindelig squat.
 

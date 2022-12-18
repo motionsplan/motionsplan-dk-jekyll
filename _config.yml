@@ -24,19 +24,26 @@ description              : "Alt om test og træning til styrketræning, konditio
 url                      : "https://www.motionsplan.dk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "motionsplan/motionsplan-dk-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-logo                     : "/assets/images/logo.gif" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo-40x40.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "custom" # false # "custom" # false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "motionsplan-dk"
+  graphcomment:
+    id                   : "motionsplan"
 staticman:
   branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+signup:
+  enabled: true
+  provider: mailchimp # false
+  url: https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0
+  recaptcha: b_c17bb696b7624b69cbd0acaff_90126d39b0
 
 after_footer_scripts:
   - /assets/js/bundle.js
@@ -165,10 +172,10 @@ author:
       url: "mailto:lars@motionsplan.dk"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "http://www.facebook.com/motionsplan"
+      url: "https://www.facebook.com/motionsplan"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "http://twitter.com/motionsplan"
+      url: "https://twitter.com/motionsplan"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
       webslides: "fa-pinterest"
@@ -220,18 +227,17 @@ exclude:
   - composer.lock
   - composer.phar
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-  - /vendor
-  - /src
-  - /build
-  - /node_modules
+  - docs # ignore Minimal Mistakes /docs
+  - test # ignore Minimal Mistakes /test
+  - vendor
+  - src
+  - build
+  - node_modules
   - .git
   - .svn
-  - /build
 keep_files:
-  - /assets/images
-  - /assets/pdf
+  - assets/images
+  - assets/pdf
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -449,8 +455,8 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: false
-      toc: false
+      related: true
+      toc: true
       toc_sticky: false
       author: lsolesen
       tag_archive_path: /anatomi/tags/

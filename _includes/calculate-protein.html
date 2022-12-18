@@ -4,8 +4,8 @@
     <fieldset>
         <legend>Beregn dagligt proteinindtag. Indtast værdierne.</legend>
         <div class="form-group">
-            <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            <label for="weight">Kropsvægt (kg)</label>
+            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
         </div>
         <div class="form-group">
             <label>Proteinindtag pr. kg kropsvægt (g/kg)
@@ -61,7 +61,7 @@
         let protein_intake_kg = $("#protein_intake_kg").val();
         let recommended_daily_protein_intake = protein_intake_kg * weight;
         let equals_to =  recommended_daily_protein_intake / food_protein * 100;
-        $("#protein_intake").val(recommended_daily_protein_intake);
+        $("#protein_intake").val(recommended_daily_protein_intake).toFixed(0);
         $("#equals_to").val(equals_to.toFixed());
         $("#food").text(food);
         return false;

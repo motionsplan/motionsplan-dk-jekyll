@@ -40,7 +40,7 @@ Balancetræning i forskellige former har vist at nedsætte risikoen for ankel og
 
 ## Spring- og hoppetræning (plyometri)
 
-Plyometri har i flere studier vist at skabe større stabilitet omkring knæleddet. Mekanismen bag den plyometriske træning er ikke helt klarlagt, men der sker en forbedring af balancen og stabiliteten, og den øgede stivhed betyder sandsynligvis, at muskler og muskelsener tager imod stød ved landinger og elementer i knæleddet derved skånes (Chimera et al 2004). 
+Plyometri har i flere studier vist at skabe større stabilitet omkring knæleddet. Mekanismen bag den plyometriske træning er ikke helt klarlagt, men der sker en forbedring af balancen og stabiliteten, og den øgede stivhed betyder sandsynligvis, at muskler og muskelsener tager imod stød ved landinger og elementer i knæleddet derved skånes (Chimera et al 2004).
 
 [Plyometrisk træning](/plyometrisk-traening/) har også vist at forbedre styrkebalancen mellem forlår (quadriceps) og baglår (hasemuskulaturen). Dette menes at være beskyttende mod korsbåndsskader ved høje vinkelhastigheder, som opstår ved eksempelvis hop og sprint. Dette betyder, at sportsudøvere bør ligge vægt på at få trænet både quadriceps og hasemuskulaturen (Myklebust 2004, Soderman 2000).
 
@@ -48,23 +48,25 @@ Plyometri har i flere studier vist at skabe større stabilitet omkring knæledde
 
 Den generelle tilgang er, at styrketræning er skadesforebyggende, da en større muskelmasse og styrke omkring led vil virke hhv. beskyttende og give større stabilitet. Styrketræningen vil også forbedre evnen til at komme sig efter en skade. Dette skyldes formentligt, at restitutionen i forbindelse med styrketræning og restitutionen efter en skade minder om hinanden. En træningseffekt ved styrketræning er således foreslået at være reparationer af små fiberskader (mikrooverrivninger) i musklen (Fleck & Kreamer 2004).
 
-I takt med at man indenfor videnskaben har fået bedre målemetoder, har man også kunne nuancere styrketræningens reelle effekter på fysiologiske parametre associeret med skadesrisici. En veldokumenteret effekt er i denne forbindelse styrketræningsøvelser, der indeholder et fokus på excentrisk muskelarbejde (Al Attar et al 2016). En periode med [excentrisk domineret styrketræning]({% link _posts/2020-08-24-excentrisk-traening.md %}) fx baglårsmuskulaturen gennem fx [øvelsen Nordic Hamstring]({% link _exercises/nordic-hamstring-12.md %}), har demonstreret at kunne øge antallet af kontraktile enheder i forlængelse af hinanden i en muskelcelle (hvilket skaber en øget længde af de såkaldte fasickler). Dette gør muskelcellerne, og hele musklen de er en del af, mere modstandsdygtig overfor overrivninger i forbindelse med høj-hastighedskontraktioner (fx under sprint) (Bourne et al 2018).
+I takt med at man indenfor videnskaben har fået bedre målemetoder, har man også kunne nuancere styrketræningens reelle effekter på fysiologiske parametre associeret med skadesrisici. En veldokumenteret effekt er i denne forbindelse styrketræningsøvelser, der indeholder et fokus på excentrisk muskelarbejde (Al Attar et al 2016).
+
+En periode med [excentrisk domineret styrketræning](/excentrisk-traening/) fx baglårsmuskulaturen gennem fx [øvelsen Nordic Hamstring](/oevelse/nordic-hamstring/), har demonstreret at kunne øge antallet af kontraktile enheder i forlængelse af hinanden i en muskelcelle (hvilket skaber en øget længde af de såkaldte fascikler). Dette gør muskelcellerne, og hele musklen de er en del af, mere modstandsdygtig overfor overrivninger i forbindelse med høj-hastighedskontraktioner (fx under sprint) (Bourne et al 2018).
 
 Men det har også vist sig, at [okklusionstræning er effektivt i forbindelse med skader](/introduktion-okklusionstraening/).
 
 ### Knæ og skadesforebyggelse
 
-Styrketræning kan ligesom balance- og plyometrisk træning give større stabilitet omkring knæet gennem øget styrke og styrkebalancen mellem quadriceps og hasemuskulaturen . Styrketræning kan være vigtigt for især unge pigers muligheder for at undgå knæskader. I puberteten har drenge en væsentlig større styrketilvækst end piger (Malina 2004). 
+Styrketræning kan ligesom balance- og plyometrisk træning give større stabilitet omkring knæet gennem øget styrke og styrkebalancen mellem quadriceps og hasemuskulaturen . Styrketræning kan være vigtigt for især unge pigers muligheder for at undgå knæskader. I puberteten har drenge en væsentlig større styrketilvækst end piger (Malina 2004).
 
 Denne mindre styrke og en tendens til at være stærkere i quadriceps er i flere studier blevet nævnt som mulig årsag til, at piger er mere sårbare overfor knæskader (Rosene et al 2001). Det anbefales derfor, at piger laver styrketræning for at mindske risikoen for skader. En kønsbestemt anatomisk bygning (valgus vinkel) og større kropsmasse omkring hoften betyder samtidigt, at piger ofte har en medial vinkling i knæleddet (kalveknæet). Knæet og dets elementer udsættes således for en stor risiko, når det tynges af kropsvægten ved eksempelvis landinger i mange sportsgrene (Kelly & Terry 2001).
 
 Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i [vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
-Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”[Nordisk hamstring]({% link _exercises/nordic-hamstring-12.md %})” og [hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
+Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”[Nordisk hamstring](/oevelse/nordic-hamstring/)” og [hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
 
 ### Skulder og skadesforebyggelse
 
-Bevægelserne omkring skulderen er styret af et komplekst biomekanisk system bestående af knogle, ledbånd og muskelkraft. En eller flere dysfunktioner på disse elementer vil betyde en skadet og ufunktionsdygtig skulder (Kelly & Chopp 2000). Forebyggelse af disse skader kan ske ved styrkelse af muskulaturen omkring skulderen og især af muskulaturen, som styrer rotationen af skulderbladet (rotator cuff). 
+Bevægelserne omkring skulderen er styret af et komplekst biomekanisk system bestående af knogle, ledbånd og muskelkraft. En eller flere dysfunktioner på disse elementer vil betyde en skadet og ufunktionsdygtig skulder (Kelly & Chopp 2000). Forebyggelse af disse skader kan ske ved styrkelse af muskulaturen omkring skulderen og især af muskulaturen, som styrer rotationen af skulderbladet (rotator cuff).
 
 Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belastninger. Samtidigt vil en styrkelse af kropstammen også være med til at nedsætte skadesrisikoen i forbindelse med kastebevægelser (Kelly & Terry 2001). Den forebyggende træning kan således bestå af styrketræning, som fokuser på excentrisk styrke, styrkelse af rotator cuff’en samt en øget stabilitet af kropsstammen (Powers 1998, Johnson 1994, Sirota et al 1997). Flere træningsøvelser med elastik har også vist at have en forebyggende effekt på skulderskader i sportsgrene, hvor der kastes meget.
 

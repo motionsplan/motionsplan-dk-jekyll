@@ -17,9 +17,9 @@ toc: true
 
 Aerob træning handler om at træne det aerobe energisystem. Det er den del af energisystemet, hvor der er ilt til stedet til forbrændingen.
 
-**Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
+**Aerob** betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
 
-Jeg har skrevet uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen]({% link _posts/2019-11-14-energisystemer-101.md %}) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet uddybende om [det aerobe og anaerobe energisystem](/energisystemer/) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning](/anaerob-traening/).
 
 Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
 
@@ -64,7 +64,7 @@ Din krop tilpasser sig både træning med høj intensitet og med lavere intensit
 For at træne det aerobe system, så kan man følge disse principper:
 
 - Desto lavere intensiteten er, desto højere skal volumen være.
-- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
+- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb](/intervallob-intervaltraening/).
 - Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Dog skal man være opmærksom på, at meget højintens træning også kan være med til at flytte det aerobe system.
 
 ## Programlægning af aerob træning
@@ -77,7 +77,7 @@ I den **aerobe træning** kan du sætte din baseline med følgende:
 
 - Måle din [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %})
 - Bruge [Heart Rate Variability (HRV)]({% link _posts/2019-10-28-hrv.md %})
-- Måle dit kondital med fx en [2400 meter-test]({% link _posts/2019-10-31-kondital-2400-meter.md %}) eller [Coopers 12-minutters test]({% link _posts/2019-10-31-kondital-cooper.md %})
+- Måle dit kondital med fx en [2400 meter-test]({% link _posts/2019-10-31-kondital-2400-meter.md %}) eller [Coopers 12-minutters test](/cooper-test/)
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
 
 Når du har etableret en _baseline_ for dit aerobe system, så kan du fokusere på at lave et træningsprogram, som forbedrer de parametre, du gerne vil forbedre i det aerobe system.
@@ -86,7 +86,9 @@ Når du har etableret en _baseline_ for dit aerobe system, så kan du fokusere p
 
 En af de vigtige parametre, når du træner aerobt er at forbedre den **aerobe power**.
 
-Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
+Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften ellerhastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT).
+
+Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
 
 ## Eksempler på aerob træning
 
@@ -118,11 +120,11 @@ HIIT-træning er [intervaltræning](/intervaltraening/), og du kommer nok til at
 
 Du kan forbedre det aerobe system på mange måder.
 
-Du kan se mange flere eksempler under [intervalløb]({% link _posts/2020-06-15-intervallob.md %}). [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) har også vist sig at have en god effekt på det aerobe system.
+Du kan se mange flere eksempler under [intervalløb](/intervallob-intervaltraening/). [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) har også vist sig at have en god effekt på det aerobe system.
 
 Når man laver aerob træning, så er intensiteten vigtig. Det er blevet ret populært at lave _polarized_ træning. Det betyder, at man enten arbejder meget intenst eller relaivt lavintenst.
 
-Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) eller hvad [HIIT-træning og HIIT-intervaller egentlig er]({% link _posts/2020-09-22-hiit.md %}). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
+Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) eller hvad [HIIT-træning og HIIT-intervaller egentlig er]({% link _posts/2020-09-22-hiit.md %}). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
 
 Desto bedre det aerobe system virker, desto bedre bliver din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) også, så du kan fjerne [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}) lige så hurtigt, som du danner den.
 

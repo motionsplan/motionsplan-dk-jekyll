@@ -25,7 +25,7 @@ feature_row_bodylab:
     btn_class: btn--info
     rel: sponsored nofollow noopeners
 feature_row_bfr:
-  - image_path: //cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
+  - image_path: https://cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
     url: https://bfrpro.com/collections/store/products/complete-pack-2-workout-program
     title: BfR Professional
     excerpt: BfR Professionals okklussionsstropper til armene er relativt smalle, og til benene er de lavet med velcro, som skal rulles flere gange rundt om benet. De leveres i en pose og er forsøgt gjort lidt eksklusivt.

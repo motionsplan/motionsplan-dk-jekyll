@@ -51,7 +51,7 @@ Det kan betale sig at tænke over fodtøjet, når du styrketræner eller dyrker 
 
 Her er nogle af de overvejelser du bør gøre dig, når du vælger en sko, du vil bruge til styrketræning og fitness.
 
-**Læs**: [Guide til at vælge sko til styrketræning](/sko-styrketraening-fitness/).
+Læs: [Guide til at vælge sko til styrketræning](/sko-styrketraening-fitness/).
 
 ## Styrketræningsbælte
 
@@ -77,7 +77,7 @@ Håndledsbind kan være en fordel at bruge i styrketræning. De giver et ekstra 
 
 Håndledsbind bruges også ofte ved atleter der laver styrkeøvelser, hvor du skal vende håndledsfladerne opad. Fx i snatch eller clean and jerk.
 
-{% include figure image_path="https://images.unsplash.com/photo-1533560777802-046814bc297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=50" caption="" alt="håndledsbind" %}
+{% include figure image_path="https://images.unsplash.com/photo-1533560777802-046814bc297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=600" caption="" alt="håndledsbind" %}
 
 ## Knæbind
 
@@ -106,7 +106,7 @@ Kosttilskud bør kun overvejes, hvis du har specifikke mål med din træning, el
 Der er dog nogle få kosttilskud der kan være en fordel at bruge i styrketræning:
 
 - **Proteinpulver**: Proteinpulver kan være en fordel at bruge, hvis du har svært ved at få nok proteiner gennem din kost. Det er især relevant hvis du træner meget og har et højt forbrug.
-- **Kreatin**:  Kreatin kan give en forøgelse af styrke og muskelmasse. Det er dog ikke alle der responderer positivt på kreatin, så det er ikke nødvendigvis for alle.
+- **Kreatin**:  [Kreatin kan give en forøgelse af styrke og muskelmasse](/kreatin/). Det er dog ikke alle der responderer positivt på kreatin, så det er ikke nødvendigvis for alle.
 
 Vi har skrevet meget mere om, hvilke [kosttilskud, der kan betale sig](/kosttilskud/). Hvis du er på udkig efter et sted at købe kosttilskud, så tjek vores liste over, hvor du kan købe [kosttilskud i danske webshops](/koeb-kosttilskud-online/).
 

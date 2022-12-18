@@ -101,7 +101,7 @@ I livet kan du komme til at kæmpe med mange ting. Rigtig mange har nok kæmpet 
 
 Her er også en inspirerende sang sunget af en ung kvinde, som har kæmpet med kræft.
 
-{% include video provider="youtube" id="Awug_J3Swng" %}
+{% include video provider="youtube" id="IrJ9_GRYKkg" %}
 
 Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}), inden du kæmper videre.
 

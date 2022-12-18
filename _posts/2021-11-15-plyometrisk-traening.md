@@ -15,11 +15,6 @@ tags:
   - eksplosivitet
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
-#faq:
-# - question: "Hvad hedder træningsafhængighed på engelsk?"
-#   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
-# - question: "Er træningsafhængighed en spiseforstyrrelse?"
-#   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 ---
 
 Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Det kræver en fornuftig progression at træne plyometriske øvelser. Her er fire enkle trin til, hvordan du kan komme i gang med at træne plyometri.
@@ -86,4 +81,4 @@ Næste progression er at hoppe over en række lave hække, hvor du kan fokusere 
 
 Næste fase er man klar til _drop jumps_, hvor fokus er på at minimere kontakttiden på gulvet og maksimere, hvor højt du springer. RSI er et glimrende værktøj her til at monitorere atletens performance med fx et spring og landing på en kontaktmåtte.
 
-{% include figure image_path="/assets/images/blog/plyometrisk-traening-drop-jump.png" caption="Sådan her kan klassisk plyometrisk træning ofte være bygget op. I _drop jump_ kan du bruge en kontaktmåtte som hjælpereskab. Hvis du springer op på en boks, så minimerer du _impact_ fra det andet spring, så det kan være en udemærket måde at starte progressionen på. Kilde: [Makaruk et al (2010)](http://www.johk.pl/files/004_makaruk_et_al.pdf)" %}
+{% include figure image_path="/assets/images/blog/plyometrisk-traening-drop-jump.png" caption="Sådan her kan klassisk plyometrisk træning ofte være bygget op. I _drop jump_ kan du bruge en kontaktmåtte som hjælpereskab. Hvis du springer op på en boks, så minimerer du _impact_ fra det andet spring, så det kan være en udemærket måde at starte progressionen på. Kilde: [Makaruk et al (2010)](https://www.johk.pl/files/004_makaruk_et_al.pdf)" %}

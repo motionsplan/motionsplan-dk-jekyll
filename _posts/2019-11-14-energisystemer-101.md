@@ -142,7 +142,7 @@ For at træne det aerobe system, så kan man følge disse principper:
 
 - Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}).
 - Desto lavere intensiteten er, desto højere skal volumen være.
-- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
+- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb](/intervallob-intervaltraening/).
 
 Eksempler på træningsmetoder til det aerobe system kunne være:
 
@@ -211,7 +211,7 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
 
-Jeg har skrevet endnu [mere om anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet endnu [mere om anaerob træning](/anaerob-traening/).
 
 ## Programlægning af aerob og anaerob træning
 
@@ -225,7 +225,7 @@ I den **aerobe træning** kan du sætte din baseline med følgende:
 
 - Måle din [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %})
 - Bruge [Heart Rate Variability (HRV)]({% link _posts/2019-10-28-hrv.md %})
-- Måle dit kondital med fx en [2400 meter-test]({% link _posts/2019-10-31-kondital-2400-meter.md %}) eller [Coopers 12-minutters test]({% link _posts/2019-10-31-kondital-cooper.md %})
+- Måle dit kondital med fx en [2400 meter-test]({% link _posts/2019-10-31-kondital-2400-meter.md %}) eller [Coopers 12-minutters test](/cooper-test/)
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
 
 En baseline for den **anaerobe træning** kan være:
@@ -233,7 +233,7 @@ En baseline for den **anaerobe træning** kan være:
 - Alactic power 3-6 sec, fx [6 sekunders sprint]({% link _posts/2019-11-18-6-sek-sprint.md %})
 - Alactic capacity 6-10 sec
 - Jump tests, fx [counter movement jump]({% link _posts/2020-01-17-test-jump-cmj.md %}) eller [jump & reach]({% link _posts/2020-01-17-test-jump-reach.md %})
-- Lactic power 30-40 sec, fx [Wingate 30 sekunders test]({% link _posts/2019-11-18-wingate-test.md %})
+- Lactic power 30-40 sec, fx [Wingate 30 sekunders test](/wingate/)
 
 Når du har etableret en _baseline_ for dine energisystemer, så kan du fokusere på at lave et program, der vil træne systemerne, så du kan opnå dine mål.
 
@@ -284,7 +284,7 @@ Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem
 
 ## Mere om energisystemer
 
-Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning](/anaerob-traening/).
 
 ## Referencer
 

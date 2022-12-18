@@ -44,7 +44,7 @@ Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i t
 Der er mange fordele ved at løbe intervalløb. Her kigger vi på nogle af fordelene ved at have intervaltræning med i din løbetræning:
 
 - Du kan sammenlagt løbe flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt løb. Du kan arbejde flere minutter med høj intensitet, så din samlede træning kan få større effekt på den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [kondital](/kondital/).
-- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller.
+- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi](/lobeokonomi/) med intervaller.
 - Intervalløb med rigtig høj intensitet kan være med til at øge din anaerobe kapacitet.
 - Du kan være frisk i arbejdsperioderne, hvis du arbejder med løbeteknik eller løbehastighed.
 
@@ -88,7 +88,7 @@ Et eksempel er sprint-intervaller med 6 sekunders sprint og 1-3 minutters pause.
 
 - På **de lange intervaller** over 3 minutter, så er intervallerne så lange at du undervejs kan nå at få pulsen højt nok op til at arbejde i det rigtige energisystem. Derfor skal pausen passe med, at du kan nå at systemet op at arbejde hårdt nok i intervallet.
 - På **de korte intervaller** skal pausen typisk være kort, så du udnytter den blandede effekt på kredsløbet - både det aerobe og det anaerobe system. Typisk ønsker man ikke, at pulsen falder for langt ned, inden næste interval startes. Der kan være en markant anaerob effekt af denne type træning, fx Tabatas 20 sekunders maksimalt arbejde og 10 sekunders pause.
-- Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+- Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning](/anaerob-traening/).
 
 ### Intervalløb som clusters
 
@@ -122,7 +122,7 @@ Der er en lang række metoder til at lave intervaltræning til løb. Jeg har for
 
 Da folk løber i meget forskellig tempo, så kan jeg godt lide at strukturere intervaltræning ud fra tid i stedet for tempo, men det er også meget almindeligt at bruge løbedistancer.
 
-Jeg har i det følgende skema brugt tid på intervallerne som styringsredskab. Det kan virkelig også betale sig at læse min [guide til kroppens energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}) for at få indblik i, hvor forskellig træning er, og hvad du har brug for at træne.
+Jeg har i det følgende skema brugt tid på intervallerne som styringsredskab. Det kan virkelig også betale sig at læse min [guide til kroppens energisystemer](/energisystemer/) for at få indblik i, hvor forskellig træning er, og hvad du har brug for at træne.
 
 Lad os kigge lidt på, hvilke typer intervaller der findes. Effekten af intervallerne afhænger naturligvis af, hvilken intensitet de løbes med.
 
@@ -178,7 +178,7 @@ Eksempler på løbeintervaller, som skal forbedre den maksimale iltoptagelse:
 - [V<sub>max</sub>](/vmax-loeb/)
 - Se intervallerne i skemaet over intervalprogrammer i løb nedenunder
 
-**Læs**: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
+Læs: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
 
 ### 5. Tærskelintervaller
 
@@ -188,14 +188,14 @@ Typisk løber jeg selv tærskelintervaller i skoven, da jeg synes det er for lan
 
 ## Skema over intervalprogrammer til løb
 
-Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de længste intervaller øverst. Alle intervalformerne i skemaet er intensive intervaller, som i høj grad kan være med til at skubbe til den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), og flere af intervallerne arbejder også med den anaerobe kapacitet. Intervallerne hører altså til over den anaerobe tærskel.
+Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de længste intervaller øverst. Alle intervalformerne i skemaet er intensive intervaller, som i høj grad kan være med til at skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), og flere af intervallerne arbejder også med den anaerobe kapacitet. Intervallerne hører altså til over den anaerobe tærskel.
 
 <div class="full" markdown="1">
 
 | Intervaller                               | Udførelse                                                             | Kommentar                                                                                                                                                               |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Fartleg                                    | Farten undervejs kan styres af musikken eller ting i omgivelserne, fx lygtepæle, gadehjørner og bakker, eller når du bare får lyst til at skifte tempo.                                                               | Effekten afhænger af hvordan du gør det. Jeg har mest brugt det, når jeg er sammen med andre.                                                                           |
-| 4 min intervaller | 3-6 x 3-5 min med 2-3 min pause mellem hvert interval. Pausen typisk halvdelen af intervallet, men fx har 4 x 4 min med 3 minutters pause vist sig effektiv i [VO2max-studier]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).                                                                           | Effektiv til at øge den maksimale iltoptagelse. Løbes bedst på tid, så du kan holde dig i den rigtige intensitet. Tjek også artiklen om [HIIT](/hiit/).                                                            |
+| 4 min intervaller | 3-6 x 3-5 min med 2-3 min pause mellem hvert interval. Pausen typisk halvdelen af intervallet, men fx har 4 x 4 min med 3 minutters pause vist sig effektiv i [VO2max-studier](/maksimale-iltoptagelse-vo2max/).                                                                           | Effektiv til at øge den maksimale iltoptagelse. Løbes bedst på tid, så du kan holde dig i den rigtige intensitet. Tjek også artiklen om [HIIT](/hiit/).                                                            |
 | Pyramide - 4-3-2-1-½           | Pyramide der går fra 4 minutter til ½ minut med 1 minuts pause mellem hvert interval. Du kan variere pyramider på mange måder. Du kan også starte med 2 minutters pause og gøre pausen gradvist kortere. | En pyramide kan ramme mange forskellige energisystemer.                                                                                  |
 | 60-60              | 3-10 x 60 sekunders løb med 60 sek pause. Pausen kan fx være fra ½-2 min. Pausen kan være aktiv.                                                                                   | Tempoet dikterer udbyttet. Tjek også Billat-intervaller.  |
 | 30-30                      | 6-20 x 30 sek med 30 sek pause. Pause fra 15 sek til 1 min. Pausen kan være aktiv med at jogge en distance i stedet for at tage tid.                                                         | Tempoet dikterer udbyttet. Tjek også Billat intervaller  |
@@ -207,7 +207,7 @@ Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de l
 
 </div>
 
-Skemaet ovenfor tager udgangspunkt i [Morten Zachos](http://web.archive.org/web/20150212105109/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/oversigt_over_de_mest_effektive_intervalprogrammer_til_loeb/){: rel="nofollow" } glimrende oversigt over intervalløb.
+Skemaet ovenfor tager udgangspunkt i [Morten Zachos](https://web.archive.org/web/20150212105109/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/oversigt_over_de_mest_effektive_intervalprogrammer_til_loeb/){: rel="nofollow" } glimrende oversigt over intervalløb.
 {: .notice .notice--info }
 
 ## Sådan løbes intervalløb
@@ -254,6 +254,6 @@ Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metod
 
 ## Konklusion
 
-Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}). Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
+Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer](/energisystemer/). Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning](/artikel/traeningsprogrammer-intervaller-roning/). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
 
 I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket energisystem du gerne vil træne.

@@ -14,6 +14,6 @@ last_modified_at: 2013-02-13T22:11:14Z
 
 Vi har præsenteret mange forskellige træningsformer her på motionsplan.dk. Vi har især koncentreret os om kombinationstræning, hvor du både fokuserer på styrke, udholdenhed og anaerob kapacitet.
 
-I dag læste vi en god artikel på tmuscle.com, hvor de [sammenligner bodybuilding, powerlifting, olympisk vægtløftning, stærkmandskonkurrence og crossfit](http://www.tmuscle.com/free_online_article/sex_news_sports_funny_grok/battle_of_the_strength_sports).
+I dag læste vi en god artikel på tmuscle.com, hvor de [sammenligner bodybuilding, powerlifting, olympisk vægtløftning, stærkmandskonkurrence og crossfit](https://www.tmuscle.com/free_online_article/sex_news_sports_funny_grok/battle_of_the_strength_sports).
 
 Har du nogen kommentarer til denne sammenligning, eller har du træningsformer, som du synes skal være med i sammenligningen?

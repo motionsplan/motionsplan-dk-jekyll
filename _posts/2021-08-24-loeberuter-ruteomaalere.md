@@ -32,13 +32,13 @@ Den bedste rutemåler skal kunne forskellige ting. Jeg har kigget på de vigtigs
 
 Hvis du synes ruteomålere er interessante, så synes du måske også nogle af vores andre [løbeværktøjer og beregnere til løb](/loebesiden/) er brugbare.
 
-## iForms ruteplanner
+## 1. iForms ruteplanner
 
 iForm er bl.a. kendt for deres ruteplanner, som mange bruger. iForms ruteplanlægger er gennemført og meget brugbar. Designet er godt, og den er lige til at gå til.
 
 **Desværre skal man være logget ind for at bruge ruteplanlæggeren**, så den er desværre ikke gratis.
 
-## Loeberute.dk ruteopmåler
+## 2. Loeberute.dk ruteopmåler
 
 [Loeberute.dk](https://loeberute.dk/) har lavet et rigtig godt værktøj. Her kan du nåde opmåle og tegne dine egne løberuter. Du kan også oprette en profil, så du kan gemme dine ruter. Endelig kan du søge på de andre brugeres ruter og blive inspireret.
 
@@ -50,7 +50,7 @@ Alt i alt et fint standard værktøj til opmåling af løberute. Du kan tegne di
 
 {% include figure image_path="/assets/images/blog/ruteplanner-loeberute.jpg" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
 
-## Garmin Connect og ruteplanlægning
+## 3. Garmin Connect og ruteplanlægning
 
 På Garmin Connect kan du **gratis** lave ruteplanlægning og finde løberuter. Der er et kæmpe community bag, så du kan også lade dig inspirere af andre løbere.
 

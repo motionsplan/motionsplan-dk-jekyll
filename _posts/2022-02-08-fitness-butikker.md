@@ -79,7 +79,7 @@ Apuls.dk sælger også træningsudstyr. Apuls forhandler alt fra træningsmaskin
 
 ### 8. Muscle House
 
-Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, kreatin, BCAA, aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning, samt et udvalg af træningsudstyr.
+Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, [kreatin](/kreatin/), BCAA, aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning, samt et udvalg af træningsudstyr.
 
 [Besøg Muscle House »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68774){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 

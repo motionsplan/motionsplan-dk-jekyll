@@ -2,6 +2,7 @@
 layout: single
 permalink: /loebesiden/
 title: "Løbesiden: Alt om løb, løbetræning og løbeprogrammer"
+description: "Vil du gerne i gange med at løbe?Her på løbesiden finder du nyttig viden om løbetræning og løbeprogrammer til 5 km, 10 km, halvmaraton og maraton."
 author_profile: true
 excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
 header:
@@ -40,6 +41,9 @@ feature_row_feature:
     btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 {% include feature_row type="center" id="feature_row_excerpt" %}

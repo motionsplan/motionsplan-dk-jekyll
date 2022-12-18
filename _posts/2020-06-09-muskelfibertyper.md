@@ -17,8 +17,8 @@ tags:
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:
-  - image_path: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
-    url: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
+  - image_path: https://qph.cf2.quoracdn.net/main-qimg-a540ceb3adb874e5ad3a0e987107b34e-pjlq
+    url: https://qph.cf2.quoracdn.net/main-qimg-a540ceb3adb874e5ad3a0e987107b34e-pjlq
     title: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
     alt: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
 ---
@@ -115,7 +115,7 @@ Typisk siger man at type II fibre har lettere ved at vokse (hypertrofi). Hvis de
 
 Andersen og Aagaard (2000) har fundet ud af, at IIX-fibre ikke bare forsvinder ved styrketræning og kommer tilbage ved træningsophør. Type IIX-fibrene kommer tilbage som en _[superkompensation](/superkompensation/)_. Det kan man udnytte i træningen.
 
-Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. [Morten Zacho](http://web.archive.org/web/20130605064150/http://www.motion-online.dk/styrketraening/styrke_-_artikler/saadan_faar_du_hurtigere_muskler_-_iix_boosting/) foreslår, at følgende styrketræningsmodel kan fremprovokere _boostet_ af type IIX-fibre.
+Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. [Morten Zacho](https://web.archive.org/web/20130605064150/http://www.motion-online.dk/styrketraening/styrke_-_artikler/saadan_faar_du_hurtigere_muskler_-_iix_boosting/) foreslår, at følgende styrketræningsmodel kan fremprovokere _boostet_ af type IIX-fibre.
 
 - **Høj træningsmængde** med tunge løft udført eksplosivt uden at køre til udmattelse. Dette stimulerer primært type II-fibrene. Type IIX bliver lavet om til IIA.
 - **Reducér træningsmængden**. Kun få løft med samme intensitet og eksplosivitet som tidligere. Størrelsen på type II-fibrene vedligeholdes, men træningsreduktionen forårsager at en del af type IIA bliver konverteret til type IIX igen.

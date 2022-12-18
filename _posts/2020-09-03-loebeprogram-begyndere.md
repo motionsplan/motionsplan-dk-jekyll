@@ -103,7 +103,7 @@ Da programmet er på minutter, så behøver du ikke at finde nogen ruter med bes
 
 Som begynder er det svært at finde det rigtige løbetempo. I første fase skal du fokusere på at gennemføre programmet i et roligt tempo. Husk at respektere, hvad du er ved at træne i de forskellige faser og træninger af programmet. Du skal enten løbe relativt langsomt eller også skal du op at løbe, hvor du bliver ret træt undervejs.
 
-Sørg altid for at varme lidt op. Opvarmningen skal naturligvis gradvist nærme sig løbetempoet, men det er også en gylden mulighed for at arbejde lidt med din [løbeteknik, hvilket kan hjælpe på din løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}).
+Sørg altid for at varme lidt op. Opvarmningen skal naturligvis gradvist nærme sig løbetempoet, men det er også en gylden mulighed for at arbejde lidt med din [løbeteknik, hvilket kan hjælpe på din løbeøkonomi](/lobeokonomi/).
 
 ### Løbesko og løbetøj
 
@@ -140,7 +140,7 @@ Samtidig kan 5 minutters løbeturen sommetider føre til, at du alligevel laver 
 
 ## Bonustips til din løbetræning
 
-- **Lyt til noget på løbeturen**. Jeg nyder at lytte til podcasts, når jeg løber. Mange løber også med musik i ørerne. Det er en god ide at finde [musik, der passer til kadencen og din løbetræning]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Mange af mine bedste løbeture har dog været uden musik, hvor jeg kun koncentrerer sig om naturen, lader tankerne løbe, hører mit eget åndedræt og alle lydene omkring.
+- **Lyt til noget på løbeturen**. Jeg nyder at lytte til podcasts, når jeg løber. Mange løber også med musik i ørerne. Det er en god ide at finde [musik, der passer til kadencen og din løbetræning](/artikel/musik-til-traeningen/). Mange af mine bedste løbeture har dog været uden musik, hvor jeg kun koncentrerer sig om naturen, lader tankerne løbe, hører mit eget åndedræt og alle lydene omkring.
 - **Det rigtige udstyr**. Jeg løber for det meste med GPS- og pulsur. Af en eller anden grund er det også lettere for mig at komme afsted i rigtigt løbetøj. Jeg bruger [kompressionsstrømper]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}), men hvis udstyr og elektroniske gadgets pludselig overtager det hele, så skal du måske prøve en løbetur med bare tæer på græsset eller i sandet i stedet.
 - **Meld dig til løb**. Jeg synes det er mest motiverende at træne, når jeg har et mål. Det gør det lettere at træne for mig, fordi den enkelte træning ikke behøver at blive en konkurrence med mig selv. I stedet følger jeg planen og stoler på den. Så glæder jeg mig også til dagen, hvor jeg kan se, hvordan træningen har virket.
 - **Vedholdenhed og frekvens**. Det er bedre at løbe flere korte ture end få lange. En løbetur kan godt være 2 km (som jo er meget bedre end 0 km). Brug 5 minutters løbeturen engang imellem.

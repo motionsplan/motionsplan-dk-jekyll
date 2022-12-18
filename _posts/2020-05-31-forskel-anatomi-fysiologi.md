@@ -31,7 +31,7 @@ feature_row:
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -99,7 +99,7 @@ Du skal vide noget om anatomi som træner for:
 Anatomi omfatter viden om:
 
 - [Knogler]({% link _pages/anatomy/bones.md %})
-- [Led]({% link _pages/anatomy/joints.md %})
+- [Led](/led/)
 - Bevægelsestyper
 - [Muskler]({% link _pages/anatomy/muscles.md %})
 

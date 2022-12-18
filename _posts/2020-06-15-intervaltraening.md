@@ -73,12 +73,11 @@ Hvilken effekt intervallerne har afhænger helt af arbejdstid, arbejdsintensitet
 
 Lad os dykke lidt ned i de forskellige typer intervaller, som kan have forskellige formål.
 
-
 Jeg har alligevel forsøgt at lave en tabel, som indeholder nogle af de mest udbredte metoder til træning.
 
 ## Forskellige typer intervaller
 
-Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
+Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
 
 | Intervalform | Formål | Distance | Total | Pause | Hastighed |
 |-|-|-|-|-|-|
@@ -88,7 +87,7 @@ Her har du en oversigt over effektive intervalprogrammer baseret på formålet m
 | Aerobe intervaller | Konditalintervaller | 400-1500 m | 4000-6000 m | | |
 | Tærskelintervaller | Anaerob tærskel | 8-15 min | 30-60 min | 1:1/4 | |
 
-Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Hvis du vil forstå formålet med de forskellige itnervaller, så kan du dykke ned i [vores guide til energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Hvis du vil forstå formålet med de forskellige itnervaller, så kan du dykke ned i [vores guide til energisystemer](/energisystemer/).
 
 Hvad de enkelte intervaller ender med at træne afhænger af, hvilken intensitet de enkelte intervaller løbes med, og hvor lang pausen mellem intervallerne bliver.
 
@@ -150,7 +149,7 @@ Det kan være en god måde at vænne sig til at lave flere intervaller over tid.
 
 - På **de lange intervaller** over 3 minutter, så er intervallerne så lange at du undervejs kan nå at få pulsen højt nok op til at arbejde i det rigtige energisystem. Derfor skal pausen passe med, at du kan nå at systemet op at arbejde hårdt nok i intervallet.
 - På **de korte intervaller** skal pausen typisk være kort, så du udnytter den blandede effekt på kredsløbet - både det aerobe og det anaerobe system. Typisk ønsker man ikke, at pulsen falder for langt ned, inden næste interval startes. Der kan være en markant anaerob effekt af denne type træning, fx Tabatas 20 sekunders maksimalt arbejde og 10 sekunders pause.
-- Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+- Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning](/anaerob-traening/).
 
 ## Intensitet i intervallerne
 
@@ -179,6 +178,8 @@ Endelig har jeg løbet mange **4 minutters-intervaller**, hvor jeg har arbejdet 
 - Start altid dit intervalløb med mindst 10 minutters roligt løb og generel opvarmning.
 - Løb intervallerne i et passende tempo. Mange typer intervaltræning lægger op til, at du skal løbe i et så højt tempo, at du kun lige kan gennemføre de planlagte intervaller (men kan holde samme intensitet hele vejen igennem). Andre typer intervaller har andre træningsformål og derfor en anden intensitet.
 - I pausen kan du holde dig i gang med langsomt løb eller gang, så systemet hurtigst muligt restituerer igen. Hvis du har pulsmåler på, så kan du holde øje med at pulsen, når at falde til det samme niveau i alle pauserne.
+
+Læs: [Aktiv eller passiv pause ved HIIT-intervaller](/hiit-aktiv-eller-passiv-pause/)
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 
@@ -220,7 +221,7 @@ En type intervaltræning er HIIT-træning i dens oprindelige form. Begrebet bliv
 
 [HIIT træning](/hvad-er-hiit-traeningsprogrammer/) er intervaller som udføres med en intensitet, som ligger over 90% af den maksimale iltoptagelse. Formålet med HIIT-intervaller er at flytte den maksimale iltoptagelse. Hvis du gerne vil dykke endnu dybere ned i det emne, så tjek her.
 
-**Læs**: [Hvad er HIIT træning?](/hvad-er-hiit-traeningsprogrammer/)
+Læs: [Hvad er HIIT træning?](/hvad-er-hiit-traeningsprogrammer/)
 
 ## Intervalløb
 
@@ -228,19 +229,19 @@ Intervaltræning til løb styrker dit kredsløb og kondition effektivt, fordi du
 
 Jeg løber ofte intervaller til løb baseret på mit tempo, hvis jeg har adgang til en flad rute eller en løbebane. På det lidt længere løbeinteraller, så bruger jeg også pulsen eller wattmåling.
 
-**Læs**: [Intervalløb: 10 effektive metoder til intervaltræning til løb](/intervallob-intervaltraening/)
+Læs: [Intervalløb: 10 effektive metoder til intervaltræning til løb](/intervallob-intervaltraening/)
 
 ## Intervaltræning på cykel
 
 Intervaller kan være en effektiv træningsform til cykling, hvis du gerne vil udnytte din tid optimalt. Men hvordan kan du bruge [intervaltræning](/intervaltraening/) til cykling. Her kigger vi på den nyeste videnskab om cykling og intervaller.
 
-**Læs**: [Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️](/intervaltraening-cykling/)
+Læs: [Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️](/intervaltraening-cykling/)
 
 ## Intervaller på romaskine
 
 Jeg har fået Anders Krintel, som er ekspert i roprogrammer til at hjælpe med at finde intervaller, der egner sig til brug i et træningsprogram til indendørs roning på romaskine. Jeg kan godt afsløre, at han har en forkærlighed for grumme programmer. Tjek artiklen nedenunder, hvis du vil se de bedste intervalprogrammer fra hans hjemmeside om rotræning.
 
-**Læs:** [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/traeningsprogrammer-intervaller-roning/)
+Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/traeningsprogrammer-intervaller-roning/)
 
 {% comment %}
 

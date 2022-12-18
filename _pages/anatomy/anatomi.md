@@ -2,6 +2,7 @@
 layout: single
 title: &title "Anatomi: Kroppens opbygning og strukturer"
 seo_title: "Anatomi: Studiet af hvordan kroppen er opbygget"
+description: "Få en let forståelig oversigt over anatomi. Lær alt om hvordan de forskellige strukturer i kroppen er opbygget, fx knogler, muskler og led."
 system:
   - fitnessinstruktør
 excerpt: "Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen."
@@ -26,7 +27,7 @@ feature_row:
     alt: "Bog Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -42,7 +43,7 @@ feature_row:
     alt: "Træning og anatomi"
     title: "Træning og anatomi"
     excerpt: "Træning og anatomi henvender sig til sundhedsprofessionelle, til anatomi- og idrætsstuderende - morgendagens trænere - og til sportsudøvere, bodybuildere og andre, som vil forbedre deres fysiske form. Øger din forståelse af, hvordan kroppen fungerer under træningIndeholder mere end 200 detaljerede anatomiske illustrationer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/traening-og-anatomi-50-vigtige-oevelser-med-flotte-illustrationer_ken-ashwell_9788778423191"
+    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/traening-og-anatomi-50-vigtige-oevelser-med-flotte-illustrationer_ken-ashwell_9788778423191"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -120,7 +121,7 @@ feature_row_citatplakat:
     title: Fysiologi - Anatomi plakat
     rel: sponsored nofollow noopener
     alt: fysiologi plakat
-  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
+  - image_path: "https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
     title: "Blodkredsløbet - Anatomi plakat"
     vendor: "Citatplakat.dk"
@@ -154,19 +155,19 @@ De tre grundelementer i bevægeapparatets anatomi er:
 
 Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig. Knoglerne opdeles i forskellige knogletyper.
 
-**Læs**: [Skelettet, knogler og knogletyper 🦴](/knogler/)
+Læs: [Skelettet, knogler og knogletyper 🦴](/knogler/)
 
 ### 2. Led, ledtyper og ledbevægelser 🔧
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
 
-**Læs**: [Led, ledtyper og ledbevægelser 🔧](/anatomi/)
+Læs: [Led, ledtyper og ledbevægelser 🔧](/anatomi/)
 
 ### 3. Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪
 
 Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk.
 
-**Læs**: [Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪](/muskler/)
+Læs: [Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪](/muskler/)
 
 ## Bevægelsesanalyse og anatomi
 

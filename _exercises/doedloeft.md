@@ -1,6 +1,7 @@
 ---
 title: "Dødløft"
 seo_title: "Dødløft teknik: Komplet guide og tips til dødløft"
+description: I denne guide til dødløft får du effektive tips og variationer fra en rutineret træner til denne teknisk krævende øvelse til styrktræning.
 excerpt: "Dødløft er en af de store hoftedominerede multiøvelser, som kan passe rigtig godt ind i de fleste træningsprogrammer, fordi den træner hoften. Her kigger vi på teknik i dødløft og variationer."
 instructions: "Tag fat i vægten med hænderne. Stå i hoftebredde med fødderne. Den primære bevægelse foregår i hoften, mens knæene er bøjet alt efter dødløft variationen. Rejs dig op og sæt vægten igen kontrolleret."
 permalink: /doedloeft/
@@ -59,7 +60,7 @@ last_modified_at: 2021-03-21T16:06:44Z
 
 Dødløft er en klassisk træningsøvelse, hvor der er stort fokus på at træne hængselsbevægelsen i hoften. Dødløft kan laves i mange forskellige variationer, og her kigger vi lidt på teknikken.
 
-De meste kendte variationer af dødløft er helt sikkert [grebet i konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}) og [sumo dødløft]({% link _exercises/doedloeft-sumo-40.md %}), men der findes også fx [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) og [stivbenet dødløft]({% link _exercises/doedloeft-stivbenet-620.md %}). Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men her kigger jeg på den generelle teknik i dødløft.
+De meste kendte variationer af dødløft er helt sikkert [grebet i konventionel dødløft](/oevelse/konventionel-doedloeft/) og [sumo dødløft](/oevelse/sumo-doedloeft/), men der findes også fx [rumænsk dødløft](/oevelse/romanian-deadlift/) og [stivbenet dødløft](/oevelse/doedloeft-stivbenet/). Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men her kigger jeg på den generelle teknik i dødløft.
 
 ## Teknik i dødløft
 
@@ -113,7 +114,7 @@ Nogle dødløft-varianter starter stående, og der kan teknikken naturligvis væ
 
 ## Tips til et godt dødløft
 
-### 1) Hold ryggen i en neutral stilling
+### 1. Hold ryggen i en neutral stilling
 
 Ryggen er allerstærkest i neutral stilling. De naturlige krumninger i ryggen er med til at gøre den stærk. Du kan arbejde lidt med ryggens position ved at lægge et kosteskaft på ryggen. Typisk er det hensigtsmæssigt med tre kontaktpunkter; lænden, øvre ryg og baghovedet.
 
@@ -121,11 +122,11 @@ Ryggen er allerstærkest i neutral stilling. De naturlige krumninger i ryggen er
 
 Det er ikke usædvanligt, at når man løfter dødløft, så vil ryggen ændre en lille smule position. Din opgave er at sørge for at den ændring bliver så lille som muligt gennem løftet, ved at lave et godt opspænd.
 
-### 2) Sørg for at det er en hængselsbevægelse
+### 2. Sørg for at det er en hængselsbevægelse
 
 Forsøg at holde lænderyggen i neutral stilling, så bevægelsen foregår i hofteleddet. Dødløft skal være en _hinge_-bevægelse, så derfor skal den primære bevægelse foregå i hoften. Prøv derfor at få adskilt bevægelsen, så den nederste del af ryggen og bækkenet ikke bøjer ind under dig for at komme i den rette position. Nogle kan have behov for at arbejde med bevægeligheden i bundpositionen.
 
-### 3) Stå på hele foden - '*tripod* fod'
+### 3. Stå på hele foden - '*tripod* fod'
 
 Dit kontaktpunkt med jorden er dine fødder. Derfor er fødderne også rigtig vigtig i squat, fordi det er der kraftoverførslen kommer fra. Det kan derfor betale sig at tænke over, hvordan du står på fødderne og fordeler vægten.
 
@@ -161,6 +162,6 @@ Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal 
 
 ## Hvordan skal grebet være i dødløft?
 
-Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange spørger om [grebet i konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}), hvor jeg har skrevet mere om grebet.
+Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange spørger om [grebet i konventionel dødløft](/oevelse/konventionel-doedloeft/), hvor jeg har skrevet mere om grebet.
 
 {% include gallery id="gallery_grip" caption="Grebet i dødløft kan se forskelligt ud. Her kan du se overhåndsgreb og *mixed grip*. Man kan også bruge et *hook greb*." layout="half" %}

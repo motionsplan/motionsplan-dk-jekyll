@@ -204,4 +204,4 @@ Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umi
 
 Vi håber at I lykkes med at forbedre jeres pull up og dip, og at programmerne kan motivere til at få arbejdet mere med Calisthenic og træning med egen kropsvægt. I vil forhåbentlig opdage hvad fuldt fokus på form og teknik kan gøre ved progression til resultater, og hvad jeres krop i virkeligheden er i stand til. 
 
-Held og lykke med hjemmetræningen. Hvis du er interesseret i andre indlæg om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til øvelser du kan have med i dit calisthenics-program.
+Held og lykke med hjemmetræningen. Hvis du er interesseret i andre indlæg om [træning med kropsvægt](/artikel/traening-med-kropsvaegt/) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til øvelser du kan have med i dit calisthenics-program.

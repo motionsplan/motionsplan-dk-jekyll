@@ -66,7 +66,7 @@ Der er stadig en del at lære, når man kigger på følgende resultater. Det bet
 
 ### Lav en plan
 
-Du kan naturligvis sætte dig for bare at løbe afsted, men hvis det kan måske være lettere at lave en plan hjemmefra. Fx kan du på Garmin Connect tegne en rute, som du så sender til dit ur og bruger det som udgangspunkt. Du kan også bruge [mapmyrun.com](http://www.mapmyrun.com/) og så bruge resultatet som din guide, når du skal bevæge dig med GPS'en tændt.
+Du kan naturligvis sætte dig for bare at løbe afsted, men hvis det kan måske være lettere at lave en plan hjemmefra. Fx kan du på Garmin Connect tegne en rute, som du så sender til dit ur og bruger det som udgangspunkt. Du kan også bruge [mapmyrun.com](https://www.mapmyrun.com/) og så bruge resultatet som din guide, når du skal bevæge dig med GPS'en tændt.
 
 ### Connecting the dots
 
@@ -82,7 +82,7 @@ Du kan printe kort ud og forsøge at finde figurer i vejene. Fx kan du tage et k
 
 {% include gallery %}
 
-Du kan også kigge på [Stephen Lunds Sketchbook og af GPS-artist](http://www.gpsdoodles.com). På [Twitter](http://www.twitter.com) kan du søge efter [#StravaArt hashtagget](https://twitter.com/hashtag/StravaArt?src=hash).
+Du kan også kigge på [Stephen Lunds Sketchbook og af GPS-artist](https://www.gpsdoodles.com). På Twitter kan du søge efter [#StravaArt hashtagget](https://twitter.com/hashtag/StravaArt?src=hash).
 
 ## Referencer
 

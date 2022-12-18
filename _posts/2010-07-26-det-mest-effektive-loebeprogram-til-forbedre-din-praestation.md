@@ -20,7 +20,7 @@ last_modified_at: 2021-02-13T22:06:29Z
 
 Her kan du læse mere om, hvordan man kan lave et effektivt løbeprogram og strukturerer sin løbetræning for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.
 
-For at blive en bedre løber, så skal du træne både den maksimale iltoptagelse, den anaerobe tærskel og din udholdenhed. Men dit træningsprogram skal også udfordre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og løbeøkonomi. Derfor kan løbetræning være relativt kompleks.
+For at blive en bedre løber, så skal du træne både den maksimale iltoptagelse, den anaerobe tærskel og din udholdenhed. Men dit træningsprogram skal også udfordre din [løbeøkonomi](/lobeokonomi/) og løbeøkonomi. Derfor kan løbetræning være relativt kompleks.
 
 Her kigger vi lidt på, hvad du kan tænke på, når du skal vælge et effektivt træningsprogram.
 
@@ -30,9 +30,9 @@ At være effektiv handler om at få mest mulig træningseffekt for færrest muli
 
 Når du løber med høj intensitet i træningen, så får du både effekt på den maksimale iltoptagelse, den anaerobe tærskel og løbeøkonomien.
 
-Du kan udnytte [intervaltræning til løb]({% link _posts/2020-06-15-intervallob.md %}), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
+Du kan udnytte [intervaltræning til løb](/intervallob-intervaltraening/), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
 
-Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utrolig effektivt. [Motion-online.dk](http://web.archive.org/web/20110606134040/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/){:rel="nofollow"} foreslår dette effektive løbeprogram:
+Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utrolig effektivt. [Motion-online.dk](https://web.archive.org/web/20110606134040/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/){:rel="nofollow"} foreslår dette effektive løbeprogram:
 
 **5 km 3 gange om ugen i de højest mulige tempo.**
 
@@ -50,13 +50,13 @@ Der er flere grunde til, at dette program både er enkelt og et godt løbeprogra
 
 - **Træningsfrekvens**. 2 træninger om ugen er bedre end 1 træning. 3 træninger om ugen er bedre end 2 træninger. 4 træninger om ugen er kun lidt bedre end 3 træninger.
 - **Træningsmængde**. De fleste løber 5 km på mellem 17 minutter og 30 minutter. Typisk er dette tidsrum nok til, at kroppen kan nå at tilpasse sig træningen. Det er altså tilstrækkelig træningsmængde til at kunne få kroppen til at respondere på træningen.
-- **Intensiteten**. De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), [konditallet](/kondital/) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
+- **Intensiteten**. De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), [konditallet](/kondital/) og [forbedre løbeøkonomien](/lobeokonomi/).
 
 Ulemperne ved programmet er, at du hver eneste gang skal løb alt hvad du kan, hvilket kan være hårdt for motivationen. Og det er nok ikke tilstrækkeligt at træne på denne måde, hvis du vil blive ved med at have fremskridt over lang tid. Jeg vil selv have behov for større variation over tid for at blive ved med at nyde løbetræningen.
 
 ## Hvad er effekten af mit program?
 
-Træning behøver altså ikke at være indviklet. Hvis du laver et træningsprogram og gerne vil vide om det virker, så kan du starte dit program med at lave en løbetest, fx en [Cooper-test]({% link _posts/2019-10-31-kondital-cooper.md %}) eller bruge nogle af vores [beregnere og tests til at finde dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}), inden du går i gang med træningen.
+Træning behøver altså ikke at være indviklet. Hvis du laver et træningsprogram og gerne vil vide om det virker, så kan du starte dit program med at lave en løbetest, fx en [Cooper-test](/cooper-test/) eller bruge nogle af vores [beregnere og tests til at finde dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}), inden du går i gang med træningen.
 
 Du kan lave programmet i en måned og reteste for at se, om ikke også programmet viste sig at være meget effektivt for dig? Hvis du har fremgang på programmet, så kan du fortsætte med programmet. Hvis ikke længere der er fremgang at spore i dine tests, så skal du til at tænke på at strukturere din løbetræning anderledes.
 
@@ -64,7 +64,7 @@ Du kan lave programmet i en måned og reteste for at se, om ikke også programme
 
 Hvis du gerne vil opbygge din træning på en lidt anden måde, så kan du også følge nedenstående formular. Her træner du stadig tre gange om ugen, og den enkelte træning giver maksimalt udbytte på relativt kort tid. Fordelen ved denne fremgangsmåde er at du **sætter lidt mere fokus på udholdenheden også**.
 
-- **Dag 1**: [Intervalløb]({% link _posts/2020-06-15-intervallob.md %}) + 3-5 stigningsløb
+- **Dag 1**: [Intervalløb](/intervallob-intervaltraening/) + 3-5 stigningsløb
 - **Dag 2**: Tempotur - fx 5 kilometer omkring den anaerobe tærskel + 3-5 bakkesprints
 - **Dag 3**: En lidt længere tur med lidt lavere intensitet
 

@@ -42,4 +42,4 @@ coords:
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
-Biceps femoris er en del af baglåret eller _hamstrings_ sammen med [semitendinosus]({% link _anatomy/semitendinosus.md %}) og [semimembranosus]({% link _anatomy/semimembranosus.md %}).
+Biceps femoris er en del af baglåret eller _hamstrings_ sammen med [semitendinosus](/semitendinosus/) og [semimembranosus](/semimembranosus/).

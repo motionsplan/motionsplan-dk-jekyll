@@ -84,6 +84,18 @@ Tjek A-puls.dk ud. Også for at se deres andet sortiment.
 
 [Besøg A-puls.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/search/l%C3%B8b){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
 
+### 7. Intersport
+
+Intersport er verdens største sportskæde med næsten 6000 butikker i mere end 45 lande. Hos Intersport kan du finde alt til din træning for hele familien. Løb, svømning, yoga, fodbold, håndbold, cykling, gymnastik, og vi kunne blive ved.
+
+Intersport samarbejder med de velkendte brands som adidas, NIKE, hummel, reebok, PUMA m.fl., men de udvikler og sælger også en række egne mærker. F.eks. ENERGETICS, PRO TOUCH, Firefly, Tecno Pro og McKINLEY, som i dag er Europas største outdoor brand.
+
+- Fri fragt over 399 og fri returet
+- Landsdækkende byttegaranti i alle butikker
+- 365 dages byttegaranti
+
+[Besøg Intersport »](https://go.intersport.dk/t/t?a=1731781657&as=1484571907&t=2&tk=1){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
+
 ## Fysiske løbebutikker
 
 Her er en liste over fysiske løbebutikker, som har et særligt godt udvalg i løb og løbeudstyr, og hvor du kan få god vejledning. Hvis du vil hjælpe med at udvide listen, så kan du bede om adgang til dette [regneark](https://docs.google.com/spreadsheets/d/15aVXZiPZoUKgG0a8VfZvlny2MleDzXMmtlL8cOR9VKg/edit#gid=0){: rel="nofollow noopener" }, hvor jeg vedligeholder listen.
@@ -91,7 +103,7 @@ Her er en liste over fysiske løbebutikker, som har et særligt godt udvalg i l�
 | Landsdel | By | Butik | Adresse | Postnr | Postby | Telefon | E-mail | Hjemmeside |
 | - | - | - | - | - | - | - | - | - |
 {% for shop in site.data.loebebutikker -%}
-| {{ shop.Landsdel }} | {{ shop.By }} | {{ shop.Butik }} | {{ shop.Adresse }} | {{ shop.Postnr }} | {{ shop.Postby }} | {{ shop.Telefon }} | {{ shop.Email }} | [{{ shop.Hjemmeside }}](){: rel="{{ shop.rel }}" } |
+| {{ shop.Landsdel }} | {{ shop.By }} | {{ shop.Butik }} | {{ shop.Adresse }} | {{ shop.Postnr }} | {{ shop.Postby }} | {{ shop.Telefon }} | {{ shop.Email }} | {% if shop.Hjemmeside %}[Besøg]({{ shop.Hjemmeside }}){: rel="{{ shop.rel }}" }{% endif %} |
 {% endfor %}
 
 ## Konklusion

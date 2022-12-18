@@ -40,7 +40,7 @@ Et cluster sæt kan være en måde, hvor du kan arbejde med rimelig høj intensi
 
 I denne grafik kan du se, hvordan et clustersæt fungerer:
 
-{% include figure image_path="https://coffeeordie.com/wp-content/uploads/2020/02/COD_ClusterSets_Horizontal_v01-1536x1024.jpg" caption="Kilde: [coffeeordie.com](https://coffeeordie.com/cluster-sets/)." %}
+{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/09/traditional-vs-clusters.png" caption="Kilde: [www.athleticlab.com](https://www.athleticlab.com/cluster-training-by-ivan-jukic/)." %}
 
 Et eksempel kan være, at du bygger de enkelte cluster sæt op på denne måde:
 

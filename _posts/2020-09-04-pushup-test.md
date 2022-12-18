@@ -31,7 +31,7 @@ Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vu
 
 ## Test af armstrækninger
 
-Beregneren gælder for 15-69 årige, og den er baseret på beregneren fra [exrx.net](https://exrx.net/Calculators/PushUps). Umiddelbart virker kategoriseringen lidt hård, og hvis du gerne vil have mere ros, så skal du bruge beregneren på [health-calc.om](http://health-calc.com/exercise/push-up-test).
+Beregneren gælder for 15-69 årige, og den er baseret på beregneren fra [exrx.net](https://exrx.net/Calculators/PushUps). Umiddelbart virker kategoriseringen lidt hård, og hvis du gerne vil have mere ros, så skal du bruge beregneren på [health-calc.om](https://health-calc.com/exercise/push-up-test).
 
 {% include calculator-pushup.html %}
 
@@ -65,7 +65,7 @@ Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger p�
 
 ## Mere om armstrækninger
 
-Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
+Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
 
 ## Referencer
 

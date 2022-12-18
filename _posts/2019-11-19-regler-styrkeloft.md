@@ -1,5 +1,6 @@
 ---
 title: "Hvad er reglerne til styrkeløft og powerlifting? 🏋️‍♀️"
+excerpt: Her får du en grunding introduktion til reglerne i styrkeløft. I styrkeløft konkurrerer man i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft efter nogle særlige regler.
 permalink: /powerlifting-rules/
 slanguage: da
 header:
@@ -15,9 +16,7 @@ category:
 tags:
   - regler
   - styrkeløft
-  - powerlifting
-last_modified_at: 2020-04-19T23:14:14Z
-toc: true
+last_modified_at: 2022-11-19T23:14:14Z
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat - styrkeløft og powerlifting regler for squat"
@@ -95,7 +94,8 @@ I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet 
 
 Kommandoerne i squat er:
 
-- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg Unrack vægtstangen. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
+- **Stangen er klar** eller **The bar is loaded**. Efter kommandoen så har man maksimalt et minut til at lave sit forsøg.
+- _Unrack vægtstangen_. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 
@@ -121,7 +121,7 @@ Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. De
 
 Kommandoerne under dødløft er:
 
-- **Stangen er klar** eller **Bar is loaded**
+- **Stangen er klar** eller **Bar is loaded**.
 - Når man er klar til at løfte, løfter dommeren sin arm.
 - Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
 
@@ -138,11 +138,15 @@ Når du løfter efter de klassiske regler (raw), så gælder følgende generelle
 - Der må anvendes godkendte håndledsbind på maksimalt 10 cm.
 - Der må anvendes godkendte neopren knæbind i et stykke.
 
-Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr. Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
+Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr.
+
+Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
+
+{% include readmore.html title="Alt om bælter til styrketræning" url="/baelte-styrketraening/" %}
 
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
 
-Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM](/rm-beregner/) i alle løftene.
+Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM max](/rm-maxtest/) i alle løftene.
 
 Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerlifting-attempt-calculator-spreadsheet/) samlet følgende statistik om `Raw`-løftere (altså løftere der løfter uden udstyr).
 
@@ -168,7 +172,7 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-fors�
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-{% include feature_row id="feature_row_spreadsheet" type="left" %}
+{% include feature_row id="feature_row_spreadsheet" type="center" %}
 
 ## Konklusion
 
@@ -185,7 +189,7 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 <details markdown="1">
   <summary>Se referencer</summary>
 
-- [The International Powerlifting Federation. Tekniske Regler 2019](http://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
+- [The International Powerlifting Federation. Tekniske Regler 2019](https://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
 </details>
 
 ## Køb bog om styrkeløft og træning til powerlifting

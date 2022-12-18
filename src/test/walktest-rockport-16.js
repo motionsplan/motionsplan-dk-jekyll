@@ -15,5 +15,13 @@ describe('Rockport walking test', function() {
       assert.equal(hr.getFitnessLevel(), 48.754616630686414);
       assert.equal(hr.getMaximalOxygenUptake(), 3.900369330454913);
     });
+    it('should return the correct number', function() {
+      let hr = motionsplan.RockPortWalkingTest(12, 3, 125, "female", 30, 80);
+      assert.equal(hr.getLunt(), 47.010091286307045);
+    });
+    it('should return the correct number', function() {
+      let hr = motionsplan.RockPortWalkingTest(12, 3, 125, "female", 30, 80, 'lunt');
+      assert.equal(hr.getFitnessLevel(), 47.010091286307045);
+    });
   });
 });

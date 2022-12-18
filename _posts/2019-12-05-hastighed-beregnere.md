@@ -1,11 +1,10 @@
 ---
 title: &title "Hvad er min hastighed i km/t, m/s eller min/km? (Beregner)"
-description: "Beregn hastighed, pace og løbehastighed i vores beregner ✔ Hvordan udregner man km/t, m/s og min/km ✔ Omregning fra km/t til min/km ✔ Tabel"
+description: "Beregn din hastighed, pace og løbehastighed i vores beregner ✔ Hvordan udregner man km/t, m/s og min/km ✔ Omregning fra km/t til min/km ✔ Tabel"
 permalink: /hastighed/
 excerpt: "Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel, så du ikke behøver at regne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
@@ -45,7 +44,7 @@ Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsm
 - Hvad er min gennemsnitsfart, og hvor hurtigt løber jeg i gennemsnit på en given distance?
 - Hvor lang tid tager det at løbe en bestemt distance?
 
-Hvis du leder efter en [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider, så tjek Jack Daniels Running Formula]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+Hvis du er på udkig efter en hastighedsberegner til løb, så har vi også denne [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
 {% include lead-magnet-button.html %}
 
@@ -90,7 +89,7 @@ Det gør virkelig en forskel i din træning, om du rammer den rigtige intensitet
 
 Når du løber de planlagte langsommere ture med lav intensitet, så giver det god mening at kende dit tempo, så din løbehastighed ikke bliver for høj.
 
-Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [intervaller og intervalløb]({% link _posts/2020-06-15-intervallob.md %}). Jeg har lavet en beregner, der kan hjælpe dig med at udregne [hvor langt du skal løbe på et interval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}).
+Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [intervaller og intervalløb](/intervallob-intervaltraening/). Jeg har lavet en beregner, der kan hjælpe dig med at udregne [hvor langt du skal løbe på et interval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}).
 
 ## Tabel med km/t, m/s og min/km
 

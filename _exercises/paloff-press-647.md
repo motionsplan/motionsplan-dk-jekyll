@@ -55,4 +55,4 @@ Tag fat i håndtaget (eller den ene ende af elastikken) i begge hænder og hold 
 
 Udfør alle dine reps vendt i en retning, drej derefter og stå med den anden side mod maskinen. Alternativt kan du holde pressen inde så længe som muligt, frem for at lave reps.
 
-Læs mere på [bodybuilding.com](http://www.bodybuilding.com/fun/the-ultimate-pallof-press-guide.html).
+Læs mere på [bodybuilding.com](https://www.bodybuilding.com/fun/the-ultimate-pallof-press-guide.html).

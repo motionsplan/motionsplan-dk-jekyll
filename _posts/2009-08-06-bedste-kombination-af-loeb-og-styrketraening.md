@@ -43,7 +43,7 @@ Styrketræning
 : Formålet med styrketræning kan både være at bygge større muskler (hypertrofi), forbedre evnen til at løfte tungere (styrke) og evnen til at kunne yde mere kraft (power).
 
 Konditionstræning og løb
-: Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
+: Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
 
 ## Hvordan påvirker styrketræning og løb som udholdenhedstræning hinanden?
 
@@ -73,9 +73,9 @@ Inden vi kommer tilbage til timingen, så lad os lige kigge på et par fordele v
 
 ## Tung styrketræning øger præstationsevnen i løb
 
-Støren et al (2008) undersøgte to grupper af veltrænede løbere over 8 ugers træning. Den ene gruppe fortsatte den normale træning, mens den anden gruppe supplerede med tung styrketræning 3 gange om ugen. Styrkeprogrammet bested af 4 sæt med halve squats med en belastning på 4RM. Vægten på stangen blev øget, når man kunne løfte mere vægt. Der var 3 minutters pause mellem styrkesættene.
+Støren et al (2008) undersøgte to grupper af veltrænede løbere over 8 ugers træning. Den ene gruppe fortsatte den normale træning, mens den anden gruppe supplerede med tung styrketræning 3 gange om ugen. Styrkeprogrammet bestod af 4 sæt med halve squats med en belastning på 4RM. Vægten på stangen blev øget, når man kunne løfte mere vægt. Der var 3 minutters pause mellem styrkesættene.
 
-Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og  deres eksplosive styrke ([Rate of Force Development]({% link _posts/2020-10-14-rate-of-force-development.md %})). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget.
+Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og deres eksplosive styrke ([Rate of Force Development]({% link _posts/2020-10-14-rate-of-force-development.md %})). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget.
 
 {% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden" %}
 
@@ -83,7 +83,7 @@ Styrkegruppens program tog i alt 11 minutter at gennemføre pr. gang. Det betyde
 
 Hoff et all (2002) viste også med ekstremt veltrænede langrendsløbere ([kondital](/kondital/) ~ 70), at funktionel styrketræning 3 gange om ugen i  alt 45 minutter forbedrede deres udholdenhed med ~20%, maksimale styrke med ~10% og _[rate of force development]({% link _posts/2020-10-14-rate-of-force-development.md %})_ med 50% i forhold til kontrolgruppen, som trænede normalt.
 
-De to grupper trænede ellers deres normale træningsmængde på 10 timer. Styrketræningen bestod af 3 serier af 6 getagelser med omkring 85% af [1RM](/rm-beregner/) i et kabeltræk, der ligner dobbelt stavtag på langrendsski.
+De to grupper trænede ellers deres normale træningsmængde på 10 timer. Styrketræningen bestod af 3 serier af 6 getagelser med omkring 85% af [1RM](/rm-maxtest/) i et kabeltræk, der ligner dobbelt stavtag på langrendsski.
 
 Den tunge styrketræning kan altså være med til at forbedre bevægelsesøkonomien, så derfor er det rigtig godt at implementere styrketræning, selvom ens mål er udholdenhed og løbetider.
 
@@ -99,7 +99,7 @@ Chtara et al (2005) undersøgte, om der var forskel på at lave styrketræningen
 
 Konditionstræningen blev udført som [intervaltræning](/intervaltraening/) med intensiteter mellem 60% og 100%. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Styrketræningen var de første 6 uger med fokus på udholdenhed og de sidste uger med fokus på eksplosivitet.
 
-Studiet viser at den gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de signifikant største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram. Paavolainen et al (1999) fandt også en positiv effekt af eksplosiv træning på løbetiderne på 5 kilometer, som [jeg har skrevet om her]({% link _posts/2019-12-16-running-economy.md %}). Studiet af Paavolainen nævner ikke om den eksplosive træning og udholdenhedstræningen blev udført samme dag.
+Studiet viser at den gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de signifikant største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram. Paavolainen et al (1999) fandt også en positiv effekt af eksplosiv træning på løbetiderne på 5 kilometer, som [jeg har skrevet om her](/lobeokonomi/). Studiet af Paavolainen nævner ikke om den eksplosive træning og udholdenhedstræningen blev udført samme dag.
 
 ## Styrketræning _før_ konditionstræning har en god effekt på fedtforbrændingen
 
@@ -159,7 +159,7 @@ Personligt ville jeg nok lægge styrketræningen først, men tilsyneladende kan 
 
 {% include video provider="youtube" id="qrkxcOtScvQ" %}
 
-Så hvis formålet er at komme til at løbe hurtigere eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen (Chtara 2005; Paavolainen et al 1999).
+Så hvis formålet er at komme til at [løbe hurtigere](/loeb-hurtigere/) eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen (Chtara 2005; Paavolainen et al 1999).
 
 Hvis du derimod går efter den fedtforbrændende effekt, så skal styrketræningen nok ligge før konditionstræningen (Goto 2005 og 2007).
 

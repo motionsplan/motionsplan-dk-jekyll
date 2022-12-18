@@ -24,7 +24,7 @@ feature_row:
     title: Exercise Physiology - Nutrition, Energy, and Human Performance
     excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L.
       Katch - og indeholder bl.a. formlen til at udregne fedtprocenten.
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831
+    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831
     btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
@@ -73,7 +73,7 @@ Hvis jeg bruger [danske mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at få energi og at kunne holde varmen, og fedt er også en central del af mange processer og dannelsen af flere i kroppen.
 
-Formularen benytter sig af flere forskellige formler til udregning af fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
+Beregneren benytter sig af **flere forskellige formler til udregning af fedtprocenten**. Formlerne for de enkelte beregninger kan du se nedenunder.
 
 Baggrunden for formlerne i beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
 
@@ -207,7 +207,7 @@ Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at 
 
 {% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten: Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
 
-**Læs**: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
+Læs: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
 
 Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
 
@@ -223,7 +223,7 @@ Kvinders fedtprocent er højere end mænds for det samme BMI. Jackson et al (200
 
 Mænds fedtprocent er lavere end kvindernes, fordi de relativt set har en større muskelmasse end kvinder.
 
-**Læs**: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
+Læs: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
 
 ## Ofte stillede spørgsmål om fedtprocent
 

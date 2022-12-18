@@ -17,7 +17,7 @@ Superfoods er en betegnelse for fødevarer, der har næringsmæssige kvaliteter,
 
 Man skal imidlertid være varsom med bare at knytte antioxidanter til sundhed, [siger Ove Dragsted fra Institut for Human Ernæring og Sygdomsforebyggende Ernæring](https://www.dr.dk/nyheder/indland/pas-paa-med-antioxidanter).
 
-[I øjeblikket er blåbær tilsyneladedende kongen over superfoods](https://politiken.dk/forbrugogliv/sundhedogmotion/guidersundhedogmotion/art4971727/Bl%C3%A5b%C3%A6r-er-en-superf%C3%B8devare). Forskere fra United States Department of Agriculture og Tufts University har sammenlignet [blåbær](http://da.wikipedia.org/wiki/Bl%C3%A5b%C3%A6r) med 60 andre frugter og grøntsager, og i den undersøgelse havde blåbærret det største indhold af antioxidanter. Der mangler imidlertid mere forskning, inden man kan sige, om blåbærret er lige så sundt som myterne giver det skyld for at være.
+[I øjeblikket er blåbær tilsyneladedende kongen over superfoods](https://politiken.dk/forbrugogliv/sundhedogmotion/guidersundhedogmotion/art4971727/Bl%C3%A5b%C3%A6r-er-en-superf%C3%B8devare). Forskere fra United States Department of Agriculture og Tufts University har sammenlignet [blåbær](https://da.wikipedia.org/wiki/Bl%C3%A5b%C3%A6r) med 60 andre frugter og grøntsager, og i den undersøgelse havde blåbærret det største indhold af antioxidanter. Der mangler imidlertid mere forskning, inden man kan sige, om blåbærret er lige så sundt som myterne giver det skyld for at være.
 
 Det er derfor stadig sikrest at huske på at følge Sundhedsstyrelsens anbefalinger om '6 om dagen' eller '600 gram frugt og grønt om dagen'. Blåbær kan dække noget af det, men den varierede kost er altid at foretrække. Hvem ved hvad forskerne har fundet ud af om et år?
 

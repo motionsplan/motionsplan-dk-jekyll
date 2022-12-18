@@ -71,7 +71,7 @@ Hvis du vil prøve træningsprogrammer, kan du altså give dig i kast med nogle 
 
 ## Vigtige parametre i et styrketræningsprogram
 
-- **Intensiteten**. Når du kigger på et program, så kan du kigge på intensiteten i de enkelte arbejdssæt. Hvis programmet er procentbaseret, hvor tæt på [1RM]({% link _posts/2019-10-16-1rm-beregner.md %}) de enkelte træningssæt ligger. Vi har lavet en [1RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}), hvis du vil læse lidt mere om hvad 1RM er.
+- **Intensiteten**. Når du kigger på et program, så kan du kigge på intensiteten i de enkelte arbejdssæt. Hvis programmet er procentbaseret, hvor tæt på [1RM](/rm-maxtest/) de enkelte træningssæt ligger. Vi har lavet en [1RM-beregner](/rm-beregner/), hvis du vil læse lidt mere om hvad 1RM er.
 - **INOL**. [INOL betyder Intensity + Number of Lifts](/inol/), og det er en måde at udregne det samlede træningsstimuli for den enkelte træning. Det gør det noget lettere at vurdere, hvor hårdt programmet er på papiret uden at skulle gennemprøve hele programmet.
 
 ## Hvordan opbygger man et styrketræningsprogram?
@@ -115,7 +115,9 @@ Du kan grundlæggende fx vælge mellem følgende programtyper:
 
 ## Hvor mange sæt og gentagelser?
 
-Prilepin har udviklet en tabel over det optimale antal reps og sæt i en træning baseret på vægtløftere. Tabellen passer naturligvis ikke på alle, men det kan være et godt udgangspunkt i træningsplanlægningen i begyndelsen. Når træningen er i gang, skal den naturligvis tage udgangspunkt i den enkelte løfter.
+[Prilepin](/prilepins-tabel/) har udviklet en tabel over det optimale antal reps og sæt i en træning baseret på vægtløftere. Tabellen passer naturligvis ikke på alle, men det kan være et godt udgangspunkt i træningsplanlægningen i begyndelsen.
+
+Når træningen er i gang, skal træningsplanen naturligvis tage udgangspunkt i den enkelte løfter.
 
 {% include video provider="youtube" id="vMFeD1ziHAE" %}
 

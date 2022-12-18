@@ -16,10 +16,7 @@ tags:
 last_modified_at: 2021-10-14T08:14:14Z
 faq:
   - question: "Hvad er forskellen på PHQ-2 og PHQ-9?"
-    answer: "PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i
-PHQ-9. Den samlede score for PHQ-2 ligger mellem 0-6, og scoren tolkes som positiv for
-depression, når den er tre eller derover. Det anbefales, at patienter der får en positiv score
-efterfølgende udfylder PHQ-9"
+    answer: "PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i PHQ-9. Den samlede score for PHQ-2 ligger mellem 0-6, og scoren tolkes som positiv for depression, når den er tre eller derover. Det anbefales, at patienter der får en positiv score efterfølgende udfylder PHQ-9"
   - question: "Hvem har udviklet PHQ-2 og PHQ-9 depressionstesten?"
     answer: "Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger med et uddannelseslegat fra Pfizer Inc."
 ---

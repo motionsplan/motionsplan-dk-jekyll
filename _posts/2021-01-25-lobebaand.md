@@ -95,9 +95,9 @@ Formålet med denne guide er hovedsageligt at vise dig, hvad du skal holde øje 
 
 Når man taler om løbebånd, så er der to særlige typer. Du kan få et **kurvet løbebånd** uden motor, men hvor du selv genererer farten, når du træder ned på båndet. Den anden type er et **motoriseret løbebånd**, hvor du stiller farten på løbebåndets computer. På mange af de motoriserede løbebånd, kan du også stille hældningen, og de har forskellige programmmer.
 
-[Schoenmakers og Reed (2018)](https://www.jsams.org/article/S1440-2440(18)30145-2/fulltext) undersøgte 13 mandlige løbere, der kunne løbe 5 kilometer på under 20 meter. Løberne skulle løbe fire gange over to uger. Første gang var løb på et almindelig motoriseret løbebånd med 1% hældning til udmattelse for at finde maxpuls, hastighed og [maksimal iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
+[Schoenmakers og Reed (2018)](https://www.jsams.org/article/S1440-2440(18)30145-2/fulltext) undersøgte 13 mandlige løbere, der kunne løbe 5 kilometer på under 20 meter. Løberne skulle løbe fire gange over to uger. Første gang var løb på et almindelig motoriseret løbebånd med 1% hældning til udmattelse for at finde maxpuls, hastighed og [maksimal iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
-Løbebåndet var sat på 1% hældning, fordi man i studier har fundet, at hældningen på løbebåndet kan simulere iltforbruget, som bruges på at løbe på almindelig landevej ([Jones og Doust 1996](http://www.ncbi.nlm.nih.gov/pubmed/8887211)).
+Løbebåndet var sat på 1% hældning, fordi man i studier har fundet, at hældningen på løbebåndet kan simulere iltforbruget, som bruges på at løbe på almindelig landevej ([Jones og Doust 1996](https://www.ncbi.nlm.nih.gov/pubmed/8887211)).
 
 Den anden tur på løbebånd var på et kurvet løbebånd for at vænne sig til en lidt anden måde at løbe på. De løb her fire minutter på fem forskellige hastigheder (40, 50, 60, 70 og 80 procent) af deres maksimale hastighed med 3 minutters passiv restitution imellem intervallerne for at vænnes sig til protokollen, som skulle løbes på de to sidste ture på løbebåndet.
 
@@ -189,7 +189,7 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 
 ## Konklusion om løbebånd
 
-Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/test-kondition-konditest-kondital/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om [løb og løbetræning på løbesiden](/loebesiden/), og det er let at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
+Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/test-kondition-konditest-kondital/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om [løb og løbetræning på løbesiden](/loebesiden/), og det er let at lave [intervalløb](/intervallob-intervaltraening/).
 
 ## Løbebånd i forskellige prisklasser
 

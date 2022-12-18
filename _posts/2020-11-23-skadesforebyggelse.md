@@ -25,7 +25,9 @@ Formålet med dette indlæg er, at du selv bliver inspireret til at dykke ned i 
 
 ## Hvad er skadesforebyggelse?
 
-En af de allerhyppigste årsager til skader er, hvis du for hurtigt har en for høj træningsbelastning på kroppen ift. dens nuværende kapacitet for tolerance af belastning. Kroppen kan holde til rigtig meget, men hvis der ikke er balance mellem træningen og kapacitet (og restitutionen), så risikerer du at få skader. Det første punkt i **skadesforebyggelse er derfor at lave en fornuftig træningsplanlægning**. Det handler om at dosere træningen rigtigt, så den forbereder atleterne til konkurrencen, kampene eller fremtidige træning.
+En af de allerhyppigste årsager til skader er, hvis du for hurtigt har en for høj træningsbelastning på kroppen ift. dens nuværende kapacitet for tolerance af belastning.
+
+Kroppen kan holde til rigtig meget, men hvis der ikke er balance mellem træningen og kapacitet (og restitutionen), så risikerer du at få skader. Det første punkt i **skadesforebyggelse er derfor at lave en fornuftig træningsplanlægning**. Det handler om at dosere træningen rigtigt, så den forbereder atleterne til konkurrencen, kampene eller fremtidige træning.
 
 Når du tager højde for at træningsplanlæningen i sig selv er skadesforebyggende, så kan du begynde at kigge på skadesforebyggende træning.
 

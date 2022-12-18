@@ -1,7 +1,7 @@
 ---
 title: &title "Tæl skridt: Det er motiverende at tælle skridt"
 seo_title: "Tæl skridt 2022: Vind op til 25.000 kroner 4 gange årligt"
-description: "Deltag i den landsdækkende kampagne Tæl skridt og vind op til 25.000 kroner. Dyrk sammenholdet, bliv motiveret og bliv sundere samtidig!"
+description: "Vil du deltage i den landsdækkende kampagne Tæl skridt og vinde op til 25.000 kroner? Tjek her hvordan du gør?"
 permalink: /artikel/tael-skridt/
 language: da
 header:
@@ -19,7 +19,7 @@ category:
 last_modified_at: 2021-12-24T10:51:18Z
 ---
 
-Det kan være yderst motiverende at tælle skridt. Der kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en skridttæller, en app til at tælle skridt eller en aktivitetstracker.
+Det kan være yderst motiverende at tælle skridt. Du kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en skridttæller, en app til at tælle skridt eller en aktivitetstracker.
 
 [Dansk Firma Idrætsforbund](https://www.taelskridt.dk/) har lavet en Tæl Skridt-kampagne, som du kan læse mere om længere nede på siden.
 

@@ -52,13 +52,13 @@ Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({
 
 Find hoftedominante øvelser der især udfordrer musklerne omkring baglår og hofte og nederste ryg.
 
-Fx [dødløft](/doedloeft/) og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
+Fx [dødløft](/doedloeft/) og [rumænsk dødløft](/oevelse/romanian-deadlift/) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
 
 ### Presøvelser for arme og bryst
 
 Find øvelser hvor du starter med hænderne tæt på kroppen og skubber en modstand væk fra dig. Du ksla gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [armstrækning]({% link _posts/2020-07-05-pushups.md %}), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
+Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
 
 ### Træk for arme og øvre ryg
 

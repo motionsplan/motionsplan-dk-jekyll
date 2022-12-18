@@ -72,7 +72,7 @@ Når du er på udkig efter et løbeprogram til 5 kilometer, så kan det altså v
 
 Hvis du gerne vil opbygge din træning på en lidt anden måde, så kan du også følge nedenstående formular. Her træner du stadig tre gange om ugen, og den enkelte træning giver maksimalt udbytte på relativt kort tid. I programmet giver jeg også mulighed for at sætte en ekstra tur ind. Det skal være en **restitutionstur**, hvor du løber med lav intensitet og kortere end den lange tur.
 
-- **Dag 1**: [Intervalløb]({% link _posts/2020-06-15-intervallob.md %}) + 3-5 stigningsløb
+- **Dag 1**: [Intervalløb](/intervallob-intervaltraening/) + 3-5 stigningsløb
 - **Dag 2**: Tempotur - fx 5 kilometer omkring den anaerobe tærskel + 3-5 bakkesprints
 - **Dag 3**: En lidt længere tur med lidt lavere intensitet
 

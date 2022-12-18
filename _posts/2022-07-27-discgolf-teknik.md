@@ -1,7 +1,7 @@
 ---
-title: &title "Teknik i discgolf: Hvordan kaster man i discgolf?"
+title: &title "Teknik i discgolf: Hvordan kaster man en golfdisc?"
 ## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
-excerpt: "Det er ikke så let at kaste en golfdisc til discgolf, som det ser ud til at være. Her er nogle tips til, hvordan du kaster en golfdisc, når du spiller frisbeegolf."
+excerpt: "Vil du gerne lære at kaste en golfdisc i discgolf? Her er nogle tips til, hvordan du kaster en frisbee, når du spiller frisbeegolf."
 permalink: /discgolf-teknik/
 language: da
 header:
@@ -233,7 +233,7 @@ Der kan være andre disc-producenter, der rangerer discs på en anden måde, men
 
 {% include figure image_path="/assets/images/blog/vaelg-golfdics-til-discgolf-essence.png" caption="Her kan du se flyveegenskaberne for Essence fra Discmania skrevet på selve discen." alt="frisbee til discgolf med discens flyveegenskaber" %}
 
-Du kan sammenligne discs på [inboundsdiscgolf.com](http://www.inboundsdiscgolf.com), men husk at tallene kun giver mening, hvis man kan kaste med samme kraft og mængde spin. Det er således potentialet i discen, du kan aflæse i sammenligninger.
+Du kan sammenligne discs på [inboundsdiscgolf.com](https://www.inboundsdiscgolf.com), men husk at tallene kun giver mening, hvis man kan kaste med samme kraft og mængde spin. Det er således potentialet i discen, du kan aflæse i sammenligninger.
 
 ## Hvordan kaster jeg længst muligt med frisbee?
 

@@ -1,6 +1,7 @@
 ---
 title: &title "Hvordan lærer jeg at løbe hurtigere?"
 seo_title: "8 tips til at blive en hurtigere løber"
+description: Vil du gerne løbe hurtigere? Løb hurtigere med disse tips, som du kan implementere i din løbetræning allerede fra i dag.
 permalink: /loeb-hurtigere/
 language: da
 header:
@@ -21,7 +22,7 @@ De forskellige tips og råd kan bruges uanset om du gerne vil løbe hurtigere p�
 
 Lad os dykke ned i de gode tips til at få mere fart i fødderne på løbeturen. Gør dig klar til at optimere dit løb.
 
-{% include figure image_path="https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Hvordan løber jeg hurtigere? Tjek disse tips til at blive en hurtigere løber." alt="hurtige løbere" %}
+{% include figure image_path="https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Hvordan løber jeg hurtigere? Tjek disse tips til at blive en hurtigere løber." alt="løb hurtigere som disse løbere" %}
 
 Tjek først denne video for at få en grundlæggende forståelse for, hvad der skal til for at **løbe hurtigere**.
 
@@ -37,7 +38,7 @@ Med en plan, så springer man ikke lige over træningen så let. Typisk forsøge
 
 Vi har skrevet mere om, hvordan du selv kan [planlægge dit løbeprogram](/guide-til-loebeprogram/).
 
-## 2. Brug intervaltræning – også selvom du hader det
+## 2. Løb hurtigere med intervaltræning – også selvom det er hårdt
 
 [Intervalltræning](/intervaltraening/) og intervalløb bør være en del af din træning, hvis du vil være en hurtigere løber. Intervalløb kan være med til at forbedre din maksimale iltoptagelse samtidig med, at den høje intensitet også kan optimere din løbeøkonomi.
 
@@ -60,7 +61,7 @@ Min oplevelse er, at rigtig mange ender med ofte at løbe med en intensitet i de
 
 Du kan læse mere om at undgå 'junk miles' på [www.loebeshop.dk](https://www.loebeshop.dk/inspiration/bliv-en-hurtigere-lober-junk-miles).
 
-## 4. Styrketræning gør dig hurtigere
+## 4. Bliv en hurtigere løber med styrketræning
 
 Styrketræning er meget effektivt, hvis du gerne vil blive en bedre løber. Hvis du er stærkere, så kan du løbe mere effektivt. Der er lavet mange studier, der viser, at tng styrketræning som supplement til løbetræningen kan være med til at forbedre løbeøkonomien. I mange studier bliver brugt squat og dødløft.
 
@@ -82,15 +83,39 @@ Her kan du se nogle af de indlæg vi har skrevet om styrketræning og løb.
 
 Løb er en vægtbærende aktivitet. Når du beregner dit [kondital](/kondital/), så er vægten en væsentlig del af udregningen. Min filosofi er, at kroppen tilpasser sig til det du laver. Det kan bedre betale sig at træne for at blive hurtigere til at løbe end at tabe vægt for at blive hurtigere.
 
-{% include figure image_path="https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Når du ser verdensklasseløbere, så er der ikke meget ekstravægt på kroppen. Hvis du gerne vil være rigtig hurtig, så har vægten betydning. Det er dog det sidste parameter, jeg selv ville optimere." %}
+{% include figure image_path="https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Når du ser verdensklasseløbere, så er der ikke meget ekstravægt på kroppen. Hvis du gerne vil være rigtig hurtig, så har vægten betydning. Det er dog det sidste parameter, jeg selv ville optimere." %}
 
 Men derfor anslår man stadig, at du kan forbedre dine kilometertider, hvis du bliver en lettere løber. Du kan prøve vores beregner til at estimere din [vægtændrings estimerede påvirkening af din løbetid](/vaegttab-loebetid/).
 
 Hvis du spiser for lidt, så kan du imidlertid ikke restituere ordentligt og være klar til at træne igen, så det er hele tiden en balance.
 
+## 6. Optimer dit løbeudstyr
+
+De færreste tænker nok over, at løbeskoene faktisk også har en stor andel af, hvilket tempo du løber i.
+
+Mange leder efter behagelige løbesko, som de kan undgå skader i, men du kan også finde lette konkurrenceløbesko, som skærer vægten på skoene ned til et minimum.
+
+Den [teknologiske udvikling inden for sportsudstyr](/teknologi-sport/) har også for alvor vundet indpas i løbeverden.
+
+Eluid Kipchoge løb fx [Ineos Challenge](/kipchoge-challenge/) i et par speciallavede Nike-sko med tre carbonplader i sålen. Nike har lanceret Vaporfly 4% med en enkelt carbonplade i sålen.
+
+Den danske løbetræner, Claus Hechmann, [testede](https://www.hechmannsport.dk/post/test-af-l%C3%B8besko) 10 forskellige top-løbesko med både wattmåler og iltoptagelse i forhold til den hastighed, man kan løbe i skoene.
+
+Skoene vejede fra 180-300 gram, men vægten var faktisk ikke det primære parameter i forhold til fart. Nike Vaporfly var faktisk 4-6% bedre end den valgte referenceløbesko i forhold til den fart man kunne løbe i skoen ved samme iltforbrug.
+
+Løbeskoen kan altså være med til at forbedre din løbeøkonomi og din hastighed.
+
+## Konklusion
+
+Du kan blive en hurtigere løber ved at fokusere på nogle af de gode tips i dette indlæg.
+
+Planlægning er for mig et af de væsentligste punkter. Uden planlægning ender jeg altid med at gøre min træning for intensiv - eller også får jeg placeret for meget af min træning i midterzonerne.
+
+God træning!
+
 {% comment %}
 
-## 7.Optimer dit udstyr
+## 7. Optimer dit udstyr til løb
 
 Der er flere ting du kan skrue på.
 Dine løbesko kan være et parametre. Der findes lettere racesko som skærer en del gram af totalvægten på skoen. Det er selvfølgelig ikke noget der giver dig 30 sekunder pr. kilometer, men det kan sagtens give lidt.

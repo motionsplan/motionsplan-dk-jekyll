@@ -6,6 +6,23 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import "signup";
+
+.sidebar {
+  position: relative;
+  &.sticky {
+    overflow-y: auto;
+    /* calculate height of nav list
+       viewport height - nav height - masthead x-padding
+    */
+    max-height: 100%;
+  }
+}
+
+.greedy-nav {
+  height: $nav-height;
+  max-height: $nav-height;
+}
 
 #adBlock, .gsc-adBlock {
   display: none !important;
@@ -108,7 +125,7 @@ body.layout--single {
         }
     }
 }
-
+/*
 form.newsletter {
   fieldset, legend {
     margin: 0;
@@ -131,7 +148,7 @@ form.newsletter {
       @extend .btn--danger;
   }
 }
-
+*/
 form.calculator {
     fieldset, legend {
         margin: 0;
