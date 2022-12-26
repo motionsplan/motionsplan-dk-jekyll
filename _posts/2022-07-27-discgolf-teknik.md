@@ -89,7 +89,7 @@ Grundlæggende skal man altså lære følgende kast:
 
 De forskellige kast kastes ofte som enten forhånd eller baghåndskast, men i nogle tilfælde kan man også kaste hen over hovedet på sig selv med et såkaldt _upside-down_. 
 
-### Drive
+## Drive
 
 **Drive** er det første kast i hvert hul og kaldes derfor også _tee-shot_. Drive skal kastes med så meget kraft som muligt uden at miste kontrollen over discen. Det kræver, at du bruger hele kroppen til at få fart på discen og få den til at spinne hurtigt rundt, så den kan holde sig stabil i luften.
 

@@ -1,6 +1,6 @@
 ---
 title: &title "Hvor mange muskler har mennesket i kroppen? 💪"
-seo_title: "Hvor mange muskler er der i menneskekroppen? (Omkring 7000)"
+seo_title: "Hvor mange muskler er der i menneskekroppen? (Omkring 700)"
 description: "Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt."
 permalink: /hvor-mange-muskler-i-kroppen/
 last_modified_at: 2021-01-18T09:41:09Z
