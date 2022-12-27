@@ -5,7 +5,7 @@ excerpt: "Her får du forskellige apps til discgolf, som kan hjælpe dig med at 
 permalink: /discgolf-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Sportsgrene

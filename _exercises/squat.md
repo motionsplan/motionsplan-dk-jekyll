@@ -9,7 +9,7 @@ key: 20210818081100
 toc: true
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
 tags:
   - Ben
   - Styrketræning

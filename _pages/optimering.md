@@ -5,27 +5,27 @@ seo_title: "Sådan optimerer du din træning"
 permalink: /optimer-traening/
 excerpt: "Træning handler først og fremmest om at nyde det. Men derfor kan man jo godt arbejde med at optimere træningen også. Her har vi samlet en række emner, som kan være med til at optimere din træning."
 header:
-  overlay_image: https://images.unsplash.com/photo-1620213391117-0d169a917221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1620213391117-0d169a917221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1620213391117-0d169a917221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1620213391117-0d169a917221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: Optimering af træningen
 author_profile: true
 author: lsolesen
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Tests"
     title: "Tests"
     excerpt: "Du kan bruge tests tests før og efter din træning, så du kan se om dit træningsprogram virker."
     url: "/tests/"
     btn_label: "Test"
     btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Træning"
     title: "Træning"
     excerpt: "Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træningsformer til inspiration her."
     url: "/traeningsformer/"
     btn_label: "Træn"
     btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Tracking"
     title: "Tracking"
     excerpt: "Du kan holde styr på din træning med fx en træningslog eller _tracke_ din træning på andre måder."

@@ -5,7 +5,7 @@ excerpt: "Leder du efter en online butik med discgolf? Her har vi samlet en list
 permalink: /discgolf-butikker/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1655161920449-cd10d9391f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Sportsgrene
@@ -68,7 +68,7 @@ Hos Discshoppen.dk har de et mindre udvalg til Discgolf. De satser på et mindre
 
 Discshoppen tilbyder dig **prisgaranti** på produkterne, så hvis de har den rette disc på lager, så kan du roligt handle der.
 
-[Besøg Discconnection](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606&htmlurl=https://discshoppen.dk/){: .btn .btn--large .btn--info rel="sponsored nofollow noopener" }
+[Besøg Discshoppen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606&htmlurl=https://discshoppen.dk/){: .btn .btn--large .btn--info rel="sponsored nofollow noopener" }
 
 
 {% comment %}
