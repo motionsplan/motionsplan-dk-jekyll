@@ -1,7 +1,7 @@
 ---
 title: "Solhilsen A og B: Komplet guide til solhilsen 🧘"
 #seo_title: "Solhilsen A og B: Komplet guide til solhilsen"
-seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2022"
+seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2023"
 description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke yogaøvelser der er i solhilsen? | Hvad er forskellen på A og B? | Hvad er solhilsen godt for?"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
@@ -15,7 +15,7 @@ tags:
   - meditation
 category:
   - Yoga
-last_modified_at: 2021-02-20T09:41:09Z
+last_modified_at: 2023-01-01T09:41:09Z
 plakat:
   - image_path: https://trendyliving.dk/images/Solhilsen.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html

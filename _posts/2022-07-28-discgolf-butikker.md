@@ -1,7 +1,6 @@
 ---
 title: &title "Disc golf butikker: Køb discs online"
 excerpt: "Leder du efter en online butik med discgolf? Her har vi samlet en liste over de bedste disc golf butikker på internettet."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /discgolf-butikker/
 language: da
 header:

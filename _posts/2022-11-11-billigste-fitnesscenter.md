@@ -1,6 +1,6 @@
 ---
-title: &title "Billigt fitness center: Se de billigste abonnementer (Pristjek 2022)"
-seo_title: "Billigste fitness center: Se billige abonnementer (Pristjek 2022)"
+title: &title "Billigt fitness center: Se de billigste abonnementer (Pristjek 2023)"
+seo_title: "Billigste fitness center: Se billige abonnementer (Pristjek 2023)"
 permalink: /billigste-fitnesscenter/
 description: "Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret."
 excerpt: "Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret."

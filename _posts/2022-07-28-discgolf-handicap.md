@@ -1,7 +1,6 @@
 ---
 title: &title "Discgolf handicap: Hvordan fungerer rating?"
 excerpt: "Her dykker vi ned i, hvordan rating i discgolf fungerer, og hvordan du kan spille med et discgolf handicap, så spillere med forskelligt niveau kan konkurrere på nogenlunde lige vilkår."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /discgolf-handicap/
 language: da
 header:

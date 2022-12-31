@@ -1,5 +1,5 @@
 ---
-title: &title "Hvad er den bedste løbe app til løbetræning 2022?"
+title: &title "Hvad er den bedste løbe app til løbetræning 2023?"
 description: Er du på udkig efter en løbe app? Jeg har fundet nogle rigtig gode bud på de bedste løbe apps, der kan hjælpe dig med din løbetræning.
 permalink: /loebe-apps/
 language: da

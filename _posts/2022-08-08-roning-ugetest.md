@@ -1,7 +1,6 @@
 ---
 title: &title "Powerprofil i roning: Beregn din powerkurve på romaskine"
 excerpt: "De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /roning-powerprofil/
 language: da
 header:

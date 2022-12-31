@@ -1,7 +1,6 @@
 ---
 title: &title "Søvndagbog: Kortlæg din søvn og sov bedre"
 excerpt: "Er du interesseret i at sove bedre? Her får du en guide til og eksempler på, hvordan du kan lave søvnregistrering og føre en søvndagbog."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /soevndagbog/
 language: da
 header:

@@ -1,7 +1,6 @@
 ---
 title: &title "Højdetræning: Hvordan virker det at træne i højderne?"
 excerpt: "Højdetræning på nye niveauer er en af forklaringerne på Jumbo-Visma og Jonas Vingegaards store succes i Tour de France. Men hvordan virker det egentlig på kroppen at træne i højderne?"
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /hoejdetraening/
 language: da
 header:

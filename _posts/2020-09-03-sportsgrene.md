@@ -1,6 +1,7 @@
 ---
-title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓 (2022)"
-seo_title: "Liste over sportsgrene, idræt og motion (2022)"
+title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓"
+seo_title: "Liste over sportsgrene, idræt og motion (2023)"
+description: Vil du gerne finde en sport, motion og idræt, som du kan dyrke i din fritid? Vi har samlet de mest populære sportsgrene og idrætsgrene i Danmark.
 permalink: /sportsgrene-liste/
 language: da
 header:
@@ -12,7 +13,7 @@ category:
 tags:
   - liste
   - sportsgrene
-last_modified_at: 2022-07-03T23:14:14Z
+last_modified_at: 2023-01-01T23:14:14Z
 toc: true
 dialaegt:
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/cykelrytteren-klassisk-graa_600x600.jpg?v=1606398625
@@ -96,8 +97,9 @@ faq:
   - question: Hvor mange medlemmer er der i DIF og DGI?
     answer: I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.dk/om/fakta/tal-og-referater/medlemstal) og knap [2 millioner medlemmer i en forening under Danmarks Idræts-Forbund (DIF)](https://www.dif.dk/da/politik/vi-er/medlemstal)
 ---
+Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
 
-Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden. Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
+Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden.
 
 Søger du inspiration til en aktiv fritid, så har jeg samlet en liste, hvor du kan få inspiration til sport, motion, idræt og træning. Her kan du finde ud af, hvilken sport du gerne vil gå til - eller hvilke forskellige typer sport der er i Danmark.
 

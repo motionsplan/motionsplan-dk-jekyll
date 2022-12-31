@@ -1,10 +1,11 @@
 ---
 title: &title "Fedtforbrændingszonen: Alt du behøver at vide 🔥"
-seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2022)"
+seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2023)"
+description: Har du hørt om fedtforbrændingszonen? Inden du går i gang med at ræne med en bestemt intensitet for at forbrænde mest muligt fedt, så læs lige med her først.
 permalink: /fedtforbraendingszonen/
 redirect_from:
   - /fedtforbraeningszonen/
-last_modified_at: 2020-08-24T09:41:09Z
+last_modified_at: 2023-08-24T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
@@ -48,7 +49,9 @@ gallery_explain:
     excerpt: "Hvis du kun har sat et bestemt tidsrum af til træning, så kan det være mere effektivt i forhold til kondition at køre med en høj træningsintensitet. Teoretisk set kan man også argumentere for det i forhold til vægttab, men det kræver. Jeg kommer tilbage til, at tidsaspektet imidlertid også har stor effekt. Du skal også være opmærksom på, at når vi kigger på vægttab, så er det dit samlede, daglige energiforbrug, der har allerstørst betydning. Her flytter træningen ikke så mange procent."
 ---
 
-Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning. Rationalet bag begrebet er, at fedtforbrændingen er størst med en bestemt intensitet. Og det er sådan set relativt rigtigt, men der er absolut udfordringer ved forståelsen af fedtforbrændingszonen.
+Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning. Rationalet bag begrebet er, at fedtforbrændingen er størst med en bestemt intensitet.
+
+Og det er sådan set relativt rigtigt, men der er absolut udfordringer ved forståelsen af fedtforbrændingszonen.
 
 Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
 

@@ -1,5 +1,7 @@
 ---
-title: "Coretræning: 9 øvelser til stærk core og kropsstamme (2022)"
+title: "Coretræning: 9 øvelser til stærk core og kropsstamme"
+seo_title: "Coretræning: 9 øvelser til stærk core og kropsstamme (2023)"
+description: Vil du gerne styrke musklerne omkring din kropsstamme og core. Svaret er core-træning. Her får du 9 øvelser til at træne kropsstammen og din core.
 permalink: /core/
 language: da
 header:
@@ -14,12 +16,18 @@ tags:
 category:
   - Styrketræning
   - Teknik
-last_modified_at: 2020-07-13T08:39:32Z
+last_modified_at: 2023-01-01T08:39:32Z
 sidebar:
   nav: exercises
 ---
 
-Det er vigtigt, at fokusere på sin kropsstamme (sin core) og musklerne omkring rygsøjlen, maven, lænden og hoften for at være stærk og kunne bevæge sig hensigtsmæssigt. Jeg har researchet lidt på, hvad der skal til for at lave god træning af sin core og kropsstamme.
+Vil du gerne styrke musklerne omkring din kropsstamme og core? Svaret er core-træning. Her får du 9 øvelser til at træne kropsstammen og din core.
+
+Det er vigtigt, at fokusere på sin kropsstamme (sin core) og musklerne omkring rygsøjlen, maven, lænden og hoften for at være stærk og kunne bevæge sig hensigtsmæssigt.
+
+Jeg har researchet lidt på, hvad der skal til for at lave god træning af sin core og kropsstamme.
+
+## En stærk eller udholdende core?
 
 Det kan være nødvendigt at skelne mellem en stærk og udholdende core, når man kigger på, hvilken træning der er nødvendig.
 

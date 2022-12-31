@@ -1,7 +1,6 @@
 ---
 title: &title "Varmeakklimatisering: Træning og præstation i varmen"
 excerpt: "Det er varmt udenfor. Rigtig varmt. Så hvordan træner og præsterer man i varmen? Her er nogle tips, der kan hjælpe dig med at vænne dig til varmen og akklimatisere dig, så du kan yde dit bedste, når det gælder mest."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /varmeakklimatisering-traening-i-varmen/
 language: da
 header:

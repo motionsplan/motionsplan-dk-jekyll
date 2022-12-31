@@ -1,7 +1,6 @@
 ---
-title: &title "5 bedste discgolf apps i 2022 (til at forbedre dit spil)"
+title: &title "5 bedste discgolf apps i 2023 (til at forbedre dit spil)"
 excerpt: "Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når du spiller discgolf."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /discgolf-apps/
 language: da
 header:

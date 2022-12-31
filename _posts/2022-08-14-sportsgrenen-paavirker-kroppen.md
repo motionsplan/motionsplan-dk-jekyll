@@ -1,7 +1,6 @@
 ---
 title: &title "Hvordan påvirker idræt og sportsgrene kroppen?"
 excerpt: "De fleste mennesker tænker på sport som en måde at have det sjovt og holde sig i form på, men kun få er klar over de fantastiske ting, som sport kan gøre for kroppen."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /sportsgrene-paavirker-kroppen/
 language: da
 header:

@@ -1,6 +1,6 @@
 ---
 title: &title "12 citater om fitness og bodybuilding"
-seo_title: "12 citater om fitness og bodybuilding (2022)"
+seo_title: "12 citater om fitness og bodybuilding (2023)"
 permalink: /citater-fitness-bodybuilding/
 last_modified_at: 2020-12-29T09:41:09Z
 excerpt: "Her får du en række citater om fitness og bodybuilding. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er bodybuildere."
