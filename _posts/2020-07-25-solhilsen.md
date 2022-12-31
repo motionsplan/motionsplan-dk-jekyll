@@ -211,7 +211,7 @@ Eller den her:
 
 {% include video provider="youtube" id="Lg_Ja-liVuQ" %}
 
-Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter, hvor du laver en lille afspænding. Yogalærer, Kathrine Christensen, har skrevet en lille guide her på Motionsplan til [mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter, hvor du laver en lille afspænding. Yogalærer, Kathrine Christensen, har skrevet en lille guide her på Motionsplan til [mindful meditation](/mindfulness-meditation/).
 
 Jeg udfører også ofte [De fem tibetanere](/artikel/de-fem-tibetanere/), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 

@@ -1,6 +1,7 @@
 ---
 title: "Er der forskel på mænds og kvinders muskler?"
-seo_title: "Er der forskel på mænds og kvinders muskler? (2022)"
+seo_title: "Er der forskel på mænds og kvinders muskler? (2023)"
+description: Er der forskel på mænds og kvinders muskler? Her får du svar på de forskellige myter, du måske har hørt om muskler og køn.
 permalink: /maend-kvinder-muskler/
 language: da
 header:
@@ -13,7 +14,7 @@ tags:
   - fysiologi
   - muskler
   - træningslære
-last_modified_at: 2020-06-11T08:14:14Z
+last_modified_at: 2023-01-01T08:14:14Z
 toc: true
 gallery:
   - image_path: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
@@ -22,7 +23,9 @@ gallery:
     alt: "Mandlig og kvindelig muskel fra MRI"
 ---
 
-Intuitivt tænker de fleste nok, at der ikke er forskel på mænds og kvinders muskler, men der er også mange myter om spørgsmålet. Men hvad siger videnskaben egentlig om det spørgsmål?
+Er der forskel på mænds og kvinders muskler? Her får du svar på de forskellige myter, du måske har hørt om muskler og køn.
+
+Hvad siger videnskaben egentlig om det spørgsmål?
 
 **Der er forskel på mænds og kvinders muskler. Der er forskel i generne. Mænd har større absolut muskelmasse end kvinder, særligt i overkroppen. Forskellen skyldes bl.a. hormonet testosteron og fibertypesammensætning. Men relativt set kan kvinder forøge både deres muskelstyrke og muskelmasse i nogenlunde samme grad som mænd.**
 

@@ -1,6 +1,6 @@
 ---
 title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder"
-seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder (2022)"
+seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder (2023)"
 description: "Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere kan du lave derhjemme i dag!"
 permalink: /maal-fedtprocent/
 language: da
@@ -14,7 +14,7 @@ category:
 tags:
   - fedtprocent
   - test
-last_modified_at: 2021-11-06T23:14:14Z
+last_modified_at: 2023-01-01T22:14:14Z
 toc: true
 feature_row:
   - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
@@ -50,7 +50,7 @@ faq:
       Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
 ---
 
-Interessen for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sin fedtprocent. Hvilke metoder findes der til måling af fedtprocent?
+Vil du gerne måle din fedtprocent? Her har jeg samlet op på, hvordan du kan måle din fedtprocent. Hvilke metoder findes der til måling af fedtprocent?
 
 **Du kan måle din fedtprocent på mange måder. Alle metoderne har hver deres fordele og ulemper og unøjagtigheder. Du kan måle fedtprocent med undervandsvejning, DEXA-scanner, hudfoldsmålinger med fedttang, bioimpedans - og du kan estimere fedtprocenten på baggrund af øjemål og udregninger.**
 
@@ -95,7 +95,9 @@ De mest nøjagtige målinger af fedtprocent er ikke tilgængelige for almindelig
 
 ### 1. Hydrostatisk vejning
 
-Da jeg læste idræt var en hydrostatisk vejning guldstandarden inden for måling af fedt i kroppen. Under vandvejning bliver du sænket helt ned i vand, og din kropskomposition udregnes ved hjælp af formler for fysiske love ved nedsænkning i vand. Du kan læse mere om vandvejning under [kropskomposition](/kropskomposition/). Typisk er en vandvejning uden for de fleste menneskers budget.
+Da jeg læste idræt var en hydrostatisk vejning guldstandarden inden for måling af fedt i kroppen. Under vandvejning bliver du sænket helt ned i vand, og din kropskomposition udregnes ved hjælp af formler for fysiske love ved nedsænkning i vand.
+
+Du kan læse mere om vandvejning under [kropskomposition](/kropskomposition/). Typisk er en vandvejning uden for de fleste menneskers budget.
 
 ### 2. DEXA-scanning
 
@@ -129,7 +131,9 @@ Læs: [Måling af fedtprocent med hudfoldsmålinger og fedttang](/skinfold/)
 
 ### 7. Måling af fedtprocent med bioimpedans
 
-Nogle af de nye, ret dyre bioimpedansmålere kan give et fornuftigt bud på din fedtprocent. Du kan også få relativt prisbillige badevægte, der reklamerer med at kunne måle fedtprocenten med bioimpedans, men de billige modeller er formentlig meget upræcise. Hvis du kan følge alle anvisninger, så du kan foretage målingerne under de samme forhold over tid, så kan du måske godt bruge denne metode til at holde øje med ændringer i din kropskomposition.
+Nogle af de nye, ret dyre bioimpedansmålere kan give et fornuftigt bud på din fedtprocent. Du kan også få relativt prisbillige badevægte, der reklamerer med at kunne måle fedtprocenten med bioimpedans, men de billige modeller er formentlig meget upræcise.
+
+Hvis du kan følge alle anvisninger, så du kan foretage målingerne under de samme forhold over tid, så kan du måske godt bruge denne metode til at holde øje med ændringer i din kropskomposition.
 
 Jeg har skrevet mere om [bioimpedansmålinger her](/artikel/inbody-570-bioimpedans/).
 

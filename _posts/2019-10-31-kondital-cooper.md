@@ -1,6 +1,6 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-seo_title: "Cooper test • Nyt skema og beregner til kondital (2022)"
+seo_title: "Cooper test • Nyt skema og beregner til kondital (2023)"
 description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
 permalink: /cooper-test/
 redirect_from:
@@ -23,7 +23,7 @@ tags:
   - beregner
   - featured
 popular: true
-last_modified_at: 2022-10-12T10:14:14Z
+last_modified_at: 2023-01-01T10:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png

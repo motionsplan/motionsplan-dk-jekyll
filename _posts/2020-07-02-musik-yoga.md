@@ -1,6 +1,6 @@
 ---
 title: "Den bedste musik til yoga, mindfulness og meditation"
-seo_title: "Yogamusik • Det bedste musik til yoga og mindfulness (2022)"
+seo_title: "Yogamusik • Det bedste musik til yoga og mindfulness (2023)"
 description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
 permalink: /yoga-musik/
 language: da
@@ -16,7 +16,7 @@ tags:
   - yoga
   - musik
   - meditation
-last_modified_at: 2020-07-02T08:12:14Z
+last_modified_at: 2023-01-01T08:12:14Z
 toc: true
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
@@ -25,9 +25,15 @@ yogastream:
     alt: "Musik og yoga - Bliv medlem af Yogastream og lær yoga"
 ---
 
-Jeg er på udkig efter noget god musik til yoga, meditation og mindfulness. Når det ikke bare skal være stille kan jeg godt lide at have en playliste, som jeg bruger til mindful yoga og mindfulness. Jeg har derfor undersøgt, hvad den bedste yogamusik er?
+Er du på udkig efter noget god musik til yoga, meditation og mindfulness? Her får du forslag til, hvordan du bedst vælger noget musik.
 
-Hvordan vælger man musik til yoga, meditation og mindfulness? **God musik til yoga, mindfulness og meditation skal have den rigtige rytme og en rigtige stemning. Typisk passer langsommere musik med 60-100 bpm godt til yoga, selvom yoga kan få pulsen helt op til 160 bpm (beats per minute), men stemningen i musikken er også meget afgørende.**
+Når det ikke bare skal være stille er det rart at have en playliste med velegnet musik til mindful yoga og mindfulness.
+
+Jeg har derfor undersøgt, hvad den bedste yogamusik er?
+
+## Hvordan vælger man musik til yoga, meditation og mindfulness?
+
+**God musik til yoga, mindfulness og meditation skal have den rigtige rytme og en rigtige stemning. Typisk passer langsommere musik med 60-100 bpm godt til yoga, selvom yoga kan få pulsen helt op til 160 bpm (beats per minute), men stemningen i musikken er også meget afgørende.**
 
 Når du skal finde musik, der passer til en aktivitet, så er en af de væsentlige parametre i musikken _beats per minute_. Tempoet i musikken kan enten relateres til dit hjerteslag, eller det kan relateres til dit bevægelsesmønster for at understøtte aktiviteten.
 
@@ -122,7 +128,7 @@ For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga 
 
 Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning](/artikel/musik-til-traeningen/).
 
-Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere](/artikel/de-fem-tibetanere/) eller [Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere](/artikel/de-fem-tibetanere/) eller [Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/) - eller måske er du interesseret i [Mindful meditation](/mindfulness-meditation/).
 
 Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 

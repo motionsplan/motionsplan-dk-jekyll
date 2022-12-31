@@ -1,6 +1,6 @@
 ---
 title: "7 tips til den rigtige teknik i styrketræning "
-seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt (2022)"
+seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt (2023)"
 description: "God teknik i styrketræning er effektiv teknik, som minimerer skadesrisikoen. Derfor er god teknik til styrketræning er individuelt. Hvad er din?"
 permalink: /rigtig-teknik-styrketraening/
 redirect_from:
@@ -17,7 +17,7 @@ tags:
   - begynder
 category:
   - Styrketræning
-last_modified_at: 2021-04-03T15:06:01Z
+last_modified_at: 2023-01-01T15:06:01Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: "Stærk"
@@ -29,7 +29,9 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Hvad er god teknik i styrketræning, og hvordan kan man formidle den til sine atleter? God teknik er **effektiv** teknik, som **minimerer skadesrisikoen**. Det betyder også, at god teknik til styrketræning er individuel, for vi er alle bygget vidt forskellige.
+Hvad er god teknik i styrketræning, og hvordan kan man formidle den til sine atleter? God teknik er **effektiv** teknik, som **minimerer skadesrisikoen**.
+
+Det betyder også, at god teknik til styrketræning er individuel, for vi er alle bygget vidt forskellige.
 
 Kroppen er skabt for at bevæge sig, og hvis kroppen kan lave en bevægelse, så må den godt lave bevægelsen. Så kan det faktisk være en fordel at træne også, at kroppen kan lave bevægelsen. Det gælder om at få en alsidig bevægelseserfaring.
 
@@ -39,7 +41,7 @@ Derfor giver det heller ikke mening at opstille meget præcise _do_ and _don't_ 
 
 Hvis vi helt grundlæggende kigger på det, så kan vi reducere **god teknik er effektiv teknik som minimerer skadesrisikoen**. Lad os kigge lidt på, hvad det betyder i forhold teknikken.
 
-### Effektiv teknik
+### 1. Effektiv teknik
 
 En effektiv teknik kræver, at teknikken passer til din kropsbygning. Der er en verden til forskel om du skal lave squat med en kort overkrop og lange ben eller omvendt. Teknikken skal altå passe til din kropsbygning og dit mål.
 
@@ -47,7 +49,7 @@ Hvis du laver squat og dødløft er det en klar fordel rent biomekanisk, at stan
 
 Hvis du er styrkeløfter og gerne vil løfte så mange kg som muligt i bænkpres, så kan det være en fordel at ligge stabilt på bænken og mindske _range of motion_, men hvis du gerne vil have brystet til at blive trænet optimalt, så kan en større _range of motion_ måske være at foretrække.
 
-### Minimere skadesrisikoen
+### 2. Minimere skadesrisikoen
 
 Hvis du gerne vil minimere skadesrisikoen er det væsentligste parameter, at du vænner dig til de forskellige stillinger. Ved at tilpasse belastning og progression, så kan du blive stærkere i de positioner, du gerne vil være stærkere i.
 
@@ -205,7 +207,7 @@ Lamar Gant har _skoliose_. Jeg har hørt en historie om ham, at lægerne fraråd
 
 {% include figure image_path="https://2xm0t92b1vo22py83u40kcv7-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/lamar-gant-scoliosis.jpg" caption="Lamar Gants ryg er yderst veludviklet, selvom det også er tydeligt, at han har skoliose. Men muskelopbygningen er med til at beskytte rygsøjlen." alt="Lamar Gants ryg" %}
 
-Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til anoget andet.
+Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til noget andet.
 
 {% include figure image_path="/assets/images/blog/lamargant1.jpg" caption="Lamar Gant bruger en teknik i sit dødløft, som er lidt anderledes end der står i de fleste lærebøger." alt="Lamar Gant dødløft" %}
 

@@ -1,6 +1,7 @@
 ---
 title: "Musik til træning: Find de bedste sange til træningen"
-seo_title: "Musik til træning: Find de bedste sange til træningen (2022)"
+seo_title: "Musik til træning: Find de bedste sange til træningen (2023)"
+description: Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning, men hvad skal du tænke på?
 permalink: /artikel/musik-til-traeningen/
 redirect_from:
   - /artikel/musik-til-træningen
@@ -17,14 +18,18 @@ category:
   - Kondition
   - Styrketræning
   - Løb
-last_modified_at: 2020-08-23T15:18:24Z
+last_modified_at: 2023-01-01T15:29:24Z
 ---
+
+Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning, men hvad skal du tænke på?
 
 Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning.
 
-Men hvordan finder jeg de bedste sange til træning, løb, styrketræning og [intervaltræning](/intervaltraening/), så musikken kan give ekstra energi og motivation?
+Her kigger vi på, hvordan du finder de bedste sange til træning, løb, styrketræning og [intervaltræning](/intervaltraening/), så musikken kan give ekstra energi og motivation?
 
-Hvorfor skal jeg bruge musik til træningen? **Når musikken passer til din træning, så kan musikken hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Musik kan altså gøre træningen mere effektiv. Det bedste er, hvis du kan finde musik, der er synkrone med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
+## Hvorfor skal jeg bruge musik til træningen?
+
+**Når musikken passer til din træning, så kan musikken hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Musik kan altså gøre træningen mere effektiv. Det bedste er, hvis du kan finde musik, der er synkrone med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
 
 *[bpm]: beats per minute
 *[RPE]: Rate of Percieved Exertion
@@ -161,7 +166,9 @@ Hvis jeg laver intervaltræning, så gider jeg ikke stå og tage tid og fløjte,
 
 ### Tidligere mixede jeg min egen musik
 
-Jeg har af flere omgange siddet og mikset min egen musik, så jeg bare kan sætte træningen i gang, og der i musikken er indikationer på, hvornår øvelsen skal skifte. Ulempen er at det tager en masse tid, og at det enkelte mix kun virker til netop en tidsangivelse. Endelig så er det sjældent at man får fornyet sine mix, når de først er lavet - og jeg har da fået en klage eller to over musikvalget i min tid som underviser.
+Jeg har af flere omgange siddet og mikset min egen musik, så jeg bare kan sætte træningen i gang, og der i musikken er indikationer på, hvornår øvelsen skal skifte. Ulempen er at det tager en masse tid, og at det enkelte mix kun virker til netop en tidsangivelse.
+
+Endelig så er det sjældent at man får fornyet sine mix, når de først er lavet - og jeg har da fået en klage eller to over musikvalget i min tid som underviser.
 
 ### En app til at tage tid til træning
 

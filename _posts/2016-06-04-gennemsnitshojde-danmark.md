@@ -1,6 +1,6 @@
 ---
 title: &title "Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?"
-seo_title: "Gennemsnitshøjde i Danmark for mænd & kvinder i 2022"
+seo_title: "Gennemsnitshøjde i Danmark for mænd & kvinder i 2023"
 description: "Hvordan ser det ud med Danmarks gennemsnitshøjde? Den gennemsnitlige dansker har haft vokseværk. Er du højere end gennemsnittet for mænd og kvinder?"
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
