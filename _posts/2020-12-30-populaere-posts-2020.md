@@ -1,5 +1,5 @@
 ---
-title: &title "Populære blog posts på Motionsplan i 2021 🥇"
+title: &title "Populære blog posts på Motionsplan i 2022 🥇"
 permalink: /populaere-posts/
 redirect_from:
   - /webclips/populaere-posts-2020/
@@ -12,7 +12,18 @@ tags:
   - webclips
 category:
   - Webclips
-last_modified_at: 2021-12-27T18:21:26Z
+last_modified_at: 2022-12-31T18:21:26Z
+popular_posts_2022:
+  - /skridt-pr-km-10000/
+  - /idealvaegt/
+  - /cooper-test/
+  - /kondital/
+  - /artikel/de-fem-tibetanere/
+  - /kalorietabellen/
+  - /bip-test/
+  - /muskler/
+  - /koncentrisk-excentrisk-isometrisk/
+  - /andersen-test/
 popular_posts_2021:
   - /skridt-pr-km-10000/
   - /artikel/de-fem-tibetanere/
@@ -39,7 +50,27 @@ popular_posts_2020:
 
 Vi har virkelig mange populære blog posts på Motionsplan. Det er sjovt hvert år at samle op på, hvad der gør en et blogindlæg populært.
 
-Her har vi kigget på de mest populære blog posts for 2021.
+Her har vi kigget på de mest populære blog posts for i år.
+
+## De {{ page.popular_posts_2022.size }} mest populære blog posts i 2022
+
+I 2022 har vi i alt haft 524.592 sidevisninger fra 327.206 brugere. Det er ret vildt.
+
+Vi har i alt skrevet 90 nye blog posts i 2022, men listen indeholder en lang række af de gamle indlæg også.
+
+{% for permalink in page.popular_posts_2022 %}
+
+{% assign site_posts = site.posts | where: "permalink", permalink %}
+{% assign site_pages = site.pages | where: "permalink", permalink %}
+{% assign site_posts = site_posts | concat: site_pages %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% endfor %}
 
 ## De {{ page.popular_posts_2021.size }} mest populære blog posts i 2021
 
@@ -76,23 +107,3 @@ Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle
 {% endif %}
 
 {% endfor %}
-
-## Blog posts skrevet i 2021
-
-{% assign date_from = '2021-01-01' | date: '%s' %}
-{% assign date_to = '2021-12-31' | date: '%s' %}
-
-{% assign site_posts = site.posts | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
-
-<div class="feature__wrapper full">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if current_year == '2021' %}
-      {% include archive-single.html type="grid" %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-</div>
