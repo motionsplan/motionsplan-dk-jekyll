@@ -25,7 +25,9 @@ faq:
 
 Det er varmt udenfor. Rigtig varmt. Så hvordan træner og præsterer man i varmen? Her er nogle tips, der kan hjælpe dig med at vænne dig til varmen og akklimatisere dig, så du kan yde dit bedste, når det gælder mest.
 
-Når Danmark skal deltage i større slutrunder, der foregår under varme forhold, så hører man ofte om forskellige forberedelser. VM-slutrunden for herrefodbold i 2022 kommer til at blive spillet i ørkenstaten Qatar, og det bliver rigtig varmt. Hvordan skal fodboldherrene forberede sig på strabadserne - og hvilke taktiske dispositioner skal spillerne tage for at kunne holde til varmen?
+Når Danmark skal deltage i større slutrunder, der foregår under varme forhold, så hører man ofte om forskellige forberedelser. VM-slutrunden for herrefodbold i 2022 kommer til at blive spillet i ørkenstaten Qatar, og det bliver rigtig varmt.
+
+Hvordan skal fodboldherrene forberede sig på strabadserne - og hvilke taktiske dispositioner skal spillerne tage for at kunne holde til varmen?
 
 ## Hvad er varmeakklimatisering?
 
