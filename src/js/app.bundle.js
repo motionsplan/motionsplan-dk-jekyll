@@ -2491,14 +2491,14 @@ $(function() {
         console.log("Calculate YYIR1");
         e.preventDefault();
 
-      let version = $("[name='version']:checked").val();
-      let level = Number($("[name='level']").val());
-      let shuttles = Number($("[name='shuttles']").val());
+        let version = $("[name='version']:checked").val();
+        let level = Number($("[name='level']").val());
+        let shuttles = Number($("[name='shuttles']").val());
 
-      let b = beeptest.BeepTest(level, shuttles, version);
+        let b = beeptest.BeepTest(level, shuttles, version);
 
         $("[name='distance_result']").val(b.getDistance());
-        $("[name='vo2max_result']").val(b.getFitnessLevel());
+        $("[name='vo2max_result']").val(b.getFitnessLevel().toFixed(1));
         $("[name='totalshuttles_result']").val(b.getTotalShuttles());
     });
      // Pushups

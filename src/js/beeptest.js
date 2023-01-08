@@ -8,30 +8,28 @@ motionsplan.BeepTest = function(level, shuttles, version) {
    let Score = Number(level) + Fract;
 
     version = version;
-   let adjust = 0;
+    let adjust = 0;
     if (version == "YYE2") {
         adjust = 1180;
     }
 
-   let distance = distTOTAL[level] + (shuttles * 20) - adjust;
-
-   let totalshuttles = distance / 20;
-
-   let calcval = ((0.0028 * Score * Score * Score) - (0.0968 * Score * Score) + (4.5226 * Score) + 5.5137);
+    let distance = distTOTAL[level] + (shuttles * 20) - adjust;
 
     function getDistance() {
         return distance;
     }
 
     function getTotalShuttles() {
+        let totalshuttles = distance / 20;
         return totalshuttles;
     }
 
     function getFitnessLevel() {
+        let calcval = ((0.0028 * Score * Score * Score) - (0.0968 * Score * Score) + (4.5226 * Score) + 5.5137);
         return calcval;
     }
 
-   let publicAPI = {
+    let publicAPI = {
         getDistance: getDistance,
         getTotalShuttles: getTotalShuttles,
         getFitnessLevel: getFitnessLevel
