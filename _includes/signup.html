@@ -8,7 +8,7 @@
 {% if signup_url %}
 
 <!-- Begin Mailchimp Signup Form -->
-<section id="mc_embed_signup">
+<aside class="page__signup">
     <form
         action="{{ signup_url | absolute_url }}"
         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
@@ -19,7 +19,7 @@
                 </a>
             </p>
             <div>
-                <p class="newsletter__title">{{ title }}</p>
+                <p class="signup__title">{{ title }}</p>
                 <p>{{ excerpt }}</p>
                 <div class="form-inline">
                     <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
@@ -72,5 +72,5 @@
             </div>
         </fieldset>
     </form>
-</section>
+</aside>
 {% endif %}
