@@ -19,6 +19,15 @@
 }
 
 #mc_embed_signup {
+  margin-top: 2em;
+  background: yellow;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  .branding-logo {
+    float: left;
+    margin-right: 1em;
+  }
 
   form#mc-embedded-subscribe-form {
     background: white;
@@ -50,8 +59,6 @@
 
   fieldset {
     border: none;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     margin: 0;
     padding: 1em;
   }
@@ -524,7 +531,7 @@ img.youtube-thumb {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("https://i.imgur.com/TxzC70f.png") no-repeat;
+  background: url("/assets/images/youtube-play.png") no-repeat;
 }
 #youtube-iframe {
   width: 100%;

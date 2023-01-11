@@ -55,9 +55,6 @@ layout: default
         {% endif %}
       </section>
 
-      {% assign signup = page.signup | default: site.signup.enabled %}
-      {% if signup %}{% include signup.html %}{% endif %}
-
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <p class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</p>
@@ -70,6 +67,9 @@ layout: default
 
       {% include post_pagination.html %}
     </div>
+
+    {% assign signup = page.signup | default: site.signup.enabled %}
+    {% if signup %}{% include signup.html %}{% endif %}
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}

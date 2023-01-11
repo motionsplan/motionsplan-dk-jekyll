@@ -2,6 +2,7 @@
 title: &title "Hvor meget vand skal man drikke om dagen? (Beregner)"
 seo_title: "Hvor meget væske skal man drikke om dagen? (Beregner)"
 description: "Drikker du for lidt vand? Eller måske for meget? Prøv vores beregner til at udregne dit daglige væskebehov og hvor meget væske man skal drikke om dagen?"
+excerpt: Er du også i tvivl om, hvor meget vand du bør drikke dagligt? Jeg har researchet og samlet svaret på spørgsmålet. Du kan også prøve vores beregner til at udregne det daglige væskebehov.
 permalink: /hvor-meget-vand-skal-man-drikke-om-dagen/
 language: da
 author: lsolesen

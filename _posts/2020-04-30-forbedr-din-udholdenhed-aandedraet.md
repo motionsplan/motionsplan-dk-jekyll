@@ -28,7 +28,7 @@ feature_row:
     btn_class: btn--success
     rel: sponsored nofollow noopener
 feature_row_books:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/r/e/relaxator-aandedraetstraener-1.jpg
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/2/5/1191-traek-vejret-mere-energi-mindre-stress.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/traek-vejret-mere-energi-mindre-stress
     title: Træk vejret - mere energi - mindre stress
     excerpt: "Træk vejret med den danske fridykker Stig Åvall Severinsen kommer bredt omkring brugen af åndedrættet ift. fridykning og hverdagsliv. bogen er skrevet med baggrund i fridykning og yoga - og med Stigs mange års erfaring med professionelt brug af åndedrættet."
