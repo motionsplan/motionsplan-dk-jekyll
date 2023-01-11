@@ -6,6 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import "signup";
 
 .sidebar {
   position: relative;
@@ -176,7 +177,7 @@ body.layout--single {
         }
     }
 }
-
+/*
 form.newsletter {
   fieldset, legend {
     margin: 0;
@@ -199,7 +200,7 @@ form.newsletter {
       @extend .btn--danger;
   }
 }
-
+*/
 form.calculator {
     fieldset, legend {
         margin: 0;

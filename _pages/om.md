@@ -5,6 +5,7 @@ permalink: /om/
 excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning. Her får du alle detaljerne."
 author_profile: true
 sitemap: false
+breadcrumbs: true
 ---
 
 Motionsplan.dk er et gratis medie for alle brugerne. Der ligger rigtig mange timer bag ved artiklerne og udviklingen af beregnerne.

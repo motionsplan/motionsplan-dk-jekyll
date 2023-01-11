@@ -50,6 +50,12 @@ Mange løftere kender ikke deres egen 1RM, men du kan også bruge hastigheden af
 
 Stangens hastighed går lineært nedad med højere intensitet.
 
+Prilepins tabel er som skrevet lavet ud fra vægtløftere og den måde at træne på.
+
+[Power Athlete HQ](https://powerathletehq.com/prilepins-chart/) giver i følgende tabel et bud på, hvordan den kan bruges lidt mere generelt i styrketræning.
+
+{% include figure image_path="/assets/images/blog/prilepins-tabel-modificeret.png" alt="Prilepins tabel" %}
+
 ## Hvad kan du bruge Prilepins skema til?
 
 Prilepins tabel kan bruges til at planlægge og analysere effektive programmer.

@@ -1,6 +1,6 @@
 ---
-title: &title "Bedste udstyr til e-cykling på hometrainer (Guide 2022)"
-seo_title: "Bedste udstyr til e-cykling på hometrainer (Guide 2022)"
+title: &title "Bedste udstyr til e-cykling på hometrainer"
+seo_title: "Bedste udstyr til e-cykling på hometrainer (Guide 2023)"
 description: Her får du en komplet guide til at komme i gang med cykling på motionscykel og e-cykling? Hvad er det bedste setup i forskellige prislejer.
 permalink: /udstyr-hometrainer-ecykling/
 language: da

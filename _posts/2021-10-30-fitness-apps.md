@@ -1,6 +1,6 @@
 ---
-title: &title "De bedste trænings og fitness apps i 2022"
-seo_title: "De bedste fitness og trænings apps i 2022"
+title: &title "De bedste trænings og fitness apps i 2023"
+seo_title: "De bedste fitness og trænings apps i 2023"
 permalink: /fitness-apps/
 language: da
 header:
@@ -12,7 +12,7 @@ category:
 tags:
   - træning
   - hjemmetræning
-last_modified_at: 2021-11-03T08:14:14Z
+last_modified_at: 2023-01-01T08:14:14Z
 toc: true
 skadefri:
   - image_path: /assets/images/apps/skadefri-1.jpg

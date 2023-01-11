@@ -46,7 +46,7 @@ faq:
     answer: "**One Repetition Maximum** kaldes også 1RM. Det er et udtryk for den vægt, du maksimalt kan løfte en gang i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
 ---
 
-Vil du gerne vide, hvor meget du kan løfte i styrketræning? Du kan bruge en RM-beregner, hvis du gerne vil vide, hvor stærk du er ud fra submaksimale løft.
+Vil du gerne vide, hvor meget du kan løfte i styrketræning? Du kan bruge vores RM-beregner, hvis du gerne vil vide, hvor stærk du er ud fra submaksimale løft.
 
 I styrketræning arbejder man med begrebet 1RM, som er et udtryk for den vægt, man netop kan løfte en gang.
 

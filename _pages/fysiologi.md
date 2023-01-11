@@ -7,8 +7,8 @@ permalink: /fysiologi/
 system:
   - fitnessinstruktør
 header:
-  overlay_image: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.4
 feature_row:
@@ -44,6 +44,7 @@ gallery:
     discounted: false
     id: "59381"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Fysiologi er studiet af, hvordan kroppen fungerer. Den ser på, hvordan de forskellige organsystemer fungerer under normale forhold, men også under fysisk aktivitet.

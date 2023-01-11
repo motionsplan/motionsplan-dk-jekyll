@@ -1,6 +1,6 @@
 ---
 layout: single
-image: https://images.unsplash.com/photo-1541600383005-565c949cf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=630&w=1200&q=10
+image: https://images.unsplash.com/photo-1541600383005-565c949cf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
 title: "German Volume Training (GVT)"
 header:
   teaser: /assets/images/hypertrofi/german-volume-training-gvt.jpg

@@ -1,6 +1,6 @@
 ---
 title: &title "Tæl skridt: Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2022: Vind op til 25.000 kroner 4 gange årligt"
+seo_title: "Tæl skridt 2023: Vind op til 25.000 kroner 4 gange årligt"
 description: "Vil du deltage i den landsdækkende kampagne Tæl skridt og vinde op til 25.000 kroner? Tjek her hvordan du gør?"
 permalink: /artikel/tael-skridt/
 language: da
@@ -16,7 +16,7 @@ tags:
 category:
   - Sundhed
   - Gang
-last_modified_at: 2021-12-24T10:51:18Z
+last_modified_at: 2023-01-01T10:51:18Z
 ---
 
 Det kan være yderst motiverende at tælle skridt. Du kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en skridttæller, en app til at tælle skridt eller en aktivitetstracker.
@@ -114,6 +114,6 @@ Efterhånden kan du også bare bruge telefonen til at tælle dine skridt. Fx kan
 
 Jeg leder lige nu efter studier, der viser hvor præcise målingerne af skridttælling er med smartphone-apps.
 
-## Tæl skridt 2022 datoer
+## Tæl skridt 2023 datoer
 
-Skal du være med til at tælle skridt i 2022? Du kan finde datoer på Dansk Firma-Idræt, hvis du gerne vil deltage i kampagnen.
+Skal du være med til at tælle skridt i år? Du kan finde datoer på Dansk Firma-Idræt, hvis du gerne vil deltage i kampagnen.

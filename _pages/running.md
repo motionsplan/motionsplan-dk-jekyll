@@ -6,8 +6,8 @@ description: "Vil du gerne i gange med at løbe?Her på løbesiden finder du nyt
 author_profile: true
 excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
 header:
-  overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Løbesiden: Alt om løb og løbetræning"
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
@@ -18,21 +18,21 @@ classes: wide
 feature_row_excerpt:
   - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton-21km/) og [maraton](/loebeprogram-maraton-42km/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/)."
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Løbesidens Løbsberegner"
     title: "Løbeberegner"
     excerpt: "Jeg har lavet en løbeberegner baseret på Løbesiden, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Jeg har også beskrevet forskellige træningsmetoder."
     url: "/loebesiden-jack-daniels-loebeberegner/"
     btn_label: "Brug løbsberegneren"
     btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Løbeøkonomi"
     title: "Løbeøkonomi"
     excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug, men hvordan beregner man løbeøkonomien?"
     url: "/lobeokonomi/"
     btn_label: "Lær om løbeøkonomi"
     btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Løbeteknik"
     title: "Løbeteknik og løbestil"
     excerpt: "Når du løber, så kan det være en rigtig god ide at tænke over din løbeteknik og løbestil. Jeg kigger her på, hvilke elementer i din løbestil, du kan arbejde med, hvis du vil forbedre din teknik, når du løber."
@@ -41,6 +41,9 @@ feature_row_feature:
     btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 {% include feature_row type="center" id="feature_row_excerpt" %}

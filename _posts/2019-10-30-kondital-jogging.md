@@ -80,7 +80,7 @@ Testen er let at lave. Du kan bruge den som en del af din opvarmning. En af de s
 
 At testen er submaksimal er også en ulempe. Samtidig er testen indirekte, og derfor får du kun et tilnærmet kondital. Tallet kan således kun bruges til at holde styr på din egen træning.
 
-Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores [guide til puls](/puls/) og lære endnu mere om, [hvordan du kan bruge pulstræning](/pulstraenining).
+Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores [guide til puls](/puls/) og lære endnu mere om, [hvordan du kan bruge pulstræning](/pulstraening/).
 
 ## Referencer
 

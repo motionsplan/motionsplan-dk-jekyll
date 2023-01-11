@@ -4,7 +4,7 @@ permalink: /kondition/
 title: &title "Kondition: Alt om hvordan den trænes og måles"
 excerpt: "Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om du er i god form?"
 header:
-  overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   caption: *title
 feature_row_energysystems:
   - image_path: https://images.unsplash.com/photo-1526676317768-d9b14f15615a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
@@ -41,6 +41,7 @@ faq:
     answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
   - question: Hvad er dårlig kondition?
     answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition. Konditionen afhænger især af alderen.
+breadcrumbs: true
 ---
 
 Kondition forbinder man ofte med det at være i form. Når man laver udholdenhedsidræt, fx løb eller cykling, så bliver man hurtigt interesseret i at være i at være i en god kondition.

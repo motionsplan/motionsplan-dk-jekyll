@@ -15,6 +15,7 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> Læs mere om tests"
       url: "/tests/"
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

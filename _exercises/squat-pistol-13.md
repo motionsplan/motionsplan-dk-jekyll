@@ -9,7 +9,7 @@ redirect_from:
 id: 13
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1572432332292-6ec3392bee00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1572432332292-6ec3392bee00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
 tags:
   - Hård styrkeøvelse
   - Styrketræning

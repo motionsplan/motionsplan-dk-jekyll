@@ -1,7 +1,6 @@
 ---
 title: &title "Varmetræning: Hvordan træner man til at tåle varmen?"
 excerpt: "Vil du gerne præstere bedre i varmen? Det er en god ide at lave varmetræning, hvis du skal blive bedre til at tåle varmen, når du træner."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /varmetraening/
 language: da
 header:

@@ -1,6 +1,6 @@
 ---
 title: &title "Løbeskader: Hvordan forebygger jeg skader i løb?"
-seo_title: "Løb og skader: Hvordan forebygger jeg løbeskader i 2022?"
+seo_title: "Løb og skader: Hvordan forebygger jeg løbeskader i 2023?"
 description: Vil du også gerne undgå løbeskader? Her får du en guide om skadesforebyggelse i løb, så du selv ved, hvordan du effektivt forebygger skader.
 permalink: /artikel/loebeskader-loebe-uden-skader/
 redirect_from: 
@@ -15,7 +15,7 @@ tags:
   - skader
 category:
   - Løb
-last_modified_at: 2022-10-17T11:00:54Z
+last_modified_at: 2023-01-01T11:00:54Z
 ---
 
 Løb er en fantastisk måde at komme i form på, men det er også en aktivitet med høj risiko for skader. Heldigvis kan du undgå løbeskader, hvis du forstår hvorfor de opstår ved ved, hvordan du kan beskytte dig mod skaderne.

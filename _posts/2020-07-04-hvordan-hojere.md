@@ -1,6 +1,7 @@
 ---
 title: &title "Højde: Hvordan bliver jeg højere?"
-seo_title: "Højde: Hvordan bliver jeg højere? (2022)"
+seo_title: "Højde: Hvordan bliver jeg højere? (2023)"
+desscription: Er du interesseret i, hvordan du bliver højere? Her får du svar på alle dine spørgsmål om, hvad der har betydning for, hvor høj, du bliver.
 permalink: /hvordan-bliver-jeg-hojere/
 language: da
 header:
@@ -13,7 +14,7 @@ category:
 tags:
   - højde
   - vækst
-last_modified_at: 2020-07-04T08:12:14Z
+last_modified_at: 2023-01-01T09:12:14Z
 toc: true
 feature_row:
   - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
@@ -32,13 +33,15 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg fik spørgsmålet den anden dag, om hvordan man kan blive højere? Kan man spise noget særligt for at blive højere? Virker væksthormon på højden? Det har jeg kigget lidt nærmere på i dette indlæg.
+Er du interesseret i, hvordan du bliver højere? Her får du svar på alle dine spørgsmål om, hvad der har betydning for, hvor høj, du bliver.
 
-**Man kan ikke uden videre blive højere. Ens højde er primært bestemt af ens gener, men man kan sørge for at give sig selv de bedst mulige vækstbetingelser gennem sin barndom og ungdom ved at spise fornuftigt og varieret og træne kroppen, så den potentielle højde i hvert fald ikke bremses.**
+Kan man spise noget særligt for at blive højere? Virker væksthormon på højden?
 
-Jeg synes, der åbner sig mange interessante spørgsmål i forbindelse med spørgsmålet om: Hvordan bliver jeg højere?
+Det har jeg kigget lidt nærmere på i dette indlæg.
 
-Lad os dykke ned i dem allesammen i det følgende.
+**Du kan ikke uden videre blive højere. Ens højde er primært bestemt af ens gener, men du kan sørge for at give dig selv de bedst mulige vækstbetingelser gennem din barndom og ungdom ved at spise fornuftigt og varieret og træne kroppen, så den potentielle højde i hvert fald ikke bremses.**
+
+Lad os dykke ned i spørgsmålet: Hvordan bliver jeg højere?
 
 ## Hvorfor vil du gerne være højere?
 

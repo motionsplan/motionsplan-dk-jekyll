@@ -131,7 +131,7 @@ Lisbet Lysdal præsenterer tre øvelser, som er med til at give bedre velvære. 
 
 ## Åndedrætstræning er kommet for at blive
 
-Det er helt sikkert værd at tænke meget mere over åndedrættet i hverdagen. Åndedrætstræning og fokus på vejrtrækningen har altid været en stor del af fx yoga og [mindfulness]({% link _posts/2010-10-05-mindfullness-meditation.md %}), men heldigvis er flere og flere ved at få øjnene op for åndedrættet som en væsentlig del af vores velbefindende, men også vores præstationer.
+Det er helt sikkert værd at tænke meget mere over åndedrættet i hverdagen. Åndedrætstræning og fokus på vejrtrækningen har altid været en stor del af fx yoga og [mindfulness](/mindfulness-meditation/), men heldigvis er flere og flere ved at få øjnene op for åndedrættet som en væsentlig del af vores velbefindende, men også vores præstationer.
 
 ## Bøger om vejrtrækning, åndedrætsøvelser og åndedrættet
 

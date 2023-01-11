@@ -1783,12 +1783,39 @@ $(function() {
     $("#calculator_inol").submit(function(e) {
         console.log("Calculate INOL");
         e.preventDefault();
-      let reps = Number($("[name='reps']").val());
-      let intensity = Number($("[name='intensity']").val());
+        let reps = Number($("[name='reps']").val());
+        let intensity = Number($("[name='intensity']").val());
 
-      let watt = inol.INOL(reps, intensity);
+        let watt = inol.INOL(intensity);
 
-        $("[name='inol']").val(watt.getINOL());
+        $("[name='inol']").val(watt.getINOL(reps));
+    });
+    $("#calculator_inol_reverse").submit(function(e) {
+      console.log("Calculate INOL");
+      e.preventDefault();
+      let inol_value = Number($("[name='inol_reverse_inol']").val());
+      let intensity = Number($("[name='inol_reverse_intensity']").val());
+
+      let watt = inol.INOL(intensity);
+
+      $("[name='inol_reverse_reps']").val(watt.getReps(inol_value));
+    });
+    $("#calculator_ffmi").submit(function(e) {
+      console.log("Calculate FFMI");
+      e.preventDefault();
+      let weight = Number($("[name='ffmi_weight']").val());
+      let height = Number($("[name='ffmi_height']").val());
+      let fp = Number($("[name='ffmi_fat_percent']").val());
+
+      let body_fat = weight * (fp / 100);
+
+      let fat_free_mass = weight * (1 - (body_fat / 100));
+
+      let ffmi = fat_free_mass / Math.Pow(height, 2);
+      let ffmi_normalized = ffmi + 6.1 * (1.8 - height);
+
+      $("[name='ffmi']").val(ffmi);
+      $("[name='ffmi_normalized']").val(ffmi_normalized);
     });
     // Calculate Wattmax
     $("#calculator_fitness_wattmax").submit(function(e) {
@@ -2464,14 +2491,14 @@ $(function() {
         console.log("Calculate YYIR1");
         e.preventDefault();
 
-      let version = $("[name='version']:checked").val();
-      let level = Number($("[name='level']").val());
-      let shuttles = Number($("[name='shuttles']").val());
+        let version = $("[name='version']:checked").val();
+        let level = Number($("[name='level']").val());
+        let shuttles = Number($("[name='shuttles']").val());
 
-      let b = beeptest.BeepTest(level, shuttles, version);
+        let b = beeptest.BeepTest(level, shuttles, version);
 
         $("[name='distance_result']").val(b.getDistance());
-        $("[name='vo2max_result']").val(b.getFitnessLevel());
+        $("[name='vo2max_result']").val(b.getFitnessLevel().toFixed(1));
         $("[name='totalshuttles_result']").val(b.getTotalShuttles());
     });
      // Pushups

@@ -38,7 +38,7 @@ jobs:
       - name: ⚡️ Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev minify
+          sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev minify liblapacke-dev libopenblas-dev
           sudo gem install bundler:${{ env.BUNDLER_VERSION }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -65,7 +65,7 @@ jobs:
         run: bundle exec jekyll doctor
       - name: 🔨 Build site
         run: |
-          bundle exec jekyll build --lsi
+          bundle exec jekyll build --lsi --profile
         env:
           JEKYLL_ENV: production
       - name: Optimize

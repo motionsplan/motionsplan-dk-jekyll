@@ -6,8 +6,8 @@ seo_title: "Hoftedominante øvelser: Træn bagsiden med hinge-bevægelser"
 author_profile: true
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 excerpt: "Din bagside kan trænes med hoftedominante øvelser. Her kigger vi på de bedste variationer af øvelser til bagkæden. Denne type kaldes også _hinge_ eller hængelsbevægelser."
 categories:

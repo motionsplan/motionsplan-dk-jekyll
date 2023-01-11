@@ -1,6 +1,6 @@
 ---
 title: "Magnesium: Har du brug for et tilskud?"
-seo_title: "Magnesium: Har du brug for et tilskud? (2022)"
+seo_title: "Magnesium: Har du brug for et tilskud? (2023)"
 description: Overvejer du magnesium som kosttilskud? Kan det betale sig at tage magnesium som tilskud, eller får du rigeligt gennem de rigtige fødevarer?
 permalink: /magnesium/
 language: da
@@ -15,7 +15,7 @@ category:
 tags:
   - kosttilskud
   - magnesium
-last_modified_at: 2022-03-11T07:33:14Z
+last_modified_at: 2023-01-01T07:33:14Z
 toc: true
 feature_row:
   - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
@@ -28,17 +28,17 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg har følt mig træt på det seneste, så derfor er jeg gået i gang med at researche lidt på, hvad magnesium er og hvordan magnesium virker? Kan det betale sig at tage magnesium som tilskud til kosten, eller får man rigeligt gennem de rigtige fødevarer?
+Overvejer du magnesium som kosttilskud? Kan det betale sig at tage magnesium som tilskud, eller får du rigeligt gennem de rigtige fødevarer?
 
-Hvad er magnesium? **Magnesium er et af de mest almindelige mineraler i kroppen. I menneskekroppen er der omkring 24 gram magnesium primært i knoglerne, musklerne og det bløde væv.**
+Jeg har følt mig træt på det seneste, så derfor er jeg gået i gang med at researche lidt på, hvad magnesium er og hvordan magnesium virker?
 
-Men hvorfor er magnesium så vigtigt? Hvad bidrager mineralet egentligt til?
+Hvorfor er magnesium så vigtigt? Hvad bidrager mineralet til?
 
 Det kan du læse meget mere om herunder, hvor jeg også konkluderer, at magnesium ikke er det første [kosttilskud, du skal overveje]({% link _posts/2020-08-11-kosttilskud.md %}).
 
-<div class="hidden">
+{% comment %}
 **Nøgleord**: magnesium piller, magnesium tilskud, magnesium bivirkninger, magnesium muskelkramper, magnesium muskelafslappende, hvilkem magnesium virker bedst?
-</div>
+{% endcomment %}
 
 ## Hvad er magnesium?
 
@@ -224,7 +224,7 @@ Forskningen på området er dog stadig ret ny. Gröber et al (2017) konkluderer 
 
 — <cite>[Gröber et al 2017](https://doi.org/10.3390/nu9090946)</cite>
 
-## Hvad er det bedste og billigste magnesium (2022)?
+## Hvad er det bedste og billigste magnesium?
 
 Når du søger på Google efter "Det bedste og billigste magnesium", så støder du på flere guides, der sammenligner magnesium fra forskellige brands. De har næsten altid en favorit og et eller andet argument, som at netop denne pille er letoptageligt. Man får fornemmelsen af, at de rent faktisk har testet de forskellige typer magnesium i forhold til hinanden.
 

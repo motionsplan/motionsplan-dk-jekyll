@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
+gem "liquid-c"
 group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-feed'
@@ -12,7 +13,9 @@ group :jekyll_plugins do
     gem 'jekyll-gzip'
     gem 'jekyll-brotli'
 end
-gem 'classifier-reborn'
+gem 'numo-narray'
+gem 'numo-linalg'
 gem 'gsl', git: 'https://github.com/SciRuby/rb-gsl.git', ref: '103a3e1'
+gem 'classifier-reborn'
 gem 'html-proofer'
 gem "minimal-mistakes-jekyll", "~> 4.24"

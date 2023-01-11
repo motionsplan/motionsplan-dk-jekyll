@@ -5,8 +5,8 @@ title: &title "Cykling: Alt om cykeltræning og cykeltests"
 author_profile: true
 excerpt: "Guide til cykling og træning. Her på siden kan du finde nyttig viden om motionscykling og cykeltests."
 header:
-  overlay_image: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&height=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
@@ -16,6 +16,9 @@ sidebar:
 toc: true
 feature_row_excerpt:
   - excerpt: "Guide til cykeltræning. Her kan du finde nyttig viden om cykling og cykeltræning. Lær om [pulstræning](/pulstraening/) og [intervaltræning til cykling](/intervaltraening-cykling/)."
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 {{ page.excerpt }}

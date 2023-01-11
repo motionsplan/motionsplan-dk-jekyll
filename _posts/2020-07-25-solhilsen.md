@@ -1,7 +1,7 @@
 ---
 title: "Solhilsen A og B: Komplet guide til solhilsen 🧘"
 #seo_title: "Solhilsen A og B: Komplet guide til solhilsen"
-seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2022"
+seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2023"
 description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke yogaøvelser der er i solhilsen? | Hvad er forskellen på A og B? | Hvad er solhilsen godt for?"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
@@ -15,7 +15,7 @@ tags:
   - meditation
 category:
   - Yoga
-last_modified_at: 2021-02-20T09:41:09Z
+last_modified_at: 2023-01-01T09:41:09Z
 plakat:
   - image_path: https://trendyliving.dk/images/Solhilsen.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
@@ -211,7 +211,7 @@ Eller den her:
 
 {% include video provider="youtube" id="Lg_Ja-liVuQ" %}
 
-Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter, hvor du laver en lille afspænding. Yogalærer, Kathrine Christensen, har skrevet en lille guide her på Motionsplan til [mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter, hvor du laver en lille afspænding. Yogalærer, Kathrine Christensen, har skrevet en lille guide her på Motionsplan til [mindful meditation](/mindfulness-meditation/).
 
 Jeg udfører også ofte [De fem tibetanere](/artikel/de-fem-tibetanere/), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 

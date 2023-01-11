@@ -2,7 +2,6 @@
 title: &title "Hvad skal jeg drikke ved træning og konkurrence?"
 seo_title: Hvad skal du drikke ved træning og konkurrence?
 excerpt: "Er du også interesseret i at vide, hvordan du skal drikke, når du skal til træning, kamp eller konkurrence. Her får du en komplet guide til at holde væskebalancen optimal, når du skal præstere."
-## seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2022?"
 permalink: /hvad-skal-jeg-drikke/
 language: da
 header:

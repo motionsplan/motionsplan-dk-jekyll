@@ -6,7 +6,7 @@ permalink: /gang-fordele-ved-at-gaa/
 description: "Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå."
 excerpt: "Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå, som også dannede baggrund for #danmarkgårsammen."
 header:
-  teaser: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&height=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: Gang - fordele ved at gå
 author_profile: true
 author: lsolesen
@@ -40,6 +40,9 @@ feature_row_skridt_til_km:
     btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
+categories:
+  - Træningsformer
+breadcrumbs: true
 ---
 
 Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå.

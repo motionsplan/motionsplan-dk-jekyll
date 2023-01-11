@@ -1,18 +1,23 @@
 let motionsplan = {};
 
-motionsplan.INOL= function(reps, intensity) {
+motionsplan.INOL= function(intensity) {
 
   function getIntensity(rm, lifted) {
     return lifted / rm * 100;
   }
 
-  function getINOL() {
+  function getINOL(reps) {
     return reps / (100 - intensity);
+  }
+
+  function getReps(inol) {
+    return inol * (100 - intensity);
   }
 
   let publicAPI = {
     getINOL : getINOL,
-    getIntensity : getIntensity
+    getIntensity : getIntensity,
+    getReps : getReps
   };
 
   return publicAPI;

@@ -1,12 +1,11 @@
 ---
 title: &title "12 citater om fitness og bodybuilding"
-seo_title: "12 citater om fitness og bodybuilding (2022)"
+seo_title: "12 citater om fitness og bodybuilding (2023)"
 permalink: /citater-fitness-bodybuilding/
 last_modified_at: 2020-12-29T09:41:09Z
-excerpt: "Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet 12 citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere."
+excerpt: "Her får du en række citater om fitness og bodybuilding. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er bodybuildere."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.8
@@ -75,7 +74,9 @@ citatplakat:
     rel: sponsored nofollow noopener
 ---
 
-Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere.
+Jeg falder ofte over citater om fitness og bodybuilding. Det er alle inspirerende og motiverende udsagn til din træning.
+
+Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere.
 
 Jeg har samlet en masse forskellige citater om fitness og bodybuilding her på siden, men jeg har også oprettet en [Pinterest Opslagstavle med citater](https://pin.it/6VHPDcC), så skynd dig ind og følge den.
 
@@ -105,7 +106,7 @@ Når man snakker om træningsplanlægning, så synes jeg Jim Wendler fanger det 
 
 ## Citater om fitness på Pinterest
 
-Jeg har lavet et board med citater om fitness på Pinterest. SKynd dig ind og følge det og foreslå gerne dine egne citater også.
+Jeg har lavet et board med citater om fitness på Pinterest. Skynd dig ind og følge det og foreslå gerne dine egne citater også.
 
 <a data-pin-do="embedBoard" data-pin-lang="da" data-pin-board-width="600" data-pin-scale-height="400" data-pin-scale-width="115" href="https://www.pinterest.dk/motionsplan/tr%25C3%25A6ningscitater-citater-om-tr%25C3%25A6ning-og-motivation/"></a>
 <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>

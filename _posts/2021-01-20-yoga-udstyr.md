@@ -117,7 +117,7 @@ Du kan købe yogabælter hos [Den Intelligente Krop](https://www.partner-ads.com
 
 ## Yogatæppe
 
-Du kan bruge et yogatæppe som et ekstra blødt underlag oven på din yogamåtte, eller du kan bruge tæppet til at varme dig med, når du i slutningen af yogatimen skal lave afspænding, [mindfulness]({% link _posts/2010-10-05-mindfullness-meditation.md %}) eller meditationsøvelser.
+Du kan bruge et yogatæppe som et ekstra blødt underlag oven på din yogamåtte, eller du kan bruge tæppet til at varme dig med, når du i slutningen af yogatimen skal lave afspænding, [mindfulness](/mindfulness-meditation/) eller meditationsøvelser.
 
 Du kan også folde det sammen, så det kan hjælpe dig med at komme højere op i siddende stillinger, så du bedre kan udføre yogaøvelsen, eller du kan rulle yogatæppet sammen, så du kan få lidt støtte i nakken, når du ligger ned på yogamåtten. Jeg har også set flere, der bruger det til at aflaste under knæene, hvis du synes det er ubehageligt at sidde bare på yogamåtten. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka){: rel='sponsored nofollow noopener' }.
 
@@ -153,7 +153,7 @@ Det kan også være inspirerende at pynte dit yogarum op med wallstickers og pla
 
 Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert fald en yogamåtte, og du vil formentlig også blive glad for at hav enogle yogablokke.
 
-Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere](/artikel/de-fem-tibetanere/) og [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere](/artikel/de-fem-tibetanere/) og [Solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation](/mindfulness-meditation/).
 
 Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' } og [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
 
