@@ -101,7 +101,7 @@ I et australsk studie tog man udgangspunkt i 41 trænede mandlige cyklister, og 
 
 Forsøgspersonerne skulle supplere deres daglige træning med 8 sessioner af intervaller fordelt på 4 uger. De havde alle fulgt et program med moderat intensitet på omkring 80% af den maksimale iltoptagelse og ikke udført styrketræning i interventionsperioden.
 
-Grupperne 1 til 3 forbedrede sig 4,4-5,8 procent på en 40 kilometer enkeltstart og 3,0 – 6,2 procent på peak power output (højeste effekt i en test med stigende modstand – 15 watt pr. 30 sekunder). Desuden var der også en signifikant stigning i [maxpuls](/test-max-puls/), og evnen til at tolerere [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) ved en 40 kilometer enkeltstart. Overført vil dette betyde at de hårde intervaller gradvist vil opleves som mindre belastende.
+Grupperne 1 til 3 forbedrede sig 4,4-5,8 procent på en 40 kilometer enkeltstart og 3,0 – 6,2 procent på peak power output (højeste effekt i en test med stigende modstand – 15 watt pr. 30 sekunder). Desuden var der også en signifikant stigning i [maxpuls](/test-max-puls/), og evnen til at tolerere [mælkesyre](/maelkesyre-traening/) ved en 40 kilometer enkeltstart. Overført vil dette betyde at de hårde intervaller gradvist vil opleves som mindre belastende.
 
 Ud fra studiet kan det konkluderes, at [høj intensitets intervaltræning (HIT)]({% link _posts/2020-09-22-hiit.md %}) er en yderst effektiv træningsform, der både øger evnen til at køre med moderat og højt tempo. Det kan dog ikke ud fra dette studie bevises hvilken form for træning som giver det bedste resultat.
 

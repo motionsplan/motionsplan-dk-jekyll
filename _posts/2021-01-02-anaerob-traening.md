@@ -62,9 +62,9 @@ Begge processer i det anaerobe system skaber altså mere ATP.
 
 Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at [kreatin virker som kosttilskud](/kreatin/), da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
 
-Spaltningen af kulhydrat kan levere energi længere, men den lokale træthed i musklerne bliver meget høj, og der skabes bl.a. [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) i musklerne.
+Spaltningen af kulhydrat kan levere energi længere, men den lokale træthed i musklerne bliver meget høj, og der skabes bl.a. [mælkesyre](/maelkesyre-traening/) i musklerne.
 
-Mange tror at mælkesyren er årsagen til, at man ikke længere kan arbejde optimalt med samme intensitet i mere end 30-45 sekunder, men [mælkesyren beskytter formentlig musklerne]({% link _posts/2020-08-24-maelkesyre.md %}).
+Mange tror at mælkesyren er årsagen til, at man ikke længere kan arbejde optimalt med samme intensitet i mere end 30-45 sekunder, men [mælkesyren beskytter formentlig musklerne](/maelkesyre-traening/).
 
 ## Anaerob forbrænding eller spaltning?
 
@@ -119,7 +119,7 @@ Den anaerobe effekt er musklernes evne til at genoplade ATP hurtigt, så du igen
 
 1. Din [kondition og maksimale iltoptagelse](/kondition/) - altså evnen til at optage meget ilt.
 2. [Din løbeøkonomi](/lobeokonomi/) - og hvordan du løber effektivt med så lidt energiforbrug som muligt.
-3. Din relative arbejdsbelastning - altså evnen til at løbe omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) - og hvor meget du kan presse dig selv.
+3. Din relative arbejdsbelastning - altså evnen til at løbe omkring den [anaerobe tærskel](/anaerobe-taerskel/) - og hvor meget du kan presse dig selv.
 4. Den anaerobe energiproduktion - som giver den sidste fart - og som trænes gennem anaerob træning.
 
 ## Anaerob træning er ikke kun sprint
@@ -138,7 +138,7 @@ Når du arbejder meget intensivt, så vil musklerne efterhånden blive trætte, 
 
 Når du træner med højintensitet under træningen. At træne for at forbedre den anaerobe tærskel vil jeg ikke umiddelbart betegne som anaerob træning, men træning af den anaerobe tærskel er meget vigtig for din præstation. Den anaerobe tærskel er der, hvor din organer og muskler ikke længere kan nå at fjerne den mælkesyre, der dannes i musklerne.
 
-Du kan fx lave en test, hvor du finder ud af, hvad din puls er på den anaerobe tærskel. Derefter kan du bruge pulsen som rettesnor for, hvad din anaerobe tærskel er. Læs mere om den [anaerobe tærskel her]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Hvis du arbejder med [pulstræning og intensitet i forhold til puls]({% link _posts/2019-10-31-hrzones-puls.md %}), så ligger den anaerobe tærskel på omkring 80% af pulsreserven. Men at finde sin anaerobe tærskel kræver, at du selv laver en test.
+Du kan fx lave en test, hvor du finder ud af, hvad din puls er på den anaerobe tærskel. Derefter kan du bruge pulsen som rettesnor for, hvad din anaerobe tærskel er. Læs mere om den [anaerobe tærskel her](/anaerobe-taerskel/). Hvis du arbejder med [pulstræning og intensitet i forhold til puls](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), så ligger den anaerobe tærskel på omkring 80% af pulsreserven. Men at finde sin anaerobe tærskel kræver, at du selv laver en test.
 
 ## Anaerob træning er for alle
 

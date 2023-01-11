@@ -188,7 +188,7 @@ Typisk løber jeg selv tærskelintervaller i skoven, da jeg synes det er for lan
 
 ## Skema over intervalprogrammer til løb
 
-Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de længste intervaller øverst. Alle intervalformerne i skemaet er intensive intervaller, som i høj grad kan være med til at skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), og flere af intervallerne arbejder også med den anaerobe kapacitet. Intervallerne hører altså til over den anaerobe tærskel.
+Oversigt over effektive intervalprogrammer til løb. Listen er sorteret med de længste intervaller øverst. Alle intervalformerne i skemaet er intensive intervaller, som i høj grad kan være med til at skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel](/anaerobe-taerskel/), og flere af intervallerne arbejder også med den anaerobe kapacitet. Intervallerne hører altså til over den anaerobe tærskel.
 
 <div class="full" markdown="1">
 

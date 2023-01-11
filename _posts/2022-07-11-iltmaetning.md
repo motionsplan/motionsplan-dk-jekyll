@@ -98,23 +98,23 @@ Iltmætningsniveauer under 90 % anses for at være lave og kan forårsage ånden
 
 ## Hvad er normalværdier når der tales om iltmætning af blodet?
 
-Når du måler din iltmætning med en iltmåler eller et pulsoximeter, så er det vigtigt at kunne tolke og forstå resultatet. 
+Når du måler din iltmætning med en iltmåler eller et pulsoximeter, så er det vigtigt at kunne tolke og forstå resultatet.
 
 Nedenstående tabel kan fungere som retningslinje for dine iltmætningsmålinger:
 
 | SpO2 % | Klinisk betydning |
 |-|-|
 | 99-97 | Ung normal mand/kvinde |
-| 97-95 | Sovende ung, vågen ældre | 
+| 97-95 | Sovende ung, vågen ældre |
 | 93 | Laveste normalværdi |
-| 90 | Let respirationssvigt. Ilttilskud nødvendigt | 
+| 90 | Let respirationssvigt. Ilttilskud nødvendigt |
 | 85 | Respirationssvigt kræver hospital |
 | 75 | Svær respirationssvigt |
 | 60 | Bevidstløs. Umiddelbar livsfare |
 
 Dykkere og fridykkere kan sagtens træne sig op til at kunne håndtere en lavere iltmætningsprocent, når de dykker under vandet. Efter at have holdt vejret virkelig længe, så falder iltmætningen langt ned.
 
-Hvis du gentagne gange måler et iltmætningsniveua, som ligger udenfor normalområdet, så kan det være en god ide at kontakte din læge.
+Hvis du gentagne gange måler et iltmætningsniveau, som ligger udenfor normalområdet, så kan det være en god ide at kontakte din læge.
 
 ## Iltbindingskurven - hvor mættet kan blodet blive?
 

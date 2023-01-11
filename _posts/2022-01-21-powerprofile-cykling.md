@@ -74,7 +74,7 @@ Lad os kigge på nogle af de tests, som vi også beskriver her på sitet.
 - [30 sekunders Wingate-test](/wingate/). Her finder du din maksimale ydeevne på en sprint og evne til at modstå træthed i det anaerobe system.
 - [Watt-max-test](/kondital-wattmax/). Watt-max-testen kan være med til at finde din præstationsevne ved dit absolutte max.
 - [Trappetest](/trappetest-cykel/). Trappetesten kan være med til at etablere din maksimale iltoptagelse og hvad din maksimale power output er ved VO<sub>2</sub>max.
-- [FTP-test](/ftp-cykling/). Her kan du finde din _functional threshold power (FTP)_ med en hård test.
+- [FTP-test](/ftp-test/). Her kan du finde din _[functional threshold power (FTP)](/ftp-cykling/)_ med en hård test.
 
 Hvis du har lavet disse tests, så har du altså et bud på din egen powerprofil. Alle tests kan du rimelig enkelt lave på en cykel med wattmåling.
 

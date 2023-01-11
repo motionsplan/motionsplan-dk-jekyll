@@ -40,7 +40,7 @@ Når du bruger restitutionstræning i dit [løbeprogram](/loebeprogrammer/), ska
 
 ## Udførelse af restitutionsløb
 
-Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve]({% link _posts/2019-10-31-hrzones-puls.md %}). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
+Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
 
 Du kan læse lidt mere om, hvor langsomme dine restitutionsløb egentlig skal være her.
 

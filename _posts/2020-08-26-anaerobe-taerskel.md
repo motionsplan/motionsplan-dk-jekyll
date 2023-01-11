@@ -29,7 +29,7 @@ Hvad er den anaerobe tærskel? **Den anaerobe tærskel er det tidspunkt, hvor kr
 
 Der er stor forskel fra person til person, hvornår man opnår den anaerobe tærskel. Den utrænede støder på tærsklen hurtigere end den trænede. De kan med andre ord træne med mindre intensitet i forhold den maksimale ydeevne inden de opbygger træthedsstoffer i musklerne.
 
-[Musklerne producerer mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) propertionelt med arbejdets intensitet, men når koncentrationen af mælkesyre i blodet når omkring 4 mmol, så kan særligt leveren ikke længere følge med til at fjerne mælkesyren.
+[Musklerne producerer mælkesyre](/maelkesyre-traening/) propertionelt med arbejdets intensitet, men når koncentrationen af mælkesyre i blodet når omkring 4 mmol, så kan særligt leveren ikke længere følge med til at fjerne mælkesyren.
 
 Derfor har man typisk kaldt denne grænse for den **anaerobe tærskel**. Det er altså ikke fordi arbejdet pludselig springer over på det anaerobe system på et bestemt punkt.
 
@@ -90,7 +90,7 @@ Hvis du selv tester din anaerobe tærskel med en pulsmåler, så ender du med at
 
 Den anaerobe tærskel er trænerbar, og derfor bliver du jævnligt nødt til at teste din LTHR igen, hvis du bruger pulsen til at bestemme din intensitet.
 
-Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder]({% link _posts/2019-10-31-hrzones-puls.md %}). Her kan du dog se de foreslåede pulszoner.
+Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Her kan du dog se de foreslåede pulszoner.
 
 {% include calculate-hrzones-lthr.html %}
 
@@ -114,4 +114,4 @@ Træningen af den anaerobe tærskel skal primært forbedre kroppens evne til at 
 
 San Millán argumenterer altså for, at en stor del af træningen skal foregå i [Zone 2](https://www.trainingpeaks.com/blog/why-triathletes-should-train-in-zone-2/). I denne zone arbejder vi under den anaerobe tærskel, men tættere på den aerobe tærskel.
 
-Jeg har skrevet en mere grundig artikel om [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}), hvis du vil dykke endnu mere ned i emnet.
+Jeg har skrevet en mere grundig artikel om [mælkesyre](/maelkesyre-traening/), hvis du vil dykke endnu mere ned i emnet.

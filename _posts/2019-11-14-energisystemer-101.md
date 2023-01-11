@@ -97,7 +97,7 @@ Følgende tabel giver et godt overblik over effektiviteten af det anaerobe og ae
 
 ## Hvordan ser energilagrene i kroppen ud?
 
-I nedenstående tabel er der det groft estimat på, hvor meget energi man har tilgængelig i kroppen. Energilagrene bliver brugt i de forskellige energisystemer. Fx kan ATP og CrP bruges direkte i det **anaerobe system** til kortvarige intense energiudladninger og muskelsammentrækninger. Det anaerobe system kan også spalte kulhydrat og hurtigt få endnu mere energi, dog med [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) som biprodukt.
+I nedenstående tabel er der det groft estimat på, hvor meget energi man har tilgængelig i kroppen. Energilagrene bliver brugt i de forskellige energisystemer. Fx kan ATP og CrP bruges direkte i det **anaerobe system** til kortvarige intense energiudladninger og muskelsammentrækninger. Det anaerobe system kan også spalte kulhydrat og hurtigt få endnu mere energi, dog med [mælkesyre](/maelkesyre-traening/) som biprodukt.
 
 Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i den aerobe proces varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
 
@@ -140,7 +140,7 @@ Træning med moderat eller lavere intensitet skaber mindre signifikante ændring
 
 For at træne det aerobe system, så kan man følge disse principper:
 
-- Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}).
+- Pulsen skal være under den [anaerobe tærskel](/anaerobe-taerskel/).
 - Desto lavere intensiteten er, desto højere skal volumen være.
 - Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb](/intervallob-intervaltraening/).
 
@@ -201,7 +201,7 @@ Der arbejdes 3-6 sekunder med 60-120 sekunders pause. Der arbejdes med 10-20 sæ
 
 ### Lactic Interval Training
 
-Målet er at forbedre den glykolytiske del af det anaerobe system med [mælkesyre som biprodukt]({% link _posts/2020-08-24-maelkesyre.md %}) og forbedre den anaerobe udholdenhed og kapacitet.
+Målet er at forbedre den glykolytiske del af det anaerobe system med [mælkesyre som biprodukt](/maelkesyre-traening/) og forbedre den anaerobe udholdenhed og kapacitet.
 
 Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt og i 1-2 serier. Kortere pauser for at forbedre kapaciteten og længere pause for at forbedre power.
 

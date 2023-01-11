@@ -16,7 +16,7 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-Vil du gerne træne mere optimalt og få mere ud af din træning? I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. 
+Vil du gerne træne mere optimalt og få mere ud af din træning? I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner.
 
 Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. Ved at være opmærksom på din træningsintensitet kan du få meget ud af din træning.
 
@@ -34,7 +34,7 @@ Aerobe tærskel (LT1)
 : Den aerobe tærskel er når kroppens aerobe system ikke kan honorere energikravet. Derfor begynder det anaerobe system at bidrag. Derved kan der måles højere koncentration af laktat i blodet. Knækket på kurven kalder man den *aerobe tærskel*.
 
 Anaerobe tærskel eller laktatktærsklen (LT2)
-: Den anaerobe tærskel er når kroppen lige nøjagtigt kan nå at fjerne lige så meget mælkesyre, som der produceres. Den anaerobe tærskel er altså det punkt lige før produktionen af mælkesyre bliver større end den del der fjernes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat]({% link _posts/2020-08-24-maelkesyre.md %}).
+: Den anaerobe tærskel er når kroppen lige nøjagtigt kan nå at fjerne lige så meget mælkesyre, som der produceres. Den anaerobe tærskel er altså det punkt lige før produktionen af mælkesyre bliver større end den del der fjernes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel](/anaerobe-taerskel/). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat](/maelkesyre-traening/).
 
 Både den aerobe tærskel og den anaerobe tærskel kan trænes, så derfor skal man jævnligt lave nye tests, hvis du baserer din træning på disse.
 
@@ -189,7 +189,7 @@ En anden model at forstå træning ud fra kan være 3-zoners-modellen. Her arbej
 
 Dine træningszoner kan styres på flere forskellige måder.
 
-- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/puls/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
+- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/puls/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
 - **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane, andre opmålte distancer eller et GPS-ur at træne på denne måde. Det er klart lettest at bruge pace, hvis du løber nogenlunde flade ruter.
 - **Watt**. Du har brug for særligt udstyr for at bruge watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [wattmåling til løb](/loeb-watt/). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp-power.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
@@ -212,7 +212,7 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 
 </div>
 
-Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}), udregne [dine intensitetszoner ud fra FTP]({% link _posts/2021-08-29-ftp-power.md %}) eller mere om [critical power]({% link _posts/2021-09-10-critical-power.md %}).
+Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), udregne [dine intensitetszoner ud fra FTP]({% link _posts/2021-08-29-ftp-power.md %}) eller mere om [critical power]({% link _posts/2021-09-10-critical-power.md %}).
 
 ## Konklusion
 
@@ -235,7 +235,7 @@ Først skal du naturligvis have kigget på dit mål for træningen. Det er forsk
 Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen](/test-max-puls/).
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen](/test-max-puls/).
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under [løbeøkonomi og løbeteknik](/lobeokonomi/).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 
@@ -299,9 +299,9 @@ Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere
 
 Hvad er den anaerobe tærskel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
 
-Den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
+Den [anaerobe tærskel](/anaerobe-taerskel/) er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
 
-Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den anaerobe forbrænding i mitochondrierne kommer [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) som et affaldsprodukt.
+Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den anaerobe forbrænding i mitochondrierne kommer [mælkesyre](/maelkesyre-traening/) som et affaldsprodukt.
 
 ### Formål
 
@@ -357,7 +357,7 @@ Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [f
 
 ### Udførelse
 
-Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være omkring 95% af din _[heart rate reserve]({% link _posts/2019-10-31-hrzones-puls.md %})_ (HRR).
+Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være omkring 95% af din _[heart rate reserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/)_ (HRR).
 
 *[HRR]: Heart Rate Reserve
 
@@ -489,7 +489,7 @@ Når du bruger restitutionstræning i dit løbeprogram, skal du altså være opm
 
 ### Udførelse
 
-Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve]({% link _posts/2019-10-31-hrzones-puls.md %}). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
+Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
 
 ### Hyppighed og mængde
 

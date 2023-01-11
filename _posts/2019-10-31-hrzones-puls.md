@@ -33,7 +33,7 @@ Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensi
 
 Pulstræning hænger sammen med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i løbet af træningen.
 
-I [pulstræning]({% link _posts/2019-10-31-pulstraening.md %}) skal du altså først kende **dine pulszoner**, og vide hvad du træner i de forskellige træningszoner. Derefter kan du fx bruge en pulsmåler til at holde styr på, at pulsen rammer den rigtige zone i løbet af din træning.
+I [pulstræning](/pulstraening/) skal du altså først kende **dine pulszoner**, og vide hvad du træner i de forskellige træningszoner. Derefter kan du fx bruge en pulsmåler til at holde styr på, at pulsen rammer den rigtige zone i løbet af din træning.
 
 Når du skal beregne dine pulszoner, kan du generelt gøre det ved enten at tage udgangspunkt i pulsreserven (HR<sub>reserve</sub>), pulsen ved den anaerobe tærskel (LTHR) eller i den maksimale puls (HR<sub>max</sub>).
 
@@ -57,7 +57,7 @@ Pulsreserven
 
 Når du kender værdierne af din hvilepuls og max-puls, så kan du begynde at udregne træningsintensiteter til din pulstræning. Du kan enten basere dine pulszoner udelukkende på din max-puls eller på din pulsreserve.
 
-Om du skal vælge pulzoner baseret på maxpuls eller på baggrund af pulsreserven er lidt op til dig selv. Du kan læse mere om fordele og ulemper under vores artikel om [pulstræning]({% link _posts/2019-10-31-pulstraening.md %}).
+Om du skal vælge pulzoner baseret på maxpuls eller på baggrund af pulsreserven er lidt op til dig selv. Du kan læse mere om fordele og ulemper under vores artikel om [pulstræning](/pulstraening/).
 
 ## Forskellige træningszoner
 

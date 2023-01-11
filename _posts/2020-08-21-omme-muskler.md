@@ -18,11 +18,11 @@ toc: true
 
 Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du plejer. Jeg har kigget på teorierne for, hvorfor du oplever DOMS og kan blive øm i kroppen efter fysisk aktivitet.
 
-Det fleste kender det. Du har trænet mere end du plejer, eller du har lavet nogle nye øvelser, og nu gør det ondt i musklerne. Fænomenet kaldes også **andendagsømhed** eller _Delayed Onset Muscle Soreness_ (DOMS). 
+Det fleste kender det. Du har trænet mere end du plejer, eller du har lavet nogle nye øvelser, og nu gør det ondt i musklerne. Fænomenet kaldes også **andendagsømhed** eller _Delayed Onset Muscle Soreness_ (DOMS).
 
 Hvad er Delayed Onset Muscle Soreness (DOMS)? **Delayed Onset Muslce Soreness er, når du oplever at musklerne er ømme efter træning, fordi du har trænet hårdere end du plejer eller bevæget dig på en ny måde.**
 
-Der står mange forskellige forklaringer af, hvorfor du får ømme muskler efter træning og fysisk aktivitet på nettet, men alle er ikke lige pålidelige. I det følgende kigger jeg på, hvilke forklaringsmodeller der er mest sandsynlige. 
+Der står mange forskellige forklaringer af, hvorfor du får ømme muskler efter træning og fysisk aktivitet på nettet, men alle er ikke lige pålidelige. I det følgende kigger jeg på, hvilke forklaringsmodeller der er mest sandsynlige.
 
 Du får svar på:
 
@@ -34,7 +34,7 @@ Du får svar på:
 
 De fleste har formentlig oplevet muskelsmerter efter træning. Træningsømhed opstår dagen efter eller på andendagen efter at man har brugt musklerne meget eller på en måde, man ikke plejer.
 
-Denne form for muskelømhed efter træning kaldes også for DOMS (Delayed Onset of Muscle Soreness). Smerterne og ømheden forsvinder af sig selv i løbet af nogle dage eller maksimalt omkring en uges tid. 
+Denne form for muskelømhed efter træning kaldes også for DOMS (Delayed Onset of Muscle Soreness). Smerterne og ømheden forsvinder af sig selv i løbet af nogle dage eller maksimalt omkring en uges tid.
 
 Hvis man undersøgte en prøve fra musklen under mikroskop, ville man kunne se forandringer i form af inflammation og ændringer inde i selve muskelcellerne. Disse forandringer forsvinder af sig selv med tiden. Efterhånden vænnes kroppen til belastningen fra din træning, og du vil med tiden opleve mindre træningsømhed. Hvis du ændrer i dit træningsprogram, så kan du igen opleve at få ømme muskler.
 
@@ -52,7 +52,7 @@ Det handler altså først og fremmest om belastning. Hvis du stille og roligt v�
 
 — <cite>[Flemming Enoch](https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm), specialist i idrætsfysioterapi og genoptræning</cite>
 
-Du kan altså forebygge ømhed i musklerne efter træning ved at bygge din træning fornuftigt op. Typisk kan du måske øge mængden af træning med omkring 5% om ugen, og på den måde kan du undgå at få ømme muskler. 
+Du kan altså forebygge ømhed i musklerne efter træning ved at bygge din træning fornuftigt op. Typisk kan du måske øge mængden af træning med omkring 5% om ugen, og på den måde kan du undgå at få ømme muskler.
 
 Når du træner, så kan du formentlig ikke undgå at blive øm i musklerne engang imellem. Du bliver særligt øm, hvis du starter med træning igen efter en pause. Hvis du træner op til noget særligt - fx en årlig skitur - så er det også en god ide at gå i gang med træningen i god tid, så du kan få kroppen til at vænne sig til belastningen.
 
@@ -66,7 +66,7 @@ Du kan ofte læse om **tre forklaringsmodeller på ømme muskler**, hvoraf den f
 
 ### Er mælkesyre årsag til ømme muskler?
 
-Nej. Det er usandsynligt, at ophobning af mælkesyre er årsag til ømme muskler. Mælkesyren i musklerne er tidligere blevet brugt som en forklaringsmodel for de ømme muskler, men det er mere sandsynligt, at [mælkesyre hverken forårsager træthed eller ømhed]({% link _posts/2020-08-24-maelkesyre.md %}). 
+Nej. Det er usandsynligt, at ophobning af mælkesyre er årsag til ømme muskler. Mælkesyren i musklerne er tidligere blevet brugt som en forklaringsmodel for de ømme muskler, men det er mere sandsynligt, at [mælkesyre hverken forårsager træthed eller ømhed](/maelkesyre-traening/).
 
 **Mælkesyre** dannes, når musklerne ikke får ilt nok til at honorere den belastning og intensitet, de udsættes for. Mælkesyren får imidlertid ikke længere skylden for at skabe ømhed i musklerne.
 
@@ -86,7 +86,7 @@ En anden forklaring på ømhed i musklerne er, at der under fysisk arbejde skabe
 
 Mikroskaderne skaber en betændelsesreaktion, der kan forårsage smertefulde og ømme muskler i et par timer efter træning, og som er på sit højeste 24-48 timer efter træningen. Der sker en forsinket muskelømhed.
 
-Men teorien indeholder flere usikkerheder. 
+Men teorien indeholder flere usikkerheder.
 
 > Forskerne har for eksempel ikke fundet en sammehæng mellem, hvor ømme vi føler os, og hvor beskadigede musklerne er. Skaderne opstår jo under træningen, men vi føler os ikke ømme i løbet af træningen eller umiddelbart efter.
 
@@ -112,7 +112,7 @@ Proteolyse er den kemiske proces, hvor proteiner bliver nedbrudt til aminosyrer 
 
 Teorien om calciums rolle i muskelømhed skal altså stadig ses i sammenhæng med teorien om, at muskelskader er med til at skabe ømhed i musklerne.
 
-Men forskerne er faktisk stadig ikke sikre på, om det er tilfældet. 
+Men forskerne er faktisk stadig ikke sikre på, om det er tilfældet.
 
 ### Kan muskelømhed forårsages af nervesystemet?
 
@@ -192,7 +192,7 @@ Der er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvi
 
 — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
 
-Det er efter al sandsynlighed ikke [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}), der gør, at man ikke længere kan arbejde med samme intensitet. Mælkesyren beskytter nok snarere musklerne. Derfor er det også usandsynligt, at mælkesyren gør kroppen øm og stiv dagen efter træning. Men der kan naturligvis med meget intensive aktiviteter og anaerob træning være en tendens til flere mikroskader i musklerne.
+Det er efter al sandsynlighed ikke [mælkesyren](/maelkesyre-traening/), der gør, at man ikke længere kan arbejde med samme intensitet. Mælkesyren beskytter nok snarere musklerne. Derfor er det også usandsynligt, at mælkesyren gør kroppen øm og stiv dagen efter træning. Men der kan naturligvis med meget intensive aktiviteter og anaerob træning være en tendens til flere mikroskader i musklerne.
 
 ## Konklusion
 

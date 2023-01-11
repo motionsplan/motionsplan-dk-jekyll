@@ -67,7 +67,7 @@ Det ser ud til at mælkesyren fjernes hurtigere, hvis man tager et kontrast-bad,
 
 **Aktiv nedvarmning af musklerne giver imidlertid samme effekt i forhold til hurtigere fjernelse af mælkesyre.**
 
-Spørgsmålet er så om den hurtigere fjernelse af [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) rent faktisk gør, at man kan præstere bedre senere.
+Spørgsmålet er så om den hurtigere fjernelse af [mælkesyre](/maelkesyre-traening/) rent faktisk gør, at man kan præstere bedre senere.
 
 Når man kigger på restitutionen efter 72 timer var hverken et kontrastbad eller udspænding med til at accellere restitutionen ([Robey 2009](https://doi.org/10.1080/15438620902901276)).
 

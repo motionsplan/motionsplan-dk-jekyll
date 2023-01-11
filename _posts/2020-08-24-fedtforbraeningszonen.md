@@ -55,7 +55,7 @@ Og det er sådan set relativt rigtigt, men der er absolut udfordringer ved forst
 
 Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
 
-Jeg synes imidlertid sagtens at fedtforbrændingszonen kan have sin plads i træningen, når man kigger på den bagvedliggende fysiologi. 
+Jeg synes imidlertid sagtens at fedtforbrændingszonen kan have sin plads i træningen, når man kigger på den bagvedliggende fysiologi.
 
 Det giver ikke mening at afvise at træne i en zone, hvis man gerne vil have et veludviklet energisystem. Hvis du træner med høj intensitet træner du energisystemet på en måde. Når du træner med lavere intensitet, så træner du energisystemet på en anden måde.
 
@@ -95,17 +95,17 @@ I forhold til vægttab og fedtforbrænding foreslår Morten Zacho, at du arbejde
 
 — <cite>[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
 
-Hvis du har sat et bestemt tidsrum af til motion og træning, så kan det i forhold til vægttab formentlig ikke betale sig at blive i **fedtforbrændingszonen** i forhold til træningen. 
+Hvis du har sat et bestemt tidsrum af til motion og træning, så kan det i forhold til vægttab formentlig ikke betale sig at blive i **fedtforbrændingszonen** i forhold til træningen.
 
 Vi kan altså ifølge rationalet fra Morten Zacho godt glemme fedtforbrændingszonen som et gyldent sted, hvor man maksimere den samlede fedtforbrænding i løbet af din træning.
 
 Jeg har i et andet indlæg diskuteret [om kontinuerlig træning eller intervaltræning er mest effektivt for fedtforbrændingen]({% link _posts/2010-07-22-er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen.md %}). Her viser det sig, at det betyder rigtig meget, hvor meget energi det lykkes at forbrænde i træningen, fordi efterforbrændingen ikke er så forskellig, som det somme tider lyder som om, når folk advokerer for _high intensity training_ for at tabe fedt.
 
-Men hvis du ser på andre sundhedseffekter, fx forbedring af slagvolumen og at træne fedtforbrændingen og den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), så kan det være en anden sag.
+Men hvis du ser på andre sundhedseffekter, fx forbedring af slagvolumen og at træne fedtforbrændingen og den [anaerobe tærskel](/anaerobe-taerskel/), så kan det være en anden sag.
 
 ## Fedtforbrændingzonen findes!
 
-Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med vægttab. 
+Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med vægttab.
 
 Hvis vi i stedet kigger på fedtforbrændingszonen som bevægelse ved den intensitet, hvor fedtforbrændingen udgør en større del af den samlede forbrænding, så er historien en anden. At forbedre fedtforbrændingen kan nemlig også betyde noget for præstationen.
 

@@ -65,7 +65,7 @@ For at træne det aerobe system, så kan man følge disse principper:
 
 - Desto lavere intensiteten er, desto højere skal volumen være.
 - Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb](/intervallob-intervaltraening/).
-- Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Dog skal man være opmærksom på, at meget højintens træning også kan være med til at flytte det aerobe system.
+- Pulsen skal være under den [anaerobe tærskel](/anaerobe-taerskel/). Dog skal man være opmærksom på, at meget højintens træning også kan være med til at flytte det aerobe system.
 
 ## Programlægning af aerob træning
 
@@ -126,6 +126,6 @@ Når man laver aerob træning, så er intensiteten vigtig. Det er blevet ret pop
 
 Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) eller hvad [HIIT-træning og HIIT-intervaller egentlig er]({% link _posts/2020-09-22-hiit.md %}). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
 
-Desto bedre det aerobe system virker, desto bedre bliver din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) også, så du kan fjerne [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}) lige så hurtigt, som du danner den.
+Desto bedre det aerobe system virker, desto bedre bliver din [anaerobe tærskel](/anaerobe-taerskel/) også, så du kan fjerne [mælkesyren](/maelkesyre-traening/) lige så hurtigt, som du danner den.
 
 God fornøjelse med træningen.

@@ -77,7 +77,7 @@ Jeg har alligevel forsøgt at lave en tabel, som indeholder nogle af de mest udb
 
 ## Forskellige typer intervaller
 
-Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
+Her har du en oversigt over effektive intervalprogrammer baseret på formålet med de forskellige intervaller. Intervalformerne i skemaet ser lidt forskellige ud alt efter, hvor intensive intervallerne er. De kan enten skubbe til den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [anaerobe tærskel](/anaerobe-taerskel/), eller de kan skubbe til den anaerobe kapacitet og produktion. Endelig er der intervaller, der skal træne den maksimale hastighed.
 
 | Intervalform | Formål | Distance | Total | Pause | Hastighed |
 |-|-|-|-|-|-|

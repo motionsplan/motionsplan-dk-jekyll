@@ -35,7 +35,7 @@ Med en trappetest på cykel kan du få de nødvendige informationer om puls og w
 
 Trappetesten er en ofte brugt cykeltest. Testen kan give et godt estimat på din maksimale iltoptagelse, og den kan også være med til at give en indikation af dit [Functional Threshold Power (FTP)](/ftp-cykling/)-niveau.
 
-Trappetesten kan altså ikke stå i stedet for en FTP-test, men den kan hjælpe med at finde det niveua, du kan forsøge at ramme i FTP-testen.
+Trappetesten kan altså ikke stå i stedet for en FTP-test, men den kan hjælpe med at finde det niveau, du kan forsøge at ramme i FTP-testen.
 
 Hvis du kører trappetesten med jævne mellemrum, fx hver måned, så kan du følge med i, hvordan din VO<sub>2</sub>max udvikler sig over tid. Den maksimale iltoptagelse er sammen med Functional Threshold Power afgørende fysiologiske parametre, når du kører cykelløb.
 

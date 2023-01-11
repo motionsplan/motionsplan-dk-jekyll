@@ -39,7 +39,7 @@ I pulstræning skal du altså først kende **dine pulszoner**, og vide hvad du t
 
 Når du skal beregne din træningsintensitet baseret på pulsen, kan du gøre det på mindst tre forskellige måder. Du kan tage udgangspunkt i:
 
-- pulsreserven (HR<sub>reserve</sub>) 
+- pulsreserven (HR<sub>reserve</sub>)
 - den maksimale puls (HR<sub>max</sub>)
 - din anaerobe tærskel eller laktattærsklen (LTR)
 
@@ -115,7 +115,7 @@ Intensitet angivet i procent af den maksimale puls svarer faktisk meget godt til
 
 ## Pulstræning ud fra laktattærsklen
 
-Den tredje måde som du kan lave pulstræning på er ud fra den anaerobe tærskel. Dette kræver naturligvis at du får lavet en test på, hvad din anaerobe tærskel er, men det er faktisk ikke så bøvlet. Vi har skrevet meget mere om [den anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}).
+Den tredje måde som du kan lave pulstræning på er ud fra den anaerobe tærskel. Dette kræver naturligvis at du får lavet en test på, hvad din anaerobe tærskel er, men det er faktisk ikke så bøvlet. Vi har skrevet meget mere om [den anaerobe tærskel](/anaerobe-taerskel/).
 
 Det er relativt enkelt at lave en test af den anaerobe tærskel, hvis du har af de moderne pulsure. Her er et eksempel fra et Garmin Fenix ur.
 
@@ -135,7 +135,7 @@ AP(60%) = 0,6 x 200 = 120 bpm
 
 Der er unægtelig lidt forskal på at ramme den ene eller ande puls i pulstræningen.
 
-Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt. Vi har lavet en grundig gennemgang af [pulszoner og en beregner]({% link _posts/2019-10-31-hrzones-puls.md %}) til at finde dine pulszoner. Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
+Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt. Vi har lavet en grundig gennemgang af [pulszoner og en beregner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/) til at finde dine pulszoner. Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
 
 ## Pulstræning i praksis
 
@@ -163,7 +163,7 @@ På Garmin uret kan du relativt let opstille dine egne zoner til pulstræning. D
 
 {% include gallery id="garmin_setup" caption="Sådan sætter du zonerne op til pulstræing i Garmin Connect på din telefon." %}
 
-Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}).
+Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
 
 ## Konklusion
 
