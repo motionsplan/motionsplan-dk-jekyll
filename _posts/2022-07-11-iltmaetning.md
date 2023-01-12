@@ -24,7 +24,7 @@ feature_row:
 
 Kun få mennesker ved, hvad deres iltmætningsgrad i blodet er? Iltmætningen i blodet kan give et øjebliksbillede af dit generelle helbred.
 
-I dette blogindlæg forklarer vi, hvad blodets iltmætningsprocent er, hvordan man måler det, og hvad de forskellige niveauer betyder for dit generelle helbred og din præstationsevne. Graden af iltmætning er en af de spændende [emner i fysiologien](/fysiologi/).
+I dette blogindlæg kan du lære om, hvad blodets iltmætningsprocent er, hvordan du måler det, og hvad de forskellige niveauer betyder for dit generelle helbred og din præstationsevne. Graden af iltmætning er en af de spændende [emner i fysiologien](/fysiologi/).
 
 {% include figure image_path="https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Pulsoximeter til at måle iltmætningsgraden i blodet." alt="pulsoximeter til måling af iltmætning procent" %}
 
@@ -42,13 +42,15 @@ I denne Youtube-video kan du få forklaringen på, hvad det vil sige, at ilten b
 
 Der er to hovedmetoder til at måle blodets iltmætningsgrad. Du kan bruge et **pulsoximeter** eller ved at **tage en blodprøve**.
 
-Et **pulsoximeter** er et lille, håndholdt apparat, der ved hjælp af sensorer måler iltniveauet i dit blod. Det gør det ved at lyse gennem din hud og måle, hvor meget af lyset der absorberes af dit blod.
+Et **pulsoximeter** er et lille, håndholdt apparat, der ved hjælp af sensorer måler iltniveauet i dit blod. Det gør apparatet ved at lyse gennem din hud og måle, hvor meget af lyset der absorberes af dit blod.
 
 Den anden måde at måle iltmætningen på er ved at tage en **blodprøve**. Det sker normalt ved en fingerprøve, hvor der tages en lille mængde blod, som derefter analyseres på et laboratorium.
 
 Her dykker vi lidt mere ned i et par forskellige metoder med pulsoximeter. De er blevet mere tilgængelige, og de er fx også en del af nogle af de moderne [pulsure](/pulsure/).
 
 Ulempen ved denne type måling er at det kun er et skøn, og at nøjagtigheden kan påvirkes af faktorer som hudfarve, blodcirkulation og bevægelse.
+
+Nøjagtigheden af målingen afhænger altså af, at du har nogenlunde [normal puls](/puls/) under målingen.
 
 Desuden udsender de lysdioder, der anvendes i pulsoximetre, lys i et meget snævert bølgelængdeområde. Det betyder, at de kun kan bruges til at måle iltmætningen i et lille område af kroppen, som regel fingeren eller øret.
 
@@ -135,22 +137,20 @@ Oxygenmætningskurven viser, at der er en begrænset mængde ilt, som blodet kan
 Der er flere ting, du kan gøre for at forbedre dit iltmætningsniveau i blodet. Nogle af disse er:
 
 - **Få nok søvn**: Søvn er vigtig for mange aspekter af helbredet, herunder iltmætningsniveauet. En god nats søvn kan være med til at forbedre dit iltmætningsniveau.
-
 - **Træning og motion**: Motion er med til at øge den mængde ilt, som blodet kan transportere. Regelmæssig motion kan hjælpe med at forbedre din iltmætning.
-
 - **Hold op med at ryge**: Rygning er en væsentlig årsag til lav iltmætningsgrad. Hvis du holder op med at ryge, kan det være med til at forbedre din iltmætning.
-
 - **Spis en sund kost**: Spis en sund kost kan hjælpe med at forbedre dine iltmætningsniveauer.
-
 - **Træk vejret dybt**: At trække vejret dybt og langsomt kan hjælpe med at øge mængden af ilt i dit blod.
 
 ## Konklusion
 
 Iltmætningsniveauet er en god indikator for den generelle sundhed og kondition.
 
-Et normalt iltmætningsniveau ligger typisk på mellem 96-99%. Iltmætningsniveauer under 90% anses for at være lave og kan forårsage åndenød, træthed eller forvirring. Hos raske voksne kræver iltmætningsniveauer på under 80% øjeblikkelig lægehjælp, da de kan føre til organskader.
+Et normalt iltmætningsniveau ligger typisk på mellem 96-99%. Iltmætningsniveauer under 90% anses for at være lave og kan forårsage åndenød, træthed eller forvirring.
 
-Dykkere og fridykkere kan træne sig selv til at håndtere en lavere iltmætningsprocentnår du dykker under vandet. Når du holder vejret i meget lang tid, falder iltmætningen langt ned.
+Hos raske voksne kræver iltmætningsniveauer på under 80% øjeblikkelig lægehjælp, da de kan føre til organskader.
+
+Dykkere og fridykkere kan træne sig selv til at håndtere en lavere iltmætningsprocent, når de dykker under vandet. Når du holder vejret i meget lang tid, falder iltmætningen langt ned.
 
 Hvis du gentagne gange måler et iltmætningsniveau, der ligger uden for det normale område, kan det være en god idé at kontakte din læge.
 
