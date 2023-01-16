@@ -155,9 +155,9 @@ jobs:
           directory: "./_site"
           # The directory to scan
           arguments: |
-            --only-4xx true
+            --only-4xx
             --ignore-status-codes "400,403,409,429"
-            --ignore-empty-alt true
+            --ignore-empty-alt
             --ignore-urls "/bjsm.bmj.com/"
             --cache '{ "timeframe": { "external": "30d" } }'
           # The arguments to pass to HTMLProofer
