@@ -47,6 +47,8 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 
 {% include figure image_path="https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="hvilepuls for mænd og kvinder" %}
 
+Læs: [Hvad er normal puls - alt om hjertets rytme](/puls/)
+
 ## Hvad er hvilepuls?
 
 En hvilepuls er antallet af hjerteslag pr. minut, når din krop er i hvile. Mænd har typisk en gennemsnitshvilepuls på 60-80 slag i minuttet, mens hvilepulsen for kvinder ofte ligger på 70-90 slag i minuttet. Disse tal dækker dog over store variationer.

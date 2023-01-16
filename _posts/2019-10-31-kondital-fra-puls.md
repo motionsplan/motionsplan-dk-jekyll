@@ -24,7 +24,13 @@ toc: true
 breadcrumbs: true
 ---
 
-Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
+Du kan estimere dit kondital kun ved hjælp af din puls med denne test fra danske forskere. Det bliver næsten ikke lettere.
+
+Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt.
+
+Du skal faktisk kun bruge lidt viden om din [puls](/puls/).
+
+Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
 Testen bygger på en forudsætning om, at desto større afstand der er mellem hvilepulsen og den maksimale puls, desto større sandsynlighed er der for, at testpersonen har en høj maksimal iltoptagelse og derved et højt kondital. Testen forsøger altså at estimere den maksimale iltoptagelse blot ved hjælp af hvilepulsen og max-pulsen.
 
@@ -55,7 +61,7 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 | Lav hvilepuls                                            | 50-60          |
 | Meget lav hvilepuls (typisk meget konditionsstærk atlet) | < 50           |
 
-Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og hvordan du måler den]({% link _posts/2020-06-03-hvilepuls.md %}).
+Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og hvordan du måler den](/hvilepuls/).
 
 ## Måling af maxpulsen
 
