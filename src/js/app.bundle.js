@@ -1921,12 +1921,15 @@ $(function() {
         console.log("Calculate Andersen Test");
         e.preventDefault();
 
-      let distance = Number($("[name='distance']").val());
-      let sex = $("[name='gender']").val();
+        let formula = $("[name='formula']").val();
+        let distance = Number($("[name='distance']").val());
+        let bodyweight = Number($("[name='bodyweight']").val());
+        let sex = $("[name='gender']").val();
 
-      let i = andersen.AndersenTest(sex, distance);
+        let i = andersen.AndersenTest(sex, distance, bodyweight, formula);
 
         $("[name='kondital']").val(i.getFitnessLevel().toFixed(0));
+        $("[name='vo2max']").val(i.getVO2max().toFixed(1));
     });
     // Calculate Index 100
     $("#calculator_index100").submit(function(e) {
@@ -1978,13 +1981,13 @@ $(function() {
         console.log("Calculate BMR - 2012");
         e.preventDefault();
 
-      let formula = $("[name='bmr-formula']").val();
-      let gender = $("[name='gender']").val();
-      let age = Number($("[name='age']").val());
-      let weight = Number($("[name='weight']").val());
-      let height = Number($("[name='height']").val());
+        let formula = $("[name='bmr-formula']").val();
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
 
-      let b;
+        let b;
 
         if (height < 1) {
             formula = "nordic_2012";

@@ -1,6 +1,7 @@
 ---
 title: &title "Fat Free Mass Index (FFMI) alternativ til BMI"
 seo_title: &title "Fat Free Mass Index (FFMI) Beregner"
+description: Du kan bruge FFMI til at beregne, hvor meget muskelmasse du kan opbygge. Eller til at udregne om nogen tager steroider.
 permalink: /ffmi-fat-free-mass-index/
 redirect_from:
   - /ffmi/
@@ -22,16 +23,24 @@ faq:
     answer: Nej! Kreatin har en helt anderledes kemisk opbygning end steroider.
 ---
 
-Du kan bruge FFMI som et mål for, hvor meget muskelmasse du kan have i forhold til din højde.
+Du kan bruge FFMI som et mål for, hvor meget muskelmasse du kan have i forhold til din højde. 
 
+Selvom FFMI ikke er et perfekt mål, så ser det ud til, at målet kan bruges som indikator på, om nogen tager steroider for at bygge muskelmasse.
 
+Du udregner FFMI ved at dividere din fedtfrie masse i kilo med din højde i anden.
 
-FFMI is a measurement of how much muscle you have per unit of height. Although imperfect, research shows FFMI is a reliable indicator of whether or not someone is taking or has taken steroids to build muscle. You can calculate your FFMI by dividing your fat-free mass (your total body weight minus the weight of your body that’s fat) in kilograms by your height in meters squared, or simply entering your height, weight, and body fat percentage into the Legion FFMI Calculator.
+Du kan bruge vores beregner nedenunder, så du ikke behøver at finde lommeregneren frem.
+
+## FFMI beregner
+
+Udregn FFMI i vores beregner herunder:
+
+{% include calculate-ffmi.html %}
+
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/7496846
 
-{% include calculate-ffmi.html %}
 
 https://legionathletics.com/tools/ffmi-calculator/
 
@@ -42,21 +51,28 @@ https://mennohenselmans.com/ffmi-calculator/
 https://www.builtlean.com/how-much-muscle-can-you-gain-naturally/
 
 
+## Ofte stillede spørgsmål
 
-Frequently Asked Questions
-What’s the difference between FFMI and normalized FFMI?
-FFMI is simply how much muscle you’re carrying per unit of height. The problem with only using FFMI, though, is that as height increases, so does FFMI, regardless of whether or not someone has taken or is taking steroids.
+Hvad er forskellen mellem FFMI og normaliseret FFMI?
 
-Normalized FFMI takes this into account by normalizing people’s FFMI to the average height of the participants in the group being measured. In the largest and most commonly cited study on this topic, the average height of the participants was 5’11, so this is generally the height used when computing normalized FFMI (it’s also fairly close to the average height of American men—5’10).
+FFMI måler hvor meget muskel du har i forhold til din højde. Problemet med at bruge FFMI er, at når højden stiger, så stiger FFMI også.
 
-https://www.ncbi.nlm.nih.gov/pubmed/7496846
+Når du normaliserer FFMI, så bruger du i stedet en gennemsnitshøjde. I det [største studie](https://www.ncbi.nlm.nih.gov/pubmed/7496846) af FFMI brugte de deltagernes gennemsnitshøjde. Der er ikke standardiseret en højde at tage udgangspunkt i, hvilket gør det lidt svært at sammenligne din normaliserede FFMI med andres.
 
-If this all seems confusing, don’t worry—the key thing to remember is that normalized FFMI is slightly more accurate when comparing the FFMIs of different people, especially when they’re significantly taller or shorter than average.
+Den normaliserede FFMI er altså lidt mere præcis, når du sammenligner folk - særligt hvis du normaliserer til den samme højde.
 
-Learn more:
+Her normaliseres værdierne efter følgende formel:
 
-Here’s How Much Muscle You Can Really Gain Naturally (with a Calculator)
-6 Things You’ve Always Wanted to Know About Steroids
+    FFMI<sub>NORM</sub> = FFMI + 6,1 * (1,8 - højde)
+
+## Hvor meget muskelmasse kan jeg bygge naturligt?
+
+Der er en øvre grænse for, hvor meget muskelmasse man kan opbygge. Jeg har lavet en beregner, hvad den øverste mulige grænse er for muskelvækst.
+
+Tjek beregneren: [Hvor hurtigt vokser muskler?](/hvor-hurtigt-vokser-muskler/)
+
+***
+
 The “Good” and “Bad” Reasons to Take Steroids
 I’ve heard FFMI is bogus. Is there any scientific evidence behind this method?
 Yes, quite a bit actually.
@@ -89,13 +105,9 @@ There are plenty of guys and gals who tell people they’re “natural” becaus
 
 At bottom, then, here’s what the evidence says about determining whether someone is natty or not:
 
-If someone’s FFMI is over 25, it’s almost certain they’re taking or have taken steroids.
-If someone’s FFMI is between 24 and 25, then it’s likely they’re taking or have taken steroids.
-If someone’s FFMI is between 22 to 23, they maintain a fairly normal body fat percentage (they aren’t “shredded” year round), and they’ve been training consistently for 3+ years, they’re probably natural.
-If someone’s FFMI is between 21 to 22, they’re also probably natural.
-If someone’s FFMI is between 18 to 21, they likely don’t even lift so who cares. 🙂
-Learn more:
 
-8 Reliable (and Evidence-Based) Ways to Tell If Someone Is “Natty” or Not
-The Best Way to Stimulate Muscle Hypertrophy (Build Muscle)
-The 3 Little Big Things About Building Lean Muscle
+| > 25 | Næsten sikkert at vedkommende tager steroider |
+| 24-25 | Sandsynligvis tager vedkommende steorider eller har gjort det |
+| 22-23 | Normal fedtprocent og har trænet kontinuerligt i mere end 3+ år. Sandsynligvis naturlige |
+| 21-22 | Sandsynligvis naturlige |
+| 18-21 | Løfter sandsynligvis ikke så mange vægte |

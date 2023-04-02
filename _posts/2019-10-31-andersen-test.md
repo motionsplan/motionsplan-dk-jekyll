@@ -88,14 +88,6 @@ Du kan også finde videoer på Youtube, fx denne timer til at styre tiden underv
 
 {% include video provider="youtube" id="tOh-Lgz-eYg" %}
 
-## Reliabilitet og validitet for testen
-
-[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/) undersøgte validitet og reliabilitet for 10-årige børn. De fandt testen valid og reliabel på gruppeniveau, men gør opmærksom på, at der naturligvis er individuelle forskelle.
-
-> The Andersen test provided reliable and valid data on a group level. However, a substantial degree of individual variability was found for estimates of VO2peak. Researchers should be aware of the amount of noise in indirect tests that estimate aerobic fitness.
-
---- <cite>[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)</cite>
-
 ## Har jeg et godt kondital?
 
 Nedenunder har jeg sakset kondital for børn og unge fra [tabellerne over normale kondital](/kondital/). Du kan altså sammenligne dit resultat fra Andersen Testen med andre børn på din alder.
@@ -119,6 +111,22 @@ Nedenunder har jeg sakset kondital for børn og unge fra [tabellerne over normal
 Andersen testen benytter denne formel for at udregne konditallet. Det er den samme formel, vi bruger i beregneren ovenfor.
 
 Kondital = 18,38 + (0,03301 x løbedistance) – (5,92 x dit køn)
+
+Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
+
+## Reliabilitet og validitet for testen
+
+[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/) undersøgte validitet og reliabilitet for 10-årige børn. De fandt testen valid og reliabel på gruppeniveau, men gør opmærksom på, at der naturligvis er individuelle forskelle.
+
+> The Andersen test provided reliable and valid data on a group level. However, a substantial degree of individual variability was found for estimates of VO2peak. Researchers should be aware of the amount of noise in indirect tests that estimate aerobic fitness.
+
+--- <cite>[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)</cite>
+
+Aadland et al (2014) konkluderer også, at du bør lave to tests for at få valide resultater. Det skyldes bl.a. en læringseffekt ved testen.
+
+Aadland et al (2014) foreslår også en ny formel for testen, der giver en bedre forudsigelse på resultaterne på de 10-årige børn i dette studium.
+
+VO<sub>2peak</sub> = 23,262 + 0,050 * Andersen distance – 3,858 * køn – 0,376 * kropsvægt (kg)
 
 Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
 
