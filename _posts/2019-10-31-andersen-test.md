@@ -19,8 +19,7 @@ tags:
   - løb
   - beregner
   - test
-last_modified_at: 2022-05-20T08:14:14Z
-toc: true
+last_modified_at: 2023-04-02T08:14:14Z
 feature_row:
   - image_path: /assets/images/freebies/andersen-notering.png
     url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
