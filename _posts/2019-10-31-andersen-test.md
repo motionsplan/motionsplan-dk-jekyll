@@ -141,3 +141,16 @@ Andersen-testen er en rigtig god konditionstest, når du har en større gruppe b
 - Andersen, Lars Bo; Andersen, Thor-Einar; Andersen, Eivind; Anderssen, Sigmund A. An intermittent running test to estimate maximal oxygen uptake: the Andersen test. Journal of Sports Medicine and Physical Fitness, Vol. 48, No. 7, 01.12.2008, p. 434-437.
 - Aadland E, Terum T, Mamen A, Andersen LB, Resaland GK. The Andersen aerobic fitness test: reliability and validity in 10-year-old children. PLoS One. 2014;9(10):e110492. Published 2014 Oct 17. doi:10.1371/journal.pone.0110492
 </details>
+
+{% comment %}
+
+Measurement of aerobic fitness by determining peak oxygen consumption (VO2peak) is often not feasible in children and adolescents, thus field tests such as the Andersen test are required in many settings, for example in most school-based studies. This study provides cross-validated prediction equations for VO2peak based on the Andersen test in 10 and 16-year-old children. We included 235 children (n = 113 10-year olds and 122 16-year olds) who performed the Andersen test and a progressive treadmill test to exhaustion to determine VO2peak. Joint and sex-specific prediction equations were derived and tested in 20 random samples. Performance in terms of systematic (bias) and random error (limits of agreement) was evaluated by means of Bland-Altman plots. Bias varied from −4.28 to 5.25 mL/kg/min across testing datasets, sex, and the 2 age groups. Sex-specific equations (mean bias −0.42 to 0.16 mL/kg/min) performed somewhat better than joint equations (−1.07 to 0.84 mL/kg/min). Limits of agreement were substantial across all datasets, sex, and both age groups, but were slightly lower in 16-year olds (5.84-13.29 mL/kg/min) compared to 10-year olds (9.60-15.15 mL/kg/min). We suggest the presented equations can be used to predict VO2peak from the Andersen test performance in children and adolescents on a group level. Although the Andersen test appears to be a good measure of aerobic fitness, researchers should interpret cross-sectional individual-level predictions of VO2peak with caution due to large random measurement errors.
+
+https://onlinelibrary.wiley.com/doi/epdf/10.1111/sms.12985
+
+3.3 Predicting peak oxygen uptake with Andersen test
+Using the original equation for boys and girls suggested by Andersen et al. (2008), under-estimated the average rV̇O2peak for 10-year-olds in this study with 5.9 ml·kg−1·min−1. The Ahler study, involving 9-year-olds, under-estimated rV̇O2peak with 2.4 ml·kg−1·min−1. Only AT was included in these equations. The equations set out by Aadland et al. (Aadland et al., 2014, 2018) used BM in addition to AT. The 2014 equation (10-year-olds) over-estimated the rV̇O2peak with 4.0 ml·kg−1·min−1. The 2017 equation (10-year-olds) also over-estimated the rV̇O2peak: 4.9 ml·kg−1·min−1.
+
+With AT and BM as variables, the R2 for the different ways of expressing oxygen uptake ranged from 0.559 (Boys, rV̇O2peak) to 0.271 (Girls, fV̇O2peak), The Mean Absolute Per centage Error (MAPE) was approximately 11%. See Table 2.
+https://www.frontiersin.org/articles/10.3389/fphys.2022.976505/full
+{% endcomment %}

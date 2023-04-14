@@ -11,7 +11,6 @@ category:
 tags:
   - puls
 last_modified_at: 2022-08-18T23:14:14Z
-toc: true
 ---
 
 Vil du gerne vide, hvor god form du er i? Din restitutionspuls er en måde at måle på, hvor godt dit hjerte fungerer og din krop kan vende tilbage til hvile efter fysisk aktivitet.
@@ -74,7 +73,7 @@ Du træner med omkring 140 slag pr. minut. Når du stopper træningspasset, så 
 
 Så skal vi bare regne lidt.
 
-Din arbejdspuls var 140. Det trækker vi 105 fra, som var din puls efter 1 minut. I alt er din restitutionspuls altså HRR<sub>1 minut</sub>=35 og HRR<sub>1 minut</sub>=42.
+Din arbejdspuls var 140. Det trækker vi 105 fra, som var din puls efter 1 minut. I alt er din restitutionspuls altså HRR<sub>1 minut</sub>=35 og HRR<sub>2 minut</sub>=42.
 
 ## Hvordan kan jeg bruge min restitutionspuls?
 
