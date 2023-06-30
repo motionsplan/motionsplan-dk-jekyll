@@ -22,7 +22,7 @@ Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du l�
 
 Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Her kan du læse lidt om, hvordan vi prøver at finde viden i videnskabelige artikler og fortolker dem.
 
-Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskablig artikel](https://videnskab.dk/kultur-samfund/saadan-laeser-og-forstaar-du-en-videnskabelig-artikel) og [vurderinger af forskningsartikler](https://dsr.dk/sygeplejersken/arkiv/sy-nr-2004-33/laesning-og-vurdering-af-forskningsartikler).
+Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskabelig artikel](https://videnskab.dk/kultur-samfund/saadan-laeser-og-forstaar-du-en-videnskabelig-artikel) og [vurderinger af forskningsartikler](https://dsr.dk/sygeplejersken/arkiv/sy-nr-2004-33/laesning-og-vurdering-af-forskningsartikler).
 
 {% include video provider="youtube" id="5T_vK0mLQ14" %}
 
@@ -46,7 +46,7 @@ Men der er også kræfter, der arbejder på at gøre artiklerne offentlige, som 
 
 Sci-Hub skifter jævnligt internet-adresse, men hvis du lige skal læse en enkelt videnskabelig artikel, som du ikke kan få adgang til, så kan du prøve at Google siden.
 
-## Hvordan er en videnskablig artikel opbygget?
+## Hvordan er en videnskabelig artikel opbygget?
 
 En videnskabelig artikel har næsten altid denne opbygning.
 

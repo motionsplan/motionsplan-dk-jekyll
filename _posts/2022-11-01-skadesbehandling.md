@@ -215,7 +215,7 @@ Hvis du alligevel bliver nødt til at bruge denne type medicin, så bør du hold
 
 Formålet med kompression er at mindske hævelse og ødemer omkring skaden. Hvis det lykkes at have mindre hævelse, så kan funktionen i leddene forbedres.
 
-Det kan gøre det lettere at bevæge leddet, men igen er der ikke overbevisende videnskablige evidens for en positiv effekt af kompression.
+Det kan gøre det lettere at bevæge leddet, men igen er der ikke overbevisende videnskabelige evidens for en positiv effekt af kompression.
 
 Kompression ser imidlertid heller ikke ud til have negativ effekt for skadeshelingen.
 

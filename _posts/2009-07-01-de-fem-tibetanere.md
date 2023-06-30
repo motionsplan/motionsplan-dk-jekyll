@@ -67,12 +67,6 @@ yogastream:
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
     rel: "sponsored nofollow noopener"
-feature_row_citatplakat:
-  - image_path: https://simonholst.dk/wp-content/uploads/2022/04/De-5-Tibetanere-Blank.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=85289&htmlurl=https://simonholst.dk/vare/sport/de-5-tibetanere/
-    title: Plakat med De Fem Tibetanere
-    alt: Plakat med De Fem Tibetanere
-    rel: sponsored nofollow noopener
 faq:
   - question: Hvad er de 5 tibetanere?
     answer: "De 5 tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom."
@@ -383,6 +377,12 @@ De fem tibetanere blev for alvor udbredt i den vestlige verden i Peter Kelders b
 
 {% endcomment %}
 
+{% comment %}
+
+TODO
+
 ## Plakat med de fem tibetanere
 
 {% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
+
+{% endcomment %}
