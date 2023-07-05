@@ -38,7 +38,7 @@ feature_row:
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9780873229593/0x500
-    url: https://www.saxo.com/dk/lore-of-running-4th_timothy-noakes_paperback_9780873229593
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/lore-of-running-4th_timothy-noakes_paperback_9780873229593
     title: "The Lore of Running"
     excerpt: "Lore of Running gives you incomparable detail on physiology, training, racing, injuries, world-class athletes, and races. Author Tim Noakes blends the expertise of a physician and research scientist with the passion of a dedicated runner to answer the most pressing questions for those who are serious about the sport."
     btn_label: "Tjek prisen"
@@ -52,21 +52,21 @@ feature_row:
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788740040869/0x500
-    url: https://www.saxo.com/dk/jeg-loeber_anders-legarth-schmidt_haeftet_9788740040869
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-loeber_anders-legarth-schmidt_haeftet_9788740040869
     title: "Jeg løber"
     excerpt: "I 2013 døde Anders Legarth Schmidts datter af kræft. I dag løber han 120 kilometer om ugen. For Anders Legarth Schmidt har løb været en måde at håndtere den endeløse sorg over tabet af familiens ældste datter Ellen, der døde af kræft som 6-årig. 'Ens liv er jo totalt kaos. Grunden til, at jeg begyndte at løbe og blev ved med det, var fordi, det gav mig lindring. Det var ren overlevelse for mig,' siger Anders Legarth Schmidt. I den har han beskrevet sine refleksioner over at løbe – og leve – med sorgen og savnet."
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788771080063/0x500
-    url: https://www.saxo.com/dk/sidste-tog-til-boston_tonny-vorm_haeftet_9788771080063
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sidste-tog-til-boston_tonny-vorm_haeftet_9788771080063
     title: "Sidste tog til Boston"
     excerpt: "Vidste du, at kvinder først fik lov at løbe maraton ved OL i 1984? Eller at det, der betragtes som historiens første maratonløb, blev afholdt i Grækenland den 1. marts 1896 – selvfølgelig for at udtage de bedste løbere til det første moderne OL i Grækenland i 1896. _Sidste tog til Boston_ graver dybt ned i maratonløbets historie og beskriver gennem stemningsfulde reportager, anekdoter og interviews med nogle af tidens største løbestjerner, hvordan maratonløb er gået fra at være forbeholdt en lille gruppe af elitesportsfolk til i dag at være en milliardforretning, som ikke bare handler om løb."
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788740022940/0x500
-    url: https://www.saxo.com/dk/kom-i-form-til-halvmaraton-paa-100-dage_anders-ejbye-ernst_haeftet_9788740022940
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/kom-i-form-til-halvmaraton-paa-100-dage_anders-ejbye-ernst_haeftet_9788740022940
     title: "Kom i form til halvmaraton på 100 dage"
     excerpt: "Bogen er skrevet af eliteløberen og sundhedsjournalisten Anders Ejbye Ernst og henvender sig til løbere på alle niveauer. Både nybegynderen, der gerne vil gennemføre det første halvmaraton uden skader, og den erfarne løber, der er på jagt efter nye personlige rekorder. Bogen guider dig igennem, hvordan du kommer i form til halvmaraton, og hvordan du konkret kan gøre det på 100 dage. Derudover gennemgås løbelivets mange aspekter, som fx udstyr, kost, motivation til træning og konkurrenceforberedelse."
     btn_label: "Tjek prisen"
