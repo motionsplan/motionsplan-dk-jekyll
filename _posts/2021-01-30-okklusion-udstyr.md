@@ -17,7 +17,7 @@ tags:
 language: da
 feature_row_bodylab:
   - image_path: https://www.bodylab.dk/images/okklusionsstraps_arms_legs-p.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
+    url: https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
     title: Bodylab Occlusion Training Bands
     excerpt: Bodylabs okklusionsstraps har ikke plastikspænder, da de ofte kan være svære at lukke med den helt rigtige modstand. De er udviklet i en semielastisk strap med velcrolukning.
     alt: *title
@@ -155,7 +155,7 @@ Bodylab har brugt velcrolukning, hvilket gør det let at justere båndene, men s
 
 Bodylabs straps - særligt til benene - er ret smalle, hvilket kan betyde, at de skal strammes ret meget for at opnå en passende afklemning.
 
-Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html){: rel='sponsored nofollow noopener' } for omkring 300 kroner.
+Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html){: rel='sponsored nofollow noopener' } for omkring 300 kroner.
 
 {% include feature_row id="feature_row_bodylab" type="right" %}
 

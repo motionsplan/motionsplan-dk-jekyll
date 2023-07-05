@@ -62,7 +62,7 @@ Når [Helsam](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bann
 
 Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående betragtninger, fordi Styrk ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
 
-Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
+Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 
 ## 1. Proteinpulver
 
@@ -118,9 +118,9 @@ Kreatin er også relativt sikkert at bruge. Studier har givet folk op til 30 gra
 
 Kreatin monohydrat er imidlertid utrolig billigt i forhold den potentielle positive effekt på muskelvæksten og muskelstyrken.
 
-Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se priserne på kreatinpulver hos [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){: rel='sponsored nofollow noopener' }.
+Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se priserne på kreatinpulver hos [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){: rel='sponsored nofollow noopener' }.
 
-Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en rigtig god indføring om, hvad kreatin er og hvordan det virker? på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
+Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en rigtig god indføring om, hvad kreatin er og hvordan det virker? på [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
 
 Læs: [Kreatin: Det bedste og billigste kosttilskud?](/kreatin/)
 
@@ -128,7 +128,7 @@ Læs: [Kreatin: Det bedste og billigste kosttilskud?](/kreatin/)
 
 Den primære effekt af koffein som kosttilskud er en træthedsbekæmpende effekt, som gør, at du kan arbejde hårdere i din træning.
 
-[Rasmus Thorup Andersen](https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html) beskriver forskellige facts om koffein på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html){: rel='sponsored nofollow noopener' }, hvor han konkluderer, at den mest effektive måde at indtage koffein på er rent.
+[Rasmus Thorup Andersen](https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html) beskriver forskellige facts om koffein på [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html){: rel='sponsored nofollow noopener' }, hvor han konkluderer, at den mest effektive måde at indtage koffein på er rent.
 
 Hvis koffein indtages gennem kaffe eller the, så er der andre stoffer i drikkevarerne, som har effekt på optagelsen af koffein.
 
@@ -140,7 +140,7 @@ Hvis du vil indtage koffein, så skal du prøve dig lidt frem i forhold til hvil
 | Sensitiv over for stimulanser | 25 - 50 mg |
 | Almindelig startdosis | 75 - 100 mg |
 
-Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du kan se priserne hos [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/koffein-11c1.html){: rel='sponsored nofollow noopener' }. En pille koster omkring [50 øre med 100 mg](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-caffeine-200-643p.html){: rel='sponsored nofollow noopener' }.
+Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du kan se priserne hos [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/koffein-11c1.html){: rel='sponsored nofollow noopener' }. En pille koster omkring [50 øre med 100 mg](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-caffeine-200-643p.html){: rel='sponsored nofollow noopener' }.
 
 En direkte præstationsfremmende evidensbaseret dosis kræver nok mere, men den individuelle tolerance er meget forskellige.
 

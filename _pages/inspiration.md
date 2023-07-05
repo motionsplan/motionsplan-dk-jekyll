@@ -34,7 +34,7 @@ feature_row_ads:
 #    alt: "Bodylab"
 #    title: "Bodylab"
 #    excerpt: "Bodylab er Dks største producent og af sportsprodukter, proteinpulver, kreatin og andre kosttilskud. Via Bodylab.dk handler kunderne direkte med fabrikken udenom fordyrende mellemled."
-#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522
+#    url: https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737
 #    btn_label: "Besøg Bodylab"
 #    btn_class: "btn--info"
   - image_path: /assets/images/logo/denintelligentekrop.png
@@ -68,14 +68,6 @@ feature_row_ads:
 #    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046
 #    btn_label: "Besøg KINETIK"
 #    btn_class: "btn--info"
-  - image_path: /assets/images/logo/highonlife.png
-    alt: "High On Life"
-    title: "High On Life"
-    excerpt: "High on Life by Mads Bo er en webshop, der gerne vil fremme den sunde livsstil gennem juicer, smoothie og inspirere til at spise mere naturligt, økologisk og plantebaseret."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52999
-    btn_label: "Besøg High On Life"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: https://motionsplan.yogastream.dk

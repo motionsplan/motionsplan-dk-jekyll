@@ -39,7 +39,7 @@ Når man holder pause, så aktiverer man naturligvis ikke længere vækstfaktore
 
 > Skal vi gøre det lidt billedligt, for forståelsens skyld, så medfører aktiveringen af UPP, at der bliver sat en slags ’ødelæg mig’ mærkater på muskelproteiner, hvorefter de bliver ført ind i en tøndeformet struktur, og bliver hakket i småstykker og spyttet ud som aminosyrer.
 
---- <cite>[Brian Henneberg](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html){: rel='sponsored nofollow noopener' }</cite>
+--- <cite>[Brian Henneberg](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html){: rel='sponsored nofollow noopener' }</cite>
 
 ## Hvilke faktorer spiller ind på hastigheden af tab i muskelmasse og muskelstyrke?
 

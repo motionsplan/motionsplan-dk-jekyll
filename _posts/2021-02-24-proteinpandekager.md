@@ -16,7 +16,7 @@ last_modified_at: 2021-07-24T23:14:14Z
 toc: true
 gallery_bodylab:
   - image_path: https://www.bodylab.dk/images/campaigns/2021-02-free-pancake/dk/1080x429.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/frontpage.html
+    url: https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/frontpage.html
     alt: "Proteinpandekager"
     title: "Proteinpandekager med proteinpulver"
     rel: sponsored nofollow noopener
@@ -173,9 +173,9 @@ Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du ka
 
 Hvis du vælger en opskrift, hvor du skal bruge proteinpulver i opskriften, så vil du måske gerne have svaret på, hvilket proteinpulver er det bedste til proteinpandekager?
 
-Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' } har et stort udvalg af  [proteinpulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }
+Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' } har et stort udvalg af  [proteinpulver](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }
 
-{% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }" %}
+{% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }" %}
 
 ## Konklusion
 

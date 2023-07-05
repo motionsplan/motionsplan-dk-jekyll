@@ -54,7 +54,7 @@ Anders Nedergaard dykker på i podcasten Fitness M/K ned i Bodylabs historie, so
 
 Jeg køber selv de fleste af mine kosttilskud hos Bodylab. De har en utrolig fin kundeservice, sender hurtigt produkterne, og de er dedikerede til at lave produkter af høj kvalitet.
 
-[Køb hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+[Køb hos Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
 ### 2. LinusPro
 
