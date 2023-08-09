@@ -1,0 +1,35 @@
+<!--<script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>-->
+
+<script>
+var loaded = false;
+function loadScript(src, onload) {
+  let script = document.createElement('script');
+  script.onload = onload ? onload : function(e) {
+      console.log(e.target.src + ' is loaded.');
+    };
+  script.src = src;
+  script.async = false;
+  document.head.appendChild(script);
+}
+if (!loaded) {
+  loadScript('https://js.withorbit.com/orbit-web-component.js');
+  loaded = true;
+}
+</script>
+
+{% assign cards=include.cards %}
+
+<orbit-reviewarea color="{{ include.color | default: 'blue' }}" id="reviewArea">
+    {% for c in cards %}
+    <orbit-prompt
+      question="{{ c.question }}"
+      {% if c.question-attachment %}
+      question-attachments="{{ c.question-attachment }}"
+      {% endif %}
+      answer="{{ c.answer }}"
+      {% if c.answer-attachment %}
+      answer-attachments="{{ c.answer-attachment }}"
+      {% endif %}
+    ></orbit-prompt>
+    {% endfor %}
+</orbit-reviewarea>

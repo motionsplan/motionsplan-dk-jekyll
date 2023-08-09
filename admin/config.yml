@@ -568,3 +568,67 @@ collections:
                 fields:
                   - {label: "Display Text", name: title, widget: string}
                   - {label: "URL", name: url, widget: string, required: false}
+  - name: "orbits" # Used in routes, e.g., /admin/collections/blog
+    label: "Orbit" # Used in the UI
+    folder: "_orbits/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "{{permalink}}"
+    view_filters:
+      - label: "Jesper Emil Jakobsgaard"
+        field: author
+        pattern: "jesper.emil.jakobsgaard"
+      - label: "Jakob Nielsson"
+        field: author
+        pattern: "jakob.nielsson"
+      - label: "Martin Madsen"
+        field: author
+        pattern: "martin.madsen"
+    view_groups:
+      - label: Year
+        field: last_modified_at
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+    sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
+      - label: Header
+        name: header
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - {label: "Overlay Image", name: "overlay_image", widget: "string", required: false}
+          - {label: "Teaser Image", name: "teaser", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string", required: false}
+          - label: Actions
+            name: actions
+            widget: list
+            collapsed: true
+            required: false
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Url", name: "url", widget: "string"}
+      - {label: "Category", name: "category", widget: "list", allow_add: true}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Orbits
+        name: orbits
+        widget: list
+        collapsed: false
+        required: true
+        fields:
+          - {label: "Orbit title", name: "title", widget: "string", required: true}
+          - label: Orbit cards
+            name: cards
+            widget: list
+            collapsed: false
+            required: true
+            fields:
+              - {label: "Question", name: "question", widget: "string", required: true}
+              - {label: "Answer", name: "answer", widget: "text", required: true}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}

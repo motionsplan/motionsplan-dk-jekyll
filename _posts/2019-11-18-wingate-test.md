@@ -17,10 +17,10 @@ tags:
 last_modified_at: 2022-01-06T23:14:14Z
 toc: true
 quiz:
-  - front: "Hvor lang tid tager Wingate-testen?"
-    back: "30 sekunder"
-  - front: "Hvad tester Wingate-testen?"
-    back: "Din anaerobe kapacitet og power"
+  - question: "Hvor lang tid tager Wingate-testen?"
+    answer: "30 sekunder"
+  - question: "Hvad tester Wingate-testen?"
+    answer: "Din anaerobe kapacitet og power"
 feature_row:
   - image_path: /assets/images/freebies/wingate-test-results.png
     url: https://docs.google.com/spreadsheets/d/1ctYGHBrRaoM7kcm1A-ArWg9pa0NfZVXLJzj18SFGhkE/copy#gid=499201424
@@ -123,7 +123,7 @@ Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er l
 
 ## Quiz
 
-{% include flipcard id="quiz" %}
+{% include orbit.html cards=page.quiz %}
 
 ## Referencer
 

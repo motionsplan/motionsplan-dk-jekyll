@@ -46,14 +46,12 @@ feature_row_books:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 quiz:
-  - front: >
-      ![Squat](https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg)
-      Hvor langt skal man ned i squat for at få godkendt løftet?
-    back: "Hofteleddet skal være under knæleddet."
-  - front: "Må hovedet løftes fra bænken i bænkpres?"
-    back: >
-      Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
-      ![Bænkpres](https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg)
+  - question: Hvor langt skal man ned i squat for at få godkendt løftet?
+    question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+    answer: "Hofteleddet skal være under knæleddet."
+  - question: "Må hovedet løftes fra bænken i bænkpres?"
+    answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
+    answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
 
 Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw). Jeg har kigget lidt på reglerne til de forskellige discipliner i styrkeløft.
@@ -182,7 +180,7 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 ## Quiz om regler for styrkeløft
 
-{% include flipcard id="quiz" %}
+{% include orbit.html cards=page.quiz %}
 
 ## Referencer
 

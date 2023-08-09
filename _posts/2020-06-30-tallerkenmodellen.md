@@ -60,7 +60,7 @@ I forbindelse med idræt så skal tallerkenmodellerne tage højde for [proteinbe
 
 Fødevarestyrelsen anbefaler Y-modellen til normalbefolkningen, som har et lavt til normalt aktivitetsniveau. Det betyder, at man træner under 1-1½ time om dagen.
 
-{% include figure image_path="/assets/images/blog/y-tallerken.png" caption="Y-tallerken foreslået af [Fødevarestyrelsen](https://altomkost.dk/raad-og-anbefalinger/hjaelp-til-det-gode-maaltid/)" alt="Y-tallerken-modellen" %}
+{% include figure image_path="/assets/images/blog/y-tallerken.jpg" caption="Y-tallerken foreslået af [Fødevarestyrelsen](https://altomkost.dk/raad-og-anbefalinger/hjaelp-til-det-gode-maaltid/)" alt="Y-tallerken-modellen" %}
 
 Tallerkenen skal i Y-modellen bestå af følgende:
 
@@ -102,7 +102,7 @@ Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud:
 
 [Marina Aagaard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) formulerede i 2013 T-modellen. Marina Aagard var inspireret af tendenserne i _My Plate_ med mere grønt og lavede en forenklet model, som hun kaldte T-modellen.
 
-{% include figure image_path="/assets/images/blog/t-tallerken.png" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
+{% include figure image_path="/assets/images/blog/t-tallerken.jpg" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
 
 T-modellen er altså en forenkling af den amerikanske model.
 
@@ -120,7 +120,7 @@ Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud for de
 
 ## E-tallerken-modellen
 
-Team Danmark anbefaler i hæftet [Kost og Elitesport](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf?), at når man træner hårdt i 1½ - 2 timer om dagen, så har man også behov for at få mange kulhydrater. Team Danmark kalder deres tallerken for **Elitemodellen**.  [Marina Aaagard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) omdøber modellen til E-tallerken-modellen for at passe den ind i de andre modeller.
+Team Danmark anbefaler i hæftet [Kost og Elitesport](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf), at når man træner hårdt i 1½ - 2 timer om dagen, så har man også behov for at få mange kulhydrater. Team Danmark kalder deres tallerken for **Elitemodellen**.  [Marina Aaagard](https://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) omdøber modellen til E-tallerken-modellen for at passe den ind i de andre modeller.
 
 Team Danmark anbefaler E-tallerkenmodellen til trænende med moderat til højt aktivitetsniveau - supermotionister - og eliteidrætsudøvere.
 

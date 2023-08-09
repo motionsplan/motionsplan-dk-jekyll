@@ -358,6 +358,9 @@ collections:
   methods:
     output: true
     permalink: /metode/:path/
+  orbits:
+    output: true
+    permalink: /orbit/:path/
 
 # Defaults
 defaults:
@@ -489,5 +492,13 @@ defaults:
       type: presentations
     values:
       layout: webslides
+      sitemap: false
+      search: false
+  # _orbits
+  - scope:
+      path: ""
+      type: orbits
+    values:
+      layout: orbits
       sitemap: false
       search: false
