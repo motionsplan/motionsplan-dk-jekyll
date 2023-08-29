@@ -1762,8 +1762,8 @@ $(function() {
       let maxiltoptagelse = fitnesshr.getMaximalOxygenUptake();
       let kondital = fitnesshr.getFitnessLevel();
 
-        $("#vo2max").val(maxiltoptagelse);
-        $("#kondital").val(kondital);
+        $("#vo2max").val(maxiltoptagelse).toFixed(2);
+        $("#kondital").val(kondital).toFixed(0);
     });
     // Calculate Borg 15 fitness
     $("#calculator_borg15").submit(function(e) {
