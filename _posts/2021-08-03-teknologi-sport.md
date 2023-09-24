@@ -9,7 +9,7 @@ category:
   - Inspiration
 tags:
   - teknologi
-last_modified_at: 2021-07-29T10:14:14Z
+last_modified_at: 2023-09-24T10:14:14Z
 toc: true
 ---
 
@@ -126,7 +126,9 @@ Løbeskoen fra Nike har en et hårdt skummateriale som midtersål og en indbygge
 
 Kenyaneren, Eliud Kipchoge, brugte en prototype af Vaporfly, da han under helt optimale forhold på en formel 1-bane skulle forsøge at løbe en maraton under 2 timer. Kipchoges sko havde angiveligt hele tre carbonplader i den ret tykke sål.
 
-Kenyanske, Brigid Kosgei, satte også verdensrekord på 2 timer, 14 minutter og 4 sekunder i Nike Vaporfly ved Chicago Marathon. Hun brugte dog versionen med kun en enkelt carbonplade i sålen.
+Kenyanske, Brigid Kosgei, satte også verdensrekord på 2 timer, 14 minutter og 4 sekunder i Nike Vaporfly ved Chicago Marathon i 2019. Hun brugte dog versionen med kun en enkelt carbonplade i sålen.
+
+Nu er verdensrekorden slået af etiopiske Tigst Assefa med 2 timer, 11 minutter og 53 sekunder. Det gjorde hun til Berlin maraton i 2023.
 
 World Athletes har reguleret reglerne, så atleter kun må løbe i sko med maksimalt 1 carbonplade, og løbeskoene skal have været på markedet, så alle har mulighed for at købe den i butikkerne.
 

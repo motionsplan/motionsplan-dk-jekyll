@@ -199,7 +199,7 @@ Jeg mener, at alt for mange løbere fokuserer på, hvor mange kilometer, de løb
 
 Når du tager højde for, hvilke fysiologiske tilpasninger du gerne vil have til dit løb, så giver det ikke mening, hvis du laver løbeprogrammet med kilometer med mindre du nøjagtigt kender dine egne kilometertider.
 
-[Verdensrekorden på 5 kilometer løb](https://en.wikipedia.org/wiki/5000_metres_world_record_progression) for mænd er 12:35 sat af Joshua Cheptegei, mens Tirunesh Dibaba har rekorden for kvinder på 14:11. Jeg har mange elever, som bruger omkring 25-35 minutter på at løbe 5 kilometer.
+[Verdensrekorden på 5 kilometer løb](https://en.wikipedia.org/wiki/5000_metres_world_record_progression) for mænd er 12:35 sat af Joshua Cheptegei, mens Gudaf Tsegay har rekorden for kvinder på 14:00:21. Jeg har mange elever, som bruger omkring 25-35 minutter på at løbe 5 kilometer.
 
 Pointen er, at folk køber i meget forskelligt tempo, men hvis vi skal arbejde med løbetræningszoner, så giver det meget bedre mening, at **løbeprogrammet er sat op til at bruge minutter**.
 

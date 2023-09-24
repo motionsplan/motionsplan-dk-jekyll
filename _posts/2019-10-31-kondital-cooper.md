@@ -23,7 +23,7 @@ tags:
   - beregner
   - featured
 popular: true
-last_modified_at: 2023-01-01T10:14:14Z
+last_modified_at: 2023-09-24T10:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png
@@ -149,11 +149,11 @@ Det svarer til, at Cheptegei løber 4,8 kilometer på 12 minutter.
 
 {% include video provider="youtube" id="uN9Y6gi24B4" %}
 
-Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t.
+Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Gudaf Tsegay, som har løbet på 14:00:21, så svarer det til en gennemsnitshastighed på 21,43 km/t.
 
-Hvis Gidey skulle løbe Cooper-testen på 12 minutter, ville hun nå at løbe 4,3 kilometer.
+Hvis Tsegay skulle løbe Cooper-testen på 12 minutter, ville hun nå at løbe 4,29 kilometer.
 
-Du kan se en analyse af Gideys verdensrekordløb herunder.
+Tidligere havde Letesenbet Gidey fra Etiopien verdensrekorden. Du kan se en analyse af Gideys verdensrekordløb herunder. Det er en rigtig god video, hvor du kan lære meget om løb.
 
 {% include video provider="youtube" id="yb6Gu_V4E6I" %}
 

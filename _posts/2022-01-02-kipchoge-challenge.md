@@ -1,6 +1,6 @@
 ---
 title: &title "Elsker du en udfordring? Prøv Kipchoge Challenge"
-description: Er ud klar til en løbeudfordring? Prøv Kipchoge Challenge eller Kosgei Udfordring. Hvor længe kan du følge tempoet for verdensrekordholderen for mænd og kvinder?
+description: Er ud klar til en løbeudfordring? Prøv Kipchoge Challenge eller Assefa Udfordring. Hvor længe kan du følge tempoet for verdensrekordholderen for mænd og kvinder?
 permalink: /kipchoge-challenge/
 language: da
 header:
@@ -10,7 +10,7 @@ category:
 tags:
   - intervalløb
   - kondition
-last_modified_at: 2022-09-25T08:14:14Z
+last_modified_at: 2023-09-24T08:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/pinterest/challenge-kipchoge.jpg
@@ -21,7 +21,7 @@ gallery:
     alt: Kosgei challenge
 ---
 
-Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve Kipchoge Challenge og Kosgei Udfordringen.
+Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve Kipchoge Challenge og Assefa Udfordringen.
 
 Det handler ganske enkelt om at forsøge at løbe lige så hurtigt, som verdensrekorden på maraton for enten mænd eller kvinder - og se hvor længe du kan følge tempoet.
 
@@ -29,7 +29,7 @@ Verdensrekorden for mænd på maraton er sat af Eliud Kipchoge. Kenyaneren har l
 
 Her bruger vi til gengæld tiden fra Ineos Challenge, hvor Kipchoge under ideelle forhold løb på 01:59:40. Det svarer til 21,16 km/t i gennemsnit og en kilometertid på 2:50 min/km.
 
-Brigid Kosgei løb i Chicago Maraton i 2019 distancen på 2:14:04 for kvinder. Det svarer til en hastighed på 18,89 km/t eller et pace på 3:11 min/km.
+Tigst Assefa løb i Berlin Maraton i 2023 distancen på 2:11:53 for kvinder. Det svarer til en hastighed på 19,20 km/t eller et pace på 3:08 min/km.
 
 Det er vel at mærke et pace de holder et helt maratonløb.
 
@@ -37,11 +37,11 @@ Her præsenterer jeg tre forskellige udfordringer, som du kan prøve.
 
 Er du klar til at tage udfordringen op? Hvor længe kan du klare det samme pace, når du får lov til at gribe udfordringen an i mindre intervaller?
 
-## Forslag til Kipchoge Challenge og Kosgei Udfordring
+## Forslag til Kipchoge Challenge og Assefa Udfordring
 
 ## 1. Den oprindelige Kipchoge Challenge som stigende intervaller
 
-Sådan her fungerer Kipchoge challenge eller Kosgei udfordringen.
+Sådan her fungerer Kipchoge challenge eller Assefa udfordringen.
 
 - Løb 200m. Hvil 2 minutter
 - Løb 400m. Hvil 2 minutter
@@ -53,15 +53,15 @@ Du kan enten **løbe på et [løbebånd](/guide-loebebaand/)**, hvor du bare ska
 
 Du kan også **løbe på en løbebane**, hvor det er let at vide, hvor langt du løber. Jeg har lavet en beregner, så du let kan udregne, hvor hurtigt du skal løbe de enkelte intervaller for at holde tempoet.
 
-{% include gallery %}
+{% include gallery caption="Denne challenge for kvinder er lavet i forhold til den tidligere verdensrekordholder; Brigid Kosgei gennemførte Chicago Marathon i 2019 på 2:14:04, hvilket svarer til en gennemsnitshastighed på 18,89 km/t. Kosgei løb med et pace på 3:11 min/km." %}
 
 ## 2. Stafet
 
-I kan også gå flere sammen og forsøge at knække Kipchoges og Kosgeis rekord - eller bare holde trit med den.
+I kan også gå flere sammen og forsøge at knække Kipchoges og Assefas rekord - eller bare holde trit med den.
 
 I kan fx lave stafethold og bære en depeche rundt i samme tempo som de to.
 
-For Kipchoge challenge svarer det til at den enkelte skal løbe hver 100 meter på 17 sekunder, mens Kosgei udfordringen kræver en 100 meter tid på 19 sekunder.
+For Kipchoge challenge svarer det til at den enkelte skal løbe hver 100 meter på 17 sekunder, mens Assefa udfordringen kræver en 100 meter tid på 19 sekunder.
 
 I skal med andre ord have fart på.
 
@@ -69,9 +69,9 @@ I skal med andre ord have fart på.
 
 Beregneren gør det også muligt at omdøbe løbe-udfordringen, fx til verdensrekordholderen for kvinder. Du kan også let finde den nødvendige [hastighed i vores paceberegner](/hastighed/).
 
-Udgangspunktet for beregneren er Eluid Kipchoges tid, men du kan let ændre beregneren til at verdensrekordholderen for kvinder, som hedder Brigid Kosgei.
+Udgangspunktet for beregneren er Eluid Kipchoges tid, men du kan let ændre beregneren til at verdensrekordholderen for kvinder, som hedder Tigst Assefa.
 
-Kosgei gennemførte Chicago Marathon i 2019 på 2:14:04, hvilket svarer til en gennemsnitshastighed på 18,89 km/t. Kosgei løb med et pace på 3:11 min/km.
+Tigst Assefa løb i Berlin Maraton i 2023 distancen på 2:11:53 for kvinder. Det svarer til en hastighed på 19,20 km/t eller et pace på 3:08 min/km.
 
 {% include calculate-kipchoge-challenge.html %}
 
@@ -83,6 +83,7 @@ Her er nogle udvalgte løbetider, som du kan prøve at løbe efter. Du ændrer b
 |-|-|-|-|
 | Eluid Kipchoge, Kenya | Ineos Challenge 2019 | 1:59:40 | 21,16 km/t |
 | Eluid Kipchoge, Kenya | Berlin Maraton Mænd 2022 | 2:01:09 | 20,90 km/t |
+| Tigst Assefa, Etiopien | Berlin Marathon Kvinder 2023 | 2:11:53 | 19,20 km/t |
 | Brigid Kosgei, Kenya | Chicago Marathon Kvinder 2019 | 2:14:04 | 18,89 km/t |
 | Henrik Jørgensen, Danmark | Dansk rekord på maraton 1985 | 2:09:43 | 19,52 km/t |
 | Dorthe Skovshoved Rasmussen | Dansk rekord for kvinder på maraton 1989 | 2:29:34 | 16,93 km/t |
