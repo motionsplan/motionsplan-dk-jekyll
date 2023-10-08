@@ -19,7 +19,7 @@ tags:
   - løb
   - beregner
   - test
-last_modified_at: 2023-04-02T08:14:14Z
+last_modified_at: 2023-09-25T08:14:14Z
 feature_row:
   - image_path: /assets/images/freebies/andersen-notering.png
     url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
@@ -89,7 +89,9 @@ Du kan også finde videoer på Youtube, fx denne timer til at styre tiden underv
 
 ## Har jeg et godt kondital?
 
-Nedenunder har jeg sakset kondital for børn og unge fra [tabellerne over normale kondital](/kondital/). Du kan altså sammenligne dit resultat fra Andersen Testen med andre børn på din alder.
+Nedenunder har jeg sakset kondital for børn og unge fra [tabellerne over normale kondital](/kondital/).
+
+Du kan altså sammenligne dit resultat fra Andersen Testen med andre børn på din alder.
 
 ### Kondital for piger
 

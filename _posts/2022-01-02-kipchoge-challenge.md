@@ -25,7 +25,9 @@ Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve 
 
 Det handler ganske enkelt om at forsøge at løbe lige så hurtigt, som verdensrekorden på maraton for enten mænd eller kvinder - og se hvor længe du kan følge tempoet.
 
-Verdensrekorden for mænd på maraton er sat af Eliud Kipchoge. Kenyaneren har løbet de 42,195 km på 2:01:09 i Berlin 2022. Det svarer til 20,90 km/t eller et pace på 2:52 min/km.
+Verdensrekorden for mænd på maraton var tidligere sat af Eliud Kipchoge. Kenyaneren har løbet de 42,195 km på 2:01:09 i Berlin 2022. Det svarer til 20,90 km/t eller et pace på 2:52 min/km.
+
+Den blev imidlertid slået i 2023 af Kelvin Kiptum også fra Kenya. Han løb i Chicago Marathon på 2:00:35. Det svarer til 21,00 km/t i gennemsnit og et pace på 2:51 min/km.
 
 Her bruger vi til gengæld tiden fra Ineos Challenge, hvor Kipchoge under ideelle forhold løb på 01:59:40. Det svarer til 21,16 km/t i gennemsnit og en kilometertid på 2:50 min/km.
 
@@ -82,6 +84,7 @@ Her er nogle udvalgte løbetider, som du kan prøve at løbe efter. Du ændrer b
 | Person | Challenge | Tid | Hastighed |
 |-|-|-|-|
 | Eluid Kipchoge, Kenya | Ineos Challenge 2019 | 1:59:40 | 21,16 km/t |
+| Kelvin Kiptum, Kenya | Chicago Marathon Mænd 2023 | 2:00:35 | 21,00 km/t |
 | Eluid Kipchoge, Kenya | Berlin Maraton Mænd 2022 | 2:01:09 | 20,90 km/t |
 | Tigst Assefa, Etiopien | Berlin Marathon Kvinder 2023 | 2:11:53 | 19,20 km/t |
 | Brigid Kosgei, Kenya | Chicago Marathon Kvinder 2019 | 2:14:04 | 18,89 km/t |
