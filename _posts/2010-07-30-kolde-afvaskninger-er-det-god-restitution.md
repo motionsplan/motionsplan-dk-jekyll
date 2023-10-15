@@ -16,7 +16,7 @@ tags:
   - kryoterapi
 category:
   - Restitution
-last_modified_at: 2022-10-04T20:39:39Z
+last_modified_at: 2023-10-14T20:39:39Z
 ---
 
 Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i koldt vand efter træning og konkurrence?
@@ -29,9 +29,9 @@ Det bliver også i fagsprog kaldt Cold Water Immersion.
 
 Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med koldt vand for at få effekt.
 
-Den videnskabelige litteratur ser ud til, at der er en gavnlig effekt af **cold water immersion (CWI)** og **isbade** som en [strategi til restitution](/restitution/) for at [forbedre restitutionstiden](/restitutionstid/).
+Den videnskabelige litteratur ser ud til, at der kan være en gavnlig effekt af **cold water immersion (CWI)** og **isbade** som en strategi til at mindske [muskelømhed](/omme-muskler-efter-traening/). Men det er bare ikke det samme som, at man [forbedrer restitutionstiden](/restitutionstid/) eller at det har en gavnlig effekt i forhold til træningen.
 
-Lad os dykke ned i effekten og forskningen omkring nedsænkning i vand og virkningen i forhold til restitutionen.
+Lad os dykke ned i effekten og forskningen omkring nedsænkning i vand og virkningen i forhold til [restitution](/restitution/) og træningseffekter.
 
 ## Typer af nedsækning i vand
 
@@ -72,11 +72,11 @@ Men hvad er effekten af kuldepåvirkningen på restitutionen efter træning?
 
 ## Virker isbade på restitutionen?
 
-**Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
+**Isbade efter træning viser i forskningen blandede resultater. Folk der gennemgår en protokol med isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
 Det er fortsat ikke klart, hvad det videnskabelige rationale er bag at tage et koldt bad (se metastudium af [Bleakley og Davison 2010](https://bjsm.bmj.com/content/44/3/179)), men derfor kan vi jo sagtens se på, om det virker i praksis?
 
-## Restituerer man hurtigere med et isbad?
+## Restituerer du hurtigere med et isbad?
 
 Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet.
 
@@ -120,7 +120,6 @@ De kolde bade ser ud til at være passiv restitution overlegent ved eksplosive a
 
 [Wilcock et al (2006)](https://doi.org/10.1123/ijspp.1.3.195) har foreslået, at nedkøling med koldt vand kan forbedre restitutionen efter aktivitet, der ødelægger muskelfibrene, men nyere studier har ikke kunne vise at de kolde bade skulle forbedre restitutionen efter muskelødelæggende aktivitet ([Jakeman et al 2009](https://doi.org/10.1080/00140130802707733)).
 
-
 Nyere [studier](https://doi.org/10.1113/JP270570) fra 2015 tyder imidlertid på, at hvis man bruger isbade efter styrketræning, så risikerer man, at ens muskeltilvækst vil blive mindre på sigt.
 
 > "Vi fandt, at nedsænkning i koldt vand efter træning væsentligt svækkede eller reducerede de langsigtede gevinster for muskelmasse og -styrke."
@@ -143,16 +142,15 @@ Derfor kan vi ikke anbefale de kolde isbade i forbindelse med styrketræning i �
 
 Du kan imidlertid også bruge de iskolde bade til at dæmpe inflammation og muskelømhed, og derfor 
 
-## Konklusion
+## Konklusion på koldtvandseksponering
 
-Der kan være forskellige grunde til at bruge isbade. I dette indlæg har vi fokuseret på effekten af de kolde bade på restitution.
-
+Der kan være forskellige grunde til at bruge isbade. I dette indlæg har vi fokuseret på effekten af de kolde bade på restitution og træningseffekter.
 
 Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udføre en bedre præstation dagen efter. Det er dog værd at tage med, at man op til 24 timer vil føle, at man har bedre ben (Kinugasa og Kilding 2009).
 
 Det betød dog ikke noget for de enkeltes præstation, men at opleve at tingene føles lettere, er også værd at tage med.
 
-Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst.
+Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da koldtvandseksponering tilsyneladende har en hæmmende effekt på [de fysiologiske tilpasninger  styrketræning](/fysiologiske-tilpasninger/), bl.a. i forhold til muskeltilvækst.
 
 Der findes mange andre metoder til at [forbedre din restitution](/restitution/) og [restitutionstid](/restitutionstid/), som du måske skal prøve først.
 
