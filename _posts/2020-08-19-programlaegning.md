@@ -148,7 +148,7 @@ Men husk SAID-princippet om _Specific Adaptation to Imposed Demands_.
 
 ‘Progressive overload’ betyder at træningen stiller større krav til dig selv hver gang. I mange træningsprogrammer betyder det ganske enkelt, at du finder noget mere vægt at putte på stangen hver gang.
 
-Der findes imidlertid også flere andre måder at sørge for, at dit program giver ‘progressive overload’. Du kan se hvordan man opnår progressive overload nedenunder:
+Der findes imidlertid også flere andre måder at sørge for, at dit program giver ‘progressive overload’. Du kan se, hvordan du kan opnå ‘progressive overload’ nedenunder:
 
 {% include figure image_path="/assets/images/training/progressive-overload.svg" caption="Progressive overload kan opnås på flere forskellige parametre i styrketræning" alt="progressiv overload" %}
 
@@ -180,7 +180,9 @@ Desto højere du sætter intensiteten, desto længere skal pauserne være og res
 
 ## Adaptationer der gør dig stærkere
 
-Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. Den vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. 
+
+Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 Det er sandsynligt at den neurale adaptation sker først - nærmest fra allerførst gang du træner. Derefter følger muskelmassen. Figuren viser også, at når man har trænet et stykke tid, bliver det vanskeligere at forbedre sig - og det kræver en større og større indsats.
 
@@ -195,7 +197,7 @@ Husk de forskellige principper:
 - **General Adaption Syndrome (GAS).** Kroppen reagerer på det samlede stress kroppen udsættes for. Hvis du er stresset i hverdagen, så skal du sørge for at indstille træningen i forhold til det.
 - **Superkompensation.** Du skal prøve at ramme i superkompensationsfasen, når du skal træne igen. Der hvor kroppen er gået i ‘resistance’-fasen.
 - **Specific Adaptation to Imposed Demands (SAID).** Du bliver bedre til det du træner. Hvis du vil være bedre til at sprinte, skal du sprinte. Hvis du vil være bedre til at hoppe, skal du hoppe.
-- **Progressive overload.** Sørg for at slå en rekord, hver gang du træner. Det kan være en ekstra repetition, et ekstra sæt eller en kortere pause. Begyndere har rigeligt med at øge vægten hver gang.
+- **Progressive overload.** Prøv at slå en rekord, når du træner. Bare med en lille smule. Det kan være en ekstra gentagelse, et ekstra sæt, en kortere pause eller lidt mere vægt på stangen.
 - **Volumen får musklerne til at vokse.** Det er volumen af træningen, der får musklerne til at vokse. Det er også volumen der giver dig en større arbejdskapacitet. Sørg for at holde styr på, at du ikke sætter volumen for voldsomt op.
 - **Deload.** For at blive bedre har du brug for at periodisere din træning. Det betyder, at du jævnligt skal tage en deload-uge, hvor du ikke træner så hårdt.
 

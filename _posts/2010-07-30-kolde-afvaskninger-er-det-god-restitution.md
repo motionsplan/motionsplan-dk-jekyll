@@ -60,13 +60,15 @@ Her kan du se Jeff Nippard gennemgå nyere viden om isbade og kryoterapi.
 
 ## Hvordan bruger man isbad som restitution?
 
-Flere studier har vist, at Cold Water Immersion kan forbedre restitutionen i forskellige sportsgrene.
+Nogle studier har vist, at Cold Water Immersion kan forbedre restitutionen efter særligt udholdenhedsaktiviteter, men sørg for at læse hele denne artikel, inden du kaster dig ud i koldtvandseksponering.
 
 Hvordan får jeg den bedste effekt af et isbad?
 
-Isbadet virker bedst, når du sænker benene ned i vandet op til navlen. Vandet skal være under 10-15 °C, og dine ben skal være dækket i 5-15 minutter.
+De forskellige studier har nemlig håndteret protokollen lidt forskelligt. 
 
-Det er desværre ikke at stille sig ind under den kolde bruser, og du kan heller ikke nøjes med et køligt karbad. Det skal være koldt, og du skal være nedsænket i vandet længe nok.
+Det ser ud til, at isbadet virker bedst, når du har benene nede i vandet, og vandet går op til navlen. Vandet skal være under 10-15 °C, og dine ben skal være dækket i 5-15 minutter.
+
+Det er desværre ikke nok at stille sig ind under den kolde bruser, og du kan heller ikke nøjes med et køligt karbad. Det skal være koldt, og du skal være nedsænket i vandet længe nok.
 
 Men hvad er effekten af kuldepåvirkningen på restitutionen efter træning?
 
@@ -78,21 +80,21 @@ Det er fortsat ikke klart, hvad det videnskabelige rationale er bag at tage et k
 
 ## Restituerer du hurtigere med et isbad?
 
-Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet.
+Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad faktisk sænker den anaerobe kapacitet.
 
 Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet.
 
 Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
 
-Et andet studium tyder imidlertid på, at man faktisk restituere hurtigere ved eksplosive aktiviteter.
-
 ## Isbade og eksplosivitet
+
+Et andet studium tyder imidlertid på, at man faktisk restituerer hurtigere efter eksplosive aktiviteter.
 
 [Nunes et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/30321486) fandt at isbad har en positiv effekt på restitutionen i forhold til højeksplosive øvelser.
 
 Forskere har set på, hvor højt sportsudøvere kan hoppe i et såkaldt countermovement jump i 0, 24, 48 og 72 timer efter en kamp.
 
-Studiet viste en possitiv effekt af brug af isbad. Dem der blev kølet ned præsterede ganske enkelt bedre i testene efter kampen.
+Studiet viste en positiv effekt af brug af isbad. Dem der blev kølet ned præsterede ganske enkelt bedre i testene efter kampen.
 
 ## Er isbade bedre end aktiv restitution?
 

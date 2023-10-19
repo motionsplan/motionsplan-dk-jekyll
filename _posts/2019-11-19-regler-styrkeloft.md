@@ -97,7 +97,11 @@ Kommandoerne i squat er:
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 
+{% comment %}
 {% include video provider="youtube" id="dnhe34Xbvc0" %}
+{% endcomment %}
+
+{% include video provider="youtube" id="MGD0UmsZnek" %}
 
 ### Bænkpres
 
@@ -111,7 +115,11 @@ Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 - Vent på **"Pres"**-kommandoen. Pres vægtstangen op i helt strakte arme.
 - Vent på **"Rack"**-kommandoen.
 
+{% comment %}
 {% include video provider="youtube" id="jrZCsEwlKxM" %}
+{% endcomment %}
+
+{% include video provider="youtube" id="ifrev2QcGXg" %}
 
 ### Dødløft
 
@@ -123,7 +131,11 @@ Kommandoerne under dødløft er:
 - Når man er klar til at løfte, løfter dommeren sin arm.
 - Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
 
+{% comment %}
 {% include video provider="youtube" id="WtPdpWnkYV4" %}
+{% endcomment %}
+
+{% include video provider="youtube" id="gbnOJuNVt6M" %}
 
 ## Regler for klassisk styrkeløft
 
