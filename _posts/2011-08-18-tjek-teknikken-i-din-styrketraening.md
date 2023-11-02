@@ -205,7 +205,7 @@ Et andet eksempel er [Lamar Gant](https://web.archive.org/web/20201112015104/htt
 
 Lamar Gant har _skoliose_. Jeg har hørt en historie om ham, at lægerne frarådede ham at træne, fordi det ville være farligt for hans ryg. Men han besluttede sig for, at træning skulle gøre ham i stand til at bevæge sig bedre i stedet.
 
-{% include figure image_path="https://2xm0t92b1vo22py83u40kcv7-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/lamar-gant-scoliosis.jpg" caption="Lamar Gants ryg er yderst veludviklet, selvom det også er tydeligt, at han har skoliose. Men muskelopbygningen er med til at beskytte rygsøjlen." alt="Lamar Gants ryg" %}
+{% include figure image_path="https://www.hudsonvalleyscoliosis.com/wp-content/uploads/2016/12/lamar-gant-scoliosis.jpg" caption="Lamar Gants ryg er yderst veludviklet, selvom det også er tydeligt, at han har skoliose. Men muskelopbygningen er med til at beskytte rygsøjlen." alt="Lamar Gants ryg" %}
 
 Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til noget andet.
 
