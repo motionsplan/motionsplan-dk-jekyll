@@ -103,7 +103,7 @@ Ugeplanen kunne se sådan her ud.
 - Onsdag: Træning B
 - Torsdag: Fri
 - Fredrag: Træning A
-- Lørdag: Træning B (dødløft undgås)
+- Lørdag: Træning B (lettere variation af dødløft)
 - Søndag: Fri
 
 Hvis du træner to dage i træk, så kan du overveje at springe over hinge-bevægelsen med fuldt bevægelsesudslag lørdag - eller lave en mindre udfordrende variation.
