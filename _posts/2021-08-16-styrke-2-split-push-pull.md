@@ -86,7 +86,7 @@ I flere detaljer kunne det modificerede træk/pres 2-split se sådan her ud:
 
 ### Træning B: Træk
 
-- Hinge-bevægelse
+- Hinge-bevægelse - dødløft-variation
 - Baglårsøvelse
 - Lodret træk
 - Vandret træk
