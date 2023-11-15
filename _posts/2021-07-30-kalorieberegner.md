@@ -43,11 +43,11 @@ Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og
 
 Husk at en kalorieberegner ikke kan stå alene. Du skal ikke bare blindt følge forslagene i disse generelle programmer. Du finder først dit reelle kaloriebehov, hvis du ved hvor meget energi, du indtager over tid, og du fastholder din nuværende vægt.
 
-## Kalorieudregner til mad og måltider
+## Kalorieudregner til mad og måltider (kostberegner)
 
 En kalorieudregner kan også udregne, hvor meget energi der er i den mad du spiser. Jeg har her på siden en række [forskellige kalorietabeller]({% link _posts/2020-08-29-kalorietabellen.md %}), hvor du kan finde ud af, [hvor mange kalorier der er i fx bananer](/kalorietabel-frugt/).
 
-Hvis du skal udregne mere detaljeret, hvor meget energi der er i et måltid, så findes der heldigvis nogle geniale **gratis madberegnere**, som du kan bruge til at udregne det samlede kalorieindhold i et måltid.
+Hvis du skal udregne mere detaljeret, hvor meget energi der er i et måltid, så findes der heldigvis nogle geniale **gratis madberegnere og kostberegnere**, som du kan bruge til at udregne det samlede kalorieindhold i et måltid.
 
 ### Very Well Fits opskriftsberegner (engelsk)
 
@@ -69,7 +69,7 @@ Når du har justeret opskriften til, så får du et overblik over energiindholde
 
 ### Fødevarestyrelsens madberegner (dansk)
 
-Fødevarestyrelsen har lavet et kalorieværktøj, hvor du kan indtaste oplysninger om dit aktivitetsniveau og kosten for en hel dag. Du kan finde [værktøjet her](https://altomkost.dk/test-dig-selv/madberegneren/).
+Fødevarestyrelsen har lavet et kalorieværktøj, hvor du kan indtaste oplysninger om dit aktivitetsniveau og kosten for en hel dag. Du kan finde [værktøjet her](https://madberegneren.foedevarestyrelsen.dk/).
 
 Det kan være meget smart, hvis du har brug for en komplet kalorieberegner. Det kræver naturligvis, at du har registreret og målt nøjagtigt hvor meget du har spist på en dag.
 
@@ -77,7 +77,7 @@ Inden du går i gang med madberegneren fra Fødevarestyrelsen, så er det dog en
 
 > Madberegnerens udvalg af mad og drikke er ikke fyldestgørende i forhold til at afspejle, hvad danskerne spiser i dag. Der er heller ikke et udvalg af udenlandske retter, som mange danskere også spiser i dag. Men madberegneren kan dog stadig anvendes som et udgangspunkt ved vurderingen af en person daglige mad og drikke.
 
---- <cite>[Fødevarestyrelsen](https://altomkost.dk/test-dig-selv/madberegneren/)</cite>
+--- <cite>[Fødevarestyrelsen](https://madberegneren.foedevarestyrelsen.dk/)</cite>
 
 Beregningerne foregår i tre trin. Først indtaster du lidt oplysninger om dig selv og dit aktivitetsniveau.
 
@@ -100,6 +100,10 @@ Det er smart, at det samlede overblik fortæller, **hvor meget frugt og grønt**
 Desværre mangler der flere ting i det samlede overblik. Det er ganske enkelt lidt for begrænset. Det er virkelig ærgerligt, at man fx ikke får overblik over alle makronæringsstofferne, fx er kulhydrat og protein ikke udpenslet.
 
 Desuden kunne madberegneren formentlig relativt let give et overblik over mineraler og næringsstoffer.
+
+{% comment %}
+Beskriv madital.dk og madlog.dk (som er ret genial, fordi du kan betale fra gang til gang)
+{% endcomment %}
 
 ## Kalorie beregner til dagligt energiindtag
 

@@ -1,7 +1,7 @@
 ---
 title: "Reactive Training Systems - Intermediate example template"
 permalink: /rts-generalized-intermediate/
-excerpt: "Mike Tusherer fra Reactive Training Systems har lavet et eksempel på et træningsprogram med brug af RPE og fatigue percents."
+excerpt: "Mike Tuchscherer fra Reactive Training Systems har lavet et eksempel på et træningsprogram med brug af RPE og fatigue percents."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
@@ -32,7 +32,7 @@ Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen 
 
 Programmet er målrettet den øvede løfter. Vi har samlet en [række andre træningsprogrammer til inspiration]({% link _pages/trainingprograms-archive.md %}), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
 
-Mike Tusherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
+Mike Tuchscherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
 {: .notice .notice--info }
 
 Det løser to udfordringer, der kan være med normale programmer:
@@ -191,6 +191,8 @@ Realistisk set er det først i uge 9 af programmet, hvor det også er meningen, 
 ## Hvad så nu?
 
 Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbefale at kigge på [reactivetrainingsystems.com](https://www.reactivetrainingsystems.com/). Der er masser af gratis artikler, forum og videoklip om træningsmetoden.
+
+Jeg kan på det varmeste anbefale at bruge [RTS-appen som træningslog](/rts-app/).
 
 ## Referencer
 

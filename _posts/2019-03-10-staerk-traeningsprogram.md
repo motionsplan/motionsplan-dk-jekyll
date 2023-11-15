@@ -162,7 +162,7 @@ Den overordnede progression i programmet giver en god ide om, hvordan programmet
 
 Jeg har indtryk af, at mange undrer sig over, at vægten i uge 5, hvor man begynder at køre 5'ere ligger noget under vægten fra din 5RM, du har lavet i den første uge.
 
-Beermanns pointe med denne opbyging er, at man kan fokusere på perfekt teknik. Når du fokuserer på en høj _intended barspeed_, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
+Beermanns pointe med denne opbyging er, at man kan fokusere på perfekt teknik. Når du fokuserer på en høj _[intended bar speed](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/)_, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
 
 Når du har kørt en cyklus, så kan du egentlig bare starte på programmet igen med nye 5RM-tests.
 
