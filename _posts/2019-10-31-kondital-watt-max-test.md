@@ -29,7 +29,6 @@ feature_row:
     url: "https://wattbike.com/dk/product/wattbike"
     btn_label: "Besøg Wattbike"
     btn_class: "btn--success"
-breadcrumbs: true
 ---
 
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
@@ -98,6 +97,12 @@ På Vejle Idrætshøjskole forsøger vi at køre testen på en Wattbike. Vi brug
 [The Maximal Ramp Test](https://wattbike.com/dk/performance-tests/the-maximal-ramp-test) er en maksimal cykeltest, som er indbygget i Wattbikes. Den ligner Watt max-testen, så det kan anbefales bare at bruge den, hvis du har adgang til en Wattbike.
 
 {% include feature_row type="left" %}
+
+## Konklusion
+
+Watt-max-testen er let at udføre. Når du har resultaterne fra testen, så har du faktisk også nyttige informationer, som du kan bruge direkte i dit træningsprogram.
+
+Du kan nemlig kaste dig over [V<sub>max</sub>-træning på cyklen](/vmax-cykling/). Her kan du skræddersy et program, som retter sig mod at forbedre din [VO2-max](/maksimale-iltoptagelse-vo2max/).
 
 ## Referencer
 

@@ -20,17 +20,23 @@ last_modified_at: 2022-04-22T23:14:14Z
 toc: true
 ---
 
-V<sub>max</sub>-cykeltræning er cykelintervaller med en intensitet omkring den maksimale iltoptagelse. Her fåre du en beregner som kan beregne hvilken intensitet, du skal køre de enkelte cykelintervaller i.
+V<sub>max</sub>-cykeltræning er cykelintervaller med en intensitet omkring den maksimale iltoptagelse. Her får du en beregner som kan beregne hvilken intensitet, du skal køre de enkelte cykelintervaller i.
 
-Jeg har skrevet en [teoretisk gennemgang af V<sub>max</sub>-træning](/vmax/), som du kan læse først. V-max-cykeltræning er [intervaltræning](/intervaltraening/) omkring den maksimale iltoptagelse. Træningsformen er baseret på et træningsstudium af [Smith et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/06000/Effects_of_4_wk_training_using_Vmax_Tmax_on.19.aspx). . Hvis du vil have det bedste udbytte af træningen, så er det godt at lave en plan, der sikrer _progressivt overload_ i løbet af fx en måned, som de gjorde i det oprindelige studium.
+Jeg har skrevet en [teoretisk gennemgang af V<sub>max</sub>-træning](/vmax/), som du kan læse først. V-max-cykeltræning er [intervaltræning](/intervaltraening/) omkring den maksimale iltoptagelse. Træningsformen er baseret på et træningsstudium af [Smith et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/06000/Effects_of_4_wk_training_using_Vmax_Tmax_on.19.aspx). 
 
-Det oprindelige studium er lavet med løbere, men teoretisk set kan man overføre tankegangen bag studiet til cykling og roning også. [Morten Zacho](https://web.archive.org/web/20110606133951/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/){:rel="nofollow"} foreslår også V<sub>max</sub> træning til cykling.
+Hvis du vil have det bedste udbytte af træningen, så er det godt at lave en plan, der sikrer _progressivt overload_ i løbet af fx en måned, som de gjorde i det oprindelige studium.
+
+Det oprindelige studium er lavet med løbere, men teoretisk set kan man overføre tankegangen bag studiet til cykling og roning også.
+
+[Morten Zacho](https://web.archive.org/web/20110606133951/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/){:rel="nofollow"} foreslår også V<sub>max</sub> træning til cykling.
 
 ## Cykelprogrammet baseret på studiet
 
 Opvarmningen i studiet foregik først med fem minutter ved selvvalgt hastighed, lidt udstrækning og derefter 5 minutter på 60% V<sub>max</sub>. Alle træninger sluttede med 5-10 minutters aktiv restitution.
 
-Jeg kan ikke finde informationer om pausetider eller pauseintensitet mellem intervallerne. I lignende protokoller for at flytte VO<sub>2</sub>max, så har man brugt _work/rest_-ratio på 2:1, så jeg har valgt som standard at sætte pausetiderne til halvdelen af intervallerne. Intensiteten i pausen har jeg valgt at sætte til samme intensitet, som bruges på restitutionsløbene. Du kan selv i løbeprogramberegneren ændre denne procentdel.
+Jeg kan ikke finde informationer om pausetider eller pauseintensitet mellem intervallerne. I lignende protokoller for at flytte VO<sub>2</sub>max, så har man brugt _work/rest_-ratio på 2:1, så jeg har valgt som standard at sætte pausetiderne til halvdelen af intervallerne.
+
+Intensiteten i pausen har jeg valgt at sætte til samme intensitet, som bruges på restitutionsløbene. Du kan selv i beregneren til cykelprogrammet ændre denne procentdel.
 
 | Uge | Session 1 | Session 2 (restitution) | Session 3 |
 |-|-|-|-|
@@ -39,7 +45,9 @@ Jeg kan ikke finde informationer om pausetider eller pauseintensitet mellem inte
 | 3 | 6 intervaller @ 70% T<sub>max</sub> | 30 minutter @ 60% V<sub>max</sub> | 6 intervaller @ 60% T<sub>max</sub> |
 | 4 | 6 intervaller @ 75% T<sub>max</sub> | 30 minutter @ 60% V<sub>max</sub> | 6 intervaller @ 65% T<sub>max</sub> |
 
-I studiet træner de højintensive intervaller to gange om ugen, mens de lavede [restitutionstraening](/restitutionstraening/) en gang om ugen, men du kan også få fremgang ved at indføre træningsformen en gang om ugen. Du kan overveje at starte dit eget program med 60% af T<sub>max</sub> for at kunne lave progressivt overload de følgende uger.
+I studiet træner de højintensive intervaller to gange om ugen, mens de lavede [restitutionstræning](/restitutionstraening/) en gang om ugen, men du kan også få fremgang ved at indføre træningsformen en gang om ugen.
+
+Du kan overveje at starte dit eget program med 60% af T<sub>max</sub> for at kunne lave progressivt overload de følgende uger.
 
 ## Beregning af V<sub>max</sub> til cykel
 
