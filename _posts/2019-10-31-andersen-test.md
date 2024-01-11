@@ -19,7 +19,7 @@ tags:
   - løb
   - beregner
   - test
-last_modified_at: 2023-09-25T08:14:14Z
+last_modified_at: 2024-01-11T08:14:14Z
 feature_row:
   - image_path: /assets/images/freebies/andersen-notering.png
     url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
@@ -37,17 +37,23 @@ feature_row:
     rel: nofollow noopener
 ---
 
-Andersen testen er en [konditionstest](/test-kondition-konditest-kondital/), som er særligt velegnet til børn. Andersens test er let at udføre med mange børn og alle er aktiveret undervejs.
+Andersen testen er en [konditionstest](/test-kondition-konditest-kondital/), hvor du skiftevis løber og holde pause i 10 minutter. Testen kan bruges til at estimere konditallet på gruppeniveau. Testen er særligt velegnet til børn og kan udføres med større grupper, hvor alle er aktivitet undervejs.
 
-Andersen testen er særlig god til test af børn, og det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/). Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), og den er samtidig meget nem at udføre og organisere.
+Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/).
 
-Testen udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
+Testen er let at udføre og let at organsiere.
+
+Testen er egnet fordi den ikke udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
+
+Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), men datagrundlaget for testen er lidt spinkelt. Derfor er udregningen af konditallet ud fra testen behæftet med flere ting, du skal være opmærksom på.
 
 ## Hvad er Andersen Test?
 
-Andersen Testen er en konditionstest for børn og unge udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/). Testen foregår på en 20 meter lang bane, hvor deltagerne skal løbe fra side til side. Deltagerne skal løbe i 15 sekunder og holde pause i 15 sekunder. Det gør de 20 gange, så testen tager altså kun 10 minutter at gennemføre.
+Andersen Testen er en konditionstest for børn og unge udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/). Testen foregår på en 20 meter lang bane, hvor deltagerne skal løbe fra side til side. Deltagerne skal løbe i 15 sekunder og holder pause i 15 sekunder. Det gør de 20 gange, så testen tager altså kun 10 minutter at gennemføre.
 
 Testen er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet. Fordelene ved testen er, at den er let at organisere. Hvis du fx har en hal, så svarer de 20 meter til bredden på en håndboldbane.
+
+Du kan udregne elevernes kondital ud fra testens resultat. Men sørg for at læse lidt videre for at forstå mere om udregningen.
 
 ## Instruktion til Andersens Test
 
@@ -64,6 +70,8 @@ Hvis du foretrækker at læse, hvordan du laver testen, så tjek her:
 - Testen varer i alt 10 minutter. Deltagerne skal altså løbe 20 intervaller i alt.
 - Klassen kan fx deles op i 2 hold. Det ene hold løber, og det andet hold tæller, hvor mange baner de løber. Bagefter byttes der.
 - Husk at eleverne skal varme grundigt op før testen, 5-10 minutter efterfulgt af nogle minutters pause.
+
+Det kan være en god ide at prøve testen to gange, så eleverne lærer hvordan de skal pace sig selv i testen for at kunne løbe så langt som muligt. Som med alle tests er der altid en læringseffekt i tests.
 
 ## Beregn kondital med Andersen Testen
 
@@ -123,17 +131,49 @@ Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
 
 --- <cite>[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)</cite>
 
-Aadland et al (2014) konkluderer også, at du bør lave to tests for at få valide resultater. Det skyldes bl.a. en læringseffekt ved testen.
+Aadland et al (2014) konkluderer også, at du bør lave to tests for at få valide resultater. Det skyldes bl.a. en læringseffekt ved testen. Når du prøver den anden gang, så ved du hvor meget gas du kan give den.
 
-Aadland et al (2014) foreslår også en ny formel for testen, der giver en bedre forudsigelse på resultaterne på de 10-årige børn i dette studium.
+Den store inter-individuelle variation i data gør som sagt, at testen ikke er så pålidelig til at estimere et individuelt kondital uanset alder. 
+
+## Alternativ formel til udregning af kondital
+
+Aadland et al (2014) foreslår en ny formel for testen, der giver en bedre forudsigelse på resultaterne på de 10-årige børn i dette studium.
 
 VO<sub>2peak</sub> = 23,262 + 0,050 * Andersen distance – 3,858 * køn – 0,376 * kropsvægt (kg)
 
 Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
 
+## Hvorfor er der forskel på piger og drenge?
+
+I regressionen i testen holder forskerne konditallet fra en max-test op mod den distance forsøgsdeltagerne løber i testen.
+
+Men konditallet kan formentlig ikke alene forklare variationen i løbedistance mellem personer.
+
+Andre faktorer spiller også ind.
+
+I formlerne får pigerne et lavere kondital, selvom de løber den samme distance.
+
+Hvordan kan det være?
+
+Først og fremmest skyldes det naturligvis, at pigerne i studierne generelt får målt et lavere kondital i max-testen end drengene. Når formlen er baseret på en ren regressionslinje med løbedistancen, så får de en lavere skæring på y-aksen.
+
+Det er den direkte forklaring på, at der er en kønsforskel i formlen.
+
+Men hvad kan forklaringen så være på, at piger ved samme distance får et lavere kondital.
+
+Kondital mellem piger og drenge kan ikke sammenlignes direkte. Konditallet er skaleret med kropsvægt og ikke med fedtfri masse. Det gør at kondital ikke kan sammenlignes en til en.
+
+En anden mulig forklaring kan også være bevægelsesøkonomi. Jo mere energiøkonomisk man kan løbe og vende i testen, desto mindre kondital behøver du for at yde mere i testen. Hvis pigerne har en bedre bevægelsesøkonomi end drengene, så skal de altså bruge mindre ilt på at løbe de 1000 meter.
+
+Men først og fremmest skal du altså være varsom med at betragte konditallet som alt for præcist på individ-niveau - og være opmærksom på at kondital er skaleret med vægten og ikke den fedtfri masse.
+
+Piger har typisk en højere fedtprocent, og da fedt ikke forbruger ilt, så vil de også skaleret ift. vægt have en lavere iltoptagelse.
+
 ## Andre konditionstests til børn
 
-Andersen-testen er en rigtig god konditionstest, når du har en større gruppe børn. Hvis du har brug for en anden præcis konditionstest til børn, så kan du også bruge [Watt-max testen på cykel for børn](/kondital-wattmax-boern/). Denne test kræver imidlertid, at du har adgang til et præcist cykelergometer.
+Andersen-testen er en fin konditionstest, når du har en større gruppe børn, som du gerne vil teste på en gang. Hvis du har brug for en anden præcis konditionstest til børn, så kan du også bruge [Watt-max testen på cykel for børn](/kondital-wattmax-boern/). Denne test kræver imidlertid, at du har adgang til et præcist cykelergometer.
+
+Ellers kan du naturligvis også prøve [bip-testen](/bip-test/). Fordelen ved bip-testen er, at her skal deltagerne ikke lære at pace testen, fordi de bare skal følge tempoet i testen. Det er fordelen ved en ramp-test.
 
 ## Referencer
 
