@@ -111,15 +111,17 @@ Der ser også ud til, at [excentrisk træning er med til at stimulere senens dan
 
 ## Hvordan kan jeg lave excentrisk træning?
 
+{% TODO MAN KAN SAGTENS LAVE EXCENTRISK UDEN HJÆLP I KROPSVÆGTSØVELSERNE - LINK OGSÅ TIL DET SKADESFOREBYGGENDE %}
+
 Først og fremmest så skal du overveje i hvilke øvelser excentrisk træning giver mening, og hvordan du sørger for sikkerheden i øvelserne?
 
 Excentrisk træning er lettest at lave med en træningsmakker, som kan hjælpe med at få vægtene op i den koncentriske fase og hjælpe med sikkerheden i den excentriske fase. Det kræver altså ofte **assistance** at lave excentrisk træning.
 
-Hvis du ikke har en træningsmakker, så kan du lave **selvspottet træning**. Her kan du vælge øn øvelse, hvor du kan hjælpe dig selv forbi den koncentriske fase.
+Hvis du ikke har en træningsmakker, så kan du lave **selvspottet træning**. Her kan du vælge en øvelse, hvor du kan hjælpe dig selv forbi den koncentriske fase.
 
 Du kan lave [glute ham raise](/oevelse/glute-ham-raises/) og [nordic hamstring](/oevelse/nordic-hamstring/), som har vist sig at være rigtig gode til at beskytte baglårene for skader.
 
-Du kan også lave [dips]({% link _exercises/dips-18.md %}) og [pull-ups og chinups](/chinup-vs-pullup/), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
+Du kan også lave [dips](/oevelse/dips/) og [pull-ups og chinups](/chinup-vs-pullup/), hvor det er relativt let at finde måder, hvor man kan hjælpe sig selv op i den koncentriske fase og sænke dig langsomt i den excentriske fase. Excentrisk træning kan fx i et [træningsprogram til pullups]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}) også være med til at træne dig op til, at du til sidst kan tage en pullup.
 
 Hvis du er på udkig efter mere inspiration til excentrisk træning, så har [Christian Thibaudeau](https://www.t-nation.com/training/accentuated-eccentric-training) lavet en guide til det.
 

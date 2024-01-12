@@ -1,7 +1,7 @@
 ---
 title: "Achillessene, excentrisk"
-excerpt: "Stå på en kantsten med hælene lidt ud over. Stil dig op på tæerne, og derefter sænker du dig ned på den ene fod. Gentag for den anden fod."
-instructions: "Stå på en kantsten med hælene lidt ud over. Stil dig op på tæerne, og derefter sænker du dig ned på den ene fod. Gentag for den anden fod."
+excerpt: "Stå med tæerne på en kant med hælene ud over. Rejs dig op på tæerne, og derefter sænker du dig ned på den ene fod. Rejs dig op på tæerne med begge fødder. Gentag for den anden fod."
+instructions: "Stå med tæerne på en kant med hælene ud over. Rejs dig op på tæerne, og derefter sænker du dig langsomt ned over 5 sekunder på den ene fod. Rejs dig op på tæerne med begge fødder. Gentag for den anden fod."
 permalink: /oevelse/achillessene-excentrisk/
 redirect_from: /node/267
 id: 267
@@ -36,9 +36,9 @@ gallery:
     image_path: /assets/images/exercises/achillessene-excentrisk-4-320.jpg
     alt: "Achillessene, excentrisk"
     title: "Achillessene, excentrisk"
-last_modified_at: 2011-04-19T11:32:11Z
+last_modified_at: 2024-01-11T11:32:11Z
 ---
 
-Stå på en kantsten med hælene lidt ud over. Stil dig op på tæerne, og derefter sænker du dig ned på den ene fod. Gentag for den anden fod.
+Stå med tæerne på en kant med hælene ud over. Rejs dig op på tæerne, og derefter sænker du dig langsomt ned over 5 sekunder på den ene fod. Rejs dig op på tæerne med begge fødder. Gentag for den anden fod.
 
 Denne øvelse er velegnet til genoptræning af achillessenen.
