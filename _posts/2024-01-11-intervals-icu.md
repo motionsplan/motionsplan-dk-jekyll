@@ -127,6 +127,12 @@ Nu har du sat indstillingerne op, og du er klar til at bruge de forskellige muli
 
 God fornøjelse.
 
+## 4. Tilføj venner og coach
+
+Hvis du har venner eller en 'coach', så kan du tilføje det under dit profilbillede.
+
+{% include figure image_path="/assets/images/blog/intervals-icu-profile-coach.jpg" %}
+
 ## Ofte stillede spørgsmål
 
 {% include faq.html %}
