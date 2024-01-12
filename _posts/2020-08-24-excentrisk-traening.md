@@ -111,7 +111,9 @@ Der ser også ud til, at [excentrisk træning er med til at stimulere senens dan
 
 ## Hvordan kan jeg lave excentrisk træning?
 
-{% TODO MAN KAN SAGTENS LAVE EXCENTRISK UDEN HJÆLP I KROPSVÆGTSØVELSERNE - LINK OGSÅ TIL DET SKADESFOREBYGGENDE %}
+{% comment %}
+TODO MAN KAN SAGTENS LAVE EXCENTRISK UDEN HJÆLP I KROPSVÆGTSØVELSERNE - LINK OGSÅ TIL DET SKADESFOREBYGGENDE
+{% endcomment %}
 
 Først og fremmest så skal du overveje i hvilke øvelser excentrisk træning giver mening, og hvordan du sørger for sikkerheden i øvelserne?
 
