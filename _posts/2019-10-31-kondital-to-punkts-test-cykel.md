@@ -46,7 +46,7 @@ Til Åstrands **to-punktstest** skal du bruge en kondicykel, der kan vise belast
 I topunktstesten skal du køre med to forskellige belastninger målt i watt:
 
 - **Første belastning**: din puls skal ramme _steady state_ omkring 120-140 slag/min efter ca. 5-6 minutters cykling.
-- **Anden belastning**: din puls skal ramme _steady state_ omkring 150-170 slag/min efter yderligere 3-4 minutters cykling.
+- **Anden belastning**: din puls skal ramme _steady state_ omkring 150-170 slag/min efter yderligere 4-5 minutters cykling.
 
 Du kan beregne dit kondital ved at indtaste værdierne i beregneren nedenunder, lave et regneark eller bruge en formel til at finde dit kondital.
 
