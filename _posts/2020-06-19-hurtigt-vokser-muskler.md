@@ -113,7 +113,7 @@ Et eksempel:
 
 Så kan jeg hurtigt regne ud, at en [dansk mand af gennemsnitlig højde](/hvad-er-gennemsnitshoejden-i-danmark/) på 1,81 meter kan pakke lige omkring 55 kg muskler.
 
-Jeg rammer selv gennemsnitshøjden i Danmark for mænd. Jeg fik for nylig lavet en [bioimpedans kropskomposition med InBody](/artikel/inbody-570-bioimpedans/), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
+Jeg rammer selv gennemsnitshøjden i Danmark for mænd. Jeg fik for nylig lavet en [bioimpedans kropsmåling med InBody](/artikel/inbody-570-bioimpedans/), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
 
 Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træningspauser, og så er jeg blevet mere end 40 år gammel. Hvis jeg går i gang nu, så kan jeg måske tage 4-5 kg muskelmasse på, hvis jeg virkelig fokuserer på det på det første år. Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vanskeligere med under et kg om året. Jeg skal nok aldrig regne med at opfylde mit fulde potentiale ifølge denne model.
 

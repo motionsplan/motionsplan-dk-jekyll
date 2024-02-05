@@ -23,14 +23,6 @@ tags:
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
-    alt: "Badevægt med fedtprocent måler"
-    title: "Badevægt med fedtprocent måler"
-    excerpt: "Badevægten giver dig en komplet oversigt over både vægt, fedtprocent, [BMI](/bmi/), væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, så den passer til hele familien. Du skal ikke forvente, at vægten er valideret og så præcis, som en InBody-måling."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
     alt: "Tanita DC 360P Kropsanalysevægt test"
     title: "Tanita DC 360P Kropsanalysevægt"
@@ -95,7 +87,7 @@ Hvis du gerne vil have dit resultat til at være så præcist som muligt, så sk
 
 ## Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }.
+På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://bodytracker.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }.
 
 InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
 
@@ -115,7 +107,7 @@ Skelet Muscle Mass (SMM)
 : Skeletmusklerne er de primære bevægelsesmuskler. Desto større andelen af muskler er i forhold til fedt, desto stærkere er kroppen.
 
 Percent Body Fat (PBF)
-: Angiver hvor stor en del af kroppen, der består af fedt.
+: Angiver hvor stor en del af kroppen, der består af fedt. Du kan sammenligne dit resultat med [normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
 
 Extra Cellular Water-ratio (ECW Ratio)
 : Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen. ECW skal være mellem 0.36 og 0.39 ifølge [InBody FAQ](https://qr.inbody.com/ri/570/adult/en-US).
@@ -128,7 +120,9 @@ Når du har lavet testen, så får du også et resultatark skrevet ud. Resultat 
 
 {% include figure image_path="https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra bioimpedansmålingen for InBody 570. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/)." alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
 
-På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket. Du kan lære mere ved at se denne video fra Youtube:
+På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket.
+
+Du kan lære mere ved at se denne video fra Youtube:
 
 {% include video id="-zwAYct6COs" provider="youtube" %}
 
@@ -158,9 +152,9 @@ Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage de
 
 Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
 
-Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine. Du kan sammenligne dit resultat med [normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
+Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
 
-Måske rammer du allerede din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
+Måske rammer du allerede din [idealvægt](/idealvaegt/), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 
 ## Referencer
 

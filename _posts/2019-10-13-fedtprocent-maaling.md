@@ -176,4 +176,4 @@ Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på
 
 Når nu det er så vanskeligt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur](/slankekur/) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfordring med din fedtprocent.
 
-Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) og vores betragtninger om [BMI for mænd og kvinder](/bmi/).
+Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt](/idealvaegt/) og vores betragtninger om [BMI for mænd og kvinder](/bmi/).

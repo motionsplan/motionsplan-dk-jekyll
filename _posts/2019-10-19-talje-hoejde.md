@@ -78,7 +78,7 @@ Talje-højde-forholdet er et rigtig godt supplement til det mere enkle taljemål
 
 Talje-højde-metoden siger imidlertid ikke så meget om fordelingen af fedt. Det kan du bruge [talje-hofte-ratioen](/talje-hofte-ratio/) til. Der findes også en anden måde at udregne sin sundhed på, som inddrager hofteomkredsen og højden. Jeg har lavet en [Body Adiposity Index-beregner](/bai-body-adiposity-index/).
 
-Husk at en simpel test aldrig giver det fulde billede. Du skal ikke lade et resultat kickstarte en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en mere eller mindre tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en onlineberegner.
+Husk at en simpel test aldrig giver det fulde billede. Du skal ikke lade et resultat kickstarte en [tvivlsom slankekur](/slankekur/), fordi du skal opnå en mere eller mindre tilfældig [idealvægt](/idealvaegt/) fra en onlineberegner.
 {: .notice .notice--info }
 
 ## Referencer

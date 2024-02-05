@@ -127,7 +127,7 @@ Hvis dit taljemål ligger uden for det anbefalede, så kan du med fordel tjekke 
 
 I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at [mavefedtet](/tab-fedt-paa-maven/) ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke din ratio mellem taljeomkredsen og hofteomkredsen en gang imellem.
 
-Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur](/slankekur/), fordi du skal opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
 ## Referencer
