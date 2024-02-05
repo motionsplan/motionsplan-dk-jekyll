@@ -9,7 +9,7 @@ category:
   - Løb
 tags:
   - løbeprogram
-last_modified_at: 2022-02-12T22:21:26Z
+last_modified_at: 2024-01-13T22:21:26Z
 feature_row:
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-run-walk-run-method_jeff-galloway_paperback_9781782550822
     image_path: https://imgcdn.saxo.com/_9781782550822/0x500
@@ -20,9 +20,11 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Galloway-metoden kan være en brugbar metode, hvis du gerne vil forbedre din personlige rekord samtidig med, at du gerne vil undgå skader. Vi har lavet en beregner, som du kan tage udgangspunkt i.
+Galloway-metoden veksler mellem løb og gang for at kunne træne længere tid uden at blive træt og derved undgå skader. Og du kan stadig flytte dine personlige rekorder. Her får du en introduktion til metoden, og du kan bruge vores beregner til at udregne dine egne intervaller.
 
-Jeg er lige ved at testkøre Garmin Coach, hvor Jeff Galloway er en af trænerne. Det er gratis, men der er nogle begreber, som man lige skal have styr på for at forstå programmet. Der er nogle forklaringer i Garmin Connect-appen, men jeg havde brug for at dykke lidt ekstra ned i detaljerne.
+Jeg er lige ved at testkøre Garmin Coach, hvor Jeff Galloway er en af trænerne. Det er gratis for brugere af Garmin Connect, men der er nogle begreber, som man lige skal have styr på for at forstå programmet.
+
+Der er nogle forklaringer i Garmin Connect-appen, men jeg havde brug for at dykke lidt ekstra ned i detaljerne.
 
 {% include figure image_path="https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="Jeff Galloways metode kan bruges af mange, men egner sig særlig godt til begyndere og moderat trænede." alt="Jeff Galloway løbemetode" %}
 
@@ -62,7 +64,7 @@ Acceleration Gliders minder lidt om _strides_ eller stigningsløb. Disse _glider
 
 ### Run Walk Run
 
-Dette er helt grundlæggende i hans metode. De lidt længere løb organiseres på denne måde. Vi kommer tilbage til, hvordan træningen skal skrues sammen. Lidt længere nede går vi ekstra i dybden med Run Walk Run-metoden.
+Run Walk Run er helt grundlæggende i Galloways metode. De lidt længere løb organiseres på denne måde. Vi kommer tilbage til, hvordan træningen skal skrues sammen. Lidt længere nede går vi ekstra i dybden med Run Walk Run-metoden.
 
 {% include feature_row type="left" %}
 
@@ -88,13 +90,13 @@ I denne beregner kan du udregne forskellige hastigheder, som du kan bruge i din 
 
 ## Hvordan løber man en Galloway Magic Mile?
 
-_The Magic Mile_ er en tidsløb. Du udfører løbet på denne måde.
+_The Magic Mile_ løbes på tid. Du udfører løbet på denne måde.
 
 1. Varm op med at løbe 1600 meter i langsomt tempo.
 2. Lav 2-3 _acceleration-gliders_ som ligner lidt stigningløb.
-3. Prøv at løbe i et stabilt tempo under hele løbet.
+3. Du skal løbe 1,6 kilometer i et stabilt hurtigt tempo under hele løbet.
 4. Løb så hurtigt som muligt uden at du får det dårligt. Du skal løbe i et tempo, så du efter løbet ikke vil kunne løbe mere end 100 meter mere i samme tempo.
-5. Gå 5 minutter bagefter. Jo langsom 1-6 _miles_ alt efter, hvor langt du gerne vil løbe på denne dag.
+5. Gå 5 minutter bagefter. Jog langsomt 1,6-9 kilometer alt efter, hvor langt du gerne vil løbe på denne dag.
 
 {% comment %}
 
@@ -108,7 +110,7 @@ https://www.outsideonline.com/health/running/training-advice/running-101/how-run
 
 ## Hvordan udføres Galloway-metoden?
 
-Galloway-metoden kaldes også _Run Walk Run®_-metoden. Hovedessensen i metoden er, at man kombinerer løb og gang.
+Galloway-metoden kaldes også _Run Walk Run®_-metoden. Grundlæggende skal du kombinere løb og gang.
 
 Galloway-metoden er således oplagt at bruge for begyndere for at komme i gang med at løbe. Galloway anbefaler imidlertid også metoden for at undgå skader. Derfor kan formentlig også bruges af øvede løbere for at få en god balance mellem træningsbelastning, løbevolumen og restitution.
 
@@ -116,9 +118,13 @@ Metoden er ret enkel. Lad os kigge på den i flere detaljer.
 
 ## Planlæg din Run Walk Run®-strategi
 
-Galloway advokerer for, at du med at kombinere løb og gang kan løbe både længere og hurtigere, end hvis du du løber hele tiden. Jeff Galloway lavede Run Walk Run®-metoden i 1974. Det er lidt interessant, at det er lykkes at registrere en metode, som i al sin enkelhed går ud på at skifte mellem løb og gang.
+Galloway advokerer for, at du kan løbe længere og hurtigere, hvis du kombinerer løb og gang, end hvis du du løber hele tiden.
 
-I Run Walk Run® veksler du mellem intervaller, hvor du skiftevis løber og går. Gangintervallerne er planlagt på forhånd, og meningen er, at du i hele din træning skifter mellem løb og gang. Det betyder, at du udskyder det punkt, hvor du bliver træt, fordi du kan restitutere mellem de enkelte løbeintervaller.
+Jeff Galloway beskrev Run Walk Run®-metoden i 1974. Det er lidt interessant, at det er lykkes at registrere en metode, som i al sin enkelhed går ud på at skifte mellem løb og gang.
+
+I Run Walk Run® veksler du mellem intervaller, hvor du skiftevis løber og går. Gangintervallerne er planlagt på forhånd, og meningen er, at du i hele din træning skifter mellem løb og gang.
+
+Det betyder, at du udskyder det punkt, hvor du bliver træt, fordi du kan restitutere mellem de enkelte løbeintervaller.
 
 Gangintervallerne skal være energiske, og du skal gerne forsøge at holde pulsen rimelig høj, selvom du går.
 
@@ -126,7 +132,11 @@ I denne video kan du se, hvordan du kan bruge metoden i forbindelse med et marat
 
 {% include video provider="youtube" id="ftzH8uYhQc0" %}
 
-Galloway har udviklet følgende tabel, som du kan bruge som udgangspunkt for, hvor lange dine løbe- og gang-intervaller skal være. Tabellen tager udgangspunkt i dit ønskede tempomål.
+## Ratio mellem gang og løb
+
+Galloway har udviklet følgende tabel, som du kan bruge som udgangspunkt for, hvor lange dine løbe- og gang-intervaller skal være.
+
+Tabellen tager udgangspunkt i dit ønskede tempomål.
 
 | Ønsket pace (min/km) | Løbeinterval | Ganginterval |
 |-|-|-|
@@ -142,7 +152,9 @@ Galloway har udviklet følgende tabel, som du kan bruge som udgangspunkt for, hv
 | 10:30-11:30 | 8 sek | 30 sek |
 | 11:30-12:30 | 5 sek | 30 sek |
 
-Du finder altså dit ønskede pace i tabellens kolonne til venstre. Meningen er altså, at jo hurtigere løber du er, jo længere er dine løbeintervaller. Tempoet under løbeintervallerne skal naturligvis være lidt hurtigere, end hvis du løber hele tiden for at holde tempoet.
+Du finder altså dit ønskede pace i tabellens kolonne til venstre. Jo hurtigere du løber er, jo længere er dine løbeintervaller. Tempoet under løbeintervallerne skal naturligvis være lidt hurtigere, end hvis du løber hele tiden for at holde tempoet.
+
+Mange starter metoden ved at køre 1:1, men senere kan man flytte sig mod 8:1.
 
 For at få det til at fungere, skal du prøve dig frem under din træning. For mange begyndere vil kombinationen være helt naturlig, mens den for mere øvede løbere formentlig kræver nogen tilvænning.
 
@@ -188,6 +200,14 @@ https://www.garmin.com/en-US/blog/fitness/setting-runwalk-feature/
 
 {% endcomment %}
 
+## Gode råd til Gallyway-metoden
+
+1. Prøv det! Du skal måske lige overtale dig selv til at gå på din løbetur, men det er lettere, når det er en del af en struktureret plan.
+2. Run Walk Run®-strategien bliver brugt på de fleste løbeture i Galloway-metoden, men du kan overveje om de lange løbeture skal være med færre pauser, så du får opbygget mere modstandsdygtighed.
+3. Husk at gå hurtigt. Du skal ikke slentre afsted, men gå hurtigt på gang-intervallerne. Transitionen mellem løb og gang kan også være meget fin at få øvet.
+
 ## Konklusion
 
-Jeff Galloways Run Walk Run-metode kan være en god struktureret måde at få mere overskud på de lidt længere løbeture. Ved at indsætte små, strukturerede gang-pauser i løbetræningen, så kan du løbe med mere energi og overskud - og du kan måske forebygge skader fordi den samlede belastning på kroppen bliver mindre.
+Jeff Galloways Run Walk Run-metode kan være en god struktureret måde at få mere overskud på de lidt længere løbeture.
+
+Ved at indsætte små, strukturerede gang-pauser i løbetræningen, så kan du løbe med mere energi og overskud - og du kan måske forebygge skader fordi den samlede belastning på kroppen bliver mindre.

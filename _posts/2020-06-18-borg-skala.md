@@ -57,9 +57,9 @@ Borg-skalaen er udformet af den svenske fysiolog, Gunnar Borg. En Borg-skala gå
 
 Derved kommer tallene på skalaen til at svare til et pulsområde, der går fra en hvilepuls på 60 og op til maksimal puls på 200. Det vil nogenlunde svare til en gennemsnitlig maxpuls for 20-årige.
 
-Rationalet bag Borg-skalaen er, at der er overensstemmelse mellem ens selvvurderede følte anstrengelse og den pulsen.
+Rationalet bag Borg-skalaen er, at der er overensstemmelse mellem ens selvvurderede følte anstrengelse og pulsen.
 
-Jeg har skrevet mere om [hvilepulsen](/hvilepuls/) og [maxpulsen](/test-max-puls/) her, hvis du er interesseret.
+Hvis du er interesseret, så kan du også læse mere om [hvilepulsen](/hvilepuls/) og [maxpulsen](/test-max-puls/).
 
 ## Borgs oprindelige anstrengelsesskala
 

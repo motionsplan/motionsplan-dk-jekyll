@@ -59,7 +59,7 @@ Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om 
 
 Der er forskellige bud på, hvordan du kan finde den aerobe tærskel. Du kan naturligvis altid bestille en laboratorietest, men det har alle ikke råd til.
 
-Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde de **aerobe tærskel**.
+Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde den **aerobe tærskel**.
 
 MAHR = 180 - alder + kategori
 

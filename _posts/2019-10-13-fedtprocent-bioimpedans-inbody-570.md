@@ -95,7 +95,9 @@ Hvis du gerne vil have dit resultat til at være så præcist som muligt, så sk
 
 ## Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }. InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
+På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }.
+
+InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
 
 ### Hvordan udføres bioimpedansmåling med InBody 570?
 
@@ -105,7 +107,7 @@ Det er ret enkelt at tage selve testen på InBody 570. Du følger bare instrukti
 
 Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
 
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler" alt="LCD på InBody 570" %}
+{% include figure image_path="https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/)" alt="LCD på InBody 570" %}
 
 De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er ratioen _extra cellulære væske_ (ECW-ratio) i forhold til den _intra cellulære væske (ICW)_.
 
@@ -116,7 +118,7 @@ Percent Body Fat (PBF)
 : Angiver hvor stor en del af kroppen, der består af fedt.
 
 Extra Cellular Water-ratio (ECW Ratio)
-: Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen.
+: Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen. ECW skal være mellem 0.36 og 0.39 ifølge [InBody FAQ](https://qr.inbody.com/ri/570/adult/en-US).
 
 Resultatarket indeholder også dit Body Mass Index. Vi har skrevet meget uddybdende om, hvordan du skal fortolke [BMI for kvinder og mænd](/bmi/).
 
@@ -124,7 +126,7 @@ Resultatarket indeholder også dit Body Mass Index. Vi har skrevet meget uddybde
 
 Når du har lavet testen, så får du også et resultatark skrevet ud. Resultat fra kropskompositionstesten ser nogenlunde sådan her ud:
 
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra bioimpedansmålingen for InBody 570" alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
+{% include figure image_path="https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra bioimpedansmålingen for InBody 570. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/)." alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
 
 På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket. Du kan lære mere ved at se denne video fra Youtube:
 
