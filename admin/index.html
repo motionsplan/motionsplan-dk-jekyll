@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motionsplan: Content Manager v. 1.0.1</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "video",
+    // Visible label
+    label: "Video",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'provider', label: 'Video Provider', widget: 'select', multiple: false, options: [ "youtube", "vimeo", "facebook" ], default: "youtube"},
+      {name: 'id', label: 'Video ID', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include video provider=\"(\S+)\" id=\"(\S+)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        provider: match[1],
+        id: match[2]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include video provider="' + obj.provider + '" id="' + obj.id + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "math",
+    // Visible label
+    label: "Math",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'formula', label: 'Formula', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include math formula=\"(.*)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        formula: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include math formula="' + obj.formula + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<img src="https://latex.codecogs.com/svg.latex?' + obj.formula + '" title="' + obj.formula + '" alt="' + obj.formula + '">'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "feature_row",
+    // Visible label
+    label: "Feature Row",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'type', label: 'Type', widget: 'select', multiple: false, options: [ "left", "center", "right" ], default: "left"}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include feature_row type=\"(\S+)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        type: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include feature_row type="' + obj.type + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<p>Feature Row</p>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "gallery",
+    // Visible label
+    label: "Gallery",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'caption', label: 'Caption', widget: 'text'},
+      {name: 'layout', label: 'Layout', widget: 'select', multiple: false, options: [ "half", "third", "quarter" ], default: "third"}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include gallery caption=\"(\S+)\" layout=\"(\S+)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        caption: match[1],
+        layout: match[2]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include gallery caption="' + obj.caption + '" layout="' + obj.layout + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<p>Gallery</p>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "exercise",
+    // Visible label
+    label: "Exercise",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["title", "key"], value_field: "key", display_fields: ["title", "key"]}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      console.log(match);
+      return {
+        key: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include exercise key="' + obj.key + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<p>Exercise: ' + obj.key + '</p>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "figure",
+    // Visible label
+    label: "Figure",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'image_path', label: 'Image Path', widget: 'string'},
+      {name: 'caption', label: 'Caption', widget: 'string'},
+      {name: 'alt', label: 'Alt', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include figure image\_path=\"(\S*)\" caption=\"(.*)\" alt=\"(.*)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        image_path: match[1],
+        caption: match[2],
+        alt: match[3]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include figure image_path="' + obj.image_path + '" caption="' + obj.caption + '" alt="' + obj.alt + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<figure><img src="' + obj.image_path + '" alt="' + obj.alt + '"><caption>' + obj.caption + '</caption></figure>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "abbr",
+    // Visible label
+    label: "Abbrevation",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'abbr', label: 'Abbrevation', widget: 'string'},
+      {name: 'meaning', label: 'Meaning', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\*\[(\S*)\]: (.*)\r?\n$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        abbr: match[1],
+        meaning: match[2]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '*[' + obj.abbr + ']: ' + obj.meaning;
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '*[' + obj.abbr + ']: ' + obj.meaning
+      );
+    }
+  });
+  </script>
+
+</body>
+</html>
