@@ -1,6 +1,6 @@
 ---
 title: &title "De bedste Instagram profiler om fitness og træning"
-seo_title: "De bedste Instagram profiler om fitness og træning (2023)"
+seo_title: "De bedste Instagram profiler om fitness og træning (2024)"
 permalink: /bedste-fitness-instagram/
 last_modified_at: 2023-01-01T09:41:09Z
 language: da

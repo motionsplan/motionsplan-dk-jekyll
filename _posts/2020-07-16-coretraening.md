@@ -1,6 +1,6 @@
 ---
 title: "Coretræning: 9 øvelser til stærk core og kropsstamme"
-seo_title: "Coretræning: 9 øvelser til stærk core og kropsstamme (2023)"
+seo_title: "Coretræning: 9 øvelser til stærk core og kropsstamme (2024)"
 description: Vil du gerne styrke musklerne omkring din kropsstamme og core. Svaret er core-træning. Her får du 9 øvelser til at træne kropsstammen og din core.
 permalink: /core/
 language: da

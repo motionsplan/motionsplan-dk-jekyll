@@ -1,6 +1,6 @@
 ---
 title: &title "Løbebøger 📚: 9 bøger om løb du skal have læst 🏃"
-seo_title: "Løbebøger: 9 bøger om løb du skal have læst 🏃 (2023)"
+seo_title: "Løbebøger: 9 bøger om løb du skal have læst 🏃 (2024)"
 permalink: /loebeboeger-boeger-om-loeb/
 language: da
 header:

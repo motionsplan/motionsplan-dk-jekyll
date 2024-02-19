@@ -1,6 +1,6 @@
 ---
 title: &title "Hvor høj bliver jeg? 📏 (Beregner)"
-seo_title: "Højdeberegner: Hvor høj bliver jeg? (2023)"
+seo_title: "Højdeberegner: Hvor høj bliver jeg? (2024)"
 excerpt: "Er du en af dem, der stiller spørgsmålet: Hvor høj bliver jeg? Du kan udregne, hvor høj du bliver på baggrund af din mors og fars højde. Læs her hvordan."
 permalink: /hvor-hoej-bliver-jeg/
 last_modified_at: 2023-01-01T09:41:09Z

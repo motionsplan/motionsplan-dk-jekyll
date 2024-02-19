@@ -1,6 +1,6 @@
 ---
 title: &title "Højde: Hvordan bliver jeg højere?"
-seo_title: "Højde: Hvordan bliver jeg højere? (2023)"
+seo_title: "Højde: Hvordan bliver jeg højere? (2024)"
 desscription: Er du interesseret i, hvordan du bliver højere? Her får du svar på alle dine spørgsmål om, hvad der har betydning for, hvor høj, du bliver.
 permalink: /hvordan-bliver-jeg-hojere/
 language: da

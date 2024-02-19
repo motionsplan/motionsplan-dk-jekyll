@@ -1,6 +1,6 @@
 ---
 title: "Naturfitness: 38 øvelser til træning i naturen"
-seo_title: "Naturfitness: 38 øvelser til naturtræning (2023)"
+seo_title: "Naturfitness: 38 øvelser til naturtræning (2024)"
 description: Her får du en masse forslag til øvelser, du kan bruge når du gerne vil træne ude i naturen. Øvelserne er velegnede til naturfitness og naturtræning.
 permalink: /naturfitness/
 last_modified_at: 2023-01-01T09:41:09Z

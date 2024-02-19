@@ -35,9 +35,9 @@ Først og fremmest handler det naturligvis om dine mål, hvordan du kombinerer s
 
 Jeg har lavet en 8 siders infographic om samtidig træning, som du kan se i bunden af denne artikel.
 
-## Hvad er elementerne i samtidig træning?
+## Hvad er elementerne i samtidig træning (concurrent training)?
 
-I den sammenhæng er det nødvendigt at få et par begreber på plads først om styrketræning og konditionstræning.
+For at forstå hvad samtidig træning er, så er det nødvendigt at få et par begreber på plads først om styrketræning og konditionstræning.
 
 Styrketræning
 : Formålet med styrketræning kan både være at bygge større muskler (hypertrofi), forbedre evnen til at løfte tungere (styrke) og evnen til at kunne yde mere kraft (power).
@@ -190,4 +190,4 @@ Kan du supplere med nogle forskningsresultater, der kan få os tættere på et g
 - Sabag, Angelo, Abdolrahman Najafi, Scott Michael, Tuguy Esgin, Mark Halaki, og Daniel Hackett. 2018. “The Compatibility of Concurrent High Intensity Interval Training and Resistance Training for Muscular Strength and Hypertrophy: A Systematic Review and Meta-Analysis”. Journal of Sports Sciences 36 (21): 2472–83. <https://doi.org/10.1080/02640414.2018.1464636>.
 - Wilson, Jacob, Pedro Marín, Matthew Rhea, Stephanie Wilson, Jeremy Loenneke, og JC Andersen. “Concurrent training: A meta-analysis examining interference of aerobic and resistance exercises”. Journal of strength and conditioning research / National Strength & Conditioning Association 26 (13. oktober 2011): 2293–2307. <https://doi.org/10.1519/JSC.0b013e31823a3e2d>.
 - Fyfe, Jackson, David John Bishop, og Nigel Stepto. “Interference between Concurrent Resistance and Endurance Exercise: Molecular Bases and the Role of Individual Training Variables”. Sports medicine (Auckland, N.Z.) 44 (12. april 2014). <https://doi.org/10.1007/s40279-014-0162-1>.
-</summary>
+</details>

@@ -1,6 +1,6 @@
 ---
 title: &title "Ruteopmåler til løberuter: 3 gode alternativer"
-seo_title: "Ruteopmåler til løberuter: Gratis muligheder (2023)"
+seo_title: "Ruteopmåler til løberuter: Gratis muligheder (2024)"
 permalink: /ruteopmaaler-loebetur/
 description: "Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten op på forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til."
 excerpt: "Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten op på forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til. Vi kigger her på nogle gode gratis alternativer til Iforms ruteplanner."

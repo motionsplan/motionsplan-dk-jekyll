@@ -1,6 +1,6 @@
 ---
 title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓"
-seo_title: "Liste over sportsgrene, idræt og motion (2023)"
+seo_title: "Liste over sportsgrene, idræt og motion (2024)"
 description: Vil du gerne finde en sport, motion og idræt, som du kan dyrke i din fritid? Vi har samlet de mest populære sportsgrene og idrætsgrene i Danmark.
 permalink: /sportsgrene-liste/
 language: da

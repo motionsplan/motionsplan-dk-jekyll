@@ -1,6 +1,6 @@
 ---
 title: &title "Træningsbøger 📚: 9 bedste bøger om træning 💪"
-seo_title: "Træningsbøger: 9 bedste bøger om træning (2023)"
+seo_title: "Træningsbøger: 9 bedste bøger om træning (2024)"
 permalink: /traeningsboeger-boeger-om-traening/
 language: da
 header:
