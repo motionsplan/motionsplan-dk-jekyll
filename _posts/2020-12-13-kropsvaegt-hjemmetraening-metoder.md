@@ -196,7 +196,7 @@ Eller pullup variationen med 7-7-7
 
 {% endcomment %}
 
-[Dan North foreslår](https://www.t-nation.com/training/build-muscle-anywhere-anytime) ud over unilaterale øvelser og isometriske og excentriske metoder også at bruge halvanden gentagelser, når man skal gøre træningen hårdere. Simon Bigshooter fra supertraining.dk er også [stor fan af halvanden chinups](http://supertraining.dk/255-superoevelse-one-and-a-half-rep-chin-ups/).
+[Dan North foreslår](https://www.t-nation.com/training/build-muscle-anywhere-anytime) ud over unilaterale øvelser og isometriske og excentriske metoder også at bruge halvanden gentagelser, når man skal gøre træningen hårdere. Simon Bigshooter fra supertraining.dk er også [stor fan af halvanden chinups](https://supertraining.dk/255-superoevelse-one-and-a-half-rep-chin-ups/).
 
 {% comment %}
 

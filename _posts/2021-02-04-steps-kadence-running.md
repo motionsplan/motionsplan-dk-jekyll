@@ -184,6 +184,14 @@ Til gengæld ser det ud til, at du gerne må arbejde med din løbekadence, så d
 
 Hvordan arbejde du med din skridtlænge og løbekadence?
 
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer til løbetræning og styrketræning</summary>
+
+
+</details>
+
 {% comment %}
 
 ##

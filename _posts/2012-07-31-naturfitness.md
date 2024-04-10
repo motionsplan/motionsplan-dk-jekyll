@@ -194,7 +194,7 @@ Men lad os dykke lidt mere ned i øvelser til naturfitness og naturtræning.
 
 Naturstyrelsen har lavet et glimrende hæfte om at træne udenfor. De kalder træningen for Naturfitness, men vi kunne lige så godt kalde det for outdoor fitness og udendørs træning.
 
-Du kan læse mere på [Naturstyrelsens hjemmeside](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/) om Naturfitness. Du kan også [printe en folder med alle øvelserne](https://naturstyrelsen.dk/media/207368/naturfitness_haefte_print_2012.pdf).
+Du kan læse mere på [Naturstyrelsens hjemmeside](https://naturstyrelsen.dk/aktiviteter-i-naturen/cykling-loeb-og-fitness/naturfitness/) om Naturfitness. Du kan også [printe en folder med alle øvelserne](https://naturstyrelsen.dk/media/hyaijuix/tekster_til_illustrationerne.pdf).
 
 Jeg har samlet alle øvelserne fra konceptet til naturtræning øvelser herunder, som du kan bruge, når du træner i naturen.
 

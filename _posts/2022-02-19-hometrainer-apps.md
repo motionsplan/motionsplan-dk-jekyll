@@ -22,7 +22,7 @@ Der er masser af muligheder for at få en indendørs cykeloplevelse, så tag et 
 
 {% include figure image_path="https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=450&w=600&q=60" caption="Virtuel cykling og e-cycling" %}
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
 
 ## Apps til virtuel cykling og e-cykling
 
@@ -34,7 +34,7 @@ Lad os starte med konklusionen og mine egne personlige oplevelser.
 
 Det er ikke helt tilfældigt, at jeg har sat Zwift øverst på listen. Zwift er den største spiller på markedet, og det er netop en af fordelene. Der er et stort _community_, og der er altid mange løb i gang, hvor du kører sammen med andre. På nogle af de andre platforme er fornemmelsen lidt, at du kører mod _bots_.
 
-Jeg kan godt lidt RGT Cycling, fordi det er gratis, og da jeg bruger cykeltræningen, som et supplement, så har jeg en lidt bedre fornemmelse, når jeg hellere vil løbe i dag, når platformen er gratis.
+Jeg kan godt lide MyWhoosh Cycling, fordi det er gratis, og da jeg bruger cykeltræningen, som et supplement, så har jeg en lidt bedre fornemmelse, når jeg hellere vil løbe i dag, når platformen er gratis.
 
 ### 1. Zwift
 
@@ -48,15 +48,15 @@ Hvis du leder efter en app, der både giver dig en god træning og er sjov, er Z
 
 Læs: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
 
-### 2. Wahoo RGT Cycling
+### 2. MyWhoosh Cycling
 
-Wahoo RGT Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
+MyWhoosh Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift. Den har en række forskellige baner at vælge imellem, og du kan også oprette din egen bane.
 
 {% include video provider="youtube" id="D29q_wssy0k" %}
 
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring sammen , og snakke med dem.
 
-Læs: [RGT Cycling anmeldelse](/rgt-cycling/)
+Læs: [MyWhoosh Cycling anmeldelse](/mywhoosh-cycling/)
 
 ### 3. BKOOL
 

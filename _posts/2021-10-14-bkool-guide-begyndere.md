@@ -72,7 +72,7 @@ Lad os dykke ned i begynderguiden til BKOOL.
 
 {% include figure image_path="https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="BKOOL begynder" %}
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) \| [Wahoo RGT Cycling](/rgt-cycling/) \| [Rouvy](/rouvy/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/)
 
 ## Hvad er BKOOL og hvordan kommer jeg i gang?
 
@@ -188,4 +188,4 @@ Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, 
 
 Læs mere om BKOOL på [ecycleklub.dk](https://www.ecykleklub.dk/page/kom-godt-igang-med-bkool). Særligt afsnit 5 er en god oversigt.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/)

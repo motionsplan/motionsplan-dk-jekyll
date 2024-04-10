@@ -13,20 +13,25 @@ tags:
   - styrketræning
   - cykling
 last_modified_at: 2016-01-02T10:14:14Z
-toc: true
 ---
 
 Skal du lave tung styrketræning, når du cykler? Kan styrketræning forbedre præstationen ved cykling? Hvad siger den seneste forskning på området om styrketræning er et godt supplement til landevejscykling?
 
-Det er efterhånden veldokumenteret at tung styrketræning er et effektivt supplement til landevejscykling, men alligevel prioriteres udholdenhedstræningen på landevejen, fremfor tiden i maskinerne. Det kan hænge sammen med at skiftet fra træningslokalerne til cyklen kan virke bøvlet og tidskrævende. En anden faktor kan være usikkerhed omkring øvelsesvalg, antal gentagelser og frekvensen af træningen.
+Det er efterhånden veldokumenteret at tung styrketræning er et effektivt supplement til landevejscykling, men alligevel prioriteres udholdenhedstræningen på landevejen, fremfor tiden i maskinerne.
+
+Det kan hænge sammen med at skiftet fra træningslokalerne til cyklen kan virke bøvlet og tidskrævende. En anden faktor kan være usikkerhed omkring øvelsesvalg, antal gentagelser og frekvensen af træningen.
 
 ## Forskning med styrketræning og cykling  
 
-Styrketræning i cykelsport er et forholdsvist nyt fænomen, og forskningen kunne først dokumentere en virkning i 2010, hvor en norsk undersøgelse af Ben R Rønnestad, kunne dokumentere en positiv effekt af tung styrketræning hos trænede cykelryttere (4, 5). Efterfølgende har flere studie kunne bekræfte dette og tilføje viden omkring den kontinuerlige effekt henover den aktive løbssæson (2, 3).
+Styrketræning i cykelsport er et forholdsvist nyt fænomen, og forskningen kunne først dokumentere en virkning i 2010, hvor en norsk undersøgelse af Bent R. Rønnestad, kunne dokumentere en positiv effekt af tung styrketræning hos trænede cykelryttere (4, 5).
+
+Efterfølgende har flere studie kunne bekræfte dette og tilføje viden omkring den kontinuerlige effekt henover den aktive løbssæson (2, 3).
 
 ## Opbygningen af studierne om styrketræning og cykling
 
-Alle de benyttede studier i denne artikel indeholder både en interventionsgruppe og en kontrolgruppe. Begge grupper træner som vanligt på landevejen, og interventionsgruppen modtager desuden træning i form af et specialudviklet styrketræningsprogram for ben og hoftemuskulatur (se figur 1).  Typisk er studierne lagt i presæsonen og strækker sig over  10-25 uger med 1-2 gange intensiv træning pr. uge.
+Alle de benyttede studier i denne artikel indeholder både en interventionsgruppe og en kontrolgruppe. Begge grupper træner som vanligt på landevejen, og interventionsgruppen modtager desuden træning i form af et specialudviklet styrketræningsprogram for ben og hoftemuskulatur (se figur 1). 
+
+Typisk er studierne lagt i presæsonen og strækker sig over 10-25 uger med 1-2 gange intensiv træning pr. uge.
 
 Det er også i den periode de fleste danske cykelryttere benytter sig af alternativ træning, da vejrforholdene ikke altid indbyder til 2-3 timer på rammen. (1, 2, 3, 4, 5) Der kan desuden også dokumenteres for gavnlig effekt af at opretholde 1 session med styrketræning ugentlig henover løbssæsonen, så denne ikke aftager (2).
 
@@ -38,13 +43,21 @@ Undersøgelsernes resultater kunne dokumentere en entydig fremgang for den grupp
 > 
 > 16-ugers træning, 8% forbedring af 45 min time trail (1).
 
-Tillige kunne det påvises at sammensætningen af [muskelfibertyper]({% link _posts/2020-06-09-muskelfibertyper.md %}) i lårmuskulaturen ændres, således at den hurtige udholdende og hurtige type IIA øges i andel til fordel for den mindre udholdende type IIX.
+Tillige kunne det påvises at sammensætningen af [muskelfibertyper](/muskelfibertyper/) i lårmuskulaturen ændres, således at den hurtige udholdende og hurtige type IIA øges i andel til fordel for den mindre udholdende type IIX.
 
-Skeletmuskulaturen består i bund og grund af tre fibertyper med forskellige egenskaber. Type I, den røde udholdende fiber, som man primært bruger til landevejscykling. Type IIX er den hvide fiber, som er meget stærk og hurtig, typisk anvendt i idrætsgrene der kræver meget stor kraft over kort tid. Type IIA har egenskaber for både røde og hvide muskelfibrer, men kan adoptere egenskaber fra de to andre, og dermed forbedre effekten i den retning man ønsker. Det betyder udfra testresultaterne, at deltagerne får mere eksplosiv kraft uden at give afkald på udholdenheden.
+Skeletmuskulaturen består i bund og grund af tre fibertyper med forskellige egenskaber.
 
-Mange cykelryttere vil nok være bekymret for, at styrketræningen vil bevirke til en muskeltilvækst. Det kan to af studierne i denne artikel dog afkræfte, da ingen af de deltagerne i forsøgene havde en nævneværdig forøgelse af kropsmassen (1, 5). Så længe udholdenhedstræning udgør hovedbestanddelen af den samlede træningsmængde, er der ingen grund til frygt for vægtforøgelse.
+- Type I, den røde udholdende fiber, som man primært bruger til landevejscykling.
+- Type IIX er den hvide fiber, som er meget stærk og hurtig, typisk anvendt i idrætsgrene der kræver meget stor kraft over kort tid.
+- Type IIA har egenskaber for både røde og hvide muskelfibrer, men kan adoptere egenskaber fra de to andre, og dermed forbedre effekten i den retning man ønsker. Det betyder udfra testresultaterne, at deltagerne får mere eksplosiv kraft uden at give afkald på udholdenheden.
 
-Yderligere kan det konkluderes at køreøkonomien på moderat intensitet øges, samt at opfattelsen af udtrætning eksempelvis i en hård interval eller ved afslutningen af en løb, sænkes (5). Man har også undersøgt og konkluderet kan selve pedaltrådet effektiveres under høj intensitetstræning (6).
+Mange cykelryttere vil nok være bekymret for, at styrketræningen vil forårsage muskeltilvækst.
+
+Det kan to af studierne i denne artikel dog afkræfte, da ingen af de deltagerne i forsøgene havde en nævneværdig forøgelse af kropsmassen (1, 5).
+
+Så længe udholdenhedstræning udgør hovedbestanddelen af den samlede træningsmængde, er der ingen grund til at frygte for vægtforøgelse fordi du begynder at løfte vægte.
+
+Yderligere kan det konkluderes at cykeløkonomien på moderat intensitet øges, samt at opfattelsen af udtrætning eksempelvis i en hård interval eller ved afslutningen af en løb, sænkes (5). Man har også undersøgt og konkluderet kan selve pedaltrådet effektiveres under høj intensitetstræning (6).
 
 ## Konklusion om styrketræning for landevejscyklister
 

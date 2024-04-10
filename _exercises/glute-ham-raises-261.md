@@ -57,7 +57,7 @@ Du må ikke undervurdere hvor effektiv glute-ham raises er, og den har en stor o
 
 ## Hvordan ser en glute ham raise bænk ud?
 
-Bænken til glute-ham raises er ifølge [Supertraining.dk](http://supertraining.dk/glute-ham-raises/) opfundet af Dr. Mike Yessis. En glute ham raise bænk kaldes ofte en glute ham raise developer (GHD), og den ser nogenlunde sådan her ud.
+Bænken til glute-ham raises er ifølge [Supertraining.dk](https://supertraining.dk/glute-ham-raises/) opfundet af Dr. Mike Yessis. En glute ham raise bænk kaldes ofte en glute ham raise developer (GHD), og den ser nogenlunde sådan her ud.
 
 {% include feature_row type="left" %}
 

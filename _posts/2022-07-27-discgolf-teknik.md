@@ -120,7 +120,7 @@ Baghåndskastet er det mest almindelige kast i discgolf. Baghåndskastet bruges 
 
 For at lave et baghåndskast skal du gribe om discen midt på disken. Hold med fire fingre rundt højre kant på discen. Tommelfingeren er støtte oven på.
 
-{% include figure image_path="http://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385030815.png" caption="Grebet set ovenfra og nedenfra på discen ved baghåndskast i discgolf. Kilde: [www.claeswuertz.dk](http://www.claeswuertz.dk/om-disc-golf.html)"  alt="greb og flyvebane ved baghåndskast i discgolf" %}
+{% include figure image_path="https://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385030815.png" caption="Grebet set ovenfra og nedenfra på discen ved baghåndskast i discgolf. Kilde: [www.claeswuertz.dk](https://www.claeswuertz.dk/om-disc-golf.html)"  alt="greb og flyvebane ved baghåndskast i discgolf" %}
 
 Ved et baghåndskast står du lidt med med siden til kasteretningen. Armen strækkes bagud venstre om kroppen i brysthøjde. Herfra trækker du den frem som på en togskinne og forsøger at få sluppet discen med en passende fart i forhold til, hvor langt du gerne vil kaste.
 
@@ -138,7 +138,7 @@ Discmania har lavet videoserien **Deep in the Game**, hvor du kan se nogle rigti
 
 Ved forhåndskast holdes der med pegefinger og langefinger langs venstre kant på undersiden af discen, mens tommelfingeren støtter ovenpå.
 
-{% include figure image_path="http://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385030520.png" caption="Grebet set ovenfra og nedenfra på discen ved forhåndskast i discgolf. Kilde: [www.claeswuertz.dk](http://www.claeswuertz.dk/om-disc-golf.html)"  alt="greb og flyvebane ved forhåndskast i discgolf" %}
+{% include figure image_path="https://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385030520.png" caption="Grebet set ovenfra og nedenfra på discen ved forhåndskast i discgolf. Kilde: [www.claeswuertz.dk](https://www.claeswuertz.dk/om-disc-golf.html)"  alt="greb og flyvebane ved forhåndskast i discgolf" %}
 
 I forhåndskastet står du lidt mere lige på den retning, du gerne vil kaste, mens du har armen lidt ud til siden. Lad discen hælde en lille smule nedad, mens du gør klar til kastet, så vil den normalt selv nogenlunde komme op i vandret, når du gør klar til at kaste.
 
@@ -178,13 +178,13 @@ I et _hyzer_ kast slippes discen med venstre kant pegende mod jorden, når du er
 
 Et _hyzer_ bruges ofte til at komme højre rundt om forhindringer. Hyzeren understøtter discens naturlige svævebane og slutter mod venstre til sidst. Du kan prøve at eksperiementere med det, og jo længere du lader kanten af frisbeen pege nedad, jo mere vil den _fade_ mod venstre til sidst i flyvebanen.
 
-{% include figure image_path="http://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385030150.png" caption="Hældningen på discen i et hyzer-kast i discgolf. Kilde: [www.claeswuertz.dk](http://www.claeswuertz.dk/om-disc-golf.html)"  alt="hyzer kast i discgolf" %}
+{% include figure image_path="https://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385030150.png" caption="Hældningen på discen i et hyzer-kast i discgolf. Kilde: [www.claeswuertz.dk](https://www.claeswuertz.dk/om-disc-golf.html)"  alt="hyzer kast i discgolf" %}
 
 ### Anhyzer
 
 I et _anhyzer_ kast peger venstre kant af discen opad for et højrehåndet baghåndskast.
 
-{% include figure image_path="http://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385029859.png" caption="Hældningen på discen i et _anhyzer_-kast. Kilde: [www.claeswuertz.dk](http://www.claeswuertz.dk/om-disc-golf.html)"  alt="anhyzer baghåndskast i discgolf" %}
+{% include figure image_path="https://www.claeswuertz.dk/uploads/1/4/0/0/14001402/1385029859.png" caption="Hældningen på discen i et _anhyzer_-kast. Kilde: [www.claeswuertz.dk](https://www.claeswuertz.dk/om-disc-golf.html)"  alt="anhyzer baghåndskast i discgolf" %}
 
 Et anhyzer kast benyttes til at komme venstre rundt om forhindringer. 
 

@@ -53,11 +53,19 @@ Tabata (1996) sammenlignede to træningsprotokoller for deres virkning på det a
 
 ## Resultater fra Tabata-studiet
 
-Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
+Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min (9%), mens der ikke var nogen ændring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) med 7 ml/kg/min fra 48 ml/kg/min til 53 ml/kg/min (14%), mens den anaerobe kapacitet blev forbedret med 28%.
+
+{% comment %}
+
+Det er interessant at iltoptagelsen formår at blive hævet med moderat træning i 60 minutter med hele 5 ml/kg.
+
+Det er lidt interessant, at det ser ud til at gruppe to havde en dårligere iltoptagelse og evne til at komme i iltgæld, men det giver mening, at træner du energisystemet, så bliver du bedre.
+
+{% endcomment %}
 
 ## Diskussion af Tabata og intensive intervaller
 
-Disse resultater viser, at man med **meget intensiv intervaltræning kan forbedre både den aerobe og den anaerobe kapacitet**. Hvis man varmer op i fem minutter og nedvarmer i fem minutter, kan man altså med 14 minutters træning træning opnå bedre resultater end med længerevarende træning med moderat intensitet. Den positive effekt på både det aerobe og det anaerobe system skal formentlig findes i den meget korte pause.
+Tabatas resultater viser, at man med **meget intensiv intervaltræning kan forbedre både den aerobe og den anaerobe kapacitet**. Hvis man varmer op i fem minutter og nedvarmer i fem minutter, kan man altså med 14 minutters træning træning opnå bedre resultater end med længerevarende træning med moderat intensitet. Den positive effekt på både det aerobe og det anaerobe system skal formentlig findes i den meget korte pause.
 
 Helgerud (2007) viste, at intervaltræning set i forhold til træning med moderat intensitet var mere effektivt for at forbedre VO<sup>2</sup>max for moderat trænede mandlige løbere. Forsøgsgrupperne trænede 3 gange om ugen i 8 uger. To grupper trænede intensivt. Gruppe 3 lavede 47 gentagelser med 15 sekunders arbejde og 15 sekunders pause på en intensitet omkring 95% af den [maksimale puls](/test-max-puls/), mens gruppe 4 lavede 4 gentagelser af 4 minutters arbejde (90-95% af maxpulsen) og 3 minutters aktiv restitution (70% af maxpulsen).
 
@@ -71,7 +79,21 @@ Desuden kunne det være interessant at sammenligne protokollerne hos Helgerud (2
 
 Man skal være opmærksom på at de største forbedringer skete inden for de første tre uger og derefter aftog forbedringerne. Dette kunne tyde på, at en af forklaringerne på de store forbedringer kan være chokeffekten af træningen.
 
+{% comment %}
+
+I HVILKET STUDIE? OG I HVAD?
+
+MEN DET VISER OGSÅ NOGET OM HVORDAN DET ER MEST EFFEKTIVT AT TRÆNE VO2
+
+{% endcomment %}
+
 ## Konklusion om Tabata-træning
+
+{% comment %}
+
+DET ER TILSYNELADENDE MERE EFFEKTIVT AT ARBEJDE MED HØJ INTENSITET GENNEM HELE TRÆNINGEN - HVAD BETYDER DET?
+
+{% endcomment %}
 
 Det er tilsyneladende mere effektivt at arbejde med høj intensitet gennem hele træningen. Med Tabatas intervaller kan du nøjes med 14 minutters træning inklusiv opvarmning og nedvarmning og få en bedre effekt på både det aerobe og anaerobe system en en times træning med moderat intensitet.
 
@@ -88,6 +110,18 @@ Det er i hvert fald usædvanlig hårdt - både for kroppen, men sandelig også f
 Hvis man går op i træning, så er der ingen undskyldning. Man skal prøve Tabata-intervaller, ganske enkelt fordi Tabata-intervaller giver en usædvanlig god effekt. De rigtige Tabata-intervaller foregår på et cykelergometer eller løbende.
 
 ## Øvelser til Tabata-intervaller
+
+{% comment %}
+
+DEN HØJINTENSE TRÆNING RYKKER MÅSKE TINGENE MERE END MODRAT INTENSITET, MEN DET ER OGSÅ VANSKELIGERE AT RESTITUERE FRA. FORDELEN VED TABATA ER AT ARBEJDSPERIODEN ER SÅ KORT.
+
+{% endcomment %}
+
+{% comment %}
+
+GIVER DET MENING AT BESKRIVE TABATAINTERVALLER SÅDAN HER - ER DET IKKE HER ILTOPTAGELSEN IKKE RIGTIGT RYKKES MED CROSSFIT-LIGNENDE TRÆNING?
+
+{% endcomment %}
 
 De oprindelige studier er lavet på cykelergometer med inspiration for speedskating-verden, men der er ikke noget i vejen for at være lidt kreativ med Tabata-intervallerne, hvis det kan give dig motivation.
 

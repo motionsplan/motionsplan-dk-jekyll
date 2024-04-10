@@ -79,7 +79,7 @@ I denne guide kan du få svar på:
 
 Lad os dykke ned i begynderguiden til Zwift.
 
-Relateret: [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+Relateret: [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
 
 ## Hvad er Zwift og hvordan kommer jeg i gang?
 

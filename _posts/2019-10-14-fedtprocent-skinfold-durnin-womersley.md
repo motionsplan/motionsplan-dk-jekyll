@@ -55,7 +55,7 @@ Davidson et al (2012) fandt også, at Durnin og Womersleys formler overestimered
 
 ## Formler til Durnin og Womersley
 
-I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [health-calc.com](https://health-calc.com/body-composition/skinfold-d-and-w)
+I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [health-calc.com](https://health-calc.com/diet/skinfold-d-and-w)
 
 | Alder |	Formler for mænd	      | Formler for kvinder     |
 |-------------|---------------------------|---------------------------|

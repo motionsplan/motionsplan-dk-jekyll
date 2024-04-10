@@ -15,7 +15,7 @@ category:
 tags:
   - styrketræning
   - løb
-last_modified_at: 2022-11-04T07:14:14Z
+last_modified_at: 2024-02-04T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?
 #    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
@@ -33,11 +33,24 @@ Lad os dykke direkte ned i det.
 
 ## Styrketræning og løbeøkonomi
 
-[Definitionen på løbeøkonomi](/lobeokonomi/) er den mængde ilt en løber bruger for at løbe med en bestemt hastighed. Jo mindre ilt løberen kan bruge, jo mere effektivt er løbet og jo hurtigere kan man løbe.
+[Definitionen på løbeøkonomi](/lobeokonomi/) er den mængde ilt en løber bruger for at løbe med en bestemt hastighed. Jo mindre ilt løberen behøver, jo mere effektiv er løberen og jo hurtigere kan vedkommende løbe.
+
+{% comment %}
+
+HER KOMMER ALLEREDE EN SKELNEN MELLEM EKSPLOSIV TRÆNING OG STYRKETRÆNING...
+
+I DENADAI -- HVAD ER DET DER BLIVER FORBEDRET?
+
+PÅVIRKER STYRKETRÆNING VO2MAX?
+PÅVIRKER STYRKETRÆNING THRESHOLD?
+PÅVIRKER STYRKETRÆNING AEROBE TÆRSKEL?
+PÅVIRKER STYRKETRÆNING LØBEØKONOMI?
+
+{% endcomment %}
 
 [Denadai et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27497600/) lavede et systematisk review af 16 studier, hvor man sammenlignede eksplosiv træning og tung styrketræning med en kontrolgruppe i forhold til løbeøkonomi.
 
-I disse studier forbedrerede eksplosiv træning løbeøkonomien med 4.83 ± 1.53%, mens tung styrketræning øgede løbeøkonomien med 3.65 ± 2.74%.
+I disse studier forbedrede eksplosiv træning løbeøkonomien med 4.83 ± 1.53%, mens tung styrketræning øgede løbeøkonomien med 3.65 ± 2.74%.
 
 De inkluderede studier varede mellem 6-14 uger, og træningsmængden var fra 1-4 gange om ugen. Deltagerne spændte helt fra utrænede til meget veltrænede.
 
@@ -47,17 +60,28 @@ Denadai et al (2017) konkluderer, at der er en tendens til, at de gavnlige effek
 
 ## Kan styrketræning flytte den anaerobe tærskel?
 
-[Defintionen på den anaerobe tærskel](/anaerobe-taerskel/) er den intensitet, hvor kroppen netop kan nå at fjerne den samme mængde mælkesyre, som musklerne producerer.
+[Defintionen på den anaerobe tærskel](/anaerobe-taerskel/) er den intensitet, hvor kroppen netop kan nå at fjerne den mængde mælkesyre, som musklerne producerer.
 
 [Farrell et al (2017)](https://www.researchgate.net/publication/316770462_Aerobic_Exercise_Supplemented_With_Muscular_Endurance_Training_Improves_Onset_of_Blood_Lactate_Accumulation) satte sig for at undersøge, om styrketræning som supplement til løbetræning kan rykke ved den anaerobe tærskel.
 
-De samlede 14 mænd og satte dem til at lave benpres, leg curl og leg extensioner. De kørte 3 sæt med 12-15 reps af hver øvelse ved omkring 50% af 1RM. Deltagerne havde 1 minuts pause mellem sættene og de trænede 2 dage om ugen.
+De samlede 14 mænd og satte dem til at lave benpres, leg curl og leg extensions. De kørte 3 sæt med 12-15 reps af hver øvelse ved omkring 50% af 1RM. Deltagerne havde 1 minuts pause mellem sættene og de trænede 2 dage om ugen.
+
+{% comment %}
+
+HVORDAN SVARER DET OVERENS MED RIR?
+
+{% endcomment %}
 
 Træningen har altså rimelig mange gentagelser og kort pause, hvilket typisk efterlader træthedsstoffer og mælkesyre i musklerne. Denne type styrketræning bruges ofte i forbindelse med muskelvækst.
 
-Før interventionen kunne deltagerne løbe med et VO<sub>2</sub> på ca. 31 ml/kg/min, inden de nåede op på de 4 mmol laktat i blodet. Efter interventionen kunne deltagerne løbe med et VO<sub>2</sub> på omkring 36 ml/kg/min før de nåede 4 mmol laktat i blodet.
+Før interventionen kunne deltagerne løbe med en iltoptagelse (VO<sub>2</sub>) på ca. 31 ml/kg/min, inden de nåede op på de 4 mmol laktat i blodet. Efter interventionen kunne deltagerne løbe med en VO<sub>2</sub> på omkring 36 ml/kg/min før de nåede 4 mmol laktat i blodet.
 
 Det ser altså ud til, at styrketræning lavet på denne måde med flere gentagelser kan være med til at skubbe til den anaerobe tærskel.
+
+{% comment %}
+HVAD ER FLERE GENTAGELSER?
+HVAD VAR DERES ØVRIGE TRÆNING I PERIODEN?
+{% endcomment %}
 
 [Lantis et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27787470/) fandt samme effekt i en endnu mere veltrænet gruppe. Selvom der blev brugt en cykeltest i dette studium, så holder resultaterne i forhold til den anaerobe tærskel formentlig stadigvæk for løbere.
 
@@ -69,7 +93,7 @@ Deltagerne trænede styrketræning 2 gange om ugen i 8 uger med 4x15 sæt og gen
 
 Kombinationstræning er når man sideløbende træner både løb og styrketræning. Her har en dansk forskergruppe undersøgt et helt træningsprogram.
 
-[Vorup et al (2016)](https://pubmed.ncbi.nlm.nih.gov/27179795/) konstruerede en mere omfattende ændring i træningsprogrammet for 16 veltrænede løbere (med en VO<sub>2</sub>max på omkring 60 ml/kg/min).
+[Vorup et al (2016)](https://pubmed.ncbi.nlm.nih.gov/27179795/) konstruerede en mere omfattende ændring i træningsprogrammet for 16 veltrænede løbere (med et [kondital](/kondital/) på omkring 60 ml/kg/min).
 
 Deltagerne i studiet løb i gennemsnit 63 km om ugen i et moderat tempo. Forskerne bad den ene halvdel af gruppen om at tilrettelægge deres træning noget mere intensivt.
 
@@ -80,7 +104,16 @@ Træningen så sådan her ud:
 - 1 x ugen stod den på hårde intervaller med 8 x 2 min ved >90% af maxpulsen.
 - 1 x ugen blev der løbet med moderat intensitet (2-17 km ved 80% af maxpulsen).
 
+{% comment %}
+Løb de ikke med lav intensitet nogensinde?
+{% endcomment %}
+
 Det lykkedes forskerne at matche træningsvolumen i de to grupper, så den var 58% lavere end løberne var vant til. Det betyder, at kontrolgrupppen fortsatte med at træne med moderat intensitet, men trænede 58% mindre.
+
+{% comment %}
+Det var alligevel meget mindre.
+Og hvad var resultaterne fra kontrolgruppen - de må vel næsten være gået tilbage med mindre træningsmængde?
+{% endcomment %}
 
 Spørgsmålet er naturligvis om det er rimeligt at matche volumen, når man skruer så højt op for intensiteten. Det er også påfaldende, at forskerne ikke inkluderer noget udholdenhedstræning med lavere intensiteter.
 
@@ -98,7 +131,7 @@ Flotte resultater, men det er ikke muligt at sige, om løbetræningen eller styr
 
 De anbefaler derfor 2-3 styrketræningssessioner med forskellige typer øvelser til mellemdistance og langdistance løbere.
 
-De fleste studier er relativt begrænsede i deres udstrækning. Når du laver en træningsblok med et bestemt fokus og har forskernes opmærksomhed, så er det måske lettere at få resultater af et specifikt træningsstimuli.
+De fleste studier er relativt begrænsede i deres længde. Når du laver en træningsblok med et bestemt fokus og har forskernes opmærksomhed, så er det måske lettere at få resultater af et specifikt træningsstimuli.
 
 Men hvad sker der, hvis vi sætter styrketræning ind i et længerevarende træningsprogram?
 
@@ -112,17 +145,27 @@ Halvdelen blev derudover sat til at lave styrketræning. I pre-season fra decemb
 
 Den maksimale og relative styrke blev naturligvis forbedret undervejs, men hastigheden ved VO<sub>2</sub>max og løbeøkonomien blev også markant forbedret for dem, der inkluderede styrketræning i træningsprogrammet.
 
-Det kunne være interessant at se de præcise træningsprogram fra dette studium.
+Det kunne være interessant at se det præcise træningsprogram fra dette studium.
+
+{% comment %}
+Tweeted Beattie for information about the training program.
+{% endcomment %}
 
 ## Skal det være tung styrketræning eller moderat?
 
 [Alcaraz-Ibañez og Rodríguez-Pérez (2018](https://pubmed.ncbi.nlm.nih.gov/28544858/) nåede til nogenlunde samme konklusion i deres metaanalyse af den eksisterende forskning som Denadai et al (2017). Det fandt altså gavnlige effekter af styrketræning.
 
+{% comment %}
+
+I forhold til hvad - nogle af parametrene ovenfor?
+
+{% endcomment %}
+
 De gør dog opmærksom på, at typen af styrketræning ser ud til at påvirke løberne forskelligt. Metodeforskellene i studierne og de forskellige træningsprogrammer kan også forvirre resultaterne.
 
 Skal vi arbejde med flere gentagelser, fx 12-15 reps, hvor musklerne bliver trætte undervejs, eller er det mere effektivt at lave tungere styrketræning, fx 4-8 gentagelser?
 
-Hvor tæt på vores maksimale ydeevne skal træningen være for at få de gavnlige effekter på løbeøkonomien?
+Hvor tæt på vores maksimale ydeevne skal træningen være for at få de gavnlige effekter på løbeøkonomien? Er det anderledes i forhold til påvirkning af den anaerobe tærskel?
 
 Der er stadig mange spørgsmål, som forskningen ikke helt besvarer klart.
 
@@ -132,17 +175,23 @@ Men hvilke praktiske styrkeøvelser kan du bruge for at blive bedre til at løbe
 
 Studierne bruger end del forskellige øvelser, men hvilke øvelser er egentlig de bedste?
 
-[Vikmoen et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26953893/) undersøgte et 11 ugers træningsforløb med fire benøvelser:  half squat i et Smith-stativ, ét-bens benpres, stående ét bens hofte fleksion og calf raises.
+[Vikmoen et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26953893/) undersøgte et 11 ugers træningsforløb med fire benøvelser: half squat i et Smith-stativ, ét-bens benpres, stående ét bens hofte fleksion og calf raises.
 
-Deltagerne lavede tre sæt á fire øvelser med 4-10 gentagelser med deres Repetition Maximum. Træningsprogrammet blev udført 2 gange om ugen.
+Deltagerne lavede tre sæt á fire øvelser med 4-10 gentagelser med deres Repetition Maximum. Træningsprogrammet blev udført 2 gange om ugen med en 'undulating' periodisering.
 
 I deres 2016 studie fandt Vikmoen og kollegaer ikke nogen forskel på en 40 minutters all-out-test eller løbeøkonomi. De lavede dog et [opfølgningsstudium i 2017](https://physoc.onlinelibrary.wiley.com/doi/10.14814/phy2.13149), hvor samme træningsprotokol fandt forbedringer i følgende test.
 
 Først skulle deltagerne løbe i halvanden time, hvorefter de skulle lave en 5 minutters all-out-test. Hos den gruppe der havde styrketrænet så man en forbedring på 4.7 ± 6.0% i løb.
 
+{% comment %}
+
+Hvilken type løb - og hvorfor var der ikke effekt i 2016 studiet? -- og i opfølgningsstudiet kiggede de både på løb og cykling?
+
+{% endcomment %}
+
 [Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/) undersøgte 17 veltrænede mænd og kvinder. De styrketrænede 3 dage om ugen i 8 uger ud over deres normale udholdenhedstræning.
 
-Styrketræningen var meget enkel og bestod af 4 sæt med 4 gentagelser af halve squats. Der var 3 minutters pause mellem hvert sæt.
+Styrketræningen var meget enkel og bestod af 4 sæt med 4 gentagelser af halve squats. Der var 3 minutters pause mellem hvert sæt. Der blev løftet med en intensitet på RPE 9-10.
 
 Når løberne kunne lave 5 gentagelser med en given vægt i et sæt, så blev der sat 2,5 kg mere på i næste sæt.
 
@@ -156,9 +205,19 @@ Men hvad er en halv squat?
 
 [Rhea et al (2016)](https://www.researchgate.net/publication/304607794_Joint-Angle_Specific_Strength_Adaptations_Influence_Improvements_in_Power_in_Highly_Trained_Athletes) definerer det således:
 
-> The half squat group (HALF) trained at depths characterized by the top of the thigh reaching parallel to the floor with knee angles approximately 85–95 de-grees of flexion.
+> The half squat group (HALF) trained at depths characterized by the top of the thigh reaching parallel to the floor with knee angles approximately 85–95 degrees of flexion.
 
 --- <cite>[Rhea et al (2016)](https://www.researchgate.net/publication/304607794_Joint-Angle_Specific_Strength_Adaptations_Influence_Improvements_in_Power_in_Highly_Trained_Athletes)</cite>
+
+{% comment %}
+
+Det er en ret dyb squat og vel nærmest godkendt dybde i styrkeløft. Gad vide om det også var det Støren trænede med?
+
+Her trænede de med 1-2 RIR, hvilket er tungere end foreslået...
+
+Dem der supplerede med styrketræning havde lidt ekstra træning? Kunne anden lignende intensitet, fx 6 sekunders sprint med tilsvarende pause give samme effekt?
+
+{% endcomment %}
 
 Det er interessant, at squatdybden naturligvis kommer an på, hvad dine mål er med dine benbøjninger.
 
@@ -167,6 +226,12 @@ Den fremgang kan naturligvis ikke fortsætte i det uendelige!
 ## Hvor ofte skal løbere styrketræne?
 
 [Blagrove et al (2018)](https://pubmed.ncbi.nlm.nih.gov/29249083/) anbefaler ud fra observationerne i deres systematiske oversigtsartikel styrketræning 2-3 gange om ugen.
+
+{% comment %}
+
+Var denne artikel for løbere?
+
+{% endcomment %}
 
 Dette er en meget almindelig anbefaling for at få effekt af styrketræning.
 
@@ -179,20 +244,34 @@ Kvinderne trænede i alt i 3 timer om ugen.
 - En anden gruppe 2 gange om ugen i 2x30 minutter og 2 timers udholdenhedstræning.
 - Endelig trænede kontrolgruppe 3 timers udholdenhedstræning.
 
-Begge grupper der styrketrænede forbedrede deres løbehastighed, men de forbedrede ikke løbeøkonomi eller aerobe kapacitet.
+Begge grupper der styrketrænede forbedrede deres løbehastighed, men de forbedrede ikke løbeøkonomi eller aerob kapacitet.
+
+{% comment %}
+
+Men hvad er så forklaringen bag ved deres forbedring?
+
+{% endcomment %}
 
 Det er tankevækkende at på en relativt lille træningsmængde på 3 timer, så kan du erstatte så lidt som 30 minutter med styrketræning og alligevel komme til at løbe hurtigere.
 
 ## Anbefalinger for styrketræning til løb
 
-Baseret på observationerne i de forskellige studier, så ser det ud til at både tung styrketræning, men også træning med flere gentagelser kan have gavnlig effekt.
+Baseret på observationerne i de forskellige studier, så ser det ud til at både tung styrketræning, men også træning med flere gentagelser kan have gavnlig effekt på dine løbepræstationer.
 
-Hvis du gerne vil lave træning, som ikke udtrætter dig, og hvor du kan blive stærkere uden at øge din kropsvægt, så kan tung styrketræning være et svar.
+Hvis du gerne vil lave træning, som ikke udtrætter dig til din primære aktivitet, og hvor du kan blive stærkere uden at øge din kropsvægt, så kan tung styrketræning være et svar.
 
 Du kan fx gøre sådan her:
 
-Lav et træningsprogram med 3-5 gentagelser med 3-5 sæt, hvor du har 1-3 gentagelser tilbage i tanken efter at have lavet sættene.
+Lav et træningsprogram med 3-5 gentagelser med 3-5 sæt, hvor du har 1-4 gentagelser tilbage i tanken efter at have lavet sættene. Det svarer til en RPE på 6-9.
 
 Støren et al (2008) brugte kun en enkelt øvelse (halve squats), så det behøver ikke tage lang tid eller være særlig kompliceret.
 
 Jeg ville dog nok kombinere træningen med lidt forskellige variationer af øvelser, fx også nogle 1-bensøvelser.
+
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer til løbetræning og styrketræning</summary>
+
+
+</details>

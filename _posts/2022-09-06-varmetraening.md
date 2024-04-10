@@ -146,7 +146,7 @@ Du skal bare sørge for, at du ikke kan komme af med varmen.
 
 Så på med regntøjet, vanter og hue, så er du klar til at lave varmetræning.
 
-{% include figure image_path="http://feltet.dk/octo_cms/files/Feltet.dk/Chris_Jacob_Mikkelsen_varmeakklimatisering_pakket_ind_600.jpg" caption="Dette er det bedste billede jeg har kunnet finde af, hvordan man kan klæde sig på til en tur på hometraineren. Kilde: [www.motionsfeltet.dk](https://www.motionsfeltet.dk/nyheder/effektiv_og_fokuseret_traening_varmeakklimatisering_4/)" %}
+{% include figure image_path="https://feltet.dk/octo_cms/files/Feltet.dk/Chris_Jacob_Mikkelsen_varmeakklimatisering_pakket_ind_600.jpg" caption="Dette er det bedste billede jeg har kunnet finde af, hvordan man kan klæde sig på til en tur på hometraineren. Kilde: [www.motionsfeltet.dk](https://www.motionsfeltet.dk/nyheder/effektiv_og_fokuseret_traening_varmeakklimatisering_4/)" %}
 
 ## Hvad sker der ved varmetræning?
 

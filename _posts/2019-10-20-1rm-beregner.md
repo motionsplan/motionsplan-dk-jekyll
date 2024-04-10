@@ -129,7 +129,7 @@ En RM-beregning kan både underestimere og overestimere den aktuelle 1RM for lø
 - **Træningserfaring**. Nervesystemet og tilvænning er en stor del af maksimal styrke. En begynder som fx løfter 10 gentagelser til udmattelse får herved udregnet en 1RM. Hvis vedkommende ikke er vant til at løfte tunge vægte med maksimal intensitet, så kan nervesystemet måske ikke rekruttere tilstrækkeligt med muskelfibre, eller teknikken bryder ned.
 - **Muskelfibertypesammensætningen** kan også betyde noget for præcisionen af udregningen. Hvis man har en overvægt af type II fibre, kan man forestille sig, at RM-testen vil underestimere 1RM, fordi man ikke er så udholdende ved de submaksimale løft. Omvendt ser det så ud for løftere med en overvægt af de udholdende type I-fibre.
 
-Læs: [Alt om hurtige og langsomme muskelfibertyper]({% link _posts/2020-06-09-muskelfibertyper.md %})
+Læs: [Alt om hurtige og langsomme muskelfibertyper](/muskelfibertyper/)
 
 Du skal altså have valgt den mest pålidelige algoritme til at bestemme netop din egen 1RM max ud fra alle de forskellige formler, der findes.
 

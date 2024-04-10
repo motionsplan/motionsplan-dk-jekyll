@@ -146,13 +146,17 @@ Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål fo
 
 Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
 
-> Efter min mening er der ingen tivvl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
+> Efter min mening er der ingen tvivl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
 
 --- <cite>[Claus Hechmann](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }</cite>
 
 Claus Hechmann skriver efterfølgende lidt beklagende om fortolkningen af træningsstudiet, at man i store dele af <q>det danske atletikmiljø ... skiftede fokus fra mængdetræning til højintensitetstræning.</q>
 
 Det er naturligvis beklageligt i forhold til at træning af udholdenheden netop også er et væsentligt element i den enkeltes præstation og evne til at kunne holde til at træne meget.
+
+{% comment %}
+
+TODO - HVAD MON JEG MENER HER?
 
 ## Udregning af kondital til brug i løbeøkonomien
 
@@ -178,6 +182,8 @@ Hastigheden på `FTP` har Dijk (2017) fundet ud af svarer omkring til 88% af has
 
 FTP = 88% * V<sub>max</sub>
 
+{% endcomment %}
+
 ## Løbeøkonomiens sammenhæng med maksimale iltoptagelse
 
 Der er typisk ikke direkte sammenhæng mellem den maksimale iltoptagelse og løbeøkonomien.
@@ -190,7 +196,7 @@ Der er typisk ikke direkte sammenhæng mellem den maksimale iltoptagelse og løb
 
 ## Forskel på mænd og kvinders løbeøkonomi
 
-Det er interessant, at Barnes et al (2014) har kigget på forskellen på mænds og kvinders løbeøkonomi. De konkluderer id deres studium.
+Det er interessant, at Barnes et al (2014) har kigget på forskellen på mænds og kvinders løbeøkonomi. De konkluderer i deres studium.
 
 > At all common test velocities, women were more economical than men.
 

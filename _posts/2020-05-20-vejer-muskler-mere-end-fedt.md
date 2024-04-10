@@ -57,9 +57,13 @@ Hvis du tager et kg fedt og et kg muskler, så vil fedtet altså fylde mere end 
 
 ## Konklusion
 
-I min research fandt jeg bl.a. påstande fra [arndalspa.dk](https://arndalspa.dk/muskler-og-fedt-vejer-det-samme-nu-med-forklaring/) om, at muskler og fedt vejer det samme. Rationalet bag denne påstand er, at et kg fedt vejer det samme som et kg muskler, hvilket naturligvis er rigtigt. Et kg muskler fylder bare lidt mindre end et kg fedt.
+I min research fandt jeg bl.a. forklaringer fra [bt.dk](https://www.bt.dk/motion/andre-haardnakkede-myter) om, at muskler og fedt vejer det samme. Rationalet bag denne påstand er, at et kg fedt vejer det samme som et kg muskler, hvilket naturligvis er rigtigt.
 
-Påstanden er derfor lidt forunderlig og Anders Nedergaard svarer ganske rigtigt, at:
+> Fedt har som tommelfingerregel en densitet på 0,9 g/ cm3 og muskler en densitet på 1,1 g/ cm3, hvilket betyder, at 1 kg muskler fylder mindre end 1 kg fedt.
+
+Et kg muskler fylder bare lidt mindre end et kg fedt, fordi densiteten er forskellig. 
+
+Anders Nedergaard gør det klart, at:
 
 > Muskler vejer mellem 10 og 20 procent mere end fedt. Hvis du har en liter muskel, vil den veje omkring 1,1 kg, mens en liter fedt vil veje 0,9 kg.
 

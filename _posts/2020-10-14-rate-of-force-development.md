@@ -44,7 +44,7 @@ Den hurtigere atlet kan netop nå at udvikle mere kraft i den tid foden er i kon
 
 Hvis du gerne vil forbedre din rate of force development, skal du være opmærksom på, at der både er muskulære og neurale har betydning.
 
-En muskel kan have forskellig [muskelfibertypesammensætning]({% link _posts/2020-06-09-muskelfibertyper.md %}). Overordnet har vi de langsomme og udholdende type I fibre og de eksplosive type II fibre. Forskellige mennesker har forskellig sammensætning, så derfor har nogle mennesker en genetisk fordel. Desuden har musklens tværsnitsareal også betydning for potentialet til hurtig kraftudvikling.
+En muskel kan have forskellig [muskelfibertypesammensætning](/muskelfibertyper/). Overordnet har vi de langsomme og udholdende type I fibre og de eksplosive type II fibre. Forskellige mennesker har forskellig sammensætning, så derfor har nogle mennesker en genetisk fordel. Desuden har musklens tværsnitsareal også betydning for potentialet til hurtig kraftudvikling.
 
 I nervesystemet har fyringsfrekvensen af signaler, hvor mange motoriske enheder man kan aktivere og hvor godt synkroniserede de enkelte motoriske enheder er.
 

@@ -40,7 +40,7 @@ Vi har skrevet mere om, hvordan du selv kan [planlægge dit løbeprogram](/guide
 
 ## 2. Løb hurtigere med intervaltræning – også selvom det er hårdt
 
-[Intervalltræning](/intervaltraening/) og intervalløb bør være en del af din træning, hvis du vil være en hurtigere løber. Intervalløb kan være med til at forbedre din maksimale iltoptagelse samtidig med, at den høje intensitet også kan optimere din løbeøkonomi.
+[Intervaltræning](/intervaltraening/) og intervalløb bør være en del af din træning, hvis du vil være en hurtigere løber. Intervalløb kan være med til at forbedre din maksimale iltoptagelse samtidig med, at den høje intensitet også kan optimere din løbeøkonomi.
 
 I intervalløb skal du op i de rigtig høje intensiteter, så det er ikke så behageligt at løbe så hurtigt. Derfor skal du naturligvis også bygge træningen stille og roligt op.
 
@@ -55,7 +55,7 @@ Du kan eksperimentere med aktiv pause i forhold til at hvile fuldstændigt. Vi h
 
 ## 3. Undgå 'junk miles'
 
-Hvis du gerne vil være hurtigere, så skal intervalltræning ikke fylde al din træning. Du skal træne løb på forskellige måder. Hvis du laver afvekslende træning, hvor du rammer både lave, moderate og høje intensiteter og arbejder med løbeteknik, så bliver du en hurtigere løber.
+Hvis du gerne vil være hurtigere, så skal intervaltræning ikke fylde al din træning. Du skal træne løb på forskellige måder. Hvis du laver afvekslende træning, hvor du rammer både lave, moderate og høje intensiteter og arbejder med løbeteknik, så bliver du en hurtigere løber.
 
 Min oplevelse er, at rigtig mange ender med ofte at løbe med en intensitet i det moderate område. Det betyder imidlertid, at du hverken får hævet din maksimale iltoptagelse eller arbejdet med udholdenheden.
 
@@ -97,7 +97,7 @@ Mange leder efter behagelige løbesko, som de kan undgå skader i, men du kan og
 
 Den [teknologiske udvikling inden for sportsudstyr](/teknologi-sport/) har også for alvor vundet indpas i løbeverden.
 
-Eluid Kipchoge løb fx [Ineos Challenge](/kipchoge-challenge/) i et par speciallavede Nike-sko med tre carbonplader i sålen. Nike har lanceret Vaporfly 4% med en enkelt carbonplade i sålen.
+Eluid Kipchoge løb fx [Ineos Challenge](/kipchoge-challenge/) i et par speciallavede Nike-sko med tre carbonplader i sålen. Nike har også lanceret Vaporfly 4% med en enkelt carbonplade i sålen til almindeligt salg.
 
 Den danske løbetræner, Claus Hechmann, [testede](https://www.hechmannsport.dk/post/test-af-l%C3%B8besko) 10 forskellige top-løbesko med både wattmåler og iltoptagelse i forhold til den hastighed, man kan løbe i skoene.
 

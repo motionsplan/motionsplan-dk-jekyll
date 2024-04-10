@@ -41,7 +41,7 @@ Det samme sker ikke med safety squat stang, så det er lettere at lave mange gen
 
 {% include figure image_path="https://garagegymlab.com/wp-content/uploads/2017/11/Safety-Squat-Bar-Profile.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
-Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
+Simon fra [supertraining.dk](https://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](https://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
 
 Det handler nemlig om, at der skal være de rigtige vinkler i safety baren, så den har den rigtige balance på skuldrene.
 
@@ -49,7 +49,7 @@ En safety squat stang skal naturligvis være konstrueret på den rigtige måde, 
 
 > Watson er ingen garanti for kvalitet. Deres Safety Bar fx er en vederstyggelighed. Absurd fejldesign, og de sletter bemærkninger desangående på YT (Youtube, red.).
 
---- <cite>[Simon Bigshooter](http://supertraining.dk/146-qa-squats-leg-curls/)</cite>
+--- <cite>[Simon Bigshooter](https://supertraining.dk/146-qa-squats-leg-curls/)</cite>
 
 Vinklen mellem puderne og vægtene skal så vidt jeg har kunnet finde ud af være 22 grader. Nogle stænger har for lille vinkel, og Watsons Safety Bar har for stor en vinkel.
 

@@ -68,7 +68,7 @@ Her dykker vi ned i dine muligheder for forskellige setups. Det fede er nemlig, 
 
 Du kan let komme i gang med virtuel cykling. For at kunne være med i e-cykling, så har du brug følgende:
 
-- en cykel med watt. Her kigger vi på det bedste hometrainer-setup til at deltage i løb på [Zwift](/komplet-begynderguide-zwift/), [Wahoo RGT Cycling](/rgt-cycling/), [Rouvy](/rouvy/) og [BKOOL](/bkool-begynderguide/).
+- en cykel med watt. Her kigger vi på det bedste hometrainer-setup til at deltage i løb på [Zwift](/komplet-begynderguide-zwift/), [MyWhoosh Cycling](/mywhoosh-cycling/), [Rouvy](/rouvy/) og [BKOOL](/bkool-begynderguide/).
 - et device hvor du kan køre programmmet på, fx tablet, smartphone eller Apple TV.
 - evt. en pulsmåler.
 
@@ -150,7 +150,7 @@ De fleste platforme kan køres på Windows, iOS, iPhone, iPad eller AppleTV og G
 
 Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
 
-{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i fx Zwift, Wahoo RGT Cycling og BKOOL med et Wahoo Bike Desk"  %}
+{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i fx Zwift, MyWhoosh Cycling og BKOOL med et Wahoo Bike Desk"  %}
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen.
 
@@ -236,7 +236,7 @@ Wahoo laver også pulsbælter. Hvis du hovedsageligt skal bruge dit pulsbælte t
 
 Det prisbilligt og i det tests, jeg har lavet af bæltet, så har der aldrig været issues med forbindelsen eller stabiliteten.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
 
 ## Beskyt cyklen mod sveden
 
@@ -276,4 +276,4 @@ Hvis du allerede har en cykel, du er glad for, så kan du komme i gang for omkri
 
 Du kan opgradere din oplevelse, hvis du køber en blæser som også kan kontrolleres af spillet og fx en Kickr Climb, så cyklen også bevæger sig op og ned, men det er ikke nødvendigt for at komme i gang.
 
-Relateret: [Zwift](/komplet-begynderguide-zwift/) - [Wahoo RGT Cycling](/rgt-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)
+Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/bkool-begynderguide/)

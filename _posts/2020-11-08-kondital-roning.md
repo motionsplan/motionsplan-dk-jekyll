@@ -22,7 +22,9 @@ Du kan finde dit kondital på forskellige måder i en romaskine. Hvis du har adg
 
 Der er mange forskellige måder at [måle konditallet på](/kondital/) på et roergometer. Danmark har nogle af de bedste roere i verden, og det gælder faktisk også i disciplinen at ro på en indendørs romaskine.
 
-Den mest brugte og kendte konditionstest til roning er ganske enkelt en brutal 2000 meter maksimal test på romaskinen, hvor du ror så hurtigt som muligt. På baggrund af dit resultat kan du estimere dit kondital. Men du kan også udføre en trappetest, som kan giv edit et bud på, hvad dit kondital er.
+Den mest brugte og kendte konditionstest til roning er ganske enkelt en brutal 2000 meter maksimal test på romaskinen, hvor du ror så hurtigt som muligt.
+
+På baggrund af dit resultat kan du estimere dit kondital. Men du kan også udføre en trappetest, som kan giv edit et bud på, hvad dit kondital er.
 
 Lad os hoppe direkte ned i de forskellige muligheder for at få testet dagsformen i roning.
 
@@ -108,7 +110,7 @@ Kurt Jensen, tidligere TeamDanmark Testcenter, har udarbejdet en pålidelig kond
 
 Jeg har skrevet et indlæg om trappetesten, hvor du også kan finde en beregner.
 
-[Trappetesten i roning](/roning-trappetest/){: .btn--large .btn--info }
+[Trappetesten i roning](/roning-trappetest/){: .btn .btn--large .btn--info }
 
 ## Hvordan får jeg det bedste resultat?
 
@@ -121,13 +123,19 @@ For at få det bedste resultat i en test på romaskinen, så er der et par ting,
 
 ## Hvad skal jeg indstille modstanden på?
 
-Modstanden i mange romaskiner er en ventilator. Den pind man stiller på for at ændre på modstanden er et luftspjæld, som på engelsk hedder en _damper_. I stilling 10 er der fuldt åbent for luftspjældet, så ventilatoren flytter størst luftmængde. Det gør den tung at trække. I stilling 1 flyttes mindst luftmængde og så her er det lettest at trække.
+Modstanden i mange romaskiner er en ventilator. Den pind man stiller på for at ændre på modstanden er et luftspjæld, som på engelsk hedder en _damper_.
+
+I stilling 10 er der fuldt åbent for luftspjældet, så ventilatoren flytter størst luftmængde. Det gør den tung at trække. I stilling 1 flyttes mindst luftmængde og så her er det lettest at trække.
 
 Indstillingen af luftspjældet har ingen indflydelse på, hvor langt du kommer på det enkelte rotag. Det eneste, der tæller, er, hvor hårdt du trækker i snoren. Man kan sagtens trække hårdt med lav ventilatorbelastning.
 
 Luftmodstanden i ventilatoren er med til at danne _drag factor_, som i virkeligheden er det du gerne vil kigge efter.
 
-_Drag factoren_ måles ved hvert rotag. Drag factoren er en måling af, hvor hurtigt ventilatoren bremses ned. Når spjældet er åbent, og der kommer en stor luftmængde ind, så bremses ventilatoren naturligvis hurtigst. Drag factor er en meget mere nøjagtig indstilling, end du kan lave med pinden i luftspjældet. Unøjagtigheden gælder særligt mellem to forskellige romaskiner. Drag faktor derimod er præcis, også hvis du sammenligner to romaskiner.
+_Drag factoren_ måles ved hvert rotag. Drag factoren er en måling af, hvor hurtigt ventilatoren bremses ned. Når spjældet er åbent, og der kommer en stor luftmængde ind, så bremses ventilatoren naturligvis hurtigst.
+
+Drag factor er en meget mere nøjagtig indstilling, end du kan lave med pinden i luftspjældet. Unøjagtigheden gælder særligt mellem to forskellige romaskiner.
+
+Drag faktor derimod er præcis - også hvis du sammenligner to romaskiner.
 
 {% include video provider="youtube" id="3Uc2HQILJhU" %}
 
@@ -135,17 +143,23 @@ Hvilken drag factor, der passer bedst til dig som rotype kan variere. Men det er
 
 Endnu mere interessant er det, at rekorder på romaskine er ofte sat med _damper_-indstilling på 4-5. Det er altså en misforståelse, når folk i træningscentre tror at modstanden skal stå på 10.
 
-På en Concept2-romaskine finder du drag factor ved at gå til menu-punktet "Flere muligheder". Her er et menupunkt, som hedder drag factor. Den vælger du. Så laver du nogle pænt lange træk med håndtaget og lader det glide tilbage uden at du holder igen. På den måde kan du finde drag factor ved forskellige luftmodstande og kadencer.
+På en Concept2-romaskine finder du drag factor ved at gå til menu-punktet "Flere muligheder". Her er et menupunkt, som hedder drag factor. Den vælger du. Så laver du nogle pænt lange træk med håndtaget og lader det glide tilbage uden, at du holder igen.
+
+På den måde kan du finde drag factor ved forskellige luftmodstande og kadencer.
 
 Jeg har ikke kunnet finde _drag factor_ på andre roergometere.
 
 ## Hvilken kadence skal jeg ro med?
 
-I trappetesten så bør du følge anvisningerne på kadence. For 2000-meter testen, så skal du nok eksperimentere lidt før du finder den ultimative kadence sammeholdt med luftmodstanden, så du kan generere mest arbejde over tid.
+I trappetesten bør du følge anvisningerne på kadence. For 2000-meter testen, så skal du nok eksperimentere lidt før du finder den ultimative kadence sammeholdt med luftmodstanden, så du kan generere mest arbejde over tid.
 
 ## Find din egen modstand og kadence
 
-Du bør eksperimentere lidt med forskellige indstillinger af luftspjældet og med kadencen. Du kan for eksempel prøve at ro flere gange 500 m ved fast tryk 2:00 med forskellige luftspjældstillinger og ved forskellige faste værdier for kandence. Find ud af hvilken indstilling af luftspjæld og hvilken kadence der gør det lettest at holde 2:00 over de 500 m.
+Du bør eksperimentere lidt med forskellige indstillinger af luftspjældet og kadence. 
+
+Du kan for eksempel prøve at ro flere gange 500 m ved fast tryk 2:00 med forskellige luftspjældstillinger og ved forskellige faste værdier for kadence.
+
+Find ud af hvilken indstilling af luftspjæld og hvilken kadence, der gør det lettest at holde 2:00 over de 500 m.
 
 ## Hvilken teknik skal jeg bruge?
 
@@ -155,7 +169,9 @@ Vi har fundet denne glimrende introduktionsvideo til teknik i roning på roergom
 
 Læg mærke til roeren anvender et hel jævnt og meget langt tag. De første 5 tag er korte ryk, men når ventilatoren er kommet op i fart, så forsøger han at holde den i en jævn fart.
 
-Hvis du anvender **høj drag faktor** bremses ventilatoren længere ned imellem ro-tagene, og så skal den skal accellereres mere op ved hvert ro-tag. Hvis du går efter en lidt lavere drag factor, så er nedbremsningen mindre, og du behøver ikke at skulle bruge helt så meget kraft for at få ventilatoren op i fart igen.
+Hvis du anvender **høj drag faktor** bremses ventilatoren længere ned imellem ro-tagene, og så skal den skal accellereres mere op ved hvert ro-tag.
+
+Hvis du går efter en lidt lavere drag factor, så er nedbremsningen mindre, og du behøver ikke at skulle bruge helt så meget kraft for at få ventilatoren op i fart igen.
 
 Hvis du får de bedste resultater med en høj luftmodstand, så kan det skyldes, at du har et lidt afkortet rotag, så du kan overveje at kigge lidt på din teknik.
 
