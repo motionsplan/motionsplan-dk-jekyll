@@ -40,7 +40,7 @@ Howard Schatz har udgivet en fotobog med billeder fra før og efter en boksekamp
 
 DR.dk har lavet en [webfeature](https://www.dr.dk/sporten/webfeature/gaetsportsgren), hvor man skal gætte, hvilken sportsgren forskellige mennesker dyrker. Det er en meget sjov gættekonkurrence, og faktisk kan man måske gætte mere ud fra kroppens udseende end, man lige regnede med.
 
-{% include figure image_path="https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/COVER_SPORT-100.jpg" caption="Prøv DRs gættekonkurrence med, hvilken idræt de forskellige mennesker dyrker [her](https://www.dr.dk/sporten/webfeature/gaetsportsgren)." alt="gæt sportsgrenen bag kropstypen" %}
+{% include figure image_path="https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/COVER_SPORT-100.jpg" caption="Prøv DRs gættekonkurrence med, hvilken idræt de forskellige mennesker dyrker [her](https://www.dr.dk/sporten/webfeature/gaetsportsgren). Kilde: [DR.dk](https://www.dr.dk/sporten/webfeature/gaetsportsgren)." alt="gæt sportsgrenen bag kropstypen" %}
 
 Når man prøver at gætte eliteidrætsudøveres idrætsgren ud fra deres kropstype, så skal man naturligvis være klar over mindst to ting.
 
@@ -49,7 +49,7 @@ Når man prøver at gætte eliteidrætsudøveres idrætsgren ud fra deres kropst
 
 DR.dk har spurgt forskere om, hvad [drømmeatleten](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter) kunne se ud til sprint, maraton-løb, vægtløftning og svømning.
 
-{% include figure image_path="https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/1x/COVER_BYG.jpg" caption="Se forskernes bud på, hvad den optimale kropstype er til drømmeatleten i forskellige sportsgrene [her](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter)." alt="drømmeatleten ud fra sportsgrene og kropstype" %}
+{% include figure image_path="https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/1x/COVER_BYG.jpg" caption="Se forskernes bud på, hvad den optimale kropstype er til drømmeatleten i forskellige sportsgrene [her](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter). Kilde: [https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter](DR.dk)." alt="drømmeatleten ud fra sportsgrene og kropstype" %}
 
 ## Du vælger sportsgren ud fra din krop
 
