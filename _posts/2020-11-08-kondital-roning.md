@@ -15,7 +15,6 @@ tags:
   - beregner
   - rotest
 last_modified_at: 2022-08-07T10:14:14Z
-toc: true
 ---
 
 Du kan finde dit kondital på forskellige måder i en romaskine. Hvis du har adgang til et roergometer, så kan du få estimeret din kondition ved at lave en maksimal konditiontest.

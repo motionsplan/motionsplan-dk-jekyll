@@ -203,7 +203,7 @@ Varmetræning er mere udbredt end du måske går rundt og tror.
 
 Ultraløberen Stine Rex brugte det, da hun skulle forberede sig til 'verdens hårdeste løb', Death Valley Badwater Marathon.
 
-{% include figure image_path="/assets/images/blog/varmetraening-stine-rex.jpg" caption="Kilde: [dr.dk](https://www.dr.dk/sporten/stine-traener-styrke-i-en-sauna-og-loeber-i-en-opvarmet-kaelder-blive-klar-til-verdens)" %}
+{% include figure image_path="/assets/images/blog/varmetraening-stine-rex-crop.jpg" caption="Kilde: [dr.dk](https://www.dr.dk/sporten/stine-traener-styrke-i-en-sauna-og-loeber-i-en-opvarmet-kaelder-blive-klar-til-verdens)" %}
 
 Det er selvfølgelig i den helt ekstreme ende. Men mere almindelige mennesker bruger det også.
 
@@ -211,7 +211,7 @@ Triatleter på det ypperste niveau bruger det jævnligt, fordi det ofte er varmt
 
 I forbindelse med Tour de France-feberen kunne du også læse denne historie.
 
-{% include figure image_path="/assets/images/blog/varmetraening-kron.jpg" caption="Kilde: [ekstrabladet.dk](https://ekstrabladet.dk/sport/cykling/dansker-varmetraener-med-regntoej-og-hue/9347340)" %}
+{% include figure image_path="/assets/images/blog/varmetraening-kron-crop.jpg" caption="Kilde: [ekstrabladet.dk](https://ekstrabladet.dk/sport/cykling/dansker-varmetraener-med-regntoej-og-hue/9347340)" %}
 
 Den professionelle cykelrytter, Andreas Kron, som kører for Lotto Soudal har i 2022-sæsonen forberedt sig på de ekstreme temperaturer i Europa.
 

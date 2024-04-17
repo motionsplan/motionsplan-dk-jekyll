@@ -60,7 +60,7 @@ Når du analyserer løbestil, så skelnes ofte mellem, hvor løberne lander på 
 
 Opdelingen laves ofte sådan her:
 
-{% include figure image_path="https://www.jannaliphysio.com.au/images/running_7.png" alt="Forskellige måder løbere lander på. A. Forfod. B. Midtfod. C. Hæl. Kilde: [www.jannaliphysio.com.au](https://www.jannaliphysio.com.au/running_bio.html)" %}
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/6308298e0ebef337e98577a6/53e37bbf-a48f-4b55-bd50-3496e7a6c916/running_7.png?format=2500w" alt="Forskellige måder løbere lander på. A. Forfod. B. Midtfod. C. Hæl. Kilde: [www.jannaliphysio.com.au](https://www.jannaliphysio.com.au/blog/running-bio)" %}
 
 Du kan enten lægge mærke til, hvordan du lander eller få en ven til at optage dig på video, hvis du gerne vil vide, hvordan du lander på foden?
 
