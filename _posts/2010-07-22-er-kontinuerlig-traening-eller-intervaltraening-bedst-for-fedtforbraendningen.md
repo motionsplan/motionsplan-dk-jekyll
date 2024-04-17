@@ -4,8 +4,8 @@ seo_title: "Kontinuerlig træning eller intervaller fedtforbrænding"
 permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 language: da
 header:
-  overlay_image: /assets/images/blog/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen.jpg
-  teaser: /assets/images/blog/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen.jpg
+  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 tags:
   - intervaltræning

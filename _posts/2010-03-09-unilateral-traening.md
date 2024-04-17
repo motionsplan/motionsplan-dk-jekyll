@@ -3,8 +3,8 @@ title: &title "Unilateral træning: Ensidige øvelser løfter niveauet"
 permalink: /artikel/unilateral-traening/
 language: da
 header:
-  overlay_image: /assets/images/blog/unilateral-traening.jpg
-  teaser: /assets/images/blog/unilateral-traening.jpg
+  overlay_image: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 tags:
   - styrketræning
@@ -20,7 +20,9 @@ Hvad er unilaterale øvelser? **Unilaterale øvelser træner hver side af din kr
 
 ## Tosidige øvelser er en god basis
 
-Vi er fortalere for at træne øvelser, som aktiverer mange muskler på en gang. Vi elsker squat, dødløft og pullups, som virkelig giver et godt udbytte i forhold til den tidsmæssige indsats. I disse øvelser arbejder man samtidig i begge sider af kroppen, og mange muskler aktiveres på samme tid.
+Vi er fortalere for at træne øvelser, som aktiverer mange muskler på en gang. Vi elsker squat, dødløft og pullups, som virkelig giver et godt udbytte i forhold til den tidsmæssige indsats.
+
+I disse øvelser arbejder man samtidig i begge sider af kroppen, og mange muskler aktiveres på samme tid.
 
 ## Fordele ved unilaterale øvelser
 

@@ -8,8 +8,8 @@ redirect_from:
   - /rigtige-teknik/
 language: da
 header:
-  overlay_image: /assets/images/blog/tjek-teknikken-i-din-styrketraening.jpg
-  teaser: /assets/images/blog/tjek-teknikken-i-din-styrketraening.jpg
+  overlay_image: https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Hvad er den rigtige teknik i styrketræning?"
 tags:
   - styrketræning

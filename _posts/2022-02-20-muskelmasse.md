@@ -46,11 +46,9 @@ En stor del af forklaringen på tabet af muskelmasse og muskelstyrke er nedsat a
 
 Kvinder og mænd har forskellig muskelmasse. Du kan udregne den normale muskelmasse for personer, der har de samme mål som dig i beregneren ovenover.
 
-Kvinder har naturligt en højere fedtprocent end mænd, hvilket også betyder, at de gennemsnitligt har en mindre muskelmasse. En normal muskelmasse for kvinder er typisk omkring 31% af deres kropsvægt, og for mænd omkring 35% af kropsvægten.
+Kvinder har naturligt en højere fedtprocent end mænd, hvilket også betyder, at de gennemsnitligt har en mindre muskelmasse. En normal muskelmasse for kvinder er typisk omkring 31% af deres kropsvægt, og for mænd omkring 38% af kropsvægten.
 
 Men for at få et svar på, hvad en normal muskelmasse for mennesker der ligner dig er, så tjek vores beregner.
-
-{% include figure image_path="https://asset.dr.dk/imagescaler/?protocol=https&server=www.dr.dk&file=%2Fimages%2Fcrop%2F2018%2F11%2F21%2F1542796676_web_0.jpg&scaleAfter=crop&quality=70&w=600" caption=" Kilde: [DR.dk](https://www.dr.dk/sporten/oevrig/mere-fedt-og-mindre-muskler-men-kvindekroppen-har-hemmelige-superevner)" alt="Muskelmasse hos mænd og kvinder" %}
 
 ## Hvordan øger jeg min muskelmasse?
 

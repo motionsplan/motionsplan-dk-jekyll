@@ -9,8 +9,8 @@ redirect_from:
 excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere og cykelryttere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb og cykling? Og er der bivirkninger ved at bruge kompressionsstrømper?"
 language: da
 header:
-  overlay_image: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
-  teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
+  overlay_image: https://images.unsplash.com/photo-1504733059175-e37302dfce31?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1504733059175-e37302dfce31?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Virker kompressionsstrømper på restitution og præstation til cykling og løb?"
 category:
   - Løb

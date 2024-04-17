@@ -4,8 +4,8 @@ seo_title: "Outdoor fitness: 38 øvelser til udendørs træning"
 permalink: /artikel/dogmefitness/
 language: da
 header:
-  overlay_image: /assets/images/blog/dogmefitness.jpg
-  teaser: /assets/images/blog/dogmefitness.jpg
+  overlay_image: https://images.unsplash.com/photo-1540474211005-7c8a448f69e6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1540474211005-7c8a448f69e6?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 category:
   - Træning

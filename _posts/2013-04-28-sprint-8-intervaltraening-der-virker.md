@@ -4,8 +4,8 @@ permalink: /artikel/sprint-8-intervaltraening-der-virker/
 redirect_from: /artikel/sprint-8-intervaltræning-der-virker/
 language: da
 header:
-  overlay_image: /assets/images/blog/sprint-8-intervaltraening-der-virker.jpg
-  teaser: /assets/images/blog/sprint-8-intervaltraening-der-virker.jpg
+  overlay_image: https://images.unsplash.com/photo-1695918425283-eb385c012b7a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1695918425283-eb385c012b7a?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 tags:
   - anaerob

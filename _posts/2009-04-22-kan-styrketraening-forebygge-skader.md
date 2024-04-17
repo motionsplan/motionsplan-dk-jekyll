@@ -5,8 +5,8 @@ permalink: /artikel/kan-styrketraening-forebygge-skader/
 title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 seo_title: "Hvordan forebygger du skader mest effektivt?"
 header:
-  overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
-  teaser: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
+  overlay_image: https://images.unsplash.com/photo-1623946724822-ba48a838f3da?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1623946724822-ba48a838f3da?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 language: da
 category:
@@ -28,7 +28,9 @@ Vi vil i det følgende kigge på hvilke former for træning, der har en skadesfo
 
 ## Skadesforebyggelse versus specificitet
 
-Inden man begynder at kaste sig ud i alle mulige forsøg på at implementere skadesforebyggelse. Et eksempel på dette er, at hvis man vil gøre kroppen modstandsdygtig overfor typiske skader associeret med sprint, så skal man træne at sprinte. Skadesforebyggende støtteøvelser har bestemt deres værdi, men de kommer ikke nærheden at, hvis man på en fornuftig måde over tid opbygger en kapacitet i kroppen for eks. at kunne sprinte.
+Inden man begynder at kaste sig ud i alle mulige forsøg på at implementere skadesforebyggelse. Et eksempel på dette er, at hvis man vil gøre kroppen modstandsdygtig overfor typiske skader associeret med sprint, så skal man træne at sprinte. 
+
+Skadesforebyggende støtteøvelser har bestemt deres værdi, men de kommer ikke nærheden at, hvis man på en fornuftig måde over tid opbygger en kapacitet i kroppen for eks. at kunne sprinte.
 
 ## Balancetræning til at forebygge skader
 
