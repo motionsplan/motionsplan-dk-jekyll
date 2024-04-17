@@ -70,6 +70,7 @@ const flyer_handicap = require('../js/flyer-handicap');
 const rowing_power_calculator = require('../js/rowing-power-calculator');
 const rowing_vo2 = require('../js/rowing-vo2');
 const rowing_powerprofile = require('../js/rowing-ergrowing');
+const rer = require('../js/rer');
 require('image-map-resizer');
 
 $(function() {
@@ -2243,7 +2244,22 @@ $(function() {
 
         $("[name='bloodvolume']").val(b.getVolume().toFixed(0));
     });
-    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_rer").submit(function(e) {
+      console.log("Calculate RER");
+      e.preventDefault();
+
+      let r = $("[name='r']").val();
+      let o = $("[name='o']").val();
+
+      let b = rer.RER(r, o);
+
+      $("[name='energy_expenditure']").val(b.getKcalMin().toFixed(0));
+      $("[name='energy_fat_percent']").val(b.getFatPercent().toFixed(2) * 100);
+      $("[name='energy_cho_percent']").val(b.getCHOPercent().toFixed(2) * 100);
+      $("[name='energy_fat_kcal_min']").val(b.getCaloriesFromFat().toFixed(2));
+      $("[name='energy_cho_kcal_min']").val(b.getCaloriesFromCHO().toFixed(2));
+  });
+  // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_lung").submit(function(e) {
         console.log("Calculate Blood");
         e.preventDefault();

@@ -34,17 +34,17 @@
     "browserify": "^16.5",
     "gray-matter": "^4.0",
     "js-yaml": "^4.1",
+    "minipass": "2.7.0",
     "mocha": "^9.2",
     "puppeteer": "^8.0",
     "queue": "^6.0",
+    "sharp": "^0.23.0",
     "tinify": "^1.6",
-    "uglifyify": "^5.0",
-    "wilks-calculator": "^1.2",
+    "uglify-js": "^3.13",
+    "uglifyify": "^5.0.2",
     "unicode-encode": "^1.4",
     "watchify": "^4.0",
-    "minipass": "2.7.0",
-    "sharp": "^0.23.0",
-    "uglify-js": "^3.13"
+    "wilks-calculator": "^1.2"
   },
   "scripts": {
     "test": "bundle exec mocha src/test/*.*",

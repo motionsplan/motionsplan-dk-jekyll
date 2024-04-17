@@ -2,6 +2,8 @@
 title: &title "Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)"
 description: "Den respiratoriske udvekslingskvotient (R eller RER) og metaboliske udvekslingskvotient (RQ) beskriver forholdet mellem fedt og kulhydrat i forbrændingen."
 permalink: /respiratoriske-metaboliske-udvekslingskvotient/
+redirect_from:
+  - /rer/
 last_modified_at: 2022-10-05T20:41:09Z
 language: da
 header:
@@ -41,7 +43,7 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 
 Den respiratoriske udvekslingskvotient kan ifølge [Wikipedia](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) give et indblik i, hvilken metabolisme der foregår i kroppen.
 
-Den metoboliske udvekslingskvotient (RQ) afhænger af, hvilke fødevarer der forbrændes i kroppen. Kroppen forbrænder kulhydrat, fedt, protein og alkohol. RQ afspejler, hvilke næringsstoffer der forbrændes.
+Den respiratoriske udvekslingskvotient (RER) afhænger af, hvilke næringsstoffer der forbrændes i kroppen. Typisk skelner man primært mellem kulhydrat og fedt, men kroppen kan også forbrænde protein og alkohol.
 
 ## Hvad er den metaboliske udviklingskvotient (RQ)?
 
@@ -55,15 +57,17 @@ Over længere tid kan man ikke udskille mere (eller mindre) CO<sub>2</sub> end d
 
 {% include video provider="youtube" id="oQvHwWbvLkY" %}
 
+RQ afspejler, hvilke næringsstoffer der forbrændes: kulhydrat, fedt, protein og alkohol.
+
 ## Metaboliske udvekslingskvotient og næringsstoffer
 
-Når man laver tests på løbebånd med iltmaske måler man altså den respiratoriske udvekslingskvotient i udåndingsluften og forventer, at den nogenlunde afspejler de metaboliske processer i kroppen, så man kan finde forholdet mellem næringsstofferne i kroppen.
+Når man laver tests på løbebånd med iltmaske måler man den respiratoriske udvekslingskvotient i udåndingsluften og forventer, at den nogenlunde afspejler de metaboliske processer i kroppen, så man kan finde forholdet mellem næringsstofferne i kroppen.
 
 På en normal kost er RER omkring 0,8 - 0,85 i hvile. Der forbrændes hovedsageligt fedt med værdier fra 0,7 - 0,85, hvor der er 100% fedtforbrænding ved 0,7.
 
 {% include figure image_path="/assets/images/blog/rq-og-intensitet.png" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode. Frit efter: Schibye (2017)" alt="Metaboliske udvekslingskvotient (RQ)" %}
 
-Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrater.
+Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker typisk ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrater.
 
 | RQ   | %E fra fedt | %E fra kulhydrat |
 |------|:-----------:|:----------------:|
@@ -75,13 +79,68 @@ Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer me
 | 0,95 | 16          | 84               |
 | 1,00 | 0           | 100              |
 
-Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du begynder at hyperventilere, og så forbrænder du ikke længere fedt under selve aktiviteten.
+Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du ikke længere forbrænder fedt under selve aktiviteten, og du formentlig også begynder at hyperventilere.
 
-RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse. Hvis RER-værdien kommer over 1,0 og gerne lidt højere, så kan det være et slutpunktskriterium for VO<sub>2</sub>-max-testen.
+RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse.
+
+Hvis RER-værdien kommer over 1,1 og gerne lidt højere, så kan det være et slutpunktskriterium for VO<sub>2</sub>-max-testen.
+
+## Hvad er forklaringen på RQ-værdierne?
+
+Forklaringen på RQ-værdierne kan forklares med lidt kemi.
+
+For at forbrænde et molekyle af **kulhydrat**, så ser den kemiske sammenhæng sådan ud:
+
+***
+
+6 O<sub>2</sub> + C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> --> 6 CO<sub>2</sub> + 6 H<sub>2</sub>O + 38 ATP
+
+RER = VCO<sub>2</sub>/VO<sub>2</sub> = 6 CO<sub>2</sub>/6 O<sub>2</sub> = 1.0
+
+***
+
+For at forbrænde et molekyle af **fedt**, så ser den kemiske sammenhæng sådan ud:
+
+***
+
+23 O<sub>2</sub> + C<sub>16</sub>H<sub>32</sub>O<sub>2</sub> --> 16 CO<sub>2</sub> + 16 H<sub>2</sub>O + 129 ATP
+
+RER = VCO<sub>2</sub>/VO<sub>2</sub> = 16 CO<sub>2</sub>/23 O<sub>2</sub> = 0.7
+
+***
+
+Ud fra den kemiske sammenhæng er det altså meget klart, hvorfor forholdet mellem CO<sub>2</sub> og O<sub>2</sub> ligger mellem 0,7 og 1,0.
+
+## Hvad kan jeg bruge R-værdien til?
+
+1. Når du kender R-værdien kan du estimere, hvilket næringsstof du bruger til den primære energiproduktion ved den givne intensitet.
+2. Du kan udregne energiforbruget ved en given aktivitet.
+
+| R | Energy Expenditure kcal/L O<sub>2</sub> |
+|-|-|
+| 0.71 | 4.69 |
+| 0.75 | 4.74 |
+| 0.80 | 4.80 |
+| 0.85 | 4.86 |
+| 0.90 | 4.92 |
+| 0.95 | 4.99 |
+| 1.00 | 5.05 |
+
+Der er en lineær sammenhæng mellem værdierne, og det kan også udtrykkes ved følgende formel:
+
+***
+
+Energiforbrug (kcal/ L O<sub>2</sub>) = 1,24 * R + 3,81
+
+***
+
+Hvis jeg fx arbejder og bruger 2 L O<sub>2</sub>, og min R-værdi er 0,85, så forbrænder jeg 9,72 kcal/min. Hvis jeg arbejder med samme intensitet i 30 minutter, så forbrænder jeg i alt 292 kcal.
+
+{% include calculate-rer.html %}
 
 ## Konklusion
 
-RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
+RER-værdien er forholdet mellem det udskilte CO<sub>2</sub> og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
 
 Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt.
 

@@ -1,0 +1,44 @@
+<form class="calculator" id="calculator_rer">
+    <fieldset>
+        <legend>Udregning af energiforbrug</legend>
+        <div class="form-group">
+            <label>R-værdi
+                <input type="number" min="0" max="2" placeholder="fx 0.85" name="r" id="r" step="0.01" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Iltforbrug (L O<sub>2</sub>)
+                <input type="number" min="0" max="10" placeholder="fx 2" name="o" id="o" step="0.01" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Energiforbrug (kcal/min)
+                <input name="energy_expenditure" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Energi fra fedt (%)
+                <input name="energy_fat_percent" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Energi fra fedt (kcal/min)
+                <input name="energy_fat_kcal_min" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Energi fra kulhydrat (%)
+                <input name="energy_cho_percent" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Energi fra kulhydrat (kcal/min)
+                <input name="energy_cho_kcal_min" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>
