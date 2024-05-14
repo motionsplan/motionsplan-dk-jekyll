@@ -4,16 +4,24 @@ let assert = require('assert');
 describe('RunningEconomy', function() {
   describe('getRunningEconomy', function() {
     it('should return the correct number', function() {
-      let r = motionsplan.RunningEconomy(70, 3.5);
-      // m2, s2, km
-      assert.equal(r.getRunningEconomy(12.5), 240);
+      let r = motionsplan.RunningEconomy(3.5, 12.5);
+
+      assert.equal(r.getRunningEconomyInMlPrKgPrMin(), 240);
     });
   });
   describe('getFitnessLevel', function() {
     it('should return the correct number', function() {
-      let r = motionsplan.RunningEconomy(70, 3.5);
-      // m2, s2, km
-      assert.equal(r.getFitnessLevel(), 50);
+      let r = motionsplan.RunningEconomy(3.5, 12.5);
+
+      assert.equal(r.getOxygenPrKgPrMin(70), 50);
+    });
+  });
+
+  describe('getFitnessLevel', function() {
+    it('should return the correct number', function() {
+      let r = motionsplan.RunningEconomy(3.5, 12.5);
+
+      assert.equal(r.getOxygenPrKm(), 60);
     });
   });
 });

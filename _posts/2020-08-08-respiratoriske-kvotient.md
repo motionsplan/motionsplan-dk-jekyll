@@ -23,7 +23,7 @@ feature_row:
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 faq:
-  - question: Hvad er den respiratorisk kvotient?
+  - question: Hvad er den respiratoriske kvotient?
     answer: Den respiratoriske kvotient er et lidt kortere navn for den respiratoriske udvekslingskvotient, som også forkortes R eller RER.
   - question: Hvad er forskellen på den metaboliske udvekslingskvotient og den respiratoriske udvekslingskvotient?
     answer: Begge kvotienter er forholdet mellem mængden af kuldioxid, der udskilles, divideret med mængden af ilt, der optages, på samme tid. Forskellen er at den metaboliske kvotient måles på celleniveau, mens den respiratoriske kvotient måles i udåndingsluften.

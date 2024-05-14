@@ -60,7 +60,7 @@ Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og 
 
 - Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
 - **Løbeøkonomien**
-- Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den anaerobe tærskel.
+- Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den [anaerobe tærskel](/anaerobe-taerskel/).
 
 Lad os dykke lidt længere ned i begrebet løbeøkonomi.
 
@@ -193,6 +193,11 @@ Der er typisk ikke direkte sammenhæng mellem den maksimale iltoptagelse og løb
 > In conclusion, the current investigation demonstrates that only a small to moderate relationship exists between running economy and V̇O<sub>2</sub>max in highly trained distance runners. With >85% of the variance in these parameters unexplained by this relationship, these findings reaffirm that running economy and V̇O<sub>2</sub>max are primarily determined independently.
 
 --- <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
+
+{% comment %}
+TODO - https://en.wikipedia.org/wiki/Running_economy
+https://inscyd.com/article/running-economy/
+{% endcomment %}
 
 ## Forskel på mænd og kvinders løbeøkonomi
 

@@ -2908,22 +2908,22 @@ $(function() {
         console.log("Calculate running economy");
         e.preventDefault();
 
-      let weight = Number($("[name='weight']").val());
-      let velocity = Number($("[name='velocity']").val());
-      let oxygenuptake = Number($("[name='oxygenuptake']").val());
+        let weight = Number($("[name='weight']").val());
+        let velocity = Number($("[name='velocity']").val());
+        let oxygenuptake = Number($("[name='oxygenuptake']").val());
 
-      let c = running_economy.RunningEconomy(weight, oxygenuptake);
+        let c = running_economy.RunningEconomy(oxygenuptake, velocity);
 
-        $("#running_economy").val(c.getRunningEconomy(velocity).toFixed(2));
+        $("#running_economy").val(c.getRunningEconomyInMlPrKgPrMin(weight).toFixed(2));
     });
     $("#calculator_oxygen_uptake").submit(function(e) {
         console.log("Calculate oxygen uptake");
         e.preventDefault();
 
-      let weight = Number($("[name='fitness_weight']").val());
-      let oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
+        let weight = Number($("[name='fitness_weight']").val());
+        let oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
 
-      let c = running_economy.RunningEconomy(weight, oxygenuptake);
+        let c = running_economy.RunningEconomy(weight, oxygenuptake);
 
         $("#fitness_level").val(c.getFitnessLevel().toFixed(2));
     });
