@@ -22,11 +22,11 @@ category:
   - Kondition
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/ro_erg_model_E.jpg
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg
     alt: "Concept 2 egnet til rotræning og ropoprogrammer"
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/?search=concept2
     btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

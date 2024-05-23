@@ -24,20 +24,20 @@ feature_row_powerlifting:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_weightlifting:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tr%c3%83%c2%a6ningsb%c3%83%c2%a6lte.jpg
-    alt: "Everlast træningsbælte til vægtløftning"
-    title: "Everlast træningsbælte til vægtløftning"
-    excerpt: "Everlast træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Everlast bæltet yder en optimal støtte ved intens styrkeløft med en bredde på 10 cm og dobbelt spænde til lukning."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/everlast-traeningsbaelte/"
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
+    alt: "Harbinger træningsbælte til vægtløftning"
+    title: "Harbinger træningsbælte til vægtløftning"
+    excerpt: "Harbinger træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Harbinger bæltet yder en optimal støtte ved intens styrkeløft med en bredde på 10 cm og dobbelt spænde til lukning."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/605-harbinger-laeder-baelte-bredt-m/"
     btn_label: Tjek prisen
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_syntetisk:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/243_HB_Product_4inchNylonBelt_coiled_1080x645.jpg
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
     alt: "Fitnessbælte i neopren"
     title: "Fitnessbælte i neopren"
     excerpt: "Harbinger Neopren Bælte til vægtløft i sort. Træningsbæltet fra Harbinger hjælper dig med, at støtte og stabilisere din ryg under træningen."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/harbringer-neopren-baelte-herre-medium/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/617-harbinger-poly-baelte-herre-m/
     btn_label: Tjek prisen
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

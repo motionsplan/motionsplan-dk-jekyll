@@ -35,7 +35,7 @@ books:
     btn_label: "Tjek prisen"
     rel: sponsored nofollow noopener
 feature_row_yogamat:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
     alt: "Manduka X Yoga Mat til de 5 tibetanere"
     title: "Manduka X Yoga Mat"
     excerpt: "Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan fx kigge på denne Manduka X Yoga Mat."

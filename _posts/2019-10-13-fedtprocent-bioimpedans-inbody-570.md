@@ -31,11 +31,11 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
     alt: "Tanita MC 780 kropsanalysevægt til test"
     title: "Tanita MC 780 P MA"
     excerpt: "På Tanita MC 780 kan du lave en interaktiv kropsanalysevægt test. Vægten er let at benytte. Med det todelte display kan du nemt overskue de målte og beregnede data."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
