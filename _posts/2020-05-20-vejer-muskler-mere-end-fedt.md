@@ -35,7 +35,7 @@ Muskler og fedt vejer noget forskelligt, fordi de har forskellig massefylde. Lad
 
 Der er to forskellige typer **fedt** i kroppen; hvidt og brunt. Langt hovedparten af kroppens fedt er det hvide fedt, men en andel lagres også i det brune fedt. Fedtcellerne er opbygget lidt forskelligt.
 
-{% include figure image_path="https://videnskab.dk/files/styles/columns_6_12_desktop/public/article_media/fedt3_2.jpg" caption="Forskellen på de hvide fedtceller og de brune fedtceller er hovedsageligt, hvordan de ophobede triglycerider fordeler sig. I de hvide fedtceller er fedtet samlet. Foto fra videnskab.dk." alt="Opbygning af hvidt og brunt fedt." %}
+{% include figure image_path="https://videnskab.dk/wp-content/uploads/2016/05/fedt3-2.jpg" caption="Forskellen på de hvide fedtceller og de brune fedtceller er hovedsageligt, hvordan de ophobede triglycerider fordeler sig. I de hvide fedtceller er fedtet samlet. Foto fra [videnskab.dk](https://videnskab.dk/krop-sundhed/hvidt-og-brunt-fedt-er-ikke-et-fedt/)." alt="Opbygning af hvidt og brunt fedt." %}
 
 En fedtcelle består af omkring 87% fedt (triglycerid), mens de sidste 13% udgøres af cellemembranen, cellekernen og de mitokondrier, der producerer energi.
 
