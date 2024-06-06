@@ -123,7 +123,7 @@ jobs:
             --only-4xx
             --ignore-status-codes "400,403,409,429"
             --ignore-empty-alt
-            --ignore-urls "/bjsm.bmj.com/"
+            --ignore-urls "/bjsm.bmj.com/, /mademistakes.com/work/minimal-mistakes-jekyll-theme"
             --cache '{ "timeframe": { "external": "30d" } }'
           # The arguments to pass to HTMLProofer
   clean:

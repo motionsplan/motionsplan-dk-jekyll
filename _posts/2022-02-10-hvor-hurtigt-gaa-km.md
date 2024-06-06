@@ -29,7 +29,7 @@ Vi kigger altså i dette indlæg lidt på ganghastighed og gangtempo. Vi tager u
 
 Hvis du vil se nogle folk, der virkelig går hurtigt, så kan du jo kigge lidt på en virkelig hurtig kapgænger her. Det er klart, at en topklasse kapgænger går noget hurtigere pr. kilometer end os almindelige mennesker.
 
-{% include video provider="youtube" id="HAA6tfbyJDA" %}
+{% include video provider="youtube" id="EOYdS5QZasM" %}
 
 ## Hvordan kan jeg vide, om jeg har gået 10.000 skridt?
 
