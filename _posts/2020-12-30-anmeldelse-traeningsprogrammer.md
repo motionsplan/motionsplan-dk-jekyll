@@ -63,7 +63,7 @@ I det lange løb så kan du få brug for variation for at fortsætte med at få 
 
 ## Hvad skal jeg kigge efter i træningsprogrammet?
 
-Der findes rigtig mange [styrketræningsprogrammer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=79135){: rel='sponsored nofollow noopener' }, som slår sig op på at være det mest solgte styrketræningsprogram og vil give særligt gode resultater. Sandheden er, at de fleste resultater giver gode resultater, så længe du er begynder. Det betyder imidlertid ikke, at programmerne ikke er pengene værd. Der findes mange programmer, som er sat godt sammen - og jeg har selv nydt at lære nye ting ved at købe et færdiggjort styrketræningsprogram.
+Der findes rigtig mange styrketræningsprogrammer, som slår sig op på at være det mest solgte styrketræningsprogram og vil give særligt gode resultater. Sandheden er, at de fleste resultater giver gode resultater, så længe du er begynder. Det betyder imidlertid ikke, at programmerne ikke er pengene værd. Der findes mange programmer, som er sat godt sammen - og jeg har selv nydt at lære nye ting ved at købe et færdiggjort styrketræningsprogram.
 
 Men husk at de kroppe du ser på de gode tilbud kan skabes på mange måder - og med mange forskellige programmer. Typisk kan det sjældent lade sig gøre at få så store muskler så hurtigt eller tabe så meget fedt så hurtigt uden at være ekstremt dedikeret. Og mange vil ikke lægge kosten om eller træne helt så hårdt og ofte, som gigantiske tranformationer på ingen tid vil tage. (Og ofte tager det også den helt rigtige lyssætning og forberedelse inden _photo shootet_).
 

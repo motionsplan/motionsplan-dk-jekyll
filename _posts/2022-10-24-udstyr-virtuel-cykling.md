@@ -15,7 +15,7 @@ tags:
   - hometrainer
 last_modified_at: 2022-11-06T08:14:14Z
 feature_row_kickr_bike:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-bike-v2.aspx
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
     image_path: https://www.fotoagent.dk/images/w/JqJAsn3HMfMDXAHPYw6btw/s/10678/138/1_Wahoo_KICKR_BIKE_V2_150241.jpg?v=116122064
     title: Wahoo Kickr Bike v2
     excerpt: Nu kommer Wahoo Kickr Bike 2, en ny og forbedret version af den oprindelige Kickr Bike. Og her har vi virkelig at gøre med det ypperste indenfor e-cycling/indendørs cykling.
@@ -24,7 +24,7 @@ feature_row_kickr_bike:
     rel: sponsored nofollow noopener
 feature_row_kickr:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
     title: Wahoo Kickr 5.0
     excerpt: "Du kan fx køre e-cykling på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
     btn_label: "Tjek prisen"
@@ -48,7 +48,7 @@ feature_row_kickr_headwind:
     rel: sponsored nofollow noopener
 feature_row_kickr_tacx_flux:
   - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-T2900S-64/tacx-flux-s-smart-hometrainer
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
     title: Tacx Flux 2
     excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr."
     btn_label: "Tjek prisen"
@@ -100,9 +100,9 @@ Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du 
 
 ### 1. Wahoo Kickr Bike
 
-Jeg cykler selv på en [Wahoo Kickr Bike v2](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-bike-v2.aspx){: rel='sponsored nofollow noopener' }. Wahoo Kickr Bike er ikke rigtig en hometrainer. Men den er genial til at køre de virtuelle løb på.
+Jeg cykler selv på en [Wahoo Kickr Bike v2](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D){: rel='sponsored nofollow noopener' }. Wahoo Kickr Bike er ikke rigtig en hometrainer. Men den er genial til at køre de virtuelle løb på.
 
-Den eneste ulempe ved cyklen er prisen, men lige nu kan du være heldig at få en god pris på den [første version af cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-bike.aspx){: rel='sponsored nofollow noopener' } af cyklen, da den nye udgave lige er kommet.
+Den eneste ulempe ved cyklen er prisen, men lige nu kan du være heldig at få en god pris på den [første version af cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D){: rel='sponsored nofollow noopener' } af cyklen, da den nye udgave lige er kommet.
 
 Fordelen ved cyklen er, at du ikke skal til at montere din egen cykel på en hometrainer, og at du ikke risikerer at svede på din egen (dyre) cykel.
 
@@ -118,9 +118,9 @@ Den larmer nærmest heller ikke, når du kører, hvilket er en stor fordel, hvis
 
 ### 2. Wahoo Kickr 6.0
 
-Jeg cykler selv på en [Wahoo Kickr 6.0](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr-6-0.aspx){: rel='sponsored nofollow noopener' } hometrainer, som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse. 
+Jeg cykler selv på en [Wahoo Kickr 6.0](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D){: rel='sponsored nofollow noopener' } hometrainer, som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse. 
 
-Du kan stadig få [den tidligere model nedsat](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx){: rel='sponsored nofollow noopener' }.
+Du kan stadig få [den tidligere model nedsat](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D){: rel='sponsored nofollow noopener' }.
 
 {% include feature_row type="left" id="feature_row_kickr" %}
 
@@ -154,9 +154,9 @@ Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen.
 
-Mange bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2092/tacx-tablet-beslag-til-cykelstyr){: rel="sponsored nofollow noopener" } eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
+Mange bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/){: rel="sponsored nofollow noopener" } eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
 
-Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret smarte kombinerede smartphone-holder og [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem de virtuelle løb.
+Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret smarte kombinerede smartphone-holder og [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem de virtuelle løb.
 
 Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre e-cykling på en virtuel platform.
 
@@ -244,7 +244,7 @@ Du kommer til at svede meget, og blæseren kan være en god ide. Her hjælper en
 
 {% include feature_row type="left" id="feature_row_kickr_headwind" %}
 
-Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-t2931/tacx-smartphone-svedcover){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
+Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
 Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre.
 

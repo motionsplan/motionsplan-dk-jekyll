@@ -70,8 +70,6 @@ Vi ses i bølgen blå!
 Jeg blev ret overrasket over, at man faktisk kan købe udstyr til vinterbadning. 
 https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76949&htmlurl=https://vinterbaderen.dk/pages/er-vinterbadning-sundt
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76944" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=76944" border="0" alt=""></a>
-
 
 ***
 

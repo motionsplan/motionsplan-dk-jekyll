@@ -47,5 +47,3 @@ Hvad fandt du ud af?
 --------------------
 
 Hvad synes du om programmet? Har du nogen tips? Hvordan så det ud, da du analyserede din egen mad?
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53063" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=53063" border="0"></a>

@@ -99,7 +99,7 @@ Pandekagerne er nemme at lave. Du kan lave 10-12 stykker på under 25 minutter.
 - 1 spsk flydende akaciehonning
 - 3 dl havredrik eller komælk
 - 3 stk æggehvider
-- ½ tsk [vaniljepulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=48722&htmlurl=https://www.netspiren.dk/vanillepulver-okologisk-10-gram.html){: rel='sponsored nofollow noopener' }
+- ½ tsk vaniljepulver
 - 1 spsk [chiafrø](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/original-chiar-chia-fro-o-500-gr.html){: rel='sponsored nofollow noopener' } (kan undlades)
 - 1 tsk [bagepulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/bagepulver-gl-fri-7904p.html){: rel='sponsored nofollow noopener' }
 - et lille nip salt

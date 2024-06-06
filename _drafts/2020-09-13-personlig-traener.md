@@ -45,9 +45,5 @@ https://sportinghealthclub.dk/personlige-traener-guiden/
 bodystyling.dk
 https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68006
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67985" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=67985" border="0" alt=""></a>
-
 Henrik Duer
 https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53062" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=53062" border="0" alt=""></a>

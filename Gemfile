@@ -18,4 +18,4 @@ gem 'numo-linalg'
 gem 'gsl', git: 'https://github.com/SciRuby/rb-gsl.git', ref: '103a3e1'
 gem 'classifier-reborn'
 gem 'html-proofer'
-gem "minimal-mistakes-jekyll", "~> 4.24"
+gem "minimal-mistakes-jekyll", "~> 4.26"
