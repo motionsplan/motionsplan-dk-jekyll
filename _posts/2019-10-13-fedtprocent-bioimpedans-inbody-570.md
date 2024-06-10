@@ -87,7 +87,7 @@ Hvis du gerne vil have dit resultat til at være så præcist som muligt, så sk
 
 ## Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://bodytracker.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }.
+På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://bodytracker.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute.
 
 InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
 

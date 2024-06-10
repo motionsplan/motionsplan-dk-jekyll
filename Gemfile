@@ -5,7 +5,6 @@ gem "liquid-c"
 group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-feed'
-    gem 'jemoji'
     gem 'jekyll-redirect-from'
     gem 'jekyll-gist'
     gem 'jekyll-include-cache'
@@ -17,5 +16,5 @@ gem 'numo-narray'
 gem 'numo-linalg'
 gem 'gsl', git: 'https://github.com/SciRuby/rb-gsl.git', ref: '103a3e1'
 gem 'classifier-reborn'
-gem 'html-proofer'
+gem 'html-proofer', "~>5.0"
 gem "minimal-mistakes-jekyll", "~> 4.26"

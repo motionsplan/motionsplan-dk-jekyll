@@ -123,9 +123,8 @@ jobs:
             --only-4xx
             --ignore-status-codes "400,403,409,429"
             --ignore-empty-alt
-            --ignore-urls "bjsm.bmj.com, mademistakes.com"
-            --cache '{ "timeframe": { "external": "30d" } }'
-          # The arguments to pass to HTMLProofer
+            --allow-hash-href
+            --ignore-urls "/bjsm.bmj.com/, /mademistakes.com/"
   clean:
     needs: [build,deploy,test]
     runs-on: ubuntu-latest

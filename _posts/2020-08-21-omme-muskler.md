@@ -50,7 +50,7 @@ Det handler altså først og fremmest om belastning. Hvis du stille og roligt v�
 
 > Hvor øm, du bliver, kommer helt an på, hvor meget mere du har belastet musklerne, end du plejer. Er det en halv times intens fodbold til firmafesten og tyve år siden, du sidst gjorde det, kan de første skridt på dagen opleves som decideret smertefulde. Derimod vil den ømhed, der kommer efter træning, som kun var lidt hårdere end sædvanligt, være en let ømhed, siger han.
 
-— <cite>[Flemming Enoch](https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm), specialist i idrætsfysioterapi og genoptræning</cite>
+— <cite>[Flemming Enoch](https://web.archive.org/web/20220930032104/https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm){: rel="nofollow noopener"}, specialist i idrætsfysioterapi og genoptræning</cite>
 
 Du kan altså forebygge ømhed i musklerne efter træning ved at bygge din træning fornuftigt op. Typisk kan du måske øge mængden af træning med omkring 5% om ugen, og på den måde kan du undgå at få ømme muskler.
 
@@ -80,7 +80,7 @@ En anden forklaring på ømhed i musklerne er, at der under fysisk arbejde skabe
 
 > Mikroskaderne medfører en lille betændelsesreaktion, en inflammation, som er en normal del af, at musklen heler op.
 
-— <cite>[Flemming Enoch](https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm), specialist i idrætsfysioterapi og genoptræning</cite>
+— <cite>[Flemming Enoch](https://web.archive.org/web/20220930032104/https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm){: rel="nofollow noopener"}, specialist i idrætsfysioterapi og genoptræning</cite>
 
 Ømhed i musklerne skabes højst sandsynligt af små rifter eller skader i muskulaturen, som opstår, når vi foretager en uvant bevægelse med høj belastning over længere tid end vi plejer.
 

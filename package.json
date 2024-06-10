@@ -48,7 +48,7 @@
   },
   "scripts": {
     "test": "bundle exec mocha src/test/*.*",
-    "test:html": "bundle exec htmlproofer --only-4xx --assume-extension \".html\" --ignore-status-codes \"400,403,409,429\" --allow-hash-href --ignore-empty-alt --cache '{ \"timeframe\": { \"external\": \"7d\" } }' _site/",
+    "test:html": "bundle exec htmlproofer --only-4xx --assume-extension \".html\" --ignore-urls \"/bjsm.bmj.com/, /mademistakes.com/\" --ignore-status-codes \"400,403,409,429\" --allow-hash-href --ignore-empty-alt _site/",
     "start": "bundle exec jekyll server --port 8080 --incremental",
     "lsi": "bundle exec jekyll server --port 8080 --incremental --lsi",
     "draft": "bundle exec jekyll server --port 8080 --incremental --drafts",
