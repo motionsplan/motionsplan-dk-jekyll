@@ -44,7 +44,7 @@ danish_songs:
     description: "Efterskolernes Landsstævnesnag 2009 er skrevet af Ramsu Skov Borring og Per Krois Kjærsgaard. Se mere i [Højskolesangbogen](https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/e-g/gi-os-lyset-tilbage)."
     video:
       provider: youtube
-      id: bnSs6op_Z60
+      id: E7xek3WgdcQ
   - title: Ren fysik & kærlighed
     artist: Dodo and the Dodo’s
     year: 2009
@@ -117,4 +117,4 @@ Der blev indsendt hele 102 forslag til en landsstævnesang til 2021, men pga. Co
 
 Du kan lytte til sangen her.
 
-{% include video provider="youtube" id="7ZTXWKKvRxA" %}
+{% include video provider="youtube" id="Cfpb1OQSUVY" %}

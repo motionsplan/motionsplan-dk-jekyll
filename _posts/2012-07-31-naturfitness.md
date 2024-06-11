@@ -230,4 +230,4 @@ Du kan også se vores anden artikel om [Outdoor Fitness](/artikel/dogmefitness/)
 
 ## Referencer
 
-- [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/)
+- [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/aktiviteter-i-naturen/cykling-loeb-og-fitness/naturfitness)

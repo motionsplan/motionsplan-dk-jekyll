@@ -162,7 +162,7 @@ Du kan blive meget klogere om motionsdoping i denne rigtig gode bog om emnet:
 
 ## Quiz om fitnessinstruktør
 
-På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktor). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
+På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
 De forskellige quiz om fitness er lavet på Quizizz.
 

@@ -23,7 +23,7 @@ feature_row:
   - image_path: /assets/images/borg-skala-724x1024.jpg
     url: /assets/pdf/borg-skala-a4-format.pdf
     title: "Download Borg-skala"
-    excerpt: "Borgskala bearbejdet af [Morten Zacho](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set på [hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/)."
+    excerpt: "Borgskala bearbejdet af [Morten Zacho](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set på [marinaagaardblog.com](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/)."
     alt: "Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala"
     btn_label: "<i class='fas fa-file-pdf'></i> Download Borg skala"
     btn_class: "btn--info"
@@ -97,7 +97,7 @@ I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen.
 
 Morten Zacho har i sin version af Borg-skalaen tilføjet en lidt bedre forklaring på følelserne på de enkelte niveauer. Samtidig har Zacho tilføjet, hvilken effekt den det enkelte niveau har på effekten af træningen.
 
-[Download fra hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/){: .btn .btn--large .btn--info }
+[Download fra hjerteforeningen.dk](https://hjerteforeningen.dk/wp-content/uploads/2016/11/borg-skala-a4-format.pdf){: .btn .btn--large .btn--info }
 
 Borg-skalaen er noget lettere at bruge end pulszoner, som man ofte ser rundt omkring i fitnesscentrene.
 

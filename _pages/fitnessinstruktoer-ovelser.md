@@ -46,7 +46,7 @@ breadcrumbs: true
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.
 
-På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktor). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
+På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
 {% assign exercises = site.exercises | where: "tags", "fitnessinstruktør" | sort: "title" %}
 {% include exercises-by-search exercises=exercises %}

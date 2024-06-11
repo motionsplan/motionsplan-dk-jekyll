@@ -29,7 +29,7 @@ At salget af kosttilskud er en lukrativ forretning bliver meget tydeligt, når m
 
 Hvem anbefaler egentlig kosttilskud?
 
-Det gør firmaerne. [Bodylab](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html) skriver om de bedste kosttilskud til træning. [Myprotein](https://www.myprotein.dk/thezone/kosttilskud/kosttilskud-booste-styrketraening/) skriver om 5 kosttilskud så du får mere ud af din træning, men de topper det i en anden artikel, hvor de [anbefaler de 7 bedste](https://www.myprotein.dk/thezone/kosttilskud/7-bedste-kosttilskud-funktionel/) kosttilskud, når du træner funktionelt. [Bodyman](https://www.bodyman.dk/shop/cms-de-bedste-kosttilskud-til-styrketraening.html) foreslår også de bedste kosttilskud til styrketræning.
+Det gør firmaerne. [Bodylab](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html) skriver om de bedste kosttilskud til træning. [Myprotein](https://www.myprotein.dk/thezone/kosttilskud/de-6-bedste-kosttilskud-til-muskelvaekst/) skriver om 6 kosttilskud så du får mere ud af din træning, men de topper det i en anden artikel, hvor de [anbefaler de 7 bedste](https://www.myprotein.dk/thezone/kosttilskud/bedste-kosttilskud-til-funktionel-traening/) kosttilskud, når du træner funktionelt. [Bodyman](https://www.bodyman.dk/shop/cms-de-bedste-kosttilskud-til-styrketraening.html) foreslår også de bedste kosttilskud til styrketræning.
 
 Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der både anbefaler dem og sælger dem.
 
