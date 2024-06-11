@@ -15,8 +15,8 @@ on:
   workflow_dispatch:
 
 env:
-  RUBY_VERSION: "3.1.2"
-  BUNDLER_VERSION: "2.3.21"
+  RUBY_VERSION: "3.3.2"
+  BUNDLER_VERSION: "2.5.11"
 
 # Here is where we define our jobs.
 # Which means the tasks we want Github to execute
@@ -39,6 +39,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev minify liblapacke-dev libopenblas-dev
+          sudo gem update
           sudo gem install bundler:${{ env.BUNDLER_VERSION }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
