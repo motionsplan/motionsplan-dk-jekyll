@@ -59,13 +59,13 @@ De **ufordøjelige kulhydrater** kan ikke nedbrydes i kroppen. Kroppens enzymer 
 
 ## Opbygning af kulhydrater og kostfibre
 
-Der findes ifølge [Netdoktor](https://netdoktor.dk/sundhed/fakta/kostfibre.htm) overordnet to typer kostfibre: opløselige og uopløselige. De to typer kostfibre adskiller sig opbygningen, og derfor har de forskellig evne til at binde vand i fordøjelsessystemet.
+Der findes ifølge [Netdoktor](https://netdoktor.dk/mave-og-tarm/sygdomme/de-sunde-kostfibre/) overordnet to typer kostfibre: opløselige og uopløselige. De to typer kostfibre adskiller sig opbygningen, og derfor har de forskellig evne til at binde vand i fordøjelsessystemet.
 
 > De **opløselige fibre** danner geler med vand og kan binde op til 15 gange deres egen vægt i vand. Vandbindingen gør maden mere fyldig, hvilket sænker mavens tømningshastighed samt øger madens opholdstid i tyndtarmen. De opløselige fibre findes primært i frisk og tørret frugt, gulerødder, havre, byg, rug, rugbrød og bønner. Generelt rummer vegetabilske madvarer dog såvel opløselige, som uopløselige kostfibre.
 >
 > De **uopløselige fibre** kan, som navnet antyder, ikke opløses i vand, men suger dog en del vand, samtidig med at de til en vis grad forgæres i blind- og tyktarm. Modsat de opløselige fibre øger de uopløselige fibre madens passagehastighed i tarmkanalen, som følge af øget mekanisk påvirkning af tarmvæggen og en større fylde i tyktarmen. Resultatet er en velfungerende fordøjelse, men en knap så mættende effekt. Du finder blandt andet de uopløselige fibre i hvedeklid, grahamsmel, hvedeprodukter og upolerede ris.
 
---- <cite>[Netdoktor](https://netdoktor.dk/sundhed/fakta/kostfibre.htm)</cite>
+--- <cite>[Netdoktor](https://netdoktor.dk/mave-og-tarm/sygdomme/de-sunde-kostfibre/)</cite>
 
 ## Fødevarer med mange kostfibre
 

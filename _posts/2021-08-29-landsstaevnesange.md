@@ -20,7 +20,7 @@ danish_songs:
     description: "'Mildere end før' er titlen på den nye sang til landsstævne 2022. Sangen er ifølge [DGI](https://www.dgi.dk/landsstaevne/om-landsstaevnet/landsstaevnesangen-2022) skrevet af Vicki og Emil Gemmer Schultz fra Kerteminde og Emils far Lars. Sangen vandt DGI’s og Efterskoleforeningens konkurrence om at skrive en ny landsstævnesang af de 102 indsendte sange."
     video:
       provider: youtube
-      id: 7ZTXWKKvRxA
+      id: Cfpb1OQSUVY
   - title: Øjeblikket
     artist: Mette Poulsen
     year: 2017

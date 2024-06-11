@@ -99,6 +99,6 @@ Hvis du ikke lige har en maskine, så kan du også bruge en håndvægt, som du k
 
 ## Øvelsen med elastikker
 
-Du kan også se denne video, hvor øvelsen vises med elastikker. I videoen diskuteres også, hvilken variation der er bedst.
+Du kan også se denne video, hvor øvelsen vises med elastikker.
 
-{% include video provider="youtube" id="GbcgewbuwMI" %}
+{% include video provider="youtube" id="Bm4vc7n8Rsw" %}

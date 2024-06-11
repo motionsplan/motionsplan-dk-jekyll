@@ -80,7 +80,7 @@ På exrx.net har de samlet en række [styrkestandarder](https://www.exrx.net/Tes
 <details markdown="1">
   <summary>Se referencer</summary>
 
-- [www.t-nation.com](https://www.t-nation.com/training/know-your-ratios-destroy-weaknesses)
+- [www.t-nation.com](https://t-nation.com/t/know-your-ratios-destroy-weaknesses/282078)
 - [www.functionalps.com](https://www.functionalps.com/blog/2010/09/28/upper-body-structural-balance/)
 - [www.t-nation.com](https://www.t-nation.com/training/how-much-can-you-lift-wimp)
 - [athleticsi.com](https://athleticsi.com/structural-balance-assessments-identifying-preventing-injuries/)

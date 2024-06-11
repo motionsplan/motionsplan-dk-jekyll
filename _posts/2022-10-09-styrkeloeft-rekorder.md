@@ -16,7 +16,6 @@ tags:
   - styrketræning
   - test
 last_modified_at: 2022-10-09T07:14:14Z
-toc: true
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?
 #    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
@@ -225,7 +224,7 @@ Eddie Hall løftede i 2016 500 kg med straps i World Deadlift Championships, hvo
 
 Jeg synes 200 kg er lidt en magisk grænse i dødløft. Den napper kvinderne allerede i 52 kg klassen, hvor Farhanna Farid løfter 200,5 kg i 2022. Det svarer til 4x hendes kropsvægt.
 
-{% include video provider="youtube" id="Dc-1s9r5rQw" %}
+{% include video provider="youtube" id="L_O7s3Lw-TQ" %}
 
 ### Dødløft raw rekorder for kvinder
 
