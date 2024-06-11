@@ -51,7 +51,7 @@ De mest interessante programmer for langt de fleste er 2-split og 3-split-progra
 
 ## Hvad skal du kigge efter i et splitprogram?
 
-Når du skal vælge et splitprogram, så foreslår [Christian Thibaudeau](https://www.t-nation.com/training/best-workout-splits-bodybuilding/) en række parametre, som du med fordel kan kigge efter.
+Når du skal vælge et splitprogram, så foreslår [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) en række parametre, som du med fordel kan kigge efter.
 
 ### 1. Er der nok frekvens for hver muskelgruppe?
 

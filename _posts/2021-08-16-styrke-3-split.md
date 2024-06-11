@@ -34,7 +34,7 @@ Med 6 træninger om ugen, så kan du give hver muskelgruppe et rigtig stort foku
 
 ## 3-split med push/pull/legs
 
-Det originale klassiske 3-split hvor man kører pres/træk/ben er meget populært. Det giver imidlertid ikke helt mulighed for at ramme alle muskelgrupper 2 gange om ugen. [Christian Thibaudeau](https://www.t-nation.com/training/best-workout-splits-bodybuilding/) foreslår derfor en modificeret udgave, så det opfylder følgende krav.
+Det originale klassiske 3-split hvor man kører pres/træk/ben er meget populært. Det giver imidlertid ikke helt mulighed for at ramme alle muskelgrupper 2 gange om ugen. [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) foreslår derfor en modificeret udgave, så det opfylder følgende krav.
 
 - Ingen negativ transfer fra træning til træning
 - Muskelgrupperne kan rammes to gange om ugen

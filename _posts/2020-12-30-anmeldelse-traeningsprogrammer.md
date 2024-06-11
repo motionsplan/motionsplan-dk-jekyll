@@ -111,7 +111,7 @@ Du kan grundlæggende fx vælge mellem følgende programtyper:
 - **Full body split**
 - **Upper vs lower split**
 - **Push vs pull split**
-- **[Push vs pull split next generation](https://www.t-nation.com/training/push-pull-training-the-next-generation)**
+- **[Push vs pull split next generation](https://web.archive.org/web/20240302185921/https://www.t-nation.com/training/push-pull-training-the-next-generation/){: rel="nofollow" }**
 
 ## Hvor mange sæt og gentagelser?
 

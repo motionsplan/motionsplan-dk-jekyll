@@ -91,7 +91,7 @@ Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelse
 
 Helkropstræning er en af de ældste måder at træne på, og det var den altdominerende måde indtil 1960'erne. Typisk kan man fx træne et helkropsprogram mandag, onsdag og fredag. Det er en effektiv måde at træne kroppen på uanset om du vil være større, stærkere, mere kraftfuld eller bare i bedre form.
 
-For at holde træningstiden nede, så kan du lade de enkelte træninger være baseret på store basisøvelser. [Christian Thibaudeau](https://www.t-nation.com/training/best-workout-splits-bodybuilding/) foreslår, at man bruger 4-5 øvelser pr. workout. Det kan fx være:
+For at holde træningstiden nede, så kan du lade de enkelte træninger være baseret på store basisøvelser. [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) foreslår, at man bruger 4-5 øvelser pr. workout. Det kan fx være:
 
 - Squat
 - Pres
@@ -107,7 +107,7 @@ Fordelene ved en helkropstræning er følgende.
 3. Det er meget effektivt.
 4. Helkropstræning sænker måske myostatin mere end split træning. Myostatin er et protein, kroppen udskiller, for at begrænse væksten i musklerne.
 
-Hvis du gerne vil udnytte alle fordelene ved et helkropsprogram, men samtidig også bruge til at sætte lidt mere fokus på enkelte kropsdele, så foreslår [Christian Thibaudeau](https://www.t-nation.com/training/best-workout-splits-bodybuilding/) en _gap workout_. Ved at lave et fuldkropsprogram tre dage om ugen og tilføje en ekstra træning, så kan du arbejde den dag med de svage elementer.
+Hvis du gerne vil udnytte alle fordelene ved et helkropsprogram, men samtidig også bruge til at sætte lidt mere fokus på enkelte kropsdele, så foreslår [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) en _gap workout_. Ved at lave et fuldkropsprogram tre dage om ugen og tilføje en ekstra træning, så kan du arbejde den dag med de svage elementer.
 
 ## Ulemper ved et helkropsprogram
 

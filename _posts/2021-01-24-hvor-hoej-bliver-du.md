@@ -78,7 +78,7 @@ Be aware, however, that the height predictor on the web, based on the tables in 
 <div class="omni-calculator" data-calculator="health/height" data-width="600" data-config='{}' data-currency="DKK" data-show-row-controls="false" data-version="3" data-t="1658060754895">
   <div class="omni-calculator-header"></div>
   <div class="omni-calculator-footer">
-    <a href="https://www.omnicalculator.com/health/height" target="_blank"><img alt="Omni" class="omni-calculator-logo" src="https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg" /></a>
+    <a href="https://www.omnicalculator.com/health/height" target="_blank"><img alt="Omni" class="omni-calculator-logo" src="https://www.omnicalculator.com/v2/images/logos/omni-logo-horizontal.svg" /></a>
   </div>
 </div>
 <script async src="https://cdn.omnicalculator.com/sdk.js"></script>

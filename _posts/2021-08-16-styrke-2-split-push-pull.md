@@ -68,7 +68,7 @@ Du kan også prøve et [3-split-program]({% link _posts/2021-08-16-styrke-3-spli
 
 ## Modificeret Hatfield 2-split til træk/pres
 
-Jeg kan bedre lide det 2-split til træk og pres, som [Christian Thibaudeau](https://www.t-nation.com/training/best-workout-splits-bodybuilding/) foreslår. Hvis træningsprogrammet skulle gøre dig klar til styrkeløft, så kunne du fx lave de to træninger på denne måde.
+Jeg kan bedre lide det 2-split til træk og pres, som [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) foreslår. Hvis træningsprogrammet skulle gøre dig klar til styrkeløft, så kunne du fx lave de to træninger på denne måde.
 
 - Dag 1 - Pres: Squat, bænk og suppleringsøvelser
 - Dag 2 - Træk: Dødløft og suppleringsøvelser
