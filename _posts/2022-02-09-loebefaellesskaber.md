@@ -63,7 +63,7 @@ De har afdelinger i:
 
 Du kan få en komplet [liste på et kort](https://www.google.com/maps/d/u/0/viewer?mid=1PeiAQH1bhv2THCqOS3iYpqeDwzBGjqRf&ll=56.20919071343088%2C11.714309200000006&z=8){: rel="nofollow noopener" } over alle de steder, hvor du kan blive en del af Royal Runners gadeløbefællesskabet.
 
-[Besøg Royal Runners](https://www.royalrun.dk/traen-op/traeningsfaellesskaber){: .btn .btn--large .btn--success rel="noopener nofollow" }
+[Besøg Royal Runners](https://www.royalrun.dk/traen-med-os){: .btn .btn--large .btn--success rel="noopener nofollow" }
 
 ### København
 

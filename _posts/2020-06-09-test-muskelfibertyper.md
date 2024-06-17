@@ -112,7 +112,7 @@ En muskelbiopsiv er et invasivt indgreb, hvor man med en stor nål tager et styk
 
 Hvordan laver man en muskelbiopsi? **En muskelbiopsi udføres ved at lokalbedøve musklen. Herefter prikkes et lille hul i huden, og der indføres en tang, som tager et stykke muskelvæv ud. En muskelbiopsi kan være forbundet med ubehag. Undersøgelsen varer cirka 15-30 minutter.**
 
-{% include video provider="youtube" id="9RaErjFodnE" %}
+{% include video provider="youtube" id="Bjf82YMSPE4" %}
 
 Det er helt sikkert ikke behageligt, og du vil føle at du har et trælår i dagene efter muskelbiopsien. Jeg tror kun man laver muskelbiopsier, hvis man er med i forskningsforsøg.
 

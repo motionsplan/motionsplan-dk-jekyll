@@ -99,9 +99,9 @@ Du kender sikkert også en masse forskellige citater, som du bruger som motivati
 
 I livet kan du komme til at kæmpe med mange ting. Rigtig mange har nok kæmpet lidt med kærligheden, men du kan også skulle modstå sygdom, kæmpe for at få et sundere liv eller et gladere liv. Uanset hvad du kæmper for, så er du aldrig alene i den kamp. Andre deler den helt sikkert, så husk også at dele din kamp med andre.
 
-Her er også en inspirerende sang sunget af en ung kvinde, som har kæmpet med kræft.
+Her er også en inspirerende sang sunget af Calysta Bevier, som har kæmpet med kræft.
 
-{% include video provider="youtube" id="IrJ9_GRYKkg" %}
+{% include video provider="youtube" id="EDOgOrPrVDk" %}
 
 Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}), inden du kæmper videre.
 

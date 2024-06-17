@@ -9,7 +9,7 @@ redirect_from:
 author_profile: true
 toc: true
 header:
-  overlay_image: https://www.vih.dk/sites/vih/files/styles/banner_small/public/2K2A8073.JPG
+  overlay_image: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
   caption: *title
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
