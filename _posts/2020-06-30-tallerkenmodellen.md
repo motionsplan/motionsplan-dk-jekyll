@@ -80,7 +80,7 @@ Det Amerikanske Landbrugsministerium, U.S. Department of Agriculture (USDA) anbe
 
 X-modellen er baseret på amerikanske ernæringsanbefalinger. Tendensen i X-tallerkenen er at der anbefales færre kornprodukter og mere protein, især i forbindelse med diæter til vægttab. Der foregår fortsat en del debat om, hvordan den sundeste fordeling mellem kulhydrat og protein er.
 
-{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="X-tallerken-modellen fra [USDA](https://www.nal.usda.gov/fnic/usda-nutrient-data-laboratory)" alt="X-tallerkenmodellen" %}
+{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="X-tallerken-modellen fra [USDA](https://fdc.nal.usda.gov/)" alt="X-tallerkenmodellen" %}
 
 _My Plate_ indeholder følgende følgende:
 

@@ -44,7 +44,7 @@ Jeg har skrevet lidt om, [hvad kalorier er]({% link _posts/2020-07-09-kalorier.m
 
 ## Kilder til kalorietabellen
 
-Kalorietabellen er baseret på data for fødevarers næringsindhold, som er stillet til rådighed af [DTU Fødevareinstituttet](https://frida.fooddata.dk). Værdierne i tabellen med kalorier kan også indeholde data fra [Nutrient Data Laboratory i USA](https://www.nal.usda.gov/fnic/usda-nutrient-data-laboratory), som er en af verdens største og omfattende databaser med oplysninger om fødevarers næringsindhold.
+Kalorietabellen er baseret på data for fødevarers næringsindhold, som er stillet til rådighed af [DTU Fødevareinstituttet](https://frida.fooddata.dk). Værdierne i tabellen med kalorier kan også indeholde data fra [Nutrient Data Laboratory i USA](https://fdc.nal.usda.gov/), som er en af verdens største og omfattende databaser med oplysninger om fødevarers næringsindhold.
 
 De primære data i tabellen er tjekket op mod DTU Fødevareinstituttet, som bruger tabeller fra Skandinavien og Europa, og både tager højde for værdier fra varedeklarationen og tester fødevaren videnskabeligt også. De asiatiske fødevarer er også taget fra DTU Fødevareinstituttet.
 
