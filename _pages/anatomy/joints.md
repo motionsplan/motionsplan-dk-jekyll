@@ -141,7 +141,7 @@ En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk.
 
 Der kan foregå bevægelser i leddene på mange forskellige måder. Ledtypen definerer, hvordan leddene kan bevæge sig.
 
-{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/911_Body_MovementsPage-1-865x1024.jpg" caption="Bevægelsestyper og bevægelser i de store led i kroppen. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" %}
+{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/157/2021/02/911_Body_MovementsPage-1-865x1024-1.jpg" caption="Bevægelsestyper og bevægelser i de store led i kroppen. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" %}
 
 Her kan du se bevægelserne i underame, fingre, fødder og tæer.
 

@@ -111,7 +111,7 @@ Knoglerne kan opdeles i fire forskellige knogletyper:
 - **Korte knogler**. De korte knogler er fx håndrodens knogler og fodrodens knogler.
 - **Uregelmæssige knogler**. De uregelmæssige knogler er fx rygsøjlens knogler.
 
-{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/601_Bone_Classification_revised-874x1024.png" caption="Knogletyper i menneskekroppen: rørknogler, flade knogler, korte knogler og uregelmæssige knogler. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/6-2-bone-classification/)." alt="Knogletyper: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" %}
+{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/157/2019/07/601_Bone_Classification_revised-768x900.png" caption="Knogletyper i menneskekroppen: rørknogler, flade knogler, korte knogler og uregelmæssige knogler. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/6-2-bone-classification/)." alt="Knogletyper: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" %}
 
 ## Ofte stillede spørgsmål
 
