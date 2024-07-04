@@ -1,6 +1,6 @@
 ---
 title: &title "Tæl skridt: Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2023: Vind op til 25.000 kroner 4 gange årligt"
+seo_title: "Tæl skridt 2024: Vind op til 25.000 kroner 4 gange årligt"
 description: "Vil du deltage i den landsdækkende kampagne Tæl skridt og vinde op til 25.000 kroner? Tjek her hvordan du gør?"
 permalink: /artikel/tael-skridt/
 language: da
@@ -114,6 +114,6 @@ Efterhånden kan du også bare bruge telefonen til at tælle dine skridt. Fx kan
 
 Jeg leder lige nu efter studier, der viser hvor præcise målingerne af skridttælling er med smartphone-apps.
 
-## Tæl skridt 2023 datoer
+## Tæl skridt 2024 datoer
 
 Skal du være med til at tælle skridt i år? Du kan finde datoer på Dansk Firma-Idræt, hvis du gerne vil deltage i kampagnen.

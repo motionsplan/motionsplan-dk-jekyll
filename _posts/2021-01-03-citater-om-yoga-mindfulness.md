@@ -47,7 +47,7 @@ feature_quotes:
     cite: "Nicky Lobo"
 gallery_posters:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
+    url: "https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
     title: "Dalai Lama - Plakat"
     vendor: "Citatplakat.dk"
     category: "Design plakater > Fotokunst plakater > Historiske billeder > Plakater > Plakater til stuen > Sort hvid plakater"

@@ -32,7 +32,7 @@ toc: true
 author_profile: true
 gallery:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
+    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
     title: Det respiratoriske system - Anatomi plakat
   - image_path: "https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"

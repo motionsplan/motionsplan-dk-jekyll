@@ -18,7 +18,7 @@ sidebar:
   nav: anatomi
 feature_row:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-muskler-AN10023.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/muskulatur-anatomi-plakat/
+    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/muskulatur-anatomi-plakat/
     title: Muskulatur - Anatomi plakat
     alt: "Muskler i ben, arme, skulder, kropsstamme"
     rel: sponsored nofollow noopener

@@ -43,7 +43,7 @@ feature_quotes:
     cite: Arnold Schwarzenegger
 feature_row_schwarznegger_poster:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-arnold-shwarzenegger-FO10270.png"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/arnold-schwarzenegger-plakat/"
+    url: "https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/design-plakater/arnold-schwarzenegger-plakat/"
     title: "Arnold Schwarzenegger - Plakat"
     vendor: "Citatplakat.dk"
     category: "Black Friday 2020 limited editions > Design plakater > Fotokunst plakater > Historiske billeder > Ikoniske billeder - Black Friday limited > Plakater > Plakater til stuen > Sort hvid plakater"
@@ -61,15 +61,15 @@ gallery:
     url: /assets/images/pinterest/wendler-get-it-done.jpg
 citatplakat:
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Definition-fitness-ML10014-214x300.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/definitionsplakater/fitness-definition-engelsk/
+    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/definitionsplakater/fitness-definition-engelsk/
     title: Fitness definition
     rel: sponsored nofollow noopener
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-med-tegning-af-vaegt-PA10081-214x300.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/haandvaegt-patent-plakat/
+    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/haandvaegt-patent-plakat/
     title: Håndvægt
     rel: sponsored nofollow noopener
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Citat-plakat-staerk-mand-CG16100-595x833.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/citatplakater/do-you-even-lift-bro/
+    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/citatplakater/do-you-even-lift-bro/
     title: Do you even lift bro?
     rel: sponsored nofollow noopener
 ---

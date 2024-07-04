@@ -43,7 +43,7 @@ sidebar:
   nav: anatomi
 gallery:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
+    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
     title: Skelettet fra siden - Anatomi plakat
     rel: sponsored nofollow noopener
 last_modified_at: 2022-04-24T08:14:14Z
