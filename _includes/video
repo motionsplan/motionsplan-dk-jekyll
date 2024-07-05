@@ -29,7 +29,7 @@
 {% elsif video_provider == "google-drive" %}
   <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview" frameborder="0" allowfullscreen loading="lazy"></iframe>
 {% elsif video_provider == "wistia-net" %}
-  <iframe src="//fast.wistia.net/embed/iframe/{{ video_id }}?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" name="wistia_embed" allowfullscreen="true" loading="lazy"></iframe>
+  <iframe src="https://fast.wistia.net/embed/iframe/{{ video_id }}?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" name="wistia_embed" allowfullscreen="true" loading="lazy"></iframe>
 {% elsif video_provider == "facebook" %}
   <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/{{ video_id }}&show_text=0&width=600" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" loading="lazy"></iframe>
 {% endif %}

@@ -15,8 +15,7 @@ category:
 tags:
   - kosttilskud
   - magnesium
-last_modified_at:-01-01T07:33:14Z
-toc: true
+last_modified_at: 2023-01-01T07:33:14Z
 feature_row:
   - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
     url: https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html

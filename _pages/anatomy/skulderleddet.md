@@ -61,7 +61,7 @@ movements_scapula:
 image: https://static1.squarespace.com/static/5bba6b9caf468381c6d11b6f/5d33107d18cbd7000113d73a/5dad8ba351bf6e19d66acec1/1571863756133/acromion-process.jpg?format=2500w
 image_movement: /assets/images/anatomy/movement-shoulder.png
 header:
-  overlay_image: https://www.orthopaedicsone.com/download/attachments/34800936/Little+Leaguer%27s+Shoulder_AP.jpg
+  overlay_image: https://www.drivelinebaseball.com/wp-content/uploads/2018/05/Screenshot-106.webp
   caption: *title
 toc: true
 sidebar:
@@ -132,3 +132,7 @@ I dette billede kan du se, hvilket bevægelser der er mulige i skulderbladet.
 {% include anatomy/table-muscles-shoulder.html %}
 
 Se [alle muskler delt op efter led](/led/).
+
+# Bevægelse i kravebenet
+
+<iframe src="https://humanbiomedia.org/activities/skeletal-system/clavicle/function.html" width="100%" height="780" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen loading="lazy">
