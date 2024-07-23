@@ -6,10 +6,10 @@ describe('RunningEconomy', function() {
     it('should return the correct number', function() {
       let r = motionsplan.RunningEconomy(3.5, 12.5);
 
-      assert.equal(r.getRunningEconomyInMlPrKgPrMin(), 240);
+      assert.equal(r.getRunningEconomyInMlPrKgPrMin(70), 240);
     });
   });
-  describe('getFitnessLevel', function() {
+  describe('ggetOxygenPrKgPrMin', function() {
     it('should return the correct number', function() {
       let r = motionsplan.RunningEconomy(3.5, 12.5);
 
@@ -17,7 +17,7 @@ describe('RunningEconomy', function() {
     });
   });
 
-  describe('getFitnessLevel', function() {
+  describe('getOxygenPrKm', function() {
     it('should return the correct number', function() {
       let r = motionsplan.RunningEconomy(3.5, 12.5);
 

@@ -71,6 +71,7 @@ const rowing_power_calculator = require('../js/rowing-power-calculator');
 const rowing_vo2 = require('../js/rowing-vo2');
 const rowing_powerprofile = require('../js/rowing-ergrowing');
 const rer = require('../js/rer');
+const vam = require('../js/vam');
 require('image-map-resizer');
 
 $(function() {
@@ -493,6 +494,21 @@ $(function() {
       let kreatin_intake_kg = $("#kreatin_intake_kg").val();
       let recommended_kreatin_intake = kreatin_intake_kg * weight;
       $("#kreatin_intake").val(recommended_kreatin_intake);
+    });
+    $("#calculator_vam").submit(function(e) {
+      console.log("Calculate VAM");
+      e.preventDefault();
+
+      let distance_climbed = Number($("[name='distance_climbed']").val());
+      let gradient = Number($("[name='gradient']").val());
+      let minutes = Number($("[name='tid_min']").val());
+      let seconds = Number($("[name='tid_sek']").val());
+
+      let o_vam = vam.VAM(distance_climbed, minutes, seconds);
+
+      $("#vam").val(o_vam.getVAM().toFixed(0));
+      $("#gradient_factor").val(o_vam.getGradientFactor(gradient).toFixed(2));
+      $("#relative_power").val(o_vam.getRelativePower(gradient).toFixed(2));
     });
     $("#calculator_kroppens_rumfang").submit(function(e) {
       console.log("Calculate Kroppens Rumfang");
