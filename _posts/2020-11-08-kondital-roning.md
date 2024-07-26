@@ -69,15 +69,15 @@ Men lad os nu dykke ned i de forskellige tests.
 
 ## 1. Kondital Concept2 ud 2000 meter
 
-Hos [Concept2](https://www.concept2.com/indoor-rowers/training/calculators/vo2max-calculator) bruger de data fra Fritz Hagerman til at estimere konditallet på baggrund af en 2000-meter test.
+Hos [Concept2](https://www.concept2.co.uk/indoor-rowers/training/calculators/vo2max-calculator) bruger de data fra Fritz Hagerman til at estimere konditallet på baggrund af en 2000-meter test.
 
 Fritz Hagerman fra Ohio University har lavet formlerne bag testen gennem mange år. Hagerman har udført VO<sub>2</sub>max tests med maske og de samme forsøgspersoner har også lavet en maksimal 2000 meter test på romaskine. Derefter har Hagerman lavet en korrelation mellem de to tests, som benyttes i nedenstående beregner af kondital på baggrund af en test i romaskine.
 
 Du kan udregne dit kondital på Concept2's egen hjemmeside.
 
-[Test dit kondital med Concept2 2000 meter](https://www.concept2.com/indoor-rowers/training/calculators/vo2max-calculator){: .btn .btn--large .btn--success }
+[Test dit kondital med Concept2 2000 meter](https://www.concept2.co.uk/indoor-rowers/training/calculators/vo2max-calculator){: .btn .btn--large .btn--success }
 
-Testen er lavet på datamateriale, men du bliver selv bedt om at give et bud på, om du er **øvet** eller **ikke øvet**. Jeg er lidt forvirret over, at beregneren gør konditallet højere ved den samme tid, hvis man vælger øvet. Man må jo antage at den øvede har en bedre roøkonomi, og derfor en lavere iltoptagelse end en begynder, der kan ro i samme tid.
+Testen er lavet på datamateriale, men du bliver selv bedt om at give et bud på, om du er **øvet** eller **ikke øvet**. Jeg er lidt forvirret over, at beregneren gør konditallet højere ved den samme tid, hvis man vælger øvet. Man må jo antage, at den øvede har en bedre roøkonomi, og derfor en lavere iltoptagelse end en begynder, der kan ro i samme tid.
 
 ## 2. Test i roning ud fra _mean power output_ (WM)
 
@@ -178,7 +178,7 @@ Roeren i grøn rodragt på filmen er tidligere verdensmester og har været verde
 
 ## Hvad er en god 2000-meter tid på roergometer?
 
-Du kan finde de danske rekorder for roning på roergometer på [ergometertider.dk](https://ergometertider.dk/). Concept2 har også lavet en liste over verdensrekorder sat på Concept2-roergometer på [2000-meter distancen](https://www.concept2.com/indoor-rowers/racing/records/world/2000).
+Du kan finde de danske rekorder for roning på roergometer på [ergometertider.dk](https://ergometertider.dk/). Concept2 har også lavet en liste over verdensrekorder sat på Concept2-roergometer på [2000-meter distancen](https://www.concept2.co.uk/indoor-rowers/racing/records/world).
 
 ## Konklusion
 

@@ -1,5 +1,5 @@
 ---
-title: &title "Populære blog posts på Motionsplan i 2022 🥇"
+title: &title "Populære blog posts på Motionsplan i 2023 🥇"
 permalink: /populaere-posts/
 redirect_from:
   - /webclips/populaere-posts-2020/
@@ -12,7 +12,18 @@ tags:
   - webclips
 category:
   - Webclips
-last_modified_at: 2022-12-31T18:21:26Z
+last_modified_at: 2024-07-31T18:21:26Z
+popular_posts_2023:
+  - /idealvaegt/
+  - /hastighed/
+  - /kalorietaeller-apps/
+  - /skridt-pr-km-10000/
+  - /cooper-test/
+  - /kondital/
+  - /proteinpandekager-uden-banan/
+  - /bip-test/
+  - /artikel/de-fem-tibetanere/
+  - /muskelmasse-beregner/
 popular_posts_2022:
   - /skridt-pr-km-10000/
   - /idealvaegt/
@@ -51,6 +62,24 @@ popular_posts_2020:
 Vi har virkelig mange populære blog posts på Motionsplan. Det er sjovt hvert år at samle op på, hvad der gør en et blogindlæg populært.
 
 Her har vi kigget på de mest populære blog posts for i år.
+
+## De {{ page.popular_posts_2023.size }} mest populære blog posts i 2023
+
+I 2023 har vi i alt haft 477.006 sidevisninger fra 248.335 brugere. Et lille fald i forhold til 2022.
+
+{% for permalink in page.popular_posts_2023 %}
+
+{% assign site_posts = site.posts | where: "permalink", permalink %}
+{% assign site_pages = site.pages | where: "permalink", permalink %}
+{% assign site_posts = site_posts | concat: site_pages %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% endfor %}
 
 ## De {{ page.popular_posts_2022.size }} mest populære blog posts i 2022
 
