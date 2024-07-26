@@ -203,15 +203,15 @@ Her er udvalgte priser på sportsdrikke. Energidrikke kan både være som pulver
 
 | Produkt | Type | Vægt | Pris | Portion | Literpris |
 |-|-|-|-|-|-|
-| [Bodylabs Carbo Fuel neutral](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-carbo-fuel-676p.html){: rel="sponsored nofollow noopener" } | Pulver | 1 kg | 69 kr | 80 g/L | 5,52 kr/L |
-| [Bodylabs Carbo Fuel med smag](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/carbo-fuel-3785p.html){: rel="sponsored nofollow noopener" } | Pulver | 1 kg | 119 kr | 80 g/L | 9,52 kr/L |
+| [Bodylabs Carbo Fuel neutral](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-carbo-fuel-676p.html){: rel="sponsored nofollow noopener" } | Pulver | 1 kg | 69 kr | 80 g/L | 5,52 kr/L |
+| [Bodylabs Carbo Fuel med smag](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/carbo-fuel-3785p.html){: rel="sponsored nofollow noopener" } | Pulver | 1 kg | 119 kr | 80 g/L | 9,52 kr/L |
 | [PowerBar Hydro PowerGel](https://cykelexperten.dk/powerbar-hydro-powergel-cola/){: rel="sponsored nofollow noopener" } | Gel | 67 ml |
 
 ### Elektrolyt-tabletter pris
 
 | Produkt | Vægt | Pris | Portion | Portionspris |
 |-|-|-|
-| [Bodylab Hydro Tabs](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-hydro-tabs-789p.html){: rel="sponsored nofollow noopener" } | 80 g | 49 kr | 4 g | 2,45 kr |
+| [Bodylab Hydro Tabs](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-hydro-tabs-789p.html){: rel="sponsored nofollow noopener" } | 80 g | 49 kr | 4 g | 2,45 kr |
 | [PowerBr Electrolytes](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/powerbar-electrolytes-black-currant/){: rel="sponsored nofollow noopener" } | 40 g | 36 kr | 4 g | 3,6 kr |
 
 ## Konklusion

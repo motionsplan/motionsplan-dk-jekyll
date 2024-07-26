@@ -11,6 +11,14 @@ category:
 tags:
   - kosttilskud
 last_modified_at: 2022-01-27T22:21:26Z
+shops:
+  - title: Noutron
+    excerpt: Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler Noutron produkter, der skal hjælpe endurance atleter. Noutron er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores atleterne.
+    image: /assets/images/blog/fitnessbutik-fitnessengros.jpg
+    cta_label: Besøg Noutron
+    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123
+    rel: sponsored nofollow noopener
+    class: .btn .btn--large .btn--danger
 ---
 
 Hvis du vil købe kosttilskud online, så er der nogle ting, som du med fordel kan være opmærksom på. Her får du en komplet gennemgang og et par gode råd.
@@ -54,25 +62,19 @@ Anders Nedergaard dykker på i podcasten Fitness M/K ned i Bodylabs historie, so
 
 Jeg køber selv de fleste af mine kosttilskud hos Bodylab. De har en utrolig fin kundeservice, sender hurtigt produkterne, og de er dedikerede til at lave produkter af høj kvalitet.
 
-[Køb hos Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+[Køb hos Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 2. LinusPro
+### 2. Noutron
 
-LinusPro er en dansk producent af proteinpulver, proteinbarer, energipulver og kosttilskud. LinusPro sælger også vegansk proteinpulver og Fiji vand, og alle deres proteinprodukter er produceret i Danmark.
+Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler Noutron produkter, der skal hjælpe endurance atleter. Noutron er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores atleterne.
 
-{% include figure image_path="/assets/images/blog/kosttilskud-linuspro.jpg" alt="køb kosttilskud hos linuspro" %}
-
-LinusPro har en _Nordic Protein Vegan_-linje, så veganere og vegetarer også kan få høj-kvalitetsprodukter. LinusPro forhandler også **Fiji Water**, som er et populært, verdenskendt brand. **Puori** er et velrenommeret brand, der leverer vitaminer og kosttilskud af højeste kvalitet. Virksomhedens produkter er baseret på naturlige ingredienser og er altid 3. parts testet for renhed og kvalitet.
-
-[Køb hos LinusPro](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68281){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+[Køb hos Noutron](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
 ### 3. Pure Power
 
 PurePower er en dansk virksomhed, som leverer højkvalitets sporternæring til nordiske atleter. Vi er et datterselskab under Toft Care, som gennem 25 år har været og er førende inden for ernæringsprodukter til det danske sundhedsvæsen.
 
 {% include figure image_path="/assets/images/blog/kosttilskud-purepower.jpg" alt="køb kosttilskud hos pure power" %}
-
-PurePower har et særligt fokus på **udholdenhedsatleter**, og de har nogle finde nogle fine blogindlæg. Fx en [produktguide til landevejscykling](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52416&htmlurl=https://www.purepower.dk/landevejscykling/){: rel="sponsored nofollow noopener" } og [svømning](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52416&htmlurl=https://www.purepower.dk/svoemning/){: rel="sponsored nofollow noopener" }.
 
 [Køb hos Pure Power](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52416){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
@@ -82,15 +84,7 @@ Getbig er en af Danmarks største forhandlere med produkter indenfor fitnessbran
 
 [Besøg Getbig »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 5. Apopro
-
-Apopro er Danmarks Online Apotek. Apoteket er nu på nettet. Personlig og professionel rådgivning. Indløsning af recepter. Lave netpriser, billigst på de mest populære apoteksvarer. Dag-til-dag levering.
-
-{% include figure image_path="/assets/images/blog/kosttilskud-apopro.jpg" alt="køb kosttilskud hos apopro" %}
-
-[Besøg Apopro »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52093){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
-
-### 6. Helsam
+### 5. Helsam
 
 Helsam er en livsstils- og helsebutik for dig, der ønsker et sundere liv i balance og en hverdag med mere overskud.
 
@@ -98,17 +92,23 @@ Helsam er en livsstils- og helsebutik for dig, der ønsker et sundere liv i bala
 
 [Besøg Helsam »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 7. Helsebixen
+### 6. Helsebixen
 
 Helsebixen.dk er Danmarks største site for helsekost med mere end 12.000 produkter.
 
 [Besøg Helsebixen »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 8. Muscle House
+### 7. Muscle House
 
 Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, kreatin, BCAA, aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning, samt et udvalg af træningsudstyr.
 
 [Besøg Muscle House »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68774){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+
+### 8. Nduranz
+
+Nduranz har et stort udvalg inden for kosttilskud til udholdenhedsatleten. Her møder videnskaben ernæringen. De har også en meget fed [fueling beregner](https://nduranz.com/pages/fueling-calculator).
+
+[Besøg Nduranz »](https://nduranz.com/){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
 ## Konklusion
 

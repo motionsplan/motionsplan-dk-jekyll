@@ -22,7 +22,7 @@ faq:
   - question: Hvor hurtigt tilpasser kroppen sig varmen?
     answer: Kroppen kan tilpasse sig til varmen på 5-14 dage alt efter, hvordan du griber træningen an. Du kan få yderligere tilpasninger efter 14 dage, men mange af tilpasningerne rammer så hurtigt.
   - question: Hvor hurtigt mister man evnen igen?
-    answer: Hvis du ikke jævnligt gentager aktivitet med varmestress, så taber du de fulde tilpasninger omring en måned. Efter to uger uden varmepåvirkning i forbindelse med træning, så vil pulsen, svedraten og kernetemperaturen forventes at falde med hhv. ~35%, ~30%, and ~6% ([Daanen et al 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775394/)).
+    answer: Hvis du ikke jævnligt gentager aktivitet med varmestress, så taber du de fulde tilpasninger omring en måned. Efter to uger uden varmepåvirkning i forbindelse med træning, så vil pulsen, svedraten og kernetemperaturen forventes at falde med hhv. ~35%, ~30% og ~6% ([Daanen et al 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775394/)).
 ---
 
 Vil du gerne præstere bedre i varmen? Det er en god ide at lave varmetræning, hvis du skal blive bedre til at tåle varmen, når du træner.
@@ -231,7 +231,7 @@ Andreas Kron gjorde følgende:
 
 Det virkede for Andreas Kron.
 
-Men helt almindelige, dedikerede motionister bruger forsøger også at vænne sig til varmen på sin hometrainer.
+Men helt almindelige, dedikerede motionister forsøger også at vænne sig til varmen på sin hometrainer.
 
 Klædt i regntøj, gummihandsker, skoovertræk og hue.
 

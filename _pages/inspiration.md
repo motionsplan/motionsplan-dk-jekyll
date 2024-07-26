@@ -34,7 +34,7 @@ feature_row_ads:
 #    alt: "Bodylab"
 #    title: "Bodylab"
 #    excerpt: "Bodylab er Dks største producent og af sportsprodukter, proteinpulver, kreatin og andre kosttilskud. Via Bodylab.dk handler kunderne direkte med fabrikken udenom fordyrende mellemled."
-#    url: https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737
+#    url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1
 #    btn_label: "Besøg Bodylab"
 #    btn_class: "btn--info"
   - image_path: /assets/images/logo/denintelligentekrop.png

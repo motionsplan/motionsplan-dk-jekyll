@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2023-01-01T07:33:14Z
 feature_row:
   - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
-    url: https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html
+    url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html
     title: "Bodylab ZMA"
     excerpt: "Bodylab ZMA indeholder en kombination af zink, magnesium og B6 vitamin. Bodylab ZMA bruger det organisk-bundne magnesium bisglycinat."
     alt: "Bodylab magnesium tilskud til at undgå magnesiummangel bivirkninger"
@@ -207,13 +207,13 @@ Mange bruger kosttilskuddet ZMA, fordi det bl.a. markedsføres med at:
 
 > ZMA bidrager til at vedligeholde et normalt testosteronniveau i blodet samt til at mindske træthed og udmattelse.
 
-— <cite>[Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){: rel='sponsored nofollow noopener' }</cite>
+— <cite>[Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){: rel='sponsored nofollow noopener' }</cite>
 
 Og hvem kan ikke godt lide det, når man træner. ZMA står for Zink, Magnesium og B6-vitamin, så ideen er naturligvis at de tre mineraler har nogle positive egenskaber i kroppen. Og når de har det, så hjælper præparatet på netop det.
 
 Men det er jo kun rigtigt, hvis du har mangel på det, eller at det giver mening at have ekstra meget af det i kroppen.
 
-Magnesium er også altid en del af en [multivitaminpille](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/bodymin-252p.html){: rel='sponsored nofollow noopener' }, hvis du vælger at tage sådan en.
+Magnesium er også altid en del af en [multivitaminpille](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodymin-252p.html){: rel='sponsored nofollow noopener' }, hvis du vælger at tage sådan en.
 
 Efterhånden er flere begyndt at reklamere med at indtage vitaminer og mineraler på spray, og magnesium er ingen undtagelse. Fx reklamerer [helsebixen.dk med en magnesiumoliespray](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/altiderm-mg12-optima-magnesiumolie.html){: rel='sponsored nofollow noopener' }.
 
@@ -235,7 +235,7 @@ Det giver derimod mening at stille sig selv spørgsmålet: **hvor får jeg det b
 
 Når du kigger efter **det bedste magnesium**, så skal du kigge efter, at der er brugt det organisk-bundne _magnesium bisglycinat_, som har en langt bedre udnyttelsesgrad end fx det langt billigere alternativ _magnesium oxid_. Jeg foreslår, at du køber magnesium fra en dansk forhandler, som du stoler på.
 
-**Magnesium er relativt billigt**, så du kan ikke gå helt galt i byen. Magnesium indgår ofte i en kombination kaldet ZMB. Du kan bl.a. købe [ZMB billigt fra danske Bodylab](https://aslinkhub.com/?cid=11630&pid=31656&productGroup=bodylab&media_id=90737&deeplink=https://www.bodylab.dk/shop/cms-search.html?Keyword=magnesium){: rel='sponsored nofollow noopener' }, som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
+**Magnesium er relativt billigt**, så du kan ikke gå helt galt i byen. Magnesium indgår ofte i en kombination kaldet ZMB. Du kan bl.a. købe [ZMB billigt fra danske Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/cms-search.html?Keyword=magnesium){: rel='sponsored nofollow noopener' }, som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
 
 ## Er det sikkert at indtage magnesium?
 
