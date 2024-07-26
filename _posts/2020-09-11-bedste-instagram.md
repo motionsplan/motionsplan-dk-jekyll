@@ -97,7 +97,7 @@ På [Instagram](https://www.instagram.com/) er der utrolig mange profiler med fl
 
 Men jeg er mest interesseret i at følge Instagram-profiler, hvor jeg lærer noget undervejs. Jeg har fundet nogle perler på Instagram, hvor selve profilen næsten er en lille blog i sig selv.
 
-(Husk at jeg også har skrevet en liste over de [bedste danske blogs om fitness og træning]({% link _posts/2020-07-31-bedste-danske-blogs.md %}) og de [bedste danske podcasts om fitness, sundhed og træning]({% link _posts/2020-08-03-podcasts.md %})).
+(Husk at jeg også har skrevet en liste over de [bedste danske blogs om fitness og træning]({% link _posts/2020-07-31-bedste-danske-blogs.md %}) og de [bedste danske podcasts om fitness, sundhed og træning](/bedste-fitness-traening-podcasts/)).
 
 Jeg har derfor samlet de Instagram-profiler, jeg synes har højest kvalitet i listen nedenunder.
 

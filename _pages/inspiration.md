@@ -23,20 +23,6 @@ feature_row_ads:
     btn_label: "Besøg Apuls"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-#  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-#    alt: "Billigsport24.dk"
-#    title: "Billigsport24.dk"
-#    excerpt: "Billigsport24.dk - Online salg af sportsprodukter på Internettet. Spar mellem 10-60%. Sikker handel på Nettet, shoppen er E-mærket. Din sikkerhed for en tryg handel. Vi tilbyder alle de kendte mærker, Nike, Puma, Adidas, North Face, Stiga, Polar, Helly Hansen m.m."
-#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397
-#    btn_label: "Besøg BilligSport24"
-#    btn_class: "btn--danger"
-#  - image_path: /assets/images/logo/bodylab.png
-#    alt: "Bodylab"
-#    title: "Bodylab"
-#    excerpt: "Bodylab er Dks største producent og af sportsprodukter, proteinpulver, kreatin og andre kosttilskud. Via Bodylab.dk handler kunderne direkte med fabrikken udenom fordyrende mellemled."
-#    url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1
-#    btn_label: "Besøg Bodylab"
-#    btn_class: "btn--info"
   - image_path: /assets/images/logo/denintelligentekrop.png
     alt: "Den Intelligente Krop"
     title: "Den Intelligente Krop"
@@ -61,13 +47,6 @@ feature_row_ads:
     btn_label: "Besøg Bodyman"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-#  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-#    alt: "KINETIK"
-#    title: "KINETIK"
-#    excerpt: "KINETIK Vægtvest VX1 er et nyt og top professionelt produkt på det danske fitness marked! Optimerer al form for træning! #crossfit #calisthenics #bodybuilding"
-#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046
-#    btn_label: "Besøg KINETIK"
-#    btn_class: "btn--info"
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: https://motionsplan.yogastream.dk
@@ -139,17 +118,17 @@ På denne side har jeg samlet alle mine anbefalinger og de ting til træning, je
 
 ## Løbeur, pulsbælte og høretelefoner
 
-Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen](/artikel/musik-til-traeningen/) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution](/restitution/) og [restitutionstid](/restitutionstid/) på.
+Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen](/artikel/musik-til-traeningen/) eller lytter til [gode podcasts fx om fitness og træning](/bedste-fitness-traening-podcasts/). Jeg bruger også pulsbæltet til at måle min [heart rate variability](/hrv/), som jeg synes er en interessant måde at måle min træningsparathed og [restitution](/restitution/) og [restitutionstid](/restitutionstid/) på.
 
 {% include feature_row type="left" id="feature_row_running" %}
 
-Jeg synes, at jeg har haft god effekt af at løbe med [kompressionsstrømper]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}) i forhold til udfordringer, jeg har haft med mine lægmuskler og achillessener.
+Jeg synes, at jeg har haft god effekt af at løbe med [kompressionsstrømper](/kompressionsstroemper-restitution-praestation-bivirkninger/) i forhold til udfordringer, jeg har haft med mine lægmuskler og achillessener.
 
 {% include feature_row type="left" id="feature_row_compression" %}
 
 ## Styrketræning
 
-Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020-07-12-vbt.md %}). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
+Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
 
 {% include feature_row type="left" id="feature_row_strength" %}
 

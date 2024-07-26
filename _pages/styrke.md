@@ -132,7 +132,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 </div>
 
-Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020-07-12-vbt.md %}). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
+Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
 
 {% include feature_row type="left" id="feature_row_strength" %}
 

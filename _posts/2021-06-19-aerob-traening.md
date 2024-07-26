@@ -76,7 +76,7 @@ Så har du nemlig noget at sammenligne før og efter du starter dit aerobe træn
 I den **aerobe træning** kan du sætte din baseline med følgende:
 
 - Måle din [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %})
-- Bruge [Heart Rate Variability (HRV)]({% link _posts/2019-10-28-hrv.md %})
+- Bruge [Heart Rate Variability (HRV)](/hrv/)
 - Måle dit kondital med fx en [2400 meter-test]({% link _posts/2019-10-31-kondital-2400-meter.md %}) eller [Coopers 12-minutters test](/cooper-test/)
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
 

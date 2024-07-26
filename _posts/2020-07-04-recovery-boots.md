@@ -108,7 +108,7 @@ Det er ikke recovery boots du først skal tilføje til arsenal, hvis du vil opti
 
 Først skal du sørge for at optimere din træning, kost og [søvn](/soevn/). Når du har styr på de parametre, så kan du begynde at kigge på hjælpemidler.
 
-Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}), og de er noget billigere at købe med nogenlunde samme påståede effekt.
+Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution](/kompressionsstroemper-restitution-praestation-bivirkninger/), og de er noget billigere at købe med nogenlunde samme påståede effekt.
 
 Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning]({% link _posts/2020-05-28-restitutionstid.md %}).
 
