@@ -80,7 +80,11 @@ De generelle anbefalinger ser nogenlunde sådan her (Morton et al 2017):
 |-|-|
 | Styrketræning og muskelopbygning | 1,6-2,2 gram / kg / dag |
 
+Du kan selv [udregne dit eget proteinbehov i vores beregner](/dagligt-protein-indtagelse/).
+
 De generelle anbefalinger undervurderer formentlig behovet for protein for lettere personer, så de kan med fordel ligge i den højere ende af anbefalingerne, mens tungere personer er dækket ind i den lavere ende af intervallet (Macnaughton et al 2017).
+
+Det bedste er at dække dit proteinbehov gennem kosten. Vi har lavet en guide til, hvilke [fødevarer der har et højt proteinindhold](/protein-i-madvarer/).
 
 Hvis du ikke får dækket dit proteinbehov gennem kosten, så kan man tage proteinpulver som kosttilskud. Særligt valleprotein har pga. sit høje indhold af bl.a. leucin og et komplet spektrum af andre essentielle aminosyrer medfører et højt respons i muskelproteinsyntesen i forhold til dosis.
 
@@ -99,6 +103,8 @@ Hvis du vil maksimere muskelopbygningen lige efter træning, så er der tilsynel
 Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage omkring 160 gram protein. De 40 gram kan med fordel ligge lige efter træning. Så skal jeg fordele resten på 3-4 måltider, hvor jeg har et indtag om aftenen, der skal være dobbelt så stort som de andre måltider.
 
 Inden du køber proteinpulver, så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
+
+Læs: [Hvordan får du billigst opfyldt dit proteinbehov?](/billig-protein/)
 
 ## 2. Kreatin
 
@@ -164,7 +170,9 @@ Umiddelbart er der ikke nogen præstationsfremmende effekt af ekstra D-vitamin. 
 
 — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hormoner-og-stofskifte/sygdomme/oevrige-sygdomme/d-vitamin-mangel/)</cite>
 
-Men hvordan ved du om du lider af lavt D-vitamin? Symptomerne er ofte vage og uklare, så du kan sagtens mangle D-vitamin uden at vide det.
+Men hvordan ved du om du lider af lavt D-vitamin?
+
+Symptomerne er ofte vage og uklare, så du kan sagtens mangle D-vitamin uden at vide det.
 
 I sommerhalvåret i Danmark er der for det meste sollys nok. Man skal sørge for at få 5-30 minutters sollys midt på dagen på store dele af kroppen mindst 2-3 gange hver eneste uge, så her er en god grund til at smide t-shirten.
 
@@ -203,15 +211,16 @@ Måske er det indholdet i fiskeolien mellem EPA og DHA eller også er der brugt 
 
 Du skal med indtagelse af fiskeolie ikke forvente, at få den samme effekt som ved at spise fede fisk.
 
-### Kosttilskud som måske har en effekt
+## Kosttilskud som måske har en effekt
 
 Følgende ser ud til i litteraturen at kunne påvirke ens træthed. Hvis du har styr på din grundlæggende kostpyramide, og du derefter har styr på din pyramide over kosttilskud, så kan du overveje at læse mere op på følgende:
 
 - Beta Alanin
 - Citrulin Malat
 - Bagepulver - Sodium Bicarbonat
+- Probiotika
 
-## Probiotika
+### Probiotika
 
 Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttilskud](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/). Faktisk ville han vælge Probiotika, hvis han kun skulle vælge mellem 1-2 kosttilskud. Det samme siger Justin Roberts, som er lektor i sport, motion og ernæring fra Anglia Ruskin University.
 
@@ -221,7 +230,7 @@ Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttil
 
 Probiotika består af tarmbakterier. De er afgørende for vores fysiske og mentale helbred.
 
-Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthed, [depression]({% link _posts/2021-11-10-phq-9-depression.md %}), hovedpine, dårligt immunforsvar, søvnproblemer, IBS (Irriteret tarm), ledsmerter og kronisk inflammation. Så hvis du døjer med nogle af disse ting i din hverdag, så kan du overveje at tage Probiotika.
+Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthed, [depression](/phq-9-depression-test/), hovedpine, dårligt immunforsvar, søvnproblemer, IBS (Irriteret tarm), ledsmerter og kronisk inflammation. Så hvis du døjer med nogle af disse ting i din hverdag, så kan du overveje at tage Probiotika.
 
 Bakteriebalancen i tarmen kan forskubbes gennem dårlig kost, fysisk inaktivitet eller vedvarende stress.
 
@@ -255,7 +264,7 @@ Styrk taler i deres [podcast Træningstimen](https://styrkmig.dk/ep-18-kosttilsk
 - Antioxidant-tilskud
 - Multivitamin-tilskud
 
-Jeg har tidligere også skrevet om [magnesium som kosttilskud]({% link _posts/2020-07-11-magnesium.md %}), men at magnesium formentlig for de fleste ikke har nogen synderlig effekt med mindre man er i mangel af det.
+Jeg har tidligere også skrevet om [magnesium som kosttilskud](/magnesium/), men at magnesium formentlig for de fleste ikke har nogen synderlig effekt med mindre man er i mangel af det.
 
 Det vanskelige i forhold til kosttilskud er: Hvordan ved man, om man er i mangel af et vitamin eller et mineral?
 
@@ -267,11 +276,15 @@ Det vanskelige i forhold til kosttilskud er: Hvordan ved man, om man er i mangel
 
 Husk at overveje om ikke din kost er mere værd end at skulle bruge penge på kosttilskud.
 
-Når ting koster meget lidt og har en god effekt, så kan du godt eksperimentere med det. Men hvis du ender med at have kig på dyre kosttilskud, så ender du med at bruge penge på noget, som risikerer at dykke ned i din [økonomiske uafhængighed](https://www.ifire.dk).
+Når ting koster meget lidt og har en god effekt, så kan du godt eksperimentere med det. Men hvis du ender med at have kig på dyre kosttilskud, så ender du med at bruge penge på noget, som risikerer at frarøve dig din [økonomiske uafhængighed](https://www.ifire.dk).
 
 God alsidig kost hvor du forsøger at gøre dig umage med at få de næringsstoffer, du har brug for er altid, er altid der du skal starte.
 
 Derefter skal du huske at starte i bunden af pyramiderne.
+
+## Hvor kan du købe kosttilskud?
+
+Jeg har lavet en liste over steder, hvor du kan købe kosttilskud. Du kan se listen over [onlinebutikker her](/koeb-kosttilskud-online/).
 
 ## Referencer om kosttilskud
 
