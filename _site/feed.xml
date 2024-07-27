@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://www.motionsplan.dk/feed.xml" rel="self" type="application/atom+xml"/><link href="https://www.motionsplan.dk/" rel="alternate" type="text/html"/><updated>2024-07-27T22:05:35+00:00</updated><id>https://www.motionsplan.dk/feed.xml</id><title type="html">Motionsplan</title><subtitle>Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.</subtitle><author><name>Motionsplan</name></author><entry><title type="html">️Submaksimal 6 min test til at finde hastigheden ved VO2max</title><link href="https://www.motionsplan.dk/submaximal-6min-vvo2max-test/" rel="alternate" type="text/html" title="️Submaksimal 6 min test til at finde hastigheden ved VO2max"/><published>2024-07-27T00:00:00+00:00</published><updated>2024-07-12T10:14:14+00:00</updated><id>https://www.motionsplan.dk/vvo2max-other</id><content type="html" xml:base="https://www.motionsplan.dk/submaximal-6min-vvo2max-test/"><![CDATA[<p>Denne submaksimale test på 6 minutter kan bruges til at finde din hastighed ved din <a href="/maksimale-iltoptagelse-vo2max/">maksimale iltoptagelse</a>. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.</p>
+
+<p>Testen er udviklet af Olher et al (2019) for at have en felttest, hvor du let kan estimere hastigheden ved den maksimale iltoptagelse.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="løbere i jogging-testen" loading="lazy" /></figure>
+
+<p>Fordelene ved at regne det ud, er at du lettere kan styre intensiteten og ikke komme til at løbe for hurtigt, så du ikke kan holde intensiteten.</p>
+
+<p>Denne test er et alternativ til <a href="/billat-vvovmax-tlimvo2max/">Billats udregner</a>.</p>
+
+<h2 id="hvordan-laver-en-testen">Hvordan laver en testen?</h2>
+
+<p>Du starter tiden, når du begynder at løbe og du stopper tiden, når du er færdig. Pulsen skulle gerne være nogenlunde <em>steady state</em> undervejs.</p>
+
+<p>Du kan gå efter at pulsen ligger fra 140 - 170 slag i minuttet. Husk at det er en submaksimal test.</p>
+
+<p>Jeg synes det er lettest at bruge mit pulsur og appen fra min telefon. Så kan jeg efterfølgende kigge på pulsværdierne og tempoet.</p>
+
+<p>Det ser sådan her ud i Garmin Connect:</p>
+
+<figure class="">
+  <img src="/assets/images/blog/1600-meter-joggingtest.png" alt="jogging løbetest submaksimal puls og tempo" loading="lazy" /><figcaption>
+      Her har jeg selv løbet joggingtesten. Jeg løb på løbebane og forsøgte at holde nogenlunde hastighed. Jeg har måske snakket lidt undervejs, for pulsen går lidt op og ned undervejs.
+
+    </figcaption></figure>
+
+<p>På baggrund af disse målinger kan du så udregne dit kondital i beregneren nedenunder.</p>
+
+<h2 id="beregn-vvo2max-fra-testen">Beregn vVO2<sub>max</sub> fra testen</h2>
+
+<form id="calculator_olher_vvo2max" class="calculator">
+    <fieldset>
+        <legend>Distance løbet på 6 minutters test</legend>
+        <label>Distance (meter) <input name="distance" type="text" placeholder="meter" required="" /></label>
+        <div class="form-group">
+            <label>Tid for testen (mm:ss)</label>
+            <input type="number" min="5" max="6" value="6" name="tid_min" id="tid_min" placeholder="min" class="input-mini" required="" />
+            <input type="number" min="0" max="59" value="0" name="tid_sek" id="tid_sek" placeholder="sek" class="input-mini" required="" />
+        </div>
+    </fieldset>    
+    <fieldset>
+        <legend>Pulsmålinger</legend>
+        <div class="form-group">
+        <label>Puls (gennemsnit i test) <input name="hr_submax" type="number" min="30" max="250" placeholder="Gennemsnitspuls i testen, fx 155" required="" /></label>
+        <label>Puls (max-puls) <input name="hr_max" type="number" min="30" max="250" placeholder="Din maxpuls, fx 200" required="" /></label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <label>Heart Rate Cost of Running (HRC)
+            <input name="hrc" id="hrc" type="text" disabled="" />
+        </label>
+    </fieldset>
+    <fieldset class="results">
+        <label>vVO<sub>2</sub> max (meter/minut)
+            <input name="speed_meter_min" id="speed_meter_min" type="text" disabled="" />
+        </label>
+        <label>vVO<sub>2</sub> max (km/t)
+            <input name="speed_kmt" id="speed_kmt" type="text" disabled="" />
+        </label>
+        <label>vVO<sub>2</sub> max (min/km)
+            <input name="speed_min_km" id="speed_min_km" type="text" disabled="" />
+        </label>
+        <label>Omgangshastighed på løbebane (sek/400 meter)
+            <input name="sec_400" id="sec_400" type="text" disabled="" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Et eksempel:</p>
+
+<p>Jeg løb 1000 meter på de 6 minutter, og jeg havde en gennemsnitlig puls på 155 bpm og jeg har en max-puls på 183.</p>
+
+<p>Du kan <a href="/test-max-puls/">udregne din maxpuls her</a>, hvis du ikke kender den på forhånd.</p>
+
+<p>Jeg taster det ind i beregneren og …</p>
+
+<p>… finder ud af at jeg skal løbe 197 meter pr. minut for at løbe omkring min maksimale iltoptagelse. Det er lige knap en halv runde på en en 400 meter bane pr. minut.</p>
+
+<h2 id="hvordan-bruger-du-vvo2max-i-praksis">Hvordan bruger du vVO2<sub>max</sub> i praksis?</h2>
+
+<p>Det har Olher et al (2019) også et bud på:</p>
+
+<blockquote>
+  <p>#1. Moderate-intensity running: 30–45 min at a running velocity ~80% of vVO2max (below anaerobic threshold);</p>
+
+  <p>#2. Moderate to high-intensity running: 20 to 25 min at velocity ~85–86% vVO2max (around anaerobic threshold);</p>
+
+  <p>#3. High-intensity running: 8 to 15 min of exercise at a velocity ~87 to 92% vVO2max;</p>
+
+  <p>#4. Alternatively, high-intensity running sessions, in Severe Intensity Domain would be prescribed once a week to improve the VO2max and vVO2max. In this situation, the utilization of 2 to 4 bouts of 5–6 min at predicted vVO2max, with ~5 to 10 min of rest intervals could be useful with the purpose of reaching VO2max during exercise sessions.</p>
+
+  <p>Finally, for aerobic improvement, usually 3 to 5 aerobic training sessions per week are recommended, with only 1 to 2 sessions being done at high or severe intensity domains (i.e. above anaerobic threshold or at vVO2max). These last high or severe intensity exercise sessions can then be alternated with moderate-intensity exercise sessions (i.e. ~80% vVO2max).</p>
+</blockquote>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores <a href="/puls/">guide til puls</a> og lære endnu mere om, <a href="/pulstraening/">hvordan du kan bruge pulstræning</a>.</p>
+
+<p>Det er lettest at bruge resultaterne, hvis du løber på løbebane eller løbebånd.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Kondition"]'/><category term="konditionstest"/><category term="løb"/><category term="submaksimal test"/><category term="indirekte test"/><category term="løbetest"/><category term="test"/><category term="tracking"/><category term="beregner"/><summary type="html">I denne løbetest på 6 min kan du finde din hastighed ved VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et stopur og et pulsur.</summary></entry><entry><title type="html">Hvor hurtigt cykler du op ad? VAM - Velocità Ascensionale Media</title><link href="https://www.motionsplan.dk/vam/" rel="alternate" type="text/html" title="Hvor hurtigt cykler du op ad? VAM - Velocità Ascensionale Media"/><published>2024-07-23T00:00:00+00:00</published><updated>2024-07-11T10:14:14+00:00</updated><id>https://www.motionsplan.dk/vam</id><content type="html" xml:base="https://www.motionsplan.dk/vam/"><![CDATA[<p>VAM står for Velocità Ascensionale Media. På engelsk kan det oversættes til <em>vertical ascent in meters</em>, hvilket betyder hvor mange meter en cyklist klatrer lodret i timen.</p>
+
+<p>VAM er udarbejdet af den berømte dopinglæge Michelle Ferrari, som havde brug for et mål, der fortalte noget om den enkeltes evner. VAM kan stadig bruges til at sammenligne cykelryttere, og hvor dygtige de er til at klatre.</p>
+
+<p>VAM er et simpelt mål for hvor hurtigt du kommer lodret op. Det er bare dig og cyklen mod tyngdekraften, og jo højere tal, jo bedre.</p>
+
+<h2 id="beregner-til-vam">Beregner til VAM</h2>
+
+<form id="calculator_vam" class="calculator">
+    <fieldset>
+        <legend>Oplysninger</legend>
+        <label>Vertikal distance klatret (meter) <input name="distance_climbed" min="50" step="1" type="number" placeholder="meter klatret" required="" /></label>
+        <div class="form-group">
+            <label>Tid (mm:ss)</label>
+            <input type="number" min="5" max="200" name="tid_min" id="tid_min" placeholder="min" class="input-mini" step="1" required="" />
+            <input type="number" min="0" max="59" name="tid_sek" id="tid_sek" placeholder="sek" class="input-mini" step="1" required="" />
+        </div>
+        <label>Gennemsnitlig stigning (%) <input name="gradient" type="number" step="0.01" placeholder="procentvis stigning" required="" /></label>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultater</legend>
+        <label>VAM (meter) <input name="vam" id="vam" type="text" disabled="" /></label>
+        <label>Stigningsfaktor (gradient factor)
+            <input name="gradient_factor" id="gradient_factor" type="text" disabled="" />
+        </label>
+        <label>Relativ Power (watts/kg)
+            <input name="relative_power" id="relative_power" type="text" disabled="" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="hvordan-udregner-jeg-vam">Hvordan udregner jeg VAM?</h2>
+
+<p>Hvis du har taget tid på en stigning og ved hvor mange lodrette meter stigningen er, så kan du selv udregne VAM.</p>
+
+<p>Du kan udregne VAM med følgende formel:</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?VAM (m/t) = \frac{vertical distance klatret (m) * 60 (min/t)}{tid (min)}" title="VAM (m/t) = \frac{vertical distance klatret (m) * 60 (min/t)}{tid (min)}" alt="VAM (m/t) = \frac{vertical distance klatret (m) * 60 (min/t)}{tid (min)}" loading="lazy" /></p>
+
+<p>Det er altså relativt enkelt at udregne din egen VAM.</p>
+
+<p>Når du har din VAM, så kan du også udregne din egen relative <em>power</em> (watt/kg) ud fra tallene. Det kræver bare, at du kender den gennemsnitlige hældning på stigningen.</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?Gradient Factor = 2 + \frac{stigning (%)}{10}" title="Gradient Factor = 2 + \frac{stigning (%)}{10}" alt="Gradient Factor = 2 + \frac{stigning (%)}{10}" loading="lazy" /></p>
+
+<p>Derved kan du udregne din relative power:</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?Relativ Power (watt/kg) = \frac{VAM (m/t)}{Gradient Factor * 100*}" title="Relativ Power (watt/kg) = \frac{VAM (m/t)}{Gradient Factor * 100*}" alt="Relativ Power (watt/kg) = \frac{VAM (m/t)}{Gradient Factor * 100*}" loading="lazy" /></p>
+
+<p>Læg mærke til, at den relative power ikke tager højde for vindforhold og rullemodstand, men er baseret på Michelle Ferraris måde at sammenligne ryttere. Fordelen ved denne måde at opgøre det på er at det er utrolig enkelt,o g det kommer ikke så langt væk fra andre tal.</p>
+
+<h2 id="eksempel-fra-tour-de-france-2024">Eksempel fra Tour de France 2024</h2>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/TDF2024?src=hash&amp;ref_src=twsrc%5Etfw">#TDF2024</a> | Stage 15 🇫🇷<br /><br />⛰️🏁 PLATEAU DE BEILLE (15.8 km, 7.91%, 1249 m)<br /><br />🇸🇮 Tadej Pogačar <br /><br />• 39:43 - RECORD<br />• 6.90 w/kg (est. 65 kg standard)<br />• 1887 m/h VAM<br />• 23.87 km/h<br /><br />The greatest performance of all time, shattering Marco Pantani&#39;s old record<br />(1998 | 43:28) <a href="https://t.co/IvOWaHmCj3">pic.twitter.com/IvOWaHmCj3</a></p>&mdash; Watts in Cycling (@WattsinCycling) <a href="https://twitter.com/WattsinCycling/status/1812516460578639997?ref_src=twsrc%5Etfw">July 14, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="hvordan-finder-jeg-ellers-vam">Hvordan finder jeg ellers VAM?</h2>
+
+<p>På fx Strava kan du finde din VAM på forskellige segmenter, hvis du går ind på en aktivitet.</p>
+
+<p>Jeg har fx kørt op af Tabayesco på Lanzarote. Du går først ind på aktiviteten.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/vam-strava-1.jpg" alt="" loading="lazy" /></figure>
+
+<p>Herfra kan du scrolle ned til segments, og der finder du så din VAM.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/vam-strava-2.jpg" alt="" loading="lazy" /></figure>
+
+<p>Jeg har undret mig lidt over, at jeg ikke har fået et tilbud fra et professionelt cykelhold, men når jeg kigger på tallene, så kan jeg godt se, at der er lidt op til de vanvittige tal de bedste klatrere i verden kører lige nu.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<h3>Hvad er VAM?</h3>
+<p>VAM står for Velocità Ascensionale Media. På engelsk kan det oversættes til <em>vertical ascent in meters</em>, hvilket betyder hvor mange meter en cyklist klatrer lodret i timen.</p>
+
+<h3>Rekorder og watt i cykling</h3>
+<p>På <a href="https://x.com/WattsinCycling">@WattsinCycling</a> kan du følge med i de vilde rekorder der bliver kørt i øjeblikket i cykling.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Træning"]'/><category term="kondition"/><category term="cykling"/><summary type="html">VAM er en måde at måle, hvor hurtigt du cykler lodret op, så du kan sammenligne dig med de bedste klatrere i verden.</summary></entry><entry><title type="html">Sådan kommer du i gang med Intervals.icu (begynderguide)</title><link href="https://www.motionsplan.dk/intervals-icu-begynderguide/" rel="alternate" type="text/html" title="Sådan kommer du i gang med Intervals.icu (begynderguide)"/><published>2024-01-11T00:00:00+00:00</published><updated>2024-01-11T10:14:14+00:00</updated><id>https://www.motionsplan.dk/intervals-icu</id><content type="html" xml:base="https://www.motionsplan.dk/intervals-icu-begynderguide/"><![CDATA[<p>Intervals.icu er en genial hjemmeside og web-app til at planlægge din træning, tracke fremgang, analysere dine træningspas og se dit samlede træningsload. Den er særligt velegnet til løb, cykling og triatlon.</p>
+
+<p>Og det allerbedste er, at den er gratis og integrerer med rigtig mange forskellige services, fx Garmin Connect, Strava, Suunut, Coros, Polar Flow, Wahoo m.fl.</p>
+
+<p>Her får du en let guide til, hvordan du sætter <a href="https://intervals.icu/">intervals.icu</a> op.</p>
+
+<h2 id="1-lav-en-konto">1. Lav en konto</h2>
+
+<p>Først skal du naturligvis lave en konto. Det er utrolig enkelt, når du går ind på <a href="https://intervals.icu/">forsiden af intervals.icu</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-signup.jpg" alt="" loading="lazy" /></figure>
+
+<p>Du klikker på <strong>SIGNUP FOR FREE</strong> og så kan du lave din konto. Herefter følger du bare anvisningerne.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-signup-form.jpg" alt="" loading="lazy" /></figure>
+
+<p>Du behøver altså ikke udfylde din FTP eller max-puls endnu. Men det kommer vi tilbage til, når vi kigger på indstillingerne i programmet.</p>
+
+<h2 id="2-sæt-dine-indstillinger">2. Sæt dine indstillinger</h2>
+
+<p>Når du er logget ind første gang, så er det en god ide at kigge forbi indstillingerne i programmet.</p>
+
+<p>Der er nemlig mange indstillinger, du kan lave, og de har betydning for, hvordan programmet analyserer og beregner dit træningsload.</p>
+
+<p>Derfor er det godt at sætte dit udgangspunkt så godt som muligt fra starten, men værdierne vil ændre sig hen ad vejen, når du kommer i bedre eller værre form.</p>
+
+<p>Du finder dine indstillinger på <a href="https://intervals.icu/settings">intervals.icu/settings</a>.</p>
+
+<p>Her kigger vi på de forskellige sektioner af indstillingerne.</p>
+
+<h3 id="generelle-indstillinger">Generelle indstillinger</h3>
+
+<p>Først skal du lige tjekke dine generelle indstillinger.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-1.jpg" alt="" loading="lazy" /></figure>
+
+<p>Hvis du ikke kender din hvilepuls, så kan du følge <a href="/hvilepuls/">vores guide til at måle hvilepuls</a>.</p>
+
+<h3 id="specifikke-indstillinger">Specifikke indstillinger</h3>
+
+<p>Der er mange specifikke indstillinger, du kan lave til de forskellige idrætter.</p>
+
+<p>Du kan få et rigig højt udbytte af Intervals.icu, hvis du tracker din træning med enten wattmåler, pulsmåler eller hastighed.</p>
+
+<p>Du behøver naturligvis kun kigge på indstillingerne til de idrætsgrene, du normalt laver. Hvis du er cykelrytter, så tjek “Ride”. Hvis du er løber, så tjekker du naturligvis “Run”.</p>
+
+<p>Under <strong>Cykling</strong> er der forskellige indstillinger, som kan være rigtig god at få kigget på.</p>
+
+<p>Du bør <a href="/test-max-puls/">teste din maksimale puls</a> på cyklen (den er sandsynligvis ikke helt den samme som på cyklen) og <a href="/ftp-test/">finde din functional threshold power (FTP)</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-2.jpg" alt="" loading="lazy" /></figure>
+
+<p>Under <strong>Løb</strong> kan du lave de samme indstillinger. Hvis du <a href="/loeb-watt/">løber med wattmåling</a>, så kan du også indstille din FTP. Men igen bør du teste din maxpuls, og også helst lave en test af, hvad din puls ligger på omkring din <a href="/anaerobe-taerskel/">anaerobe tærskel</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-3.jpg" alt="" loading="lazy" /></figure>
+
+<p>Hvis du ikke lige har tid til at lave en rigtig test af din maxpuls, så kan du <a href="/test-max-puls/">udregne den</a>.</p>
+
+<h3 id="integrationer">Integrationer</h3>
+
+<p>Du kan indtaste din egen træning i Intervals.icu, men hvis du bruger en træningsapp, så kan du også importere dine aktiviteter. På den måde får du importeret alle dine træninger ind i Intervals.icu, og så har du mulighe for at analysere din træning.</p>
+
+<p>Du fortsætter ganske enkelt lidt ned af listen under indstillingerne, og så kommer mulighederne frem.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-4.jpg" alt="" loading="lazy" /></figure>
+
+<p>Klik på den ønskede integration og sæt det op efter forskrifterne.</p>
+
+<p>Nu har du sat indstillingerne op, og du er klar til at bruge de forskellige muligheder i Intervals.icu.</p>
+
+<p>God fornøjelse.</p>
+
+<h2 id="4-tilføj-venner-og-coach">4. Tilføj venner og coach</h2>
+
+<p>Hvis du har venner eller en ‘coach’, så kan du tilføje det under dit profilbillede.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-profile-coach.jpg" alt="" loading="lazy" /></figure>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<h3>Jeg tracker allerede min træning i X app, har jeg brug for Intervals.icu?</h3>
+<p>Det er jo op til dig. Men Intervals.icu integrerer med rigtig mange forskellige aps, fx Garmin Connect, Polar Flow, Suuntu, Coros, Wahoo og Strava. Jeg tror du vil komme til at holde af Intervals.icu. Den er gratis, så der sker ikke noget ved at prøve.</p>
+
+<h3>Er Intervals.icu gratis?</h3>
+<p>Ja. Og det er faktisk for vildt, når man tænker på funktionaliteten i programmet. Du bliver spurgt om du gerne vil støtte udviklingen af programmet, og hvis du finder det brugbart så kan du overveje det.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Træning"]'/><category term="kondition"/><category term="cykling"/><category term="løb"/><summary type="html">Intervals.icu er en genial hjemmeside og web-app til at planlægge din træning, tracke fremgang og analysere dine træningspas.</summary></entry><entry><title type="html">FTP-test: Hvordan tester du Functional Threshold Power til cykling?</title><link href="https://www.motionsplan.dk/ftp-test/" rel="alternate" type="text/html" title="FTP-test: Hvordan tester du Functional Threshold Power til cykling?"/><published>2023-01-11T00:00:00+00:00</published><updated>2023-01-11T10:14:14+00:00</updated><id>https://www.motionsplan.dk/ftp-test</id><content type="html" xml:base="https://www.motionsplan.dk/ftp-test/"><![CDATA[<p>Her lærer du at lave en FTP-test, så du kan udnytte Functional Threshold Power i din træning.</p>
+
+<p><a href="/ftp-cykling/">FTP står for Functional Threshold Power</a> og er den højeste gennemsnitlige effekt cykelrytteren kan opretholde i en time målt i watt.</p>
+
+<p>For cykling er watt en meget nøjagtig måling af det arbejde, du leverer på cyklen, som ikke påvirkes af vind eller bakker.</p>
+
+<p>Men for at få det optimale ud af din wattmåler på cyklen, så er det en god ide jævnligt at lave en FTP-test, så du har et godt udgangspunkt for din træning.</p>
+
+<p>Lad os dykke ned i det!</p>
+
+<h2 id="hvad-er-functional-threshold-power-ftp">Hvad er Functional Threshold Power (FTP)?</h2>
+
+<p>Functional Threshold Power (FTP) er et mål for den effekt (power), som du kan opretholde i 1 time på cyklen.</p>
+
+<p>Fysiologisk set så er det den grænse, hvor kroppen kan nå at fjerne <a href="/maelkesyre-traening/">mælkesyre</a> fra musklerne lige så hurtigt som den bliver produceret.</p>
+
+<p>Det punkt hvor du kan fjerne lige så meget mælkesyre, som du opbygger kaldes ofte mælkesyregrænsen. Dette metaboliske steady state korrelerer meget godt med FTP. Derfor kan FTP bruges som et mål for mælkesyregrænsen.</p>
+
+<p>Men hvordan tester du FTP?</p>
+
+<h2 id="hvorfor-skal-du-teste-ftp">Hvorfor skal du teste FTP?</h2>
+
+<p>Hvis din træningscomputer eller app er sat op til at placere dig ved en træningsintensitet ud fra FTP, så er det en rigtig god ide rent faktisk at have testet den.</p>
+
+<p>De fleste programmer starter med at estimere din FTP. Her er et eksempel fra Body Bike Smart+ appen:</p>
+
+<figure class="third full">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-hvorfor-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-hvorfor-2.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-hvorfor-3.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>Body Bike Smart+ appen har estimeret både min maksimale puls og min FTP. Hvis ikke jeg indstiller dem ud fra et testresultat, så vil den placere mig i en forkert træningszone. På andet skærmbillede har jeg bare brugt den estimerede FTP, hvilket placerer mig i ‘Rød zone’, men i virkeligheden er min FTP noget højere. På det tredje skærmbillede træder jeg de samme watt, men har indstillet FTP rigtigt. I virkeligheden arbejder jeg i ‘Grøn zone’.
+</figcaption>
+  
+</figure>
+
+<h2 id="hvordan-laver-du-en-ftp-test">Hvordan laver du en FTP-test?</h2>
+
+<p>En FTP test kræver, at du har en cykel der kan vise din effekt i watt. Hvis du fx <a href="/komplet-begynderguide-zwift/">kører Zwift</a> eller andre <a href="/hometrainer-apps/">virtuelle cykelplatforme</a>, så er du sikkert stødt på begrebet.</p>
+
+<p>Der er principielt to forskellige måder, du kan lave testen på.</p>
+
+<ul>
+  <li><strong>Gradvist stigende intensitet</strong>. Fordelen ved en test med gradvist stigende intensitet er, at du bare skal følge testen indtil du bliver helt udmattet. Ulempen er, at du bliver nødt til at udregne din FTP baseret på nogle generelle algoritmer.</li>
+  <li><strong>Fast intensitet over tid</strong>. Fordelen ved en traditionel FTP-test er, at du teoretisk set arbejder på din mælkesyregrænse i løbet af testen. Alt efter længden på testen, så er den imidlertid også noget sværere at <em>pace</em> rigtigt. Du kan enten komme til at køre for hurtigt eller for langsomt i starten. Denne type tests er også ofte kortere end 1 time, og så skal du igen udregne din FTP med en procentdel af den værdi du opnår i testen.</li>
+</ul>
+
+<p>Her gennemgår vi en række forskellige måder at gribe en FTP-test an på.</p>
+
+<h3 id="1-20-minutters-test-med-fast-intensitet">1. 20 minutters test med fast intensitet</h3>
+
+<p>Her kører du 20 minutter alt hvad du kan. Typisk bruger man så 95% af det watt-tal du kan holde i 20 minutter som udgangspunkt for din FTP. Du estimerer altså, at du kan arbejde lidt hårdere, når du kun skal køre i 20 minutter.</p>
+
+<p>Fordelen ved at testen kun tager 20 minutter er, at du ikke skal pace dig selv på max over en hel time. Det er rigtig svært at have <em>mindsettet</em> til at køre maksimalt så længe.</p>
+
+<p>I <a href="/mywhoosh-cycling/">MyWhoosh Cycling app</a> findes der fx en test du kan tage:</p>
+
+<figure class="half full">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-wahoo-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-wahoo-2.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>I Whoosh appen kan du under ‘Workouts’ finde forskellige typer FTP-tests. Hvis du gerne vil have den hurtigt overstået, så kan du vælge den 20 minutters test, som du inklusiv opvarmning kan have overstået på 35 minutter.
+</figcaption>
+  
+</figure>
+
+<p>Samtidig kan du lettere inkludere testen flere gange i løbet af din træning, da den jo ændrer sig, jo bedre du bliver.</p>
+
+<p>Du kan også finde en 20 minutters FTP-test på Wattbikes. Her er et eksempel på en 20 minutters test, som er <em>pacet</em> hensigtsmæssigt.</p>
+
+<figure class="">
+  <img src="https://cdn.shopify.com/s/files/1/0507/5078/3660/files/ftp-fig02.png?v=1613401088" alt="ftp test på wattbike" loading="lazy" /><figcaption>
+      Wattbike har en indbygget FTP-test, hvor du kører i 20 minutter. Her er et eksempel fra <a href="https://wattbike.com/blogs/news/your-guide-to-functional-threshold-power">Wattbikes blog</a> på en FTP-test, hvor rytteren kunne holde det samme arbejde aflæst i watt under hele testen.
+
+    </figcaption></figure>
+
+<h3 id="2-watt-max-test-stigende-test">2. Watt-max-test stigende test</h3>
+
+<p>Watt-max-testen er en test, hvor du gradvist øger belastningen undervejs. Watt max-testen er en nem og præcis måde at finde dit kondital på.</p>
+
+<p>Du kan køre Watt-max-testen på forskellige måder.</p>
+
+<p>Fordelen ved at bruge Watt-max-testen er, at det er let at <em>pace</em> testen. Du skal bare følge anvisningerne.</p>
+
+<p>Du kan fx bruge en Body Bike Smart+, hvor testen er forudprogrammeret.</p>
+
+<figure class="half ">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-2.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-3.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-4.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>Body Bike Smart+ appen har forudprogrammeret en VO<sub>2</sub>-test. Udformningen ligner watt-maxtesten. Du starter ved 70 watt og hver andet minut stiger intensiteten med 35 watt. Du kører indtil udmattelse.
+</figcaption>
+  
+</figure>
+
+<p>Når du har kørt testen færdig, så får du estimeret din iltoptagelse, men du får også et bud på din FTP. I testen er det estimeret til en procentdel af din watt-max.</p>
+
+<p>Læs: <a href="/kondital-wattmax/">Alt om watt-max testen og dens pålidelighed</a></p>
+
+<h3 id="3-fem-minutters-ftp-test">3. Fem minutters FTP-test</h3>
+
+<p>På Body Bike Smart+ er der også en 5 minutters FTP-test. Her kører du de højeste watt, du kan på 5 minutter. Og så tager du en procentdel af det resultat. Når du kører så kort, så er der risiko for, at din FTP-værdi ikke bliver præcis.</p>
+
+<p>Men testen er helt sikkert bedre end ikke at have lavet nogen test.</p>
+
+<figure class="half ">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-2.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-3.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-4.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>Body Bike Smart+ appen har forudprogrammeret en FTP-test. Her skal du køre <em>all-out</em> i fem minutter. Du skal gå efter at holde den samme intensitet hele vejen igennem. Og det skal naturligvis føles rigtig hårdt til sidst. På 5 minutter kan du køre omkring din maksimale iltoptagelse i hele perioden.
+</figcaption>
+  
+</figure>
+
+<p>Når du har kørt testen, så får du et svar på din FTP-værdi. I eksemplet ovenfor så har rytteren kørt med 177 watt i gennemsnit. Appen estimerer så FTP til at være 85% af den gennemsnitlige watt til 151 watt.</p>
+
+<h3 id="4-ramp-test">4. Ramp-test</h3>
+
+<p>Her kører du 5 minutters opvarmning. Modstanden eller intensiteten bliver sat op med et fast tidsinterval, så du skal yde mere arbejde og træde flere watt. Nogle programmer bruger 75% af det højeste watt-tal du kan træde, men der kan være lidt forskelle.</p>
+
+<p>Du kan finde Ramp-test i Zwift.</p>
+
+<h2 id="hvor-ofte-skal-jeg-teste-min-ftp">Hvor ofte skal jeg teste min FTP?</h2>
+
+<p>Du bør som udgangspunkt opdatere din FTP-test hver 4.-6. uge for hele tiden at have opdaterede tal. Når du laver dit træningsprogram og din træning skal ligge i bestemte zoner, så er det også vigtigt at du rammer zonerne.</p>
+
+<h2 id="hvad-kan-du-bruge-din-ftp-test-til">Hvad kan du bruge din FTP-test til?</h2>
+
+<p>Når du har et mål fra din FTP-test, så kan du bruge det til at <a href="/ftp-cykling/">udregne træningszoner ud fra FTP</a>.</p>
+
+<p>Watt er et alternativ til andre måder at måle intensiteten af det arbejde, du laver.</p>
+
+<p>Vi har skrevet om <a href="/pulstraening/">træning efter puls</a> og <a href="/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/">udregning af pulszoner</a>. Du kan også køre ud fra din subjektive fornemmelse, fx baseret på <a href="/borg-skala/">Borgs anstrengelsesskala</a>.</p>
+
+<h2 id="ofte-stillede-spørgsmål-om-ftp">Ofte stillede spørgsmål om FTP</h2>
+
+<h3>Hvor ofte skal jeg tage en FTP-test?</h3>
+<p>Din FTP flytter sig, når du træner. Du bliver altså bedre til at arbejde med en højere intensitet. Derfor kan det være en god ide at teste din FTP hver 4.-6. uge, så dine træningszoner bliver justeret til i forhold til din forbedrede form.</p>
+
+<h3>Behøver jeg at teste min FTP som cykelrytter?</h3>
+<p>Nej. Der er mange måder du kan strukturere din træning på. Du kan også bruge puls eller din subjektive fornemmelse. At bruge watt i din cykeltræning er imidlertid et meget præcist mål, og når du ved, hvor mange watt du kan træde, så kan du lettere planlægge dine træningszoner. FTP er også et mål for, om du forbedrer dit i din træning.</p>
+
+<h2 id="bøger-om-effekttræning">Bøger om effekttræning</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://imgcdn.saxo.com/_9788777498848/0x500" alt="" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Watt - træning og konkurrence</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p><em>Watt - træning og konkurrence</em> er den definitive guide til at benytte sig af træning med watt. Med hjælp fra denne bog kan du vende hele din træning op og ned - og blive markant hurtigere og bedre.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=43264&amp;htmlurl=https://www.saxo.com/dk/watt_andrew-coggan-dansk-bearbejdelse-ved-brian-overkaer_hardback_9788777498848" class="btn btn--success" rel="sponsored nofollow noopener">Se prisen</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://imgcdn.saxo.com/_9788702189179/0x500" alt="" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Cykeltræning - Claus Hechmann</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Cykeltræning er en fokuseret og præcis guide til at forbedre dine præstationer på cyklen med effekttræning. Princippet er enkelt: Du skal træne i at kunne cykle så hurtigt som muligt i så lang tid som muligt.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=43264&amp;htmlurl=https://www.saxo.com/dk/cykeltraening_claus-hechmann_haeftet_9788702189179" class="btn btn--success" rel="sponsored nofollow noopener">Se prisen</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>]]></content><author><name>Lars Olesen</name></author><category term='["Cykling"]'/><category term="kondition"/><category term="træning"/><category term="beregner"/><category term="cykeltest"/><summary type="html">Hvordan laver du din egen FTP-test? FTP og Functional Threshold Power kan bruges til at udregne træningszoner, men det kræver en præcis test. Sådan gør du!</summary></entry><entry><title type="html">Kreatin: Det bedste og billigste kosttilskud i 2024</title><link href="https://www.motionsplan.dk/kreatin/" rel="alternate" type="text/html" title="Kreatin: Det bedste og billigste kosttilskud i 2024"/><published>2022-11-22T00:00:00+00:00</published><updated>2022-11-19T23:14:14+00:00</updated><id>https://www.motionsplan.dk/kreatin</id><content type="html" xml:base="https://www.motionsplan.dk/kreatin/"><![CDATA[<p>Vidste du, at <strong>kreatin monohydrat</strong> er det mest anerkendte og veldokumenterede kosttilskud til muskelstyrke og muskelvækst? Her kigger vi på, hvordan du kan bruge kreatin i forbindelse med din styrketræning.</p>
+
+<p>Kreatin hjælper på dine præstationer og har effekt på muskelopbygningen. Det er billigt, og det har ingen bivirkninger.</p>
+
+<p>What’s not to like?</p>
+
+<p>Her kigger vi på følgende spørgsmål:</p>
+
+<ul>
+  <li>Hvordan virker kreatin?</li>
+  <li>Hvor meget kreatin skal du bruge, og hvornår skal du tage det?</li>
+  <li>Skal du bruge loading fase?</li>
+  <li>Er der nogle bivirkninger?</li>
+</ul>
+
+<p>Lad os hoppe direkte ned i det.</p>
+
+<figure class="">
+  <img src="https://linuspro.dk/wp-content/uploads/2022/05/LinusPro_-6-1160x800.webp" alt="Bøtter med kreatinpulver" loading="lazy" /><figcaption>
+      En bøtte med kreatinpulver koster relativt lidt. Husk at lede efter kreatin monohydrat. Billede: <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=94426&amp;htmlurl=https://linuspro.dk/linuspro-kreatin-neutral-50-g/" rel="sponsored nofollow noopener">linuspro.dk</a>
+
+    </figcaption></figure>
+
+<h2 id="hvad-er-kreatin-monohydrat">Hvad er kreatin monohydrat?</h2>
+
+<p>Kreatin er et molekyle, der består af aminosyrer. Kreatin findes primært i kød og fisk, og kroppen producerer også selv kreatin.</p>
+
+<p>Vi finder størstedelen af kreatin i skeletmuskulaturen (~95%). Her er omkring 2/3 bundet i kreatinfosfat (CrP), mens det øvrige kreatin er er frit.</p>
+
+<p>Der bliver udskilt en lille smule kreatin gennem urinen hver dag, og derfor skal depoterne genopfyldes.</p>
+
+<p>Kroppen har derfor brug for 1-3 gram kreatin hver dag afhængig af muskelmasse. Omkring halvdelen af denne mængde gennem kosten. Kroppen kan også selv skabe kreatin i leveren og nyrerne.</p>
+
+<p>De fleste mennesker kan lagre mere kreatin end kroppen selv gør.</p>
+
+<p>I musklerne knytter kreatin sig til et fosfat-molekyle som kreatinfosfat (CrP). Kreatinfosfat kan bruges til at genoplade ATP. I alt har du lagre, der kan hjælpe med kortvarigt arbejde op til 10-20 sekunder.</p>
+
+<p>For at få energi under fysisk arbejde, så spalter du ATP i musklerne. Når du har spaltet et fosfatmolekyle fra ATP, så står du tilbage med ADP. Kreatinfosfat kan bidrage med et fosfatmolekyle hurtigt, så ATP kan blive genopladet.</p>
+
+<p>Kreatinfosfat er altså en buffer af energi i musklerne, som kan frigives utrolig hurtigt, men i kortere perioder.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="ERGpOzZzU3A">
+      <meta itemprop="name" content="Kreatin: Det bedste og billigste kosttilskud i 2024" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/ERGpOzZzU3A/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-22T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/ERGpOzZzU3A" />
+      <meta itemprop="description" content="Vidste du, at kreatin monohydrat er det mest anerkendte og veldokumenterede kosttilskud til muskelstyrke og muskelvækst? Her kigger vi på, hvordan du kan bruge kreatin i forbindelse med din styrketræning." />
+      <a href="https://www.youtube.com/watch?v=ERGpOzZzU3A" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/ERGpOzZzU3A/hqdefault.jpg" loading="lazy" alt="video til Kreatin: Det bedste og billigste kosttilskud i 2024" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="fysiologiske-virkning-af-kreatin">Fysiologiske virkning af kreatin</h2>
+
+<p>Hvis du gerne vil tage kreatin, er det godt at kende den fysiologiske virkning af kreatin på kroppen. Det kan du lære mere om i denne video:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="ieRA67pwbrk">
+      <meta itemprop="name" content="Kreatin: Det bedste og billigste kosttilskud i 2024" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/ieRA67pwbrk/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-22T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/ieRA67pwbrk" />
+      <meta itemprop="description" content="Vidste du, at kreatin monohydrat er det mest anerkendte og veldokumenterede kosttilskud til muskelstyrke og muskelvækst? Her kigger vi på, hvordan du kan bruge kreatin i forbindelse med din styrketræning." />
+      <a href="https://www.youtube.com/watch?v=ieRA67pwbrk" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/ieRA67pwbrk/hqdefault.jpg" loading="lazy" alt="video til Kreatin: Det bedste og billigste kosttilskud i 2024" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<p>Jeg har skrevet et længere indlæg om <a href="/energisystemer/">energisystemerne og aerob og anaerob arbejde</a>. I forhold til kreatin, så kigger jeg her på det lynhurtige anaerobe energisystem, hvor processerne foregår uden ilt.</p>
+
+<p>Når man laver højintenst arbejde, så stiger kravet til tilgængeligheden af kroppens energimolekyle ATP med op til 1000 gange sammenlignet med i hvile (<a href="https://pubmed.ncbi.nlm.nih.gov/21188163/">Baker et al 2010</a>). De anaerobe processer kan skabe ATP relativt hurtigt, men de er langt fra så effektive som de aerobe processer, hvor der er ilt til stede.</p>
+
+<p>For at lave en <strong>muskelsammentrækning</strong> så har musklerne to proteiner, der er relevante. De hedder aktin og myosin, og jeg har beskrevet dem yderligere i indlægget om, <a href="/muskelsammentraekning/">hvordan en muskel trækker sig sammen</a>. For at myosin kan få lov til at trække i aktin-proteinet, så skal der bruges ATP.</p>
+
+<p>For at ATP kan give energi, så fraspaltes en af de tre fosfatgrupper fra ATP. Når bindingen brydes, frigives der energi, som i dette tilfælde bliver brugt til en muskelsammentrækning. Men nu har vi ADP tilbage, hvor der kun er to fosfatgrupper.</p>
+
+<p>Når vi så vil genoplade ADP for at skabe ATP igen, så har vi brug for fosfat. Denne genopladning kan ske både i det aerobe system eller i det anaerobe system.</p>
+
+<p>Det er netop genopladningen af ATP kreatin har sin effekt som kosttilskud. Hvis du indtager kreatin, så øger du mængden af kreatinfosfat (CrP) i musklerne. Når kroppen skal arbejde hårdt igen, så har vi ekstra CrP tilgængeligt i musklerne, hvilket kan være med til at genoplade ATP igen.</p>
+
+<p>Når du har et øget indhold af kreatinfosfat i musklerne, så kan det hjælpe dig til at øge mængden af arbejde du kan lave i et sæt - og måske kan du restituere marginalt hurtigere mellem de enkelte sæt.</p>
+
+<h2 id="hvorfor-tager-man-kreatin-som-kosttilskud">Hvorfor tager man kreatin som kosttilskud?</h2>
+
+<p>En stor del af befolkningen har formentlig ikke fyldte kreatinfosfatlagre. Derfor kan mange få fyldt depoterne op ved at tage det som kosttilskud.</p>
+
+<p>Det ser i nogle studier ud til, at omkring 70% af forsøgsdeltagerne i de forskellige træningsstudier får en gavnlig effekt af at supplere deres kost med kreatin.</p>
+
+<p>Hvad så med de sidste 30%?</p>
+
+<p>Det betyder naturligvis også, at et kreatintilskud ikke har nogen nævneværdig effekt for de resterende 30%. Til gengæld skader det tilsyneladende heller ikke.</p>
+
+<p>Derfor er litteraturen enige om, at et kreatintilskud kan være en udemærket ide.</p>
+
+<p>Formålet med kreatin-supplement til kosten er, at kroppen skal kunne yde mere højintenst arbejde end den ellers ville kunne.</p>
+
+<h2 id="hvad-opnår-du-ved-at-bruge-kreatin">Hvad opnår du ved at bruge kreatin?</h2>
+
+<p>Når du tager kreatin, så kan du ikke umiddelbart mærke en præcis akut effekt, som du fx kan når du <a href="/koffein/">indtager koffein før din træning</a>.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/25946994/">Lanhers et al (2015)</a> konkluderer i deres <em>meta-review</em> på baggrund af 60 studier, at kreatin har en fremmende effekt på styrkepræstationen i benene for præstationer på under 3 minutter uafhængigt af træningprotokoller, atleter og dosis.</p>
+
+<p>Senere undersøgte <a href="https://pubmed.ncbi.nlm.nih.gov/27328852/">Lanhers et al (2017)</a> også effekten i overkroppen i et systematisk review af 53 studier. Her kommer forskerne frem til fuldstændig samme konklusion.</p>
+
+<p>I praksis har du med større tilgængeligt kreatinfosfat i musklerne mere brændstof til det eksplosive arbejde.</p>
+
+<p>Effekten af kreatin er altså primært på det alactacide anaerobe energisystem.</p>
+
+<p>Derfor kan du typisk løfte 1-2 gentagelser flere i de enkelte sæt, og du kan måske være eksplosiv 1-2 gange mere, hvis du sprinter.</p>
+
+<h2 id="hvilken-form-for-kreatin-er-den-bedste">Hvilken form for kreatin er den bedste?</h2>
+
+<p>Kreatin tages typisk som pulver blandet op i vand, men man kan også få kreatin som piller. Og så virker kreatin rent faktisk både på muskelopbygning og din evne til at være ekslosiv flere gange i træk. Kreatin er billigt og har ikke nogen reelle bivirkninger.</p>
+
+<p>Markedet for kosttilskud er fyldt med forskellige former for kreatin, men det mest testede produkt er kreatin monohydrat.</p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7871530/">Antonio et al (2021)</a> konkluderer, at at <strong>kreatin monohydrat</strong> er den bedste form for kreatin. Den kan du tage som pulver eller piller.</p>
+
+<p>Smarte kosttilskudfirmaer kan måske lovprise andre typer eller kreatin på flydende form, men de virker ikke lige så godt, og de er næsten altid dyrere.</p>
+
+<p>Derfor er valget af kreatinpulver en <em>no brainer</em>.</p>
+
+<h2 id="hvordan-skal-du-indtage-kreatin">Hvordan skal du indtage kreatin?</h2>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5469049/">Kreider et al (2017)</a> samler op på den eksisterende viden om kreatinindtagelse.</p>
+
+<p>En normal kost indeholder omkring 1-2 g kreatin om dagen. Her er kreatindepoterne 60-80% mættede for de fleste mennesker.</p>
+
+<p>Derfor kan et dagligt tilskud af kreatin være med til at forøge CrP med 20-40%.</p>
+
+<p>Det tager mellem 7-21 dage for kroppen at få mættet lagrene i kroppen med kreatin alt efter om du vælger at <em>loade</em> eller ej. For at bibeholde en høj mætning af kreatin og holde koncentrationen høj bør du indtage kreatin hver dag.</p>
+
+<p>Husk at nogle naturligt har fyldte kreatinlagre i kroppen, så de får ikke ekstra effekt ved at tage det det som kosttilskud.</p>
+
+<p>Den mest effektive måde at øge andelen af kreatinlagrene i musklerne er at bruge en <strong>loading fase</strong> og derefter kan du bibeholde fyldte lagre med vedligeholdelse. Hvis du ikke hurtigt har behov for at fylde lagrene op.</p>
+
+<h3 id="loading-fase">Loading fase</h3>
+
+<p>Den mest effektive måde at øge kreatinlagrene i kroppen er ved at indtage 5 g kreatin monohydrat (eller omkring 0,3 g/kg kropsvægt) fire gange daglig i 5-7 dage.</p>
+
+<p>Mange kan opleve ubehag i maven og oppustethed i loadingfasen, og derfor fraråder mange en kreatinkur med loadingfase. Så hvis ikke du har rigtig travlt med at få fyldt dine depoter, så kan du vælge den mere konservative fremgangsmåde.</p>
+
+<p>Du kan også fylde lagrene lidt langsommere ved bare fast at indtage 3 gram / dagen. Så undgår du risikoen for de maveproblemer et rigtig højt indtag af kreatin kan forårsage.</p>
+
+<h3 id="vedligeholdelsesfase-og-konservativ-fremgangsmåde">Vedligeholdelsesfase og konservativ fremgangsmåde</h3>
+
+<p>Når lagrene er fyldte, så kan du vedligeholde lagrene ved at indtage 3-5 gram om dagen. Store atleter skal måske have større doser på 5-10 gram om dagen.</p>
+
+<p>Nogle studier indikerer at det kan være effektivt at indtage kreatin sammen med kulhydrat og protein for at få en højere optagelse.</p>
+
+<p>Hvis du indtager kreatin konsistent, så betyder det formentlig ikke så meget, hvornår eller hvordan du indtager kreatin. Du skal bare sørge for at få kreatin med rigtig kvalitet.</p>
+
+<p>Der er absolut ingen grund til at købe kreatin blandet med sukker eller protein. Det betyder nemlig bare, at du ender med at købe sukker til kreatinpriser. Hvilket er smart set fra producenterne af kosttilskuddene, men ikke så smart for forbrugeren.</p>
+
+<h2 id="hvor-meget-kreatin-skal-du-tage">Hvor meget kreatin skal du tage?</h2>
+
+<form class="calculator" id="calculator_kreatin">
+    <fieldset>
+        <legend>Beregn dagligt kreatinindtag</legend>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="body_weight" id="body_weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kreatin pr. kg kropsvægt (g/kg)
+                <input name="kreatin_intake_kg" id="kreatin_intake_kg" type="number" min="0" max="5" placeholder="Koffeinindtag" step="0.01" value="0.05" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kreatin (g)
+                <input type="number" id="kreatin_intake" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>De generelle anbefalinger er en dagsdosis på 2-5 g kreatin om dagen. Men det betyder naturligvis en del, hvor mange muskler du har. Derfor er anbefalingerne pr. kilo kropsvægt netop kun retningslinjer.</p>
+
+<h2 id="hvordan-kan-jeg-lave-en-kreatinkur">Hvordan kan jeg lave en kreatinkur?</h2>
+
+<p>Du kan altså fylde dine kreatindepoter på to forskellige måder.</p>
+
+<p>Når du først har øget dine kreatindepoter, så tager det 4-6 uger inden lagrene er nede på niveauet før kreatinloading. Der er ingen studier der har kunnet påvise, at kreatin falder ned under basisniveauet for kreatin, og derfor kan forskerne ikke påvise nogen risiko ved at tage kreatin.</p>
+
+<p>Derfor kan du roligt holde pauser engang imellem i din kreatinkur.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1640142839444-fae34b093796?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="kreatin som kosttilskud til styrketræning" loading="lazy" /></figure>
+
+<h2 id="er-det-sikkert-at-bruge-kreatin">Er det sikkert at bruge kreatin?</h2>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5469049/">Kreider et al (2017)</a> undersøger effektiviteten og sikkerheden af brug af kreatin i træning og sport for <em>International Society of Sports Nutrition</em>.</p>
+
+<p>De konkluderer, at selv et højt kreatinindtag over lang tid i mange forskellige befolkningsgrupper er sikkert (op til 30 g/dagen op til 5 år).</p>
+
+<p>Faktisk ser det ud til, at det er gavnligt for de fleste mennekser med mindre kreatinindtagelse på fx 3 gram om dagen.</p>
+
+<h2 id="bivirkninger-af-kreatin">Bivirkninger af kreatin</h2>
+
+<p>En sideeffekt ved kreatin er, at der sker en væskeophobning i kroppen. Den ekstra væske forsvinder, når du stopper med at indtage kreatin. Væskeophobning er den eneste kendte bivirkning, når du indtager kreatin. Den er forbigående, og det er ikke farligt.</p>
+
+<p>Mange vil opleve, at <em>lean body mass (LBM)</em> eller den fedtfri masse stiger over tid.</p>
+
+<p>En del af denne ændring skal formentlig tilskrives ophobning af intracellulært væske i musklen, da kreatin binder vand. Arbejdskapaciteten øges imidlertid også, og derfor kan du potentielt træne hårdere med større volumen.</p>
+
+<p>Volumen og de ekstra gentagelser kan netop være en driver for, <a href="/hvordan-vokser-muskler/">hvordan du skaber muskelvækst</a>.</p>
+
+<p>Når man tager kreatin, så er der en akut nedregulering af din egen kreatinproduktion, men kroppen starter med at producere kreatin igen, når du stopper med at tage kreatin som kosttilskud (Branch 2003).</p>
+
+<p>Kreatin kan fås både i pulverform og som tabletter - og begge har lige stor effekt, men ofte er pulver billigere.</p>
+
+<p>Du kan høre meget mere om kreatins fysiologiske virkning her.</p>
+
+<h2 id="virker-kreatin-for-alle">Virker kreatin for alle?</h2>
+
+<p>Det er ikke alle der får noget ud af at tage kreatin. I litteraturen anslås det at 20-30% ikke responderer på at et kreatintilskud.</p>
+
+<p>Det kan være, at disse <em>non-responders</em> måske allerede har mættede kreatindepoter i musklerne.</p>
+
+<p>Du kan formentlig tjekke om du selv er i denne gruppe ved at prøve at tage en kreatinkur. Hvis ikke du oplever en vægtøgning i løbet af den første måned pga. den ekstra vandbinding, så kan du være i denne gruppe.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1579722822163-0504256cf3a7?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="mand tager shake med kreatin pulver til træning" loading="lazy" /></figure>
+
+<h2 id="hvad-er-det-bedste-og-billigste-kreatin">Hvad er det bedste og billigste kreatin?</h2>
+
+<p>Du kan finde rigtig mange guides med sammenligninger mellem kreatin fra forskellige brands rundt omkring på nettet. De fleste sammenligninger mellem kreativpulvere lader som om de rent faktisk har testet, <strong>hvilken kreatin der er bedst?</strong> Sandheden er, at de fremhæver dem de kan få <em>affiliate kommision</em> fra.</p>
+
+<p>Jeg har stadig ikke set nogen guide, der kan fortælle dig andet end <strong>hvad det billigste kreatin er?</strong>. Det er jo heldigvis let at teste, fordi man bare kan kigge på prisen.</p>
+
+<p>Hvis alle de sites skulle teste <strong>“hvem der laver det bedste kreatin?”</strong>, så skulle de have adgang til et laboratorium. Det er der så vidt jeg ved ikke nogen danske sites, der har adgang til at kunne få testet kreatin i laboratorier, så derfor giver det ikke mening, at de foregiver at vide, hvad det bedste kreatin pulver er?</p>
+
+<p>Når du kigger efter <strong>det bedste kreatinpulver</strong>, så skal du kigge efter <strong>kreatin monohydrat</strong>. Jeg foreslår, at du køber kreatin fra en dansk forhandler, som du stoler på.</p>
+
+<p><strong>Kreatin er virkelig billigt</strong>, så du kan ikke gå helt galt i byen. Jeg køber normalt selv fra danske <a href="https://track.adtraction.com/t/t?a=1873806383&amp;as=1889586219&amp;t=2&amp;tk=1&amp;url=https://www.bodylab.dk/shop/cms-search.html?Keyword=kreatin" rel="sponsored nofollow noopener">bodylab.dk</a>, som har et god ry og som mange anbefaler, og som mange firmaer sælger.</p>
+
+<p>Her er en hemmelighed!</p>
+
+<p>Bodylab giver også den største kommision på affiliate salg.</p>
+
+<p>Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af de <a href="/fitnessbutikker/">online fitnessbutikker</a>, vi samarbejder med.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7871530/">Antonio et al (2021)</a> samler den eksisterende viden om kreatin og indtagelse af kreatin som kosttilskud. De forsøger at give nogle enkle konkrete svar på almindelige spørgsmål om kreatin.</p>
+
+<p>Der er mere end 500 <em>peer-reviewed</em> publikationer om kreatinindtagelse. Antonio et al (2021) samler svarene på de meget gængse spørgsmål:</p>
+
+<h3>Forårsager kreatin vandophobning i kroppen?</h3>
+<p>På kort sigt viser studier, at kreatin øger mængden af vand inde i cellerne. Det sker fordi kreatinfosfat binder vand. På længere sigt ser det ikke ud til at den totale vandmængde i kroppen (både intra- og extracellulært) øges relativt i forhold til muskelmassen.</p>
+
+<h3>Er kreatin et anabolsk steroide?</h3>
+<p>Nej! Kreatin har en helt anderledes kemisk opbygning end steroider.</p>
+
+<h3>Kan kreatinindtagelse forårsage nyreproblemer?</h3>
+<p>Hvis du indtager kreatin inden for de anbefalede retningslinjer, så er der ingen risiko for nyreproblemer eller bivirkninger ved kreatinindtagelse for almindelige raske mennesker.</p>
+
+<h3>Taber man håret af kreatin?</h3>
+<p>Der er ikke noget der tyder på, at kreatin er med til at forøge det totale testosteron, det frie testosteron eller DHT i kroppen. Derfor taber du ikke håret af at tage kreatin.</p>
+
+<h3>Får du kramper af at tage kreatin?</h3>
+<p>Det kan ikke påvises videnskabeligt at indtagelse af kreatin er med til at forårsage kramper. Jeg synes selv, at jeg oplever mere tendens til kramper, når jeg tager kreatin, men det er der altså ikke belæg for i litteraturen.</p>
+
+<h3>Har du brug for en loadingfase?</h3>
+<p>Du behøver ikke at have en loadingfase. Hvis du fx indtager 3-5 gram kreatin om dagen, så er det effektivt til at øge de intramuskulære lagre af kreatin.</p>
+
+<h3>Hvordan indtages kreatin?</h3>
+<p>Kreatin indetages oftes som pulver eller som piller. Det er vigtigt, at du indtager kreatin sammen med væske for bedst at optage det.</p>
+
+<h3>Kan man blande kreatin, kulhydrat og proteinpulver?</h3>
+<p>Ja, du kan godt blande proteinpulver, kulhydrat og kreatin. Kreatin optages gennem insulinfølsomme kanaler, så det er ikke nogen ulempe at tage det samtidig med kulhydrat og protein. Forsningen tyder imidlertid også på, at det ikke er nødvendigt. Du skal bare sørge for at få noget væske sammen med.</p>
+
+<h3>Skal jeg tage kreatin som pulver eller som piller eller kapsler?</h3>
+<p>Det er ligegyldigt om du indtager kreatin som pulver eller som piller eller kapsler. Du skal bare sørge for at få den rette mængde. Kreatinpiller er dog ofte dyrere end pulveret, fordi det er dyrere at fremstille pillerne.</p>
+
+<h3>Hvornår skal man tage kreatin?</h3>
+<p>Timingen af din kreatinindtagelse betyder ikke så meget. Kreatin har ikke en akut effekt på kroppen. Det handler om at have kroppens lagre mættede med kreatin. Derfor er det vigtigste, at du husker at tage det regelmæssigt.</p>
+
+<h3>Kan kreatin bliver for gammelt?</h3>
+<p>Ja! Kreatin kan blive for gammelt. Hvis du opbevarer kreatin korrekt, så kan det holde sig rigtig lang tid. Hvis det stadig har pulverform i bøtten, så virker det sikkert stadig rigtig godt. Hvis du har kreatin opløst i en væske, så å mister det meget hurtigere sin virkning.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Kreatin monohydrat er det mest veldokumenterede kosttilskud. Der er meget solid forskning bag virkningen på muskelstyrke og muskelvækst, men også på fx gentagne sprints.</p>
+
+<p>Kreatin kan bruges til anaerobe idrætsgrene uden nævneværdige bivirkninger.</p>
+
+<p>Kreatin er et naturligt stof i kroppen, og du får det særligt i rødt kød og fisk. Kreatin ligger på lagre i dine muskler, og mere end 70% kan formentlig ved indtagelse øge sine kreatindepoter, så de kan lave endnu mere arbejde.</p>
+
+<p>Undersøgelser viser, at den daglige dosis skal være omkring 2-5 gram kreatin for at fastholde kreatinniveauet, og efter 3-4 uger vil musklerne være mættet med kreatin. Derefter kan du vedligeholde mætningen med den samme dosis.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Kosttilskud"]'/><category term="kreatin"/><category term="kosttilskud"/><summary type="html">Vidste du, at kreatin monohydrat er det mest anerkendte og veldokumenterede kosttilskud til muskelstyrke og muskelvækst? Her kigger vi på, hvordan du kan bruge kreatin i forbindelse med din styrketræning.</summary></entry><entry><title type="html">Prilepins tabel: Sådan kan du bruge tabellen i din planlægning</title><link href="https://www.motionsplan.dk/prilepins-tabel/" rel="alternate" type="text/html" title="Prilepins tabel: Sådan kan du bruge tabellen i din planlægning"/><published>2022-11-21T00:00:00+00:00</published><updated>2022-11-20T07:14:14+00:00</updated><id>https://www.motionsplan.dk/prilepins-tabel</id><content type="html" xml:base="https://www.motionsplan.dk/prilepins-tabel/"><![CDATA[<p>Hvor meget vægt skal du have på stangen for at få resultater? Prilepins tabel kan hjælpe dig med at opnå dine mål for din styrketræning.</p>
+
+<p>For at skrue din træning fornuftigt sammen, så skal du først stille dig selv spørgsmålet:</p>
+
+<p>Hvad er dit mål?</p>
+
+<p>Men hvordan får du oversat dit mål til praktisk træning? Her kan Prilepins tabel hjælpe dig.</p>
+
+<p>Lær her hvordan du kan bruge den i praksis.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1517964603305-11c0f6f66012?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="Prilepins tabel fortæller noget om intensitet" loading="lazy" /></figure>
+
+<h2 id="hvad-er-prilepins-tabel">Hvad er Prilepins tabel?</h2>
+
+<p>Prilepins tabel er en simpel fremstilling af, hvordan akkumuleringen af sæt og gentagelser baseret på en given intensitet (procentdel af 1RM) stimulerer forskellige fysiologiske adaptationer.</p>
+
+<p>Tabellen er oprindeligt lavet på baggrund af vægtløftere i 1960’erne og 1970’erne, men skemaet kan stadig bruges som retningslinjer, når du går i gang med planlægningen.</p>
+
+<p>Prilepins tabel er stadig en af de mest udbredte måder at planlægge styrketræning på.</p>
+
+<p>Prilepins skema er meget nyttig, når du skal lave dit eget træningsprogram og forstå sammenhængen mellem intensitet og et passende mængde sæt og gentagelser.</p>
+
+<p>Sådan ser Prilepins tabel ud:</p>
+
+<figure class="">
+  <img src="/assets/images/blog/prilepins-tabel.png" alt="Prilepins tabel" loading="lazy" /></figure>
+
+<p>Mange løftere kender ikke deres egen 1RM, men du kan også bruge hastigheden af bevægelsen til at vurdere, hvilken intensitet du arbejder med.</p>
+
+<p>Stangens hastighed går lineært nedad med højere intensitet.</p>
+
+<p>Prilepins tabel er som skrevet lavet ud fra vægtløftere og den måde at træne på.</p>
+
+<p><a href="https://powerathletehq.com/prilepins-chart/">Power Athlete HQ</a> giver i følgende tabel et bud på, hvordan den kan bruges lidt mere generelt i styrketræning.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/prilepins-tabel-modificeret.png" alt="Prilepins tabel" loading="lazy" /></figure>
+
+<h2 id="hvad-kan-du-bruge-prilepins-skema-til">Hvad kan du bruge Prilepins skema til?</h2>
+
+<p>Prilepins tabel kan bruges til at planlægge og analysere effektive programmer.</p>
+
+<p>Med tabellen i baghovedet så kan du analysere, hvorfor de enkelte programmer har valgt et antal gentagelser eller sæt.</p>
+
+<p>Intensiteten er afgørende for effekten af træningen.</p>
+
+<p>I denne tabel er nogle meget brede tommelfingerregler. I virkeligheden er effekterne ikke helt så klart splittet op, men det kan være nogle udmærkede retningslinjer i programlægningen.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rep Range</th>
+      <th>Træningseffekt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1-3</td>
+      <td>CNS (og power)</td>
+    </tr>
+    <tr>
+      <td>4-7</td>
+      <td>Høj kraftproduktion og hypertrofi</td>
+    </tr>
+    <tr>
+      <td>8-12</td>
+      <td>Hypertrofi - og “pump” på musklerne</td>
+    </tr>
+    <tr>
+      <td>12+</td>
+      <td>Muskeludholdenhed</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Prilepins tabel giver et bud på, hvordan intensiteten hænger sammen med effekten af træningen.</p>
+
+<p>Men tabellen siger også noget om, hvor mange gentagelser der er nødvendigt i alt for at få resultater.</p>
+
+<p>Når vi laver programmerne så kan vi bruge Prilepins matrix.</p>
+
+<p>Men hvordan gør du i praksis?</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1521805492803-3b9c3792c278?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="Prilepins skema og vægt i styrketræning" loading="lazy" /></figure>
+
+<h2 id="sådan-kan-udnytte-prilepins-oversigt">Sådan kan udnytte Prilepins oversigt!</h2>
+
+<p><a href="https://powerathletehq.com/prilepins-chart/">Power Athlete HQ</a> foreslår, at vi stiller os selv følgende spørgsmål for at bruge Prilepins tabel:</p>
+
+<ul>
+  <li>Jeg træner for A.</li>
+  <li>A har brug for B som en fysiologisk tilpasning.</li>
+  <li>For at opnå B skal jeg lave X antal gentagelser ved en given % intensitet.</li>
+  <li>En effektiv træning kræver Z gentagelser.</li>
+  <li>Derfor skal jeg lave Y sæt med X gentagelser for at opnå Z.</li>
+</ul>
+
+<p>Et eksempel:</p>
+
+<ul>
+  <li>Jeg træner til fodbold.</li>
+  <li>Fodbold kræver styrke og kraft som en fysiologisk tilpasning.</li>
+  <li>For at opnå styrke og kraft, så kan jeg arbejde med 3 gentagelser omkring 85% af 1RM.</li>
+  <li>En effektiv træningsdag vil kræve omkring 6-14 gentagelser. Vi vælger her 12 gentagelser.</li>
+  <li>Derfor vil jeg lave 4 sæt med 3 gentagelser i hvert sæt for at opnå 12 gentagelser.</li>
+</ul>
+
+<p>Så enkelt kan din træning planlægges. Hvis du ikke kender din vægt ved 85% af 1RM, så kan du bruge en <a href="/rpe/">RPE-tabel til styrketræning</a> for at finde din cirkavægt ud fra din fornemmelse. Du kan naturligvis også bruge <a href="/rm-beregner/">vores avancerede RM-beregner</a>.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Træning skal altid individualiseres, men derfor kan det være godt at have nogle retningslinjer, som du kan starte din planlægning ud fra.</p>
+
+<p>Hvis du er lidt struktureret og prøver at bruge Prilepins tabel, så kan du over tid selv justere antallet af gentagelser og sæt ud fra dine egne resultater fra træningen.</p>
+
+<p>Der er mange måder du kan bygge træning op på, og Prilepins tabel er bare en af dem. Du kan også lade dig inspirere af Eric Helms <a href="/traeningspyramiden-styrketraening/">træningspyramide</a>.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Styrketræning"]'/><category term="styrketræning"/><summary type="html">Vil du gerne have gode resultater af din styrketræning? Brug Prilepins tabel til at planlægge din træning, så den kan være effektiv.</summary></entry><entry><title type="html">Kostpyramiden: 4 trin for din kost til resultater i styrketræning</title><link href="https://www.motionsplan.dk/kostpyramiden-styrketraening/" rel="alternate" type="text/html" title="Kostpyramiden: 4 trin for din kost til resultater i styrketræning"/><published>2022-11-20T00:00:00+00:00</published><updated>2022-11-22T07:14:14+00:00</updated><id>https://www.motionsplan.dk/kostpyramiden-styrketraening</id><content type="html" xml:base="https://www.motionsplan.dk/kostpyramiden-styrketraening/"><![CDATA[<p>Hvad skal du spise, når du styrketræner? Vil du gerne have gode resultater af din styrketræning, så er kosten en vigtig medspiller. Kostpyramiden til muskeltræning og styrketræning hjælpe dig med, hvad du først og fremmest skal fokusere på.</p>
+
+<p>Du bliver konstant bombarderet med gode råd til din kost og ernæring, hvis du gerne vil have mest ud af din træning. Men hvad skal du egentlig starte med at optimere?</p>
+
+<p>Hvad er vigtigst?</p>
+
+<p>Her hjælper kostpyramiden dig med at prioritere i kompleksiteten. Vi gennemgår kostpyramiden og fortæller, hvordan du kan bruge modellen i praksis i forbindelse med din egen kost.</p>
+
+<p>I det følgende omsætter vi de enkelte lag i pyramiden til konkrete retningslinjer, som du kan bruge for at få bedre resultater af din træning.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1497888329096-51c27beff665?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="" loading="lazy" /><figcaption>
+      kostpyramiden til styrketræning
+
+    </figcaption></figure>
+
+<h2 id="hvad-er-kostpyramiden-til-styrketræning">Hvad er kostpyramiden til styrketræning?</h2>
+
+<p>Kostpyramiden til styrketræning er en model, der prioriterer i de væsentligste parametre for kost i forbindelse med muskeltræning. Modellen er udformet af Eric Helms, og efterhånden er den blevet brugt flere steder.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/eric-helms-nutrition-pyramid.jpg" alt="Kostpyramiden til styrketræning og muskeltræning lavet af Eric Helms" loading="lazy" /><figcaption>
+      Kostpyramiden til styrketræning og muskeltræning er udformet af Eric Helms.
+
+    </figcaption></figure>
+
+<p>Eric Helms beskriver selv kostpyramiden i en rigtig fin videoserie, som vi også gennemgår i det følgende.</p>
+
+<p>Vi tager pyramiden nedenfra.</p>
+
+<h2 id="1-energibalance-og-kalorieindtag">1. Energibalance og kalorieindtag</h2>
+
+<p>Energibalance og kalorieindtag sætter rammen for om vi taber os eller tager på.</p>
+
+<p class="notice notice--success">Som regelmæssig læser på bloggen så ved du, at vi ikke synes <a href="/vaegttab/">vægttab</a> i sig selv bør være et mål. I stedet kan man fokusere på at blive stærkere, komme i bedre kondition, kunne bevæge sig bedre eller andre ting, man er interesseret i.</p>
+
+<p>Når du gerne vil have gode resultater af din træning, så er det vigtigt, at du indtager nok kalorier i forhold til dine mål. Du kan fx regne lidt på dit kaloriebehov i vores <a href="/ligevaegtsindtag-beregner/">ligevægtsindtagsberegner</a>.</p>
+
+<p>Hvis du skal have energi til at træne, så kræver det at du får nok <a href="/hvad-er-kalorier/">kalorier</a> indenbords. Hvis du gerne vil have god effekt af din styrketræning, så kræver det, at du indtager tilstrækkeligt med protein. For at kunne træne hård konditionstræning har du brug for kulhydrater.</p>
+
+<p>Kaloriebalancen er vigtig, men der er mange måder at arbejde med det på.</p>
+
+<p>Du kan bruge <a href="/kalorietaeller-apps/">apps til at tælle dine kalorier</a>, men det behøver du faktisk ikke. Du kan se, om du er i energibalance ved engang imellem at se om du taber vægt eller tager på.</p>
+
+<p>Du kan høre Eric Helms fortælle mere i denne Youtube-video:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="GAvW6xBZjSk">
+      <meta itemprop="name" content="Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/GAvW6xBZjSk/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/GAvW6xBZjSk" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte." />
+      <a href="https://www.youtube.com/watch?v=GAvW6xBZjSk" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/GAvW6xBZjSk/hqdefault.jpg" loading="lazy" alt="video til Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="2-makronæringsstoffer-og-fibre">2. Makronæringsstoffer og fibre</h2>
+
+<p>Makronæringsstoffer er kulhydrat, protein og fedt. I forhold til styrketræning er det en god ide at fokusere på dit proteinindtag.</p>
+
+<p>Historisk har der været rigtig mange forslag til en fordeling mellem makronæringsstofferne.</p>
+
+<p>Hvis du ikke har helt specifikke mål, så behøver du ikke gå så meget op i fordelingen i forhold til styrketræning. Det er vigtigere, at du nyder at spise.</p>
+
+<p>Til gengæld så er det godt at holde lidt styr på, <a href="/dagligt-protein-indtagelse/">hvor meget protein du skal have dagligt</a>?</p>
+
+<p>Når du styrketræner så tyder forskningen på, at du skal have mellem <strong>1,6 gram - 2,2 gram protein pr. kilo kropsvægt</strong> for at få de bedste resultater.</p>
+
+<p>Disse anbefalinger handler om nogenlunde normalvægtige personer. Hvis du har en stor andel fedt på kroppen, så skal du bruge nogle andre anvisninger.</p>
+
+<p>Det er muskelmassen, der har brug for protein for at kunne vedligeholde sig selv og blive genopbygget.</p>
+
+<p>Hvis du har en stor andel fedt i kroppen, så foreslår <a href="https://styrkmig.dk/ep-19-kostpyramiden-til-styrketraening/">Nicolaj Bach</a>, at du kan gå ud fra din højde. Hvis du fx er 181 cm høj, så kan du prøve med 181 gram protein pr. dag.</p>
+
+<p>Eric Helms går selv i dybden med dette punkt i nedenstående video:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="mic4IELz61w">
+      <meta itemprop="name" content="Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/mic4IELz61w/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/mic4IELz61w" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte." />
+      <a href="https://www.youtube.com/watch?v=mic4IELz61w" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/mic4IELz61w/hqdefault.jpg" loading="lazy" alt="video til Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<p>Ram kalorierne nogenlunde og få nok protein. Spis derudfra hvad du har lyst til, som du får energi fra og føler dig mæt.</p>
+
+<h2 id="3-mikronæringsstoffer-vitaminer-mineraler-og-vand">3. Mikronæringsstoffer, vitaminer, mineraler og vand</h2>
+
+<p>Mikronæringsstoffer er vitaminer og mineraler. Det giver meget sjældent mening at udregne mikronæringsstofferne nøjagtigt.</p>
+
+<p>Hvis du spiser efter de officielle kostråd, så bliver du automatisk dækket ret godt ind.</p>
+
+<p>Der er netop kommet en ny <strong>kostcirkel</strong>, som skal gøre det endnu lettere at spise efter kostrådene:</p>
+
+<figure class="">
+  <img src="https://altomkost.dk/fileadmin/_migrated/news_uploads/kostraadscirke0__686x457l.png" alt="fødevarestyrelsens kostcirkel og kostpyramide" loading="lazy" /><figcaption>
+      Den nye kostcirkel fra 2022, som skal gøre det endnu lettere at spise efter de officielle kostråd. Selvom klima også er sat ind som parameter, så skal kostcirklen netop sikre, at man får en varieret kost og derved også får godt med mikronæringsstoffer. Kilde: <a href="https://altomkost.dk/nyheder/nyhed/nyhed/ny-kostraadscirkel-goer-det-nemmere-at-spise-efter-de-officielle-kostraad/">altomkost.dk</a>
+
+    </figcaption></figure>
+
+<p>Hvis du er i tvivl om du mangler nogle mikronæringsstoffer, så kan du spørge din læge om at få det testet. Hvis lægen også ser en grund til det, så er det gratis at få taget en blodprøve og få den analyseret.</p>
+
+<p>Det er faktisk ret enkelt:</p>
+
+<p><strong>Spis planter, frugt, grøntsager, fisk og fuldkorn. Og spis varieret fra alle fødevaregrupper over tid. Så er du godt dækket ind af mikronæringsstoffer.</strong></p>
+
+<p>Eric Helms dykker ned i emnet her:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="kdFFrBByv-E">
+      <meta itemprop="name" content="Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/kdFFrBByv-E/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/kdFFrBByv-E" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte." />
+      <a href="https://www.youtube.com/watch?v=kdFFrBByv-E" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/kdFFrBByv-E/hqdefault.jpg" loading="lazy" alt="video til Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="4-timing-af-næringsstoffer-og-frekvens">4. Timing af næringsstoffer og frekvens</h2>
+
+<p>I forbindelse med styrketræning så er timingen af protein det, der har størst betydning.</p>
+
+<p>Hvis du får et proteinholdigt måltid et par timer før træning og efter træning, så er du ret godt dækket ned.</p>
+
+<p>Det kan være en god ide at fordele protein ud på mindst 3 måltider om dagen. Hvis du ikke får helt nok protein i forbindelse med måltiderne, så kan du få en servering mere.</p>
+
+<p>Studier tyder på, at det kan betale sig at få protein før sengetid, så proteinsyntesen i musklerne kan køre optimalt i løbet af natten.</p>
+
+<p>Hvis der går lang tid efter træning, inden du kan få et måltid, så kan du få en eftertræningssnack med protein.</p>
+
+<p>Du kan på nettet finde rigtig mange forskellige råd til, hvordan du skal <em>time</em> din indtagelse af mad i forhold dagen og træningen. Men det behøver formentlig slet ikke at være så indviklet.</p>
+
+<p>Eric Helms deler sin viden om emnet her:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="b6wkDDnSKV0">
+      <meta itemprop="name" content="Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/b6wkDDnSKV0/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/b6wkDDnSKV0" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte." />
+      <a href="https://www.youtube.com/watch?v=b6wkDDnSKV0" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/b6wkDDnSKV0/hqdefault.jpg" loading="lazy" alt="video til Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="5-kosttilskud">5. Kosttilskud</h2>
+
+<p>Kosttilskud er det sidste lag i kostpyramiden til styrketræning. Det er der en grund til!</p>
+
+<p>Kosttilskud skal bruges som optimering, når du har styr på de andre dele af kostpyramiden.</p>
+
+<p>Sundhedsstyrelsen anbefaler, at <strong><a href="/kosttilskud-d-vitamin/">alle danskere indtager D-vitamin i vinterhalvåret</a></strong>. Det gælder naturligvis også for folk, der styrketræner.</p>
+
+<p>Ellers er der kun et par kosttilskud, som giver mening. Vi er dykket ned i de <a href="/kosttilskud/">bedste kosttilskud</a>.</p>
+
+<ul>
+  <li><strong>Protein</strong>. Det kan være belejligt at bruge proteinpulver. Proteinpulver er samtidig en af de <a href="/billig-protein/">billigste måder at få protein på</a>.</li>
+  <li><strong>Kreatin</strong>. <a href="/kreatin/">Kreatin er det kosttilskud</a>, som der er bedst evidens for virker i forbindelse med styrketræning.</li>
+  <li><strong>Koffein</strong>. <a href="/koffein/">Koffein</a> kan bruges opkvikkende. Mange drikker kaffe, men nogle tager også en koffeinpille eller andre drikkevarer med koffein. Koffein skal dog ikke være en erstatning for fornuftig søvn.</li>
+</ul>
+
+<p>Eric Helms fortæller her:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="8tp3ZIFKkLg">
+      <meta itemprop="name" content="Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/8tp3ZIFKkLg/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/8tp3ZIFKkLg" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte." />
+      <a href="https://www.youtube.com/watch?v=8tp3ZIFKkLg" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/8tp3ZIFKkLg/hqdefault.jpg" loading="lazy" alt="video til Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="6-livsstil-og-adfærd">6. Livsstil og adfærd</h2>
+
+<p>Livsstil og adfærd er en ramme for hele pyramiden. <a href="/vaner/">Adfærd og vaner</a> er et helt emne for sig. Hvis du gerne vil arbejde struktureret med din kost, så kræver det at du er motiveret.</p>
+
+<p>Forhåbentlig kan denne pyramide være med til at give dig nogle praktiske anvisninger på, hvad der er vigtigt.</p>
+
+<p>For nogle konkrete retningslinjer, så kan du tjekke vores indlæg om <a href="/tallerken-modeller/">tallerkenmodellen</a>.</p>
+
+<p>Hør Eric Helms selv fortælle om grundlaget for pyramiden.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="bWpKW7sxXPY">
+      <meta itemprop="name" content="Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/bWpKW7sxXPY/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/bWpKW7sxXPY" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte." />
+      <a href="https://www.youtube.com/watch?v=bWpKW7sxXPY" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/bWpKW7sxXPY/hqdefault.jpg" loading="lazy" alt="video til Kostpyramiden: 4 trin for din kost til resultater i styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Kostpyramiden til styrketræning ser enkel ud, og den giver nogle gode retningslinjer for, hvad der er vigtigst i forbindelse med din kost og ernæring, når du gerne vil have resultater af din styrketræning.</p>
+
+<p>Hvis du gerne vil have rigtig gode resultater af din styrketræning, så er kosten en væsentlig del. Det er nemlig en af hjørnestenene i at få <a href="/restitution/">god restitution</a>.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Styrketræning", "Kost"]'/><category term="styrketræning"/><category term="kost"/><summary type="html">Vil du gerne have gode resultater af din træning? Kostpyramiden til styrketræning kan guide dig til, hvad du skal fokusere på ved din ernæring, når du gerne vil maksimere dit træningsudbytte.</summary></entry><entry><title type="html">Træningspyramiden: 6 vigtige trin i muskel- og styrketræning</title><link href="https://www.motionsplan.dk/traeningspyramiden-styrketraening/" rel="alternate" type="text/html" title="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning"/><published>2022-11-20T00:00:00+00:00</published><updated>2022-11-21T07:14:14+00:00</updated><id>https://www.motionsplan.dk/traeningspyramiden-styrketraening</id><content type="html" xml:base="https://www.motionsplan.dk/traeningspyramiden-styrketraening/"><![CDATA[<p>Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning.</p>
+
+<p>Når du går i gang med at planlægge din styrketræning, så kan man ofte blive overvældet af alle de muligheder, der er.</p>
+
+<p>Træningspyramiden er et forsøg på at prioritere lidt i kompleksiteten. Her gennemgår vi styrketræningspyramiden og fortæller, hvordan du kan bruge modellen i praksis med din egen træning.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="" loading="lazy" /><figcaption>
+      kostpyramiden til styrketræning
+
+    </figcaption></figure>
+
+<h2 id="hvad-er-træningspyramiden">Hvad er træningspyramiden?</h2>
+
+<p>Træningspyramiden er en model, der prioriterer i de væsentligste parametre for styrketræning. Modellen er udformet af Eric Helms, og efterhånden er den blevet brugt flere steder.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/eric-helms-traeningspyramiden.png" alt="Træningspyramiden lavet af Eric Helms" loading="lazy" /><figcaption>
+      Træningspyramiden udformet af Eric Helms
+
+    </figcaption></figure>
+
+<p>Eric Helms beskriver selv træningspyramiden i en rigtig fin videoserie, som vi også gennemgår i det følgende.</p>
+
+<p>Vi tager pyramiden nedenfra.</p>
+
+<h2 id="1-vedholdenhed">1. Vedholdenhed</h2>
+
+<p>Den bedste træning er den træning, du får lavet. Vedholdenhed og kontinuerlig træning er uden tvivl det vigtigste parameter for dine træningsresultater.</p>
+
+<p>Mange af os kender formentlig træningspauser, hvor vi ikke får trænet.</p>
+
+<p>Hvis det kan lykkes for dig kontinuerligt at træne, så kan du hele tiden bygge oven på.</p>
+
+<p>Vi oplever alle dalende motivation i træningen nogle gange. Hvis du kan sørge for at have en plan for at vedligeholde træningen i disse perioder, så kan du bygge oven på næste gang du er inspireret.</p>
+
+<p>Det nytter med andre ord ikke noget at lave et avanceret træningsprogram, hvis det ikke er noget du er motiveret for at lave.</p>
+
+<p>Hør Eric Helms selv fortælle om dette trin:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="OWmchPCyDvw">
+      <meta itemprop="name" content="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/OWmchPCyDvw/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/OWmchPCyDvw" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning." />
+      <a href="https://www.youtube.com/watch?v=OWmchPCyDvw" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/OWmchPCyDvw/hqdefault.jpg" loading="lazy" alt="video til Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="2-volumen-intensitet-og-frekvens">2. Volumen, intensitet og frekvens</h2>
+
+<p>Dette trin i pyramiden handler om det samlede arbejde, og hvor hårdt arbejdet er.</p>
+
+<p><strong>Volumen</strong> er den samlede mængde arbejde, du laver. Der kan være forskellige måder at måle det samlede arbejde på.</p>
+
+<ul>
+  <li><strong>Det samlede antal løft</strong>: Antallet af sæt gange med gentagelserne i løbet af en træning.</li>
+  <li><strong>Workload</strong> eller <strong>Tonnage</strong>: Antallet af sæt gang med gentagelser gange med vægten på stangen.</li>
+</ul>
+
+<p>Det der nok giver bedst mening at registrere er antallet af <strong>hårde i din træning</strong>. Du registrerer altså antallet af arbejdssæt, hvor der er nok vægt på stangen til at give et fornuftigt træningsstimuli.</p>
+
+<p>Men hvornår tæller et sæt som et hårdt arbejdssæt?</p>
+
+<p>Hvis et sæt skal have en træningseffekt, så kræver det en vis <strong>intensitet</strong>.</p>
+
+<p>Intensitet i styrketræning er hvor meget vægt du løfter i forhold til din maxstyrke. Du kan udregne intensiteten i procent, hvis du kender din præcise max-styrke.</p>
+
+<p>Du behøver ikke regne procenter ud, men du skal ramme en høj intensitet i din træning. Du kan gøre det på fornemmelsen og fx bruge begrebet <em>Reps In Reserve (<abbr title="Reps in Reserve">RIR</abbr>)</em>.</p>
+
+<p>Hvis du maksimalt kan tage 4 ekstra reps flere i et sæt, så har du en <abbr title="Reps in Reserve">RIR</abbr> på 4. Intensiteten i sættet skal være deromkring eller højere for at tælle med som et arbejdssæt.</p>
+
+<p>Du kan let teste af, om din subjektive følelse svarer overens med din reelle formåen.</p>
+
+<p>Et eksempel:</p>
+
+<p>Hvis du har planlagt et sæt squat med en intensitet på omkring <abbr title="Reps in Reserve">RIR</abbr> 3. Du har planlagt 5 x 75 kg @ <abbr title="Reps in Reserve">RIR</abbr> 3. I sættet tager du så mange gentagelser som muligt med den givne vægt (AMRAP). Du får 8 gentagelser. Det betyder, at din intensitet netop var på <abbr title="Reps in Reserve">RIR</abbr> 3, hvis du havde nøjes med 5 gentagelser. Din subjektive fornemmelse stemte altså overens med virkeligheden.</p>
+
+<p>At fornemme <abbr title="Reps in Reserve">RIR</abbr> kræver helt sikkert noget øvelse.</p>
+
+<p>Bonusinfo:</p>
+
+<p>Hvis du gerne vil regne ud, hvor hård din træning er, så kan du bruge begrebet INOL. Det står for <em>Intensity and Number of Lifts</em>. <strong>INOL</strong> udregnes ved at gange antallet af gentagelser med intensiteten i de enkelte løft.</p>
+
+<p>Når du laver din træningsplan, så kan det være nyttigt at vide, om din træning samlet set bliver alt for hård. Jeg har skrevet en <a href="/inol/">guide til INOL-bergrebet</a>.</p>
+
+<p>Intensiteten har betydning for din målsætning med træningen. Hvis du løfter tungere vægte med høj intensitet, så træner du mere styrke, mens flere gentagelser rammer muskelvæksten.</p>
+
+<p>Du kan gå efter denne meget brede tommelfingerregel:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Gentagelser</th>
+      <th>Effekt af træningen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1-5 reps</td>
+      <td>Maksimal styrke</td>
+    </tr>
+    <tr>
+      <td>5-8 reps</td>
+      <td>Styrke og muskelvækst</td>
+    </tr>
+    <tr>
+      <td>8-15 reps</td>
+      <td>Muskelvækst</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I forhold til <strong>frekvensen</strong> så kan 10-20 hårde arbejdssæt pr. muskelgruppe om ugen formentlig være en fornuftig tommelfingerregel for de fleste.</p>
+
+<p>Du får bedre effekt ved at ramme hver muskelgruppe 2 gange om ugen end kun ved 1 gang om ugen. Du kan måske få lidt bedre effekt med 3 gange om ugen, hvis træningen er skruet rigtigt sammen.</p>
+
+<p>Hvis du gerne vil træne 2-3 gange om ugen, så bør du altså vælge et helkropsprogram for at få effekt nok på de enkelte muskler.</p>
+
+<p>Hvis du gerne vil træne flere gange om ugen, så kan du enten lave et splitprogram, eller du tænke over intensiteten i de enkelte løft.</p>
+
+<p>Hvis du træner bevægelser og for at blive bedre til at squatte, så kan det sikkert betale sig at træne squat flere gange med forskellige intensiteter. Det er fx sådan <a href="/artikel/staerk-traeningsprogram/">Jacob Beermanns Stærk-program</a> er sammensat. Her er målet med træningen styrkeløft, og derfor trænes squat, bænkpres og dødløft hver dag i træningsprogrammet gennem forskellige variationer.</p>
+
+<p>I denne video fortæller Eric Helms selv om volumen, intensitet og frekvens:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="Dl8v6frDJHc">
+      <meta itemprop="name" content="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/Dl8v6frDJHc/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/Dl8v6frDJHc" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning." />
+      <a href="https://www.youtube.com/watch?v=Dl8v6frDJHc" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/Dl8v6frDJHc/hqdefault.jpg" loading="lazy" alt="video til Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="3-progression">3. Progression</h2>
+
+<p>For at lave et træningsprogram så har du brug for progression i programmet. Der er mange <a href="/progressionsmodeller-progressivt-overload/">forskellige progressionsmodeller</a>, som du kan bruge.</p>
+
+<p>En meget enkel måde at lave et progressivt overload på er <strong>dobbelt progression</strong>. Her beslutter du dig for et interval af gentagelser. Når du så kan tage det maksimale antal gentagelser, så øger du vægten gradvist.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/dobbelt-progression.jpg" alt="" loading="lazy" /><figcaption>
+      Et eksempel: Squat med 8-10 gentagelser med 70 kg ved første træning. Her kan du tage 8 i alle sættene. På fjerde træning lykkes det dig at tage 10 gentagelser i alle sættene. Derfor øger du vægten til træning 5, hvor du igen kan tage 8 i alle sættene.
+
+    </figcaption></figure>
+
+<p>Eric Helms fortæller om progression i denne video:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="nun-vSQV6wU">
+      <meta itemprop="name" content="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/nun-vSQV6wU/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/nun-vSQV6wU" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning." />
+      <a href="https://www.youtube.com/watch?v=nun-vSQV6wU" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/nun-vSQV6wU/hqdefault.jpg" loading="lazy" alt="video til Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="4-øvelsesvalg">4. Øvelsesvalg</h2>
+
+<p>Når du vil være stærk i et bestemt løft, så skal du naturligvis træne de løft. Det gør sig bl.a. gældende i <a href="/powerlifting-rules/">styrkeløft</a>, hvor du gerne vil være bedre til squat, bænkpres og dødløft.</p>
+
+<p>Hvis du gerne vil blive alsidig stærk eller bygge muskelmasse, så betyder øvelsesvalget naturligvis noget. Du kan gøre din træning meget mere effektiv, hvis du vælger fornuftig blandt alle de øvelser, der findes.</p>
+
+<p>Der er i hvert fald tre ting, der er vigtige, når du vælger øvelser i forhold til at <strong>træne specifikke muskelgrupper for muskelvækst</strong>:</p>
+
+<ol>
+  <li>Muskelgruppen skal gerne være den primære muskel, der bruges i bevægelsen.</li>
+  <li>Vælg et stabilt setup, så du kan flytte meget vægt. Hvis du gerne vil bygge muskelmasse eller blive stærkere, så ser det ud til at træning på stabile underlag giver bedre resultater end træning i ustabile setups.</li>
+  <li>Stort mekanisk stræk på musklen. Hvis du kan træne musklen i hele bevægelsesbanen, så ser det ud til at muskelvæksten bliver større.</li>
+</ol>
+
+<p>Du kan have andre mål for din træning, og der er valget af øvelser også rigtig vigtig. Fx ser det ud til, at <a href="/excentrisk-traening/">excentrisk træning</a> kan være med til at have en <a href="/skadesforebyggelse-skadesforebyggende-traening/">forebyggende effekt på muskelskader</a>.</p>
+
+<p>Helms fortæller om øvelsesvalg:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="XMpntp3TqSA">
+      <meta itemprop="name" content="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/XMpntp3TqSA/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/XMpntp3TqSA" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning." />
+      <a href="https://www.youtube.com/watch?v=XMpntp3TqSA" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/XMpntp3TqSA/hqdefault.jpg" loading="lazy" alt="video til Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="5-pauser">5. Pauser</h2>
+
+<p>Pauserne mellem de enkelte sæt har også betydning. Hvis du kan tage næste sæt med mindre end et minuts pause, så er det mest sandsynligt, at du ikke træner hårdt nok.</p>
+
+<p>På mindre øvelser så kan en tommelfingerregel være, at du skal holde 1-2 minutters pause.</p>
+
+<p>For de større øvelser som fx squat, bænkpres og dødløft, så har du måske brug for mere pause. Her kan du 2-4 minutter være nødvendigt. Og hvis du træner for decideret styrke, så kan du holde endnu længere pauser.</p>
+
+<p>Hvis du synes pauserne bliver lidt for lange, så kan du bruge <a href="/guide-superset/">supersæt</a>. Hvis du fx laver et sæt for brystmusklen, så kan du godt lave en <a href="/traekoevelser/">trækøvelse</a> i pausen, inden du gør dig klar til næste sæt.</p>
+
+<p>Eric Helms fortæller om pauser:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="_C_7n704rvc">
+      <meta itemprop="name" content="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/_C_7n704rvc/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/_C_7n704rvc" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning." />
+      <a href="https://www.youtube.com/watch?v=_C_7n704rvc" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/_C_7n704rvc/hqdefault.jpg" loading="lazy" alt="video til Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="6-tempo">6. Tempo</h2>
+
+<p>Tempoet i dine løft kan have betydning for effekten. Det er formentlig ikke det første du skal fokusere på.</p>
+
+<p>Hvis du kun skal have et råd om tempo i bevægelsen, så kunne det være dette:</p>
+
+<p><strong>Sænk vægten kontrolleret og prøv at flytte den kraftfuldt op igen uden at ændre på din teknik.</strong></p>
+
+<p>Hvis du har specifikke mål med træningen, så kan du manipulere tempoet på rigtig mange måder.</p>
+
+<ul>
+  <li>Sænk vægten endnu langsommere</li>
+  <li>Hold pause i bunden af løftet</li>
+  <li>Hold pause undervejs</li>
+  <li>Løft vægten langsomt</li>
+</ul>
+
+<p>Ved at kontrollere vægten og ikke udnytte et <em>bounce</em> i fx squat, så får du et større muskulært spænd. Hvis du udnytter <em>bouncet</em>, så kan du måske løfte flere kilo, men så er det måske sener og ligamenter og forspændingen der hjælper og ikke et muskulært pres.</p>
+
+<p>Eric Helms dykker ned i tempo her i den sidste del af videoserien:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="CM3Kgp9c7PE">
+      <meta itemprop="name" content="Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/CM3Kgp9c7PE/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/CM3Kgp9c7PE" />
+      <meta itemprop="description" content="Vil du gerne have gode resultater af din træning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning." />
+      <a href="https://www.youtube.com/watch?v=CM3Kgp9c7PE" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/CM3Kgp9c7PE/hqdefault.jpg" loading="lazy" alt="video til Træningspyramiden: 6 vigtige trin i muskel- og styrketræning" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Styrketræningspyramiden ser enkel ud, og den giver nogle gode retningslinjer for, hvad der er vigtigst, når du gerne vil have resultater af din styrketræning.</p>
+
+<p>Under de enkelte lag i pyramiden er der naturligvis også ting, der er vigtigere end andre ting. Dem forklarer Eric Helms rigtig godt i videoerne.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Styrketræning"]'/><category term="styrketræning"/><summary type="html">Vil du gerne have gode resultater af din styrketræning? Træningspyramiden kan være med til at guide dig til, hvad det er vigtigst at fokusere på i din muskeltræning og styrketræning.</summary></entry><entry><title type="html">Billigt fitness center: Se de billigste abonnementer (Pristjek 2024)</title><link href="https://www.motionsplan.dk/billigste-fitnesscenter/" rel="alternate" type="text/html" title="Billigt fitness center: Se de billigste abonnementer (Pristjek 2024)"/><published>2022-11-11T00:00:00+00:00</published><updated>2022-12-04T07:14:14+00:00</updated><id>https://www.motionsplan.dk/billigste-fitnesscenter</id><content type="html" xml:base="https://www.motionsplan.dk/billigste-fitnesscenter/"><![CDATA[<p>Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret.</p>
+
+<p>Men hvilket træningscenter er billigst?</p>
+
+<p>Jeg har lavet et pristjek af træningscentrene i Danmark, så du let kan vælge et fitnesscenter, der passer prismæssigt til din pengepung.</p>
+
+<p>Mit pristjek viser, at den billigste landsdækkende fitnesskæde i Danmark lige nu er Fitness World, hvis du bare selv vil være medlem. Du kan træne for 179 kroner om måneden, når du har betalt dit oprettelsesgebyr på 99 kroner.</p>
+
+<p>Så kan du træne i alle Fitness Worlds centre rundt omkring i Danmark. For denne pris har du dog ikke adgang til holdtræning og saunaområdet.</p>
+
+<p>Fitness X er ved at prøve at komme ind på det danske marked, og de har et tilbud, hvor du kan <a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">træne for 2 for 1 pris</a>.</p>
+
+<p><strong>Hvis du vil træne med en makker, så kan I få en samlet månedlig pris på 175 kroner hos Fitness X, som faktisk er lidt billigere end Fitness World.</strong> I skal betale et medlemskort og et administrationsgebyr, men det er faktisk også billigere end Fitness World.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1596357395104-ba989e72b5ec?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=600&amp;q=60" alt="Billigt fitnesscenter" loading="lazy" /></figure>
+
+<h2 id="hvordan-vælger-du-et-fitnesscenter">Hvordan vælger du et fitnesscenter?</h2>
+
+<p>Når du vælger fitnesscenter, så skal du være opmærksom på, at fitnesscentrene ofte udbyder forskellige ting.</p>
+
+<p>Derfor skal du lige have en liste klar på, hvad du gerne vil have ud af dit fitnesscenter. Det nytter jo ikke noget, at det er billigt, hvis ikke det lever op til dine forventninger.</p>
+
+<ul>
+  <li>Skal du bruge holdtræning?</li>
+  <li>Hvor gode omklædningsfaciliteter har du brug for?</li>
+  <li>Hvilke andre faciliteter som fx sauna, vil du gerne have adgang til?</li>
+  <li>Træner du mest i maskiner eller med frie vægte?</li>
+  <li>Hvilke abonnementstyper har de forskellige centre? Det billigste abonnement kan sommetider være for skrabet for det, du gerne vil have ud af det.</li>
+  <li>Er kæden landsdækkende og kan du bruge træningscentre forskellige steder, eller binder du dig til et center?</li>
+</ul>
+
+<h2 id="overblik-over-de-billigste-fitnesskæder-i-danmark">Overblik over de billigste fitnesskæder i Danmark</h2>
+
+<p>Her har vi lavet et overblik over de billigste fitnesskæder i Danmark.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>By</th>
+      <th>Fitnesscenter</th>
+      <th>Oprettelse</th>
+      <th>Pris uden hold</th>
+      <th>Pris med hold</th>
+      <th>Holdtræning</th>
+      <th>Hjemmeside</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Odense</td>
+      <td>CSS</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Copenhagen Gym</td>
+      <td>0</td>
+      <td>495</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>DGI-Huset</td>
+      <td>0</td>
+      <td>219</td>
+      <td>219</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Dyrup Fitness</td>
+      <td>199</td>
+      <td>199</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>FTO</td>
+      <td>0</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Fin Form</td>
+      <td>0</td>
+      <td>259</td>
+      <td>259</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Fit &amp; Sund</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Fit &amp; Sund</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Fit &amp; Sund</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Fit-Zone</td>
+      <td>0</td>
+      <td>159</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Fit-Zone</td>
+      <td>0</td>
+      <td>159</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Fitness United</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>300</td>
+      <td>300</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>350</td>
+      <td>350</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>350</td>
+      <td>350</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>350</td>
+      <td>350</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Fitness1</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Fitness1</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>FitnessØ</td>
+      <td>0</td>
+      <td>250</td>
+      <td>250</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Fokus Fitness</td>
+      <td>0</td>
+      <td>279</td>
+      <td>279</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Form &amp; Fitness</td>
+      <td>299</td>
+      <td>199</td>
+      <td>279</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Fysioterapi Nordvest</td>
+      <td>275</td>
+      <td>265</td>
+      <td>265</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Fysisk Form</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Go2Fitness</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Ground</td>
+      <td>0</td>
+      <td>199</td>
+      <td>199</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Gym &amp; Fitness</td>
+      <td>0</td>
+      <td>279</td>
+      <td>279</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Haraldslund</td>
+      <td>0</td>
+      <td>210</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Harlev Motion</td>
+      <td>100</td>
+      <td>265</td>
+      <td>265</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>InFitness</td>
+      <td>50</td>
+      <td>99</td>
+      <td>99</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Motus Fit</td>
+      <td>0</td>
+      <td>279</td>
+      <td>399</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>OBBC</td>
+      <td>0</td>
+      <td>275</td>
+      <td>275</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Power House</td>
+      <td>199</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Pro Republiq</td>
+      <td>159</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Pro Republiq</td>
+      <td>159</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Pro Republiq</td>
+      <td>159</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Raw Gym</td>
+      <td>200</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Repeat</td>
+      <td>199</td>
+      <td>269</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Odense</td>
+      <td>Repeat</td>
+      <td>199</td>
+      <td>269</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>SATS</td>
+      <td>0</td>
+      <td>359</td>
+      <td>359</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>SeierFitness</td>
+      <td>0</td>
+      <td>495</td>
+      <td>495</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Aalborg</td>
+      <td>Shape Fitness</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Århus</td>
+      <td>Sport og Fitness</td>
+      <td>0</td>
+      <td>209</td>
+      <td>209</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Sporting Health Club</td>
+      <td>99</td>
+      <td>429</td>
+      <td>449</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Target-Gym</td>
+      <td>0</td>
+      <td>399</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>København</td>
+      <td>Vesterbronx</td>
+      <td>0</td>
+      <td>349</td>
+      <td>445</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Hvis du har ændringer til listen, så skriv endelig til mig på lars@motionsplan.dk.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1596357395217-80de13130e92?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="billige fitnesskæder i Kbh, Odense, Århus og Ålborg" loading="lazy" /></figure>
+
+<h2 id="billigste-fitness-i-københavn">Billigste fitness i København</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fitnesscenter</th>
+      <th>Oprettelse</th>
+      <th>Pris uden hold</th>
+      <th>Pris med hold</th>
+      <th>Holdtræning</th>
+      <th>Hjemmeside</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Copenhagen Gym</td>
+      <td>0</td>
+      <td>495</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fit &amp; Sund</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>300</td>
+      <td>300</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Form &amp; Fitness</td>
+      <td>299</td>
+      <td>199</td>
+      <td>279</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fysioterapi Nordvest</td>
+      <td>275</td>
+      <td>265</td>
+      <td>265</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fysisk Form</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Pro Republiq</td>
+      <td>159</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Raw Gym</td>
+      <td>200</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Repeat</td>
+      <td>199</td>
+      <td>269</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>SATS</td>
+      <td>0</td>
+      <td>359</td>
+      <td>359</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sporting Health Club</td>
+      <td>99</td>
+      <td>429</td>
+      <td>449</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Target-Gym</td>
+      <td>0</td>
+      <td>399</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Vesterbronx</td>
+      <td>0</td>
+      <td>349</td>
+      <td>445</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="billigste-fitnesskæde-i-odense">Billigste fitnesskæde i Odense</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fitnesscenter</th>
+      <th>Oprettelse</th>
+      <th>Pris uden hold</th>
+      <th>Pris med hold</th>
+      <th>Holdtræning</th>
+      <th>Hjemmeside</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CSS</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Dyrup Fitness</td>
+      <td>199</td>
+      <td>199</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>FTO</td>
+      <td>0</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fin Form</td>
+      <td>0</td>
+      <td>259</td>
+      <td>259</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fit &amp; Sund</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fit-Zone</td>
+      <td>0</td>
+      <td>159</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>350</td>
+      <td>350</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Fitness1</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Go2Fitness</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Ground</td>
+      <td>0</td>
+      <td>199</td>
+      <td>199</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>OBBC</td>
+      <td>0</td>
+      <td>275</td>
+      <td>275</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Repeat</td>
+      <td>199</td>
+      <td>269</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="fitnesskæder-med-billige-pris-i-aarhus">Fitnesskæder med billige pris i Aarhus</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fitnesscenter</th>
+      <th>Oprettelse</th>
+      <th>Pris uden hold</th>
+      <th>Pris med hold</th>
+      <th>Holdtræning</th>
+      <th>Hjemmeside</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DGI-Huset</td>
+      <td>0</td>
+      <td>219</td>
+      <td>219</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fit &amp; Sund</td>
+      <td>0</td>
+      <td>299</td>
+      <td>299</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitness United</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>350</td>
+      <td>350</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Harlev Motion</td>
+      <td>100</td>
+      <td>265</td>
+      <td>265</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>InFitness</td>
+      <td>50</td>
+      <td>99</td>
+      <td>99</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Motus Fit</td>
+      <td>0</td>
+      <td>279</td>
+      <td>399</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Power House</td>
+      <td>199</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Pro Republiq</td>
+      <td>159</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>SeierFitness</td>
+      <td>0</td>
+      <td>495</td>
+      <td>495</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sport og Fitness</td>
+      <td>0</td>
+      <td>209</td>
+      <td>209</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="bedste-pris-på-fitness-i-aalborg">Bedste pris på fitness i Aalborg</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fitnesscenter</th>
+      <th>Oprettelse</th>
+      <th>Pris uden hold</th>
+      <th>Pris med hold</th>
+      <th>Holdtræning</th>
+      <th>Hjemmeside</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fit-Zone</td>
+      <td>0</td>
+      <td>159</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitness X</td>
+      <td>0</td>
+      <td>350</td>
+      <td>350</td>
+      <td>Ja</td>
+      <td><a href="https://aslinkhub.com/?bid=2563912&amp;media_id=90737" rel="sponsored nofollow noopener">Besøg</a></td>
+    </tr>
+    <tr>
+      <td>Fitness1</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fitnessworld</td>
+      <td>99</td>
+      <td>179</td>
+      <td>179</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>FitnessØ</td>
+      <td>0</td>
+      <td>250</td>
+      <td>250</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Fokus Fitness</td>
+      <td>0</td>
+      <td>279</td>
+      <td>279</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Gym &amp; Fitness</td>
+      <td>0</td>
+      <td>279</td>
+      <td>279</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Haraldslund</td>
+      <td>0</td>
+      <td>210</td>
+      <td> </td>
+      <td>Nej</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Loop</td>
+      <td>0</td>
+      <td>239</td>
+      <td>239</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Pro Republiq</td>
+      <td>159</td>
+      <td>295</td>
+      <td>295</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Shape Fitness</td>
+      <td>0</td>
+      <td>249</td>
+      <td>249</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="prisvenlige fitnesscentre" loading="lazy" /></figure>
+
+<h2 id="hvordan-har-vi-lavet-vores-pristjek">Hvordan har vi lavet vores pristjek?</h2>
+
+<p>Vi har fundet den billigste fitnesskæde ved at kigge på priserne på alle de danske fitnesscentre, vi kunne finde.</p>
+
+<p>Du bør selv gå ind på de forskellige hjemmesider for at se de nyeste priser fra de forskellige udbydere.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<h3>Hvordan finder man et billigt træningscenter?</h3>
+<p>På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige services.</p>
+
+<h3>Hvad skal du være opmærksom på, når du vælger fitnesscenter?</h3>
+<p>Når du vælger et fitnesscenter, så sørg for at det lever op til dine krav. Vil du gerne træne i maskiner, frie vægte eller måske følge holdtræning? Vil du gerne have omklædningsfaciliteter? Hvilket fællesskab vil du gerne opleve i fitensscenteret? Husk også at holde øje med de forskellige abonnementstyper.</p>]]></content><author><name>Lars Olesen</name></author><category term='["Fitness"]'/><category term="anmeldelse"/><summary type="html">Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret.</summary></entry><entry><title type="html">10 tips til at blive en bedre løber</title><link href="https://www.motionsplan.dk/bedre-loeber/" rel="alternate" type="text/html" title="10 tips til at blive en bedre løber"/><published>2022-11-07T00:00:00+00:00</published><updated>2022-11-07T07:14:14+00:00</updated><id>https://www.motionsplan.dk/bliv-en-bedre-loeber</id><content type="html" xml:base="https://www.motionsplan.dk/bedre-loeber/"><![CDATA[<p>Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber. Her er 10 tips, der kan hjælpe dig i gang.</p>
+
+<p>I dette indlæg kigger vi på, hvad der kendetegner en god løber, og hvad ud kan arbejde med for at optimere dit løb.</p>
+
+<p>Løb er rigtig fedt, når du begynder at få en god fornemmelse og føler dig stærk og udholdende. Men hvordan opnår du følelsen af at være en god løber?</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1622407769557-e48f257b96b7?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="mand vil geren være bedre løber" loading="lazy" /></figure>
+
+<h2 id="hvad-kendetegner-en-god-løber">Hvad kendetegner en god løber?</h2>
+
+<p>Den gode løber er kendetegnet ved at en lang række parametre går op i en højere enhed.</p>
+
+<p>Som løber kan du have forskellige mål. Vil du gerne kunne løbe rigtig hurtigt, eller vil du gerne kunne løbe meget langt?</p>
+
+<p>Du kan ikke gøre begge ting på samme tid. Men uanset dit mål, så er det ofte at gøre det så hurtigt som muligt i forhold til den valgte distance.</p>
+
+<p>Grundlæggende er der altså to parametre, som er afgørende for, hvor hurtigt du kan flytte dig fra sted til sted.</p>
+
+<ol>
+  <li>Skridtkadencen</li>
+  <li>Skridtlængden</li>
+</ol>
+
+<p>Der er dog rigtig mange ting, der spiller ind på, hvor effektivt du kan gøre begge ting.</p>
+
+<h3 id="1-fysiologien-som-løber">1. Fysiologien som løber</h3>
+
+<p>For at flytte fødderne kræver det, at din krop laver noget arbejde. Hvor hurtigt du kan løbe og hvor langt du kan løbe bestemmes bl.a. af følgende fysiologiske parametre:</p>
+
+<ol>
+  <li><strong>Din VO<sub>2</sub>max.</strong> Din maksimale iltoptagelse er et rigtig vigtigt parameter for, hvor hurtigt du kan løbe på forskellige distancer. Jo højere din iltoptagelse er, jo hurtigere kan du løbe.</li>
+  <li><strong>Din anaerobe tærskel.</strong> Din mælkesyregrænse er den intensitet, hvor du netop kan nå at fjerne mælkesyren lige så hurtigt som du producerer den. Når den anaerobe tærskel skubbes opad, så kan du arbejde med en højere intensitet i forhold til din VO<sub>2</sub>max, inden du bliver træt.</li>
+  <li><strong>Din udholdenhed.</strong> Din udholdenhed er din evne til at arbejde over længere tid uden at blive træt.</li>
+</ol>
+
+<h3 id="2-din-løbeøkonomi">2. Din løbeøkonomi</h3>
+
+<p>Når du har en god løbeøkonomi, så bruger du mindre ilt og energi på at løbe med samme hastighed. Der er mange parametre, som er med til at bestemme din løbeøkonomi.</p>
+
+<p>Fx:</p>
+
+<ul>
+  <li>Kropssammensætning</li>
+  <li>Løbeteknik</li>
+  <li>Elastiske komponenter i kroppen</li>
+</ul>
+
+<p>Det foreslås, at din landing kan være med til at sige noget om din løbeeffektivitet, men her er forskerne ikke helt enige.</p>
+
+<figure class="">
+  <img src="https://olderyetfaster.com/wp-content/uploads/2020/04/1.jpg" alt="" loading="lazy" /><figcaption>
+      Illustration af løber, der lander på hælen, midtfoden eller på forfoden. Men alle løberne lander foran tyngdepunktslinjen, hvilket kan bremse løberen. Det er altså ikke landingen på foden der afgør, hvor effektive løberne er. Kilde: <a href="https://olderyetfaster.com/running-myths-explained/changing-foot-strike/">olderyetfaster.com</a>
+
+    </figcaption></figure>
+
+<p>Læs: <a href="/lobeokonomi/">Alt om løbeøkonomi</a></p>
+
+<h3 id="3-dit-udstyr">3. Dit udstyr</h3>
+
+<p>Der har været en stor <a href="/teknologi-sport/">revolution i teknologien i sportsudstyr</a>. Disse teknologiske syvmileskridt har også betydning for udviklingen i løbeudstyr.</p>
+
+<p>Inden for <strong>løbesko</strong> blev det tydeligt, da <a href="/kipchoge-challenge/">Kipchoge satte uofficiel verdensrekord</a>. Her løb Kipchoge i en skræddersyet løbesko med 3 carbonplader.</p>
+
+<p>Siden er der kommet regler om, at løbeskoene skal være i almindeligt salg, og der kun må være 1 carbonplade i skoen.</p>
+
+<p>For at få de sidste procent fra udstyret kræver det sandsynligvis, at du allerede har et højt niveau.</p>
+
+<p>Claus Hechmann <a href="https://www.hechmannsport.dk/post/test-af-l%C3%B8besko">konkluderede</a> i sin test af bl.a. Nike Vaporfly 4%, at der i forhold til en almindelig løbsko faktisk var 4-6% at hente ift. til hastighed ved samme iltoptagelse.</p>
+
+<p>Ud over løbesko så findes der også <strong>kompressionstøj og kompressionsstrømper</strong>, som måske kan have præstationsfremmende effekt.</p>
+
+<p>Studierne her er ikke helt klare, men det er interessant, hvordan udviklingen får betydning for de almindelige motionsløbere.</p>
+
+<p>Læs: <a href="/kompressionsstroemper-restitution-praestation-bivirkninger/">Virker kompressionsstrømper til løb og cykling?</a></p>
+
+<h2 id="har-din-landing-betydning-for-din-løbehastighed">Har din landing betydning for din løbehastighed?</h2>
+
+<p>Du kan ofte læse, at der kan være alle mulige udfordringer forbundet med at lande på hælen.</p>
+
+<p>Men er det faktisk problematisk at være hællander?</p>
+
+<p><a href="https://link.springer.com/article/10.1007/s40279-019-01238-y">Anderson et al (2020)</a> samlede resultaterne fra 53 studier i deres metaanalyse af fordele og ulemper ved, hvordan løbere lander på foden.</p>
+
+<p>Forskerne konkluderer, at der hverken er særlige fordele eller ulemper ved at lande på hælen. Det gælder både i forhold til hastighed, løbeøkonomi og skader.</p>
+
+<p>Andre studier har kigget mere specifikt på løbehastigheden:</p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801105/">Kasmer et al (2013)</a> undersøgte 1.991 maratonløbere. De fandt, at der er en tendens til at eliteløbere med de hurtigste tider landede mindre på hælene end ikke-eliteløbere.</p>
+
+<p>Studiet bekræftede også den observation mange andre studier har gjort, at der i gennemsnit er flest hællandere.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1449358070958-884ac9579399?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="bliv en god løber" loading="lazy" /></figure>
+
+<h2 id="hvordan-bliver-du-en-bedre-løber">Hvordan bliver du en bedre løber?</h2>
+
+<h3 id="1-lav-et-velstruktureret-træningsprogram">1. Lav et velstruktureret træningsprogram</h3>
+
+<p>Hvis du gerne vil blive en bedre løber, så kan et træningsprogram hjælpe med at gøre en forskel for dig.</p>
+
+<p>Der er mange fordele ved at lave et struktureret løbeprogram:</p>
+
+<ul>
+  <li>Du kan sørge for stille og roligt at bygge formen op ved at øge distance, hastighed og intensitet gradvist.</li>
+  <li>Du kan planlægge, hvornår du skal træne, og hvornår du kan holde fri.</li>
+  <li>Du kan blive motiveret af at din træning går frem over tid.</li>
+  <li>Du kan undgå skader fordi du doserer din træning gradvist.</li>
+</ul>
+
+<p>Læs: <a href="/guide-til-loebeprogram/">Lav dit eget løbeprogram (Guide)</a></p>
+
+<h3 id="2-undgå-skader">2. Undgå skader</h3>
+
+<p>Hvis du gerne vil blive en bedre løber, så er det en stor fordel at undgå skader.</p>
+
+<p>Her er der to helt centrale <a href="/artikel/loebeskader-loebe-uden-skader/">gode råd mod løbeskader</a>:</p>
+
+<ol>
+  <li>Lav en fornuftig træningsplan med gradvis øgning af distance og tempo</li>
+  <li>Lav supplerende styrketræning.</li>
+</ol>
+
+<p>Det allervigtigste parameter for at undgå skader er at lave et velstruktureret træningsprogram, hvor distancen og hastigheden øges gradvist, så du vænner dig til belastningen.</p>
+
+<p>Løbesko har formentlig en mindre betydning ift. skader. <a href="https://pubmed.ncbi.nlm.nih.gov/23766439/">Nielsen et al (2014)</a> fulgte 927 nye løbere over en 1-årig periode. Alle løberne fik en neutral løbesko. Forskerne kunne ikke finde nogen sammenhæng mellem fodens stilling (supination, neutral eller pronation) og skader.</p>
+
+<p>Til gengæld så har du som nybegynder større risiko for at blive skadet end mere erfarne motionsløbere.</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/25951917/">Videbæk et al (2015)</a> fandt i deres oversigtsartikel, at skadesrisikoen for nybegyndere var signifikant højere end for mere erfarne løbere.</p>
+
+<p>Nybegyndere havde hele 17,8 skader pr. 1000 træningstimer, mens de erfarne motionsløbere kun havde omkring 7,7 skade for det samme antal træningstimer.</p>
+
+<p>Derfor skal du ikke nødvendigvis starte din løbekarriere med en løbeanalyse, men hellere bruge din tid på at lave en fornuftig træningsplan.</p>
+
+<h2 id="styrketræning-for-løbere">Styrketræning for løbere</h2>
+
+<p>Styrketræning kan forebygge skader. Men styrketræning kan også bidrage til en bedre præstationsevne som løber.</p>
+
+<p>Vi har skrevet en guide til <a href="/styrketraening-til-loeb/">styrketræning og løb</a>, men her får du lige de overordnede konklusioner:</p>
+
+<p><strong>Løbeøkonomi.</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/27497600/">Denadai et al (2017)</a> lavede et metastudium, hvor de undersøgte effekten af styrketræning i forhold til løbeøkonomi. De fandt en positiv effekt af træningen.</p>
+
+<p>Hvis du skal arbejde med løbeøkonomien, så er det nok den tungere styrketræning med relativ høj intensitet.</p>
+
+<p><strong>Anaerobe tærskel.</strong> <a href="https://www.researchgate.net/publication/316770462_Aerobic_Exercise_Supplemented_With_Muscular_Endurance_Training_Improves_Onset_of_Blood_Lactate_Accumulation">Farrell et al (2017)</a>, at styrketræning med gentagelser mellem 12-15 gentagelser kan være med til at flytte mælkesyretolerancegrænsen.</p>
+
+<p>Der er altså gode grunde til at bruge styrketræning i din træning, hvis du gerne vil være en bedre løber.</p>
+
+<p>Jeg har skrevet rigtig meget om <a href="/styrketraening/">styrketræning</a> her på sitet, men tjek også det specifikke indlæg om <a href="/styrketraening-til-loeb/">styrketræning for løbere</a>.</p>
+
+<p>Du kan lade dig inspirere lidt til, hvordan styrketræning og muskeltræning bl.a. kan være med til at <strong>stabilisere din hofte</strong>, så du kan løbe mere effektivt:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="v7b1G483WrE">
+      <meta itemprop="name" content="10 tips til at blive en bedre løber" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/v7b1G483WrE/default.jpg" />
+      <meta itemprop="uploadDate" content="2022-11-07T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://youtube.googleapis.com/v/v7b1G483WrE" />
+      <meta itemprop="description" content="Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber." />
+      <a href="https://www.youtube.com/watch?v=v7b1G483WrE" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/v7b1G483WrE/hqdefault.jpg" loading="lazy" alt="video til 10 tips til at blive en bedre løber" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Hvis du ønsker at blive en bedre løber, er det vigtigt at følge en fornuftig træningsplan. Styrketræning kan være med til at forebygge skader og forbedre løbeøkonomien og ydeevnen.</p>
+
+<p>Sørg for gradvist at øge din træningsbelastning og også at lave ekstra styrketræning for at opnå bedre resultater</p>
+
+<p>Har du nogle tips til at blive en bedre løber? God fornøjelse med at løbe!</p>]]></content><author><name>Lars Olesen</name></author><category term='["Løb"]'/><category term="løb"/><summary type="html">Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber.</summary></entry></feed>
