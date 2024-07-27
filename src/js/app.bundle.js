@@ -72,6 +72,8 @@ const rowing_vo2 = require('../js/rowing-vo2');
 const rowing_powerprofile = require('../js/rowing-ergrowing');
 const rer = require('../js/rer');
 const vam = require('../js/vam');
+const vvo2max_hrc = require('../js/vvo2max-hrc');
+
 require('image-map-resizer');
 
 $(function() {
@@ -509,6 +511,21 @@ $(function() {
       $("#vam").val(o_vam.getVAM().toFixed(0));
       $("#gradient_factor").val(o_vam.getGradientFactor(gradient).toFixed(2));
       $("#relative_power").val(o_vam.getRelativePower(gradient).toFixed(2));
+    });
+    $("#calculator_olher_vvo2max").submit(function(e) {
+      console.log("Calculate Olher");
+      e.preventDefault();
+
+      let minutes = Number($("[name='tid_min']").val());
+      let seconds = Number($("[name='tid_sek']").val());
+      let hr_submax = Number($("[name='hr_submax']").val());
+      let hr_max = Number($("[name='hr_max']").val());
+      let distance = Number($("[name='distance']").val());
+
+      let o_vam = vvo2max_hrc.VVO2maxHRC(hr_submax,distance, minutes, seconds);
+      $("#hrc").val(o_vam.getHRC().toFixed(2));
+
+      $("#speed_meter_min").val(o_vam.getVVO2maxPrMin(hr_max).toFixed(0));
     });
     $("#calculator_kroppens_rumfang").submit(function(e) {
       console.log("Calculate Kroppens Rumfang");
@@ -2926,11 +2943,13 @@ $(function() {
 
         let weight = Number($("[name='weight']").val());
         let velocity = Number($("[name='velocity']").val());
-        let oxygenuptake = Number($("[name='oxygenuptake']").val());
+        let vo2 = Number($("[name='vo2']").val());
 
-        let c = running_economy.RunningEconomy(oxygenuptake, velocity);
+        let c = running_economy.RunningEconomy(vo2, velocity);
 
-        $("#running_economy").val(c.getRunningEconomyInMlPrKgPrMin(weight).toFixed(2));
+        $("#running_economy").val(c.getRunningEconomyInMlPrKgPrKm(weight).toFixed(0));
+        $("#running_economy_min").val(c.getMlOxygenPrKgPrMin(weight).toFixed(0));
+
     });
     $("#calculator_oxygen_uptake").submit(function(e) {
         console.log("Calculate oxygen uptake");

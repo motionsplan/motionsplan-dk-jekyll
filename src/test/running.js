@@ -60,4 +60,10 @@ describe('RunningTest', function() {
       assert.equal(r.getTimeFromDistanceAndVelocity(1, 12), 5);
     });
   });
+  describe('convertMetersPrMinuteToKmHour', function() {
+    it('should return the correct number', function() {
+      let r = motionsplan.Running();
+      assert.equal(r.convertMetersPrMinuteToKmHour(222), 13.32);
+    });
+  });
 });

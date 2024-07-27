@@ -1,0 +1,39 @@
+<form id="calculator_olher_vvo2max" class="calculator">
+    <fieldset>
+        <legend>Distance løbet på 6 minutters test</legend>
+        <label>Distance (meter) <input name="distance" type="text" placeholder="meter" required></label>
+        <div class="form-group">
+            <label>Tid for testen (mm:ss)</label>
+            <input type="number" min="5" max="6" value="6" name="tid_min" id="tid_min" placeholder="min" class="input-mini" required>
+            <input type="number" min="0" max="59" value="0" name="tid_sek" id="tid_sek" placeholder="sek" class="input-mini" required>
+        </div>
+    </fieldset>    
+    <fieldset>
+        <legend>Pulsmålinger</legend>
+        <div class="form-group">
+        <label>Puls (gennemsnit i test) <input name="hr_submax" type="number" min="30" max="250" placeholder="Gennemsnitspuls i testen, fx 155" required></label>
+        <label>Puls (max-puls) <input name="hr_max" type="number" min="30" max="250" placeholder="Din maxpuls, fx 200" required></label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <label>Heart Rate Cost of Running (HRC)
+            <input name="hrc" id="hrc" type="text" disabled>
+        </label>
+    </fieldset>
+    <fieldset class="results">
+        <label>vVO<sub>2</sub> max (meter/minut)
+            <input name="speed_meter_min" id="speed_meter_min" type="text" disabled>
+        </label>
+        <label>vVO<sub>2</sub> max (km/t)
+            <input name="speed_kmt" id="speed_kmt" type="text" disabled>
+        </label>
+        <label>vVO<sub>2</sub> max (min/km)
+            <input name="speed_min_km" id="speed_min_km" type="text" disabled>
+        </label>
+        <label>Omgangshastighed på løbebane (sek/400 meter)
+            <input name="sec_400" id="sec_400" type="text" disabled>
+        </label>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

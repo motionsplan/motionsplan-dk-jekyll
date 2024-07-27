@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
             <label>Iltoptagelse (l O<sub>2</sub>/min)
-                <input type="number" name="oxygenuptake" placeholder="l/min" step="0.01" required>
+                <input type="number" name="vo2" placeholder="l/min" step="0.01" required>
             </label>
         </div>
         <input type="submit" value="Beregn">
@@ -23,6 +23,10 @@
         <div class="form-group">
             <label>Løbeøkonomi (ml O<sub>2</sub>/kg/km)</label>
             <input type="text" id="running_economy" name="running_economy" disabled class="input-small">
+        </div>
+        <div class="form-group">
+            <label>Løbeøkonomi (ml O<sub>2</sub>/kg/min)</label>
+            <input type="text" id="running_economy_min" name="running_economy_min" disabled class="input-small">
         </div>
     </fieldset>
     {% include calculator-footer.html %}

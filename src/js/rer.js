@@ -1,9 +1,12 @@
 let motionsplan = {};
 
-motionsplan.RER = function(R, oxygen) {
+
+// TODO compare to vo2-kcal - and put together
+motionsplan.RER = function(R, vo2) {
   
+  // compare this formula with vo2-kcal.js formula
   function getKcalMin() {
-    return (1.24 * R + 3.81) * oxygen;
+    return (1.24 * R + 3.81) * vo2;
   }
 
   function getFatPercent() {

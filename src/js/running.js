@@ -72,6 +72,10 @@ motionsplan.Running = function() {
         return (distance * 60) / velocity;
     }
 
+    function convertMetersPrMinuteToKmHour(meter_per_minute) {
+        return meter_per_minute * 60 / 1000;
+    }
+
     let publicAPI = {
         getKilometersPrHour : getKilometersPrHour,
         getTimePrKilometer : getTimePrKilometer,
@@ -80,7 +84,8 @@ motionsplan.Running = function() {
         convertMinPerKmToDistanceForDuration : convertMinPerKmToDistanceForDuration,
         getDistanceFromTimeAndVelocity : getDistanceFromTimeAndVelocity,
         getTimeFromDistanceAndVelocity : getTimeFromDistanceAndVelocity,
-        getMeterPerSecond : getMeterPerSecond
+        getMeterPerSecond : getMeterPerSecond,
+        convertMetersPrMinuteToKmHour : convertMetersPrMinuteToKmHour
     };
 
     return publicAPI;
