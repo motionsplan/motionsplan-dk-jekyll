@@ -15,7 +15,6 @@ tags:
   - cykling
   - løb
 last_modified_at: 2024-01-11T10:14:14Z
-toc: true
 faq:
   - question: "Jeg tracker allerede min træning i X app, har jeg brug for Intervals.icu?"
     answer: "Det er jo op til dig. Men Intervals.icu integrerer med rigtig mange forskellige aps, fx Garmin Connect, Polar Flow, Suuntu, Coros, Wahoo og Strava. Jeg tror du vil komme til at holde af Intervals.icu. Den er gratis, så der sker ikke noget ved at prøve."

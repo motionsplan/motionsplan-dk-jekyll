@@ -1,57 +1,38 @@
 const motionsplan = require('../js/vo2-efficiency.js');
 let assert = require('assert');
 
-describe('VO2Kcal', function() {
-  describe('getPercentFatUtilized', function() {
+describe('VO2Efficiency', function() {
+  describe('getGrossEfficiency', function() {
     it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.27, 1.0);
-      assert.equal(fitness.getEnergyExpenditureInJoule(), 426.5452708000001);
-    });
-
-    it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.80, 1.0);
-      assert.equal(fitness.getEnergyExpenditureInJoule(), 569.7297386666668);
-    });
-  });
-  
-  describe('getPercentFatUtilized', function() {
-    it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.27, 1.0);
-      assert.equal(fitness.getGrossEfficiency(100), 23.44417037198575);
+      let fitness = motionsplan.VO2Efficiency();
+      assert.equal(fitness.getGrossEfficiency(100, 650), 15.384615384615385);
     });
     it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.80, 1.0);
-      assert.equal(fitness.getGrossEfficiency(100), 17.552181887859508);
+      let fitness = motionsplan.VO2Efficiency();
+      assert.equal(fitness.getGrossEfficiency(50, 450), 11.11111111111111);
     });
 
   });
     
-  describe('getPercentFatUtilized', function() {
+  describe('getDeltaEfficiency', function() {
     it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.5, 1.0);
+      let fitness = motionsplan.VO2Efficiency();
       assert.equal(fitness.getDeltaEfficiency(50, 505.4, 100, 753.3), 20.169423154497785);
     });
   });
 
-  describe('getPercentFatUtilized', function() {
+  describe('getCyclingEconomy', function() {
     it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.27, 1.0);
-      assert.equal(fitness.getCyclingEconomy(50), 2.3622047244094486);
-    });
-  });
-  
-  describe('getPercentFatUtilized', function() {
-    it('should return the correct number', function() {
-      let fitness = motionsplan.VO2Efficiency(1.27, 1.0);
-      assert.equal(fitness.getMetabolicRate(), 2.3622047244094486);
+      let fitness = motionsplan.VO2Efficiency();
+      assert.equal(fitness.getCyclingEconomy(50, 1.27), 2.3622047244094486);
     });
   });
 
-  describe('getPercentFatUtilized', function() {
+  describe('getMechanicalWorkRatio', function() {
     it('should return the correct number', function() {
       let fitness = motionsplan.VO2Efficiency(1.27, 1.0);
       // velocity in m/s
-      assert.equal(fitness.getgetMechanicalWorkRatio(80, 2.5, 3, 0), 2.3622047244094486);
+      assert.equal(fitness.getMechanicalWorkRatio(80, 2.5, 3, 0), 2.3622047244094486);
     });
   });
 

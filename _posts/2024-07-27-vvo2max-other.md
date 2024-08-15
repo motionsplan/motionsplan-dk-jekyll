@@ -19,7 +19,7 @@ tags:
   - test
   - tracking
   - beregner
-last_modified_at: 2024-07-12T10:14:14Z
+last_modified_at: 2024-07-27T10:14:14Z
 ---
 
 Denne submaksimale test på 6 minutter kan bruges til at finde din hastighed ved din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/). Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.
@@ -36,13 +36,13 @@ Denne test er et alternativ til [Billats udregner](/billat-vvovmax-tlimvo2max/).
 
 Du starter tiden, når du begynder at løbe og du stopper tiden, når du er færdig. Pulsen skulle gerne være nogenlunde _steady state_ undervejs.
 
-Du kan gå efter at pulsen ligger fra 140 - 170 slag i minuttet. Husk at det er en submaksimal test.
+Du kan gå efter at pulsen ligger fra 140 - 170 slag i minuttet. Husk at det er en submaksimal test. Testen skal løbes med 12-13 efter [Borg-skalaen](/borg-skala/).
 
 Jeg synes det er lettest at bruge mit pulsur og appen fra min telefon. Så kan jeg efterfølgende kigge på pulsværdierne og tempoet.
 
-Det ser sådan her ud i Garmin Connect:
+Det ser sådan her ud i [Intervals.icu](/intervals-icu-begynderguide/):
 
-{% include figure image_path="/assets/images/blog/1600-meter-joggingtest.png" caption="Her har jeg selv løbet joggingtesten. Jeg løb på løbebane og forsøgte at holde nogenlunde hastighed. Jeg har måske snakket lidt undervejs, for pulsen går lidt op og ned undervejs." alt="jogging løbetest submaksimal puls og tempo" %}
+{% include figure image_path="/assets/images/blog/6min-vvo2max-test.jpg" caption="Her har jeg selv løbet testen. Jeg løb på løbebane og forsøgte at holde den samme hastighed i hele testen. Pulsen stiger naturligvis gradvist i starten, men de sidste minutter er den _steady state_." alt="jogging løbetest submaksimal puls og tempo" %}
 
 På baggrund af disse målinger kan du så udregne dit kondital i beregneren nedenunder.
 
@@ -52,13 +52,15 @@ På baggrund af disse målinger kan du så udregne dit kondital i beregneren ned
 
 Et eksempel:
 
-Jeg løb 1000 meter på de 6 minutter, og jeg havde en gennemsnitlig puls på 155 bpm og jeg har en max-puls på 183.
+Jeg løb 1220 meter på de 6 minutter, og jeg havde en gennemsnitlig puls på 148 bpm og jeg har en max-puls på 183.
 
 Du kan [udregne din maxpuls her](/test-max-puls/), hvis du ikke kender den på forhånd.
 
 Jeg taster det ind i beregneren og ...
 
-... finder ud af at jeg skal løbe 197 meter pr. minut for at løbe omkring min maksimale iltoptagelse. Det er lige knap en halv runde på en en 400 meter bane pr. minut.
+... finder ud af at jeg skal løbe 251 meter pr. minut for at løbe omkring min maksimale iltoptagelse. Det er lidt mere end en halv runde på en en 400 meter bane pr. minut.
+
+
 
 ## Hvordan bruger du vVO2<sub>max</sub> i praksis?
 

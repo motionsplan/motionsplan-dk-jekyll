@@ -1,0 +1,29 @@
+<form class="calculator" id="calculator_heat_production_running">
+    <fieldset>
+        <legend>Varmeproduktion fra løb</legend>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input type="number" min="10" max="1000" placeholder="fx 80" name="weight" id="weight" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (min/km)</label>
+            <input type="number" placeholder="min" name="minkm_min" min="0" max="10" class="input-mini" required> <span class="help-inline">min</span>
+            <input type="number" placeholder="sec" name="minkm_sec" min="0" max="60" class="input-mini" required> <span class="help-inline">sek</span>
+        </div>
+        <div class="form-group">
+            <label>Effektivitet (ml/kg/km)
+                <input type="number" min="0" max="500" placeholder="fx 210" name="efficiency" id="efficiency" step="1" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmeproduktion (watts)
+                <input name="heat_production_watts_running" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

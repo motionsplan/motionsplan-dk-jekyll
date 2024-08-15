@@ -1,0 +1,37 @@
+{% assign velocity = include.velocity | default: 41 %}
+{% assign bsa = include.bsa | default: "1,8336" %}
+
+<form class="calculator" id="calculator_convection">
+    <fieldset>
+        <legend>Varmetab til konvektion</legend>
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input type="number" min="0" max="5" placeholder="fx {{ bsa }}" name="convection_bsa" id="convection_bsa" step="0.0001" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (C)
+                <input type="number" min="-50" max="50" placeholder="fx 31" name="air_temperature" id="air_temperature" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (C)
+                <input type="number" min="20" max="50" placeholder="fx 37" name="skin_temperature" id="skin_temperature" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input type="number" min="0" max="100" placeholder="fx {{ velocity }}" name="velocity_kmt" id="velocity_kmt" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til konvektion (watts)
+                <input name="heatloss_convection" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

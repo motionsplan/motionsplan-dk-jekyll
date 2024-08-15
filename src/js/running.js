@@ -34,9 +34,8 @@ motionsplan.Running = function() {
         if (sek < 10) {
             return minPrKm.toFixed(0) + ":0" + rest.toFixed(0);
         }
-        else {
-            return minPrKm.toFixed(0) + ":" + rest.toFixed(0);
-        }
+        
+        return minPrKm.toFixed(0) + ":" + rest.toFixed(0);
     }
 
     function getMeterPerSecond(km, m, s, hd = 0) {
@@ -68,6 +67,8 @@ motionsplan.Running = function() {
         return (velocity * time / 60);
     }
 
+    // distance in km
+    // velocity in km/t
     function getTimeFromDistanceAndVelocity(distance, velocity) {
         return (distance * 60) / velocity;
     }

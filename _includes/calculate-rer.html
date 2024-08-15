@@ -2,18 +2,34 @@
     <fieldset>
         <legend>Udregning af energiforbrug</legend>
         <div class="form-group">
-            <label>R-værdi
-                <input type="number" min="0" max="2" placeholder="fx 0.85" name="r" id="r" step="0.01" required>
+            <label>Formel for energiforbrug
+            <select name="ee-formula">
+                <option value="weir-corrected">Weir (korrigeret af Brouwer)</option>
+                <option value="weir">Weir</option>
+                <option value="brockway">Brockway</option>
+                <option value="perronetandmassicotte">Peronnet & Massicotte</option>
+                <option value="lusk">Lusk</option>
+            </select>
             </label>
         </div>
         <div class="form-group">
-            <label>Iltforbrug (L O<sub>2</sub>/min)
-                <input type="number" min="0" max="10" placeholder="fx 2" name="o" id="o" step="0.01" required>
+            <label>Iltforbrug (L O<sub>2</sub>/min) - VO<sub>2</sub>
+                <input type="number" min="0" max="10" placeholder="fx 2,10" name="rer_vo2" id="rer_vo2" step="0.01" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Udskillelse af CO2 (L/min) - VCO<sub>2</sub>
+                <input type="number" min="0" max="5" placeholder="fx 1,83" name="rer_vco2" id="rer_vco2" step="0.001" required>
             </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
+        <div class="form-group">
+            <label>R-værdi
+                <input type="number" min="0" max="2" name="rer_r" id="rer_r" step="0.01" disabled>
+            </label>
+        </div>
         <div class="form-group">
             <label>Energiforbrug (kcal/min)
                 <input name="energy_expenditure" disabled>

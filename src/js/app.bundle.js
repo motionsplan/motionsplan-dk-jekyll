@@ -73,6 +73,17 @@ const rowing_powerprofile = require('../js/rowing-ergrowing');
 const rer = require('../js/rer');
 const vam = require('../js/vam');
 const vvo2max_hrc = require('../js/vvo2max-hrc');
+const somatotype = require('../js/somatotype');
+const bsa = require('../js/bsa');
+const heat_convection = require('../js/heat-convection');
+const heat_evaporation = require('../js/heat-evaporation');
+const heat_radiation = require('../js/heat-radiation');
+const heat_conduction = require('../js/heat-conduction');
+const heat_biking = require('../js/heat-from-biking');
+const heat_running = require('../js/heat-from-running');
+const vo2_efficiency = require('../js/vo2-efficiency');
+const ee = require('../js/energy-expenditure');
+const ee_rer = require('../js/energy-expenditure-rer');
 
 require('image-map-resizer');
 
@@ -488,6 +499,308 @@ $(function() {
         //$("#equals_to").val(equals_to.toFixed());
         //$("#food").text(food);
     });
+
+    $('#calculator_bsa').submit(function(e){
+      console.log("Calculate BSA");
+      e.preventDefault();
+
+      let formula = $("[name='bsa-formula']").val();
+      // let gender = $("[name='gender']").val();
+      let weight = Number($("[name='bsa_weight']").val());
+      let height = Number($("[name='bsa_height']").val());
+
+      let b = bsa.BSA(weight, height, formula);
+
+      $("[name='bsa']").val(b.getBSA().toFixed(4));
+    
+      if ($("#heat_bike_bsa")) {
+        $("#heat_bike_bsa").text(b.getBSA().toFixed(4));
+      }
+
+      if ($("[name='convection_bsa']")) {
+        $("[name='convection_bsa']").val(b.getBSA().toFixed(4));
+      }
+      if ($("[name='radiation_bsa']")) {
+        $("[name='radiation_bsa']").val(b.getBSA().toFixed(4));
+      }
+    
+    });
+
+    $('#calculator_energy_expenditure').submit(function(e){
+      console.log("Calculate energy_expenditure");
+      e.preventDefault();
+
+      let formula = $("[name='ee-rer-formula']").val();
+      let vo2 = Number($("[name='vo2']").val());
+      let r = Number($("[name='r']").val());
+
+      let b = ee_rer.EnergyExpenditureRER(vo2, r, formula);
+
+      $("[name='energy_expenditure']").val(b.getEnergyExpenditureInJoule().toFixed(2));
+    
+      if ($("[name='ee']")) {
+        $("[name='ee']").val(b.getEnergyExpenditureInJoule().toFixed(2));
+      }
+      if ($("[name='economy_vo2']")) {
+        $("[name='economy_vo2']").val(vo2);
+      }
+      if ($("#bike_efficiency_text_vo2")) {
+        $("#bike_efficiency_text_vo2").text(vo2);
+      }
+      if ($("#bike_efficiency_text_r")) {
+        $("#bike_efficiency_text_r").text(r);
+      }
+      if ($("#bike_efficiency_text_ee")) {
+        $("#bike_efficiency_text_ee").text(b.getEnergyExpenditureInJoule().toFixed(2));
+      }
+    });
+
+    $('#calculator_gross_efficiency').submit(function(e){
+      console.log("Calculate gross efficiency");
+      e.preventDefault();
+
+      let workrate_watt = Number($("[name='workrate_watt']").val());
+      let ee = Number($("[name='ee']").val());
+
+      let b = vo2_efficiency.VO2Efficiency();
+
+      $("[name='gross_efficiency']").val(b.getGrossEfficiency(workrate_watt, ee).toFixed(2));
+    
+      if ($("[name='power_output_js']")) {
+        $("[name='power_output_js']").val(workrate_watt);
+      }
+      if ($("#bike_efficiency_ge")) {
+        $("#bike_efficiency_ge").text(b.getGrossEfficiency(workrate_watt, ee).toFixed(2));
+      }
+      if ($("#bike_efficiency_ee_js")) {
+        $("#bike_efficiency_ee_js").text(ee);
+      }
+      if ($("#bike_efficiency_power_output_watt")) {
+        $("#bike_efficiency_power_output_watt").text(workrate_watt);
+      }
+    });
+
+    $('#calculator_cycling_economy').submit(function(e){
+      console.log("Calculate cycling_economy");
+      e.preventDefault();
+
+      let workrate_watt = Number($("[name='power_output_js']").val());
+      let vo2 = Number($("[name='economy_vo2']").val());
+
+      let b = vo2_efficiency.VO2Efficiency();
+
+      $("[name='biking_economy']").val(b.getCyclingEconomy(workrate_watt, vo2).toFixed(2));
+
+      if ($("#bike_economy_power_output")) {
+        $("#bike_economy_power_output").text(workrate_watt);
+      }
+      if ($("#bike_economy_vo2")) {
+        $("#bike_economy_vo2").text(vo2);
+      }
+      if ($("#bike_economy_biking_economy")) {
+        $("#bike_economy_biking_economy").text(b.getCyclingEconomy(workrate_watt, vo2).toFixed(2));
+      }
+    });
+
+
+    $('#calculator_heat_production_running').submit(function(e){
+      console.log("Calculate running");
+      e.preventDefault();
+
+      let weight = Number($("[name='weight']").val());
+      let min = Number($("[name='minkm_min']").val());
+      let sec = Number($("[name='minkm_sec']").val());
+      let efficiency = Number($("[name='efficiency']").val());
+
+      let b = heat_running.HeatFromRunning(weight, min, sec, efficiency);
+
+      $("[name='heat_production_watts_running']").val(b.getHeat().toFixed(0));
+
+      if ($("[name='velocity_kmt']")) {
+        let r = running.Running();
+        $("[name='velocity_kmt']").val(r.convertMinPerKmToKmt(min, sec).toFixed(2));
+      }
+    });
+
+    $('#calculator_heat_production_biking').submit(function(e){
+      console.log("Calculate convection");
+      e.preventDefault();
+
+      let power_output = Number($("[name='power_output']").val());
+      let efficiency = Number($("[name='efficiency']").val());
+
+      let b = heat_biking.HeatFromBiking(power_output, efficiency);
+
+      $("[name='heat_production_watts_biking']").val(b.getHeat().toFixed(0));
+      $("#heat_bike_watt").text(b.getHeat().toFixed(0));
+      $("#heat_bike_power_output").text(power_output);
+      $("#heat_bike_efficiency").text(efficiency);
+    });
+
+    $('#calculator_convection').submit(function(e){
+      console.log("Calculate convection");
+      e.preventDefault();
+
+      let bsa = Number($("[name='convection_bsa']").val());
+      let air_temperature = Number($("[name='air_temperature']").val());
+      let skin_temperature = Number($("[name='skin_temperature']").val());
+      let velocity = Number($("[name='velocity_kmt']").val());
+
+      let b = heat_convection.HeatLossFromConvection(bsa, air_temperature, skin_temperature, velocity);
+
+      $("[name='heatloss_convection']").val(b.getHeatLoss().toFixed());
+    });
+
+    $('#calculator_evaporation').submit(function(e){
+      console.log("Calculate evaporation");
+      e.preventDefault();
+
+      let sweat_rate = Number($("[name='sweat_rate']").val());
+      let humidity = Number($("[name='humidity']").val());
+
+      let b = heat_evaporation.HeatLossFromEvaporation(sweat_rate, humidity);
+
+      $("[name='heatloss_evaporation']").val(b.getHeatLoss().toFixed(0));
+    });
+
+    $('#calculator_radiation').submit(function(e){
+      console.log("Calculate radiation");
+      e.preventDefault();
+
+      let formula = $("[name='radiation_formula']").val();
+      let bsa = Number($("[name='radiation_bsa']").val());
+      let skin_temperature = Number($("[name='radiation_skin_temperature']").val());
+      let air_temperature = Number($("[name='radiation_air_temperature']").val());
+      let emmisivity = Number($("[name='radiation_emmisivity']").val());
+
+      let b = heat_radiation.HeatLossFromRadiation(bsa, skin_temperature, air_temperature, formula, emmisivity);
+
+      $("[name='heatloss_radiation']").val(b.getHeatLoss().toFixed(0));
+
+      if ($("#bike_economy_biking_economy")) {
+        $("#bike_economy_biking_economy").text(b.getCyclingEconomy(workrate_watt, vo2).toFixed(2));
+      }
+
+    });
+
+    $('#calculator_conduction').submit(function(e){
+      console.log("Calculate conduction");
+      e.preventDefault();
+
+      let bsa = Number($("[name='conduction_bsa']").val());
+      let skin_temperature = Number($("[name='conduction_skin_temperature']").val());
+      let air_temperature = Number($("[name='conduction_air_temperature']").val());
+      let d = Number($("[name='conduction_d']").val());
+
+      let b = heat_conduction.HeatLossFromConduction(bsa, skin_temperature, air_temperature, d);
+
+      $("[name='heatloss_conduction']").val(b.getHeatLoss().toFixed(0));
+
+    });
+
+    $(document).ready(function(){
+      if ($("#canvas").length > 0) {
+        let canvas = $("#canvas").get(0);
+
+        if (canvas.getContext) {
+          console.log("Canvas creation");
+          let ctx = canvas.getContext("2d");
+          // Draw triangle
+          ctx.fillStyle="#22618c";
+          ctx.beginPath();
+          // Draw a triangle location for each corner from x:y 100,110 -> 200,10 -> 300,110 (it will return to first point)
+          
+          ctx.lineWidth = 3;
+          ctx.strokeStyle = '#90b0c5';
+          ctx.moveTo(0,350);
+          ctx.lineTo(200,0);
+          ctx.lineTo(400,350);
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
+
+          // middle lines
+          ctx.lineWidth = 3;
+          //ctx.strokeStyle = '#22618c';
+          ctx.strokeStyle = '#90b0c5';
+          
+          ctx.beginPath();
+          ctx.moveTo(86,173);
+          ctx.lineTo(400,350);
+          ctx.stroke();
+          ctx.moveTo(313,173);
+          ctx.lineTo(0,350);
+          ctx.stroke();
+          ctx.moveTo(200,0);
+          ctx.lineTo(200,350);
+          ctx.stroke();
+          ctx.closePath();
+
+          // Text in corners
+          ctx.font='bold 20px Segoe UI';
+          ctx.fillStyle='white';
+          ctx.fillText("Mesomorph", 200,12);
+          ctx.fillText("Ectomorph", 295,370);
+          ctx.fillText("Endomorph", 0,370);
+
+          // Athlete types
+          ctx.font='11px Segoe UI';
+          ctx.fillText("X Elite Tri (M)",247,179); 
+          ctx.fillText("X Elite Tri (F)",190,198); 
+          ctx.fillText("X Elite Swim (M)",233,160); 
+          //ctx.fillText("X Elite Cyclist (M TT)",226,223);
+          //ctx.fillText("X Elite Cyclist (M)",246,175);
+          ctx.fillText("X Elite Distance Runner (M)",266,190);
+          ctx.fillText("X Elite Rower (M HW)",212,150); 
+          ctx.fillText("X Kenyan (M)",280,284);
+          ctx.fillText("X Olympic Lifter (M)",157,53);
+          ctx.fillText("X Wrestler (M)",167,88);
+          ctx.fillText("X Water Polo (M)",200,140);
+          ctx.fillText("X Gymnast (M)",233,123);
+          //ctx.fillText("X Distance Running (M)",266,175);  
+        }
+      }
+    });
+
+    $('#calculator_somatotype').submit(function(e){
+      console.log("Calculate Somatotype");
+      e.preventDefault();
+      // Todo: Redo to use bsa.js
+      let gender = $("[name='gender']").val();
+      let height = Number($("[name='height']").val());
+      let weight = Number($("[name='weight']").val());
+      let triceps_skinfold = Number($("[name='triceps_skinfold']").val());
+      let subscapularis_skinfold = Number($("[name='subscapularis_skinfold']").val());
+      let supraspinal_skinfold = Number($("[name='supraspinal_skinfold']").val());
+      let abdominal_skinfold = Number($("[name='abdominal_skinfold']").val());
+      let frontthigh_skinfold = Number($("[name='frontthigh_skinfold']").val());
+      let calf_skinfold = Number($("[name='calf_skinfold']").val());
+      let humerus_breath = Number($("[name='humerus_breath']").val());
+      let femur_breath = Number($("[name='femur_breath']").val());
+      let arm_girth_relaxed = Number($("[name='arm_girth_relaxed']").val());
+      let thigh_girth = Number($("[name='thigh_girth']").val());
+      let calf_girth = Number($("[name='calf_girth']").val());
+
+      let s = somatotype.Somatotype(gender, height, weight, triceps_skinfold, subscapularis_skinfold, supraspinal_skinfold, abdominal_skinfold, frontthigh_skinfold, calf_skinfold, humerus_breath, femur_breath, arm_girth_relaxed, calf_girth);
+      $('#ectomorph').val(s.getEctomorph());
+      $('#mesomorph').val(s.getMesomorph());
+      $('#endomorph').val(s.getEndomorph());
+
+      if ($("#canvas").length > 0) {
+        let canvas = $("#canvas").get(0);
+
+        if (canvas.getContext) {
+          console.log("Canvas creation");
+          let ctx = canvas.getContext("2d");
+          let axis1 = (((0.83*s.getEctomorph())-(0.83*s.getEndomorph()))+5)*40;
+          let axis2 = (7-s.getMesomorph()+(0.5*s.getEctomorph())+(0.5*s.getEndomorph()))*35;
+          ctx.font='bold 24px Segoe UI';
+          ctx.fillStyle='red';
+          ctx.fillText("X You",axis1,axis2);
+        }
+      }
+    });
+
     $("#calculator_kreatin").submit(function(e) {
       console.log("Calculate Kreatin");
       e.preventDefault();
@@ -526,6 +839,13 @@ $(function() {
       $("#hrc").val(o_vam.getHRC().toFixed(2));
 
       $("#speed_meter_min").val(o_vam.getVVO2maxPrMin(hr_max).toFixed(0));
+
+      let converter = running.Running();
+      
+      $("#speed_kmt").val(converter.convertMetersPrMinuteToKmHour(o_vam.getVVO2maxPrMin(hr_max)).toFixed(0));
+      $("#speed_min_km").val(converter.convertKmtToMinPerKm(converter.convertMetersPrMinuteToKmHour(o_vam.getVVO2maxPrMin(hr_max))));
+      $("#sec_400").val((400 / (o_vam.getVVO2maxPrMin(hr_max) / 60).toFixed(0)));
+
     });
     $("#calculator_kroppens_rumfang").submit(function(e) {
       console.log("Calculate Kroppens Rumfang");
@@ -2281,16 +2601,22 @@ $(function() {
       console.log("Calculate RER");
       e.preventDefault();
 
-      let r = $("[name='r']").val();
-      let o = $("[name='o']").val();
+      let formula = $("[name='ee-formula']").val();
+      let vco2 = Number($("[name='rer_vco2']").val());
+      let vo2 = Number($("[name='rer_vo2']").val());
 
-      let b = rer.RER(r, o);
+      let a = ee.EnergyExpenditure(vo2, vco2, formula);
+      let kcal = a.getEnergyExpenditureInJoule() / 4.1896 * 60 / 1000; // convert from J/s to kcal/min
 
-      $("[name='energy_expenditure']").val(b.getKcalMin().toFixed(0));
-      $("[name='energy_fat_percent']").val(b.getFatPercent().toFixed(2) * 100);
-      $("[name='energy_cho_percent']").val(b.getCHOPercent().toFixed(2) * 100);
-      $("[name='energy_fat_kcal_min']").val(b.getCaloriesFromFat().toFixed(2));
-      $("[name='energy_cho_kcal_min']").val(b.getCaloriesFromCHO().toFixed(2));
+      let b = rer.RER(vo2, vco2);
+
+      $("[name='rer_r']").val(b.getRER().toFixed(2));
+      $("[name='energy_expenditure']").val(kcal.toFixed(2));
+      $("[name='energy_fat_percent']").val((b.getFatPercent()* 100).toFixed(0));
+      $("[name='energy_cho_percent']").val((b.getCHOPercent() * 100).toFixed(0));
+      
+      $("[name='energy_fat_kcal_min']").val((kcal * b.getFatPercent()).toFixed(2));
+      $("[name='energy_cho_kcal_min']").val((kcal * b.getCHOPercent()).toFixed(2));
   });
   // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_lung").submit(function(e) {
