@@ -2,6 +2,15 @@
     <fieldset>
         <legend>Cooper 12 minutter. Indtast de målte værdier</legend>
         <div class="form-group">
+            <label>Formel for udregning af kondital
+            <select name="cooper-12min-formula">
+                <option value="wikipedia">Cooper (1968)</option>
+                <option value="cooper">Cooper (1976)</option>
+                <option value="bandyopadhyay">Bandyopadhyay (2015)</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
             <label>Distance (m)
                 <input type="number" min="500" max="6000" id="distance" placeholder="Distance i m" required>
             </label>

@@ -16,7 +16,7 @@ tags:
   - politi
 ---
 
-Politiet har en række fysiske tests til optagelsesprøven. Jeg gennemgår her de fysiske krav, du skal kunne bestå for komme igennem politiets optagelsesprøve.
+Politiet har en række fysiske tests til optagelsesprøven. Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå politiets fysiske optagelsesprøve.
 
 Hvad er politiets fysiske tests? **Politiets fysiske tests består af opvarmning, hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meters løbetest. Testene bedømmes forskelligt for mænd og kvinder, og øvelsen til kropshævninger er for mænd pullups, mens den er bodyrows for kvinder. Du skal bestå alle de fysiske tests i politiets optagelsesprøve for at bestå de fysiske krav.**
 
@@ -84,7 +84,7 @@ Opvarmningen er den første del af politiets fysiske optagelsesprøve. Opvarmnin
 
 {% include video provider="youtube" id="isDmCC3_fPk" %}
 
-Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opdelt i en løbedel, hoppedel og en styrkedel. Du kan læse [hele programmet for opvarmningen til den politiets fysiske optagelsesprøve i denne PDF](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/opvarmning-2019-aa.pdf).
+Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opdelt i en løbedel, hoppedel og en styrkedel. Du kan læse hele programmet for opvarmningen til den politiets fysiske optagelsesprøve i denne [PDF](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/opvarmning-2019-aa.pdf).
 
 Du kan forberede dig godt på opvarmningen, for det er altid de samme øvelser, der laves.
 

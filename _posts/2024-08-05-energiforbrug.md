@@ -10,10 +10,12 @@ header:
   caption: *title
 category:
   - Fysiologi
+  - Kondition
+  - Cykling
 tags:
   - beregner
   - fysiologi
-  - varmetræning
+  - cykling
 last_modified_at: 2024-08-04T10:14:14Z
 ---
 

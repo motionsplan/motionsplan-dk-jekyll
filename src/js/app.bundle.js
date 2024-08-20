@@ -29,7 +29,8 @@ const beeptest = require('./beeptest');
 const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
-const cooper_test = require('./cooper-running');
+const cooper_12min = require('./cooper-12min.js');
+const cooper_2400meter = require('./cooper-2400-meter.js');
 const running_weightchange = require('./running-weightloss');
 const riegel = require('./riegel');
 const fat = require('./fat-pct');
@@ -3295,10 +3296,11 @@ $(function() {
 
         let min = Number($("#tid_min").val());
         let sek = Number($("#tid_sek").val());
+        let formula = $("[name='cooper-2400meter-formula']").val();
 
-        let c = cooper_test.CooperRunning();
+        let c = cooper_2400meter.Cooper2400Meter();
 
-        $("#kondital").val(c.getVO22400MeterTest(min, sek));
+        $("#kondital").val(c.getVO2Max(min, sek, formula).toFixed(1));
     });
     // Calculate Cooper 12 min
     $("#calculator_cooper_test").submit(function(e) {
@@ -3306,10 +3308,11 @@ $(function() {
         e.preventDefault();
 
         let distance = Number($("#distance").val());
+        let formula = $("[name='cooper-12min-formula']").val();
 
-        let c = cooper_test.CooperRunning();
+        let c = cooper_12min.Cooper12Min();
 
-        $("#kondital").val(c.getVO212MinTest(distance).toFixed(0));
+        $("#kondital").val(c.getVO2Max(distance, formula).toFixed(1));
     });
     // Calculate Cooper 12 min
     $("#calculator_cooper_reverse_test").submit(function(e) {

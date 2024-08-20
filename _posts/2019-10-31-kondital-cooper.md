@@ -1,5 +1,5 @@
 ---
-title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
+title: "Cooper-test: Find dit kondital med 12 minutters løbetest"
 seo_title: "Cooper test • Nyt skema og beregner til kondital (2024)"
 description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
 permalink: /cooper-test/
@@ -23,7 +23,7 @@ tags:
   - beregner
   - featured
 popular: true
-last_modified_at: 2023-09-24T10:14:14Z
+last_modified_at: 2024-08-20T10:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png
@@ -73,11 +73,11 @@ Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på
 
 ## Hvordan laver du en Cooper-test?
 
-- Lav en **grundig general opvarmning**, hvor du også løber i det tempo, du forestiller dig at gennemføre Cooper-testen med.
+- Lav en **grundig generel opvarmning**, hvor du også løber i det tempo, du forestiller dig at gennemføre Cooper-testen med.
 - Testen er mest pålidelig til at forudsige konditallet, hvis du løber på en **flad rute**.
 - Løb så langt du kan på 12 minutter og **notér distancen**.
 
-## Udregn dit kondital fra Cooper-testen
+## Udregn dit kondital fra distancen
 
 {% include calculate-fitness-cooper.html %}
 
@@ -141,7 +141,7 @@ Tjek tabellerne længere nede på siden for at få en vurdering af din løbedist
 
 Lad os prøve at sammenligne med de bedste løbere i verden?
 
-## Hvad er rekorden for at løbe 12 minutter?
+## Hvad er rekorden 12 minutters løbetest?
 
 Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han 23,84 km/t i gennemsnit.
 
@@ -179,7 +179,7 @@ Du kan se de **oprindelige skemaer** til Cooper-testen her, men **læs lidt læn
 <details markdown="1">
   <summary>Se Coopers oprindelige skemaer og tabeller over distancer på Coopertesten</summary>
 
-### Cooper-test skema for mænd
+### Skema for mænd
 
 Tabellen for mænd over Cooper-testen kan også ses hos [BrianMAC Sports Coach](https://www.brianmac.co.uk/gentest.htm). Skemaet indeholder normative data taget direkte fra Cooper (1968).
 
@@ -193,7 +193,7 @@ Tabellen for mænd over Cooper-testen kan også ses hos [BrianMAC Sports Coach](
 | 40-49     | >2500m        | 2100-2500m      | 1700-2099m     | 1400-1699m       | <1400m      |
 | >50       | >2400m         | 2000-2400m      | 1600-1999m     | 1300-1599m       | <1300m      |
 
-### Cooper-test skema for kvinder
+### Skema for kvinder
 
 Tabellen for kvinder over Cooper-testen kan også ses hos [BrianMAC Sports Coach](https://www.brianmac.co.uk/gentest.htm). Skemaet indeholder normative data taget direkte fra Cooper (1968).
 
@@ -288,7 +288,7 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 - Det kræver fuld motivation for at gå _all out_ i alle 12 minutter
 - Testen løbes bedst på flad og lige vej, og allerhelst på løbebane
 
-## Hvad kan jeg bruge testen til?
+## Hvad kan jeg bruge Cooper-testen til?
 
 ### 1. Beregne dit kondital
 
@@ -320,9 +320,9 @@ Læs: [Konditionstræning og kredsløbstræning](/konditionstraening/)
 
 ## Konklusion
 
-Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Fordelen ved Cooper-testen er også, at den kan laves overalt og med store grupper ad gangen.
+Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Samtidig kan testen laves overalt og med store grupper ad gangen.
 
-Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-testen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
+Jeg synes ikke de oprindelige tabeller til vurdering af din præstation baseret på distancen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
