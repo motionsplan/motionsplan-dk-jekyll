@@ -23,7 +23,7 @@ author: jakob.nielsson
 
 Her er et forslag til et træningsprogram, som kan forberede dig hen mod politiets fysiske optagelsesprøve. Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter.
 
-Formålet med dette træningsprogram er at give dig mulighed for at træne, selvom du ikke har adgang til et fitnesscenter eller træningscenter, men stadig vil forberede dig til [politiets fysiske optagelsesprøve]({% link _posts/2020-08-17-politiets-fysiske-tests.md %}).
+Formålet med dette træningsprogram er at give dig mulighed for at træne, selvom du ikke har adgang til et fitnesscenter eller træningscenter, men stadig vil forberede dig til [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
 Jeg har lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvor jeg viser, hvordan de kan lave nogle af testene i den fysiske optagelsesprøve med et minimum af udstyr.
 
@@ -41,7 +41,7 @@ Mere træning er kun bedre end mindre træning, indtil det bliver for meget og b
 
 Formålet med løbetræningen og konditionstræningen er at flytte din [maksimale iltoptagelse]({% link _posts/2019-11-04-kondition-og-test.md %}) og din [løbeøkonomi](/lobeokonomi/).
 
-Det kan være en god ide i første uge at starte med at lave [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}). Vi har lavet en beregner, så du kan tjekke dit kondital, men du kan også kigge efter din karakter under beskrivelsen af [politiets fysiske optagelsesprøve]({% link _posts/2020-08-17-politiets-fysiske-tests.md %}).
+Det kan være en god ide i første uge at starte med at lave [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}). Vi har lavet en beregner, så du kan tjekke dit kondital, men du kan også kigge efter din karakter under beskrivelsen af [politiprøvens fysiske krav](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
 Jeg foreslår, at du **løber 2-3 gange om ugen**. Du kunne bygge løbetræningen op på denne måde:
 

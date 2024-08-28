@@ -870,7 +870,13 @@ $(function() {
       let hr = rpe.RPEStrength(have_weight, have_reps, have_rpe);
 
       $("[name='e1rm']").val(hr.getE1RM().toFixed(1));
-      $("[name='want_weight']").val(hr.getWantWeight(want_reps, want_rpe).toFixed(1));
+      let want_weight = hr.getWantWeight(want_reps, want_rpe);
+      if (want_weight > 0) {
+        $("[name='want_weight']").val(want_weight.toFixed(1));
+      } else {
+        $("[name='want_weight']").val("Kan ikke udregnes. Sænk reps, eller gør RPE højere.");
+      }
+      
     });
     $("#calculator_fat_bai").submit(function(e) {
       console.log("Calculate BAI");

@@ -1,6 +1,6 @@
 let motionsplan = {}
 
-// TODO - NY GANGTE>ST _ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8434117/
+// TODO - NY GANGTEST _ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8434117/
 // TODO - NY GANGTEST - https://pubmed.ncbi.nlm.nih.gov/22821953/
 // 3K-test -- https://pubmed.ncbi.nlm.nih.gov/33092333/
 // VO2max -- running paces -- ?
