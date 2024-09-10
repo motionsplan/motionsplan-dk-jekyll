@@ -29,7 +29,11 @@ faq:
     answer: Begge kvotienter er forholdet mellem mængden af kuldioxid, der udskilles, divideret med mængden af ilt, der optages, på samme tid. Forskellen er at den metaboliske kvotient måles på celleniveau, mens den respiratoriske kvotient måles i udåndingsluften.
 ---
 
-Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. Derfor forklarer jeg lidt mere om, hvad den respiratoriske udviklingskvotient er i forhold til den metaboliske udvekslingskvotient (RQ).
+Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. 
+
+Her kan du lære lidt mere om, hvad den respiratoriske udviklingskvotient (R eller RER) er i forhold til den metaboliske udvekslingskvotient (RQ).
+
+Vi har også inkluderet en beregner, så du kan udregne energiproduktionen fra hhv. fedt og kulhydrat, når du kender iltoptagelsen og udskillelsen af kuldioxid.
 
 *[R]: Respiratoriske udvekslingskvotient
 *[RER]: Respiratoriske udvekslingskvotient
@@ -37,7 +41,7 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 
 ## Hvad er den respiratoriske udviklingskvotient (RER)?
 
-**Den respiratoriske udvekslingskvotient er den mængde kuldioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+**Den respiratoriske udvekslingskvotient er den mængde kuldioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde ilt (O<sub>2</sub>), der optages i samme tidsrum.**
 
 {% include video provider="youtube" id="_NevUAOpQAw" %}
 
@@ -47,9 +51,9 @@ Den respiratoriske udvekslingskvotient (RER) afhænger af, hvilke næringsstoffe
 
 ## Hvad er den metaboliske udviklingskvotient (RQ)?
 
-**Den metaboliske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde oxygen (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
+**Den metaboliske udvekslingskvotient er den mængde kuldioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde ilt (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
 
-RQ varierer mellem 0,6 og 1,0 og afspejler den øjeblikkelige CO<sub>2</sub>-produktion i vævene delt med det samtidige O<sub>2</sub>-forbrug.
+RQ varierer mellem 0,7 og 1,0 og afspejler den øjeblikkelige CO<sub>2</sub>-produktion i vævene delt med det samtidige O<sub>2</sub>-forbrug.
 
 I _steady state_ er den respiratoriske udvekslingskvotient lig med den metaboliske udvekslingskvotient, men hvis man hyperventilerer, så kan RER være væsentlig større end RQ, mens hypoventilation vil nedsætte RER.
 
@@ -79,7 +83,7 @@ Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer me
 | 0,95 | 16          | 84               |
 | 1,00 | 0           | 100              |
 
-Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du ikke længere forbrænder fedt under selve aktiviteten, og du formentlig også begynder at hyperventilere.
+Jo højere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du ikke længere forbrænder fedt under selve aktiviteten, og du begynder at hyperventilere.
 
 RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse.
 
@@ -148,11 +152,11 @@ Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive prod
 
 Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en [ophobning af mælkesyre](/maelkesyre-traening/). For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
 
-Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER-værdier på mere end 1,1.
+Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER-værdier på mere end 1,10-1,15.
 
 Udskillelsen af CO<sub>2</sub> gennem udåndingsluften kan i øvrigt stige efter arbejdet er ophørt, og det vil man ofte se i en laboratorietest.
 
-Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
+Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium](/iltoptagelse-laboratorietest/).
 
 ## Ofte stillede spørgsmål
 

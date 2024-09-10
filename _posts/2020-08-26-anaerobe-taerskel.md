@@ -71,7 +71,7 @@ En standardberegning passer naturligvis ikke på alle mennesker. Maffetone fores
 
 ## Hvordan tester jeg min anaerobe tærskel?
 
-Du kan naturligvis få testet din anaerobe tærskel i et laboratorium, hvor du kan få målt laktat jævnligt med professionelt udstyr. Typisk vil man lave testen som en "trappe"-test, hvor man gradvist sætter tempoet op og tager laktatmålinger undervejs. Det kan fx ske sammen med en [submaksimal test af iltoptagelsen]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
+Du kan naturligvis få testet din anaerobe tærskel i et laboratorium, hvor du kan få målt laktat jævnligt med professionelt udstyr. Typisk vil man lave testen som en "trappe"-test, hvor man gradvist sætter tempoet op og tager laktatmålinger undervejs. Det kan fx ske sammen med en [submaksimal test af iltoptagelsen](/iltoptagelse-laboratorietest/).
 
 Du kan også teste den lidt mere **lavpraktisk**, hvis du gerne vil have en ide om, hvor din **anaerobe tærskel** ligger i forhold til din puls og hastighed. Her skal du arbejde maksimalt i en periode på omkring 30 minutter - 60 minutter.
 

@@ -101,7 +101,7 @@ Løbebåndet var sat på 1% hældning, fordi man i studier har fundet, at hældn
 
 Den anden tur på løbebånd var på et kurvet løbebånd for at vænne sig til en lidt anden måde at løbe på. De løb her fire minutter på fem forskellige hastigheder (40, 50, 60, 70 og 80 procent) af deres maksimale hastighed med 3 minutters passiv restitution imellem intervallerne for at vænnes sig til protokollen, som skulle løbes på de to sidste ture på løbebåndet.
 
-På de to sidste forsøgsgange skulle de løbe samme protokol på hhv. et motoriseret og et kurvet løbebånd uden motor. På det sidste minut af hvert interval målte forskerne løbernes iltoptagelse, [respiratoriske udvekslingskvotient (RER)]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}) og pulsen, og forskerne spurgte også efter Rate of Perceived Exertion (altså en værdi på intensitetsskalaen, som ligner [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %})).
+På de to sidste forsøgsgange skulle de løbe samme protokol på hhv. et motoriseret og et kurvet løbebånd uden motor. På det sidste minut af hvert interval målte forskerne løbernes iltoptagelse, [respiratoriske udvekslingskvotient (RER)](/respiratoriske-metaboliske-udvekslingskvotient/) og pulsen, og forskerne spurgte også efter Rate of Perceived Exertion (altså en værdi på intensitetsskalaen, som ligner [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %})).
 
 Studiet viste at løberne bruger 30 procent mere energi på den kurvede, ikke-motoriserede løbebånd.
 

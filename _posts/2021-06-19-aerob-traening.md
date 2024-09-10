@@ -21,7 +21,7 @@ Aerob træning handler om at træne det aerobe energisystem. Det er den del af e
 
 Jeg har skrevet uddybende om [det aerobe og anaerobe energisystem](/energisystemer/) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning](/anaerob-traening/).
 
-Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
+Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
 
 I dette indlæg kan du få svar på følgende spørgsmål:
 

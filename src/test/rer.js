@@ -32,10 +32,24 @@ describe('RER', function() {
       assert.equal(hr.getCHOPercent(), 0.5);
     });
   });
-  describe('getCaloriesFromCHO()', function() {
+  describe('getCHOInGramsPrMin()', function() {
     it('should return the correct number', function() {
       let hr = motionsplan.RER(2, 1.7);
-      assert.equal(hr.getCaloriesFromCHO(), 4.8622);
+      assert.equal(hr.getCHOInGramsPrMin(), 1.1576666666666666);
+    });
+    it('should return the correct number', function() {
+      let hr = motionsplan.RER(4, 4);
+      assert.equal(hr.getCHOInGramsPrMin(), 4.806666666666666);
+    });
+  });
+  describe('getFatInGramsPrMin()', function() {
+    it('should return the correct number', function() {
+      let hr = motionsplan.RER(2, 1.7);
+      assert.equal(hr.getFatInGramsPrMin(), 0.5172553191489361);
+    });
+    it('should return the correct number', function() {
+      let hr = motionsplan.RER(4, 4);
+      assert.equal(hr.getFatInGramsPrMin(), 0);
     });
   });
 });

@@ -99,7 +99,7 @@ Følgende tabel giver et godt overblik over effektiviteten af det anaerobe og ae
 
 I nedenstående tabel er der det groft estimat på, hvor meget energi man har tilgængelig i kroppen. Energilagrene bliver brugt i de forskellige energisystemer. Fx kan ATP og CrP bruges direkte i det **anaerobe system** til kortvarige intense energiudladninger og muskelsammentrækninger. Det anaerobe system kan også spalte kulhydrat og hurtigt få endnu mere energi, dog med [mælkesyre](/maelkesyre-traening/) som biprodukt.
 
-Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i den aerobe proces varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
+Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i den aerobe proces varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
 
 | Aktivitet | Mængde | Energi | Arbejdstid |
 |-|-|-|-|

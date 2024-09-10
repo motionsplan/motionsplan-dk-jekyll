@@ -48,13 +48,25 @@ motionsplan.RER = function(vo2, vco2) {
     return getCHOPercent() * getKcalMin();
   }
 
+  function getCHOInGramsPrMin() {
+    return getCaloriesFromCHO() / 4.2;
+  }
+
+
+  // Source https://culinarylore.com/food-science:measuring-calories-from-food-protein-fats-and-carbohydrates/
+  function getFatInGramsPrMin() {
+    return getCaloriesFromFat() / 9.4;
+  }
+
   let publicAPI = {
     getRER : getRER,
     getKcalMin : getKcalMin,
     getFatPercent : getFatPercent,
     getCHOPercent : getCHOPercent,
     getCaloriesFromCHO : getCaloriesFromCHO,
-    getCaloriesFromFat : getCaloriesFromFat
+    getCaloriesFromFat : getCaloriesFromFat,
+    getCHOInGramsPrMin : getCHOInGramsPrMin,
+    getFatInGramsPrMin : getFatInGramsPrMin
   };
 
   return publicAPI;

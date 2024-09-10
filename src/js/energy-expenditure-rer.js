@@ -2,7 +2,7 @@ let motionsplan = {};
 
 // Se also - https://www.researchgate.net/publication/254744636_Comparison_of_energy_expenditure_calculations
 
-// L / m
+// vo2 in L / m
 motionsplan.EnergyExpenditureRER = function(vo2, rer, formula = "lusk") {
 
   function getEnergyExpenditureInJoule() {
