@@ -36,6 +36,21 @@ Testen bygger på en forudsætning om, at desto større afstand der er mellem hv
 
 Testen er baseret på en test af veltrænede mænd i alderen 20-50 år. Det betyder, at man ikke kan forvente, at testen er præcis på andre målgrupper.
 
+{% comment %}
+Later studies have revised the constant factor for different populations. According to Voutilainen et al. 2020, the constant factor should be 14 in around 40-year-old normal weight never-smoking men with no cardiovascular diseases, bronchial asthma, or cancer.[11] Every 10 years of age reduces the coefficient by one, as well as does the change in body weight from normal weight to obese or the change from never-smoker to current smoker. Consequently, V̇O2 max of 60-year-old obese current smoker men should be estimated by multiplying the HRmax to HRrest ratio by 10.
+
+TODO - måske skal vi slette noget af det med hvilepuls og maxpuls og bare henvise til de andre artikler.
+
+ Voutilainen, Ari; Mounir Ould Setti; Tomi-Pekka Tuomainen (July 2020). "Estimating Maximal Oxygen Uptake from the Ratio of Heart Rate at Maximal Exercise to Heart Rate at Rest in Middle-Aged Men" (PDF). World J Mens Health. 38 (4): 666–672. doi:10.5534/wjmh.200055. ISSN 2287-4208. PMC 8443998. PMID 32777866.
+
+ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8443998/
+
+ https://portal.findresearcher.sdu.dk/en/publications/estimation-of-maximal-oxygen-uptake-using-the-heart-rate-ratio-me
+
+
+ Se alternativ med netHR.
+{% endcomment %}
+
 ## Måling af hvilepulsen
 
 Det bedste tidspunkt at måle hvilepulsen lige før, at du står op om morgenen. Hvis ikke du har mulighed for det, så kan du lægge dig ned og hvile i fem minutter og derefter tage hvilepulsen. Hold et ubesværet åndedræt.
@@ -84,15 +99,17 @@ Denne formel har vist sig at være mere præcis end den tidligere tommelfingerre
 
 ## Formlen bag beregneren af kondital
 
-[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har lavet en formel, hvor du kan estimere dit kondital på baggrund af forholdet mellem din maxpuls og din hvilepuls. Formlen til at estimere konditallet ser sådan her ud.
+[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har lavet en formel, hvor du kan estimere dit kondital på baggrund af forholdet mellem din maxpuls og din hvilepuls. 
+
+Formlen ser sådan her ud:
 
 {% include math formula="kondital = \frac{maxpuls}{hvilepuls}*15.3" %}
 
-For at finde den absolutte iltoptagelse dividerer vi med 1000 ml/l og ganger med vægten i kilo.
+For at finde iltoptagelsen dividerer vi med 1000 ml/l og ganger med vægten i kilo.
 
 {% include math formula="VO_2max = \frac{kondital * bodyweight}{1000}" %}
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 
 ## Referencer
 

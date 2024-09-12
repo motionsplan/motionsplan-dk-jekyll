@@ -3327,7 +3327,7 @@ $(function() {
 
       let kondital = Number($("#reverse-kondital").val());
 
-      let c = cooper_test.CooperRunning();
+      let c = cooper_12min.Cooper12Min();
 
       $("#reverse-distance").val(c.getDistanceFromVO2Max(kondital).toFixed(0));
     });

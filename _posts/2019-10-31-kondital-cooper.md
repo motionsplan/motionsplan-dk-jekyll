@@ -24,7 +24,6 @@ tags:
   - featured
 popular: true
 last_modified_at: 2024-08-20T10:14:14Z
-toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png
     alt: "Tabel og skema over Cooper-test"
@@ -89,13 +88,13 @@ Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering 
 
 Formålet med testen er at se, hvor hurtigt du kan løbe på 12 minutter.
 
-Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten.
+Når du beregner konditallet ud fra Coopertesten, så er vægten allerede inkluderet det tal du får. Konditallet er jo som bekendt VO<sub>2</sub>-max divideret med kropsvægten, som måles i ml/kg/min.
 
 Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
 
 Når en person der vejer det dobbelte, nemlig 100 kg, skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min.
 
-Da personen jo netop har dobbelt så høj kropsvægt, så ender konditallet med at være det samme.
+Da personen har dobbelt så høj kropsvægt, så ender konditallet for de to personer med at være det samme.
 
 ## Formel til at udregne konditallet fra Cooper-testen
 
