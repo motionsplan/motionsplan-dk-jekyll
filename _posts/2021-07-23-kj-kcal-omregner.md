@@ -47,7 +47,7 @@ Beregneren omregner fra kalorier til kilojoule. Du skal altså gange antallet af
 
 De fleste madvarer i Danmark har både kalorier og kilojoule i varedeklarationen, men energibetegnelserne bliver ofte anvendt alene forskellige steder. Hvis du fx er vant til at tænke i kalorier, men læser noget hvor svarene er i kJ, så er det rart hurtigt at kunne omregne værdierne.
 
-Hvis du fx bruger vores [beregner til ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), så er det godt at kunne omregne til din foretrukne energiangivelse.
+Hvis du fx bruger vores [beregner til ligevægtsindtag](/ligevaegtsindtag-beregner/), så er det godt at kunne omregne til din foretrukne energiangivelse.
 
 ## Kilokalorier (kcal) vs. kiloJoule (kJ)?
 

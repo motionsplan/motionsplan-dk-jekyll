@@ -83,7 +83,7 @@ Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (P
 
 ## Flere beregnere til dit daglig energibehov
 
-Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
+Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
 
 Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde en på [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 

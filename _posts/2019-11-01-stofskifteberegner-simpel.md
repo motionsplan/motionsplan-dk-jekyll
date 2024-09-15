@@ -64,7 +64,7 @@ Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinducere
 
 Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
-Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), så har jeg også skrevet om det.
+Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag](/ligevaegtsindtag-beregner/), så har jeg også skrevet om det.
 
 ## Er der forskel på hvilestofskiftet og basalstofskiftet?
 
@@ -134,7 +134,7 @@ I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/
 
 W er vægt i kg. H er højde i meter.
 
-**Eksempel:** en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
+**Eksempel:** en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her](/hvad-er-kalorier/).
 {: .notice .notice--info }
 </details>
 
@@ -168,7 +168,7 @@ W er vægt i kg. H er højde i meter.
 
 V er vægt i kg.
 
-Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
+Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her](/hvad-er-kalorier/).
 {: .notice .notice--info }
 </details>
 
@@ -309,7 +309,7 @@ I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
 Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg](/kropskomposition/) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
 
 {% comment %}
 ## Hvad kan du bruge hvilestofskiftet til?
