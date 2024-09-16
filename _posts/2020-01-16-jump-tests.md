@@ -93,7 +93,7 @@ Ulemperne er, at man kan lande med bøjede ben eller på hælene, hvilket kunsti
 
 {% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
 
-<div class="feature__row">
+<div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}

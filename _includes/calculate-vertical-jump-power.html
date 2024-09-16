@@ -1,13 +1,19 @@
+{% assign title = include.title | default: "Jump and Reach-testen" %}
+{% assign type = include.type | default: "jump_and_reach" %}
 <form class="calculator" id="calculator_jump_reach_power">
     <fieldset>
-        <legend>Udregning af Power fra Jump and Reach-testen</legend>
+        <legend>Udregning af power fra {{ title }}</legend>
         <div class="form-group">
             <label>Formel for udregning af power
             <select name="jump-reach-formula" id="jump-reach-formula">
                 <option value="lewis">Lewis 1974</option>
+                {% if type == "sj_and_cmj" %}
                 <option value="sayers_cmj">Sayers 1999 (CMJ)</option>
                 <option value="sayers_sj">Sayers 1999 (SJ)</option>
+                {% endif %}
+                {% if type == "jump_and_reach" %}
                 <option value="johnsonbahmamonde">Johnson & Bahamonde 1996</option>
+                {% endif %}
                 <option value="harman" selected="selected">Harman 1991</option>
             </select>
             </label>
