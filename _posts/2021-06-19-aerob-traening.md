@@ -124,7 +124,7 @@ Du kan se mange flere eksempler under [intervalløb](/intervallob-intervaltraeni
 
 Når man laver aerob træning, så er intensiteten vigtig. Det er blevet ret populært at lave _polarized_ træning. Det betyder, at man enten arbejder meget intenst eller relaivt lavintenst.
 
-Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) eller hvad [HIIT-træning og HIIT-intervaller egentlig er]({% link _posts/2020-09-22-hiit.md %}). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
+Du kan læse mere her om, hvad [intensiteten betyder for din træning af den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) eller hvad [HIIT-træning og HIIT-intervaller egentlig er](/hiit/). I disse indlæg bliver det også klart, hvordan aerob og anaerob træning påvirker hinanden.
 
 Desto bedre det aerobe system virker, desto bedre bliver din [anaerobe tærskel](/anaerobe-taerskel/) også, så du kan fjerne [mælkesyren](/maelkesyre-traening/) lige så hurtigt, som du danner den.
 

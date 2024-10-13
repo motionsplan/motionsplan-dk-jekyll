@@ -1,5 +1,9 @@
 let motionsplan = {};
 
+// @param bsa Body Surface Area
+// @param temp_radiator Would be the body in this case
+// @param temp_surroundings air temperature
+// @param d Distance until temperature drops to drops to the ambient temperature:
 motionsplan.HeatLossFromConduction = function(bsa, temp_radiator = 37, temp_surroundings = 0, d = 5) {
 
   let t = temp_radiator;

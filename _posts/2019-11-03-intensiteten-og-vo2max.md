@@ -17,7 +17,6 @@ tags:
   - maksimal iltoptagelse
   - vo2 max
 last_modified_at: 2021-03-06T23:14:14Z
-toc: true
 ---
 
 Din maksimale iltoptagelse eller VO<sub>2</sub>max er en af elementerne i din [kondition](/kondition/). Den maksimale iltoptagelse kalder man også VO2 max.
@@ -26,9 +25,11 @@ Hvad er den maksimale iltoptagelse (VO2 max)? **Den maksimale iltoptagelse (VO2 
 
 Du kan bruge den maksimale iltoptagelse (VO2 max) til at fortælle, hvor god form du er i forhold til andre atleter. For at kunne sammenligne dig med andre, så omregner man den maksimale iltoptagelse til et [kondital](/kondital/). Konditallet er den maksimale iltoptagelse delt med din vægt.
 
-Kredsløbet består af flere forskellige afhængige systemer. Hvis man gerne vil forbedre den maksimale tiloptagelse (VO<sub>2</sub>max), så skal man arbejde i nærheden af den maksimale iltoptagelse. Det er ikke så overraskende ud fra specificitetsprincippet (SAID).
+Kredsløbet består af flere forskellige afhængige systemer. Hvis du gerne vil forbedre din maksimale tiloptagelse (VO<sub>2</sub>max), så skal du arbejde i nærheden af den maksimale iltoptagelse.
 
-I aerobe udholdenhedsidrætter afhænger præstationen bl.a. af den maksimale iltoptagelse, og derfor er det selvfølgelig interessant at have kendskab til træningsmetoder, der kan forbedre VO<sub>2</sub>max mest effektivt.
+Det er ikke så overraskende ud fra specificitetsprincippet (SAID).
+
+I aerobe udholdenhedsidrætter afhænger præstationen bl.a. af den maksimale iltoptagelse. Derfor er det selvfølgelig interessant at have kendskab til træningsmetoder, der kan forbedre VO<sub>2</sub>max mest effektivt.
 
 En forøgelse af den maksimale iltoptagelse antages generelt at afhænge af arbejdets intensitet, varighed og frekvens.
 
@@ -50,7 +51,7 @@ VO2 max er altså den maksimale volumen ilt, du kan optage i minuttet. Musklerne
 
 ## Hvordan måler jeg den maksimale iltoptagelse (VO2 max)?
 
-Du kan enten måle den maksimale iltoptagelse **direkte** i et laboratorium ved at måle på indånding og udåndingsluften.
+Du kan enten måle den maksimale iltoptagelse **direkte** i et laboratorium ved at måle på indånding og udåndingsluften. Læs mere om [iltoptagelsestest med maske](/iltoptagelse-laboratorietest/).
 
 Du kan også lave **indirekte** målinger baseret på forskellige tests, hvor [Cooper testen](/cooper-test/) og [bip-testen](/bip-test/) er meget populære tests.
 
@@ -62,15 +63,30 @@ For at forbedre din VO2max, så skal du træne [konditionstræning](/konditionst
 
 {% comment %}
 
+## TODO
+
 ## Hvordan forbedrer jeg min VO2 max?
 
 Træning. Udholdenhedssport. Bakketræning og intervaltræning er blandt de mest effektive metoder til at forbedre din maksimalt iltoptagelse.
 
-Parametre som påvirker VO2 Max Højde. Bevæger du dig op i højderne vil din maksimale iltoptagelse sænkes. Det skyldes at koncentrationen af ilt ændres. Ilten bliver tyndere. Alder. Din maksimale iltoptagelse falder med alderen. Der er derfor ikke noget bedre tidspunkt end NU til at komme i dit livs bedste form. Køn. Mænd har en højere værdi af VO2 max end kvinder. Træning. Der eksperimenteres meget i at træne VO2 max blandt sportsudøvere, og det er blandt de væsentligste faktorer for hvordan du performer i udholdenhedssport. Hvordan udregner jeg mit kondital ud fra VO2 max? Jeg anbefaler dig at gå til min beregner, som konverterer VO2 max værdier til kondital. Du kan finde alle beregnere her. Overorndet set beregnes VO2 max ud fra to forskellige betragtninger:
+## Parametre som påvirker VO2 Max 
 
-Den absolutte VO2 max, som måles i ml ilt/min Den relative VO2 max, som måles i ml ilt/kg/min Konditallet tager udgangspunkt i din relative VO2 max, altså hvor din kropsvægt også har betydning for din samlede værdi.
+Højde. Bevæger du dig op i højderne vil din maksimale iltoptagelse sænkes. Det skyldes at koncentrationen af ilt ændres. Ilten bliver tyndere. Alder. Din maksimale iltoptagelse falder med alderen. Der er derfor ikke noget bedre tidspunkt end NU til at komme i dit livs bedste form. Køn. Mænd har en højere værdi af VO2 max end kvinder. Træning. Der eksperimenteres meget i at træne VO2 max blandt sportsudøvere, og det er blandt de væsentligste faktorer for hvordan du performer i udholdenhedssport. Hvordan udregner jeg mit kondital ud fra VO2 max? Jeg anbefaler dig at gå til min beregner, som konverterer VO2 max værdier til kondital. Du kan finde alle beregnere her.
 
-Gå til alle beregnere Sportsudøvere med verdens højeste VO2 max En af mine favoritsportsudøvere, Killian Journet, er blevet målt til at have verdens højeste maksimale iltoptagelse og et kondital på 92. Prøv at beregn din egen maksimale iltoptagelse og kondital og du vil blive overrasket over hvor enormt det er at have de tal som Killian Journet har. Til sammenligning havde Lance Armstrong et kondital på 84, Miguel Indurain havde et på 88 og Greg Lemond kom lige op i nærheden af 92. Ingen mennesker slår dog hesten, som kan have kondital op i omegnen og over 200.
+Overorndet set beregnes VO2 max ud fra to forskellige betragtninger:
+
+- Den absolutte VO2 max, som måles i ml ilt/min
+- Den relative VO2 max, som måles i ml ilt/kg/min
+
+Konditallet tager udgangspunkt i din relative VO2 max, altså hvor din kropsvægt også har betydning for din samlede værdi.
+
+## Sportsudøvere med verdens højeste VO2 max
+
+En af mine favoritsportsudøvere, Killian Journet, er blevet målt til at have verdens højeste maksimale iltoptagelse og et kondital på 92. Prøv at beregn din egen maksimale iltoptagelse og kondital og du vil blive overrasket over hvor enormt det er at have de tal som Killian Journet har.
+
+Til sammenligning havde Lance Armstrong et kondital på 84, Miguel Indurain havde et på 88 og Greg Lemond kom lige op i nærheden af 92.
+
+Ingen mennesker slår dog hesten, som kan have kondital op i omegnen og over 200.
 
 {% endcomment %}
 
@@ -101,7 +117,9 @@ Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale pu
 
 [Anette Dalbøge](https://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
 
-Derudover viser studiet, at man ikke kan kompensere for en reduceret arbejdsintensitet ved at forøge arbejdstiden for at opretholde det samme totale arbejde, hvis du gerne vil forbedre din maksimale iltoptagelse. Intensiteten ser ud til at være afgørende for at forbedre VO<sub>2</sub>max.
+Derudover viser studiet, at du ikke kan kompensere for en reduceret arbejdsintensitet ved at forøge arbejdstiden for at opretholde det samme totale arbejde, hvis du gerne vil forbedre din maksimale iltoptagelse.
+
+Intensiteten ser ud til at være afgørende for at forbedre VO<sub>2</sub>max.
 
 ## Usikkerheder i studiet omkring forbedring af den maksimale iltoptagelse
 
@@ -123,9 +141,9 @@ Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i gruppe
 
 ## Konklusion
 
-Det bedste råd i øjeblikket er formentligt, at man skal huske at ramme sit energisystem bredt i sin træning. Hvis du vil flytte VO<sub>2</sub>max, skal du formentlig også lave intervaller med høj intensitet.
+Det bedste råd i øjeblikket er formentligt, at du skal huske at ramme sit energisystem bredt i din træning. Hvis du vil flytte VO<sub>2</sub>max, skal du formentlig også lave intervaller med høj intensitet.
 
-Du kan læse mere om, hvordan du med [HIIT-træning]({% link _posts/2020-09-22-hiit.md %}) kan forbedre din maksimale iltoptagelse.
+Du kan læse mere om, hvordan du med [HIIT-træning](/hiit/) kan forbedre din maksimale iltoptagelse.
 
 *[SAID]: Specific Adaptations to Imposed Demands
 *[LSD]: Long Slow Distance

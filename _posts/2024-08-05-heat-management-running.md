@@ -33,6 +33,8 @@ Lad os dykke ned i beregningerne.
 
 Rationalet er, at løbepræstationen kan oversættes til _power output_ målt i watt.
 
+Du kan prøve at udfylde formularen med de foreslåede gennemsnitlige værdier, eller du kan prøve med dine egne værdier.
+
 {% include calculate-heat-production-running.html %}
 
 Den estimerede varme der genereres med den løbeindsats på <span id="heat_run_power_output">844</span>W.
@@ -43,15 +45,15 @@ At slippe af med varmen er en af de vigtige begrænsninger for at løbe hurtigt.
 
 [Løbeøkonomien](/lobeokonomi/) har også stor betydning for, hvor meget varme der produceres ved en given hastighed.
 
-Du kan prøve at indtaste en typisk løbeøkonomi for eliteløbere på 190 ml O<sub>2</sub>/kg/km med en begynderløber på 230 ml O<sub>2</sub>/kg/km.
+Du kan prøve at indtaste en typisk løbeøkonomi for eliteløbere på 190 ml O<sub>2</sub>/kg/km og sammenligne den med en begynderløber på 230 ml O<sub>2</sub>/kg/km.
 
 Der er tydelig forskel på varmeproduktionen alt efter kropsvægt og løbeøkonomi.
 
-Du har altså en del varme, du skal af med, når du løber.
+Du skal altså af med en del varme, når du løber.
 
 ## 1. Varmetab til konvektion
 
-Den første måde at få køling på er ved konvektion. At vinden passerer huden og skaber køling.
+Den første måde at få køling af systemet på er ved konvektion. Når vinden passerer huden skaber det køling.
 
 Når vinden er koldere end kernetemperaturen, så oplever du køling. I løb er din hastighed imidlertid noget lavere end i cykling, så effekten er meget mindre.
 

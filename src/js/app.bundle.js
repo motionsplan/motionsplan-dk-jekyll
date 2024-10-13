@@ -2,6 +2,10 @@
 
 /* global $ */
 
+// Used for heat management on the bike
+const hb = require('./heat-balance');
+let heat_balance = hb.HeatBalance();
+
 const rpe = require('./rpe-strength');
 const how_tall = require('./how-tall');
 const water = require('./water-intake');
@@ -85,6 +89,7 @@ const heat_running = require('../js/heat-from-running');
 const vo2_efficiency = require('../js/vo2-efficiency');
 const ee = require('../js/energy-expenditure');
 const ee_rer = require('../js/energy-expenditure-rer');
+
 
 require('image-map-resizer');
 
@@ -517,6 +522,9 @@ $(function() {
       if ($("#heat_bike_bsa")) {
         $("#heat_bike_bsa").text(b.getBSA().toFixed(4));
       }
+      if ($("#heat_run_bsa")) {
+        $("#heat_run_bsa").text(b.getBSA().toFixed(4));
+      }
 
       if ($("[name='convection_bsa']")) {
         $("[name='convection_bsa']").val(b.getBSA().toFixed(4));
@@ -621,10 +629,21 @@ $(function() {
         let r = running.Running();
         $("[name='velocity_kmt']").val(r.convertMinPerKmToKmt(min, sec).toFixed(2));
       }
+
+      if ($("#heat_run_power_output")) {
+        $("#heat_run_power_output").text(b.getHeat().toFixed(0));
+      }
+
+      heat_balance.setTotal(b.getHeat());
+
+      if ($("[name='bsa_weight']")) {
+        $("[name='bsa_weight']").val(weight);
+      }
+      
     });
 
     $('#calculator_heat_production_biking').submit(function(e){
-      console.log("Calculate convection");
+      console.log("Calculate heat production biking");
       e.preventDefault();
 
       let power_output = Number($("[name='power_output']").val());
@@ -633,9 +652,14 @@ $(function() {
       let b = heat_biking.HeatFromBiking(power_output, efficiency);
 
       $("[name='heat_production_watts_biking']").val(b.getHeat().toFixed(0));
+      
+      // Filling in text fields
       $("#heat_bike_watt").text(b.getHeat().toFixed(0));
       $("#heat_bike_power_output").text(power_output);
       $("#heat_bike_efficiency").text(efficiency);
+
+      heat_balance.setTotal(b.getHeat());
+
     });
 
     $('#calculator_convection').submit(function(e){
@@ -650,18 +674,31 @@ $(function() {
       let b = heat_convection.HeatLossFromConvection(bsa, air_temperature, skin_temperature, velocity);
 
       $("[name='heatloss_convection']").val(b.getHeatLoss().toFixed());
-    });
 
-    $('#calculator_evaporation').submit(function(e){
-      console.log("Calculate evaporation");
-      e.preventDefault();
+      if ($("#radiation_skin_temperature")) {
+        $("#radiation_skin_temperature").val(skin_temperature);
+      }
 
-      let sweat_rate = Number($("[name='sweat_rate']").val());
-      let humidity = Number($("[name='humidity']").val());
+      if ($("#radiation_air_temperature")) {
+        $("#radiation_air_temperature").val(air_temperature);
+      }
 
-      let b = heat_evaporation.HeatLossFromEvaporation(sweat_rate, humidity);
+      if ($("#heat_bike_convection")) {
+        $("#heat_bike_convection").text(b.getHeatLoss().toFixed(0));
+      }
+      if ($("#heat_run_convection")) {
+        $("#heat_run_convection").text(b.getHeatLoss().toFixed(0));
+      }
 
-      $("[name='heatloss_evaporation']").val(b.getHeatLoss().toFixed(0));
+      heat_balance.setConvection(b.getHeatLoss());
+
+      if ($("#heat_bike_subtotal_1")) {
+        $("#heat_bike_subtotal_1").text(heat_balance.getBalance().toFixed(0));
+      }
+      
+      if ($("#heat_run_subtotal_1")) {
+        $("#heat_run_subtotal_1").text(heat_balance.getBalance().toFixed(0));
+      }
     });
 
     $('#calculator_radiation').submit(function(e){
@@ -678,10 +715,64 @@ $(function() {
 
       $("[name='heatloss_radiation']").val(b.getHeatLoss().toFixed(0));
 
-      if ($("#bike_economy_biking_economy")) {
-        $("#bike_economy_biking_economy").text(b.getCyclingEconomy(workrate_watt, vo2).toFixed(2));
+      if ($("#heat_bike_radiation")) {
+        $("#heat_bike_radiation").text(b.getHeatLoss().toFixed(0));
+      }
+      if ($("#heat_run_radiation")) {
+        $("#heat_run_radiation").text(b.getHeatLoss().toFixed(0));
       }
 
+      heat_balance.setRadiation(b.getHeatLoss());
+
+      if ($("#heat_bike_subtotal_2")) {
+        $("#heat_bike_subtotal_2").text(heat_balance.getBalance().toFixed(0));
+      }
+
+      if ($("#heat_run_subtotal_2")) {
+        $("#heat_run_subtotal_2").text(heat_balance.getBalance().toFixed(0));
+      }
+    });
+
+    $('#calculator_evaporation').submit(function(e){
+      console.log("Calculate evaporation");
+      e.preventDefault();
+
+      let sweat_rate = Number($("[name='sweat_rate']").val());
+      let humidity = Number($("[name='humidity']").val());
+
+      let b = heat_evaporation.HeatLossFromEvaporation(sweat_rate, humidity);
+
+      $("[name='heatloss_evaporation']").val(b.getHeatLoss().toFixed(0));
+
+      if ($("#heat_bike_evaporation")) {
+        $("#heat_bike_evaporation").text(b.getHeatLoss().toFixed(0));
+      }
+
+      if ($("#heat_run_evaporation")) {
+        $("#heat_run_evaporation").text(b.getHeatLoss().toFixed(0));
+      }
+
+      heat_balance.setEvaporation(b.getHeatLoss());
+
+      if ($("#heat_bike_subtotal_3")) {
+        $("#heat_bike_subtotal_3").text(heat_balance.getBalance().toFixed(0));
+      }
+
+      if ($("#heat_run_subtotal_3")) {
+        $("#heat_run_subtotal_3").text(heat_balance.getBalance().toFixed(0));
+      }
+
+      if (heat_balance.getBalance() > 0) {
+        $("#heat_run_message").text("Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du kan holde den stabil, så den ikke stiger for meget.");
+      } else {
+        $("#heat_run_message").text("Tillykke. Tallet er negativt. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.");
+      }
+
+      if (heat_balance.getBalance() > 0) {
+        $("#heat_bike_message").text("Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du kan holde den stabil, så den ikke stiger for meget.");
+      } else {
+        $("#heat_bike_message").text("Tillykke. Tallet er negativt. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.");
+      }
     });
 
     $('#calculator_conduction').submit(function(e){

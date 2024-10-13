@@ -254,6 +254,6 @@ Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metod
 
 ## Konklusion
 
-Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer](/energisystemer/). Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning](/artikel/traeningsprogrammer-intervaller-roning/). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
+Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer](/energisystemer/). Du kan også se intervaltræning under [HIIT træning](/hiit/), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning](/artikel/traeningsprogrammer-intervaller-roning/). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
 
 I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket energisystem du gerne vil træne.

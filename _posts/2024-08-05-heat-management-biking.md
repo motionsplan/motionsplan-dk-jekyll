@@ -1,5 +1,5 @@
 ---
-title: &title "️Varmehåndtering på cykel"
+title: "️Varmehåndtering på cykel"
 seo_title: "️Varmehåndtering i cykling"
 permalink: /varme-management-cykling/
 description: "Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde."

@@ -107,7 +107,7 @@ Formålet med de intensive intervaller med relativ kort pause er at træne toler
 
 Konditalintervaller er relativt intensive intervaller, hvor du arbejder omkring den maksimale iltoptagelse over længere tid. Intervallerne kan være organiseret på rigtig mange forskellige måder.
 
-Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse.
+Du kan også se intervaltræning under [HIIT træning](/hiit/), der virkelig skubber til den maksimale iltoptagelse.
 
 ### 5. Tærskelintervaller til anaerob tærskel
 

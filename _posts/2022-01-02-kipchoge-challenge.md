@@ -88,6 +88,7 @@ Her er nogle udvalgte løbetider, som du kan prøve at løbe efter. Du ændrer b
 | Eluid Kipchoge, Kenya | Berlin Maraton Mænd 2022 | 2:01:09 | 20,90 km/t |
 | Tigst Assefa, Etiopien | Berlin Marathon Kvinder 2023 | 2:11:53 | 19,20 km/t |
 | Brigid Kosgei, Kenya | Chicago Marathon Kvinder 2019 | 2:14:04 | 18,89 km/t |
+| Jacob Sommer Simonsen, Danmark | Dansk rekord Berlin 2024 | 2:07:51 | 19,8 km/t | 
 | Henrik Jørgensen, Danmark | Dansk rekord på maraton 1985 | 2:09:43 | 19,52 km/t |
 | Dorthe Skovshoved Rasmussen | Dansk rekord for kvinder på maraton 1989 | 2:29:34 | 16,93 km/t |
 
