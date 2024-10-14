@@ -54,7 +54,7 @@ Hudtemperaturen er typisk omkring 34 C i hvile, og din kernetemperatur er omkrin
 
 ## Lufttemperaturen er højere end hudtemperaturen
 
-{% include figure image_path="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool2.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1)" %}
+{% include figure image_path="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool3.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1)" %}
 
 Når lufttemperaturen er højere end kropstemperaturen, så bliver det lidt vanskeligere at komme af med varmen.
 
@@ -80,7 +80,9 @@ Beregneren er baseret på Stefan Boltzmanns formel for, hvor meget varme, der fo
 
 {% include math formula="\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" %}
 
-A er kroppens areal, og e er _emmisionsevnen_ af kroppen. Hvis kroppen var en perfekt radiator, så ville e være 1. Kroppen er faktisk en ret god radiator, så vi går ud fra at emmisionsevnen er 0,97. Temperaturerne skal være i Kelvin i formlen, men beregneren nedenfor antager, at du indtaster det i Celcius. Endelig er der Stefan Boltzmanns konstant σ, som du selv lige må slå op, hvis du vil regne det i hovedet.
+A er kroppens areal, og e er _emmisionsevnen_ af kroppen. Hvis kroppen var en perfekt radiator, så ville e være 1. Kroppen er faktisk en ret god radiator, så vi går ud fra at emmisionsevnen er 0,97.
+
+Temperaturerne skal være i Kelvin i formlen, men beregneren antager, at du indtaster det i Celcius. Endelig er der Stefan Boltzmanns konstant σ, som du selv lige må slå op, hvis du vil regne det i hovedet.
 
 ## Konduktion
 
@@ -108,21 +110,28 @@ Her kan vi tale om _konvektion_.
 
 ## Konvektion
 
-Når man skal estimere effekten af konvektion på kroppen, så hænger det ofte sammen med konduktion. Samlet set er kølingen fra konduktion og konvektion ikke tilstrækkeligt til at nedkøle kroppen, hvis man sidder stille.
+Når man skal estimere effekten af konvektion på kroppen, så hænger det ofte sammen med konduktion.
+
+Samlet set er kølingen fra konduktion og konvektion ikke tilstrækkeligt til at nedkøle kroppen, hvis man sidder stille.
 
 Det gør man imidlertid ikke så ofte i idræt.
 
-Konvekion er en af de basale mekanismer bag varmeoverførsel. Konvektion i temperaturreguleringen af mennesker foregår ved, at luften omkring kroppen bevæger sig.
+Konvektion er en af de basale mekanismer bag varmeoverførsel. Konvektion i temperaturreguleringen af mennesker foregår ved, at luften omkring kroppen bevæger sig.
 
 Ifølge [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c4) er den bedste måde at udregne varmetabet ved konvektion, at bruge udregningen for konduktion og **justere vægtykkelsen**, fordi luftbevægelsen reducerer det opvarmede lag, der er omkring huden.
 
-[Alan Couzens](https://www.alancouzens.com/blog/heat.html) udregner konvektionen lidt anderledes, hvilket jeg har valgt at tage med i denne beregner.
+[Alan Couzens](https://www.alancouzens.com/blog/heat.html) udregner konvektionen lidt anderledes. Han bruger bevægelseshastigheden. Jeg ved ikke nøjagtigt, hvor han har formlen fra.
+
+Men med bevægelseshastigheden, så ser beregningen sådan her ud.
 
 {% include calculate-heat-convection.html %}
 
 Hvis du bruger beregneren til konduktion og sammenligner med Alan Couzens tal for konvektion, så kan du se, at hvis du vælger ´d = 0,08 cm´ med tallene fra eksemplet, så ender du på nogenlunde samme nedkøling.
 
-## Evaporation af perspiration
+Hvis du kender en måde at beregne den nødvendige d i forhold til hastighed, så man bare kan bruge beregningerne for konduktion, så skriv endelig!
+{: .notice--info }
+
+## Fordampning af sved (evaporation af perspiration)
 
 Når den omgivende temperatur er højere end kropstemperaturen, så tilfører både radiation, konvektion og konvektion varme til kroppen.
 
@@ -146,7 +155,15 @@ Det er naturligvis lidt kompliceret at regne nøjagtigt ud, fordi energien kræv
 
 {% include calculate-heat-evaporation.html %}
 
-Jeg har ikke kunnet finde nogen referencer på, hvordan man præcist udregner evaporation.
+Jeg har ikke kunnet finde nogen referencer på, hvordan man præcist udregner evaporation. [Hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/sweat.html#c1) griber det lidt anderledes an.
+
+## Konklusion
+
+Når du arbejder, så genererer kroppen en masse varme. Heldigvis er den også dygtig til at temperaturregulere.
+
+Hvis du skal lave længerevarende træning, så kan det være en rigtig god ide at tænke over, hvordan du sørger for nedkøling af kroppen.
+
+Her kan du lade dig inspirere af de forskellige nedkølingsmekanismer.
 
 ## Referencer
 

@@ -23,7 +23,7 @@ motionsplan.HeatLossFromEvaporation = function(sweat_rate, humidity, formula = "
 
   // these values are far from Couzens
   // based on gram / day for the sweat rate.
-  // rewrote based on perplexity.ai
+  // http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/sweat.html#c1
   function getHyperPhysics() {
     const cal_gram = 580; // Latent heat of vaporization in cal/g
     const joule_cal = 4.186; // Joules per calorie
