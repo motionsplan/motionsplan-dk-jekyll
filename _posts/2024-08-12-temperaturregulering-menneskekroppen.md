@@ -134,7 +134,7 @@ Selvom du ikke synes du går rundt og sveder, så taber du ifølge [HyperPhysics
 
 Kølingseffekten udnytter, at fordampningen af vand kræver op til 580 cal/gram ved normal hudtemperatur.
 
-Huden vil begynde at svede ved en temperatur på 37 C. Guyton (1971) skriver, at svedraten per time er 1,5 L/timen, men ved [varmeakklimatisering](/varmeakklimatisering-traening-i-varmen/) kan du komme helt op på 3,5 liter i timen.
+Huden vil begynde at svede ved en temperatur på 37°C. Guyton (1971) skriver, at svedraten per time er 1,5 L/timen, men ved [varmeakklimatisering](/varmeakklimatisering-traening-i-varmen/) kan du komme helt op på 3,5 liter i timen.
 
 Fordampningen af sved giver altså en usædvanlig god køling.
 

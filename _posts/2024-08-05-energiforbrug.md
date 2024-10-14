@@ -80,7 +80,6 @@ Endelig kan vi udregne cykeløkonomien.
 
 I vores eksempel:
 
-
 Med Power output på <span id="bike_economy_power_output">100</span>W og iltforbrug på <span id="bike_economy_vo2">1,89</span> L/O<sub>2</sub>, så bliver cykeløkonomien <span id="bike_economy_biking_economy">3,17</span>kJ/L.
 
 ## Konklusion

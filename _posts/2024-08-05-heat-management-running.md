@@ -37,7 +37,7 @@ Du kan prøve at udfylde formularen med de foreslåede gennemsnitlige værdier, 
 
 {% include calculate-heat-production-running.html %}
 
-Den estimerede varme der genereres med den løbeindsats på <span id="heat_run_power_output">844</span>W.
+Den estimerede varme der genereres med den løbeindsats på <span id="heat_management_run_power_output">844</span>W.
 
 Hvis du leger lidt med tallene, så kan du se, at hvis din kropsvægt går op, så producerer du endnu mere varme.
 
@@ -51,25 +51,33 @@ Der er tydelig forskel på varmeproduktionen alt efter kropsvægt og løbeøkono
 
 Du skal altså af med en del varme, når du løber.
 
+Kroppen er heldigvis god til at [temperaturregulere](/fysiologi-temperaturregulering/). Her kigger vi på de tre vigtigste typer.
+
 ## 1. Varmetab til konvektion
 
-Den første måde at få køling af systemet på er ved konvektion. Når vinden passerer huden skaber det køling.
+Den første måde at få køling af systemet på er ved konvektion. Når vinden passerer huden er det med til at køle dig ned.
 
-Når vinden er koldere end kernetemperaturen, så oplever du køling. I løb er din hastighed imidlertid noget lavere end i cykling, så effekten er meget mindre.
+Det er rigtig effektivt i cykling, men i løb er din løbehastighed noget lavere.
 
-Dit overfladeareal har naturligvis en stor betydning for, hvor meget konvektionen betyder for din nedkøling.
+Derfor er effektiviteten noget lavere.
+
+Dit overfladeareal har stor betydning for, hvor meget konvektionen betyder for din nedkøling. Jo mere overflade, jo højere potentiale for nedkøling.
 
 {% include calculate-bsa.html body_weight="80" height="180" %}
 
-Dit estimerede overfladeareal er <span id="heat_run_bsa">2,0000</span> m<sup>2</sup>. Det er en fordel at have et lidt højere areal.
+Dit estimerede overfladeareal er <span id="heat_management_bsa">2,0000</span> m<sup>2</sup>.
 
-Her kan du smide tallene ind for for dit eget løb.
+Lad os kigge på, hvad du kan tabe af varme gennem konvektion i løb.
+
+Her kan du smide dine egne tal ind med overfladeareal, temperaturer og løbehastighed..
 
 {% include calculate-heat-convection.html velocity="12" bsa="2,000" %}
 
-<span id="heat_run_convection">182</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_run_subtotal_1">662</span>W i varme.
+<span id="heat_management_convection">182</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_management_subtotal_1">662</span>W i varme.
 
 Fordi hastigheden er mindre, så er det meget typisk at du mangler 150-200W i køling i løb i forhold til på cyklen.
+
+Hvis du ikke finder andre måder at kompensere for dette, så bliver du nødt til at sætte intensiteten og derved hastigheden ned.
 
 ## 2. Varmetab til radiation
 
@@ -81,7 +89,7 @@ Hvis du leger med tallene og sænker lufttemperaturen i nedenstående beregner, 
 
 {% include calculate-heat-radiation.html bsa="2,0000" %}
 
-Varmetabet gennem radiation er <span id="heat_run_radiation">385</span>W. Men kroppen skal stadig af med <span id="heat_run_subtotal_2">277</span>W varme.
+Varmetabet gennem radiation er <span id="heat_management_radiation">62</span>W. Men kroppen skal stadig af med <span id="heat_management_subtotal_2">600</span>W varme.
 
 Jeg tror [Alan Couzens](https://www.alancouzens.com/blog/heat.html)' oprindelige beregner har et forkert udgangspunkt for beregningerne. Den forudsætter en omgivende temperatur på 0°C, hvilket jo kun er tilfældet, hvis man køler sig selv ned med is undervejs.
 {: .notice--info }
@@ -102,11 +110,29 @@ Det er således vigtigt at starte på løbeturen i væskebalance.
 
 {% include calculate-heat-evaporation.html %}
 
-Varmetabet via evaporation er <span id="heat_run_evaporation">300</span>W. Det giver en total på <span id="heat_run_subtotal_3">7</span>W af varme tilbage i systemet.
+Varmetabet via evaporation er <span id="heat_management_evaporation">300</span>W. Det giver en total på <span id="heat_management_subtotal_3">300</span>W af varme tilbage i systemet.
 
-<p id="heat_run_message">Tillykke. Tallet er negativt. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.</p>
+<p id="heat_management_message">Vær opmærksom! Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du få mere køling i systemet.</p>
 
 Det er meget vigtigt at være proaktiv for at kunne fastholde væskebalancen, så du stadig har det redskab i værktøjsbæltet til at komme af med varmen.
+
+## Hvor meget stiger kernetemperaturen?
+
+Alt dette er naturligvis baseret på modeller og estimater. Men hvis du har overskudsvarme, som du ikke kan komme af med, så vil kroppen blive varmere.
+
+Men hvor varm?
+
+Lad os kigge lidt på tallene:
+
+{% include calculate-heat-temperature-rise.html %}
+
+Kroppen vil gøre alt, hvad den kan for at fastholde kropstemperaturen i et relativt snævert interval.
+
+<p id="heat_temperature_rise_message"></p>
+
+Hvis kropstemperaturen ikke kan holdes nede på andre måder, så kan kroppen kun sænke intensiteten, så varmeproduktionen bliver mindre.
+
+Det er også derfor, at den optimale lufttemperatur for løb er omkring 10 grader. Så bliver kroppen automatisk kølet ned ved konvektion og radiation, og skal bruge færre kræfter på at temperaturregulere.
 
 ## Konklusion
 

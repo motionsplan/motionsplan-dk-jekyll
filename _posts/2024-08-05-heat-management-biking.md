@@ -17,15 +17,15 @@ tags:
 last_modified_at: 2024-08-04T10:14:14Z
 ---
 
-Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.
+Hvis du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.
 
-Her kigger vi på varmehåndtering på cyklen inspireret af [Alan Couzens](https://www.alancouzens.com/blog/heat.html), som helt genialt gennemgår videnskaben bag varmehåndtering i lange træninger eller løb på cyklen.
+Her kigger vi på varmehåndtering på cyklen inspireret af [Alan Couzens](https://www.alancouzens.com/blog/heat.html), som gennemgår videnskaben bag varmehåndtering i lange træninger eller løb på cyklen.
 
 Gode præstationer i varmen afhænger af kropsvægten, kroppens overfladeareal og det nødvendige power output for at cykle hurtigt.
 
 Det afhænger naturligvis også af, om du har forberedt dig med [varmetræning](/varmetraening/).
 
-Det kan være lettere at præstere i varmen, hvis du er en lille, let cykelrytter end hvis du er stor og muskuløs, fordi kroppen så genererer mere varme.
+Det kan være lettere at præstere i varmen, hvis du er en lille, let cykelrytter end hvis du er stor og muskuløs, fordi en stor krop genererer mere varme.
 
 Lad os kigge lidt på nogle tal!
 
@@ -61,13 +61,13 @@ Lad os først udregne kroppens overfladeareal:
 
 {% include calculate-bsa.html %}
 
-Dit estimerede overfladeareal er <span id="heat_bike_bsa">1.8336</span> m<sup>2</sup>. Det er en fordel at have et lidt højere areal, når du skal af med varmen.
+Dit estimerede overfladeareal er <span id="heat_management_bsa">1.8336</span> m<sup>2</sup>. Det er en fordel at have et lidt højere areal, når du skal af med varmen.
 
 Hvor meget varme kan du med dit kropsareal forvente at slippe af med gennem konvektion?
 
 {% include calculate-heat-convection.html %}
 
-<span id="heat_bike_convection">308</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_bike_subtotal_1">613</span>W i varme.
+<span id="heat_management_convection">308</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_management_subtotal_1">613</span>W i varme.
 
 ## 2. Varmetab til radiation
 
@@ -79,7 +79,7 @@ Men her prøver vi at estimere den potentielle varmeoverførsel til omgivelserne
 
 {% include calculate-heat-radiation.html %}
 
-Varmetabet gennem radiation er <span id="heat_bike_radiation">353</span>W. Men kroppen skal stadig af med <span id="heat_bike_subtotal_2">260</span>W varme.
+Varmetabet gennem radiation er <span id="heat_management_radiation">57</span>W. Men kroppen skal stadig af med <span id="heat_management_subtotal_2">556</span>W varme.
 
 Jeg tror [Alan Couzens](https://www.alancouzens.com/blog/heat.html)' oprindelige beregner har et forkert udgangspunkt for beregningerne. Den forudsætter en omgivende temperatur på 0°C, hvilket jo kun er tilfældet, hvis man køler sig selv ned med is undervejs.
 {: .notice--info }
@@ -104,9 +104,27 @@ Den øvre grænse for væsketransport på tværs af tarmvæggen er 1,5 L/timen. 
 
 {% include calculate-heat-evaporation.html %}
 
-Varmetabet via evaporation er <span id="heat_bike_evaporation">300</span>W. Det giver en total på <span id="heat_bike_subtotal_3">-40</span>W af varme tilbage i systemet.
+Varmetabet via evaporation er <span id="heat_management_evaporation">300</span>W. Det giver en total på <span id="heat_management_subtotal_3">256</span>W af varme tilbage i systemet.
 
-<p id="heat_bike_message">Tillykke. Tallet er negativt. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.</p>
+<p id="heat_management_message">Vær opmærksom! Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du få mere køling i systemet.</p>
+
+## Hvor meget stiger kernetemperaturen?
+
+Alt dette er naturligvis baseret på modeller og estimater. Men hvis du har overskudsvarme, som du ikke kan komme af med, så vil kroppen blive varmere.
+
+Men hvor varm?
+
+Lad os kigge lidt på tallene:
+
+{% include calculate-heat-temperature-rise.html %}
+
+Kroppen vil gøre alt, hvad den kan for at fastholde kropstemperaturen i et relativt snævert interval.
+
+<p id="heat_temperature_rise_message"></p>
+
+Hvis kropstemperaturen ikke kan holdes nede på andre måder, så kan kroppen kun sænke intensiteten, så varmeproduktionen bliver mindre.
+
+I cykling får du en relativt høj grad af nedkøling pga. den høje fart. Men på ekstremt varme dage, så skal du altså selv lægge noget i ligningen.
 
 ## Konklusion
 

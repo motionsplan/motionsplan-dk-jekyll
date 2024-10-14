@@ -7,6 +7,7 @@ const hb = require('./heat-balance');
 let heat_balance = hb.HeatBalance();
 
 const rpe = require('./rpe-strength');
+const temp_rise = require('./heat-temperature-rise');
 const how_tall = require('./how-tall');
 const water = require('./water-intake');
 const inol = require('./inol');
@@ -519,11 +520,8 @@ $(function() {
 
       $("[name='bsa']").val(b.getBSA().toFixed(4));
     
-      if ($("#heat_bike_bsa")) {
-        $("#heat_bike_bsa").text(b.getBSA().toFixed(4));
-      }
-      if ($("#heat_run_bsa")) {
-        $("#heat_run_bsa").text(b.getBSA().toFixed(4));
+      if ($("#heat_management_bsa")) {
+        $("#heat_management_bsa").text(b.getBSA().toFixed(4));
       }
 
       if ($("[name='convection_bsa']")) {
@@ -531,6 +529,10 @@ $(function() {
       }
       if ($("[name='radiation_bsa']")) {
         $("[name='radiation_bsa']").val(b.getBSA().toFixed(4));
+      }
+
+      if ($("[name='heat_temperature_rise_weight']")) {
+        $("[name='heat_temperature_rise_weight']").val(weight);
       }
     
     });
@@ -630,16 +632,19 @@ $(function() {
         $("[name='velocity_kmt']").val(r.convertMinPerKmToKmt(min, sec).toFixed(2));
       }
 
-      if ($("#heat_run_power_output")) {
-        $("#heat_run_power_output").text(b.getHeat().toFixed(0));
+      if ($("[name='heat_temperature_rise_weight']")) {
+        $("[name='heat_temperature_rise_weight']").val(weight);
       }
 
-      heat_balance.setTotal(b.getHeat());
+      if ($("#heat_management_run_power_output")) {
+        $("#heat_management_run_power_output").text(b.getHeat().toFixed(0));
+      }
 
       if ($("[name='bsa_weight']")) {
         $("[name='bsa_weight']").val(weight);
       }
-      
+
+      heat_balance.setTotal(b.getHeat());
     });
 
     $('#calculator_heat_production_biking').submit(function(e){
@@ -654,10 +659,16 @@ $(function() {
       $("[name='heat_production_watts_biking']").val(b.getHeat().toFixed(0));
       
       // Filling in text fields
-      $("#heat_bike_watt").text(b.getHeat().toFixed(0));
-      $("#heat_bike_power_output").text(power_output);
-      $("#heat_bike_efficiency").text(efficiency);
-
+      if ($("#heat_bike_watt")) {
+        $("#heat_bike_watt").text(b.getHeat().toFixed(0));
+      }
+      if ($("#heat_bike_power_output")) {
+        $("#heat_bike_power_output").text(power_output);
+      }
+      if ($("#heat_bike_efficiency")) {
+        $("#heat_bike_efficiency").text(efficiency);
+      }
+      console.log(b.getHeat() + "W set to heat total in balance");
       heat_balance.setTotal(b.getHeat());
 
     });
@@ -683,21 +694,14 @@ $(function() {
         $("#radiation_air_temperature").val(air_temperature);
       }
 
-      if ($("#heat_bike_convection")) {
-        $("#heat_bike_convection").text(b.getHeatLoss().toFixed(0));
-      }
-      if ($("#heat_run_convection")) {
-        $("#heat_run_convection").text(b.getHeatLoss().toFixed(0));
+      if ($("#heat_management_convection")) {
+        $("#heat_management_convection").text(b.getHeatLoss().toFixed(0));
       }
 
       heat_balance.setConvection(b.getHeatLoss());
 
-      if ($("#heat_bike_subtotal_1")) {
-        $("#heat_bike_subtotal_1").text(heat_balance.getBalance().toFixed(0));
-      }
-      
-      if ($("#heat_run_subtotal_1")) {
-        $("#heat_run_subtotal_1").text(heat_balance.getBalance().toFixed(0));
+      if ($("#heat_management_subtotal_1")) {
+        $("#heat_management_subtotal_1").text(heat_balance.getBalance().toFixed(0));
       }
     });
 
@@ -715,22 +719,16 @@ $(function() {
 
       $("[name='heatloss_radiation']").val(b.getHeatLoss().toFixed(0));
 
-      if ($("#heat_bike_radiation")) {
-        $("#heat_bike_radiation").text(b.getHeatLoss().toFixed(0));
-      }
-      if ($("#heat_run_radiation")) {
-        $("#heat_run_radiation").text(b.getHeatLoss().toFixed(0));
+      if ($("#heat_management_radiation")) {
+        $("#heat_management_radiation").text(b.getHeatLoss().toFixed(0));
       }
 
       heat_balance.setRadiation(b.getHeatLoss());
 
-      if ($("#heat_bike_subtotal_2")) {
-        $("#heat_bike_subtotal_2").text(heat_balance.getBalance().toFixed(0));
+      if ($("#heat_management_subtotal_2")) {
+        $("#heat_management_subtotal_2").text(heat_balance.getBalance().toFixed(0));
       }
 
-      if ($("#heat_run_subtotal_2")) {
-        $("#heat_run_subtotal_2").text(heat_balance.getBalance().toFixed(0));
-      }
     });
 
     $('#calculator_evaporation').submit(function(e){
@@ -744,35 +742,34 @@ $(function() {
 
       $("[name='heatloss_evaporation']").val(b.getHeatLoss().toFixed(0));
 
-      if ($("#heat_bike_evaporation")) {
-        $("#heat_bike_evaporation").text(b.getHeatLoss().toFixed(0));
-      }
-
-      if ($("#heat_run_evaporation")) {
-        $("#heat_run_evaporation").text(b.getHeatLoss().toFixed(0));
+      if ($("#heat_management_evaporation")) {
+        $("#heat_management_evaporation").text(b.getHeatLoss().toFixed(0));
       }
 
       heat_balance.setEvaporation(b.getHeatLoss());
 
-      if ($("#heat_bike_subtotal_3")) {
-        $("#heat_bike_subtotal_3").text(heat_balance.getBalance().toFixed(0));
+      if ($("#heat_management_subtotal_3")) {
+        $("#heat_management_subtotal_3").text(heat_balance.getBalance().toFixed(0));
       }
 
-      if ($("#heat_run_subtotal_3")) {
-        $("#heat_run_subtotal_3").text(heat_balance.getBalance().toFixed(0));
-      }
-
-      if (heat_balance.getBalance() > 0) {
-        $("#heat_run_message").text("Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du kan holde den stabil, så den ikke stiger for meget.");
+      if (heat_balance.getBalance() > 100) {
+        $("#heat_management_message").toggleClass("notice--danger");
+        $("#heat_management_message").text("Vær opmærksom! Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du kan holde den stabil, så den ikke stiger for meget.");
+      } else if (heat_balance.getBalance() > 50) {
+        $("#heat_management_message").toggleClass("notice--warning");
+        $("#heat_management_message").text("Du har et moderat varmeoverskud. Du skal være opmærksom på, at din kropstemperatur ikke stiger for meget.");
+      } else if (heat_balance.getBalance() > -25) {
+        $("#heat_management_message").toggleClass("notice--success");
+        $("#heat_management_message").text("Tillykke! Dit varmeregnskab ser fornuftigt ud. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.");
       } else {
-        $("#heat_run_message").text("Tillykke. Tallet er negativt. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.");
+        $("#heat_management_message").toggleClass("notice--warning");
+        $("#heat_management_message").text("Vær opmærksom! Dit varmeregnskab er negativt. Du skal være opmærksom på, at du ikke undervejs bliver for kold til at præstere optimalt.");
       }
 
-      if (heat_balance.getBalance() > 0) {
-        $("#heat_bike_message").text("Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du kan holde den stabil, så den ikke stiger for meget.");
-      } else {
-        $("#heat_bike_message").text("Tillykke. Tallet er negativt. Det betyder, at du har en god mulighed for at fastholde din kernetemperatur.");
+      if ($("#heat_temperature_rise_excess_watt")) {
+        $("#heat_temperature_rise_excess_watt").val(heat_balance.getBalance().toFixed(0));
       }
+
     });
 
     $('#calculator_conduction').submit(function(e){
@@ -789,6 +786,51 @@ $(function() {
       $("[name='heatloss_conduction']").val(b.getHeatLoss().toFixed(0));
 
     });
+
+    $('#calculator_temperature_rise').submit(function(e){
+      console.log("Calculate evaporation");
+      e.preventDefault();
+
+      let excess_heat = Number($("[name='heat_temperature_rise_excess_watt']").val());
+      let weight = Number($("[name='heat_temperature_rise_weight']").val());
+      let c = Number($("[name='heat_temperature_rise_c']").val());
+      let hours = Number($("[name='heat_temperature_rise_hours']").val());
+      let min = Number($("[name='heat_temperature_rise_min']").val());
+      let secs = Number($("[name='heat_temperature_rise_sek']").val());
+
+      let seconds = hours * 60 * 60 + min * 60 + secs;
+
+      let b = temp_rise.TemperatureRise();
+
+      let delta_temperature = b.getDeltaTemperature(excess_heat, seconds, weight, c);
+
+      $("[name='heat_temperature_rise_result']").val(delta_temperature.toFixed(2));
+
+      let message = "";
+      let css_class = "";
+
+      if (delta_temperature > 4) {
+        message = "Du har beregnet en temperaturstigning, der er over 4°C. Det er helt usandsynligt, at kroppen kan håndtere det, så du kan ikke gennemføre din planlagte aktivitet uden meget ekstra nedkøling eller ved at sætte intensiteten langt ned.";
+        css_class = "notice--danger";
+      } else if (delta_temperature > 2) {
+        message = "Du har beregnet en temperaturstigning, der er over 2°C. Det kan være en rigtig god ide at tænke på, hvordan du kan sikre dig ekstra nedkøling under aktiviteten.";
+        css_class = "notice--warning";
+      } else if (delta_temperature >= 0) {
+        message = "Du har beregnet en moderat temperaturstigning til din aktivitet. Du har lavet en god plan for din aktivitet.";
+        css_class = "notice--success";
+      } else {
+        message = "Du har beregnet en negativ temperaturstigning. Hvordan kan du sikre dig, at du holder varmen, så du ikke bliver for afkølet af aktiviteten?";
+        css_class = "notice--warning";
+      }
+
+      if ($("#heat_temperature_rise_message")) {
+        $("#heat_temperature_rise_message").toggleClass(css_class);
+        $("#heat_temperature_rise_message").text(message);
+      }
+
+
+    });
+
 
     $(document).ready(function(){
       if ($("#canvas").length > 0) {

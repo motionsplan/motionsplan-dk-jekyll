@@ -26,12 +26,12 @@
         -->
         <div class="form-group">
             <label>Vægt (kg)
-                <input type="number" min="10" max="200" placeholder="fx {{ body_weight }}" name="bsa_weight" id="bsa_weight" step="0.1" required>
+                <input type="number" min="10" max="200" placeholder="fx {{ body_weight }}" value="{{ body_weight }}" name="bsa_weight" id="bsa_weight" step="0.1" required>
             </label>
         </div>
         <div class="form-group">
             <label>Højde (cm)
-                <input type="number" min="100" max="200" placeholder="fx {{ height }}" name="bsa_height" id="bsa_height" step="1" required>
+                <input type="number" min="100" max="200" placeholder="fx {{ height }}" value="{{ height }}" name="bsa_height" id="bsa_height" step="1" required>
             </label>
         </div>
         <input type="submit" value="Beregn">
