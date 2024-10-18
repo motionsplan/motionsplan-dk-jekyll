@@ -3,7 +3,7 @@ title: &title "Stærk: Bog og Styrketræningsprogram af Jacob Beermann"
 permalink: /artikel/staerk-traeningsprogram/
 language: da
 header:
-  teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg
+  teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg
   caption: *title
 tags:
   - anmeldelse
@@ -30,6 +30,10 @@ gallery:
     title: "T-shirt lavet af Jacob Beermann"
     alt:  "T-shirt lavet af Jacob Beermann"
 gallery_content:
+  - image_path: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
+    url: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
+    title: "Indholdsfortegnelse til Stærk"
+    alt: "Indholdsfortegnelse til Stærk"
   - image_path: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     url: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     title: "Indholdsfortegnelse til Stærk"
@@ -40,7 +44,7 @@ Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du ka
 
 Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}).
 
-{% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg" caption=page.title alt=page.title %}
+{% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg" caption=page.title alt=page.title %}
 
 Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
 
@@ -136,29 +140,29 @@ Den overordnede progression i programmet giver en god ide om, hvordan programmet
 
 ### Grundtræning
 
-| Programuge | Reps + Intensitet |
-|-|-|
-| 1 | 8 @ 60% |
-| 2 | 7 @ 65% |
-| 3 | 6 @ 70% |
-| 4 | 6 @ 67% |
-| 5 | 5 @ 73% |
-| 6 | 5 @ 75% |
-| 7 | 4 @ 77,5% |
-| 8 | Ny 5RM test |
+| Programuge | Reps + Intensitet | RPE |
+|-|-|-|
+| 1 | 8 @ 60% | 5 | 
+| 2 | 7 @ 65% | 5 |
+| 3 | 6 @ 70% | 5 |
+| 4 | 6 @ 67% | 5 |
+| 5 | 5 @ 73% | 5 |
+| 6 | 5 @ 75% | 6 |
+| 7 | 4 @ 77,5% | 6 |
+| 8 | Ny 5RM test | 9 |
 
 ### Opkøring
 
-| Programuge | Reps + Intensitet |
-|-|-|
-| 9 | 4 @ 76% |
-| 10 | 3 @ 80% |
-| 11 | 2 @ 85% |
-| 12 | 1 @ 90% |
-| 13 | 3 @ 77,5% |
-| 14 | 1 @ 94% |
-| 15 | 3 @ 72% |
-| 16 | Ny 1RM test |
+| Programuge | Reps + Intensitet | RPE |
+|-|-|-|
+| 9 | 4 @ 76% | 6 |
+| 10 | 3 @ 80% | 6 |
+| 11 | 2 @ 85% | 6,5 |
+| 12 | 1 @ 90% | 7,5 |
+| 13 | 3 @ 77,5% | 5 |
+| 14 | 1 @ 94% | 8,5 |
+| 15 | 3 @ 72% | 5 |
+| 16 | Ny 1RM test | 9,5 |
 
 Jeg har indtryk af, at mange undrer sig over, at vægten i uge 5, hvor man begynder at køre 5'ere ligger noget under vægten fra din 5RM, du har lavet i den første uge.
 
@@ -166,11 +170,13 @@ Beermanns pointe med denne opbyging er, at man kan fokusere på perfekt teknik. 
 
 Når du har kørt en cyklus, så kan du egentlig bare starte på programmet igen med nye 5RM-tests.
 
+Beermann bruger ikke RPE i programmet. Men når du kigger på RPE, så er det tydeligt at programmet fokuserer på submaksimale løft.
+
 ## Øvelser i programmet
 
 I Stærk bruges naturligvis de tre store styrkeløft; squat, bænkpres og dødløft.
 
-Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft]({% link _posts/2019-11-19-variationer.md %}).
+Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft](/variationer/).
 
 - Squat med tempo 505, hvor den [excentriske og koncentriske]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) fase udføres meget langsomt med 5 sekunder.
 - Squat med stop, fx i bunden.

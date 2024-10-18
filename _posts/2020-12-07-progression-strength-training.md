@@ -92,11 +92,11 @@ Dobbelt progression virker rigtig godt, men det er ikke fordi det er magisk. Det
 
 ## Triple progression
 
-[Charles Staley](https://www.t-nation.com/training/the-triple-progression-system) foreslår _triple progression_ som en god progressionsmodel til at lave progressivt overload. Det er en mindre udvidelse af den dobbelte progression, da man også arbejder med antallet af sæt.
+[Charles Staley](https://archive.t-nation.com/training/the-triple-progression-system/) foreslår _triple progression_ som en god progressionsmodel til at lave progressivt overload. Det er en mindre udvidelse af den dobbelte progression, da man også arbejder med antallet af sæt.
 
 > The triple progression system is one of the most effective ways to manage your training progression. It's based on the principle of base-building: First you'll "own" a specific weight by increasing the number of sets and reps you can perform with it. After that, you've "earned" the right to increase the load.
 
---- <cite>[Charles Staley, t-nation.com](https://www.t-nation.com/training/the-triple-progression-system)</cite>
+--- <cite>[Charles Staley, t-nation.com](https://archive.t-nation.com/training/the-triple-progression-system/)</cite>
 
 Det **første trin er at finde antallet af arbejdssæt** for din øvelse. Hvor mange sæt det skal være afhænger af dit træningsmål og den tilgængelige tid til træning.
 
@@ -108,7 +108,7 @@ På **tredje trin har du fortjent at øge vægten**. Når du øger vægten, så 
 
 ## Emerging strategies
 
-Reactive Training Systems bruger en rigtig interessant måde at lave progression i deres 'Emerging Strategies'. De beskriver den selv på denne måde.
+Reactive Training Systems bruger en rigtig interessant måde at lave progression i deres 'Emerging Strategies'. De beskriver den selv på denne måde på [Instagram](https://www.instagram.com/reactivetrainingsystems/p/CJb0Kf9ATmp/).
 
 > In Emerging Strategies, your training is comprised of development blocks that last anywhere from 3-12 weeks.
 >
