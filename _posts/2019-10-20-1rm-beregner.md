@@ -269,7 +269,7 @@ Der er rigtig mange måder at lave programmer til styrketræning på, men fælle
 
 Selvom en RM-udregner aldrig kan give dig det helt præcise tal, så kan du få et fornuftigt estimat, når du skal udregne træningsvægte i andre rep ranges.
 
-Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion]({% link _posts/2019-08-10-rpe.md %}) til at estimere mine træningsvægte.
+Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion](/rpe/) til at estimere mine træningsvægte.
 
 ## Referencer
 
@@ -278,5 +278,5 @@ Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion]({% li
 
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
-- [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){: rel='sponsored nofollow noopener' }
+- [Test dig i topform](https://www.bodyman.dk/shop/cms-test-dig-til-topform.html)
 </details>

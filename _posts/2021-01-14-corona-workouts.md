@@ -153,14 +153,6 @@ feature_row_ads:
     btn_label: "Besøg Getbig.dk"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: /assets/images/logo/bodyman.png
-    alt: "Bodyman.dk"
-    title: "Bodyman.dk"
-    excerpt: "Salg af kosttilskud og fitnesstøj."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
-    btn_label: "Besøg Bodyman"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
 ---
 
 Vi har lavet en række Corona workouts, som du kan bruge til din træning under nedlukningen. I alt er der 28 workouts, som du kan bruge de næste 28 dage for at holde formen oppe under lockdown.

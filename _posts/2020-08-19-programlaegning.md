@@ -435,7 +435,7 @@ For hver enkelt sæt bør du også skrive ned, hvad din Rate of Perceived Exerti
 
 Tænk på at du skal få styrketræningen til at fungere i det lange løb. Kan det fx i din træning bedre betale at lave et ekstra sæt og lidt færre reps med en lavere RPE i hvert sæt, så du ikke bliver helt så udmattet?
 
-Jeg har skrevet mere om [RPE i styrketræning her]({% link _posts/2019-08-10-rpe.md %}).
+Jeg har skrevet mere om [RPE i styrketræning her](/rpe/).
 
 ## Periodisering
 
