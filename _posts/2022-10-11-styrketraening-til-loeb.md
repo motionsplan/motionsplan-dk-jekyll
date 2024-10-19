@@ -100,7 +100,7 @@ Deltagerne i studiet løb i gennemsnit 63 km om ugen i et moderat tempo. Forsker
 Træningen så sådan her ud:
 
 - ’Speed endurance’ træning 2 x om ugen. Træningen bestod i hårde sprintintervaller på 4-10 x 30 sek ved 90-95 % af deltagernes maksimale hastighed. I første uge startede deltagerne med at løbe 4 x 30 sek og gennem træningsperioden arbejdede de sig op til 10 x 30 sek.
-- Styrketræning 2 x om ugen. Træningen bestod af squat, benpres og dødløft. Man startede med at køre 1 sæt á 10 reps (1 x 10), og henover ugerne blev intensiteteten i løftene øget 2 x 8, 3 x 6 og 4 x 4.
+- Styrketræning 2 x om ugen. Træningen bestod af squat, benpres og dødløft. Deltagerne startede med at køre 1 sæt á 10 reps (1 x 10), og henover ugerne blev intensiteteten i løftene øget 2 x 8, 3 x 6 og 4 x 4.
 - 1 x ugen stod den på hårde intervaller med 8 x 2 min ved >90% af maxpulsen.
 - 1 x ugen blev der løbet med moderat intensitet (2-17 km ved 80% af maxpulsen).
 
@@ -111,7 +111,7 @@ Løb de ikke med lav intensitet nogensinde?
 Det lykkedes forskerne at matche træningsvolumen i de to grupper, så den var 58% lavere end løberne var vant til. Det betyder, at kontrolgrupppen fortsatte med at træne med moderat intensitet, men trænede 58% mindre.
 
 {% comment %}
-Det var alligevel meget mindre.
+Det var alligevel meget mindre. Det kan da næsten ikke passe, at de har halveret kontrolgruppens træning?
 Og hvad var resultaterne fra kontrolgruppen - de må vel næsten være gået tilbage med mindre træningsmængde?
 {% endcomment %}
 
@@ -135,7 +135,7 @@ De fleste studier er relativt begrænsede i deres længde. Når du laver en træ
 
 Men hvad sker der, hvis vi sætter styrketræning ind i et længerevarende træningsprogram?
 
-Det har [Beattie et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27135468/) haft lejlighed til at undersøge med 20 yderst veltrænede løbere. Løberne havde en VO<sub>2</sub>max på 61.3 ± 3.2 ml/kg/min).
+Det har [Beattie et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27135468/) haft lejlighed til at undersøge med 20 yderst veltrænede løbere. Løberne havde en VO<sub>2</sub>max på 61.3 ± 3.2 ml/kg/min.
 
 Studiet var tilrettelagt så træningen passede ind i deltagernes almindelige konkurrenceplan og løb over hele 40 uger.
 
@@ -153,7 +153,7 @@ Tweeted Beattie for information about the training program.
 
 ## Skal det være tung styrketræning eller moderat?
 
-[Alcaraz-Ibañez og Rodríguez-Pérez (2018](https://pubmed.ncbi.nlm.nih.gov/28544858/) nåede til nogenlunde samme konklusion i deres metaanalyse af den eksisterende forskning som Denadai et al (2017). Det fandt altså gavnlige effekter af styrketræning.
+[Alcaraz-Ibañez og Rodríguez-Pérez (2018)](https://pubmed.ncbi.nlm.nih.gov/28544858/) nåede til nogenlunde samme konklusion i deres metaanalyse af den eksisterende forskning som Denadai et al (2017). Det fandt altså gavnlige effekter af styrketræning.
 
 {% comment %}
 
@@ -193,6 +193,11 @@ Hvilken type løb - og hvorfor var der ikke effekt i 2016 studiet? -- og i opfø
 
 Styrketræningen var meget enkel og bestod af 4 sæt med 4 gentagelser af halve squats. Der var 3 minutters pause mellem hvert sæt. Der blev løftet med en intensitet på RPE 9-10.
 
+```javascript
+// **Half squat**
+Squat / 4x4 @9 / 180s
+```
+
 Når løberne kunne lave 5 gentagelser med en given vægt i et sæt, så blev der sat 2,5 kg mere på i næste sæt.
 
 Kontrolgruppen lavede kun almindelig løbetræning.
@@ -219,7 +224,7 @@ Dem der supplerede med styrketræning havde lidt ekstra træning? Kunne anden li
 
 {% endcomment %}
 
-Det er interessant, at squatdybden naturligvis kommer an på, hvad dine mål er med dine benbøjninger.
+Det er interessant, at squat-dybden naturligvis kommer an på, hvad dine mål er med dine benbøjninger.
 
 Den fremgang kan naturligvis ikke fortsætte i det uendelige!
 

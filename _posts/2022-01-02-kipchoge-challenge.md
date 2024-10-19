@@ -1,6 +1,6 @@
 ---
 title: &title "Elsker du en udfordring? Prøv Kipchoge Challenge"
-description: Er ud klar til en løbeudfordring? Prøv Kipchoge Challenge eller Assefa Udfordring. Hvor længe kan du følge tempoet for verdensrekordholderen for mænd og kvinder?
+description: Er ud klar til en løbeudfordring? Prøv Kipchoge Challenge eller Chepngetich Udfordring. Hvor længe kan du følge tempoet for verdensrekordholderen på maraton for mænd og kvinder?
 permalink: /kipchoge-challenge/
 language: da
 header:
@@ -10,7 +10,7 @@ category:
 tags:
   - intervalløb
   - kondition
-last_modified_at: 2023-09-24T08:14:14Z
+last_modified_at: 2024-10-19T08:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/pinterest/challenge-kipchoge.jpg
@@ -21,17 +21,21 @@ gallery:
     alt: Kosgei challenge
 ---
 
-Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve Kipchoge Challenge og Assefa Udfordringen.
+Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve Kipchoge Challenge og Chepngetich Udfordringen.
 
 Det handler ganske enkelt om at forsøge at løbe lige så hurtigt, som verdensrekorden på maraton for enten mænd eller kvinder - og se hvor længe du kan følge tempoet.
 
 Verdensrekorden for mænd på maraton var tidligere sat af Eliud Kipchoge. Kenyaneren har løbet de 42,195 km på 2:01:09 i Berlin 2022. Det svarer til 20,90 km/t eller et pace på 2:52 min/km.
 
 Den blev imidlertid slået i 2023 af Kelvin Kiptum også fra Kenya. Han løb i Chicago Marathon på 2:00:35. Det svarer til 21,00 km/t i gennemsnit og et pace på 2:51 min/km.
+{: .notice--info }
 
-Her bruger vi til gengæld tiden fra Ineos Challenge, hvor Kipchoge under ideelle forhold løb på 01:59:40. Det svarer til 21,16 km/t i gennemsnit og en kilometertid på 2:50 min/km.
+Her bruger vi dog tiden fra Ineos Challenge, hvor Kipchoge under ideelle forhold løb på 01:59:40. Det svarer til 21,16 km/t i gennemsnit og en kilometertid på 2:50 min/km.
 
-Tigst Assefa løb i Berlin Maraton i 2023 distancen på 2:11:53 for kvinder. Det svarer til en hastighed på 19,20 km/t eller et pace på 3:08 min/km.
+Ruth Chepngetich løb ved Chicago Marathon 2024 i tiden 2:09:56. Hun var den første kvinde, der brød 2:10 barrieren. Det svarer til en hastighed på 19,48 km/t eller et pace på 3:05 min/km.
+
+Ruth Chepngetichs rekord er lidt kontroversiel. Amby Burfoot [sætter spørgsmålstegn ved rekorden](https://marathonhandbook.com/opinion-why-its-hard-to-trust-ruth-chepngetichs-marathon-world-record/) uden egentlige beviser, og [Lets Run](https://www.letsrun.com/news/2024/10/ruth-chepngetichs-209-marathon-world-record-has-broken-our-brains/) gennemgår hele sagen. Chepngetich slog Tigst Assefa, der i Berlin Maraton i 2023 løb distancen på 2:11:53. Det svarer til en hastighed på 19,20 km/t eller et pace på 3:08 min/km.
+{: .notice--info }
 
 Det er vel at mærke et pace de holder et helt maratonløb.
 
@@ -86,6 +90,7 @@ Her er nogle udvalgte løbetider, som du kan prøve at løbe efter. Du ændrer b
 | Eluid Kipchoge, Kenya | Ineos Challenge 2019 | 1:59:40 | 21,16 km/t |
 | Kelvin Kiptum, Kenya | Chicago Marathon Mænd 2023 | 2:00:35 | 21,00 km/t |
 | Eluid Kipchoge, Kenya | Berlin Maraton Mænd 2022 | 2:01:09 | 20,90 km/t |
+| Ruth Chepngetich, Kenya | Chicago Marathon Kvinder 2024 | 2:09:56 | 19,48 km/t |
 | Tigst Assefa, Etiopien | Berlin Marathon Kvinder 2023 | 2:11:53 | 19,20 km/t |
 | Brigid Kosgei, Kenya | Chicago Marathon Kvinder 2019 | 2:14:04 | 18,89 km/t |
 | Jacob Sommer Simonsen, Danmark | Dansk rekord Berlin 2024 | 2:07:51 | 19,8 km/t | 

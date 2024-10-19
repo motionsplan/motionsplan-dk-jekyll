@@ -12,7 +12,7 @@ category:
   - Styrketræning
 tags:
   - styrketræning
-last_modified_at: 2024-08-12T10:14:14Z
+last_modified_at: 2024-10-12T10:14:14Z
 gallery_program:
   - image_path: /assets/images/liftosaur/liftosaur-choose-program.png
   - image_path: /assets/images/liftosaur/liftosaur-choose-program-start.jpg
