@@ -17,6 +17,7 @@ tags:
   - håndvægte
   - Arme
   - triceps
+  - fitnessinstruktør
 categories:
   - Pres
 training_type:

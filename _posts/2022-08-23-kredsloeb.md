@@ -16,7 +16,7 @@ toc: true
 
 Vil du gerne vide mere om dit kredsløb? Dit hjerte og dine lunger arbejder sammen for at holde dig i live. Men hvordan virker det?
 
-Du har omkring 100.000 km blodårer i kroppen og 5 liter blod, der konstant farer rundt i kredsløbet for at forsyne musklerne og organerne med ilt og næringsstoffer.
+Du har omkring 9.000-19.000 km blodårer i kroppen (Poole et al 2021) og 5 liter blod, der konstant farer rundt i kredsløbet for at forsyne musklerne og organerne med ilt og næringsstoffer.
 
 Blodet bliver pumpet rundt af den utrættelige hjertemuskel, der er på størrelse med en knytnæve.
 
@@ -122,3 +122,11 @@ Fedt. Jeg har skrevet et helt afsnit om [hvordan du laver kredsløbstræning](/k
 Kredsløbssystemet er et kontinuerligt kredsløb, der leverer iltrigt blod til alle kroppens væv og organer. Du kan forbedre dit kredsløb ved at træne med forskellige intensiteter.
 
 Hvis du vil vide mere, så kan du læse indlægget om [kondition](/kondition/).
+
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
+
+- Poole, D. C., Kano, Y., Koga, S., & Musch, T. I. (2021). August Krogh: Muscle capillary function and oxygen delivery. Comparative Biochemistry and Physiology. Part A, Molecular & Integrative Physiology, 253, 110852. <https://doi.org/10.1016/j.cbpa.2020.110852>
+</details>

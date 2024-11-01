@@ -193,12 +193,15 @@ Hvilken type løb - og hvorfor var der ikke effekt i 2016 studiet? -- og i opfø
 
 Styrketræningen var meget enkel og bestod af 4 sæt med 4 gentagelser af halve squats. Der var 3 minutters pause mellem hvert sæt. Der blev løftet med en intensitet på RPE 9-10.
 
-```javascript
-// **Half squat**
-Squat / 4x4 @9 / 180s
-```
-
 Når løberne kunne lave 5 gentagelser med en given vægt i et sæt, så blev der sat 2,5 kg mere på i næste sæt.
+
+I praksis kunne det se sådan her ud i dit program.
+
+```javascript
+// **Half squat**. Double progression. Hvis du kan ramme antallet af gentagelser
+// så bliver der næste gang sat ekstra vægt på.
+Squat / 4x3-5 @9 / 180s / dp(2.5kg, 3, 5)
+```
 
 Kontrolgruppen lavede kun almindelig løbetræning.
 
@@ -221,6 +224,8 @@ Det er en ret dyb squat og vel nærmest godkendt dybde i styrkeløft. Gad vide o
 Her trænede de med 1-2 RIR, hvilket er tungere end foreslået...
 
 Dem der supplerede med styrketræning havde lidt ekstra træning? Kunne anden lignende intensitet, fx 6 sekunders sprint med tilsvarende pause give samme effekt?
+
+Og er det nødvendigt med RPE 9?
 
 {% endcomment %}
 

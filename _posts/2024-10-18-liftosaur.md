@@ -156,6 +156,25 @@ Hvis du gerne vil lave din egen type progression, så kan du faktisk selv skrive
 
 Her har du et par forskellige andre, jeg har skrevet.
 
+### Fremgang baseret på e1RM
+
+<details markdown="1">
+  <summary>Se koden for ændre 1RM ved dine løft</summary>
+
+Hvis du gerne vil have fremgang i dit program, når du laver bedre løft undervejs, så kan du gøre følgende:
+
+```javascript
+// Improvements based on e1RM
+Squat / 3x3 @8+ / progress: custom() {~
+  if (completedRPE[1] <= RPE[1]) {
+    var.originalE1RM = round(weights[1] / rpeMultiplier(reps[1], RPE[1]))
+    var.newE1RM = round(weights[1] / rpeMultiplier(completedReps[1], completedRPE[1]))
+    rm1 = var.newE1RM
+  }
+~}
+```
+</details>
+
 ### Triple progression
 
 <details markdown="1">

@@ -75,7 +75,9 @@ Det kunne være interessant med endnu flere studier, da _med ball chest pass_ pr
 
 Når du vil bruge PAP for at forbedre din maksimale styrke på kort sigt, skal du naturligvis have forberedt dig. PAP virker formentlig bedst, når du er godt forberedt, stærk og allerede har trænet eksplosivt. Studierne havde inkluderet løftere, der løftede hhv. 142 kg i squat og 120 kg i bænkpres i gennemsnit.
 
-Trænede løftere med nogenlunde de stats kan altså med eksplosive, specifikke øvelser 30 sekunder før løftet måske 3-5 kg.
+Trænede løftere med nogenlunde de stats kan altså med eksplosive, relaterede øvelser 30 sekunder før løftet måske forbedre det efterfølgende løft med 3-5 kg.
+
+Det er jo også værd at tage med.
 
 Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [elitefts.com](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) skriver mere om, hvordan man kan bruge depth jumps til at forbedre sin squat.
 
