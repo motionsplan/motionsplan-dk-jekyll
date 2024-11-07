@@ -56,6 +56,6 @@ Teknikken i øvelsen er rigtig vigtig. Her gennemgår [Eric Cressey](https://www
 
 Så kom i gang med at bygge denne lette rampe, og så er du klar til at træne.
 
-{% include pa-banner product="ab wheel" %}
+{% include motionsplan/pa-banner product="ab wheel" %}
 
 Ab wheel roll out et et godt alternativ til [øvelsen mavebøjning](/oevelse/maveboejning/). Vi har beskrevet flere [øvelser til mavetræning](/maveoevelser/), hvis du vil have endnu flere øvelser at vælge imellem.

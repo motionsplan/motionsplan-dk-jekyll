@@ -51,7 +51,7 @@ layout: default
         <hr />
 
         {% if page.exercises.size > 0 %}
-          {% include exercises exercises=page.exercises match="exact" type="left" input_type="array" %}
+          {% include motionsplan/exercises exercises=page.exercises match="exact" type="left" input_type="array" %}
         {% endif %}
         
         {{ content }}

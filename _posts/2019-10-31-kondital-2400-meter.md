@@ -63,7 +63,7 @@ Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt. 2400 m
 
 I nedenstående beregner kan du udregne dit kondital på baggrund af 2400-meter testen.
 
-{% include calculate-fitness-2400-meter.html %}
+{% include calculator/calculate-fitness-2400-meter.html %}
 
 ## Normer for 2400 meter konditionstesten
 

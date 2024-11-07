@@ -62,7 +62,7 @@ I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cy
 
 ## Udregn dit kondital fra Watt max-testen
 
-{% include calculate-fitness-wattmax.html %}
+{% include calculator/calculate-fitness-wattmax.html %}
 
 ## Videnskabelig baggrund for max watt testen
 

@@ -1,0 +1,24 @@
+<form class="calculator" id="calculator_musclemass_upper_limit">
+    <fieldset>
+        <legend>Udregning af øvre grænse for muskelvækst og muskelmasse for mænd.</legend>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" name="height" min="0" max="300" step="0.1" placeholder="" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Fedtfri masse (kg)
+                <input type="text" name="ffm" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Muskelmasse (kg)
+                <input type="text" name="musclemass" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

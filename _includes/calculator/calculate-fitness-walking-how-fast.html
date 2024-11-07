@@ -1,0 +1,34 @@
+<form class="calculator" id="calculator_walking_steps_how_fast">
+    <fieldset>
+        <legend>Hvor hurtigt går man et antal skridt?</legend>
+        <div class="form-group">
+            <label>Antal skridt (skridt)
+                <input type="number" min="1" name="steps" placeholder="Antal skridt" value="10000" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Skridtlængde (cm)
+                <input type="number" min="1" name="step_length" placeholder="Skridtlængde" value="79" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input type="number" min="1" name="velocity" placeholder="Hastighed" value="5" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Distance (km)
+                <input type="number" min="500" max="6000" name="distance" placeholder="Distance i m" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid (minutter)
+                <input type="text" name="time" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

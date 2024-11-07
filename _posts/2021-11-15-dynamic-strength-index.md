@@ -94,7 +94,7 @@ Hvis DSI nærmer sig 1, så er atleten i stand til at udnytte det fulde kraftpot
 
 Du kan bruge denne formular til at udregne dit eget DSI.
 
-{% include calculate-dsi.html %}
+{% include calculator/calculate-dsi.html %}
 
 ### Hvordan fortolker jeg min DSI?
 

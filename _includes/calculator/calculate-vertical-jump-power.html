@@ -1,0 +1,43 @@
+<form class="calculator" id="calculator_jump_reach_power">
+    <fieldset>
+        <legend>Udregning af Power fra Jump and Reach-testen</legend>
+        <div class="form-group">
+            <label>Formel for udregning af power
+            <select name="jump-reach-formula" id="jump-reach-formula">
+                <option value="lewis">Lewis 1974</option>
+                <option value="sayers_cmj">Sayers 1999 (CMJ)</option>
+                <option value="sayers_sj">Sayers 1999 (SJ)</option>
+                <option value="johnsonbahmamonde">Johnson & Bahamonde 1996</option>
+                <option value="harman" selected="selected">Harman 1991</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hoppehøjde (cm)
+                <input name="jump_reach_height_score" id="jump_reach_height_score" type="number" min="10" max="200" placeholder="Hoppehøjde i cm" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="body_weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kropshøjde (cm)
+                <input name="body_height" type="number" min="100" max="220" placeholder="Kropshøjde i cm" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Power udregnet fra hoppehøjde</legend>
+        <label>Average Power (watt)
+            <input disabled name="average_power" type="text">
+        </label>
+        <label>Peak Power (watt)
+            <input disabled name="peak_power" type="text">
+        </label>
+    </fieldset>
+    <p class="notes">En watt (W) er lig med 1 newton (N) m/s.</p>
+    {% include calculator/calculator-footer.html %}
+</form>

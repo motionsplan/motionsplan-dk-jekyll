@@ -57,7 +57,7 @@ Jeg har skrevet en mere udførlig artikel om selve [Borg-skalaen, hvor du også 
 
 ## Beregn kondital fra Borg 15-testen
 
-{% include calculate-fitness-borg15.html %}
+{% include calculator/calculate-fitness-borg15.html %}
 
 ## Formlerne bag Borg 15-testen
 

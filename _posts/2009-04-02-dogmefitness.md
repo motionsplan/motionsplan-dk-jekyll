@@ -55,4 +55,4 @@ Hvordan gør du?
 ## Øvelser til dogmefitness og outdoor fitness
 
 {% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
-{% include exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}
+{% include motionsplan/exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}

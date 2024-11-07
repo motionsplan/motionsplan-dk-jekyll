@@ -29,7 +29,7 @@ I denne beregner kan du beregne, hvor stor kroppens overflade er. Du kan se de f
 
 Indtast din højde og vægt, og så får du et bud på, hvor stort din krops overfladeareal er.
 
-{% include calculate-bsa.html %}
+{% include calculator/calculate-bsa.html %}
 
 ## Formler til at udregne menneskekroppens areal
 

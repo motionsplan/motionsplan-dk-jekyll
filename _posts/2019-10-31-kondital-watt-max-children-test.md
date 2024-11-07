@@ -39,7 +39,7 @@ Dette er en modificeret udgave af [Watt-max-testen for voksne](/kondital-wattmax
 
 ## Beregn kondital for børn
 
-{% include calculate-fitness-wattmax-children.html %}
+{% include calculator/calculate-fitness-wattmax-children.html %}
 
 ## Om Watt-max-testen for børn
 

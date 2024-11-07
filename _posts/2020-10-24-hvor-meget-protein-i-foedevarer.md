@@ -35,4 +35,4 @@ Jeg har lavet en tabel med proteinindhold i forskellige fødevarer, så du let k
 
 Du kan i tabellen altså se, hvor meget protein der er i æg, havregryn og kylling.
 
-{% include table-protein.html %}
+{% include table/table-protein.html %}

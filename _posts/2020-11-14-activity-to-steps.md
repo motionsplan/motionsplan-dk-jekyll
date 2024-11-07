@@ -32,7 +32,7 @@ Omregningen af aktivitet, motion og sport til skridt er baseret på [MET](/met/)
 
 Du kan omregne anden motion, sport og aktivitet til skridt i vores "Tæl skridt beregner" og motionsomregner.
 
-{% include calculate-activity-to-steps.html %}
+{% include calculator/calculate-activity-to-steps.html %}
 
 Omregn den motion du ikke kan tælle med din skridttæller til skridt i denne omregner.
 

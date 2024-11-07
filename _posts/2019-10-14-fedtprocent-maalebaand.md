@@ -47,7 +47,7 @@ McArdle og Katch (2010) algoritme tager højde for køn og alder.
 
 ## Mål fedtprocenten med målebånd
 
-{% include calculate-fat-percent-measurement.html %}
+{% include calculator/calculate-fat-percent-measurement.html %}
 
 ## Konklusion
 

@@ -1,0 +1,41 @@
+<form class="calculator" id="calculator_rowing_2000_meter_time">
+    <fieldset>
+        <legend>Beregn kondital fra 2000 meter test</legend>
+        <div class="form-group">
+            <label>Tid (hh:mm:ss)</label>
+            <input type="number" min="0" max="59" name="tid_min" id="tid_min" placeholder="min" class="input-mini" required>
+            <input type="number" min="0" max="59" name="tid_sek" id="tid_sek" placeholder="sek" class="input-mini">
+        </div>
+        <div class="form-group">
+            <label for="rowing_body_weight">Vægt (kg)</label>
+            <input type="number" min="20" max="200" id="rowing_body_weight" name="rowing_body_weight" placeholder="fx 70" required>
+        </div>
+        <div class="form-group">
+            <label>Køn
+            <select name="rowing_gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>VO<sub>2</sub>max (L/min)
+                <input type="text" name="vo2_max" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="text" name="kondital" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Mean Power (watts)
+                <input type="text" name="mean_power" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

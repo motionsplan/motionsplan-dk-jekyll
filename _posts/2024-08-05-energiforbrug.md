@@ -44,7 +44,7 @@ Når du har kørt steady state med en specifik intensitet i fx 5 minutter, så k
 
 Hvis ikke du kender R-værdien, så kan du bruge 0,90 i beregneren. Der er en lille smule forskel på, hvor mange kcal der bliver brugt pr. liter ilt alt efter om det primære næringsstof er kulhydrat eller fedt. I submaksimalt arbejde vil R=0,9 være et fint kompromis.
 
-{% include calculate-energy-expenditure.html %}
+{% include calculator/calculate-energy-expenditure.html %}
 
 Et eksempel:
 
@@ -54,7 +54,7 @@ Lad os sige, at du cykler med <span id="bike_efficiency_text_workrate">100</span
 
 Når du kender energiforbruget beregnet ud fra iltoptagelsen, og du kender intensiteten i watt fra cyklen, så kan du udregne bruttoeffektiviteten.
 
-{% include calculate-gross-efficiency.html %}
+{% include calculator/calculate-gross-efficiency.html %}
 
 Bruttoeffektiviteten er altså ikke særlig høj, når du cykler. Typisk er effektiviteten på cykel mellem [7,5-25,4%](https://www.researchgate.net/profile/George_Brooks/publication/22014772_Muscular_efficiency_during_steady-rate_exercise_effects_of_speed_and_work_rate/links/02e7e531d20463170e000000.pdf).
 
@@ -76,7 +76,7 @@ Læs: [Varmehåndtering i cykling](/varme-management-cykling/)
 
 Endelig kan vi udregne cykeløkonomien. 
 
-{% include calculate-biking-economy.html %}
+{% include calculator/calculate-biking-economy.html %}
 
 I vores eksempel:
 

@@ -46,19 +46,19 @@ Alle tallene i kalorietabellen er per 100 gram drikkevare.
 
 ## Kalorietabel med øl og andre maltdrikke 🍺
 
-{% include table-kalorietabellen.html where="Øl og andre maltdrikke" %}
+{% include table/table-kalorietabellen.html where="Øl og andre maltdrikke" %}
 
 ## Kalorietabel med rødvin og hvidvin 🍷
 
-{% include table-kalorietabellen.html where="Vine" %}
+{% include table/table-kalorietabellen.html where="Vine" %}
 
 ## Kalorietabel med hedvine 🥂
 
-{% include table-kalorietabellen.html where="Hedvine" %}
+{% include table/table-kalorietabellen.html where="Hedvine" %}
 
 ## Kalorietabel med spiritus 🥂
 
-{% include table-kalorietabellen.html where="Spiritus" %}
+{% include table/table-kalorietabellen.html where="Spiritus" %}
 
 ## Ofte stillede spørgsmål
 

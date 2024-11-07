@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_bmr_equilibrium">
+    <fieldset>
+        <legend>Udregn sandsynlig vægtændring ved energioverskud og energiunderskud i forhold til ligevægtsindtaget.</legend>
+        <div class="form-group">
+            <label>Bulk/Cut værdier baseret på +/- (kcal)
+                <input type="number" value="300" name="bulkConstant" required>
+            </label>
+        </div> 
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Maksimal sandsynlig vægtændring (kcal)
+                <input name="bmr" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="protein">Protein indtag pr. dag (g)</label>
+            <input name="protein" id="protein" disabled>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

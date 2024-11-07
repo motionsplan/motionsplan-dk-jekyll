@@ -78,7 +78,7 @@ Her kan du se forskellen på et counter movement jump og et squat jump.
 
 Du kan bruge følgende formular til at udregne hoppehøjden baseret på tiden i luften.
 
-{% include calculate-jump-cmj-height.html %}
+{% include calculator/calculate-jump-cmj-height.html %}
 
 ## Udregn din hoppehøjde fra kontaktmåtten
 

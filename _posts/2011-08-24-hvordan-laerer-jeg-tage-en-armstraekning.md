@@ -25,7 +25,7 @@ Alle raske mennesker bør kunne tage mindst fem armstrækninger, hvor man kun r�
 
 For os er en armstrækning en armstrækning. Vi skelner ikke mellem forskellige variationer med hvor bredt man holder hænderne. Vi synes bare du er sej, hvis du træner dig op til at kunne tage fem armstrækninger. Du kan læse i øvelsesbeskrivelsen nedenunder, hvordan den ser ud.
 
-{% include exercises exercises="Armstrækning, på tæerne" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Armstrækning, på tæerne" match="exact" type="left" %}
 
 ## Hvordan træner jeg så armstrækninger?
 
@@ -37,7 +37,7 @@ Vi foreslår, at du træner tre gange om ugen. For hver træningsgang skal du la
 
 **2. dag. Lav armstrækning med forhøjning.** Start med en gentagelse. Hold en kort pause. Lav derefter to gentagelser. Kort pause. Dernæst tre gentagelser. Fortsæt indtil du ikke kan tage flere. Lav derefter pyramiden forfra. Undervejs i træningsforløbet kan du lave forhøjningen mindre og mindre.
 
-{% include exercises exercises="Armstrækning, hænderne hævet" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Armstrækning, hænderne hævet" match="exact" type="left" %}
 
 Placer hænderne på en bænk. Sænk brystet ned mod bænken med helt ret krop. Tilbage til udgangsposition. 
 

@@ -270,7 +270,7 @@ Det vanskelige i forhold til kosttilskud er: Hvordan ved man, om man er i mangel
 
 ## Anslået pris pr. dag pr. kosttilskud
 
-{% include table-kosttilskud-pris.html %}
+{% include table/table-kosttilskud-pris.html %}
 
 ## Kosttilskud kan være sjovt
 

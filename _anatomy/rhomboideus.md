@@ -32,4 +32,4 @@ Rhomboideus eller Rhombemusklen består af to muskler, som sidder midt mellem sk
 
 Jeg kan rigtig godt lide at bruge [rows](/rows/) og særligt Bent over Rows.
 
-{% include exercise key="261" title="Bent over rows" %}
+{% include motionsplan/exercise key="261" title="Bent over rows" %}

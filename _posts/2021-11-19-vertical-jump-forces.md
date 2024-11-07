@@ -165,7 +165,7 @@ Nu ender vi altså med en relativt simpel formel, som gør det muligt at beregne
 
 Du kan bruge denne beregner:
 
-{% include calculate-jump-cmj-height-initial-velocity.html %}
+{% include calculator/calculate-jump-cmj-height-initial-velocity.html %}
 
 Hvis du har en kraftplatform, så kan du altså relativt enkelt udregne hoppehøjden ud fra den indledende hastighed. Men er der andre måder du kan bruge fysik til at udregne din hoppehøjde.
 
@@ -205,7 +205,7 @@ I vores specifikke eksempel med en svævetid på 0,5 sekunder får vi følgende 
 
 Hvis du kan finde din svævetid, så kan du altså udregne din hoppehøjde.
 
-{% include calculate-jump-cmj-height.html %}
+{% include calculator/calculate-jump-cmj-height.html %}
 
 ## Fase 5. Landingen
 

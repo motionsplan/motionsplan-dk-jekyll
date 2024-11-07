@@ -1,0 +1,60 @@
+<form class="calculator" id="calculator_cooper_mortality">
+    <fieldset>
+        <legend>Coopers beregner til sandsynlighed for tidlig død. Indtast dine værdier.</legend>
+        <div class="form-group">
+            <label for="age">Alder (år)</label>
+            <input type="number" min="10" max="69" name="age" id="age">
+        </div>
+        <div class="form-group">
+            <label for="hrrest">Hvilepuls (slag/min)</label>
+            <input type="number" min="30" max="100" name="hrrest" id="hrrest" required>
+        </div>
+        <div class="form-group">
+            <label for="bloodpressure">Blodtryk</label>
+            <select name="bloodpressure" id="bloodpressure">
+                <option value="under">Under 140/90</option>
+                <option value="over">Over 140/90</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="diabetes">Sukkersyge</label>
+            <select name="diabetes" id="diabetes">
+                <option value="no">Nej</option>
+                <option value="yes">Ja</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="smoker">Ryger</label>
+            <select name="smoker" id="smoker">
+                <option value="never">Aldrig</option>
+                <option value="previous">Tidligere</option>
+                <option value="current">Nuværende</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="bmi">BMI</label>
+            <input type="number" min="10" max="50" name="bmi" id="bmi" required>
+        </div>
+        <div class="form-group">
+            <label for="kondital">Kondital (ml/kg/min)</label>
+            <input type="number" min="10" max="100" name="kondital" id="kondital" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="risk_points">Risiko-score (point)</label>
+            <input id="risk_points" name="risk_points" type="text" disabled>
+        </div>
+        <div class="form-group">
+            <label for="absolute_risk">Absolut risiko (%)</label>
+            <input id="absolute_risk" name="absolute_risk" type="text" disabled>
+        </div>
+        <div class="form-group">
+            <label for="relative_risk">Relativ risiko</label>
+            <input id="relative_risk" name="relative_risk" type="text" disabled> 
+            <span class="help-block">Den relative risiko er hvor meget større risikoen er for at dø i forhold til en gennemsnitlig sund jævnaldrende person.</span>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -37,7 +37,7 @@ I vores beregner kan du sammenligne dig selv med forskellige atlettyper i spektr
 
 ## Beregner til din kropstype
 
-{% include calculate-somatotype.html %}
+{% include calculator/calculate-somatotype.html %}
 
 ## Hvad er somatotyper?
 

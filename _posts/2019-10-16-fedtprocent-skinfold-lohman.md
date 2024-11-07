@@ -50,7 +50,7 @@ Mål tre gange hvert sted og brug gennemsnittet af de tre målinger for at få e
 
 I nedenstående beregner kan du udregne fedtprocenten baseret på dine målinger.
 
-{% include calculate-fatpercent-skinfold-children-lohman.html %}
+{% include calculator/calculate-fatpercent-skinfold-children-lohman.html %}
 
 ## Lohman formlen
 

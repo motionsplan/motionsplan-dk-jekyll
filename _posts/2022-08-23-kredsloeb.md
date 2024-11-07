@@ -11,7 +11,6 @@ category:
 tags:
   - puls
 last_modified_at: 2022-08-23T23:14:14Z
-toc: true
 ---
 
 Vil du gerne vide mere om dit kredsløb? Dit hjerte og dine lunger arbejder sammen for at holde dig i live. Men hvordan virker det?
@@ -115,7 +114,7 @@ Hvis du træner med endnu højere intensiteter, så forbedrer du kredsløbets ma
 
 Det vil jeg gerne vide mere om!
 
-Fedt. Jeg har skrevet et helt afsnit om [hvordan du laver kredsløbstræning](/konditionstraening/).
+Fedt. Jeg har skrevet et helt afsnit om, [hvordan du laver kredsløbstræning](/konditionstraening/).
 
 ## Konklusion
 

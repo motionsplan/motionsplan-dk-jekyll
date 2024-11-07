@@ -78,7 +78,7 @@ Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på
 
 ## Udregn dit kondital fra distancen
 
-{% include calculate-fitness-cooper.html %}
+{% include calculator/calculate-fitness-cooper.html %}
 
 Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering af konditallet i denne [tabel over kondital](/kondital/).
 
@@ -134,7 +134,7 @@ Det afhænger naturligvis af din kondition og løbeøkonomi, hvor hurtigt og hvo
 
 Hvis du kender dit kondital, så kan du prøve at regne baglæns til en forventet distance.
 
-{% include calculate-fitness-cooper-reverse.html %}
+{% include calculator/calculate-fitness-cooper-reverse.html %}
 
 Tjek tabellerne længere nede på siden for at få en vurdering af din løbedistance på Cooper-testen. Her kan du sammenligne din tid med normalværdier.
 

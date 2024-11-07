@@ -1,0 +1,24 @@
+<form class="calculator" id="calculator_inol_reverse">
+    <fieldset>
+        <legend>Udregning af INOL.</legend>
+        <div class="form-group">
+            <label>Ønsket INOL
+                <input type="number" min="0" max="10" placeholder="fx 1" step="0.1" name="inol_reverse_inol" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Intensitet af 1RM (%)
+                <input type="number" min="0" max="100" placeholder="fx 80" name="inol_reverse_intensity" step="1">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Gentagelser
+                <input name="inol_reverse_reps" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

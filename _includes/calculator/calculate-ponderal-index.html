@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_ponderal_index">
+    <fieldset>
+        <legend>Udregning af Ponderal Index. Indtast værdier</legend>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultater</legend>
+        <label>Ponderal Index
+            <input disabled name="PMI" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

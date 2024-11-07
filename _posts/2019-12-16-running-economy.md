@@ -119,7 +119,7 @@ Hvis du har adgang til et [løbebånd]({% link _posts/2020-08-14-loebebaand.md %
 
 Du kan taste disse værdier ind i følgende beregner og få beregnet din løbeøkonomi.
 
-{% include calculate-running-economy.html %}
+{% include calculator/calculate-running-economy.html %}
 
 ## Reliabilitet af målinger af løbeøkonomi?
 
@@ -162,7 +162,7 @@ TODO - HVAD MON JEG MENER HER?
 
 Hvis du kun har behov for selve konditallet ud fra din iltoptagelse og vægt, så kan du beregne det nedenunder:
 
-{% include calculate-oxygenuptake.html %}
+{% include calculator/calculate-oxygenuptake.html %}
 
 I forhold til betragtninger om løbeøkonomi, så giver det ikke helt mening at bruge en indirekte måde at estimere din maksimale iltoptagelse. Hvis du fx estimerer iltoptagelsen og dit kondital med en [Cooper-test beregner](/cooper-test/), så er løbeøkonomien allerede en del af resultatet.
 

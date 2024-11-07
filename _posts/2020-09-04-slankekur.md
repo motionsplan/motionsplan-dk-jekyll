@@ -52,7 +52,7 @@ Jeg har lavet en beregner, der hjælper med at vise, hvor vildt vægttabet er i 
 
 ## Beregn nødvendigt energiunderskud for fedttab på slankekur
 
-{% include calculator-weightloss-calories.html %}
+{% include calculator/calculator-weightloss-calories.html %}
 
 Beregneren til det nødvendige energiunderskud for fedttab er baseret på, at der i 1 kg fedt er 38.000 kJ eller 9.000 kcal.
 

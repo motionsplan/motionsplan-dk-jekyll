@@ -183,4 +183,4 @@ Her kan du se en oversigt over de store led i kroppen.
 
 ## Muskeloversigt sorteret efter led
 
-{% include table-muscles-joints.html %}
+{% include table/table-muscles-joints.html %}

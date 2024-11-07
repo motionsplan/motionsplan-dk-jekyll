@@ -34,7 +34,7 @@ Men lad os komme til listen over sport og idræt med det samme!
 
 Her har jeg samlet en **liste over sportsgrene** og sport man kan gå til i Danmark. I listen kan du finde en liste over boldspil og kontaktsport samt mange andre sjove idrætsgrene.
 
-{% include table-sportsgrene.html %}
+{% include table/table-sportsgrene.html %}
 
 ## 10 største og mest populære idrætsgrene og sportsgrene i Danmark i 2018
 
@@ -42,7 +42,7 @@ Jeg har samlet en liste over de største og mest populære sportsgrene i Danmark
 
 {% assign sports = site.data.sportsgrene | sort: "Medlem2018" | reverse %}
 
-{% include table-sportsgrene.html column="Medlem2018" sports=sports limit="10" description="hide" %}
+{% include table/table-sportsgrene.html column="Medlem2018" sports=sports limit="10" description="hide" %}
 
 Hvis du gerne vil læse mere om, hvor mange der dyrker en bestemt idrætsgren, så kan du se [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal). Her får du også delt medlemstallene oå, så du kan se hvilke idrætsgrene der er mest populære for mænd og kvinder, og hvordan det ser ud med børn og ældre. I listen finder du også [Danmarks nationalsport fodbold](https://www.legestue.net/danmarks-nationalsport/).
 
@@ -52,7 +52,7 @@ Hvis du ved hvad de mest populære idrætsgrene er i Danmark i 2020, så brug en
 
 {% assign sports = site.data.sportsgrene | where_exp: "item", "item.Medlem2017 != blank" | sort: "Medlem2017" %}
 
-{% include table-sportsgrene.html column="Medlem2017" sports=sports limit="5" description="hide" %}
+{% include table/table-sportsgrene.html column="Medlem2017" sports=sports limit="5" description="hide" %}
 
 Hvis du ved hvad de mindst populære idrætsgrene er i Danmark i 2020, så brug endelig kommentarerne, så vi kan få opdateret dette indlæg.
 
@@ -68,7 +68,7 @@ Ovenfor er de forskellige sportsgrenes popularitet baseret på antallet af aktiv
 
 {% assign sports = site.data.sportsgrene | sort: "Fans" | reverse %}
 
-{% include table-sportsgrene.html column="Fans" sports=sports limit="10" description="hide" %}
+{% include table/table-sportsgrene.html column="Fans" sports=sports limit="10" description="hide" %}
 
 ## Sport, idræt motion og træning
 

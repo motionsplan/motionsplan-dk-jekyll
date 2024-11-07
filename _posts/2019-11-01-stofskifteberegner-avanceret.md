@@ -35,7 +35,7 @@ I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at b
 
 Med denne beregner kan du udregne dit samlede daglige energibehov, stofskifte og forbrænding. Resultatet er baseret på en gennemsnitsberegning for dit køn, din alder og din vægt, men husk der kan være masser af individuelle variationer.
 
-{% include calculate-stofskifte-avanceret.html %}
+{% include calculator/calculate-stofskifte-avanceret.html %}
 
 ## Lav præcis aktivitetsregistrering til udregning af stofskiftet
 

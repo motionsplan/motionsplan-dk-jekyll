@@ -49,7 +49,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 ## Udregn din fedtprocent med Peterson et al.-beregneren
 
-{% include calculate-fatpercent-skinfold-peterson.html %}
+{% include calculator/calculate-fatpercent-skinfold-peterson.html %}
 
 ## Usikkerheder i Peterson formlen
 

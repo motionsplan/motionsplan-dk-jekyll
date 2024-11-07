@@ -1,0 +1,21 @@
+<form class="calculator" id="calculator_bruce">
+    <fieldset>
+        <legend>Udregning af kondital fra Bruce-testen</legend>
+        <div class="form-group">
+            <label>Tid løbet på testen
+                <input type="number" min="0" max="1000" placeholder="fx 9.25" name="bruce_time" id="bruce_time" step="0.01" required>
+                <span class="help-block">Sekunder skal angives i fraktioner af minutter. Fx er 9 min 15 sek 9.25</span>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultat</legend>
+        <div class="form-group">
+            <label>Kondital (ml/min/kg)
+                <input name="bruce_kondital" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

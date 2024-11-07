@@ -1,0 +1,43 @@
+{% assign bsa = include.bsa | default: "1,8336" %}
+<form class="calculator" id="calculator_radiation">
+    <fieldset>
+        <legend>Varmetab til radiation</legend>
+        <div class="form-group">
+            <label>Formel for udregning af radiation
+            <select name="radiation_formula">
+                <option value="couzens">Couzens</option>
+                <option value="boltzmann">Boltzmann</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overfladeareal (m<sup>2</sup>) - BSA
+                <input type="number" min="0" max="10" placeholder="fx {{ bsa }}" name="radiation_bsa" id="radiation_bsa" step="0.000001" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (°C)
+                <input type="number" min="20" max="50" placeholder="fx 37" name="radiation_skin_temperature" id="radiation_skin_temperature" step="0.01" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (°C)
+                <input type="number" min="-100" max="50" placeholder="fx 31" name="radiation_air_temperature" id="radiation_air_temperature" step="0.01" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Emmisionsevne
+                <input type="number" min="0" max="1" placeholder="fx 0,97" value="0.97" name="radiation_emmisivity" id="radiation_emmisivity" step="0.01" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til radiation (watts)
+                <input name="heatloss_radiation" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

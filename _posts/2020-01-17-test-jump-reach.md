@@ -51,11 +51,11 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 ## Udregn hoppehøjde
 
-{% include calculate-jump-reach.html %}
+{% include calculator/calculate-jump-reach.html %}
 
 ## Udregn power på baggrund af Jump & Reach
 
-{% include calculate-vertical-jump-power.html %}
+{% include calculator/calculate-vertical-jump-power.html %}
 
 ## Kan power udregnes?
 

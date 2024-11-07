@@ -34,7 +34,7 @@ Denne sammenhæng kan bruges til træningsplanlægning, da man kan se, hvilke el
 
 I denne beregner kan du beregne din powerprofil på baggrund af dit testresultat på 2 kilometer på roergometeret.
 
-{% include calculate-fitness-rowing-powerprofile.html %}
+{% include calculator/calculate-fitness-rowing-powerprofile.html %}
 
 ## Hvad betyder tallene i powerprofilen for roning?
 

@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_fat_bai">
+    <fieldset>
+        <legend>Udregning af Body Adiposity Index (BAI). Indtast højde og hofteomkreds.</legend>
+        <div class="form-group">
+            <label>Hofteomkreds (cm)
+                <input name="hc" type="number" min="10" max="200" placeholder="Hofteomkreds i cm" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="hm" type="number" min="30" max="272" placeholder="Højde i cm" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultat</legend>
+        <label>Body Adiposity Index (BAI)
+            <input disabled name="bai" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

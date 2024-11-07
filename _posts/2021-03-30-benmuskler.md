@@ -52,13 +52,13 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Vigtige øvelser til træning af benmuskler
 
-{% include exercise key="15" title="Squat" %}
+{% include motionsplan/exercise key="15" title="Squat" %}
 
-{% include exercise key="43" title="Romanian Deadlift" %}
+{% include motionsplan/exercise key="43" title="Romanian Deadlift" %}
 
-{% include exercise key="261" title="Glute Ham Raise" %}
+{% include motionsplan/exercise key="261" title="Glute Ham Raise" %}
 
-{% include exercise key="267" title="Træning af læg" %}
+{% include motionsplan/exercise key="267" title="Træning af læg" %}
 
 ## Konklusion
 

@@ -63,7 +63,7 @@ Jeg har lavet en beregner, hvis du foretrækker ikke selv skulle lave beregninge
 
 ## Beregner til cykel trappetesten
 
-{% include calculate-fitness-trappetest.html %}
+{% include calculator/calculate-fitness-trappetest.html %}
 
 ## Forklaring til trappetest-beregneren
 

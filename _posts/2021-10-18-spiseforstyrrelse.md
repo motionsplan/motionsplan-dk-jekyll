@@ -45,7 +45,7 @@ Disse spørgsmål har jeg lavet til en lille onlinetest. Testen kan naturligvis 
 
 [Cotton et al (2003)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1494802/) fandt frem til disse fire spørgsmål, der kan være en indikation på, om du måtte have en spiseforstyrrelse. De fandt også to spørgsmål, som kan være med til at afvise en evt. spiseforstyrrelse.
 
-{% include calculate-eating-disorder.html %}
+{% include calculator/calculate-eating-disorder.html %}
 
 De første fire spørgsmål er mest knyttet til at kunne afdække en eventuel spiseforstyrrelse, mens de sidste to spørgsmål kan være med til at afvise, at du skulle have en spiseforstyrrelse.
 

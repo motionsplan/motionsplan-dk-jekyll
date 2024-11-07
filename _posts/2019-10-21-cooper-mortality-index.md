@@ -42,7 +42,7 @@ Spørgeskemaet giver en relativ risiko for at dø inden for de næste 15 år sam
 
 Med _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_ kan mænd beregne deres relative og absolutte risiko for at dø inden for de næste 15 år.
 
-{% include calculate-mortality.html %}
+{% include calculator/calculate-mortality.html %}
 
 Du bør nok være opmærksom på, at svarene i spørgeskemaet er vejledende og ikke lave alt for mange planer baseret på resultatet.
 

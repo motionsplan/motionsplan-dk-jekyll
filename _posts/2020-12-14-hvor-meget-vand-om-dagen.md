@@ -60,7 +60,7 @@ I dette indlæg kan du læse mere om:
 
 Team Danmark [foreslår](https://www.teamdanmark.dk/performance/sportsernaering/vaesketest), at du har et basalbehov på 30-40 ml væske pr. kg kropsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
 
-{% include calculate-water-intake.html %}
+{% include calculator/calculate-water-intake.html %}
 
 I beregneren udregner du dit basalbehov for væske om dagen. Men det er naturligvis noget andet, hvis du er i meget varme omgivelser eller dyrker idræt, hvor du sveder meget.
 

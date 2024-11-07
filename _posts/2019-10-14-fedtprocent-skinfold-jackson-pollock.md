@@ -52,7 +52,7 @@ I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kv
 
 {% include video provider="youtube" id="6KLdyRJIAqk" %}
 
-{% include calculate-fatpercent-skinfold-jackson-pollock-male.html %}
+{% include calculator/calculate-fatpercent-skinfold-jackson-pollock-male.html %}
 
 ## Fedtprocent for kvinder
 
@@ -60,7 +60,7 @@ I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kv
 
 {% include video provider="youtube" id="hvC2TDs95xY" %}
 
-{% include calculate-fatpercent-skinfold-jackson-pollock-female.html %}
+{% include calculator/calculate-fatpercent-skinfold-jackson-pollock-female.html %}
 
 ## Formel til Pollock og Jacksons fedtmåling
 

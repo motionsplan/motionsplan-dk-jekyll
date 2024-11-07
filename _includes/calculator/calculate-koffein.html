@@ -1,0 +1,36 @@
+<form class="calculator" id="calculator_koffein">
+    <fieldset>
+        <legend>Beregn koffeinindtag</legend>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="body_weight" id="body_weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Koffeinindtag pr. kg kropsvægt (mg/kg)
+                <input name="koffein_intake_kg" id="koffein_intake_kg" type="number" min="0" max="5" placeholder="Koffeinindtag" step="0.1" value="3" required>
+            </label>
+        </div>
+        {% comment %}
+        <div class="form-group">
+            <label for="answers">Sammenlign med denne fødevare</label>
+            <input list="answers" name="answer" placeholder="Vælg fødevare" id="answerInput">
+            <datalist id="answers">
+              {% for row in food offset:2 %}
+              <option value="{{ row.Protein }}">{{ row.Navn }}</option>
+              {% endfor %}
+            </datalist>
+            <input type="hidden" name="answer" id="answerInput-hidden">
+        </div>
+        {% endcomment %}
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Koffein (mg)
+                <input type="number" id="koffein_intake" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -35,7 +35,7 @@ Rationalet er, at løbepræstationen kan oversættes til _power output_ målt i 
 
 Du kan prøve at udfylde formularen med de foreslåede gennemsnitlige værdier, eller du kan prøve med dine egne værdier.
 
-{% include calculate-heat-production-running.html %}
+{% include calculator/calculate-heat-production-running.html %}
 
 Den estimerede varme der genereres med den løbeindsats på <span id="heat_management_run_power_output">844</span>W.
 
@@ -63,7 +63,7 @@ Derfor er effektiviteten noget lavere.
 
 Dit overfladeareal har stor betydning for, hvor meget konvektionen betyder for din nedkøling. Jo mere overflade, jo højere potentiale for nedkøling.
 
-{% include calculate-bsa.html body_weight="80" height="180" %}
+{% include calculator/calculate-bsa.html body_weight="80" height="180" %}
 
 Dit estimerede overfladeareal er <span id="heat_management_bsa">2,0000</span> m<sup>2</sup>.
 
@@ -71,7 +71,7 @@ Lad os kigge på, hvad du kan tabe af varme gennem konvektion i løb.
 
 Her kan du smide dine egne tal ind med overfladeareal, temperaturer og løbehastighed..
 
-{% include calculate-heat-convection.html velocity="12" bsa="2,000" %}
+{% include calculator/calculate-heat-convection.html velocity="12" bsa="2,000" %}
 
 <span id="heat_management_convection">182</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_management_subtotal_1">662</span>W i varme.
 
@@ -87,7 +87,7 @@ Når du løber, så afgiver du også en del af din varme til omgivelserne.
 
 Hvis du leger med tallene og sænker lufttemperaturen i nedenstående beregner, så kan du se, hvor stor impact det vil have i forhold til radiation at køle sig ned undervejs.
 
-{% include calculate-heat-radiation.html bsa="2,0000" %}
+{% include calculator/calculate-heat-radiation.html bsa="2,0000" %}
 
 Varmetabet gennem radiation er <span id="heat_management_radiation">62</span>W. Men kroppen skal stadig af med <span id="heat_management_subtotal_2">600</span>W varme.
 
@@ -108,7 +108,7 @@ Du kan måske indtage cirka halvdelen af den væske, du kan på cyklen. Det vil 
 
 Det er således vigtigt at starte på løbeturen i væskebalance.
 
-{% include calculate-heat-evaporation.html %}
+{% include calculator/calculate-heat-evaporation.html %}
 
 Varmetabet via evaporation er <span id="heat_management_evaporation">300</span>W. Det giver en total på <span id="heat_management_subtotal_3">300</span>W af varme tilbage i systemet.
 
@@ -124,7 +124,7 @@ Men hvor varm?
 
 Lad os kigge lidt på tallene:
 
-{% include calculate-heat-temperature-rise.html %}
+{% include calculator/calculate-heat-temperature-rise.html %}
 
 Kroppen vil gøre alt, hvad den kan for at fastholde kropstemperaturen i et relativt snævert interval.
 

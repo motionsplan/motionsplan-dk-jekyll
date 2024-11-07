@@ -86,7 +86,7 @@ Galloway har en [beregner](https://www.jeffgalloway.com/training/magic-mile/) p�
 
 I denne beregner kan du udregne forskellige hastigheder, som du kan bruge i din træning alt efter, hvilket tempo du skal løbe i. Du skal først have løbet en _Magic Mile_. Baseret på din sluttid kan du udregne, hvilket tempo du skal bruge på forskellige distancer.
 
-{% include calculate-galloway-magic-mile.html %}
+{% include calculator/calculate-galloway-magic-mile.html %}
 
 ## Hvordan løber man en Galloway Magic Mile?
 
@@ -182,7 +182,7 @@ Her skal du kende din forventede maraton-sluttid, og så får du fordelingen af 
 
 I denne beregner kan du udregne, hvad din samlede gennemsnitlige pace bliver baseret på, hvor længe du har tænkt dig at løbe og gå og den pace, du går og løber med.
 
-{% include calculate-run-walk-time.html %}
+{% include calculator/calculate-run-walk-time.html %}
 
 {% comment %}
 

@@ -31,17 +31,17 @@ En ting er at træne rygmusklerne, men du har også brug for stærke og udholden
 
 ## De bedste trækøvelser til træktræning
 
-{% include exercise key="20210819092000" title="1) Rows" %}
+{% include motionsplan/exercise key="20210819092000" title="1) Rows" %}
 
 Rows er en helt central del af din træning. Når du gerne vil træne den øvre ryg, så er det en god ide at bruge flere forskellige varianter. Jeg har samlet en artikel over [rows](/rows/) her. Nogle af de mest kendte er [bent over barbell rows]({% link _exercises/roning-foroverboejet-63.md %}). Alt efter hvordan du laver din teknik, så kan du ramme ryggen på forskellig måde med dine rows.
 
-{% include exercise key="20210819092600" title="2) Pulldown" %}
+{% include motionsplan/exercise key="20210819092600" title="2) Pulldown" %}
 
-{% include exercise key="20210819092800" title="3) Pullup og chinups" %}
+{% include motionsplan/exercise key="20210819092800" title="3) Pullup og chinups" %}
 
 [Pullups og chinups](/chinup-vs-pullup/) er nogle rigtig gode øvelser til at træne ryggen. Jeg har skrevet mere om, [hvordan du kommer i gang med kropshævninger](/laer-kropshaevning-chinup-pullup-program/) her.
 
-{% include exercise key="20210819093100" title="4) Bodyrows" %}
+{% include motionsplan/exercise key="20210819093100" title="4) Bodyrows" %}
 
 ## Trækøvelser uden udstyr
 

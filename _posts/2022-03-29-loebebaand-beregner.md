@@ -17,7 +17,7 @@ I denne løbebånd beregner kan du beregne forskellen mellem at løbe med og ude
 
 ## Løbebånd beregner
 
-{% include calculate-treadmill.html %}
+{% include calculator/calculate-treadmill.html %}
 
 Du kan bruge vores beregner til at [omregne fra km/t til min/km](/hastighed/).
 

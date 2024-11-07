@@ -33,7 +33,7 @@ Hvis vi tager udgangspunkt i nogle meget anvendte intervaller for at flytte den 
 
 I denne beregner kan du hurtigt udregne, hvor langt du skal løbe på et interval, når du kender hastigheden i minutter per kilometer (min/km).
 
-{% include calculate-hvor-langt-per-timed-interval.html %}
+{% include calculator/calculate-hvor-langt-per-timed-interval.html %}
 
 ## Konklusion
 

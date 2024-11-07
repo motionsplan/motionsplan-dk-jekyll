@@ -45,7 +45,7 @@ Først tjekker du naturligvis om forsøgspersonen er sund og rask og har [en nor
 
 I denne beregner for 6 minutters gangdistancetest kan du sammenligne dit resultat med referenceværdier.
 
-{% include calculate-fitness-walktest-6min.html %}
+{% include calculator/calculate-fitness-walktest-6min.html %}
 
 ## Referenceværdier for 6 minutters-gangtesten (6mwt)
 

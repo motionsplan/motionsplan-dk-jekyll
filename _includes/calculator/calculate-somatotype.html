@@ -1,0 +1,103 @@
+<form class="calculator" id="calculator_somatotype">
+    <fieldset>
+        <legend>Udregn din kropstype.</legend>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender" id="gender">
+                <option value="male" selected="selected">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" id="height" min="50" max="250" type="number" placeholder="fx 180" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="weight" id="weight" type="number" min="20" max="200" placeholder="fx 73" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Triceps hudfold (mm)
+                <input name="triceps_skinfold" id="triceps_skinfold" type="number" min="1" max="200" placeholder="fx 4" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Subscapularis hudfold (mm)
+                <input name="subscapularis_skinfold" id="subscapularis_skinfold" type="number" min="1" max="200" placeholder="fx 6" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Supraspinale hudfold (mm)
+                <input name="supraspinal_skinfold" id="supraspinal_skinfold" type="number" min="1" max="200" placeholder="fx 8" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Abdominale hudfold (mm)
+                <input name="abdominal_skinfold" id="abdominal_skinfold" type="number" min="1" max="200" placeholder="fx 9" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Forlår hudfold (mm)
+                <input name="frontthigh_skinfold" id="frontthigh_skinfold" type="number" min="1" max="200" placeholder="fx 6" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Læg hudfold (mm)
+                <input name="calf_skinfold" id="calf_skinfold" type="number" min="1" max="200" placeholder="fx 4" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overarm bredde (cm)
+                <input name="humerus_breath" id="humerus_breath" type="number" min="1" max="200" placeholder="fx 7" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lår bredde (cm)
+                <input name="femur_breath" id="femur_breath" type="number" min="1" max="200" placeholder="fx 10" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overarmomkreds - afslappet (cm)
+                <input name="arm_girth_relaxed" id="arm_girth_relaxed" type="number" min="1" max="200" placeholder="fx 29" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overarmomkreds - flekset (cm)
+                <input name="arm_girth_flexed" id="arm_girth_flexed" type="number" min="1" max="200" placeholder="fx 31" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Låromkreds (cm)
+                <input name="thigh_girth" id="thigh_girth" type="number" min="1" max="200" placeholder="fx 55" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lægomkreds (cm)
+                <input name="calf_girth" id="calf_girth" type="number" min="1" max="200" placeholder="fx 37" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Endomorph (1-7)
+                <input name="endomorph" id="endomorph" type="text" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Mesomorph (1-7)
+                <input name="mesomorph" id="mesomorph" type="text" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Ectomorph (1-7)
+                <input name="ectomorph" id="ectomorph" type="text" disabled>
+            </label>
+        </div>
+        <canvas id='canvas' style="margin: auto; margin-top: 2em; display: block; width: 400px;" height="420" width="400"></canvas>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

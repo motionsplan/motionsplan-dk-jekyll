@@ -61,4 +61,4 @@ Jeg har også [skrevet lidt om cirkeltræning]({% link _posts/2020-06-16-cirkelt
 Har du nogle gode sites eller nogle gode øvelser, så del det gerne i kommentarerne?
 
 {% assign exercises = site.exercises | where: "equipment", "kropsvægt" | sort: "title" %}
-{% include exercises-by-search title="Øvelser med kropsvægt" exercises=exercises %}
+{% include motionsplan/exercises-by-search title="Øvelser med kropsvægt" exercises=exercises %}

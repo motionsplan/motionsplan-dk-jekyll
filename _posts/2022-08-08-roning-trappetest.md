@@ -73,7 +73,7 @@ VO2max m l/min = 13,7 * watt + 287 (ml/min)
 
 Du kan bruge følgende beregner til at finde dit kondital, når du kender dit resultat fra rotrappetesten.
 
-{% include calculate-fitness-rowing-trappetest.html %}
+{% include calculator/calculate-fitness-rowing-trappetest.html %}
 
 ## Hvordan forbedrer jeg mit resultat?
 

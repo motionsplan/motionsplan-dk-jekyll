@@ -1,0 +1,50 @@
+<form class="calculator" id="calculator_walktest_6min">
+    <fieldset>
+        <legend>6 minutters gåtest. Indtast oplysninger.</legend>
+        <div class="form-group">
+            <label for="formula">Referenceværdier</label>
+            <select name="formula" id="formula">
+                <option value="false" selected="selected">Kun et forsøg - Enright & Sherril (1998)</option>
+                <option value="repeated">Gentagne forsøg - Gibbons et al (2001)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="meter">Distance tilbagelagt (meter)</label>
+            <input type="number" min="50" max="1200" placeholder="fx 400" name="meter" id="meter" required>
+        </div>
+        <div class="form-group">
+            <label for="gender">Køn</label>
+            <select name="gender" id="gender">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="age">Alder (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 60" name="age" id="age" required>
+        </div>
+        <div class="form-group">
+            <label for="height">Højde (cm)</label>
+            <input type="number" min="50" max="272" placeholder="fx 170" name="height" id="height" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="20" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Referenceværdi (meter)
+                <input name="reference_distance" id="reference_distance" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Procent af normal (%)
+                <input name="procent" id="procent" disabled>
+            </label>
+            {% include meter min="0" max="200" low="75" high="125" optimum="100" id="walktest_gauge" title="Procent" scale="0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200" label="" %}
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

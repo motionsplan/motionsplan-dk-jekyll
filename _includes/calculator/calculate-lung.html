@@ -1,0 +1,32 @@
+<form class="calculator" id="calculator_lung">
+    <fieldset>
+        <legend>Udregning af lungevolumen og vital kapacitet.</legend>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="0" max="100" placeholder="fx 40" name="age" id="age" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm) (valgfri)
+                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Vitalkapacitet (ml)
+                <input name="vital_capacity" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_6sek_relative_ppo">
+    <fieldset>
+        <legend>Udregning af relative power output</legend>
+        <div class="form-group">
+            <label>Peak Power Output (watt)
+                <input name="6sek_ppo" type="number" min="0" max="10000" placeholder="" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="6sek_bw" type="number" min="0" max="10000" placeholder="" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultat</legend>
+        <label>Relative Power Output (watt/kg)
+            <input disabled name="relative_ppo" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

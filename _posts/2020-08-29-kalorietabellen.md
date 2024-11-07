@@ -61,7 +61,7 @@ Alle tallene i kalorietabellen er per 100 gram rå fødevare (spiselig del).
 
 I denne tabel kan du søge på, hvor mange kalorier der er i mad.
 
-{% include table-kalorietabellen.html %}
+{% include table/table-kalorietabellen.html %}
 
 ## Ofte stillede spørgsmål
 

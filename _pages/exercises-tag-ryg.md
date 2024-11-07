@@ -35,25 +35,25 @@ En ting er at træne rygmusklerne, men du har også brug for stærke og udholden
 
 ## 7 gode rygøvelser til rygtræning
 
-{% include exercise key="20210819091800" title="1) Dødløft" %}
+{% include motionsplan/exercise key="20210819091800" title="1) Dødløft" %}
 
 Dødløft er en rigtig god øvelse til din rygtræning. Det er en basisøvelse, som rammer rigtig mange muskelgrupper, men de hjælper dig også med at lære at spænde op omkring din rygsøjle. Øvelsen findes i mange varianter, fx [konventionel dødløft](/oevelse/konventionel-doedloeft/), [sumo dødløft](/oevelse/sumo-doedloeft/), [stivbenet dødløft](/oevelse/doedloeft-stivbenet/), trækfat dødløft og [rumænsk dødløft](/oevelse/romanian-deadlift/). Dødløft er ikke farligt. Du skal bare sørge for at dosere rigtigt og prioritere din teknik.
 
-{% include exercise key="20210819092000" title="2) Rows" %}
+{% include motionsplan/exercise key="20210819092000" title="2) Rows" %}
 
 Rows er en helt central del af din træning. Når du gerne vil træne den øvre ryg, så er det en god ide at bruge flere forskellige varianter. Jeg har samlet en artikel over [rows](/rows/) her. Nogle af de mest kendte er [bent over barbell rows]({% link _exercises/roning-foroverboejet-63.md %}). Alt efter hvordan du laver din teknik, så kan du ramme ryggen på forskellig måde med dine rows.
 
-{% include exercise key="20210819092600" title="3) Pulldown" %}
+{% include motionsplan/exercise key="20210819092600" title="3) Pulldown" %}
 
-{% include exercise key="20210819092800" title="4) Pullup og chinups" %}
+{% include motionsplan/exercise key="20210819092800" title="4) Pullup og chinups" %}
 
 [Pullups og chinups](/chinup-vs-pullup/) er nogle rigtig gode øvelser til at træne ryggen. Jeg har skrevet mere om, [hvordan du kommer i gang med kropshævninger](/laer-kropshaevning-chinup-pullup-program/) her.
 
-{% include exercise key="20210819093100" title="5) Bodyrows" %}
+{% include motionsplan/exercise key="20210819093100" title="5) Bodyrows" %}
 
-{% include exercise key="20210819093200" title="6) Planken" %}
+{% include motionsplan/exercise key="20210819093200" title="6) Planken" %}
 
-{% include exercise key="20210819093210" title="7) Good morning" %}
+{% include motionsplan/exercise key="20210819093210" title="7) Good morning" %}
 
 ## Øvelser til ryggen
 

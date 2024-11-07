@@ -192,7 +192,7 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 ## Quiz om regler for styrkeløft
 
-{% include orbit.html cards=page.quiz %}
+{% include motionsplan/orbit.html cards=page.quiz %}
 
 ## Referencer
 

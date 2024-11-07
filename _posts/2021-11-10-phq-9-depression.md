@@ -44,7 +44,7 @@ Denne depressionstest er gratis, og den er oversat til mange forskellige sprog, 
 
 Her kan du prøve testen online og på dansk. Skemaet belyser tilstedeværelsen af depressive symptomer inden for de seneste to uger, og det kan naturligvis aldrig erstatte at søge professionel hjælp, hvis du tænker at du kan være deprimeret.
 
-{% include calculate-phq-9.html %}
+{% include calculator/calculate-phq-9.html %}
 
 Udover de ni spørgsmål, som danner udgangspunkt for totalscoren, er der til sidst i skemaet et
 supplerende spørgsmål, hvor respondenten skal angive, hvor besværligt de eventuelt angivne

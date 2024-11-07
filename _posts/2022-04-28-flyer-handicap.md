@@ -29,7 +29,7 @@ Flyer Handicap er udviklet af Paul M. Vanderburgh og Lloyd L. Laubach ved Univer
 
 ## Flyer Handicap Beregner
 
-{% include calculate-running-flyer-handicap.html %}
+{% include calculator/calculate-running-flyer-handicap.html %}
 
 **Note** Hvis du indtaster en alder under 25 i beregneren, så vil den bruge 25 år som din alder. Hvis din vægt er under de angivne kropsvægte for mænd og kvinder, så vil beregneren automatisk bruge de angivne mindstevægte. Typisk er lavere kropsvægt ikke en fordel.
 

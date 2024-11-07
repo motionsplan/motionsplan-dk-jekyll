@@ -119,7 +119,7 @@ Knoglerne kan opdeles i fire forskellige knogletyper:
 
 ## Oversigt over knogler i kroppen
 
-{% include table-bones.html %}
+{% include table/table-bones.html %}
 
 ## Artikler om knogler og knogletyper
 

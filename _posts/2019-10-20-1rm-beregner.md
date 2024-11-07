@@ -62,7 +62,7 @@ I dette indlæg får du svaret på følgende spørgsmål:
 
 Her får du en 1RM-beregner med de mest udbredte formler til at beregne din one rep max i forskellige løft.
 
-{% include calculate-1rm.html %}
+{% include calculator/calculate-1rm.html %}
 
 ## Hvad er en RM-beregner?
 

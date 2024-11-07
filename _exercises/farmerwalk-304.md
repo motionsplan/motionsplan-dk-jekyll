@@ -1,8 +1,8 @@
 ---
 title: "Farmer walk: Komplet guide til farmers walk"
-seo_title: "Farmers Walk • 4 overbevisende grunde for at gå farmer walks »"
-instructions: &instructions "I farmer walk starter du med at stå mellem vægtene. Tag vægtene i hver hånd og rejs dig op med ryggen ret og kig fremad. Gå med korte skridt og husk at trække vejret. Gå omkring 15-20 meter."
-excerpt: *instructions
+seo_title: Farmers Walk • 4 overbevisende grunde for at gå farmer walks »
+instructions: I farmer walk starter du med at stå mellem vægtene. Tag vægtene i hver hånd og rejs dig op med ryggen ret og kig fremad. Gå med korte skridt og husk at trække vejret. Gå omkring 15-20 meter.
+excerpt: I farmer walk starter du med at stå mellem vægtene. Tag vægtene i hver hånd og rejs dig op med ryggen ret og kig fremad. Gå med korte skridt og husk at trække vejret. Gå omkring 15-20 meter.
 permalink: /oevelse/farmerwalk/
 redirect_from: /node/304
 id: 304
@@ -26,12 +26,13 @@ alternative_titles:
 gallery:
   - url: /assets/images/exercises/farmerwalk-0.jpg
     image_path: /assets/images/exercises/farmerwalk-0-320.jpg
-    alt: "Farmers walk"
-    title: "Farmer walk"
+    alt: Farmers walk
+    title: Farmer walk
 video:
   provider: youtube
   id: E0i6N7Ozi7c
 last_modified_at: 2013-04-26T19:52:47Z
+fmContentType: exercise
 ---
 
 Farmer walk kender du fra strongman konkurrencer, hvor man bærer en tung ting i begge hånder. Du kan bruge mange forskellige redskaber til farmers walk. De mest brugte er dumbells, en trap bar eller dedikerede håndtag til farmer walk.

@@ -29,7 +29,7 @@ Alt du skal gøre er at indtaste dit daglige energiforbrug og dit forventede ene
 
 ## Beregn vægttab på slankekur
 
-{% include calculator-weightloss.html %}
+{% include calculator/calculator-weightloss.html %}
 
 ## Baggrund for beregningen af vægttab
 

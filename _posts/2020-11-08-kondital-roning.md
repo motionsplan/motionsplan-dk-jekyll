@@ -93,7 +93,7 @@ For at få estimeret konditallet, så kan vi altså bruge _mean power output_ p�
 
 Jeg har lavet en beregner, hvor du får anslået dit kondital ved bare at indtaste din tid for de 2000 meter i nedenstående beregner. Her omregnes automatisk fra tid til power efter anvisninger hos [Concept2](https://www.concept2.com/indoor-rowers/training/calculators/watts-calculator).
 
-{% include calculate-fitness-rowing-2000-meter-time.html %}
+{% include calculator/calculate-fitness-rowing-2000-meter-time.html %}
 
 Jeg roede fx de 2000 meter på 7:18 sekunder. Jeg er en mand, og jeg vejer 84 kg. Det betyder, at jeg får et kondital på 51 ifølge Klusiewicz og Faff (2003). Til sammenligning giver Concept2's beregner mig som begynder et kondital på 49 og som øvet 56.
 

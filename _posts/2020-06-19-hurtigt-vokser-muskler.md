@@ -107,7 +107,7 @@ De endte med en meget enkel formel til at estimere dit eget øvre potentiale for
 
 Vi har lavet en beregner her, som du lynhurtigt kan smide dine egne tal ind i.
 
-{% include calculate-musclemass-upper-limit.html %}
+{% include calculator/calculate-musclemass-upper-limit.html %}
 
 Et eksempel:
 

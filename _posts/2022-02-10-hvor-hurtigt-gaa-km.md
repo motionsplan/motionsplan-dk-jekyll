@@ -69,7 +69,7 @@ Hvis vi omregner fra antal skridt og skridtlængde, så kan vi finde distancen. 
 
 Tjek denne beregner:
 
-{% include calculate-fitness-walking-how-fast.html %}
+{% include calculator/calculate-fitness-walking-how-fast.html %}
 
 ## Verdensrekorden i kapgang
 

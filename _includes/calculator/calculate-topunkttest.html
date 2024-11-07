@@ -1,0 +1,50 @@
+<form class="calculator" id="calculator_topunkttest">
+    <fieldset>
+        <legend>Åstrands topunktstest på cykelergomenter.</legend>
+        <div class="form-group">
+            <label for="work_1">1. arbejdsbelastning (watt)</label>
+            <input type="number" min="20" max="500" placeholder="fx 100" name="work_1" id="work_1" required>
+        </div>
+        <div class="form-group">
+            <label for="hr_1">Puls ved 1. arbejdsbelastning (slag / min)</label>
+            <input type="number" min="30" max="250" placeholder="fx 130" name="hr_1" id="hr_1" required>
+        </div>
+        <div class="form-group">
+            <label for="work_2">2. arbejdsbelastning (watt)</label>
+            <input type="number" min="20" max="500" placeholder="fx 180" name="work_2" id="work_2" required>
+        </div>
+        <div class="form-group">
+            <label for="hr_2">Puls ved 2. arbejdsbelastning (slag / min)</label>
+            <input type="number" min="20" max="250" placeholder="fx 160" name="hr_2" id="hr_2" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Alder (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Maksimale puls (slag/min)</label>
+            <input type="number" min="30" max="250" placeholder="fx 180" name="max_hr" id="max_hr" required>
+            <p class="help-inline">Hvis du ikke kender din maksimale puls, så kan du estimere den ud fra din alder med vores <a href="/test-max-puls/">beregner</a>.</p>
+        </div>
+        <div class="form-group">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="10" max="200" placeholder="fx 80" name="weight" id="weight" step="0.1" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="work_max">Maksimale arbejdsbelastning (watt)</label>
+            <input name="work_max" id="work_max" disabled>
+        </div>
+        <div class="form-group">
+            <label for="vo2max">Maximal iltoptagelse (l/min)</label>
+            <input name="vo2max" id="vo2max" disabled>
+        </div>
+        <div class="form-group">
+            <label for="kondital">Kondital (ml/kg/min)</label>
+            <input name="kondital" id="kondital" disabled>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

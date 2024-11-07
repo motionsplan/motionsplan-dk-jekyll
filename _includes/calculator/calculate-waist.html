@@ -1,0 +1,28 @@
+<form class="calculator" id="calculator_waist">
+    <fieldset>
+        <legend>Udregning af Taljemål. Indtast værdier</legend>
+        <div class="form-group">
+            <label for="height">Højde (cm)</label>
+            <input name="height" id="height" type="number" min="50" max="272" placeholder="Højde i cm" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="waist">Talje (cm)</label>
+            <input name="waist" id="waist" type="number" min="20" max="200" placeholder="Talje i cm" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="hip">Hofte (cm)</label>
+            <input name="hip" id="hip" type="number" min="20" max="200" placeholder="Hofte i cm" step="0.1" required>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultater</legend>
+        <label>Talje-Hofte-Ratio
+            <input disabled name="whr" id="whr" type="text" placeholder="">
+        </label>
+        <label>Talje-Højde-Ratio
+            <input disabled name="waistheightratio" id="waistheightratio" type="text" placeholder="">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

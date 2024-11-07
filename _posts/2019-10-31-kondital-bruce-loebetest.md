@@ -76,7 +76,7 @@ Men på [www.topendsports.com](https://www.topendsports.com/testing/tests/bruce.
 
 Du kan sammenligne dit resultat med [tabellen med kondital for mænd og kvinder](/kondital/).
 
-{% include calculate-bruce.html %}
+{% include calculator/calculate-bruce.html %}
 
 ## Referencer
 

@@ -1,0 +1,37 @@
+<form class="calculator" id="calculator_pushups">
+    <fieldset>
+        <div class="form-group">
+            <label for="gender">Køn</label>
+            <select name="gender" id="gender">
+                <option value="male" selected="selected">Mænd (på tæerne)</option>
+                <option value="female">Kvinder (knæ i jorden)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="age">Alder</label>
+            <input name="age" id="age" type="number" min="15" max="69" required>
+        </div>
+        <div class="form-group">
+            <label for="repetitions">Gentagelser</label>
+            <input name="repetitions" id="repetitions" type="number" min="0" max="1000" required>
+        </div>
+        <input type="submit" value="Giv mig vurdering">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="population_average">Gennemsnit for alderen</label>
+            <input name="population_average" id="population_average" disabled> 
+        </div>
+        <div class="form-group">
+            <label for="score">Score</label>
+            <input name="score" disabled>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="rating">Rating</label>
+            <input name="rating" id="rating" disabled>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

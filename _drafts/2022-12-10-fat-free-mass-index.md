@@ -35,7 +35,7 @@ Du kan bruge vores beregner nedenunder, så du ikke behøver at finde lommeregne
 
 Udregn FFMI i vores beregner herunder:
 
-{% include calculate-ffmi.html %}
+{% include calculator/calculate-ffmi.html %}
 
 
 

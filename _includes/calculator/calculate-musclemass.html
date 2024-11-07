@@ -1,0 +1,50 @@
+<form class="calculator" id="calculator_musclemass">
+    <fieldset>
+        <legend>Beregner til udregning af muskelmasse.</legend>
+        <div class="form-group">
+            <label>Etnicitet
+            <select name="ethniticity">
+                <option value="white" selected>Hvid</option>
+                <option value="black">Sort</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="man" selected>Mand</option>
+                <option value="woman">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" name="weight" min="0" max="1000" step="0.1" placeholder="" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" name="height" min="0" max="300" step="0.1" placeholder="" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" name="age" min="0" max="200" step="0.1" placeholder="" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Taljemål (cm) - Valgfri
+                <input type="number" name="waist" min="0" max="300" step="0.1" placeholder="">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Muskelmasse (kg)
+                <input type="text" name="musclemass" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

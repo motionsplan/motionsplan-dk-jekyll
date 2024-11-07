@@ -45,7 +45,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 ## Udregn din fedtprocent
 
-{% include calculate-fatpercent-skinfold-durnin-womersley.html %}
+{% include calculator/calculate-fatpercent-skinfold-durnin-womersley.html %}
 
 ## Usikkerheder i Durnin & Womersley
 

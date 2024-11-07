@@ -50,7 +50,7 @@ I topunktstesten skal du køre med to forskellige belastninger målt i watt:
 
 Du kan beregne dit kondital ved at indtaste værdierne i beregneren nedenunder, lave et regneark eller bruge en formel til at finde dit kondital.
 
-{% include calculate-topunkttest.html %}
+{% include calculator/calculate-topunkttest.html %}
 
 Åstrands topunktstest bliver mest pålidelig, hvis du ender med at køre _steady state_ på to pulsværdier, der ikke ligger alt for tæt på hinanden. Fx er 130 slag/min og 160 slag/min en fin spredning på pulsværdierne.
 

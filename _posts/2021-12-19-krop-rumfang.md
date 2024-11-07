@@ -23,7 +23,7 @@ For at udregne menneskekroppens rumfang, så kan du tage udgangspunkt i kropsvæ
 
 De forskellige væv i kroppen vejer noget forskelligt, som du kan se i denne tabel.
 
-{% include table-body-density.html %}
+{% include table/table-body-density.html %}
 
 Gennemsnitligt kan man sige, at kroppen har en massefylde på 1060 kg/m<sup>3</sup>. For at udregne rumfanget, så skal du altså dele kropsvægten med massefylden. Lad os tage et eksempel med en person, som vejer 50 kg:
 
@@ -31,4 +31,4 @@ Rumfang = 50 kg / 1060 kg / m<sup>3</sup> = 0,04970 m<sup>3</sup>
 
 ## Beregner til kroppens rumfang
 
-{% include calculate-kroppens-rumfang.html %}
+{% include calculator/calculate-kroppens-rumfang.html %}

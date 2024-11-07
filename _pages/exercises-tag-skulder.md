@@ -32,25 +32,25 @@ Jeg har skrevet mere om [armstrækninger](/armbojninger-eller-armstraekninger-pu
 
 Når du styrketræner, så er det en god ide at tilføje skulder øvelser til træningsprogrammet. Det store spørgsmål er så: hvilke øvelser skal du vælge? Her har du et forslag til de 10 bedste skulder øvelser.
 
-{% include exercise key="20210818223910" title="1) Skulderpres" %}
+{% include motionsplan/exercise key="20210818223910" title="1) Skulderpres" %}
 
-{% include exercise key="20210818223920" title="2) Arnold press" %}
+{% include motionsplan/exercise key="20210818223920" title="2) Arnold press" %}
 
-{% include exercise key="20210818223930" title="3) Lateral raises" %}
+{% include motionsplan/exercise key="20210818223930" title="3) Lateral raises" %}
 
-{% include exercise key="20210818223940" title="4) Military Press" %}
+{% include motionsplan/exercise key="20210818223940" title="4) Military Press" %}
 
-{% include exercise key="20210818192300" title="5) Push press" %}
+{% include motionsplan/exercise key="20210818192300" title="5) Push press" %}
 
-{% include exercise key="20210818224100" title="6) Bænkpres" %}
+{% include motionsplan/exercise key="20210818224100" title="6) Bænkpres" %}
 
-{% include exercise key="20200706160818" title="7) Bent Over Rows (BOR)" %}
+{% include motionsplan/exercise key="20200706160818" title="7) Bent Over Rows (BOR)" %}
 
-{% include exercise key="20201213171600" title="8) Facepull" %}
+{% include motionsplan/exercise key="20201213171600" title="8) Facepull" %}
 
-{% include exercise key="20201213171700" title="9) Scapula Pushups" %}
+{% include motionsplan/exercise key="20201213171700" title="9) Scapula Pushups" %}
 
-{% include exercise key="20201213172700" title="10) Seated External Rotation" %}
+{% include motionsplan/exercise key="20201213172700" title="10) Seated External Rotation" %}
 
 ## Træning af rotatormanchetten
 

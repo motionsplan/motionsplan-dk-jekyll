@@ -55,7 +55,7 @@ Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og ene
 
 Beregn ligevægtsindtag i vores ligevægtsberegner. Du får det bedste estimat, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din højde.
 
-{% include calculate-stofskifte-pal.html %}
+{% include calculator/calculate-stofskifte-pal.html %}
 
 ## Hvordan udregner jeg mit ligevægtsindtag?
 
@@ -101,7 +101,7 @@ Typisk bulker man, hvis man gerne lettere vil opbygge muskelmasse, og man cutter
 
 ## Udregn din potentielle vægtændring
 
-{% include calculator-weightloss.html %}
+{% include calculator/calculator-weightloss.html %}
 
 ## Hvordan kan jeg bruge beregneren til vægtændring?
 

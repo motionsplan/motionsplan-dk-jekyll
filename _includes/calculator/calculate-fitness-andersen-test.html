@@ -1,0 +1,44 @@
+<form class="calculator" id="calculator_andersen_test">
+    <fieldset>
+        <legend>Find kondital fra Andersen Test.</legend>
+        <div class="form-group">
+            <label for="form-formula">Anvend følgende formel</label>
+            <select name="formula" id="form-formula">
+                <option value="andersen_2008" selected>Andersen et al (2008)</option>
+                <option value="aadland_2014">Aadland et al (2014) for 10 årige</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Distance (meter)
+                <input type="number" min="60" max="3000" name="distance" placeholder="Fx 400">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input type="number" min="10" max="200" name="bodyweight" placeholder="Fx 40">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+                <select name="gender">
+                    <option value="male">Mand</option>
+                    <option value="female">Kvinde</option>
+                </select>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input name="kondital" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Maximal iltoptagelse (l/min)
+                <input name="vo2max" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

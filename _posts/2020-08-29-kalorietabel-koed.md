@@ -53,7 +53,7 @@ Alle tallene i kalorietabellen med kød er per 100 gram rå fødevare (spiselig 
 
 ## Kalorietabel med kød
 
-{% include table-kalorietabellen.html where="kød" %}
+{% include table/table-kalorietabellen.html where="kød" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer kød indholder af ernæring og kalorier.
 

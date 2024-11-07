@@ -1,0 +1,29 @@
+<form class="calculator" id="calculator_necessary_energy_deficit">
+    <fieldset>
+        <legend>Udregning af nødvendigt kalorieunderskud</legend>
+        <div class="form-group">
+            <label>Vægttab (kg)
+                <input name="lost" type="number" step="0.1" placeholder="4.4" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Dage
+                <input name="days" type="number" placeholder="5" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Daglig vægttab (g)
+                <input name="daily_weight_loss" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Nødvendigt daglig kalorieunderskud (kcal)
+                <input name="daily_diff" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -26,4 +26,4 @@ Håndvægte er særligt velegnede til [armøvelser](/arme-triceps-biceps/), [bry
 ## Træningsøvelser med håndvægte
 
 {% assign exercises = site.exercises | where: "equipment", "håndvægte" | sort: "title" %}
-{% include exercises-by-search title="Øvelser med håndvægte" exercises=exercises %}
+{% include motionsplan/exercises-by-search title="Øvelser med håndvægte" exercises=exercises %}

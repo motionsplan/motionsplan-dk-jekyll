@@ -1,0 +1,18 @@
+<form class="calculator" id="calculator_jump_cmj_initial_velocity">
+    <fieldset>
+        <legend>Udregning af hoppehøjde baseret på hastighed ved afsæt</legend>
+        <div class="form-group">
+            <label>Hastighed (m/s)
+                <input name="cmj_initial_velocity" id="cmj_initial_velocity" type="number" min="0" max="200" step="0.01" placeholder="Hastighed ved afsæt (m/s)" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Hoppehøjde udregnet fra hastighed ved afsæt</legend>
+        <label>Hoppehøjde (cm)
+            <input disabled name="cmj_jump_height_initial_velocity" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

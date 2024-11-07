@@ -1,0 +1,157 @@
+{% comment %}
+<script>
+    function FigureBEEP(form, level, shuttles) {
+        var distTOTAL = [0, 0, 0, 0, 0, 40, 40, 40, 40, 80, 80, 120, 200, 320, 480, 800, 1120, 1440, 1760, 2080, 2400, 2720, 3040, 3360];
+        var distance = distTOTAL[level] + (shuttles * 40 - 40);
+        var calcval = (distance * 0.0084 + 36.4).toFixed(1);
+
+        form.distVAL.value = distance;
+        form.calcval.value = (distance * 0.0084 + 36.4).toFixed(1);
+        condition(distance);
+
+        document.getElementById("distance_result").innerHTML = distance;
+        document.getElementById("calcval_result").innerHTML = calcval;
+
+    }
+
+    function condition(normdistance) {
+        var age = parseInt(document.getElementById("ageId").value);
+        var ageGroup;
+        if (age <= 25) {
+            ageGroup = 0;
+        }
+        else if (age <= 35) {
+            ageGroup = 1;
+        }
+        else if (age <= 45) {
+            ageGroup = 2;
+        }
+        else if (age <= 55) {
+            ageGroup = 3;
+        }
+        else if (age <= 65) {
+            ageGroup = 4;
+        }
+        else {
+            ageGroup = 5;
+        }
+        if (document.getElementById("maleId").checked) {
+            // alert(age +" "+"Male ");
+
+            var male = [
+                [2400, 57, 52, 46, 42, 38],
+                [2000, 49, 43, 39, 36, 33],
+                [1520, 43, 39, 36, 32, 29],
+                [1040, 40, 35, 32, 30, 26],
+                [520, 35, 31, 29, 26, 22],
+                [0, 30, 26, 25, 22, 20],
+                [0, 0, 0, 0, 0, 0]
+            ];
+
+            if (normdistance >= male[0][ageGroup]) {
+                document.getElementById("status").innerHTML = "Elite";
+            }
+            else if (normdistance >= male[1][ageGroup]) {
+                document.getElementById("status").innerHTML = "Excellent";
+            }
+            else if (normdistance >= male[2][ageGroup]) {
+                document.getElementById("status").innerHTML = "Good";
+            }
+            else if (normdistance >= male[3][ageGroup]) {
+                document.getElementById("status").innerHTML = "Average";
+            }
+            else if (normdistance >= male[4][ageGroup]) {
+                document.getElementById("status").innerHTML = "Below Average";
+            }
+            else if (normdistance >= male[5][ageGroup]) {
+                document.getElementById("status").innerHTML = "Poor";
+            }
+            else if (normdistance >= male[6][ageGroup]) {
+                document.getElementById("status").innerHTML = "Poor";
+            }
+
+
+        }
+        else {
+
+            var female = [
+                [1600, 53, 46, 41, 38, 33],
+                [1320, 45, 38, 34, 32, 28],
+                [1000, 39, 34, 31, 28, 25],
+                [680, 35, 31, 28, 25, 22],
+                [320, 31, 27, 25, 22, 19],
+                [0, 26, 22, 20, 18, 17],
+                [0, 0, 0, 0, 0, 0]
+            ];
+
+            if (normdistance >= female[0][ageGroup]) {
+                document.getElementById("status").innerHTML = "Elite";
+            }
+            else if (normdistance >= female[1][ageGroup]) {
+                document.getElementById("status").innerHTML = "Excellent";
+            }
+            else if (normdistance >= female[2][ageGroup]) {
+                document.getElementById("status").innerHTML = "Good";
+            }
+            else if (normdistance >= female[3][ageGroup]) {
+                document.getElementById("status").innerHTML = "Average";
+            }
+            else if (normdistance >= female[4][ageGroup]) {
+                document.getElementById("status").innerHTML = "Below Average";
+            }
+            else if (normdistance >= female[5][ageGroup]) {
+                document.getElementById("status").innerHTML = "Poor";
+            }
+            else if (normdistance >= female[6][ageGroup]) {
+                document.getElementById("status").innerHTML = "Poor";
+            }
+
+        }
+
+    }
+</script>
+{% endcomment %}
+
+<form class="calculator" id="calculator_yyir1">
+    <fieldset>
+        <legend>Udregning af kondital. Yoyo-interval-restitutionstest (YYIR1)</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label for="checkbox-man" class="radio">
+                <input name="sex" type="radio" value="male" id="maleId" required> &#9794; Mand
+            </label>
+            <label for="checkbox-woman" class="radio">
+                <input name="sex" type="radio" value="female" id="femaleId" required> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label for="level">Dit niveau (fx 12)</label>
+            <input id="level" name="level" type="number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="shuttles">Antal 40m 'shuttles' (fx 5)</label>
+            <input name="shuttles" id="shuttles" type="number" required>
+        </div>
+        <input value="Beregn kondital" type="submit">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Dine resultater</legend>
+        <div class="form-group">
+            <label>Distance (meter)
+                <input type="text" name="distance_result" id="distance_result" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="text" name="vo2max_result" id="vo2max_result" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Rating
+                <input type="text" name="status" id="status" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

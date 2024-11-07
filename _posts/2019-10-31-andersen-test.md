@@ -75,7 +75,7 @@ Det kan være en god ide at prøve testen to gange, så eleverne lærer hvordan 
 
 ## Beregn kondital med Andersen Testen
 
-{% include calculate-fitness-andersen-test.html %}
+{% include calculator/calculate-fitness-andersen-test.html %}
 
 ## Test-materiale til Andersens Test
 

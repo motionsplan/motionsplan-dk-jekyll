@@ -1,0 +1,44 @@
+<form class="calculator" id="calculator_blood">
+    <fieldset>
+        <legend>Udregning af blodvolumen.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af blodvolumen
+            <select name="bloodvolume-formula">
+                <option value="nadler">Nadler</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="0" max="100" placeholder="fx 40" name="age" id="age" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm) (valgfri)
+                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Blodvolumen (l)
+                <input name="bloodvolume" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

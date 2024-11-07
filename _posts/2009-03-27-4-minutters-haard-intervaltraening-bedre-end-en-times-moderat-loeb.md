@@ -129,19 +129,19 @@ Dog skal man huske på, at det ikke nødvendigvis har helt samme effekt - og der
 
 Sådan udføres Tabata-intervaller:
 
-{% include exercises exercises="Tabata-intervaller" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Tabata-intervaller" match="exact" type="left" %}
 
 Når du er blevet enig med dig selv om, at det da ikke kan være så hårdt som, de siger, så skal du bare vælge den øvelse, du vil lave. Da du formentlig vil blive ret træt hen ad vejen, skal du vælge en øvelse, som du mestrer, og hvor du stadig kan udføre den hensigtsmæssigt under træthed.
 
 Her er nogle af vores favoritter - første gang du prøver, så brug ikke for høj vægt.
 
-{% include exercises exercises="Sprint med vægt" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Sprint med vægt" match="exact" type="left" %}
 
-{% include exercises exercises="Roning, roergometer" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Roning, roergometer" match="exact" type="left" %}
 
-{% include exercises exercises="Squat med vægtstang foran" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Squat med vægtstang foran" match="exact" type="left" %}
 
-{% include exercises exercises="Swing, to hænder" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Swing, to hænder" match="exact" type="left" %}
 
 ## Referencer
 

@@ -1,0 +1,24 @@
+<form class="calculator" id="calculator_kreatin">
+    <fieldset>
+        <legend>Beregn dagligt kreatinindtag</legend>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="body_weight" id="body_weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kreatin pr. kg kropsvægt (g/kg)
+                <input name="kreatin_intake_kg" id="kreatin_intake_kg" type="number" min="0" max="5" placeholder="Koffeinindtag" step="0.01" value="0.05" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kreatin (g)
+                <input type="number" id="kreatin_intake" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

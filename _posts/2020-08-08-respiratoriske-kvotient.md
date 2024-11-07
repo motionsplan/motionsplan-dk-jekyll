@@ -142,7 +142,7 @@ Hvis du fx arbejder og bruger 2 L O<sub>2</sub>/min, og min R-v√¶rdi er 0,85, s√
 
 ## Beregn dit energiforbrug
 
-{% include calculate-rer.html %}
+{% include calculator/calculate-rer.html %}
 
 ## Konklusion
 

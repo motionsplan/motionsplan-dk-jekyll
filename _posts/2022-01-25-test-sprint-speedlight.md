@@ -39,11 +39,11 @@ Testeren kan vejlede om, at man i accelerationsfasen bør holde sig lav, og at m
 
 ## Beregn hastighed ud fra dine tider
 
-{% include calculate-hastighed-speedlight.html %}
+{% include calculator/calculate-hastighed-speedlight.html %}
 
 ## Beregn hastighed ud fra flere splittider
 
-{% include calculate-hastighed-speedlight-advanced.html %}
+{% include calculator/calculate-hastighed-speedlight-advanced.html %}
 
 ## Hvad er hurtige sprinttider?
 

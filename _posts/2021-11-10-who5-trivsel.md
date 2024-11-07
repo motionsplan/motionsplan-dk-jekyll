@@ -49,7 +49,7 @@ Svar på de fem udsagn i forhold til, hvordan du har følt dig de **seneste to u
 **Eksempel:** Hvis du har følt dig glad i lidt mere end halvdelen af de sneste to uger, så skal du sætte krydset 'Lidt mere end halvdelen af tiden'.
 {: .notice .notice--info }
 
-{% include calculate-who5.html %}
+{% include calculator/calculate-who5.html %}
 
 ## Mere om spørgeskmaet om trivsel
 

@@ -1,0 +1,69 @@
+<form class="calculator" id="calculator_wave_ladder">
+    <fieldset>
+        <legend>Udregn wave ladder for maksimal styrke</legend>
+        <div class="form-group">
+            <label>1RM (One Repetition Maximum)
+                <input type="number" min="0" max="500" name="wave_ladder_1rm" placeholder="1RM i kg" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>1. runde</legend>
+        <div class="form-group form-inline">
+            <label>Intensitet af 1RM (i %)
+                <input type="number" min="0" max="100" name="wave_ladder_intensity" class="input-small" placeholder="Intensitet ift. max" value="85" required>
+            </label>
+        </div>
+        <div class="form-group form-inline">
+            <label>1 x
+                <input id="wave_ladder_1_1" disabled class="input-small">
+            </label>
+            <label>2 x
+                <input id="wave_ladder_1_2" disabled class="input-small">
+            </label>
+            <label>3 x
+                <input id="wave_ladder_1_3" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>2. runde</legend>
+        <div class="form-group form-inline">
+            <label>Tilføj (kg)
+                <input name="wave_ladder_2_plus" type="number" min="0" max="20" value="2.5" step="0.25" class="input-small">
+            </label>
+        </div>
+        <div class="form-group form-inline">
+            <label>1 x
+                <input id="wave_ladder_2_1" disabled class="input-small">
+            </label>
+            <label>2 x
+                <input id="wave_ladder_2_2" disabled class="input-small">
+            </label>
+            <label>3 x
+                <input id="wave_ladder_2_3" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>3. runde</legend>
+        <div class="form-group form-inline">
+            <label>Tilføj (kg)
+                <input name="wave_ladder_3_plus" type="number" min="0" max="20" value="2.5" step="0.25" class="input-small">
+            </label>
+        </div>
+        <div class="form-group form-inline">
+            <label>1 x 
+                <input id="wave_ladder_3_1" disabled class="input-small">
+            </label>
+            <label>2 x 
+                <input id="wave_ladder_3_2" disabled class="input-small">
+            </label>
+            <label>3 x 
+                <input id="wave_ladder_3_3" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

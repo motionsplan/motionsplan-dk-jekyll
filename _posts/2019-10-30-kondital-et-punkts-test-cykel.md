@@ -67,7 +67,7 @@ Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 puls
 
 ## Beregn kondital med Åstrands etpunktstest
 
-{% include calculate-etpunkttest.html %}
+{% include calculator/calculate-etpunkttest.html %}
 
 ## Baggrund for beregningen i Åstrands etpunktstest
 

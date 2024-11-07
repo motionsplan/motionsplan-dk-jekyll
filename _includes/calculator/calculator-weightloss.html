@@ -1,0 +1,34 @@
+<form class="calculator" id="calculator_change">
+    <fieldset>
+        <legend>Udregning af vægttab i kalorieunderskud</legend>
+        <div class="form-group">
+            <label>Dagligt energiforbrug (kJ)
+                <input name="tee" type="number" min="1000" max="30000" placeholder="10000 kJ" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Dagligt energiindtag (kcal)
+                <input name="intake" type="number" min="1000" max="30000" placeholder="10000 kJ" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Balance (kJ)
+                <input name="balance" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Ugentlig vægtændring (g)
+                <input name="weekly_weightchange" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Månedlig vægtændring (kg)
+                <input name="monthly_weightchange" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

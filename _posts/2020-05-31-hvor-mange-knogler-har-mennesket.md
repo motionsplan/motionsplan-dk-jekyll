@@ -86,7 +86,7 @@ Vi er født med omkring 300 forskellige knogler, som dog i begyndelsen hovedsage
 
 ## Liste over knogler i kroppen
 
-{% include table-bones.html %}
+{% include table/table-bones.html %}
 
 ## Opsamling: Hvor mange knogler er der i kroppen?
 

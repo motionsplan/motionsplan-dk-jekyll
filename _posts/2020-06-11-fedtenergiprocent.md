@@ -29,7 +29,7 @@ Hvad er fedtenergiprocenten? **Fedtenergiprocenten angiver hvor meget af energie
 
 ## Udregn fedtenergiprocenten i vores beregner
 
-{% include calculate-fat-percent-food.html %}
+{% include calculator/calculate-fat-percent-food.html %}
 
 ## Hvordan beregner jeg fedtenergiprocenten?
 

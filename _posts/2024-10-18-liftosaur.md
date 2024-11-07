@@ -1,13 +1,13 @@
 ---
-title: &title "️Liftosaur - app til styrketræning"
-seo_title: "️Liftosaur - app til styrketræning"
+title: ️Liftosaur - app til styrketræning
+seo_title: ️Liftosaur - app til styrketræning
 permalink: /liftosaur/
-description: "Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog."
-excerpt: "Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog."
+description: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.
+excerpt: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1656774950529-44a6153521ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  caption: ️Liftosaur - app til styrketræning
 category:
   - Styrketræning
 tags:
@@ -21,6 +21,8 @@ gallery_rm:
   - image_path: /assets/images/liftosaur/liftosaur-edit-1rm.png
   - image_path: /assets/images/liftosaur/liftosaur-edit-1rm-2.png
   - image_path: /assets/images/liftosaur/liftosaur-edit-1rm-3.png
+keywords:
+  - Liftosaur
 ---
 
 **Liftosaur** er en genial app til planlægning af din styrketræning. Du kan let skrive dine egne programmer, få andres programmer eller bruge nogle af standardprogrammerne.
@@ -35,7 +37,7 @@ For jeg vil gerne have en app, hvor jeg kan lave et træningsprogram på forhån
 
 Og det kan [Liftosaur](https://www.liftosaur.com).
 
-## Opret en profil
+## Opret en profil i Liftosaur
 
 Du kan bruge Liftosaur med og uden konto. Der er masser af fordele i at bruge det sammen med en konto, så appen virker på tværs af dine enheder og på din computer.
 

@@ -76,7 +76,7 @@ Cabel crunches: Anvend et kabel som du justerer op i toppen og tilføj godt med 
 
 ### De skrå mavemuskler
 
-{% include exercise key="20210819204400" title="Pallof Pres" %}
+{% include motionsplan/exercise key="20210819204400" title="Pallof Pres" %}
 
 {% comment %}
 Alle maveøvelser, hvor du bøjer til siderne eller roterer, træner de skrå mavemuskler.
@@ -124,9 +124,9 @@ Ab-wheel: Med ab-wheel får du trænet både de lige og indre tværgående mavem
 
 Det kan være godt at bruge basisøvelser til at træne maven, hvor den er en del af at få bevægelsen til at fungere.
 
-{% include exercise key="20201212201800" title="Zercher Squat" %}
+{% include motionsplan/exercise key="20201212201800" title="Zercher Squat" %}
 
-{% include exercise key="20210819204700" title="Turkish Getup" %}
+{% include motionsplan/exercise key="20210819204700" title="Turkish Getup" %}
 
 Ud over disse øvelser, så kan du også loade kroppen forskelligt. Fx kan du lave squat med kettlebell, hvor du holder vægten i den ene hånd. Det gør at maven skal arbejde hårdt.
 

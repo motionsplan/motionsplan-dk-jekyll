@@ -35,13 +35,13 @@ Vi starter med at gå direkte til beregneren, men læs gerne lidt videre af fork
 
 I denne enkle beregner kan du omregne mellem kilojoule og kalorier. Forholdet fra kilojoule til kalorier er 0,239 kcal/kJ. Det betyder, at du skal gange antallet af kJ med 0,239 for at få værdien i kalorier. Du kan også bare dele med de 4,184 J/cal for at omregne fra kJ til kcal.
 
-{% include calculate-kj-kcal.html %}
+{% include calculator/calculate-kj-kcal.html %}
 
 ## Kcal til kJ omregner
 
 Beregneren omregner fra kalorier til kilojoule. Du skal altså gange antallet af kalorier med 4,184 J/cal for at få energien udtrykt i kJ. Det er lettest at lave beregningen fra kcal til kJ i en beregner.
 
-{% include calculate-kcal-kj.html %}
+{% include calculator/calculate-kcal-kj.html %}
 
 ## Hvorfor skal jeg omregne fra kcal til kj og tilbage igen?
 

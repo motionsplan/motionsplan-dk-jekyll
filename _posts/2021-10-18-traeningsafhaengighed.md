@@ -47,7 +47,7 @@ Du kan læse meget mere om træningsafhængighed på [www.lmsos.dk](https://www.
 
 Her kan du teste, om du har tegn på træningsafhængighed. Du skal score dig selv på en skala fra 1 (meget uenig) til 5 (meget enig) på nedenstående seks udsagn. Man kan få en samlet score mellem 6 og 30.
 
-{% include calculate-mia-beck.html %}
+{% include calculator/calculate-mia-beck.html %}
 
 Læg tallene sammen fra de seks udsagn. Hvis du har en samlet score på 24-30, er det sandsynligt, at du er afhængig af træning på en måde, der kan skade dig.
 

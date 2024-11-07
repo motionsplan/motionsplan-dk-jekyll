@@ -1,0 +1,24 @@
+<form class="calculator" id="calculator_heat_production_biking">
+    <fieldset>
+        <legend>Varmeproduktion på cykel</legend>
+        <div class="form-group">
+            <label>Power output (cykel)
+                <input type="number" min="10" max="1000" placeholder="fx 275" value="275" name="power_output" id="power_output" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Effektivitet (%)
+                <input type="number" min="0" max="100" placeholder="fx 23" value="23" name="efficiency" id="efficiency" step="1" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmeproduktion (watts)
+                <input name="heat_production_watts_biking" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

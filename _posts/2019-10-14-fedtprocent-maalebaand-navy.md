@@ -42,7 +42,7 @@ Hvis du vil læse mere om retningslinjerne for at komme ind til US Navy, så kan
 
 ## Udfør Navy-testen og beregn fedtprocenten
 
-{% include calculate-fat-percent-navy.html %}
+{% include calculator/calculate-fat-percent-navy.html %}
 
 ## Konklusion
 

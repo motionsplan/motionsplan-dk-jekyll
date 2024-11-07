@@ -34,7 +34,7 @@ Keywords: sarcopenia, nutritional assessment, anthropometry, body composition, w
 
 {% endcomment %}
 
-{% include calculate-musclemass.html %}
+{% include calculator/calculate-musclemass.html %}
 
 ## Hvad sker der med muskelmassen med alderen?
 

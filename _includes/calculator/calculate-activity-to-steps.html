@@ -1,0 +1,53 @@
+{% assign met_values = site.data.step-conversion %}
+
+<form class="calculator">
+    <fieldset>
+        <legend>Omregn motion og aktivitet til skridt.</legend>
+        <div class="form-group">
+            <label for="answers">Aktivitet (konverteringsfaktor)</label>
+            <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput">
+            <datalist id="answers">
+              {% for row in met_values offset:2 %}
+              <option value="{{ row.Steps }}">{{ row.Activity }}</option>
+              {% endfor %}
+            </datalist>
+            <input type="hidden" name="answer" id="answerInput-hidden">
+        </div>
+        <div class="form-group">
+            <label>Tid (minutter)
+                <input name="time" type="number" min="0" max="360" placeholder="Minutter" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn" onclick="return calculateSteps();">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Skridt
+                <input type="number" id="steps" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>
+
+<script>
+    document.querySelector('#answerInput').addEventListener('input', function(e) {
+        var input = e.target,
+            list = input.getAttribute('list'),
+            options = document.querySelectorAll('#' + list + ' option[value="' + input.value + '"]'),
+            hiddenInput = document.getElementById(input.getAttribute('id') + '-hidden');
+
+        if (options.length > 0) {
+            hiddenInput.value = input.value;
+            input.value = options[0].innerText;
+        }
+
+    });
+
+    function calculateSteps() {
+        let steps = $("#answerInput-hidden").val();
+        let time = $("[name='time']").val();
+        $("#steps").val(steps * time);
+        return false;
+    }
+</script>

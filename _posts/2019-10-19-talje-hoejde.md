@@ -31,7 +31,7 @@ Her kigger vi på baggrunden for talje-højde-målet. Men lad os springe direkte
 
 I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ratio.
 
-{% include calculate-waist.html %}
+{% include calculator/calculate-waist.html %}
 
 ## Hvad er talje-højde-ratio?
 

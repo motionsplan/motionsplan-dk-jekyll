@@ -89,13 +89,13 @@ Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med 
 
 HR<sub>max</sub> = 208 – 0,7 x alder
 
-{% include calculate-max-hr.html %}
+{% include calculator/calculate-max-hr.html %}
 
 Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls. Jeg skriver mere om [hvordan du kan måle, beregne og teste maxpulsen](/test-max-puls/) i et andet indlæg.
 
 ## Udregn dit kondital på baggrund af hvilepuls og maxpuls
 
-{% include calculate-vo2-max-hr.html %}
+{% include calculator/calculate-vo2-max-hr.html %}
 
 ## Formlen bag beregneren af kondital
 

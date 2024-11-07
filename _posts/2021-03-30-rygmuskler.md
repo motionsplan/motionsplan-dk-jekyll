@@ -76,11 +76,11 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Vigtige øvelser til træning af rygmuskler
 
-{% include exercise key="15" title="Dødløft" %}
+{% include motionsplan/exercise key="15" title="Dødløft" %}
 
-{% include exercise key="43" title="Pullup" %}
+{% include motionsplan/exercise key="43" title="Pullup" %}
 
-{% include exercise key="261" title="Bent over rows" %}
+{% include motionsplan/exercise key="261" title="Bent over rows" %}
 
 ## Konklusion
 

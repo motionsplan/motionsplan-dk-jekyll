@@ -63,41 +63,41 @@ Hofteekstension kan ske på to måder, alt efter hvordan fødderne er placeret, 
 
 **Øvelse 1 og 2 - fikserede fødder**. Begge fødder er på jorden. Det er her man kan bruge de tungeste vægte, og to gode øvelser er fx:
 
-{% include exercises exercises="Dødløft, Romanian" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Dødløft, Romanian" match="exact" type="left" %}
 
-{% include exercises exercises="Good morning" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Good morning" match="exact" type="left" %}
 
 **Øvelse 3 - fikserede fødder og eksplosivt.** Denne gruppe af øvelser er teknisk udfordrende, og kan først udføres med maksimal eksplovitet, når du har øvet dem længe. De er til gengæld rigtig sjove. Vi bruger nogle lidt enklere udgaver af de olympiske løft. Du kan vælge en af følgende øvelser.
 
-{% include exercises exercises="Frivend, fra hang position" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Frivend, fra hang position" match="exact" type="left" %}
 
-{% include exercises exercises="Frivend, power fra blokke" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Frivend, power fra blokke" match="exact" type="left" %}
 
 **Øvelse 4 - fødderne er fri**. Hvor benet bevæger sig frit. Her vælges en af de to nedenstående øvelser. Hvis dit træningscenter har en maskine til den øverste øvelse, er den at foretrække.
 
-{% include exercises exercises="Reverse hyper" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Reverse hyper" match="exact" type="left" %}
 
-{% include exercises exercises="Hofteudstrækning, et ben stående" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Hofteudstrækning, et ben stående" match="exact" type="left" %}
 
 ### Træningspas 2: Øvelser til knæfleksion
 
 **Øvelse 1.** Vi starter igen tungt med en af de bedste øvelser for baglårene.
 
-{% include exercises exercises="Glute ham raises" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Glute ham raises" match="exact" type="left" %}
 
 Desværre findes den maskine ikke i alle træningscentre, og et alternativ kan være at bruge øvelse 2 med tung vægt og begge ben.
 
 **Øvelse 2.** Her sætter vi lidt mere tryk på den excentriske fase. Her bøjer vi benene ved at bruge begge ben, men returnerer vægten til udgangspunktet ved kun at bruge det ene ben.
 
-{% include exercises exercises="Knæbøj" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Knæbøj" match="exact" type="left" %}
 
 **Øvelse 3.** Denne øvelse kører vi i dette træningsprogram kun excentrisk, selvom den også i nogen udstrækning kan køres koncentrisk.
 
-{% include exercises exercises="Baglår, Nordic hamstring" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Baglår, Nordic hamstring" match="exact" type="left" %}
 
 **Øvelse 4.** I denne øvelse holder vi vægten i tre forskellige positioner i fx 3 sæt á 30 sekunder.
 
-{% include exercises exercises="Knæbøj" match="exact" type="left" %}
+{% include motionsplan/exercises exercises="Knæbøj" match="exact" type="left" %}
 
 ## Genoptræning efter skader (fx fibersprængning) i baglåret
 

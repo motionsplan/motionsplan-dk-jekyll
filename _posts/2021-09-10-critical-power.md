@@ -55,7 +55,7 @@ I formlerne er P<sub>3</sub> og P<sub>12</sub> den gennemsnitlige watt i hhv. 3-
 
 Vi har lavet denne beregner, så du ikke behøver at finde lommeregneren:
 
-{% include calculate-critical-power.html %}
+{% include calculator/calculate-critical-power.html %}
 
 Du kan også bruge en lidt **mere præcis testprotokol med flere tests**.
 
@@ -100,13 +100,13 @@ Jeg har lavet en beregner her, som kan hjælpe dig med at vide hvor lang tid du 
 
 {% include math formula="T={\frac{1000*W'}{P-CP}}" %}
 
-{% include calculate-critical-power-time.html %}
+{% include calculator/calculate-critical-power-time.html %}
 
 Og her er en anden beregner, der kan estimere hvor mange watt du kan køre med, hvis du har nogle længder på dine intervaller. Sådan her ser formlen ud.
 
 {% include math formula="P={\frac{1000*W'}{T}+CP}" %}
 
-{% include calculate-critical-power-power-time.html %}
+{% include calculator/calculate-critical-power-power-time.html %}
 
 P = power in watts, T = time in seconds, CP = critical power in Watts, W’ = ‘W prime’ in kJ.
 {: .notice .notice--info }
@@ -119,7 +119,7 @@ Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszone
 
 --- <cite>[www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/)</cite>
 
-{% include table-ftp-critical-power.html %}
+{% include table/table-ftp-critical-power.html %}
 
 ## Stryd og træningszoner
 

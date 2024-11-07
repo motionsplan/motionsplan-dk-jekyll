@@ -54,7 +54,7 @@ På baggrund af disse målinger kan du så udregne dit kondital i beregneren ned
 
 ## Beregn kondital med jogging test
 
-{% include calculate-fitness-jog-vo2.html %}
+{% include calculator/calculate-fitness-jog-vo2.html %}
 
 Et eksempel:
 

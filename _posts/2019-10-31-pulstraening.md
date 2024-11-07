@@ -85,7 +85,7 @@ Du kan udregne din relative arbejdsintensitet med denne formel:
 
 Hvis du hellere vil have en beregner, så kan du altså bruge denne beregner til at finde den relative arbejdsintensitet på baggrund af intensiteten.
 
-{% include calculate-hr-intensity-pulsreserve.html %}
+{% include calculator/calculate-hr-intensity-pulsreserve.html %}
 
 Hvis du i stedet kender den ønskede intensitet og gerne vil vide, hvilken arbejdspuls du skal træne med, så kan du bruge følgende formel.
 
@@ -93,7 +93,7 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 Igen hjælper vi her med en beregner, så du hurtigt selv kan lave dine udregninger.
 
-{% include calculate-hr-work-pulsreserve.html %}
+{% include calculator/calculate-hr-work-pulsreserve.html %}
 
 Der er flere fordele ved at bruge pulsreserven som udgangspunkt for din træning.
 

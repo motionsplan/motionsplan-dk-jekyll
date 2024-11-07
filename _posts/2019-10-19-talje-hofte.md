@@ -41,7 +41,7 @@ Taljemålet indgår også i en [vurdering af taljemålet](/taljemaal/) for sig s
 
 I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ratio.
 
-{% include calculate-waist.html %}
+{% include calculator/calculate-waist.html %}
 
 ## Hvad er talje-hofte-ratio?
 

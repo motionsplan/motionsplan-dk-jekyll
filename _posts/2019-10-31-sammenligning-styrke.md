@@ -61,13 +61,13 @@ Mange af disse tabeller har heller ikke data, der gælder for kvinder. Og der er
 
 [Wilks Score](https://en.wikipedia.org/wiki/Wilks_Coefficient) er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser. _Wilks score_ er for nylig blevet afløst af IPF Points i styrkeløft.
 
-{% include calculate-strength-wilks.html %}
+{% include calculator/calculate-strength-wilks.html %}
 
 ## 4. IPF Points
 
 I International Powerlifting Federation har man erstattet Wilks Score med en ny formel, som er blevet revideret et par gange. Du kan se og beregne IPF GL formlen hos [Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel).
 
-{% include calculate-strength-ipf.html %}
+{% include calculator/calculate-strength-ipf.html %}
 
 Hvorfor valgte IPF at udvikle en ny formel til at gøre konkurrencerne mere retfærdige?
 
@@ -144,13 +144,13 @@ hvor T er forventet for en topklasseløfter, og hvor bw er kropsvægt (kg) og `a
 
 | a  =  512.245 | b =  146230 | c =  1.605 |
 
-{% include calculate-strength-siff.html %}
+{% include calculator/calculate-strength-siff.html %}
 
 ## Index100
 
 Morten Zacho har udviklet en [Index100 beregner](https://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast.
 
-{% include calculate-strength-index-100.html %}
+{% include calculator/calculate-strength-index-100.html %}
 
 NB! Beregneren kan ikke anvendes ved kropsvægt lavere end 50 kg.
 {: .notice .notice--info }

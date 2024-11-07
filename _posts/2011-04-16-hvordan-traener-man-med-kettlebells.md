@@ -55,7 +55,7 @@ Som al anden vægttræning er det vigtigt, at du arbejder med teknik, inden du b
 
 Det er hårdt for hænderne, håndleddene og underarmene at gå i gang med træning med kettlebells.
 
-{% include pa-banner product="kettlebell beskyttelse" %}
+{% include motionsplan/pa-banner product="kettlebell beskyttelse" %}
 
 ## Klassiske øvelser med kettlebells
 
@@ -67,7 +67,7 @@ Det er hårdt for hænderne, håndleddene og underarmene at gå i gang med træn
 
 Du kan [sammensætte et træningsprogram til styrketræning](/anmeldelse-traeningsprogrammer/) på rigtig mange måder. En meget populær måde at træne på i øjeblikket er at lave så mange runder som muligt på 20 minutter. Runderne kunne fx bestå af 20 swings og 2 turkish getups til hver side. Dette program kører du fx tre gange om ugen. Måske skal du starte med 10 minutter den første dag, da swings sagtens kan mærkes i baglårene.
 
-{% include pa-banner product="kettlebell program" %}
+{% include motionsplan/pa-banner product="kettlebell program" %}
 
 ## Mere inspiration om kettlebells
 
@@ -82,8 +82,8 @@ Du kan sikkert finde lidt inspiration i videoerne nedenunder:
 {% include video provider="youtube" id="pR9KNdpen1g" %}
 
 {% assign exercises = site.exercises | where: "equipment", "kettlebell" | sort: "title" %}
-{% include exercises-by-search title="Øvelser med kettlebells" exercises=exercises %}
+{% include motionsplan/exercises-by-search title="Øvelser med kettlebells" exercises=exercises %}
 
 ## Hvor kan du købe kettlebells?
 
-{% include pa-banner product="kettlebell" %}
+{% include motionsplan/pa-banner product="kettlebell" %}

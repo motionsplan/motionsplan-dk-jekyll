@@ -1,0 +1,25 @@
+
+<form class="calculator" id="calculator_hr_intensity_from_max">
+  <fieldset>
+    <legend>Beregning af procentvise intensitet af arbejdspulsen ift. maksimalpulsen.</legend>
+    <div class="form-group">
+      <label>Maxpuls (slag/min)
+        <input type="number" min="140" max="250" name="hr_max_form3" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>Arbejdspuls (slag/min)
+        <input type="number" min="60" max="250" name="hr_work_form3" required>
+      </label>
+    </div>
+    <input type="submit" value="Beregn">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Intensitet (% af maxpuls)
+        <input type="number" name="intensity_form3" disabled>
+      </label>
+    </div>
+  </fieldset>
+  {% include calculator/calculator-footer.html %}
+</form>

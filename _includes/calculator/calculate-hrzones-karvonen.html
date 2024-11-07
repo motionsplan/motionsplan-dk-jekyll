@@ -1,0 +1,75 @@
+<form class="calculator" id="calculator_hrzones_karvonen">
+    <fieldset>
+        <legend>Pulszoner ud fra heart rate reserve (HRR)</legend>
+        <div class="form-group">
+            <label>Hvilepuls (HR<sub>rest</sub>)
+                <input id="karvonen_min_hr" min="30" max="100" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Maxpuls (HR<sub>max</sub>)
+                <input id="karvonen_max_hr" min="100" max="250" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Heart Rate Reserve (HRR)
+                <input id="karvonen_hrr" type="number" disabled value="Udregnes">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+
+    <fieldset class="results">
+        <legend>Intensitetszoner baseret pulsreserven (HRR)</legend>
+        <table>
+            <caption>Disse zoner er baseret på Karvonens klassiske pulszoner</caption>
+            <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th>HR Intensitet</th>
+                    <th>Fra HR</th>
+                    <td>&nbsp;</td>
+                    <th>Til HR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Restitution</td>
+                    <td>50%-60%</td>
+                    <td><input type="text" disabled id="karvonen_zone1_a"></td>
+                    <td>-</td>
+                    <td><input type="text" disabled id="karvonen_zone1_b"></td>
+                </tr>
+                <tr>
+                    <td>Udholdenhed</td>
+                    <td>60%-70%</td>
+                    <td><input type="text" disabled id="karvonen_zone2_a"></td>
+                    <td>-</td>
+                    <td><input type="text" disabled id="karvonen_zone2_b"></td>
+                </tr>
+                <tr>
+                    <td>Tempo</td>
+                    <td>70%-80%</td>
+                    <td><input type="text" disabled id="karvonen_zone3_a"></td>
+                    <td>-</td>
+                    <td><input type="text" disabled id="karvonen_zone3_b"></td>
+                </tr>
+                <tr>
+                    <td>Anaerob tærskel</td>
+                    <td>80%-90%</td>
+                    <td><input type="text" disabled id="karvonen_zone4_a"></td>
+                    <td>-</td>
+                    <td><input type="text" disabled id="karvonen_zone4_b"></td>
+                </tr>
+                <tr>
+                    <td>VO<sub>2</sub>max</td>
+                    <td>90%-100%</td>
+                    <td><input type="text" disabled id="karvonen_zone5_a"></td>
+                    <td>-</td>
+                    <td><input type="text" disabled  id="karvonen_zone5_b"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

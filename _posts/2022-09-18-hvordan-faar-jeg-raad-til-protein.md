@@ -86,7 +86,7 @@ Men du bør bagefter sætte dig ind i optagelseshastigheden for protein.
 
 ## Beregn dit daglige proteinbehov
 
-{% include calculate-protein.html %}
+{% include calculator/calculate-protein.html %}
 
 {% comment %}
 

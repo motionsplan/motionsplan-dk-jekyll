@@ -1,0 +1,31 @@
+<form class="calculator" id="calculator_ffmi">
+    <fieldset>
+        <legend>Udregning Fat Free Mass Index (FFMI)</legend>
+        <div class="form-group">
+            <label>Vægt (cm)
+                <input name="ffmi_weight" type="number" min="10" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="ffmi_height" type="number" min="30" max="272" placeholder="Højde i cm" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Fedtprocent (%)
+                <input name="ffmi_fat_percent" type="number" min="2" max="100" placeholder="Fedtprocent" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultat</legend>
+        <label>Fat Free Mass Index (FFMI)
+            <input disabled name="ffmi" type="text">
+        </label>
+        <label>Fat Free Mass Index (FFMI) Normaliseret
+            <input disabled name="ffmi_normalized" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

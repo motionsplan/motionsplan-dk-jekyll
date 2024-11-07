@@ -55,7 +55,7 @@ Følg disse trin for at gennemføre testen:
 
 Du kan udregne dit kondital i denne beregner til gå-testen.
 
-{% include calculate-fitness-walktest.html %}
+{% include calculator/calculate-fitness-walktest.html %}
 
 ## Validiteten af Rockports 1,6 km gå-test
 

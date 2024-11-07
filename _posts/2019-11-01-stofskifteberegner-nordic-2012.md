@@ -49,7 +49,7 @@ Med denne beregner kan du udregne dit samlede daglige energibehov. Resultatet fr
 
 ## Energibehov beregner
 
-{% include calculate-stofskifte-pal.html %}
+{% include calculator/calculate-stofskifte-pal.html %}
 
 {% comment %}
 

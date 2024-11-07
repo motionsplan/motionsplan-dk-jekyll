@@ -156,7 +156,7 @@ Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstre
 
 Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning. Du kan se pyramiden nedenunder.
 
-{% include strength-pyramid.html nav="strength" %}
+{% include motionsplan/strength-pyramid.html nav="strength" %}
 
 Jeg har skrevet uddybdende om [træningspyramiden til styrketræning](/traeningspyramiden-styrketraening/). Styrketræningspyramiden er en måde at prioritere de vigtigste indsatser på, når du laver styrketræning.
 

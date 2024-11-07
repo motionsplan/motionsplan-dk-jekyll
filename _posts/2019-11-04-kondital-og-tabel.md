@@ -191,7 +191,7 @@ Det har også været foreslået at opløfte kropsvægten med 0,73, når man samm
 
 En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Morten Zacho foreslår som skrevet, at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes *Kondital ved index 23*.
 
-{% include calculate-fitness-index-23.html %}
+{% include calculator/calculate-fitness-index-23.html %}
 
 ## Kondital og risiko for sygdomme
 

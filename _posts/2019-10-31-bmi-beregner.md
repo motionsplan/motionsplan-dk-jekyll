@@ -1,11 +1,9 @@
 ---
 title: "BMI-beregner: Udregn dit BMI for kvinder og mænd"
 seo_title: "BMI beregner: Udregn dit BMI for kvinder og mænd"
-# Udregn BMI: Måler og beregner for kvinder, mænd og børn
-# Better than: BMI - Tabel og skema for kvinder, mænd og børn (Beregner) »
-description: "GRATIS og nøjagtig BMI beregner for kvinder og mænd. Udregn dit BMI og sammenlign det med et forbedret BMI skema og tabel. Forstå alle detaljerne i dag!"
+description: GRATIS og nøjagtig BMI beregner for kvinder og mænd. Udregn dit BMI og sammenlign det med et forbedret BMI skema og tabel. Forstå alle detaljerne i dag!
 permalink: /bmi-beregner/
-excerpt: "Body Mass Index (BMI) er et meget udbredt formel til at teste og måle, om du er sund. I denne BMI-beregner kan du udregne dit BMI og vurdere resultatet ud fra en forbedret BMI skala og tabel for voksne mænd og kvinder."
+excerpt: Body Mass Index (BMI) er et meget udbredt formel til at teste og måle, om du er sund. I denne BMI-beregner kan du udregne dit BMI og vurdere resultatet ud fra en forbedret BMI skala og tabel for voksne mænd og kvinder.
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1627820751275-e44b937c5d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG1lYXN1cmVtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
@@ -19,12 +17,13 @@ tags:
 popular: true
 last_modified_at: 2022-05-11T10:14:14Z
 faq:
-  - question: "Hvad skal mænd og kvinders BMI være?"
-    answer: "Voksne kvinder og mænds BMI bliver vurderet efter de samme tabeller. Studier har vist, at et sundt BMI ligger i den højere del af 'normalvægt'. Du kan se [BMI-skemaer her](/bmi/)."
-  - question: "Hvad er normal BMI for børn og teenagere?"
-    answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan læse mere om [BMI for børn, unge og teenagere](/bmi-beregner-boern-unge-teenagere/)."
-  - question: "Hvad er din idealkropsvægt ifølge BMI-udregningen?"
-    answer: "Du kan udregne din [ideelle kropsvægt på baggrund af BMI](/idealvaegt/)."
+  - question: Hvad skal mænd og kvinders BMI være?
+    answer: Voksne kvinder og mænds BMI bliver vurderet efter de samme tabeller. Studier har vist, at et sundt BMI ligger i den højere del af 'normalvægt'. Du kan se [BMI-skemaer her](/bmi/).
+  - question: Hvad er normal BMI for børn og teenagere?
+    answer: Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan læse mere om [BMI for børn, unge og teenagere](/bmi-beregner-boern-unge-teenagere/).
+  - question: Hvad er din idealkropsvægt ifølge BMI-udregningen?
+    answer: Du kan udregne din [ideelle kropsvægt på baggrund af BMI](/idealvaegt/).
+keywords: []
 ---
 
 I denne BMI-beregner kan du udregne dit BMI, og du kan sammenligne dit BMI for voksne mænd og kvinder med en BMI-tabel. Vi går også i dybden med BMI-formlen, og hvordan BMI-skemaer kan fortolkes for voksne mænd og kvinder.
@@ -44,7 +43,7 @@ Men husk at det ikke kan betale sig at være bekymret over, hvad en tilfældig B
 
 I denne BMI beregner kan du let selv udregne dit BMI uden at skulle have din lommeregner frem. Når du har lavet din BMI udregning, så bliver dit BMI tal vurderet ud fra WHOs BMI skala.
 
-{% include calculate-bmi.html %}
+{% include calculator/calculate-bmi.html %}
 
 Et alternativ til BMI er også vores [Ponderal Index beregner]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}). Dette mål er beslægtet med BMI, men burde give en mere retfærdig vurdering, hvis du ligger uden for den normale højdekurve.
 

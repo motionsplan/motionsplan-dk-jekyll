@@ -59,15 +59,15 @@ Typisk kan man i angive hastigheden på to forskellige måder:
 
 I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid på distancen. I beregneren kan du også se dit pace.
 
-{% include calculate-hastighed.html %}
+{% include calculator/calculate-hastighed.html %}
 
 ## Udregn distance fra hastighed (km/t) og tid i vores beregner
 
-{% include calculate-hastighed-distance.html %}
+{% include calculator/calculate-hastighed-distance.html %}
 
 ## Beregn tid fra hastighed (km/t) og distance i vores beregner
 
-{% include calculate-hastighed-time.html %}
+{% include calculator/calculate-hastighed-time.html %}
 
 ## Omregn fra km/t til min/km (pace)
 
@@ -75,13 +75,13 @@ Som løber bruger man ofte løbepace som udgangspunkt for, hvor hurtigt du skal 
 
 Hvad er pace? **Pace er hvor hurtigt du er om at løbe en kilometer. Hvis du fx løber 3 km på 18 minutter, så er dit pace 6 min/km, da du er 6 minutter om at løbe 1 km.**
 
-{% include convert-hastighed-kmt-minkm.html %}
+{% include calculator/convert-hastighed-kmt-minkm.html %}
 
 ## Konverter fra min/km til km/t
 
 Hvis du kender dit pace, så er det også interessant at udregne, hvilken gennemsnitshastighed du løber med. Det kan du udregne i denne beregner for gennemsnitshastighed.
 
-{% include convert-hastighed-minkm-kmt.html %}
+{% include calculator/convert-hastighed-minkm-kmt.html %}
 
 ## Hvorfor skal jeg kende min hastighed?
 
@@ -95,7 +95,7 @@ Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [
 
 I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe på 5 km, 10 km, halvmaraton og maraton. Hvis du vil have dine realistiske tider for de distancer baseret på, hvad du kan løbe på andre distancer, så tjek vores [løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
-{% include table-kmt-minkm.html %}
+{% include table/table-kmt-minkm.html %}
 
 {% include feature_row type="left" %}
 

@@ -39,7 +39,7 @@ Det betyder, at af den samlede energi kroppen skaber, så er det kun ~23% der bl
 
 Prøv med dine egne tal i denne beregner:
 
-{% include calculate-heat-production-bike.html %}
+{% include calculator/calculate-heat-production-bike.html %}
 
 Den estimerede varme der genereres med et power output på <span id="heat_bike_power_output">275</span>W og en effektivitet på <span id="heat_bike_efficiency">23</span>% er omkring ~<span id="heat_bike_watt">921</span>W.
 
@@ -59,13 +59,13 @@ Det totale varmetab afhænger af lufttemperaturen, hudtemperaturen, kroppens ove
 
 Lad os først udregne kroppens overfladeareal:
 
-{% include calculate-bsa.html %}
+{% include calculator/calculate-bsa.html %}
 
 Dit estimerede overfladeareal er <span id="heat_management_bsa">1.8336</span> m<sup>2</sup>. Det er en fordel at have et lidt højere areal, når du skal af med varmen.
 
 Hvor meget varme kan du med dit kropsareal forvente at slippe af med gennem konvektion?
 
-{% include calculate-heat-convection.html %}
+{% include calculator/calculate-heat-convection.html %}
 
 <span id="heat_management_convection">308</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_management_subtotal_1">613</span>W i varme.
 
@@ -77,7 +77,7 @@ Selvom vi overfører noget af vores varme til omgivelserne, så kan omgivelserne
 
 Men her prøver vi at estimere den potentielle varmeoverførsel til omgivelserne baseret på din kropsoverflade og temperaturforskellen mellem luften og din hud.
 
-{% include calculate-heat-radiation.html %}
+{% include calculator/calculate-heat-radiation.html %}
 
 Varmetabet gennem radiation er <span id="heat_management_radiation">57</span>W. Men kroppen skal stadig af med <span id="heat_management_subtotal_2">556</span>W varme.
 
@@ -102,7 +102,7 @@ Lad os kigge lidt på tallene igen...
 
 Den øvre grænse for væsketransport på tværs af tarmvæggen er 1,5 L/timen. Derfor skal vores svedrate helst ikke være højere end det, da vi så risikerer at opbruge kroppens væskedepoter.
 
-{% include calculate-heat-evaporation.html %}
+{% include calculator/calculate-heat-evaporation.html %}
 
 Varmetabet via evaporation er <span id="heat_management_evaporation">300</span>W. Det giver en total på <span id="heat_management_subtotal_3">256</span>W af varme tilbage i systemet.
 
@@ -116,7 +116,7 @@ Men hvor varm?
 
 Lad os kigge lidt på tallene:
 
-{% include calculate-heat-temperature-rise.html %}
+{% include calculator/calculate-heat-temperature-rise.html %}
 
 Kroppen vil gøre alt, hvad den kan for at fastholde kropstemperaturen i et relativt snævert interval.
 

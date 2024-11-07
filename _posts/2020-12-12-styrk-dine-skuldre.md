@@ -54,27 +54,27 @@ Derfor skal du også **huske at træne bagskulderen**. En tommelfingerregel kunn
 
 Her kan du se gode øvelser til at styrke bagskulderen. Du kan bruge disse eksempler på øvelser til at mosvare dine presøvelser.
 
-{% include exercise key="20200706160818" title="Barbell Bent-Over Rows (BOR)" %}
+{% include motionsplan/exercise key="20200706160818" title="Barbell Bent-Over Rows (BOR)" %}
 
-{% include exercise key="20101102134326" title="Seated Rear Delt Row" %}
+{% include motionsplan/exercise key="20101102134326" title="Seated Rear Delt Row" %}
 
-{% include exercise key="20201213202400" title="Supine Reverse Fly Cable" %}
+{% include motionsplan/exercise key="20201213202400" title="Supine Reverse Fly Cable" %}
 
 ## Træn rotatormanchetten
 
-{% include exercise key="20201213172700" title="Seated External Rotation" %}
+{% include motionsplan/exercise key="20201213172700" title="Seated External Rotation" %}
 
-{% include exercise key="20110416072713" title="Cuban Press" %}
+{% include motionsplan/exercise key="20110416072713" title="Cuban Press" %}
 
-{% include exercise key="20110416072324" title="Lateral L Raise" %}
+{% include motionsplan/exercise key="20110416072324" title="Lateral L Raise" %}
 
-{% include exercise key="20201213165900" title="Sideplank med rotationer" %}
+{% include motionsplan/exercise key="20201213165900" title="Sideplank med rotationer" %}
 
-{% include exercise key="20201213171600" title="Facepull" %}
+{% include motionsplan/exercise key="20201213171600" title="Facepull" %}
 
 ## Træn serratus anterior
 
-{% include exercise key="20201213171700" title="Scapula Pushups" %}
+{% include motionsplan/exercise key="20201213171700" title="Scapula Pushups" %}
 
 ## Konklusion om skuldertræning
 
@@ -112,7 +112,7 @@ You're then going to retract your shoulder blades. While keeping your hands on y
 
 {% comment %}
 
-{% include exercise key="20161031212455" title="Victory Raise" %}
+{% include motionsplan/exercise key="20161031212455" title="Victory Raise" %}
 
 ## Shoulder schocker
 

@@ -1,0 +1,35 @@
+<form class="calculator" id="calculator_maffetone">
+    <fieldset>
+        <legend>Udregn <em>Maximum Aerobic Heart Rate</em> (Phil Maffetone)</legend>
+        <div class="form-group">
+            <label>Alder
+                <input type="number" min="0" max="200" placeholder="fx 24" name="age" required>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Vælg din kategori</legend>
+            <label class="radio">
+                <input name="category" type="radio" value="-10" required> Har lige haft et længere sygdomsforløb eller tager medicin (minus 10)
+            </label>
+            <label class="radio">
+                <input name="category" type="radio" value="-5"> Har været syg eller skadet - eller bare ikke trænet regelmæssigt (minus 5)
+            </label>
+            <label class="radio">
+                <input name="category" type="radio" value="0"> Har trænet regelmæssigt i mindre end to år
+            </label>
+            <label class="radio">
+                <input name="category" type="radio" value="5"> Har trænet regelmæssigt i <strong>mere</strong> end to år og oplever forbedringer (plus 5)
+            </label>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Udregnet MAHR baseret på Phil Maffetone</legend>
+        <div class="form-group">
+            <label>MAHR
+                <input name="mahr" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

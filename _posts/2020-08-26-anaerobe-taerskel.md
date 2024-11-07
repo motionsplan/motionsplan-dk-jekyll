@@ -65,7 +65,7 @@ MAHR = 180 - alder + kategori
 
 Denne tærskel er udgangspunktet for Phil Maffetone-metoden. Det tal reviderer du så ud fra, hvilken kategori du hører til. Du kan se de forskellige kategorier i denne beregner.
 
-{% include calculate-maffetone-aerobic.html %}
+{% include calculator/calculate-maffetone-aerobic.html %}
 
 En standardberegning passer naturligvis ikke på alle mennesker. Maffetone foreslår, at dette tal er din aerobe tærskel. Det betyder, at det er den øvre grænse af zone 2. Så når du skal lave lavintensitetstræning, så skal du bare holde dig under dette tal.
 
@@ -92,7 +92,7 @@ Den anaerobe tærskel er trænerbar, og derfor bliver du jævnligt nødt til at 
 
 Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Her kan du dog se de foreslåede pulszoner.
 
-{% include calculate-hrzones-lthr.html %}
+{% include calculator/calculate-hrzones-lthr.html %}
 
 ## Hvordan forbedrer jeg min anaerobe tærskel?
 

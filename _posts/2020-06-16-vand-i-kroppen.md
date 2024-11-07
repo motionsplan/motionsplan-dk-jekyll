@@ -44,7 +44,7 @@ De følgende tabeller over vand i kroppen er baseret på [healthline.com](https:
 
 ## Udregn vand i kroppen med vores beregner
 
-{% include calculate-bodywater.html %}
+{% include calculator/calculate-bodywater.html %}
 
 ## Hvor er vandet i kroppen?
 

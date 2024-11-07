@@ -82,7 +82,7 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 **Husk**: Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
 {: .notice .notice--info }
 
-{% include calculate-jack-daniels.html %}
+{% include calculator/calculate-jack-daniels.html %}
 
 Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %})?
 

@@ -1,0 +1,39 @@
+<form class="calculator" id="calculator_maxhr">
+    <fieldset>
+        <legend>Udregn maxpulsen (HR<sub>max</sub>) baseret på alderen</legend>
+        <div class="form-group">
+            <label>Formel for udregning af maxpulsen
+            <select name="maxhr-formula">
+                <option value="fox">Fox (1971) (den mest brugte)</option>
+                <option value="tanaka" selected>Tanaka (2001) (den mest anerkendte)</option>
+                <option value="inbar">Inbar (1994)</option>
+                <option value="aastrand">Aastrand (1964)</option>
+                <option value="arena">Arena (2016)</option>
+                <option value="nes">Nes (2013)</option>
+                <option value="fairbarn_female">Fairbarn (1994) for kvinder</option>
+                <option value="fairbarn_male">Fairbarn (1994) for mænd</option>
+                <option value="whyte_female">Whyte (2008) for kvinder</option>
+                <option value="whyte_male">Whyte (2008) for mænd</option>
+                <option value="gellish_linear">Gellish (2007) lineær</option>
+                <option value="gellish">Gellish (2007)</option>
+                <option value="gulati">Gulati (2010) for kvinder</option>
+                <option value="londeree_moeschberger">Londeree and Moeschberger (1982)</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="0" max="120" name="age" placeholder="Alder i år" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Maxpuls (slag/min)
+                <input name="max_hr" type="text" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

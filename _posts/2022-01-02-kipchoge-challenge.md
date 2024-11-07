@@ -79,7 +79,7 @@ Udgangspunktet for beregneren er Eluid Kipchoges tid, men du kan let ændre bere
 
 Tigst Assefa løb i Berlin Maraton i 2023 distancen på 2:11:53 for kvinder. Det svarer til en hastighed på 19,20 km/t eller et pace på 3:08 min/km.
 
-{% include calculate-kipchoge-challenge.html %}
+{% include calculator/calculate-kipchoge-challenge.html %}
 
 ## Hvor hurtigt skal jeg løbe?
 

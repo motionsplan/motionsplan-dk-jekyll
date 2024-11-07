@@ -1,0 +1,24 @@
+<form class="calculator" id="calculator_gross_efficiency">
+    <fieldset>
+        <legend>Gross Efficiency</legend>
+        <div class="form-group">
+            <label>Workrate (W)
+                <input type="number" min="0" max="1000" placeholder="fx 100" value="100" name="workrate_watt" id="workrate_watt" step="1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Energy Expenditure (J/s)
+                <input type="number" min="0" max="10000" placeholder="fx 650,77" name="ee" id="ee" step="0.01" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Gross efficiency (%)
+                <input name="gross_efficiency" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

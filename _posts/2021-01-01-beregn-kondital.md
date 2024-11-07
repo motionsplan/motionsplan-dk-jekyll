@@ -48,13 +48,13 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 [Nes et al (2011)](https://pubmed.ncbi.nlm.nih.gov/21502897/) har lavet denne test for VO<sub>2</sub>max, som er baseret på nogle enkle antropometriske spørgsmål og selvoplevet fysisk aktivitetsniveau.
 
-{% include calculate-fitness-norwegian-2011.html %}
+{% include calculator/calculate-fitness-norwegian-2011.html %}
 
 ### 2. Konditionsberegner (Jackson 1990)
 
 [Jackson (1990)](https://www.topendsports.com/testing/tests/non-exercise.htm) har lavet denne test, som også har en variation, hvor du indsætter din fedtprocent.
 
-{% include calculate-fitness-jackson.html %}
+{% include calculator/calculate-fitness-jackson.html %}
 
 ### 3. World Level Fitness
 

@@ -91,4 +91,4 @@ Hvis du gerne vil have fibre i din kost, så kan du fx bruge loppefrøskaller. D
 
 Hvis man slår op Data for fødevarers næringsindhold er stillet til rådighed af DTU Fødevareinstituttet fra [frida.fooddata.dk](https://frida.fooddata.dk) og sorterer efter kostfibre, så er følgende fødevarer dem med flest kostfibre i.
 
-{% include table-kostfibre.html %}
+{% include table/table-kostfibre.html %}

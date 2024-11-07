@@ -48,7 +48,7 @@ På baggrund af disse målinger kan du så udregne dit kondital i beregneren ned
 
 ## Beregn vVO2<sub>max</sub> fra testen
 
-{% include calculate-olher-submax.html %}
+{% include calculator/calculate-olher-submax.html %}
 
 Et eksempel:
 

@@ -124,7 +124,7 @@ Løb bruger altid mere energi end gang!
 
 ## Beregner til at sammenligne kalorier ved løb og gang
 
-{% include calculate-run-walk.html %}
+{% include calculator/calculate-run-walk.html %}
 
 Jeg har skrevet et meget grundigere indlæg om [MET med en tabel over virkelig mange aktiviteter, bl.a. også gang og løb]({% link _posts/2020-07-24-met.md %}).
 

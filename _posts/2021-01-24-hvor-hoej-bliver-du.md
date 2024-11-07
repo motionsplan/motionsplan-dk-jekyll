@@ -23,7 +23,7 @@ Er du en af dem, der stiller spørgsmålet: Hvor høj bliver jeg? Du kan udregne
 
 I denne beregner kan du udregne, hvor høj du bliver ud fra din mors og fars højde.
 
-{% include calculate-how-tall.html %}
+{% include calculator/calculate-how-tall.html %}
 
 Læg mærke til, at der er en relativt stor usikkerhed på beregningen.
 

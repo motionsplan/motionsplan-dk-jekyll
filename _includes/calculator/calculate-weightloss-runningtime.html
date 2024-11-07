@@ -1,0 +1,509 @@
+{% comment %}
+<script>
+    function dotReplace(number) {
+        if (number != "") {
+            return number.replace(/\,/g, '.');
+        }
+        else {
+            return 0;
+        }
+    }
+
+    function isInt(id) {
+        return (/^[0-9]+$/.test(document.getElementById(id).value));
+    }
+
+    function isNumber(id) {
+        return (/^[-]?[0-9]+[\.]?[0-9]+$/.test(document.getElementById(id).value));
+    }
+
+    function isNumVal(val) {
+        return (/^[-]?[0-9]+[\.]?[0-9]+$/.test(val));
+    }
+
+    function isSet(id) {
+        return (document.getElementById(id).value != '');
+    }
+
+    function roundNumber(num, dec) {
+        var result = Math.round(num * Math.pow(10, dec)) / Math.pow(10, dec);
+        return result;
+    }
+
+    function training(t, d, h, m, s, p1, p2) {
+        var inputsec = parseInt(h * 3600) + parseInt(m * 60) + parseInt(s * 1);
+        var outputsec1 = Math.round(p1 * inputsec * Math.pow((1000 / d), 1.06));
+        var outputsec2 = Math.round(p2 * inputsec * Math.pow((1000 / d), 1.06));
+
+        var reshour1 = Math.floor(outputsec1 / 3600);
+        var resmin1 = Math.floor((outputsec1 - reshour1 * 3600) / 60);
+        var ressec1 = Math.floor(outputsec1 - reshour1 * 3600 - resmin1 * 60);
+
+        var reshour2 = Math.floor(outputsec2 / 3600);
+        var resmin2 = Math.floor((outputsec2 - reshour2 * 3600) / 60);
+        var ressec2 = Math.floor(outputsec2 - reshour2 * 3600 - resmin2 * 60);
+
+        if (reshour1 < 10) { reshour1 = '0' + reshour1; }
+        if (resmin1 < 10) { resmin1 = '0' + resmin1; }
+        if (ressec1 < 10) { ressec1 = '0' + ressec1; }
+        if (reshour1 == 0) { reshour1 = '00'; }
+        if (resmin1 == 0) { resmin1 = '00'; }
+        if (ressec1 == 0) { ressec1 = '00'; }
+
+        if (reshour2 < 10) { reshour2 = '0' + reshour2; }
+        if (resmin2 < 10) { resmin2 = '0' + resmin2; }
+        if (ressec2 < 10) { ressec2 = '0' + ressec2; }
+        if (reshour2 == 0) { reshour2 = '00'; }
+        if (resmin2 == 0) { resmin2 = '00'; }
+        if (ressec2 == 0) { ressec2 = '00'; }
+
+        return reshour1 + ':' + resmin1 + ':' + ressec1 + '</td><td>' + reshour2 + ':' + resmin2 + ':' + ressec2;
+    }
+
+    function calc_speed() {
+        if (isInt('d1') && (isSet('h1') || isSet('m1') || isSet('s1'))) {
+            if ((!isInt('h1') && isSet('h1')) || (!isInt('m1') && isSet('m1')) || (!isInt('s1') && isSet('s1'))) {
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                var d1 = document.getElementById('d1').value;
+                var h1 = document.getElementById('h1').value;
+                if (h1 == '00') { h1 = 0; }
+                if (h1 == '') { h1 = 0; }
+                var m1 = document.getElementById('m1').value;
+                if (m1 == '00') { m1 = 0; }
+                if (m1 == '') { m1 = 0; }
+                var s1 = document.getElementById('s1').value;
+                if (s1 == '00') { s1 = 0; }
+                if (s1 == '') { s1 = 0; }
+
+                var time1 = parseInt(h1 * 3600) + parseInt(m1 * 60) + parseInt(s1 * 1);
+                var output1 = Math.round(1000 * time1 / d1);
+                var h_out = Math.floor(output1 / 3600);
+                var m_out = Math.floor((output1 - h_out * 3600) / 60);
+                var s_out = Math.floor(output1 - h_out * 3600 - m_out * 60);
+                if (h_out < 10) { h_out = '0' + h_out; }
+                if (m_out < 10) { m_out = '0' + m_out; }
+                if (s_out < 10) { s_out = '0' + s_out; }
+                if (h_out == 0) { h_out = '00'; }
+                if (m_out == 0) { m_out = '00'; }
+                if (s_out == 0) { s_out = '00'; }
+                document.getElementById('res1').innerHTML = h_out + ':' + m_out + ':' + s_out + ' minuter/km';
+            }
+        }
+        else {
+            document.getElementById('res1').innerHTML = '';
+        }
+    }
+
+    function calc_time() {
+        if (isInt('d2') && (isSet('m2') || isSet('s2'))) {
+            if ((!isInt('m2') && isSet('m2')) || (!isInt('s2') && isSet('s2'))) {
+                alert('Hastigheden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                var d2 = document.getElementById('d2').value;
+                var m2 = document.getElementById('m2').value;
+                if (m2 == '00') { m2 = 0; }
+                if (m2 == '') { m2 = 0; }
+                var s2 = document.getElementById('s2').value;
+                if (s2 == '00') { s2 = 0; }
+                if (s2 == '') { s2 = 0; }
+
+                var speed2 = parseInt(m2 * 60) + parseInt(s2 * 1);
+                var output2 = Math.round(speed2 * d2 / 1000);
+                var h_out = Math.floor(output2 / 3600);
+                var m_out = Math.floor((output2 - h_out * 3600) / 60);
+                var s_out = Math.floor(output2 - h_out * 3600 - m_out * 60);
+                if (h_out < 10) { h_out = '0' + h_out; }
+                if (m_out < 10) { m_out = '0' + m_out; }
+                if (s_out < 10) { s_out = '0' + s_out; }
+                if (h_out == 0) { h_out = '00'; }
+                if (m_out == 0) { m_out = '00'; }
+                if (s_out == 0) { s_out = '00'; }
+                document.getElementById('res2').innerHTML = h_out + ':' + m_out + ':' + s_out;
+
+            }
+        }
+        else {
+            document.getElementById('res2').innerHTML = '';
+        }
+    }
+
+    function calc_dist() {
+        if ((isSet('h3a') || isSet('m3a') || isSet('s3a')) && (isSet('m3b') || isSet('s3b'))) {
+            if ((!isInt('h3a') && isSet('h3a')) || (!isInt('m3a') && isSet('m3a')) || (!isInt('s3a') && isSet('s3a'))) {
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else if ((!isInt('m3b') && isSet('m3b')) || (!isInt('s3b') && isSet('s3b'))) {
+                alert('Hastigheden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                var h3a = document.getElementById('h3a').value;
+                if (h3a == '00') { h3a = 0; }
+                if (h3a == '') { h3a = 0; }
+                var m3a = document.getElementById('m3a').value;
+                if (m3a == '00') { m3a = 0; }
+                if (m3a == '') { m3a = 0; }
+                var s3a = document.getElementById('s3a').value;
+                if (s3a == '00') { s3a = 0; }
+                if (s3a == '') { s3a = 0; }
+
+                var m3b = document.getElementById('m3b').value;
+                if (m3b == '00') { m3b = 0; }
+                if (m3b == '') { m3b = 0; }
+                var s3b = document.getElementById('s3b').value;
+                if (s3b == '00') { s3b = 0; }
+                if (s3b == '') { s3b = 0; }
+
+                var time3 = parseInt(h3a * 3600) + parseInt(m3a * 60) + parseInt(s3a * 1);
+                var speed3 = parseInt(m3b * 60) + parseInt(s3b * 1);
+
+                var output3 = Math.round(1000 * time3 / speed3);
+                document.getElementById('res3').innerHTML = output3 + ' m';
+
+            }
+        }
+        else {
+            document.getElementById('res3').innerHTML = '';
+        }
+    }
+
+    function calc_split_next_time(n) {
+        if (document.getElementById('h' + (n + 1) + '1')) {
+            document.getElementById('h' + (n + 1) + '1').value = document.getElementById('h' + n + '2').value;
+            document.getElementById('m' + (n + 1) + '1').value = document.getElementById('m' + n + '2').value;
+            document.getElementById('s' + (n + 1) + '1').value = document.getElementById('s' + n + '2').value;
+        }
+    }
+
+    function calc_split_next_dist(n) {
+        if (document.getElementById('d' + (n + 1) + '1')) {
+            document.getElementById('d' + (n + 1) + '1').value = document.getElementById('d' + n + '2').value;
+        }
+    }
+
+    function calc_split(n) {
+        calc_split_next_time(n);
+        calc_split_next_dist(n);
+        if (isInt('d' + n + '1') && isInt('d' + n + '2') && (isSet('h' + n + '1') || isSet('m' + n + '1') || isSet('s' + n + '1')) && (isSet('h' + n + '2') || isSet('m' + n + '2') || isSet('s' + n + '2'))) {
+            if ((!isInt('h' + n + '1') && isSet('h' + n + '1')) || (!isInt('m' + n + '1') && isSet('m' + n + '1')) || (!isInt('s' + n + '1') && isSet('s' + n + '1')) || (!isInt('h' + n + '2') && isSet('h' + n + '2')) || (!isInt('m' + n + '2') && isSet('m' + n + '2')) || (!isInt('s' + n + '2') && isSet('s' + n + '2'))) {
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                var d11 = document.getElementById('d' + n + '1').value;
+                var h11 = document.getElementById('h' + n + '1').value;
+                if (h11 == '00') { h11 = 0; }
+                if (h11 == '') { h11 = 0; }
+                var m11 = document.getElementById('m' + n + '1').value;
+                if (m11 == '00') { m11 = 0; }
+                if (m11 == '') { m11 = 0; }
+                var s11 = document.getElementById('s' + n + '1').value;
+                if (s11 == '00') { s11 = 0; }
+                if (s11 == '') { s11 = 0; }
+
+                var d12 = document.getElementById('d' + n + '2').value;
+                var h12 = document.getElementById('h' + n + '2').value;
+                if (h12 == '00') { h12 = 0; }
+                if (h12 == '') { h12 = 0; }
+                var m12 = document.getElementById('m' + n + '2').value;
+                if (m12 == '00') { m12 = 0; }
+                if (m12 == '') { m12 = 0; }
+                var s12 = document.getElementById('s' + n + '2').value;
+                if (s12 == '00') { s12 = 0; }
+                if (s12 == '') { s12 = 0; }
+
+                var time1 = parseInt(h11 * 3600) + parseInt(m11 * 60) + parseInt(s11 * 1);
+                var time2 = parseInt(h12 * 3600) + parseInt(m12 * 60) + parseInt(s12 * 1);
+                var time = time2 - time1;
+                var dist = d12 - d11;
+                if (dist > 0) {
+                    output1 = Math.round(1000 * time / dist);
+                    var m_out1 = Math.floor((output1) / 60);
+                    var s_out1 = Math.round(output1 - m_out1 * 60);
+                    if (m_out1 < 10 && m_out1 > 0) { m_out1 = '0' + m_out1; }
+                    if (s_out1 < 10 && s_out1 > 0) { s_out1 = '0' + s_out1; }
+                    if (m_out1 == 0) { m_out1 = '00'; }
+                    if (s_out1 == 0) { s_out1 = '00'; }
+                    if (!(m_out1 < 0 || s_out1 < 0)) {
+                        document.getElementById('splitspeed' + n).innerHTML = m_out1 + ':' + s_out1 + ' min/km';
+                    }
+
+                    output2 = time;
+                    var h_out2 = Math.floor(output2 / 3600);
+                    var m_out2 = Math.floor((output2 - h_out2 * 3600) / 60);
+                    var s_out2 = Math.round(output2 - h_out2 * 3600 - m_out2 * 60);
+                    if (h_out2 < 10 && h_out2 > 0) { h_out2 = '0' + h_out2; }
+                    if (m_out2 < 10 && m_out2 > 0) { m_out2 = '0' + m_out2; }
+                    if (s_out2 < 10 && s_out2 > 0) { s_out2 = '0' + s_out2; }
+                    if (h_out2 == 0) { h_out2 = '00'; }
+                    if (m_out2 == 0) { m_out2 = '00'; }
+                    if (s_out2 == 0) { s_out2 = '00'; }
+                    if (!(h_out2 < 0 || m_out2 < 0 || s_out2 < 0)) {
+                        document.getElementById('splittime' + n).innerHTML = h_out2 + ':' + m_out2 + ':' + s_out2;
+                    }
+                }
+            }
+        }
+        else {
+            document.getElementById('splittime' + n).innerHTML = '';
+            document.getElementById('splitspeed' + n).innerHTML = '';
+        }
+    }
+
+    var times = new Array();
+    var speeds = new Array();
+
+    function calc_improvement_function(n, dist) {
+        var d = document.getElementById('d' + dist).value;
+        var h = document.getElementById('h' + n + '1').value;
+        if (h == '00') { h = 0; }
+        if (h == '') { h = 0; }
+        var m = document.getElementById('m' + n + '1').value;
+        if (m == '00') { m = 0; }
+        if (m == '') { m = 0; }
+        var s = document.getElementById('s' + n + '1').value;
+        if (s == '00') { s = 0; }
+        if (s == '') { s = 0; }
+        var time = parseInt(h * 3600) + parseInt(m * 60) + parseInt(s * 1);
+        times[n] = time;
+        var speed = Math.round(1000 * time / d);
+        speeds[n] = speed;
+
+        var m_out = Math.floor((speed) / 60);
+        var s_out = Math.floor(speed - m_out * 60);
+        if (m_out < 10 && m_out > 0) { m_out = '0' + m_out; }
+        if (s_out < 10 && s_out > 0) { s_out = '0' + s_out; }
+        if (m_out == 0) { m_out = '00'; }
+        if (s_out == 0) { s_out = '00'; }
+        document.getElementById('speed' + n).innerHTML = m_out + ':' + s_out + ' min/km';
+    }
+
+    function calc_improvement() {
+        var set1 = false;
+        var set2 = false;
+        var set3 = false;
+        if (isInt('d1') && (isSet('h11') || isSet('m11') || isSet('s11'))) {
+            if ((!isInt('h11') && isSet('h11')) || (!isInt('m11') && isSet('m11')) || (!isInt('s11') && isSet('s11'))) {
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                calc_improvement_function(1, 1);
+                set1 = true;
+            }
+        }
+        else {
+            document.getElementById('speed1').innerHTML = '';
+        }
+        if (isInt('d1') && (isSet('h21') || isSet('m21') || isSet('s21'))) {
+            if ((!isInt('h21') && isSet('h21')) || (!isInt('m21') && isSet('m21')) || (!isInt('s21') && isSet('s21'))) {
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                calc_improvement_function(2, 1);
+                set2 = true;
+            }
+        }
+        else {
+            document.getElementById('speed2').innerHTML = '';
+        }
+        if (isInt('d2') && (isSet('h31') || isSet('m31') || isSet('s31'))) {
+            if ((!isInt('h31') && isSet('h31')) || (!isInt('m31') && isSet('m31')) || (!isInt('s31') && isSet('s31'))) {
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
+            }
+            else {
+                calc_improvement_function(3, 2);
+                set3 = true;
+            }
+        }
+        else {
+            document.getElementById('speed3').innerHTML = '';
+        }
+        if (set1 && set2 && set3) {
+            var dist_reduction = document.getElementById('d2').value / document.getElementById('d1').value;
+            var improvement_time = times[2] / times[1];
+            var improvement_speed = speeds[3] / speeds[1];
+            document.getElementById('data1').innerHTML = (new Number(dist_reduction)).toFixed(2);
+            document.getElementById('data2').innerHTML = (new Number(100 * (1 - improvement_speed))).toFixed(2) + '%';
+            document.getElementById('data3').innerHTML = (new Number(100 * (1 - improvement_time))).toFixed(2) + '%';
+
+            var new_time = improvement_time * times[3];
+            var h_out = Math.floor(new_time / 3600);
+            var m_out = Math.floor((new_time - h_out * 3600) / 60);
+            var s_out = Math.floor(new_time - h_out * 3600 - m_out * 60);
+            if (h_out < 10) { h_out = '0' + h_out; }
+            if (m_out < 10) { m_out = '0' + m_out; }
+            if (s_out < 10) { s_out = '0' + s_out; }
+            if (h_out == 0) { h_out = '00'; }
+            if (m_out == 0) { m_out = '00'; }
+            if (s_out == 0) { s_out = '00'; }
+            document.getElementById('h41').value = h_out;
+            document.getElementById('m41').value = m_out;
+            document.getElementById('s41').value = s_out;
+
+            var speed = Math.round(1000 * new_time / document.getElementById('d2').value);
+            var m_out = Math.floor((speed) / 60);
+            var s_out = Math.floor(speed - m_out * 60);
+            if (m_out < 10 && m_out > 0) { m_out = '0' + m_out; }
+            if (s_out < 10 && s_out > 0) { s_out = '0' + s_out; }
+            if (m_out == 0) { m_out = '00'; }
+            if (s_out == 0) { s_out = '00'; }
+            document.getElementById('speed4').innerHTML = m_out + ':' + s_out + ' min/km';
+        }
+        else {
+            document.getElementById('h41').value = '';
+            document.getElementById('m41').value = '';
+            document.getElementById('s41').value = '';
+            document.getElementById('speed4').innerHTML = '';
+        }
+    }
+
+    function calc_energy() {
+        var weight = document.getElementById('weight').value;
+        var dist = document.getElementById('dist').value;
+        weight = weight.replace(',', '.');
+        dist = dist.replace(',', '.');
+        if (isSet('weight') && isSet('dist')) {
+            var kcal = roundNumber(weight * dist / 1000, 2);
+            var kj = roundNumber(4.2 * weight * dist / 1000, 2);
+            document.getElementById('energy').innerHTML = kcal + " kcal = " + kj + " KJ";
+        }
+    }
+
+    function calc_fatpercent() {
+        var weight = document.getElementById('weight').value;
+        var fatpercent = document.getElementById('fatpercent').value;
+        var loose = document.getElementById('loose').value;
+        weight = weight.replace(',', '.');
+        fatpercent = fatpercent.replace(',', '.');
+        loose = loose.replace(',', '.');
+
+        if (isSet('weight') && isSet('fatpercent') && isSet('loose')) {
+            var fat_old = fatpercent * weight / 100;
+            var fat_new = fatpercent * weight / 100 - loose;
+            var weight_new = weight - loose;
+            document.getElementById('new_fatpercent').innerHTML = roundNumber(100 * fat_new / weight_new, 2) + "%";
+        }
+    }
+
+    function calc_kondi(thisform) {
+        var distance = thisform.distance.value;
+        var sex = thisform.sex.value;
+        var weight = dotReplace(thisform.weight.value);
+        thisform.weight.value = weight;
+        var Kondital = roundNumber((sex * 0.05 + 1) * (distance - 505) / 45, 1);
+        var vo2 = roundNumber(Kondital * weight / 1000, 2);
+        thisform.Kondital.value = Kondital;
+        thisform.vo2.value = vo2;
+        return false;
+    }
+
+    function calc_puls_intensity(max, min, intensity) {
+        return Math.round(min + (intensity * (max - min) / 100));
+    }
+
+    function calc_puls() {
+        if (isInt('max') && isSet('max') && isInt('min') && isSet('min')) {
+            var max = parseInt(document.getElementById('max').value * 1);
+            var min = parseInt(document.getElementById('min').value * 1);
+            if (isInt('intensity') && isSet('intensity')) {
+                var intensity = parseInt(document.getElementById('intensity').value);
+                document.getElementById('puls').value = calc_puls_intensity(max, min, intensity);
+            }
+            document.getElementById('zone1').innerHTML = calc_puls_intensity(max, min, 55) + '-' + calc_puls_intensity(max, min, 65);
+            document.getElementById('zone2').innerHTML = calc_puls_intensity(max, min, 65) + '-' + calc_puls_intensity(max, min, 75);
+            document.getElementById('zone3').innerHTML = calc_puls_intensity(max, min, 75) + '-' + calc_puls_intensity(max, min, 85);
+            document.getElementById('zone4').innerHTML = calc_puls_intensity(max, min, 85) + '-' + calc_puls_intensity(max, min, 95);
+            document.getElementById('zone5').innerHTML = calc_puls_intensity(max, min, 95) + '-' + calc_puls_intensity(max, min, 100);
+
+            document.getElementById('zone1a').innerHTML = calc_puls_intensity(max, min, 50) + '-' + calc_puls_intensity(max, min, 60);
+            document.getElementById('zone2a').innerHTML = calc_puls_intensity(max, min, 60) + '-' + calc_puls_intensity(max, min, 70);
+            document.getElementById('zone3a').innerHTML = calc_puls_intensity(max, min, 70) + '-' + calc_puls_intensity(max, min, 80);
+            document.getElementById('zone4a').innerHTML = calc_puls_intensity(max, min, 80) + '-' + calc_puls_intensity(max, min, 90);
+            document.getElementById('zone5a').innerHTML = calc_puls_intensity(max, min, 90) + '-' + calc_puls_intensity(max, min, 100);
+        }
+    }
+
+    function calc_korrigeretpuls() {
+        if (isSet('bpm_start') && isSet('bpm_avg') && isSet('t_start') && isSet('t')) {
+            var bpm_start = 1 * dotReplace(document.getElementById('bpm_start').value);
+            var bpm_avg = 1 * dotReplace(document.getElementById('bpm_avg').value);
+            var t_start = 1 * dotReplace(document.getElementById('t_start').value);
+            var t = 1 * dotReplace(document.getElementById('t').value);
+            document.getElementById('puls').innerHTML = roundNumber(((bpm_avg * t + (bpm_avg - bpm_start) * 1 / 2)) / t, 1);
+        }
+        else {
+            document.getElementById('puls').innerHTML = '';
+            alert("Udfyld venligst alle felterne.");
+        }
+    }
+
+    function calc_kmt() {
+        if (isSet('kmt')) {
+            var kmt = document.getElementById('kmt').value = dotReplace(document.getElementById('kmt').value);
+            if (isNumber('kmt')) {
+                var min = 60 * 1 / kmt;
+                var min_out = Math.floor(min);
+                var sec_out = Math.round((min - Math.floor(min)) * 60);
+                if (sec_out < 10) { sec_out = '0' + sec_out; }
+
+                document.getElementById('min').value = min_out;
+                document.getElementById('sec').value = sec_out;
+            }
+            else {
+                document.getElementById('min').value = '';
+                document.getElementById('sec').value = '';
+            }
+        }
+        else {
+            document.getElementById('min').value = '';
+            document.getElementById('sec').value = '';
+        }
+    }
+
+    function calc_minkm() {
+        if (isInt('min') && isInt('sec') && (isSet('min') || isSet('sec')) && (document.getElementById('min').value > 0 || document.getElementById('sec').value > 0)) {
+            document.getElementById('kmt').value = roundNumber(60 / (document.getElementById('min').value * 1 + (document.getElementById('sec').value / 60)), 1);
+        }
+        else {
+            document.getElementById('kmt').value = '';
+        }
+    }
+</script>
+{% endcomment %}
+
+<form class="calculator" id="calculator_weightloss_running_time">
+    <fieldset>
+        <div class="form-group">
+            <label>Nuværende vægt (kg)
+                <input name="weight" id="weight" type="number" min="30" max="200" placeholder="Nuværende vægt i kg" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Nuværende løbetid</label>
+            <input name="hours" id="hours" type="number" min="0" max="5" class="input-mini" placeholder="timer">
+            <input name="minutes" id="minutes" type="number" min="0" max="59" class="input-mini" placeholder="min">
+            <input name="seconds" id="seconds" type="number" min="0" max="59" class="input-mini" placeholder="sek">
+        </div>
+        <div class="form-group">
+            <label>Vægtændring (kg)
+                <input name="change" id="change" type="number" placeholder="Vægtændring i kg" required>
+            </label>
+            <p class="help-block">Du indtaster et negativt tal, hvis der er tale om vægttab, og hvis du forventer at blive tungere, så skriver du positive tal.</p>
+        </div>
+        <div class="form-group">
+            <label>Forventet effekt af vægtændring ift. potentiale (%)
+                <input name="change_effect" id="change_effect" type="number" min="0" max="100" value="80" required>
+            </label>
+            <p class="help-block">Hvis du forventer at hele potentialet for din vægtændring skal tælle med, så skriver du 100%. Hvis intet skal tælle med, så skriver du 0%.</p>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Ny tid efter vægtændring</label>
+            <input type="text" name="result" id="result" disabled>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

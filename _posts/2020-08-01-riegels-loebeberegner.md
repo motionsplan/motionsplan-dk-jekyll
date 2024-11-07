@@ -32,7 +32,7 @@ Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold
 
 **Husk** at beregninger af løbetider kun giver et omtrentligt resultat. Der er ingen garantier for at løbetiden passer præcist. Ved løb er der mange faktorer, der kan spille ind på løbetiden, fx vejr og terræn, men det betyder også meget, hvor oplagt du er på dagen, og hvordan du får disponeret løbet?
 
-{% include calculate-running-riegel.html %}
+{% include calculator/calculate-running-riegel.html %}
 
 Husk at [Jack Daniels Running Formula og løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) er mere avanceret og baseret på nyere data fra løbere.
 

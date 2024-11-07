@@ -77,7 +77,7 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 
 Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/). Karvonens pulszoner bliver brugt i rigtig mange sammenhænge. Her har vi omskrevet navnene på de enkelte zoner til Coggans terminologi.
 
-{% include calculate-hrzones-karvonen.html %}
+{% include calculator/calculate-hrzones-karvonen.html %}
 
 Karvonens pulszoner kan være et udemærket udgangspunkt for træningen. Det er ofte Karvonens zoner, der er forprogrammeret ind i forskellige pulsure. Formlen bag Karvonens pulszoner er følgende:
 
@@ -87,7 +87,7 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 [Joe Friel](https://joefrieltraining.com/a-quick-guide-to-setting-zone/) baserer sine pulszoner på pulsen ved den anaerobe tærskel (LTHR). Han har i alt 7 zoner, men her har vi reduceret zonerne til at modsvare de vejledende træningszoner fra Coggan, som vi har skitseret ovenfor. Coggan benytter nogle lidt [andre pulsværdier](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/), men vi har god erfaring med at bruge Friels pulszoner.
 
-{% include calculate-hrzones-lthr.html %}
+{% include calculator/calculate-hrzones-lthr.html %}
 
 ## Jack Daniels pulszoner ift. maksimale puls
 
@@ -97,7 +97,7 @@ De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsv�
 
 Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
 
-{% include calculate-hrzones-maxhr.html %}
+{% include calculator/calculate-hrzones-maxhr.html %}
 
 En anden angivelse af de forskellige zoner i forhold til HR<sub>max</sub> kan ses i denne grafik.
 

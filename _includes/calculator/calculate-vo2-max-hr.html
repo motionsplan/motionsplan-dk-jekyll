@@ -1,0 +1,29 @@
+<form class="calculator" id="calculate_fitness_level_hr">
+    <fieldset>
+        <legend>Udregn kondital med hvilepuls og maxpuls. Indtast de målte værdier</legend>
+        <div class="form-group">
+            <label for="hr_rest">Hvilepuls (slag/min)</label>
+            <input type="number" min="30" max="100" id="hr_rest" name="hr_rest" placeholder="Hvilepuls" required>
+        </div>
+        <div class="form-group">
+            <label for="hr_max">Maxpuls (slag/min)</label>
+            <input type="number" min="140" max="250" id="hr_max" name="hr_max" placeholder="Maxpuls" required>
+        </div>
+        <div class="form-group">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="20" max="200" id="weight" name="weight" placeholder="Vægt i kg" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="kondital">Kondital (ml/kg/min)</label>
+            <input type="text" id="kondital" disabled>
+        </div>
+        <div class="form-group">
+            <label for="vo2max">Maximal iltoptagelse (l/min)</label>
+            <input type="text" id="vo2max" disabled>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

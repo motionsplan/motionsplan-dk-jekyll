@@ -47,7 +47,7 @@ Du kan se testen forklaret i denne Youtube-video.
 
 Hoppehøjden er forskellen mellem din rækkehøjde, og hvor du ender med at røre på væggen. Du kan bruge denne beregner til at udregne dit resultat.
 
-{% include calculate-jump-reach.html title="Sargent Jump Test" %}
+{% include calculator/calculate-jump-reach.html title="Sargent Jump Test" %}
 
 {% comment%}
 

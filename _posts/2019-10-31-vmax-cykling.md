@@ -57,7 +57,7 @@ Du kan også bruge V<sub>max</sub> træning på cykel, hvis du har adgang til en
 
 Du kan finde din V<sub>max</sub> ved at køre [Watt Max konditionstesten](/kondital-wattmax/) på en cykel med wattmåler - eller du kan estimere din V<sub>max</sub>, hvis du kender din maksimale iltoptagelse i denne beregner. Beregneren udnytter viden fra Watt-max-testen, hvor du udregner VO<sub>2</sub>max på baggrund af _maximal power output_. Beregneren her regner baglæns.
 
-{% include calculate-vmax-biking-estimate.html %}
+{% include calculator/calculate-vmax-biking-estimate.html %}
 
 For at køre V<sub>max</sub>-træning på cykel skal du gøre følgende:
 
@@ -68,7 +68,7 @@ Programmet for V<sub>max</sub>-træning er hårdt, og det er hensigten for at fl
 
 Du kan supplere din træning med V<sub>max</sub>-træning maksimalt 1-2 gange pr. uge, så du også kan nå at restituere fra træningen igen.
 
-{% include calculate-vmax-intervals.html unit="watt" module="biking" %}
+{% include calculator/calculate-vmax-intervals.html unit="watt" module="biking" %}
 
 ## Konklusion
 

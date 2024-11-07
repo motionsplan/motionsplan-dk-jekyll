@@ -1,0 +1,91 @@
+{% assign id = include.id | default: "calculator_bmr_pal" %}
+{% assign legend = include.legend | default: "Nordic Nutrition Recommendations 2012" %}
+<form class="calculator" id="{{ id }}">
+    <fieldset>
+        <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em id="bmr_legend">{{ legend }}</em>.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af hvilestofskifte
+            <select name="bmr-formula" id="bmr-formula">
+                <option value="benedict_harris">Benedict-Harris 1918-1919</option>
+                <option value="schofield">Schofield Equation 1985</option>
+                <option value="nordic_2012" selected="selected">Nordic Nutrition Recommendations 2012</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender" id="gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm) (valgfri)
+                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1">
+            </label>
+        </div>
+        <fieldset>
+            <legend>Fysisk aktivitetsniveau (PAL)</legend>
+            <label class="radio">
+                <input type="radio" value="1.2" name="pal" requried>
+                Sengeliggende eller bundet til en stol (ikke rullestol).
+            </label>
+            <label class="radio">
+                <input type="radio" checked="checked" value="1.45" name="pal">
+                Stillesiddende arbejde med begrænset bevægelse og ingen eller begrænset fysisk aktivitet i fritiden.
+            </label>
+            <label class="radio">
+                <input type="radio" value="1.65" name="pal">
+                Stillesiddende arbejde med et vist behov for bevægelse og med nogen fysisk aktivitet i fritiden.
+            </label>
+            <label class="radio">
+                <input type="radio" value="1.85" name="pal">
+                Hovedsageligt stående arbejde og med fritidsaktivitet næsten dagligt.
+            </label>
+            <label class="radio">
+                <input type="radio" value="2.2" name="pal">
+                Hårdt kropsarbejde eller daglig hård hård fysisk træning.
+            </label>
+            <label>
+                Moderat fritidsaktivitet (fx hurtig gang) (timer om ugen)
+                <input type="number" min="0" max="24" name="moderate_leisure_activity">
+                <p class="help-block">Moderat fysisk aktivitet hæver PAL med 0,025 PAL pr. time pr. uge</p>
+            </label>
+            <label>
+                Hård fysisk aktivitet (løb, fodbold) (timer om ugen)
+                <input type="number" min="0" max="24" name="strenuous_leisure_activity">
+                <p class="help-block">Moderat fysisk aktivitet hæver PAL med 0,05 PAL pr. time pr. uge</p>
+            </label>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Hvilestofskifte (BMR) (kJ)
+                <input name="bmr" id="bmr" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Faktor for fysisk aktivitetsniveau (PAL)
+                <input name="pal_calc" id="pal_calc" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Dagligt energiforbrug (kJ)
+                <input name="tee" id="tee" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -30,7 +30,7 @@ Du kan bruge nedenstående beregner til at sammenligne dine løbetider med de be
 
 Du får med andre ord en aldersgradueret vurdering af din præstation baseret på dine løbetider.
 
-{% include calculate-running-age-graded.html %}
+{% include calculator/calculate-running-age-graded.html %}
 
 ## Hvordan aldersjusterer man løbetiden?
 

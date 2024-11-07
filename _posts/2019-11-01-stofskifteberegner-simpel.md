@@ -84,7 +84,7 @@ Resultatet er en gennemsnitsberegning for, hvor højt hvilestofskiftet er for pe
 
 ## BMR beregner
 
-{% include calculate-stofskifte.html %}
+{% include calculator/calculate-stofskifte.html %}
 
 ## Hvilken formel skal jeg vælge i BMR-beregneren?
 

@@ -1,0 +1,73 @@
+<form class="calculator" id="calculator_walking_energy">
+    <fieldset>
+        <legend>Energiudregner. Beregn hvor meget du forbrænder ved at gå.</legend>
+        <div class="form-group">
+            <label>Formel
+                <select name="formula-walking-energy" id="formula-walking-energy">
+                    <option value="ascm">ASCM formel</option>
+                    <option value="pandolf">Pandolf formel</option>
+                    <option value="met">MET-værdier</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" id="weight" type="number" placeholder="fx 68 kg" required>
+            </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Hastighed for gang</legend>
+        <div class="form-group" class="walk-ascm">
+            <label>Hastighed for gang (km/t)
+                <input type="number" name="walk_velocity" steps="0.1" min="1" max="12">
+            </label>
+        </div>
+        <div class="form-group" class="walk-ascm">
+            <label>Hældning (%)
+                <input type="number" name="walk_grade" steps="0.1" min="1" max="30">
+            </label>
+        </div>
+        <div class="form-group" class="walk-pandolf">
+            <label>Baggage (kg)
+                <input type="number" name="walk_load" steps="0.1" min="1" max="100">
+            </label>
+        </div>
+        <div class="form-group" class="walk-met">
+            <label for="walking">Gang</label>
+            <select name="walking" id="walking">
+                <option value="4">Gang - 4,0 km/t</option>
+                <option value="4.8">Gang - 4,8 km/t</option>
+                <option value="5.6">Gang - 5,6 km/t</option>
+                <option value="6.4">Gang - 6,4 km/t</option>
+                <option value="7.2">Gang - 7,2 km/t</option>
+                <option value="8.0">Gang - 8,0 km/t</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="time">Tid (timer)</label>
+            <input name="time" id="time" type="number" min="0" max="24" placeholder="Timer" step="0.1" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Energiforbrug ved gang</legend>
+       <div class="form-group">
+           <label for="calories_walking_kilometer">Energiforbrug (kcal/kilometer)</label>
+           <input name="calories_walking_kilometer" id="calories_walking_kilometer" type="text" disabled>
+       </div>
+       <div class="form-group">
+           <label for="calories_walking_minute">Energiforbrug (kcal/minut)</label>
+           <input name="calories_walking_minute" id="calories_walking_minute" type="text" disabled>
+       </div>
+       <div class="form-group">
+            <label for="calories_walking_total">Samlet energiforbrug (kcal)</label>
+            <input name="calories_walking_total" id="calories_walking_total" type="text" disabled>
+        </div>
+   </fieldset>
+    <div class="notes">
+        <p class="met-explanation">Beregneren er baseret på MET (metabolic equivalents) for fysisk aktivitet, som du kan finde fra <a href="https://pacompendium.com/">Compendium of Physical Activities</a>.</p>
+        <p>Beregningerne tager ikke højde for individuelle forskelle, bevægelsesøkonomi og den evt. efterforbrænding.</p>
+    </div>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -63,7 +63,7 @@ Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle 
 
 Beregn din fedtprocent i vores fedtprocent beregner.
 
-{% include calculate-fat-percent.html %}
+{% include calculator/calculate-fat-percent.html %}
 
 Et eksempel:
 

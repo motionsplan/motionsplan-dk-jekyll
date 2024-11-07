@@ -57,4 +57,4 @@ Derfor er funktionen for latissimus dorsi også at dreje overarmen indad (indadr
 
 Den brede rygmuskel er også involveret i stort set alle rygøvelser. Du kan altså træne den brede rygmuskel med [pullups](/chinup-vs-pullup/), [rows](/rows/) og dødløft-varianter. Her er min favorit helt sikkert pullups.
 
-{% include exercise key="43" title="Pullup" %}
+{% include motionsplan/exercise key="43" title="Pullup" %}

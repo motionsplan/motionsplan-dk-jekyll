@@ -42,7 +42,7 @@ Alle tallene i kalorietabellen med brød er per 100 gram rå fødevare (spiselig
 
 ## Kalorietabel med brød
 
-{% include table-kalorietabellen.html where="brød" %}
+{% include table/table-kalorietabellen.html where="brød" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer brød indholder af ernæring og kalorier.
 

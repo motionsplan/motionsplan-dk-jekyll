@@ -26,7 +26,7 @@ Body Adiposity Index beregneren er et alternativ til fx [BMI](/bmi/) og [taljem�
 
 ## Body Adiposity Index Beregner
 
-{% include calculate-fat-bai.html %}
+{% include calculator/calculate-fat-bai.html %}
 
 **Note**: Hofteomkredsen skal m책les, s책 du placerer m책leb책ndet rundt om hofterne, s책 det passerer det bredeste sted p책 numsen, n책r man ser kroppen fra siden.
 

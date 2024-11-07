@@ -1,0 +1,35 @@
+<form class="calculator" id="calculator_temperature_rise">
+    <fieldset>
+        <legend>Varmestigning</legend>
+        <div class="form-group">
+            <label>Ekstra varmeproduktion (watt)
+                <input type="number" min="0" max="10000" placeholder="fx 200" name="heat_temperature_rise_excess_watt" id="heat_temperature_rise_excess_watt" step="1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid for ekstra varmeproduktion (min:sek)</label>
+            <input type="number" placeholder="3" name="heat_temperature_rise_hours" min="0" max="20" class="input-mini" required> <span class="help-inline">timer</span>
+            <input type="number" placeholder="30" name="heat_temperature_rise_min" min="0" max="59" class="input-mini" required> <span class="help-inline">min</span>
+            <input type="number" value="0" placeholder="0" name="heat_temperature_rise_sek" min="0" max="59" class="input-mini" required> <span class="help-inline">sek</span>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input type="number" min="10" max="1000" placeholder="fx 80" name="heat_temperature_rise_weight" id="heat_temperature_rise_weight" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kroppens varmekapacitet (J/(kg·°C))
+                <input type="number" min="0" max="10000" placeholder="fx 3470" name="heat_temperature_rise_c" id="heat_temperature_rise_c" value="3470" step="1" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Temperaturstigning (°C)
+                <input name="heat_temperature_rise_result" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -52,7 +52,7 @@ Alle tallene i kalorietabellen med grøntsager er per 100 gram rå fødevare (sp
 
 ## Kalorietabel med grøntsager
 
-{% include table-kalorietabellen.html where="grøntsager" %}
+{% include table/table-kalorietabellen.html where="grøntsager" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer grøntsager indholder af ernæring og kalorier.
 

@@ -146,7 +146,7 @@
       {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["title", "key"], value_field: "key", display_fields: ["title", "key"]}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
+    pattern: /^\{% include motionsplan/exercise key=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       console.log(match);
@@ -156,7 +156,7 @@
     },
     // Function to create a text block from an instance of this component
     toBlock: function(obj) {
-      return '{% include exercise key="' + obj.key + '" %}';
+      return '{% include motionsplan/exercise key="' + obj.key + '" %}';
     },
     // Preview output for this component. Can either be a string or a React component
     // (component gives better render performance)

@@ -1,0 +1,48 @@
+{% assign id = include.id | default: "calculator_bmr_pal" %}
+{% assign legend = include.legend | default: "Nordic Nutrition Recommendations 2012" %}
+<form class="calculator" id="{{ id }}">
+    <fieldset>
+        <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em id="bmr_legend">{{ legend }}</em>.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af hvilestofskifte
+            <select name="bmr-formula" id="bmr-formula">
+                <option value="benedict_harris">Benedict-Harris 1918-1919</option>
+                <option value="schofield">Schofield Equation 1985</option>
+                <option value="nordic_2012" selected="selected">Nordic Nutrition Recommendations 2012</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender" id="gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm) (valgfri)
+                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Hvilestofskifte (BMR) (kJ)
+                <input name="bmr" id="bmr" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

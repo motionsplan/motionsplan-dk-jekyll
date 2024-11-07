@@ -1,0 +1,22 @@
+<form id="calculator_kipchoge_challenge" class="calculator">
+    <fieldset>
+        <legend>Ønsket løbehastighed i intervallerne</legend>
+        <label>Hastighed (km/t) <input name="velocity" type="number" step="0.01" value="21.16" placeholder="km/t" required></label>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Tider for forskellige distancer</legend>
+        <label>100 meter <input name="t100" id="t100" type="text" disabled></label>
+        <label>200 meter <input name="t200" id="t200" type="text" disabled></label>
+        <label>400 meter <input name="t400" id="t400" type="text" disabled></label>
+        <label>600 meter <input name="t600" id="t600" type="text" disabled></label>
+        <label>800 meter <input name="t800" id="t800" type="text" disabled></label>
+        <label>1000 meter <input name="t1000" id="t1000" type="text" disabled></label>
+        <label>1200 meter <input name="t1200" id="t1200" type="text" disabled></label>
+        <label>1400 meter <input name="t1400" id="t1400" type="text" disabled></label>
+        <label>1600 meter <input name="t1600" id="t1600" type="text" disabled></label>
+        <label>1800 meter <input name="t1800" id="t1800" type="text" disabled></label>
+        <label>2000 meter <input name="t2000" id="t2000" type="text" disabled></label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

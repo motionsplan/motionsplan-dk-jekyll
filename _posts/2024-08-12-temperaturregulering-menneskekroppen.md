@@ -74,7 +74,7 @@ Der forsvinder en del varme fra kroppen gennem _radiation_ eller udstråling fra
 
 Du kan udregne din omtrentlige temperaturregulering gennem udstråling i denne beregner.
 
-{% include calculate-heat-radiation.html %}
+{% include calculator/calculate-heat-radiation.html %}
 
 Beregneren er baseret på Stefan Boltzmanns formel for, hvor meget varme, der forsvinder ved radiation (se mere på [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodrad.html)):
 
@@ -90,7 +90,7 @@ Konduktion er varmeoverførslen mellem to overflader. Et eksempel er når du sæ
 
 Du kan estimere, hvor meget køling der foregår af din krop i nedenstående beregner.
 
-{% include calculate-heat-conduction.html %}
+{% include calculator/calculate-heat-conduction.html %}
 
 Beregneren baserer sig på følgende udregninger.
 
@@ -124,7 +124,7 @@ Ifølge [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.
 
 Men med bevægelseshastigheden, så ser beregningen sådan her ud.
 
-{% include calculate-heat-convection.html %}
+{% include calculator/calculate-heat-convection.html %}
 
 Hvis du bruger beregneren til konduktion og sammenligner med Alan Couzens tal for konvektion, så kan du se, at hvis du vælger ´d = 0,08 cm´ med tallene fra eksemplet, så ender du på nogenlunde samme nedkøling.
 
@@ -153,7 +153,7 @@ Det er naturligvis lidt kompliceret at regne nøjagtigt ud, fordi energien kræv
 
 [Alan Couzens](https://www.alancouzens.com/blog/heat.html) har inspireret denne beregner, hvor luftfugtigheden er taget med i betragtning.
 
-{% include calculate-heat-evaporation.html %}
+{% include calculator/calculate-heat-evaporation.html %}
 
 Jeg har ikke kunnet finde nogen referencer på, hvordan man præcist udregner evaporation. [Hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/sweat.html#c1) griber det lidt anderledes an.
 

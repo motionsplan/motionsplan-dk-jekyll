@@ -47,7 +47,7 @@ Grundstofferne i muskelcellerne er tungere end grundstofferne i fedtcellerne.
 
 Derfor vejer en liter muskel 1,06 kilo, mens en liter fedtvæv vejer 0,9 kg. Man siger, at massefylden på muskler er højere end massefylden på fedt. Muskler vejer altså mellem 10% - 20% mere end fedt, fordi de er opbygget af forskellige byggestene.
 
-{% include table-body-density.html %}
+{% include table/table-body-density.html %}
 
 Massefylde er forholdet mellem et stofs masse og dets rumfang. Vand har massefylden 0,997 g/cm<sup>3</sup>. Du har sikkert set, hvordan fedt lægger sig oven på vand, hvis du blander dem sammen. Det er fordi fedt har lavere massefylde end vand.
 
