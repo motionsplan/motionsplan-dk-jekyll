@@ -94,10 +94,10 @@ Stanaszeks kropbygning ser dog ud til, at han er væksthæmmet, og derfor er han
 ### Squat raw rekorder for mænd
 
 {% assign records = site.data.powerlifting-records-squat | where: "Gender", "Male" %}
-| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
-{% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Squat rekorder for kvinder
@@ -113,10 +113,10 @@ Det er en skræmmende styrke.
 ### Squat raw rekorder for kvinder
 
 {% assign records = site.data.powerlifting-records-squat | where: "Gender", "Female" %}
-| Kropsvægt | Navn | Vægt | Wilks | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilks | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
-{% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ## Bænkpres rekorder
@@ -152,19 +152,21 @@ Det betyder at ROM er meget lille, og det er faktisk vanskeligt at se om, der er
 ### Bænkpres raw rekorder for mænd
 
 {% assign records = site.data.powerlifting-records-bench | where: "Gender", "Male" %}
-| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
-{% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Bænkpres verdensrekorder for kvinder
 
 Souhad Ghazouani har bænkpres-rekorden for kvinder i 67,5 kg klassen, og hun har den også i 75 kg klassen. Her har hun løftet hhv. 147 kg i 2012 og 150 kg i 2013.
 
-De to løft siger også om, at hun sikkert er gået lidt ned i vægtklasse for at kunne løfte i 67,5 kg vægtklassen, når hun allerede året efter er oppe i 75 kg vægtklassen.
+Souhad Ghazouani er formentlig gået lidt ned i vægtklasse for at kunne løfte i 67,5 kg vægtklassen, når hun allerede året efter er oppe i 75 kg vægtklassen.
 
 At gå lidt op i vægtklasse har imidlertid også givet lidt flere kg på stangen!
+
+Men realtivt set både i forhold til kropsvægt og Wilks score, så er løftet i 67,5 kg klassen et bedre løft.
 
 Det er særligt imponerende at Ghazouani er paraatlet. Her kan du se hende bænkpresse i 2016 ved OL i Rio.
 
@@ -173,10 +175,10 @@ Det er særligt imponerende at Ghazouani er paraatlet. Her kan du se hende bænk
 ### Bænkpres raw rekorder for kvinder
 
 {% assign records = site.data.powerlifting-records-bench | where: "Gender", "Female" %}
-| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
-{% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ## Dødløft rekorder
@@ -214,10 +216,10 @@ Eddie Hall løftede i 2016 500 kg med straps i World Deadlift Championships, hvo
 ### Dødløft raw rekorder for mænd
 
 {% assign records = site.data.powerlifting-records-deadlift | where: "Gender", "Male" %}
-| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
-{% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Dødløft verdensrekord for kvinder
@@ -229,10 +231,30 @@ Jeg synes 200 kg er lidt en magisk grænse i dødløft. Den napper kvinderne all
 ### Dødløft raw rekorder for kvinder
 
 {% assign records = site.data.powerlifting-records-deadlift | where: "Gender", "Female" %}
-| Kropsvægt | Navn | Vægt | Wilksscore | Ift. kropsvægt |
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
-{% for row in records offset:2 -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.Bwratio }} |
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
+{% endfor %}
+
+## Total rekorder
+
+### Mænd
+
+{% assign records = site.data.powerlifting-records-total | where: "Gender", "Male" %}
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL |
+|-|-|-|-|-|-|
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} |
+{% endfor %}
+
+### Kvinder
+
+{% assign records = site.data.powerlifting-records-total | where: "Gender", "Female" %}
+| Kropsvægt | Navn | Vægt | Wilksscore | IPFGL |
+|-|-|-|-|-|-|
+{% for row in records -%}
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} |
 {% endfor %}
 
 ## Konklusion

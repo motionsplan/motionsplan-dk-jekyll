@@ -65,7 +65,7 @@ Mange af disse tabeller har heller ikke data, der gælder for kvinder. Og der er
 
 ## 4. IPF Points
 
-I International Powerlifting Federation har man erstattet Wilks Score med en ny formel, som er blevet revideret et par gange. Du kan se og beregne IPF GL formlen hos [Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel).
+I International Powerlifting Federation har man erstattet Wilks Score med en ny formel, som er blevet revideret et par gange. Du kan se og beregne ud fra den nyeste udgave - som kaldes IPF GL formlen - hos [Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel) eller i nedenstående beregner.
 
 {% include calculator/calculate-strength-ipf.html %}
 
@@ -85,9 +85,11 @@ Min alder stiger hver eneste år. Derfor synes jeg det bliver mere og mere inter
 
 ## 5. Greg Nuckols styrkesammenligning
 
-[Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/) har lavet en ret genial beregner, som giver dig et bud på, hvor stærk du er i forhold til andre.
+[Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/) har lavet en ret genial [beregner til sammenligning af styrke](https://www.strongerbyscience.com/objective-strength-standards/), som giver dig et bud på, hvor stærk du er i forhold til andre.
 
-Nuckols har lavet sine egne tabeller, som bygger på sammenhængen mellem styrke og fedtfri masse per centimeter kropsvægt. Baseret på din højde og vægt, så kan du få en ide om, hvor meget du ville løfte, hvis du havde de samme færdigheder og kropskomposition som verdensklasse løftere. Nuckols skriver at mændene har omkrign 12% kropsfedt, mens kvinderne løfter med en fedtprocent på omkring 20% i verdenseliten.
+Nuckols har lavet sine egne tabeller, som bygger på sammenhængen mellem styrke og fedtfri masse per centimeter kropsvægt.
+
+Baseret på din højde og vægt, så kan du få en ide om, hvor meget du ville løfte, hvis du havde de samme færdigheder og kropskomposition som verdensklasse løftere. Nuckols skriver at mændene har omkring 12% kropsfedt, mens kvinderne løfter med en fedtprocent på omkring 20% i verdenseliten.
 
 {% include figure image_path="/assets/images/blog/nuckols-sammenlign-styrke.png" caption="Sammenlign din styrke i styrkeløft med verdensklasseløftere." alt="Greg Nuckols beregner til sammenligning af styrke" %}
 

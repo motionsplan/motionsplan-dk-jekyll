@@ -58,7 +58,7 @@ Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som mulig
 
 *[IPF]: International Powerlifting Federation
 
-I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
+I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.
 
 Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
 

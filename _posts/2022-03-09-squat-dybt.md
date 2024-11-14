@@ -53,7 +53,7 @@ Du kan også løfte hælen med et par styrketræningssko. Tjek vores [guide til 
 
 Mobiliteten i hoften har flere sider. Du skal dels kunne lave en fleksion i hoften, men også hoftens indadrotation.
 
-Du kan relativt let teste om det er din udfordring ved at forsøge at lave en bred squat og se, hvor langt du kan komme ned, når du står relativt bredt.
+Du kan relativt let teste om hoftens udadrotation er din udfordring ved at forsøge at lave en bred squat og se, hvor langt du kan komme ned, når du står relativt bredt.
 
 ## Begrænsninger i mobilitet
 
