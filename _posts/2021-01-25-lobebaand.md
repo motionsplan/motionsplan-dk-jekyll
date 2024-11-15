@@ -185,7 +185,7 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 
 {% include motionsplan/product id="feature_row_odin" type="left" %}
 
-{% include faq.html heading="2" %}
+{% include motionsplan/faq.html heading="2" %}
 
 ## Konklusion om løbebånd
 

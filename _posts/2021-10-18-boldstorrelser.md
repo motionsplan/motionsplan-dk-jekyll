@@ -70,7 +70,7 @@ I tabellen nedenfor er de officielle boldstørrelser angivet. I tilfælde af at 
 
 ## Ofte stillede spørgsmål om boldstørrelser
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Samlet tabel med alle boldstørrelser
 

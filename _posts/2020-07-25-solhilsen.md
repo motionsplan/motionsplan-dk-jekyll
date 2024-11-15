@@ -231,7 +231,7 @@ Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så 
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer
 

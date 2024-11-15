@@ -178,7 +178,7 @@ Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end
 
 Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. Formlen kan skrives på lidt forskellige måder, som det ses her:
 
-{% include math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
+{% include motionsplan/math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
 </details>
 
 <details markdown="1">
@@ -186,7 +186,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 ### Epleys formel
 
-{% include math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
+{% include motionsplan/math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
 </details>
 
 <details markdown="1">
@@ -194,7 +194,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 ### McGlothin
 
-{% include math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
+{% include motionsplan/math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
 </details>
 
 <details markdown="1">
@@ -202,7 +202,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 ### Lombardi
 
-{% include math formula="RM=wr^{0.10}" %}
+{% include motionsplan/math formula="RM=wr^{0.10}" %}
 </details>
 
 <details markdown="1">
@@ -210,7 +210,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 ### Mayhew et al.
 
-{% include math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
+{% include motionsplan/math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
 </details>
 
 <details markdown="1">
@@ -218,7 +218,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 ### O'Conner et al.
 
-{% include math formula="RM=w\left(1+{\frac {r}{40}}\right)" %}
+{% include motionsplan/math formula="RM=w\left(1+{\frac {r}{40}}\right)" %}
 </details>
 
 <details markdown="1">
@@ -226,7 +226,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 ### Wathen
 
-{% include math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
+{% include motionsplan/math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
 </details>
 
 ***
@@ -247,7 +247,7 @@ Et eksempel:
 
 Hver måned estimerer du din 1RM ved at beregne den ud fra dit submaksimale løft.
 
-{% include readmore.html title="Alt om progression i styrketræning" url="/progressionsmodeller-progressivt-overload/" %}
+{% include motionsplan/readmore.html title="Alt om progression i styrketræning" url="/progressionsmodeller-progressivt-overload/" %}
 
 ## Regneark med RM-formler
 

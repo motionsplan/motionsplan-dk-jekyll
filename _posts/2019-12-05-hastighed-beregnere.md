@@ -103,11 +103,11 @@ I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe
 
 Hvis du gerne selv vil beregne hastigheden ud fra distance og tid uden at skulle bruge en beregner, så kan du benytte følgende formel for hastighed.
 
-{% include math formula="Hastighed (km/t) = \frac{distance (km) * 60 (min/t)}{tid (min)}" %}
+{% include motionsplan/math formula="Hastighed (km/t) = \frac{distance (km) * 60 (min/t)}{tid (min)}" %}
 
 Hvordan regner man km/t, hvis du fx løber 10 km på 50 minutter. Din hastighedsberegning bliver altså følgende:
 
-{% include math formula="Hastighed (km/t) = \frac{10 km * 60 (min/t)}{50 min} = 12 km/t" %}
+{% include motionsplan/math formula="Hastighed (km/t) = \frac{10 km * 60 (min/t)}{50 min} = 12 km/t" %}
 
 Du vil altså hvis du løber 10 kilometer på 50 minutter have en løbehastighed på 12 km/t.
 
@@ -115,11 +115,11 @@ Du vil altså hvis du løber 10 kilometer på 50 minutter have en løbehastighed
 
 Når du gerne vil beregne distancen ud fra en hastighed og tid, så skal du bruge samme formel, hvor du bytter lidt rundt på variablerne.
 
-{% include math formula="Distance (km) = \frac{hastighed (km/t) * tid (min)}{60 min/t}" %}
+{% include motionsplan/math formula="Distance (km) = \frac{hastighed (km/t) * tid (min)}{60 min/t}" %}
 
 Lad os tage et eksempel, hvor du løber 15 minutter med en hastighed på 15 km/t, så vil distancen kunne beregnes sådan her:
 
-{% include math formula="Distance (km) = \frac{15 km/t * 15 min}{60 min/t} = 3,75 km" %}
+{% include motionsplan/math formula="Distance (km) = \frac{15 km/t * 15 min}{60 min/t} = 3,75 km" %}
 
 Du vil altså med en løbehastighed på 15 km/t på 15 minutter løbe 3,75 km.
 
@@ -129,11 +129,11 @@ Hvis du kender hastigheden og distancen, men ikke kender den samlede tid det tog
 
 Hvis du har hastigheden i min/km, som man fx ofte får på et GPS-ur, så skal du først lige konvertere tempoet til km/t.
 
-{% include math formula="Tid (min) = \frac{Distance (km) * 60 min/t}{hastighed (km/t)}" %}
+{% include motionsplan/math formula="Tid (min) = \frac{Distance (km) * 60 min/t}{hastighed (km/t)}" %}
 
 Hvis du fx har løbet 12 km/t på 10 km, så bliver tiden således:
 
-{% include math formula="Tid (min) = \frac{10 km * 60 min/t}{12 km/t} = 50 minutter" %}
+{% include motionsplan/math formula="Tid (min) = \frac{10 km * 60 min/t}{12 km/t} = 50 minutter" %}
 
 Det vil altså tage 50 minutter at løbe eller cykle en distance på 10 km, hvis du løber 12 km/t.
 
@@ -143,15 +143,15 @@ Når du ved, hvor hurtigt du har løbet i km/t (din gennemsnitshastighed), men g
 
 Hvis du vil omregne fra dit pace i min/km til din hastighed i km/t, kan du bruge følgende formel:
 
-{% include math formula="Hastighed (km/t) = \frac{60 min/t}{min + \frac{sek}{60}}" %}
+{% include motionsplan/math formula="Hastighed (km/t) = \frac{60 min/t}{min + \frac{sek}{60}}" %}
 
 Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
-{% include math formula="Pace (min/km) = \frac{60}{Hastighed (km/t)}" %}
+{% include motionsplan/math formula="Pace (min/km) = \frac{60}{Hastighed (km/t)}" %}
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

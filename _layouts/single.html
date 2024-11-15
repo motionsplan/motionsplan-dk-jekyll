@@ -43,10 +43,10 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
-        {% include rating.html %}
+        {% include motionsplan/rating.html %}
 
         {% assign signup = page.signup | default: site.signup.enabled %}
-        {% if signup %}{% include signup.html %}{% endif %}
+        {% if signup %}{% include motionsplan/signup.html %}{% endif %}
 
         <!-- Pinterest -->
         {% assign size = page.permalink.size | minus: 1 %}

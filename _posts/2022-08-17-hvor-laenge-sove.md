@@ -128,4 +128,4 @@ Det er ikke tilstrækkeligt at få nok timers søvn. Det er vigtigt, at din søv
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

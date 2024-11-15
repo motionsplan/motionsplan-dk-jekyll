@@ -83,4 +83,4 @@ Vi har samlet mange flere [maveøvelser til træning af maven](/maveoevelser/), 
 
 ## Ofte stillede spørgsmål om mavebøjninger
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

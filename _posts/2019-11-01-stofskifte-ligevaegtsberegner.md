@@ -121,4 +121,4 @@ Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan 
 
 ## Ofte stillede spørgsmål om ligevægtsberegnere
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

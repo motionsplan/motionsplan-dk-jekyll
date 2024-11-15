@@ -158,7 +158,7 @@ I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være for
 
 ## Ofte stillede spørgsmål om opvarmning
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

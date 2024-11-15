@@ -169,7 +169,7 @@ Her kan du se de mange forskellige variationer af squat. De mest brugte er som n
 
 ## Ofte stillede spørgsmål om squat
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

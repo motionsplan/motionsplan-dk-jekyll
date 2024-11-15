@@ -110,4 +110,4 @@ Nu har du en ide om, hvor lang tid det tager at gå. Hvis du kender din distance
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

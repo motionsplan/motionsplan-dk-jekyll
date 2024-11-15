@@ -57,13 +57,13 @@ Før hoppet kan man se, at kraftplatformen påvirkes af en lige linje, som har e
 
 Det er naturligvis tyngdekraften, der trækker atleten ned mod jorden. Kraften er forklaret i denne formel.
 
-{% include math formula="F = m * g" %}
+{% include motionsplan/math formula="F = m * g" %}
 
 Her er <em>m</em> atletens masse, og <em>g</em> er accelerationen fra tyngdekraften.
 
 <em>F</em> er den kraft, som atleten bliver nødt til at overkomme bare for at neutralisere tyngdekraften og bevæge sig overhovedet. Vi ved at <em>g</em> er lig med 9,81 m/s<sup>2</sup>. Derfor kan vi opstille følgende formel:
 
-{% include math formula="981 N = m * 9.81 m/s^2 \\ \\ => m = \frac{981N}{9.81 m/s^2} = 100kg" %}
+{% include motionsplan/math formula="981 N = m * 9.81 m/s^2 \\ \\ => m = \frac{981N}{9.81 m/s^2} = 100kg" %}
 
 Inden atleten bevæger sig er kraftplatformen egentlig en en simpel vægt, som fortæller størrelsen af kraften, som tyngdekraften påvirker atleten med.
 
@@ -75,17 +75,17 @@ I denne fase er der en nedadgående bevægelse, hvor atleten bøjer i knæene og
 
 Det kan beskrives med denne formel:
 
-{% include math formula="F_{Jumper} = F_{GRF} - F_{Gravity}" %}
+{% include motionsplan/math formula="F_{Jumper} = F_{GRF} - F_{Gravity}" %}
 
 Det er interessant, når man analyserer et hop, hvor hurtigt den nedadgående bevægelse foregår. Kan vi beregne det fra resultaterne fra kraftplatformen?
 
 Vi ved:
 
-{% include math formula="F = m a => F t = m a t" %}
+{% include motionsplan/math formula="F = m a => F t = m a t" %}
 
 F er ikke konstant undervejs, men en funktion af tiden og <em>v = a * t</em>. Det giver os følgende formel:
 
-{% include math formula="=> \int_{t_1}^{t_2} F_{Jumper}(t) \mathrm{d}t = m v" %}
+{% include motionsplan/math formula="=> \int_{t_1}^{t_2} F_{Jumper}(t) \mathrm{d}t = m v" %}
 
 Her er <em>F<sub>Jumper</sub>(t)</em> er forskellen mellem de registrerede kræfter fra jorden og tyngdekraften. Dette kan udregnes fra data på kraftplatformen. Det nedadgående impuls er altså området under tyngdekraften.
 
@@ -93,7 +93,7 @@ Her er <em>F<sub>Jumper</sub>(t)</em> er forskellen mellem de registrerede kræf
 
 Hvis vi antager at impulset bliver -70 Ns, så kan vi konkludere at:
 
-{% include math formula="\int_{t_1}^{t_2} F(t) \mathrm{d}t = m v \\ \\ \\
+{% include motionsplan/math formula="\int_{t_1}^{t_2} F(t) \mathrm{d}t = m v \\ \\ \\
 => -70 N s = 100kg * v \\ \\ \\
 => v = -70 N s / 100kg = -0.7 m/s" %}
 
@@ -109,7 +109,7 @@ Decelerationen af bevægelsen er lidt vanskeligere nøjagtigt at finde, men hvor
 
 I den nedadgående bevægelse oparbejdede vi et impuls på -70 Ns. Nu skal vi finde et impuls i den modsatte retning. Vi kan beskrive impulset sådan her:
 
-{% include math formula="\int_{t_2}^{t_3} F_{Jumper}(t) \mathrm{d}t = 70 Ns" %}
+{% include motionsplan/math formula="\int_{t_2}^{t_3} F_{Jumper}(t) \mathrm{d}t = 70 Ns" %}
 
 <em>F(t)</em> og <em>t<sub>2</sub></em> er kendte. Nu kigger vi efter <em>t<sub>3</sub></em>, hvor impulset er lig med 70 Ns.
 
@@ -121,7 +121,7 @@ Det kan illusteres i grafen, hvor vi kigger efter <em>t<sub>3</sub></em>, så vi
 
 Denne fase begynder i bunden af hoppet lige som atleten begynder at sætte af med en kraftfuld bevægelse opefter. I grafen kan du se, at atleten kort efter at have været på det laveste sted i hoppet opnår de højeste kræfter. Accelerationen fortsætter opefter indtil fødderne forlader platformen, og der ikke længere kan måles kræfter i platformen.
 
-{% include math formula="\int_{t_3}^{t_4} F_{Jumper}(t) \mathrm{d}t = m v" %}
+{% include motionsplan/math formula="\int_{t_3}^{t_4} F_{Jumper}(t) \mathrm{d}t = m v" %}
 
 Dette integral kan illustreres som det gule område i målingen fra kraftplatformen.
 
@@ -129,7 +129,7 @@ Dette integral kan illustreres som det gule område i målingen fra kraftplatfor
 
 Dette område kan i dette eksempel udregnes til 245 Ns. Derfor kan vi udregne afsætshastigheden til:
 
-{% include math formula="245 N s = 100kg * v \\ \\ \\
+{% include motionsplan/math formula="245 N s = 100kg * v \\ \\ \\
 => v = 245 N s / 100kg = 2.45 m/s" %}
 
 ## Fase 4. Svævefasen
@@ -140,28 +140,28 @@ Når nu atleten ikke længere kan påvirke tyngdepunktet. Så kan vi estimere de
 
 Vi ved også, at hastigheden i toppen af hoppet nødvendigvis må være 0, ellers ville atleten jo blive ved med at komme højere og højere op.
 
-{% include math formula="v(t_{peak})=0" %}
+{% include motionsplan/math formula="v(t_{peak})=0" %}
 
 Når vi kender hastigheden ved afsættet og tyngdekraften, så kan vi udregne hastigheden på alle tidspunkter i i hoppet sådan her.
 
-{% include math formula="v(t)=v(0) -a * t " %}
+{% include motionsplan/math formula="v(t)=v(0) -a * t " %}
 
 Derfor kan vi også udregne, hvornår springeren er på det højeste punkt i springet (hvor hastigheden er 0).
 
-{% include math formula="v(t_{peak}) = v(0) - a * t_{peak} \\ \\
+{% include motionsplan/math formula="v(t_{peak}) = v(0) - a * t_{peak} \\ \\
 => 0 = v(0) - a * t_{peak}" %}
 
-{% include math formula="=> t_{peak} = \frac{v(0)}{a} = \frac{2.45m/s}{9.81m/s^2} = 0.25s" %}
+{% include motionsplan/math formula="=> t_{peak} = \frac{v(0)}{a} = \frac{2.45m/s}{9.81m/s^2} = 0.25s" %}
 
 Når vi kender hastigheden <em>v(t)</em> på hvert tidspunkt af hoppet, og vi kender tiden inden springeren er på det højeste punkt i hoppet efter 0,25 sekunder, så kan vi udregne hoppehøjden som et integral af hastigheden over den tid, det tager at opnå det øverste punkt i springet.
 
-{% include math formula="h_{jump} = \int_0^{\frac{v(o)}{a}} \bigg( v(o) - at \bigg) \ \mathrm{d}t= \\ \\= v(o)t \ - \ \frac{1}{2} at^2 \ \bigg|_0^{\frac{v(0)}{a}} \\ \\= v(0) \left(\frac{v(0)}{a}\right) - \frac{1}{2} a \left(\frac{v(0)}{a}\right)^2 \\ \\= \frac{v(0)^2}{a} \ - \ \frac{1}{2} \frac{v(0)^2}{a} \\ \\" %}
+{% include motionsplan/math formula="h_{jump} = \int_0^{\frac{v(o)}{a}} \bigg( v(o) - at \bigg) \ \mathrm{d}t= \\ \\= v(o)t \ - \ \frac{1}{2} at^2 \ \bigg|_0^{\frac{v(0)}{a}} \\ \\= v(0) \left(\frac{v(0)}{a}\right) - \frac{1}{2} a \left(\frac{v(0)}{a}\right)^2 \\ \\= \frac{v(0)^2}{a} \ - \ \frac{1}{2} \frac{v(0)^2}{a} \\ \\" %}
 
-{% include math formula="=> h_{jump} \ = \ \frac{1}{2} \frac{v(0)^2}{a}" %}
+{% include motionsplan/math formula="=> h_{jump} \ = \ \frac{1}{2} \frac{v(0)^2}{a}" %}
 
 Nu ender vi altså med en relativt simpel formel, som gør det muligt at beregne den vertikale hoppehøjde, hvis vi kender afsætshastigheden. I vores specifikke eksempel får vi:
 
-{% include math formula="h_{jump} = \frac{1}{2} \frac{(2.45m/s)^2}{9.81 m/s^2} = 0.306m" %}
+{% include motionsplan/math formula="h_{jump} = \frac{1}{2} \frac{(2.45m/s)^2}{9.81 m/s^2} = 0.306m" %}
 
 Du kan bruge denne beregner:
 
@@ -181,19 +181,19 @@ I vores eksempel blev svævetiden udregnet til <em>t = 0,5 s</em>, men den kunne
 
 Da vi kan udregne hoppehøjden for et spring, når vi kender den oprindelige hastighed ved afsætstidspunktet med denne formel.
 
-{% include math formula="=> h_{jump} = \frac{1}{2} \frac{v(0)^2}{a}" %}
+{% include motionsplan/math formula="=> h_{jump} = \frac{1}{2} \frac{v(0)^2}{a}" %}
 
 Hvis vi kan finde den oprindelige hastighed ved et spring, som har en svævetid på 0,5 sekunder, så kan vi altså udregne hoppehøjden. Hvis du springer 1 meter, så betyder det også, at du skal falde en meter igen efter, at du har opnået toppunktet i springet.
 
 Hastigheden er en lineær funktion <em>(v=a * t)</em>. Derfor opnår springeren toppunktet nøjagtigt i midten af springet. Det giver os følgende sammenhæng:
 
-{% include math formula="t_{peak} = 0.5 * t_{hangtime}" %}
+{% include motionsplan/math formula="t_{peak} = 0.5 * t_{hangtime}" %}
 
 Så hvis vi gerne vil vide, hvor højt en med en svævetid på 0,5 sekunder hoppede, så skal vi bare udregne hvor langt et fritfaldende objekt falder i halvdelen svævetiden. Personen falder altså ned mod jorden igen på halvdelen af 0,5 sekunder, nemlig 0,25 sekunder.
 
 Den generelle formel for fritfaldende objekter er:
 
-{% include math formula="S = \int_0^{\frac{1}{2} t_{hangtime}} v(t) \; dt \\ \\
+{% include motionsplan/math formula="S = \int_0^{\frac{1}{2} t_{hangtime}} v(t) \; dt \\ \\
 = \int_0^{\frac{1}{2} t_{hangtime}} a * t \; dt \\ \\
 = \frac{1}{2} a t^2 \; \bigg|_0^{\frac{1}{2}t_{hangtime}} \\ \\
 = \frac{1}{2} a \left( \frac{1}{2} t_{hangtime} \right)^2 \\ \\
@@ -201,7 +201,7 @@ Den generelle formel for fritfaldende objekter er:
 
 I vores specifikke eksempel med en svævetid på 0,5 sekunder får vi følgende resultat:
 
-{% include math formula="S = \frac{1}{8} a \: t_{hangtime}^2 = \frac{1}{8} * 9.81m/s^2 * 0.5^2 = 0.306m" %}
+{% include motionsplan/math formula="S = \frac{1}{8} a \: t_{hangtime}^2 = \frac{1}{8} * 9.81m/s^2 * 0.5^2 = 0.306m" %}
 
 Hvis du kan finde din svævetid, så kan du altså udregne din hoppehøjde.
 
@@ -211,7 +211,7 @@ Hvis du kan finde din svævetid, så kan du altså udregne din hoppehøjde.
 
 I afsættet skaber atleten en kraft, som er stor nok til at overkomme tyngdekraften, så vedkommende letter fra jorden. Vi har før vist, at hastigheden på toppunktet er 0 m/s, og det er let at vise, at hastigheden i landingen er den samme som i afsættet, men i den modsatte retning.
 
-{% include math formula="\int_{t_4}^{t_5} F(t) \mathrm{d}t = m v(t_4) = m v(t_0)" %}
+{% include motionsplan/math formula="\int_{t_4}^{t_5} F(t) \mathrm{d}t = m v(t_4) = m v(t_0)" %}
 
 Impulset kan ses i den grønne del af grafen nedenunder.
 
@@ -227,29 +227,29 @@ Nu står atleten igen stille efter hoppet, og de fem faser i hoppet er overståe
 
 ### Udregning af potentiel energi fra et spring
 
-{% include math formula="U = m * g * h = \frac{1}{2} m v(0)^2" %}
+{% include motionsplan/math formula="U = m * g * h = \frac{1}{2} m v(0)^2" %}
 
 hvor <em>v(0)</em> er den oprindelige hastighed og <em>g</em> er tyngdeaccelerationen.
 
 ### Udregning af hoppehøjde ud fra oprindelige hastighed
 
-{% include math formula="h_{jump} = \frac{1}{2} \frac{v(0)^2}{g}" %}
+{% include motionsplan/math formula="h_{jump} = \frac{1}{2} \frac{v(0)^2}{g}" %}
 
 hvor <em>v(0)</em> er den oprindelige hastighed og <em>g</em> er tyngdeaccelerationen.
 
 ### Udregne vertikal springhøjde ud fra svævetid
 
-{% include math formula="h_{jump} = \frac{1}{8} a \: t_{hangtime}^2" %}
+{% include motionsplan/math formula="h_{jump} = \frac{1}{8} a \: t_{hangtime}^2" %}
 
 hvor t<sub>hangtime</sub> er tiden mellem afsæt og landing og <em>a</em> er accelerationen fra tyngdekraften.
 
 ### Udregne vertikal springhøjde ud impuls-momentum-metoden
 
-{% include math formula="h_{jump} = \frac{1}{2} \frac{(\frac{I}{M})^2}{a}" %}
+{% include motionsplan/math formula="h_{jump} = \frac{1}{2} \frac{(\frac{I}{M})^2}{a}" %}
 
 hvor
 
-{% include math formula="I = \int_{start}^{takeoff}{\bigg(F_{Jumper}(t) - F_{gravity}(t) \bigg) dt }" %}
+{% include motionsplan/math formula="I = \int_{start}^{takeoff}{\bigg(F_{Jumper}(t) - F_{gravity}(t) \bigg) dt }" %}
 
 Hvor <em>I</em> er arealet under kraft-tid-kurven (minus tyngdekraften) fra starten af hoppet og indtil afsættet.
 

@@ -98,7 +98,7 @@ Det er også godt at tænke på, hvilken strategi du bruger i luften for at mani
 <details markdown="1">
   <summary>Se Lewis (1974) formler</summary>
 
-{% include math formula="Average power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
+{% include motionsplan/math formula="Average power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
 
 For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften.
 

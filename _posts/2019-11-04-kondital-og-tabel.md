@@ -132,7 +132,7 @@ Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/2010022220222
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
 
-{% include math formula="kondital = \frac{VO_2max}{weight}" %}
+{% include motionsplan/math formula="kondital = \frac{VO_2max}{weight}" %}
 
 Dertil kommer også svaret på spørgsmålet “Hvordan kan man forbedre sit kondital?”. Det kan man nemlig gøre to måder: Enten ved at forbedre din max iltoptagelse eller ved at tabe dig.
 
@@ -174,7 +174,7 @@ Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres
 
 Da Index 23 er baseret på BMI, så ser formlen således ud:
 
-{% include math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
+{% include motionsplan/math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
 
 Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale kroppen har, hvis man var [normalvægtig i forhold til BMI](/bmi/).
 
@@ -211,7 +211,7 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse](/maksi
 
 ## Ofte stillede spørgsmål om kondital
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer
 

@@ -40,17 +40,17 @@ Den Danske Steptest bruger kun trinhøjden, tiden og kropsvægten som input for 
 
 Som baggrund for Den Danske Steptest bruger [Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest) følgende teoretiske sammenhæng:
 
-{% include math formula="arbejde_{total} = \frac{kropsvaegt * tyngdekraft * stephoejde * stepfrekvens}{nyttevirkning}" %}
+{% include motionsplan/math formula="arbejde_{total} = \frac{kropsvaegt * tyngdekraft * stephoejde * stepfrekvens}{nyttevirkning}" %}
 
 Tyngdekraften er ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) 9,816 m/s<sup>2</sup> i Danmark. Det totale arbejde er i sidste ende præstationsbegrænset ved at både koordinationen og kredsløbet kan være den begrænsende faktor.
 
-{% include math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
+{% include motionsplan/math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
 
 Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
 
 Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditallet.
 
-{% include math formula="kondital = \frac{VO_2max}{kropsvaegt}" %}
+{% include motionsplan/math formula="kondital = \frac{VO_2max}{kropsvaegt}" %}
 
 ## Hvor pålidelig er steptesten?
 

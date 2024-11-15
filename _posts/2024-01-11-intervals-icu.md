@@ -134,4 +134,4 @@ Hvis du har venner eller en 'coach', så kan du tilføje det under dit profilbil
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

@@ -117,4 +117,4 @@ Lad os kigge på et par eksempler på muskeltræning.
 
 ## Ofte stillede spørgsmål om muskeltræning
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

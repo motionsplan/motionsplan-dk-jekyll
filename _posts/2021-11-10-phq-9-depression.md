@@ -90,7 +90,7 @@ Testen er oversat til dansk. Jeg har ikke kunne finde yderligere informationer o
 
 ## Ofte stillede spørgsmål om depression testen
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer
 

@@ -170,7 +170,7 @@ Kvinder har større fedtdepoter, fordi de har brug for mere energi til de proces
 
 ## Ofte stillede spørgsmål om måling af fedtprocent
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

@@ -74,4 +74,4 @@ Rygstrækninger er bare en af mange forskellige [rygøvelser](/rygoevelser/). S�
 
 ## Ofte stillede spørgsmål om rygstrækninger
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

@@ -168,7 +168,7 @@ Læs: [Hvad en en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/
 
 ## Ofte stillede spørgsmål om måling af fedtprocent
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Mere om at måle fedtprocent og kropskomposition
 

@@ -65,4 +65,4 @@ I denne tabel kan du søge på, hvor mange kalorier der er i mad.
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

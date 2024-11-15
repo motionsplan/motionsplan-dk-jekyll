@@ -69,4 +69,4 @@ For mig selv, synes jeg det kan være motiverende at [tælle skridt](/artikel/ta
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

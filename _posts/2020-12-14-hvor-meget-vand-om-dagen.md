@@ -186,4 +186,4 @@ Hvordan holder du styr på en sund væskebalance?
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

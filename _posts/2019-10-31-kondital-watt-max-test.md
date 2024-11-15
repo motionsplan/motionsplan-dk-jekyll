@@ -78,7 +78,7 @@ Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 
-{% include math formula="MPO = \frac{T}{120} * 35 + (W - 35)" %}
+{% include motionsplan/math formula="MPO = \frac{T}{120} * 35 + (W - 35)" %}
 
 Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra den regressionsligning, Andersen (1995) etablerede:
 
@@ -86,7 +86,7 @@ VO<sub>2</sub>max = 0,16 + (0,0117 x MPO) (w)
 
 Og til sidst finder du konditallet som er ml/kg/min:
 
-{% include math formula="Kondital = \frac{VO_2max * 1000}{weight}" %}
+{% include motionsplan/math formula="Kondital = \frac{VO_2max * 1000}{weight}" %}
 
 Du kan sammenligne dit [kondital med tabellen for mænd og kvinder](/kondital/).
 

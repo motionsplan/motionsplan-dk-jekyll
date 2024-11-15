@@ -93,4 +93,4 @@ Når du læser et træningsprogram, så husk at det skal passe ind i din hverdag
 
 ## Ofte stillede spørgsmål om 5 km
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

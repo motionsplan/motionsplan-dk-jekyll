@@ -167,7 +167,7 @@ Discgolfsporten er i rivende udvikling. Det betyder, at der er mange forhandlere
 
 ## Ofte stillede spørgsmål om golfdiscs
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

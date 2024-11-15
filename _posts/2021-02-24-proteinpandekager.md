@@ -80,7 +80,7 @@ Normalt er banan med til at søde pandekager, så opskrifter på proteinpandekag
 
 {% endcomment %}
 
-{% include recipe.html recipe=page.recipe %}
+{% include motionsplan/recipe.html recipe=page.recipe %}
 
 ## Sunde proteinpandekager uden banan og mel
 

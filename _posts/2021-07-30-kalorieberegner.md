@@ -129,4 +129,4 @@ Hvis du har andre gode kalorieudregnere, så må du endelig skrive.
 
 ## Ofte stillede spørgsmål om kaloriebegnere
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

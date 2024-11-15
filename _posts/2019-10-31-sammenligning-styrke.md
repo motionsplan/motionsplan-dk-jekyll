@@ -157,7 +157,7 @@ Morten Zacho har udviklet en [Index100 beregner](https://web.archive.org/web/200
 NB! Beregneren kan ikke anvendes ved kropsvægt lavere end 50 kg.
 {: .notice .notice--info }
 
-{% include math formula="Index100 = \frac{(kg * 986,63)}{(1270 - 172970 * (body weight^{-1,3925}))}" %}
+{% include motionsplan/math formula="Index100 = \frac{(kg * 986,63)}{(1270 - 172970 * (body weight^{-1,3925}))}" %}
 
 Beregningen bag Index100 er baseret på sammenhængen mellem præstation og kropsvægt hos verdens bedste styrkeløftere. Dr. Mel C. Siff fra Sydafrika har ud fra en statistisk behandling af de bedste løft i alle vægtklasser gennem en årrække fundet frem til en formel som giver en Siff-score, der kan bruges til fair sammenligning. Fordelen ved Index100 tallet er, at det er lettere at forholde sig til.
 

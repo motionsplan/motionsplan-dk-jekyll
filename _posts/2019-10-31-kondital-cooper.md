@@ -102,7 +102,7 @@ Der findes forskellige formler til at udregne konditallet fra Cooper-testen.
 
 I beregneren bruger jeg denne formel til at beregne konditallet ud fra Cooper-testen, som er den formel der bruges på [www.brianmac.co.uk](https://www.brianmac.co.uk/gentest.htm) og [Wikipedia](https://en.wikipedia.org/wiki/Cooper_test).
 
-{% include math formula="kondital = \frac{d_{12} - 504,9}{44,73}" %}
+{% include motionsplan/math formula="kondital = \frac{d_{12} - 504,9}{44,73}" %}
 
 Der findes vist også formler, der inkluderer vægt, køn og alder, men dem har jeg ikke kunnet finde.
 
@@ -315,7 +315,7 @@ Læs: [Konditionstræning og kredsløbstræning](/konditionstraening/)
 
 ## Ofte stillede spørgsmål om 12 minutters testen
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

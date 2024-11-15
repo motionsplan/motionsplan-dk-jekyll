@@ -103,11 +103,11 @@ Denne formel har vist sig at være mere præcis end den tidligere tommelfingerre
 
 Formlen ser sådan her ud:
 
-{% include math formula="kondital = \frac{maxpuls}{hvilepuls}*15.3" %}
+{% include motionsplan/math formula="kondital = \frac{maxpuls}{hvilepuls}*15.3" %}
 
 For at finde iltoptagelsen dividerer vi med 1000 ml/l og ganger med vægten i kilo.
 
-{% include math formula="VO_2max = \frac{kondital * bodyweight}{1000}" %}
+{% include motionsplan/math formula="VO_2max = \frac{kondital * bodyweight}{1000}" %}
 
 Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 

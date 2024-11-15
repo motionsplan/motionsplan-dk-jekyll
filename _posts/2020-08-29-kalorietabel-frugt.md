@@ -61,7 +61,7 @@ Jeg håber du kan bruge vores tabel til at se, hvad de forskellige frugter og b�
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 {% comment %}
 ## Hvilke frugter indeholder flest kalorier?

@@ -184,7 +184,7 @@ Men træningen behøver ikke at være hård hver eneste gang. Man kan sagtens fo
 
 ## Ofte stillede spørgsmål om konditionstræning
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

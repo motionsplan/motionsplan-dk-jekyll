@@ -284,7 +284,7 @@ Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), 
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 <details markdown="1">
   <summary>Se referencer</summary>

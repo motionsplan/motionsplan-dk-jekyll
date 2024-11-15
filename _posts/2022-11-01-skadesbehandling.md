@@ -283,7 +283,7 @@ PEACE & LOVE ser for mig ud til at være en huskeregel, som godt kunne ende med 
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 {% comment %}
 

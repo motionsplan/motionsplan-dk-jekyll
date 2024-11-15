@@ -65,7 +65,7 @@ Mia Beck Lichtenstein har skrevet nogle rigtig gode bøger om træningsafhængig
 
 ## Ofte stillede spørgsmål om træningsafhængighed
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

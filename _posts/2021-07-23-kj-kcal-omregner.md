@@ -85,4 +85,4 @@ Ved beregning af energi skal du benytte følgende omregningsfaktorer:
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

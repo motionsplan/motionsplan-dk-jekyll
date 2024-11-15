@@ -101,7 +101,7 @@ Massefylden for knogler er 1,85 g / cm<sup>3</sup>. Du kan se massefylden sammen
 
 {% include table/table-body-density.html %}
 
-{% include faq.html heading="2" %}
+{% include motionsplan/faq.html heading="2" %}
 
 ## Hvad vejer de enkelte knogler i kroppen?
 

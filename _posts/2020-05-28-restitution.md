@@ -350,7 +350,7 @@ Du kan også lade dig inspirere af Team Danmarks restitutionskoncept, som har fo
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

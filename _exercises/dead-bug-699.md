@@ -71,4 +71,4 @@ Dead Bug er en fantastisk øvelse til at styrke dine kernemuskler og forbedre di
 
 ## Ofte stillede spørgsmål om Dead Bug-øvelsen
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

@@ -100,4 +100,4 @@ Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

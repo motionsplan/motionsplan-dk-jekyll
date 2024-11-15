@@ -169,7 +169,7 @@ I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led 
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Oversigt over kroppens led
 

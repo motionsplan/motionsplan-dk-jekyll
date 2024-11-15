@@ -62,7 +62,7 @@ De målte pulsværdier i topunktstesten kan skrives ind i et koordinatsystem. Ar
 
 Værdierne i Åstrands topunktstest kan også skrives ind i følgende formel:
 
-{% include math formula="work_{max} = \frac{(work_2 - work_1) * (HR_{max} - HR_2)}{HR_2 - HR_1} + work_2" %}
+{% include motionsplan/math formula="work_{max} = \frac{(work_2 - work_1) * (HR_{max} - HR_2)}{HR_2 - HR_1} + work_2" %}
 
 Åstrand & Rohdahl (4. udgave, s. 403) estimerer kroppens mekaniske nyttevirkning til at være 23%. Den mekaniske nyttevirkning er forholdet mellem energiproduktion og varmeproduktion. Det betyder, at når du arbejder på ergometercyklen, så kan vi estimere at 23% af din samlede forbrænding bliver omsat til arbejde på cyklen, mens resten af energien går til varmeproduktion.
 
@@ -72,11 +72,11 @@ Ud fra disse præmisser så kan den maksimale arbejdsbelastning (work<sub>max</s
 
 [Formlen](https://www.viivaa.dk/b/kondital/) til at udregne VO<sub>2</sub>max ser sådan her ud:
 
-{% include math formula="VO_2max = \frac{work_{max}}{0,23} * \frac{60}{21100} + 0,25" %}
+{% include motionsplan/math formula="VO_2max = \frac{work_{max}}{0,23} * \frac{60}{21100} + 0,25" %}
 
 Du kan så beregne konditallet ved at gange maksimale iltoptagelse (VO<sub>2</sub>max) med 1000 ml/l og dividere med kropsvægten i kg. Det giver dig ml O<sub>2</sub> / min / kg. På formel ser det sådan her ud.
 
-{% include math formula="kondital = \frac{VO_2max (l/min) * 1000 (ml/l)}{bodyweight (kg)}" %}
+{% include motionsplan/math formula="kondital = \frac{VO_2max (l/min) * 1000 (ml/l)}{bodyweight (kg)}" %}
 
 Hvis du har brug for et regneark til at beregne værdierne i Åstrands topunktstest, så skriv endelig i kommentarerne, så vil jeg gerne lave sådan et.
 

@@ -176,7 +176,7 @@ Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, 
 
 ## Svar på almindelige spørgsmål om Zwift
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 {% endcomment %}
 

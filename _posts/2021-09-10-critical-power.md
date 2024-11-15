@@ -47,9 +47,9 @@ Når du kører testene, så skal du forsøge at holde nogenlunde det samme _powe
 
 Når du har lavet de to tests, så kan du sætte resultaterne ind i disse formler.
 
-{% include math formula="CP={\frac{(12*P_{12})-(3*P_3)}{9}}" %}
+{% include motionsplan/math formula="CP={\frac{(12*P_{12})-(3*P_3)}{9}}" %}
 
-{% include math formula="W'={0.24*(P_3-P_{12})}" %}
+{% include motionsplan/math formula="W'={0.24*(P_3-P_{12})}" %}
 
 I formlerne er P<sub>3</sub> og P<sub>12</sub> den gennemsnitlige watt i hhv. 3-minutters og 12-minutters testen.
 
@@ -98,13 +98,13 @@ Når du skal planlægge dine intervaller eller dine afslutninger i en konkurrenc
 
 Jeg har lavet en beregner her, som kan hjælpe dig med at vide hvor lang tid du kan køre med bestemte watt, når du kender din CP og W'. Formlen ser sådan her ud:
 
-{% include math formula="T={\frac{1000*W'}{P-CP}}" %}
+{% include motionsplan/math formula="T={\frac{1000*W'}{P-CP}}" %}
 
 {% include calculator/calculate-critical-power-time.html %}
 
 Og her er en anden beregner, der kan estimere hvor mange watt du kan køre med, hvis du har nogle længder på dine intervaller. Sådan her ser formlen ud.
 
-{% include math formula="P={\frac{1000*W'}{T}+CP}" %}
+{% include motionsplan/math formula="P={\frac{1000*W'}{T}+CP}" %}
 
 {% include calculator/calculate-critical-power-power-time.html %}
 

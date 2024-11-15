@@ -93,7 +93,7 @@ Der er naturligvis ikke noget i vejen med de klassiske øvelser til bentræninge
 
 ## Ofte stillede spørgsmål om benøvelser
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion om bentræning
 

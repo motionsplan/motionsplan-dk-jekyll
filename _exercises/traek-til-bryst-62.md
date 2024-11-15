@@ -155,4 +155,4 @@ Et andet alternativ til at træne nogenlunde det samme er også at lave [kropsh�
 
 ## Ofte stillede spørgsmål om lat pulldown
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

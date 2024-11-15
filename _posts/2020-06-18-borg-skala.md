@@ -163,7 +163,7 @@ Hvis du vil teste dig selv på et cykelergometer, så kan du kigge på [Borg 15 
 
 ## Ofte stillede spørgsmål om Borg-skala
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer
 

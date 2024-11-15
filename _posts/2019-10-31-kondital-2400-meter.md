@@ -100,7 +100,7 @@ Den **kvindelige verdensrekordholder på 3000 meter**, Wang Junxia, løb 3000 me
 
 Her er den formel fra [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm), der forudsiger konditallet fra tiden (minutter) fra 2400 meter testen, og som bruges i ovenstående beregner.
 
-{% include math formula="kondital = \frac{483}{time} + 3,5" %}
+{% include motionsplan/math formula="kondital = \frac{483}{time} + 3,5" %}
 
 Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
 

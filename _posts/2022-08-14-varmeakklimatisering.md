@@ -237,7 +237,7 @@ Derfor bør du justerre din intensitet, så dit **interne workload** altså din 
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

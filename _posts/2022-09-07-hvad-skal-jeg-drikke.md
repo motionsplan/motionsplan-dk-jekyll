@@ -244,4 +244,4 @@ Vi håber, at du har nydt vores tips til, hvordan du vælger den bedste drik til
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

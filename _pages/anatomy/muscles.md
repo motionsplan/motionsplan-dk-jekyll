@@ -154,7 +154,7 @@ Når du har en god forståelse for de forskellige vækstmekanismer i musklerne, 
 
 ## Ofte stillede spørgsmål om muskler
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

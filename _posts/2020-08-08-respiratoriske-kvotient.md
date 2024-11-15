@@ -160,7 +160,7 @@ Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laborat
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer
 

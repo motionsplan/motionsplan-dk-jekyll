@@ -196,4 +196,4 @@ Hvis du har tilføjelser eller forbedringer til at listen, så skriv endelig.
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

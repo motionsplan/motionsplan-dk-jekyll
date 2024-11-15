@@ -81,7 +81,7 @@ Vi tager to forskellige måder at udregne intensiteten på. Vi starter med at br
 
 Du kan udregne din relative arbejdsintensitet med denne formel:
 
-{% include math formula="Intensitet(%) = \frac{arbejdspuls - hvilepuls}{maxpuls - hvilepuls} * 100" %}
+{% include motionsplan/math formula="Intensitet(%) = \frac{arbejdspuls - hvilepuls}{maxpuls - hvilepuls} * 100" %}
 
 Hvis du hellere vil have en beregner, så kan du altså bruge denne beregner til at finde den relative arbejdsintensitet på baggrund af intensiteten.
 

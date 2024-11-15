@@ -145,4 +145,4 @@ Find links og adresser.
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

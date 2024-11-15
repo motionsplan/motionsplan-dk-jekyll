@@ -249,4 +249,4 @@ Faktisk kan det føles rimelig ulideligt, og du har helt sikkert lyst til at tag
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

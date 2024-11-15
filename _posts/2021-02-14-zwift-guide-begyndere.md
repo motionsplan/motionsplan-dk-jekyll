@@ -308,7 +308,7 @@ Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
 
 ## Svar på almindelige spørgsmål om Zwift
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Køb udstyr til Zwift
 

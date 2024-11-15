@@ -59,4 +59,4 @@ Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer kød in
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

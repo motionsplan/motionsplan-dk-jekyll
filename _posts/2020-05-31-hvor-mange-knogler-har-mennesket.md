@@ -82,7 +82,7 @@ Vi er født med omkring 300 forskellige knogler, som dog i begyndelsen hovedsage
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Liste over knogler i kroppen
 

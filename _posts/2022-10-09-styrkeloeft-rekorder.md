@@ -61,7 +61,7 @@ Jeg har valgt 'Raw' og 'All Fully tested feds' for oversigtslisterne.
 
 {% include figure image_path="/assets/images/blog/openpowerlifting-records.png" alt="styrkeløft rekorder open powerlifting" %}
 
-{% include readmore.html title="Alt om bælter til styrketræning" url="/baelte-styrketraening/" %}
+{% include motionsplan/readmore.html title="Alt om bælter til styrketræning" url="/baelte-styrketraening/" %}
 
 ## Squat rekorder
 

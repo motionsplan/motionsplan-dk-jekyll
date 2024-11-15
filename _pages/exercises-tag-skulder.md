@@ -98,4 +98,4 @@ Se et par øvelser til rotatormanchetten i denne video:
 
 Der er rigtig mange skulder øvelser, som du kan vælge mellem i din skuldertræning. Her får du svar på nogle af de ofte stillede spørgsmål om skuldertræning og skulderøvelser.
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

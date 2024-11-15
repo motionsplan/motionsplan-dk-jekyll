@@ -136,7 +136,7 @@ Du kan læse mere om, hvordan du kan skrue arbejds- og pauseperioder sammen i mi
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer
 

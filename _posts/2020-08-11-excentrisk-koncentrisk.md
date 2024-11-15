@@ -33,7 +33,7 @@ Nogle kalder det også "eccentriske" bevægelser, men det er en stavefejl, men s
 
 ## Hvad er koncentrisk, excentrisk og isometrisk arbejde
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 Forskellen på koncentrisk, excentrisk og isometrisk muskelarbejde er rigtig godt illustreret i denne figur:
 

@@ -221,4 +221,4 @@ En lav hvilepuls kaldes også en langsom puls eller _bradykardi_. Bradykardi bet
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

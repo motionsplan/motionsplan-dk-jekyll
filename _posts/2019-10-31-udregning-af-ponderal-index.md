@@ -41,13 +41,13 @@ Du kan også [beregne BMI](/bmi-beregner/), som er et noget mere udbredt begreb 
 
 Til forskel fra BMI er højden (m) altså løftet i tredje potens i Ponderal Index i stedet for anden potens (som BMI).
 
-{% include math formula="Ponderal Index = \frac{weight (kg)}{height (m)^3}" %}
+{% include motionsplan/math formula="Ponderal Index = \frac{weight (kg)}{height (m)^3}" %}
 
 Et eksempel:
 
 Danske [mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) er 181 centimeter. Hvis vi bruger en vægt på 82 kg og sætter ind i formlen, så får vi et Ponderal Index på 13,8.
 
-{% include math formula="Ponderal Index = \frac{82 (kg)}{1,81 (m)^3} = 13.8" %}
+{% include motionsplan/math formula="Ponderal Index = \frac{82 (kg)}{1,81 (m)^3} = 13.8" %}
 
 ## Hvad kan jeg bruge Ponderal Index til?
 

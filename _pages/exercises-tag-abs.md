@@ -177,7 +177,7 @@ Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elas
 
 ## Ofte stillede spørgsmål om mavetræning
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer om maveøvelser
 

@@ -115,7 +115,7 @@ Det vigtigste for barnets sundhed er at give det sunde kostvaner og motionsvaner
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Referencer om BMI for børn og unge
 

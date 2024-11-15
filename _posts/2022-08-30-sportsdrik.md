@@ -228,4 +228,4 @@ Priserne varierer afhængigt af produktet, men det er noget billigere at lave di
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

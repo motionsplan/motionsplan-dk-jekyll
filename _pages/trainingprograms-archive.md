@@ -81,4 +81,4 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 Hvis du er i tvivl om, hvilket styrketræningsprogram, der er det bedste for dig, så får du hjælp her på siden. Vi hjælper dig med at vælge et gratis træningsprogram til fitness, som du kan bruge både i dit fitnesscenter eller hjemme.
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}

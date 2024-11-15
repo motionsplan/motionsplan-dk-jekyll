@@ -66,7 +66,7 @@ Eksempler på tærskelintervaller:
 
 Du kan både køre intervallerne baseret på din puls, eller endnu bedre hvis du har adgang til en wattmåler på cyklen, så får du den rette belastning.
 
-{% include readmore.html title="FTP: Functional Threshold Power til cykling" url="/ftp-cykling/" %}
+{% include motionsplan/readmore.html title="FTP: Functional Threshold Power til cykling" url="/ftp-cykling/" %}
 
 ## Anaerobe intervaller med mælkesyretolerance
 

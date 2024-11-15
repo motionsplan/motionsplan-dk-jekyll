@@ -130,11 +130,11 @@ Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er d
 
 #### Formel for fedtprocent for mænd
 
-{% include math formula="PBF = \frac{0.988 \times BMI + 0.242 \times weight (kg) + 0.094 \times age - 30.18}{weight (kg)}" %}
+{% include motionsplan/math formula="PBF = \frac{0.988 \times BMI + 0.242 \times weight (kg) + 0.094 \times age - 30.18}{weight (kg)}" %}
 
 #### Formel for fedtprocent for kvinder
 
-{% include math formula="PBF = \frac{0.988 \times BMI + 0.344 \times weight (kg) + 0.094 \times age - 30.18}{height (m)^2}" %}
+{% include motionsplan/math formula="PBF = \frac{0.988 \times BMI + 0.344 \times weight (kg) + 0.094 \times age - 30.18}{height (m)^2}" %}
 
 </details>
 
@@ -227,7 +227,7 @@ Læs: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/
 
 ## Ofte stillede spørgsmål om fedtprocent
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

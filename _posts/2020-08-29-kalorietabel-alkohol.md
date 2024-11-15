@@ -62,7 +62,7 @@ Alle tallene i kalorietabellen er per 100 gram drikkevare.
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

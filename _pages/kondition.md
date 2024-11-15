@@ -139,7 +139,7 @@ Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurti
 
 ## Ofte stillede spørgsmål
 
-{% include faq.html %}
+{% include motionsplan/faq.html %}
 
 ## Konklusion
 

@@ -78,7 +78,7 @@ Du kan udregne din omtrentlige temperaturregulering gennem udstråling i denne b
 
 Beregneren er baseret på Stefan Boltzmanns formel for, hvor meget varme, der forsvinder ved radiation (se mere på [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodrad.html)):
 
-{% include math formula="\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" %}
+{% include motionsplan/math formula="\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" %}
 
 A er kroppens areal, og e er _emmisionsevnen_ af kroppen. Hvis kroppen var en perfekt radiator, så ville e være 1. Kroppen er faktisk en ret god radiator, så vi går ud fra at emmisionsevnen er 0,97.
 
@@ -94,7 +94,7 @@ Du kan estimere, hvor meget køling der foregår af din krop i nedenstående ber
 
 Beregneren baserer sig på følgende udregninger.
 
-{% include math formula="\frac{Q}{t} = \frac{k \times A \times (T_{hot} - T_{cold})}{d}" %}
+{% include motionsplan/math formula="\frac{Q}{t} = \frac{k \times A \times (T_{hot} - T_{cold})}{d}" %}
 
 Hvor k er 'thermal conductivity' af den luft, der omgiver kroppen, som er en konstant. A er kroppens areal. T er temperaturen. d er tykkelsen på barrieren, som typisk kan sættes til 5 centimeter fra huden til den omgivende luft, inden temperaturen er skiftet. Endelig skal du huske at gange med 4.186 J/cal.
 

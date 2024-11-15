@@ -88,17 +88,17 @@ Overvægtige tenderer til at få deres aktivitetsafhængige energiforbrug overes
 
 Morten Zacho korrigerer 'let aktivitet' for overvægtige med følgende korrektioner med følgende faktor:
 
-{% include math formula="correction1_{BMI} = \frac{\sqrt{30}}{\sqrt{BMI}}" %}
+{% include motionsplan/math formula="correction1_{BMI} = \frac{\sqrt{30}}{\sqrt{BMI}}" %}
 
 Derudover korrigerer han 'moderat aktivitet' og 'intens aktivitet' for overvægtige med følgende korrektioner.
 
-{% include math formula="correction2_{BMI} = \frac{30}{BMI}" %}
+{% include motionsplan/math formula="correction2_{BMI} = \frac{30}{BMI}" %}
 
 #### Korrektion for børn
 
 Fordi børn bruger relativt mere energi pr. kg kropsvægt i forhold til voksne, så kan man bruge en dynamisk korrektion baseret på deres vægt. Hvis børn vejer mindre end 50, så korrigeres det aktivitetsafhængige del af energiforbruget med følgende faktor.
 
-{% include math formula="correction_{weight} = \frac{1 + 0.5 * (50 kg - weight)}{50 kg}" %}
+{% include motionsplan/math formula="correction_{weight} = \frac{1 + 0.5 * (50 kg - weight)}{50 kg}" %}
 
 #### Udregning af samlede energiforbrug
 

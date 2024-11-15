@@ -57,7 +57,7 @@ Testen bør køres med en kadence på 60-80 RPM.
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 
-{% include math formula="MPO = \frac{T}{180} * 25 + (W - 25)" %}
+{% include motionsplan/math formula="MPO = \frac{T}{180} * 25 + (W - 25)" %}
 
 Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra denne formel:
 
