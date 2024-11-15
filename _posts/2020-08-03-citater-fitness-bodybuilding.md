@@ -88,7 +88,7 @@ Her er bl.a. citater fra Arnold Schwarzenegger, som er en meget kendt bodybuilde
 
 Et par citater fra [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}) fik også lov til at være med på denne liste.
 
-{% include pinterest-gallery id="gallery" caption=page.title %}
+{% include motionsplan/pinterest-gallery id="gallery" caption=page.title %}
 
 {% assign quotes = page.feature_quotes | sort: "cite" %}
 
@@ -102,7 +102,7 @@ Et par citater fra [træningscitater om løb, styrketræning og motivation]({% l
 
 Når man snakker om træningsplanlægning, så synes jeg Jim Wendler fanger det meget godt med dette citat.
 
-{% include pinterest image_path="/assets/images/pinterest/wendler-accessories.jpg" data-pin-media="/assets/images/pinterest/wendler-accessories.jpg" %}
+{% include motionsplan/pinterest image_path="/assets/images/pinterest/wendler-accessories.jpg" data-pin-media="/assets/images/pinterest/wendler-accessories.jpg" %}
 
 ## Citater om fitness på Pinterest
 

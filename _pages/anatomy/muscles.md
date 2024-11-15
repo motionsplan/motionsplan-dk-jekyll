@@ -79,7 +79,7 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 
 ## Musklernes anatomiske placering på kroppen
 
-{% include anatomy.html %}
+{% include anatomy/anatomy.html %}
 
 ### Liste over andre muskler i kroppen
 

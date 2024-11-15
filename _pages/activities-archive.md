@@ -24,7 +24,7 @@ Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-t
 
 **Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelse, så skriv endelig.**
 
-{% include pinterest-gallery id="gallery" hidden="true"%}
+{% include motionsplan/pinterest-gallery id="gallery" hidden="true"%}
 
 ## Seneste opdaterede øvelser
 

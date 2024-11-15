@@ -37,7 +37,7 @@ Du kan aktivere et **reklamefrit Motionsplan** ved at støtte Motionsplan. Forh�
 
 Du kan støtte os ved at købe os en kop kaffe, hvis du synes, at vi har fortjent det.
 
-{% include buymeacoffee.html %}
+{% include motionsplan/buymeacoffee.html %}
 
 ## Materiale på sitet
 

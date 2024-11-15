@@ -46,7 +46,7 @@ Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsm
 
 Hvis du er på udkig efter en hastighedsberegner til løb, så har vi også denne [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
-{% include lead-magnet-button.html %}
+{% include motionsplan/lead-magnet-button.html %}
 
 ## Hvordan angiver man løbehastighed?
 
@@ -161,4 +161,4 @@ Jeg har ofte brug for at kunne udregne min løbehastighed og omregne mellem min/
 
 Mange er også interesserede i at få svar på spørgsmålet: "Hvor hurtigt går man i km/t?" og finde deres [gangtempo](/tid-at-gaa/).
 
-{% include lead-magnet.html %}
+{% include motionsplan/lead-magnet.html %}

@@ -10,4 +10,4 @@ sitemap: false
 breadcrumbs: true
 ---
 
-{% include lead-magnet.html id="l3wm2ny7e0elxaurnp5" %}
+{% include motionsplan/lead-magnet.html id="l3wm2ny7e0elxaurnp5" %}

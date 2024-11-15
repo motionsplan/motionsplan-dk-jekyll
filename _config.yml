@@ -502,3 +502,21 @@ defaults:
       layout: orbits
       sitemap: false
       search: false
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: single
+      draft: true
+      breadcrumbs: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: false
+      author: lsolesen
+      sidebar:
+        nav: blog

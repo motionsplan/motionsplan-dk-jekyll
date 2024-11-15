@@ -155,7 +155,7 @@ Det betyder at ROM er meget lille, og det er faktisk vanskeligt at se om, der er
 | Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore |round: 2 }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ### Bænkpres verdensrekorder for kvinder
@@ -178,7 +178,7 @@ Det er særligt imponerende at Ghazouani er paraatlet. Her kan du se hende bænk
 | Kropsvægt | Navn | Vægt | Wilksscore | IPFGL | Ift. kropsvægt |
 |-|-|-|-|-|-|-|
 {% for row in records -%}
-| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
+| {{ row.Bodyweight }} | {{ row.Name }} | {{ row.Weight }} | {{ row.Wilksscore | round: 2 }} | {{ row.IPFGL | round: 2 }} | {{ row.Bwratio }} |
 {% endfor %}
 
 ## Dødløft rekorder

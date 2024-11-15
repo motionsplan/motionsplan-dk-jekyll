@@ -176,7 +176,7 @@ Soveomgivelserne og soveværelset er naturligvis utrolig vigtigt. Littlehales fr
 - **opryddet**, så det er et rart sted at være.
 - **temperereret**, der må ikke være for varmt.
 
-{% include pinterest image_path="/assets/images/pinterest/citat-dalai-lama.jpg" %}
+{% include motionsplan/pinterest image_path="/assets/images/pinterest/citat-dalai-lama.jpg" %}
 
 ## Hvordan kan du optimere din søvn og søvnhygiejne?
 

@@ -250,4 +250,4 @@ Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering
 
 Du kan læse mere på [startingstrength.com](https://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ).
 
-{% include pinterest-gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}
+{% include motionsplan/pinterest-gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}

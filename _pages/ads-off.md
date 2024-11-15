@@ -19,10 +19,10 @@ Normalt ville Motionsplan tjene omkring 100-200 kroner om dagen på reklameindt�
 
 Hvis du synes, at du får værdi af indlæggene, så kan du overveje at **[købe mig en kaffe](https://www.buymeacoffee.com/lsolesen)** for mine anstrengelser, men det er absolut ikke et krav :)
 
-{% include buymeacoffee.html %}
+{% include motionsplan/buymeacoffee.html %}
 
 Det betyder også meget for mig, hvis du følger Motionsplan.dk på de sociale medier - og husk endelig også at du kan få [gratis opdateringer direkte i indbakken](/nyhedsbrev/).
 
 {% include feature_row id="intro" type="center" %}
 
-{% include ads-toggle.html toggle="0" %}
+{% include motionsplan/ads-toggle.html toggle="0" %}

@@ -54,7 +54,7 @@ layout: default
         {% assign file_exists = site.static_files | where: "path", path %}
 
         {% if file_exists.size != 0 %}
-          {% include pinterest image_path=path hidden="true" %}
+          {% include motionsplan/pinterest image_path=path hidden="true" %}
         {% endif %}
       </section>
 

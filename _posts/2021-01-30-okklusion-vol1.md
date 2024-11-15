@@ -75,7 +75,7 @@ Okklusionstræning kan bedst forstås som en fysiologisk genvej til at opnå mus
 
 Manchetten pumpes op til et fastsat tryk, og trykket i manchetten vil begrænse det arterielle indløb (det iltede blod der løber ud til musklen) og afklemme det venøse tilbageløb (det afiltede blod der løber væk fra musklen) \[1, 2\].
 
-{% include pinterest image_path="/assets/images/occlude/occlusion-training-768.jpg" data-pin-media="/assets/images/pinterest/occlusion-training.jpg" caption="Pumpestyret okklusionstræning" alt="Pumpestyret okklusionstræning" %}
+{% include motionsplan/pinterest image_path="/assets/images/occlude/occlusion-training-768.jpg" data-pin-media="/assets/images/pinterest/occlusion-training.jpg" caption="Pumpestyret okklusionstræning" alt="Pumpestyret okklusionstræning" %}
 
 Det individualiserede tryk fastsættes ud fra AOP: ”arterial occlusion pressure”. På dansk oversat til _det arterielle okklusionstryk_ som er det tryk, hvor der er total afklemning (100 % AOP) af det arterielle indløb. Okklusionstræning praktiseres ved mellem 40 og 80 % af dette tryk.
 

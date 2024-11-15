@@ -32,7 +32,7 @@ Når man søger rundt på nettet, så kan man finde rigtig mange kalorietabeller
 
 Hvis du mangler fødevarer i listen med kalorier eller gerne vil have en kalorietabel over en specifik gruppe af fødevarer, så må du endelig skrive i kommentarerne.
 
-{% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/de/38/8a/de388a319c398ed24e9958b8200d1996.jpg" data-pin-id="579768152024787955" caption=page.title %}
+{% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/de/38/8a/de388a319c398ed24e9958b8200d1996.jpg" data-pin-id="579768152024787955" caption=page.title %}
 
 ## Kalorietabel med frugt, kød og brød
 

@@ -325,4 +325,4 @@ For dødløft og de resterende øvelser ser træningen sådan her ud:
 
 Når du gerne vil lave et styrketræningsprogram, så kan du altså følge disse 6 enkle trin.
 
-{% include pinterest image_path="/assets/images/pinterest/nielsson-lav-styrketraeningsprogram.jpg" caption="Del meget gerne på Pinterest, Facebook og Twitter" alt="pinterest styrketræningsprogram" %}
+{% include motionsplan/pinterest image_path="/assets/images/pinterest/nielsson-lav-styrketraeningsprogram.jpg" caption="Del meget gerne på Pinterest, Facebook og Twitter" alt="pinterest styrketræningsprogram" %}

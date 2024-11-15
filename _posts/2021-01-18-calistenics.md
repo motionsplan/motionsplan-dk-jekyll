@@ -40,7 +40,7 @@ Det er svært at vide hvor lang tid der går, før man kan fortsætte sin normal
 
 Hvad er Calisthenics? **Calisthenics er træning med kropsvægt, hvor formålet er at få fuld kontrol over sin egen krop ved at lave øvelser med kropsvægt. I calisthenics tænkes kroppen i en helhed.**
 
-{% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/00/d2/2c/00d22c7f74ec3864c456a0e7207a8276.jpg" data-pin-id="579768152030230128" caption=page.title %}
+{% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/00/d2/2c/00d22c7f74ec3864c456a0e7207a8276.jpg" data-pin-id="579768152030230128" caption=page.title %}
 
 ## Cali-hvad-for-noget?
 

@@ -58,7 +58,7 @@ I dette indlæg kan du få svar på følgende spørgsmål om Coopers løbetest:
 - Beregn dit kondital på baggrund af Cooper-testen
 - Se en tabel og skema over Cooper-testen
 
-{% include lead-magnet-button.html %}
+{% include motionsplan/lead-magnet-button.html %}
 
 {% include figure image_path="https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" %}
 
@@ -82,7 +82,7 @@ Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på
 
 Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering af konditallet i denne [tabel over kondital](/kondital/).
 
-{% include lead-magnet-button.html %}
+{% include motionsplan/lead-magnet-button.html %}
 
 ## Baggrund for kondital og Cooper-test
 
@@ -325,7 +325,7 @@ Jeg synes ikke de oprindelige tabeller til vurdering af din præstation baseret 
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-{% include lead-magnet.html %}
+{% include motionsplan/lead-magnet.html %}
 
 ## Referencer
 

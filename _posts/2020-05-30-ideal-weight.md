@@ -40,7 +40,7 @@ TODO
 ## Hvad skal jeg veje?
 {% endcomment %}
 
-{% include lead-magnet-button.html %}
+{% include motionsplan/lead-magnet-button.html %}
 
 ## Hvad er idealvægt?
 
@@ -64,7 +64,7 @@ Resultaterne i beregneren ligger mellem 58,5 - 68,3 kg for en på den højde. De
 
 Der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten for mænd og kvinder.
 
-{% include lead-magnet-button.html %}
+{% include motionsplan/lead-magnet-button.html %}
 
 Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne medregner således ikke kropsbygning og muskelmasse.
 
@@ -157,7 +157,7 @@ På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange me
 
 Du skal også huske at normalvægtige personer ikke nødvendigvis har en sund krop. Man kan godt holde sig inden for grænserne for normalvægt, men stadig have en fedtprocent, der er for høj i forhold til sin sundhed.
 
-{% include lead-magnet.html %}
+{% include motionsplan/lead-magnet.html %}
 
 ## Referencer
 

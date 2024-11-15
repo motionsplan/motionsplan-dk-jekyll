@@ -91,7 +91,7 @@ Formålet med denne guide er hovedsageligt at vise dig, hvad du skal holde øje 
 
 ## Kurvet løbebånd eller motoriseret løbebånd
 
-{% include product id="feature_row_apuls" type="left" %}
+{% include motionsplan/product id="feature_row_apuls" type="left" %}
 
 Når man taler om løbebånd, så er der to særlige typer. Du kan få et **kurvet løbebånd** uden motor, men hvor du selv genererer farten, når du træder ned på båndet. Den anden type er et **motoriseret løbebånd**, hvor du stiller farten på løbebåndets computer. På mange af de motoriserede løbebånd, kan du også stille hældningen, og de har forskellige programmmer.
 
@@ -177,13 +177,13 @@ Løbebåndets maksimale brugervægt giver et godt udgangspunkt for, hvor solidt 
 
 Jeg synes de kurvede løbebånd er geniale, men de er også relativt dyre. Det er egentlig lidt mærkeligt, at de er dyrere, for de har jo netop ingen motor, men så holder de også bedre.
 
-{% include product id="feature_row_draxfit" type="left" %}
+{% include motionsplan/product id="feature_row_draxfit" type="left" %}
 
 Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbebånd i en billigere prisklasse. Her er et par eksempler:
 
-{% include product id="feature_row_toorx" type="left" %}
+{% include motionsplan/product id="feature_row_toorx" type="left" %}
 
-{% include product id="feature_row_odin" type="left" %}
+{% include motionsplan/product id="feature_row_odin" type="left" %}
 
 {% include faq.html heading="2" %}
 
@@ -201,34 +201,34 @@ _Hold musen hen over løbebåndet for at se navnet. Klik på løbebåndet for at
 
 {% assign posters = site.data.treadmill | where_exp: "item", "item.price > 2000 and item.price < 5000" %}
 
-{% include products array=posters %}
+{% include motionsplan/products array=posters %}
 
 ## Løbebånd mellem 5.000 og 10.000 kroner
 
 {% assign posters = site.data.treadmill | where_exp: "item", "item.price > 5000 and item.price < 10000" %}
 
-{% include products array=posters %}
+{% include motionsplan/products array=posters %}
 
 ## Løbebånd mellem 10.000 - 15.000 kroner
 
 {% assign posters = site.data.treadmill | where_exp: "item", "item.price > 10000 and item.price < 15000" %}
 
-{% include products array=posters %}
+{% include motionsplan/products array=posters %}
 
 ## Løbebånd mellem 15.000 og 20.000 kroner
 
 {% assign posters = site.data.treadmill | where_exp: "item", "item.price > 15000 and item.price < 20000" %}
 
-{% include products array=posters %}
+{% include motionsplan/products array=posters %}
 
 ## Løbebånd mellem 20.000 - 30.000 kroner
 
 {% assign posters = site.data.treadmill | where_exp: "item", "item.price > 20000 and item.price < 30000" %}
 
-{% include products array=posters %}
+{% include motionsplan/products array=posters %}
 
 ## Løbebånd over 30.000 kroner
 
 {% assign posters = site.data.treadmill | where_exp: "item", "item.price > 30000" %}
 
-{% include products array=posters %}
+{% include motionsplan/products array=posters %}

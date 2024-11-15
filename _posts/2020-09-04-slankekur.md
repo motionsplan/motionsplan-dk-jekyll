@@ -32,7 +32,7 @@ Vicky er ikke den eneste, der har utrolige vægttab på slankekure fra Ude & Hje
 
 Maria har haft et vægttab på [5 kg på fem dage med kødbolle-slankekuren](https://www.udeoghjemme.dk/slank-og-sund/slank/hurtigt-vaegttab-maria-tabte-5-kilo-paa-fem-dage). Sandra har været på [rugbrødskuren og tabte 3 kilo](https://www.udeoghjemme.dk/slank-og-sund/slank/slankekure/slankekur-jeg-har-faaet-motivationen-tilbage).
 
-{% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/55/f6/d6/55f6d6bda3f84dbc66eacaf492045cbd.jpg" data-pin-id="579768152025035959" caption=page.title %}
+{% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/55/f6/d6/55f6d6bda3f84dbc66eacaf492045cbd.jpg" data-pin-id="579768152025035959" caption=page.title %}
 
 Læs videre, hvis du vil vide, hvorfor Ude & Hjemmes slankekure ikke fører til varige resultater, eller hop direkte til [bedre strategier for vægttab](/vaegttab/).
 

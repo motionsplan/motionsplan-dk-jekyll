@@ -70,7 +70,7 @@ Da jeg kiggede [træningscitater om løb, styrketræning og motivation]({% link 
 
 Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hårdt og kunne lave resultater med sin træning. Endelig har Michael Jordan også lavet nogle mindeværdige citater om at træne i sin karriere.
 
-{% include pinterest-gallery id="gallery" caption=page.title %}
+{% include motionsplan/pinterest-gallery id="gallery" caption=page.title %}
 
 {% assign quotes = page.feature_quotes | sort: "cite" %}
 
@@ -82,7 +82,7 @@ Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hår
 ***
 {% endfor %}
 
-{% include pinterest image_path="https://www.cdn.alt.dk/4db24728b45440059e5cf4b2520c88f1/21a99527defc4ccf9a4af4d17ea6dd1a_1125.jpg" caption="Når Leonard Cohen siger: 'Der er en revne i alting. Det er sådan, lyset kommer ind', så kommer jeg til huske på, at revnerne i tilværelsen er skabt for lyset kan finde dig." alt="Citater om at kæmpe" %}
+{% include motionsplan/pinterest image_path="https://www.cdn.alt.dk/4db24728b45440059e5cf4b2520c88f1/21a99527defc4ccf9a4af4d17ea6dd1a_1125.jpg" caption="Når Leonard Cohen siger: 'Der er en revne i alting. Det er sådan, lyset kommer ind', så kommer jeg til huske på, at revnerne i tilværelsen er skabt for lyset kan finde dig." alt="Citater om at kæmpe" %}
 
 ## Citater om at kæmpe på Pinterest
 

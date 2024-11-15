@@ -81,7 +81,7 @@ Det er jo også værd at tage med.
 
 Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [elitefts.com](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) skriver mere om, hvordan man kan bruge depth jumps til at forbedre sin squat.
 
-{% include pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.jpg" %}
+{% include motionsplan/pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.jpg" %}
 
 ## Heavy walkouts og liftoffs
 

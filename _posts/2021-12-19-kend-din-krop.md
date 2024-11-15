@@ -22,7 +22,7 @@ Nogle af svarene gælder for alle mennesker, fx "Hvor mange knogler har du?", me
 
 God fornøjelse med at lære din krop at kende.
 
-{% include pinterest image_path="/assets/images/blog/kend-din-krop.png" data-pin-media="/assets/images/blog/kend-din-krop.png" %}
+{% include motionsplan/pinterest image_path="/assets/images/blog/kend-din-krop.png" data-pin-media="/assets/images/blog/kend-din-krop.png" %}
 
 ## Kend din anatomi
 

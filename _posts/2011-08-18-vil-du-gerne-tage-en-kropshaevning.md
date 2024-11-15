@@ -38,7 +38,7 @@ I dette indlæg får du svar på følgende:
 
 Principperne i et træningsprogram for at **lære at tage en pull up og en chin up** er i fremgangsmåden den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
 
-{% include lead-magnet-button.html title="Download træningsprogram" element="sender-pullup-popup" %}
+{% include motionsplan/lead-magnet-button.html title="Download træningsprogram" element="sender-pullup-popup" %}
 
 {% comment %}
 
@@ -200,4 +200,4 @@ Hvis du laver en god plan, så bør du kunne lave en pullup eller en chinup i l�
 
 Jeg har skrevet lidt mere om [forskellen på chin ups og pull ups her](/chinup-vs-pullup/).
 
-{% include lead-magnet.html id="l3vofz1jaqj6ybz2p5g" %}
+{% include motionsplan/lead-magnet.html id="l3vofz1jaqj6ybz2p5g" %}
