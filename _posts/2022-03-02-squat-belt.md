@@ -15,11 +15,11 @@ tags:
 last_modified_at: 2022-11-24T23:14:14Z
 toc: true
 feature_row_powerlifting:
-  - image_path: https://shop.getbig.dk/images/large/bodybuilding-dreikampfguertel_LRG.jpg
+  - image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
     alt: "3 Kamps bælte Professionel kvalitet"
     title: "3 Kamps bælte Professionel kvalitet"
     excerpt: "3 Kamps bælte Professionel kvalitet. Dette bælte er lavet i ekstrem robust læder og er MEGET stabil. Det er specielt velegnet for hård styrkeløft, bodybuilding og 3-kamp."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/traeningsbaelte-professionelt"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/professionelt-traeningsbaelte"
     btn_label: Tjek prisen
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

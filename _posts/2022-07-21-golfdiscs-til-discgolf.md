@@ -104,7 +104,7 @@ Du kan kigge på discens flyveegenskaber for at finde ud af, om en disc er overs
 
 {% include figure image_path="/assets/images/blog/vaelg-golfdics-til-discgolf-essence-discimport.png" caption="Sådan er beskrivelsen hos mange forhandlere. I beskrivelsen står der at denne Essence fra Discmania er understabil, og du kan se discens flyveegenskaber. Her kan du aflæse, at _turn_ står til -2, så den er understabil. Det betyder også, at den er fornuftig til begyndere, som du kan læse længere nede" alt="golfdisc til discgolf med flyveegenskaber" %}
 
-Ifølge [Discimport.dk](https://discimport.dk/blog/hvilken-frisbee-skal-jeg-vaelge-til-discgolf) så kan du bruge din viden om discens stabilitet til følgende, når du spiller:
+Ifølge [Discer.dk](https://www.discer.dk/golfdisc-til-discgolf/) så kan du bruge din viden om discens stabilitet til følgende, når du spiller:
 
 - **I blæsevejr er det lettest med en overstabil-stabil disc.** Den overstabile golfdisc bevarer sine flyveegenskaber bedre i vinden. Den understabile golfdisc har ikke den samme modstand til at bekæmpe vindens påvirkning af flyvebanen.
 - **Uden vind er en understabil disc lettest at kaste med.** Hvis der ikke er så meget vind på banen, så er de understabile discs lettere at kaste med.
@@ -117,9 +117,9 @@ Ifølge [Discimport.dk](https://discimport.dk/blog/hvilken-frisbee-skal-jeg-vael
 
 Hvilken putter du skal vælge afhænger meget er personlige præferencer. Hvis du bruger din putter over længere afstande, så skal du naturligvis tage højde for stabiliteten også. 
 
-Der er rigtig mange forskellige populære puttere. [Aviar](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606&htmlurl=https://discshoppen.dk/products/innova-dx-classic-aviar){: rel="sponsored nofollow noopener" } fra det velkendte mærke Innova er en af de populære puttere, men der findes mange [andre modeller](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606&htmlurl=https://discshoppen.dk/collections/disc-golf-puttere-approach){: rel="sponsored nofollow noopener" }.
+Der er rigtig mange forskellige populære puttere. Du kan læse meget mere om populære puttere på [Discer.dk](https://www.discer.dk/populaere-puttere/).
 
-Mikael Birkelund Jensen-Johansen fra [Discimport.dk](https://discimport.dk/) anbefaler fx også modellerne Pure, P2, Rainmaker, Luna og Link, hvis du gerne vil have en god og træfsikker putter.
+Mikael Birkelund Jensen-Johansen som har 25 års erfaring fra Discimport.dk (som i 2024 fusionerede med Discsport.dk) anbefaler fx også modellerne Pure, P2, Rainmaker, Luna og Link, hvis du gerne vil have en god og træfsikker putter.
 
 ## Hvilken driver skal jeg vælge?
 
@@ -162,8 +162,7 @@ Jeg anbefaler derfor **nybegyndere at vælge lette, understabile discs**. Der fi
 
 Discgolfsporten er i rivende udvikling. Det betyder, at der er mange forhandlere af golfdiscs. Du kan købe frisbees i både købe sportsbutikker, dedikerede butikker til sporten og online.
 
-- **Discimport.dk** var den første onlineshop til frisbees og discgolf. For nylig har de udvidet med fysiske butikker også. Du kan læse mere på [discimport.dk](https://discimport.dk/).
-- **Discshoppen.dk** er en anden onlinebutik, hvor du kan købe udstyr til frisbeesporten. Tjek deres [hjemmeside](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606){: rel="sponsored nofollow noopener" }. Hvis du har brug for et stort udvalg, så skal du dog vælge Discimport.dk.
+På [Discer.dk](https://www.discer.dk/discgolf-butikker/) kan du se en [liste over onlinebutikker med discgolf](https://www.discer.dk/discgolf-butikker/). Den liste burde hele tiden være opdateret.
 
 ## Ofte stillede spørgsmål om golfdiscs
 

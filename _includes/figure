@@ -1,3 +1,5 @@
+{% comment %} 11TY - NOT NEEDED - BAKED INTO 11TY MM {% endcomment %}
+
 <figure class="{{ include.class }}">
   <img src="{{ include.image_path | relative_url }}"
        alt="{% if include.alt %}{{ include.alt }}{% endif %}" loading="lazy">

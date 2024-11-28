@@ -101,7 +101,7 @@ Det er en rigtig god ide at være rigtig opmærksom på, hvor discen lander. Så
 
 ## Hvad har jeg brug for for at spille discgolf?
 
-Du skal bare selv medbringe discs til at spille med. Du kan sagtens bruge en almindelig frisbee, men ellers kan du se vores forslag til, hvad du skal tænke over som [begynder i discgolf](https://discimport.dk/blog/begynder-i-discgolf).
+Du skal bare selv medbringe discs til at spille med. Du kan sagtens bruge en almindelig frisbee, men ellers kan du se vores forslag til, hvad du skal tænke over som [begynder i discgolf](https://www.discer.dk/begynder-i-discgolf).
 
 {% include video provider="youtube" id="1SRa1hc8NAI" %}
 
@@ -113,8 +113,7 @@ Når du har fået fat i nogle discs, så er det også meget rart at vide, hvilke
 
 Discgolfsporten er virkelig blomstret de seneste år. Nu kan du både købe discgolfs i sportsbutikker, dedikerede butikker til sporten og online.
 
-- **Discimport.dk** var den første onlineshop til frisbees og discgolf. For nylig har de udvidet med fysiske butikker også. Du kan læse mere på [discimport.dk](https://discimport.dk/).
-- **Discshoppen.dk** er en anden onlinebutik, hvor du kan købe udstyr til frisbeesporten. Tjek deres [hjemmeside](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606){: rel="sponsored nofollow noopener" }. Hvis du har brug for et stort udvalg, så skal du dog vælge Discimport.dk.
+På **[Discer.dk](https://www.discer.dk/)** kan du finde en [opdateret liste over discgolf butikker](https://www.discer.dk/discgolf-butikker/).
 
 ## Konklusion
 

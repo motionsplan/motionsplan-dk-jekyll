@@ -256,7 +256,7 @@ En GPS er naturligvis ikke fuldstændig præcis, men præcisionen er god nok for
 
 ## Hvor langt kan man kaste en frisbee?
 
-Du kan kaste rigtig langt med en frisbee. Særligt hvis du har en dedikeret _driver_. Vi har fundet følgende distancerekorder og frisbeetyper på [discimport.dk](https://discimport.dk/blog/laengste-kast-med-en-frisbee).
+Du kan kaste rigtig langt med en frisbee. Særligt hvis du har en dedikeret _driver_. Vi har fundet disse distancerekorder fra [kasterekorder på discer.dk](https://www.discer.dk/kasterekorder-frisbee/).
 
 Distancerekorder med en golfdisc og en frisbee er følgende:
 

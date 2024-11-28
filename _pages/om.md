@@ -56,7 +56,7 @@ Ikoner brugt på sitet er lavet af <a href="https://www.flaticon.com/authors/dav
 {% assign featured_authors = site.data.authors %}
 {% for authors in featured_authors %}
   {% assign author=authors[1] %}
-  {% include author.html author=author %}
+  {% include motionsplan/author.html author=author %}
 {% endfor %}
 
 ## Motionsplan på Trustpilot

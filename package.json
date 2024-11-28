@@ -49,9 +49,9 @@
   "scripts": {
     "test": "bundle exec mocha src/test/*.*",
     "test:html": "bundle exec htmlproofer --only-4xx --assume-extension \".html\" --ignore-urls \"/bjsm.bmj.com/, /mademistakes.com/\" --ignore-status-codes \"400,403,409,429\" --allow-hash-href --ignore-empty-alt _site/",
-    "start": "bundle exec jekyll server --port 8080 --incremental",
-    "lsi": "bundle exec jekyll server --port 8080 --incremental --lsi",
-    "draft": "bundle exec jekyll server --port 8080 --incremental --drafts",
+    "start": "bundle exec jekyll server --port 4040 --incremental",
+    "lsi": "bundle exec jekyll server --port 4040 --incremental --lsi",
+    "draft": "bundle exec jekyll server --port 4040 --incremental --drafts",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify",
     "watch": "watchify src/js/app.bundle.js -o assets/js/bundle.js",

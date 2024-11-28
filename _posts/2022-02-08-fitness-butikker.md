@@ -54,10 +54,10 @@ shops:
     cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937
     rel: sponsored nofollow noopener
     class: .btn .btn--large .btn--danger
-  - title: Getbig
-    excerpt: Getbig.dk er én af Danmarks mest kendte og største forhandlere af fitness udstyr, træningsudstyr og kosttilskud. Hvis du kun vil handle et sted, så kan du altså få det hele her. Det er lige fra proteinpulver, til yogamåtter, kettlebells og til kompette fitnessstationer. Getbig har lave priser, de sender hurtigt og du har 60 dages returret på varer købt hos Getbig.
+  - title: Billig-Fitness.dk
+    excerpt: En af Danmarks mest kendte og største forhandlere af fitness udstyr, træningsudstyr og kosttilskud. Hvis du kun vil handle et sted, så kan du altså få det hele her. Det er lige fra proteinpulver, til yogamåtter, kettlebells og til kompette fitnessstationer. Billig-Fitness har lave priser, de sender hurtigt og du har 60 dages returret på varer købt hos Billig-Fitness.
     image: /assets/images/blog/fitnessforretning-getbig.jpg
-    cta_label: Besøg Getbig
+    cta_label: Besøg Billig-Fitness
     cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
     rel: sponsored nofollow noopener
     class: .btn .btn--large .btn--danger

@@ -78,11 +78,11 @@ PurePower er en dansk virksomhed, som leverer højkvalitets sporternæring til n
 
 [Køb hos Pure Power](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52416){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 4. Getbig
+### 4. Billig-Fitness.dk
 
-Getbig er en af Danmarks største forhandlere med produkter indenfor fitnessbranchen. De er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv.
+Billig-Fitness er en af Danmarks største forhandlere med produkter indenfor fitnessbranchen. De er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv.
 
-[Besøg Getbig »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+[Besøg Billig-Fitness »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
 ### 5. Helsam
 

@@ -13,14 +13,6 @@ tags:
 last_modified_at: 2021-11-06T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
-    alt: "Badevægt med fedtprocent måler"
-    title: "Badevægt med fedtprocent måler"
-    excerpt: "Denne badevægt kan måle både vægt, fedtprocent, BMI, væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
     alt: "Tanita DC 360P Kropsanalysevægt"
     title: "Tanita DC 360P Kropsanalysevægt"

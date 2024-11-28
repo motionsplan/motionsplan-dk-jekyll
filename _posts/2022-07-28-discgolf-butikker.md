@@ -1,6 +1,7 @@
 ---
 title: &title "Disc golf butikker: Køb discs online"
-excerpt: "Leder du efter en online butik med discgolf? Her har vi samlet en liste over de bedste disc golf butikker på internettet."
+seo_title: "Oversigt over disc golf butikker online"
+excerpt: "Vi har samlet en liste over de bedste disc golf butikker på internettet. Her kan du finde dine frisbees"
 permalink: /discgolf-butikker/
 language: da
 header:
@@ -29,7 +30,7 @@ I denne artikel vil vi diskutere nogle vigtige faktorer, som du skal overveje, n
 
 {% include figure image_path="https://images.unsplash.com/photo-1655161920449-cd10d9391f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="discgolf butikker online" %}
 
-## 1. Discimport
+## 1. Discimport (fusioneret med Discsport.dk)
 
 Discimport driver både webshop og fysiske butikker i København, Aarhus og Silkeborg. Discimport er så vidt jeg ved den ældste butik med salg af golfdiscs i Danmark. De har eksisteret siden 1999. 
 
@@ -43,7 +44,7 @@ Discimport laver også discgolfbaner, og de har designet baner over hele Danmark
 
 Det er let at finde rundt på Discimports hjemmeside, og hvis du ikke finder det du er på udkig efter, så giv dem et kald. De svarer altid venligt og kyndigt. Desuden har de en fremragende score på Trustpilot.
 
-[Besøg Discimport](https://www.discimport.com/){: .btn .btn--large .btn--danger }
+[Besøg Discsport](https://www.discsport.dk/){: .btn .btn--large .btn--danger }
 
 ## 2. Discconnection
 
@@ -60,15 +61,6 @@ Flyvende har et bredt udvalg af udstyr til disc golf, men de tilbyder også even
 Flyvende har et showroom, hvor du kan få indblik i alt udstyret, og du kan få vejledning.
 
 [Besøg Flyvende](https://flyvende.dk/){: .btn .btn--large .btn--info rel="nofollow noopener" }
-
-## 4. Discshoppen
-
-Hos Discshoppen.dk har de et mindre udvalg til Discgolf. De satser på et mindre udvalg, men at alt er af høj kvalitet. 
-
-Discshoppen tilbyder dig **prisgaranti** på produkterne, så hvis de har den rette disc på lager, så kan du roligt handle der.
-
-[Besøg Discshoppen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=94606&htmlurl=https://discshoppen.dk/){: .btn .btn--large .btn--info rel="sponsored nofollow noopener" }
-
 
 {% comment %}
 

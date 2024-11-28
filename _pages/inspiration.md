@@ -31,12 +31,12 @@ feature_row_ads:
     btn_label: "Den Intelligente Krop"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: /assets/images/logo/getbig.png
-    alt: "Getbig.dk"
-    title: "Getbig.dk"
+  - image_path: /assets/images/logo/billig-fitness.png
+    alt: "Billig-Fitness.dk"
+    title: "Billig-Fitness.dk"
     excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-    btn_label: "Besøg Getbig.dk"
+    btn_label: "Besøg Billig-Fitness.dk"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/bodyman.png

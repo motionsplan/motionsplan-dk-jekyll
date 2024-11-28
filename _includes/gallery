@@ -1,3 +1,5 @@
+{% comment %} 11TY - NOT NEEDED - BAKED INTO 11TY MM {% endcomment %}
+
 {% if include.id %}
   {% assign gallery = page[include.id] %}
 {% elsif include.images %}

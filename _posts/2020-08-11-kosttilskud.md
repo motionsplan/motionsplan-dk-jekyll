@@ -203,7 +203,7 @@ Mange har sikkert spist fiskeolie som kosttilskud ud fra devicen, at fede fisk h
 
 > Det mest forbløffende ved fiskeolie er næsten, hvor lidt vi kan sige om det på trods af, at der er lavet så mange studier omkring det.
 
-— <cite>Nikolaj Bach i [Træningstimen] om Kosttilskud(https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
+— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
 
 I bedste fald er der en (meget) lille effekt på hjerte-kar-sygdomme eller også er der ingen effekt i de meta-reviews, der er lavet. Der kan være forskellige grunde til, at man ikke har kunnet finde så god evidens for fiskeolien.
 

@@ -5,13 +5,13 @@
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
   btn_label: "Besøg Apuls*"
   btn_class: "btn--success"
-#  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-#    alt: "Billigsport24.dk"
-#    title: "Billigsport24.dk"
-#    excerpt: "Billigsport24.dk - Online salg af sportsprodukter på Internettet. Spar mellem 10-60%. Sikker handel på Nettet, shoppen er E-mærket. Din sikkerhed for en tryg handel. Vi tilbyder alle de kendte mærker, Nike, Puma, Adidas, North Face, Stiga, Polar, Helly Hansen m.m."
-#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397
-#    btn_label: "Besøg BilligSport24*"
-#    btn_class: "btn--danger"
+- image_path: /assets/images/logo/noutron.png
+  alt: "Noutron"
+  title: "Noutron"
+  excerpt: "Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler vi i Noutron produkter, der skal hjælpe endurance atleter. Vi er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores partnere."
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123
+  btn_label: "Besøg Noutron"
+  btn_class: "btn--danger"
 - image_path: /assets/images/logo/bodylab.png
   alt: "Bodylab"
   title: "Bodylab"
@@ -26,17 +26,17 @@
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
   btn_label: "Den Intelligente Krop*"
   btn_class: "btn--info"
-- image_path: /assets/images/logo/getbig.png
-  alt: "Billig Fitness"
-  title: "Billig Fitness"
-  excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-  btn_label: "Besøg Billig Fitness*"
-  btn_class: "btn--info"
 - image_path: /assets/images/logo/bodyman.png
   alt: "Bodyman.dk"
   title: "Bodyman.dk"
   excerpt: "Salg af kosttilskud og fitnesstøj."
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
   btn_label: "Besøg Bodyman*"
+  btn_class: "btn--info"
+- image_path: /assets/images/logo/billig-fitness.png
+  alt: "Billig Fitness"
+  title: "Billig Fitness"
+  excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
+  btn_label: "Besøg Billig Fitness*"
   btn_class: "btn--info"

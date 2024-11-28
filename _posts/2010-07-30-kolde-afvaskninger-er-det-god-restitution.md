@@ -120,7 +120,7 @@ De kolde bade ser ud til at være passiv restitution overlegent ved eksplosive a
 
 ## Hvordan virker Cold Water Immersion i forhold til styrketræning?
 
-[Wilcock et al (2006)](https://doi.org/10.1123/ijspp.1.3.195) har foreslået, at nedkøling med koldt vand kan forbedre restitutionen efter aktivitet, der ødelægger muskelfibrene, men nyere studier har ikke kunne vise at de kolde bade skulle forbedre restitutionen efter muskelødelæggende aktivitet ([Jakeman et al 2009](https://doi.org/10.1080/00140130802707733)).
+[Wilcock et al (2006)](https://doi.org/10.1123/ijspp.1.3.195) har foreslået, at nedkøling med koldt vand kan forbedre restitutionen efter aktivitet, der ødelægger muskelfibrene, men nyere studier har ikke kunnet vise at de kolde bade skulle forbedre restitutionen efter muskelødelæggende aktivitet ([Jakeman et al 2009](https://doi.org/10.1080/00140130802707733)).
 
 Nyere [studier](https://doi.org/10.1113/JP270570) fra 2015 tyder imidlertid på, at hvis man bruger isbade efter styrketræning, så risikerer man, at ens muskeltilvækst vil blive mindre på sigt.
 
