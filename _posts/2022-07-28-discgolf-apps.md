@@ -126,7 +126,7 @@ Noget andet sjovt i Discgolf Metrix er, at man i klubber kan lave en _bag tag ch
 
 Du kan endnu ikke finde banekort, øve dig eller andre af de smarte ting, du fx kan i UDisc. Til gengæld så er deres turneringsmanager noget mere lækkert sat op end de andre systemer.
 
-{% include figure image_path="https://tjing.se/img/LiveScoring%E2%80%93Expanded_New.a85de9f4.png" alt="tjing app til discgolf" %}
+{% include figure image_path="https://tjing.se/img/Landing-image@2x.88dd92b8.png" alt="tjing app til discgolf" %}
 
 ## 4. Discgolf Handicap
 

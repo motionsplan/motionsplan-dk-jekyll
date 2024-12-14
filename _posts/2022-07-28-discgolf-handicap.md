@@ -44,7 +44,12 @@ Professional Disc Golf Association ([PDGA](https://www.pdga.com/)) er det vigtig
 
 Denne klassificering kaldes "PDGA Rating" og udtrykkes som et tal mellem 800 og 1200. Du kan læse mere om rating systemet, og hvordan banerne rates på [PDGAs hjemmeside](https://www.pdga.com/ratings).
 
-[Sportingdisc.com](https://sportingdisc.com/disc-golf-round-rating/) har også skrevet en udemærket gennemgang af rating-systemet, og hvordan det fungerer. Rating-systemet er dog ikke uden udfordringer. [Connor Hanrahan](https://connorhanrahan.medium.com/how-to-fix-the-pdga-ratings-system-fe4374140ac7) mener fx, at ratingen burde tage højde for typen af baner, der spilles, da ratingen i discgolf i sidste ende ikke er særlig god til at forudsige spillernes niveau på de enkelte baner.
+{% comment %}
+https://web.archive.org/web/20230130121918/https://sportingdisc.com/category/disc-golf/beginner-info/
+{% endcomment %}
+
+
+[Discer.dk](https://www.discer.dk/discgolf-runde-rating/) har også skrevet en udemærket gennemgang af rating-systemet, og hvordan det fungerer. Rating-systemet er dog ikke uden udfordringer. [Connor Hanrahan](https://connorhanrahan.medium.com/how-to-fix-the-pdga-ratings-system-fe4374140ac7) mener fx, at ratingen burde tage højde for typen af baner, der spilles, da ratingen i discgolf i sidste ende ikke er særlig god til at forudsige spillernes niveau på de enkelte baner.
 
 Hvis du har en PDGA-rating, så kan du fra den udregne et handicap. Hvordan det gøres i praksis, kan du dykke ned i på [PDGAs hjemmeside](https://www.pdga.com/faq/ratings/ratings-for-handicapping).
 
