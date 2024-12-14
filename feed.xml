@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://www.motionsplan.dk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.motionsplan.dk/" rel="alternate" type="text/html" /><updated>2024-12-14T09:15:32+00:00</updated><id>https://www.motionsplan.dk/feed.xml</id><title type="html">Motionsplan</title><subtitle>Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.</subtitle><author><name>Motionsplan</name></author><entry><title type="html">️Liftosaur - app til styrketræning</title><link href="https://www.motionsplan.dk/liftosaur/" rel="alternate" type="text/html" title="️Liftosaur - app til styrketræning" /><published>2024-10-18T00:00:00+00:00</published><updated>2024-10-12T10:14:14+00:00</updated><id>https://www.motionsplan.dk/liftosaur</id><content type="html" xml:base="https://www.motionsplan.dk/liftosaur/"><![CDATA[<p><strong>Liftosaur</strong> er en genial app til planlægning af din styrketræning. Du kan let skrive dine egne programmer, få andres programmer eller bruge nogle af standardprogrammerne.</p>
+
+<p>Jeg har i mange år brugt et regneark til at dele træningsprogrammer til mine elever, eller jeg har skrevet dem ned på et stykke papir.</p>
+
+<p>Jeg har længe drømt om, at jeg let kunne skrive en workout i tekstformat, og teksten kan læses af en app og få det til at ligne et godt træningsprogram.</p>
+
+<p>Det kan du delvist gøre med <a href="https://weightxreps.net/">weightxreps.net</a>. Her får du en god <a href="https://www.motionsplan.dk/rts-app/">træningslog</a>. Men den er ikke helt perfekt.</p>
+
+<p>For jeg vil gerne have en app, hvor jeg kan lave et træningsprogram på forhånd.</p>
+
+<p>Og det kan <a href="https://www.liftosaur.com">Liftosaur</a>.</p>
+
+<h2 id="opret-en-profil-i-liftosaur">Opret en profil i Liftosaur</h2>
+
+<p>Du kan bruge Liftosaur med og uden konto. Der er masser af fordele i at bruge det sammen med en konto, så appen virker på tværs af dine enheder og på din computer.</p>
+
+<h2 id="tjek-indstillingerne">Tjek indstillingerne</h2>
+
+<p>Du skal lige ind og tjekke indstillingerne. Jeg foretrækker, at de metriske betegnelser <code class="language-plaintext highlighter-rouge">kg</code> og <code class="language-plaintext highlighter-rouge">cm</code>.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-settings.png" alt="" /></p>
+
+<p>Så er du faktisk klar til at gå i gang.</p>
+
+<h2 id="vælg-dit-program">Vælg dit program</h2>
+
+<p>Når du har oprettet kontoen, så logger du ind, og du er klar til at gå i gang med et program:</p>
+
+<figure class="third ">
+  
+    
+      <img src="/assets/images/liftosaur/liftosaur-choose-program.png" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/liftosaur/liftosaur-choose-program-start.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/liftosaur/liftosaur-choose-program-start-1.png" alt="" loading="lazy" />
+    
+  
+  
+</figure>
+
+<p>Efterhånden som du gennemfører de enkelte workouts, så klikker du bare på sættet.</p>
+
+<p>Hvis du har gjort noget andet i sættet, end der stod, så kan du holde fingeren eller musen nede på selve sættet. Så har du mulighed for at ændre værdierne for sættet.</p>
+
+<h2 id="lav-dit-eget-træningsprogram">Lav dit eget træningsprogram</h2>
+
+<p>I Liftosaur kan du lave dit eget træningsprogram, hvor du automatisk kan få indbygget progression. Det er supersmart.</p>
+
+<p>Du kan læse meget mere i <a href="https://www.liftosaur.com/docs">dokumentationen for Liftosaur</a>, men her får du lige det grundlæggende.</p>
+
+<p>Programmer kan enten laves i selve programmet med at klikke sig rundt, eller du kan skrive programmerne i tekst.</p>
+
+<p>Jeg synes det er klart lettest at skrive programmerne i tekst.</p>
+
+<p>Du kommer ind for at redigere det i tekst på denne måde:</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-edit-program-markdown.png" alt="" /></p>
+
+<p>Her har jeg bare gjort det så du kan se, hvordan det ser ud pr. dag.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-edit-program-markdown-2.png" alt="" /></p>
+
+<p>Jeg synes det er lettest at overskue på en computer, så du får lige eksemplerne her:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Spænd op. God dybde. Kontrolleret ned. Eksplosivt op.</span>
+<span class="nx">Squat</span> <span class="o">/</span> <span class="mi">4</span><span class="nx">x4</span> <span class="p">@</span><span class="nd">7</span> <span class="sr">/ progress: lp</span><span class="se">(</span><span class="sr">2.5kg, 3</span><span class="err">)
+</span></code></pre></div></div>
+
+<p>Den første linje er en kommentar, du kommer til at se med øvelsen.</p>
+
+<p>Den næste linje betyder følgende adskilt af skråstregen (/).</p>
+
+<ul>
+  <li>Øvelsen er Squat.</li>
+  <li>4 sæt x 4 gentagelser @ RPE 7 (du vil kunne tage 3 gentagelser flere). Du kan også bruge procent (som så beregner fra din 1RM), eller du kan bare skrive din vægt.</li>
+  <li>Progressionen er lineær progression, hvor vægten stiger 2,5 kg, hvis det er lykkes at lave gentagelserne 3 på hinanden følgende træninger.</li>
+</ul>
+
+<hr />
+
+<p>Læs: <a href="/rpe/">Hvad er RPE i styrketræning?</a></p>
+
+<hr />
+
+<p>Det er smart.</p>
+
+<h2 id="hvordan-sætter-du-din-startvægt-1rm">Hvordan sætter du din startvægt (1RM)?</h2>
+
+<p>Når du laver procentbaserede træningsprogrammer eller baseret på RPE, så har du brug for en startvægt, som dit program udregnes ud fra.</p>
+
+<p>I styrketræning bruger man ‘1 repetition maximum’. Altså den vægt, du netop kan løfte en gang.</p>
+
+<hr />
+
+<p>Læs: <a href="/rm-beregner/">Alt om 1 RM med beregner</a></p>
+
+<hr />
+
+<p>Denne vægt skal du sætte for hver øvelse, hvis tallene skal give mening.</p>
+
+<p>Det er heldigvis let at sætte i Liftosaur.</p>
+
+<figure class="third ">
+  
+    
+      <img src="/assets/images/liftosaur/liftosaur-edit-1rm.png" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/liftosaur/liftosaur-edit-1rm-2.png" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/liftosaur/liftosaur-edit-1rm-3.png" alt="" loading="lazy" />
+    
+  
+  
+</figure>
+
+<h2 id="progression-i-programmet">Progression i programmet</h2>
+
+<p>Når du laver et styrketræningsprogram, så er det godt at tænke en form for progression ind i programmet.</p>
+
+<hr />
+
+<p>Læs: <a href="https://www.motionsplan.dk/progressionsmodeller-progressivt-overload/">Progressionsmodeller til styrketræning</a></p>
+
+<hr />
+
+<p>Det er smart, at du kan indikere progression i de enkelte øvelser direkte i programmet.</p>
+
+<p>Der er indbygget følgende progressioner:</p>
+
+<ul>
+  <li><strong>lineær progression</strong> (lp). Øg eller sænk vægten efter n antal forsøg.</li>
+  <li><strong>double progression</strong> (dp). Øg gentagelserne inden for interval, nulstil antallet af gentagelser og øg vægten.</li>
+  <li><strong>sum progression</strong> (sum). Øg vægten hvis summen af reps på alle sæt er mere end en tærskelværdi.</li>
+</ul>
+
+<p>Det skrives på følgende måde:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Lineær progression</span>
+<span class="nf">lp</span><span class="p">(</span><span class="nx">weight</span> <span class="nx">increase</span><span class="p">,</span> <span class="nx">increase</span> <span class="nx">attempts</span><span class="p">,</span> <span class="nx">current</span> <span class="nx">increase</span> <span class="nx">attempt</span><span class="p">,</span> <span class="nx">weight</span> <span class="nx">decrease</span><span class="p">,</span> <span class="nx">decrease</span> <span class="nx">attempts</span><span class="p">,</span> <span class="nx">current</span> <span class="nx">decrease</span> <span class="nx">attempt</span><span class="p">)</span>
+<span class="c1">// Double progression</span>
+<span class="nf">dp</span><span class="p">(</span><span class="nx">weight</span> <span class="nx">increase</span><span class="p">,</span> <span class="nx">min</span> <span class="nx">reps</span><span class="p">,</span> <span class="nx">max</span> <span class="nx">reps</span><span class="p">)</span>
+<span class="c1">// Sum progression</span>
+<span class="nf">sum</span><span class="p">(</span><span class="nx">reps</span> <span class="nx">threshold</span><span class="p">,</span> <span class="nx">weights</span> <span class="nx">increase</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Her er eksemplet med lineær progression igen.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Spænd op. God dybde. Kontrolleret ned. Eksplosivt op.</span>
+<span class="nx">Squat</span> <span class="o">/</span> <span class="mi">4</span><span class="nx">x4</span> <span class="p">@</span><span class="nd">7</span> <span class="sr">/ progress: lp</span><span class="se">(</span><span class="sr">2.5kg, 3</span><span class="err">)
+</span></code></pre></div></div>
+
+<p>Hvis du gerne vil lave din egen type progression, så kan du faktisk selv skrive en funktion, der laver det.</p>
+
+<p>Her har du et par forskellige andre, jeg har skrevet.</p>
+
+<h3 id="fremgang-baseret-på-e1rm">Fremgang baseret på e1RM</h3>
+
+<details>
+  <summary>Se koden for ændre 1RM ved dine løft</summary>
+
+  <p>Hvis du gerne vil have fremgang i dit program, når du laver bedre løft undervejs, så kan du gøre følgende:</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Improvements based on e1RM</span>
+<span class="nx">Squat</span> <span class="o">/</span> <span class="mi">3</span><span class="nx">x3</span> <span class="p">@</span><span class="nd">8</span><span class="o">+</span> <span class="sr">/ progress: custom</span><span class="se">()</span><span class="sr"> {</span><span class="err">~
+</span>  <span class="k">if </span><span class="p">(</span><span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="nx">RPE</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="p">{</span>
+    <span class="kd">var</span><span class="p">.</span><span class="nx">originalE1RM</span> <span class="o">=</span> <span class="nf">round</span><span class="p">(</span><span class="nx">weights</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="nf">rpeMultiplier</span><span class="p">(</span><span class="nx">reps</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nx">RPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+    <span class="kd">var</span><span class="p">.</span><span class="nx">newE1RM</span> <span class="o">=</span> <span class="nf">round</span><span class="p">(</span><span class="nx">weights</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="nf">rpeMultiplier</span><span class="p">(</span><span class="nx">completedReps</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+    <span class="nx">rm1</span> <span class="o">=</span> <span class="kd">var</span><span class="p">.</span><span class="nx">newE1RM</span>
+  <span class="p">}</span>
+<span class="o">~</span><span class="p">}</span>
+</code></pre></div>  </div>
+</details>
+
+<h3 id="triple-progression">Triple progression</h3>
+
+<details>
+  <summary>Se koden til Triple progression</summary>
+
+  <p>Hvis du gerne vil lave en triple progression, hvor du først øger antallet af sæt, reps og vægt i den rækkefølge, så kan du gøre følgende.</p>
+
+  <p>Her er der to variationer, hvilket du skal skrive ind i variablen <code class="language-plaintext highlighter-rouge">maxVariations</code>. Og du skriver vægtøgningen ind under <code class="language-plaintext highlighter-rouge">increment</code>.</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Triple progression. +sæt +reps +vægt</span>
+<span class="nx">Split</span> <span class="nx">Squat</span><span class="p">[</span><span class="mi">1</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span> <span class="o">/</span> <span class="mi">3</span><span class="nx">x15</span><span class="o">-</span><span class="mi">20</span><span class="o">+</span> <span class="sr">/ 4x15-20+ /</span> <span class="nx">progress</span><span class="p">:</span> <span class="nf">custom</span><span class="p">(</span><span class="nx">maxVariations</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="nx">increment</span><span class="p">:</span> <span class="mi">1</span><span class="nx">kg</span><span class="p">)</span> <span class="p">{</span><span class="o">~</span>
+  <span class="k">if </span><span class="p">(</span><span class="nx">completedReps</span> <span class="o">&gt;=</span> <span class="nx">reps</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if </span><span class="p">(</span><span class="nx">setVariationIndex</span> <span class="o">&gt;=</span> <span class="nx">state</span><span class="p">.</span><span class="nx">maxVariations</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">weights</span> <span class="o">+=</span> <span class="nx">state</span><span class="p">.</span><span class="nx">increment</span>
+        <span class="nx">setVariationIndex</span> <span class="o">=</span> <span class="mi">1</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">setVariationIndex</span> <span class="o">+=</span> <span class="mi">1</span>
+      <span class="p">}</span>
+  <span class="p">}</span>
+<span class="o">~</span><span class="p">}</span>
+</code></pre></div>  </div>
+</details>
+
+<h3 id="styrkeprogression">Styrkeprogression</h3>
+
+<details>
+  <summary>Se koden til styrkeprogression</summary>
+
+  <p>Hvis du gerne vil lave en styrkeprogression, hvor du over ugerne øger intensiteten, så kan du gøre følgende.</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1">// setVariation progression - Sets+ - Reps-</span>
+<span class="nx">Bench</span> <span class="nx">Press</span> <span class="o">/</span> <span class="mi">3</span><span class="nx">x7</span> <span class="o">/</span> <span class="mi">4</span><span class="nx">x6</span> <span class="o">/</span> <span class="mi">5</span><span class="nx">x5</span> <span class="o">/</span> <span class="mi">6</span><span class="nx">x4</span> <span class="o">/</span> <span class="nx">progress</span><span class="p">:</span> <span class="nf">custom</span><span class="p">(</span><span class="nx">increase</span><span class="p">:</span> <span class="mi">5</span><span class="nx">kg</span><span class="p">)</span> <span class="p">{</span><span class="o">~</span>
+  <span class="nx">setVariationIndex</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="nx">weights</span> <span class="o">+=</span> <span class="nx">state</span><span class="p">.</span><span class="nx">increase</span>
+<span class="o">~</span><span class="p">}</span>
+</code></pre></div>  </div>
+</details>
+
+<h3 id="emerging-strategies">Emerging Strategies</h3>
+
+<details>
+  <summary>Se koden til Emerging Strategies</summary>
+
+  <p>Jeg kan godt lide fremgangsmåden i Reactive Training Systems Emerging Strategies. Her lader du første sæt danne baggrund for backoff sæt, og du lader RPE styre din træning.</p>
+
+  <p>Du kan læse mere om den fremgangsmåde under vores <a href="/rpe/">gennemgang af RPE</a>. Det kunne se sådan her ud.</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Squat</span> <span class="o">/</span> <span class="mi">1</span><span class="nx">x3</span> <span class="p">@</span><span class="nd">8</span><span class="o">+</span><span class="p">,</span> <span class="mi">5</span><span class="nx">x5</span> <span class="mi">75</span><span class="o">%</span> <span class="sr">/ update: custom</span><span class="se">()</span><span class="sr"> {</span><span class="err">~
+</span>
+  <span class="c1">// **Emerging Strategies**</span>
+  <span class="c1">// Based on https://www.instagram.com/reactivetrainingsystems/p/CJb0Kf9ATmp/</span>
+  <span class="c1">// Backoff sets are always based on the first lift.</span>
+  <span class="k">if </span><span class="p">(</span><span class="nx">setIndex</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span><span class="p">.</span><span class="nx">backoff_reps</span> <span class="o">=</span> <span class="nx">reps</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+    <span class="c1">// Calculate e1rm based on first set</span>
+    <span class="kd">var</span><span class="p">.</span><span class="nx">erm1</span> <span class="o">=</span> <span class="p">(</span><span class="nx">weights</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="nf">rpeMultiplier</span><span class="p">(</span><span class="nx">completedReps</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+
+    <span class="c1">// If set 2 has RPE specified</span>
+    <span class="k">if </span><span class="p">(</span><span class="nx">RPE</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="p">{</span>
+      <span class="kd">var</span><span class="p">.</span><span class="nx">backoff_pct</span> <span class="o">=</span> <span class="nf">rpeMultiplier</span><span class="p">(</span><span class="kd">var</span><span class="p">.</span><span class="nx">backoff_reps</span><span class="p">,</span> <span class="nx">RPE</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+    <span class="c1">// Else use percentage for backoff percent</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="kd">var</span><span class="p">.</span><span class="nx">backoff_pct</span> <span class="o">=</span> <span class="nx">weights</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">/</span> <span class="nx">rm1</span>
+    <span class="p">}</span>
+    
+    <span class="c1">// sets(fromIndex, toIndex, minReps, maxReps, isAmrap, weight, timer, rpe, shouldLogRpe)</span>
+    <span class="nf">sets</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="nx">numberOfSets</span><span class="p">,</span> <span class="kd">var</span><span class="p">.</span><span class="nx">backoff_reps</span><span class="p">,</span> <span class="kd">var</span><span class="p">.</span><span class="nx">backoff_reps</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kd">var</span><span class="p">.</span><span class="nx">erm1</span> <span class="o">*</span> <span class="kd">var</span><span class="p">.</span><span class="nx">backoff_pct</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="o">~</span><span class="p">}</span> <span class="sr">/ progress: custom</span><span class="se">(</span><span class="sr">last_week_rpe: 0</span><span class="se">)</span><span class="sr"> {</span><span class="err">~
+</span>  <span class="c1">// Increase weight if you hit the same weight with lower RPE the following week in your top set.</span>
+  <span class="c1">// Backoff sets will be a percentage of the calculate e1rm from the top set.</span>
+  <span class="c1">// Next week will have the same top set, which will hopefully have a lower RPE.</span>
+
+  <span class="c1">// Increase erm1 if current week RPE for same weight is lower than last week</span>
+    <span class="k">if </span><span class="p">(</span><span class="nx">completedReps</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">state</span><span class="p">.</span><span class="nx">last_week_rpe</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">rm1</span> <span class="o">=</span> <span class="nx">weights</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="nf">rpeMultiplier</span><span class="p">(</span><span class="nx">completedReps</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+      <span class="nx">state</span><span class="p">.</span><span class="nx">last_week_rpe</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">RPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+      <span class="nx">state</span><span class="p">.</span><span class="nx">last_week_rpe</span> <span class="o">=</span> <span class="nx">completedRPE</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="p">}</span>
+<span class="o">~</span><span class="p">}</span>
+</code></pre></div>  </div>
+</details>
+
+<hr />
+
+<p>Det kan du se meget mere om i dokumentationen, men du kan også få hjælp på <a href="https://www.reddit.com/r/liftosaur/">/r/liftosaur</a> på Reddit.</p>
+
+<h2 id="tjek-hvordan-dit-program-virker">Tjek hvordan dit program virker.</h2>
+
+<p>Der er en ‘Playground’, hvor du kan klikke dig igennem programmet for at se, hvordan det virker.</p>
+
+<p>Det er meget smart, så du kan se, hvad der sker, hvis du fx bruger en progression eller har lavet din egen progression.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-playground.png" alt="" /></p>
+
+<p>Så kommer du ind, hvor du kan klikke dig igennem dit program. Det ser i øvrigt ret fedt ud, synes jeg.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-playground-1.png" alt="" /></p>
+
+<h2 id="sæt-dine-egne-øvelser-ind">Sæt dine egne øvelser ind</h2>
+
+<p>Der er en stor øvelsesdatabase på Liftosaur, som du kan se <a href="https://www.liftosaur.com/exercises">her</a>. Men de fleste af os har nok nogle yndlingsøvelser, som ikke lige er i sådan en database.</p>
+
+<p>Heldigvis kan du let tilføje dine egne øvelser.</p>
+
+<p>Hvis du skriver øvelserne ind, og den ikke findes i databasen, så får du mulighed for at lave din egen øvelse.</p>
+
+<p>Når du redigerer dit træningsprogram i tekst og øvelsen ikke findes i databasen, så får du mulighed for at oprette den.</p>
+
+<p>Det ser nogenlunde sådan her ud.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-new-exercise.png" alt="" /></p>
+
+<p>Her kan du skrive navnet, vælge muskler og sætte et par billeder ind.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-new-exercise-2.png" alt="" /></p>
+
+<p>Når du vil se alle øvelserne, så kan du gå til <code class="language-plaintext highlighter-rouge">Settings-&gt;Exercises</code>.</p>
+
+<p>Her kan du se oversigten over dine egne øvelser, de øvelser du har brugt og alle de andre øvelser.</p>
+
+<p><img src="/assets/images/liftosaur/liftosaur-new-exercise-3.png" alt="" /></p>
+
+<p>Hvis du gerne vil have lidt professionelle billeder på, så kan du kigge på <a href="https://gymvisual.com/">Gym Visual</a>. Der kan du købe animerede gifs virkelig billigt.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Liftosaur er stadig under udvikling, så der kommer både forbedringer og ændringer.</p>
+
+<p>Men det er genialt, hvordan du ved en ret enkel måde at skrive dit program ned på kan stå med et program, hvor der er en indbygget.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Styrketræning&quot;]" /><category term="styrketræning" /><summary type="html"><![CDATA[Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.]]></summary></entry><entry><title type="html">️Fysiologien bag temperaturregulering af menneskekroppen</title><link href="https://www.motionsplan.dk/fysiologi-temperaturregulering/" rel="alternate" type="text/html" title="️Fysiologien bag temperaturregulering af menneskekroppen" /><published>2024-08-12T00:00:00+00:00</published><updated>2024-08-12T10:14:14+00:00</updated><id>https://www.motionsplan.dk/temperaturregulering-menneskekroppen</id><content type="html" xml:base="https://www.motionsplan.dk/fysiologi-temperaturregulering/"><![CDATA[<p>Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer eller lave varmetræning.</p>
+
+<p>Mennesket kan regulere kernetemperaturen, så den ligger mellem 36,67°C til 37,78°C, når den omgivende temperatur er mellem 20°C til 54°C (Guyton 1971).</p>
+
+<p>Temperaturreguleringen foregår gennem stråling (radiation), konduktion (overførsel), konvektion og fordampning af sved (evaporation af perspiration).</p>
+
+<p>Her får du et overblik over, hvordan temperaturreguleringen foregår.</p>
+
+<h2 id="temperaturregulering-i-kroppen">Temperaturregulering i kroppen</h2>
+
+<p>Temperaturreguleringen styres i hypothalamus. I hypothalamus er kontrolcenteret, men det er også her de væsentligste temperatursensorer er.</p>
+
+<p>Du begynder at svede ved en hudtemperatur på 37°C, og svedraten stiger hurtigt, hvis hudtemperaturen stiger.</p>
+
+<p>Varmeproduktionen i kroppen er nogenlunde konstant under disse omstændigheder, men temperaturen stiger naturligvis, hvis du begynder at arbejde hårdere.</p>
+
+<p>Kroppen har alle mulige måder at holde temperaturen konstant på.</p>
+
+<ul>
+  <li>Hvor meget blod der sendes ud til huden.</li>
+  <li>Svedraten øges eller sænkes.</li>
+  <li>Rystelser eller afslapning i musklerne for at sænke eller forøge temperaturproduktionen i musklerne.</li>
+  <li>Regulering af efedrin, norefedrin og tyroxin for at regulere varmeproduktionen.</li>
+</ul>
+
+<h3 id="lufttemperaturen-er-lavere-end-hudtemperaturen">Lufttemperaturen er lavere end hudtemperaturen</h3>
+
+<figure class="">
+  <img src="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool2.png" alt="" loading="lazy" /><figcaption>
+      Kilde: <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1">HyperPhysics</a>
+
+    </figcaption></figure>
+
+<p>Dette er naturligvis en forsimplet udgave af temperaturreguleringen. Selvom du er inaktiv, så skal du stadig af med en del varme, som hænger sammen med <a href="/bmr-beregner-hvilestofskifte-basalstofskifte/">dit hvilestofskifte</a>.</p>
+
+<p>En voksen mand skal fx af med omkring 90 watt varme bare pga. basalstofskiftet.</p>
+
+<p>Udstråling er i hvile en af de væsentligste mekanismer ved stuetemperatur. Ved stuetemperatur på 23 C, så vil det ikke være rart ikke at have tøj på.</p>
+
+<p>Hudtemperaturen er typisk omkring 34 C i hvile, og din kernetemperatur er omkring 37 C.</p>
+
+<h2 id="lufttemperaturen-er-højere-end-hudtemperaturen">Lufttemperaturen er højere end hudtemperaturen</h2>
+
+<figure class="">
+  <img src="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool3.png" alt="" loading="lazy" /><figcaption>
+      Kilde: <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1">HyperPhysics</a>
+
+    </figcaption></figure>
+
+<p>Når lufttemperaturen er højere end kropstemperaturen, så bliver det lidt vanskeligere at komme af med varmen.</p>
+
+<p>Du skal stadig af med varmen, der er forbundet med dit stofskifte. Men nu tilfører stråling (radiation), konduktion (overførsel) og konvektion varme til kroppen i stedet for at fjerne den.</p>
+
+<p>Nu bliver fordampning af sved (evaporation af perspiration) den eneste kilde til at fjerne varmen.</p>
+
+<p>Mekanismerne bag temperaturreguleringen vil gøre, at hudtemperaturen stiger til 37°C, og så begynder du at svede mere og mere. Svedraten øges indtil kølingseffekten af fordampningen kan holde huden på 37°C.</p>
+
+<p>Så i varme forhold, så modtager du 109 watt fra omgivelserne, hvis du har en overflade på omkring 2 m<sup>2</sup> og en emmisionsevne på 0,97.</p>
+
+<p>Du har også dit basalstofskifte, så selv i hvile skal du altså af med næsten 200W i varme, når lufttemperaturen er højere end din hudtemperatur.</p>
+
+<h2 id="radiation">Radiation</h2>
+
+<p>Der forsvinder en del varme fra kroppen gennem <em>radiation</em> eller udstråling fra kroppen.</p>
+
+<p>Du kan udregne din omtrentlige temperaturregulering gennem udstråling i denne beregner.</p>
+
+<form class="calculator" id="calculator_radiation">
+    <fieldset>
+        <legend>Varmetab til radiation</legend>
+        <div class="form-group">
+            <label>Formel for udregning af radiation
+            <select name="radiation_formula">
+                <option value="couzens">Couzens</option>
+                <option value="boltzmann">Boltzmann</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overfladeareal (m<sup>2</sup>) - BSA
+                <input type="number" min="0" max="10" placeholder="fx 1,8336" name="radiation_bsa" id="radiation_bsa" step="0.000001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (°C)
+                <input type="number" min="20" max="50" placeholder="fx 37" name="radiation_skin_temperature" id="radiation_skin_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (°C)
+                <input type="number" min="-100" max="50" placeholder="fx 31" name="radiation_air_temperature" id="radiation_air_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Emmisionsevne
+                <input type="number" min="0" max="1" placeholder="fx 0,97" value="0.97" name="radiation_emmisivity" id="radiation_emmisivity" step="0.01" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til radiation (watts)
+                <input name="heatloss_radiation" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Beregneren er baseret på Stefan Boltzmanns formel for, hvor meget varme, der forsvinder ved radiation (se mere på <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodrad.html">HyperPhysics</a>):</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" title="\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" alt="\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" loading="lazy" /></p>
+
+<p>A er kroppens areal, og e er <em>emmisionsevnen</em> af kroppen. Hvis kroppen var en perfekt radiator, så ville e være 1. Kroppen er faktisk en ret god radiator, så vi går ud fra at emmisionsevnen er 0,97.</p>
+
+<p>Temperaturerne skal være i Kelvin i formlen, men beregneren antager, at du indtaster det i Celcius. Endelig er der Stefan Boltzmanns konstant σ, som du selv lige må slå op, hvis du vil regne det i hovedet.</p>
+
+<h2 id="konduktion">Konduktion</h2>
+
+<p>Konduktion er varmeoverførslen mellem to overflader. Et eksempel er når du sætter dig på en stol, så vil stolen være varmere, når du rejser dig igen (se mere på <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c1">HyperPhysics</a>).</p>
+
+<p>Du kan estimere, hvor meget køling der foregår af din krop i nedenstående beregner.</p>
+
+<form class="calculator" id="calculator_conduction">
+    <fieldset>
+        <legend>Varmetab til konduktion</legend>
+        <div class="form-group">
+            <label>Overfladeareal (m<sup>2</sup>) - BSA
+                <input type="number" min="0" max="10" placeholder="fx 1,8336" name="conduction_bsa" id="conduction_bsa" step="0.000001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (°C)
+                <input type="number" min="20" max="50" placeholder="fx 37" name="conduction_skin_temperature" id="conduction_skin_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (°C)
+                <input type="number" min="20" max="50" placeholder="fx 31" name="conduction_air_temperature" id="conduction_air_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>d - Tykkelsen på barrieren (cm)
+                <input type="number" min="0.01" max="30" placeholder="fx 5" name="conduction_d" id="conduction_d" value="5" step="0.01" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til konduktion (watts)
+                <input name="heatloss_conduction" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Beregneren baserer sig på følgende udregninger.</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?\frac{Q}{t} = \frac{k \times A \times (T_{hot} - T_{cold})}{d}" title="\frac{Q}{t} = \frac{k \times A \times (T_{hot} - T_{cold})}{d}" alt="\frac{Q}{t} = \frac{k \times A \times (T_{hot} - T_{cold})}{d}" loading="lazy" /></p>
+
+<p>Hvor k er ‘thermal conductivity’ af den luft, der omgiver kroppen, som er en konstant. A er kroppens areal. T er temperaturen. d er tykkelsen på barrieren, som typisk kan sættes til 5 centimeter fra huden til den omgivende luft, inden temperaturen er skiftet. Endelig skal du huske at gange med 4.186 J/cal.</p>
+
+<p>I et eksempel med køling af kroppen, så kan du naturligvis ikke nøjagtigt se, hvor tyk barrieren er. Barrieren skal forstås som den distance der er, indtil temperaturen er faldet til den omgivende lufttemperatur.</p>
+
+<p>Det er et gæt, at barrieren er <code class="language-plaintext highlighter-rouge">d = 5 cm</code> inden luften er kølet ned til den omgivende temperatur, når du sidder stille.</p>
+
+<figure class="">
+  <img src="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/wall2.png" alt="" loading="lazy" /><figcaption>
+      Kilde: <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c4">HyperPhysics</a>
+
+    </figcaption></figure>
+
+<p>Hvis du har en blæser til at fjerne den opvarmede luft eller kører udenfor i vinden, så vil konduktionen blive noget højere.</p>
+
+<p>Her kan vi tale om <em>konvektion</em>.</p>
+
+<h2 id="konvektion">Konvektion</h2>
+
+<p>Når man skal estimere effekten af konvektion på kroppen, så hænger det ofte sammen med konduktion.</p>
+
+<p>Samlet set er kølingen fra konduktion og konvektion ikke tilstrækkeligt til at nedkøle kroppen, hvis man sidder stille.</p>
+
+<p>Det gør man imidlertid ikke så ofte i idræt.</p>
+
+<p>Konvektion er en af de basale mekanismer bag varmeoverførsel. Konvektion i temperaturreguleringen af mennesker foregår ved, at luften omkring kroppen bevæger sig.</p>
+
+<p>Ifølge <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c4">HyperPhysics</a> er den bedste måde at udregne varmetabet ved konvektion, at bruge udregningen for konduktion og <strong>justere vægtykkelsen</strong>, fordi luftbevægelsen reducerer det opvarmede lag, der er omkring huden.</p>
+
+<p><a href="https://www.alancouzens.com/blog/heat.html">Alan Couzens</a> udregner konvektionen lidt anderledes. Han bruger bevægelseshastigheden. Jeg ved ikke nøjagtigt, hvor han har formlen fra.</p>
+
+<p>Men med bevægelseshastigheden, så ser beregningen sådan her ud.</p>
+
+<form class="calculator" id="calculator_convection">
+    <fieldset>
+        <legend>Varmetab til konvektion</legend>
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input type="number" min="0" max="5" placeholder="fx 1,8336" name="convection_bsa" id="convection_bsa" step="0.0001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (C)
+                <input type="number" value="31" min="-50" max="50" placeholder="fx 31" name="air_temperature" id="air_temperature" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (C)
+                <input type="number" value="37" min="10" max="50" placeholder="fx 37" name="skin_temperature" id="skin_temperature" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input value="41" type="number" min="0" max="100" placeholder="fx 41" name="velocity_kmt" id="velocity_kmt" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til konvektion (watts)
+                <input name="heatloss_convection" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Hvis du bruger beregneren til konduktion og sammenligner med Alan Couzens tal for konvektion, så kan du se, at hvis du vælger ´d = 0,08 cm´ med tallene fra eksemplet, så ender du på nogenlunde samme nedkøling.</p>
+
+<p class="notice--info">Hvis du kender en måde at beregne den nødvendige d i forhold til hastighed, så man bare kan bruge beregningerne for konduktion, så skriv endelig!</p>
+
+<h2 id="fordampning-af-sved-evaporation-af-perspiration">Fordampning af sved (evaporation af perspiration)</h2>
+
+<p>Når den omgivende temperatur er højere end kropstemperaturen, så tilfører både radiation, konvektion og konvektion varme til kroppen.</p>
+
+<p>Du kan selv prøve i beregnerne ovenfor.</p>
+
+<p>Når de andre kølingsmekanismer er sat ud af drift, så er der kun fordampning af sved fra huden og udåndingsluften.</p>
+
+<p>Selvom du ikke synes du går rundt og sveder, så taber du ifølge <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/sweat.html#c1">HyperPhysics</a> 600 gram gennem fordampning af fugt fra huden.</p>
+
+<p>Kølingseffekten udnytter, at fordampningen af vand kræver op til 580 cal/gram ved normal hudtemperatur.</p>
+
+<p>Huden vil begynde at svede ved en temperatur på 37°C. Guyton (1971) skriver, at svedraten per time er 1,5 L/timen, men ved <a href="/varmeakklimatisering-traening-i-varmen/">varmeakklimatisering</a> kan du komme helt op på 3,5 liter i timen.</p>
+
+<p>Fordampningen af sved giver altså en usædvanlig god køling.</p>
+
+<p>Så vær du glad for, at du har evnen til at svede.</p>
+
+<p>Det er naturligvis lidt kompliceret at regne nøjagtigt ud, fordi energien krævet til fordampningen er forskellig i forhold til temperaturen og fordampningen afhænger af lufttemperaturen og luftfugtigheden.</p>
+
+<p><a href="https://www.alancouzens.com/blog/heat.html">Alan Couzens</a> har inspireret denne beregner, hvor luftfugtigheden er taget med i betragtning.</p>
+
+<form class="calculator" id="calculator_evaporation">
+    <fieldset>
+        <legend>Varmetab til evaporation</legend>
+        <div class="form-group">
+            <label>Sved (L/timen)
+                <input value="1.5" type="number" min="0" max="10" placeholder="fx 1,5" name="sweat_rate" id="sweat_rate" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Luftfugtighed (%)
+                <input value="80" type="number" min="0" max="100" placeholder="fx 80" name="humidity" id="humidity" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til evaporation (watts)
+                <input name="heatloss_evaporation" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Jeg har ikke kunnet finde nogen referencer på, hvordan man præcist udregner evaporation. <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/sweat.html#c1">Hyperphysics</a> griber det lidt anderledes an.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Når du arbejder, så genererer kroppen en masse varme. Heldigvis er den også dygtig til at temperaturregulere.</p>
+
+<p>Hvis du skal lave længerevarende træning, så kan det være en rigtig god ide at tænke over, hvordan du sørger for nedkøling af kroppen.</p>
+
+<p>Her kan du lade dig inspirere af de forskellige nedkølingsmekanismer.</p>
+
+<h2 id="referencer">Referencer</h2>
+
+<ul>
+  <li>Guyton, Arthur C., Basic Human Physiology: Normal Function and Mechanisms of Disease, W.B. Saunders Co, 1971.</li>
+</ul>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Fysiologi&quot;]" /><category term="beregner" /><category term="fysiologi" /><category term="varmetræning" /><summary type="html"><![CDATA[Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer eller lave varmetræning.]]></summary></entry><entry><title type="html">️Udregn energiforbrug og effektivitet af en aktivitet</title><link href="https://www.motionsplan.dk/udregne-energiforbrug-og-effektivitet/" rel="alternate" type="text/html" title="️Udregn energiforbrug og effektivitet af en aktivitet" /><published>2024-08-05T00:00:00+00:00</published><updated>2024-08-04T10:14:14+00:00</updated><id>https://www.motionsplan.dk/energiforbrug</id><content type="html" xml:base="https://www.motionsplan.dk/udregne-energiforbrug-og-effektivitet/"><![CDATA[<p>Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling. Du kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi.</p>
+
+<p>Beregningerne kræver, at du har adgang til at måle iltoptagelsen (og gerne også udskillelsen af kuldioxidudskillelsen).</p>
+
+<p>Her dykker vi særligt ned i en metode til at måle cykeløkonomi, som er inspireret af <a href="https://vo2master.com/blog/exercise-efficiency/">VO2MASTERs blogindlæg</a>.</p>
+
+<p>Det er vigtigt at understrege, at der er flere forskellige måder at udregne bevægelsesøkonomi på, men her dykker vi ned i rationalet bag en metode.</p>
+
+<h2 id="hvad-er-bevægelsesøkonomi">Hvad er bevægelsesøkonomi?</h2>
+
+<p>Bevægelsesøkonomi beskriver kroppens evne til at oversætte den kemiske energi i kroppen til bevægelse.</p>
+
+<p>Sevlom bevægelsesøkonomi og effektivitet ofte bliver brugt synonymt, men der er faktisk en mindre forskel.</p>
+
+<ul>
+  <li><strong>Effektivitet</strong>. Energi nødvendigt for at fastholde en bestemt hastighed eller power.</li>
+  <li><strong>Økonomi</strong>. Ilt nødvendigt for at fastholde en bestemt hastighed eller power.</li>
+</ul>
+
+<p>For at udregne effektiviteten skal vi først udregne energiforbruget (<a href="https://pdfs.semanticscholar.org/eed4/f50eee1600210eb325bb71d0e867dd3ab504.pdfhttps:/pdfs.semanticscholar.org/eed4/f50eee1600210eb325bb71d0e867dd3ab504.pdf">Jeukendrup 2001</a>).</p>
+
+<h2 id="udregn-energiforbrug">Udregn energiforbrug</h2>
+
+<p>Når du har kørt steady state med en specifik intensitet i fx 5 minutter, så kan du bruge gennemsnitsværdierne fra de sidste par minutter og indtaste i nedenstående beregner.</p>
+
+<p>Hvis ikke du kender R-værdien, så kan du bruge 0,90 i beregneren. Der er en lille smule forskel på, hvor mange kcal der bliver brugt pr. liter ilt alt efter om det primære næringsstof er kulhydrat eller fedt. I submaksimalt arbejde vil R=0,9 være et fint kompromis.</p>
+
+<form class="calculator" id="calculator_energy_expenditure">
+    <fieldset>
+        <legend>Energiforbrug baseret på VO<sub>2</sub> og R-værdien</legend>
+        <div class="form-group">
+            <label>Formel for energiforbrug
+            <select name="ee-rer-formula">
+                <option value="lusk">Lusk</option>
+                <option value="garby">Garby</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>VO<sub>2</sub> (L/min)
+                <input type="number" min="0" max="5" placeholder="fx 1,89" value="1.89" name="vo2" id="vo2" step="0.001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>R-værdi
+                <input type="number" min="0" max="2" placeholder="fx 0,90" value="0.90" name="r" id="r" step="0.01" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Energiforbrug (J/s)
+                <input name="energy_expenditure" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Et eksempel:</p>
+
+<p>Lad os sige, at du cykler med <span id="bike_efficiency_text_workrate">100</span>W og iltoptagelsen er målt til <span id="bike_efficiency_text_vo2">1,89</span>L O<sub>2</sub>/min og en R-værdi på <span id="bike_efficiency_text_r">0,90</span>, så er energiforbruget <span id="bike_efficiency_text_ee">650,77</span>J/s.</p>
+
+<h2 id="udregne-bruttoeffektivtet-gross-efficiency">Udregne bruttoeffektivtet (gross efficiency)</h2>
+
+<p>Når du kender energiforbruget beregnet ud fra iltoptagelsen, og du kender intensiteten i watt fra cyklen, så kan du udregne bruttoeffektiviteten.</p>
+
+<form class="calculator" id="calculator_gross_efficiency">
+    <fieldset>
+        <legend>Gross Efficiency</legend>
+        <div class="form-group">
+            <label>Workrate (W)
+                <input type="number" min="0" max="1000" placeholder="fx 100" value="100" name="workrate_watt" id="workrate_watt" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Energy Expenditure (J/s)
+                <input type="number" min="0" max="10000" placeholder="fx 650,77" name="ee" id="ee" step="0.01" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Gross efficiency (%)
+                <input name="gross_efficiency" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Bruttoeffektiviteten er altså ikke særlig høj, når du cykler. Typisk er effektiviteten på cykel mellem <a href="https://www.researchgate.net/profile/George_Brooks/publication/22014772_Muscular_efficiency_during_steady-rate_exercise_effects_of_speed_and_work_rate/links/02e7e531d20463170e000000.pdf">7,5-25,4%</a>.</p>
+
+<blockquote>
+  <p>As power output increases so does gross efficiency up to about 300w (where values range from 18-25%), then due to the recruitment of more type II muscle fibers efficiency begins to drop.</p>
+</blockquote>
+
+<p>– <cite><a href="https://vo2master.com/blog/exercise-efficiency/">vo2master.com</a></cite></p>
+
+<p>Den mindste del af din energi når du cykler bliver altså overført til pedalerne, mens resten udskilles som varme.</p>
+
+<p>Med et energiforbrug på <span id="bike_efficiency_ee_js">650,77</span>J/s og et power output på <span id="bike_efficiency_power_output_watt">100</span>W er bruttoeffektiviteten altså kun <span id="bike_efficiency_ge">15,37</span>%.</p>
+
+<hr />
+
+<p>Læs: <a href="/varme-management-cykling/">Varmehåndtering i cykling</a></p>
+
+<hr />
+
+<h2 id="udregn-cykeløkonomien">Udregn cykeløkonomien</h2>
+
+<p>Endelig kan vi udregne cykeløkonomien.</p>
+
+<form class="calculator" id="calculator_cycling_economy">
+    <fieldset>
+        <legend>Cykeløkonomi</legend>
+        <div class="form-group">
+            <label>Power output (J/s)
+                <input type="number" min="0" max="10000" placeholder="fx 100" value="100" name="power_output_js" id="power_output_js" step="0.001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Iltforbrug (L/min)
+                <input type="number" min="0" max="5" placeholder="fx 1,89" name="economy_vo2" id="economy_vo2" step="0.001" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Cykeløkonomi (kJ/L)
+                <input name="biking_economy" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>I vores eksempel:</p>
+
+<p>Med Power output på <span id="bike_economy_power_output">100</span>W og iltforbrug på <span id="bike_economy_vo2">1,89</span> L/O<sub>2</sub>, så bliver cykeløkonomien <span id="bike_economy_biking_economy">3,17</span>kJ/L.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Sådan kan du altså ved hjælp af målinger af iltoptagelsen og R-værdien udregne cykeløkonomi og cykeleffektivitet.</p>
+
+<hr />
+
+<p>Læs: <a href="/lobeokonomi/">Beregn din løbeøkonomi</a></p>
+
+<hr />]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Fysiologi&quot;, &quot;Kondition&quot;, &quot;Cykling&quot;]" /><category term="beregner" /><category term="fysiologi" /><category term="cykling" /><summary type="html"><![CDATA[Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling. Du kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi.]]></summary></entry><entry><title type="html">️Varmehåndtering på cykel</title><link href="https://www.motionsplan.dk/varme-management-cykling/" rel="alternate" type="text/html" title="️Varmehåndtering på cykel" /><published>2024-08-05T00:00:00+00:00</published><updated>2024-08-04T10:14:14+00:00</updated><id>https://www.motionsplan.dk/heat-management-biking</id><content type="html" xml:base="https://www.motionsplan.dk/varme-management-cykling/"><![CDATA[<p>Hvis du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.</p>
+
+<p>Her kigger vi på varmehåndtering på cyklen inspireret af <a href="https://www.alancouzens.com/blog/heat.html">Alan Couzens</a>, som gennemgår videnskaben bag varmehåndtering i lange træninger eller løb på cyklen.</p>
+
+<p>Gode præstationer i varmen afhænger af kropsvægten, kroppens overfladeareal og det nødvendige power output for at cykle hurtigt.</p>
+
+<p>Det afhænger naturligvis også af, om du har forberedt dig med <a href="/varmetraening/">varmetræning</a>.</p>
+
+<p>Det kan være lettere at præstere i varmen, hvis du er en lille, let cykelrytter end hvis du er stor og muskuløs, fordi en stor krop genererer mere varme.</p>
+
+<p>Lad os kigge lidt på nogle tal!</p>
+
+<h2 id="varmeproduktion-på-cykel">Varmeproduktion på cykel</h2>
+
+<p>Når du arbejder, så bliver noget af arbejdet til fremdrift på cyklen, mens hovedparten af dit arbejde bliver til varme, som din krop skal af med.</p>
+
+<p>Dygtige cykelryttere har en effektivitet på omkring ~23% (og de fleste af os andre har en lavere effektivitet).</p>
+
+<p>Det betyder, at af den samlede energi kroppen skaber, så er det kun ~23% der bliver overført til pedalerne og derefter til fremdrift.</p>
+
+<p>Prøv med dine egne tal i denne beregner:</p>
+
+<form class="calculator" id="calculator_heat_production_biking">
+    <fieldset>
+        <legend>Varmeproduktion på cykel</legend>
+        <div class="form-group">
+            <label>Power output (cykel)
+                <input type="number" min="10" max="1000" placeholder="fx 275" value="275" name="power_output" id="power_output" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Effektivitet (%)
+                <input type="number" min="0" max="100" placeholder="fx 23" value="23" name="efficiency" id="efficiency" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmeproduktion (watts)
+                <input name="heat_production_watts_biking" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Den estimerede varme der genereres med et power output på <span id="heat_bike_power_output">275</span>W og en effektivitet på <span id="heat_bike_efficiency">23</span>% er omkring ~<span id="heat_bike_watt">921</span>W.</p>
+
+<p>Det er altså en betydelig andel varme, som kroppen skal af med.</p>
+
+<p>Du kan prøve at lege lidt med, hvad det betyder, hvis du kan blive mere bevægelsesøkonomisk og hæve din effektivitet på cyklen.</p>
+
+<p>Heldigvis har din krop nogle effektive måder at håndtere varme på.</p>
+
+<p>Lad os kigge på de tre vigtigste.</p>
+
+<h2 id="1-varmetab-til-konvektion">1. Varmetab til konvektion</h2>
+
+<p>Når du cykler, så bliver du nedkølet, hvis vinden er koldere end din hudtemperatur.</p>
+
+<p>Det totale varmetab afhænger af lufttemperaturen, hudtemperaturen, kroppens overfladeareal og din hastighed.</p>
+
+<p>Lad os først udregne kroppens overfladeareal:</p>
+
+<form class="calculator" id="calculator_bsa">
+    <fieldset>
+        <legend>Udregning af overfladeareal (body surface area) for et menneske.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af BSA
+            <select name="bsa-formula">
+                <option value="mosteller">Mosteller</option>
+                <option value="dubois">Du Bois</option>
+                <option value="fujimoto">Fujimoto</option>
+                <option value="haycock">Haycock</option>
+                <option value="gehanandgeorge">Gehan &amp; George</option>
+            </select>
+            </label>
+        </div>
+        <!--
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="male" selected>Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        -->
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 68" value="68" name="bsa_weight" id="bsa_weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" min="100" max="200" placeholder="fx 178" value="178" name="bsa_height" id="bsa_height" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input name="bsa" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Dit estimerede overfladeareal er <span id="heat_management_bsa">1.8336</span> m<sup>2</sup>. Det er en fordel at have et lidt højere areal, når du skal af med varmen.</p>
+
+<p>Hvor meget varme kan du med dit kropsareal forvente at slippe af med gennem konvektion?</p>
+
+<form class="calculator" id="calculator_convection">
+    <fieldset>
+        <legend>Varmetab til konvektion</legend>
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input type="number" min="0" max="5" placeholder="fx 1,8336" name="convection_bsa" id="convection_bsa" step="0.0001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (C)
+                <input type="number" value="31" min="-50" max="50" placeholder="fx 31" name="air_temperature" id="air_temperature" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (C)
+                <input type="number" value="37" min="10" max="50" placeholder="fx 37" name="skin_temperature" id="skin_temperature" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input value="41" type="number" min="0" max="100" placeholder="fx 41" name="velocity_kmt" id="velocity_kmt" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til konvektion (watts)
+                <input name="heatloss_convection" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p><span id="heat_management_convection">308</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_management_subtotal_1">613</span>W i varme.</p>
+
+<h2 id="2-varmetab-til-radiation">2. Varmetab til radiation</h2>
+
+<p>Vi taber også noget varme gennem simpel radiation. Det er mindre effektivt end gennem konvektion.</p>
+
+<p>Selvom vi overfører noget af vores varme til omgivelserne, så kan omgivelserne også overføre varme til os. Tænk på en dag, hvor du går på varm asfalt og næsten føler du går på en stegepande.</p>
+
+<p>Men her prøver vi at estimere den potentielle varmeoverførsel til omgivelserne baseret på din kropsoverflade og temperaturforskellen mellem luften og din hud.</p>
+
+<form class="calculator" id="calculator_radiation">
+    <fieldset>
+        <legend>Varmetab til radiation</legend>
+        <div class="form-group">
+            <label>Formel for udregning af radiation
+            <select name="radiation_formula">
+                <option value="couzens">Couzens</option>
+                <option value="boltzmann">Boltzmann</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overfladeareal (m<sup>2</sup>) - BSA
+                <input type="number" min="0" max="10" placeholder="fx 1,8336" name="radiation_bsa" id="radiation_bsa" step="0.000001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (°C)
+                <input type="number" min="20" max="50" placeholder="fx 37" name="radiation_skin_temperature" id="radiation_skin_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (°C)
+                <input type="number" min="-100" max="50" placeholder="fx 31" name="radiation_air_temperature" id="radiation_air_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Emmisionsevne
+                <input type="number" min="0" max="1" placeholder="fx 0,97" value="0.97" name="radiation_emmisivity" id="radiation_emmisivity" step="0.01" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til radiation (watts)
+                <input name="heatloss_radiation" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Varmetabet gennem radiation er <span id="heat_management_radiation">57</span>W. Men kroppen skal stadig af med <span id="heat_management_subtotal_2">556</span>W varme.</p>
+
+<p class="notice--info">Jeg tror <a href="https://www.alancouzens.com/blog/heat.html">Alan Couzens</a>’ oprindelige beregner har et forkert udgangspunkt for beregningerne. Den forudsætter en omgivende temperatur på 0°C, hvilket jo kun er tilfældet, hvis man køler sig selv ned med is undervejs.</p>
+
+<h2 id="3-varmetab-til-evaporation">3. Varmetab til evaporation</h2>
+
+<p>Kroppen har også potentiale til at slippe af med meget varme gennem evaporation. Med andre ord sved.</p>
+
+<p>Der er tre faktorer, som har betydningen for effektiviteten af evaporation.</p>
+
+<ol>
+  <li><strong>Luftfugtigheden</strong>. Hvis luftfugtigheden er høj, så er effektiviteten af fordampningen af sved ikke så effektivt.</li>
+  <li><strong>Atletens svedrate</strong>. Jo bedre trænet atleten er til at have en høj svedrate.</li>
+  <li><strong>Atletens væskeoptagelseshastighed</strong>. Atleten skal træne evnen til at optage en høj volumen af væske.</li>
+</ol>
+
+<p>Læs: <a href="/hvor-meget-vand-skal-man-drikke-om-dagen/">Hvor meget væske skal du drikke?</a></p>
+
+<p>I varme er det særligt under længere arbejde at have en fornuftig hydreringsstrategi. Det er faktisk vigtigt <strong>ikke at overhydrere</strong>.</p>
+
+<p>Lad os kigge lidt på tallene igen…</p>
+
+<p>Den øvre grænse for væsketransport på tværs af tarmvæggen er 1,5 L/timen. Derfor skal vores svedrate helst ikke være højere end det, da vi så risikerer at opbruge kroppens væskedepoter.</p>
+
+<form class="calculator" id="calculator_evaporation">
+    <fieldset>
+        <legend>Varmetab til evaporation</legend>
+        <div class="form-group">
+            <label>Sved (L/timen)
+                <input value="1.5" type="number" min="0" max="10" placeholder="fx 1,5" name="sweat_rate" id="sweat_rate" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Luftfugtighed (%)
+                <input value="80" type="number" min="0" max="100" placeholder="fx 80" name="humidity" id="humidity" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til evaporation (watts)
+                <input name="heatloss_evaporation" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Varmetabet via evaporation er <span id="heat_management_evaporation">300</span>W. Det giver en total på <span id="heat_management_subtotal_3">256</span>W af varme tilbage i systemet.</p>
+
+<p id="heat_management_message">Vær opmærksom! Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du få mere køling i systemet.</p>
+
+<h2 id="hvor-meget-stiger-kernetemperaturen">Hvor meget stiger kernetemperaturen?</h2>
+
+<p>Alt dette er naturligvis baseret på modeller og estimater. Men hvis du har overskudsvarme, som du ikke kan komme af med, så vil kroppen blive varmere.</p>
+
+<p>Men hvor varm?</p>
+
+<p>Lad os kigge lidt på tallene:</p>
+
+<form class="calculator" id="calculator_temperature_rise">
+    <fieldset>
+        <legend>Varmestigning</legend>
+        <div class="form-group">
+            <label>Ekstra varmeproduktion (watt)
+                <input type="number" min="0" max="10000" placeholder="fx 200" name="heat_temperature_rise_excess_watt" id="heat_temperature_rise_excess_watt" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid for ekstra varmeproduktion (min:sek)</label>
+            <input type="number" placeholder="3" name="heat_temperature_rise_hours" min="0" max="20" class="input-mini" required="" /> <span class="help-inline">timer</span>
+            <input type="number" placeholder="30" name="heat_temperature_rise_min" min="0" max="59" class="input-mini" required="" /> <span class="help-inline">min</span>
+            <input type="number" value="0" placeholder="0" name="heat_temperature_rise_sek" min="0" max="59" class="input-mini" required="" /> <span class="help-inline">sek</span>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input type="number" min="10" max="1000" placeholder="fx 80" name="heat_temperature_rise_weight" id="heat_temperature_rise_weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kroppens varmekapacitet (J/(kg·°C))
+                <input type="number" min="0" max="10000" placeholder="fx 3470" name="heat_temperature_rise_c" id="heat_temperature_rise_c" value="3470" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Temperaturstigning (°C)
+                <input name="heat_temperature_rise_result" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Kroppen vil gøre alt, hvad den kan for at fastholde kropstemperaturen i et relativt snævert interval.</p>
+
+<p id="heat_temperature_rise_message"></p>
+
+<p>Hvis kropstemperaturen ikke kan holdes nede på andre måder, så kan kroppen kun sænke intensiteten, så varmeproduktionen bliver mindre.</p>
+
+<p>I cykling får du en relativt høj grad af nedkøling pga. den høje fart. Men på ekstremt varme dage, så skal du altså selv lægge noget i ligningen.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Varmehåndtering kræver, at du øver dig. Der er meget, du kan gøre for at forberede dig. Hvis du skal træne eller konkurrere i varmen, så er det en god ide at <a href="/varmeakklimatisering-traening-i-varmen/">træne på din varmeakklimatisering</a> først.</p>
+
+<p>Men du kan også gøre det lettere for dig selv, så du skaber mindre varme at skulle af med.</p>
+
+<p>Du kan forbedre din cykeløkonomi ved at træne teknik.</p>
+
+<p>Du kan sørge for en passende kropsvægt, så du behøver at træde færre watt for at få fremdrift.</p>
+
+<p>Du kan sørge for, at du holder lidt øje med, at du ikke træder for hårdt i pedalerne for tidligt i løbet, så du ikke overopheder. Det er meget svært at køle sig ned igen.</p>
+
+<p>Du kan tænke over aktive nedkølingsstrategier undervejs i løbet, som supplerer den naturlige nedkøling.</p>
+
+<p>Du kan læse mere om <a href="/varme-management-loeb/">varmehåndtering i løb</a>, hvor konvektion hjælper dig noget mindre, da din hastighed er lavere end i cykling.</p>
+
+<p>God fornøjelse i varmen.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Fysiologi&quot;]" /><category term="beregner" /><category term="fysiologi" /><category term="varmetræning" /><summary type="html"><![CDATA[Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.]]></summary></entry><entry><title type="html">️Varmehåndtering på løb</title><link href="https://www.motionsplan.dk/varme-management-loeb/" rel="alternate" type="text/html" title="️Varmehåndtering på løb" /><published>2024-08-05T00:00:00+00:00</published><updated>2024-08-04T10:14:14+00:00</updated><id>https://www.motionsplan.dk/heat-management-running</id><content type="html" xml:base="https://www.motionsplan.dk/varme-management-loeb/"><![CDATA[<p>Når det er varmt, men du stadig gerne vil løbe enten som træning eller konkurrence, så er det godt at vide, hvordan du kan håndtere varmen.</p>
+
+<p>Jo længere du gerne vil løbe, jo vigtigere bliver det naturligvis.</p>
+
+<p>Varmehåndtering i løb er lidt anderledes end <a href="/varme-management-cykling/">varmehåndtering i cykling</a>.</p>
+
+<p>Her får du et indblik i, hvordan varmehåndtering ser ud for løb, og du får mulighed for selv at lege lidt med tallene.</p>
+
+<p>Lad os dykke ned i beregningerne.</p>
+
+<h2 id="varmeproduktion-i-løb">Varmeproduktion i løb</h2>
+
+<p><a href="https://www.alancouzens.com/blog/heat2.html">Alan Couzens</a> har lavet logikken bag, hvor meget varme du producerer ved løb.</p>
+
+<p>Rationalet er, at løbepræstationen kan oversættes til <em>power output</em> målt i watt.</p>
+
+<p>Du kan prøve at udfylde formularen med de foreslåede gennemsnitlige værdier, eller du kan prøve med dine egne værdier.</p>
+
+<form class="calculator" id="calculator_heat_production_running">
+    <fieldset>
+        <legend>Varmeproduktion fra løb</legend>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input type="number" min="10" max="1000" value="80" placeholder="fx 80" name="weight" id="weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Løbehastighed (min/km)</label>
+            <input type="number" placeholder="5" value="5" name="minkm_min" min="0" max="10" class="input-mini" required="" /> <span class="help-inline">min</span>
+            <input type="number" placeholder="0" value="0" name="minkm_sec" min="0" max="60" class="input-mini" required="" /> <span class="help-inline">sek</span>
+        </div>
+        <div class="form-group">
+            <label>Effektivitet (ml/kg/km)
+                <input type="number" min="0" max="500" value="210" placeholder="fx 210" name="efficiency" id="efficiency" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmeproduktion (watts)
+                <input name="heat_production_watts_running" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Den estimerede varme der genereres med den løbeindsats på <span id="heat_management_run_power_output">844</span>W.</p>
+
+<p>Hvis du leger lidt med tallene, så kan du se, at hvis din kropsvægt går op, så producerer du endnu mere varme.</p>
+
+<p>At slippe af med varmen er en af de vigtige begrænsninger for at løbe hurtigt. Så ud over at en lavere kropsvægt giver dig et <a href="/kondital/">højere kondital</a>, så har du altså også ved lavere kropsvægt mindre varme, du skal af med.</p>
+
+<p><a href="/lobeokonomi/">Løbeøkonomien</a> har også stor betydning for, hvor meget varme der produceres ved en given hastighed.</p>
+
+<p>Du kan prøve at indtaste en typisk løbeøkonomi for eliteløbere på 190 ml O<sub>2</sub>/kg/km og sammenligne den med en begynderløber på 230 ml O<sub>2</sub>/kg/km.</p>
+
+<p>Der er tydelig forskel på varmeproduktionen alt efter kropsvægt og løbeøkonomi.</p>
+
+<p>Du skal altså af med en del varme, når du løber.</p>
+
+<p>Kroppen er heldigvis god til at <a href="/fysiologi-temperaturregulering/">temperaturregulere</a>. Her kigger vi på de tre vigtigste typer.</p>
+
+<h2 id="1-varmetab-til-konvektion">1. Varmetab til konvektion</h2>
+
+<p>Den første måde at få køling af systemet på er ved konvektion. Når vinden passerer huden er det med til at køle dig ned.</p>
+
+<p>Det er rigtig effektivt i cykling, men i løb er din løbehastighed noget lavere.</p>
+
+<p>Derfor er effektiviteten noget lavere.</p>
+
+<p>Dit overfladeareal har stor betydning for, hvor meget konvektionen betyder for din nedkøling. Jo mere overflade, jo højere potentiale for nedkøling.</p>
+
+<form class="calculator" id="calculator_bsa">
+    <fieldset>
+        <legend>Udregning af overfladeareal (body surface area) for et menneske.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af BSA
+            <select name="bsa-formula">
+                <option value="mosteller">Mosteller</option>
+                <option value="dubois">Du Bois</option>
+                <option value="fujimoto">Fujimoto</option>
+                <option value="haycock">Haycock</option>
+                <option value="gehanandgeorge">Gehan &amp; George</option>
+            </select>
+            </label>
+        </div>
+        <!--
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="male" selected>Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        -->
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 80" value="80" name="bsa_weight" id="bsa_weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" min="100" max="200" placeholder="fx 180" value="180" name="bsa_height" id="bsa_height" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input name="bsa" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Dit estimerede overfladeareal er <span id="heat_management_bsa">2,0000</span> m<sup>2</sup>.</p>
+
+<p>Lad os kigge på, hvad du kan tabe af varme gennem konvektion i løb.</p>
+
+<p>Her kan du smide dine egne tal ind med overfladeareal, temperaturer og løbehastighed..</p>
+
+<form class="calculator" id="calculator_convection">
+    <fieldset>
+        <legend>Varmetab til konvektion</legend>
+        <div class="form-group">
+            <label>Body Surface Area (m<sup>2</sup>)
+                <input type="number" min="0" max="5" placeholder="fx 2,000" name="convection_bsa" id="convection_bsa" step="0.0001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (C)
+                <input type="number" value="31" min="-50" max="50" placeholder="fx 31" name="air_temperature" id="air_temperature" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (C)
+                <input type="number" value="37" min="10" max="50" placeholder="fx 37" name="skin_temperature" id="skin_temperature" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input value="12" type="number" min="0" max="100" placeholder="fx 12" name="velocity_kmt" id="velocity_kmt" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til konvektion (watts)
+                <input name="heatloss_convection" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p><span id="heat_management_convection">182</span>W tabes gennem konvektion, men din krop mangler stadigvæk at slippe af med <span id="heat_management_subtotal_1">662</span>W i varme.</p>
+
+<p>Fordi hastigheden er mindre, så er det meget typisk at du mangler 150-200W i køling i løb i forhold til på cyklen.</p>
+
+<p>Hvis du ikke finder andre måder at kompensere for dette, så bliver du nødt til at sætte intensiteten og derved hastigheden ned.</p>
+
+<h2 id="2-varmetab-til-radiation">2. Varmetab til radiation</h2>
+
+<p>Når du løber, så afgiver du også en del af din varme til omgivelserne.</p>
+
+<p><a href="https://www.alancouzens.com/blog/heat2.html">Alan Couzens</a> foreslår, at løbere på særligt varme dage kan sørge for at køle sig ned med is.</p>
+
+<p>Hvis du leger med tallene og sænker lufttemperaturen i nedenstående beregner, så kan du se, hvor stor impact det vil have i forhold til radiation at køle sig ned undervejs.</p>
+
+<form class="calculator" id="calculator_radiation">
+    <fieldset>
+        <legend>Varmetab til radiation</legend>
+        <div class="form-group">
+            <label>Formel for udregning af radiation
+            <select name="radiation_formula">
+                <option value="couzens">Couzens</option>
+                <option value="boltzmann">Boltzmann</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overfladeareal (m<sup>2</sup>) - BSA
+                <input type="number" min="0" max="10" placeholder="fx 2,0000" name="radiation_bsa" id="radiation_bsa" step="0.000001" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hudtemperatur (°C)
+                <input type="number" min="20" max="50" placeholder="fx 37" name="radiation_skin_temperature" id="radiation_skin_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lufttemperatur (°C)
+                <input type="number" min="-100" max="50" placeholder="fx 31" name="radiation_air_temperature" id="radiation_air_temperature" step="0.01" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Emmisionsevne
+                <input type="number" min="0" max="1" placeholder="fx 0,97" value="0.97" name="radiation_emmisivity" id="radiation_emmisivity" step="0.01" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til radiation (watts)
+                <input name="heatloss_radiation" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Varmetabet gennem radiation er <span id="heat_management_radiation">62</span>W. Men kroppen skal stadig af med <span id="heat_management_subtotal_2">600</span>W varme.</p>
+
+<p class="notice--info">Jeg tror <a href="https://www.alancouzens.com/blog/heat.html">Alan Couzens</a>’ oprindelige beregner har et forkert udgangspunkt for beregningerne. Den forudsætter en omgivende temperatur på 0°C, hvilket jo kun er tilfældet, hvis man køler sig selv ned med is undervejs.</p>
+
+<p>Heldigvis kan vi svede. Lad os kigge på tallene…</p>
+
+<h2 id="3-varmetab-til-evaporation">3. Varmetab til evaporation</h2>
+
+<p>Du har en høj evne til at svede, og det er godt, når du gerne vil af med varmen.</p>
+
+<p>Til gengæld er det ikke så let at indtage væske undervejs, når du løber, som det fx er på cyklen.</p>
+
+<p>Du bør træne din evne til at drikke væske undervejs, hvis du skal præstere i længere tid i varmen.</p>
+
+<p>Du kan måske indtage cirka halvdelen af den væske, du kan på cyklen. Det vil betyde, at du stille og roligt dehydrerer lidt, og du vil opleve <em>cardiac drift</em>, fordi det bliver hårdere for kroppen at opretholde intensiteten.</p>
+
+<p>Det er således vigtigt at starte på løbeturen i væskebalance.</p>
+
+<form class="calculator" id="calculator_evaporation">
+    <fieldset>
+        <legend>Varmetab til evaporation</legend>
+        <div class="form-group">
+            <label>Sved (L/timen)
+                <input value="1.5" type="number" min="0" max="10" placeholder="fx 1,5" name="sweat_rate" id="sweat_rate" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Luftfugtighed (%)
+                <input value="80" type="number" min="0" max="100" placeholder="fx 80" name="humidity" id="humidity" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Varmetab til evaporation (watts)
+                <input name="heatloss_evaporation" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Varmetabet via evaporation er <span id="heat_management_evaporation">300</span>W. Det giver en total på <span id="heat_management_subtotal_3">300</span>W af varme tilbage i systemet.</p>
+
+<p id="heat_management_message">Vær opmærksom! Dit varmeregnskab er positivt. Det betyder, at din kernetemperatur over tid formentlig vil stige. Tænk på, hvordan du få mere køling i systemet.</p>
+
+<p>Det er meget vigtigt at være proaktiv for at kunne fastholde væskebalancen, så du stadig har det redskab i værktøjsbæltet til at komme af med varmen.</p>
+
+<h2 id="hvor-meget-stiger-kernetemperaturen">Hvor meget stiger kernetemperaturen?</h2>
+
+<p>Alt dette er naturligvis baseret på modeller og estimater. Men hvis du har overskudsvarme, som du ikke kan komme af med, så vil kroppen blive varmere.</p>
+
+<p>Men hvor varm?</p>
+
+<p>Lad os kigge lidt på tallene:</p>
+
+<form class="calculator" id="calculator_temperature_rise">
+    <fieldset>
+        <legend>Varmestigning</legend>
+        <div class="form-group">
+            <label>Ekstra varmeproduktion (watt)
+                <input type="number" min="0" max="10000" placeholder="fx 200" name="heat_temperature_rise_excess_watt" id="heat_temperature_rise_excess_watt" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid for ekstra varmeproduktion (min:sek)</label>
+            <input type="number" placeholder="3" name="heat_temperature_rise_hours" min="0" max="20" class="input-mini" required="" /> <span class="help-inline">timer</span>
+            <input type="number" placeholder="30" name="heat_temperature_rise_min" min="0" max="59" class="input-mini" required="" /> <span class="help-inline">min</span>
+            <input type="number" value="0" placeholder="0" name="heat_temperature_rise_sek" min="0" max="59" class="input-mini" required="" /> <span class="help-inline">sek</span>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input type="number" min="10" max="1000" placeholder="fx 80" name="heat_temperature_rise_weight" id="heat_temperature_rise_weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kroppens varmekapacitet (J/(kg·°C))
+                <input type="number" min="0" max="10000" placeholder="fx 3470" name="heat_temperature_rise_c" id="heat_temperature_rise_c" value="3470" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Temperaturstigning (°C)
+                <input name="heat_temperature_rise_result" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Kroppen vil gøre alt, hvad den kan for at fastholde kropstemperaturen i et relativt snævert interval.</p>
+
+<p id="heat_temperature_rise_message"></p>
+
+<p>Hvis kropstemperaturen ikke kan holdes nede på andre måder, så kan kroppen kun sænke intensiteten, så varmeproduktionen bliver mindre.</p>
+
+<p>Det er også derfor, at den optimale lufttemperatur for løb er omkring 10 grader. Så bliver kroppen automatisk kølet ned ved konvektion og radiation, og skal bruge færre kræfter på at temperaturregulere.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Det er noget vanskeligere at holde sig kølet ned under løb i varme omgivelser, end hvis du cykler. På cyklen kan du let medbringe ekstra væske og flasker kun brugt til køling. Samtidig er den højere hastighed en fordel i forhold til konvektion.</p>
+
+<p>Hvis du fx skal lave en triatlon i varmt vejr, så er det utrolig vigtigt, at du er meget opmærksom på, hvordan du håndterer hydreringen og kølingen på cyklingen, så du kommer ind til løbet med de bedste forudsætninger.</p>
+
+<p>God løbetur i varmen.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Fysiologi&quot;]" /><category term="beregner" /><category term="fysiologi" /><category term="varmetræning" /><summary type="html"><![CDATA[Når det er varmt, men du stadig gerne vil løbe enten som træning eller konkurrence, så er det godt at vide, hvordan du kan håndtere varmen.]]></summary></entry><entry><title type="html">️Hvilken kropstype er du? Find din somatotype med vores beregner!</title><link href="https://www.motionsplan.dk/somatotype-og-kropstype/" rel="alternate" type="text/html" title="️Hvilken kropstype er du? Find din somatotype med vores beregner!" /><published>2024-08-04T00:00:00+00:00</published><updated>2024-08-04T10:14:14+00:00</updated><id>https://www.motionsplan.dk/somatotype</id><content type="html" xml:base="https://www.motionsplan.dk/somatotype-og-kropstype/"><![CDATA[<p>Du har sikkert hørt om kropstyperne endomorph, ectomorph og mesomorf før. Her får du mulighed for at blive klogere på, hvordan din ellers helt unikke krop kan beskrives som en somatotype.</p>
+
+<p>En somatotype er bare et fint ord for bestemmelse af kropstype.</p>
+
+<p>Visuelt vises kropstyperne ofte sådan her:</p>
+
+<figure class="">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Bodytypes.jpg" alt="kropstyper endomorph ectomorph mesomorph" loading="lazy" /><figcaption>
+      Kropstyperne ectomorph, mesomorph og endomorph. Kilde: <a href="https://commons.wikimedia.org/wiki/File:Bodytypes.jpg#/media/File:Bodytypes.jpg">Granito Diaz CC BY-SA 4.0 via Commons</a>
+
+    </figcaption></figure>
+
+<p>Denne blogpost er kraftigt inspireret af <a href="https://www.alancouzens.com/blog/somatotype.html">Alan Couzens indlæg om somatotyper</a>, hvor han forsøger at definere den optimale kropstype for triatlon.</p>
+
+<p>I vores beregner kan du finde din egen kropstype.</p>
+
+<h2 id="find-din-egen-kropstype">Find din egen kropstype</h2>
+
+<p>De færreste er kun en ting. I kropstyperne får man således en score, der kan repræsenteres på tre akser i forhold til, hvor meget, man er af en kropstype.</p>
+
+<p>I vores beregner kan du sammenligne dig selv med forskellige atlettyper i spektret mellem de tre typer.</p>
+
+<p><strong>Du kan  kræver at du har et målebånd og en hudfoldsmåler for at kunne lave beregningerne.</strong></p>
+
+<h2 id="beregner-til-din-kropstype">Beregner til din kropstype</h2>
+
+<form class="calculator" id="calculator_somatotype">
+    <fieldset>
+        <legend>Udregn din kropstype.</legend>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender" id="gender">
+                <option value="male" selected="selected">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" id="height" min="50" max="250" type="number" placeholder="fx 180" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="weight" id="weight" type="number" min="20" max="200" placeholder="fx 73" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Triceps hudfold (mm)
+                <input name="triceps_skinfold" id="triceps_skinfold" type="number" min="1" max="200" placeholder="fx 4" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Subscapularis hudfold (mm)
+                <input name="subscapularis_skinfold" id="subscapularis_skinfold" type="number" min="1" max="200" placeholder="fx 6" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Supraspinale hudfold (mm)
+                <input name="supraspinal_skinfold" id="supraspinal_skinfold" type="number" min="1" max="200" placeholder="fx 8" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Abdominale hudfold (mm)
+                <input name="abdominal_skinfold" id="abdominal_skinfold" type="number" min="1" max="200" placeholder="fx 9" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Forlår hudfold (mm)
+                <input name="frontthigh_skinfold" id="frontthigh_skinfold" type="number" min="1" max="200" placeholder="fx 6" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Læg hudfold (mm)
+                <input name="calf_skinfold" id="calf_skinfold" type="number" min="1" max="200" placeholder="fx 4" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overarm bredde (cm)
+                <input name="humerus_breath" id="humerus_breath" type="number" min="1" max="200" placeholder="fx 7" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lår bredde (cm)
+                <input name="femur_breath" id="femur_breath" type="number" min="1" max="200" placeholder="fx 10" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overarmomkreds - afslappet (cm)
+                <input name="arm_girth_relaxed" id="arm_girth_relaxed" type="number" min="1" max="200" placeholder="fx 29" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Overarmomkreds - flekset (cm)
+                <input name="arm_girth_flexed" id="arm_girth_flexed" type="number" min="1" max="200" placeholder="fx 31" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Låromkreds (cm)
+                <input name="thigh_girth" id="thigh_girth" type="number" min="1" max="200" placeholder="fx 55" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Lægomkreds (cm)
+                <input name="calf_girth" id="calf_girth" type="number" min="1" max="200" placeholder="fx 37" step="0.1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Endomorph (1-7)
+                <input name="endomorph" id="endomorph" type="text" disabled="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Mesomorph (1-7)
+                <input name="mesomorph" id="mesomorph" type="text" disabled="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Ectomorph (1-7)
+                <input name="ectomorph" id="ectomorph" type="text" disabled="" />
+            </label>
+        </div>
+        <canvas id="canvas" style="margin: auto; margin-top: 2em; display: block; width: 400px;" height="420" width="400"></canvas>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="hvad-er-somatotyper">Hvad er somatotyper?</h2>
+
+<p>Der er lavet en masse undersøgelser på somatotyper i forhold til forskellige idrætsgrene. Du kan se nogle af dem i figuren ovenfor.</p>
+
+<p>Du kan læse mere om, <a href="/sportsgrene-paavirker-kroppen/">hvordan idræt påvirker kroppen</a>, eller måske er det snarere, at de enkelte idrætsgrene favoriserer særlige kropstyper.</p>
+
+<p>Hvis du vil dykke lidt mere ned i kropstyper og idrætsgrene, så læs videre hos <a href="https://www.alancouzens.com/blog/somatotype.html">Alan Couzens</a>.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Krop &amp; Sundhed&quot;]" /><category term="beregner" /><summary type="html"><![CDATA[Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud af, hvilken kropstype du er.]]></summary></entry><entry><title type="html">️Submaksimal 6 min test til at finde hastigheden ved VO2max</title><link href="https://www.motionsplan.dk/submaximal-6min-vvo2max-test/" rel="alternate" type="text/html" title="️Submaksimal 6 min test til at finde hastigheden ved VO2max" /><published>2024-07-27T00:00:00+00:00</published><updated>2024-07-27T10:14:14+00:00</updated><id>https://www.motionsplan.dk/vvo2max-other</id><content type="html" xml:base="https://www.motionsplan.dk/submaximal-6min-vvo2max-test/"><![CDATA[<p>Denne submaksimale test på 6 minutter kan bruges til at finde din hastighed ved din <a href="/maksimale-iltoptagelse-vo2max/">maksimale iltoptagelse</a>. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.</p>
+
+<p>Testen er udviklet af Olher et al (2019) for at have en felttest, hvor du let kan estimere hastigheden ved den maksimale iltoptagelse.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="løbere i jogging-testen" loading="lazy" /></figure>
+
+<p>Fordelene ved at regne det ud, er at du lettere kan styre intensiteten og ikke komme til at løbe for hurtigt, så du ikke kan holde intensiteten.</p>
+
+<p>Denne test er et alternativ til <a href="/billat-vvovmax-tlimvo2max/">Billats udregner</a>.</p>
+
+<h2 id="hvordan-laver-en-testen">Hvordan laver en testen?</h2>
+
+<p>Du starter tiden, når du begynder at løbe og du stopper tiden, når du er færdig. Pulsen skulle gerne være nogenlunde <em>steady state</em> undervejs.</p>
+
+<p>Du kan gå efter at pulsen ligger fra 140 - 170 slag i minuttet. Husk at det er en submaksimal test. Testen skal løbes med 12-13 efter <a href="/borg-skala/">Borg-skalaen</a>.</p>
+
+<p>Jeg synes det er lettest at bruge mit pulsur og appen fra min telefon. Så kan jeg efterfølgende kigge på pulsværdierne og tempoet.</p>
+
+<p>Det ser sådan her ud i <a href="/intervals-icu-begynderguide/">Intervals.icu</a>:</p>
+
+<figure class="">
+  <img src="/assets/images/blog/6min-vvo2max-test.jpg" alt="jogging løbetest submaksimal puls og tempo" loading="lazy" /><figcaption>
+      Her har jeg selv løbet testen. Jeg løb på løbebane og forsøgte at holde den samme hastighed i hele testen. Pulsen stiger naturligvis gradvist i starten, men de sidste minutter er den <em>steady state</em>.
+
+    </figcaption></figure>
+
+<p>På baggrund af disse målinger kan du så udregne dit kondital i beregneren nedenunder.</p>
+
+<h2 id="beregn-vvo2max-fra-testen">Beregn vVO2<sub>max</sub> fra testen</h2>
+
+<form id="calculator_olher_vvo2max" class="calculator">
+    <fieldset>
+        <legend>Distance løbet på 6 minutters test</legend>
+        <label>Distance (meter) <input name="distance" type="text" placeholder="meter" required="" /></label>
+        <div class="form-group">
+            <label>Tid for testen (mm:ss)</label>
+            <input type="number" min="5" max="6" value="6" name="tid_min" id="tid_min" placeholder="min" class="input-mini" required="" />
+            <input type="number" min="0" max="59" value="0" name="tid_sek" id="tid_sek" placeholder="sek" class="input-mini" required="" />
+        </div>
+    </fieldset>    
+    <fieldset>
+        <legend>Pulsmålinger</legend>
+        <div class="form-group">
+        <label>Puls (gennemsnit i test) <input name="hr_submax" type="number" min="30" max="250" placeholder="Gennemsnitspuls i testen, fx 155" required="" /></label>
+        <label>Puls (max-puls) <input name="hr_max" type="number" min="30" max="250" placeholder="Din maxpuls, fx 200" required="" /></label>
+        </div>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <label>Heart Rate Cost of Running (HRC)
+            <input name="hrc" id="hrc" type="text" disabled="" />
+        </label>
+    </fieldset>
+    <fieldset class="results">
+        <label>vVO<sub>2</sub> max (meter/minut)
+            <input name="speed_meter_min" id="speed_meter_min" type="text" disabled="" />
+        </label>
+        <label>vVO<sub>2</sub> max (km/t)
+            <input name="speed_kmt" id="speed_kmt" type="text" disabled="" />
+        </label>
+        <label>vVO<sub>2</sub> max (min/km)
+            <input name="speed_min_km" id="speed_min_km" type="text" disabled="" />
+        </label>
+        <label>Omgangshastighed på løbebane (sek/400 meter)
+            <input name="sec_400" id="sec_400" type="text" disabled="" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<p>Et eksempel:</p>
+
+<p>Jeg løb 1220 meter på de 6 minutter, og jeg havde en gennemsnitlig puls på 148 bpm og jeg har en max-puls på 183.</p>
+
+<p>Du kan <a href="/test-max-puls/">udregne din maxpuls her</a>, hvis du ikke kender den på forhånd.</p>
+
+<p>Jeg taster det ind i beregneren og …</p>
+
+<p>… finder ud af at jeg skal løbe 251 meter pr. minut for at løbe omkring min maksimale iltoptagelse. Det er lidt mere end en halv runde på en en 400 meter bane pr. minut.</p>
+
+<h2 id="hvordan-bruger-du-vvo2max-i-praksis">Hvordan bruger du vVO2<sub>max</sub> i praksis?</h2>
+
+<p>Det har Olher et al (2019) også et bud på:</p>
+
+<blockquote>
+  <p>#1. Moderate-intensity running: 30–45 min at a running velocity ~80% of vVO2max (below anaerobic threshold);</p>
+
+  <p>#2. Moderate to high-intensity running: 20 to 25 min at velocity ~85–86% vVO2max (around anaerobic threshold);</p>
+
+  <p>#3. High-intensity running: 8 to 15 min of exercise at a velocity ~87 to 92% vVO2max;</p>
+
+  <p>#4. Alternatively, high-intensity running sessions, in Severe Intensity Domain would be prescribed once a week to improve the VO2max and vVO2max. In this situation, the utilization of 2 to 4 bouts of 5–6 min at predicted vVO2max, with ~5 to 10 min of rest intervals could be useful with the purpose of reaching VO2max during exercise sessions.</p>
+
+  <p>Finally, for aerobic improvement, usually 3 to 5 aerobic training sessions per week are recommended, with only 1 to 2 sessions being done at high or severe intensity domains (i.e. above anaerobic threshold or at vVO2max). These last high or severe intensity exercise sessions can then be alternated with moderate-intensity exercise sessions (i.e. ~80% vVO2max).</p>
+</blockquote>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores <a href="/puls/">guide til puls</a> og lære endnu mere om, <a href="/pulstraening/">hvordan du kan bruge pulstræning</a>.</p>
+
+<p>Det er lettest at bruge resultaterne, hvis du løber på løbebane eller løbebånd.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="konditionstest" /><category term="løb" /><category term="submaksimal test" /><category term="indirekte test" /><category term="løbetest" /><category term="test" /><category term="tracking" /><category term="beregner" /><summary type="html"><![CDATA[I denne løbetest på 6 min kan du finde din hastighed ved VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et stopur og et pulsur.]]></summary></entry><entry><title type="html">Hvor hurtigt cykler du op ad? VAM - Velocità Ascensionale Media</title><link href="https://www.motionsplan.dk/vam/" rel="alternate" type="text/html" title="Hvor hurtigt cykler du op ad? VAM - Velocità Ascensionale Media" /><published>2024-07-23T00:00:00+00:00</published><updated>2024-07-23T10:14:14+00:00</updated><id>https://www.motionsplan.dk/vam</id><content type="html" xml:base="https://www.motionsplan.dk/vam/"><![CDATA[<p>VAM står for Velocità Ascensionale Media. På engelsk kan det oversættes til <em>vertical ascent in meters</em>, hvilket betyder hvor mange meter en cyklist klatrer lodret i timen.</p>
+
+<p>VAM er udarbejdet af den berømte dopinglæge Michelle Ferrari, som havde brug for et mål, der fortalte noget om den enkeltes evner. VAM kan stadig bruges til at sammenligne cykelryttere, og hvor dygtige de er til at klatre.</p>
+
+<p>VAM er et simpelt mål for hvor hurtigt du kommer lodret op. Det er bare dig og cyklen mod tyngdekraften, og jo højere tal, jo bedre.</p>
+
+<h2 id="beregner-til-vam">Beregner til VAM</h2>
+
+<form id="calculator_vam" class="calculator">
+    <fieldset>
+        <legend>Oplysninger</legend>
+        <label>Vertikal distance klatret (meter) <input name="distance_climbed" min="50" step="1" type="number" placeholder="meter klatret" required="" /></label>
+        <div class="form-group">
+            <label>Tid (mm:ss)</label>
+            <input type="number" min="5" max="200" name="tid_min" id="tid_min" placeholder="min" class="input-mini" step="1" required="" />
+            <input type="number" min="0" max="59" name="tid_sek" id="tid_sek" placeholder="sek" class="input-mini" step="1" required="" />
+        </div>
+        <label>Gennemsnitlig stigning (%) <input name="gradient" type="number" step="0.01" placeholder="procentvis stigning" required="" /></label>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultater</legend>
+        <label>VAM (meter) <input name="vam" id="vam" type="text" disabled="" /></label>
+        <label>Stigningsfaktor (gradient factor)
+            <input name="gradient_factor" id="gradient_factor" type="text" disabled="" />
+        </label>
+        <label>Relativ Power (watts/kg)
+            <input name="relative_power" id="relative_power" type="text" disabled="" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="hvordan-udregner-jeg-vam">Hvordan udregner jeg VAM?</h2>
+
+<p>Hvis du har taget tid på en stigning og ved hvor mange lodrette meter stigningen er, så kan du selv udregne VAM.</p>
+
+<p>Du kan udregne VAM med følgende formel:</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?VAM (m/t) = \frac{vertical distance klatret (m) * 60 (min/t)}{tid (min)}" title="VAM (m/t) = \frac{vertical distance klatret (m) * 60 (min/t)}{tid (min)}" alt="VAM (m/t) = \frac{vertical distance klatret (m) * 60 (min/t)}{tid (min)}" loading="lazy" /></p>
+
+<p>Det er altså relativt enkelt at udregne din egen VAM.</p>
+
+<p>Når du har din VAM, så kan du også udregne din egen relative <em>power</em> (watt/kg) ud fra tallene. Det kræver bare, at du kender den gennemsnitlige hældning på stigningen.</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?Gradient Factor = 2 + \frac{stigning (%)}{10}" title="Gradient Factor = 2 + \frac{stigning (%)}{10}" alt="Gradient Factor = 2 + \frac{stigning (%)}{10}" loading="lazy" /></p>
+
+<p>Derved kan du udregne din relative power:</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?Relativ Power (watt/kg) = \frac{VAM (m/t)}{Gradient Factor * 100*}" title="Relativ Power (watt/kg) = \frac{VAM (m/t)}{Gradient Factor * 100*}" alt="Relativ Power (watt/kg) = \frac{VAM (m/t)}{Gradient Factor * 100*}" loading="lazy" /></p>
+
+<p>Læg mærke til, at den relative power ikke tager højde for vindforhold og rullemodstand, men er baseret på Michelle Ferraris måde at sammenligne ryttere. Fordelen ved denne måde at opgøre det på er at det er utrolig enkelt,o g det kommer ikke så langt væk fra andre tal.</p>
+
+<h2 id="eksempel-fra-tour-de-france-2024">Eksempel fra Tour de France 2024</h2>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/TDF2024?src=hash&amp;ref_src=twsrc%5Etfw">#TDF2024</a> | Stage 15 🇫🇷<br /><br />⛰️🏁 PLATEAU DE BEILLE (15.8 km, 7.91%, 1249 m)<br /><br />🇸🇮 Tadej Pogačar <br /><br />• 39:43 - RECORD<br />• 6.90 w/kg (est. 65 kg standard)<br />• 1887 m/h VAM<br />• 23.87 km/h<br /><br />The greatest performance of all time, shattering Marco Pantani&#39;s old record<br />(1998 | 43:28) <a href="https://t.co/IvOWaHmCj3">pic.twitter.com/IvOWaHmCj3</a></p>&mdash; Watts in Cycling (@WattsinCycling) <a href="https://twitter.com/WattsinCycling/status/1812516460578639997?ref_src=twsrc%5Etfw">July 14, 2024</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="hvordan-finder-jeg-ellers-vam">Hvordan finder jeg ellers VAM?</h2>
+
+<p>På fx Strava kan du finde din VAM på forskellige segmenter, hvis du går ind på en aktivitet.</p>
+
+<p>Jeg har fx kørt op af Tabayesco på Lanzarote. Du går først ind på aktiviteten.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/vam-strava-1.jpg" alt="" loading="lazy" /></figure>
+
+<p>Herfra kan du scrolle ned til segments, og der finder du så din VAM.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/vam-strava-2.jpg" alt="" loading="lazy" /></figure>
+
+<p>Jeg har undret mig lidt over, at jeg ikke har fået et tilbud fra et professionelt cykelhold, men når jeg kigger på tallene, så kan jeg godt se, at der er lidt op til de vanvittige tal de bedste klatrere i verden kører lige nu.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<h3>Hvad er VAM?</h3>
+<p>VAM står for Velocità Ascensionale Media. På engelsk kan det oversættes til <em>vertical ascent in meters</em>, hvilket betyder hvor mange meter en cyklist klatrer lodret i timen.</p>
+
+<h3>Rekorder og watt i cykling</h3>
+<p>På <a href="https://x.com/WattsinCycling">@WattsinCycling</a> kan du følge med i de vilde rekorder der bliver kørt i øjeblikket i cykling.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Træning&quot;]" /><category term="kondition" /><category term="cykling" /><category term="beregner" /><summary type="html"><![CDATA[VAM er en måde at måle, hvor hurtigt du cykler lodret op, så du kan sammenligne dig med de bedste klatrere i verden.]]></summary></entry><entry><title type="html">Sådan kommer du i gang med Intervals.icu (begynderguide)</title><link href="https://www.motionsplan.dk/intervals-icu-begynderguide/" rel="alternate" type="text/html" title="Sådan kommer du i gang med Intervals.icu (begynderguide)" /><published>2024-01-11T00:00:00+00:00</published><updated>2024-01-11T10:14:14+00:00</updated><id>https://www.motionsplan.dk/intervals-icu</id><content type="html" xml:base="https://www.motionsplan.dk/intervals-icu-begynderguide/"><![CDATA[<p>Intervals.icu er en genial hjemmeside og web-app til at planlægge din træning, tracke fremgang, analysere dine træningspas og se dit samlede træningsload. Den er særligt velegnet til løb, cykling og triatlon.</p>
+
+<p>Og det allerbedste er, at den er gratis og integrerer med rigtig mange forskellige services, fx Garmin Connect, Strava, Suunut, Coros, Polar Flow, Wahoo m.fl.</p>
+
+<p>Her får du en let guide til, hvordan du sætter <a href="https://intervals.icu/">intervals.icu</a> op.</p>
+
+<h2 id="1-lav-en-konto">1. Lav en konto</h2>
+
+<p>Først skal du naturligvis lave en konto. Det er utrolig enkelt, når du går ind på <a href="https://intervals.icu/">forsiden af intervals.icu</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-signup.jpg" alt="" loading="lazy" /></figure>
+
+<p>Du klikker på <strong>SIGNUP FOR FREE</strong> og så kan du lave din konto. Herefter følger du bare anvisningerne.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-signup-form.jpg" alt="" loading="lazy" /></figure>
+
+<p>Du behøver altså ikke udfylde din FTP eller max-puls endnu. Men det kommer vi tilbage til, når vi kigger på indstillingerne i programmet.</p>
+
+<h2 id="2-sæt-dine-indstillinger">2. Sæt dine indstillinger</h2>
+
+<p>Når du er logget ind første gang, så er det en god ide at kigge forbi indstillingerne i programmet.</p>
+
+<p>Der er nemlig mange indstillinger, du kan lave, og de har betydning for, hvordan programmet analyserer og beregner dit træningsload.</p>
+
+<p>Derfor er det godt at sætte dit udgangspunkt så godt som muligt fra starten, men værdierne vil ændre sig hen ad vejen, når du kommer i bedre eller værre form.</p>
+
+<p>Du finder dine indstillinger på <a href="https://intervals.icu/settings">intervals.icu/settings</a>.</p>
+
+<p>Her kigger vi på de forskellige sektioner af indstillingerne.</p>
+
+<h3 id="generelle-indstillinger">Generelle indstillinger</h3>
+
+<p>Først skal du lige tjekke dine generelle indstillinger.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-1.jpg" alt="" loading="lazy" /></figure>
+
+<p>Hvis du ikke kender din hvilepuls, så kan du følge <a href="/hvilepuls/">vores guide til at måle hvilepuls</a>.</p>
+
+<h3 id="specifikke-indstillinger">Specifikke indstillinger</h3>
+
+<p>Der er mange specifikke indstillinger, du kan lave til de forskellige idrætter.</p>
+
+<p>Du kan få et rigig højt udbytte af Intervals.icu, hvis du tracker din træning med enten wattmåler, pulsmåler eller hastighed.</p>
+
+<p>Du behøver naturligvis kun kigge på indstillingerne til de idrætsgrene, du normalt laver. Hvis du er cykelrytter, så tjek “Ride”. Hvis du er løber, så tjekker du naturligvis “Run”.</p>
+
+<p>Under <strong>Cykling</strong> er der forskellige indstillinger, som kan være rigtig god at få kigget på.</p>
+
+<p>Du bør <a href="/test-max-puls/">teste din maksimale puls</a> på cyklen (den er sandsynligvis ikke helt den samme som på cyklen) og <a href="/ftp-test/">finde din functional threshold power (FTP)</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-2.jpg" alt="" loading="lazy" /></figure>
+
+<p>Under <strong>Løb</strong> kan du lave de samme indstillinger. Hvis du <a href="/loeb-watt/">løber med wattmåling</a>, så kan du også indstille din FTP. Men igen bør du teste din maxpuls, og også helst lave en test af, hvad din puls ligger på omkring din <a href="/anaerobe-taerskel/">anaerobe tærskel</a>.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-3.jpg" alt="" loading="lazy" /></figure>
+
+<p>Hvis du ikke lige har tid til at lave en rigtig test af din maxpuls, så kan du <a href="/test-max-puls/">udregne den</a>.</p>
+
+<h3 id="integrationer">Integrationer</h3>
+
+<p>Du kan indtaste din egen træning i Intervals.icu, men hvis du bruger en træningsapp, så kan du også importere dine aktiviteter. På den måde får du importeret alle dine træninger ind i Intervals.icu, og så har du mulighe for at analysere din træning.</p>
+
+<p>Du fortsætter ganske enkelt lidt ned af listen under indstillingerne, og så kommer mulighederne frem.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-settings-4.jpg" alt="" loading="lazy" /></figure>
+
+<p>Klik på den ønskede integration og sæt det op efter forskrifterne.</p>
+
+<p>Nu har du sat indstillingerne op, og du er klar til at bruge de forskellige muligheder i Intervals.icu.</p>
+
+<p>God fornøjelse.</p>
+
+<h2 id="4-tilføj-venner-og-coach">4. Tilføj venner og coach</h2>
+
+<p>Hvis du har venner eller en ‘coach’, så kan du tilføje det under dit profilbillede.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/intervals-icu-profile-coach.jpg" alt="" loading="lazy" /></figure>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<h3>Jeg tracker allerede min træning i X app, har jeg brug for Intervals.icu?</h3>
+<p>Det er jo op til dig. Men Intervals.icu integrerer med rigtig mange forskellige aps, fx Garmin Connect, Polar Flow, Suuntu, Coros, Wahoo og Strava. Jeg tror du vil komme til at holde af Intervals.icu. Den er gratis, så der sker ikke noget ved at prøve.</p>
+
+<h3>Er Intervals.icu gratis?</h3>
+<p>Ja. Og det er faktisk for vildt, når man tænker på funktionaliteten i programmet. Du bliver spurgt om du gerne vil støtte udviklingen af programmet, og hvis du finder det brugbart så kan du overveje det.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Træning&quot;]" /><category term="kondition" /><category term="cykling" /><category term="løb" /><summary type="html"><![CDATA[Intervals.icu er en genial hjemmeside og web-app til at planlægge din træning, tracke fremgang og analysere dine træningspas.]]></summary></entry><entry><title type="html">FTP-test: Hvordan tester du Functional Threshold Power til cykling?</title><link href="https://www.motionsplan.dk/ftp-test/" rel="alternate" type="text/html" title="FTP-test: Hvordan tester du Functional Threshold Power til cykling?" /><published>2023-01-11T00:00:00+00:00</published><updated>2023-01-11T10:14:14+00:00</updated><id>https://www.motionsplan.dk/ftp-test</id><content type="html" xml:base="https://www.motionsplan.dk/ftp-test/"><![CDATA[<p>Her lærer du at lave en FTP-test, så du kan udnytte Functional Threshold Power i din træning.</p>
+
+<p><a href="/ftp-cykling/">FTP står for Functional Threshold Power</a> og er den højeste gennemsnitlige effekt cykelrytteren kan opretholde i en time målt i watt.</p>
+
+<p>For cykling er watt en meget nøjagtig måling af det arbejde, du leverer på cyklen, som ikke påvirkes af vind eller bakker.</p>
+
+<p>Men for at få det optimale ud af din wattmåler på cyklen, så er det en god ide jævnligt at lave en FTP-test, så du har et godt udgangspunkt for din træning.</p>
+
+<p>Lad os dykke ned i det!</p>
+
+<h2 id="hvad-er-functional-threshold-power-ftp">Hvad er Functional Threshold Power (FTP)?</h2>
+
+<p>Functional Threshold Power (FTP) er et mål for den effekt (power), som du kan opretholde i 1 time på cyklen.</p>
+
+<p>Fysiologisk set så er det den grænse, hvor kroppen kan nå at fjerne <a href="/maelkesyre-traening/">mælkesyre</a> fra musklerne lige så hurtigt som den bliver produceret.</p>
+
+<p>Det punkt hvor du kan fjerne lige så meget mælkesyre, som du opbygger kaldes ofte mælkesyregrænsen. Dette metaboliske steady state korrelerer meget godt med FTP. Derfor kan FTP bruges som et mål for mælkesyregrænsen.</p>
+
+<p>Men hvordan tester du FTP?</p>
+
+<h2 id="hvorfor-skal-du-teste-ftp">Hvorfor skal du teste FTP?</h2>
+
+<p>Hvis din træningscomputer eller app er sat op til at placere dig ved en træningsintensitet ud fra FTP, så er det en rigtig god ide rent faktisk at have testet den.</p>
+
+<p>De fleste programmer starter med at estimere din FTP. Her er et eksempel fra Body Bike Smart+ appen:</p>
+
+<figure class="third full">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-hvorfor-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-hvorfor-2.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-hvorfor-3.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>Body Bike Smart+ appen har estimeret både min maksimale puls og min FTP. Hvis ikke jeg indstiller dem ud fra et testresultat, så vil den placere mig i en forkert træningszone. På andet skærmbillede har jeg bare brugt den estimerede FTP, hvilket placerer mig i ‘Rød zone’, men i virkeligheden er min FTP noget højere. På det tredje skærmbillede træder jeg de samme watt, men har indstillet FTP rigtigt. I virkeligheden arbejder jeg i ‘Grøn zone’.
+</figcaption>
+  
+</figure>
+
+<h2 id="hvordan-laver-du-en-ftp-test">Hvordan laver du en FTP-test?</h2>
+
+<p>En FTP test kræver, at du har en cykel der kan vise din effekt i watt. Hvis du fx <a href="/komplet-begynderguide-zwift/">kører Zwift</a> eller andre <a href="/hometrainer-apps/">virtuelle cykelplatforme</a>, så er du sikkert stødt på begrebet.</p>
+
+<p>Der er principielt to forskellige måder, du kan lave testen på.</p>
+
+<ul>
+  <li><strong>Gradvist stigende intensitet</strong>. Fordelen ved en test med gradvist stigende intensitet er, at du bare skal følge testen indtil du bliver helt udmattet. Ulempen er, at du bliver nødt til at udregne din FTP baseret på nogle generelle algoritmer.</li>
+  <li><strong>Fast intensitet over tid</strong>. Fordelen ved en traditionel FTP-test er, at du teoretisk set arbejder på din mælkesyregrænse i løbet af testen. Alt efter længden på testen, så er den imidlertid også noget sværere at <em>pace</em> rigtigt. Du kan enten komme til at køre for hurtigt eller for langsomt i starten. Denne type tests er også ofte kortere end 1 time, og så skal du igen udregne din FTP med en procentdel af den værdi du opnår i testen.</li>
+</ul>
+
+<p>Her gennemgår vi en række forskellige måder at gribe en FTP-test an på.</p>
+
+<h3 id="1-20-minutters-test-med-fast-intensitet">1. 20 minutters test med fast intensitet</h3>
+
+<p>Her kører du 20 minutter alt hvad du kan. Typisk bruger man så 95% af det watt-tal du kan holde i 20 minutter som udgangspunkt for din FTP. Du estimerer altså, at du kan arbejde lidt hårdere, når du kun skal køre i 20 minutter.</p>
+
+<p>Fordelen ved at testen kun tager 20 minutter er, at du ikke skal pace dig selv på max over en hel time. Det er rigtig svært at have <em>mindsettet</em> til at køre maksimalt så længe.</p>
+
+<p>I <a href="/mywhoosh-cycling/">MyWhoosh Cycling app</a> findes der fx en test du kan tage:</p>
+
+<figure class="half full">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-wahoo-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-wahoo-2.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>I Whoosh appen kan du under ‘Workouts’ finde forskellige typer FTP-tests. Hvis du gerne vil have den hurtigt overstået, så kan du vælge den 20 minutters test, som du inklusiv opvarmning kan have overstået på 35 minutter.
+</figcaption>
+  
+</figure>
+
+<p>Samtidig kan du lettere inkludere testen flere gange i løbet af din træning, da den jo ændrer sig, jo bedre du bliver.</p>
+
+<p>Du kan også finde en 20 minutters FTP-test på Wattbikes. Her er et eksempel på en 20 minutters test, som er <em>pacet</em> hensigtsmæssigt.</p>
+
+<figure class="">
+  <img src="https://cdn.shopify.com/s/files/1/0507/5078/3660/files/ftp-fig02.png?v=1613401088" alt="ftp test på wattbike" loading="lazy" /><figcaption>
+      Wattbike har en indbygget FTP-test, hvor du kører i 20 minutter. Her er et eksempel fra <a href="https://wattbike.com/blogs/news/your-guide-to-functional-threshold-power">Wattbikes blog</a> på en FTP-test, hvor rytteren kunne holde det samme arbejde aflæst i watt under hele testen.
+
+    </figcaption></figure>
+
+<h3 id="2-watt-max-test-stigende-test">2. Watt-max-test stigende test</h3>
+
+<p>Watt-max-testen er en test, hvor du gradvist øger belastningen undervejs. Watt max-testen er en nem og præcis måde at finde dit kondital på.</p>
+
+<p>Du kan køre Watt-max-testen på forskellige måder.</p>
+
+<p>Fordelen ved at bruge Watt-max-testen er, at det er let at <em>pace</em> testen. Du skal bare følge anvisningerne.</p>
+
+<p>Du kan fx bruge en Body Bike Smart+, hvor testen er forudprogrammeret.</p>
+
+<figure class="half ">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-2.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-3.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-watt-max-test-bodybike-4.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>Body Bike Smart+ appen har forudprogrammeret en VO<sub>2</sub>-test. Udformningen ligner watt-maxtesten. Du starter ved 70 watt og hver andet minut stiger intensiteten med 35 watt. Du kører indtil udmattelse.
+</figcaption>
+  
+</figure>
+
+<p>Når du har kørt testen færdig, så får du estimeret din iltoptagelse, men du får også et bud på din FTP. I testen er det estimeret til en procentdel af din watt-max.</p>
+
+<p>Læs: <a href="/kondital-wattmax/">Alt om watt-max testen og dens pålidelighed</a></p>
+
+<h3 id="3-fem-minutters-ftp-test">3. Fem minutters FTP-test</h3>
+
+<p>På Body Bike Smart+ er der også en 5 minutters FTP-test. Her kører du de højeste watt, du kan på 5 minutter. Og så tager du en procentdel af det resultat. Når du kører så kort, så er der risiko for, at din FTP-værdi ikke bliver præcis.</p>
+
+<p>Men testen er helt sikkert bedre end ikke at have lavet nogen test.</p>
+
+<figure class="half ">
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-1.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-2.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-3.jpg" alt="" loading="lazy" />
+    
+  
+    
+      <img src="/assets/images/ftp-test/ftp-test-bodybike-4.jpg" alt="" loading="lazy" />
+    
+  
+  
+    <figcaption>Body Bike Smart+ appen har forudprogrammeret en FTP-test. Her skal du køre <em>all-out</em> i fem minutter. Du skal gå efter at holde den samme intensitet hele vejen igennem. Og det skal naturligvis føles rigtig hårdt til sidst. På 5 minutter kan du køre omkring din maksimale iltoptagelse i hele perioden.
+</figcaption>
+  
+</figure>
+
+<p>Når du har kørt testen, så får du et svar på din FTP-værdi. I eksemplet ovenfor så har rytteren kørt med 177 watt i gennemsnit. Appen estimerer så FTP til at være 85% af den gennemsnitlige watt til 151 watt.</p>
+
+<h3 id="4-ramp-test">4. Ramp-test</h3>
+
+<p>Her kører du 5 minutters opvarmning. Modstanden eller intensiteten bliver sat op med et fast tidsinterval, så du skal yde mere arbejde og træde flere watt. Nogle programmer bruger 75% af det højeste watt-tal du kan træde, men der kan være lidt forskelle.</p>
+
+<p>Du kan finde Ramp-test i Zwift.</p>
+
+<h2 id="hvor-ofte-skal-jeg-teste-min-ftp">Hvor ofte skal jeg teste min FTP?</h2>
+
+<p>Du bør som udgangspunkt opdatere din FTP-test hver 4.-6. uge for hele tiden at have opdaterede tal. Når du laver dit træningsprogram og din træning skal ligge i bestemte zoner, så er det også vigtigt at du rammer zonerne.</p>
+
+<h2 id="hvad-kan-du-bruge-din-ftp-test-til">Hvad kan du bruge din FTP-test til?</h2>
+
+<p>Når du har et mål fra din FTP-test, så kan du bruge det til at <a href="/ftp-cykling/">udregne træningszoner ud fra FTP</a>.</p>
+
+<p>Watt er et alternativ til andre måder at måle intensiteten af det arbejde, du laver.</p>
+
+<p>Vi har skrevet om <a href="/pulstraening/">træning efter puls</a> og <a href="/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/">udregning af pulszoner</a>. Du kan også køre ud fra din subjektive fornemmelse, fx baseret på <a href="/borg-skala/">Borgs anstrengelsesskala</a>.</p>
+
+<h2 id="ofte-stillede-spørgsmål-om-ftp">Ofte stillede spørgsmål om FTP</h2>
+
+<h3>Hvor ofte skal jeg tage en FTP-test?</h3>
+<p>Din FTP flytter sig, når du træner. Du bliver altså bedre til at arbejde med en højere intensitet. Derfor kan det være en god ide at teste din FTP hver 4.-6. uge, så dine træningszoner bliver justeret til i forhold til din forbedrede form.</p>
+
+<h3>Behøver jeg at teste min FTP som cykelrytter?</h3>
+<p>Nej. Der er mange måder du kan strukturere din træning på. Du kan også bruge puls eller din subjektive fornemmelse. At bruge watt i din cykeltræning er imidlertid et meget præcist mål, og når du ved, hvor mange watt du kan træde, så kan du lettere planlægge dine træningszoner. FTP er også et mål for, om du forbedrer dit i din træning.</p>
+
+<h2 id="bøger-om-effekttræning">Bøger om effekttræning</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://imgcdn.saxo.com/_9788777498848/0x500" alt="" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Watt - træning og konkurrence</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p><em>Watt - træning og konkurrence</em> er den definitive guide til at benytte sig af træning med watt. Med hjælp fra denne bog kan du vende hele din træning op og ned - og blive markant hurtigere og bedre.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=43264&amp;htmlurl=https://www.saxo.com/dk/watt_andrew-coggan-dansk-bearbejdelse-ved-brian-overkaer_hardback_9788777498848" class="btn btn--success" rel="sponsored nofollow noopener">Se prisen</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://imgcdn.saxo.com/_9788702189179/0x500" alt="" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Cykeltræning - Claus Hechmann</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Cykeltræning er en fokuseret og præcis guide til at forbedre dine præstationer på cyklen med effekttræning. Princippet er enkelt: Du skal træne i at kunne cykle så hurtigt som muligt i så lang tid som muligt.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=43264&amp;htmlurl=https://www.saxo.com/dk/cykeltraening_claus-hechmann_haeftet_9788702189179" class="btn btn--success" rel="sponsored nofollow noopener">Se prisen</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Cykling&quot;]" /><category term="kondition" /><category term="træning" /><category term="beregner" /><category term="cykeltest" /><summary type="html"><![CDATA[Hvordan laver du din egen FTP-test? FTP og Functional Threshold Power kan bruges til at udregne træningszoner, men det kræver en præcis test. Sådan gør du!]]></summary></entry></feed>
