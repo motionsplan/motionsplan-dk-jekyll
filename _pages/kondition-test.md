@@ -1,11 +1,9 @@
 ---
 layout: single
-toc: true
 permalink: /kondition/tests/
-excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere til gang, løb, cykling og roning - og se om du får et bedre kondital og fremgang i træningen."
 title: &title "Test din kondition"
 seo_title: "Konditionstests: Test din kondition i gang, løb, cykling og roning"
-author_profile: true
+excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere til gang, løb, cykling og roning - og se om du får et bedre kondital og fremgang i træningen."
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   caption: *title
@@ -22,6 +20,8 @@ feature_row_feature:
     url: "/test-kondition-konditest-kondital/"
     btn_label: "Lær om  konditionstests"
     btn_class: "btn--info"
+toc: true
+author_profile: true
 ---
 
 Her har du en oversigt over alle konditionstests. Vi har skrevet et indlæg, der handler uddybende om [konditionstests og konditionstestning](/test-kondition-konditest-kondital/).

@@ -1,23 +1,19 @@
 lsolesen:
   name: "Lars Olesen"
-  bio: "Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet. Til daglig er jeg lærer på Vejle Idrætshøjskole. Her underviser jeg i styrketræning, ernæring og test & træning. Desuden uddanner jeg fitnessinstruktører for DGI og DIF's Foreningsfitness."
+  bio: |
+    Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser jeg på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF’s Foreningsfitness. Jeg bygger på den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.
   avatar: "/assets/images/authors/larsolesen.jpg"
   featured: true
   links:
+    - label: "Om forfatteren"
+      icon: "fas fa-fw fa-link"
+      url: "/om/lars-olesen/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lars@vih.dk"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/lsolesen/"
-      rel: "author"
-    - label: "Website"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "https://www.larsolesen.dk"
-      rel: "author"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lsolesen"
       rel: "author"
     - label: "Køb mig en kaffe"
       icon: "fas fa-fw fa-mug-hot"

@@ -9,6 +9,12 @@ header:
   caption: *title
 category:
   - Kondition
+meta:
+  measures: VO2max og kondital
+  type: rotest
+  equipment: roregometer
+  max: maksimal test
+  direct: indirekte test
 tags:
   - konditionstest
   - roning

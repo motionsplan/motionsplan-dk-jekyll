@@ -9,6 +9,12 @@ header:
   caption: *title
 category:
   - Kondition
+meta:
+  measures: VO2max og kondital
+  type: løbetest
+  equipment: løbebane
+  max: submaksimal test
+  direct: indirekte test
 tags:
   - konditionstest
   - løb

@@ -11,12 +11,13 @@ header:
   caption: *title
 category:
   - Test
-  - Kondition
   - Løb
+  - Udstyr
 tags:
   - løb
   - løbebånd
   - cardiomaskiner
+  - udstyr
 feature_row_draxfit:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/2018_05_Ne__Speedfit_Drax_fit(1).png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/speedfit-curve-running/

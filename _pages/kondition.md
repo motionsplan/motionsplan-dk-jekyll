@@ -54,7 +54,9 @@ Kondition er et udtryk for kroppens evne til at arbejde. Kondition er kroppens e
 
 ## Hvordan kan jeg måle min kondition?
 
-Du måler altså din kondition ved at måle den maksimale iltoptagelse. Når du har målt iltoptagelsen, så får du et bud på din kondition. Da iltoptagelsen er højere jo større du er, så kan man normalisere iltoptagelsen ved at dele med kropsvægten, så du får [dit kondital](/kondital/).
+Du måler altså din kondition ved at måle den maksimale iltoptagelse. Når du har målt iltoptagelsen, så får du et bud på din kondition.
+
+Da iltoptagelsen er højere jo større du er, fordi en større krop skal bruge mere ilt, så kan du normalisere iltoptagelsen ved at dele med kropsvægten. Det giver dit [dit kondital](/kondital/).
 
 {% include feature_row id="feature_row_kondital" type="left" %}
 
@@ -70,7 +72,11 @@ Læs: [Konditionstests: Test din kondition og dit kondital](/test-kondition-kond
 
 ## Beregn kondital
 
-Hvis du ikke vil lave en fysisk test, så kan du også beregne dit kondital ud fra nogle andre parametre. Disse tests skal nok ikke tages helt bogstaveligt, men de kan måske give en indikation af, hvordan det kunne se ud med din sundhed. Vi har skrevet mere om at [beregne kondital](/beregn-kondital/).
+Hvis du ikke vil lave en fysisk test, så kan du også beregne dit kondital ud fra nogle andre parametre. 
+
+Disse tests er naturligvis ikke lige så pålidelige som fysiske tests, men de kan måske give en indikation af, hvordan det kunne se ud med din sundhed.
+
+Læs mere om, hvordan du kan [beregne dit kondital](/beregn-kondital/).
 
 ## Kondition og kroppens energiproduktion
 

@@ -106,7 +106,7 @@ Læs mere om [cykling og cykeltræning her](/cykling/).
 
 </div>
 
-[Læs mere om løbetræning](/cykling/){: .btn .btn--large .btn--success }
+[Læs mere om træning på cyklen](/cykling/){: .btn .btn--large .btn--success }
 
 ### Crosstraining og HIIT
 

@@ -1,7 +1,7 @@
 ---
 title: &title "Bruce løbetest: Find din kondition på løbebånd uden pulsmåler"
 permalink: /bruce-test/
-excerpt: "Bruce-test på løbebånd er en submaksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning."
+excerpt: "Bruce-test på løbebånd er en maksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
@@ -9,6 +9,12 @@ header:
   caption: *title
 category:
   - Kondition
+meta:
+  measures: VO2max og kondital
+  type: løbetest
+  equipment: løbebånd
+  max: maksimal test
+  direct: indirekte test
 tags:
   - konditionstest
   - løbebånd
@@ -31,7 +37,7 @@ feature_row:
 breadcrumbs: true
 ---
 
-Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver et pålideligt løbebånd, som kan håndtere hældninger på op til 22%.
+Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver et pålideligt løbebånd, som kan håndtere hældninger på op til 22%. Desuden kræver testen, at du kan yde en maksimal præstation.
 
 Bruce-løbetest er [meget almindelig i fx USA](https://health-calc.com/fitness-tests/bruce-treadmill-test).
 

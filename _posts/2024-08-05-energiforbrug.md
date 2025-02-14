@@ -10,7 +10,6 @@ header:
   caption: *title
 category:
   - Fysiologi
-  - Kondition
   - Cykling
 tags:
   - beregner

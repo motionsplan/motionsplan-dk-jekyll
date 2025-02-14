@@ -12,6 +12,12 @@ header:
 category:
   - Kondition
   - Gang
+meta:
+  measures: VO2max og kondital
+  type: gangtest
+  equipment: fladt underlag
+  max: submaksimal test
+  direct: indirekte test
 tags:
   - konditionstest
   - gang

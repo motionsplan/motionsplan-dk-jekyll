@@ -10,6 +10,12 @@ header:
 category:
   - Kondition
   - Test
+meta:
+  measures: VO2max og kondital
+  type: steptest
+  equipment: stepbænk
+  max: submaksimal test
+  direct: indirekte test
 tags:
   - konditionstest
   - indirekte test

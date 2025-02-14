@@ -8,7 +8,7 @@ header:
   caption: *title
   alt: "Photo by Sime Basioli on Unsplash"
 category:
-  - Udholdenhed
+  - Træning
   - Løb
   - Kondition
 tags:

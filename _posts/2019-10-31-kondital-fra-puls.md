@@ -13,6 +13,12 @@ category:
   - Kondition
   - Beregnere
   - Test
+meta:
+  measures: VO2max og kondital
+  type: pulstest
+  equipment: pulsbælte
+  max: maksimal test
+  direct: indirekte test
 tags:
   - konditionstest
   - indirekte test

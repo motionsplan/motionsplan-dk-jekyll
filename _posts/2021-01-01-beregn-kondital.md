@@ -12,7 +12,6 @@ header:
 category:
   - Kondition
 tags:
-  - konditionstest
   - beregner
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
@@ -28,13 +27,17 @@ polar:
     url: /assets/images/blog/polar-ownindex-4.jpg
 ---
 
-Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på. Hvis du leder efter en "kondital beregner", så kan du her finde forskellige metoder til udregning af konditallet.
+Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på. Hvis du leder efter en "kondital beregner", så kan du her finde forskellige metoder til udregning af konditallet.
 
-En måde er at beregne [dit kondital](/kondital/) ud fra en [vilkårlig løbedistance](/kondital-loeb-distance-tid/), løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
+Men hvis du helst ikke vil rejse dig fra sofaen for at få svaret på dit kondital, så kan kan denne artikel være svaret.
 
-Men hvis du helst ikke vil rejse dig fra sofaen for at få svaret, så kan kan denne artikel være svaret. Her får du nemlig en række beregnere til kondital, som du kan udføre mens du ligger ned.
+Her får du nemlig en række beregnere til kondital, som du kan give dig svaret på din kondition uden, at du behøver at rejse dig. Du kan faktisk udføre de fleste, mens du ligger ned.
 
-Men lad os først lige kigge på, hvordan man laver en kondital beregner. Derefter kommer jeg med forskellige eksempler på konditalberegnere for løb, cykling, gang og roning.
+Hvis du hellere vil bruge dine kræfter, så kan du fx løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). 
+
+Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
+
+Men lad os først lige kigge på, hvordan man laver en beregner til kondital. Derefter kommer jeg med forskellige eksempler på konditalberegnere for løb, cykling, gang og roning.
 
 ## Hvordan beregner jeg mit kondital?
 
@@ -154,4 +157,8 @@ Jeg har lavet en side, hvor du kan se en tabel med kondital, som du kan vurdere 
 
 ## Konklusion for beregnere af kondital
 
-Der er mange søgninger på nettet på "beregn kondital", hvilket tyder på, at mange gerne vil lave en beregning af sit kondital. Jeg bruger ofte også selv en beregner til at udregne mit kondital, fordi jeg godt kan lide at få et tal. Egentlig kunne jeg jo bare lave den samme test flere gange for at se, om jeg er blevet bedre, og så ved jeg, at min kondition er blevet bedre.
+Der er mange søgninger på nettet på "beregn kondital", hvilket tyder på, at mange gerne vil lave en beregning af sit kondital.
+
+Jeg bruger ofte også selv en beregner til at udregne mit kondital, fordi jeg godt kan lide at få et tal.
+
+Egentlig kunne jeg jo bare lave den samme test flere gange for at se, om jeg er blevet bedre, og så ved jeg, at min kondition er blevet bedre.
