@@ -14,15 +14,15 @@ feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Tests"
     title: "Tests"
-    excerpt: "Du kan bruge tests tests før og efter din træning, så du kan se om dit træningsprogram virker."
+    excerpt: "Du kan bruge tests før, under og efter din træningperioder, så du kan se om dit træningsprogram virker."
     url: "/tests/"
     btn_label: "Test"
     btn_class: "btn--info"
   - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Træning"
     title: "Træning"
-    excerpt: "Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træningsformer til inspiration her."
-    url: "/traeningsformer/"
+    excerpt: "Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træning til inspiration her."
+    url: "/traening/"
     btn_label: "Træn"
     btn_class: "btn--success"
   - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
@@ -38,7 +38,7 @@ breadcrumbs: true
 
 {{ page.excerpt }}
 
-Når du træner, så håber du på at du bliver bedre til det du gør, eller din krop tilpasser sig de udfordringer, du stiller den. Hvis du skal blive bedre, så skal du øve dig. Men optimering af træning handler ikke kun om selve træningen. Effektiv træning handler også om [hvordan du restituerer fra træningen]({% link _posts/2020-05-28-restitution.md %}), hvilke [træningsprogrammer du vælger](/traeningsprogrammer/) og hvilke [træningsøvelser](/traeningsoevelser/) du bruger.
+Når du træner, så håber du på at du bliver bedre til det du gør, eller din krop tilpasser sig de udfordringer, du stiller den. Hvis du skal blive bedre, så skal du øve dig. Men optimering af træning handler ikke kun om selve træningen. Effektiv træning handler også om [hvordan du restituerer fra træningen](/restitution/), hvilke [træningsprogrammer du vælger](/traeningsprogrammer/) og hvilke [træningsøvelser](/traeningsoevelser/) du bruger.
 
 ## Test - træn - track
 
@@ -50,7 +50,7 @@ Hvis du træner for at blive bedre til noget, så synes jeg, at det kan være me
 
 Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen.
 
-Læs meget mere om [restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/).
+Læs meget mere om [restitution](/restitution/) og [restitutionstid](/restitutionstid/).
 
 Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 
@@ -68,7 +68,7 @@ Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 
 ## Træningsprogrammer
 
-Det er altid en god ide at have en eller anden form for træningsprogram, når du laver træning. Det vigtigtste er faktisk at have en plan, så du **vedholdende** gider at træne. Vi har skrevet indlæg om, [hvordan du laver dit eget styrketræningsprogram]({% link _posts/2020-08-19-programlaegning.md %}) og [hvad du skal tænke på i et løbeprogram]({% link _posts/2011-04-27-kom-i-gang-med-loebetraeningen.md %}).
+Det er altid en god ide at have en eller anden form for træningsprogram, når du laver træning. Det vigtigtste er faktisk at have en plan, så du **vedholdende** gider at træne. Vi har skrevet indlæg om, [hvordan du laver dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/) og [hvad du skal tænke på i et løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/).
 
 Tjek mere på vores side om [træningsprogrammer](/traeningsprogrammer/).
 
@@ -114,7 +114,7 @@ Skader er desværre ofte en del af det at træne. Med fornuftig træningsplanlæ
 
 Når du gerne vil optimere din træning, så kan det være en god ide at vide lidt mere om træningslæren.
 
-Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/), [guide til bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}) eller læse mere om [fysiologi](/fysiologi/).
+Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/), [guide til bevægelsesanalyse](/bevaegelsesanalyse/) eller læse mere om [fysiologi](/fysiologi/).
 
 {% assign site_posts = site.posts | where: "tags", "træningslære" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

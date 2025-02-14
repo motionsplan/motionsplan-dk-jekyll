@@ -7,12 +7,13 @@ language: da
 #header:
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
 tags:
-  - kropsvægt
+  - Knees Over Toe Guy
+  - håndvægt
 categories: []
 training_type: []
 training_focus: []
 equipment:
-  - kropsvægt
+  - håndvægt
 muscle_group:
 #gallery:
 #  - url: /assets/images/exercises/180-jump-0.jpg

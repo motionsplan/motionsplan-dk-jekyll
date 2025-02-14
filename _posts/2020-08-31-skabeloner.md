@@ -64,7 +64,7 @@ feature_row_running_program:
 
 Jeg har lavet en række gratis skabeloner, hvor du kan indskrive dit træningsprogram og styrketræningsprogram. Jeg bruger altid selv en skabelon, fordi jeg synes, at jeg får et bedre overblik over mit styrketræningsprogram og løbeprogram.
 
-Hvis du vil dykke yderligere ned i programlægning, så har jeg skrevet en guide til [programlægning til styrketræning]({% link _posts/2020-08-19-programlaegning.md %}) og en gennemgang af, [hvordan man laver et program til løbetræning]({% link _posts/2011-04-27-kom-i-gang-med-loebetraeningen.md %}).
+Hvis du vil dykke yderligere ned i programlægning, så har jeg skrevet en guide til [programlægning til styrketræning](/traeningsprogram-programlaegning-styrketraening/) og en gennemgang af, [hvordan man laver et program til løbetræning](/artikel/kom-i-gang-med-loebetraeningen/).
 
 Hvis du derimod er på udkig efter et par skabeloner til din egen styrketræning og løbetræning, så er du kommet til det helt rigtige sted.
 

@@ -19,6 +19,7 @@ tags:
   - Hoftebøjere
   - Lægge
   - crossfit
+  - Knees Over Toe Guy
 categories:
   - Helkropsøvelse
 training_type:

@@ -18,6 +18,7 @@ tags:
   - Bryst
   - Skuldre
   - triceps
+  - Knees Over Toe Guy
 categories:
   - Træk
 training_type:

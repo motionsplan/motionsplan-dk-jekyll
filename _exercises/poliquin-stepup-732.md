@@ -14,6 +14,7 @@ tags:
   - knædomineret
   - Step
   - Forlår
+  - Knees Over Toe Guy
 categories:
   - Koordination og balance
 training_type:

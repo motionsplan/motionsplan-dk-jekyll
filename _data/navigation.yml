@@ -2,14 +2,12 @@
 main:
   - title: "Beregnere & Tests"
     url: /beregnere-tests/
-  - title: "Træningsformer"
-    url: /traeningsformer/
+  - title: "Træning"
+    url: /traening/
   - title: "Optimer træning"
     url: /optimer-traening/
   - title: "Krop & Sundhed"
     url: /krop-og-sundhed/
-  - title: "Til fitnessinstruktøren"
-    url: /fitnessinstruktoer/
   - title: "Styrketræning"
     url: /styrketraening/
   - title: "Kondition"
@@ -18,10 +16,10 @@ main:
     url: /loebesiden/
   - title: "Træningsøvelser"
     url: /traeningsoevelser/
-  - title: "Blog"
-    url: /blog/
   - title: "Inspiration"
     url: /inspiration/
+  - title: "Blog"
+    url: /blog/
   - title: "Om"
     url: /om/
 blog:

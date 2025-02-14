@@ -39,7 +39,7 @@ Forskellen på koncentrisk, excentrisk og isometrisk muskelarbejde er rigtig god
 
 {% include figure image_path="https://i.pinimg.com/originals/ea/1a/29/ea1a2992c25aba18c4913fd27e27bc53.jpg" caption="Isometrisk, koncentrisk og excentrisk bevægelse. Kilde: [www.communitymedical.org](https://www.communitymedical.org/about-us/News/What,-When,-Why-How-of-Isometrics)" alt="Isometrisk, koncentrisk og excentrisk bevægelse" %}
 
-Hvis du foretrækker at få forskellene forklaret på video, så bliver det gennemgået i denne grundige video fra Youtube. I videoen får du også en masse andre rigtig fine betragtninger om at [lave en bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}).
+Hvis du foretrækker at få forskellene forklaret på video, så bliver det gennemgået i denne grundige video fra Youtube. I videoen får du også en masse andre rigtig fine betragtninger om at [lave en bevægelsesanalyse](/bevaegelsesanalyse/).
 
 {% include video provider="youtube" id="gN893EjEP-A" %}
 

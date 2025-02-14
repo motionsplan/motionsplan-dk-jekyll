@@ -39,14 +39,14 @@ feature_row_ads:
     btn_label: "Besøg Billig-Fitness.dk"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: /assets/images/logo/bodyman.png
-    alt: "Bodyman.dk"
-    title: "Bodyman.dk"
-    excerpt: "Salg af kosttilskud og fitnesstøj."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
-    btn_label: "Besøg Bodyman"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
+#  - image_path: /assets/images/logo/bodyman.png
+#    alt: "Bodyman.dk"
+#    title: "Bodyman.dk"
+#    excerpt: "Salg af kosttilskud og fitnesstøj."
+#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
+#    btn_label: "Besøg Bodyman"
+#    btn_class: "btn--info"
+#    rel: sponsored nofollow noopener
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: https://motionsplan.yogastream.dk

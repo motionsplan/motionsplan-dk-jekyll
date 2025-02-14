@@ -18,6 +18,7 @@ tags:
   - Baglår
   - Baller
   - Ryg
+  - Knees Over Toe Guy
 categories:
   - Hård styrkeøvelse
 training_type:

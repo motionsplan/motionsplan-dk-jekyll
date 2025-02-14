@@ -18,6 +18,7 @@ tags:
   - Øvre ryg
   - cirkeltræning
   - biceps
+  - Knees Over Toe Guy
 categories:
   - Træk
   - Armøvelser

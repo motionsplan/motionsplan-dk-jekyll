@@ -13,6 +13,7 @@ header:
 tags:
   - håndvægte
   - fitnessinstruktør
+  - Knees Over Toe Guy
 categories:
   - Skulderøvelser
 training_type: []

@@ -133,6 +133,6 @@ Gør det enkelt for dig selv og vælg et enkelt træningsprogram. God træning.
 
 Når du skal vurdere et træningsprogram eller lave dit eget, så tag udgangspunkt i disse enkle træningsprincipper. Så kan det ikke gå helt galt med træningsplanlægningen.
 
-Jeg har skrevet en meget mere dybdegående artikel om [programlægning]({% link _posts/2020-08-19-programlaegning.md %}), som du måske også kunne blive inspireret af.
+Jeg har skrevet en meget mere dybdegående artikel om [programlægning](/traeningsprogram-programlaegning-styrketraening/), som du måske også kunne blive inspireret af.
 
 Hvad tænker du selv over i din egen træningsplanlægning? Hvilke principper er de vigtigste for dig?

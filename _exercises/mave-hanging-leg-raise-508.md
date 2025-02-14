@@ -8,7 +8,8 @@ id: 508
 language: da
 header:
   teaser: /assets/images/exercises/mave-hanging-leg-raise-0-320.jpg
-tags: []
+tags:
+  - Knees Over Toe Guy
 categories:
   - Maveøvelser
 training_type: []

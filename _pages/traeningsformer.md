@@ -20,8 +20,7 @@ header:
       url: "/traeningsoevelser/"
     - label: "<i class='fas fa-download'></i> Træningsprogrammer"
       url: "/traeningsprogrammer/"
-author_profile: false
-author: lsolesen
+author_profile: true
 toc: true
 sidebar:
   nav: trainingtypes
@@ -70,7 +69,7 @@ Læs mere om [løb og løbetræning her](/loebesiden/).
 
 ## Cardio og kondition
 
-Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner]({% link _posts/2020-12-23-bedste-cardiomaskiner.md %}).
+Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner](/bedste-cardiomaskiner/).
 
 Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning](/kondition/).
 

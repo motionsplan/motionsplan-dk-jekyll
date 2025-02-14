@@ -18,6 +18,7 @@ tags:
   - fitnessinstruktør
   - crossfit
   - triceps
+  - Knees Over Toe Guy
 categories:
   - Pres
 training_type:

@@ -1,17 +1,19 @@
 ---
-title: "Peterson stepup"
+title: "Petersen stepup"
 instructions: ""
 permalink: /oevelse/peterson-stepup/
 redirect_from: /node/731
 id: 731
 language: da
-tags: []
+tags:
+  - Knees Over Toe Guy
 categories: []
 training_type: []
 training_focus: []
 equipment:
 muscle_group: []
-alternative_titles: []
+alternative_titles: 
+  - Peterson Stepup
 gallery:
 video:
   provider: youtube

@@ -20,6 +20,7 @@ tags:
   - kabeltræk
   - Skuldre
   - Øvre ryg
+  - Knees Over Toe Guy
 categories:
   - Træk
 training_type:

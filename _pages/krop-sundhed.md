@@ -47,7 +47,7 @@ Det er godt at kende mere til [kroppens fysiologi](/fysiologi/), når man gerne 
 
 ## Anatomi
 
-Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}).
+Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til bevægelsesanalyse](/bevaegelsesanalyse/).
 
 {% assign site_posts = site.posts | where: "tags", "anatomi" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

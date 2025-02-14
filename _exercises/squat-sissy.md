@@ -9,7 +9,8 @@ video:
   id: Kwcpzy1C6UE
 #header:
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
-tags: []
+tags:
+  - Knees Over Toe Guy
 categories:
   - Squat
 training_type: []

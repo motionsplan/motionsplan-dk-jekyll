@@ -14,6 +14,7 @@ tags:
   - kropsvægt
   - makker
   - Baglår
+  - Knees Over Toe Guy
 categories:
   - Ben
   - Baglårsøvelser

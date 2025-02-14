@@ -1,5 +1,5 @@
 ---
-title: "Copenhagen Plank"
+title: "Copenhagen Side Plank"
 instructions: ""
 permalink: /oevelse/copenhagen-plank/
 key: 20201212205400

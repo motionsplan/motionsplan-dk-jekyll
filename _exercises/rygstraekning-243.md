@@ -17,6 +17,7 @@ tags:
   - Baller
   - Ryg
   - fitnessinstruktør
+  - Knees Over Toe Guy
 categories:
   - Kropsstamme
 training_type:
@@ -32,6 +33,7 @@ muscle_group:
 alternative_titles:
   - Lænd på bænk
   - Hyper extension
+  - Back extension
 gallery:
   - url: /assets/images/exercises/rygstraekning-0.jpg
     image_path: /assets/images/exercises/rygstraekning-0-320.jpg

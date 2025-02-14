@@ -34,7 +34,5 @@ feature_row:
 
 https://www.partner-ads.com/dk/programinfo.php?id=6324 --> https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415
 
-Bfr Pro kan også købes hos Bodyman
-https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=PRODUKTLINK
 
 Bodylab –> https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522

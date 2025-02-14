@@ -71,7 +71,7 @@ twitter:
 facebook:
   username               : "motionsplan"
   app_id                 : 145274118551
-  publisher              : https://www.facebook.com/motionsplan
+  publisher              : https://www.facebook.com/motionsplan/
 og_image                 : # Open Graph/Twitter default site image
 
 # For specifying social profiles
@@ -80,7 +80,7 @@ social:
   type                   : "Organization" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.facebook.com/motionsplan"
+    - "https://www.facebook.com/motionsplan/"
     - "https://twitter.com/motionsplan"
     - "https://www.pinterest.dk/motionsplan/"
     - "https://www.instagram.com/motionsplan/"
@@ -172,7 +172,7 @@ author:
       url: "mailto:lars@motionsplan.dk"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/motionsplan"
+      url: "https://www.facebook.com/motionsplan/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/motionsplan"

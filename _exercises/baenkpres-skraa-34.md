@@ -12,6 +12,7 @@ tags:
   - vægtstang
   - håndvægte
   - fitnessinstruktør
+  - Knees Over Toe Guy
 categories:
   - Bænkpres
 training_type: []
