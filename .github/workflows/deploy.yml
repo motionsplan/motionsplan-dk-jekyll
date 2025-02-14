@@ -125,7 +125,7 @@ jobs:
             --ignore-status-codes "400,403,409,429"
             --ignore-empty-alt
             --allow-hash-href
-            --enforce-https false
+            --no-enforce-https
             --ignore-urls "/bjsm.bmj.com/, /mademistakes.com/, /www.t-nation.com/"
   clean:
     needs: [build,deploy,test]
