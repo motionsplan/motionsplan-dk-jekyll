@@ -21,7 +21,7 @@ gallery:
   - image_path: /assets/images/loebeprogram/uge-moderat.png
   - image_path: /assets/images/loebeprogram/uge-traenet.png
 ---
-Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning.
+Her gennemgår vi, hvordan du kan lave dit eget løbeprogram? Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning?
 
 Vi laver først en simpel 5-trins-rakat, så du bliver i stand til at lave dine egne løbeprogrammer. Alle løbeprogrammer skal naturligvis tage udgangspunkt i en specifik målsætning og løberens forudsætninger.
 

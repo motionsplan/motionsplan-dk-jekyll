@@ -19,7 +19,7 @@ toc: true
 
 {{ page.excerpt }}
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet, men hvad skal man egentlig kigge efter i et godt løbeprogram?
+Der findes et hav af løbeprogrammer rundt omkring på nettet, men hvad skal du egentlig kigge efter for at finde et godt løbeprogram?
 
 Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste parametre, du skal kigge efter:
 
