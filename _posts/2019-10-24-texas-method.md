@@ -19,6 +19,8 @@ tags:
   - træningsprogram
   - programanmeldelse
   - fullbody
+  - styrketræning
+  - populær
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: Stærk

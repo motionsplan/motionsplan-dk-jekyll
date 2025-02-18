@@ -9,7 +9,6 @@ category:
   - Cykling
 tags:
   - cykling
-  - cykeltest
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
 feature_row:

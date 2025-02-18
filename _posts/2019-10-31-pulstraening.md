@@ -17,6 +17,7 @@ tags:
   - puls
   - beregner
   - løb
+  - guide
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 garmin_setup:

@@ -15,6 +15,7 @@ category:
 tags:
   - styrketræning
   - løb
+  - guide
 last_modified_at: 2024-02-04T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?

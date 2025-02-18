@@ -12,6 +12,7 @@ category:
   - Løb
 tags:
   - løb
+  - guide
 last_modified_at: 2022-11-07T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?
