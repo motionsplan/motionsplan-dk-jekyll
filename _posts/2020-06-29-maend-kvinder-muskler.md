@@ -1,7 +1,7 @@
 ---
 title: "Er der forskel på mænds og kvinders muskler?"
-seo_title: "Er der forskel på mænds og kvinders muskler? (2024)"
-description: Er der forskel på mænds og kvinders muskler? Her får du svar på de forskellige myter, du måske har hørt om muskler og køn.
+seo_title: "Mænd vs kvinder: Forskelle på muskler og styrke"
+description: Bliv klogere på fysiologiske forskelle på mænds og kvinders muskler. Få svar på myterne og lær, hvordan træningen skal tilpasses.
 permalink: /maend-kvinder-muskler/
 language: da
 header:

@@ -1,6 +1,6 @@
 ---
 title: "Musik til træning: Find de bedste sange til træningen"
-seo_title: "Musik til træning: Find de bedste sange til træningen (2024)"
+seo_title: "Musik til træning: Find de bedste sange til træningen (2025)"
 description: Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning, men hvad skal du tænke på?
 permalink: /artikel/musik-til-traeningen/
 redirect_from:

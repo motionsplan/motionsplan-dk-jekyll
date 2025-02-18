@@ -25,20 +25,6 @@ breadcrumbs: true
 
 {% include feature_row type="center" id="feature_row_excerpt" %}
 
-## Alt om cykling
-
-{% assign site_posts = site.posts | where: "category", "Cykling" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
 ## Cykling og styrketræning
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "cykling" | sort: "date" %}
@@ -55,6 +41,20 @@ breadcrumbs: true
 
 ## Cykeltests og kondition
 
+{% assign site_posts = site.posts | where: "tags", "cykeltest" | where: "tags", "kondition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Test dig selv
+
 {% assign site_posts = site.posts | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
@@ -67,7 +67,8 @@ breadcrumbs: true
 
 </div>
 
-## Alle indlæg om cykling og cykeltræning
+
+## Alt om cykling og cykeltræning
 
 {% assign site_posts = site.posts | where: "tags", "cykling" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

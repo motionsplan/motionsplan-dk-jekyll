@@ -1,0 +1,134 @@
+form.calculator {
+    fieldset, legend {
+        margin: 0;
+        padding: 0;
+    }
+    fieldset {
+        padding: 1em !important;
+        background-color: #AED6F1;
+
+        fieldset {
+            clear: both !important;
+            padding: 0 !important;
+            legend {
+                float: none !important;
+                font-weight: normal;
+            }
+        }
+
+        &.results {
+            color: white !important;
+            background-color: #21618C !important;
+
+            legend, label {
+                color: white !important;
+            }
+            .help-block, .help-inline {
+                color: #eee;
+            }
+
+            table thead tr, table thead, table thead th {
+              background-color: transparent !important;
+            }
+        }
+
+        legend {
+	        font-weight: bold;
+            float: left;
+            margin-bottom: .5em;
+            width: 100%;
+        }
+    }
+    input[type="submit"] {
+        @extend .btn;
+        @extend .btn--large;
+        @extend .btn--success;
+    }
+    .notes {
+        margin-top: 0.4em;
+        font-size: 0.9em;
+        color: #bbb;
+    }
+}
+
+meter {
+    --background: #dadada;
+    --optimum: forestgreen;
+    --sub-optimum: gold;
+    --sub-sub-optimum: crimson;
+  }
+  
+  .meter-overlay-text {
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* The gray background in Chrome, etc. */
+  meter::-webkit-meter-bar {
+    background: var(--background);
+  }
+  
+  /* The green (optimum) bar in Firefox */
+  meter:-moz-meter-optimum::-moz-meter-bar {
+    background: var(--optimum);
+  }
+  
+  /* The green (optimum) bar in Chrome etc. */
+  meter::-webkit-meter-optimum-value {
+    background: var(--optimum);
+  }
+  
+  /* The yellow (sub-optimum) bar in Firefox */
+  meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background: var(--sub-optimum);
+  }
+  
+  /* The yellow (sub-optimum) bar in Chrome etc. */
+  meter::-webkit-meter-suboptimum-value {
+    background: var(--sub-optimum);
+  }
+  
+  /* The red (even less good) bar in Firefox */
+  meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+    background: var(--sub-sub-optimum);
+  }
+  
+  /* The red (even less good) bar in Chrome etc. */
+  meter::-webkit-meter-even-less-good-value {
+    background: var(--sub-sub-optimum);
+  }
+
+  meter {
+    width: 100%;
+}
+
+meter::-webkit-meter-bar {
+  height: 25px;
+  background: none;
+  background-color: whitesmoke;
+  box-shadow: 0 5px 5px -5px #333 inset;
+  margin-bottom: 10px;
+}
+
+.scale {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+meter::-webkit-meter-optimum-value {
+  background-image: -webkit-linear-gradient(/*90deg,
+            #8bcf69 20%,
+            #e6d450 20%,
+            #e6d450 40%,
+            #f28f68 40%,
+            #f28f68 60%,
+            #cf82bf 60%,
+            #cf82bf 80%,
+            #719fd1 80%,
+            #719fd1 100%*/
+  );
+  transition: width 1s;
+}

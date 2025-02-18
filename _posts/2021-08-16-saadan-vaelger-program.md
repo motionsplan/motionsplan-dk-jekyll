@@ -11,6 +11,7 @@ tags:
   - program
   - træningsprogram
   - begynder
+  - guide
 last_modified_at: 2021-08-16T10:14:14Z
 toc: true
 ---

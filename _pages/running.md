@@ -190,9 +190,11 @@ hiit træning løbebånd
 
 {% endcomment %}
 
-## Løbetests og kondition
+## Test dig selv
 
-{% assign site_posts = site.posts | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+Der er masser af forskellige måder at teste dig selv på, når du gerne vil blive en bedre løber. Her kan du se alle vores løbetests.
+
+{% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -203,6 +205,8 @@ hiit træning løbebånd
 {% endif %}
 
 </div>
+
+[Se alle løbetests](/tests/loeb/){: .btn .btn--large .btn--success}
 
 ## Løbeprogrammer
 

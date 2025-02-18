@@ -1,6 +1,6 @@
 ---
 title: &title "Fedtforbrændingszonen: Alt du behøver at vide 🔥"
-seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2024)"
+seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2025)"
 description: Har du hørt om fedtforbrændingszonen? Inden du går i gang med at ræne med en bestemt intensitet for at forbrænde mest muligt fedt, så læs lige med her først.
 permalink: /fedtforbraendingszonen/
 redirect_from:

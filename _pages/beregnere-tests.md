@@ -48,7 +48,7 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 ## Kalorieberegner og ligevægtsindtag
 
-Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Det er et af de rigtig populære punkter her på siden.
+Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
 
 Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
@@ -66,7 +66,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 ## Konditionstests
 
-Dit kredsløb og din [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) har stor betydning for din sundhed. Vi har skrevet en del om [kondition og kondital](/kondital/). Men det er også interessant at teste sit eget kondital.
+Dit kredsløb og din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) har stor betydning for din sundhed. Vi har skrevet en del om [kondition og kondital](/kondital/). Men det er også interessant at teste sit eget kondital.
 
 Det kan du gøre på flere forskellige måder, og du kan springe direkte til en [oversigt over alle konditionstests](/kondition/tests/), eller du kan lade dig inspirere af oversigten herunder.
 

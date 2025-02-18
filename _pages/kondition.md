@@ -41,20 +41,25 @@ faq:
     answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
   - question: Hvad er dårlig kondition?
     answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition. Konditionen afhænger især af alderen.
+  - question: Hvor hurtigt bliver ens kondition dårligere?
+    answer: |
+      Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det kan gå, når du holder træningspause.
+
+      Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
 breadcrumbs: true
 ---
 
-Kondition forbinder man ofte med det at være i form. Når man laver udholdenhedsidræt, fx løb eller cykling, så bliver man hurtigt interesseret i at være i at være i en god kondition.
+Kondition forbinder man ofte med det at være i form. Når man laver udholdenhedsidræt, fx løb eller cykling, så bliver man hurtigt interesseret i at være i en god kondition.
 
-Konditionen har stor betydning for din sundhed. Når hjertets evne til at pumpe blod rundt i kroppen forbedres, og musklerne bliver bedre til at optage ilt fra blodet og bruge ilten.
+Konditionen har stor betydning for din sundhed. Når hjertets evne til at pumpe blod rundt i kroppen forbedres, og musklerne bliver bedre til at optage ilt fra blodet og bruge ilten, så fungerer din krop også bedre.
 
 ## Hvad er kondition?
 
-Kondition er et udtryk for kroppens evne til at arbejde. Kondition er kroppens evne til at arbejde med aerobe processer og måles som den maksimale iltoptagelse. Din kondition kan således blive både dårligere eller bedre alt efter, hvad du laver for at træne dine energisystemer.
+Kondition er et udtryk for kroppens evne til at arbejde med aerobe processer og måles som den maksimale iltoptagelse. Din kondition kan således blive både dårligere eller bedre alt efter, hvad du laver for at træne dine energisystemer.
 
 ## Hvordan kan jeg måle min kondition?
 
-Du måler altså din kondition ved at måle den maksimale iltoptagelse. Når du har målt iltoptagelsen, så får du et bud på din kondition.
+Du måler altså din kondition ved at måle den maksimale iltoptagelse.
 
 Da iltoptagelsen er højere jo større du er, fordi en større krop skal bruge mere ilt, så kan du normalisere iltoptagelsen ved at dele med kropsvægten. Det giver dit [dit kondital](/kondital/).
 
@@ -62,7 +67,7 @@ Da iltoptagelsen er højere jo større du er, fordi en større krop skal bruge m
 
 ## Hvordan kan man teste sin kondition og kondital?
 
-Der findes rigtig mange forskellige måder at teste sin kondition og sit kondital på. Du kan finde tests, hvor du bare skal svare på nogle spørgsmål, tests baseret på puls, løbetests og cykeltests.
+Der findes rigtig mange forskellige måder at teste sin kondition og sit kondital på. Du kan finde tests, hvor du bare kan sidde på sofaen og svare på nogle spørgsmål, men der er også tests, hvor du skal i træningstøjet. Nogle tests er baseret på puls, andre på distance, og der findes fx løbetests og cykeltests.
 
 Vi har beskrevet mange flere testmuligheder i nedenstående indlæg.
 
@@ -136,12 +141,6 @@ Når du skal arbejde med din maksimale ydeevne for at få et højt kondital, så
 Vi har skrevet en guide til intervaltræning, og hvad intervaller kan bruges til i træningen. Du kan også tjekke vores mere specifikke guides i [intervaltræning til løb](/intervallob-intervaltraening/) og [intervaltræning til cykling](/intervaltraening-cykling/).
 
 Læs: [Guide til intervaltræning og hvad der virker?](/intervaltraening/)
-
-## Hvor hurtigt bliver ens kondition dårligere?
-
-Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det kan gå, når du holder træningspause.
-
-Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
 
 ## Ofte stillede spørgsmål
 

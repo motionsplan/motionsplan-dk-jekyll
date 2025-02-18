@@ -1,6 +1,6 @@
 ---
 title: &title "Iltmætningsprocent: Hvad er din iltmætning i blodet?"
-seo_title: "Iltmætningsprocent: Hvad er din iltmætning i blodet? (2024)"
+seo_title: "Iltmætningsprocent: Hvad er din iltmætning i blodet?"
 permalink: /iltmaetning/
 language: da
 header:

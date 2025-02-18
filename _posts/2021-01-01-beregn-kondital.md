@@ -1,6 +1,6 @@
 ---
-title: &title "Udregn dit kondital i vores beregnere 💗🥇"
-seo_title: "Beregn dit kondital i vores beregner"
+title: &title "Beregn dit kondital i vores værktøjer 💗🥇"
+seo_title: "5 måder at beregne dit kondital fra sofaen"
 permalink: /beregn-kondital/
 redirect_from:
   - /kondital-loeb/
@@ -27,23 +27,21 @@ polar:
     url: /assets/images/blog/polar-ownindex-4.jpg
 ---
 
-Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på. Hvis du leder efter en "kondital beregner", så kan du her finde forskellige metoder til udregning af konditallet.
+Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Her kan du lave en beregning af dit kondital uden at du behøver at rejse dig fra sofaen.
 
-Men hvis du helst ikke vil rejse dig fra sofaen for at få svaret på dit kondital, så kan kan denne artikel være svaret.
+Hvis du hellere vil bruge dine kræfter, så kan du fx løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). Du kan prøve nogle af vores mange [fysiske konditionstests](/test-kondition-konditest-kondital/).
 
-Her får du nemlig en række beregnere til kondital, som du kan give dig svaret på din kondition uden, at du behøver at rejse dig. Du kan faktisk udføre de fleste, mens du ligger ned.
-
-Hvis du hellere vil bruge dine kræfter, så kan du fx løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). 
-
-Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/test-kondition-konditest-kondital/).
-
-Men lad os først lige kigge på, hvordan man laver en beregner til kondital. Derefter kommer jeg med forskellige eksempler på konditalberegnere for løb, cykling, gang og roning.
+Men lad os først lige kigge på, hvordan du beregner dit kondital.
 
 ## Hvordan beregner jeg mit kondital?
 
-For at beregne dit kondital så har du brug for en test, som på en eller anden måde er blevet sammenlignet med en direkte måling af den maksimale iltoptagelse pr. minut delt med kropsvægten. Det er nemlig definitionen på konditallet. Konditallet måles i ml ilt pr. minut pr. kg. kropsvægt.
+For at beregne dit kondital, så har du brug for en test, som på en eller anden måde er blevet sammenlignet med en direkte måling af den maksimale iltoptagelse pr. minut delt med kropsvægten. Det er nemlig definitionen på konditallet. Konditallet måles i ml ilt pr. minut pr. kg. kropsvægt.
 
 Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital direkte og sammenlignet den med andre submaksimale eller maksimale tests. Hvis du er interesseret, så har jeg skrevet et andet indlæg, der handler om, [hvordan man tester sin kondition med en konditest](/test-kondition-konditest-kondital/)?
+
+I de følgende konditalberegnere har forskeren stillet spørgsmål, som de har sammenlignet med fysiske tests.
+
+Det gør, at du kan udregne dit kondital uden at skulle rejse dig fra sofaen.
 
 ## Kondital beregner fra sofaen
 
@@ -75,7 +73,11 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar Beat og en brystmåler. Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition]({% link _posts/2021-10-17-watch-vo2-max.md %}).
 
-## Beregn kondital fra træning
+## Beregn kondital fra fysiske tests
+
+Hvis du foretrækker en lidt mere præcis beregning af dit kondital, så skal du have træningstøjet på.
+
+Her kan du få inspiration til forskellige tests.
 
 ### Løbetests
 
@@ -84,26 +86,30 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
 </div>
 
-### Cykling
+[Se alle løbetests](/tests/loeb/){: .btn .btn--large .btn--success}
+
+### Cykeltests
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "cykeltest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
 </div>
+
+[Se alle cykeltests](/tests/cykling/){: .btn .btn--large .btn--success}
 
 ### Romaskine og roergometer
 
@@ -112,7 +118,7 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -126,7 +132,7 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -139,7 +145,9 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 
 ## Validitet af beregning af kondital
 
-Når du beregner dit kondital, så skal du huske, at alle _indirekte_ tests er forbundet med unøjagtigheder. Beregnerne er lavet med udgangspunkt i en population, og formlerne og algoritmerne er baseret på det, der passer på flest muligt i forsøget. Når du laver en beregning af konditallet, så bliver det altså det bedste gæt ud fra forskernes studier.
+Når du beregner dit kondital, så skal du huske, at alle _indirekte_ tests er forbundet med unøjagtigheder. Beregnerne er lavet med udgangspunkt i en population, og formlerne og algoritmerne er baseret på det, der passer på flest muligt i forsøget.
+
+Når du laver en beregning af konditallet, så bliver det altså det bedste gæt ud fra forskernes studier.
 
 ## Hvordan forbedrer jeg beregningen af mit kondital?
 

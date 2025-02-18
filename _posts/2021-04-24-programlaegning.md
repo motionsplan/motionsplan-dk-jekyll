@@ -16,6 +16,7 @@ category:
 tags:
   - programlægning
   - styrketræning
+  - guide
 ---
 I denne artikel vil jeg forklare og demonstrere min fremgangsmåde til, hvordan du kan lave dit eget styrketræningsprogram. Metoden gør dig i stand til at lave styrketræningsprogrammer, så du selv kan lave gode programmer der passer til netop dig.
 

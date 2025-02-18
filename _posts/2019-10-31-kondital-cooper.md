@@ -1,11 +1,11 @@
 ---
-title: "Cooper-test: Find dit kondital med 12 minutters løbetest"
-seo_title: "Cooper test • Nyt skema og beregner til kondital (2024)"
-description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
+title: "Cooper-test: Beregn dit kondital med 12 minutters løbetest"
+seo_title: "Cooper-test: Guide og værktøj til at beregne dit kondital"
+description: "Beregn dit kondital i vores gratis Cooper-test værktøj. Sammenlign dine resultater med opdaterede skemaer og få tips til at forbedre dine resultater."
 permalink: /cooper-test/
 redirect_from:
   - /kondital-cooper/
-excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
+excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
@@ -28,6 +28,7 @@ tags:
   - test
   - beregner
   - featured
+  - populær
 popular: true
 last_modified_at: 2024-08-20T10:14:14Z
 feature_row:

@@ -15,6 +15,7 @@ tags:
   - løbetræning
   - konditionstræning
   - begynder
+  - guide
 category:
   - Løb
   - Kondition

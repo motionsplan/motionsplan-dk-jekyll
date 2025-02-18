@@ -1,11 +1,9 @@
-{% comment %} 11TY - NOT NEEDED - BAKED INTO 11TY MM {% endcomment %}
-
 {% if include.id %}
-  {% assign gallery = page[include.id] %}
+  {% assign gallery = galleries[include.id] %}
 {% elsif include.images %}
   {% assign gallery = include.images %}
 {% else %}
-  {% assign gallery = page.gallery %}
+  {% assign gallery = gallery %}
 {% endif %}
 
 {% if include.layout %}
@@ -20,21 +18,31 @@
   {% endif %}
 {% endif %}
 
+{% if include.headline %}
+<div style="position: relative; text-align: center; border-top: 1px solid rgb(241.7,242.5,243.1); border-bottom: 1px solid rgb(241.7,242.5,243.1); margin: 1em 0;">
+  <p style="display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold; unicode-bidi: isolate;">
+    <span style="position: relative; z-index: 5; padding: 0 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; background-color: white;">{{ include.headline }}</span>
+  </p>
+{% endif %}
+
 <figure class="{{ gallery_layout }} {{ include.class }}">
-  {% for img in gallery %}
-    {% if img.url %}
+  {%- for img in gallery -%}
+    {%- if img.url -%}
       <a href="{{ img.url | relative_url }}"
-        {% if img.rel %}rel="{{ img.rel }}"{% endif %}
-        {% if img.title %}title="{{ img.title }}"{% endif %}>
+        {%- if img.title %}title="{{ img.title }}"{%- endif -%}>
           <img src="{{ img.image_path | relative_url }}"
-               alt="{% if img.alt %}{{ img.alt }}{% endif %}" loading="lazy">
+               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>
-    {% else %}
+    {%- else -%}
       <img src="{{ img.image_path | relative_url }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}" loading="lazy">
-    {% endif %}
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {%- endif -%}
   {% endfor %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
 </figure>
+
+{% if include.headline %}
+</div>
+{% endif %}

@@ -1,6 +1,6 @@
 ---
 title: "Mindfulness meditation: Øvelser og video på dansk 🧘"
-seo_title: "Mindfulness meditation: Øvelser og video på dansk (2024)"
+seo_title: "Mindfulness meditation: Øvelser og video på dansk (2025)"
 description: Her får du en række nyttige øvelser på dansk til mindfulness meditation, så du kan få mere bevidsthed om dine egne værdier og målsætninger.
 excerpt: Er du også på jagt efter mental ro og indsigt? Her får du øvelser fra mindfulness meditation som du kan bruge til at få øget bevidstgørelse omkring egne værdier og målsætninger.
 permalink: /mindfulness-meditation/

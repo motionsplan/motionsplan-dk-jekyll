@@ -83,8 +83,8 @@ diverse:
     btn_label: "Lær om fysiologi"
     btn_class: "btn--info"
   - image_path: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Til fitnessinstruktøreren"
-    title: "Til fitnessinstruktøreren"
+    alt: "Til fitnessinstruktøren"
+    title: "Til fitnessinstruktøren"
     excerpt: "Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning, styrketræning, doping og træning af særlige målgrupper."
     url: "/fitnessinstruktoer/"
     btn_label: "Guide for fitnessinstruktør"
@@ -112,7 +112,9 @@ diverse:
     btn_class: "btn--warning"
 ---
 
-<p>Velkommen til Motionsplan.dk – din kilde til evidensbaseret viden om træning, fitness, styrketræning, løbetræning og sundhed. Vores mål er at hjælpe dig med at træne effektivt, bevare motivationen og træffe de bedste valg for din sundhed.</p>
+<p>Velkommen til Motionsplan.dk - din kilde til evidensbaseret viden om træning, fitness, styrketræning, løbetræning og sundhed. Vores mål er at hjælpe dig med at træne effektivt, bevare motivationen og træffe de bedste valg for din sundhed.</p>
+
+{% include gallery images=site.data.mentioned layout="fifth" headline="Motionsplan er omtalt i" %}
 
 <p>Vi skriver overraskende hjælpsomt indhold baseret på grundig research af den nyeste forskning og mange års praktisk erfaring. Motionsplan.dk drives af Lars Olesen, cand.scient. i Idræt og Sundhed, som siden 1999 har undervist på Vejle Idrætshøjskole i test & træning, ernæring, styrketræning, fitnessinstruktør og løbetræning. Læs mere om <a href="/om/">vores tilgang og baggrund</a>.</p>
 
@@ -120,7 +122,7 @@ diverse:
 
 <hr>
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="center" class="center hr" headline="Motionsplan er omtalt i" %}
 
 <h2>Mest populære sider</h2>
 
@@ -136,7 +138,7 @@ diverse:
 
 </div>
 
-<h2>Spritnye indlæg på Motionsplans blog</h2>
+<h2>Nyeste artikler</h2>
 
 <div class="feature__wrapper">
 
@@ -152,11 +154,7 @@ diverse:
 
 {% include feature_row id="blog" type="center" %}
 
-<h2>Emner om træning på Motionsplan</h2>
-
-{% include feature_row id="feature_row_content" %}
-
-<h2>De mest populære beregnere og tests</h2>
+<h2>De mest populære tests og beregnere</h2>
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
 
@@ -171,6 +169,10 @@ diverse:
 </div>
 
 {% include feature_row id="tests" type="center" %}
+
+<h2>Emner om træning på Motionsplan</h2>
+
+{% include feature_row id="feature_row_content" %}
 
 <h2>Træningsformer</h2>
 
@@ -196,8 +198,6 @@ diverse:
 
 {% include feature_row id="diverse" %}
 
-<h2>Samarbejdspartnere (reklamelinks)</h2>
-
-{% include gallery images=site.data.advertisers %}
+{% include gallery images=site.data.advertisers layout="fifth" headline="Samarbejdspartnere (reklamelinks)" %}
 
 <p>Motionsplan.dk er udviklet af lærere på <a href="https://www.vih.dk">Vejle Idrætshøjskole</a> med en passion for at dele den bedst mulige viden om træning og sundhed. Vi bygger på både akademisk forskning og mange års undervisningserfaring for at give dig praktiske og brugbare råd.</p>

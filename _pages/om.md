@@ -23,6 +23,8 @@ Læs mere om [Lars Olesen](/om/lars-olesen/).
 
 Derudover bidrager en række dygtige freelance-journalister til det redaktionelle indhold.
 
+{% include gallery images=site.data.mentioned layout="fifth" headline="Motionsplan er omtalt i" %}
+
 ## Et gratis medie til dig
 
 Motionsplan.dk er et gratis medie skabt for at gøre kvalificeret viden om træning tilgængelig for alle. Der ligger mange timers arbejde bag artiklerne og de værktøjer, vi udvikler – alt sammen for at give dig den bedst mulige vejledning i din træning.
@@ -73,5 +75,7 @@ Ikoner brugt på sitet er lavet af [Dave Gandy](https://www.flaticon.com/authors
 ## Del din mening på Trustpilot
 
 Vi vil gerne høre, hvad du synes om Motionsplan.dk! Efterlad en anmeldelse på [Trustpilot](https://dk.trustpilot.com/review/motionsplan.dk){: rel="nofollow noopener" }.
+
+{% include gallery images=site.data.advertisers layout="fifth" headline="Samarbejdspartnere (reklamelinks)" %}
 
 [![](/assets/images/miljoe-pakning-badge.png){: alt="logo miljøvenlig pakning" rel="nofollow noopener" }](https://miljoevenlig-pakning.dk/)

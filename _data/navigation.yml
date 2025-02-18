@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Beregnere & Tests"
+  - title: "Tests & Beregnere"
     url: /beregnere-tests/
   - title: "Træning"
     url: /traening/
@@ -18,7 +18,7 @@ main:
     url: /traeningsoevelser/
   - title: "Inspiration"
     url: /inspiration/
-  - title: "Blog"
+  - title: "Artikler"
     url: /blog/
   - title: "Om"
     url: /om/

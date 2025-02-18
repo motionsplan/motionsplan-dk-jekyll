@@ -7,6 +7,11 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "signup";
+@import "calculator";
+@import "pyramid";
+@import "flip-card";
+@import "youtube";
+@import "star-rating";
 
 .sidebar {
   position: relative;
@@ -16,6 +21,34 @@
        viewport height - nav height - masthead x-padding
     */
     max-height: 100%;
+  }
+}
+
+/* Extra possibilities for the gallery */
+figure {
+  &.quarter {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(25% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+  &.fifth {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(20% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
   }
 }
 
@@ -66,53 +99,6 @@ a[rel~=sponsored]:after {
   @extend .btn--danger;
 }
 
-meter {
-  --background: #dadada;
-  --optimum: forestgreen;
-  --sub-optimum: gold;
-  --sub-sub-optimum: crimson;
-}
-
-.meter-overlay-text {
-  margin: auto;
-  text-align: center;
-}
-
-/* The gray background in Chrome, etc. */
-meter::-webkit-meter-bar {
-  background: var(--background);
-}
-
-/* The green (optimum) bar in Firefox */
-meter:-moz-meter-optimum::-moz-meter-bar {
-  background: var(--optimum);
-}
-
-/* The green (optimum) bar in Chrome etc. */
-meter::-webkit-meter-optimum-value {
-  background: var(--optimum);
-}
-
-/* The yellow (sub-optimum) bar in Firefox */
-meter:-moz-meter-sub-optimum::-moz-meter-bar {
-  background: var(--sub-optimum);
-}
-
-/* The yellow (sub-optimum) bar in Chrome etc. */
-meter::-webkit-meter-suboptimum-value {
-  background: var(--sub-optimum);
-}
-
-/* The red (even less good) bar in Firefox */
-meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
-  background: var(--sub-sub-optimum);
-}
-
-/* The red (even less good) bar in Chrome etc. */
-meter::-webkit-meter-even-less-good-value {
-  background: var(--sub-sub-optimum);
-}
-
 body.layout--single {
     .feature__item--left, .feature__item--right {
         h2.archive__item-title {
@@ -149,58 +135,6 @@ form.newsletter {
   }
 }
 */
-form.calculator {
-    fieldset, legend {
-        margin: 0;
-        padding: 0;
-    }
-    fieldset {
-        padding: 1em !important;
-        background-color: #AED6F1;
-
-        fieldset {
-            clear: both !important;
-            padding: 0 !important;
-            legend {
-                float: none !important;
-                font-weight: normal;
-            }
-        }
-
-        &.results {
-            color: white !important;
-            background-color: #21618C !important;
-
-            legend, label {
-                color: white !important;
-            }
-            .help-block, .help-inline {
-                color: #eee;
-            }
-
-            table thead tr, table thead, table thead th {
-              background-color: transparent !important;
-            }
-        }
-
-        legend {
-	        font-weight: bold;
-            float: left;
-            margin-bottom: .5em;
-            width: 100%;
-        }
-    }
-    input[type="submit"] {
-        @extend .btn;
-        @extend .btn--large;
-        @extend .btn--success;
-    }
-    .notes {
-        margin-top: 0.4em;
-        font-size: 0.9em;
-        color: #bbb;
-    }
-}
 
 #anatomy_muscle {
     position: relative;
@@ -228,192 +162,6 @@ form.calculator {
     }
 }
 
-meter {
-    width: 100%;
-}
-
-meter::-webkit-meter-bar {
-  height: 25px;
-  background: none;
-  background-color: whitesmoke;
-  box-shadow: 0 5px 5px -5px #333 inset;
-  margin-bottom: 10px;
-}
-
-.scale {
-  display: flex;
-  width: 100%;
-  padding: 0px;
-  justify-content: space-between;
-  list-style: none;
-}
-
-meter::-webkit-meter-optimum-value {
-  background-image: -webkit-linear-gradient(/*90deg,
-            #8bcf69 20%,
-            #e6d450 20%,
-            #e6d450 40%,
-            #f28f68 40%,
-            #f28f68 60%,
-            #cf82bf 60%,
-            #cf82bf 80%,
-            #719fd1 80%,
-            #719fd1 100%*/
-  );
-  transition: width 1s;
-}
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  font-family: $calisto;
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  border: 1px solid $lighter-gray;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  float: left;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: $info-color;
-  color: white;
-  border: 10px solid $lighter-gray;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: #34557A;
-  color: white;
-  transform: rotateY(180deg);
-  border: 10px solid $lighter-gray;
-}
-
-.pyramid {
-    width: 100%;
-}
-
-.zone {
-    margin: auto;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-
-    a {
-        display: block;
-    }
-}
-
-.zone:nth-child(1) {
-   clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
-   width: 50%;
-}
-.zone:nth-child(2) {
-   clip-path: polygon(8.5% 0, 91.5% 0, 100% 100%, 0 100%);
-   width: 60%;
-}
-.zone:nth-child(3) {
-   clip-path: polygon(7% 0, 93% 0, 100% 100%, 0 100%);
-   width: 70%;
-}
-.zone:nth-child(4) {
-   clip-path: polygon(6% 0, 94% 0, 100% 100%, 0 100%);
-   width: 80%;
-}
-
-.zone:nth-child(5) {
-   clip-path: polygon(5.4% 0, 94.6% 0, 100% 100%, 0 100%);
-   width: 90%;
-}
-
-.zone:nth-child(6) {
-   clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
-   width: 100%;
-}
-
-.zone:nth-child(1) {
-   background: rgba(202, 197, 94, 0.7);
-   background-blend-mode: lighten;
-}
-.zone:nth-child(1):hover {
-   background-color: rgba(202, 197, 94, 0.2);
-}
-
-.zone:nth-child(2) {
-   background: rgba(302, 197, 94, 0.7);
-   background-blend-mode: lighten;
-}
-.zone:nth-child(2):hover {
-   background-color: rgba(302, 197, 94, 0.2);
-}
-
-.zone:nth-child(3) {
-   background: rgba(102, 197, 94, 0.7);
-   background-blend-mode: lighten;
-}
-.zone:nth-child(3):hover {
-   background-color: rgba(102, 197, 94, 0.2);
-}
-
-.zone:nth-child(4) {
-   background: rgba(102, 297, 94, 0.7);
-   background-blend-mode: lighten;
-}
-.zone:nth-child(4):hover {
-   background-color: rgba(102, 297, 94, 0.2);
-}
-
-.zone:nth-child(5) {
-   background: rgba(182, 297, 94, 0.7);
-   background-blend-mode: lighten;
-}
-.zone:nth-child(5):hover {
-   background-color: rgba(182, 297, 94, 0.2);
-}
-
-.zone:nth-child(6) {
-   background: rgba(102, 297, 194, 0.7);
-   background-blend-mode: lighten;
-}
-.zone:nth-child(6):hover {
-   background-color: rgba(102, 297, 194, 0.2);
-}
-
-.zone:nth-child(1) { animation-delay: 2s; }
-.zone:nth-child(2) { animation-delay: 1.5s; }
-.zone:nth-child(3) { animation-delay: 1s; }
-.zone:nth-child(4) { animation-delay: 0.5s; }
-
-
 /* Grid view */
 .layout--single:not(.wide) .page__content .grid__item, .layout--activity:not(.wide) .page__content .grid__item {
 
@@ -436,105 +184,5 @@ meter::-webkit-meter-optimum-value {
       clear: none;
       margin-left: gutter(1 of 12);
     }
-  }
-}
-
-.youtube-container {
-  display: block;
-  margin: 20px auto;
-  width: 100%;
-  max-width: 600px;
-}
-.youtube-player {
-  display: block;
-  width: 100%;
-  /* assuming that the video has a 16:9 ratio */
-
-  padding-bottom: 56.25%;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  cursor: hand;
-  cursor: pointer;
-  display: block;
-}
-img.youtube-thumb {
-  bottom: 0;
-  display: block;
-  left: 0;
-  margin: auto;
-  max-width: 100%;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: auto
-}
-.play-button {
-  display: block;
-  height: 72px;
-  width: 72px;
-  left: 50%;
-  top: 50%;
-  margin-left: -36px;
-  margin-top: -36px;
-  position: absolute;
-  background: url("/assets/images/youtube-play.png") no-repeat;
-}
-#youtube-iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* STAR RATING */
-
-aside#star-rating {
-  margin-top: 1em;
-  text-align: center;
-
-  legend {
-    font-weight: bolder;
-    font-size: 1.2em;
-  }
-
-  .rating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-  }
-
-  .rating>input {
-    display: none;
-  }
-
-  .rating>label {
-    position: relative;
-    width: 1.1em;
-    font-size: 2em;
-    color: #FFD700;
-    cursor: pointer;
-  }
-
-  .rating>label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0;
-  }
-
-  .rating>label:hover:before,
-  .rating>label:hover~label:before {
-    opacity: 1 !important;
-  }
-
-  .rating>input:checked~label:before {
-    opacity: 1;
-  }
-
-  .rating:hover>input:checked~label:before {
-    opacity: 0.4;
   }
 }
