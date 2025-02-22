@@ -68,7 +68,7 @@ feature_row_heat_training:
 
 {% assign site_posts = site.posts | where: "tags", "cykeltest" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper" markdown="true">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
