@@ -11,9 +11,10 @@ header:
 category:
   - Kondition
 meta:
+  name: Beregning ud fra tid på vilkårlig løbedistance
   measures: VO2max og kondital
   type: løbetest
-  equipment: løbebane
+  equipment: fladt underlag
   max: maksimal test
   direct: indirekte test
 tags:
@@ -57,7 +58,7 @@ I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
 ## Andre konditionstests
 
-Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [konditionstests](/test-kondition-konditest-kondital/).
+Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [test af din kondition](/kondition/tests/).
 
 Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
 

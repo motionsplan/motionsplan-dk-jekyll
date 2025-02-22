@@ -16,6 +16,11 @@ tags:
   - kropskomposition
   - skinfold
   - børn
+meta:
+  name: Slaughters 2-punktsmåling
+  equipment: hudfoldsmåler
+  measures: fedtprocent
+  target: børn
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:

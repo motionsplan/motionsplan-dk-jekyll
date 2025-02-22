@@ -13,6 +13,7 @@ category:
   - Kondition
   - Gang
 meta:
+  name: Rockports 1,6 km gangtest
   measures: VO2max og kondital
   type: gangtest
   equipment: fladt underlag
@@ -26,7 +27,8 @@ tags:
   - indirekte test
   - test
   - tracking
-  - beregner
+  - featured
+  - populær
 last_modified_at: 2022-10-13T10:14:14Z
 ---
 

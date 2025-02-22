@@ -10,6 +10,8 @@ header:
   caption: *title
 tags:
   - balance
+  - moc
+  - træning
 category:
   - Viden om
   - Træning

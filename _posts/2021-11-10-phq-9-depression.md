@@ -9,10 +9,13 @@ header:
   caption: *title
 category:
   - Krop & Sundhed
+  - Psykologi
 tags:
   - psykologi
-  - test
+  - psykologisk test
   - depression
+  - vurderingsværktøj
+  - populær
 last_modified_at: 2021-10-14T08:14:14Z
 faq:
   - question: "Hvad er forskellen på PHQ-2 og PHQ-9?"

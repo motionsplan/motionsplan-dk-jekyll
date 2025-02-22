@@ -14,6 +14,8 @@ category:
 tags:
   - styrketræning
   - beregner
+  - moc
+  - faq
 last_modified_at: 2022-04-30T10:14:14Z
 toc: true
 feature_row:
@@ -27,6 +29,8 @@ feature_row:
 ---
 
 Når du vil sammenligne styrke på tværs af forskellige løftere, så kan du du bruge forskellige strategier. Her kigger vi på, hvilke muligheder der er for at se, hvor stærk du er ift. andre mennesker ift. køn, vægt og alder.
+
+{% comment %}TODO: Opret individuelle sider for wilks og ipf{% endcomment %}
 
 Der er to udbredte måder at sammenligne styrke på. Den ene er den relative styrke, hvor du deler den vægt, du kan løfte, med kropsvægten. Den anden er at sammenligne dine løft med tabeller med styrkestandarder, som der findes mange af. Der er imidlertid andre bedre muligheder, som vi kommer ind på i dette indlæg.
 

@@ -25,6 +25,10 @@ faq:
     answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for mænd. Du kan i stedet kigge på talje-hofte-ratioen. Der skal mænd helst ligge under 1.
   - question: Hvor måler man hoften?
     answer: Du skal lave hoftemålet på det bredeste sted set fra siden.
+meta:
+  name: Talje-hofte mål
+  equipment: målebånd
+  measures: talje-hofte-ratio
 ---
 
 Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.

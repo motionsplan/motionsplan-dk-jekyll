@@ -11,10 +11,9 @@ header:
   overlay_filter: 0.3
 category:
   - Styrketræning
-  - Test
 tags:
   - styrketræning
-  - test
+  - normer
 last_modified_at: 2022-10-09T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?

@@ -10,10 +10,12 @@ header:
   caption: *title
 category:
   - Krop & Sundhed
+  - Psykologi
 tags:
   - spiseforstyrrelse
   - psykologi
-  - test
+  - psykologisk test
+  - vurderingsværktøj
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 feature_row:

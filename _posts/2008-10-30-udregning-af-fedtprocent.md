@@ -18,6 +18,11 @@ tags:
   - test
   - kropskomposition
   - beregner
+  - metode
+meta:
+  name: Beregn din fedtprocent fra alder, højde og vægt
+  equipment: beregner
+  measures: fedtprocent
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
     alt: Exercise Physiology - Nutrition, Energy, and Human Performance

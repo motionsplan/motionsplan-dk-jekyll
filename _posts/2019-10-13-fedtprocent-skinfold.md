@@ -11,10 +11,16 @@ header:
 category:
   - Test
   - Fedtprocent
+meta:
+  name: Mål din fedtprocent hudfoldsmåling
 breadcrumbs: true
 tags:
   - fedtprocent
+  - kropskomposition
   - skinfold
+  - moc
+  - metode
+  - test
 last_modified_at: 2022-09-19T08:14:14Z
 toc: true
 feature_row:

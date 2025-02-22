@@ -103,7 +103,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
@@ -111,9 +111,9 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
   {% endfor %}
 {% endif %}
 
-</div>
+[Se alle træningsprogrammer](/traeningsprogrammer/){: .btn .btn--success .btn--center }
 
-[Se alle træningsprogrammer](/traeningsprogrammer/){: .btn .btn--success .text-center }
+</div>
 
 ## Hvordan laver jeg mit eget styrketræningsprogram?
 
@@ -161,7 +161,7 @@ Du kan finde [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/
 
 Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvelser](/traeningsoevelser/).
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
 
@@ -171,9 +171,9 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
   {% endfor %}
 {% endif %}
 
-</div>
+[Se alle træningsøvelser](/traeningsoevelser/){: .btn .btn--success .btn--center }
 
-[Se alle træningsøvelser](/traeningsoevelser/){: .btn .btn--success .text-center }
+</div>
 
 ## Test dig selv
 

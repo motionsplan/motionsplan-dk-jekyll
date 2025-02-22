@@ -14,6 +14,7 @@ category:
 tags:
   - styrketræning
   - kost
+  - populær
 last_modified_at: 2022-11-22T07:14:14Z
 #faq:
 #  - question: Hvordan finder man et billigt træningscenter?

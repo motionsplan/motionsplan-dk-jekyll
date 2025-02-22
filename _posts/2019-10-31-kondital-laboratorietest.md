@@ -1,9 +1,11 @@
 ---
-title: "Direkte måling af iltoptagelse baseret på en laboratorietest"
+title: &title "Direkte måling af iltoptagelse i laboratoriet"
+seo_title: "Direkte iltoptagelsestest - Test VO2max med maske i laboratoriet"
 permalink: /iltoptagelse-laboratorietest/
 redirect_from:
   - /kondital-laboratorietest/
 excerpt: "En direkte måling af iltoptagelsen gennem både submaksimale og maksimale forsøgsprotokoller med maske, hvor man måler ilt- og kuldioxidindholdet og volumen af indåndingsluften og udåndingsluften."
+description: "Test din VO2max direkte i et laboratorium med maske. Læs om submaksimale og maksimale tests, og hvordan de kan være med til at optimere din træning."
 language: da
 header:
   overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
@@ -16,7 +18,7 @@ meta:
   type: løbetest
   equipment: løbebånd
   max: maksimal test
-  direct: indirekte test
+  direct: direkte test
 tags:
   - konditionstest
   - laboratorium
@@ -24,10 +26,25 @@ tags:
   - maksimal test
   - submaksimal test
   - test
-last_modified_at: 2019-03-06T23:14:14Z
+  - populær
+last_modified_at: 2025-02-20T19:14:14Z
+feature_row_tests:
+  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
+    alt: "Kondition og tests"
+    title: "Kondition og tests"
+    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
+    url: "/kondition/tests/"
+    btn_label: "Læs og prøv konditionstests"
+    btn_class: "btn--success"
 ---
 
-{% comment %}
+Vil du vide, hvor effektivt din krop bruger ilt under træning? En direkte måling af din VO2max i et laboratorium giver dig præcise data, der afslører, hvordan din krop arbejder på forskellige intensitetsniveauer.
+
+Med en iltoptagelsestest kan du få indsigt i din aerobe kapacitet og finde ud af, hvordan du kan optimere din træning, uanset om du er løber eller cyklist.
+
+Her dykker vi ned i, hvordan du kan få målt din iltoptagelse direkte med maske og de forskellige testtyper, du kan lave med maske i laboratoriet.
+
+## Hvad er en laboratorietest af iltoptagelse?
 
 En nøjagtig direkte test af iltoptagelse kræver, at man har udstyr, der kan måle ilt-, CO<sub>2</sub>-koncentrationer og volumen af ud- og indåndingsluften. Typisk bliver direkte tests af iltoptagelse lavet i et laboratorium, men der er også kommet udstyr, hvor man kan måle det under andre forhold.
 
@@ -47,17 +64,21 @@ Iltoptagelse = (Liter luft ind x iltprocent i indåndingsluft) – (liter luft u
 
 Testprotokollen kan variere alt efter hvor veltrænet personen er, men for de fleste tests er princippet, at man gradvist øger belastningen indtil man ikke kan mere.
 
-{% endcomment %}
+## Hvad kan du bruge en iltoptagelsestest til?
 
-## Udstyr til direkte måling af iltoptagelse
+Du skal vælge en direkte test af iltoptagelsen, hvis du gerne vil have et nøjagtigt resultat.
 
-Der findes forskelligt udstyr, man kan bruge til måling af direkte iltoptagelse. På Vejle Idrætshøjskole har vi laboratorieudstyr, hvor vi kan bruge cykelergometer og løbebånd sammen med udstyret, når vi laver både submaksimale og maksimale tests af iltoptagelse.
+Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellige intensiteter. Derved får du en måling af, hvor effektivt du bevæger dig.
 
-Der er flere fordele ved at lave testene på stationært udstyr, da det er let for forsøgslederen undervejs at give tilbagemelding og lave andre målinger undervejs, fx laktat-målinger eller pulsmålinger.
+Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endnu mere præcise svar på, hvordan din krop arbejder ved forskellige intensiteter.
 
-Man kan også få mobilt udstyr til direkte test af iltoptagelse. Fx **[Cosmed K5](https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/k5)**. Jeg er ved at undersøge, hvor godt udstyret er i forhold til at få valide målinger.
+## Typer af laboratorietests
 
-{% include video provider="youtube" id="9QWic5oCXu8" %}
+Jeg har primært beskæftiget mig med iltoptagelsestest, der kan defineres som **rampe**-tests. Det er tests, som progressivt skal udføres med højere og højere intensitet.
+
+Nogle tests undersøger, hvordan din krop reagerer på forskellige submaksimale intensiteter. Andre tests er målet primært at finde ud af, hvor meget ilt forsøgspersonen maksimalt kan optage.
+
+Jeg bruger også ofte en hybrid, hvor vi laver en rampe, hvor forsøgspersonen fortsætter fra lav intensitet og indtil vedkommende ikke kan klare mere.
 
 ## Submaksimal iltoptagelsestest
 
@@ -77,6 +98,8 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 
 Testen kan eksempelvis bestå af 10 min opvarmning og herefter ca. 5 belastningstrin af 5 min hvor intensiteten øges med 1 km/t mellem hvert trin. Der startes med relativ let intensitet, og sluttes ved en intensitet lige omkring den anaerobe tærskel (omkring 4 mmol laktat).
 
+Testen afsluttes altså af forsøgslederen ud fra nogle forskellige kriterier.
+
 ### Eksempler på værdier fra en submaksimal løbetest
 
 {% include figure image_path="https://testcenter.vih.dk/assets/images/submax-vaerdier.jpg" caption="Iltoptagelseshastighed og løbeøkonomi" alt="Iltoptagelseshastighed og løbeøkonomi" %}
@@ -91,7 +114,9 @@ På baggrund af ovenstående er det muligt at estimere en række træningszoner:
 En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder](/lobeokonomi/).
 
 ***
+
 Læs: [Find dine træningszoner](/traeningszoner/)
+
 ***
 
 ## Maksimal iltoptagelsestest
@@ -99,6 +124,8 @@ Læs: [Find dine træningszoner](/traeningszoner/)
 Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO<sub>2</sub>-max. Der måles maksimale værdier for iltoptagelse, CO<sub>2</sub>-udvekskling, puls, lungekapacitet, og laktat.
 
 Selve testen er en progressiv max-test bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Der startes på den hastighed, der blev løbet ved i det sidste interval i den submaksimale-test.
+
+Testen er typisk en åben test, og slutter først når forsøgspersonen giver op, eller det ikke længere er forsvarligt at fortsætte testen.
 
 Herefter øges hældningen på løbebåndet med 2% for hvert interval-trin indtil udmattelse. Typisk varighed på testen er mellem 5-10 minutter. Udføres der en submax-test forud for max-testen, vil der altid være 10 min aktiv pause med let løb/gang.
 
@@ -111,3 +138,56 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO<sub>2</sub>) kaldes den ventilatoriske kvotient, og skal være over 30.
 
 Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale.
+
+## Hvilken test skal du vælge?
+
+Når du overvejer en test af din iltoptagelse, er det vigtigt at vælge den, der passer bedst til dine træningsmål, din nuværende form og den type aktivitet, du dyrker.
+
+Her er en kort guide til, hvilken test der kan være mest relevant for dig:
+
+- **Submaksimal test**. Denne test er velegnet til at finde dine træningszoner og din bevægelsesøkonomi ved submaksimale hastigheder. Hvis du kun skal vælge at lave en test, så er denne test mest anvendlig i dit træningsliv. Den er både meget anvendelig før et træningsforløb og efter et træningsforløb for at se forbedringen.
+- **Maksimal test**. Hvis du gerne vil vide, hvad din maksimale iltoptagelse og dit kondital er, så skal du vælge en maksimal test. Her får du det mest præcise billede på din maksimale ydeevne.
+- **Submaksimal test efterfulgt af en maksimal tests**. En meget brugt måde er at kombinere testene. Først laver man en submaksimal test, holder omkring 10 minutters pause, hvorefter man påbegynder den maksimale test. Så får du det bedste fra begge typer typer tests, men det er også tidskrævende.
+- **Rampetest fra lav til maksimal intensitet**. Her fortsætter du direkte fra lav intensitet til maksimal belastning. Du får alt det bedste fra den submaksimale test, og får svar på kroppens tilpasning til arbejdet ved flere intensiteter. Ulempen er at atleten ikke helt kan opnå sin maksimale ydeevne, fordi de mange trin har trættet atleten lidt.
+
+Hvis du dyrker en særlig idrætsgren, er det naturligvis mest relevant at lave testen på en måde som ligner din idrætsgren mest.
+
+## Oversigt over tests
+
+Her kan du dykke yderligere ned i de forskellige tests.
+
+### Løb
+
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "direkte test" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+### Cykling
+
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "direkte" | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+## Udstyr til direkte måling af iltoptagelse
+
+Der findes forskelligt udstyr, man kan bruge til måling af direkte iltoptagelse. På Vejle Idrætshøjskole har vi laboratorieudstyr, hvor vi kan bruge cykelergometer og løbebånd sammen med udstyret, når vi laver både submaksimale og maksimale tests af iltoptagelse.
+
+Der er flere fordele ved at lave testene på stationært udstyr, da det er let for forsøgslederen undervejs at give tilbagemelding og lave andre målinger undervejs, fx laktat-målinger eller pulsmålinger.
+
+Man kan også få mobilt udstyr til direkte test af iltoptagelse. Fx **[Cosmed K5](https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/k5)**. Jeg er ved at undersøge, hvor godt udstyret er i forhold til at få valide målinger.
+
+{% include video provider="youtube" id="9QWic5oCXu8" %}
+
+## Andre tests af iltoptagelse
+
+Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de indirekte tests. I disse tests kan du estimere din iltoptagelse ud fra dine resultater i testene.
+
+{% include feature_row id="feature_row_about_tests" type="left" %}

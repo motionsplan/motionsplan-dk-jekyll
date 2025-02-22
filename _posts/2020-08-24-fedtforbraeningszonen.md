@@ -37,7 +37,7 @@ gallery_explain:
     excerpt: "Når du træner hårdere, så bliver dit stofskifte og efterforbrænding sat i vejret. EPOC er højere i minutterne efter træning, hvis intensiteten i træningen har været højere."
   - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Træningseffekt"
-    excerpt: "Når du træner med højere intensitet, så kan du også hurtigere komme i god kondition. Din [maksimale iltoptagelse](/test-kondition-konditest-kondital/) bliver bedre, men den højintense træning har formentlig ikke samme stimulerende effekt på slagvolumen og træningen af fedtforbrændingen."
+    excerpt: "Når du træner med højere intensitet, så kan du også hurtigere komme i god kondition. Din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) bliver bedre, men den højintense træning har formentlig ikke samme stimulerende effekt på slagvolumen og træningen af fedtforbrændingen."
   - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Muskelmasse"
     excerpt: "Når du træner med højere intensitet, så er det muligt at din muskelmasse vokser. En større muskelmasse vil betyde en højere forbrænding. Dog er der formentlig kun en lille effekt på muskelmassen at lave kredsløbstræning - også selvom du arbejder med høj intensitet."

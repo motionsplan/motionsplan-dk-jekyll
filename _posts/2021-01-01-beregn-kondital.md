@@ -29,7 +29,7 @@ polar:
 
 Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Her kan du lave en beregning af dit kondital uden at du behøver at rejse dig fra sofaen.
 
-Hvis du hellere vil bruge dine kræfter, så kan du fx løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). Du kan prøve nogle af vores mange [fysiske konditionstests](/test-kondition-konditest-kondital/).
+Hvis du hellere vil bruge dine kræfter, så kan du fx løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). Du kan prøve nogle af vores mange [fysiske konditionstests](/kondition/tests/).
 
 Men lad os først lige kigge på, hvordan du beregner dit kondital.
 
@@ -37,7 +37,7 @@ Men lad os først lige kigge på, hvordan du beregner dit kondital.
 
 For at beregne dit kondital, så har du brug for en test, som på en eller anden måde er blevet sammenlignet med en direkte måling af den maksimale iltoptagelse pr. minut delt med kropsvægten. Det er nemlig definitionen på konditallet. Konditallet måles i ml ilt pr. minut pr. kg. kropsvægt.
 
-Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital direkte og sammenlignet den med andre submaksimale eller maksimale tests. Hvis du er interesseret, så har jeg skrevet et andet indlæg, der handler om, [hvordan man tester sin kondition med en konditest](/test-kondition-konditest-kondital/)?
+Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital direkte og sammenlignet den med andre submaksimale eller maksimale tests. Hvis du er interesseret, så har jeg skrevet et andet indlæg, der handler om, [hvordan man tester sin kondition med en konditest](/kondition/tests/)?
 
 I de følgende konditalberegnere har forskeren stillet spørgsmål, som de har sammenlignet med fysiske tests.
 
@@ -141,7 +141,7 @@ Her kan du få inspiration til forskellige tests.
 
 ***
 
-[Se alle konditionstests](/test-kondition-konditest-kondital/){: .btn .btn--large .btn--info }
+[Se alle konditionstests](/kondition/tests/){: .btn .btn--large .btn--info }
 
 ## Validitet af beregning af kondital
 

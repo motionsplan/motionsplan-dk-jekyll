@@ -13,6 +13,7 @@ tags:
   - fysiologi
   - træning
   - varme
+  - faq
 last_modified_at: 2022-09-05T10:21:26Z
 faq:
   - question: Hvordan ved du, hvornår du er varmeakklimatiseret?

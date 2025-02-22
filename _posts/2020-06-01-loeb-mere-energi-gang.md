@@ -16,6 +16,8 @@ tags:
   - løb
   - gang
   - beregner
+  - forbrænding
+  - populær
 toc: true
 last_modified_at: 2022-05-10T08:14:14Z
 faq:

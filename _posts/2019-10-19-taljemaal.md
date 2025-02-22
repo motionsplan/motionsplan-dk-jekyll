@@ -18,6 +18,10 @@ tags:
 popular: true
 last_modified_at: 2022-05-04T23:14:14Z
 toc: true
+meta:
+  name: Taljemål
+  equipment: målebånd
+  measures: taljemål
 ---
 
 Dit taljemål er en enkel måling, som kan sige noget om din sundhed. Studier har vist, at der er en sammenhæng mellem taljemålet for mænd og kvinder og livsstilssygdomme.

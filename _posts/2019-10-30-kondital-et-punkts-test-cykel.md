@@ -9,6 +9,7 @@ header:
   teaser: https://www.healthcheckshop.com/wp-content/uploads/2019/07/12A0041.jpg
   caption: *title
 meta:
+  name: Åstrands et-punktstest
   measures: VO2max og kondital
   type: cykeltest
   equipment: cykel
@@ -37,7 +38,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Åstrands et-punktstest er en submaksimal [konditionstest](/test-kondition-konditest-kondital/) udført på en kondicykel. Åstrands test er baseret på en sammenhæng mellem pulsen og belastningen, og du kan med Åstrands Nomogram eller formler estimere den maksimale iltoptagelse og konditallet.
+Åstrands et-punktstest er en submaksimal [konditionstest](/kondition/tests/) udført på en kondicykel. Åstrands test er baseret på en sammenhæng mellem pulsen og belastningen, og du kan med Åstrands Nomogram eller formler estimere den maksimale iltoptagelse og konditallet.
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 

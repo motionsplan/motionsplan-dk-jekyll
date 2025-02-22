@@ -19,6 +19,8 @@ tags:
   - udspænding
   - smidighed
   - udstrækningsøvelser
+  - moc
+  - træning
 last_modified_at: 2021-02-07T15:33:14Z
 toc: true
 feature_row:

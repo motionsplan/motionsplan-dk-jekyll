@@ -15,6 +15,7 @@ tags:
   - kost
   - ernæring
   - kosttilskud
+  - populær
 ---
 
 Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning.

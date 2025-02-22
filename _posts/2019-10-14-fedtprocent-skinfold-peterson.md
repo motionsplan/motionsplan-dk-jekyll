@@ -14,6 +14,10 @@ tags:
   - test
   - kropskomposition
   - skinfold
+meta:
+  name: Peterson 4-punktsmåling
+  equipment: hudfoldsmåler
+  measures: fedtprocent
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:

@@ -9,11 +9,13 @@ header:
 category:
   - Kondition
 meta:
+  name: Watt-max-test for børn
   measures: VO2max og kondital
   type: cykeltest
   equipment: cykel
   max: maksimal test
-  direct: indirekte test  
+  direct: indirekte test
+  target: børn
 tags:
   - konditionstest
   - cykel

@@ -1,5 +1,8 @@
 ---
-title: &title "Hvor mange armstrækninger skal jeg kunne tage?"
+title: &title "Test din styrke med armstrækninger"
+seo_title: "Test din styrke med armstrækninger - Er du stærk nok?"
+excerpt: "Prøv armstrækningstesten fra The Canadian Standardized Test of Fitness for at vurdere din overkropsstyrke. Kan du tage nok armstrækninger?"
+description: "Test din overkropsstyrke med armstrækninger. Læs hvordan du udfører testen korrekt, og få vejledning til at vurdere dine resultater i forhold til alder og køn."
 permalink: /armstraekninger-test/
 language: da
 header:
@@ -9,6 +12,8 @@ header:
 category:
   - Styrketræning
   - Test
+meta:
+  name: Armstrækninger test
 tags:
   - test
   - armstrækninger

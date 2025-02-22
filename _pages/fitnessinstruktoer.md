@@ -108,17 +108,19 @@ Læs vores artikler om programlægning:
 
 ## Kredsløbstræning og konditionstræning
 
-Konditionstræning har til formål at forbedre eller vedligeholde kroppens udholdenhed, dvs. organismens evne til at arbejde med relativ høj intensitet over længere tid. Træ-
-ningen sigter imod at forbedre kredsløbet (hjertets evne til at pumpe blod rundt i kroppen, og dermed levere ilt og næringsstoffer til de arbejdende muskler), og musklernes evne til at arbejde over længere tid.
+Konditionstræning har til formål at forbedre eller vedligeholde kroppens udholdenhed, dvs. organismens evne til at arbejde med relativ høj intensitet over længere tid. 
 
-[Læs mere om konditionstræning og cardio](/kondition/).
+Træningen sigter imod at forbedre kredsløbet (hjertets evne til at pumpe blod rundt i kroppen, og dermed levere ilt og næringsstoffer til de arbejdende muskler), og musklernes evne til at arbejde over længere tid.
+
+[Læs mere om konditionstræning og cardio](/kondition/){: .btn .btn--success }
 
 ## Specifikke målgrupper
 
-Der findes blandt motionister en række specifikke målgrupper, som ofte kræver særlige hensyn i forbindelse med fitnesstræning. Generelt bør der for disse målgrupper
-foreligge en form for tilladelse fra læge, fysioterapeut eller andet sundhedspersonale
-inden træning iværksættes. Disse målgrupper er beskrevet i det følgende, og der er for
-hver målgruppe listet en række forhold, som der skal tages højde for.
+Der findes blandt motionister en række specifikke målgrupper, som ofte kræver særlige hensyn i forbindelse med fitnesstræning. 
+
+Generelt bør der for disse målgrupper foreligge en form for tilladelse fra læge, fysioterapeut eller andet sundhedspersonale inden træning iværksættes. 
+
+Disse målgrupper er beskrevet i det følgende, og der er for hver målgruppe listet en række forhold, som der skal tages højde for.
 
 Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom på at kende dine egne begrænsninger som fitnessinstruktør. Så sørg for at lave en god screening.
 
@@ -150,9 +152,7 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 
 ## Information om doping og motionsdoping
 
-Doping foregår illegalt og som oftest i det skjulte, og derfor er det også sparsomt med
-kontrollerede, videnskabelige forsøg og artikler. Der findes uden tvivl enkeltpersoner
-med en stor medicinsk og praktisk viden om doping, men denne viden er bare ikke tilgængelig.
+Doping foregår illegalt og som oftest i det skjulte, og derfor er det også sparsomt med kontrollerede, videnskabelige forsøg og artikler. Der findes uden tvivl enkeltpersoner med en stor medicinsk og praktisk viden om doping, men denne viden er bare ikke tilgængelig.
 
 Doping er også blevet udbredt for motionsbrugere. Motionsdoping handler om, hvordan og hvorfor især unge mænd tager anabole steroider for at få større muskelmasse – og den eftertragtede muskuløse krop.
 

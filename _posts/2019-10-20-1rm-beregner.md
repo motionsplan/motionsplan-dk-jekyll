@@ -26,6 +26,8 @@ tags:
   - beregner
   - test
   - træningsplanlægning
+meta:
+  name: RM-beregner til styrketræning
 last_modified_at: 2022-10-04T07:14:14Z
 toc: true
 feature_row_sheet:

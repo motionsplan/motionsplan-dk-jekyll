@@ -17,6 +17,11 @@ tags:
   - fedtprocent
   - test
   - kropskomposition
+  - metode
+meta:
+  name: Mål fedtprocent med målebånd
+  equipment: målebånd
+  measures: fedtprocent
 last_modified_at: 2019-03-06T23:14:14Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg

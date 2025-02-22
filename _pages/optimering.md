@@ -56,13 +56,15 @@ Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 
 {% assign site_posts = site.posts | where: "tags", "restitution" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Alt om restitution](/restitution/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -74,13 +76,15 @@ Tjek mere på vores side om [træningsprogrammer](/traeningsprogrammer/).
 
 {% assign site_posts = site.posts | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 6 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Se alle træningsprogrammer](/traeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -92,21 +96,25 @@ Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), 
 
 Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [øvelser til brystet](/brystoevelser/), [balleøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/) eller [skulderøvelser](/skulderoevelser/).
 
-Under alle omsændigheder bør du dykke ned i [alle vores træningsøvelser til inspiration](/traeningsoevelser/).
+[Se alle vores træningsøvelser til inspiration](/traeningsoevelser/){: .btn .btn--success .btn--center }
 
 ## Skader og forebyggelse
 
-Skader er desværre ofte en del af det at træne. Med fornuftig træningsplanlægning kan du heldigvis ofte undgå skader, men det kan altid betale sig at arbejde med at forebygge skader også. Skadesforebyggende træning kan nemlig mindske risikoen for skader, så vi dykker ned i aksdesforebyggelse i disse artikler.
+Skader er desværre ofte en del af det at træne. Med fornuftig træningsplanlægning kan du heldigvis ofte undgå skader, men det kan altid betale sig at arbejde med at forebygge skader også.
+
+Skadesforebyggende træning kan nemlig mindske risikoen for skader, så vi dykker ned i skadesforebyggelse i disse artikler.
 
 {% assign site_posts = site.posts | where: "tags", "skadesforebyggelse" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Alt om skader](/skader/){: .btn .btn--success .btn--center }
 
 </div>
 

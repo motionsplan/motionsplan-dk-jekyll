@@ -10,6 +10,7 @@ header:
 category:
   - Kondition
 meta:
+  name: 2000 meter ro-test
   measures: VO2max og kondital
   type: rotest
   equipment: roregometer
@@ -51,7 +52,7 @@ Trappetest side 62 -- https://roning.dk/app/uploads/2016/12/ATRO-bogen.pdf
 
 ## Hvad er en konditionstest i roning?
 
-Vi har beskrevet mange [forskellige konditests](/test-kondition-konditest-kondital/), men her kigger vi på konditionstests, som er specifikke i forhold til roning og romaskiner.
+Vi har beskrevet mange [forskellige konditests](/kondition/tests/), men her kigger vi på konditionstests, som er specifikke i forhold til roning og romaskiner.
 
 Vi har fundet nogle maksimale tests frem, da det ikke er lykkes nogen at lave en fornuftig protokol med submaksimale rotests (se [Klusiewicz et al (2016)](https://pubmed.ncbi.nlm.nih.gov/28149356/)).
 

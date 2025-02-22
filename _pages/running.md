@@ -11,8 +11,10 @@ header:
   teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Løbesiden: Alt om løb og løbetræning"
   actions:
-    - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
-      url: "/hastighed/"
+    - label: "<i class='fas fa-download'></i> Løbetests"
+      url: "/tests/loeb/"
+    - label: "<i class='fas fa-download'></i> Løbeværktøjer"
+      url: "/loeb/vaerktoejer/"
     - label: "<i class='fas fa-download'></i> Løbeprogrammer"
       url: "/loebeprogrammer/"
 classes: wide
@@ -85,7 +87,7 @@ feature_row_feature:
     btn_class: "btn--info"
 sidebar:
   nav: trainingtypes
-categories:
+category:
   - Træning
   - Træningsformer
 breadcrumbs: true
@@ -132,7 +134,7 @@ løb 5 km på 25 min
 
 ## Flere løbeprogrammer
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
@@ -142,9 +144,9 @@ løb 5 km på 25 min
   {% endfor %}
 {% endif %}
 
-</div>
+[Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .btn--center }
 
-[Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .text-center }
+</div>
 
 ## Lav dit eget løbeprogram
 
@@ -164,7 +166,7 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 {% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -172,9 +174,9 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
   {% endfor %}
 {% endif %}
 
-</div>
+[Se alle løbetests](/tests/loeb/){: .btn .btn--success .btn--center }
 
-[Se alle løbetests](/tests/loeb/){: .btn .btn--success .text-center }
+</div>
 
 ## Hvor hurtigt skal jeg løbe?
 
@@ -184,13 +186,15 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Se alle løbeværktøjer](/loeb/vaerktoejer/){: .btn .btn--success .btn--center }
 
 </div>
 

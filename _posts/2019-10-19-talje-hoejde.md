@@ -17,6 +17,10 @@ tags:
   - tracking
 last_modified_at: 2022-05-04T23:14:14Z
 toc: true
+meta:
+  name: Talje-højde-ratio
+  equipment: målebånd
+  measures: talje-højde-ratio
 ---
 
 Talje-højde-forholdet siger ifølge studier noget om din risiko for livsstilssygdomme. Det er let at måle omkredsen på taljen og din højde kender du sikkert allerede. Her kigger vi på, hvad det betyder for din sundhed.

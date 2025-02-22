@@ -1,6 +1,6 @@
 ---
 title: &title "Konditionstræning og kredsløbstræning"
-seo_title: "4 tips til konditionstræning og kredsløbstræning (Guide 2024)"
+seo_title: "4 tips til konditionstræning og kredsløbstræning (Guide 2025)"
 description: "Vil du gerne i bedre form? Så skal du i gang med konditionstræning og kredsløbstræning. Her får du en komplet guide til at flytte iltoptagelsen."
 permalink: /konditionstraening/
 language: da
@@ -11,7 +11,14 @@ category:
   - Kondition
 tags:
   - kondition
-  - kondital
+feature_row_tests:
+  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
+    alt: "Kondition og tests"
+    title: "Kondition og tests"
+    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
+    url: "/kondition/tests/"
+    btn_label: "Læs og prøv konditionstests"
+    btn_class: "btn--success"
 last_modified_at: 2022-04-12T22:21:26Z
 faq:
   - question: Hvorfor er konditionstræning vigtigt?
@@ -123,7 +130,9 @@ Læs: [Tempotræning: Hvad er det, og hvordan man gør det](/loebesiden-jack-dan
 
 Målet med udholdenhedstræning er at forbedre udholdenheden i kroppen. Intensiteten skal holdes relativt lav, så du kan arbejde længe. Her forbedrer kroppen sin evne til at forbrænde fedt og kulhydrat, og du forbedrer også din bevægelsesøkonomi.
 
-Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls hen over arbejdsperioden. Du øger udholdenheden ved at holde intensiteten nede. Udholdenhedstræning [forbedrer restitutionen](/restitution/), fordi kredsløbet fungerer bedre.
+Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls hen over arbejdsperioden. Du øger udholdenheden ved at holde intensiteten nede.
+
+Udholdenhedstræning [forbedrer restitutionen](/restitution/), fordi kredsløbet og alle processerne omkring optagelse og forbrug af næringsstofferne fungerer bedre.
 
 ## Hvordan ved jeg om min konditionstræning virker?
 
@@ -137,7 +146,9 @@ Der er mange forskellige måder konditallet måles på. Du kan teste udåndingsl
 
 {% include figure image_path="https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=600&q=60" alt="konditionstræning og kredsløbstræning" %}
 
-Læs: [Konditionstests og konditests](/test-kondition-konditest-kondital/)
+Læs: [Konditionstests og konditests](/kondition/tests/)
+
+{% include feature_row id="feature_row_tests" type="left" %}
 
 ## Hvor ofte skal jeg træne?
 

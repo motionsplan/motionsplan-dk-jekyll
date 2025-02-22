@@ -55,7 +55,7 @@ Du kan enten måle den maksimale iltoptagelse **direkte** i et laboratorium ved 
 
 Du kan også lave **indirekte** målinger baseret på forskellige tests, hvor [Cooper testen](/cooper-test/) og [bip-testen](/bip-test/) er meget populære tests.
 
-Du kan se alle vores [konditionstests her](/test-kondition-konditest-kondital/) og tjekke dit [kondital her](/kondital/).
+Du kan se alle vores [konditionstests her](/kondition/tests/) og tjekke dit [kondital her](/kondital/).
 
 ## Hvordan forbedrer jeg min VO2max?
 

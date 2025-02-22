@@ -9,7 +9,13 @@ category:
   - Fedtprocent
 tags:
   - beregner
+  - fedtprocent
 last_modified_at: 2022-04-29T22:21:26Z
+meta:
+  name: Body Adiposity Index
+  equipment: målebånd
+  measures: fedtprocent
+  target: børn
 ---
 
 Body Adiposity Index (BAI) beregneren bestemmer din fedtprocent ud fra din højde og din hofteomkreds.

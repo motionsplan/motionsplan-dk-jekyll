@@ -13,6 +13,26 @@
 @import "youtube";
 @import "star-rating";
 
+p:has(> a.btn--center) {
+  clear: both;
+  text-align: center;
+}
+
+.btn--center {
+  display: inline-block;
+  clear: both;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.btn--center::after {
+  content: " →";
+}
+
+.feature__item .btn::after, .feature__item--left .btn::after {
+  content: " →";
+}
+
 .sidebar {
   position: relative;
   &.sticky {

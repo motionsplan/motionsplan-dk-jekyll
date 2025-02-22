@@ -9,6 +9,7 @@ header:
 category:
   - Kondition
 meta:
+  name: 2400-meters løbetest
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebane

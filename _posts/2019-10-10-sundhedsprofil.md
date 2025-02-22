@@ -1,8 +1,12 @@
 ---
 title: &title "Lav en gratis sundhedstest og sundhedsprofil"
+seo_title: "Sundhedstest - test din egen fitness og sundhed"
 excerpt: "Sundhedsprofilen indeholder en række enkle sundhedstests, og du ender med at få sat tal på din sundhed."
 language: da
 permalink: /sundhedsprofil/
+redirect_from:
+  - /test/fitness-tests/
+  - /fitness-tests/
 header:
   overlay_image: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   teaser: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
@@ -10,8 +14,9 @@ header:
 category:
   - Test
 tags:
-  - test
   - sundhed
+  - fitness
+  - moc
 last_modified_at: 2019-03-10T08:39:32Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
@@ -51,6 +56,8 @@ toc: true
 ---
 
 Sundhed fylder megt i samfundet. Men hvad er sundhed egentlig? Morten Zacho har givet sit bud på, hvordan man kan lave en sundhedsprofil og sundhedstest. Testen indeholder en række relativt enkle tests, og du ender med din egen sundhedsprofil.
+
+{% comment %}TODO - bør helt opdateres{% endcomment%}
 
 ## Lav din egen sundhedsprofil og sundhedstest
 
@@ -164,6 +171,24 @@ Men måler testen overhovedet sundhed?
 Du kan læse mere om danskernes sundhed generelt på [www.danskernessundhed.dk](https://www.danskernessundhed.dk/). Der er målt forskellige parametre, som forskerne har relateret til sundhed.
 
 Hvad er din definition af sundhed?
+
+## Her finder du mere information
+
+Der er virkelig mange forskellige onlineværktøjer, hvor du kan teste forskellige dele af din sundhed. Vi har skrevet om [sundhedsprofilen](/sundhedsprofil/), men der er også mange andre værktøjer.
+
+## Health-calc
+
+> On this site you will find calculators and utilities related to health, exercise and diet. All utilities on this site are well-proven and scientifically based tools and scientific references are provided where relevant. Health-calc.com is owned and developed by exercise physiologist Morten Zacho (M.Sc.).
+
+---<cite>[About Health-calc.com](https://www.health-calc.com/miscellaneous/about-health-calc)</cite>
+
+## Omnicalculator
+
+På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalculator.com/health), hvor du kan udregne BMI, kropsform, fedtprocent og meget andet. Husk vi har også [beregnere](/beregnere-tests/), hvor du bl.a. kan [udregne BMI](/bmi-beregner/).
+
+> Omni Calculator is here to change all that - we are working on a technology that will turn every* calculation-based problem trivial to solve for anyone.
+
+---<cite>[About](https://www.omnicalculator.com/)</cite>
 
 ## Anden inspiration om testning af sundhed og fitness
 

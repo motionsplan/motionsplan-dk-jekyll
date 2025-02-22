@@ -13,12 +13,23 @@ header:
       url: "/hastighed/"
 sidebar:
   nav: trainingtypes
-toc: true
+toc: false
+classes: wide
 feature_row_excerpt:
   - excerpt: "Guide til cykeltræning. Her kan du finde nyttig viden om cykling og cykeltræning. Lær om [pulstræning](/pulstraening/) og [intervaltræning til cykling](/intervaltraening-cykling/)."
-categories:
+category:
+  - Træning
   - Træningsformer
 breadcrumbs: true
+feature_row_heat_training:
+  - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Varmetræning"
+    title: "Varmetræning - bliv klar til varmen"
+    excerpt: |
+      Varmetræning er blevet mere og mere populært blandt cykelryttere. Dels forbereder det rytterne på at kunne præstere bedre i varmen, men det kaldes også højdetræning for fattigmænd. Skal du prøve?".
+    url: "/varmetraening/"
+    btn_label: "Læs mere"
+    btn_class: "btn--info"
 ---
 
 {{ page.excerpt }}
@@ -55,20 +66,23 @@ breadcrumbs: true
 
 ## Test dig selv
 
-{% assign site_posts = site.posts | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "cykeltest" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="true">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
+[Se alle cykeltests](/tests/cykling/){: .btn .btn--success .btn--center }
+
 </div>
 
+{% include feature_row type="center" id="feature_row_heat_training" type="left" %}
 
-## Alt om cykling og cykeltræning
+## Læs meget mere om cykling og cykeltræning
 
 {% assign site_posts = site.posts | where: "tags", "cykling" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

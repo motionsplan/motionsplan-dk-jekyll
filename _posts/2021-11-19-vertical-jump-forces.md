@@ -10,7 +10,6 @@ category:
   - Springtræning
 tags:
   - træning
-  - springtest
   - spring
   - eksplosivitet
 last_modified_at: 2021-11-19T08:14:14Z

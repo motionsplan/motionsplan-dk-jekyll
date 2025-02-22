@@ -14,6 +14,8 @@ tags:
   - løb
   - kondition
   - kombinationstræning
+  - træning
+  - faq
 category:
   - Kondition
   - Løb

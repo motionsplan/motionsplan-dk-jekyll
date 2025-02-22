@@ -8,9 +8,9 @@ header:
   caption: *title
 category:
   - Træning
-  - Gang
+  - Styrketræning
 tags:
-  - gang
+  - styrketræning
 last_modified_at: 2022-05-22T10:21:26Z
 faq:
   - question: Hvad er muskeltræning?

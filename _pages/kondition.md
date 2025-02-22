@@ -19,8 +19,8 @@ feature_row_tests:
     alt: "Kondition og tests"
     title: "Kondition og tests"
     excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
-    url: "/test-kondition-konditest-kondital/"
-    btn_label: "Læs om konditionstests"
+    url: "/kondition/tests/"
+    btn_label: "Læs og prøv konditionstests"
     btn_class: "btn--success"
 feature_row_kondital:
   - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
@@ -47,6 +47,7 @@ faq:
 
       Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
 breadcrumbs: true
+last_modified_at: 2025-02-12T22:21:26Z
 ---
 
 Kondition forbinder man ofte med det at være i form. Når man laver udholdenhedsidræt, fx løb eller cykling, så bliver man hurtigt interesseret i at være i en god kondition.
@@ -73,7 +74,7 @@ Vi har beskrevet mange flere testmuligheder i nedenstående indlæg.
 
 {% include feature_row id="feature_row_tests" type="left" %}
 
-Læs: [Konditionstests: Test din kondition og dit kondital](/test-kondition-konditest-kondital/)
+Læs: [Konditionstests: Test din kondition og dit kondital](/kondition/tests/)
 
 ## Beregn kondital
 
@@ -118,11 +119,13 @@ Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-kondition
 
 ## Hvad forstår man ved iltoptagelsen?
 
-Iltoptagelsen er den mængde ilt, der optages i forhold til et givent arbejde. Iltoptagelsen stiger gradvist jo hårdere du arbejder. På et tidspunkt arbejder du så hårdt, at kroppen ikke længere kan optage nok ilt til de energigivende aerobe processer. Der siger man, at man har opnået den maksimale iltoptagelse. Iltoptagelsen måles i liter ilt pr. minut.
+Iltoptagelsen er den mængde ilt, der optages i forhold til et givent arbejde. Iltoptagelsen stiger gradvist jo hårdere du arbejder. På et tidspunkt arbejder du så hårdt, at kroppen ikke længere kan optage mere ilt til de energigivende aerobe processer.
+
+Det kalder man den maksimale iltoptagelse. Iltoptagelsen måles i liter ilt pr. minut.
 
 Læs: [Alt om den maksimale iltoptagelse og VO2max](/maksimale-iltoptagelse-vo2max/)
 
-Jo mere intenst man arbejder, jo mere suppleres energifrigivelsen af de anaerobe processer, som kun kan levere ilt i relativt kort tid.
+Jo mere intenst du arbejder, jo mere suppleres energifrigivelsen af de anaerobe processer, som kun kan levere ilt i relativt kort tid.
 
 ## Hvordan kan jeg træne min kondition?
 

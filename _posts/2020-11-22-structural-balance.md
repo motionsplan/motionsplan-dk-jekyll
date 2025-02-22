@@ -11,11 +11,8 @@ header:
       url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
       rel: nofollow noopener
 category:
-  - Test
-  - Balance
   - Styrketræning
 tags:
-  - test
   - styrketræning
   - spreadsheet
 last_modified_at: 2020-10-13T23:14:14Z

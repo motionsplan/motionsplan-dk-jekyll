@@ -11,11 +11,13 @@ category:
   - Kondition
   - Gang
 meta:
+  name: 6 minutters gangtest (6MWT)
   measures: VO2max og kondital
   type: gangtest
   equipment: fladt underlag
   max: submaksimal test
   direct: indirekte test
+  target: ældre mennesker
 tags:
   - konditionstest
   - submaksimal test
@@ -23,6 +25,7 @@ tags:
   - gangtest
   - test
   - beregner
+  - gang
 last_modified_at: 2022-05-06T23:14:14Z
 ---
 

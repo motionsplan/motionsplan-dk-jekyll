@@ -14,6 +14,7 @@ category:
   - Kondition
   - Løb
 meta:
+  name: Coopers 12 minutters løbetest
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebane
@@ -71,7 +72,7 @@ I dette indlæg kan du få svar på følgende spørgsmål om Coopers løbetest:
 
 ## Hvad er en Cooper-test?
 
-Cooper-test er en klassisk [konditionstest](/test-kondition-konditest-kondital/), hvor du skal løbe så langt som muligt på 12 minutter.
+Cooper-test er en klassisk [test af kondital](/kondition/tests/), hvor du skal løbe så langt som muligt på 12 minutter.
 
 Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form.
 

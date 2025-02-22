@@ -17,6 +17,8 @@ tags:
   - vejrtrækning
   - åndedrætstræning
   - løb
+  - moc
+  - træning
 last_modified_at: 2022-10-03T08:14:14Z
 toc: true
 feature_row:

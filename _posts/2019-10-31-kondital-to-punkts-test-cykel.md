@@ -10,6 +10,7 @@ header:
 category:
   - Kondition
 meta:
+  name: Åstrands 2-punktstest
   measures: VO2max og kondital
   type: cykeltest
   equipment: cykel
@@ -22,6 +23,7 @@ tags:
   - cykeltest
   - test
   - beregner
+  - populær
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -35,7 +37,7 @@ feature_row:
 breadcrumbs: true
 ---
 
-Åstrands to-punktstest er en submaksimal [konditionstest](/test-kondition-konditest-kondital/) på en ergometercykel, hvor du på baggrund af måling af belastning og puls kan estimere konditallet.
+Åstrands to-punktstest er en submaksimal [konditionstest](/kondition/tests/) på en ergometercykel, hvor du på baggrund af måling af belastning og puls kan estimere konditallet.
 
 Jeg beskriver i det følgende, hvad Åstrands to-punktstest er, og hvordan testen udføres?
 

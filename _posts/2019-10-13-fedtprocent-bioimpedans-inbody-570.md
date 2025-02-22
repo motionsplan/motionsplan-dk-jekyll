@@ -19,7 +19,14 @@ category:
 breadcrumbs: true
 tags:
   - fedtprocent
+  - kropskomposition
   - bioimpedans
+  - test
+  - metode
+meta:
+  name: Bioimpedansmåling
+  equipment: bioimpedans-vægt
+  measures: kropskomposition og fedtprocent
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 feature_row:

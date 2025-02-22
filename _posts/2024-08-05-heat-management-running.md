@@ -11,7 +11,7 @@ header:
 category:
   - Fysiologi
 tags:
-  - beregner
+  - interaktiv artikel
   - fysiologi
   - varmetræning
 last_modified_at: 2024-08-04T10:14:14Z

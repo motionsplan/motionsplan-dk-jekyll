@@ -12,11 +12,13 @@ category:
   - Kondition
   - Løb
 meta:
+  name: Andersen Test
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebane
   max: maksimal test
   direct: indirekte test
+  target: børn
 tags:
   - konditionstræning
   - maksimal iltoptagelse
@@ -43,7 +45,7 @@ feature_row:
     rel: nofollow noopener
 ---
 
-Andersen testen er en [konditionstest](/test-kondition-konditest-kondital/), hvor du skiftevis løber og holde pause i 10 minutter. Testen kan bruges til at estimere konditallet på gruppeniveau. Testen er særligt velegnet til børn og kan udføres med større grupper, hvor alle er aktivitet undervejs.
+Andersen testen er en [konditionstest](/kondition/tests/), hvor du skiftevis løber og holde pause i 10 minutter. Testen kan bruges til at estimere konditallet på gruppeniveau. Testen er særligt velegnet til børn og kan udføres med større grupper, hvor alle er aktivitet undervejs.
 
 Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/).
 

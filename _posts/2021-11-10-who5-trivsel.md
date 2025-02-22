@@ -9,11 +9,14 @@ header:
   caption: *title
 category:
   - Krop & Sundhed
+  - Psykologi
 tags:
   - depression
   - stress
   - psykologi
-  - test
+  - psykologisk test
+  - vurderingsværktøj
+  - populær
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 feature_row:

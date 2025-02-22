@@ -3,8 +3,7 @@ title: &title "Jump and Reach: Hvor højt springer du?"
 permalink: /jump-reach/
 language: da
 header:
-  overlay_image: https://fitforce.typepad.com/.a/6a0128777776d5970c017ee64035b2970d-pi
-  teaser: https://fitforce.typepad.com/.a/6a0128777776d5970c017ee64035b2970d-pi
+  teaser: https://m.media-amazon.com/images/I/61+QaSxNKDL.jpg
   caption: *title
 category:
   - Eksplosivitet

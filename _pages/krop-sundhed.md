@@ -1,6 +1,6 @@
 ---
 layout: single
-title: &title "Krop og sundhed"
+title: &title "Krop & sundhed"
 permalink: /krop-og-sundhed/
 excerpt: "Krop og sundhed handler om at blive klogere på kroppen. Vi har samlet emner om kost, vægttab og træningslære."
 header:
@@ -19,13 +19,15 @@ breadcrumbs: true
 
 {% assign site_posts = site.posts | where: "tags", "kost" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Alt om kost & ernæring](/kost-ernaering/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -35,14 +37,15 @@ Det er godt at kende mere til [kroppens fysiologi](/fysiologi/), når man gerne 
 
 {% assign site_posts = site.posts | where: "tags", "fysiologi" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
+[Se alt om fysiologi](/fysiologi/){: .btn .btn--success .btn--center }
 </div>
 
 ## Anatomi
@@ -51,13 +54,15 @@ Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til b
 
 {% assign site_posts = site.posts | where: "tags", "anatomi" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Se alt om anatomi](/anatomi/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -77,16 +82,18 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
 
 </div>
 
-## Psykologi
+## Psykologi og mentale tests
 
 {% assign site_posts = site.posts | where: "tags", "psykologi" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Se alle psykologiske sundhedstests](/psykiske-sundhedstest/){: .btn .btn--success .btn--center }
 
 </div>

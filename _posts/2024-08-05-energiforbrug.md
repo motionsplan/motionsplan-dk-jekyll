@@ -12,7 +12,7 @@ category:
   - Fysiologi
   - Cykling
 tags:
-  - beregner
+  - interaktiv artikel
   - fysiologi
   - cykling
 last_modified_at: 2024-08-04T10:14:14Z

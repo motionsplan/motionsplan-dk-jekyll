@@ -12,6 +12,7 @@ category:
   - Søvn
 tags:
   - søvn
+  - faq
 last_modified_at: 2022-11-01T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?

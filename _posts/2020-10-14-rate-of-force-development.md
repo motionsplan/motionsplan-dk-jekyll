@@ -10,7 +10,8 @@ header:
 category:
   - Eksplosivitet
 tags:
-  - test
+  - begreb
+  - fysiologi
 last_modified_at: 2021-12-13T23:14:14Z
 toc: true
 faq:

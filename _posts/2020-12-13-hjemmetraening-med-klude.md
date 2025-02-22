@@ -4,8 +4,8 @@ permalink: /hjemmetraening-med-klude-sliders/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://attacktheback.b-cdn.net/wp-content/uploads/2018/07/exercise-sliders.jpg
-  teaser: https://attacktheback.b-cdn.net/wp-content/uploads/2018/07/exercise-sliders.jpg
+  overlay_image: https://cdn.outsideonline.com/wp-content/uploads/2021/06/23/slider-discs-workout_h.jpg
+  teaser: https://cdn.outsideonline.com/wp-content/uploads/2021/06/23/slider-discs-workout_h.jpg
   caption: *title
 category:
   - Styrketræning

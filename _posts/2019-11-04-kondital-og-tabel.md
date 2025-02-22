@@ -77,7 +77,7 @@ Du kan se, hvad et godt kondital er i tabellerne nedenunder.
 
 Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker.
 
-[Test dit kondital](/test-kondition-konditest-kondital/){: .btn .btn--large .btn--info }
+[Test din kondition](/kondition/tests/){: .btn .btn--large .btn--info }
 
 ## Kondital tabel for mænd (normalbefolkning)
 
@@ -140,15 +140,15 @@ Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% li
 
 ## Hvordan måler man kondital?
 
-Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/test-kondition-konditest-kondital/).
+Hvis du vil finde dit eget kondital, så tjek vores forskellige [tests til at finde dit kondital](/kondition/tests/).
 
 Nogle af de populære er bl.a. [Cooper-test](/cooper-test/) og [bip test](/bip-test/).
 
-## Hvad kan du bruge konditallet til?
+## Hvad kan du bruge konditallet til
 
 Når du kender dit kondital, så kan du bruge det til at *tracke* din træning. Konditallet er en rigtig god indikator for din generelle sundhed. Risikoen for livsstilssygdomme er mindre, når du har et højt kondital.
 
-Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/test-kondition-konditest-kondital/).
+Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/kondition/tests/).
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
@@ -205,7 +205,7 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den r
 
 Hvis du gerne vil forbedre dit kondital og komme i god form, så kan du finde inspiration under vores afsnit om at komme i [god kondition og konditionstræning](/kondition/).
 
-Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests](/test-kondition-konditest-kondital/), vi har skrevet her.
+Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests](/kondition/tests/), vi har skrevet her.
 
 Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 

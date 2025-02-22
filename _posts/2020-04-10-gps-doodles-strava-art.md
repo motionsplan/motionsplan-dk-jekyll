@@ -4,9 +4,8 @@ permalink: /gps-doodles/
 excerpt: "Brug din GPS til at tegne tegning og være med til at lave Strava Art og GPS-doodles."
 language: da
 header:
-  overlay_image: https://resources.stuff.co.nz/content/dam/images/1/9/t/q/x/p/image.related.StuffLandscapeThreeByTwo.1464x976.19tqzx.png/1455665002072.jpg
-  teaser: https://resources.stuff.co.nz/content/dam/images/1/9/t/q/x/p/image.related.StuffLandscapeThreeByTwo.1464x976.19tqzx.png/1455665002072.jpg
-  caption: "Stephen Lunds GPS-Doodle"
+  overlay_image: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
+  teaser: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
   overlay_filter: 0.5
 category:
   - Træningsideer

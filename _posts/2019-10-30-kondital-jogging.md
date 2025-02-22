@@ -10,6 +10,7 @@ header:
 category:
   - Kondition
 meta:
+  name: 1,6 km submaksimal løbetest
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebane

@@ -12,6 +12,7 @@ category:
   - Krop & Sundhed
 tags:
   - beregner
+  - vurderingsværktøj
 last_modified_at: 2024-08-04T10:14:14Z
 ---
 

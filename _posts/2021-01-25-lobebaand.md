@@ -190,7 +190,7 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 
 ## Konklusion om løbebånd
 
-Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/test-kondition-konditest-kondital/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om [løb og løbetræning på løbesiden](/loebesiden/), og det er let at lave [intervalløb](/intervallob-intervaltraening/).
+Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/kondition/tests/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om [løb og løbetræning på løbesiden](/loebesiden/), og det er let at lave [intervalløb](/intervallob-intervaltraening/).
 
 ## Løbebånd i forskellige prisklasser
 

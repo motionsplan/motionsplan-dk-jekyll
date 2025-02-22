@@ -9,8 +9,7 @@ header:
 category:
   - Test
 tags:
-  - test
-  - tracking
+  - udstyr
 last_modified_at: 2020-11-19T23:14:14Z
 toc: true
 feature_row:
