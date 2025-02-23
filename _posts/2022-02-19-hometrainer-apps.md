@@ -11,6 +11,8 @@ category:
 tags:
   - træningsudstyr
   - hometrainer
+  - apps
+  - virtuel cykling
 last_modified_at: 2022-02-12T22:21:26Z
 ---
 

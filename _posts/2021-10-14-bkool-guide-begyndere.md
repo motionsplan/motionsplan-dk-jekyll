@@ -14,6 +14,8 @@ tags:
   - kondition
   - bkool
   - cykling
+  - hometrainer
+  - virtuel cykling
 gallery:
   - image_path: /assets/images/blog/bkool-1.jpg
     url: /assets/images/blog/bkool-1.jpg

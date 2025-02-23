@@ -16,6 +16,7 @@ tags:
   - løb
   - politiets optagelsesprøve
   - hjemmetræning
+  - politi
 last_modified_at: 2021-01-02T10:14:14Z
 toc: true
 author: jakob.nielsson

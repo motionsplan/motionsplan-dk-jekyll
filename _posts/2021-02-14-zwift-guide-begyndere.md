@@ -16,6 +16,8 @@ tags:
   - zwift
   - cykling
   - featured
+  - hometrainer
+  - virtuel cykling
 last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 feature_row:

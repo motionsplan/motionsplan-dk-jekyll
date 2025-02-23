@@ -1,31 +1,77 @@
 ---
-title: &title "Klar til Politiets fysiske test og krav til optagelsesprøven?"
-permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
-seo_title: "Politiets fysiske tests og krav – sådan klarer du dem"
-excerpt: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bænkpres og længdespring. Se kravene, og få træningstips til at bestå."
-last_modified_at: 2024-08-17T09:41:09Z
-language: da
+layout: single
+title: "Politiets optagelsesprøve – sådan består du testen"
+seo_title: "Politiets optagelsesprøve – krav, tests og forberedelse"
+permalink: "/politiets-optagelsesproeve/"
+excerpt: "Vil du blive politibetjent? Læs om politiets optagelsesprøve, de fysiske og teoretiske krav, og hvordan du bedst forbereder dig til testen."
+description: "Vil du blive politibetjent? Læs om politiets optagelsesprøve, de fysiske og teoretiske krav, og hvordan du bedst forbereder dig til testen."
 header:
-  overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
-  teaser: /assets/images/blog/politiets-fysiske-test.jpeg
-  caption: *title
+  overlay_image: "/assets/images/blog/politiets-fysiske-test.jpeg"
+  teaser: "/assets/images/blog/politiets-fysiske-test.jpeg"
 category:
-  - Test
+  - Tests
 tags:
   - tests
   - optagelsesprøve
   - politi
+classes:
+  - wide
+toc: false
+author_profile: true
+feature_row_all_tests:
+  - image_path: "https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10"
+    alt: "Politiets fysiske tests og krav til optagelsesprøven"
+    title: "Politiets fysiske tests"
+    excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
+    url: "/politiets-fysiske-tests-krav-optagelsesproeve/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+breadcrumb: true
 ---
 
-Politiets fysiske tests er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition, styrke og hurtighed. For at bestå skal du leve op til minimumskravene for øvelser som 2400 meter løb, bænkpres, længdespring og kropshævninger. 
+Politiets optagelsesprøve er første skridt mod en karriere som betjent. For at blive optaget på politiskolen skal du bestå både fysiske og teoretiske tests, som vurderer din kondition, styrke og evne til at håndtere pressede situationer.
 
-Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå politiets fysiske optagelsesprøve.
+På denne side får du et overblik over optagelsesprøven, og vi guider dig til specifikke tests og krav, så du kan forberede dig bedst muligt.
 
-Du får også konkrete træningstips, så du kan optimere din præstation.
+## Fysiske tests
 
-## Hvad er politiets fysiske tests?
+{% include feature_row id="feature_row_all_tests" type="left" %}
 
-**Politiets fysiske tests består af opvarmning, hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meters løbetest. Testene bedømmes forskelligt for mænd og kvinder, og øvelsen til kropshævninger er for mænd pullups, mens den er bodyrows for kvinder. Du skal bestå alle tests for at bestå de fysiske krav.**
+{% comment %}
+L I S T E   O V E R   T E S T S
+
+Opvarmning
+Hurtighedstest
+Længdespring
+Kropshævninger
+Bænkpres
+2400 meter løb
+
+Tjek politiparat og gør det hele meget bedre
+
+{% endcomment %}
+
+## Læs mange flere relevante artikler
+
+{% assign site_posts = site.posts | where: "tags",  "politi" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+
+{% comment %}
+***
+
+Politiet har en række fysiske tests til optagelsesprøven. Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå politiets fysiske optagelsesprøve.
+
+Hvad er politiets fysiske tests? **Politiets fysiske tests består af opvarmning, hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meters løbetest. Testene bedømmes forskelligt for mænd og kvinder, og øvelsen til kropshævninger er for mænd pullups, mens den er bodyrows for kvinder. Du skal bestå alle tests for at bestå de fysiske krav.**
 
 Når du søger ind til Politiet og er så heldig at komme til optagelsesprøve, så vil du allerede på første prøvedag i optagelsesforløbet skulle gennemgå en fysisk optagelsesprøve.
 
@@ -256,3 +302,5 @@ Ved prøven kan der være forskelligt løbeunderlag og vekslende vejrforhold.
 Nu er det egentlig bare at komme i gang med træningen til politiets fysiske tests, så du kan leve op til de krav politiets optagelsesprøve stiller.
 
 For at opfylde politiets optagelseskrav, så er det vigtigt, at du forbereder dig ordentligt til de fysiske krav.
+
+{% endcomment %}

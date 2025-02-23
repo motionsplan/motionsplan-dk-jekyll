@@ -13,6 +13,8 @@ tags:
   - kondition
   - cykling
   - hometrainer
+  - udstyr
+  - virtuel cykling
 last_modified_at: 2022-11-06T08:14:14Z
 feature_row_kickr_bike:
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D

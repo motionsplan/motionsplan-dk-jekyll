@@ -1,14 +1,10 @@
 ---
 layout: single
-title: "Styrketræning - komplet guide til øvelser og programmer"
-redirect_from:
-  - /styrke/
-seo_title: "Styrketræning: Øvelser, programmer og tips"
-system:
-  - fitnessinstruktør
-permalink: /styrketraening/
-excerpt: "Bliv stærkere og undgå skader! Få de bedste øvelser, effektive træningsprogrammer og eksperttips til at opbygge muskelstyrke og forbedre din teknik."
-description: "Bliv stærkere og undgå skader! Få de bedste øvelser, effektive træningsprogrammer og eksperttips til at opbygge muskelstyrke og forbedre din teknik."
+title: "Styrkeløft - komplet guide til squat, bænkpres og dødløft"
+seo_title: "Styrkeløft: Komplet guide til sporten"
+permalink: /styrkeloeft/
+excerpt: "Bliv stærkere i squat, bænkpres og dødløft! Lær korrekt teknik, effektive træningsprogrammer og regler for styrkeløft."
+description: "Få en komplet guide til styrkeløft. Lær teknikken i squat, bænkpres og dødløft, følg effektive træningsprogrammer, og forstå reglerne i konkurrence."
 header:
   overlay_image: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
@@ -30,6 +26,28 @@ feature_row_strength:
     rel: sponsored nofollow noopener
 sidebar:
   nav: trainingtypes
+feature_row_lifts:
+  - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+    alt: "Squat - styrkeløft og powerlifting regler for squat"
+    title: "Squat - Guide til back squat"
+    excerpt: "Squat er en grundlæggende benøvelse, der styrker lår, baller og core. Lær korrekt teknik og variationer for maksimal effekt."
+    url: "/squat/"
+    btn_label: "Lær squat"
+    btn_class: "btn--info"
+  - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+    alt: "Bænkpres - powerlifting og styrkeløft regler for bænkpres"
+    title: "Bænkpres - Optimer din teknik"
+    excerpt: "Bænkpres er en essentiel øvelse for bryst, skuldre og triceps. Få styr på teknik, greb og de bedste strategier for styrke."
+    url: "/oevelse/baenkpres/"
+    btn_label: "Lær bænkpres"
+    btn_class: "btn--info"
+  - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+    alt: "Dødløft - powerlifting og styrkeløft regler for dødløft"
+    title: "Dødløft - komplet guide"
+    excerpt: "Dødløft aktiverer hele kroppen med fokus på ryg og ben. Lær korrekt udførelse, typiske fejl og effektive variationer."
+    url: "/doedloeft/"
+    btn_label: "Lær dødløft"
+    btn_class: "btn--info"
 feature_row_get_started:
   - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Guide: Sådan kommer du i gang med styrketræning"
@@ -38,19 +56,14 @@ feature_row_get_started:
     url: "/vaelg-traeningsprogram/"
     btn_label: "Kom i gang med træningen"
     btn_class: "btn--info"
-feature_row_powerlifting:
-  - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Styrkeløft"
-    title: "Styrkeløft - bliv stærk i squat, bænk og dødløft"
-    excerpt: "Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw)."
-    url: "/styrkeloeft/"
-    btn_label: "Kom i gang med styrkeløft"
-    btn_class: "btn--info"
 feature_row_about:
   - image_path: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Styrketræning - bliv stærk og flyt noget tungt"
-    title: "Styrketræning - bliv stærk og flyt noget tungt"
-    excerpt: "Styrketræning er en fællesbetegnelse for en række fysiske øvelser, som bruges til at styrke udøverens muskler. Formålet med styrketræning kan både være at blive stærkere eller få større muskler."
+    alt: "Styrkeløft"
+    title: "Hvad er reglerne til styrkeløft?"
+    excerpt: "Hvis du gerne vil lære reglerne til styrkeløft at kende, så har jeg skrevet en begynderguide, så du kan komme i gang allerede i dag."
+    url: /powerlifting-rules/
+    btn_label: Tjek reglerne til styrkeløft
+    btn_class: btn--info
 feature_row_good_program:
   - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
     alt: "Hvad er et godt styrketræningsprogram?"
@@ -79,13 +92,23 @@ classes:
   - wide
 ---
 
-Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsprogrammer og dybdegående artikler, der hjælper dig med at opbygge styrke og træne smartere.
+Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. 
+
+Når du har en effektiv teknik i de tre løft og samtidig bliver stærk, så kan du maksimere, hvor meget du kan lave din total i styrkeløft. 
+
+Få inspiration til hvordan du kommer kommer ind i sporten, lærer de tre store løft at kende rigtig godt og i det hele taget bare bliver virkelig stærk.
+
+Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw).
 
 {% include feature_row id="feature_row_get_started" type="left" %}
 
-## Guides til styrketræning
+## De tre styrkeløft
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "guide" | sort: "date" %}
+{% include feature_row id="feature_row_lifts" %}
+
+## Guides til styrkeløft
+
+{% assign site_posts = site.posts | where: "tags", "styrkeløft" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -97,7 +120,7 @@ Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsp
 
 </div>
 
-## Hvad er styrketræning?
+## Hvad er styrkeløft?
 
 {% include feature_row id="feature_row_about" type="left" %}
 
@@ -200,10 +223,6 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
 {% endif %}
 
 </div>
-
-## Prøv styrkeløft - og bliv rigtig stærk
-
-{% include feature_row id="feature_row_powerlifting" type="left" %}
 
 {% comment %}
 Lav måske denne om til støttetræning 

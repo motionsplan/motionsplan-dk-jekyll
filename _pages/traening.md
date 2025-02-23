@@ -14,6 +14,58 @@ toc: false
 sidebar:
   nav: trainingtypes
 breadcrumbs: true
+feature_row_topics:
+  - image_path: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Styrketræning - komplet guide til øvelser og programmer"
+    title: "Styrketræning"
+    excerpt: "Bliv stærkere med effektive programmer, de bedste øvelser og viden om teknik. Undgå skader og træn smart."
+    url: "/styrketraening/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Løb, løbetræning & løbeprogrammer"
+    title: "Løb & løbetræning"
+    excerpt: "Find træningsprogrammer til 5 km, 10 km, halvmaraton og maraton. Optimer din løbestil og træn efter puls."
+    url: "/loebesiden/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Konditionstræning"
+    title: "Konditionstræning"
+    excerpt: |
+      Bliv bedre til konditionstræning! Lær effektive metoder til at forbedre din udholdenhed og øg din VO2 max og dit kondital.".
+    url: "/kondition/"
+    btn_label: "Læs mere"
+    btn_class: "btn--info"
+  - image_path: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Gang - alt om at gå"
+    title: "Gang & træning"
+    excerpt: "Gåture forbedrer sundhed, forbrænder kalorier og reducerer stress. Få tips til at gå mere i din hverdag."
+    url: "/gang/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Cykling: Alt om cykeltræning og cykeltests"
+    title: "Cykling & træning"
+    excerpt: "Guide til cykeltræning og tests. Lær om træning, teknik og udstyr, så du kan cykle hurtigere og længere."
+    url: "/cykling/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Yoga & Mindfulness"
+    title: "Yoga & Mindfulness"
+    excerpt: "Find artikler om yoga, mindfulness og vejrtrækning. Få teknikker til ro, fleksibilitet og mental balance."
+    url: "/yoga/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Varmetræning"
+    title: "Varmetræning"
+    excerpt: |
+      Varmetræning er blevet mere og mere populært. Bliv bedre til at kunne præstere bedre i varmen og kom i bedre form".
+    url: "/varmetraening/"
+    btn_label: "Læs mere"
+    btn_class: "btn--info"
 feature_row_exercises:
   - image_path: https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Træningsøvelser"
@@ -67,17 +119,21 @@ Uanset hvad, er det vigtigt at vælge en træningsform, der passer til dine beho
 
 I dette afsnit får du en oversigt over de mest populære [træningsformer](/traeningsformer/), deres fordele, og hvordan du kan kombinere dem for at få de bedste resultater. 🚀
 
-{% assign site_posts = site.pages | where: "category", "Træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% include feature_row id="feature_row_topics" %}
+
+[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
+
+Tjek også disse forskellige træningsformer:
+
+{% assign site_posts = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
-
-[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -204,18 +260,6 @@ Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelse
 Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups](/chinup-vs-pullup/) og [armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/).
 
 Under alle omstændigheder bør du til inspiration dykke ned i [alle vores træningsøvelser](/traeningsoevelser/).
-
-{% assign site_posts = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
 
 {% comment %}
 

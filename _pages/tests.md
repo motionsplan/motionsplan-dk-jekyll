@@ -28,6 +28,14 @@ feature_row_test_fat_percent:
     url: "/maal-fedtprocent/"
     btn_label: "Test din fedtprocent"
     btn_class: "btn--success"
+feature_row_police_test:
+  - image_path: "https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10"
+    alt: "Politiets optagelsesprøven"
+    title: "Politiets optagelsesprøve"
+    excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
+    url: "/politiets-optagelsesproeve/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 classes: wide
 ---
 
@@ -131,6 +139,8 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 
 </div>
 
-{% include feature_row id="feature_row_mental_tests" type="left" %}
-
 {% include feature_row id="feature_row_fat_percent" type="left" %}
+
+{% include feature_row id="feature_row_police_test" type="left" %}
+
+{% include feature_row id="feature_row_mental_tests" type="left" %}

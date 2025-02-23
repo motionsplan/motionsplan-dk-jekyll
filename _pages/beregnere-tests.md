@@ -162,7 +162,7 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
   {% endfor %}
 {% endif %}
 
-[Se alle cykeltests](/kondition/cykling/){: .btn .btn--success .btn--center }
+[Se alle cykeltests](/tests/cykling/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -194,13 +194,13 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
   {% endfor %}
 {% endif %}
 
-[Se alle hoppetests](/springtests-hoppehoejde/){: .btn .btn--success .btn--center }
+[Se alle hoppe- og springtests](/springtests-hoppehoejde/){: .btn .btn--success .btn--center }
 
 </div>
 
 ## De mest populære beregnere
 
-{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "populær" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 

@@ -12,6 +12,8 @@ category:
 tags:
   - apps
   - virtuel cykling
+  - hometrainer
+  - cykling
 last_modified_at: 2024-01-23T22:21:26Z
 gallery:
   - image_path: /assets/images/blog/wahoo-rgt-1.jpg
