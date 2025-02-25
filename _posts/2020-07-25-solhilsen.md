@@ -124,7 +124,7 @@ Der findes to versioner af solhilsen. De to solhilsener ligner hinanden. A er de
 
 Du kan se en simpel oversigt over solhilsen A og B her.
 
-{% include figure image_path="https://www.freewebs.com/penyoga/sun_salutations-2.gif" caption="Simpel oversigt over forskellene på solhilsen A og B" alt="Forskellen på solhilsen A og B" %}
+{% include figure image_path="/assets/images/blog/sun_salutations-2.gif" caption="Simpel oversigt over forskellene på solhilsen A og B" alt="Forskellen på solhilsen A og B" %}
 
 Solhilsen udføres lidt forskelligt inden for de forskellig retninger i yoga. Jeg har valgt at fokusere på den mest kendte _Surya Namaskar_ (solhilsen) fra _Asthanga Vinyasa Yogaen_ i det følgende.
 

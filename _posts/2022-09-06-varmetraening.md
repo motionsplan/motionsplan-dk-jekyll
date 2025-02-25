@@ -147,7 +147,7 @@ Du skal bare sørge for, at du ikke kan komme af med varmen.
 
 Så på med regntøjet, vanter og hue, så er du klar til at lave varmetræning.
 
-{% include figure image_path="https://feltet.dk/octo_cms/files/Feltet.dk/Chris_Jacob_Mikkelsen_varmeakklimatisering_pakket_ind_600.jpg" caption="Dette er det bedste billede jeg har kunnet finde af, hvordan man kan klæde sig på til en tur på hometraineren. Kilde: [www.motionsfeltet.dk](https://www.motionsfeltet.dk/nyheder/effektiv_og_fokuseret_traening_varmeakklimatisering_4/)" %}
+{% include figure image_path="https://feltet.dk/octo_cms/files/Feltet.dk/Chris_Jacob_Mikkelsen_varmeakklimatisering_pakket_ind_600.jpg" caption="Dette er det bedste billede jeg har kunnet finde af, hvordan man kan klæde sig på til en tur på hometraineren. Kilde: [www.motionsfeltet.dk](https://web.archive.org/web/20240530024411/https://www.motionsfeltet.dk/nyheder/effektiv_og_fokuseret_traening_varmeakklimatisering_4/){: rel='nofollow' }" %}
 
 ## Hvad sker der ved varmetræning?
 
@@ -236,7 +236,7 @@ Men helt almindelige, dedikerede motionister forsøger også at vænne sig til v
 
 Klædt i regntøj, gummihandsker, skoovertræk og hue.
 
-Sådan forberedte [Chris Jacob Mikkelsen](https://www.motionsfeltet.dk/nyheder/effektiv_og_fokuseret_traening_varmeakklimatisering_4/) sig til et af de berømte cykelløb i Sydfrankrig, La Marmotte.
+Sådan forberedte [Chris Jacob Mikkelsen](https://web.archive.org/web/20240530024411/https://www.motionsfeltet.dk/nyheder/effektiv_og_fokuseret_traening_varmeakklimatisering_4/){: rel="nofollow" } sig til et af de berømte cykelløb i Sydfrankrig, La Marmotte.
 
 ## Konklusion
 

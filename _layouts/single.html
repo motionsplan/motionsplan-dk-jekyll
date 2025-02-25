@@ -81,7 +81,7 @@ layout: default
 
         {% assign author = page.author | default: page.authors[0] | default: site.author %}
         {% assign author = site.data.authors[author] | default: author %}
-        {% include motionsplan/author.html author=author %}
+        {% include motionsplan/author.html author=author editorial_link="true" %}
 
         {% include motionsplan/rating.html %}
 

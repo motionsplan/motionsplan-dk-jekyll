@@ -89,7 +89,7 @@ Så snart du skifter til varmere himmelstrøg, så begynder kroppen sin varmeakk
 
 Efter 10-14 dage har kroppen i høj grad vænnet sig til varmen og har lavet tilpasninger, som gør det meget lettere at præstere i heden. Kroppen fortsætter naturligvis med at lave tilpasninger jo længere du lever i varmen, men hvis du skal forberede dit til en vigtig præstation, så kan 14 dage gøre alverden til forskel i dine forberedelser.
 
-{% include figure image_path="https://www.loberen.dk/sites/default/files/acclimatization-changes.jpg" caption="Kilde: [Løberen](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)" alt="varmeakklimatisering for forskellige parametre" %}
+{% include figure image_path="/assets/images/blog/acclimatization-changes.jpg" caption="Kilde: [Løberen](https://web.archive.org/web/20241205232934/https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme){: rel='nofollow' }" alt="varmeakklimatisering for forskellige parametre" %}
 
 Ultraløber, Christian Madsen, anbefaler følgende:
 

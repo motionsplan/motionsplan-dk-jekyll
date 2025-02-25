@@ -13,6 +13,8 @@
 @import "youtube";
 @import "star-rating";
 
+/* AUTHOR BYLINE */
+
 .author__byline {
   font-size: 0.7em; position: relative; padding-left: 3.5em; margin-top: 0; margin-bottom: 1em !important;
 }
@@ -167,6 +169,36 @@ details.references:open summary:hover::before {
   transition-delay: 0.5s; /* Forsinkelse før eventuel ændring til lukket bog */
 }
 
+
+details.references[open] summary::after {
+  content: " - Læs om vores redaktionelle proces";
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #555;
+  margin-left: 5px;
+}
+
+details.references[open] ul::before {
+  content: "Motionsplan.dk anvender kun pålidelige og videnskabeligt funderede kilder til at understøtte de fakta, vi præsenterer i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
+  display: block;
+  width: calc(100% + 2em); /* Udvider boksen, hvis ul har indrykning */
+  box-sizing: border-box;
+  padding: 1em;
+  background-color: #f5f5f5;
+  border-left: 5px solid #ccc;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  color: #333;
+  border-radius: 8px;
+  position: relative;
+  left: -2em; /* Justerer så den går tilbage til kanten af details */
+}
+
+.references ul li {
+  font-size: 0.8em;
+}
+
 /* FEATURE ROW EMOJI STYLE */
 
 .feature__wrapper-emoji {
@@ -251,13 +283,16 @@ details.references:open summary:hover::before {
   border-top: 3px solid #eee;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
+  align-items: flex-start; /* Aligns items to the top */
 }
 .profile-card img {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
   border-radius: 10px;
   object-fit: cover;
   margin-right: 20px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 .profile-text {
   flex: 1;
@@ -287,7 +322,7 @@ details.references:open summary:hover::before {
   text-transform: uppercase;
   font-size: 14px;
   color: #d93050;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
 }

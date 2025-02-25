@@ -891,6 +891,7 @@ da: &DEFAULT_DA
   back_to_top                : "Tilbage til toppen"
   published_by               : "Af"
   about_the_author           : "Læs mere"
+  about_editorial_proces     : "Sådan skriver vi"
 da-DK:
   <<: *DEFAULT_DA
 

@@ -7,7 +7,7 @@ header:
   teaser: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?q=10&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 tags:
-  - Styrketræning
+  - styrketræning
 category:
   - Styrketræning
 last_modified_at: 2020-04-10T20:11:29Z
@@ -19,7 +19,7 @@ Ved at beskrive tempoet, får du en god træningslog for, hvordan du reelt har t
 
 Løftetempoet er nemlig med til at afgøre, hvilke resultater du får af træningen, og hvor lang _time under tension_ bliver for musklerne.
 
-{% include figure image_path=page.header.overlay_image caption=page.title alt="tempoløft styrketræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?q=60&w=600&h=450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" caption=page.title alt="tempoløft styrketræning" %}
 
 ### Hvordan noterer jeg tempoet?
 

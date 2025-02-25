@@ -1,7 +1,9 @@
 ---
-title: &title "2400-meter løbetest: Find dit kondital med vores beregner 🏃"
+title: &title "2400-meter løbetest: Sådan beregner du dit kondital 🏃"
+seo_title: "Prøv 2400-meter testen - Beregn dit kondital i vores værktøj"
 permalink: /kondital-2400-meter/
 excerpt: "På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne."
+description: "Test din kondition med 2400-meter løbetesten. Beregn dit kondital, sammenlign dine resultater, og få tips til at forbedre dit resultat."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
@@ -36,20 +38,48 @@ gallery_whyiexercise:
     title: "Normer for mænd for 2400 meter testen"
 ---
 
-Hvis du gerne vil finde dit kondital, så kan du løbe 2400-meter testen. Her får du en beregner og guide til, hvordan du laver Coopers modificerede test.
+Hvis du vil kende dit kondital, kan du tage 2400-meter testen. Her får du både en beregner og en guide til, hvordan du gennemfører Coopers modificerede test.
 
-På 2400 meter-testen gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne.
+På 2400-meter testen gælder det om at løbe distancen så hurtigt som muligt. Ud fra din tid kan du estimere dit kondital og sammenligne det med normerne.
 
-2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til Politiskolen.
+2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til [Politiets optagelsesprøve](/politiets-optagelsesproeve/).
 
-I dette indlæg kan du læse mere om:
+I dette indlæg finder du:
 
-- Hvordan laver du 2400 meter testen?
-- Hvor lang tid tager det at løbe 2400 meter?
-- Finde en beregner til 2400-meter testen, så du kan udregne dit kondital
-- Få en tabel over tider på 2400 meter-testen
+- En guide til, hvordan du gennemfører 2400-meter testen
+- Et overblik over, hvor lang tid det typisk tager at løbe 2400 meter
+- En beregner til at udregne dit kondital baseret på din testtid
+- En tabel med referenceværdier for 2400-meter testen
 
 {% include figure image_path="https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=600&q=60" alt="løber på 2400-meter test" %}
+
+{% comment %}
+***
+Hvad er 2400-meter løbetesten?
+(Introduktion til testen og dens relevans.)
+
+Sådan gennemfører du Coopers 2400 meter test korrekt
+(En detaljeret guide til, hvordan du udfører testen korrekt.)
+
+Beregning af kondital ud fra 2400-meter løbetesten
+(Hvordan du bruger din tid på testen til at beregne kondital.)
+
+Normer for Coopers 2400 meter test
+(En oversigt over de gængse normer for testen baseret på alder og køn.)
+
+Hvad betyder din tid på 2400-meter testen?
+(Vurdering af, hvad din tid betyder for din kondition og hvordan du sammenligner dig med normerne.)
+
+Sådan forbedrer du din tid på 2400-meter løbetesten
+(Træningstips og strategier for at forbedre din præstation.)
+
+Formel til beregning af kondital fra 2400-meter løbetesten
+(Den matematiske formel og et praktisk eksempel.)
+
+Hvor hurtigt bør du kunne løbe 2400 meter?
+(Afslutning med et perspektiv på, hvad der er et godt resultat.)
+***
+{% endcomment %}
 
 ## Hvad er 2400-meter-testen?
 
@@ -61,7 +91,7 @@ Sammen med [Cooper-testen](/cooper-test/) vurderes 2400-meter testen af [Daniel 
 
 2400 meter løbetesten er en del af politiets fysiske optagelsesprøve.
 
-## Hvordan laver du 2400-meter testen?
+## Sådan udfører du 2400-meter testen
 
 {% include video provider="youtube" id="YldNonx193c" %}
 
@@ -114,4 +144,4 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 
 ## Konklusion om 2400-meter testen
 
-2400-meter testen bruges som en del af [Politiets optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+2400-meter testen bruges som en del af [Politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).

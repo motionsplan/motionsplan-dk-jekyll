@@ -37,5 +37,8 @@
     {% if author.home %}
     <a href="{{ author_link }}" class="read-more">{{ site.data.ui-text[site.locale].about_the_author | default: "Read more" }}</a>
     {% endif %}
+    {% if include.editorial_link %}
+    <a href="/om/redaktionelle-proces/" class="read-more">{{ site.data.ui-text[site.locale].about_editorial_proces | default: "Check our editorial process" }}</a>
+    {% endif %}
   </div>
 </div>

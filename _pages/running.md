@@ -19,9 +19,6 @@ header:
       url: "/loebeprogrammer/"
 classes: wide
 toc: true
-feature_row_excerpt:
-  - excerpt: |
-      Guide til løbetræning. Uanset om du træner til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton-21km/) og [maraton](/loebeprogram-maraton-42km/), finder du her værdifuld viden om løb. Vælg det rette [løbeprogram](/loebeprogrammer/), og lær, hvordan [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/) kan forbedre din præstation.
 feature_row_guide_running:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Guide: Sådan får du mest ud af din løbetræning"
@@ -94,7 +91,7 @@ category:
 breadcrumbs: true
 ---
 
-{% include feature_row type="center" id="feature_row_excerpt" %}
+Guide til løbetræning. Uanset om du træner til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton-21km/) og [maraton](/loebeprogram-maraton-42km/), finder du her værdifuld viden om løb. Vælg det rette [løbeprogram](/loebeprogrammer/), og lær, hvordan [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/) kan forbedre din præstation.
 
 {% include feature_row id="feature_row_guide_running" type="left" %}
 
