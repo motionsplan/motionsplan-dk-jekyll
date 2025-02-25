@@ -100,8 +100,6 @@ Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 
 Det er altid en god ide at have en eller anden form for træningsprogram, når du laver træning. Det vigtigtste er faktisk at have en plan, så du **vedholdende** gider at træne. Vi har skrevet indlæg om, [hvordan du laver dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/) og [hvad du skal tænke på i et løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/).
 
-Tjek mere på vores side om [træningsprogrammer](/traeningsprogrammer/).
-
 {% assign site_posts = site.posts | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">

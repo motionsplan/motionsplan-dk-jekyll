@@ -3,8 +3,10 @@ layout: single
 permalink: /traeningsoevelser/
 redirect_from:
   - /exercise-search/
-title: &title "Træningsøvelser: De bedste øvelser til styrketræning 🏋"
-excerpt: "Vi har samlet de bedste træningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
+title: &title "Træningsøvelser: De bedste øvelser til træning 🏋"
+seo_title: "Træningsøvelser – styrke, udstrækning, yoga og balance"
+excerpt: "Vi har samlet de bedste træningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
+description: "Find træningsøvelser til styrke, udstrækning, yoga og balance. Få inspiration til øvelser, der forbedrer din mobilitet, stabilitet og styrke."
 comments: false
 author_profile: true
 gallery:
@@ -16,6 +18,11 @@ gallery:
 sidebar:
   nav: exercises
 toc: true
+category:
+  - Træning
+breadcrumbs: true
+classes:
+  - wide
 ---
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
@@ -24,7 +31,22 @@ Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-t
 
 **Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelse, så skriv endelig.**
 
-{% include motionsplan/pinterest-gallery id="gallery" hidden="true"%}
+## Forskellige træningsformer
+
+{% assign site_posts = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
+
+</div>
+
 
 ## Seneste opdaterede øvelser
 

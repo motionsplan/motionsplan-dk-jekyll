@@ -30,6 +30,8 @@ doping:
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
 breadcrumbs: true
+classes:
+  - wide
 ---
 
 {{ page.excerpt }}
@@ -140,13 +142,15 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 
 {% assign site_posts = site.posts | where: "tags", "skader" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Mere om skader](/skader/){: .btn .btn--success .btn--center }
 
 </div>
 

@@ -26,6 +26,51 @@
   }
 }
 
+// CHAT GPTS FORSLAG
+
+.author__byline {
+  font-size: 0.6em;
+  position: relative;
+  padding-left: 3.5em; /* Lidt mere afstand fra billedet */
+  margin-top: 0;
+  margin-bottom: 1.2em !important; /* Lidt mere luft */
+  line-height: 1.4; /* Lidt bedre læsbarhed */
+}
+
+.author__byline-avatar {
+  position: absolute;
+  top: -0.7em; /* Justeret lidt */
+  left: 0;
+  width: 3em; /* En anelse større */
+  height: 3em;
+  overflow: hidden;
+  border-radius: 50%; /* Gør billedet cirkulært */
+}
+
+.author__byline-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Sørger for, at billedet fylder rammen pænt */
+}
+
+.page__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.7em;
+  color: #666;
+  margin-top: 0.3em;
+  gap: 5px; /* Eller lidt mindre afhængigt af, hvad du bruger nu */
+}
+
+.page__meta img {
+  width: 2.5em; /* Justér størrelsen */
+  height: 2.5em;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75em; /* Sørger for lidt afstand til teksten */
+}
+
 .collapsible-toc {
   border: 1px solid #ddd; background-color: #eee; margin-top: 1em; margin-bottom: 1em;
 }
@@ -276,61 +321,89 @@ details.references[open] ul::before {
 
 .profile-card {
   display: flex;
-  background-color: white;
-  padding: 1em 0;
-  align-items: center;
-  border-bottom: 3px solid #eee;
-  border-top: 3px solid #eee;
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
-  align-items: flex-start; /* Aligns items to the top */
+  align-items: flex-start; /* Ensures top alignment */
+  background-color: #eee;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1em;
+}
+
 .profile-card img {
-  max-width: 200px;
+  max-width: 150px;
   border-radius: 10px;
   object-fit: cover;
-  margin-right: 20px;
   width: 100%;
-  max-width: 200px;
   height: auto;
 }
+
 .profile-text {
   flex: 1;
 }
+
 .profile-text p.author__name {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.2em;
   text-transform: uppercase;
-  a {
-    text-decoration: none;
-  }  
+}
+
+.profile-text p.author__name a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 .profile-text p.author__title {
-  margin: 0;
+  margin: 5px 0;
   font-size: 0.8em;
-  color: #bbb;
+  color: black;
 }
 
 .profile-text p {
-  margin: 5px 0 10px;
+  margin: 10px 0;
   color: #444;
   font-size: 0.7em;
 }
+
 .read-more {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.7em;
   color: #d93050;
-  display: inline-flex;
-  align-items: center;
   text-decoration: none;
+  margin-top: 0.8em;
 }
+
 .read-more::after {
-  content: '\279C'; /* Pil højre */
+  content: '\279C'; /* Right arrow */
   margin-left: 5px;
-  font-size: 16px;
+  font-size: 0.9em;
 }
+
+.editorial-link {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 0.7em;
+  color: #aaa;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin-top: 0.2em;
+}
+
+.editorial-link::before {
+  content: 'ⓘ'; /* Right arrow */
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
 
 /****************/
 

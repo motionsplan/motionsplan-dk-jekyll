@@ -162,10 +162,10 @@ footer:
 author:
   name: "Motionsplan"
   home: "/om/"
-  bio: "Evidensbaseret viden om træning, træningsøvelser og træningsprogrammer. Alt indhold er baseret på anerkendt forskning, praktisk erfaring og ekspertviden. Alle vores skribenter gør sig umage for at give dig de bedste værktøjer til at optimere din træning og nå dine mål."
+  bio: "Evidensbaseret viden om træning, test og sundhed. Alt indhold er baseret på anerkendt forskning, praktisk erfaring og ekspertviden. Alle vores skribenter gør sig umage for at give dig opdateret viden og de bedste værktøjer til at optimere din træning og nå dine mål."
   avatar: "/android-chrome-192x192.png"
   links:
-    - label: "Om"
+    - label: "Om Motionsplan"
       icon: "fas fa-fw fa-link"
       url: "/om/"
     - label: "Email"
@@ -384,6 +384,7 @@ defaults:
       related: true
       toc: true
       toc_sticky: false
+      show_date: true
       author: lsolesen
       sidebar:
         nav: blog

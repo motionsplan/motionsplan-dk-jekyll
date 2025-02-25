@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2024-08-04T10:14:14Z
 ---
 
-Hvis du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.
+Hvis du gerne vil cykle, når det er varmt, så er det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.
 
 Her kigger vi på varmehåndtering på cyklen inspireret af [Alan Couzens](https://www.alancouzens.com/blog/heat.html), som gennemgår videnskaben bag varmehåndtering i lange træninger eller løb på cyklen.
 

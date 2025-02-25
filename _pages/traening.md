@@ -121,8 +121,6 @@ I dette afsnit får du en oversigt over de mest populære [træningsformer](/tra
 
 {% include feature_row id="feature_row_topics" %}
 
-[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
-
 Tjek også disse forskellige træningsformer:
 
 {% assign site_posts = site.posts | where: "category", "Træning" | where: "tags", "moc" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
@@ -134,6 +132,8 @@ Tjek også disse forskellige træningsformer:
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Se alle træningsformer](/traeningsformer/){: .btn .btn--success .btn--center }
 
 </div>
 

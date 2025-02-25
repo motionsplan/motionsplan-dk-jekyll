@@ -32,33 +32,6 @@ layout: default
       {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
-        <div itemscope itemtype="https://schema.org/Person" class="h-card author__byline">
-          <div class="author__avatar author__byline-avatar">
-          {% if author.avatar %}
-            <a href="{{ author.home | default: '/' | absolute_url }}">
-              <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image" class="u-photo">
-            </a>
-            {% endif %}
-          </div>
-          <div class="author__content-xs-content">
-            {{ site.data.ui-text[site.locale].published_by | default: "By" }}
-            <span class="author__name p-name" itemprop="name">
-              {% if author.home %}
-              <a class="u-url" rel="me" href="{{ author.home | default: '#' | absolute_url }}" itemprop="url">{{ author.name }}</a>
-              {% else %}
-              {{ author.name }}
-              {% endif %}
-            </span>
-            {% if page.last_modified_at or page.date %}
-            {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-            {% if page.last_modified_at %}
-              <span class="page__date"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated on" }} <time class="dt-published" datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: date_format }}</time></span>
-            {% elsif page.date %}
-              <span class="page__date"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published on" }} <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time></span>
-            {% endif %}
-            {% endif %}
-          </div>
-        </div>
         {% if page.toc and page.classes contains "wide" %}
           <details class="collapsible-toc">
             <summary class="nav__title">

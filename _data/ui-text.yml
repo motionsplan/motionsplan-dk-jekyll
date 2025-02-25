@@ -858,7 +858,7 @@ da: &DEFAULT_DA
   toc_label                  : "På denne side"
   ext_link_label             : "Direkte link"
   less_than                  : "mindre end"
-  minute_read                : "minutters læsning"
+  minute_read                : "min læsning"
   share_on_label             : "Del på"
   meta_label                 :
   tags_label                 : "Nøgleord:"
@@ -890,7 +890,7 @@ da: &DEFAULT_DA
   results_found              : "Resultat(er) fundet"
   back_to_top                : "Tilbage til toppen"
   published_by               : "Af"
-  about_the_author           : "Læs mere"
+  about_the_author           : "Se profil"
   about_editorial_proces     : "Sådan skriver vi"
 da-DK:
   <<: *DEFAULT_DA

@@ -164,7 +164,7 @@ Hvad tænker du på, når du laver dine styrketræningsprogrammer?
 
 Det bedste træningsprogram er det program du rent faktisk laver. Her har vi samlet en lang række parametre for, hvad et godt træningsprogram skal indeholde. De fleste af disse programmer er blevet brugt rigtig meget, så det er op til dig at vurdere, hvad det bedste træningsprogram er.
 
-Du kan tjekke [alle vores gratis træningsprogrammer her](/traeningsprogrammer/).
+Du kan tjekke [alle vores gratis styrketræningsprogrammer her](/styrketraeningsprogrammer/).
 
 
 {% comment %}

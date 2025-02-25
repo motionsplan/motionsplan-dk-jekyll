@@ -109,7 +109,7 @@ Læs: [Hvad er koncentrisk, excentrisk og isometrisk muskelarbejde?](/koncentris
 Lad os kigge på et par eksempler på muskeltræning.
 
 - **Muskeludholdenhed**. Her kan du fx kigge på [cirkeltræning](/cirkeltraening/), som er en rigtig udbredt måde at træne din muskeludholdenhed på. Fx laver man så mange gentagelser som muligt på 30 sekunder eller 60 sekunder og holder en pause mellem de enkelte sæt.
-- **Muskelstyrke**. Der findes et utal af eksempler her på hjemmesiden til, hvordan du træner muskelstyrken. Vi har mange forskellige [træningsprogrammer](/traeningsprogrammer/).
+- **Muskelstyrke**. Der findes et utal af eksempler her på hjemmesiden til, hvordan du træner muskelstyrken. Vi har mange forskellige [styrketræningsprogrammer](/styrketraeningsprogrammer/).
 
 {% comment %}
 

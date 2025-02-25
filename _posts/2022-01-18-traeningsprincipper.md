@@ -125,7 +125,7 @@ KISS står for ”Keep It Simple Stupid”. Når du laver et program, så kan de
 
 Du kan naturligvis sagtens skrue lidt op for kompleksiteten i programmet, hvis det gør, at du synes programmet er mere spændende og motiverende. Træning er ikke rakatvidenskab. Du kan fokusere på basisøvelser og enkle træningsmetoder, så kan du lave rigtig god fremgang.
 
-Du kan lade dig inspirere lidt af de forskellige [træningsprogrammer til styrketræning](/traeningsprogrammer/), hvor bl.a. [Starting Strength](/starting-strength-styrketraeningsprogram/) er utrolig enkel i sin opbygning. Du kan også kigge på vores [løbeprogrammer](/loebeprogrammer/).
+Du kan lade dig inspirere lidt af de forskellige [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/), hvor bl.a. [Starting Strength](/starting-strength-styrketraeningsprogram/) er utrolig enkel i sin opbygning. Du kan også kigge på vores [løbeprogrammer](/loebeprogrammer/).
 
 Gør det enkelt for dig selv og vælg et enkelt træningsprogram. God træning.
 

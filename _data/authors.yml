@@ -3,7 +3,7 @@ lsolesen:
   title: "Cand. scient. i idræt og idrætshøjskolelærer"
   home: "/om/lars-olesen/"
   bio: |
-    Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser jeg på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness. Jeg arbejder ud fra den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.
+    Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser han på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness. Lars arbejder ud fra den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.
   avatar: "/assets/images/authors/larsolesen.jpg"
   featured: true
   links:
@@ -65,7 +65,7 @@ karsten.thor.lund:
   name             : "Karsten Thor Lund"
   title            : "Cand.scient. i idræt og idrætshøjskolelærer"
   avatar           : "/assets/images/authors/karsten-thor-lund.jpg"
-  bio              : "Kandidat i Idræt fra Århus Universitet. Højskolelærer på Vejle Idrætshøjskole, hvor han bl.a. har ansvaret for styrketræning, calistenics og fodbold."
+  bio              : "Kandidat i Idræt fra Århus Universitet. Højskolelærer på Vejle Idrætshøjskole, hvor han bl.a. har ansvaret for styrketræning, calisthenics og fodbold."
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -91,7 +91,7 @@ martin.madsen:
   name             : "Martin Madsen"
   title            : "Cand. scient. i idræt og testleder"
   avatar           : "/assets/images/authors/martinmadsen.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig underviser han fitnessinstruktører og politiaspiranter på Vejle Idrætshøjskole. Desuden er han tilknyttet Team Danmark."
+  bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig leder han det fysiologiske testcenter på Vejle Idrætshøjskole, hvor han også underviser i Test & Træning."
   featured         : true
   links:
     - label: "Linkedin"

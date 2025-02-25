@@ -1,10 +1,8 @@
 ---
 layout: single
-title: Træningsprogrammer til styrke, løb og cykling
-seo_title: "Træningsprogrammer – Find det rette program til din sport"
-permalink: /traeningsprogrammer/
-excerpt: "Find træningsprogrammer til styrketræning, løb og cykling. Uanset dit niveau kan du få et skræddersyet program, der hjælper dig med at nå dine mål."
-description: "Find træningsprogrammer til styrke, løb og cykling. Vælg det rette program til dit niveau og mål, og få struktur i din træning."
+title: "Træningsprogrammer: fullbody og splitprogrammer til styrketræning"
+permalink: /styrketraeningsprogrammer/
+excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, splitprogrammer, 2-splitprogram og 3-splitprogram."
 comments: false
 toc: true
 category:
@@ -25,41 +23,7 @@ faq:
     answer: "Mænd og kvinder skal træne ud fra de samme principper. Det afgørende i valget af træningsprogram er, at du tilpasser det din målsætning, dine forudsætninger og din kropsbygning. Både kvinder og mænd kan altså sagtens tage udgangspunkt i et af de effektive træningsprogrammer på denne side."
   - question: "Hvad er et godt træningsprogram til styrketræning?"
     answer: "Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan man fra uge til uge kan lave [progression og progressivt overload](/progressionsmodeller-progressivt-overload/)."
-feature_row_choose_running_program:
-  - image_path: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Sådan vælger du et løbeprogram"
-    title: "Sådan vælger du et løbeprogram"
-    excerpt: "Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer til at blive hurtigere på 5km, 10 km, halvmaraton og maraton."
-    url: "/loebeprogrammer/"
-    btn_label: "Find dit program"
-    btn_class: "btn--info"
 ---
-
-Et godt træningsprogram giver struktur, motivation og de bedste forudsætninger for at nå dine mål. Uanset om du vil blive stærkere, løbe hurtigere eller forbedre din udholdenhed på cyklen, er et veltilrettelagt program afgørende. 
-
-Her finder du træningsprogrammer til forskellige formål og niveauer – fra nybegynder til øvet. Vælg den type program, der passer bedst til din træning, og kom godt i gang!
-
-***
-
-## Træningsprogrammer til løbetræning
-
-{% include feature_row id="feature_row_choose_running_program" type="left" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .btn--center }
-
-</div>
-
-***
 
 Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
 
@@ -87,8 +51,6 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
-
-[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
 

@@ -3,6 +3,7 @@ title: "Cooper-test: Beregn dit kondital med 12 minutters løbetest"
 seo_title: "Cooper-test: Guide og værktøj til at beregne dit kondital"
 description: "Beregn dit kondital i vores gratis Cooper-test værktøj. Sammenlign dine resultater med opdaterede skemaer og få tips til at forbedre dine resultater."
 permalink: /cooper-test/
+show_date: true
 redirect_from:
   - /kondital-cooper/
 excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance."
@@ -89,8 +90,6 @@ Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på
 {% include calculator/calculate-fitness-cooper.html %}
 
 Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering af konditallet i denne [tabel over kondital](/kondital/).
-
-{% include motionsplan/lead-magnet-button.html %}
 
 ## Baggrund for kondital og Cooper-test
 

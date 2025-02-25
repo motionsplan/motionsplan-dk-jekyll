@@ -75,6 +75,14 @@ feature_row_rm_calculator:
     url: "/rm-beregner/"
     btn_label: "Beregn din styrke"
     btn_class: "btn--info"
+feature_row_okklusion:
+  - image_path: /assets/images/occlude/occlusion-training-768.jpg
+    alt: "Okklusionstræning"
+    title: "Okklusionstræning"
+    excerpt: "Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning. Læs lidt mere om det her og spørg din fysioterapeut om gode råd."
+    url: "/introduktion-okklusionstraening/"
+    btn_label: "Læs mere om okklusionstræning"
+    btn_class: "btn--info"
 classes:
   - wide
 last_modified_at: 2025-02-20T19:14:14Z
@@ -108,7 +116,7 @@ Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsp
 
 ## Populære styrketræningsprogrammer
 
-Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/traeningsprogrammer/).
+Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
 
@@ -120,7 +128,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
   {% endfor %}
 {% endif %}
 
-[Se alle træningsprogrammer](/traeningsprogrammer/){: .btn .btn--success .btn--center }
+[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -238,6 +246,10 @@ Lav måske denne om til støttetræning
 
 </div>
 
+## Okklusionstræning
+
+{% include feature_row id="feature_okklusion" type="left" %}
+
 ## Udstyr til styrketræning
 
 Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
@@ -251,7 +263,7 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}

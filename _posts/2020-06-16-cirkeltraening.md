@@ -59,7 +59,7 @@ Når jeg bruger cirkeltræning i min undervisning, så plejer jeg altid at lade 
 
 Du skal naturligvis varme op først og nedvarme bagefter, men den samlede cirkeltræning kan holdes på en relativt kort tid. Jeg kan ofte godt lide at træne lidt længere, men så laver jeg typisk opvarmningen længere, så jeg kan øve mig på noget, jeg gerne vil være bedre til.
 
-Her på motionsplan.dk kan du finde et hav af [forskellige øvelser]({% link _pages/activities-archive.md %}) lige til at printe ud. Tænk lidt over hvad dit formål er. Hvis det primært er at få pulsen op og arbejde hårdt, så vælg en masse helkropsøvelser, hvor du aktiverer en stor del af din muskelmasse.
+Her på motionsplan.dk kan du finde et hav af [forskellige øvelser](/traeningsoevelser/) lige til at printe ud. Tænk lidt over hvad dit formål er. Hvis det primært er at få pulsen op og arbejde hårdt, så vælg en masse helkropsøvelser, hvor du aktiverer en stor del af din muskelmasse.
 
 ## Bryd cirkeltræningen op
 
@@ -103,7 +103,7 @@ Ud fra min egen erfaring kan det betale sig at afprøve sit eget program, inden 
 
 Men det er faktisk kun fantasien, der sætter grænser for dit øvelsesvalg. Alle øvelserne lige til at printe ud og klar til at bruge som beskrivelse til din cirkeltræning.
 
-[Se alle øvelser]({% link _pages/activities-archive.md %}){: .btn .btn--large .btn--success }
+[Se alle øvelser](/traeningsoevelser/){: .btn .btn--large .btn--success }
 
 ## Apps til cirkeltræning
 
