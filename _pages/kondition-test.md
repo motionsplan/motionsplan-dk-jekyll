@@ -17,7 +17,6 @@ feature_row_about_tests:
     alt: "Om kondition og tests"
     title: "Om kondition og tests"
     excerpt: "Kommer jeg i bedre form og kondition? Der findes mange måder at teste og udregne dit kondital og iltoptagelse med vores beregnere. Kig i tabellen for at finde nøjagtig den test, du helst vil lave."
-toc: true
 author_profile: true
 feature_row_kondital:
   - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=10
@@ -39,6 +38,8 @@ feature_row_train_fitness:
 #  - question: "FAQ-spørgsmål"
 #    answer: "FAQ-svar kommer der en masse af her, når jeg lige finder ud af, hvad jeg bør skrive."
 last_modified_at: 2025-02-18T22:21:26Z
+breadcrumbs: true
+toc: true
 ---
 
 Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.
@@ -54,6 +55,7 @@ Her for du en oversigt over de mest populære konditionstests, så du kan vælge
 - Få en objektiv vurdering af din fysiske form.
 
 Læs: [Alt om kondition](/kondition/)
+{: .notice }
 
 ## Hvad måler en konditionstest?
 

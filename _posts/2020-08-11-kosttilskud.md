@@ -106,6 +106,7 @@ Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage o
 Inden du køber proteinpulver, så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
 
 Læs: [Hvordan får du billigst opfyldt dit proteinbehov?](/billig-protein/)
+{: .notice }
 
 ## 2. Kreatin
 
@@ -130,6 +131,7 @@ Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 10
 Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en rigtig god indføring om, hvad kreatin er og hvordan det virker? på [Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
 
 Læs: [Kreatin: Det bedste og billigste kosttilskud?](/kreatin/)
+{: .notice }
 
 ## 3. Koffein
 
@@ -158,6 +160,7 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 — <cite>Nikolaj Bach i [Træningstimen](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/) om Kosttilskud</cite>
 
 Læs: [Koffein og træning: Hvordan virker det og hvor meget?](/koffein/)
+{: .notice }
 
 ## 4. D-vitamin
 

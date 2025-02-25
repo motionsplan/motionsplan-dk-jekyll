@@ -180,6 +180,7 @@ Endelig har jeg løbet mange **4 minutters-intervaller**, hvor jeg har arbejdet 
 - I pausen kan du holde dig i gang med langsomt løb eller gang, så systemet hurtigst muligt restituerer igen. Hvis du har pulsmåler på, så kan du holde øje med at pulsen, når at falde til det samme niveau i alle pauserne.
 
 Læs: [Aktiv eller passiv pause ved HIIT-intervaller](/hiit-aktiv-eller-passiv-pause/)
+{: .notice }
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 
@@ -222,6 +223,7 @@ En type intervaltræning er HIIT-træning i dens oprindelige form. Begrebet bliv
 [HIIT træning](/hvad-er-hiit-traeningsprogrammer/) er intervaller som udføres med en intensitet, som ligger over 90% af den maksimale iltoptagelse. Formålet med HIIT-intervaller er at flytte den maksimale iltoptagelse. Hvis du gerne vil dykke endnu dybere ned i det emne, så tjek her.
 
 Læs: [Hvad er HIIT træning?](/hvad-er-hiit-traeningsprogrammer/)
+{: .notice }
 
 ## Intervalløb
 
@@ -230,18 +232,21 @@ Intervaltræning til løb styrker dit kredsløb og kondition effektivt, fordi du
 Jeg løber ofte intervaller til løb baseret på mit tempo, hvis jeg har adgang til en flad rute eller en løbebane. På det lidt længere løbeinteraller, så bruger jeg også pulsen eller wattmåling.
 
 Læs: [Intervalløb: 10 effektive metoder til intervaltræning til løb](/intervallob-intervaltraening/)
+{: .notice }
 
 ## Intervaltræning på cykel
 
 Intervaller kan være en effektiv træningsform til cykling, hvis du gerne vil udnytte din tid optimalt. Men hvordan kan du bruge [intervaltræning](/intervaltraening/) til cykling. Her kigger vi på den nyeste videnskab om cykling og intervaller.
 
 Læs: [Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️](/intervaltraening-cykling/)
+{: .notice }
 
 ## Intervaller på romaskine
 
 Jeg har fået Anders Krintel, som er ekspert i roprogrammer til at hjælpe med at finde intervaller, der egner sig til brug i et træningsprogram til indendørs roning på romaskine. Jeg kan godt afsløre, at han har en forkærlighed for grumme programmer. Tjek artiklen nedenunder, hvis du vil se de bedste intervalprogrammer fra hans hjemmeside om rotræning.
 
 Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/traeningsprogrammer-intervaller-roning/)
+{: .notice }
 
 {% comment %}
 

@@ -15,7 +15,7 @@ header:
   caption: Styrketræning
 author_profile: true
 author: lsolesen
-toc: false
+toc: true
 category:
   - Træning
   - Træningsformer
@@ -77,6 +77,7 @@ feature_row_rm_calculator:
     btn_class: "btn--info"
 classes:
   - wide
+last_modified_at: 2025-02-20T19:14:14Z
 ---
 
 Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsprogrammer og dybdegående artikler, der hjælper dig med at opbygge styrke og træne smartere.
@@ -187,9 +188,23 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
 
 {% include feature_row id="feature_row_rm_calculator" type="left" %}
 
-## Flere tests og beregnere til styrketræning
+## Flere tests til styrketræning
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "beregner" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "test" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Beregnere til styrketræning
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "beregner" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 
@@ -229,11 +244,11 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 {% include feature_row type="left" id="feature_row_strength" %}
 
-## Flere artikler om udstyr
+## Guides til udstyr til styrke
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "udstyr" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "udstyr" | sort: "last_modified_at" | reverse %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -241,11 +256,13 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
   {% endfor %}
 {% endif %}
 
+[Mere udstyr til styrketræning](/styrketraening-udstyr/){: .btn .btn--info .btn--center }
+
 </div>
 
 ## Læs meget mere om styrketræning
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 

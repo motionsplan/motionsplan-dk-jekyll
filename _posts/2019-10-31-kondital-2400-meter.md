@@ -28,12 +28,12 @@ tags:
   - politi
 last_modified_at: 2022-10-06T22:12:12Z
 gallery_whyiexercise:
-  - image_path: https://www.whyiexercise.com/images/xcooper.test.charts.1.5.miles.men.jpg.pagespeed.ic.ZGsxI3lGkY.jpg
-    url: https://www.whyiexercise.com/images/xcooper.test.charts.1.5.miles.men.jpg.pagespeed.ic.ZGsxI3lGkY.jpg
-    title: "Normer for mænd for 2400 meter testen"
-  - image_path: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
-    url: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
+  - image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
+    url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
     title: "Normer for kvinder for 2400 meter testen"
+  - image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+    url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+    title: "Normer for mænd for 2400 meter testen"
 ---
 
 Hvis du gerne vil finde dit kondital, så kan du løbe 2400-meter testen. Her får du en beregner og guide til, hvordan du laver Coopers modificerede test.
@@ -55,7 +55,7 @@ I dette indlæg kan du læse mere om:
 
 **2400 meter testen er en simpel løbetest for din aerobe kredsløbsmotor, som kun kræver et stopur og en løbebane for at estimere dit kondital. Formålet med testen er at løbe så hurtigt som muligt på distancen.**
 
-Det er et alternativ til Coopers 12 minutters test, og testen kan sagtens bruges i stedet for den ifølge [Coopers Institute](https://www.cooperinstitute.org/2018/06/08/50-years-of-the-cooper-12-minute-run).
+2400-meter testen er et alternativ til Coopers 12 minutters test, og testen kan sagtens bruges til at finde konditallet i stedet for ifølge [Coopers Institute](https://www.cooperinstitute.org/2018/06/08/50-years-of-the-cooper-12-minute-run).
 
 Sammen med [Cooper-testen](/cooper-test/) vurderes 2400-meter testen af [Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) i deres systematiske meta-analyse af 123 studier og forskellige løbetests til at have den højeste kriterie-validitet.
 

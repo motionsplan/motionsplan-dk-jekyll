@@ -5,7 +5,7 @@ description: Her får du en komplet guide til at komme i gang med cykling på mo
 permalink: /udstyr-hometrainer-ecykling/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1626379486283-5f9ccf9b7f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1496147539180-13929f8aa03a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Cykling

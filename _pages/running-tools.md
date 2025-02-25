@@ -94,9 +94,9 @@ feature_row_hastighed:
 sidebar:
   nav: trainingtypes
 categories:
-  - Træning
-  - Træningsformer
+  - Løb
 breadcrumbs: true
+toc: true
 ---
 
 Her finder du nyttige løbeværktøjer, der kan hjælpe dig med at optimere din træning. Uanset om du vil beregne din hastighed, vurdere din forbrænding eller analysere din præstation, har vi de rette værktøjer til dig.

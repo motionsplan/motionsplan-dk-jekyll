@@ -15,6 +15,7 @@ tags:
   - interaktiv artikel
   - fysiologi
   - cykling
+  - beregner
 last_modified_at: 2024-08-04T10:14:14Z
 ---
 
@@ -65,11 +66,8 @@ Den mindste del af din energi når du cykler bliver altså overført til pedaler
 
 Med et energiforbrug på <span id="bike_efficiency_ee_js">650,77</span>J/s og et power output på <span id="bike_efficiency_power_output_watt">100</span>W er bruttoeffektiviteten altså kun <span id="bike_efficiency_ge">15,37</span>%.
 
-***
-
 Læs: [Varmehåndtering i cykling](/varme-management-cykling/)
-
-***
+{: .notice }
 
 ## Udregn cykeløkonomien
 
@@ -85,8 +83,5 @@ Med Power output på <span id="bike_economy_power_output">100</span>W og iltforb
 
 Sådan kan du altså ved hjælp af målinger af iltoptagelsen og R-værdien udregne cykeløkonomi og cykeleffektivitet.
 
-***
-
 Læs: [Beregn din løbeøkonomi](/lobeokonomi/)
-
-***
+{: .notice }

@@ -1,40 +1,41 @@
 {% assign author=include.author %}
 
-<div itemscope itemtype="http://schema.org/Person">
-
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
   {% if author.avatar %}
-    <div class="author__avatar" style="float: right;">
-      {% if author.avatar contains "://" %}
-        {% assign author_src = author.avatar %}
-      {% else %}
-        {% assign author_src = author.avatar | relative_url %}
-      {% endif %}
+    {% if author.avatar contains "://" %}
+      {% assign author_src = author.avatar %}
+    {% else %}
+      {% assign author_src = author.avatar | relative_url %}
+    {% endif %}
 
-      {% if author.home %}
-        {% if author.home contains "://" %}
-          {% assign author_link = author.home %}
-        {% else %}
-          {% assign author_link = author.home | relative_url %}
-        {% endif %}
-        <a href="{{ author_link }}">
-          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
-        </a>
+    {% if author.home %}
+      {% if author.home contains "://" %}
+        {% assign author_link = author.home %}
       {% else %}
-        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+        {% assign author_link = author.home | relative_url %}
       {% endif %}
-    </div>
+      <a href="{{ author_link }}">
+        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+      </a>
+    {% else %}
+      <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+    {% endif %}
   {% endif %}
 
-  <div class="author__content">
+  <div class="profile-text">
     {% if author.home %}
-      <a href="{{ author_link }}"><p class="author__name" itemprop="name">{{ author.name }}</p></a>
+    <p class="author__name" itemprop="name"><a href="{{ author_link }}">{{ author.name }}</a></p>
     {% else %}
       <p class="author__name" itemprop="name">{{ author.name }}</p>
     {% endif %}
-    {% if author.bio %}
-      <p class="author__bio" itemprop="description">
-        {{ author.bio }}
-      </p>
+    {% if author.title %}
+    <p class="author__title"><strong>{{ author.title }}</strong></p>
+    {% endif %}
+    <p class="author__bio" itemprop="description">
+      {{ author.bio }}
+    </p>
+    {% if author.home %}
+    <a href="{{ author_link }}" class="read-more">{{ site.data.ui-text[site.locale].about_the_author | default: "Read more" }}</a>
     {% endif %}
   </div>
 </div>

@@ -9,11 +9,12 @@ header:
   overlay_filter: 0.4
   caption: "Muskelfibertyper: Langsomme og hurtige muskelfibre. Røde og hvide muskelfibre. Type I, IIa, IIx. Billede fra Wikipedia."
 category:
-  - Viden om
+  - Anatomi
 tags:
   - muskler
   - muskelfibre
   - træningslære
+  - anatomi
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:

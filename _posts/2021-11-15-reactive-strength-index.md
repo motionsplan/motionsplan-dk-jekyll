@@ -4,7 +4,7 @@ seo_title: "Reactive Strength Index (RSI)"
 permalink: /reactive-strength-index-rsi/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1607962252666-2c33af3c6ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
 category:
   - Optimer træning
   - Springtræning
@@ -109,7 +109,9 @@ På **Ezejump** hoppemåtten bruges svævetiden og kontakttiden til at udregne R
 
 Hvis ud har adgang til en kraftplatform eller en hoppemåtte, så er det relativt enkelt at lave en RSI-test.
 
-[Haynes et al (2019)](https://pubmed.ncbi.nlm.nih.gov/29589412/) har imidlertid også valideret forskeren Carlos Balsalobre ret genial apps. Du kan bruge [My Jump App 2 til Android](https://play.google.com/store/apps/details?id=com.my.jump&hl=da&gl=US) eller [Jumb Lab](https://apps.apple.com/us/app/my-jump-lab/id1554077178) til IOS til at måle både hoppehøjde og RSI. Disse apps koster noget mindre end at skulle erhverve sig en hoppemåtte. Så hvis du har adgang til en smartphone, og gerne vil lege lidt med RSI, så kan du altså relativt billigt selv komme i gang med at eksperimentere.
+[Haynes et al (2019)](https://pubmed.ncbi.nlm.nih.gov/29589412/) har imidlertid også valideret forskeren Carlos Balsalobre ret geniale apps. Du kan bruge [My Jump App 2 til Android](https://play.google.com/store/apps/details?id=com.my.jump&hl=da&gl=US) eller [Jumb Lab](https://apps.apple.com/us/app/my-jump-lab/id1554077178) til IOS til at måle både hoppehøjde og RSI. 
+
+Disse apps koster noget mindre end at skulle erhverve sig en hoppemåtte. Så hvis du har adgang til en smartphone, og gerne vil lege lidt med RSI, så kan du altså relativt billigt selv komme i gang med at eksperimentere.
 
 ## Referencer
 

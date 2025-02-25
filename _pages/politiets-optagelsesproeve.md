@@ -9,14 +9,14 @@ header:
   overlay_image: "/assets/images/blog/politiets-fysiske-test.jpeg"
   teaser: "/assets/images/blog/politiets-fysiske-test.jpeg"
 category:
-  - Tests
+  - Test
 tags:
   - tests
   - optagelsesprøve
   - politi
 classes:
   - wide
-toc: false
+toc: true
 author_profile: true
 feature_row_all_tests:
   - image_path: "https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10"

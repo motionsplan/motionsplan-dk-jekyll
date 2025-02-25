@@ -14,12 +14,12 @@ category:
   - Test
 meta:
   name: Armstrækninger test
+  measures: overkropsstyrke
 tags:
   - test
   - armstrækninger
   - styrketræning
   - styrketest
-  - beregner
 last_modified_at: 2019-09-03T23:14:14Z
 toc: true
 breadcrumbs: true

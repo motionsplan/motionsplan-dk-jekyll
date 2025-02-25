@@ -889,6 +889,8 @@ da: &DEFAULT_DA
   search_placeholder_text    : "Hvad leder du efter..."
   results_found              : "Resultat(er) fundet"
   back_to_top                : "Tilbage til toppen"
+  published_by               : "Af"
+  about_the_author           : "Læs mere"
 da-DK:
   <<: *DEFAULT_DA
 

@@ -38,7 +38,7 @@ Præstationen i det stående længdespring vurderes ud fra den samlede distance,
 
 Den samlede distance du er i stand til at hoppe er summen af tre komponenter. Distance fra afsættet (d<sub>takeoff</sub>), distance i svævet (d<sub>flight</sub>) og distance i landingen (d<sub>landing</sub>).
 
-{% include figure image_path="https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/SLJCompDist.gif" caption="Kilde: [Standing Long Jump](https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/StandingLongJump.htm)" %}
+{% include figure image_path="/assets/images/jumping/SLJCompDist.gif" caption="Kilde: [Standing Long Jump](https://web.archive.org/web/20210729020721/https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/StandingLongJump.htm){: rel='nofollow' }" %}
 
 Det betyder altså noget, hvor langt du læner dig forover i afsættet, hvor længe du kan svæve og hvor langt foran dit tyngdepunkt, du er i stand til at lande med benene.
 
@@ -48,11 +48,11 @@ I det stående længdespring varierer afsætshastigheden, v, og højdeforskellen
 
 Afsætshastigheden falder med stigende vinkler.
 
-{% include figure image_path="https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/SLJTOSpeed.gif" caption="Kilde: [Standing Long Jump](https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/StandingLongJump.htm)" %}
+{% include figure image_path="/assets/images/jumping/SLJTOSpeed.gif" caption="Kilde: [Standing Long Jump](https://web.archive.org/web/20210729020721/https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/StandingLongJump.htm){: rel='nofollow' }" %}
 
 Da både afsætsdistance og landingsdistance bliver mindre, når afsætsvinklen bliver større, så viser det sig at den optimale afsætsvinkel er under 30 grader.
 
-{% include figure image_path="https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/SLJDistVsTOAngle.gif" caption="Kilde: [Standing Long Jump](https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/StandingLongJump.htm)" %}
+{% include figure image_path="/assets/images/jumping/BiomechanicsAthletics/SLJDistVsTOAngle.gif" caption="Kilde: [Standing Long Jump](https://web.archive.org/web/20210729020721/https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/StandingLongJump.htm){: rel='nofollow' }" %}
 
 Du vil finde mange steder, hvor der står at du skal gå efter en 45 graders afsætsvinkel, men det er altså mere effektivt at have en lavere afsætsvinkel. Her skal du dog huske på, at afsætsvinklen måles i forhold til tyngdepunktet og ikke i forhold til kroppen og jorden.
 

@@ -162,6 +162,7 @@ Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/), så tjek følgende artikel.
 
 Læs: [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
+{: .notice }
 
 ## Konklusion
 

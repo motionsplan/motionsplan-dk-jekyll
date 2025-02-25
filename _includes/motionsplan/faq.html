@@ -1,5 +1,7 @@
 {% assign heading = include.heading | default: 3 %}
 {% for item in page.faq %}
-<h{{heading}}>{{ item.question }}</h{{heading}}>
+<details class="faq">
+<summary><h{{heading}}>{{ item.question }}</h{{heading}}></summary>
 {{ item.answer | markdownify}}
+</details>
 {% endfor %}

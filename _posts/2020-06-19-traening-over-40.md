@@ -8,7 +8,6 @@ header:
   alt: Photo by Taco Fleur on Unsplash
   caption: *title
 category:
-  - Viden om
   - Træning
 tags:
   - træning

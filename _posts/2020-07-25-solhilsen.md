@@ -43,12 +43,6 @@ feature_row_yogamat:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-yogastream:
-  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: https://motionsplan.yogastream.dk
-    title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Bliv medlem af Yogastream og lær yoga og solhilsen"
-    rel: sponsored nofollow noopener
 faq:
   - question: Hvad er forskellen på Solhilsen A og B?
     answer: Solhilsen B er lidt mere avanceret yogasekvens end version A. Typisk laves Solhilsen B efter, at du har lavet flere runder af solhilsen A. Få alt at vide her...
@@ -215,8 +209,6 @@ Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter,
 
 Jeg udfører også ofte [De fem tibetanere](/artikel/de-fem-tibetanere/), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
-
 ## Udstyr til solhilsen og yoga
 
 Du behøver ikke noget yogaudstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist. Jeg har skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).
@@ -233,10 +225,8 @@ Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så 
 
 {% include motionsplan/faq.html %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer om solhilsen A og B</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Ni, Meng; Mooney, Kiersten; Balachandran, Anoop; Richards, Luca; Harriell, Kysha; Signorile, Joseph F. (2014). "Muscle utilization patterns vary by skill levels of the practitioners across specific yoga poses (asanas)"._Complementary Therapies in Medicine_.**22**(4): 662–669. Doi: [10.1016/j.ctim.2014.06.006](https://doi.org/10.1016%2Fj.ctim.2014.06.006).
 </details>

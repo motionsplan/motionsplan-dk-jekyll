@@ -105,6 +105,7 @@ Schoenfeld et al (2013) fandt kun:
 De lavede en subanalyse, der viste at mange af forskellene i hypertrofi kunne forklares af den **daglige totale proteinindtagelse** snarere end timing af proteinindtaget.
 
 Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %})
+{: .notice }
 
 Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at spise protein i det såkaldet _anabolic window_ i virkeligheden bare har spist mere protein i alt i løbet af dagen.
 
@@ -147,6 +148,7 @@ Formentlig gør det ikke så meget at overskride denne dosering, men hvis du få
 Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne betale sig at få protein efter træning, hvis du gerne vil bygge muskler og have hypertrofi. Dvs. hvis træningen påbegyndes ~3-4 timer efter det forudgående måltid, så kan det overvejes at indtage noget proteinholdigt i nærheden af træningen.
 
 Læs: [Hvor meget protein har du brug for om dagen?](/dagligt-protein-indtagelse/)
+{: .notice }
 
 ## Hvem skal spise i det åbne vindue?
 

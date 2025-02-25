@@ -10,13 +10,12 @@ header:
   caption: "Hypertrofi: Hvor hurtigt vokser dine muskler?"
   alt: "Photo by Paweł Czerwiński on Unsplash"
 category:
-  - Viden om
   - Styrketræning
-  - Hypertrofi
 tags:
   - fysiologi
   - muskler
   - træningslære
+  - faq
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 #Hvor lang tid tager det at bygge muskler op?
@@ -93,6 +92,7 @@ Hvis du stopper med at træne, så vil en del af muskelstørrelsen, muskeltykkel
 Allerede efter en pause på nogle uger vil der ske atrofi i muskelfibrene. Taaffe og Marcus (1997) målte i et forsøg med ældre mænd et øget tværsnitsareal i lårmusklen på 26% efter et 24 ugers træningsprogram. Efter tolv uger pause var tværsnitsarealet imidlertid tilbage til udgangspunktet.
 
 Læs: [Hvor hurtigt forsvinder muskler igen?]({% link _posts/2020-06-23-atrofi-hvor-hurtigt.md %})
+{: .notice }
 
 ## Hvad er den øvre grænse for muskelvækst?
 

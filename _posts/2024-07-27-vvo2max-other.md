@@ -20,6 +20,7 @@ tags:
   - beregner
 last_modified_at: 2024-07-27T10:14:14Z
 meta:
+  name: 6 minutters submaksimal løbetest
   measures: vVO2max
   type: løbetest
   equipment: løbebane

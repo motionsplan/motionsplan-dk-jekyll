@@ -11,6 +11,7 @@ header:
 category:
   - Kondition
 meta:
+  name: Løbetest - trappetest på løbebånd med iltoptagelse
   measures: iltoptagelse
   type: løbetest
   equipment: løbebånd

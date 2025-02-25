@@ -14,6 +14,14 @@ tags:
   - test
   - anaerob
   - cykeltest
+  - populær
+meta:
+  name: Wingate 30 sekunders test
+  measures: anaerob kapacitet og power
+  type: cykeltest
+  equipment: cykelergometer
+  max: maksimal test
+  direct: direkte test
 last_modified_at: 2022-01-06T23:14:14Z
 toc: true
 quiz:

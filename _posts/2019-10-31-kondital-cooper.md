@@ -183,8 +183,8 @@ Det er en uforklarlig forskel.
 
 Du kan se de **oprindelige skemaer** til Cooper-testen her, men **læs lidt længere for at få nye modificerede tabeller** baseret på tabellerne over kondital for almindelige danske mennesker, der ikke dyrker idræt på konkurrenceplan.
 
-<details markdown="1">
-  <summary>Se Coopers oprindelige skemaer og tabeller over distancer på Coopertesten</summary>
+<details markdown="1" class="equation">
+  <summary>📈 Se Coopers oprindelige tabeller over distancer</summary>
 
 ### Skema for mænd
 
@@ -213,6 +213,7 @@ Tabellen for kvinder over Cooper-testen kan også ses hos [BrianMAC Sports Coach
 |30-39|>2500m|2000-2500m|1700-1999m|1400-1699m|<1400m|
 |40-49|>2300m|1900-2300m|1500-1899m|1200-1499m|<1200m|
 |>50|>2200m|1700-2200m|1400-1699m|1100-1399m|<1100m|
+
 </details>
 
 ## Nye skemaer over resultater fra Cooper-testen
@@ -319,7 +320,8 @@ Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimal
 
 Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
 
-Læs: [Konditionstræning og kredsløbstræning](/konditionstraening/)
+Vil du vide mere? [Konditionstræning og kredsløbstræning](/konditionstraening/)
+{: .notice }
 
 ## Ofte stillede spørgsmål om 12 minutters testen
 
@@ -333,12 +335,8 @@ Jeg synes ikke de oprindelige tabeller til vurdering af din præstation baseret 
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-{% include motionsplan/lead-magnet.html %}
-
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="referencer">Se referencer</h2></summary>
 
 - Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
 - Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://bjsm.bmj.com/content/29/3/147](https://bjsm.bmj.com/content/29/3/147).

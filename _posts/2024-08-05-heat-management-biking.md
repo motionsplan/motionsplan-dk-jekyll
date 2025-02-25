@@ -95,6 +95,7 @@ Der er tre faktorer, som har betydningen for effektiviteten af evaporation.
 3. **Atletens væskeoptagelseshastighed**. Atleten skal træne evnen til at optage en høj volumen af væske.
 
 Læs: [Hvor meget væske skal du drikke?](/hvor-meget-vand-skal-man-drikke-om-dagen/)
+{: .notice }
 
 I varme er det særligt under længere arbejde at have en fornuftig hydreringsstrategi. Det er faktisk vigtigt **ikke at overhydrere**.
 

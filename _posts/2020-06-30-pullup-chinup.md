@@ -9,7 +9,6 @@ header:
   teaser: https://c.pxhere.com/photos/f1/8a/active_athlete_background_bar_begin_dangle_equipment_evening-857075.jpg!d
   caption: *title
 category:
-  - Viden om
   - Styrketræning
 tags:
   - styrketræning

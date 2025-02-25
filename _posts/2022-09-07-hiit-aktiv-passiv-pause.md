@@ -114,6 +114,7 @@ Det skal dog nævnes, at det primært er studier der har undersøgt meget høj-i
 Ikke desto mindre så fremhæves det at passiv restitution sikrer hurtigere sprint-tider under sprint-intervalløb, hvor afstanden er fast i hver arbejdsperiode, samt længere distancer under intervaller hvor arbejdstiden er fast. Ligeledes sikrer passiv restitution et højere watt-output under arbejdsintervaller på cykel.
 
 Læs: [Alt om intervalløb](/intervallob-intervaltraening/)
+{: .notice }
 
 ## Passive pauser genoplader batteriet hurtigere
 

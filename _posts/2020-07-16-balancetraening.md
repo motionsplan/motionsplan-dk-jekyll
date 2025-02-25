@@ -13,7 +13,6 @@ tags:
   - moc
   - træning
 category:
-  - Viden om
   - Træning
 last_modified_at: 2023-01-01T08:39:32Z
 sidebar:

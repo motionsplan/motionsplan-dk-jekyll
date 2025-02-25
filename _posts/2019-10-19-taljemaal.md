@@ -100,6 +100,7 @@ Efterhånden har [talje/højde-forholdet](/talje-hoejde-beregner/) sneget sig in
 Jeg går yderligere i dybden med talje-højde-forholdet i nedenstående artikel.
 
 Læs: [Talje-højde-ratio: Hvad siger forholdet om din sundhed?](/talje-hoejde-beregner/)
+{: .notice }
 
 ### 2. Talje-hofte-ratio
 
@@ -112,6 +113,7 @@ Forholdet mellem taljemålet og hoftemålet er en indikator på, om den enkelte 
 Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer.
 
 Læs: [Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)](/talje-hofte-ratio/)
+{: .notice }
 
 ### 3. Body Adiposity Index med hoftemålet og højden
 
@@ -120,6 +122,7 @@ Selvom Body Adiposity Index (BAI) ikke medtager selve taljemålet, så er det be
 Herfra får du en fedtprocent, som du kan sammenligne med [tabeller for en sund fedtprocent](/fedtprocent-normer/). Det giver et bud på, hvor meget af din krop, der består af fedt i forhold til fedtfri masse.
 
 Læs: [Body Adiposity Index (BAI) Beregner](/bai-body-adiposity-index/)
+{: .notice }
 
 ## Opsamling på taljemål
 

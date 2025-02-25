@@ -166,6 +166,7 @@ Stine Rex forberedte sig bl.a. også i sauna, da hun skulle gennemføre et ultra
 Hvis du lever under knap så varme himmelstrøg, men skal forberede dig til at konkurrere i ekstrem varme, så skal du være lidt kreativ.
 
 Læs: [Varmetræning: Hvordan gør du i praksis?](/varmetraening/)
+{: .notice }
 
 Du kan enten bruge opvarmede rum eller ekstra tøj for at opleve varmen.
 

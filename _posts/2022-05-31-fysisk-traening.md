@@ -51,6 +51,7 @@ I det følgende dykker vi ned i de enkelte parametre, som en fysisk træner ofte
 Før enhver fysisk aktivitet er det vigtigt at lave en ordentlig opvarmning for at forberede din krop og forebygge skader. En god opvarmning skal øge din puls og blodgennemstrømningen til musklerne. Det kan være så enkelt som en let joggingtur eller gåtur efterfulgt af nogle dynamiske strækøvelser.
 
 Læs: [Opvarmning før træning og sport](/opvarmning/)
+{: .notice }
 
 ## Kredsløbet og kredsløbstræning
 
@@ -61,6 +62,7 @@ Det kardiovaskulære system er ansvarligt for at tilføre ilt og næringsstoffer
 Formålet med kredsløbstræning er at forbedre udholdenheden, den anaerobe tærskel og maksimale iltoptagelse og derved konditallet.
 
 Læs: [Alt om konditionstræning og kredsløbstræning](/konditionstraening/)
+{: .notice }
 
 ## Aerob træning
 
@@ -69,6 +71,7 @@ Aerob træning er en af de vigtigste former for fysisk træning. Aerob træning 
 Den aerobe træning kaldes også kredsløbstræning eller konditionstræning, så den er beslægtet med ovenstående punkt.
 
 Læs: [5 forslag til aerob træning](/aerob-traening/)
+{: .notice }
 
 ## Anaerob træning
 
@@ -79,6 +82,7 @@ Et eksempel på anaerob træning er sprint. Sprint er en træningsform, hvor der
 Anaerob træning er gavnlig for at forbedre muskeludholdenhed og styrke på kort sigt. Denne type træning kan dog også være gavnlig for din kardiovaskulære sundhed.
 
 Læs: [Komplet guide til anaerob træning](/anaerob-traening/)
+{: .notice }
 
 ## Muskeltræning
 
@@ -87,6 +91,7 @@ Læs: [Komplet guide til anaerob træning](/anaerob-traening/)
 I muskeltræning arbejdes der med forskellige muskelgrupper med henblik på at forbedre styrke, udholdenhed og størrelse. De skal også anvende grundlæggende principper for træningsteori og elementær forebyggelse af skader.
 
 Læs: [Alt om muskeltræning](/muskeltraening/)
+{: .notice }
 
 ## Eksplosiv træning og plyometrisk træning
 
@@ -95,12 +100,14 @@ Eksplosiv og plyometrisk træning er to af de vigtigste former for fysisk træni
 Plyometrisk træning er en type træning, hvor der anvendes hurtige, eksplosive bevægelser til at opbygge muskelkraft. Den bruges ofte af atleter til at forbedre deres præstationer i sportsgrene som fx basketball og håndbold.
 
 Læs: [4 trin til at lave plyometrisk træning](/plyometrisk-traening/)
+{: .notice }
 
 ## Bevægelighedstræning
 
 En vigtig del af den fysiske træning er mobilitetstræning. Denne type træning hjælper med at forbedre bevægeligheden i dine led og muskler. Det kan også være med til at forebygge skader. Mobilitetstræning omfatter øvelser som fx udstrækning, yoga og Pilates.
 
 Læs: [Guide til udstrækningsøvelser og strækøvelser](/udstraekning-udspaending/)
+{: .notice }
 
 ## Balancetræning og sansemotoriske system
 
@@ -109,12 +116,14 @@ Læs: [Guide til udstrækningsøvelser og strækøvelser](/udstraekning-udspaend
 Balancetræning er en vigtig del af den fysiske træning. Det hjælper med at forbedre din balance og koordination. Balancetræning kan også omfatte træningsformer som yoga, pilates og tai chi.
 
 Læs: [Balancetræning - effektiv træning af din balance](/balance/)
+{: .notice }
 
 ## Nedvarmning og restitution
 
 Nedvarmning kaldes også aktiv hvile. Det er en restitutionsaktivitet, hvor du laver 10-30 minutters bevægelse eller træning med lav intensitet umiddelbart efter din træning. Hensigten er at gøre [restitutionstiden](/restitutionstid/) kortere efter træning og kamp, at reducere [muskelømhed og DOMS](/omme-muskler-efter-traening/) og forebygge skader.
 
 Læs: [Virker nedvarmning og afjogging på restitutionen?](/nedvarmning-som-restitutionsaktivitet/)
+{: .notice }
 
 ## Skadesforebyggende træning
 
@@ -123,6 +132,7 @@ Et af hovedmålene med fysisk træning er at forhindre, at skader overhovedet op
 Der er et par forskellige måder at gå til skadeforebyggende træning på. Den ene er at fokusere på specifikke øvelser, der er rettet mod de muskler, der er mest udsatte for skader. En anden mulighed er at arbejde med den generelle styrke og fleksibilitet.
 
 Læs: [Forebyggelse af skader: Hvad er medst effektivt?](/artikel/kan-styrketraening-forebygge-skader/)
+{: .notice }
 
 ## Restitution
 
@@ -137,6 +147,7 @@ Efter træningen er det vigtigt at lade kroppen restituere. Dette kaldes restitu
 Nu, hvor du kender det grundlæggende i fysisk træning, kan du arbejde mod dine mål! Husk at fokusere på kvalitet frem for kvantitet, og lyt altid til din krop.
 
 Læs: [Komplet guide til restitution](/restitution/)
+{: .notice }
 
 ## Konklusion
 

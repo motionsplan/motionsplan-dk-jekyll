@@ -1,5 +1,7 @@
 lsolesen:
   name: "Lars Olesen"
+  title: "Cand. scient. i idræt og idrætshøjskolelærer"
+  home: "/om/lars-olesen/"
   bio: |
     Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser jeg på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness. Jeg arbejder ud fra den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.
   avatar: "/assets/images/authors/larsolesen.jpg"
@@ -20,6 +22,7 @@ lsolesen:
       url: "https://www.buymeacoffee.com/lsolesen"
 jesper.emil.jakobsgaard:
   name             : "Jesper Emil Jakobsgaard"
+  title            : "Erhvervsforsker og ph.d. i muskelbiologi"
   avatar           : "/assets/images/authors/jesper-emil-jakobsgaard.jpg"
   bio              : "Erhvervsforsker med en ph.d. fra Aarhus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter. Underviser i fysisk træning og træningsfysiologi ved Aarhus Universitet."
   links:
@@ -37,6 +40,7 @@ nikolai.jauk:
       url: "https://www.linkedin.com/in/najauk/"
 andreas.christensen:
   name             : "Andreas Kjærsgaard Christensen"
+  title            : "Medejer af Occlude"
   avatar           : "/assets/images/authors/andreas-christensen.jpg"
   bio              : "Medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
   links:
@@ -49,6 +53,7 @@ andreas.christensen:
   featured: true
 jakob.nielsson:
   name             : "Jakob Nielsson"
+  title            : "Cand. scient. i idræt og idrætshøjskolelærer"
   avatar           : "/assets/images/authors/jakob-nielsson.jpg"
   bio              : "Kandidat i Idræt fra Århus Universitet. Højskolelærer på Vejle Idrætshøjskole, hvor han bl.a. har ansvaret for politilinjen og træningen mod den fysiske optagelsesprøve på politiskolen."
   links:
@@ -58,6 +63,7 @@ jakob.nielsson:
   featured: true
 karsten.thor.lund:
   name             : "Karsten Thor Lund"
+  title            : "Cand.scient. i idræt og idrætshøjskolelærer"
   avatar           : "/assets/images/authors/karsten-thor-lund.jpg"
   bio              : "Kandidat i Idræt fra Århus Universitet. Højskolelærer på Vejle Idrætshøjskole, hvor han bl.a. har ansvaret for styrketræning, calistenics og fodbold."
   links:
@@ -67,6 +73,7 @@ karsten.thor.lund:
   featured: true
 mads.davidsen:
   name             : "Mads Davidsen"
+  title            : "Ejer af Optima Football"
   avatar           : "/assets/images/authors/madsdavidsen.jpg"
   bio              : "UEFA Pro Football Coach, Owner at Optima Football, Technical Director & Strategic Advisor, Author, Keynote speaker"
   links:
@@ -82,8 +89,10 @@ mads.davidsen:
   featured: true
 martin.madsen:
   name             : "Martin Madsen"
+  title            : "Cand. scient. i idræt og testleder"
   avatar           : "/assets/images/authors/martinmadsen.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig underviser han fitnessinstruktører og politiaspiranter på Vejle Idrætshøjskole. Desuden er han tilknyttet Team Danmark."
+  featured         : true
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -97,7 +106,6 @@ kathrine.christensen:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://kathrinechristensen.dk/"
-  featured: true
 linda.kruse:
   name             : "Linda Kruse"
   avatar           : "/assets/images/authors/lindakruse.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"

@@ -113,11 +113,8 @@ På baggrund af ovenstående er det muligt at estimere en række træningszoner:
 
 En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder](/lobeokonomi/).
 
-***
-
 Læs: [Find dine træningszoner](/traeningszoner/)
-
-***
+{: .notice }
 
 ## Maksimal iltoptagelsestest
 

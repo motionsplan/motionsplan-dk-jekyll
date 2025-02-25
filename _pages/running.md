@@ -18,6 +18,7 @@ header:
     - label: "<i class='fas fa-download'></i> Løbeprogrammer"
       url: "/loebeprogrammer/"
 classes: wide
+toc: true
 feature_row_excerpt:
   - excerpt: |
       Guide til løbetræning. Uanset om du træner til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton-21km/) og [maraton](/loebeprogram-maraton-42km/), finder du her værdifuld viden om løb. Vælg det rette [løbeprogram](/loebeprogrammer/), og lær, hvordan [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/) kan forbedre din præstation.

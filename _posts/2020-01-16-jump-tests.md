@@ -13,6 +13,14 @@ tags:
   - SQAT
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
+feature_row_jump_training:
+  - image_path: https://images.unsplash.com/photo-1517626102333-83f7319aa06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Træn din hoppehøjde og springstyrke"
+    title: "Træn din hoppehøjde og springstyrke"
+    excerpt: "Bliv stærkere og hop højere! Øg din hoppehøjde og springstyrke med målrettet træning. Lær de bedste øvelser og metoder til at forbedre din eksplosive styrke og springkraft."
+    url: "/springstyrke-og-springtraening/"
+    btn_label: "Lær om springtræning"
+    btn_class: "btn--info"
 ---
 
 Måling af hoppehøjde og springhøjde bliver ofte brugt til at evaluere atletiske egenskaber i forskellige idrætsgrene. Hoppehøjden er en af de meget brugte tests af springstyrke og power i benene. Her har jeg samlet 5 måder at måle hoppehøjde på med springtests.
@@ -93,7 +101,7 @@ Ulemperne er, at man kan lande med bøjede ben eller på hælene, hvilket kunsti
 
 {% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
 
-<div class="feature__row">
+<div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}

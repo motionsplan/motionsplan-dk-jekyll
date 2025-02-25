@@ -9,8 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Viden om
-  - Træning
+  - Træningslære
 tags:
   - træning
   - bevægelsesanalyse

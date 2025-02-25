@@ -20,6 +20,7 @@ meta:
   direct: indirekte test
 tags:
   - konditionstest
+  - kondition
   - cykel
   - maksimal test
   - indirekte test

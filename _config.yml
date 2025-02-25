@@ -39,6 +39,8 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+date_format: "%-d. %b, %Y"
+
 signup:
   enabled: true
   provider: mailchimp # false
@@ -81,7 +83,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://www.facebook.com/motionsplan/"
-    - "https://twitter.com/motionsplan"
     - "https://www.pinterest.dk/motionsplan/"
     - "https://www.instagram.com/motionsplan/"
 
@@ -144,10 +145,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       webslides: "fa-instagram"
       url: "https://www.instagram.com/motionsplan/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      webslides: "fa-twitter"
-      url: "https://twitter.com/motionsplan"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       webslides: "fa-youtube"
@@ -164,18 +161,19 @@ footer:
 # Site Author
 author:
   name: "Motionsplan"
-  bio: "Viden om træning, træningsøvelser og træningsprogrammer."
+  home: "/om/"
+  bio: "Evidensbaseret viden om træning, træningsøvelser og træningsprogrammer. Alt indhold er baseret på anerkendt forskning, praktisk erfaring og ekspertviden. Alle vores skribenter gør sig umage for at give dig de bedste værktøjer til at optimere din træning og nå dine mål."
   avatar: "/android-chrome-192x192.png"
   links:
+    - label: "Om"
+      icon: "fas fa-fw fa-link"
+      url: "/om/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lars@motionsplan.dk"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/motionsplan/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/motionsplan"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
       webslides: "fa-pinterest"
@@ -393,6 +391,8 @@ defaults:
       author: lsolesen
       sidebar:
         nav: blog
+      header:
+        overlay_filter: 0.2
   # _exercises
   - scope:
       path: ""

@@ -13,8 +13,333 @@
 @import "youtube";
 @import "star-rating";
 
+.author__byline {
+  font-size: 0.7em; position: relative; padding-left: 3.5em; margin-top: 0; margin-bottom: 1em !important;
+}
+
+.author__byline-avatar {
+  position: absolute; top: -0.5em; left: 0; width: 3em; height: 3em; overflow: hidden;
+  img {
+    height: auto; max-width: 100%; width: auto; object-fit: contain;
+  }
+}
+
+.collapsible-toc {
+  border: 1px solid #ddd; background-color: #eee; margin-top: 1em; margin-bottom: 1em;
+}
+
+/* STICKY MENU */
+.masthead {
+  background: white;
+  
+  &__inner-wrap {
+
+  }
+
+  &.sticky {
+    @include clearfix();
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    float: right;
+  }
+}
+
+/* EQUATION DETAILS SUMMARY */
+
+details.equation {
+  background-color: #f1f1f1; /* Lys baggrund for bedre synlighed */
+  padding: 0.5em; /* Polstring for bedre klikbarhed */
+  border: 1px solid #ddd; /* Let kant omkring elementerne */
+}
+
+.equation summary {
+  cursor: pointer; /* Ændrer markøren for at gøre det klikbart */
+  display: flex; /* Brug flexbox for at placere pilen og overskriften på samme linje */
+  align-items: center; /* Vertikal centrering af indholdet */
+  background-color: #f1f1f1; /* Lys baggrund for bedre synlighed */
+  padding: 0.5em; /* Polstring for bedre klikbarhed */
+  border: 1px solid #ddd; /* Let kant omkring elementerne */
+  transition: background-color 0.3s ease; /* Blød overgang ved hover */
+  font-weight: bold; /* Gør spørgsmålet mere fremtrædende */
+  position: relative; /* Make sure that the arrows position correctly */
+}
+
+.equation summary:hover {
+  background-color: #e1e1e1; /* Mørkere baggrund ved hover for interaktivitet */
+}
+
+/* Tilføjer en pil ved siden af spørgsmålet */
+.equation summary::before {
+  content: "▶"; /* Standard pil for lukket FAQ */
+  font-size: 1.2em; /* Juster pilens størrelse */
+  margin-right: 10px; /* Plads mellem pil og tekst */
+  transition: transform 0.3s ease; /* Blød overgang ved pil rotation */
+}
+
+/* Når FAQ er åbnet, ændres pilen */
+.equation[open] summary::before {
+  content: "▼"; /* Pil der peger ned, når FAQ er åben */
+  transform: rotate(180deg); /* Rotér pilen, når åbnet */
+}
+
+/* FAQ */
+
+/* Forbedrer udseendet af FAQ-listen */
+.faq {
+  margin-bottom: 1em; /* Afstand mellem FAQ-elementer */
+}
+
+.faq summary {
+  cursor: pointer; /* Ændrer markøren for at gøre det klikbart */
+  display: flex; /* Brug flexbox for at placere pilen og overskriften på samme linje */
+  align-items: center; /* Vertikal centrering af indholdet */
+  background-color: #f1f1f1; /* Lys baggrund for bedre synlighed */
+  padding: 0.5em; /* Polstring for bedre klikbarhed */
+  border: 1px solid #ddd; /* Let kant omkring elementerne */
+  transition: background-color 0.3s ease; /* Blød overgang ved hover */
+  font-weight: bold; /* Gør spørgsmålet mere fremtrædende */
+  position: relative; /* Make sure that the arrows position correctly */
+}
+
+/* Hover-effekt for feedback */
+.faq summary:hover {
+  background-color: #e1e1e1; /* Mørkere baggrund ved hover for interaktivitet */
+}
+
+/* Styling af spørgsmålene */
+.faq h3 {
+  margin: 0; /* Fjern ekstra margin omkring h3 */
+  font-size: 1.1em; /* Let forstørrelse af teksten */
+  color: #333; /* Mørk tekstfarve for læsbarhed */
+}
+
+/* Tilføj en indrykning til svaret, så det skiller sig ud */
+.faq p {
+  margin-top: 10px; /* Afstand fra spørgsmålet til svaret */
+  padding-left: 20px; /* Indrykning af svaret */
+  color: #444; /* Lysere tekstfarve for svarene */
+  line-height: 1.6; /* Bedre linjeafstand */
+}
+
+/* Tilføjer en pil ved siden af spørgsmålet */
+.faq summary::before {
+  content: "▶"; /* Standard pil for lukket FAQ */
+  font-size: 1.2em; /* Juster pilens størrelse */
+  margin-right: 10px; /* Plads mellem pil og tekst */
+  transition: transform 0.3s ease; /* Blød overgang ved pil rotation */
+}
+
+/* Når FAQ er åbnet, ændres pilen */
+.faq[open] summary::before {
+  content: "▼"; /* Pil der peger ned, når FAQ er åben */
+  transform: rotate(180deg); /* Rotér pilen, når åbnet */
+}
+
+/* REFERENCER */
+
+details.references summary {
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+details.references summary::before {
+  content: "📘"; /* Lukket bog */
+  margin-right: 8px;
+  font-size: 1.5em;
+}
+
+/* Når details er åbent, vis en åben bog */
+details.references:open summary::before {
+  content: "📖"; /* Åben bog */
+}
+
+/* Når musen holdes over en lukket details, vis en åben bog */
+details.references summary:hover::before {
+  content: "📖"; /* Skift til åben bog, når details ikke er åben */
+}
+
+/* Når musen holdes over en åben details, vis åben bog med forsinkelse */
+details.references:open summary:hover::before {
+  content: "📘"; /* Åben bog vises stadig */
+  transition-delay: 0.5s; /* Forsinkelse før eventuel ændring til lukket bog */
+}
+
+/* FEATURE ROW EMOJI STYLE */
+
+.feature__wrapper-emoji {
+  background-color: #eee; 
+  padding: 0 1em; 
+  margin-bottom: 1em;
+  text-align: center;
+
+  .archive__item-title {
+    font-size: 3em;
+    margin-top: 0;
+  }
+
+  .feature__wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0;
+  }
+}
+
+/* SECTION WITH LINES */
+
+.section-with-lines {
+  text-align: center;
+  padding-top: 1.25em; /* 20px -> 1.25em */
+  padding-bottom: 0.5em;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+
+  figure {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.section-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.section-title {
+  font-size: 0.6em; /* Mindre tekststørrelse */
+  font-weight: normal; /* Mindre kraftig tekst */
+  text-transform: uppercase;
+  letter-spacing: 1px; /* 1px -> 0.0625em */
+  position: relative;
+  background: #fff;
+  padding: 0 1em; /* 15px -> 0.9375em */
+  z-index: 2;
+  line-height: 1;
+}
+
+.section-title-wrapper::before,
+.section-title-wrapper::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px; /* 1px -> 0.0625em */
+  background: #ccc;
+  position: relative;
+  top: -0.5em; /* Centrerer linjen bedre ift. teksten */
+}
+
+.section-title-wrapper::before {
+  margin-right: 0.625em; /* 10px -> 0.625em */
+}
+
+.section-title-wrapper::after {
+  margin-left: 0.625em; /* 10px -> 0.625em */
+}
+
+/* PROFILE CARD */
+
+.profile-card {
+  display: flex;
+  background-color: white;
+  padding: 1em 0;
+  align-items: center;
+  border-bottom: 3px solid #eee;
+  border-top: 3px solid #eee;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+.profile-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.profile-text {
+  flex: 1;
+}
+.profile-text p.author__name {
+  margin: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  a {
+    text-decoration: none;
+  }  
+}
+
+.profile-text p.author__title {
+  margin: 0;
+  font-size: 0.8em;
+  color: #bbb;
+}
+
+.profile-text p {
+  margin: 5px 0 10px;
+  color: #444;
+  font-size: 0.7em;
+}
+.read-more {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #d93050;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.read-more::after {
+  content: '\279C'; /* Pil højre */
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+/****************/
+
+.pull-quote {
+  font-size: 1.5em;
+  border-left: 10px solid orange;
+  padding: 1em;
+  margin: 1em;
+  background-color: #eeeeee;
+  padding-left: 1.5em;
+}
+
+.intro {
+  margin-top: 1em !important;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.intro::after {
+  content: "";
+  display: block;
+  width: 100px; /* Adjust the length */
+  height: 5px; /* Adjust the thickness */
+  background-color: orange; /* Adjust the color */
+  margin: 1em auto 0; /* Adjust spacing */
+}
+
 h2.archive__item-title {
   font-size: 1.2em;
+}
+
+p.archive__item-title {
+  font-size: 0.9em !important;
+  margin-top: 0.3em !important;
+  padding-top: 0;
+}
+
+.archive__item-category {
+  margin-top: 0.6em !important;
+  margin-bottom: 0 !important;
+  color: #ccc;
+  font-size: 0.7em !important;
+  padding-bottom: 0;
 }
 
 p:has(> a.btn--center) {
@@ -210,3 +535,8 @@ form.newsletter {
     }
   }
 }
+
+.notice::before {
+  content: "💡";
+}
+

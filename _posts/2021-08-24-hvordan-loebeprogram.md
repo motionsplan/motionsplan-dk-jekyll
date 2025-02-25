@@ -230,6 +230,7 @@ Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
 
 Læs: [Komplet guide til intervaltræning](/intervaltraening/)
+{: .notice }
 
 Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
 

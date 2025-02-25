@@ -13,6 +13,13 @@ tags:
   - sprinttest
 last_modified_at: 2022-01-19T23:14:14Z
 toc: true
+meta:
+  name: Sprintceller
+  measures: sprint
+  type: sprinttest
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
 ---
 
 Med sprintceller kan du ret præcist måle sprinthastighed og accelerationsevne. Den præcise tidtagning fås i forskellige variationer, men fælles for dem alle er at de præcist kan tage tid.

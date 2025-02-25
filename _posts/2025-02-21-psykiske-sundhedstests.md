@@ -20,6 +20,7 @@ tags:
   - moc
   - mental velvære
   - psykologi
+last_modified_at: 2025-02-20T19:14:14Z
 ---
 
 Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale tilstand og tage de første skridt mod at forbedre din trivsel.

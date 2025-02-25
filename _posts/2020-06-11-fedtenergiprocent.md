@@ -8,7 +8,6 @@ header:
   overlay_filter: 0.2
   caption: *title
 category:
-  - Viden om
   - Ernæring
 tags:
   - ernæring

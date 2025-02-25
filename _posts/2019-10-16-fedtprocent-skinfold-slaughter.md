@@ -12,7 +12,6 @@ category:
   - Fedtprocent
 tags:
   - fedtprocent
-  - test
   - kropskomposition
   - skinfold
   - børn

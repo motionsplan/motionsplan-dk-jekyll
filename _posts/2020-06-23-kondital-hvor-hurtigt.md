@@ -12,12 +12,13 @@ header:
   caption: *title
   alt: Photo by Tikkho Maciel on Unsplash
 category:
-  - Viden om
+  - Kondition
 tags:
   - fysiologi
   - muskler
   - kredsløb
   - træningslære
+  - faq
 last_modified_at: 2021-04-04T08:14:14Z
 toc: true
 ---

@@ -14,12 +14,6 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
-yogastream:
-  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: https://motionsplan.yogastream.dk
-    title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Bliv medlem af Yogastream og lær yoga"
-    rel: sponsored nofollow noopener
 feature_row_running:
   - image_path: https://m2.apuls.dk/media/catalog/product/0/1/0101125403_1.jpg
     alt: "Garmin HRM-Tri Pulsbælte"
@@ -106,8 +100,6 @@ På [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&banneri
 {% include feature_row type="left" %}
 
 Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb/) og [bøger om træning](/traeningsboeger-boeger-om-traening/). Jeg har også skrevet et forslag til [cykelbøger](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).
-
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
 ## Samarbejdspartnere (reklamelinks)
 

@@ -92,11 +92,8 @@ Den næste linje betyder følgende adskilt af skråstregen (/).
 - 4 sæt x 4 gentagelser @ RPE 7 (du vil kunne tage 3 gentagelser flere). Du kan også bruge procent (som så beregner fra din 1RM), eller du kan bare skrive din vægt.
 - Progressionen er lineær progression, hvor vægten stiger 2,5 kg, hvis det er lykkes at lave gentagelserne 3 på hinanden følgende træninger.
 
-***
-
 Læs: [Hvad er RPE i styrketræning?](/rpe/)
-
-***
+{: .notice }
 
 Det er smart.
 
@@ -106,11 +103,8 @@ Når du laver procentbaserede træningsprogrammer eller baseret på RPE, så har
 
 I styrketræning bruger man '1 repetition maximum'. Altså den vægt, du netop kan løfte en gang.
 
-***
-
 Læs: [Alt om 1 RM med beregner](/rm-beregner/)
-
-***
+{: .notice }
 
 Denne vægt skal du sætte for hver øvelse, hvis tallene skal give mening.
 
@@ -122,11 +116,8 @@ Det er heldigvis let at sætte i Liftosaur.
 
 Når du laver et styrketræningsprogram, så er det godt at tænke en form for progression ind i programmet. 
 
-***
-
 Læs: [Progressionsmodeller til styrketræning](https://www.motionsplan.dk/progressionsmodeller-progressivt-overload/)
-
-***
+{: .notice }
 
 Det er smart, at du kan indikere progression i de enkelte øvelser direkte i programmet.
 
@@ -161,7 +152,7 @@ Her har du et par forskellige andre, jeg har skrevet.
 ### Fremgang baseret på e1RM
 
 <details markdown="1">
-  <summary>Se koden for ændre 1RM ved dine løft</summary>
+  <summary>💻 Se koden for ændre 1RM ved dine løft</summary>
 
 Hvis du gerne vil have fremgang i dit program, når du laver bedre løft undervejs, så kan du gøre følgende:
 
@@ -180,7 +171,7 @@ Squat / 3x3 @8+ / progress: custom() {~
 ### Triple progression
 
 <details markdown="1">
-  <summary>Se koden til Triple progression</summary>
+  <summary>💻 Se koden til Triple progression</summary>
 
 Hvis du gerne vil lave en triple progression, hvor du først øger antallet af sæt, reps og vægt i den rækkefølge, så kan du gøre følgende.
 
@@ -204,7 +195,7 @@ Split Squat[1-4] / 3x15-20+ / 4x15-20+ / progress: custom(maxVariations: 2, incr
 ### Styrkeprogression
 
 <details markdown="1">
-  <summary>Se koden til styrkeprogression</summary>
+  <summary>💻 Se koden til styrkeprogression</summary>
 
 Hvis du gerne vil lave en styrkeprogression, hvor du over ugerne øger intensiteten, så kan du gøre følgende.
 
@@ -220,7 +211,7 @@ Bench Press / 3x7 / 4x6 / 5x5 / 6x4 / progress: custom(increase: 5kg) {~
 ### Emerging Strategies
 
 <details markdown="1">
-  <summary>Se koden til Emerging Strategies</summary>
+  <summary>💻 Se koden til Emerging Strategies</summary>
 
 Jeg kan godt lide fremgangsmåden i Reactive Training Systems Emerging Strategies. Her lader du første sæt danne baggrund for backoff sæt, og du lader RPE styre din træning.
 

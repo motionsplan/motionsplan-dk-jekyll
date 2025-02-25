@@ -97,6 +97,7 @@ En søvndagbog kan være en god måle at kortlægge din søvn på. Der findes ma
 Når du har kortlagt din søvn, så kan det være, at der dukker nogle skjulte mønstre frem, som du ikke havde tænkt over.
 
 Læs: [Se eksempler på søvndagbog og søvnregistrering](/soevndagbog/)
+{: .notice }
 
 Formålet med at tracke sin søvn er for de fleste, at de gerne over tid vil forbedre søvnen.
 

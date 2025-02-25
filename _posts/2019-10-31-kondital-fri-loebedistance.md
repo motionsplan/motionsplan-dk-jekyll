@@ -11,7 +11,7 @@ header:
 category:
   - Kondition
 meta:
-  name: Beregning ud fra tid på vilkårlig løbedistance
+  name: Beregning kondital tid på løbedistance
   measures: VO2max og kondital
   type: løbetest
   equipment: fladt underlag

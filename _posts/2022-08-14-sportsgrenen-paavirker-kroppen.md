@@ -64,6 +64,7 @@ Derfor er der formentlig en stor udvælgelsesbias i de forskellige idrætsgrene,
 Genetikken kan også spille en rolle i valget af idrætsgren. Du bliver nok kun sprinter, hvis du har mange hurtige muskelfibre, og du synes nok det er sjovest at løbe maratonløb, hvis dine muskelfibre er udholdende.
 
 Læs: [Alt om de forskellige muskelfibertyper](/muskelfibertyper/)
+{: .notice }
 
 ## Hvordan påvirker idræt kroppen?
 

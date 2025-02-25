@@ -15,6 +15,13 @@ tags:
   - test
   - hvilepuls
   - tracking
+meta:
+  name: Liggende hvilepuls
+  measures: hvilepuls
+  type: pulstest
+  equipment: pulsmåler
+  max: submaksimal
+  direct: direkte test
 last_modified_at: 2022-09-24T08:14:14Z
 toc: true
 faq:
@@ -48,6 +55,7 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 {% include figure image_path="https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="hvilepuls for mænd og kvinder" %}
 
 Læs: [Hvad er normal puls - alt om hjertets rytme](/puls/)
+{: .notice }
 
 ## Hvad er hvilepuls?
 
@@ -87,7 +95,8 @@ Det kan sættes på følgende formel:
 
 Hvis minutvolumen skal være konstant og slagvolumen er faldet, så bliver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj. Derfor falder hvilepulsen, når du kommer i bedre form.
 
-Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/).
+Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
+{: .notice }
 
 ## Hvad påvirker din hvilepuls?
 

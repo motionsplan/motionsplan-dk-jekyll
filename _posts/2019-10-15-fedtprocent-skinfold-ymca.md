@@ -10,11 +10,10 @@ category:
   - Fedtprocent
 tags:
   - fedtprocent
-  - test
   - kropskomposition
   - skinfold
 meta:
-  name: YMCA metoden
+  name: YMCA metoden fedtprocent
   equipment: hudfoldsmåler
   measures: fedtprocent
 last_modified_at: 2019-03-06T23:14:14Z

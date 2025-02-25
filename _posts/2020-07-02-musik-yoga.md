@@ -18,11 +18,6 @@ tags:
   - meditation
 last_modified_at: 2023-01-01T08:12:14Z
 toc: true
-yogastream:
-  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: https://motionsplan.yogastream.dk
-    title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Musik og yoga - Bliv medlem af Yogastream og lær yoga"
 ---
 
 Er du på udkig efter noget god musik til yoga, meditation og mindfulness? Her får du forslag til, hvordan du bedst vælger noget musik.
@@ -131,5 +126,3 @@ Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træni
 Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere](/artikel/de-fem-tibetanere/) eller [Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/) - eller måske er du interesseret i [Mindful meditation](/mindfulness-meditation/).
 
 Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
-
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}

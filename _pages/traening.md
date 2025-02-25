@@ -10,7 +10,7 @@ header:
   teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: Træning og træningsformer
 author_profile: true
-toc: false
+toc: true
 sidebar:
   nav: trainingtypes
 breadcrumbs: true
@@ -58,14 +58,14 @@ feature_row_topics:
     url: "/yoga/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Varmetræning"
-    title: "Varmetræning"
-    excerpt: |
-      Varmetræning er blevet mere og mere populært. Bliv bedre til at kunne præstere bedre i varmen og kom i bedre form".
-    url: "/varmetraening/"
-    btn_label: "Læs mere"
-    btn_class: "btn--info"
+#  - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+#    alt: "Varmetræning"
+#    title: "Varmetræning"
+#    excerpt: |
+#      Varmetræning er blevet mere og mere populært. Bliv bedre til at kunne præstere bedre i varmen og kom i bedre form".
+#    url: "/varmetraening/"
+#    btn_label: "Læs mere"
+#    btn_class: "btn--info"
 feature_row_exercises:
   - image_path: https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Træningsøvelser"
@@ -383,15 +383,17 @@ FEATURE_ROW
 
 ## Læs meget mere om træning her:
 
-{% assign site_posts = site.posts | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% assign site_posts = site.posts | where: "tags", "træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 20 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Læs alle vores artikler](/blog/){: .btn .btn--success .btn--center }
 
 </div>
 

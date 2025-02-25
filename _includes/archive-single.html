@@ -21,6 +21,8 @@
         <img src="{{ teaser | relative_url }}" alt="{{ title }}" data-pin-nopin="true" loading="lazy">
       </div>
     {% endif %}
+    {% assign category = post.category[0] %}
+    {% if category %}<p class="archive__item-category p-category" itemprop="category">{{ category }}</p>{% endif %}
     <p class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
         <a class="u-url p-name" href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>

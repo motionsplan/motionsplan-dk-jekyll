@@ -88,6 +88,7 @@ Formålet for muskelstyrketræningen er at forbedre muskelstyrken gennem forbedr
 Muskelstyrketræningen kan foregå enten dynamisk eller statisk. [IMTP-testen](/imtp-test/) er et eksempel på en statisk test af maksimal styrke. Du træner dynamisk styrke, når du arbejder med styrketræning.
 
 Læs: [Alt om styrketræning](/styrketraening/)
+{: .notice }
 
 ## Statisk eller dynamisk træning
 
@@ -101,6 +102,7 @@ Det kaldes statisk og dynamisk træning eller med lidt andre ord isometrisk og i
 Begge typer muskeltræning har sine fordele.
 
 Læs: [Hvad er koncentrisk, excentrisk og isometrisk muskelarbejde?](/koncentrisk-excentrisk-isometrisk/)
+{: .notice }
 
 ## Eksempler på muskeltræning
 

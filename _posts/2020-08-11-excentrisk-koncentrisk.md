@@ -10,7 +10,6 @@ header:
   teaser: https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Viden om
   - Anatomi
 tags:
   - bevægelsesanalyse

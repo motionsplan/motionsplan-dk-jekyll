@@ -43,6 +43,7 @@ feature_row_okklusion:
     btn_class: "btn--info"
 toc: true
 breadcrumbs: true
+classes: wide
 ---
 
 Skader kan være en stor udfordring for både nybegyndere og erfarne idrætsudøvere. Her får du indsigt i de mest almindelige skader, hvad der forårsager dem, og hvordan du kan forebygge og behandle dem.

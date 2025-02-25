@@ -63,6 +63,7 @@ Alt dette gør, at iltoptagelsen øges og din kondition forbedres. Du kan læse 
 {% include figure image_path="/assets/images/e/freepik-kredsloeb-fysiologi.jpg" caption="Oversigt over kredsløbet, hvor de fysiologiske ændringer sker" alt="Tilpasninger og adaptationer ved konditionstræning" %}
 
 Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
+{: .notice }
 
 ## Aerob træning
 
@@ -71,6 +72,7 @@ Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-kondition
 Aerob betyder “med ilt”. Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til aerob træning, så snakker man typisk om de træningsformer, der normalt kategoriseres som konditionstræning.
 
 Læs: [Aerob træning: 5 forslag til at træne det aerobe system 💗](/aerob-traening/)
+{: .notice }
 
 ## Anaerob træning
 
@@ -85,6 +87,7 @@ Eller den kan være **laktacid** og træne evnen til at genopbygge ATP enten ved
 Det er særligt den type anaerob træning, der skaber træthedsstoffer og mælkesyre, som flere studier har vist kan være med til at flytte iltoptagelsen og konditionen.
 
 Læs: [Anaerob træning: Øvelser og træningsprogram](/anaerob-traening/)
+{: .notice }
 
 ## Eksempler på konditionstræning
 
@@ -103,6 +106,7 @@ Du kan læse meget mere om, hvordan HIIT skal forstås og udføres i nedenståen
 {% include figure image_path="https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=600&q=60" alt="kredsløbstræning og hiit" %}
 
 Læs: [HIIT-træning: Øvelser og træningsprogrammer](/hiit/)
+{: .notice }
 
 ### 2. Tærskel-træning med høj intensitet
 
@@ -125,6 +129,7 @@ Typisk er dette en træningszone, hvor kune en mindre del af din træning skal l
 Du kan læse mere om, hvordan du laver tempotræning i indlægget nedenfor. Du finder også et udgangspunkt for at lave dit eget kredsløbstræningsprogram.
 
 Læs: [Tempotræning: Hvad er det, og hvordan man gør det](/loebesiden-jack-daniels-loebeberegner/)
+{: .notice }
 
 ### 4. Udholdenhedstræning
 
@@ -147,6 +152,7 @@ Der er mange forskellige måder konditallet måles på. Du kan teste udåndingsl
 {% include figure image_path="https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=600&q=60" alt="konditionstræning og kredsløbstræning" %}
 
 Læs: [Konditionstests og konditests](/kondition/tests/)
+{: .notice }
 
 {% include feature_row id="feature_row_tests" type="left" %}
 

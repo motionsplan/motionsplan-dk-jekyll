@@ -12,7 +12,7 @@ header:
 category:
   - Kondition
 meta:
-  name: Maksimal løbetest
+  name: Maksimal løbetest på løbebånd
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebånd

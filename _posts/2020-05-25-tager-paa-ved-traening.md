@@ -9,11 +9,12 @@ header:
   caption: *title
   alt: "Photo by Jen Theodore on Unsplash"
 category:
-  - Viden om
+  - Vægttab
 tags:
   - muskler
   - fedt
   - vægt
+  - faq
 last_modified_at: 2020-05-28T08:14:14Z
 toc: true
 ---

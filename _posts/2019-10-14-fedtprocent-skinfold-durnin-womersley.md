@@ -13,7 +13,6 @@ category:
 breadcrumbs: true
 tags:
   - fedtprocent
-  - test
   - kropskomposition
   - skinfold
 meta:

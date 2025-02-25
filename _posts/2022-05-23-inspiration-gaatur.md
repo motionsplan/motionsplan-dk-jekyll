@@ -134,6 +134,7 @@ Sæt dig og træk vejret dybt og roligt. Kig dig omkring og tænk aktivt over, h
 Er I 2 eller flere, så tal om hvad I ser, når I sidder der ved siden af hinanden.
 
 Læs: [Gåtræning: Inspiration til at få træning ud af gåturen](/gangtraening/)
+{: .notice }
 
 ### 4. Gå & Snak
 

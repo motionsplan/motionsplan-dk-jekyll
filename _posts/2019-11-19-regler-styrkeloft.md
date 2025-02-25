@@ -152,7 +152,8 @@ Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke u
 
 Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
 
-{% include motionsplan/readmore.html title="Alt om bælter til styrketræning" url="/baelte-styrketraening/" %}
+Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
+{: .notice}
 
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
 

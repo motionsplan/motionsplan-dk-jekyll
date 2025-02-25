@@ -11,10 +11,9 @@ header:
   caption: Styrketræning
 author_profile: true
 author: lsolesen
-toc: false
+toc: true
 category:
-  - Træning
-  - Træningsformer
+  - Styrketræning
 breadcrumbs: true
 feature_row_strength:
   - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png

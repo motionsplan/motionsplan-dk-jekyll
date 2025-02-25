@@ -9,10 +9,20 @@ header:
   caption: "Hvordan tester jeg min muskelfibertypesammensætning? Billede: Wikipedia"
   overlay_filter: 0.4
 category:
-  - Viden om
+  - Anatomi
 tags:
   - muskler
   - test
+  - anatomi
+  - træningslære
+  - styrketræning
+meta:
+  name: Muskelfibertypetest
+  measures: muskelfibertype
+  type: styrketest
+  equipment: vægtudstyr
+  max: maksimal test
+  direct: indirekte test
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:

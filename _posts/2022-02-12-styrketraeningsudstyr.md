@@ -57,7 +57,8 @@ Det kan betale sig at tænke over fodtøjet, når du styrketræner eller dyrker 
 
 Her er nogle af de overvejelser du bør gøre dig, når du vælger en sko, du vil bruge til styrketræning og fitness.
 
-Læs: [Guide til at vælge sko til styrketræning](/sko-styrketraening-fitness/).
+Læs: [Guide til at vælge sko til styrketræning](/sko-styrketraening-fitness/)
+{: .notice }
 
 ## 2. Styrketræningsbælte
 

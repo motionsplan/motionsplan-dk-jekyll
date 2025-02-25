@@ -9,10 +9,13 @@ header:
   caption: *title
   alt: Photo by Jong Marshes on Unsplash
 category:
-  - Viden om
+  - Fysiologi
 tags:
   - fysiologi
   - beregner
+  - træningslære
+  - anatomi
+  - viden om
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---

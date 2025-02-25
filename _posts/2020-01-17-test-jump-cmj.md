@@ -15,6 +15,13 @@ tags:
   - beregner
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
+meta:
+  name: Counter Movement Jump & Squat Jump
+  measures: springstyrke
+  type: spring test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
 ---
 
 Et counter movement jump (CMJ) og et squat jump (SJ) kan bruges til at måle eksplosivitet i benenes muskulatur.

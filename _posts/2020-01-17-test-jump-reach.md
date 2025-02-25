@@ -14,6 +14,13 @@ tags:
   - spring
 last_modified_at: 2011-11-19T23:14:14Z
 toc: true
+meta:
+  name: Jump & Reach test
+  measures: springstyrke
+  type: spring test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
 ---
 
 Jump & Reach test er en god springtest, som både måler springhøjde og rækkehøjde. Det er en meget funktionel test, som også fortæller noget om din evne til at koordinere, eksplosivitet og relativ styrke.
@@ -94,7 +101,7 @@ Det er også godt at tænke på, hvilken strategi du bruger i luften for at mani
 
 {% include video provider="youtube" id="KNtoP1P2dUA" %}
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Lewis (1974) formler</summary>
 
 {% include motionsplan/math formula="Average power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
@@ -104,7 +111,7 @@ For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften
 [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Harman (1991) formler</summary>
 
 Peak Power (W) = 61.9 * jump height (cm) + 36 * body mass (kg) - 1822
@@ -114,7 +121,7 @@ I den oprindelige reference står der **+ 1822**, men i [Sayers et al (1999)](ht
 [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Johnson & Bahmamonde formler</summary>
 
 Peak Power = 78.6 * jump_height + 60.3 * body_mass - 15.3 * height - 1308
@@ -122,7 +129,7 @@ Peak Power = 78.6 * jump_height + 60.3 * body_mass - 15.3 * height - 1308
 Johnson og Bahamonde inkluderer deltagernes højde i formularerne.
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Sayers et al (1999) formler</summary>
 
 [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) gennemgik formlerne fra Lewis (1974) og Harman (1991).
@@ -166,7 +173,7 @@ Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her](
 
 ## Referencer
 
-<details markdown="1">
+<details markdown="1" class="references">
   <summary>Se referencer til Jump and Reach-testen</summary>
 
 - [Vertec Jump Test](https://www.scienceforsport.com/vertec-jump-test/)

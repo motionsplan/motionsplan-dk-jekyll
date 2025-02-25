@@ -64,6 +64,7 @@ Teorien om "sliding filaments" er den mest populære forklaring på, hvordan en 
 {% include video provider="youtube" id="7V-zFVnFkWg" %}
 
 Læs: [Sliding Filament Teorien: Hvordan trækker musklen sig sammen?]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
+{: .notice }
 
 ## Skeletmusklernes opdeling
 
@@ -107,6 +108,7 @@ Musklerne består af muskelfibre. Typen af muskelfibre bestemmes af, hvordan mus
 Jeg har skrevet meget mere om de forskellige muskelfibertyper i nedenstående indlæg.
 
 Læs: [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx](/muskelfibertyper/)
+{: .notice }
 
 ## Muskler og muskelgrupper i kroppen
 

@@ -65,6 +65,7 @@ Team Danmark [foreslår](https://www.teamdanmark.dk/performance/sportsernaering/
 I beregneren udregner du dit basalbehov for væske om dagen. Men det er naturligvis noget andet, hvis du er i meget varme omgivelser eller dyrker idræt, hvor du sveder meget.
 
 Læs: [Hvad skal jeg drikke til træning og konkurrence?](/hvad-skal-jeg-drikke/)
+{: .notice }
 
 ## Hvor meget skal jeg drikke om dagen?
 
@@ -101,6 +102,7 @@ Hvis du ofte oplever at skulle op at tisse om natten, så kan det også være en
 Hvor meget væske man skal drikke om dagen afhænger naturligvis også af, hvor meget du sveder. Hvis du er rigtig aktiv med intenst arbejde på en varm dag, så har du brug for mere vand.
 
 Læs: [Varmeakklimatisering: Træning i varmen](/varmeakklimatisering-traening-i-varmen/)
+{: .notice }
 
 Hvis du kommer over tre liter vand om dagen, så skal du tænke over, hvilke salte og mineraler der er i vandet, så du undgår uheldige bivirkninger. Du kan måske blive inspireret til at [blande din egen sportsdrik](/sportsdrik/).
 
@@ -169,6 +171,7 @@ Du kan typisk også se på din urin, om du får nok væske. Hvis din urin er mø
 Mennesket består i høj grad af vand. Væskebalancen er livsvigtig for, at vores krop og hjerne kan fungere effektivt. Andelen af vand varierer med højden, vægten, køn og alder. Vores krop består af mellem 45 og 75 procent af vægten er vand.
 
 Læs: [Hvor meget vand har mennesket i kroppen?]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
+{: .notice }
 
 ## Hvordan får jeg nok væske på en dag?
 

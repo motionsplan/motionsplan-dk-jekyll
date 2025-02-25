@@ -11,12 +11,11 @@ header:
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:
-  - Viden om
-  - Styrketræning
-  - Løb
+  - Restitution
 tags:
   - restitution
   - begynder
+  - træning
 last_modified_at: 2022-05-20T08:14:14Z
 toc: true
 faq:
@@ -117,6 +116,7 @@ Det varierer meget fra person til person, hvor lang tid det tager at restituere.
 Du kan sagtens lave et rigtig kort træningspas, som har en stor ødelæggende effekt på musklerne og fibrene.
 
 Læs: [Restitutionstid: Hvor længe tager det at restituere?](/restitutionstid/)
+{: .notice }
 
 ## Restitutionsskema
 
@@ -164,6 +164,7 @@ Træning skaber ofte lidt [ømhed i musklerne](/omme-muskler-efter-traening/). M
 Efterhånden er der også kommet nogle forslag til, hvordan man kan måle restitution og træningsparathed. Et af forslagene er at holde øje med hjertets rytme med en pulsmåler.
 
 Læs: [Muskelømhed: Hvorfor får jeg ømme muskler efter træning?](/omme-muskler-efter-traening/)
+{: .notice }
 
 ### 4. Heart rate variability (HRV)
 
@@ -204,6 +205,7 @@ Sørg for at der er en fornuftig balance i dit træningsprogram. Ved at have god
 Få en nogenlunde [jævn døgnrytme og søvnrytme](/soevn/), hvor du går får færdiggjort dine søvncyklusser. Sov i et helt mørkt værelse.
 
 Læs: [7 trin til optimering af din søvn](/soevn-optimering/)
+{: .notice }
 
 ### 3. Kost, væske og ernæring
 
@@ -230,6 +232,7 @@ I Form omtaler også et studium, hvor forsøgspersonerne drak kirsebærjuice, so
 Det studium vil vi gerne se.
 
 Læs: [Hvad er facts om det åbne vindue?](/artikel/aabne-vindue-og-anabolic-window/)
+{: .notice }
 
 ## Hvordan forbedrer jeg min restitution? 4 tips
 
@@ -262,6 +265,7 @@ Restitutionstræning handler om at bruge gymnastiske øvelser og mobilitetsøvel
 Tilsyneladende virker [udstrækning og strækøvelser](/udstraekning-udspaending/) ikke på restitutionstiden - og udspænding [forhindrer heller ikke andendagsømhed](/omme-muskler-efter-traening/). Til gengæld hjælper det på _range of motion_ og bevægeligheden.
 
 Læs: [Restitutionstræning: Træn for at blive hurtigere klar!](/restitutionstraening/)
+{: .notice }
 
 ### 3. Lav åndedrætstræning
 
@@ -272,6 +276,7 @@ Det kan efter al sandsynlighed betale sig at lave øvelser med åndedrætstræni
 Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen og åndedrætsøvelser træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.
 
 Læs: [Vejrtrækningsøvelser: 3 åndedrætsøvelser](/aandedraetstraening-forbedrer-udholdenheden/)
+{: .notice }
 
 ### 4. Sportsmassage
 
@@ -280,6 +285,7 @@ Dupuy et al (2018) fandt i deres metaanalyse af forskellige metoder til restitut
 Massage virker altså tilsyndeladende rigtig godt i forhold til at minimere muskelømheden efter træning. Jeg har ikke kunne finde undersøgelser, der viser, at massage virker på muskelfunktionen.
 
 Læs: [Sportsmassage og fysiurgisk massage til restitution?](/massage/)
+{: .notice }
 
 ## Restitution og udstyr
 
@@ -290,12 +296,14 @@ Nu er du kommet så langt, og du er sikkert klar til at få flere genveje, som k
 Noget tyder på at kompressionstøj kan være med til at forbedre restitutionen, hvis du beholder det på efter træningen - i hvert fald i 30 minutter. Det ser ud til at [kompressionsstrømper kan være en god ide](/kompressionsstroemper-restitution-praestation-bivirkninger/), når du vil forbedre din restitution og undgå anden-dags-ømhed.
 
 Læs: [Kompressionsstrømper og restitution](/kompressionsstroemper-restitution-praestation-bivirkninger/)
+{: .notice }
 
 ### 2. Cold Water Immersion (CWI)
 
 Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge [Versey et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23743793/) kunne ligge mellem 10 og 15 grader.
 
 Læs: [Kryoterapi: Virker et isbad efter træning på restitution?](/isbad-og-kryoterapi/)
+{: .notice }
 
 ### 3. Recovery boots eller Vakuum støvler
 
@@ -308,12 +316,14 @@ Ved at presse den venøse væske i benet tilbage, øges blodgennemstrømningen o
 Teoretisk set bliver depoterne også fyldt hurtigere op, hvilket fremmer restitutionsprocessen.
 
 Læs: [Recovery Boots: Er vakuum bukser effektiv restitution?](/recovery-boots-restitution/)
+{: .notice }
 
 ### 4. Foamrolling og SMR
 
 Foam rolling er en god måde at kick-starte restitutionsprocessen i slutningen af træningen, fordi den kan hjælpe kroppen med at sætte det parasympatiske nervesystem i gang hurtigere end det ellers ville have gjort.
 
 Læs: [Foamrolling og restitution](/foamrolling-foamroller-lacrossebolde/)
+{: .notice }
 
 ## Hvad sker der hvis jeg ikke restituerer ordentligt?
 
@@ -341,6 +351,7 @@ Studiet indikerer, at der ikke er forskel på restitutionstiden for unge og mida
 Men tilsyneladende er det altså ikke min alder, der gør, at jeg synes restitutionstiden er længere end den har været.
 
 Læs: [Restitution og alder: Hvad betyder alderen for kroppens genopbygning?](/restitutionstid-og-alder/)
+{: .notice }
 
 ## Team Danmark og restitution
 

@@ -176,6 +176,7 @@ Hvis du gerne vil være en bedre løber, så er det en fordel både at løbe lid
 Men uanset hvad du gerne vil løbe mere af, så byg det langsomt op med et [fornuftigt løbeprogram](/loebeprogrammer/).
 
 Læs: [Hvordan laver du et løbeprogram?](/guide-til-loebeprogram/)
+{: .notice }
 
 ### 2. Styrketræning og skadesforebyggelse i løb
 
@@ -188,6 +189,7 @@ I studiet fandt de at styrketræning, der var tilrettelagt specifikt til idræts
 Det kan altså tilsyneladende betale sig at lave veltilrettelagt styrketræning for at forebygge løbeskader.
 
 Læs: [Styrketræning til løb](/styrketraening-til-loeb/)
+{: .notice }
 
 ## Forebyg løbeskader med disse 6 styrkeøvelser til løb
 
@@ -222,6 +224,7 @@ Et alternativ til Sissy Squats kunne være [Spanish Squats](https://medium.com/@
 {% include video provider="youtube" id="eZuwDMrfAf4" %}
 
 Læs: [Skadesforebyggelse: Hvilke øvelser kan forebygge skader?](/skadesforebyggelse-skadesforebyggende-traening/)
+{: .notice }
 
 ## Gode råd om løb og skader
 

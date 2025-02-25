@@ -96,7 +96,7 @@ Formlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennes
 
 ## Formler og tabeller for udregning af hvilestofskiftet
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se formler til Nordic Nutrition Recommendations (2012)</summary>
 
 ## Nordic Nutrition Recommendations 2012
@@ -141,7 +141,7 @@ W er vægt i kg. H er højde i meter.
 {% comment %}
 {% Jeg har droppet disse, da de er blevet overhalet af 2012 %}
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se formler til Nordiska Næringsrekommendationer (1996)</summary>
 
 ### Formel til at beregne hvilestofskiftet
@@ -174,7 +174,7 @@ Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte s
 
 {% endcomment %}
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se formler for Schofield (1985)</summary>
 
 Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Læg mærke til, at der er aldersspecifikke formler for børn, hvilket betyder, at beregneren er relativt pålidelig også til at udregne hvilestofskiftet til børn.
@@ -202,7 +202,7 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 | > 60 | 38 × W + 2755 | 451 |
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se formler for Benedict-Harris (1918-1919)</summary>
 
 Du kan vælge at bruge [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) fra 1918-1919 ti lat udregne basalstofskiftet. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen.
@@ -213,7 +213,7 @@ Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncb
 - Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se formler for Roza og Shizgal (1984)</summary>
 
 [Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede Benedict-Harris formel i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
@@ -222,7 +222,7 @@ Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncb
 - Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se formler for Mifflin et al (1990)</summary>
 
 [Mifflin et al (1990)](https://academic.oup.com/ajcn/article-abstract/51/2/241/4695104) reviderede Benedict-Harris-formlen 1990.
@@ -328,7 +328,7 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 
 {% include feature_row type="left" %}
 
-<details markdown="1">
+<details markdown="1" class="references">
   <summary>Se flere referencer</summary>
 
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.

@@ -49,6 +49,7 @@ Hvis du leder efter en app, der både giver dig en god træning og er sjov, er Z
 {% include video provider="youtube" id="5MI7Jfamd-Q" %}
 
 Læs: [Begynderguide til Zwift](/komplet-begynderguide-zwift/)
+{: .notice }
 
 ### 2. MyWhoosh Cycling
 
@@ -59,6 +60,7 @@ MyWhoosh Cycling er endnu en app til virtuel cykling, som konkurrerer mod Zwift.
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring sammen , og snakke med dem.
 
 Læs: [MyWhoosh Cycling anmeldelse](/mywhoosh-cycling/)
+{: .notice }
 
 ### 3. BKOOL
 
@@ -69,6 +71,7 @@ Du kan også deltage i gruppeture og løb eller bare køre solo. Appen har også
 Hvis du leder efter en app, der både giver dig en god træning og er sjov, er BKOOL en god mulighed.
 
 Læs: [Begynderguide til BKOOL](/bkool-begynderguide/)
+{: .notice }
 
 ### 4. Rouvy
 
@@ -79,6 +82,7 @@ Rouvy er en anden fantastisk app til hometrainer, der giver dig en realistisk tr
 Du kan også deltage i gruppeture og løb eller bare køre solo. Appen indeholder også et godt fællesskabsaspekt, hvor du kan følge andre ryttere, give dem opmuntring undervejs, og snakke med dem.
 
 Læs: [Rouvy begynderguide](/rouvy/)
+{: .notice }
 
 {% comment %}
 

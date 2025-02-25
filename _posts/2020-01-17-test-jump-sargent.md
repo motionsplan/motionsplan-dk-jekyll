@@ -18,6 +18,13 @@ tags:
   - beregner
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
+meta:
+  name: Sargent Jump Test
+  measures: springstyrke
+  type: spring test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
 ---
 
 Sargent Jump test er en springtest og hoppetest, som kun kræver et en væg og et målebånd. Testen kan således laves de fleste steder. Sommetider staves testen også forkert som Sergeant Jump Test.

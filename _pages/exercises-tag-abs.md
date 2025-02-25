@@ -181,7 +181,7 @@ Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elas
 
 ## Referencer om maveøvelser
 
-<details>
+<details markdown="1">
   <summary>Se flere referencer om mavetræning</summary>
 
 - Escamilla, R. F., Lewis, C., Bell, D., Bramblet, G., Daffron, J., Lambert, S., ... & Andrews, J. R. (2010). Core muscle activation during Swiss ball and traditional abdominal exercises. journal of orthopaedic & sports physical therapy, 40(5), 265-276.

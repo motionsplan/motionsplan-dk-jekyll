@@ -9,11 +9,12 @@ header:
   teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Er der forskel på mænd og kvinders muskler?"
 category:
-  - Viden om
+  - Fysiologi
 tags:
   - fysiologi
   - muskler
   - træningslære
+  - faq
 last_modified_at: 2023-01-01T08:14:14Z
 toc: true
 gallery:

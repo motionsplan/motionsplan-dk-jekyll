@@ -159,6 +159,7 @@ Det kan man også skrive som 3-5 x 3-5 @ RPE 7-9.
 Det er formentlig nok at lave kvarte squats for at få effekterne, men jeg ville kombinere det med bevægelser i større bevægelsesudslag.
 
 Læs: [Styrketræning til løb: Øvelser og effekt](/styrketraening-til-loeb/)
+{: .notice }
 
 ### 2. Bakkesprints
 

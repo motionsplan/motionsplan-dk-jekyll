@@ -8,10 +8,11 @@ header:
   overlay_filter: 0.4
   caption: *title
 category:
-  - Viden om
+  - Anatomi
 tags:
   - muskler
   - træningslære
+  - anatomi
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 ---

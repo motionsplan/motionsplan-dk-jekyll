@@ -10,7 +10,7 @@ header:
   alt: "Photo by Mathew Schwartz on Unsplash"
   overlay_filter: 0.2
 category:
-  - Viden om
+  - Anatomi
 tags:
   - anatomi
   - vægt

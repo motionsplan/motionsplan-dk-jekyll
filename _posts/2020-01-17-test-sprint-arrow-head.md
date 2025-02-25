@@ -17,6 +17,13 @@ tags:
   - test
 last_modified_at: 2019-11-19T23:14:14Z
 toc: true
+meta:
+  name: Arrowhead test
+  measures: sprint og retningsskift
+  type: agility test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
 ---
 
 Arrowhead testen bruges til at teste atleters evne til at skifte retning, behændighed og agility. Arrowhead testen bruges bl.a. flittigt til at teste fodboldspillere.

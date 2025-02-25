@@ -313,6 +313,7 @@ Kender du nogle studier, der kan sige noget om det?
 Jeg har skrevet et indlæg om [kombinationen af styrketræning og løb](/artikel/bedste-kombination-af-loeb-og-styrketraening/), hvor du kan lære endnu mere om begrebet.
 
 Læs: [Styrkeøvelser til at forbedre dit løb](/styrketraening-til-loeb/)
+{: .notice }
 
 ## Flere forslag til at arbejde med løbeøkonomi
 

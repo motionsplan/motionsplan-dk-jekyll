@@ -1,6 +1,6 @@
 ---
 layout: single
-toc: false
+toc: true
 permalink: /beregnere-tests/
 redirect_from:
   - /omregn/
@@ -46,9 +46,11 @@ feature_row_navigation:
     btn_class: "btn--success"
 ---
 
-{{ page.excerpt }}
+Her finder du en samlet oversigt over beregnere og tests. De fleste tests har en tilhørende beregner, der hjælper dig med at få dit resultat.
 
-Jeg har samlet alle beregnere og tests her på siden. Til de fleste tests hører der også en beregner, der kan give dig resultatet på testen. Men der er også beregnere, som bare hjælper med at omregne ting eller udregne fx ting om din kost eller sundhed.
+Derudover finder du også beregnere, der kan omregne værdier eller give indsigt i din kost, sundhed og træning.
+
+Find den rette test, beregner eller værktøj til dine behov!
 
 {% include feature_row id="feature_row_navigation" %}
 

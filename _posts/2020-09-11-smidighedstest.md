@@ -49,6 +49,10 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+meta:
+  name: Modified Sit & Reach
+  measures: smidighed
+  equipment: målebånd
 ---
 
 Smidighed og bevægelighed er væsentligt for at opretholde en god all-round funktionsevne for kroppen. Her beskrives den modificerede 'sit and reach'-test og skemaer og tabeller for normer for testen.

@@ -149,8 +149,10 @@ Sukkeropløsningen skal formentlig ikke være over 7-8%, for så er det sværere
 Der er kun en rigtig god løsning. Prøv det af.
 
 Læs: [Hvordan laver jeg en hjemmelavet sportsdrik?](/sportsdrik/)
+{: .notice }
 
 ## Drikke efter træning og konkurrence
+
 Efter træningen er anbefalingen ofte at drikke 150% af det væske, du har tabt i løbet af træningen. Det er igen en tommelfingerregel, og du kan fordele indtagelsen over 0-4 timer efter træningen.
 
 Du kan bruge Team Danmarks væskeberegner til at udregne behovet for væske efter træning.

@@ -13,6 +13,8 @@ category:
   - Fedtprocent
 meta:
   name: Mål din fedtprocent hudfoldsmåling
+  measures: fedtprocent
+  equipment: hudfoldsmåler
 breadcrumbs: true
 tags:
   - fedtprocent

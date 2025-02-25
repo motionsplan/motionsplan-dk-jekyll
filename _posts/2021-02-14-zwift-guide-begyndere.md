@@ -4,8 +4,8 @@ seo_title: "Zwift cykling på hometrainer: Komplet guide til begyndere"
 permalink: /komplet-begynderguide-zwift/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: https://cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm.jpg
+  teaser: https://cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm.jpg
   caption: *title
 category:
   - Kondition

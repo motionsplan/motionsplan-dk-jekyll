@@ -113,7 +113,8 @@ Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang
 
 {% include video provider="youtube" id="VBJuVfiKrbY" %}
 
-Læs: [Alt om måling med fedttang](/skinfold/){: .btn .btn--large .btn--success }
+Læs: [Alt om måling med fedttang](/skinfold/)
+{: .notice }
 
 ### 4. Bioimpedans - Bioelectric Impedance Analysis (BIA)
 

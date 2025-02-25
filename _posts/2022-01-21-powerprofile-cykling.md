@@ -7,11 +7,8 @@ header:
   teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Kondition
   - Cykling
 tags:
-  - kondition
-  - kondital
   - cykeltest
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true

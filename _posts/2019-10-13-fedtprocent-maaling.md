@@ -114,13 +114,15 @@ Der findes nogle formler, hvor du kan udregne din fedtprocent ud fra simple antr
 
 Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten med et målebånd. Du skal ganske enkelt måle dig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat, som ved at udregne fedtprocenten baseret på højde og vægt.
 
-Læs: [Mål din fedtprocent med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) eller med [måling af fedtprocent med Navy-metoden]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %})
+Læs: [Mål din fedtprocent med målebånd](/fedtprocent-maalebaand/) eller med [måling af fedtprocent med Navy-metoden](/fedtprocent-navy/)
+{: .notice }
 
 ### 6. Måling af fedtprocent med fedttang
 
 En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne i hudfoldstykkelsen over tid.
 
 Læs: [Måling af fedtprocent med hudfoldsmålinger og fedttang](/skinfold/)
+{: .notice }
 
 ### 7. Måling af fedtprocent med bioimpedans
 
@@ -158,6 +160,7 @@ Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/
 {% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 Læs: [Hvad en en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/).
+{: .notice }
 
 ## Ofte stillede spørgsmål om måling af fedtprocent
 

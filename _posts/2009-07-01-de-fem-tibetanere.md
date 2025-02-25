@@ -61,12 +61,6 @@ gallery:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
     alt: "Rite 5"
     title: "Rite 5: De 5 tibetanere"
-yogastream:
-  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: https://motionsplan.yogastream.dk
-    title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Bliv medlem af Yogastream og lær yoga"
-    rel: "sponsored nofollow noopener"
 faq:
   - question: Hvad er de 5 tibetanere?
     answer: "De 5 tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom."
@@ -360,8 +354,6 @@ Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde](/artikel/solhilsen-a-b-surya-namaskar/).
 
 Vi har et andet indlæg her på sitet, der handler om [mindfulness meditation](/mindfulness-meditation/), og vi har også skrevet et andet indlæg om at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
-
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='sponsored nofollow noopener' }." %}
 
 ## Bogen om de fem tibetanere
 

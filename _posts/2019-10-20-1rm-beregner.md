@@ -28,6 +28,8 @@ tags:
   - træningsplanlægning
 meta:
   name: RM-beregner til styrketræning
+  measures: styrke
+  equipment: vægtudstyr
 last_modified_at: 2022-10-04T07:14:14Z
 toc: true
 feature_row_sheet:
@@ -132,6 +134,7 @@ En RM-beregning kan både underestimere og overestimere den aktuelle 1RM for lø
 - **Muskelfibertypesammensætningen** kan også betyde noget for præcisionen af udregningen. Hvis man har en overvægt af type II fibre, kan man forestille sig, at RM-testen vil underestimere 1RM, fordi man ikke er så udholdende ved de submaksimale løft. Omvendt ser det så ud for løftere med en overvægt af de udholdende type I-fibre.
 
 Læs: [Alt om hurtige og langsomme muskelfibertyper](/muskelfibertyper/)
+{: .notice }
 
 Du skal altså have valgt den mest pålidelige algoritme til at bestemme netop din egen 1RM max ud fra alle de forskellige formler, der findes.
 
@@ -173,7 +176,7 @@ Alle de følgende formler til at udregne 1RM er baseret på _gentagelser_ og _v�
 
 Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM giver Epleys formel et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Brzyckis formel til repetition maximum</summary>
 
 ### Brzyckis formel til RM
@@ -183,7 +186,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include motionsplan/math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Epleys formel</summary>
 
 ### Epleys formel
@@ -191,7 +194,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include motionsplan/math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se McGlothins formel</summary>
 
 ### McGlothin
@@ -199,7 +202,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include motionsplan/math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Lombardis formel</summary>
 
 ### Lombardi
@@ -207,7 +210,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include motionsplan/math formula="RM=wr^{0.10}" %}
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Mayhews formel</summary>
 
 ### Mayhew et al.
@@ -215,7 +218,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include motionsplan/math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se O'Conners formel til repetition maximum</summary>
 
 ### O'Conner et al.
@@ -223,7 +226,7 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 {% include motionsplan/math formula="RM=w\left(1+{\frac {r}{40}}\right)" %}
 </details>
 
-<details markdown="1">
+<details markdown="1" class="equation">
   <summary>Se Wathens formel til repetition maximum</summary>
 
 ### Wathen
@@ -249,7 +252,8 @@ Et eksempel:
 
 Hver måned estimerer du din 1RM ved at beregne den ud fra dit submaksimale løft.
 
-{% include motionsplan/readmore.html title="Alt om progression i styrketræning" url="/progressionsmodeller-progressivt-overload/" %}
+Vil du vide mere? [Alt om progression i styrketræning](/progressionsmodeller-progressivt-overload/)
+{: .notice}
 
 ## Regneark med RM-formler
 
@@ -275,7 +279,7 @@ Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion](/rpe/
 
 ## Referencer
 
-<details markdown="1">
+<details markdown="1" class="references">
   <summary>Se referencer</summary>
 
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)

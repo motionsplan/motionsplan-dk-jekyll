@@ -19,17 +19,18 @@
 {% endif %}
 
 {% if include.headline %}
-<div style="position: relative; text-align: center; border-top: 1px solid rgb(241.7,242.5,243.1); border-bottom: 1px solid rgb(241.7,242.5,243.1); margin: 1em 0;">
-  <p style="display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold; unicode-bidi: isolate;">
-    <span style="position: relative; z-index: 5; padding: 0 20px; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; background-color: white;">{{ include.headline }}</span>
-  </p>
+<div class="section-with-lines">
+  <div class="section-title-wrapper">
+    <p class="section-title">
+      <span>{{ include.headline }}</span>
+    </p>
+  </div>
 {% endif %}
 
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {%- for img in gallery -%}
     {%- if img.url -%}
-      <a href="{{ img.url | relative_url }}"
-        {%- if img.title %}title="{{ img.title }}"{%- endif -%}>
+      <a href="{{ img.url | relative_url }}"{%- if img.title %} title="{{ img.title }}"{%- endif -%}>
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>

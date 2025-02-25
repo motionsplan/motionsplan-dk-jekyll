@@ -11,12 +11,13 @@ header:
   alt: "Photo by Mathew Schwartz on Unsplash"
   overlay_filter: 0.2
 category:
-  - Viden om
+  - Anatomi
 tags:
   - anatomi
   - vægt
   - knogler
   - skelettet
+  - faq
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
 feature_row:

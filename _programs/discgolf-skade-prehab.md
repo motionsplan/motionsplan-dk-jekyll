@@ -35,6 +35,7 @@ Discgolf er en frisbeesport, hvor spillerne kaster en disc mod en kurv, og måle
 Sporten blev opfundet i begyndelsen af 1970'erne og er siden blevet mere og mere populær i hele verden. Discgolf kan spilles som fritids- eller konkurrencespil og er en fantastisk måde at dyrke motion på, mens man nyder naturen.
 
 Læs: [Guide til discgolf](/discgolf/)
+{: .notice }
 
 ## Hvilke skader er der i discgolf?
 

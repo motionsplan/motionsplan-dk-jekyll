@@ -8,10 +8,8 @@ header:
   teaser: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "4 mmol-grænsen: Hvad er den aerobe og anaerobe tærskel og mælkesyregrænsen?"
 category:
-  - Viden om
   - Fysiologi
   - Kondition
-  - Løb
 tags:
   - fysiologi
   - forbrænding

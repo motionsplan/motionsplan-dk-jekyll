@@ -7,11 +7,12 @@ header:
   teaser: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: Photo by Taco Fleur on Unsplash
 category:
-  - Viden om
+  - Styrketræning
 tags:
   - fysiologi
   - muskler
   - træningslære
+  - styrketræning
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---

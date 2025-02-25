@@ -17,11 +17,6 @@ tags:
 category:
   - Yoga
 last_modified_at: 2023-01-01T20:41:31Z
-yogastream:
-  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
-    url: https://motionsplan.yogastream.dk
-    title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Bliv medlem af Yogastream og lær yoga"
 ---
 
 Er du også på jagt efter mental ro og indsigt?
@@ -115,5 +110,3 @@ Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så ha
 Du skal naturligvis også lige kigge forbi et af vores mest populære indlæg, som handler om [De Fem Tibetanere og se de fem øvelser](/artikel/de-fem-tibetanere/) eller [yogaøvelserne til Solhilsen](/artikel/solhilsen-a-b-surya-namaskar/).
 
 Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger til yoga og mindfulness meditation](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/interesse/yoga-og-meditation/yoga-og-meditation-musik-og-lyd-cd){: rel="nofollow sponsored noopener" }.
-
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link](https://motionsplan.yogastream.dk){: rel='nofollow sponsored noopener' }." %}

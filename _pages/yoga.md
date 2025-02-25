@@ -17,6 +17,7 @@ category:
   - Træningsformer
 breadcrumbs: true
 classes: wide
+toc: true
 feature_row_restitution:
   - image_path: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Restitution"

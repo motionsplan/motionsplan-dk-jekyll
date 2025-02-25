@@ -67,6 +67,7 @@ Det foreslås, at din landing kan være med til at sige noget om din løbeeffekt
 {% include figure image_path="https://olderyetfaster.com/wp-content/uploads/2020/04/1.jpg" caption="Illustration af løber, der lander på hælen, midtfoden eller på forfoden. Men alle løberne lander foran tyngdepunktslinjen, hvilket kan bremse løberen. Det er altså ikke landingen på foden der afgør, hvor effektive løberne er. Kilde: [olderyetfaster.com](https://olderyetfaster.com/running-myths-explained/changing-foot-strike/)" %}
 
 Læs: [Alt om løbeøkonomi](/lobeokonomi/)
+{: .notice }
 
 ### 3. Dit udstyr
 
@@ -85,6 +86,7 @@ Ud over løbesko så findes der også **kompressionstøj og kompressionsstrømpe
 Studierne her er ikke helt klare, men det er interessant, hvordan udviklingen får betydning for de almindelige motionsløbere.
 
 Læs: [Virker kompressionsstrømper til løb og cykling?](/kompressionsstroemper-restitution-praestation-bivirkninger/)
+{: .notice }
 
 ## Har din landing betydning for din løbehastighed?
 
@@ -118,6 +120,7 @@ Der er mange fordele ved at lave et struktureret løbeprogram:
 - Du kan undgå skader fordi du doserer din træning gradvist.
 
 Læs: [Lav dit eget løbeprogram (Guide)](/guide-til-loebeprogram/)
+{: .notice }
 
 ### 2. Undgå skader
 

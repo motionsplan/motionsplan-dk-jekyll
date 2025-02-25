@@ -9,7 +9,6 @@ header:
   teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Superkompensation: Hvornår er jeg klar til at træne igen?"
 category:
-  - Viden om
   - Træning
 tags:
   - træning

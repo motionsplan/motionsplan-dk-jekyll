@@ -7,11 +7,12 @@ header:
   teaser: https://images.unsplash.com/photo-1551651056-2cb4d5c104be?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Viden om
+  - Anatomi
 tags:
   - muskler
   - fedt
   - vægt
+  - faq
 last_modified_at: 2021-12-28T08:14:14Z
 toc: true
 faq:

@@ -18,6 +18,7 @@ Vanderburgh og Laubach har lavet en formel, så du kan sammenligne løbetider p�
 Vanderburgh og Laubach kalder det for _Flyer Handicap_. Formlen går ud fra, at alle er 25 år gamle. Kvinderne vejer ~50 kg og mændene vejer ~65 kg. Derved kan du sammenligne dine tider med andre, som har forskellige alder og vægt.
 
 Læs: [Alder og løbetider: Sammenlign med aldersgraduerede løbetider](/aldersgraduerede-tider/)
+{: .notice }
 
 ## Hvad er Flyer Handicap?
 
@@ -48,6 +49,7 @@ Handicappet er baseret på det dokumenterede fald, der kommer i den aerobe funkt
 Du kan læse mere om metoden i de nedenstående referencer.
 
 Læs: [Vægttab og løb: Beregn effekten af et vægttab på løbetid](/vaegttab-loebetid/)
+{: .notice }
 
 ## Referencer
 

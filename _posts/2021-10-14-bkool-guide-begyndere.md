@@ -4,7 +4,7 @@ seo_title: "BKOOL cykling på hometrainer: Komplet guide til begyndere"
 permalink: /bkool-begynderguide/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1602840103803-c8b1cc0a7a1a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1601625193660-86f2807b024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
