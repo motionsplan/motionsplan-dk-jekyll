@@ -6,7 +6,6 @@ permalink: /om/
 excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning. Her får du alle detaljerne."
 description: "Lær mere om Motionsplan.dk, et gratis medie drevet af eksperter, der tilbyder evidensbaseret viden om træning, sundhed og fitness."
 author_profile: true
-sitemap: true
 breadcrumbs: true
 toc: true
 feature_row_editorial_process:

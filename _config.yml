@@ -363,10 +363,6 @@ collections:
 # Defaults
 defaults:
   - scope:
-      path: "page"
-    values:
-      sitemap: false
-  - scope:
       path: "assets/pdf/**/*.pdf"
     values:
       sitemap: false

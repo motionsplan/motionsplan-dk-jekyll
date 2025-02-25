@@ -5,7 +5,6 @@ permalink: /om/lars-olesen/
 excerpt: "Lars Olesen, cand.scient. i Idræt og Sundhed, underviser i træning og sundhed og hjælper dig med at optimere din træning med evidensbaserede råd. Læs mere på Motionsplan.dk."
 author_profile: true
 author: lsolesen
-sitemap: false
 breadcrumbs: true
 toc: true
 ---

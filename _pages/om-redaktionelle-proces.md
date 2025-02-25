@@ -4,7 +4,6 @@ title: "Vores redaktionelle process"
 permalink: /om/redaktionelle-proces/
 excerpt: ""
 author_profile: true
-sitemap: false
 breadcrumbs: true
 toc: true
 feature_row_editorial_process:
