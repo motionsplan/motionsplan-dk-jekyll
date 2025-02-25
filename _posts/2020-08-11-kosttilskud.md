@@ -156,8 +156,8 @@ En direkte præstationsfremmende evidensbaseret dosis kræver nok mere, men den 
 Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, men finde din egen
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
-
-— <cite>Nikolaj Bach i [Træningstimen](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/) om Kosttilskud</cite>
+>
+> — <cite>Nikolaj Bach i [Træningstimen](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/) om Kosttilskud</cite>
 
 Læs: [Koffein og træning: Hvordan virker det og hvor meget?](/koffein/)
 {: .notice }
@@ -171,8 +171,8 @@ Umiddelbart er der ikke nogen præstationsfremmende effekt af ekstra D-vitamin. 
 [Thuesen et al (2012)](https://pubmed.ncbi.nlm.nih.gov/22227435/) skønner at 50% af danskerne lider af let D-vitamin-mangel, mens 15% har moderat D-vitamin mangel. Det ser altså ikke ud til, at vi er nok i solen eller spiser nok fed fisk.
 
 > Mængden af sol i Skandinavien er dog for lille til at give en tilstrækkelig D-vitamin-koncentration i størstedelen af året.
-
-— <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hormoner-og-stofskifte/sygdomme/oevrige-sygdomme/d-vitamin-mangel/)</cite>
+>
+> — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hormoner-og-stofskifte/sygdomme/oevrige-sygdomme/d-vitamin-mangel/)</cite>
 
 Men hvordan ved du om du lider af lavt D-vitamin?
 
@@ -206,8 +206,8 @@ Disse kosttilskud kan være interessante, men der er ikke så meget evidens for,
 Mange har sikkert spist fiskeolie som kosttilskud ud fra devicen, at fede fisk har en positiv effekt på sundheden. Men...
 
 > Det mest forbløffende ved fiskeolie er næsten, hvor lidt vi kan sige om det på trods af, at der er lavet så mange studier omkring det.
-
-— <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
+>
+> — <cite>Nikolaj Bach i [Træningstimen om Kosttilskud](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)</cite>
 
 I bedste fald er der en (meget) lille effekt på hjerte-kar-sygdomme eller også er der ingen effekt i de meta-reviews, der er lavet. Der kan være forskellige grunde til, at man ikke har kunnet finde så god evidens for fiskeolien.
 
@@ -229,8 +229,8 @@ Følgende ser ud til i litteraturen at kunne påvirke ens træthed. Hvis du har 
 Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttilskud](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/). Faktisk ville han vælge Probiotika, hvis han kun skulle vælge mellem 1-2 kosttilskud. Det samme siger Justin Roberts, som er lektor i sport, motion og ernæring fra Anglia Ruskin University.
 
 > En stor evidensmængde understøtter indtag af probiotikatilskud. Det har gunstige effekter på helbredet, forbedrer [tarmsundheden og immunresponsen og mindsker den mængde kolesterol, der lagres i kroppen](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4045285/).
-
-— <cite>[Justin Roberts](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv)</cite>
+>
+> — <cite>[Justin Roberts](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv)</cite>
 
 Probiotika består af tarmbakterier. De er afgørende for vores fysiske og mentale helbred.
 

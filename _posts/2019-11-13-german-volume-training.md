@@ -59,8 +59,8 @@ Pauserne skal være omkring 60 sekunder imellem GVT-sættene. Det er en god ide 
 Amirthalingam et al (2017) fandt i et 6 ugers træningsstudium med tre træninger om ugen, at 5x10 virkede bedre ift. armstørrelse, lat pulldowns og bænkpres end 10x10. I dette studium viste ingen af studierne muskelforstørrelse i benene, hvilket måske skyldes at de fik alt for høj volumen.
 
 > "To maximize hypertrophic training effects, it is recommended that 4-6 sets per exercise be performed, as it seems gains will plateau beyond this set range and may even regress due to overtraining."
-
---- <cite>Amirthalingam et al (2017)</cite>
+>
+> --- <cite>Amirthalingam et al (2017)</cite>
 
 Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre havde studiet så få deltagere, at de ikke kunne sige yderligere. Så deres oprindelige anbefaling med 4-6 sæt for muskelhypertrofi står stadig ved magt.
 

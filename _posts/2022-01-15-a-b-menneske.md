@@ -127,8 +127,8 @@ Hvis du lever ude af trit med det biologiske ur, så kan det have forskellige ul
 > Kombinationen af kronisk søvnunderskud, dårlig søvnkvalitet og forstyrrelser af det indre urs naturlige sove-vågen-rytme bidrager til fedmeepidemien, fordi B-mennesker generelt sover for lidt på arbejdsdage, hvis de skal møde tidligt på arbejde. Manglende søvn resulterer nemlig i øget appetit.
 >
 > Et studie viser eksempelvis, at B-mennesker har en væsentligt højere BMI sammenlignet med A-mennesker (Arora og Taheri 2015). Så lyt til dit indre ur, for med hver times socialt jetlag øges din risiko for fedme med 33 procent (Roenneberg et al. 2015).
-
---- <cite>[Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske), forfatter</cite>
+>
+> --- <cite>[Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske), forfatter</cite>
 
 Du kan dykke mere ned i socialt jetlag i denne Youtube-video med Till Roenneberg:
 

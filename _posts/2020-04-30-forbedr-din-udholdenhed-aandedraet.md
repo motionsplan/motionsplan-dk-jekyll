@@ -63,14 +63,14 @@ Din udholdenhed bestemmes af mange forskellige faktorer. Evnen til at få ilt tr
 Cobb skriver, at:
 
 > As I'm gtting tired, some of the first muscles to fatigue in the human body are the muscles of respiration. Now, if you think about us as primarily being a survival driven organism, anything that compromises breathing is going to be a big threat.
-
---- <cite>[Dr. Cobb](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
+>
+> --- <cite>[Dr. Cobb](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
 
 Så når man fx er ude at løbe og åndedrætsmusklerne udtrætter som noget af det første og ikke effektivt kan understøtte lungernes arbejde, så bliver man træt.
 
 > A lot of the research studies compare the device I’m about to show you, or a device similar to what I’m about to show you, to people doing 90 to 120 minutes of interval work per week, and we see very similar benefits to 7 minutes, versus 90 to 120 minutes.
-
---- <cite>[Dr. Cobb](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
+>
+> --- <cite>[Dr. Cobb](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
 
 Det er også årsagerne til, at du efterhånden er begyndt at få reklamer for forskellige apparater, der kan være med til at træne dit åndedræt. Fælles for apparaterne som fx Expand-a-Lung, [Relaxator](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener){: rel='sponsored nofollow noopener' } og Airofit er, at du trækker vejret gennem en modstand. Derved træner du åndedrætsmusklerne.
 
@@ -104,8 +104,8 @@ Du kan læse lidt mere om vejrtrækning og åndedræt og effekten på det parasy
 [Netdoktor](https://www.netdoktor.dk/nyheder/saadan-falder-du-i-soevn-paa-et-minut.htm) lover at du falder i søvn på et minut, hvis du bruger denne teknik til at trække vejret.
 
 > Den amerikanske læge og sundhedsekspert Andrew Weil mener at have fundet den ultimative metode til at falde i søvn. Metoden kaldes '4, 7, 8-metoden' eller 'The Relaxing Breath' ('det afslappende åndedræt') og skulle efter sigende kunne få folk til at falde i søvn på bare et enkelt minut.
-
-— <cite>[Netdoktor](https://www.netdoktor.dk/nyheder/saadan-falder-du-i-soevn-paa-et-minut.htm)</cite>
+>
+> — <cite>[Netdoktor](https://www.netdoktor.dk/nyheder/saadan-falder-du-i-soevn-paa-et-minut.htm)</cite>
 
 Sådan laver du åndedrætsøvelsen 4-7-8-metoden:
 

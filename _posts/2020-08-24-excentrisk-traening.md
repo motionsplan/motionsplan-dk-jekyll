@@ -70,8 +70,8 @@ Schoenfeld et al (2017) gennemgik den eksisterende litteratur systematisk og ide
 Når de samlede studierne, så medførte exentrisk træning en muskelvækst på 10,0%, mens koncentrisk træning havde en muskelvækst på 6,8%.
 
 > Omend den statistiske effekt size, som er et mål for hvor stærk effekten er, var større for excentrisk træning, så nåede forskellen ikke helt statistisk signifikans. Men med en relativt lav p-værdi  på 0,076 (under 0,05 er statistisk signifikant), har vi altså stadig at gøre med en forskel, der med over 90% sikkerhed ikke er opstået ved en tilfældighed.
-
-— <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/ny-meta-analyse-stoerre-2598c1.html)</cite>
+>
+>— <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/ny-meta-analyse-stoerre-2598c1.html)</cite>
 
 Nikolaj Bach påpeger imidlertid flere udfordringer ved fortolkningen af studiet.
 
@@ -100,8 +100,8 @@ Det viser sig, at [excentrisk træning beskytter mod fibersprængninger i baglå
 [Proske og Morgan (2001)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278966/) foreslår, at den excentriske træning kan være med til at beskytte musklerne. Hvis du laver et hårdt excentrisk træningspas, så vil du blive meget øm i musklerne bagefter. Du vil opleve _delayed onset muscle soreness (DOMS)_. Men allerede næste gang du laver en lignende træning, så vil smerterne være meget mindre.
 
 > This is the result of an adaptation process. One proposed mechanism for the adaptation is an increase in sarcomere number in muscle fibres. This leads to a secondary shift in the muscle's optimum length for active tension.
-
-— <cite>[Proske og Morgan (2001)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278966/)</cite>
+>
+> — <cite>[Proske og Morgan (2001)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278966/)</cite>
 
 Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](https://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet.
 

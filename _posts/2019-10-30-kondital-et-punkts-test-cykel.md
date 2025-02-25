@@ -129,8 +129,8 @@ Der er også lavet en tabel med [korrektionsfaktorer til alderskorrektion](https
 Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at estimere den maksimale iltoptagelse korrekt. Usikkerheden hører bl.a. sammen med de store individuelle forskelle, der er i folks [max-puls](/test-max-puls/), selvom de har samme alder.
 
 > Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil få vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}</cite>
 
 Åstrands etpunktstest kan imidlertid sagtens bruges til at måle ændringer i konditionen over tid. Du behøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at din kondition er blevet bedre.
 

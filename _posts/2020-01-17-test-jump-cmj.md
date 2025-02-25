@@ -102,8 +102,8 @@ Jump Height = 9.81 * (flight time)<sup>2</sup> / 8
 > The flight time method is reliable and had low intra-participant
 variability, but it cannot be recommended for a vertical jump when comparing with others (such as at
 tryouts) because of the potential “cheating” effect of differences in landing posture
-
---- <cite>[Yamashita (2020)](https://www.mdpi.com/2076-3417/10/3/776/pdf)</cite>
+>
+> --- <cite>[Yamashita (2020)](https://www.mdpi.com/2076-3417/10/3/776/pdf)</cite>
 
 ## Hvad skal jeg være opmærksom på i disse hoppetests?
 

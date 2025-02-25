@@ -120,16 +120,16 @@ Hvis du gerne vil have et mere præcist tal, der er baseret på en helt specifik
 ## Hvordan spiller kropsbygning ind på idealvægten?
 
 > Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10 % af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8 % i hver retning.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 
 Jeg har derfor inkluderet en mulighed for at vælge din kropstype i beregneren, så idealvægtberegneren tager højde for skeletbredden.
 
 ## Hvor stor er usikkerheden på idealvægt?
 
 > I de fleste undersøgelser øges risikoen kun ganske let selv om BMI-værdien ligger et par BMI-point fra det optimale. Det betyder i praksis, at hvis din reelle vægt ligger indenfor +/- 6 kg af idealvægten, så er det stadig indenfor det optimale område.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 
 ## Andre typer målinger af normalvægt og gennemsnitsvægt
 
@@ -142,8 +142,8 @@ Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om fo
 ## Hvad er gennemsnitsvægt i forhold til idealvægt?
 
 > Mens overvægtsudviklingen blandt danske mænd og børn ser ud til at være stagneret, er danske kvinder i gennemsnit blevet tungere i løbet af de sidste ti år, og mere end fire ud af ti er nu overvægtige eller svært overvægtige. Dermed er kvinderne ved at indhente de danske mænd, hvor godt hver anden er overvægtig eller svært overvægtig. Den andel af kvinderne, der klassificeres som svært overvægtige, er også steget. Det viser nye tal fra DTU Fødevareinstituttet.
-
---- <cite>[DTU Fødevareinstitutttet](https://www.food.dtu.dk/nyheder/2015/09/danske-kvinders-vaegt-gaar-fortsat-opad)</cite>
+>
+> --- <cite>[DTU Fødevareinstitutttet](https://www.food.dtu.dk/nyheder/2015/09/danske-kvinders-vaegt-gaar-fortsat-opad)</cite>
 
 ## Konklusion
 

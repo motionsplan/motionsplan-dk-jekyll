@@ -217,8 +217,8 @@ I forbindelse med Tour de France-feberen kunne du også læse denne historie.
 Den professionelle cykelrytter, Andreas Kron, som kører for Lotto Soudal har i 2022-sæsonen forberedt sig på de ekstreme temperaturer i Europa.
 
 > \- Jeg har tidligere haft problemer med varmen. Så jeg har forsøgt at vænne min krop til det ved at lave varmetræning.
-
---- <cite>[Andreas Kron, professionel cykelrytter](https://ekstrabladet.dk/sport/cykling/dansker-varmetraener-med-regntoej-og-hue/9347340)</cite>
+>
+> --- <cite>[Andreas Kron, professionel cykelrytter](https://ekstrabladet.dk/sport/cykling/dansker-varmetraener-med-regntoej-og-hue/9347340)</cite>
 
 Han har både kørt Schweiz Rundt og Tour de France, hvor flere etaper blev kørt i op mod 40 graders varme.
 
@@ -227,8 +227,8 @@ Andreas Kron gjorde følgende:
 > \- Jeg har siddet på en kondicykel indenfor i stuen med regntøj, vintertøj, hue og det hele. Det gjorde jeg i de sidste fem uger op mod Schweiz Rundt og igen i tiden op mod Touren.
 >
 > \- 50 minutter ad gangen fem gange om ugen.
-
---- <cite>[Andreas Kron, professionel cykelrytter](https://ekstrabladet.dk/sport/cykling/dansker-varmetraener-med-regntoej-og-hue/9347340)</cite>
+>
+> --- <cite>[Andreas Kron, professionel cykelrytter](https://ekstrabladet.dk/sport/cykling/dansker-varmetraener-med-regntoej-og-hue/9347340)</cite>
 
 Det virkede for Andreas Kron.
 

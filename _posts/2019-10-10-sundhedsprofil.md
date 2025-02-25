@@ -64,8 +64,8 @@ Sundhed fylder megt i samfundet. Men hvad er sundhed egentlig? Morten Zacho har 
 Sundhedsprofilen viser et øjebliksbillede af din nuværende sundhed og livsstil.
 
 > Motion-online’s Sundhedsprofil er tænkt som et værktøj der kan bruges af alle – både private og professionelle. Vi har derfor lagt vægt på en let tilgængelig og pædagogisk brugerflade samt et evidensbaseret fundament for test og resultatberegning. I denne artikel gives de bagvedliggende principper og referencer.Sundhed kan beskrives på mange forskellige måder. I Motion-online’s sundhedsprofil tages der udgangspunkt i variable, der er relateret til fysisk sundhed, set som muligheden for at leve et langt liv uden sygdomme og med en høj grad af fysisk funktion gennem hele livet.
-
---- <cite>[Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 Oprindeligt var sundhedsprofilen udviklet på dansk, men nu findes den kun på engelsk. Så det kan være, at du skal have ordbogen frem.
 {: .notice .notice--info }
@@ -143,8 +143,8 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 > ### Smidighed
 >
 > Smidighed er nok den mindst vigtige af de anvendte faktorer, men ikke desto mindre, så er god bevægelighed væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Selvom sammenhængen er en anelse spekulativ, så er det dog rimeligt at antage en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at oprethold en god holdning i både hvile og under aktivitet, hvilket har betydning for opståen af rygproblemer.
-
---- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+>
+> --- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 [Test din smidighed]({% link _posts/2020-09-11-smidighedstest.md %}){: .btn .btn--large .btn--success }
 
@@ -157,8 +157,8 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 > ### Samlet scoring
 >
 > Ikke alle elementer tæller lige meget i den samlede score. Det trækker fx meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
-
---- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+>
+> --- <cite> [Morten Zacho](https://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 {% endcomment %}
 
@@ -179,16 +179,16 @@ Der er virkelig mange forskellige onlineværktøjer, hvor du kan teste forskelli
 ## Health-calc
 
 > On this site you will find calculators and utilities related to health, exercise and diet. All utilities on this site are well-proven and scientifically based tools and scientific references are provided where relevant. Health-calc.com is owned and developed by exercise physiologist Morten Zacho (M.Sc.).
-
----<cite>[About Health-calc.com](https://www.health-calc.com/miscellaneous/about-health-calc)</cite>
+>
+> ---<cite>[About Health-calc.com](https://www.health-calc.com/miscellaneous/about-health-calc)</cite>
 
 ## Omnicalculator
 
 På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalculator.com/health), hvor du kan udregne BMI, kropsform, fedtprocent og meget andet. Husk vi har også [beregnere](/beregnere-tests/), hvor du bl.a. kan [udregne BMI](/bmi-beregner/).
 
 > Omni Calculator is here to change all that - we are working on a technology that will turn every* calculation-based problem trivial to solve for anyone.
-
----<cite>[About](https://www.omnicalculator.com/)</cite>
+>
+> ---<cite>[About](https://www.omnicalculator.com/)</cite>
 
 ## Anden inspiration om testning af sundhed og fitness
 

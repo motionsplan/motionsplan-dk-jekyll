@@ -93,8 +93,8 @@ Testen er lavet på datamateriale, men du bliver selv bedt om at give et bud på
 De konkluderer i deres studium følgende:
 
 > The most accurate predicted values of VO2max were obtained based on the linear regression of VO2max against the mean power output (WM) in the 2-km test using the following formulas: VO2max (l•min-1) in the males = 1.682+0.0097 WM; VO2max (l•min-1) in the females = 1.631+0.0088 WM.
-
---- <cite>[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer)</cite>
+>
+> --- <cite>[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer)</cite>
 
 For at få estimeret konditallet, så kan vi altså bruge _mean power output_ på 2-kilometer testen i roning til at estimere den maksimale iltoptagelse.
 

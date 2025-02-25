@@ -54,8 +54,8 @@ Talje/hofte-ratioen er et mål, hvor du sætter taljeomkredsen i forhold til hof
 Wikipedia skriver om talje-hofte-ratioen:
 
 > **Talje-hofte forholdet**, **talje-hofte målet**, **æble-pære indekset** eller **talje-hofte ratio** (**THR**) er en måde at beskrive forholdet mellem talje- og hoftevidden. Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
-
---- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
+>
+> --- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
 
 Forholdet mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon. WHR kan afspejle den intraabdominale fedme.
 

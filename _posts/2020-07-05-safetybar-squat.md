@@ -48,8 +48,8 @@ Det handler nemlig om, at der skal være de rigtige vinkler i safety baren, så 
 En safety squat stang skal naturligvis være konstrueret på den rigtige måde, hvis man vil have alle fordelene.
 
 > Watson er ingen garanti for kvalitet. Deres Safety Bar fx er en vederstyggelighed. Absurd fejldesign, og de sletter bemærkninger desangående på YT (Youtube, red.).
-
---- <cite>[Simon Bigshooter](https://supertraining.dk/146-qa-squats-leg-curls/)</cite>
+>
+> --- <cite>[Simon Bigshooter](https://supertraining.dk/146-qa-squats-leg-curls/)</cite>
 
 Vinklen mellem puderne og vægtene skal så vidt jeg har kunnet finde ud af være 22 grader. Nogle stænger har for lille vinkel, og Watsons Safety Bar har for stor en vinkel.
 
@@ -79,8 +79,8 @@ Hecker et al (2018) fandt i deres studium, hvor de sammenlignede back squats og 
 > This means that the difference in total load was only about 6.3%, not 11.3%. However, the mean EMG differences for the hamstrings and the vastus lateralis were 10.2-20.6%, which are larger than would be expected based solely on differences in loading.
 >
 > (...) So, I wonder if the EMG differences in this study may be partially attributable to differences in comfort and technical proficiency with the two bars.
-
---- <cite>[Greg Nuckols](https://www.strongerbyscience.com/safety-bar-squats/)</cite>
+>
+> --- <cite>[Greg Nuckols](https://www.strongerbyscience.com/safety-bar-squats/)</cite>
 
 Meldrum og DeBeliso (2018) fulgte baseball spillere, og der var squat med safety bar mindst lige så effektiv til at være støttetræning til vertikal hop og sprint som almindelig squat.
 
@@ -102,8 +102,8 @@ Mange har troet at det er Fred Hatfield, der har opfundet safety baren, men det 
 At Hatfield får æren for opfindelsen er formentlig, fordi han ikke har gjort noget særligt for, at han ikke skulle have æren for det.
 
 > Hatfield became aware of the Safety Bar. If rumours are to be believed, he relied heavily upon it as part of his training. Thus in the aftermath of his triumph Dr. Squat began publishing the advantages of the safety squat bar, began producing his own and generally associating himself with it at every turn. The lifting community being what it is, Hatfield and not Hoagland, became seen as its inventor.
-
---- <cite>[Conor Heffernan](https://physicalculturestudy.com/2020/04/03/the-history-of-the-cambered-bar-3/)</cite>
+>
+> --- <cite>[Conor Heffernan](https://physicalculturestudy.com/2020/04/03/the-history-of-the-cambered-bar-3/)</cite>
 
 Hatfield mente, at safety bar squats er almindelige squats overlegne, og at de er mere skånsomme over for knæ og lænd. Hvordan det er i virkeligheden afhænger naturligvis af kropsbygning og squat-teknik.
 
@@ -133,8 +133,8 @@ Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 [Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler imidlertid også denne safety bar fra Titan. Garagegymreviews.com er uden tvivl et _affiliate_ site, men gennemgangen af de forskellige _safety bars_ er virkelig grundig.
 
 > [Titan Safety Squat Bar V2](https://www.titan.fitness/strength/barbells/specialty/safety-squat-olympic-bar-%7C-v2/430063.2.html) is the best Safety Squat Bar for most people. Our previous pick was the EliteFTS SS Yoke Bar; although we still love the SS Yoke, version two of the Titan SSB is almost identical at a much lower price, especially when shipping is considered. It features heavy-duty steel, removable handles, thick padding, and chrome plating. There isn't a warranty which is unfortunate, but we doubt you'll ever need to use it.
-
---- <cite>[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
+>
+> --- <cite>[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
 
 ## Referencer
 

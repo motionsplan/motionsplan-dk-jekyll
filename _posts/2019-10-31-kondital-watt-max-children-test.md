@@ -54,8 +54,8 @@ Dette er en modificeret udgave af [Watt-max-testen for voksne](/kondital-wattmax
 Watt-max-testen til børn er baseret på testen til voksne, men der arbejdes med en anden stigning i belastning.
 
 > Testen er valideret på en elektronisk Monark-cykel, der automatisk holder den indstillede watt-belastning. Testen blev typisk stoppet, hvis kadencen faldt til under 30 RPM.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20150403145124/http://www.motion-online.dk/konditionstraening/testning/watt-max-test-for-boern/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20150403145124/http://www.motion-online.dk/konditionstraening/testning/watt-max-test-for-boern/){:rel="nofollow"}</cite>
 
 Wedderkopp et al (2004) anbefaler, at hvis børnene vejer mindre end 30 kg, så skal de bruge et mindre spring i belastning undervejs. Derfor har jeg lavet beregneren, så du både kan bruge den med 20 watt (for børn under 30 kg) og 25 watt (for børn over 30 kg).
 

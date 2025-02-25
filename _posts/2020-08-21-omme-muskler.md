@@ -49,8 +49,8 @@ Den primære grund til, at du kan ende med at få ondt i musklerne efter trænin
 Det handler altså først og fremmest om belastning. Hvis du stille og roligt vænner dig til træningen og træningsbelastningen gennem **progressivt overload**, så vil du på samme måde ikke opleve ømhed i musklerne.
 
 > Hvor øm, du bliver, kommer helt an på, hvor meget mere du har belastet musklerne, end du plejer. Er det en halv times intens fodbold til firmafesten og tyve år siden, du sidst gjorde det, kan de første skridt på dagen opleves som decideret smertefulde. Derimod vil den ømhed, der kommer efter træning, som kun var lidt hårdere end sædvanligt, være en let ømhed, siger han.
-
-— <cite>[Flemming Enoch](https://web.archive.org/web/20220930032104/https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm){: rel="nofollow noopener"}, specialist i idrætsfysioterapi og genoptræning</cite>
+>
+> — <cite>[Flemming Enoch](https://web.archive.org/web/20220930032104/https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm){: rel="nofollow noopener"}, specialist i idrætsfysioterapi og genoptræning</cite>
 
 Du kan altså forebygge ømhed i musklerne efter træning ved at bygge din træning fornuftigt op. Typisk kan du måske øge mængden af træning med omkring 5% om ugen, og på den måde kan du undgå at få ømme muskler.
 
@@ -79,8 +79,8 @@ Mikroskader i musklerne er den dominerende forklaringsmodel for, hvad der skaber
 En anden forklaring på ømhed i musklerne er, at der under fysisk arbejde skabes små **mikroødelæggelser og bristninger i musklerne**.
 
 > Mikroskaderne medfører en lille betændelsesreaktion, en inflammation, som er en normal del af, at musklen heler op.
-
-— <cite>[Flemming Enoch](https://web.archive.org/web/20220930032104/https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm){: rel="nofollow noopener"}, specialist i idrætsfysioterapi og genoptræning</cite>
+>
+> — <cite>[Flemming Enoch](https://web.archive.org/web/20220930032104/https://netdoktor.dk/sunde-raad/sport-og-motion/derfor-faar-du-oemme-muskler-efter-fysisk-aktivitet.htm){: rel="nofollow noopener"}, specialist i idrætsfysioterapi og genoptræning</cite>
 
 Ømhed i musklerne skabes højst sandsynligt af små rifter eller skader i muskulaturen, som opstår, når vi foretager en uvant bevægelse med høj belastning over længere tid end vi plejer.
 
@@ -89,8 +89,8 @@ Mikroskaderne skaber en betændelsesreaktion, der kan forårsage smertefulde og 
 Men teorien indeholder flere usikkerheder.
 
 > Forskerne har for eksempel ikke fundet en sammehæng mellem, hvor ømme vi føler os, og hvor beskadigede musklerne er. Skaderne opstår jo under træningen, men vi føler os ikke ømme i løbet af træningen eller umiddelbart efter.
-
-— <cite>[Kristoffer Toldnes Cumming](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
+>
+> — <cite>[Kristoffer Toldnes Cumming](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
 
 Mikroskaderne i musklerne er altså ikke nødvendigvis eneansvarlige for, hvor ømme vi føler os efter træningen. En af udfordringerne er, at det er vanskeligt at finde en standard for ømhed. Smerte er meget individuel.
 
@@ -101,14 +101,14 @@ Calcium kan måske være årsag til muskelømhed, fordi det muligvis spiller en 
 Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med sit Phd-projekt på Århus Universitet, fortæller, at forskningen ganske enkelt stadig ikke har har fuld klarhed over, hvad der forårsager andendagsømhed.
 
 > Det er også foreslået, at calcium kan spille en rolle i forbindelse med muskelskade og ømhed. Enten fordi det ved mikroskader i muskelcellens infrastruktur skabt af fx excentriske kontraktioner kan infiltrere muskelcellen og sætte gang i proteolyse gennem calcium-signalering.
-
-— <cite>Jesper Emil Jakobsgaard</cite>
+>
+> — <cite>Jesper Emil Jakobsgaard</cite>
 
 Proteolyse er den kemiske proces, hvor proteiner bliver nedbrudt til aminosyrer gennem en spaltning. Jesper Emil Jakobsgaard fortsætter:
 
 > Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter [træningspas med okklusionstræning](/introduktion-okklusionstraening/), og som kan være på højde med tung excentrisk træning.
-
---- <cite>Jesper Emil Jakobsgaard</cite>
+>
+> --- <cite>Jesper Emil Jakobsgaard</cite>
 
 Teorien om calciums rolle i muskelømhed skal altså stadig ses i sammenhæng med teorien om, at muskelskader er med til at skabe ømhed i musklerne.
 
@@ -145,8 +145,8 @@ Der er med andre ord ikke et middel mod ømme muskler, selvom mange produkter lo
 Du skal huske ikke at måle træningsindsatsen og udbyttet af træning efter, hvor øm du er.
 
 > Det gælder om ikke at overbelaste sig selv så meget, at man ikke kan træne igen før to eller tre dage senere. Og man kan jo nok også godt selv se, at det ikke er en god fremgangsmetode. Men en smule ømhed er ikke farlig. Det tyder på, at du har været udsat for nok belastning.
-
-— <cite>[Jan Helgerud](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
+>
+> — <cite>[Jan Helgerud](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
 
 ## Hvordan kan jeg dæmpe ømheden i musklerne?
 
@@ -157,8 +157,8 @@ Hvis du nu allerede er blevet øm i musklerne, så synes jeg ofte, at det kan hj
 Du kan bruge **udspænding og udstrækning** dagen efter også til at få bevæget kroppen og øge blodgennemstrømning. Udstrækning i forbindelse med træningen forebygger desværre ikke ømhed dagen efter.
 
 > Visse fund tyder på, at strækøvelser faktisk kan gøre ondt værre. Men det betyder ikke, at man skal holde op med at strække ud af den grund. Man laver strækøvelser for at opretholde normal bevægelighed.
-
-— <cite>[Jan Helgerud](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
+>
+> — <cite>[Jan Helgerud](https://videnskab.dk/krop-sundhed/er-det-godt-at-traene-hvis-man-er-oem) på videnskab.dk</cite>
 
 Der er dog ikke nogen mirakelkur for ømme muskler ud over, at tiden går. Den videnskabelige litteratur har ikke kunnet vise effekt af hverken massage, kuldeterapi, kompressionstøj, antioxidanter, proteintilskud eller strækøvelser på andendagsømhed.
 
@@ -183,14 +183,14 @@ Du skal også huske, at du sagtens kan træne andre bevægelser og muskelgrupper
 Desværre florerer der en del tvivlsomme teorier om ømhed efter træning. Selv på [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/) skriver de følgende under deres faktaboks:
 
 > Muskulaturen påvirkes, og muskelfibre vil forsvinde. (...) Enhver form for mere omfattende fysisk træning fører til, at nogle af muskelfibrene i muskulaturen nedbrydes.
-
-— <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
+>
+> — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
 
 Der er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvinder ikke i løbet af træningen. Der kan imidlertid forekomme små mikroskader i muskelfibrene.
 
 > Et typisk eksempel på dette er sprintere, som "stivner" på opløbssiden lige før målstregen. Musklerne syrer til, fordi der ophobes mælkesyre. En sådan ophobning af affaldsprodukter i muskulaturen vil føre til, at du føler dig øm og stiv dagen efter træning.
-
-— <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
+>
+> — <cite>[Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/knogler-muskler-og-led/sygdomme/sportsmedicin/oemme-muskler-efter-traening/)</cite>
 
 Det er efter al sandsynlighed ikke [mælkesyren](/maelkesyre-traening/), der gør, at man ikke længere kan arbejde med samme intensitet. Mælkesyren beskytter nok snarere musklerne. Derfor er det også usandsynligt, at mælkesyren gør kroppen øm og stiv dagen efter træning. Men der kan naturligvis med meget intensive aktiviteter og anaerob træning være en tendens til flere mikroskader i musklerne.
 

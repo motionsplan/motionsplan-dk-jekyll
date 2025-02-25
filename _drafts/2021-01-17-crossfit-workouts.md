@@ -49,8 +49,8 @@ Lad os dykke lidt ned i Girls workouts og Hero Workouts fra de forskellige Cross
 En del af de forskellige crossfit workouts har pigenavne. Det er der faktisk en ret enkel forklaring på.
 
 > I thought that anything that left you flat on your back, looking up at the sky asking 'what just happened to me?' deserved a females name. Workouts are just like storms, they wreak havoc on towns.
-
-— <cite>Greg Glassman, stifter af Crossfit</cite>
+>
+> — <cite>Greg Glassman, stifter af Crossfit</cite>
 
 Det er hårdt arbejde at gennemføre de enkelte workouts, som typisk tager fra 5-20 minutter at gennemføre. Nogle af de mest kendte Crossfit Workouts er følgende:
 

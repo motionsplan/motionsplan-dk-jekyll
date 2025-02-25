@@ -37,8 +37,8 @@ Men det afhænger faktisk af hvordan, du tæller. Så hvor mange muskler er der 
 Paul Ingraham skriver på [Painscience](https://www.painscience.com/articles/how-many-muscles.php):
 
 > It’s surprisingly hard to tell. You wouldn’t think the total number would be ambiguous, but it’s difficult to know what to include and exclude, and anatomists don’t always agree.
-
-— <cite>[Paul Ingraham](https://www.painscience.com/articles/how-many-muscles.php)</cite>
+>
+> — <cite>[Paul Ingraham](https://www.painscience.com/articles/how-many-muscles.php)</cite>
 
 ## Hvor mange muskeltyper har mennesket?
 

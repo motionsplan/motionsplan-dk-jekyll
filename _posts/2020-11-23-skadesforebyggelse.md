@@ -46,8 +46,8 @@ Du kan finde mere inspiration til en aktuelle forskning omkring skader, forebygg
 [Lorenz og Reiman (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/) samler op på den daværende viden om excentrisk træning i forhold til *prehab* og *rehab*:
 
 > The purpose of this Clinical Commentary is to discuss the physiologic mechanism of eccentric exercise as well as to review the literature regarding the utilization of eccentric training during rehabilitation. A secondary purpose of this commentary is to provide the reader with a framework for the implementation of eccentric training during rehabilitation of tendinopathies, muscle strains, and after ACL reconstruction.
-
---- <cite>[Lorenz og Reiman (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/)</cite>
+>
+> --- <cite>[Lorenz og Reiman (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/)</cite>
 
 Den artikel er et godt sted at starte, hvis du vil vide mere om de **fysiologiske mekanismer bag effekten af excentrisk træning i forhold til skadesforebyggelse og genoptræning efter skader**.
 

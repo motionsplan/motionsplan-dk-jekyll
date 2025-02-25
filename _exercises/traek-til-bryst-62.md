@@ -134,8 +134,8 @@ Bredden af dit greb ændrer hovedsageligt det bevægeudslag, du kan lave. Der er
 Andersen et al (2014) undersøgte effekten af grebsbredde i forhold til muskelaktiveringen med EMG. Forskerne konkluderer, at det er godt at veksle mellem smalt, medium og bredt greb ved pulldowns, men at der er mindre forskelle i den koncentriske og excentriske fase.
 
 > There was similar EMG activation between grip widths for latissimus, trapezius, or infraspinatus, but a tendency for biceps brachii activation to be greater for medium vs. narrow (p = 0.09), when the entire movement was analyzed. Analyzing the concentric phase separately revealed greater biceps brachii activation using the medium vs. narrow grip (p = 0.03). In the eccentric phase, there was greater activation using wide vs. narrow grip for latissimus and infraspinatus (p ≤ 0.04), and tendencies for medium greater than narrow for latissimus, and medium greater than wide for biceps (both p = 0.08), was observed.
-
---- <cite>[Andersen et al (2014)](https://pubmed.ncbi.nlm.nih.gov/24662157/)</cite>
+>
+> --- <cite>[Andersen et al (2014)](https://pubmed.ncbi.nlm.nih.gov/24662157/)</cite>
 
 Samlet set så har et medium greb formentlig en mindre fordel i forhold til muskelaktivering i forhold til bredt og smalt greb.
 

@@ -75,8 +75,8 @@ Anders Krintel fortæller selv, at man langsomt skal vænne sig til at roning p�
 > På romaskine plejer jeg at styre de fleste træningsprogrammer efter intensitet. Man kan godt gøre en masse fancy med pulszoner, men det kan hurtigt blive for indviklet. Jeg plejer at sige, at man skal være træt til sidst.
 >
 > Det er sådan et underligt nederlag, hvis man ikke kan gennemføre træningen, men det er også et antiklimaks, hvis man sidder til sidst og tænker, at det er alt for let.
-
---- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
+>
+> --- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
 
 Du kan altså bruge en anstrengelsesskala til at styre din intensitet i træningen, så du rammer nogenlunde det, du har forberedt. Anders Krintel foreslår, at hvis du træner 4 x om ugen, så er der tre længere træningspas med lavere intensitet og et rigtig hårdt træningspas.
 
@@ -92,8 +92,8 @@ Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg-skala/), de
 Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger i de enkelte intervaller.
 
 > Du kan jo sagtens ro 30 sekunder med 30 sekunders aktiv hvile, hvor det er utrolig hårdt, men du kan også slappe lidt mere af arbjedsintervallet og på den måde have et langt træningspas, der kører på den måde. Du kan selv lære at styre intensiteten, som du kommer i bedre form.
-
---- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
+>
+> --- <cite>[Anders Krintel](https://www.ropro.dk/)</cite>
 
 Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne](/energisystemer/).
 

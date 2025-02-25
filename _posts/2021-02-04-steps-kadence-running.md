@@ -64,8 +64,8 @@ For at blive en hurtigere løber skal du enten tage flere skridt eller tage læn
 [van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/) undersøgte rekreative løbere og kadencen. Selvom det ser ud til, at 180 fungerer godt for eliteløbere, så er det tvivlsomt, at den kadence er bedst for alle. De fik folk til at løbe med forskellige kadence og forsøgte at finde løbernes optimale kadence i forhold til pulsen.
 
 > We conclude that over the speed range tested, inexperienced runners may not need to adapt their SF to running speed. However, since SF<sub>self</sub> were lower than the SF<sub>opt</sub> of 83 strides·min-1, the runners could reduce HR by increasing their SF<sub>self</sub>.
-
---- <cite>[van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/)</cite>
+>
+> --- <cite>[van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/)</cite>
 
 Studiet indikerer, at løberne kunne få en lavere puls ved at forøge deres løbekadence, hvilket i sig selv er interessant. Også selvom kadencen ikke blev øget til 180 SPM. De får altså lavere puls ved at øge skridtfrekvensen, hvilket tyder på, at kroppen arbejder mindre hårdt. Og det helt uden en tilvænningsperiode.
 
@@ -82,8 +82,8 @@ Det kunne være interessant at kigge på iltoptagelsen ved de forskellige løbek
 En metronom kan være med til at hjælpe dig med at fokusere på at få en hurtigere løbekadence.
 
 > Løb er rytme allerede. Dit åndedræt, der pruster rytmisk, hjertet der slår taktfast, og dine fødder som rammer jorden. 1-2-3-4.
-
-— <cite>[Vores Puls](https://vorespuls.dk/loeb/artikler/loebestil-med-flere-skridt-brug-metronom)</cite>
+>
+> — <cite>[Vores Puls](https://vorespuls.dk/loeb/artikler/loebestil-med-flere-skridt-brug-metronom)</cite>
 
 Hvis du gerne vil træne din løbekadence, så er det vigtigt, at du langsomt skruer den op til den nye ønskede kadence. Derfor skal du først finde din nuværende kadence. Du skal derfor prøve at sætte metronomen til din nuværende naturlige kadence.
 
@@ -123,8 +123,8 @@ Det er altså lidt misvisende, når [Aktiv Træning](https://aktivtraening.dk/tr
 > Du har sikkert undret dig over, hvordan verdenseliten kan løbe så ufattelig hurtigt. En ny undersøgelse giver noget af forklaringen. Forskere fra det franske sportsinstitut i Paris satte luppen på 400-meter-løbere fra verdenseliten og seriøse amatørløbere.
 >
 > Det viste sig hurtigt, at skridtlængden var helt afgørende. Når eliten nåede topfarten, tog de i gennemsnit 2,53 meter lange skridt, mens amatørerne kun tog 2,35 meter lange skridt.
-
-— <cite>[Aktiv Træning](https://aktivtraening.dk/traening/loeb/loebestil/laengere-skridt-giver-hurtigere-loeb)</cite>
+>
+> — <cite>[Aktiv Træning](https://aktivtraening.dk/traening/loeb/loebestil/laengere-skridt-giver-hurtigere-loeb)</cite>
 
 Der var 18 centimeter forskel pr. skridt i den gennemsnitlige skridtlængde under løb for mandlige eliteløbere og amatører på 400-meterdistancen. Det betød faktisk, at eliteløberne tog 5 procent færre skridt for at nå i mål.
 
@@ -139,8 +139,8 @@ Styrketræning er effektivt både til at forebygge skader, forbedre løbeøkonom
 [Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/) undersøgte en mindre interventionsgruppe, der lavede fire sæt med fire gentagelser af halve squats med 3 minutters pause mellem hvert sæt. De trænede 3 dage om ugen i 8 uger ud over deres normale udholdenhedstræning. Progressionen foregik ved, at hvis løberne kunne lave fem gentagelser i et sæt, så blev der sat 2,5 kg mere på i næste sæt. Kontrolgruppen fortsatte bare deres almindelige løbetræning.
 
 > The intervention manifested significant improvements in 1RM (33.2%), RFD (26.0%), RE (5.0%), and time to exhaustion at MAS (21.3%). No changes were found in VO2max or body weight. The control group exhibited no changes from pre to post values in any of the parameters.
-
-— <cite>[Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/)</cite>
+>
+> — <cite>[Støren et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18460997/)</cite>
 
 Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løbeøskonomien og forbedrede tiden til udmattelse ved den maksimale aerobe hastighed (MAS) for allerede veltrænede langdistanceløbere.
 

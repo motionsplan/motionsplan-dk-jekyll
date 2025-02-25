@@ -39,8 +39,8 @@ Når man holder pause, så aktiverer man naturligvis ikke længere vækstfaktore
 [Brian Henneberg](https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html) beskriver fysiologien bag atrofi yderligere i sin artikel, hvor han går mere i dybden med muskelfysiologien og de proteinnedbrydende processer.
 
 > Skal vi gøre det lidt billedligt, for forståelsens skyld, så medfører aktiveringen af UPP, at der bliver sat en slags ’ødelæg mig’ mærkater på muskelproteiner, hvorefter de bliver ført ind i en tøndeformet struktur, og bliver hakket i småstykker og spyttet ud som aminosyrer.
-
---- <cite>[Brian Henneberg](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html){: rel='sponsored nofollow noopener' }</cite>
+>
+> --- <cite>[Brian Henneberg](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html){: rel='sponsored nofollow noopener' }</cite>
 
 ## Hvilke faktorer spiller ind på hastigheden af tab i muskelmasse og muskelstyrke?
 
@@ -79,8 +79,8 @@ Jespersen et al (2011) og McMahon (2014) konkluderer også, at muskeltab vil ske
 Løvind et al (2008, ej publiceret) konkluderer lidt skarpt, at hvis man holder 14 dages træningsfri, er det sandsynligt, at man lige så godt kan tage 30-45 dage uden at den længere pause forstærker atrofien voldsomt.
 
 > Nu er der meget der tyder på at et enkelt træningspas med ganske lange intervaller (6-8 dage) sagtens kan opretholde fiberstørrelsen i en længere periode (flere måneder), inden der igen skal sættes ind med en ny intensiv periode.
-
---- <cite>[Løvind et al (2008, ej publiceret)](https://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Løvind et al (2008, ej publiceret)](https://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"}</cite>
 
 Type II-fibre er altså både de mest vækstvillig, men de er også ivrige efter at skrumpe igen, hvis ikke længere de får et eksternt stimulus.
 
@@ -93,8 +93,8 @@ Ogasawara et al (2012) undersøgte det periodiske styrkeprogram (PTR) og det kon
 Fisher et al (2013) konkluderer følgende i forhold til atrofi for øvede i deres metareview:
 
 > Finally evidence suggests that short (~3 weeks) periods of detraining in trained persons does not incur significant muscular atrophy and might stimulate greater hypertrophy upon return to training.
-
---- <cite>[Fisher et al (2013)](https://www.researchgate.net/publication/259390281_Evidence-Based_Resistance_Training_Recommendations_for_Muscular_Hypertrophy)</cite>
+>
+> --- <cite>[Fisher et al (2013)](https://www.researchgate.net/publication/259390281_Evidence-Based_Resistance_Training_Recommendations_for_Muscular_Hypertrophy)</cite>
 
 Flere studier ser altså ud til, at trænede uden at være bekymrede for muskelmassen kan holde pause i 2-3 uger - og måske kan de endda have en fordel af det i forhold til hypertrofi, når de vender tilbage til træningen.
 
@@ -135,8 +135,8 @@ Studierne viser et gennemsnitligt fald på ~14,5% (±14,3%) efter at deltagerne 
 McMaster et al (2013) konkluderer
 
 > Strength levels can be maintained for up to 3 weeks of detraining, but decay rates will increase thereafter (i.e. 5-16 weeks).
-
---- <cite>[McMaster et al (2013)](https://pubmed.ncbi.nlm.nih.gov/23529287/)</cite>
+>
+> --- <cite>[McMaster et al (2013)](https://pubmed.ncbi.nlm.nih.gov/23529287/)</cite>
 
 ## Hvor hurtigt kan du genvinde muskelmasse og -styrke efter en pause?
 

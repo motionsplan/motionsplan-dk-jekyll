@@ -164,8 +164,8 @@ Men der er ikke en perfekt bevægelse, der passer på alle mennesker.
 Og hvis nogen har fortalt dig nogle helt specifikke ting om at bevæge sig, eller at du skal passe på med noget, så overvej lige følgende.
 
 > Bevægelser er kun problematiske, når du undgår dem.
-
---- <cite>Michael Thomsen Oren ([fra Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835){: rel='sponsored nofollow noopener' })</cite>
+>
+> --- <cite>Michael Thomsen Oren ([fra Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835){: rel='sponsored nofollow noopener' })</cite>
 
 Kroppen arbejder efter princippet om specificitet eller SAID-princippet. Når kroppen bliver udsat for en påvirkning eller belastning, så tilpasser den sig, så den bliver bedre til at løse påvirkningen eller belastningen i fremtiden.
 

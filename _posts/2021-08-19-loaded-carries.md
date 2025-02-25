@@ -25,8 +25,8 @@ _Loaded carries_ handler meget enkelt om at samle en vægt op og begynde at gå 
 > Det kan faktisk ikke blive meget mere enkelt: Loaded carries er, som navnet antyder, blot at samle en genstand (kettlebell, sandsæk, barbell etc.) efter eget valg op - og gå. De mest kendte varianter er formentlig farmer’s walks og yoke walks.
 >
 > Loaded carries har sin baggrund i sporten Strongman, hvor enkelte øvelser af denne type fra tid til anden indgår som konkurrencediscipliner. Op igennem 90’erne blev de i høj grad populariseret af den anerkendte styrkecoach og forfatter Dan John, der har omtalt øvelsestypen som ”den manglende ingrediens i moderne styrketræning” og ”en direkte målestok for en atlets arbejdskapacitet” (John, 2001).
-
---- <cite>[Rune Hokken](https://www.bodylab.dk/shop/loaded-carries-2778c1.html)</cite>
+>
+> --- <cite>[Rune Hokken](https://www.bodylab.dk/shop/loaded-carries-2778c1.html)</cite>
 
 ## Varianter af loaded carries
 

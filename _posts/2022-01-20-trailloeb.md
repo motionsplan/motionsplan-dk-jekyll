@@ -25,8 +25,8 @@ I trailløb løber du på de små naturstier. Terrænet er ofte ujævnt og kuper
 Når du løber trailløb foregår det ofte i et kuperet terræn, hvor du skal finde vej gennem tæt skov, krydse åer og vandløb eller forcere glubske skråninger.
 
 > ”I trailløb er der i forhold til løb på bane og vej ikke det samme fokus på pace, da terrænet hele tiden tvinger en op eller ned i tempo. At man er nødt til at følge terrænet, og ikke absolut skal holde et bestemt tempo, virker afstressende for mange.”
-
---- <cite>[Christian Grøn Nørfelt](https://nordicrace.dk/hvad-er-trailloeb/), elite trailløber</cite>
+>
+> --- <cite>[Christian Grøn Nørfelt](https://nordicrace.dk/hvad-er-trailloeb/), elite trailløber</cite>
 
 ## Hvem løber trailløb?
 

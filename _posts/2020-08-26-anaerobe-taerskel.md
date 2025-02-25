@@ -99,16 +99,16 @@ Traditionelt vil man træne omkring den anaerobe tærskel for at kunne flytte de
 San Millán foreslår dog en nuanceret tilgang til at forbedre den anaerobe tærskel i et indlæg på [Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/).
 
 > During exercise, lactate is mainly produced in fast twitch muscle fibers, which use lots of glucose for energy. It is cleared mainly by slow twitch muscle fibers. This is a complex process involving different lactate-specific transporters and enzymes. Fast twitch fibers have a high content of one transporter called MCT-4 (Monocarboxylate-4) which transports lactate away from these fibers. Slow twitch fibers possess a transporter called MCT-1 which takes lactate inside these fibers. That lactate is then converted to pyruvate in the mitochondria by an enzyme called mLDH (mitochondrial lactate dehydrogenase), to then finally synthesize ATP (energy).
-
-— <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
+>
+> — <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
 
 San Millán foreslår derfor, at man bruger en del tid på at træne udholdenhedstræning i stedet for at ligge og træne på grænsen af den anaerobe tærskel.
 
 Træningen af den anaerobe tærskel skal primært forbedre kroppens evne til at fjerne mælkesyre hurtigt nok.
 
 > A typical training mistake that many athletes and coaches do is training at “lactate threshold” in order to improve lactate clearance capacity. This is not correct as we know that during exercise lactate is mainly produced by glycolytic fibers (fast twitch) which are the ones recruited at “lactate threshold”. However, lactate is mainly cleared by adjacent slow twitch fibers that have a very high mitochondrial capacity and a much higher amount of mLDH enzymes and MCT-1 transporters. Therefore to improve lactate clearance capacity, and although totally counterintuitive, it is key to train those slow twitch muscle fibers to stimulate mitochondrial growth and function as well as increase MCT-1 and mLDH. Training at lactate threshold is essential to improve glycolytic fibers and their machinery (our “Turbo”) and to upregulate the number and function of glycolytic enzymes as well as to increase the number of MCT-4 transporters necessary to transport lactate away from fast twitch fibers to then be cleared by slow twitch fibers.
-
-— <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
+>
+> — <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
 
 San Millán argumenterer altså for, at en stor del af træningen skal foregå i [Zone 2](https://www.trainingpeaks.com/blog/why-triathletes-should-train-in-zone-2/). I denne zone arbejder vi under den anaerobe tærskel, men tættere på den aerobe tærskel.
 

@@ -69,8 +69,8 @@ Har du mod på at give den lidt ekstra gas på gåturen. Så har vi i videoen he
 ## Gåtræning og helbredet
 
 > "Når du går, nedsætter du risikoen for sygdomme. Både de fysiske og mentale. Det er bedre at gå lidt end ingenting"
-
---- <cite>Bente Klarlund Pedersen</cite>
+>
+> --- <cite>Bente Klarlund Pedersen</cite>
 
 - Du nedsætter risikoen for type-2-diabetes med 50% med en daglig gå-tur.
 - 13 forskellige former for kræft forebygges med fysisk aktivitet.

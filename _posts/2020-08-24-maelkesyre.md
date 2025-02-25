@@ -139,14 +139,14 @@ Traditionelt har man talt om en mælkesyregrænse på 4 mmol. Den anaerobe tærs
 Det er imidlertid en del uenighed om, hvad den anaerobe tærskel nøjagtigt er, og hvordan man bedst kan flytte den anaerobe tærskel, som denne [artikel fra Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/) fortæller.
 
 > Nu har vi fundet ud af, at grunden til, at mængden af mælkesyre stiger eksponentielt ved den mælkesyrekoncentration, ikke er, fordi der pludselig bliver produceret mere mælkesyre – men fordi leveren ikke kan følge med til at fjerne mælkesyre fra blodet hurtigt nok.
-
-— <cite>Professor [Niels Secher](https://videnskab.dk/krop-sundhed/derfor-syrer-dine-ben-til)</cite>
+>
+> — <cite>Professor [Niels Secher](https://videnskab.dk/krop-sundhed/derfor-syrer-dine-ben-til)</cite>
 
 Den **anaerobe tærskel** er altså snarere en 'eliminationsgrænse' snarere end en tærkel for det anaerobe stofskifte.
 
 > Fra musklernes synspunkt sker der altså ikke noget særligt ved den arbejdsintensitet, som giver en mælkesyrekoncentration på 4 mmol. Musklerne producerer mælkesyre proportionelt med deres arbejdsbelastning.
-
-— <cite>Professor [Niels Secher](https://videnskab.dk/krop-sundhed/derfor-syrer-dine-ben-til)</cite>
+>
+> — <cite>Professor [Niels Secher](https://videnskab.dk/krop-sundhed/derfor-syrer-dine-ben-til)</cite>
 
 Der bliver altså ikke pludseligt produceret mere mælkesyre på den **anaerobe tærskel**, men der er færre organer til at hjælpe med at fjerne mælkesyren igen, da leverens bidrag bliver mindre.
 

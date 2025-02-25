@@ -61,14 +61,14 @@ Lad os kigge på løfterne bag leverandørerne af recovery boots.
 Effekten af recovery boots markedsføres nemlig meget kraftigt:
 
 > 20 minutters behandling giver samme effekt som op til 48 timers passiv restitution.
-
---- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
+>
+> --- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
 
 Det er noget af et løfte, og rationalet bagved løftet er følgende:
 
 > Den mængde blod, der flyttes ved en behandling på 20 minutter svarer til den mængde, du vil flytte ved mellem 12 og 48 timers passiv restitution. Der er med andre ganske stor gevinst ved at smide benene i et par Recovery Boots og lade dem arbejde med din restitution.
-
---- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
+>
+> --- <cite>[Løberen](https://www.loberen.dk/products/optima-sport-recovery-boots-ultima-k8)</cite>
 
 Mit bedste bud er at det er en meningsløs påstand. Man kan ikke flytte lige så meget blod rundt på 20 minutter ved at sidde stille, som man ville på 12 timer ved passiv restitution, hvis hjertet ikke slår hurtigere.
 

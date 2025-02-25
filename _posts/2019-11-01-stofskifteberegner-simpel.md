@@ -71,8 +71,8 @@ Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energi
 I dette indlæg bruger jeg hvilestofskiftet og basalstofskiftet næsten som synonymer, men det er faktisk to forskellige begreber.
 
 >  RMR has been measured either in the sitting or supine positions, with a minimum of 15 min of rest, sometimes up to an overnight rest. Resting and basal metabolic rate (BMR) are similar and only differ in that BMR is usually measured in the morning, after an overnight fast, no exercise for the previous 24 h, free from emotional stress, familiar with the apparatus, and the subject completely rested.
-
---- <cite>[McMurray et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4535334/)</cite>
+>
+> --- <cite>[McMurray et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4535334/)</cite>
 
 ## Beregn dit hvilestofskifte og basalstofskifte
 
@@ -240,8 +240,8 @@ Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler 
 > Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
 >
 > Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
-
---- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
+>
+> --- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
 
 Hvis man kigger i andre studier, der tjekker pålideligheden af de forskellige formler, så ender de på andre formler som de mest pålidelige. Ofte handler studierne om, hvordan formlerne underestimerer og overestimerer BMR for særlige grupper. Sabounchi et al (2013) har bl.a. lavet en større sammenligning, hvor de præsenterer en relativt avanceret tabel for forskellige befolkningsgrupper.
 

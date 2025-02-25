@@ -125,12 +125,12 @@ De kolde bade ser ud til at være passiv restitution overlegent ved eksplosive a
 Nyere [studier](https://doi.org/10.1113/JP270570) fra 2015 tyder imidlertid på, at hvis man bruger isbade efter styrketræning, så risikerer man, at ens muskeltilvækst vil blive mindre på sigt.
 
 > "Vi fandt, at nedsænkning i koldt vand efter træning væsentligt svækkede eller reducerede de langsigtede gevinster for muskelmasse og -styrke."
-
---- <cite>dr. Llion Roberts (2015)</cite>
+>
+> --- <cite>dr. Llion Roberts (2015)</cite>
 
 > "Man må forvente, at atleter, der bruger isbade efter træning vil få mindre langsigtede muskelgevinster end dem, der vælger at varme ned."
-
---- <cite>dr. Jonathan Peake (2015)</cite>
+>
+> --- <cite>dr. Jonathan Peake (2015)</cite>
 
 [Peterson og Fyfe (2022)](https://www.frontiersin.org/articles/10.3389/fspor.2021.660291/full) har samlet den eksisterende viden om Cold Water Immersion og styrketræning i deres review.
 

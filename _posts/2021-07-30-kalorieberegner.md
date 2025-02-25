@@ -76,8 +76,8 @@ Det kan være meget smart, hvis du har brug for en komplet kalorieberegner. Det 
 Inden du går i gang med madberegneren fra Fødevarestyrelsen, så er det dog en god ide at være **opmærksom på**:
 
 > Madberegnerens udvalg af mad og drikke er ikke fyldestgørende i forhold til at afspejle, hvad danskerne spiser i dag. Der er heller ikke et udvalg af udenlandske retter, som mange danskere også spiser i dag. Men madberegneren kan dog stadig anvendes som et udgangspunkt ved vurderingen af en person daglige mad og drikke.
-
---- <cite>[Fødevarestyrelsen](https://madberegneren.foedevarestyrelsen.dk/)</cite>
+>
+> --- <cite>[Fødevarestyrelsen](https://madberegneren.foedevarestyrelsen.dk/)</cite>
 
 Beregningerne foregår i tre trin. Først indtaster du lidt oplysninger om dig selv og dit aktivitetsniveau.
 

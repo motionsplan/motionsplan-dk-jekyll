@@ -47,8 +47,8 @@ Men hvad forårsager egentlig løbeskader?
 Skader i forbindelse med løb i knæ skyldes ofte, at du løber for langt, mens skader i akillessenen kommer af at træne for intenst. Kroppen signalerer altså, om du træner rigtigt og med den bedste træningsmetode.
 
 > Træningsmetoden er en vigtig komponent for at undgå skader. Meget tyder på, at korrekt dosering af træningsintensitet og -distance er vejen til færre skader.
-
-— <cite>Rasmus Østergaard Nielsen, php.d.-studerende ved Institut for Folkesundhed på Aarhus Universitet</cite>
+>
+> — <cite>Rasmus Østergaard Nielsen, php.d.-studerende ved Institut for Folkesundhed på Aarhus Universitet</cite>
 
 Denne viden er baseret på et stort studie med 933 løbere mellem 18 og 65 år, der blev udstyret med GPS, så antallet af skader kunne holdes op mod antallet af kilometer løbet.
 

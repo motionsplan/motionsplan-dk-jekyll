@@ -216,8 +216,8 @@ Men hvad er en halv squat?
 [Rhea et al (2016)](https://www.researchgate.net/publication/304607794_Joint-Angle_Specific_Strength_Adaptations_Influence_Improvements_in_Power_in_Highly_Trained_Athletes) definerer det således:
 
 > The half squat group (HALF) trained at depths characterized by the top of the thigh reaching parallel to the floor with knee angles approximately 85–95 degrees of flexion.
-
---- <cite>[Rhea et al (2016)](https://www.researchgate.net/publication/304607794_Joint-Angle_Specific_Strength_Adaptations_Influence_Improvements_in_Power_in_Highly_Trained_Athletes)</cite>
+>
+> --- <cite>[Rhea et al (2016)](https://www.researchgate.net/publication/304607794_Joint-Angle_Specific_Strength_Adaptations_Influence_Improvements_in_Power_in_Highly_Trained_Athletes)</cite>
 
 {% comment %}
 

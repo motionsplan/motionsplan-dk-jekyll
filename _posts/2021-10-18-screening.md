@@ -25,8 +25,8 @@ Inden du går i gang med at lave et træningsprogram, så bør du lave en screen
 I screeningen skal du lære et andet menneske at kende, så du kan lave et fornuftigt træningsprogram til vedkommende.
 
 > ”The act of examining people (or things) in order to decide if they are suitable for a particular purpose.”
-
---- <cite>Merriam-Webster</cite>
+>
+> --- <cite>Merriam-Webster</cite>
 
 Du skal altså få få klarhed for personens mål, forudsætninger og træningstilstand.
 

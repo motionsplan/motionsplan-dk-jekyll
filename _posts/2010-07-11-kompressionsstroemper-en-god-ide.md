@@ -121,8 +121,8 @@ I et nyere studium af Treseler et al (2016) satte de 19 kvinder til at løbe 5 k
 Treseler et al (2016) konkluderer:
 
 > Based on the results of this study, there were no significant improvements in average 5-km running time, heart rate, or perceived calf MS. However, participants perceived less MS in lower extremities and working harder with CS compared with regular socks. Compression stockings may not cause significant physiological improvements; however, there might be psychological benefits positively affecting postexercise recovery.
-
---- <cite>[Treseler et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26670987/)</cite>
+>
+> --- <cite>[Treseler et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26670987/)</cite>
 
 Studiet viste altså ikke nogen effekt på præstationen med kompressionsstrømper for kvinder, men restitutionen føltes bedre.
 

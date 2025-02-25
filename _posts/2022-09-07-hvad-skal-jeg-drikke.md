@@ -225,16 +225,16 @@ Et eksempel:
 Når en liter vand fordamper fra huden, så fjerner den varme [svarende til omkring 2400 kJ](https://vorespuls.dk/kost-sundhed/artikler/derfor-har-du-brug-for-at-svede).
 
 > For en maratonløber med en sluttid på 2 timer og 30 minutter og en vægt på 70 kilo, vil det kræve omkring 1,6 liter sved i timen, der skal fordampes fra huden, for at der ikke sker en overophedning.
-
---- <cite>[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for)</cite>
+>
+> --- <cite>[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for)</cite>
 
 Når svedraten er så høj, så er det ikke alt sveden der når at fordampe. Derfor bliver kroppen nødt til at svede endnu mere for at svedfordampningen kan fjerne nok varme.
 
 Al sved der ender på jorden er altså spildt varmeregulering.
 
 > Sved er altså kroppens mekanisme til at fjerne varme, og havde kroppen ikke denne mekanisme, ville temperaturstigningen i kroppen ved maksimalt arbejde svare til 1 grad pr. 5-7 minutter.
-
---- <cite>[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for)</cite>
+>
+> --- <cite>[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for)</cite>
 
 ## Konklusion
 

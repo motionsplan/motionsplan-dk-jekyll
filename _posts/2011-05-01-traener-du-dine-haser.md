@@ -122,8 +122,8 @@ _Nordic Hamstring_ træner imidlertid kun den knæflekterende del af baglårsmus
 Tsaklis et al (2015) undersøgte forskellige øvelser i forhold til intensitet og aktivering af baglårsmusklerne. De undersøgte lunge, dødløft, swings, øvelser med TRX, Nordic hamstring, øvelser med fitball og en slidebevægelse.
 
 > The lunge, dead lift, and kettle swings were low intensity (<50% MVIC) and all showed higher EMG activity for semitendinosus than for biceps femoris. Bridge was low but approaching medium intensity, and the TRX, hamstring bridge, and hamstring curl were all medium intensity exercises (≥50% or <80% MVIC). The Nordic, fitball, and slide leg exercises were all high intensity exercises. Only the fitball exercise showed higher EMG activity in the biceps femoris compared with the semitendinosus. Only lunge and kettle swings showed peak EMG in the muscle-tendon unit lengthening phase and both these exercises involved faster speed.
-
---- <cite>[Tsaklis et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492645/)</cite>
+>
+> --- <cite>[Tsaklis et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492645/)</cite>
 
 Det er naturligvis ikke nogen overraskelse, at forskellige øvelser rammer forskelligt i baglåret. Det er heller ikke en overraskelse, at nogle øvelser er hårdere end andre. Studiet giver en god indikation for en måde, hvor man progressivt kan bygge baglårstræningen op efter en skadesperiode.
 

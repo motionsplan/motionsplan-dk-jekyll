@@ -76,8 +76,8 @@ Her er bl.a. citater fra B. K. S. Iyengar, Dalai Lama, Gandhi og Yogi Bhajan.
 
 {% for quote in quotes %}
 > {{ quote.quote | markdownify }}
-
---- <cite>{{ quote.cite }}</cite>
+>
+> --- <cite>{{ quote.cite }}</cite>
 
 ***
 {% endfor %}

@@ -95,16 +95,16 @@ Du kan også læse lidt videre og se de mere ekstreme eksempler fra nogle af fro
 TV2Lorry har lavet en serie i fem afsnit, der forklarer hvad biohacking er.
 
 > Fænomenet Biohacking har for alvor gjort sit indtog i Hovedstadsområdet. I jagten på et langt og sundt liv tager flere og flere sagen i egen hånd – og forsøger at finde veje uden om det danske sundhedsvæsen. Biohacking findes i flere forskellige afskygninger: Fra de helt små, dagligdags ting – og til de mere indgribende. Serien her giver dig et lille indblik i en verden, der er ny for de fleste – men som man skal tage alvorligt i fremtiden.
-
---- <cite>[TV2Lorry](https://www.tv2lorry.dk/mit-liv-som-hacker/en-anden-verden-15)</cite>
+>
+> --- <cite>[TV2Lorry](https://www.tv2lorry.dk/mit-liv-som-hacker/en-anden-verden-15)</cite>
 
 ## DR: Velkommen til fremtiden (biohacking og præstation)
 
 DR har for nogle år siden lavet en serie, som de kalder Velkommen til fremtiden. I tredje afsnit kan man følge en biohacker.
 
 > Martin er biohacker. Han optimerer sin krop og hjerne med særlig kost, infrarøde stråler og måleapparater, for at toppræstere på sit arbejde.
-
---- <cite>[dr.tv](https://www.dr.dk/drtv/episode/velkommen-til-fremtiden_-fordybelse_49661)</cite>
+>
+> --- <cite>[dr.tv](https://www.dr.dk/drtv/episode/velkommen-til-fremtiden_-fordybelse_49661)</cite>
 
 ## Biohacking i Min Sindssygt Sunde Familie på TV2 i Danmark
 

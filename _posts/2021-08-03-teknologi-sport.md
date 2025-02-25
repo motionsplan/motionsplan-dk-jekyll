@@ -79,16 +79,16 @@ David Epstein fortæller mere om udstyrets udvikling i denne interessante TED-ta
 Usain Bolt som er historiens hurtigste 100-meter-løber med en tid på 9,58 sekunder sat i 2009 er ikke i tvivl om han kunne have løbet endnu hurtigere i de nye sko.
 
 > Men helt sikkert meget hurtigere, og bestemt under 9,50 sekunder. Uden tvivl!
-
---- <cite>[Usain Bolt](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv)</cite>
+>
+> --- <cite>[Usain Bolt](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv)</cite>
 
 Men betyder det, at udviklingen er urimelig fordi det bliver lettere at slå rekorder fordi udstyret er bedre.
 
 Det er der nogen der mener.
 
 > Man er i gang med at ødelægge historien. Jeg stoppede som eliteaktiv i 2017, og der er sket så meget på skofronten, at vi nærmest løb i stenalderen på det tidspunkt. Det betyder også, at man ikke kan gå tilbage i historien og sammenligne tiderne længere.
-
---- <cite>[Henrik Them](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv), tidligere landsholdsløber</cite>
+>
+> --- <cite>[Henrik Them](https://www.dr.dk/sporten/ol/havde-historiens-hurtigste-mand-slettet-sin-verdensrekord-med-supersko-ja-siger-han-selv), tidligere landsholdsløber</cite>
 
 Man kan imidlertid sagtens argumentere for, at der altid har været udvikling. Hver eneste rekord står på skuldrene af nye teknologiske forbedringer, men også forbedringer i træningsmetoder og viden om træning.
 
@@ -103,8 +103,8 @@ Når du kan lave udstyret bedre, så kan du udnytte den energi atleterne bruger 
 I Team Danmark har man en fuldtidsansat til at være med til forbedre præstationerne i de forskellige idrætsgrene. Andreas Top Adler arbejder særligt tæt sammen med banelandsholdet i cykling, men er også inde over de andre discipliner.
 
 > I en konkurrence vil vi gerne udnytte den energi, som sportsudøveren lægger i udstyret. Energien skal omsættes til så meget fart som overhovedet muligt, siger han.
-
---- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
+>
+> --- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
 
 Andreas Top Adler ved alt om, hvor stor betydning materialernes vægt og hårdhed kan betyde for at optimere farten hos atleterne.
 
@@ -121,8 +121,8 @@ Nike lancerede i 2017 deres banebrydende løbesko kaldet Nike Vaporfly. Siden da
 Løbeskoen fra Nike har en et hårdt skummateriale som midtersål og en indbygget carbonplade. Kombinationen gør, at løberen får mere energi tilbage fra hver eneste skridt. Effekten fungerer altså lidt ligesom en fjeder.
 
 > Med carbonpladen i løbeskoen mindsker man den tabte energi, og skoen vil derfor bevare mere energi for hvert skridt set i forhold til en almindelig løbesko.
-
---- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
+>
+> --- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>
 
 Kenyaneren, Eliud Kipchoge, brugte en prototype af Vaporfly, da han under helt optimale forhold på en formel 1-bane skulle forsøge at løbe en maraton under 2 timer. Kipchoges sko havde angiveligt hele tre carbonplader i den ret tykke sål.
 

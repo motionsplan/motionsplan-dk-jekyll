@@ -43,15 +43,15 @@ Hvilestofskiftet er den energiomsætning, man altid har. Det betyder naturligvis
 Det får [Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} til at skrive:
 
 > Hvis vi skal sammenligne forbrændingen ved at gå og løbe, så er det mest rimeligt at svare ud fra hvor meget ekstra man forbrænder ved enten at gøre det ene eller det andet. Hvileforbrændingen ville man jo have haft under alle omstændigheder.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
 Dette er også den måde, der typisk bliver brugt i studier, når man vil sammenligne, hvad det koster på energiregnskabet at bevæge sig. Hall et al (2004) viser i deres studie, hvor de sammenlignede 1.600 meter gang og løb følgende:
 
 > When resting energy expenditure was subtracted from the total energy expenditure, as has been
 done in earlier studies, the cost of locomotion was ~55% lower for males during walking than running, and ~52% lower for females.
-
---- <cite>[Hall et al (2004)](https://www.researchgate.net/publication/8157727_Energy_Expenditure_of_Walking_and_Running_Comparison_with_Prediction_Equations)</cite>
+>
+> --- <cite>[Hall et al (2004)](https://www.researchgate.net/publication/8157727_Energy_Expenditure_of_Walking_and_Running_Comparison_with_Prediction_Equations)</cite>
 
 Det er altså meget udbredt i forskningen, at man forbrænder mere ved at løbe end ved at gå.
 
@@ -64,8 +64,8 @@ Lad os kigge lidt på, hvordan du kan estimere energiforbruget ved gang og løb,
 [Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} skriver i artiklen "Du forbrænder flere kalorier ved at løbe end ved at gå":
 
 > Ja, det er faktisk rigtigt - ikke bare pr. minut, men også pr. kilometer. Faktisk forbrænder du næsten dobbelt så meget pr. kilometer og pr. minut er det næste fire gange så meget.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
 Så yderpunkterne i diskussionen er altså følgende:
 
@@ -151,8 +151,8 @@ Hvis du går rigtig hurtigt, er det ganske enkelt mere effektivt at løbe.
 ## Hvor mange kalorier forbrænder man ved løb?
 
 > During horizontal running, the net energy expenditure per kilogram of body mass per kilometer traveleled averages 1 kcal or 1 kcal\*kg<sup>-1</sup>\*km<sup>-1</sup>.
-
---- <cite>McArdle (2010)</cite>
+>
+> --- <cite>McArdle (2010)</cite>
 
 Kropsvægt kan også ved løb nogenlunde forudsige energiforbruget, når du løber på en jævn overflade. Du forbrænder omkring din egen vægt i kcal pr. km.
 
@@ -206,8 +206,8 @@ Vær opmærksom på at Hall et al (2004) ikke fandt, at McArdles kunne forudsige
 Årsagen til at der er forskel mellem gang og løb er, fordi kroppen har brug for noget mere energi for at løbe, og at den hurtigere har brug for energien.
 
 > “Muscle action that propels you from point A to B requires the utilization of a thing called ATP. Your body stores only a limited amount of ATP (enough for only a few seconds of activity), so it needs to replenish that supply, and it does so by metabolizing your stored fuels (glycogen and fat). The process of making useable energy (ATP) from stored fuel (glycogen and fat) is dependent on how much you need and how quickly you need it.”
-
---- <cite>[Janet Hamilton, arbejdsfysiolog ved RunningStrong](https://www.runnersworld.com/nutrition-weight-loss/a20843760/running-v-walking-how-many-calories-will-you-burn/)</cite>
+>
+> --- <cite>[Janet Hamilton, arbejdsfysiolog ved RunningStrong](https://www.runnersworld.com/nutrition-weight-loss/a20843760/running-v-walking-how-many-calories-will-you-burn/)</cite>
 
 Det betyder altså, at jo mere intens en aktivitet er, jo mere energi skal den bruge. Gang er ikke så intenst som løb, og derfor skal ATP ikke produceres lige så hurtigt.
 
@@ -224,8 +224,8 @@ Efterforbrændingen for løb kan være helt op til fem minutter længere end ved
 [Wilkin et al (2012)](https://pubmed.ncbi.nlm.nih.gov/22446673/) undersøgte effekten på energiforbruget ved hhv. gang og løb. De havde deres forsøgspersoner til at gå med 5,16 km/t og løbe med 9,6 km/t på 1600 meter. Alt efter løbernes evner er der formentlig tale om submaksimal løb.
 
 > EE during exercise was 372.54 ± 78.16 kilojoules for the walk and 471.03 ± 100.67 kilojoules for the run. Total EE including excess postexercise EE was 463.34 ± 80.38 kilojoules and 664.00 ± 149.66 kilojoules for the walk and run, respectively.
-
---- <cite>[Wilkin et al (2012)](https://pubmed.ncbi.nlm.nih.gov/22446673/)</cite>
+>
+> --- <cite>[Wilkin et al (2012)](https://pubmed.ncbi.nlm.nih.gov/22446673/)</cite>
 
 Der var altså en efterforbrænding på gang på 91 kilojoule (~22 kcal) og en efterforbrænding på løb på 193 kilojoule (~46 kcal). Efterforbrændingen var altså i alt 2,1 gang så høj ved løb.
 
@@ -245,24 +245,24 @@ Wilkin et al (2012) fandt at efterforbrændingen for gang faldt til hvileniveau 
 Efterforbrændingen sker, fordi kroppen kræver energi til at restituere.
 
 > “The greater the intensity and volume, the more calories will be burned after the exercise is completed.”
-
---- <cite>Iain Hunter, professor ved Brigham Young University</cite>
+>
+> --- <cite>Iain Hunter, professor ved Brigham Young University</cite>
 
 Når du træner tager du energi fra dine glykogen og fedtdepoter. Det kræver energi at genopfylde dem. Samtidig skal kroppen bruge energi på at genopbygge de mikroskader aktiviteten har forårsaget.
 
 ## Hvordan kan du øge forbrændingen ved at gå?
 
 > "Gang ved enhver hastighed forbrænder noget energi, men når du ændrer din hastighed, så svarer det til at trykke på speederen. Ændring af en persons kinetiske energi kræver mere benarbejde og den proces forbrænder helt sikkert mere energi."
-
---- <cite>[Nidhi Seethapathi, The Ohio State University](https://slankeviden.dk/nyheder/motion/176-sa-let-smider-du-20-procent-flere-kalorier-pa-gaturen.html)</cite>
+>
+> --- <cite>[Nidhi Seethapathi, The Ohio State University](https://slankeviden.dk/nyheder/motion/176-sa-let-smider-du-20-procent-flere-kalorier-pa-gaturen.html)</cite>
 
 ## Opsamling på forbrænding ved gang og løb
 
 Når man sammenligninger forbrænding ved gang og løb, så bruger man typisk flere kalorier ved at løbe. Man forbrænder ganske enkelt mere ved løb end ved gang.
 
 > Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi fx sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
 Når vi bruger MET til at udregne energiforbruget ved gang og løb, som i beregneren ovenfor, så får jeg følgende tal:
 

@@ -29,8 +29,8 @@ Kroppen er en funktionel helhed designet til at arbejde som et sammenhængende s
 ## Definition af funktionel træning
 
 > **Funktionel træning**er en træningsform som inddrager hele kroppen og forbedrer den til dagligdagsaktiviteter.
-
-— <cite>[Wikipedia](https://da.wikipedia.org/wiki/Funktionel_tr%C3%A6ning)</cite>
+>
+> — <cite>[Wikipedia](https://da.wikipedia.org/wiki/Funktionel_tr%C3%A6ning)</cite>
 
 Betegnelsen ”funktionel træning” henviser til sammensatte, komplekse bevægelser med store og naturlige bevægeudslag, hvor koordination, styrke og balance trænes i de samme øvelser. De bedste funktionelle øvelser er dem, som bruger dine muskler på den måde, som musklerne er designet til, nemlig at trække, skubbe, rotere etc.
 

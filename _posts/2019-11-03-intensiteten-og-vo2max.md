@@ -134,8 +134,8 @@ Måske er samlet totalt arbejde ikke den rette måde at normalisere træningsgru
 Ydermere når Scribbans et al (2016) i en metaanalyse af en række studier en lidt anden konklusion, som vi lige skal have kigget lidt mere på for at kunne give et godt bud på dette emne.
 
 > These data suggest that exercise training intensity has no effect on the magnitude of training-induced increases in maximal oxygen uptake in young healthy human participants, but similar adaptations can be achieved in low training doses at higher exercise intensities than higher training doses of lower intensity (endurance training).
-
----<cite>[Scribbans (2016)](https://pubmed.ncbi.nlm.nih.gov/27182424/)</cite>
+>
+> ---<cite>[Scribbans (2016)](https://pubmed.ncbi.nlm.nih.gov/27182424/)</cite>
 
 Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i grupperne der trænede med lavere intensitet i studiet af Helgerud et al (2007). Det vil vi naturligvis også kigge lidt nærmere på i dn nærmeste fremtid.
 

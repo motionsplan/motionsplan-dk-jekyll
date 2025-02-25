@@ -52,8 +52,8 @@ Alle reagerer ikke ens på træning - og alle programmer vil ikke virke for alle
 Som Anders Nedergaard skriver:
 
 > Derfor – første gang du prøver et bestemt træningsprogram, så brug det præcist som beskrevet. Når du er færdig med det, eller har kørt det så lang tid som du mener du skal for at vurdere det, kan du lave din vurdering og så lave eventuelle justeringer til eventuel fremtidig brug af programmet.
-
---- <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
+>
+> --- <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
 
 ## Hvad betyder mest for et træningsprogram?
 

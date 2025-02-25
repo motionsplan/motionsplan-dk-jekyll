@@ -30,8 +30,8 @@ Sundhedsstyrelsen anbefaler, at vi alle går 10.000 skridt om dagen. Du kan læs
 Der køres jævnligt kampagner for at huske os på sundhedsgevinsterne ved at gå. Mange virksomheder ved også, at skridttælling kan være sjovt og motiverende, hvilket Tæl Skridt-kampagnen netop udnytter.
 
 > ”Mange virksomheder har i stigende grad fået øjnene op for at skridttælling kan være både sjovt og motiverende, samtidigt med, at det øger den generelle sundhed blandt medarbejderne. Hvis virksomheden giver medarbejderne en skridttæller motiverer det og skaber sjov konkurrence mellem medarbejderne”
-
---- <cite>[Nikolaj Nielsen, produktchef for avXperten.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }</cite>
+>
+> --- <cite>[Nikolaj Nielsen, produktchef for avXperten.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }</cite>
 
 ## Tæl skridt med en skridttæller
 
@@ -40,8 +40,8 @@ Du kan tælle dine skridt med en skridttæller. De forskellige skridttællere fu
 Skridttællere placeres på hoften, på håndleddet eller i en lomme.
 
 > ”Det bliver hurtigt sjovt og vanedannende at følge sin egen udvikling, og mindst lige så sjovt at slå kollegerne. Det kan motivere en til at tage endnu flere skridt.”
-
---- <cite>[Nikolaj Nielsen](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }, produktchef for avXperten.dk</cite>
+>
+> --- <cite>[Nikolaj Nielsen](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }, produktchef for avXperten.dk</cite>
 
 ## Får skridttællere folk til at gå mere?
 
@@ -58,8 +58,8 @@ Jeg har også lave en side, hvor du kan omregne, [hvor langt 10.000 skridt er el
 Der er mange fysiologiske og psykologiske fordele ved at gå. En af bagmændene bag en af de klassiske kampagner for at gå fra 2005 formulerer det sådan her:
 
 > ”Når vi blander os i danskernes motionsvaner, er det fordi vi gerne vil bidrage til, at flere oplever, at ved at bevæge sig mere, opnår man et langt sundere liv. Vi vil meget gerne give flere ideer og lyst til at bruge kroppen mere. Med kampagnen giver vi danskerne en ekstra opmuntring til at gøre mere. Vi ved, det kan være svært at få tilstrækkelig med fysisk aktivitet passet ind i en hverdag, hvor meget arbejde foregår stillesiddende, typisk foran en computer. Og hvor transporten til og fra arbejde måske foregår i en bil.”
-
---- <cite>[Chefredaktør Kirsten Engel](https://netdoktor.dk/fokus/taelskridt.html)</cite>
+>
+> --- <cite>[Chefredaktør Kirsten Engel](https://netdoktor.dk/fokus/taelskridt.html)</cite>
 
 ## Fysiologiske fordele ved at gå
 

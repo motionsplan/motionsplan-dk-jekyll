@@ -92,8 +92,8 @@ I forhold til vægttab og fedtforbrænding foreslår Morten Zacho, at du arbejde
 >
 > Spørgsmål: Hvis man f.eks har afsat 40 minutter til at motionere i, hvilken intensitet er så den bedste hvis man vil tabe sig?
 > Svar: Den højeste intensitet man kan holde i de 40 minutter!
-
-— <cite>[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
+>
+> — <cite>[Morten Zacho](https://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
 
 Hvis du har sat et bestemt tidsrum af til motion og træning, så kan det i forhold til vægttab formentlig ikke betale sig at blive i **fedtforbrændingszonen** i forhold til træningen.
 

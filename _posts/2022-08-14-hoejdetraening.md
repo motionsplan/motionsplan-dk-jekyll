@@ -21,8 +21,8 @@ Højdetræning på nye niveauer er en af forklaringerne på Jumbo-Visma og Jonas
 Der er en grund til, at atleter ofte træner i store højder. Den tyndere og mere iltfattige luft tvinger kroppens kredsløb og muskler til at arbejde hårdere for at få ilt ud til musklerne. Jumbo-Visma siger selv, at de har taget højdetræningen til [nye niveauer](https://www.dr.dk/sporten/cykling/tourdefrance/hvad-er-hemmeligheden-bag-vingegaards-succes-norsk-forskning-er-en-del).
 
 > Vi har taget højdetræning til et nyt niveau.
-
---- <cite>[Jonas Vingegaard](https://sport.tv2.dk/cykling/2022-07-23-vingegaard-med-klart-svar-jeg-er-fuldstaendig-ren) efter 20. etape i Tour De France 2022</cite>
+>
+> --- <cite>[Jonas Vingegaard](https://sport.tv2.dk/cykling/2022-07-23-vingegaard-med-klart-svar-jeg-er-fuldstaendig-ren) efter 20. etape i Tour De France 2022</cite>
 
 Men hvad er de specifikke fordele ved højdetræning, og hvordan virker det? Lad os se nærmere på det.
 
@@ -63,8 +63,8 @@ I Norge er forbuddet mod at bruge simuleret højdetræning med højdehuse og hø
 Det norske idrætsforbund har modsat det internationale antidopingagentur (WADA) og Anti Doping Danmark (ADD) ment, at den simulerede højdetræning var en etisk gråzone i dopingreglerne. Det er naturligvis en diskussion værdig.
 
 > Fra at vi kørte på væltepeteren med det store hjul forrest og det lille hjul bagved og havde meget vanskeligt med at få fart på har vi i dag fået kædetræk, gear, carbon og aerodynamik, så man kan tonse afsted. Set i det lys virker det helt barokt, at man ikke må forberede sig med simuleret højdetræning.
-
---- <cite>[Verner Møller](https://www.dr.dk/sporten/oevrig/norske-atleter-har-betalt-en-hoej-pris-nu-er-forbuddet-mod-simuleret-hoejdetraening), idrætsforsker</cite>
+>
+> --- <cite>[Verner Møller](https://www.dr.dk/sporten/oevrig/norske-atleter-har-betalt-en-hoej-pris-nu-er-forbuddet-mod-simuleret-hoejdetraening), idrætsforsker</cite>
 
 ## Hvad er effekten af højdetræning?
 
@@ -93,8 +93,8 @@ Svaret på om højdetræning virker er faktisk stadig lidt [mudret](https://vide
 Bent Rønnestad, professor i træningsfysiologi, fortæller, at forskerne var med på træningslejr i hhv. Sierre Nevada og Tenerife, hvor højdetræningen fandt sted.
 
 > Det unikke er, at vi har målt hvordan højdetræningen fungerer på de røde blodceller undervejs. Det kræver meget udstyr at gøre det på en god måde.
-
---- <cite>[Bent Rønnestad](https://www.dr.dk/sporten/cykling/tourdefrance/hvad-er-hemmeligheden-bag-vingegaards-succes-norsk-forskning-er-en-del), professor i træningsfysiologi</cite>
+>
+> --- <cite>[Bent Rønnestad](https://www.dr.dk/sporten/cykling/tourdefrance/hvad-er-hemmeligheden-bag-vingegaards-succes-norsk-forskning-er-en-del), professor i træningsfysiologi</cite>
 
 Når laboratoriet var med på træningslejren i højderne, så kunne man bruge målingerne undervejs til at optimere træningen. De præcise laboratoriemålinger gjorde det muligt at justere træningen individuelt, så den netop passede til den enkelte rytter. Det er naturligvis en kæmpe fordel.
 

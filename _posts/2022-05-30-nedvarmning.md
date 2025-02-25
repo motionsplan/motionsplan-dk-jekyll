@@ -19,8 +19,8 @@ Det er populært at lave nedvarmning og afjogging efter træning og kamp. Formå
 Det står sort på hvidt i træningshæfterne fra Dansk Idræts-Forbund, at nedvarmning er lige så vigtig som opvarmning.
 
 > Restitutionsaktiviteterne bør være en ligeså naturlig del af træningen som opvarmning.
-
---- <cite>Lars Bojsen Michalsik, DIF, Anaerob Træning 2007</cite>
+>
+> --- <cite>Lars Bojsen Michalsik, DIF, Anaerob Træning 2007</cite>
 
 Nedvarmning foreslås altså som en [måde at restitutere på](/restitution/) for at gøre [restitutionstiden kortere](/restitutionstid-og-alder/).
 

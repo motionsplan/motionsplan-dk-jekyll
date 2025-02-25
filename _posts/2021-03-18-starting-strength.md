@@ -48,8 +48,8 @@ Og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet.
 ## Hvem er Starting Strength for?
 
 > Our target market is very broad and includes beginning young people who want to get bigger, older people who lost their strength, people who need to get stronger to get out of pain, and people in manual labor. The program is best for anyone who is able to lift weights that haven’t already gotten strong doing so. If you haven’t exhausted the possibility of getting stronger with a simple linear progression, then the program applies to you.
-
-— <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
+>
+> — <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
 
 Følger du Starting Strength-programmet, så bliver du stærk. Hvis du ikke har prøvet at følge et struktureret styrketræningsprogram - og udtømt muligheden for at blive stærkere ved at følge simpel lineær programmering og progression, så kan du prøve Starting Strength.
 
@@ -78,8 +78,8 @@ Når du følger programmet, så skal du til hver træning sætte mere vægt på 
 Det eneste der varierer i programmet er vægten på stangen. Alt andet er det samme fra gang til gang.
 
 > “Dette er ikke et program, der er samlet ud af 45 forskellige øvelser, som du roterer for at forvirre dine muskler eller for at forhindre kedsomhed. Det bruger meget få øvelser, der er valgt for deres evne til at øge belastningen hver gang, og det er det, der får dig til at vokse."
-
-— <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
+>
+> — <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
 
 Træningsprogrammeringen er enkel sammenlignet med andre moderne styrkeprogrammer. Men programmet er meget udfordrende - særligt når du er nogle uger inde i programmet, og vægtene begynder at blive tunge.
 
@@ -116,8 +116,8 @@ Mark Rippetoe har lavet nogle rigtig gode videoer om de enkelte løft.
 Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi Mark Rippetoe ikke holder af dødløft.
 
 > The deadlift also serves as a way to train the mind to do things that are hard.
-
---- <cite>Mark Rippetoe i Starting Strength</cite>
+>
+> --- <cite>Mark Rippetoe i Starting Strength</cite>
 
 {% include video provider="youtube" id="p2OPUi4xGrM" %}
 
@@ -130,8 +130,8 @@ Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi
 Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træningsprogrammet, men hans nyeste anbefaling er at smide chinups ind efter omkring uge 3. Det svarer til fase 2 i de nedenstående faser.
 
 > "Vi skal smide chinups tidligt ind i programmet, så du kan få arme. Chinups starter i uge 3."
-
-— <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
+>
+> — <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
 
 {% include video provider="youtube" id="9aA0-FbxK9E" %}
 

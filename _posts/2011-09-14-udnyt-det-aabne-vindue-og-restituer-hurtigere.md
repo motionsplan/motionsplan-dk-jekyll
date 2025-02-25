@@ -52,8 +52,8 @@ Lemon et al (2002) taler om et:
 Ivy og Ferguson-Stegall (2013) anbefalede i deres _review_ af mere end 100 studier, at man inden for 45 minutter efter sin træning får både kulhydrat og protein.
 
 > When carbohydrate and protein are ingested in the minutes post-exercise, the glucose and amino acids derived from these macronutrients initiate the shift to an anabolic state
-
-— <cite>Ivy og Ferguson-Stegall (2013)</cite>
+>
+> — <cite>Ivy og Ferguson-Stegall (2013)</cite>
 
 I dette review konkluderer de på protein og kulhydrat sammen, men i det følgende deler jeg det op i to forskellige dele.
 
@@ -99,8 +99,8 @@ Proteinsyntesen efter træning og særligt styrketræning er forhøjet. Derfor h
 Schoenfeld et al (2013) fandt kun:
 
 > a **small to moderate effect** was seen for **protein timing** on lean mass gain
-
---- <cite>Schoenfeld et al (2013)</cite>
+>
+> --- <cite>Schoenfeld et al (2013)</cite>
 
 De lavede en subanalyse, der viste at mange af forskellene i hypertrofi kunne forklares af den **daglige totale proteinindtagelse** snarere end timing af proteinindtaget.
 
@@ -110,8 +110,8 @@ Læs: [Hypertrofi, muskelvækst og de fysiologiske tilpasninger til træning]({%
 Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at spise protein i det såkaldet _anabolic window_ i virkeligheden bare har spist mere protein i alt i løbet af dagen.
 
 > The results refute the commonly held belief that the timing of protein intake in and around a training session is critical to muscular adaptions, and indicate that consuming adequate protin in combination with resistanace exercise is the key factor for maximizing muscle protein accretion.
-
-— <cite>Schoenfeld et al (2013)</cite>
+>
+> — <cite>Schoenfeld et al (2013)</cite>
 
 Efter styrketræning vil proteinsyntesen være forhøjet i op til 24 timer (måske helt op til 48 timer) efter træning. Hvis man spiser protein på noget tidspunkt i løbet af denne periode, så vil proteinsyntesen i kroppen gå yderligere i vejret.
 
@@ -122,8 +122,8 @@ Men det er tydeligt i figuren, at det anabolske vindue for protein er noget læn
 Shoenfeld et al (2017) konkluderer senere, at:
 
 > interval for protein intake may be as wide as several hours or perhaps more after a training bout depending on when the pre-workout meal was consumed.
-
---- <cite>Shoenfeld et al (2017)</cite>
+>
+> --- <cite>Shoenfeld et al (2017)</cite>
 
 Hvis der er nok tilgængelige aminosyrer i dit system i forbindelse med træningen, så kan du udnytte det såkaldte anabolske, åbne vindue. Vinduet i forhold til protein er bare noget større end man tidligere foreslog.
 

@@ -88,8 +88,8 @@ I denne figur kan du se, hvor meget de forskellige ure over- og underestimerer k
 [Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/) sammenlignede Polar V800 og Garmin Forerunner 230 til at estimere V̇o<sub>2</sub>max. De konkluderer:
 
 > The results of this study indicate that the GF230 can provide an accurate estimate of V̇o2max in both sexes. The PV800 can provide an accurate estimate of V̇o2max for women but not men. Estimates of V̇o2max from the both devices should be used with caution because of the large random error associated with them.
-
---- <cite>[Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/)</cite>
+>
+> --- <cite>[Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/)</cite>
 
 Pulsurerne rammer altså ikke det nøjagtige kondital. 
 
@@ -112,8 +112,8 @@ Konklusionen er altså, at et brystbælte altid er at foretrække overfor de hå
 [Passler et al (2019)](https://www.researchgate.net/publication/335373152_Validity_of_Wrist-Worn_Activity_Trackers_for_Estimating_VO2max_and_Energy_Expenditure) ville undersøge, om en aktivitetsmåler med måling af pulsen i håndleddet kunne måle det daglige energiforbrug og den maksimale iltoptagelse. De undersøgte Polar V800, Garmin Forerunner 920XT og tre fitnesstrackere: Garmin vivosmart®HR, TomTom Touch, and Withings Pulse Ox.
 
 > The tested devices did not show valid results concerning the estimation of VO2max and EE. Hence, the current wrist-worn activity trackers are most likely not accurate enough to be used forneither purposes in sports, nor in health care applications.
-
---- <cite>[Passler et al (2019)](https://www.researchgate.net/publication/335373152_Validity_of_Wrist-Worn_Activity_Trackers_for_Estimating_VO2max_and_Energy_Expenditure)</cite>
+>
+> --- <cite>[Passler et al (2019)](https://www.researchgate.net/publication/335373152_Validity_of_Wrist-Worn_Activity_Trackers_for_Estimating_VO2max_and_Energy_Expenditure)</cite>
 
 Forskerne konkluderer altså, at du ikke kan bruge aktivitetstrackerne med håndledsmålinger til hverken at estimere energiforbruget på en dag eller konditallet. [Wareable.com](https://www.wareable.com/health-and-wellbeing/vo2-max-guide-understand-and-increase-789) analyserer også en række forskellige devices.
 
@@ -140,8 +140,8 @@ Det er faktisk ikke så let at blive klog på. <cite>[Koteles (2015)](https://pu
 [Cooper og Shafer (2019)](https://pubmed.ncbi.nlm.nih.gov/30899351/) sammenlignede en [Bruce løbetest](/bruce-test/) med resultatet fra et Polar A300-ur. Forskerne konkluderede:
 
 > There was a statistically significant, moderate-strong relationship between the Polar and the criterion Bruce VO2max estimations with the first Polar Test (n=19; r=.635; p<.05), as well as the second (n=19; r=.645; p<.05).
-
---- <cite>[Cooper og Shafer (2019)](https://pubmed.ncbi.nlm.nih.gov/30899351/)</cite>
+>
+> --- <cite>[Cooper og Shafer (2019)](https://pubmed.ncbi.nlm.nih.gov/30899351/)</cite>
 
 Læg dog mærke til at sammenhængen kun var moderat, og Bruce løbetesten er ikke en direkte test af den maksimale iltoptagelse, men en maksimal løbetest som estimerer konditionen.
 

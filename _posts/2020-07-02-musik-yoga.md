@@ -43,8 +43,8 @@ Et [studie fra 2010](https://www.ncbi.nlm.nih.gov/pubmed/19585590) målte deltag
 Jeg har skrevet et andet indlæg om at vælge musik til træningen, hvor jeg skriver følgende:
 
 > Sam Lee et al (2016) undersøgte også brugen af musik med et langsomt beat i restitutionsfasen lige efter. En fase er der er rigtig interessant i forhold til hurtigt at begynde at restituere. Når de lyttede til langsom musik, så resulterede det i en hurtigere heart rate recovery og et lavere laktat-tal efter restitutionsfasen.
-
---- <cite>[Musik til træningen: Hvordan finder du de bedste sange?](/artikel/musik-til-traeningen/)</cite>
+>
+> --- <cite>[Musik til træningen: Hvordan finder du de bedste sange?](/artikel/musik-til-traeningen/)</cite>
 
 Når musik kan påvirke retitutionsfasen i din træning, så er musik til yoga helt sikkert også en god ide. Musikken kan altså gøre dig mere afslappet under de enkelte [yogaøvelser]({% link _posts/2020-08-30-yogastillinger.md %}).
 

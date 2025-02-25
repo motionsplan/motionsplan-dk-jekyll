@@ -33,8 +33,8 @@ DR skriver, hvordan styrkeatleter pludselig er blevet [tilbudsjægere](https://w
 Det er meget forskelligt, hvad madvarer med protein koster. Derfor kan det godt betale sig at kigge lidt på, hvor du får mest protein for pengene.
 
 > Vi snakker meget om, hvad ting koster per gram protein. Når Mathilde Kakaomælk er nede på fem kroner i literen, så er det faktisk billigere protein end proteinpulver.
-
---- <cite>Simon Darville, vægtløfter til [DR](https://www.dr.dk/nyheder/indland/stigende-priser-rammer-landets-store-overarme-vaegtloefterklub-maa-fylde-skabet-med)</cite>
+>
+> --- <cite>Simon Darville, vægtløfter til [DR](https://www.dr.dk/nyheder/indland/stigende-priser-rammer-landets-store-overarme-vaegtloefterklub-maa-fylde-skabet-med)</cite>
 
 Lad os kigge på, hvad madvarer koster per gram protein.
 
@@ -106,8 +106,8 @@ Nikolaj Bach besvarer spørgsmålet på [bodylab.dk](https://www.bodylab.dk/shop
 > Denne viste at proteinbehovet for optimale resultater af styrketræning gennemsnitligt var på 1,6 g pr. kg kropsvægt, men at det øvre konfidensinterval for denne værdi var 2,2 g pr. kg (13).
 >
 > De foreslår derfor at man i praksis fordeler dette indtag ligeligt over mindst 4 måltider. Det vil altså i praksis sige at hvis man spiser 4 måltider, så bør hvert måltid indeholde omtrent 0,55 g protein pr. kg kropsvægt. For en person på 85 kg ville det eksempelvis være (85 * 0,55) 47 g protein pr. måltid.
-
---- <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/hvor-mange-gram-protein-kan-man-optage-3185c1.html)</cite>
+>
+> --- <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/hvor-mange-gram-protein-kan-man-optage-3185c1.html)</cite>
 
 
 ## Hvor hurtigt optager man protein?

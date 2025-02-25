@@ -74,16 +74,16 @@ Der står rigtig [mange steder](https://www.letliv.dk/sund-og-skoen/sundhed/saad
 Hvad siger videnskaben om, hvor meget væske du skal have dagligt? Det ser ikke ud til, at der er helt overensstemmelse om det. Meinders og Meinders (2010) konkluderer, at tre liter for mænd og 2,2 liter for kvinder **er mere end rigeligt vand**.
 
 > The recommended total daily fluid intake of 3,000 ml for men and of 2,200 ml for women is more than adequate. Higher fluid intake does not have any convincing health benefits, except perhaps in preventing (recurrent) kidney stones.
-
---- <cite>[Meinders og Meinders (2010)](https://pubmed.ncbi.nlm.nih.gov/20356431/)</cite>
+>
+> --- <cite>[Meinders og Meinders (2010)](https://pubmed.ncbi.nlm.nih.gov/20356431/)</cite>
 
 Disse tal stemmer meget godt overens med beregningerne ovenfor, da det daglige væskeindtag rapporteret af Meinders og Meinders (2010) må være afhængig af vægten og den enkeltes størrelse.
 
 Søren Nielsen, der er professor og chef for Vand og Salt Centret, skriver derimod:
 
 > Det er en myte, at vi skal drikke mindst 2 liter vand om dagen. Danskerne drikker vand som aldrig før, men det er en myte, at vi skal have mindst to liter vand om dagen. Tværtimod kan nyrernes evne til at regulere væskebalancen forrykkes, hvis vi drikker for meget.
-
---- <cite>[Søren Nielsen, professor](https://kontinens.org/myten-meget-man-skal-drikke/)
+>
+> --- <cite>[Søren Nielsen, professor](https://kontinens.org/myten-meget-man-skal-drikke/)
 
 Søren Nielsen har ganske enkelt været igennem det meste videnskabelige evidens, og han har ikke kunnet finde belæg for påstanden om 2 liter vand om dagen.
 
@@ -121,8 +121,8 @@ Vi skal formentlig drikke noget mere vand end 2 liter dagligt, før vi skal beky
 [Samvirke](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand) stiller spørgsmålet: <q>Kan man drikke for meget vand?</q>
 
 > Der er nogle processer i nyrerne, der sørger for, at du har det vand og salt i kroppen, du skal have. Hvis du drikker 4-5 liter vand om dagen gennem en længere periode, tager nyrerne skade. Så går der kludder i systemet.
-
---- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
+>
+> --- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
 
 Du skal være opmærksom på saltbalancen, når du drikker meget. En [myte](https://www.herlevhospital.dk/presse-og-nyt/pressemeddelelser-og-nyheder/nyheder/Sider/drikvand.aspx) omkring væskeindtag er, at man kan få væskeophobning i kroppen, hvis man drikker meget. Men det er der ingen grund til at bekymre sig om.
 
@@ -131,8 +131,8 @@ Du skal være opmærksom på saltbalancen, når du drikker meget. En [myte](http
 Du kan naturligvis drikke for lidt vand. Det er endnu ikke lykkes mig at finde det absolutte minimumsindtag af væske på en dag, men Meinders og Meinders (2020) giver et bud i deres artikel. Hvis du ved mere om det, så brug endelig kommentarerne.
 
 > Under normal circumstances of diet, exercise and climate the minimal urine output for healthy subjects is about 500 ml/day. Intake of more than 500 ml of fluids per day will result in the excretion of solute-free water.
-
---- <cite>[Meinders og Meinders (2010)](https://pubmed.ncbi.nlm.nih.gov/20356431/)</cite>
+>
+> --- <cite>[Meinders og Meinders (2010)](https://pubmed.ncbi.nlm.nih.gov/20356431/)</cite>
 
 Du skal altså formentlig have mindst en halv liter vand om dagen. Hvis du drikker mindre vand, så drikker du for lidt.
 
@@ -141,8 +141,8 @@ Du skal altså formentlig have mindst en halv liter vand om dagen. Hvis du drikk
 Du skal drikke vand, fordi vand er en væsentlig bestanddel af kroppen. Vandet er en essentiel del af rigtig mange af kroppens processer.
 
 > Stofskiftet hos en normalvægtig person producerer 0,5 liter vand om dagen. Men vi udskiller godt 1 liter om dagen gennem vores åndedræt, afføring og sved. Derfor er der behov for at udligne balancen, så vi ikke dehydrerer.
-
---- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
+>
+> --- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
 
 Væsken er bl.a. med til at udlede affaldsstoffer gennem urinen, en stor bestanddel i cellerne og i blodet. Desuden består kropsvæskerne også i høj grad af vand.
 

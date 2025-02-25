@@ -46,8 +46,8 @@ Lad os dykke ned i spørgsmålet: Hvordan bliver jeg højere?
 ## Hvorfor vil du gerne være højere?
 
 > Linkages between adult height and health, within and across generations, suggest that adult height may be a potential tool for monitoring health conditions and that programs focused on offspring outcomes may consider maternal height as a potentially important influence.
-
---- <cite>[Perkins et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892290/)</cite>
+>
+> --- <cite>[Perkins et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4892290/)</cite>
 
 ## Hvor høje er vi i gennemsnit i Danmark?
 
@@ -84,8 +84,8 @@ Jeg har ledt efter gennemsnitstal for både mænd og kvinder, og dem jeg har kun
 Hatton (2014) foreslår følgende til at forklare højdeudviklingen over tid for europæere:
 
 > The evidence suggests that the most important proximate source of increasing height was the improving disease environment as reflected by the fall in infant mortality. Rising income and education and falling family size had more modest effects.
-
---- <cite>[Hatton (2014)](https://academic.oup.com/oep/article-abstract/66/2/349/2362600?redirectedFrom=fulltext)</cite>
+>
+> --- <cite>[Hatton (2014)](https://academic.oup.com/oep/article-abstract/66/2/349/2362600?redirectedFrom=fulltext)</cite>
 
 Hvis du kan supplere med flere datapunkter til opgørelsen over [gennemsnitshøjden i Danmark for mænd og kvinder](/hvad-er-gennemsnitshoejden-i-danmark/), så skriv endelig i kommentarerne.
 
@@ -98,14 +98,14 @@ Højde er i sig selv ikke vigtigt. Det handler i stedet om, hvordan vi ser os se
 Gallup har lavet undersøgelser på den amerikanske befolkning, og noget tyder på, at højere mennesker i gennemsnit lever et bedre liv.
 
 > According to the Gallup-Healthways Well-Being Index daily poll of the US population, taller people live better lives, at least on average. They evaluate their lives more favorably, and they are more likely to report a range of positive emotions such as enjoyment and happiness. They are also less likely to report a range of negative experiences, like sadness, and physical pain, though they are more likely to experience stress and anger, and if they are women, to worry.
-
---- <cite>[Deaton og Arora (2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2729491/)</cite>
+>
+> --- <cite>[Deaton og Arora (2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2729491/)</cite>
 
 Forskellene er naturligvis ikke så store, men der er også videnskabelig evidens for at højere personer ser ud til at tjene lidt mere på arbejdsmarkedet.
 
 > The well-known association between height and earnings is often thought to reflect factors such as self esteem, social dominance, and discrimination. We offer a simpler explanation: height is positively associated with cognitive ability, which is rewarded in the labor market.
-
---- <cite>[Case og Paxon (2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2709415/)</cite>
+>
+> --- <cite>[Case og Paxon (2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2709415/)</cite>
 
 Case og Paxon (2009) foreslår altså, at højden kan være knyttet til ens kognitive evner. Jeg har ingen ide om, det er korrekt. I det tilfælde kunne jeg også godt selv tænke mig at være højere. Men hvis højere mennesker i gennemsnit får bedre søvn og bedre kost, så er der stor sandsynlighed for, at deres hjerner også har bedre vilkår.
 
@@ -160,8 +160,8 @@ Det sker formentlig primært fordi væksthormon stiger, når du sover godt.
 Der er flere årsager til, at bliver mindre med alderen. Efter 40 år bliver du faktisk omkring 1 cm mindre pr. 10 år, og når du runder de 70 går det endnu hurtigere.
 
 > Height loss is related to aging changes in the bones, muscles, and joints. People typically lose almost one-half inch (about 1 centimeter) every 10 years after age 40. Height loss is even more rapid after age 70. You may lose a total of 1 to 3 inches (2.5 to 7.5 centimeters) in height as you age.
-
---- <cite>[MedlinePlus](https://medlineplus.gov/ency/article/003998.htm)</cite>
+>
+> --- <cite>[MedlinePlus](https://medlineplus.gov/ency/article/003998.htm)</cite>
 
 Forklaringen skal findes i ændringer i skelettet, men først for fremmest er det nok bløddelene i leddene, der bliver lidt mindre viskose med alderen, og derfor lidt fladere. Du vil formentlig også falde lidt sammen i skelettet og blive lidt mere krumrygget.
 
@@ -172,8 +172,8 @@ Mens vi venter på forskning i [stamceller måske kan give os svaret på at bliv
 Der eksperimenteres med operationer, som gør mennesker højere. Fx er Maria Thomsen blevet opereret højere ved at få operereret forlængelsessøm ind i sine skinneben.
 
 > Det har gjort nogle ting nemmere for mig. Når man er lav, kan man jo ikke nå de ting, der er højt i køkkenskabene. Førhen skulle jeg altid bede mine forældre om hjælp eller bruge en skammel for at kunne nå.
-
---- <cite>[Maria Thomsen](https://www.tv2ostjylland.dk/aarhus/helt-ny-operation-maria-bliver-10-centimeter-hojere)</cite>
+>
+> --- <cite>[Maria Thomsen](https://www.tv2ostjylland.dk/aarhus/helt-ny-operation-maria-bliver-10-centimeter-hojere)</cite>
 
 ## Væksthormon hjælper gevaldigt på højden
 
@@ -186,8 +186,8 @@ Du har en naturlig udskillelse af væksthormon.
 > Væksthormon er et hormon som produceres i en lille del af hjernen kaldet hypofysen. Hormonet er vigtigt for at kroppen kan vokse.
 >
 > Væksthormon er specielt vigtigt for den generelle vækst af muskler og knogler, men også for organer.
-
---- <cite>[Netdoktor](https://netdoktor.dk/ordbog/vaeksthormon.htm)</cite>
+>
+> --- <cite>[Netdoktor](https://netdoktor.dk/ordbog/vaeksthormon.htm)</cite>
 
 Væksthormon stimuleres af følgende faktorer:
 

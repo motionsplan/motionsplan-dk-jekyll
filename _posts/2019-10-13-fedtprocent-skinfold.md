@@ -67,8 +67,8 @@ Egentlig hedder det en hudfoldsmåler, men det bliver også ofte kaldet en fedtt
 Målingerne med fedttangen skal naturligvis være til at stole på, så derfor skal:
 
 > en fedttang overholde nogle bestemte standarder mht. hvor hårdt den klemmer, og hvordan enderne af tangen ser ud. En professionel fedttang (_skinfold caliper_) koster flere tusinde kroner, men mange steder på nettet kan man købe billigere fedttænger der er næsten ligeså gode.
-
---- <cite>[Morten Zacho](https://web.archive.org/web/20110606141757/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/maal_din_fedtprocent_med_en_fedttang_-_valg_af_formel/){:rel="nofollow"}</cite>
+>
+> --- <cite>[Morten Zacho](https://web.archive.org/web/20110606141757/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/maal_din_fedtprocent_med_en_fedttang_-_valg_af_formel/){:rel="nofollow"}</cite>
 
 En fedttang eller hudfoldsmåler ser sådan her ud:
 

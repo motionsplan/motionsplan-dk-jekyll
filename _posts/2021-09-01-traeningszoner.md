@@ -72,8 +72,8 @@ Træningsfilosofien i den polariserede træning står i kontrast til ideen om **
 [Seiler (2010)](https://pubmed.ncbi.nlm.nih.gov/20861519/) diskuterer polariseret træning og *sweet spot* træning. Du kan læse mere i [Cheungs artikel](https://pezcyclingnews.com/toolbox/cycling-polarized-training-stephen-seiler/) om de to fremgangsmåder.
 
 > It is argued that SST doesn’t provide the training value and in fact can compromise your training.  It is termed the black hole of training where athletes make the mistake of training too hard during easy sessions and training too easy during hard sessions.
-
---- <cite> [baronbiosys.com](https://baronbiosys.com/sweet-spot-threshold-and-polarized-training-by-the-numbers/)</cite>
+>
+> --- <cite> [baronbiosys.com](https://baronbiosys.com/sweet-spot-threshold-and-polarized-training-by-the-numbers/)</cite>
 
 Du kan se Joe Friel diskutere de to træningstyper i denne Youtube-video:
 

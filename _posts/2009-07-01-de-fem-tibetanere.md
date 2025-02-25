@@ -330,8 +330,8 @@ I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som jeg ikke
 Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite:
 
 > **"It should be practiced only when you feel an excess of sexual energy..."**
-
-— <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+>
+> — <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
 Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge beskrivelsen her:
 
@@ -340,8 +340,8 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 > hold this position as long as you possibly can.
 > ...
 > take air into your empty lungs, let the air flow in through the nose. When the lungs are full, exhale through the mouth. As you exhale, relax your arms... Then take several deep breaths through the mouth or nose, allowing them to escape through either the mouth or nose."
-
---- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+>
+> --- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
 ## Er de fem tibetanske riter for dig?
 

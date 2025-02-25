@@ -136,8 +136,8 @@ Ved brug af RPE som intensitetsskala for at vælge sin _wave_ sørger man for at
 Jeg tror mange glemmer, at man ikke behøver at have eksplosiv fremgang mellem de enkelte træninger. Hvis du kan have et relativt langsomt _progressivt overload_, hvor du stadig bliver bedre, så vil du kunne have fremgang i længere tid inden du støder på et plateau. 
 
 > Remember, the slower you can progress the weights while still growing and making the workouts hard, the longer you'll progress – and the stronger you'll be at the end. To that end, an optimal progression scheme when using this system would be to add 5 pounds to the starting wave every third workout.
-
---- <cite>Christian Thibaudeau</cite>
+>
+> --- <cite>Christian Thibaudeau</cite>
 
 ## Rest-pause for maksimal styrke
 

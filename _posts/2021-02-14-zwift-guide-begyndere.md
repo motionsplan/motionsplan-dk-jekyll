@@ -130,8 +130,8 @@ Hvis du gerne vil opgradere din oplevelse i Zwift, så kan du købe et **_device
 Du kan også købe vindmodstand. Du kan købe en **blæser som kan simulere vindmodstand og køle dig ned**. Fx kan du købe en [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }, som justerer den virtuelle vindmodstand, når du kører. Når du sidder i en gruppe vil du kunne mærke, at du ligger og _drafter_, og hvis du kører hurtigere, så vil den blæse mere. Samtidig sikrer blæseren, at du ikke overopheder helt, når du kører.
 
 > Jeg synes, det er rigtig vigtigt, at man har en blæser foran sig, når man kører Zwift. Jeg ved i hvert fald fra mig selv, at jeg ellers let koger over.
-
-— <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
+>
+> — <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
 Der er også mange er vælger at få en måtte under cyklen. En måtte beskytter gulvet mod sved og olie fra cyklen, men den er også med til at gøre kørekomforten bedre, da den støddæmper lidt. Samtidig lyddæmper den også lidt. Wahoo sælger naturligvis også [måtter til at have under cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
@@ -183,8 +183,8 @@ Det næste trin er at oprette din avatar og give den det rigtige tøj på. Når 
 Du kan i Zwift besøge 'Drop Shop', som er en online markedsplads, hvor du køber forskellige komponeneter med spillet spillets valuta _drops_. Du tjener drops ved at køre mange kilometer, og det er herligt at Zwift ikke giver mulighed for at betale sig til nyt udstyr i appen ved at betale med rigtige penge.
 
 > Jeg synes det er fedt i Zwift, at man ikke bare kan købe bedre udstyr derinde til sin avatar. Man skal gøre sig fortjent til nyt udstyr ved at køre en del kilometer.
-
-— <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
+>
+> — <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
 Når du har downloadet appen, så er du klar til at køre på Zwift.
 
@@ -279,14 +279,14 @@ Alle dine ture på Zwift gemmes på din computer .fit-format, hvilket betyder at
 Martin Mortensen, som er cykellærer på Vejle Idrætsefterskole, og en vaskeægte ekspert i Zwift har et par gode råd til dig, der gerne vil i gang med Zwift.
 
 > Det er fedt, at man kan sidde hjemme og træne med ens venner. Mange bruger fx Discord til at snakke sammen, mens de kører løb eller træner. Så er det næsten lige som at sidde ved siden af hinanden og cykle. Det kan jeg virkelig godt lide.
-
-— <cite>Martin Mortensen</cite>
+>
+> — <cite>Martin Mortensen</cite>
 
 Selv varmer Martin Mortensen grundigt op inden de løb, han deltager i. Han kan bruge helt op til 30-45 minutter på opvarmningen inden et vigtigt løb, som han ved bliver hårdt fra starten. Ved de lidt mindre vigtige løb, sætter han sig op 15 minutter før start for at være sikker på, at det hele spiller.
 
 > Jeg bruger også tid på at lære de ruter, vi kører i løb. Når jeg kender ruten, så ved jeg nemlig nøjagtig, hvornår der kommer en bakke, hvor jeg kan slappe af.
-
-— <cite>Martin Mortensen</cite>
+>
+> — <cite>Martin Mortensen</cite>
 
 Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
 

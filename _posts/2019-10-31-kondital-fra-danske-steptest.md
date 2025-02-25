@@ -63,8 +63,8 @@ Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditalle
 Aadahl et al (2012) har valideret testen med 795 personer, hvor man har sammenlignet den med en [Watt-max test på cykel]({% link _posts/2019-10-31-kondital-watt-max-test.md %}). Der fandt forskerne følgende korrelationer.
 
 > The correlation between VO<sub>2</sub>max (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO<sub>2</sub>max compared to the watt-max test, more so in women than in men.
-
---- <cite>[Aadahl et al (2012)](https://journals.sagepub.com/doi/10.1177/2047487312462825)</cite>
+>
+> --- <cite>[Aadahl et al (2012)](https://journals.sagepub.com/doi/10.1177/2047487312462825)</cite>
 
 Testen har en tendens til at overestimere VO<sub>2</sub>-max sammenlignet med en Watt-max test på cykel.
 
@@ -73,8 +73,8 @@ Senere har Lerche et al (2017) valideret Den Danske Steptest i forhold til direk
 > The validity of the Danish step test was moderate (women: r=.66, and men: r=.56); however, men were systematically underestimated (43% misclassification).
 > ...
 > Thus, self‐rated fitness was found to be a superior method to the Danish step test...
-
---- <cite>[Lerche et al (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1111/sms.12873)</cite>
+>
+> --- <cite>[Lerche et al (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1111/sms.12873)</cite>
 
 Den Danske Steptest har altså en fornuftig korrelation med Watt-max-testen, og validiteten er moderat, når forskerne sammenligner med en direkte måling af den maksimale iltoptagelse. Det skyldes sandsynligvis, at korrelationen mellem Watt-max-testen og en direkte måling af iltoptagelse jo heller ikke er perfekt.
 

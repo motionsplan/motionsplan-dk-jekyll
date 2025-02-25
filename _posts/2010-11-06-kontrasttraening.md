@@ -29,8 +29,8 @@ Ideen er at musklens ekslosive kapacitet er øget efter, at den har udøvet maks
 Det er nogle farligt fine ord. Sagt enklere, så fjerner nervesystemet bremserne og smider flere tilgængelige motor units ind i opgaven, end den ellers ville have gjort.
 
 > Forestil dig, hvad der ville ske, hvis du skal løfte en halvfuld vandkande, som du troede var fuld.
- 
---- <cite>Yuri Verkhoshansky, russisk videnskabsmand</cite>
+>
+> --- <cite>Yuri Verkhoshansky, russisk videnskabsmand</cite>
 
 Ideen er, at du med kontrasttræning lærer kroppen at rekruttere flere muskelfibre, når du laver dine eksplosive bevægelser.
 

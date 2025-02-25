@@ -59,8 +59,8 @@ Når du kender energiforbruget beregnet ud fra iltoptagelsen, og du kender inten
 Bruttoeffektiviteten er altså ikke særlig høj, når du cykler. Typisk er effektiviteten på cykel mellem [7,5-25,4%](https://www.researchgate.net/profile/George_Brooks/publication/22014772_Muscular_efficiency_during_steady-rate_exercise_effects_of_speed_and_work_rate/links/02e7e531d20463170e000000.pdf).
 
 > As power output increases so does gross efficiency up to about 300w (where values range from 18-25%), then due to the recruitment of more type II muscle fibers efficiency begins to drop.
-
--- <cite>[vo2master.com](https://vo2master.com/blog/exercise-efficiency/)</cite>
+>
+> -- <cite>[vo2master.com](https://vo2master.com/blog/exercise-efficiency/)</cite>
 
 Den mindste del af din energi når du cykler bliver altså overført til pedalerne, mens resten udskilles som varme.
 

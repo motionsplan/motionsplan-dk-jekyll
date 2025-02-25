@@ -207,8 +207,8 @@ Når du tager højde for, hvilke fysiologiske tilpasninger du gerne vil have til
 Pointen er, at folk køber i meget forskelligt tempo, men hvis vi skal arbejde med løbetræningszoner, så giver det meget bedre mening, at **løbeprogrammet er sat op til at bruge minutter**.
 
 > Den største fejl, nye løbere begår, er at de tænker i kilometer -1 km, 2 km, 3 km. Begyndere skal tænke i minutter, ikke i kilometer.
-
-— <cite>[Budd Coates](https://www.wedorun.dk/blog/43661-fejlen-som-naesten-alle-nye-loebere), 4-dobbelt olympisk maratondeltager fra USA</cite>
+>
+> — <cite>[Budd Coates](https://www.wedorun.dk/blog/43661-fejlen-som-naesten-alle-nye-loebere), 4-dobbelt olympisk maratondeltager fra USA</cite>
 
 Det er helt sikkert, at begyndere kan have rigtig meget ud af at begynde at tænke i minutter i løbetræningen.
 

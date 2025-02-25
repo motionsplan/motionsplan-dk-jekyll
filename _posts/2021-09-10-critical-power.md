@@ -60,8 +60,8 @@ Vi har lavet denne beregner, så du ikke behøver at finde lommeregneren:
 Du kan også bruge en lidt **mere præcis testprotokol med flere tests**.
 
 > Several studies have proposed that CP and W’ can be determined from just two maximal efforts (Maturana et al., 2018; Simpson & Kordi., 2017). However, in our experience, using just two maximal efforts is highly sensitive to the specific powers and/or test durations used (making repeat tests hard to compare) and can result in fairly inaccurate estimates under certain circumstances. So, we recommend using 3-4 maximal tests to calculate CP and W’ accurately.
-
---- <cite>[www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator)</cite>
+>
+> --- <cite>[www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator)</cite>
 
 Du kan finde en rigtig god beskrivelse og et link til et regneark på [www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator).
 
@@ -116,8 +116,8 @@ P = power in watts, T = time in seconds, CP = critical power in Watts, W’ = �
 Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}) på *critical power*, så kan du ifølge [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/) bruge FTP-zonerne med et let modificeret Critical Power.
 
 > Critical power is not the same as FTP, but can be used to estimate your training zones. If using the zones above, take 94 per cent of your Critical Power to replace FTP, then apply the percentages to find your values for each zone.
-
---- <cite>[www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/)</cite>
+>
+> --- <cite>[www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/)</cite>
 
 {% include table/table-ftp-critical-power.html %}
 

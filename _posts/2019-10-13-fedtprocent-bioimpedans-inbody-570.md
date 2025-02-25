@@ -140,14 +140,14 @@ Miller et al (2016) har validereret, hvor præcis en kropsanalysevægt test på 
 > Body fat percentage determined by DXA shares 88% of the variance with MfBIA, leaving 12% variance unexplained. (...)
 >
 > The results of the current study reveal if strict guidelines are adhered to MfBIA is a comparable method for determining body fat percentage when compared to DXA.
-
---- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
+>
+> --- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
 
 Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var omkring 5%-point højere både for mænd og kvinder. De bruger ikke meget tid i studiet til at diskutere det.
 
 > Mean  body  fat  percentage  for  DXA  was  25.61  ±  10.56%  across genders,  32.92  ±  7.74%  women,  and  21.77  ±  9.82%  men, respectively. Mean body fat percentage for MfBIA was 20.99 ± 9.34% across genders, 27.72 ± 7.27% women, and 17.46 ± 8.33% men.
-
---- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
+>
+> --- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
 
 Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage det absolutte tal med flere forbehold.
 

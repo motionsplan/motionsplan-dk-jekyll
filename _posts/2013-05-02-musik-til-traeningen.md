@@ -82,8 +82,8 @@ Men hvilken type musik skal man så vælge til sine aktiviteter. Det betyder alt
 > Tempoet angiver simpelthen hvor hurtig grundtakten eller pulsen i et musikstykke er, og er ofte udgangspunktet for at vurdere et musikstykkes egnethed til opvarmning. Tempo oftest i Beats per minute (taktslag pr. minut).
 >
 > Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl fx hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
-
---- <cite>[Idrætsmusik](https://idraetsmusik.dk/learn/music-for-warming-up)</cite>
+>
+> --- <cite>[Idrætsmusik](https://idraetsmusik.dk/learn/music-for-warming-up)</cite>
 
 Jeg har samlet aktiviteter og passende tempo i nedenstående tabel:
 
@@ -125,8 +125,8 @@ Her er nogle eksempler på musikstykker i forskellig tempo, som bliver foreslåe
 Et meget populært hit til træning er _Gonna Fly_ fra Rocky med Sylvester Stallone. Mange bruger den mental træning eller motivation under sin træning. Det kan der være flere forklaringer på, men den sang har i hvert fald en god melodi og en motiverende tekst.
 
 > ”Sangen bringer lytteren i en tilstand af optimisme og opstemt spænding.”
-
-— <cite>[Costas Karageorghis](https://vorespuls.dk/kost-sundhed/artikler/saadan-vaelger-du-musik-til-traening), idrætsforsker</cite>
+>
+> — <cite>[Costas Karageorghis](https://vorespuls.dk/kost-sundhed/artikler/saadan-vaelger-du-musik-til-traening), idrætsforsker</cite>
 
 Du kan høre sangen her, så du bliver motiveret til at læse resten af artiklen.
 

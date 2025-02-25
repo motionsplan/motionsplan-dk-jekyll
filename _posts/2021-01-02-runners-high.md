@@ -64,8 +64,8 @@ https://www.chicagotribune.com/news/ct-xpm-2003-10-12-0310120504-story.html
 [Runners World](https://www.runnersworld.com/training/a20851505/how-to-achieve-a-runners-high/) forklarer, hvordan man kan opnå Runner's High. Runner's High er formentlig en måde at maskere på, at vi har trætte ben, som går helt tilbage til dengang, vi havde brug for masser af energi for at fange vores egen mad.
 
 > The desire to live was possibly their motivation to run and run fast, and the feel-good brain chemicals released when they did so may have helped them achieve the speed and distances required.
-
-— <cite>[David A. Raichlen](https://www.runnersworld.com/training/a20851505/how-to-achieve-a-runners-high/), professor på University of Southern California</cite>
+>
+> — <cite>[David A. Raichlen](https://www.runnersworld.com/training/a20851505/how-to-achieve-a-runners-high/), professor på University of Southern California</cite>
 
 ## Hvordan opnår du Runner's High?
 

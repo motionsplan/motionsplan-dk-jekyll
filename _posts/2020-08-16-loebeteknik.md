@@ -57,8 +57,8 @@ Hvis du vil ændre din kadence, så er den optimale ændring omkring 5-10% for a
 At arbejde med kadencen har flere positive indvirkninger på dit løb:
 
 > [Bramah et al (2019)](https://pubmed.ncbi.nlm.nih.gov/31657964/) found that step retraining can result in a reduction in peak contralateral pelvic drop, hip adduction and hip internal rotation. In the sagittal plane, step retraining can reduce the foot inclination and increases knee flexion at initial contact possibly reducing the overstride mechanics and reducing the breaking and impact forces on the joints.
-
---- <cite>[Physiopedia](https://www.physio-pedia.com/Running_Gait_Retraining)</cite>
+>
+> --- <cite>[Physiopedia](https://www.physio-pedia.com/Running_Gait_Retraining)</cite>
 
 ## Fodisæt (landing)
 

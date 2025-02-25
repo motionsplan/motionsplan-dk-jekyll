@@ -72,8 +72,8 @@ Du kan naturligvis sætte dig for bare at løbe afsted, men hvis det kan måske 
 Det er sjovt at forsøge at lave tegningen i en lang flydende bevægelse, men det er måske ikke altid muligt. Du kan godt komme ud for nogle spændende ting undervejs, hvis du har planlagt din rute hjemmefra. Steder hvor det ikke var så let at passere alligevel. Hvis du undervejs på din tur slukker for din GPS og bevæger dig i mellemtiden, så vil den forbinde GPS-punkterne med en ret linje.
 
 > “They’re there in the map just waiting to be found,” ... “The game-changer for me was when I took a map of Victoria and highlighted all the main roads. Inspirations just started popping off the page….”
-
---- <cite>[Stephen Lund](https://gpsdoodles.com/what-do-you-see/)</cite>
+>
+> --- <cite>[Stephen Lund](https://gpsdoodles.com/what-do-you-see/)</cite>
 
 ## Inspiration
 

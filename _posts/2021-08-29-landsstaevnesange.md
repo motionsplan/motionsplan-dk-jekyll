@@ -106,14 +106,14 @@ Det har været svært at finde en samlet liste, så hvis du kender flere landsst
 En landsstævnesang skal kunne holde i mange år, men den skal også kunne beskrive fællesskabet og idrætten.
 
 > Den her sang beskriver fællesskabet på en ny måde, hvor frihed er et nøgleord. Vi er med, fordi vi har lyst. Og vi har brug for hinanden, for ellers er der ikke noget fællesskab. Det er meget sigende for Landsstævnet.
-
---- <cite>[Hanne Lene Haugaard](https://www.tv2fyn.dk/svendborg/emil-og-vicki-fra-langeskov-har-skrevet-dgis-nye-sang), jury-medlem</cite>
+>
+> --- <cite>[Hanne Lene Haugaard](https://www.tv2fyn.dk/svendborg/emil-og-vicki-fra-langeskov-har-skrevet-dgis-nye-sang), jury-medlem</cite>
 
 Der blev indsendt hele 102 forslag til en landsstævnesang til 2021, men pga. Corona så blev landsstævnet udsat et år til 2022. Den globale pandemi satte også sit aftryk i sangen.
 
 > Jeg havde allerede lidt af en melodi liggende, så vi gik bare i gang med at skrive ud fra DGI's værdier, som sammenhold og fællesskab. Vi stod jo midt i en sammenholdstørke under corona, hvor man savnede at kramme og røre folk.
-
---- <cite>[Emil Gemmer Schultz](https://www.tv2fyn.dk/svendborg/emil-og-vicki-fra-langeskov-har-skrevet-dgis-nye-sang)</cite>
+>
+> --- <cite>[Emil Gemmer Schultz](https://www.tv2fyn.dk/svendborg/emil-og-vicki-fra-langeskov-har-skrevet-dgis-nye-sang)</cite>
 
 Du kan lytte til sangen her.
 

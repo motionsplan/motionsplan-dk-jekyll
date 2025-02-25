@@ -94,8 +94,8 @@ Hvor køn ved mand = 0 og for kvinde = 1.
 Studier har vist, at testen er ret påvirkelig af tilvænning. Gibbons et al (2001) lavede fx 4 forsøg på testen på en dag og fandt følgende:
 
 > Eighty-six percent had their best 6MWD after the first walk; an average increase of 43 meters was observed from first to best 6MWD.
-
---- <cite>[Gibbons et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11314289/)</cite>
+>
+> --- <cite>[Gibbons et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11314289/)</cite>
 
 Hvis du laver testen med tilvænning, så skal du også sammenligne med referenceværdier, hvor forsøgspersonerne har vænnet sig til testen. Du kan fx finde referenceværdier hos Gibbons et al (2001). 
 

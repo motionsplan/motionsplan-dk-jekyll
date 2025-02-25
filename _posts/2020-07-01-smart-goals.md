@@ -173,8 +173,8 @@ Men målsætningen i sig selv er ikke nok. Du skal også lave en plan for, hvord
 Når du gerne vil ændre på din sundhed, så er det sjældent nok med bare at have en målsætning.
 
 > ‘Setting a goal for health behavior change, however, is seldom sufficient for behavior change to actually occur.’
-
---- <cite>[Bailey (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6796229/)</cite>
+>
+> --- <cite>[Bailey (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6796229/)</cite>
 
 ### Karakteristika for dine mål
 

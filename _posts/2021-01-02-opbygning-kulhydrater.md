@@ -29,8 +29,8 @@ Hvordan er kulhydrater opbygget? **Kulhydrater er opbygget af tre grundstoffer: 
 Fra Wikipedia kan du læse om, hvad kulhydrater er opbygget af?
 
 > Kulhydrater består næsten udelukkende af tre grundstoffer: carbon, hydrogen og oxygen. Grundstof-forholdene varierer, men ikke meget. Normalt er den molære andel af carbon den samme eller en anelse større end oxygen, og den molære andel af hydrogen er dobbelt så stor (eller lidt større) end andelen af oxygen. Kulhydraters traditionelle generelle formel er: CxH2xOx, men mange vigtige kulhydrater, fx deoxyribose C5H10O4 , har mindre oxygen.
-
---- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Kulhydrat)</cite>
+>
+> --- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Kulhydrat)</cite>
 
 ## Hvilke typer kulhydrater findes der?
 
@@ -64,8 +64,8 @@ Der findes ifølge [Netdoktor](https://netdoktor.dk/mave-og-tarm/sygdomme/de-sun
 > De **opløselige fibre** danner geler med vand og kan binde op til 15 gange deres egen vægt i vand. Vandbindingen gør maden mere fyldig, hvilket sænker mavens tømningshastighed samt øger madens opholdstid i tyndtarmen. De opløselige fibre findes primært i frisk og tørret frugt, gulerødder, havre, byg, rug, rugbrød og bønner. Generelt rummer vegetabilske madvarer dog såvel opløselige, som uopløselige kostfibre.
 >
 > De **uopløselige fibre** kan, som navnet antyder, ikke opløses i vand, men suger dog en del vand, samtidig med at de til en vis grad forgæres i blind- og tyktarm. Modsat de opløselige fibre øger de uopløselige fibre madens passagehastighed i tarmkanalen, som følge af øget mekanisk påvirkning af tarmvæggen og en større fylde i tyktarmen. Resultatet er en velfungerende fordøjelse, men en knap så mættende effekt. Du finder blandt andet de uopløselige fibre i hvedeklid, grahamsmel, hvedeprodukter og upolerede ris.
-
---- <cite>[Netdoktor](https://netdoktor.dk/mave-og-tarm/sygdomme/de-sunde-kostfibre/)</cite>
+>
+> --- <cite>[Netdoktor](https://netdoktor.dk/mave-og-tarm/sygdomme/de-sunde-kostfibre/)</cite>
 
 ## Fødevarer med mange kostfibre
 

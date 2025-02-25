@@ -104,8 +104,8 @@ Du skal dog være opmærksom på, at du skal følge protokollen før det virker.
 Det er i hvert fald usædvanlig hårdt - både for kroppen, men sandelig også for psyken. Og så tager det kun fire minutter. Den japanske forsker Izumi Tabata studerede træningsmetoderne hos speedskatere og skriver:
 
 > 6-8 virkelig hårde 20 sekunders intervaller med 10 sekunders pause mellem intervallerne er måske en af de allerbedste træningsprotokoller overhovedet.
-
---- <cite>Izumi Tabata</cite>
+>
+> --- <cite>Izumi Tabata</cite>
 
 Hvis man går op i træning, så er der ingen undskyldning. Man skal prøve Tabata-intervaller, ganske enkelt fordi Tabata-intervaller giver en usædvanlig god effekt. De rigtige Tabata-intervaller foregår på et cykelergometer eller løbende.
 

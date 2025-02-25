@@ -47,8 +47,8 @@ Undersøgelsen sammenligner de indberettede højder for hver befolkningsgruppe f
 Gennemsnitshøjden for mænd er generelt højere end for kvinder, men hvis vi kigger på gennemsnitshøjden i Danmark, så er gennemsnittet for en dansker på tværs af køn 174,3 centimeter høj.
 
 > Mænd født i 1896 blev i gennemsnit **170,0 cm** høje, mens kvinderne i gennemsnit blev **157,1 cm** høje. Siden da er danskerne skudt gevaldigt i vejret. I dag er gennemsnitshøjden for danske mænd og kvinder henholdsvis **181,4 cm** og **167,2 cm**, og det gør os til nogle af de højeste mennesker i verden.
-
---- <cite>[Janne Tolstrup](https://www.sdu.dk/da/sif/ugens_tal/35_2016), professor ved Syddansk Universitet</cite>
+>
+> --- <cite>[Janne Tolstrup](https://www.sdu.dk/da/sif/ugens_tal/35_2016), professor ved Syddansk Universitet</cite>
 
 I undersøgelsen er det nok til at give mændene en femteplads og kvinderne en syvendeplads for gennemsnitshøjder på verdensplan.
 
@@ -71,8 +71,8 @@ Vi spiser en relativt varieret og sund kost, [får nok søvn](/soevn/) og har et
 Generne spiller naturligvis også ind, men det gør følgende formentlig også:
 
 > Det har sandsynligvis været mere effektivt at være stor og høj, når vi har skullet arbejde i kulden for flere tusinde år siden. Klimaet i Nordeuropa har krævet mere fysisk robusthed end i Sydeuropa. Det er muligt, at vi altid har været blandt de højeste.
-
---- <cite>[Jesper Lier Boldsen](https://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden){: rel="nofollow noopener" }, lektor ved Retsmedicinsk Institut</cite>
+>
+> --- <cite>[Jesper Lier Boldsen](https://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden){: rel="nofollow noopener" }, lektor ved Retsmedicinsk Institut</cite>
 
 Hvis dine forældre ikke er så høje, så får du formentlig heller ikke en højde over gennemsnitshøjden. Jeg har skrevet mere om [hvad der har betydning for din højde](/hvordan-bliver-jeg-hojere/). God mad og rigeligt med motion og i det hele taget en sund livsstil vil gøre det lettere at blive højere, hvis du ønsker det.
 

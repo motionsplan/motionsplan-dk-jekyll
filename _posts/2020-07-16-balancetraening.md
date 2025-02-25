@@ -61,8 +61,8 @@ Trojian og McKeag (2006) undersøgte 230 unge mennesker. Inden en sæson lavede 
 Hvis du har en dårlig balanceevne, så skyldes det **ofte mangel på træning**. Du vil hurtigt få en bedre balance med selv simple balanceøvelser.
 
 > In order to improve balance, what we’ve seen in research is that you need to spend somewhere between maybe seven and 10 minutes, three times a week, working through these different variations. If you can do that, it will have big benefits for you, not only in safety, as you move through the world, but usually we see great improvements as well in generalized athleticism.
-
-— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+>
+> — <cite>[Dr. Eric Cobb](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
 
 Jeg synes selv både [episode 1](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/) og [episode 2](https://zhealtheducation.com/blog/episode-201-quickly-improve-balance-part-2/) om, hvordan man hurtigt forbedre sin balance af Eric Cobb fra Z-health er lærerige at kigge på.
 
@@ -283,8 +283,8 @@ Pertubationstræning er en videreudvikling af andre balanceøvelser, hvor man sk
 Sommetider arbejder man med:
 
 > “arbejde på ujævnt underlag og udsættes for uventet ydre kraftpåvirkning. [Man] skal reagere hurtigt og funktionelt med kompenserende bevægelse”
-
-— <cite>Dansk Sportsmedicin, nr. 2, Maj, 2002</cite>
+>
+> — <cite>Dansk Sportsmedicin, nr. 2, Maj, 2002</cite>
 
 Der er imidlertid flere udfordringer med at arbejde med ustabile underlag, når man skal arbejde med at forbedre balancen. Her skal vi huske princippet om **specificitet** i træning. Hvis du har brug for balancen på faste underlag, så skal du først og fremmest træne den der. Men her kan du også sagtens arbejde med (overraskende) udefrakommende påvirkninger.
 

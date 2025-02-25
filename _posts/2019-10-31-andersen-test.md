@@ -136,8 +136,8 @@ Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
 [Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/) undersøgte validitet og reliabilitet for 10-årige børn. De fandt testen valid og reliabel på gruppeniveau, men gør opmærksom på, at der naturligvis er individuelle forskelle.
 
 > The Andersen test provided reliable and valid data on a group level. However, a substantial degree of individual variability was found for estimates of VO2peak. Researchers should be aware of the amount of noise in indirect tests that estimate aerobic fitness.
-
---- <cite>[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)</cite>
+>
+> --- <cite>[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)</cite>
 
 Aadland et al (2014) konkluderer også, at du bør lave to tests for at få valide resultater. Det skyldes bl.a. en læringseffekt ved testen. Når du prøver den anden gang, så ved du hvor meget gas du kan give den.
 

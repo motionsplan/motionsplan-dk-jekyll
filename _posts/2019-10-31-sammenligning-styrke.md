@@ -76,16 +76,16 @@ I International Powerlifting Federation har man erstattet Wilks Score med en ny 
 Hvorfor valgte IPF at udvikle en ny formel til at gøre konkurrencerne mere retfærdige?
 
 > In the following year, not satisfied with the new formula, the IPF released another one using a different algorithm with the intention to update the parameters used in it every four years, to keep it better aligned with the performance of elite powerlifters over time. The calculator below is based on this new formula and is current for lifts performed in the period 2020 - 2023. Points are referred to as IPF GL to distinguish them from the IPF points of the 2019 formula. IPF GL points are normalised in an attempt to represent performance as a percentage of that of an elite lifter with the same body weight.
-
---- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
+>
+> --- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
 
 ### McCulloch aldersjustering
 
 Min alder stiger hver eneste år. Derfor synes jeg det bliver mere og mere interessant at tage alderen med, når man skal sammenligne styrkeniveauet med andre. Heldigvis kan McCulloch hjælpe med at aldersjustere mine løft.
 
 >  Sometimes scores are further adjusted by multipling by a factor that takes the lifter's age into account. The McCulloch coefficients take into account the fact that younger athletes generally have not developed to their potential strength, while from about the age of 40 onwards strength starts to steadily diminish.
-
---- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
+>
+> --- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
 
 ## 5. Greg Nuckols styrkesammenligning
 
@@ -102,8 +102,8 @@ Greg Nuckols baserer beregneren på færdigheder og kropskomposition. Hvis du ha
 Nuckols skriver:
 
 > We know that among elite lifters, the squat, bench, and deadlift scale linearly with fat free mass per cm. Based on your height and weight, we can get an idea of how skilled you are at picking up heavy stuff with the muscle you currently have.
-
---- <cite>[Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/)</cite>
+>
+> --- <cite>[Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/)</cite>
 
 Nuckols har flere beregnere på siden. Du kan selv sammenligne dig med din nuværende kropsvægt. Så kan du sammenligne dig med andre i squat, bænkpres og dødløft og få en vurdering af, hvordan du klarer dig mod verdenseliteten. Du kan bruge denne tabel til sammenligningen.
 

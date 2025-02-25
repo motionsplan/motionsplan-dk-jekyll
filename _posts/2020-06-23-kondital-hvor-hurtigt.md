@@ -55,8 +55,8 @@ Men studiet er også interessant, fordi det viser, at konditallet for gruppen me
 Hatle et al (2014) konkluderede på baggrund af studiet:
 
 > Both HF and MF training of high-intensity aerobic exercise improves VO2max. The cardiovascular adaptation following a HF programme of high-intensity exercise is however delayed compared to MF training.
-
---- <cite>[Hatle et al (2014)](https://doi.org/10.1371/journal.pone.0088375)</cite>
+>
+> --- <cite>[Hatle et al (2014)](https://doi.org/10.1371/journal.pone.0088375)</cite>
 
 Når man så kigger på, hvor hurtigt det går ned ad bakke igen for konditallet, så går det i nogenlunde samme rate. Groft set i figuren kan man øge sit kondital med 0,5-1 ml O<sub>2</sub>/min/kg om ugen, og så falder det med nogenlunde samme rate, hvis man går ind i en detræningssituation.
 
@@ -77,16 +77,16 @@ I det ovenstående har vi kigget på, at tilpasningerne formentlig sker ret hurt
 En læser på [videnskab.dk](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere) løbetræner typisk mandag, tirsdag, torsdag og fredag, men har opdaget, at hvis vedkommende misser en træning, så bliver han mere forpustet og udmattet næste gang på løbebåndet.
 
 > Jeg undrer mig over dette, da det også gælder, når jeg træner fuldstændig regulært i flere måneder. Så mit spørgsmål er: Er min kondi blevet dårligere på blot disse to dage? Sagt på en anden måde: Hvor lidt/meget skal der til, for at jeg ’mister’ min kondi? Eller er noget af det rent psykologisk?
-
---- <cite>[Anuresh Rattan](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere)</cite>
+>
+> --- <cite>[Anuresh Rattan](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere)</cite>
 
 Det har naturligvis betydning, hvilke dage man holder fri. Men hvis Anuresh springer over fx torsdag og fredag, så ender han pludselig med en længere pause fra træningen i forhold til hans normale træning.
 
 Han har en moderat træningsmængde, og der ser man i studiet af Hatle (2014), at konditionsniveauet vil begynde at falde med det samme. Så i forhold til at han har haft et langt kontinuerlig træningsforløb, så kan pausen faktisk opfattes som lang.
 
 > Hvis man nu forestiller sig, at han misser træningen mandag og tirsdag, så er sidste gang han har trænet fredag. Det vil sige en pause på omtrent fem en halv dag. Det er ret lang tid ikke at træne, når man har en træningsfrekvens, der er så høj, som hans er.
-
---- <cite>[Jørn Wulff Helge](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere), træningsfysiolog</cite>
+>
+> --- <cite>[Jørn Wulff Helge](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere), træningsfysiolog</cite>
 
 ## Hvorfor mister vi så hurtigt konditionen?
 

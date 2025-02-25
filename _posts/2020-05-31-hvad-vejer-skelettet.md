@@ -85,8 +85,8 @@ Hele livet igennem udvikler skelettet sig for at være så stærkt som muligt. K
 Voksne mænd mister cirka 0,5% knoglemasse om året efter det 20-30 år, mens kvinder mister omkring 1% pr. år. Kvinder kan [miste helt op til 6% i årene omkring overgangsalderen](https://www.osteoporose-f.dk/knoglernes-udvikling/skelettets-udvikling/).
 
 > Tidlig overgangsalder (før 45 år), tobaksrygning, undervægt, manglende motion og mangel på D-vitamin og kalk (calcium) kan også øge knogletabet med alderen. Det samme gælder en række kroniske sygdomme og visse typer af medicin.
-
---- <cite>[Overlæge, ph.d Pia Eiken](https://www.osteoporose-f.dk/knoglernes-udvikling/skelettets-udvikling/)</cite>
+>
+> --- <cite>[Overlæge, ph.d Pia Eiken](https://www.osteoporose-f.dk/knoglernes-udvikling/skelettets-udvikling/)</cite>
 
 ## Hvorfor vejer knoglerne ikke mere?
 

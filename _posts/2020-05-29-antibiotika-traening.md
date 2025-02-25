@@ -34,8 +34,8 @@ Antibiotika blev opdaget ved en tilfældighed, fordi Fleming opdagede, at svampe
 Antibiotika er et vigtigt våben mod sygdomme, der er forårsaget af bakterier. Der findes mange forskellige. Penicillin er en smalspektret antibiotika, der dræber den bakterie (streptokokker), som forårsager halsbetændelsen. 
 
 > … lægen kan være nødt til at udskrive et bredspektret antibiotikum eller en kombination af antibiotika, når man ikke kender den sygdomsvoldende bakterie, og der er et akut behov for behandling.
-
---- <cite>Lars Bjerrum, professor i almen medicin fra Københavns Universitet - [via](https://videnskab.dk/krop-sundhed/ti-myter-om-antibiotika)</cite>
+>
+> --- <cite>Lars Bjerrum, professor i almen medicin fra Københavns Universitet - [via](https://videnskab.dk/krop-sundhed/ti-myter-om-antibiotika)</cite>
 
 Antibiotika virker altså kun mod sygdomme, som er forårsaget af bakterier. Influenza og Covid-19 er virusser, så det hjælper antibiotika ikke på.
 

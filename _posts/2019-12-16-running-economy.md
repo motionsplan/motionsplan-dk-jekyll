@@ -147,8 +147,8 @@ Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål fo
 Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
 
 > Efter min mening er der ingen tvivl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
-
---- <cite>[Claus Hechmann](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }</cite>
+>
+> --- <cite>[Claus Hechmann](https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }</cite>
 
 Claus Hechmann skriver efterfølgende lidt beklagende om fortolkningen af træningsstudiet, at man i store dele af <q>det danske atletikmiljø ... skiftede fokus fra mængdetræning til højintensitetstræning.</q>
 
@@ -191,8 +191,8 @@ Der er typisk ikke direkte sammenhæng mellem den maksimale iltoptagelse og løb
 [Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/) konkluderer i deres studium følgende:
 
 > In conclusion, the current investigation demonstrates that only a small to moderate relationship exists between running economy and V̇O<sub>2</sub>max in highly trained distance runners. With >85% of the variance in these parameters unexplained by this relationship, these findings reaffirm that running economy and V̇O<sub>2</sub>max are primarily determined independently.
-
---- <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
+>
+> --- <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
 
 {% comment %}
 TODO - https://en.wikipedia.org/wiki/Running_economy
@@ -204,8 +204,8 @@ https://inscyd.com/article/running-economy/
 Det er interessant, at Barnes et al (2014) har kigget på forskellen på mænds og kvinders løbeøkonomi. De konkluderer i deres studium.
 
 > At all common test velocities, women were more economical than men.
-
---- <cite>[Barnes et al (2014)](https://www.researchgate.net/publication/257814408_Lower-Body_Determinants_of_Running_Economy_in_Male_and_Female_Distance_Runners#read)</cite>
+>
+> --- <cite>[Barnes et al (2014)](https://www.researchgate.net/publication/257814408_Lower-Body_Determinants_of_Running_Economy_in_Male_and_Female_Distance_Runners#read)</cite>
 
 Hvad der nøjagtigt gør, at kvinderne var mere økonomiske med ilten end mænd, ved jeg ikke lige nu. Du er meget velkommen til at bruge kommentarerne, hvis du vil gøre os alle klogere.
 

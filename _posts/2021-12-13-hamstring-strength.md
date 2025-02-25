@@ -42,16 +42,16 @@ Som ofte i videnskab og målinger, så kan det dyrere udstyr være mere præcist
 Guldstandarden inden for måling af baglårsstyrke er den isokinetiske excentriske kraftmåling. Nordic Hamstring Breakpoint Angle viser en acceptabel sammenhæng på _excentrisk peak torque_.
 
 > All Nordic-based measurements presented acceptable associations with the gold standard isokinetic eccentric hamstring peak torque. However, peak eccentric force measured on the Smart-Nordic device had a better agreement with eccentric peak torque measured with an isokinetic dynamometer than the video-based measurements.
-
---- <cite>[Miralles-Iborra (2021)](https://www.tandfonline.com/doi/abs/10.1080/17461391.2021.2014984)</cite>
+>
+> --- <cite>[Miralles-Iborra (2021)](https://www.tandfonline.com/doi/abs/10.1080/17461391.2021.2014984)</cite>
 
 ## Hvilken forbedring er nødvendig
 
 Når du laver målingen flere gange, så er det også væsentligt at vide, hvad den minimale ændring bør være for at kunne sige, at man har lavet en forbedring. Lee et al (2017) finder, at forbedringen skal være på 7,87° for at forbedringen er meningsfuld.
 
 > The minimal detectable difference of this test suggested that more than 7.87° change in threshold angle during the eccentric mode is needed to denote clinical improvement or significant difference. From our experience, monitoring the quality of the movement, such as avoiding excessive hip movement and ensuring a very slow descending speed, are crucial. It is recommended that providing a video demonstration to follow by at least two submaximal trials of familiarization.
-
---- <cite>[Lee et al (2017)](https://www.sciencedirect.com/science/article/pii/S1728869X17300461)</cite>
+>
+> --- <cite>[Lee et al (2017)](https://www.sciencedirect.com/science/article/pii/S1728869X17300461)</cite>
 
 Umiddelbart lyder det som en relativ stor forbedring for at kunne sige noget om en meningsfuld fremgang.
 

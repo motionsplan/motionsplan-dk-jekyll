@@ -99,8 +99,8 @@ Igen hjælper vi her med en beregner, så du hurtigt selv kan lave dine udregnin
 Der er flere fordele ved at bruge pulsreserven som udgangspunkt for din træning.
 
 > "Procent af pulsreserven" giver den bedste beskrivelse af intensiteten og er i bedre overensstemmelse med den intensitet der beregnes, når man laver direkte måling af iltoptagelsen.
-
-— <cite>[Morten Zacho](https://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"}</cite>
+>
+> — <cite>[Morten Zacho](https://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"}</cite>
 
 Hvis du tager en person som har en hvilepuls på 60 og en maxpuls på 200 slag i minuttet, så er det yderpunkterne for hjertes præstationsevne. 60 slag i minuttet er lig med absolut hvile, mens 200 slag i minuttet er lig med maksimalt arbejde.
 

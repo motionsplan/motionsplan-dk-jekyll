@@ -172,8 +172,8 @@ Ideen er, at det skadede område hæver mindre. Samlet set ser det ud til at ele
 [Dubois og Esculier (2020)](https://bjsm.bmj.com/content/54/2/72) foreslår nye retningslinjer for den akutte fase (PEACE), og hvordan man skal gribe den efterfølgende behandling an (LOVE).
 
 > Immediately after injury, do no harm and let PEACE guide your approach.
-
---- <cite>[Dubois og Esculier (2020)](https://bjsm.bmj.com/content/54/2/72)</cite>
+>
+> --- <cite>[Dubois og Esculier (2020)](https://bjsm.bmj.com/content/54/2/72)</cite>
 
 Akronymet PEACE & LOVE fremhæver uddannelse af den skadede og fjerner nogle af de omdiskuterede elementer fra de andre anbefalinger.
 

@@ -76,8 +76,8 @@ Solhilsnen kan være en dynamisk og fysisk krævende sekvens, hvor du får pulse
 Jeg kan godt lide at lave solhilsen langsomt, så jeg rigtigt kan mærke de forskellige stræk i postionerne. Hvis jeg bruger den som opvarmning, så sætter jeg efterhånden tempoet lidt op og laver flere runder for at få en mere dynamisk træning, hvor pulsen kommer lidt op.
 
 > The sun is a daily reminder that we too can rise again from the darkness. That we too can shine our own light.
-
---- <cite>S. Ajna</cite>
+>
+> --- <cite>S. Ajna</cite>
 
 Du vil opleve at solhilsen både styrker og strækker musklerne samtidig med at den sætter gang i vejrtrækningen og blodcirkulationen.
 
@@ -93,8 +93,8 @@ Vejrtrækningen er med til at binde øvelserne sammen (som det altid er i Ashtan
 Det er vigtigt at trække vejret dybt ned i maven. Prøv at få vejrtrækningen til at være naturlig og følge bevægelserne.
 
 > Hver stilling, asana, er forbundet med åndedræts-synkroniserede bevægelser, vinyasa, og sammenkæder åndedræt og bevægelse, så stillingerne afløser hinanden. Det er på forhånd fastlagt, hvor i en stilling man skal ånde ind og ud. Lige som der er en fastlagt måde at komme ind og ud af hver enkelt stilling. Stillingerne udføres i en ganske bestemt rækkefølge. Traditionelt udføres en fuld vinyasa mellem hver asana og en halv vinyasa mellem højre og venstre side. Det virker som modstilling til den forudgående asana og øger blodomløb og letter stivhed før den næste stilling. Ved at lave vinyasa opbygges og vedligeholdes varmen i kroppen og medfører en kraftig svedproduktion, som er nødvendig for at rense kroppen.
-
---- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Astanga-yoga)</cite>
+>
+> --- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Astanga-yoga)</cite>
 
 Vejrtrækningen skal foregå gennem næsen og du puster ud gennem munden. Hvis du ikke kan trække vejret flydende gennem bevægelserne, så prøve at sætte tempoet lidt ned og slappe lidt af i bevægelserne.
 

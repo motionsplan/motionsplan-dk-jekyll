@@ -94,8 +94,8 @@ Et par citater fra [træningscitater om løb, styrketræning og motivation]({% l
 
 {% for quote in quotes %}
 > {{ quote.quote | markdownify }}
-
---- <cite>{{ quote.cite }}</cite>
+>
+> --- <cite>{{ quote.cite }}</cite>
 
 ***
 {% endfor %}

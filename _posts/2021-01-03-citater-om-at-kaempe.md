@@ -76,8 +76,8 @@ Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hår
 
 {% for quote in quotes %}
 > {{ quote.quote | markdownify }}
-
---- <cite>{{ quote.cite }}</cite>
+>
+> --- <cite>{{ quote.cite }}</cite>
 
 ***
 {% endfor %}

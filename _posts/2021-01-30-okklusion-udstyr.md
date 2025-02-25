@@ -195,8 +195,8 @@ Den oprindelige udstyr til okklusionstræning, [Kaatsu](https://www.kaatsu.com/)
 
 > Kaatsu er imo lidt i deres egen verden. Det er meget kommercialiseret med eget journal og egne fysiologiske teorier om okklusionstræning, så de er lidt svære at sammenligne med.
 Deres cuffs er ret smalle (5 cm) så hvis man skal foretage en reel AOP måling skal man nogle gange over 500 mmHg hvilket er ekstremt på alle måder. De har jo et automatisk system der bestemmer tryk, hvor du også skal varme op på en bestemt måde. Kaatsu indgår ikke i særlig mange af de videnskabelige studier.
-
---- <cite>Andreas Christensen, [Occlude](https://www.occlude.dk)</cite>
+>
+> --- <cite>Andreas Christensen, [Occlude](https://www.occlude.dk)</cite>
 
 Jeg har kun erfaring med udstyret fra Occlude, som vi bruger på Vejle Idrætshøjskole. Til gengæld er mine erfaringer rigtig gode. Min oplevelse er, at Occlude er rigtig gode til at fortælle, hvad okklusionstræning kan, og særligt hvad det ikke kan.
 

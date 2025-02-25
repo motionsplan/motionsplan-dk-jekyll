@@ -85,8 +85,8 @@ Disse små ændringer kan have en stor betydning for din søvnkvalitet, og du f�
 Nick Littlehales er søvncoach. Han har arbejdet med søvn bl.a. med eliteatleter og fodboldspillere. Du kan læse meget mere på hans hjemmeside [www.sportsleepcoach.com](https://www.sportsleepcoach.com/).
 
 > “The best supplement you can do is change the way you approach sleep.”
-
---- <cite>Nick Littlehales</cite>
+>
+> --- <cite>Nick Littlehales</cite>
 
 Du kan se mere om Nick Littlehales tanker om søvn i denne rigtig gode Ted-talk.
 

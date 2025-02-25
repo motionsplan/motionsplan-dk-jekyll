@@ -136,8 +136,8 @@ Forskerne har sammenholdt resultatet fra studierne i følgende figur. Kig særli
 Den samlede metaanalyse får forskerne til at konkludere følgende:
 
 > Data suggests concurrent HIIT and RT does not negatively impact hypertrophy or upper body strength, and that any possible negative effect on lower body strength may be ameliorated by incorporating running based HIIT and longer inter-modal rest periods.
-
---- <cite>[Sabag et al 2018](https://doi.org/10.1080/02640414.2018.1464636)</cite>
+>
+> --- <cite>[Sabag et al 2018](https://doi.org/10.1080/02640414.2018.1464636)</cite>
 
 Konklusionen af Sabag et al (2018) er altså, at hvis man sørger for at holde en passende pause, så kan man godt lave HIIT-træning, selvom man gerne vil have mere muskelmasse.
 

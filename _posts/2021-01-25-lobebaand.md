@@ -107,8 +107,8 @@ På de to sidste forsøgsgange skulle de løbe samme protokol på hhv. et motori
 Studiet viste at løberne bruger 30 procent mere energi på den kurvede, ikke-motoriserede løbebånd.
 
 > The runners perceived they were working an average of 27 percent harder when they ran on the curved treadmill, and physiologically, their symptoms matched: They consumed an average of 32 percent more oxygen and had 16 percent higher heart rates, 2.5 percent higher running cadence, and 38 percent worse running economy than when they ran at equivalent speeds on the motorized treadmill.
-
---- <cite>[Runner's World](https://www.runnersworld.com/training/a20950925/you-are-working-harder-on-a-curved-treadmill/)</cite>
+>
+> --- <cite>[Runner's World](https://www.runnersworld.com/training/a20950925/you-are-working-harder-on-a-curved-treadmill/)</cite>
 
 Fordelene ved et kurvet løbebånd er, at du undervejs selv regulerer tempoet ligesom du gør udendørs. Når du løber på et kurvet løbebånd, så vil din bagkæde (baller, baglår, lægge) også arbejde hårdere end på et motoriseret løbebånd.
 

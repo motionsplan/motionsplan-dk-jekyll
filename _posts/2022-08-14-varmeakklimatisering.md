@@ -94,8 +94,8 @@ Efter 10-14 dage har kroppen i høj grad vænnet sig til varmen og har lavet til
 Ultraløber, Christian Madsen, anbefaler følgende:
 
 > Derfor anbefaler jeg, at du bruger ca. 10-14 dage på varmetræning, så tæt på dit løb som muligt, for at få fuld effekt af varmeakklimatiseringen, idet ca. 75% af varmeakklimatiseringen sker allerede i de første ca. 5 dage af varmepåvirkningen. Varmeakklimatiseringen fastholdes fuldt ud i op til ca. én uge, når man returnerer til et køligere klima, hvorefter den aftager fuldstændigt (alt efter person) efter ca. 28 dage.
-
---- <cite>[Christian Madsen, ultraløber](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)</cite>
+>
+> --- <cite>[Christian Madsen, ultraløber](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)</cite>
 
 ## Hydrering og dehydrering
 
@@ -193,8 +193,8 @@ I denne video kan du desuden lære mere om et nyere studie, hvor saunaturene kan
 Ultraløberen Christian Madsen [foreslår](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme) følgende opbygning af varmetræningen.
 
 > Jeg anbefaler at du bygger din varmetræning op med gradvist stigende varmetræningsperioder á 30-100 minutter hver dag i ca. 10-14 dage op til løbet, med en aktivitet ved eller højere end 50% af VO2max, svarende til ca. 70% af HRmax eller meget langsomt løb/aktivitet. Byg det gradvist op, så kroppen vænnes til den øgede belastning, som varmetræning er. Da varmetræningen foretages i din nedtrapningsperiode, så mindskes træningsmængden.
-
---- <cite>[Ultraløberen Christian Madsen](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)</cite>
+>
+> --- <cite>[Ultraløberen Christian Madsen](https://www.loberen.dk/content/varmetraening-hvordan-du-bedst-akklimatiserer-til-at-loebe-i-ekstrem-varme)</cite>
 
 Du bør altså bygge varmetræningen op stille og roligt. Det er en god ide at lave en plan for, hvordan du vil inkludere varmen som en del af træningen. Det kræver nemlig også lidt planlægning, hvis du har brug for enten at finde en lokal sauna eller et dampbad, hvor du kan udføre dine regelmæssige sessioner.
 

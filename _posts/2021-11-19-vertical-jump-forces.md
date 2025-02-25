@@ -28,8 +28,8 @@ Når du springer, så vil du i dit afsæt påvirke jorden med den kraft du kan s
 Fænomenet er beskrevet i [Newtons love](https://da.wikipedia.org/wiki/Newtons_love), og mest præcist Newtons 3. lov.
 
 > Et legeme a, der påvirker et legeme b med en kraft, vil blive påvirket med en lige stor modsat rettet kraft.
-
---- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Newtons_love)</cite>
+>
+> --- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Newtons_love)</cite>
 
 Så når du påvirker jorden med en bestemt kraft, så vil du blive påvirket af en lige så stor modsatrettet kraft.
 

@@ -153,8 +153,8 @@ Casper Jespersen [foreslår](https://casperjespersen.dk/den-modificerede-tallerk
 > I stedet for ovenstående tallerkener, anbefaler jeg, at din tallerken består af 25% protein, 25% kulhydrat/fedt og 50% grøntsager. Derudover anbefaler jeg, at du drikker vand i minimum (gerne mere) samme mængde som vin/alkohol. Uanset om du er på restaurant eller hos gode venner og familie.
 >
 > Ved at modificere de eksisterende tallerkenmodeller på denne måde, sikrer du, at du får nok grøntsager, protein og fedt (jeg har aldrig hørt om nogen, der har manglet kulhydrater, hvis de har spist normalt). Især de to førstnævnte grupper, grøntsager og protein, øger mæthedsfornemmelse markant, så det er dem, vi fokuserer mest på at få nok af.
-
---- <cite>[Casper Jespersen](https://casperjespersen.dk/den-modificerede-tallerkenmodel-til-dig-der-gerne-vil-spise-ude/), personlig træner</cite>
+>
+> --- <cite>[Casper Jespersen](https://casperjespersen.dk/den-modificerede-tallerkenmodel-til-dig-der-gerne-vil-spise-ude/), personlig træner</cite>
 
 ## Tallerkenstørrelser
 
@@ -165,8 +165,8 @@ Peng (2017) fandt imidlertid i sit studie, at tallerkenstørrelse kun havde effe
 Libotte et al (2014) konkluderer følgende i deres studium:
 
 > Therefore, reducing the plate size does not seem to be an appropriate intervention to reduce the total energy intake in order to promote weight loss. Rather, using a large plate might be a simple and inexpensive strategy to increase vegetable consumption.
-
---- <cite>[Libotte et al (2014)](https://pubmed.ncbi.nlm.nih.gov/25049139/)</cite>
+>
+> --- <cite>[Libotte et al (2014)](https://pubmed.ncbi.nlm.nih.gov/25049139/)</cite>
 
 Det er altså lidt uklart, hvad tallerkenstørrelsen gør ved energiindtaget. Hvis Libotte et al (2014) har ret, så kan det betale sig at have større tallerkener for at spise flere grøntsager.
 
@@ -179,8 +179,8 @@ Det kan ikke siges nok: Sørg for at få nok grøntsager. Det kan virkelig betal
 Formålet med **tallerkenmodellerne er naturligvis at understøtte en sund kost**. I Danmark har vi en række officielle kostråd, som jævnligt er under debat.
 
 > “Kostrådene sammenfatter den viden, man har i dag, så for den almindelige forbruger er de den bedste kilde til viden om sund kost. Det er langt bedre end de alternative kostanbefalinger, man finder rundt omkring i ugebladene. Der kan være et efterslæb i forhold til den nyeste forskning, men det skal der være, for man skal være helt sikker, før man justerer de officielle kostråd.”
-
--- <cite>Lektor Lars Helgren, DTU Systembiologi til [videnskab.dk](https://videnskab.dk/krop-sundhed/smor-margarine-eller-planteolier-fedt-er-en-kompliceret-sag).</cite>
+>
+> -- <cite>Lektor Lars Helgren, DTU Systembiologi til [videnskab.dk](https://videnskab.dk/krop-sundhed/smor-margarine-eller-planteolier-fedt-er-en-kompliceret-sag).</cite>
 
 Lad os sammenfatte nogle gode kostråd, som tallerkenmodellerne skal understøtte.
 

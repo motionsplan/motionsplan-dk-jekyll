@@ -60,8 +60,8 @@ Løbesidens beregner er baseret på [Jack Daniels Running Formula](https://runsm
 > VDOT is a measure of running ability and is calculated from a race performance based on Jack Daniels Running Formula. The number reflects the V̇O2max of a runner with average Running Economy
 >
 > It is possible for a runner's actual V̇O2max to vary from the VDOT measure; two runners could have the same VDOT and one runner could have a higher V̇O2max with a poorer Running Economy, the other lower V̇O2max with a better Running Economy. For most purposes, VDOT is more useful than V̇O2max as it reflects actual running performance rather than a laboratory measure.
-
---- <cite>[fellrnr.com](https://fellrnr.com/wiki/VDOT)</cite>
+>
+> --- <cite>[fellrnr.com](https://fellrnr.com/wiki/VDOT)</cite>
 
 V<sub>dot</sub> indregner på sin vis [løbeøkonomien](/lobeokonomi/).
 

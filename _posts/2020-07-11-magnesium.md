@@ -206,8 +206,8 @@ Hvis du beslutter dig for at købe magnesium tilskud, så findes det oftest som 
 Mange bruger kosttilskuddet ZMA, fordi det bl.a. markedsføres med at:
 
 > ZMA bidrager til at vedligeholde et normalt testosteronniveau i blodet samt til at mindske træthed og udmattelse.
-
-— <cite>[Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){: rel='sponsored nofollow noopener' }</cite>
+>
+> — <cite>[Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){: rel='sponsored nofollow noopener' }</cite>
 
 Og hvem kan ikke godt lide det, når man træner. ZMA står for Zink, Magnesium og B6-vitamin, så ideen er naturligvis at de tre mineraler har nogle positive egenskaber i kroppen. Og når de har det, så hjælper præparatet på netop det.
 
@@ -220,12 +220,16 @@ Efterhånden er flere begyndt at reklamere med at indtage vitaminer og mineraler
 Forskningen på området er dog stadig ret ny. Gröber et al (2017) konkluderer fx:
 
 > Based on the current studies it is extremely alarming if a successful treatment of magnesium (through oral ingestion and pills, red.) fails by propagation of transdermal magnesium, a scientifically not yet proven form of magnesium application.
-
-— <cite>[Gröber et al 2017](https://doi.org/10.3390/nu9090946)</cite>
+>
+> — <cite>[Gröber et al 2017](https://doi.org/10.3390/nu9090946)</cite>
 
 ## Hvad er det bedste og billigste magnesium?
 
-Når du søger på Google efter "Det bedste og billigste magnesium", så støder du på flere guides, der sammenligner magnesium fra forskellige brands. De har næsten altid en favorit og et eller andet argument, som at netop denne pille er letoptageligt. Man får fornemmelsen af, at de rent faktisk har testet de forskellige typer magnesium i forhold til hinanden.
+Når du søger på Google efter "Det bedste og billigste magnesium", så støder du på flere guides, der sammenligner magnesium fra forskellige brands. De har næsten altid en favorit og et eller andet argument, som at netop denne pille er letoptageligt.
+
+Man får fornemmelsen af, at de rent faktisk har testet de forskellige typer magnesium i forhold til hinanden.
+
+Men forskellen er meget lille.
 
 Sandheden er, at de fremhæver de magnesium piller, som de kan få den største _affiliate kommision_ fra.
 
@@ -287,8 +291,8 @@ Sandheden er formntlig, at det ved vi heller ikke helt. Fælles for studierne om
 Kroppen regulerer magnesium stramt i kroppen, og der er altid den samme mængde i blodet. Derfor kan vi ikke bare tage en blodprøve til at bestemme kroppens magnesiumniveau.
 
 > Magnesium er et af de interessante mineraler, fordi vi i øjeblikket anbefaler, at danskere dagligt indtager mellem 300 og 380 milligram af det. Dette er baseret på undersøgelser af, hvor meget der udskilles ved forskellige indtag, hvilket ikke er den bedste metode til at undersøge optag af et mineral i kroppen. Det er dog ofte den eneste metode, vi har for forskellige mineraler, og det gælder også magnesium.
-
-— <cite>Professor [Susanne Gjedsted Bügel](https://videnskab.dk/krop-sundhed/kroppen-vaelter-i-magnesium-men-forskere-kan-ikke-finde-det) fra Institut for Idræt og Ernæring på Københavns Universitet, Danmarks førende mineral- og vitaminforsker</cite>
+>
+> — <cite>Professor [Susanne Gjedsted Bügel](https://videnskab.dk/krop-sundhed/kroppen-vaelter-i-magnesium-men-forskere-kan-ikke-finde-det) fra Institut for Idræt og Ernæring på Københavns Universitet, Danmarks førende mineral- og vitaminforsker</cite>
 
 Derfor er det utrolig vanskeligt nøjagtigt at vide, om den enkelte er i magnesiummangel eller ej før studiet.
 
