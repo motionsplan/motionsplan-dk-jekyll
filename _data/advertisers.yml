@@ -5,12 +5,12 @@
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
   btn_label: "Besøg Apuls*"
   btn_class: "btn--success"
-- image_path: /assets/images/logo/noutron.png
-  alt: "Noutron"
-  title: "Noutron"
-  excerpt: "Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler vi i Noutron produkter, der skal hjælpe endurance atleter. Vi er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores partnere."
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123
-  btn_label: "Besøg Noutron"
+- image_path: /assets/images/logo/fitnessengros.png
+  alt: "Fitness Engros"
+  title: "Fitness Engros"
+  excerpt: "Fitnessudstyr til professionelle og private. Her er et stort udvalg af kvalitets brands, der allerede er kendte i branchen. Vi samarbejder rigtig gerne med blogs og andre content sider."
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=89041
+  btn_label: "Besøg Fitnessengros"
   btn_class: "btn--danger"
 - image_path: /assets/images/logo/bodylab.png
   alt: "Bodylab"
