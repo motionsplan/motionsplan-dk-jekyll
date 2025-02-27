@@ -8,7 +8,7 @@ header:
   teaser: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
 tags:
   - kost
   - ernæring

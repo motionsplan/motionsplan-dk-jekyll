@@ -16,6 +16,11 @@ tags:
   - træningsplanlægning
 last_modified_at: 2020-06-06T23:14:14Z
 toc: true
+meta:
+  name: Vægt i hypertrofi waves
+  equipment: ingen
+  measures: vægt i de enkelte sæt
+  type: styrketræning
 ---
 
 *[RPE]: Rate of Percieved Exertion

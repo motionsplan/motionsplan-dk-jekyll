@@ -1,27 +1,26 @@
 ---
-title: &title "Udregn pulszoner: Fra maxpuls, laktattærskel eller pulsreserve (Beregner)"
-seo_title: "Find dine pulszoner med vores beregner"
-description: "Har du brug for at udregne dine pulszoner? Her får du en beregner til at udregne træningszoner ud fra din maxpuls, laktattærksel eller pulsreserve."
+title: &title "Guide til pulszoner: Find den bedste metode for dig"
+seo_title: "3 metoder til at beregne dine personlige pulszoner"
 excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
+description: "Lær hvordan du beregner dine pulszoner med tre forskellige metoder: maksimal puls, pulsreserve og anaerob tærskel. Vælg den rette metode til din træning og optimer dine resultater."
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:
   - /puls-intensitet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1635863898961-e91351fc1741?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1635863898961-e91351fc1741?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kondition
-  - Beregnere
+  - Pulstræning
 tags:
   - kondition
   - træning
   - intensitet
   - puls
-  - beregner
   - løb
-last_modified_at: 2021-03-06T23:14:14Z
+last_modified_at: 2025-02-08T23:14:14Z
 toc: true
 garmin_lactate:
   - image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
@@ -73,23 +72,25 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 | 6 | Anaerob kapacitet | Hovedsageligt anaerob |
 | 7 | Neuromuskulær power | Anaerob |
 
-## Beregning af pulszoner ud fra pulsreserven
+## 3 måder at beregne dine pulszoner på
+
+### 1. Beregning af pulszoner ud fra pulsreserven
 
 Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/). Karvonens pulszoner bliver brugt i rigtig mange sammenhænge. Her har vi omskrevet navnene på de enkelte zoner til Coggans terminologi.
-
-{% include calculator/calculate-hrzones-karvonen.html %}
 
 Karvonens pulszoner kan være et udemærket udgangspunkt for træningen. Det er ofte Karvonens zoner, der er forprogrammeret ind i forskellige pulsure. Formlen bag Karvonens pulszoner er følgende:
 
 HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + HR<sub>REST</sub>
 
+[Beregn dine pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--success }
+
 ## Pulszoner beregner ud fra den anaerobe tærskel
 
 [Joe Friel](https://joefrieltraining.com/a-quick-guide-to-setting-zone/) baserer sine pulszoner på pulsen ved den anaerobe tærskel (LTHR). Han har i alt 7 zoner, men her har vi reduceret zonerne til at modsvare de vejledende træningszoner fra Coggan, som vi har skitseret ovenfor. Coggan benytter nogle lidt [andre pulsværdier](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/), men vi har god erfaring med at bruge Friels pulszoner.
 
-{% include calculator/calculate-hrzones-lthr.html %}
+[Beregn dine pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--success }
 
-## Jack Daniels pulszoner ift. maksimale puls
+## Pulszoner ud fra maksimale puls
 
 Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
@@ -97,11 +98,7 @@ De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsv�
 
 Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
 
-{% include calculator/calculate-hrzones-maxhr.html %}
-
-En anden angivelse af de forskellige zoner i forhold til HR<sub>max</sub> kan ses i denne grafik.
-
-{% include figure image_path="https://vic.tri-alliance.com/wp-content/uploads/sites/3/2018/02/Training-Zones-Descriptions-1038x1467.jpg" caption="Kilde: [vic.tri-alliance.com](https://vic.tri-alliance.com/know-training-zones/)." %}
+[Beregn dine pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--success }
 
 ## Find dine egne pulszoner med tests
 

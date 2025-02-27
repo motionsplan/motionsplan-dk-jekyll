@@ -8,9 +8,8 @@ header:
   teaser: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Kondition
-  - Træningsprogram
-  - Styrketræning
+  - Træning
+  - Styrketræningsprogrammer
 tags:
   - kondition
   - løb

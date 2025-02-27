@@ -16,11 +16,18 @@ gallery:
 sidebar:
   nav: exercises
 toc: true
-classes:
-  - wide
+classes: wide
 category:
   - Styrketræning
 breadcrumbs: true
+feature_row_okklusion:
+  - image_path: /assets/images/occlude/occlusion-training-768.jpg
+    alt: "Okklusionstræning"
+    title: "Okklusionstræning"
+    excerpt: "Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning. Læs lidt mere om det her og spørg din fysioterapeut om gode råd."
+    url: "/introduktion-okklusionstraening/"
+    btn_label: "Læs mere om okklusionstræning"
+    btn_class: "btn--info"
 ---
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.

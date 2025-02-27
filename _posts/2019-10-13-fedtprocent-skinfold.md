@@ -9,12 +9,13 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-fedttang.jpg
 category:
-  - Test
+  - Tests
   - Fedtprocent
 meta:
   name: Mål din fedtprocent hudfoldsmåling
   measures: fedtprocent
   equipment: hudfoldsmåler
+  type: kropskomposition
 breadcrumbs: true
 tags:
   - fedtprocent

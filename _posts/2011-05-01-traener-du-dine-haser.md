@@ -33,7 +33,7 @@ Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den 
 
 Lad os dykke lidt ned i anatomien i baglåret. Musklerne har nemlig både betydning for [knæledet](/joints/knaeleddet/) og [hofteleddet](/joints/hofteleddet/).
 
-{% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/bin/gr1.jpg" caption="Musklerne i baglåret. Kilde: [Ernlund og Viera (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/)" %}
+{% include figure image_path="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d84/5582808/17516000fce8/gr1.jpg" caption="Musklerne i baglåret. Kilde: [Ernlund og Viera (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/)" %}
 
 Det er vigtigt at forstå, at musklerne i baglåret har flere funktioner - og at disse funktioner kræver forskellig træning:
 

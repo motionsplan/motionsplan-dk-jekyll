@@ -10,7 +10,7 @@ header:
   teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Test
+  - Tests
   - Fedtprocent
 breadcrumbs: true
 tags:
@@ -22,6 +22,7 @@ meta:
   name: Mål fedtprocent med målebånd
   equipment: målebånd
   measures: fedtprocent
+  type: kropskomposition
 last_modified_at: 2019-03-06T23:14:14Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg

@@ -6,6 +6,7 @@ header:
   teaser: https://images.unsplash.com/photo-1586170737392-383ba61aca98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
+  - Tests
   - Fedtprocent
 tags:
   - beregner
@@ -15,7 +16,8 @@ meta:
   name: Body Adiposity Index
   equipment: målebånd
   measures: fedtprocent
-  target: børn
+  target: voksne
+  type: kropskomposition
 ---
 
 Body Adiposity Index (BAI) beregneren bestemmer din fedtprocent ud fra din højde og din hofteomkreds.

@@ -10,7 +10,7 @@ header:
   alt: Photo by Andrew Tanglao on Unsplash
 category:
   - Styrketræning
-  - Træningsprogrammer
+  - Styrketræningsprogrammer
 tags:
   - program
   - træningsprogram

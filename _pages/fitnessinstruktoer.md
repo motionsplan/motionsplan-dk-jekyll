@@ -30,8 +30,7 @@ doping:
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
 breadcrumbs: true
-classes:
-  - wide
+classes: wide
 ---
 
 {{ page.excerpt }}
@@ -98,13 +97,15 @@ Læs vores artikler om programlægning:
 
 {% assign site_posts = site.posts | where: "tags", "programlægning" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Alt om træningsplanlægning](/traeningsplanlaegning/).
 
 </div>
 

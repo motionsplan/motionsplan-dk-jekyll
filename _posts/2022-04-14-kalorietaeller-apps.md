@@ -5,7 +5,7 @@ language: da
 header:
   teaser: https://images.unsplash.com/photo-1617625802912-cde586faf331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGFwcHxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
-  - Krop & Sundhed
+  - Kost & Ernæring
 tags:
   - kost
   - kalorier

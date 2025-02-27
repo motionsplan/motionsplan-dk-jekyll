@@ -13,6 +13,11 @@ tags:
   - kondition
   - beregner
   - løb
+meta:
+  name: Riegels formel til beregning af løbetider
+  equipment: ingen
+  measures: løbetid
+  type: løb
 breadcrumbs: true
 ---
 

@@ -14,6 +14,11 @@ tags:
   - beregner
   - vægttab
   - løb
+meta:
+  name: Effekten af vægttab på løbetid
+  equipment: ingen
+  measures: løbetid
+  type: løb
 breadcrumbs: true
 ---
 

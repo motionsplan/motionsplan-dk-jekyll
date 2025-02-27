@@ -19,6 +19,11 @@ tags:
   - løbeøkonomi
   - styrketræning
   - løb
+meta:
+  name: Beregn løbeøkonomi
+  equipment: ingen
+  measures: løbeøkonomi
+  type: løb
 last_modified_at: 2021-04-29T17:14:14Z
 toc: true
 feature_row:

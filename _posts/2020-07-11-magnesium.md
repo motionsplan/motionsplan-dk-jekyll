@@ -10,7 +10,7 @@ header:
   caption: "Magnesium: Har du brug for et tilskud?"
   overlay_filter: 0.4
 category:
-  - Ernæring
+  - Kost & Ernæring
   - Kosttilskud
 tags:
   - kosttilskud

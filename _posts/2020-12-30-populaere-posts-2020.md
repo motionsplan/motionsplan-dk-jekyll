@@ -11,7 +11,7 @@ header:
 tags:
   - webclips
 category:
-  - Webclips
+  - Inspiration
 last_modified_at: 2024-07-31T18:21:26Z
 popular_posts_2023:
   - /idealvaegt/

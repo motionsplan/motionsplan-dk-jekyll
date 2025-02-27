@@ -17,8 +17,6 @@ tags:
   - moc
 category:
   - Styrketræning
-  - Teknik
-  - Træning
 last_modified_at: 2023-01-01T08:39:32Z
 sidebar:
   nav: exercises

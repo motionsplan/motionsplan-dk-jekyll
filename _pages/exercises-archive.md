@@ -21,8 +21,7 @@ toc: true
 category:
   - Træning
 breadcrumbs: true
-classes:
-  - wide
+classes: wide
 ---
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.

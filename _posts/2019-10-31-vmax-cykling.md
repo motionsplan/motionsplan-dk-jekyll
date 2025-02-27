@@ -16,6 +16,11 @@ tags:
   - cykling
   - beregner
   - intervaltræning
+meta:
+  name: Vmax intervalprogram i cykling
+  equipment: ingen
+  measures: intervalprogram
+  type: cykling
 last_modified_at: 2022-04-22T23:14:14Z
 toc: true
 ---

@@ -9,6 +9,7 @@ header:
   caption: *title
   alt: "Photo by Jen Theodore on Unsplash"
 category:
+  - Kost & Ernæring
   - Vægttab
 tags:
   - muskler

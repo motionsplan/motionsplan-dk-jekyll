@@ -12,8 +12,7 @@ tags:
   - mave
   - mavetræning
 category:
-  - Ernæring
-  - Træning
+  - Kost & Ernæring
 last_modified_at: 2013-02-13T21:39:32Z
 ---
 

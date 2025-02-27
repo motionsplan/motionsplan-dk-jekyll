@@ -1,0 +1,87 @@
+
+<style>
+#myInput {
+  background-image: url('/assets/images/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  display: table;
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+  table-layout: auto;
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+  width: auto; /* Allow dynamic column width */
+  word-wrap: break-word; /* Prevent overflow */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+</style>
+
+{% assign site_posts = site.posts | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% if site_posts.size > 0 %}
+
+<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Søg tabellen...">
+
+<table id="myTable">
+  <thead>
+  <tr class="header">
+    <th>Test</th>
+    <th>Type</th>
+    <th>Måler</th>
+    <th>Udstyr</th>
+</tr>
+  </thead>
+  {%- for post in site_posts %}
+  <tr>
+    <td><a href="{{ post.url }}">{{ post.meta.name | default: post.title  }}</a></td>
+    <td>{{ post.meta.type }}</td>
+    <td>{{ post.meta.measures }}</td>
+    <td>{{ post.meta.equipment }}</td>
+  </tr>
+  {%- endfor %}
+</table>
+{% endif %}
+
+<script>
+function filterTable() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td");
+    for (var j = 0; j < td.length; j++) {
+      txtValue = td[j].textContent || td[j].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+        break;
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+    </script>

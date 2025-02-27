@@ -15,6 +15,11 @@ tags:
   - beregner
   - featured
 popular: true
+meta:
+  name: BMI-beregner for voksne
+  equipment: målebånd og vægt
+  measures: BMI
+  type: kropskomposition
 last_modified_at: 2022-05-11T10:14:14Z
 faq:
   - question: Hvad skal mænd og kvinders BMI være?

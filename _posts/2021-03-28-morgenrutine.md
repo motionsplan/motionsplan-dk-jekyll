@@ -11,7 +11,7 @@ header:
   caption: En god morgenrutine kan hjælpe dig med mere overskud
 language: da
 category:
-  - Sundhed
+  - Restitution
 tags:
   - morgenrutine
 ---

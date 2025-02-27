@@ -24,7 +24,7 @@ tags:
   - løbetest
   - test
   - tracking
-  - beregner
+  - testberegner
   - begynder
 last_modified_at: 2022-10-12T10:14:14Z
 ---

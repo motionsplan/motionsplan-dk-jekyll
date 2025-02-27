@@ -9,22 +9,29 @@ header:
   overlay_image: "/assets/images/blog/politiets-fysiske-test.jpeg"
   teaser: "/assets/images/blog/politiets-fysiske-test.jpeg"
 category:
-  - Test
+  - Tests
 tags:
   - tests
   - optagelsesprøve
   - politi
-classes:
-  - wide
+classes: wide
 toc: true
 author_profile: true
-feature_row_all_tests:
-  - image_path: "https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10"
+feature_row_police_tests:
+  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
     alt: "Politiets fysiske tests og krav til optagelsesprøven"
     title: "Politiets fysiske tests"
     excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
     url: "/politiets-fysiske-tests-krav-optagelsesproeve/"
-    btn_label: "Læs mere"
+    btn_label: "Prøv testen"
+    btn_class: "btn--success"
+feature_row_police_program:
+  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
+    alt: "Træningsprogram til optagelsesprøven"
+    title: "Træningsprogram til optagelsesprøven"
+    excerpt: "Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter."
+    url: "/politi-traeningsprogram/"
+    btn_label: "Prøv programmet"
     btn_class: "btn--success"
 breadcrumb: true
 ---
@@ -33,9 +40,9 @@ Politiets optagelsesprøve er første skridt mod en karriere som betjent. For at
 
 På denne side får du et overblik over optagelsesprøven, og vi guider dig til specifikke tests og krav, så du kan forberede dig bedst muligt.
 
-## Fysiske tests
+## Prøv de fysiske tests
 
-{% include feature_row id="feature_row_all_tests" type="left" %}
+{% include feature_row id="feature_row_police_tests" type="left" %}
 
 {% comment %}
 L I S T E   O V E R   T E S T S
@@ -50,6 +57,12 @@ Bænkpres
 Tjek politiparat og gør det hele meget bedre
 
 {% endcomment %}
+
+## Træningsprogram
+
+Hvis du gerne vil forberede dig til den fysiske optagelsesprøve, så prøv vores træningsprogra, som er lavet af en af de rutinerede undervisere af politiaspiranter på Vejle Idrætshøjskole.
+
+{% include feature_row id="feature_row_police_program" type="left" %}
 
 ## Læs mange flere relevante artikler
 

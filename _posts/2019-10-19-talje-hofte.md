@@ -9,7 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Talje-hofte-ratioen siger noget om fedtfordelingen på kroppen"
 category:
-  - Test
+  - Tests
 tags:
   - beregner
   - kropskomposition
@@ -29,6 +29,7 @@ meta:
   name: Talje-hofte mål
   equipment: målebånd
   measures: talje-hofte-ratio
+  type: kropskomposition
 ---
 
 Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.

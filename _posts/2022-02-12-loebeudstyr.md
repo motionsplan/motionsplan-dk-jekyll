@@ -12,7 +12,7 @@ tags:
   - træningsudstyr
 last_modified_at: 2022-02-12T22:21:26Z
 feature_row_flipbelt:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/f/l/flipbelt-alle-farver_1.jpg
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/f/l/flipbelt-alle-farver_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/flipbelt-lobebaelte-pengekat
     title: Flipbelt løbebælte
     excerpt: I Flipbelt løbebæltet kan du have din telefon, kreditkort, nøgler, og alt andet du måske har brug på din løbetur.

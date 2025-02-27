@@ -18,6 +18,11 @@ tags:
   - viden om
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
+meta:
+  name: Vand i kroppen
+  equipment: vægt
+  measures: vand i kroppen
+  type: fysiologi
 ---
 
 Nu hvor det er så varmt, så kom jeg til at tænke på, hvor meget vand mennesket har i kroppen? Så jeg gik i gang med at researche på, hvor meget vand mennesket har i kroppen.

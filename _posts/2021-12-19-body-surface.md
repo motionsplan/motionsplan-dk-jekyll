@@ -12,6 +12,11 @@ tags:
   - beregner
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
+meta:
+  name: Udregn kroppens overfladeareal
+  equipment: vægt
+  measures: kroppens overfladeareal
+  type: fysiologi
 ---
 
 Denne beregner kan udregne din tilnærmede _body surface area (BSA)_, som er overfladen på kroppen i kvadratmeter (m<sup>2</sup>). Kroppens overflade er en mere præcis indikator for kroppens forbrænding end kropsvægten alene.

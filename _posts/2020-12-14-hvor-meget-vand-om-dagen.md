@@ -11,7 +11,7 @@ header:
   teaser: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
 tags:
   - vand
   - dehydrering
@@ -21,6 +21,11 @@ tags:
 popular: true
 last_modified_at: 2022-12-02T10:14:14Z
 toc: true
+meta:
+  name: Beregn vandindtag på en dag
+  equipment: vægt
+  measures: dagligt vandindtag
+  type: kost & ernæring
 faq:
   - question: "Hvor meget vand skal man drikke om dagen?"
     answer: "Der er uenighed i litteraturen om, hvor meget vand man skal drikke om dagen. For langt de fleste mennesker vil tørsten sørge for, at vi får vand nok. En tommelfingerregel er at du mindst skal have 1-1,5 liter vand om dagen, men mange aktive vil formentlig drikke mere. Hvis du sveder skal du naturligvis også supplere op med vand!"

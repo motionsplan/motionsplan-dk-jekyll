@@ -9,9 +9,11 @@ header:
   teaser: https://images.unsplash.com/photo-1613330652294-1d4dae5affe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHNwcmludHxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Optimer træning
+  - Træning
+  - Sportsperformance
 tags:
   - priming
+  - performance
 last_modified_at: 2022-11-02T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?

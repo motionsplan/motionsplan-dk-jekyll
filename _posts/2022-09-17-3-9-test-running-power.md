@@ -145,7 +145,7 @@ Hechmann har lavet en beregner, som du kan bruge til at udregne dine træningszo
 
 Når du har tastet dine testresultater ind, så får du en masse zoner serveret.
 
-{% include figure image_path="/assets/images/blog/wattmaaling-3-9-hechmann-resultat.png" caption="Hechmanns zoner med både puls og wattmålinger. Pulszonerne er lavet ud fra pulsreserven, som er forskellen mellem den maksimale puls og hvilepulsen." %}
+{% include figure image_path="/assets/images/blog/wattmaaling-3-9-hechmann-resultat.png" caption="Hechmanns zoner med både puls og wattmålinger. Pulszonerne er lavet ud fra [pulsreserven](/pulsreserve/), som er forskellen mellem den maksimale puls og hvilepulsen." %}
 
 Hechmann opererer med utrolig mange zoner, men for mig bliver det unødvendigt kompliceret. Det er næsten umuligt i løb at bruge træningszoner, som ligger så tæt på hinanden.
 

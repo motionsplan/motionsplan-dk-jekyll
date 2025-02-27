@@ -28,7 +28,7 @@ tags:
   - maksimal test
   - løbetest
   - test
-  - beregner
+  - testberegner
   - featured
   - populær
 popular: true

@@ -15,6 +15,11 @@ tags:
   - maksimal muskelstyrke
   - beregner
 last_modified_at: 2020-06-14T23:14:14Z
+meta:
+  name: Vægt i styrke waves
+  equipment: ingen
+  measures: vægt i de enkelte sæt
+  type: styrketræning
 ---
 
 *[RM]: Repetition Maximum

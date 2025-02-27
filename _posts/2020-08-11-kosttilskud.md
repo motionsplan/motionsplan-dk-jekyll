@@ -9,7 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
   - Kosttilskud
 tags:
   - kost

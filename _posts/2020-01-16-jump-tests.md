@@ -6,11 +6,14 @@ language: da
 header:
   teaser: https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
-  - Eksplosivitet
-  - Springtræning
+  - Tests
+  - Springtests
 tags:
   - spring
   - SQAT
+  - springtræning
+  - moc
+  - test
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 feature_row_jump_training:

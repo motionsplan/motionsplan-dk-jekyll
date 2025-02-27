@@ -8,7 +8,6 @@ header:
   caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
 category:
   - Styrketræning
-  - Squat
 tags:
   - squat
   - træningsøvelse

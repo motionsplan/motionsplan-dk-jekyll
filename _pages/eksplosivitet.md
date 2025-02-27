@@ -32,7 +32,9 @@ feature_row:
     btn_label: "Læs om spring"
     btn_class: "btn--success"
 categories:
-  - Træningsformer
+  - Træning
+tags:
+  - træningsformer
 breadcrumbs: true
 ---
 

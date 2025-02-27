@@ -10,6 +10,11 @@ category:
 tags:
   - beregner
 last_modified_at: 2022-01-27T22:21:26Z
+meta:
+  name: Beregn vægt baseret på RPE
+  equipment: vægt
+  measures: vægt
+  type: styrketræning
 ---
 
 I styrketræning kan det sommetider være lidt besværligt at finde ud af, hvor meget vægt man skal have på stangen i specifikke løft. Her får du hjælp til, hvor meget du skal løfte i de enkelte sæt.

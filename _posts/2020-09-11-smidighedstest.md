@@ -7,10 +7,8 @@ header:
   teaser: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Sundhed
-  - Træning
-  - Test
-  - Led
+  - Tests
+  - Smidighed
 tags:
   - smidighed
   - test
@@ -53,6 +51,7 @@ meta:
   name: Modified Sit & Reach
   measures: smidighed
   equipment: målebånd
+  type: smidighed
 ---
 
 Smidighed og bevægelighed er væsentligt for at opretholde en god all-round funktionsevne for kroppen. Her beskrives den modificerede 'sit and reach'-test og skemaer og tabeller for normer for testen.

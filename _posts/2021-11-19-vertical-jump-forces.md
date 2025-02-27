@@ -6,7 +6,7 @@ language: da
 header:
   teaser: https://images.unsplash.com/photo-1613122707153-070406e9fd27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
-  - Optimer træning
+  - Træning
   - Springtræning
 tags:
   - træning
@@ -15,6 +15,11 @@ tags:
   - beregner
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
+meta:
+  name: Udregn hoppehøjde fra afsætshastighed
+  equipment: hoppemåtte
+  measures: hoppehøjde
+  type: spring
 ---
 
 Det vertikale hop er et rigtig godt eksempel på fysikkens love. Her kan du virklig lære noget om sammenhængen mellem hastighed, acceleration, kræfter og svævetid. Det er særlig interessant, når man har adgang til en kraftplatform, som vi har på Vejle Idrætshøjskole.

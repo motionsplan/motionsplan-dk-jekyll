@@ -12,7 +12,7 @@ header:
   caption: "*title"
 category:
   - Styrketræning
-  - Træningsprogrammer
+  - Styrketræningsprogrammer
 tags:
   - program
   - let øvet

@@ -7,7 +7,7 @@ header:
   teaser: https://images.unsplash.com/photo-1474222300086-56f8a438e47d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Kost
+  - Kost & Ernæring
 tags:
   - sportsdrik
   - ernæring

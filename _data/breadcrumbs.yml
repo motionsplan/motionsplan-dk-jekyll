@@ -1,21 +1,39 @@
+Kost & Ernæring:
+  title: Kost & Ernæring
+  url: /kost-ernaering/
+Kost & Ernæring:
+  title: Kosttilskud
+  url: /kosttilskud/
 Træningsøvelser:
   title: Træningsøvelser
   url: /traeningsoevelser/
+Træning:
+  title: Træning
+  url: /traening/
 Styrketræning:
   title: Styrketræning
   url: /styrketraening/
 Kondition:
   title: Kondition
   url: /kondition/
+Konditionstests:
+  title: Konditionstests
+  url: /kondition/tests/
+Pulstræning:
+  title: Pulstræning
+  url: /pulstraening/
 Gang:
   title: Gang
-  url: /gang-fordele-ved-at-gaa/
+  url: /gang/
 Yoga:
   title: Yoga
   url: /yoga/
 Løb:
   title: Løb
   url: /loebesiden/
+Løbetests:
+  title: Løbetests
+  url: /tests/loeb/
 Discgolf:
   title: Discgolf
   url: /discgolf/
@@ -25,16 +43,25 @@ Løbeprogrammer:
 Cykling:
   title: Cykling
   url: /cykling/
+Cykeltests:
+  title: Cykeltests
+  url: /tests/cykling/
 Springtræning:
   title: Springtræning
   url: /springstyrke-og-springtraening/
+Springtests:
+  title: Spring & Hoppetests
+  url: /springtests-hoppehoejde/
 
 Beregnere:
-  title: Beregnere & Tests
-  url: /beregnere-tests/
-Test:
+  title: Beregnere
+  url: /beregnere/
+Tests:
   title: Tests
   url: /tests/
+Vurderingsværktøjer:
+  title: Vurderingsværktøjer
+  url: /vurderingsvaerktoejer/
 Fedtprocent:
   title: Fedtprocent
   url: /maal-fedtprocent/
@@ -147,7 +174,3 @@ Led:
 Mavemuskler:
   title: Mave
   url: /muskler/mave/
-
-De fem tibetanere:
-  title: "De fem tibetanere"
-  url: /artikel/de-fem-tibetanere/

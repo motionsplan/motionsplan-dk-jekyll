@@ -12,6 +12,7 @@ header:
   caption: *title
 category:
   - Beregnere
+  - Kalorieberegnere
 tags:
   - stofskifte
   - ligevægtsindtag
@@ -19,6 +20,11 @@ tags:
   - featured
   - kalorieberegner
   - beregner
+meta:
+  name: Dagligt ligevægtsindtag
+  equipment: ingen
+  measures: dagligt energiforbrug
+  type: energiforbrug
 popular: true
 last_modified_at: 2022-09-12T23:14:14Z
 toc: true

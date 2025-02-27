@@ -389,7 +389,7 @@ defaults:
       sidebar:
         nav: blog
       header:
-        overlay_filter: 0.2
+        overlay_filter: 0.1
   # _exercises
   - scope:
       path: ""
@@ -399,6 +399,7 @@ defaults:
       layout: activity
       header:
         teaser: /assets/images/default-exercises-teaser.jpg
+        overlay_filter: 0.1
       author_profile: false
       read_time: false
       comments: true
@@ -458,6 +459,8 @@ defaults:
       category_archive_path: /anatomi/categories/
       sidebar:
         nav: "muscles"
+      header:
+        overlay_filter: 0.1
   # _pages
   - scope:
       path: ""
@@ -470,6 +473,8 @@ defaults:
       share: true
       related: false
       search: true
+      header:
+        overlay_filter: 0.1
   # _redirects
   - scope:
       path: ""

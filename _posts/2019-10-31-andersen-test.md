@@ -25,7 +25,7 @@ tags:
   - konditionstest
   - løbetest
   - løb
-  - beregner
+  - testberegner
   - test
 last_modified_at: 2024-01-11T08:14:14Z
 feature_row:

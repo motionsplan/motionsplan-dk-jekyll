@@ -6,7 +6,7 @@ language: da
 header:
   teaser: /assets/images/shutterstock/fedtmaaling-hudfoldsmaaling.jpg
 category:
-  - Test
+  - Tests
   - Fedtprocent
 breadcrumbs: true
 tags:

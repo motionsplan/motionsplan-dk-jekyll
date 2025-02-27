@@ -9,11 +9,16 @@ header:
   caption: *title
 category:
   - Beregnere
-  - Ernæring
+  - Kalorieberegnere
 tags:
   - stofskifte
   - kalorieberegner
   - beregner
+meta:
+  name: Daglig forbrænding og stofskifte
+  equipment: ingen
+  measures: dagligt energiforbrug
+  type: energiforbrug
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
 excerpt: "I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov."

@@ -8,8 +8,8 @@ title: &title "Løbetests - for alle niveauer"
 seo_title: "Løbetests - din guide til test af træning i løb"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
-  teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
 breadcrumbs: true
@@ -22,6 +22,14 @@ feature_row_loebesiden:
     url: "/loebesiden/"
     btn_label: "Læs mere om løb"
     btn_class: "btn--success"
+feature_row_cooper_test:
+  - image_path: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Cooper-test"
+    title: "Cooper-test eller 2400 meter test"
+    excerpt: "Hvis du ikke har adgang til et laboratorie og måleudstyr, så er Coopers 12 minutters løbetest eller [2400 meter testen](/kondital-2400-meter/) et rigtig godt bud på en maksimal konditionstest. Du kan også vælge [bib-testen](/kondital-2400-meter/), som er let at udføre på begrænset plads."
+    url: "/cooper-test/"
+    btn_label: "Prøv Cooper-testen"
+    btn_class: "btn--info"
 ---
 
 Løbetests er en effektiv måde at måle din kondition, overvåge din træningsfremgang og sætte realistiske mål.
@@ -39,7 +47,9 @@ Der er forskellige typer løbetests.
 3. **Intervalbaserede løbetests**: Disse tests består af gentagne arbejds- og hvileperioder og vurderer din udholdenhed og evne til at restituere. Fx bliver [Yo-Yo-testen](/yoyo-test/) ofte brugt i forskellige boldspil.
 4. **Løbestilsanalyser**: Disse analyser fokuserer på din løbeteknik for at identificere eventuelle biomekaniske ineffektiviteter eller skadesrisici. Eksempler kunne være løbestilsanalyse på løbebånd, hvor du får filmet din løbestil for at vurdere fodafvikling og kropsholdning.
 
-De første tre kategorier kan du finde mange eksempler i den nedenstående tabel:
+De første tre kategorier kan du finde mange eksempler i den nedenstående tabel.
+
+Jeg håber, at du kan få et godt overblik over, hvilken løbetest, der passer dig!
 
 ## Oversigt over alle løbetests
 
@@ -75,9 +85,15 @@ Hvis du ikke helt kan overskue, hvor du skal starte, så kan du se de mest popul
 
 ## Konditionstests til løb
 
+Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen.
+
 Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og sit [kondital](/kondital/). Her har jeg samlet alle løbetests til at teste din kondition.
 
-Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen. Du kan se en mere uddybende side om [konditionstests](/kondition/tests/).
+Men hvilke konditionstest er egentlig bedst til løb?
+
+{% include feature_row id="feature_row_cooper_test" type="left" %}
+
+Her kan du se alle de løbetests, som tester din kondition eller hastighed ved din maksimale iltoptagelse.
 
 {% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "løbetest" | where: "tags", "konditionstest" | sort: "date" %}
 
@@ -90,6 +106,9 @@ Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vo
 {% endif %}
 
 </div>
+
+Læs meget mere om [konditionstests](/kondition/tests/)
+{: .notice }
 
 ## Hvordan vælger du den rette test?
 

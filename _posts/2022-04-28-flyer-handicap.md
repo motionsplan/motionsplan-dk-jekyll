@@ -11,6 +11,12 @@ tags:
   - løb
   - beregner
 last_modified_at: 2022-04-12T22:21:26Z
+meta:
+  name: Flyer Handicap Løbeberegner
+  equipment: ingen
+  measures: løbetider
+  target: voksne
+  type: løb
 ---
 
 Vanderburgh og Laubach har lavet en formel, så du kan sammenligne løbetider på tværs af alder og vægt. Så hvis du skal have lidt hjælp, når du gerne vil sammenligne dine tider med dine børns tider, så tjek det ud.

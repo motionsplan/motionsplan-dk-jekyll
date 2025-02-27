@@ -14,6 +14,11 @@ tags:
   - kropskomposition
   - beregner
   - børn
+meta:
+  name: BMI-beregner for børn
+  equipment: målebånd og vægt
+  measures: BMI
+  type: kropskomposition
 popular: true
 last_modified_at: 2022-09-13T10:14:14Z
 faq:

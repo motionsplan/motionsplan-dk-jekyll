@@ -24,7 +24,7 @@ muscle_group: null
 last_modified_at: 2021-12-13T15:02:12
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/PM130_19(1).jpg
-    url: https://www.fitnessgruppen.dk/peak-fitness-glute/ham-developer/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&https://www.fitnessgruppen.dk/peak-fitness-glute/ham-developer/
     title: "Peak: Glute/ham Developer bænk"
     alt: Glute ham raise bænk - glute ham developer (GHD)
     excerpt: En bænk til glute-ham skal være høj nok, så man kan bruge det fulde

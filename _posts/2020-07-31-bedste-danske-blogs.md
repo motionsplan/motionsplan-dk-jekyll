@@ -11,7 +11,7 @@ header:
   teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Bedste fitness blogs og træningsblogs fra danske bloggere"
 category:
-  - Webclips
+  - Inspiration
 tags:
   - danske fitness
   - fitness blogger

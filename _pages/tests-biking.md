@@ -21,8 +21,7 @@ feature_row_training:
     url: "/cykling/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
-classes:
-  - wide
+classes: wide
 ---
 
 Denne side tilbyder en detaljeret oversigt over forskellige cykeltests designet til at evaluere og forbedre din kondition.

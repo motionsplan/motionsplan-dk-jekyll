@@ -8,16 +8,19 @@ header:
   teaser: https://images.unsplash.com/photo-1551104083-c046edeed47e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Beregnere
-  - Test
+  - Vurderingsværktøjer
 tags:
   - mortalitet
   - sundhed
-  - beregner
   - vurderingsværktøj
   - populær
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
+meta:
+  name: Cooper Clinic Mortality Risk Index
+  equipment: ingen
+  measures: risiko for at dø
+  type: sundhed
 ---
 
 _The Cooper Clinic_ har udarbejdet _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_. Gennem en række spørgsmål kan **mænd** tjekke om deres absolutte og relative risiko for at dø af sygdom inden for de næste 15 år er forhøjet.

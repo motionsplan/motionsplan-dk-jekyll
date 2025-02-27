@@ -12,7 +12,7 @@ blog:
   - excerpt: '[Se blogindlæg efter kategori](/blog/){: .btn .btn--large .btn--success }'
 ---
 
-<h2>Seneste opdateringer på Motionsplans blog</h2>
+## Seneste opdateringer på Motionsplans blog
 
 <div class="feature__wrapper">
 

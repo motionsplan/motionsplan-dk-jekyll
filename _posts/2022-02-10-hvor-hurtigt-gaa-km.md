@@ -13,6 +13,11 @@ tags:
   - beregner
   - gangtest
   - populær
+meta:
+  name: Beregn tid på at gå 10.000 skridt
+  equipment: ingen
+  measures: tid
+  type: gang
 last_modified_at: 2022-10-5T10:21:26Z
 faq:
   - question: Hvor mange km går man på en time?

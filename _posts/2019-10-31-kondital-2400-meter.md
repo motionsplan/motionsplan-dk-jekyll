@@ -25,7 +25,7 @@ tags:
   - indirekte test
   - løbetest
   - test
-  - beregner
+  - testberegner
   - populær
   - politi
 last_modified_at: 2022-10-06T22:12:12Z

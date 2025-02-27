@@ -87,8 +87,7 @@ feature_row_rm_calculator:
     url: "/rm-beregner/"
     btn_label: "Beregn din styrke"
     btn_class: "btn--info"
-classes:
-  - wide
+classes: wide
 ---
 
 Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. 

@@ -6,7 +6,8 @@ language: da
 header:
   teaser: /assets/images/exercises/nordic-hamstring-0-320.jpg
 category:
-  - Optimer træning
+  - Tests
+  - Styrketræning
 tags:
   - træning
 last_modified_at: 2021-11-19T08:14:14Z

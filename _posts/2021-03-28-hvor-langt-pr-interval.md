@@ -17,6 +17,11 @@ last_modified_at: 2021-03-28T23:14:14Z
 toc: true
 author: lsolesen
 breadcrumbs: true
+meta:
+  name: Længde på intervaller i løb
+  equipment: ingen
+  measures: løbetider
+  type: løb
 ---
 
 Jeg har lavet en beregner, så du let kan regne ud, hvor langt du skal løbe på de enkelte intervaller, hvis du kender din hastighed.

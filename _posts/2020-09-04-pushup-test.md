@@ -10,11 +10,13 @@ header:
   teaser: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
+  - Tests
   - Styrketræning
-  - Test
 meta:
   name: Armstrækninger test
   measures: overkropsstyrke
+  type: styrketræning
+  equipment: ingen
 tags:
   - test
   - armstrækninger

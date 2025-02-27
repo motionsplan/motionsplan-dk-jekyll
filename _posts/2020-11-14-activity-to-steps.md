@@ -15,6 +15,11 @@ tags:
   - motion
   - beregner
   - featured
+meta:
+  name: Motionsomregner fra sport til sport
+  equipment: ingen
+  measures: energiforbrug
+  type: kalorieberegner
 last_modified_at: 2020-10-13T23:14:14Z
 toc: true
 faq:

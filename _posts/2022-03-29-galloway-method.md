@@ -164,7 +164,7 @@ Du kan i vores beregner nedenunder regne ud, hvad dit gennemsnitlige pace bliver
 
 ## Andre variationer af Run Walk Run®-metoden
 
-Du kan også lave dine egne variationer af Run Walk Run®-metoden. [Fitpeople.com](https://fitpeople.com/da/cardio/loeb/galloway-metoden-til-at-forbedre-din-loeberekord/) foreslår følgende fordeling mellem løb og gang.
+Du kan også lave dine egne variationer af Run Walk Run®-metoden. [Fitpeople.com](https://fitpeople.com/fitness/the-galloway-method-to-improve-your-personal-running-records/) foreslår følgende fordeling mellem løb og gang.
 
 Her skal du kende din forventede maraton-sluttid, og så får du fordelingen af løb og gang.
 

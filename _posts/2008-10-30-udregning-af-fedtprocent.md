@@ -11,7 +11,7 @@ header:
   alt: Photo by i yunmai on Unsplash
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
 category:
-  - Test
+  - Tests
   - Fedtprocent
 tags:
   - fedtprocent
@@ -21,6 +21,7 @@ tags:
   - metode
 meta:
   name: Beregn din fedtprocent fra alder, højde og vægt
+  type: kropskomposition
   equipment: beregner
   measures: fedtprocent
 feature_row:
@@ -100,10 +101,8 @@ Hvis vi kan etablere en fælles reference for, hvornår en fedtprocent kan opfat
 
 ## Formler brugt i vores fedtprocent beregner
 
-<details markdown="1">
-  <summary>Se formler Durnin & Womersley (1977)</summary>
-
-### Durnin & Womersley udregning af fedtprocent
+<details markdown="1" class="equation">
+  <summary><h3 id="durnin-womersley-equation">Durnin & Womersley (1977)</h3></summary>
 
 Durnin & Womersley bruger i sin formel BMI og køn.
 
@@ -117,17 +116,15 @@ Fedtprocent = 1,37 * BMI - 3,47
 
 </details>
 
-<details markdown="1">
-  <summary>Se formel fra Jackson & Pollock (1980)</summary>
+<details markdown="1" class="equation">
+  <summary><h3 id="jackson-pollock-equation">Se formel fra Jackson & Pollock (1980)</h3></summary>
 
 Adult Body Fat % = (1,61 * BMI) + (0,13 * age) - (12,1 * gender) - 13.9
 
 </details>
 
-<details markdown="1">
-  <summary>Se formler Heitmann (1990)</summary>
-
-### Heitmann beregning af fedtprocent
+<details markdown="1" class="equation">
+  <summary><h3 id="heitman-equation">Heitmann (1990)</h3></summary>
 
 Heitmann bruger i sin formel køn, BMI og alder. Udregningen af fedtprocent efter Heitmanns formel har en standardafvigelse på op til 3,9%. Det betyder, at den værdi du har udregnet i formularen kan svinge med mindst 3,9% ift. din virkelige fedtprocent.
 
@@ -143,10 +140,8 @@ Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er d
 
 </details>
 
-<details markdown="1">
-  <summary>Se formler Duerenberg et al. (1991)</summary>
-
-### Duerenberg et al. (1991) udregning af fedtprocent
+<details markdown="1" class="equation">
+  <summary><h3 id="duerenberg-equation">Duerenberg et al. (1991)</h3></summary>
 
 Fedtprocent = 1,20 * BMI + 0,23 * age - 10,8 * gender - 5,4;
 
@@ -154,10 +149,8 @@ gender: men = 1; female = 0
 
 </details>
 
-<details markdown="1">
-  <summary>Se formler Duerenberg et al. (1998)</summary>
-
-### Duerenberg et al. (1998) udregning af fedtprocent
+<details markdown="1" class="equation">
+  <summary><h3 class="duerenberg-equation">Duerenberg et al. (1998)</h3></summary>
 
 Adult Body Fat % = (1,29 * BMI) + (0,20 * Age) - (11,4 * gender) - 8,0
 
@@ -165,14 +158,12 @@ gender: men = 1; female = 0
 
 </details>
 
-<details markdown="1">
-  <summary>Se formler Gallagher et al. (2000)</summary>
+<details markdown="1" class="equation">
+  <summary><h3 class="gallagher-equation">Gallagher et al. (2000)</h3></summary>
 
 [Gallagher et al (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index/link/54bd3be10cf27c8f2814b34f/download) inkluderer køn og alder sammen med [BMI i deres formel](/bmi/).
 
 Men samtidig bruger Gallagher et al (2000) også etnicitet, da de har fundet ud af, at fedtprocenten og BMI hænger lidt anderledes sammen for asiater og _african americans_. Denne detalje har jeg endnu ikke indkorporeret i beregneren, så den regner bare med folk af europæisk afstamning.
-
-### Gallagher et al. udregning af fedtprocent
 
 Fedtprocent = 63,7 - 864 * (1/BMI) - 12,1 * gender + 0,12 * age + (129 * asian * (1/BMI)) - (0,091 * asian * age) - (0,030 * afro * age)
 
@@ -180,8 +171,8 @@ hvor gender = 1 for mænd og 0 er for kvinder, asian = 1 for asiater, afro = 1 f
 
 </details>
 
-<details markdown="1">
-  <summary>Se formel fra Heritage-studiet - Jackson et al (2002)</summary>
+<details markdown="1" class="equation">
+  <summary><h3 class="jackson-equation">Formel fra Heritage-studiet - Jackson et al (2002)</h3></summary>
 
 Adult Body Fat % = (1,39 * BMI) + (0,16 * age) - (10,34 * gender) - 9
 
@@ -244,12 +235,12 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 
 Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge det tal til.
 
-## Referencer
+## Læs mere om fedtprocent
 
 {% include feature_row type="left" %}
 
-<details markdown="1">
-  <summary>Se referencerne</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Se referencerne</h2></summary>
 
 * Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
 * Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.

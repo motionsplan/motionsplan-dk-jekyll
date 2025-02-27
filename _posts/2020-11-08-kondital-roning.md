@@ -19,7 +19,7 @@ meta:
 tags:
   - konditionstest
   - roning
-  - beregner
+  - testberegner
   - rotest
 last_modified_at: 2022-08-07T10:14:14Z
 ---

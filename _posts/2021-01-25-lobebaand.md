@@ -10,17 +10,16 @@ header:
   teaser: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Test
   - Løb
-  - Udstyr
+  - Løbeudstyr
 tags:
   - løb
   - løbebånd
   - cardiomaskiner
   - udstyr
 feature_row_draxfit:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/2018_05_Ne__Speedfit_Drax_fit(1).png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/speedfit-curve-running/
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2018_05_Ne__Speedfit_Drax_fit(1).w774.h774.fill.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/98-pro-loebebaand/402-speedfit-curve-running/
     title: Draxfit Curve Running
     excerpt: "Draxfit er et nyt og anderledes form for løbebånd. På et Draxfit løbebånd bestemmer du selv hastigheden ved hjælp af din position på den kurvede løbeflade. Når du bevæger dig tættere på den forreste del af båndet, øger du hastigheden."
     price: 43895

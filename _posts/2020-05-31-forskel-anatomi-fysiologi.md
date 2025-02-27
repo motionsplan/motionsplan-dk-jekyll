@@ -10,7 +10,7 @@ header:
   alt: "Photo by Jesper Aggergaard on Unsplash"
   overlay_filter: 0.2
 category:
-  - Træningslære
+  - Fysiologi
 tags:
   - anatomi
   - fysiologi

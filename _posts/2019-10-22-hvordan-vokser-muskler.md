@@ -9,7 +9,6 @@ header:
   caption: *title
 category:
   - Styrketræning
-  - Hypertrofi
 tags:
   - hypertrofi
   - træningsmetoder

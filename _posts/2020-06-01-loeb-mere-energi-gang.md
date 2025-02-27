@@ -18,6 +18,11 @@ tags:
   - beregner
   - forbrænding
   - populær
+meta:
+  name: Forbrænding ved løb og gang
+  equipment: ingen
+  measures: energiforbrug
+  type: løb og gang
 toc: true
 last_modified_at: 2022-05-10T08:14:14Z
 faq:

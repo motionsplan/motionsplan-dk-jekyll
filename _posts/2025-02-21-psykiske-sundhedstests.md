@@ -14,8 +14,8 @@ author: lsolesen
 toc: true
 breadcrumbs: true
 category:
+  - Vurderingsværktøjer
   - Psykologi
-  - Velvære
 tags:
   - moc
   - mental velvære

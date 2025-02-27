@@ -10,6 +10,11 @@ category:
 tags:
   - beregner
 last_modified_at: 2022-02-12T22:21:26Z
+meta:
+  name: Beregn muskelmasse
+  equipment: vægt
+  measures: muskelmasse
+  type: kropskomposition
 ---
 
 I denne beregner kan du udregne din omtrentlige muskelmasse baseret på enkle antropometriske målinger.

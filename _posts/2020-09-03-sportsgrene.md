@@ -9,7 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Viden om
+  - Sportsgrene
 tags:
   - liste
   - sportsgrene

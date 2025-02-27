@@ -18,7 +18,8 @@ author: lsolesen
 toc: true
 category:
   - Træning
-  - Træningsformer
+tag:
+  - træningsformer
 breadcrumbs: true
 feature_row_strength:
   - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
@@ -31,7 +32,7 @@ feature_row_strength:
 sidebar:
   nav: trainingtypes
 feature_row_get_started:
-  - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1685633224767-361354e84e2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Guide: Sådan kommer du i gang med styrketræning"
     title: "Guide: Sådan kommer du i gang med styrketræning"
     excerpt: "Rigtig mange søger inspiration til træningsprogrammer eller er i tvivl om, hvilket styrketræningsprogram de skal vælge. Programmet er vigtig del af træningen, men hvordan får jeg valgt det rigtige styrketræningsprogram? Hvordan kommer du egentlig i gang?"
@@ -83,8 +84,7 @@ feature_row_okklusion:
     url: "/introduktion-okklusionstraening/"
     btn_label: "Læs mere om okklusionstræning"
     btn_class: "btn--info"
-classes:
-  - wide
+classes: wide
 last_modified_at: 2025-02-20T19:14:14Z
 ---
 
@@ -110,7 +110,7 @@ Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsp
 
 {% include feature_row id="feature_row_about" type="left" %}
 
-## Træningsprogrammer
+## Træningsprogrammer til styrke
 
 {% include feature_row id="feature_row_good_program" type="left" %}
 
@@ -176,8 +176,6 @@ Styrketræning består typisk af en række forskellige øvelser. Vi har samlet d
 
 Du kan finde [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper.
 
-Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvelser](/traeningsoevelser/).
-
 <div class="feature__wrapper" markdown="1">
 
 {% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
@@ -188,7 +186,7 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
   {% endfor %}
 {% endif %}
 
-[Se alle træningsøvelser](/traeningsoevelser/){: .btn .btn--success .btn--center }
+[Se alle styrketræningsøvelser](/styrketraeningsoevelser/){: .btn .btn--success .btn--center }
 
 </div>
 

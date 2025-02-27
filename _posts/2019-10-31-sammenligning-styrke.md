@@ -15,7 +15,11 @@ tags:
   - styrketræning
   - beregner
   - moc
-  - faq
+meta:
+  name: Relativ styrke på forskellig måde
+  equipment: ingen
+  measures: relativ styrke
+  type: styrketræning
 last_modified_at: 2022-04-30T10:14:14Z
 toc: true
 feature_row:

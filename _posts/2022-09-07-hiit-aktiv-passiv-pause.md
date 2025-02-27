@@ -162,7 +162,7 @@ Forfatterne diskuterer denne observation, og forklarer at det muligvis kan skyld
 
 Således kan det tænkes, at man er bedre gearet til at imødekommende musklernes pludselige stigende krav til iltoptagelsen som følge af passiv restitution, end hvis restitutionen er aktiv. Dette er illustreret i figuren herunder fra det pågældende studie, der viser repræsentative kurver for iltoptagelseshastigheden for en forsøgsperson.
 
-{% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012711/bin/421_2022_4926_Fig2_HTML.jpg" caption="Repræsentative kurver for iltoptagelseshastigheden for en forsøgsperson. **Obs.** De mindre stigninger i VO2 der kan observeres i restitutionsperioden på kurven for både aktiv og passiv restitution, skyldes at man i studiet også målte hoppe-præstation ved 5 countermovement hop i hver restitutionsperiode. Kilde: [Sánchez-Otero og kollegaer (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012711/)" alt="graf over effekten af pauseform på hiit-træning" %}
+{% include figure image_path="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c38c/9012711/f7b525f3e2ee/421_2022_4926_Fig2_HTML.jpg" caption="Repræsentative kurver for iltoptagelseshastigheden for en forsøgsperson. **Obs.** De mindre stigninger i VO2 der kan observeres i restitutionsperioden på kurven for både aktiv og passiv restitution, skyldes at man i studiet også målte hoppe-præstation ved 5 countermovement hop i hver restitutionsperiode. Kilde: Figur 2 fra [Sánchez-Otero og kollegaer (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012711/)" alt="graf over effekten af pauseform på hiit-træning" %}
 
 Hvorfor er det særlig interessant?
 

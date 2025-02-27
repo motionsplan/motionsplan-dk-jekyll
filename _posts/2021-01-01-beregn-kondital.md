@@ -13,6 +13,11 @@ category:
   - Kondition
 tags:
   - beregner
+meta:
+  name: Beregn kondital
+  equipment: ingen
+  measures: kondital
+  type: kondition
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 gallery:

@@ -7,15 +7,16 @@ header:
   teaser: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Fitness
+  - Inspiration
 tags:
   - udstyr
 last_modified_at: 2024-07-27T22:21:26Z
 shops:
   - title: Fitnessengros.dk
-    excerpt: "Fitness Engros sælger fitnessudstyr til både professionelle og private. De forhandler mange forskellige brands og er eksklusive distributører på mange af dem. Vi har brugt dem mange gange på Vejle Idrætshøjskole som leverandør til vores styrketræningslokale, og de har produkter i alle prisklasser.
+    excerpt: |
+      Fitness Engros sælger fitnessudstyr til både professionelle og private. De forhandler mange forskellige brands og er eksklusive distributører på mange af dem. Vi har brugt dem mange gange på Vejle Idrætshøjskole som leverandør til vores styrketræningslokale, og de har produkter i alle prisklasser.
     
-    Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis jeg skal bruge noget nyt udstyr."
+      Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis jeg skal bruge noget nyt udstyr."
     image: /assets/images/blog/fitnessbutik-fitnessengros.jpg
     cta_label: Besøg Fitness Engros
     cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=89041
@@ -52,13 +53,6 @@ shops:
     image: /assets/images/blog/fitnessbutik-fitnessshoppen.jpg
     cta_label: Besøg FitnessShoppen
     cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
-  - title: Billig-Fitness.dk
-    excerpt: En af Danmarks mest kendte og største forhandlere af fitness udstyr, træningsudstyr og kosttilskud. Hvis du kun vil handle et sted, så kan du altså få det hele her. Det er lige fra proteinpulver, til yogamåtter, kettlebells og til kompette fitnessstationer. Billig-Fitness har lave priser, de sender hurtigt og du har 60 dages returret på varer købt hos Billig-Fitness.
-    image: /assets/images/blog/fitnessforretning-getbig.jpg
-    cta_label: Besøg Billig-Fitness
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
     rel: sponsored nofollow noopener
     class: .btn .btn--large .btn--danger
   - title: Muscle House

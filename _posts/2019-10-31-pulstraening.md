@@ -1,6 +1,6 @@
 ---
 title: &title "Pulstræning: Sådan kommer du i gang"
-excerpt: "I pulstræning bruger du pulsen til at styre din træningsintensitet. Du bruger pulszoner enten baseret på din maxpuls eller pulsreserven. Her får du en komplet guide til, hvordan du kan komme i gang med at træne efter pulsen."
+excerpt: "I pulstræning bruger du pulsen til at styre din træningsintensitet. Du bruger pulszoner enten baseret på din maxpuls, laktattærsklen eller pulsreserven. Her får du en komplet guide til, hvordan du kan komme i gang med at træne efter pulsen."
 permalink: /pulstraening/
 language: da
 header:
@@ -9,16 +9,14 @@ header:
   caption: *title
 category:
   - Kondition
-  - Beregnere
 tags:
   - kondition
   - træning
   - intensitet
   - puls
-  - beregner
   - løb
   - guide
-last_modified_at: 2021-03-06T23:14:14Z
+last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 garmin_setup:
   - image_path: /assets/images/blog/garmin-setup-zones-1.jpg
@@ -66,35 +64,23 @@ Max-pulsen
 : Max-pulsen er den absolut højeste pulsværdi, dit hjerte kan præstere. Der er en generel sammenhæng mellem den maksimale puls og alder. Maxpulsen er individuel og kan afhænge af både køn og alder. Den påvirkes sandsynligvis ikke nævneværdigt af træning. Jeg har skrevet et indlæg om, [hvordan du selv kan måle eller udregne din max-puls](/test-max-puls/)
 
 Pulsreserven
-: Pulsreserven er forskellen mellem din max-puls og hvilepuls. Reservepulsen er et udtryk for det tilgængelige arbejdspotentiale. Når du er i bedre træning, så er din hvilepuls lavere, og derfor er din pulsreserve højere.
+: Pulsreserven er forskellen mellem din max-puls og hvilepuls. Reservepulsen er et udtryk for det tilgængelige arbejdspotentiale. Når du er i bedre træning, så er din hvilepuls lavere, og derfor er din pulsreserve højere. Læs mere om [pulsreserven](/pulsreserve/).
 
 Når du kender værdierne af din hvilepuls og max-puls, så kan du begynde at udregne træningsintensiteter til din pulstræning. Du kan enten basere dine pulszoner udelukkende på din max-puls eller på din pulsreserve.
 
-## Udregning af intensitet til pulstræning
+## Metoder til beregning af pulszoner til pulstræning
 
 Når du har styr på disse begreber, så kan du udregne din arbejdsintensitet og derved har du et godt grundlag for at lave pulstræning.
 
-Som skrevet kan du både udregne din arbejdsintensitet baseret på **pulsreserven** eller på baggrund af den **maksimale puls**.
+Som skrevet kan du både udregne din arbejdsintensitet baseret på **pulsreserven**, **maksimale puls** eller på baggrund af **laktattærsklen**.
 
-## Pulstræning ud fra pulsreserven
+Du kan bruge vores beregnere til dine egne personlige pulszoner alt efter, hvad du helst vil basere din pulstræning på.
+
+### 1. Pulstræning ud fra pulsreserven
 
 Vi tager to forskellige måder at udregne intensiteten på. Vi starter med at bruge **pulsreserven**.
 
-Du kan udregne din relative arbejdsintensitet med denne formel:
-
-{% include motionsplan/math formula="Intensitet(%) = \frac{arbejdspuls - hvilepuls}{maxpuls - hvilepuls} * 100" %}
-
-Hvis du hellere vil have en beregner, så kan du altså bruge denne beregner til at finde den relative arbejdsintensitet på baggrund af intensiteten.
-
-{% include calculator/calculate-hr-intensity-pulsreserve.html %}
-
-Hvis du i stedet kender den ønskede intensitet og gerne vil vide, hvilken arbejdspuls du skal træne med, så kan du bruge følgende formel.
-
-HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + HR<sub>REST</sub>
-
-Igen hjælper vi her med en beregner, så du hurtigt selv kan lave dine udregninger.
-
-{% include calculator/calculate-hr-work-pulsreserve.html %}
+Her beregner man sin relative arbejdsintenstitet på baggrund af din hvilepuls og din maxpuls. Det kalder man pulsreserven.
 
 Der er flere fordele ved at bruge pulsreserven som udgangspunkt for din træning.
 
@@ -106,21 +92,33 @@ Hvis du tager en person som har en hvilepuls på 60 og en maxpuls på 200 slag i
 
 Ifølge [Morten Zacho](https://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"} er det også typisk pulsreserven, der bruges i videnskabelige tekster, når forskerne måler intensitet i forhold puls.
 
-## Pulstræning ud fra maxpulsen
+Fordelen ved at denne metode er, at det er relativt enkelt at finde sin hvilepuls og beregne sin maxpuls. 
+
+Du kan lære mere om at beregne arbejdspuls eller intensitet i vores [guide om pulsreserven](/pulsreserve/).
+
+[Udregn dine egne pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--info }
+
+### 2. Pulstræning ud fra maxpulsen
 
 I den daglige træning kan det imidlertid være upraktisk at bruge pulsreserven som rettesnor. Hvilepulsen kan ændre sig i et træningsforløb, og derfor kan de udregnede zoner også ændre sig undervejs.
 
-Den relative arbejdsintensitet baseret på pulsreserven kan også være lidt sværere at udregne i hovedet, men der kan du jo bare bruge vores beregner. Derfor kan det være lettere at benytte en intensitet baseret på den maksimale puls. Procenten af den maksimale puls kan give en udemærket retningslinje for det gennemførte arbejde. Den maksimale puls ændrer sig ikke over tid. Desuden er der en lineær sammenhæng mellem intensiteten målt i procent af maxpulsen og intensiteten målt i procent af den maksimale iltoptagelse.
+Den relative arbejdsintensitet baseret på pulsreserven kan også være lidt sværere at udregne i hovedet, men der kan du jo bare bruge vores beregner. 
+
+Derfor kan det være lettere at benytte en intensitet baseret på den maksimale puls. Procenten af den maksimale puls kan give en udemærket retningslinje for det gennemførte arbejde.
+
+Den maksimale puls ændrer sig ikke over tid. Desuden er der en lineær sammenhæng mellem intensiteten målt i procent af maxpulsen og intensiteten målt i procent af den maksimale iltoptagelse.
 
 Intensitet angivet i procent af den maksimale puls svarer faktisk meget godt til [RM-begrebet](/rm-beregner/) i styrketræning.
 
-## Pulstræning ud fra laktattærsklen
+[Udregn dine egne pulszoner fra din maxpuls](/pulszoner-maxpuls/){: .btn .btn--info }
+
+### 3. Pulstræning ud fra laktattærsklen
 
 Den tredje måde som du kan lave pulstræning på er ud fra den anaerobe tærskel. Dette kræver naturligvis at du får lavet en test på, hvad din anaerobe tærskel er, men det er faktisk ikke så bøvlet. Vi har skrevet meget mere om [den anaerobe tærskel](/anaerobe-taerskel/).
 
 Det er relativt enkelt at lave en test af den anaerobe tærskel, hvis du har af de moderne pulsure. Her er et eksempel fra et Garmin Fenix ur.
 
-{% include gallery id="garmin_lactate" caption="Der er en test af den anaerobe tærskel direkte på dit Garmin-ur." %}
+[Udregn dine pulszoner fra laktattærsklen](/pulszoner-laktat-taerskel/){: .btn .btn--info }
 
 ## Vælg det rigtige intensitetsbegreb
 
@@ -136,7 +134,9 @@ AP(60%) = 0,6 x 200 = 120 bpm
 
 Der er unægtelig lidt forskal på at ramme den ene eller ande puls i pulstræningen.
 
-Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt. Vi har lavet en grundig gennemgang af [pulszoner og en beregner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/) til at finde dine pulszoner. Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
+Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt.
+
+Vi har lavet en grundig [guide til beregning af pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
 
 ## Pulstræning i praksis
 

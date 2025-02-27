@@ -42,9 +42,10 @@ sidebar:
   nav: trainingtypes
 category:
   - Træning
-  - Træningsformer
+  - Gang
 tag:
   - gang
+  - Træningsformer
 breadcrumbs: true
 ---
 

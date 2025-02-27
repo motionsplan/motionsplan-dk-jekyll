@@ -12,7 +12,6 @@ header:
   caption: *title
   overlay_filter: 0.2
 category:
-  - Udstrækning
   - Træning
 tags:
   - udstrækning

@@ -6,12 +6,13 @@ header:
   teaser: https://m.media-amazon.com/images/I/61+QaSxNKDL.jpg
   caption: *title
 category:
+  - Tests
   - Eksplosivitet
-  - Springtræning
 tags:
   - test
   - springtest
   - spring
+  - springtræning
 last_modified_at: 2011-11-19T23:14:14Z
 toc: true
 meta:

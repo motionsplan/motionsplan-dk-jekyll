@@ -10,7 +10,7 @@ header:
   alt: Photo by Estée Janssens on Unsplash
   overlay_filter: 0.4
 category:
-  - Viden om
+  - Træningsplanlægning
 tags:
   - målsætning
   - mål

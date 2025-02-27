@@ -214,9 +214,11 @@ Du skal lære at knække i hoften med bløde knæ og hovedet i forlængelse af k
 
 ### Sprint
 
-Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget. Nedenstående sprinter er tæt på at være i den perfekte position.
+Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget.
 
-{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="" %}
+Nedenstående sprinter er i en ret god position.
+
+{% include figure image_path="https://images.unsplash.com/photo-1580060964435-03331a4e74a4?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" caption="Sprinter med højt knæløft og kraftigt armtræk." %}
 
 - Albueleddene holdes i 90 grader.
 - Håndfladerne er åbne.

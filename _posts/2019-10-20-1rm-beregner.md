@@ -18,9 +18,8 @@ header:
       rel: nofollow noopener
   overlay_filter: 0.3
 category:
-  - Styrketræning
   - Beregnere
-  - Test
+  - Styrketræning
 tags:
   - styrketræning
   - beregner
@@ -30,6 +29,7 @@ meta:
   name: RM-beregner til styrketræning
   measures: styrke
   equipment: vægtudstyr
+  type: styrketræning
 last_modified_at: 2022-10-04T07:14:14Z
 toc: true
 feature_row_sheet:
@@ -177,9 +177,7 @@ Alle de følgende formler til at udregne 1RM er baseret på _gentagelser_ og _v�
 Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM giver Epleys formel et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
 
 <details markdown="1" class="equation">
-  <summary>Se Brzyckis formel til repetition maximum</summary>
-
-### Brzyckis formel til RM
+  <summary><h3 id="brzyckis-equation">Brzyckis formel<h3></summary>
 
 Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. Formlen kan skrives på lidt forskellige måder, som det ses her:
 
@@ -187,49 +185,37 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se Epleys formel</summary>
-
-### Epleys formel
+  <summary><h3 id="epley-equation">Epleys formel</h3></summary>
 
 {% include motionsplan/math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se McGlothins formel</summary>
-
-### McGlothin
+  <summary><h3 id="mcglothin-equation">McGlothins formel</h3></summary>
 
 {% include motionsplan/math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se Lombardis formel</summary>
-
-### Lombardi
+  <summary><h3 id="lombardi-equation">Lombardis formel</h3></summary>
 
 {% include motionsplan/math formula="RM=wr^{0.10}" %}
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se Mayhews formel</summary>
-
-### Mayhew et al.
+  <summary><h3 id="mayhews-equation">Mayhew et al formel</h3></summary>
 
 {% include motionsplan/math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se O'Conners formel til repetition maximum</summary>
-
-### O'Conner et al.
+  <summary><h3 id="oconnor-equation">Se O'Conner et al formel</h3></summary>
 
 {% include motionsplan/math formula="RM=w\left(1+{\frac {r}{40}}\right)" %}
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se Wathens formel til repetition maximum</summary>
-
-### Wathen
+  <summary><h3 id="wathen-equation">Wathens formel til repetition maximum</h3></summary>
 
 {% include motionsplan/math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
 </details>

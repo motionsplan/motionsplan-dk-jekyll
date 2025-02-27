@@ -12,7 +12,7 @@ header:
   teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
   - Restitution
 tags:
   - træning
@@ -115,7 +115,7 @@ Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at 
 
 Efter styrketræning vil proteinsyntesen være forhøjet i op til 24 timer (måske helt op til 48 timer) efter træning. Hvis man spiser protein på noget tidspunkt i løbet af denne periode, så vil proteinsyntesen i kroppen gå yderligere i vejret.
 
-{% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464665/bin/1743-7075-9-40-1.jpg" caption="Styrketræning forårsager proteinsyntesen til at være forhøjet i længere tid. Hvis du spiser protein på noget tidspunkt i denne udvidede periode med anabolsk potentiale, så vil muskelproteinsyntesen gå yderligere op. Figur fra [Churchward-Venné et all (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464665/)" alt="Proteinsyntese i det åbne vindue - anabolic window" %}
+{% include figure image_path="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7023/3464665/267143be6ed1/1743-7075-9-40-1.jpg" caption="Styrketræning forårsager proteinsyntesen til at være forhøjet i længere tid. Hvis du spiser protein på noget tidspunkt i denne udvidede periode med anabolsk potentiale, så vil muskelproteinsyntesen gå yderligere op. Figur fra [Churchward-Venné et all (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464665/)" alt="Proteinsyntese i det åbne vindue - anabolic window" %}
 
 Men det er tydeligt i figuren, at det anabolske vindue for protein er noget længere end man tidligere har opereret med. Forudsætningen i ovenstående figur er også, at man ikke træner fastende.
 

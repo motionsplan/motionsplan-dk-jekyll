@@ -9,8 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1497888329096-51c27beff665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Styrketræning
-  - Kost
+  - Kost & Ernæring
 tags:
   - styrketræning
   - kost

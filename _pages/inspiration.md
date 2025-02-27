@@ -75,6 +75,12 @@ feature_row_strength:
 breadcrumbs: true
 ---
 
+
+## Leder du efter udstyr?
+
+Så 
+
+
 På denne side har jeg samlet alle mine anbefalinger og de ting til træning, jeg selv bruger.
 
 ## Løbeur, pulsbælte og høretelefoner

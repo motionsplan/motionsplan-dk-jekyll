@@ -8,7 +8,8 @@ header:
   teaser: /assets/images/opskrift/stykkelasagne.jpg
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
+  - Opskrifter
 tags:
   - opskrift
   - kost

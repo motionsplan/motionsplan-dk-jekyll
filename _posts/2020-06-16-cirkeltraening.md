@@ -8,13 +8,13 @@ header:
   overlay_filter: 0.4
   caption: *title
 category:
-  - Kombinationstræning
-  - Kondition
-  - Styrketræning
+  - Træning
 tags:
   - cirkeltræning
   - kondition
   - træning
+  - kombinationstræning
+  - styrketræning
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 faq:

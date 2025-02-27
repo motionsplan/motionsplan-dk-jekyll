@@ -9,13 +9,14 @@ header:
   teaser: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
   caption: *title
 category:
+  - Tests
   - Eksplosivitet
-  - Springtræning
 tags:
   - test
   - springtest
   - spring
-  - beregner
+  - testberegner
+  - springtræning
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 meta:

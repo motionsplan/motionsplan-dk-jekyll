@@ -14,7 +14,8 @@ sidebar:
   nav: trainingtypes
 category:
   - Træning
-  - Træningsformer
+tag:
+  - træningsformer
 breadcrumbs: true
 classes: wide
 toc: true

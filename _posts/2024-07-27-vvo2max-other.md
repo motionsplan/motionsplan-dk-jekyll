@@ -17,7 +17,7 @@ tags:
   - løbetest
   - test
   - tracking
-  - beregner
+  - testberegner
 last_modified_at: 2024-07-27T10:14:14Z
 meta:
   name: 6 minutters submaksimal løbetest

@@ -286,6 +286,23 @@ For at få mest muligt ud af din træning er det vigtigt at måle din fremgang. 
 [Find mange flere tests](/tests/){: .btn .btn--success .btn--center }
 </div>
 
+## Beregnere til træning
+
+Du kan lade dig inspirere til vores lange liste af beregnere til træning.
+
+{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle vores beregnere](/beregner/){: .btn .btn--success .btn--center }
+</div>
+
 {% comment %}
 
 EVT. SKAL JEG TAGE DE STORE KATEGORI-SIDER OVER TESTS OG LINKE HERFRA I STEDET?
@@ -309,7 +326,7 @@ Se mere på vores [testoversigt](/beregnere-tests/) og bliv inspireret til forsk
 
 ### Følg din udvikling
 
-Når du har taget en test, kan du bruge resultaterne til at planlægge din træning og sætte realistiske mål. Gentag tests med jævne mellemrum for at se dine fremskridt og juster din træning efter dine resultater.
+Når du har taget en test, kan du bruge resultaterne til at [planlægge din træning](/traeningsplanlaegning/) og sætte realistiske mål. Gentag tests med jævne mellemrum for at se dine fremskridt og juster din træning efter dine resultater.
 
 Gå til vores [testoversigt](/beregnere-tests/) og find den bedste test til dig!
 

@@ -11,7 +11,7 @@ header:
   overlay_filter: 0.2
   caption: *title
 category:
-  - Viden om
+  - Træning
 tags:
   - biohacking
 last_modified_at: 2021-04-03T08:14:14Z

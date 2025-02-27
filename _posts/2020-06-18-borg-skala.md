@@ -117,7 +117,7 @@ I sidste ende kan skalaen være med til at styrke din egen kropslige fornemmelse
 
 For at bruge Borg-skalaen optimalt skal du kende på din egen krop, hvordan alle intensiteter føles. Du kan fx prøve at [teste din maksimale puls](/test-max-puls/) eller prøve en [Watt-max-test](/kondital-wattmax/), så får du en fornemmelse af, hvordan "maksimalt anstrengende" føles. Du kan også prøve at løbe 30 sekunder _allout_ efterfulgt af halvandet minuts pause og gøre det 3-6 gange.
 
-Men tanken med skalaen er jo at undgå at skulle bruge pulsmåler, så prøv også at vurdere din træning uden at kigge pulsmåleren. Prøv mange forskellige intensiteter, så du kan bruge Borg-skalaen som rettesnor i træningen. Det kan gøre det lettere at ramme de [rigtige pulzoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
+Men tanken med skalaen er jo at undgå at skulle bruge pulsmåler, så prøv også at vurdere din træning uden at kigge pulsmåleren. Prøv mange forskellige intensiteter, så du kan bruge Borg-skalaen som rettesnor i træningen. Det kan gøre det lettere at ramme de [rigtige pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
 
 ## Alternativer til Borg-skalaen
 

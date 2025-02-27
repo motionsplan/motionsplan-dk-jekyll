@@ -14,7 +14,7 @@ header:
 tags:
   - videnskab
 category:
-  - Viden om
+  - Træningslære
 last_modified_at: 2022-09-13T21:55:25Z
 ---
 

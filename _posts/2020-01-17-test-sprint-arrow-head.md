@@ -7,6 +7,7 @@ header:
   teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
+  - Tests
   - Eksplosivitet
 tags:
   - eksplosivitet

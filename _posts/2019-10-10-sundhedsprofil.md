@@ -12,7 +12,7 @@ header:
   teaser: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   caption: *title
 category:
-  - Test
+  - Tests
 tags:
   - sundhed
   - fitness

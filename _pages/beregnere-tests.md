@@ -4,7 +4,7 @@ toc: true
 permalink: /beregnere-tests/
 redirect_from:
   - /omregn/
-excerpt: "Vi har lavet en lang række beregnere og tests, som du kan bruge i forbindelse med din træning. Se den samlede liste her."
+excerpt: "Få overblik over de bedste tests og beregnere til træning og sundhed. Test din kondition, styrke og sundhedsprofil med vores værktøjer og guides."
 description: "Få overblik over de bedste tests og beregnere til træning og sundhed. Test din kondition, styrke og sundhedsprofil med vores værktøjer og guides."
 title: &title "Tests & Beregnere"
 seo_title: "Tests & Beregnere - Find din form og sundhed | Motionsplan"
@@ -14,11 +14,11 @@ header:
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-download'></i> Tests"
+    - label: "<i class='fas fa-stopwatch'></i> Tests"
       url: "/tests/"
-    - label: "<i class='fas fa-download'></i> Beregnere"
+    - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
-    - label: "<i class='fas fa-download'></i> Værktøjer"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
@@ -28,21 +28,29 @@ feature_row_navigation:
     title: "Tests"
     excerpt: "Udforsk fysiske tests, der måler din kondition, styrke og præstation. Følg din udvikling og se din fremgang."
     url: "/tests/"
-    btn_label: "Gå til tests"
+    btn_label: "<i class='fas fa-stopwatch'></i> Gå til tests"
     btn_class: "btn--success"
   - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Beregnere"
     title: "Beregnere"
     excerpt: "Brug vores beregnere til at få indsigt i din forbrænding, kondital og BMI. Få detaljeret information om din sundhed."
     url: "/beregnere/"
-    btn_label: "Gå til beregnere"
+    btn_label: "<i class='fas fa-calculator'></i> Gå til beregnere"
     btn_class: "btn--success"
   - image_path: https://images.unsplash.com/photo-1546016366-bf061374d54e?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
     alt: "Værktøjer"
     title: "Værktøjer"
     excerpt: "Test din mentale og fysiske sundhed. Få indsigt i dine styrker og opdag områder, der kan forbedres."
     url: "/vurderingsvaerktoejer/"
-    btn_label: "Gå til værktøjer"
+    btn_label: "<i class='fas fa-tools'></i> Gå til værktøjer"
+    btn_class: "btn--success"
+feature_row_police_test:
+  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
+    alt: "Politiets optagelsesprøven"
+    title: "Politiets optagelsesprøve"
+    excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
+    url: "/politiets-optagelsesproeve/"
+    btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
 
@@ -230,3 +238,7 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
 
 [Se alle tests](/tests/){: .btn .btn--success .btn--center }
 </div>
+
+## Flere tests og prøver
+
+{% include feature_row id="feature_row_police_test" type="left" %}

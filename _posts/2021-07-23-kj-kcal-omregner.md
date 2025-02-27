@@ -1,5 +1,5 @@
 ---
-title: &title "Omregner fra KJ til kcal til kJ"
+title: &title "Omregner fra kJ til kcal til kJ"
 seo_title: "KJ til kcal til kJ | Hurtig automatisk udregning"
 permalink: /kj-kcal-omregner/
 language: da
@@ -8,10 +8,17 @@ header:
   teaser: https://images.unsplash.com/photo-1611077544695-c7942e060c4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Kost
+  - Beregnere
+  - Kalorieberegnere
 tags:
   - beregner
   - kalorieberegner
+  - kost & ernæring
+meta:
+  name: Omregner fra kJ til kcal
+  equipment: ingen
+  measures: omregner energi
+  type: kalorieberegner
 last_modified_at: 2021-07-28T10:14:14Z
 toc: true
 faq:

@@ -10,7 +10,7 @@ header:
   teaser: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
   - Fedtprocent
 tags:
   - fedtprocent

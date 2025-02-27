@@ -11,8 +11,7 @@ header:
 language: da
 category:
   - Træning
-  - Skadesforebyggelse
-  - Styrketræning
+  - Skader & Skadesforebyggelse
 tags:
   - styrketræning
   - skadesforebyggelse

@@ -8,7 +8,7 @@ header:
   overlay_filter: 0.2
   caption: *title
 category:
-  - Ernæring
+  - Kost & Ernæring
 tags:
   - ernæring
   - kost
@@ -16,6 +16,11 @@ tags:
   - beregner
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
+meta:
+  name: Udregn fedtenergiprocent i mad
+  equipment: ingen
+  measures: fedtenergiprocent
+  type: kost & ernæring
 ---
 
 Når du skal have styr på, hvor meget fedt, der er i mad, så skal du udregne fedtenergiprocenten. Jeg har lavet en beregner til at udregne fedtenergiprocenten, og så har jeg skrevet en lidt grundigere forklaring af hvad fedtprocent og fedtenergiprocent betyder, når man snakker om mad.

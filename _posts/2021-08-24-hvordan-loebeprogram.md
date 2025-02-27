@@ -173,7 +173,7 @@ Hvis du har en [maxpuls](/test-max-puls/) på 200 slag/min og formår at flytte 
 
 Din anaerobe tærskel kan du finde ved fx at løbe fx 30-60 minutter med maksimal hastighed. Gennemsnitspulsen på distancen vil formentlig være tæt på din anaerobe tærskel.
 
-Når du udfører træning af den anaerobe tærskel skal du ramme en belastning, der ligger omkring din mælkesyretærskel. Den anaerobe tærskel er forskellig fra person til person, men typisk ligger den i pulsbelastningen mellem 70-90% af pulsreserven.
+Når du udfører træning af den anaerobe tærskel skal du ramme en belastning, der ligger omkring din mælkesyretærskel. Den anaerobe tærskel er forskellig fra person til person, men typisk ligger den i pulsbelastningen mellem 70-90% af [pulsreserven](/pulsreserve/).
 
 Lad os kigge på nogle metoder til at arbejde med den anaerobe tærskel: tempoløb, tærskel-intervaller eller tærskel-bakkeløb.
 

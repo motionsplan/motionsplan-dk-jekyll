@@ -8,6 +8,7 @@ header:
   caption: *title
   alt: "Photo by bantersnaps on Unsplash"
 category:
+  - Træning
   - Eksplosivitet
 tags:
   - begreb

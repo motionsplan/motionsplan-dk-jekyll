@@ -8,8 +8,8 @@ header:
   teaser: https://images.unsplash.com/photo-1583532452513-a02186582ccd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Ernæring
-  - Kostilskud
+  - Kost & Ernæring
+  - Kosttilskud
 tags:
   - kost
   - protein

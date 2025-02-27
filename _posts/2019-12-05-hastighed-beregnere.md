@@ -13,6 +13,11 @@ tags:
   - løb
   - cykling
   - beregner
+meta:
+  name: Beregn hastighed i km/t, m/s og min/km
+  equipment: ingen
+  measures: hastighed og pace
+  type: løb, gang og cykling
 last_modified_at: 2021-05-30T12:14:14Z
 toc: true
 feature_row:

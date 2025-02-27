@@ -11,10 +11,16 @@ header:
   teaser: https://images.unsplash.com/photo-1528476283021-40211aa6e14c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Sundhed
+  - Beregnere
 tags:
   - højde
   - beregner
+  - kropssammensætning
+meta:
+  name: Beregn fremtidig højde
+  equipment: ingen
+  measures: højde
+  type: kropssammensætning
 ---
 
 Er du en af dem, der stiller spørgsmålet: Hvor høj bliver jeg? Du kan udregne, hvor høj du bliver på baggrund af din mors og fars højde. Læs her hvordan.

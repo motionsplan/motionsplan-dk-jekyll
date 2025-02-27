@@ -10,7 +10,7 @@ header:
   caption: *title
   overlay_filter: 0.3
 category:
-  - Skader
+  - Skader & Skadesforebyggelse
 tags:
   - skadesbehandling
 last_modified_at: 2022-11-01T07:14:14Z

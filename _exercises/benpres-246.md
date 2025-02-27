@@ -46,15 +46,9 @@ video:
   provider: youtube
   id: yIoDxPDVLI4
 feature_row:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Relax_Fitness_Leg_Press_PL1008(1).jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-leg-press-pl1008/
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Relax_PL1211_Seated_Leg_Press.w774.h774.fill.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/96-maskiner-til-bentraening/1557-relax-seated-leg-press/
     title: Siddende benpres
-    btn_label: Tjek pris
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Relax_PL1211_Seated_Leg_Press.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-seated-leg-press/
-    title: 45 graders extension
     btn_label: Tjek pris
     btn_class: btn--success
     rel: sponsored nofollow noopener

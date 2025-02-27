@@ -9,7 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1633009824205-51c01df4b577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
 category:
-  - Test
+  - Tests
 tags:
   - beregner
   - kropskomposition
@@ -21,6 +21,7 @@ meta:
   name: Talje-højde-ratio
   equipment: målebånd
   measures: talje-højde-ratio
+  type: kropskomposition
 ---
 
 Talje-højde-forholdet siger ifølge studier noget om din risiko for livsstilssygdomme. Det er let at måle omkredsen på taljen og din højde kender du sikkert allerede. Her kigger vi på, hvad det betyder for din sundhed.

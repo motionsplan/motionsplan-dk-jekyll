@@ -11,13 +11,18 @@ header:
   caption: *title
   overlay_filter: 0.1
 category:
-  - Krop & Sundhed
   - Beregnere
+  - Kropskomposition
 tags:
   - vægt
   - beregner
   - kropskomposition
   - featured
+meta:
+  name: Idealvægt for mænd og kvinder
+  equipment: målebånd
+  measures: idealvægt
+  type: kropskomposition
 last_modified_at: 2022-08-22T08:14:14Z
 toc: true
 faq:

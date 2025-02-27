@@ -16,6 +16,11 @@ tags:
   - løbsberegner
   - løbe beregner
   - løb
+meta:
+  name: Jack Daniels formel til beregning af løbetider
+  equipment: ingen
+  measures: løbetid
+  type: løb
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
     url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835

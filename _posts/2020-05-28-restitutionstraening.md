@@ -74,7 +74,7 @@ Når du løber, så har kroppen brug for tid til at bygge sig op igen bagefter. 
 
 Igen skal du holde intensiteten lav på løbeturen, så du kan udnytte de gode effekter ved at kroppen kommer i gang, men du ikke introducerer ny træthed i kroppen. Jeg kan godt lide at bruge pulsen for at sikre mig, at jeg ikke løber for hurtigt, men du kan også tage udgangspunkt i fx [Borg-skalaen](/borg-skala/) til subjektiv at vurdere, hvornår du arbejder i restitutionszonen.
 
-Du kan fx arbejde med 50-60% af din [pulsreserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Et restitutionsløb kan vare fra 20 minutter til 60 minutter alt efter din nuværende form. Vælg gerne en rute, hvor underlaget måske er lidt blødere. Du kan læse mere om [løb og løbetræning](/loebesiden/).
+Du kan fx arbejde med 50-60% af din [pulsreserve](/pulsreserve/). Et restitutionsløb kan vare fra 20 minutter til 60 minutter alt efter din nuværende form. Vælg gerne en rute, hvor underlaget måske er lidt blødere. Du kan læse mere om [løb og løbetræning](/loebesiden/).
 
 Læs: [Restitutionsløb: Løb langsomt for at løbe hurtigere](/restitutionsloeb/)
 {: .notice }

@@ -12,6 +12,11 @@ header:
   teaser: https://images.unsplash.com/photo-1706029831332-67734fbf73d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
+  actions:
+    - label: "<i class='fas fa-calculator'></i> Beregnere"
+      url: "/beregnere/"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 feature_row_mental_tests:
   - image_path: https://images.unsplash.com/photo-1546016366-bf061374d54e?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
@@ -30,7 +35,7 @@ feature_row_test_fat_percent:
     btn_label: "Test din fedtprocent"
     btn_class: "btn--success"
 feature_row_police_test:
-  - image_path: "https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10"
+  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
     alt: "Politiets optagelsesprøven"
     title: "Politiets optagelsesprøve"
     excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
@@ -42,17 +47,11 @@ classes: wide
 
 Tests hjælper dig med at få en præcis måling af din fysiske form og træningsfremgang. Uanset om du er løber, cyklist, eller vil teste din generelle kondition, finder du den rette test her.
 
+De fleste tests indeholder et værktøj, der hjælper dig med at finde resultaterne. Du kan også tjekke [vores side med beregnere](/beregnere/).
+
 ## Oversigt over alle tests
 
-{% assign site_posts = site.posts | where: "tags", "test" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-| Test | Måler | Udstyr | Hårdhed | Målgruppe |
-|------|-------|--------|------|---------|-----------|
-  {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.equipment }} | {{ post.meta.max }} | {{ post.meta.target | default: "voksne" }} |
-  {%- endfor %}
-{% endif %}
+{% include table/filter-table-tests.html %}
 
 ***
 

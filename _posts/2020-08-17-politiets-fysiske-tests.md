@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/blog/politiets-fysiske-test.jpeg
   caption: *title
 category:
-  - Test
+  - Tests
 tags:
   - tests
   - optagelsesprøve

@@ -11,6 +11,12 @@ header:
   caption: *title
 category:
   - Beregnere
+  - Kalorieberegnere
+meta:
+  name: Dagligt energiforbrug og energibehov
+  equipment: ingen
+  measures: dagligt energiforbrug
+  type: energiforbrug
 tags:
   - stofskifte
   - hvilestofskifte

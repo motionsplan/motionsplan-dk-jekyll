@@ -9,11 +9,12 @@ header:
   caption: "Kan det passe, at Ude & Hjemmes slankekur er så effektiv?"
 language: da
 category:
-  - Sundhed
+  - Kost & Ernæring
   - Vægttab
 tags:
   - vægttab
   - slankekur
+  - sundhed
 ---
 
 Jeg har lige læst om en utrolig effektiv slankekur. Faktisk må det være den bedste slankekur i verden. Slankekuren har i hvert fald et helt utroligt vægttab på meget kort tid.

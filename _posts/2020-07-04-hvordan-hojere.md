@@ -10,7 +10,7 @@ header:
   caption: *title
   alt: Photo by Jack Sloop on Unsplash
 category:
-  - Viden om
+  - Kropskomposition
 tags:
   - højde
   - vækst

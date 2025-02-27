@@ -12,27 +12,22 @@ header:
   teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
+  actions:
+    - label: "<i class='fas fa-stopwatch'></i> Tests"
+      url: "/tests/"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
 ---
 
-{{ page.excerpt }}
+Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til din træning og sundhed her.
 
-Jeg har samlet alle beregnere og tests her på siden. Til de fleste tests hører der også en beregner, der kan give dig resultatet på testen. Men der er også beregnere, som bare hjælper med at omregne ting eller udregne fx ting om din kost eller sundhed.
-
-Du kan læse mere om [alle tests til træning her](/tests/).
+Beregnerne hjælper dig med at omregne fra en enhed til en anden, eller udregne fakta om din kost eller sundhed. Du kan også finde [alle tests til træning her](/tests/).
 
 ## Oversigt over alle beregnere
 
-{% assign site_posts = site.posts | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-| Test | Måler | Udstyr |
-|------|-------|--------|
-  {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.equipment }} |
-  {%- endfor %}
-{% endif %}
+{% include table/filter-table-beregnere.html %}
 
 ## BMI beregner, taljemål og idealvægt
 

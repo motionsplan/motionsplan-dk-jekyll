@@ -19,7 +19,8 @@ toc: true
 classes: wide
 category:
   - Træning
-  - Træningsformer
+tags:
+  - træningsformer
 breadcrumbs: true
 feature_row_heat_training:
   - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10

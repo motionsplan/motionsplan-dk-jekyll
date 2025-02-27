@@ -9,7 +9,8 @@ header:
   teaser: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
   caption: *title
 category:
-  - Test
+  - Tests
+  - Cykling
 tags:
   - test
   - anaerob

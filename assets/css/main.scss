@@ -325,8 +325,8 @@ details.references[open] ul::before {
   background-color: #eee;
   padding: 1.5em;
   margin: 1.5em 0;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #ccc;
+  border-bottom: 6px solid #ccc;
 }
 
 .profile-image {

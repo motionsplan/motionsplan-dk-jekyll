@@ -15,8 +15,7 @@ tags:
   - løb
 last_modified_at: 2021-08-22T23:14:14Z
 toc: true
-classes:
-  - wide
+classes: wide
 ---
 
 Det er en god ide at have et løbeprogram, hvis du vil ordentligt i gang med at løbe. Det er motiverende, du sikrer dig fremgang, og i et godt program undgår du også irriterende overbelastningsskader.

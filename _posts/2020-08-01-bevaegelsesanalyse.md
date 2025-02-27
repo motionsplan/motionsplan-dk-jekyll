@@ -9,13 +9,14 @@ header:
   teaser: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Træningslære
+  - Anatomi
 tags:
   - træning
   - bevægelsesanalyse
   - anatomi
   - bevægelsesplaner
   - led
+  - træningslære
 feature_row:
   - url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing
     image_path: /assets/images/blog/movement-analysis.png

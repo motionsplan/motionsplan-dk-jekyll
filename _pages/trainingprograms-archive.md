@@ -33,6 +33,14 @@ feature_row_choose_running_program:
     url: "/loebeprogrammer/"
     btn_label: "Find dit program"
     btn_class: "btn--info"
+feature_row_good_program:
+  - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
+    alt: "Hvad er et godt styrketræningsprogram?"
+    title: "Hvad er et godt styrketræningsprogram?"
+    excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
+    url: "/vaelg-traeningsprogram/"
+    btn_label: "Få svarene"
+    btn_class: "btn--info"
 ---
 
 Et godt træningsprogram giver struktur, motivation og de bedste forudsætninger for at nå dine mål. Uanset om du vil blive stærkere, løbe hurtigere eller forbedre din udholdenhed på cyklen, er et veltilrettelagt program afgørende. 
@@ -56,6 +64,30 @@ Her finder du træningsprogrammer til forskellige formål og niveauer – fra ny
 {% endif %}
 
 [Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .btn--center }
+
+</div>
+
+***
+
+## Træningsprogrammer til styrke
+
+{% include feature_row id="feature_row_good_program" type="left" %}
+
+## Populære styrketræningsprogrammer
+
+Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
+
+{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
 

@@ -24,7 +24,7 @@ tags:
   - indirekte test
   - gangtest
   - test
-  - beregner
+  - testberegner
   - gang
 last_modified_at: 2022-05-06T23:14:14Z
 ---

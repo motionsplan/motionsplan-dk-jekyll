@@ -139,7 +139,7 @@ Når du arbejder meget intensivt, så vil musklerne efterhånden blive trætte, 
 
 Når du træner med højintensitet under træningen. At træne for at forbedre den anaerobe tærskel vil jeg ikke umiddelbart betegne som anaerob træning, men træning af den anaerobe tærskel er meget vigtig for din præstation. Den anaerobe tærskel er der, hvor din organer og muskler ikke længere kan nå at fjerne den mælkesyre, der dannes i musklerne.
 
-Du kan fx lave en test, hvor du finder ud af, hvad din puls er på den anaerobe tærskel. Derefter kan du bruge pulsen som rettesnor for, hvad din anaerobe tærskel er. Læs mere om den [anaerobe tærskel her](/anaerobe-taerskel/). Hvis du arbejder med [pulstræning og intensitet i forhold til puls](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), så ligger den anaerobe tærskel på omkring 80% af pulsreserven. Men at finde sin anaerobe tærskel kræver, at du selv laver en test.
+Du kan fx lave en test, hvor du finder ud af, hvad din puls er på den anaerobe tærskel. Derefter kan du bruge pulsen som rettesnor for, hvad din anaerobe tærskel er. Læs mere om den [anaerobe tærskel her](/anaerobe-taerskel/). Hvis du arbejder med [pulstræning og intensitet i forhold til puls](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), så ligger den anaerobe tærskel på omkring 80% af [pulsreserven](/pulsreserve/). Men at finde sin anaerobe tærskel kræver, at du selv laver en test.
 
 ## Anaerob træning er for alle
 

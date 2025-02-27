@@ -11,11 +11,16 @@ header:
   caption: Beregn dit daglige energibehov og energiforbrug
 category:
   - Beregnere
-  - Ernæring
+  - Kalorieberegnere
 tags:
   - stofskifte
   - kalorieberegner
   - beregner
+meta:
+  name: BMR-beregner
+  equipment: ingen
+  measures: hvilestofskifte
+  type: energiforbrug
 last_modified_at: 2020-08-31T23:14:14Z
 toc: true
 keywords:

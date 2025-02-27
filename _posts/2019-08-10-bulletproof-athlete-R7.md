@@ -10,7 +10,7 @@ tags:
   - anmeldelse
 category:
   - Styrketræning
-  - Program
+  - Styrketræningsprogrammer
 last_modified_at: 2019-03-10T08:39:32Z
 excerpt: "Mike Robertson har udviklet programmet Bulletproof Athlete, som er bygget op efter princippet R7"
 ---

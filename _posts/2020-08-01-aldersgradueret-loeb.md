@@ -14,6 +14,11 @@ tags:
   - beregner
   - alder
   - løb
+meta:
+  name: Aldersgraduerede løbetider
+  equipment: ingen
+  measures: løbetid
+  type: løb
 ## Aldersjusteret
 ## Flere løbeberegnere
 ---

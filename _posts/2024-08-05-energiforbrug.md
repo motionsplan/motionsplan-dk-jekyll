@@ -16,6 +16,12 @@ tags:
   - fysiologi
   - cykling
   - beregner
+meta:
+  name: Energiforbrug og effektivitet i aktivitet
+  equipment: ingen
+  measures: energiforbrug og bevægelsesøkonomi
+  target: voksne
+  type: cykling og løb
 last_modified_at: 2024-08-04T10:14:14Z
 ---
 
