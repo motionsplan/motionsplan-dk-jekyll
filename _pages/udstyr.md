@@ -1,8 +1,10 @@
 ---
 layout: single
-title: Inspiration
+title: Udstyr & Teknologi
 excerpt: "Motionsplan har samlet alt den bedste inspiration til styrketræning, konditionstræning, cardio, yoga, løb og træning."
-permalink: /inspiration/
+permalink: /udstyr/
+redirect_from:
+  - /inspiration/
 author_profile: true
 classes: wide
 feature_row:
@@ -78,8 +80,33 @@ breadcrumbs: true
 
 ## Leder du efter udstyr?
 
-Så 
+{% assign site_posts = site.posts | where: "tags", "udstyr" | sort: "date" %}
 
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Gode butikker til indkøb af udstyr
+
+{% assign site_posts = site.posts | where: "tags", "butikker" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Flere anbefalinger
 
 På denne side har jeg samlet alle mine anbefalinger og de ting til træning, jeg selv bruger.
 
@@ -107,6 +134,4 @@ På [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&banneri
 
 Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb/) og [bøger om træning](/traeningsboeger-boeger-om-traening/). Jeg har også skrevet et forslag til [cykelbøger](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).
 
-## Samarbejdspartnere (reklamelinks)
-
-{% include feature_row rows=site.data.advertisers %}
+{% include gallery images=site.data.advertisers layout="fifth" headline="Samarbejdspartnere (reklamelinks)" %}

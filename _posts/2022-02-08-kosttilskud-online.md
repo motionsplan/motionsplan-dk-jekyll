@@ -11,6 +11,7 @@ category:
   - Kosttilskud
 tags:
   - kosttilskud
+  - butikker
 last_modified_at: 2022-01-27T22:21:26Z
 shops:
   - title: Noutron

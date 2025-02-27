@@ -12,6 +12,7 @@ category:
   - Discgolf
 tags:
   - sport
+  - butikker
 last_modified_at: 2022-09-24T10:21:26Z
 faq:
   - question: Hvad er de bedste discs for en begynder?
