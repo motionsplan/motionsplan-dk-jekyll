@@ -72,10 +72,8 @@ Det er vigtigt at være opmærksom på, at den estimerede fedtprocent ikke er he
 
 Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI til børn og unge](/bmi-beregner-boern-unge-teenagere/).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 1988. “[Skinfold Equations for Estimation of Body Fatness in Children and Youth](https://www.researchgate.net/publication/19931264_Skinfold_Equations_for_Estimation_of_Body_Fatness_in_Children_and_Youth)”. Human Biology 60 (5): 709–23.
 - Boye, Kai R., Triantafillia Dimitriou, Friedrich Manz, Eckhard Schoenau, Christina Neu, Stefan Wudy, og Thomas Remer. 2002. “Anthropometric Assessment of Muscularity during Growth: Estimating Fat-Free Mass with 2 Skinfold-Thickness Measurements Is Superior to Measuring Midupper Arm Muscle Area in Healthy Prepubertal Children”. The American Journal of Clinical Nutrition 76 (3): 628–32. <https://doi.org/10.1093/ajcn/76.3.628>.

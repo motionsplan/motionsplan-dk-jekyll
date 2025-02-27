@@ -101,10 +101,8 @@ Jeg har skrevet endnu mere om de fysiologiske tilpasninger til konditionstrænin
 
 Jeg har også skrevet om, hvor hurtigt musklemasse og muskelstyrke kan [vokse]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}) eller [forsvinde]({% link _posts/2020-06-23-atrofi-hvor-hurtigt.md %}) og de [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer om {{ page.title }}</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Hatle, Håvard, Per Kristian Støbakk, Harald Edvard Mølmen, Eivind Brønstad, Arnt Erik Tjønna, Sigurd Steinshamn, Eirik Skogvoll, Ulrik Wisløff, Charlotte Björk Ingul, og Øivind Rognmo. 2014. “Effect of 24 Sessions of High-Intensity Aerobic Interval Training Carried out at Either High or Moderate Frequency, a Randomized Trial”. Redigeret af Conrad P. Earnest. PLoS ONE 9 (2): e88375. <https://doi.org/10.1371/journal.pone.0088375>.
 - Saltin, B., G. Blomqvist, J. H. Mitchell, R. L. Johnson, K. Wildenthal, og C. B. Chapman. 1968. “Response to Exercise after Bed Rest and after Training”. Circulation 38 (5 Suppl): VII1-78.

@@ -1,0 +1,18 @@
+{% assign concept = site.data.concepts[include.concept] %}
+{% assign variations = concept.variations %}
+
+{% if include.variation %}
+  {% assign index = include.variation | plus: 0 %}
+{% else %}
+  {% assign index = variations | size | rand %}
+{% endif %}
+
+{% assign used_index = index | minus: 1 %}
+
+{% assign selected_variation = variations[used_index] %}
+
+<details class="concept">
+  <summary>{{ selected_variation.title }}</summary>
+  
+  {{ selected_variation.excerpt }}{% if selected_variation.btn_label %} <a href="{{ selected_variation.url | absolute_url  }}" class="read-more-link">{{ selected_variation.btn_label }}</a>{% endif %}{% if include.context %}{{ include.context }}{% endif%}
+</details>

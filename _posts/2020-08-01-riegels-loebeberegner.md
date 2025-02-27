@@ -41,10 +41,8 @@ Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold
 
 Husk at [Jack Daniels Running Formula og løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) er mere avanceret og baseret på nyere data fra løbere.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Riegel PS. Time predicting Runner’s World Magazine. 1977
 - [Prediction and Quantification of Individual Athletic Performance of Runners](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4919094). Duncan A. J. Blythe og Franz J. Király

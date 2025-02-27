@@ -67,10 +67,8 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 
 {% include video provider="youtube" id="iiQK-P_KWLA" %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - [Programanmeldelse: German Volume Training](https://andersnedergaard.dk/kropblog/programanmeldelse-german-volume-training/)
 - [German Volume Training](https://www.bodybuilding.com/content/german-volume-training-programs.html)

@@ -103,10 +103,8 @@ Baseret på Gibbons (2001) så kan du overveje at lave to tilvænningsforsøg og
 
 Validiteten for testen vurderes som rigtig god i mange studier ([se physio-pedia.com](https://www.physio-pedia.com/Six_Minute_Walk_Test_/_6_Minute_Walk_Test)).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se flere referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. <https://doi.org/10.1164/ajrccm.158.5.9710086>.
 - Enright, Paul L. 2003. “The Six-Minute Walk Test”. Respiratory Care 48 (8): 783–85.

@@ -95,10 +95,8 @@ At man ikke har kunnet bevise effekten videnskabeligt er ikke det samme, som at 
 
 Selv om de videnskabelige beviser for fordelene nedvarmningsøvelser ikke er entydige, er der ingen skade ved at udføre en sådan. Faktisk finder mange atleter, at en nedkøling hjælper dem med at slappe af og hygge sig efter en konkurrence eller et hårdt træningspas. Så hvis du har lyst til at slappe af efter din træning, så kan du roligt afjogge efter træning og kamp!
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - van Hooren & Peake (2018): [Do We Need a Cool-Down After Exercise? A Narrative Review of the Psychophysiological Effects and the Effects on Performance, Injuries and the Long-Term Adaptive Response](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5999142/)
 - Wiewelhove et al. (2017): Regular active recovery during a high-intensity interval-training mesocycle does not attenuate training adaptation.

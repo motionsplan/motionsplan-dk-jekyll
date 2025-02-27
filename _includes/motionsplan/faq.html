@@ -1,7 +1,19 @@
+{% assign faq = include.faq | default: page.faq %}
 {% assign heading = include.heading | default: 3 %}
-{% for item in page.faq %}
+{% for item in faq %}
 <details class="faq">
 <summary><h{{heading}}>{{ item.question }}</h{{heading}}></summary>
 {{ item.answer | markdownify}}
 </details>
 {% endfor %}
+
+{% if faq.size > 0 %}
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{% for item in faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{item.answer | markdownify | remove: '<p>' | remove: '</p>' | replace: '"', "'" | jsonify }}}}{% if forloop.last == false %},{% endif %}{% endfor %}]
+    }
+</script>
+{% endif %}

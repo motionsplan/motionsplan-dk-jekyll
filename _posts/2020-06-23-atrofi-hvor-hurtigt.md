@@ -174,10 +174,8 @@ Jeg vil dog på ingen måde anbefale en pause, hvis du er kommet op i den alder.
 
 Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysiologiske tilpasninger er ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}) eller [hvor hurtigt muskler vokser]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Andersen, Lars L., Jesper L. Andersen, S. Peter Magnusson, Charlotte Suetta, Jørgen L. Madsen, Lasse R. Christensen, og Per Aagaard. 2005. “Changes in the Human Muscle Force-Velocity Relationship in Response to Resistance Training and Subsequent Detraining”. Journal of Applied Physiology (Bethesda, Md.: 1985) 99 (1): 87–94. <https://doi.org/10.1152/japplphysiol.00091.2005>.
 - Bonaldo, Paolo, og Marco Sandri. 2013. “Cellular and molecular mechanisms of muscle atrophy”. Disease Models & Mechanisms 6 (1): 25–39. <https://doi.org/10.1242/dmm.010389>.

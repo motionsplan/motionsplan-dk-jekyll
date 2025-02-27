@@ -138,10 +138,8 @@ Du kan læse mere om, hvordan du kan skrue arbejds- og pauseperioder sammen i mi
 
 {% include motionsplan/faq.html %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Braun, W. A., W. E. Hawthorne, og M. M. Markofski. 2005. “Acute EPOC Response in Women to Circuit Training and Treadmill Exercise of Matched Oxygen Consumption”. European Journal of Applied Physiology 94 (5–6): 500–504. <https://doi.org/10.1007/s00421-005-1383-7>.
 - Riegler, Michelle, G. Stotz, Kaitlyn Fitzgerald, Christian K. Munoz, Jamie Thornton Lewis, Sebastian Ring, og Todd A. Astorino. 2017. “Acute Responses to the 7-Minute Workout”. Journal of strength and conditioning research. <https://doi.org/10.1519/JSC.0000000000002073>.

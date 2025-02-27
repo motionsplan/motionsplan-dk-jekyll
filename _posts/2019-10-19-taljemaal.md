@@ -22,6 +22,7 @@ meta:
   name: Taljemål
   equipment: målebånd
   measures: taljemål
+  type: kropskomposition
 ---
 
 Dit taljemål er en enkel måling, som kan sige noget om din sundhed. Studier har vist, at der er en sammenhæng mellem taljemålet for mænd og kvinder og livsstilssygdomme.
@@ -137,10 +138,8 @@ I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i d
 Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur](/slankekur/), fordi du skal opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample.” BMJ: British Medical Journal 311 (7017): 1401. <https://doi.org/10.1136/bmj.311.7017.1401>.
 - Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. <https://doi.org/10.1002/j.1550-8528.1996.tb00267.x>.

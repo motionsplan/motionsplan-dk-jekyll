@@ -128,10 +128,8 @@ Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at 
 
 Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: [Hvor meget vand skal du drikke om dagen?]({% link _posts/2020-12-14-hvor-meget-vand-om-dagen.md %}).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Lee, Jee Young, Han Sung Ryu, Sung Soo Yoon, Eun Hye Kim, og Seong Woo Yoon. 2019. “Extracellular-to-Intracellular Fluid Volume Ratio as a Prognostic Factor for Survival in Patients With Metastatic Cancer”. Integrative Cancer Therapies 18 (maj). <https://doi.org/10.1177/1534735419847285>.
 - Watson, P. E., I. D. Watson, og R. D. Batt. 1980. “Total Body Water Volumes for Adult Males and Females Estimated from Simple Anthropometric Measurements”. The American Journal of Clinical Nutrition 33 (1): 27–39. <https://doi.org/10.1093/ajcn/33.1.27>.

@@ -1,0 +1,31 @@
+{% assign heading = include.heading | default: 3 %}
+{% for item in site.data.concepts %}
+{% assign concept = item[1] %}
+
+{% if concept.type == include.type %}
+<details class="concept">
+<summary><h{{heading}}>{{ concept.title }}</h{{heading}}></summary>
+{{ concept.excerpt }}{% if concept.btn_label %} <a href="{{ concept.url | absolute_url  }}" class="read-more-link">{{ concept.btn_label }}</a>{% endif %}
+</details>
+{% endif %}
+{% endfor %}
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+      {% for item in site.data.concepts %}{% assign concept = item[1] %}
+      {
+          "@type": "Question",
+          "name": "{{ concept.faq_title | jsonify }}",
+          "category": "{{ concept.category | jsonify }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ concept.excerpt | markdownify | remove: '<p>' | remove: '</p>' | replace: '"', "'" | jsonify }}"
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+</script>

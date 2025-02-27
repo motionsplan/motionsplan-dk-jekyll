@@ -74,10 +74,8 @@ Når du har beregnet din fedtprocent, så kan du tjekke en [normal fedtprocent i
   {% endfor %}
 {% endif %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Golding, Lawrence A. 2000. Ymca Fitness Testing and Assessment Manual. 4. udg. Human Kinetics Publishers. Set 10. november 2019. <https://www.amazon.com/Ymca-Fitness-Testing-Assessment-Manual/dp/0736033165>.
 - Jackson, A. S., og M. L. Pollock. 2004. “[Generalized Equations for Predicting Body Density of Men. 1978](https://www.ncbi.nlm.nih.gov/pubmed/14748950)”. The British Journal of Nutrition 91 (1): 161–68.

@@ -1,9 +1,9 @@
 ---
-title: &title "Maxtest - test din one rep max (1RM) i styrketræning"
-seo_title: "Maxtest - hvordan laver du en 1RM-test i styrketræning"
-permalink: /rm-maxtest/
-description: "Lær, hvordan du sikkert og effektivt kan teste din One Rep Max (1RM) med en fysisk maxtest. Få en trin-for-trin guide til gennemførelse."
-excerpt: "Har du også lyst til at vide, hvad du kan løfte i styrketræning? Det kan du bruge en RM-test til. Her dykker vi ned i, hvor dan du laver en one rep max test."
+title: &title "Hvad er one rep max (1RM)?"
+seo_title: "Hvad er 1RM? Definition og brug i styrketræning"
+permalink: /1rm-one-rep-max/
+description: "Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå 1RM’s rolle i programmering og progression."
+excerpt: "Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå 1RM’s rolle i programmering og progression."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
@@ -13,6 +13,7 @@ meta:
   name: Maxtest i styrketræning
   measures: max styrke
   equipment: styrketræningsudstyr
+  type: styrketræning
 category:
   - Tests
   - Styrketræning
@@ -20,7 +21,7 @@ tags:
   - styrketræning
   - test
   - træningsplanlægning
-last_modified_at: 2025-02-10T07:14:14Z
+last_modified_at: 2025-02-18T07:14:14Z
 toc: true
 feature_row_sheet:
   - image_path: /assets/images/freebies/rmberegner.png
@@ -32,25 +33,24 @@ feature_row_sheet:
     btn_class: "btn--success"
     rel: nofollow noopener
 faq:
-  - question: Hvordan finder jeg min egen 1RM?
-    answer: "Du kan finde din 1RM på flere måder. Den mest præcise metode er at udføre en [1RM-test](/rm-maxtest/), hvor du gradvist øger vægten, indtil du når dit maksimale løft. Alternativt kan du bruge vores [1RM-beregner](/rm-beregner/) eller manuelt beregne den med en af de mest anvendte [1RM-formler](/1rm-formler/)."
-  - question: Hvad betyder RM, 1RM max og One Repetition Maximum?
-    answer: "**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. RM (Repetition Maximum) angiver den maksimale vægt, du kan løfte et bestemt antal gange, fx 5RM for den vægt, du maksimalt kan løfte fem gange. Kendskab til 1RM er nyttigt, hvis du følger et procentbaseret træningsprogram."
+  - question: Hvad er 1RM?
+    answer: "**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. Det bruges ofte til at måle maksimal styrke og til at tilpasse træningsprogrammer baseret på procentdele af 1RM."
+  - question: Hvorfor er det vigtigt at kende sin 1RM?
+    answer: "At kende sin 1RM gør det muligt at træne mere målrettet. Mange styrketræningsprogrammer angiver belastning i procent af 1RM, så du kan optimere din træning ud fra dine mål, hvad enten det er styrke, hypertrofi eller udholdenhed."
+  - question: Hvordan kan jeg finde min 1RM?
+    answer: "Du kan finde din 1RM på flere måder. Den mest præcise metode er en [1RM-test](/rm-maxtest/), hvor du gradvist øger vægten, indtil du når dit maksimale løft. Alternativt kan du estimere din 1RM med en af vores [1RM-formler](/1rm-formler/) eller ved hjælp af en [1RM-beregner](/rm-beregner/)."
+  - question: Kan jeg finde min 1RM uden at løfte maksimalt?
+    answer: "Ja, du kan estimere din 1RM ved at bruge en submaksimal test, hvor du løfter en lettere vægt til failure og bruger en [1RM-formel](/1rm-formler/) til at beregne din maksimale styrke. Du kan også bruge [Velocity Based Training (VBT)](/vbt/) eller en [RPE-baseret metode](/rpe/)."
+  - question: Hvilke faktorer påvirker 1RM?
+    answer: "Flere faktorer kan påvirke din 1RM, herunder teknik, træthed, ernæring, restitution og neurologisk tilpasning. Derfor kan din 1RM variere afhængigt af din dagsform og træningsniveau."
 ---
 
-At udføre en direkte test af din One Rep Max (1RM) giver det mest præcise billede af din maksimale styrke. Her gennemgår vi, hvordan du sikkert gennemfører en 1RM-test.
+One Repetition Maximum (1RM) refererer til den maksimale vægt, du kan løfte én gang i en given øvelse. 1RM er en central faktor i styrketræning og bruges til at beregne træningsintensitet
 
-Har du også lyst til at vide, hvad du kan løfte i styrketræning? Det kan du bruge en RM-test til. Her dykker vi ned i, hvor dan du laver en one rep max test.
+Du kan udføre en direkte test af din One Rep Max (1RM) for at få det præcise billede af din maksimale styrke, eller du kan lave nogle submaksimale tests.
 
-Du har sikkert også ofte lyst til at finde ud af, hvor stærk du er, når du styrketræner. En max-test har helt sikkert sin plads i træningen.
-
-Men du kan ikke max-teste hele tiden!
-
-- Så hvordan tester du din maksimale styrke uden, at det går ud over dine resultater?
-- Hvilke fordele og ulemper er der ved en max-test?
-- Hvad skal du tænke over med sikkerheden?
-
-Og når du nu ved hvor stærk du er, hvordan kan du så bruge resultatet i praksis?
+**Lær mere**: [Lær at lave en 1RM-test](/1rm-test/)
+{: .notice }
 
 {% include figure image_path="https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=10" alt="maxtest - RM-test i styrketræning" %}
 
@@ -72,106 +72,18 @@ RM-værdierne kan altså bruges som et udgangspunkt for planlægningen af dine t
 
 Hvis du tester din one rep max jævnligt, så har du også en indikation på, om du har oplevet fremgang i løbet af dit træningsprogram.
 
-## Hvordan laver jeg min egen RM-test?
+## Hvordan laver jeg min egen one rep max test?
 
-Du kan lave en RM-test på forskellige måder. Her gennemgår vi de mest relevante metoder.
+Der er forskellige måder at finde din one rep max på. Her har vi lavet en lille oversigt:
 
-### 1. Lav din egen max-test
+| Test | Fordele | Ulemper |
+|-|-|-|
+| 1. [Max-test](/1rm-test/) | Mest præcis | Tidskrævende. Kræver hjælpere. Risiko for skader. |
+| 2. [RM-beregner](/rm-beregner/) | Lettere. Du løfter submaksimalt. | Kan være lidt upræcis. Du skal kunne presse dig selv. |
+| 3. RPE-test | Lettere. Du løfter submaksimalt. Lille risiko for skader. | Kan være lidt upræcis. Du skal kunne mærke din præcise anstrengelse. |
+| 4. [Velocity Based 1RM-test](/vbt/) | Lav risiko for skader. | Du skal kunne løfte med maksimal hastighed i submaksimale løft. Du har brug for specialiseret udstyr. |
 
-Her tester du specifikt din 1RM. Du skal altså have den tungeste vægt på stangen, du netop kan løfte en gang.
-
-Hvis du gerne til teste 1RM, så skal du sørge for at lægge det ind i dit program.
-
-Det koster ganske enkelt for meget på den almindelige træning, hvis du for ofte tjekker din max.
-
-Men du har naturligvis lyst til at teste det, så være tålmodig og læs lidt videre, så du kan hvordan du kan få det til at passe ind i dit træningsprogram.
-
-### 2. Brug en RM-beregner
-
-Du kan beregne din one rep max med forskellige [1RM-formler](/1rm-formler/). Her laver du et løft med en submaksimal vægt så mange gange som muligt.
-
-**Vil du vide mere?** [De mest populære 1RM-formler](/1rm-formler/)
-{: .notice }
-
-Herefter du antallet af gentagelser og den løftede vægt ind i relevante RM-formler, og på den måde estimerer du din 1RM.
-
-Du kan bruge vores [1RM-udregner](/rm-beregner/), hvis du gerne vil slippe for selv at skulle taste formlerne ind på lommeregneren. Her kan du også finde et regneark, hvor formlerne er lagt ind.
-
-En RM-test med submaksimale vægte bliver mest præcist jo tættere du ligger på antallet af gentagelser ift. den RM-vægt, du gerne vil udregne.
-
-Eksempel:
-
-En 3RM være et bedre udgangspunkt for at estimere 1RM end en 10RM-test.
-
-[Prøv vores 1RM-beregner](/rm-beregner/){: .btn .btn--info }
-
-### 3. 1RM ud fra RPE
-
-Du kan bruge Rate of Perceived Exertion (RPE) til at estimere dit maksimale løft i styrketræning.
-
-Mike Tuchscherer fra [Reactive Training Systems](https://www.reactivetrainingsystems.com/) har lavet en [RPE-skala til styrketræning](/rpe/). En RPE på 10 betyder, at du ikke kan løfte vægten flere gange. En RPE på 9, at du har en gentagelse tilbage i tanken.
-
-Han bruger følgende RPE-tabel. Her kan du aflæse den estimerede intensitet i procent i forhold til dit maksimale løft.
-
-{% include figure image_path="/assets/images/blog/rpe-e1rm.png" caption="RPE, reps og procentvise anstrengelse" alt="RPE, reps og procentvise anstrengelse" %}
-
-Et eksempel:
-
-Du løfter 85 kg 4 gange. Du vurderer selv at du i hvert fald kunne have taget 1 gentagelse mere og og kun måske 2. Det betyder, at din RPE er 8,5.
-
-I tabellen står der 85% ud fra 4 gentagelser og RPE 8,5. Du har altså løftet omkring 85% af din max.
-
-Altså er din 1RM omkring ~100 kg.
-
-### 4. RM ud fra _bar speed_ og _velocity based _training_
-
-Mark Rippetoe skriver i den legendariske Starting Strength, at man kan bruge sine øjne som rettesnor for, hvad 1RM er. Når man kommer tættere på 1RM, så vil hastigheden på stangen blive langsommere.
-
-Husk dog stadig, at der kan være meget forskel på, hvordan folk løfter. Nogle styrkeløftere kan løfte deres maksimale løft med høj hastighed, hvor det udefra ser ud som om, at det næsten var et opvarmningsløft.
-
-Det understøtter forskningen.
-
-Jeg skriver mere om, hvordan du kan bruge [velocity based training](/vbt/). Der er efterhånden kommet en del hjælpemidler til at måle hastigheden på stangen, og det kan faktisk bruges direkte til at estimere 1RM.
-
-Du bør virkelig tjekke artiklen ud, hvis du vil lære mere om at bruge hastigheden på stangen til at lave en max-test, men også få fordelene af at kunne lave autoreguleret træning.
-
-## Hvordan laver jeg en max-test?
-
-Når du gerne vil lave en max-test, så er det godt at forberede sig tilstrækkeligt.
-
-Det gælder uanset om du vil teste med submaksimale løft eller med et decideret max-løft.
-
-Fordelen ved engang imellem at prøve omkring dit reelle max er, at du finder ud af, hvad kroppen rent faktisk kan - og du finder ud af, hvilke begræninger du bør arbejde med i det følgende træningsprogram.
-
-I denne video får du nogle råd til, hvordan du griber en RM-test an.
-
-{% include video provider="youtube" id="HhRDUYmIALU" %}
-
-Hvis du vil teste din max selv, så husk at **have styr på sikkerheden** ved at have _safety pins_ og _spottere_.
-
-Det gælder særligt ved squat og bænkpres, hvor der ikke er nogen vej væk.
-
-(Pro-tip: Lad være med at have låse på siderne af stangen i bænkpres, hvis du får brug for at skulle vippe den ned alligevel).
-
-Start med en ordentlig specifik [opvarmning til styrketræning](/opvarmning-styrketraening/).
-
-Husk at bygge din test op langsomt, før du hopper direkte til et 1RM-forsøg.
-
-Husk også rigeligt med pauser undervejs.
-
-Hvis du ikke har løftet max før, så bliver ud overrasket over, hvor længe det tager, inden kroppen er klar til maksimale løft. Du skal vente 5-10 minutter mellem de enkelte løft.
-
-Husk også at teknikken stadig er vigtig, selvom du gerne vil løfte tungt. Der er ikke så meget ved at squats pludselig bliver halve, eller at du ikke får bøjet armene i bænkpres.
-
-Jeg har skrevet et andet indlæg, der handler om, hvordan du [forbereder dig til en maxtest i styrketræning](/pap-post-activation-potentiation-1rm-maxtest/).
-
-## Skema og tabel med RM-værdier
-
-Du kan bruge dette skema over RM-værdier til at estimere dine egne træningsværdier.
-
-{% include figure image_path="/assets/images/blog/rm-beregner-tabel-absolute.png" caption="RM skema og tabel baseret på Brzyckis formel til beregning af 1RM." alt="rm skema og tabel over 1rm max" %}
-
-Hvis du vil have et endnu mere individualiseret bud på dine egne vægte, så kan du bruge 1RM-udregner.
+[Lær at lave din egen one rep max-test](/1rm-test/){: .btn .btn--success }
 
 ## Forbehold med RM-baserede træningsprogrammer
 
@@ -189,15 +101,13 @@ Det er nemlig for hårdt at løfte alle sæt med RPE 10.
 
 {% include motionsplan/faq.html %}
 
-## Konklusion
+## Konklusion  
 
-Der er både fordele og ulemper ved at max-teste. Hvis du jævnligt vil teste din styrke, så er den smarteste fremgangsmåde nok at bruge nogle af de submaksimale tests.
+1RM, eller **One Repetition Maximum**, er en vigtig måling af maksimal styrke og bruges ofte til at styre træningsprogrammer. Der er flere måder at finde sin 1RM på, afhængigt af ens erfaring og behov.  
 
-Du styrketræner for at blive stærkere. Derfor er det også sjovt at teste, hvor meget man kan løfte engang imellem.
+Hvis du vil finde din 1RM præcist, kan du udføre en fysisk [1RM-test](/rm-maxtest/). Hvis du foretrækker at estimere den, kan du bruge vores [1RM-beregner](/rm-beregner/) eller beregne den manuelt med en af de mest anvendte [1RM-formler](/1rm-formler/). Alternativt kan du estimere din 1RM baseret på **RPE**-skalaen i vores guide til [1RM & RPE](/rpe/) eller bruge **Velocity Based Training (VBT)** til at forudsige din maksimale styrke uden at løfte til failure – læs mere om [1RM & VBT](/vbt/).  
 
-Måske har du lyst til at [sammenligne din styrke med andre](/sammenligning-styrke/). Her kan du lære mere om sammenligning på tværs af køn og vægtklasser.
-
-Jeg synes også [strukturel balance i styrke](/strukturel-balance/) er spændende.
+Ved at vælge den rette metode til din situation kan du optimere din træning og få et mere præcist billede af din styrkeudvikling. 💪  
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

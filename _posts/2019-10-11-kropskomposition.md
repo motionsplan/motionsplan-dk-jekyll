@@ -145,10 +145,8 @@ InBody har lavet en fin video, der hurtigt gennemgår pointerne ift. kropskompos
 Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I min optik må du aldrig lade mere eller mindre nøjagtige tests og målinger definere, hvad du synes din [idealvægt](/idealvaegt/) skal være og overveje en [slankekur](/slankekur/). Bliv stærk, hurtig, udholdende i stedet, og så vil du blive stadig mere tilfreds med din krop.
 {: .notice .notice--info }
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide/)
 </details>

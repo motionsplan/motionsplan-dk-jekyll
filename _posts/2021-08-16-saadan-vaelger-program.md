@@ -124,10 +124,8 @@ Du behøver ikke være så bange for, hvilket træningsprogram du vælger. Du sk
 
 Langt de fleste får en god effekt af at sørge for at vælge et enkelt program i stedet for et kompliceret program. Jeg har skrevet [anmeldelser af styrketræningsprogrammer]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer om styrketræningsprogrammer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Effects of resistance training frequency on measures of muscle hypertrophy: a systematic review and meta-analysis. Sports Medicine, 46(11), 1689-1697.
 - Ochi, E., Maruo, M., Tsuchiya, Y., Ishii, N., Miura, K., & Sasaki, K. (2018). Higher training frequency is important for gaining muscular strength under volume-matched training. Frontiers in Physiology, 9.

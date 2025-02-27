@@ -1,15 +1,16 @@
 ---
-title: &title "4 mmol-grænsen: Hvad er den aerobe og anaerobe tærskel?"
+title: &title "4 mmol-grænsen: Hvad er den anaerobe tærskel?"
 permalink: /anaerobe-taerskel/
-last_modified_at: 2020-08-24T09:41:09Z
+last_modified_at: 2025-02-24T09:41:09Z
+description: "Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan du tester og forbedrer din tærskel for bedre præstation og udholdenhed."
+excerpt: "Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan du tester og forbedrer din tærskel for bedre præstation og udholdenhed."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
   teaser: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "4 mmol-grænsen: Hvad er den aerobe og anaerobe tærskel og mælkesyregrænsen?"
+  caption: "4 mmol-grænsen: Hvad er den anaerobe tærskel og mælkesyregrænsen?"
 category:
   - Fysiologi
-  - Kondition
 tags:
   - fysiologi
   - forbrænding
@@ -19,9 +20,13 @@ tags:
   - løb
 ---
 
-Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i [konditionstræning](/konditionstraening/) og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet anaerob tærskel, og hvordan det kan bruges i praksis? Mindre brugt er den aerobe tærskel, som jeg også berører i dette indlæg.
+Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i [konditionstræning](/konditionstraening/) og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet, og hvordan det kan bruges i praksis? 
 
-Hvad er den anaerobe tærskel? **Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved anaerobt arbejde med højere intensiteter.**
+Lad os dykke direkte ned i det.
+
+## Hvad er den anaerobe tærskel?
+
+**Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved anaerobt arbejde med højere intensiteter.**
 
 ## Aerob og anaerob tærskel ud fra laktat
 
@@ -39,6 +44,9 @@ Tærsklerne kan være beskrevet som LT1 og LT2:
 
 LT1 er defineret som den intensitet, hvor laktat i blodet begynder at stige over hvileniveauet. Der er altid mælkesyre i blodet på omkring 1 mmol/l. På den aerobe tærskel er det meste af forbrændingen aerob. Typisk sætter man LT1 til en grænse på omkring 2,0 - 2,2 mmol/l. Du kan arbejde rigtig længe omkring denne tærskel.
 
+**Lær mere**: [Alt om den aerobe tærskel](/aerobe-taerskel/)
+{: .notice }
+
 ### LT2 - Anaerob tærskel
 
 LT2 er på det tidspunkt, hvor der kommer en stigning i koncentrationen af laktat i blodet, når man sætter intensiteten op. På dette punkt kan kroppen - og særligt leveren - ikke længere bortskaffe den mælkesyre, der produceres i musklerne. Typisk ligger denne værdi mellem 2,5-5,5 mmol/l, men traditionelt har man sat den anaerobe tærskel ved 4,0 mmol/l.
@@ -52,20 +60,6 @@ Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx
 Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet. Derfor kan det være godt at have andre indikationer også.
 
 Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om den så flytter sig over tid.
-
-## Hvordan finder jeg den aerobe tærskel?
-
-Der er forskellige bud på, hvordan du kan finde den aerobe tærskel. Du kan naturligvis altid bestille en laboratorietest, men det har alle ikke råd til.
-
-Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde den **aerobe tærskel**.
-
-MAHR = 180 - alder + kategori
-
-Denne tærskel er udgangspunktet for Phil Maffetone-metoden. Det tal reviderer du så ud fra, hvilken kategori du hører til. Du kan se de forskellige kategorier i denne beregner.
-
-{% include calculator/calculate-maffetone-aerobic.html %}
-
-En standardberegning passer naturligvis ikke på alle mennesker. Maffetone foreslår, at dette tal er din aerobe tærskel. Det betyder, at det er den øvre grænse af zone 2. Så når du skal lave lavintensitetstræning, så skal du bare holde dig under dette tal.
 
 ## Hvordan tester jeg min anaerobe tærskel?
 
@@ -110,6 +104,12 @@ Træningen af den anaerobe tærskel skal primært forbedre kroppens evne til at 
 >
 > — <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
 
-San Millán argumenterer altså for, at en stor del af træningen skal foregå i [Zone 2](https://www.trainingpeaks.com/blog/why-triathletes-should-train-in-zone-2/). I denne zone arbejder vi under den anaerobe tærskel, men tættere på den aerobe tærskel.
+San Millán argumenterer altså for, at en stor del af træningen skal foregå i [Zone 2](https://www.trainingpeaks.com/blog/why-triathletes-should-train-in-zone-2/). I denne zone arbejder vi under den anaerobe tærskel, men tættere på den [aerobe tærskel](/aerobe-taerskel/).
+
+## Konklusion
+
+Den anaerobe tærskel er et afgørende punkt i træning, hvor kroppen ikke længere kan bortskaffe mælkesyre hurtigt nok, hvilket fører til træthed. Ved at forstå og træne omkring denne tærskel kan du forbedre din evne til at præstere ved høj intensitet og udskyde udmattelsen.
+
+Regelmæssig intervaltræning, laktatmålinger og pulsovervågning kan hjælpe dig med at optimere din anaerobe kapacitet og forbedre din samlede udholdenhed.
 
 Jeg har skrevet en mere grundig artikel om [mælkesyre](/maelkesyre-traening/), hvis du vil dykke endnu mere ned i emnet.

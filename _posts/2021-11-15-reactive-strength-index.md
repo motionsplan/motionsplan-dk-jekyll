@@ -113,10 +113,8 @@ Hvis ud har adgang til en kraftplatform eller en hoppemåtte, så er det relativ
 
 Disse apps koster noget mindre end at skulle erhverve sig en hoppemåtte. Så hvis du har adgang til en smartphone, og gerne vil lege lidt med RSI, så kan du altså relativt billigt selv komme i gang med at eksperimentere.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Guide To Reactive Strength Index](https://www.outputsports.com/educational-blogs/2020/5/5/guide-to-reactive-strength-index)
 - [The Reactive Strength Index Revisited](https://www.trainwithpush.com/blog/reactive-strength-index-revisited)

@@ -121,10 +121,8 @@ At man absolut set kan forbrænde mere fedt ved at køre med højere intensitet 
 
 Men det har stor værdi at træne i at blive bedre til at forbrænde fedt. Hvis du fx kan løbe den i den samme hastighed, men en større del af energien kommer fra fedt på den hastighed, så er din samlede motor blevet mere effektiv i forbrændingen. Det har særligt stor betydning, når du arbejder over længere tid og længere distancer.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencerne</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Bryner, R. W., R. C. Toffle, I. H. Ullrich, og R. A. Yeater. 1997. “The Effects of Exercise Intensity on Body Composition, Weight Loss, and Dietary Composition in Women”. _Journal of the American College of Nutrition_ 16 (1): 68–73. [https://doi.org/10.1080/07315724.1997.10718651](https://doi.org/10.1080/07315724.1997.10718651).
 - Grediagin, A., M. Cody, J. Rupp, D. Benardot, og R. Shern. 1995. “Exercise Intensity Does Not Effect Body Composition Change in Untrained, Moderately Overfat Women”. _Journal of the American Dietetic Association_ 95 (6): 661–65. [https://doi.org/10.1016/s0002-8223(95)00181-6](https://doi.org/10.1016/s0002-8223(95)00181-6).

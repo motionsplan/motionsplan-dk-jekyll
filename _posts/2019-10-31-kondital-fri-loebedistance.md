@@ -62,10 +62,8 @@ Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) ell
 
 Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
 
-## Reference
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9. <https://pubmed.ncbi.nlm.nih.gov/3444324/>
 </details>

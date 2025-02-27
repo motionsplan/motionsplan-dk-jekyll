@@ -69,10 +69,8 @@ Testen bliver ofte brugt til fodboldspillere, men alle der dyrker en idrætsgren
 
 Du kan arbejde med din eksplosivitet og teknikken ved retningsskift for at blive bedre til testen.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - [Topendsports.com](https://www.topendsports.com/testing/tests/arrowhead-agility-drill.htm)
 - Muniroglu, Surhat, og Erdem Subak. 2018. “[A Comparison of 5, 10, 30 Meters Sprint, Modified T-Test, Arrowhead and Illinois Agility Tests on Football Referees](https://files.eric.ed.gov/fulltext/EJ1182624.pdf)”. _Journal of Education and Training Studies_ 6 (8): 70. [https://doi.org/10.11114/jets.v6i8.3360](https://doi.org/10.11114/jets.v6i8.3360).

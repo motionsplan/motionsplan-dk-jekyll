@@ -79,10 +79,8 @@ Der findes mange andre metoder til at [forbedre din restitution](/restitution/) 
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
-## Referencer
-
-<details markdown="1">
- <summary>Se referencer om isbade og cold water immersion</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Crowe, M. J., D. O’Connor, og D. Rudd. 2007. “Cold Water Recovery Reduces Anaerobic Performance”. International Journal of Sports Medicine 28 (12): 994–98. <https://doi.org/10.1055/s-2007-965118>.
 - Morton, R. Hugh. 2007. “Contrast Water Immersion Hastens Plasma Lactate Decrease after Intense Anaerobic Exercise”. Journal of Science and Medicine in Sport 10 (6): 467–70. <https://doi.org/10.1016/j.jsams.2006.09.004>.

@@ -290,38 +290,13 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 
 Jeg har lavet en liste over steder, hvor du kan købe kosttilskud. Du kan se listen over [onlinebutikker her](/koeb-kosttilskud-online/).
 
-## Referencer om kosttilskud
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - [Hvilke kosttilskud tager forskerne selv? - Videnskab.dk](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv)
 - [Kosttilskudshierarkiet: De bedste kosttilskud til styrketræning.](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html)
 - [EP #18: Kosttilskud som er spild af penge - Styrk](https://styrkmig.dk/ep-18-kosttilskud-som-er-spild-af-penge/)
 - [EP #21: Kosttilskud med dokumenteret effekt - Styrk](https://styrkmig.dk/ep-21-kosttilskud-med-dokumenteret-effekt/)
-</details>
 
-### Referencer om protein som kosttilskud
 
-<details markdown="1">
-  <summary>Se alle referencer om protein som kosttilskud</summary>
-
-- Jorn Trommelen and Luc J. C. van Loon. Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training. Nutrients 2016, 8(12), 763; doi:10.3390/nu8120763
-- Kerksick CM, Arent S, Schoenfeld BJ, et al. International society of sports nutrition position stand: nutrient timing. Journal of the International Society of Sports Nutrition. 2017;14:33. doi:10.1186/s12970-017-0189-4.
-- Macnaughton LS, Wardle SL, Witard OC, McGlory C, Hamilton DL, Jeromson S, Lawrence CE, Wallis GA, Tipton KD. The response of muscle protein synthesis following whole-body resistance exercise is greater following 40 g than 20 g of ingested whey protein. Physiol Rep. 2016 Aug;4(15). pii: e12893. doi: 10.14814/phy2.12893.
-- Morton RW1, Murphy KT1, McKellar SR1, Schoenfeld BJ2, Henselmans M3, Helms E4, Aragon AA5, Devries MC6, Banfield L7, Krieger JW8, Phillips SM1. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2017 Jul 11. pii: bjsports-2017-097608. doi: 10.1136/bjsports-2017-097608.
-- Witard OC, Jackman SR, Breen L, Smith K, Selby A, Tipton KD. Myofibrillar muscle protein synthesis rates subsequent to a meal in response to increasing doses of whey protein at rest and after resistance exercise. Am J Clin Nutr. 2014 Jan;99(1):86-95. doi: 10.3945/ajcn.112.055517.
-- Moore DR, Robinson MJ, Fry JL, Tang JE, Glover EI, Wilkinson SB, Prior T, Tarnopolsky MA, Phillips SM. Ingested protein dose response of muscle and albumin protein synthesis after resistance exercise in young men. Am J Clin Nutr. 2009 Jan;89(1):161-8. doi: 10.3945/ajcn.2008.26401.
-</details>
-
-### Referencer om kreatin som kosttilskud
-
-<details markdown="1">
-  <summary>Se alle referencer om kreatin som kosttilskud</summary>
-
-- Buford TW, et al. International Society of Sports Nutrition position stand: creatine supplementation and exercise. J Int Soc Sports Nutr. 2007;4:6.
-- J Appl Physiol (1985). 1997 Dec;83(6):2055-63. Long-term creatine intake is beneficial to muscle performance during resistance training. Vandenberghe K1, Goris M, Van Hecke P, Van Leemputte M, Vangerven L, Hespel P.
-- J Int Soc Sports Nutr. 2017 Jun 13;14:18. doi: 10.1186/s12970-017-0173-z. eCollection 2017. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Kreider RB1, Kalman DS2, Antonio J3, Ziegenfuss TN4, Wildman R5, Collins R6, Candow DG7, Kleiner SM8, Almada AL9, Lopez HL4,10.
-- Bender A, Klopstock T. Creatine for neuroprotection in neurodegenerative disease: end of story? Amino Acids. 2016;48(8):1929–40.
-- Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine monohydrate on body composition and strength. J Int Soc Sports Nutr. 2013 Aug 6;10:36. doi: 10.1186/1550-2783-10-36.
 </details>

@@ -100,12 +100,12 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
   {% endfor %}
 {% endif %}
 
-## Referencer
+## Læs mere
 
 {% include feature_row id="feature_row_references" type="left" %}
 
-<details markdown="1">
-  <summary>Se referencer til {{ page.title }}</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Jackson, A. S., M. L. Pollock, og A. Ward. 1980. “Generalized Equations for Predicting Body Density of Women”. _Medicine and Science in Sports and Exercise_ 12 (3): 175–81. <https://pubmed.ncbi.nlm.nih.gov/7402053/>.
 - Jackson, A. S., og M. L. Pollock. 1978. “Generalized Equations for Predicting Body Density of Men”. _The British Journal of Nutrition_ 40 (3): 497–504. [https://doi.org/10.1079/bjn19780152](https://doi.org/10.1079/bjn19780152).

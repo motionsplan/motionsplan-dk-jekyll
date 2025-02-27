@@ -213,10 +213,8 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse](/maksi
 
 {% include motionsplan/faq.html %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
 

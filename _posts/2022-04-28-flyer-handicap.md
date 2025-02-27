@@ -57,10 +57,8 @@ Du kan læse mere om metoden i de nedenstående referencer.
 Læs: [Vægttab og løb: Beregn effekten af et vægttab på løbetid](/vaegttab-loebetid/)
 {: .notice }
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Anne R Crecelius, Paul M Vanderburgh, Lloyd L Laubach (2008): [Contributions of Body Fat and Effort in the 5K Run: Age and Body Weight Handicap](https://www.researchgate.net/publication/23181502_Contributions_of_Body_Fat_and_Effort_in_the_5K_Run_Age_and_Body_Weight_Handicap)
 - Paul M. Vanderburgh, Lloyd L Laubach (2007): [Derivation of an Age and Weight Handicap for the 5K Run](https://www.researchgate.net/publication/228648281_Derivation_of_an_Age_and_Weight_Handicap_for_the_5K_Run)

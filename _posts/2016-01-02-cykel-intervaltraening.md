@@ -162,10 +162,8 @@ Husk altid at varme grundigt op først. Desuden kan det være en god ide at plac
 
 Hvordan sammensætter du din cykeltræning? Kører du også intervaller på cyklen?
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer om cykling og intervaltræning</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Laursen PB1, Shing CM, Peake JM, Coombes JS, Jenkins DG (2005) Influenza of high-intensity interval training on adaptations in well-trained cyclists. J Strength Cond Res.
 - Batterham A. M., Taylor K. L., (2014) Effects of low-volume high-intensity interval training (HIT) on fitness in adults: a meta-analysis of controlled and non controlled trails. Sports Med.

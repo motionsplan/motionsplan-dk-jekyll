@@ -113,10 +113,8 @@ Watt-max-testen er let at udføre. Når du har resultaterne fra testen, så har 
 
 Du kan nemlig kaste dig over [V<sub>max</sub>-træning på cyklen](/vmax-cykling/). Her kan du skræddersy et program, som retter sig mod at forbedre din [VO2-max](/maksimale-iltoptagelse-vo2max/).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. <https://doi.org/10.1111/j.1600-0838.1995.tb00027.x>.
 </details>

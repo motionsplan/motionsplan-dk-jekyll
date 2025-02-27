@@ -66,12 +66,12 @@ Jeg har også beskrevet andre måder at [beregne din fedtprocent](/artikel/udreg
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du skal opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
-## Referencer
+## Læs mere
 
 {% include feature_row type="left" %}
 
-<details markdown="1">
-  <summary>Referencer til måling af fedtprocent med målebånd</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
 - Katch, F. I., og W. D. McArdle. 1973. “Prediction of Body Density from Simple Anthropometric Measurements in College-Age Men and Women”. Human Biology 45 (3): 445–55.

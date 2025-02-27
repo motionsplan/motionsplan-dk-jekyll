@@ -117,10 +117,8 @@ Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft]({% l
 
 Hvordan forbereder du dig til en maxtest, styrkeløftkonkurrence og 1RM-test? Brug endelig kommentarerne til at inspirere os andre.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Masamoto, N et al. "Acute Effects of Plyometric Exercise on Maximum Squat Performance in Male Athletes." Journal of Strength and Conditioning Research. 2003 Feb; 17(1):68-71.
 - Wilcox, J et al. "Acute Explosive-Force Movements Enhance Bench-Press Performance in Athletic Men." International Journal of Sports Physiology and Performance. 2006 Sep; 1(3):261-269.

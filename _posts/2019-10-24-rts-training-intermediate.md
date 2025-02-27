@@ -69,7 +69,7 @@ Træningen er altså autoreguleret, så dagens vægt er afgjort af, hvad du kan 
 
 Ved hjælp af nedenstående figur kan du altså hurtigt begynde at lave dit program om til RPE i stedet for procenter. Hvis du gerne vil have et arbejdssæt med omkring 80% af 1RM med 5 gentagelser, så kan du altså ordinere x5 @ 7,5.
 
-{% include figure image_path="https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/E1RM-TABLE.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
+{% include figure image_path="/assets/images/blog/rpe-e1rm.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
 
 Det kræver selvfølgelig en del øvelse og selvdisciplin at begynde at bruge RPE.
 

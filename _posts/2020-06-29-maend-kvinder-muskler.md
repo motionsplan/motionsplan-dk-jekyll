@@ -150,10 +150,8 @@ Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formen
 
 Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se alle referencer om mænds og kvinders muskler</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Abe, T, C Kearns, og T Fukunaga. 2003. “Sex differences in whole body skeletal muscle mass measured by magnetic resonance imaging and its distribution in young Japanese adults”. British Journal of Sports Medicine 37 (5): 436–40. <https://bjsm.bmj.com/content/37/5/436>.
 - Albert, WJ, AT Wrigley, RB McLean, og GG Sleivert. 2006. “Sex differences in the rate of fatigue development and recovery”. Dynamic Medicine 5 (januar): 2. <https://doi.org/10.1186/1476-5918-5-2>.

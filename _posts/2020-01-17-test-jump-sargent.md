@@ -80,10 +80,8 @@ Testen er så lavpraktisk, at alle kan lave den overalt. Den er gratis, men du s
 
 [de Salles et al (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3588680/) konkluderede, at Sargent Jump Test er en reproducerbar og valid test, når den sammenlignes med en hoppetest på kraftplatform.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencerne om Sargent Jump Test</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - [www.brianmac.co.uk](https://www.brianmac.co.uk/sgtjump.htm)
 - [www.topendsports.com](https://www.topendsports.com/testing/tests/vertjump.htm)

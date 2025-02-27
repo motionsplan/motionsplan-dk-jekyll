@@ -30,7 +30,7 @@ meta:
   measures: styrke
   equipment: vægtudstyr
   type: styrketræning
-last_modified_at: 2022-10-04T07:14:14Z
+last_modified_at: 2025-02-24T07:14:14Z
 toc: true
 feature_row_sheet:
   - image_path: /assets/images/freebies/rmberegner.png
@@ -42,12 +42,12 @@ feature_row_sheet:
     btn_class: "btn--success"
     rel: nofollow noopener
 faq:
-  - question: Hvad er en RM-beregner?
-    answer: "En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer."
-  - question: Hvordan beregner man sin 1 RM?
-    answer: Du kan bruge en RM-formel. Her kan du finde de mest populære formler i vores RM-udregner.
-  - question: Hvad betyder RM, 1RM max og one repetition maximum?
-    answer: "**One Repetition Maximum** kaldes også 1RM. Det er et udtryk for den vægt, du maksimalt kan løfte en gang i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+  - question: Hvad er en 1RM-beregner?
+    answer: "En 1RM-beregner kan estimere din _One Repetition Maximum (1RM)_. Ved at indtaste den vægt, du har løftet, og antallet af gentagelser, kan beregneren give et bud på, hvad du maksimalt kan løfte én gang. Dette kan være nyttigt i styrketræning, især hvis du følger et procentbaseret træningsprogram."
+  - question: Hvordan bruger jeg 1RM-beregneren?
+    answer: "Indtast den vægt, du har løftet, samt antallet af gentagelser. Beregneren bruger forskellige formler til at estimere din 1RM. Husk, at formler kan give lidt forskellige resultater, så det kan være en fordel at bruge gennemsnittet af flere beregninger."
+  - question: Hvad betyder 1RM, RM og One Repetition Maximum?
+    answer: "**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. RM (Repetition Maximum) angiver den maksimale vægt, du kan løfte et bestemt antal gange, fx 5RM for den vægt, du maksimalt kan løfte fem gange."
 ---
 
 Vil du gerne vide, hvor meget du kan løfte i styrketræning? Du kan bruge vores RM-beregner, hvis du gerne vil vide, hvor stærk du er ud fra submaksimale løft.
@@ -148,100 +148,10 @@ Den **mest udbredte formel lader til at være Brzyckis formel og Epleys formel**
 
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
 
-## Hvordan er formlerne til 1RM-beregneren lavet?
+**Vil du vide mere?**: [Formler til beregning af 1RM (one rep max)](/1rm-formler/)
+{: .notice }
 
-For at lave formlerne til at udregne 1RM, så har forskerne fået en række deltagere til at løfte vægte med forskellige intensiteter.
-
-Det varierer lidt mellem studierne, hvordan de nøjagtigt har gjort det. Deltagerne har løftet ved forskellige RM-intensiteter, fx 10RM, 5RM, 3RM og 1RM.
-
-I nogle studier har forskerne også målt biometriske værdier som fx armlængde for bænkpres, fedtprocent, brystmål. Formålet med disse mål har formentlig primært været at se, om disse variable kunne spille ind på resultatet.
-{: .notice .notice--info }
-
-Derefter har forskerene lavet regressionsanlyse på tallene. Typisk har de fundet sammenhænge som fx at: "højere 5RM også resulterer i en højere 1RM" eller at "folk med kortere arme er stærkere i bænkpres".
-
-Regressionanalysen ender så ud i en formel for sammenhængen.
-
-Når forskerne har lavet en formel på baggrund af resultaterne fra de første deltagere, så kan de tage en anden gruppe for at teste, hvor præcise forudsigelserne med formlerne er.
-
-Reynolds (2006) har lavet et meta-review af en del af de tidligere formler.
-
-De fleste studier er blevet lavet på mænd, men Mayhew et al (2008) fandt at deres formel passede fint på kvinder også.
-
-## Populære formler til at beregne 1RM-max
-
-Alle de følgende formler til at udregne 1RM er baseret på _gentagelser_ og _vægt_ (se mere på [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)).
-
-- **r** er antallet reps eller gentagelser
-- **w** er den løftede vægt
-
-Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM giver Epleys formel et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
-
-<details markdown="1" class="equation">
-  <summary><h3 id="brzyckis-equation">Brzyckis formel<h3></summary>
-
-Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. Formlen kan skrives på lidt forskellige måder, som det ses her:
-
-{% include motionsplan/math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
-</details>
-
-<details markdown="1" class="equation">
-  <summary><h3 id="epley-equation">Epleys formel</h3></summary>
-
-{% include motionsplan/math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
-</details>
-
-<details markdown="1" class="equation">
-  <summary><h3 id="mcglothin-equation">McGlothins formel</h3></summary>
-
-{% include motionsplan/math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
-</details>
-
-<details markdown="1" class="equation">
-  <summary><h3 id="lombardi-equation">Lombardis formel</h3></summary>
-
-{% include motionsplan/math formula="RM=wr^{0.10}" %}
-</details>
-
-<details markdown="1" class="equation">
-  <summary><h3 id="mayhews-equation">Mayhew et al formel</h3></summary>
-
-{% include motionsplan/math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
-</details>
-
-<details markdown="1" class="equation">
-  <summary><h3 id="oconnor-equation">Se O'Conner et al formel</h3></summary>
-
-{% include motionsplan/math formula="RM=w\left(1+{\frac {r}{40}}\right)" %}
-</details>
-
-<details markdown="1" class="equation">
-  <summary><h3 id="wathen-equation">Wathens formel til repetition maximum</h3></summary>
-
-{% include motionsplan/math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
-</details>
-
-***
-
-Formlerne estimerer forskellige RM-vægte. Fælles for alle formlerne er, at de er bedst til at forudsige RM-vægte, der ligger tæt på den testede vægt.
-
-[Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum) viser en sammenligning mellem de enkelte formler, og hvordan de vil opføre sig med forskellige vægte og gentagelser.
-
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)." alt="Sammenligning af formler til 1RM beregner" %}
-
-## Hvordan kan jeg sikre progression med en 1RM-formel?
-
-Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har besluttet dig for en bestemt vægt, bliver det lettere, når du har trænet et stykke tid.
-
-Du kan bruge udregningen af din 1RM til at følge din progression. Du kan jævnligt lave tests, så du kan justere vægten til på stangen i de kommende træninger.
-
-Et eksempel:
-
-Hver måned estimerer du din 1RM ved at beregne den ud fra dit submaksimale løft.
-
-Vil du vide mere? [Alt om progression i styrketræning](/progressionsmodeller-progressivt-overload/)
-{: .notice}
-
-## Regneark med RM-formler
+## Regneark med RM-beregninger
 
 Her har jeg lavet en regneark med RM-formlerne i Google Sheets, hvis du foretrækker at have data på din egen computer.
 
@@ -263,10 +173,12 @@ Selvom en RM-udregner aldrig kan give dig det helt præcise tal, så kan du få 
 
 Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion](/rpe/) til at estimere mine træningsvægte.
 
-## Referencer
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary>Se referencer</summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.

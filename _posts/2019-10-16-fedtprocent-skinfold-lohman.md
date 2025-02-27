@@ -71,10 +71,8 @@ Metoden er dog mest anvendelig til at sammenligne hudfoldstykkelserne for børne
 
 Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI beregner til børn og unge](/bmi-beregner-boern-unge-teenagere/).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Lohman, T.G.: The use of skinfolds to estimate body fatness on children and youth. Journal of physical education, recreation and dance, 58(9):67, 69, 1987.
 - Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 2014. “[Skinfold Equations for Estimation of Body Fatness in Children and Youth](https://www.researchgate.net/publication/19931264_Skinfold_Equations_for_Estimation_of_Body_Fatness_in_Children_and_Youth)”. Human Biology 60 (5).

@@ -114,10 +114,8 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
   {% endfor %}
 {% endif %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Durnin, J. V., og J. Womersley. 1974. “Body Fat Assessed from Total Body Density and Its Estimation from Skinfold Thickness: Measurements on 481 Men and Women Aged from 16 to 72 Years”. The British Journal of Nutrition 32 (1): 77–97. <https://doi.org/10.1079/bjn19740060>.
 - Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. <https://doi.org/10.1016/b978-1-4832-3110-5.50011-x>.

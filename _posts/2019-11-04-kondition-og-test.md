@@ -133,10 +133,8 @@ Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. 
 
 [Hvad er et godt kondital?](/kondital/){: .btn .btn--large .btn--info }
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 - Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.

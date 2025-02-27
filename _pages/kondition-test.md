@@ -34,12 +34,20 @@ feature_row_train_fitness:
     url: "/konditionstraening/"
     btn_label: "Læs om konditionstræning"
     btn_class: "btn--info"
-#faq:
-#  - question: "FAQ-spørgsmål"
-#    answer: "FAQ-svar kommer der en masse af her, når jeg lige finder ud af, hvad jeg bør skrive."
 last_modified_at: 2025-02-18T22:21:26Z
 breadcrumbs: true
 toc: true
+faq:
+  - question: "Hvad er en konditionstest?"
+    answer: "En konditionstest er en test, der vurderer din aerobe kapacitet, altså hvor effektivt din krop kan optage og bruge ilt under fysisk aktivitet."
+  - question: "Hvilke typer konditionstests findes der?"
+    answer: "Der findes mange typer konditionstests, herunder løbetests (fx Cooper-testen og 2400-meter testen), cykeltests og laboratoriebaserede VO2max-målinger."
+  - question: "Hvordan vælger jeg den rette konditionstest?"
+    answer: "Valget af konditionstest afhænger af dit træningsniveau, formål og tilgængeligt udstyr. Løbetests er gode til løbere, mens cykeltests passer bedre til cyklister."
+  - question: "Kan jeg teste min kondition derhjemme?"
+    answer: "Ja, du kan udføre simple konditionstests som step-testen eller en submaksimal løbetest uden avanceret udstyr."
+  - question: "Hvorfor er det vigtigt at teste sin kondition?"
+    answer: "At teste din kondition hjælper dig med at spore din træningsfremgang, sætte realistiske mål og identificere områder, der kan forbedres."
 ---
 
 Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.
@@ -59,23 +67,9 @@ Læs: [Alt om kondition](/kondition/)
 
 ## Hvad måler en konditionstest?
 
-<details markdown="1">
-  <summary>🫀 Kondition (din aerobe kapacitet)</summary>
-
-  {% comment %}TODO{% endcomment %}
-</details>
-
-
-<details markdown="1">
-  <summary>🫁 Maksimal iltoptagelse (VO<sub>2</sub>max)</summary>
-
-  {% comment %}TODO{% endcomment %}
-</details>
-<details markdown="1">
-  <summary>💨 Kondital (din maksimale iltoptagelse i forhold til din kropsvægt)</summary>
-
-  {% comment %}TODO{% endcomment %}
-</details>
+{% include concept.html concept="kondition" %}
+{% include concept.html concept="vo2max" %}
+{% include concept.html concept="kondital" %}
 
 ## Mest populære tests
 
@@ -179,7 +173,7 @@ Fordelen ved en submaksimal konditionstest er, at det er lettere at overskue at 
 
 Til gengæld er den typisk ikke lige så præcis. Her kan du finde nogle af de mest populære submaksimale tests, men få mere inspiration i tabellen ovenfor.
 
-{% assign site_posts = site.posts | where: "tags", "submaksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "submaksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -199,7 +193,7 @@ Til gengæld er det også virkelig hårdt at skulle lave en maksimal test, og du
 
 Her er de mest populære, ellers få endnu mere inspiration i tabellen ovenfor.
 
-{% assign site_posts = site.posts | where: "tags", "maksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "maksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

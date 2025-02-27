@@ -201,10 +201,8 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 
 {% include feature_row type="left" %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Ali, A., M. P. Caine, og B. G. Snow. 2007. “Graduated Compression Stockings: Physiological and Perceptual Responses during and after Exercise”. Journal of Sports Sciences 25 (4): 413–19. <https://doi.org/10.1080/02640410600718376>.
 - Berry, Michael J., og Robert G. Mcmurray. 1987. “Effects of graduated compression stockings on blood lactate following an exhaustive bout of exercise.” American journal of physical medicine.

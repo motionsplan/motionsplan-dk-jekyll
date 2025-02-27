@@ -37,6 +37,8 @@ sidebar:
   nav: trainingtypes
 toc: true
 faq:
+  - question: "Hvad er kondition?"
+    answer: "Kondition refererer til kroppens evne til at optage, transportere og bruge ilt under fysisk aktivitet. En god kondition er forbundet med bedre udholdenhed og sundhed."
   - question: Hvad vil det sige at have en god kondition?
     answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
   - question: Hvad er dårlig kondition?
@@ -46,6 +48,14 @@ faq:
       Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det kan gå, når du holder træningspause.
 
       Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
+  - question: "Hvordan kan jeg forbedre min kondition?"
+    answer: "Du kan forbedre din kondition gennem regelmæssig træning såsom løb, cykling og svømning. Intervaltræning og langvarig udholdenhedstræning er effektive metoder."
+  - question: "Hvad er forskellen på VO2max og kondital?"
+    answer: "VO2max er et absolut mål for kroppens maksimale iltoptagelse pr. minut (liter O₂/min), mens kondital tager højde for kropsvægten og angiver, hvor meget ilt kroppen kan optage per kilo kropsvægt (ml O₂/kg/min)."
+  - question: "Hvordan måler man sin kondition?"
+    answer: "Kondition kan måles ved hjælp af forskellige tests, såsom Cooper-testen, 2400-meter testen eller en direkte VO2max-måling i et laboratorium."
+  - question: "Hvorfor er kondition vigtig for sundheden?"
+    answer: "En god kondition reducerer risikoen for hjertekarsygdomme, diabetes og for tidlig død. Det forbedrer også den generelle livskvalitet og evnen til at udføre daglige aktiviteter."
 breadcrumbs: true
 last_modified_at: 2025-02-12T22:21:26Z
 ---
@@ -171,3 +181,7 @@ En god form er afgørende for et godt helbred, at hverdagen føles lettere og du
 {% endif %}
 
 </div>
+
+## Begreber om kondition
+
+{% include concepts.html type="kondition" %}

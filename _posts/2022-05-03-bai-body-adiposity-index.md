@@ -78,10 +78,8 @@ BAI er ligesom mange andre indirekte målinger af fedtprocent behæftet med en d
 
 Hvis du gerne vil have et mere præcist bud på, hvor meget af din krop, der består af fedt, så bliv klogere ved at læse om [måling af fedtprocent](/maal-fedtprocent/).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Colombo O, Villani S, Pinelli G, Trentani C, Baldi M, Tomarchio O, Tagliabue A. To treat or not to treat: comparison of different criteria used to determine whether weight loss is to be recommended. Nutr J. 2008 Jan 29;7:5.
 - Gallagher D, Heymsfield SB, Heo M, Jebb SA, Murgatroyd PR, Sakamoto Y. Healthy percentage body fat ranges: an approach for developing guidelines based on body mass index. Am J Clin Nutr. 2000 Sep;72(3):694-701.

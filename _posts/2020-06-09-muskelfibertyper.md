@@ -129,10 +129,8 @@ Muskulaturens areal udgøres nu af en større procentdel af type II-fibre, fordi
 
 Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning er, er at få lavet en muskelbiopsi. Jeg har beskrevet i et andet indlæg, hvordan du [kan teste din egen muskelfibertypesammensætning](/test-muskelfibertyper/) på en lavpraktisk måde.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Andersen, J. L., og P. Aagaard. 2000. “Myosin Heavy Chain IIX Overshoot in Human Skeletal Muscle”. _Muscle & Nerve_ 23 (7): 1095–1104. <https://pubmed.ncbi.nlm.nih.gov/10883005/>.
 - Baldwin, K. M., A. M. Hooker, og R. E. Herrick. 1978. “Lactate Oxidative Capacity in Different Types of Muscle”. _Biochemical and Biophysical Research Communications_ 83 (1): 151–57. [https://doi.org/10.1016/0006-291X(78)90410-2](https://doi.org/10.1016/0006-291X(78)90410-2).

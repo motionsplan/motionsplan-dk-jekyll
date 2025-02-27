@@ -90,10 +90,8 @@ Den anden årsag kan så være, at min træningstilstand har ændret sig, og jeg
 
 Det er dog sandsynligt at restitutionen ændrer sig med alderen. Kroppen forandrer sig nemlig, som jeg bl.a. kommer ind på i indlægget om [træning af ældre og med alderen](/traening-aeldre/).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Fell, James, og Dafydd Williams. 2008. “The Effect of Aging on Skeletal-Muscle Recovery from Exercise: Possible Implications for Aging Athletes”. Journal of aging and physical activity 16 (februar): 97–115. <https://doi.org/10.1123/japa.16.1.97>.
 

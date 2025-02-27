@@ -280,10 +280,7 @@ Støren et al (2008) brugte kun en enkelt øvelse (halve squats), så det behøv
 
 Jeg ville dog nok kombinere træningen med lidt forskellige variationer af øvelser, fx også nogle 1-bensøvelser.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer til løbetræning og styrketræning</summary>
-
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 </details>

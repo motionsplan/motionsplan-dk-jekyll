@@ -80,10 +80,8 @@ I forhold til skader så er restitution en af de helt store syndere, så du kan 
 
 Vi har også skrevet et andet indlæg, der giver [forslag til forskellige øvelser til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 
-## Litteratur om at forebygge skader
-
-<details markdown="1">
-  <summary>Se referencer om skadesforebyggelse</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 * Al Attar WS, Soomro N, Sinclair PJ, Pappas E, Sanders RH. Effect of injury prevention programs that include the Nordic hamstring exercise on hamstring injury rates in soccer players: a systematic review and meta-analysis. Sports Med. 2016;47(5):907–16.
 * Bourne MN, Timmins RG, Opar DA, Pizzari T, Ruddy JD, Sims C, Williams MD, Shield AJ. An Evidence-Based Framework for Strengthening Exercises to Prevent Hamstring Injury. Sports Med. 2018 Feb;48(2):251-267. doi: 10.1007/s40279-017-0796-x. PMID: 29116573.

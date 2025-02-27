@@ -164,10 +164,8 @@ I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være for
 
 Opvarmning til træning og sport bør være en integreret del af din samlede træning. Du kan arbejde med mange gode elementer. Særligt opbygningen med generel opvarmning gående mod specifik opvarmning og med et eksplosivt element er rigtig god at holde sig for øje.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
 - [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)

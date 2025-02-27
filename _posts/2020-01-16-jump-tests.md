@@ -24,6 +24,11 @@ feature_row_jump_training:
     url: "/springstyrke-og-springtraening/"
     btn_label: "Lær om springtræning"
     btn_class: "btn--info"
+meta:
+  name: Samling af springtests
+  equipment: se testbeskrivelser
+  measures: springstyrke
+  type: springtests
 ---
 
 Måling af hoppehøjde og springhøjde bliver ofte brugt til at evaluere atletiske egenskaber i forskellige idrætsgrene. Hoppehøjden er en af de meget brugte tests af springstyrke og power i benene. Her har jeg samlet 5 måder at måle hoppehøjde på med springtests.

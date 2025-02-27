@@ -1,7 +1,8 @@
 ---
 layout: single
-title: Udstyr & Teknologi
-excerpt: "Motionsplan har samlet alt den bedste inspiration til styrketræning, konditionstræning, cardio, yoga, løb og træning."
+title: Træningsudstyr – Find det rette udstyr til din træning
+seo_title: Træningsudstyr – Guide til det bedste udstyr til styrketræning, løb og cykling
+excerpt: "å overblik over det bedste træningsudstyr til styrketræning, løb og cykling. Vi guider dig til det rette udstyr, så du kan optimere din træning."
 permalink: /udstyr/
 redirect_from:
   - /inspiration/
@@ -77,8 +78,11 @@ feature_row_strength:
 breadcrumbs: true
 ---
 
+Det rigtige træningsudstyr kan gøre en stor forskel for din præstation og træningsoplevelse. Uanset om du styrketræner, løber eller cykler, er det vigtigt at vælge det rette udstyr, der passer til dine behov.
 
-## Leder du efter udstyr?
+På denne side finder du guides til forskelligt træningsudstyr, så du kan træffe det bedste valg og få mest muligt ud af din træning.
+
+## Leder du efter udstyr til træning?
 
 {% assign site_posts = site.posts | where: "tags", "udstyr" | sort: "date" %}
 
@@ -95,6 +99,20 @@ breadcrumbs: true
 ## Gode butikker til indkøb af udstyr
 
 {% assign site_posts = site.posts | where: "tags", "butikker" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Apps til din træning
+
+{% assign site_posts = site.posts | where: "tags", "apps" | sort: "date" %}
 
 <div class="feature__wrapper">
 

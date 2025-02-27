@@ -72,10 +72,8 @@ Vi har skrevet et andet indlæg, hvor du kan lære, hvordan man [tester sin _one
 
 På exrx.net har de samlet en række [styrkestandarder](https://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), hvor du kan få et bud på, om du er stærk.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [www.t-nation.com](https://t-nation.com/t/know-your-ratios-destroy-weaknesses/282078)
 - [www.functionalps.com](https://www.functionalps.com/blog/2010/09/28/upper-body-structural-balance/)

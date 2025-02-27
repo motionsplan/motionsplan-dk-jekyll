@@ -116,7 +116,7 @@ Hvis du kan fuldende en hel wave, kan du starte en ny wave. Hvis du ikke kan gen
 
 Ved brug af RPE som intensitetsskala for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kg til stangen i forhold til [RPE](/rpe/).
 
-{% include figure image_path="https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/E1RM-TABLE.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
+{% include figure image_path="/assets/images/blog/rpe-e1rm.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
 
 #### 1. wave
 
@@ -178,10 +178,8 @@ Hvilke metoder bruger du i forbindelse med maksimal styrke - og hvilke erfaringe
 
 Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hypertrofi]({% link _posts/2019-10-22-metoder-til-hypertrofi.md %}).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer om metoder til maksimal styrke</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - [Wave ladders for maximal strength](https://www.t-nation.com/training/wave-ladders-for-maximum-strength)
 - [The Truth about Rest Pause Training](https://www.t-nation.com/training/the-truth-about-rest-pause-training)

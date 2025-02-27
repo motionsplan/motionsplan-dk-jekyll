@@ -258,10 +258,9 @@ hvor
 
 Hvor <em>I</em> er arealet under kraft-tid-kurven (minus tyngdekraften) fra starten af hoppet og indtil afsættet.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+  
 
 - [The Physics of the Vertical Jump](https://www.thehoopsgeek.com/the-physics-of-the-vertical-jump/)
 </details>

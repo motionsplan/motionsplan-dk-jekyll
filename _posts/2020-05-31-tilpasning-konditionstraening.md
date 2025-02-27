@@ -153,10 +153,8 @@ Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til s
 
 Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig mange gode bøger om emnet](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=fysiologi){: rel='sponsored nofollow noopener' }.
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. Journal of Sports Sciences 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.
 - Trappe, Scott, Matthew Harber, Andrew Creer, Philip Gallagher, Dustin Slivka, Kiril Minchev, og David Whitsett. 2006. “Single Muscle Fiber Adaptations with Marathon Training”. Journal of Applied Physiology (Bethesda, Md.: 1985) 101 (3): 721–27. <https://doi.org/10.1152/japplphysiol.01595.2005>.

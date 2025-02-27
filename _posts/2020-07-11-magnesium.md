@@ -308,10 +308,8 @@ Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra mag
 
 {% include feature_row type="left" %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
 
 - Abbasi, Behnood, Masud Kimiagar, Khosro Sadeghniiat, Minoo M. Shirazi, Mehdi Hedayati, og Bahram Rashidkhani. “The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial”. _Journal of Research in Medical Sciences: The Official Journal of Isfahan University of Medical Sciences_ 17, nr. 12 (december 2012): 1161–69.
 - Al Alawi, Abdullah M., Sandawana William Majoni, og Henrik Falhammar. “Magnesium and Human Health: Perspectives and Research Directions”. _International Journal of Endocrinology_ 2018 (16. april 2018). [https://doi.org/10.1155/2018/9041694](https://doi.org/10.1155/2018/9041694).
