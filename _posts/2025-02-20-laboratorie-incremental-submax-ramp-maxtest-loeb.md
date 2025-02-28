@@ -1,4 +1,3 @@
-
 ---
 title: &title "Løbebåndstest med iltoptagelse (submx + maxtest)"
 seo_title: "Løbebåndstest med iltoptagelse (submax + maxtest)"

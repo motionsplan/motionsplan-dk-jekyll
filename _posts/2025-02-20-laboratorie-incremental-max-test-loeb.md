@@ -1,4 +1,3 @@
-
 ---
 title: &title "Løbebåndstest med iltoptagelse (trappetest)"
 seo_title: "Løbebåndstest med iltoptagelse (trappetest)"

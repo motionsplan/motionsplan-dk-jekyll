@@ -1,4 +1,3 @@
-
 ---
 title: &title "6 kritierer for en maksimal iltoptagelsestest"
 seo_title: "6 kritierer for en maksimal iltoptagelsestest"
