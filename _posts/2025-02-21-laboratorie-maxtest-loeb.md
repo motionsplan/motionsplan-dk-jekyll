@@ -99,15 +99,19 @@ Ved udmattelse noteres den maksimale puls og der tages en priktest.
 
 ## Er det reelt en maksimal test?
 
+Når testen er slut, så skal du vurdere om du har fået nogle brugbare resultater.
+
+Da du gerne vil bestemme den maksimale iltoptagelse og den maksimale puls, så er det nødvendigt at vurdere om løberen har udført en maksimal test, eller vedkommende fik afsluttet testen før opnåelse af de maksimale værdier.
+
 Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale ydeevne.
 
-1. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden.
-2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
-3. Laktatmåling skal være over 8 mmol.
-4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
-5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
+1. **Steady state i VO₂-optagelse**. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden (den vigtigste indikator).
+2. **RQ > 1,15**. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
+3. **Bla > 8 mmol/l**. Laktatmåling skal være over 8 mmol/l.
+4. **Puls > 220-alder +- 10**. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
+5. **VE / VO₂ > 30**. Forholdet mellem ventilationen (VE) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
 
-Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale.
+Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale og resultatet derfor er præcist.
 
 **Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
 {: .notice }
