@@ -88,7 +88,7 @@ I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hv
 
 [Anslå kondital fra puls](/kondital-fra-puls/){: .btn .btn--large .btn--success }
 
-### Anslå VO<sub>2</sub>-max ud fra løbedistance og -tid
+### Anslå VO₂-max ud fra løbedistance og -tid
 
 Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også anslå din kredsløbsfitness ud fra Jack Daniels formel.
 
@@ -199,7 +199,8 @@ På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalc
 
 {% include feature_row type="left" %}
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row id="feature_row_references" type="left" %}
 
@@ -217,3 +218,4 @@ På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalc
 - Dobbelsteyn, C. J., M. R. Joffres, D. R. MacLean, og G. Flowerdew. 2001. “A Comparative Evaluation of Waist Circumference, Waist-to-Hip Ratio and Body Mass Index as Indicators of Cardiovascular Risk Factors. The Canadian Heart Health Surveys”. International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 25 (5): 652–61. <https://doi.org/10.1038/sj.ijo.0801582>.
 - Janssen, Ian, Peter T. Katzmarzyk, og Robert Ross. 2004. “Waist Circumference and Not Body Mass Index Explains Obesity-Related Health Risk”. The American Journal of Clinical Nutrition 79 (3): 379–84. <https://doi.org/10.1093/ajcn/79.3.379>.
 - Bray, George A. 2004. “Don’t Throw the Baby out with the Bath Water”. The American Journal of Clinical Nutrition 79 (3): 347–49. <https://doi.org/10.1093/ajcn/79.3.347>.
+</details>

@@ -126,7 +126,7 @@ Dette er ganske godt eksemplificeret i et studie af [Dupont og kollegaer fra 200
 
 I tilfældig rækkefølge blev en gruppe moderat-trænede mænd (gennemsnitligt kondital på 55) udsat for et HIIT træningspas på cykel med enten aktiv eller passiv restitution i mellem arbejdsperioderne.
 
-Intervallerne bestod af 15s arbejde og 15s restitution, hvoraf arbejdsintensiteten var sat til en værdi svarende til 100% af VO<sub>2</sub>max tillagt en ekstra faktor baseret på en såkaldt “anaerobic scope” (et begreb der beskriver forskellen mellem en angivet laktat-tærskel og VO<sub>2</sub>max). Intensiteten ved aktiv restitution var sat til 40% af VO<sub>2</sub>max.
+Intervallerne bestod af 15s arbejde og 15s restitution, hvoraf arbejdsintensiteten var sat til en værdi svarende til 100% af VO₂max tillagt en ekstra faktor baseret på en såkaldt “anaerobic scope” (et begreb der beskriver forskellen mellem en angivet laktat-tærskel og VO₂max). Intensiteten ved aktiv restitution var sat til 40% af VO₂max.
 
 Forsøgspersonerne blev instrueret i udføre så mange arbejdsintervaller som muligt indtil udmattelse. Ikke overraskende formåede forsøgspersonerne at gennemføre mange flere arbejdsintervaller, når restitutionsperioden var passiv, sammenlignet med hvis restitutionen var aktiv (gennemsnitligt 962 vs. 427 sekunders træning).
 
@@ -146,7 +146,7 @@ Men forholder det sig så også sådan, når vi kigger længerevarende på HIIT-
 
 [Sánchez-Otero og kollegaer (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012711/) undersøgte dette i trænede mandlige løbere (gennemsnitligt kondital på omkring 60, og gennemsnitlig 10km-tid på omkring 31 min).
 
-I studiet af blev løberne udsat for en HIIT-protokol bestående af 4 x 2 min. arbejdsintervaller ved en hastighed svarende til VO<sub>2</sub>max (maximal aerobic speed, målt ved en University of Montréal Track Test), og 2 min. restitution imellem arbejdsperioden.
+I studiet af blev løberne udsat for en HIIT-protokol bestående af 4 x 2 min. arbejdsintervaller ved en hastighed svarende til VO₂max (maximal aerobic speed, målt ved en University of Montréal Track Test), og 2 min. restitution imellem arbejdsperioden.
 
 Dette HIIT-træningspas blev udført to gange, hvor restitutionen i det ene pas enten var passiv eller aktiv (ved en submaksimal intensitet svarende til 80% af den sekundære ventilatoriske tærskel), og omvendt i det andet pas.
 
@@ -154,11 +154,11 @@ Således var forholdet 1:1 mellem arbejds- og restitutionsperioden, som i ovenst
 
 Som forventet observerede man i studiet, at løberne under HIIT med aktiv restitution udviste et højere gennemsnitligt iltoptagelse sammenlignet med træningspasset, hvor restitutionsperioden var passiv.
 
-Men overraskende nok, så var der ikke forskel på tiden det tog løberne at nå VO<sub>2</sub>peak efter at arbejdsperioden startede - på trods af at de med aktiv restitution startede ud fra en højere “baseline”.
+Men overraskende nok, så var der ikke forskel på tiden det tog løberne at nå VO₂peak efter at arbejdsperioden startede - på trods af at de med aktiv restitution startede ud fra en højere “baseline”.
 
-Faktisk var der en tendens til, at løberne med passiv restitution tilbragte længere tid oppe omkring VO<sub>2</sub>peak, og at den opnåede VO<sub>2</sub>peak var højere under arbejdsintervallet, sammenlignet med aktiv restitution.
+Faktisk var der en tendens til, at løberne med passiv restitution tilbragte længere tid oppe omkring VO₂peak, og at den opnåede VO₂peak var højere under arbejdsintervallet, sammenlignet med aktiv restitution.
 
-Forfatterne diskuterer denne observation, og forklarer at det muligvis kan skyldes passiv restitution tillader højere amplituder og stejlere stigning i VO<sub>2</sub> ved påbegyndelse af arbejdsintervallet.
+Forfatterne diskuterer denne observation, og forklarer at det muligvis kan skyldes passiv restitution tillader højere amplituder og stejlere stigning i VO₂ ved påbegyndelse af arbejdsintervallet.
 
 Således kan det tænkes, at man er bedre gearet til at imødekommende musklernes pludselige stigende krav til iltoptagelsen som følge af passiv restitution, end hvis restitutionen er aktiv. Dette er illustreret i figuren herunder fra det pågældende studie, der viser repræsentative kurver for iltoptagelseshastigheden for en forsøgsperson.
 
@@ -166,13 +166,13 @@ Således kan det tænkes, at man er bedre gearet til at imødekommende musklerne
 
 Hvorfor er det særlig interessant?
 
-Grunden til at ovenstående fund er særligt interessante er fordi især mængden af træningsminutter i “rød zone” med høj iltoptagelseshastighed menes at have stor betydning for forbedringer i den maksimale iltoptagelseshastighed (VO<sub>2</sub>max) over tid ([Buchheit og Laursen 2013](https://pubmed.ncbi.nlm.nih.gov/23539308/); [Midgley et al 2006](https://pubmed.ncbi.nlm.nih.gov/16464121/)).
+Grunden til at ovenstående fund er særligt interessante er fordi især mængden af træningsminutter i “rød zone” med høj iltoptagelseshastighed menes at have stor betydning for forbedringer i den maksimale iltoptagelseshastighed (VO₂max) over tid ([Buchheit og Laursen 2013](https://pubmed.ncbi.nlm.nih.gov/23539308/); [Midgley et al 2006](https://pubmed.ncbi.nlm.nih.gov/16464121/)).
 
 Dette gælder især jo mere trænet en person er.
 
-Et andet studie af [Fennell & Hopker (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7862540/) har i veltrænede cykelryttere bekræftet, at passiv restitution under HIIT tillader, at man som minimum akkumulerer samme tid omkring VO<sub>2</sub>peak, som hvis restitutionsperioden er aktiv.
+Et andet studie af [Fennell & Hopker (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7862540/) har i veltrænede cykelryttere bekræftet, at passiv restitution under HIIT tillader, at man som minimum akkumulerer samme tid omkring VO₂peak, som hvis restitutionsperioden er aktiv.
 
-Her gjorde det pågældende studie brug af længerevarende intervaller af 4 og 8 min. varighed med 2:1 arbejds-restitutions forhold. Så argumentet om, at man med aktiv restitution starter med en højere “baseline”, og dermed hurtigere kan opnå VO<sub>2</sub>peak i efterfølgende arbejdsinterval, synes således ikke at være begrundet.
+Her gjorde det pågældende studie brug af længerevarende intervaller af 4 og 8 min. varighed med 2:1 arbejds-restitutions forhold. Så argumentet om, at man med aktiv restitution starter med en højere “baseline”, og dermed hurtigere kan opnå VO₂peak i efterfølgende arbejdsinterval, synes således ikke at være begrundet.
 
 Ligeledes rapporterede både det pågældende studie af Fennell & Hopker, og det førnævnte studie af Sánches-Otero og kollegaer, at udøverne følte mindre grader af udmattelse (målt subjektiv på en RPE-skala efter hvert interval), når restitutionsperioden var passiv.
 
@@ -186,7 +186,7 @@ Men det er usikkert, hvorvidt denne ekstra, og relative beskedne, træningsvolum
 
 Især skal man skal nok ikke forvente, at det har en effekt på udholdenhedskapaciteten, hvis man i løbet af sin træningsuge ellers har en stor volumen af “mængdetræning” ved lav-til-moderat intensitet.
 
-I hvert fald er det højst tvivlsom, at det vil have en effekt på VO<sub>2</sub>max og dit kondital - især hvis man er veltrænet.
+I hvert fald er det højst tvivlsom, at det vil have en effekt på VO₂max og dit kondital - især hvis man er veltrænet.
 
 ## Har dit valg af pauserne nogen betydning for tilpasningerne til HIIT over tid?
 
@@ -194,11 +194,11 @@ Godt spørgsmål, og svaret derpå blæser måske stadig i vinden. Så vidt jeg 
 
 Studiet af Yamagishi & Babraj anvendte dog en relativ kort træningsperiode med seks HIIT-sessioner fordelt over 2 uger.
 
-HIIT-træningen bestod af 4-6 x 30 sek. all-out sprinter på cykel med 4 min. restitution mellem arbejdsperioderne. En gruppe af utrænede mænd og kvinder (gennemsnitligt kondital på omkring 38-39) blev inddelt i en passiv og aktiv restitution gruppe, hvor den aktive gruppe cyklede ved en intensitet svarende til 40% af VO<sub>2</sub>peak under de 4 min. restitution mellem arbejdsperioderne.
+HIIT-træningen bestod af 4-6 x 30 sek. all-out sprinter på cykel med 4 min. restitution mellem arbejdsperioderne. En gruppe af utrænede mænd og kvinder (gennemsnitligt kondital på omkring 38-39) blev inddelt i en passiv og aktiv restitution gruppe, hvor den aktive gruppe cyklede ved en intensitet svarende til 40% af VO₂peak under de 4 min. restitution mellem arbejdsperioderne.
 
 Udover en højere gennemsnitlig iltoptagelseshastighed under træningssessioner for aktiv restitution-gruppen, var der ikke andre forskelle i præstationen undervejs i de 6 træningssessioner.
 
-Efter de to ugers træning blev der ikke fundet forbedringer i VO<sub>2</sub>peak for nogen af de to grupper, og dermed ikke en forskel i ændringerne mellem dem. Gruppen med aktiv restitution forbedrede critical power og samlet arbejde (i kJ) udført i løbet af en 3-minutters all-out test sammenlignet med passiv restitution gruppen (der ikke udviste forbedringer på disse parametre).
+Efter de to ugers træning blev der ikke fundet forbedringer i VO₂peak for nogen af de to grupper, og dermed ikke en forskel i ændringerne mellem dem. Gruppen med aktiv restitution forbedrede critical power og samlet arbejde (i kJ) udført i løbet af en 3-minutters all-out test sammenlignet med passiv restitution gruppen (der ikke udviste forbedringer på disse parametre).
 
 Det pågældende studie efterlader dog meget tilbage at ønske af ting, som ville være relevante at undersøge.
 
@@ -211,5 +211,5 @@ Da det ikke vil vælte din intervaltræning, om du vælger aktive eller passive 
 Lidt mere udpenslet er de praktiske anbefalinger:
 
 * Har du planlagt en hård intervaltræning med korte og meget intensive intervaller (eks. 15/15s), hvor du ved, at du bliver udfordret henimod slutningen af træningen, så vil det være anbefalelsesværdigt at lade restitutionsperioderne være passive. Således sikrer du, at du kan gennemføre det planlagte antal intervaller.
-* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO<sub>2</sub>peak i dine arbejdsintervaller.
+* Har du planlagt en mængde intervaller af omkring 1-3 min. varighed, og relativ kort pause (30s-1 min. pause)  kan du ligeledes med fordel holde dig til passiv restitution mellem dine intervaller. Dette med henblik på at forsøge at optimere tiden tæt ved VO₂peak i dine arbejdsintervaller.
 * Har du planlagt længere intervaller (4 min. eller derover) og tilsvarende længere restitution (på 2-3 min. eller derover) er det sandsynligvis mindre relevant, om du vælger det ene fremfor det andet.

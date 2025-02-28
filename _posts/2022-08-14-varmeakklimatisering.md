@@ -178,7 +178,7 @@ Ultraløberen Christian Madsen har stor [erfaring](https://www.loberen.dk/conten
 - Veksel mellem varmetræning og køligere dage, hvor intensiteten i træning kan bevares.
 - Hvis du har adgang til en saunadragt, så kan den også bruges.
 
-Der er altså alternative metoder, hvis du skal varmetræne og forberede dig til varmen. Hvis du skal akklimatisere til at kunne bevæge dig i varmen, så skal du bevæge dig med en intensitet over 50% af VO<sub>2</sub>max. Det er ikke nok at sidde stille i saunaen.
+Der er altså alternative metoder, hvis du skal varmetræne og forberede dig til varmen. Hvis du skal akklimatisere til at kunne bevæge dig i varmen, så skal du bevæge dig med en intensitet over 50% af VO₂max. Det er ikke nok at sidde stille i saunaen.
 
 [Scoon et al 2006](https://www.jsams.org/article/S1440-2440%2806%2900139-3/abstract) havde seks distanceløbere til at sidde i sauna i en fugtig sauna på omkring 90°C i ~30 minutter fordelt på 12 gange over tre uger. Forskerne konkluderede, at dette kunne være en måde at vænne sig til varmen, formentlig fordi saunaturene var med til skabe en stigende blodvolumen.
 

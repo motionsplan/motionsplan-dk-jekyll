@@ -228,6 +228,8 @@ Du kan også se vores anden artikel om [Outdoor Fitness](/artikel/dogmefitness/)
 
 {% include figure image_path="/assets/images/naturfitness/forside.jpg" caption="[Download](https://naturstyrelsen.dk/media/207368/naturfitness_haefte_print_2012.pdf) Naturstyrelsens pjece med alle øvelserne til udendørs fitness og naturfitness" alt="Forside til pjece om Outdoor fitness, udendørs fitness og naturfitness" %}
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/aktiviteter-i-naturen/cykling-loeb-og-fitness/naturfitness)
+</details>

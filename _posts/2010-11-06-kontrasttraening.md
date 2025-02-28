@@ -50,9 +50,11 @@ Du kan se forslag til øvelser i artiklen: [Contrast training for strength, size
 
 Har du erfaring med kontrasttræning, forslag til øvelser eller andre input, så benyt gerne kommentarerne.
 
-### Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Contrast training for strength, size and power](https://www.tmuscle.com/free_online_article/sports_body_training_performance/contrast_training_for_strength_size_and_power); se flere referencer i artiklen
 - [The Powerful effects of CONTRAST TRAINING](https://www.defrancostraining.com/the-powerful-effects-of-contrast-training/)
 - [Post-Activation Potentation: Theory and application](https://bretcontreras.wordpress.com/2010/04/05/post-activation-potentiation-theory-and-application/)
 - [Get Stronger and Faster with the French Contrast Method](https://www.jtsstrength.com/get-stronger-faster-french-contrast-method/)
+</details>

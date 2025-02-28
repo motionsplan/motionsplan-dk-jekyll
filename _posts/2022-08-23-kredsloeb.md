@@ -122,10 +122,8 @@ Kredsløbssystemet er et kontinuerligt kredsløb, der leverer iltrigt blod til a
 
 Hvis du vil vide mere, så kan du læse indlægget om [kondition](/kondition/).
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Poole, D. C., Kano, Y., Koga, S., & Musch, T. I. (2021). August Krogh: Muscle capillary function and oxygen delivery. Comparative Biochemistry and Physiology. Part A, Molecular & Integrative Physiology, 253, 110852. <https://doi.org/10.1016/j.cbpa.2020.110852>
 </details>

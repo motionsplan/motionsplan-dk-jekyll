@@ -101,3 +101,5 @@ breadcrumbs: true
 {% endif %}
 
 </div>
+
+{% include stub.md %}

@@ -98,10 +98,10 @@ Du kan arbejde med en konstant arbejdsbelastning. Det er let at implementere på
 
 Afhængig af dit nuværende niveau, så anbefales to forskellige protokoller.
 
-- **Almindelige atleter**. 100 minutter med 40-50% af VO<sub>2</sub>max i 10-14 dage. Det er let at implementere, og du kan let måle daglige forbedringer undervejs, hvis du måler din puls undervejs. Hvis din puls er lavere, med samme arbejdsbelastning, så er din akklimatisering til varmen formentlig forbedret.
-- **Veltrænede atleter**. 30-45 minutter med 75% af VO<sub>2</sub>max i 5-9 dage. Du kan supplere metoden med passiv varmesksponering.
+- **Almindelige atleter**. 100 minutter med 40-50% af VO₂max i 10-14 dage. Det er let at implementere, og du kan let måle daglige forbedringer undervejs, hvis du måler din puls undervejs. Hvis din puls er lavere, med samme arbejdsbelastning, så er din akklimatisering til varmen formentlig forbedret.
+- **Veltrænede atleter**. 30-45 minutter med 75% af VO₂max i 5-9 dage. Du kan supplere metoden med passiv varmesksponering.
 
-Angivelserne kræver naturligvis, at du kender belastningen ved VO<sub>2</sub>max. Der findes forskellige tests både til løb, cykling og roning, som kan hjælpe dig med det.
+Angivelserne kræver naturligvis, at du kender belastningen ved VO₂max. Der findes forskellige tests både til løb, cykling og roning, som kan hjælpe dig med det.
 
 Et eksempel:
 

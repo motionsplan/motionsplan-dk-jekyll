@@ -19,17 +19,17 @@ tags:
 last_modified_at: 2021-03-06T23:14:14Z
 ---
 
-Din maksimale iltoptagelse eller VO<sub>2</sub>max er en af elementerne i din [kondition](/kondition/). Den maksimale iltoptagelse kalder man også VO2 max.
+Din maksimale iltoptagelse eller VO₂max er en af elementerne i din [kondition](/kondition/). Den maksimale iltoptagelse kalder man også VO2 max.
 
 Hvad er den maksimale iltoptagelse (VO2 max)? **Den maksimale iltoptagelse (VO2 max) er et udtryk for, hvor meget ilt du maksimalt kan optage pr. minut. Iltoptagelsen måles i liter pr. minut.**
 
 Du kan bruge den maksimale iltoptagelse (VO2 max) til at fortælle, hvor god form du er i forhold til andre atleter. For at kunne sammenligne dig med andre, så omregner man den maksimale iltoptagelse til et [kondital](/kondital/). Konditallet er den maksimale iltoptagelse delt med din vægt.
 
-Kredsløbet består af flere forskellige afhængige systemer. Hvis du gerne vil forbedre din maksimale tiloptagelse (VO<sub>2</sub>max), så skal du arbejde i nærheden af den maksimale iltoptagelse.
+Kredsløbet består af flere forskellige afhængige systemer. Hvis du gerne vil forbedre din maksimale tiloptagelse (VO₂max), så skal du arbejde i nærheden af den maksimale iltoptagelse.
 
 Det er ikke så overraskende ud fra specificitetsprincippet (SAID).
 
-I aerobe udholdenhedsidrætter afhænger præstationen bl.a. af den maksimale iltoptagelse. Derfor er det selvfølgelig interessant at have kendskab til træningsmetoder, der kan forbedre VO<sub>2</sub>max mest effektivt.
+I aerobe udholdenhedsidrætter afhænger præstationen bl.a. af den maksimale iltoptagelse. Derfor er det selvfølgelig interessant at have kendskab til træningsmetoder, der kan forbedre VO₂max mest effektivt.
 
 En forøgelse af den maksimale iltoptagelse antages generelt at afhænge af arbejdets intensitet, varighed og frekvens.
 
@@ -92,7 +92,7 @@ Ingen mennesker slår dog hesten, som kan have kondital op i omegnen og over 200
 
 ## Forbedring af VO2 max afhænger af intensiteten
 
-Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO<sub>2</sub>max. Helgerud et al (2007) undersøgte både kortvarig, intens [intervaltræning](/intervaltraening/) og længerevarende moderat træning.
+Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO₂max. Helgerud et al (2007) undersøgte både kortvarig, intens [intervaltræning](/intervaltraening/) og længerevarende moderat træning.
 
 Helgerud et al (2007) samlede 40 moderat-trænede mandlige universitetsstuderende. Deltagerne blev inddelt i fire træningsgrupper med en træningsfrekvens på 3 gange pr. uge i 8 uger. De 4 træningsgrupper arbejdede med forskellig intensitet, men forskerne sørgede for, at det totale arbejde var det samme ved at justere varigheden af træningen.
 
@@ -107,19 +107,19 @@ Pulsprofilerne for de forskellige træningsprotokoller så sådan her ud:
 
 {% include figure image_path="/assets/images/helgerud-2007-alle.png" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls). Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="Pulseksempler fra de fire grupper i Helgerud studie" %}
 
-Studiet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 med henholdsvis 5,5% og 7,2% efter 8 ugers træning, hvilket ikke var tilfældet for LSD- og LT-gruppen. Der var ikke signifikant forskel imellem 15/15 og 4x4, hvilket tyder på, at begge meget forskelligartede protokoller kan bruges til at forbedre den maksimale iltoptagelse.
+Studiet viste, at VO₂max blev signifikant forbedret i 15/15 og 4x4 med henholdsvis 5,5% og 7,2% efter 8 ugers træning, hvilket ikke var tilfældet for LSD- og LT-gruppen. Der var ikke signifikant forskel imellem 15/15 og 4x4, hvilket tyder på, at begge meget forskelligartede protokoller kan bruges til at forbedre den maksimale iltoptagelse.
 
-Studiet viste også, at **slagvolumen (SV) var signifikant forøget i 15/15- og 4x4-gruppen**, hvilket ikke var tilfældet for LSD- og LT-gruppen. Den øgede slagvolumen i 15/15 og 4x4 korrelerede med den øgede VO<sub>2</sub>max, hvilket understøtter at den maksimale iltoptagelse også afhænger af slagvolumen.
+Studiet viste også, at **slagvolumen (SV) var signifikant forøget i 15/15- og 4x4-gruppen**, hvilket ikke var tilfældet for LSD- og LT-gruppen. Den øgede slagvolumen i 15/15 og 4x4 korrelerede med den øgede VO₂max, hvilket understøtter at den maksimale iltoptagelse også afhænger af slagvolumen.
 
 Den maksimale iltoptagelse kræver en stor minutvolumen, og da den [maksimale puls](/test-max-puls/) ikke ændrer sig, så er der altså brug for, at hjertet kan pumpe mere blod rundt pr. slag for at forøge minutvolumen.
 
-{% include figure image_path="/assets/images/helgerud-2007-vo2-sv.png" caption="Procentvis ændringer i absolutte VO<sub>2</sub>max og absolutte slagvolumen. Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="procentvise ændringer absolutte VO2 max og slagvolumen" %}
+{% include figure image_path="/assets/images/helgerud-2007-vo2-sv.png" caption="Procentvis ændringer i absolutte VO₂max og absolutte slagvolumen. Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="procentvise ændringer absolutte VO2 max og slagvolumen" %}
 
-[Anette Dalbøge](https://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
+[Anette Dalbøge](https://web.archive.org/web/20130605151806/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/){:rel="nofollow"} konkluderer, at studiet tyder på, at intens intervaltræning er mere effektiv til at forøge VO₂max hos moderat-trænede mandlige løbere i forhold til længerevarende træning med lav til moderat intensitet.
 
 Derudover viser studiet, at du ikke kan kompensere for en reduceret arbejdsintensitet ved at forøge arbejdstiden for at opretholde det samme totale arbejde, hvis du gerne vil forbedre din maksimale iltoptagelse.
 
-Intensiteten ser ud til at være afgørende for at forbedre VO<sub>2</sub>max.
+Intensiteten ser ud til at være afgørende for at forbedre VO₂max.
 
 ## Usikkerheder i studiet omkring forbedring af den maksimale iltoptagelse
 
@@ -141,7 +141,7 @@ Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i gruppe
 
 ## Konklusion
 
-Det bedste råd i øjeblikket er formentligt, at du skal huske at ramme sit energisystem bredt i din træning. Hvis du vil flytte VO<sub>2</sub>max, skal du formentlig også lave intervaller med høj intensitet.
+Det bedste råd i øjeblikket er formentligt, at du skal huske at ramme sit energisystem bredt i din træning. Hvis du vil flytte VO₂max, skal du formentlig også lave intervaller med høj intensitet.
 
 Du kan læse mere om, hvordan du med [HIIT-træning](/hiit/) kan forbedre din maksimale iltoptagelse.
 

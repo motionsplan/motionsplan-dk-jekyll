@@ -58,7 +58,7 @@ Hatle et al (2014) konkluderede på baggrund af studiet:
 >
 > --- <cite>[Hatle et al (2014)](https://doi.org/10.1371/journal.pone.0088375)</cite>
 
-Når man så kigger på, hvor hurtigt det går ned ad bakke igen for konditallet, så går det i nogenlunde samme rate. Groft set i figuren kan man øge sit kondital med 0,5-1 ml O<sub>2</sub>/min/kg om ugen, og så falder det med nogenlunde samme rate, hvis man går ind i en detræningssituation.
+Når man så kigger på, hvor hurtigt det går ned ad bakke igen for konditallet, så går det i nogenlunde samme rate. Groft set i figuren kan man øge sit kondital med 0,5-1 ml O₂/min/kg om ugen, og så falder det med nogenlunde samme rate, hvis man går ind i en detræningssituation.
 
 Hvis du står over for at skulle på ferie i nogle uger, hvor du ikke kan få trænet så meget, så kan du måske udnytte effekten med, at der er en forsinket effekt af at lave træning med en høj frekvens i ugerne op til ferien, hvor konditallet så igennem ferien vil stige og toppe efter 10-14 dage.
 

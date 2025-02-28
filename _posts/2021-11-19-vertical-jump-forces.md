@@ -116,7 +116,7 @@ I den nedadgående bevægelse oparbejdede vi et impuls på -70 Ns. Nu skal vi fi
 
 {% include motionsplan/math formula="\int_{t_2}^{t_3} F_{Jumper}(t) \mathrm{d}t = 70 Ns" %}
 
-<em>F(t)</em> og <em>t<sub>2</sub></em> er kendte. Nu kigger vi efter <em>t<sub>3</sub></em>, hvor impulset er lig med 70 Ns.
+<em>F(t)</em> og <em>t₂</em> er kendte. Nu kigger vi efter <em>t<sub>3</sub></em>, hvor impulset er lig med 70 Ns.
 
 Det kan illusteres i grafen, hvor vi kigger efter <em>t<sub>3</sub></em>, så vi har et område under grafen, som også er 70 Ns.
 

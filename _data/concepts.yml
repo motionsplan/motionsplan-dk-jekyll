@@ -12,22 +12,22 @@ kondition:
       btn_label: "Lær om kondition"
       url: "/kondition/"
 vo2max:
-  title: 🫁 Maksimal iltoptagelse (VO<sub>2</sub>max)
+  title: 🫁 Maksimal iltoptagelse (VO₂max)
   category: Aerob og anaerob kapacitet
-  faq_title: 🫁 Hvad er den den maksimale iltoptagelse VO<sub>2</sub>max)?
+  faq_title: 🫁 Hvad er den den maksimale iltoptagelse VO₂max)?
   excerpt: "Maksimal iltoptagelse (VO₂ max) er et mål for kroppens evne til at optage og forbruge ilt under træning. Det er en af de vigtigste faktorer for udholdenhed og bruges ofte til at vurdere kondition. VO₂ max kan forbedres gennem træning med høj intensitet."
   btn_label: "Lær om VO2max"
   url: "/maksimale-iltoptagelse-vo2max/"
   type: kondition
   variations:
-    - title: "🫁 Maksimal iltoptagelse (VO<sub>2</sub>max)"
+    - title: "🫁 Maksimal iltoptagelse (VO₂max)"
       excerpt: "Maksimal iltoptagelse (VO₂ max) er et mål for kroppens evne til at optage og forbruge ilt under træning. Det er en af de vigtigste faktorer for udholdenhed og bruges ofte til at vurdere kondition. VO₂ max kan forbedres gennem træning med høj intensitet."
       btn_label: "Lær om VO2max"
       url: "/maksimale-iltoptagelse-vo2max/"
 kondital:
   type: kondition
   category: Aerob og anaerob kapacitet
-  title: "💨 Kondital (din maksimale iltoptagelse i forhold til din kropsvægt)"
+  title: "💨 Kondital (din VO₂ max i forhold til din kropsvægt)"
   faq_title: 💨 Hvad er den konditallet?
   excerpt: "Kondital er et mål for din aerobe kondition og angiver, hvor meget ilt din krop kan optage og forbruge pr. minut pr. kilo kropsvægt (ml O₂/kg/min). Et højere kondital betyder bedre udholdenhed og præstation. 💨🏃‍♂️"
   btn_label: "Lær om kondital"
@@ -87,3 +87,20 @@ løbeøkonomi:
       excerpt: "Løbeøkonomi handler om, hvor meget energi din krop bruger til at bevæge sig fremad. Bedre teknik og træning kan reducere dit energiforbrug. ⚡"
       btn_label: "Læs om løbeøkonomi"
       url: "/lobeokonomi/"
+maxpuls:
+  type: kondition
+  category: Pulstræning
+  title: "❤️ Maxpuls – Din højeste hjertefrekvens"
+  faq_title: ❤️ Hvad er maxpuls?
+  excerpt: "Maxpuls er det højeste antal slag, dit hjerte kan slå per minut. Det er en afgørende faktor for pulstræning og bruges til at bestemme dine træningszoner. 💪🔥"
+  btn_label: "Find din maxpuls"
+  url: "/maxpuls/"
+  variations:
+    - title: "❤️ Maxpuls – Hvor hurtigt kan dit hjerte slå?"
+      excerpt: "Din maxpuls er genetisk bestemt og falder med alderen. Den er vigtig for at beregne dine træningszoner og optimere din kondition. 📈"
+      btn_label: "Lær om maxpuls"
+      url: "/maxpuls/"
+    - title: "❤️ Maxpuls – Nøglen til effektiv pulstræning"
+      excerpt: "Ved at kende din maxpuls kan du træne smartere og forbedre din udholdenhed. Find ud af, hvordan du tester og beregner den. ⚡"
+      btn_label: "Læs om maxpuls"
+      url: "/maxpuls/"

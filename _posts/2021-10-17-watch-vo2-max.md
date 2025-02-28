@@ -37,7 +37,7 @@ garmin:
     alt: garmin vo2max pulsur
 ---
 
-GPS-ure og pulsmålere er begyndt at estimere din maksimale iltoptagelse for dig. Det kan lyde besnærende, da målingerne er noget lettere end en dyr tur ind i et laboratorium, hvor du skal igennem en udmattende løbebåndsprotokol med dyrt og besværligt udstyr. Men hvor præcise er løbeurernes forudsigelse af [VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)?
+GPS-ure og pulsmålere er begyndt at estimere din maksimale iltoptagelse for dig. Det kan lyde besnærende, da målingerne er noget lettere end en dyr tur ind i et laboratorium, hvor du skal igennem en udmattende løbebåndsprotokol med dyrt og besværligt udstyr. Men hvor præcise er løbeurernes forudsigelse af [VO₂max](/maksimale-iltoptagelse-vo2max/)?
 
 {% comment %}
 
@@ -63,15 +63,15 @@ Manipulere pulsen med koffein - kaffe
 
 Her kigger vi på forskellige studiers vurdering af nøjagtigheden i løbeurerne fra Garmin og Polar. Samlet set er resultaterne ikke helt så dårlige, som jeg havde forventet, men der er også nogle interessante forskelle mellem tilgangen for de enkelte ure.
 
-## Hvad er VO<sub>2</sub>max, og hvordan estimerer du det?
+## Hvad er VO₂max, og hvordan estimerer du det?
 
-Din maksimale iltoptagelse (VO<sub>2</sub>max) er et udtryk for din kondition. Tallet fortæller dig, hvor hurtigt du kan tage ilt fra luften, levere ilten gennem blodbanen og bruge ilten i musklerne. Vi kalder det også på dansk for dit [kondital](/kondital/).
+Din maksimale iltoptagelse (VO₂max) er et udtryk for din kondition. Tallet fortæller dig, hvor hurtigt du kan tage ilt fra luften, levere ilten gennem blodbanen og bruge ilten i musklerne. Vi kalder det også på dansk for dit [kondital](/kondital/).
 
 Der er forskellige måder at måle eller estimere din maksimale iltoptagelse på. Den mest præcise måde er at **måle iltoptagelsen direkte**, mens du træner til udmattelse ved at have en maske på, hvor hele din ind- og udånding foregår.
 
 Du kan også estimere iltoptagelsen med forskellige **maksimale tests**, fx en [12 minutters Cooper test](/cooper-test/) eller [Bip-testen](/bip-test/), hvor dit resultat omregnes til en tilnærmet iltoptagelse.
 
-Der findes også **submaksimale tests**, hvor du bruger din puls, fornemmelse for anstrengelse eller dit arbejde til at estimere iltoptagelsen. Typisk bruges også grundlæggende oplysninger som dit alder og dit køn i udregningerne. Det er sådan Garmin bl.a. estimere din VO<sub>2</sub>max med FirstBeat-teknologien.
+Der findes også **submaksimale tests**, hvor du bruger din puls, fornemmelse for anstrengelse eller dit arbejde til at estimere iltoptagelsen. Typisk bruges også grundlæggende oplysninger som dit alder og dit køn i udregningerne. Det er sådan Garmin bl.a. estimere din VO₂max med FirstBeat-teknologien.
 
 Endelig findes der estimater, hvor du slet ikke træner. Her bruges bare oplysninger om din alder, [hvilepuls](/hvilepuls/) og typiske aktivitetsniveau. Disse grundlæggende oplysninger er sammen med [heart rate variability](/hrv/) grundlaget for Polars 5 minutters konditionstest, som findes i Polar Beat og deres ure. Du kan se flere [kondital beregnere](/beregn-kondital/).
 
@@ -85,7 +85,7 @@ I denne figur kan du se, hvor meget de forskellige ure over- og underestimerer k
 
 {% include figure image_path="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/garmin-vs-polar-1506613579.jpg?resize=768:*" caption="Sammenligning af Garmin FR230, Garmin FR235 og Polar til måling af kondital. Kilde: [runnersworld.com](https://www.runnersworld.com/gear/a20856601/can-your-watch-estimate-your-vo2-max/)" %}
 
-[Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/) sammenlignede Polar V800 og Garmin Forerunner 230 til at estimere V̇o<sub>2</sub>max. De konkluderer:
+[Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/) sammenlignede Polar V800 og Garmin Forerunner 230 til at estimere V̇o₂max. De konkluderer:
 
 > The results of this study indicate that the GF230 can provide an accurate estimate of V̇o2max in both sexes. The PV800 can provide an accurate estimate of V̇o2max for women but not men. Estimates of V̇o2max from the both devices should be used with caution because of the large random error associated with them.
 >
@@ -103,7 +103,7 @@ Måske er det også derfor, at Garmin-målingerne ser ud til konsekvent at overv
 
 ## Brystbælte vs håndledssensor
 
-Pulsmålinger med brystbælter betragtes som meget nøjagtige, og håndledssensorerne producerer tilsyneladende pulsværdier, der konsekvent var lavere end brystbæltet. Det vil betyde, at målinger med håndledssensorer overvurderede VO<sub>2</sub>max, når pulsdata er kunstigt lave. 
+Pulsmålinger med brystbælter betragtes som meget nøjagtige, og håndledssensorerne producerer tilsyneladende pulsværdier, der konsekvent var lavere end brystbæltet. Det vil betyde, at målinger med håndledssensorer overvurderede VO₂max, når pulsdata er kunstigt lave. 
 
 [Wang et al (2017)](https://jamanetwork.com/journals/jamacardiology/fullarticle/2566167) fandt at en håndledsmåler aldrig var lige så nøjagtig som en brystmåler. Håndledsmålingerne var mest præcise i hvile og præcisionen faldt, når folk begyndte at træne.
 

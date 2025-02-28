@@ -37,7 +37,7 @@ Trappetesten er en ofte brugt cykeltest. Testen kan give et godt estimat på din
 
 Trappetesten kan altså ikke stå i stedet for en FTP-test, men den kan hjælpe med at finde det niveau, du kan forsøge at ramme i FTP-testen.
 
-Hvis du kører trappetesten med jævne mellemrum, fx hver måned, så kan du følge med i, hvordan din VO<sub>2</sub>max udvikler sig over tid. Den maksimale iltoptagelse er sammen med Functional Threshold Power afgørende fysiologiske parametre, når du kører cykelløb.
+Hvis du kører trappetesten med jævne mellemrum, fx hver måned, så kan du følge med i, hvordan din VO₂max udvikler sig over tid. Den maksimale iltoptagelse er sammen med Functional Threshold Power afgørende fysiologiske parametre, når du kører cykelløb.
 
 Hvis du har en hometrainer, så kan du køre en trappetest hjemme. Testen giver dig et hurtigt og præcist billede af din aerobe præstationsevne med høje intensiteter.
 
@@ -51,9 +51,9 @@ Den belastning kører du med i 2,5 minutter. Herefter øges belastningen med 25 
 
 Husk at notere, hvor længe du kan køre på den højeste belastning i testen.
 
-## Hvordan finder jeg min VO<sub>2</sub>max?
+## Hvordan finder jeg min VO₂max?
 
-I denne Youtube-video kan du se, hvordan du kan estimere din VO<sub>2</sub>max på baggrund af resultaterne i testen.
+I denne Youtube-video kan du se, hvordan du kan estimere din VO₂max på baggrund af resultaterne i testen.
 
 Videoen er rigtig god til at forklare, hvad den maksimale iltoptagelse er, og hvordan du bruger trappetesten til at udregne den. Hvis du ikke har brug for at få repeteret, hvad iltoptagelsen er, så kan du springe hen til omkring 4:45 i videoen.
 
@@ -67,7 +67,7 @@ Jeg har lavet en beregner, hvis du foretrækker ikke selv skulle lave beregninge
 
 ## Forklaring til trappetest-beregneren
 
-Der er en **lineær sammenhæng mellem kraft (watt) og iltoptagelsen** ifølge Hawley (1992). Hawley (1992) undersøgte en del forskellige (veltrænede mandlige) cykelryttere, og sammenhængen mellem kraftudfoldelsen og iltoptagelsen kunne beskrives af formel, som vi bruger til at estimere VO<sub>2</sub>max ud fra den power, man kører med i trappetesten.
+Der er en **lineær sammenhæng mellem kraft (watt) og iltoptagelsen** ifølge Hawley (1992). Hawley (1992) undersøgte en del forskellige (veltrænede mandlige) cykelryttere, og sammenhængen mellem kraftudfoldelsen og iltoptagelsen kunne beskrives af formel, som vi bruger til at estimere VO₂max ud fra den power, man kører med i trappetesten.
 
 For at udregne den maksimale iltoptagelse, så skal du bruge din Peak Power Output (PPO).
 
@@ -87,7 +87,7 @@ Formlen ser sådan her ud:
 
 ***
 
-VO<sub>2</sub> = 0,01141 * PPO + 0,435
+VO₂ = 0,01141 * PPO + 0,435
 
 ***
 
@@ -99,7 +99,7 @@ For det andet undersøgte Hawley (1992) kun mænd. Det betyder, at formlen forme
 
 ## Hvordan finder jeg mit FTP-niveau?
 
-Når du har fundet dine watt ved VO<sub>2</sub>max, så kan du typisk estimere at dit FTP-niveau er på omkring 82,5%.
+Når du har fundet dine watt ved VO₂max, så kan du typisk estimere at dit FTP-niveau er på omkring 82,5%.
 
 Hvis du fx kørte 400 watt ved din maksimale iltoptagelse, så vil din FTP altså omtrentligt være 330 watt.
 

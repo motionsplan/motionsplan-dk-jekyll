@@ -27,7 +27,7 @@ tags:
   - submaksimal test
   - test
   - populær
-last_modified_at: 2025-02-20T19:14:14Z
+last_modified_at: 2024-02-20T19:14:14Z
 feature_row_tests:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
     alt: "Kondition og tests"
@@ -46,23 +46,25 @@ Her dykker vi ned i, hvordan du kan få målt din iltoptagelse direkte med maske
 
 ## Hvad er en laboratorietest af iltoptagelse?
 
-En nøjagtig direkte test af iltoptagelse kræver, at man har udstyr, der kan måle ilt-, CO<sub>2</sub>-koncentrationer og volumen af ud- og indåndingsluften. Typisk bliver direkte tests af iltoptagelse lavet i et laboratorium, men der er også kommet udstyr, hvor man kan måle det under andre forhold.
+En nøjagtig direkte test af iltoptagelse kræver, at man har udstyr, der kan måle ilt-, CO₂-koncentrationer og volumen af ud- og indåndingsluften. Typisk bliver direkte tests af iltoptagelse lavet i et laboratorium, men der er også kommet udstyr, hvor man kan måle det under andre forhold.
 
 Typisk foregår selve arbejdet på løbebånd eller cykelergometer, så man også kender arbejdet forsøgspersonen laver.
 
-Princippet er, at man beregner, hvor meget ilt forsøgspersonen indånder, og måler hvor meget ilt forsøgspersonen puster ud igen. Det kalder man også den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
+## Princippet bag målingen af iltoptagelse
 
-Forskellen mellem disse to tal er den mængde ilt, der er blevet optaget i kroppen, og det kalder vi _iltoptagelsen_.
+Princippet er, at man beregner, hvor meget ilt forsøgspersonen indånder, og måler hvor meget ilt forsøgspersonen puster ud igen. Forskellen mellem disse to tal er den mængde ilt, der er blevet optaget i kroppen, og det kalder vi _iltoptagelsen_.
 
 Lidt forenklet er regnestykket:
 
 ***
 
-Iltoptagelse = (Liter luft ind x iltprocent i indåndingsluft) – (liter luft ud x iltprocent i udåndingsluft)
+VO₂ = (VE<sub>ind</sub> x O₂% i indåndingsluft) – (VE<sub>ud</sub> x O₂% i udåndingsluft)
 
 ***
 
 Testprotokollen kan variere alt efter hvor veltrænet personen er, men for de fleste tests er princippet, at man gradvist øger belastningen indtil man ikke kan mere.
+
+I en iltoptagelsestest måler man også ofte den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
 
 ## Hvad kan du bruge en iltoptagelsestest til?
 
@@ -86,7 +88,7 @@ En submaksimal test kan bruges til at kigge på atletens evne til at præstere s
 
 Typisk bruges testen til at bestemme den fysiske kapacitet ved den aerobe (AeT) og anaerobe tærskel (AT). Samlet kan det give et fyldestgørende billede af udholdenheden for kredsløbet og musklerne.
 
-Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO<sub>2</sub>-udvekslingen. Desuden måles puls, mælkesyreniveau (laktat), arbejdsintensiteten og arbejdsøkonomi (ved løb løbeøkonomien).
+Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO₂-udvekslingen. Desuden måles puls, mælkesyreniveau (laktat), arbejdsintensiteten og arbejdsøkonomi (ved løb løbeøkonomien).
 
 Ud fra testresultaterne kan man identificere træningszoner, der kan bruges i den efterfølgende træningsperiode.
 
@@ -104,7 +106,7 @@ Testen afsluttes altså af forsøgslederen ud fra nogle forskellige kriterier.
 
 {% include figure image_path="https://testcenter.vih.dk/assets/images/submax-vaerdier.jpg" caption="Iltoptagelseshastighed og løbeøkonomi" alt="Iltoptagelseshastighed og løbeøkonomi" %}
 
-**OBS:** Procent af VO<sub>2</sub>max og maksimal puls kan kun angives, hvis der også samtidigt laves en maksimal test.
+**OBS:** Procent af VO₂max og maksimal puls kan kun angives, hvis der også samtidigt laves en maksimal test.
 {: .notice .notice--info }
 
 På baggrund af ovenstående er det muligt at estimere en række træningszoner:
@@ -118,7 +120,7 @@ Læs: [Find dine træningszoner](/traeningszoner/)
 
 ## Maksimal iltoptagelsestest
 
-Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO<sub>2</sub>-max. Der måles maksimale værdier for iltoptagelse, CO<sub>2</sub>-udvekskling, puls, lungekapacitet, og laktat.
+Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO₂-max. Der måles maksimale værdier for iltoptagelse, CO₂-udvekskling, puls, lungekapacitet, og laktat.
 
 Selve testen er en progressiv max-test bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Der startes på den hastighed, der blev løbet ved i det sidste interval i den submaksimale-test.
 
@@ -132,9 +134,12 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
 3. Laktatmåling skal være over 8 mmol.
 4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
-5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO<sub>2</sub>) kaldes den ventilatoriske kvotient, og skal være over 30.
+5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
 
 Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale.
+
+**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
+{: .notice }
 
 ## Hvilken test skal du vælge?
 
@@ -155,7 +160,7 @@ Her kan du dykke yderligere ned i de forskellige tests.
 
 ### Løb
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "direkte test" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "laboratorietest" | where: "tags", "direkte test" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -165,7 +170,7 @@ Her kan du dykke yderligere ned i de forskellige tests.
 
 ### Cykling
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "direkte" | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "cykeltest" | where: "tags", "laboratorietest" | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}

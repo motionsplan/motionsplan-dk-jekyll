@@ -59,9 +59,9 @@ På [Training Peaks](https://www.trainingpeaks.com/blog/power-profiling/) kan du
 
 ## Hvordan laver man en powerprofil?
 
-For at lave en powerprofil, så kan du lave en række forskellige tests, fx FTP test, VO<sub>2</sub>max test og anaerobe test af kort varighed.
+For at lave en powerprofil, så kan du lave en række forskellige tests, fx FTP test, VO₂max test og anaerobe test af kort varighed.
 
-Hvis du normalt træner efter watt, så har du garanteret hørt om Functional Threshold Power (FTP)-tests, VO<sub>2</sub>max-tests, fx 5 minutters testen og forskellige anaerobe tests fra 1-60 sekunder.
+Hvis du normalt træner efter watt, så har du garanteret hørt om Functional Threshold Power (FTP)-tests, VO₂max-tests, fx 5 minutters testen og forskellige anaerobe tests fra 1-60 sekunder.
 
 Ud fra disse tests, som du alle kan lave på en hometrainer, så kan du lave din egen personlige powerprofil. Powerprofilen kan være med til at sige noget om, hvilken type cykelrytter, du er, men også hvordan du kan prioritere din træning.
 
@@ -70,7 +70,7 @@ Lad os kigge på nogle af de tests, som vi også beskriver her på sitet.
 - [6 sekunders sprinttest](/6sek/). Her finder du dit peak power output.
 - [30 sekunders Wingate-test](/wingate/). Her finder du din maksimale ydeevne på en sprint og evne til at modstå træthed i det anaerobe system.
 - [Watt-max-test](/kondital-wattmax/). Watt-max-testen kan være med til at finde din præstationsevne ved dit absolutte max.
-- [Trappetest](/trappetest-cykel/). Trappetesten kan være med til at etablere din maksimale iltoptagelse og hvad din maksimale power output er ved VO<sub>2</sub>max.
+- [Trappetest](/trappetest-cykel/). Trappetesten kan være med til at etablere din maksimale iltoptagelse og hvad din maksimale power output er ved VO₂max.
 - [FTP-test](/ftp-test/). Her kan du finde din _[functional threshold power (FTP)](/ftp-cykling/)_ med en hård test.
 
 Hvis du har lavet disse tests, så har du altså et bud på din egen powerprofil. Alle tests kan du rimelig enkelt lave på en cykel med wattmåling.

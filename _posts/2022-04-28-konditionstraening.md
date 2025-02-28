@@ -44,7 +44,7 @@ Det kan du gøre med løbetræning, cykeltræning, roning eller andre typer træ
 
 ## Hvad er konditionstræning og kredsløbstræning?
 
-I konditionstræning og kredsløbstræning arbejder vi med at forbedre [konditionen](/kondition/). Konditionen måles med [konditallet](/kondital/), som afhænger af den [maksimale iltoptagelse og VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/).
+I konditionstræning og kredsløbstræning arbejder vi med at forbedre [konditionen](/kondition/). Konditionen måles med [konditallet](/kondital/), som afhænger af den [maksimale iltoptagelse og VO₂max](/maksimale-iltoptagelse-vo2max/).
 
 I konditionstræning arbejder vi både med aerobe og anaerobe processer. Meget forskning har nemlig vist, at meget intensive intervaller også har potentiale til at flytte iltoptagelseshastigheden, selvom noget af energiomsætningen kommer fra anaerobe energiprocesser.
 
@@ -97,7 +97,7 @@ Vi har skrevet rigtig meget om konditionstræning og kredsløbstræning forskell
 
 [HIIT](/hiit/) er en forkortelse for High-Intensity Interval Training. HIIT retter sig specifikt mod at forbedre konditionen. Det er knaldhård konditionstræning, hvor kredsløbet skal belastes tæt på den maksimale aerobe ydeevne med kredsløbsøvelser som løb, cykling og roning.
 
-Intensiteten i arbejdsperioder er over 90% af VO<sub>2</sub>max og afbrydes af restitutionspauser, så kroppen bliver klar til næste arbejdsinterval.
+Intensiteten i arbejdsperioder er over 90% af VO₂max og afbrydes af restitutionspauser, så kroppen bliver klar til næste arbejdsinterval.
 
 Mange bruger begrebet HIIT lidt i flæng for, men her bruger vi den oprindelige definition af begrebet. Altså [intervaltræning](/intervaltraening/) med høj intensitet, der få dig i bedre kondition.
 
@@ -164,7 +164,7 @@ Hvis du kan komme afsted 3 gange om ugen, så kan du få en rigtig stor træning
 
 ## Hvor hårdt skal jeg træne?
 
-Når du gerne vil flytte din maksimale iltoptagelse, så skal det være hårdt. Det er blevet meget populært at træne efter 80/20-fremgangsmåde, hvor 20% af træningen skal ligge over 90% af din VO<sub>2</sub>max, mens 80% af træningen skal ligge under 80%.
+Når du gerne vil flytte din maksimale iltoptagelse, så skal det være hårdt. Det er blevet meget populært at træne efter 80/20-fremgangsmåde, hvor 20% af træningen skal ligge over 90% af din VO₂max, mens 80% af træningen skal ligge under 80%.
 
 Det kan du tage udgangspunkt i, når du laver din træningsplan.
 

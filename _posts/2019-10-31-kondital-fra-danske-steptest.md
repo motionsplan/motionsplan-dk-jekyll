@@ -34,7 +34,7 @@ Hvad er Den Danske Steptest? **Den Danske Steptest er udviklet af danske forsker
 
 Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i instruktionerne til testen på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest). Her kan du tage testen online. Testen kan laves overalt, hvor man har en computer eller andet device og en forhøjning.
 
-Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet).
+Når testen er færdig får man en estimeret VO₂-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet).
 
 Den Danske Steptest er udviklet af bl.a. Morten Zacho.
 
@@ -52,9 +52,9 @@ Tyngdekraften er ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceler
 
 {% include motionsplan/math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
 
-Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
+Hvilestofskiftet er cirka [0,25 liter O₂ pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
 
-Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditallet.
+Når man kender den estimerede VO₂max, så kan man udregne konditallet.
 
 {% include motionsplan/math formula="kondital = \frac{VO_2max}{kropsvaegt}" %}
 
@@ -62,11 +62,11 @@ Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditalle
 
 Aadahl et al (2012) har valideret testen med 795 personer, hvor man har sammenlignet den med en [Watt-max test på cykel]({% link _posts/2019-10-31-kondital-watt-max-test.md %}). Der fandt forskerne følgende korrelationer.
 
-> The correlation between VO<sub>2</sub>max (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO<sub>2</sub>max compared to the watt-max test, more so in women than in men.
+> The correlation between VO₂max (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO₂max compared to the watt-max test, more so in women than in men.
 >
 > --- <cite>[Aadahl et al (2012)](https://journals.sagepub.com/doi/10.1177/2047487312462825)</cite>
 
-Testen har en tendens til at overestimere VO<sub>2</sub>-max sammenlignet med en Watt-max test på cykel.
+Testen har en tendens til at overestimere VO₂-max sammenlignet med en Watt-max test på cykel.
 
 Senere har Lerche et al (2017) valideret Den Danske Steptest i forhold til direkte måling af [maksimal iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 

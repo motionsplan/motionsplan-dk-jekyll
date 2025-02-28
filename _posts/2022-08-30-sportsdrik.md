@@ -185,7 +185,7 @@ Du har bare brug for en måde at måle din intensitet under træningen på og en
 
 [@peak](https://www.feltet.dk/forum/d/149794-hjemmelavet-isotonisk-sportsdrik) har i sit speciale undersøgt mavetømningshastigheden for vand med en 8% glukose ved forskellige intensiteter og temperaturer.
 
-@peak konkluderer, at mavetømningshastigheden er størst i kølige omgivelser og lavere arbejdsintensiteter. Ved lavere arbejdsintensiteter ~60-65% af VO<sub>2</sub>max er der ikke så stor forskel på rent vand, en 6-7% glukosedrik eller en 6-7% maltodextrin-drik.
+@peak konkluderer, at mavetømningshastigheden er størst i kølige omgivelser og lavere arbejdsintensiteter. Ved lavere arbejdsintensiteter ~60-65% af VO₂max er der ikke så stor forskel på rent vand, en 6-7% glukosedrik eller en 6-7% maltodextrin-drik.
 
 Når intensiteterne kommer over 70% af den maksimale iltoptagelse kombineret med forskellige temperaturer, så optages vand hurtigst, mens maltodextrin-drikken optages hurtigere end glukose-drikken.
 

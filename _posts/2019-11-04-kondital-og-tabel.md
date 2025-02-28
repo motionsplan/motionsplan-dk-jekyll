@@ -47,7 +47,7 @@ feature_row_kondital:
     rel: nofollow noopener
 faq:
   - question: "Hvad er definitionen på et kondital?"
-    answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O<sub>2</sub> pr. min pr. kg kropsvægt."
+    answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O₂ pr. min pr. kg kropsvægt."
   - question: "Hvordan kan man beregne konditallet?"
     answer: "Du kan finde dit kondital ved enten direkte tests eller indirekte tests. Du kan lave maksimale tests eller submaksimale tests. Du kan finde mange eksempler på, hvordan du kan lave konditionstests her på siden."
   - question: "Hvordan forbedrer man konditallet?"
@@ -65,7 +65,7 @@ Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, 
 
 ## Hvad er kondital og hvad er det et udtryk for?
 
-Hvad er kondital? **Dit kondital fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
+Hvad er kondital? **Dit kondital fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O₂ pr. min pr. kg kropsvægt.**
 
 ## Hvad er et godt kondital?
 
@@ -164,7 +164,7 @@ Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
 
 ## Kondital og vægt bør vurderes uafhængigt
 
-Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvægten. Konditallet er altså et udtryk for dit kredsløbs maksimale kapacitet i forhold til din krop. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til din sundhedstilstand.
+Det almindelige kondital udregnes ved at dividere VO₂max med kropsvægten. Konditallet er altså et udtryk for dit kredsløbs maksimale kapacitet i forhold til din krop. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til din sundhedstilstand.
 
 Derfor foreslår [Morten Zacho](https://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 

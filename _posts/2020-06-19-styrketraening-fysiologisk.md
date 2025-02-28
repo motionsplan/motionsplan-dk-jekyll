@@ -251,7 +251,8 @@ Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til kondition
 *[BMD]: Bone Mass Density
 *[EMG]: Electro Myo Gram
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Alfredson, H., T. Pietilä, P. Jonsson, og R. Lorentzon. 1998. “Heavy-Load Eccentric Calf Muscle Training for the Treatment of Chronic Achilles Tendinosis”. The American Journal of Sports Medicine 26 (3): 360–66. <https://doi.org/10.1177/03635465980260030301>.
 - Croisier, Jean-Louis, Bénédicte Forthomme, Marie-Hélène Namurois, Marc Vanderthommen, og Jean-Michel Crielaard. 2002. “Hamstring Muscle Strain Recurrence and Strength Performance Disorders”. The American Journal of Sports Medicine 30 (2): 199–203. <https://doi.org/10.1177/03635465020300020901>.
@@ -283,3 +284,4 @@ Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til kondition
 - Rønnestad, Bent R., Ernst A. Hansen, og Truls Raastad. 2012. “Strength Training Affects Tendon Cross-Sectional Area and Freely Chosen Cadence Differently in Noncyclists and Well-Trained Cyclists”. Journal of Strength and Conditioning Research 26 (1): 158–66. <https://doi.org/10.1519/JSC.0b013e318218dd94>.
 - Kubo, Keitaro, Toshihiro Ikebukuro, Hideaki Yata, Naoya Tsunoda, og Hiroaki Kanehisa. 2010. “Time Course of Changes in Muscle and Tendon Properties during Strength Training and Detraining”. Journal of Strength and Conditioning Research 24 (2): 322–31. <https://doi.org/10.1519/JSC.0b013e3181c865e2>.
 - Erskine, Robert M., David A. Jones, Nicola Maffulli, Alun G. Williams, Claire E. Stewart, og Hans Degens. 2011. “What Causes in Vivo Muscle Specific Tension to Increase Following Resistance Training?” Experimental Physiology 96 (2): 145–55. <https://doi.org/10.1113/expphysiol.2010.053975>.
+</details>

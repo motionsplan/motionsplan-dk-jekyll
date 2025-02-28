@@ -37,6 +37,8 @@ Der er lavet mange studier på effekten af Sprint-8-intervaller, og det er kun n
 
 Har du prøvet Sprint 8 - og hvad er dine erfaringer med det? Kan du supplere med mere viden?
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Sprint 8](https://sprint8.com/)
+</details>

@@ -172,10 +172,8 @@ Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her](
 
 {% endcomment %}
 
-## Referencer
-
 <details markdown="1" class="references">
-  <summary>Se referencer til Jump and Reach-testen</summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Vertec Jump Test](https://www.scienceforsport.com/vertec-jump-test/)
 - Harman, Everett, Michael Rosenstein, Peter Frykman, Richard Rosenstein, og William Kraemer. 1991. “Estimation of Human Power Output from Vertical Jump”. Journal of Strength and Conditioning Research 5 (3): 116–20.

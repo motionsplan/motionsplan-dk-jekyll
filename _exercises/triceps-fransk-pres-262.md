@@ -66,6 +66,8 @@ Se forskellen i denne video:
 
 {% include video provider="youtube" id="Ip6PTlHWcpA" %}
 
-## Referencer til fransk pres og skull crushers
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Kholinne, Erica, Rizki Fajar Zulkarnain, Yu Cheng Sun, SungJoon Lim, Jae-Myeung Chun, og In-Ho Jeon. 2018. “The Different Role of Each Head of the Triceps Brachii Muscle in Elbow Extension”. _Acta Orthopaedica Et Traumatologica Turcica_ 52 (3): 201–5. [https://doi.org/10.1016/j.aott.2018.02.005](https://doi.org/10.1016/j.aott.2018.02.005).
+</details>

@@ -286,7 +286,7 @@ Med de andre muligheder for at måle watt, så er Running Power Estimator nok de
 
 Hvordan kan det være, at Garmin og Polar viser 25-30% højere watt-tal end fx Stryd? Forskellen skal formentlig findes i kalibreringen af watt-tallene.
 
-**Stryd** kalibrerer deres wattmåler med metaboliske data i forhold til VO<sub>2</sub>max for testløbere. Det betyder, at de fleste anser Stryd-wattmåleren som den mest præcise, da tallene kan forklares af litteraturen.
+**Stryd** kalibrerer deres wattmåler med metaboliske data i forhold til VO₂max for testløbere. Det betyder, at de fleste anser Stryd-wattmåleren som den mest præcise, da tallene kan forklares af litteraturen.
 
 **Polar** kalibrerer deres algoritme bag wattmåleren på en kraftplatform. Denne type kalibrering burde jo være ret præcis, da Polar-wattmåleren er kalibreret direkte på en kraftplatform. Det er en veletableret fremgangsmåde, hvor man både kan måle både vertikale og horisontale kræfter - og faktisk også kræfterne sidelæns. Herfra kan hastigheder estimeres og den kinetiske og potentielle energi udregnes.
 

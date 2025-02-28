@@ -196,7 +196,7 @@ Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen
 
 ## Hvor mange gange om ugen kan jeg træne intervaller?
 
-Når du går i gang med at træne intervaller, hvor intensiteten er rigtig høj, fx over 90% af VO<sub>2</sub>max, så vil jeg anbefale dig højest at køre intervallerne en gang om ugen.
+Når du går i gang med at træne intervaller, hvor intensiteten er rigtig høj, fx over 90% af VO₂max, så vil jeg anbefale dig højest at køre intervallerne en gang om ugen.
 
 Ofte så starter man med at løbe intervaller, der skal flytte den maksimale iltoptagelse. Det er relativt hårde intervaller, hvor man arbejder over 95% af iltoptagelsens ydeevne.
 

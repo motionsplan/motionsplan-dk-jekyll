@@ -66,7 +66,7 @@ Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen
 
 Jeg kan som udgangspunkt bedst lide at styre intervaller ud fra tid.
 
-En meget populær og effektiv måde at flytte sin maksimale iltoptagelse er at løbe omkring VO<sub>2</sub>max på 1000 meter intervaller med 2 minutters pause. Jeg har imidlertid ofte lavet disse intervaller med mine elever på Vejle Idrætshøjskole, og nogen af dem løber under 4 minutter pr. kilometer og andre løber helt op mod seks minutter pr. kilometer.
+En meget populær og effektiv måde at flytte sin maksimale iltoptagelse er at løbe omkring VO₂max på 1000 meter intervaller med 2 minutters pause. Jeg har imidlertid ofte lavet disse intervaller med mine elever på Vejle Idrætshøjskole, og nogen af dem løber under 4 minutter pr. kilometer og andre løber helt op mod seks minutter pr. kilometer.
 
 Når eleverne løber med forskellig hastighed, er det sandsynligt at de træner noget forskelligt. De får i hvert fald en forskellig træningsmængde, hvor dem der løber lidt langsommere kommer til at træne længere tid.
 
@@ -178,7 +178,7 @@ Eksempler på løbeintervaller, som skal forbedre den maksimale iltoptagelse:
 - [V<sub>max</sub>](/vmax-loeb/)
 - Se intervallerne i skemaet over intervalprogrammer i løb nedenunder
 
-Læs: [Intensitetens betydning for VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)
+Læs: [Intensitetens betydning for VO₂max](/maksimale-iltoptagelse-vo2max/)
 {: .notice }
 
 ### 5. Tærskelintervaller

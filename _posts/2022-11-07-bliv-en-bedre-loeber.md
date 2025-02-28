@@ -48,8 +48,8 @@ Der er dog rigtig mange ting, der spiller ind på, hvor effektivt du kan gøre b
 
 For at flytte fødderne kræver det, at din krop laver noget arbejde. Hvor hurtigt du kan løbe og hvor langt du kan løbe bestemmes bl.a. af følgende fysiologiske parametre:
 
-1. **Din VO<sub>2</sub>max.** Din maksimale iltoptagelse er et rigtig vigtigt parameter for, hvor hurtigt du kan løbe på forskellige distancer. Jo højere din iltoptagelse er, jo hurtigere kan du løbe.
-2. **Din anaerobe tærskel.** Din mælkesyregrænse er den intensitet, hvor du netop kan nå at fjerne mælkesyren lige så hurtigt som du producerer den. Når den anaerobe tærskel skubbes opad, så kan du arbejde med en højere intensitet i forhold til din VO<sub>2</sub>max, inden du bliver træt.
+1. **Din VO₂max.** Din maksimale iltoptagelse er et rigtig vigtigt parameter for, hvor hurtigt du kan løbe på forskellige distancer. Jo højere din iltoptagelse er, jo hurtigere kan du løbe.
+2. **Din anaerobe tærskel.** Din mælkesyregrænse er den intensitet, hvor du netop kan nå at fjerne mælkesyren lige så hurtigt som du producerer den. Når den anaerobe tærskel skubbes opad, så kan du arbejde med en højere intensitet i forhold til din VO₂max, inden du bliver træt.
 3. **Din udholdenhed.** Din udholdenhed er din evne til at arbejde over længere tid uden at blive træt.
 
 ### 2. Din løbeøkonomi

@@ -138,9 +138,11 @@ Jeg har foreløbig fundet frem til, at man kan få en ide om sin fibertypesammen
 
 Jeg har skrevet et andet indlæg, hvor jeg [går i dybden med muskelfibertyper, og hvilken betydning det har](/muskelfibertyper/).
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Pipes, T.V. (1994). Strength training and fiber types. Scholastic Coach, as referenced in Muscle Fiber Types and Training, by Jason R. Karp, Track Coach
 - Essén, B., E. Jansson, J. Henriksson, A. W. Taylor, og B. Saltin. 1975. “Metabolic Characteristics of Fibre Types in Human Skeletal Muscle”. Acta Physiologica Scandinavica 95 (2): 153–65. <https://doi.org/10.1111/j.1748-1716.1975.tb10038.x>.
 - Winkler, Tobias, Falk Mersmann, Philipp von Roth, Ralf Dietrich, Stefanie Bierbaum, og Adamantios Arampatzis. 2019. “Development of a Non-Invasive Methodology for the Assessment of Muscle Fibre Composition”. Frontiers in Physiology 10. <https://doi.org/10.3389/fphys.2019.00174>.
 - Hale, Jamie. 2006. “Adapting your workout to suit your muscle fibre type”. I Brian Mackenzie’s Successful Coaching, 37. udg., 2006:6–7. <https://www.brianmac.co.uk/articles/scni37a4.htm>.
+</details>

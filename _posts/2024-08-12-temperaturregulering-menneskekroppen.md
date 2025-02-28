@@ -165,6 +165,8 @@ Hvis du skal lave længerevarende træning, så kan det være en rigtig god ide 
 
 Her kan du lade dig inspirere af de forskellige nedkølingsmekanismer.
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Guyton, Arthur C., Basic Human Physiology: Normal Function and Mechanisms of Disease, W.B. Saunders Co, 1971.
+</details>

@@ -77,12 +77,14 @@ Vi leder efter forskning der fortæller lidt om udbredelsen af rygproblemer i Da
 
 Hvis du ved noget, så host op med din viden i kommentarerne.
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
 
 - [McGill, Stuart: Low Back Disorders, Second Edition](https://www.amazon.com/Back-Disorders-Second-Stuart-McGill/dp/0736066926)
 - Hides, J. A., G. A. Jull, og C. A. Richardson. 2001. “Long-Term Effects of Specific Stabilizing Exercises for First-Episode Low Back Pain”. Spine 26 (11): E243-248. <https://doi.org/10.1097/00007632-200106010-00004>.
+</details>
 
 {% comment %}
 

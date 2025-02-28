@@ -67,11 +67,11 @@ Jeg har skrevet en mere udførlig artikel om selve [Borg-skalaen, hvor du også 
 
 ## Formlerne bag Borg 15-testen
 
-Jeg har fundet formlen til beregneren i [Okura og Tanaka (2001)](https://doi.org/10.2114/jpa.20.255). Formlen for at udregne VO<sub>2</sub>max med Borg 15-testen ser sådan her ud:
+Jeg har fundet formlen til beregneren i [Okura og Tanaka (2001)](https://doi.org/10.2114/jpa.20.255). Formlen for at udregne VO₂max med Borg 15-testen ser sådan her ud:
 
 ***
 
-VO<sub>2</sub>max = 1.19 * W<sub>Borg 15</sub> - 15.84 * age + 13.06 * weight + 1365
+VO₂max = 1.19 * W<sub>Borg 15</sub> - 15.84 * age + 13.06 * weight + 1365
 
 ***
 
@@ -89,7 +89,7 @@ Jeg er ved at undersøge, om der er lavet valideringsstudier af testen under sø
 
 Borg 15 testen er en submaksimal test, og den går op til omkring 250 watt. For meget veltrænede cyklister er det ret lavt, så derfor er formlen ikke så pålidelig, da de vil have vanskeligt ved at opnå "Anstrengende" på Borg-skalaen.
 
-Okura og Tanaka (2001) fandt den bedste korrelation med VO<sub>2</sub>max med følelsen af, hvor anstrengende arbejdet føles for benene, når de skulle angive arbejdets hårdhed på Borg-skalaen.
+Okura og Tanaka (2001) fandt den bedste korrelation med VO₂max med følelsen af, hvor anstrengende arbejdet føles for benene, når de skulle angive arbejdets hårdhed på Borg-skalaen.
 
 Selvom man bruger snakketesten og måske en pulsmåler som ekstra parametre, så skal forsøgspersonen altså kunne adskille belastningen på åndedrættet og benene i testen.
 

@@ -151,7 +151,8 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 *[TEE]: Total energiomsætning
 *[kJ]: KiloJoule
 
-## Referencer til stofskiftet
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
 
@@ -162,3 +163,4 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 - WHO Obesity Guidelines, 2000 - Technical Report Series 894
 - Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
 - [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"}
+</details>

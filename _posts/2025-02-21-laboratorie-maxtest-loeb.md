@@ -1,9 +1,9 @@
 ---
-title: &title "Maksimal iltoptagelse i løbebånd – Testprotokol og vejledning"
+title: &title "Maksimal iltoptagelse på løbebånd – Test og vejledning"
 seo_title: "Maksimal løbetest - Sådan finder du din iltoptagelse i lab"
 permalink: /iltoptagelse-max-test-loeb/
 excerpt: "Detaljeret guide til at gennemføre en løbetest af din maksimale iltoptagelse med maske. Se testprotokollen, nødvendigt udstyr og hvordan du analyserer dine resultater for at optimere din træning."
-description: "Få en detaljeret guide til, hvordan du gennemfører en maksimal løbetest af din VO2max med maske. Lær om testprotokollen, og hvordan du analyserer dine resultater for at optimere din træning."
+description: "Detaljeret guide til test af VO2max i laboratorium på løbebånd. Alt om testprotokollen og hvordan du analyserer dine resultater for at optimere din træning."
 language: da
 header:
   overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
@@ -12,7 +12,7 @@ header:
 category:
   - Kondition
 meta:
-  name: Maksimal løbetest på løbebånd
+  name: Maksimal løbetest på løbebånd (rampetest)
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebånd
@@ -26,6 +26,7 @@ tags:
   - submaksimal test
   - test
   - løbetest
+  - laboratorietest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
@@ -51,57 +52,50 @@ feature_row_kondital:
     url: "/kondital/"
     btn_label: "Se konditionstabel og kondital"
     btn_class: "btn--info"
+faq:
+  - question: "Hvad kan du bruge en maksimal iltoptagelsestest til?"
+    answer: Med en maksimal iltoptagelsestest kan du få et ret præcist estimat på dit kondital. Vi måler direkte på iltoptagelsen, så hvis du formår at presse dig selv, så får du altså dit kondital.
 ---
 
 Hvis du gerne vil kende dit nøjagtige kondital i løb, så skal du en tur på løbebåndet i et testcenter.
 
-Her kan du med maske få målt nøjagtigt, hvor meget ilt din krop maksimalt kan optage unde ren maksimal præstation.
+Her kan du med maske få målt nøjagtigt, hvor meget ilt din krop maksimalt kan optage under ren maksimal præstation.
 
 Det er nødvendigt med en direkte måling af din VO2max for at få et præcist kondital.
 
 Her kigger vi på en testprotokol, som ofte bliver brugt for at sikre, at dit kredsløb og din krop reelt arbejder omkring din maksimale iltoptagelse.
 
+## Disse begreber testes
+
+{% include concept.html concept="vo2max" %}
+{% include concept.html concept="kondital" %}
+{% include concept.html concept="maxpuls" %}
+
 ## Hvilket udstyr skal du bruge?
 
-En nøjagtig direkte test af iltoptagelse kræver, at man har udstyr, der kan måle ilt-, CO<sub>2</sub>-koncentrationer og volumen af ud- og indåndingsluften. Derfor skal du have et testcenter med dette udstyr.
+En nøjagtig direkte test af iltoptagelse kræver adgang til udstyr, der kan måle ilt-, CO₂-koncentrationer og volumen af ud- og indåndingsluften. Derfor skal du have et testcenter med dette udstyr.
 
 Det har vi på Vejle Idrætshøjskole, hvor jeg har lavet mange af denne typer test.
 
 Vi går i det følgende ud fra, at du har adgang til udstyret, og du ved, hvordan du bruger det.
 
-***
+**Læs mere**: [Gå i dybden med iltoptagelsestest i laboratorium](/iltoptagelse-laboratorietest/)
 
-Princippet er, at man beregner, hvor meget ilt forsøgspersonen indånder, og måler hvor meget ilt forsøgspersonen puster ud igen. Det kalder man også den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
+## Sådan laver du den maksimale iltoptagelsestest
 
-Forskellen mellem disse to tal er den mængde ilt, der er blevet optaget i kroppen, og det kalder vi _iltoptagelsen_.
+{% include figure image_path="/assets/images/motionsplan/ramp-max-test.jpg" alt="diagram over rampe testen til kondital" caption="Sådan udføres rampetesten på løbebånde. Belastningen øges ved at hæve hældningen på løbebåndet." %}
 
-Lidt forenklet er regnestykket:
+Først laves en grundig opvarmning.
 
-***
+Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO₂-max. Der måles maksimale værdier for iltoptagelse, CO₂-udvekskling, puls, lungekapacitet, og laktat.
 
-Iltoptagelse = (Liter luft ind x iltprocent i indåndingsluft) – (liter luft ud x iltprocent i udåndingsluft)
+Selve testen er en progressiv rampetest bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Du starter på en hastighed der cirka svarer til din anaerobe tærskel (1 km/t lavere end din 5 kilometer hastighed).
 
-***
+Herefter øges hældningen på løbebåndet med 2% for hvert interval-trin indtil udmattelse. Typisk varighed på testen er mellem 5-10 minutter.
 
-Testprotokollen kan variere alt efter hvor veltrænet personen er, men for de fleste tests er princippet, at man gradvist øger belastningen indtil man ikke kan mere.
+Testen er en åben test. Den slutter slutter først når forsøgspersonen giver op, eller det ikke længere er forsvarligt at fortsætte testen.
 
-## Hvad kan du bruge en iltoptagelsestest til?
-
-Du skal vælge en direkte test af iltoptagelsen, hvis du gerne vil have et nøjagtigt resultat.
-
-Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellige intensiteter. Derved får du en måling af, hvor effektivt du bevæger dig.
-
-Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endnu mere præcise svar på, hvordan din krop arbejder ved forskellige intensiteter.
-
-## Maksimal iltoptagelsestest
-
-Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO<sub>2</sub>-max. Der måles maksimale værdier for iltoptagelse, CO<sub>2</sub>-udvekskling, puls, lungekapacitet, og laktat.
-
-Selve testen er en progressiv max-test bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Der startes på den hastighed, der blev løbet ved i det sidste interval i den submaksimale-test.
-
-Testen er typisk en åben test, og slutter først når forsøgspersonen giver op, eller det ikke længere er forsvarligt at fortsætte testen.
-
-Herefter øges hældningen på løbebåndet med 2% for hvert interval-trin indtil udmattelse. Typisk varighed på testen er mellem 5-10 minutter. Udføres der en submax-test forud for max-testen, vil der altid være 10 min aktiv pause med let løb/gang.
+Ved udmattelse noteres den maksimale puls og der tages en priktest.
 
 ## Er det reelt en maksimal test?
 
@@ -111,17 +105,12 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
 3. Laktatmåling skal være over 8 mmol.
 4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
-5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO<sub>2</sub>) kaldes den ventilatoriske kvotient, og skal være over 30.
+5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
 
 Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale.
 
-## Andre tests af iltoptagelse
-
-Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de indirekte tests til at finde dit kondital.
-
-I disse tests kan du estimere din iltoptagelse ud fra dine resultater i testene.
-
-{% include feature_row id="feature_row_about_tests" type="left" %}
+**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
+{: .notice }
 
 ## Har jeg opnået et godt kondital?
 
@@ -135,14 +124,14 @@ En af de mest populære er naturligvis Cooper-testen.
 
 {% include feature_row id="feature_row_cooper_test" type="left" %}
 
-Men du kan også 
+Men du kan også overveje en af de andre konditionstests fra løb.
 
-{% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "konditionstest" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "konditionstest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
+  {% for post in site_posts limit: 6 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -150,3 +139,11 @@ Men du kan også
 [Se alle løbetests](/tests/loeb/){: .btn .btn--success .btn--center }
 
 </div>
+
+## Andre tests af iltoptagelse
+
+Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de indirekte tests til at finde dit kondital.
+
+I disse tests kan du estimere din iltoptagelse ud fra dine resultater i testene.
+
+{% include feature_row id="feature_row_tests" type="left" %}

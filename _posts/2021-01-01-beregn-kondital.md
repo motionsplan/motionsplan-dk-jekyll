@@ -52,7 +52,7 @@ Det gør, at du kan udregne dit kondital uden at skulle rejse dig fra sofaen.
 
 ### 1. Konditalberegner (Nes 2011)
 
-[Nes et al (2011)](https://pubmed.ncbi.nlm.nih.gov/21502897/) har lavet denne test for VO<sub>2</sub>max, som er baseret på nogle enkle antropometriske spørgsmål og selvoplevet fysisk aktivitetsniveau.
+[Nes et al (2011)](https://pubmed.ncbi.nlm.nih.gov/21502897/) har lavet denne test for VO₂max, som er baseret på nogle enkle antropometriske spørgsmål og selvoplevet fysisk aktivitetsniveau.
 
 {% include calculator/calculate-fitness-norwegian-2011.html %}
 

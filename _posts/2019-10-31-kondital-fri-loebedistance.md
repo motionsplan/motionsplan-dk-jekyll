@@ -52,7 +52,7 @@ Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 
 
 I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
-> For example with a single performance the average speed is calculated (e.g. a 5 km in 18:30 is ran at an average speed of 16.2 km*h<sup>-1</sup>) and introduced in the 5 km equation using Table 1 to obtain VO<sub>2</sub>max (MET = 3.1747 + 0.9139 * 16.2 km*h<sup>-1</sup> = 18 MET or 63 ml*kg<sup>-1</sup>*min<sup>-1</sup>).
+> For example with a single performance the average speed is calculated (e.g. a 5 km in 18:30 is ran at an average speed of 16.2 km*h<sup>-1</sup>) and introduced in the 5 km equation using Table 1 to obtain VO₂max (MET = 3.1747 + 0.9139 * 16.2 km*h<sup>-1</sup> = 18 MET or 63 ml*kg<sup>-1</sup>*min<sup>-1</sup>).
 >
 > --- <cite>[Tokmakidis et al (1987)](https://pubmed.ncbi.nlm.nih.gov/3444324/)</cite>
 

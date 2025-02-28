@@ -23,8 +23,10 @@ Det er derfor stadig sikrest at huske på at følge Sundhedsstyrelsens anbefalin
 
 Har du nogle gode bud på superfoods, som du synes vi alle skal præsenteres for?
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Blåbær er en superfødevare](https://politiken.dk/forbrugogliv/sundhedogmotion/guidersundhedogmotion/art4971727/Bl%C3%A5b%C3%A6r-er-en-superf%C3%B8devare)
 - [Blåbær er slet ikke så sunde endda](https://www.bt.dk/slank/blaabaer-er-slet-ikke-saa-sunde-endda)
 - [Rapport om antioxidanter og helbred?](http://www.meraadet.dk/gfx/uploads/rapporter_pdf/7193_antioxidanter.pdf)
+</details>

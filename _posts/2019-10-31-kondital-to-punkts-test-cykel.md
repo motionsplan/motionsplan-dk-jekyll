@@ -74,15 +74,15 @@ Værdierne i Åstrands topunktstest kan også skrives ind i følgende formel:
 
 Åstrand & Rohdahl (4. udgave, s. 403) estimerer kroppens mekaniske nyttevirkning til at være 23%. Den mekaniske nyttevirkning er forholdet mellem energiproduktion og varmeproduktion. Det betyder, at når du arbejder på ergometercyklen, så kan vi estimere at 23% af din samlede forbrænding bliver omsat til arbejde på cyklen, mens resten af energien går til varmeproduktion.
 
-Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat.
+Hvilestofskiftet er cirka [0,25 liter O₂ pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat.
 
 Ud fra disse præmisser så kan den maksimale arbejdsbelastning (work<sub>max</sub>) omregnes til en estimeret iltoptagelse.
 
-[Formlen](https://www.viivaa.dk/b/kondital/) til at udregne VO<sub>2</sub>max ser sådan her ud:
+[Formlen](https://www.viivaa.dk/b/kondital/) til at udregne VO₂max ser sådan her ud:
 
 {% include motionsplan/math formula="VO_2max = \frac{work_{max}}{0,23} * \frac{60}{21100} + 0,25" %}
 
-Du kan så beregne konditallet ved at gange maksimale iltoptagelse (VO<sub>2</sub>max) med 1000 ml/l og dividere med kropsvægten i kg. Det giver dig ml O<sub>2</sub> / min / kg. På formel ser det sådan her ud.
+Du kan så beregne konditallet ved at gange maksimale iltoptagelse (VO₂max) med 1000 ml/l og dividere med kropsvægten i kg. Det giver dig ml O₂ / min / kg. På formel ser det sådan her ud.
 
 {% include motionsplan/math formula="kondital = \frac{VO_2max (l/min) * 1000 (ml/l)}{bodyweight (kg)}" %}
 

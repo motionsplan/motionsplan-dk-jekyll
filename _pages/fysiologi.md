@@ -96,7 +96,7 @@ Nervesystemet arbejder konstant på at justere aktivitetsniveauet i kroppen. Dis
 
 ## Kredsløbets fysiologi
 
-Kredsløbet er kroppens transportsystem, der har til opgave at forsyne cellerne med ilt og næringsstoffer samt at bortskaffe affaldsstoffer (fx CO<sub>2</sub>, træthedsstoffer og urinstof). Kredsløbets funktion er således at sørge for, at alle kroppens celler kan opretholde liv.
+Kredsløbet er kroppens transportsystem, der har til opgave at forsyne cellerne med ilt og næringsstoffer samt at bortskaffe affaldsstoffer (fx CO₂, træthedsstoffer og urinstof). Kredsløbets funktion er således at sørge for, at alle kroppens celler kan opretholde liv.
 
 For at forbedre disse processer, så kan man lave [kredsløbstræning og konditionstræning](/konditionstraening/), hvor man træner kredsløbet til at blive endnu mere effektivt.
 

@@ -56,7 +56,8 @@ Hvad siger du til denne indgangsvinkel til træningen? Kan du forklare, hvorfor 
 
 Du er måske også interesseret i at læse mere om at [tabe fedt på maven](/tab-fedt-paa-maven/).
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Jacob Søndergaards side om 6-pack på 6 uger](https://web.archive.org/web/20120201111214/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"}
 - [How to Get 6-Pack Abs Without Crunches or Sit-ups!](https://www.getprograde.com/blog/how-to-get-6-pack-abs-without-crunches-or-sit-ups/)
@@ -65,3 +66,4 @@ Du er måske også interesseret i at læse mere om at [tabe fedt på maven](/tab
 - [21st Century Core training](https://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
 - [The real core exercises](https://www.t-nation.com/training/the-real-core-exercise/)
 - [The 2008 alphabet of manliness](https://www.t-nation.com/training/the-2008-alphabet-of-manliness/)
+</details>

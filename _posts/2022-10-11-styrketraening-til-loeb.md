@@ -76,7 +76,7 @@ HVORDAN SVARER DET OVERENS MED RIR?
 
 Træningen har altså rimelig mange gentagelser og kort pause, hvilket typisk efterlader træthedsstoffer og mælkesyre i musklerne. Denne type styrketræning bruges ofte i forbindelse med muskelvækst.
 
-Før interventionen kunne deltagerne løbe med en iltoptagelse (VO<sub>2</sub>) på ca. 31 ml/kg/min, inden de nåede op på de 4 mmol laktat i blodet. Efter interventionen kunne deltagerne løbe med en VO<sub>2</sub> på omkring 36 ml/kg/min før de nåede 4 mmol laktat i blodet.
+Før interventionen kunne deltagerne løbe med en iltoptagelse (VO₂) på ca. 31 ml/kg/min, inden de nåede op på de 4 mmol laktat i blodet. Efter interventionen kunne deltagerne løbe med en VO₂ på omkring 36 ml/kg/min før de nåede 4 mmol laktat i blodet.
 
 Det ser altså ud til, at styrketræning lavet på denne måde med flere gentagelser kan være med til at skubbe til den anaerobe tærskel.
 
@@ -121,7 +121,7 @@ Spørgsmålet er naturligvis om det er rimeligt at matche volumen, når man skru
 
 Interventionsgruppen forbedrede efter 8 ugers træning deres 400 meter tid med 5%, og de klarede sig 19% bedre i en [bip-test](/bip-test/).
 
-I en stadig stigende maksimal test på løbebåndet kunne de løbe 9% længere, inden de måtte opgive, og deres løbehastighed ved VO<sub>2</sub>max blev forbedret med 0,6 km/t.
+I en stadig stigende maksimal test på løbebåndet kunne de løbe 9% længere, inden de måtte opgive, og deres løbehastighed ved VO₂max blev forbedret med 0,6 km/t.
 
 Flotte resultater, men det er ikke muligt at sige, om løbetræningen eller styrketræningen gjorde udfaldet.
 
@@ -137,7 +137,7 @@ De fleste studier er relativt begrænsede i deres længde. Når du laver en træ
 
 Men hvad sker der, hvis vi sætter styrketræning ind i et længerevarende træningsprogram?
 
-Det har [Beattie et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27135468/) haft lejlighed til at undersøge med 20 yderst veltrænede løbere. Løberne havde en VO<sub>2</sub>max på 61.3 ± 3.2 ml/kg/min.
+Det har [Beattie et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27135468/) haft lejlighed til at undersøge med 20 yderst veltrænede løbere. Løberne havde en VO₂max på 61.3 ± 3.2 ml/kg/min.
 
 Studiet var tilrettelagt så træningen passede ind i deltagernes almindelige konkurrenceplan og løb over hele 40 uger.
 
@@ -145,7 +145,7 @@ Alle fik lov til at fortsætte deres sædvanlige løbetræning.
 
 Halvdelen blev derudover sat til at lave styrketræning. I pre-season fra december til marts styrketrænede gruppen 2 gange om ugen, mens de i sæsonen fra april til juli styrketrænede 1 gang om ugen.
 
-Den maksimale og relative styrke blev naturligvis forbedret undervejs, men hastigheden ved VO<sub>2</sub>max og løbeøkonomien blev også markant forbedret for dem, der inkluderede styrketræning i træningsprogrammet.
+Den maksimale og relative styrke blev naturligvis forbedret undervejs, men hastigheden ved VO₂max og løbeøkonomien blev også markant forbedret for dem, der inkluderede styrketræning i træningsprogrammet.
 
 Det kunne være interessant at se det præcise træningsprogram fra dette studium.
 

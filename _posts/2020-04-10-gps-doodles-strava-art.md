@@ -83,9 +83,11 @@ Du kan printe kort ud og forsøge at finde figurer i vejene. Fx kan du tage et k
 
 Du kan også kigge på [Stephen Lunds Sketchbook og af GPS-artist](https://www.gpsdoodles.com). På Twitter kan du søge efter [#StravaArt hashtagget](https://twitter.com/hashtag/StravaArt?src=hash).
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Artist Draws World’s Largest Doodles By Riding His Bike With GPS](https://www.boredpanda.com/bike-gps-doodle-stephen-lund/)
 - [How to make GPS Art](https://www.outsideonline.com/1978066/how-make-gps-art)
 
 {% include feature_row id="feature_row" type="left" %}
+</details>

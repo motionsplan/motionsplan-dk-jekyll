@@ -116,16 +116,4 @@ Du skal være opmærksom på, hvordan du udfører testen, da du kan manipulere d
 
 [Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) foreslår også en standardiseret opvarmning før CMJ-hoppet.
 
-## Hjælp gerne med at udvide artiklen om CMJ og SJ
-
-Jeg er ved at lave en artikel om countermovement jump (CMJ) og squat jump (SJ).
-
-Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet, spring og at hoppe højere.
-
-Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
-
-{% comment %}
-
-Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _posts/2020-01-16-jumping.md %}).
-
-{% endcomment %}
+{% include stub.md %}

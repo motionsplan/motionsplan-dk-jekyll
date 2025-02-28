@@ -78,7 +78,7 @@ Men lad os nu dykke ned i de forskellige tests.
 
 Hos [Concept2](https://www.concept2.co.uk/indoor-rowers/training/calculators/vo2max-calculator) bruger de data fra Fritz Hagerman til at estimere konditallet på baggrund af en 2000-meter test.
 
-Fritz Hagerman fra Ohio University har lavet formlerne bag testen gennem mange år. Hagerman har udført VO<sub>2</sub>max tests med maske og de samme forsøgspersoner har også lavet en maksimal 2000 meter test på romaskine. Derefter har Hagerman lavet en korrelation mellem de to tests, som benyttes i nedenstående beregner af kondital på baggrund af en test i romaskine.
+Fritz Hagerman fra Ohio University har lavet formlerne bag testen gennem mange år. Hagerman har udført VO₂max tests med maske og de samme forsøgspersoner har også lavet en maksimal 2000 meter test på romaskine. Derefter har Hagerman lavet en korrelation mellem de to tests, som benyttes i nedenstående beregner af kondital på baggrund af en test i romaskine.
 
 Du kan udregne dit kondital på Concept2's egen hjemmeside.
 

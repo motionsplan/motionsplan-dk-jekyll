@@ -49,7 +49,7 @@ I dette indlæg præsenterer jeg en række forskellige løbe metrics.
 | VO | cm | 7 | < |
 | LSS | kN/kg/m | 0.2 | > |
 | ECOR | kJ/kg/km | 0.99 | < |
-| RE | ml O<sub>2</sub>/kg/km | 200 | < |
+| RE | ml O₂/kg/km | 200 | < |
 
 Tabellen tager udgangspunkt i van Dijk og van Megens forslag til nogle mål, man kan have inden for de angivne kategorier.
 
@@ -160,7 +160,7 @@ Men hvordan finder jeg så RE? RE er ikke en del af Stryd, men du kan downloade 
 
 ### Energy Cost of Running (ECOR)
 
-Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver mekaniske wattmålinger. Det kræver typisk, at du har adgang til et løbebånd med kraftmåler og VO<sub>2</sub>max måleudstyr. Derfor mener fx Stryd ikke, at man kan måle ECOR baseret på data fra stryd wattmåleren. Den måler nemlig metabolisk power og ikke mekanisk power.
+Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver mekaniske wattmålinger. Det kræver typisk, at du har adgang til et løbebånd med kraftmåler og VO₂max måleudstyr. Derfor mener fx Stryd ikke, at man kan måle ECOR baseret på data fra stryd wattmåleren. Den måler nemlig metabolisk power og ikke mekanisk power.
 
 [Hans van Dijk & Ron van Megen](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/) har dog skrevet en del gæsteindlæg på Stryds hjemmeside. Her foreslår de, at man kan måle ECOR ved hjælp af Stryd-wattmåleren og farten. Ifølge dem siger ECOR udregnet på denne måde stadig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
 

@@ -166,6 +166,8 @@ Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprogra
 
 {% endcomment %}
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Lou Schuler og Alwyn Cosgrowe (2006): The New Rules of Lifting. Six Basic Moves for Maximum Muscle, Penguin Books.
+</details>

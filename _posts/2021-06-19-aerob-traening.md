@@ -86,7 +86,7 @@ Når du har etableret en _baseline_ for dit aerobe system, så kan du fokusere p
 
 En af de vigtige parametre, når du træner aerobt er at forbedre den **aerobe power**.
 
-Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften ellerhastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT).
+Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften ellerhastigheden ved VO₂max, men den vil også korrelere med laktattærsklen (AT).
 
 Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
 

@@ -20,6 +20,8 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 - **Normale version**. Se [det kompakte helkropsprogram](/program/kompakt-helkropsprogram-normal/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
 - **Avancerede udgave**. Se [det avancerede helkropsprogram](/node/434/) med virkelig avancerede øvelser, der stiller ekstremt store krav til både teknik, koordination og styrke.
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Morten Zacho: [Essensen af et godt styrkeprogram](https://www.motion-online.dk/essensen-godt-styrketraeningsprogram/){:rel="nofollow"}, [motion-online.dk](http://motion-online.dk){:rel="nofollow"}
+</details>

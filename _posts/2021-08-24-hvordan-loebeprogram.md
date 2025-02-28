@@ -199,7 +199,7 @@ Træning af den anaerobe tærskel i dit løbeprogram er en hård træningsform m
 
 Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede træningsmængde (km).
 
-### Træning af maksimal iltoptagelse (VO<sub>2</sub>max)
+### Træning af maksimal iltoptagelse (VO₂max)
 
 Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den maksimale iltoptagelse er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
 
@@ -225,7 +225,7 @@ Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltopt
 
 #### Intervaltræning og intervalløb
 
-Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
+Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO₂max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
 
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
 
@@ -236,7 +236,7 @@ Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke l
 
 Typisk vil man løbe omkring 20 minutter per træningspas, når man gerne vil flytte den maksimale iltoptagelse.
 
-Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/).
+Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO₂max](/maksimale-iltoptagelse-vo2max/).
 
 #### Fartleg eller Fartlek
 
@@ -309,7 +309,7 @@ Formålet med roligt løb er at få en højere samlet træningsmængde, og det l
 
 Jeg har hørt om studier, der fortæller at en større løbemængde er gavnlig for præstationen for løbere, men at en del af distancen sagtens kan være med lavere hastighed. Jeg har dog ikke lige kunnet finde studierne, så hvis du støder på dem, så brug endelig kommentarerne.
 
-Når man har en større træningsmængde er rationalet, at man bedre kan tolerere træning i de andre mere intensive træningskategorier som træning af den anaerobe tærskel og VO<sub>2</sub>max-træning.
+Når man har en større træningsmængde er rationalet, at man bedre kan tolerere træning i de andre mere intensive træningskategorier som træning af den anaerobe tærskel og VO₂max-træning.
 
 Det rolige løb er med til at give de samme fysiologiske forbedringer som ved udholdenhedstræning.
 

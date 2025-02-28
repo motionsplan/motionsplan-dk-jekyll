@@ -97,9 +97,11 @@ Texas Method kan varieres på mange forskellige måder, så du kan bruge det som
 
 [<i class='fas fa-file-excel'></i> Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 * [Texas Method](https://www.t-nation.com/training/texas-method)
 * [Why The Texas Method May Be The Best Intermediate Program](https://www.powerliftingtowin.com/texas-method/)
 
 {% include feature_row type="left" %}
+</details>

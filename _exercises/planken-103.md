@@ -138,7 +138,9 @@ En god isometrisk øvelse, der styrker maven evne til at stabilisere rygsøjlen.
 
 </div>
 
-## Referencer til planken
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Calatayud, Joaquin, Jose Casaña, Fernando Martín, Markus D. Jakobsen, Lars L. Andersen, og Juan C. Colado. 2019. “Electromyographic Effect of Using Different Attentional Foci during the Front Plank Exercise”. _American Journal of Physical Medicine and Rehabilitation_ 98 (1): 26–29. [https://doi.org/10.1097/PHM.0000000000001008](https://doi.org/10.1097/PHM.0000000000001008).
 - Schoenfeld, Brad J., Bret Contreras, Gul Tiryaki-Sonmez, Jeffrey M. Willardson, og Fabio Fontana. 2014. “An Electromyographic Comparison of a Modified Version of the Plank with a Long Lever and Posterior Tilt versus the Traditional Plank Exercise”. _Sports Biomechanics_ 13 (3): 296–306. [https://doi.org/10.1080/14763141.2014.942355](https://doi.org/10.1080/14763141.2014.942355).
+</details>

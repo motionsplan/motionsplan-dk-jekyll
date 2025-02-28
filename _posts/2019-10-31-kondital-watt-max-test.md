@@ -75,13 +75,13 @@ I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cy
 
 ## Videnskabelig baggrund for max watt testen
 
-Watt-max-testen er udviklet af Andersen (1995). I studiet blev 232 mænd og 303 kvinder i alderen fra 15-28 år testet. Studiet fandt en korelation på r=0,88 mellem _maximal power output_ og VO<sub>2</sub>max.
+Watt-max-testen er udviklet af Andersen (1995). I studiet blev 232 mænd og 303 kvinder i alderen fra 15-28 år testet. Studiet fandt en korelation på r=0,88 mellem _maximal power output_ og VO₂max.
 
 Det er altså en relativt høj korrelation, hvilket fik Andersen (1995) til at konkludere, at watt-max-testen kan bruges til at estimere den maksimale iltoptagelse.
 
 Energiforbruget ved forskellige arbejdsbelastninger er relativt konsistent mellem forskellige individer. Derfor kan man forvente, at personer, der træder samme antal watt har samme nogenlunde samme iltoptagelse.
 
-Derfor kan VO<sub>2</sub>-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
+Derfor kan VO₂-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
 
 Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig af aerob energifrigørelse.
 
@@ -91,7 +91,7 @@ Først finder du det maksimale power output (MPO) på baggrund af antallet af se
 
 Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra den regressionsligning, Andersen (1995) etablerede:
 
-VO<sub>2</sub>max = 0,16 + (0,0117 x MPO) (w)
+VO₂max = 0,16 + (0,0117 x MPO) (w)
 
 Og til sidst finder du konditallet som er ml/kg/min:
 

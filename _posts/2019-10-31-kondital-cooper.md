@@ -95,11 +95,11 @@ Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering 
 
 Formålet med testen er at se, hvor hurtigt du kan løbe på 12 minutter.
 
-Når du beregner konditallet ud fra Coopertesten, så er vægten allerede inkluderet det tal du får. Konditallet er jo som bekendt VO<sub>2</sub>-max divideret med kropsvægten, som måles i ml/kg/min.
+Når du beregner konditallet ud fra Coopertesten, så er vægten allerede inkluderet det tal du får. Konditallet er jo som bekendt VO₂-max divideret med kropsvægten, som måles i ml/kg/min.
 
-Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
+Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO₂max på 2,8 l/min.
 
-Når en person der vejer det dobbelte, nemlig 100 kg, skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min.
+Når en person der vejer det dobbelte, nemlig 100 kg, skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO₂max på 5,6 l/min.
 
 Da personen har dobbelt så høj kropsvægt, så ender konditallet for de to personer med at være det samme.
 
@@ -121,7 +121,7 @@ Du kan sammenligne dit resultat med [tabellen over kondital for mænd og kvinder
 
 12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi](/lobeokonomi/) vil få undervurderet deres iltoptagelse.
 
-Cooper (1968) rapporterede selv en korrelation på 0,9 mellem VO<sub>2</sub>max og distancen løbet på de 12 minutter.
+Cooper (1968) rapporterede selv en korrelation på 0,9 mellem VO₂max og distancen løbet på de 12 minutter.
 
 McCutcheon et al (1990) fandt, at Cooper testen gav en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år.
 
@@ -299,7 +299,7 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 
 ### 1. Beregne dit kondital
 
-Du kan naturligvis udregne din VO<sub>2</sub>max på baggrund af Cooper-testen. Men testen kan også guide dig til din efterfølgende træning.
+Du kan naturligvis udregne din VO₂max på baggrund af Cooper-testen. Men testen kan også guide dig til din efterfølgende træning.
 
 ### 2. Udregne dit træningstempo
 

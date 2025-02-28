@@ -10,7 +10,6 @@ header:
   caption: *title
 category:
   - Fysiologi
-  - Cykling
 tags:
   - interaktiv artikel
   - fysiologi
@@ -54,7 +53,7 @@ Hvis ikke du kender R-værdien, så kan du bruge 0,90 i beregneren. Der er en li
 
 Et eksempel:
 
-Lad os sige, at du cykler med <span id="bike_efficiency_text_workrate">100</span>W og iltoptagelsen er målt til <span id="bike_efficiency_text_vo2">1,89</span>L O<sub>2</sub>/min og en R-værdi på <span id="bike_efficiency_text_r">0,90</span>, så er energiforbruget <span id="bike_efficiency_text_ee">650,77</span>J/s.
+Lad os sige, at du cykler med <span id="bike_efficiency_text_workrate">100</span>W og iltoptagelsen er målt til <span id="bike_efficiency_text_vo2">1,89</span>L O₂/min og en R-værdi på <span id="bike_efficiency_text_r">0,90</span>, så er energiforbruget <span id="bike_efficiency_text_ee">650,77</span>J/s.
 
 ## Udregne bruttoeffektivtet (gross efficiency)
 
@@ -83,7 +82,7 @@ Endelig kan vi udregne cykeløkonomien.
 
 I vores eksempel:
 
-Med Power output på <span id="bike_economy_power_output">100</span>W og iltforbrug på <span id="bike_economy_vo2">1,89</span> L/O<sub>2</sub>, så bliver cykeløkonomien <span id="bike_economy_biking_economy">3,17</span>kJ/L.
+Med Power output på <span id="bike_economy_power_output">100</span>W og iltforbrug på <span id="bike_economy_vo2">1,89</span> L/O₂, så bliver cykeløkonomien <span id="bike_economy_biking_economy">3,17</span>kJ/L.
 
 ## Konklusion
 

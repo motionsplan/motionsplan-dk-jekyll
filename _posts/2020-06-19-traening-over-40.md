@@ -116,6 +116,8 @@ Når man kommer op i alderen, så har man færre af de mest vækstivrige hurtige
 
 Når man har taget hensyn til træningserfaring og sundhedstilstand, så er der reelt ikke de store hensyn, der skal tages.
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Lowndes, Joshua, Richard L. Carpenter, Robert F. Zoeller, Richard L. Seip, Naill M. Moyna, Thomas B. Price, Priscilla M. Clarkson, m.fl. 2009. “Association of Age with Muscle Size and Strength before and after Short-Term Resistance Training in Young Adults”. Journal of Strength and Conditioning Research 23 (7): 1915–20. <https://doi.org/10.1519/JSC.0b013e3181b94b35>.
+</details>

@@ -1,0 +1,191 @@
+---
+title: &title "Springtræning – Sådan forbedrer du dit spring i sport og træning"
+seo_title: "Springtræning – Guide til bedre hoppehøjde, springlængde og eksplosivitet"
+description: Lær hvordan du træner for at hoppe højere og springe længere. Springtræning forbedrer både vertikale og horisontale spring, eksplosivitet og styrke. Få overblik over metoder, tests og øvelser.
+permalink: /springtraening/
+language: da
+header:
+  overlay_image: https://images.unsplash.com/photo-1517626102333-83f7319aa06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  teaser: https://images.unsplash.com/photo-1517626102333-83f7319aa06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  caption: *title
+category:
+  - Træning
+  - Eksplosivitet
+tags:
+  - spring
+  - SQAT
+  - træning
+  - moc
+  - springtræning
+last_modified_at: 2021-11-19T23:14:14Z
+toc: true
+---
+
+Vil du hoppe højere, springe længere eller blive mere eksplosiv? Springtræning er afgørende for mange sportsgrene – fra basketball til atletik. På denne side får du en introduktion til springtyper, tests og træningsmetoder, så du kan målrette din træning.
+
+Her har jeg samlet viden om, hvordan du kommer til at springe højere eller længere med springtræning.
+
+*[GCT]: Ground Contact Time
+*[RSI]: Reactive Strength Index
+*[RFD]: Rate of Force Development
+*[DJ]: Drop Jump
+*[SJ]: Squat Jump
+*[DSI]: Dynamic Strength Index
+
+## De bedste springere i verden
+
+{% include video provider="youtube" id="TzLU3gu3wb4" %}
+
+## Følgende parametre kan have betydning springstyrke
+
+- Maximum Strength
+- Speed Strength
+- Strength Speed
+- [Rate of Force Development](/rate-of-force-development/)
+
+## Vertikale vs. horisontale spring
+
+Når vi taler om spring og springstyrke, så taler vi om mindst to typer forskellige spring. Vi har de horisontale hop og de vertikale længdespring. Teknikken og fysikken er forskellig alt efter, hvad vi taler om.
+
+Vi kan også have spring med stående afsæt eller med tilløb, ligesom vi kan sætte af på et eller to ben.
+
+- **Horisontale spring**. Horisontale spring er forskellige typer længdespring. Jeg har beskrevet [fysikken i det stående længdespring](/fysik-horisontalt-hop/) mere i dybden.
+- **Vertikale spring**. De vertikale spring kan være ret forskelligartede. Jeg har beskrevet [fysikken i de vertikale hop](/fysik-vertikalt-hop/). Der er en del forskellige tests, som kan være med til at teste din vertikale springstyrke.
+
+Tjek alle springtests nedenunder.
+
+## Hvordan tester jeg spring?
+
+{% assign site_posts = site.posts | where: "tags", "springtest" | sort: "last_modified_at" | reverse %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 3 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle springtests](/springtests-hoppehoejde/){: .btn .btn--info .btn--center }
+
+</div>
+
+## Interessante begreber i forhold til springstyrke
+
+Her kan du læse om nogle spændende begreber, som du kan bruge i forbindelse med test af springstyrke.
+
+### Reactive Strength Index (RSI)
+
+_Reactive Strength_ er evnen til hurtigt at ændre retning fra en hurtig excentrisk bevægelse til en koncentrisk bevægelse. _Reactive Strength Index (RSI)_ er udviklet for at få måle, hvordan testpersonen præsterer under plyometriske øvelser med hurtigt skift fra exentrisk bevægelse til en koncentrisk bevægelse - og som et udtryk for den dynamiske eksplosive vertikale hoppekapacitet. Det kræver en hoppemåtte eller en anden måde, hvor du kan måle afsætstiden.
+
+Jeg har skrevet mere om [Reactive Strength Index](/reactive-strength-index-rsi/).
+
+### Dynamic Strength Index (DSI)
+
+Dynamic Strength Index (DSI) måler forskellen mellem en atlets maksimale styrke og den eksplosive styrke. DSI kan bruges til at identificere om en atlet har brug for mere maksimal styrke, mere ballistisk og dynamisk træning eller samtidig træning af begge egenskaber.
+
+The Dynamic Strength Index (DSI) er en ratio mellem atletens ballistiske _peak force_ og deres dynamiske eller isometriske _peak force_. 
+
+Jeg har skrevet mere om [Dynamic Strength Index](/dynamic-strength-index-dsi/).
+
+## Hvordan træner du til de forskellige spring?
+
+### Plyometrisk træning
+
+Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Det kræver en fornuftig progression at træne plyometriske øvelser. Her er fire enkle trin til, hvordan du kan komme i gang med at [træne plyometri](/plyometrisk-traening/).
+
+**Bliv klogere**: [Læs mere om springstyrke og træning](/springstyrke-og-springtraening/)
+{: .notice }
+
+## Eksplosivitet, sprint og spring
+
+Kort intro til hvordan eksplosiv træning også forbedrer sprint.
+
+**Læs mere**: [Alt om eksplosivitet](/eksplosivitet/)
+{: .notice }
+
+{% comment %}
+
+## Træningsprogrammer og ressourcer
+- Link til relevante sider.
+
+
+
+## Styrketræning for springstyrke
+
+## In air strategies
+
+{% include video provider="youtube" id="y_nN2i1n27E" %}
+
+{% include video provider="youtube" id="tn0lqMuGguw" %}
+
+## Hjælper PAP på springstyrken?
+
+Can PAP work? - se mere i denne artikel [www.ncbi.nlm.nih.gov/pubmed/29309389](https://www.ncbi.nlm.nih.gov/pubmed/29309389).
+
+### Squat Jump
+
+### Countermovement Jump
+
+{% include video provider="youtube" id="RgboWFzSUKo" %}
+
+What is optimal depth.
+
+Denne artikel snakker lidt om den optimale dybde --> [www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/VerticalJumping.htm](https://www.brunel.ac.uk/~spstnpl/BiomechanicsAthletics/VerticalJumping.htm)
+
+[Petrigna et al (2019)](https://www.frontiersin.org/articles/10.3389/fphys.2019.01384/full) snakker om at standardisere squat jump og counter movement jump. Jeg har skrevet mere om, hvordan man [tester counter movement jump og squat jumps]({% link _posts/2020-01-17-test-jump-cmj.md %}).
+
+### Countermovement Jump armtræk
+
+{% include video provider="youtube" id="KNtoP1P2dUA" %}
+
+### Drop Jump
+
+### Jump and reach
+
+Forskel mellem jump and reach og kraftplatform
+
+{% include video provider="youtube" id="tn0lqMuGguw" %}
+
+***
+
+{% endcomment %}
+
+## Absolut styrke til absolut hastighed
+
+{% include video provider="youtube" id="Y0ge2TYDllw" %}
+
+## Alle sider om spring
+
+{% assign site_posts = site.posts | where: "tags", "spring" | sort: "last_modified_at" | reverse %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 3 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle springtests](/springtests-hoppehoejde/){: .btn .btn--info .btn--center }
+
+</div>
+
+***
+
+{% comment %}
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- https://www.trainwithpush.com/blog/reactive-strength-index-revisited
+- https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2
+- https://www.trainwithpush.com/blog/the-reactive-strength-index-revisited-part-3-by-eamonn-flanagan
+- https://www.hawkindynamics.com/blog/assessments-of-reactive-strength
+- https://coachmeplus.com/increase-reactive-strength-index/
+- https://simplifaster.com/articles/scandinavian-rebound-jump-test-every-athlete-use/
+</details>
+
+{% endcomment %}
+
+{% include stub.md %}

@@ -57,6 +57,8 @@ Du kan også udføre _Cooper's Mortality Risk Index: Clinical Score Sheet for Me
 
 [Udfør testen på engelsk](https://www.health-calc.com/health/9-mortality-risk){: .btn .btn--success .btn--large }
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Janssen, Ian, Peter T. Katzmarzyk, Timothy S. Church, og Steven N. Blair. 2005. “The Cooper Clinic Mortality Risk Index: Clinical Score Sheet for Men”. American Journal of Preventive Medicine 29 (3): 194–203. <https://doi.org/10.1016/j.amepre.2005.05.003>.
+</details>

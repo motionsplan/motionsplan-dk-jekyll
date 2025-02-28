@@ -163,7 +163,7 @@ Kropsvægt kan også ved løb nogenlunde forudsige energiforbruget, når du løb
 
 Regnestykket for en løber bliver således relativt enkelt. Jeg vejer 80 kg, og jeg bruger altså 80 kcal på at løbe en km.
 
-Forbrænding af en liter ilt svarer til omkring 5 kcal (McArdle 2010), så jeg bruger 16 liter O<sub>2</sub> per kilometer.
+Forbrænding af en liter ilt svarer til omkring 5 kcal (McArdle 2010), så jeg bruger 16 liter O₂ per kilometer.
 
 ## Bruger man lige meget energi ved løb og gang?
 

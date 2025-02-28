@@ -287,7 +287,8 @@ PEACE & LOVE ser for mig ud til at være en huskeregel, som godt kunne ende med 
 
 {% comment %}
 
-## REFERENCER
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 [1] Mirkin, G. (2014). Why Ice Delays Recovery. DrMirkin.com
 
 [2] van den Bekerom, M. P., Struijs, P. A., Blankevoort, L., Welling, L., Van Dijk, C. N., & Kerkhoffs, G. M. (2012). What is the evidence for rest, ice, compression, and elevation therapy in the treatment of ankle sprains in adults?. Journal of Athletic Training, 47(4), 435-443.
@@ -299,5 +300,5 @@ PEACE & LOVE ser for mig ud til at være en huskeregel, som godt kunne ende med 
 [5] Ramos, G. A., Arliani, G. G., Astur, D. C., Pochini, A. D. C., Ejnisman, B., & Cohen, M. (2017). Rehabilitation of hamstring muscle injuries: a literature review. Revista Brasileira de Ortopedia, 52(1), 11-16.
 
 [6] Dubois, B., & Esculier, J. F. (2019). Soft-tissue injuries simply need PEACE and LOVE. British Journal of Sports Medicine 2020;54:72-73.
-
+</details>
 {% endcomment %}

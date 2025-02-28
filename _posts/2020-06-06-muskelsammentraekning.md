@@ -101,6 +101,8 @@ Selv de ufrivillige bevægelser, fx  hjertemusklen, er også styret af nervesyst
 2. Hvad er de to proteiner, der er i en myofibril?
 3. Forklar hvordan en muskel trækker sig sammen med _sliding filament_-teorien?
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Den Store Danske: muskel](https://denstoredanske.lex.dk/muskel)
+</details>

@@ -97,7 +97,7 @@ Coggan har opstillet zonerne på denne måde. I de to kolonner kan du se den omt
 | 2 | Udholdenhed | Aerob | 60-300 min | N/A |
 | 3 | Tempo | Hovedsageligt aerob | 60-180 min | N/A|
 | 4 | Anaerob tærskel | Aerob og anaerob | N/A | 10-30 min |
-| 5 | VO<sub>2</sub>max | Aerob og anaerob | N/A | 3-8 min |
+| 5 | VO₂max | Aerob og anaerob | N/A | 3-8 min |
 | 6 | Anaerob kapacitet | Hovedsageligt anaerob | N/A | 30 sek - 3 min |
 | 7 | Neuromuskulær power | Anaerob | N/A | < 15 sek |
 
@@ -135,11 +135,11 @@ Zone 4 ligger omkring din anaerobe tærskel. Træning zone 4 forbedrer den musku
 
 Mælkesyretærskeltræning er typisk baseret på intervaller på 5-30 minutter ad gangen, men du kan også arbejde kontinuerligt og arbejde med høj intensitet i 20-40 minutter.
 
-Træning omkring laktattærsklen er også med til at forbedre **modstandsdygtigheden**. Modstandsdygtigheden er et udtryk for, hvor høj procent af VO<sub>2</sub>max man er i stand til at løbe med på den anaerobe tærskel. Det er særligt her eliteløbere adskiller sig fra os andre. De kan nemlig løbe med rigtig høj intensitet i forhold til deres maksimale iltoptagelse uden at opbygge ekstra træthedsstoffer i musklerne.
+Træning omkring laktattærsklen er også med til at forbedre **modstandsdygtigheden**. Modstandsdygtigheden er et udtryk for, hvor høj procent af VO₂max man er i stand til at løbe med på den anaerobe tærskel. Det er særligt her eliteløbere adskiller sig fra os andre. De kan nemlig løbe med rigtig høj intensitet i forhold til deres maksimale iltoptagelse uden at opbygge ekstra træthedsstoffer i musklerne.
 
 {% include figure image_path="https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-threshold-1536x616.jpg" caption="4x9 minutter intervaller på FTP med 4 minutters pause er et eksempel på træning i zone 4. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/)" %}
 
-### 5. VO<sub>2</sub>max
+### 5. VO₂max
 
 Zone 5 er en meget intens træningszone. Træning i denne zone er hård træning, som er med til at forbedre den maksimale iltoptagelse og den højintense aerobe arbejdskapacitet. Intensiteten er høj, men det er ikke *all out*. Intervallerne kan vare fra 2-8 minutter, men oftest er de 3-5 minutter.
 
@@ -171,8 +171,8 @@ Her har vi samlet en oversigt over de enkelte træningszoner med deres fysiologi
 | 2        | Udholdenhed    | Øger forbrændingen af fedt og evnen til at bruge ilt, producere kraft og øger effektivteten. Øger bevægelsesøkonomien. | Mere effektiv brug af energi. Kan producere mere kraft med den samme anstrengelse. Arbejde på teknik.                  |
 | 3        | Tempo          | Forbedrer forbrændingen af kulhydrater. Giver *fast twitch*-muskelfibrene nogle karakteristika fra *slow-twitch*-fibrene | Forbedret evne til at fastholde kraften over tid.                                                                          |
 | 4        | Anaerob tærskel  | Forbedrer forbrændingen af kulhydrater. Forbedrer den anaerobe tærskel. Ændrer nogle *FT IIx*-fibre til *FT IIa* | Forbedret evne til at fastholde kraften over tid. Værdifuldt når man kommer tættere på konkurrencer. |
-| 5        | VO<sub>2</sub>max | Udvikler kredsløbet og VO<sub>2</sub>max. Forbedrer den anaerobe energiproduktion og forbrændingen af affaldsprodukterne | Forbedret evne til at køre hurtigt og forøget modstand mod træthed på kort sigt.                 |
-| 6        | Anaerob kapacitet | Forbedret muskelstyrke og *power*. Udvikler det kardiovaskulære system og VO<sub>2</sub>max. Forbedrer tærsklen. | Sprint-hastighed. Evne til at accelere væk fra en gruppe og tolerere hårdt arbejde, fx op ad bakke |
+| 5        | VO₂max | Udvikler kredsløbet og VO₂max. Forbedrer den anaerobe energiproduktion og forbrændingen af affaldsprodukterne | Forbedret evne til at køre hurtigt og forøget modstand mod træthed på kort sigt.                 |
+| 6        | Anaerob kapacitet | Forbedret muskelstyrke og *power*. Udvikler det kardiovaskulære system og VO₂max. Forbedrer tærsklen. | Sprint-hastighed. Evne til at accelere væk fra en gruppe og tolerere hårdt arbejde, fx op ad bakke |
 | 7        | Neuromusklulær power | Forbedret muskelstyrke og *power*. | Sprint-hastighed. Evne til at accelere og være eksplosiv. |
 
 </div>
@@ -206,7 +206,7 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 | 2 | Udholdenhed | 81-89% | 64-72% | 72-82% | 124-115% | 56-75% | 13 | 2-3 |
 | 3 | Tempo (aerob kapacitet) | 90-94% | 72-80% | 82-87% | 115-106% | 76-90% | 14-15 | 3-4 |
 | 4 | Anaerob Tærskel | 94-100% | 80-90% | 88-92% | 106-98% | 91-105% | 16 | 5-6 |
-| 5 | VO<sub>2</sub>max | 100-102%+ | 90-100% | 93-100% | 98-90% | 106-120% | \>17-18 | 7-8 |
+| 5 | VO₂max | 100-102%+ | 90-100% | 93-100% | 98-90% | 106-120% | \>17-18 | 7-8 |
 | 6 | Anaerob kapacitet | N/A | N/A | N/A | \<90% | \>121-150% | 19-20 | 8-9 |
 | 7 | Power og sprint | N/A | N/A | N/A | \<90% | \>151% | 19-20 | 10 |
 
@@ -343,7 +343,7 @@ Træning af den anaerobe tærskel i dit løbeprogram er en hård træningsform m
 
 Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede træningsmængde (km).
 
-## Træning af maksimal iltoptagelse (VO<sub>2</sub>max)
+## Træning af maksimal iltoptagelse (VO₂max)
 
 Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
 
@@ -371,13 +371,13 @@ Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltopt
 
 ### Intervaltræning
 
-Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
+Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO₂max skal have en varighed på 2-5 minutter. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
 
 Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
 
 Typisk vil man løbe omkring 20 minutter per træningspas, når man gerne vil flytte den maksimale iltoptagelse.
 
-Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/).
+Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO₂max](/maksimale-iltoptagelse-vo2max/).
 
 ### Fartleg
 
@@ -458,7 +458,7 @@ Formålet med roligt løb er at få en højere samlet træningsmængde. Det har 
 
 Jeg har hørt om studier, der fortæller at en større løbemængde er gavnlig for præstationen for løbere, men at en del af distancen sagtens kan være med lavere hastighed. Jeg har dog ikke lige kunnet finde studierne, så hvis du støder på dem, så brug endelig kommentarerne.
 
-Når man har en større træningsmængde er rationalet, at man bedre kan tolerere træning i de andre mere intensive træningskategorier som træning af den anaerobe tærskel og VO<sub>2</sub>max-træning.
+Når man har en større træningsmængde er rationalet, at man bedre kan tolerere træning i de andre mere intensive træningskategorier som træning af den anaerobe tærskel og VO₂max-træning.
 
 Det rolige løb er med til at give de samme fysiologiske forbedringer som ved udholdenhedstræning.
 

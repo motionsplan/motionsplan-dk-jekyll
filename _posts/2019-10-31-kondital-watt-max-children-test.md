@@ -69,7 +69,7 @@ Først finder du det maksimale power output (MPO) på baggrund af antallet af se
 
 Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra denne formel:
 
-VO<sub>2</sub>max = 13.16 * MPO + 5 * weight
+VO₂max = 13.16 * MPO + 5 * weight
 
 ## Andre konditionstests for børn
 

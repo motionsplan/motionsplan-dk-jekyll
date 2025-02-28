@@ -63,9 +63,9 @@ Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigg
 
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
-- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO₂max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
 - **Løbeøkonomien**
-- Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den [anaerobe tærskel](/anaerobe-taerskel/).
+- Evnen til at **løbe med en så høj procentdel af VO₂max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den [anaerobe tærskel](/anaerobe-taerskel/).
 
 Lad os dykke lidt længere ned i begrebet løbeøkonomi.
 
@@ -104,11 +104,11 @@ Løbere med en god løbeøkonomi bruger mindre ilt end løbere, der har en dårl
 
 ## Hvordan kan vi måle løbeøkonomien?
 
-Løbeøkonomi er den mængde energi det kræver at løbe ved en given (submaximal) løbehastighed og udtrykkes som en submaximal iltoptagelse (VO<sub>2</sub>) ved den fastsatte løbehastighed.
+Løbeøkonomi er den mængde energi det kræver at løbe ved en given (submaximal) løbehastighed og udtrykkes som en submaximal iltoptagelse (VO₂) ved den fastsatte løbehastighed.
 
 Måling af løbeøkonomien er komplekst og kan være unøjagtig, da målingen er bestemt af forskellige variabler, der måske ikke udelukkende relaterer sig til iltoptagelsen. En måling af løbeøkonomien kan imidlertid give et spændende indblik i den individuelle præstation, og den giver mulighed for at sammenligne med andre løbere.
 
-Løbeøkonomi (RE) er defineret som den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien udtrykkes som ml O<sub>2</sub>/kg/km. Vi bruger kropsvægten som variabel for at kunne sammenligne mellem løbere.
+Løbeøkonomi (RE) er defineret som den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien udtrykkes som ml O₂/kg/km. Vi bruger kropsvægten som variabel for at kunne sammenligne mellem løbere.
 
 Løbeøkonomien er altså ikke den sædvanlige energiomkostning, som typisk vil udtrykkes i enten joule eller kcal. Vi vil imidlertid kunne udregne energiomkostningen, hvis vi har oplysninger om, hvor meget energi, der bruges ved pr. liter ilt i energiforbrændingen.
 
@@ -118,7 +118,7 @@ Iltoptagelsen kan måles i en laboratorietest, hvor du ved forskellige hastighed
 
 På formel ser løbeøkonomien altså sådan her ud:
 
-RE = VO<sub>2</sub> (ml/kg/min) / v (km/min)
+RE = VO₂ (ml/kg/min) / v (km/min)
 
 Hvis du har adgang til et [løbebånd]({% link _posts/2020-08-14-loebebaand.md %}), så får du oftest værdierne for iltoptagelsen som l/min og hastigheden som km/t.
 
@@ -177,13 +177,13 @@ Men derfor kan det jo godt være sjovt at bruge sine egne tal til at kigge på l
 
 Hvis du kender din løbeøkonomi, så kan du udregne din maksimale hastighed, hvis din løbeøkonomi forbliver den samme ved højere hastigheder:
 
-v<sub>max</sub> = VO<sub>2</sub>-max / RE
+v<sub>max</sub> = VO₂-max / RE
 
 Din V<sub>max</sub> er den hastighed, du kan holde i omkring 10 minutter.
 
 Hvis du løber længere distancer, kan du finde _functional threshold power (FTP)_ nogenlunde svarende til din anaerobe tærskel.
 
-Hastigheden på `FTP` har Dijk (2017) fundet ud af svarer omkring til 88% af hastigheden ved VO<sub>2</sub>-max.
+Hastigheden på `FTP` har Dijk (2017) fundet ud af svarer omkring til 88% af hastigheden ved VO₂-max.
 
 FTP = 88% * V<sub>max</sub>
 
@@ -195,7 +195,7 @@ Der er typisk ikke direkte sammenhæng mellem den maksimale iltoptagelse og løb
 
 [Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/) konkluderer i deres studium følgende:
 
-> In conclusion, the current investigation demonstrates that only a small to moderate relationship exists between running economy and V̇O<sub>2</sub>max in highly trained distance runners. With >85% of the variance in these parameters unexplained by this relationship, these findings reaffirm that running economy and V̇O<sub>2</sub>max are primarily determined independently.
+> In conclusion, the current investigation demonstrates that only a small to moderate relationship exists between running economy and V̇O₂max in highly trained distance runners. With >85% of the variance in these parameters unexplained by this relationship, these findings reaffirm that running economy and V̇O₂max are primarily determined independently.
 >
 > --- <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
 
@@ -326,10 +326,8 @@ Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rig
 
 Hvordan arbejder du med din løbeøkonomi?
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se flere referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
 - Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.

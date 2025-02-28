@@ -260,7 +260,7 @@ En god baseline at sætte for sin træning kunne være at finde ud af, hvor mege
 {% include video provider="facebook" id="8weeksout/videos/10155997740030787" %}
 
 Aerobic Power
-: Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
+: Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO₂max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
 
 Anaerobic Power
 : Dette er den kraft der kan skabes af det anaerobe system, som man kun kan oprethold i en kort periode af gangen. Det er ikke helt klart, hvad der gør at dette system bliver udtrættet meget hurtigt, men det skyldes formentlig om at musklernes evne til at trække sig sammen sænkes (perifær og at signalerne til musklerne nedsættes.

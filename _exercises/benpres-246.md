@@ -113,6 +113,8 @@ Med benpres gælder det samme som alle andre øvelser. Dosering er det vigtigste
 
 Det er fristende for mange at gå ind i en benpresmaskine og sætte virkelig meget vægt på for at se, hvad de kan klare. Men det er smartere at bygge træningen stille og roligt op.
 
-## Referencer til benpres og leg extension
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Silva, Eduardo Da, Michel Brentano, Eduardo Cadore, Ana Paula Viola De Almeida, og Luiz Fernando Martins Kruel. “Analysis of Muscle Activation During Different Leg Press Exercises at Submaximum Effort Levels”. _Journal of Strength and Conditioning Research_ 22, nr. 4 (juli 2008): 1059–65. [https://doi.org/10.1519/JSC.0b013e3181739445](https://doi.org/10.1519/JSC.0b013e3181739445).
+</details>

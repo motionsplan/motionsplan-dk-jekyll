@@ -75,7 +75,7 @@ For at udregne konditallet ud fra resultatet i Bruce-testen, skal du bruge en fo
 
 Der er en generel formel, der passer til begge køn:
 
-VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
+VO₂-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
 
 Hvor T er er tiden i minutter, du har løbet i Bruce-testen. Sekunderne skal være fraktioner af minutter, så 9 minutter og 15 sekunder er 9.25.
 
@@ -85,6 +85,8 @@ Du kan sammenligne dit resultat med [tabellen med kondital for mænd og kvinder]
 
 {% include calculator/calculate-bruce.html %}
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
+</details>

@@ -45,7 +45,7 @@ At slippe af med varmen er en af de vigtige begrænsninger for at løbe hurtigt.
 
 [Løbeøkonomien](/lobeokonomi/) har også stor betydning for, hvor meget varme der produceres ved en given hastighed.
 
-Du kan prøve at indtaste en typisk løbeøkonomi for eliteløbere på 190 ml O<sub>2</sub>/kg/km og sammenligne den med en begynderløber på 230 ml O<sub>2</sub>/kg/km.
+Du kan prøve at indtaste en typisk løbeøkonomi for eliteløbere på 190 ml O₂/kg/km og sammenligne den med en begynderløber på 230 ml O₂/kg/km.
 
 Der er tydelig forskel på varmeproduktionen alt efter kropsvægt og løbeøkonomi.
 

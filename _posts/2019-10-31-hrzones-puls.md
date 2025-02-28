@@ -68,7 +68,7 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 | 2 | Udholdenhed | Aerob |
 | 3 | Tempo | Hovedsageligt aerob |
 | 4 | Anaerob tærskel | Aerob og anaerob |
-| 5 | VO<sub>2</sub>max | Aerob og anaerob |
+| 5 | VO₂max | Aerob og anaerob |
 | 6 | Anaerob kapacitet | Hovedsageligt anaerob |
 | 7 | Neuromuskulær power | Anaerob |
 

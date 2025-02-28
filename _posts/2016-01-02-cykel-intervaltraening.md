@@ -30,7 +30,7 @@ Når du skal vælge intervaller til cykling, så skal du først og fremmest kigg
 
 ## Kondital-intervaller og træning af den maksimale iltoptagelse
 
-Formålet med disse intervaller er at flytte den maksimale iltoptagelse. Her er et par eksempler på nogle cykelintervaller til at flytte din VO<sub>2</sub>-max.
+Formålet med disse intervaller er at flytte den maksimale iltoptagelse. Her er et par eksempler på nogle cykelintervaller til at flytte din VO₂-max.
 
 ### 40/20-intervaller
 

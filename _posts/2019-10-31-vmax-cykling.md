@@ -39,7 +39,7 @@ Det oprindelige studium er lavet med løbere, men teoretisk set kan man overfør
 
 Opvarmningen i studiet foregik først med fem minutter ved selvvalgt hastighed, lidt udstrækning og derefter 5 minutter på 60% V<sub>max</sub>. Alle træninger sluttede med 5-10 minutters aktiv restitution.
 
-Jeg kan ikke finde informationer om pausetider eller pauseintensitet mellem intervallerne. I lignende protokoller for at flytte VO<sub>2</sub>max, så har man brugt _work/rest_-ratio på 2:1, så jeg har valgt som standard at sætte pausetiderne til halvdelen af intervallerne.
+Jeg kan ikke finde informationer om pausetider eller pauseintensitet mellem intervallerne. I lignende protokoller for at flytte VO₂max, så har man brugt _work/rest_-ratio på 2:1, så jeg har valgt som standard at sætte pausetiderne til halvdelen af intervallerne.
 
 Intensiteten i pausen har jeg valgt at sætte til samme intensitet, som bruges på restitutionsløbene. Du kan selv i beregneren til cykelprogrammet ændre denne procentdel.
 
@@ -60,7 +60,7 @@ Det oprindelige studium er lavet med løbere, men teoretisk set kan man overfør
 
 Du kan også bruge V<sub>max</sub> træning på cykel, hvis du har adgang til en cykel, der kan vise din watt-belastning.
 
-Du kan finde din V<sub>max</sub> ved at køre [Watt Max konditionstesten](/kondital-wattmax/) på en cykel med wattmåler - eller du kan estimere din V<sub>max</sub>, hvis du kender din maksimale iltoptagelse i denne beregner. Beregneren udnytter viden fra Watt-max-testen, hvor du udregner VO<sub>2</sub>max på baggrund af _maximal power output_. Beregneren her regner baglæns.
+Du kan finde din V<sub>max</sub> ved at køre [Watt Max konditionstesten](/kondital-wattmax/) på en cykel med wattmåler - eller du kan estimere din V<sub>max</sub>, hvis du kender din maksimale iltoptagelse i denne beregner. Beregneren udnytter viden fra Watt-max-testen, hvor du udregner VO₂max på baggrund af _maximal power output_. Beregneren her regner baglæns.
 
 {% include calculator/calculate-vmax-biking-estimate.html %}
 
@@ -69,7 +69,7 @@ For at køre V<sub>max</sub>-træning på cykel skal du gøre følgende:
 1. Indtast værdierne for V<sub>max</sub> og T<sub>max</sub> ind i nedenstående beregner.
 2. Nu har du et forslag til intervaller på cykel efter V<sub>max</sub>-træningsmetoden.
 
-Programmet for V<sub>max</sub>-træning er hårdt, og det er hensigten for at flytte VO<sub>2</sub>max. Hvis ikke du kan gennemføre programmet, så kan du justere lidt på tiderne og belastningen. Jeg ville nok først forsøge at gøre pauserne lidt længere.
+Programmet for V<sub>max</sub>-træning er hårdt, og det er hensigten for at flytte VO₂max. Hvis ikke du kan gennemføre programmet, så kan du justere lidt på tiderne og belastningen. Jeg ville nok først forsøge at gøre pauserne lidt længere.
 
 Du kan supplere din træning med V<sub>max</sub>-træning maksimalt 1-2 gange pr. uge, så du også kan nå at restituere fra træningen igen.
 

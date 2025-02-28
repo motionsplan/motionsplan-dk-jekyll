@@ -194,6 +194,8 @@ Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbe
 
 Jeg kan på det varmeste anbefale at bruge [RTS-appen som træningslog](/rts-app/).
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [All About Autoregulation](https://www.powerliftingtowin.com/autoregulation/)
+</details>

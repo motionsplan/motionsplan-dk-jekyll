@@ -32,13 +32,13 @@ Men lad os dykke ned i, hvordan du tester den **maksimale iltoptagelse** og **ko
 
 Men lad os først definere den [maksimale iltoptagelse (VO2max)](/maksimale-iltoptagelse-vo2max/) og [konditallet](/kondital/) for at se, hvad en test af konditionen tester:
 
-Maksimal iltoptagelse (VO<sub>2</sub>max) (l/min)
-: Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O<sub>2</sub>) kroppen optager pr. minut.
+Maksimal iltoptagelse (VO₂max) (l/min)
+: Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O₂) kroppen optager pr. minut.
 
 Kondital (ml/kg/min)
 : Konditallet er et udtryk for, hvor effektiv kroppen er i forhold til kropsvægten til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
 
-I den engelske litteratur vil man sommetider se, at man bruger VO<sub>2</sub>-max med enheden (ml/kg/min). Men så er det faktisk konditallet, der refereres til. Det er altså vigtigt at holde øje med enhederne.
+I den engelske litteratur vil man sommetider se, at man bruger VO₂-max med enheden (ml/kg/min). Men så er det faktisk konditallet, der refereres til. Det er altså vigtigt at holde øje med enhederne.
 {: .notice .notice--danger }
 
 ## Hvordan måles kondition, kondital og iltoptagelse?

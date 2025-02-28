@@ -195,10 +195,8 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 {% include motionsplan/orbit.html cards=page.quiz %}
 
-## Referencer
-
-<details markdown="1">
-  <summary>Se referencer</summary>
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](https://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
 </details>

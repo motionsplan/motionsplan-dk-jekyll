@@ -159,7 +159,9 @@ Straight leg raise baglårsstræk: Den sjette strækøvelser er for baglåret. D
 ***
 
 
-## Referencer
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
 - Shrier, I. (2004). Does Stretching Improve Performance?. Clinical Journal of Sport Medicine, 14(5), pp.267-273.
 - Yuktasir, B. and Kaya, F. (2009). Investigation into the long-term effects of static and PNF stretching exercises on range of motion and jump performance. Journal of Bodywork and Movement Therapies, 13(1), pp.11-21.
 - Kallerud, H. and Gleeson, N. (2013). Effects of Stretching on Performances Involving Stretch-Shortening Cycles. Sports Medicine, 43(8), pp.733-750.
@@ -169,3 +171,4 @@ Straight leg raise baglårsstræk: Den sjette strækøvelser er for baglåret. D
 - Aagaard, Per (2003): "Nyeste viden om nervesystemets tilpasninger til tung styrketræning på motion-online.dk
 - Kokkonen, Joke, Arnold G. Nelson, Carol Eldredge, og Jason B. Winchester. 2007. “Chronic Static Stretching Improves Exercise Performance”. Medicine and Science in Sports and Exercise 39 (10): 1825–31. <https://doi.org/10.1249/mss.0b013e3181238a2b>.
 - Herbert, Rob D, og Michael Gabriel. 2002. “Effects of stretching before and after exercising on muscle soreness and risk of injury: systematic review”. BMJ: British Medical Journal 325 (7362): 468. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC119442/>.
+</details>

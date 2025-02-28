@@ -2,7 +2,7 @@
 ---
 title: &title "Løbebåndstest med iltoptagelse (trappetest)"
 seo_title: "Løbebåndstest med iltoptagelse (trappetest)"
-permalink: /iltoptagelse-loeb-ramp-test/
+permalink: /iltoptagelse-trappetest-maxtest-loeb/
 excerpt: "Direkte måling med maske af iltoptagelsen med stigende belastning fra lav intensitet til maksimal intensitet."
 description: "Test din VO2max direkte med maske på et løbebånd med denne løbetest, der starter med submaksimal hastighed og fortsætter indtil løberen har opnået sin maksimale hastighed."
 language: da
@@ -26,6 +26,7 @@ tags:
   - submaksimal test
   - løbetest
   - test
+  - laboratorietest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
@@ -55,6 +56,7 @@ Denne test giver dig præcise data om din konditionstilstand og kan bruges til a
 {% include concept.html concept="lt1" %}
 {% include concept.html concept="lt2" %}
 {% include concept.html concept="løbeøkonomi" %}
+{% include concept.html concept="maxpuls" %}
 
 ## Aerobt og anaerobt arbejde
 
@@ -79,15 +81,19 @@ Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellig
 
 Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endnu mere præcise svar på, hvordan din krop arbejder ved forskellige intensiteter.
 
-Desuden rammer vi til sidst VO<sub>2</sub>peak. Vi kalder det *peak*, fordi vi ikke kan være helt sikker på, at det er den maksimale iltoptagelse, da det ikke bliver verificeret ved udelukkende maksimal test.
+Desuden rammer vi til sidst VO₂peak. Vi kalder det *peak*, fordi vi ikke kan være helt sikker på, at det er den maksimale iltoptagelse, da det ikke bliver verificeret ved udelukkende maksimal test.
 
 ## Fra submaksimal til maksimal belastning
 
 Testen er en åben test, som slutter når løberen ikke længere kan fortsætte, eller forsøgslederen vurderer, at det er uforsvarligt at fortsætte.
 
-Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO<sub>2</sub>-udvekslingen. Desuden måles puls, laktat, løbehastigheden og løbeøkonomien.
+Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO₂-udvekslingen. Desuden måles puls, laktat, løbehastigheden og løbeøkonomien.
 
 Testresultaterne bruges efterfølgende til at identificere træningszoner, der kan bruges i den efterfølgende træningsperiode.
+
+## Diagram over testen
+
+{% include figure image_path="/assets/images/motionsplan/incremental-max-test.jpg" alt="diagram over trappe max-teststen på løbebånd" caption="Diagram over trappetesten til løb." %}
 
 ## Sådan udføres testen
 
@@ -159,9 +165,12 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
 3. Laktatmåling skal være over 8 mmol.
 4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
-5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO<sub>2</sub>) kaldes den ventilatoriske kvotient, og skal være over 30.
+5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
 
-Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale.
+Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den maksimale iltoptagelse, og at forsøgspersonen således har ydet sit maksimale.
+
+**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
+{: .notice }
 
 ## Hvad er ulempen ved denne test?
 
@@ -169,6 +178,10 @@ Ulempen ved denne test er:
 
 - **Opnås der steady state på 3 minutter?**. 3 minutter er i hvert fald nødvendig for at opnå steady state på en hastighed. For utrænede kan det være lige i underkanten. Jeg har imidlertid ret gode erfaringer med, at selv uøvede løbere kan opnå en fornuftig laktatkurve på baggrund af testen.
 - **Opnår vi den maksimale iltoptagelse?**. Vi kalder det VO2peak for at understrege, at vi ikke kan være helt sikker på, at vi har opnået den maksimale iltoptagelse, når vi udfører testen på denne måde, hvor vi netop på hvert niveau løber 3 minutter, inden vi går til næste niveau.
+
+## Meningsfuld forbedring i testen
+
+{% include figure image_path="/assets/images/motionsplan/incremental-max-test-results.jpg" alt="laktat og puls kurve ift. hastighed" caption="Her er en løber der har gennmført testen før og efter et træningsforløb. Laktatkurven er skubbet til højre, hvilket betyder at både LT1 og LT2 også ligger ved højere hastigheder. Løberen har ganske enkelt fået en mere effektiv motor med flere kræfter." %}
 
 ## Diskussionsspørgsmål
 
