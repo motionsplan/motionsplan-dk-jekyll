@@ -13,9 +13,6 @@ category:
   - Anatomi
 tags:
   - anatomi
-  - vægt
-  - knogler
-  - skelettet
 last_modified_at: 2022-01-31T08:14:14Z
 toc: true
 feature_row:

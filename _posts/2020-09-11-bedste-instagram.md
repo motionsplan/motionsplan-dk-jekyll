@@ -11,7 +11,7 @@ header:
 category:
   - Inspiration
 tags:
-  - Instagram
+  - inspiration
 feature_row_coacheltong:
   - url: https://www.instagram.com/coacheltong
     title: "Søren Eltong - @coacheltong"

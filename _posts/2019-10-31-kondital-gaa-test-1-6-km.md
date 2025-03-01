@@ -14,7 +14,7 @@ category:
   - Gang
 meta:
   name: Rockports 1,6 km gangtest
-  measures: VO2max og kondital
+  measures: kondital
   type: gangtest
   equipment: fladt underlag
   max: submaksimal test

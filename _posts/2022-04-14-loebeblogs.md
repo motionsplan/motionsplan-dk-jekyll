@@ -9,7 +9,7 @@ header:
 category:
   - Løb
 tags:
-  - blogs
+  - inspiration
 last_modified_at: 2022-04-12T22:21:26Z
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1540539234-c14a20fb7c7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10

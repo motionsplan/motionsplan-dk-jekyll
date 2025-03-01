@@ -12,7 +12,7 @@ category:
   - Vurderingsværktøjer
   - Psykologi
 tags:
-  - spiseforstyrrelse
+  - kost & ernæring
   - psykologi
   - psykologisk test
   - vurderingsværktøj

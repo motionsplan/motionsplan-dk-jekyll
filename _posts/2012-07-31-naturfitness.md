@@ -12,9 +12,9 @@ header:
 category:
   - Træning
 tags:
-  - naturtræning
   - udendørs træning
   - træningsprogram
+  - træningsøvelser
 feature_row_sign:
   - image_path: /assets/images/naturfitness/bettina-reimer.png
     excerpt: Tegningerne er tegnet af Bettina Reimer

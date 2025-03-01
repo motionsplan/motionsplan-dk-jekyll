@@ -14,7 +14,10 @@ category:
   - Kosttilskud
 tags:
   - kosttilskud
-  - magnesium
+  - mineral
+  - kost
+  - ernæring
+  - søvn
 last_modified_at: 2023-01-01T07:33:14Z
 feature_row:
   - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png

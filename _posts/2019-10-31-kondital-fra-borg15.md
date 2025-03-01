@@ -10,7 +10,7 @@ header:
 category:
   - Kondition
 meta:
-  measures: VO2max og kondital
+  measures: kondital
   type: cykeltest
   equipment: cykel
   max: submaksimal test

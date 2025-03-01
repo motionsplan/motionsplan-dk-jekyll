@@ -12,14 +12,13 @@ category:
   - Beregnere
 tags:
   - kropskomposition
-  - udregning
   - beregner
 last_modified_at: 2021-03-06T23:14:14Z
 meta:
   name: Ponderal Index
   equipment: målenbånd
   measures: vægtindex
-  type: kropskomposition
+  type: antropometri
 ---
 
 *[BMI]: Body Mass Index

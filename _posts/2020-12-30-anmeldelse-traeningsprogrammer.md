@@ -13,9 +13,10 @@ category:
   - Styrketræningsprogrammer
 tags:
   - styrketræning
-  - styrketræningsprogrammer
   - programanmeldelse
   - træningsprogram
+  - liste
+  - moc
 last_modified_at: 2021-04-27T22:21:26Z
 ---
 

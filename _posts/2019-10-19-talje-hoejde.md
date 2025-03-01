@@ -21,7 +21,7 @@ meta:
   name: Talje-højde-ratio
   equipment: målebånd
   measures: talje-højde-ratio
-  type: kropskomposition
+  type: antropometri
 ---
 
 Talje-højde-forholdet siger ifølge studier noget om din risiko for livsstilssygdomme. Det er let at måle omkredsen på taljen og din højde kender du sikkert allerede. Her kigger vi på, hvad det betyder for din sundhed.

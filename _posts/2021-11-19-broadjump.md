@@ -18,6 +18,13 @@ tags:
   - test
   - polititest
   - politi
+meta:
+  name: Broadjump (længdespring)
+  measures: springstyrke
+  type: springtest
+  equipment: målebånd
+  max: maksimal test
+  direct: indirekte test
 last_modified_at: 2025-01-19T08:14:14Z
 toc: true
 ---

@@ -13,7 +13,6 @@ category:
   - Vægttab
 tags:
   - vægttab
-  - slankekur
   - sundhed
 ---
 

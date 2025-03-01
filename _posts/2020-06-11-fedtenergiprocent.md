@@ -10,9 +10,7 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - ernæring
-  - kost
-  - fedtenergiprocent
+  - kost & ernæring
   - beregner
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true

@@ -12,7 +12,6 @@ category:
 tags:
   - vægttab
   - kostplan
-  - slankekur
 last_modified_at: 2019-09-03T23:14:14Z
 toc: true
 ---

@@ -12,9 +12,9 @@ category:
   - Kondition
 meta:
   name: Beregning kondital tid på løbedistance
-  measures: VO2max og kondital
+  measures: kondital
   type: løbetest
-  equipment: fladt underlag
+  equipment: flad løberute
   max: maksimal test
   direct: indirekte test
 tags:

@@ -11,7 +11,7 @@ category:
   - Tests
   - Kondition
 meta:
-  measures: VO2max og kondital
+  measures: kondital
   type: steptest
   equipment: stepbænk
   max: submaksimal test

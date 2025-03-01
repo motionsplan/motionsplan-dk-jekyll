@@ -13,7 +13,7 @@ category:
 tags:
   - fysiologi
   - træning
-  - varme
+  - varmetræning
 last_modified_at: 2022-09-05T10:21:26Z
 faq:
   - question: Hvad er elektrolytter?

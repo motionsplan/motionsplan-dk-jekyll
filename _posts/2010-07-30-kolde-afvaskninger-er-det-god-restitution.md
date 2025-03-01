@@ -12,8 +12,7 @@ header:
   caption: *title
 tags:
   - restitution
-  - isbad
-  - kryoterapi
+  - kuldebehandling
 category:
   - Restitution
 last_modified_at: 2023-10-14T20:39:39Z

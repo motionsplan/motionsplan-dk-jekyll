@@ -12,8 +12,9 @@ category:
   - Træning
   - Sportsperformance
 tags:
-  - priming
-  - performance
+  - præstation
+  - opvarmning
+  - forberedelse
 last_modified_at: 2022-11-02T07:14:14Z
 #faq:
 #  - question: Hvordan beregner man sin egen 1 RM?

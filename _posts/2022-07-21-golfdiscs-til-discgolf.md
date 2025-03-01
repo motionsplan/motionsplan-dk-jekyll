@@ -10,7 +10,8 @@ category:
   - Sportsgrene
   - Discgolf
 tags:
-  - sport
+  - udstyr
+  - discgolf
 last_modified_at: 2022-07-21T10:21:26Z
 faq:
   - question: Hvor mange disctyper findes der?

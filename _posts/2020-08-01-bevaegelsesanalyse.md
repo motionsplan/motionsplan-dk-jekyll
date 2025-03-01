@@ -15,7 +15,6 @@ tags:
   - bevægelsesanalyse
   - anatomi
   - bevægelsesplaner
-  - led
   - træningslære
 feature_row:
   - url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing

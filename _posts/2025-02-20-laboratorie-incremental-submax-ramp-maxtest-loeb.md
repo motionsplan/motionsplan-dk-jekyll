@@ -12,7 +12,7 @@ category:
   - Kondition
 meta:
   name: Løbebåndstest med iltoptagelse (submax + maxtest)
-  measures: iltoptagelse
+  measures: LT1, LT2, VO2max, kondital, maxpuls, løbeøkonomi
   type: løbetest
   equipment: løbebånd
   max: maksimal test

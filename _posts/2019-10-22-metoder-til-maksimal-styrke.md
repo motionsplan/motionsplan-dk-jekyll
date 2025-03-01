@@ -12,7 +12,6 @@ category:
 tags:
   - maksimal styrke
   - træningsmetode
-  - maksimal muskelstyrke
   - beregner
 last_modified_at: 2020-06-14T23:14:14Z
 meta:

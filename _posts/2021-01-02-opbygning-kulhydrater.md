@@ -10,10 +10,8 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kost
-  - ernæring
-  - kulhydrater
-  - opbygning
+  - kost & ernæring
+  - makronæringsstof
 last_modified_at: 2021-01-02T10:14:14Z
 toc: true
 ---

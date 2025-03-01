@@ -14,7 +14,7 @@ category:
   - Inspiration
 tags:
   - fitness
-  - blog
+  - inspiration
 feature_row:
   - image_path: /assets/images/blogs/maxer.jpg
     url: https://maxer.dk/

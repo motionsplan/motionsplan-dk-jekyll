@@ -24,7 +24,7 @@ meta:
   name: Intensitet og arbejdspuls fra pulsreserven
   measures: intensitet og arbejdspuls
   equipment: ingen
-  type: kondition
+  type: pulstræning
 last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 garmin_setup:

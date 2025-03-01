@@ -11,7 +11,7 @@ category:
   - Vurderingsværktøjer
   - Psykologi
 tags:
-  - træningsafhængighed
+  - træning
   - psykologi
   - psykologisk test
   - vurderingsværktøj

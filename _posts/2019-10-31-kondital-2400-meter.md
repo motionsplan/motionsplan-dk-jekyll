@@ -12,7 +12,7 @@ category:
   - Kondition
 meta:
   name: 2400-meters løbetest
-  measures: VO2max og kondital
+  measures: kondital
   type: løbetest
   equipment: løbebane
   max: maksimal test

@@ -8,7 +8,7 @@ header:
   caption: *title
 tags:
   - styrketræning
-  - kettlebell
+  - liste
   - udstyr
 category:
   - Styrketræning

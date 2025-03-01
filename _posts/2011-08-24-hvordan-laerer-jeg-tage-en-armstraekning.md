@@ -14,7 +14,6 @@ tags:
   - skulder
   - træningsøvelse
   - udholdenhed
-  - armstrækning
   - begynder
 category:
   - Styrketræning

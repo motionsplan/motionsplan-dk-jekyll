@@ -10,7 +10,7 @@ header:
   caption: *title
 meta:
   name: Åstrands et-punktstest
-  measures: VO2max og kondital
+  measures: kondital
   type: cykeltest
   equipment: cykel
   max: submaksimal test

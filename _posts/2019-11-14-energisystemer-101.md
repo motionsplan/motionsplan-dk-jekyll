@@ -12,8 +12,8 @@ category:
   - Kondition
 tags:
   - energisystemer
-  - anaerob
-  - aerob
+  - anaerob træning
+  - aerob træning
 last_modified_at: 2020-03-06T23:14:14Z
 toc: true
 ---

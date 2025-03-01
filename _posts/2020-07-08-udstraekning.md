@@ -15,7 +15,9 @@ category:
   - Træning
 tags:
   - smidighed
-  - udstrækningsøvelser
+  - udstrækning
+  - øvelser
+  - liste
   - moc
   - træning
 last_modified_at: 2021-02-07T15:33:14Z

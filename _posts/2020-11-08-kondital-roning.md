@@ -11,7 +11,7 @@ category:
   - Kondition
 meta:
   name: 2000 meter ro-test
-  measures: VO2max og kondital
+  measures: kondital
   type: rotest
   equipment: roregometer
   max: maksimal test

@@ -13,7 +13,6 @@ category:
   - Eksplosivitet
 tags:
   - spring
-  - SQAT
   - træning
   - moc
   - springtræning

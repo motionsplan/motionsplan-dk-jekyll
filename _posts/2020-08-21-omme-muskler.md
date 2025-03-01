@@ -8,10 +8,11 @@ header:
   teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Træning
+  - Fysiologi
 tags:
   - muskler
-  - doms
+  - træningslære
+  - fysiologi
 last_modified_at: 2022-09-24T08:14:14Z
 toc: true
 ---

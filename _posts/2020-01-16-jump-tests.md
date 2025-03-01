@@ -10,7 +10,6 @@ category:
   - Springtests
 tags:
   - spring
-  - SQAT
   - springtræning
   - moc
   - test

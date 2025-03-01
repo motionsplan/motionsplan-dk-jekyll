@@ -11,7 +11,7 @@ category:
   - Sportsgrene
   - Discgolf
 tags:
-  - sport
+  - discgolf
   - butikker
 last_modified_at: 2022-09-24T10:21:26Z
 faq:

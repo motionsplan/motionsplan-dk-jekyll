@@ -10,7 +10,6 @@ header:
 category:
   - Træning
 tags:
-  - cirkeltræning
   - kondition
   - træning
   - kombinationstræning

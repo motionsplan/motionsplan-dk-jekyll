@@ -11,7 +11,7 @@ category:
   - Kondition
 meta:
   name: Bruce løbetest på løbebånd
-  measures: VO2max og kondital
+  measures: kondital
   type: løbetest
   equipment: løbebånd
   max: maksimal test

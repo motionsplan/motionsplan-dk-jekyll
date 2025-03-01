@@ -10,7 +10,7 @@ header:
 tags:
   - intervaltræning
   - fedtforbrænding
-  - fedttab
+  - vægttab
   - løb
 category:
   - Kondition

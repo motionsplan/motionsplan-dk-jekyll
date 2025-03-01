@@ -8,7 +8,7 @@ header:
 category:
   - Inspiration
 tags:
-  - teknologi
+  - udstyr
 last_modified_at: 2023-09-24T10:14:14Z
 toc: true
 ---

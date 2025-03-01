@@ -12,7 +12,7 @@ category:
   - Gang
 meta:
   name: 6 minutters gangtest (6MWT)
-  measures: VO2max og kondital
+  measures: kondital
   type: gangtest
   equipment: fladt underlag
   max: submaksimal test

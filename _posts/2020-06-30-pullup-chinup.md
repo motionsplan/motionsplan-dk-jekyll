@@ -13,7 +13,7 @@ category:
 tags:
   - styrketræning
   - skulder
-  - styrketræningsøvelser
+  - øvelser
 last_modified_at: 2021-01-11T08:14:14Z
 toc: true
 feature_row:

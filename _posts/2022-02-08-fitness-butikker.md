@@ -10,6 +10,7 @@ category:
   - Fitness
 tags:
   - butikker
+  - fitness
 last_modified_at: 2024-07-27T22:21:26Z
 shops:
   - title: Fitnessengros.dk

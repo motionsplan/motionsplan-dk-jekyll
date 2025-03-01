@@ -11,8 +11,6 @@ category:
   - Vurderingsværktøjer
   - Psykologi
 tags:
-  - depression
-  - stress
   - psykologi
   - psykologisk test
   - vurderingsværktøj

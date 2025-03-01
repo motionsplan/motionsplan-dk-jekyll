@@ -9,17 +9,10 @@ header:
   teaser: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.3
-meta:
-  name: Maxtest i styrketræning
-  measures: max styrke
-  equipment: styrketræningsudstyr
-  type: styrketræning
 category:
-  - Tests
   - Styrketræning
 tags:
   - styrketræning
-  - test
   - træningsplanlægning
 last_modified_at: 2025-02-18T07:14:14Z
 toc: true

@@ -7,7 +7,6 @@ header:
   caption: *title
 tags:
   - anmeldelse
-  - styrketræningsprogram
   - styrkeløft
   - programanmeldelse
   - begynder

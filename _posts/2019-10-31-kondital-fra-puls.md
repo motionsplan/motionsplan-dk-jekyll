@@ -13,7 +13,7 @@ category:
   - Beregnere
   - Kondition
 meta:
-  measures: VO2max og kondital
+  measures: kondital
   type: pulstest
   equipment: pulsbælte
   max: maksimal test

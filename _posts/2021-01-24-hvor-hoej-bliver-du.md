@@ -15,7 +15,8 @@ category:
 tags:
   - højde
   - beregner
-  - kropssammensætning
+  - kropskomposition
+  - antropometri
 meta:
   name: Beregn fremtidig højde
   equipment: ingen

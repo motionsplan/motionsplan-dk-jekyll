@@ -9,13 +9,14 @@ header:
   caption: *title
 category:
   - Træning
-  - Styrketræningsprogrammer
+  - Træningsprogrammer
 tags:
   - kondition
   - løb
-  - politiets optagelsesprøve
+  - polititest
   - hjemmetræning
   - politi
+  - træningsprogram
 last_modified_at: 2021-01-02T10:14:14Z
 toc: true
 author: jakob.nielsson

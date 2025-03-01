@@ -10,9 +10,7 @@ header:
 category:
   - Styrketræning
 tags:
-  - progressivt overload
   - progressionsmodeller
-  - progression
   - træningsplanlægning
   - styrketræning
   - programlægning

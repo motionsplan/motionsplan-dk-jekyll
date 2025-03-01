@@ -14,7 +14,7 @@ category:
 tags:
   - styrketræning
   - skadesforebyggelse
-  - knæskader
+  - skader
   - springtræning
   - balancetræning
 ---

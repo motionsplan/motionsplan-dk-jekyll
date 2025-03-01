@@ -10,8 +10,16 @@ header:
 category:
   - Træning
 tags:
-  - CNS
+  - fysiologi
   - tracking
+  - test
+meta:
+  name: Finger tapping test
+  measures: træthed i nervesysten
+  type: restitution
+  equipment: app
+  max: stillesiddende
+  direct: indirekte test
 last_modified_at: 2020-03-06T23:14:14Z
 toc: true
 ---

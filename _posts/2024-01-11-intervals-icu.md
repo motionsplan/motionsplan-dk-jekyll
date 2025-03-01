@@ -14,6 +14,8 @@ tags:
   - kondition
   - cykling
   - løb
+  - apps
+  - træningslog
 last_modified_at: 2024-01-11T10:14:14Z
 faq:
   - question: "Jeg tracker allerede min træning i X app, har jeg brug for Intervals.icu?"

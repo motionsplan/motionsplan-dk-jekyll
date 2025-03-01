@@ -9,7 +9,6 @@ header:
 tags:
   - styrketræning
   - eksplosivitet
-  - kontrasttræning
 category:
   - Styrketræning
 last_modified_at: 2015-04-09T21:24:52Z

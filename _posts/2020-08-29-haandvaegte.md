@@ -11,8 +11,9 @@ category:
   - Styrketræning
 tags:
   - træningsøvelser
-  - håndvægte
+  - udstyr
   - hjemmetræning
+  - liste
 sidebar:
   nav: exercises
 ---

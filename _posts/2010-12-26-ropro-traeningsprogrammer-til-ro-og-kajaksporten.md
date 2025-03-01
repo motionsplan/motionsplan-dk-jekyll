@@ -11,7 +11,6 @@ header:
 tags:
   - træning
   - roning
-  - kajak
   - konditionstræning
   - kondition
   - træningsprogram
@@ -19,7 +18,7 @@ tags:
   - aerob træning
   - intervaltræning
 category:
-  - Kondition
+  - Træning
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
   - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg

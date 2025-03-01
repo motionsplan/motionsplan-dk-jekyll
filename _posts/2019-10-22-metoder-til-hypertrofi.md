@@ -11,7 +11,6 @@ category:
 tags:
   - hypertrofi
   - træningsmetode
-  - maksimal muskelvækst
   - muskler
   - træningsplanlægning
 last_modified_at: 2020-06-06T23:14:14Z

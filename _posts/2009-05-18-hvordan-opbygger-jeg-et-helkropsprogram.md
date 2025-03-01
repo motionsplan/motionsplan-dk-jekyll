@@ -13,7 +13,6 @@ header:
   caption: *title
 tags:
   - styrketræning
-  - planlægning
   - træningsplanlægning
   - programlægning
   - begynder

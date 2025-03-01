@@ -10,7 +10,8 @@ category:
   - Sportsgrene
   - Discgolf
 tags:
-  - sport
+  - discgolf
+  - apps
 last_modified_at: 2022-07-21T10:21:26Z
 faq:
   - question: Hvad er de bedste discs for en begynder?

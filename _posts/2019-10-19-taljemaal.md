@@ -22,7 +22,7 @@ meta:
   name: Taljemål
   equipment: målebånd
   measures: taljemål
-  type: kropskomposition
+  type: antropometri
 ---
 
 Dit taljemål er en enkel måling, som kan sige noget om din sundhed. Studier har vist, at der er en sammenhæng mellem taljemålet for mænd og kvinder og livsstilssygdomme.

@@ -8,10 +8,12 @@ header:
   teaser: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
   overlay_filter: 0.5
 category:
-  - Inspiration
+  - Træning
 tags:
-  - gps
-  - kunst
+  - motionside
+  - løb
+  - cykling
+  - træning
 last_modified_at: 2020-04-10T23:14:14Z
 toc: true
 feature_row:

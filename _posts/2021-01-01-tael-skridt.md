@@ -10,9 +10,9 @@ header:
   caption: *title
 tags:
   - skridt
-  - tæl skridt
   - sundhed
-  - aktivitet
+  - motionside
+  - gang
 category:
   - Gang
 last_modified_at: 2023-01-01T10:51:18Z

@@ -15,6 +15,13 @@ tags:
   - test
   - optagelsesprøve
   - politi
+meta:
+  name: Politiets fysiske test
+  measures: fysisk form
+  type: fysisk test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: indirekte test
 ---
 
 Politiets fysiske tests er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition, styrke og hurtighed. For at bestå skal du leve op til minimumskravene for øvelser som 2400 meter løb, bænkpres, længdespring og kropshævninger. 

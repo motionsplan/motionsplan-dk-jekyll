@@ -9,7 +9,8 @@ header:
 category:
   - Træning
 tags:
-  - mikrotræning
+  - træning
+  - motionside
 last_modified_at: 2021-06-27T10:14:14Z
 toc: true
 ---

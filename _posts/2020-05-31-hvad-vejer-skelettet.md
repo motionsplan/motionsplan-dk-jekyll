@@ -14,9 +14,6 @@ category:
   - Anatomi
 tags:
   - anatomi
-  - vægt
-  - knogler
-  - skelettet
   - faq
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true

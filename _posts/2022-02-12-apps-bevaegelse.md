@@ -9,10 +9,10 @@ header:
 category:
   - Udstyr & Teknologi
 tags:
-  - aktiviteter
   - apps
-  - motion
+  - motionside
   - børn
+  - udstyr
 last_modified_at: 2022-02-12T22:21:26Z
 gallery_goplaydot:
   - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-1.jpg

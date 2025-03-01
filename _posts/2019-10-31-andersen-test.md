@@ -13,9 +13,9 @@ category:
   - Løb
 meta:
   name: Andersen Test
-  measures: VO2max og kondital
+  measures: kondital
   type: løbetest
-  equipment: løbebane
+  equipment: 20 meter fladt underlag
   max: maksimal test
   direct: indirekte test
   target: børn

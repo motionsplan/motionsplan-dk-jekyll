@@ -11,13 +11,11 @@ header:
   teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!"
 tags:
-  - gode råd
+  - inspiration
   - musik
   - løb
 category:
   - Kondition
-  - Styrketræning
-  - Løb
 last_modified_at: 2023-01-01T15:29:24Z
 ---
 

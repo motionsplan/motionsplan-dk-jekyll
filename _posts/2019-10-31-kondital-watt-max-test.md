@@ -13,7 +13,7 @@ category:
   - Cykling
 meta:
   name: Watt-max test
-  measures: VO2max og kondital
+  measures: kondital
   type: cykeltest
   equipment: cykel
   max: maksimal test

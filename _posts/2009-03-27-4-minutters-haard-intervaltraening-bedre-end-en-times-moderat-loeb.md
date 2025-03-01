@@ -13,9 +13,6 @@ header:
 tags:
   - udholdenhed
   - træning
-  - aerob
-  - anaerob
-  - intervaltræning
   - intervaltræning
   - anaerob træning
   - aerob træning

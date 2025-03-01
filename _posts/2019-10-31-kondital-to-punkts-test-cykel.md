@@ -11,7 +11,7 @@ category:
   - Kondition
 meta:
   name: Åstrands 2-punktstest
-  measures: VO2max og kondital
+  measures: kondital
   type: cykeltest
   equipment: cykel
   max: submaksimal test

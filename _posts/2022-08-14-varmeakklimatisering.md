@@ -12,7 +12,7 @@ category:
 tags:
   - fysiologi
   - træning
-  - varme
+  - varmetræning
 last_modified_at: 2022-08-14T10:21:26Z
 faq:
   - question: Er der en sammenhæng mellem dehydrering og krampe?

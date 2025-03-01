@@ -16,7 +16,7 @@ category:
   - Løb
 meta:
   name: Coopers 12 minutters løbetest
-  measures: VO2max og kondital
+  measures: kondital
   type: løbetest
   equipment: løbebane
   max: maksimal test

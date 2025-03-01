@@ -29,7 +29,7 @@ meta:
   name: Talje-hofte mål
   equipment: målebånd
   measures: talje-hofte-ratio
-  type: kropskomposition
+  type: antropometri
 ---
 
 Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.

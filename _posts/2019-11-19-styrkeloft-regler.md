@@ -17,7 +17,7 @@ category:
   - Styrketræning
 tags:
   - styrkeløft
-last_modified_at: 2022-11-19T23:14:14Z
+last_modified_at: 2024-11-19T23:14:14Z
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat - styrkeløft og powerlifting regler for squat"

@@ -13,7 +13,9 @@ category:
   - Kropskomposition
 tags:
   - højde
-  - vækst
+  - fysiologi
+  - antropometri
+  - kropskomposition
 last_modified_at: 2023-01-01T09:12:14Z
 toc: true
 feature_row:

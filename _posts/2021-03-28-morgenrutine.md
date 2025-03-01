@@ -13,7 +13,7 @@ language: da
 category:
   - Restitution
 tags:
-  - morgenrutine
+  - forberedelse
 ---
 
 Kender du det, når man har svært ved at finde energien og overskuddet frem tidligt om morgenen? Det er der mange, som oplever, og det gælder især personer, som drømmer om at blive morgenmennesker. Men faktisk behøver det ikke at være afgørende, om du er A- eller B-menneske. En god [morgenrutine](https://www.chrichri.dk/lifebeyond/lifestyle/2017/03/se-hvordan-en-god-morgenrutine-kan-paavirke-din-dag-2/) kan nemlig hjælpe dig godt på vej.

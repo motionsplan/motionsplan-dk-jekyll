@@ -12,11 +12,10 @@ header:
 category:
   - Styrketræning
 tags:
-  - pap
   - opvarmning
-  - maksimal test
-  - 1rm
+  - præstation
   - styrketræning
+  - eksplosivitet
 last_modified_at: 2020-11-13T23:14:14Z
 ---
 
