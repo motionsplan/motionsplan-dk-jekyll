@@ -12,12 +12,15 @@
 }
 
 #myTable {
-  display: table;
+  display: block;
+  table-layout: auto;
   border-collapse: collapse; /* Collapse borders */
   width: 100%; /* Full-width */
   border: 1px solid #ddd; /* Add a grey border */
   font-size: 18px; /* Increase font-size */
   table-layout: auto;
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 #myTable th, #myTable td {
@@ -25,6 +28,7 @@
   padding: 12px; /* Add padding */
   width: auto; /* Allow dynamic column width */
   word-wrap: break-word; /* Prevent overflow */
+  white-space: normal;
 }
 
 #myTable tr {
