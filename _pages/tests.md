@@ -81,7 +81,7 @@ Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vo
 
 </div>
 
-## Løbetests
+## 🏃 Løbetests
 
 Der findes flere løbetests, som du kan bruge til at teste dit nuværende niveau.
 

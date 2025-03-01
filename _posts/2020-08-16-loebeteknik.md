@@ -12,7 +12,7 @@ category:
   - Kondition
 tags:
   - bevægelsesanalyse
-  - løbstil
+  - løbestil
   - løbetræning
   - løbeteknik
   - løb

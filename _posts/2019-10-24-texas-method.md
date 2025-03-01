@@ -14,7 +14,6 @@ category:
   - Styrketræning
   - Styrketræningsprogrammer
 tags:
-  - program
   - let øvet
   - træningsprogram
   - programanmeldelse

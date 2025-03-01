@@ -1,9 +1,9 @@
 ---
-title: &title "Løbebåndstest med iltoptagelse (submx + maxtest)"
+title: &title "Løbebåndstest med iltoptagelse (submax + maxtest) 🏃"
 seo_title: "Løbebåndstest med iltoptagelse (submax + maxtest)"
 permalink: /iltoptagelse-submax-trappetest-ramp-maxtest-loeb/
-excerpt: "Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til omkring den anaerobe tærskel. Derefter en maksimal test af konditallet."
-description: "Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til omkring den anaerobe tærskel. Derefter en maksimal test af konditallet."
+excerpt: "Direkte måling af vo2max i løb med maske og stigende belastning fra lav intensitet til omkring den anaerobe tærskel. Derefter en maksimal test af konditallet."
+description: "Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til den anaerobe tærskel. Derefter en maksimal test af konditallet."
 language: da
 header:
   teaser: https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg
@@ -11,7 +11,7 @@ header:
 category:
   - Kondition
 meta:
-  name: Løbebåndstest med iltoptagelse (trappetest)
+  name: Løbebåndstest med iltoptagelse (submax + maxtest)
   measures: iltoptagelse
   type: løbetest
   equipment: løbebånd

@@ -45,7 +45,7 @@ gallery_content:
 
 Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
 
-Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}).
+Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft](/powerlifting-rules/).
 
 {% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg" caption=page.title alt=page.title %}
 

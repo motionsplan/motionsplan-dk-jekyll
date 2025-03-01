@@ -11,7 +11,7 @@ category:
   - Yoga
 tags:
   - yoga
-  - yogaudstyr
+  - udstyr
   - guide
 last_modified_at: 2021-01-12T08:14:14Z
 toc: true

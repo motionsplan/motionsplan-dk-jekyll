@@ -13,9 +13,7 @@ category:
   - Træningsplanlægning
 tags:
   - målsætning
-  - mål
   - vaner
-  - modeller
 last_modified_at: 2022-10-01T08:14:14Z
 ---
 

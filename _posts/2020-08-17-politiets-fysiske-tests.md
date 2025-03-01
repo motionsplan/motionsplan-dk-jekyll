@@ -12,7 +12,7 @@ header:
 category:
   - Tests
 tags:
-  - tests
+  - test
   - optagelsesprøve
   - politi
 ---

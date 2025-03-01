@@ -11,7 +11,6 @@ header:
 tags:
   - teknik
   - core
-  - kropsstamme
   - træningsøvelse
   - træning
   - moc

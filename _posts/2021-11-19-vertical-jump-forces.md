@@ -9,10 +9,9 @@ category:
   - Træning
   - Springtræning
 tags:
-  - træning
   - spring
-  - eksplosivitet
   - beregner
+  - fysik
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 meta:
@@ -25,6 +24,9 @@ meta:
 Det vertikale hop er et rigtig godt eksempel på fysikkens love. Her kan du virklig lære noget om sammenhængen mellem hastighed, acceleration, kræfter og svævetid. Det er særlig interessant, når man har adgang til en kraftplatform, som vi har på Vejle Idrætshøjskole.
 
 I dette indlæg kigger vi på fem faser i det vertikale spring, og vi kigger på hvordan de fysiske love virker i de enkelte faser. Jeg har baseret dette indlæg på en rigtig god artikel på [www.thehoopsgeek.com](https://www.thehoopsgeek.com/the-physics-of-the-vertical-jump/).
+
+**Læs**: [Fysikkens love og det horisontale spring](/fysik-horisontalt-hop/)
+{: .notice }
 
 ## Kræfter der påvirker springeren
 
@@ -230,25 +232,29 @@ Nu står atleten igen stille efter hoppet, og de fem faser i hoppet er overståe
 
 ## Formler til udregning af hoppehøjde
 
-### Udregning af potentiel energi fra et spring
+<details markdown="1" class="equation">
+  <summary><h3 id="eq-1">Udregning af potentiel energi fra et spring</h3></summary>
 
 {% include motionsplan/math formula="U = m * g * h = \frac{1}{2} m v(0)^2" %}
 
 hvor <em>v(0)</em> er den oprindelige hastighed og <em>g</em> er tyngdeaccelerationen.
-
-### Udregning af hoppehøjde ud fra oprindelige hastighed
+</details>
+<details markdown="1" class="equation">
+  <summary><h3 id="eq-2">Udregning af hoppehøjde ud fra oprindelige hastighed</h3></summary>
 
 {% include motionsplan/math formula="h_{jump} = \frac{1}{2} \frac{v(0)^2}{g}" %}
 
 hvor <em>v(0)</em> er den oprindelige hastighed og <em>g</em> er tyngdeaccelerationen.
-
-### Udregne vertikal springhøjde ud fra svævetid
+</details>
+<details markdown="1" class="equation">
+  <summary><h3 id="eq-3">Udregne vertikal springhøjde ud fra svævetid</h3></summary>
 
 {% include motionsplan/math formula="h_{jump} = \frac{1}{8} a \: t_{hangtime}^2" %}
 
 hvor t<sub>hangtime</sub> er tiden mellem afsæt og landing og <em>a</em> er accelerationen fra tyngdekraften.
-
-### Udregne vertikal springhøjde ud impuls-momentum-metoden
+</details>
+<details markdown="1" class="equation">
+  <summary><h3 id="eq-4">Udregne vertikal springhøjde ud impuls-momentum-metoden</h3></summary>
 
 {% include motionsplan/math formula="h_{jump} = \frac{1}{2} \frac{(\frac{I}{M})^2}{a}" %}
 
@@ -257,10 +263,10 @@ hvor
 {% include motionsplan/math formula="I = \int_{start}^{takeoff}{\bigg(F_{Jumper}(t) - F_{gravity}(t) \bigg) dt }" %}
 
 Hvor <em>I</em> er arealet under kraft-tid-kurven (minus tyngdekraften) fra starten af hoppet og indtil afsættet.
+</details>
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
   
-
 - [The Physics of the Vertical Jump](https://www.thehoopsgeek.com/the-physics-of-the-vertical-jump/)
 </details>

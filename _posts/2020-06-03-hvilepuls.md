@@ -13,7 +13,7 @@ category:
   - Kondition
 tags:
   - test
-  - hvilepuls
+  - puls
   - tracking
 meta:
   name: Liggende hvilepuls

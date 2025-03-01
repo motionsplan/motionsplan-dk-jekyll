@@ -18,7 +18,7 @@ meta:
   target: børn
 tags:
   - konditionstest
-  - cykel
+  - cykling
   - børn
   - maksimal test
   - indirekte test

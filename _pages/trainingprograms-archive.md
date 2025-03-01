@@ -49,7 +49,7 @@ Her finder du træningsprogrammer til forskellige formål og niveauer – fra ny
 
 ***
 
-## Træningsprogrammer til løbetræning
+## 🏃 Træningsprogrammer til løbetræning
 
 {% include feature_row id="feature_row_choose_running_program" type="left" %}
 

@@ -4,11 +4,11 @@ excerpt: "Alle øvelserne laves 21 gange."
 permalink: /program/de-fem-tibetanere/
 language: da
 categories:
-  - Helkropsprogram
-  - Styrketræning
+  - Yoga
 tags:
   - helkropsprogram
   - yoga
+  - yogaøvelser
 exercises:
   - "Rite 1: Drej rundt"
   - "Rite 2: Maveøvelse"

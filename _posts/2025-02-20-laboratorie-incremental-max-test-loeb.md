@@ -1,9 +1,9 @@
 ---
-title: &title "Løbebåndstest med iltoptagelse (trappetest)"
+title: &title "Løbebåndstest med iltoptagelse (trappetest til max) 🏃"
 seo_title: "Løbebåndstest med iltoptagelse (trappetest)"
 permalink: /iltoptagelse-trappetest-maxtest-loeb/
-excerpt: "Direkte måling med maske af iltoptagelsen med stigende belastning fra lav intensitet til maksimal intensitet."
-description: "Test din VO2max direkte med maske på et løbebånd med denne løbetest, der starter med submaksimal hastighed og fortsætter indtil løberen har opnået sin maksimale hastighed."
+excerpt: "Direkte måling af iltoptagelsen med maske på løbebånd med stigende belastning fra lav intensitet til udmattelse."
+description: "Progressiv test med stigende intensitet og måling af aerob, anaerob og VO2peak med denne direkte test af iltoptagelse på løbebånd med maske."
 language: da
 header:
   teaser: https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg
@@ -11,7 +11,7 @@ header:
 category:
   - Kondition
 meta:
-  name: Løbebåndstest med iltoptagelse (trappetest)
+  name: Løbebåndstest med iltoptagelse (trappetest til udmattelse)
   measures: iltoptagelse
   type: løbetest
   equipment: løbebånd

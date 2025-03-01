@@ -49,7 +49,7 @@ faq:
 
 Hvis du er som de fleste mennesker, bruger du sikkert meget tid på at sidde ned. Uanset om du er på arbejde, hjemme eller i skole, er der stor sandsynlighed for, at du ikke bevæger dig så meget, som du burde. Det kan føre til problemer med din lænd.
 
-Dead Bug er en øvelse, der kan hjælpe med at rette op på disse problemer og forbedre dit generelle helbred. I dette blogindlæg vil vi diskutere, hvad Dead Bug er, hvordan du udfører den korrekt, og hvilke fordele der er ved at udføre øvelsen.
+Dead Bug er en øvelse, der kan hjælpe med at rette op på disse problemer og forbedre dit generelle helbred. Her får du indblik i, hvad Dead Bug er, hvordan du udfører den korrekt, og hvilke fordele der er ved at udføre øvelsen.
 
 ## Hvad er øvelsen "Dead Bug"?
 

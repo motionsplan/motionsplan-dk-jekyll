@@ -1,0 +1,209 @@
+<style>
+        .hex-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d28b00;
+            margin-bottom: 20px;
+        }
+        .hex-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            align-items: center;
+            justify-items: center;
+            max-width: 400px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .hex {
+            width: 100px;
+            aspect-ratio: 1.1547;
+            background-color: #8ab6d6;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: black;
+            transition: background-color 0.3s, transform 0.2s;
+            position: relative;
+        }
+        .hex a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+        .hex:hover {
+            background-color: #5c9ecf;
+            transform: scale(1.1);
+        }
+        .assessment {
+            background-color: #326fa8;
+            color: white;
+            grid-column: 2;
+            grid-row: 2;
+        }
+        @media (max-width: 480px) {
+            .hex-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .hex {
+                width: 80px;
+                  }
+        }
+</style>
+
+<div class="hex-container">
+    <h2 class="title">Komponenter af fysisk fitness</h2>
+    <h3>Assessment</h3>
+    <ul class="hex-grid">
+        <li class="hex"><a href="#">Aerobic</a></li>
+        <li class="hex"><a href="#">Anaerobic</a></li>
+        <li class="hex"><a href="#">Flexibility</a></li>
+        <li class="hex assessment">Assessment</li>
+        <li class="hex"><a href="#">Anthropometry</a></li>
+        <li class="hex"><a href="#">Agility</a></li>
+        <li class="hex"><a href="#">Strength</a></li>
+    </ul>
+</div>
+
+
+
+
+
+
+{% comment %}
+<style>
+    
+#hex {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: 335px;
+}
+
+    #hex li {
+        display: block;
+        float: left;
+        width: 106px;
+        margin-right: 4px;
+        height: 120px;
+    }
+
+        #hex li.p1 {
+            padding-left: 54px;
+        }
+
+        #hex li.p2 {
+            margin-top: -26px;
+        }
+
+        #hex li a {
+            text-decoration: none;
+            color: #000;
+            cursor: pointer;
+        }
+
+            #hex li a b {
+                display: block;
+                width: 0;
+                height: 0;
+                overflow: hidden;
+                border-bottom: 30px solid #a6c9e2;
+                border-left: 52px solid transparent;
+                border-right: 52px solid transparent;
+            }
+
+            #hex li a span {
+                display: block;
+                width: 106px;
+                height: 60px;
+                line-height: 59px;
+                text-align: center;
+                background: #a6c9e2;
+                font-size: 15px;
+                font-family: arial, verdana, sans-serif;
+            }
+
+            #hex li a em {
+                display: block;
+                width: 0;
+                height: 0;
+                overflow: hidden;
+                border-top: 30px solid #a6c9e2;
+                border-left: 52px solid transparent;
+                border-right: 52px solid transparent;
+            }
+
+            #hex li a.inner b {
+                border-bottom-color: #477AB8;
+            }
+
+            #hex li a.inner span {
+                background: #477AB8;
+            }
+
+            #hex li a.inner em {
+                border-top-color: #477AB8;
+            }
+
+            #hex li a:hover {
+                white-space: normal;
+                color: #fff;
+            }
+
+                #hex li a:hover b {
+                    border-bottom-color: #4297d7;
+                }
+
+                #hex li a:hover span {
+                    background: #4297d7;
+                }
+
+                #hex li a:hover em {
+                    border-top-color: #4297d7;
+                }
+
+            #hex li a.inner:hover b {
+                border-bottom-color: #377D9F;
+            }
+
+            #hex li a.inner:hover span {
+                background: #377D9F;
+            }
+
+            #hex li a.inner:hover em {
+                border-top-color: #377D9F;
+            }
+
+</style>
+
+<div id="FitnessComponents">
+    <h1>Components of Physical Fitness</h1>
+    <!-- the menu -->
+    <ul id="hex">
+        <li class="p1"><a href="App_Menus/Menu_Aerobic.html" title="Aerobic Capacity"><b></b><span>Aerobic</span><em></em></a></li>
+        <li><a href="App_Menus/Menu_Anaerobic.html" title="Anaerobic Capacity"><b></b><span>Anaerobic</span><em></em></a></li>
+        <li class="p2"><a href="App_Menus/Menu_Flexibility.html" title="Flexibility"><b></b><span>Flexibility</span><em></em></a></li>
+        <li class="p2"><a class="inner" href="App_Menus/Menu_Assessment.html" title="Assessing Performance"><b></b><span>Assessment</span><em></em></a></li>
+        <li class="p2"><a href="App_Menus/Menu_Anthropometry.html" title="Anthropometry and Body Composition"><b></b><span>Anthropometry</span><em></em></a></li>
+        <li class="p1 p2"><a href="App_Menus/Menu_Agility.html" title="Agility and Balance"><b></b><span>Agility</span><em></em></a></li>
+        <li class="p2"><a href="App_Menus/Menu_Strength.html" title="Strength and Endurance"><b></b><span>Strength </span><em></em></a></li>
+
+    </ul>
+</div>
+{% endcomment %}
+

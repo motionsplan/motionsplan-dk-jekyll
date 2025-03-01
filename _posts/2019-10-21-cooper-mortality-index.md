@@ -10,7 +10,6 @@ header:
 category:
   - Vurderingsværktøjer
 tags:
-  - mortalitet
   - sundhed
   - vurderingsværktøj
   - populær

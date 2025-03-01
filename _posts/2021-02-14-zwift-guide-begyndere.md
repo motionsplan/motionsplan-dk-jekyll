@@ -13,7 +13,6 @@ category:
 tags:
   - konditionstræning
   - kondition
-  - zwift
   - cykling
   - featured
   - hometrainer

@@ -12,7 +12,7 @@ category:
   - Kondition
 tags:
   - intervaltræning
-  - anerob træning
+  - anaerob træning
   - aerob træning
   - featured
 popular: true

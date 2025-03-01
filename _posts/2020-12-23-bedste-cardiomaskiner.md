@@ -10,7 +10,6 @@ header:
 tags:
   - kondition
   - konditionstræning
-  - cardiomaskiner
   - kredsløbstræning
   - kredsløbsmaskiner
 category:

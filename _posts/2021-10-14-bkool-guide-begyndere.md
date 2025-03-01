@@ -12,7 +12,6 @@ category:
 tags:
   - konditionstræning
   - kondition
-  - bkool
   - cykling
   - hometrainer
   - virtuel cykling

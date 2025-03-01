@@ -9,12 +9,10 @@ header:
   alt: "Photo by Sime Basioli on Unsplash"
 category:
   - Træning
-  - Løb
   - Kondition
 tags:
   - udholdenhed
   - åndedræt
-  - vejrtrækning
   - åndedrætstræning
   - løb
   - moc

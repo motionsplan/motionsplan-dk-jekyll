@@ -253,8 +253,6 @@ Probiotika er levende, veldefinerede bakterier, som findes naturligt i kroppen. 
 
 Casper Jespersen anbefaler versionerne fra Udo's Choice®, som hedder hhv. Super8 Plus og Advanced Adult. Du kan købe begge versioner hos [Helsebixen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/catalogsearch/result/?q=probiotika){: rel='sponsored nofollow noopener' }, hvis du gerne vil tage Probiotika.
 
-Hvis du ved mere om Probiotika og kan have lyst til at skrive et endnu mere evidensbaseret og dybdegående blogindlæg, så skriv endelig til os.
-
 ## Kosttilskud som er spild af penge
 
 Styrk taler i deres [podcast Træningstimen](https://styrkmig.dk/ep-18-kosttilskud-som-er-spild-af-penge/) om "Kosttilskud som er spild af penge", hvor de nævner følgende.

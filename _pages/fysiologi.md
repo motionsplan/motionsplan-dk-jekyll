@@ -51,7 +51,7 @@ Fysiologi er studiet af, hvordan kroppen fungerer. Den ser på, hvordan de forsk
 
 Hvis du er interesseret i at forstå, hvordan træning og motion virker på kroppen, er det en god idé at starte med fysiologien!
 
-I dette blogindlæg vil vi se nærmere på, hvad fysiologi er, og hvad den dækker over. Vi vil også diskutere nogle af de vigtigste funktioner i kroppen i hvile og under fysisk aktivitet.
+Her får du en guide til, hvad fysiologi er, og hvad den dækker over. Vi vil også diskutere nogle af de vigtigste funktioner i kroppen i hvile og under fysisk aktivitet.
 
 ## Hvad er fysiologi?
 

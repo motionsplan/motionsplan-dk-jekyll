@@ -12,7 +12,6 @@ category:
   - Anatomi
 tags:
   - muskler
-  - muskelfibre
   - træningslære
   - anatomi
 last_modified_at: 2020-06-03T08:14:14Z

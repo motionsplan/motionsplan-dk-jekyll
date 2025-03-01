@@ -8,7 +8,8 @@ header:
 category:
   - Løb
 tags:
-  - løbedynamik
+  - løbestil
+  - løbeteknik
 last_modified_at: 2022-01-27T22:21:26Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781782551096/0x500

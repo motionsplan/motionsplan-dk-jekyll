@@ -14,7 +14,7 @@ category:
 tags:
   - pap
   - opvarmning
-  - maxtest
+  - maksimal test
   - 1rm
   - styrketræning
 last_modified_at: 2020-11-13T23:14:14Z
@@ -113,7 +113,7 @@ Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg ha
 
 ## Konklusion om forberedelse til maxløft
 
-Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}), hvor du også kan finde et skema med forslag til din startvægt i konkurrencen.
+Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft](/powerlifting-rules/), hvor du også kan finde et skema med forslag til din startvægt i konkurrencen.
 
 Hvordan forbereder du dig til en maxtest, styrkeløftkonkurrence og 1RM-test? Brug endelig kommentarerne til at inspirere os andre.
 

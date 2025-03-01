@@ -13,7 +13,7 @@ category:
 tags:
   - træning
   - restitution
-  - superkompensation
+  - træningslære
 ---
 
 Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien.

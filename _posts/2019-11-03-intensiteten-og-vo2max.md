@@ -13,9 +13,7 @@ category:
   - Kondition
 tags:
   - kondition
-  - intensitet
   - maksimal iltoptagelse
-  - vo2 max
 last_modified_at: 2021-03-06T23:14:14Z
 ---
 

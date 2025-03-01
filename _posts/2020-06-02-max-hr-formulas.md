@@ -10,7 +10,7 @@ header:
 category:
   - Kondition
 tags:
-  - maxpuls
+  - puls
   - løb
   - cykling
   - kondition

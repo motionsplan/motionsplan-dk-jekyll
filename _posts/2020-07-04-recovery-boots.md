@@ -11,10 +11,7 @@ category:
   - Restitution
 tags:
   - restitution
-  - recovery boots
-  - vakuumbukser
-  - kompressionsbukser
-  - kompression
+  - udstyr
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:

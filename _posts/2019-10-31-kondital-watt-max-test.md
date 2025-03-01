@@ -21,7 +21,7 @@ meta:
 tags:
   - konditionstest
   - kondition
-  - cykel
+  - cykling
   - maksimal test
   - indirekte test
   - cykeltest

@@ -274,14 +274,3 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 </div>
 
-## Eric Helms Styrketræningspyramide
-
-Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er skrevet af Eric Helms.
-
-Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning. Du kan se pyramiden nedenunder.
-
-{% include motionsplan/strength-pyramid.html nav="strength" %}
-
-Jeg har skrevet uddybdende om [træningspyramiden til styrketræning](/traeningspyramiden-styrketraening/). Styrketræningspyramiden er en måde at prioritere de vigtigste indsatser på, når du laver styrketræning.
-
-Eric Helms fortæller selv om træningspyramiden i en helt [fremragende videoserie](/traeningspyramiden-styrketraening/).

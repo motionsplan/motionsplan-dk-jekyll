@@ -9,7 +9,7 @@ seo_title: "Blog om fitness, styrketræning, løb og træning | Motionsplan"
 classes: wide
 author_profile: true
 blog:
-  - excerpt: '[Se blogindlæg efter kategori](/blog/){: .btn .btn--large .btn--success }'
+  - excerpt: '[Se artikler efter kategori](/blog/){: .btn .btn--large .btn--success }'
 ---
 
 ## Seneste opdateringer på Motionsplans blog

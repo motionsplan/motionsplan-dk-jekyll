@@ -16,7 +16,6 @@ breadcrumbs: true
 tags:
   - fedtprocent
   - kropskomposition
-  - målebånd
 meta:
   name: Mål fedtprocent med målebånd (Navy-metoden)
   equipment: målebånd

@@ -10,7 +10,6 @@ header:
   caption: "Slyngetræning: Træning med slynger, TRX og PowerSling"
 tags:
   - trx
-  - slyngetræning
   - udstyr
   - hjemmetræning
 category:

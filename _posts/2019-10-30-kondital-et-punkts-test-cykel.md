@@ -19,7 +19,7 @@ category:
   - Kondition
 tags:
   - konditionstest
-  - cykel
+  - cykling
   - submaksimal test
   - indirekte test
   - cykeltest

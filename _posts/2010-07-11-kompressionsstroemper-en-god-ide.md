@@ -19,9 +19,8 @@ tags:
   - løb
   - restitution
   - tøj
-  - kompressionstøj
-  - skinnebensbetændelse
-  - kompressionsstrømper
+  - skader
+  - udstyr
 last_modified_at: 2021-02-02T20:27:57Z
 toc: true
 feature_row:

@@ -10,7 +10,7 @@ category:
   - Styrketræning
 tags:
   - hypertrofi
-  - træningsmetoder
+  - træningsmetode
   - maksimal muskelvækst
   - muskler
   - træningsplanlægning

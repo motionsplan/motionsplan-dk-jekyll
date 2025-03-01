@@ -45,7 +45,6 @@ category:
   - Gang
 tag:
   - gang
-  - Træningsformer
 breadcrumbs: true
 ---
 

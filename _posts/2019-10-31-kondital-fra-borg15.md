@@ -17,7 +17,7 @@ meta:
   direct: indirekte test
 tags:
   - konditionstest
-  - cykel
+  - cykling
   - submaksimal test
   - indirekte test
   - cykeltest

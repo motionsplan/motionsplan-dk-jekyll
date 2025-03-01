@@ -11,7 +11,6 @@ category:
 tags:
   - variationer
   - styrkeløft
-  - powerlifting
 last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 feature_row:

@@ -14,8 +14,6 @@ header:
 category:
   - Træning
 tags:
-  - udstrækning
-  - udspænding
   - smidighed
   - udstrækningsøvelser
   - moc

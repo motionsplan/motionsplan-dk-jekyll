@@ -179,7 +179,7 @@ Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprog
 
 </div>
 
-### Løb
+### 🏃 Løb
 
 Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe længere. Vi hjælper dig i gang med træningsprogrammer og løbeøvelser.
 

@@ -10,7 +10,7 @@ header:
 tags:
   - træning
   - ryggen
-  - forebyggelse
+  - skadesforebyggelse
 category:
   - Styrketræning
 last_modified_at: 2020-04-13T22:03:29Z

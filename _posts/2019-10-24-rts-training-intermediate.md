@@ -10,7 +10,6 @@ category:
   - Styrketræning
   - Styrketræningsprogrammer
 tags:
-  - program
   - træningsprogram
   - programanmeldelse
   - fullbody

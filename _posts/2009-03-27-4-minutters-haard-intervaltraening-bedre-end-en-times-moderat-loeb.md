@@ -15,8 +15,7 @@ tags:
   - træning
   - aerob
   - anaerob
-  - intervaller
-  - intervalløb
+  - intervaltræning
   - intervaltræning
   - anaerob træning
   - aerob træning

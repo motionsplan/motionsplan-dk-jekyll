@@ -59,11 +59,11 @@ popular_posts_2020:
   - /koncentrisk-excentrisk-isometrisk/
 ---
 
-Vi har virkelig mange populære blog posts på Motionsplan. Det er sjovt hvert år at samle op på, hvad der gør en et blogindlæg populært.
+Vi har virkelig mange populære artikler på Motionsplan. Det er sjovt hvert år at samle op på, hvad der gør en artikel populær.
 
-Her har vi kigget på de mest populære blog posts for i år.
+Her har vi kigget på de mest populære artikler for i år.
 
-## De {{ page.popular_posts_2023.size }} mest populære blog posts i 2023
+## De {{ page.popular_posts_2023.size }} mest populære artikler i 2023
 
 I 2023 har vi i alt haft 477.006 sidevisninger fra 248.335 brugere. Et lille fald i forhold til 2022.
 
@@ -81,7 +81,7 @@ I 2023 har vi i alt haft 477.006 sidevisninger fra 248.335 brugere. Et lille fal
 
 {% endfor %}
 
-## De {{ page.popular_posts_2022.size }} mest populære blog posts i 2022
+## De {{ page.popular_posts_2022.size }} mest populære artikler i 2022
 
 I 2022 har vi i alt haft 524.592 sidevisninger fra 327.206 brugere. Det er ret vildt.
 
@@ -101,7 +101,7 @@ Vi har i alt skrevet 90 nye blog posts i 2022, men listen indeholder en lang ræ
 
 {% endfor %}
 
-## De {{ page.popular_posts_2021.size }} mest populære blog posts i 2021
+## De {{ page.popular_posts_2021.size }} mest populære artikler i 2021
 
 I 2021 har vi i alt haft 631.677 sidevisninger fra 380.079 brugere. Det er ret vildt.
 
@@ -119,7 +119,7 @@ Vi har i alt skrevet 85 nye blog posts i 2021, men listen indeholder en lang ræ
 
 {% endfor %}
 
-## De {{ page.popular_posts_2020.size }} mest populære blog posts i 2020
+## De {{ page.popular_posts_2020.size }} mest populære artikler i 2020
 
 Det har været et godt år på Motionsplan. Vi har skrevet mere end 100 artikler, og vores besøgstal er virkelig gået i vejret. Samlet set havde vi 138.777 sidevisninger fordelt på 82.876 brugere.
 

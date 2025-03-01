@@ -13,7 +13,6 @@ category:
   - Tests
 tags:
   - fedtprocent
-  - test moc
   - moc
 last_modified_at: 2023-01-01T22:14:14Z
 toc: true

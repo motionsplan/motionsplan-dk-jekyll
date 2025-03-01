@@ -13,8 +13,7 @@ category:
 tags:
   - kondition
   - beregner
-  - løbsberegner
-  - løbe beregner
+  - løbeberegner
   - løb
 meta:
   name: Jack Daniels formel til beregning af løbetider

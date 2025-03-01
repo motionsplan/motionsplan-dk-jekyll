@@ -10,7 +10,7 @@ category:
   - Styrketræning
 tags:
   - styrketræning
-  - program
+  - træningsprogram
   - programanmeldelse
   - hypertrofi
   - muskelvækst

@@ -8,7 +8,6 @@ header:
 category:
   - Styrketræning
 tags:
-  - program
   - træningsprogram
   - begynder
   - guide

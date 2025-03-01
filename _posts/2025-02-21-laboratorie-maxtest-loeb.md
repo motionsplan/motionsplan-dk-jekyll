@@ -1,8 +1,8 @@
 ---
-title: &title "Maksimal iltoptagelse på løbebånd – Test og vejledning"
+title: &title "Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃"
 seo_title: "Maksimal løbetest - Sådan finder du din iltoptagelse i lab"
 permalink: /iltoptagelse-max-test-loeb/
-excerpt: "Detaljeret guide til at gennemføre en løbetest af din maksimale iltoptagelse med maske. Se testprotokollen, nødvendigt udstyr og hvordan du analyserer dine resultater for at optimere din træning."
+excerpt: "Guide til test af din maksimale iltoptagelse på løbebånd med maske. Se testprotokollen, nødvendigt udstyr og hvordan du analyserer dine resultater for at optimere din træning."
 description: "Detaljeret guide til test af VO2max i laboratorium på løbebånd. Alt om testprotokollen og hvordan du analyserer dine resultater for at optimere din træning."
 language: da
 header:
@@ -21,7 +21,7 @@ meta:
 tags:
   - konditionstest
   - laboratorium
-  - direkte tests
+  - direkte test
   - maksimal test
   - submaksimal test
   - test
@@ -57,15 +57,13 @@ faq:
     answer: Med en maksimal iltoptagelsestest kan du få et ret præcist estimat på dit kondital. Vi måler direkte på iltoptagelsen, så hvis du formår at presse dig selv, så får du altså dit kondital.
 ---
 
-Hvis du gerne vil kende dit nøjagtige kondital i løb, så skal du en tur på løbebåndet i et testcenter.
+Hvis du vil kende dit præcise kondital i løb, kræver det en direkte måling af din maksimale iltoptagelse (VO2max). 
 
-Her kan du med maske få målt nøjagtigt, hvor meget ilt din krop maksimalt kan optage under ren maksimal præstation.
+Det foregår typisk på et løbebånd i et testcenter, hvor du løber med en maske, der måler, hvor meget ilt din krop optager under maksimal præstation.
 
-Det er nødvendigt med en direkte måling af din VO2max for at få et præcist kondital.
+For at sikre en præcis og pålidelig måling, anvendes en testprotokol, der gradvist øger intensiteten, indtil du når din maksimale kapacitet. Her gennemgår vi en af de mest anvendte testprotokoller for VO2max-måling i løb.
 
-Her kigger vi på en testprotokol, som ofte bliver brugt for at sikre, at dit kredsløb og din krop reelt arbejder omkring din maksimale iltoptagelse.
-
-## Disse begreber testes
+## Hvad tester vi i testen?
 
 {% include concept.html concept="vo2max" %}
 {% include concept.html concept="kondital" %}
@@ -80,6 +78,7 @@ Det har vi på Vejle Idrætshøjskole, hvor jeg har lavet mange af denne typer t
 Vi går i det følgende ud fra, at du har adgang til udstyret, og du ved, hvordan du bruger det.
 
 **Læs mere**: [Gå i dybden med iltoptagelsestest i laboratorium](/iltoptagelse-laboratorietest/)
+[: .notice ]
 
 ## Sådan laver du den maksimale iltoptagelsestest
 

@@ -11,7 +11,7 @@ category:
   - Styrketræning
 tags:
   - hypertrofi
-  - træningsmetoder
+  - træningsmetode
   - muskler
   - træningsplanlægning
   - faq

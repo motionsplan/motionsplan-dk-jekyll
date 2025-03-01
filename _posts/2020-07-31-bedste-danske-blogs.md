@@ -13,11 +13,8 @@ header:
 category:
   - Inspiration
 tags:
-  - danske fitness
-  - fitness blogger
-  - fitness blog
-  - fitness blog kvinder
-  - træning blog
+  - fitness
+  - blog
 feature_row:
   - image_path: /assets/images/blogs/maxer.jpg
     url: https://maxer.dk/

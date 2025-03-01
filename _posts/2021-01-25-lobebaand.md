@@ -15,7 +15,7 @@ category:
 tags:
   - løb
   - løbebånd
-  - cardiomaskiner
+  - kredsløbsmaskiner
   - udstyr
 feature_row_draxfit:
   - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2018_05_Ne__Speedfit_Drax_fit(1).w774.h774.fill.png

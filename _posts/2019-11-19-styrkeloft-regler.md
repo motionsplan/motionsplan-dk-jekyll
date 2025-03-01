@@ -1,6 +1,8 @@
 ---
-title: "Hvad er reglerne til styrkeløft og powerlifting? 🏋️‍♀️"
-excerpt: Her får du en grunding introduktion til reglerne i styrkeløft. I styrkeløft konkurrerer man i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft efter nogle særlige regler.
+title: "Regler i styrkeløft – sådan dømmes dine løft 🏋️‍♀️"
+seo_title: "Regler for styrkeløft: Squat, bænkpres og dødløft"
+excerpt: Få en grundig introduktion til styrkeløftens regler. Styrkeløft handler om at løfte så mange kilo som muligt i squat, bænkpres og dødløft – men altid inden for de fastsatte konkurrencekrav.
+description: "Få en detaljeret oversigt over de officielle regler for squat, bænkpres og dødløft i styrkeløft."
 permalink: /powerlifting-rules/
 slanguage: da
 header:
@@ -14,7 +16,6 @@ header:
 category:
   - Styrketræning
 tags:
-  - regler
   - styrkeløft
 last_modified_at: 2022-11-19T23:14:14Z
 feature_row:
@@ -54,23 +55,11 @@ quiz:
     answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
 
-Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw). Jeg har kigget lidt på reglerne til de forskellige discipliner i styrkeløft.
+Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft.
+
+For at sikre fair konkurrence er der etableret specifikke regler for hver disciplin. Her får du en introduktion til de vigtigste regler.
 
 *[IPF]: International Powerlifting Federation
-
-I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.
-
-Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
-
-I Danmark hedder forbundet _Dansk Styrkeløft Forbund (DSF)_ og hører hjemme på [styrke.dk](https://styrke.dk/). Alle klubber i Danmark, der stiller op til konkurrencer, er medlem af Dansk Styrkeløft Forbund, som til gengæld er medlem af International Powerlifting Federation (IPF), som er verdens største styrkeløftforbund. Der findes andre store forbund, men IPF har ry for at være det med de skrappeste dopingtests.
-
-Her kan du se promotion video fra International Powerlifting Federation.
-
-{% include video provider="youtube" id="TMIGc-PqsBc" %}
-
-Når vi gennemgår reglerne til [styrkeløft](https://da.wikipedia.org/wiki/Styrkel%C3%B8ft) nedenunder, så refererer vi til IPF's regler.
-
-Hvis du gerne vil konkurrere i styrkeløft, så skal du være medlem af en klub. Du kan både konkurrere med udstyr (særlige dragter) eller klassisk (raw).
 
 ## Hvad er styrkeløft?
 
@@ -78,7 +67,19 @@ Dansk Styrkeløft Forbund har lavet en glimrende video, der forklarer lidt mere 
 
 {% include video provider="youtube" id="zu6JMiNFAbM" %}
 
-## Discipliner i styrkeløft
+## Forskellige forbund - forskellige regler
+
+I Danmark hedder forbundet _Dansk Styrkeløft Forbund (DSF)_ og hører hjemme på [styrke.dk](https://styrke.dk/). Alle klubber i Danmark, der stiller op til konkurrencer, er medlem af Dansk Styrkeløft Forbund, som til gengæld er medlem af International Powerlifting Federation (IPF), som er verdens største styrkeløftforbund. Der findes andre store forbund, men IPF har ry for at være det med de skrappeste dopingtests.
+
+Her kan du se promotion video fra International Powerlifting Federation.
+
+{% include video provider="youtube" id="TMIGc-PqsBc" %}
+
+Når vi gennemgår reglerne til [styrkeløft](/styrkeloeft/) nedenunder, så refererer vi til IPF's regler.
+
+Hvis du gerne vil konkurrere i styrkeløft, så skal du være medlem af en klub. Du kan både konkurrere med udstyr (særlige dragter) eller klassisk (raw).
+
+## De 3 discipliner i styrkeløft
 
 {% include feature_row %}
 
@@ -137,6 +138,12 @@ Kommandoerne under dødløft er:
 
 {% include video provider="youtube" id="gbnOJuNVt6M" %}
 
+## Vægtklasser og IPF-Point
+
+I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.
+
+Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
+
 ## Regler for klassisk styrkeløft
 
 Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.
@@ -157,33 +164,11 @@ Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
 
-Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM max](/rm-maxtest/) i alle løftene.
+At vælge de rigtige forsøg er afgørende for din præstation til et styrkeløft-stævne. En god strategi hjælper dig med at opbygge momentum og maksimere din total, mens forkerte valg kan resultere i missede løft og spildt potentiale.
 
-Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerlifting-attempt-calculator-spreadsheet/) samlet følgende statistik om `Raw`-løftere (altså løftere der løfter uden udstyr).
+Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategier, anbefalinger og en praktisk skabelon til at planlægge dine løft.
 
-- 19,1% misser deres første squat, og 67% af dem misser også næste løft.
-- 15% misser deres først bænkpres, og 67% af dem misser også næste løft.
-- 45,6% misser deres tredje squat.
-- 50% misser deres tredje dødløft.
-
-Det kan altså betale sig at tænke over, at man kommer ind i konkurrencen på en god måde.
-
-Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**.
-
-- Dit **første løft** skal være et sikkert løft. Det kan fx være et løft, du ved du kan løfte tre gange. Formålet med det første løft er at forberede dig til de efterfølgende løft. Det gælder for alle disciplinerne.
-- Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
-- Dit **tredje løft** skal basere sig på fornemmelsen fra det andet løft. Hvis det andet løft går godt, så kan du forsøge dig på en lille PR i sidste forsøg. Hvis du virkelig synes det andet løft er let, så kan du gå for en lidt større PR.
-
-Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-forsøg](https://maxer.dk/artikler/maxtest). Du kan over overveje, om du synes om den strategi til dit styrkeløftstævne også. Beermann anbefaler, at man maksimalt har tre løft, der er over 90% af dit forventede maxløft.
-
-| Strategi | #1 | #2 | #3 |
-|-|-|-|-|
-| Konservativ | 93% | 97% | 102% |
-| Aggressiv | 95% | 101% | 105% |
-
-Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
-
-{% include feature_row id="feature_row_spreadsheet" type="center" %}
+➡️ **[Sådan vælger du dine forsøg til styrkeløft](/link-til-ny-side/)**
 
 ## Konklusion
 

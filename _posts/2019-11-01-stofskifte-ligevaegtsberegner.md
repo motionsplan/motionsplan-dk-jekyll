@@ -16,7 +16,7 @@ category:
 tags:
   - stofskifte
   - ligevægtsindtag
-  - ligevægtsberegner
+  - energiberegner
   - featured
   - kalorieberegner
   - beregner

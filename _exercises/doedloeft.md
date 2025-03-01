@@ -156,7 +156,7 @@ Der findes flere forskellige variationer af dødløft. Her kan du se en liste ov
 
 ## Hvilken dødløft-variant skal jeg vælge?
 
-Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal vælge. [Bodylab](https://www.bodylab.dk/shop/hvilken-doedloeft-variant-1790c1.html) gennemgår her forskellige strategier for valg af enten konventionel eller sumo-varianten for dit primære løft til en [styrkeløft-konkurrence]({% link _posts/2019-11-19-regler-styrkeloft.md %}).
+Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal vælge. [Bodylab](https://www.bodylab.dk/shop/hvilken-doedloeft-variant-1790c1.html) gennemgår her forskellige strategier for valg af enten konventionel eller sumo-varianten for dit primære løft til en [styrkeløft-konkurrence](/powerlifting-rules/).
 
 {% include figure image_path="https://www.bodylab.dk/images/bodyfeed/Dodloft_variant_tabel1.jpg" alt="skema til at vælge dødløftvariant" %}
 

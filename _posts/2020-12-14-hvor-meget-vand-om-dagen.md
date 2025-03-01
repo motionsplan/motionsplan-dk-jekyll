@@ -13,9 +13,8 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - vand
-  - dehydrering
-  - hydrering
+  - væske
+  - ernæring
   - beregner
   - featured
 popular: true
