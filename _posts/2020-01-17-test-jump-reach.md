@@ -13,6 +13,8 @@ tags:
   - springtest
   - spring
   - springtræning
+  - fitnesstest
+  - anaerob test
 last_modified_at: 2011-11-19T23:14:14Z
 toc: true
 meta:

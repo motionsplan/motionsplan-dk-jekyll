@@ -5,7 +5,7 @@ title: &title "Eksplosivitet, sprint og spring"
 excerpt: "Hvordan arbejder man med eksplosivitet? Hvordan sprinter du hurtigere og springer højere?"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   alt: "Photo by Tikkho Maciel on Unsplash"
   caption: *title
@@ -16,7 +16,7 @@ header:
 #      url: "/hastighed/"
 classes: wide
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
     alt: "Hvordan sprinter du?"
     title: "Hvordan sprinter du?"
     excerpt: "Hvordan sprinter du?"

@@ -8,7 +8,7 @@ title: &title "Tests – find den rette test for dig"
 seo_title: "Fysiske tests – test din kondition, styrke og udholdenhed selv"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1706029831332-67734fbf73d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1706029831332-67734fbf73d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1706029831332-67734fbf73d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash

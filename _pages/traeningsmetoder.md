@@ -4,7 +4,7 @@ title: "Træningsmetoder"
 permalink: /traeningsmetoder/
 excerpt: "Her kan du læse om en masse forskellige træningsmetoder til styrketræning, løb og konditionstræning."
 header:
-  overlay_image: https://images.unsplash.com/photo-1581888748626-2a3f240a6f9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1581888748626-2a3f240a6f9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1581888748626-2a3f240a6f9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: Træningsmetoder
 author_profile: false

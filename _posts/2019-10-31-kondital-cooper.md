@@ -29,6 +29,8 @@ tags:
   - løbetest
   - test
   - testberegner
+  - fitnesstest
+  - aerob test
   - featured
   - populær
 popular: true

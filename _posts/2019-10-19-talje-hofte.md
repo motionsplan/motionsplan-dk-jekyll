@@ -15,6 +15,8 @@ tags:
   - kropskomposition
   - test
   - tracking
+  - fitnesstest
+  - antropometri
 popular: true
 last_modified_at: 2022-05-04T23:14:14Z
 toc: true

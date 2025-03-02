@@ -13,6 +13,8 @@ category:
 tags:
   - kropskomposition
   - beregner
+  - fitnesstest
+  - antropometri
   - featured
 popular: true
 meta:

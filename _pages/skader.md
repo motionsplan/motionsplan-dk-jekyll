@@ -6,7 +6,7 @@ permalink: /skader/
 excerpt: "Lær hvordan du forebygger og behandler skader i træning. Få indsigt i typiske skader, deres årsager og effektive strategier til genoptræning."
 description: "Lær hvordan du forebygger og behandler skader i træning. Få indsigt i typiske skader, deres årsager og effektive strategier til genoptræning."
 header:
-  overlay_image: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&auto=format&fit=crop&h=300&w=400&q=10
   caption: Skader og forebyggelse i træningen
 author_profile: true

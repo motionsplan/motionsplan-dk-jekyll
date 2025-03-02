@@ -18,6 +18,8 @@ tags:
   - test
   - polititest
   - politi
+  - fitnesstest
+  - anaerob test
 meta:
   name: Broadjump (længdespring)
   measures: springstyrke

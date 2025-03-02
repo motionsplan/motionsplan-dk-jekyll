@@ -15,6 +15,8 @@ tags:
   - test
   - anaerob
   - cykeltest
+  - fitnesstest
+  - anaerob test
   - populær
 meta:
   name: Wingate 30 sekunders test

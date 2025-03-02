@@ -8,7 +8,7 @@ permalink: /traeningsplanlaegning/
 excerpt: "Lær at planlægge din træning effektivt med principper for progression, periodisering og restitution. Skab et træningsprogram, der passer til dine mål."
 description: "Lær at planlægge din træning effektivt med principper for progression, periodisering og restitution. Skab et træningsprogram, der passer til dine mål."
 header:
-  overlay_image: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: Styrketræning
 author_profile: true

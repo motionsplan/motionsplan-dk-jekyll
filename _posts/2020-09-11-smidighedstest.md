@@ -12,6 +12,8 @@ category:
 tags:
   - smidighed
   - test
+  - fitnesstest
+  - smidighedstest
 last_modified_at: 2020-09-03T23:14:14Z
 toc: true
 feature_row:

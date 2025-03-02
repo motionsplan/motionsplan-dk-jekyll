@@ -5,7 +5,7 @@ permalink: /yoga/
 excerpt: "Her har vi samlet alle de artikler vi har skrevet om yoga, yogaøvelser og yoga for begyndere."
 description: "Opdag yoga og mindfulness. Lær øvelser og teknikker til at reducere stress, forbedre fleksibilitet og skabe balance i hverdagen."
 header:
-  overlay_image: https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: Yoga
 author_profile: false

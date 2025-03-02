@@ -1,7 +1,8 @@
 ---
 layout: single
-title: &title "Fitnesstests"
-excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning, styrketræning, doping og træning af særlige målgrupper.
+title: &title "Fitness Tests – Test din form og følg din udvikling"
+seo_title: "Fitness Tests – Mål din form og forbedr din træning"
+excerpt: Få indsigt i din form med fitness tests. Test din styrke, kondition og smidighed, og følg din udvikling over tid. Find vejledninger og testmetoder her.
 permalink: /fitness/
 author_profile: true
 toc: true
@@ -30,10 +31,103 @@ breadcrumbs: true
 classes: wide
 ---
 
+Fitness tests er en effektiv måde at vurdere din nuværende form, spore din udvikling og sætte realistiske mål for din træning. Uanset om du vil teste din styrke, kondition, smidighed eller kropssammensætning, findes der en række forskellige tests, der kan give dig værdifuld indsigt.
 
-http://www.myfitnesstest.com/default.aspx
+På denne side finder du en oversigt over forskellige fitness tests samt vejledning i, hvordan du udfører dem korrekt.
 
-Fed interaktiv figur på forsiden.
-
+{% comment %}http://www.myfitnesstest.com/Flexibility.aspx{% endcomment %}
 
 {% include hex.html %}
+
+## Aerobe tests
+
+{% assign site_posts = site.posts | where: "tags", "aerob test" | where: "tags", "fitnesstest" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Anaerobe tests
+
+{% assign site_posts = site.posts | where: "tags", "anaerob test" | where: "tags", "fitnesstest" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Antropometriske tests
+
+{% assign site_posts = site.posts | where: "tags", "antropometri" | where: "tags", "fitnesstest" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Styrketests
+
+{% assign site_posts = site.posts | where: "tags", "styrketest" | where: "tags", "fitnesstest" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+<div class="feature__wrapper">
+{% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+{% else %}
+Vi har endnu ikke beskrevet nogle relevante styrketests.
+{% endif %}
+
+
+## Behændighedstests
+
+{% assign site_posts = site.posts | where: "tags", "agility" | where: "tags", "fitnesstest" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+<div class="feature__wrapper">
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+{% else %}
+Vi har i øjeblikket ikke beskrevet nogen behændighedstests.
+{% endif %}
+
+## Smidighedstests
+
+{% assign site_posts = site.posts | where: "tags", "smidighedstest" | where: "tags", "fitnesstest" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Om fitness målinger
+
+At måle sin fitness giver indsigt i ens fysiske form og hjælper med at sætte realistiske mål. Regelmæssige tests kan vise fremskridt, identificere svagheder og guide træningen for bedre resultater.
+
+Husk at bruge den samme fremgangsmåde hver gang, så du får det bedste grundlag for at lave sammenligninger.
+
+[Se alle vores tests](/tests/){: .btn .btn--success .btn--center }

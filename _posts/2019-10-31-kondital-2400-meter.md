@@ -26,6 +26,8 @@ tags:
   - løbetest
   - test
   - testberegner
+  - fitnesstest
+  - aerob test
   - populær
   - politi
 last_modified_at: 2022-10-06T22:12:12Z

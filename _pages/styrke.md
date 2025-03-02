@@ -10,7 +10,7 @@ permalink: /styrketraening/
 excerpt: "Bliv stærkere og undgå skader! Få de bedste øvelser, effektive træningsprogrammer og eksperttips til at opbygge muskelstyrke og forbedre din teknik."
 description: "Bliv stærkere og undgå skader! Få de bedste øvelser, effektive træningsprogrammer og eksperttips til at opbygge muskelstyrke og forbedre din teknik."
 header:
-  overlay_image: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: Styrketræning
 author_profile: true

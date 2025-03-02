@@ -24,6 +24,8 @@ tags:
   - moc
   - metode
   - test
+  - fitnesstest
+  - antropometri
 last_modified_at: 2022-09-19T08:14:14Z
 toc: true
 feature_row:

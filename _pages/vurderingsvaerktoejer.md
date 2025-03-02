@@ -8,7 +8,7 @@ title: &title "Vurderingsværktøjer til din sundhed og trivsel"
 seo_title: "Vurderingsværktøjer – få indsigt i din sundhed og trivsel"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:

@@ -6,7 +6,7 @@ seo_title: "Brystøvelser: Effektive øvelser til træning af bryst"
 author_profile: true
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet"
 excerpt: "Vi har samlet en række brystøvelser, som du kan bruge til din brysttræning. Når du vil træne dit bryst, så kan du vælge mellem forskellige øvelser."

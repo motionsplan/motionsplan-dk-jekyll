@@ -7,7 +7,7 @@ description: "Få de bedste løbeværktøjer til at optimere din træning. Brug 
 author_profile: true
 excerpt: "Få de bedste løbeværktøjer til at optimere din træning. Brug beregnere til at måle hastighed, forbrænding og andre vigtige løbsmål. Gør din løbetræning mere effektiv."
 header:
-  overlay_image: https://images.unsplash.com/photo-1590847330116-ea94fb93eac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1590847330116-ea94fb93eac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1590847330116-ea94fb93eac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
