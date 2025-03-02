@@ -14,7 +14,6 @@ category:
   - Løb
 tags:
   - intervaltræning
-  - intervalløb
   - anaerob træning
   - aerob træning
   - featured

@@ -16,7 +16,6 @@ category:
   - Styrketræning
 tags:
   - hjemmetræning
-  - corona
   - workouts
   - træningsprogram
   - øvelser

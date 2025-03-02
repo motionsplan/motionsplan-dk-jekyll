@@ -11,7 +11,7 @@ category:
 tags:
   - beregner
   - løbetræning
-  - intervalløb
+  - intervaltræning
   - løb
 last_modified_at: 2021-03-28T23:14:14Z
 toc: true

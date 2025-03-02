@@ -10,7 +10,7 @@ category:
   - Styrketræning
 tags:
   - teknik
-  - mobilitet
+  - smidighed
   - squat
 last_modified_at: 2022-02-12T22:21:26Z
 ---

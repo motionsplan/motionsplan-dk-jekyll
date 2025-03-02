@@ -11,7 +11,6 @@ category:
   - Træning
 tags:
   - hjemmetræning
-  - corona
   - workouts
   - træningsprogram
   - øvelser

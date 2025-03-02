@@ -12,7 +12,6 @@ category:
   - Kondition
 tags:
   - udholdenhed
-  - åndedræt
   - åndedrætstræning
   - løb
   - moc

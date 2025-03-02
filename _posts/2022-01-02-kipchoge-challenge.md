@@ -8,8 +8,9 @@ header:
 category:
   - Løb
 tags:
-  - intervalløb
+  - intervaltræning
   - kondition
+  - løb
 last_modified_at: 2024-10-19T08:14:14Z
 toc: true
 gallery:

@@ -18,7 +18,6 @@ category:
   - Psykologi
 tags:
   - moc
-  - mental velvære
   - psykologi
 last_modified_at: 2025-02-20T19:14:14Z
 ---

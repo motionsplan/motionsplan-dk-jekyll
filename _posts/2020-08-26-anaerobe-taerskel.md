@@ -15,7 +15,6 @@ tags:
   - fysiologi
   - forbrænding
   - anaerob
-  - laktat
   - mælkesyre
   - løb
 ---
