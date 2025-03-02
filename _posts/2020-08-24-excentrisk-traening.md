@@ -12,7 +12,6 @@ category:
   - Styrketræning
 tags:
   - træning
-  - excentrisk træning
   - styrketræning
   - skadesforebyggelse
 ---

@@ -1,6 +1,28 @@
 let motionsplan = {};
 
-motionsplan.Estimate1RM = function(weight, repetitions = 5) {
+motionsplan.Estimate1RM = function(weight, repetitions = 5, formula = "brzycki", body_part = "lower") {
+
+  function getRepMax(rm = 1) {
+    if (formula == "reynolds") {
+      return getReynolds(rm, body_part);
+    } else if (formula == "epley") {
+      return getEpley(rm);
+    } else if (formula == "lander") {
+      return getLander(rm);
+    } else if (formula == "lombardi") {
+      return getLombardi(rm);
+    } else if (formula == "mayhew") {
+      return getMayhew(rm);
+    } else if (formula == "oconnor") {
+      return getOconnor(rm)
+    } else if (formula == "wathan") {
+      return getWathan(rm);
+    } else if (formula == "wendler") {
+      return getWendler(rm);
+    }
+
+    return getBrzycki(rm);
+  }
 
   function getBrzycki(rm = 1) {
     let repmax = weight * (36 / (37 - repetitions));
@@ -31,15 +53,15 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
    * seems to overestimate lower body 1RM so we are using the estimation formula
    * from figure 3 instead for all calculations.
    */
-  function getReynolds(body_part = "lower", rm = 1) {
-    let repmax = weight / getReynoldsPercent(body_part, repetitions) * 100;
+  function getReynolds(rm = 1, body_part = "lower") {
+    let repmax = weight / getReynoldsPercent(repetitions, body_part) * 100;
     if (rm == 1) {
       return repmax;
     }
-    return getReynoldsPercent(body_part, rm) * repmax / 100;
+    return getReynoldsPercent(rm, body_part) * repmax / 100;
   }
 
-  function getReynoldsPercent(body_part = "lower", rm = 1) {
+  function getReynoldsPercent(rm = 1, body_part = "lower") {
     if (body_part == "lower") {
       return 78.17 * Math.exp(-0.0569 * rm) + 26.41;
     } else {
@@ -84,7 +106,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     if (rm == 1) {
       return repmax;
     }
-    return repmax / ((Math.pow(repetitions, 0.1)));
+    return repmax / ((Math.pow(rm, 0.1)));
   }
 
   function getMayhew(rm = 1) {
@@ -119,6 +141,12 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     return 1 / (((rm * .0333) / repmax) + (1 / repmax));
   }
 
+  function getAverage(rm = 1) {
+    let total = getBrzycki(rm) + getEpley(rm) + getLander(rm) + getLombardi(rm) + getMayhew(rm) + getOconnor(rm) + getReynolds(rm, body_part) + getWathan(rm) + getWendler(rm);
+    let no_formulas = 9;
+    return (total / no_formulas);
+  }
+
   function getPercentOfRm(rm, percent) {
     return rm * percent / 100;
   }
@@ -136,7 +164,9 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     getOconnor: getOconnor,
     getWathan: getWathan,
     getPercentOfRm: getPercentOfRm,
-    getWendler: getWendler
+    getWendler: getWendler,
+    getAverage : getAverage,
+    getRepMax : getRepMax
   };
 
   return publicAPI;

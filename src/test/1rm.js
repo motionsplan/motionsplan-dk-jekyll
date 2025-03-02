@@ -40,7 +40,10 @@ describe('Estimate1RM', function() {
       // weigt, reps
       let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getLombardi(), 117.4618943088019);
+      assert.equal(rm.getLombardi(3), 105.24097791489255);
       assert.equal(rm.getLombardi(5), 100);
+      assert.equal(rm.getLombardi(8), 95.40870513286721);
+      assert.equal(rm.getLombardi(10), 93.30329915368074);
     });
   });
   describe('getOconnor', function() {
@@ -69,19 +72,19 @@ describe('Estimate1RM', function() {
       assert.equal(rm.getReynolds5RM("lower"), 123.95759999999999);
       assert.equal(rm.getReynolds5RM("upper"), 113.7698);
 
-      assert.equal(rm.getReynoldsPercent("upper"), 100.1082762196593);
-      assert.equal(rm.getReynoldsPercent("lower"), 100.25630266342826);
+      assert.equal(rm.getReynoldsPercent(1, "upper"), 100.1082762196593);
+      assert.equal(rm.getReynoldsPercent(1, "lower"), 100.25630266342826);
 
-      assert.equal(rm.getReynoldsPercent("upper", 5), 87.13996438815076);
-      assert.equal(rm.getReynoldsPercent("lower", 5), 85.22435408662034);
+      assert.equal(rm.getReynoldsPercent(5, "upper"), 87.13996438815076);
+      assert.equal(rm.getReynoldsPercent(5, "lower"), 85.22435408662034);
 
       assert.equal(rm.getReynolds(), 117.33735159595578);
-      assert.equal(rm.getReynolds("lower"), 117.33735159595578);
-      assert.equal(rm.getReynolds("upper"), 114.7579078120417);
+      assert.equal(rm.getReynolds(1, "lower"), 117.33735159595578);
+      assert.equal(rm.getReynolds(1, "upper"), 114.7579078120417);
 
       // Gives Percentage of 1RM.
-      assert.equal(rm.getReynolds("lower", 5), 100.00000000000001);
-      assert.equal(rm.getReynolds("upper", 5), 100.00000000000001);
+      assert.equal(rm.getReynolds(5, "lower"), 100.00000000000001);
+      assert.equal(rm.getReynolds(5, "upper"), 100.00000000000001);
     });
   });
   /*

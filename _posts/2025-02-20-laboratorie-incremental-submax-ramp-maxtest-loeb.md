@@ -6,7 +6,7 @@ excerpt: "Direkte måling af vo2max i løb med maske og stigende belastning fra 
 description: "Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til den anaerobe tærskel. Derefter en maksimal test af konditallet."
 language: da
 header:
-  teaser: https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg
+  teaser: /assets/images/blog/vo2-max-test-running-female.webp
   caption: *title
 category:
   - Kondition
@@ -14,7 +14,7 @@ meta:
   name: Løbebåndstest med iltoptagelse (submax + maxtest)
   measures: LT1, LT2, VO2max, kondital, maxpuls, løbeøkonomi
   type: løbetest
-  equipment: løbebånd
+  equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
 tags:
@@ -26,6 +26,7 @@ tags:
   - løbetest
   - test
   - laboratorietest
+  - iltoptagelsestest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10

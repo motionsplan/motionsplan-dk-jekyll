@@ -8,7 +8,6 @@ header:
   caption: *title
 tags:
   - vægttab
-  - mave
   - mavetræning
 category:
   - Kost & Ernæring

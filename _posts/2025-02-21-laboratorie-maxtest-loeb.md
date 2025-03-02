@@ -6,8 +6,7 @@ excerpt: "Guide til test af din maksimale iltoptagelse på løbebånd med maske.
 description: "Detaljeret guide til test af VO2max i laboratorium på løbebånd. Alt om testprotokollen og hvordan du analyserer dine resultater for at optimere din træning."
 language: da
 header:
-  overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
-  teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
+  teaser: https://de.beatyesterday.org/wp-content/uploads/2018/12/iStock-885516322-jacoblund-header-359x219.jpg
   caption: *title
 category:
   - Kondition
@@ -15,7 +14,7 @@ meta:
   name: Maksimal løbetest på løbebånd (rampetest)
   measures: VO2max, kondital, maxpuls
   type: løbetest
-  equipment: løbebånd
+  equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
 tags:
@@ -27,6 +26,7 @@ tags:
   - test
   - løbetest
   - laboratorietest
+  - iltoptagelsestest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10

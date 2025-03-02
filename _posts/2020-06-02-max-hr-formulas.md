@@ -1,11 +1,11 @@
 ---
-title: "Formler for max-puls – sammenlign resultaterne"
-seo_title: "Max-puls formler – metoder til at estimere din maksimale puls"
+title: "Max-puls formler – Find den bedste beregningsmetode for dig"
+seo_title: "Max-puls formler – Hvordan beregnes maksimal puls?"
 description: "Få indsigt i, hvordan max-puls estimeres med forskellige formler. Vi gennemgår de mest anvendte metoder og deres nøjagtighed."
 permalink: /max-puls-formler/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1682706841281-f723c5bfcd83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.2
 category:
   - Kondition
@@ -14,7 +14,7 @@ tags:
   - løb
   - cykling
   - kondition
-last_modified_at: 2024-07-03T08:14:14Z
+last_modified_at: 2025-03-01T08:14:14Z
 faq:
   - question: "Hvad er en normal maxpuls?"
     answer: "En normal maxpuls afhænger af din alder, men der er store individuelle variationer. Generelt falder maxpulsen med 0,5-1 slag pr. år. Du kan beregne en estimeret maxpuls med [vores maxpuls-beregner](/test-max-puls/)."
@@ -38,6 +38,8 @@ faq:
 Din max-puls kan estimeres ved hjælp af forskellige formler, men de giver ikke altid det samme resultat.
 
 På denne side forklarer vi, hvordan formlerne er udviklet, og hvad du skal være opmærksom på, når du bruger dem til at estimere din max-puls.
+
+Vi vurderer de forskellige formlers præcision, så du kan vælge den bedste maxpuls-formel for dig.
 
 {% include figure image_path="https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption=page.title alt="maxpuls og maksimale puls" %}
 
@@ -133,7 +135,7 @@ Whyte et al (2008) konkluderer også, at det ser ud til at den **maksimale puls 
 
 ### 4. Fox (1971)
 
-Fox (1971) præsenterede formlen: 220 - alder. Vi har gennemgået den lidt overraskende historie bag formlen, men faktisk fandt [Shookster et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7523886/), at den alligevel var bedre til at forklare data end Tanaka et al (2001), Gellish , Arena, Aastrand, Nes og Fairbarn.
+Fox (1971) præsenterede formlen: 220 - alder. Vi har gennemgået den lidt overraskende historie bag formlen, men faktisk fandt [Shookster et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7523886/), at den alligevel var bedre til at forklare data end Tanaka et al (2001), Gellish, Arena, Aastrand, Nes og Fairbarn.
 
 Man kan i hvert fald konkludere, at ingen i øjeblikket er enige om, hvordan det er bedst at beregne max-pulsen.
 

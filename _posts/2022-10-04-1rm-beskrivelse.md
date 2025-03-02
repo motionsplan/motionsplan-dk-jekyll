@@ -6,7 +6,7 @@ description: "Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og h
 excerpt: "Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå 1RM’s rolle i programmering og progression."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.3
 category:
@@ -38,11 +38,13 @@ faq:
     answer: "Flere faktorer kan påvirke din 1RM, herunder teknik, træthed, ernæring, restitution og neurologisk tilpasning. Derfor kan din 1RM variere afhængigt af din dagsform og træningsniveau."
 ---
 
-One Repetition Maximum (1RM) refererer til den maksimale vægt, du kan løfte én gang i en given øvelse. 1RM er en central faktor i styrketræning og bruges til at beregne træningsintensitet
+One Repetition Maximum (1RM) refererer til den maksimale vægt, du kan løfte én gang i en given øvelse. 1RM er en central faktor i styrketræning og bruges til at beregne træningsintensitet.
 
-Du kan udføre en direkte test af din One Rep Max (1RM) for at få det præcise billede af din maksimale styrke, eller du kan lave nogle submaksimale tests.
+Du kan udføre en direkte test af din _one rep max_ (1RM) for at få det præcise billede af din maksimale styrke, eller du kan estimere den fra submaksimale tests.
 
-**Lær mere**: [Lær at lave en 1RM-test](/1rm-test/)
+I denne artikel går vi i dybden med begrebet. Du kan også hoppe direkte til vores [RM-beregner](/rm-beregner/).
+
+**Lær mere**: [Sådan laver du en 1RM-test](/1rm-test/)
 {: .notice }
 
 {% include figure image_path="https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=10" alt="maxtest - RM-test i styrketræning" %}
@@ -75,8 +77,9 @@ Der er forskellige måder at finde din one rep max på. Her har vi lavet en lill
 | 2. [RM-beregner](/rm-beregner/) | Lettere. Du løfter submaksimalt. | Kan være lidt upræcis. Du skal kunne presse dig selv. |
 | 3. RPE-test | Lettere. Du løfter submaksimalt. Lille risiko for skader. | Kan være lidt upræcis. Du skal kunne mærke din præcise anstrengelse. |
 | 4. [Velocity Based 1RM-test](/vbt/) | Lav risiko for skader. | Du skal kunne løfte med maksimal hastighed i submaksimale løft. Du har brug for specialiseret udstyr. |
+{: .full }
 
-[Lær at lave din egen one rep max-test](/1rm-test/){: .btn .btn--success }
+[Lær at lave din egen one rep max-test](/1rm-test/){: .btn .btn--success .btn--center }
 
 ## Forbehold med RM-baserede træningsprogrammer
 
@@ -98,7 +101,9 @@ Det er nemlig for hårdt at løfte alle sæt med RPE 10.
 
 1RM, eller **One Repetition Maximum**, er en vigtig måling af maksimal styrke og bruges ofte til at styre træningsprogrammer. Der er flere måder at finde sin 1RM på, afhængigt af ens erfaring og behov.  
 
-Hvis du vil finde din 1RM præcist, kan du udføre en fysisk [1RM-test](/rm-maxtest/). Hvis du foretrækker at estimere den, kan du bruge vores [1RM-beregner](/rm-beregner/) eller beregne den manuelt med en af de mest anvendte [1RM-formler](/1rm-formler/). Alternativt kan du estimere din 1RM baseret på **RPE**-skalaen i vores guide til [1RM & RPE](/rpe/) eller bruge **Velocity Based Training (VBT)** til at forudsige din maksimale styrke uden at løfte til failure – læs mere om [1RM & VBT](/vbt/).  
+Hvis du vil finde din 1RM præcist, kan du udføre en fysisk [1RM-test](/rm-maxtest/). Hvis du foretrækker at estimere den, kan du bruge vores [1RM-beregner](/rm-beregner/) eller beregne den manuelt med en af de mest anvendte [1RM-formler](/1rm-formler/).
+
+Alternativt kan du estimere din 1RM baseret på **RPE**-skalaen i vores guide til [1RM & RPE](/rpe/) eller bruge **Velocity Based Training (VBT)** til at forudsige din maksimale styrke uden at løfte til failure – læs mere om [1RM & VBT](/vbt/).  
 
 Ved at vælge den rette metode til din situation kan du optimere din træning og få et mere præcist billede af din styrkeudvikling. 💪  
 

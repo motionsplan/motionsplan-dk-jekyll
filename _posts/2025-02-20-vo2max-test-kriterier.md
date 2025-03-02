@@ -6,7 +6,7 @@ excerpt: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max
 description: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Her gennemgår vi 6 videnskabelige kriterier, der bruges til at vurdere, om du har ydet dit maksimale."
 language: da
 header:
-  teaser: https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg
+  teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   caption: *title
 category:
   - Kondition

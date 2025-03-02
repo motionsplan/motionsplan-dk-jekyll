@@ -6,15 +6,15 @@ excerpt: "Direkte måling af iltoptagelsen med maske på løbebånd med stigende
 description: "Progressiv test med stigende intensitet og måling af aerob, anaerob og VO2peak med denne direkte test af iltoptagelse på løbebånd med maske."
 language: da
 header:
-  teaser: https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg
-  caption: *title
+  teaser: /assets/images/blog/vo2-max-test-running.webp
+  caption: Foto fra KORR Medical Technologies
 category:
   - Kondition
 meta:
   name: Løbebåndstest med iltoptagelse (trappetest til udmattelse)
   measures: LT1, LT2, VO2peak, kondital, maxpuls, løbeøkonomi
   type: løbetest
-  equipment: løbebånd
+  equipment: se testbeskrivelse
   max: maksimal test
   direct: direkte test
 tags:
@@ -26,6 +26,7 @@ tags:
   - løbetest
   - test
   - laboratorietest
+  - iltoptagelsestest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10

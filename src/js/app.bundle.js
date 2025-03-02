@@ -91,7 +91,6 @@ const vo2_efficiency = require('../js/vo2-efficiency');
 const ee = require('../js/energy-expenditure');
 const ee_rer = require('../js/energy-expenditure-rer');
 
-
 require('image-map-resizer');
 
 $(function() {
@@ -116,9 +115,160 @@ $(function() {
         });
     });
 
-    $("#maxhr_age").change(function() {
+    /* TODO - Refactor - this and the next function are completely identical. Both added for the .onchange()  */
+    $("#table-1rm-reps").change(function() {
       console.log('Ready to calculate');
-      let age = Number($("#maxhr_age").val());
+      let reps = Number($("#table-1rm-reps").val());
+      let weight = Number($("#table-1rm-weight").val());
+      let r = rm.Estimate1RM(weight, reps);
+
+      let decimal = 1;
+
+      $("#table-brzcki-rm1").text(r.getBrzycki(1).toFixed(decimal));
+      $("#table-brzcki-rm3").text(r.getBrzycki(3).toFixed(decimal));
+      $("#table-brzcki-rm5").text(r.getBrzycki(5).toFixed(decimal));
+      $("#table-brzcki-rm8").text(r.getBrzycki(8).toFixed(decimal));
+      $("#table-brzcki-rm10").text(r.getBrzycki(10).toFixed(decimal));
+
+      $("#table-reynolds-upper-rm1").text(r.getReynolds(1, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm3").text(r.getReynolds(3, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm5").text(r.getReynolds(5, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm8").text(r.getReynolds(8, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm10").text(r.getReynolds(10, "upper").toFixed(decimal));
+
+      $("#table-reynolds-lower-rm1").text(r.getReynolds(1, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm3").text(r.getReynolds(3, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm5").text(r.getReynolds(5, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm8").text(r.getReynolds(8, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm10").text(r.getReynolds(10, "lower").toFixed(decimal));
+
+      $("#table-epley-rm1").text(r.getEpley(1).toFixed(decimal));
+      $("#table-epley-rm3").text(r.getEpley(3).toFixed(decimal));
+      $("#table-epley-rm5").text(r.getEpley(5).toFixed(decimal));
+      $("#table-epley-rm8").text(r.getEpley(8).toFixed(decimal));
+      $("#table-epley-rm10").text(r.getEpley(10).toFixed(decimal));
+
+      $("#table-lander-rm1").text(r.getLander(1).toFixed(decimal));
+      $("#table-lander-rm3").text(r.getLander(3).toFixed(decimal));
+      $("#table-lander-rm5").text(r.getLander(5).toFixed(decimal));
+      $("#table-lander-rm8").text(r.getLander(8).toFixed(decimal));
+      $("#table-lander-rm10").text(r.getLander(10).toFixed(decimal));
+
+      $("#table-lombardi-rm1").text(r.getLombardi(1).toFixed(decimal));
+      $("#table-lombardi-rm3").text(r.getLombardi(3).toFixed(decimal));
+      $("#table-lombardi-rm5").text(r.getLombardi(5).toFixed(decimal));
+      $("#table-lombardi-rm8").text(r.getLombardi(8).toFixed(decimal));
+      $("#table-lombardi-rm10").text(r.getLombardi(10).toFixed(decimal));
+
+      $("#table-mayhew-rm1").text(r.getMayhew(1).toFixed(decimal));
+      $("#table-mayhew-rm3").text(r.getMayhew(3).toFixed(decimal));
+      $("#table-mayhew-rm5").text(r.getMayhew(5).toFixed(decimal));
+      $("#table-mayhew-rm8").text(r.getMayhew(8).toFixed(decimal));
+      $("#table-mayhew-rm10").text(r.getMayhew(10).toFixed(decimal));
+
+      $("#table-oconnor-rm1").text(r.getOconnor(1).toFixed(decimal));
+      $("#table-oconnor-rm3").text(r.getOconnor(3).toFixed(decimal));
+      $("#table-oconnor-rm5").text(r.getOconnor(5).toFixed(decimal));
+      $("#table-oconnor-rm8").text(r.getOconnor(8).toFixed(decimal));
+      $("#table-oconnor-rm10").text(r.getOconnor(10).toFixed(decimal));
+
+      $("#table-wathan-rm1").text(r.getWathan(1).toFixed(decimal));
+      $("#table-wathan-rm3").text(r.getWathan(3).toFixed(decimal));
+      $("#table-wathan-rm5").text(r.getWathan(5).toFixed(decimal));
+      $("#table-wathan-rm8").text(r.getWathan(8).toFixed(decimal));
+      $("#table-wathan-rm10").text(r.getWathan(10).toFixed(decimal));
+
+      $("#table-wendler-rm1").text(r.getWendler(1).toFixed(decimal));
+      $("#table-wendler-rm3").text(r.getWendler(3).toFixed(decimal));
+      $("#table-wendler-rm5").text(r.getWendler(5).toFixed(decimal));
+      $("#table-wendler-rm8").text(r.getWendler(8).toFixed(decimal));
+      $("#table-wendler-rm10").text(r.getWendler(10).toFixed(decimal));
+
+      $("#table-avg-rm1").text(r.getAverage(1).toFixed(decimal));
+      $("#table-avg-rm3").text(r.getAverage(3).toFixed(decimal));
+      $("#table-avg-rm5").text(r.getAverage(5).toFixed(decimal));
+      $("#table-avg-rm8").text(r.getAverage(8).toFixed(decimal));
+      $("#table-avg-rm10").text(r.getAverage(10).toFixed(decimal));
+    });
+
+    $("#table-1rm-weight").change(function() {
+      console.log('Ready to calculate');
+      let reps = Number($("#table-1rm-reps").val());
+      let weight = Number($("#table-1rm-weight").val());
+      let r = rm.Estimate1RM(weight, reps);
+
+      let decimal = 1;
+
+      $("#table-brzcki-rm1").text(r.getBrzycki(1).toFixed(decimal));
+      $("#table-brzcki-rm3").text(r.getBrzycki(3).toFixed(decimal));
+      $("#table-brzcki-rm5").text(r.getBrzycki(5).toFixed(decimal));
+      $("#table-brzcki-rm8").text(r.getBrzycki(8).toFixed(decimal));
+      $("#table-brzcki-rm10").text(r.getBrzycki(10).toFixed(decimal));
+
+      $("#table-reynolds-upper-rm1").text(r.getReynolds(1, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm3").text(r.getReynolds(3, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm5").text(r.getReynolds(5, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm8").text(r.getReynolds(8, "upper").toFixed(decimal));
+      $("#table-reynolds-upper-rm10").text(r.getReynolds(10, "upper").toFixed(decimal));
+
+      $("#table-reynolds-lower-rm1").text(r.getReynolds(1, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm3").text(r.getReynolds(3, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm5").text(r.getReynolds(5, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm8").text(r.getReynolds(8, "lower").toFixed(decimal));
+      $("#table-reynolds-lower-rm10").text(r.getReynolds(10, "lower").toFixed(decimal));
+
+      $("#table-epley-rm1").text(r.getEpley(1).toFixed(decimal));
+      $("#table-epley-rm3").text(r.getEpley(3).toFixed(decimal));
+      $("#table-epley-rm5").text(r.getEpley(5).toFixed(decimal));
+      $("#table-epley-rm8").text(r.getEpley(8).toFixed(decimal));
+      $("#table-epley-rm10").text(r.getEpley(10).toFixed(decimal));
+
+      $("#table-lander-rm1").text(r.getLander(1).toFixed(decimal));
+      $("#table-lander-rm3").text(r.getLander(3).toFixed(decimal));
+      $("#table-lander-rm5").text(r.getLander(5).toFixed(decimal));
+      $("#table-lander-rm8").text(r.getLander(8).toFixed(decimal));
+      $("#table-lander-rm10").text(r.getLander(10).toFixed(decimal));
+
+      $("#table-lombardi-rm1").text(r.getLombardi(1).toFixed(decimal));
+      $("#table-lombardi-rm3").text(r.getLombardi(3).toFixed(decimal));
+      $("#table-lombardi-rm5").text(r.getLombardi(5).toFixed(decimal));
+      $("#table-lombardi-rm8").text(r.getLombardi(8).toFixed(decimal));
+      $("#table-lombardi-rm10").text(r.getLombardi(10).toFixed(decimal));
+
+      $("#table-mayhew-rm1").text(r.getMayhew(1).toFixed(decimal));
+      $("#table-mayhew-rm3").text(r.getMayhew(3).toFixed(decimal));
+      $("#table-mayhew-rm5").text(r.getMayhew(5).toFixed(decimal));
+      $("#table-mayhew-rm8").text(r.getMayhew(8).toFixed(decimal));
+      $("#table-mayhew-rm10").text(r.getMayhew(10).toFixed(decimal));
+
+      $("#table-oconnor-rm1").text(r.getOconnor(1).toFixed(decimal));
+      $("#table-oconnor-rm3").text(r.getOconnor(3).toFixed(decimal));
+      $("#table-oconnor-rm5").text(r.getOconnor(5).toFixed(decimal));
+      $("#table-oconnor-rm8").text(r.getOconnor(8).toFixed(decimal));
+      $("#table-oconnor-rm10").text(r.getOconnor(10).toFixed(decimal));
+
+      $("#table-wathan-rm1").text(r.getWathan(1).toFixed(decimal));
+      $("#table-wathan-rm3").text(r.getWathan(3).toFixed(decimal));
+      $("#table-wathan-rm5").text(r.getWathan(5).toFixed(decimal));
+      $("#table-wathan-rm8").text(r.getWathan(8).toFixed(decimal));
+      $("#table-wathan-rm10").text(r.getWathan(10).toFixed(decimal));
+
+      $("#table-wendler-rm1").text(r.getWendler(1).toFixed(decimal));
+      $("#table-wendler-rm3").text(r.getWendler(3).toFixed(decimal));
+      $("#table-wendler-rm5").text(r.getWendler(5).toFixed(decimal));
+      $("#table-wendler-rm8").text(r.getWendler(8).toFixed(decimal));
+      $("#table-wendler-rm10").text(r.getWendler(10).toFixed(decimal));
+
+      $("#table-avg-rm1").text(r.getAverage(1).toFixed(decimal));
+      $("#table-avg-rm3").text(r.getAverage(3).toFixed(decimal));
+      $("#table-avg-rm5").text(r.getAverage(5).toFixed(decimal));
+      $("#table-avg-rm8").text(r.getAverage(8).toFixed(decimal));
+      $("#table-avg-rm10").text(r.getAverage(10).toFixed(decimal));
+    });
+
+    $("#table_maxhr_age").change(function() {
+      console.log('Ready to calculate');
+      let age = Number($("#table_maxhr_age").val());
 
       let tanaka = maxhr.EstimateMaxHr(age, 'tanaka');
       $("#maxhr_tanaka").text(tanaka.getMaxHr().toFixed(0));
@@ -146,6 +296,8 @@ $(function() {
 
       let londeree_moeschberger = maxhr.EstimateMaxHr(age, 'londeree_moeschberger');
       $("#maxhr_londeree_moeschberger").text(londeree_moeschberger.getMaxHr().toFixed(0));
+      $("#maxhr_average").text(londeree_moeschberger.getAverage().toFixed(0));
+
     });
 
     $("#maxhr_age_men_women").change(function() {
@@ -316,136 +468,52 @@ $(function() {
         console.log("Calculate 1RM");
         e.preventDefault();
 
-      let repmax;
-      let formula = $("#form-formula").val();
-      let decimals = 1;
+        let formula = $("#form-formula").val();
+        let decimals = 1;
 
-      let reps = Number($("#form-reps").val());
-      let weight = Number($("#form-weight").val());
-      let bodypart = $("#form-bodypart").val();
+        let reps = Number($("#form-reps").val());
+        let weight = Number($("#form-weight").val());
+        let body_part = $("#form-bodypart").val();
 
-      let r = rm.Estimate1RM(weight, reps);
+        let r = rm.Estimate1RM(weight, reps, formula, body_part);
 
-        if (formula == "brzycki") {
-            repmax = r.getBrzycki();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getBrzycki(2).toFixed(decimals));
-            $("#rm3").val(r.getBrzycki(3).toFixed(decimals));
-            $("#rm4").val(r.getBrzycki(4).toFixed(decimals));
-            $("#rm5").val(r.getBrzycki(5).toFixed(decimals));
-            $("#rm6").val(r.getBrzycki(6).toFixed(decimals));
-            $("#rm8").val(r.getBrzycki(8).toFixed(decimals));
-            $("#rm10").val(r.getBrzycki(10).toFixed(decimals));
-            $("#rm12").val(r.getBrzycki(12).toFixed(decimals));
-            $("#rm15").val(r.getBrzycki(15).toFixed(decimals));
-        } else if (formula == "reynolds") {
-            repmax = r.getReynolds();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getReynolds(bodypart, 2).toFixed(decimals));
-            $("#rm3").val(r.getReynolds(bodypart, 3).toFixed(decimals));
-            $("#rm4").val(r.getReynolds(bodypart, 4).toFixed(decimals));
-            $("#rm5").val(r.getReynolds(bodypart, 5).toFixed(decimals));
-            $("#rm6").val(r.getReynolds(bodypart, 6).toFixed(decimals));
-            $("#rm8").val(r.getReynolds(bodypart, 8).toFixed(decimals));
-            $("#rm10").val(r.getReynolds(bodypart, 10).toFixed(decimals));
-            $("#rm12").val(r.getReynolds(bodypart, 12).toFixed(decimals));
-            $("#rm15").val(r.getReynolds(bodypart, 15).toFixed(decimals));
-        } else if (formula == "epley") {
-            repmax = r.getEpley();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getEpley(2).toFixed(decimals));
-            $("#rm3").val(r.getEpley(3).toFixed(decimals));
-            $("#rm4").val(r.getEpley(4).toFixed(decimals));
-            $("#rm5").val(r.getEpley(5).toFixed(decimals));
-            $("#rm6").val(r.getEpley(6).toFixed(decimals));
-            $("#rm8").val(r.getEpley(8).toFixed(decimals));
-            $("#rm10").val(r.getEpley(10).toFixed(decimals));
-            $("#rm12").val(r.getEpley(12).toFixed(decimals));
-            $("#rm15").val(r.getEpley(15).toFixed(decimals));
-        } else if (formula == "lander") {
-            repmax = r.getLander();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getLander(2).toFixed(decimals));
-            $("#rm3").val(r.getLander(3).toFixed(decimals));
-            $("#rm4").val(r.getLander(4).toFixed(decimals));
-            $("#rm5").val(r.getLander(5).toFixed(decimals));
-            $("#rm6").val(r.getLander(6).toFixed(decimals));
-            $("#rm8").val(r.getLander(8).toFixed(decimals));
-            $("#rm10").val(r.getLander(10).toFixed(decimals));
-            $("#rm12").val(r.getLander(12).toFixed(decimals));
-            $("#rm15").val(r.getLander(15).toFixed(decimals));
-        } else if (formula == "lombardi") {
-            repmax = r.getLombardi();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getLombardi(2).toFixed(decimals));
-            $("#rm3").val(r.getLombardi(3).toFixed(decimals));
-            $("#rm4").val(r.getLombardi(4).toFixed(decimals));
-            $("#rm5").val(r.getLombardi(5).toFixed(decimals));
-            $("#rm6").val(r.getLombardi(6).toFixed(decimals));
-            $("#rm8").val(r.getLombardi(8).toFixed(decimals));
-            $("#rm10").val(r.getLombardi(10).toFixed(decimals));
-            $("#rm12").val(r.getLombardi(12).toFixed(decimals));
-            $("#rm15").val(r.getLombardi(15).toFixed(decimals));
-        } else if (formula == "mayhew") {
-            repmax = r.getMayhew();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getMayhew(2).toFixed(decimals));
-            $("#rm3").val(r.getMayhew(3).toFixed(decimals));
-            $("#rm4").val(r.getMayhew(4).toFixed(decimals));
-            $("#rm5").val(r.getMayhew(5).toFixed(decimals));
-            $("#rm6").val(r.getMayhew(6).toFixed(decimals));
-            $("#rm8").val(r.getMayhew(8).toFixed(decimals));
-            $("#rm10").val(r.getMayhew(10).toFixed(decimals));
-            $("#rm12").val(r.getMayhew(12).toFixed(decimals));
-            $("#rm15").val(r.getMayhew(15).toFixed(decimals));
-        } else if (formula == "oconnor") {
-            repmax = r.getOconnor();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getOconnor(2).toFixed(decimals));
-            $("#rm3").val(r.getOconnor(3).toFixed(decimals));
-            $("#rm4").val(r.getOconnor(4).toFixed(decimals));
-            $("#rm5").val(r.getOconnor(5).toFixed(decimals));
-            $("#rm6").val(r.getOconnor(6).toFixed(decimals));
-            $("#rm8").val(r.getOconnor(8).toFixed(decimals));
-            $("#rm10").val(r.getOconnor(10).toFixed(decimals));
-            $("#rm12").val(r.getOconnor(12).toFixed(decimals));
-            $("#rm15").val(r.getOconnor(15).toFixed(decimals));
-        } else if (formula == "wathan") {
-            repmax = r.getWathan();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getWathan(2).toFixed(decimals));
-            $("#rm3").val(r.getWathan(3).toFixed(decimals));
-            $("#rm4").val(r.getWathan(4).toFixed(decimals));
-            $("#rm5").val(r.getWathan(5).toFixed(decimals));
-            $("#rm6").val(r.getWathan(6).toFixed(decimals));
-            $("#rm8").val(r.getWathan(8).toFixed(decimals));
-            $("#rm10").val(r.getWathan(10).toFixed(decimals));
-            $("#rm12").val(r.getWathan(12).toFixed(decimals));
-            $("#rm15").val(r.getWathan(15).toFixed(decimals));
-        } else if (formula == "wendler") {
-            repmax = r.getWendler();
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getWendler(2).toFixed(decimals));
-            $("#rm3").val(r.getWendler(3).toFixed(decimals));
-            $("#rm4").val(r.getWendler(4).toFixed(decimals));
-            $("#rm5").val(r.getWendler(5).toFixed(decimals));
-            $("#rm6").val(r.getWendler(6).toFixed(decimals));
-            $("#rm8").val(r.getWendler(8).toFixed(decimals));
-            $("#rm10").val(r.getWendler(10).toFixed(decimals));
-            $("#rm12").val(r.getWendler(12).toFixed(decimals));
-            $("#rm15").val(r.getWendler(15).toFixed(decimals));
-        }
+        let repmax = r.getRepMax(1);
 
-        $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(decimals));
-        $("#p95").val(r.getPercentOfRm(repmax, 95).toFixed(decimals));
-        $("#p90").val(r.getPercentOfRm(repmax, 90).toFixed(decimals));
-        $("#p85").val(r.getPercentOfRm(repmax, 85).toFixed(decimals));
-        $("#p80").val(r.getPercentOfRm(repmax, 80).toFixed(decimals));
-        $("#p75").val(r.getPercentOfRm(repmax, 75).toFixed(decimals));
-        $("#p70").val(r.getPercentOfRm(repmax, 70).toFixed(decimals));
-        $("#p60").val(r.getPercentOfRm(repmax, 60).toFixed(decimals));
-        $("#p50").val(r.getPercentOfRm(repmax, 50).toFixed(decimals));
-        $("#p40").val(r.getPercentOfRm(repmax, 40).toFixed(decimals));
+        $("#formula-1rm-table").text($("#form-formula option:selected").text().split(" (").shift());
+        $("#formula-1rm-table-caption").text($("#form-formula option:selected").text().split(" (").shift());
+
+        $("#rm1").val(r.getRepMax(1).toFixed(decimals));
+        $("#rm2").val(r.getRepMax(2).toFixed(decimals));
+        $("#rm3").val(r.getRepMax(3).toFixed(decimals));
+        $("#rm4").val(r.getRepMax(4).toFixed(decimals));
+        $("#rm5").val(r.getRepMax(5).toFixed(decimals));
+        $("#rm6").val(r.getRepMax(6).toFixed(decimals));
+        $("#rm8").val(r.getRepMax(8).toFixed(decimals));
+        $("#rm10").val(r.getRepMax(10).toFixed(decimals));
+        $("#rm12").val(r.getRepMax(12).toFixed(decimals));
+        $("#rm15").val(r.getRepMax(15).toFixed(decimals));
+
+        $("#rm1avg").val(r.getAverage(1).toFixed(decimals));
+        $("#rm2avg").val(r.getAverage(2).toFixed(decimals));
+        $("#rm3avg").val(r.getAverage(3).toFixed(decimals));
+        $("#rm4avg").val(r.getAverage(4).toFixed(decimals));
+        $("#rm5avg").val(r.getAverage(5).toFixed(decimals));
+        $("#rm6avg").val(r.getAverage(6).toFixed(decimals));
+        $("#rm8avg").val(r.getAverage(8).toFixed(decimals));
+        $("#rm10avg").val(r.getAverage(10).toFixed(decimals));
+        $("#rm12avg").val(r.getAverage(12).toFixed(decimals));
+        $("#rm15avg").val(r.getAverage(15).toFixed(decimals));
+
+        $("#p1").val((r.getRepMax(1) / repmax * 100).toFixed(1));
+        $("#p2").val((r.getRepMax(2) / repmax * 100).toFixed(1));
+        $("#p3").val((r.getRepMax(3) / repmax * 100).toFixed(1));
+        $("#p4").val((r.getRepMax(4) / repmax * 100).toFixed(1));
+        $("#p5").val((r.getRepMax(5) / repmax * 100).toFixed(1));
+        $("#p6").val((r.getRepMax(6) / repmax * 100).toFixed(1));
+        $("#p8").val((r.getRepMax(8) / repmax * 100).toFixed(1));
+        $("#p10").val((r.getRepMax(10) / repmax * 100).toFixed(1));
+        $("#p12").val((r.getRepMax(12) / repmax * 100).toFixed(1));
+        $("#p15").val((r.getRepMax(15) / repmax * 100).toFixed(1));
     });
     $("#calculator_ftp").submit(function(e) {
         console.log("Calculate FTP");

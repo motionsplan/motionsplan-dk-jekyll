@@ -1,0 +1,122 @@
+<form class="calculator">
+    <fieldset>
+        <div class="form-group">
+            <label>Antal reps
+                <input type="number" value="5" min="1" max="15" id="table-1rm-reps" name="reps" placeholder="fx 5" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" value="50" min="10" max="600" name="weight" id="table-1rm-weight" placeholder="fx 50" step="0.1" required>
+            </label>
+        </div>
+      </fieldset>
+      <fieldset class="results">    
+<table width="100%">
+    <caption>Sammenligning af 1RM-værdier med forskellige formler</caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th>1 RM</th>
+            <th>3 RM</th>
+            <th>5 RM</th>
+            <th>8 RM</th>
+            <th>10 RM</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Brzycki</td>
+            <td id="table-brzcki-rm1">56,3</td>
+            <td id="table-brzcki-rm3">53,1</td>
+            <td id="table-brzcki-rm5">50,0</td>
+            <td id="table-brzcki-rm8">45,3</td>
+            <td id="table-brzcki-rm10">42,2</td>
+        </tr>
+        <tr>
+            <td>Reynolds (overkrop)</td>
+            <td id="table-reynolds-upper-rm1">57,4</td>
+            <td id="table-reynolds-upper-rm3">53,5</td>
+            <td id="table-reynolds-upper-rm5">50,0</td>
+            <td id="table-reynolds-upper-rm8">45,7</td>
+            <td id="table-reynolds-upper-rm10">43,3</td>
+        </tr>
+        <tr>
+            <td>Reynolds (underkrop)</td>
+            <td id="table-reynolds-lower-rm1">58,7</td>
+            <td id="table-reynolds-lower-rm3">54,2</td>
+            <td id="table-reynolds-lower-rm5">50,0</td>
+            <td id="table-reynolds-lower-rm8">44,6</td>
+            <td id="table-reynolds-lower-rm10">41,5</td>
+        </tr>
+        <tr>
+            <td>Epley</td>
+            <td id="table-epley-rm1">58,3</td>
+            <td id="table-epley-rm3">54,2</td>
+            <td id="table-epley-rm5">50,0</td>
+            <td id="table-epley-rm8">46,1</td>
+            <td id="table-epley-rm10">43,8</td>
+        </tr>
+        <tr>
+            <td>Lander</td>
+            <td id="table-lander-rm1">56,9</td>
+            <td id="table-lander-rm3">53,0</td>
+            <td id="table-lander-rm5">50,0</td>
+            <td id="table-lander-rm8">45,4</td>
+            <td id="table-lander-rm10">42,4</td>
+        </tr>
+        <tr>
+            <td>Lombardi</td>
+            <td id="table-lombardi-rm1">58,7</td>
+            <td id="table-lombardi-rm3">52,6</td>
+            <td id="table-lombardi-rm5">50,0</td>
+            <td id="table-lombardi-rm8">47,7</td>
+            <td id="table-lombardi-rm10">46,7</td>
+        </tr>
+        <tr>
+            <td>Mayhew</td>
+            <td id="table-mayhew-rm1">59,5</td>
+            <td id="table-mayhew-rm3">52,2</td>
+            <td id="table-mayhew-rm5">50,0</td>
+            <td id="table-mayhew-rm8">47,1</td>
+            <td id="table-mayhew-rm10">45,4</td>
+        </tr>
+        <tr>
+            <td>O'Connor</td>
+            <td id="table-oconnor-rm1">56,3</td>
+            <td id="table-oconnor-rm3">52,3</td>
+            <td id="table-oconnor-rm5">50,0</td>
+            <td id="table-oconnor-rm8">46,9</td>
+            <td id="table-oconnor-rm10">45,0</td>
+        </tr>
+        <tr>
+            <td>Wathan</td>
+            <td id="table-wathan-rm1">58,3</td>
+            <td id="table-wathan-rm3">53,5</td>
+            <td id="table-wathan-rm5">50,0</td>
+            <td id="table-wathan-rm8">45,7</td>
+            <td id="table-wathan-rm10">43,3</td>
+        </tr>
+        <tr>
+            <td>Wendler</td>
+            <td id="table-wendler-rm1">58,3</td>
+            <td id="table-wendler-rm3">53,0</td>
+            <td id="table-wendler-rm5">50,0</td>
+            <td id="table-wendler-rm8">46,1</td>
+            <td id="table-wendler-rm10">43,8</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td><strong>Gns. alle</strong></td>
+            <td id="table-avg-rm1">57,9</td>
+            <td id="table-avg-rm3">52,7</td>
+            <td id="table-avg-rm5">50,0</td>
+            <td id="table-avg-rm8">46,3</td>
+            <td id="table-avg-rm10">44,1</td>
+        </tr>
+    </tfoot>
+</table>
+</fieldset>
+{% include calculator/calculator-footer.html %}
+</form>

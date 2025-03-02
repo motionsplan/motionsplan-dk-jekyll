@@ -101,8 +101,15 @@ motionsplan.EstimateMaxHr = function(age, formula = "tanaka") {
     return 206 - 0.88 * age;
   }
 
+  function getAverage() {
+    let no_formulas = 10;
+    let total = getGulati() + getGellish() + getLondereeMoeschberger() + getGellishLinear() + getInbar() + getFox() + getAastrand() + getArena() + getTanaka() + getNes();
+    return total / no_formulas;
+  }
+
   let publicAPI = {
-    getMaxHr : getMaxHr
+    getMaxHr : getMaxHr,
+    getAverage : getAverage
   };
 
   return publicAPI;

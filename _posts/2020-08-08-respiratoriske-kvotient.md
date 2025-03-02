@@ -12,7 +12,7 @@ header:
 category:
   - Fysiologi
 tags:
-  - begreber
+  - begreb
   - forbrænding
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788777497162/0x500
