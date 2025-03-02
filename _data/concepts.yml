@@ -90,13 +90,13 @@ maxpuls:
   faq_title: ❤️ Hvad er maxpuls?
   excerpt: "Maxpuls er det højeste antal slag, dit hjerte kan slå per minut. Det er en afgørende faktor for pulstræning og bruges til at bestemme dine træningszoner. 💪🔥"
   btn_label: "Find din maxpuls"
-  url: "/maxpuls/"
+  url: "/test-max-puls/"
   variations:
     - title: "❤️ Maxpuls – Hvor hurtigt kan dit hjerte slå?"
       excerpt: "Din maxpuls er genetisk bestemt og falder med alderen. Den er vigtig for at beregne dine træningszoner og optimere din kondition. 📈"
       btn_label: "Lær om maxpuls"
-      url: "/maxpuls/"
+      url: "/test-max-puls/"
     - title: "❤️ Maksimale puls"
       excerpt: "Din maksimale puls er primært genetisk bestemt og falder med alderen. Maxpulsen kan være anvendelig til at beregne individuelle træningszoner. 📈"
       btn_label: "Lær om maxpuls"
-      url: "/maxpuls/"
+      url: "/test-max-puls/"
