@@ -4,7 +4,7 @@ permalink: /traeningszoner/
 excerpt: "Vil du gerne optimere din træning? Ved konditionstræning kan det være gavnligt at træne i forskellige træningszoner. Lær alt om de forskellige intensitetszoner og deres formål."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:

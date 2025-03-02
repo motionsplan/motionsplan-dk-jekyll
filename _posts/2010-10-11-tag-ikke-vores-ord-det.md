@@ -8,7 +8,7 @@ redirect_from:
   - /artikel/hvordan-kan-du-laese-en-videnskabelig-artikel/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:

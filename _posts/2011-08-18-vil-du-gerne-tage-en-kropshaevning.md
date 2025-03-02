@@ -8,7 +8,7 @@ redirect_from:
   - /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Kropshævninger: Hvordan lærer jeg at lave pullups og chinups?"
 tags:

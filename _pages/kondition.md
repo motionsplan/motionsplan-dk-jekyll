@@ -4,7 +4,7 @@ permalink: /kondition/
 title: &title "Kondition: Alt om hvordan den trænes og måles"
 excerpt: "Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om du er i god form?"
 header:
-  overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1529662795444-4a44b7a29db1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
   caption: *title
 feature_row_energysystems:
   - image_path: https://images.unsplash.com/photo-1526676317768-d9b14f15615a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
@@ -64,13 +64,16 @@ Kondition forbinder man ofte med det at være i form. Når man laver udholdenhed
 
 Konditionen har stor betydning for din sundhed. Når hjertets evne til at pumpe blod rundt i kroppen forbedres, og musklerne bliver bedre til at optage ilt fra blodet og bruge ilten, så fungerer din krop også bedre.
 
+Læs: [Konditionstests: Test din kondition og dit kondital](/kondition/tests/)
+{: .notice }
+
 ## Hvad er kondition?
 
 Kondition er et udtryk for kroppens evne til at arbejde med aerobe processer og måles som den maksimale iltoptagelse. Din kondition kan således blive både dårligere eller bedre alt efter, hvad du laver for at træne dine energisystemer.
 
 ## Hvordan kan jeg måle min kondition?
 
-Du måler altså din kondition ved at måle den maksimale iltoptagelse.
+Du måler altså din kondition ved at finde den maksimale iltoptagelse.
 
 Da iltoptagelsen er højere jo større du er, fordi en større krop skal bruge mere ilt, så kan du normalisere iltoptagelsen ved at dele med kropsvægten. Det giver dit [dit kondital](/kondital/).
 
@@ -83,9 +86,6 @@ Der findes rigtig mange forskellige måder at teste sin kondition og sit kondita
 Vi har beskrevet mange flere testmuligheder i nedenstående indlæg.
 
 {% include feature_row id="feature_row_tests" type="left" %}
-
-Læs: [Konditionstests: Test din kondition og dit kondital](/kondition/tests/)
-{: .notice }
 
 ## Beregn kondital
 

@@ -4,7 +4,7 @@ permalink: /dup/
 excerpt: "I Daily Undulating Periodization vælges basisøvelser, som man gennem ugen arbejder med tre gange med forskelligt antal sæt og gentagelser - for at træne power, styrke og hypertrofi."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Andrew Tanglao on Unsplash

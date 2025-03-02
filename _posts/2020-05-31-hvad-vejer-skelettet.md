@@ -5,7 +5,7 @@ description: Hvad vejer knoglerne og skelettet egentlig? Her får du en guide ti
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Hvad vejer menneskets skelet og vores knogler?"
   alt: "Photo by Mathew Schwartz on Unsplash"

@@ -6,7 +6,7 @@ description: "Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes h
 excerpt: "Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan du tester og forbedrer din tærskel for bedre præstation og udholdenhed."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "4 mmol-grænsen: Hvad er den anaerobe tærskel og mælkesyregrænsen?"
 category:

@@ -33,57 +33,53 @@ kondital:
   btn_label: "Lær om kondital"
   url: "/kondital/"
   variations:
-    - title: "💨 Kondital (din maksimale iltoptagelse i forhold til din kropsvægt)"
+    - title: "💨 Kondital (VO₂max ift. din kropsvægt)"
       excerpt: "Kondital er et mål for din aerobe kondition og angiver, hvor meget ilt din krop kan optage og forbruge pr. minut pr. kilo kropsvægt (ml O₂/kg/min). Et højere kondital betyder bedre udholdenhed og præstation. 💨🏃‍♂️"
       btn_label: "Lær om kondital"
       url: "/kondital/"
 lt1:
   type: kondition
   category: Laktattærskler
-  title: "🔥 LT1 (Aerob tærskel – skiftet til mere laktatproduktion)"
+  title: "🔥 Aerob tærskel (LT1 eller AeT)"
   faq_title: 🔥 Hvad er den aerobe tærskel?
-  excerpt: "Den aerobe tærskel (LT1) markerer det punkt, hvor din krop begynder at producere mere laktat, men stadig kan bortskaffe det effektivt. Træning under LT1 forbedrer fedtforbrænding og udholdenhed. 🏃🔥"
+  excerpt: "Den aerobe tærskel (LT1) markerer det punkt lige før din krop begynder at producere mere laktat end den enkelte muskelfiber selv kan bruge, men det kan stadig bortskaffes effektivt andre steder i kroppen. Træning under LT1 forbedrer fedtforbrænding og udholdenhed. 🏃🔥"
   btn_label: "Lær om LT1"
   url: "/aerobe-taerskel/"
   variations:
-    - title: "🔥  LT1 – den aerobe tærskel"
+    - title: "🔥 Den aerobe tærskel (LT1 eller AeT)"
       btn_label: "Forstå LT1"
       url: "/aerobe-taerskel/"
-    - title: "🔥 LT1 – nøglen til bedre udholdenhed"
-      excerpt: "LT1 definerer din aerobe kapacitet – jo højere den er, desto bedre kan du præstere uden at ophobe for meget laktat. En vigtig zone for maratonløbere og cykelryttere! 🚴‍♂️"
+    - title: "🔥 LT1 - Den aerobe tærskel (AeT)"
+      excerpt: "LT1 definerer din aerobe kapacitet - ved dette punkt kan den enkelte muskelfiber stadig bruge det producerede laktat. 🚴‍♂️"
       btn_label: "Læs om LT1"
       url: "/aerobe-taerskel/"
 lt2:
   type: kondition
   category: Laktattærskler
-  title: "⚡ LT2 (Anaerob tærskel – grænsen for laktattolerance)"
+  title: "⚡ LT2 (Anaerob tærskel)"
   faq_title: ⚡ Hvad er den anaerobe tærskel?
-  excerpt: "Den anaerobe tærskel (LT2) markerer grænsen, hvor laktat ophobes hurtigere, end kroppen kan bortskaffe det. Træning over LT2 forbedrer din højintensive præstationsevne. 💪🔥"
+  excerpt: "Den anaerobe tærskel (LT2) markerer grænsen, hvor laktat produceres hurtigere, end kroppen kan bortskaffe det. 💪🔥"
   btn_label: "Lær om LT2"
   url: "/anaerobe-taerskel/"
   variations:
-    - title: "⚡ LT2 – den anaerobe tærskel"
+    - title: "⚡ Den anaerobe tærskel (LT2 eller AnT)"
       excerpt: "LT2 er den maksimale intensitet, hvor kroppen stadig kan balancere laktatniveauet. Over dette punkt stiger laktat hurtigt, og træthed sætter hurtigt ind. ⚡"
       btn_label: "Forstå LT2"
-      url: "/anaerobe-taerskel/"
-    - title: "⚡ LT2 – grænsen for højintensiv træning"
-      excerpt: "LT2 definerer din evne til at arbejde hårdt i længere tid. Når du forbedrer LT2, kan du presse dig selv hårdere uden at ramme muren. 🏋️‍♂️"
-      btn_label: "Læs om LT2"
       url: "/anaerobe-taerskel/"
 løbeøkonomi:
   type: kondition
   category: Løbepræstation
-  title: "🏃‍♂️ Løbeøkonomi – Brug mindre energi, løb hurtigere"
+  title: "🏃‍♂️ Løbeøkonomi"
   faq_title: 🏃‍♂️ Hvad er løbeøkonomi?
   excerpt: "Løbeøkonomi beskriver, hvor effektivt din krop bruger ilt ved en given hastighed. Jo bedre løbeøkonomi, jo mindre energi bruger du til at løbe i samme tempo. 🔥"
   btn_label: "Forbedr din løbeøkonomi"
   url: "/lobeokonomi/"
   variations:
-    - title: "🏃‍♂️ Løbeøkonomi – løb længere med mindre energi"
+    - title: "🏃‍♂️ Løbeøkonomi"
       excerpt: "Løbeøkonomi er din evne til at løbe effektivt. En god løbeøkonomi betyder lavere iltforbrug og mindre træthed ved samme tempo. 💨"
       btn_label: "Lær om løbeøkonomi"
       url: "/lobeokonomi/"
-    - title: "🏃‍♂️ Løbeøkonomi – hemmeligheden bag hurtigere tider"
+    - title: "🏃‍♂️ Løbeøkonomi"
       excerpt: "Løbeøkonomi handler om, hvor meget energi din krop bruger til at bevæge sig fremad. Bedre teknik og træning kan reducere dit energiforbrug. ⚡"
       btn_label: "Læs om løbeøkonomi"
       url: "/lobeokonomi/"
@@ -100,7 +96,7 @@ maxpuls:
       excerpt: "Din maxpuls er genetisk bestemt og falder med alderen. Den er vigtig for at beregne dine træningszoner og optimere din kondition. 📈"
       btn_label: "Lær om maxpuls"
       url: "/maxpuls/"
-    - title: "❤️ Maxpuls – Nøglen til effektiv pulstræning"
-      excerpt: "Ved at kende din maxpuls kan du træne smartere og forbedre din udholdenhed. Find ud af, hvordan du tester og beregner den. ⚡"
-      btn_label: "Læs om maxpuls"
+    - title: "❤️ Maksimale puls"
+      excerpt: "Din maksimale puls er primært genetisk bestemt og falder med alderen. Maxpulsen kan være anvendelig til at beregne individuelle træningszoner. 📈"
+      btn_label: "Lær om maxpuls"
       url: "/maxpuls/"

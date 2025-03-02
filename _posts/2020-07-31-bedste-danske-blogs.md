@@ -7,7 +7,7 @@ redirect_from:
 last_modified_at: 2023-01-01T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Bedste fitness blogs og træningsblogs fra danske bloggere"
 category:

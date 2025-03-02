@@ -6,7 +6,7 @@ description: Vil du gerne kende din fedtprocent? Beregn din fedtprocent på bagg
 excerpt: Beregn din fedtprocent med en udregning baseret på køn, alder, højde og vægt i denne
   fedtprocent beregner for mænd og kvinder. Avanceret beregner med forskellige fedtprocent formler.
 header:
-  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   caption: Beregn din fedtprocent ud fra højde og vægt.
   alt: Photo by i yunmai on Unsplash
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10

@@ -4,7 +4,7 @@ seo_title: "Løbebøger: 9 bøger om løb du skal have læst (2025)"
 permalink: /loebeboeger-boeger-om-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1594882645126-14020914d58d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1594882645126-14020914d58d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1594882645126-14020914d58d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:

@@ -5,7 +5,7 @@ description: "Er du interesseret i at kende din fedtprocent? Få viden om alle m
 permalink: /maal-fedtprocent/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1611077544170-be90a2f68add?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1611077544170-be90a2f68add?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1611077544170-be90a2f68add?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.6
   caption: "7 metoder til at måling af din fedtprocent"

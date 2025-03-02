@@ -3,7 +3,7 @@ title: &title "Træning 40+: Hvordan kan min træning se ud efter de 40 år"
 permalink: /traening-40-plus/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   alt: Photo by Taco Fleur on Unsplash
   caption: *title

@@ -5,7 +5,7 @@ permalink: /intervallob-intervaltraening/
 excerpt: "Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   overlay_filter: 0.4
   caption: "Intervalløb: 10 effektive metoder til intervaltræning til løb"

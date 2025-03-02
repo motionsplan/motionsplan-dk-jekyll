@@ -5,7 +5,7 @@ description: "Vil du finde kondital for børn og unge? Download skema og beregne
 permalink: /andersen-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:

@@ -4,12 +4,14 @@ permalink: /kondition/tests/
 title: &title "Konditionstests - mål din kondition"
 seo_title: "Konditionstests: 10+ tests af din kondition og VO2max"
 excerpt: "Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre din form."
+category:
+  - Kondition
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=10
+  overlay_image: https://images.unsplash.com/photo-1709601414405-db08d323a87a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-download'></i> Se alle konditionstests"
+    - label: "<i class='fas fa-download'></i> Gå til oversigten"
       url: "/kondition/tests/#oversigt-over-konditionstests"
 classes: wide
 feature_row_about_tests:
