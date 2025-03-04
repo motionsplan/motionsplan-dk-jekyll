@@ -1,0 +1,2618 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.motionsplan.dk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.motionsplan.dk/" rel="alternate" type="text/html" /><updated>2025-03-04T18:03:22+00:00</updated><id>https://www.motionsplan.dk/feed.xml</id><title type="html">Motionsplan</title><subtitle>Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.</subtitle><author><name>Motionsplan</name></author><entry><title type="html">Queens College Step Test – Standardiseret konditionstest (QCST)</title><link href="https://www.motionsplan.dk/queens-college-step-test/" rel="alternate" type="text/html" title="Queens College Step Test – Standardiseret konditionstest (QCST)" /><published>2025-03-03T00:00:00+00:00</published><updated>2025-03-03T23:14:14+00:00</updated><id>https://www.motionsplan.dk/step-test-queens-college</id><content type="html" xml:base="https://www.motionsplan.dk/queens-college-step-test/"><![CDATA[<p>Queens College Step Test er en simpel og effektiv metode til at vurdere din kardiovaskulære kondition. Ved at følge denne test kan du få et hurtigt mål for din kondition, baseret på din puls efter testen.</p>
+
+<p>Hvis du synes boksen på 41 centimer er lidt for høj, så kan du vælge <a href="/ymca-3-minutters-steptest/">YMCA steptest</a> med en boks på 30 centimeter, eller den <a href="/ymca-modified-steptest/">modificerede YMCA-steptest</a>, hvor boksen udregnes efter din højde.</p>
+
+<h2 id="sådan-udfører-du-queens-college-step-test">Sådan udfører du Queens College Step Test</h2>
+
+<ol>
+  <li>
+    <p><strong>Forberedelse</strong><br />
+Find en skammel, der er 41,3 cm høj. Du skal bruge en metronom, der er indstillet på 96 taktslag pr. minut. Hvis du ikke har en metronom, kan du bruge en af de mange metronom-apps, der findes til smartphones.</p>
+  </li>
+  <li><strong>Start testen</strong>
+    <ul>
+      <li>Start metronomen og indstil den til 96 taktslag pr. minut.</li>
+      <li>Start timeren på 3 minutter.</li>
+      <li>Begynd at træde op og ned på skamlen i takt med metronomen i 3 minutter.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Mål din puls</strong><br />
+Når de 3 minutter er gået, skal du straks sætte dig ned og måle din puls i ét minut. Det er vigtigt, at du tager din puls hurtigt efter, at du har afsluttet testen for at få den korrekte måling.</p>
+  </li>
+  <li><strong>Beregn dit resultat</strong><br />
+Brug din pulsmåling til at beregne din kondition. Det er vigtigt, at du er opmærksom på din puls én minut efter testen for at få den korrekte score.</li>
+</ol>
+
+<h2 id="beregn-din-kondition">Beregn din kondition</h2>
+
+<p>Når du har målt din puls, kan du bruge vores beregner nedenfor til at estimere dit kondital baseret på din puls og testens varighed.</p>
+
+<form class="calculator" id="calculator_steptest_queens_college">
+    <fieldset>
+        <legend>Indtast dit resultat og få resultatet</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="sex" type="radio" value="male" required="" /> &#9794; Mand
+            </label>
+            <label class="radio">
+                <input name="sex" type="radio" value="female" /> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Puls (slag/min) - tæl i 60 sekunder
+                <input name="hr" type="number" min="20" max="200" placeholder="Puls i 60 sekunder" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Udregn" />
+    </fieldset>
+    <fieldset class="results" disabled="">
+        <legend>Resultat</legend>
+        <label>Kondital (ml O<sub>2</sub>/min/kg)
+            <input disabled="" name="fitness_level" type="text" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h3 id="find-ud-af-mere-om-steptests">Find ud af mere om steptests</h3>
+
+<p>Queens College Step Test er blot en af de mange steptests, der kan hjælpe dig med at vurdere din kondition. Hvis du er interesseret i at udforske flere steptests, kan du se vores <a href="/kondital-fra-steptest/">oversigt over steptests</a>.</p>
+
+<details class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Formula from ACSM’s Resources for the Personal Trainer, 3rd Edition 2010.</li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Tests&quot;, &quot;Kondition&quot;]" /><category term="konditionstest" /><category term="indirekte test" /><category term="test" /><category term="steptest" /><summary type="html"><![CDATA[Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine.]]></summary></entry><entry><title type="html">YMCA’s 3-minutters steptest – Enkel konditionstest</title><link href="https://www.motionsplan.dk/ymca-3-minutters-steptest/" rel="alternate" type="text/html" title="YMCA’s 3-minutters steptest – Enkel konditionstest" /><published>2025-03-03T00:00:00+00:00</published><updated>2025-03-03T23:14:14+00:00</updated><id>https://www.motionsplan.dk/step-test-ymca-3-minutes</id><content type="html" xml:base="https://www.motionsplan.dk/ymca-3-minutters-steptest/"><![CDATA[<p>YMCA’s 3-minutters steptest er en hurtig og effektiv metode til at vurdere hjerte-kar-konditionen. Testen består af tre minutters step-arbejde med efterfølgende pulsmåling, hvilket gør den nem at gennemføre for de fleste.</p>
+
+<p>Du har brug for en 30 centimeter høj boks og din telefon. Du skal også kunne holde balancen til at gå op og ned. Hvis du ikke kan gøre det sikkert uden at skulle støtte dig op af noget, så kan du overveje <a href="/gaatest/">Rockports 1,6 kilometer gangtest</a>.</p>
+
+<p>Der findes også en <a href="/ymca-modified-steptest/">modificeret udgave af YMCA-steptesten</a>, hvor du udregner højden på boksen før testen. Det virker mere retfærdigt end at alle skal op på samme boks. Se også <a href="/kondital-fra-steptest/">andre variationer af steptests</a>.</p>
+
+<h2 id="sådan-udfører-du-ymca-steptesten">Sådan udfører du YMCA steptesten</h2>
+
+<p>I 3-minutters steptesten skal du træde op og ned af en 30 cm høj skammel i et fast tempo med 96 taktslag pr. minut. For at holde det rette tempo under testen kan du følge videoen nedenfor fra <a href="https://www.whyiexercise.com/3-minute-step-test.html">Why I Exercise</a>, eller bruge en metronom og indstille din telefon til 96 taktslag pr. minut.</p>
+
+<p>Start metronomen, og sæt derefter en timer på din telefon til 3 minutter. Når du er klar, starter du timeren. Træd op og ned på skamlen i takt med metronomen, indtil de 3 minutter er gået.</p>
+
+<p>96 trin pr. minut i tre minutter giver i alt 288 trin op og ned. Hvis du følger det samme trinmønster under hele testen, vil du træde op rigtig. Det kan føles ujævnt i musklerne mod slutningen af testen.</p>
+
+<p>Du kan udligne dette ved at bruge en “tap step”-teknik. Denne metode, som vist til højre, gør det muligt at skifte det ben, der fører, mens du stadig holder trit med testens kadence.</p>
+
+<p>Når de tre minutter er gået, skal du straks sætte dig ned og måle din puls i ét minut. Din ét-minuts puls er din score.</p>
+
+<h2 id="følg-denne-video-guide-til-ymca-steptest">Følg denne video-guide til YMCA steptest</h2>
+
+<p>Denne YouTube-video fra Why I Exercise viser dig, hvordan du forbereder dig til testen, og inkluderer en step-test på en 3-minutters timer, sat til musik! Hvis du er klar til at starte testen, skal du gå til <a href="https://youtu.be/jvSnWWGtMvk?t=108">1:48-mærket</a>.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="jvSnWWGtMvk">
+      <meta itemprop="name" content="YMCA’s 3-minutters steptest – Enkel konditionstest" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/jvSnWWGtMvk/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-03-03T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/jvSnWWGtMvk" />
+      <meta itemprop="description" content="YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling." />
+      <a href="https://www.youtube.com/watch?v=jvSnWWGtMvk" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/jvSnWWGtMvk/hqdefault.jpg" loading="lazy" alt="video til YMCA’s 3-minutters steptest – Enkel konditionstest" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="beregn-dit-resultat">Beregn dit resultat</h2>
+
+<form class="calculator" id="calculator_steptest_ymca">
+    <fieldset>
+        <legend>Indtast dit resultat og få resultatet</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="sex" type="radio" value="male" required="" /> &#9794; Mand
+            </label>
+            <label class="radio">
+                <input name="sex" type="radio" value="female" /> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input name="age" type="number" min="20" max="200" placeholder="Alder i år" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Puls (slag/min) - tæl i 60 sekunder
+                <input name="hr" type="number" min="20" max="220" placeholder="Puls i 60 sekunder" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Udregn" />
+    </fieldset>
+    <fieldset class="results" disabled="">
+        <legend>Resultat</legend>
+        <label>Kondital (ml O<sub>2</sub>/min/kg)
+            <input disabled="" name="fitness_level" type="text" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="hvordan-virker-beregneren">Hvordan virker beregneren?</h2>
+
+<p>I beregneren bruger vi formler fra <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7171059/">Kieu et al (2020)</a>, som egentlig er lavet til koreanske og vietnamesiske voksne.</p>
+
+<p>Da gennemsnitshøjden i disse lande er lavere end gennemsnitshøjden i Europa, og højden på boksen er den samme, så kan man forestille sig, at lavere personer skal arbejde lidt hårdere for at komme op på kassen.</p>
+
+<p>Jeg har ikke kunne finde gode formler, der dækker andre grupper lige nu.</p>
+
+<h2 id="sådan-vurderer-du-testen">Sådan vurderer du testen?</h2>
+
+<p>Du kan vurdere dit resultat ved at udregne dit kondital. Men du kan også sammenligne med standardtabeller for YMCA-steptesten.</p>
+
+<p>Her bruger du dit 1-minuts puls som din score.</p>
+
+<p>Du kan så sammenligne med tabellerne for mænd og kvinder.</p>
+
+<figure class="half "><img src="https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-women.jpg.pagespeed.ic.ypA8zMp-Fx.webp" alt="" /><img src="https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-men.jpg.pagespeed.ic.Nt00qIrgK0.webp" alt="" />
+  
+    <figcaption>Tabeller for mænd og kvinder. Hvis du har en puls i det første minut efter testen på 95-111 for kvinder eller 88-102 for mænd, så er du over gennemsnittet. Ellers kan det være, at du skal have træningsskoene på.
+</figcaption>
+  
+</figure>
+
+<h2 id="styrker-og-begræsninger-for-testen">Styrker og begræsninger for testen</h2>
+
+<p>Steptesten er en nem, hurtig og effektiv måde at vurdere din kondition på. Testen tager kun 3 minutter, men resultaterne fra testen kan stadig sammenlignes nogenlunde med andre konditionstests. Testen har dokumenteret pålidelighed i forskningen og er derfor velegnet til gentagen brug.</p>
+
+<p>Du kan gentage testen efter 2-3 måneders træning, og få indblik i, hvor godt din træning har virket.</p>
+
+<p>Desværre findes der ikke rigtig robuste formler til at estimere konditallet ud fra testen. Der er kun to mindre studier, som har udviklet VO2 max-formler for unge voksne med gennemsnitlig kondition. Det kunne være godt med formler, som kunne dække flere målgrupper.</p>
+
+<p>Hvis du vil estimere din VO2 max uden at løbe, er <a href="/gaatest/">Rockport Walking Test</a> et godt alternativ. Hvis du kan løbe, er <a href="/cooper-test/">Cooper-testen</a> en yderst pålidelig mulighed.</p>
+
+<details class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
+
+  <ol>
+    <li>YMCA Fitness Testing and Assessment Manual, YMCA of the USA, Edition 4, 2000</li>
+    <li>Castro-Piñero J, Marin-Jimenez N, Fernandez-Santos JR, Martin-Acosta F, Segura-Jimenez V, Izquierdo-Gomez R, Ruiz JR, Cuenca-Garcia M. Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. J Clin Med. 2021 Aug 23;10(16):3743. doi: 10.3390/jcm10163743. PMID: 34442050; PMCID: PMC8397016.</li>
+    <li>Kieu NTV, Jung SJ, Shin SW, Jung HW, Jung ES, Won YH, Kim YG, Chae SW. The Validity of the YMCA 3-Minute Step Test for Estimating Maximal Oxygen Uptake in Healthy Korean and Vietnamese Adults. J Lifestyle Med. 2020 Jan 31;10(1):21-29. doi: 10.15280/jlm.2020.10.1.21. PMID: 32328445; PMCID: PMC7171059.</li>
+    <li>Bohannon RW, Bubela DJ, Wang YC, Magasi SS, Gershon RC. Six-Minute Walk Test Vs. Three-Minute Step Test for Measuring Functional Endurance. J Strength Cond Res. 2015 Nov;29(11):3240-4. doi: 10.1519/JSC.0000000000000253. PMID: 24077375; PMCID: PMC4004706.</li>
+  </ol>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Tests&quot;, &quot;Kondition&quot;]" /><category term="konditionstest" /><category term="indirekte test" /><category term="test" /><category term="steptest" /><category term="testberegner" /><summary type="html"><![CDATA[YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling.]]></summary></entry><entry><title type="html">YMCA Modified steptest – Individualiseret test</title><link href="https://www.motionsplan.dk/ymca-modified-steptest/" rel="alternate" type="text/html" title="YMCA Modified steptest – Individualiseret test" /><published>2025-03-03T00:00:00+00:00</published><updated>2025-03-03T23:14:14+00:00</updated><id>https://www.motionsplan.dk/step-test-ymca-modified</id><content type="html" xml:base="https://www.motionsplan.dk/ymca-modified-steptest/"><![CDATA[<p>YMCA’s modified 3-minutters steptest ligner den originale <a href="/ymca-3-minutters-steptest/">YMCA steptest</a>. I tre minutter træder du op og ned af en boks, og efterfølgende teager du din puls. Her udregner du højden på boksen ud fra din højde.</p>
+
+<p>Den modificerede 3-minutters steptest kan bruges til at estimere konditallet ().</p>
+
+<p>Du kan også se andre <a href="/kondital-fra-steptest/">variationer af steptests</a>.</p>
+
+<h2 id="sådan-udføres-testen">Sådan udføres testen</h2>
+
+<ol>
+  <li>Beregn stephøjden med vores beregner nedenfor.</li>
+  <li>Brug videoen nedenfor fra Why I Exercise eller start en metronom og indstil den til 96 taktslag pr. minut.</li>
+  <li>Sæt en timer på 3 minutter.</li>
+  <li>Træd op og ned af en skammel i takt med metronomen (eller videoen) i 3 minutter.</li>
+  <li>Når de 3 minutter er gået, sæt dig ned og mål din puls i ét minut.</li>
+  <li>Din ét-minuts puls er din score.</li>
+  <li>Beregn dit kondital i vores beregner nedenunder.</li>
+</ol>
+
+<h2 id="følg-denne-video-guide-til-ymca-steptest">Følg denne video-guide til YMCA steptest</h2>
+
+<p>Denne YouTube-video fra Why I Exercise kan bruges som din guide til at følge tempoet. I forklaringen i starten skal du bare lige være opmærksom på, at du i denne version af testen selv skal udregne højden på boksen.</p>
+
+<p>Hvis du er klar til at starte testen, skal du gå til <a href="https://youtu.be/jvSnWWGtMvk?t=108">1:48-mærket</a>.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="jvSnWWGtMvk">
+      <meta itemprop="name" content="YMCA Modified steptest – Individualiseret test" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/jvSnWWGtMvk/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-03-03T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/jvSnWWGtMvk" />
+      <meta itemprop="description" content="YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling." />
+      <a href="https://www.youtube.com/watch?v=jvSnWWGtMvk" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/jvSnWWGtMvk/hqdefault.jpg" loading="lazy" alt="video til YMCA Modified steptest – Individualiseret test" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="find-din-stephøjde">Find din stephøjde</h2>
+
+<p>Først skal du finde din stephøjde. Indtast din højde, beregn hvor høj din boks skal være, og så er du klar til testen.</p>
+
+<form class="calculator" id="calculator_steptest_ymca_modified_box">
+    <fieldset>
+        <legend>Indtast dit resultat og få resultatet</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="sex" type="radio" value="male" required="" /> &#9794; Mand
+            </label>
+            <label class="radio">
+                <input name="sex" type="radio" value="female" /> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Udregn" />
+    </fieldset>
+    <fieldset class="results" disabled="">
+        <legend>Resultat</legend>
+        <label>Box-højde (cm)
+            <input disabled="" name="box_height" type="text" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="beregn-dit-resultat">Beregn dit resultat</h2>
+
+<p>Din puls 1 minut efter er din score.</p>
+
+<form class="calculator" id="calculator_steptest_ymca">
+    <fieldset>
+        <legend>Indtast dit resultat og få resultatet</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="sex" type="radio" value="male" required="" /> &#9794; Mand
+            </label>
+            <label class="radio">
+                <input name="sex" type="radio" value="female" /> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input name="age" type="number" min="20" max="200" placeholder="Alder i år" step="1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Puls (slag/min) - tæl i 60 sekunder
+                <input name="hr" type="number" min="20" max="220" placeholder="Puls i 60 sekunder" step="1" required="" />
+            </label>
+        </div>
+        <input type="submit" value="Udregn" />
+    </fieldset>
+    <fieldset class="results" disabled="">
+        <legend>Resultat</legend>
+        <label>Kondital (ml O<sub>2</sub>/min/kg)
+            <input disabled="" name="fitness_level" type="text" />
+        </label>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="opsummering-og-næste-skridt">Opsummering og næste skridt</h2>
+
+<p>Den modificerede YMCA 3-minutters steptest er en enkel og effektiv måde at estimere dit kondital på, og den kræver kun en boks og en timer. Ved at følge videoen og bruge beregneren kan du hurtigt få et mål for din kondition.</p>
+
+<p>Er du interesseret i at prøve andre steptests? Tjek vores <a href="/kondital-fra-steptest/">oversigt over steptests</a> for flere muligheder og detaljerede beskrivelser af andre variationer af testen, der kan hjælpe dig med at følge din træning og forbedre dit kondital.</p>
+
+<details class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Bennett, H., Parfitt, G., Davison, K., &amp; Eston, R. (2016). Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Medicine (Auckland, N.Z.), 46(5), 737–750. <a href="https://doi.org/10.1007/s40279-015-0445-1">https://doi.org/10.1007/s40279-015-0445-1</a></li>
+    <li>Castro-Piñero, J., Marin-Jimenez, N., Fernandez-Santos, J. R., Martin-Acosta, F., Segura-Jimenez, V., Izquierdo-Gomez, R., Ruiz, J. R., &amp; Cuenca-Garcia, M. (2021). Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. Journal of Clinical Medicine, 10(16), 3743. <a href="https://doi.org/10.3390/jcm10163743">https://doi.org/10.3390/jcm10163743</a></li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Tests&quot;, &quot;Kondition&quot;]" /><category term="konditionstest" /><category term="indirekte test" /><category term="test" /><category term="steptest" /><summary type="html"><![CDATA[YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling.]]></summary></entry><entry><title type="html">Step tests – Vurder din kondition med en step test</title><link href="https://www.motionsplan.dk/kondital-fra-steptest/" rel="alternate" type="text/html" title="Step tests – Vurder din kondition med en step test" /><published>2025-03-03T00:00:00+00:00</published><updated>2025-03-03T23:14:14+00:00</updated><id>https://www.motionsplan.dk/steptests</id><content type="html" xml:base="https://www.motionsplan.dk/kondital-fra-steptest/"><![CDATA[<p>En steptest er en enkel og effektiv metode til at vurdere konditionen ved at måle pulsrespons efter gentagne step-bevægelser.</p>
+
+<p>Steptests er ofte brugt inden for fitness, sundhedsvurdering og forskning.</p>
+
+<p>Her finder du en oversigt over de mest populære step tests.</p>
+
+<h2 id="sådan-vælger-du-den-rigtige-steptest">Sådan vælger du den rigtige steptest</h2>
+
+<p>Når du skal vælge den rette steptest, afhænger det af flere faktorer, som dit konditionsniveau, dine mål og hvilken type udstyr du har til rådighed.</p>
+
+<p>De forskellige steptests varierer i intensitet, testens varighed og hvordan resultaterne skal tolkes. Her er en guide til at vælge den bedste steptest for dig.</p>
+
+<h3 id="sammenligning-af-steptests">Sammenligning af steptests</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Testnavn</th>
+      <th>Intensitet</th>
+      <th>Varighed</th>
+      <th>Udstyr krævet</th>
+      <th>Beskrivelse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong><a href="/den-danske-steptest/">Den Danske Steptest</a></strong></td>
+      <td>Moderat</td>
+      <td>1-6 min</td>
+      <td>Stepbænk</td>
+      <td>Estimerer VO₂max uden brug af puls. Passer til folk på alle niveauer, fra begyndere til erfarne.</td>
+    </tr>
+    <tr>
+      <td><strong><a href="/ymca-3-minutters-steptest/">YMCA 3-minutters Steptest</a></strong></td>
+      <td>Lav til moderat</td>
+      <td>3 min</td>
+      <td>Stepbænk, stopur</td>
+      <td>Kortere test, god til nybegyndere og dem, der hurtigt vil have et estimat af deres kondition. Fokus på pulsrespons. Let med samme bokshøjde</td>
+    </tr>
+    <tr>
+      <td><strong><a href="/ymca-modified-steptest/">Modificeret YMCA Steptest</a></strong></td>
+      <td>Lav til moderat</td>
+      <td>3 min</td>
+      <td>Stepbænk, stopur</td>
+      <td>Bokshøjden tilpasset den enkelte, hvilket gør den mere individualiseret end standard YMCA-testen. Ser ud til at være den mest præcise med høj validitet.</td>
+    </tr>
+    <tr>
+      <td><strong><a href="/queens-college-step-test/">Queens College Steptest</a></strong></td>
+      <td>Moderat til høj</td>
+      <td>3 min</td>
+      <td>Stepbænk, stopur</td>
+      <td>En højere boks end YMCA-testen. Forskel på mænd og kvinder i udførelsen. Let med samme bokshøjde.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="hvad-skal-du-vælge">Hvad skal du vælge?</h3>
+
+<ul>
+  <li><strong>Hvis du er nybegynder eller har lav kondition:</strong> Den <strong>modificerede YMCA steptest</strong> og <strong>YMCA 3-minutters steptest</strong> får du den laveste boks eller en individualiseret boks. De giver et hurtigt billede af din kondition uden at presse dig for meget.</li>
+  <li><strong>Hvis du har et gennemsnitligt konditionsniveau:</strong> Den <strong>Danske Steptest</strong> er en god mulighed, da den er velegnet til både begyndere og mere erfarne personer. Den bruger en moderat intensitet og er lidt svær at koordinere, fordi hastigheden stiger gennem testen. Den har moderat validitet, og måske ikke den mest præcise.</li>
+  <li><strong>Hvis du har en høj kondition:</strong> <strong>Queens College Steptest</strong> vil udfordre dig mere og have lidt højere intensitet pga. boksen højde.</li>
+</ul>
+
+<p>Uanset hvilken test du vælger, kan den give dig nyttig information om dit konditionsniveau. Vælg den test, der passer bedst til dit mål og dit fysiske niveau.</p>
+
+<h2 id="se-alle-steptests">Se alle steptests</h2>
+
+<div class="feature__wrapper">
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg" alt="Den Danske Steptest 📥
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Tests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/den-danske-steptest/" rel="permalink">Den Danske Steptest 📥
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-12-02T23:14:14+00:00">2. dec, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Den danske steptest bruges til at estimere dit kondital uden brug af puls. Læs mere om testens protokol her.
+</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=60&amp;w=400&amp;h=300&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="YMCA Modified steptest – Individualiseret test
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Tests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/ymca-modified-steptest/" rel="permalink">YMCA Modified steptest – Individualiseret test
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-03T23:14:14+00:00">3. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling.
+</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1448387473223-5c37445527e7?q=60&amp;w=400&amp;h=300&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="YMCA’s 3-minutters steptest – Enkel konditionstest
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Tests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/ymca-3-minutters-steptest/" rel="permalink">YMCA’s 3-minutters steptest – Enkel konditionstest
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-03T23:14:14+00:00">3. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling.
+</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1546869372-abdd57773019?w=400&amp;h=300&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHN0ZXB8ZW58MHx8MHx8fDI%3D" alt="Queens College Step Test – Standardiseret konditionstest (QCST)
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Tests</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/queens-college-step-test/" rel="permalink">Queens College Step Test – Standardiseret konditionstest (QCST)
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-03T23:14:14+00:00">3. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine.
+</p>
+  </article>
+</div>
+
+</div>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Steptests er en effektiv og tilgængelig måde at vurdere dit konditionsniveau på. Uanset om du er nybegynder eller en erfaren atlet, findes der en steptest, der passer til dine behov.</p>
+
+<p>Vælg den test, der bedst afspejler dit konditionsniveau og de mål, du har for din træning. Hvis du er i rigtig god form, så skal du nok kigge efter andre tests.</p>
+
+<p>Her kan du finde inspiration i vores <a href="/kondition/tests/">oversigt med tests af konditallet</a>, eller måske vil du sammenligne dit <a href="/kondital/">kondital med en tabel for mænd og kvinder</a>?</p>
+
+<details class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Bennett, H., Parfitt, G., Davison, K., &amp; Eston, R. (2016). Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Medicine (Auckland, N.Z.), 46(5), 737–750. <a href="https://doi.org/10.1007/s40279-015-0445-1">https://doi.org/10.1007/s40279-015-0445-1</a></li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Tests&quot;, &quot;Kondition&quot;]" /><category term="konditionstest" /><category term="indirekte test" /><category term="test" /><category term="liste" /><category term="moc" /><summary type="html"><![CDATA[Få overblik over de mest anvendte step tests til at vurdere din kondition og vælg den rigtige steptest for dig.]]></summary></entry><entry><title type="html">Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃</title><link href="https://www.motionsplan.dk/iltoptagelse-max-test-loeb/" rel="alternate" type="text/html" title="Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃" /><published>2025-02-21T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/laboratorie-maxtest-loeb</id><content type="html" xml:base="https://www.motionsplan.dk/iltoptagelse-max-test-loeb/"><![CDATA[<p>Hvis du vil kende dit præcise kondital i løb, kræver det en direkte måling af din maksimale iltoptagelse (VO2max).</p>
+
+<p>Det foregår typisk på et løbebånd i et testcenter, hvor du løber med en maske, der måler, hvor meget ilt din krop optager under maksimal præstation.</p>
+
+<p>For at sikre en præcis og pålidelig måling, anvendes en testprotokol, der gradvist øger intensiteten, indtil du når din maksimale kapacitet. Her gennemgår vi en af de mest anvendte testprotokoller for VO2max-måling i løb.</p>
+
+<h2 id="hvad-tester-vi-i-testen">Hvad tester vi i testen?</h2>
+
+<details class="concept">
+  <summary>🫁 Maksimal iltoptagelse (VO2max) (l/min)</summary>
+  
+  Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O2) kroppen optager pr. minut. <a href="https://www.motionsplan.dk/maksimale-iltoptagelse-vo2max/" class="read-more-link">Mere om VO2max</a>
+</details>
+
+<details class="concept">
+  <summary>💨 Kondital (ml/kg/min)</summary>
+  
+  Konditallet er et udtryk for, hvor effektiv kroppen er i forhold til kropsvægten til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg). <a href="https://www.motionsplan.dk/kondital/" class="read-more-link">Lær om kondital</a>
+</details>
+
+<details class="concept">
+  <summary>❤️ Maksimale puls</summary>
+  
+  Din maksimale puls er primært genetisk bestemt og falder med alderen. Maxpulsen kan være anvendelig til at beregne individuelle træningszoner. 📈 <a href="https://www.motionsplan.dk/test-max-puls/" class="read-more-link">Lær om maxpuls</a>
+</details>
+
+<h2 id="hvilket-udstyr-skal-du-bruge">Hvilket udstyr skal du bruge?</h2>
+
+<p>En nøjagtig direkte test af iltoptagelse kræver adgang til udstyr, der kan måle ilt-, CO₂-koncentrationer og volumen af ud- og indåndingsluften. Derfor skal du have et testcenter med dette udstyr.</p>
+
+<p>Det har vi på Vejle Idrætshøjskole, hvor jeg har lavet mange af denne typer test.</p>
+
+<p>Vi går i det følgende ud fra, at du har adgang til udstyret, og du ved, hvordan du bruger det.</p>
+
+<p><strong>Læs mere</strong>: <a href="/iltoptagelse-laboratorietest/">Gå i dybden med iltoptagelsestest i laboratorium</a>
+[: .notice ]</p>
+
+<h2 id="sådan-laver-du-den-maksimale-iltoptagelsestest">Sådan laver du den maksimale iltoptagelsestest</h2>
+
+<figure class="">
+  <img src="/assets/images/motionsplan/ramp-max-test.jpg" alt="diagram over rampe testen til kondital" loading="lazy" /><figcaption>
+      Sådan udføres rampetesten på løbebånde. Belastningen øges ved at hæve hældningen på løbebåndet.
+
+    </figcaption></figure>
+
+<p>Først laves en grundig opvarmning.</p>
+
+<p>Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO₂-max. Der måles maksimale værdier for iltoptagelse, CO₂-udvekskling, puls, lungekapacitet, og laktat.</p>
+
+<p>Selve testen er en progressiv rampetest bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Du starter på en hastighed der cirka svarer til din anaerobe tærskel (1 km/t lavere end din 5 kilometer hastighed).</p>
+
+<p>Herefter øges hældningen på løbebåndet med 2% for hvert interval-trin indtil udmattelse. Typisk varighed på testen er mellem 5-10 minutter.</p>
+
+<p>Testen er en åben test. Den slutter slutter først når forsøgspersonen giver op, eller det ikke længere er forsvarligt at fortsætte testen.</p>
+
+<p>Ved udmattelse noteres den maksimale puls og der tages en priktest.</p>
+
+<h2 id="er-det-reelt-en-maksimal-test">Er det reelt en maksimal test?</h2>
+
+<p>Når testen er slut, så skal du vurdere om du har fået nogle brugbare resultater.</p>
+
+<p>Da du gerne vil bestemme den maksimale iltoptagelse og den maksimale puls, så er det nødvendigt at vurdere om løberen har udført en maksimal test, eller vedkommende fik afsluttet testen før opnåelse af de maksimale værdier.</p>
+
+<p>Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale ydeevne.</p>
+
+<ol>
+  <li><strong>Steady state i VO₂-optagelse</strong>. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden (den vigtigste indikator).</li>
+  <li><strong>RQ &gt; 1,15</strong>. Den <a href="/respiratoriske-metaboliske-udvekslingskvotient/">respiratoriske udvekslingskvotient</a> skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.</li>
+  <li><strong>Bla &gt; 8 mmol/l</strong>. Laktatmåling skal være over 8 mmol/l.</li>
+  <li><strong>Puls &gt; 220-alder +- 10</strong>. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan <a href="/test-max-puls/">udregne den maksimale puls</a>.</li>
+  <li><strong>VE / VO₂ &gt; 30</strong>. Forholdet mellem ventilationen (VE) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.</li>
+</ol>
+
+<p>Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale og resultatet derfor er præcist.</p>
+
+<p class="notice"><strong>Gå i dybden</strong>: <a href="/kriterier-maksimal-iltoptagelsestest/">5 kritierer for en maksimal iltoptagelsestest</a></p>
+
+<h2 id="har-jeg-opnået-et-godt-kondital">Har jeg opnået et godt kondital?</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&amp;cs=tinysrgb&amp;fm=jpg&amp;ixlib=rb-1.2.1&amp;raw_url=true&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=10" alt="Hvad er en god kondition?" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Hvad er en god kondition?</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/kondital/" class="btn btn--info">Se konditionstabel og kondital</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h2 id="flere-løbetests">Flere løbetests</h2>
+
+<p>Der er masser af forskellige måder at teste dig selv på, når du gerne vil blive en bedre løber. Her kan du se alle vores løbetests.</p>
+
+<p>En af de mest populære er naturligvis Cooper-testen.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Cooper-test" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Cooper-test</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/cooper-test/" class="btn btn--info">Prøv Cooper-testen</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<p>Men du kan også overveje en af de andre konditionstests fra løb.</p>
+
+<div class="feature__wrapper">
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="️Submaksimal 1609 m løbetest til at finde VO2max
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/submaximal-jogging-test-vo2/" rel="permalink">️Submaksimal 1609 m løbetest til at finde VO2max
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-12T10:14:14+00:00">12. oct, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et...</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Beregn dit kondital ud fra en vilkårlig løbedistance 🏃
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/kondital-loeb-distance-tid/" rel="permalink">Beregn dit kondital ud fra en vilkårlig løbedistance 🏃
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2019-03-06T23:14:14+00:00">6. mar, 2019</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">I denne beregner kan du indtaste en vilkårlig løbedistance og tiden for at gennemføre distancen. Hvis det var et maksimalt løb, kan du få estimeret dit kondi...</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Cooper-test: Beregn dit kondital med 12 minutters løbetest
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/cooper-test/" rel="permalink">Cooper-test: Beregn dit kondital med 12 minutters løbetest
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-20T10:14:14+00:00">20. aug, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          12 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den ...</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg" alt="Bruce løbetest: Find din kondition på løbebånd uden pulsmåler
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/bruce-test/" rel="permalink">Bruce løbetest: Find din kondition på løbebånd uden pulsmåler
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2019-03-06T23:14:14+00:00">6. mar, 2019</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Bruce-test på løbebånd er en maksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning.
+</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="2400-meter løbetest: Sådan beregner du dit kondital 🏃
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/kondital-2400-meter/" rel="permalink">2400-meter løbetest: Sådan beregner du dit kondital 🏃
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-10-06T22:12:12+00:00">6. oct, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne.
+</p>
+  </article>
+</div>
+
+  <div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Andersen Test: Beregn kondital for børn og unge
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kondition</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/andersen-test/" rel="permalink">Andersen Test: Beregn kondital for børn og unge
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-11T08:14:14+00:00">11. jan, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          7 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Andersen testen er en konditionstest, hvor du skiftevis løber og holde pause i 10 minutter. Testen kan bruges til at estimere konditallet på gruppeniveau. Te...</p>
+  </article>
+</div>
+
+  <p><a href="/tests/loeb/" class="btn btn--success btn--center">Se alle løbetests</a></p>
+
+</div>
+
+<h2 id="andre-tests-af-iltoptagelse">Andre tests af iltoptagelse</h2>
+
+<p>Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de indirekte tests til at finde dit kondital.</p>
+
+<p>I disse tests kan du estimere din iltoptagelse ud fra dine resultater i testene.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&amp;cs=tinysrgb&amp;fm=jpg&amp;ixlib=rb-1.2.1&amp;raw_url=true&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=10" alt="Kondition og tests" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Kondition og tests</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?</p>
+
+            </div>
+          
+
+          
+            <p><a href="/kondition/tests/" class="btn btn--success">Læs og prøv konditionstests</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="konditionstest" /><category term="laboratorium" /><category term="direkte test" /><category term="maksimal test" /><category term="submaksimal test" /><category term="test" /><category term="løbetest" /><category term="laboratorietest" /><category term="iltoptagelsestest" /><summary type="html"><![CDATA[Detaljeret guide til test af VO2max i laboratorium på løbebånd. Alt om testprotokollen og hvordan du analyserer dine resultater for at optimere din træning.]]></summary></entry><entry><title type="html">Psykiske sundhedstests: Mål din trivsel og mentale velvære</title><link href="https://www.motionsplan.dk/psykiske-sundhedstest/" rel="alternate" type="text/html" title="Psykiske sundhedstests: Mål din trivsel og mentale velvære" /><published>2025-02-21T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/psykiske-sundhedstests</id><content type="html" xml:base="https://www.motionsplan.dk/psykiske-sundhedstest/"><![CDATA[<p>Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale tilstand og tage de første skridt mod at forbedre din trivsel.</p>
+
+<h2 id="psykologiske-tests">Psykologiske tests</h2>
+
+<div class="feature__wrapper">
+
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1569230919100-d3fd5e1132f4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Vaner: Hvordan kan du lave en livsstilsændring?
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/vaner/" rel="permalink">Vaner: Hvordan kan du lave en livsstilsændring?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-05-12T10:14:14+00:00">12. may, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          17 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvis du gerne vil lave en livsstilsændring, så kan det være en god ide at kigge på dine vaner. Hvis du gerne vil være sundere, træne mere, tabe vægt, så hand...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1608272667943-cbf5ee73c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Test af træningsafhængighed: Er du afhængig af træning?
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/traeningsafhaengighed/" rel="permalink">Test af træningsafhængighed: Er du afhængig af træning?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-14T08:14:14+00:00">14. oct, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Træningsafhængighed betegner en tilstand, hvor en person træner hele tiden og ikke kan stoppe igen. For personer, der lider af træningsafhængighed, fylder tr...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1620302044674-2b39db73b8db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Spiseforstyrrelser: Har du forstyrret spisning?
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/spiseforstyrrelser/" rel="permalink">Spiseforstyrrelser: Har du forstyrret spisning?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-14T08:14:14+00:00">14. oct, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">En spiseforstyrrelse er kendetegnet ved et usundt og tvangspræget forhold til mad, krop og vægt. Det er en psykisk lidelse, som kan komme til udtryk på forsk...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Trivselsindeks: Test din trivsel og livskvalitet med WHO-5
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/who5-trivselindekset/" rel="permalink">Trivselsindeks: Test din trivsel og livskvalitet med WHO-5
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-14T08:14:14+00:00">14. oct, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Her er en test, der kan teste din din livskvalitet og trivsel. Testen er udformet af WHO, og den bruges over hele verden som trivselstest.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1613520439218-a69db537ea1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Stresstest: Er du stresset?
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/stress-test/" rel="permalink">Stresstest: Er du stresset?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-14T08:14:14+00:00">14. oct, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Er du træt, anspændt og ubeslutsom? Det kan være tegn på stress. I vores gratis stress-test kan du teste dig selv for, hvor kritiske dine stress-symptomer er?
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Depression: Test om du er deprimeret med PHQ-2 og PHQ-9
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/phq-9-depression-test/" rel="permalink">Depression: Test om du er deprimeret med PHQ-2 og PHQ-9
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-14T08:14:14+00:00">14. oct, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Her er en depressionstest, som kan hjælpe dig med finde ud af, om du har tegn på at have en depression. Testen er en anerkendt test af, om du skulle være dep...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1531171074112-291d5807273d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Mål dine automatiske negative tanker med ATQ
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/atq-automatiske-negative-tanker/" rel="permalink">Mål dine automatiske negative tanker med ATQ
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-14T08:14:14+00:00">14. oct, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Måske er du kommet ind i en dårlig spiral, hvor du bebrejder dig selv og tænker mange negative tanker. Her kan du teste dig selv, om du har automatiske negat...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="https://images.unsplash.com/photo-1546016366-bf061374d54e?auto=format&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Psykiske sundhedstests: Mål din trivsel og mentale velvære
+" data-pin-nopin="true" loading="lazy" />
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Vurderingsværktøjer</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/psykiske-sundhedstest/" rel="permalink">Psykiske sundhedstests: Mål din trivsel og mentale velvære
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-02-20T19:14:14+00:00">20. feb, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          mindre end 1 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale tilstand og tage de første skridt mod at ...</p>
+  </article>
+</div>
+
+  
+
+
+</div>
+
+<h2 id="sådan-bruger-du-de-mentale-tests">Sådan bruger du de mentale tests</h2>
+
+<p>Tag disse tests online og få øjeblikkelige resultater. Hvis du identificerer problemer, er det vigtigt at søge professionel hjælp. Disse tests kan være et første skridt mod at få den rette støtte.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Uanset om du ønsker at måle din trivsel, vurdere stressniveau eller få indsigt i din mentale sundhed, kan disse tests hjælpe dig med at forstå, hvordan du har det og hvad du kan gøre for at forbedre din velvære.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Vurderingsværktøjer&quot;, &quot;Psykologi&quot;]" /><category term="moc" /><category term="psykologi" /><summary type="html"><![CDATA[Udforsk tests til at vurdere din mentale sundhed, herunder stress, depression, trivsel og negative tanker. Få indsigt i dine mentale udfordringer og hvordan du kan få hjælp.]]></summary></entry><entry><title type="html">Løbebåndstest med iltoptagelse (trappetest til max) 🏃</title><link href="https://www.motionsplan.dk/iltoptagelse-trappetest-maxtest-loeb/" rel="alternate" type="text/html" title="Løbebåndstest med iltoptagelse (trappetest til max) 🏃" /><published>2025-02-20T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/laboratorie-incremental-max-test-loeb</id><content type="html" xml:base="https://www.motionsplan.dk/iltoptagelse-trappetest-maxtest-loeb/"><![CDATA[<p class="intro">I denne iltoptagelsestest på løbebånd får du en præcis måling af din aerobe kapacitet både under submaksimalt og maksimalt arbejde. Resultaterne kan hjælpe dig med at optimere din træning og forstå, hvordan din krop præsterer ved forskellige intensitetsniveauer.</p>
+
+<p>Testen er en trinvis belastningstest, der måler din maksimale iltoptagelse (VO₂max) og estimerer dine aerobe og anaerobe tærskler. Dermed kan dine personlige træningszoner identificeres.</p>
+
+<p>Testen foregår på et løbebånd, hvor hastigheden gradvist øges, indtil du når udmattelse. Undervejs bærer du en maske, der måler din iltoptagelse og udskillelse af kuldioxid, samt en pulsmåler. Der foretages desuden laktatmålinger for at bestemme dine fysiologiske grænser.</p>
+
+<p>Denne test giver dig præcise data om din konditionstilstand og kan bruges til at optimere dit træningsprogram. Det er en krævende test, men til gengæld får du værdifuld indsigt i din præstation og udholdenhed.</p>
+
+<figure class="">
+  <img src="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" loading="lazy" /><figcaption>
+      Her er vi i gang med en VO2max test på løbebånd på Vejle Idrætshøjskole.
+
+    </figcaption></figure>
+
+<h2 id="hvad-tester-løbetesten">Hvad tester løbetesten?</h2>
+
+<details class="concept">
+  <summary>🫁 Højest opnåede iltoptagelse (VO₂peak)</summary>
+  
+  VO₂peak er den højest opnåede iltoptagelse i løbet af en præstation. Denne betegnelse bruges, når vi ikke kan være sikre på, at vi reelt har målt VO₂ max. Vi fortolker den nogenlunde som VO2max. <a href="https://www.motionsplan.dk/maksimale-iltoptagelse-vo2max/" class="read-more-link">Lær om VO2max</a>
+</details>
+
+<details class="concept">
+  <summary>💨 Kondital (ml/kg/min)</summary>
+  
+  Konditallet er et udtryk for, hvor effektiv kroppen er i forhold til kropsvægten til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg). <a href="https://www.motionsplan.dk/kondital/" class="read-more-link">Lær om kondital</a>
+</details>
+
+<details class="concept">
+  <summary>🔥 LT1 - Den aerobe tærskel (AeT)</summary>
+  
+  LT1 definerer din aerobe kapacitet - ved dette punkt kan den enkelte muskelfiber stadig bruge det producerede laktat. 🚴‍♂️ <a href="https://www.motionsplan.dk/aerobe-taerskel/" class="read-more-link">Læs om LT1</a>
+</details>
+
+<details class="concept">
+  <summary>⚡ Den anaerobe tærskel (LT2 eller AnT)</summary>
+  
+  LT2 er den maksimale intensitet, hvor kroppen stadig kan balancere laktatniveauet. Over dette punkt stiger laktat hurtigt, og træthed sætter hurtigt ind. ⚡ <a href="https://www.motionsplan.dk/anaerobe-taerskel/" class="read-more-link">Forstå LT2</a>
+</details>
+
+<details class="concept">
+  <summary>🏃‍♂️ Løbeøkonomi</summary>
+  
+  Løbeøkonomi handler om, hvor meget energi din krop bruger til at bevæge sig fremad. Bedre teknik og træning kan reducere dit energiforbrug. ⚡ <a href="https://www.motionsplan.dk/lobeokonomi/" class="read-more-link">Læs om løbeøkonomi</a>
+</details>
+
+<details class="concept">
+  <summary>❤️ Maksimale puls</summary>
+  
+  Din maksimale puls er primært genetisk bestemt og falder med alderen. Maxpulsen kan være anvendelig til at beregne individuelle træningszoner. 📈 <a href="https://www.motionsplan.dk/test-max-puls/" class="read-more-link">Lær om maxpuls</a>
+</details>
+
+<h2 id="hvad-skal-du-bruge-til-testen">Hvad skal du bruge til testen?</h2>
+
+<ul>
+  <li><strong>Løbebånd</strong>. For at gøre målingerne lettere, så løber vi på løbebånd.</li>
+  <li><strong>Iltoptagelsesudstyr</strong>. Testen foregår på løbebånd og med iltoptagelsesudstyr. Her måles iltoptagelsen og udskillelsen af kuldioxid. Da vi kender den <a href="/respiratoriske-metaboliske-udvekslingskvotient/">respiratoriske udvekslingskvotient</a> får vi også indblik i fordelingen af kulhydrat- og fedtforbrænding under testen. Det giver os i nogen grad et indblik i motorens effektivitet.</li>
+  <li><strong>Laktat-måler</strong>. Målingen af iltoptagelse suppleres med laktat-tests for at få endnu højere indblik i metabolismen i kroppen under arbejdet.</li>
+  <li><strong>Pulsmåler</strong>. Vi måler pulsen undervejs. Vi kan iagttage at pulsen bevæger sig lineært med belastningen. Vi henholder pulsen til laktatmålingerne, og vi estimerer en max-puls for løberen.</li>
+</ul>
+
+<h2 id="hvad-kan-du-bruge-løbetesten-til">Hvad kan du bruge løbetesten til?</h2>
+
+<p>Vi bruger denne test til at bestemme den fysiske kapacitet ved den aerobe (AeT) og anaerobe tærskel (AT). Samlet kan det give et fyldestgørende billede af udholdenheden for kredsløbet og musklerne.</p>
+
+<p>Skeletmuskulaturens evne til at danne energi til muskelarbejde beror overordnet set på to processer - de der foregår uden ilt (anaerobt), og de der foregår med ilt (aerobt).</p>
+
+<p>Den samlede energi der leveres til muskelarbejdet under træning vil altid være en sum af de anaerobe og aerobe processer. De vil derfor i sammenspil levere energi til muskelarbejdet.</p>
+
+<p>Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.</p>
+
+<p>Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellige intensiteter. Derved får du en måling af, hvor effektivt du bevæger dig.</p>
+
+<p>Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endnu mere præcise svar på, hvordan din krop arbejder ved forskellige intensiteter.</p>
+
+<p>Desuden rammer vi til sidst VO₂peak. Vi kalder det <em>peak</em>, fordi vi ikke kan være helt sikker på, at det er den maksimale iltoptagelse, da det ikke bliver verificeret ved udelukkende maksimal test.</p>
+
+<h2 id="fra-submaksimal-til-maksimal-belastning">Fra submaksimal til maksimal belastning</h2>
+
+<p>Testen er en åben test, som slutter når løberen ikke længere kan fortsætte, eller forsøgslederen vurderer, at det er uforsvarligt at fortsætte.</p>
+
+<p>Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO₂-udvekslingen. Desuden måles puls, laktat, løbehastigheden og løbeøkonomien.</p>
+
+<p>Testresultaterne bruges efterfølgende til at identificere træningszoner, der kan bruges i den efterfølgende træningsperiode.</p>
+
+<h2 id="diagram-over-testen">Diagram over testen</h2>
+
+<figure class="">
+  <img src="/assets/images/motionsplan/incremental-max-test.jpg" alt="diagram over trappe max-teststen på løbebånd" loading="lazy" /><figcaption>
+      Diagram over trappetesten til løb.
+
+    </figcaption></figure>
+
+<h2 id="sådan-udføres-testen">Sådan udføres testen</h2>
+
+<p><strong>Opvarmning</strong>. Vi indleder testen med omkring 10 minutters opvarmning.</p>
+
+<p><strong>Vælg starthastighed</strong>. Vi vælger først starthastighed. Det er bedst at være relativt konservativ i starthastigheden. Det er bedre at løberen ender med at løbe et trin for meget end at vi ikke opnår <em>steady state</em> ved de lavere laktatniveauer. Der startes med relativ let intensitet, og sluttes først når løberen ikke længere vil løbe videre.</p>
+
+<p><strong>Testen starter</strong> Herefter starter testen med første hastighed. Hvert 3. minut stiger hastigheden typisk med 1 km/t mellem hvert trin. Vi har valgt tre minutter, da det mindst kræves for at kroppen kommer i en form for steady state på hvert trin.</p>
+
+<p><strong>Hold øje med steady state</strong>. Kroppen skal på de enkelte trin gerne opnå <em>steady state</em>, hvor hele det fysiologiske system tilpasser sig de energikrav, som musklerne kræver for at kunne udføre det pågældende arbejde med den specifikke intensitet.</p>
+
+<p>Når belastningen stiger, så vil en større del af energiomsætningen komme fra anaerobe processer i den arbejdende muskulatur. Det afspejler sig bl.a. i en højere produktion af mælkesyre i muskelcellerne (produkt af den anaerobe glykolyse), der kommer ud i blodet som laktat og brint-ioner (H<sup>+</sup>)-ioner.</p>
+
+<p><strong>Tag laktatmålinger</strong>. Før hver stigning i løbehastighed hopper løberen ud til siden med benene, så forsøgslederen kan foretage en laktatmåling. Laktaktmålingen skal helst foretages på omkring 30 sekunder, så løberen ikke får for lange pauser.</p>
+
+<p><strong>Løb indtil udmattelse</strong>. Testen er en åben test, og slutter først når forsøgspersonen giver op, eller det ikke længere er forsvarligt at fortsætte testen.</p>
+
+<h2 id="procedure">Procedure</h2>
+
+<ul>
+  <li>Testlederen har på forhånd klargjort og kalibreret udstyret inden start.</li>
+  <li>Inden opvarmning tages en prik-måling for at estimere forsøgspersonens laktat-niveau i hvile.</li>
+  <li>Indledningsvist får forsøgspersonen ca. 5-10 minutters opvarmning, der også fungerer som tilvænning til løbebåndet.</li>
+  <li>Dernæst monteres pulsbælte og maske på forsøgspersonen og denne sluttes til gasmålingsudstyret.</li>
+  <li>Der udføres et ukendt antal 3-minutters trin, der hver har højere hastighed end det foregående trin.</li>
+  <li>Hastigheden for det første trin vurderes ud fra personens træningstilstand.</li>
+  <li>Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.</li>
+  <li>Ved udmattelse noteres den maksimale puls og der tages en priktest.</li>
+  <li>Testlederen finder herefter hurtigt de maksimalt opnåede fysiologiske værdier frem på skærmen.</li>
+</ul>
+
+<h2 id="baggrund-for-testen">Baggrund for testen</h2>
+
+<p>I testen er vi både interesseret i at kigge på <strong>den maksimale iltoptagelseshastighed</strong> (også kaldet VO2max) er oftest brugt som et mål for evnen til at præstere i sportsgrene, hvor den aerobe udholdenhed er en afgørende faktor.</p>
+
+<p>Derudover kigger vi på <strong>submaksimale præstationsevne</strong>.</p>
+
+<p>Ydermere er det for udholdenhedsatleter interessant at kigge på, hvordan deres evne er til at præstere submaksimalt ved en række intensiteter af moderat til høj belastning. Dette gøres oftest ved hjælp af en såkaldt submaksimal test, bestående af en række trin af 3-5 minutters varighed.</p>
+
+<p>Hermed lader man kroppen arbejde sig ind i et såkaldt steady-state, hvor hele det fysiologiske system tilpasser sig netop det energikrav, som musklerne kræver for at kunne udføre det pågældende arbejde i de enkelte trin.</p>
+
+<p>Når belastningen stiger, vil en større og større andel af energiomsætningen komme fra de anaerobe processer i den arbejdende muskulatur, hvilket blandt andet vil afspejle sig ved en større produktion af mælkesyre i muskelcellerne (produkt af den anaerobe glykolyse). Denne mælkesyre dissocierer frit ud i blodet som laktat og brint-ioner.</p>
+
+<p>En træningsforbedring til en submaksimal test vil eksempelvis være, at man ved samme løbehastighed forbruger mindre ilt (bedre løbeøkonomi) og producerer mindre mælkesyre (udtrykt ved lavere laktatkoncentrationer i blodet) efter en periode med træning.</p>
+
+<p>Dette er illustreret i figuren herunder.</p>
+
+<figure class="">
+  <img src="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" alt="" loading="lazy" /></figure>
+
+<p>Oftest taler man om en given “laktat-tærskel”, defineret som den højest mulige træningsintensitet (belastning eller løbehastighed), som en person kan opretholde over lang tid.</p>
+
+<p>Ved denne intensitet vil kroppens maksimale evne til at bortskaffe mælkesyre fra musklen og laktaten fra blodet matche musklens produktion af den. Ved intensiteter over denne “tærskel” vil bortskaffelsen ikke længere kunne følge med produktionen.</p>
+
+<p>Derfor vil koncentrationen af eksempelvis laktat akkumulere eksponentielt i blodet ved fortsat stigende træningsintensiteter.</p>
+
+<p>Det er vigtigt at pointere, at en stigning i koncentrationen af laktat og brint-ioner ikke i sig selv udtrætter musklen (modsat hvad nogle tror), men den har vist sig ofte at hænge tidsmæssigt sammen med musklens gradvise udtrætning ved arbejde af stigende intensitet.</p>
+
+<h2 id="er-testen-vellykket">Er testen vellykket?</h2>
+
+<p>For at vurdere om det er en vellykket test, så kan du kigge på to forskellige ting.</p>
+
+<h3 id="1-er-laktatmålingerne-forudsigelige">1. Er laktatmålingerne forudsigelige?</h3>
+
+<p>Laktatkurven skal gerne have et nogenlunde forudsigelig udvikling. Den skal gerne stige stille og roligt i begyndelsen indtil løberen rammer omkring den anaerobe tærskel, hvor laktatophobningen foregår noget hurtigere.</p>
+
+<h3 id="2-har-løberen-opnået-maksimale-værdier">2. Har løberen opnået maksimale værdier?</h3>
+
+<p>Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale ydeevne.</p>
+
+<ol>
+  <li>Iltoptagelsen opnår steady state og måske falder lidt igen med tiden.</li>
+  <li>Den <a href="/respiratoriske-metaboliske-udvekslingskvotient/">respiratoriske udvekslingskvotient</a> skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.</li>
+  <li>Laktatmåling skal være over 8 mmol.</li>
+  <li>Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan <a href="/test-max-puls/">udregne den maksimale puls</a>.</li>
+  <li>Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.</li>
+</ol>
+
+<p>Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den maksimale iltoptagelse, og at forsøgspersonen således har ydet sit maksimale.</p>
+
+<p class="notice"><strong>Gå i dybden</strong>: <a href="/kriterier-maksimal-iltoptagelsestest/">5 kritierer for en maksimal iltoptagelsestest</a></p>
+
+<h2 id="hvad-er-ulempen-ved-denne-test">Hvad er ulempen ved denne test?</h2>
+
+<p>Ulempen ved denne test er:</p>
+
+<ul>
+  <li><strong>Opnås der steady state på 3 minutter?</strong>. 3 minutter er i hvert fald nødvendig for at opnå steady state på en hastighed. For utrænede kan det være lige i underkanten. Jeg har imidlertid ret gode erfaringer med, at selv uøvede løbere kan opnå en fornuftig laktatkurve på baggrund af testen.</li>
+  <li><strong>Opnår vi den maksimale iltoptagelse?</strong>. Vi kalder det VO2peak for at understrege, at vi ikke kan være helt sikker på, at vi har opnået den maksimale iltoptagelse, når vi udfører testen på denne måde, hvor vi netop på hvert niveau løber 3 minutter, inden vi går til næste niveau.</li>
+</ul>
+
+<h2 id="meningsfuld-forbedring-i-testen">Meningsfuld forbedring i testen</h2>
+
+<figure class="">
+  <img src="/assets/images/motionsplan/incremental-max-test-results.jpg" alt="laktat og puls kurve ift. hastighed" loading="lazy" /><figcaption>
+      Her er en løber der har gennmført testen før og efter et træningsforløb. Laktatkurven er skubbet til højre, hvilket betyder at både LT1 og LT2 også ligger ved højere hastigheder. Løberen har ganske enkelt fået en mere effektiv motor med flere kræfter.
+
+    </figcaption></figure>
+
+<h2 id="diskussionsspørgsmål">Diskussionsspørgsmål</h2>
+
+<ol>
+  <li>Brug indledningsvist 3-4 minutter på at gennemgå de forskellige fysiologiske parametre, der er nævnt i skemaet (se bilag) i små grupper (ca. 3 personer).</li>
+  <li>I hvilke sportsgrene vil I forvente, at udøverne har et højt kondital (maksimal iltoptagelseshastighed i forhold til kropsvægt)? Begrund jeres svar.</li>
+  <li>Nævn sportsgrene hvor musklens anaerobe evne er mere dominerende end den aerobe. Begrund jeres svar.</li>
+  <li>Nævn fordele og ulemper ved direkte måling af iltoptagelse sammenlignet med eksempelvis en Cooper-test.</li>
+  <li>Hvilke formler for estimering af den maksimale hjertefrekvens (puls) kender I? Hvad er fordelen og ulemper ved disse formler?</li>
+  <li>Hvorfor observeres der typisk en forholdsvis høj puls (sammenlignet med hvilepuls) på forsøgspersonen, lige inden at testen skal begynde?</li>
+  <li>Hvorfor er hvert trin i test 3 minutter?</li>
+  <li>Hvad vil I forvente af udvikling i værdierne for VO2, VCO2 (og R-værdien) undervejs i den
+submaksimale og maksimale test.</li>
+  <li>Hvilken indflydelse har køn på parametre som maksimal iltoptagelseshastighed (VO2) og maksimal minutventilation (VE)?</li>
+  <li>Diskutér efter den maksimale test er afsluttet, om testen kan anses som værende vellykket og om forsøgspersonen har opnået en reel maksimal iltoptagelse (tag udgangspunkt i de fem kriterier).</li>
+  <li>Sammenlign og diskuter det opnåede kondital for forsøgspersonen med normalværdier for befolkningen.</li>
+  <li>Hvorfor er det vigtigt, at forsøgspersonen formår at ”presse” sig selv til det yderste under en maksimal test?</li>
+  <li>Hvilken indflydelse vil I forvente, at en periode med aerob træning vil have på forsøgspersonens fysiologiske parametre under submaksimal testen?</li>
+</ol>
+
+<h2 id="andre-tests-af-iltoptagelse">Andre tests af iltoptagelse</h2>
+
+<p>Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de andre løbetests. Der er mange indirekte tests, hvor du kan estimere din iltoptagelse ud fra dine resultater i testene.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&amp;cs=tinysrgb&amp;fm=jpg&amp;ixlib=rb-1.2.1&amp;raw_url=true&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=10" alt="Løbetests og kondition" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Andre løbetests</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/tests/loeb/" class="btn btn--success">Se flere løbetests</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="konditionstest" /><category term="laboratorium" /><category term="direkte test" /><category term="maksimal test" /><category term="submaksimal test" /><category term="løbetest" /><category term="test" /><category term="laboratorietest" /><category term="iltoptagelsestest" /><summary type="html"><![CDATA[Progressiv test med stigende intensitet og måling af aerob, anaerob og VO2peak med denne direkte test af iltoptagelse på løbebånd med maske.]]></summary></entry><entry><title type="html">Løbebåndstest med iltoptagelse (submax + maxtest) 🏃</title><link href="https://www.motionsplan.dk/iltoptagelse-submax-trappetest-ramp-maxtest-loeb/" rel="alternate" type="text/html" title="Løbebåndstest med iltoptagelse (submax + maxtest) 🏃" /><published>2025-02-20T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/laboratorie-incremental-submax-ramp-maxtest-loeb</id><content type="html" xml:base="https://www.motionsplan.dk/iltoptagelse-submax-trappetest-ramp-maxtest-loeb/"><![CDATA[<p class="intro">I denne iltoptagelsestest på løbebånd får du en præcis måling af din aerobe kapacitet både under submaksimalt og maksimalt arbejde. Resultaterne kan hjælpe dig med at optimere din træning og forstå, hvordan din krop præsterer ved forskellige intensitetsniveauer.</p>
+
+<p>Testen er delt i to trin, som køres med en kort pause i mellem.</p>
+
+<ol>
+  <li><strong>Submaksimal trappetest</strong> - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes o.</li>
+  <li><strong>Maksimal rampetest</strong> - hvor belastningen stiger ved at hældningen på løbebåndet øges undervejs.</li>
+</ol>
+
+<figure class="">
+  <img src="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" loading="lazy" /></figure>
+
+<h2 id="hvad-tester-løbetesten">Hvad tester løbetesten?</h2>
+
+<details class="concept">
+  <summary>🫁 Maksimal iltoptagelse (VO2max) (l/min)</summary>
+  
+  Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O2) kroppen optager pr. minut. <a href="https://www.motionsplan.dk/maksimale-iltoptagelse-vo2max/" class="read-more-link">Mere om VO2max</a>
+</details>
+
+<details class="concept">
+  <summary>💨 Kondital (ml/kg/min)</summary>
+  
+  Konditallet er et udtryk for, hvor effektiv kroppen er i forhold til kropsvægten til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg). <a href="https://www.motionsplan.dk/kondital/" class="read-more-link">Lær om kondital</a>
+</details>
+
+<details class="concept">
+  <summary>🔥 LT1 - Den aerobe tærskel (AeT)</summary>
+  
+  LT1 definerer din aerobe kapacitet - ved dette punkt kan den enkelte muskelfiber stadig bruge det producerede laktat. 🚴‍♂️ <a href="https://www.motionsplan.dk/aerobe-taerskel/" class="read-more-link">Læs om LT1</a>
+</details>
+
+<details class="concept">
+  <summary>⚡ Den anaerobe tærskel (LT2 eller AnT)</summary>
+  
+  LT2 er den maksimale intensitet, hvor kroppen stadig kan balancere laktatniveauet. Over dette punkt stiger laktat hurtigt, og træthed sætter hurtigt ind. ⚡ <a href="https://www.motionsplan.dk/anaerobe-taerskel/" class="read-more-link">Forstå LT2</a>
+</details>
+
+<details class="concept">
+  <summary>🏃‍♂️ Løbeøkonomi</summary>
+  
+  Løbeøkonomi handler om, hvor meget energi din krop bruger til at bevæge sig fremad. Bedre teknik og træning kan reducere dit energiforbrug. ⚡ <a href="https://www.motionsplan.dk/lobeokonomi/" class="read-more-link">Læs om løbeøkonomi</a>
+</details>
+
+<details class="concept">
+  <summary>❤️ Maksimale puls</summary>
+  
+  Din maksimale puls er primært genetisk bestemt og falder med alderen. Maxpulsen kan være anvendelig til at beregne individuelle træningszoner. 📈 <a href="https://www.motionsplan.dk/test-max-puls/" class="read-more-link">Lær om maxpuls</a>
+</details>
+
+<h2 id="hvad-skal-du-bruge-til-testen">Hvad skal du bruge til testen?</h2>
+
+<ul>
+  <li><strong>Løbebånd</strong>. For at gøre målingerne lettere, så løber vi på løbebånd.</li>
+  <li><strong>Iltoptagelsesudstyr</strong>. Testen foregår på løbebånd og med iltoptagelsesudstyr. Her måles iltoptagelsen og udskillelsen af kuldioxid. Da vi kender den <a href="/respiratoriske-metaboliske-udvekslingskvotient/">respiratoriske udvekslingskvotient</a> får vi også indblik i fordelingen af kulhydrat- og fedtforbrænding under testen. Det giver os i nogen grad et indblik i motorens effektivitet.</li>
+  <li><strong>Laktat-måler</strong>. Målingen af iltoptagelse suppleres med laktat-tests for at få endnu højere indblik i metabolismen i kroppen under arbejdet.</li>
+  <li><strong>Pulsmåler</strong>. Vi måler pulsen undervejs. Vi kan iagttage at pulsen bevæger sig lineært med belastningen. Vi henholder pulsen til laktatmålingerne, og vi estimerer en max-puls for løberen.</li>
+</ul>
+
+<h2 id="diagram-over-testen">Diagram over testen</h2>
+
+<figure class="">
+  <img src="/assets/images/motionsplan/incremental-submax-ramp-max.jpg" alt="diagram over trappe max-teststen på løbebånd" loading="lazy" /><figcaption>
+      Diagram over trappetesten til løb.
+
+    </figcaption></figure>
+
+<h2 id="hvad-kan-du-bruge-løbetesten-til">Hvad kan du bruge løbetesten til?</h2>
+
+<p>Vi bruger denne test til at bestemme den fysiske kapacitet ved den aerobe (AeT) og anaerobe tærskel (AT). Samlet kan det give et fyldestgørende billede af udholdenheden for kredsløbet og musklerne.</p>
+
+<p>Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellige intensiteter. Derved får du en måling af, hvor effektivt du bevæger dig.</p>
+
+<p>Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endnu mere præcise svar på, hvordan din krop arbejder ved forskellige intensiteter.</p>
+
+<p>Desuden rammer vi til sidst VO₂peak. Vi kalder det <em>peak</em>, fordi vi ikke kan være helt sikker på, at det er den maksimale iltoptagelse, da det ikke bliver verificeret ved udelukkende maksimal test.</p>
+
+<h2 id="procedure-før-testen">Procedure før testen</h2>
+
+<ul>
+  <li>Testlederen har på forhånd klargjort og kalibreret udstyret inden start.</li>
+  <li>Inden opvarmning tages en prik-måling for at estimere forsøgspersonens laktat-niveau i hvile.</li>
+  <li>Indledningsvist får forsøgspersonen ca. 5-10 minutters opvarmning, der også fungerer som tilvænning til løbebåndet.</li>
+  <li>Dernæst monteres pulsbælte og maske på forsøgspersonen og denne sluttes til gasmålingsudstyret.</li>
+  <li>Der udføres et ukendt antal 3-minutters trin, der hver har højere hastighed end det foregående trin.</li>
+  <li>Hastigheden for det første trin vurderes ud fra personens træningstilstand.</li>
+  <li>Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.</li>
+  <li>Ved udmattelse noteres den maksimale puls og der tages en priktest.</li>
+  <li>Testlederen finder herefter hurtigt de maksimalt opnåede fysiologiske værdier frem på skærmen.</li>
+</ul>
+
+<h2 id="fase-1-submaksimale-test">Fase 1: Submaksimale test</h2>
+
+<p><strong>Opvarmning</strong>. Vi indleder testen med omkring 10 minutters opvarmning.</p>
+
+<p><strong>Vælg starthastighed</strong>. Vi vælger først starthastighed. Det er bedst at være relativt konservativ i starthastigheden. Det er bedre at løberen ender med at løbe et trin for meget end at vi ikke opnår <em>steady state</em> ved de lavere laktatniveauer. Der startes med relativ let intensitet, og sluttes først når løberen ikke længere vil løbe videre.</p>
+
+<p><strong>Testen starter</strong> Herefter starter testen med første hastighed. Hvert 3. minut stiger hastigheden typisk med 1 km/t mellem hvert trin. Vi har valgt tre minutter, da det mindst kræves for at kroppen kommer i en form for steady state på hvert trin.</p>
+
+<p><strong>Hold øje med steady state</strong>. Kroppen skal på de enkelte trin gerne opnå <em>steady state</em>, hvor hele det fysiologiske system tilpasser sig de energikrav, som musklerne kræver for at kunne udføre det pågældende arbejde med den specifikke intensitet.</p>
+
+<p>Når belastningen stiger, så vil en større del af energiomsætningen komme fra anaerobe processer i den arbejdende muskulatur. Det afspejler sig bl.a. i en højere produktion af mælkesyre i muskelcellerne (produkt af den anaerobe glykolyse), der kommer ud i blodet som laktat og brint-ioner (H<sup>+</sup>)-ioner.</p>
+
+<p><strong>Tag laktatmålinger</strong>. Før hver stigning i løbehastighed hopper løberen ud til siden med benene, så forsøgslederen kan foretage en laktatmåling. Laktaktmålingen skal helst foretages på omkring 30 sekunder, så løberen ikke får for lange pauser.</p>
+
+<p><strong>Testen slutter ved brat stigining i laktat</strong>.</p>
+
+<ul>
+  <li>Der udføres tre til fem 5-minutters trin, der hver har højere hastighed/belastning end det foregående trin. Hastigheden/belastningen for det første trin vurderes ud fra personens træningstilstand.</li>
+  <li>Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.</li>
+  <li>Den submaksimale test slutter, når forsøgspersonen opnår en forudbestemt tærskel for laktatindhold i blodet (typisk 4 mmol/l).</li>
+</ul>
+
+<h2 id="fase-2-max-testen">Fase 2: Max-testen</h2>
+
+<ul>
+  <li>Der gives 5-10 minutters hvile for forsøgspersonen.</li>
+  <li>Dernæst startes testen ved den hastighed den submaksimale test sluttede på. Dette trin varer 2 minutter.</li>
+  <li>Herefter øges hældningen på løbebåndet med 2% hvert 11⁄2 minut, indtil at forsøgspersonen når udmattelse.</li>
+  <li>Ved udmattelse noteres den maksimale puls og der tages en priktest.</li>
+</ul>
+
+<h2 id="baggrundsviden-for-testen">Baggrundsviden for testen</h2>
+
+<h3 id="aerobt-og-anaerobt-arbejde">Aerobt og anaerobt arbejde</h3>
+
+<p>Skeletmuskulaturens evne til at danne energi til muskelarbejde beror overordnet set på to processer - de der foregår uden ilt (anaerobt), og de der foregår med ilt (aerobt).</p>
+
+<p>Den samlede energi der leveres til muskelarbejdet under træning vil altid være en sum af de anaerobe og aerobe processer. De vil derfor i sammenspil levere energi til muskelarbejdet.</p>
+
+<p>Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.</p>
+
+<h2 id="hvad-vil-vi-gerne-vinde-i-testen">Hvad vil vi gerne vinde i testen?</h2>
+
+<p>I testen er vi både interesseret i at kigge på <strong>den maksimale iltoptagelseshastighed</strong> (også kaldet VO2max) er oftest brugt som et mål for evnen til at præstere i sportsgrene, hvor den aerobe udholdenhed er en afgørende faktor.</p>
+
+<p>Derudover kigger vi på <strong>submaksimale præstationsevne</strong>.</p>
+
+<p>Ydermere er det for udholdenhedsatleter interessant at kigge på, hvordan deres evne er til at præstere submaksimalt ved en række intensiteter af moderat til høj belastning. Dette gøres oftest ved hjælp af en såkaldt submaksimal test, bestående af en række trin af 3-5 minutters varighed.</p>
+
+<p>Hermed lader man kroppen arbejde sig ind i et såkaldt steady-state, hvor hele det fysiologiske system tilpasser sig netop det energikrav, som musklerne kræver for at kunne udføre det pågældende arbejde i de enkelte trin.</p>
+
+<p>Når belastningen stiger, vil en større og større andel af energiomsætningen komme fra de anaerobe processer i den arbejdende muskulatur, hvilket blandt andet vil afspejle sig ved en større produktion af mælkesyre i muskelcellerne (produkt af den anaerobe glykolyse). Denne mælkesyre dissocierer frit ud i blodet som laktat og brint-ioner.</p>
+
+<p>En træningsforbedring til en submaksimal test vil eksempelvis være, at man ved samme løbehastighed forbruger mindre ilt (bedre løbeøkonomi) og producerer mindre mælkesyre (udtrykt ved lavere laktatkoncentrationer i blodet) efter en periode med træning.</p>
+
+<p>Dette er illustreret i figuren herunder.</p>
+
+<figure class="">
+  <img src="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" alt="" loading="lazy" /></figure>
+
+<p>Oftest taler man om en given “laktat-tærskel”, defineret som den højest mulige træningsintensitet (belastning eller løbehastighed), som en person kan opretholde over lang tid.</p>
+
+<p>Ved denne intensitet vil kroppens maksimale evne til at bortskaffe mælkesyre fra musklen og laktaten fra blodet matche musklens produktion af den. Ved intensiteter over denne “tærskel” vil bortskaffelsen ikke længere kunne følge med produktionen.</p>
+
+<p>Derfor vil koncentrationen af eksempelvis laktat akkumulere eksponentielt i blodet ved fortsat stigende træningsintensiteter.</p>
+
+<p>Det er vigtigt at pointere, at en stigning i koncentrationen af laktat og brint-ioner ikke i sig selv udtrætter musklen (modsat hvad nogle tror), men den har vist sig ofte at hænge tidsmæssigt sammen med musklens gradvise udtrætning ved arbejde af stigende intensitet.</p>
+
+<h2 id="er-testen-vellykket">Er testen vellykket?</h2>
+
+<p>For at vurdere om det er en vellykket test, så kan du kigge på to forskellige ting.</p>
+
+<h3 id="1-er-laktatmålingerne-forudsigelige">1. Er laktatmålingerne forudsigelige?</h3>
+
+<p>Laktatkurven skal gerne have et nogenlunde forudsigelig udvikling. Den skal gerne stige stille og roligt i begyndelsen indtil løberen rammer omkring den anaerobe tærskel, hvor laktatophobningen foregår noget hurtigere.</p>
+
+<h3 id="2-har-løberen-opnået-maksimale-værdier">2. Har løberen opnået maksimale værdier?</h3>
+
+<p>Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale ydeevne.</p>
+
+<ol>
+  <li>Iltoptagelsen opnår steady state og måske falder lidt igen med tiden.</li>
+  <li>Den <a href="/respiratoriske-metaboliske-udvekslingskvotient/">respiratoriske udvekslingskvotient</a> skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.</li>
+  <li>Laktatmåling skal være over 8 mmol.</li>
+  <li>Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan <a href="/test-max-puls/">udregne den maksimale puls</a>.</li>
+  <li>Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.</li>
+</ol>
+
+<p>Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den maksimale iltoptagelse, og at forsøgspersonen således har ydet sit maksimale.</p>
+
+<p class="notice"><strong>Gå i dybden</strong>: <a href="/kriterier-maksimal-iltoptagelsestest/">5 kritierer for en maksimal iltoptagelsestest</a></p>
+
+<h2 id="hvad-er-ulempen-ved-denne-test">Hvad er ulempen ved denne test?</h2>
+
+<p>Testen er rimelig tidskrævende.</p>
+
+<h2 id="meningsfuld-forbedring-i-testen">Meningsfuld forbedring i testen</h2>
+
+<figure class="">
+  <img src="/assets/images/motionsplan/incremental-max-test-results.jpg" alt="laktat og puls kurve ift. hastighed" loading="lazy" /><figcaption>
+      Her er en løber der har gennmført testen før og efter et træningsforløb. Laktatkurven er skubbet til højre, hvilket betyder at både LT1 og LT2 også ligger ved højere hastigheder. Løberen har ganske enkelt fået en mere effektiv motor med flere kræfter.
+
+    </figcaption></figure>
+
+<h2 id="diskussionsspørgsmål">Diskussionsspørgsmål</h2>
+
+<ol>
+  <li>Brug indledningsvist 3-4 minutter på at gennemgå de forskellige fysiologiske parametre, der er nævnt i skemaet (se bilag) i små grupper (ca. 3 personer).</li>
+  <li>I hvilke sportsgrene vil I forvente, at udøverne har et højt kondital (maksimal iltoptagelseshastighed i forhold til kropsvægt)? Begrund jeres svar.</li>
+  <li>Nævn sportsgrene hvor musklens anaerobe evne er mere dominerende end den aerobe. Begrund jeres svar.</li>
+  <li>Nævn fordele og ulemper ved direkte måling af iltoptagelse sammenlignet med eksempelvis en Cooper-test.</li>
+  <li>Hvilke formler for estimering af den maksimale hjertefrekvens (puls) kender I? Hvad er fordelen og ulemper ved disse formler?</li>
+  <li>Hvorfor observeres der typisk en forholdsvis høj puls (sammenlignet med hvilepuls) på forsøgspersonen, lige inden at testen skal begynde?</li>
+  <li>Hvorfor er hvert trin i test 3 minutter?</li>
+  <li>Hvad vil I forvente af udvikling i værdierne for VO2, VCO2 (og R-værdien) undervejs i den
+submaksimale og maksimale test.</li>
+  <li>Hvilken indflydelse har køn på parametre som maksimal iltoptagelseshastighed (VO2) og maksimal minutventilation (VE)?</li>
+  <li>Diskutér efter den maksimale test er afsluttet, om testen kan anses som værende vellykket og om forsøgspersonen har opnået en reel maksimal iltoptagelse (tag udgangspunkt i de fem kriterier).</li>
+  <li>Sammenlign og diskuter det opnåede kondital for forsøgspersonen med normalværdier for befolkningen.</li>
+  <li>Hvorfor er det vigtigt, at forsøgspersonen formår at ”presse” sig selv til det yderste under en maksimal test?</li>
+  <li>Hvilken indflydelse vil I forvente, at en periode med aerob træning vil have på forsøgspersonens fysiologiske parametre under submaksimal testen?</li>
+</ol>
+
+<h2 id="andre-tests-af-iltoptagelse">Andre tests af iltoptagelse</h2>
+
+<p>Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de andre løbetests. Der er mange indirekte tests, hvor du kan estimere din iltoptagelse ud fra dine resultater i testene.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&amp;cs=tinysrgb&amp;fm=jpg&amp;ixlib=rb-1.2.1&amp;raw_url=true&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=10" alt="Løbetests og kondition" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Andre løbetests</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/tests/loeb/" class="btn btn--success">Se flere løbetests</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="konditionstest" /><category term="laboratorium" /><category term="direkte test" /><category term="maksimal test" /><category term="submaksimal test" /><category term="løbetest" /><category term="test" /><category term="laboratorietest" /><category term="iltoptagelsestest" /><summary type="html"><![CDATA[Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til den anaerobe tærskel. Derefter en maksimal test af konditallet.]]></summary></entry><entry><title type="html">Blodlaktattest testprotokol – Tips og tricks 🏃</title><link href="https://www.motionsplan.dk/laktattest/" rel="alternate" type="text/html" title="Blodlaktattest testprotokol – Tips og tricks 🏃" /><published>2025-02-20T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/lactate-test</id><content type="html" xml:base="https://www.motionsplan.dk/laktattest/"><![CDATA[<p>En blodlaktattest giver en værdifuld indsigt i din træningstilstand, og hvordan kroppen arbejder med forskellige intensiteter.</p>
+
+<p>Her får du en guide til, hvordan du udfører en laktattest uden at du nødvendigvis skal besøge et laboratorium.</p>
+
+<p>Kort sagt vil du efterfølgende vide, hvordan testen udføres korrekt, og hvordan du analyserer resultater for at identificere din aerobe tærskel (AeT) og anaerobe tærskel (AnT).</p>
+
+<p>Testen kræver tålmodighed, for det kræver både øvelse og præcision at lave pålidelige laktattests.</p>
+
+<h2 id="hvad-tester-en-blodlaktattest">Hvad tester en blodlaktattest?</h2>
+
+<details class="concept">
+  <summary>🔥 LT1 - Den aerobe tærskel (AeT)</summary>
+  
+  LT1 definerer din aerobe kapacitet - ved dette punkt kan den enkelte muskelfiber stadig bruge det producerede laktat. 🚴‍♂️ <a href="https://www.motionsplan.dk/aerobe-taerskel/" class="read-more-link">Læs om LT1</a>
+</details>
+
+<details class="concept">
+  <summary>⚡ Den anaerobe tærskel (LT2 eller AnT)</summary>
+  
+  LT2 er den maksimale intensitet, hvor kroppen stadig kan balancere laktatniveauet. Over dette punkt stiger laktat hurtigt, og træthed sætter hurtigt ind. ⚡ <a href="https://www.motionsplan.dk/anaerobe-taerskel/" class="read-more-link">Forstå LT2</a>
+</details>
+
+<figure class="">
+  <img src="/assets/images/blog/lactate-testing.png" alt="blodlaktattest med laktatmåler" loading="lazy" /></figure>
+
+<h2 id="hvorfor-lave-en-blodlaktattest">Hvorfor lave en blodlaktattest?</h2>
+
+<p>En blodlaktattest udført korrekt giver dig en indsigt i, hvordan din krop responderer ved forskellige intensiteter.</p>
+
+<p>Skeletmuskulaturens evne til at danne energi til muskelarbejde beror overordnet set på to processer - de der foregår uden ilt (anaerobt), og de der foregår med ilt (aerobt).</p>
+
+<p>Den samlede energi der leveres til muskelarbejdet under træning vil altid være en sum af de anaerobe og aerobe processer. De vil derfor i sammenspil levere energi til muskelarbejdet.</p>
+
+<p>Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.</p>
+
+<p>Når det anaerobe bidrag stiger, så vil den enkelte muskelcelle på et tidspunkt ikke længere kunne forbrænde den producerede mælkesyre selv. Derfor sendes den overskydende mælkesyre ud i blodbanen for at blive <em>off loaded</em> til andre muskelfibre. Det kaldes <strong>aerobe tærskel (AeT)</strong>.</p>
+
+<p>På et tidspunkt kan kroppen ikke længere fjerne laktat lige så hurtigt som den produceres. Kroppen er ikke længere i steady state. Det punkt hvor kroppen lige netop stadig kan nå at fjerne laktaten kaldes den <strong>anaerobe tærskel (AnT)</strong>.</p>
+
+<h2 id="valg-af-en-håndholdt-blodlaktatmåler">Valg af en håndholdt blodlaktatmåler</h2>
+
+<p>Du har brug for en laktatmåler for at kunne lave en laktat-test. En laktatmåling er meget følsom.</p>
+
+<hr />
+
+<details>
+  <summary>Lactate Scout 4 eller Sport</summary>
+
+  <p>Vi bruger Lactate Scout 4 eller Sport modellen på Vejle Idrætshøjskole. Vi har rigtig gode erfaringer med den måler, men det er ikke billigt at lave laktatmålinger. Selve måleren koster er ikke den billigste og laktatstrips er også kostbare.</p>
+
+  <p><strong>Fordele ved Lactate Lactate Scout:</strong></p>
+
+  <ul>
+    <li>Kræver kun en meget lille bloddråbe (0,7 mikroliter), hvilket gør testen mindre smertefuld</li>
+    <li>Hurtig aflæsning på kun 10 sekunder</li>
+  </ul>
+
+  <p><strong>Ulemper ved Lactate Scout:</strong></p>
+
+  <ul>
+    <li>Følsom over for fejl, hvis blodprøven er for lille eller uren</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Lactate Plus – Den mest anvendte måler</summary>
+
+  <p>Lactate Plus fra Nova Biomedical er en ret populær måler. Den er rimeligt prissat, og teststrimlerne er billigere end dem til andre målere.</p>
+
+  <p><strong>Fordele ved Lactate Plus:</strong></p>
+
+  <ul>
+    <li>Kræver kun en meget lille bloddråbe (0,7 mikroliter), hvilket gør testen mindre smertefuld</li>
+    <li>Overkommelig pris</li>
+    <li>Hurtig aflæsning på kun 13 sekunder</li>
+  </ul>
+
+  <p><strong>Ulemper ved Lactate Plus:</strong></p>
+
+  <ul>
+    <li>Følsom over for fejl, især hvis blodprøven er for lille</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Accutrend Plus kolesterol- og laktatmåler</summary>
+
+  <p>Accutrend Plus kolesterolmåler kan også måle laktat med de passende striber. Det er den billigste af målerne, men jeg har ikke afprøvet den selv.</p>
+
+  <p><strong>Fordele ved Accutrend Plus:</strong></p>
+
+  <ul>
+    <li>Kræver kun en meget lille bloddråbe (0,7 mikroliter), hvilket gør testen mindre smertefuld</li>
+    <li>Overkommelig pris</li>
+    <li>Hurtig aflæsning på kun 13 sekunder</li>
+  </ul>
+
+  <p><strong>Ulemper ved Accutrend Plus:</strong></p>
+
+  <ul>
+    <li>Følsom over for fejl, især hvis blodprøven er for lille</li>
+  </ul>
+
+  <p>Du kan købe den hos <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=28715&amp;htmlurl=https://www.helsebixen.dk/shop/accutrend-bm-lactate-kontrol-2-x-4-ml.html" rel="sponsored nofollow noopener">Helsebixen</a>.</p>
+</details>
+
+<hr />
+
+<p>For at undgå fejlmålinger har vi samlet en række anbefalinger til, hvordan du sikrer en præcis test.</p>
+
+<h2 id="sådan-får-du-en-god-blodprøve">Sådan får du en god blodprøve</h2>
+
+<p>Når du skal tage blodprøven skal du være meget omhyggelig. Hvis der kommer de mindste urenheder med i prøven, så får du nemlig nogle målinger, som er helt hen i vejret.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="80a7OHZFu-8">
+      <meta itemprop="name" content="Blodlaktattest testprotokol – Tips og tricks 🏃" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/80a7OHZFu-8/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-02-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/80a7OHZFu-8" />
+      <meta itemprop="description" content="Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin vejledning til at bruge en håndholdt laktatmåler og optimere din træning." />
+      <a href="https://www.youtube.com/watch?v=80a7OHZFu-8" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/80a7OHZFu-8/hqdefault.jpg" loading="lazy" alt="video til Blodlaktattest testprotokol – Tips og tricks 🏃" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<details>
+  <summary>📌 Tips til en god blodprøve</summary>
+
+- **Brug en passende lancet** – Den nål du stikker med skal være tyk stor nok, så der kommer en passende dråbe blod ud. Det reducerer fejlmålinger. En dybere prikning er også med til at give en større bloddråbe og bedre måling.
+- **Undgå tyndt og vandigt blod** – Hvis blodet er meget flydende, så kan det være forurenet med sved eller atleten kan være overhydreret.
+- **Forbered dit udstyr** – Hav alt klar, inden du starter: måler, strimler, lancet og papirhåndklæder. Forbered dig altid lidt før du skal i gang med testen.
+- **Stabilisér din hånd** – Hvis du tester en anden person, så find en stabil position for at undgå rystelser. Du skal være meget præcis, så du kun rammer selve bloddråben med måleren.
+- **Varm hænderne op før testen** – Når det er koldt, så hæmmes blodgennemstrømningen og gør det sværere at få en god prøve.
+- **Tør den første dråbe væk** – Dette fjerner eventuelle urenheder, som kan påvirke målingen.
+- **Test den anden dråbe - uden at røre huden** – Når du tester blodet, skal du sikre dig, at strimlen kun berører bloddråben og ikke huden, da dette ellers kan give fejllæsninger.
+
+</details>
+
+<h2 id="blodlaktattest--protokol-for-en-præcis-måling">Blodlaktattest – Protokol for en præcis måling</h2>
+
+<p>For at udføre en blodlaktattest korrekt skal du tage prøver under opvarmningen og derefter ved slutningen af hver arbejdsperiode (typisk hver 3.-5. minut).</p>
+
+<h3 id="forberedelse">Forberedelse</h3>
+
+<ul>
+  <li>Nemmest at udføre på et løbebånd eller cykelergometer, men gentagne runder udendørs fungerer også.</li>
+  <li>Testen bør udføres på en hældning, der svarer til din normale træning.</li>
+  <li>Ingen faste nødvendig, men undgå mad inden for 60 minutter før testen.</li>
+  <li>Undgå koffein i mindst 4 timer før testen.</li>
+  <li>Følg samme protokol ved gentagne tests for sammenlignelige resultater.</li>
+  <li>Tag en hvilelaktatmåling før testen starter.</li>
+  <li>Forhøjet hvilelaktat (over 2–2,5mMol/L) kan indikere:
+    <ul>
+      <li>Øget glykolytisk aktivitet (f.eks. pga. sukkerindtag før testen).</li>
+      <li>Dårlig fedtmetabolisme, hvilket kan kræve ændringer i træning eller kost.</li>
+      <li>Det er nyttigt at kende hvilelaktatniveauet, da det giver indsigt i din metaboliske tilstand.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="opvarmning">Opvarmning</h3>
+
+<ul>
+  <li>Varm langsomt op i 15-20 minutter ved meget lav intensitet. Det tager noget tid at få startet det aerobe system og før det begynder at arbejde effektivt.</li>
+  <li>Tag nogle blodprøver under opvarmningen for at få et referencepunkt.</li>
+</ul>
+
+<h3 id="testprotokol">Testprotokol</h3>
+
+<ul>
+  <li>Start på en meget lav intensitet – det kan endda være gang. Hvis du starter for hurtigt risikerer du at misse den aerobe tærskel.</li>
+  <li>Hver intensitetsperiode varer mindst 3 minutter, før intensiteten øges. Dette er det mindste tidsrum før kroppen kommer i <em>steady state</em> på det enkelte trin. Hvis du hæver intensiteten for hurtigt, så kommer det aerobe system til at være bagefter hele tiden.</li>
+  <li>Øg intensiteten gradvist – maksimalt 10 pulsslag pr. minut ad gangen.</li>
+  <li>Testen kan udføres på et løbebånd eller udendørs. Hvis du tester udendørs, så vælg en rute med en hældning, der ligner din typiske træningsterræn.</li>
+</ul>
+
+<h2 id="sådan-vælger-du-intensitet-for-første-stadie">Sådan vælger du intensitet for første stadie</h2>
+
+<p>Under opvarmningen vil laktatniveauet normalt falde gradvist og derefter stige igen. Dette kan hjælpe med at fastlægge intensiteten for testens første trin. Her er nogle tips til en vellykket test:</p>
+
+<ul>
+  <li><strong>Start med en lavere puls, end du tror er nødvendig.</strong>  Det er vigtigt at nærme sig den aerobe tærskel (AeT) langsomt fra neden.  Hvis du starter for højt, kan det være svært at fastslå den præcise tærskel. En langsom tilgang giver flere datapunkter, hvilket forbedrer testens kvalitet.</li>
+  <li><strong>Brug mindst 3-minutters intensitetstrin.</strong> Længere trin på 4-5 minutter er også acceptable.</li>
+  <li><strong>Hæv intensiteten gradvist.</strong> Hvert nyt trin bør øge pulsen med maks. 10 slag. På løbebånd kan dette gøres ved gradvist at øge hastighed eller hældning. Ved udendørs test skal udøveren selv styre intensiteten. Det er vigtigt at kunne holde et stabilt tempo og puls for at sikre pålidelige data.</li>
+</ul>
+
+<h2 id="hvornår-skal-testen-stoppes">Hvornår skal testen stoppes?</h2>
+
+<p>Det kommer an på dit formål. Her er et par forskellige bud i forhold til dit mål med testen.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Måling</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aerob tærskel</td>
+      <td>Stop testen, når laktatniveauet overstiger 3 mmol/l eller det er steget med 1 mmol/l fra det laveste niveau.</td>
+    </tr>
+    <tr>
+      <td>Aerob tærskel og anaerob tærskel</td>
+      <td>Stop testen når laktatniveauet overstiger 4 mmol/l eller der har været en pludselig høj stigning i laktatniveau.</td>
+    </tr>
+    <tr>
+      <td>Fuld laktatprofil</td>
+      <td>Stop testen når atleten er udmattet og ikke kan arbejde længere.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="registrering-af-data">Registrering af data</h3>
+
+<ul>
+  <li>Notér pulsen og laktatniveauet for hvert intensitetsniveau.</li>
+  <li>Brug dataene til at plotte laktatniveau i forhold til puls og identificér din AeT og AnT.</li>
+  <li>Hvis du får en urealistisk måling (fx 0,3 eller 13,6 mmol/l), så tag en ny prøve, inden du øger intensiteten.</li>
+</ul>
+
+<h2 id="hvad-er-den-aerobe-tærskel-aet">Hvad er den aerobe tærskel (AeT)?</h2>
+
+<p>Ved at bruge en laktatmåler kan vi fastslå din aerobe tærskel. Denne tærskel markerer det øverste niveau af din zone 2-træning, og testen kan også være med til at afsløre, hvis du har en aerob træningsmangel af din udholdenhed.</p>
+
+<p>Alle atleter kan drage fordel af en stærk aerob base. Ved at kende den aerobe tærskel kan du optimere din træning af dit udholdenhedssystem.</p>
+
+<p>Der er flere måder at find din aerobe tærskel på, men en blodlaktattest er en af de mest præcise.</p>
+
+<p>Der er forskellige definitioner af den aerobe tærskel.</p>
+
+<ul>
+  <li><strong>Blodlaktatkoncentration på 2mmol/l</strong>. Nogle studier nævner også 2,5 mmol/l.</li>
+  <li><strong>Laktatkoncentrationen stiger med 1 mmol/l</strong> over den laveste værdi målt i hvile eller under opvarmning.</li>
+  <li><strong>Første bøjningspunkt på laktatkurven</strong>. Andre definerer den aerobe tærskel på denne måde.</li>
+</ul>
+
+<p>Uanset hvilken metode du vælger til at bestemme den aerobe tærskel, er det vigtigste at være konsekvent, når du senere tester folk igen for at kunne sammenligne deres resultater.</p>
+
+<h2 id="blodlaktattest-for-den-anaerobe-tærskel-ant">Blodlaktattest for den anaerobe tærskel (AnT)</h2>
+
+<p>Den anaerobe tærskel (AnT) er det punkt, hvor laktat ophobes hurtigt, og intensiteten kun kan opretholdes i 20-60 minutter. Det svarer til den maksimale bæredygtige indsats for en udholdenhedsatlet.</p>
+
+<p>Den klassiske metode til at identificere AnT er at finde bøjningspunktet på laktatkurven, hvor laktatniveauet stiger markant. Dog kan denne metode have udfordringer, såsom kortvarige udsving og vanskeligheder ved at tage præcise målinger under høj intensitet.</p>
+
+<p>For at validere resultaterne kan du supplere blodlaktattesten med en feltbaseret AnT-test, hvor du udfører en maksimal indsats over 20-60 minutter og noterer gennemsnitspulsen.</p>
+
+<h2 id="fortolkning-af-resultaterne-fra-din-blodlaktattest">Fortolkning af resultaterne fra din blodlaktattest</h2>
+
+<p>Nu har du lavet en succesfuld test. Hvordan kan du så fortolke resultaterne?</p>
+
+<p>Du kan plotte resultaterne med blodlaktatmålingerne op ad y-aksen, mens du enten kan have pulsen eller intensiteten på x-aksen.</p>
+
+<p>Værdierne på x-aksen kan variere meget mellem atleter. Hvis du fx bruger pulsen, så kan du opleve en person med med en hvilepuls på 40 og en maxpuls på 170 og en anden med samme præstationer i konkurrencer kan have en hvilepuls på 55 og en maksimal puls på 200.</p>
+
+<p>Det vigtigste at kigge på, når du fortolker resultaterne er formen på kurven. Testen giver den enkelte en personlig sammenhæng mellem intensitet eller puls og laktatniveauerne.</p>
+
+<p>Først skal du prøve at identificere den aerobe tærskel og den anaerobe tærskel visuelt på kurverne. Du kan støtte dig til beregninger af punkterne for at blive mere sikker på din fortolkning.</p>
+
+<h2 id="eksempelresultater-en-atlet-med-aerob-mangel">Eksempelresultater: En atlet med aerob mangel</h2>
+
+<p>Her har du et eksempel med en atlet <a href="https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/">uphillathlete.com</a> har testet.</p>
+
+<p>En af de nyttige opdagelser gennem en laktattest kan være en indikation af atletens aerobe tærskel. Altså hvor god er basen.</p>
+
+<p>Denne atlet starter med en aerob base, der ikke er særlig veludviklet.</p>
+
+<h3 id="test-1">Test #1</h3>
+
+<ul>
+  <li>Laktatniveauet starter over 2 mmol/l og stiger støt gennem testen. <strong>Fortolkning</strong>: Den aerobe energiproduktion er ineffektiv og en stor del af energien selv ved de lavere pulszoner kommer fra glykolyse.</li>
+  <li>Atleten overstiger 3 mmol/l ved en puls på 118 bpm. Det er en stigning på over 1 mmol/l over den laveste værdi. Derfor fastsættes det til den aerobe tærskel.</li>
+  <li>Udfladning i laktatniveau mellem 140 og 150 tyder på, at atleten har noget effektivitet i dette område, formenlig fordi en del af træningen er brugt her.</li>
+  <li>Laktatkurven knækker markant ved puls 160 bpm, hvilket tyder på at dette er den anaerobe tærskel.</li>
+</ul>
+
+<p><strong>Anbefaling:</strong> Uphillathlete anbefalede atleten at træne i pulszonen omkring 115-118 bpm i flere måneder for at forbedre den aerobe kapacitet og udholdenhed.</p>
+
+<figure class="">
+  <img src="https://uphillathlete.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-03-at-08.32.32.png" alt="" loading="lazy" /><figcaption>
+      Grøn pil: Zoner 1–2 - Gul pil: Zone 3 - 
+Rød pil: Zone 4 - Kilde: <a href="https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/">uphillathlete.com</a>
+
+    </figcaption></figure>
+
+<h3 id="test-2--efter-seks-måneders-aerob-basetræning">Test #2 – Efter seks måneders aerob basetræning</h3>
+
+<p>Efter seks måneders aerob grundtræning gentager atleten testen. Resultaterne er vist nedenfor.</p>
+
+<ul>
+  <li>Klassisk fald i laktat under de første belastningsniveauer. Det aerobe system bruger laktat som brændstof hurtigere end produktionen. Atleten opnår 2 mmol/l ved en puls på 150 bpm. Det fortolkes som den nye aerobe tærskel. (En forbedring på 30 bpm med seks måneders lav-intensitetstræning med høj volumen).</li>
+  <li>Laktatkurven er meget flad omkring 120 bpm, hvilket antyer at atleten har tilbragt en stor del af sin træningstid ved denne intensitet.</li>
+  <li>Den anaerobe tærskel (AnT) er steget en smule til 165 bpm, hvilket er en beskeden forbedring, men atleten har heller ikke lavet nogen intensiv træning.</li>
+  <li>Zone 4 er uændret, da der ikke er blevet fokuseret på højintensitetstræning.</li>
+</ul>
+
+<p>Den aerobe mangel er rettet, og atleten kan tilføje en lille mængde højintensitetstræning for at forbedre sin anaerobe tærskel (AnT) yderligere. Samtidig kan atleten fortsat fokusere på høj volumen af lav-intensitetstræning for yderligere at hæve sin aerobe tærskel (AeT).</p>
+
+<p>Denne proces med aerob grundtræning kan fortsætte i årevis, cyklus efter cyklus, hvor hver træningsperiode kan føre til højere AeT-hastigheder – og i nogle tilfælde også en højere puls ved AeT.</p>
+
+<figure class="">
+  <img src="https://uphillathlete.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-03-at-08.31.47.png" alt="" loading="lazy" /><figcaption>
+      Grøn pil: Zoner 1–2 - Gul pil: Zone 3 - Rød pil: Zone 4 - Kilde: <a href="https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/">uphillathlete.com</a>
+
+    </figcaption></figure>
+
+<p>Det er væsentligt konstant at arbejde med den aerobe grundtræning for at have en god base, som den højintense træning kan skærpe.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>En blodlaktattest giver præcise indsigter i din aerobe og anaerobe kapacitet. Uanset om du har en god aerob base eller lider af aerob mangel, kan testen hjælpe dig med at målrette din træning korrekt.</p>
+
+<p>Hvis du opdager, at du har en lav Aerob Tærskel (AeT), er den bedste løsning at bruge flere måneder på høj volumen, lav-intensitetstræning. Når du har bygget en stærk aerob base, kan du gradvist inkludere højintensitetstræning for at forbedre din Anaerobe Tærskel (AnT).</p>
+
+<p>Ved at bruge blodlaktattests systematisk kan du løbende overvåge dine fremskridt og sikre, at du træner så effektivt som muligt!</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="17NFLGUJ3Pw">
+      <meta itemprop="name" content="Blodlaktattest testprotokol – Tips og tricks 🏃" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/17NFLGUJ3Pw/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-02-20T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/17NFLGUJ3Pw" />
+      <meta itemprop="description" content="Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin vejledning til at bruge en håndholdt laktatmåler og optimere din træning." />
+      <a href="https://www.youtube.com/watch?v=17NFLGUJ3Pw" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/17NFLGUJ3Pw/hqdefault.jpg" loading="lazy" alt="video til Blodlaktattest testprotokol – Tips og tricks 🏃" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3>Hvorfor starter laktatmålingerne sommetider på 2 mmol/l eller højere?</h3></summary>
+<p>Der kan være et par forskellige grunde til dette usædvanlige forløb.</p>
+
+<ol>
+  <li>Atleten er træt på forhånd. Hvis det er en lille ophobning af mælkesyre, vil værdierne sommetider stablisere sig. Men uanset hvad så er det vigtigt at komme frisk ind i testen.</li>
+  <li>Atleten har spist sukkerholdig mad kort tid før testen. Typisk vil målingerne dog begynde at stabilisere sig på lavere niveauer gennem opvarmningen eller de første arbejdsintervaller.</li>
+  <li>Ineffektivt aerob system eller aerob mangel. Atleten kan have en uudviklet aerob kapacitet og kan ikke forbruge den producerede laktat.</li>
+</ol>
+
+</details>
+
+<details class="faq">
+<summary><h3>Hvad er aerob mangel?</h3></summary>
+<p>Sommetider ser man laktatniveauer, der starter over 2 mmol/l og fortsætter med at stige. Dette kan skyldes, at atleten har lavet meget højintensitetstræning mange gange om ugen. Det skærper det glykolytiske system</p>
+
+<p>Hvis det ikke suppleres med træning i zone 1 og 2, som kan opbygge den aerobe base, så står atleten tilbage med et underudviklet aerobt system, som ikke effektivt kan forbrænde næringsstofferne og bruge laktat som energikilde.</p>
+
+<p>I nogle tilfælde er eneste mulighed ifølge <a href="https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/">Uphillathlete</a> at stoppe alt højintensitetstræning og skifte til træning med lav intensitet.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvorfor starter laktatmålingerne sommetider på 2 mmol/l eller højere?","acceptedAnswer":{"@type":"Answer","text":"Der kan være et par forskellige grunde til dette usædvanlige forløb.\n\n<ol>\n  <li>Atleten er træt på forhånd. Hvis det er en lille ophobning af mælkesyre, vil værdierne sommetider stablisere sig. Men uanset hvad så er det vigtigt at komme frisk ind i testen.</li>\n  <li>Atleten har spist sukkerholdig mad kort tid før testen. Typisk vil målingerne dog begynde at stabilisere sig på lavere niveauer gennem opvarmningen eller de første arbejdsintervaller.</li>\n  <li>Ineffektivt aerob system eller aerob mangel. Atleten kan have en uudviklet aerob kapacitet og kan ikke forbruge den producerede laktat.</li>\n</ol>\n"}},{"@type":"Question","name":"Hvad er aerob mangel?","acceptedAnswer":{"@type":"Answer","text":"Sommetider ser man laktatniveauer, der starter over 2 mmol/l og fortsætter med at stige. Dette kan skyldes, at atleten har lavet meget højintensitetstræning mange gange om ugen. Det skærper det glykolytiske system\n\nHvis det ikke suppleres med træning i zone 1 og 2, som kan opbygge den aerobe base, så står atleten tilbage med et underudviklet aerobt system, som ikke effektivt kan forbrænde næringsstofferne og bruge laktat som energikilde.\n\nI nogle tilfælde er eneste mulighed ifølge <a href='https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/'>Uphillathlete</a> at stoppe alt højintensitetstræning og skifte til træning med lav intensitet.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/">Blood Lactate Test Protocol - Tips and Tricks</a> fra Uphill Athlete.</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="konditionstest" /><category term="laboratorium" /><category term="direkte test" /><category term="maksimal test" /><category term="submaksimal test" /><category term="løbetest" /><category term="test" /><category term="laboratorietest" /><summary type="html"><![CDATA[Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin vejledning til at bruge en håndholdt laktatmåler og optimere din træning.]]></summary></entry><entry><title type="html">6 kritierer for en maksimal iltoptagelsestest</title><link href="https://www.motionsplan.dk/kriterier-maksimal-iltoptagelsestest/" rel="alternate" type="text/html" title="6 kritierer for en maksimal iltoptagelsestest" /><published>2025-02-20T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/vo2max-test-kriterier</id><content type="html" xml:base="https://www.motionsplan.dk/kriterier-maksimal-iltoptagelsestest/"><![CDATA[<p>Maksimal iltoptagelse (VO₂max) er et afgørende mål for din aerobe kapacitet og en vigtig indikator for din kondition. Men hvordan ved vi, om en person virkelig har nået sin maksimale iltoptagelse under en test?</p>
+
+<p>For at sikre en præcis vurdering benytter forskere og fysiologer en række kriterier, der hjælper med at afgøre, om en testperson har nået sit fysiologiske loft. Her gennemgår vi seks af de mest anvendte kriterier for at bestemme, om VO₂max er opnået under en test.</p>
+
+<h2 id="hvilke-begreber-snakker-vi-om">Hvilke begreber snakker vi om?</h2>
+
+<details class="concept">
+  <summary>🫁 Maksimal iltoptagelse (VO2max) (l/min)</summary>
+  
+  Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O2) kroppen optager pr. minut. <a href="https://www.motionsplan.dk/maksimale-iltoptagelse-vo2max/" class="read-more-link">Mere om VO2max</a>
+</details>
+
+<h2 id="1-iltoptagelsen-opnår-steady-state">1. Iltoptagelsen opnår steady state</h2>
+
+<p>Når en person når sin maksimale iltoptagelse, vil VO₂ typisk flade ud trods stigende belastning. Dette kaldes <strong>steady state</strong>, hvor kroppen ikke længere kan øge sin iltoptagelse, selvom intensiteten øges. I nogle tilfælde kan iltoptagelsen endda falde en smule på grund af udmattelse.</p>
+
+<p>Et plateau i VO₂ er en af de mest sikre indikatorer for, at maksimal iltoptagelse er nået. Hvis der ikke observeres en udfladning, kan det være tegn på, at testen blev stoppet for tidligt, eller at forsøgspersonen ikke gav sig fuldt ud.</p>
+
+<h2 id="2-respiratoriske-kvotient-rq--115">2. Respiratoriske kvotient (RQ) &gt; 1,15</h2>
+
+<p>Den <a href="/respiratoriske-metaboliske-udvekslingskvotient/">respiratoriske udvekslingskvotient</a> (RQ) beskriver forholdet mellem iltoptagelse og kuldioxidudskillelse. Ved maksimal anstrengelse overstiger RQ typisk <strong>1,15</strong>, hvilket indikerer, at kroppen hyperventilerer og primært forbrænder kulhydrat frem for fedt som energikilde.</p>
+
+<p>En høj RQ betyder, at kroppen arbejder tæt på sin grænse og skifter til anaerob metabolisme for at producere energi.</p>
+
+<h2 id="3-laktat--8-mmol">3. Laktat &gt; 8 mmol</h2>
+
+<p>Under maksimal belastning vil mælkesyrekoncentrationen i blodet stige kraftigt. En <strong>laktatkoncentration over 8 mmol/l</strong> betragtes som en markør for, at testen har været tilstrækkeligt udmattende.</p>
+
+<p>Dog kan denne værdi variere afhængigt af træningstilstand og individuelle forskelle. Veltrænede udholdenhedsatleter kan nå højere laktatniveauer uden at opleve udmattelse, mens utrænede personer kan ophobe laktat hurtigere.</p>
+
+<h2 id="4-pulsen--220---alder--10">4. Pulsen &gt; 220 - alder ± 10</h2>
+
+<p>Den maksimale puls (HRmax) estimeres ofte ved formlen <strong>220 - alder</strong>. En test anses for at være maksimal, hvis forsøgspersonen når en puls inden for <strong>±10 slag af den estimerede HRmax</strong>.</p>
+
+<p>Dog er der individuelle forskelle, og nogle personer kan have en naturligt højere eller lavere maksimalpuls end formlen forudsiger. <a href="/test-max-puls/">Her kan du beregne din maksimale puls.</a></p>
+
+<h2 id="5-ve--vo--35">5. (VE) / (VO₂) &gt; 35</h2>
+
+<p>Forholdet mellem ventilation (VE) og iltoptagelse (VO₂) kaldes den ventilatoriske ækvivalent for ilt. Ved maksimal indsats overstiger dette forhold typisk <strong>35</strong>, hvilket afspejler en markant øget vejrtrækning i et forsøg på at levere ilt til musklerne og fjerne overskydende CO₂.</p>
+
+<p>En høj værdi tyder på, at vejrtrækningen er tæt på sin grænse, hvilket er en anden indikator for, at maksimal indsats er opnået.</p>
+
+<h2 id="6-rpe--9">6. RPE &gt; 9</h2>
+
+<p><strong>Rate of Perceived Exertion (RPE)</strong> er en subjektiv skala, hvor testpersonen vurderer sin anstrengelse på en skala fra 1 til 10. En test betragtes som maksimal, hvis forsøgspersonen angiver en RPE på <strong>9 eller højere</strong> – altså meget tæt på total udmattelse.</p>
+
+<p>Selvom RPE er subjektiv, har studier vist, at det er en pålidelig indikator for, om en test er maksimal.</p>
+
+<figure class="">
+  <img src="/assets/images/motionsplan/kriterier-vo2max-test.jpg" alt="kriterier for vo2 max test" loading="lazy" /></figure>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>For at vurdere, om VO₂max er opnået i en test, bruges en kombination af fysiologiske og subjektive kriterier. Ingen af disse kriterier alene kan give et endegyldigt svar, men hvis flere af dem er opfyldt samtidig, er det sandsynligt, at forsøgspersonen har ydet sit maksimale.</p>
+
+<p>En test betragtes som valid, hvis:</p>
+
+<ul>
+  <li>VO₂ når et plateau (steady state)</li>
+  <li>Respiratorisk kvotient overstiger 1,15</li>
+  <li>Laktatniveauet er over 8 mmol/l</li>
+  <li>Pulsen når nær den estimerede maxpuls</li>
+  <li>VE/VO₂ overstiger 35</li>
+  <li>RPE vurderes til 9 eller højere</li>
+</ul>
+
+<p>Hvis disse kriterier er opfyldt, kan vi med stor sikkerhed sige, at testpersonen har nået sin maksimale iltoptagelse.</p>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ol>
+    <li>Åstrand, P.-O., Rodahl, K., Dahl, H. A., &amp; Strømme, S. B. (2003). <em>Textbook of Work Physiology: Physiological Bases of Exercise</em> (4th ed.). Human Kinetics.</li>
+    <li>Bassett, D. R., &amp; Howley, E. T. (2000). Limiting factors for maximum oxygen uptake and determinants of endurance performance. <em>Medicine &amp; Science in Sports &amp; Exercise, 32</em>(1), 70-84.</li>
+    <li>Poole, D. C., &amp; Jones, A. M. (2012). Oxygen uptake kinetics. <em>Comprehensive Physiology, 2</em>(2), 933-996.</li>
+    <li>Wasserman, K., Hansen, J. E., Sue, D. Y., Stringer, W. W., Whipp, B. J. (2011). <em>Principles of Exercise Testing and Interpretation</em> (5th ed.). Lippincott Williams &amp; Wilkins.</li>
+    <li>Bentley, D. J., Newell, J., &amp; Bishop, D. (2007). Incremental exercise test design and analysis. <em>Sports Medicine, 37</em>(7), 575-586.</li>
+    <li>Faude, O., Kindermann, W., &amp; Meyer, T. (2009). Lactate threshold concepts. <em>Sports Medicine, 39</em>(6), 469-490.</li>
+    <li>Borg, G. (1998). <em>Borg’s Perceived Exertion and Pain Scales.</em> Human Kinetics.</li>
+    <li>Midgley, A. W., &amp; Carroll, S. (2009). Emergence of the verification phase procedure for confirming maximal oxygen uptake. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 19</em>(3), 313-322.</li>
+    <li>Robergs, R. A., &amp; Burnett, A. (2003). Methods used to process data from indirect calorimetry and their impact on VO₂max. <em>Journal of Exercise Physiology, 6</em>(2), 25-35.</li>
+  </ol>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="viden om" /><category term="laboratorium" /><summary type="html"><![CDATA[Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Her gennemgår vi 6 videnskabelige kriterier, der bruges til at vurdere, om du har ydet dit maksimale.]]></summary></entry></feed>
