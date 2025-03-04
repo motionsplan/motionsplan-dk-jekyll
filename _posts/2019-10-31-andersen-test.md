@@ -1,7 +1,8 @@
 ---
 title: &title "Andersen Test: Beregn kondital for børn og unge"
 seo_title: "Andersen Test: Find kondital for børn og unge (Beregner)"
-description: "Vil du finde kondital for børn og unge? Download skema og beregner til Andersen testen, som er konditionstest, der er let at organisere."
+description: "Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering af deres kondition."
+excerpt: "Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering af deres kondition."
 permalink: /andersen-test/
 language: da
 header:
