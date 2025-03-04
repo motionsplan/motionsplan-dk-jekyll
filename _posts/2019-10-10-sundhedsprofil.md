@@ -36,14 +36,6 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_references:
-  - image_path: https://cdn6.tales.dk/00045/54433/cover.1581291718.jpg
-    title: "Measurement and Evaluation in Human Performance"
-    alt: Measurement and Evaluation in Human Performance
-    excerpt: "af Jr., Minsoo Kang, Dale P. Mood, James R. Morrow, James G. Disch"
-    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/measurement-and-evaluation-in-human-performance_minsoo-kang_9781450470438"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
     alt: "ACSM's Guidelines for Exercise Testing and Prescription"
     title: "ACSM's Guidelines for Exercise Testing and Prescription"

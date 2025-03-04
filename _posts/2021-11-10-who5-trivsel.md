@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 feature_row:
-  - url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/besat-af-traening-naar-sund-motion-bliver-til-skadelig-afhaengighed_mia-beck-lichtenstein_9788777068515
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/besat-af-traening_mia-beck-lichtenstein_haeftet_9788777068515
     image_path: https://cdn6.tales.dk/00002/10544/cover.20160910.jpg
     title: "Besat af træning"
     excerpt: "Denne bog er den første på dansk, der omhandler den overdrevne og ekstreme træningsiver, som i nogle tilfælde kan udvikle sig til en negativ afhængighedstilstand. Bogen er skrevet af Mia Beck Lichtenstein."

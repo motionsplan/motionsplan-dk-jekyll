@@ -34,13 +34,6 @@ feature_row_books:
     btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00002/22072/cover.20160910.jpg
-    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/hold-vejret-en-bog-om-fridykning_morten-rosenvold-villadsen_9788799089758
-    title: Hold vejret
-    excerpt: "Morten Rosenvold Villadsens bog handler om fridykning og om at lære teknikker i forhold til åndedrættet og vejrtrækningn. Lær også om mental og fysisk træning og få det illustreret med fremragende fotos af nogle af verdens bedste undervandsfotografer."
-    btn_label: Se prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
 ---
 
 Din vejrtrækning kan forbedres gennem åndedrætstræning. Når man lærer at trække vejret optimalt kan det have indflydelse på dit energiniveau, stressniveau og restitution. Det kan helt sikkert betale sig at lave øvelser med åndedrætstræning for langt de fleste mennesker.

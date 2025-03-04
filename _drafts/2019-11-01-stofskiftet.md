@@ -18,9 +18,10 @@ feature_row:
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303"
     btn_label: "Læs mere*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
     alt: "Menneskets ernæring"
     title: "Menneskets ernæring"
@@ -28,6 +29,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
     btn_label: "Læs mere*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 keywords:
   - stofskiftet
   - hvad er stofskiftet

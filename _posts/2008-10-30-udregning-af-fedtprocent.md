@@ -30,7 +30,7 @@ feature_row:
     title: Exercise Physiology - Nutrition, Energy, and Human Performance
     excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L.
       Katch - og indeholder bl.a. formlen til at udregne fedtprocenten.
-    url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
     btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
@@ -43,7 +43,7 @@ faq:
   - question: Hvad er en normal fedtprocent?
     answer: En normal fedtprocent er forskellig for mænd og kvinder. En sund fedtprocent for mænd ligger mellem 8% til 25% alt efter alderen. En normal fedtprocent hos kvinder ligger på 21% til 36% alt efter alderen. Kvinder har ganske enkelt en større mængde fedt i forhold til deres kropsvægt. Du kan læse mere om [normal fedtprocent for kvinder og mænd](/fedtprocent-normer/).
   - question: Hvordan kan man måle fedtprocent?
-    answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/) med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/artikel/inbody-570-bioimpedans/) på en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/maal-fedtprocent/).
+    answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/) med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/bioimpedans-maaling/) på en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/maal-fedtprocent/).
   - question: Kan man have for lav fedtprocent?
     answer: Du kan sagtens have for lav fedtprocent. Fedt er en helt essentiel del af kroppens processer. Derfor der det også godt at holde sig inden for den anbefalede fedtprocent. Hvis du allerede har en meget lav fedtprocent, så kan det gå ud over din sundhed, hvis du går efter en lavere fedtprocent.
   - question: Kan man have for høj fedtprocent?

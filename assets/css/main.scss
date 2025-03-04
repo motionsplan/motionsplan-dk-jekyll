@@ -706,3 +706,47 @@ form.newsletter {
   content: "💡";
 }
 
+
+/* FILTER TABLE */
+
+.filter-table-input {
+  background-image: url('/assets/images/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+.filter-table {
+  display: block;
+  table-layout: auto;
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+  table-layout: auto;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.filter-table th, .filter-table td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+  width: auto; /* Allow dynamic column width */
+  word-wrap: break-word; /* Prevent overflow */
+  white-space: normal;
+}
+
+.filter-table tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+.filter-table tr.header, .filter-table tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+

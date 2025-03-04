@@ -27,7 +27,7 @@ feature_row:
     alt: "Bog Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=84908&htmlurl=https://www.bog-ide.dk/produkt/246230/steve-parker-menneskekroppen-indbundet/1589853"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -36,14 +36,6 @@ feature_row:
     title: "Bevægeapparatets anatomi"
     excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00002/76435/cover.20160912.jpg
-    alt: "Træning og anatomi"
-    title: "Træning og anatomi"
-    excerpt: "Træning og anatomi henvender sig til sundhedsprofessionelle, til anatomi- og idrætsstuderende - morgendagens trænere - og til sportsudøvere, bodybuildere og andre, som vil forbedre deres fysiske form. Øger din forståelse af, hvordan kroppen fungerer under træningIndeholder mere end 200 detaljerede anatomiske illustrationer."
-    url: "https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/traening-og-anatomi-50-vigtige-oevelser-med-flotte-illustrationer_ken-ashwell_9788778423191"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

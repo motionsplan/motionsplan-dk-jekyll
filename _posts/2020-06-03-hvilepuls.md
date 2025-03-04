@@ -16,7 +16,7 @@ tags:
   - puls
   - tracking
 meta:
-  name: Liggende hvilepuls
+  name: Hvilepuls test
   measures: hvilepuls
   type: pulstest
   equipment: pulsmåler
@@ -112,7 +112,11 @@ Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af ma
 
 Den normale hvilepuls ligger typisk i intervallet fra 40 og 100 hos almindelige raske personer. Ekstremt veltrænede udholdenhedsatleter kan have en hvilepuls helt nede omkring 30.
 
-Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enkelt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
+Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet.
+
+Hjertet skal ganske enkelt arbejde mindre, hvis det er stærkere og kan pumpe mere blod ud pr. hjerteslag. Desuden er der en masse afledte sundhedsmæssige konsekvenser af udholdenhedstræning og pulstræning.
+
+Læs mere lidt senere i artiklen om, hvordan du træner din hvilepuls.
 
 ## Tabel over hvilepuls for mænd og kvinder
 
@@ -140,6 +144,18 @@ Som udgangspunkt er en lav hvilepuls altså at foretrække ifølge tabellen. Jeg
 
 Miguel Indurain, tidligere cykelrytter, havde efter sigende en puls i hvile på 28. Jeg hørte på et tidspunkt, at udfordringen med en så lav puls og et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet fastholder sin styrke til at kunne pumpe blodet rundt og tømme sig selv helt. Måske er det bare en historie, men den har i hvert fald bidt sig fast i mig.
 {: .notice .notice--info }
+
+## Hvornår har jeg høj hvilepuls?
+
+Din hvilepuls er ifølge [netdoktor.dk](https://netdoktor.dk/sygdomme/fakta/derfor-har-du-hoej-puls.htm) høj, hvis den ligger over 100. Hvis du har en høj hvilepuls, så kan det være tegn på, at du har en hjertesygdom. Oplever du hjertebanken og en unormalt høj hvilepuls, skal du gå til din læge.
+
+Hvis man har høj puls, så kan der være forskellige måder at sænke den på. Det kan skyldes stresssymptomer, så derfor kan det betale sig at kigge på hele sin livssituation. Ellers kan man sænke pulsen med forskellige typer medicin. Alt det kræver et lægebesøg.
+
+## Hvad er lav hvilepuls?
+
+En lav hvilepuls kaldes også en langsom puls eller _bradykardi_. Bradykardi betyder, at hjertet slår langsomt. Det kan være helt normalt, hvis du er i særdeles god form, men det kan også skyldes en sygdom i hjertet eller være forårsaget af medicin.
+
+Hvis du er i tvivl om du har en meget lav hvilepuls i forhold til det normale, så bør du søge læge. Du kan læse meget mere om bradykardi på [sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/sygdomme/hjertearytmier/bradykardi-langsom-puls/).
 
 ## Hvornår skal jeg måle hvilepulsen?
 
@@ -194,7 +210,11 @@ Hvis du foretrækker bare at tage stikprøver, så vil en meningsfuld ændring v
 
 Hvis man er i et træningsforløb vil jeg anbefale at måle hvilepulsen hver dag. Begynder den at stige, så kan det nemlig også være et tegn på at kroppen er stresset. Hvis din måling fx en dag er 10 slag højere end normalt, så er det måske tid til at slappe lidt af med træningen og lave restitutionstræning.
 
-Jeg er selv blevet ret optaget af _heart rate variability_, hvor man ud over en daglig måling af hvilepulsen også får andre indikationer på, hvor klar kroppen er til at træne. Hvis du ikke kender begrebet HRV, så kan du læse lidt i min [artikel om heart rate variability (HRV)](/hrv/).
+## Hvilepuls og heart rate variability
+
+Jeg er selv blevet ret optaget af _heart rate variability_, hvor man ud over en daglig måling af hvilepulsen også får andre indikationer på, hvor klar kroppen er til at træne.
+
+Hvis du ikke kender begrebet HRV, så kan du læse lidt i min [artikel om heart rate variability (HRV)](/hrv/).
 
 ## Hvordan træner jeg min hvilepuls?
 
@@ -214,19 +234,25 @@ Hvis du allerede er veltrænet, så tager det naturligvis længere tid at få en
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge pulsen til at udregne forskellige træningsparametre.
 
+- **Tracke din sundhed**. Hvilepulsen kan være en måde at tracke din sundhed. Det er godt over tid at have en stabil eller faldende hvilepuls.
 - **Finde dit kondital**. Sammen med [max-pulsen](/test-max-puls/) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
 - **Udregne træningszoner**. Når du kender din maxpuls og din hvilepuls, så kan du udregne din pulsreserve. Med den viden kan du [udregne dine træningszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/).
 
-## Hvornår har jeg høj hvilepuls?
+## Konklusion
 
-Din hvilepuls er ifølge [netdoktor.dk](https://netdoktor.dk/sygdomme/fakta/derfor-har-du-hoej-puls.htm) høj, hvis den ligger over 100. Hvis du har en høj hvilepuls, så kan det være tegn på, at du har en hjertesygdom. Oplever du hjertebanken og en unormalt høj hvilepuls, skal du gå til din læge.
+Hvilepuls er en vigtig indikator for dit generelle helbred og din kondition. En lavere hvilepuls er ofte et tegn på et veltrænet hjerte, mens en forhøjet hvilepuls kan være et signal om stress, overtræning eller underliggende helbredsproblemer. 
 
-Hvis man har høj puls, så kan der være forskellige måder at sænke den på. Det kan skyldes stresssymptomer, så derfor kan det betale sig at kigge på hele sin livssituation. Ellers kan man sænke pulsen med forskellige typer medicin. Alt det kræver et lægebesøg.
+[Regelmæssig konditionstræning](/konditionstraening/) kan med tiden sænke din hvilepuls, da hjertet bliver stærkere og mere effektivt.
 
-## Hvad er lav hvilepuls?
-
-En lav hvilepuls kaldes også en langsom puls eller _bradykardi_. Bradykardi betyder, at hjertet slår langsomt. Det kan være helt normalt, hvis du er i særdeles god form, men det kan også skyldes en sygdom i hjertet eller være forårsaget af medicin. Hvis du er i tvivl om du har en meget lav hvilepuls i forhold til det normale, så bør du søge læge. Du kan læse meget mere om bradykardi på [sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/sygdomme/hjertearytmier/bradykardi-langsom-puls/).
+Hvis din hvilepuls ændrer sig markant uden en oplagt årsag, eller hvis den er unormalt høj eller lav, kan det være en god idé at konsultere en læge. Ved at måle og følge din hvilepuls kan du få værdifuld indsigt i din sundhedstilstand og optimere din træning.
 
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
+
+<details markdown="1" class="references">
+  <summary><h2 class="references">Referencer</h2></summary>
+
+- Reimers, A. K., Knapp, G., & Reimers, C.-D. (2018). Effects of Exercise on the Resting Heart Rate: A Systematic Review and Meta-Analysis of Interventional Studies. Journal of Clinical Medicine, 7(12), 503. <https://doi.org/10.3390/jcm7120503>
+- Avram, R., Tison, G. H., Aschbacher, K., Kuhar, P., Vittinghoff, E., Butzner, M., Runge, R., Wu, N., Pletcher, M. J., Marcus, G. M., & Olgin, J. (2019). Real-world heart rate norms in the Health eHeart study. NPJ Digital Medicine, 2, 58. <https://doi.org/10.1038/s41746-019-0134-9>
+</details>

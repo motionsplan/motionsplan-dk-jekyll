@@ -129,7 +129,7 @@ Nogle af de nye, ret dyre bioimpedansmålere kan give et fornuftigt bud på din 
 
 Hvis du kan følge alle anvisninger, så du kan foretage målingerne under de samme forhold over tid, så kan du måske godt bruge denne metode til at holde øje med ændringer i din kropskomposition.
 
-Jeg har skrevet mere om [bioimpedansmålinger her](/artikel/inbody-570-bioimpedans/).
+Jeg har skrevet mere om [bioimpedansmålinger her](/bioimpedans-maaling/).
 
 ## Hvad er en sund normal fedtprocent?
 

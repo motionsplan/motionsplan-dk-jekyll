@@ -1,18 +1,16 @@
 ---
-title: &title "Inbody Test: Måling af fedtprocent med bioimpedans"
-seo_title: "Bioimpedans: Måling af fedtprocent med bioimpedansmåling"
+title: &title "InBody 570 – Guide til præcis måling af fedtprocent"
+seo_title: "InBody 570: Sådan måler du præcist din fedtprocent med bioimpedans"
+description: "Lær hvordan InBody 570 anvender bioimpedans til præcise målinger af fedtprocent og kropskomposition. Og lær mere om bioimpedansmålinger."
 permalink: /artikel/inbody-570-bioimpedans/
 redirect_from:
   - /inbody/
-  - /bioimpedans/
-  - /artikel/inbody-570-bioimpedans
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. De nyere vægte til kropsanalyse og bioimpedansmåling er relativt reliable og valide, hvis du følger anvisningerne i forhold til guldstandarderne for måling af kropskomposition."
+excerpt: "InBody 570 er en avanceret bioimpedansmåler. Lær, hvordan du bruger den korrekt, fortolker resultaterne og sikrer præcise målinger."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  alt: Photo by Yannis Papanastasopoulos on Unsplash
+  overlay_image: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
   caption: *title
-  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
 category:
   - Tests
   - Fedtprocent
@@ -21,14 +19,7 @@ tags:
   - fedtprocent
   - kropskomposition
   - bioimpedans
-  - test
-  - metode
-meta:
-  name: Bioimpedansmåling
-  equipment: bioimpedans-vægt
-  measures: kropskomposition og fedtprocent
-  type: kropskomposition
-last_modified_at: 2021-03-06T23:14:14Z
+last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
@@ -49,57 +40,39 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Bioimpedans er en let måde at [måle fedtprocent](/maal-fedtprocent/) og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj.
+InBody 570 er en avanceret bioimpedansmåler, der giver en detaljeret analyse af din kropssammensætning. InBody 570 laver en [bioimpedansanalyse (BIA)](/bioimpedans-maaling/) for at måle din fedtprocent, muskelmasse, væskebalance og andre vigtige parametre, som kan hjælpe dig med at forstå din krops sundhedstilstand.
 
-Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere præcise. Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88% ([Miller et al 2016](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)), selvom den konsekvent måler omkring 5% lavere end DEXA-scanneren.
+Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88% ([Miller et al 2016](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)), selvom den konsekvent måler omkring 5% lavere end DEXA-scanneren.
 
-*[PBF]: Percent Body Fat
-*[SMM]: Skeletal Muscle Mass
-*[ECW]: Extra Cellular Water
-*[ICW]: Intra Cellular Water
-*[DEXA]: Dual-energy x-ray absorptiometry
+For at få præcise målinger er det vigtigt at følge bestemte retningslinjer, da mange faktorer kan påvirke resultaterne. 
 
-## Hvad er bioimpedans?
+Det bliver du meget klogere på i denne guide, hvor vi gennemgår, hvordan InBody 570 fungerer, hvordan du tolker dine resultater, og hvordan du får de mest nøjagtige målinger.
 
-Ved bioimpedansmålinger sendes en svag vekselstrøm gennem det biologiske væv med forskellige strømfrekvenser. Bioimpedansapparatet måler _impedansen_ eller modstanden i det biologiske væv, som kan være en hel person.
-
-Når strømmen sendes igennem kroppen, så skal det passere cellerne i kroppen. Hver celle i kroppen er omgivet af en cellemembran, der er opbygget af fedtstoffer. Inden i cellerne er der den intracellulære væske, som ofte forkortes ICW eller ICF. Cellerne er omgivet af den ekstracellulære væske, som forkortes ECW eller ECF.
-
-Både den intracellulære og ekstracellulære væske kan lede strøm, mens cellemembranen er elektrisk isolerende.
-
-{% include figure image_path="/assets/images/blog/bioimpedans-1.png" caption="Figuren er baseret på De Lorenzo et al 1997. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="bioimpedans måling" %}
-
-Når vekselstrømmen har meget **lav frekvens**, så kan strømmen ikke passere cellemembranen. Derfor løber strømmen kun i den ekstracellulære væske.
-
-{% include figure image_path="/assets/images/blog/bioimpedans-2.png" caption="Sådan passerer lavfrekvent strøm forbi cellerne i kroppen. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="bioimpedansmålinger med lavfrekvent strøm gennem musklerne" %}
-
-Når vekselstrømmen får en **høj frekvens**, så kan strømmen passere gennem cellemembranen, som om cellemembranen slet ikke er der. Strømmen kan altså skyde genvej direkte gennem cellerne.
-
-{% include figure image_path="/assets/images/blog/bioimpedans-3.png" caption="Højfrekvent strøm løber direkte gennem cellerne. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="måling med bioimpedans med højfrekvent strøm gennem cellerne" %}
-
-Udregninger med modstand tager typisk udgangspunkt i en geometrisk rund form, men det lever menneskekroppen jo ikke helt op til. De Lorenzo et al (1997) har lavet nogle beregninger af mennesket, som har givet en konstant, der passer på voksne gennemsnitlige personer, der har har samme relation mellem arme, ben og overkrop.
-
-Den ekstracellulære væske har modstand i sig selv, men modstanden bliver også større jo flere celler strømmen skal bevæge sig udenom. Dette kaldes Hanai-teori.
-
-{% include figure image_path="/assets/images/blog/bioimpedans-4.png" caption="Desto flere celler der er i forhold til en bestemt volumen, desto større er modstanden i vævet for den lavfrekvente strøm, fordi den skal bøje af for den elektrisk isolerende cellevæg. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" alt="bioimpedans med mange celler" %}
-
-For at bioimpedans-beregningerne virker pålidelige, så kræver det at forudsætningerne om, hvor meget vand den fedtfri masse indeholder holder stik. Det er forventningerne om modstanden med forskellige frekvenser gennem vævet, der består af både ekstracellulær væske og celler, der gør, at vi kan bruge bioimpedans til at estimere fedtprocenter.
-
-## Forudsætninger for præcise bioimpedans fedtprocent-målinger
-
-Hvis du gerne vil have dit resultat til at være så præcist som muligt, så skal du udføre testen ud fra nogle præcise retningslinjer. Hvis du gerne vil bruge bioimpedansmålingerne til at måle dit fremskridt, så er det rigtig vigtigt, at du laver målingen på samme måde hver gang.
-
-- Faste i mindst 12 timer før målingen
-- Ingen træning i mindst 12 timer - og helst ikke hård træning dagen før overhovedet
-- Ingen alkoholindtag mindst 24 timer før testning
-
-## Bioimpedans måling med InBody 570
+## Hvad er InBody 570?
 
 På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://bodytracker.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute.
 
 InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
 
-### Hvordan udføres bioimpedansmåling med InBody 570?
+## Forudsætninger for præcise bioimpedansmålinger
+
+For at sikre pålidelige bioimpedansmålinger er det afgørende, at de underliggende antagelser om kroppens vandindhold og vævets elektriske modstand holder stik. Bioimpedansmetoden bygger på, hvordan elektriske signaler bevæger sig gennem kroppen, afhængigt af væskefordelingen i både celler og det ekstracellulære rum.
+
+Disse egenskaber gør det muligt at estimere fedtprocenten – men kun hvis målingen foretages under de rette betingelser.
+
+Hvis du vil have det mest præcise resultat, skal testen udføres efter nogle faste retningslinjer. Dette er især vigtigt, hvis du bruger bioimpedans til at tracke dine fremskridt over tid – her er konsistens afgørende.
+
+**Sådan forbereder du dig til en nøjagtig måling:**
+
+- Fast i mindst 12 timer før målingen.
+- Undgå træning i mindst 12 timer – og helst ingen hård træning dagen før.
+- Ingen alkohol i mindst 24 timer op til testen.
+
+Ved at følge disse retningslinjer minimerer du udsving i væskebalancen, som ellers kan påvirke målingen.
+
+🔗 Læs meget mere om, hvordan [bioimpedansmålinger fungerer](/bioimpedans-maaling/), og hvorfor disse forudsætninger er vigtige.
+
+## Sådan udføres en bioimpedansmåling med InBody 570
 
 Det er ret enkelt at tage selve testen på InBody 570. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
 
@@ -121,6 +94,9 @@ Extra Cellular Water-ratio (ECW Ratio)
 : Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen. ECW skal være mellem 0.36 og 0.39 ifølge [InBody FAQ](https://qr.inbody.com/ri/570/adult/en-US).
 
 Resultatarket indeholder også dit Body Mass Index. Vi har skrevet meget uddybdende om, hvordan du skal fortolke [BMI for kvinder og mænd](/bmi/).
+
+**Læs**: [Guide til kropskomposition](/kropskomposition/)
+{: .notice }
 
 ### Fortolkning af resultatarket fra InBody 570
 
@@ -156,9 +132,17 @@ Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage de
 
 {% include feature_row type="left" %}
 
+## Fordele og ulemper ved InBody 570
+
+En ulempe ved maskinen er naturligvis prisen. Den er virkelig kostbar. En anden ulempe man kan pege på er det usædvanligt detaljerede resultatark. Det får alt til at virke som meget nøjagtig videnskab.
+
+Der er andre måder at måle kropskomposition på. Det kan du læse mere om i vores oversigtsartikel over [målemetoder til fedtprocent og kropskompostion](/maal-fedtprocent/).
+
 ## Konklusion
 
 Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
+
+For en dybere forståelse af kropskomposition, læs vores artikel om [fedtprocentmålingsteknikker](/maal-fedtprocent/).
 
 Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
 
