@@ -45,8 +45,6 @@ Vælg den formel du helst vil bruge. Indtast derefter din alder, og få dit resu
 
 {% include calculator/calculate-max-hr.html %}
 
-Der findes virkelig mange formler til at bestemme den maksimale puls.
-
 ## Hvordan finder beregneren min max-puls?
 
 Beregneren bruger en af de mange formler, der findes til at beregne maxpuls. 
@@ -60,19 +58,13 @@ Tanaka et al (2001) konkluderer i deres studie, at den maksimalt opnåelige puls
 **Læs meget mere**: [Sammenligning af maxpuls-formlerne](/max-puls-formler/)
 {: .notice }
 
-## Er beregneren præcist?
+## Hvor præcis er en maxpuls-beregning?
 
-Maxpuls-beregninger baseret på formler giver et godt estimat, men de er ikke 100 % præcise for alle. Individuelle forskelle såsom træningsniveau, genetik og helbred kan påvirke din faktiske maksimale puls. De fleste formler har en usikkerhed på ±10-15 slag i minuttet.
+Maxpuls-beregninger baseret på formler kan give et estimat, men de er ikke 100% præcise for alle. Særligt kan genetik og helbred påvirke din faktiske maksimale puls. De fleste formler har en usikkerhed på ±10-15 slag i minuttet.
 
-Hvis du vil have den mest præcise måling, anbefales en fysisk test, hvor du presser dig selv til maksimal anstrengelse. Læs mere om forskellige metoder til at teste din maxpuls på vores side om test af maxpuls.
+Derfor er en beregning af maxpulsen ikke så anvendelig, hvis du vil udregne pulszoner.
 
-Denne version forklarer usikkerheden og henviser til test-siden for mere præcis måling. 😊
-
-## Alternativer til beregning af maxpuls
-
-Selvom maxpuls-beregninger giver et hurtigt estimat, er der mere præcise metoder til at finde din reelle maxpuls. Den bedste måde er at udføre en fysisk test, hvor du presser dig selv til maksimal anstrengelse.
-
-Hvis du vil have en mere præcis måling, kan du læse om forskellige testmetoder på vores side med [hvordan du måler maxpuls](/test-max-puls/).
+Den mest præcise måde at finde din maxpuls på er ved en fysisk test, hvor du presser dig selv til maksimal anstrengelse. Læs mere om, hvordan du tester din maxpuls på vores side om [test af maxpuls](/max-puls-test/).
 
 ## Konklusion
 

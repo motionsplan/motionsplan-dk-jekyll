@@ -152,4 +152,4 @@ Cardiomaskiner kan være et rigtig fint supplement til din træning. Nogle kan o
 
 Hvis du vil have mere inspiration til, hvad du kan bruge cardiomaskinerne til, så kan du kigge under [konditionstests](/kondition/tests/) og [konditionstræning og kredsløbstræning](/kondition/). Det er en god ide først at lave en konditionstest.
 
-Så får du et [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}), som du kan sammenligne med andre i vores [tabel over kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+Så får du et [kondital](/kondital/), som du kan sammenligne med andre i vores [tabel over kondital](/kondital/).

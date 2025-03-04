@@ -95,7 +95,7 @@ Kondital = 51,047 + (8,336 * Køn) + (635,012 * 1 / Tid) - (0,225 * HR) - (0,271
 
 ## Hvor god form er jeg i?
 
-Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder](/kondital/). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests](/kondition/tests/).
 
 Du kan lade 1,6 km gå-testen være en del af dit mål om at komme i bedre form. Du kan sammenligne din egen tid med [hvor hurtigt man normalt går](/tid-at-gaa/).
 

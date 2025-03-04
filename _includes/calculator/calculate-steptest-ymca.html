@@ -1,0 +1,42 @@
+<form class="calculator" id="calculator_steptest_ymca">
+    <fieldset>
+        <legend>Indtast dit resultat og få resultatet</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="sex" type="radio" value="male" required> &#9794; Mand
+            </label>
+            <label class="radio">
+                <input name="sex" type="radio" value="female"> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input name="age" type="number" min="20" max="200" placeholder="Alder i år" step="1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Puls (slag/min) - tæl i 60 sekunder
+                <input name="hr" type="number" min="20" max="220" placeholder="Puls i 60 sekunder" step="1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultat</legend>
+        <label>Kondital (ml O<sub>2</sub>/min/kg)
+            <input disabled name="fitness_level" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

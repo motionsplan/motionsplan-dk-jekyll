@@ -23,8 +23,6 @@ tags:
   - konditionstest
   - laboratorium
   - direkte test
-  - maksimal test
-  - submaksimal test
   - test
   - populær
 last_modified_at: 2024-02-20T19:14:14Z

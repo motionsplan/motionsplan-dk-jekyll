@@ -90,6 +90,9 @@ const heat_running = require('../js/heat-from-running');
 const vo2_efficiency = require('../js/vo2-efficiency');
 const ee = require('../js/energy-expenditure');
 const ee_rer = require('../js/energy-expenditure-rer');
+const step_ymca = require('../js/steptest-ymca.js');
+const step_ymca_modified = require('../js/steptest-ymca-modified.js');
+const step_queens_college = require('../js/steptest-queens-college.js');
 
 require('image-map-resizer');
 
@@ -1157,7 +1160,7 @@ $(function() {
       let tm = treadmill.Treadmill(gradient, speed, time, distance, weight);
       $("[name='speed_gradient']").val(tm.getGradientCorrectedSpeed().toFixed(2));
       $("[name='distance_gradient']").val(tm.getGradientCorrectedDistance().toFixed(2));
-      $("[name='time_gradient']").val(tm.getGradientCorrectedDistance().toFixed(2));
+      $("[name='time_gradient']").val(tm.getGradientCorrectedTime().toFixed(2));
       $("[name='speed_calculated']").val(tm.getSpeed().toFixed(0));
       $("[name='distance_calculated']").val(tm.getDistance().toFixed(0));
       $("[name='time_calculated']").val(tm.getTime().toFixed(0));
@@ -1167,17 +1170,59 @@ $(function() {
       $("[name='mets']").val(tm.getMets().toFixed(1));
       $("[name='gradient_calculated']").val(gradient);
   });
+  $("#calculator_steptest_ymca").submit(function(e) {
+    console.log("Steptest YMCA");
+    e.preventDefault();
+
+    let sex = $("[name='sex']:checked").val();
+    let height = Number($("[name='height']").val());
+    let weight = Number($("[name='weight']").val());
+    let age = Number($("[name='age']").val());
+    let hr = Number($("[name='hr']").val());
+
+    let fp = step_ymca.SteptestYMCA(sex, hr, height, weight, age);
+    $("[name='fitness_level']").val(fp.getFitnessLevel().toFixed(0));
+  });
+  $("#calculator_steptest_ymca_modified").submit(function(e) {
+    console.log("Steptest YMCA Modified");
+    e.preventDefault();
+
+    let hr = Number($("[name='hr']").val());
+
+    let fp = step_ymca.SteptestYMCAModified();
+    $("[name='fitness_level']").val(fp.getFitnessLevel("HRR60", hr).toFixed(0));
+  });
+  $("#calculator_steptest_queens_college").submit(function(e) {
+    console.log("Steptest Queens College");
+    e.preventDefault();
+
+    let sex = $("[name='sex']:checked").val();
+    let hr = Number($("[name='hr']").val());
+
+    let fp = step_queens_college.SteptestQueensCollege(sex, hr);
+    $("[name='fitness_level']").val(fp.getFitnessLevel().toFixed(0));
+  });
+  $("#calculator_steptest_ymca_modified_box").submit(function(e) {
+    console.log("Steptest YMCA Modified box");
+    e.preventDefault();
+
+    let sex = $("[name='sex']:checked").val();
+    let height = Number($("[name='height']").val());
+
+    let fp = step_ymca_modified.SteptestYMCAModified();
+    $("[name='fitness_level']").val(fp.getStepHeight(sex, height).toFixed(0));
+  });
   $("#calculator_fat_percent_navy").submit(function(e) {
         console.log("Fat percent navy");
         e.preventDefault();
 
-      let sex = $("[name='sex']:checked").val();
-      let height = Number($("[name='height']").val());
-      let waist = Number($("[name='waist']").val());
-      let neck = Number($("[name='neck']").val());
-      let hip = Number($("[name='hip']").val());
+        let sex = $("[name='sex']:checked").val();
+        let height = Number($("[name='height']").val());
+        let waist = Number($("[name='waist']").val());
+        let neck = Number($("[name='neck']").val());
+        let hip = Number($("[name='hip']").val());
 
-      let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
+        let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent().toFixed(2));
     });
     $("#calculator_wave_ladder").submit(function(e) {

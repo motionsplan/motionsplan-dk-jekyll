@@ -38,15 +38,15 @@ Den mest præcise måde at finde din maksimale puls på er ved at teste den fysi
 
 Max-pulsen er det maksimale antal slag, hjertet kan slå på et minut. Hjertet når kun maxpuls under ekstremt anstrengende arbejde. [Lær om maxpuls](/test-max-puls/){: .read-more-link } 
 
-## Hvordan finder du din max-puls?
+## Hvordan måler jeg min maxpuls nøjagtigt?
 
-Der er flere måder at finde ud af, hvad din maksimale puls er.
+Den mest præcise metode til at finde din maksimale puls er at udføre en fysisk test.  
 
-1. Du kan **[udregne maxpulsen i en beregner](/max-puls-beregner/)** (baseret på aldersbestemt [maxpuls formler](/max-puls-formler/))
-2. Du kan lave din **egen test af den maksimale puls**
-3. Du kan få **max-pulsen målt i et laboratorium**
+Selvom [formler til at estimere maxpulsen](/max-puls-formler/) giver et hurtigt bud, kan de afvige med ±10-15 slag i minuttet og tager ikke højde for individuelle forskelle. En laboratorietest kan være endnu mere præcis, men den er ofte dyr og ikke let tilgængelig.  
 
-Her går vi i dybden med de fysiske tests, som er de mest præcise.
+Hvis du vil have et præcist resultat, anbefales det at udføre en fysisk test under kontrollerede forhold. Har du ikke mulighed for det, kan du i stedet [udregne din maxpuls i vores beregner](/max-puls-beregner/).  
+
+Nedenfor gennemgår vi, hvordan du selv kan teste din maxpuls mest nøjagtigt.
 
 ## Hvorfor teste maxpuls med en fysisk test?
 
@@ -98,9 +98,7 @@ Jeg foretrækker at tælle fx 30 sekunder og så gange med to. Du bør ikke gør
 
 ## 2. Hvordan måles den maksimale puls i et laboratorium?
 
-Du kan også få lavet en max-test i et laboratorium. Sådan en test vil typisk foregå på et løbebånd, hvor man progressivt øger enten hastighed eller hældning på løbebåndet. Du kan samtidig få målt din iltoptagelse og måske også få lavet en laktat-test (mælkesyretest) i slutningen af testen.
-
-Hvis R-værdien er over 1,1 og laktat-indholdet i blodet er over 8, så er det meget sandsynligt, at det reelt var en maksimal test.
+Du kan også få lavet en max-test i et laboratorium. Sådan en test vil typisk foregå på et løbebånd, hvor man progressivt øger enten hastighed eller hældning på løbebåndet. Du kan samtidig få målt din maksimale iltoptagelse.
 
 Du kan læse mere om en [maksimal laboratorietest af iltoptagelse her](/iltoptagelse-laboratorietest/).
 

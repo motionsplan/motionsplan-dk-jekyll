@@ -20,7 +20,7 @@ Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendt
 
 Jeg gennemgår her, hvordan du stadig kan finde følgende funktioner:
 
-- motion online **kondital** --> Du kan [læse mere om kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [teste dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}) på Motionsplan.
+- motion online **kondital** --> Du kan [læse mere om kondital](/kondital/) og [teste dit kondital](/kondition/tests/) på Motionsplan.
 - motion online **rm beregner** --> Du kan bruge vores **meget bedre** [RM-beregner](/rm-beregner/).
 - motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI]({% link _posts/2019-10-31-bmi.md %}).
 - motion online forum --> Desværre er der i øjeblikket ikke noget forum, der matcher, som jeg kender til.
@@ -94,7 +94,7 @@ Her har du en liste over **Motionsplans beregnere som naturligvis bliver opdater
 
 ## Motion Online og kondital
 
-Jeg har søgt lidt på Motion Online og kondital, og det tror jeg, at der er mange, der har gjort. Hvis du er interesseret i at [læse mere om du har et godt kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}) eller [teste dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}) så kan du læse mere i følgende guides.
+Jeg har søgt lidt på Motion Online og kondital, og det tror jeg, at der er mange, der har gjort. Hvis du er interesseret i at [læse mere om du har et godt kondital](/kondital/) eller [teste dit kondital](/kondition/tests/) så kan du læse mere i følgende guides.
 
 Vi har også skrevet mange andre artikler om kondition og konditionstræning.
 

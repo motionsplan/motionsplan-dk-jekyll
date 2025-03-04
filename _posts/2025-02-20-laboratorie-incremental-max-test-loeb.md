@@ -1,6 +1,6 @@
 ---
 title: &title "Løbebåndstest med iltoptagelse (trappetest til max) 🏃"
-seo_title: "Løbebåndstest med iltoptagelse (trappetest)"
+seo_title: "Løbebåndstest med iltoptagelse (trappetest til max)"
 permalink: /iltoptagelse-trappetest-maxtest-loeb/
 excerpt: "Direkte måling af iltoptagelsen med maske på løbebånd med stigende belastning fra lav intensitet til udmattelse."
 description: "Progressiv test med stigende intensitet og måling af aerob, anaerob og VO2peak med denne direkte test af iltoptagelse på løbebånd med maske."
@@ -47,24 +47,16 @@ Testen foregår på et løbebånd, hvor hastigheden gradvist øges, indtil du n�
 
 Denne test giver dig præcise data om din konditionstilstand og kan bruges til at optimere dit træningsprogram. Det er en krævende test, men til gengæld får du værdifuld indsigt i din præstation og udholdenhed.
 
-{% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" %}
+{% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" caption="Her er vi i gang med en VO2max test på løbebånd på Vejle Idrætshøjskole." %}
 
 ## Hvad tester løbetesten?
 
-{% include concept.html concept="vo2max" %}
+{% include concept.html concept="vo2peak" %}
 {% include concept.html concept="kondital" %}
 {% include concept.html concept="lt1" %}
 {% include concept.html concept="lt2" %}
 {% include concept.html concept="løbeøkonomi" %}
 {% include concept.html concept="maxpuls" %}
-
-## Aerobt og anaerobt arbejde
-
-Skeletmuskulaturens evne til at danne energi til muskelarbejde beror overordnet set på to processer - de der foregår uden ilt (anaerobt), og de der foregår med ilt (aerobt). 
-
-Den samlede energi der leveres til muskelarbejdet under træning vil altid være en sum af de anaerobe og aerobe processer. De vil derfor i sammenspil levere energi til muskelarbejdet.
-
-Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.
 
 ## Hvad skal du bruge til testen?
 
@@ -76,6 +68,12 @@ Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne t
 ## Hvad kan du bruge løbetesten til?
 
 Vi bruger denne test til at bestemme den fysiske kapacitet ved den aerobe (AeT) og anaerobe tærskel (AT). Samlet kan det give et fyldestgørende billede af udholdenheden for kredsløbet og musklerne.
+
+Skeletmuskulaturens evne til at danne energi til muskelarbejde beror overordnet set på to processer - de der foregår uden ilt (anaerobt), og de der foregår med ilt (aerobt). 
+
+Den samlede energi der leveres til muskelarbejdet under træning vil altid være en sum af de anaerobe og aerobe processer. De vil derfor i sammenspil levere energi til muskelarbejdet.
+
+Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.
 
 Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellige intensiteter. Derved får du en måling af, hvor effektivt du bevæger dig.
 

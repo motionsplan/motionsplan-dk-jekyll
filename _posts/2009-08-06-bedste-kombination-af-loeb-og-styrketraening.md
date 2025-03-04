@@ -151,7 +151,7 @@ Hvis du gerne vil træne begge ting på en dag, men ikke kan vente 8 timer, så 
 
 ## Kan jeg lave styrketræning og løb samme dag?
 
-Du kan altså sagtens lave styrketræing og løb på samme dag. Det kan formentlig være en fordel, hvis du kan adskille de to træningspas lidt. Jeg ville primært gå efter maksimal styrke, da denne styrketræningsform formentlig har den bedste overførselsværdi til løb. Samtidig vil den udtrætte kroppen mindre.
+Du kan altså sagtens lave styrketræning og løb på samme dag. Det kan formentlig være en fordel, hvis du kan adskille de to træningspas lidt. Jeg ville primært gå efter maksimal styrke, da denne styrketræningsform formentlig har den bedste overførselsværdi til løb. Samtidig vil den udtrætte kroppen mindre.
 
 Personligt ville jeg nok lægge styrketræningen først, men tilsyneladende kan din maksimale styrke være på et godt niveau allerede efter 8 timer efter et hårdt træningspas (som ganske vist blev udført på cykel uden det excentriske komponent).
 

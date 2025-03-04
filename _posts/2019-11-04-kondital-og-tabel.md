@@ -56,16 +56,19 @@ faq:
     answer: Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsniveauet typisk går ned med alderen. Hvis du bliver ved med at træne og forsøger at holde det samme aktivitetsniveau, så kan du vedligeholde konditallet over tid, men da muskelmassen typisk også går ned med alderen, så vil den maksimale iltoptagelse og derved konditallet også falde.
   - question: Hvorfor er kvinders kondital lavere end mænds?
     answer: Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
+  - question: Hvordan tester jeg mit kondital?
+    answer: Der er mange måder at måle sin kondition på. Du kan se vores [oversigt over konditionstests](/kondition/tests/).
 ---
+
 Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
 
 Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
 
 *[BMI]: Body Mass Index
 
-## Hvad er kondital og hvad er det et udtryk for?
+## Hvad er kondital, og hvad er det et udtryk for?
 
-Hvad er kondital? **Dit kondital fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O₂ pr. min pr. kg kropsvægt.**
+**Dit kondital fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O₂ pr. min pr. kg kropsvægt.**
 
 ## Hvad er et godt kondital?
 
@@ -134,17 +137,27 @@ For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** o
 
 {% include motionsplan/math formula="kondital = \frac{VO_2max}{weight}" %}
 
-Dertil kommer også svaret på spørgsmålet “Hvordan kan man forbedre sit kondital?”. Det kan man nemlig gøre to måder: Enten ved at forbedre din max iltoptagelse eller ved at tabe dig.
+Dertil kommer også svaret på spørgsmålet “Hvordan kan man forbedre sit kondital?”.
 
-Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
+Det kan man nemlig gøre to måder: 
+
+Enten ved at forbedre din max iltoptagelse eller ved at tabe dig.
 
 ## Hvordan måler man kondital?
 
-Hvis du vil finde dit eget kondital, så tjek vores forskellige [tests til at finde dit kondital](/kondition/tests/).
+Hvis du vil finde dit eget kondital, så tjek vores forskellige [tests til at finde dit kondital](/kondition/tests/). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
 
 Nogle af de populære er bl.a. [Cooper-test](/cooper-test/) og [bip test](/bip-test/).
 
-## Hvad kan du bruge konditallet til
+## Hvordan forbedrer jeg mit kondital?
+
+Konditallet forbedres ved at udfordre kredsløbet, da det afspejler kroppens evne til at optage og forbruge ilt effektivt. Der findes mange måder at træne kredsløbet på, og enhver form for fysisk aktivitet vil have en positiv effekt. Men hvis målet er at øge dit kondital markant, er det vigtigt at forstå, at kredsløbet består af flere komponenter, der skal trænes målrettet.
+
+Derfor kan det være en fordel at opdele træningen i forskellige metoder, så du sikrer, at alle aspekter af iltoptagelsen bliver udfordret.
+
+For at forbedre dit kondital skal du primært øge din maksimale iltoptagelse (VO2 max), hvilket kræver træning med høj intensitet. Vi har skrevet mere om, hvordan intensitet spiller en afgørende rolle for at øge VO2 max og forbedre konditallet.
+
+## Hvad kan du bruge konditallet til?
 
 Når du kender dit kondital, så kan du bruge det til at *tracke* din træning. Konditallet er en rigtig god indikator for din generelle sundhed. Risikoen for livsstilssygdomme er mindre, når du har et højt kondital.
 
@@ -208,6 +221,17 @@ Hvis du gerne vil forbedre dit kondital og komme i god form, så kan du finde in
 Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests](/kondition/tests/), vi har skrevet her.
 
 Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
+
+Hvilken betydning har konditallet for sundhed og aktivitetsniveau?
+Man har i flere store studier ifølge Brian Henneberg set en øget risiko for tidlig død, hvis man har et kondital på under 35 ml/kg/min for mænd og 28 ml/kg/min for kvinder.
+
+Den nedre grænse for hvor man får problemer med at klare sig selv og komme rundt er på omkring 11 ml/kg/min. Det kan sagtens ske for ældre inaktive mennesker, der bliver syge, og hvis man først kommer derned kan det være vanskeligt at genvinde konditionen igen.
+
+Hvis ikke du holder konditionstræningen ved lige, så kan den maksimale iltoptagelse falde med 5-10% for hver 10. år. Hvis du samtidig tager lidt på i vægt bliver din kondition altså mærkbart ringere.
+
+Hvis du gør noget aktivt, så kan du dog sagtens holde konditionen ved lige. Almindelige personer på +70 år har været i stand til at holde deres kondital oppe på mellem 40-55 ml/kg/min ved at dyrke konditionstræning.
+
+Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i længere tid. Her så man at konditallet er faldet med 10 ml/kg/min i løbet af bare 3 uger.
 
 ## Ofte stillede spørgsmål om kondital
 

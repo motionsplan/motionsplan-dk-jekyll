@@ -30,12 +30,24 @@ describe('Treadmill', function() {
     it('should return the correct number', function() {
       let hr = motionsplan.Treadmill(1, 10, 10, 0, 85);
       assert.equal(hr.getGradientCorrectedSpeed(), 10.45);
+
+      let hr1 = motionsplan.Treadmill(1, 10, 0, 10, 85);
+      assert.equal(hr1.getGradientCorrectedSpeed(), 10.45);
     });
   });
   describe('getGradientCorrectedDistance()', function() {
     it('should return the correct number', function() {
       let hr = motionsplan.Treadmill(1, 10, 10, 0, 85);
       assert.equal(hr.getGradientCorrectedDistance(), 1.7416666666666667);
+    });
+  });
+  describe('getGradientCorrectedDistance()', function() {
+    it('should return the correct number', function() {
+      let hr = motionsplan.Treadmill(1, 10, 10, 0, 85);
+      assert.equal(hr.getGradientCorrectedTime(), 10);
+
+      let hr1 = motionsplan.Treadmill(1, 10, 0, 10, 85);
+      assert.equal(hr1.getGradientCorrectedTime(), 60);
     });
   });
 });

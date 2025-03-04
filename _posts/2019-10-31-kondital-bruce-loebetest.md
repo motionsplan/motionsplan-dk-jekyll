@@ -46,7 +46,7 @@ Bruce-løbetest er [meget almindelig i fx USA](https://health-calc.com/fitness-t
 
 Inden udførelsen af Bruce-testen skal du undersøge, om løbebåndet kan indstilles til alle hældninger og hastigheder, som er nødvendige for at gennemføre testen.
 
-Nogle steder foreslås det, at man kan klodse løbebåndet op for at opnå de korrekte hældninger. Hvis ikke du har adgang til et løbebånd, der kan indstilles korrekt til Bruce-testen, så vil jeg i stedet foreslå, at du vælger en af de mange andre [konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Nogle steder foreslås det, at man kan klodse løbebåndet op for at opnå de korrekte hældninger. Hvis ikke du har adgang til et løbebånd, der kan indstilles korrekt til Bruce-testen, så vil jeg i stedet foreslå, at du vælger en af de mange andre [konditionstests](/kondition/tests/).
 
 ## Hvordan laves Bruce-testen?
 

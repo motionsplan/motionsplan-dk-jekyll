@@ -40,7 +40,7 @@ Mere træning er kun bedre end mindre træning, indtil det bliver for meget og b
 
 ## Løbetræning og konditionstræning
 
-Formålet med løbetræningen og konditionstræningen er at flytte din [maksimale iltoptagelse]({% link _posts/2019-11-04-kondition-og-test.md %}) og din [løbeøkonomi](/lobeokonomi/).
+Formålet med løbetræningen og konditionstræningen er at flytte din [maksimale iltoptagelse](/kondition/tests/) og din [løbeøkonomi](/lobeokonomi/).
 
 Det kan være en god ide i første uge at starte med at lave [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}). Vi har lavet en beregner, så du kan tjekke dit kondital, men du kan også kigge efter din karakter under beskrivelsen af [politiprøvens fysiske krav](/politiets-fysiske-tests-krav-optagelsesproeve/).
 

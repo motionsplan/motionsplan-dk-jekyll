@@ -24,7 +24,7 @@ breadcrumbs: true
 
 Din vægt har betydning for, hvor hurtigt du kan løbe. Her er en beregner, der kan give et bud på, hvad en vægtændring betyder for dine løbetider.
 
-Din [kondition]({% link _posts/2019-11-04-kondition-og-test.md %}) udregnes som din maksimale iltoptagelse i forhold til din vægt, og så får du dit [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Det betyder altså, at vægten teoretisk set har betydning for, hvor hurtigt du kan løbe.
+Din [kondition](/kondition/tests/) udregnes som din maksimale iltoptagelse i forhold til din vægt, og så får du dit [kondital](/kondital/). Det betyder altså, at vægten teoretisk set har betydning for, hvor hurtigt du kan løbe.
 
 Hvis vi leger med ideen om, at vægtændringer sker uden at du ændrer din maksimale iltoptagelse og løbeøkonomi, så kan vi altså teoretisk set lege med, hvordan løbetiden ændrer sig, når du taber dig på en slankekur eller tager vægt på ved et kagebord.
 

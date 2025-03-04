@@ -162,7 +162,7 @@ Uanset hvilket pulsur du har anskaffet dig for at lave pulstræning, så er frem
 
 På Garmin uret kan du relativt let opstille dine egne zoner til pulstræning. Den har faktisk alle tre nævnte muligheder, men det kan sagtens betale sig at lave lidt manuelle tilpasninger.
 
-{% include gallery id="garmin_setup" caption="Sådan sætter du zonerne op til pulstræing i Garmin Connect på din telefon." %}
+{% include gallery id="garmin_setup" caption="Sådan sætter du zonerne op til pulstræning i Garmin Connect på din telefon." %}
 
 Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
 

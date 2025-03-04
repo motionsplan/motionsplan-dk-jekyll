@@ -133,7 +133,7 @@ Løb bruger altid mere energi end gang!
 
 {% include calculator/calculate-run-walk.html %}
 
-Jeg har skrevet et meget grundigere indlæg om [MET med en tabel over virkelig mange aktiviteter, bl.a. også gang og løb]({% link _posts/2020-07-24-met.md %}).
+Jeg har skrevet et meget grundigere indlæg om [MET med en tabel over virkelig mange aktiviteter, bl.a. også gang og løb](/met/).
 
 ## Hvor meget forbrænder du ved gang?
 
@@ -287,7 +287,7 @@ Hvis vi kigger på udsagnet om, at man pr. kilometer forbrænder dobbelt så meg
 
 Det kunne være interessant med en model, som mere præcist kan fremskrive energiforbrug over længere distancer (end 1600 meter), ændringerne i løbestil ved forskellige hastigheder og ændringer i substratforbrug og effektivitet i energiomsætningen.
 
-Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på [cykel-ruter.dk](https://www.cykel-ruter.dk/).
+Jeg har lavet en tabel med [MET-værdier](/met/), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på [cykel-ruter.dk](https://www.cykel-ruter.dk/).
 
 ## Ofte stillede spørgsmål
 

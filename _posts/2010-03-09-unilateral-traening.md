@@ -30,7 +30,7 @@ Træningen bør suppleres med øvelser, hvor den ene side af kroppen trænes ad 
 
 Der er flere **fordele** ved at træne unilateralt:
 
-- **Aktivering i core.** Når man udfordrer kroppen ved at træne med en side af kroppen, udfordrer man kroppens tyngdepunkt. Det gør at kroppens kerne skal arbejde hårdere for at stabilsere core. Vi har hørt om studier, der viser, at unilaterale øvelser udført på et fast underlag udfordrer core lige så meget som øvelser på en stor træingsbold. Har du set det studium, så må du gerne lige smide en kommentar. Vi vil nemlig gerne læse det.
+- **Aktivering i core.** Når man udfordrer kroppen ved at træne med en side af kroppen, udfordrer man kroppens tyngdepunkt. Det gør at kroppens kerne skal arbejde hårdere for at stabilsere core. Vi har hørt om studier, der viser, at unilaterale øvelser udført på et fast underlag udfordrer core lige så meget som øvelser på en stor træningsbold. Har du set det studium, så må du gerne lige smide en kommentar. Vi vil nemlig gerne læse det.
 - **Funktionelt at bruge kroppen _ensidigt._** Mange af de bevægelser vi laver i hverdagen og i sport laves med en arm eller et ben ad gangen. Tænk bare på at løbe og kaste. At træne unilateralt forbereder kroppen til denne type aktiviteter.
 - **Balancen og stabiliteten forbedres.** Kroppen bliver mere allround-stærk. Mange har en side af kroppen, der er stærkere end den anden. Det kan unilateral træning være med til at rette op på. Start altid med den side du er dårligst i.
 - Fordi du hele tiden udfordrer dit tyngdepunkt, forbedrer det også din evne til at holde balancen og genvinde den igen.

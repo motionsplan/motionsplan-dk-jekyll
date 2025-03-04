@@ -69,7 +69,7 @@ Løbesidens beregner er baseret på [Jack Daniels Running Formula](https://runsm
 
 V<sub>dot</sub> indregner på sin vis [løbeøkonomien](/lobeokonomi/).
 
-Formålet med beregneren er dels at udregne træningstider til din løbetræning, som giver dig mindst mulig risiko for skader, men samtidig sikrer en fremgang over længere tid, så din [kondition]({% link _posts/2019-11-04-kondition-og-test.md %}) bliver bedre, men så du også flytter din udholdenhed og løbeøkonomi.
+Formålet med beregneren er dels at udregne træningstider til din løbetræning, som giver dig mindst mulig risiko for skader, men samtidig sikrer en fremgang over længere tid, så din [kondition](/kondition/tests/) bliver bedre, men så du også flytter din udholdenhed og løbeøkonomi.
 
 De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst muligt tider, du kan løbe.
 

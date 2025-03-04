@@ -40,7 +40,7 @@ Og videnskaben understøtter faktisk, at musik kan hjælpe i træningen. Lad os 
 
 De fleste af de studier, jeg har kunnet finde om musik i træningen, har ikke særlig mange forsøgspersoner, så studierne er lidt udfordret statistisk i forhold til at generalisere på baggrund af resultaterne. Du skal først og fremmest lytte til dig selv og din egen krop. Jeg kommer nok til at bruge musik lidt mere aktivt, når jeg underviser på baggrund af følgende.
 
-Sam Lee et al (2016) lavede et studie, hvor forsøgspersonerne selv måtte indstille løbehastigheden på [løbebåndet]({% link _posts/2020-08-14-loebebaand.md %}). Når de lyttede til musik med et hurtigt tempo indstillede de løbebåndet til at køre næsten en kilometer hurtigere, og deres puls kom højere op. Til gengæld var der ikke signifikant forskel på, hvor hårdt det oplevedes at løbe.
+Sam Lee et al (2016) lavede et studie, hvor forsøgspersonerne selv måtte indstille løbehastigheden på [løbebåndet](/loebebaand-udendoers-loeb/). Når de lyttede til musik med et hurtigt tempo indstillede de løbebåndet til at køre næsten en kilometer hurtigere, og deres puls kom højere op. Til gengæld var der ikke signifikant forskel på, hvor hårdt det oplevedes at løbe.
 
 Sam Lee et al (2016) undersøgte også brugen af musik med et langsomt beat i restitutionsfasen lige efter. En fase er der er rigtig interessant i forhold til hurtigt at begynde at restituere. Når de lyttede til langsom musik, så resulterede det i en hurtigere _heart rate recovery_ og et lavere laktat-tal efter restitutionsfasen.
 

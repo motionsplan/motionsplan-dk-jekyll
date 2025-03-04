@@ -22,7 +22,7 @@ meta:
   equipment: pulsmåler
   max: submaksimal
   direct: direkte test
-last_modified_at: 2022-09-24T08:14:14Z
+last_modified_at: 2025-02-24T08:14:14Z
 toc: true
 faq:
   - question: "Hvad er normal hvilepuls for kvinder?"
@@ -32,7 +32,7 @@ faq:
   - question: "Hvor lav må pulsen være?"
     answer: "Der er naturligvis grænser for, hvor lav din hvilepuls må være før det indikerer, at der er noget galt med kroppens funktion. Du kan tjekke vores skema med normal hvilepuls og se om du skulle være i farezonen."
   - question: "Hvordan beregner man hvilepulsen?"
-    answer: "Der er flere forskellige formler til at beregne din hvilepuls. De fleste tager udgangspunkt i din alder. Tjek vores beregner og alle de forskellige formler her på siden."
+    answer: "Du kan ikke beregne din hvilepuls. Du kan til gengæld beregne din maxpuls, fordi den typisk er aldersebestemt. Tjek vores [maxpuls-beregner](/max-puls-beregner/)."
   - question: "Er en lav hvilepuls altid godt?"
     answer: "Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et [højt blodtryk](/blodtryk/), lavt stofskifte og medicin kan også være med til at sænke pulsen."
 ## https://biostrap.com/academy/how-to-calculate-resting-heart-rate/
@@ -67,7 +67,7 @@ Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker
 
 Hjertet pumper blod rundt i kredsløbet for at levere iltet og næringsmættet blod ud til de arbejdende muskler og organer. Kroppen har også brug for en del energi i hvile, fordi stofskiftet og forbrændingen hele tiden kører. Hjertet slår så mange gange som det er nødvendigt for at få blod nok rundt i systemet til at vedligeholde stofskiftet.
 
-Hjertet bliver hovedsageligt trænet under puls-, kredsløbs- og konditionstræning. Jeg har skrevet et grundigt indlæg om [de fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
+Hjertet bliver hovedsageligt trænet under puls-, kredsløbs- og konditionstræning. Jeg har skrevet et grundigt indlæg om de [fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
 
 Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for din hvilepuls.
 
@@ -196,7 +196,7 @@ Hvis man er i et træningsforløb vil jeg anbefale at måle hvilepulsen hver dag
 
 Jeg er selv blevet ret optaget af _heart rate variability_, hvor man ud over en daglig måling af hvilepulsen også får andre indikationer på, hvor klar kroppen er til at træne. Hvis du ikke kender begrebet HRV, så kan du læse lidt i min [artikel om heart rate variability (HRV)](/hrv/).
 
-## Hvordan træner man sin hvilepuls?
+## Hvordan træner jeg min hvilepuls?
 
 Du træner din hvilepuls når du træner din hjerte. Det er primært slagvolumen, der har betydning for, hvad din hvilepuls er. Derfor skal du lave træning, som kan forøge din hvilepuls. Det kan man gøre ved [aerob træning](/aerob-traening/) og [konditionstræning](/konditionstraening/).
 
@@ -214,9 +214,8 @@ Hvis du allerede er veltrænet, så tager det naturligvis længere tid at få en
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge pulsen til at udregne forskellige træningsparametre.
 
-Sammen med [max-pulsen](/test-max-puls/) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
-
-Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.
+- **Finde dit kondital**. Sammen med [max-pulsen](/test-max-puls/) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
+- **Udregne træningszoner**. Når du kender din maxpuls og din hvilepuls, så kan du udregne din pulsreserve. Med den viden kan du [udregne dine træningszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/).
 
 ## Hvornår har jeg høj hvilepuls?
 

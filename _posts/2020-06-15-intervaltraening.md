@@ -256,7 +256,7 @@ Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/
 
 ## Mål effekten af din intervaltræning
 
-Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter dit intervalprogram sørger for at lave en [konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}) eller en anden passende test, så du finder ud af, om træningen rent faktisk hjælper dig tættere på dine mål.
+Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter dit intervalprogram sørger for at lave en [konditionstests](/kondition/tests/) eller en anden passende test, så du finder ud af, om træningen rent faktisk hjælper dig tættere på dine mål.
 
 ## Konklusion
 

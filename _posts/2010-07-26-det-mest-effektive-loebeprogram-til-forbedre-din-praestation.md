@@ -56,7 +56,7 @@ Ulemperne ved programmet er, at du hver eneste gang skal løb alt hvad du kan, h
 
 ## Hvad er effekten af mit program?
 
-Træning behøver altså ikke at være indviklet. Hvis du laver et træningsprogram og gerne vil vide om det virker, så kan du starte dit program med at lave en løbetest, fx en [Cooper-test](/cooper-test/) eller bruge nogle af vores [beregnere og tests til at finde dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}), inden du går i gang med træningen.
+Træning behøver altså ikke at være indviklet. Hvis du laver et træningsprogram og gerne vil vide om det virker, så kan du starte dit program med at lave en løbetest, fx en [Cooper-test](/cooper-test/) eller bruge nogle af vores [beregnere og tests til at finde dit kondital](/kondition/tests/), inden du går i gang med træningen.
 
 Du kan lave programmet i en måned og reteste for at se, om ikke også programmet viste sig at være meget effektivt for dig? Hvis du har fremgang på programmet, så kan du fortsætte med programmet. Hvis ikke længere der er fremgang at spore i dine tests, så skal du til at tænke på at strukturere din løbetræning anderledes.
 

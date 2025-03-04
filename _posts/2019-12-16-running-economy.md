@@ -63,7 +63,7 @@ Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigg
 
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
-- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO₂max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+- Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO₂max - eller vores [kondital](/kondital/).
 - **Løbeøkonomien**
 - Evnen til at **løbe med en så høj procentdel af VO₂max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den [anaerobe tærskel](/anaerobe-taerskel/).
 
@@ -120,7 +120,7 @@ På formel ser løbeøkonomien altså sådan her ud:
 
 RE = VO₂ (ml/kg/min) / v (km/min)
 
-Hvis du har adgang til et [løbebånd]({% link _posts/2020-08-14-loebebaand.md %}), så får du oftest værdierne for iltoptagelsen som l/min og hastigheden som km/t.
+Hvis du har adgang til et [løbebånd](/loebebaand-udendoers-loeb/), så får du oftest værdierne for iltoptagelsen som l/min og hastigheden som km/t.
 
 Du kan taste disse værdier ind i følgende beregner og få beregnet din løbeøkonomi.
 
@@ -171,7 +171,7 @@ Hvis du kun har behov for selve konditallet ud fra din iltoptagelse og vægt, s�
 
 I forhold til betragtninger om løbeøkonomi, så giver det ikke helt mening at bruge en indirekte måde at estimere din maksimale iltoptagelse. Hvis du fx estimerer iltoptagelsen og dit kondital med en [Cooper-test beregner](/cooper-test/), så er løbeøkonomien allerede en del af resultatet.
 
-Men derfor kan det jo godt være sjovt at bruge sine egne tal til at kigge på løbeøkonomi, så du kan tage et kig på vores side med måder at [teste konditallet og den maksimale iltoptagelse på]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Men derfor kan det jo godt være sjovt at bruge sine egne tal til at kigge på løbeøkonomi, så du kan tage et kig på vores side med måder at [teste konditallet og den maksimale iltoptagelse på](/kondition/tests/).
 
 ## Hvad kan du bruge løbeøkomien til?
 

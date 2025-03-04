@@ -1,0 +1,27 @@
+<form class="calculator" id="calculator_steptest_ymca_modified_box">
+    <fieldset>
+        <legend>Indtast dit resultat og få resultatet</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="sex" type="radio" value="male" required> &#9794; Mand
+            </label>
+            <label class="radio">
+                <input name="sex" type="radio" value="female"> &#9792; Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultat</legend>
+        <label>Box-højde (cm)
+            <input disabled name="box_height" type="text">
+        </label>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>
