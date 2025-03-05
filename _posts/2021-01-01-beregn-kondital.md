@@ -1,5 +1,6 @@
 ---
-title: &title "Beregn dit kondital i vores værktøjer 💗🥇"
+title: &title "Beregn dit kondital uden test – se dit kondital med en formel"
+# title: Beregn dit kondital i vores værktøjer 💗🥇
 seo_title: "5 måder at beregne dit kondital fra sofaen"
 permalink: /beregn-kondital/
 redirect_from:
@@ -20,9 +21,9 @@ meta:
   type: kondition
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
-gallery:
+gallery_world_fitnesslevel:
   - image_path: /assets/images/blog/worldfitnesslevel-www.jpg
-    url: https://www.worldfitnesslevel.org/#/
+    url: https://www.worldfitnesslevel.org/
 polar:
   - image_path: /assets/images/blog/polar-ownindex-2.jpg
     url: /assets/images/blog/polar-ownindex-2.jpg
@@ -32,7 +33,7 @@ polar:
     url: /assets/images/blog/polar-ownindex-4.jpg
 ---
 
-Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Her kan du lave en beregning af dit kondital uden at du behøver at rejse dig fra sofaen.
+Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Her kan du lave en beregning af dit kondital uden at du behøver at lave en fysisk test. Du kan altså blive siddende i sofaen og få dit kondital foræret med disse simple formler.
 
 Hvis du hellere vil bruge dine kræfter, så kan du fx løbe en [bip-test](/bip-test/) eller en [Cooper løbetest](/cooper-test/). Du kan prøve nogle af vores mange [fysiske konditionstests](/kondition/tests/).
 
@@ -64,7 +65,7 @@ Det gør, at du kan udregne dit kondital uden at skulle rejse dig fra sofaen.
 
 ### 3. World Level Fitness
 
-{% include gallery caption="World Fitness Level er lavet af norske forskere og giver dig et bud på dit fitness level ved at besvare en række spørgsmål." %}
+{% include gallery id="gallery_world_fitnesslevel" caption="World Fitness Level er lavet af norske forskere og giver dig et bud på dit fitness level ved at besvare en række spørgsmål." %}
 
 ### 4. Udregn kondital fra hvilepuls og maxpuls
 

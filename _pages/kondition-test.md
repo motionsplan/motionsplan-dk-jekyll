@@ -60,6 +60,8 @@ Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i
 
 Her for du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.
 
+Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [beregnere uden test her](/beregn-kondital/)!
+
 ## Hvad er en konditionstest, og hvorfor tage en?
 
 En konditionstest er en metode til at vurdere din aerobe kapacitet – altså hvor effektivt din krop optager og bruger ilt under fysisk aktivitet. Ved at måle din kondition, så kan du få indsigt i, om din træning virker.
@@ -145,7 +147,7 @@ Fordelen ved indirekte tests er, at de kan gentages jævnligt for at følge din 
 
 Her er nogle af de mest populære indirekte tests – find endnu flere i tabellen ovenfor.
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "indirekte test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "indirekte test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 {% if site_posts.size > 0 %}
@@ -164,11 +166,11 @@ Fordelen ved direkte tests er, at de giver et meget præcist billede af din maks
 
 Her er nogle af de mest anvendte direkte tests – du kan finde flere i tabellen ovenfor.
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "direkte test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "direkte test" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 {% if site_posts.size > 0 %}
-{% for post in site_posts limit: 8 %}
+{% for post in site_posts limit: 4 %}
 {% include archive-single.html type="grid" %}
 {% endfor %}
 {% endif %}
@@ -181,7 +183,7 @@ Fordelen ved en submaksimal konditionstest er, at det er lettere at overskue at 
 
 Til gengæld er den typisk ikke lige så præcis. Her kan du finde nogle af de mest populære submaksimale tests, men få mere inspiration i tabellen ovenfor.
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "submaksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "submaksimal test" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 
@@ -201,7 +203,7 @@ Til gengæld er det også virkelig hårdt at skulle lave en maksimal test, og du
 
 Her er de mest populære, ellers få endnu mere inspiration i tabellen ovenfor.
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "maksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "maksimal test" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 
@@ -272,6 +274,19 @@ Vil du vil måle din kondition eller præstation på cyklen? Der findes flere fo
 
 </div>
 
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="tests-home">🏠 Konditionstests hjemme - Prøv vores tests derhjemme</h3></summary>
+  
+  Hvis du gerne vil teste din kondition uden at forlade hjemmet, kan du finde en række nemme og effektive tests på vores [konditionstests hjemme](/konditionstests-hjemme/). Kom i gang i dag!
+
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="measure-condition-without-tests">📊 Mål din kondition uden tests</h3></summary>
+  
+  Du kan også få en idé om din kondition uden at udføre specifikke tests. Læs hvordan du kan estimere din kondition på siden: [Mål din kondition uden tests](/beregn-kondition/).
 </details>
 
 ## Hvordan forbedrer jeg min kondition baseret på testresultater?

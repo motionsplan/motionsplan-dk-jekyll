@@ -148,7 +148,23 @@ diverse:
 
 </div>
 
-<h2>De mest populære tests og beregnere</h2>
+<h2>De mest populære tests</h2>
+
+{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "featured" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-stopwatch'></i> Se alle tests</a></p>
+
+</div>
+
+<h2>De mest populære beregnere</h2>
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
 
@@ -160,7 +176,7 @@ diverse:
   {% endfor %}
 {% endif %}
 
-<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center">Se alle Tests & Beregnere</a></p>
+<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-calculator'></i> Se alle beregnere</a></p>
 
 </div>
 

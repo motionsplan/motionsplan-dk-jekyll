@@ -13,7 +13,7 @@ category:
   - Tests
   - Kondition
 meta:
-  name: Qeens Colleget Step Test (QCST)
+  name: Queens College Step Test (QCST)
   measures: kondital
   type: steptest
   equipment: stepbænk

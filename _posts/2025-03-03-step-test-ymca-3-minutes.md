@@ -40,6 +40,8 @@ Der findes også en [modificeret udgave af YMCA-steptesten](/ymca-modified-stept
 
 ## Sådan udfører du YMCA steptesten
 
+{% include video provider="youtube" id="kPbmoq5V6AA" %}
+
 I 3-minutters steptesten skal du træde op og ned af en 30 cm høj skammel i et fast tempo med 96 taktslag pr. minut. For at holde det rette tempo under testen kan du følge videoen nedenfor fra [Why I Exercise](https://www.whyiexercise.com/3-minute-step-test.html), eller bruge en metronom og indstille din telefon til 96 taktslag pr. minut.
 
 Start metronomen, og sæt derefter en timer på din telefon til 3 minutter. Når du er klar, starter du timeren. Træd op og ned på skamlen i takt med metronomen, indtil de 3 minutter er gået.

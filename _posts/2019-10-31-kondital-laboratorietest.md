@@ -14,6 +14,7 @@ header:
 category:
   - Kondition
 meta:
+  name: Direkte måling af iltoptagelse i laboratorium 📝
   measures: VO2max og kondital
   type: løbetest
   equipment: løbebånd

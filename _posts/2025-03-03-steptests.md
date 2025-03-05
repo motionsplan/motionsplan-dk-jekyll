@@ -5,13 +5,13 @@ excerpt: "Få overblik over de mest anvendte step tests til at vurdere din kondi
 permalink: /kondital-fra-steptest/
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   caption: *title
 category:
   - Tests
   - Kondition
 meta:
+  name: Steptests 📝
   measures: kondital
   type: steptest
   equipment: stepbænk
@@ -23,6 +23,7 @@ tags:
   - test
   - liste
   - moc
+  - featured
 last_modified_at: 2025-03-03T23:14:14Z
 toc: true
 breadcrumbs: true
@@ -33,6 +34,8 @@ En steptest er en enkel og effektiv metode til at vurdere konditionen ved at må
 Steptests er ofte brugt inden for fitness, sundhedsvurdering og forskning.
 
 Her finder du en oversigt over de mest populære step tests.
+
+{% include figure image_path="https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg" caption="Et eksempel på at sætte en steptest op for flere på en gang." %}
 
 ## Sådan vælger du den rigtige steptest
 

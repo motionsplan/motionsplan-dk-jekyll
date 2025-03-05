@@ -22,7 +22,6 @@ tags:
   - laboratorium
   - direkte test
   - maksimal test
-  - submaksimal test
   - test
   - løbetest
   - laboratorietest
