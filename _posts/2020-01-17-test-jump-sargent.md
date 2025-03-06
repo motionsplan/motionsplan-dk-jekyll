@@ -34,9 +34,9 @@ Sargent Jump test er rimelig meget enkel og kan laves overalt. Stå ved siden af
 
 Vi har samlet en liste over alle [springtests for hoppehøjde her](/springtests-hoppehoejde/).
 
-## Hvordan udføres Sargent Jump Test
+## Sådan udføres Sargent Jump Test
 
-{% include figure image_path="https://www.homeexerciseequipmenthq.com/wp-content/uploads/2015/05/Vertical-Jump-Test-2.jpg" caption="Sargent Jump Test. Kilde: [www.homeexerciseequipmenthq.com](https://www.homeexerciseequipmenthq.com/vertical-jump-test/)." %}
+{% include figure image_path="/assets/images/blog/Vertical-Jump-Test-2.jpg" caption="Sådan udføres Sargent Jump Test" alt="Sargent Jump Test" %}
 
 Harman et al. (1991) brugte følgende protokol, da de udførte Sargent Jump Test.
 
@@ -49,7 +49,7 @@ Harman et al. (1991) brugte følgende protokol, da de udførte Sargent Jump Test
 
 Du kan se testen forklaret i denne Youtube-video.
 
-{% include video provider="youtube" id="oJUHSv20Ayg" %}
+{% include video provider="youtube" id="FgBF5DXI4nI" %}
 
 ## Udregn hoppehøjden fra Sargent Jump Test
 
@@ -57,13 +57,9 @@ Hoppehøjden er forskellen mellem din rækkehøjde, og hvor du ender med at rør
 
 {% include calculator/calculate-jump-reach.html title="Sargent Jump Test" %}
 
-{% comment%}
+Du kan læse mere om [spring, at hoppe højere og eksplosivitet her](/springtraening/).
 
-Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _posts/2020-01-16-jumping.md %}).
-
-{% endcomment %}
-
-## Ulemper ved testen
+## Ulemper ved Sargent springtesten
 
 - Det er lidt mærkeligt at hoppe så tæt ved en væg, og det kan risikere at mindske dit resultat.
 - Hvis du bruger et kridt i hånden, så kan du risikere at være lidt unøjagtig. Det er mere nøjagtigt, hvis du enten har kridt eller kalk på fingrene eller en form for blæk.
