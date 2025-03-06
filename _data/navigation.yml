@@ -14,10 +14,6 @@ main:
     url: /kondition/
   - title: "Løb"
     url: /loebesiden/
-  - title: "Springtræning"
-    url: /springtraening/
-  - title: "Eksplosivitet"
-    url: /eksplosivitet/
   - title: "Træningsøvelser"
     url: /traeningsoevelser/
   - title: "Udstyr"
