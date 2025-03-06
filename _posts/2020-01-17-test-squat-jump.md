@@ -18,7 +18,7 @@ tags:
   - testberegner
   - spring
   - eksplosivitet
-last_modified_at: 2021-11-19T23:14:14Z
+last_modified_at: 2025-03-03T23:14:14Z
 toc: true
 meta:
   name: Squat Jump test (SJ)
@@ -34,13 +34,7 @@ Squat Jump (SJ) er en test, der måler din rene eksplosive styrke uden forspænd
 
 Dette gør SJ til en effektiv test til at vurdere den koncentriske muskelkraft i benene. Testen anvendes ofte i træningssammenhænge og forskning for at analysere forskellen mellem eksplosiv styrke med og uden elasticitet fra stræk-forkortningscyklussen.
 
-## Hvad er forskellen på squat jump og counter movement jump?
-
-CMJ og SJ er populære tests til at vurdere eksplosiv styrke, da de adskiller sig i brugen af stræk-forkortningscyklussen (SSC). CMJ aktiverer SSC, mens SJ tester ren koncentrisk kraft
-
-Disse springtests bruges ofte til at måle fremgang i styrke- og [springtræning](/springstyrke-og-springtraening/).
-
-## Hvordan kan jeg måle hoppehøjden for SJ?
+## Sådan måler du hoppehøjden med squat jump (SJ)?
 
 Disse to vertikale hop kan man lave med flere forskellige måleredskaber. Jeg har beskrevet [forskellige måder at måle hoppehøjde på](/springtests-hoppehoejde/). Den billigste måde er at bruge din smartphone, men ellers bruger man ofte en hoppemåtte eller en kraftplatform.
 
@@ -56,7 +50,7 @@ Du kan både måle CMJ og SJ med:
 | **Hoppemåtte**   | Middel     | Mellem | Nem            | Kan overvurdere hoppehøjde ved ujævn landing |
 | **Videoanalyse** | Lav-middel | Billig | Moderat        | Afhænger af kameravinkel og manuel analyse |
 
-## Hvordan laver man et squat jump (SJ)?
+## Sådan laver du et squat jump (SJ)?
 
 [Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) foreslår følgende standardprocedure for et _squat jump (SJ)_:
 
@@ -74,6 +68,8 @@ Her kan du se et gentaget squat jump:
 
 ## Hvad er forskellen på SJ?
 
+CMJ og SJ er populære tests til at vurdere eksplosiv styrke, da de adskiller sig i brugen af stræk-forkortningscyklussen (SSC). CMJ aktiverer SSC, mens SJ tester ren koncentrisk kraft
+
 - CMJ inkluderer en forspænding, hvilket aktiverer stræk-forkortningscyklussen og giver højere hop.
 - SJ starter fra en statisk position, hvilket eliminerer elasticitetseffekten og viser ren koncentrisk kraft.
 
@@ -81,7 +77,9 @@ Her kan du se forskellen på et counter movement jump og et squat jump.
 
 {% include video provider="youtube" id="DZV_RlzfSIY" %}
 
-## Hvordan beregner jeg hoppehøjden fra SJ?
+Disse springtests bruges ofte til at måle fremgang i styrke- og [springtræning](/springstyrke-og-springtraening/).
+
+## Sådan beregner du hoppehøjden fra squat jump (SJ)?
 
 Beregn din hoppehøjde nemt med denne formular – indtast din svævetid i luften her!
 

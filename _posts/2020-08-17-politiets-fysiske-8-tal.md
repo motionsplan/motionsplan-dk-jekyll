@@ -1,6 +1,8 @@
 ---
 title: &title "8-tals-testen: Politiets hurtighedstest forklaret"
 permalink: /8-tal-hurtighedstest/
+redirect_from:
+  - /8-tals-sprint-test/
 seo_title: "Politiets 8-tals-test: Sådan klarer du hurtighedstesten"
 excerpt: "8-tals-testen tester din hurtighed og retningsskift. Læs, hvordan testen udføres, og få tips til at forbedre din tid."
 description: "8-tals-testen måler din hurtighed og retningsskift. Læs hvordan du udfører testen til politiets optagelsesprøve og forbedrer din tid."

@@ -16,7 +16,7 @@ tags:
   - springtest
   - testberegner
   - eksplosivitet
-last_modified_at: 2021-11-19T23:14:14Z
+last_modified_at: 2025-01-19T23:14:14Z
 toc: true
 meta:
   name: Counter Movement Jump (CMJ)
@@ -34,12 +34,6 @@ Denne bevægelse aktiverer stræk-forkortningscyklussen i musklerne, hvilket gø
 
 Et counter movement jump (CMJ) bruges til at måle eksplosivitet i benenes muskulatur, hvor atleten bruger forspænding. Et alternativ uden forspænding, så kan du med et [squat jump måle rå springkraft uden forspænding](/squat-jump-test/).
 
-## Hvad er forskellen på et counter movement jump og et squat jump?
-
-CMJ og SJ er populære tests til at vurdere eksplosiv styrke, da de adskiller sig i brugen af stræk-forkortningscyklussen (SSC). CMJ aktiverer SSC, mens SJ tester ren koncentrisk kraft
-
-Disse springtests bruges ofte til at måle fremgang i styrke- og [springtræning](/springstyrke-og-springtraening/).
-
 ## Hvordan kan jeg måle hoppehøjden for CMJ?
 
 Disse to vertikale hop kan man lave med flere forskellige måleredskaber. Jeg har beskrevet [forskellige måder at måle hoppehøjde på](/springtests-hoppehoejde/). Den billigste måde er at bruge din smartphone, men ellers bruger man ofte en hoppemåtte eller en kraftplatform.
@@ -56,7 +50,7 @@ Du kan både måle CMJ og SJ med:
 | **Hoppemåtte**   | Middel     | Mellem | Nem            | Kan overvurdere hoppehøjde ved ujævn landing |
 | **Videoanalyse** | Lav-middel | Billig | Moderat        | Afhænger af kameravinkel og manuel analyse |
 
-## Hvordan laver man et counter movement jump (CMJ)?
+## Sådan laver du et counter movement jump (CMJ)?
 
 [Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) har i deres _review_ undersøgt, hvordan _counter movement jumps_ og _squat jumps_ bruges i litteraturen. De foreslår en standardprocedure for begge springtests i deres arbejde. For et _counter movement jump (CMJ)_ ser deres foreslåede standardprocedure sådan her ud:
 
@@ -81,12 +75,16 @@ Her kan du se et eksempel på et CMJ med armtræk. Et ganske imponerende et af s
 
 ## Hvad er forskellen på CMJ og SJ?
 
+CMJ og SJ er populære tests til at vurdere eksplosiv styrke, da de adskiller sig i brugen af stræk-forkortningscyklussen (SSC). CMJ aktiverer SSC, mens SJ tester ren koncentrisk kraft
+
 - CMJ inkluderer en forspænding, hvilket aktiverer stræk-forkortningscyklussen og giver højere hop.
 - SJ starter fra en statisk position, hvilket eliminerer elasticitetseffekten og viser ren koncentrisk kraft.
 
 Her kan du se forskellen på et counter movement jump og et squat jump.
 
 {% include video provider="youtube" id="DZV_RlzfSIY" %}
+
+Begge disse springtests bruges ofte til at måle fremgang i styrke- og [springtræning](/springstyrke-og-springtraening/).
 
 ## Hvordan beregner jeg hoppehøjden fra CMJ?
 

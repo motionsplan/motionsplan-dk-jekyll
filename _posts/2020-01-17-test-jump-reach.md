@@ -68,7 +68,9 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 ## Kan power udregnes?
 
-I tests med vertikale hop, så bliver distancen ofte kun rapporteret. Dette fortæller imidlertid ikke den fulde historie. En tungere person der hopper den samme højde som en lettere person, skal udvikle meget mere kraft for at bevæge den større kropsvægt. Derfor kan det sommetider være interessant at få et mål for _power_ eller arbejde.
+I tests med vertikale hop, så bliver kun distancen ofte rapporteret. Dette fortæller imidlertid ikke den fulde historie. En tungere person der hopper den samme højde som en lettere person, skal udvikle meget mere kraft for at bevæge den større kropsvægt.
+
+Derfor kan det sommetider være interessant at få et mål for _power_ eller arbejde.
 
 Det mekaniske arbejde for at hoppe kan bestemmes med med hoppehøjden.
 
@@ -86,23 +88,13 @@ Vi kender nemlig ikke tiden, hvor kraften reagerede på kropsvægten.
 
 Hvis vi har en kraftplatform, så kan vi måle kraften direkte. Vi har imidlertid ikke altid en kraftplatform til rådighed. Der er i stedet lavet formler til at estimere _force_ fra målinger af vertikale hop. Disse formler er mere eller mindre præcise. Du vil også se, at du får relativt forskellige resultater alt efter, hvilken formel du bruger til at estimere kraften.
 
-## Formler brugt til at udregne power fra hoppehøjde?
+## Formler til at udregne power fra hoppehøjde?
 
 Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendsports.com](https://www.topendsports.com/testing/vertical-jump-power.htm) og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
 
 Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jumps og countermovement jumps](/countermovement-jump-cmj-squat-jump-sj/), men de bruges også jævnligt i forbindelse med Jump and Reach-testen.
 
 Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
-
-## Hvordan kan jeg springe højere med tilløb?
-
-Hvis du sørger for en god teknik, så kan du springe højere med tilløb. Se fx de gode råd i denne Youtube-video.
-
-{% include video provider="youtube" id="51yEI3snWmI" %}
-
-Det er også godt at tænke på, hvilken strategi du bruger i luften for at manipulere dit tyngdepunkt. Hvis du sørger for at have så meget af kroppen nede, så kan du springe højere.
-
-{% include video provider="youtube" id="KNtoP1P2dUA" %}
 
 <details markdown="1" class="equation">
   <summary>Se Lewis (1974) formler</summary>
@@ -148,6 +140,16 @@ Ved brug fra CMJ.
 Peak Power = 51.9 * jump_height + 48.9 * body_mass - 2007;
 </details>
 
+## Sådan springer du højere med tilløb?
+
+Hvis du sørger for en god teknik, så kan du springe højere med tilløb. Se fx de gode råd i denne Youtube-video.
+
+{% include video provider="youtube" id="51yEI3snWmI" %}
+
+Det er også godt at tænke på, hvilken strategi du bruger i luften for at manipulere dit tyngdepunkt. Hvis du sørger for at have så meget af kroppen nede, så kan du springe højere.
+
+{% include video provider="youtube" id="KNtoP1P2dUA" %}
+
 ## Hvor bruges Jump & Reach?
 
 Jump & Reach bruges bl.a. i NFL Combine. Denne version foregår uden tilløb, men med fuldt armtræk.
@@ -160,19 +162,7 @@ Zach LaVine springer her 116 cm i en etbenet jump & reach-test med tilløb.
 
 <iframe src="https://vine.co/v/MDmK2MaeV3P/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 
-## Hjælp med at forbedre artiklen om Jump & Reach
-
-Hvis du kender noget til Jump & Reach-testen og gerne vil hjælpe med at lave en god indføring i hoppetesten, så kontakt mig endelig.
-
-Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet, spring og at hoppe højere.
-
-Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
-
-{% comment %}
-
-Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _posts/2020-01-16-jumping.md %}).
-
-{% endcomment %}
+Du kan læse mere om [spring, at hoppe højere og eksplosivitet her](/springstyrke-og-springtraening/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -27,7 +27,6 @@ Springtræning handler om at udvikle din eksplosivitet og styrke gennem målrett
 
 I denne guide lærer du, hvordan du optimerer din springkraft, hvordan du udfører de bedste øvelser og hvilke tests, du kan bruge til at måle dine fremskridt.
 
-
 Her har jeg samlet viden om, hvordan du kommer til at springe højere eller længere med springtræning.
 
 *[GCT]: Ground Contact Time
