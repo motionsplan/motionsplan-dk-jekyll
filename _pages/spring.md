@@ -1,7 +1,8 @@
 ---
-title: &title "Springtræning – Sådan forbedrer du dit spring i sport og træning"
-seo_title: "Springtræning – Guide til bedre hoppehøjde, springlængde og eksplosivitet"
-description: Lær hvordan du træner for at hoppe højere og springe længere. Springtræning forbedrer både vertikale og horisontale spring, eksplosivitet og styrke. Få overblik over metoder, tests og øvelser.
+title: &title "Springtræning – Sådan forbedrer du dit spring"
+seo_title: "Springtræning – Guide til bedre hoppehøjde og springlængde"
+description: Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke. Få overblik over metoder, tests og øvelser.
+excerpt: "Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke. Få overblik over metoder, tests og øvelser."
 permalink: /springtraening/
 language: da
 header:
@@ -20,7 +21,12 @@ last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 ---
 
-Vil du hoppe højere, springe længere eller blive mere eksplosiv? Springtræning er afgørende for mange sportsgrene – fra basketball til atletik. På denne side får du en introduktion til springtyper, tests og træningsmetoder, så du kan målrette din træning.
+Vil du hoppe højere, springe længere eller blive mere eksplosiv? 
+
+Springtræning handler om at udvikle din eksplosivitet og styrke gennem målrettede hoppeøvelser og kraftudvikling. Uanset om du er en atlet, der ønsker at hoppe højere, løbe hurtigere eller en fitnessentusiast, der vil forbedre din generelle fysisk formåen, vil effektiv springtræning kunne hjælpe dig.
+
+I denne guide lærer du, hvordan du optimerer din springkraft, hvordan du udfører de bedste øvelser og hvilke tests, du kan bruge til at måle dine fremskridt.
+
 
 Her har jeg samlet viden om, hvordan du kommer til at springe højere eller længere med springtræning.
 
@@ -161,12 +167,10 @@ Forskel mellem jump and reach og kraftplatform
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 3 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
-
-[Se alle springtests](/springtests-hoppehoejde/){: .btn .btn--info .btn--center }
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
-title: &title "Sprintceller: Test hvor hurtigt du løber og accelererer"
+title: &title "Sprinttest: Test din hastighed og acceleration"
+seo_title: "Sprinttest med sprintceller: Test hastighed og acceleration"
 excerpt: "Med sprintceller kan du ret præcist måle sprinthastighed og accelerationsevne. Den præcise tidtagning fås i forskellige variationer, men fælles for dem alle er at de præcist kan tage tid."
 permalink: /sprinttest-med-sprintceller/
 language: da
@@ -12,10 +13,11 @@ category:
 tags:
   - test
   - sprinttest
+  - eksplosivitet
 last_modified_at: 2022-01-19T23:14:14Z
 toc: true
 meta:
-  name: Sprintceller
+  name: Sprinttest med sprintceller
   measures: sprint
   type: sprinttest
   equipment: se testbeskrivelse
@@ -63,7 +65,7 @@ I denne video kan du se nogle af de hurtigste sprintere i verden til at løbe.
 
 Jeg har kigget lidt rundt for at finde nogle gode splittider. [speedendurance.com](https://speedendurance.com/2008/08/22/usain-bolt-100m-10-meter-splits-and-speed-endurance/) har lavet en liste over Usain Bolts verdensrekordløb for hver 10 meter. Den ser sådan her ud:
 
-| Reaction time | 0-10m | 10-20m | 20-30m | 30-40m | 40-50m | 50-60m | 60-70m | 70-80m | 80-90m | 90-100m | Sluttid |
+| Reaktionstid| 0-10m | 10-20m | 20-30m | 30-40m | 40-50m | 50-60m | 60-70m | 70-80m | 80-90m | 90-100m | Sluttid |
 |-|-|-|-|-|-|-|-|-|-|-|-|
 | 0,165 | 1,85 | 1,02 | 0,91 | 0,87 | 0,85 | 0,82 | 0,82 | 0,82 | 0,83 | 0,90 | 9,69 |
 
@@ -71,12 +73,6 @@ I 2019 MLS combine løb DeJuan Jones 3,82 på sin 30 meter sprint, men han brugt
 
 Usain Bolt brugte 2,87 sekunder på de første **20 meter** af sit verdensrekordløb. Joel Wilkinson har ifølge [www.topendsports.com](https://www.topendsports.com/testing/results/sprint-tests-20m.htm) løbet 2,75 på 20 meter i AFL Combine i 2010.
 
-De første **30 meter** af Bolts verdensrekord blev løbet på 3,78 sekunder, men [www.topendsports.com](https://www.topendsports.com/testing/results/sprint-tests-30m.htm) skriver, at nogle sprintere har løbet endnu hurtigere på en ren 30 meter sprint. Michael Bates fra USA har fx løbet de 30 meter på 3,09 sekunder. Det virker jo ret ret vanvittigt.
+De første **30 meter** af Bolts verdensrekord blev løbet på 3,78 sekunder, men [www.topendsports.com](https://www.topendsports.com/testing/results/sprint-tests-30m.htm) skriver, at nogle sprintere har løbet endnu hurtigere på en ren 30 meter sprint. Michael Bates fra USA har fx løbet de 30 meter på 3,09 sekunder. Det virker jo ret vanvittigt.
 
-## Hjælp med at udvide indlægget
-
-Jeg er ved at lave et indlæg om sprintceller til at teste hurtighed. Hvis du kender noget til testen og gerne vil hjælpe med at lave en god indføring i sprintceller, så kontakt mig endelig.
-
-Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet og sprint.
-
-Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
+{% include stub.md %}

@@ -16,7 +16,7 @@ tags:
   - springtest
   - spring
   - testberegner
-  - springtræning
+  - eksplosivitet
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 meta:

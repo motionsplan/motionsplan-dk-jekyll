@@ -12,6 +12,15 @@ tags:
   - springtest
   - eksplosivitet
   - spring
+  - test
+meta:
+  name: Reactive Strength Index
+  measures: springstyrke
+  type: spring test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
+  description: Mål, hvor hurtigt du kan udnytte elastisk energi i et hop.
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 feature_row:
@@ -47,17 +56,19 @@ Her kan du læse mere om, hvordan du kan teste RSI med en hoppemåtte eller kraf
 
 _Reactive Strength_ er evnen til hurtigt at ændre retning fra en hurtig excentrisk bevægelse til en koncentrisk bevægelse. _Reactive Strength Index (RSI)_ er udviklet for at få måle, hvordan testpersonen præsterer under plyometriske øvelser med hurtigt skift fra exentrisk bevægelse til en koncentrisk bevægelse - og som et udtryk for den dynamiske eksplosive vertikale hoppekapacitet.
 
-RSI er bl.a. et mål for, hvor hurtigt atleten kan bevæge sig gennem _stretch-shortening cycle_. Oprindeligt var RSI en del af Strength Qualities Assessment Test (SQAT) udviklet på Australian Institute of Sport.
+RSI er bl.a. et mål for, hvor hurtigt atleten kan bevæge sig gennem _stretch-shortening cycle_.
+
+Oprindeligt var RSI en del af Strength Qualities Assessment Test (SQAT) udviklet på Australian Institute of Sport.
 
 {% include video provider="youtube" id="HuD2KOUoD0k" %}
 
 ## Hvordan tester du reactive strength index (RSI)?
 
-Man kan teste og måle RSI på forskellige måder. Men inden du går i gang med testning, så skal du først og fremmest have en god forståelse for [plyometrisk arbejde og træning](/plyometrisk-traening/).
+Du kan teste RSI på forskellige måder. Men inden du går i gang med testning, så kan det være en fordel at have en god forståelse for [plyometrisk arbejde og træning](/plyometrisk-traening/).
 
-Den mest brugte test er ‘incremental drop jump’, som også er en glimrende øvelse til at finde ud af, hvad de optimale hoppehøjder er.
+Den mest brugte test er ‘incremental drop jump’, som også er en glimrende øvelse til at finde ud af, hvad de optimale hoppehøjder er, når du vil arbejde med plyometrik.
 
-Men lad os kigge på de tre mest brugte tests.
+Her kan du lære mere om tre mest brugte tests til at måle RSI.
 
 ### 1. Incremental Drop Jump
 

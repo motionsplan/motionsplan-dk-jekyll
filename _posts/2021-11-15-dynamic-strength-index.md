@@ -13,7 +13,15 @@ tags:
   - springtest
   - eksplosivitet
   - spring
-  - springtræning
+  - test
+meta:
+  name: Dynamic Strength Index
+  measures: springstyrke
+  type: spring test
+  equipment: se testbeskrivelse
+  max: maksimal test
+  direct: direkte test
+  description: Måler forholdet mellem maksimal styrke og springstyrke.
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 gallery:

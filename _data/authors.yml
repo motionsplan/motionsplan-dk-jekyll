@@ -42,7 +42,7 @@ andreas.christensen:
   name             : "Andreas Kjærsgaard Christensen"
   title            : "Medejer af Occlude"
   avatar           : "/assets/images/authors/andreas-christensen.jpg"
-  bio              : "Medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
+  bio              : "Medejer af firmaet Occlude. Occlude udvikler medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Occlude har afholdt mere end 100 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
   links:
     - label: "www.occlude.dk"
       icon: "fas fa-fw fa-link"
@@ -50,6 +50,9 @@ andreas.christensen:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/andreas-christensen-a1183490/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/andreaskc_/"
   featured: true
 jakob.nielsson:
   name             : "Jakob Nielsson"

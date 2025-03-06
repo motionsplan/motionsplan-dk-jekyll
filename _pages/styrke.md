@@ -246,7 +246,7 @@ Lav måske denne om til støttetræning
 
 ## Okklusionstræning
 
-{% include feature_row id="feature_okklusion" type="left" %}
+{% include feature_row id="feature_row_okklusion" type="left" %}
 
 ## Udstyr til styrketræning
 

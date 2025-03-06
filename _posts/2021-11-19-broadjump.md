@@ -27,6 +27,7 @@ meta:
   equipment: målebånd
   max: maksimal test
   direct: indirekte test
+  description: Test for at måle, hvor langt du kan springe fremad.
 last_modified_at: 2025-01-19T08:14:14Z
 toc: true
 ---

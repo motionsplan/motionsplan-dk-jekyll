@@ -232,7 +232,7 @@ En baseline for den **anaerobe træning** kan være:
 
 - Alactic power 3-6 sec, fx [6 sekunders sprint]({% link _posts/2019-11-18-6-sek-sprint.md %})
 - Alactic capacity 6-10 sec
-- Jump tests, fx [counter movement jump]({% link _posts/2020-01-17-test-jump-cmj.md %}) eller [jump & reach]({% link _posts/2020-01-17-test-jump-reach.md %})
+- Jump tests, fx [counter movement jump](/countermovement-jump-cmj-squat-jump-sj/) eller [jump & reach](/jump-reach/)
 - Lactic power 30-40 sec, fx [Wingate 30 sekunders test](/wingate/)
 
 Når du har etableret en _baseline_ for dine energisystemer, så kan du fokusere på at lave et program, der vil træne systemerne, så du kan opnå dine mål.

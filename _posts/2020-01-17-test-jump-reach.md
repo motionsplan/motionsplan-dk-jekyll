@@ -12,9 +12,9 @@ tags:
   - test
   - springtest
   - spring
-  - springtræning
   - fitnesstest
   - anaerob test
+  - eksplosivitet
 last_modified_at: 2011-11-19T23:14:14Z
 toc: true
 meta:
@@ -90,7 +90,7 @@ Hvis vi har en kraftplatform, så kan vi måle kraften direkte. Vi har imidlerti
 
 Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendsports.com](https://www.topendsports.com/testing/vertical-jump-power.htm) og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
 
-Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jumps og countermovement jumps]({% link _posts/2020-01-17-test-jump-cmj.md %}), men de bruges også jævnligt i forbindelse med Jump and Reach-testen.
+Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jumps og countermovement jumps](/countermovement-jump-cmj-squat-jump-sj/), men de bruges også jævnligt i forbindelse med Jump and Reach-testen.
 
 Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
 

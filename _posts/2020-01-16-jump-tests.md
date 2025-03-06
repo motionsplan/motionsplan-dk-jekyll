@@ -10,9 +10,7 @@ category:
   - Springtests
 tags:
   - spring
-  - springtræning
   - moc
-  - test
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 feature_row_jump_training:
