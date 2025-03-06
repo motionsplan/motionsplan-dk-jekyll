@@ -65,7 +65,7 @@ Testen kræver tålmodighed, for det kræver både øvelse og præcision at lave
 {% include concept.html concept="lt1" %}
 {% include concept.html concept="lt2" %}
 
-{% include figure image_path="/assets/images/blog/lactate-testing.png" alt="blodlaktattest med laktatmåler" %}
+{% include figure image_path="/assets/images/blog/lactate-testing.jpg" alt="blodlaktattest med laktatmåler" %}
 
 ## Hvorfor lave en blodlaktattest?
 
@@ -87,7 +87,7 @@ Du har brug for en laktatmåler for at kunne lave en laktat-test. En laktatmåli
 
 ***
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>Lactate Scout 4 eller Sport</summary>
 
 Vi bruger Lactate Scout 4 eller Sport modellen på Vejle Idrætshøjskole. Vi har rigtig gode erfaringer med den måler, men det er ikke billigt at lave laktatmålinger. Selve måleren koster er ikke den billigste og laktatstrips er også kostbare.
@@ -102,7 +102,7 @@ Vi bruger Lactate Scout 4 eller Sport modellen på Vejle Idrætshøjskole. Vi ha
 - Følsom over for fejl, hvis blodprøven er for lille eller uren
 </details>
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>Lactate Plus – Den mest anvendte måler</summary>
 
 Lactate Plus fra Nova Biomedical er en ret populær måler. Den er rimeligt prissat, og teststrimlerne er billigere end dem til andre målere.
@@ -119,7 +119,7 @@ Lactate Plus fra Nova Biomedical er en ret populær måler. Den er rimeligt pris
 </details>
 
 
-<details markdown="1">
+<details markdown="1" class="faq">
   <summary>Accutrend Plus kolesterol- og laktatmåler</summary>
 
 Accutrend Plus kolesterolmåler kan også måle laktat med de passende striber. Det er den billigste af målerne, men jeg har ikke afprøvet den selv.
@@ -147,7 +147,7 @@ Når du skal tage blodprøven skal du være meget omhyggelig. Hvis der kommer de
 
 {% include video provider="youtube" id="80a7OHZFu-8" %}
 
-<details>
+<details markdown="1" class="faq">
   <summary>📌 Tips til en god blodprøve</summary>
 
 - **Brug en passende lancet** – Den nål du stikker med skal være tyk stor nok, så der kommer en passende dråbe blod ud. Det reducerer fejlmålinger. En dybere prikning er også med til at give en større bloddråbe og bedre måling.
@@ -229,6 +229,9 @@ Der er forskellige definitioner af den aerobe tærskel.
 
 Uanset hvilken metode du vælger til at bestemme den aerobe tærskel, er det vigtigste at være konsekvent, når du senere tester folk igen for at kunne sammenligne deres resultater.
 
+**Vil du vide mere?**: [Alt om den aerobe tærskel](/aerobe-taerskel/)
+{: .notice }
+
 ## Blodlaktattest for den anaerobe tærskel (AnT)
 
 Den anaerobe tærskel (AnT) er det punkt, hvor laktat ophobes hurtigt, og intensiteten kun kan opretholdes i 20-60 minutter. Det svarer til den maksimale bæredygtige indsats for en udholdenhedsatlet.
@@ -236,6 +239,9 @@ Den anaerobe tærskel (AnT) er det punkt, hvor laktat ophobes hurtigt, og intens
 Den klassiske metode til at identificere AnT er at finde bøjningspunktet på laktatkurven, hvor laktatniveauet stiger markant. Dog kan denne metode have udfordringer, såsom kortvarige udsving og vanskeligheder ved at tage præcise målinger under høj intensitet.
 
 For at validere resultaterne kan du supplere blodlaktattesten med en feltbaseret AnT-test, hvor du udfører en maksimal indsats over 20-60 minutter og noterer gennemsnitspulsen.
+
+**Læs mere**: [Guide til den anaerobe tærskel](/anaerobe-taerskel/)
+{: .notice }
 
 ## Fortolkning af resultaterne fra din blodlaktattest
 
