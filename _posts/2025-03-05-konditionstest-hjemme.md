@@ -160,7 +160,7 @@ Her har vi samlet de bedste måder at test din kondition hjemme på. Testen er l
   👉 [Læs mere om Bip-testen](/bip-test/)
 </details>
 
-## Hvilken test skal du vælge?
+## Hvilken selvtest af kondition skal du vælge?
 
 For at finde den rette konditionstest skal du overveje dit formål, dit fysiske niveau, og hvilket udstyr du har til rådighed.
 

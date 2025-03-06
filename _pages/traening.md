@@ -137,13 +137,12 @@ Tjek også disse forskellige træningsformer:
 
 </div>
 
-{% comment %}
-
-### Konditionstræning og cardio
+<details markdown="1" class="faq">
+  <summary><h3>🫁 Konditionstræning og cardio</h3></summary>
 
 Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner](/bedste-cardiomaskiner/).
 
-Læs mere om [cardio træning](/cardio-traening-workout/), [konditionstræning](/kondition/) og [konditionstests](/kondition/tests/).
+Læs mere om [cardio træning](/cardio-traening-workout/), [kondition](/kondition/) og [konditionstests](/kondition/tests/).
 
 {% assign site_posts = site.posts | where: "category", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
@@ -155,11 +154,14 @@ Læs mere om [cardio træning](/cardio-traening-workout/), [konditionstræning](
   {% endfor %}
 {% endif %}
 
-[Læs mere om konditionstræning og tests](/kondition/){: .btn .btn--success .btn--center }
+[Læs mere om konditionstræning](/konditionstraening/){: .btn .btn--success .btn--center }
 
 </div>
 
-### Styrketræning
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🏋️‍♂️ Styrketræning</h3></summary>
 
 Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning.
 
@@ -178,8 +180,10 @@ Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprog
 [Læs mere om styrketræning](/styrketraening/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-### 🏃 Løb
+<details markdown="1" class="faq">
+  <summary><h3>🏃 Løb</h3></summary>
 
 Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe længere. Vi hjælper dig i gang med træningsprogrammer og løbeøvelser.
 
@@ -199,7 +203,10 @@ Læs mere om [løb og løbetræning her](/loebesiden/).
 
 </div>
 
-### Cykling
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🚴 Cykling</h3></summary>
 
 Cykling bliver mere og mere populært. Vi har samlet masser indhold om cykling og tests, som du kan bruge, hvis cykling er din primære træningsform.
 
@@ -218,14 +225,19 @@ Læs mere om [cykling og cykeltræning her](/cykling/).
 [Læs mere om træning på cyklen](/cykling/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-### Crosstraining og HIIT
+<details markdown="1" class="faq">
+  <summary><h3>💥 Crosstraining og HIIT</h3></summary>
 
 Måske har du lyst til at blande de forskellige kategorier af træning lidt. Du kan prøve [funktionel træning](/funktionel-styrketraening/) eller forskellige højintensive træningsformer.
 
 [Læs mere om HIIT](/hiit/){: .btn .btn--success .btn--center }
 
-### Yoga, mobilitetstræning og mindfulness
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🧘 Yoga, mobilitetstræning og mindfulness</h3></summary>
 
 Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 
@@ -242,12 +254,14 @@ Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 [Læs mere om yoga og mindfulness](/yoga/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-### Springtræning og plyometrisk træning
+<details markdown="1" class="faq">
+  <summary><h3>🦘 Springtræning og plyometrisk træning</h3></summary>
 
-Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springstyrke-og-springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).
+Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).
 
-{% endcomment %}
+</details>
 
 ## Træning af muskelgrupper
 

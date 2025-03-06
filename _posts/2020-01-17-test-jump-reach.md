@@ -162,7 +162,7 @@ Zach LaVine springer her 116 cm i en etbenet jump & reach-test med tilløb.
 
 <iframe src="https://vine.co/v/MDmK2MaeV3P/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 
-Du kan læse mere om [spring, at hoppe højere og eksplosivitet her](/springstyrke-og-springtraening/).
+Du kan læse mere om [springstyrke, at hoppe højere og eksplosivitet her](/springstyrke-og-springtraening/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

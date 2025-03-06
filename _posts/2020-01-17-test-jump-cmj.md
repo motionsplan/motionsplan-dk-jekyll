@@ -84,7 +84,7 @@ Her kan du se forskellen på et counter movement jump og et squat jump.
 
 {% include video provider="youtube" id="DZV_RlzfSIY" %}
 
-Begge disse springtests bruges ofte til at måle fremgang i styrke- og [springtræning](/springstyrke-og-springtraening/).
+Begge disse springtests bruges ofte til at måle fremgang i styrke- og [springtræning](/springtraening/).
 
 ## Hvordan beregner jeg hoppehøjden fra CMJ?
 

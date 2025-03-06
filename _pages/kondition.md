@@ -71,7 +71,7 @@ Læs: [Konditionstests: Test din kondition og dit kondital](/kondition/tests/)
 
 Kondition er et udtryk for kroppens evne til at arbejde med aerobe processer og måles som den maksimale iltoptagelse. Din kondition kan således blive både dårligere eller bedre alt efter, hvad du laver for at træne dine energisystemer.
 
-## Hvordan kan jeg måle min kondition?
+## Sådan kan du måle din kondition?
 
 Du måler altså din kondition ved at finde den maksimale iltoptagelse.
 
@@ -79,7 +79,7 @@ Da iltoptagelsen er højere jo større du er, fordi en større krop skal bruge m
 
 {% include feature_row id="feature_row_kondital" type="left" %}
 
-## Hvordan kan man teste sin kondition og kondital?
+## Sådan tester du din kondition og kondital?
 
 Der findes rigtig mange forskellige måder at teste sin kondition og sit kondital på. Du kan finde tests, hvor du bare kan sidde på sofaen og svare på nogle spørgsmål, men der er også tests, hvor du skal i træningstøjet. Nogle tests er baseret på puls, andre på distance, og der findes fx løbetests og cykeltests.
 
@@ -129,7 +129,7 @@ Vi dykker yderligere ned i de fysiologiske tilpasninger i det grundige indlæg h
 Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
 {: .notice }
 
-## Hvad forstår man ved iltoptagelsen?
+## Forstå iltoptagelsen?
 
 Iltoptagelsen er den mængde ilt, der optages i forhold til et givent arbejde. Iltoptagelsen stiger gradvist jo hårdere du arbejder. På et tidspunkt arbejder du så hårdt, at kroppen ikke længere kan optage mere ilt til de energigivende aerobe processer.
 
@@ -140,7 +140,7 @@ Læs: [Alt om den maksimale iltoptagelse og VO2max](/maksimale-iltoptagelse-vo2m
 
 Jo mere intenst du arbejder, jo mere suppleres energifrigivelsen af de anaerobe processer, som kun kan levere ilt i relativt kort tid.
 
-## Hvordan kan jeg træne min kondition?
+## Sådan træner du din kondition?
 
 [Konditionstræning og kredsløbstræning](/konditionstraening/) kan både have til formål at øge den maksimale iltoptagelse, så det samme arbejde bliver lettere, og træne din udholdenhed med udholdenhedstræning, så evnen til at arbejde i længere tid med den samme intensitet.
 
