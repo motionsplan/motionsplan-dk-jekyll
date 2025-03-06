@@ -29,13 +29,16 @@ Beregnerne hjælper dig med at omregne fra en enhed til en anden, eller udregne 
 
 {% include table/filter-table-beregnere.html %}
 
-## BMI beregner, taljemål og idealvægt
+<details markdown="1" class="faq">
+  <summary><h3>🏋️‍♀️📏 BMI beregner, taljemål og idealvægt</h3></summary>
 
 Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
 
 Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/), [taljemål](/taljemaal/) og [talje-hofte-forhold](/talje-hofte-ratio/).
+</details>
 
-## Beregnere til kropssammensætning og fedtprocent
+<details markdown="1" class="faq">
+  <summary><h3>🧑‍🔬📊 Beregnere til kropssammensætning og fedtprocent</h3></summary>
 
 Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er mange måder at finde sin kropskomposition på.
 
@@ -53,13 +56,10 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 </div>
 
-{% comment %}
+</details>
 
-## Energi & Forbrænding
-
-{% endcomment %}
-
-## Kalorieberegner og ligevægtsindtag
+<details markdown="1" class="faq">
+  <summary><h3>🍏🔢 Kalorieberegner, ligevægtsindtag, energi og forbrænding</h3></summary>
 
 Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
 
@@ -67,7 +67,22 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% assign site_posts = site.posts | where: "tags", "kalorieberegner" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper markdown="1">
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🏋️‍♂️📐 Træningsberegnere</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "træning" | where: "tags", "beregner" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -76,12 +91,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 {% endif %}
 
 </div>
-
-{% comment %}
-
-## Træningsberegnere
-
-{% endcomment %}
+</details>
 
 ## De mest populære beregnere
 
@@ -97,21 +107,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 </div>
 
-## Alle beregnere på Motionsplan
-
-{% assign site_posts = site.posts | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Interaktive artikler
+## Interaktive artikler med beregnere
 
 Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at illustrere pointerne i artiklerne. Jeg synes selv, at det gør artiklerne meget engagerende.
 
@@ -140,5 +136,19 @@ Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at ill
 {% endif %}
 
 [Se alle tests](/tests/){: .btn .btn--success .btn--center }
+
+</div>
+
+## Alle beregnere på Motionsplan
+
+{% assign site_posts = site.posts | where: "tags", "beregner" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
 
 </div>

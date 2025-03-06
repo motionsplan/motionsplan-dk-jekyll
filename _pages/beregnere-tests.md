@@ -62,13 +62,17 @@ Find den rette test, beregner eller værktøj til dine behov!
 
 {% include feature_row id="feature_row_navigation" %}
 
-## BMI beregner, taljemål og idealvægt
+<details markdown="1" class="faq">
+  <summary><h3>🏋️‍♀️📏 BMI beregner, taljemål og idealvægt</h3></summary>
 
 Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
 
 Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/), [taljemål](/taljemaal/) og [talje-hofte-forhold](/talje-hofte-ratio/).
 
-## Beregnere til kropssammensætning og fedtprocent
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🧑‍🔬📊 Beregnere til kropssammensætning og fedtprocent</h3></summary>
 
 Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er mange måder at finde sin kropskomposition på.
 
@@ -85,8 +89,10 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 [Alle metoder til kropskomposition](/maal-fedtprocent/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-## Kalorieberegner og ligevægtsindtag
+<details markdown="1" class="faq">
+  <summary><h3>🍏🔢 Kalorieberegner, ligevægtsindtag, energi og forbrænding</h3></summary>
 
 Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
 
@@ -103,8 +109,10 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 {% endif %}
 
 </div>
+</details>
 
-## Konditionstests
+<details markdown="1" class="faq">
+  <summary><h3>💨🫁 Konditionstests</h3></summary>
 
 Dit kredsløb og din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) har stor betydning for din sundhed. Vi har skrevet en del om [kondition og kondital](/kondital/). Men det er også interessant at teste sit eget kondital.
 
@@ -123,8 +131,10 @@ Det kan du gøre på flere forskellige måder, og du kan springe direkte til en 
 [Se alle konditionstests](/kondition/tests/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-## Løbetests
+<details markdown="1" class="faq">
+  <summary><h3>🏃‍♀️📏 Løbetests</h3></summary>
 
 Hvis du godt kan lide at løbe, så kan det være en god ide en gang imellem at lave en løbetest, så du kan se, hvordan det går med træningen.
 
@@ -141,8 +151,10 @@ Hvis du godt kan lide at løbe, så kan det være en god ide en gang imellem at 
 [Se alle løbetests](/kondition/loeb/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-## Gangtests
+<details markdown="1" class="faq">
+  <summary><h3>🚶‍♂️📊 Gangtests</h3></summary>
 
 Gangtests er ret populære - særligt for folk der ikke har lyst til at lave en maksimal løbetest eller cykeltest. Men faktisk kan alle kaste sig ud i en gåtest. Det er faktisk ikke så let at holde et højt gangtempo over tid.
 
@@ -157,8 +169,10 @@ Gangtests er ret populære - særligt for folk der ikke har lyst til at lave en 
 {% endif %}
 
 </div>
+</details>
 
-## Cykeltests
+<details markdown="1" class="faq">
+  <summary><h3>🚴‍♀️💨 Cykeltests</h3></summary>
 
 Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er ret let tilgængeligt, og du let kan blive guidet undervejs i testen. Du kan både finde maksimale og submaksimale tests.
 
@@ -176,7 +190,28 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
 
 </div>
 
-## Psykologiske tests
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🦘🏋️‍♀️ Springtest og hoppetests</h3></summary>
+  
+{% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle hoppe- og springtests](/springtests-hoppehoejde/){: .btn .btn--success .btn--center }
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🧠💭 Psykologiske tests</h3></summary>
 
 {% assign site_posts = site.posts | where: "tags", "psykologisk test" | sort: "date" %}
 
@@ -191,22 +226,7 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
 [Se alle psykologiske tests](/psykiske-sundhedstest/){: .btn .btn--success .btn--center }
 
 </div>
-
-## Springtest og hoppetests
-
-{% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle hoppe- og springtests](/springtests-hoppehoejde/){: .btn .btn--success .btn--center }
-
-</div>
+</details>
 
 ## De mest populære beregnere
 
