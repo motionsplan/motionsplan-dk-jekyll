@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.4"
 gem "liquid-c"
 group :jekyll_plugins do
     gem 'jekyll-paginate'
@@ -10,7 +10,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'jekyll-include-cache'
     gem 'jekyll-sitemap'
-    gem 'jekyll-gzip'
+#    gem 'jekyll-gzip'
     gem 'jekyll-brotli'
 end
 gem 'numo-narray'
