@@ -578,6 +578,27 @@ $(function() {
         //$("#food").text(food);
     });
 
+    $("#calculator_step_length").submit(function(e) {
+      console.log("Calculate Step Length");
+      e.preventDefault();
+
+      let height = $("#step_length_height").val();
+      let sex = $("[name='sex']:checked").val();
+      let step_length;
+
+      if (sex == "male") {
+        step_length = height * 0.415;
+      } else {
+        step_length = height * 0.413;
+      }
+
+      $("#step_length_step_length").val(step_length.toFixed(0));
+
+      if ($("#step_to_km_step_length")) {
+        $("#step_to_km_step_length").val(step_length.toFixed(0));
+      }
+  });
+
     $('#calculator_bsa').submit(function(e){
       console.log("Calculate BSA");
       e.preventDefault();
