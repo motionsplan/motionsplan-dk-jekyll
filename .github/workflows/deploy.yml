@@ -1,8 +1,5 @@
-# This is the name of our workflow.
-# Github will show it on its Website UI
 name: deploy
-# This configures our workflow to be triggered
-# only when we push to the master branch
+
 on:
   push:
     branches:
@@ -11,130 +8,75 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - master
-
   workflow_dispatch:
 
 env:
   RUBY_VERSION: "3.3.2"
   BUNDLER_VERSION: "2.5.11"
 
-# Here is where we define our jobs.
-# Which means the tasks we want Github to execute
 jobs:
   build:
-    name: build
-    # Here we specify in whith OS we want it to run
+    name: Build site
     runs-on: ubuntu-latest
-    # Now we define which actions will take place.
-    # One after another
     steps:
-      # This is the first action. It will make sure that we have
-      # all the necessary files from our repo, including our custom actions
-      # This action here is actually from a remote repo available from Githup itself
-      - name: 🛎 Checkout master
+      - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: ⚡️ Install dependencies
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev minify liblapacke-dev libopenblas-dev
-          sudo gem update
+          sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
           sudo gem install bundler:${{ env.BUNDLER_VERSION }}
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VERSION }} # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - name: ⚡️ Cache node modules
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+      - name: Cache node modules
         uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
           path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-      - name: ⚡️ Setting up dependencies
-        continue-on-error: true
-        run: |
-          npm install
-      - name: Checking Jekyll configuration
+          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+      - name: Install JS dependencies
+        run: npm install
+      - name: Check Jekyll configuration
         run: bundle exec jekyll doctor
-      - name: 🔨 Build site
-        run: |
-          bundle exec jekyll build --lsi --profile
+      - name: Build site
+        run: bundle exec jekyll build --lsi --profile
         env:
           JEKYLL_ENV: production
-      #- name: Optimize
-      #  run: |
-      #    minify -r -o _site/ --html-keep-document-tags --html-keep-end-tags --html-keep-default-attrvals --html-keep-whitespace --verbose _site
-      - name: Cache jekyll
+      - name: Cache jekyll site
         uses: actions/cache@v3
         with:
           path: "_site/"
           key: ${{ runner.os }}-${{ github.sha }}
-#          npm run build:js
-#      - name: 🔨 Test calculations JS
-#        run: |
-#          npm run test
+
   deploy:
-    if: github.event_name == 'push'
-    name: deploy
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Use cache
-        uses: actions/cache@v3
-        with:
-          path: "_site/"
-          key: ${{ runner.os }}-${{ github.sha }}
-      - name: 🎉 Deploy to GitHub Pages 🎊
-        if: success()
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
           build_dir: _site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   test:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Use cache
-        uses: actions/cache@v3
-        with:
-          path: "_site/"
-          key: ${{ runner.os }}-${{ github.sha }}
-      - name: ⚡️ Cache HTMLProofer
-        id: cache-htmlproofer
-        uses: actions/cache@v3
-        with:
-          path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
-      - name: 📉 Check HTML
+      - name: Check HTML with HTMLProofer
         uses: chabad360/htmlproofer@master
         with:
-          directory: "./_site"
-          # The directory to scan
-          arguments: |
-            --only-4xx
-            --ignore-status-codes "400,403,409,429"
-            --ignore-empty-alt
-            --allow-hash-href
-            --no-enforce-https
-            --ignore-urls "/bjsm.bmj.com/, /mademistakes.com/, /www.t-nation.com/"
+          directory: ./_site
+          arguments: "--only-4xx --ignore-status-codes '400,403,409,429'"
+
   clean:
-    needs: [build,deploy,test]
+    needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Use cache
-        uses: actions/cache@v3
-        with:
-          path: "_site/"
-          key: ${{ runner.os }}-${{ github.sha }}
-      - name: ☁️ Cleaning up
+      - name: Clean build artifacts
         run: bundle exec jekyll clean
