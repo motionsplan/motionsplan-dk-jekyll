@@ -177,7 +177,7 @@ Du kan teste dig selv:
 
 Team Danmark har lavet et forslag til at teste dit væskebehov ved forskellige forhold. Hvis du ved, at du skal konkurrere ved en bestemt temperatur, så kan du i træning lave en test.
 
-{% include figure image_path="/assets/images/blog/teamdanmark-dehydrering-vaeske-test.png"  caption="Prøv [Team Danmarks væsketest](https://www.teamdanmark.dk/performance/sportsernaering/vaesketest/)" alt="team danmark væsketest" %}
+{% include figure image_path="/assets/images/blog/teamdanmark-dehydrering-vaeske-test.png"  caption="Prøv [Team Danmarks væsketest](https://www.teamdanmark.dk/til-atleter/sportsernaering/vaesketest/)" alt="team danmark væsketest" %}
 
 Du har bare brug for en måde at måle din intensitet under træningen på og en badevægt, så du kan måle, hvor meget du vejer før og efter træningen.
 

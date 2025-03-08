@@ -142,7 +142,7 @@ GEM
     logger (1.6.6)
     matrix (0.4.2)
     mercenary (0.4.0)
-    metrics (0.12.1)
+    metrics (0.12.2)
     minimal-mistakes-jekyll (4.26.2)
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)

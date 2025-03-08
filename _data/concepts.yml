@@ -130,8 +130,8 @@ rate_of_force_development:
   btn_label: "Lær om RFD"
   url: "/rate-of-force-development/"
   variations:
-    - title: "⚡ RFD – Hvor hurtigt opbygger du kraft?"
-      excerpt: "Jo højere din Rate of Force Development, desto hurtigere kan du generere kraft – afgørende for eksplosive sportspræstationer! ⚡🏋️"
+    - title: "⚡ Rate of Force Development (RFD)"
+      excerpt: "Jo højere din Rate of Force Development, desto hurtigere kan du generere kraft, hvilket er afgørende for eksplosive sportspræstationer! ⚡🏋️"
       btn_label: "Lær om RFD"
       url: "/rate-of-force-development/"
 peak_force:
@@ -141,7 +141,7 @@ peak_force:
   faq_title: "💪 Hvad er Peak Force?"
   excerpt: "Peak Force angiver den maksimale kraft, du kan generere under en test som IMTP. En høj peak force betyder bedre styrkepræstationer og større kraftoutput i sport og træning. 📈💪"
   variations:
-    - title: "💪 Hvor meget kraft kan du maksimalt generere?"
+    - title: "💪 Peak Force"
       excerpt: "Peak Force måler din maksimale kraftudvikling. Højere peak force betyder stærkere præstationer i styrkesport og eksplosive bevægelser! 📊⚡"
 time_to_peak_force:
   type: styrke og eksplosivitet
@@ -150,5 +150,5 @@ time_to_peak_force:
   faq_title: "⏱ Hvad er Time to Peak Force?"
   excerpt: "Time to Peak Force måler, hvor lang tid det tager at nå din maksimale kraft. Kortere tid betyder mere eksplosiv styrke, hvilket er vigtigt i hurtige sportsgrene som sprint og vægtløftning. ⏱⚡"
   variations:
-    - title: "⏱ Hvor hurtigt når du din maksimale kraft?"
+    - title: "⏱ Time to Peak Force"
       excerpt: "En kort Time to Peak Force betyder hurtigere og mere eksplosiv kraftudvikling – en afgørende faktor i mange sportsgrene! ⚡🔥"

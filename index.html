@@ -39,7 +39,6 @@ feature_row_content:
     url: "/kost-ernaering/"
     btn_label: "Kost & Ernæring"
     btn_class: "btn--info"
-traeningsformer:
   - image_path: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Kondition"
     title: "Kondition og cardio"
@@ -164,7 +163,7 @@ diverse:
 
 </div>
 
-<h2>De mest populære beregnere</h2>
+<h2>Anbefalede beregnere & værktøjer</h2>
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
 
@@ -176,19 +175,15 @@ diverse:
   {% endfor %}
 {% endif %}
 
-<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-calculator'></i> Se alle beregnere</a></p>
+<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-calculator'></i> Find alle beregnere</a></p>
 
 </div>
 
-<h2>Emner om træning på Motionsplan</h2>
+<h2>Populære emner om træning på Motionsplan</h2>
 
 {% comment %}TODO - skulle jeg i højere grad ramme de fag, vi har på højskole, fx Test & Træning, Ernæring & Forbrænding, Fitnessinstruktør, Politiets Optagelsesprøve, Løb & Løbetræning, Styrketræning {% endcomment %}
 
 {% include feature_row id="feature_row_content" %}
-
-<h2>Træningsformer</h2>
-
-{% include feature_row id="traeningsformer" %}
 
 <h2>Seneste opdaterede træningsøvelser</h2>
 

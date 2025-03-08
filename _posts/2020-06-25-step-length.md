@@ -61,7 +61,7 @@ faq:
     answer: "Den gennemsnitlige skridtlængde varierer afhængigt af køn og højde. For mænd er den gennemsnitlige skridtlængde omkring 158 cm, mens kvinder har en gennemsnitlig skridtlængde på 132 cm. Skridtlængden kan dog variere meget afhængigt af din kropsbygning og gangstil. Brug vores beregner for at finde din præcise skridtlængde!"
 ---
 
-Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation. 
+Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation.
 
 I denne guide lærer du, hvordan du nemt måler din skridtlængde – enten ved at bruge en beregning baseret på din højde eller ved at lave en praktisk måling med et kridt. 
 
@@ -71,6 +71,8 @@ I denne artikel får du svaret på:
 
 - Hvordan finder du din skridtlængde? 
 - Hvad er den gennemsnitlige skridtlængde under gang for mænd og kvinder?
+
+Hvis du er interesseret i løb, så er det måske denne artikel om [kadence og skridtlængde ved løb](/gennemsnitlige-skridtlaengde-kadence-loeb/), du er på udkig efter.
 
 ## Hvad er skridtlængde og trinlængde?
 
@@ -85,22 +87,6 @@ Skridtlængde (stride length)
 Når man skal skrive sin skridtlængde ind i forskellige apps eller skridttællere, så er det typisk definitionen af det engelske udtryk _step length_ - altså trinlængden.
 
 Hvis du bruger en omregner på engelsk, så skal du altså holde øje med om det er _stride length_ eller _step length_, der skal bruges.
-
-## Gennemsnitlig trinlængde og skridtlængde for mænd og kvinder
-
-Du kan bruge gennemsnitsværdier for trinlængde og skridtlængde for mænd og kvinder, når du laver dine beregninger.
-
-Nedenstående tabel er baseret på studier af Murray et al (1964) og Murray et al (1970). Tabellen viser den normal skridtlængde for mænd og kvinder.
-
-| Køn                | Mænd         | Kvinder      |
-|--------------------|--------------|--------------|
-| Trinlænge          | 79 cm        | 66 cm        |
-| Skridtlængde       | 158 cm       | 132 cm       |
-| Kadence (trin/min) | 117 (60-132) | 117 (60-132) |
-
-Hvis din skridtlængde afhænger af højden, så er den sandsynligvis steget, da [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) er steget siden studierne blev lavet.
-
-I 1962 var gennemsnitshøjden ved session fx 175,8 cm, mens den i 2011 var 179,8 cm (Kjær Mackie 2014). Hvis vi bruger omregningsfaktoren ovenfor, så er skridtlængden altså i gennemsnit 1,66 cm længere nu end dengang.
 
 ## Sådan måler du din skridtlængde
 
@@ -136,17 +122,33 @@ Du kan lave din egen skridt pr. kilometerberegning i beregneren herunder. Så f�
 
 {% include calculator/calculate-step-km.html %}
 
+## Gennemsnitlig trinlængde og skridtlængde for mænd og kvinder
+
+Du kan bruge gennemsnitsværdier for trinlængde og skridtlængde for mænd og kvinder, når du laver dine beregninger.
+
+Nedenstående tabel er baseret på studier af Murray et al (1964) og Murray et al (1970). Tabellen viser den normal skridtlængde for mænd og kvinder.
+
+| Køn                | Mænd         | Kvinder      |
+|--------------------|--------------|--------------|
+| Trinlænge          | 79 cm        | 66 cm        |
+| Skridtlængde       | 158 cm       | 132 cm       |
+| Kadence (trin/min) | 117 (60-132) | 117 (60-132) |
+
+Hvis din skridtlængde afhænger af højden, så er den sandsynligvis steget, da [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) er steget siden studierne blev lavet.
+
+I 1962 var gennemsnitshøjden ved session fx 175,8 cm, mens den i 2011 var 179,8 cm (Kjær Mackie 2014). Hvis vi bruger omregningsfaktoren ovenfor, så er skridtlængden altså i gennemsnit 1,66 cm længere nu end dengang.
+
 ## Konklusion
 
 Da både skridtlængde og trinlængde varierer fra person til person, er det vigtigt at kende din egen skridtlængde for at få et præcist mål for, hvor langt du går på en given distance. For at finde ud af, hvor mange skridt du tager på en kilometer, bør du beregne eller måle din egen skridtlængde.
 
-På denne side kunne du finde en[**skridtlængde-beregner**, som kan hjælpe dig med at finde din præcise skridtlængde baseret på din højde. Brug den til at få en nøjagtig beregning af dine skridt pr. kilometer.
+På denne side kunne du finde en **skridtlængde-beregner**, som kan hjælpe dig med at finde din præcise skridtlængde baseret på din højde. Brug den til at få en nøjagtig beregning af dine skridt pr. kilometer.
 
-Hvis du ønsker at få et endnu mere præcist billede af din daglige aktivitet, kan du også bruge vores [**skridtomregner**](/omregn-motion-aktivitet-sport-til-skridt/), som kan omregne andre motions- og sportsaktiviteter til skridt. Det er en god måde at sikre, at du får et fuldt billede af din fysiske aktivitet.
+Hvis du ønsker at få et endnu mere præcist billede af din daglige aktivitet, kan du også bruge vores **[skridtomregner](/omregn-motion-aktivitet-sport-til-skridt/)**, som kan omregne andre motions- og sportsaktiviteter til skridt. Det er en god måde at sikre, at du får et fuldt billede af din fysiske aktivitet.
 
-Er du interesseret i at tælle skridt som en del af en sundere livsstil, kan du deltage i [**Tæl Skridt-kampagnen**](/artikel/tael-skridt/) fra Dansk Firmaidræt og begynde at tælle dine daglige skridt.
+Er du interesseret i at tælle skridt som en del af en sundere livsstil, kan du deltage i **[Tæl Skridt-kampagnen](/artikel/tael-skridt/)** fra Dansk Firmaidræt og begynde at tælle dine daglige skridt.
 
-Og hvis du undrer dig over, hvor mange kalorier du forbrænder under gang, kan du læse min artikel om [**kalorieforbrænding ved gang**](/forbraending-ved-gaa-gang/), hvor du finder nyttig information om energiforbruget under gåture.
+Og hvis du undrer dig over, hvor mange kalorier du forbrænder under gang, kan du læse min artikel om **[kalorieforbrænding ved gang](/forbraending-ved-gaa-gang/)**, hvor du finder nyttig information om energiforbruget under gåture.
 
 ## Køb bøger om at gå
 

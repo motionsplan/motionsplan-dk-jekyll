@@ -62,7 +62,7 @@ Oprindeligt var RSI en del af Strength Qualities Assessment Test (SQAT) udviklet
 
 {% include video provider="youtube" id="HuD2KOUoD0k" %}
 
-## Hvordan tester du reactive strength index (RSI)?
+## Sådan tester du reactive strength index (RSI)
 
 Du kan teste RSI på forskellige måder. Men inden du går i gang med testning, så kan det være en fordel at have en god forståelse for [plyometrisk arbejde og træning](/plyometrisk-traening/).
 
@@ -104,29 +104,43 @@ Måske er det lidt lettere at overskue i dennne tabel:
 | **RBJ**    | Tidsbesparende                  | Individualiseret       | Begyndere / store grupper                | Lav              |
 | **10/5**   | Tidsbesparende                  | Individualiseret       | Løbebaserede / gentagne SSC-atleter      | Moderat          |
 
-## Hvordan udregner man Reactive Strength Index?
+## Sådan udregner du Reactive Strength Index?
 
-Der er forskellige formler til at bestemme RSI. Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som også bruges i de kontaktmåtter, vi har på Vejle Idrætshøjskole, der er leveret af Swift Performance.
+Der er forskellige formler til at bestemme RSI. Det gør det lidt besværligt, når du læser om det på forskellige sites. Det betyder nemlig, at du skal vide nøjagtigt, hvordan RSI er udregnet for at kunne sammenligne dine resultater.
+
+Her er de mest almindelige:
+
+### 1. Hoppehøjde / kontakttiden
+
+Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som også bruges i de kontaktmåtter, vi har på Vejle Idrætshøjskole, der er leveret af Swift Performance.
 
 {% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strength Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
 
+{% include figure image_path="/assets/images/blog/reactive-strength-index-rsi.jpg" alt="Reactive strength index" caption="Reactive Strength Indes (RSI) handler om at hoppe så højt som muligt med så kort kontakttid som muligt. Frit efter: [Gymaware](https://gymaware.com/reactive-strength-index-rsi-in-sports/)" %}
+
 Hvis du kender hoppehøjden og kontakttiden, så kan du udregne RSI.
 
-Hvis en atlet har en hoppehøjde på 40 cm og en kontakttid på 0,2 sekunder, bliver RSI: RSI = 40 cm / 0,2 s = 200.
+Hvis en atlet har en hoppehøjde på 40 cm og en kontakttid på 0,2 sekunder, bliver RSI: RSI = 0,40 m / 0,2 s = 2,0.
+
+### 2. Svævetid / kontakttiden
+
+En anden brugt formel er svævetiden delt med kontakttiden. Hvis du har en måde at måle din svævetid på, så kan du altså stadig udregne RSI.
+
+De normer jeg har kunnet finde omkring reactive strength index bruger dog den første formel. Derfor kan det være en ide at få omregnet svævetiden til en hoppehøjde. Så kan du sammenligne dine værdier.
 
 ## Hvad er et godt reactive strength index (RSI)?
 
-[Eamonn Flanagan](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2) har samlet en normativ guide for reactive strength index ud fra hans egne observationer og den begrænsede data i den videnskabelige litteratur.
+[Eamonn Flanagan](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel="nofollow noopener" } har samlet en normativ guide for reactive strength index ud fra hans egne observationer og den begrænsede data i den videnskabelige litteratur.
 
-Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som et i et _counter movement jump_. Det er udregnet ud fra hoppehøjden og kontakttiden.
+Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som i et _counter movement jump_. Det er udregnet ud fra hoppehøjden og kontakttiden.
 
-| RSI     | Vurdering    | Beskrivelse |
+| RSI (m/s)    | Vurdering    | Beskrivelse |
 |---------|-------------|-------------------------------------------------------------------|
-| \< 150  | Nogenlunde  | Atleter i denne kategori bør fokusere på grundlæggende styrkeudvikling før avanceret plyometrisk træning. |
-| 150-200 | God         | Atleten er klar til plyometriske øvelser med moderat intensitet. Fokus bør være på at forbedre reaktiv styrke, hvilket kan øge præstationsevnen. |
-| 200-250 | Meget god   | Atleten er klar til mere intensive plyometriske øvelser. |
-| 250-300 | Fremragende | Atleten kan begynde at nå et plateau i deres RSI-score, og spørgsmålet bør stilles: Vil yderligere forbedringer i RSI føre til bedre præstation? |
-| 300-    | Verdensklasse | Meget få atleter når dette niveau – ofte top-sprintere eller elitehøjdespringere. |
+| \< 1,50  | Nogenlunde  | Atleter i denne kategori bør fokusere på grundlæggende styrkeudvikling før avanceret plyometrisk træning. |
+| 1,50-2,00 | God         | Atleten er klar til plyometriske øvelser med moderat intensitet. Fokus bør være på at forbedre reaktiv styrke, hvilket kan øge præstationsevnen. |
+| 2,00-2,50 | Meget god   | Atleten er klar til mere intensive plyometriske øvelser. |
+| 2,50-3,00 | Fremragende | Atleten kan begynde at nå et plateau i deres RSI-score, og spørgsmålet bør stilles: Vil yderligere forbedringer i RSI føre til bedre præstation? |
+| 3,00-    | Verdensklasse | Meget få atleter når dette niveau – ofte top-sprintere eller elitehøjdespringere. |
 
 Tjek den også ud i denne grafik:
 
@@ -170,6 +184,7 @@ Ved at forstå og anvende RSI korrekt kan trænere og atleter optimere deres ply
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
+- [Scienceforsport.com](https://www.scienceforsport.com/reactive-strength-index/)
 - [Guide To Reactive Strength Index](https://www.outputsports.com/educational-blogs/2020/5/5/guide-to-reactive-strength-index)
 - [The Reactive Strength Index Revisited](https://www.trainwithpush.com/blog/reactive-strength-index-revisited)
 - [The Reactive Strength Index Revisited Part II](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)

@@ -85,7 +85,7 @@ Jeg noterede også ned, hvor meget jeg drak i løbet af træningen.
 
 Så indsatte jeg de målte værdier i Team Danmarks beregner:
 
-{% include figure image_path="/assets/images/blog/varmetraening-vaeske-teamdanmark-tempo.png"  caption="Prøv Team Danmarks væsketest [her](https://www.teamdanmark.dk/performance/sportsernaering/vaesketest/)" alt="team danmark væsketest" %}
+{% include figure image_path="/assets/images/blog/varmetraening-vaeske-teamdanmark-tempo.png"  caption="Prøv Team Danmarks væsketest [her](https://www.teamdanmark.dk/til-atleter/sportsernaering/vaesketest/)" alt="team danmark væsketest" %}
 
 Når jeg skal lave en lignende træning i fremtiden, så har jeg et godt udgangspunkt for, hvordan jeg kan strukturere mit væskeindtag under og efter træning.
 

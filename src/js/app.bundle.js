@@ -584,18 +584,20 @@ $(function() {
 
       let height = $("#step_length_height").val();
       let sex = $("[name='sex']:checked").val();
+      let stride_length;
       let step_length;
 
       if (sex == "male") {
-        step_length = height * 0.415;
+        stride_length = height * 0.415;
       } else {
-        step_length = height * 0.413;
+        stride_length = height * 0.413;
       }
 
-      $("#step_length_step_length").val(step_length.toFixed(0));
+      $("#step_length_stride_length").val(stride_length.toFixed(0));
+      $("#step_length_step_length").val((stride_length * 2).toFixed(0));
 
       if ($("#step_to_km_step_length")) {
-        $("#step_to_km_step_length").val(step_length.toFixed(0));
+        $("#step_to_km_step_length").val(stride_length.toFixed(0));
       }
   });
 

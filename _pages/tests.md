@@ -153,6 +153,42 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 </div>
 </details>
 
+<details markdown="1" class="faq">
+  <summary><h3>🏃‍♂️💨 Sprint- og hurtighedstests</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "sprinttest" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se hurtighedstests med retningsskift](/retningsskift-test/){: .btn .btn--success .btn--center }
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>💥🔬 Eksplosivitet og tests</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "eksplosivitet" | where: "tags", "test" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se mere om eksplosivitet](/eksplosivitet/){: .btn .btn--success .btn--center }
+
+</div>
+</details>
+
 ## Flere tests og prøver
 
 {% include feature_row id="feature_row_police_test" type="left" %}
