@@ -35,7 +35,7 @@ feature_row_howto_program:
 
 Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
 
-Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebesiden/).
+Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebeprogrammer/).
 
 Typisk kan det med et styrketræningsprogram betale sig at gøre det så enkelt som muligt, og langt de fleste vil have bedre af at starte med et enkelt træningsprogram.
 

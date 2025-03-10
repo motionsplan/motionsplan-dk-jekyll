@@ -75,7 +75,7 @@ feature_row_howto_program:
   - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
     title: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    excerpt: "I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
+    excerpt: "I denne guide kan du lære mere om, hvordan du sammensætter et effektivt styrketræningsprogram, som du kan bruge til styrkeløft. Du lærer om de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
     url: "/traeningsprogram-programlaegning-styrketraening/"
     btn_label: "Lav dit eget program"
     btn_class: "btn--info"
@@ -98,7 +98,9 @@ Få inspiration til hvordan du kommer kommer ind i sporten, lærer de tre store 
 
 Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw).
 
-{% include feature_row id="feature_row_get_started" type="left" %}
+## Hvad er styrkeløft?
+
+{% include feature_row id="feature_row_about" type="left" %}
 
 ## De tre styrkeløft
 
@@ -111,22 +113,14 @@ Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
 </div>
 
-## Hvad er styrkeløft?
-
-{% include feature_row id="feature_row_about" type="left" %}
-
-## Træningsprogrammer
-
-{% include feature_row id="feature_row_good_program" type="left" %}
-
-## Populære styrketræningsprogrammer
+## Populære styrketræningsprogrammer til styrkeløft
 
 Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/traeningsprogrammer/).
 
@@ -140,13 +134,15 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
   {% endfor %}
 {% endif %}
 
-[Se alle træningsprogrammer](/traeningsprogrammer/){: .btn .btn--success .btn--center }
+[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
 
 ## Hvordan laver jeg mit eget styrketræningsprogram?
 
 {% include feature_row id="feature_row_howto_program" type="left" %}
+
+{% comment %}
 
 ## Endnu mere om programlægning til styrketræning
 
@@ -161,8 +157,6 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 {% endif %}
 
 </div>
-
-{% comment %}
 
 ## Styrketræning begynder
 
@@ -181,28 +175,6 @@ Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del
 </div>
 
 {% endcomment %}
-
-## Styr på øvelserne
-
-Styrketræning består typisk af en række forskellige øvelser. Vi har samlet de bedste træningsøvelser med forklaringer her på siden.
-
-Du kan finde [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [baldeøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper.
-
-Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvelser](/traeningsoevelser/).
-
-<div class="feature__wrapper" markdown="1">
-
-{% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle træningsøvelser](/traeningsoevelser/){: .btn .btn--success .btn--center }
-
-</div>
 
 ## Test dig selv
 
@@ -226,20 +198,6 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
 Lav måske denne om til støttetræning 
 {% endcomment %}
 
-## Styrketræning for løbere
-
-{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "løb" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
 ## Udstyr til styrketræning
 
 Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
@@ -260,7 +218,7 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 </div>
 
-## Læs meget mere om styrketræning
+## Bliv inspireret til din træning i styrkeløft
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | sort: "date" %}
 

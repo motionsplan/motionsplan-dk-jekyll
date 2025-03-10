@@ -6,8 +6,8 @@ description: "Få en strategi til at vælge de rigtige forsøg i squat, bænkpre
 permalink: /styrkeloeft-vaelg-forsoeg/
 slanguage: da
 header:
-  overlay_image: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
-  teaser: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
+  overlay_image: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Regler til styrkeløft og powerlifting"
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
@@ -19,6 +19,7 @@ tags:
   - styrkeløft
   - styrketræning
   - beregner
+  - guide
 meta:
   name: Vælg vægte til styrkeløftstævne
   measures: vægte til konkurrence

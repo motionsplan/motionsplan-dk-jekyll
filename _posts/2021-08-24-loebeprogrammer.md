@@ -54,9 +54,13 @@ Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste param
 
 Målet for en løbeplan er ofte forskellige distancer. Her får du et overblik over, hvordan du kommer i gang med de enkelte distancer, og hvad du skal tænke på.
 
+{% comment %}
+
 KUNNE OGSÅ VÆRE EN TABEL?
 
 ## Kom godt i gang
+
+{% endcomment %}
 
 ## Begynder løbeprogram
 
@@ -120,7 +124,11 @@ På listen herunder kan du finde et begynder løbeprogram.
 </div>
 {% endif %}
 
+{% comment %}
+
 ## Øvet løber?
+
+{% endcomment %}
 
 ## Alle løbeprogrammer
 

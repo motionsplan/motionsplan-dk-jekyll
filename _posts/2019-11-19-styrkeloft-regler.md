@@ -6,8 +6,8 @@ description: "Få en detaljeret oversigt over de officielle regler for squat, b�
 permalink: /powerlifting-rules/
 slanguage: da
 header:
-  overlay_image: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
-  teaser: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
+  overlay_image: https://images.unsplash.com/photo-1534367990512-edbdca781b00?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1534367990512-edbdca781b00?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Regler til styrkeløft og powerlifting"
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
@@ -17,6 +17,7 @@ category:
   - Styrketræning
 tags:
   - styrkeløft
+  - guide
 last_modified_at: 2024-11-19T23:14:14Z
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
@@ -168,7 +169,7 @@ At vælge de rigtige forsøg er afgørende for din præstation til et styrkeløf
 
 Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategier, anbefalinger og en praktisk skabelon til at planlægge dine løft.
 
-➡️ **[Sådan vælger du dine forsøg til styrkeløft](/link-til-ny-side/)**
+➡️ **[Sådan vælger du dine forsøg til styrkeløft](/styrkeloeft-vaelg-forsoeg/)**
 
 ## Konklusion
 

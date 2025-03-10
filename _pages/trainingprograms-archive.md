@@ -8,7 +8,7 @@ description: "Find træningsprogrammer til styrke, løb og cykling. Vælg det re
 comments: false
 toc: true
 category:
-  - Styrketræning
+  - Træning
 tags:
   - styrketræning
   - træningsprogrammer
@@ -91,40 +91,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 </div>
 
-***
-
-Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
-
-Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebesiden/).
-
-Typisk kan det med et styrketræningsprogram betale sig at gøre det så enkelt som muligt, og langt de fleste vil have bedre af at starte med et enkelt træningsprogram.
-
-## Træningsprogrammer til styrketræning fullbody, 2-split, 3-split, 4-split og 5-split
-
-Disse effektive styrketræningsprogrammer kan hjælpe dig uanset om dit mål er styrke, muskelopbygning eller reducere din fedtprocent.
-
-Hvis du vil have nogen effekt af styrketræning, så bør du vælge et program, hvor du træner de enkelte muskelgrupper mindst to gange om ugen for at optimere effekten af træningsprogrammet.
-
-Det kan du gøre gennem [fullbody]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}), [2-split]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}) og [3-split]({% link _posts/2021-08-16-styrke-3-split.md %}), som er de mest interessante og brugbare programmer for langt de fleste
-mennesker.
-
-Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split, hvis du træner rigtig meget, har ufattelig meget erfaring og vil have noget variation.
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
-
-</div>
-
-## Flere forslag til styrketræningsprogrammer
+## Flere forslag til træningsprogrammer
 
 Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
 
