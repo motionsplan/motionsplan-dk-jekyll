@@ -49,7 +49,7 @@ Jeg har lavet et eksempel på, hvordan man kan bygge sit program op over R7-meto
 ## Faser i Bulletproof athlete
 
 Foundation
-: I denne fase skaber vi et solidt bevægelsesgrundlag, vi kan bygge videre på. Vi vækker mindre muskler, og vi går i gang med at træne energisystemerne, bl.a. laver vi langsom exentrisk træning.
+: I denne fase skaber vi et solidt bevægelsesgrundlag, vi kan bygge videre på. Vi vækker mindre muskler, og vi går i gang med at træne energisystemerne, bl.a. laver vi langsom excentrisk træning.
 
 Stabilisation
 : Her arbejder vi med stabilitet, så vi lærer at stabilisere inden for vores nyligt genvundne _range of motion_. Vi udfordrer med pauser undervejs i løftene.

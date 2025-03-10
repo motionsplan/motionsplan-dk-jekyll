@@ -176,13 +176,15 @@ Du kan læse en kritik af Jack Daniels udregninger på [jaredmcqueen.com](https:
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Se alle løbeberegnere](/loeb/vaerktoejer/){: .btn .btn--success .btn--center }
 
 </div>
 

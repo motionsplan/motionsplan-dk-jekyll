@@ -49,7 +49,7 @@ Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsm
 - Hvad er min gennemsnitsfart, og hvor hurtigt løber jeg i gennemsnit på en given distance?
 - Hvor lang tid tager det at løbe en bestemt distance?
 
-Hvis du er på udkig efter en hastighedsberegner til løb, så har vi også denne [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+Hvis du er på udkig efter en hastighedsberegner til løb, så har vi også denne [løbsberegner til at udregne løbehastigheder for træningstider og konkurrencetider](/loebesiden-jack-daniels-loebeberegner/).
 
 {% include motionsplan/lead-magnet-button.html %}
 
@@ -98,7 +98,7 @@ Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [
 
 ## Tabel med km/t, m/s og min/km
 
-I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe på 5 km, 10 km, halvmaraton og maraton. Hvis du vil have dine realistiske tider for de distancer baseret på, hvad du kan løbe på andre distancer, så tjek vores [løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe på 5 km, 10 km, halvmaraton og maraton. Hvis du vil have dine realistiske tider for de distancer baseret på, hvad du kan løbe på andre distancer, så tjek vores [løbsberegner](/loebesiden-jack-daniels-loebeberegner/).
 
 {% include table/table-kmt-minkm.html %}
 

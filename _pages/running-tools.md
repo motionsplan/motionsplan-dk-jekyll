@@ -2,18 +2,20 @@
 layout: single
 permalink: /loeb/vaerktoejer/
 title: "Løbeværktøjer – Beregnere og værktøjer til dit løb"
-seo_title: "Løbeværktøjer: Beregnere og værktøjer"
-description: "Få de bedste løbeværktøjer til at optimere din træning. Brug beregnere til at måle hastighed, forbrænding og andre vigtige løbsmål. Gør din løbetræning mere effektiv."
+seo_title: "Løbeværktøjer: Løbeberegnere og værktøjer til løb"
+description: "Få de bedste løbeværktøjer til at optimere din træning. Brug løbeberegnere til at måle hastighed, forbrænding og gør din løbetræning mere effektiv."
 author_profile: true
-excerpt: "Få de bedste løbeværktøjer til at optimere din træning. Brug beregnere til at måle hastighed, forbrænding og andre vigtige løbsmål. Gør din løbetræning mere effektiv."
+excerpt: "Få de bedste løbeværktøjer til at optimere din træning. Brug løbeberegnere til at måle hastighed, forbrænding og andre vigtige løbsmål. Gør din løbetræning mere effektiv."
 header:
   overlay_image: https://images.unsplash.com/photo-1590847330116-ea94fb93eac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1590847330116-ea94fb93eac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
   actions:
-    - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
+    - label: "<i class='fas fa-calculator'></i> Hvad er min hastighed?"
       url: "/hastighed/"
     - label: "<i class='fas fa-download'></i> Løbeprogrammer"
       url: "/loebeprogrammer/"
+    - label: "<i class='fas fa-stopwatch'></i> Alle løbetests"
+      url: "/tests/loeb/"
 classes: wide
 feature_row_excerpt:
   - excerpt: |
@@ -36,9 +38,9 @@ feature_row_choose_program:
     btn_class: "btn--info"
 feature_row_how_fast:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Løbesidens Løbsberegner"
-    title: "Løbesidens Løbeberegner"
-    excerpt: "Jeg har lavet en løbeberegner baseret på Løbesiden, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Jeg har også beskrevet forskellige træningsmetoder."
+    alt: "Løbeberegner fra Jack Daniels"
+    title: "Løbeberegner fra Jack Daniels"
+    excerpt: "Du kan bruge vores løbeberegner baseret på Jack Daniels Running Formula til at beregne dit træningstempo og konkurrencetider. Her får du også inspiration til forskellige træningsmetoder."
     url: "/loebesiden-jack-daniels-loebeberegner/"
     btn_label: "Brug løbsberegneren"
     btn_class: "btn--info"
@@ -59,7 +61,7 @@ feature_row_cooper_test:
     btn_label: "Prøv Cooper-testen"
     btn_class: "btn--info"
 feature_row_calories_running:
-  - image_path: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1594882645126-14020914d58d?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
     alt: "Hvor mange kalorier forbrænder mit løb?"
     title: "Hvor mange kalorier forbrænder mit løb?"
     excerpt: |
@@ -107,23 +109,23 @@ Brug dem til at måle dine fremskridt og få endnu mere ud af din løbetræning.
 
 {% include feature_row id="feature_row_how_fast" type="left" %}
 
-## Oversigt over alle løbeværktøjer
+## Løbeværktøjer & beregnere - Samlet oversigt
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
-| Test | Måler |
-|------|-------|
+| Test | Beregner | Beskrivelse |
+|------|-------|-----------|
   {%- for post in site_posts %}
-| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} |
+| [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.description | markdownify | strip_html | strip_newlines | escape_once }} |
   {%- endfor %}
 {% endif %}
 
-## Hvad er min hastighed?
+## Sådan finder du din hastighed i løb
 
 {% include feature_row id="feature_row_hastighed" type="left" %}
 
-## Flere beregnere til løb
+## Løbeberegnere - Alle beregnere til løb
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
 
@@ -137,11 +139,11 @@ Brug dem til at måle dine fremskridt og få endnu mere ud af din løbetræning.
 
 </div>
 
-## Hvor mange kalorier forbrænder løb?
+## Så mange kalorier forbrænder du på løb?
 
 {% include feature_row id="feature_row_calories_running" type="left" %}
 
-## Test dig selv
+## Test dig selv og dit løb
 
 {% include feature_row id="feature_row_cooper_test" type="left" %}
 
@@ -163,6 +165,6 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 </div>
 
-## Få mest ud af din løbetræning
+## Sådan får du mest ud af din løbetræning
 
 {% include feature_row id="feature_row_guide_running" type="left" %}

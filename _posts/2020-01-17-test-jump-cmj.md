@@ -133,5 +133,3 @@ For at sikre præcise og pålidelige resultater er det vigtigt at:
 - **Være opmærksom på landingsposition**, da landingsteknik kan påvirke svævetiden og dermed målingen af hoppehøjde.
 
 CMJ er en effektiv test til at måle både springstyrke og træningsfremgang over tid. Men hvad nu, hvis du vil isolere den koncentriske kraft og udelukke effekten af forspænding? Det kan du læse mere om i vores [guide til Squat Jump (SJ)](/squat-jump-test/).
-
-{% include stub.md %}

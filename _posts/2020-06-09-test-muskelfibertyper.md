@@ -14,7 +14,6 @@ tags:
   - muskler
   - test
   - anatomi
-  - træningslære
   - styrketræning
 meta:
   name: Muskelfibertypetest

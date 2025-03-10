@@ -18,6 +18,7 @@ tags:
   - puls
   - beregner
   - pulszoneberegner
+  - løb
 last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 garmin_lactate:
@@ -25,7 +26,7 @@ garmin_lactate:
   - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
   - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 meta:
-  name: Beregn pulszoner fra maxpuls, laktattærskel eller pulsreserve
+  name: Beregn pulszoner pulsreserve
   equipment: beregner
   measures: pulszoner
   type: pulstræning

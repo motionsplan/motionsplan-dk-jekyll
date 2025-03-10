@@ -34,6 +34,7 @@ feature_row_feature:
     btn_class: "btn--info"
 toc: true
 breadcrumbs: true
+classes: wide
 ---
 
 {{ page.excerpt }}
@@ -50,21 +51,19 @@ Hvis du træner for at blive bedre til noget, så synes jeg, at det kan være me
 
 Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen.
 
-Læs meget mere om [restitution](/restitution/) og [restitutionstid](/restitutionstid/).
+Lad dig inspirere af vores anbefalede indlæg om restitution her:
 
-Du kan også lade dig inspirere af alle vores indlæg om restitution her:
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "restitution" | where: "tags", "anbefalet" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
-[Alt om restitution](/restitution/){: .btn .btn--success .btn--center }
+[Læs alt om restitution](/restitution/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -77,7 +76,7 @@ Det er altid en god ide at have en eller anden form for træningsprogram, når d
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 6 %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -107,12 +106,12 @@ Skadesforebyggende træning kan nemlig mindske risikoen for skader, så vi dykke
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
-[Alt om skader](/skader/){: .btn .btn--success .btn--center }
+[Alt om skader og skadesforebyggelse](/skader/){: .btn .btn--success .btn--center }
 
 </div>
 

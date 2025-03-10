@@ -275,7 +275,7 @@ Hvis du har en målsætning om at løbe 5 km og 10 km, så kan lange intervaller
 
 Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede konkurrencetempo på intervallerne. Hvis du fx gerne vil løbe en 10 km på 50 minutter, så skal du altså løbe med 5 min/km for at forbedre løbeøkonomien i det ønskede tempo.
 
-Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
+Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner](/loebesiden-jack-daniels-loebeberegner/), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
 
 ### 3. Sprinttræning
 

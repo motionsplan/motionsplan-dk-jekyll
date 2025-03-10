@@ -18,6 +18,7 @@ tags:
   - puls
   - beregner
   - pulszoneberegner
+  - løb
 last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 garmin_lactate:
@@ -67,7 +68,7 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 
 ## Jack Daniels pulszoner ift. maksimale puls
 
-Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 
 De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsværdier, som er sat i forhold til hans løbeformer og [den maksimale puls](/test-max-puls/). Dem har vi forsøgt at tilpasse til denne beregner. Hvis du kender nogle bedre standarder for intensitet i forhold til maxpuls, så skriv endelig.
 

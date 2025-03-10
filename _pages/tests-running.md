@@ -12,6 +12,11 @@ header:
   teaser: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
+  actions:
+    - label: "<i class='fas fa-calculator'></i> Gå til oversigten"
+      url: "/tests/loeb/#l%C3%B8betests---samlet-oversigt"
+    - label: "<i class='fas fa-tools'></i> Se løbeberegnere"
+      url: "/loeb/vaerktoejer/"
 breadcrumbs: true
 classes: wide
 feature_row_loebesiden:
@@ -38,6 +43,8 @@ Uanset om du vil teste din maksimale iltoptagelse, udholdenhed eller sprintkapac
 
 På denne side får du en komplet oversigt over de mest anvendte løbetests, deres formål og hvordan du udfører dem korrekt.
 
+Hvis du er på udkig efter beregnere til hastighed eller pulszoner, så kan du se vores [oversigt over løbeværktøjer og beregnere](/loeb/vaerktoejer/).
+
 ## Typer af løbetests
 
 Der er forskellige typer løbetests.
@@ -51,7 +58,7 @@ De første tre kategorier kan du finde mange eksempler i den nedenstående tabel
 
 Jeg håber, at du kan få et godt overblik over, hvilken løbetest, der passer dig!
 
-## Oversigt over alle løbetests
+## Løbetests - samlet oversigt
 
 Her har du en oversigt over alle de forskellige måder du kan teste din kondition på, så du kan vælge hvilken test, der passer bedst til dig.
 
@@ -89,7 +96,10 @@ Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vo
 
 Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og sit [kondital](/kondital/). Her har jeg samlet alle løbetests til at teste din kondition.
 
-Men hvilke konditionstest er egentlig bedst til løb?
+Bliv klogere på [konditionstests generelt](/kondition/tests/)
+{: .notice }
+
+Men hvilke konditionstest er egentlig bedst til løb? Få svaret her!
 
 {% include feature_row id="feature_row_cooper_test" type="left" %}
 
@@ -106,9 +116,6 @@ Her kan du se alle de løbetests, som tester din kondition eller hastighed ved d
 {% endif %}
 
 </div>
-
-Læs meget mere om [konditionstests](/kondition/tests/)
-{: .notice }
 
 ## Hvordan vælger du den rette test?
 

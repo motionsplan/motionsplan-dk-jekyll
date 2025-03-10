@@ -62,6 +62,8 @@ Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) ell
 
 Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
 
+**For flere smarte løbeværktøjer**, besøg vores [fulde samling af beregnere og værktøjer](/loeb/vaerktoejer/).
+
 <details markdown="1" class="references">
   <summary><h2 class="references">Referencer</h2></summary>
 

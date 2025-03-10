@@ -26,7 +26,7 @@ garmin_lactate:
   - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
   - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 meta:
-  name: Beregn pulszoner fra maxpuls, laktattærskel eller pulsreserve
+  name: Beregn pulszoner fra anaerob tærskel (AnT)
   equipment: beregner
   measures: pulszoner
   type: pulstræning

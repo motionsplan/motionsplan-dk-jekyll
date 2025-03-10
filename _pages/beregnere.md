@@ -93,6 +93,25 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 </div>
 </details>
 
+
+<details markdown="1" class="faq">
+  <summary><h3>🏃‍♂️📊 Løbeberegnere & Løbeværktøjer</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "løb" | where: "tags", "beregner" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle løbeværktøjer](/loeb/vaerktoejer/){: .btn .btn--success .btn--center }
+
+</div>
+</details>
+
 ## De mest populære beregnere
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}

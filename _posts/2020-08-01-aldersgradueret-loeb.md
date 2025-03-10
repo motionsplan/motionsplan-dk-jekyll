@@ -57,4 +57,6 @@ Heldigvis er budskabet, at faldet afgøres af, hvor meget du træner. Du kan alt
 
 ## Konklusion
 
-Dette er en opdateret version af den oprindelige beregner til aldersgraduerede løbetider fra løbesiden.dk. Husk at vi har et hav af forskellige [beregnere og tests til løb](/loebesiden/).
+Dette er en opdateret version af den oprindelige beregner til aldersgraduerede løbetider fra løbesiden.dk. En mere præcis måling kan fåes med [Flyer Handicap for løbetider med alder og vægt](/flyer-handicap/).
+
+**Find endnu flere nyttige løbeværktøjer** ved at udforske vores [komplette værktøjsoversigt](/loeb/vaerktoejer/).  

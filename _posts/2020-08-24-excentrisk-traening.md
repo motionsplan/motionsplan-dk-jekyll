@@ -66,7 +66,7 @@ Musklerne kan udøve mere kraft i den excentriske retning for at beskytte muskle
 
 Schoenfeld et al (2017) gennemgik den eksisterende litteratur systematisk og identificerede 15 studier, der sammenlignede muskelvækst efter hhv. excentrisk træning og koncentrisk træning.
 
-Når de samlede studierne, så medførte exentrisk træning en muskelvækst på 10,0%, mens koncentrisk træning havde en muskelvækst på 6,8%.
+Når de samlede studierne, så medførte excentrisk træning en muskelvækst på 10,0%, mens koncentrisk træning havde en muskelvækst på 6,8%.
 
 > Omend den statistiske effekt size, som er et mål for hvor stærk effekten er, var større for excentrisk træning, så nåede forskellen ikke helt statistisk signifikans. Men med en relativt lav p-værdi  på 0,076 (under 0,05 er statistisk signifikant), har vi altså stadig at gøre med en forskel, der med over 90% sikkerhed ikke er opstået ved en tilfældighed.
 >

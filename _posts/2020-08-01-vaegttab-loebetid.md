@@ -24,7 +24,7 @@ breadcrumbs: true
 
 Din vægt har betydning for, hvor hurtigt du kan løbe. Her er en beregner, der kan give et bud på, hvad en vægtændring betyder for dine løbetider.
 
-Din [kondition](/kondition/tests/) udregnes som din maksimale iltoptagelse i forhold til din vægt, og så får du dit [kondital](/kondital/). Det betyder altså, at vægten teoretisk set har betydning for, hvor hurtigt du kan løbe.
+Din [kondition](/kondition/) udregnes som din maksimale iltoptagelse i forhold til din vægt, og så får du dit [kondital](/kondital/). Det betyder altså, at vægten teoretisk set har betydning for, hvor hurtigt du kan løbe.
 
 Hvis vi leger med ideen om, at vægtændringer sker uden at du ændrer din maksimale iltoptagelse og løbeøkonomi, så kan vi altså teoretisk set lege med, hvordan løbetiden ændrer sig, når du taber dig på en slankekur eller tager vægt på ved et kagebord.
 
@@ -32,9 +32,7 @@ Vi tænker også i beregneren at vægtændringer hovedsageligt består af fedtv�
 
 I praksis vil der være store individuelle forskelle på, hvordan folk responderer på en vægtændring med [løbeteknik og løbeøkonomi](/lobeokonomi/).
 
-[Løbesiden.dk](https://loebesiden.dk/beregninger/beregn_vaegt/) estimerer, at at hastigheden **øges med 80% i forhold til den potentielle forbedring ved, at konditionen ændrer sig**.
-
-## Beregn et vægttabs effekt på løbetiden
+## Beregn effekten af vægttab på din løbetid
 
 I beregneren nedenunder kan du indtaste din aktuelle vægt og din aktuelle løbetid. Samtidig indtaster du din vægtændring, og så får du et bud på din nye tid. Det kan give et estimat, hvis tiden kun er afhængig af din kondition, som jo har et vægtkomponent.
 
@@ -42,8 +40,18 @@ Du kan i beregneren selv stille, hvor meget du forventer at løbetiden vil ændr
 
 {% include calculator/calculate-weightloss-runningtime.html %}
 
+[Løbesiden.dk](https://web.archive.org/web/20201125014511/https://loebesiden.dk/beregninger/beregn_vaegt/){: rel="nofollow noopener" } estimerer, at at hastigheden **øges med 80% i forhold til den potentielle forbedring ved, at konditionen ændrer sig**.
+
+## Konklusion
+
 Sedeaud et al (2014) indikerer, at [dit BMI](/bmi/) kan være en parameter for din præstation på løb.
 
-## Bliv klogere BMI og løbetider
+En mere anerkendt beregning af løbetider med forskellig vægt og alder er [Flyer Handicap](/flyer-handicap/). Prøv at tjekke den ud.
+
+**Vil du finde flere nyttige beregnere?** Se vores [fulde oversigt over løbeværktøjer](/loeb/vaerktoejer/) for at optimere din træning.  
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Adrien Sedeaud et al (2014). [BMI, a Performance Parameter for Speed Improvement](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934974/)
+</details>

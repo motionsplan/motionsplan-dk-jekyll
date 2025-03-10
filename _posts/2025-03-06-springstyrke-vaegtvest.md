@@ -10,8 +10,6 @@ category:
 tags:
   - spring
   - springtræning
-  - skadesforebyggelse
-  - skader
 header:
   teaser: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCaSQ2S8utHULNgdfqeyX3vW-R2Y6GzG_uA&s
   caption: *title

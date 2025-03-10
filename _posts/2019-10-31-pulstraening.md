@@ -170,6 +170,6 @@ Hvilke procenter du vil have til de forskellige zoner er op til din træningsfil
 
 Du kan også bruge mere subjektive måder at måle intensiteten på under arbejde. [Borg-skalaen](/borg-skala/) er et eksempel på en intensitets- og anstrengelsesskala, som du kan bruge hvis ikke du har mulighed for at bruge din puls som styringsredskab i pulstræningen.
 
-Andre bruger også en [løbsberegner og tempo til at styre træningen]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) eller der er efterhånden kommet nye devices, som kan måle din intensitet i watt med en lille footpod.
+Andre bruger også en [løbsberegner og tempo til at styre træningen](/loebesiden-jack-daniels-loebeberegner/) eller der er efterhånden kommet nye devices, som kan måle din intensitet i watt med en lille footpod.
 
 Hvis du vil forbedre din kondition, så er puls et rigtig godt redskab. Uanset om du foretrækker at løbe på fornemmelsen, med watt eller bruge tempo som det du styrer træningen efter, så kan korrekt opsatte pulszoner give dig en indikation om din træning rammer korrekt.

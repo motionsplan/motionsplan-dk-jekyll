@@ -21,7 +21,7 @@ meta:
   max: maksimal test
   direct: direkte test
   description: Mål, hvor hurtigt du kan udnytte elastisk energi i et hop.
-last_modified_at: 2021-11-19T08:14:14Z
+last_modified_at: 2025-02-19T08:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/rsi-sheet.png
@@ -48,15 +48,19 @@ Reactive Strength Index (RSI) er et værdifuldt værktøj til at vurdere eksplos
 
 RSI bruges ikke kun til at måle eksplosivitet, men også til at forbedre springteknik og hurtige bevægelser – en fordel for enhver atlet, der vil optimere sin præstation.
 
+Du skal ikke forveksle RSI med [Dynamic Strength Index](/dynamic-strength-index-dsi/), som også er kendt som _dynamic strength deficit_.
+
 Denne artikel bygger blandt andet på en omfattende gennemgang af RSI fra [Science for Sport](https://www.scienceforsport.com/reactive-strength-index/).
 
 Her kan du læse mere om, hvordan du kan teste RSI med en hoppemåtte eller kraftplatform, og hvordan du kan bruge det i praksis.
 
 ## Hvad er Reactive Strength Index (RSI)
 
-_Reactive Strength_ er evnen til hurtigt at ændre retning fra en hurtig excentrisk bevægelse til en koncentrisk bevægelse. _Reactive Strength Index (RSI)_ er udviklet for at få måle, hvordan testpersonen præsterer under plyometriske øvelser med hurtigt skift fra exentrisk bevægelse til en koncentrisk bevægelse - og som et udtryk for den dynamiske eksplosive vertikale hoppekapacitet.
+_Reactive Strength_ måler evnen til hurtigt at ændre retning fra en hurtig excentrisk bevægelse til en koncentrisk bevægelse. _Reactive_ refererer til skiftet fra excentrisk til koncentrisk, som også kaldes _stretch-shortening cycle_.
 
-RSI er bl.a. et mål for, hvor hurtigt atleten kan bevæge sig gennem _stretch-shortening cycle_.
+_Reactive Strength Index (RSI)_ er udviklet for at få måle, hvordan testpersonen præsterer under plyometriske øvelser med hurtigt skift fra excentrisk bevægelse til en koncentrisk bevægelse - og som et udtryk for den dynamiske eksplosive vertikale hoppekapacitet.
+
+RSI er altså med andre ord mål for, hvor hurtigt atleten kan bevæge sig gennem _stretch-shortening cycle_.
 
 Oprindeligt var RSI en del af Strength Qualities Assessment Test (SQAT) udviklet på Australian Institute of Sport.
 
@@ -70,7 +74,7 @@ Den mest brugte test er ‘incremental drop jump’, som også er en glimrende �
 
 Her kan du lære mere om tre mest brugte tests til at måle RSI.
 
-### 1. Incremental Drop Jump
+### 1. Incremental Drop Jump (DJ-RSI)
 
 Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bliver højere og højere. Hvis du har _reactive strength index_ på den ene akse og højden af boksen på den anden akse, vil du også kunne finde den mest optimale bokshøjde i forbindelse med plyometrisk træning.
 
@@ -80,29 +84,42 @@ Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bli
 
 {% include feature_row type="left" %}
 
+Dette er formentlig den mest relevante test, hvis du har længere tid til din test, og du gerne vil bruge den praktisk til også at give anbefalinger ift. plyometrisk træning.
+
 ### 2. Rebound Jump Test
 
-Efter et CMJ hop springer atleten med det samme igen. Din RSI måles på det andet hop.
+Her laver du et [Counter Movement Jump](/countermovement-jump-cmj-squat-jump-sj/), hvilket bliver efterfulgt af et nyt øjeblikkeligt hop. Din RSI måles på det andet hop.
+
+Dette er en hurtig måde at måle RSI sammenlignet med den mere tidskrævende Incremental Drop Jump-test (DJ-RSI).
+
+Derfor kan testen være en rigtig god mulighed, hvis du ikke har så lang tid til at teste atleterne. Fx hvis du skal bruge det som en readiness test til træning.
 
 ### 3. 10/5 RSI Test
 
 Du starter med et CMJ hop på en hoppeplatform. Men umiddelbart efter laver du yderligere 10 gentagne spring. Gennemsnittet af de fem hop med den højeste RSI giver den endelige RSI score.
 
+For løbere er dette måske den mest relevante test, fordi du har de gentagne hop.
+
 ## Hvilken test skal jeg vælge?
 
-Den mest brugte test er 'Incremental Drop Jump'-test, men du kan i følgende grafik se fordele og ulemper ved testen. Det kommer også an på, hvad du skal bruge testen til. Nogle trænere bruger det til at måle spillernes 'parathed' over en sæson.
+Hvilken test du skal vælge afhænger naturligvis af dit formål med testen.
 
-Hvis det er tilfældet, så skal du naturligvis vælge en test, der kan laves på kort tid.
+Du kan i følgende tabel se nogle af fordelene og ulemperne ved de forskellige tests af reactive strength index.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006050309-Z93RHJ9BXJVLBDO5YT01/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)" %}
+Den mest brugte test er 'Incremental Drop Jump'-test. Den har flere fordele i forhold til styrke og poweratleter. Samtidig får du et svar på, hvilken bokshøjde du med fordel kan arbejde ud fra i plyometrisk træning. 
+
+Nogle trænere bruger reactive strength index til at måle spillernes 'parathed' i løbet af en sæson. Hvis det er tilfældet, så skal du naturligvis vælge en test, der kan laves på kortere tid.
 
 Måske er det lidt lettere at overskue i dennne tabel:
 
-| Test       | Fordele/Ulemper                 | Intensitet            | Målgruppe                                | Datadybde         |
-|------------|---------------------------------|------------------------|------------------------------------------|-------------------|
-| **DJ-RSI** | Tidskrævende                   | Høj                    | Styrke-/poweratleter                     | Stor             |
-| **RBJ**    | Tidsbesparende                  | Individualiseret       | Begyndere / store grupper                | Lav              |
-| **10/5**   | Tidsbesparende                  | Individualiseret       | Løbebaserede / gentagne SSC-atleter      | Moderat          |
+|            | **DJ-RSI**    | **RBJ**        | **10/5**         |
+|------------|-------------|---------------|----------------|
+| **Fordele/Ulemper** | Tidskrævende  | Tidsbesparende  | Tidsbesparende  |
+| **Intensitet**      | Høj           | Individualiseret | Individualiseret |
+| **Målgruppe**       | Styrke-/poweratleter | Begyndere / store grupper | Løbebaserede / gentagne SSC-atleter |
+| **Datadybde**       | Stor          | Lav            | Moderat         |
+
+Kilde: [www.trainwithpush.com](https://web.archive.org/web/20160707044824/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel="nofollow noopener" }
 
 ## Sådan udregner du Reactive Strength Index?
 
@@ -116,7 +133,7 @@ Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som ogs
 
 {% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strength Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
 
-{% include figure image_path="/assets/images/blog/reactive-strength-index-rsi.jpg" alt="Reactive strength index" caption="Reactive Strength Indes (RSI) handler om at hoppe så højt som muligt med så kort kontakttid som muligt. Frit efter: [Gymaware](https://gymaware.com/reactive-strength-index-rsi-in-sports/)" %}
+{% include figure image_path="/assets/images/blog/reactive-strength-index-rsi.jpg" alt="Reactive strength index" caption="Reactive Strength Indes (RSI) handler om at hoppe så højt som muligt med så kort kontakttid som muligt. Frit efter: [Matt Jordan](https://medium.com/plantiga-blog/the-reactive-strength-index-rsi-cd7a29edca65)" %}
 
 Hvis du kender hoppehøjden og kontakttiden, så kan du udregne RSI.
 
@@ -127,6 +144,12 @@ Hvis en atlet har en hoppehøjde på 40 cm og en kontakttid på 0,2 sekunder, bl
 En anden brugt formel er svævetiden delt med kontakttiden. Hvis du har en måde at måle din svævetid på, så kan du altså stadig udregne RSI.
 
 De normer jeg har kunnet finde omkring reactive strength index bruger dog den første formel. Derfor kan det være en ide at få omregnet svævetiden til en hoppehøjde. Så kan du sammenligne dine værdier.
+
+### 3. Modified Reactive Strength Index (RSImod)
+
+Her bruger du i stedet den tid det tager at sætte af som en del af formlen. Det kan illusteres med følgende figur:
+
+{% include figure image_path="/assets/images/blog/reactive-strength-index-modified-rsimod.jpg" alt="Reactive strength index" caption="Modified Reactive Strength Indes (RSImod) handler om at hoppe så højt som muligt med så kort en afsætstid som muligt. Frit efter: [Gymaware](https://gymaware.com/reactive-strength-index-rsi-in-sports/)" %}
 
 ## Hvad er et godt reactive strength index (RSI)?
 
@@ -144,9 +167,9 @@ Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som
 
 Tjek den også ud i denne grafik:
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)" %}
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel='nofollow noopener' }" %}
 
-På **Ezejump** hoppemåtten bruges svævetiden og kontakttiden til at udregne RSI. Da hoppehøjden kan estimeres ud fra svævetiden, så kan vi lave en samlet tabel alt efter, hvordan RSI er udregnet.
+På **Ezejump** hoppemåtten som vi bruger på Vejle Idrætshøjskole kan du vælge to forskellige måder at udregne RSI på. Husk at tjekke om det er svævetiden og eller hoppehøjden, der bliver brugt under indstillingerne, så du kan bruge ovenstående tabeller til sammenligning.
 {: .notice .notice--info }
 
 {% comment %}
@@ -154,6 +177,28 @@ På **Ezejump** hoppemåtten bruges svævetiden og kontakttiden til at udregne R
 [<i class='fas fa-file-excel'></i> Resultatark til Drop Jump](https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
 {% endcomment %}
+
+## Fortolkning af data
+
+Reactive Strenght Index (RSI) blev udviklet til at vurdere, hvordan en atlet præsterer under plyometriske aktiviteter (Flanagan et al. 2008). 
+
+RSI afspejler en idrætsudøvers evne til at udnytte stræk-forkortningscyklussen (SSC) samt deres eksplosive kapacitet under dynamiske hop. Ved at måle muskel-sene-belastning og reaktiv hoppekapacitet giver RSI indsigt i atletens evne til hurtigt og effektivt at gennemføre stræk-forkortningscyklussen, hvilket er afgørende i mange sportsgrene.  
+
+Overvågning og forbedring af RSI kan:  
+
+- **Optimere præstation** på tværs af en bred vifte af bevægelser.  
+- **Reducere skadesrisiko**, da en bedre kontrol over SSC mindsker belastningen på muskler og sener (Flanagan 2016).
+- **Optimal drop-højde til drop jump-træning** – Bestemmelse af den mest effektive højde til plyometriske øvelser.
+
+### RSI som et monitoreringsværktøj  
+
+RSI kan anvendes som en del af et atlet-overvågningssystem, da det er følsomt over for ændringer i præstation og kan bruges til at vurdere:  
+
+- **Neuromuskulær træthed** – Identificering af træthedstilstande, der kan påvirke præstation.  
+- **Træningsparathed** – Vurdering af, hvor klar en atlet er til at yde maksimalt.  
+- **Tilpasning til træning og konkurrence** – Analyse af, hvordan kroppen reagerer på belastning over tid.  
+- **Effektivitet af tapering-strategier** – Evaluering af, om en atlet topper på det rette tidspunkt.  
+- **Risikofaktorer for overtræning** – Indikation af, om træningsmængden er for høj.  
 
 ## Hvilket udstyr har jeg brug for?
 
@@ -186,6 +231,11 @@ Ved at forstå og anvende RSI korrekt kan trænere og atleter optimere deres ply
 
 - [Scienceforsport.com](https://www.scienceforsport.com/reactive-strength-index/)
 - [Guide To Reactive Strength Index](https://www.outputsports.com/educational-blogs/2020/5/5/guide-to-reactive-strength-index)
-- [The Reactive Strength Index Revisited](https://www.trainwithpush.com/blog/reactive-strength-index-revisited)
-- [The Reactive Strength Index Revisited Part II](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)
+- [The Reactive Strength Index Revisited](https://web.archive.org/web/20160512045226/https://www.trainwithpush.com/blog/reactive-strength-index-revisited){: rel="nofollow noopener" }
+- [The Reactive Strength Index Revisited Part II](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel="nofollow noopener" }
+- Flanagan, E.P. and Comyns, T.M., 2008. The use of contact time and the reactive strength index to optimize fast stretch-shortening cycle training. Strength & Conditioning Journal, 30(5), pp.32-38.
+- Flanagan, E.P., Ebben, W.P. and Jensen, R.L., 2008. Reliability of the reactive strength index and time to stabilization during depth jumps. The Journal of Strength & Conditioning Research, 22(5), pp.1677-1682.
+- Markovic, G., 2007. Does plyometric training improve vertical jump height? A meta-analytical review. British journal of sports medicine, 41(6), pp.349-355.
+- Young, W.B. and Murray, M.P., 2017. Reliability of a field test of defending and attacking agility in Australian football and relationships to reactive strength. The Journal of Strength & Conditioning Research, 31(2), pp.509-516.
+- Beattie, K. and Flanagan, E.P., 2015. Establishing the reliability & meaningful change of the drop-jump reactive strength index. J Aust Strength Cond, 23(5), pp.12-18.
 </details>

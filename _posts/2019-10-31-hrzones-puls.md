@@ -92,7 +92,7 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 ## Pulszoner ud fra maksimale puls
 
-Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 
 De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsværdier, som er sat i forhold til hans løbeformer og [den maksimale puls](/test-max-puls/). Dem har vi forsøgt at tilpasse til denne beregner. Hvis du kender nogle bedre standarder for intensitet i forhold til maxpuls, så skriv endelig.
 

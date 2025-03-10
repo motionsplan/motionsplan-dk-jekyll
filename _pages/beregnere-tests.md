@@ -148,7 +148,7 @@ Hvis du godt kan lide at løbe, så kan det være en god ide en gang imellem at 
   {% endfor %}
 {% endif %}
 
-[Se alle løbetests](/kondition/loeb/){: .btn .btn--success .btn--center }
+[Se alle løbetests](/tests/loeb/){: .btn .btn--success .btn--center }
 
 </div>
 </details>

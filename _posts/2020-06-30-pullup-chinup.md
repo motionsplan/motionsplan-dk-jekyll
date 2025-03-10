@@ -149,7 +149,7 @@ Til gengæld er der forskel i aktiveringen af trapezius, som er mere aktiv i en 
 
 Det er også interessant at brachioradialis var den mest aktive muskel i alle øvelsesvarianter, og du har sikkert også oplevet at kropshævninger er en glimrende øvelse for underarmene.
 
-Dickie et al (2017) fandt også i deres studium, at musklerne i armen var mest aktive i den koncentriske fase (hvor du løfter dig op), mens ryggens muskler var lige aktive i både den koncentriske og exentriske fase.
+Dickie et al (2017) fandt også i deres studium, at musklerne i armen var mest aktive i den koncentriske fase (hvor du løfter dig op), mens ryggens muskler var lige aktive i både den koncentriske og excentriske fase.
 
 ## Forskelle i sikkerhed og komfort
 
