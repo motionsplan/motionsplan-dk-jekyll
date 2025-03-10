@@ -76,15 +76,21 @@ feature_row_strength:
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 breadcrumbs: true
+toc: true
 ---
 
 Det rigtige træningsudstyr kan gøre en stor forskel for din præstation og træningsoplevelse. Uanset om du styrketræner, løber eller cykler, er det vigtigt at vælge det rette udstyr, der passer til dine behov.
 
 På denne side finder du guides til forskelligt træningsudstyr, så du kan træffe det bedste valg og få mest muligt ud af din træning.
 
-## Leder du efter udstyr til træning?
+## Udstyr til din træning
 
-{% assign site_posts = site.posts | where: "tags", "udstyr" | sort: "date" %}
+Her har vi samlet vores guides til udstyr til træning.
+
+<details markdown="1" class="faq">
+  <summary><h3>🏋️‍♂️ Styrketræning</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "udstyr" | where: "tags", "styrketræning" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -95,6 +101,87 @@ På denne side finder du guides til forskelligt træningsudstyr, så du kan træ
 {% endif %}
 
 </div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🏃️‍♂️ Løb</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "udstyr" | where: "tags", "løb" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🚴️‍♂️ Cykling</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "udstyr" | where: "tags", "cykling" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🧥 Restitution</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "udstyr" | where: "tags", "restitution" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🏎️ Kondition</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "udstyr" | where: "tags", "kondition" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🏋️ Træning</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "udstyr" | where: "tags", "træning" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+</details>
 
 ## Gode butikker til indkøb af udstyr
 

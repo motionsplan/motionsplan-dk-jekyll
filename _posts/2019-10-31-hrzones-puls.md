@@ -84,13 +84,13 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 [Beregn dine pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--success }
 
-## Pulszoner beregner ud fra den anaerobe tærskel
+### 2. Pulszoner beregner ud fra den anaerobe tærskel
 
 [Joe Friel](https://joefrieltraining.com/a-quick-guide-to-setting-zone/) baserer sine pulszoner på pulsen ved den anaerobe tærskel (LTHR). Han har i alt 7 zoner, men her har vi reduceret zonerne til at modsvare de vejledende træningszoner fra Coggan, som vi har skitseret ovenfor. Coggan benytter nogle lidt [andre pulsværdier](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/), men vi har god erfaring med at bruge Friels pulszoner.
 
 [Beregn dine pulszoner fra maxpulsen](/pulszoner-max-puls/){: .btn .btn--success }
 
-## Pulszoner ud fra maksimale puls
+### 3. Pulszoner ud fra maksimale puls
 
 Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 
@@ -106,17 +106,13 @@ Generelle træningszoner kan helt sikkert have nogle begrænsninger. Jeg kan god
 
 1. Maksimale iltoptagelse (zone 5)
 2. Anaerobe tærskel og tærskeltræning (zone 4)
-3. Udholdenhed og slagvolumen (zone 2)
+3. Udholdenhed og slagvolumen (zone 1-2)
 
 Du kan sagtens bruge pulszoner til at hjælpe med at styre træningen, men det er en stor fordel, hvis pulszonerne er individuelt tilpassede.
 
 Du kan lave dine egne **individuelle pulszoner** ved at teste dine pulszoner. Du kan naturligvis lade dig teste i et fysiologisk testcenter, hvor det kan ske relativt præcist.
 
 Hvis du ikke helt har penge til det, så kan du lave dine **tilpassede pulstræningszoner** med tre forskellige tests.
-
-## Find pulszonen ved den maksimale iltoptagelse
-
-Man kan løbe omkring den maksimale iltoptagelse i maksimalt omkring 6 minutter. Det er netop den test, du skal udregne [Billat intervaller]({% link _posts/2020-08-08-billat.md %}) ud fra.
 
 ## Find pulszonen ved den anaerobe tærskel
 
@@ -135,3 +131,6 @@ Her er et eksempel fra et Garmin Fenix ur.
 Joel Jamieson foreslår, at man løber med en puls fra 120-150 i det han kalder _cardiac output_-træning.
 
 [Andre](https://missadventurepants.com/blog/lactate-test-aerobic-threshold) foreslår, at man tester sin aerobe tærskel ved at trække vejret gennem næsen. Når du når et tempo, hvor du ikke længere kan få ilt nok ved kun at trække vejret gennem næsen, så er du omkring din aerobe tærskel.
+
+**Læs mere**: [Læs mere om den aerobe tærskel](/aerobe-taerskel/)
+{: .notice }

@@ -40,7 +40,7 @@ Der er to udbredte måder at sammenligne styrke på. Den ene er den relative sty
 
 Det er imidlertid for enkelt bare at bruge den relative styrke, da sammenhængen mellem løft og kropsvægt ikke er lineær. Styrkestandarder kan være behæftet med flere problemer, som vi kigger på i det følgende.
 
-I [styrkeløft](/powerlifting-rules/) bruger man derfor i stedet nogle andre formler til at sammenligne løfternes styrke. Tidligere brugte man Wilks Score, men er de seneste år gået over til IPF Points. Disse systemer kan sammenligne hvor stærke løftere er på tværs af køn og vægtklasser.
+I [styrkeløft](/styrkeloeft/) bruger man derfor i stedet nogle andre formler til at sammenligne løfternes styrke. Tidligere brugte man Wilks Score, men er de seneste år gået over til IPF Points. Disse systemer kan sammenligne hvor stærke løftere er på tværs af køn og vægtklasser.
 
 ## Hvilke typer sammenligningsmodeller findes der?
 

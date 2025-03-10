@@ -71,7 +71,7 @@ I denne guide gennemgår vi, hvordan du planlægger dine forsøg i squat, bænkp
 
 Vi ser på, hvordan du vælger åbningsforsøg, justerer undervejs og undgår de klassiske fejl, der kan koste dyrt.
 
-**Læs:** [Regler for squat, bænkpres og dødløft i styrkeløft](/powerlifting-rules/)
+**Læs:** [Regler for løftene i styrkeløft](/powerlifting-rules/)
 {: .notice }
 
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
@@ -93,7 +93,7 @@ Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft
 - Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
 - Dit **tredje løft** skal basere sig på fornemmelsen fra det andet løft. Hvis det andet løft går godt, så kan du forsøge dig på en lille PR i sidste forsøg. Hvis du virkelig synes det andet løft er let, så kan du gå for en lidt større PR.
 
-Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-forsøg](https://maxer.dk/artikler/maxtest). Du kan over overveje, om du synes om den strategi til dit styrkeløftstævne også. Beermann anbefaler, at man maksimalt har tre løft, der er over 90% af dit forventede maxløft.
+Jacob Beermann [foreslår en konservativ og aggressiv strategi](https://maxer.dk/artikler/maxtest) for dit 1RM-forsøg. Du kan over overveje, om du synes om den strategi til dit styrkeløftstævne også. Beermann anbefaler, at man maksimalt har tre løft, der er over 90% af dit forventede maxløft.
 
 | Strategi | #1 | #2 | #3 |
 |-|-|-|-|
@@ -118,6 +118,6 @@ Vil du optimere din tilgang til stævner? Planlæg dine forsøg med en strukture
 - [The International Powerlifting Federation. Tekniske Regler 2019](https://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
 </details>
 
-## Køb bog om styrkeløft og træning til powerlifting
+## Mere inspiration
 
 {% include feature_row id="feature_row_books" type="left" %}

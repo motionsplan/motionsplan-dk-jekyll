@@ -2,6 +2,8 @@
 title: &title "Løbebåndstest med iltoptagelse (trappetest til max) 🏃"
 seo_title: "Løbebåndstest med iltoptagelse (trappetest til max)"
 permalink: /iltoptagelse-trappetest-maxtest-loeb/
+redirect_from:
+  - /iltoptagelse-loeb-ramp-test/
 excerpt: "Direkte måling af iltoptagelsen med maske på løbebånd med stigende belastning fra lav intensitet til udmattelse."
 description: "Progressiv test med stigende intensitet og måling af aerob, anaerob og VO2peak med denne direkte test af iltoptagelse på løbebånd med maske."
 language: da

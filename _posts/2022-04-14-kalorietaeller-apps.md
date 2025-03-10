@@ -1,5 +1,5 @@
 ---
-title: "5 kalorietæller apps til kostregistrering i 2024 [Test]"
+title: "5 kalorietæller apps til kostregistrering i 2025 [Test]"
 permalink: /kalorietaeller-apps/
 language: da
 header:

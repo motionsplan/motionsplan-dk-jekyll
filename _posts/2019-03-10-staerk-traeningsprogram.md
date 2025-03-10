@@ -23,7 +23,7 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Jacob Beermann fortæller i _Stærk_, hvordan du kan gribe styrketræning an i styrkeløft. Du får en god beskrivelse af, hvordan du bygger træning op og udfører de forskellige løft. Med bogen får du også eksklusiv adgang til en Facebookgrupppe, og du får et træningsprogram på 16 uger."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Køb bogen"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 gallery:
@@ -44,7 +44,7 @@ gallery_content:
 
 Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
 
-Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft](/powerlifting-rules/).
+Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [træning til styrkeløft](/styrkeloeft/).
 
 {% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg" caption=page.title alt=page.title %}
 
@@ -66,7 +66,7 @@ Stærk er en virkelig god bog til at blive klogere af, hvis du gerne vil blive s
 
 ## Indholdsfortegnelse til Stærk
 
-Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du formentlig lyst til at [købe bogen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){: rel='sponsored nofollow noopener' }. Bogen og det medfølgende træningsprogram er i hvert fald alle pengene værd.
+Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du formentlig lyst til at [købe bogen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){: rel='sponsored nofollow noopener' }. Bogen og det medfølgende træningsprogram er i hvert fald alle pengene værd.
 
 1. Indledning
 2. Sådan bliver du stærk
@@ -107,7 +107,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Bogens slutning er din start
 7. Træningsprogram
 
-{% include gallery id="gallery_content" caption="Indholdsfortegnelsen til [Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){: rel='sponsored nofollow noopener' }." %}
+{% include gallery id="gallery_content" caption="Indholdsfortegnelsen til [Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){: rel='sponsored nofollow noopener' }." %}
 
 ## Principperne i Stærk styrketræningsprogrammet
 
@@ -125,9 +125,9 @@ Den højfrekvente træning vil være ny for mange, og det kræver tålmodighed a
 
 I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin tid, når man går i gang med træningen.
 
-Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max](/rm-maxtest/) ud fra en 5RM test. Vi har lavet en [1RM-beregner](/rm-beregner/).
+Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at [finde din 1RM-max](/rm-maxtest/) ud fra en 5RM test. Vi har lavet en [1RM-beregner](/rm-beregner/), som kan hjælpe dig.
 
-Køb Stærk hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" }
+Køb Stærk hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" }
 
 Programmet er delt op i to faser, der hver tager 8 uger:
 
@@ -214,7 +214,6 @@ Du kan finde endnu flere [rygøvelser](/rygoevelser/) og [armøvelser til biceps
 
 Du kan finde endnu flere [brystøvelser](/brystoevelser/), [skulderøvelser](/skulderoevelser/) og [armøvelser til triceps](/arme-triceps-biceps/).
 
-
 ### Ben, baller og mave
 
 - Bulgarian split squat
@@ -237,7 +236,7 @@ Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild me
 
 Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts](/bedste-fitness-traening-podcasts/) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
 
-Hvis du er på udkig efter et [gratis træningsprogram, så tjek vores oversigt]({% link _pages/trainingprograms-archive.md %}).
+Hvis du er på udkig efter et [gratis styrketræningsprogram, så tjek vores oversigt](/styrketraeningsprogrammer/).
 
 ## Køb Stærk
 

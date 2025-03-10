@@ -19,7 +19,7 @@ Her er et eksempel på et 3-split program, som du kan bruge, hvis dit mål er at
 
 Træningsprogrammer er noget af det folk søger rigtig meget efter. [Valget af træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}) handler rigtig meget om, hvad dine mål er, hvor mange gange om ugen du gerne vil træne, og hvad dit udgangspunkt er.
 
-Et træningsprogram skal være motiverende og tilpasset dine personlige mål og behov. Derfor har vi også lavet en side med [forskellige gratis træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af. Jeg har beskrevet, hvad du skal tænke på, når du [vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+Et træningsprogram skal være motiverende og tilpasset dine personlige mål og behov. Derfor har vi også lavet en side med [forskellige gratis styrketræningsprogrammer](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg har beskrevet, hvad du skal tænke på, når du [vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
 
 Et træningsprogram bør være baseret på stor flerledsøvelser uanset hvilket split du vælger at køre. Hvis du køre et 3-splitsprogram, så er der imidlertid plads til at få endnu flere isolationsøvelser ind i programmet.
 

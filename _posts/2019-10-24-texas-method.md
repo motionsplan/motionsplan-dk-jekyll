@@ -41,7 +41,7 @@ language: da
 
 En af fordelene ved Texas Method er, at den i en meso-cyklus (en uge) både tager højde for volumen, restituion og intensitet. Samtidig per pointen i programmet, at belastningen skal stige fra uge til uge, så der er lineær progression på ugebasis.
 
-Husk at Texax Method bare er et af forskellige programmer. Vi har samlet [flere gratis træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af.
+Husk at Texas Method bare er et af forskellige programmer. Vi har samlet flere [gratis klassiske styrkeprogrammer](/styrketraeningsprogrammer/), som du kan lade dig inspirere af.
 
 Sørg for at læse instruktionerne grundigt, inden du går i gang med at bruge programmet.
 

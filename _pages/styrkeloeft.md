@@ -30,21 +30,21 @@ feature_row_lifts:
     alt: "Squat - styrkeløft og powerlifting regler for squat"
     title: "Squat - Guide til back squat"
     excerpt: "Squat er en grundlæggende benøvelse, der styrker lår, baller og core. Lær korrekt teknik og variationer for maksimal effekt."
-    url: "/squat/"
+    url: "/styrkeloeft/squat/"
     btn_label: "Lær squat"
     btn_class: "btn--info"
   - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
     alt: "Bænkpres - powerlifting og styrkeløft regler for bænkpres"
     title: "Bænkpres - Optimer din teknik"
     excerpt: "Bænkpres er en essentiel øvelse for bryst, skuldre og triceps. Få styr på teknik, greb og de bedste strategier for styrke."
-    url: "/oevelse/baenkpres/"
+    url: "/styrkeloeft/baenkpres/"
     btn_label: "Lær bænkpres"
     btn_class: "btn--info"
   - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
     alt: "Dødløft - powerlifting og styrkeløft regler for dødløft"
     title: "Dødløft - komplet guide"
     excerpt: "Dødløft aktiverer hele kroppen med fokus på ryg og ben. Lær korrekt udførelse, typiske fejl og effektive variationer."
-    url: "/doedloeft/"
+    url: "/styrkeloeft/doedloeft/"
     btn_label: "Lær dødløft"
     btn_class: "btn--info"
 feature_row_get_started:
@@ -108,12 +108,12 @@ Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw
 
 ## Guides til styrkeløft
 
-{% assign site_posts = site.posts | where: "tags", "styrkeløft" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "styrkeløft" | where: "tags", "guide" | sort: "date" %}
 
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -134,7 +134,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
   {% endfor %}
 {% endif %}
 
-[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
+[Se alle styrkeprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -206,12 +206,12 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 ## Flere artikler om udstyr
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "udstyr" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "styrkeløft" | where: "tags", "udstyr" | sort: "date" %}
 
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}

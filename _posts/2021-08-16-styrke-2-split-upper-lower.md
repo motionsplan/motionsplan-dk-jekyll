@@ -19,7 +19,7 @@ Dette 2-split program til styrketræning er baseret på upper/lower. Jeg skriver
 
 Du skal træne mindst fire gange om ugen, inden det er nødvendigt at overveje et splitprogram. Typisk er et 2-split eller [3-split]({% link _posts/2021-08-16-styrke-3-split.md %}) de mest hensigtsmæssige splitprogrammer.
 
-Dit program skal være motiverende og tilpasset dine personlige behov. Du kan se [andre træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af. Jeg går også mere i dybden med, [hvordan du vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+Dit program skal være motiverende og tilpasset dine personlige behov. Du kan se [andre træningsprogrammer til styrke](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg går også mere i dybden med, [hvordan du vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
 
 Grundlæggende er det godt at træne en muskelgruppe 2 gange om ugen, bruge store basisøvelser, som fx squat, bænkpres og dødløft. I et splitprogram er der gode muligheder for at supplere basisøvelserne med mere isolationsøvelser for de forskellige muskelgrupper, hvis du godt kan lide det.
 

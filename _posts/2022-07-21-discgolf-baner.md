@@ -1,6 +1,6 @@
 ---
 title: &title "Discgolf baner i Danmark: Hvor kan du spille?"
-seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2024?"
+seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2025?"
 excerpt: "At gå en runde på en af de mange discgolf baner i danmark er en fantastisk måde at tilbring tid sammen med vennerne på. Her kan du læse mere om, hvor du kan spille discgolf?"
 permalink: /discgolf-baner/
 language: da

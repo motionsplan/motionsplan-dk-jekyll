@@ -1,5 +1,5 @@
 ---
-title: &title "Hvilke kosttilskud virker og hvilke er spild af penge i 2024?"
+title: &title "Hvilke kosttilskud virker og hvilke er spild af penge?"
 excerpt: "Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning."
 permalink: /kosttilskud/
 last_modified_at: 2023-01-01T09:41:09Z

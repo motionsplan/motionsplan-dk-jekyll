@@ -29,7 +29,7 @@ Muskeltræning er et samlet begreb for træning af muskeludholdenhed og muskelst
 
 I de fleste tilfælde har vi brug for dynamisk muskeludholdenhed, som er evnen til at arbejde med den samme muskelgruppe i en længere periode uden at blive træt. Dette gælder fx i mange [træningsformer](/traeningsformer/) som løb og cykling, men også i forskellige  [sportsgrene](/sportsgrene-liste/).
 
-I sjældne tilfælde har vi i dagligdagen brug for maksimal dynamisk muskelstyrke, men i idræt, fx i [styrkeløft](/powerlifting-rules/) er det netop det vi træner efter. Den maksimale muskelstyrke kommer i spil, når man kun kan løfte en byrde én gang. Da den sjældent aktiveres i hverdagen, så kræver det ofte træning at forbedre vores maksimale muskelstyrke.
+I sjældne tilfælde har vi i dagligdagen brug for maksimal dynamisk muskelstyrke, men i idræt, fx i [styrkeløft](/styrkeloeft/) er det netop det vi træner efter. Den maksimale muskelstyrke kommer i spil, når man kun kan løfte en byrde én gang. Da den sjældent aktiveres i hverdagen, så kræver det ofte træning at forbedre vores maksimale muskelstyrke.
 
 Den maksimale muskelstyrke er dog også en fordel i forbindelse med rigtig meget sport. At have en høj maksimal styrke er med til at det relativt lettere at yde et bestemt arbejde, hvilket medvirker til, at man kan gøre det flere gange.
 

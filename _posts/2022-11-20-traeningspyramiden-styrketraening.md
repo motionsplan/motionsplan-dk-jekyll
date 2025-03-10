@@ -129,7 +129,7 @@ Eric Helms fortæller om progression i denne video:
 
 ## 4. Øvelsesvalg
 
-Når du vil være stærk i et bestemt løft, så skal du naturligvis træne de løft. Det gør sig bl.a. gældende i [styrkeløft](/powerlifting-rules/), hvor du gerne vil være bedre til squat, bænkpres og dødløft.
+Når du vil være stærk i et bestemt løft, så skal du naturligvis træne de løft. Det gør sig bl.a. gældende i [styrkeløft](/styrkeloeft/), hvor du gerne vil være bedre til squat, bænkpres og dødløft.
 
 Hvis du gerne vil blive alsidig stærk eller bygge muskelmasse, så betyder øvelsesvalget naturligvis noget. Du kan gøre din træning meget mere effektiv, hvis du vælger fornuftig blandt alle de øvelser, der findes.
 

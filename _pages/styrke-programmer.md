@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Træningsprogrammer: fullbody og splitprogrammer til styrketræning"
+title: "Træningsprogrammer: fullbody og splitprogrammer til styrke"
+seo_title: "Styrketræningsprogrammer: fullbody og splitprogrammer til styrke"
 permalink: /styrketraeningsprogrammer/
 excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, splitprogrammer, 2-splitprogram og 3-splitprogram."
 comments: false
@@ -64,7 +65,7 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 ## Flere forslag til styrketræningsprogrammer
 
-Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
+Tag udgangspunkt i et af de mange effektive styrkeprogrammer her og tilpas dem til dine behov.
 
 <div class="feature__wrapper">
 
@@ -82,7 +83,7 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 {% include feature_row id="feature_row_howto_program" type="left" %}
 
-## Lær mere om at lave dit eget program
+## Lær mere om at lave dit eget styrkeprogram
 
 <div class="feature__wrapper">
 

@@ -11,7 +11,9 @@ category:
   - Styrketræning
 tags:
   - styrketræning
+  - styrkeløft
   - udstyr
+  - guide
 last_modified_at: 2022-11-24T23:14:14Z
 toc: true
 feature_row_powerlifting:

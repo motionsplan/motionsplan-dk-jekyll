@@ -2,9 +2,7 @@
 title: "Bænkpres"
 excerpt: "Liggende på en bænk og skub vandret."
 instructions: "Liggende på en bænk og skub vandret."
-permalink: /oevelse/baenkpres/
-redirect_from: /node/17
-id: 17
+permalink: /baenkpres/
 key: 20210818224100
 language: da
 header:
@@ -62,7 +60,3 @@ Liggende udstrakt på ryggen med fødderne placeret solidt i gulvet, og øjnene 
 
 {% include gallery id="gallery_grip" %}
 
-## Konklusion
-
-- Vil du lære mere om squat generelt? [Se vores store guide til bænkpres](/baenkpres/).
-- Dyrker du styrkeløft? Se de [specifikke bænkpres-regler](/styrkeloeft/baenkpres/) her.

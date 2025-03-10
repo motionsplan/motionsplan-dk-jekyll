@@ -13,6 +13,7 @@ tags:
   - yoga
   - udstyr
   - guide
+  - træning
 last_modified_at: 2021-01-12T08:14:14Z
 toc: true
 feature_row_yogamat:

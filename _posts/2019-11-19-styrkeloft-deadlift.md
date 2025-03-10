@@ -1,13 +1,13 @@
 ---
-title: "Regler i styrkeløft – sådan dømmes dine løft 🏋️‍♀️"
-seo_title: "Regler for styrkeløft: Squat, bænkpres og dødløft"
-excerpt: Få en grundig introduktion til styrkeløftens regler. Styrkeløft handler om at løfte så mange kilo som muligt i squat, bænkpres og dødløft – men altid inden for de fastsatte konkurrencekrav.
-description: "Få en detaljeret oversigt over de officielle regler for squat, bænkpres og dødløft i styrkeløft."
-permalink: /powerlifting-rules/
+title: "Dødløft i styrkeløft – Teknik, regler og træning"
+seo_title: "Dødløft i styrkeløft – Teknik, regler og træning"
+excerpt: Sådan laver du dødløft i styrkeløft. Se reglerne for udførelse og de bedste teknikker til at løfte tungt i konkurrence.
+description: "Sådan laver du dødløft i styrkeløft. Se reglerne for udførelse og de bedste teknikker til at løfte tungt i konkurrence."
+permalink: /styrkeloeft/doedloeft/
 slanguage: da
 header:
   overlay_image: https://images.unsplash.com/photo-1534367990512-edbdca781b00?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1534367990512-edbdca781b00?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1516470498934-6a1c0c7d7930?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Regler til styrkeløft og powerlifting"
 category:
   - Styrketræning
@@ -53,80 +53,11 @@ quiz:
     answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
 
-Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft.
+Dødløft i styrkeløft har specifikke krav til teknik og udførelse. Hvis du vil optimere din dødløft til konkurrencer, skal du kende reglerne og træne målrettet.
 
-For at sikre fair konkurrence er der etableret specifikke regler for hver disciplin. Her får du en introduktion til de vigtigste regler.
+I denne guide ser vi på reglerne for dødløft i styrkeløft og giver dig de bedste teknikker og træningsmetoder.
 
-*[IPF]: International Powerlifting Federation
-
-## Hvad er styrkeløft?
-
-Dansk Styrkeløft Forbund har lavet en glimrende video, der forklarer lidt mere om, hvad styrkeløft er.
-
-{% include video provider="youtube" id="zu6JMiNFAbM" %}
-
-## Forskellige forbund - forskellige regler
-
-I Danmark hedder forbundet _Dansk Styrkeløft Forbund (DSF)_ og hører hjemme på [styrke.dk](https://styrke.dk/). Alle klubber i Danmark, der stiller op til konkurrencer, er medlem af Dansk Styrkeløft Forbund, som til gengæld er medlem af International Powerlifting Federation (IPF), som er verdens største styrkeløftforbund. Der findes andre store forbund, men IPF har ry for at være det med de skrappeste dopingtests.
-
-Her kan du se promotion video fra International Powerlifting Federation.
-
-{% include video provider="youtube" id="TMIGc-PqsBc" %}
-
-Når vi gennemgår reglerne til [styrkeløft](/styrkeloeft/) nedenunder, så refererer vi til IPF's regler.
-
-Hvis du gerne vil konkurrere i styrkeløft, så skal du være medlem af en klub. Du kan både konkurrere med udstyr (særlige dragter) eller klassisk (raw).
-
-## De 3 discipliner i styrkeløft
-
-{% include feature_row %}
-
-## Regler i styrkeløft (IPF)
-
-I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF).
-
-### Squat
-
-I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet er under knæleddet.
-
-Kommandoerne i squat er:
-
-- **Stangen er klar** eller **The bar is loaded**. Efter kommandoen så har man maksimalt et minut til at lave sit forsøg.
-- _Unrack vægtstangen_. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
-- Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
-- Vent på **"Rack"**-kommandoen.
-
-{% comment %}
-{% include video provider="youtube" id="dnhe34Xbvc0" %}
-{% endcomment %}
-
-{% include video provider="youtube" id="MGD0UmsZnek" %}
-
-**Lær endnu mere**: [Guide til squat i styrkeløft](/styrkeloeft/squat/)
-{: .notice }
-
-### Bænkpres
-
-Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne skal røre bænken under hele løftet.
-
-Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
-
-- **“Stangen er klar”** eller **“The Bar is Loaded!”**. Derefter har du 1 minut til at lave dit forsøg.
-- Du kan _unracke_ alene eller med en hjælper.
-- Vent på **"Start"**-kommandoen inden ud sænker vægtstangen, indtil den rører dig et sted på kroppen og ligger komplet stille.
-- Vent på **"Pres"**-kommandoen. Pres vægtstangen op i helt strakte arme.
-- Vent på **"Rack"**-kommandoen.
-
-{% comment %}
-{% include video provider="youtube" id="jrZCsEwlKxM" %}
-{% endcomment %}
-
-{% include video provider="youtube" id="ifrev2QcGXg" %}
-
-**Lær endnu mere**: [Guide til bænkpres i styrkeløft](/styrkeloeft/baenkpres/)
-{: .notice }
-
-### Dødløft
+## Regler for dødløft i styrkeløft
 
 Du vælger selv, om du vil lave konventionel dødløft eller sumodødløft.
 
@@ -144,15 +75,6 @@ Kommandoerne under dødløft er:
 
 {% include video provider="youtube" id="gbnOJuNVt6M" %}
 
-**Lær endnu mere**: [Guide til dødløft i styrkeløft](/styrkeloeft/doedloeft/)
-{: .notice }
-
-## Vægtklasser og IPF-Point
-
-I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.
-
-Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
-
 ## Regler for klassisk styrkeløft
 
 Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.
@@ -166,7 +88,7 @@ Når du løfter efter de klassiske regler (raw), så gælder følgende generelle
 
 Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr.
 
-Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
+Jeg har primært samlet denne liste for at kunne formidle [styrkeløft-reglerne](/powerlifting-rules/), når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
 
 Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 {: .notice}
@@ -185,9 +107,10 @@ Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt p�
 
 Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
 
-## Quiz om regler for styrkeløft
-
-{% include motionsplan/orbit.html cards=page.quiz %}
+- Er du ny i styrkeløft? Læs den [komplette guide til styrkeløft](/styrkeloeft/).
+- Vil du lære mere om squat generelt? Se vores [store dødløft-guide](/doedloeft/).
+- Se teknikken til [konventionel dødløft](/oevelse/konventionel-doedloeft/).
+- Se teknikken til [sumodødløft](/oevelse/sumo-doedloeft/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -41,3 +41,8 @@ Ved sumodødløft skal du stå i en bredstående og holde fast i stangen på ind
 Forsøg at ”skubbe jorden væk” under dig, og sørg for at banke hoften igennem, når stangen nærmer sig knæhøjde. I toppen sørger man for at hoften er helt strakt, og brystet er skudt frem.
 
 Når stangen ligger på gulvet, så venter man ligesom i konventionel dødløft et splitsekund inden man trækker igen. En god ide kan være at slippe grebet kort, så man er sikker på, at man løfter fra død stang.
+
+## Konklusion
+
+- Vil du lære mere om dødløft generelt? [Se vores guide til dødløft](/doedloeft/).
+- Dyrker du styrkeløft? Se de [specifikke dødløft-regler](/styrkeloeft/doedloeft/) her.

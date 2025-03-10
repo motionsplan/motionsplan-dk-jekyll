@@ -104,7 +104,7 @@ Du kan også bruge [Rate of Perceived Exertion (RPE)](/rpe/) til at estimere sit
 
 ## Hvordan finder jeg hvad jeg skal løfte?
 
-Hvis du gerne vil lave en maxtest eller en 1RM-test, så skal du også have valgt, hvor meget vægt der skal på stangen. Jeg har skrevet lidt mere om det under min [gennemgang af styrkeløft og powerlifting](/powerlifting-rules/).
+Hvis du gerne vil lave en maxtest eller en 1RM-test, så skal du også have valgt, hvor meget vægt der skal på stangen. Jeg har skrevet lidt mere om det under min [gennemgang af styrkeløft og powerlifting](/styrkeloeft/).
 
 ## PAP virker også i forhold til at forbedre din springhøjde
 

@@ -17,7 +17,6 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
 doping:
   - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
     alt: "Motionsdoping - styrketræning, identitet og kultur"

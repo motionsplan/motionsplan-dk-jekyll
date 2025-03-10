@@ -69,3 +69,8 @@ Du skal arbejde frem mod i hvert fald at kunne komme ned til at lårene er vandr
 - **Kiler**. Hvis du har brug for at bruge kiler under hælene for at kunne komme lidt længere ned, anbefaler vi at du gradvist gør kilerne mindre.
 
 Se i øvrigt [10 tips for flawless squattin'](https://www.t-nation.com/free_online_article/sports_body_training_performance/10_tips_for_flawless_squattin)
+
+## Konklusion
+
+- Vil du lære mere om squat generelt? [Se vores store squat-guide](/squat/).
+- Dyrker du styrkeløft? Se de [specifikke squat-regler og teknikker](/styrkeloeft/squat/) her.

@@ -55,3 +55,8 @@ Løftet starter med at stangen er placeret på gulvet, så den løftes "død" fr
 Når bevægelsen starter, skal du forestille dig, at du er ved at træde jorden væk. Sørg for at der ikke ser nogen medbevægelse i lænden og hold ryggen ret under hele bevægelsen.
 
 Der findes flere variationer af dødløft, og dødløft træner den bedst mulige løfteteknik og involverer kroppens største muskler.
+
+## Konklusion
+
+- Vil du lære mere om dødløft generelt? [Se vores guide til dødløft](/doedloeft/).
+- Dyrker du styrkeløft? Se de [specifikke dødløft-regler](/styrkeloeft/doedloeft/) her.

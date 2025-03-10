@@ -29,7 +29,7 @@ feature_row:
 
 Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et træningsprogram til styrkeløft, der autoregulering ved at basere programmet på RPE og _fatigue percents_.
 
-Programmet er målrettet den øvede løfter. Vi har samlet en [række andre træningsprogrammer til inspiration]({% link _pages/trainingprograms-archive.md %}), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
+Programmet er målrettet den øvede løfter. Vi har samlet en [række andre styrketræningsprogrammer til inspiration](/styrketraeningsprogrammer/), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
 
 Mike Tuchscherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
 {: .notice .notice--info }
