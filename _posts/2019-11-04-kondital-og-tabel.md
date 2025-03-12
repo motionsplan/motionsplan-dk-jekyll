@@ -1,7 +1,7 @@
 ---
 title: "Sådan finder du dit kondital: Beregning og tabel"
-permalink: /kondital/
 seo_title: "Kondital tabel & beregning: Sådan finder du dit kondital"
+permalink: /kondital/
 # Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
 # Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
 # Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
@@ -14,7 +14,7 @@ header:
   teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
     kvinder og børn?
-last_modified_at: 2021-04-09T04:46:02+02:00
+last_modified_at: 2024-02-09T04:46:02+02:00
 toc: true
 category:
   - Kondition
@@ -60,9 +60,11 @@ faq:
     answer: Der er mange måder at måle sin kondition på. Du kan se vores [oversigt over konditionstests](/kondition/tests/).
 ---
 
-Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
+Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt og hvordan du kan forbedre det. 
 
-Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
+Du finder også en nem og overskuelig kondital tabel, hvor du kan se normer for et godt kondital.
+
+Konditallet siger meget om, hvordan din krop fungerer. Her kan du lære mere om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
 
 *[BMI]: Body Mass Index
 
@@ -131,7 +133,7 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over
 
 Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
-## Hvordan beregner man kondital?
+## Sådan beregner du kondital
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
 
@@ -143,15 +145,17 @@ Det kan man nemlig gøre to måder:
 
 Enten ved at forbedre din max iltoptagelse eller ved at tabe dig.
 
-## Hvordan måler man kondital?
+## Sådan måler du kondital?
 
-Hvis du vil finde dit eget kondital, så tjek vores forskellige [tests til at finde dit kondital](/kondition/tests/). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
+Hvis du vil finde dit eget kondital, så tjek vores forskellige [tests til at finde dit kondital](/kondition/tests/). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle dit kondital.
 
-Nogle af de populære er bl.a. [Cooper-test](/cooper-test/) og [bip test](/bip-test/).
+De mest præcise er naturligvis en direkte måling af [iltoptagelse i et testcenter](/iltoptagelse-laboratorietest/), men der er også nogle indirekte, populære tests, som er ret præcise. De bedste er bl.a. en [Cooper-test](/cooper-test/) og [bip test](/bip-test/).
 
-## Hvordan forbedrer jeg mit kondital?
+## Sådan forbedrer du dit kondital
 
-Konditallet forbedres ved at udfordre kredsløbet, da det afspejler kroppens evne til at optage og forbruge ilt effektivt. Der findes mange måder at træne kredsløbet på, og enhver form for fysisk aktivitet vil have en positiv effekt. Men hvis målet er at øge dit kondital markant, er det vigtigt at forstå, at kredsløbet består af flere komponenter, der skal trænes målrettet.
+Konditallet forbedres ved at udfordre kredsløbet, da det afspejler kroppens evne til at optage og forbruge ilt effektivt. Der findes mange måder at træne kredsløbet på, og enhver form for fysisk aktivitet vil have en positiv effekt.
+
+Men hvis målet er at øge dit kondital markant, er det vigtigt at forstå, at kredsløbet består af flere komponenter, der skal trænes målrettet.
 
 Derfor kan det være en fordel at opdele træningen i forskellige metoder, så du sikrer, at alle aspekter af iltoptagelsen bliver udfordret.
 
@@ -165,46 +169,19 @@ Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. 
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
-Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
+Når vi taler om kondital, er det vigtigt at huske, at den traditionelle beregningsmetode kan være problematisk for overvægtige personer. Fordi kropsvægten indgår i formlen, kan deres kondition i forhold til sundhed let blive undervurderet. Dette kan føre til unfair vurderinger og potentielt demotiverende resultater.
 
-> Problemet med konditallet er imidlertid, at vægten indgår som en del af beregningen, og derfor vil stort set ingen overvægtige vil få tildelt et godt kondital, selv om de faktisk er i god form.
->
-> --- <cite>[Morten Zacho](https://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
+For at imødekomme dette problem har vi udarbejdet en detaljeret artikel, der udforsker en mere retfærdig metode til vurdering af kondital hos overvægtige: Kondital ved Index 23. Læs mere om [retfærdig vurdering af kondital for overvægtige her](/kondital-index-23/).
 
-[Morten Zacho](https://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} foreslår i Retfærdig vurdering af overvægtiges kondition at bruge princippet om *Kondital ved Index 23*.[^note]
+I den nye artikel vil du lære:
 
-[^note]: Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princippet om skalering og dividere iltoptagelsen med højden i anden potens.
+- Hvorfor den traditionelle konditalberegning kan være unfair for overvægtige.
+- Hvordan Kondital ved Index 23 fungerer, og hvordan det beregnes.
+- Fordelene ved at bruge Index 23 til at vurdere kondital hos overvægtige.
+- Praktiske eksempler og råd til, hvordan du kan anvende denne metode.
 
-## Kondital og vægt bør vurderes uafhængigt
+Vi opfordrer dig til at læse den nye artikel for at få en dybere forståelse af, hvordan vi kan sikre en mere retfærdig og præcis vurdering af kondital hos alle.
 
-Det almindelige kondital udregnes ved at dividere VO₂max med kropsvægten. Konditallet er altså et udtryk for dit kredsløbs maksimale kapacitet i forhold til din krop. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til din sundhedstilstand.
-
-Derfor foreslår [Morten Zacho](https://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
-
-Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde et [beregnet BMI](/bmi-beregner/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
-
-## Hvordan udregnes Kondital ved Index 23?
-
-Da Index 23 er baseret på BMI, så ser formlen således ud:
-
-{% include motionsplan/math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
-
-Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale kroppen har, hvis man var [normalvægtig i forhold til BMI](/bmi/).
-
-Samtidigt skriver Morten Zacho, at Kondital<sub>Index 23</sub> er en værdi, der er let at forklare for almindelige mennesker.
-
-> "Dette er det kondital du ville have, såfremt du var normalvægtig".
->
-> --- <cite>[Morten Zacho](https://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
-
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi](/lobeokonomi/) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i [denne artikel af Morten Zacho](https://web.archive.org/web/20130605152402/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}: Effekt af kropsvægt på den maksimale iltoptagelse.
-{: .notice .notice--warning }
-
-## Kondital beregning ved index 23
-
-En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Morten Zacho foreslår som skrevet, at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes *Kondital ved index 23*.
-
-{% include calculator/calculate-fitness-index-23.html %}
 
 ## Kondital og risiko for sygdomme
 

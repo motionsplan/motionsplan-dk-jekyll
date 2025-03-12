@@ -117,6 +117,8 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 - Herefter øges hældningen på løbebåndet med 2% hvert 11⁄2 minut, indtil at forsøgspersonen når udmattelse.
 - Ved udmattelse noteres den maksimale puls og der tages en priktest.
 
+Vi går i dybden med en [rampetest til test af vo2max her](/iltoptagelse-max-test-loeb/).
+
 ## Baggrundsviden for testen
 
 ### Aerobt og anaerobt arbejde

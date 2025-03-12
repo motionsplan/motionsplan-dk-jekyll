@@ -156,7 +156,7 @@ Men du kan også overveje en af de andre konditionstests fra løb.
 
 </div>
 
-## Andre tests af iltoptagelse
+## Tests af iltoptagelse uden laboratorium
 
 Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de indirekte tests til at finde dit kondital.
 
