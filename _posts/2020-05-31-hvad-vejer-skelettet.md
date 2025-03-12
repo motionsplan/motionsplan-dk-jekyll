@@ -59,9 +59,13 @@ faq:
     answer: "Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg."
 ---
 
-Jeg får ofte spørgsmålet om, hvad knoglerne og skelettet vejer, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor meget skelettet og knoglerne vejer?
+Under mine anatomiundervisninger spørger mange, hvor meget knoglerne i kroppen vejer? Det er et spændende spørgsmål, og jeg har kigget nærmere på det for at give et præcist svar.
 
-Hvor meget vejer skelettet? **Menneskets skelet og knogler udgør omkring 12-20 pct. af kropsvægten. Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. Hvis vi tager en et eksempel med en 80 kg tung person, så vejer knoglerne og skelettet omkring 12-14 kg.**
+Hvis du vil lære mere om, hvor mange knogler der er i menneskekroppen, kan du finde detaljeret information [om antallet af knogler i menneskekroppen her](https://www.motionsplan.dk/hvor-mange-knogler-har-mennesket/).
+
+## Hvor meget vejer skelettet?
+
+**Menneskets skelet og knogler udgør omkring 12-20 pct. af kropsvægten. Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. Hvis vi tager en et eksempel med en 80 kg tung person, så vejer knoglerne og skelettet omkring 12-14 kg.**
 
 ## Hvornår vejer knoglerne mest?
 
@@ -99,8 +103,6 @@ Massefylden for knogler er 1,85 g / cm<sup>3</sup>. Du kan se massefylden sammen
 
 {% include table/table-body-density.html %}
 
-{% include motionsplan/faq.html heading="2" %}
-
 ## Hvad vejer de enkelte knogler i kroppen?
 
 Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du finder nogen, så må du endelig skrive det og en kildeangivelse til {{ site.email }}.
@@ -112,6 +114,10 @@ Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du fin
 Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.jpg" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.jpg" alt="Hvad vejer knoglerne og skelettet" caption="Hvad vejer knoglerne og skelettet" hidden="true" %}
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 ## Bøger
 

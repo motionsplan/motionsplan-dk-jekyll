@@ -38,7 +38,7 @@ feature_row_tests_loeb:
     btn_class: "btn--success"
 ---
 
-I denne iltoptagelsestest på løbebånd får du en præcis måling af din aerobe kapacitet både under submaksimalt og maksimalt arbejde. Resultaterne kan hjælpe dig med at optimere din træning og forstå, hvordan din krop præsterer ved forskellige intensitetsniveauer.
+I denne løbebåndstest for iltoptagelse får du en nøjagtig måling af din aerobe kapacitet under både submaksimalt og maksimalt arbejde. Testresultaterne kan give dig værdifuld indsigt i din præstation ved forskellige intensitetsniveauer og hjælpe dig med at optimere din træning.
 {: .intro }
 
 Testen er delt i to trin, som køres med en kort pause i mellem.
@@ -178,7 +178,7 @@ Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den
 
 ## Hvad er ulempen ved denne test?
 
-Testen er rimelig tidskrævende.
+Testen er rimelig tidskrævende. Du kan lade dig inspirere af nogle af de tilsvarende [tests af iltoptagelsen i et laboratorium](/iltoptagelse-laboratorietest/), du kan lave.
 
 ## Meningsfuld forbedring i testen
 

@@ -41,11 +41,15 @@ feature_row:
 
 Dynamic Strength Index (DSI) er et godt værktøj til finde ud af, om du har brug for at forbedre din maksimale styrke eller dine plyometriske egenskaber.
 
-Der findes også andre mål, hvor du kan finde ud af, hvordan forholdet er mellem din springstyrke og din evne til hurtigt at udvikle kraft i forbindelse med [plyometrisk træning](/plyometrisk-traening/). Læs mere om [reactive strength index (RSI)](/reactive-strength-index-rsi/).
+Det har [www.scienceforsport.com](https://www.scienceforsport.com/dynamic-strength-index/) skrevet en rigtig god artikel om på engelsk, som er baggrunden for dette indlæg.
+
+Der findes også et andet relateret mål, hvor du kan bestemme din evne til at skifte fra en excentrisk bevægelse til en koncentrisk bevægelse. [Reactive strength index (RSI)](/reactive-strength-index-rsi/) kræver springstyrke og viser din evne til hurtigt at udvikle kraft i forbindelse med fx [plyometrisk træning](/plyometrisk-traening/).
+
+## HVad er Dynamic Strength Index (DSI)
 
 Det **dynamiske styrke index** (DSI) måler forskellen mellem et atlets maksimale styrke og den eksplosive styrkekapacitet. DSI er et mål for et altlets nuværende præstationsniveau. DSI kan være med til at identificere om en atlet bør prioritere styrketræning, ballistisk træning eller samtidig (concurrent) træning i deres træningsprogram for at blive mere eksplosiv.
 
-I praksis er **Dynamic Strength Index** en ratio mellem et atlets ballistiske _peak force_ og den dynamiske eller isometriske _peak force_. Det har [www.scienceforsport.com](https://www.scienceforsport.com/dynamic-strength-index/) skrevet en rigtig god artikel om på engelsk, som er baggrunden for dette indlæg.
+I praksis er **Dynamic Strength Index** en ratio mellem et atlets ballistiske _peak force_ og den dynamiske eller isometriske _peak force_.
 
 *[DSI]: Dynamic Strength Index
 
@@ -80,7 +84,7 @@ I en IMTP-test kan man producere _peak force_ efter omkring 260 ms, mens det tag
 
 I disse to grafer kan du se, hvordan kraftkurverne ser ud for hhv. CMJ og IMTP lavet lige efter hinanden.
 
-{% include gallery caption="CMJ-test målte en _peak force_ på 1896 N. IMTP-test har i dette eksempel en _peak force_ på 2060 N. Her skal der ikke tages højde for kropsvægten, da kraftplatformen blev nulstillet med forsøgspersonen på platformen." %}
+{% include gallery id="gallery" caption="CMJ-test målte en _peak force_ på 1896 N. IMTP-test har i dette eksempel en _peak force_ på 2060 N. Her skal der ikke tages højde for kropsvægten, da kraftplatformen blev nulstillet med forsøgspersonen på platformen." %}
 
 Den interessante forskel er hvor meget kraft, atleten kan producere, når der ikke er nogen tidsbegræsning (som i IMTP-testen) i forhold til hvor meget kraft, atleten kan producere på kort tid, fx i afsæt.
 

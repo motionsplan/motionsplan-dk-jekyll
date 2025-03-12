@@ -64,7 +64,6 @@ Her har du en oversigt over alle de forskellige måder du kan teste din konditio
 
 {% assign site_posts = site.posts | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="full" markdown="1">
 {% if site_posts.size > 0 %}
 | Test | Måler | Udstyr | Hårdhed | Målgruppe |
 |------|-------|--------|------|---------|-----------|
@@ -72,7 +71,6 @@ Her har du en oversigt over alle de forskellige måder du kan teste din konditio
 | [{{ post.meta.name | default: post.title  }}]({{ post.url }}) | {{ post.meta.measures }} | {{ post.meta.equipment }} | {{ post.meta.max }} | {{ post.meta.target | default: "voksne" }} |
   {%- endfor %}
 {% endif %}
-</div>
 
 ## De mest populære løbetests
 

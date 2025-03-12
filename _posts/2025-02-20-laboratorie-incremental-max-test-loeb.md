@@ -169,7 +169,7 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 
 Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den maksimale iltoptagelse, og at forsøgspersonen således har ydet sit maksimale.
 
-**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
+**Gå i dybden**: [Kriterier for en VO2max test](/kriterier-maksimal-iltoptagelsestest/)
 {: .notice }
 
 ## Hvad er ulempen ved denne test?
@@ -177,7 +177,9 @@ Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den
 Ulempen ved denne test er:
 
 - **Opnås der steady state på 3 minutter?**. 3 minutter er i hvert fald nødvendig for at opnå steady state på en hastighed. For utrænede kan det være lige i underkanten. Jeg har imidlertid ret gode erfaringer med, at selv uøvede løbere kan opnå en fornuftig laktatkurve på baggrund af testen.
-- **Opnår vi den maksimale iltoptagelse?**. Vi kalder det VO2peak for at understrege, at vi ikke kan være helt sikker på, at vi har opnået den maksimale iltoptagelse, når vi udfører testen på denne måde, hvor vi netop på hvert niveau løber 3 minutter, inden vi går til næste niveau.
+- **Opnår vi den maksimale iltoptagelse?**. Vi kalder det VO2peak for at understrege, at vi ikke kan være helt sikker på, at vi har opnået den maksimale iltoptagelse, når vi udfører testen på denne måde, hvor vi netop på hvert niveau løber 3 minutter, inden vi går til næste niveau. Læs om vores helt [præcise test af din maksimale iltoptagelse](/iltoptagelse-max-test-loeb/).
+
+Du kan blive endnu klogere på de [andre iltoptagelsestests et testcenter kan lave](/iltoptagelse-laboratorietest/).
 
 ## Meningsfuld forbedring i testen
 

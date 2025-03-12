@@ -2,8 +2,8 @@
 title: &title "6 kritierer for en maksimal iltoptagelsestest"
 seo_title: "6 kritierer for en maksimal iltoptagelsestest"
 permalink: /kriterier-maksimal-iltoptagelsestest/
-excerpt: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Her gennemgår vi 6 videnskabelige kriterier, der bruges til at vurdere, om du har ydet dit maksimale."
-description: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Her gennemgår vi 6 videnskabelige kriterier, der bruges til at vurdere, om du har ydet dit maksimale."
+excerpt: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Disse 6 kriterier kan være med til at vurdere, om du har ydet dit maksimale."
+description: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Disse 6 kriterier kan være med til at vurdere, om du har ydet dit maksimale."
 language: da
 header:
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg

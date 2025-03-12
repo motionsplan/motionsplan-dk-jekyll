@@ -28,6 +28,10 @@ vo2max:
       excerpt: "Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O2) kroppen optager pr. minut."
       btn_label: "Mere om VO2max"
       url: "/maksimale-iltoptagelse-vo2max/"
+    - title: "🫁 Maksimal iltoptagelse (VO2max) (l/min)"
+      excerpt: "Den maksimale iltoptagelse (VO2max) angiver, hvor god kroppen er til at optage den ilt, der er i den luft der indåndes. Dette er et udtryk for  hvor stor en motor en udøver har rent fysisk, da kroppens iltoptagelse er afgørende for kroppens evne til at producere energi til de arbejdende muskler."
+      btn_label: "Alt om VO2max"
+      url: "/maksimale-iltoptagelse-vo2max/"
 vo2peak:
   title: 🫁 VO₂peak (højest opnåede iltoptagelse)
   category: Aerob og anaerob kapacitet
@@ -58,6 +62,10 @@ kondital:
       excerpt: "Konditallet er et udtryk for, hvor effektiv kroppen er i forhold til kropsvægten til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg)."
       btn_label: "Lær om kondital"
       url: "/kondital/"
+    - title: "💨 Kondital (ml/kg/min)"
+      excerpt: "Konditallet angiver den maksimale iltoptagesle i forhold til kropsvægt, og giver derfor et godt mål hvor stor netop en udøvers motor er. Altså hvor meget ilt kroppen har til rådighed under maksimalt arbejde i forhold til dens størrelse."
+      btn_label: "Alt om kondital"
+      url: "/kondital/" 
 lt1:
   type: kondition
   category: Laktattærskler
@@ -120,6 +128,10 @@ maxpuls:
     - title: "❤️ Maksimale puls"
       excerpt: "Din maksimale puls er primært genetisk bestemt og falder med alderen. Maxpulsen kan være anvendelig til at beregne individuelle træningszoner. 📈"
       btn_label: "Lær om maxpuls"
+      url: "/test-max-puls/"
+    - title: "❤️ Maksimale puls"
+      excerpt: "Maksimal puls  er det antal gange hjertet slår ved maksimalt arbejde. Maxpulsen kan bruges til at bestemme pulszoner til træning. Kan også kodes ind i mange pulsure, så pulsuret fortæller hvilke intensiteter, der arbejdes ved. 📈"
+      btn_label: "Alt om maxpuls"
       url: "/test-max-puls/"
 rate_of_force_development:
   type: styrke og eksplosivitet

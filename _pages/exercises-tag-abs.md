@@ -10,7 +10,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Maveøvelser: De mest effektive øvelser til maven"
-categories:
+category:
   - Træningsøvelser
 breadcrumbs: true
 sidebar:

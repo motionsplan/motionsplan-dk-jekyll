@@ -88,7 +88,7 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 [Joe Friel](https://joefrieltraining.com/a-quick-guide-to-setting-zone/) baserer sine pulszoner på pulsen ved den anaerobe tærskel (LTHR). Han har i alt 7 zoner, men her har vi reduceret zonerne til at modsvare de vejledende træningszoner fra Coggan, som vi har skitseret ovenfor. Coggan benytter nogle lidt [andre pulsværdier](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/), men vi har god erfaring med at bruge Friels pulszoner.
 
-[Beregn dine pulszoner fra maxpulsen](/pulszoner-max-puls/){: .btn .btn--success }
+[Beregn dine pulszoner fra anaerobe tærskel](/pulszoner-laktat-taerskel/){: .btn .btn--success }
 
 ### 3. Pulszoner ud fra maksimale puls
 
@@ -98,7 +98,7 @@ De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsv�
 
 Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
 
-[Beregn dine pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--success }
+[Beregn dine pulszoner fra maxpulsen](/pulszoner-max-puls/){: .btn .btn--success }
 
 ## Find dine egne pulszoner med tests
 

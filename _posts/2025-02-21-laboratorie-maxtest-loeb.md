@@ -27,6 +27,14 @@ tags:
   - laboratorietest
   - iltoptagelsestest
 last_modified_at: 2025-02-20T19:14:14Z
+feature_row_test_ark:
+  - image_path: /assets/images/blog/vo2max-test-sheet-freebie.jpg
+    alt: "Testark til VO2max løbetest"
+    title: "Testark til VO2max løbetest"
+    excerpt: "Vi bruger dette testark lavet i Google Sheets på Vejle Idrætshøjskole til at lave en maksimal iltoptagelsestest. Du får dit kondital, men også den maxpuls. Den kan bruges til at lave træningszoner ud fra."
+    url: "https://docs.google.com/spreadsheets/d/1KV5QVhzzEYsG39Z7nVsepJ8ql7Bh_lvZXPHvaGHY_2s/copy?gid=758480326#gid=758480326"
+    btn_label: "Kopier arket"
+    btn_class: "btn--success"
 feature_row_tests:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
     alt: "Kondition og tests"
@@ -95,6 +103,10 @@ Testen er en åben test. Den slutter slutter først når forsøgspersonen giver 
 
 Ved udmattelse noteres den maksimale puls og der tages en priktest.
 
+## Sådan analyserer vi resultatet
+
+{% include feature_row id="feature_row_test_ark" type="left" %}
+
 ## Er det reelt en maksimal test?
 
 Når testen er slut, så skal du vurdere om du har fået nogle brugbare resultater.
@@ -111,7 +123,7 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 
 Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale og resultatet derfor er præcist.
 
-**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
+**Gå i dybden**: [6 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
 {: .notice }
 
 ## Har jeg opnået et godt kondital?
@@ -119,6 +131,8 @@ Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen h
 {% include feature_row id="feature_row_kondital" type="left" %}
 
 ## Flere løbetests
+
+I denne test får du svar på, hvad dit kondital og din maksimale puls er. Men hvis du gerne vil have et mere fyldestgørende billede af, hvilken tilstand dit aerobe system er i, så kan du blive klogere på alle vores beskrivelser af [iltoptagelsestests i et laboratorium](/iltoptagelse-laboratorietest/).
 
 Der er masser af forskellige måder at teste dig selv på, når du gerne vil blive en bedre løber. Her kan du se alle vores løbetests.
 

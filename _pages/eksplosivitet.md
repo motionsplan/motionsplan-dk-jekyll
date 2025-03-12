@@ -34,7 +34,7 @@ feature_row:
     url: "/spring/"
     btn_label: "Læs om spring"
     btn_class: "btn--success"
-categories:
+category:
   - Træning
 tags:
   - træningsformer

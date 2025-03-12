@@ -302,6 +302,8 @@ Ved at bruge blodlaktattests systematisk kan du løbende overvåge dine fremskri
 
 {% include video provider="youtube" id="17NFLGUJ3Pw" %}
 
+Laktattesten laves ofte sammen med en [submaksimal progressiv trappetest](/iltoptagelse-trappetest-maxtest-loeb/). Hvis du er interesseret i at dykke ned i, hvilke løbetests med iltoptagelse, der findes, så tjek vores [oversigt over iltoptagelsestests](/iltoptagelse-laboratorietest/). 
+
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
