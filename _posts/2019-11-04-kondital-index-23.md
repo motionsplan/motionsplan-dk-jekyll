@@ -1,6 +1,6 @@
 ---
 title: "Kondital for overvægtige: Introduktion til Index 23"
-seo_title: "Retfærdig konditalvurdering: Sådan bruger du Index 23 ved overvægt"
+seo_title: "Overvægt og kondition: Sådan bruger du Index 23 og kondital"
 permalink: /kondital-index-23/
 # Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
 # Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
@@ -117,8 +117,7 @@ Denne metode giver ikke kun et mere retvisende billede af den enkeltes sundhed, 
 
 Ved at anvende Index 23 kan sundhedsprofessionelle og trænere give mere målrettet og effektiv vejledning, hvilket i sidste ende kan føre til bedre sundhedsresultater for overvægtige personer.
 
-
-## Ofte stillede spørgsmål om kondital
+## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
 
@@ -132,5 +131,3 @@ Ved at anvende Index 23 kan sundhedsprofessionelle og trænere give mere målret
 </details>
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/hvad-er-et-godt-kondital.jpg" data-pin-media="/assets/images/pinterest/hvad-er-et-godt-kondital.jpg" class="hidden" %}
-
-## Noter til kondition og kondital
