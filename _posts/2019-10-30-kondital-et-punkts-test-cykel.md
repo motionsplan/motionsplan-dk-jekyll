@@ -44,9 +44,11 @@ feature_row:
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 
-Hvad er Åstrands etpunktstest? **Åstrands et-punktstest er en enkel, submaksimal konditionstest udført på cykel, som pålideligt kan vise belastningen. Åstrands test kan bruges til at estimere forsøgspersonens maksimale iltoptagelse og kondital baseret på belastningen, pulsen og kropsvægten.**
+## Hvad er Åstrands etpunktstest?
 
-Jeg har også skrevet om [Åstrands to-punktstest]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}), som er et andet alternativ til at finde dit kondital med en simpel cykeltest og pulsen.
+**Åstrands et-punktstest er en enkel, submaksimal konditionstest udført på cykel, som pålideligt kan vise belastningen. Åstrands test kan bruges til at estimere forsøgspersonens maksimale iltoptagelse og kondital baseret på belastningen, pulsen og kropsvægten.**
+
+Jeg har også skrevet om [Åstrands to-punktstest]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}), som er et alternativ til at finde dit kondital med en simpel cykeltest og pulsen.
 
 ## Hvordan udfører du Åstrands etpunktstest?
 

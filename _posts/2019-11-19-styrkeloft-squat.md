@@ -1,6 +1,6 @@
 ---
 title: "Squat i styrkeløft – Teknik, regler og træning"
-seo_title: "Regler for styrkeløft: Squat, bænkpres og dødløft"
+seo_title: "Squat i styrkeløft – Teknik, regler og træning"
 excerpt: Sådan laver du squat i styrkeløft. Se reglerne for dybde, udførelse og de bedste teknikker til at løfte tungt i konkurrence.
 description: "Sådan laver du squat i styrkeløft. Se reglerne for dybde, udførelse og de bedste teknikker til at løfte tungt i konkurrence."
 permalink: /styrkeloeft/squat/

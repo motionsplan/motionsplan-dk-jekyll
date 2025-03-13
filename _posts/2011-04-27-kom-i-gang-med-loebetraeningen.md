@@ -18,7 +18,6 @@ tags:
   - guide
 category:
   - Løb
-  - Kondition
 last_modified_at: 2020-02-13T21:41:09Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg

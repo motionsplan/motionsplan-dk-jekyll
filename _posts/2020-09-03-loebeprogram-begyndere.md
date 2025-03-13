@@ -10,12 +10,12 @@ header:
   caption: *title
 category:
   - Løb
-  - Kondition
 tags:
   - løbeprogram
   - træningsprogram
   - løbetræning
   - begynder
+  - kondition
   - løb
 last_modified_at: 2021-03-29T20:14:14Z
 toc: true

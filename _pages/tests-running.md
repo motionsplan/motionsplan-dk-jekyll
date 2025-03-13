@@ -7,6 +7,8 @@ description: "Udforsk vores omfattende samling af løbetests designet til at vur
 title: &title "Løbetests - for alle niveauer"
 seo_title: "Løbetests - din guide til test af træning i løb"
 author_profile: true
+category:
+  - Tests
 header:
   overlay_image: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10

@@ -10,8 +10,7 @@ excerpt: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Ind
 header:
   overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
-    kvinder og børn?
+  caption: Kondital ved Index 23
 last_modified_at: 2024-04-09T04:46:02+02:00
 toc: true
 category:
@@ -20,7 +19,6 @@ tags:
   - kondition
   - tabel
   - kondital
-  - featured
 popular: true
 feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V

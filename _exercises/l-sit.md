@@ -1,6 +1,6 @@
 ---
 title: "L-Sit"
-seo_title: "Hanging leg raises | Få en stærk mave og et godt greb"
+seo_title: "L-Sit"
 instructions: ""
 permalink: /oevelse/l-sit/
 redirect_from: /node/508
