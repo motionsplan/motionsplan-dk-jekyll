@@ -29,7 +29,7 @@ feature_row:
 
 Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et træningsprogram til styrkeløft, der autoregulering ved at basere programmet på RPE og _fatigue percents_.
 
-Programmet er målrettet den øvede løfter. Vi har samlet en [række andre styrketræningsprogrammer til inspiration](/styrketraeningsprogrammer/), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
+Programmet er målrettet den øvede løfter. Vi har samlet en række andre [styrketræningsprogrammer til inspiration](/styrketraeningsprogrammer/), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
 
 Mike Tuchscherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
 {: .notice .notice--info }
@@ -68,7 +68,7 @@ Træningen er altså autoreguleret, så dagens vægt er afgjort af, hvad du kan 
 
 Ved hjælp af nedenstående figur kan du altså hurtigt begynde at lave dit program om til RPE i stedet for procenter. Hvis du gerne vil have et arbejdssæt med omkring 80% af 1RM med 5 gentagelser, så kan du altså ordinere x5 @ 7,5.
 
-{% include figure image_path="/assets/images/blog/rpe-e1rm.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
+{% include figure image_path="/assets/images/blog/rpe-e1rm.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse. [RPE i styrketræning](/rpe/) forstås lidt anderledes end i løb og andre aktiviteter. Bliv klogere på det i linket." %}
 
 Det kræver selvfølgelig en del øvelse og selvdisciplin at begynde at bruge RPE.
 

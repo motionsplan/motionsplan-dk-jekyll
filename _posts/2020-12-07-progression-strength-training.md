@@ -10,10 +10,10 @@ header:
 category:
   - Styrketræning
 tags:
-  - progressionsmodeller
   - træningsplanlægning
   - styrketræning
   - programlægning
+  - liste
 last_modified_at: 2022-03-22T23:14:14Z
 toc: true
 ---

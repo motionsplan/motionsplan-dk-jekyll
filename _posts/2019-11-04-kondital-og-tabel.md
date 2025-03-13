@@ -21,7 +21,6 @@ category:
 tags:
   - kondition
   - tabel
-  - kondital
   - featured
 popular: true
 feature_row:

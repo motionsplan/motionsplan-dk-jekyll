@@ -49,20 +49,12 @@ Der findes et hav af løbeprogrammer rundt omkring på nettet, men hvad skal du 
 Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste parametre, du skal kigge efter:
 
 - Hvilket niveau starter du ud på?
-- Hvor mange gang om ugen vil du gerne træne?
+- Hvor mange gange om ugen vil du gerne træne?
 - Hvor langt vil du gerne løbe?
 
 Målet for en løbeplan er ofte forskellige distancer. Her får du et overblik over, hvordan du kommer i gang med de enkelte distancer, og hvad du skal tænke på.
 
-{% comment %}
-
-KUNNE OGSÅ VÆRE EN TABEL?
-
-## Kom godt i gang
-
-{% endcomment %}
-
-## Begynder løbeprogram
+## Begynder løbeprogram - Kom godt i gang
 
 På listen herunder kan du finde et begynder løbeprogram.
 
@@ -153,5 +145,7 @@ Her kan du se alle løbeprogrammerne, som vi har skrevet om på denne side.
   {% for post in site_posts limit:16 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
+
+[Læs meget mere om løb](/loebesiden/){: .btn .btn--success .btn--center }
 </div>
 {% endif %}

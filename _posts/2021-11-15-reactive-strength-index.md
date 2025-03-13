@@ -153,6 +153,15 @@ Her bruger du i stedet den tid det tager at sætte af som en del af formlen. Det
 
 ## Hvad er et godt reactive strength index (RSI)?
 
+Formlen til at beregne RSI begyder noget for resultatet, men det gør udstyret også. Derfor vil du kunne finde forskellige vurderingskriterier alt efter, hvor du læser om det henne.
+
+Så vidt jeg ved er er ikke lavet nogen videnskabelige studier på baggrund af dette, men flere trænere har lavet deres egne vurderinger lavet med baggrund i forskelligt udstyr.
+
+
+
+<details markdown="1" class="faq">
+  <summary><h3>Eamonn Flanagan - Push</h3></summary>
+
 [Eamonn Flanagan](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel="nofollow noopener" } har samlet en normativ guide for reactive strength index ud fra hans egne observationer og den begrænsede data i den videnskabelige litteratur.
 
 Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som i et _counter movement jump_. Det er udregnet ud fra hoppehøjden og kontakttiden.
@@ -168,6 +177,29 @@ Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som
 Tjek den også ud i denne grafik:
 
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel='nofollow noopener' }" %}
+
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>Gymaware</h3></summary>
+
+[Loek Vossen](https://gymaware.com/reactive-strength-index-rsi-in-sports/) har beskrevet data lavet med Gymawares udstyr.
+
+Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som i et _counter movement jump_. RSI er ligesom ved Flanagan udregnet ud fra hoppehøjden og kontakttiden.
+
+| RSI (m/s)    | Vurdering    | Beskrivelse |
+|---------|-------------|-------------------------------------------------------------------|
+| \< 0,6  | Dårlig  | Atleter i denne kategori bør fokusere på grundlæggende styrkeudvikling før avanceret plyometrisk træning. |
+| 0,6-0,8  | Nogenlunde  | Atleter i denne kategori bør fokusere på grundlæggende styrkeudvikling før avanceret plyometrisk træning. |
+| 0,8-1,2 | Gennemsnitlig         | Atleten er klar til plyometriske øvelser med moderat intensitet. Fokus bør være på at forbedre reaktiv styrke, hvilket kan øge præstationsevnen. |
+| 1,2-1,8 | God   | Atleten er klar til mere intensive plyometriske øvelser. |
+| \< 1,8 | Fremragende | Atleten kan begynde at nå et plateau i deres RSI-score, og spørgsmålet bør stilles: Vil yderligere forbedringer i RSI føre til bedre præstation? |
+
+Tjek den også ud i denne grafik:
+
+{% include figure image_path="https://gymaware.com/wp-content/uploads/2023/05/Reactive-Strength-Index-RSI-chart.png" caption="Kilde: [Gymaware](https://gymaware.com/reactive-strength-index-rsi-in-sports/)" %}
+
+</details>
 
 På **Ezejump** hoppemåtten som vi bruger på Vejle Idrætshøjskole kan du vælge to forskellige måder at udregne RSI på. Husk at tjekke om det er svævetiden og eller hoppehøjden, der bliver brugt under indstillingerne, så du kan bruge ovenstående tabeller til sammenligning.
 {: .notice .notice--info }

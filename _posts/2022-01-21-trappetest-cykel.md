@@ -11,8 +11,8 @@ category:
   - Cykling
 tags:
   - kondition
-  - kondital
   - cykeltest
+  - test
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
 ---
@@ -41,7 +41,7 @@ Hvis du kører trappetesten med jævne mellemrum, fx hver måned, så kan du fø
 
 Hvis du har en hometrainer, så kan du køre en trappetest hjemme. Testen giver dig et hurtigt og præcist billede af din aerobe præstationsevne med høje intensiteter.
 
-## Hvordan udfører jeg trappetesten i cykling?
+## Sådan udfører du trappetesten i cykling
 
 Trappetesten kræver en pålidelig wattmåler, hvor du kan træde et specifikt antal watt. Fx kan mange hjemmetrænere sættes i ERG-mode, og der kan wattene låses fast.
 
@@ -51,7 +51,7 @@ Den belastning kører du med i 2,5 minutter. Herefter øges belastningen med 25 
 
 Husk at notere, hvor længe du kan køre på den højeste belastning i testen.
 
-## Hvordan finder jeg min VO₂max?
+## Sådan finder du VO₂max
 
 I denne Youtube-video kan du se, hvordan du kan estimere din VO₂max på baggrund af resultaterne i testen.
 

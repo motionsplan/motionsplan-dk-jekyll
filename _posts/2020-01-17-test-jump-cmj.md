@@ -102,6 +102,54 @@ Jump Height = 9.81 * (flight time)<sup>2</sup> / 8
 
 ***
 
+## Normer for CMJ med hænderne i siden
+
+Hvis du sammenligner dig selv med andre, så skal du være opmærkom på, om alle har overholdt den korrekte måde at lande på.
+
+Husk også at normerne kan være lavet med forskelligt udstyr.
+
+<details markdown="1" class="faq">
+  <summary><h3>Output Sports</h3></summary>
+
+Disse normer er lavet med Output Sports tilbehør. Denne tabel samler både mænd og kvinder og deler op i percentiler.
+
+{% include figure image_path="https://cdn.prod.website-files.com/63f47e4d6db6b898d2015dbd/64ca3c82125e9c569b72a6e1_CMJ%20Jump%20Height.png" caption="Kilde: [Output Sports](https://www.outputsports.com/blog/how-do-your-scores-compare-to-normatives-from-thousands-of-athletes-personal-bests-in-power-jumps)" %}
+
+I denne post på [Instagram](https://www.instagram.com/p/CMxse7zHwcN/) har de delt normer for kvinder med hænderne på hoften. Det er lidt tankevækkende, at deres normer er det samme som Plantigas med armsving.
+
+|               | Mænd (cm) | Kvinder (cm) |
+|--------------|----------|-------------|
+| **Vanvittigt** | \>70      | \>60         |
+| **Virkelig fremragende** | 61-70    | 51-60       |
+| **Fremragende** | 51-60    | 41-50       |
+| **Godt** | 41-50    | 31-40       |
+| **Gennemsnitligt** | 31-40    | 21-30       |
+
+</details>
+
+## Abalakov Test - CMJ med armtræk
+
+En variation af CMJ er at lave testen med armtræk. Det kaldes også Abalakov test.
+
+## Normer for Counter Movement Jump med armsving
+
+Brugen af et armsving øger hoppehøjden med omkring 10% ([Blache og Monteil (2013)](https://onlinelibrary.wiley.com/doi/abs/10.1111/sms.12042)). Hvis du sammenligner dig selv med andre, så skal du være opmærkom på, om alle har overholdt den korrekte måde at lande på.
+
+<details markdown="1" class="faq">
+  <summary><h3>Plantiga</h3></summary>
+
+|               | Mænd (cm) | Kvinder (cm) |
+|--------------|----------|-------------|
+| **Fremragende** | \>70      | \>60         |
+| **Meget god** | 61-70    | 51-60       |
+| **Over middel** | 51-60    | 41-50       |
+| **Middel** | 41-50    | 31-40       |
+| **Under middel** | 31-40    | 21-30       |
+| **Dårlig** | 21-30    | 11-20       |
+| **Meget dårlig** | \<21      | \<11         |
+
+</details>
+
 ## Kan jeg sammenligne min springhøjde med andres?
 
 > The flight time method is reliable and had low intra-participant
@@ -121,6 +169,17 @@ Sørg for at se hele denne glimrende video igennem, inden du går i gang med at 
 ## Opvarmning til testene
 
 [Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) foreslår også en standardiseret opvarmning før CMJ-hoppet.
+
+Opvarmningen er lidt avanaceret, og jeg anbefaler dig at kigge i den oprindelige reference for yderligere beskrivelser.
+
+1. Stå på ét ben og nik forsigtigt med hovedet i 30 sekunder.
+2. Single-leg airplane squat med hofteskub (20 gentagelser).
+3. Single-leg airplane squat med kropsrotation (20 gentagelser).
+4. Single-leg airplane squat med en sort theraband-modstand på knæet, der inkluderer kropsrotation med en håndvægt i hånden (10 gentagelser).
+5. Monster walk med en sort theraband-modstand placeret omkring forfoden, fremad og bagud (3 meter hver vej).
+6. Monster walk med en sort theraband placeret omkring forfoden, sideværts, dvs. til venstre og højre (3 meter hver vej) ([Pinfold et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29962240/)).
+
+Opvarmningen er særligt målrettet mod at aktivere ballemusklerne, hvilket har vist en god effekt på præstationen i netop CMJ-hop. Derfor giver det god mening.
 
 ## Konklusion
 
