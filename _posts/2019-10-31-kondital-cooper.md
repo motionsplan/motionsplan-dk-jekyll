@@ -1,7 +1,8 @@
 ---
 title: "Cooper-test: Beregn dit kondital med 12 minutters løbetest"
 seo_title: "Cooper-test: Guide og værktøj til at beregne dit kondital"
-description: "Beregn dit kondital i vores gratis Cooper-test værktøj. Sammenlign dine resultater med opdaterede skemaer og få tips til at forbedre dine resultater."
+description: "Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter."
+excerpt: "Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter."
 permalink: /cooper-test/
 show_date: true
 redirect_from:
@@ -81,13 +82,13 @@ Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968. Coop
 
 Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
-## Hvordan laver du en Cooper-test?
+## Sådan gennemfører du Cooper-testen korrekt
 
 - Lav en **grundig generel opvarmning**, hvor du også løber i det tempo, du forestiller dig at gennemføre Cooper-testen med.
 - Testen er mest pålidelig til at forudsige konditallet, hvis du løber på en **flad rute**.
 - Løb så langt du kan på 12 minutter og **notér distancen**.
 
-## Udregn dit kondital fra distancen
+## Beregn dit kondital fra distancen
 
 {% include calculator/calculate-fitness-cooper.html %}
 
@@ -105,7 +106,7 @@ Når en person der vejer det dobbelte, nemlig 100 kg, skal løbe samme distance,
 
 Da personen har dobbelt så høj kropsvægt, så ender konditallet for de to personer med at være det samme.
 
-## Formel til at udregne konditallet fra Cooper-testen
+## Formel og udregning af kondital fra Cooper-testen
 
 Der findes forskellige formler til at udregne konditallet fra Cooper-testen.
 
@@ -135,7 +136,7 @@ Når du ikke har adgang til en laboratorie-test, så er en Cooper-test altså en
 
 Testen er altså et rigtig fint alternativ til at estimere konditallet og finde ud af, hvor god din kondition er.
 
-## Hvor langt skal jeg løbe på Cooper-testen?
+## Hvor langt skal du løbe for at få et godt resultat?
 
 Mange stiller spørgsmålet: "Hvor langt kan man løbe på 12 minutter?" Hvis du løber mindre end 2000 meter, skal du nok træne lidt, og hvis du kan løbe længere end 3000 meter, så er du i ret god form.
 
@@ -167,7 +168,7 @@ Tidligere havde Letesenbet Gidey fra Etiopien verdensrekorden. Du kan se en anal
 
 Så langt når du nok ikke, men du kan sammenligne dig selv i tabellerne nedenunder.
 
-## Tabel over resultater fra Cooper-test
+## Tabel og skema: Hvad betyder dine resultater?
 
 Her har jeg givet et bud på vurderingskriterier for distancen gennemført på Cooper-testen for mænd og kvinder.
 
@@ -217,7 +218,7 @@ Tabellen for kvinder over Cooper-testen kan også ses hos [BrianMAC Sports Coach
 
 </details>
 
-## Nye skemaer over resultater fra Cooper-testen
+## Opdaterede resultater og skemaer til Cooper-testen
 
 Derfor har jeg lavet nogle nye tabeller, som i stedet er baseret på [tabellen over kondital](/kondital/). Jeg har taget formlen fra beregneren, og så har jeg ganske enkelt regnet baglæns til at få distancen, som du skal løbe i Cooper-testen for at få det kondital. Derved bliver kategorierne ens.
 
@@ -291,13 +292,13 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 - Der er ingen udgifter
 - Cooper-testen giver et rimeligt estimat på konditallet for de fleste
 
-## Ulemper ved Coopers løbetest
+## Ulemper og begræsninger ved Coopers løbetest
 
 - Pacing undervejs kan være en udfordring for mange
 - Det kræver fuld motivation for at gå _all out_ i alle 12 minutter
 - Testen løbes bedst på flad og lige vej, og allerhelst på løbebane
 
-## Hvad kan jeg bruge Cooper-testen til?
+## Hvad kan Cooper-testen afsløre om din kondition?
 
 ### 1. Beregne dit kondital
 
@@ -315,7 +316,7 @@ Du kan fx bruge vores [løbeberegner til at udregne dit træningstempo](/loebesi
 
 Gennemsnitspulsen på de 12 minutter ligger ikke så langt væk fra din [anaerobe tærskel](/anaerobe-taerskel/). Derfor kan du bruge det som udgangspunkt for at [beregne dine pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
 
-## Hvordan forbedrer jeg min tid på Cooper-testen?
+## Tips til at forbedre din løbedistance på Cooper-testen
 
 Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
 
@@ -324,17 +325,17 @@ Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/in
 Vil du vide mere? [Konditionstræning og kredsløbstræning](/konditionstraening/)
 {: .notice }
 
-## Ofte stillede spørgsmål om 12 minutters testen
-
-{% include motionsplan/faq.html %}
-
-## Konklusion
+## Konklusion - Hvordan kan Cooper testen hjælpe dig?
 
 Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Samtidig kan testen laves overalt og med store grupper ad gangen.
 
 Jeg synes ikke de oprindelige tabeller til vurdering af din præstation baseret på distancen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="referencer">Se referencer</h2></summary>
