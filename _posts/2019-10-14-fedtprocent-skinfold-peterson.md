@@ -86,7 +86,7 @@ Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne 
 {% endif %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Peterson, Matthew J., Stefan A. Czerwinski, og Roger M. Siervogel. 2003. “Development and Validation of Skinfold-Thickness Prediction Equations with a 4-Compartment Model”. The American Journal of Clinical Nutrition 77 (5): 1186–91. <https://doi.org/10.1093/ajcn/77.5.1186>.
 </details>

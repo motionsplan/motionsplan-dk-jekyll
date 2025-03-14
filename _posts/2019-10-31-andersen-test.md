@@ -186,7 +186,7 @@ Andersen-testen er en fin konditionstest, når du har en større gruppe børn, s
 Ellers kan du naturligvis også prøve [bip-testen](/bip-test/). Fordelen ved bip-testen er, at her skal deltagerne ikke lære at pace testen, fordi de bare skal følge tempoet i testen. Det er fordelen ved en ramp-test.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Andersen, Lars Bo; Andersen, Thor-Einar; Andersen, Eivind; Anderssen, Sigmund A. An intermittent running test to estimate maximal oxygen uptake: the Andersen test. Journal of Sports Medicine and Physical Fitness, Vol. 48, No. 7, 01.12.2008, p. 434-437.
 - Aadland E, Terum T, Mamen A, Andersen LB, Resaland GK. The Andersen aerobic fitness test: reliability and validity in 10-year-old children. PLoS One. 2014;9(10):e110492. Published 2014 Oct 17. doi:10.1371/journal.pone.0110492

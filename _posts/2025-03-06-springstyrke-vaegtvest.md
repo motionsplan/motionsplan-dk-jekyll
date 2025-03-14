@@ -118,7 +118,7 @@ Hvis du er interesseret i at lære mere om, hvordan du kan forbedre din springkr
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Khlifa, R., Aouadi, R., Hermassi, S., Chelly, M. S., Jlid, M. C., Hbacha, H., & Castagna, C. (2010). Effects of a plyometric training program with and without added load on jumping ability in basketball players. Journal of Strength and Conditioning Research, 24(11), 2955–2961. <https://doi.org/10.1519/JSC.0b013e3181e37fbe>
 - Luebbers, P. E., Potteiger, J. A., Hulver, M. W., Thyfault, J. P., Carper, M. J., & Lockwood, R. H. (2003). Effects of plyometric training and recovery on vertical jump performance and anaerobic power. Journal of Strength and Conditioning Research, 17(4), 704–709. <https://doi.org/10.1519/1533-4287(2003)017<0704:eoptar>2.0.co;2>

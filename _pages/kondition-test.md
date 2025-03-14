@@ -328,7 +328,7 @@ Uanset om du er nybegynder eller erfaren atlet, er regelmæssig testning en god 
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 - Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.

@@ -120,7 +120,7 @@ Ved at anvende Index 23 kan sundhedsprofessionelle og trænere give mere målret
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
 

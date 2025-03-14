@@ -126,7 +126,7 @@ Det gælder fortsat, at du skal træne med så høj intensitet, som du kan holde
 Hvis du kan afse fx en times fedtforbrændende træning, så kan det fx være en ide at bevæge dig hele tiden og måske slutte af med høj intensitet.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Børsheim, Elisabet, og Roald Bahr. 2003. “Effect of Exercise Intensity, Duration and Mode on Post-Exercise Oxygen Consumption”. _Sports Medicine (Auckland, N.Z.)_ 33 (14): 1037–60. [https://doi.org/10.2165/00007256-200333140-00002](https://doi.org/10.2165/00007256-200333140-00002).
 - Hazell, Tom, T Dylan Olver, Craig Hamilton, og Peter Lemon. 2012. “Two Minutes of Sprint-Interval Exercise Elicits 24-hr Oxygen Consumption Similar to That of 30 min of Continuous Endurance Exercise”. _International journal of sport nutrition and exercise metabolism_ 22 (juni): 276–83. [https://doi.org/10.1123/ijsnem.22.4.276](https://doi.org/10.1123/ijsnem.22.4.276).

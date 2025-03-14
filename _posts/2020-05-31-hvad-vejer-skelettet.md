@@ -124,7 +124,7 @@ Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) o
 {% include feature_row type="left" %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Lindstedt, S. L. and Calder, W. A. III (marts 1981).["Body Size, Physiological Time, and Longevity of Homeothermic Animals"](https://www.jstor.org/stable/2826367)._The Quarterly Review of Biology_.**56**(1): 1-16.
 </details>

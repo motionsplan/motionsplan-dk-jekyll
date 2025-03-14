@@ -83,7 +83,7 @@ Vælg den test, der bedst afspejler dit konditionsniveau og de mål, du har for 
 Her kan du finde inspiration i vores [oversigt med tests af konditallet](/kondition/tests/), eller måske vil du sammenligne dit [kondital med en tabel for mænd og kvinder](/kondital/)?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Bennett, H., Parfitt, G., Davison, K., & Eston, R. (2016). Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Medicine (Auckland, N.Z.), 46(5), 737–750. <https://doi.org/10.1007/s40279-015-0445-1>
 </details>

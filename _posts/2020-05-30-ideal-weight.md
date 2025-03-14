@@ -165,7 +165,7 @@ Du skal også huske at normalvægtige personer ikke nødvendigvis har en sund kr
 {% include motionsplan/lead-magnet.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Adams, Kenneth F., Arthur Schatzkin, Tamara B. Harris, Victor Kipnis, Traci Mouw, Rachel Ballard-Barbash, Albert Hollenbeck, og Michael F. Leitzmann. 2006. “Overweight, Obesity, and Mortality in a Large Prospective Cohort of Persons 50 to 71 Years Old”. The New England Journal of Medicine 355 (8): 763–78. <https://doi.org/10.1056/NEJMoa055643>.
 - Berrington de Gonzalez, Amy, Patricia Hartge, James R. Cerhan, Alan J. Flint, Lindsay Hannan, Robert J. MacInnis, Steven C. Moore, m.fl. 2010. “Body-Mass Index and Mortality among 1.46 Million White Adults”. The New England Journal of Medicine 363 (23): 2211–19. <https://doi.org/10.1056/NEJMoa1000367>.

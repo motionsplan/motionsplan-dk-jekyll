@@ -116,7 +116,7 @@ Der findes en række [andre steptests](/kondital-fra-steptest/), som du også ka
 Vi har også lavet en [oversigt over andre tests af konditallet](/kondition/tests/), eller måske vil du sammenligne dit [kondital med en tabel for mænd og kvinder](/kondital/)?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). <https://doi.org/10.1177/2047487312462825>.
 - Lerche, L., A. Olsen, K. E. N. Petersen, A. L. Rostgaard‐Hansen, L. O. Dragsted, N. B. Nordsborg, A. Tjønneland, og J. Halkjær. 2017. “Validity of Physical Activity and Cardiorespiratory Fitness in the Danish Cohort ‘Diet, Cancer and Health-Next Generations’”. Scandinavian Journal of Medicine & Science in Sports 27 (12): 1864–72. <https://doi.org/10.1111/sms.12873>.

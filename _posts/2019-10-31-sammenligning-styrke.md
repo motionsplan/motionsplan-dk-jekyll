@@ -187,7 +187,7 @@ Her har vi præsenteret Wilks Score IPFs måde at sammenligne løft på. Disse s
 [Greg Nuckols](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/) har gjort sig mange tanker om at sammenligne løftere på tværs af aldersgrupper. Hvis du gerne vil have et bud på, hvordan du klarer dig i forhold til verdenseliten, så er det et meget interessant bud. Særligt hans vurdering af, hvordan man procentvist er placeret.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Evolution of Bodymass Adjustments](https://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm)
 - [About relative strength](http://tsampa.org/training/scripts/relative_strength/#about)

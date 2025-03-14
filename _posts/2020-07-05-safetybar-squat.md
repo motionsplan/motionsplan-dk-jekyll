@@ -136,7 +136,7 @@ Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 > --- <cite>[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Effects of the Safety Squat Bar on Trunk and Lower-Body Mechanics During a Back Squat](https://www.ncbi.nlm.nih.gov/pubmed/30363042). Hecker et al. (2018)
 - Meldrum R, DeBeliso M. [A Comparison of Back Squat & Safety Squat Bar on Measures of Strength, Speed, and Power in NCAA Division I Baseball Players](http://article.sapub.org/10.5923.j.sports.20180805.01.html).International Journal of Sport Science. 2018; 8(5): 137-144.

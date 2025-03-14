@@ -132,7 +132,7 @@ Jeg har lavet en [simpel beregner til hvilestofskiftet og basalstofskiftet]({% l
 Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](https://health-calc.com/diet/energy-expenditure-advanced).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41. <https://pubmed.ncbi.nlm.nih.gov/4044297/>
 - Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.

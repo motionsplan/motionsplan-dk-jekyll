@@ -271,7 +271,7 @@ På Spotify er der mange populære playlister, når du søger efter en playliste
 Skriv i kommentarerne, hvor du finder de bedste træningsplaylister, og hvad din bedste playliste er til hhv. løb, styrketræning, yoga, intervaltræning og konditionstræning.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Arazi, Hamid, Abbas Asadi, og Morteza Purabed. 2015. “Physiological and Psychophysical Responses to Listening to Music during Warm-Up and Circuit-Type Resistance Exercise in Strength Trained Men”. _Journal of Sports Medicine (Hindawi Publishing Corporation)_ 2015: 389831. [https://doi.org/10.1155/2015/389831](https://doi.org/10.1155/2015/389831).
 - Ballmann, Christopher G., Marquis J. McCullum, Rebecca R. Rogers, Mallory M. Marshall, og Tyler D. Williams. 2018. “Effects of Preferred vs. Nonpreferred Music on Resistance Exercise Performance”. _Journal of Strength and Conditioning Research_, december. [https://doi.org/10.1519/JSC.0000000000002981](https://doi.org/10.1519/JSC.0000000000002981).

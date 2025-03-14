@@ -214,7 +214,7 @@ Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i læ
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
 

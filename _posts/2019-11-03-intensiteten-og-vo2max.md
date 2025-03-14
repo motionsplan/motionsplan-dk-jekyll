@@ -148,7 +148,7 @@ Du kan læse mere om, hvordan du med [HIIT-træning](/hiit/) kan forbedre din ma
 *[LT]: Lactate Threshold
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. <https://doi.org/10.1249/mss.0b013e3180304570>.
 - Scribbans, Trisha D., Stephan Vecsey, Paul B. Hankinson, William S. Foster, og Brendon J. Gurd. 2016. “The Effect of Training Intensity on VO2max in Young Healthy Adults: A Meta-Regression and Meta-Analysis”. International Journal of Exercise Science 9 (2): 230–47. <https://pubmed.ncbi.nlm.nih.gov/27182424/>

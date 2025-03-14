@@ -178,7 +178,7 @@ Hvilke metoder bruger du i forbindelse med maksimal styrke - og hvilke erfaringe
 Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hypertrofi]({% link _posts/2019-10-22-metoder-til-hypertrofi.md %}).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Wave ladders for maximal strength](https://www.t-nation.com/training/wave-ladders-for-maximum-strength)
 - [The Truth about Rest Pause Training](https://www.t-nation.com/training/the-truth-about-rest-pause-training)

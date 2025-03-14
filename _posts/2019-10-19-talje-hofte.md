@@ -107,7 +107,7 @@ Talje-hofte-ratioen er let at bruge, og det kan sige noget meningsfyldt om kropp
 Der findes et andet mål, som inddrager hofteomkredsen og højden, som du kan bruge til at udregne en fedtprocent med. Det hedder [Body Adiposity Index](/bai-body-adiposity-index/).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [The Relationship Between Waist-Hip Ratio and Fertility](https://www.psychologytoday.com/us/blog/beastly-behavior/201706/the-relationship-between-waist-hip-ratio-and-fertility)
 - Butovskaya, M., A. Sorokowska, M. Karwowski, A. Sabiniewicz, J. Fedenok, D. Dronova, M. Negasheva, E. Selivanova, og P. Sorokowski. 2017. “Waist-to-Hip Ratio, Body-Mass Index, Age and Number of Children in Seven Traditional Societies”. Scientific Reports 7 (1): 1–9. <https://doi.org/10.1038/s41598-017-01916-9>.

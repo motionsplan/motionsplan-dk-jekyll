@@ -475,7 +475,7 @@ Samtidig bliver man **smidigere af udstrækning**, og der er chance for, at tilb
 {% include feature_row type="left" %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Shrier, I. (2004). Does Stretching Improve Performance?. Clinical Journal of Sport Medicine, 14(5), pp.267-273.
 - Yuktasir, B. and Kaya, F. (2009). Investigation into the long-term effects of static and PNF stretching exercises on range of motion and jump performance. Journal of Bodywork and Movement Therapies, 13(1), pp.11-21.

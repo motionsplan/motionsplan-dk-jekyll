@@ -387,7 +387,7 @@ https://pubmed.ncbi.nlm.nih.gov/29755363/
 {% endcomment %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Fell, James, og Dafydd Williams. 2008. “The Effect of Aging on Skeletal-Muscle Recovery from Exercise: Possible Implications for Aging Athletes”. Journal of aging and physical activity 16 (februar): 97–115. <https://doi.org/10.1123/japa.16.1.97>.
 

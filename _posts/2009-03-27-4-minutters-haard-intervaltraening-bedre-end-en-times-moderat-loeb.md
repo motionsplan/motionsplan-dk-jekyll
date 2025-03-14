@@ -140,7 +140,7 @@ Her er nogle af vores favoritter - første gang du prøver, så brug ikke for h�
 {% include motionsplan/exercises exercises="Swing, to hænder" match="exact" type="left" %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Tabata, I., K. Nishimura, M. Kouzaki, Y. Hirai, F. Ogita, M. Miyachi, og K. Yamamoto. 1996. “Effects of Moderate-Intensity Endurance and High-Intensity Intermittent Training on Anaerobic Capacity and VO2max”. Medicine and Science in Sports and Exercise 28 (10): 1327–30. <https://doi.org/10.1097/00005768-199610000-00018>.
 - Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. <https://doi.org/10.1249/mss.0b013e3180304570>.

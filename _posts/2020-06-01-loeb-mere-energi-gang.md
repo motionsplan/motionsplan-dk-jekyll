@@ -294,7 +294,7 @@ Jeg har lavet en tabel med [MET-værdier](/met/), og hvis du er interesseret i a
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
 - Wilkin, Linda D., Antoinette Cheryl, og Bryan L. Haddock. 2012. “Energy Expenditure Comparison between Walking and Running in Average Fitness Individuals”. Journal of Strength and Conditioning Research 26 (4): 1039–44. <https://doi.org/10.1519/JSC.0b013e31822e592c>.

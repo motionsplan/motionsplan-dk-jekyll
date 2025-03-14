@@ -174,7 +174,7 @@ Samtidig mangler der svar på, hvad den _optimale minimale dosis_, hvis man gern
 Kan du supplere med nogle forskningsresultater, der kan få os tættere på et godt bud på, hvordan træningen skal organiseres og udføres for at få mest muligt ud af den, så brug endelig kommentarerne?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Goto, Kazushige, Masao Higashiyama, Naokata Ishii, og Kaoru Takamatsu. 2005. “Prior Endurance Exercise Attenuates Growth Hormone Response to Subsequent Resistance Exercise”. European Journal of Applied Physiology 94 (3): 333–38. <https://doi.org/10.1007/s00421-004-1296-x>.
 - Goto, Kazushige, Naokata Ishii, Shuhei Sugihara, Toshitsugu Yoshioka, og Kaoru Takamatsu. 2007. “Effects of Resistance Exercise on Lipolysis during Subsequent Submaximal Exercise”. Medicine and Science in Sports and Exercise 39 (2): 308–15. <https://doi.org/10.1249/01.mss.0000246992.33482.cb>.

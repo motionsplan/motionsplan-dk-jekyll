@@ -124,7 +124,7 @@ Det allervigtigste med opvarmning er, at du laver en opvarmning, du rent faktisk
 Hvordan varmer du op til styrketræning?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
 - [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)

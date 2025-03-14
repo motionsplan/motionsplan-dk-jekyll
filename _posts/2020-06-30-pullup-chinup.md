@@ -214,7 +214,7 @@ Pullups og chinups ligner hinanden og bruger mange af de samme muskler. Man kan 
 {% include feature_row type="left" %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Dickie, James A., James A. Faulkner, Matthew J. Barnes, og Sally D. Lark. 2017. “Electromyographic Analysis of Muscle Activation during Pull-up Variations”. Journal of Electromyography and Kinesiology: Official Journal of the International Society of Electrophysiological Kinesiology 32 (februar): 30–36. <https://doi.org/10.1016/j.jelekin.2016.11.004>.
 - Dinunzio, Christopher, Nathaniel Porter, John Van Scoy, Derrick Cordice, og Ryan S. McCulloch. 2019. “Alterations in Kinematics and Muscle Activation Patterns with the Addition of a Kipping Action during a Pull-up Activity”. Sports Biomechanics 18 (6): 622–35. <https://doi.org/10.1080/14763141.2018.1452971>.

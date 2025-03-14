@@ -76,7 +76,7 @@ VO₂max = 13.16 * MPO + 5 * weight
 Hvis du har en større gruppe børn, du gerne vil teste på en gang, så bør du kigge på [Andersen testen](/andersen-test/), som er en let måde at teste flere børn ad gangen med mindre udstyr.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Wedderkopp, N., K. Froberg, H. S. Hansen, og L. B. Andersen. 2004. “Secular Trends in Physical Fitness and Obesity in Danish 9-Year-Old Girls and Boys: Odense School Child Study and Danish Substudy of the European Youth Heart Study”. Scandinavian Journal of Medicine & Science in Sports 14 (3): 150–55. <https://doi.org/10.1111/j.1600-0838.2004.00365.x>.
 </details>

@@ -57,7 +57,7 @@ Danske [mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) er 181
 Jeg har ikke kunnet finde nogle normer for Ponderal Index. Ponderal Index har de samme ulemper som BMI med, at det primært er lavet som et statistisk redskab til at sammenligne befolkningsgrupper.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Günther, B. 1975. “Dimensional Analysis and Theory of Biological Similarity”. Physiological Reviews 55 (4): 659–99. <https://doi.org/10.1152/physrev.1975.55.4.659>.
 - Der Index der Körperfülle als Maß des Ernährungszustandes. F. Rohrer. Münchner Med. Wschr. 68(1921), 580-582

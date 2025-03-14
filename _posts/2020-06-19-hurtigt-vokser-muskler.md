@@ -140,7 +140,7 @@ Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskar
 Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Abe, Takashi, Samuel L. Buckner, Scott J. Dankel, Matthew B. Jessee, Kevin T. Mattocks, J. Grant Mouser, og Jeremy P. Loenneke. 2018. “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?” American Journal of Human Biology: The Official Journal of the Human Biology Council 30 (3): e23102. <https://doi.org/10.1002/ajhb.23102>.
 - Bhasin, Shalender, Thomas W. Storer, Nancy Berman, Carlos Callegari, Brenda Clevenger, Jeffrey Phillips, Thomas J. Bunnell, Ray Tricker, Aida Shirazi, og Richard Casaburi. 1996. “The Effects of Supraphysiologic Doses of Testosterone on Muscle Size and Strength in Normal Men”. New England Journal of Medicine 335 (1): 1–7. <https://doi.org/10.1056/NEJM199607043350101>.

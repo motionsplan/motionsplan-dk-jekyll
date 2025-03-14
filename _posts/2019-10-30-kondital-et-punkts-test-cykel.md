@@ -143,7 +143,7 @@ Du kan læse mere om testen fra [Monark](https://sport-medical.monarkexercise.se
 Et alternativ til etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har Ekblom-Bak-testen udbredelse i Danmark?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Åstrand, I. (1960) "Aerobic work capacity in men and women with special reference to age". Acta Physiologica Scandinavica, vol. 49, suppl 169.
 - Astrand PO, Rodahl K. Text Book of Work Physiology: Physiological basis of exercise. New York: McGraw Hill, 1986.

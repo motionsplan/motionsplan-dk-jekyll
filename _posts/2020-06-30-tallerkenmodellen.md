@@ -246,7 +246,7 @@ Der findes altså forskellige tallerkenmodeller, som man være med til at unders
 Denne artikel har gennemgået t-tallerken, y-tallerken, e-tallerken og x-tallerken. Bruger du selv en tallerkenmodel som rettesnor for din **egen sunde kost**?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Libotte, E., M. Siegrist, og T. Bucher. 2014. “The Influence of Plate Size on Meal Composition. Literature Review and Experiment”. Appetite 82 (november): 91–96. <https://doi.org/10.1016/j.appet.2014.07.010>.
 - Peng, M. 2017. “How does plate size affect estimated satiation and intake for individuals in normal‐weight and overweight groups?” Obesity Science & Practice 3 (3): 282–88. <https://doi.org/10.1002/osp4.119>.

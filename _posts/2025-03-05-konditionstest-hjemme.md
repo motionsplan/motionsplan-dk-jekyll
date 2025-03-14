@@ -206,7 +206,7 @@ Ved at teste din kondition regelmæssigt kan du følge din fremgang, justere din
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Astrand, P-O. & Ryhming, I. (1954). A Nomogram for Calculation of Aerobic Capacity (Physical Fitness) from Pulse Rate During Submaximal Work. Journal of Applied Physiology, 7(2), 218-221.
 - Cooper, K. H. (1968). A Means of Assessing Maximal Oxygen Intake: Correlation Between Field and Treadmill Testing. Journal of the American Medical Association, 203(3), 201-204.

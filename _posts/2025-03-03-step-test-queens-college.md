@@ -60,7 +60,7 @@ Når du har målt din puls, kan du bruge vores beregner nedenfor til at estimere
 Queens College Step Test er blot en af de mange steptests, der kan hjælpe dig med at vurdere din kondition. Hvis du er interesseret i at udforske flere steptests, kan du se vores [oversigt over steptests](/kondital-fra-steptest/).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Formula from ACSM’s Resources for the Personal Trainer, 3rd Edition 2010.
 

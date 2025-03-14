@@ -30,7 +30,8 @@ faq:
     answer: Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan læse mere om [BMI for børn, unge og teenagere](/bmi-beregner-boern-unge-teenagere/).
   - question: Hvad er din idealkropsvægt ifølge BMI-udregningen?
     answer: Du kan udregne din [ideelle kropsvægt på baggrund af BMI](/idealvaegt/).
-keywords: []
+keywords:
+  - bmi beregner
 ---
 
 I denne BMI-beregner kan du udregne dit BMI, og du kan sammenligne dit BMI for voksne mænd og kvinder med en BMI-tabel. Vi går også i dybden med BMI-formlen, og hvordan BMI-skemaer kan fortolkes for voksne mænd og kvinder.

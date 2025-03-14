@@ -137,7 +137,7 @@ Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er l
 {% include motionsplan/orbit.html cards=page.quiz %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Wingate Anaerobic Test](https://www.scienceforsport.com/wingate-anaerobic-test/)
 - Driller, Matthew, Christos Argus, og Cecilia Kitic. “The Reliability of a 30 Second Sprint Test on the Wattbike Cycle Ergometer.” International journal of sports physiology and performance, 19. november 2012.

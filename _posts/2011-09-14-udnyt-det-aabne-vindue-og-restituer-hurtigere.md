@@ -179,7 +179,7 @@ Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. De
 Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index. Du kan ganske givet sænke [restitutionstiden](/restitutionstid/) ved at fylde depoterne op hurtigst muligt.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Aragon, Alan Albert, og Brad Jon Schoenfeld. 2013. “Nutrient timing revisited: is there a post-exercise anabolic window?” _Journal of the International Society of Sports Nutrition_ 10 (1): 5. [https://doi.org/10.1186/1550-2783-10-5](https://doi.org/10.1186/1550-2783-10-5).
 - Churchward-Venne, Tyler A, Nicholas A Burd, og Stuart M Phillips. 2012. “Nutritional regulation of muscle protein synthesis with resistance exercise: strategies to enhance anabolism”. _Nutrition & Metabolism_ 9 (maj): 40. [https://doi.org/10.1186/1743-7075-9-40](https://doi.org/10.1186/1743-7075-9-40).

@@ -251,7 +251,7 @@ Hvis din hvilepuls ændrer sig markant uden en oplagt årsag, eller hvis den er 
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Reimers, A. K., Knapp, G., & Reimers, C.-D. (2018). Effects of Exercise on the Resting Heart Rate: A Systematic Review and Meta-Analysis of Interventional Studies. Journal of Clinical Medicine, 7(12), 503. <https://doi.org/10.3390/jcm7120503>
 - Avram, R., Tison, G. H., Aschbacher, K., Kuhar, P., Vittinghoff, E., Butzner, M., Runge, R., Wu, N., Pletcher, M. J., Marcus, G. M., & Olgin, J. (2019). Real-world heart rate norms in the Health eHeart study. NPJ Digital Medicine, 2, 58. <https://doi.org/10.1038/s41746-019-0134-9>

@@ -123,7 +123,7 @@ Det vigtigste for barnets sundhed er at give det sunde kostvaner og motionsvaner
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. <https://www.bmj.com/content/335/7612/194>.
 - Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129

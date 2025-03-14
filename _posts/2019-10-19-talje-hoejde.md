@@ -87,7 +87,7 @@ Husk at en simpel test aldrig giver det fulde billede. Du skal ikke lade et resu
 {: .notice .notice--info }
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Lee, Crystal Man Ying, Rachel R. Huxley, Rachel P. Wildman, og Mark Woodward. 2008. “Indices of Abdominal Obesity Are Better Discriminators of Cardiovascular Risk Factors than BMI: A Meta-Analysis”. Journal of Clinical Epidemiology 61 (7): 646–53. <https://doi.org/10.1016/j.jclinepi.2007.08.012>.
 - Browning, Lucy M., Shiun Dong Hsieh, og Margaret Ashwell. 2010. “A Systematic Review of Waist-to-Height Ratio as a Screening Tool for the Prediction of Cardiovascular Disease and Diabetes: 0·5 Could Be a Suitable Global Boundary Value”. Nutrition Research Reviews 23 (2): 247–69. <https://doi.org/10.1017/S0954422410000144>.

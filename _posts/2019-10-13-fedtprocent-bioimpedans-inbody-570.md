@@ -149,7 +149,7 @@ Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en til
 Måske rammer du allerede din [idealvægt](/idealvaegt/), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Verney, Julien, Lore Metz, Elodie Chaplais, Charlotte Cardenoux, Bruno Pereira, og David Thivel. 2016. “Bioelectrical Impedance Is an Accurate Method to Assess Body Composition in Obese but Not Severely Obese Adolescents”. Nutrition Research (New York, N.Y.) 36 (7): 663–70. <https://doi.org/10.1016/j.nutres.2016.04.003>.
 - Park, Kyeong Seon, Dong-Hwa Lee, JieEun Lee, Yoon Ji Kim, Kyong Yeun Jung, Kyoung Min Kim, Soo Heon Kwak, m.fl. 2016. “Comparison between Two Methods of Bioelectrical Impedance Analyses for Accuracy in Measuring Abdominal Visceral Fat Area”. Journal of Diabetes and Its Complications 30 (2): 343–49. <https://doi.org/10.1016/j.jdiacomp.2015.10.014>.

@@ -90,7 +90,7 @@ At testen er submaksimal er også en ulempe. Samtidig er testen indirekte, og de
 Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores [guide til puls](/puls/) og lære endnu mere om, [hvordan du kan bruge pulstræning](/pulstraening/).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Ferrar, Katia, Harrison Evans, Ashleigh Smith, Gaynor Parfitt, og Roger Eston. 2014. “A Systematic Review and Meta-Analysis of Submaximal Exercise-Based Equations to Predict Maximal Oxygen Uptake in Young People”. Pediatric exercise science 26 (april). <https://doi.org/10.1123/pes.2013-0153>.
 - George, James, P. Vehrs, Phillip Allsen, Gilbert Fellingham, og A. Fisher. 1993. “VO2 max estimation from a submaximal 1-mile track jog for fit college age individuals”. Medicine and science in sports and exercise 25 (april): 401–6. <https://doi.org/10.1249/00005768-199303000-00017>.

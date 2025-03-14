@@ -71,7 +71,7 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
 {% include feature_row type="left" %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
 - Katch, F. I., og W. D. McArdle. 1973. “Prediction of Body Density from Simple Anthropometric Measurements in College-Age Men and Women”. Human Biology 45 (3): 445–55.

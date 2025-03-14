@@ -289,7 +289,7 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 Jeg har lavet en liste over steder, hvor du kan købe kosttilskud. Du kan se listen over [onlinebutikker her](/koeb-kosttilskud-online/).
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Hvilke kosttilskud tager forskerne selv? - Videnskab.dk](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv)
 - [Kosttilskudshierarkiet: De bedste kosttilskud til styrketræning.](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html)

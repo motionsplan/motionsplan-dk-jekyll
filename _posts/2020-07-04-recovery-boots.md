@@ -116,7 +116,7 @@ Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes
 {% include feature_row type="left"  %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Keck, Nathan A., John S. Cuddy, Walter S. Hailes, Charles L. Dumke, og Brent C. Ruby. 2015. “Effects of Commercially Available Pneumatic Compression on Muscle Glycogen Recovery after Exercise”. Journal of Strength and Conditioning Research 29 (2): 379–85. <https://doi.org/10.1519/JSC.0000000000000772>.
 - Kevin Stetter, Emily Hanson. 2013. “An Intermittent Pneumatic Compression Device Reduces Blood Lactate Concentrations More Effectively Than Passive Recovery after Wingate Testing”. Journal of Athletic Enhancement 02 (03). <https://doi.org/10.4172/2324-9080.1000115>.

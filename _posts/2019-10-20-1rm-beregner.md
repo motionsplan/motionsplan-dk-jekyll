@@ -1,20 +1,19 @@
 ---
-title: &title "RM-beregner: Udregn 1RM max (one rep max)"
-#seo_title: "RM-beregner: Udregn 1RM max i bænkpres, squat og dødløft"
+title: "RM-beregner: Udregn 1RM max (one rep max)"
 seo_title: "RM-beregner: Udregn 1RM i bænkpres, squat og dødløft"
 permalink: /rm-beregner/
 classes: wide
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/
-description: "Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og udregn dit 1RM max - eller one repetition maximum - i fx bænkpres, squat og dødløft."
-excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres."
+description: Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og udregn dit 1RM max - eller one repetition maximum - i fx bænkpres, squat og dødløft.
+excerpt: Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres.
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  caption: "RM-beregner: Udregn 1RM max (one rep max)"
   alt: Photo by Victor Freitas on Unsplash
   actions:
-    - label: "<i class='fas fa-file-excel'></i> Sheet med 1RM-beregner"
+    - label: <i class='fas fa-file-excel'></i> Sheet med 1RM-beregner
       url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy?usp=sharing
       rel: nofollow noopener
   overlay_filter: 0.3
@@ -36,20 +35,22 @@ last_modified_at: 2025-02-24T07:14:14Z
 toc: true
 feature_row_sheet:
   - image_path: /assets/images/freebies/rmberegner.png
-    alt: "Google Sheets med RM-beregner"
-    title: "RM-beregner i Google Sheets"
-    excerpt: "I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis."
-    url: "https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424"
-    btn_label: "<i class='fas fa-file-excel'></i> Download"
-    btn_class: "btn--success"
+    alt: Google Sheets med RM-beregner
+    title: RM-beregner i Google Sheets
+    excerpt: I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis.
+    url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424
+    btn_label: <i class='fas fa-file-excel'></i> Download
+    btn_class: btn--success
     rel: nofollow noopener
 faq:
   - question: Hvad er en 1RM-beregner?
-    answer: "En 1RM-beregner kan estimere din _One Repetition Maximum (1RM)_. Ved at indtaste den vægt, du har løftet, og antallet af gentagelser, kan beregneren give et bud på, hvad du maksimalt kan løfte én gang. Dette kan være nyttigt i styrketræning, især hvis du følger et procentbaseret træningsprogram."
+    answer: En 1RM-beregner kan estimere din _One Repetition Maximum (1RM)_. Ved at indtaste den vægt, du har løftet, og antallet af gentagelser, kan beregneren give et bud på, hvad du maksimalt kan løfte én gang. Dette kan være nyttigt i styrketræning, især hvis du følger et procentbaseret træningsprogram.
   - question: Hvordan bruger jeg 1RM-beregneren?
-    answer: "Indtast den vægt, du har løftet, samt antallet af gentagelser. Beregneren bruger forskellige formler til at estimere din 1RM. Husk, at formler kan give lidt forskellige resultater, så det kan være en fordel at bruge gennemsnittet af flere beregninger."
+    answer: Indtast den vægt, du har løftet, samt antallet af gentagelser. Beregneren bruger forskellige formler til at estimere din 1RM. Husk, at formler kan give lidt forskellige resultater, så det kan være en fordel at bruge gennemsnittet af flere beregninger.
   - question: Hvad betyder 1RM, RM og One Repetition Maximum?
     answer: "**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. RM (Repetition Maximum) angiver den maksimale vægt, du kan løfte et bestemt antal gange, fx 5RM for den vægt, du maksimalt kan løfte fem gange."
+keywords:
+  - rm-beregner
 ---
 
 Med denne RM-beregner kan du hurtigt estimere din 1-10RM ud fra et løft, du har lavet – uden at skulle teste din maksimale styrke. Indtast vægt og gentagelser, så klarer vi resten.

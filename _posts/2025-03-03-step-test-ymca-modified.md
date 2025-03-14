@@ -71,7 +71,7 @@ Den modificerede YMCA 3-minutters steptest er en enkel og effektiv måde at esti
 Er du interesseret i at prøve andre steptests? Tjek vores [oversigt over steptests](/kondital-fra-steptest/) for flere muligheder og detaljerede beskrivelser af andre variationer af testen, der kan hjælpe dig med at følge din træning og forbedre dit kondital.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Bennett, H., Parfitt, G., Davison, K., & Eston, R. (2016). Validity of Submaximal Step Tests to Estimate Maximal Oxygen Uptake in Healthy Adults. Sports Medicine (Auckland, N.Z.), 46(5), 737–750. <https://doi.org/10.1007/s40279-015-0445-1>
 - Castro-Piñero, J., Marin-Jimenez, N., Fernandez-Santos, J. R., Martin-Acosta, F., Segura-Jimenez, V., Izquierdo-Gomez, R., Ruiz, J. R., & Cuenca-Garcia, M. (2021). Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. Journal of Clinical Medicine, 10(16), 3743. <https://doi.org/10.3390/jcm10163743>

@@ -146,7 +146,7 @@ Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I mi
 {: .notice .notice--info }
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide/)
 </details>

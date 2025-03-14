@@ -240,7 +240,7 @@ Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vi
 {% include feature_row type="left" %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Se referencerne</h2></summary>
+  <summary><h2 id="references">Se referencerne</h2></summary>
 
 * Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
 * Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.

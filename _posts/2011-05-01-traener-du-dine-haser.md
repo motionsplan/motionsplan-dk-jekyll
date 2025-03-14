@@ -134,7 +134,7 @@ Inden du springer ud i træningen af dine baglår, skal du naturligvis huske på
 Dette træningsprogram til baglåret er udelukkende et forslag til, hvordan du virkelig kan fokusere intensivt på træningen af dine baglår på en måde, som musklerne i baglåret er designet til at bruge.
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Ernlund, Lucio, og Lucas de Almeida Vieira. 2017. “Hamstring injuries: update article”. Revista Brasileira de Ortopedia 52 (4): 373–82. <https://doi.org/10.1016/j.rboe.2017.05.005>.
 - Horst, Nick van der, Dirk-Wouter Smits, Jesper Petersen, Edwin A. Goedhart, og Frank J. G. Backx. 2015. “The Preventive Effect of the Nordic Hamstring Exercise on Hamstring Injuries in Amateur Soccer Players: A Randomized Controlled Trial”. The American Journal of Sports Medicine 43 (6): 1316–23. <https://doi.org/10.1177/0363546515574057>.

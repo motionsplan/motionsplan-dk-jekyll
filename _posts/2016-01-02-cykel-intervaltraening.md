@@ -2,6 +2,7 @@
 title: &title "Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
 seo_title: "Cykeltræning: Effektiv intervaltræning til cykling"
 excerpt: "Men hvordan kan du bruge intervaltræning til cykling? Vi kigger på den nyeste videnskab om emnet og du får en række cykelintervaller, som du kan bruge i praksis allerede i dag."
+description: "Vil du træne smartere på cyklen? Prøv intervaltræning! Se programmer og teknikker til bedre udholdenhed og højere watt."
 permalink: /intervaltraening-cykling/
 language: da
 header:
@@ -163,7 +164,7 @@ Husk altid at varme grundigt op først. Desuden kan det være en god ide at plac
 Hvordan sammensætter du din cykeltræning? Kører du også intervaller på cyklen?
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 - Laursen PB1, Shing CM, Peake JM, Coombes JS, Jenkins DG (2005) Influenza of high-intensity interval training on adaptations in well-trained cyclists. J Strength Cond Res.
 - Batterham A. M., Taylor K. L., (2014) Effects of low-volume high-intensity interval training (HIT) on fitness in adults: a meta-analysis of controlled and non controlled trails. Sports Med.

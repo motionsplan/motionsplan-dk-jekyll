@@ -133,7 +133,7 @@ Modified YMCA 3-Min Step Test
 {% endcomment %}
 
 <details markdown="1" class="references">
-  <summary><h2 class="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer</h2></summary>
 
 1. YMCA Fitness Testing and Assessment Manual, YMCA of the USA, Edition 4, 2000
 2. Castro-Piñero J, Marin-Jimenez N, Fernandez-Santos JR, Martin-Acosta F, Segura-Jimenez V, Izquierdo-Gomez R, Ruiz JR, Cuenca-Garcia M. Criterion-Related Validity of Field-Based Fitness Tests in Adults: A Systematic Review. J Clin Med. 2021 Aug 23;10(16):3743. doi: 10.3390/jcm10163743. PMID: 34442050; PMCID: PMC8397016.
