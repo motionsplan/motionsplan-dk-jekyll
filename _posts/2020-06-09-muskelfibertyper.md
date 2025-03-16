@@ -39,7 +39,7 @@ De fleste mennesker har 40-70 % røde muskelfibre, mens resten er type IIa og II
 
 ## Sammenligning af muskelfibertyper
 
-{% include gallery caption="Et tværsnit af en langsom muskel (tv) og en hurtig muskel (th). Hver muskelcelle (fiber) er normalt mellem 0,05 og 0,1 mm i diameter. Kilde: [aesthetics-fury.com](https://aesthetics-fury.com/blog/slow-twitch-vs-fast-twitch-muscle-fibers)." %}
+{% include gallery id="gallery" caption="Et tværsnit af en langsom muskel (tv) og en hurtig muskel (th). Hver muskelcelle (fiber) er normalt mellem 0,05 og 0,1 mm i diameter. Kilde: [aesthetics-fury.com](https://aesthetics-fury.com/blog/slow-twitch-vs-fast-twitch-muscle-fibers)." %}
 
 ## Type I --- langsomme oxidative muskelfibre
 

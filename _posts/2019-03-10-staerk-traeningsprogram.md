@@ -50,7 +50,7 @@ Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en 
 
 Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
 
-{% include gallery caption="_No brain. No gain._ Dette slogan bruger Jacob Beermann ofte. Træningen bliver ikke bedre, fordi den er hårdere. Planlægning gør træningen smartere. Beermann sælger også budskabet på sine [t-shirts](https://shop.maxer.dk/products/no-brain-no-gain)." %}
+{% include gallery id="gallery" caption="_No brain. No gain._ Dette slogan bruger Jacob Beermann ofte. Træningen bliver ikke bedre, fordi den er hårdere. Planlægning gør træningen smartere. Beermann sælger også budskabet på sine [t-shirts](https://shop.maxer.dk/products/no-brain-no-gain)." %}
 
 Når du køber bogen, får du også et **træningsprogram til styrkeløft** og adgang til en **eksklusiv Facebookgruppe**, hvor læserne af bøgerne deler tips, og hvor Jacob Beermann også er aktiv med at svare på spørgsmål.
 

@@ -149,7 +149,7 @@ Jeg beskriver og illustrerer med billeder i dette afsnit, hvordan du skal udfør
 
 Først kan du se nogle simple tændstikmænd, der illustrerer øvelserne:
 
-{% include gallery caption="Animation af de 5 tibetanske øvelser fra [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites)" %}
+{% include gallery id="gallery" caption="Animation af de 5 tibetanske øvelser fra [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites)" %}
 
 ## Video af tibetanerne på Youtube
 

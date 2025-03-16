@@ -70,7 +70,7 @@ Nu kan du organisere træningsugen efter din valgte træningsmodel. Vi har valgt
 
 Træningsugen skal organiseres efter, hvor meget tid den enkelte har til at træne - og den enkeltes niveau. her et et par eksempler på, hvordan træningen kunne opbygges på den enkelte uge.
 
-{% include gallery caption="Forslag til en måde at modellere træningen på den enkelte uge for begyndere, moderat trænede og trænede." %}
+{% include gallery id="gallery" caption="Forslag til en måde at modellere træningen på den enkelte uge for begyndere, moderat trænede og trænede." %}
 
 ### 4. Valg af træningsmetoder
 

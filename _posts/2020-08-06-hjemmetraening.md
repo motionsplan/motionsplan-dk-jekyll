@@ -134,7 +134,7 @@ Du kan fx prøve [yogaserien De fem Tibetanere](/artikel/de-fem-tibetanere/) ell
 
 Mette Bjerre som underviser på [Vejle Idrætshøjskole](https://www.vih.dk) har lavet nedenstående Corona-workouts, som du kan træne hjemme uden udstyr. Mette Bjerre var inspireret af eleverne til at lave en række knaldhårde [crossfit-inspirerede workouts]({% link _posts/2021-01-18-crossfit-workouts.md %}), som du kan bruge i din hjemmetræning.
 Her er inspiration til nogle [Corona workouts]({% link _posts/2021-01-14-corona-workouts.md %}).
-{% include gallery caption="Øvelser til hjemmetræning og et hjemmetræningsprogram lavet af @mette_bjerre fra @vihdk" layout="half" %}
+{% include gallery id="gallery" caption="Øvelser til hjemmetræning og et hjemmetræningsprogram lavet af @mette_bjerre fra @vihdk" layout="half" %}
 Mette og de andre lærere lavede i alt workouts til 28 dage, så der er nok at tage fat på.
 
 ## Fordele og ulemper ved hjemmetræning

@@ -114,7 +114,7 @@ Hvis du gerne vil finde ud af din kronotype, så kan du bruge en søvndagbog til
 
 Her kan du se en søvndagbog for to forskellige kronotyper. Det er tydeligt at B-menneskets søvndagbog varierer lidt mere for at passe ind i den samfundsskabte hverdag.
 
-{% include gallery caption="Søvndagbog for et A-menneske og et B-menneske. Ingen af personerne kan selv bestemme deres arbejdstider. Det er tydeligt at B-mennesket har meget større variation i søvnvanerne. De sorte bjælker er arbejdsdage, mens de grå bjælker er weekenden. Kilde: [Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske)." %}
+{% include gallery id="gallery" caption="Søvndagbog for et A-menneske og et B-menneske. Ingen af personerne kan selv bestemme deres arbejdstider. Det er tydeligt at B-mennesket har meget større variation i søvnvanerne. De sorte bjælker er arbejdsdage, mens de grå bjælker er weekenden. Kilde: [Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske)." %}
 
 For B-mennesket er der stor uoverensstemmelse mellem det biologiske indre ur og den sociale tid. Denne uoverensstemmelse kaldes ofte i litteraturen **socialt jetlag**.
 

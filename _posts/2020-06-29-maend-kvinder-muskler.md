@@ -74,7 +74,7 @@ Typisk har kvinder imidlertid mere fedt i kroppen, så selvom låret fx er samme
 
 Fx kan du i følgende se tværsnittet af låret på en veltrænet ung kvinde og ung mand, hvor det er tydeligt at fedtet fylder mere for kvinderne end for mændene.
 
-{% include gallery caption="Tværsnit af låret på en veltrænet ung mand vs. tværsnittet af låret på en veltrænet ung kvinde. Kilde: [Researchgate.net](https://www.researchgate.net/figure/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left_fig1_280967218){:rel='nofollow'}" alt="Forskellen på mænds og kvinders muskler" %}
+{% include gallery id="gallery" caption="Tværsnit af låret på en veltrænet ung mand vs. tværsnittet af låret på en veltrænet ung kvinde. Kilde: [Researchgate.net](https://www.researchgate.net/figure/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left_fig1_280967218){:rel='nofollow'}" alt="Forskellen på mænds og kvinders muskler" %}
 
 Hvis man skal sammenligne mænd og kvinder, så giver det naturligvis mest mening at beskæftige sig med den relative styrkefremgang i forhold til fedtfrie masse, da der er store genetiske og hormonelle forskelle.
 

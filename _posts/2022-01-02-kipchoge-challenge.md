@@ -60,7 +60,7 @@ Du kan enten **løbe på et [løbebånd](/guide-loebebaand/)**, hvor du bare ska
 
 Du kan også **løbe på en løbebane**, hvor det er let at vide, hvor langt du løber. Jeg har lavet en beregner, så du let kan udregne, hvor hurtigt du skal løbe de enkelte intervaller for at holde tempoet.
 
-{% include gallery caption="Denne challenge for kvinder er lavet i forhold til den tidligere verdensrekordholder; Brigid Kosgei gennemførte Chicago Marathon i 2019 på 2:14:04, hvilket svarer til en gennemsnitshastighed på 18,89 km/t. Kosgei løb med et pace på 3:11 min/km." %}
+{% include gallery id="gallery" caption="Denne challenge for kvinder er lavet i forhold til den tidligere verdensrekordholder; Brigid Kosgei gennemførte Chicago Marathon i 2019 på 2:14:04, hvilket svarer til en gennemsnitshastighed på 18,89 km/t. Kosgei løb med et pace på 3:11 min/km." %}
 
 ## 2. Stafet
 
