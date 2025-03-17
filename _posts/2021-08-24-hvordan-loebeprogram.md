@@ -1,7 +1,9 @@
 ---
-title: &title "Hvordan laver man et løbeprogram?"
+title: &title "Guide til at lave dit eget løbeprogram – 5 enkle trin"
+seo_title: "Løbeprogram: Sådan laver du dit eget (5 enkle trin)"
 permalink: /guide-til-loebeprogram/
-excerpt: "Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
+excerpt: "Følg vores guide til at lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
+description: "Vil du lave dit eget løbeprogram? Følg vores guide med 5 enkle trin til at skræddersy din løbetræning, uanset om du er nybegynder eller erfaren. Læs mere her!"
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
@@ -15,20 +17,22 @@ tags:
   - træningsprogram
   - løb
   - guide
-last_modified_at: 2021-10-21T08:14:14Z
+last_modified_at: 2025-03-16T08:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/loebeprogram/uge-begynder.png
   - image_path: /assets/images/loebeprogram/uge-moderat.png
   - image_path: /assets/images/loebeprogram/uge-traenet.png
 ---
-Her gennemgår vi, hvordan du kan lave dit eget løbeprogram? Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning?
+Vil du have et skræddersyet løbeprogram, der passer til dine mål og din hverdag? Et godt løbeprogram sikrer, at du træner effektivt, holder motivationen oppe og undgår skader.
 
-Vi laver først en simpel 5-trins-rakat, så du bliver i stand til at lave dine egne løbeprogrammer. Alle løbeprogrammer skal naturligvis tage udgangspunkt i en specifik målsætning og løberens forudsætninger.
+I denne guide gennemgår vi 5 enkle trin, der hjælper dig med at planlægge din løbetræning – uanset om du er begynder eller erfaren løber.
+
+Alle løbeprogrammer skal naturligvis tage udgangspunkt i en specifik målsætning og løberens forudsætninger. Når du har læst denne guide er du i stand til at lave dit eget løbeprogram.
 
 [Bonus: Få GRATIS løbeprogram nu »](/loebeprogrammer/){: .btn--lead }
 
-## Hvordan laver jeg et løbeprogram?
+## Sådan laver du dit eget løbeprogram
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
@@ -54,17 +58,17 @@ Når du skal lave et løbeprogram, så kan du følge den enkle opstilling.
 
 Lad os gå igennem trinene enkeltvis.
 
-### 1. Mål
+### 1. Definer dine træningsmål
 
 Først skal du vide, hvad målet for træningsprogrammet er. Sammen med målet skal du også kende løberens forudsætninger. Det kan du etablere ved at lave en [screening](/screening/).
 
 Du har fået etableret målet for træningsprogrammet, du kender løberens forudsætninger.
 
-### 2. Tidsramme
+### 2. Fastlæg tidsrammen for dine mål
 
 Du skal også vide, hvor længe løbeprogrammet skal vare for at have en fornuftig tidsramme. Typisk kan du dele tidsrammen op i mindre blokke af 4-6 uger.
 
-### 3. Organisering af træningsugen
+### 3. Planlæg din ugentlige træningsstruktur
 
 Nu kan du organisere træningsugen efter din valgte træningsmodel. Vi har valgt en polarized 3-zoners model i dette tilfælde.
 
@@ -72,11 +76,11 @@ Træningsugen skal organiseres efter, hvor meget tid den enkelte har til at træ
 
 {% include gallery id="gallery" caption="Forslag til en måde at modellere træningen på den enkelte uge for begyndere, moderat trænede og trænede." %}
 
-### 4. Valg af træningsmetoder
+### 4. Vælg effektive træningsmetoder
 
 Nu skal du vælge specifikke træningsmetoder, som du kan bruge i dit løbeprogram. Nedenunder forklarer vi en masse forskellige muligheder med en nøje beskrivelse af, hvordan metoden fungerer.
 
-### 5. Valg af progression
+### 5. Strategier for progression i din træning
 
 Når du har din tidsramme, så skal du finde ud af, hvordan du laver progression i træningen. Der findes mange forskellige progressionsmodeller. Hvis du arbejder med begyndere og moderat trænede, så kan du som udgangspunkt bruge en linæer progression, hvor du langsomt lægger lidt mere intensitet og mængde på træningen.
 
@@ -84,7 +88,7 @@ En progressionsmodel kunne fx se sådan her ud:
 
 {% include figure image_path="/assets/images/loebeprogram/progression.png" caption="Forslag til en simpel progressionsmodel, som kan bruges i løbeprogrammet." %}
 
-## Hvordan kender jeg løbezonerne?
+## Forstå dine løbezoner i træningen
 
 Når du har lavet løbeprogrammet, så kan det være godt at give løberen nogle enkle værktøjer til, hvordan man ved om man rammer de rette træningszoner.
 
@@ -97,14 +101,14 @@ Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 Der er fordele og ulemper ved de forskellige måder at måle intensiteten i din træning, som du kan læse mere om under overvejelserne i forhold til [intensitet og træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}).
 
-## Hvilke elementer kan dit ugentlige program bestå af?
+## Kompoententer i dit ugentlige løbeprogram
 
 Du kan gøre din løbeplan rimelig enkel ved at dele de forskellige dage op med udgangspunkt i følgende løbetyper:
 
 - **Speed Run**. Formålet er her at gøre dig hurtigere og arbejde med at flytte den maksimale iltoptagelse og anaerobe tærskel. Disse dage vil ofte være udformet som intervalløb i en eller anden form, men det kan også være udmarvende og længere tempoløb alt efter målet med træningen.
 - **Long Run**. De længere løb er med til at opbygge din udholdenhed og hvordan du kan pace dig selv. Løbene kan enten løbes som en længere tur i et behageligt tempo, eller du kan arbejde med **progressionsløb**.
 - **Recovery Run**. Restitutionsløb er en måde at få løbet flere kilometer på og arbejde lidt med udholdenheden samtidig med, at de gør dig klar til de næste hårdere træninger. Læs mere om [restitutionsløb](/restitutionsloeb/).
-- **Rest Days**. Hviledage er helt nødvendige, når kroppen skal tilpasse sig nye belastninger. Du kan altså ikke undvære hviledagene, når du gerne vil være bedre.
+- **Rest Days**. Hviledage er helt nødvendige, når kroppen skal tilpasse sig nye belastninger. Du kan altså ikke undvære hviledagene, når du gerne vil være bedre. Det gode ved at putte hviledage ind i programmet er, at du ikke har dårlig samvittighed, når du holder dem. Du følger jo bare dit program.
 
 Lad os dykke ned i nogle af de løbeformer, du kan putte ind i din træning.
 
@@ -112,198 +116,73 @@ Lad os dykke ned i nogle af de løbeformer, du kan putte ind i din træning.
 
 I det følgende har jeg forsøgt at beskrive forskellige træningskategorier, som kan bruges i dit løbeprogram. Lad os dykke ned i de forskellige træningskategorier.
 
-| Type | Intensitet | Antal x ugen |
-|-|-|-|
-| Udholdenhedstræning og lang løbetur | Snakketempo | 1-2x ugen |
-| Mælkesyretolerancetræning | Konkurrencetempo i 20-60 minutter | 1x ugen |
-| Maksimal iltoptagelse | Rigtig hårdt | 1x ugen |
-| Sprinttræning | Intensivt | 1x ugen |
-| Grundtempo | Snakketempo | 1-3x ugen |
+| **Type** | **Formål** | **Intensitet (RPE)** | **Antal x ugen** |
+|----------|-----------|----------------------|------------------|
+| **Udholdenhedstræning og lang løbetur** | Forbedrer basiskondition og fedtforbrænding | Snakketempo (RPE 3-4) | 1-2x ugen |
+| **Mælkesyretærskeltræning (AT-træning)** | Øger evnen til at holde høj fart uden at syre til | Konkurrencetempo i 20-60 min (RPE 6-7) | 1x ugen |
+| **Maksimal iltoptagelse (VO₂max-træning)** | Forbedrer den maksimale iltoptagelse | Rigtig hårdt (RPE 8-9) | 1x ugen |
+| **Sprinttræning** | Øger topfart og neuromuskulær effektivitet | Maksimal indsats i korte intervaller (RPE 9-10) | 1x ugen |
+| **Grundtempo (tempo-løb)** | Bygger fart og udholdenhed i længere træningspas | Moderat til hårdt (RPE 5-6) | 1-3x ugen |
 
-### Udholdenhedstræning (LSD) og lang løbetur
 
-*[LSD]: Long Slow Distance
+<details markdown="1" class="faq">
+  <summary>🏃‍♂️ Udholdenhedstræning (LSD) og lang løbetur</summary>
 
-Du kan bruge det rolige tempo til specifikt at arbejde med din udholdenhed eller til at få lidt mere træningsmængde i dit træningsprogram. Forskellen er hvor langt du løber på de enkelte ture. Du kan have den **længere løbetur**, som også ofte kaldes *Long Slow Distance (LSD)* eller du kan løbe en kortere ture i det rolige tempo.
+Udholdenhedstræning kan øge distancen på dine løbeture og gøre kroppen vant til at arbejde med lav intensitet i længere tid. Det handler om at forbedre din krops evne til at forbrænde fedt og forbedre kredsløbet.
 
-Når du laver udholdenhedstræning i dit løbeprogram, så handler det om at øge distancens længde og vænne kroppen til at arbejde i længere tid ad gangen med relativt lav intensitet.
+Formålet med udholdenhedstræning og **den længere løbetur** er at fremme kroppens evne til at arbejde længere med lav intensitet, hvilket forbedrer både kredsløb og den aerobe kapacitet. Fysiologiske tilpasninger inkluderer flere mitochondrier og blodårer, samt en større hjertevolumen.
 
-#### Formål
+Læs mere om de [fysiologiske tilpasninger og adaptationer er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 
-Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhedstræningen fremmer kroppens evne til at tolerere bevægelse over længere tid, evnen til at forbrænde fedt og forbedrer kredsløbet.
+[Læs uddybende om udholdenhedstræning til løb](/loeb/udholdenhedstraening/)
 
-Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+</details>
 
-- Der kommer flere mitochondrier, og de bliver mere effektive
-- Der kommer flere små blodårer (kapillærer) omkring musklerne og ved lungerne
-- Der kommer flere aerobe enzymer
-- Hjertet bliver større, så det kan pumpe mere blod rundt - slagvolumen stiger altså
+<details markdown="1" class="faq">
+  <summary>🔥 Mælkesyretærskeltræning (AT)</summary>
 
-#### Udførelse
+Mælkesyretærskeltræning hjælper med at forbedre din evne til at arbejde med højere intensitet uden at ophobe mælkesyre. Det gør det muligt at løbe hurtigere uden at blive træt hurtigt.
 
-Når du træner udholdenhedstræning, så skal intensiteten være med en pulsbelastning på omkring 60-75% af din _heart rate reserve_.
-
-Hvis man fx bruger [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger.
-
-Når du træner udholdenhedstræning skal du arbejde med nogenlunde konstant puls i 30 minutter til 2 timer. Du kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 75% i slutningen.
-
-I starten af turen sparer du lidt på glykogendepoterne, så du kan fortsætte træningen i længere tid. Efterhånden tømmer du med stigende intensitet glykogendepoterne og forbedrer din evne til at forbrænde fedt.
-
-#### Hyppighed og mængde
-
-Udholdenhedstræning kan fx ligge 1-2 gange om ugen. Selvom du ikke løber så hurtigt, så er det stadig belastende for kroppen, fordi du løber relativt længe. Du kan fx lave et roligt løb eller et restitutionsløb dagen efter.
-
-Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmængde i kilometer. Hvis du træner til maraton kan det formentlig give god mening at løbe længere løbeture, der kommer op på omkring 20-30 kilometer.
-
-### Mælkesyretærskeltræning (AT)
-
-Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere, men hvad er mælkesyretærsklen eller den anaerobe tærskel?
-
-Hvad er den anaerobe tærskel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
+Formålet med AT-træning er at flytte din anaerobe tærskel, så du kan arbejde med højere intensitet i længere tid. Dette giver dig mulighed for at løbe hurtigere uden at ophobe mælkesyre, hvilket forbedrer din ydeevne.
 
 Den [anaerobe tærskel](/anaerobe-taerskel/) er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede. Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den anaerobe forbrænding i mitochondrierne kommer [mælkesyre](/maelkesyre-traening/) som et biprodukt.
 
-#### Formål
-
-Hvis du løbetræner, så du kan flytte din anaerobe tærskel, vil du altså træne evnen til at løbe med en højere intensitet, men stadig primært bruge det aerobe system, som kan arbejde meget længere end det anaerobe system.
-
 Hvis du har en [maxpuls](/test-max-puls/) på 200 slag/min og formår at flytte din anaerobe tærskel målt som hjerteslag fra 180 slag/min til 185 slag/min, så kan du altså løbe med en højere intensitet, hvilket også alt andet lige vil sige hurtigere uden at ophobe mælkesyre og træthedsstoffer.
 
-#### Udførelse
+[Læs uddybende om mælkesyretærskeltræning til løb](/loeb/maelkesyretarskel/)
 
-Din anaerobe tærskel kan du finde ved fx at løbe fx 30-60 minutter med maksimal hastighed. Gennemsnitspulsen på distancen vil formentlig være tæt på din anaerobe tærskel.
+</details>
 
-Når du udfører træning af den anaerobe tærskel skal du ramme en belastning, der ligger omkring din mælkesyretærskel. Den anaerobe tærskel er forskellig fra person til person, men typisk ligger den i pulsbelastningen mellem 70-90% af [pulsreserven](/pulsreserve/).
+<details markdown="1" class="faq">
+  <summary>💨 Træning af maksimal iltoptagelse (VO₂max)</summary>
 
-Lad os kigge på nogle metoder til at arbejde med den anaerobe tærskel: tempoløb, tærskel-intervaller eller tærskel-bakkeløb.
+VO₂max-træning er vigtig for at forbedre kroppens evne til at optage og udnytte ilt under fysisk aktivitet. Denne træning øger din udholdenhed og din evne til at løbe hurtigere.
 
-Den intensive del af træningen bør have en samlet varighed på 20-40 minutter.
+Formålet med VO₂max-træning er at forbedre din iltoptagelse, hvilket gør det lettere at løbe med højere hastighed og forbedre dit kondital.
 
-Lad os kigge lidt på forskellige øvelser, som kan være med til at flytte mælkesyretærsklen.
-
-#### Tempoløb
-
-Tempoløb er hårdt, men effektivt. Du skal løbe intensivt i relativt lang tid. Et eksempel kan være at løbe et par kilometer som opvarmning, hvorefter du løber 3-8 km i et tempo omkring den anaerobe tærskel. Slut med et par kilometers afjogning.
-
-Når man laver tempoløb arbejder man også med sin mentale styrke. Husk at løbe omkring mælkesyregrænsen, så du får den rette træningseffekt.
-
-#### Tærskel-intervaller
-
-Tærskel intervaller er ekstra lange intervaller på omkring 6-15 minutter. Det kan fx være 4 x 8 minutters intervaller med 2 minutters pause. Tærskelintervallerne er lidt mere overskuelige end tempoløbene. Pausen bør højest være 2 minutter.
-
-#### Hyppighed og mængde
-
-Træning af den anaerobe tærskel passer ind i træningen omkring 1 gang om ugen. Den kan trænes flere gange om ugen, hvis du er virkelig god form, men det er vigtigt at tage højde for restitutionen.
-
-Træning af den anaerobe tærskel i dit løbeprogram er en hård træningsform med høj kvalitet, og det er meget belastende for kroppen. Den bør afhængig af formen efterfølges med 1-2 fridage eller dage med roligt løb / restitutionsløb.
-
-Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede træningsmængde (km).
-
-### Træning af maksimal iltoptagelse (VO₂max)
-
-Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den maksimale iltoptagelse er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
-
-Der er flere faktorer, der bestemmer den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), som fx:
-
-- Hjertets evne til at pumpe blod rundt i minuttet (puls x slagvolumen)
-- Mængden af røde blodlegemer
-- Musklernes evne til at optage blodet fra blodet.
-
-Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Du kan altså med en højere maksimal iltoptagelse lettere forbedre din ydeevne i forhold til din vægt. Det betyder, at du i praksis kan løbe med højere hastighed.
-
-#### Udførelse
-
-Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være over 95% af din _[heart rate reserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/)_ (HRR).
-
-*[HRR]: Heart Rate Reserve
+Bliv klogere på [de faktorer der påvirker den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
 For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/).
 
-Du kan arbejde med din maksimale iltoptagelse på flere forskellige måder. Det afgørende er, at intensiteten er høj nok. Den intensive del af træningen vil typisk vare mellem 16-24 minutter.
+[Læs uddybende om vo2max-træning til løb](/loeb/vo2max-traening/)
 
-Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltoptagelse.
+</details>
 
-#### Intervaltræning og intervalløb
+<details markdown="1" class="faq">
+  <summary>🏃‍♀️ Sprinttræning og hastighedsteknik</summary>
 
-Når man laver [intervalløb](/intervallob-intervaltraening/) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO₂max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
+Sprinttræning øger muskelstyrke, koordination og [forbedrer din løbeøkonomi](/lobeokonomi/). Træning med høj intensitet gør det lettere at løbe med lavere hastigheder og forbedrer din teknik.
 
-Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
-
-Læs: [Komplet guide til intervaltræning](/intervaltraening/)
-{: .notice }
-
-Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
-
-Typisk vil man løbe omkring 20 minutter per træningspas, når man gerne vil flytte den maksimale iltoptagelse.
-
-Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO₂max](/maksimale-iltoptagelse-vo2max/).
-
-#### Fartleg eller Fartlek
-
-Fartleg er en ustruktureret træningsform præget af skiftende tempo, der ikke på forhånd er planlagt. Der skal med andre ord løbes spontant og impulsivt.
-
-Mens du løber planlægger man start- og slutpunkter for, hvornår der skal løbes hurtigt. Typisk bruger man terrænet til at bestemme, hvornår der skal være tempo på, fx løber man hurtigt til næste træ eller lygtepæl, eller også løber man hurtigt op ad bakkerne.
-
-Det kan godt virke lidt uoverskueligt at træne på denne løse måde. Det kan være en god ide at gennemtænke, hvor mange hurtige ryk, man vil foretage for at sætte en lille smule struktur på træningen.
-
-Legemomentet kan ende i temmelig hård træning, så vær opmærksom på, hvordan du har mulighed for at restituere.
-
-#### Hyppighed og mængde
-
-Træning af den maksimale iltoptagelse bør kun foretages en gang om ugen, da den er meget belastende for kroppen.
-
-Hvis du bruger for meget tid i denne zone, så vil det sandsynligvis føre til overbelastningsskader.
-
-Indsæt gerne en pausedag efter den hårde træning. Som udgangspunkt må træningsmængden af maksimal iltoptagelse ikke overstige 8% af ugens samlede træningsmængde målt i km.
-
-Løbes der eksempelvis 50 km en uge, må der højest trænes maksimal iltoptagelse 4 km i denne uge.
-
-### Sprinttræning og hastighedsteknik
-
-Som løber er det også gavnligt at arbeje med sprinttræning og hastighedstræning. Når du arbejder med højere hastigheder, bliver du nemlig stærkere og arbejder med nervesystemet.
-
-Derefter bliver det relativt lettere at løbe med lavere hastigheder, og når du forbedrer din teknik, dit nervesystem og får større muskelstyrke, så vil det også påvirke din [løbeøkonomi](/lobeokonomi/).
-
-Når du træner med høj hastighed, så sker følgende i kroppen:
-
-- Koordinationen forbedres og nervesystemet bliver bedre til at styre, kontrollere og rekruttere muskelfibere
-- Muskelstyrken forbedre
-
-Når du arbejder med hastighedsteknik, så kan du forbedre løbekadencen og kraften i afsættene. Hvis du opøver en evne til at tage flere skridt per minut og du samtidig tager længere skridt, så løber du hurtigere.
-
-#### Udførelse
-
-Når du arbejder med sprint- og hastighedstræning, så skal du løbe med høj intensitet. Hvis du træner til længere distancer, så foregår hastighedstræning måske i 400-1500 meters tempo, mens det ved kortere løbedistancer måske foregår ved 100-800 meters tempo.
-
-Når du træner kortere sprints og bakkesprints, så behøver du faktisk ikke at ramme 100%, men kan få rigtig god effekt ved gentagne intervaller der ligger omkring 95-98% af din maksimale hastighed, så længe du sørger for at holde høj kvalitet i løbene.
-
-Du kan bruge bakker til at sætte mere eller mindre fokus på forskellige aspekter ved din hurtighedstræning:
-
-- **Bakke med svag hældning nedad**. Det er rigtig hårdt for kroppen at løbe hurtigt nedad, men hvis du er trænet op til det, så kan du arbejde med højere kadence og skridtlængde, hvilket kan være med til at gøre kroppen klar til at løbe med højere hastigheder. Du skal imidlertid virkelig være opmærksom på, at det kan give relativt alvorligt DOMS.
-- **Bakke opad**. Du kan træne bakkesprints, hvor træningen får karakter af styrketræning, så du bliver nødt til at rekruttere flere muskelfibre. Fordelen ved at løbe opad bakke er også, at det du reducerer den excentriske komponent af træningen, hvilket betyder, at du bedre kan restituere fra træningen igen.
-
-Typisk tilrettelægger du hastighedstræning i intervaller med kort varighed, hvor du skifter mellem arbejde og hvile. Arbejdsperioderne vil være omkring 50-200 meter, mens du fx løber samme distance i langsomt tempo i pauserne. Du kan variere længden af pausen alt efter det nøjagtige formål.
-
-Antallet af intervaller kan være mellem 6-12 gentagelser.
-
-Når du laver hastighedstræning, så kan du også bruge pulsmåleren til at være med til at bestemme længden af pausen. Du kan have et mål om, at pulsen skal nå under fx 120 slag/min inden næste interval løbes, så du ikke risikerer at holde for korte pauser og derved ikke få det optimale udbytte ud af træningen.
-
-Husk at varme grundigt op, når du inkluderer sprinttræning i dit træningsprogram.
-
-Du kan udføre intervallerne på forskellige måder:
-
-- **Stigningsløb**. Hvis du laver 100 meter stigningsløb, så øger du progressivt dit tempo til dit maksimale tempo og holder det tempo de sidste 50 meter. Fordelen ved stigningsløb er, at de er relativt skånsomme.
-- **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så kan du løbe hurtigere fra start, så du får accelerationen med.
+Sprinttræning hjælper med at forbedre både muskelstyrken og nervesystemets evne til at kontrollere bevægelser. Det er en effektiv måde at forbedre løbekadencen og hastigheden.
 
 Studier har vist, at [eksplosiv træning måske kan forbedre løbeøkonomien og præstationen](/lobeokonomi/), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
 
-#### Hyppighed
+[Læs uddybende om sprinttræning til løb](/loeb/sprinttraening/)
+</details>
 
-Sprint- og hastighedstræning bør formentlig kun udføres en gang om ugen, og der skal være mulighed for en roligere dag efterfølgende, så du kan restituere bedst muligt.
+<details markdown="1" class="faq">
+  <summary>🏃‍♀️ Roligt løb / Grundtempo</summary>
 
-Træningen med sprinttræning kan udgøre omkring 1% af ugens samlede træningsmængde i kilometer.
-
-### Roligt løb / Grundtempo
 
 Formålet med roligt løb er at få en højere samlet træningsmængde, og det løbes i samme tempo som de lange løbeture. Det har en gavnlig effekt for dit løb, hvis du kan løbe flere kilometer uden at det går ud over din evne til at restituere.
 
@@ -322,32 +201,27 @@ De rolige ture må ikke resultere i træthed, men du skal ende turene med en fø
 #### Hyppighed og mængde
 
 Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde ikke stiger for hurtigt. En rolig tur kan typisk ligge på 5-12 km.
+</details>
 
-### Restitutionstræning
-
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/).
+<details markdown="1" class="faq">
+  <summary>💪 Restitutionsløb</summary>
 
 Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstraening.md %}).
 
-Nogle af de ting restitutionstræning kan hjælpe med er at:
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen](/restitution/) og [restitutionstiden](/restitutionstid/).
 
-- Øge blodgennemstrømningen i musklerne, så affaldsstoffer fjernes og der tilføres stoffer, så vævet kan bygge sig selv op.
-- Enzymproduktionen og andre processer kører hurtigere, når kroppen aktiveres.
+Restitutionstræning hjælper med at fremskynde kroppens restitutionsproces. Aktiv restitution kan inkludere langsommere løbeture eller andre aktiviteter, der øger blodgennemstrømningen.
 
-Hvis du gerne vil træne ofte, så er det utrolig vigtigt, at du er opmærksom på din restitution. Restitutionstræning skal hjælpe kroppen med at restituere hurtigere.
+Formålet med restitutionstræning er at fremme blodgennemstrømningen og øge hastigheden af genopbygning, så kroppen er klar til næste træning.
 
-Når du bruger restitutionstræning i dit løbeprogram, skal du altså være opmærksom på, at du ikke løber med for høj intensitet. Jeg kan godt lide at bruge pulsen for at sikre mig, at jeg ikke løber for hurtigt.
+[Læs uddybende om restitutionsløb](/restitutionsloeb/)
 
-#### Udførelse
-
-Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
-
-#### Hyppighed og mængde
-
-Restitutionstræning kan lægges ind flere tidspunkter i dit program for at styre din træningsplanlægning eller hvis du en dag er uoplagt til den planlagte træning.
-
-Når du har gennemført et restitutionsløb, skal du gerne have følelsen af overskud. Typisk vil du også have fornemmelsen af, at du godt kunne have lavet mere, men lad dig ikke friste.
+</details>
 
 ## Konklusion
 
-Her har vi gennemgået, hvordan du kan opbygge et løbeprogram. Det kan være en god ide at lave nogle forskellige faser, som du først går igennem. Vælg et mål for hver fase og vælg de relevante måder at løbe på for hver fase.
+Vi har nu gennemgået de vigtigste faser i at bygge et løbeprogram. Husk, at et målrettet løbeprogram kan bestå af flere faser, hvor du gradvist arbejder mod dine mål.
+
+Hver fase kan have sin egen type træning, der passer til det, du vil opnå. Når du er færdig med en fase, kan du gå videre til den næste med et nyt mål og et justeret træningsfokus.
+
+Er du klar til at komme i gang med din løbetræning? Tænk på, hvordan du kan skræddersy din plan og begynde at implementere træningsteknikkerne, du har lært i denne guide.

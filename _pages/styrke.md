@@ -31,13 +31,21 @@ feature_row_strength:
     rel: sponsored nofollow noopener
 sidebar:
   nav: trainingtypes
-feature_row_get_started:
-  - image_path: https://images.unsplash.com/photo-1685633224767-361354e84e2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Guide: Sådan kommer du i gang med styrketræning"
-    title: "Guide: Sådan kommer du i gang med styrketræning"
-    excerpt: "Rigtig mange søger inspiration til træningsprogrammer eller er i tvivl om, hvilket styrketræningsprogram de skal vælge. Programmet er vigtig del af træningen, men hvordan får jeg valgt det rigtige styrketræningsprogram? Hvordan kommer du egentlig i gang?"
-    url: "/vaelg-traeningsprogram/"
-    btn_label: "Kom i gang med træningen"
+feature_row_introduction:
+  - image_path: https://images.unsplash.com/photo-1596357395217-80de13130e92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Guide: Introduktion til styrketræning"
+    title: "Guide: Introduktion til styrketræning"
+    excerpt: "Styrketræning er en fællesbetegnelse for en række øvelser, der bruges til at styrke udøverens muskler. Formålet med styrketræning kan både være stærkere eller få større muskler. Her får du en grundlæggende introduktion til styrketræning."
+    url: "/styrketraening/introduktion/"
+    btn_label: "Grundlæggende guide til styrketræning"
+    btn_class: "btn--info"
+feature_row_beginner_get_started:
+  - image_path: https://images.unsplash.com/photo-1643142313816-0d9c86c49f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Begynder: Sådan kommer du i gang med styrketræning"
+    title: "Begynder: Sådan kommer du i gang med styrketræning"
+    excerpt: "Hvis du gerne vil i gang med styrketræning, men ikke helt ved, hvordan du skal gribe det an, så er du kommet til det rette sted. Her får du en guide til, hvordan du kommer i gang!"
+    url: "/styrketraening/begyndere/"
+    btn_label: "Kom i gang med styrketræning"
     btn_class: "btn--info"
 feature_row_powerlifting:
   - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
@@ -47,26 +55,21 @@ feature_row_powerlifting:
     url: "/styrkeloeft/"
     btn_label: "Kom i gang med styrkeløft"
     btn_class: "btn--info"
-feature_row_about:
-  - image_path: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Styrketræning - bliv stærk og flyt noget tungt"
-    title: "Styrketræning - bliv stærk og flyt noget tungt"
-    excerpt: "Styrketræning er en fællesbetegnelse for en række fysiske øvelser, som bruges til at styrke udøverens muskler. Formålet med styrketræning kan både være at blive stærkere eller få større muskler."
 feature_row_good_program:
   - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
-    alt: "Hvad er et godt styrketræningsprogram?"
-    title: "Hvad er et godt styrketræningsprogram?"
+    alt: "Sådan vælger du dit styrketræningsprogram?"
+    title: "Sådan vælger du dit styrketræningsprogram"
     excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
     url: "/vaelg-traeningsprogram/"
-    btn_label: "Få svarene"
+    btn_label: "Vælg dit styrketræningsprogram"
     btn_class: "btn--info"
 feature_row_howto_program:
   - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    title: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    excerpt: "I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
+    title: "Sådan laver du dit eget styrketræningsprogram"
+    excerpt: "I denne guide lærer du at sammensætte et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
     url: "/traeningsprogram-programlaegning-styrketraening/"
-    btn_label: "Lav dit eget program"
+    btn_label: "Lav dit eget styrkeprogram"
     btn_class: "btn--info"
 feature_row_rm_calculator:
   - image_path: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
@@ -90,7 +93,7 @@ last_modified_at: 2025-02-20T19:14:14Z
 
 Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsprogrammer og dybdegående artikler, der hjælper dig med at opbygge styrke og træne smartere.
 
-{% include feature_row id="feature_row_get_started" type="left" %}
+{% include feature_row id="feature_row_introduction" type="left" %}
 
 ## Guides til styrketræning
 
@@ -106,9 +109,9 @@ Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsp
 
 </div>
 
-## Hvad er styrketræning?
+## Begynder - Sådan kommer du i gang med styrketræning
 
-{% include feature_row id="feature_row_about" type="left" %}
+{% include feature_row id="feature_row_beginner_get_started" type="left" %}
 
 ## Træningsprogrammer til styrke
 
@@ -132,7 +135,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 </div>
 
-## Hvordan laver jeg mit eget styrketræningsprogram?
+## Sådan laver du dit eget styrketræningsprogram
 
 {% include feature_row id="feature_row_howto_program" type="left" %}
 

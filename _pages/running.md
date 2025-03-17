@@ -46,10 +46,10 @@ feature_row_how_fast:
 feature_row_how_program:
   - image_path: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Hvordan laver jeg et løbeprogram?"
-    title: "Hvordan laver jeg et løbeprogram?"
+    title: "Sådan laver du løbeprogram?"
     excerpt: "Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
     url: "/guide-til-loebeprogram/"
-    btn_label: "Hvordan laver jeg et program?"
+    btn_label: "5 trin til dit eget løbeprogram"
     btn_class: "btn--info"
 feature_row_cooper_test:
   - image_path: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10

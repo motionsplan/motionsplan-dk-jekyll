@@ -1,53 +1,213 @@
 ---
-title: &title "Komplet guide til programlægning i styrketræning"
-seo_title: "Komplet guide til programlægning i styrketræning"
-permalink: /traeningsprogram-programlaegning-styrketraening/
-redirect_from:
-  - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
+title: &title "Styrketræning for begyndere – sådan starter du"
+seo_title: "Styrketræning for begyndere – Kom godt i gang"
+description: "Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning."
+excerpt: "Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning."
+permalink: /styrketraening/begyndere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1738523686534-7055df5858d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
+  teaser: https://images.unsplash.com/photo-1738523686534-7055df5858d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning
 tags:
-  - programlægning
   - styrketræning
   - begynder
   - guide
-last_modified_at: 2020-01-23T08:14:14Z
+last_modified_at: 2025-03-16T08:14:14Z
 toc: true
+faq:
+  - question: "Hvor ofte skal jeg styrketræne som begynder?"
+    answer: "Som begynder anbefales det at styrketræne 2-3 gange om ugen for at give musklerne tid til at restituere og tilpasse sig."
+  - question: "Hvilke øvelser er bedst for begyndere?"
+    answer: "Grundlæggende flerledsøvelser som squat, dødløft, bænkpres, rows og skulderpres er gode valg, da de træner flere muskelgrupper samtidig, men du skal naturligvis vælge de øvelser, du gerne vil lave."
+  - question: "Hvor mange sæt og gentagelser skal jeg lave?"
+    answer: "Et godt udgangspunkt er 3 sæt af 8-12 gentagelser pr. øvelse. Dette giver en god balance mellem styrke og muskelopbygning."
+  - question: "Hvor meget vægt skal jeg starte med?"
+    answer: "Start med en vægt, du kan løfte med god teknik i 8-12 gentagelser. Øg vægten gradvist, når du kan lave alle gentagelser uden problemer."
+  - question: "Skal jeg træne med frie vægte eller maskiner?"
+    answer: "Frie vægte aktiverer flere muskler og forbedrer koordination, men maskiner kan være gode til at lære bevægelser sikkert som begynder."
+  - question: "Hvor lang tid tager et træningspas?"
+    answer: "Et effektivt styrketræningspas varer typisk mellem 45 og 75 minutter, afhængigt af program og pauser mellem sæt. Men hvis du kun har 30 minutter, så er det bedre end 0 minutter."
+  - question: "Hvor lange pauser skal jeg holde mellem sættene?"
+    answer: "For muskelopbygning er 30-90 sekunder passende, mens 2-3 minutter kan være bedre for maksimal styrke. En tommelfingerregel kan væer, at du skal løfte igen, når du føler dig klar."
+  - question: "Hvordan undgår jeg skader i styrketræning?"
+    answer: "Fokuser på korrekt teknik, start med let vægt, varm op grundigt, og lyt til kroppen for at undgå overbelastning."
+  - question: "Kan jeg kombinere styrketræning med konditionstræning?"
+    answer: "Ja, men hvis målet er muskelopbygning, bør du prioritere styrketræning og placere konditionstræningen efter eller på separate dage."
+  - question: "Hvor hurtigt kan jeg se resultater af styrketræning?"
+    answer: "De fleste begyndere oplever styrkeøgning inden for få uger, mens synlige muskelændringer typisk tager 2-3 måneder med regelmæssig træning og god kost."
+  - question: Er styrketræning farligt?
+    answer: Nej! Styrketræning er ikke farligt. De fleste skader kommer, hvis du går for hurtigt frem. Så sørg for en fornuftig og stille og rolig plan.
 ---
 
-Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til styrketræning. Jeg har gjort mig meget umage for, at denne guide til programlægning dækker alle de grundlæggende træningsprincipper i forbindelse med at lave et styrkeprogram, der passer til den, der skal lave træningsprogrammet.
+Vil du i gang med styrketræning, men er usikker på, hvor du skal starte? Denne guide hjælper dig med at forstå de vigtigste principper, så du træner effektivt og nyder træningen fra dag ét.
 
-Når du laver træningsprogrammer, så er det vigtigt, at du tager udgangspunkt i de målsætninger programmet skal opfylde. Træningsplanen kommer til at se forskellig ud, hvis dit mål er at blive stærkere i forhold til at bygge flere muskler på eller komme i bedre kondition.
+Du lærer:
 
-Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her]({% link _posts/2021-04-24-programlaegning.md %}) eller [anmeldelser af styrketræningsprogrammer]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
+- ✔ Hvordan du opbygger et simpelt og effektivt program
+- ✔ Hvor mange sæt, gentagelser og pauser du skal bruge
+- ✔ Hvordan du vælger den rette vægt
+- ✔ De vigtigste øvelser for styrke og muskelopbygning
 
-Her koncentrerer jeg mig primært om programlægning i forhold ti lat lave et godt styrketræningsprogram.
+Uanset om du træner hjemme eller i fitnesscenter, får du her en letforståelig guide til begyndere at komme i gang med styrketræning på den rigtige måde. 🚀
 
 Så lad os dykke ned i det!
 
+## Sådan kommer du i gang med styrketræning
+
+En god start på styrketræning indebærer:
+
+- At lære de grundlæggende øvelser som squat, dødløft, bænkpres og kropsvægtsøvelser.
+- At vælge den rette træningsmængde – start med 2-3 gange om ugen og øg gradvist.
+- At sikre korrekt teknik for at forebygge skader og optimere din fremgang.
+- At have en plan – struktureret træning giver de bedste resultater.
+
+Uanset om dit mål er større muskler, vægttab eller generel styrke, kan en veltilrettelagt styrketræning hjælpe dig på vej.
+
+Læs videre for at få mere viden om programmer, teknikker og progression i din styrketræning!
+
+## Træning vs motion
+
+Træning er målrettet. Du sætter dig et klart defineret mål, og så laver du en plan for, hvordan du opnår dit mål. Det er det, der adskiller træning fra motion og fitness.
+
+Det kan være en hjælp at have et [træningsprogram](/traeningsprogrammer/), hvor der er [indbygget progression](/progressionsmodeller-progressivt-overload/). Uanset om du gerne vil lave kredsløbstræning eller styrketræning, så er en træningsplan vejen til et godt træningsliv.
+
+Vi har samlet nogle [effektive styrketræningsprogrammer](/styrketraeningsprogrammer/), som du kan tage udgangspunkt i.
+
+## Hvordan skal jeg dosere min styrketræning?
+
+Det kommer helt an på, hvad du vil opnå. I et metaanalyse af 140 styrketræningsstudier sammenlignede man, hvordan utrænede og trænede skulle træne (Rhea et al 2003). I studiet definerede man utrænede som folk der har trænet mindre end et år, og trænede som har trænet mere end et år.
+
+Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kroppen bygges op. Desto hårdere man træner, desto længere skal kroppen bruge på at bygge sig selv op igen. Det er bl.a. en af forklaringerne på forskellene mellem de trænede og utrænede, idet trænede kan belaste kroppen hårdere.
+
+De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-maxtest/) med fordel kunne være.
+
+Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
+
+|            | Begynder         | Trænet              |
+|------------|------------------|---------------------|
+| Erfaring   | Mindre end et år | Mere end et år      |
+| Belastning | 60% 1RM          | 80% 1RM             |
+| Sæt        | 4                | 4                   |
+| Pr. uge    | 3                | 2                   |
+| Type       | Helkrop          | Helkrop eller split |
+
+## 20% af indsatsen giver 80% af resultaterne
+
+Du kan få rigtig meget ud af at gøre gøre din træning enkel. Sandheden er formentlig, at det er 20% af arbejdet, der giver dig 80% af resultaterne. De 20% gør dig virkelig god. Og de 20% handler om basisviden.
+
+De sidste procent fremgang kræver virkelig meget arbejde, men risikoen ved at få råd fra fx sites med folk, der virkelig har trænet længe og optimeret alt i deres liv samtidig med at de spiser alle mulige kosttilskud, kan være at din krop ikke er klar til det, fordi du ikke har bygget basis op. Basis hvor du får 80% af resultaterne.
+
+Det kan illustreres med 'The Power Law':
+
+{% include figure image_path="/assets/images/training/powerlaw.svg" caption="The Power Law fortæller dig, at dit træningsprogram bør tage hensyn til, hvad der giver den største effekt" alt="illustration af the power law" %}
+
+Nedenstående figur illustrerer at så snart du går i gang med at træne, så får du en stor gevinst. Den viser også, at du skal sørge for at give den lidt gas, før der sker noget. Desto mere du træner, desto større effekt får du, indtil du et vist punkt, hvor den blå linje krydser x-aksen - og hvor træningen faktisk begynder at stjæle af din gevinst for den træning.
+
+{% include figure image_path="/assets/images/training/marginal-gain.svg" caption="Din træningsplanlægning skal basere sig på de grundlæggende principper, hvor der er de største marginale _gains_." alt="marginal gains" %}
+
+Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til gengæld kan du holde til mere.
+
+Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og [ordentlig søvn](/soevn/) kan flytte kurven opad.
+
+{% include figure image_path="/assets/images/training/response-training.svg" caption="" %}
+
+## 5 trin for begynderen
+
+Mange begyndere er meget ivrige, når de går i gang med styrketræning. Men husk at du træner for livet - ikke for i morgen.
+
+Hver træning er en trædesten, som den næste træning kan bygge på, så byg kroppen langsomt op.
+
+### 1. Vælg øvelser - Start simpelt
+
+I hver træning kan du vælge 3-6 øvelser. En god tommelfingerregel er at vælge inden for disse kategorier:
+
+- Knædomineret (fx squat forlåret) 
+- Hoftedomineret (fx dødløft, baglåret og ballerne)
+- Træk - horisontal eller vertikal (brede ryg, øvre ryg og biceps)
+- Skub - horisontal eller vertikal (bryst, skulder og triceps)
+- Carry (farmer walk, bear hug walk, bottom up kettlebell carry)
+- Core (mave, bækken og rygstabliserende muskler)
+
+Du kan både bruge frie vægte, håndvægte, kettlebells eller maskiner, når du laver øvelserne. Du kan med fordel forsøge at lære squat og dødløft, som er nogle øvelser, der træner hele kroppen.
+
+### 2. Lær god teknik
+
+Det er en god ide at have en alsidig bevægelseserfaring med øvelserne kun med kropsvægt, inden du putter ekstra vægt på. Brug tid ved hver øvelse på virkelig at gøre det så godt som muligt med lav vægt, inden du putter vægt på stangen
+
+Men sørg også for at afprøve dig selv med mere vægt en gang imellem for at se, hvor dine svage punkter er.
+
+Du kan læse mere om [tips til din teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+
+### 3. Lav en træningsplan
+
+Hvis du laver en træningsplan, så er det lettere at vide, hvad du skal, når du kommer i træningslokalet.
+
+### 4. Skriv noter om din træning
+
+Hav en **plan**, **skriv planen ned** og **lav noter** om din træning.
+
+### 5. Nyd træningen
+
+Det allervigtigste for at få fremgang er at du nyder træningen. At dukke op i træningslokalet uge efter uge er det der har allerstørst betydning for, hvordan træningen virker.
+
+## Få styr på prioriteterne
+
+Som begynder i styrketræning kan du blive overvældet af al den information og gode råd der findes rundt omkring.
+
+Tjek [træningspyramidens 6 trin ud](/traeningspyramiden-styrketraening/) for at se, hvad der er det vigtigste for træningen.
+
+## Opsummering – Kom godt i gang med styrketræning  
+
+Styrketræning er en effektiv måde at opbygge styrke, muskler og en sund krop på. Som begynder handler det om at fokusere på:  
+
+- ✅ At vælge grundlæggende flerledsøvelser som squat, dødløft og bænkpres  
+- ✅ At træne 2-3 gange om ugen og gradvist øge volumen og intensitet  
+- ✅ At starte med let vægt og fokusere på god teknik  
+- ✅ At have en struktureret plan, der sikrer progression  
+- ✅ At nyde træningen og være tålmodig – konsistens er nøglen til succes  
+
+Ved at følge disse principper får du en solid start på din styrketræningsrejse.  
+
+## Næste skridt  
+
+Vil du lære endnu mere om styrketræning, så kan du kigge på vores andre sider:
+
+- 📌 Få en [introduktion til styrketræning](/styrketraening/introduktion/).  
+- 📌 [Find et styrketræningsprogram](/styrketraeningsprogrammer/), der passer til dit niveau.  
+- 📌 Læs mere om [progression og overload](/progressionsmodeller-progressivt-overload/) for at sikre -fremgang.  
+- 📌 Se vores guide til [træningsteknik](/rigtig-teknik-styrketraening/) for at optimere dine løft.  
+- 📌 Få styr på de vigtigste [principper i træningsplanlægning](/styrketraening/traeningslaere/).  
+
+Tag første skridt i dag – og husk, at den bedste træning er den, du bliver ved med at lave! 💪🚀  
+
+{% comment %}
+
+***
+Sådan finder du viden om styrketræning her på siden
+Grundlæggende om træning (hvor ofte, hvor meget, hvilke øvelser)
+Grundlæggende om kost (protein, kalorier, væske)
+Opsummering og næste skridt (“Herfra kan du dykke dybere ned i træningslære”)
+
+***
+
 ## Hold fokus i dit træningsprogram
 
-Hver evige eneste uge kommer der nye råd, nye øvelser og nye måder at træne på. De bliver lanceret af blade, der skal sælge endnu et nummer, eller af hjemmesider der hungrer efter ekstra klik. Her præsenterer vi det, vi mener er allervigtigst for at blive stærk.
+Hver eneste uge kommer der nye råd, nye øvelser og nye måder at træne på. De bliver lanceret af blade, der skal sælge endnu et nummer, eller af hjemmesider der hungrer efter ekstra klik. Her præsenterer vi det, vi mener er allervigtigst for at blive stærk og få fornøjelse af din styrketræning.
 
-Der er mange årsager til, at folk vil styrketræne. Alle årsagerne er lige gode.
+Der er mange årsager til, at folk vil styrketræne. Alle grunde er naturligvis lige gode.
 
 - Blive stærkere.
 - Hypertrofi. Få nogle større arme.
 - Smide fedt.
-- Strukturel balance
+- Strukturel balance.
 - Undgå skader.
 - Forbedre præstationen.
 - Forbedre selvtilliden og selvværdet.
 
 Vi starter med nogle grundlæggende tanker om, hvordan kroppen bliver bedre. Derefter fortsætter vi med mere specifikke råd om programlægning.
-
-**“Standing on the shoulders of giants.”** Denne artikel er kraftigt inspireret af [Nucklos og Isuf (2015a og 2015b)](https://www.strongerbyscience.com/art-and-science/). Vi bliver også dagligt klogere af at læse tanker fra følgende: [Eric Cressey](https://ericcressey.com/) (performance og balance), [Bret Contreas](https://bretcontreras.com/) (styrketræning og hoftens funktion), [Gray Cook](https://www.functionalmovement.com/) (functional movement og screening), [Dean Somerset](https://deansomerset.com/) (performance og stabilitet), [Eric Helms](https://3dmusclejourney.com/) (good ideas about what is more important) og [Mike Robertson](https://robertsontrainingsystems.com/).
-{: .notice .notice--info }
 
 ## Lav en træningsplan!
 
@@ -467,104 +627,4 @@ Dine muskler bliver nedbrudt af træning. Så snart du stopper træningen, begyn
 
 Det er vigtigt med en plan. Uden en plan går du bare får workout til workout uden nogen som helst styr på, om du faktisk bliver bedre undervejs.
 
-## Trænerens tjekliste for programlægning
-
-- Sæt dig grundigt ind i målene for den enkelte
-- Træning er individuel
-- Lav altid en screening og tjek bevægelserne
-- Tjek hensigtsmæssigheden i bevægelserne grundigt og juster vægten på øvelserne ift. hvad du ser
-
-## Hvad er det vigtigste for en træner i programlægningen?
-
-Som træner har du flere primære opgaver.
-
-- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at lave det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Hvis de ikke stoler på dig, så laver de ikke programmet.
-- **at ingen bliver skadet.** Det kan du sikre dig ved at sætte dig godt ind i teknikken af de enkelte løft, sørge for at udøveren går stille og roligt frem, så de ikke bliver overbelastede og ved at lave et fornuftigt program.
-- **at alle får resultater.** Det gør du ved at tage udgangspunkt i den enkelte, vælge nogle fornuftige øvelser og ‘at få folk til at træne’. Det er altid bedre at resultaterne lader vente lidt på sig, så vi ikke risikerer at folk bliver skadede.
-
-Typisk så har udøverne følge mål for deres træning. Det er de resultater, du som træner skal hjælpe udøveren med at opnå. Hvis der ikke sker noget, så daler motivationen eller tiltroen til dig som træner.
-
-- **Muskelopbygning.** Både piger og drenge vil gerne bygge synlige muskler op.
-- **Fedttab.** Mange vil gerne tage fedt alle mulige forskellige steder på kroppen. Typisk for at tone kroppen lidt.
-- **Atletisk performance.** Mange vil også gerne bruge styrketræningen til at blive bedre til deres idrætsgren. Det kan være at få bedre nærkampsstyrke, løbe hurtigere eller springe højere.
-
-## Hvad har træneren brug for at vide om atleten?
-
-Som træner er det godt at holde sig orienteret i den nyeste viden. Det allervigtigste er, at du har et enkelt system, som du sørger for at gennemteste med dine udøvere. Træning er individuel, hvilket betyder at en løsning ikke bare passer til alle, men dine overvejelser kan sagtens starte samme sted.
-
-20% af indsatsen giver 80% af resultaterne. Derfor er dit væsentligste redskab også, at du sørger for at inspirere folk til at lave ordentlige notater om deres træning. Du kan også lave nogle tests, som relaterer sig til udøverens mål.
-
-## Hvordan griber træneren programlægningen an?
-
-{% include figure image_path="/assets/images/training/tjekliste-screening.png" caption="" %}
-
-### Screening til programlægning
-
-Inden programlægningen overhovedet går i gang, så skal du have identificeret mål, forudsætninger og træningstilstand for den enkelte. Folk træner af mange forskellige årsager og har vidt forskellige udgangspunkter.
-
-Figuren nedenunder kunne være et udgangspunkt for din samtale.
-
-{% include figure image_path="/assets/images/training/screening.svg" caption="" %}
-
-**Gratis skabelon til screening af udøver**. Vi har lavet en skabelon, du kan bruge som udgangspunkt når du skal lave en screening af en udøver. På den måde glemmer du ikke nogen af punkterne - og du har en ensartet måde for alle dine udøvere. Hent skabelonen på [kortlink.dk/ghgm](https://kortlink.dk/ghgm).
-{: .notice .notice--info }
-
-## Assessment - af bevægelser
-
-Vi lærer hele tiden, men i øjeblikket synes vi at følgende tests af bevægelser, giver os en stor viden i forhold at sammensætte programmet.
-
-**Holdning.** Stå helt almindeligt med hænderne ned langs siden. Kig først på personen forfra. Hvis tommelfingrene peger frem mod dig, så står udøveren neutralt i skuldrene. Hvis håndryggen er drejet frem mod dig, så har personen en relativt stor indadrotation i skulderen. Hvis holdningen er således, er det formentlig en fordel at få trænet de muskler der styrer skulderbladet og trækker dem sammen. Det vil nemlig få skuldrene til at sætte sig på plads. Kig derefter på personen fra siden. Hvordan er hovedet position. Er nakken lang eller er hovedet lidt foran lodlinjen i kroppen. Bed vedkommende om at gøre sig lang.
-
-**Bækken tilt.** Kig på personen fra siden. Tiltet kan være anterior (hyperextension i nedre ryg), posterior (ingen kurve i nederste ryg) eller neutralt (der er en lille ekstension i nedre ryg). Tiltet i bækkenet kan have betydning for øvelsesvalget (Cressey 2013). De fleste ligger mellem APT og neutral (Contreas 2015).
-
-**Overhead Squat.** Et overhead squat giver en masse viden om ubalancer i kroppen. Start med tæerne pegende lige ud. Stå med fødderne i skulderbredde. Hvor langt kan du squatte ned uden at vælte. Positionen af armene kan sige noget om skulderbevægeligheden og bevægeligheden af øvre ryg. Hvor langt du kan komme ned kan sige noget om ankelmobiliteten. Denne bevægelse kan sige noget om, hvornår du er klar til at kunne lave en squat med god teknik.
-
-**Rør tæerne.** Dette er en test på de bremser din krop sætter på dig. Hvis ikke du kan nå tæerne uden de helt store problemer, så er du formentlig ikke klar til at kunne dødløfte. Arbejd således først med bevægeligheden og lav vægt (Gray Cook). Dødløft skal man gøre sig fortjent til.
-
-**Overhead reach against wall.** Inden du begynder at lave overhead press, snatch eller andre tunge øvelser med begge arme på en gang over hovedet, skal du have en ordentlig skuldermobilitet (Cressey 2014).
-
-### Introduktion af øvelser
-
-- **‘hip hinge’.** Det skal man mestre, når man styrketræner.
-- **Skulderbladenes bevægelse.** Lær hvordan skulderbladene bevæger sig. Skulderbladene er udgangspunktet for hvor stærk du er i armene, og de skal bevæge sig sammen.
-- **Bodyweight før vægt på.** Sørg for at man kan gøre det perfekt bare med kropsvægt, inden du begynder at putte vægt på folket.
-- **Bilateral før unilateral.** Start med at lave bevægelserne tosidigt, inden du begynder at lave bevægelserne med en side ad gangen.
-
-## Lave træningsprogrammet
-
-Overvejelser om hvordan træningen skal sættes sammen finder du i kapitlet om ‘Programlægning’. Nedenfor er der en tjekliste, som du kan gennemgå, mens du udformer træningsprogrammet. Når du har sat rettetegn til hvert punkt, har du været igennem de overvejelser, som er nødvendige.
-
-{% include figure image_path="/assets/images/training/tjekliste-traeningsprogram.png" caption="" %}
-
-## Tjekke teknikken for udførelsen
-
-Hvis en øvelse ikke kan udføres hensigtsmæssigt, så kan du se en fremgangsmåde nedenunder for, hvordan man kan rette op på det.
-
-Hvis en øvelse ikke kan gennemføres teknisk korrekt, så skal den ændres. Måske er der for meget vægt på? Måske passer setuppet ikke til personen?
-
-{% include figure image_path="/assets/images/training/technique-check.svg" caption="" %}
-
-### Lær at skalere øvelser op og ned
-
-Der er ikke noget som et perfekt program, der virker for alle. Ofte har man brug for at skalere øvelserne op eller ned ift. den person, som skal udføre programmet.
-
-Kropsbevidstheden, træningstilstanden, kropsbygning eller skader kan gøre, at man bliver nødt til at ændre øvelserne.
-
-Der er flere forskellige måder, man kan gøre en øvelse lettere eller sværere på.
-
-### Hvilke øvelser kræver isolationsarbejde?
-
-Man ser ofte folk stå og lave bicepscurl eller isolerede tricepsøvelser. Disse øvelser kan man afslutte sit program med, men husk bare at man ofte forveksler udmattelse og træthed med, at man får gode resultater.
-
-Baglårene kan være en øvelse, som man med fordel kan lave noget isolationsarbejde med. Men husk også at baglåret arbejder forskelligt alt efter om knæet og hoften er bøjet eller strakt. Vi anbefaler, at du langt hen ad vejen holder dig til flerledsøvelser.
-
-### Skabelon til programmet
-
-I programmet skal du have plads til at skrive øvelsesnavnet, antallet af sæt, repetitioner og hvor lang pausen skal være mellem sættene. Desuden kan det være en god ide at skrive hvilket tempo øvelsen skal køres i. Endelig bør der være plads til at skrive Perceived Rate of Exertion og kommentarer om, hvordan træningen i det hele taget er gået.
-
-**Gratis skabelon til træningsprogram**. Vi har lavet et par forskellige skabeloner, du kan bruge som udgangspunkt for dit træningsprogram. Hent en skabelon til ugeprogram på [kortlink.dk/ghgg](https://kortlink.dk/ghgg). Skabelon med plads til fire uger [kortlink.dk/gzu9](https://kortlink.dk/gzu9).
-{: .notice .notice--success }
-
-## Opsamling
-
-Som træner har du et stort ansvar. Du skal levere resultater uden at udøveren bliver skadet. Det gør du bedst ved at inspirere udøveren til at træne så godt som muligt, lave tests (kan fx bare være at følge vægtstigningen i programmet) og sørge for at notere alt ned. Det giver det bedste udgangspunkt for nye programmer og programjusteringer.
+{% endcomment %}
