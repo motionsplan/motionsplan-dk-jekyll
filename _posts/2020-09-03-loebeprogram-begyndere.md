@@ -151,7 +151,7 @@ Løbeprogrammet er lige nu under udvikling. Hvis du gerne vil i gang med at løb
 
 [Download løbeprogrammet til begyndere](https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing){: .btn .btn--large .btn--info rel="nofollow noopener" }
 
-Jeg har lavet en dybdegående artikel om, som du med fordel kan læse, når du gerne vil i gang med [løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/).
+Jeg har lavet en dybdegående artikel om, som du med fordel kan læse, når du [gerne vil i gang med løbetræningen](/artikel/kom-i-gang-med-loebetraeningen/), og du kan også se [alle vores løbeprogrammer](/loebeprogrammer/).
 
 Jeg håber, at du har fået lyst til at tage skridtet fra nybegynder til løber. Dette løbeprogram skulle gerne hjælpe dig på vej.
 

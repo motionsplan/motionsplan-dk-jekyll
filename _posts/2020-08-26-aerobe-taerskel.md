@@ -12,20 +12,27 @@ category:
 tags:
   - fysiologi
   - forbrænding
-  - anaerob
+  - aerob
   - mælkesyre
   - løb
+  - cykling
 ---
 
-Den aerobe tærskel markerer det intensitetsniveau, hvor kroppen begynder at producere mere laktat end i hviletilstand, men stadig kan bortskaffe det effektivt. Træning omkring denne tærskel er essentiel for at forbedre udholdenhed og øge kroppens evne til at forbrænde fedt som primær energikilde.
+Den aerobe tærskel markerer det intensitetsniveau, hvor kroppen begynder at producere mere laktat end i hviletilstand, men stadig kan bortskaffe det effektivt.
+
+Træning omkring denne tærskel er essentiel for at forbedre udholdenhed og øge kroppens evne til at forbrænde fedt som primær energikilde.
 
 ## Hvad er den aerobe tærskel?
 
 Der er stor forskel fra person til person, hvornår man opnår den aerobe tærskel. Den utrænede støder på tærsklen hurtigere end den trænede. De kan med andre ord træne med mindre intensitet i forhold den maksimale ydeevne inden mælkesyren begynder at stige.
 
-[Musklerne producerer mælkesyre](/maelkesyre-traening/) propertionelt med arbejdets intensitet, men når koncentrationen af mælkesyre i blodet når omkring 4 mmol, så kan særligt leveren ikke længere følge med til at fjerne mælkesyren. Det kalder man den [anaerobe tærskel](/anaerobe-taerskel/).
+Der produceres [mælkesyre i musklerne](/maelkesyre-traening/) hele tiden, når glykolysen spalter kulhydrat. Behovet for de anaerobe processer stiger, når intensiteten stiger.
 
-Her fokuserer vi i stedet på den **aerobe tærskel**. Det er punktet, hvor mælkesyreniveauet stiger over hvileniveauet.
+På et tidspunkt kan musklerne ikke længere selv bruge mælkesyren som energistof, og musklerne sender mælkesyren ud i blodbanen, hvor det kan måles som blodlaktat. Her er formålet at få det hen til andre muskelceller eller leveren for at blive udnyttet som energistof.
+
+Der er lidt forskellige definitioner af, hvad den aerobe tærskel nøjagtigt er.
+
+En definition er, at den **aerobe tærskel** er punktet, hvor mælkesyreniveauet stiger over hvileniveauet.
 
 Når du laver en iltoptagelsestest, så bruges mælkesyreophobningen til at skelne mellem den **aerobe tærskel og den anaerobe tærskel**.
 
@@ -39,19 +46,40 @@ LT1 er defineret som den intensitet, hvor laktat i blodet begynder at stige over
 
 LT2 er på det tidspunkt, hvor der kommer en stigning i koncentrationen af laktat i blodet, når man sætter intensiteten op. På dette punkt kan kroppen - og særligt leveren - ikke længere bortskaffe den mælkesyre, der produceres i musklerne. Typisk ligger denne værdi mellem 2,5-5,5 mmol/l, men traditionelt har man sat den anaerobe tærskel ved 4,0 mmol/l.
 
-## Hvordan finder jeg den aerobe tærskel?
+Bliv klogere på den [anaerobe tærskel](/anaerobe-taerskel/).
+{: .notice }
 
-Der er forskellige bud på, hvordan du kan finde den aerobe tærskel. Du kan naturligvis altid bestille en laboratorietest, men det har alle ikke råd til.
+## Sådan finder du den aerobe tærskel - 4 metoder
 
-Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde den **aerobe tærskel**.
+Der er forskellige bud på, hvordan du kan finde den aerobe tærskel. Lad os kigge på dem her:
+
+### 1. Laboratorietest med laktatmålinger
+
+Den mest præcise måde at finde din aerobe tærskel er ved en [blodlaktattest](/laktattest/). Denne test kræver en laktatmåler, men så får du også bestemt din aerobe zone helt præcist. Testen kan kombineres med en submaksimal iltoptagelsestest, hvor du kan sammenholde din iltoptagelse og puls med dine laktatværdier.
+
+### 2. Træningszoner - pulsberegninger
+
+Når du finder dine [træningszoner](/traeningszoner/), så kan du [udregne dine pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Det kan du gøre på flere forskellige måder. Den aerobe tærskel vil teoretisk set svare til toppen af zone 2 i disse beregninger i en 5-zone model og toppen af zone 1 i en 3-zone model.
+
+### 3. Snakketesten - RPE-testen
+
+Når du træner, og du kan fortsætte med at snakke nogenlunde uhindret sammen med din træningsmakker, så er du nogenlunde omkring den aerobe tærskel. Efter den aerobe tærskel vil åndedrættet gå i vejret, og derfor bliver det vanskeligere at have en uhindret samtale.
+
+Det svarer til omkring [14-15 på borgskalaen](/borg-skala/) eller omkring 3-4 på RPE-skalaen (der går fra 1-10).
+
+### 4. Maffetone maximal aerobic heart rate
+
+Phil Maffetone opererer med følgende formel til at finde den **aerobe tærskel**.
+
+***
 
 MAHR = 180 - alder + kategori
 
-Denne tærskel er udgangspunktet for Phil Maffetone-metoden. Det tal reviderer du så ud fra, hvilken kategori du hører til. Du kan se de forskellige kategorier i denne beregner.
+***
 
-{% include calculator/calculate-maffetone-aerobic.html %}
+Denne pulstærskel er udgangspunktet for Phil Maffetone-metoden. Din træning skal så holde sig under dette tal for at blive omkring den aerobe tærskel.
 
-En standardberegning passer naturligvis ikke på alle mennesker. Maffetone foreslår, at dette tal er din aerobe tærskel. Det betyder, at det er den øvre grænse af zone 2. Så når du skal lave lavintensitetstræning, så skal du bare holde dig under dette tal.
+Vi går i dybden med [Maffetone-metoden](/maffetone-metoden), hvor du også finder en beregner, som du kan bruge til at udregne den maksimale puls.
 
 ## Konklusion
 

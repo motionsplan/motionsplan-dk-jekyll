@@ -82,10 +82,10 @@ feature_row_howto_program:
 feature_row_rm_calculator:
   - image_path: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "RM-beregner"
-    title: "RM-beregner"
-    excerpt: "RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse. Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter."
-    url: "/rm-beregner/"
-    btn_label: "Beregn din styrke"
+    title: "Lav din egen maxtest (1RM)"
+    excerpt: "Styrkeløft går ud på at løfte så meget så muligt totalt. Hvis du gerne vil lave din egen maxtest, så tjek vores guide."
+    url: "/rm-maxtest/"
+    btn_label: "Sådan laver du en maxtest"
     btn_class: "btn--info"
 classes: wide
 ---
@@ -180,7 +180,7 @@ Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del
 
 {% include feature_row id="feature_row_rm_calculator" type="left" %}
 
-## Flere tests og beregnere til styrketræning
+## Relevante tests og beregnere til styrkeløft
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "beregner" | sort: "date" %}
 

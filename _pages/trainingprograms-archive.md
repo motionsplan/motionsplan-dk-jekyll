@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Træningsprogrammer til styrke, løb og cykling
-seo_title: "Træningsprogrammer – Find det rette program til din sport"
+seo_title: "Træningsprogrammer – Find det rette program til dine mål"
 permalink: /traeningsprogrammer/
 excerpt: "Find træningsprogrammer til styrketræning, løb og cykling. Uanset dit niveau kan du få et skræddersyet program, der hjælper dig med at nå dine mål."
 description: "Find træningsprogrammer til styrke, løb og cykling. Vælg det rette program til dit niveau og mål, og få struktur i din træning."
@@ -17,7 +17,6 @@ classes: wide
 header:
   overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Træningsprogrammer: fullbody, 2-split, 3-split, 4-split og 5-split styrketræning"
 faq:
   - question: "Hvilket træningsprogram skal jeg vælge?"
     answer: "Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/), som du kan lade dig inspirere af."
@@ -31,15 +30,30 @@ feature_row_choose_running_program:
     title: "Sådan vælger du et løbeprogram"
     excerpt: "Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer til at blive hurtigere på 5km, 10 km, halvmaraton og maraton."
     url: "/loebeprogrammer/"
-    btn_label: "Find dit program"
+    btn_label: "Find dit løbeprogram"
     btn_class: "btn--info"
+feature_row_template:
+  - image_path: /assets/images/template/jack-daniels.png
+    url: /skabeloner/
+    title: "Skabeloner til træningsprogrammer"
+    excerpt: "Har du brug for en skabelon til dit træningsprogram, så kan du lade dig inspirere af vores GRATIS skabeloner til træningsporgrammer."
+    btn_label: "<i class='fas fa-file-alt'></i> Tjek skabeloner til træningsprogrammer"
+    btn_class: "btn--info"
+    rel: nofollow noopener
 feature_row_good_program:
   - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
     alt: "Hvad er et godt styrketræningsprogram?"
     title: "Hvad er et godt styrketræningsprogram?"
     excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
     url: "/vaelg-traeningsprogram/"
-    btn_label: "Få svarene"
+    btn_label: "Vælg det rette styrketræningsprogram"
+    btn_class: "btn--info"
+feature_row_walking_training:
+  - image_path: https://images.unsplash.com/photo-1613931372190-b067a12f73b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHdhbGtpbmd8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=10
+    url: /gangtraening/
+    title: "Træning og gang"
+    excerpt: "Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning."
+    btn_label: "Inspiration til gåtræning"
     btn_class: "btn--info"
 ---
 
@@ -91,6 +105,10 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 </div>
 
+## Gangprogrammer - gå dig i form
+
+{% include feature_row id="feature_row_walking_training" type="left" %}
+
 ## Flere forslag til træningsprogrammer
 
 Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
@@ -120,6 +138,10 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 {% endif %}
 
 </div>
+
+## Skabeloner til træningsprogrammer
+
+{% include feature_row id="feature_row_template" type="left" %}
 
 ## Ofte stillede spørgsmål om træningsprogrammer
 

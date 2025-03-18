@@ -25,7 +25,7 @@ faq:
   - question: "Hvor mange sæt og gentagelser skal jeg lave?"
     answer: "Et godt udgangspunkt er 3 sæt af 8-12 gentagelser pr. øvelse. Dette giver en god balance mellem styrke og muskelopbygning."
   - question: "Hvor meget vægt skal jeg starte med?"
-    answer: "Start med en vægt, du kan løfte med god teknik i 8-12 gentagelser. Øg vægten gradvist, når du kan lave alle gentagelser uden problemer."
+    answer: "Start med en vægt, du kan løfte med god teknik i 8-12 gentagelser. Første gang du skal lave en øvelse, så laver du nogle opvarmningssæt, og du øger bare vægten stille og roligt indtil du synes den passer ift. det antal gentagelser, du gerne vil lave. I de efterfølgende træningspas øger ud vægten gradvist, når du kan lave alle gentagelser uden problemer."
   - question: "Skal jeg træne med frie vægte eller maskiner?"
     answer: "Frie vægte aktiverer flere muskler og forbedrer koordination, men maskiner kan være gode til at lære bevægelser sikkert som begynder."
   - question: "Hvor lang tid tager et træningspas?"

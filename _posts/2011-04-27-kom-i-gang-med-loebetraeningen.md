@@ -1,7 +1,9 @@
 ---
-title: &title "Løbetræning: Kom i gang med at løbe med et løbeprogram 🏃🏃‍♀️"
-seo_title: "Løbetræning: Kom i gang med at løbe med et løbeprogram"
+title: &title "Løbetræning for begyndere: Kom godt i gang 🏃🏃‍♀️"
+seo_title: "Løb for begyndere: Kom godt i gang med et løbeprogram"
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
+description: "Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation til din første løbetur."
+excerpt: "Kom i gang med løbetræning! Læs vores guide til begyndere og få et nemt løbeprogram, gode råd om tempo og motivation til din første løbetur."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -18,7 +20,7 @@ tags:
   - guide
 category:
   - Løb
-last_modified_at: 2020-02-13T21:41:09Z
+last_modified_at: 2025-02-13T21:41:09Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
@@ -45,7 +47,7 @@ feature_row_stryd:
     rel: sponsored nofollow noopener
 ---
 
-Vil du gerne i gang med at løbe, eller løbetræner du for at blive en bedre løber? Hvordan kommer du i gang med løbetræningen, og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?
+Vil du gerne i gang med at løbe, eller løbetræner du for at blive en bedre løber? Hvordan kommer du i gang med [løbetræningen](/loebesiden/), og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?
 
 Jeg dykker i det her indlæg ned i, hvad der skal til for, at du kan blive en bedre løber. Jeg vil vise dig, hvordan du selv kan lave et løbeprogram for din løbetræning, som vil skabe resultater på lang sigt.
 
@@ -132,17 +134,25 @@ Det overraskende er, at der faktisk er mode i træning og den type løbetræning
 
 Derfor foreslår han, at du skal holde dig til principper, som er mere eller mindre tidløse.
 
-Han foreslår følgende principper som udgangspunkt for din træning:
+Han foreslår **følgende tidløse principper** som udgangspunkt for din træning:
 
-- Motivation
-- Restitution
-- Træning
+1. Motivation
+2. Restitution
+3. Træning
 
-Hvis ikke du kan holde **motivationen**, så har du ikke noget fundament for dag efter dag at komme ud og løbe. **Verdens bedste løbeprogram er det program, du rent faktisk får lavet.**
+Hvis ikke du kan holde **motivationen**, så har du ikke noget fundament for dag efter dag at komme ud og løbe.
 
-Når du så er i gang med at træne, så skal du virkelig være opmærksom på din **restitution**. Jeg er selv mange gange blevet for ivrig eller lagt for mange kilometer på. Derfor er **verdens bedste løbeprogram det program, som husker hvornår du skal restituere**. Uden restitution ender du på skadeslisten i stedet.
+**Verdens bedste løbeprogram er det program, du rent faktisk får lavet.**
 
-Endelig så skal du også lave din **træning**. Dit løbeprogram er planen, og din motivation til at lave løbetræningen sikrer, at du får udført løbeprogrammet. **Verdens bedste løbetræning er det program, som kender træningsprincipperne og princippet om progressivt overload**.
+Når du så er i gang med at træne, så skal du virkelig være opmærksom på din **restitution**. Jeg er selv mange gange blevet for ivrig eller lagt for mange kilometer på. 
+
+**Verdens bedste løbeprogram det program, som husker hvornår du skal restituere**.
+
+Uden restitution ender du på skadeslisten i stedet.
+
+Endelig så skal du også lave din **træning**. Dit løbeprogram er planen, og din motivation til at lave løbetræningen sikrer, at du får udført løbeprogrammet.
+
+**Verdens bedste løbetræning er det program, som kender træningsprincipperne og princippet om progressivt overload**.
 
 For at få den bedst mulige oplevelse af din løbetræning, så har du brug for alle tre elementer. Ingen af elementerne kan stå alene.
 
@@ -227,11 +237,11 @@ I min forståelse for at lave et godt løbeprogram, så har jeg været inspirere
 
 Når du skal lave et godt løbeprogram, så skal du altså tage højde for følgende.
 
-- Motivation
-- Restitution
-- Træning
+1. Motivation
+2. Restitution
+3. Træning
 
-Du kan grundlæggende med fordel lave løbeprogrammet med udgangspunkt i de tre forskellige løbeture.
+Du kan med fordel lave løbeprogrammet med udgangspunkt i de tre forskellige løbeture.
 
 - Langsom løbetur i snakketempo
 - Hurtig løbetur omkring mælkesyregrænsen
@@ -247,23 +257,19 @@ Du kan styre det progressive overload med følgende paramtre:
 - **Intensitet**. Hvor mange minutter bruger du i hver zone? Du skal bruge langt mest tid i den træningszone, hvor du løber relativt langsomt. Sørg for at intensiteten varierer over ugen.
 - **Frekvens**. Det er bedre at løbe lidt flere gange end at lave en stor træning. Prøv at gøre løb til en vane. En del af hasigheden skal foregå i det langsomme tempo, så det behøver ikke være vanskeligt at trække sig ud at løbe.
 
-## Hvordan finder jeg mit tempo?
+## Hvordan finder jeg mit intensitet?
 
 Grundlæggende kan du bruge enten tempo, watt eller puls til at bestemme dit løbetempo.
 
-Der er fordele og ulemper ved begge ting.
+Der er fordele og ulemper ved alle fremgangsmåderne.
 
 - **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din [maksimale puls](/test-max-puls/) og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo](/loebesiden-jack-daniels-loebeberegner/). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
-- **Watt**. Hvis du fx har en Stryd Wattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
+- **Watt**. Hvis du fx har en [Stryd Wattmåler](/loeb-watt/) eller anden løbewattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
 
 ## Konklusion
 
 Jeg har skrevet mere om [forskellige løbeprogrammer](/loebeprogrammer/), hvis du gerne vil finde ud af, hvilket løbeprogram, der er det rigtige for dig. I denne artikel har vi forsøgt at give nogle overordnede pejlemærker for, hvordan du kan skrue din løbetræning sammen.
-
-## Køb en watt måler til løb
-
-{% include feature_row id="feature_row_stryd" type="left" %}
 
 ## Bøger om løbetræning og løbeprogrammer
 

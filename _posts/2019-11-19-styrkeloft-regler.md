@@ -6,7 +6,7 @@ description: "Få en detaljeret oversigt over de officielle regler for squat, b�
 permalink: /powerlifting-rules/
 slanguage: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534367990512-edbdca781b00?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?q=80&w=3273&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=60&w=1200&h=630&auto=format&fit=crop
   teaser: https://images.unsplash.com/photo-1534367990512-edbdca781b00?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Regler til styrkeløft og powerlifting"
 category:

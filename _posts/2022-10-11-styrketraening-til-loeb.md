@@ -11,7 +11,6 @@ header:
   overlay_filter: 0.3
 category:
   - Løb
-  - Styrketræning
 tags:
   - styrketræning
   - løb
@@ -60,7 +59,7 @@ I studierne brugte man primært øvelserne squat, benpres og leg extensions.
 
 Denadai et al (2017) konkluderer, at der er en tendens til, at de gavnlige effekter af styrketræningen på løbeøkonomien bliver større jo længere træningsforløbet strakte sig over.
 
-## Kan styrketræning flytte den anaerobe tærskel?
+## Kan styrketræning for løbere flytte den anaerobe tærskel?
 
 [Defintionen på den anaerobe tærskel](/anaerobe-taerskel/) er den intensitet, hvor kroppen netop kan nå at fjerne den mængde mælkesyre, som musklerne producerer.
 
@@ -279,6 +278,8 @@ Lav et træningsprogram med 3-5 gentagelser med 3-5 sæt, hvor du har 1-4 gentag
 Støren et al (2008) brugte kun en enkelt øvelse (halve squats), så det behøver ikke tage lang tid eller være særlig kompliceret.
 
 Jeg ville dog nok kombinere træningen med lidt forskellige variationer af øvelser, fx også nogle 1-bensøvelser.
+
+Du kan læse videre i vores [guide til at blive en bedre løber](/bedre-loeber/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

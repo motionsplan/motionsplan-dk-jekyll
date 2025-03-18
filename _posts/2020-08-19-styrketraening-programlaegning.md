@@ -1,6 +1,8 @@
 ---
 title: &title "Komplet guide til programlægning i styrketræning"
-seo_title: "Komplet guide til programlægning i styrketræning"
+seo_title: "Programlægning i styrketræning: Din komplette guide"
+excerpt: "Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide, der dækker alle grundlæggende træningsprincipper for at skabe et program, der passer til dine mål."
+description: "Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide, der dækker alle grundlæggende træningsprincipper for at skabe et program, der passer til dine mål."
 permalink: /traeningsprogram-programlaegning-styrketraening/
 redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
@@ -16,7 +18,7 @@ tags:
   - styrketræning
   - begynder
   - guide
-last_modified_at: 2020-01-23T08:14:14Z
+last_modified_at: 2023-01-23T08:14:14Z
 toc: true
 ---
 
@@ -75,24 +77,6 @@ Træning er en koncentreret påvirkning af kroppen. Hvis man ikke tilrettelægge
 
 Træning skal doseres rigtigt og med omtanke.
 
-## Hvordan skal jeg dosere min styrketræning?
-
-Det kommer helt an på, hvad du vil opnå. I et metaanalyse af 140 styrketræningsstudier sammenlignede man, hvordan utrænede og trænede skulle træne (Rhea et al 2003). I studiet definerede man utrænede som folk der har trænet mindre end et år, og trænede som har trænet mere end et år.
-
-Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kroppen bygges op. Desto hårdere man træner, desto længere skal kroppen bruge på at bygge sig selv op igen. Det er bl.a. en af forklaringerne på forskellene mellem de trænede og utrænede, idet trænede kan belaste kroppen hårdere.
-
-De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-maxtest/) med fordel kunne være.
-
-Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
-
-|            | Begynder         | Trænet              |
-|------------|------------------|---------------------|
-| Erfaring   | Mindre end et år | Mere end et år      |
-| Belastning | 60% 1RM          | 80% 1RM             |
-| Sæt        | 4                | 4                   |
-| Pr. uge    | 3                | 2                   |
-| Type       | Helkrop          | Helkrop eller split |
-
 ## 20% af indsatsen giver 80% af resultaterne
 
 Du kan få rigtig meget ud af at gøre gøre din træning enkel. Sandheden er formentlig, at det er 20% af arbejdet, der giver dig 80% af resultaterne. De 20% gør dig virkelig god. Og de 20% handler om basisviden.
@@ -112,6 +96,16 @@ Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til
 Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og [ordentlig søvn](/soevn/) kan flytte kurven opad.
 
 {% include figure image_path="/assets/images/training/response-training.svg" caption="" %}
+
+## Adaptationer der gør dig stærkere
+
+Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. 
+
+Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+
+Det er sandsynligt at den neurale adaptation sker først - nærmest fra allerførst gang du træner. Derefter følger muskelmassen. Figuren viser også, at når man har trænet et stykke tid, bliver det vanskeligere at forbedre sig - og det kræver en større og større indsats.
+
+For at få muskeltilvækst kræver det en relativt stor volumen, så hvis du gerne vil være stærkere og mere eksplosiv uden at dine muskler vokser, kan du altså træne med relativt tunge vægte, men en lav volumen. Vær dog opmærksom på at det kan være en god ide at oparbejde en større arbejdskapacitet, så du kan holde til at træne nok (Nucklos & Isuf 2015b).
 
 ## Vent på genopbygningen
 
@@ -152,42 +146,6 @@ Men husk SAID-princippet om _Specific Adaptation to Imposed Demands_.
 Der findes imidlertid også flere andre måder at sørge for, at dit program giver ‘progressive overload’. Du kan se, hvordan du kan opnå ‘progressive overload’ nedenunder:
 
 {% include figure image_path="/assets/images/training/progressive-overload.svg" caption="Progressive overload kan opnås på flere forskellige parametre i styrketræning" alt="progressiv overload" %}
-
-## Volumen
-
-Volumen er den mest kritiske faktor ift. styrke og muskelstørrelse. Den mest sikre måde at blive stærkere på, er at lave mere, fordi kroppen så vil tilpasse sig mere. Kroppen opfatter træningen som en trussel, og den tilpasser sig, så den er mere klar næste gang, du går i krig med træning.
-
-Du finder volumen af din træning på følgende måde:
-
-    VOLUMEN = SÆT x GENTAGELSER x VÆGT
-
-Udregningerne af volumen fungerer bedst, når du har øvelser, der ligner hinanden. Det betyder, at du ikke kan nå dit fulde styrkepotentiale ved altid at træne rigtig tungt med lav vægt. Volumen er med til at forbedre din arbejdskapacitet (Nucklos & Isuf 2015a).
-
-I tabellen nedenfor er der nogle tommelfingerregler for hvor meget volumen, du laver i en træning. Volumen er en væsentlig faktor ift. muskeltilvækst.
-
-{% include figure image_path="/assets/images/training/gentagelser.png" caption="" %}
-
-## Intensitet
-
-Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)](/rm-maxtest/), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt.
-
-For det meste af din træning er omkring 70-80% af din 1RM et fint interval at løfte i. Du kan se i nedenstående tabel, at det svarer til at løfte med omkring 7-12 gentagelser.
-
-Der findes forskellige måder at udregne intensiteten og 1RM. Vi har lavet vores egen [beregner til one rep max](/rm-beregner/), men tabellen nedenunder er den mest brugte formular.
-
-Desto højere du sætter intensiteten, desto længere skal pauserne være og restitutionstiden være.
-
-{% include figure image_path="/assets/images/training/1rm.png" caption="Estimeret antal reps ved en procentdel af 1RM" alt="estimeret antal reps procentvis 1rm" %}
-
-## Adaptationer der gør dig stærkere
-
-Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. 
-
-Musklen vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
-
-Det er sandsynligt at den neurale adaptation sker først - nærmest fra allerførst gang du træner. Derefter følger muskelmassen. Figuren viser også, at når man har trænet et stykke tid, bliver det vanskeligere at forbedre sig - og det kræver en større og større indsats.
-
-For at få muskeltilvækst kræver det en relativt stor volumen, så hvis du gerne vil være stærkere og mere eksplosiv uden at dine muskler vokser, kan du altså træne med relativt tunge vægte, men en lav volumen. Vær dog opmærksom på at det kan være en god ide at oparbejde en større arbejdskapacitet, så du kan holde til at træne nok (Nucklos & Isuf 2015b).
 
 ## Opsamling på træningslære
 
@@ -267,7 +225,7 @@ Du bør fokusere på det, der giver størst afkast ift. den tid og de kræfter, 
 
 Nedenstående forsøger at give et  bud på, hvad der er allervigtigst, når du laver (og følger) et styrketræningsprogram.
 
-{% include figure image_path="/assets/images/training/helms-trainingpyramid.svg" caption="Eric Helms træningspyramide" %}
+{% include figure image_path="/assets/images/training/helms-trainingpyramid.svg" caption="Eric Helms træningspyramide. Læs mere under [Træningspyramiden af Eric Helms](/traeningspyramiden-styrketraening/)." %}
 
 ### Hvor ofte skal jeg styrketræne?
 
@@ -287,6 +245,85 @@ En af de mest typiske fejl i programlægning er at lægge for stor vægt på sup
 Helt grundlæggende kan du vælge enten et full body-program eller et split-program. Det er vores helt klare opfattelse, at begyndere skal starte med et helkropsprogram indtil du ikke længere får gode resultater fra den måde at sammensætte et program på.
 
 **Valget af øvelser kan være en rigtig god ide ift. at lave progression i sit program. Typisk starter man lidt konservativt ift. antallet af reps og sæt, men måske kan det være en bedre ide at lave en fornuftig progression af øvelserne.**
+
+### Vælg øvelser der giver mening
+
+Uanset om du er på et helkropsprogram eller et splitprogram, så vælg øvelser der giver mening, og som du kan finde ud af at lave teknisk korrekt. Det vigtigste er at dine øvelser giver resultater og har minimal skadesrisiko ift. det udbytte du gerne vil have ud af træningen.
+
+***
+
+**Et par eksempler på øvelser med unødvendig skadesrisiko**
+
+**Boxjumps.** Vil du risikere sår på skinnebene eller overrevne achillessener ved blindt at køre box jumps, fordi det gør man i crossfit? Der er rigtig mange andre, mere sikre øvelser hvor du kan træne din springkraft. Eller du kan sørge for at gå ned for hver gentagelse i stedet for at hoppe baglæns ned. At lave dem på den måde kræver lang tilvænning.
+
+**Ondt i ryggen.** Hvis du får ondt i ryggen af squat, så kan du arbejde på små justeringer af teknikken med lidt mindre vægt på. Hvis du gerne vil udfordre lårene, kan du supplere med Bulgarian Split Squat, hvor det bageste ben er hævet op på en bænk.
+
+## De vigtigste parametre i et styrketræningsprogram
+
+<details markdown="1" class="faq">
+  <summary>🔄 Frekvens: Hvor ofte?</summary>
+  <p>Frekvens handler om, hvor ofte du træner en muskelgruppe eller udfører en specifik øvelse. For at blive virkelig god til noget, er det nødvendigt at praktisere det regelmæssigt.</p>
+  <p>Dette er i tråd med SAID-princippet: Specific Adaptation to Imposed Demands. Øgningen af frekvensen giver dig mulighed for at finpudse din teknik og opnå en større træningsvolumen over tid, hvilket fører til bedre resultater som øget styrke og muskelvækst.</p>
+</details>
+
+<details markdown="1" class="faq">
+  <summary>📊 Volumen: Hvor meget?</summary>
+  <p>Volumen refererer til det samlede antal gentagelser, du udfører i træningen. Dette beregnes ved at multiplicere antallet af sæt med antallet af gentagelser (S x R). For eksempel, hvis du laver 3 sæt med 12 gentagelser, giver det en volumen på 36 gentagelser.</p>
+  <p>Volumen kan også beskrives som den totale vægt, du løfter i en træning, ofte kaldet tonnage eller volume load. For eksempel: 3 sæt x 12 gentagelser x 30 kg = 1.080 kg.</p>
+
+Volumen er den mest kritiske faktor ift. styrke og muskelstørrelse. Den mest sikre måde at blive stærkere på, er at lave mere, fordi kroppen så vil tilpasse sig mere. Kroppen opfatter træningen som en trussel, og den tilpasser sig, så den er mere klar næste gang, du går i krig med træning.
+
+Du finder volumen af din træning på følgende måde:
+
+    VOLUMEN = SÆT x GENTAGELSER x VÆGT
+
+Udregningerne af volumen fungerer bedst, når du har øvelser, der ligner hinanden. Det betyder, at du ikke kan nå dit fulde styrkepotentiale ved altid at træne rigtig tungt med lav vægt. Volumen er med til at forbedre din arbejdskapacitet (Nucklos & Isuf 2015a).
+
+I tabellen nedenfor er der nogle tommelfingerregler for hvor meget volumen, du laver i en træning. Volumen er en væsentlig faktor ift. muskeltilvækst.
+
+{% include figure image_path="/assets/images/training/gentagelser.png" caption="" %}
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🏋️‍♂️ Intensitet: Hvor tungt?</summary>
+  <p>Intensitet refererer til, hvor tungt du løfter, og beregnes som en procentdel af din 1RM (den maksimale vægt, du kan løfte én gang). Styrketræning opdeles ofte i tre intensitetszoner, som hver giver forskellige resultater:</p>
+  <ul>
+    <li>Let: 13-20+ gentagelser. Denne zone er god for dem, der ønsker at forbedre udholdenhed og øge muskelmasse.</li>
+    <li>Moderat: 6-12 gentagelser. Dette er ideelt for dem, der ønsker at opbygge både muskelmasse og styrke.</li>
+    <li>Tungt: 1-5 gentagelser. Fokuserer på at opbygge styrke og maxstyrke.</li>
+  </ul>
+  <p>Selv om disse zoner kan hjælpe med at målrette din træning, kan du stadig opnå forbedringer på tværs af gentagelsesområder. For eksempel kan gentagelser op mod 50 per sæt også give muskelvækst, men med mindre fokus på styrkeøgning.</p>
+  <p>Jo lettere du træner, desto vigtigere bliver det at presse dig tæt på failure for at sikre effektiv muskelvækst.</p>
+
+Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)](/rm-maxtest/), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt.
+
+For det meste af din træning er omkring 70-80% af din 1RM et fint interval at løfte i. Du kan se i nedenstående tabel, at det svarer til at løfte med omkring 7-12 gentagelser.
+
+Der findes forskellige måder at udregne intensiteten og 1RM. Vi har lavet vores egen [beregner til one rep max](/rm-beregner/), men tabellen nedenunder er den mest brugte formular.
+
+Desto højere du sætter intensiteten, desto længere skal pauserne være og restitutionstiden være.
+
+{% include figure image_path="/assets/images/training/1rm.png" caption="Estimeret antal reps ved en procentdel af 1RM" alt="estimeret antal reps procentvis 1rm" %}
+
+</details>
+
+## Hvordan skal jeg dosere min styrketræning?
+
+Det kommer helt an på, hvad du vil opnå. I et metaanalyse af 140 styrketræningsstudier sammenlignede man, hvordan utrænede og trænede skulle træne (Rhea et al 2003). I studiet definerede man utrænede som folk der har trænet mindre end et år, og trænede som har trænet mere end et år.
+
+Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kroppen bygges op. Desto hårdere man træner, desto længere skal kroppen bruge på at bygge sig selv op igen. Det er bl.a. en af forklaringerne på forskellene mellem de trænede og utrænede, idet trænede kan belaste kroppen hårdere.
+
+De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-maxtest/) med fordel kunne være.
+
+Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
+
+|            | Begynder         | Trænet              |
+|------------|------------------|---------------------|
+| Erfaring   | Mindre end et år | Mere end et år      |
+| Belastning | 60% 1RM          | 80% 1RM             |
+| Sæt        | 4                | 4                   |
+| Pr. uge    | 3                | 2                   |
+| Type       | Helkrop          | Helkrop eller split |
 
 ## Sammensætning af træningsprogram
 
@@ -330,18 +367,6 @@ Du kan vælge et splitprogram, når du er rutineret (har trænet regelmæssigt i
 - Accessory Push/Pull Superset 2
 - Core/Finisher
 - Cool Down/Flexibility
-
-### Vælg øvelser der giver mening
-
-Uanset om du er på et helkropsprogram eller et splitprogram, så vælg øvelser der giver mening, og som du kan finde ud af at lave teknisk korrekt. Det vigtigste er at dine øvelser giver resultater og har minimal skadesrisiko ift. det udbytte du gerne vil have ud af træningen.
-
-***
-
-**Et par eksempler på øvelser med unødvendig skadesrisiko**
-
-**Boxjumps.** Vil du risikere sår på skinnebene eller overrevne achillessener ved blindt at køre box jumps, fordi det gør man i crossfit? Der er rigtig mange andre, mere sikre øvelser hvor du kan træne din springkraft. Eller du kan sørge for at gå ned for hver gentagelse i stedet for at hoppe baglæns ned. At lave dem på den måde kræver lang tilvænning.
-
-**Ondt i ryggen.** Hvis du får ondt i ryggen af squat, så kan du arbejde på små justeringer af teknikken med lidt mindre vægt på. Hvis du gerne vil udfordre lårene, kan du supplere med Bulgarian Split Squat, hvor det bageste ben er hævet op på en bænk.
 
 ***
 
@@ -412,7 +437,7 @@ Tempoet for hvordan en gentagelse udføres, betyder noget for dit træningsudbyt
 
 {% include figure image_path="/assets/images/training/tempo.png" caption="" %}
 
-Et godt og typisk råd er “langsomt ned og hurtigt op”. Hvis jeg skulle skrive det op, ville de nogenlunde se ud som ovenfor. Fx i bænkpres vil jeg sænke vægten, mens jeg langsomt tæller til tre. Så snart stangen er ved brystet, vil jeg forsøge at få vægten op igen så hurtigt som muligt. På toppen vil jeg holde en kort pause, så jeg får styr over vægten. Tallene svarer til den måde, du tænker at vægten skal bevæge sig på. Det kan godt være svært at få en tung vægt rigtig hurtigt op, men det er tanken bag.
+Et godt og typisk råd er “kontrolleret ned og hurtigt op”. Hvis jeg skulle skrive det op, ville de nogenlunde se ud som ovenfor. Fx i bænkpres vil jeg sænke vægten, mens jeg langsomt tæller til t0. Så snart stangen er ved brystet, vil jeg forsøge at få vægten op igen så hurtigt som muligt. På toppen vil jeg holde en kort pause, så jeg får styr over vægten. Tallene svarer til den måde, du tænker at vægten skal bevæge sig på. Det kan godt være svært at få en tung vægt rigtig hurtigt op, men det er intentionen der er vigtig.
 
 Og det ser ud til, at det er virkelig effektivt at tænke sin træning på den måde. Et studium har vist at hvis at styrkefremgangen i bænkpres var dobbelt så stor for den gruppe, der havde til hensigt at få løftet vægten dobbelt så hurtigt (Nuckols 2014). Det er jo også værd at tage med.
 
@@ -530,7 +555,7 @@ Vi lærer hele tiden, men i øjeblikket synes vi at følgende tests af bevægels
 - **Bodyweight før vægt på.** Sørg for at man kan gøre det perfekt bare med kropsvægt, inden du begynder at putte vægt på folket.
 - **Bilateral før unilateral.** Start med at lave bevægelserne tosidigt, inden du begynder at lave bevægelserne med en side ad gangen.
 
-## Lave træningsprogrammet
+## Lav træningsprogrammet
 
 Overvejelser om hvordan træningen skal sættes sammen finder du i kapitlet om ‘Programlægning’. Nedenfor er der en tjekliste, som du kan gennemgå, mens du udformer træningsprogrammet. Når du har sat rettetegn til hvert punkt, har du været igennem de overvejelser, som er nødvendige.
 
@@ -554,7 +579,7 @@ Der er flere forskellige måder, man kan gøre en øvelse lettere eller sværere
 
 ### Hvilke øvelser kræver isolationsarbejde?
 
-Man ser ofte folk stå og lave bicepscurl eller isolerede tricepsøvelser. Disse øvelser kan man afslutte sit program med, men husk bare at man ofte forveksler udmattelse og træthed med, at man får gode resultater.
+Man ser ofte folk stå og lave biceps-curl eller isolerede tricepsøvelser. Disse øvelser kan man afslutte sit program med, men husk bare at man ofte forveksler udmattelse og træthed med effektiv træning. Resultater kan komme på rigtig mange måder.
 
 Baglårene kan være en øvelse, som man med fordel kan lave noget isolationsarbejde med. Men husk også at baglåret arbejder forskelligt alt efter om knæet og hoften er bøjet eller strakt. Vi anbefaler, at du langt hen ad vejen holder dig til flerledsøvelser.
 
@@ -562,9 +587,22 @@ Baglårene kan være en øvelse, som man med fordel kan lave noget isolationsarb
 
 I programmet skal du have plads til at skrive øvelsesnavnet, antallet af sæt, repetitioner og hvor lang pausen skal være mellem sættene. Desuden kan det være en god ide at skrive hvilket tempo øvelsen skal køres i. Endelig bør der være plads til at skrive Perceived Rate of Exertion og kommentarer om, hvordan træningen i det hele taget er gået.
 
-**Gratis skabelon til træningsprogram**. Vi har lavet et par forskellige skabeloner, du kan bruge som udgangspunkt for dit træningsprogram. Hent en skabelon til ugeprogram på [kortlink.dk/ghgg](https://kortlink.dk/ghgg). Skabelon med plads til fire uger [kortlink.dk/gzu9](https://kortlink.dk/gzu9).
+**Gratis skabelon til træningsprogram**. Vi har lavet et par forskellige skabeloner, du kan bruge som udgangspunkt for dit træningsprogram. Hent en skabelon til ugeprogram og en skabelon med flere uger. Tjek det under vores [skabeloner til træningsprogrammer](/skabeloner/).
 {: .notice .notice--success }
 
 ## Opsamling
 
 Som træner har du et stort ansvar. Du skal levere resultater uden at udøveren bliver skadet. Det gør du bedst ved at inspirere udøveren til at træne så godt som muligt, lave tests (kan fx bare være at følge vægtstigningen i programmet) og sørge for at notere alt ned. Det giver det bedste udgangspunkt for nye programmer og programjusteringer.
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Nuckols, Greg (2014): Speed kills: [2x the intended bar speed yelds ~2x the bench press gains](http://www.strengtheory.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com
+- Nuckols, Greg & Isuf, Omar (2015a): [The art of lifting](http://www.strengtheory.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
+- Nuckols, Greg & Isuf, Omar (2015b): [The science of lifting](http://www.strengtheory.com/art-and-science/), Self-published Ebook on www.strengtheory.com/art-and-science
+- Robertson, Mike (2012): [6 questions about tempo training](https://www.t-nation.com/training/questions-about-tempo-training), t-nation.com
+- Tumminello, Nick (2015): [Exercise science I’ve never used as a personal training](http://nicktumminello.com/2015/03/exercise-science-ive-never-used-as-a-personal-trainer/), nicktumminello.com.
+- Contreas, Bret (2015): [Current position on anterior pelvic tilt](http://bretcontreras.com/current-position-statement-on-anterior-pelvic-tilt/), bretcontreas.com
+- Contreas, Bret: [List of Lower Body Progressions](http://bretcontreras.com/wp-content/uploads/List-of-Progressions.pdf), e-book
+- Cressey, Eric (2013): [The Performance Handbook](http://www.highperformancehandbook.com/),  [www.highperformancehandbook.com](http://www.highperformancehandbook.com)
+</details>

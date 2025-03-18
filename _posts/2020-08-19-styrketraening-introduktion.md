@@ -145,14 +145,15 @@ Ved at bruge RIR kan du tilpasse vægten og antallet af gentagelser efter din da
 
 Eksempel:
 
-Hvis du skal lave 3x8 i squat med RIR 2, vælger du en vægt, hvor du maksimalt kunne lave 10 gentagelser – men stopper ved 8, så du har to gentagelser tilbage i tanken.</p>
+Hvis du skal lave 3x8 i squat med RIR 2, vælger du en vægt, hvor du maksimalt kunne lave 10 gentagelser – men stopper ved 8, så du har to gentagelser tilbage i tanken.
 </details>
 
 <details markdown="1" class="faq">
   <summary>📊 RPE: Hvor hårdt føles det?</summary>
-Rated Perceived Exertion (RPE) er en skala til at vurdere, hvor hårdt et sæt føles. Skalaen går typisk fra 1 til 10, hvor 10 betyder, at du ikke kunne have lavet en eneste gentagelse mere, og 8 betyder, at du kunne have lavet to ekstra.</p>
+
+Rated Perceived Exertion (RPE) er en skala til at vurdere, hvor hårdt et sæt føles. Skalaen går typisk fra 1 til 10, hvor 10 betyder, at du ikke kunne have lavet en eneste gentagelse mere, og 8 betyder, at du kunne have lavet to ekstra.
   
-RPE bruges ofte til autoregulering af styrketræning, så du justerer vægten ud fra, hvordan du har det på dagen. RPE 7-9 er et godt interval til de fleste øvelser, da det sikrer høj intensitet uden at være maksimalt udmattende.</p>
+RPE bruges ofte til autoregulering af styrketræning, så du justerer vægten ud fra, hvordan du har det på dagen. RPE 7-9 er et godt interval til de fleste øvelser, da det sikrer høj intensitet uden at være maksimalt udmattende.
 
 Eksempel:
   

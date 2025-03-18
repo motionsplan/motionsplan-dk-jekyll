@@ -79,8 +79,6 @@ Jeg er selv blevet ret interesseret i velocity based training, hvor du kan måle
 
 *[RFD]: Rate of Force Development
 
-
-
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
