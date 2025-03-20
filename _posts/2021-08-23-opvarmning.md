@@ -150,7 +150,7 @@ I denne fase bruger jeg ofte [foamrolling eller SMR]({% link _posts/2020-04-16-s
 
 I en god generel opvarmning så kan det være godt at lave noget bevægelse, hvor du **tilbagelægger en distance**. Det kan fx være forskellige bevægelser, mens du enten går eller løber. Du kan også lave øvelser på stedet, fx sprællemænd og andre hoppeformer.
 
-Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelser med forskellige rotationer. Du kan se et bredt udsnit af øvelserne under [opvarmning til styrketræning]({% link _posts/2019-10-25-opvarmning-styrketraening.md %}).
+Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelser med forskellige rotationer. Du kan se et bredt udsnit af øvelserne under [opvarmning til styrketræning](/opvarmning-styrketraening/).
 
 ### R4 --- Reactive
 

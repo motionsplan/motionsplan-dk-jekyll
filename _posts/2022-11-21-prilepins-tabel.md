@@ -46,6 +46,13 @@ Sådan ser Prilepins tabel ud:
 
 {% include figure image_path="/assets/images/blog/prilepins-tabel.png" alt="Prilepins tabel" %}
 
+| Procent af 1RM | Reps pr. sæt | Optimalt i alt | Total interval |
+|-|-|-|-|
+| 55-65% | 3-6 | 24 | 18-30 |
+| 70-80% | 3-6 | 18 | 12-24 |
+| 80-90% | 2-4 | 15 | 10-20 |
+| 90+% | 1-2 | 4 | 4-10 | 
+
 Mange løftere kender ikke deres egen 1RM, men du kan også bruge hastigheden af bevægelsen til at vurdere, hvilken intensitet du arbejder med.
 
 Stangens hastighed går lineært nedad med højere intensitet.

@@ -33,11 +33,11 @@ Jeg har opdelt listen ud fra, hvor mange gange om ugen, du træner.
 
 Hvis du træner 3 eller færre gange om ugen, så kan det betale sig at vælge et træningsprogram, hvor du træner hele kroppen hver gang. Det kan du gøre med et helkropsprogram.
 
-[Helkropsprogrammet]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}) hjælper til at du holder frekvensen høj nok til, at du får en rigtig god effekt af programmet. Du kan enten vælge at køre den samme træning hver gang, eller skifte mellem forskellige træninger som kommer hele kroppen igennem.
+[Helkropsprogrammet](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) hjælper til at du holder frekvensen høj nok til, at du får en rigtig god effekt af programmet. Du kan enten vælge at køre den samme træning hver gang, eller skifte mellem forskellige træninger som kommer hele kroppen igennem.
 
 Jeg kan rigtig godt selv lide fullbody splitprogrammer, hvor der er variation i øvelserne fra gang til gang, men du kan opleve rigtig stor fremgang på at lave et fullbodyprogram, som er ens fra gang til gang.
 
-[Fullbody træningsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}){: .btn .btn--large .btn--success }
+[Fullbody træningsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/){: .btn .btn--large .btn--success }
 
 ## 4-6 ugentlige træninger
 
@@ -121,7 +121,7 @@ Hvis der ikke er tænkt progression ind i træningsprogrammet, så overvej om ik
 
 Du behøver ikke være så bange for, hvilket træningsprogram du vælger. Du skal bare sørge for, at det er et motiverende program, du har tid til at lave. Fremgang i træningen kommer i første omgang ved at være vedholdende og træne uge efter uge med en passende vægt på stangen udført et passende antal gange.
 
-Langt de fleste får en god effekt af at sørge for at vælge et enkelt program i stedet for et kompliceret program. Jeg har skrevet [anmeldelser af styrketræningsprogrammer]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
+Langt de fleste får en god effekt af at sørge for at vælge et enkelt program i stedet for et kompliceret program. Jeg har skrevet [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

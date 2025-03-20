@@ -54,3 +54,18 @@ Der er mange måder at teste sin sprint på på. Vi har samlet tests her på sid
 {% endif %}
 
 ***
+
+
+### Sprint
+
+Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget.
+
+Nedenstående sprinter er i en ret god position.
+
+{% include figure image_path="https://images.unsplash.com/photo-1580060964435-03331a4e74a4?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" caption="Sprinter med højt knæløft og kraftigt armtræk." %}
+
+- Albueleddene holdes i 90 grader.
+- Håndfladerne er åbne.
+- Brystkassen oppe.
+- Knæet løftes op mod 80-90 grader.
+- Afslappet ansigt.

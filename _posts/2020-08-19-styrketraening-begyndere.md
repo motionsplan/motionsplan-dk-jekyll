@@ -464,7 +464,7 @@ Et helkropsprogram skal indeholde øvelser, der opfylder følgende kriterier:
 
 Hvis du vælger en øvelse fra hver kategori, så er der en ret god balance i din træning - og der er ikke mange muskelfibre, der undgår at komme på arbejde. Hvis du vælger et horisontalt træk, er det en god ide også at vælge et horisontalt skub og så fremdeles.
 
-**Gratis helkropsprogram**. Vi har lavet et [gratis eksempel på et helkropsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}), som du kan bruge som udgangspunkt for dit træningsprogram.
+**Gratis helkropsprogram**. Vi har lavet et [gratis eksempel på et helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/), som du kan bruge som udgangspunkt for dit træningsprogram.
 {: .notice .notice--success }
 
 ### Split program
@@ -580,7 +580,7 @@ Og det ser ud til, at det er virkelig effektivt at tænke sin træning på den m
 
 Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning.
 
-Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her]({% link _posts/2019-10-25-opvarmning-styrketraening.md %}).
+Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her](/opvarmning-styrketraening/).
 
 ## Mål din fremgang
 

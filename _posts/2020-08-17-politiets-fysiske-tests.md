@@ -1,5 +1,5 @@
 ---
-title: &title "Klar til Politiets fysiske test og krav til optagelsesprøven?"
+title: &title "Parat til Politiets fysiske test - sådan klarer du kravene"
 permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
 seo_title: "Politiets fysiske tests og krav – sådan klarer du dem"
 excerpt: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bænkpres og længdespring. Se kravene, og få træningstips til at bestå."
@@ -24,7 +24,7 @@ meta:
   direct: indirekte test
 ---
 
-Politiets fysiske tests er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition, styrke og hurtighed. For at bestå skal du leve op til minimumskravene for øvelser som 2400 meter løb, bænkpres, længdespring og kropshævninger. 
+Politiets fysiske test er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition, styrke og hurtighed. For at bestå skal du leve op til minimumskravene for øvelser som 2400 meter løb, bænkpres, længdespring og kropshævninger. 
 
 Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå politiets fysiske optagelsesprøve.
 
@@ -239,6 +239,8 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 
 ## 2400 meter løb
 
+Politiets fysiske krav inkluderer også [Coopers 2400 meter test](/kondital-2400-meter/). Politiet har lavet sine egne krav til testen. Tjek testen ud herunder.
+
 **Udførelse:** Du løber en strækning på 2400 meter.
 
 {% include video provider="youtube" id="YldNonx193c" %}
@@ -263,3 +265,5 @@ Ved prøven kan der være forskelligt løbeunderlag og vekslende vejrforhold.
 Nu er det egentlig bare at komme i gang med træningen til politiets fysiske tests, så du kan leve op til de krav politiets optagelsesprøve stiller.
 
 For at opfylde politiets optagelseskrav, så er det vigtigt, at du forbereder dig ordentligt til de fysiske krav.
+
+Måske kunne du også tænke dig at se, hvad [forsvarets fysiske krav](/forsvarets-fysiske-test/) er.

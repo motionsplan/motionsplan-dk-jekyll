@@ -19,13 +19,13 @@ meta:
   direct: direkte test
 tags:
   - konditionstest
-  - laboratorium
   - direkte test
   - maksimal test
   - test
   - løbetest
   - laboratorietest
   - iltoptagelsestest
+  - testcenter
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_test_ark:
   - image_path: /assets/images/blog/vo2max-test-sheet-freebie.jpg
@@ -78,7 +78,7 @@ For at sikre en præcis og pålidelig måling, anvendes en testprotokol, der gra
 
 ## Hvilket udstyr skal du bruge?
 
-En nøjagtig direkte test af iltoptagelse kræver adgang til udstyr, der kan måle ilt-, CO₂-koncentrationer og volumen af ud- og indåndingsluften. Derfor skal du have et testcenter med dette udstyr.
+En nøjagtig direkte test af iltoptagelse kræver adgang til udstyr, der kan måle ilt-, CO₂-koncentrationer og volumen af ud- og indåndingsluften. Derfor skal du have adgang til et testcenter med dette udstyr.
 
 Det har vi på Vejle Idrætshøjskole, hvor jeg har lavet mange af denne typer test.
 
@@ -89,13 +89,13 @@ Vi går i det følgende ud fra, at du har adgang til udstyret, og du ved, hvorda
 
 ## Sådan laver du den maksimale iltoptagelsestest
 
-{% include figure image_path="/assets/images/motionsplan/ramp-max-test.jpg" alt="diagram over rampe testen til kondital" caption="Sådan udføres rampetesten på løbebånde. Belastningen øges ved at hæve hældningen på løbebåndet." %}
-
-Først laves en grundig opvarmning.
-
 Formålet med den maksimale iltoptagelsestest er at bestemme den maksimale aerobe arbejdskapacitet, herunder den maksimale iltoptagelseshastighed og kondital samt hastighed ved VO₂-max. Der måles maksimale værdier for iltoptagelse, CO₂-udvekskling, puls, lungekapacitet, og laktat.
 
-Selve testen er en progressiv rampetest bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Du starter på en hastighed der cirka svarer til din anaerobe tærskel (1 km/t lavere end din 5 kilometer hastighed).
+{% include figure image_path="/assets/images/motionsplan/ramp-max-test.jpg" alt="diagram over rampe testen til kondital" caption="Sådan udføres rampetesten på løbebånd. Belastningen øges ved at hæve hældningen på løbebåndet gradvist gennem testen." %}
+
+Først laves en **grundig opvarmning**.
+
+Selve testen er en **progressiv rampetest** bestående af et belastningstrin på 2 minutter og herefter belastningstrin på 1½ minut. Du starter på en hastighed der cirka svarer til din anaerobe tærskel (1 km/t lavere end din 5 kilometer hastighed).
 
 Herefter øges hældningen på løbebåndet med 2% for hvert interval-trin indtil udmattelse. Typisk varighed på testen er mellem 5-10 minutter.
 
@@ -109,19 +109,19 @@ Ved udmattelse noteres den maksimale puls og der tages en priktest.
 
 ## Er det reelt en maksimal test?
 
-Når testen er slut, så skal du vurdere om du har fået nogle brugbare resultater.
+Når testen er slut, så skal du vurdere om resultaterne er brugbare.
 
-Da du gerne vil bestemme den maksimale iltoptagelse og den maksimale puls, så er det nødvendigt at vurdere om løberen har udført en maksimal test, eller vedkommende fik afsluttet testen før opnåelse af de maksimale værdier.
+Da du gerne vil bestemme den maksimale iltoptagelse og den maksimale puls, så er det nødvendigt at vurdere om løberen har udført en maksimal test, eller vedkommende fik afsluttet testen før opnåelse af maksimale værdier.
 
-Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale ydeevne.
+Vi opererer typisk med følgende indikatorer på, om testpersonen har opnået sin maksimale ydeevne i slutningen af testen.
 
-1. **Steady state i VO₂-optagelse**. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden (den vigtigste indikator).
-2. **RQ > 1,15**. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
+1. **Steady state i VO₂-optagelse**. Iltoptagelsen opnår steady state og falder måske lidt igen med tiden (den vigtigste indikator for at den maksimale iltoptagelse er nået).
+2. **RQ > 1,15**. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10-1,15, da forsøgspersonen er i gang med hyperventilere ved maksimalt arbejde.
 3. **Bla > 8 mmol/l**. Laktatmåling skal være over 8 mmol/l.
-4. **Puls > 220-alder +- 10**. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
-5. **VE / VO₂ > 30**. Forholdet mellem ventilationen (VE) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
+4. **Puls > 220-alder +- 10**. Pulsen skal være omkring den teoretiske maxpuls. Du kan bruge vores  beregner til at [udregne den teoretiske maxpuls](/test-max-puls/).
+5. **VE / VO₂ > 30-35**. Forholdet mellem ventilationen (VE) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30-35.
 
-Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale og resultatet derfor er præcist.
+Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale og resultatet derfor er et præcist mål for konditallet.
 
 **Gå i dybden**: [6 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
 {: .notice }
@@ -132,15 +132,15 @@ Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen h
 
 ## Flere løbetests
 
-I denne test får du svar på, hvad dit kondital og din maksimale puls er. Men hvis du gerne vil have et mere fyldestgørende billede af, hvilken tilstand dit aerobe system er i, så kan du blive klogere på alle vores beskrivelser af [iltoptagelsestests i et laboratorium](/iltoptagelse-laboratorietest/).
+I denne test får du svar på, hvad dit kondital og din maksimale puls er. Hvis du gerne vil have et mere fyldestgørende billede af, hvilken tilstand dit aerobe system er i, så kan du blive klogere på alle vores beskrivelser af [iltoptagelsestests i et laboratorium](/iltoptagelse-laboratorietest/).
 
-Der er masser af forskellige måder at teste dig selv på, når du gerne vil blive en bedre løber. Her kan du se alle vores løbetests.
+Der er masser af forskellige måder at teste dig selv på, når du gerne vil blive en bedre løber - også selvom du ikke lige har adgang til et laboratorium. Her kan du se alle vores løbetests.
 
 En af de mest populære er naturligvis Cooper-testen.
 
 {% include feature_row id="feature_row_cooper_test" type="left" %}
 
-Men du kan også overveje en af de andre konditionstests fra løb.
+Du kan også overveje en af de andre konditionstests fra løb.
 
 {% assign site_posts = site.posts | where: "tags", "løbetest" | where: "tags", "konditionstest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

@@ -27,7 +27,7 @@ Du skal træne seks gange om ugen, inden det er nødvendigt at overveje et 3-spl
 
 ## Hvorfor vælge et 3-split-program
 
-Et 3-split program er først relevant at tænke på, hvis du træner 6 gange om ugen. Hvis du træner 1-3 gange om ugen, så er et [helkropsprogram et godt valg]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}). Hvis du træner 4-6 gange om ugen, så kan du sagtens overveje et [2-split træningsprogram]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}).
+Et 3-split program er først relevant at tænke på, hvis du træner 6 gange om ugen. Hvis du træner 1-3 gange om ugen, så er et [helkropsprogram et godt valg](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). Hvis du træner 4-6 gange om ugen, så kan du sagtens overveje et [2-split træningsprogram]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}).
 
 Med 6 træninger om ugen, så kan du give hver muskelgruppe et rigtig stort fokus. Du kan træne med høj volumen, så du har mulighed for at forfølge et mål om øget muskelmasse med et tresplitprogram.
 

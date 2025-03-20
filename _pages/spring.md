@@ -134,6 +134,19 @@ Her finder du guides til specifikke dele af springtræningen:
 - [Eksplosivitet – Udvikling af hurtig kraftudvikling](/eksplosivitet/)
 - [Plyometrisk træning – Springøvelser til eksplosiv styrke](/plyometrisk-traening/)
 
+## Sådan springer du!
+
+Sprint og spring staves næsten på samme måde. På samme måde som sprinten er det vigtigt, at du lærer at lave en god landing, hvor du absorberer energien i benene.
+
+På billedet til højre kan du se en god teknik.
+
+- Start med strakte ben
+- Udnyt forspændingen ved at gå ned og op i en hurtig bevægelse
+- Træk kraftfuldt med armene (bagfra og opad)
+- Hop fra ‘hip hinge’
+
+Hvis du introducerer boxjumps, kan det være en god ide at gå ned af boksen igen.
+
 <details markdown="1" class="references">  
   <summary><h2 id="references">Referencer</h2></summary>  
 

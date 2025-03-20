@@ -19,13 +19,13 @@ meta:
   direct: direkte test
 tags:
   - konditionstest
-  - laboratorium
   - direkte test
   - maksimal test
   - submaksimal test
   - løbetest
   - test
   - laboratorietest
+  - testcenter
   - iltoptagelsestest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:
@@ -163,26 +163,26 @@ For at vurdere om det er en vellykket test, så kan du kigge på to forskellige 
 
 ### 1. Er laktatmålingerne forudsigelige?
 
-Laktatkurven skal gerne have et nogenlunde forudsigelig udvikling. Den skal gerne stige stille og roligt i begyndelsen indtil løberen rammer omkring den anaerobe tærskel, hvor laktatophobningen foregår noget hurtigere.
+Laktatkurven skal gerne have et nogenlunde forudsigelig udvikling. Den skal gerne starte fladt ud, inden den stiger stille og roligt, indtil løberen rammer omkring den anaerobe tærskel, hvor laktatophobningen foregår noget hurtigere.
 
 ### 2. Har løberen opnået maksimale værdier?
 
 Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale ydeevne.
 
 1. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden.
-2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10, da forsøgspersonen er i gang med hyperventilere, når man yder maksimalt.
+2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være højere end 1,10-1,15, da forsøgspersonen er i gang med hyperventilere, når der ydes maksimalt.
 3. Laktatmåling skal være over 8 mmol.
-4. Pulsen skal være omkring den teoretiske maxpuls. Jeg har lavet en beregner, hvor du kan [udregne den maksimale puls](/test-max-puls/).
-5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30.
+4. Pulsen skal være omkring den teoretiske maxpuls. Tjek vores [beregner til max-puls](/test-max-puls/).
+5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30-35.
 
-Når hovedparten disse indikationer er opfyldt antager vi, at vi har opnået den maksimale iltoptagelse, og at forsøgspersonen således har ydet sit maksimale.
+Vi antager, at testpersonen har opnået den maksimale iltoptagelse, hvis hovedparten af disse indikationer er opfyldt.
 
-**Gå i dybden**: [5 kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
+**Gå i dybden**: [Kritierer for en maksimal iltoptagelsestest](/kriterier-maksimal-iltoptagelsestest/)
 {: .notice }
 
 ## Hvad er ulempen ved denne test?
 
-Testen er rimelig tidskrævende. Du kan lade dig inspirere af nogle af de tilsvarende [tests af iltoptagelsen i et laboratorium](/iltoptagelse-laboratorietest/), du kan lave.
+Testen er rimelig tidskrævende, men den er også meget omfattende. Du kan lade dig inspirere af nogle af de tilsvarende [tests af iltoptagelsen i et laboratorium](/iltoptagelse-laboratorietest/), du kan lave, hvis du gerne vil have have en hurtigere test.
 
 ## Meningsfuld forbedring i testen
 

@@ -185,3 +185,5 @@ Eric Helms dykker ned i tempo her i den sidste del af videoserien:
 Styrketræningspyramiden ser enkel ud, og den giver nogle gode retningslinjer for, hvad der er vigtigst, når du gerne vil have resultater af din styrketræning.
 
 Under de enkelte lag i pyramiden er der naturligvis også ting, der er vigtigere end andre ting. Dem forklarer Eric Helms rigtig godt i videoerne.
+
+{% include motionsplan/strength-pyramid.html nav="strength_pyramid" %}

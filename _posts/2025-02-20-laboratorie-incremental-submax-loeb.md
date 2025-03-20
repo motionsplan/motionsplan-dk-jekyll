@@ -19,12 +19,12 @@ meta:
   direct: direkte test
 tags:
   - konditionstest
-  - laboratorium
   - direkte test
   - submaksimal test
   - løbetest
   - test
   - laboratorietest
+  - testcenter
   - iltoptagelsestest
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:

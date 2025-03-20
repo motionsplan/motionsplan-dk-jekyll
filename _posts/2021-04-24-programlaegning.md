@@ -44,7 +44,7 @@ Grundlæggende er der følgende muligheder:
 
 - Det kan være man vil prøve at forbedre alt på samme tid. Det kan man som regel sagtens, hvis man er begynder, eller man har god tid og få stressfaktorer i ens liv.
 - Det kan også være man vil vedligeholde alt. Det kan fx være hvis man er i en travl periode, eller man dyrker meget af en anden sport i en periode.
-- Den sidste mulighed er selvfølgelig at man har nogle ting på vedligehold, mens man prøver at forbedre nogle andre ting.
+- Den sidste mulighed er selvfølgelig, at man har nogle ting på vedligehold, mens man prøver at forbedre nogle andre ting.
 
 Så vurderer vi ud fra hver kategori af muskelgrupper, løft eller bevægelsesmønstre følgende:
 

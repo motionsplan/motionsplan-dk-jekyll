@@ -11,8 +11,7 @@ header:
 category:
   - Kondition
 tags:
-  - viden om
-  - laboratorium
+  - fysiologi
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10

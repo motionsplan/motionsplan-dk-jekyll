@@ -87,6 +87,14 @@ feature_row_okklusion:
     url: "/introduktion-okklusionstraening/"
     btn_label: "Læs mere om okklusionstræning"
     btn_class: "btn--info"
+feature_row_helms:
+  - image_path: /assets/images/blog/helms-training-pyramid.jpg
+    alt: "Eric Helms Styrketræningspyramide"
+    title: "Eric Helms Styrketræningspyramide"
+    excerpt: "Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er skrevet af Eric Helms. Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning, og hvordan du bør prioritere din indsats."
+    url: "/traeningspyramiden-styrketraening/"
+    btn_label: "Læs introduktion til træningspyramiden"
+    btn_class: "btn--info"
 classes: wide
 last_modified_at: 2025-02-20T19:14:14Z
 ---
@@ -251,6 +259,10 @@ Lav måske denne om til støttetræning
 
 {% include feature_row id="feature_row_okklusion" type="left" %}
 
+## Træningspyramiden
+
+{% include feature_row id="feature_row_helms" type="left" %}
+
 ## Udstyr til styrketræning
 
 Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
@@ -286,15 +298,3 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 {% endif %}
 
 </div>
-
-## Eric Helms Styrketræningspyramide
-
-Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er skrevet af Eric Helms.
-
-Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning. Du kan se pyramiden nedenunder.
-
-{% include motionsplan/strength-pyramid.html nav="strength" %}
-
-Jeg har skrevet uddybdende om [træningspyramiden til styrketræning](/traeningspyramiden-styrketraening/). Styrketræningspyramiden er en måde at prioritere de vigtigste indsatser på, når du laver styrketræning.
-
-Eric Helms fortæller selv om træningspyramiden i en helt [fremragende videoserie](/traeningspyramiden-styrketraening/).

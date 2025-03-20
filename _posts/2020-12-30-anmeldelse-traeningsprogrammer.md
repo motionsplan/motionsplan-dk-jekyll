@@ -24,7 +24,7 @@ Jeg har her samlet en række anmeldelser af træningsprogrammer og styrketrænin
 
 Jeg har derfor lavet en række anmeldelser af træningsprogrammer baseret på en teoretisk analyse af programmet og mine egne erfaringer med programmerne. Hvis du selv gerne vil bidrage med anmeldelser af styrketræningsprogrammer, så skriv endelig til mig.
 
-Hvis du er mere interesseret i at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}) eller vores [komplette guide til styrketræning og programlægning](/traeningsprogram-programlaegning-styrketraening/).
+Hvis du er mere interesseret i at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/) eller vores [komplette guide til styrketræning og programlægning](/traeningsprogram-programlaegning-styrketraening/).
 
 Jeg synes, at det kan være godt at afprøve forskellige træningsprogrammer på egen krop, før man prøver at lave sit eget program. Men det er naturligvis rigtig sjovt at lave sit eget eget styrketræningsprogram for at se, hvordan det virker. Hvis du ikke har erfaring med at gennemgå et godt program, så mangler du imidlertid noget viden om, hvilke parametre det er godt at kigge på.
 

@@ -44,7 +44,7 @@ Hvis du vil kende dit kondital, kan du tage 2400-meter testen. Her får du både
 
 På 2400-meter testen gælder det om at løbe distancen så hurtigt som muligt. Ud fra din tid kan du estimere dit kondital og sammenligne det med normerne.
 
-2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til [Politiets optagelsesprøve](/politiets-optagelsesproeve/).
+2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til [Politiets optagelsesprøve](/politiets-optagelsesproeve/), hvor den er sidste del af den [fysiske test](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
 I dette indlæg finder du:
 

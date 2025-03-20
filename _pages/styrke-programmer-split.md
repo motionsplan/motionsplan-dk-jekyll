@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Træningsprogrammer: fullbody og splitprogrammer til styrke"
-seo_title: "Styrketræningsprogrammer: fullbody og splitprogrammer til styrke"
-permalink: /styrketraeningsprogrammer/
-excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, splitprogrammer, 2-splitprogram og 3-splitprogram."
+title: "Sådan laver du et splitprogram til styrke"
+seo_title: "Splitprogrammer: Sådan laver du et træningssplit til styrke"
+permalink: /styrketraening/split-programmer/
+excerpt: "Lær om de forskellige typer splitprogrammer, så du kan lave dit eget 2-splitprogram eller 3-splitprogram."
 comments: false
 toc: true
 category:
@@ -16,7 +16,7 @@ classes: wide
 header:
   overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Træningsprogrammer: fullbody, 2-split, 3-split, 4-split og 5-split styrketræning"
+  caption: "Splitprogrammer, 2-split, 3-split, 4-split og 5-split styrketræning"
 faq:
   - question: "Hvilket træningsprogram skal jeg vælge?"
     answer: "Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/), som du kan lade dig inspirere af."
@@ -34,45 +34,38 @@ feature_row_howto_program:
     btn_class: "btn--info"
 ---
 
-Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
+Hvis du har besluttet dig for, at du gerne vil have et splitprogram, så er der en række overvejelser, som du kan gøre dig.
 
-Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebeprogrammer/).
+Et splitprogram kan være et godt valg, hvis du gerne vil variere din træning, eller du gerne vil træne flere end 3 gange om ugen. Hvis du kun træner et par gange om ugen, så bør du måske kigge lidt på et [fuldkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/), hvor du får trænet hele kroppen hver gang.
 
-Typisk kan det med et styrketræningsprogram betale sig at gøre det så enkelt som muligt, og langt de fleste vil have bedre af at starte med et enkelt træningsprogram.
+## Hvad er et splitprogram?
 
-## Træningsprogrammer til styrketræning fullbody, 2-split, 3-split, 4-split og 5-split
+Splitprogrammer er en [type styrketræningsprogram](/styrketraeningsprogrammer/), hvor du træner forskellige kropsdele fra gang til gang. De kan være sammensat på mange forskellige måder.
 
-Disse effektive styrketræningsprogrammer kan hjælpe dig uanset om dit mål er styrke, muskelopbygning eller reducere din fedtprocent.
+## Splitprogram vs fullbody program
 
-Hvis du vil have nogen effekt af styrketræning, så bør du vælge et program, hvor du træner de enkelte muskelgrupper mindst to gange om ugen for at optimere effekten af træningsprogrammet.
+De fleste der går i gang med styrketræning kan have stor effekt af at starte med et fullbody-program. Mange oplever et ønske om at prøve kroppen af på lidt nye måder.
 
-Det kan du gøre gennem [fullbody](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) eller [splitprogrammer](/styrketraening/split-programmer/) (hvor nogle af de populære er [2-split push pull]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}) og [et 3-split-program]({% link _posts/2021-08-16-styrke-3-split.md %})).
+I forhold til fullbody programmet, så kan du i splitprogrammer gå lidt mere i dybden med de enkelte kropsdele.
 
-Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split, hvis du træner rigtig meget, har ufattelig meget erfaring og gerne vil have noget variation.
+## Hvornår skal jeg vælge et splitprogram?
+
+Du kan vælge et splitprogram, når du er rutineret (har trænet regelmæssigt i mere end et år - og fullbody programmet ikke giver fuld valuta for pengene længere) og hvis du bliver nødt til at træne to dage i træk ift. dit øvrige liv. Uanset hvad så skal du gøre det så enkelt som muligt.
+
+## 2-split, 3-split, 4-split og 5-split?
+
+Det kan du gøre gennem [fullbody](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/), [2-split]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}) og [3-split]({% link _posts/2021-08-16-styrke-3-split.md %}), som er de mest interessante og brugbare programmer for langt de fleste
+mennesker.
+
+Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split, hvis du træner rigtig meget, har ufattelig meget erfaring og vil have noget variation.
 
 <div class="feature__wrapper">
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "splitprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit:16 %}
     {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Flere forslag til styrketræningsprogrammer
-
-Tag udgangspunkt i et af de mange effektive styrkeprogrammer her og tilpas dem til dine behov.
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.programs | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
-    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
@@ -96,8 +89,30 @@ Tag udgangspunkt i et af de mange effektive styrkeprogrammer her og tilpas dem t
 
 </div>
 
-## Ofte stillede spørgsmål om træningsprogrammer
+## Skabelon fra Training for Warriors
 
-Hvis du er i tvivl om, hvilket styrketræningsprogram, der er det bedste for dig, så får du hjælp her på siden. Vi hjælper dig med at vælge et gratis træningsprogram til fitness, som du kan bruge både i dit fitnesscenter eller hjemme.
+Vi foreslår følgende skabelon som er inspireret af Training for Warriors.
+
+### Underkrop
+
+- Lower Body Warmup
+- Complex Lift 1 (Hip or Knee Dominant)
+- Complex Lift 2 (Hip or Knee Dominant)
+- Unilateral
+- Posterior Chain 1
+- Posterior Chain 2
+- Core/Finisher
+
+### Overkrop
+
+- Upper Body Warmup
+- Complex Push (H or V)
+- Complex Pull (H or V)
+- Accessory Push/Pull Superset 1
+- Accessory Push/Pull Superset 2
+- Core/Finisher
+- Cool Down/Flexibility
+
+## Ofte stillede spørgsmål om splitprogrammer
 
 {% include motionsplan/faq.html %}

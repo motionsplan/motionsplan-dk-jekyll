@@ -22,7 +22,8 @@ meta:
   direct: direkte test
 tags:
   - konditionstest
-  - laboratorium
+  - laboratorietest
+  - testcenter
   - direkte test
   - test
   - populær

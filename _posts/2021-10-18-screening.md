@@ -118,6 +118,6 @@ Når du laver en screening skal du naturligvis først have planlagt nogle spørg
 
 Når du har lavet en screening, så kan du gå i gang med at lave et træningsprogram.
 
-Du kan fx lave et [løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}).
+Du kan fx [lave et løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}) eller [udforme et styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/).
 
-[<i class='fas fa-file-alt'></i> Bonus: Ark til screening »](https://docs.google.com/document/d/1XHq9-ydpCJ1ggxoKHUvP_MoyKJuVwLF4MZLfuaDZSCQ/copy){: .btn--large .btn--success rel="nofollow noopener" }
+[<i class='fas fa-file-alt'></i> Bonus: Ark til screening »](https://docs.google.com/document/d/1XHq9-ydpCJ1ggxoKHUvP_MoyKJuVwLF4MZLfuaDZSCQ/copy){: .btn .btn--large .btn--success rel="nofollow noopener" }

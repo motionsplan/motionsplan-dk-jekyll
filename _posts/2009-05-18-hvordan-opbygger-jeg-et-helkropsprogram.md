@@ -25,7 +25,7 @@ last_modified_at: 2021-08-03T11:44:17Z
 
 Hvordan laver man et fullbody-program, hvor man træner hele kroppen på et træningspas? Et helkropsprogram er egnet for dig, der gerne vil træne mellem en og tre gange om ugen og vil bruge omkring en time til to timer på hver træning. Men du kan sagtens udnytte ideerne fra et fuldkropsprogram også, hvis du vil træne 4 gange om ugen.
 
-Hvis du interesseret i at gå endnu mere i dybden med at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}) eller vores [komplette guide til styrketræning og programlægning](/traeningsprogram-programlaegning-styrketraening/). Jeg har også lavet en række [anmeldelser af styrketræningsprogrammer her]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
+Hvis du interesseret i at gå endnu mere i dybden med at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/) eller vores [komplette guide til styrketræning og programlægning](/traeningsprogram-programlaegning-styrketraening/). Jeg har også lavet en række [anmeldelser af styrketræningsprogrammer her](/anmeldelse-traeningsprogrammer/).
 
 I dette indlæg får du svar på:
 
@@ -134,7 +134,7 @@ Så har du det du behøver for at lave et varieret helkropsprogram. For at få d
 - **Slå en rekord hver gang**. Når du kommer til træning skal du gerne slå en rekord hver gang. Det kan være lidt mere vægt i en øvelse, eller lidt flere gentagelser, eller et ekstra set af en øvelse. På den måde sikrer du dig, at der er konstant fremgang.
 - **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere på motion-online.dk i artiklen [Brug tiden effektivt i fitnesscenteret](https://www.motion-online.dk/brug-tiden-effektivt-fitnesscenteret/){:rel="nofollow"}.
 - **Variér din træning**. Du skal sørge for at variere din træning. Brug fx det samme træningsprogram tre uger i træk, og derefter vælger du nogle nye øvelser.
-- **Lær noget mere om styrketræning**. Læs fx denne [komplette begynderguide til programlægning til styrketræning](/traeningsprogram-programlaegning-styrketraening/) eller [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}).
+- **Lær noget mere om styrketræning**. Læs fx denne [komplette begynderguide til programlægning til styrketræning](/traeningsprogram-programlaegning-styrketraening/) eller [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/).
 
 ## Verdens mest effektive helkropsprogram til styrketræning
 

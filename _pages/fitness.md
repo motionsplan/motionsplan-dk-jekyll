@@ -1,13 +1,13 @@
 ---
 layout: single
-title: &title "Fitness Tests – Test din form og følg din udvikling"
-seo_title: "Fitness Tests – Mål din form og forbedr din træning"
+title: &title "Fitness tests – Test din form og følg din udvikling"
+seo_title: "Fitness tests – Mål din form og forbedr din træning"
 excerpt: Få indsigt i din form med fitness tests. Test din styrke, kondition og smidighed, og følg din udvikling over tid. Find vejledninger og testmetoder her.
 permalink: /fitness/
 author_profile: true
 toc: true
 header:
-  overlay_image: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
+  teaser: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
   caption: *title
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
@@ -28,6 +28,8 @@ doping:
     rel: sponsored nofollow noopener
 breadcrumbs: true
 classes: wide
+category:
+  - Tests
 ---
 
 Fitness tests er en effektiv måde at vurdere din nuværende form, spore din udvikling og sætte realistiske mål for din træning. Uanset om du vil teste din styrke, kondition, smidighed eller kropssammensætning, findes der en række forskellige tests, der kan give dig værdifuld indsigt.
