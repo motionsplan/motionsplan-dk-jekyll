@@ -165,6 +165,9 @@ Læs: [Styrketræning til løb: Øvelser og effekt](/styrketraening-til-loeb/)
 
 Bakkesprints er med til at øge din styrke og gøre de enkelte skridt mere kraftfulde. Det kan du omsætte til din almindelige løbe, hvor der kan komme mere kraft på. En af fordelene ved bakkesprints er også, at du har knap så meget [excentrisk arbejde]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), og derfor kan du holde til nogle gentagelser. Du skal dog også huske din [excentriske træning](/excentrisk-traening/), fordi den kan være med til at beskytte musklerne og leddene og gøre din teknik endnu mere effektiv.
 
+**Tjek vores guide**: [Komplet guide til bakkeløb](/bakkesprint-bakkeloeb/)
+{: .notice }
+
 ### 3. Løbeteknik
 
 Der findes et hav af løbetekniske øvelser, som kan være med til at forbedre din skridtlængde.

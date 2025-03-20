@@ -43,7 +43,7 @@ Når du arbejder med hastighedsteknik, så kan du forbedre løbekadencen og kraf
 
 Når du arbejder med sprint- og hastighedstræning, så skal du løbe med høj intensitet. Hvis du træner til længere distancer, så foregår hastighedstræning måske i 400-1500 meters tempo, mens det ved kortere løbedistancer måske foregår ved 100-800 meters tempo.
 
-Når du træner kortere sprints og bakkesprints, så behøver du faktisk ikke at ramme 100%, men kan få rigtig god effekt ved gentagne intervaller der ligger omkring 95-98% af din maksimale hastighed, så længe du sørger for at holde høj kvalitet i løbene.
+Når du træner kortere sprints og [bakkesprints](/bakkesprint-bakkeloeb/), så behøver du faktisk ikke at ramme 100%, men kan få rigtig god effekt ved gentagne intervaller der ligger omkring 95-98% af din maksimale hastighed, så længe du sørger for at holde høj kvalitet i løbene.
 
 Du kan bruge bakker til at sætte mere eller mindre fokus på forskellige aspekter ved din hurtighedstræning:
 

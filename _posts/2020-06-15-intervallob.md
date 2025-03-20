@@ -127,6 +127,9 @@ I tempointervallerne er det tydeligt, at det ikke er åndedrætssystemet, der be
 
 Jeg kan også godt lide at lave 6-10 s **bakkesprints** med en god pause. Igen er det ikke åndedrætssystemet, der trykkes mest, men det mærkes tydeligt, hvor lang tid det tager for det anaerobe energisystem at være klar igen til en maksimal indsats.
 
+**Læs**: [Guide til bakkeintervaller](/bakkesprint-bakkeloeb/)
+{: .notice }
+
 Endelig har jeg løbet mange **4 minutters-intervaller**, hvor jeg har arbejdet med min maksimale iltoptagelse. Det er virkelig hårdt undervejs, men overskueligt, fordi man ved, at man har pause “lige om lidt”.
 
 I det hele taget kan jeg godt lide at løbe intervaller, og hvis jeg kunne holde til det, så ville jeg nok kun gøre det. Jeg er dog blevet mere og mere opmærksom på også at arbejde med **kontinuerlig træning med lavere intensiteter** for at arbejde med den aerobe base og de fysiologiske tilpasninger, der sker i den zone. Men også for at kunne holde til den hårdere træning.

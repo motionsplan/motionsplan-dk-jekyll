@@ -62,7 +62,7 @@ For at **flytte den maksimale iltoptagelse**, så kan du fx bruge **[Billat-inte
 
 Den **anaerobe tærskel kan du skubbe til** til med tempoløb på mellem 10 minutter og 60 minutter. Du løber hurtigt på den lidt længere distance. Det er hårdt, men et godt element i et [effektivt løbeprogram](/artikel/det-mest-effektive-loebeprogram-til-forbedre-din-praestation/).
 
-Du kan **forbedre din løbeøkonomi** med styrketræning og eksplosive øvelser, som fx bakkesprints eller [plyometrisk træning](/plyometrisk-traening/). Vi har skrevet mere uddybende om [løbeøkonomi](/lobeokonomi/), hvor du kan finde inspiration. I dette program bruger vi særligt bakkesprints og stigningsløb til at arbejde med løbeøkonomien.
+Du kan **forbedre din løbeøkonomi** med styrketræning og eksplosive øvelser, som fx [bakkesprints](/bakkesprint-bakkeloeb/) eller [plyometrisk træning](/plyometrisk-traening/). Vi har skrevet mere uddybende om [løbeøkonomi](/lobeokonomi/), hvor du kan finde inspiration. I dette program bruger vi særligt bakkesprints og stigningsløb til at arbejde med løbeøkonomien.
 
 Endelig **får du en bedre udholdenhed** ved at arbejde i længere tid med lavere intensiteter. Vi har brug for bredt at arbejde med [fysiologiske tilpasninger til løb og konditionstræning](/tilpasning-konditionstraening/), og der er de lange, langsomme løbeture, hvor du kan snakke, mens du løber et rigtig godt værktøj.
 

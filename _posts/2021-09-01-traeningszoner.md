@@ -335,6 +335,9 @@ Tærskel intervaller er ekstra lange intervaller på omkring 6-8 minutter. Det k
 
 Tærskel-bakkeløb ligner tærskelintervaller. Du har imidlertid brug for at finde nogle bakker på 1000-1500 meters længde. Du løber roligt ned af bakken, mens du løber intensivt op ad bakken. Det er formentlig passende at løbe 4 omgange, hvilket giver omkring 20-25 minutters intensiv træning.
 
+Læs: [Alt om bakkeløb og bakkeintervaller](/bakkesprint-bakkeloeb/)
+{: .notice }
+
 ### Hyppighed og mængde
 
 Træning af den anaerobe tærskel passer ind i træningen omkring 1 gang om ugen. Den kan trænes flere gange om ugen, hvis du er virkelig god form, men det er vigtigt at tage højde for restitutionen.
@@ -425,7 +428,7 @@ Når du træner kortere sprints og bakkesprints, så behøver du faktisk ikke at
 Du kan bruge bakker til at sætte mere eller mindre fokus på forskellige aspekter ved din hurtighedstræning:
 
 - **Bakke med svag hældning nedad**. Det er rigtig hårdt for kroppen at løbe hurtigt nedad, men hvis du er trænet op til det, så kan du arbejde med højere kadence og skridtlængde, hvilket kan være med til at gøre kroppen klar til at løbe med højere hastigheder. Du skal imidlertid virkelig være opmærksom på, at det kan give relativt alvorligt DOMS.
-- **Bakke opad**. Du kan træne bakkesprints, hvor træningen får karakter af styrketræning, så du bliver nødt til at rekruttere flere muskelfibre. Fordelen ved at løbe opad bakke er også, at det du reducerer den excentriske komponent af træningen, hvilket betyder, at du bedre kan restituere fra træningen igen.
+- **Bakke opad**. Du kan træne [bakkesprints](/bakkesprint-bakkeloeb/), hvor træningen får karakter af styrketræning, så du bliver nødt til at rekruttere flere muskelfibre. Fordelen ved at løbe opad bakke er også, at det du reducerer den excentriske komponent af træningen, hvilket betyder, at du bedre kan restituere fra træningen igen.
 
 Typisk tilrettelægger du hastighedstræning i intervaller med kort varighed, hvor du skifter mellem arbejde og hvile. Arbejdsperioderne vil være omkring 50-200 meter, mens du fx løber samme distance i langsomt tempo i pauserne. Du kan variere længden af pausen alt efter det nøjagtige formål.
 

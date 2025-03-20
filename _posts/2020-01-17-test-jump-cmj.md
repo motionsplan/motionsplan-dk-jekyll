@@ -166,6 +166,10 @@ Sørg for at se hele denne glimrende video igennem, inden du går i gang med at 
 
 {% include video provider="youtube" id="KNtoP1P2dUA" %}
 
+Du kan se her hvad betydningen af en fast protokol med fokus på landingen:
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7307877606345830400?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ## Opvarmning til testene
 
 [Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) foreslår også en standardiseret opvarmning før CMJ-hoppet.
