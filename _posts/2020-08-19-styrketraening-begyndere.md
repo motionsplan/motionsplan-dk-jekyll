@@ -515,6 +515,9 @@ Husk at opvarmningen ikke er noget, du bare skal igennem. Opvarmningen er et kæ
 
 Du varmer op før du overhovedet går i gang med træningen, men du skal også lave opvarmningssæt før hver øvelse. Et godt sted at starte er ved at lave 2 opvarmningssæt med cirka halvdelen af den vægt, du skal løfte sættet med.
 
+Læs: [Sådan kan du lave opvarmning til styrketræning](/opvarmning-styrketraening/)
+{: .notice }
+
 ### Rækkefølgen af øvelserne (kompleks før enkel)
 
 De største og mest komplekse øvelser starter træningen. Bentræning bør komme før armtræningen. Flerledsbevægelser før bevægelser, der kun involverer et led.

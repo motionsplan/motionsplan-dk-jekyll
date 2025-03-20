@@ -29,7 +29,7 @@ Men det er også en del af din træning, du skal prioritere højt. Det gælder b
  
 Her dykker vi ned, hvorfor opvarmningen er vigtig, og du får eksempler på, hvordan du kan varme op til idræt og sport.
 
-Vi har skrevet en mere specifik beskrivelse af [opvarmning til styrketræning](/opvarmning-styrketraening/) og [opvarmning til løb](/opvarmning-loeb/).
+Vi har skrevet en mere specifik [beskrivelse af opvarmning til styrketræning](/opvarmning-styrketraening/) og [opvarmning til løb](/opvarmning-loeb/).
 
 Men lad os først dykke ned i, hvorfor du skal varme op? Og hvorfor du formentlig skal bruge lidt længere tid på de indledende manøvrer til træningen, end du gør lige nu.
 
@@ -150,7 +150,7 @@ I denne fase bruger jeg ofte [foamrolling eller SMR]({% link _posts/2020-04-16-s
 
 I en god generel opvarmning så kan det være godt at lave noget bevægelse, hvor du **tilbagelægger en distance**. Det kan fx være forskellige bevægelser, mens du enten går eller løber. Du kan også lave øvelser på stedet, fx sprællemænd og andre hoppeformer.
 
-Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelser med forskellige rotationer. Du kan se et bredt udsnit af øvelserne under [opvarmning til styrketræning](/opvarmning-styrketraening/).
+Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelser med forskellige rotationer. Du kan se et bredt udsnit af [øvelserne til opvarmning før styrketræning](/opvarmning-styrketraening/).
 
 ### R4 --- Reactive
 
