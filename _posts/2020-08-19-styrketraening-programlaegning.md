@@ -584,7 +584,7 @@ Hvis du vælger en øvelse fra hver kategori, så er der en ret god balance i di
 
 Du kan vælge et splitprogram, når du er rutineret (har trænet regelmæssigt i mere end et år - og fullbody programmet ikke giver fuld valuta for pengene længere) og hvis du bliver nødt til at træne to dage i træk ift. dit øvrige liv. Uanset hvad så skal du gøre det så enkelt som muligt. 
 
-[Lær mere om splitprogrammer](/styrketraning/splitprogrammer/)
+[Lær mere om splitprogrammer](/styrketraening/splitprogrammer/)
 
 Vi foreslår følgende skabelon som er inspireret af Training for Warriors.
 

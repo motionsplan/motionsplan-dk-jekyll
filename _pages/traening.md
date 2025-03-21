@@ -230,7 +230,7 @@ Læs mere om [cykling og cykeltræning her](/cykling/).
 <details markdown="1" class="faq">
   <summary><h3>💥 Crosstraining og HIIT</h3></summary>
 
-Måske har du lyst til at blande de forskellige kategorier af træning lidt. Du kan prøve [funktionel træning](/funktionel-styrketraening/) eller forskellige højintensive træningsformer.
+Måske har du lyst til at blande de forskellige kategorier af træning lidt. Du kan prøve [funktionel træning](/artikel/funktionel-styrketraening/) eller forskellige højintensive træningsformer.
 
 [Læs mere om HIIT](/hiit/){: .btn .btn--success .btn--center }
 
@@ -314,7 +314,7 @@ Du kan lade dig inspirere til vores lange liste af beregnere til træning.
   {% endfor %}
 {% endif %}
 
-[Se alle vores beregnere](/beregner/){: .btn .btn--success .btn--center }
+[Se alle vores beregnere](/beregnere/){: .btn .btn--success .btn--center }
 </div>
 
 {% comment %}

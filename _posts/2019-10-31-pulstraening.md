@@ -110,7 +110,7 @@ Den maksimale puls ændrer sig ikke over tid. Desuden er der en lineær sammenh�
 
 Intensitet angivet i procent af den maksimale puls svarer faktisk meget godt til [RM-begrebet](/rm-beregner/) i styrketræning.
 
-[Udregn dine egne pulszoner fra din maxpuls](/pulszoner-maxpuls/){: .btn .btn--info }
+[Udregn dine egne pulszoner fra din maxpuls](/pulszoner-max-puls/){: .btn .btn--info }
 
 ### 3. Pulstræning ud fra laktattærsklen
 

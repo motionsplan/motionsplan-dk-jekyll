@@ -44,7 +44,7 @@ Du kan udføre en direkte test af din _one rep max_ (1RM) for at få det præcis
 
 I denne artikel går vi i dybden med begrebet. Du kan også hoppe direkte til vores [RM-beregner](/rm-beregner/).
 
-**Lær mere**: [Sådan laver du en 1RM-test](/1rm-test/)
+**Lær mere**: [Sådan laver du en 1RM-test](/rm-maxtest/)
 {: .notice }
 
 {% include figure image_path="https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=10" alt="maxtest - RM-test i styrketræning" %}
@@ -73,13 +73,13 @@ Der er forskellige måder at finde din one rep max på. Her har vi lavet en lill
 
 | Test | Fordele | Ulemper |
 |-|-|-|
-| 1. [Max-test](/1rm-test/) | Mest præcis | Tidskrævende. Kræver hjælpere. Risiko for skader. |
+| 1. [Max-test](/rm-maxtest/) | Mest præcis | Tidskrævende. Kræver hjælpere. Risiko for skader. |
 | 2. [RM-beregner](/rm-beregner/) | Lettere. Du løfter submaksimalt. | Kan være lidt upræcis. Du skal kunne presse dig selv. |
 | 3. RPE-test | Lettere. Du løfter submaksimalt. Lille risiko for skader. | Kan være lidt upræcis. Du skal kunne mærke din præcise anstrengelse. |
 | 4. [Velocity Based 1RM-test](/vbt/) | Lav risiko for skader. | Du skal kunne løfte med maksimal hastighed i submaksimale løft. Du har brug for specialiseret udstyr. |
 {: .full }
 
-[Lær at lave din egen one rep max-test](/1rm-test/){: .btn .btn--success .btn--center }
+[Lær at lave din egen one rep max-test](/rm-maxtest/){: .btn .btn--success .btn--center }
 
 ## Forbehold med RM-baserede træningsprogrammer
 

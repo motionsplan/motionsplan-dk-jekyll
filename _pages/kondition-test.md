@@ -286,7 +286,7 @@ Vil du vil måle din kondition eller præstation på cyklen? Der findes flere fo
 <details markdown="1" class="faq">
   <summary><h3 id="measure-condition-without-tests">📊 Mål din kondition uden tests</h3></summary>
   
-  Du kan også få en idé om din kondition uden at udføre specifikke tests. Læs hvordan du kan estimere din kondition på siden: [Mål din kondition uden tests](/beregn-kondition/).
+  Du kan også få en idé om din kondition uden at udføre specifikke tests. Læs hvordan du kan estimere din kondition på siden: [Mål din kondition uden tests](/beregn-kondital/).
 </details>
 
 ## Hvordan forbedrer jeg min kondition baseret på testresultater?

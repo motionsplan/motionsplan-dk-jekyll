@@ -188,8 +188,8 @@ En anden model at forstå træning ud fra kan være 3-zoners-modellen. Her arbej
 ## Hvordan styrer jeg intensitet i min træning?
 
 Dine træningszoner kan styres på flere forskellige måder.
-
-- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/pulsreserven/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
+ 
+- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/pulsreserve/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
 - **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane, andre opmålte distancer eller et GPS-ur at træne på denne måde. Det er klart lettest at bruge pace, hvis du løber nogenlunde flade ruter.
 - **Watt**. Du har brug for særligt udstyr for at bruge watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [wattmåling til løb](/loeb-watt/). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp-power.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
