@@ -16,6 +16,13 @@ tags:
   - beregner
   - løb
 last_modified_at: 2022-03-12T22:21:26Z
+meta:
+  name: Løbebåndsberegner
+  measures: se beregnerbeskrivelse
+  type: beregner
+  equipment: beregner
+  max: n/a
+  direct: n/a
 ---
 
 Velkommen til vores løbebånd beregner. Her kan du justere parametre som hældning, hastighed og tid for at simulere udendørs løb og få indsigt i dit kalorieforbrug. 

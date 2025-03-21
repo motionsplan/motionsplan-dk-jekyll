@@ -77,7 +77,7 @@ Elementerne i den fysiske optagelsesprøve er ens for både mænd og kvinder.
 
 Forskellen mellem mænd og kvinder er, hvordan de enkelte øvelser bedømmes, hvor meget vægt man skal løfte, og så er der valgt to forskellige øvelser for kropshævninger.
 
-Øvelserne i politiets optagelsesprøve er følgende:
+Øvelserne i politiets fysiske optagelsesprøve er følgende:
 
 - Opvarmning
 - Hurtighedstest

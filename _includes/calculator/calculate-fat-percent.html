@@ -29,27 +29,51 @@
     </fieldset>
     <fieldset class="results">
         <legend>Fedtprocent udregnet med forskellige formler</legend>
-        <label>Fedtprocent (Durnin & Womersley 1977)
-            <input disabled name="fat_percent_durnin" type="text">
-        </label>
-        <label>Fedtprocent (Jackson & Pollock 1990)
-            <input disabled name="fat_percent_jackson_pollock" type="text">
-        </label>
-        <label>Fedtprocent (Heitmann 1990)
-            <input disabled name="fat_percent_heitmann" type="text">
-        </label>
-        <label>Fedtprocent (Duerenberg 1991)
-            <input disabled name="fat_percent_duerenberg" type="text">
-        </label>
-        <label>Fedtprocent (Duerenberg 1998)
-            <input disabled name="fat_percent_duerenberg_1998" type="text">
-        </label>
-        <label>Fedtprocent (Gallagher 2000)
-            <input disabled name="fat_percent_gallagher" type="text">
-        </label>
-        <label>Fedtprocent (Heritage 2002)
-            <input disabled name="fat_percent_heritage_2002" type="text">
-        </label>
+
+        <table>
+            <thead>
+                <tr>
+                <th>Formel</th>
+                <th>Resultat</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Durnin & Womersley 1977</td>
+                    <td><input disabled name="fat_percent_durnin" id="fat_percent_durnin" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Jackson & Pollock 1990</td>
+                    <td><input disabled name="fat_percent_jackson_pollock" id="fat_percent_jackson_pollock" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Heitmann 1990</td>
+                    <td><input disabled name="fat_percent_heitmann" id="fat_percent_heitmann" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Duerenberg 1991</td>
+                    <td><input disabled name="fat_percent_duerenberg" id="fat_percent_duerenberg" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Duerenberg 1998</td>
+                    <td><input disabled name="fat_percent_duerenberg_1998" id="fat_percent_duerenberg_1998" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Gallagher 2000</td>
+                    <td><input disabled name="fat_percent_gallagher" id="fat_percent_gallagher" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Heritage 2002</td>
+                    <td><input disabled name="fat_percent_heritage_2002" id="fat_percent_heritage_2002" type="text"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td><strong>Gennemsnitlig fedtprocent</strong></td>
+                <td><input disabled name="fat_percent_average" id="fat_percent_average" type="text"></td>
+        </tr>
+        </tfoot>
+        </table>
         <label>Body mass index (BMI)
             <input disabled name="BMI" id="BMI" type="text">
         </label>

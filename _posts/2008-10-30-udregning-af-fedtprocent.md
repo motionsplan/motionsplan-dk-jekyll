@@ -34,7 +34,7 @@ feature_row:
     btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
-last_modified_at: 2022-05-19T08:14:14.000Z
+last_modified_at: 2025-03-21T08:14:14.000Z
 toc: true
 redirect_from:
   - /udregn-fp/

@@ -1888,7 +1888,7 @@ $(function() {
 
         let f = fat.CalculateFatPercent(h, w, a, g);
 
-        $("[name='BMI']").val(f.getBMI().toFixed(2));
+        $("[name='BMI']").val(f.getBMI().toFixed(1));
         $("[name='fat_percent_durnin']").val(f.getWomersleyDurnin1977().toFixed(1));
         $("[name='fat_percent_jackson_pollock']").val(f.getJacksonPollock1980().toFixed(1));
         $("[name='fat_percent_heitmann']").val(f.getHeitmann1990().toFixed(1));
@@ -1896,6 +1896,8 @@ $(function() {
         $("[name='fat_percent_duerenberg_1998']").val(f.getDuerenberg1998().toFixed(1));
         $("[name='fat_percent_gallagher']").val(f.getGallagher2000().toFixed(1));
         $("[name='fat_percent_heritage_2002']").val(f.getHeritage2002().toFixed(1));
+        $("[name='fat_percent_average']").val(f.getAverage().toFixed(1));
+        console.log("Average" + f.getAverage());
     });
     $("#calculator_how_tall").submit(function(e) {
         console.log("Calculate How Tall");

@@ -40,6 +40,13 @@ feature_row_train_fitness:
 last_modified_at: 2025-02-18T22:21:26Z
 breadcrumbs: true
 toc: true
+meta:
+  name: Montreal University Track Test
+  measures: kondital
+  type: løbetest
+  equipment: løbebane
+  max: maksimal test
+  direct: indirekte test
 faq:
   - question: Hvordan adskiller Montreal Track Test sig fra biptesten?
     answer: Montreal Track Test kræver en 400m bane og har en gradvis hastighedsstigning, mens biptesten kan udføres på mindre plads med skiftende løb frem og tilbage.

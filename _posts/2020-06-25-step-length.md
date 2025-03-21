@@ -14,7 +14,6 @@ tags:
   - sundhed
   - skridt
   - beregner
-  - featured
   - populær
   - gang
   - gangtest

@@ -87,7 +87,7 @@ Elementerne i den fysiske optagelsesprøve er ens for både mænd og kvinder.
 
 Forskellen mellem mænd og kvinder er, hvordan de enkelte øvelser bedømmes, hvor meget vægt man skal løfte, og så er der valgt to forskellige øvelser for kropshævninger.
 
-Øvelserne i politiets optagelsesprøve er følgende:
+Øvelserne i forsvarets fysiske optagelsesprøve er følgende:
 
 - Opvarmning
 - Udholdenhedstest - [Cooper 12 minutters løbetest](/cooper-test/) eller [bip udholdenhedstesten](/bip-test/).

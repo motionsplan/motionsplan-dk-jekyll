@@ -16,6 +16,13 @@ tags:
   - løb
   - cykling
   - beregner
+meta:
+  name: Maffetone Max Aerobic Heartrate
+  measures: puls
+  type: konditionstest
+  equipment: pulsmåler
+  max: submaksimal test
+  direct: indirekte test
 ---
 
 Maffetone-metoden er en træningsfilosofi, der fokuserer på at forbedre din udholdenhed ved at holde pulsen lav. 

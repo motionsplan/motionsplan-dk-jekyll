@@ -108,6 +108,12 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     return false;
   }
 
+  function getAverage(etniticity = "white") {
+    let no = 7;
+    let total = getBodyFatPercentHeitmannBMIEquation() + getBodyFatPercentWomersleyDurninBMIEquation() + getDuerenberg1998() + getBodyFatPercentDuerenbergBMIEquation() + getGallagher(etniticity) + getJacksonPollock1980() + getHeritage2002();
+    return total / no;
+  }
+
   let publicAPI = {
     getBMI : getBMI,
     getFatMass: getFatMass,
@@ -117,7 +123,8 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     getDuerenberg1998 : getDuerenberg1998,
     getGallagher2000 : getGallagher,
     getJacksonPollock1980 : getJacksonPollock1980,
-    getHeritage2002 : getHeritage2002
+    getHeritage2002 : getHeritage2002,
+    getAverage : getAverage
   };
 
   return publicAPI;

@@ -12,7 +12,7 @@ category:
   - Tests
   - Kondition
 meta:
-  name: YMCA 3 minutters steptest (3MST)
+  name: YMCA modified steptest
   measures: kondital
   type: steptest
   equipment: stepbænk

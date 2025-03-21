@@ -15,6 +15,13 @@ tags:
   - test
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
+meta:
+  name: Trappetest på cykel
+  measures: kondital
+  type: cykeltest
+  equipment: cykelergometer
+  max: maksimal test
+  direct: indirekte test
 ---
 
 En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest, som du let kan udføre selv.
