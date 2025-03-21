@@ -14,7 +14,7 @@ tags:
 last_modified_at: 2022-08-15T08:14:14Z
 toc: true
 feature_row:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_haeftet_9788702163681
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_epub_9788702163698
     image_path: https://imgcdn.saxo.com/_9788702163681/0x500
     title: Jeg er B-menneske
     alt: Forside til Jeg er B-menneske af Camilla Kring
@@ -106,7 +106,7 @@ Du kan få hjælp til at fastslå din egen kronotype i nedenstående validerede 
 
 Rockwool Fondens Forskningsenhed [konkluderer](https://www.rockwoolfonden.dk/app/uploads/2016/02/Nyhedsbrev-April-2011.pdf) i en søvnundersøgelse, at A-mennesker tjener mere end B-mennesker. Det har ifølge forskerne den enkle forklaring, at samfundet og arbejdsmarkedet er indrettet til A-mennesker.
 
-Det er netop dette faktum Camilla Kring kritiserer i bogen [Jeg er B-menneske](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_haeftet_9788702163681){: rel="sponsored nofollow noopener" }.Døgnrytmen har betydning for din livskvalitet, helbred og produktivitet - og samfundets indretning passer ikke til B-mennesker.
+Det er netop dette faktum Camilla Kring kritiserer i bogen [Jeg er B-menneske](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_epub_9788702163698){: rel="sponsored nofollow noopener" }.Døgnrytmen har betydning for din livskvalitet, helbred og produktivitet - og samfundets indretning passer ikke til B-mennesker.
 
 ## Find søvnens midtpunkt med en søvndagbog
 
