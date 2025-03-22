@@ -129,8 +129,6 @@ Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktivi
 
 Jeg har lavet en [simpel beregner til hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og en [beregner af dit stofskifte, energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) med en lidt mere generel angivelse af dit daglige fysiske aktivitetsniveau. Endelig kan du tjekke vores [beregner til udregning af ligevægtsindtaget](/ligevaegtsindtag-beregner/).
 
-Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](https://health-calc.com/diet/energy-expenditure-advanced).
-
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 

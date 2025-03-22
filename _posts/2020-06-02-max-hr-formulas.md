@@ -41,6 +41,8 @@ På denne side forklarer vi, hvordan formlerne er udviklet, og hvad du skal vær
 
 Vi vurderer de forskellige formlers præcision, så du kan vælge den bedste maxpuls-formel for dig.
 
+Hvis du ikke er interesseret i teorien, så kan du gå direkte til vores [interaktive beregner af maxpuls](/max-puls-beregner/).
+
 {% include figure image_path="https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption=page.title alt="maxpuls og maksimale puls" %}
 
 ## Hvad er max-pulsen?

@@ -59,7 +59,7 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
@@ -114,7 +114,7 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
-Tabelle er fra _Nordiska Næringsrekommendationer 1996_.
+Tabellen er fra _Nordiska Næringsrekommendationer 1996_.
 
 Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere det daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 
@@ -143,7 +143,7 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

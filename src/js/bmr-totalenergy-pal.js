@@ -1,6 +1,5 @@
 let motionsplan = {};
 
-
 /**
  * Based on Nordic Nutrition Recommendations 2012
  * 

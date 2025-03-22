@@ -92,7 +92,7 @@ Hvis du tager en person som har en hvilepuls på 60 og en maxpuls på 200 slag i
 
 Ifølge [Morten Zacho](https://web.archive.org/web/20110606202421/http://www.motion-online.dk/konditionstraening/vaerktoejer/beregn_din_traeningsintensitet/){:rel="nofollow"} er det også typisk pulsreserven, der bruges i videnskabelige tekster, når forskerne måler intensitet i forhold puls.
 
-Fordelen ved at denne metode er, at det er relativt enkelt at finde sin hvilepuls og beregne sin maxpuls. 
+Fordelen ved at denne metode er, at det er relativt enkelt at finde sin hvilepuls og [beregne sin maxpuls](/max-puls-beregner/). 
 
 Du kan lære mere om at beregne arbejdspuls eller intensitet i vores [guide om pulsreserven](/pulsreserve/).
 

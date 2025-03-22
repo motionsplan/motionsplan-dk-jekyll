@@ -56,7 +56,9 @@ keywords:
   - udregning af basalstofskifte
 ---
 
-Jeg har lavet en BMR-beregner, hvor du kan udregne dit dit hvilestofskifte og basalstofskifte. Du kan beregne dit omtrentlige hvilestofskiftet og basalstofskiftet ud fra dit køn, alder, vægt og højde. Vi har samlet en række forskellige formler til at udregne BMR.
+Jeg har lavet en BMR-beregner, hvor du kan udregne dit dit hvilestofskifte og basalstofskifte. Du kan beregne dit omtrentlige hvilestofskiftet og basalstofskiftet ud fra dit køn, alder, vægt og højde.
+
+Her kan du også se en række forskellige formler til at udregne BMR.
 
 *[BMR]: Basic Metabolic Rate
 *[REE]: Resting Energy Expenditure
@@ -67,7 +69,9 @@ Jeg har lavet en BMR-beregner, hvor du kan udregne dit dit hvilestofskifte og ba
 
 Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). I dette indlæg koncentrerer vi os om hvilestofskiftet og basalstofskiftet.
 
-Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
+## Hvad er hvilestofskiftet og basalstofskiftet?
+
+**Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
 Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag](/ligevaegtsindtag-beregner/), så har jeg også skrevet om det.
 
@@ -147,7 +151,7 @@ W er vægt i kg. H er højde i meter.
 {% Jeg har droppet disse, da de er blevet overhalet af 2012 %}
 
 <details markdown="1" class="equation">
-  <summary>Se formler til Nordiska Næringsrekommendationer (1996)</summary>
+  <summary>Nordiska Næringsrekommendationer (1996)</summary>
 
 ### Formel til at beregne hvilestofskiftet
 
@@ -180,7 +184,7 @@ Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte s
 {% endcomment %}
 
 <details markdown="1" class="equation">
-  <summary>Se formler for Schofield (1985)</summary>
+  <summary>Schofield (1985)</summary>
 
 Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Læg mærke til, at der er aldersspecifikke formler for børn, hvilket betyder, at beregneren er relativt pålidelig også til at udregne hvilestofskiftet til børn.
 
@@ -208,7 +212,7 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se formler for Benedict-Harris (1918-1919)</summary>
+  <summary>Benedict-Harris (1918-1919)</summary>
 
 Du kan vælge at bruge [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) fra 1918-1919 ti lat udregne basalstofskiftet. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen.
 
@@ -219,7 +223,7 @@ Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncb
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se formler for Roza og Shizgal (1984)</summary>
+  <summary>Roza og Shizgal (1984)</summary>
 
 [Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede Benedict-Harris formel i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
 
@@ -228,13 +232,26 @@ Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncb
 </details>
 
 <details markdown="1" class="equation">
-  <summary>Se formler for Mifflin et al (1990)</summary>
+  <summary>Mifflin et al (1990)</summary>
 
 [Mifflin et al (1990)](https://academic.oup.com/ajcn/article-abstract/51/2/241/4695104) reviderede Benedict-Harris-formlen 1990.
 
 - Mænd: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) + 5
 - Kvinder: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) - 161
 </details>
+
+<details markdown="1" class="equation">
+  <summary>Henry (2005)</summary>
+
+Henry udregner MJ. Vægt i kg. Højde i meter.
+
+| Alder | Mænd | Kvinder |
+|-|-|-|
+| 18-30 år | 0.0600 weight + 1.31 height + 0.473 | 0.0433 weight + 2.57 height – 1.18 |
+| 30-60 år | 0.0476 weight + 2.26 height – 0.574 | 0.0342 weight + 2.10 height - 0.0486 |
+| ≥60 years | 0.0478 weight + 2.26 height – 1.07 | 0.0356 weight + 1.76 height + 0.0448 |
+
+</summary>
 
 ## Præcision af formler til hvilestofskiftet
 
@@ -325,7 +342,7 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du gerne vil have en beregner på engelsk, så kan du finde en på [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

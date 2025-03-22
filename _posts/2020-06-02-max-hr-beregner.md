@@ -74,9 +74,9 @@ At beregne din maksimale puls med en formel kan give et hurtigt estimat, men den
 
 - 📊 [Test din maksimale puls](/max-puls-test/) – Se de bedste testmetoder.  
 - 🧮 [Max-puls formler](/max-puls-formler/) – Sammenligning af forskellige beregningsmetoder.  
-- ℹ️ [Overblik over max-puls](/test-max-puls/) – Alt, du behøver at vide om maksimal puls.  
+- ℹ️ [Overblik over max-puls](/test-max-puls/) – Alt, du behøver at vide om maksimal puls.
 
-Har du spørgsmål? Del dine tanker i kommentarerne eller test din max-puls i praksis! 🚀  
+Nu kan du [finde dine pulszoner ud fra maxpulsen](/pulszoner-max-puls/) eller [udregne kondital baseret på maxpuls](/kondital-fra-puls/). 🚀
 
 ## Ofte stillede spørgsmål
 

@@ -46,6 +46,9 @@ const etpunkt = require('./etpunkttest');
 const borg15 = require('./borg15');
 const topunkt = require('./topunkttest');
 const bmr_benedict_harris = require('./bmr-benedict-harris');
+const bmr_henry = require('./bmr-henry');
+const bmr_mifflin = require('./bmr-mifflin');
+const bmr_bmr = require('./bmr-bmr');
 const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
@@ -2625,13 +2628,7 @@ $(function() {
             formula = "nordic_2012";
         }
 
-        if (formula == 'schofield') {
-            b = schofield.BMRSchofield(gender, age, weight);
-        } else if (formula == 'benedict_harris') {
-            b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
-        } else {
-            b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
-        }
+        b = bmr_bmr.BMR(gender, age, weight, height, formula);
         $("[name='bmr']").val(b.getBasicMetabolicRate().toFixed(0));
 
         if ($("input[name='pal']").length > 0) {
@@ -2932,14 +2929,7 @@ $(function() {
 
       let b;
 
-        if (formula == 'schofield') {
-            b = schofield.BMRSchofield(gender, age, weight);
-        } else if (formula == 'benedict_harris') {
-            b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
-        } else {
-            b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
-        }
-
+      b = bmr_bmr.BMR(gender, age, weight, height, formula);
       let basicMeta = b.getBasicMetabolicRate();
 
       let min_day = 24 * 60;
@@ -2996,10 +2986,10 @@ $(function() {
 
       let vedligehold = basicMeta * activityConstant;
 
-        $("[name='pal_gerrior']").val(pal_gerrior);
+        $("[name='pal_gerrior']").val(pal_gerrior.toFixed(2));
         $("[name='activity_sitting']").val(activity_sitting);
-        $("[name='bmr']").val(basicMeta + " kJ");
-        $("[name='equilibrium']").val(vedligehold + " kJ");
+        $("[name='bmr']").val(basicMeta.toFixed(0) + " kJ");
+        $("[name='equilibrium']").val(vedligehold.toFixed(0) + " kJ");
 
     });
     // Calculate BMR - Nordic Nutrition 2012
