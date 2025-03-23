@@ -5,7 +5,7 @@
 // Used for heat management on the bike
 const hb = require('./heat-balance');
 let heat_balance = hb.HeatBalance();
-
+const vo2kcal = require('./vo2-kcal.js');
 const rpe = require('./rpe-strength');
 const temp_rise = require('./heat-temperature-rise');
 const how_tall = require('./how-tall');
@@ -21,6 +21,7 @@ const jog = require('./fitness-jogging');
 const jump_reach = require('./jumpreach');
 const tee_pal = require('./bmr-totalenergy-pal');
 const schofield = require('./bmr-schofield');
+const cunningham = require('./bmr-cunningham');
 const vmax_bike = require('./vmax');
 const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
@@ -2625,11 +2626,12 @@ $(function() {
         let b;
 
         if (height < 1) {
-            formula = "nordic_2012";
+            formula = "nordic_nutrition_2012";
         }
 
         b = bmr_bmr.BMR(gender, age, weight, height, formula);
         $("[name='bmr']").val(b.getBasicMetabolicRate().toFixed(0));
+        $("#bmr_legend").text(b.getFormulaName());
 
         if ($("input[name='pal']").length > 0) {
           let pal = Number($("[name='pal']:checked").val());
@@ -2642,6 +2644,35 @@ $(function() {
             $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
         }
     });
+    $("#calculator_bmr_ffm").submit(function(e) {
+      console.log("Calculate BMR FFM");
+      e.preventDefault();
+
+      let formula = $("[name='bmr-formula']").val();
+      let weight = Number($("[name='weight']").val());
+      let fat_percent = Number($("[name='fat_percent']").val());
+
+      let lbm = weight - (weight * fat_percent / 100);
+
+      let b = cunningham.BMRCunningham(lbm, formula);
+
+      $("[name='bmr']").val(b.getBasicMetabolicRate().toFixed(0));
+      $("#bmr_legend").text(b.getFormulaName());
+      $("[name='ffm']").val(lbm.toFixed(0));
+
+      if ($("input[name='pal']").length > 0) {
+        let pal = Number($("[name='pal']:checked").val());
+        let moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
+        let strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
+
+        let tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
+
+          $("[name='pal_calc']").val(tee.getPhysicalActivityLevel().toFixed(2));
+          $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
+          $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
+      }
+    });
+
     $("#calculator_critical_power_time").submit(function(e) {
         console.log("Calculate CP Time");
         e.preventDefault();
@@ -2857,7 +2888,6 @@ $(function() {
         $("[name='cp']").val(cp.toFixed(0));
         $("[name='w']").val(w.toFixed(0));
     });
-    // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_blood").submit(function(e) {
         console.log("Calculate Blood");
         e.preventDefault();
@@ -2893,9 +2923,141 @@ $(function() {
       $("[name='energy_fat_kcal_min']").val((kcal * b.getFatPercent()).toFixed(2));
       $("[name='energy_cho_kcal_min']").val((kcal * b.getCHOPercent()).toFixed(2));
   });
-  // Calculate BMR - Nordic Nutrition 2012
+  $("#calculator_cho_usage").submit(function(e) {
+    console.log("Calculate CHO usage");
+    e.preventDefault();
+
+    // let formula = $("[name='ee-formula']").val();
+
+    let kondital = Number($("[name='fitness_level']").val());
+    let weight = Number($("[name='weight']").val());
+
+    let vo2max = kondital * weight / 1000;
+
+    // Zone 1
+    let z1_min = Number($("[name='cho_zone1_time']").val());
+    let z1_int_a = Number($("[name='cho_zone1_a']").val());
+    let z1_int_b = Number($("[name='cho_zone1_b']").val());
+    let z1_r = Number($("[name='cho_zone1_r']").val());
+
+    let z1_o2 = vo2max * z1_int_b / 100;
+
+    let z1 = vo2kcal.VO2Kcal(z1_r, z1_o2);
+
+    let z1_fat_g = z1.getKcalFromFat() * z1_min * 4.186 / 37;
+    let z1_cho_g = z1.getKcalFromCHO() * z1_min * 4.186 / 17;
+    let z1_kcal = (z1.getKcalFromFat() + z1.getKcalFromCHO()) * z1_min;
+
+    $("#cho_zone1_output_time").text(z1_min.toFixed(0));
+    $("#cho_zone1_output_int").text(z1_int_a.toFixed(0) + "-" + z1_int_b.toFixed(0) + "%");
+    $("#cho_zone1_output_r").text(z1_r.toFixed(2));
+    $("#cho_zone1_output_kcal").text(z1_kcal.toFixed(1));
+    $("#cho_zone1_output_fat").text(z1_fat_g.toFixed(1));
+    $("#cho_zone1_output_cho").text(z1_cho_g.toFixed(1));
+
+    // Zone 2
+    let z2_min = Number($("[name='cho_zone2_time']").val());
+    let z2_int_a = Number($("[name='cho_zone2_a']").val());
+    let z2_int_b = Number($("[name='cho_zone2_b']").val());
+    let z2_r = Number($("[name='cho_zone2_r']").val());
+
+    let z2_o2 = vo2max * z2_int_b / 100;
+
+    let z2 = vo2kcal.VO2Kcal(z2_r, z2_o2);
+
+    let z2_fat_g = z2.getKcalFromFat() * z2_min * 4.186 / 37;
+    let z2_cho_g = z2.getKcalFromCHO() * z2_min * 4.186 / 17;
+    let z2_kcal = (z2.getKcalFromFat() + z2.getKcalFromCHO()) * z2_min;
+
+    $("#cho_zone2_output_time").text(z2_min.toFixed(0));
+    $("#cho_zone2_output_int").text(z2_int_a.toFixed(0) + "-" + z2_int_b.toFixed(0) + "%");
+    $("#cho_zone2_output_r").text(z2_r.toFixed(2));
+    $("#cho_zone2_output_kcal").text(z2_kcal.toFixed(1));
+    $("#cho_zone2_output_fat").text(z2_fat_g.toFixed(1));
+    $("#cho_zone2_output_cho").text(z2_cho_g.toFixed(1));
+
+    // Zone 3
+    let z3_min = Number($("[name='cho_zone3_time']").val());
+    let z3_int_a = Number($("[name='cho_zone3_a']").val());
+    let z3_int_b = Number($("[name='cho_zone3_b']").val());
+    let z3_r = Number($("[name='cho_zone3_r']").val());
+
+    let z3_o2 = vo2max * z3_int_b / 100;
+
+    let z3 = vo2kcal.VO2Kcal(z3_r, z3_o2);
+
+    let z3_fat_g = z3.getKcalFromFat() * z3_min * 4.186 / 37;
+    let z3_cho_g = z3.getKcalFromCHO() * z3_min * 4.186 / 17;
+    let z3_kcal = (z3.getKcalFromFat() + z3.getKcalFromCHO()) * z3_min;
+
+    $("#cho_zone3_output_time").text(z3_min.toFixed(0));
+    $("#cho_zone3_output_int").text(z3_int_a.toFixed(0) + "-" + z3_int_b.toFixed(0) + "%");
+    $("#cho_zone3_output_r").text(z3_r.toFixed(2));
+    $("#cho_zone3_output_kcal").text(z3_kcal.toFixed(1));
+    $("#cho_zone3_output_fat").text(z3_fat_g.toFixed(1));
+    $("#cho_zone3_output_cho").text(z3_cho_g.toFixed(1));
+
+    // Zone 4
+    let z4_min = Number($("[name='cho_zone4_time']").val());
+    let z4_int_a = Number($("[name='cho_zone4_a']").val());
+    let z4_int_b = Number($("[name='cho_zone4_b']").val());
+    let z4_r = Number($("[name='cho_zone4_r']").val());
+
+    let z4_o2 = vo2max * z4_int_b / 100;
+
+    let z4 = vo2kcal.VO2Kcal(z4_r, z4_o2);
+
+    let z4_fat_g = z4.getKcalFromFat() * z4_min * 4.186 / 37;
+    let z4_cho_g = z4.getKcalFromCHO() * z4_min * 4.186 / 17;
+    let z4_kcal = (z4.getKcalFromFat() + z4.getKcalFromCHO()) * z4_min;
+
+    $("#cho_zone4_output_time").text(z4_min.toFixed(0));
+    $("#cho_zone4_output_int").text(z4_int_a.toFixed(0) + "-" + z4_int_b.toFixed(0) + "%");
+    $("#cho_zone4_output_r").text(z4_r.toFixed(2));
+    $("#cho_zone4_output_kcal").text(z4_kcal.toFixed(1));
+    $("#cho_zone4_output_fat").text(z4_fat_g.toFixed(1));
+    $("#cho_zone4_output_cho").text(z4_cho_g.toFixed(1));
+
+    // Zone 5
+    let z5_min = Number($("[name='cho_zone5_time']").val());
+    let z5_int_a = Number($("[name='cho_zone5_a']").val());
+    let z5_int_b = Number($("[name='cho_zone5_b']").val());
+    let z5_r = Number($("[name='cho_zone5_r']").val());
+
+    let z5_o2 = vo2max * z5_int_b / 100;
+
+    let z5 = vo2kcal.VO2Kcal(z5_r, z5_o2);
+
+    let z5_fat_g = z5.getKcalFromFat() * z5_min * 4.186 / 37;
+    let z5_cho_g = z5.getKcalFromCHO() * z5_min * 4.186 / 17;
+    let z5_kcal = (z5.getKcalFromFat() + z5.getKcalFromCHO()) * z5_min;
+
+    $("#cho_zone5_output_time").text(z5_min.toFixed(0));
+    $("#cho_zone5_output_int").text(z5_int_a.toFixed(0) + "-" + z5_int_b.toFixed(0) + "%");
+    $("#cho_zone5_output_r").text(z5_r.toFixed(2));
+    $("#cho_zone5_output_kcal").text(z5_kcal.toFixed(1));
+    $("#cho_zone5_output_fat").text(z5_fat_g.toFixed(1));
+    $("#cho_zone5_output_cho").text(z5_cho_g.toFixed(1));
+
+    let total_fat_g = z1_fat_g + z2_fat_g + z3_fat_g + z4_fat_g + z5_fat_g;
+    let total_cho_g = z1_cho_g + z2_cho_g + z3_cho_g + z4_cho_g + z5_cho_g;
+    let total_time = z1_min + z2_min + z3_min + z4_min + z5_min;
+    let total_kcal = z1_kcal + z2_kcal + z3_kcal + z4_kcal + z5_kcal;
+
+    $("#cho_total_time").text(total_time.toFixed(0));
+    $("#cho_total_fat").text(total_fat_g.toFixed(1));
+    $("#cho_total_cho").text(total_cho_g.toFixed(1));
+    $("#cho_total_kcal").text(total_kcal.toFixed(1));
+
+//    $("[name='energy_expenditure']").val(kcal.toFixed(2));
+//    $("[name='energy_fat_percent']").val((b.getFatPercent()* 100).toFixed(0));
+//    $("[name='energy_cho_percent']").val((b.getCHOPercent() * 100).toFixed(0));
+    
+//    $("[name='energy_fat_kcal_min']").val((kcal * b.getFatPercent()).toFixed(2));
+//    $("[name='energy_cho_kcal_min']").val((kcal * b.getCHOPercent()).toFixed(2));
+});
     $("#calculator_lung").submit(function(e) {
-        console.log("Calculate Blood");
+        console.log("Calculate Lungs");
         e.preventDefault();
       let gender = $("[name='gender']").val();
       let age = Number($("[name='age']").val());
@@ -2990,9 +3152,9 @@ $(function() {
         $("[name='activity_sitting']").val(activity_sitting);
         $("[name='bmr']").val(basicMeta.toFixed(0) + " kJ");
         $("[name='equilibrium']").val(vedligehold.toFixed(0) + " kJ");
+        $("#bmr_legend").text(b.getFormulaName());
 
     });
-    // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_riegels").submit(function(e) {
         console.log("Riegels formular");
         e.preventDefault();
@@ -3006,7 +3168,6 @@ $(function() {
 
         $("#results").html(b.getTableWithEndTimes());
     });
-    // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_weightloss_running_time").submit(function(e) {
         console.log("Running time weight loss");
         e.preventDefault();

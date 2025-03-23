@@ -13,15 +13,15 @@ category:
   - Beregnere
   - Kalorieberegnere
 meta:
-  name: Dagligt energiforbrug og energibehov
+  name: Hvilestofskifte og basalstofskifte
   equipment: ingen
-  measures: dagligt energiforbrug
+  measures: hvilestofskifte
   type: energiforbrug
 tags:
   - stofskifte
   - kalorieberegner
   - beregner
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2025-03-06T23:14:14Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
@@ -97,7 +97,22 @@ Resultatet er en gennemsnitsberegning for, hvor højt hvilestofskiftet er for pe
 
 ## Hvilken formel skal jeg vælge i BMR-beregneren?
 
-Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR.
+
+I beregneren kan du vælge den **anbefalede formel**. Beregneren er ret klog, så den kan vælge den mest passende formel til netop dig.
+
+[Madden et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26923904/) konkluderer i deres systematiske review, at valget af formel bl.a. afhænger af [udregning af BMI](/bmi-beregner/). Desuden betyder alder og køn naturligvis også noget.
+
+Beregneren vælger den mest passende formel baseret disse kriterier fra [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' }:
+
+| Kriterie | Formel | Kilde for kriterie |
+|-|-|-|
+| Standard | Nordic Nutrition Recommendations (2012) | WHO's anbefalinger |
+| BMI ≥25 and ≥30 kg | Nordic Nutrition Recommendations (2012) | [Madden et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26923904/) |
+| BMI ≥30 | Mifflin et al (1990) | [Madden et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26923904/) |
+| BMI ≥40 | Henry (2005) | [Madden et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26923904/) |
+
+Hvis du selv vil bestemme formel, men er lidt i tvivl om hvilken formel, du skal vælge, så start med formlerne fra Nordic Nutrition Recommendations (2012). Disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
 Du skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper. Formlerne i denne beregner baserer sig på alder, køn, vægt og højde, men da den fedtfrie masse kan have stor betydning for hvilestofskiftet, så har andre lavet formler baseret på den. Det er imidlertid noget vanskeligere at få den fedtfrie masse estimeret pålideligt.
 
@@ -106,7 +121,7 @@ Formlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennes
 ## Formler og tabeller for udregning af hvilestofskiftet
 
 <details markdown="1" class="equation">
-  <summary>Se formler til Nordic Nutrition Recommendations (2012)</summary>
+  <summary>Nordic Nutrition Recommendations (2012)</summary>
 
 ## Nordic Nutrition Recommendations 2012
 
@@ -209,23 +224,30 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 | 18–30 | 62 × W + 2036 | 497 |
 | 30–60 | 34 × W + 3538 | 465 |
 | > 60 | 38 × W + 2755 | 451 |
+
 </details>
 
 <details markdown="1" class="equation">
   <summary>Benedict-Harris (1918-1919)</summary>
 
-Du kan vælge at bruge [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) fra 1918-1919 ti lat udregne basalstofskiftet. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen.
+Du kan vælge at bruge [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) fra 1918-1919 til at udregne basalstofskiftet. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen.
 
 Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncbi.nlm.nih.gov/18782481/)-formlen ser sådan her ud.
 
+***
+
 - Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
 - Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
+
+***
 </details>
 
 <details markdown="1" class="equation">
   <summary>Roza og Shizgal (1984)</summary>
 
-[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede Benedict-Harris formel i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
+[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede Benedict-Harris formel i 1984.
+
+Hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
 
 - Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
 - Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
@@ -251,23 +273,23 @@ Henry udregner MJ. Vægt i kg. Højde i meter.
 | 30-60 år | 0.0476 weight + 2.26 height – 0.574 | 0.0342 weight + 2.10 height - 0.0486 |
 | ≥60 years | 0.0478 weight + 2.26 height – 1.07 | 0.0356 weight + 1.76 height + 0.0448 |
 
-</summary>
+</details>
 
 ## Præcision af formler til hvilestofskiftet
 
 Der findes virkelig mange forskellige formler for BMR, hvilestofskift og basalstofskiftet. Der er også mange studier, der har valideret de forskellige formler.
 
-Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
+[Jagim et al (2018)](https://pubmed.ncbi.nlm.nih.gov/28682934/) sammenligner præcisionen af formler for hvilestofskiftet for atleter.
 
-> Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
+Forskerne konkluderer at de fleste formler undervurderer hvilestofskiftet lidt for en atletisk population.
+
+Jamim og kollegaer vurderer følgende:
+
+> The Harris-Benedict equation seems to be most accurate for male athletes, whereas the Cunningham equation may be better suited for female athletes.
 >
-> Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
->
-> --- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
+> -- <cite>[Jagim et al (2018)](https://pubmed.ncbi.nlm.nih.gov/28682934/)</cite>
 
 Hvis man kigger i andre studier, der tjekker pålideligheden af de forskellige formler, så ender de på andre formler som de mest pålidelige. Ofte handler studierne om, hvordan formlerne underestimerer og overestimerer BMR for særlige grupper. Sabounchi et al (2013) har bl.a. lavet en større sammenligning, hvor de præsenterer en relativt avanceret tabel for forskellige befolkningsgrupper.
-
-Jeg har foreløbigt valgt nogle af de mest brugte formler i beregneren, men tilpasser og udvider beregneren i takt med, at jeg bliver klogere.
 
 ## Hvordan måles BMR, hvilestofskiftet og basalstofskiftet?
 
@@ -317,21 +339,11 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 
 ## Udregn BMR fra fedtfrie masse
 
-Denne udregning af stofskiftet tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_.
+En anden populær måde at udregne sit hvilestofskifte er ud fra sin fedtfrie masse. Det ser ud til i mange studier, at fedtmassen i kroppen kun bidrager i lille grad til hvilestofskiftet.
 
-I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' } af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
+Derfor kan det særligt ved atletiske personer, som alt andet lige har en højere fedtfri masse, sommetider få bedre resultater ved at bruge beregninger, som tager udgangspunkt i den fedtfrie masse.
 
-- Basalstofskifte (MJ/døgn) = 0,09 * FFM (kg) + 1,55
-
-eller
-
-- Basalstofskifte (MJ/døgn) = 0,058 * FFM (kg) + 0,026 * FM (kg) - 0,018 * alder + 0,615 * køn + 3,322
-
-I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
-
-Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg](/kropskomposition/) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
-
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
+Særligt er [Cunninghams formel til hvilestofskifte](/bmr-beregner-ffm/) populær. Hvis du kender din fedtprocent og gerne vil sammenligne, så tjek vores [beregner af BMR fra fedtfri masse](/bmr-beregner-ffm/).
 
 {% comment %}
 ## Hvad kan du bruge hvilestofskiftet til?
@@ -342,7 +354,7 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
+Jeg har også lavet en [avanceret beregner af dit samlede daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

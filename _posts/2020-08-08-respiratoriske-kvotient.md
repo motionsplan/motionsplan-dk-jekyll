@@ -140,7 +140,7 @@ Energiforbrug (kcal/ L O₂) = 1,24 * R + 3,81
 
 Hvis du fx arbejder og bruger 2 L O₂/min, og min R-værdi er 0,85, så forbrænder du 9,72 kcal/min. Hvis du arbejder med samme intensitet i 30 minutter, så forbrænder du i alt 292 kcal.
 
-## Beregn dit energiforbrug
+## Beregn dit energiforbrug ud fra VO2 og R
 
 {% include calculator/calculate-rer.html %}
 

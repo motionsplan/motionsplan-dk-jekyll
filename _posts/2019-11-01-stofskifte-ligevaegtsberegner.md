@@ -26,7 +26,7 @@ meta:
   measures: dagligt energiforbrug
   type: energiforbrug
 popular: true
-last_modified_at: 2022-09-12T23:14:14Z
+last_modified_at: 2024-09-12T23:14:14Z
 toc: true
 keywords:
   - ligevægtsindtag
@@ -59,13 +59,15 @@ Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og ene
 
 ## Ligevægtsberegner: Beregn dit ligevægtsindtag
 
-Beregn ligevægtsindtag i vores ligevægtsberegner. Du får det bedste estimat, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din højde.
+Beregn ligevægtsindtag i vores ligevægtsberegner. Du får det bedste estimat, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din statur.
 
 {% include calculator/calculate-stofskifte-pal.html %}
 
 ## Hvordan udregner jeg mit ligevægtsindtag?
 
-**Ligevægtsindtaget er egentlig bare et andet ord for dit daglige energibehov, som inkluderer dit hvilestofskifte og dit fysiske aktivitetsniveau.** Derfor udregnes dit ligevægtsindtag med at gange dit hvilestofskifte med en faktor for dit daglige aktivitetsniveau.
+**Ligevægtsindtaget er egentlig bare et andet ord for dit daglige energibehov, som inkluderer dit hvilestofskifte og dit fysiske aktivitetsniveau.**
+
+Derfor udregnes dit ligevægtsindtag med at gange dit hvilestofskifte med en faktor for dit daglige aktivitetsniveau.
 
 Du kan estimere dit ligevægtsindtag i vores ligevægtsindtagsberegner ovenfor, så du ved, hvad dit daglige kalorieindtag skal være. På den måde undgår du at indtage færre kalorier, end du har brug for, hvis du gerne vil have gode resultater af din træning. Du får også overblik over, om du indtager flere kalorier end nødvendigt.
 
@@ -73,9 +75,11 @@ Når energiforbruget svarer overens med dit kalorieindtag, så holder du den nuv
 
 ## Hvilken formel skal jeg vælge til beregning af ligevægtsindtag?
 
-Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. Beregneren vælger selv den mest passende ud fra dine indtastninger, hvis du vælger **anbefalet formel**.
 
-Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
+ Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+
+Du kan læse mere om den [teoretiske baggrund for beregning af hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
 ## Hvad kan jeg bruge ligevægtsindtaget til?
 

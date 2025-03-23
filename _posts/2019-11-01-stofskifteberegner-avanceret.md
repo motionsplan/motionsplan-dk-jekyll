@@ -19,7 +19,7 @@ meta:
   equipment: ingen
   measures: dagligt energiforbrug
   type: energiforbrug
-last_modified_at: 2020-08-06T23:14:14Z
+last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 excerpt: "I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov."
 feature_row:
@@ -50,9 +50,11 @@ Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt o
 
 ## Hvilken formel skal jeg vælge til at udregne stofskiftet og forbrændingen?
 
-Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. Hvis du vælger **den anbefalede formel**, så vælger beregneren selv den mest passende formel.
 
-Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
+Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+
+Du kan læse mere om de forskellige [formler til hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}), og den teoretiske baggrund for at vælge en bestemt formel.
 
 ### Udregning af fysisk aktivitetsniveau
 
@@ -72,8 +74,6 @@ Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recom
 **Jeg er i tvivl om jeg har valgt de helt rigtige MET-værdier til at give den bedste beregning. Hvis du har et input til at gøre listen bedre, så brug endelig kommentarerne.**
 
 Gerrior et al (2006) benytter så PAL-værdien til at udregne en PA-værdi, men lige nu ganger beregneren direkte med PAL-værdien udregnet ud fra fremgangsmåden hos Gerrior et al (2006).
-
-Hvis du har et rigtig godt bud, så brug endelig kommentarerne.
 
 {% comment %}
 

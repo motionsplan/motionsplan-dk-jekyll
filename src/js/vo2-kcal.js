@@ -1,6 +1,6 @@
 let motionsplan = {};
 
-motionsplan.VO2Kcal = function(rer) {
+motionsplan.VO2Kcal = function(rer, vo2 = 0) {
 
   // Values from this formula does not equal tables usually shown
   // https://www.phymep.com/wp-content/uploads/2014/05/equations.pdf
@@ -18,27 +18,25 @@ motionsplan.VO2Kcal = function(rer) {
   }
 
   // https://vo2master.com/blog/exercise-efficiency/
-  // Brouwer
+  // Brouwer - formula?
   // return J/s
-  function getEnergyExpenditureInJoule() {
-    return ((3.869 * vo2) + (1.195 * vco2)) * (4.1896/60) * 1000;
-  }
-
+  //function getEnergyExpenditureInJoule() {
+  //  return ((3.869 * vo2) + (1.195 * vco2)) * (4.1896/60) * 1000;
+  //}
 
   // where is this formula from?
   // we also have the formula from vo2master
-  // comapre these to rer.js
   // Lusk - https://www.researchgate.net/publication/254744636_Comparison_of_energy_expenditure_calculations
   function getKcalPrLiterO2PrMin() {
     return 3.815 + 1.232 * rer;
   }
 
   function getKcalFromFat() {
-    return getFatPercent() * getKcalMin();
+    return getPercentFatUtilized() / 100 * getKcalPrLiterO2PrMin();
   }
 
   function getKcalFromCHO() {
-    return getCHOPercent() * getKcalMin();
+    return getPercentCHOUtilized() / 100 * getKcalPrLiterO2PrMin();
   }
 
   let publicAPI = {

@@ -1,15 +1,16 @@
-{% assign legend = include.legend | default: "Nordic Nutrition Recommendations 2012" %}
+{% assign legend = include.legend | default: "Anbefalet formel" %}
 <form class="calculator full" id="calculator_bmr_advanced_pal">
     <fieldset>
-        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på <em id="bmr_legend">{{ legend }}</em>.</legend>
+        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag.</legend>
         <div class="form-group">
             <label>Formel for udregning af hvilestofskifte
             <select name="bmr-formula" id="bmr-formula">
+                <option value="recommended_formula">Anbefalet formel</option>
                 <option value="benedict_harris">Benedict-Harris (1918-1919)</option>
                 <option value="schofield">Schofield Equation (1985)</option>
                 <option value="mifflin">Mifflin (1990)</option>
                 <option value="henry">Henry (2005)</option>
-                <option value="nordic_2012" selected="selected">Nordic Nutrition Recommendations (2012)</option>
+                <option value="nordic_nutrition_2012">Nordic Nutrition Recommendations (2012)</option>
             </select>
             </label>
         </div>
@@ -73,8 +74,10 @@
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="bmr">Basalstofskifte og hvilestofskifte (BMR) (kJ)</label>
-            <input name="bmr" id="bmr" disabled>
+            <label for="bmr">Basalstofskifte og hvilestofskifte (BMR) (kJ)
+                <input name="bmr" id="bmr" disabled>
+            </label>
+            <p class="help-block">Baseret på <em id="bmr_legend">{{ legend }}</em></p>
         </div>
         <div class="form-group">
             <label for="pal_gerrior">Physical Activity Level (PAL)</label>
@@ -85,8 +88,7 @@
             <input name="equilibrium" id="equilibrium" disabled>
         </div>
         <div class="form-group">
-            <label for="tee">Energiforbrug - Korrigeret for vægt og BMI (kJ)</label>
-            <p class="help-block">Jeg vil gerne forsøge at lave en beregner, der kan korrigere for alder, vægt og BMI i forhold til nogle af de <a href="https://health-calc.com/diet/energy-expenditure-advanced">ideer Morten Zacho præsenterer</a>. Hvis du har en ide til nogle <em>open source</em>-korrektioner, som er baseret på videnskab, så hører jeg meget gerne fra dig.</p>
+            <p class="help-block">Hvis du vælger den anbefalede formel til hvilestofskiftet, så vælges den mest passende formel i forhold til alder, køn, vægt og højde. Læs mere om den <a href="/bmr-beregner-hvilestofskifte-basalstofskifte/">teoretiske baggrund for valg af basalstofskifte-formel</a>.</p>
         </div>
     </fieldset>
     {% include calculator/calculator-footer.html %}

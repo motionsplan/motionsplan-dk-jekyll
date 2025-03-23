@@ -15,4 +15,10 @@ describe('BMRSchofield', function() {
       assert.equal(b.getBasicMetabolicRate(), 6910);
     });
   });
+  describe('getFormulaName', function() {
+    it('should return the correct number', function() {
+      let b = motionsplan.BMR("female", 32, 80, 180, "henry");
+      assert.equal(b.getFormulaName(), "Henry (2005)");
+    });
+  });
 });

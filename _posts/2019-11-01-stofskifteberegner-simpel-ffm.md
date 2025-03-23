@@ -1,8 +1,7 @@
 ---
-title: &title "Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag"
-seo_title: "Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag"
-description: "Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed."
-permalink: /stofskifte/
+title: &title "BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥"
+seo_title: "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte"
+permalink: /bmr-beregner-ffm/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
@@ -12,13 +11,14 @@ category:
   - Beregnere
   - Kalorieberegnere
 meta:
-  name: Beregn energiforbrug
+  name: Hvilestofskifte baseret på fedtfri masse
   equipment: ingen
   measures: dagligt energiforbrug
   type: energiforbrug
 tags:
   - stofskifte
   - kalorieberegner
+  - beregner
 last_modified_at: 2025-03-06T23:14:14Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
@@ -54,84 +54,84 @@ keywords:
   - udregning af basalstofskifte
 ---
 
-Forståelse af dit energibehov er essentielt, hvis du vil optimere din sundhed, ydeevne eller kropskomposition. Energibalance afgør, om du tager på, taber dig eller vedligeholder din nuværende vægt.
+I denne BMR-beregner, kan du udregne dit basalstofskifte baseret på den fedtfrie masse. Du bliver klogere på, hvilken formel, der er mest anvendelig.
 
-- **Kalorieoverskud**: Du indtager flere kalorier, end du forbrænder → vægtøgning.
-- **Kalorieunderskud**: Du forbrænder flere kalorier, end du indtager → vægttab.
-- **Kaloriebalance**: Du indtager og forbrænder det samme antal kalorier → stabil vægt.
+Særligt atletiske personer, som alt andet lige har en højere fedtfri masse, kan sommetider få bedre resultater ved at bruge beregninger, som tager udgangspunkt i den fedtfrie masse.
 
-Vil du hurtigt beregne dit daglige energiforbrug? Gå direkte til vores [mest avancerede energibehovsberegner](/beregner/dagligt-stofskifte-og-forbraending/).
+Særligt er Cunninghams formel til hvilestofskifte populær. 
 
-## 1. Basalstofskifte (BMR) – Din krops minimumsforbrug
+Hvis du ikke kender din fedtprocent eller fedtfrie masse, så kan du tjekke vores andre [energiberegnere til stofskifte](/stofskifte/). Fx kan du [udregne dit daglige energibehov baseret på vægt og højde]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller se vores [avancerede beregner med et præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/).
 
-Basalstofskifte (BMR) er den mængde energi, din krop bruger i hvile til at holde vitale funktioner i gang, som vejrtrækning, blodcirkulation og organfunktion.
+Du kan også læse om, hvordan du [udregner dit ligevægtsindtag præcist](/ligevaegtsindtag-beregner/).
 
-Faktorer, der påvirker BMR:
+*[BMR]: Basic Metabolic Rate
+*[REE]: Resting Energy Expenditure
+*[PAL]: Physical Activity Level
+*[FIT]: Fødeinduceret termogenese
+*[TEE]: Total Energy Expenditure
+*[kJ]: kilojoule
 
-- Alder: BMR falder med alderen, da muskelmassen ofte reduceres.
-- Køn: Mænd har typisk en højere BMR end kvinder pga. større muskelmasse.
-- Muskelmasse: Jo mere muskelmasse, jo højere BMR.
-- Højde og vægt: Større personer har en højere BMR.
-- Genetik: Arvelige faktorer kan have indflydelse på stofskiftet.
+Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). I dette indlæg koncentrerer vi os om hvilestofskiftet og basalstofskiftet.
 
-🔗 [Beregn dit hvilestofskifte med vores BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/)
+## Hvad er hvilestofskiftet og basalstofskiftet?
 
-## 2. Dagligt energiforbrug – Sådan påvirker aktivitet dit behov
+**Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
-Dit daglige energiforbrug er summen af dit BMR og den energi, du bruger på fysisk aktivitet. Dette inkluderer daglige gåture, træning, arbejde og generelle kropsbevægelser.
+Bliv klogere: [Alt om hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/)
+{: .notice }
 
-Sådan beregnes dit daglige energiforbrug:
+## BMR beregner fra fedtfri masse
 
-BMR ganges med en aktivitetsfaktor afhængigt af dit niveau:
+{% include calculator/calculate-stofskifte-ffm.html %}
 
-- 1.2 – Stillesiddende (ingen eller meget lidt motion)
-- 1.375 – Let aktiv (let motion 1-3 dage om ugen)
-- 1.55 – Moderat aktiv (motion 3-5 dage om ugen)
-- 1.725 – Meget aktiv (hård motion 6-7 dage om ugen)
-- 1.9 – Ekstremt aktiv (hård træning dagligt, fysisk arbejde)
+## Hvilken formel skal jeg vælge i BMR-beregneren?
 
-🔗 [Beregn dit daglige energiforbrug](/beregner/dagligt-energiforbrug-energibehov/)
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR.
 
-## 3. Dagligt stofskifte og forbrænding – Flere faktorer spiller ind
+I beregneren kan du vælge den **anbefalede formel**. Beregneren er ret klog, så den kan vælge den mest passende formel til netop dig.
 
-Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andre faktorer:
+Hvis du selv vil bestemme formel, men er lidt i tvivl om hvilken formel, du skal vælge, så start med Cunningham(1991).
 
-- Termisk effekt af mad (TEF): Kroppen bruger energi på at fordøje mad, ca. 10% af dit daglige energiforbrug.
-- NEAT (Non-Exercise Activity Thermogenesis): Småbevægelser som at gå rundt, vippe med foden, rejse sig op osv.
-- Træning: Planlagt motion øger din forbrænding betydeligt.
+Du skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper.
 
-🔗 [Beregn dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/)
+Formlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennesker. Personer, der træner meget eller har en høj fedtfri masse i forhold til deres vægt, kan have et højere hvilestofskifte, mens meget inaktive personer kan have et lavere hvilestofskifte, end beregningerne af BMR viser.
 
-## 4. Ligevægtsindtag – Find dit balancepunkt
+## Formler og tabeller for udregning af hvilestofskiftet
 
-Ligevægtsindtaget er den mængde kalorier, du skal spise dagligt for at opretholde din nuværende vægt. Dette er nyttigt, hvis du vil planlægge et vægttab eller en vægtøgning.
+<details markdown="1" class="equation">
+  <summary>Cunningham (1991)</summary>
 
-Hvordan bruger du ligevægtsindtaget?
+[Cunnningham (1991)](https://pubmed.ncbi.nlm.nih.gov/1957828/) udformede følgende formel, som er meget anerkendt til at udregne hvilestofskiftet.
 
-- For vægttab: Spis 300-500 kcal under dit ligevægtsindtag.
-- For vægtøgning: Spis 300-500 kcal over dit ligevægtsindtag.
-- For vedligehold: Spis omkring dit ligevægtsindtag.
+***
+REE = 500 + 22 * lbm * 4.186
+***
+</details>
 
-🔗 [Find dit ligevægtsindtag](/ligevaegtsindtag-beregner/)
+<details markdown="1" class="equation">
+  <summary>Nordiska Næringsrekommendationer (1996)</summary>
 
-## Sammenhængen mellem begreberne
+I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' } af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
 
-{% include figure image_path="https://www.mdpi.com/jcm/jcm-13-05862/article_deploy/html/images/jcm-13-05862-g001.png" caption="Kilde: [mdpi.com](https://www.mdpi.com/2077-0383/13/19/5862)" %}
+- Basalstofskifte (MJ/døgn) = 0,09 * FFM (kg) + 1,55
 
-{% include figure image_path="https://athleatsnutrition.com/wp-content/uploads/2020/10/pasted-image-0.png" caption="Kilde: [https://athleatsnutrition.com](https://athleatsnutrition.com/neat-way-to-increase-metabolism/)" %}
+eller
 
-{% include figure image_path="https://scontent-cph2-1.xx.fbcdn.net/v/t1.6435-9/96585161_111160733925456_1101710019671359488_n.png?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mu3P-Pnt94kQ7kNvgEKrbzY&_nc_oc=AdnuWu9QV5H__wYdU2e6pbUAGsWMTiUR-qB0w4TfUT0Onc6V4rwOFlnel4v4jBL1bnY&_nc_zt=23&_nc_ht=scontent-cph2-1.xx&_nc_gid=86zqFTXtMCQeFH7oHOrDSw&oh=00_AYE5TjoimLpGNfoG8UHSkXIWs5hVNR3MlYJOuIc8Jufe6A&oe=6807336E" %}
+- Basalstofskifte (MJ/døgn) = 0,058 * FFM (kg) + 0,026 * FM (kg) - 0,018 * alder + 0,615 * køn + 3,322
 
-## Afslutning og opsummering
+I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
-For at forstå dit energibehov skal du kende disse begreber:
+Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg](/kropskomposition/) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-- **BMR**: Din krops minimale energiforbrug i hvile.
-- **Dagligt energiforbrug**: BMR + fysisk aktivitet.
-- **Dagligt stofskifte**: Inkluderer madens termiske effekt og NEAT.
-- **Ligevægtsindtag**: Hvor meget du skal spise for at holde vægten stabil.
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/).
 
-Nu hvor du har forstået principperne, kan du gå videre og beregne dine egne tal for at optimere din sundhed og præstation.
+</details>
+
+## Mere avanceret udregning af dagligt energiforbrug
+
+Jeg har også lavet en [avanceret beregner af dit samlede daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
+
+[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -1,16 +1,17 @@
 {% assign id = include.id | default: "calculator_bmr_pal" %}
-{% assign legend = include.legend | default: "Nordic Nutrition Recommendations 2012" %}
+{% assign legend = include.legend | default: "Anbefalet formel" %}
 <form class="calculator" id="{{ id }}">
     <fieldset>
-        <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em id="bmr_legend">{{ legend }}</em>.</legend>
+        <legend>Udregning af hvilestofskifte og dagligt energibehov.</legend>
         <div class="form-group">
             <label>Formel for udregning af hvilestofskifte
             <select name="bmr-formula" id="bmr-formula">
+                <option value="recommended_formula">Anbefalet formel</option>
                 <option value="benedict_harris">Benedict-Harris (1918-1919)</option>
                 <option value="schofield">Schofield Equation (1985)</option>
                 <option value="mifflin">Mifflin (1990)</option>
                 <option value="henry">Henry (2005)</option>
-                <option value="nordic_2012" selected="selected">Nordic Nutrition Recommendations (2012)</option>
+                <option value="nordic_nutrition_2012">Nordic Nutrition Recommendations (2012)</option>
             </select>
             </label>
         </div>
@@ -34,7 +35,7 @@
         </div>
         <div class="form-group">
             <label>Højde (cm) (valgfri)
-                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1">
+                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1" required>
             </label>
         </div>
         <fieldset>
@@ -77,6 +78,7 @@
             <label>Hvilestofskifte (BMR) (kJ)
                 <input name="bmr" id="bmr" disabled>
             </label>
+            <p class="help-block">Baseret på <em id="bmr_legend">{{ legend }}</em></p>
         </div>
         <div class="form-group">
             <label>Faktor for fysisk aktivitetsniveau (PAL)

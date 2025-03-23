@@ -21,7 +21,7 @@ meta:
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
-last_modified_at: 2020-08-31T23:14:14Z
+last_modified_at: 2025-02-31T23:14:14Z
 toc: true
 keywords:
   - beregn dit energiforbrug
