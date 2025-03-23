@@ -111,18 +111,6 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 
 **Løb indtil udmattelse**. Testen er en åben test, og slutter først når forsøgspersonen giver op, eller det ikke længere er forsvarligt at fortsætte testen.
 
-## Procedure
-
-- Testlederen har på forhånd klargjort og kalibreret udstyret inden start.
-- Inden opvarmning tages en prik-måling for at estimere forsøgspersonens laktat-niveau i hvile.
-- Indledningsvist får forsøgspersonen ca. 5-10 minutters opvarmning, der også fungerer som tilvænning til løbebåndet.
-- Dernæst monteres pulsbælte og maske på forsøgspersonen og denne sluttes til gasmålingsudstyret.
-- Der udføres et ukendt antal 3-minutters trin, der hver har højere hastighed end det foregående trin.
-- Hastigheden for det første trin vurderes ud fra personens træningstilstand.
-- Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.
-- Ved udmattelse noteres den maksimale puls og der tages en priktest.
-- Testlederen finder herefter hurtigt de maksimalt opnåede fysiologiske værdier frem på skærmen.
-
 ## Baggrund for testen
 
 I testen er vi både interesseret i at kigge på **den maksimale iltoptagelseshastighed** (også kaldet VO2max) er oftest brugt som et mål for evnen til at præstere i sportsgrene, hvor den aerobe udholdenhed er en afgørende faktor.

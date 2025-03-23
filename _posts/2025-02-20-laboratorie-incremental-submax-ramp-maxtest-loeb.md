@@ -43,7 +43,7 @@ I denne løbebåndstest for iltoptagelse får du en nøjagtig måling af din aer
 
 Testen er delt i to trin, som køres med en kort pause i mellem.
 
-1. **Submaksimal trappetest** - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes o.
+1. **Submaksimal trappetest** - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes op.
 2. **Maksimal rampetest** - hvor belastningen stiger ved at hældningen på løbebåndet øges undervejs.
 
 {% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" %}
@@ -80,15 +80,15 @@ Desuden rammer vi til sidst VO₂peak. Vi kalder det *peak*, fordi vi ikke kan v
 
 ## Procedure før testen
 
-- Testlederen har på forhånd klargjort og kalibreret udstyret inden start.
-- Inden opvarmning tages en prik-måling for at estimere forsøgspersonens laktat-niveau i hvile.
+- Testlederen har på forhånd klargjort og kalibreret udstyret.
+- Inden opvarmning tages en prik-måling for at finde forsøgspersonens laktat-niveau i hvile.
 - Indledningsvist får forsøgspersonen ca. 5-10 minutters opvarmning, der også fungerer som tilvænning til løbebåndet.
 - Dernæst monteres pulsbælte og maske på forsøgspersonen og denne sluttes til gasmålingsudstyret.
-- Der udføres et ukendt antal 3-minutters trin, der hver har højere hastighed end det foregående trin.
+- Der udføres 3-minutters trin, der hver har højere hastighed end det foregående trin indtil udmattelse.
 - Hastigheden for det første trin vurderes ud fra personens træningstilstand.
-- Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.
-- Ved udmattelse noteres den maksimale puls og der tages en priktest.
-- Testlederen finder herefter hurtigt de maksimalt opnåede fysiologiske værdier frem på skærmen.
+- Undervejs i det sidste halve minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling i slutningen af trinet.
+- Ved udmattelse noteres den maksimale puls, og der tages en priktest.
+- Testlederen finder herefter de relevante fysiologiske værdier frem på skærmen.
 
 ## Fase 1: Submaksimale test
 
@@ -104,13 +104,13 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 
 **Tag laktatmålinger**. Før hver stigning i løbehastighed hopper løberen ud til siden med benene, så forsøgslederen kan foretage en laktatmåling. Laktaktmålingen skal helst foretages på omkring 30 sekunder, så løberen ikke får for lange pauser.
 
-**Testen slutter ved brat stigining i laktat**.
+**Testen slutter ved brat stigning i laktat**.
 
 - Der udføres fire til fem 5-minutters trin, der hver har højere hastighed/belastning end det foregående trin. Hastigheden/belastningen for det første trin vurderes ud fra personens træningstilstand.
 - Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.
 - Den submaksimale test slutter, når forsøgspersonen opnår en forudbestemt tærskel for laktatindhold i blodet (typisk 4 mmol/l).
 
-Du kan læse uddybende om den [submaksimale iltoptagelsestest](/iltoptagelse-submax-trappetest-loeb/), hvis du vil gå helt i dybden med den.
+Du kan læse uddybende om den [submaksimale iltoptagelsestest på løbebånd](/iltoptagelse-submax-trappetest-loeb/), hvis du vil gå helt i dybden med den.
 
 ## Fase 2: Max-testen
 
@@ -131,7 +131,7 @@ Den samlede energi der leveres til muskelarbejdet under træning vil altid være
 
 Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.
 
-## Hvad vil vi gerne vinde i testen?
+## Hvad vil vi gerne finde i testen?
 
 I testen er vi både interesseret i at kigge på **den maksimale iltoptagelseshastighed** (også kaldet VO2max) er oftest brugt som et mål for evnen til at præstere i sportsgrene, hvor den aerobe udholdenhed er en afgørende faktor.
 

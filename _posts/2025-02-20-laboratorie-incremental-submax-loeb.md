@@ -97,7 +97,7 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 
 **Tag laktatmålinger**. Før hver stigning i løbehastighed hopper løberen ud til siden med benene, så forsøgslederen kan foretage en laktatmåling. Laktaktmålingen skal helst foretages på omkring 30 sekunder, så løberen ikke får for lange pauser.
 
-**Testen slutter ved brat stigining i laktat**.
+**Testen slutter ved brat stigning i laktat**.
 
 - Der udføres tre til fem 5-minutters trin, der hver har højere hastighed/belastning end det foregående trin. Hastigheden/belastningen for det første trin vurderes ud fra personens træningstilstand.
 - Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.

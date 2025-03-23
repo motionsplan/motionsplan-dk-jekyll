@@ -136,6 +136,53 @@ a.read-more-link:hover {
   color: #333;
 }
 
+/* QUESTIONS */
+
+details.question {
+  margin: 10px 0;
+  padding: 8px; /* Mindre padding for kompakt look */
+  border: 2px solid #0073e6; /* Blue border */
+  border-radius: 8px;
+  background-color: #f8faff; /* Light blue background */
+  transition: all 0.3s ease-in-out;
+  font-size: 0.9;
+
+  &[open] {
+    background-color: #e6f0ff; /* Slightly darker when open */
+
+    summary {
+      color: #003366; /* Mørkere farve for åben tilstand */
+      font-weight: bold;
+    }
+
+    summary::before {
+      content: "✔️"; /* Skifter ikon når åben */
+    }
+  }
+
+  summary {
+    font-size: 0.9em; /* Lidt mindre fontstørrelse for kompakt tekst */
+    font-weight: normal;
+    cursor: pointer;
+    padding: 6px; /* Mindre padding */
+    color: #004a99; /* Standard blå */
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease-in-out;
+
+    &::before {
+      content: "❓"; /* Standard spørgsmålstegn */
+      font-size: 1.3em;
+      margin-right: 8px;
+    }
+  }
+
+  &:hover {
+    background-color: rgba(0, 115, 230, 0.1); /* Let baggrundsændring på hover */
+    border-color: #005bbb; /* Skifter til en mørkere blå kant */
+  }
+}
+
 /* EQUATION DETAILS SUMMARY */
 
 details.equation {
