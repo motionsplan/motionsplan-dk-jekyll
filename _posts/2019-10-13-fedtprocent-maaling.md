@@ -133,6 +133,18 @@ Hvis du kan følge alle anvisninger, så du kan foretage målingerne under de sa
 
 Jeg har skrevet mere om [bioimpedansmålinger her](/bioimpedans-maaling/).
 
+## Sammenligning af metoder til måling af fedtprocent
+
+| Metode                  | Nøjagtighed | Fordele | Ulemper | Komponent-model |
+|-------------------------|------------|---------|---------|----------------|
+| Hydrostatisk vejning   | Høj        | Meget præcis, bruges til forskning | Kræver specialudstyr, ubehagelig test | 2-komponent |
+| DEXA-scanning          | Meget høj  | Måler fedtfordeling, præcis | Dyr og kræver specialudstyr | 3-komponent |
+| Øjemål                 | Lav        | Hurtigt og gratis | Meget upræcist | Ingen model |
+| Udregning (formler)    | Lav-moderat| Let tilgængelig, kræver kun målinger | Afhænger af formler og individuelle variationer | 2-komponent |
+| Målebånd               | Lav-moderat| Billigt, nemt at bruge | Kan være unøjagtigt | 2-komponent |
+| Fedttang               | Moderat    | Billig og relativt præcis med træning | Kræver erfaring for præcision | 2-komponent |
+| Bioimpedans            | Moderat    | Let tilgængelig, hurtig måling | Påvirkes af væskebalance, mindre præcis | 3- eller 4-komponent |
+
 ## Hvad er en sund normal fedtprocent?
 
 Den mængde fedt du har på kroppen har betydning for din sundhed. En normal fedtprocent varierer. Kvinders fedtprocent er højere end mænds fedtprocent.
@@ -163,10 +175,6 @@ Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/
 Læs: [Hvad en en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/).
 {: .notice }
 
-## Ofte stillede spørgsmål om måling af fedtprocent
-
-{% include motionsplan/faq.html %}
-
 ## Mere om at måle fedtprocent og kropskomposition
 
 Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på](/kropskomposition/), som måske kan inspirere til at få et endnu mere nuanceret billede af, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
@@ -174,3 +182,7 @@ Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på
 Når nu det er så vanskeligt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur](/slankekur/) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfordring med din fedtprocent.
 
 Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt](/idealvaegt/) og vores betragtninger om [BMI for mænd og kvinder](/bmi/).
+
+## Ofte stillede spørgsmål om måling af fedtprocent
+
+{% include motionsplan/faq.html %}
