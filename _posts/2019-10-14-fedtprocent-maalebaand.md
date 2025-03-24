@@ -1,5 +1,6 @@
 ---
 title: &title "Mål din fedtprocent med målebånd 📏"
+seo_title: "Mål din fedtprocent med målebånd – sådan gør du"
 permalink: /fedtprocent-maalebaand/
 redirect_from:
   - /measure-fp/

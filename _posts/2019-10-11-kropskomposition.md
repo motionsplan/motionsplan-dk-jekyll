@@ -14,7 +14,7 @@ category:
   - Fedtprocent
 tags:
   - fedtprocent
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 ---
 
@@ -34,7 +34,19 @@ Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til a
 
 I en måling af kropskomposition er vi interesseret i at måle fedtprocent, muskelmasse, vand i kroppen og mineraler. Disse målinger kan foretages gennem forskellige modeller.
 
-## Hvad består kroppen af?
+## Hvad består kroppen af? 3 modeller
+
+Kropssammensætning kan måles op til maksimalt fem kompartmenter – atomar, molekylær, cellulær, væv og hele kroppen (Wang et al 1992).
+
+{% include figure image_path="https://rubenmeerman.com/wp-content/uploads/Five-level-model-of-human-body-composition-colour.png" caption="[Ruben Meerman](https://rubenmeerman.com/five-level-model-of-the-human-body/)" %}
+
+I de fleste tilfælde, jo flere kompartmenter der måles, desto mindre fejl er der i estimaterne af kropssammensætningen.
+
+Dog kræver måling af flere kompartmenter, at der bruges flere metoder til vurdering af kropssammensætning.
+
+Sammenligninger:
+
+{% include figure image_path="/assets/images/blog/body-composition-models.jpg" %}
 
 De to mest udbredte modeller til at forstå kropskomposition er 2C- og 4C-modellerne.
 
@@ -46,9 +58,15 @@ De to mest udbredte modeller til at forstå kropskomposition er 2C- og 4C-modell
 2. Fedtfrie masse (FFM)
 : Den fedtfrie masse indeholder alt det i din krop, der ikke er relateret til fedt; dine interne organer, muskelmasse, vand, knogler, ledbånd og så videre.
 
+### 3C-modellen
+
+Ud over fedt, så inddeles den fedtfrie masse i  i lean tissue mass, LTM, og knoglemineral, bone mineral content, BMC.
+
 ### 4C-modellen
 
 En lidt mere detaljeret model bryder kroppens komponenter ned i flere dele.
+
+{% include figure image_path="https://www.chardermedical.com/upload-files/blog/202408_4C/4C.jpg" caption="Kilde: [Charder Medical](https://www.chardermedical.com/news/blog/Guide-to-the-4-Compartment-Body-Composition-Model.htm)" %}
 
 1. Vand
 : Voksne har mere end 50% vand i kroppen. Fedt, muskler, blod og andre kropsvæsker indeholder vand. Der er vand inde i cellerne (intracellular) og uden for cellerne (extracellular).
@@ -71,17 +89,21 @@ Lean Body Mass (LBM)
 : Din _Lean Body Mass_ er en kombination af DLM og vand i kroppen.
 
 Skeletal Muscle Mass (SMM)
-: En betegnelse kun for din muskler, som bevæger kroppen. SMM indeholder alle de muskler, man man træne.
+: En betegnelse kun for de muskler, som bevæger kroppen. SMM indeholder alle de muskler, man kan træne.
 
 Samlet kan de to modeller give dig en mere præcis opfattelse af, hvad din krop består af. Hvis du styrketræning, så kan det være motiverende at se, at muskelmassen vokser.
 
-## Hvad er vigtigt med kropskomposition?
+{% include figure image_path="https://static.wixstatic.com/media/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared)" %}
+
+## Hvad er vigtigt med kropssammensætning?
 
 Men hvad betyder måling af kropskomposition, muskelmasse og fedtmasse for den almindelige person?
 
 Du har sikkert hørt om BMI, som på befolkningsgruppeniveu kan forudsige mortalitet, men det er ikke så præcist på individniveau, fordi målingen ikke kan afdække, hvad kropsvægten består af. Som skrevet tidligere så er fedt nødvendigt for en velfungerende krop, men for meget fedt kan være forbundet med sundhedsproblemer. Selvom man er normalvægtig set ud fra BMI, kan man således godt have en fedtprocent, som er lidt for høj.
 
-## Hvordan kan vi bestemme kropskomposition?
+{% include figure image_path="https://static.wixstatic.com/media/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared)" %}
+
+## Sådan måler du din kropskomposition - 5 metoder
 
 Hvordan kan man så bestemme kropskompositionen? Her lister vi nogle forskellige metoder.
 
@@ -149,4 +171,7 @@ Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I mi
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide/)
+- Wang ZM, Pierson RN Jr, Heymsfield SB. The five-level model: a new approach to organizing body-composition research. Am J Clin Nutr. 1992;56(1):19-28. doi:10.1093/ajcn/56.1.19
+- Smith-Ryan et al. (2016): Validity and reliability of a 4-compartment body composition model using dual energy x-ray absorptiometry-derived body volume. Clin. Nutr.
+- Toomey C, Cremona A, Hughes K, Norton C (2016): A Review of Body Composition Measurement in the Assessment of Health. Clin. Nutr.
 </details>

@@ -1,6 +1,6 @@
 ---
-title: &title "Mål din fedtprocent med en fedttang (skinfold caliper)"
-seo_title: &title "Fedtprocentmåling: Mål din fedtprocent med en fedttang"
+title: &title "Mål din fedtprocent med en hudfoldsmåling"
+seo_title: &title "Skinfoldmåling: Sådan måler du din fedtprocent med kalipermåling"
 permalink: /skinfold/
 redirect_from:
   - /artikel/fedtprocent-skinfold/

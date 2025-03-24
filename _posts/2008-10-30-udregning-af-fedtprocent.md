@@ -49,15 +49,25 @@ faq:
   - question: Kan man have for høj fedtprocent?
     answer: Du kan have for høj fedtprocent, hvis du er overvægtig og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet](/taljemaal/) eller [hofte-talje-forholdet](/talje-hofte-ratio/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan være farligt, hvis fedtet er centreret omkring de indre organer.
 ---
-Vil du gerne kende din fedtprocent? Jeg har lavet en fedtprocent-beregner, hvor du kan beregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
+
+Med vores fedtprocent-beregner kan du få et estimat baseret på din vægt, højde, køn og alder.
+
+Selvom disse metoder ikke er lige så præcis som direkte målinger, kan den give dig en hurtig indikation af din kropssammensætning.
+
+Udregning af fedtindholdet i kroppen er kun én måde at vurdere din kropskomposition på.
+
+Der findes også mere avancerede teknikker som skinfoldmålinger, bioimpedans og DEXA-scanning. Du kan læse mere om de forskellige metoder her:
+
+- 📌 [Bestem din kropskomposition](/kropskomposition/)
+- 📌 [Flere metoder til måling af fedtprocent](/maal-fedtprocent/)
+
+Men hvor vigtigt er det egentlig at kende din fedtprocent?
+
+Overvej, hvorfor du ønsker at beregne den. For mange er det en nysgerrighed, men i praksis er andre faktorer ofte mere relevante, især hvis du træner.
+
+**Styrke, hurtighed, udholdenhed og springhøjde er ofte bedre indikatorer for præstation og sundhed, end en tilfældig udregnet fedtprocent.**
 
 *[BMI]: Body Mass Index
-
-Udregning af fedtindholdet i kroppen er bare en af metoderne til at bestemme fedtprocenten. Du kan [bestemme din kropskomposition](/kropskomposition/) på flere måder, og der er [flere metoder til måling af fedtprocent](/maal-fedtprocent/).
-
-Husk at få alle detaljerne med.
-
-Overvej altid hvorfor du gerne vil prøve at udregne din fedtprocent. Vil viden om din kropskomposition tilføje noget til dit liv. Hvis du træner, så synes jeg styrke, hurtighed, udholdenhed og springhøjde er mere interessante parametre.
 
 ## Beregn din fedtprocent: Udregning med alder, højde og vægt
 

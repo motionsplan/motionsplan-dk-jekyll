@@ -1,7 +1,7 @@
 ---
-title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder"
-seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder"
-description: "Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere kan du lave derhjemme i dag!"
+title: "Sådan måler du din fedtprocent - 7 forskellige metoder"
+seo_title: "7 metoder til at måle fedtprocent – hvad er bedst?"
+description: "Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere af metoderne kan du lave derhjemme i dag!"
 permalink: /maal-fedtprocent/
 language: da
 header:
@@ -42,16 +42,18 @@ faq:
       Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
 ---
 
-Vil du gerne måle din fedtprocent? Her har jeg samlet op på, hvordan du kan måle din fedtprocent. Hvilke metoder findes der til måling af fedtprocent?
+Vil du gerne måle din fedtprocent? Der findes flere metoder til at måle fedtprocent, men ingen af dem er 100 % præcise. Hver metode har sine fordele, ulemper og en vis grad af unøjagtighed.
 
-**Du kan måle din fedtprocent på mange måder. Alle metoderne har hver deres fordele og ulemper og unøjagtigheder. Du kan måle fedtprocent med undervandsvejning, DEXA-scanner, hudfoldsmålinger med fedttang, bioimpedans - og du kan estimere fedtprocenten på baggrund af øjemål og udregninger.**
+Du kan måle din fedtprocent med avancerede teknologier som DEXA-scanning og undervandsvejning, bruge mere tilgængelige metoder som hudfoldsmålinger med fedttang og bioimpedans, eller lave et estimat baseret på målebånd og udregninger.
 
-I det følgende får du svar på:
+Selv en simpel vurdering med øjemål kan give en grov idé om din kropssammensætning.
 
-- Hvorfor kan måling af din fedtprocent være interessant?
-- Hvordan du kan måle fedtprocenten?
+I denne guide får du svar på:
 
-Lad os dykke direkte ned i det.
+- ✅ Hvorfor måle fedtprocent? Hvad kan det fortælle dig om din sundhed og form?
+- ✅ Hvordan måler man fedtprocent? Vi gennemgår syv metoder, deres nøjagtighed, fordele og ulemper.
+
+Lad os dykke ned i de forskellige metoder og finde den, der passer bedst til dig!
 
 ## Hvad er fedtprocent?
 
@@ -77,7 +79,7 @@ Der er følgende sundshedsmæssige udfordringer ved **ikke** at have en passende
 
 Der er altså mange grunde til at have en passende fedtprocent. En rigtig god test at starte med kan være en **øjemålstest**.
 
-## Hvordan måler man sin fedtprocent? 7 metoder!
+## 7 metoder til at måle fedtprocent
 
 Der er mange måder at måle fedtprocent på. De fleste er desværre formentlig unøjagtige. Derfor skal du sætte dig godt ind i, hvad der reelt bliver målt i de enkelte metoder. Du skal overveje meget nøje, hvilket tal du reelt ender med, når du får målt din fedtprocent, og hvordan du vil bruge dette tal.
 

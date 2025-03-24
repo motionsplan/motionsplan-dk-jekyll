@@ -1,11 +1,11 @@
 ---
-title: &title "Bioimpedans: Teknologi til måling af kropskomposition"
-seo_title: "Bioimpedansmåling – Forstå teknologien bag kropsanalyse"
-description: "Bioimpedans bruges til at måle fedtprocent og kropskomposition. Lær, hvordan teknologien fungerer, og hvilke faktorer der påvirker måleresultaterne."
+title: &title "Bioimpedansmåling (BIA): Teknologi og præcision"
+seo_title: "Bioimpedansmåling – Forstå kropsanalyse med de populære vægte"
+description: "Bioimpedans bruges til at måle fedtprocent og kropskomposition. Lær, hvordan kropsanalysen fungerer, og hvilke faktorer der påvirker måleresultaterne."
 permalink: /bioimpedans-maaling/
 redirect_from:
   - /bioimpedans/
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. Moderne kropsanalysevægte er pålidelige, hvis du følger måleanvisningerne."
+excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. Nogle af de moderne kropsanalysevægte er pålidelige. Find ud af hvordan og hvornår?"
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -58,7 +58,7 @@ Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere pr�
 *[ICW]: Intra Cellular Water
 *[DEXA]: Dual-energy x-ray absorptiometry
 
-## Hvad er bioimpedans?
+## Hvad er bioimpedans (BIA)?
 
 Ved bioimpedansmålinger sendes en svag vekselstrøm gennem det biologiske væv med forskellige strømfrekvenser. Bioimpedansapparatet måler _impedansen_ eller modstanden i det biologiske væv, som kan være en hel person.
 
@@ -96,7 +96,7 @@ Et eksempel:
 
 InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition. Men der ser også ud til at være en systematisk fejlmåling på flere procent. Det kan du læse mere om i artiklen om InBody 570.
 
-## Forudsætninger for præcise bioimpedans fedtprocent-målinger
+## Forudsætninger for præcis kropsanalyse med bioimpedans
 
 Hvis du gerne vil have dit resultat til at være så præcist som muligt, så skal du udføre testen ud fra nogle præcise retningslinjer. Hvis du gerne vil bruge bioimpedansmålingerne til at måle dit fremskridt, så er det rigtig vigtigt, at du laver målingen på samme måde hver gang.
 
@@ -126,7 +126,7 @@ Læs meget mere om, hvordan du foretager en bioimpedansmåling med [InBody 570](
 
 ## Konklusion
 
-Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
+Resultatarket fra en kropsanalyse fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
 
 For en dybere forståelse af kropskomposition, læs vores artikel om [fedtprocentmålingsteknikker](/maal-fedtprocent/).
 
