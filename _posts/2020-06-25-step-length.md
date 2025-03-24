@@ -1,9 +1,9 @@
 ---
 permalink: /skridtlaengde-gang/
 title: Sådan måler du din skridtlængde præcist
-seo_title: Sådan måler du din skridtlængde – find dit præcise antal skridt per km
-description: "Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer"
-excerpt: "Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer"
+seo_title: "Skridtlængde: Sådan finder du dit antal skridt per km"
+description: "Find din skridtlængde nemt – mål den selv eller brug vores beregner til at se dine skridt per kilometer."
+excerpt: "Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer."
 header:
   teaser: https://images.unsplash.com/photo-1530902815270-606a8f82b563?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: Hvor lang er din skridtlængde?

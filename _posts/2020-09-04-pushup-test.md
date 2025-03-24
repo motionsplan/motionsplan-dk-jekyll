@@ -21,9 +21,13 @@ tags:
   - test
   - styrketræning
   - styrketest
-last_modified_at: 2019-09-03T23:14:14Z
+last_modified_at: 2025-02-03T23:14:14Z
 toc: true
 breadcrumbs: true
+faq:
+  - question: "Hvor mange armbøjninger skal man kunne tage?"
+    answer: |
+      Antallet af armbøjninger, du bør kunne tage, afhænger af din alder, dit køn og dit træningsniveau. Armstrækningstesten fra The Canadian Standardized Test of Fitness giver en vurdering af din overkropsstyrke baseret på, hvor mange gentagelser du kan lave uden pause. Du kan bruge vores beregner til at se, hvordan dine resultater sammenlignes med standardiserede normer. Husk, at kropsvægt også spiller en rolle – tungere personer løfter mere vægt i hver gentagelse.
 ---
 
 Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vurderer din overkropsstyrke på baggrund af, hvor mange armstrækninger du kan tage.
@@ -72,6 +76,10 @@ Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger p�
 ## Mere om armstrækninger
 
 Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger](/armbojninger-eller-armstraekninger-pushups/). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

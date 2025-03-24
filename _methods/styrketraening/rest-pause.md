@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Rest-pause"
-seo_title: "Rest-Pause-metoden: Tilføj centimeter til dine arme og ben med denne teknik"
+seo_title: "Rest-Pause-metoden: Få større arme og ben med denne teknik"
 permalink: /styrketraening/rest-pause/
 header:
   teaser: /assets/images/hypertrofi/rest-pause-hypertrofi.jpg

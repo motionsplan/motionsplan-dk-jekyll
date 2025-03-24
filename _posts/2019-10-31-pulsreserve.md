@@ -1,6 +1,6 @@
 ---
 title: &title "Hvad er pulsreserve, og hvordan bruges den i træning?"
-seo_title: "Pulsreserve – Sådan beregner du træningsintensitet ud fra din puls"
+seo_title: "Pulsreserve: Beregn din træningsintensitet med puls"
 excerpt: "Lær, hvad pulsreserve er, og hvordan du beregner træningsintensitet med den. Brug vores beregnere til at finde puls ved en given intensitet eller intensitet ud fra puls."
 description: Lær, hvad pulsreserve er, og hvordan du beregner træningsintensitet med den. Brug vores beregnere til at finde puls ved en given intensitet eller intensitet ud fra puls.
 permalink: /pulsreserve/

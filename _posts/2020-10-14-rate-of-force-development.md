@@ -1,6 +1,6 @@
 ---
 title: &title "Hvordan træner jeg Rate of Force Development (RFD)?"
-seo_title: Rate of Force Development – Forstå og forbedr din eksplosive styrke
+seo_title: "Rate of Force Development: Forstå og forbedr din power"
 permalink: /rate-of-force-development/
 excerpt: Rate of Force Development (RFD) måler hvor hurtigt du kan udvikle kraft. Læs hvordan du forbedrer din RFD til sprint, spring og styrketræning.
 description: "Rate of Force Development (RFD) måler hvor hurtigt du kan udvikle kraft. Læs hvordan du forbedrer din RFD til sprint, spring og styrketræning."

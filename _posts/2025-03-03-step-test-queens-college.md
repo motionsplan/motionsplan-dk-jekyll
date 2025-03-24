@@ -1,6 +1,6 @@
 ---
 title: &title "Queens College Step Test – Standardiseret konditionstest (QCST)"
-seo_title: "Queens College Step Test – Vurder din kondition med en simpel test"
+seo_title: "Queens College Step Test: Test din kondition nemt"
 excerpt: "Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine."
 description: "Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine."
 permalink: /queens-college-step-test/

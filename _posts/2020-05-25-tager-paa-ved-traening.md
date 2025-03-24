@@ -18,6 +18,10 @@ tags:
   - faq
 last_modified_at: 2020-05-28T08:14:14Z
 toc: true
+faq:
+  - question: Hvorfor tager jeg på, når jeg træner og spiser sundt?
+    answer: |
+      I dette indlæg får du mange gode grunde til, at du kan komme til at tage på, selvom du føler at du træner hårdt og spiser sundt.
 ---
 
 Jeg er kommet i gang med at træne igen efter at have holdt lidt pause. Jeg oplever ofte, at jeg tager på, når jeg begynder at træne igen, men hvordan kan det egentlig være?
@@ -165,5 +169,9 @@ Jeg synes til hver en tid, at det er mere interessant at holde øje med, om jeg 
 Men jeg fornemmer også, at rigtig mange bekymrer sig om deres vægt, fedtprocent og [mavefedt](/tab-fedt-paa-maven/).
 
 Hvis dit overordnede mål er at tabe dig, så sæt dig ned og kig lidt på, [hvordan man kan måle, hvor meget fedt udgør af din kropsvægt](/maal-fedtprocent/).
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 ## Noter

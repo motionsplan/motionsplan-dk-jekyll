@@ -1,6 +1,6 @@
 ---
-title: &title "InBody 570 – Guide til præcis måling af fedtprocent"
-seo_title: "InBody 570: Sådan måler du præcist din fedtprocent med bioimpedans"
+title: &title "InBody 570 – Guide til præcis bioimpedansmåling"
+seo_title: "InBody 570: En præcis bioimpedans måler af fedtprocent"
 description: "Lær hvordan InBody 570 anvender bioimpedans til præcise målinger af fedtprocent og kropskomposition. Og lær mere om bioimpedansmålinger."
 permalink: /artikel/inbody-570-bioimpedans/
 redirect_from:

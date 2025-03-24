@@ -20,6 +20,9 @@ last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 #Hvor lang tid tager det at bygge muskler op?
 #Hvor hurtigt kan man bygge muskler op?
+faq:
+  - question: Hvor meget muskelmasse kan man tage på på en uge?
+    answer: Muskelvækst sker gradvist, og hvor meget muskelmasse man kan tage på på en uge afhænger af flere faktorer som træningserfaring, kost, genetik og restitution. Generelt kan begyndere forvente at tage på omkring 100-250 gram muskelmasse pr. uge, mens trænede individer vil opleve en langsommere vækst. Meget hurtig vægtøgning skyldes ofte en kombination af muskelmasse, væske og fedt. En velstruktureret styrketræning og proteinrig kost er afgørende for optimal muskelvækst.
 ---
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?
@@ -138,6 +141,10 @@ Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?](/h
 Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskarriere, og det bliver stadig vanskeligere og vanskeligere. Du kan formentlig bygge helt op til 10 kg muskelmasse på i løbet af det første år, hvis du gør alt rigtigt. Det følgende år er den mængde muskel allerede halveret. Det ser ud til, at responset er klart størst de første 12-18 uger.
 
 Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

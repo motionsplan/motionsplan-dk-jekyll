@@ -1,5 +1,6 @@
 ---
 title: "Bænkpres"
+seo_title: "Bænkpres - almindelig bænkpres med stang"
 excerpt: "Liggende på en bænk og skub vandret."
 instructions: "Liggende på en bænk og skub vandret."
 permalink: /baenkpres/
