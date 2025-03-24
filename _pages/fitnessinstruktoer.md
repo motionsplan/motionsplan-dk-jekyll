@@ -38,6 +38,19 @@ Når du skal vejlede andre mennesker i træning, så er det vigtigt, at du har s
 
 Men lad os prøve at dykke ned i de **vigtigste emner for fitnessinstruktører**. Emnerne er særligt udvalgt med inspiration i _Bevæg Dig For Livet_-fitnessinstruktøruddannelsen til at supplere manualen.
 
+{% comment %}
+
+Ben-Pres-Træk-Core og basisprogram
+Opvarmning
+Bevægelsesanalyse
+VIS - FORKLAR - VIS
+RM1
+Konditionstræning
+Fysiologi-testen / side 68
+PULS & Intensitetsskala 
+
+{% endcomment %}
+
 ## Fysiologi
 
 Hvis du vil forstå, hvordan træning virker i kroppen, så er det godt at dykke ned i kroppens fysiologi.
@@ -104,7 +117,7 @@ Læs vores artikler om programlægning:
   {% endfor %}
 {% endif %}
 
-[Alt om træningsplanlægning](/traeningsplanlaegning/).
+[Alt om træningsplanlægning](/traeningsplanlaegning/){: .btn .btn--success .btn--center }
 
 </div>
 

@@ -10,6 +10,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Konditiontests
 meta:
   name: Løbebåndstest med iltoptagelse (submax)
   measures: LT1, LT2, løbeøkonomi
@@ -71,18 +72,6 @@ Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endn
 
 Desuden rammer vi til sidst VO₂peak. Vi kalder det *peak*, fordi vi ikke kan være helt sikker på, at det er den maksimale iltoptagelse, da det ikke bliver verificeret ved udelukkende maksimal test.
 
-## Procedure før testen
-
-- Testlederen har på forhånd klargjort og kalibreret udstyret inden start.
-- Inden opvarmning tages en prik-måling for at estimere forsøgspersonens laktat-niveau i hvile.
-- Indledningsvist får forsøgspersonen ca. 5-10 minutters opvarmning, der også fungerer som tilvænning til løbebåndet.
-- Dernæst monteres pulsbælte og maske på forsøgspersonen og denne sluttes til gasmålingsudstyret.
-- Der udføres et ukendt antal 3-minutters trin, der hver har højere hastighed end det foregående trin.
-- Hastigheden for det første trin vurderes ud fra personens træningstilstand.
-- Undervejs i det sidste minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling.
-- Ved udmattelse noteres den maksimale puls og der tages en priktest.
-- Testlederen finder herefter hurtigt de maksimalt opnåede fysiologiske værdier frem på skærmen.
-
 ## Submaksimal test med iltoptagelse
 
 **Opvarmning**. Vi indleder testen med omkring 10 minutters opvarmning.
@@ -113,13 +102,13 @@ Den samlede energi der leveres til muskelarbejdet under træning vil altid være
 
 Det relative bidrag fra de anaerobe processer bliver højere i løbet af denne test i takt med at muskelarbejdets intensitet stiger.
 
-## Hvad vil vi gerne vinde i testen?
+## Hvad vil vi gerne finde i testen?
 
-I testen er vi både interesseret i at kigge på **den maksimale iltoptagelseshastighed** (også kaldet VO2max) er oftest brugt som et mål for evnen til at præstere i sportsgrene, hvor den aerobe udholdenhed er en afgørende faktor.
+I testen er vi både interesseret i at på den **submaksimale præstationsevne**.
 
-Derudover kigger vi på **submaksimale præstationsevne**.
+Hvordan er atletens evne er til at præstere submaksimalt ved en række intensiteter af moderat til høj belastning.
 
-Ydermere er det for udholdenhedsatleter interessant at kigge på, hvordan deres evne er til at præstere submaksimalt ved en række intensiteter af moderat til høj belastning. Dette gøres oftest ved hjælp af en såkaldt submaksimal test, bestående af en række trin af 3-5 minutters varighed.  
+Dette gøres oftest ved hjælp af en såkaldt submaksimal test, bestående af en række trin af 3-5 minutters varighed.  
 
 Hermed lader man kroppen arbejde sig ind i et såkaldt steady-state, hvor hele det fysiologiske system tilpasser sig netop det energikrav, som musklerne kræver for at kunne udføre det pågældende arbejde i de enkelte trin.  
 

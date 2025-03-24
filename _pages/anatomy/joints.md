@@ -1,8 +1,8 @@
 ---
 layout: single
 title: &title "Led, ledtyper og ledbevægelser 🔧"
-seo_title: "Hvad er et led? Forskellige ledtyper og ledbevægelser"
-description: "Her får du en oversigt over led i kroppen. Vi kigger på kroppens uægte og ægte led og deler dem i ledtyper, bevægelsestyper og bevægelsesplaner."
+seo_title: "Led i kroppen: Typer, funktion og bevægelsesmuligheder"
+description: "Få en oversigt over led i kroppen, de forskellige ledtyper i menneskekroppen, deres opbygning og hvordan de muliggør bevægelse."
 excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 header:

@@ -10,6 +10,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Konditiontests
 meta:
   name: Maksimal løbetest på løbebånd (rampetest)
   measures: VO2max, kondital, maxpuls

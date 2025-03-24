@@ -2,9 +2,11 @@
 title: &title "Iltoptagelsestest på løbebånd (submax + maxtest) 🏃"
 seo_title: "Iltoptagelsestest på løbebånd (submax + maxtest)"
 permalink: /vo2-test-vih/
+author: vih
 excerpt: "Øvelsesvejledning for iltoptagelsestest på Vejle Idrætshøjskole. Vi laver direkte måling af vo2 i løb med maske og stigende belastning og en maksimal test af konditallet."
 description: "Øvelsesvejledning for iltoptagelsestest på Vejle Idrætshøjskole. Vi laver direkte måling af vo2 i løb med maske og stigende belastning og en maksimal test af konditallet."
 language: da
+classes: wide
 header:
   teaser: /assets/images/blog/vo2-max-test-running-female.webp
   caption: *title
@@ -22,7 +24,7 @@ tags:
   - testcenter
   - iltoptagelsestest
   - test
-last_modified_at: 2025-02-20T19:14:14Z
+last_modified_at: 2025-03-24T08:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
     alt: "Løbetests og kondition"
@@ -31,6 +33,9 @@ feature_row_tests_loeb:
     url: "/kondition/tests/"
     btn_label: "Se flere konditionstests"
     btn_class: "btn--success"
+gallery_tests:
+  - image_path: /assets/images/motionsplan/incremental-max-test.jpg
+  - image_path: /assets/images/motionsplan/ramp-max-test.jpg
 ---
 
 Denne øvelsesvejledning beskriver iltoptagelsestest på løbebånd, som vi tilbyder på Vejle Idrætshøjskole. I løbebåndstesten laver vi en nøjagtig måling af iltoptagelsen for at finde din aerobe kapacitet under både submaksimalt og maksimalt arbejde.
@@ -38,8 +43,10 @@ Denne øvelsesvejledning beskriver iltoptagelsestest på løbebånd, som vi tilb
 
 Vi prøver to forskellige typer tests.
 
-1. **Submaksimal trappetest** - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes op.
-2. **Maksimal rampetest** - hvor belastningen stiger ved at hældningen på løbebåndet øges undervejs.
+{% include gallery id="gallery_tests" %}
+
+1. **Submaksimal trappetest** - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes op. Formålet er at etablere laktatprofil og etablere løbeøkonomi.
+2. **Maksimal rampetest** - hvor belastningen stiger ved at hældningen på løbebåndet øges undervejs. Formålet er at finde den maksimale aerobe kapacitet - og derved konditallet.
 
 {% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" %}
 
@@ -207,7 +214,7 @@ Testen slutter ved udmattelse, eller det ikke længere er forsvarligt at løbe v
 Herefter analyseres testen ud fra vores regneark.
 </details>
 
-### Læg mærke til
+### 👀 Læg mærke til
 
 <details markdown="1" class="concept">
  <summary>📈 Udviklingen i laktatkurven</summary>
@@ -229,6 +236,8 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 ## ✅ Er testen vellykket?
 
 Laktatkurven skal gerne have et nogenlunde forudsigelig udvikling. Den skal gerne starte fladt ud, inden den stiger stille og roligt, indtil løberen rammer omkring den anaerobe tærskel, hvor laktatophobningen foregår noget hurtigere.
+
+{% include figure image_path="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" %}
 
 ### 💭 Arbejdsspørgsmål
 
@@ -345,8 +354,10 @@ Forholdet mellem ventilationen (VE) og iltoptagelsen (VO₂) kaldes den ventilat
   <summary>Sammenlign og diskuter det opnåede kondital for forsøgspersonen med normalværdier for befolkningen.</summary>
 </details>
 
+***
+
 ## Andre tests af iltoptagelse
 
-Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de andre løbetests. Der er mange indirekte tests, hvor du kan estimere din iltoptagelse ud fra dine resultater i testene.
+Hvis du ikke har adgang til et laboratorium, så kan du vælge nogle af de andre konditionstests. Der er mange indirekte tests, hvor du kan estimere din iltoptagelse ud fra dine resultater i testene.
 
 {% include feature_row id="feature_row_tests_loeb" type="left" %}

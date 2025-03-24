@@ -49,7 +49,7 @@ Testen foregår på et løbebånd, hvor hastigheden gradvist øges, indtil du n�
 
 Denne test giver dig præcise data om din konditionstilstand og kan bruges til at optimere dit træningsprogram. Det er en krævende test, men til gengæld får du værdifuld indsigt i din præstation og udholdenhed.
 
-{% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" caption="Her er vi i gang med en VO2max test på løbebånd på Vejle Idrætshøjskole." %}
+{% include figure image_path="/assets/images/blog/vih-testcenter.webp" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" caption="Her er vi i gang med en VO2max test på løbebånd på Vejle Idrætshøjskole." %}
 
 ## Hvad tester løbetesten?
 
@@ -172,23 +172,6 @@ Du kan blive endnu klogere på de [andre iltoptagelsestests et testcenter kan la
 ## Meningsfuld forbedring i testen
 
 {% include figure image_path="/assets/images/motionsplan/incremental-max-test-results.jpg" alt="laktat og puls kurve ift. hastighed" caption="Her er en løber der har gennmført testen før og efter et træningsforløb. Laktatkurven er skubbet til højre, hvilket betyder at både LT1 og LT2 også ligger ved højere hastigheder. Løberen har ganske enkelt fået en mere effektiv motor med flere kræfter." %}
-
-## Diskussionsspørgsmål
-
-1. Brug indledningsvist 3-4 minutter på at gennemgå de forskellige fysiologiske parametre, der er nævnt i skemaet (se bilag) i små grupper (ca. 3 personer).
-2. I hvilke sportsgrene vil I forvente, at udøverne har et højt kondital (maksimal iltoptagelseshastighed i forhold til kropsvægt)? Begrund jeres svar.
-3. Nævn sportsgrene hvor musklens anaerobe evne er mere dominerende end den aerobe. Begrund jeres svar.
-4. Nævn fordele og ulemper ved direkte måling af iltoptagelse sammenlignet med eksempelvis en Cooper-test.
-5. Hvilke formler for estimering af den maksimale hjertefrekvens (puls) kender I? Hvad er fordelen og ulemper ved disse formler?
-6. Hvorfor observeres der typisk en forholdsvis høj puls (sammenlignet med hvilepuls) på forsøgspersonen, lige inden at testen skal begynde?
-7. Hvorfor er hvert trin i test 3 minutter?
-8. Hvad vil I forvente af udvikling i værdierne for VO2, VCO2 (og R-værdien) undervejs i den
-submaksimale og maksimale test.
-9. Hvilken indflydelse har køn på parametre som maksimal iltoptagelseshastighed (VO2) og maksimal minutventilation (VE)?
-10. Diskutér efter den maksimale test er afsluttet, om testen kan anses som værende vellykket og om forsøgspersonen har opnået en reel maksimal iltoptagelse (tag udgangspunkt i de fem kriterier).
-11. Sammenlign og diskuter det opnåede kondital for forsøgspersonen med normalværdier for befolkningen.
-12. Hvorfor er det vigtigt, at forsøgspersonen formår at ”presse” sig selv til det yderste under en maksimal test?
-13. Hvilken indflydelse vil I forvente, at en periode med aerob træning vil have på forsøgspersonens fysiologiske parametre under submaksimal testen?
 
 ## Andre tests af iltoptagelse
 

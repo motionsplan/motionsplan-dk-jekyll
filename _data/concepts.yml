@@ -164,3 +164,12 @@ time_to_peak_force:
   variations:
     - title: "⏱ Time to Peak Force"
       excerpt: "En kort Time to Peak Force betyder hurtigere og mere eksplosiv kraftudvikling – en afgørende faktor i mange sportsgrene! ⚡🔥"
+peak_power_cykling:
+  type: styrke og eksplosivitet
+  category: Eksplosiv styrke
+  title: "⚡ Peak Power – Maksimal effektudvikling"
+  faq_title: "⚡ Hvad er Peak Power?"
+  excerpt: "Peak Power angiver den maksimale effekt, du kan generere i en sprint. En høj Peak Power er afgørende i cykling, hvis du gerne vil yde hurtig kraftudvikling, fx i sprint eller i et angreb. 🚀🔥"
+  variations:
+    - title: "⚡ Peak Power"
+      excerpt: "Jo højere Peak Power, desto større eksplosivitet i en sprint i cykling. 💥🏋️‍♂️"

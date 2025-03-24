@@ -1,8 +1,8 @@
 ---
 layout: single
 title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
-seo_title: "Muskler i kroppen: Muskelgrupper og muskeloversigt"
-description: Har du brug for en oversigt over alle muskler i kroppen? Her er en muskeloversigt fordelt på muskelgrupper og muskelanatomi.
+seo_title: "Muskler i kroppen: Oversigt over skeletmuskler og muskelgrupper"
+description: Få en komplet oversigt over kroppens muskler, deres funktioner og placeringer. Lær om de forskellige muskelgrupper og deres betydning for bevægelse.
 excerpt: "Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
 header:
@@ -57,7 +57,7 @@ Der er aktivitet i begge muskler omkring leddet. Agonisten har mest aktivitet ti
 
 {% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
-## Hvordan fungerer musklen?
+## Sådan fungerer en muskel
 
 Teorien om "sliding filaments" er den mest populære forklaring på, hvordan en muskel trækker sig sammen. Ifølge denne teori sendes et budskab ned gennem nervefibrene og aktiverer myosinfilamenterne, som bruger energi til at glide langs aktinfilamenterne og forkorter muskelfibrene.
 
@@ -112,37 +112,47 @@ Læs: [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx](/muskelfi
 
 ## Muskler og muskelgrupper i kroppen
 
-Nedenfor har jeg grupperet musklerne efter, hvilken region på kroppen de hører til. Du kan finde dedikerede sider om de enkelte muskelgrupper.
+Nedenfor kan du finde musklerne grupperet deres anatomiske placering i kroppen.
 
-### Benmuskler
+Du kan finde dedikerede sider om de enkelte muskelgrupper.
+
+<details markdown="1" class="faq">
+  <summary><h3 id="benmuskler">Benmuskler</h3></summary>
 
 Jeg har samlet en liste over muskler i dine ben her. Det er godt at vide, hvordan dine benmuskler virker, hvis du gerne vil træne musklerne i benet.
 
 Læs mere om [benmuskler]({% link _posts/2021-03-30-benmuskler.md %}).
+</details>
 
-### Rygmuskler
+<details markdown="1" class="faq">
+  <summary><h3 id="rygmuskler">Rygmuskler</h3></summary>
 
 Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
 
 Nogle af de populære muskler til at træne ryggen er [rygøvelserne pullup og chinups](/chinup-vs-pullup/) og [de mange rows og variationer af trækøvelser](/rows/).
 
 Læs mere om [rygmusklerne her]({% link _posts/2021-03-30-rygmuskler.md %}).
+</details>
 
-### Mavemuskler
+<details markdown="1" class="faq">
+  <summary><h3 id="mavemuskler">Mavemuskler</h3></summary>
 
 Jeg har samlet en liste over muskler i dine mavemuskler. Det er godt at vide, hvordan dine mavemuskler virker, hvis du gerne vil træne muskler i maven bedst muligt.
 
 Læs mere om [mavemuskler]({% link _posts/2021-03-30-mavemuskler.md %}).
+</details>
 
-### Armmuskler
+<details markdown="1" class="faq">
+  <summary><h3 id="armmuskler">Armmuskler</h3></summary>
 
 Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvordan dine armmuskler virker, hvis du gerne vil træne musklerne i armene.
 
 I armene er det faktisk triceps, der er den største muskel. Du kan læse meget mere om størrelsen på muskler hos [bodylab.dk](https://www.bodylab.dk/shop/det-vidste-du-2865c1.html).
 
 Læs mere om [armmuskler]({% link _posts/2021-03-30-armmuskler.md %}).
+</details>
 
-## Hvordan opbygger man muskler?
+## Sådan opbygger du muskler
 
 Musklerne består af små enheder, der kaldes muskelfibre. For at få musklerne til at vokse skal du stimulere muskelfibrene til at vokse. Dette gøres ved at træne med vægte, der er tunge nok til at få musklerne til at arbejde hårdt - eller ved at løfte nok gange til at udtrætte musklerne. Når musklerne skal vokse, så kalder man det også **hypertrofi**.
 
@@ -154,17 +164,17 @@ Før du dykker mere ned i, hvordan du kan få dine muskler til at vokse, så kan
 
 Når du har en god forståelse for de forskellige vækstmekanismer i musklerne, så kan du måske også være interesseret i at dykke ned i [forskellige metoder til hypertrofi](/hypertrofi-metoder/).
 
-## Ofte stillede spørgsmål om muskler
-
-{% include motionsplan/faq.html %}
-
 ## Konklusion
 
 Det er vigtigt at vide, hvordan dine muskler fungerer, for at du kan træne dem effektivt og øge muskelstørrelse, styrke og tonus. I dette indlæg har vi kigget på de forskellige typer muskler i kroppen og deres funktioner.
 
 Vi har også set på, hvordan man opbygger muskelmasse, og forklaret nogle af de grundlæggende ting bag muskelvækst. Jeg håber, at du har fundet disse oplysninger nyttige. Tak for læsningen.
 
-## Artikler om muskler
+## Ofte stillede spørgsmål om muskler
+
+{% include motionsplan/faq.html %}
+
+## Læs meget mere om muskler
 
 <div class="feature__wrapper">
 

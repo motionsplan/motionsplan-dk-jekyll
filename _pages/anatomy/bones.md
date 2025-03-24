@@ -1,6 +1,8 @@
 ---
 layout: single
 title: &title "Skelettet, knogler og knogletyper 🦴"
+seo_title: "Skelettet: Funktion, opbygning og knogletyper i menneskekroppen"
+description: "Lær om skelettets funktion, knoglernes opbygning og de forskellige knogletyper i menneskekroppen. Få en dybdegående forståelse af vores knoglestruktur."
 excerpt: "Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig. Knoglerne opdeles i forskellige knogletyper."
 permalink: /knogler/
 categories:

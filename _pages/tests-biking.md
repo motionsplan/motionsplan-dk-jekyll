@@ -30,7 +30,7 @@ Uanset om du ønsker at måle din maksimale iltoptagelse, kondital eller anaerob
 
 Gennem regelmæssig testning kan du spore dine fremskridt og tilpasse din træning for at opnå optimale resultater.
 
-## Konditionstests
+## Konditionstests til cykling
 
 Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og sit [kondital](/kondital/). Her har jeg samlet alle konditionstests til cykling her på Motionsplan.
 

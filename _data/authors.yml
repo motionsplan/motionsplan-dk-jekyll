@@ -20,6 +20,24 @@ lsolesen:
     - label: "Køb mig en kaffe"
       icon: "fas fa-fw fa-mug-hot"
       url: "https://www.buymeacoffee.com/lsolesen"
+vih:
+  name: "Vejle Idrætshøjskole"
+  title: "Fysiologisk Testcenter"
+  home: "https://www.vih.dk/testcenter/"
+  bio: |
+    På testcenteret testes elever, privatpersoner, klubber og gymnasier. Vi har højtuddannet personale til at varetage testene.
+  avatar: "/assets/images/authors/vih.jpg"
+  featured: true
+  links:
+    - label: "Martin Madsen"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.vih.dk/underviser/martin-madsen/"
+    - label: "Lars Olesen"
+      icon: "fas fa-fw fa-link"
+      url: "/om/lars-olesen/"
+    - label: "Martin Mortensen"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.vies.dk/underviser/martin-mortensen/"
 jesper.emil.jakobsgaard:
   name             : "Jesper Emil Jakobsgaard"
   title            : "Erhvervsforsker og ph.d. i muskelbiologi"
@@ -97,6 +115,9 @@ martin.madsen:
   bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig leder han det fysiologiske testcenter på Vejle Idrætshøjskole, hvor han også underviser i Test & Træning."
   featured         : true
   links:
+    - label: "Underviserprofil"
+      icon: "fab fa-fw fa-link"
+      url: "https://www.vih.dk/underviser/martin-madsen/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/martin-madsen-51743262/"

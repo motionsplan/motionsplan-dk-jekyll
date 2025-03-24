@@ -10,6 +10,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Konditiontests
 meta:
   name: Løbebåndstest med iltoptagelse (submax + maxtest)
   measures: LT1, LT2, VO2max, kondital, maxpuls, løbeøkonomi
@@ -77,18 +78,6 @@ Den direkte test kan give dig svar på, hvor meget ilt du optager ved forskellig
 Hvis du supplerer de submaksimale tests med laktatmålinger, så kan du få endnu mere præcise svar på, hvordan din krop arbejder ved forskellige intensiteter.
 
 Desuden rammer vi til sidst VO₂peak. Vi kalder det *peak*, fordi vi ikke kan være helt sikker på, at det er den maksimale iltoptagelse, da det ikke bliver verificeret ved udelukkende maksimal test.
-
-## Procedure før testen
-
-- Testlederen har på forhånd klargjort og kalibreret udstyret.
-- Inden opvarmning tages en prik-måling for at finde forsøgspersonens laktat-niveau i hvile.
-- Indledningsvist får forsøgspersonen ca. 5-10 minutters opvarmning, der også fungerer som tilvænning til løbebåndet.
-- Dernæst monteres pulsbælte og maske på forsøgspersonen og denne sluttes til gasmålingsudstyret.
-- Der udføres 3-minutters trin, der hver har højere hastighed end det foregående trin indtil udmattelse.
-- Hastigheden for det første trin vurderes ud fra personens træningstilstand.
-- Undervejs i det sidste halve minut af hvert trin noteres de forskellige fysiologiske værdier ned, og der tages en prik-måling i slutningen af trinet.
-- Ved udmattelse noteres den maksimale puls, og der tages en priktest.
-- Testlederen finder herefter de relevante fysiologiske værdier frem på skærmen.
 
 ## Fase 1: Submaksimale test
 
@@ -187,23 +176,6 @@ Testen er rimelig tidskrævende, men den er også meget omfattende. Du kan lade 
 ## Meningsfuld forbedring i testen
 
 {% include figure image_path="/assets/images/motionsplan/incremental-max-test-results.jpg" alt="laktat og puls kurve ift. hastighed" caption="Her er en løber der har gennmført testen før og efter et træningsforløb. Laktatkurven er skubbet til højre, hvilket betyder at både LT1 og LT2 også ligger ved højere hastigheder. Løberen har ganske enkelt fået en mere effektiv motor med flere kræfter." %}
-
-## Diskussionsspørgsmål
-
-1. Brug indledningsvist 3-4 minutter på at gennemgå de forskellige fysiologiske parametre, der er nævnt i skemaet (se bilag) i små grupper (ca. 3 personer).
-2. I hvilke sportsgrene vil I forvente, at udøverne har et højt kondital (maksimal iltoptagelseshastighed i forhold til kropsvægt)? Begrund jeres svar.
-3. Nævn sportsgrene hvor musklens anaerobe evne er mere dominerende end den aerobe. Begrund jeres svar.
-4. Nævn fordele og ulemper ved direkte måling af iltoptagelse sammenlignet med eksempelvis en Cooper-test.
-5. Hvilke formler for estimering af den maksimale hjertefrekvens (puls) kender I? Hvad er fordelen og ulemper ved disse formler?
-6. Hvorfor observeres der typisk en forholdsvis høj puls (sammenlignet med hvilepuls) på forsøgspersonen, lige inden at testen skal begynde?
-7. Hvorfor er hvert trin i test 3 minutter?
-8. Hvad vil I forvente af udvikling i værdierne for VO2, VCO2 (og R-værdien) undervejs i den
-submaksimale og maksimale test.
-9. Hvilken indflydelse har køn på parametre som maksimal iltoptagelseshastighed (VO2) og maksimal minutventilation (VE)?
-10. Diskutér efter den maksimale test er afsluttet, om testen kan anses som værende vellykket og om forsøgspersonen har opnået en reel maksimal iltoptagelse (tag udgangspunkt i de fem kriterier).
-11. Sammenlign og diskuter det opnåede kondital for forsøgspersonen med normalværdier for befolkningen.
-12. Hvorfor er det vigtigt, at forsøgspersonen formår at ”presse” sig selv til det yderste under en maksimal test?
-13. Hvilken indflydelse vil I forvente, at en periode med aerob træning vil have på forsøgspersonens fysiologiske parametre under submaksimal testen?
 
 ## Andre tests af iltoptagelse
 
