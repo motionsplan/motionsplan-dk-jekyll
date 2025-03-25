@@ -7,10 +7,10 @@
             <label for="answers">Aktivitet (konverteringsfaktor)</label>
             <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput">
             <datalist id="answers">
-              {% for row in met_values offset:2 %}
-              <option value="{{ row.Steps }}">{{ row.Activity }}</option>
-              {% endfor %}
-            </datalist>
+                {% for row in met_values offset:2 %}
+                <option value="{{ row.Activity }}" data-steps="{{ row.Steps }}">{{ row.Activity }}</option>
+                {% endfor %}
+              </datalist>
             <input type="hidden" name="answer" id="answerInput-hidden">
         </div>
         <div class="form-group">
@@ -31,23 +31,33 @@
 </form>
 
 <script>
-    document.querySelector('#answerInput').addEventListener('input', function(e) {
-        var input = e.target,
-            list = input.getAttribute('list'),
-            options = document.querySelectorAll('#' + list + ' option[value="' + input.value + '"]'),
-            hiddenInput = document.getElementById(input.getAttribute('id') + '-hidden');
+    document.querySelector('#answerInput').addEventListener('input', function (e) {
+    var input = e.target;
+    var list = document.querySelector('#answers');
+    var options = list.getElementsByTagName('option');
+    var hiddenInput = document.getElementById('answerInput-hidden');
+    
+    hiddenInput.value = ''; // Nulstil hidden input
 
-        if (options.length > 0) {
-            hiddenInput.value = input.value;
-            input.value = options[0].innerText;
+    for (var i = 0; i < options.length; i++) {
+        if (options[i].value === input.value) {
+            hiddenInput.value = options[i].getAttribute('data-steps'); // Gem skridt-konverteringsfaktor
+            break;
         }
+    }
+});
 
-    });
-
-    function calculateSteps() {
-        let steps = $("#answerInput-hidden").val();
-        let time = $("[name='time']").val();
-        $("#steps").val(steps * time);
+function calculateSteps() {
+    let steps = $("#answerInput-hidden").val();
+    let time = $("[name='time']").val();
+    
+    if (!steps || !time) {
+        alert("Vælg en aktivitet og angiv tiden.");
         return false;
     }
+
+    $("#steps").val((steps * time).toFixed(0));
+    return false;
+}
+
 </script>
