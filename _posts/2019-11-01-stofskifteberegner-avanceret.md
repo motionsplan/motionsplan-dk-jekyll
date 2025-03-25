@@ -129,7 +129,7 @@ Hvis du kender algoritmerne bag udregneren på [health-calc.com](https://health-
 
 ## Omregning af energiforbrug fra MET-værdier
 
-Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktiviter, så har jeg en [liste over MET-værdier og en beregner af energiforbrug for aktiviteter](/met/).
+Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktiviter, så har jeg en [liste over MET-værdier for aktiviteter](/met/) og en [beregner af energiforbrug ud fra MET](/met-beregner/).
 
 ## Udregn stofskifte og forbrænding med andre beregnere
 

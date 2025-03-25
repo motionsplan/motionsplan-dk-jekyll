@@ -115,7 +115,7 @@ Når du har styr på, hvor mange kalorier om dagen, du indtager, så ved du ogs�
 
 Hvis du har brug for en kalorieberegner, der kan udregne [hvor meget energi du forbrænder ved en aktivitet](/met/), så kan du bruge MET-værdier. Jeg har lavet en enkel beregner, hvor du kan se, hvor mange kalorier du forbrænder ved de forskellige aktiviteter.
 
-{% include figure image_path="/assets/images/blog/motionsplan-kalorieberegner.png" caption="En enkel beregner til kalorier baseret på din aktivitet og MET-værdier. Tjek [MET-beregneren](/met/)." alt="kalorie beregner baseret på MET-værdier" %}
+{% include figure image_path="/assets/images/blog/motionsplan-kalorieberegner.png" caption="En enkel beregner til kalorier baseret på din aktivitet og MET-værdier. Tjek [MET-beregneren](/met-beregner/)." alt="kalorie beregner baseret på MET-værdier" %}
 
 ## Kalorieomregner og energiomregner
 

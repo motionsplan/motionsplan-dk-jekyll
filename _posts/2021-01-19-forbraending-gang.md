@@ -150,7 +150,7 @@ Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/
 
 ## Kalorieberegner for gang
 
-Hvis du gerne vil beregne hvor mange kalorier, du forbrænder ved forskellige aktiviteter, så tjek vores [kalorierberegner med MET-værdier](/met/).
+Hvis du gerne vil beregne hvor mange kalorier, du forbrænder ved forskellige aktiviteter, så tjek vores [kalorierberegner med MET-værdier](/met-beregner/).
 
 Her har jeg lavet en enkel version, der kun tager højde for kalorieforbruget ved gang og ved forskellige intensiteter.
 
