@@ -25,7 +25,7 @@ Og risikerer du at indtage for meget protein på en dag, så du slet ikke kan op
 
 Der er stor interesse for protein nu om dage. Når du søger på Google efter: "Hvor meget protein har jeg behov for om dagen?", så kommer der mange resultater frem.
 
-Videnskab.dk behandler [10 myter](https://videnskab.dk/krop-sundhed/10-myter-om-proteiner-del-i) om protein og Aktiv Træning har lavet en [beregner](https://aktivtraening.dk/sund-livsstil/test-hvor-meget-protein-har-jeg-brug-for) til at estimere, hvor meget protein forskellige træningsformer kræver.
+Videnskab.dk behandler [10 myter](https://videnskab.dk/krop-sundhed/10-myter-om-proteiner-del-i) om protein og _I Form_ har lavet en [beregner](https://iform.dk/sund-mad/test-hvor-meget-protein-har-jeg-brug-for) til at estimere, hvor meget protein forskellige træningsformer kræver.
 
 Men der er mange forskellige tal og anbefalinger i de forskellige artikler.
 
