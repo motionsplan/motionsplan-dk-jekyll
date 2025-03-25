@@ -5,7 +5,7 @@ description: "Vil du gerne vide, hvordan du får dækket dit proteinbehov billig
 permalink: /billig-protein/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1600841909485-03146c24b014?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kost & Ernæring

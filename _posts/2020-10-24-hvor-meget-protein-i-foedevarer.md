@@ -9,11 +9,9 @@ header:
   caption: *title
 category:
   - Kost & Ernæring
-  - Kosttilskud
 tags:
   - kost
   - protein
-  - kosttilskud
 last_modified_at: 2022-09-13T23:14:14Z
 toc: true
 faq:

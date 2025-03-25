@@ -22,6 +22,8 @@ const jump_reach = require('./jumpreach');
 const tee_pal = require('./bmr-totalenergy-pal');
 const schofield = require('./bmr-schofield');
 const cunningham = require('./bmr-cunningham');
+const gerrior_pal = require('./bmr-gerrior-pal');
+const gerrior = require('./bmr-gerrior');
 const vmax_bike = require('./vmax');
 const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
@@ -3095,22 +3097,22 @@ $(function() {
       let basicMeta = b.getBasicMetabolicRate();
 
       let min_day = 24 * 60;
-      let activity_intense = document.getElementById('activity_intense').value;
-      let activity_moderat = document.getElementById('activity_moderat').value;
-      let activity_light = document.getElementById('activity_light').value;
-      let activity_standing = document.getElementById('activity_standing').value;
-      let activity_sleeping = document.getElementById('activity_sleeping').value;
+      let activity_intense = Number(document.getElementById('activity_intense').value);
+      let activity_moderat = Number(document.getElementById('activity_moderat').value);
+      let activity_light = Number(document.getElementById('activity_light').value);
+      let activity_standing = Number(document.getElementById('activity_standing').value);
+      let activity_sleeping = Number(document.getElementById('activity_sleeping').value);
 
       let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
 
         // Estimated MET-values used
-      let met_intense = 10;
-      let met_moderat = 7;
-      let met_light = 4;
-      let met_standing = 2;
-      let met_sleeping = 0.9;
-      let met_sitting = 1.2;
-
+      let met_intense = Number(document.getElementById('activity_intense_met').value);
+      let met_moderat = Number(document.getElementById('activity_moderat_met').value);
+      let met_light = Number(document.getElementById('activity_light_met').value);
+      let met_standing = Number(document.getElementById('activity_standing_met').value);
+      let met_sleeping = Number(document.getElementById('activity_sleeping_met').value);
+      let met_sitting = Number(document.getElementById('activity_sitting_met').value);
+      
         /*
         // My own PAL calculation - there is no weight factor
       let pal_intense = (met_intense * (activity_intense / 1440));
@@ -3133,8 +3135,17 @@ $(function() {
       let met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
         */
 
-        // Calculate PAL from Gerrior
-      let bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
+      // Calculate PAL from Gerrior with weight factor
+      let pg = gerrior_pal.BMRGerriorPAL(gender, weight);
+      let bmr_kcal = basicMeta / 4.186; // BMR is in kcal in formula
+      pg.setIntense(activity_intense, met_intense);
+      pg.setModerat(activity_moderat, met_moderat);
+      pg.setLight(activity_light, met_light);
+      pg.setStanding(activity_standing, met_standing);
+      pg.setSleeping(activity_sleeping, met_sleeping);
+      pg.setSitting(activity_sitting, met_sitting);
+
+      /*
       let pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
       let pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
       let pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
@@ -3142,12 +3153,20 @@ $(function() {
       let pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
       let pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
       let pal_gerrior = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+      */
+
+      let pal_gerrior = pg.getPAL(bmr_kcal);
 
         // Using Gerrior PAL calculations as constant
       let activityConstant = pal_gerrior;
 
-      let vedligehold = basicMeta * activityConstant;
-
+      let vedligehold;
+      if (formula == "gerrior_2006") {
+        console.log(pg.getPA(bmr_kcal));
+        vedligehold = b.getTEE(pg.getPA(bmr_kcal));
+      } else {
+        vedligehold = basicMeta * activityConstant;
+      }
         $("[name='pal_gerrior']").val(pal_gerrior.toFixed(2));
         $("[name='activity_sitting']").val(activity_sitting);
         $("[name='bmr']").val(basicMeta.toFixed(0) + " kJ");

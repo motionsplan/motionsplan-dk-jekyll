@@ -6,6 +6,7 @@
             <label>Formel for udregning af hvilestofskifte
             <select name="bmr-formula" id="bmr-formula">
                 <option value="recommended_formula">Anbefalet formel</option>
+                <option value="gerrior_2006">Gerrior (2006)</option>
                 <option value="benedict_harris">Benedict-Harris (1918-1919)</option>
                 <option value="schofield">Schofield Equation (1985)</option>
                 <option value="mifflin">Mifflin (1990)</option>
@@ -38,36 +39,52 @@
         <fieldset>
             <legend>Angiv dit daglige fysiske aktivitetsniveau (minutter)</legend>
     <table>
+        <thead>
         <tr>
-            <td><label for="height">Intens træning</label><br>MET 10</td>
-            <td><input type="number" min="0" max="1440" name="activity_intense" id="activity_intense"></td>
+            <th>Aktivitet</th>
+            <th>MET</th>
+            <th>Minutter</th>
+            <th>Beskrivelse</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><label for="height">Intens træning</label></td>
+            <td><input step="0.1" placeholder="10.0" value="10.0" class="input-mini input-locked" type="number" min="0.9" max="100" name="activity_intense_met" id="activity_intense_met"></td>
+            <td><input class="input-mini" type="number" min="0" max="1440" name="activity_intense" id="activity_intense"></td>
             <td>Intensiv idræt. Hurtig løb. Hurtig roning.</td>
         </tr>
         <tr>
-            <td><label for="height">Moderat træning</label><br>MET 7</td>
-            <td><input type="number" min="0" max="1440" name="activity_moderat" id="activity_moderat"></td>
-            <td>Styrketræning. Hugge brænde. De fleste idrætsgrene.</td>
+            <td><label for="height">Moderat træning</label></td>
+            <td><input step="0.1" value="7.0" placeholder="7.0" class="input-mini input-locked" type="number" min="0.9" max="100" name="activity_moderat_met" id="activity_moderat_met"></td>
+            <td><input class="input-mini" type="number" min="0" max="1440" name="activity_moderat" id="activity_moderat"></td>
+            <td>Styrketræning. Hugge brænde. Fleste idrætsgrene.</td>
         </tr>
         <tr>
-            <td><label for="height">Let aktivitet</label><br>MET 4</td>
-            <td><input type="number" min="0" max="1440" name="activity_light" id="activity_light"></td>
+            <td><label for="height">Let aktivitet</label></td>
+            <td><input step="0.1" value="4.0" placeholder="4.0" class="input-mini input-locked" type="number" min="0.9" max="100" name="activity_light_met" id="activity_light_met"></td>
+            <td><input class="input-mini" type="number" min="0" max="1440" name="activity_light" id="activity_light"></td>
             <td>Husarbejde. Havearbejde. Hurtig gang. Golf.</td>
         </tr>
         <tr>
-            <td style="white-space:nowrap"><label for="height">Stående & gående</label><br>MET 2</td>
-            <td><input type="number" min="00" max="1440" name="activity_standing" id="activity_standing"></td>
+            <td style="white-space:nowrap"><label for="height">Stående & gående</label></td>
+            <td><input step="0.1" value="2.0" placeholder="2.0" class="input-mini input-locked" type="number" min="0.9" max="100" name="activity_standing_met" id="activity_standing_met"></td>
+            <td><input class="input-mini" type="number" min="0" max="1440" name="activity_standing" id="activity_standing"></td>
             <td>Madlavning. Let gang. Shopping.</td>
         </tr>
         <tr>
-            <td><label for="height">Sove</label><br>MET 0,9</td>
-            <td><input type="number" min="0" max="1440" value="480" name="activity_sleeping" id="activity_sleeping"></td>
+            <td><label for="height">Sove</label></td>
+            <td><input step="0.1" value="0.9" placeholder="0.9" class="input-mini input-locked" type="number" min="0.9" max="100" name="activity_sleeping_met" id="activity_sleeping_met"></td>
+            <td><input class="input-mini" type="number" min="0" max="1440" value="480" name="activity_sleeping" id="activity_sleeping"></td>
             <td>Fra du ligger i sengen til du står op.</td>
         </tr>
         <tr>
-            <td><label for="height">Siddende</label><br>MET 1,2</td>
-            <td><input type="number" min="0" max="1440" value="960" name="activity_sitting" id="activity_sitting" disabled></td>
+            <td><label for="height">Siddende</label></td>
+            <td><input step="0.1" value="1.2" placeholder="1.2" class="input-mini input-locked" type="number" min="0.9" max="100" name="activity_sitting_met" id="activity_sitting_met"></td>
+            <td><input class="input-mini" type="number" min="0" max="1440" value="960" name="activity_sitting" id="activity_sitting" disabled></td>
             <td>Den resterende tid anslås som siddende.</td>
         </tr>
+    </tbody>
     </table>
         </fieldset>
         <input type="submit" value="Beregn">

@@ -136,6 +136,16 @@ a.read-more-link:hover {
   color: #333;
 }
 
+.input-locked {
+  background-color: #f4f7cb !important;
+  color: #999;
+}
+
+.input-locked:focus {
+  background-color: white;
+  color: black;
+}
+
 /* QUESTIONS */
 
 details.question {
@@ -159,7 +169,6 @@ details.question {
       content: "✔️"; /* Skifter ikon når åben */
     }
   }
-
   summary {
     font-size: 0.9em; /* Lidt mindre fontstørrelse for kompakt tekst */
     font-weight: normal;

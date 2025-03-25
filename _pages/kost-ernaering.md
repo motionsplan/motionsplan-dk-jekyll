@@ -12,7 +12,7 @@ header:
   teaser: https://images.unsplash.com/photo-1517093728432-a0440f8d45af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 author_profile: true
-toc: false
+toc: true
 breadcrumbs: true
 classes: wide
 ---
@@ -23,7 +23,7 @@ Vi dækker emner som makronæringsstoffer, tallerkenmodeller og kosttilskud, så
 
 Udforsk vores artikler og interaktive værktøjer for at få praktiske råd og inspiration til en sund livsstil. Vi er dedikerede til at levere opdateret og pålidelig information, der kan guide dig mod bedre sundhed og velvære.
 
-## Kost & Opskrifter
+## Kost & Ernæring
 
 {% assign site_posts = site.posts | where: "tags", "kost" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -37,14 +37,28 @@ Udforsk vores artikler og interaktive værktøjer for at få praktiske råd og i
 
 </div>
 
+## Opskrifter
+
+{% assign site_posts = site.posts | where: "tags", "opskrift" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Guides til kosttilskud
 
-{% assign site_posts = site.posts | where: "category", "Kosttilskud" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "kosttilskud" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -83,47 +97,30 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 {% endcomment %}
 
-## Kalorieberegner og ligevægtsindtag
+## Dagligt energibehov og ligevægtsindtag
 
 Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
+
+{% assign site_posts = site.posts | where: "tags", "kalorieberegner" | where: "tags", "stofskifte" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Alt om stofskiftet](/stofskifte/){: .btn .btn--success .btn--center }
+
+</div>
+
+## Kalorieberegnere og energiberegnere
 
 Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% assign site_posts = site.posts | where: "tags", "kalorieberegner" | sort: "date" %}
 
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Fysiologi
-
-Det er godt at kende mere til [kroppens fysiologi](/fysiologi/), når man gerne vil forstå træningslæren om kroppen. Du kan blive klogere i nogle af disse indlæg.
-
-{% assign site_posts = site.posts | where: "tags", "fysiologi" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper" markdown="1">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-[Se alt om fysiologi](/fysiologi/){: .btn .btn--success .btn--center }
-</div>
-
-## Anatomi
-
-Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til bevægelsesanalyse](/bevaegelsesanalyse/).
-
-{% assign site_posts = site.posts | where: "tags", "anatomi" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
@@ -132,7 +129,7 @@ Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til b
   {% endfor %}
 {% endif %}
 
-[Se alt om anatomi](/anatomi/){: .btn .btn--success .btn--center }
+[Find flere kalorieberegnere](/kalorieberegner/){: .btn .btn--success .btn--center }
 
 </div>
 
@@ -149,5 +146,40 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+</div>
+
+## Fysiologi
+
+Det er godt at kende mere til [kroppens fysiologi](/fysiologi/), når man gerne vil forstå træningslæren om kroppen. Du kan blive klogere i nogle af disse indlæg.
+
+{% assign site_posts = site.posts | where: "tags", "fysiologi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alt om fysiologi](/fysiologi/){: .btn .btn--success .btn--center }
+</div>
+
+## Anatomi
+
+Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til bevægelsesanalyse](/bevaegelsesanalyse/).
+
+{% assign site_posts = site.posts | where: "tags", "anatomi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alt om anatomi](/anatomi/){: .btn .btn--success .btn--center }
 
 </div>

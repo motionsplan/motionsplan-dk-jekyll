@@ -6,6 +6,7 @@ const bmr_henry = require('./bmr-henry');
 const bmr_mifflin = require('./bmr-mifflin');
 const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
+const gerrior = require('./bmr-gerrior');
 
 motionsplan.BMR = function(sex, age, weight, height, formula) {
     let gender = sex;
@@ -35,6 +36,7 @@ motionsplan.BMR = function(sex, age, weight, height, formula) {
         formulas["mifflin"]= "Mifflin et al (1990)";
         formulas["benedict_harris"]= "Benedict-Harris (1918-1919)";
         formulas["nordic_nutrition_2012"]= "Nordic Nutrition Recommendations (2012)";
+        formulas["gerrior_2006"]= "Gerrior (2006)";
         return formulas[formula];
     }
 
@@ -47,9 +49,11 @@ motionsplan.BMR = function(sex, age, weight, height, formula) {
         } else if (formula == 'benedict_harris') {
             b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
         } else if (formula == 'henry') {
-              b = bmr_henry.BMRHenry(gender, age, weight, height);
+            b = bmr_henry.BMRHenry(gender, age, weight, height);
         } else if (formula == 'mifflin') {
           b = bmr_mifflin.BMRMifflin(gender, age, weight, height);
+        } else if (formula == 'gerrior_2006') {
+            b = gerrior.BMRGerrior(gender, age, weight, height);
         } else {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }
@@ -57,9 +61,20 @@ motionsplan.BMR = function(sex, age, weight, height, formula) {
         return b.getBasicMetabolicRate();
     }
 
+    // Put in PA for Gerrior. Else use PAL.
+    function getTEE(PAL) {
+        let b;
+        if (formula == "gerrior_2006") {
+            b = gerrior.BMRGerrior(gender, age, weight, height);
+            return b.getTEE(PAL);
+        }
+        return false;
+    }
+
    let publicAPI = {
         getBasicMetabolicRate: getBasicMetabolicRate,
-        getFormulaName : getFormulaName
+        getFormulaName : getFormulaName,
+        getTEE : getTEE
     };
 
     return publicAPI;

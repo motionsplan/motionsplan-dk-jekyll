@@ -1,6 +1,6 @@
 ---
-title: &title "Kalorieberegner: Beregn alt om kalorier"
-seo_title: "Kalorieberegner: 4 måder at beregne alt om kalorier"
+title: &title "Kalorieberegnere: Beregn alt om kalorier"
+seo_title: "Kalorieberegnere: 4 måder at beregne alt om kalorier"
 description: "Har du brug for en kalorie beregner? Her har vi samlet forskellige kalorieberegnere, som kan udregne kaloriebehov og kalorieindtag gratis. Prøv dem nu!"
 permalink: /kalorieberegner/
 language: da
@@ -9,12 +9,10 @@ header:
   teaser: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
-  - Beregnere
-  - Kalorieberegnere
+  - Kost & Ernæring
 tags:
   - kalorier
   - energi
-  - kalorieberegner
   - kost & ernæring
 last_modified_at: 2022-05-11T10:14:14Z
 toc: true

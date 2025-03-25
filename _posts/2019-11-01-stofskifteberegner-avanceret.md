@@ -32,7 +32,7 @@ feature_row:
     rel: nofollow noopener
 ---
 
-I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov.
+I denne avancerede energiberegner kan du udregne dit daglige stofskifte og forbrænding. Energiforbruget baseres på dit basalstofskifte (BMR) og dit faktiske fysiske aktivitetsniveau, så du så præcist som muligt finder dit daglige energibehov.
 
 **Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
 
@@ -69,11 +69,17 @@ Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrio
 | Sove | MET 0,9 | Fra du ligger i sengen til du står op. |
 | Siddende | MET 1,2 | Den resterende tid er du siddende. Enten arbejde. TV-kigning. |
 
-Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012) og [slået aktiviteter op i listen over MET-værdier](/met/). I Nordic Nutrition Recommendations (2012) er _Rest_ sat til 1,0, men der er ingen adskillelse mellem sovende og siddende aktivitet.
+Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012) og [slået aktiviteter op i listen over MET-værdier](/met/).
+
+I Nordic Nutrition Recommendations (2012) er _Rest_ sat til 1,0, men der er ingen adskillelse mellem sovende og siddende aktivitet.
 
 **Jeg er i tvivl om jeg har valgt de helt rigtige MET-værdier til at give den bedste beregning. Hvis du har et input til at gøre listen bedre, så brug endelig kommentarerne.**
 
-Gerrior et al (2006) benytter så PAL-værdien til at udregne en PA-værdi, men lige nu ganger beregneren direkte med PAL-værdien udregnet ud fra fremgangsmåden hos Gerrior et al (2006).
+Gerrior et al (2006) benytter så PAL-værdien til at udregne en coefficient, som de kalder PA-værdien. Denne værdi bruger de selv i deres beregner i deres særlige formel til at udregne det daglige energiforbrug.
+
+Hvis du vælger en af de andre formler til hvilestofskiftet, så ganger vi direkte med BMR med PAL-værdien, som vi har udregnet efter fremgangsmåden hos Gerrior et al (2006).
+
+Hvis du vælger Gerrior et al (2006), så bruger vi deres særlige formel til at udregne det daglige energiforbrug.
 
 {% comment %}
 

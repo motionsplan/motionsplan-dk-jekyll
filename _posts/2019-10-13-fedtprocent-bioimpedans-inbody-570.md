@@ -98,7 +98,7 @@ Resultatarket indeholder også dit Body Mass Index. Vi har skrevet meget uddybde
 **Læs**: [Guide til kropskomposition](/kropskomposition/)
 {: .notice }
 
-### Fortolkning af resultatarket fra InBody 570
+## Fortolkning af resultatarket fra InBody 570
 
 Når du har lavet testen, så får du også et resultatark skrevet ud. Resultat fra kropskompositionstesten ser nogenlunde sådan her ud:
 
@@ -110,7 +110,7 @@ Du kan lære mere ved at se denne video fra Youtube:
 
 {% include video id="-zwAYct6COs" provider="youtube" %}
 
-### Hvor præcis er en InBody test?
+## Hvor præcis er en InBody test?
 
 Miller et al (2016) har validereret, hvor præcis en kropsanalysevægt test på InBody 570 er. Det viser sig, at analyasen har en høj korrelation med en DEXA-scanner.
 
@@ -142,7 +142,7 @@ Der er andre måder at måle kropskomposition på. Det kan du læse mere om i vo
 
 Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
 
-For en dybere forståelse af kropskomposition, læs vores artikel om [fedtprocentmålingsteknikker](/maal-fedtprocent/).
+For en dybere forståelse af kropskomposition, læs vores artikel om [kropskomposition](/kropskomposition/).
 
 Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
 

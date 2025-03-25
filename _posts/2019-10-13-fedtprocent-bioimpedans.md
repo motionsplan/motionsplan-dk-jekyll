@@ -48,9 +48,15 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Bioimpedans er en let måde at [måle fedtprocent](/maal-fedtprocent/) og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj.
+**Bioimpedansmåling** er en enkel og tilgængelig metode til at [måle fedtprocent](/maal-fedtprocent/) og [kropssammensætning](/kropskomposition/). 
 
-Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere præcise.
+Teknologien blev udviklet i 1980’erne, men de tidlige målinger var mindre præcise sammenlignet med 'guldstandarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanning.  
+
+I dag er bioimpedansmåling blevet markant forbedret, og moderne apparater kan give mere præcise estimater af kroppens sammensætning.
+
+Metoden er især blevet populær i fitnesscentre, hvor bioimpedansvægte bruges til at følge udviklingen i fedtprocent og muskelmasse.
+
+Selvom teknologien er lettilgængelig, er det vigtigt at forstå dens begrænsninger og faktorer, der kan påvirke målingerne.
 
 *[PBF]: Percent Body Fat
 *[SMM]: Skeletal Muscle Mass
@@ -58,11 +64,13 @@ Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere pr�
 *[ICW]: Intra Cellular Water
 *[DEXA]: Dual-energy x-ray absorptiometry
 
-## Hvad er bioimpedans (BIA)?
+## Hvad er Bioelektrisk Impedans Analyse (BIA)?
 
-Ved bioimpedansmålinger sendes en svag vekselstrøm gennem det biologiske væv med forskellige strømfrekvenser. Bioimpedansapparatet måler _impedansen_ eller modstanden i det biologiske væv, som kan være en hel person.
+Ved en bioelektrisk impedans analyse sendes en svag vekselstrøm gennem det biologiske væv med forskellige strømfrekvenser.
 
-## Hvordan fungerer bioimpedansmåling?
+Bioimpedansapparatet måler _impedansen_ eller modstanden i det biologiske væv, som kan være en hel person.
+
+## Sådan fungerer bioimpedansmåling?
 
 Når strømmen sendes igennem kroppen, så skal det passere cellerne i kroppen. Hver celle i kroppen er omgivet af en cellemembran, der er opbygget af fedtstoffer. Inden i cellerne er der den intracellulære væske, som ofte forkortes ICW eller ICF. Cellerne er omgivet af den ekstracellulære væske, som forkortes ECW eller ECF.
 
@@ -108,7 +116,7 @@ Hvis du gerne vil have dit resultat til at være så præcist som muligt, så sk
 
 ### Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en [InBody 570](https://bodytracker.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute.
+På [Vejle Idrætshøjskole](https://www.vih.dk/) har vi adgang til en InBody 570, som vi har købt gennem Fitness Institute.
 
 InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
 
@@ -126,13 +134,22 @@ Læs meget mere om, hvordan du foretager en bioimpedansmåling med [InBody 570](
 
 ## Konklusion
 
-Resultatarket fra en kropsanalyse fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
+Resultatarket fra en kropsanalyse fra en Inbody bioimpedansmåler er meget imponerende.
 
-For en dybere forståelse af kropskomposition, læs vores artikel om [fedtprocentmålingsteknikker](/maal-fedtprocent/).
+Bioimpedansmåling er en tilgængelig metode til at vurdere din kropssammensætning, og resultatarket fra fx en InBody bioimpedans måler ser meget imponerende og overbevisende ud.
 
-Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
+Men husk at fortolke resultatet med forsigtighed.
 
-Måske rammer du allerede din [idealvægt](/idealvaegt/), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
+Faktorer som hydrering, kost og fysisk aktivitet kan påvirke målingernes nøjagtighed. 
+
+For en dybere forståelse af kropskomposition, så kan du dykke ned i følgende:
+
+- [Alt om kropskomposition](/kropskomposition/)
+- [Forskellige teknikker til måling af fedtprocent](/maal-fedtprocent/).
+
+Du skal **ikke** gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
+
+Måske rammer du allerede din [idealvægt](/idealvaegt/), hvor din krop har det godt, du føler overskud, er stærk, udholdende og hurtig.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
