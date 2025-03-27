@@ -11,11 +11,8 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kalorier
-  - energi
   - fødevarer
-  - kost
-  - ernæring
+  - kalorietabel
 faq:
   - question: Hvor mange proteiner er der i kød?
     answer: Proteinindholdet i kød varierer alt efter kødtypen. For at vide, hvor meget protein, der er i kød, så skal du altså bruge en tabel, hvor du kan slå forskellige kødtyper op.

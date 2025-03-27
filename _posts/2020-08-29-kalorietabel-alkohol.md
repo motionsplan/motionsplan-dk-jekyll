@@ -11,11 +11,8 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kalorier
-  - energi
   - fødevarer
-  - kost
-  - ernæring
+  - kalorietabel
 faq:
   - question: "Hvor mange kalorier er der i en øl?"
     answer: "Det kommer an på, hvilken øl det er - og hvor stor den er. I en Carlsberg Pilsner fadøl med 568 ml på 4.6% alkohol er der 211 kcal."

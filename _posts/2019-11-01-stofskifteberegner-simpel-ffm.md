@@ -17,7 +17,7 @@ meta:
   type: energiforbrug
 tags:
   - stofskifte
-  - kalorieberegner
+  - stofskifteberegner
   - beregner
 last_modified_at: 2025-03-06T23:14:14Z
 feature_row:

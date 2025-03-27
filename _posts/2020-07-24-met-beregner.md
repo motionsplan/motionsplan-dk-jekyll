@@ -13,9 +13,11 @@ tags:
   - kalorier
   - kalorieberegner
   - stofskifte
+  - stofskifteberegner
   - beregner
 category:
   - Kost & Ernæring
+  - Kalorieberegnere
 last_modified_at: 2021-02-13T08:39:32Z
 ---
 

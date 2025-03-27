@@ -13,7 +13,7 @@ category:
   - Kalorieberegnere
 tags:
   - stofskifte
-  - kalorieberegner
+  - stofskifteberegner
   - beregner
 meta:
   name: BMR-beregner

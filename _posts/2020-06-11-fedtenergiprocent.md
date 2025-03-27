@@ -9,6 +9,7 @@ header:
   caption: *title
 category:
   - Kost & Ernæring
+  - Kalorieberegnere
 tags:
   - kost & ernæring
   - beregner

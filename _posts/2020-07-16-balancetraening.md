@@ -1,8 +1,8 @@
 ---
-title: &title "Balancetræning 🤸: Effektiv træning af din balance"
-seo_title: "Balancetræning: Alt om balance og balanceøvelser"
-description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
-permalink: /balance/
+title: &title "Balancetræning 🤸: Effektive balanceøvelser"
+seo_title: "Balancetræning: Effektive balanceøvelser du kan bruge i dag"
+description: "Balancetræning bør være en del af din træning. Her får du balanceøvelser som er skræddersyet til at forbedre din balanceevne."
+permalink: /balancetraening/
 language: da
 header:
   overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -14,31 +14,27 @@ tags:
   - træning
 category:
   - Træning
-last_modified_at: 2023-01-01T08:39:32Z
+last_modified_at: 2025-03-20T08:39:32Z
 sidebar:
   nav: exercises
 ---
 
 Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?
 
-Hvad er balance? **Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
-
 I dette indlæg får du svar på følgende spørgsmål:
 
-- Hvad er postural kontrol og balancetræning?
-- Hvad består balancesansen af?
-- Hvordan kan du træne balancetræning?
+- Hvad er balancetræning?
+- Hvordan kan du træne med balanceøvelser?
 - Rigtig mange eksempler på øvelser til balancetræning under forskellige forudsætninger.
 
 {% include figure image_path=page.header.overlay_image alt=page.title caption=page.title %}
 
-## Hvad er postural kontrol?
+## Hvad er balance?
 
-I forbindelse med balance, kan man også tale om **postural kontrol**. Postural kontrol er nært forbundet med bevægelse, da enhver bevægelse i kroppen forstyrrer ligevægtstilstanden i kroppen og derved balancen.
+**Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
 
-Postural kontrol
-: Nervesystemets evne til at sikre kroppens tyngdepunkt (centre of mass) har sammenhæng med understøttelsesfladen (base of support). Postural kontrol består af postural stabilitet, som er evnen til at opretholde kroppens tyngdepunkt inden for understøttelsesfladen, og postural orientering, som er kroppens evne til at opretholde et hensigtsmæssigt forhold mellem kroppens segmenter og mellem kroppen og omgivelserne under udførelsen af en bevægelse.
-{: .notice .notice--info }
+**Læs**: [Komplet guide til balance og balanceevne](/balance/)
+{: .notice }
 
 ## Hvad er balancetræning?
 
@@ -54,6 +50,8 @@ Balancetræning er en af flere typer træning, der er gavnlig for at lave en kom
 
 {% include figure image_path="https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/)" alt=page.title %}
 
+## Hvorfor skal du træne din balance?
+
 Trojian og McKeag (2006) undersøgte 230 unge mennesker. Inden en sæson lavede de en **simpel balancetest** på et ben med det andet ben bøjet. Deltagerne i studiet blev bedt om at lukke øjnene i 10 sekunder. I sæsonen var der 28 ankelskader. Forskerne fandt, at hvis ikke deltagerne kunne holde balancen i de 10 sekunder eller følte sig ude af balance, så var risikoen for ankelskader større.
 
 **Faktisk var det 2,5 gange så sandsynligt, at man ville få en ankelskade i løbet af sæsonen, hvis man ikke kunne holde balanen i 10 sekunder med øjnene lukkede.**
@@ -66,6 +64,10 @@ Hvis du har en dårlig balanceevne, så skyldes det **ofte mangel på træning**
 
 Jeg synes selv både [episode 1](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/) og [episode 2](https://zhealtheducation.com/blog/episode-201-quickly-improve-balance-part-2/) om, hvordan man hurtigt forbedre sin balance af Eric Cobb fra Z-health er lærerige at kigge på.
 
+## Test af balance
+
+Du kan selvfølgelig bare bruge testen, som er refereret ovenfor. Ellers har vi en masse andre forslag til [balancetests](/balance-tests/), du kan lave..
+
 ## Balancetræning og specificitet og ustabile underlag
 
 Hrysomallis (2011) og Kiers et al (2013) fandt i deres _reviews_, at forbedret balance ser ud til at hænge sammen med atletisk præstation og en nedsat risiko for skader, men med balancetræning gælder formentlig også **princippet om specificitet**.
@@ -77,35 +79,6 @@ Jeg er opvokset med, at få opgaver på vippebræt eller BOSU-bolde for at skabe
 Behm et al (2015) konkluderede i deres review af undersøgelser med unge mennesker, at træning på ustabile underlag kun havde en lille effekt på muskelstyrke, power og balance - og at denne lille effekt forsvandt, når man sammenlignede med træning på stabile underlag. Alt i alt viste Behm et al (2015) ikke forskel på effekten i forhold til det valgte underlag, bl.a. også fordi der ikke er overførbarhed til andre opgaver.
 
 Balancen er et kompliceret system, og da man ikke ved, hvornår man har brug for en veludviklet balance for ikke at falde, så kan det være godt at udfordre den på mange forskellige måder. Hvis du skal bruge balance på forskellige måder i din idrætsgren, så er det godt at tænke på specificiteten.
-
-## Hvad består balancesansen af?
-
-Balanceevnen påvirkes af dine øjne, ører og sanseorganerne i led og muskler. Alle systemerne kan trænes. Balancesystemet er et kompliceret system, der består af tre dele:
-
-- det **proprioceptive system** i muskler, led og ledbånd.
-- det **indre øre**
-- **synet**
-
-Det er rigtig godt at have en viden om alle disse systemer, hvis du skal planlægge balancetræning.
-
-Jeg har skrevet et indlæg om [synstræning for fodboldspillere på legestue.net](https://www.legestue.net/synet/).
-
-### Det proprioceptive system
-
-### Det indre øre
-
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Blausen_0329_EarAnatomy_InternalEar.png/495px-Blausen_0329_EarAnatomy_InternalEar.png" caption="I det indre øre sidder det vestibulære system, som består af nogle små buegange, der registrerer hovedets stilling og bevægelse. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Inner_ear)." %}
-
-### Synet
-
-## Hvilke typer balance kan man skelne mellem?
-
-Grundlæggende kan man skelne mellem to motoriske evner i forbindelse med balance:
-
-- **Statisk balance** er opretholdelsen af ligevægt, når man _ikke_ er i bevægelse. Det er altså når man står, sidder eller knæler. Du kan stå stille med kroppen, mens du bevæger andre lemmer eller dit hoved.
-- **Dynamisk balance** er opretholdelsen af ligevægt under bevægelse, fx når man går eller løber, men også når man laver andre bevægelser. Du kan bevæge dig hurtigt eller langsomt og lave drejninger eller landinger.
-
-Den statiske og dynamiske balance er to relativt uafhængige evner. Derfor kræver de også forskellige måder at træne på. Her beskriver vi to forskellige tests, som rammer hhv. dynamisk eller statisk balance.
 
 ## Hvor ofte og hvor længe træner man?
 
@@ -183,34 +156,6 @@ Du kan enten arbejde med at holde hovedet i ro eller ved at sætte bevægelse p�
 - sidebøjet til venstre
 
 Når du har lavet ovenstående statisk, fx med 15-30 sekunder i alle stillingerne, kan du eksperimentere med forskellige måder at have fødderne på og begynde at bevæge hovedet rundt i forskellige stillinger.
-
-## Test af balance
-
-### Statisk balance: Star Excursion Balance Test
-
-{% include video provider="youtube" id="4GMzE7NV3W0" %}
-
-Hvis du vil teste din balance med [Star Excursion Balance Test](https://www.scienceforsport.com/star-excursion-balance-test/), så skal du bruge et stjernemønster på gulvet, der ser sådan her ud:
-
-{% include figure image_path="https://www.researchgate.net/profile/Phillip_Gribble/publication/230670854/figure/fig2/AS:667829586112512@1536234389132/Reaching-directions-for-the-Star-Excursion-Balance-Test.png" caption="Der er 8 retninger i stjernemønsteret, og du skal udføre øvelsen på begge ben. Kilde: [Gribble et al (2012)](https://www.researchgate.net/publication/230670854_Using_the_Star_Excursion_Balance_Test_to_Assess_Dynamic_Postural-Control_Deficits_and_Outcomes_in_Lower_Extremity_Injury_A_Literature_and_Systematic_Review)" %}
-
-Din udgangsstilling for testen er med hænderne i siden. Du stiller dig på en fod i midten af stjernemønsteret. Opgaven er at støtte så langt væk fra standbenet som muligt med det andet ben.
-
-Jo længere afstanden er fra midten af stjernen og ud til støttestedet, desto bedre har du klaret testen.
-
-### Dynamisk balance: Modified Bass Test
-
-I en [Modified Bass Test](https://www.scienceforsport.com/modified-bass-balance-test/) træner vi den dynamiske balance ved at gennemføre en hinkebane, der ser sådan her ud:
-
-{% include figure image_path="https://www.researchgate.net/profile/Jatin_Ambegaonkar/publication/236275006/figure/fig2/AS:601685743378438@1520464468255/Modified-Bass-Test-of-Dynamic-Balance-NoteThe-numbers-1t-hrough-10-under-the-square.png" caption="Hinkebane til Modified Bass Test. Kilde: [Ambegaonkar et al (2013)](https://www.researchgate.net/publication/236275006_Balance_Comparisons_Between_Female_Dancers_and_Active_Nondancers)" %}
-
-Du stiller dig først på banen med hænderne i siden. Hænderne skal blive i siden hele tiden. Kig lige frem.
-
-Nu skal du hinke i den rigtige rækkefølge gennem hinkebanen på et ben. Du skal lande præcist på afmærkningen og holde stillingen. For hver landing holder du fem sekunders pause, hvor standfoden holdes helt i ro. Du har to prøveforsøg og det tredje forsøg er tællende. Testen gentages på det modsatte ben.
-
-### Y- balance-test
-
-Y-balancetest er en enkel test til at teste balancen. Det er en forenkling af STAR-balancetesten med de vigtigste retninger at teste balancen i. Du kan læse [mere om Y-balancetesten her]({% link _posts/2020-11-19-y-balance.md %}).
 
 ## Kom i gang med balancetræning
 
@@ -294,9 +239,11 @@ Marina Aagaard foreslår bl.a. følgende balanceøvelser efter pertubationsprinc
 - Stå på balancebræt eller luftpude. En ven træder på luftpuden eller balancebrættet (set el. uset).
 - Sid eller knæl på stor bold. Træner puffer til bolden eller person (set el. uset).
 
-## Opsamling på balance, balanceøvelser og balancetræning
+## Opsamling på balanceøvelser og balancetræning
 
-Det er bare at komme lidt i gang med balancetræning. Jeg har i dette indlæg defineret, hvad balance og balancetræning er. Desuden har jeg oplistet en lang række øvelser, som kan være med til at træne din posturale kontrol, balance og kropsbeherskelse.
+Det er bare at komme lidt i gang med balancetræning. Jeg har i dette indlæg defineret, hvad balancetræning er.
+
+Du kan finde en lang række øvelser, som kan være med til at træne din posturale kontrol, balance og kropsbeherskelse.
 
 Hvad er **fordelene** ved balancetræning?
 
@@ -305,6 +252,8 @@ Hvad er **fordelene** ved balancetræning?
 - forbedrer præstationsevnen i både hverdag og idræt
 - mange variationsmuligheder og man behøver ikke udstyr
 - kan varieres med sjove redskaber, fx bolde, ruller, vippebræt, luftpuder
+
+Hvis du gerne vil have en status på din balance, så [test din balanceevne](/balance-tests/).
 
 God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag til øvelser til at træne balancen.
 

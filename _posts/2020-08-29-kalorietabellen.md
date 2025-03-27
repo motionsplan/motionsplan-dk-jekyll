@@ -14,8 +14,7 @@ tags:
   - kalorier
   - energi
   - fødevarer
-  - kost
-  - ernæring
+  - kost & ernæring
   - featured
 faq:
   - question: "Hvor mange kalorier er der i mad?"

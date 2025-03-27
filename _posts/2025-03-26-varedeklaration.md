@@ -104,7 +104,7 @@ Du kan prøve vores beregnere:
 
 Jeg kunne have valgt hvilken som helst fødevare, men her har jeg valgt at sammenligne to proteinbarer.
 
-Den ene er [Bodylab Chokolate Brownie Protein Bar](https://www.bodylab.dk/shop/protein-bar-4490p.html) og den anden er [Maxim 40% Proteinbar Soft Rasberry](https://www.maxim.dk/product/maxim-40-protein-bar-soft-raspberry/)
+Den ene er [Bodylab Chokolate Brownie Protein Bar](https://www.bodylab.dk/shop/protein-bar-4490p.html) og den anden er [Maxim 40% Proteinbar Soft Rasberry](https://www.maxim.dk/product/maxim-40-protein-bar-soft-raspberry/).
 
 ### Ingredienslisten
 

@@ -36,14 +36,22 @@ garmin_lactate:
   - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
   - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 ---
-Pulsreserve er et vigtigt begreb inden for pulstræning, som tager højde for både din hvilepuls og maksimale puls. I modsætning til en simpel procentdel af din maksimale puls giver pulsreserve en mere præcis metode til at bestemme træningsintensitet.
+Pulsreserve er et vigtigt begreb inden for pulstræning, som tager højde for både din hvilepuls og maksimale puls.
+
+I modsætning til en simpel procentdel af din maksimale puls giver pulsreserve en mere præcis metode til at bestemme træningsintensitet.
 
 På denne side kan du lære:
 
-Hvad pulsreserve er, og hvorfor den er relevant for din træning.
-Hvordan du beregner intensitet ud fra pulsreserven.
-Hvordan du finder din puls ved en bestemt træningsintensitet.
-Brug vores beregnere til at udregne intensitet eller puls baseret på pulsreserven, så du kan tilpasse din træning optimalt.
+- Hvad pulsreserve er, og hvorfor den er relevant for din træning.
+- Hvordan du beregner intensitet ud fra pulsreserven.
+- Hvordan du finder din puls ved en bestemt træningsintensitet.
+- Brug vores beregnere til at udregne intensitet eller puls baseret på pulsreserven, så du kan tilpasse din træning optimalt.
+
+## Hvad er pulsreserven?
+
+Pulsreserven er forskellen mellem [maxpulsen](/max-puls-test/) og [hvilepulsen](/hvilepuls/). Grundlæggende er det altså det spænd hjertet har at arbejde i.
+
+{% include figure image_path="/assets/images/blog/pulsreserve-portrait.jpg" caption="Pulsreserven" alt="Pulsreserven" %}
 
 ## Formel til intensitet fra pulsreserven
 

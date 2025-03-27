@@ -6,7 +6,7 @@ excerpt: "Beregn dit kulhydratforbrug under løb og cykling. Brug denne beregner
 description: "Beregn dit kulhydratforbrug under løb og cykling. Brug denne beregner til at planlægge dit kulhydratindtag og optimere din præstation."
 language: da
 header:
-  teaser: /assets/images/blog/lactate-testing.jpg
+  teaser: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 category:
   - Kost & Ernæring

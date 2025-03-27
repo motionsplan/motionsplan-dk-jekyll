@@ -12,7 +12,7 @@ category:
   - Kalorieberegnere
 tags:
   - stofskifte
-  - kalorieberegner
+  - stofskifteberegner
   - beregner
 meta:
   name: Daglig forbrænding og stofskifte

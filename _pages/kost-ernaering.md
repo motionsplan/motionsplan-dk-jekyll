@@ -97,11 +97,11 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 {% endcomment %}
 
-## Dagligt energibehov og ligevægtsindtag
+## Energi & Forbrænding: Dagligt energibehov og ligevægtsindtag
 
 Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
 
-{% assign site_posts = site.posts | where: "tags", "kalorieberegner" | where: "tags", "stofskifte" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "stofskifteberegner" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 
@@ -133,7 +133,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 </div>
 
-## Vægttab
+## Vægt & vægttab
 
 Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der findes en kæmpestor forretning af vægttabseksperter og kosttilskud til vægttab. Der bliver brugt før og efter-billeder af en afklædt krop for at vise, hvor effektive resultater, man kan få. Jeg har skrevet lidt om en [anden tilgang til vægttab]({% link _posts/2021-07-31-vaegttab.md %}).
 
@@ -146,6 +146,22 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+</div>
+
+## Kalorietabeller og næringsindhold i fødevarer
+
+{% assign site_posts = site.posts | where: "tags", "kalorietabel" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se den store kalorietabel](/kalorietabellen/){: .btn .btn--success .btn--center }
 
 </div>
 

@@ -10,11 +10,8 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kalorier
-  - energi
   - fødevarer
-  - kost
-  - ernæring
+  - kalorietabel
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer brød. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for forskellige typer brød.

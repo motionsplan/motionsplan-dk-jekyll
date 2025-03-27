@@ -51,9 +51,11 @@ Max-pulsen
 : Max-pulsen er den absolut højeste pulsværdi, dit hjerte kan præstere. Jeg har skrevet et indlæg om, [hvordan du selv kan måle din max-puls](/test-max-puls/).
 
 Pulsreserven
-: Pulsreserven er forskellen mellem din max-puls og hvilepuls.
+: Pulsreserven er forskellen mellem din max-puls og hvilepuls. [Lær mere om pulsreserven](/pulsreserve/).
 
 Når du kender værdierne af din hvilepuls og max-puls, så kan du begynde at udregne træningsintensiteter til din pulstræning ud fra pulsreserven.
+
+{% include figure image_path="/assets/images/blog/pulsreserve-landscape.jpg" caption="Pulsreserven" alt="Pulsreserven" %}
 
 Du kan læse mere om fordele og ulemper under vores artikel om [pulstræning](/pulstraening/).
 
@@ -86,3 +88,9 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 Du kan sagtens bruge pulszoner til at hjælpe med at styre træningen, men det er en stor fordel, hvis pulszonerne er individuelt tilpassede.
 
 Du kan lave dine egne **individuelle pulszoner** ved at teste dine pulszoner. Du kan naturligvis lade dig teste i et fysiologisk testcenter, hvor det kan ske relativt præcist.
+
+Kom videre:
+
+- [Test din maxpuls](/test-max-puls/)
+- [Find din hvilepuls](/hvilepuls/)
+- [Iltoptagelsestest i et testcenter](/iltoptagelse-laboratorietest/)

@@ -18,7 +18,7 @@ tags:
   - ligevægtsindtag
   - energiberegner
   - featured
-  - kalorieberegner
+  - stofskifteberegner
   - beregner
 meta:
   name: Dagligt ligevægtsindtag
