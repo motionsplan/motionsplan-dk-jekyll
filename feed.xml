@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.motionsplan.dk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.motionsplan.dk/" rel="alternate" type="text/html" /><updated>2025-03-29T16:14:01+00:00</updated><id>https://www.motionsplan.dk/feed.xml</id><title type="html">Motionsplan</title><subtitle>Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.</subtitle><author><name>Motionsplan</name></author><entry><title type="html">Bænkpresmekanik: En model for kraft, moment og bevægelse</title><link href="https://www.motionsplan.dk/baenkpres-biomekanik/" rel="alternate" type="text/html" title="Bænkpresmekanik: En model for kraft, moment og bevægelse" /><published>2025-03-26T00:00:00+00:00</published><updated>2025-03-28T19:14:14+00:00</updated><id>https://www.motionsplan.dk/bench-mechanics</id><content type="html" xml:base="https://www.motionsplan.dk/baenkpres-biomekanik/"><![CDATA[<p>Bænkpres er en af de mest analyserede styrkeløftsøvelser, hvor biomekanik spiller en afgørende rolle for præstationsevnen. Her kan du se dig selv som en tændstikmand, så du kan få et indblik i, hvordan bænkpres med dine kropsproportioner og teknikvalg ser ud.</p>
+
+<p>I modellen baseret på <a href="https://www.mysquatmechanics.com/bench/">My Squat Mechanics</a> tages der højde for dine kropsmål, så du kan se bevægelsesbanen, ledvinkler og stangbanen.</p>
+
+<h2 id="model-for-bænkpres">Model for bænkpres</h2>
+
+<!-- Plotly.js -->
+<script async="" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<!-- Other awesome scripts -->
+<script async="" src="/assets/js/mysquatmechanics/bench/themodel.js"></script>
+
+<script async="" src="/assets/js/mysquatmechanics/bench/somefunctions.js"></script>
+
+<script async="" src="/assets/js/mysquatmechanics/bench/BarPathBridges.js"></script>
+
+<script async="" src="/assets/js/mysquatmechanics/bench/BarPathKazmaier.js"></script>
+
+<fieldset class="mechanics-model">
+    <div class="two-columns">
+        <div class="column">
+            <fieldset>
+                <legend>📏 Målinger</legend>
+                <div class="form-group">
+                    <label><b>Upper Arm</b></label>
+                    <input type="range" id="upperarmslider" min="10" max="50" value="30" step="1" oninput="update(this.value)" />
+                    <span id="upperarmvalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label><b>Forearm</b></label>
+                    <input type="range" id="forearmslider" min="10" max="50" value="33" step="1" oninput="update(this.value)" />
+                    <span id="forearmvalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label><b>Shoulder Width</b></label>
+                    <input type="range" id="shoulderslider" min="20" max="100" value="46" step="1" oninput="update(this.value)" />
+                    <span id="shouldervalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label><b>Grip Width</b></label>
+                    <input type="range" id="gripslider" min="0" max="131" value="76" step="1" oninput="update(this.value)" />
+                    <span id="gripvalue"> </span>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>📏 Albuer</legend>
+                <div class="row">
+                    <label class="checkbox form-inline"><input type="checkbox" id="checklock" onchange="update(this.value)" checked="unchecked" /><b> Lock
+                            Elbows</b></label>
+                </div>
+
+                <div class="form-group" id="elbow-flare">
+                    <label><b>Elbow Flare</b></label>
+                    <input type="range" id="flareslider" min="0" max="60" value="30" step="1" oninput="update(this.value)" />
+                    <span id="flarevalue"> </span>
+                </div>
+            </fieldset>
+
+        </div>
+        <div class="column">
+
+            <fieldset>
+                <legend>❤️ Brystet</legend>
+
+                <div class="form-group">
+                    <label>
+                        <b>Bar Chest Position Height</b>
+                    </label>
+                    <input type="range" id="heightslider" min="0" max="20" value="15" step="1" oninput="update(this.value)" />
+                    <span id="heightvalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <b>Forward Travel</b>
+                    </label>
+                    <input type="range" id="travelslider" min="0" max="50" value="15" step="1" oninput="update(this.value)" />
+                    <span id="travelvalue"> </span>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>📈 Bar Path</legend>
+                <div class="row">
+                    <label class="radio form-inline"><input type="radio" name="barpathradio" id="checkstraight" onclick="update(this.value)" checked="checked" /> Straight</label>
+                    <label class="radio form-inline"><input type="radio" name="barpathradio" id="checkBridges" onclick="update(this.value)" />
+                        Bridges</label>
+                    <label class="radio form-inline"><input type="radio" name="barpathradio" id="checkKazmaier" onclick="update(this.value)" />
+                        Kazmaier</label>
+                </div>
+
+            </fieldset>
+        </div>
+        </div>
+        <fieldset>
+            <div class="form-group">
+                <label><b>Bænkpres position</b></label>
+                <div class="slider-container">
+                    <span class="label-left">🧍‍♂️ Oppe</span>
+                    <input type="range" id="positionslider" min="0" max="99" value="0" step="1" oninput="update(this.value)" />
+                    <span class="label-right">🧎‍♂️ Nede</span>
+                </div>
+            </div>
+        </fieldset>
+    
+</fieldset>
+
+<div class="models">
+    <div class="model" id="model2"></div>
+    <div class="model" id="model"></div>
+</div>
+<div class="models">
+    <div class="model" id="model3"></div>
+    <div class="model"></div>
+</div>
+<div class="models">
+    <div class="graph" id="stats"></div>
+</div>
+
+<hr />
+
+<h2 id="lås-albuen-vs-elbow-flare">Lås albuen vs Elbow Flare</h2>
+
+<p>Modellen har mulighed for at sætte elbow flare (vinklen mellem kroppen og albuerne) eller låse albue-tilt til 0 grader (albuerne kan ikke bevæge sig fremad eller bagud i forhold til stangen).</p>
+
+<p>Desværre har albuepositionen en variabel for meget til at blive modelleret præcist. Hvis du lader <i>lock</i>-muligheden være ulåst, kan du justere albue-flare. Dog laver modellen nogle sjove ting, når vinklen kommer over ca. 60 grader.</p>
+
+<p>At låse albuepositionen, så albuerne ikke kan bevæge sig foran eller bag stangen, gør det muligt at bestemme albuepositionen mere præcist. Dette eliminerer også muligheden for at vælge flare-vinklen.</p>
+
+<p>Leg med begge muligheder og se, hvad der fungerer bedst for dig.</p>
+
+<h2 id="bar-path">Bar Path</h2>
+
+<p>Har du nogensinde ønsket at se, om ændring af din stangbane for at efterligne en af de store løftere ville hjælpe?</p>
+
+<p>Nu kan du det.</p>
+
+<p>Kryds af for <i>Bridges</i> eller <i>Kazmaier</i> og se, hvordan dine momenter ændrer sig.</p>
+
+<p>Gør det det lettere eller sværere?</p>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Hvis du godt kan lide fysik og biomekanik, så tjek vores andre <a href="/biomekanik/">sektion om biomekanik</a>.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-my-squat-mechanics">Hvad er My Squat Mechanics?</h3></summary>
+<p>Modellen er baseret på <a href="https://www.mysquatmechanics.com/bench/">My Squat Mechanics</a> og bliver brugt her efter aftale med den oprindelige forfatter.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er My Squat Mechanics?","acceptedAnswer":{"@type":"Answer","text":"Modellen er baseret på <a href='https://www.mysquatmechanics.com/bench/'>My Squat Mechanics</a> og bliver brugt her efter aftale med den oprindelige forfatter.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="http://strengtheory.com/how-to-bench/">How to Bench: The Definitive Guide</a> by Greg Nuckols 04/19/2016</li>
+    <li><a href="https://www.t-nation.com/training/4-bench-press-lies/">4 Bench Press Lies</a> by Tony Bonvechio 08/27/2014</li>
+    <li><a href="https://etda.libraries.psu.edu/catalog/8894">A biomechanical anlysis of the bench press</a> by Duffey, Michael J 08/21/2008</li>
+  </ul>
+
+</details>]]></content><author><name>Jye Schmidt</name></author><category term="[&quot;Styrketræning&quot;]" /><category term="anatomi" /><category term="styrketræning" /><summary type="html"><![CDATA[Forstå bænkpres fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og få indsigt i, hvordan teknik og antropometri påvirker løftet.]]></summary></entry><entry><title type="html">Dødløftmekanik: En model for kraft, moment og bevægelse</title><link href="https://www.motionsplan.dk/doedloeft-biomekanik/" rel="alternate" type="text/html" title="Dødløftmekanik: En model for kraft, moment og bevægelse" /><published>2025-03-26T00:00:00+00:00</published><updated>2025-03-28T19:14:14+00:00</updated><id>https://www.motionsplan.dk/deadlift-mechanics</id><content type="html" xml:base="https://www.motionsplan.dk/doedloeft-biomekanik/"><![CDATA[<p>Dødløft er en fundamental styrkeøvelse, hvor biomekanik har stor betydning for din præstation.</p>
+
+<p>Denne model baseret på <a href="https://www.mysquatmechanics.com/deadlift/">My Squat Mechanics</a> undersøger, hvordan kraft, moment og bevægelsesmønstre interagerer under løftet.</p>
+
+<p>Du kan justere tændstikmanden til at have dine proportioner. Så kan du se en figur af dig selv løfte en tung vægt og se, hvordan hofte- og knævinkler, stangbanen og muskelaktiveringen ændrer sig i løbet af løftet</p>
+
+<p>Der er altid individuelle forskelle i anatomi og teknik som kan påvirke, hvordan du skal gribe dit dødløft an.</p>
+
+<h2 id="model-for-dødløft">Model for dødløft</h2>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<fieldset class="mechanics-model">
+    <legend>Dødløft modellen</legend>
+    <div class="two-columns">
+        <div class="column">
+            <fieldset>
+                <legend>📏 Målinger</legend>
+                <div class="form-group">
+                    <label><b>Foot</b></label>
+                    <input type="range" id="footslider" min="5" max="40" value="20" step="1" oninput="update(this.value)" />
+                    <span id="footvalue">25 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Tibia</b></label>
+                    <input type="range" id="tibiaslider" min="10" max="80" value="50" step="1" oninput="update(this.value)" />
+                    <span id="tibiavalue">50 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Femur</b></label>
+                    <input type="range" id="femurslider" min="10" max="80" value="50" step="1" oninput="update(this.value)" />
+                    <span id="femurvalue">50 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Torso</b></label>
+                    <input type="range" id="torsoslider" min="10" max="120" value="55" step="1" oninput="update(this.value)" />
+                    <span id="torsovalue">55 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Arm</b></label>
+                    <input type="range" id="armslider" min="10" max="120" value="55" step="1" oninput="update(this.value)" />
+                    <span id="armvalue">55 cm</span>
+                </div>
+            </fieldset>
+        </div>
+        <div class="column">
+            <fieldset>
+                <legend>📐 Vinkler</legend>
+                <div class="form-group">
+                    <label>
+                        <b>Max Ankle Flexion</b>
+                    </label>
+                    <input type="range" id="ankleflexiontslider" min="0" max="30" value="4" step="1" oninput="update(this.value)" />
+                    <span id="ankleflexionvalue">10°</span>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <details>
+                    <summary>🛠️ Avanceret</summary>
+                    <div class="form-group">
+                        <label>
+                            <b>Plate Diameter</b>
+                        </label>
+                        <input id="plateslider" min="0" max="200" value="45" step="1" oninput="update(this.value)" type="range" />
+                        <span id="platevalue">45 cm</span>
+                    </div>
+                </details>
+            </fieldset>
+        </div>
+    </div>
+    <fieldset>
+        <div class="form-group">
+            <label><b>Dødløft position</b></label>
+            <div class="slider-container">
+                <span class="label-left">🧍‍♂️ Oppe</span>
+                <input type="range" id="positionslider" min="0" max="99" value="99" step="1" oninput="update(this.value)" />
+                <span class="label-right">🧎‍♂️ Nede</span>
+            </div>
+        </div>
+    </fieldset>
+</fieldset>
+
+<div class="models">
+    <div class="model" id="model"></div>
+    <div class="model"></div>
+</div>
+<div class="models">
+    <div class="graph" id="stats"></div>
+</div>
+
+<script type="text/javascript">
+    function update(newValue) {
+
+        var foot = document.getElementById("footslider").value;
+        var tibia = document.getElementById("tibiaslider").value;
+        var femur = document.getElementById("femurslider").value;
+        var torso = document.getElementById("torsoslider").value;
+        var arm = document.getElementById("armslider").value;
+        var ankleflexion = document.getElementById("ankleflexiontslider").value;
+        var position = document.getElementById("positionslider").value;
+        var plated = document.getElementById("plateslider").value;
+        //var plate = 22.5;
+
+        var plate = plated / 2.0;
+
+        document.getElementById("footvalue").innerHTML = foot.concat(" cm");
+        document.getElementById("tibiavalue").innerHTML = tibia.concat(" cm");
+        document.getElementById("femurvalue").innerHTML = femur.concat(" cm");
+        document.getElementById("torsovalue").innerHTML = torso.concat(" cm");
+        document.getElementById("armvalue").innerHTML = arm.concat(" cm");
+        document.getElementById("platevalue").innerHTML = plated.concat(" cm");
+        document.getElementById("ankleflexionvalue").innerHTML = ankleflexion.concat("°");
+
+        var maxankleflexion = Math.atan((foot / 2) / plate) * 180 / Math.PI;
+        if (ankleflexion > maxankleflexion) {
+            ankleflexion = maxankleflexion;
+        }
+        var anklezero = Math.asin((foot / 2) / (Number(tibia) + Number(femur) + Number(torso))) * 180 / Math.PI;
+        var ankleinc = (ankleflexion - anklezero) / 99;
+
+        var shoulderstart = Math.sqrt(Math.pow(Number(tibia) + Number(femur) + Number(torso), 2) - Math.pow(foot / 2, 2));
+        var barinc = (shoulderstart - arm - plate) / 99;
+
+        var shoulderforwardinc = 0.1 * torso / 99;
+
+        var toexy = [foot / 2, 0];
+        var heelxy = [-foot / 2, 0];
+        var anklexy = [-foot / 4, 0.16 * tibia];
+
+        var anklecurrent = new Array();
+        var kneecurrent = new Array();
+        var kneex = new Array();
+        var kneey = new Array();
+        var hipx = new Array();
+        var hipy = new Array();
+        var shoulderx = new Array();
+        var shouldery = new Array();
+        var handy = new Array();
+        var kneemoment = new Array();
+        var hipmoment = new Array();
+        var summedmoment = new Array();
+        var backangle = new Array();
+        var hipangle = new Array();
+        var kneeangle = new Array();
+        var tlen = new Array();
+        var flen = new Array();
+
+        for (i = 0; i < 100; i++) {
+
+            //linear ankle breaking model.
+            //anklecurrent[i] = anklezero + i * ankleinc;
+            //Exp ankle breaking model.  Get those knees out of the way and shins vertical.
+            anklecurrent[i] = anklezero + ankleinc * i * i * i / (99 * 99);
+
+            shoulderx[i] = i * shoulderforwardinc;
+            shouldery[i] = shoulderstart - i * barinc;
+            handy[i] = shouldery[i] - arm;
+
+            kneex[i] = tibia * Math.sin(anklecurrent[i] * Math.PI / 180) - (foot / 2);
+            kneey[i] = tibia * Math.cos(anklecurrent[i] * Math.PI / 180);
+
+            hipy[i] = shouldery[i] + Number(torso);
+            do {
+                hipy[i] -= 0.1;
+                //hipx[i] = - Math.sqrt(torso*torso - Math.pow(shouldery[i] - hipy[i],2));
+                hipx[i] = shoulderx[i] - Math.sqrt(torso * torso - Math.pow(shouldery[i] - hipy[i], 2));
+                flen[i] = Math.sqrt(Math.pow(kneex[i] - hipx[i], 2) + Math.pow(hipy[i] - kneey[i], 2));
+                if (hipy[i] == 0) {
+                    die();
+                }
+            }
+            while (flen[i].toFixed(0) != femur);
+
+            if (i == 0) {
+                hipx[i] = kneex[i] + Math.sin(anklezero * Math.PI / 180) * femur;
+                hipy[i] = kneey[i] + Math.cos(anklezero * Math.PI / 180) * femur;
+            }
+
+            flen[i] = Math.sqrt(Math.pow(kneex[i] - hipx[i], 2) + Math.pow(hipy[i] - kneey[i], 2));
+            tlen[i] = Math.sqrt(Math.pow(hipx[i], 2) + Math.pow(shouldery[i] - hipy[i], 2));
+
+            kneemoment[i] = Math.abs(kneex[i]);
+            hipmoment[i] = Math.abs(hipx[i]);
+            summedmoment[i] = Math.abs(kneex[i]) + Math.abs(hipx[i]);
+
+            backangle[i] = (180 / Math.PI) * (Math.atan((shouldery[i] - hipy[i]) / (shoulderx[i] - hipx[i])));
+
+            shoulderkneedistance = Math.sqrt(Math.pow(kneex[i], 2) + Math.pow((shouldery[i] - kneey[i]), 2));
+            hipangle[i] = (180 / Math.PI) * (Math.acos((Math.pow(shoulderkneedistance, 2) - Math.pow(femur, 2) - Math.pow(torso, 2)) / (-2 * femur * torso)));
+
+            hipsankledistance = Math.sqrt(Math.pow(hipy[i], 2) + Math.pow((hipx[i] - anklexy[0]), 2));
+            kneeangle[i] = (180 / Math.PI) * (Math.acos((Math.pow(hipsankledistance, 2) - Math.pow(tibia, 2) - Math.pow(femur, 2)) / (-2 * tibia * femur)));
+
+        }
+
+        //-----------------------
+        // plot neck and head
+        //-----------------------
+        neckx = shoulderx[position] + 10 * Math.cos((Math.PI / 180) * (backangle[position]));
+        necky = shouldery[position] + 10 * Math.sin((Math.PI / 180) * (backangle[position]));
+        centerheadx = shoulderx[position] + 20 * Math.cos((Math.PI / 180) * (backangle[position]));
+        centerheady = shouldery[position] + 20 * Math.sin((Math.PI / 180) * (backangle[position]));
+
+        steps = 32;
+        radius = 10;
+        var headx = new Array();
+        var heady = new Array();
+        for (i = 0; i < steps; ++i) {
+            a = 2 * Math.PI / steps * i;
+            headx[i] = radius * Math.cos(a) + centerheadx;
+            heady[i] = radius * Math.sin(a) + centerheady;
+        }
+
+        headx[steps] = headx[0];
+        heady[steps] = heady[0];
+
+        var plothead = {
+            x: headx,
+            y: heady,
+            type: 'scatter',
+            mode: 'lines',
+            line: {
+                color: 'red',
+                width: 2
+            },
+            name: ''
+        };
+
+        //-----------------------
+        // plot bar
+        //-----------------------
+        steps = 32;
+        radius = plate;
+        var weightx = new Array();
+        var weighty = new Array();
+        for (i = 0; i < steps; ++i) {
+            a = 2 * Math.PI / steps * i;
+            weightx[i] = radius * Math.cos(a);
+            weighty[i] = radius * Math.sin(a) + handy[position];
+        }
+        weightx[steps] = weightx[0];
+        weighty[steps] = weighty[0];
+
+        var plotbar = {
+            x: weightx,
+            y: weighty,
+            type: 'scatter',
+            mode: 'lines',
+            line: {
+                color: 'blue',
+                width: 2
+            },
+            name: ''
+        };
+
+        //-----------------------
+        // plot body
+        //-----------------------
+        var plotbody = {
+            x: new Array(anklexy[0], toexy[0], heelxy[0], anklexy[0], kneex[position], hipx[position], neckx, shoulderx[position], 0),
+            y: new Array(anklexy[1], toexy[1], heelxy[1], anklexy[1], kneey[position], hipy[position], necky, shouldery[position], handy[position]),
+            type: 'scatter',
+            mode: 'lines+markers',
+            line: {
+                color: 'red',
+                width: 2
+            },
+            name: ''
+        };
+
+        var data = [plothead, plotbody, plotbar];
+
+        var aspectRatio = 0.8; // Adjust as needed (e.g., 16/9, 4/3, etc.)
+        var container = document.getElementById('model');
+        var width = container.clientWidth; // Get dynamic width
+        var height = width / aspectRatio; // Maintain aspect ratio
+
+        var layout = {
+            title: 'Deadlift Model',
+            xaxis: {
+                range: [-50, 50],
+                autorange: false
+            },
+            yaxis: {
+                range: [0, 200],
+                autorange: false
+            },
+            showlegend: false,
+            autosize: true,
+            height: height,
+            width: width
+        };
+
+        Plotly.newPlot('model', data, layout, { responsive: true });
+
+        //-----------------------
+        // plot stats
+        //----------------------
+
+        var data = [
+            { y: kneemoment, x: handy, type: 'scatter', name: 'Knee moment', line: { dash: 'dot' } },
+            { y: hipmoment, x: handy, type: 'scatter', name: 'Hip moment', line: { dash: 'dot' } },
+            { y: summedmoment, x: handy, type: 'scatter', name: 'Summed moment', line: { dash: 'dot' } },
+            { y: backangle, x: handy, type: 'scatter', name: 'Back angle', yaxis: 'y2' },
+            { y: hipangle, x: handy, type: 'scatter', name: 'Hip angle', yaxis: 'y2' },
+            { y: kneeangle, x: handy, type: 'scatter', name: 'Knee angle', yaxis: 'y2' },
+            { y: anklecurrent, x: handy, type: 'scatter', name: 'Ankle angle', yaxis: 'y2' },
+            { y: new Array(0, 180), x: new Array(handy[position], handy[position]), type: 'scatter', name: 'Current Position', yaxis: 'y2' }
+        ];
+
+
+
+        var layout = {
+            title: 'Deadlift Stats',
+            xaxis: {
+                range: [handy[0] + 5, handy[99] - 5],
+                autorange: false,
+                title: 'Bar Height (cm)'
+            },
+            yaxis: {
+                range: [0, 100],
+                autorange: false,
+                showgrid: false,
+                zeroline: false,
+                showline: false,
+                showticklabels: false,
+                title: 'Moment'
+            },
+            yaxis2: {
+                range: [0, 190],
+                autorange: false,
+                overlaying: 'y',
+                title: 'Angle',
+                side: 'right'
+            },
+            legend: {
+                xanchor: "left",
+                yanchor: "top",
+                y: 1.1,
+                x: 1.15,
+                font: {
+                    size: 8
+                }
+            }
+        };
+
+        Plotly.newPlot('stats', data, layout);
+
+    }
+    window.addEventListener("load", update);
+</script>
+
+<hr />
+
+<h2 id="om-dødløft-modellen">Om dødløft modellen</h2>
+
+<p>Tændstikmanden viser kroppens længder af de udvalgte dele med de tidligere valgte slidere og den aktuelt valgte dødløft-position.</p>
+
+<p>Dødløft-positionen er baseret på, at anklen bevæger sig gennem en stor vinkel tidligt i løftet og langsommere i den sidste halvdel. Dette er for at få knæene ud af vejen og skinnebenene lodrette tidligt i løftet.</p>
+
+<p><strong>Eller indstil ankel-vinkel-slideren på et punkt, hvor ankelvinklen forbliver flad og konstant i grafen for at holde skinnebenene lodrette og knæene stationære gennem hele løftet.</strong></p>
+
+<h2 id="grafen">Grafen</h2>
+
+<p>Grafen viser momentet af hofter og knæ sammen med vinklen af ryggen, hofterne og knæene gennem alle positioner i dødløftet. Fra squat-positionen til stående position. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at glide position-slideren ovenfor.</p>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Hvis du godt kan lide fysik og biomekanik, så tjek vores andre <a href="/biomekanik/">indlæg om biomekanik</a>.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-my-squat-mechanics">Hvad er My Squat Mechanics?</h3></summary>
+<p>Modellen er baseret på <a href="https://www.mysquatmechanics.com/bench/">My Squat Mechanics</a> og bliver brugt her efter aftale med den oprindelige forfatter.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er My Squat Mechanics?","acceptedAnswer":{"@type":"Answer","text":"Modellen er baseret på <a href='https://www.mysquatmechanics.com/bench/'>My Squat Mechanics</a> og bliver brugt her efter aftale med den oprindelige forfatter.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="https://www.t-nation.com/training/deconstructing-the-deadlift"><strong>Deconstructing the Deadlift - A Deep Analysis of Proper Deadlift Mechanics</strong></a> by Mark Rippetoe (06/29/2015)</li>
+    <li><a href="http://www.strengtheory.com/everything-you-think-is-wrong-with-your-deadlift/"><strong>Everything You Think Is Wrong With Your Deadlift Is Probably Right</strong></a> by Greg Nuckols (10/24/2014)</li>
+    <li><a href="https://www.youtube.com/watch?v=WaNb5HDniYE"><strong>Deadlift Set-up and Body Shape</strong></a> by Alan Thrall (05/25/2015)</li>
+  </ul>
+
+</details>]]></content><author><name>Jye Schmidt</name></author><category term="[&quot;Styrketræning&quot;]" /><category term="anatomi" /><category term="styrketræning" /><summary type="html"><![CDATA[Forstå dødløft fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og se, hvordan teknik og antropometri påvirker løftet.]]></summary></entry><entry><title type="html">Squatmekanik: En biomekanisk model for squat</title><link href="https://www.motionsplan.dk/squat-biomekanik/" rel="alternate" type="text/html" title="Squatmekanik: En biomekanisk model for squat" /><published>2025-03-26T00:00:00+00:00</published><updated>2025-03-28T19:14:14+00:00</updated><id>https://www.motionsplan.dk/squat-mechanics</id><content type="html" xml:base="https://www.motionsplan.dk/squat-biomekanik/"><![CDATA[<p>Squat er en teknisk krævende styrkeøvelse, hvor biomekanik spiller en afgørende rolle for både præstation og bevægelsesmønsteret.</p>
+
+<p>Du kan se dig selv som en tændstikmand i en model baseret på <a href="https://www.mysquatmechanics.com/">My Squat Mechanics</a>. Du kan indstille modellen til dine egne kropsmål, så du får et bud på, hvordan din egen squat ser ud med dine kropsmål og dine teknikvalg.</p>
+
+<p>Se stangens bane, når du sammenligner fx highbar og low bar, forskellige vinkler i din stand og forskellig vægt på stangen.</p>
+
+<h2 id="om-modellen">Om modellen</h2>
+
+<p>De nedenstående skydeknapper giver dig mulighed for at indtaste dine egne kropsmål og identificere områder såsom dine squat-vinkler, potentielle teknikfejl og hvor din sticking point er placeret. Brug dem til at se, hvordan momentet ændrer sig for din krop, når du varierer stangpositionen fra low bar til high bar… eller leg bare med skydeknapperne og få sjove figurer til at squatte.</p>
+
+<p><strong>Husk blot, at dette er en model! De viste resultater er korrekte for modellen, men passer muligvis ikke præcist til dig.</strong></p>
+
+<h2 id="model-for-squat">Model for squat</h2>
+
+<!-- Plotly.js -->
+<script async="" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<fieldset class="mechanics-model">
+    <legend>Squat modellen</legend>
+<div class="two-columns">
+    <div class="column">
+        <fieldset>
+            <legend>📐 Målinger</legend>
+        <div class="form-group">
+            <label><b>Foot</b></label>
+            <input type="range" id="footslider" min="5" max="40" value="20" step="1" oninput="update(this.value)" />
+            <span id="footvalue">25 cm</span>
+        </div>
+        <div class="form-group">
+            <label><b>Tibia</b></label>
+                <input type="range" id="tibiaslider" min="10" max="80" value="50" step="1" oninput="update(this.value)" />
+            <span id="tibiavalue">50 cm</span>
+        </div>
+        <div class="form-group">
+            <label><b>Femur</b></label>
+            <input type="range" id="femurslider" min="10" max="80" value="50" step="1" oninput="update(this.value)" />
+            <span id="femurvalue">50 cm</span>
+        </div>
+        <div class="form-group">
+            <label><b>Torso</b></label>
+                <input type="range" id="torsoslider" min="30" max="120" value="55" step="1" oninput="update(this.value)" />
+            <span id="torsovalue">55 cm</span>
+        </div>
+        <div class="form-group">
+            <label><b>Max Ankle Flexion</b></label>
+            <input type="range" id="ankleflexiontslider" min="0" max="60" value="30" step="1" oninput="update(this.value)" />
+            <span id="ankleflexionvalue">30°</span>
+        </div>
+    </fieldset>
+        <fieldset>
+            <details>
+                <summary>🛠️ Avanceret</summary>
+            <div class="row checkbox">
+                <label class="form-inline"><input type="checkbox" id="checkmodel" onchange="update(this.value)" checked="checked" />Show model</label>
+                <label class="form-inline"><input type="checkbox" id="checkstats" onchange="update(this.value)" />Show moment and angles</label>
+                <label class="form-inline"><input type="checkbox" id="checkmoment" onchange="update(this.value)" />Show moment breakdown</label>
+                <label class="form-inline"><input type="checkbox" id="checkmuscle" onchange="update(this.value)" />Show muscle lengths</label>
+            </div>
+            </details>
+        </fieldset>
+
+    </div>
+    <div class="column">
+        <fieldset>
+            <legend>⚖️ Weight</legend>
+        <div class="form-group">
+            <label><b>Bar Weight</b></label>
+            <input type="range" id="barweightslider" min="20" max="500" value="100" step="5" oninput="update(this.value)" />
+            <span id="barweightvalue">100 kg</span>
+        </div>
+
+        <div class="form-group">
+            <label><b>Body Weight</b></label>
+            <input type="range" id="weightslider" min="30" max="300" value="75" step="1" oninput="update(this.value)" />
+            <span id="weightvalue">75 kg</span>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>🏋️ Squat style</legend>
+        <div class="form-group">
+            <label><b>High -&gt; Low Bar</b></label>
+            <input type="range" id="highlowslider" min="0" max="30" value="0" step="1" oninput="update(this.value)" />
+            <span id="highlowslidervalue">0 cm</span>
+        </div>
+        <div class="form-group">
+            <label><b>Depth</b></label>
+            <input type="range" id="depthslider" min="-50" max="50" value="0" step="1" oninput="update(this.value)" />
+            
+            <span id="depthvalue">0°</span>
+            
+        </div>
+        <div class="form-group">
+            <label><b>Stance Angle</b></label>
+            <input type="range" id="stanceslider" min="0" max="89" value="20" step="1" oninput="update(this.value)" />
+            <span id="stancevalue">20°</span>
+        </div>
+        </fieldset>
+    </div>
+</div>
+
+<fieldset>
+    <div class="form-group">
+        <label><b>Squat Position</b></label>
+        <div class="slider-container">
+            <span class="label-left">🧍‍♂️ Standing</span>
+            <input type="range" id="positionslider" min="0" max="99" value="0" step="1" oninput="update(this.value)" />
+            <span class="label-right">🧎‍♂️ Squatting</span>
+        </div>
+    </div>
+</fieldset>
+
+</fieldset>
+
+<div class="models">
+    <div class="model" style="height: 450px; width: 550px; max-width: 550px;" id="model"></div>
+    <div class="model" style="height: 450px; width: 550px; max-width: 550px;" id="model2"></div>
+</div>
+
+<div class="row">
+    <div class="graph" id="stats"></div>
+</div>
+<div class="row">
+    <div class="graph" id="stats2"></div>
+</div>
+<div class="row">
+    <div class="graph" id="m1"></div>
+    <div class="graph" id="m2"></div>
+</div>
+
+<script type="text/javascript">
+    function update(newValue) {
+
+        // If you have made it this far and intend to sort through the code below, please email me any errors you find so it can be updated. 
+        // contact@mysquatmechanics.com
+
+        var stanceangle = Number(document.getElementById("stanceslider").value);
+        var stance = Math.cos(stanceangle * Math.PI / 180);
+
+        var footoriginal = document.getElementById("footslider").value;
+        var foot = stance * document.getElementById("footslider").value;
+        var tibia = document.getElementById("tibiaslider").value;
+        var femur = document.getElementById("femurslider").value;
+        var torso = document.getElementById("torsoslider").value;
+        var highlow = document.getElementById("highlowslider").value;
+        var weight = document.getElementById("weightslider").value;
+        var barweight = document.getElementById("barweightslider").value;
+        // Body segments based on torso and tibia input lengths
+        // Biomechanics and Motor Control of Human Movement p.83 Fig 4.1
+        var necklength = 0.18 * torso;
+        var headdiam = 0.23 * torso;
+        var hipwidth = 0.66 * torso / 2;
+        var ankleflexion = document.getElementById("ankleflexiontslider").value;
+        var depth = document.getElementById("depthslider").value;
+        var position = document.getElementById("positionslider").value;
+        var plate = 22.5;
+
+        document.getElementById("footvalue").innerHTML = footoriginal.concat(" cm");
+        document.getElementById("tibiavalue").innerHTML = tibia.concat(" cm");
+        document.getElementById("femurvalue").innerHTML = femur.concat(" cm");
+        document.getElementById("torsovalue").innerHTML = torso.concat(" cm");
+        document.getElementById("highlowslidervalue").innerHTML = highlow.concat(" cm");
+
+        document.getElementById("weightvalue").innerHTML = weight.concat(" kg");
+        document.getElementById("barweightvalue").innerHTML = barweight.concat(" kg");
+        document.getElementById("stancevalue").innerHTML = document.getElementById("stanceslider").value.concat("°");
+        document.getElementById("ankleflexionvalue").innerHTML = ankleflexion.concat("°");
+        document.getElementById("depthvalue").innerHTML = depth.concat("°");
+
+        var anklezero = Math.asin((Number(foot) / 4) / (Number(tibia) + Number(femur) + Number(torso))) * 180 / Math.PI;
+        var ankleinc = (ankleflexion - anklezero) / 99;
+
+        var kneezero = 90 + anklezero; // Zero angle is from 3 oclock and rotating clockwise
+        var kneeinc = (kneezero - depth) / 99;
+
+        var toexyz = [foot / 2, 0.2, 0];
+        var heelxyz = [-foot / 2, 0.2, 0];
+        var anklexyz = [-foot / 4, 0.16 * tibia, 0]; // Biomechanics and Motor Control of Human Movement p.83 Fig 4.1
+
+        // Segment weight and CoG
+        // http://www.exrx.net/Kinesiology/Segments.html
+        // de Leva, 1996
+        // Average Percentages of Total Body Weight
+        var WeightHeadNeck = 0.0681 * Number(weight);
+        var WeightTrunk = 0.4302 * Number(weight);
+        var WeightThigh = 2 * 0.1447 * Number(weight);
+        var WeightShank = 2 * 0.0457 * Number(weight);
+        var WeightArm = 2 * (0.0263 + 0.015 + 0.00585) * Number(weight);
+
+        // Adding arm weight to bar location
+        barweight = Number(barweight) + WeightArm;
+
+        // % Segment Length (from proximal ends)
+        var CoGHeadNeck = 0.4922;
+        var CoGTrunk = 0.4046;
+        var CoGThigh = 0.3854;
+        var CoGShank = 0.4374;
+        var totalmoment = 1; // Initialising value for later moment loop calcs.
+
+        var positionarray = new Array();
+        var anklecurrent = new Array();
+        var kneecurrent = new Array();
+        var kneex = new Array();
+        var kneey = new Array();
+        var kneez = new Array();
+        var hipx = new Array();
+        var hipy = new Array();
+        var barx = new Array();
+        var bary = new Array();
+        var neckx = new Array();
+        var necky = new Array();
+        var kneemoment = new Array();
+        var abskneemoment = new Array();
+        var kneemomenthn = new Array();
+        var kneemomentb = new Array();
+        var kneemomentt = new Array();
+        var kneemomentf = new Array();
+        var hipmoment = new Array();
+        var hipmomenthn = new Array();
+        var hipmomentb = new Array();
+        var hipmomentt = new Array();
+        var summedmoment = new Array();
+        var backangle = new Array();
+        var hipangle = new Array();
+        var kneeangle = new Array();
+        var tolen = new Array();
+        var flen = new Array();
+        var tlen = new Array();
+        var ha = new Array();
+
+        // A method for determining lower extremity muscle-tendon lengths during flexion/extension movements
+        // Hawkins D, Hull ML.
+        // https://www.researchgate.net/profile/Maury_Hull/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements/links/0deec5296a6dbe683f000000.pdf
+        // https://www.researchgate.net/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements
+        // http://www.ncbi.nlm.nih.gov/pubmed/2373721
+
+        // Angles convention changed for muscle length equations.
+        var AAngle = new Array();
+        var KAngle = new Array();
+        var HAngle = new Array();
+        // Muscle arrays
+        var Iliopsoas = new Array();
+        var TFL = new Array();
+        var BicepsFemorisLongHead = new Array();
+        var Semimembranosus = new Array();
+        var Semitendinosus = new Array();
+        var RectusFemoris = new Array();
+        var Sartorius = new Array();
+        var Gracilis = new Array();
+        var BicepsFemorisShortHead = new Array();
+        var VastusIntermedius = new Array();
+        var VastusLateralis = new Array();
+        var VastusMedialis = new Array();
+        var MedialGastroc = new Array();
+        var LateralGastroc = new Array();
+        var TibialisAnterior = new Array();
+        var Soleus = new Array();
+
+        for (i = 0; i < 100; i++) {
+            positionarray[i] = i;
+
+            // linear ankle breaking model.
+            //anklecurrent[i] = anklezero + i * ankleinc;
+            // LN ankle breaking model. I made this equation up to make the knee break faster early in the squat.
+            // If you have a good reference on how the knee actually breaks please foward it to contact@mysquatmechanics.com
+            anklecurrent[i] = anklezero + (99 / Math.log(1 + 99 / 10)) * Math.log(1 + i / 10) * ankleinc;
+
+            kneecurrent[i] = kneezero - i * kneeinc;
+            kneex[i] = stance * tibia * Math.sin(anklecurrent[i] * Math.PI / 180) + anklexyz[0];
+            kneey[i] = tibia * Math.cos(anklecurrent[i] * Math.PI / 180) + anklexyz[1];
+
+            hipx[i] = kneex[i] - stance * femur * Math.cos(kneecurrent[i] * Math.PI / 180);
+            hipy[i] = kneey[i] + femur * Math.sin(kneecurrent[i] * Math.PI / 180);
+            if (stance == 1) {
+                kneez[i] = 0;
+            } else {
+                kneez[i] = Math.sqrt(Math.pow(femur, 2) - Math.pow(kneex[i] - hipx[i], 2) - Math.pow(hipy[i] - kneey[i], 2));
+            }
+
+            // CoG calcs //////////////////////////////////////////////////////////////////
+            // Looping because it was easier to use brute force than to solve the below equations :)
+            barx[i] = -1;
+            do {
+                barx[i] += 0.1;
+                bary[i] = hipy[i] + Math.sqrt(Math.pow(torso - highlow, 2) - Math.pow(barx[i] - hipx[i], 2)); //
+                backangle[i] = (180 / Math.PI) * (Math.atan((bary[i] - hipy[i]) / (barx[i] - hipx[i])));
+
+                neckx[i] = barx[i] + highlow * Math.cos(backangle[i] * (Math.PI / 180)); //
+                necky[i] = bary[i] + highlow * Math.sin(backangle[i] * (Math.PI / 180)); //
+
+                totalmoment = barx[i] * barweight +
+                    (neckx[i] + CoGHeadNeck * Math.cos(backangle[i] * Math.PI / 180) * (necklength + headdiam / 2)) * WeightHeadNeck + //
+                    (neckx[i] - CoGTrunk * (neckx[i] - hipx[i])) * WeightTrunk + //
+                    (hipx[i] + CoGThigh * (kneex[i] - hipx[i])) * WeightThigh +
+                    (kneex[i] - CoGShank * (kneex[i] - anklexyz[0])) * WeightShank;
+            }
+            while (totalmoment < 0);
+
+            // Calc Moments //////////////////////////////////////////////////////////////////
+            if (document.getElementById("checkmoment").checked || document.getElementById("checkstats").checked) {
+                kneemomentb[i] = 9.8 * barweight * (
+                    (barx[i] - kneex[i])
+                ) / (100 * stance);
+                kneemomenthn[i] = (9.8 * (
+                    ((neckx[i] - kneex[i]) + CoGHeadNeck * Math.cos(backangle[i] * Math.PI / 180) * (necklength + headdiam / 2)) * WeightHeadNeck //
+                ) / (100 * stance));
+                kneemomentt[i] = (9.8 * (
+                    ((neckx[i] - kneex[i]) - CoGTrunk * (barx[i] - hipx[i])) * WeightTrunk
+                ) / (100 * stance));
+                kneemomentf[i] = (9.8 * (
+                    ((1 - CoGThigh) * (hipx[i] - kneex[i])) * WeightThigh
+                ) / (100 * stance));
+                kneemoment[i] = kneemomentb[i] + kneemomenthn[i] + kneemomentt[i] + kneemomentf[i];
+
+                hipmomentb[i] = 9.8 * barweight * (
+                    (barx[i] - hipx[i])
+                ) / (100 * stance);
+                hipmomenthn[i] = (9.8 * (
+                    ((neckx[i] - hipx[i]) + CoGHeadNeck * Math.cos(backangle[i] * Math.PI / 180) * (necklength + headdiam / 2)) * WeightHeadNeck
+                ) / (100 * stance));
+                hipmomentt[i] = (9.8 * (
+                    ((1 - CoGTrunk) * (neckx[i] - hipx[i])) * WeightTrunk
+                ) / (100 * stance));
+                hipmoment[i] = hipmomentb[i] + hipmomenthn[i] + hipmomentt[i];
+
+                summedmoment[i] = Math.abs(kneemoment[i]) + Math.abs(hipmoment[i]);
+                abskneemoment[i] = Math.abs(kneemoment[i]);
+            } //if(document.getElementById("checkmoment").checked || document.getElementById("checkstats").checked)
+
+            kneeangle[i] = 90 - anklecurrent[i] + kneecurrent[i];
+
+            //Sanity check
+            tolen[i] = Math.sqrt(Math.pow(hipx[i] - neckx[i], 2) + Math.pow(hipy[i] - necky[i], 2));
+            flen[i] = Math.sqrt(Math.pow(hipx[i] - kneex[i], 2) + Math.pow(hipy[i] - kneey[i], 2) + Math.pow(kneez[i], 2));
+            tlen[i] = Math.sqrt(Math.pow(anklexyz[0] - kneex[i], 2) + Math.pow(kneey[i] - anklexyz[1], 2) + Math.pow(kneez[i], 2)); // Sooooo... the tibia length changes a couple of % through out the squat due to how the stance calcs are done above.  This shouldnt change any of the calcs much.
+            hipangle[i] = Math.acos(((barx[i] - hipx[i]) * (kneex[i] - hipx[i]) + (bary[i] - hipy[i]) * (kneey[i] - hipy[i]) + 0 * kneez[i]) / (tolen[i] * flen[i])) * 180 / Math.PI;
+
+            // Calc Muscle Lengths //////////////////////////////////////////////////////////////////
+            if (document.getElementById("checkmuscle").checked) {
+                //Muscle Lengths
+                // L = C0 + C1a + C2b + C3b^2 + C4t
+                HAngle = 180 - hipangle[i];
+                KAngle = 90 + anklecurrent[i] - kneecurrent[i];
+                AAngle = 90 + anklecurrent[i];
+                // Normalise to standing length and converted to % change from standing length
+                Iliopsoas[i] = 100 * ((0.215 + -0.000726 * HAngle + 0 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 0.215 - 1);
+                TFL[i] = 100 * ((1.436 + -0.0032 * HAngle + -0.000213 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 1.436 - 1);
+                BicepsFemorisLongHead[i] = 100 * ((1.048 + 0.00209 * HAngle + -0.0016 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 1.048 - 1);
+                Semimembranosus[i] = 100 * ((1.027 + 0.00199 * HAngle + -0.00222 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 1.027 - 1);
+                Semitendinosus[i] = 100 * ((0.987 + 0.00207 * HAngle + -0.00178 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 0.987 - 1);
+                RectusFemoris[i] = 100 * ((1.107 + -0.0015 * HAngle + 0.00199 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 1.107 - 1);
+                Sartorius[i] = 100 * ((1.328 + -0.00262 * HAngle + -0.00134 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 1.328 - 1);
+                Gracilis[i] = 100 * ((0.968 + 0.00123 * HAngle + -0.00179 * KAngle + 0 * KAngle * KAngle + 0 * AAngle) / 0.968 - 1);
+                BicepsFemorisShortHead[i] = 100 * ((0.6 + 0 * HAngle + 0.000103 * KAngle + -0.0000121 * KAngle * KAngle + 0 * AAngle) / 0.6 - 1);
+                VastusIntermedius[i] = 100 * ((0.496 + 0 * HAngle + 0.00388 * KAngle + -0.0000163 * KAngle * KAngle + 0 * AAngle) / 0.496 - 1);
+                VastusLateralis[i] = 100 * ((0.569 + 0 * HAngle + 0.00406 * KAngle + -0.0000207 * KAngle * KAngle + 0 * AAngle) / 0.569 - 1);
+                VastusMedialis[i] = 100 * ((0.489 + 0 * HAngle + 0.00307 * KAngle + -0.0000153 * KAngle * KAngle + 0 * AAngle) / 0.489 - 1);
+                MedialGastroc[i] = 100 * ((0.9 + 0 * HAngle + -0.00062 * KAngle + 0 * KAngle * KAngle + 0.00214 * AAngle) / (0.9 + 0.00214 * (90 + anklezero)) - 1);
+                LateralGastroc[i] = 100 * ((0.894 + 0 * HAngle + -0.0005 * KAngle + 0 * KAngle * KAngle + 0.00214 * AAngle) / (0.894 + 0.00214 * (90 + anklezero)) - 1);
+                TibialisAnterior[i] = 100 * ((0.715 + 0 * HAngle + 0 * KAngle + 0 * KAngle * KAngle + -0.0013 * AAngle) / (0.715 - 0.0013 * (90 + anklezero)) - 1);
+                Soleus[i] = 100 * ((0.563 + 0 * HAngle + 0 * KAngle + 0 * KAngle * KAngle + 0.00193 * AAngle) / (0.563 + 0.00193 * (90 + anklezero)) - 1);
+            } // if(document.getElementById("checkmuscle").checked)
+        }
+
+
+        if (document.getElementById("checkmodel").checked) {
+            //-----------------------
+            // plot neck and head
+            //-----------------------
+            baseheadx = neckx[position] + necklength * Math.cos(backangle[position] * Math.PI / 180);
+            baseheady = necky[position] + necklength * Math.sin(backangle[position] * Math.PI / 180);
+            centerheadx = neckx[position] + (necklength + headdiam) * Math.cos(backangle[position] * Math.PI / 180);
+            centerheady = necky[position] + (necklength + headdiam) * Math.sin(backangle[position] * Math.PI / 180);
+
+            steps = 32;
+            radius = headdiam;
+            var headx = new Array();
+            var heady = new Array();
+            for (i = 0; i < steps; ++i) {
+                a = 2 * Math.PI / steps * i;
+                headx[i] = radius * Math.cos(a) + centerheadx;
+                heady[i] = radius * Math.sin(a) + centerheady;
+            }
+
+            headx[steps] = headx[0];
+            heady[steps] = heady[0];
+
+            var plothead = {
+                x: headx,
+                y: heady,
+                type: 'scatter',
+                mode: 'lines',
+                line: {
+                    color: 'red',
+                    width: 2
+                },
+                name: ''
+            };
+
+            //-----------------------
+            // plot bar
+            //-----------------------
+            steps = 32;
+            radius = plate;
+            var weightx = new Array();
+            var weighty = new Array();
+            for (i = 0; i < steps; ++i) {
+                a = 2 * Math.PI / steps * i;
+                weightx[i] = radius * Math.cos(a) + barx[position];
+                weighty[i] = radius * Math.sin(a) + bary[position];
+            }
+            weightx[steps] = weightx[0];
+            weighty[steps] = weighty[0];
+
+            var plotbar = {
+                x: weightx,
+                y: weighty,
+                type: 'scatter',
+                mode: 'lines',
+                line: {
+                    color: 'blue',
+                    width: 2
+                },
+                name: ''
+            };
+
+            //-----------------------
+            // plot bar path
+            //-----------------------
+            var plotbarpath = {
+                x: barx,
+                y: bary,
+                type: 'scatter',
+                mode: 'lines',
+                line: {
+                    color: 'green',
+                    width: 2
+                },
+                name: ''
+            };
+            //-----------------------
+            // plot body
+            //-----------------------
+            var plotbody = {
+                x: new Array(anklexyz[0], toexyz[0], heelxyz[0], anklexyz[0], kneex[position], hipx[position], neckx[position], baseheadx),
+                y: new Array(anklexyz[1], toexyz[1], heelxyz[1], anklexyz[1], kneey[position], hipy[position], necky[position], baseheady),
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: {
+                    color: 'red',
+                    width: 2
+                },
+                name: ''
+            };
+
+            // vertical line at x=0
+            var yaxisline = {
+                x: new Array(0, 0),
+                y: new Array(0, 200),
+                type: 'scatter',
+                mode: 'lines',
+                line: {
+                    color: 'grey',
+                    width: 1
+                }
+            };
+
+            var data = [plothead, plotbody, plotbar, plotbarpath, yaxisline];
+
+            var layout = {
+                title: 'Squat Model',
+                xaxis: {
+                    range: [-110, 110],
+                    autorange: false
+                },
+                yaxis: {
+                    range: [0, 205],
+                    autorange: false
+                },
+                showlegend: false
+            };
+
+            Plotly.newPlot('model', data, layout);
+        } else {
+            document.getElementById("model").innerHTML = "";
+        }
+
+
+        //-----------------------
+        // plot top view
+        //----------------------
+
+        if (document.getElementById("checkmodel").checked) {
+
+            var plothipsfemur = {
+                x: new Array(-kneez[position] - hipwidth, -hipwidth, hipwidth, kneez[position] + hipwidth),
+                y: new Array(kneex[position], hipx[position], hipx[position], kneex[position]),
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: {
+                    color: 'red',
+                    width: 2
+                },
+                name: ''
+            };
+
+            var plotbar = {
+                x: new Array(-110, -72, -72, -67, -67, 67, 67, 72, 72, 110, 110, 72, 72, 67, 67, -67, -67, -72, -72, -110, -110),
+                y: new Array(-2.5 + barx[position], -2.5 + barx[position], -plate + barx[position], -plate + barx[position], -1.5 + barx[position], -1.5 + barx[position], -plate + barx[position], -plate + barx[position], -2.5 + barx[position], -2.5 + barx[position], 2.5 + barx[position], 2.5 + barx[position], plate + barx[position], plate + barx[position], 1.5 + barx[position], 1.5 + barx[position], plate + barx[position], plate + barx[position], 2.5 + barx[position], 2.5 + barx[position], -2.5 + barx[position]),
+                type: 'scatter',
+                mode: 'lines',
+                line: {
+                    color: 'blue',
+                    width: 2
+                },
+                name: ''
+            };
+
+            var data = [plothipsfemur, plotbar];
+
+            var layout = {
+                title: 'Axial view of hips and thighs',
+                xaxis: {
+                    range: [-110, 110],
+                    autorange: false
+                },
+                yaxis: {
+                    range: [-100, 100],
+                    autorange: false
+                },
+                showlegend: false
+            };
+
+            Plotly.newPlot('model2', data, layout);
+        } else {
+            document.getElementById("model2").innerHTML = "";
+        }
+
+
+        //-----------------------
+        // plot stats
+        //----------------------
+
+        if (document.getElementById("checkstats").checked) {
+
+            var data = [
+                { y: abskneemoment, x: bary, type: 'scatter', name: 'Knee moment', line: { dash: 'dot' } },
+                { y: hipmoment, x: bary, type: 'scatter', name: 'Hip moment', line: { dash: 'dot' } },
+                { y: summedmoment, x: bary, type: 'scatter', name: 'Summed moment', line: { dash: 'dot' } },
+                { y: backangle, x: bary, type: 'scatter', name: 'Back angle', yaxis: 'y2' },
+                { y: hipangle, x: bary, type: 'scatter', name: 'Hip angle', yaxis: 'y2' },
+                { y: kneeangle, x: bary, type: 'scatter', name: 'Knee angle', yaxis: 'y2' },
+                { y: anklecurrent, x: bary, type: 'scatter', name: 'Ankle angle', yaxis: 'y2' },
+                //{ y: flen, x: bary, type: 'scatter', name: 'flen', yaxis: 'y2' },
+                //{ y: tlen, x: bary, type: 'scatter', name: 'tlen', yaxis: 'y2' },
+                //{ y: AAngle, x: bary, type: 'scatter', name: 'AAngle', yaxis: 'y2' },
+                //{ y: KAngle, x: bary, type: 'scatter', name: 'KAngle', yaxis: 'y2' },
+                //{ y: HAngle, x: bary, type: 'scatter', name: 'HAngle', yaxis: 'y2' },
+                //{ y: tolen, x: bary, type: 'scatter', name: 'tolen', yaxis: 'y2' },
+                //{ y: flen, x: bary, type: 'scatter', name: 'flen', yaxis: 'y2' },
+                { y: new Array(0, 180), x: new Array(bary[position], bary[position]), type: 'scatter', name: 'Current Position', yaxis: 'y2' }
+            ];
+
+            var layout = {
+                title: 'Squat Stats',
+                xaxis: {
+                    range: [bary[0], bary[99]],
+                    autorange: false,
+                    title: 'Bar Height (cm)'
+                },
+                yaxis: {
+                    range: [0, 2000],
+                    autorange: false,//
+                    showgrid: false,
+                    zeroline: false,
+                    showline: false,
+                    //showticklabels: false,
+                    title: 'Moment (N.m)'
+                },
+                yaxis2: {
+                    range: [0, 180],
+                    autorange: false,
+                    overlaying: 'y',
+                    title: 'Angle',
+                    side: 'right'
+                },
+                legend: {
+                    xanchor: "left",
+                    yanchor: "top",
+                    y: 1.1,
+                    x: 1.15,
+                    font: {
+                        size: 8
+                    }
+                }
+            };
+
+            Plotly.newPlot('stats', data, layout);
+        } else {
+            document.getElementById("stats").innerHTML = "";
+        }
+
+
+
+
+
+        //-----------------------
+        // Muscle Lengths 
+        //----------------------
+
+        if (document.getElementById("checkmuscle").checked) {
+
+            var data = [
+                { y: Iliopsoas, x: bary, type: 'scatter', name: 'Iliopsoas' },
+                { y: TFL, x: bary, type: 'scatter', name: 'TFL' },
+                { y: BicepsFemorisLongHead, x: bary, type: 'scatter', name: 'Biceps Femoris Long Head' },
+                { y: Semimembranosus, x: bary, type: 'scatter', name: 'Semimembranosus' },
+                { y: Semitendinosus, x: bary, type: 'scatter', name: 'Semitendinosus' },
+                { y: RectusFemoris, x: bary, type: 'scatter', name: 'Rectus Femoris' },
+                { y: Sartorius, x: bary, type: 'scatter', name: 'Sartorius' },
+                { y: Gracilis, x: bary, type: 'scatter', name: 'Gracilis' },
+                { y: BicepsFemorisShortHead, x: bary, type: 'scatter', name: 'Biceps Femoris Short Head', line: { dash: 'dot' } },
+                { y: VastusIntermedius, x: bary, type: 'scatter', name: 'Vastus Intermedius', line: { dash: 'dot' } },
+                { y: VastusLateralis, x: bary, type: 'scatter', name: 'Vastus Lateralis', line: { dash: 'dot' } },
+                { y: VastusMedialis, x: bary, type: 'scatter', name: 'Vastus Medialis', line: { dash: 'dot' } },
+                { y: MedialGastroc, x: bary, type: 'scatter', name: 'Medial Gastroc', line: { dash: 'dot' } },
+                { y: LateralGastroc, x: bary, type: 'scatter', name: 'Lateral Gastroc', line: { dash: 'dot' } },
+                { y: TibialisAnterior, x: bary, type: 'scatter', name: 'Tibialis Anterior', line: { dash: 'dot' } },
+                { y: Soleus, x: bary, type: 'scatter', name: 'Soleus', line: { dash: 'dot' } },
+                { y: new Array(-50, 50), x: new Array(bary[position], bary[position]), type: 'scatter', name: 'Current Position' }
+            ];
+
+            var layout = {
+                title: 'Muscle Lengths (+ve = longer)',
+                xaxis: {
+                    range: [bary[0], bary[99]],
+                    autorange: false,
+                    title: 'Bar Height (cm)'
+                },
+                yaxis: {
+                    range: [-50, 50],
+                    autorange: true,
+                    showgrid: false,
+                    zeroline: false,
+                    showline: false,
+                    //showticklabels: false,
+                    title: '% Change in muscle length'
+                },
+                legend: {
+                    xanchor: "left",
+                    yanchor: "top",
+                    y: 1.1,
+                    x: 1.15,
+                    font: {
+                        size: 8
+                    }
+                }
+            };
+
+            Plotly.newPlot('stats2', data, layout);
+        } else {
+            document.getElementById("stats2").innerHTML = "";
+        }
+
+
+
+
+        //-----------------------
+        // plot knee moments
+        //----------------------
+
+        if (document.getElementById("checkmoment").checked) {
+
+            var data = [
+                { y: kneemoment, x: bary, type: 'scatter', name: 'Knee Moment' },
+                { y: kneemomentb, x: bary, type: 'scatter', name: 'Bar contribution', line: { dash: 'dot' } },
+                { y: kneemomenthn, x: bary, type: 'scatter', name: 'H&N contribution', line: { dash: 'dot' } },
+                { y: kneemomentt, x: bary, type: 'scatter', name: 'Trunk contribution', line: { dash: 'dot' } },
+                { y: kneemomentf, x: bary, type: 'scatter', name: 'Thigh contribution', line: { dash: 'dot' } },
+                { y: new Array(-900, 100), x: new Array(bary[position], bary[position]), type: 'scatter', name: 'Current Position' }
+            ];
+
+            var layout = {
+                title: 'Knee Moment Breakdown',
+                xaxis: {
+                    range: [bary[0], bary[99]],
+                    autorange: false,
+                    title: 'Bar Height (cm)'
+                },
+                yaxis: {
+                    range: [-900, 100],
+                    autorange: false,
+                    showgrid: false,
+                    zeroline: false,
+                    showline: false,
+                    //showticklabels: false,
+                    title: 'Moment (N.m) (+ve = clockwise)'
+                },
+                legend: {
+                    xanchor: "left",
+                    yanchor: "top",
+                    y: 1.1,
+                    x: 1.15,
+                    font: {
+                        size: 8
+                    }
+                }
+            };
+
+            Plotly.newPlot('m1', data, layout);
+        } else {
+            document.getElementById("m1").innerHTML = "";
+        }
+        //-----------------------
+        // plot hip moments
+        //----------------------
+
+        if (document.getElementById("checkmoment").checked) {
+
+            var data = [
+                { y: hipmoment, x: bary, type: 'scatter', name: 'Hip Moment' },
+                { y: hipmomentb, x: bary, type: 'scatter', name: 'Bar contribution', line: { dash: 'dot' } },
+                { y: hipmomenthn, x: bary, type: 'scatter', name: 'H&N contribution', line: { dash: 'dot' } },
+                { y: hipmomentt, x: bary, type: 'scatter', name: 'Trunk contribution', line: { dash: 'dot' } },
+                { y: new Array(-100, 900), x: new Array(bary[position], bary[position]), type: 'scatter', name: 'Current Position' }
+            ];
+
+            var layout = {
+                title: 'Hip Moment Breakdown',
+                xaxis: {
+                    range: [bary[0], bary[99]],
+                    autorange: false,
+                    title: 'Bar Height (cm)'
+                },
+                yaxis: {
+                    range: [-100, 900],
+                    autorange: false,//
+                    showgrid: false,
+                    zeroline: false,
+                    showline: false,
+                    //showticklabels: false,
+                    title: 'Moment (N.m) (+ve = clockwise)'
+                },
+                legend: {
+                    xanchor: "left",
+                    yanchor: "top",
+                    y: 1.1,
+                    x: 1.15,
+                    font: {
+                        size: 8
+                    }
+                }
+            };
+
+            Plotly.newPlot('m2', data, layout);
+        } else {
+            document.getElementById("m2").innerHTML = "";
+        }
+
+
+
+
+    }
+    window.addEventListener("load", update);
+</script>
+
+<hr />
+
+<h2 id="om-modellen-1">Om modellen</h2>
+
+<p>Stickman-modellen viser de kropsdel-længder, der er valgt ovenfor med skyderne, barens vej i blåt og den aktuelt valgte squat-position. Squat-positionen er baseret på, at ankel, knæ og hofter bøjer samtidig, mens modellens tyngdepunkt (CoG) opretholdes over midtfoden.</p>
+
+<p>Knæet bøjes lineært, mens anklen bøjes hurtigere i starten af squatten. “Lineært” betyder, at når modelpositionen er 25% fra stående til squat, har knæet bøjet 25% fra den stående vinkel til maksimum. Når positionen er halvvejs, har vinklen ændret sig med 50% af den maksimale vinkel.</p>
+
+<p>Til sidst, når modellen er fuldt squattet, er vinklen ved max. At bryde lineært er måske ikke helt korrekt for knæet, og anklen bøjer hurtigere tidligt i bevægelsen. Husk bare, at det er en model, og den viser ikke præcist, hvordan du squatter.</p>
+
+<p>CoG-beregningerne tager højde for stangens masse, hver kropsdelds masse og hver segments eget CoG. Dette kan få stangen til at bevæge sig fremad forbi midtfoden for at opretholde modelens CoG over midtfoden. Som resultat bevæger stangen sig ikke altid i en lodret bane.</p>
+
+<h2 id="stance">Stance</h2>
+
+<p>Brug stance-slideren til at ændre vinklen på dine fødder, f.eks. fødder der peger lige frem giver 0 grader og lige ud giver 90 grader.</p>
+
+<p>De af jer med lange ben vil have gavn af en lidt bredere stance og fødder, der er vinklet ud. Dette vil gøre din torso mere opret og få dine hofter tættere på midtfoden.</p>
+
+<h2 id="high---low-bar">High -&gt; Low Bar</h2>
+
+<p>Bevæg stangen fra en high bar position til en low bar position. Afstanden er fra toppen af torsoen, f.eks. 0 cm for high bar og omkring 5-10 cm for low bar.</p>
+
+<h2 id="squat-stats">Squat Stats</h2>
+
+<p>Squat Stats-diagrammet viser momentet for hofterne og knæene sammen med vinklerne på ryggen, hofterne og knæene gennem alle positioner af squatten. Fra squatting til højre til stående til venstre. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at bruge position-slideren ovenfor.</p>
+
+<p>Dette er nyttigt for at se, hvordan momentet ændrer sig under squatten og til at identificere den svære position.</p>
+
+<h2 id="moment-breakdown">Moment Breakdown</h2>
+
+<p>Hvis du er kommet så langt, elsker du sikkert tal og diagrammer! Disse to viser en opdeling af knæ- og hofte-momenterne og hvad der bidrager til dem. De samlede momenter er et total af stangens moment og momentet fra hver kropsdel.</p>
+
+<p>Leg med sliderne for krops- og stangvægt for at se, hvordan momentopdelingerne ændrer sig. Du vil også kunne se, hvordan stangens bane ændrer sig og begynder at bevæge sig fremad med en lettere stangvægt. Midtfods-stangbane er kun mulig med en meget tung stangvægt, hvor stangen dominerer tyngdepunktberegningerne.</p>
+
+<h2 id="muskel-længde">Muskel-længde</h2>
+
+<p>Baseret på artiklen af <a href="https://www.researchgate.net/profile/Maury_Hull/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements/links/0deec5296a6dbe683f000000.pdf">Hawkins &amp; Hull</a>, viser dette diagram den beregnede længdeændring for forskellige muskler under squatten.</p>
+
+<hr />
+
+<h2 id="squatmekanik-er-baseret-på-anatomi">Squatmekanik er baseret på anatomi</h2>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="Av3LO2GwpAk">
+      <meta itemprop="name" content="Squatmekanik: En biomekanisk model for squat" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/Av3LO2GwpAk/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-03-26T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/Av3LO2GwpAk" />
+      <meta itemprop="description" content="Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du ikke gerne være en tændstikmand?" />
+      <a href="https://www.youtube.com/watch?v=Av3LO2GwpAk" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/Av3LO2GwpAk/hqdefault.jpg" loading="lazy" alt="video til Squatmekanik: En biomekanisk model for squat" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="KGEKRjlZKf8">
+      <meta itemprop="name" content="Squatmekanik: En biomekanisk model for squat" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/KGEKRjlZKf8/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-03-26T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/KGEKRjlZKf8" />
+      <meta itemprop="description" content="Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du ikke gerne være en tændstikmand?" />
+      <a href="https://www.youtube.com/watch?v=KGEKRjlZKf8" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/KGEKRjlZKf8/hqdefault.jpg" loading="lazy" alt="video til Squatmekanik: En biomekanisk model for squat" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<hr />
+
+<p>Din anatomi og antropometri er meget afgørende for, hvordan du squatter. Der er ikke en stil, der er rigtig eller forkert. Det handler om at finde en passende stil til din krop.</p>
+
+<hr />
+
+<h2 id="squat-oprejst-vs-foroverbøjet">Squat oprejst vs foroverbøjet</h2>
+
+<p><a href="https://startingstrength.com/article/squat-mechanics-a-clarification">Mark Rippetoe</a> er altid meget præcis. Han forklarer, at det er godt at have hoften med i squat. Læs artiklen og bliv meget klogere.</p>
+
+<p><a href="https://bretcontreras.com/how-femur-length-effects-squat-mechanics/">Brett Contreas</a> har også observeret det med sine atleter.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/brett-contreas-femur-torso-squat-dots.jpg" alt="" loading="lazy" /><figcaption>
+      To kvinder med samme højde, men med ret forskellig antropometriske målinger på læggen, lårbenet og overkroppen. Det har naturligvis en betydning for squat-mønsteret for den enkelte. Kilde: <a href="https://bretcontreras.com/how-femur-length-effects-squat-mechanics/">Brett Contreas</a>.
+
+    </figcaption></figure>
+
+<p>Der er mange parametre, der definerer et squatmønster, men fordi de to kvinder har meget forskellige mål, så vil de også squatte forskelligt.</p>
+
+<figure class="half "><img src="/assets/images/blog/brett-contreas-femur-torso-squat.png" alt="" /><img src="/assets/images/blog/brett-contreas-femur-torso-squat-2.png" alt="" />
+  
+    <figcaption>Kvinden til venstre har en relativt kort lårben og en lang overkrop. Hun squatter dybt og rimelig oprejst. Kvinden til højre har relativt lange lårben og en kortere overkrop. Hun squatter knap så dybt og noget mere foroverbøjet. Begge kvinder har et fint squat.
+</figcaption>
+  
+</figure>
+
+<p>Der er mange faktorer der indvirker på om din squat stil er mere eller mindre oprejst. Du kan se dem sammenfattet i følgende tabel.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Faktorer</strong></th>
+      <th><strong>Mere oprejst squatstilling</strong></th>
+      <th><strong>Mere foroverbøjet squatstilling</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Hælhøjde</strong></td>
+      <td>Større hælløft (f.eks. vægtløftersko)</td>
+      <td>Intet hælløft (f.eks. Chuck Taylors)</td>
+    </tr>
+    <tr>
+      <td><strong>Ankelmobilitet</strong></td>
+      <td>Større dorsalfleksion</td>
+      <td>Begrænset dorsalfleksion</td>
+    </tr>
+    <tr>
+      <td><strong>Lemmelængde</strong></td>
+      <td>Kortere lårben i forhold til torso, længere torso</td>
+      <td>Længere lårben i forhold til torso, kortere torso</td>
+    </tr>
+    <tr>
+      <td><strong>Stancebredde</strong></td>
+      <td>Bredere stand</td>
+      <td>Smallere stand</td>
+    </tr>
+    <tr>
+      <td><strong>Knæposition</strong></td>
+      <td>Mere abduktion (knæene udad)</td>
+      <td>Mindre abduktion (knæene indad)</td>
+    </tr>
+    <tr>
+      <td><strong>Stangposition</strong></td>
+      <td>Højere stangplacering på ryggen</td>
+      <td>Lavere stangplacering på ryggen</td>
+    </tr>
+    <tr>
+      <td><strong>Styrkefokus</strong></td>
+      <td>Større relativ quadriceps-styrke</td>
+      <td>Større relativ gluteal-styrke</td>
+    </tr>
+    <tr>
+      <td><strong>Bevægelsesintention</strong></td>
+      <td>Øget fokus på knæekstensorer</td>
+      <td>Øget fokus på hofteekstensorer</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Selvom man er bygget på en særlig måde, så betyder det ikke nødvendigvis at ens squat skal følge et bestemt mønster.</p>
+
+<hr />
+
+<h2 id="de-tre-ser">De tre S’er</h2>
+
+<p><a href="https://maxer.dk/videoer/squat-de-3-vigtigste-parametre">Jacob Beermann</a> beskriver i sin bog <a href="/artikel/staerk-traeningsprogram/">Stærk</a> tre S’er som en model for at forstå, hvordan du kan justere teknikken og få en effektiv teknik i squat.</p>
+
+<p>Modellen går fra to yderpunkter, som jeg har benævnt olympisk squat (vægtløftning) til powerlifting squat (styrkeløft).</p>
+
+<p>Det er vigtigt at sige, at squatvariationerne i yderpunkterne mere handler om, hvad der passer til din krop, eller hvilken idrætsgren, du har valgt at squatte i forhold til.</p>
+
+<p>Det er ikke et mål i sig selv at de 3 S’er skal passe sammen, men det er heller ikke et mål at skulle lave en oprejst squat (med mindre du gerne vil lave vægtløftning, hvor det kan være en fordel).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Parameter</strong></th>
+      <th><strong>OL Squat</strong></th>
+      <th><strong>Mellemliggende valg</strong></th>
+      <th><strong>Powerlifting Squat</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Stand</strong></td>
+      <td>Smal stand</td>
+      <td>Kan justeres mellem smal og bred stand</td>
+      <td>Bred stand</td>
+    </tr>
+    <tr>
+      <td><strong>Stangplacering</strong></td>
+      <td>Høj stangplacering på ryggen</td>
+      <td>Kan justeres mellem høj og lav stangplacering</td>
+      <td>Lav stangplacering på ryggen</td>
+    </tr>
+    <tr>
+      <td><strong>Startbevægelse</strong></td>
+      <td>Start med knæene frem</td>
+      <td>Kan justeres mellem knæene frem og hoften bagud</td>
+      <td>Start med hoften bagud</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I denne video kan du se Beermann selv forklare om de 3 S’er:</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="ctnTCAkN1_g">
+      <meta itemprop="name" content="Squatmekanik: En biomekanisk model for squat" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/ctnTCAkN1_g/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-03-26T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/ctnTCAkN1_g" />
+      <meta itemprop="description" content="Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du ikke gerne være en tændstikmand?" />
+      <a href="https://www.youtube.com/watch?v=ctnTCAkN1_g" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/ctnTCAkN1_g/hqdefault.jpg" loading="lazy" alt="video til Squatmekanik: En biomekanisk model for squat" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<p>Alt efter stilen, så rammer den også lidt forskelligt i kroppen.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Kropsbygning &amp; Fokus</strong></th>
+      <th><strong>Forlårsdominant</strong> (korte lårben, lang overkrop)</th>
+      <th><strong>Mellemliggende kropsbygning</strong></th>
+      <th><strong>Bagkæde-dominant</strong> (lange lårben, kort overkrop)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Primært muskulært fokus</strong></td>
+      <td>Quadriceps og forreste muskulatur</td>
+      <td>Kan justeres afhængigt af valg</td>
+      <td>Gluteus og bagkæde muskulatur</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Hvis du godt kan lide fysik og biomekanik, så tjek vores andre <a href="/biomekanik/">indlæg om biomekanik</a>.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-my-squat-mechanics">Hvad er My Squat Mechanics?</h3></summary>
+<p>Modellen er baseret på <a href="https://www.mysquatmechanics.com/bench/">My Squat Mechanics</a> og bliver brugt her efter aftale med den oprindelige forfatter.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er My Squat Mechanics?","acceptedAnswer":{"@type":"Answer","text":"Modellen er baseret på <a href='https://www.mysquatmechanics.com/bench/'>My Squat Mechanics</a> og bliver brugt her efter aftale med den oprindelige forfatter.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="http://strengtheory.com/how-to-squat/"><strong>How to Squat: The Definitive Guide</strong></a> by Greg Nuckols (03/16/2016)</li>
+    <li><a href="http://www.strengtheory.com/squat-mechanics-the-red-pill/"><strong>Squat Mechanics – The Red Pill</strong></a> by Greg Nuckols (02/23/2015)</li>
+    <li><a href="http://bretcontreras.com/calculating-joint-moments-in-the-squat/"><strong>Calculating Joint Moments in the Squat</strong></a> by Andrew Vigotsky (09/21/2015)</li>
+    <li><a href="https://www.t-nation.com/training/squat-mechanics-a-deep-analysis"><strong>Squat Mechanics: A Deep Analysis</strong></a> by Mark Rippetoe (01/15/2015)</li>
+    <li><a href="http://startingstrength.com/articles/squat_rippetoe.pdf"><strong>The Squat, or How I Learned to Stop Leg-Pressing and Use My Ass</strong></a> by Mark Rippetoe (2009)</li>
+    <li><a href="https://youtu.be/Av3LO2GwpAk"><strong>Squats Part 1: Fold-Ability and Proportions</strong></a> by PersonalTrainingdotcom (2015)</li>
+    <li><a href="https://youtu.be/KGEKRjlZKf8"><strong>Squats Part 2: Fold-Ability and Proportions (Examples and Adjustments)</strong></a> by PersonalTrainingdotcom (2015)</li>
+  </ul>
+
+  <h3 id="additional-resources">Additional Resources:</h3>
+
+  <ul>
+    <li><a href="http://www.exrx.net/Kinesiology/Segments.html">de Leva P, <strong>Adjustments to Zatsiorsky-Seluyanov’s segment inertia parameters</strong></a>, J Biomech. 1996 Sep;29(9):1223-30.</li>
+    <li><a href="https://www.researchgate.net/profile/Maury_Hull/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements/links/0deec5296a6dbe683f000000.pdf">Hawkins D, Hull ML, <strong>A method for determining lower extremity muscle-tendon lengths during flexion/extension movements</strong></a>, J Biomech. 1990;23(5):487-94.</li>
+    <li><a href="https://books.google.com.au/books?id=_bFHL08IWfwC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false"><strong>Biomechanics and Motor Control of Human Movement</strong></a> by David A. Winter, ISBN: 978-0-470-39818-0</li>
+  </ul>
+
+</details>]]></content><author><name>Jye Schmidt</name></author><category term="[&quot;Styrketræning&quot;]" /><category term="anatomi" /><category term="styrketræning" /><summary type="html"><![CDATA[Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du ikke gerne være en tændstikmand?]]></summary></entry><entry><title type="html">Sådan læser du en varedeklaration</title><link href="https://www.motionsplan.dk/varedeklaration/" rel="alternate" type="text/html" title="Sådan læser du en varedeklaration" /><published>2025-03-26T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/varedeklaration</id><content type="html" xml:base="https://www.motionsplan.dk/varedeklaration/"><![CDATA[<p>Varedeklarationen på en fødevarepakke kan være fyldt med informationer, men hvad betyder de egentlig? Her får du en gennemgang af de vigtigste elementer, så du nemmere kan afkode, hvad du putter i indkøbskurven.</p>
+
+<p>Her lærer du, hvordan du læser og forstår en varedeklaration med næringsindhold og ingredienser, så du kan træffe de rigtige valg med din kost i forhold til din træning og dine mål.</p>
+
+<p>Du kan se en god gennemgang i denne video fra <a href="https://maxer.dk/videoer/saadan-laeser-du-en-varedeklaration">Maxer</a>.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="ENpPf4G44Vk">
+      <meta itemprop="name" content="Sådan læser du en varedeklaration" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/ENpPf4G44Vk/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-03-26T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/ENpPf4G44Vk" />
+      <meta itemprop="description" content="Få styr på varedeklarationer! Lær, hvordan du læser og forstår næringsindholdet og ingredienserne, så du kan træffe de rigtige valg med din kost." />
+      <a href="https://www.youtube.com/watch?v=ENpPf4G44Vk" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/ENpPf4G44Vk/hqdefault.jpg" loading="lazy" alt="video til Sådan læser du en varedeklaration" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h2 id="hvad-er-en-varedeklaration">Hvad er en varedeklaration?</h2>
+
+<p>En varedeklaration er den information, der findes på emballagen af fødevarer, og som giver forbrugeren indsigt i produktets indhold og næringsværdi. Deklarationen er lovpligtig og skal indeholde oplysninger om ingredienser, næringsindhold, allergener og eventuelle tilsætningsstoffer.</p>
+
+<h2 id="hvorfor-er-det-godt-at-kunne-læse-varedeklarationen">Hvorfor er det godt at kunne læse varedeklarationen?</h2>
+
+<p>Formålet med varedeklarationen er at hjælpe forbrugeren med at træffe informerede valg ved at give gennemsigtighed om, hvad et produkt indeholder.</p>
+
+<p>Det gør det muligt at sammenligne forskellige produkter, vurdere næringsværdien og identificere ingredienser, der kan være relevante for ens kost eller sundhedsmæssige behov.</p>
+
+<p>I forhold til kost og træning, så er det vigtigt at vide, hvor meget energi du indtager, og at du får de rigtige næringsstoffer i forhold til dine mål.</p>
+
+<p>Helt konkret er det rigtig godt at have styr på, at du får de rette makronæringsstoffer (fedt, kulhydrat og protein) i de rigtige mængder, så du kan opnå målene med din træning.</p>
+
+<h2 id="hvilke-informationer-finder-du-på-en-varen">Hvilke informationer finder du på en varen?</h2>
+
+<p>Du kan finde rigtig mange informationer på pakken til dine fødevarer. Her kan du se en pakke kyllingepålæg med betegnelser for de enkelte sektioner.</p>
+
+<figure class="half "><img src="https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg" alt="" /><img src="https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg" alt="" />
+  
+    <figcaption>Kilde: <a href="https://foedevareguiden.dk/varedeklarationer-saadan-tyder-du-dem/">Fødevareguiden</a>
+</figcaption>
+  
+</figure>
+
+<p>I forbindelse med kost og træning, så er vi særligt interesserede i ingredienslisten og næringsindholdet i madvaren.</p>
+
+<p>Derfor starter vi med den og kigger på de andre elementer lidt mere sekundært.</p>
+
+<h2 id="ingrediensliste">Ingrediensliste</h2>
+
+<p>Ingredienserne er opstillet efter vægt, så den første ingrediens udgør den største del af produktet.</p>
+
+<ul>
+  <li><strong>Allergener</strong>, som gluten, mælk, soja og nødder, skal fremhæves med fed eller kursiv.</li>
+  <li><strong>Skjult sukker</strong> kan have mange navne som fruktose, glukosesirup eller honning.</li>
+</ul>
+
+<p>Procentangivelser viser, hvor meget der er af bestemte ingredienser, men det er ikke et lovkrav.</p>
+
+<h2 id="næringsdeklaration">Næringsdeklaration</h2>
+
+<p>Giver oplysninger om fødevarens indhold pr. 100 gram eller 100 ml.</p>
+
+<p>Energiindhold opgives i kilojoule (kJ) og kalorier (kcal). 1 kcal = 4,2 kJ.</p>
+
+<ul>
+  <li>Fedt opdeles i mættede og umættede fedtsyrer.</li>
+  <li>Kulhydrater viser den samlede mængde kulhydrater, herunder sukkerarter.</li>
+  <li>Protein angiver proteinindholdet.</li>
+  <li>Salt angives enten direkte eller som natrium (1 g natrium = 2,5 g salt).</li>
+</ul>
+
+<p>Du skal være opmærksom på, at de færreste madvarer opgiver indholdet af fedt som <strong>fedtenergiprocenten</strong>. Derfor skal du ofte selv i gang med at regne lidt, hvis du vil have et retvisende bud på fedtindholdet i fødevaren.</p>
+
+<p><strong>Læs</strong>: <a href="/fedtenergiprocent/">Forskellen på fedtprocent og fedtenergiprocent</a></p>
+
+<p>Du kan også tjekke det reelle indhold i gram af fx kulhydrat og protein. Det er i sidste ende antallet af gram du får af de forskellige fødevarer.</p>
+
+<p>Du kan prøve vores beregnere:</p>
+
+<ul>
+  <li><a href="/kulhydratforbrug/">Kulhydratforbrug under arbejde</a></li>
+  <li><a href="/dagligt-protein-indtagelse/">Hvor meget protein har jeg brug for om dagen?</a></li>
+</ul>
+
+<h2 id="sammenligning-af-proteinbarer">Sammenligning af proteinbarer</h2>
+
+<p>Jeg kunne have valgt hvilken som helst fødevare, men her har jeg valgt at sammenligne to proteinbarer.</p>
+
+<p>Den ene er <a href="https://www.bodylab.dk/shop/protein-bar-4490p.html">Bodylab Chokolate Brownie Protein Bar</a> og den anden er <a href="https://www.maxim.dk/product/maxim-40-protein-bar-soft-raspberry/">Maxim 40% Proteinbar Soft Rasberry</a>.</p>
+
+<h3 id="ingredienslisten">Ingredienslisten</h3>
+
+<p>Som du kan se på listen, så er der brugt kunstige sødemidler i højere grad i den ene proteinbar.</p>
+
+<figure class="half "><img src="/assets/images/blog/ingrediensliste-maxim.jpg" alt="" /><img src="/assets/images/blog/ingrediensliste-bodylab.jpg" alt="" />
+  
+    <figcaption>Ingredienslisten
+</figcaption>
+  
+</figure>
+
+<h3 id="næringsindholdet">Næringsindholdet</h3>
+
+<p>Når du sammenligner de to bars, så lægger du mærke til, at der er flere kalorier i den ene bar.</p>
+
+<p>De har også lidt forskellig vægt.</p>
+
+<p>Du kan også se, at den større kalorietæthed i den ene bar bl.a. skyldes et højere fedtindhold og sukkerindhold, mens proteinindholdet faktisk er lidt lavere.</p>
+
+<figure class="half "><img src="/assets/images/blog/ingrediensliste-naering-maxim.jpg" alt="" /><img src="/assets/images/blog/ingrediensliste-bodylab-naering.jpg" alt="" />
+  
+    <figcaption>Næringsindholdet
+</figcaption>
+  
+</figure>
+
+<p>Dette siger naturligvis ikke noget om smagen i de to proteinbarer.</p>
+
+<h2 id="referenceindtag-ri-og-gda">Referenceindtag (RI) og GDA</h2>
+
+<ul>
+  <li><strong>Referenceindtag (RI)</strong> viser, hvor meget en portion bidrager til en gennemsnitspersons daglige anbefalede indtag.</li>
+  <li><strong>GDA (Guideline Daily Amounts)</strong> viser indhold per portion, men vær opmærksom på, at en “portion” kan være mindre end den mængde, du reelt spiser.</li>
+</ul>
+
+<h2 id="varebetegnelse">Varebetegnelse</h2>
+
+<p>Navnet på produktet skal være klart og beskrivende. Det må ikke være vildledende eller fantasifuldt, medmindre det samtidig tydeligt beskriver indholdet. Eksempelvis må en “smørbagt kage” ikke kaldes sådan, hvis den ikke indeholder smør.</p>
+
+<h2 id="mærker">Mærker</h2>
+
+<p>Mange produkter er forsynet med mærker, der angiver særlige egenskaber. <a href="https://taenk.dk/forbrugerliv/mad-og-indkoeb/maerker-du-skal-kende-naar-du-koeber-ind">Tænk</a> mener, der er hele 19 mærker, du bør kende til, når du køber ind.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/19-maerker-du-skal-kende.webp" alt="" loading="lazy" /><figcaption>
+      Kilde: <a href="https://taenk.dk/forbrugerliv/mad-og-indkoeb/maerker-du-skal-kende-naar-du-koeber-ind">Tænk</a>
+
+    </figcaption></figure>
+
+<p>Sørligt bør du lægge mærke til følgende:</p>
+
+<ul>
+  <li>Økologimærker (dansk og europæisk) viser, at produktet er produceret uden kunstige pesticider og GMO.</li>
+  <li>Fairtrade-mærket sikrer bedre vilkår for producenterne i udviklingslande.</li>
+  <li>Fuldkornsmærket angiver, at produktet indeholder en høj andel af fuldkorn.</li>
+</ul>
+
+<h2 id="vægt">Vægt</h2>
+
+<p>Alle madvarer angives med nettovægt (uden emballage). For produkter med væske, f.eks. tun i olie, kan både nettovægt og drænet vægt være oplyst.</p>
+
+<h2 id="holdbarhed">Holdbarhed</h2>
+
+<ul>
+  <li>“Bedst før”-dato betyder, at varen stadig kan spises efter denne dato, så længe den lugter og smager fint.</li>
+  <li>“Sidste anvendelsesdato” betyder, at varen ikke bør indtages efter denne dato, da den kan være sundhedsskadelig.</li>
+</ul>
+
+<h2 id="opbevaring">Opbevaring</h2>
+
+<p>Anvisninger om opbevaring sikrer, at produktet holder sig bedst muligt. Holdbarheden forkortes, når produktet åbnes.</p>
+
+<h2 id="producentoplysninger">Producentoplysninger</h2>
+
+<p>Det skal være muligt at kontakte producenten, hvis du har spørgsmål eller klager.</p>
+
+<p>Med denne viden kan du lettere navigere i varedeklarationer og træffe bevidste valg i supermarkedet!</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Guiden forklarer, hvordan man læser og forstår en varedeklaration, så man kan træffe informerede valg om fødevarer. Den gennemgår de vigtigste elementer, herunder ingredienslisten, næringsindhold pr. 100 g, samt hvordan energi, makronæringsstoffer og tilsætningsstoffer opgøres.</p>
+
+<p>Derudover forklares, hvordan man kan sammenligne produkter, identificere skjulte sukkerarter og fedtstoffer, samt vurdere portionsstørrelser i forhold til ens kostmål. Formålet er at give en praktisk forståelse af varedeklarationer, så man kan navigere bedre i supermarkedet og vælge sundere alternativer.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvordan-finder-jeg-næringsindholdet-hvis-der-ikke-er-en-varedeklaration">Hvordan finder jeg næringsindholdet, hvis der ikke er en varedeklaration?</h3></summary>
+<p>Hvis der ikke er varedeklaration på fødevaren, fx på frugt, så kan du finde næringsindholdet i <a href="/kalorietaeller-apps/">gratis kalorietæller apps</a> eller i nogle af vores <a href="/kalorietabellen/">kalorietabeller</a>, der er baseret på Fødevaredatabanken lavet af Fødevareinstituttet på Danmarks Tekniske Universitet (DTU).</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvordan finder jeg næringsindholdet, hvis der ikke er en varedeklaration?","acceptedAnswer":{"@type":"Answer","text":"Hvis der ikke er varedeklaration på fødevaren, fx på frugt, så kan du finde næringsindholdet i <a href='/kalorietaeller-apps/'>gratis kalorietæller apps</a> eller i nogle af vores <a href='/kalorietabellen/'>kalorietabeller</a>, der er baseret på Fødevaredatabanken lavet af Fødevareinstituttet på Danmarks Tekniske Universitet (DTU).\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Viola, G. C. V., Bianchi, F., Croce, E., &amp; Ceretti, E. (2016). Are food labels effective as a means of health prevention?. Journal of public health research, 5(3).</li>
+    <li>Miller, L. M. S., Applegate, E., Beckett, L. A., Wilson, M. D., &amp; Gibson, T. N. (2017). Age differences in the use of serving size information on food labels: numeracy or attention?. Public health nutrition, 20(5), 786-796.</li>
+    <li>Van der Horst, K., Bucher, T., Duncanson, K., Murawski, B., &amp; Labbe, D. (2019). Consumer Understanding, Perception and Interpretation of Serving Size Information on Food Labels: A Scoping Review. Nutrients, 11(9), 2189.</li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kost &amp; Ernæring&quot;]" /><category term="kost &amp; ernæring" /><category term="kost" /><summary type="html"><![CDATA[Få styr på varedeklarationer! Lær, hvordan du læser og forstår næringsindholdet og ingredienserne, så du kan træffe de rigtige valg med din kost.]]></summary></entry><entry><title type="html">Bakketræning: bakkeløb, bakkesprints og bakkeintervaller</title><link href="https://www.motionsplan.dk/bakkesprint-bakkeloeb/" rel="alternate" type="text/html" title="Bakketræning: bakkeløb, bakkesprints og bakkeintervaller" /><published>2025-03-20T00:00:00+00:00</published><updated>2025-03-17T09:41:09+00:00</updated><id>https://www.motionsplan.dk/bakkesprints</id><content type="html" xml:base="https://www.motionsplan.dk/bakkesprint-bakkeloeb/"><![CDATA[<p>Bakketræning er en af de mest effektive måder at forbedre din løbeøkonomi, styrke og kondition. Men hvordan strukturerer du din træning bedst muligt for at få det maksimale udbytte?</p>
+
+<p>Denne guide giver dig en videnskabeligt funderet tilgang til bakkeløb, bakkesprints og bakkeintervaller.</p>
+
+<h2 id="den-videnskabelige-baggrund-for-bakketræning">Den videnskabelige baggrund for bakketræning</h2>
+
+<p>Forskning har vist, at bakketræning har en positiv effekt på præstationsevnen hos løbere. Et studie fra 2013 af Barnes et al. konkluderede, at kortvarige, højintense bakkeintervaller forbedrer løbeøkonomien, mens længere bakkeintervaller ved lavere intensitet har en gavnlig effekt på konditallet.</p>
+
+<p>Derudover viste et ældre studie fra 1997, at bakketræning aktiverer en større muskelmasse i underkroppen sammenlignet med fladt løb. Et studie fra 1999 på Team Danmarks testcenter påviste også, at orienteringsløbere – som ofte træner i kuperet terræn – har en markant bedre løbeøkonomi end baneløbere.</p>
+
+<h2 id="bakketræning-vs-intervaltræning-på-flad-vej">Bakketræning vs. intervaltræning på flad vej</h2>
+
+<p>Et nyere studie fra 2012 af Ferley et al. undersøgte, om bakketræning var mere effektiv end intervaltræning på flad vej. Resultaterne viste, at begge træningsformer forbedrede præstationsevnen markant efter seks uger, men der var ingen signifikant forskel mellem de to.</p>
+
+<h2 id="sådan-strukturerer-du-din-bakketræning">Sådan strukturerer du din bakketræning</h2>
+
+<p>For at få det maksimale udbytte af bakketræning bør du inkludere både korte og lange bakkeintervaller:</p>
+
+<ul>
+  <li><strong>Korte bakkesprints (100-120m)</strong> – meget høj intensitet (~20-25 sekunder pr. sprint)</li>
+  <li><strong>Længere bakkeintervaller (250-400m)</strong> – moderat intensitet (~40-70 sekunder pr. interval)</li>
+</ul>
+
+<h3 id="eksempel-på-bakketræningspas">Eksempel på bakketræningspas</h3>
+
+<ul>
+  <li><strong>12-15 x 120m bakkesprints</strong> med jog tilbage</li>
+  <li><strong>8-12 x 300m bakkeintervaller</strong> med jog tilbage</li>
+</ul>
+
+<p>Bakkehældningen bør være:</p>
+
+<ul>
+  <li><strong>10-20%</strong> for korte bakker</li>
+  <li><strong>5-15%</strong> for længere bakker</li>
+</ul>
+
+<h2 id="løb-lange-ture-i-bakket-terræn">Løb lange ture i bakket terræn</h2>
+
+<p>Hvis du træner til lange distancer, som fx et marathon, kan det være fordelagtigt at løbe dine lange ture i kuperet terræn. En metode er at bruge fartleg, hvor du løber hurtigt op ad bakkerne og holder et stabilt tempo nedad.</p>
+
+<h2 id="effektiv-løbeteknik-på-bakker">Effektiv løbeteknik på bakker</h2>
+
+<h3 id="op-ad-bakke">Op ad bakke</h3>
+
+<ul>
+  <li>Hold en let fremadlænet kropsholdning for at modvirke bagvægt</li>
+  <li>Arbejd aktivt med armene</li>
+  <li>Find en passende skridtlængde – for kort kan øge energiforbruget, mens for lange skridt reducerer effektiviteten</li>
+</ul>
+
+<h3 id="ned-ad-bakke">Ned ad bakke</h3>
+
+<p>Løb ned ad bakker kan være skadeligt, hvis du bremser for meget. Et studie fra 2011 viste, at:</p>
+
+<ul>
+  <li>En for kort skridtlængde øger det samlede energiforbrug</li>
+  <li>En for lang skridtlængde kan føre til unødvendige bremsekræfter</li>
+</ul>
+
+<p>For at reducere skadesrisikoen:</p>
+
+<ul>
+  <li>Læn dig let fremad i faldretningen</li>
+  <li>Aktivér baglåret for at trække benet hurtigt op efter landing</li>
+  <li>Undgå at bremse – lad benene rulle naturligt nedad</li>
+</ul>
+
+<h2 id="bakkesprints--hvorfor-hældningen-er-vigtig">Bakkesprints – Hvorfor hældningen er vigtig</h2>
+
+<p><a href="https://www.linkedin.com/posts/andreas-kj%C3%A6rsgaard-christensen-a1183490_jeg-har-skrevet-lidt-om-bakkesprint-og-h%C3%A6ldningens-activity-7305477487738720258-pKT4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAAYOSwBmjuEFifvFROqqJnnlEPuvDHHXHQ">Andreas Kjærsgaard Christensen</a> har skrevet et tankevækkende Linkedin-opslag.</p>
+
+<p>Her berører han hvordan bakkens hældning påvirker sprintmekanikken, og hvad betyder det for præstation og skadesforebyggelse?</p>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7305477407824572416?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<p>Bakkens hældning dikterer sprintmekanikken og træningsstimuli. Overvej dette, når du designer og programmerer bakkesprints.</p>
+
+<p>Alle de følgende pointer er Andreas Kjærsgaard Christensens:</p>
+
+<h3 id="sådan-påvirker-hældningen-sprintmekanikken">Sådan påvirker hældningen sprintmekanikken</h3>
+
+<p>Det centrale koncept bag bakkesprints er, at man lander på et højere punkt, end hvor man tog afsæt. Tyngdekraften fungerer som en ekstern “modstand”, og jo stejlere bakken er, desto større bliver kravet til den vertikale impuls (kraft x tid) i hvert skridt.</p>
+
+<h3 id="sprintmekanik-på-stejle-bakker">Sprintmekanik på stejle bakker</h3>
+
+<p>Når hældningen øges, ændrer sprintmekanikken sig mod en mere “skubbende” bevægelse gennem hofte, knæ og ankel. Forskning (Okudaira, 2021) viser, at øget hældning fører til:</p>
+
+<ul>
+  <li>Større fleksion i knæ, hofte og ankel (dorsalfleksion) ved fodisæt</li>
+  <li>Mere fremadrettet kropshældning</li>
+  <li>Ændringer i benenes koordination med øget anti-fase kinematik</li>
+</ul>
+
+<p>Disse biomekaniske ændringer minder om dem, der ses i de tidlige faser af acceleration på flad grund. Det antyder, at:</p>
+
+<ul>
+  <li>Stejle bakker er ideelle til at udvikle tidlig acceleration</li>
+  <li>Moderate hældninger kan være bedre til at målrette sen acceleration</li>
+</ul>
+
+<h3 id="hældningen-som-en-træningsparameter">Hældningen som en træningsparameter</h3>
+
+<p>En væsentlig forskel mellem sprint på bakker og på flad grund er den reducerede vertikale afstand, som det svingende ben skal bevæge sig nedad i den sene svingfase. Dette ændrer sprintmekanikken og fører til:</p>
+
+<ul>
+  <li>Mere bøjning i knæet i den sene svingfase og ved fodisæt</li>
+  <li>Reduceret evne til aggressivt at drive foden nedad og bagud lige før fodkontakt</li>
+</ul>
+
+<h3 id="hvorfor-dette-er-vigtigt-for-præstation-og-skadesrisiko">Hvorfor dette er vigtigt for præstation og skadesrisiko</h3>
+
+<p>Denne mekaniske ændring mindsker belastningen på hasemusklerne i den sene svingfase, hvor mange sprintrelaterede skader opstår.</p>
+
+<p>Derfor er bakkesprints et værdifuldt redskab til både skadesforebyggelse og genoptræning. De fungerer som en effektiv overgang tilbage til højhastighedssprint for skadede atleter og kan også bruges som en justering i forberedende og sæsontræning.</p>
+
+<h2 id="konklusion-kom-ud-i-bakkerne">Konklusion: Kom ud i bakkerne!</h2>
+
+<p>Bakketræning er en værdifuld del af ethvert løbeprogram, uanset om du træner til et kuperet løb eller blot vil forbedre din styrke og kondition.</p>
+
+<p>Ved at kombinere korte sprints, længere intervaller og teknisk træning opnår du de bedste resultater. Kom ud i bakkerne – din løbeøkonomi og styrke vil takke dig!</p>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Energetically optimal stride frequency in running: the effects of incline and decline.
+Snyder KL, Farley CT. J Exp Biol. 2011 Jun 15;214(Pt 12):2089-95. doi: 10.1242/jeb.053157.</li>
+    <li>Lower extremity muscle activation during horizontal and uphill running.
+Sloniger MA, Cureton KJ, Prior BM, Evans EM. J Appl Physiol. 1997 Dec;83(6):2073-9.</li>
+    <li>Ground reaction forces during downhill and uphill running.
+Gottschall JS, Kram R. J Biomech. 2005 Mar;38(3):445-52.</li>
+    <li>Effects of Different Uphill Interval-Training Programs on Running Economy and Performance.
+Barnes KR, Hopkins WG, McGuigan MR, Kilding AE. Int J Sports Physiol Perform. 2013 Mar 26. [Epub ahead of print]</li>
+    <li>The Effects of Uphill vs. Level-Grade High-Intensity Interval Training on VO2max, VMax, VLT and TMax in Well-Trained Distance Runners.
+Ferley DD, Osborn RW, Vukovich MD. J Strength Cond Res. 2012 Sep 19. [Epub ahead of print]</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Løb&quot;]" /><category term="træning" /><summary type="html"><![CDATA[Optimer din løbeøkonomi med bakketræning. Lær de bedste teknikker, intervaller og videnskabeligt funderede metoder til at forbedre din præstation.]]></summary></entry><entry><title type="html">Parat til Forsvarets fysiske test - sådan klarer du kravene</title><link href="https://www.motionsplan.dk/forsvarets-fysiske-test/" rel="alternate" type="text/html" title="Parat til Forsvarets fysiske test - sådan klarer du kravene" /><published>2025-03-20T00:00:00+00:00</published><updated>2025-03-17T09:41:09+00:00</updated><id>https://www.motionsplan.dk/forsvarets-fysiske-test</id><content type="html" xml:base="https://www.motionsplan.dk/forsvarets-fysiske-test/"><![CDATA[<p>Forsvarets fysiske test er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition og styrke. For at bestå skal du leve op til minimumskravene for øvelser som 12 minutters løb eller en bip-test og en række styrkeøvelser.</p>
+
+<p>Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå forsvarets fysiske optagelsesprøve.</p>
+
+<p>Du får også konkrete træningstips, så du kan optimere din præstation.</p>
+
+<h2 id="hvad-er-forsvaerets-fysiske-tests">Hvad er forsvaerets fysiske tests?</h2>
+
+<p><strong>Forsvarets fysiske tests består af 12 minutters løb eller en bip-test efterfulgt af en række styrkeøvelser: Splitsquat, dips på bænk, liggende kropshævninger og burpees. Testene bedømmes forskelligt for mænd og kvinder. Du skal bestå alle tests for at bestå de fysiske krav.</strong></p>
+
+<p>Når du søger ind til Forsvaeret og er så heldig at komme til optagelsesprøve, så vil du gennemgå en fysisk optagelsesprøve.</p>
+
+<p>Den fysiske optagelsesprøve til Forsvaret tager omkring 1 time inklusiv tilbagemelding på din præstation i de fysiske tests.</p>
+
+<h2 id="træn-til-hele-den-fysiske-test">Træn til hele den fysiske test</h2>
+
+<p>Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til <a href="/politiets-optagelsesproeve/">politiets optagelsesprøve</a>.</p>
+
+<p>Jeg oplever mange elever, der bliver lidt overraskede over hvor hård <a href="/politiets-fysiske-tests-krav-optagelsesproeve/">politiets fysiske krav</a> er, fordi de ofte træner disciplinerne enkeltvis. Heldigvis er Forsvarets optagelsesprøve lidt lettere, men du bør stadig træne tingene samlet, så du ved hor hårdt det er.</p>
+
+<p>Forsvarets fysiske test har både en opvarmningsdel, en udholdenhedsdel og fire styrkeøvelser.</p>
+
+<p>Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.</p>
+
+<h2 id="forberedelse-til-forsvarets-fysiske-krav">Forberedelse til forsvarets fysiske krav</h2>
+
+<p>Uanset om du er mand eller kvinde, så bør forberedelserne være nogenlunde ens. Du skal naturligvis sørge for at træne specifikt til netop de fysiske krav og øvelser, du kommer ud for i selve prøven.</p>
+
+<p>Når du træner op til prøverne, så husk følgende træningsprincipper:</p>
+
+<ul>
+  <li>Princippet om <strong>progressivt overload</strong>. Byg langsomt mere og mere på din træning og lav en fornuftig plan. Du skal ikke starte din træning med det du gerne vil opnå, men bygge op til dine mål.</li>
+  <li>Princippet om <strong>specificitet</strong>. Du bliver god til det du træner. Hvis du gerne vil blive bedre på længdespringet og 2400-meter-testen, så skal du træne de discipliner. Det kommer ikke af sig selv ved at lave bænkpres.</li>
+  <li><strong>Træn sammenhængen</strong>. Det hænger egentlig sammen med princippet om specificitet. Prøven er lang, og du skal lave både opvarmning og delprøver til den fysiske optagelsesprøve hos politet. Derfor er det godt at få trænet elementerne i den rækkefølge sommetider også.</li>
+</ul>
+
+<p>Sæt dig grundigt ind i den forsvarets fysiske krav, så du kender alle øvelserne, hvordan de udføres, og hvordan du griber dem an. <strong>Du bliver god til det du træner</strong>, så derfor gælder det om at udføre øvelserne perfekt hver gang, så dine forsøg lever op til de fysiske krav, der stilles til prøven. Det er ærgerligt at få underkendt forsøg.</p>
+
+<h2 id="træningsappen-træn-med-forsvaret">Træningsappen: ‘Træn med Forsvaret’</h2>
+
+<p>Det er rimeligt tjekket, at du kan bruge Forsvarets egen app ‘Træn med Forsvaret’, som vi også har fremhævet under vores <a href="/fitness-apps/">Fitness apps</a>.</p>
+
+<figure class="third "><a href="/assets/images/apps/tmf-1.jpg" title="Træn med Forsvaret trænings app">
+          <img src="/assets/images/apps/tmf-1.jpg" alt="Træn med Forsvaret træningsapp" />
+      </a><a href="/assets/images/apps/tmf-2.jpg" title="Træn med Forsvaret træning app">
+          <img src="/assets/images/apps/tmf-2.jpg" alt="Træn med Forsvaret træning app" />
+      </a><a href="/assets/images/apps/tmf-3.jpg" title="Træn med Forsvaret trænings app">
+          <img src="/assets/images/apps/tmf-3.jpg" alt="Træn med Forsvaret træningsapp" />
+      </a>
+  
+</figure>
+
+<p>Her får du en enkel måde at forberede dig til prøven på.</p>
+
+<h2 id="forsvarets-fysiske-tests-til-optagelsesprøven">Forsvarets fysiske tests til optagelsesprøven</h2>
+
+<p>Elementerne i den fysiske optagelsesprøve er ens for både mænd og kvinder.</p>
+
+<p>Forskellen mellem mænd og kvinder er, hvordan de enkelte øvelser bedømmes, hvor meget vægt man skal løfte, og så er der valgt to forskellige øvelser for kropshævninger.</p>
+
+<p>Øvelserne i forsvarets fysiske optagelsesprøve er følgende:</p>
+
+<ul>
+  <li>Opvarmning</li>
+  <li>Udholdenhedstest - <a href="/cooper-test/">Cooper 12 minutters løbetest</a> eller <a href="/bip-test/">bip udholdenhedstesten</a>.</li>
+  <li>Styrketest - split squat, dips på bænk, træk til bryst og burpees.</li>
+</ul>
+
+<p>Tjek de samlede krav på <a href="https://karriere.forsvaret.dk/uddannelse/optagelsesprove-officer/fysisk-test-niveau-1/">forsvarets hjemmeside</a>.</p>
+
+<h2 id="hvordan-bedømmes-forsvarets-fysiske-optagelsesprøve">Hvordan bedømmes forsvarets fysiske optagelsesprøve?</h2>
+
+<p>Du skal gennemføre det hele for at bestå. Det er bestået / ikke bestået og din karakter er afhængig af din alder og præstation.</p>
+
+<h2 id="træning-til-forsvarets-fysiske-tests">Træning til forsvarets fysiske tests</h2>
+
+<p>Nu er det egentlig bare at komme i gang med træningen til forsvarets fysiske tests, så du kan leve op til de krav forsvarets optagelsesprøve stiller.</p>
+
+<p>For at opfylde forsvarets optagelseskrav, så er det vigtigt, at du forbereder dig ordentligt til de fysiske krav.</p>
+
+<p>Det kan du gøre med appen ‘Træn med Forsvaret’.</p>
+
+<p>God træning.</p>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Tests&quot;]" /><category term="test" /><category term="optagelsesprøve" /><category term="forsvaret" /><summary type="html"><![CDATA[Forsvarets optagelsesprøve inkluderer fysiske tests som løb og styrketræning. Se kravene, og få træningstips til at bestå.]]></summary></entry><entry><title type="html">Kulhydratforbrug – Beregn dit behov under træning</title><link href="https://www.motionsplan.dk/kulhydratforbrug/" rel="alternate" type="text/html" title="Kulhydratforbrug – Beregn dit behov under træning" /><published>2025-03-20T00:00:00+00:00</published><updated>2025-02-20T19:14:14+00:00</updated><id>https://www.motionsplan.dk/kulhydrat-forbrug-arbejde</id><content type="html" xml:base="https://www.motionsplan.dk/kulhydratforbrug/"><![CDATA[<p>Når du træner eller konkurrerer i udholdenhedssport som løb og cykling, er det vigtigt at sikre en tilstrækkelig tilførsel af kulhydrater for at opretholde energiniveauet.</p>
+
+<p>Denne beregner hjælper dig med at estimere dit kulhydratforbrug baseret på din vægt, intensitet og varighed af aktiviteten. På den måde kan du planlægge dit kulhydratindtag optimalt og undgå energimangel undervejs.</p>
+
+<h2 id="beregn-dit-kulhydratforbrug">Beregn dit kulhydratforbrug</h2>
+
+<form class="calculator full" id="calculator_cho_usage">
+    <fieldset>
+        <legend>Udregn kulhydratforbrug ved aktivitet</legend>
+        <div class="form-group">
+            <label>Dit kondital (ml/kg/min)
+                <input name="fitness_level" id="fitness_level" min="10" max="100" type="number" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Din vægt (kg)
+                <input name="weight" id="weight" min="10" max="200" type="number" required="" />
+            </label>
+        </div>
+        <fieldset>
+            <legend>Energiforbrug ved de forskellige intensiteter ift. VO2max</legend>
+            <table class="table" style="display: table; width: 100% !important;">
+                <caption>Angiv hvor længe du arbejder i hver zone</caption>
+                <thead>
+                    <tr>
+                        <th>Zone</th>
+                        <th style="white-space:nowrap;">Tid (m)</th>
+                        <th>Intensitet (%)</th>
+                        <th>R-værdi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Restitution</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone1_time" id="cho_zone1_time" /></td>
+                        <td><input type="number" min="0" max="100" value="40" id="cho_zone1_a" name="cho_zone1_a" class="input-mini input-locked" />
+                            -<input type="number" class="input-mini input-locked" value="55" id="cho_zone1_b" name="cho_zone1_b" />%</td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone1_r" name="cho_zone1_r" step="0.01" value="0.80" /></td>
+                    </tr>
+                    <tr>
+                        <td>Udholdenhed</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone2_time" id="cho_zone2_time" /></td>
+                        <td><input type="number" size="3" min="0" max="100" value="56" class="input-mini input-locked" id="cho_zone2_a" name="cho_zone2_a" />
+                            -<input type="number" class="input-mini input-locked" value="75" id="cho_zone2_b" name="cho_zone2_b" />%</td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone2_r" name="cho_zone2_r" step="0.01" value="0.85" /></td>
+                    </tr>
+                    <tr>
+                        <td>Moderat</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone3_time" id="cho_zone3_time" /></td>
+                        <td><input type="number" min="0" max="100" value="76" id="cho_zone3_a" name="cho_zone3_a" class="input-mini input-locked" />
+                            -<input type="number" class="input-mini input-locked" value="85" id="cho_zone3_b" name="cho_zone3_b" />%</td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone3_r" name="cho_zone3_r" step="0.01" value="0.90" /></td>
+                    </tr>
+                    <tr>
+                        <td>Tærskel</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone4_time" id="cho_zone4_time" /></td>
+                        <td><input type="number" min="0" max="100" value="86" id="cho_zone4_a" name="cho_zone4_a" class="input-mini input-locked" />
+                            -<input type="number" class="input-mini input-locked" value="95" id="cho_zone4_b" name="cho_zone4_b" />%</td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone4_r" name="cho_zone4_r" step="0.01" value="1.00" /></td>
+                    </tr>
+                    <tr>
+                        <td>VO2max</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone5_time" id="cho_zone5_time" /></td>
+                        <td style="white-space:nowrap;"><input min="0" max="100" type="number" value="95" id="cho_zone5_a" name="cho_zone5_a" class="input-mini input-locked" />
+                            -<input class="input-mini input-locked" type="number" disabled="" value="100" id="cho_zone5_b" name="cho_zone5_b" />%</td>
+                        <td><input class="input-mini" type="number" step="0.01" min="0.70" max="1.00" id="cho_zone5_r" name="cho_zone5_r" value="1.00" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <legend>Energiforbrug ved de forskellige intensiteter</legend>
+        <table class="table" style="width: 100% !important; display: table;">
+            <caption>Resultater</caption>
+            <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th style="white-space:nowrap;">Tid (m)</th>
+                    <th>Intensitet (%)</th>
+                    <th>R-værdi</th>
+                    <th>Kalorier</th>
+                    <th>Fedt (g)</th>
+                    <th>CHO (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Restitution</td>
+                    <td id="cho_zone1_output_time"></td>
+                    <td id="cho_zone1_output_int"></td>
+                    <td id="cho_zone1_output_r"></td>
+                    <td id="cho_zone1_output_kcal"></td>
+                    <td id="cho_zone1_output_fat"></td>
+                    <td id="cho_zone1_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>Udholdenhed</td>
+                    <td id="cho_zone2_output_time"></td>
+                    <td id="cho_zone2_output_int"></td>
+                    <td id="cho_zone2_output_r"></td>
+                    <td id="cho_zone2_output_kcal"></td>
+                    <td id="cho_zone2_output_fat"></td>
+                    <td id="cho_zone2_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>Moderat</td>
+                    <td id="cho_zone3_output_time"></td>
+                    <td id="cho_zone3_output_int"></td>
+                    <td id="cho_zone3_output_r"></td>
+                    <td id="cho_zone3_output_kcal"></td>
+                    <td id="cho_zone3_output_fat"></td>
+                    <td id="cho_zone3_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>Tærskel</td>
+                    <td id="cho_zone4_output_time"></td>
+                    <td id="cho_zone4_output_int"></td>
+                    <td id="cho_zone4_output_r"></td>
+                    <td id="cho_zone4_output_kcal"></td>
+                    <td id="cho_zone4_output_fat"></td>
+                    <td id="cho_zone4_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>VO2max</td>
+                    <td id="cho_zone5_output_time"></td>
+                    <td id="cho_zone5_output_int"></td>
+                    <td id="cho_zone5_output_r"></td>
+                    <td id="cho_zone5_output_kcal"></td>
+                    <td id="cho_zone5_output_fat"></td>
+                    <td id="cho_zone5_output_cho"></td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>I alt</td>
+                <td id="cho_total_time"></td>
+                <td style="white-space:nowrap;"></td>
+                <td></td>
+                <td id="cho_total_kcal"></td>
+                <td id="cho_total_fat"></td>
+                <td id="cho_total_cho"></td>
+            </tr>
+        </tfoot>
+        </table>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Ved at kende dit forventede kulhydratforbrug pr. time kan du bedre tilpasse din ernæringsstrategi og sikre, at du har tilstrækkelig energi til hele træningen eller konkurrencen.</p>
+
+<p>Brug beregneren til at finde det rigtige indtag og optimere din præstation.</p>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvordan-fungerer-beregneren">Hvordan fungerer beregneren?</h3></summary>
+<p>Beregneren udnytter, at når du kender iltoptagelsen og R-værdien, så kender du nogenlunde også forbruget af næringsstoffer.</p>
+
+<p>Som udgangspunkt er beregneren sat til en person, som har en fornuftig metabolisk profil ift. fedtforbrænding og kulhydratforbrænding.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvordan fungerer beregneren?","acceptedAnswer":{"@type":"Answer","text":"Beregneren udnytter, at når du kender iltoptagelsen og R-værdien, så kender du nogenlunde også forbruget af næringsstoffer.\n\nSom udgangspunkt er beregneren sat til en person, som har en fornuftig metabolisk profil ift. fedtforbrænding og kulhydratforbrænding.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kost &amp; Ernæring&quot;]" /><category term="kost &amp; ernæring" /><category term="makronæringsstof" /><category term="kost" /><category term="beregner" /><summary type="html"><![CDATA[Beregn dit kulhydratforbrug under løb og cykling. Brug denne beregner til at planlægge dit kulhydratindtag og optimere din præstation.]]></summary></entry><entry><title type="html">Montreal University Track Test – Guide til Aerob Fitnessmåling</title><link href="https://www.motionsplan.dk/montreal-university-track-test/" rel="alternate" type="text/html" title="Montreal University Track Test – Guide til Aerob Fitnessmåling" /><published>2025-03-16T00:00:00+00:00</published><updated>2025-02-18T22:21:26+00:00</updated><id>https://www.motionsplan.dk/montreal-track-test</id><content type="html" xml:base="https://www.motionsplan.dk/montreal-university-track-test/"><![CDATA[<p>Den <strong>Université de Montréal Track Test (UM-TT)</strong>, også kendt som <strong>Montreal Track Test</strong>, er en maksimal, kontinuerlig, indirekte multistage-løbetest, der vurderer den aerobe kapacitet baseret på løbets energiforbrug. Denne test blev først beskrevet af <strong>Léger &amp; Boucher (1980)</strong> og var en forløber for den mere kendte <a href="/bip-test/">Bip Test</a>.</p>
+
+<h2 id="formål">Formål</h2>
+
+<p>Montreal Track Test anvendes til at vurdere en persons <strong>aerobe fitnessniveau</strong>, hvilket gør den særligt relevant for sportsudøvere og trænere.</p>
+
+<h2 id="udstyr">Udstyr</h2>
+
+<p>For at gennemføre testen kræves følgende:</p>
+
+<ul>
+  <li>400m løbebane</li>
+  <li>Markeringskegler</li>
+  <li>Målebånd</li>
+  <li>Lydoptagelse med testens signaler (tidligere tilgængelig på CD eller kassettebånd)</li>
+  <li>CD-afspiller</li>
+</ul>
+
+<p class="notice--info">Jeg har desværre ikke kunnet finde optagelsen nogle steder. Jeg er på udkig efter den. Hvis du ved, hvordan man kan skaffe den, så skriv endelig.</p>
+
+<h2 id="forberedelse">Forberedelse</h2>
+
+<p>Før testen påbegyndes, bør følgende forberedelser foretages:</p>
+
+<ol>
+  <li>Forklar testproceduren for deltagerne.</li>
+  <li>Gennemfør en sundhedsrisikovurdering og indhent informeret samtykke.</li>
+  <li>Registrér grundlæggende data som alder, højde, vægt, køn og testforhold.</li>
+  <li>Mål og markér testbanen korrekt.</li>
+  <li>Udfør en grundig opvarmning.</li>
+</ol>
+
+<figure class="">
+  <img src="/assets/images/blog/montreal-track-test.webp" alt="" loading="lazy" /><figcaption>
+      Sådan opstilles banen til Montreal University Track Test
+
+    </figcaption></figure>
+
+<h2 id="testprocedure">Testprocedure</h2>
+
+<p>Montreal Track Test gennemføres på en <strong>400 meter løbebane</strong>, hvor kegler placeres for hver <strong>50 meter</strong>. Testen starter med en <strong>ganghastighed på 6 km/t</strong>, hvorefter hastigheden øges med <strong>1,2 km/t hvert andet minut</strong>.</p>
+
+<p>Ændringen i tempo signaleres via lydbeskeder fra en forudindspillet optagelse.</p>
+
+<p>Deltageren fortsætter, indtil de:</p>
+
+<ul>
+  <li>Ikke når inden for <strong>5 meter</strong> af den påkrævede markering.</li>
+  <li>Ikke længere kan følge med testens tempo.</li>
+</ul>
+
+<h2 id="scoring-og-vo2max-beregning">Scoring og VO2max-beregning</h2>
+
+<p>Testscoren er den <strong>samlede distance</strong> løbet i meter. Denne score kan omregnes til <strong>VO2max</strong> ved hjælp af følgende formel (Ahmaidi et al., 1992):</p>
+
+<p><img src="https://latex.codecogs.com/svg.latex?VO2max = 1.353 + (3.163 \times \text{hastighed i sidste fase}) + (0.0122586 \times (\text{hastighed i sidste fase})^2)" title="VO2max = 1.353 + (3.163 \times \text{hastighed i sidste fase}) + (0.0122586 \times (\text{hastighed i sidste fase})^2)" alt="VO2max = 1.353 + (3.163 \times \text{hastighed i sidste fase}) + (0.0122586 \times (\text{hastighed i sidste fase})^2)" loading="lazy" /></p>
+
+<h2 id="målgruppe">Målgruppe</h2>
+
+<p>Montreal Track Test er velegnet til atleter i <strong>holdbaserede sportsgrene</strong> såsom:</p>
+
+<ul>
+  <li>Fodbold</li>
+  <li>Rugby</li>
+  <li>AFL (Australian Football League)</li>
+  <li>Landhockey</li>
+  <li>Håndbold</li>
+  <li>Basketball</li>
+</ul>
+
+<h2 id="fordele">Fordele</h2>
+
+<p>✔ Let at administrere på en standard løbebane<br />
+✔ Kan udføres af store grupper samtidigt<br />
+✔ Minimal omkostning, når testmaterialet er anskaffet</p>
+
+<h2 id="ulemper">Ulemper</h2>
+
+<p>❌ Kræver motiverede deltagere, da præstationen kan påvirkes af indsatsniveau<br />
+❌ Subjektiv vurdering af, hvornår en deltager falder fra<br />
+❌ Miljøforhold (vind, temperatur, underlag) kan påvirke testresultaterne<br />
+❌ <strong>Biptesten</strong> blev udviklet for at muliggøre en <strong>indendørs test med mindre pladsbehov</strong></p>
+
+<h2 id="andre-overvejelser">Andre overvejelser</h2>
+
+<p>Montreal Track Test er en <strong>maksimal konditionstest</strong>, der kræver en rimelig grundform. Den <strong>anbefales ikke</strong> til:</p>
+
+<ul>
+  <li>Motionister</li>
+  <li>Personer med helbredsproblemer eller skader</li>
+  <li>Deltagere med lavt konditionsniveau</li>
+</ul>
+
+<h3 id="relateret-test">Relateret test</h3>
+<p>Hvis du leder efter en lignende test, men med mulighed for <strong>indendørs udførelse</strong>, kan du læse mere om <a href="/bip-test/">Bip Testen</a>.</p>
+
+<h2 id="faq---ofte-stillede-spørgsmål">FAQ - Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvordan-adskiller-montreal-track-test-sig-fra-biptesten">Hvordan adskiller Montreal Track Test sig fra biptesten?</h3></summary>
+<p>Montreal Track Test kræver en 400m bane og har en gradvis hastighedsstigning, mens biptesten kan udføres på mindre plads med skiftende løb frem og tilbage.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-præcis-er-testen-til-at-måle-vo2max">Hvor præcis er testen til at måle VO2max?</h3></summary>
+<p>Den giver en god estimering, men laboratorietests er mere præcise.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-forbereder-man-sig-bedst">Hvordan forbereder man sig bedst?</h3></summary>
+<p>Opvarmning, god hydrering og let mad 1-2 timer før testen kan forbedre præstationen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvorfor-betyder-motivation-noget-i-testen">Hvorfor betyder motivation noget i testen?</h3></summary>
+<p>Da det er en maksimal test, kan lav motivation give en dårligere score end konditionen egentlig tillader.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-testen-bruges-til-at-spore-fremskridt">Kan testen bruges til at spore fremskridt?</h3></summary>
+<p>Ja, gentagne tests kan vise ændringer i aerob kapacitet over tid.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-der-en-digital-version-af-testen">Er der en digital version af testen?</h3></summary>
+<p>Der findes apps til testadministration, men selve testen kræver stadig en fysisk bane og lydoptagelse.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvordan adskiller Montreal Track Test sig fra biptesten?","acceptedAnswer":{"@type":"Answer","text":"Montreal Track Test kræver en 400m bane og har en gradvis hastighedsstigning, mens biptesten kan udføres på mindre plads med skiftende løb frem og tilbage.\n"}},{"@type":"Question","name":"Hvor præcis er testen til at måle VO2max?","acceptedAnswer":{"@type":"Answer","text":"Den giver en god estimering, men laboratorietests er mere præcise.\n"}},{"@type":"Question","name":"Hvordan forbereder man sig bedst?","acceptedAnswer":{"@type":"Answer","text":"Opvarmning, god hydrering og let mad 1-2 timer før testen kan forbedre præstationen.\n"}},{"@type":"Question","name":"Hvorfor betyder motivation noget i testen?","acceptedAnswer":{"@type":"Answer","text":"Da det er en maksimal test, kan lav motivation give en dårligere score end konditionen egentlig tillader.\n"}},{"@type":"Question","name":"Kan testen bruges til at spore fremskridt?","acceptedAnswer":{"@type":"Answer","text":"Ja, gentagne tests kan vise ændringer i aerob kapacitet over tid.\n"}},{"@type":"Question","name":"Er der en digital version af testen?","acceptedAnswer":{"@type":"Answer","text":"Der findes apps til testadministration, men selve testen kræver stadig en fysisk bane og lydoptagelse.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><strong>Léger L, Boucher R.</strong> (1980) <em>An indirect continuous running multistage field test: the Université de Montréal Track Test.</em> Can J Appl Sport Sci. 5(2):77-84.</li>
+    <li><strong>Ahmaidi S, Collomp K, Caillauce C, Prefaut C.</strong> (1992) <em>Maximal and functional aerobic capacity as assessed by two graduated field methods in comparison to laboratory exercise testing.</em> Int J Sports Med 13(3):243-248.</li>
+    <li><strong>Berthoin S, Baquet G, Rabita J, Blondel N, Lensel-Corbeil G, Gerbeaux M.</strong> (1999) <em>Validity of the Université de Montréal Track Test to assess the velocity associated with peak oxygen uptake for adolescents.</em> J Sports Med Phys Fitness. 39(2):107-12.</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Løb&quot;]" /><category term="test" /><category term="løb" /><category term="løbetest" /><summary type="html"><![CDATA[Lær alt om Montreal Track Test – en løbetest til måling af VO2max og aerob fitness. Se testens procedure, scoring og sammenligning med biptesten.]]></summary></entry><entry><title type="html">Øg springkraften med vægtvest – Effektiv plyometrisk træning</title><link href="https://www.motionsplan.dk/springkraft-vaegtvest/" rel="alternate" type="text/html" title="Øg springkraften med vægtvest – Effektiv plyometrisk træning" /><published>2025-03-06T00:00:00+00:00</published><updated>2025-02-18T22:21:26+00:00</updated><id>https://www.motionsplan.dk/springstyrke-vaegtvest</id><content type="html" xml:base="https://www.motionsplan.dk/springkraft-vaegtvest/"><![CDATA[<p>Som atlet søger du konstant efter nye metoder til at forbedre din præstation. Springtræning, også kaldet plyometrisk træning, er en velkendt og effektiv metode til at øge din springkraft.</p>
+
+<p>Men hvad sker der, hvis du øger belastningen i træningen, eksempelvis ved at bruge en vægtvest? En undersøgelse udført af et internationalt forskerteam har undersøgt effekten af vægtveste i plyometrisk træning og afsløret interessante resultater, som kan hjælpe med at optimere din træning.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/kinetik-weight-vest.jpg" alt="" loading="lazy" /></figure>
+
+<h2 id="undersøgelsen">Undersøgelsen</h2>
+
+<p>I en undersøgelse, der involverede 27 basketballspillere, blev delt op i tre grupper, blev effekten af ekstra belastning testet i forbindelse med springtræning. Her er, hvordan deltagerne blev opdelt:</p>
+
+<ul>
+  <li><strong>Gruppe 1</strong>: Lavede traditionel springtræning med kun egen kropsvægt.</li>
+  <li><strong>Gruppe 2</strong>: Udførte springtræning med vægtveste svarende til 10-11% af deres kropsvægt.</li>
+  <li><strong>Gruppe 3</strong>: Var kontrolgruppe og deltog ikke i nogen springtræning.</li>
+</ul>
+
+<p>Deltagerne i gruppe 1 og 2 trænede i 10 uger og blev evalueret på deres evne til at hoppe, målt gennem en såkaldt <a href="/countermovement-jump-cmj-squat-jump-sj/">counter movement jump</a> og <a href="/squat-jump-test/">squat jump-test</a>. Resultaterne viste, at begge grupper forbedrede deres springevne, men gruppe 2, som anvendte vægtveste, opnåede de bedste resultater.</p>
+
+<p>Deltagerne fulgte denne protokol lavet af Luebbers et al (2003):</p>
+
+<figure class="">
+  <img src="/assets/images/blog/plyometrisk-program-vaegtvest.jpg" alt="" loading="lazy" /></figure>
+
+<p>Gruppen der brugte vægtvest så en gennemsnitlig forbedring på 5,34 cm, mens gruppe 1 forbedrede deres hoppehøjde med 3,1 cm. Effekten af at have ekstra belastning på var altså mærkbar.</p>
+
+<h2 id="hvorfor-virker-ekstra-belastning">Hvorfor virker ekstra belastning?</h2>
+
+<p>Det er værd at bemærke, at de deltagende spillere allerede var erfarne basketballspillere med mange års træning. For disse atleter, der allerede er gode til at springe, kan ekstra belastning give et ekstra stimuli, der fører til yderligere forbedringer i deres springkraft.</p>
+
+<p>Når du tilføjer vægt til træningen, som med en vægtvest, tvinges musklerne til at arbejde hårdere, hvilket kan føre til større udvikling af både muskelstyrke og eksplosiv kraft.</p>
+
+<p>Men effekten af ekstra belastning kan variere afhængig af den enkelte atlets erfaringsniveau og træningsstatus. For utrænede personer er effekten muligvis ikke så udtalt, og der er også en højere risiko for skader, hvis belastningen ikke er tilpasset korrekt.</p>
+
+<h2 id="hvordan-kan-du-implementere-vægtveste-i-din-træning">Hvordan kan du implementere vægtveste i din træning?</h2>
+
+<p>Hvis du er en erfaren atlet, kan det være en god idé at integrere vægtveste i din plyometriske træning for at maksimere effekten. Denne træningsmetode er især effektiv, når du har nået et niveau, hvor traditionel træning ikke længere giver de ønskede forbedringer.</p>
+
+<p>Du kan finde flere ressourcer om plyometrisk træning og <a href="/springstyrke-og-springtraening/">springstyrke</a> og <a href="/springtraening/">springtræning</a>.</p>
+
+<p>Hvis du vil teste din hoppehøjde og få indsigt i de bedste tests, kan du tjekke <a href="/springtests-hoppehoejde/">springtests og hoppehøjde</a>.</p>
+
+<h2 id="er-vægtveste-passende-for-alle">Er vægtveste passende for alle?</h2>
+
+<p>Som med al træning er det vigtigt at tilpasse vægtvestene efter individuelle behov. Mens erfarne atleter kan drage stor nytte af denne type træning, er det ikke nødvendigvis den bedste løsning for begyndere. Belastningen skal øges gradvist for at undgå skader, og for dem, der er nye i plyometrisk træning, kan det være en god idé at starte med grundlæggende øvelser uden ekstra vægt.</p>
+
+<h2 id="afslutning">Afslutning</h2>
+
+<p>At tilføje ekstra belastning til plyometrisk træning gennem vægtveste kan være en effektiv måde at forbedre din springkraft på, især for erfarne atleter, der ønsker at tage deres præstation til næste niveau.</p>
+
+<p>Husk dog at træne forsigtigt, og sørg for, at belastningen er passende for dit niveau, for at undgå skader.</p>
+
+<p>Hvis du er interesseret i at lære mere om, hvordan du kan forbedre din springkraft, kan du læse mere om <a href="https://www.motionsplan.dk/plyometrisk-traening/">plyometrisk træning</a>. Her får du en grundig forståelse af træningens principper og øvelser.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690" alt="KINETIK Vægtvest VX1" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">KINETIK Vægtvest VX1</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&amp;bannerid=67046&amp;htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest" class="btn btn--success" rel="sponsored nofollow noopener">Tjek prisen</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h2 id="faq---ofte-stillede-spørgsmål">FAQ - Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="er-det-sikkert-at-bruge-vægtveste-i-plyometrisk-træning">Er det sikkert at bruge vægtveste i plyometrisk træning?</h3></summary>
+<p>Ja, det kan være sikkert at bruge vægtveste, men det er vigtigt at sikre, at vægten er passende for dit niveau. Begynd ikke med for stor belastning, og sørg for at øge vægten gradvist for at undgå skader.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-vælger-jeg-den-rigtige-vægtvest-til-springtræning">Hvordan vælger jeg den rigtige vægtvest til springtræning?</h3></summary>
+<p>Når du vælger en vægtvest, skal du overveje din egen kropsvægt og træningserfaring. For erfarne atleter anbefales en vægt på 10-11% af deres kropsvægt, men begyndere bør starte med lavere vægt.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-kan-vægtveste-forbedre-min-springkraft">Hvordan kan vægtveste forbedre min springkraft?</h3></summary>
+<p>Ved at tilføje ekstra vægt til din træning tvinger vægtvestene dine muskler til at arbejde hårdere, hvilket kan føre til øget muskelstyrke og eksplosiv kraft. Dette er især effektivt for atleter, der allerede har erfaring med springtræning.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-bruge-vægtveste-til-andre-typer-træning">Kan jeg bruge vægtveste til andre typer træning?</h3></summary>
+<p>Ja, vægtveste kan også bruges til andre træningsformer som løb, styrketræning og funktionelle øvelser for at øge intensiteten og forbedre styrke og udholdenhed.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-vægtveste-egnet-til-begyndere">Er vægtveste egnet til begyndere?</h3></summary>
+<p>For begyndere er det bedst at starte uden vægtveste, så du kan lære de grundlæggende plyometriske øvelser korrekt. Når du bliver mere erfaren, kan du langsomt begynde at tilføje vægt for at øge intensiteten af din træning.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Er det sikkert at bruge vægtveste i plyometrisk træning?","acceptedAnswer":{"@type":"Answer","text":"Ja, det kan være sikkert at bruge vægtveste, men det er vigtigt at sikre, at vægten er passende for dit niveau. Begynd ikke med for stor belastning, og sørg for at øge vægten gradvist for at undgå skader.\n"}},{"@type":"Question","name":"Hvordan vælger jeg den rigtige vægtvest til springtræning?","acceptedAnswer":{"@type":"Answer","text":"Når du vælger en vægtvest, skal du overveje din egen kropsvægt og træningserfaring. For erfarne atleter anbefales en vægt på 10-11% af deres kropsvægt, men begyndere bør starte med lavere vægt.\n"}},{"@type":"Question","name":"Hvordan kan vægtveste forbedre min springkraft?","acceptedAnswer":{"@type":"Answer","text":"Ved at tilføje ekstra vægt til din træning tvinger vægtvestene dine muskler til at arbejde hårdere, hvilket kan føre til øget muskelstyrke og eksplosiv kraft. Dette er især effektivt for atleter, der allerede har erfaring med springtræning.\n"}},{"@type":"Question","name":"Kan jeg bruge vægtveste til andre typer træning?","acceptedAnswer":{"@type":"Answer","text":"Ja, vægtveste kan også bruges til andre træningsformer som løb, styrketræning og funktionelle øvelser for at øge intensiteten og forbedre styrke og udholdenhed.\n"}},{"@type":"Question","name":"Er vægtveste egnet til begyndere?","acceptedAnswer":{"@type":"Answer","text":"For begyndere er det bedst at starte uden vægtveste, så du kan lære de grundlæggende plyometriske øvelser korrekt. Når du bliver mere erfaren, kan du langsomt begynde at tilføje vægt for at øge intensiteten af din træning.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Khlifa, R., Aouadi, R., Hermassi, S., Chelly, M. S., Jlid, M. C., Hbacha, H., &amp; Castagna, C. (2010). Effects of a plyometric training program with and without added load on jumping ability in basketball players. Journal of Strength and Conditioning Research, 24(11), 2955–2961. <a href="https://doi.org/10.1519/JSC.0b013e3181e37fbe">https://doi.org/10.1519/JSC.0b013e3181e37fbe</a></li>
+    <li>Luebbers, P. E., Potteiger, J. A., Hulver, M. W., Thyfault, J. P., Carper, M. J., &amp; Lockwood, R. H. (2003). Effects of plyometric training and recovery on vertical jump performance and anaerobic power. Journal of Strength and Conditioning Research, 17(4), 704–709. <a href="https://doi.org/10.1519/1533-4287(2003)017&lt;0704:eoptar">https://doi.org/10.1519/1533-4287(2003)017&lt;0704:eoptar</a>2.0.co;2&gt;</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Springtræning&quot;]" /><category term="spring" /><category term="springtræning" /><summary type="html"><![CDATA[Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk træning, især for erfarne atleter.]]></summary></entry><entry><title type="html">Konditionstests du kan lave hjemme</title><link href="https://www.motionsplan.dk/konditionstests-hjemme/" rel="alternate" type="text/html" title="Konditionstests du kan lave hjemme" /><published>2025-03-05T00:00:00+00:00</published><updated>2025-02-18T22:21:26+00:00</updated><id>https://www.motionsplan.dk/konditionstest-hjemme</id><content type="html" xml:base="https://www.motionsplan.dk/konditionstests-hjemme/"><![CDATA[<p>Har du nogensinde tænkt over, hvor god din kondition egentlig er? Det behøver ikke kræve en tur til laboratoriet – du kan teste det derhjemme!</p>
+
+<p>Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.</p>
+
+<p>Her for du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.</p>
+
+<h2 id="hvad-er-en-konditionstest-du-kan-lave-hjemme">Hvad er en konditionstest du kan lave hjemme?</h2>
+
+<p>En konditionstest derhjemme er en simpel måde at vurdere din form på – uden at du behøver avanceret udstyr. Den kan give et svar på, hvor godt din krop transporterer og bruger ilt under fysisk aktivitet.</p>
+
+<p>At teste din kondition kan hjælpe dig med at:</p>
+
+<ul>
+  <li>Se, hvor god din nuværende kondition er.</li>
+  <li>Følge din fremgang, hvis du træner for at forbedre din kondition.</li>
+  <li>Sammenligne dine resultater med typiske værdier for alder og køn.</li>
+</ul>
+
+<p>Konditionstests kan udføres på fitnesscentre og laboratorier, men der findes også <strong>nemme tests, du kan lave selv</strong> – derhjemme eller udendørs. På denne side finder du nogle af de <strong>bedste selvtests</strong>, du kan lave uden udstyr.</p>
+
+<p class="notice">Læs: <a href="/kondition/tests/">Alt om konditionstests</a></p>
+
+<h2 id="hvad-måler-en-af-de-nemme-konditionstests">Hvad måler en af de nemme konditionstests?</h2>
+
+<p>De test du selv kan lave af din kondition kan ikke direkte måle iltoptagelsen, men det kan indirekte estimere dit kondital. Konditallet kan sige noget om din nuværende form.</p>
+
+<details class="concept">
+  <summary>💨 Kondital (ml/kg/min)</summary>
+  
+  Konditallet angiver den maksimale iltoptagesle i forhold til kropsvægt, og giver derfor et godt mål hvor stor netop en udøvers motor er. Altså hvor meget ilt kroppen har til rådighed under maksimalt arbejde i forhold til dens størrelse. <a href="https://www.motionsplan.dk/kondital/" class="read-more-link">Alt om kondital</a>
+</details>
+
+<h2 id="nemme-konditionstests-du-kan-lave-selv">Nemme konditionstests du kan lave selv</h2>
+
+<p>Her har vi samlet de bedste måder at test din kondition hjemme på. Testen er lette at lave og kræver minimalt udstyr. Du kan altså let selv teste din kondi hjemme og stadig få nogle fine resultater du kan regne med.</p>
+
+<details class="faq">
+  <summary><h3 id="beregn-kondital">1. Beregn dit kondital uden en test</h3></summary>
+
+  <p>Hvis du ikke ønsker at tage en fysisk test, kan du stadig estimere dit kondital ved hjælp af forskellige formler.</p>
+
+  <p>Disse beregninger er baseret på faktorer som alder, vægt, hvilepuls eller træningsniveau.</p>
+
+  <p>👉 <a href="/beregn-kondital/">Beregn dit kondital uden en test</a></p>
+</details>
+
+<details class="faq">
+  <summary><h3 id="ymca-step-test">2. YMCA 3-minutters step test (let &amp; hurtig)</h3></summary>
+
+  <p>En nem test, hvor du træder op og ned på en 30 cm høj bænk i et fast tempo i 3 minutter.</p>
+
+  <p>Efter testen måles din puls for at estimere din kondition. Velegnet til alle, uanset træningsniveau.</p>
+
+  <p>Der findes naturligvis <a href="/kondital-fra-steptest/">forskellige variationer af steptests</a>, men det her er nok den letteste test at sætte op.</p>
+
+  <p>👉 <a href="/ymca-3-minutters-steptest/">Læs mere om YMCA step-testen</a></p>
+</details>
+
+<details class="faq">
+  <summary><h3 id="rockport-gangtest">3. Rockports 1,6 km gangtest</h3></summary>
+
+  <p>En enkel test, hvor du går 1,6 km så hurtigt som muligt. Derefter registrerer du din puls.</p>
+
+  <p>Testen er særligt god for begyndere eller personer, der ikke kan løbe.</p>
+
+  <p>Det er lettest at lave testen med en pulsmåler, men du kan også tælle pulsen manuelt, når du når i mål.</p>
+
+  <p>👉 <a href="/gaatest/">Læs mere om Rockport gangtesten</a></p>
+</details>
+
+<details class="faq">
+  <summary><h3 id="jogging-test">4. 1,6 km jogging test</h3></summary>
+
+  <p>En submaksimal test, hvor du jogger 1,6 km i et moderat tempo (så du stadig kan tale).</p>
+
+  <p>Når du er færdig, måler du din puls, hvilket giver et estimat af din kondition.</p>
+
+  <p>Det gode ved denne test er, at du ikke behøver at sætte dig op til den. Du skal bruge en pulsmåler for at lave testen.</p>
+
+  <p>👉 <a href="/submaximal-jogging-test-vo2/">Læs mere om jogging-testen</a></p>
+</details>
+
+<details class="faq">
+  <summary><h3 id="cooper-test">5. Cooper-test (løb i 12 minutter)</h3></summary>
+
+  <p>Løb så langt du kan på 12 minutter. Jo længere du løber, desto bedre er din kondition.</p>
+
+  <p>Testen blev udviklet af Kenneth Cooper til militæret og bruges bredt til at måle udholdenhed.</p>
+
+  <p>Selvom Cooper-testen har nogle år på bagen, så er det stadig en af de tests, der er mest præcis til at måle konditallet.</p>
+
+  <p>Det kan være lidt svært at lave den rigtige pacing-strategi i Cooper-testen.</p>
+
+  <p>👉 <a href="/cooper-test/">Læs mere om Cooper-testen</a></p>
+</details>
+
+<details class="faq">
+  <summary><h3 id="bip-test">6. Bip-test (progressiv løbetest)</h3></summary>
+
+  <p>En progressiv test, hvor du løber mellem to punkter (20 meter fra hinanden) i takt med lyde fra en lydfil.</p>
+
+  <p>Tempoet øges gradvist, og testen stopper, når du ikke kan følge med længere. Bip-testen bliver ofte brugt til at vurdere kondition, og vælges ofte fordi den er præcis.</p>
+
+  <p>Fordi du løber efter et bip, så er biptesten relativt let at følge. Du skal bare følge med så længe du ka.</p>
+
+  <p>👉 <a href="/bip-test/">Læs mere om Bip-testen</a></p>
+</details>
+
+<h2 id="hvilken-selvtest-af-kondition-skal-du-vælge">Hvilken selvtest af kondition skal du vælge?</h2>
+
+<p>For at finde den rette konditionstest skal du overveje dit formål, dit fysiske niveau, og hvilket udstyr du har til rådighed.</p>
+
+<ul>
+  <li><strong>Vil du have en hurtig og nem test uden udstyr?</strong>
+En hvilepulsmåling eller 6-minutters gangtest kan give dig en grundlæggende idé om din kondition.</li>
+  <li><strong>Vil du måle din kondition gennem en kort fysisk aktivitet indendørs?</strong>
+Step-tests skan være gode valg, da de kun kræver et trin og et stopur.</li>
+  <li><strong>Vil du teste din løbekondition?</strong>
+En submaksimal løbetest kan være et godt valg, hvis du ikke vil presse dig selv til det yderste. Hvis du er i god form og vil have en mere præcis måling, kan en Cooper-test eller <a href="/kondital-2400-meter/">2400-meter test</a> være bedre.</li>
+  <li><strong>Vil du gerne have den mest præcise test?</strong>
+Så skal du uden tvivl vælge Cooper-testen eller bip-testen.</li>
+</ul>
+
+<p>Ved at vælge en test, der passer til dit niveau og dine mål, får du det mest brugbare resultat og kan følge din konditionsudvikling mere præcist.</p>
+
+<p><strong>Læs mere om at vælge konditionstests her</strong></p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Om kondition og tests" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Om kondition og tests</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Hvordan ved jeg, om min kondition forbedres? Der findes flere metoder til at beregne dit kondital og din iltoptagelse ved hjælp af vores beregnere. Se tabellen for at vælge den test, der passer bedst til dig.</p>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h2 id="hvad-er-et-godt-kondital">Hvad er et godt kondital?</h2>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&amp;cs=tinysrgb&amp;fm=jpg&amp;ixlib=rb-1.2.1&amp;raw_url=true&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=300&amp;q=10" alt="Hvad er en god kondition?" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Hvad er en god kondition?</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Hvad der betragtes som et godt kondital, afhænger af, hvem du sammenligner dig med. Her finder du tabeller, der viser standarder for almindelige personer i Skandinavien.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/kondital/" class="btn btn--info">Sammenlign dit kondital</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h2 id="hvordan-forbedrer-jeg-min-kondition">Hvordan forbedrer jeg min kondition?</h2>
+
+<p>Når du har taget en af de nemme konditionstests, så har du måske lyst til at prøve at forbedre dit resultat. Her får du råd til, hvordan du kommer videre.</p>
+
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Hvordan forbedrer jeg min kondition?" loading="lazy" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Hvordan forbedrer jeg min kondition?</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Når du kender dit kondital, vil du sikkert gerne vide, hvordan du kan forbedre det. Heldigvis har vi samlet en masse viden om, hvordan du kan træne din kondition.</p>
+
+            </div>
+          
+
+          
+            <p><a href="/konditionstraening/" class="btn btn--info">Læs om konditionstræning</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>At teste din kondition derhjemme er både nemt og effektivt, uanset dit træningsniveau. Du kan vælge mellem en række forskellige tests afhængigt af dine mål og det udstyr, du har til rådighed.</p>
+
+<ul>
+  <li>For en <strong>hurtig og nem test</strong> kan du bruge en step-test eller beregne dit kondital uden en fysisk test.</li>
+  <li>For en <strong>præcis vurdering</strong> af din løbekondition er Cooper-testen eller bip-testen gode valg.</li>
+  <li>For en <strong>mere skånsom test</strong> kan Rockport-gangtesten eller jogging-testen være ideelle.</li>
+</ul>
+
+<p>Ved at teste din kondition regelmæssigt kan du følge din fremgang, justere din træning og sætte realistiske mål for din formudvikling. Vælg den test, der passer bedst til dig, og brug resultaterne til at optimere din træning.</p>
+
+<p><a href="/kondital/" class="btn btn--large btn--info">Hvad er et godt kondital?</a></p>
+
+<h2 id="faq---ofte-stillede-spørgsmål">FAQ - Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-teste-min-kondition-derhjemme">Kan jeg teste min kondition derhjemme?</h3></summary>
+<p>Ja, du kan udføre flere enkle konditionstests derhjemme uden behov for avanceret udstyr. Eksempler inkluderer step-tests, submaksimale løbetests og simple pulsbaserede tests.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvilke-konditionstests-kan-jeg-lave-hjemme">Hvilke konditionstests kan jeg lave hjemme?</h3></summary>
+<p>Der er mange konditionstests, du kan lave som selvtest derhjemme. Du kan se nogle forslag på denne side.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-vælger-jeg-den-rette-test">Hvordan vælger jeg den rette test?</h3></summary>
+<p>Det afhænger af dine mål og din nuværende form. Hvis du vil have en simpel test uden løb, er en step-test et godt valg. Hvis du vil vurdere din løbeform, kan en submaksimal løbetest eller en 6-minutters gangtest være bedre.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-forbereder-jeg-mig-på-en-konditionstest">Hvordan forbereder jeg mig på en konditionstest?</h3></summary>
+<p>Sørg for at være udhvilet, undgå koffein og større måltider lige inden testen, og udfør en kort opvarmning.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-ofte-bør-jeg-teste-min-kondition">Hvor ofte bør jeg teste min kondition?</h3></summary>
+<p>Det afhænger af dine træningsmål, men en test hver 4.-6. uge giver et godt billede af din udvikling.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-gør-jeg-med-mine-testresultater">Hvad gør jeg med mine testresultater?</h3></summary>
+<p>Brug dem til at følge din fremgang, justere din træning og sætte nye mål. Du kan sammenligne resultaterne over tid for at se forbedringer.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-hjemmetests-lige-så-præcise-som-laboratorietests">Er hjemmetests lige så præcise som laboratorietests?</h3></summary>
+<p>De fleste hjemmetests giver et estimat af din kondition, men laboratorietests med iltoptagelsesmåling er mere præcise. Dog er hjemmetests et fremragende alternativ til at følge din udvikling over tid.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Kan jeg teste min kondition derhjemme?","acceptedAnswer":{"@type":"Answer","text":"Ja, du kan udføre flere enkle konditionstests derhjemme uden behov for avanceret udstyr. Eksempler inkluderer step-tests, submaksimale løbetests og simple pulsbaserede tests.\n"}},{"@type":"Question","name":"Hvilke konditionstests kan jeg lave hjemme?","acceptedAnswer":{"@type":"Answer","text":"Der er mange konditionstests, du kan lave som selvtest derhjemme. Du kan se nogle forslag på denne side.\n"}},{"@type":"Question","name":"Hvordan vælger jeg den rette test?","acceptedAnswer":{"@type":"Answer","text":"Det afhænger af dine mål og din nuværende form. Hvis du vil have en simpel test uden løb, er en step-test et godt valg. Hvis du vil vurdere din løbeform, kan en submaksimal løbetest eller en 6-minutters gangtest være bedre.\n"}},{"@type":"Question","name":"Hvordan forbereder jeg mig på en konditionstest?","acceptedAnswer":{"@type":"Answer","text":"Sørg for at være udhvilet, undgå koffein og større måltider lige inden testen, og udfør en kort opvarmning.\n"}},{"@type":"Question","name":"Hvor ofte bør jeg teste min kondition?","acceptedAnswer":{"@type":"Answer","text":"Det afhænger af dine træningsmål, men en test hver 4.-6. uge giver et godt billede af din udvikling.\n"}},{"@type":"Question","name":"Hvad gør jeg med mine testresultater?","acceptedAnswer":{"@type":"Answer","text":"Brug dem til at følge din fremgang, justere din træning og sætte nye mål. Du kan sammenligne resultaterne over tid for at se forbedringer.\n"}},{"@type":"Question","name":"Er hjemmetests lige så præcise som laboratorietests?","acceptedAnswer":{"@type":"Answer","text":"De fleste hjemmetests giver et estimat af din kondition, men laboratorietests med iltoptagelsesmåling er mere præcise. Dog er hjemmetests et fremragende alternativ til at følge din udvikling over tid.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Astrand, P-O. &amp; Ryhming, I. (1954). A Nomogram for Calculation of Aerobic Capacity (Physical Fitness) from Pulse Rate During Submaximal Work. Journal of Applied Physiology, 7(2), 218-221.</li>
+    <li>Cooper, K. H. (1968). A Means of Assessing Maximal Oxygen Intake: Correlation Between Field and Treadmill Testing. Journal of the American Medical Association, 203(3), 201-204.</li>
+    <li>Léger, L. A. &amp; Lambert, J. (1982). A Maximal Multistage 20-m Shuttle Run Test to Predict VO2 Max. European Journal of Applied Physiology and Occupational Physiology, 49(1), 1-12.</li>
+    <li>McArdle, W. D., Katch, F. I., &amp; Katch, V. L. (2015). Exercise Physiology: Nutrition, Energy, and Human Performance (8th ed.). Lippincott Williams &amp; Wilkins.</li>
+    <li>Rockport Walking Institute. (1987). The One-Mile Walk Test: A Simple Estimation of Aerobic Fitness in Older Adults. Research Quarterly for Exercise and Sport, 58(3), 252-256.</li>
+    <li>YMCA. (2000). YMCA Fitness Testing and Assessment Manual. Human Kinetics.</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kondition&quot;]" /><category term="kondition" /><category term="konditionstests" /><category term="liste" /><summary type="html"><![CDATA[Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre din form.]]></summary></entry></feed>
