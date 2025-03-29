@@ -20,6 +20,9 @@ toc: true
 
 Styrketræning er en effektiv træningsform, der kan forbedre din styrke, muskelmasse, sundhed og præstationsevne – uanset om du er nybegynder eller styrketrænet et stykke tid. Ved at træne med vægte eller egen kropsvægt kan du opnå en stærkere og mere velfungerende krop.
 
+**Begynder?** [Tjek guiden for begyndere i styrketræning](/styrketraening/begyndere/)
+{: .notice }
+
 ## Hvorfor er styrketræning vigtigt?
 
 Der kan være mange grunde til at styrketræne, fx:
@@ -60,7 +63,7 @@ For at få en alsidig træning, så bør du vælge en øvelse fra hver kategori 
 
 Hvis du vælger en øvelse fra hver kategori til din træning, så går du ikke helt galt i byen.
 
-## 6 vigtige parametre for progression i styrketræning
+## 7 vigtige parametre for progression i styrketræning
 
 Når du laver styrketræning, så vil du gerne opleve udvikling over tid. Der findes flere parametre, som du kan bruge til at skabe progression i din træning. Ved at have variation i træningen kan du blive ved med at udfordre kroppen.
 
@@ -160,6 +163,25 @@ Eksempel:
 Hvis du laver et sæt squat på RPE 8, betyder det, at du føler, du kunne have lavet cirka to gentagelser mere.
 
 [Læs mere om RPE i styrketræning](/rpe/)
+</details>
+
+<details markdown="1" class="faq">
+  <summary>⚡ Velocity Based Training (VBT): Træn efter hastighed</summary>
+
+Velocity Based Training (VBT) er en metode, hvor du styrer din træning ud fra stangens hastighed i stedet for kun at kigge på vægten. Ved at måle hastigheden kan du vurdere din dagsform og sikre, at du træner i den ønskede intensitetszone.
+
+Typisk måles hastigheden i meter pr. sekund (m/s), og forskellige hastigheder svarer til forskellige styrkeegenskaber. For eksempel:
+- **>1.0 m/s** – eksplosiv træning og power
+- **0.6-1.0 m/s** – styrkeudvikling
+- **0.3-0.6 m/s** – maksimal styrke
+
+VBT bruges ofte til autoregulering, da fald i hastighed kan indikere træthed, og man kan justere belastningen derefter.
+
+Eksempel:
+
+Hvis du normalt squatter 100 kg med 0.5 m/s, men i dag kun løfter med 0.4 m/s, kan det være et tegn på, at du bør reducere vægten.
+
+[Læs mere om Velocity Based Training](/vbt/)
 </details>
 
 **Sammenligning af RIR og RPE:**
@@ -265,9 +287,11 @@ Et træningsprogram bør tilpasses individuelt ud fra faktorer som dine mål, ti
 
 I starten er 2-3 sæt pr. øvelse som regel nok til at skabe fremgang, da styrketræning belaster musklerne mere, end du er vant til. Et højere antal gentagelser, typisk omkring 10-12, kan være en god start, da det holder vægten på et moderat niveau. 
 
-Med tiden kan du variere gentagelser og vægt for at fortsætte din progression. Du kan få inspiration til [konkrete styrketræningsprogrammer i vores oversigt](/styrketraeningsprogrammer/).
+Med tiden kan du variere gentagelser og vægt for at fortsætte din progression.
 
-[Sådan vælger du et træningsprogram](/vaelg-traeningsprogram/)
+Du kan få inspiration til [konkrete styrketræningsprogrammer i vores oversigt](/styrketraeningsprogrammer/). Vi har også skrevet en guide til dig, der gerne vil [lave dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/).
+
+**Hvordan vælger du et træningsprogram?** Læs [Sådan vælger du et træningsprogram](/vaelg-traeningsprogram/)
 {: .notice }
 
 ## Opsummering - og næste skridt

@@ -30,13 +30,13 @@ vih:
   featured: true
   links:
     - label: "Martin Madsen"
-      icon: "fas fa-fw fa-link"
+      icon: "fa fa-link"
       url: "https://www.vih.dk/underviser/martin-madsen/"
     - label: "Lars Olesen"
-      icon: "fas fa-fw fa-link"
+      icon: "fa fa-link"
       url: "/om/lars-olesen/"
     - label: "Martin Mortensen"
-      icon: "fas fa-fw fa-link"
+      icon: "fa fa-link"
       url: "https://www.vies.dk/underviser/martin-mortensen/"
 jesper.emil.jakobsgaard:
   name             : "Jesper Emil Jakobsgaard"
@@ -47,6 +47,20 @@ jesper.emil.jakobsgaard:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jesper-emil-jakobsgaard/"
+  featured: true
+jye.schmidt:
+  name             : "Jye Schmidt"
+  title            : "Styrketræningsentusiast"
+  avatar           : "/assets/images/authors/mysquatmechanics.png"
+  bio              : "Ekspert i tal og biomekanik omkring styrkeløft. Ejer sitet mysquatmechanics.com, hvor du kan få en biomekanisk model af squat, bænkpres og dødløft."
+  home             : "https://mysquatmechanics.com/"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JyeSmith"
+    - label: "My Squat Mechanics"
+      icon: "fa fa-link"
+      url: "https://mysquatmechanics.com/"
   featured: true
 nikolai.jauk:
   name             : "Nikolai Jauk"
@@ -61,6 +75,7 @@ andreas.christensen:
   title            : "Medejer af Occlude"
   avatar           : "/assets/images/authors/andreas-christensen.jpg"
   bio              : "Medejer af firmaet Occlude. Occlude udvikler medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Occlude har afholdt mere end 100 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
+  home             : "https://www.occlude.dk"
   links:
     - label: "www.occlude.dk"
       icon: "fas fa-fw fa-link"

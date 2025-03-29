@@ -177,9 +177,9 @@ Alle øvelser og bevægelser kan have sin plads i styrketræningsprogrammet alt 
 
 Jeg hører ofte selv hos unge mennesker nogle af de gamle skrøner om styrketræning:
 
-> "Knæene må ikke komme ud over tæerne i squat" -- FORKERT
-> "Kun ned til 90 grader i knæene" -- FORKERT
-> "Træk til nakke er farligt" -- FORKERT
+> - "Knæene må ikke komme ud over tæerne i squat" -- FORKERT
+> - "Kun ned til 90 grader i knæene" -- FORKERT
+> - "Træk til nakke er farligt" -- FORKERT
 
 Det er alle udsagn, der er baseret på frygt for at bevæge sig, men vægtløftere har knæene langt ud over tæerne, og de går meget længere ned end 90 grader i knæene. Træk til nakke sætter skuldrene i en position, men hvis man træner sig op til at blive stærk i den position, så kan man sagtens det.
 
@@ -215,7 +215,7 @@ Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til noget
 
 Hvis du squatter med _high bar_, så ser teknikken anderledes ud end _low bar_. Og nogle kropstyper passer bedre til den ene eller anden type squat.
 
-{% include figure image_path="https://functionalanatomyseminars.files.wordpress.com/2010/07/squat.jpg" caption="High Bar vs Low Bar" alt="high bar vs low bar" %}
+{% include figure image_path="/assets/images/blog/squat-positions.jpg" caption="Front Squat vs High Bar vs Low Bar" alt="high bar vs low bar" %}
 
 Her er en lille hjemmelavet model af hele squat-bevægelsen, der viser dig de forskellige sammenhænge med et elastik og nogle tegnestifter fra [sprintsandheavylifting](https://fb.watch/4_U23867Jn/).
 

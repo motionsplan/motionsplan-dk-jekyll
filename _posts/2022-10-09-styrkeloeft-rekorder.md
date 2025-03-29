@@ -89,7 +89,7 @@ Polakken, Andrzej Stanaszek, har løftet 290 kg i 2002, da han kun selv vejede o
 
 {% include video provider="youtube" id="X57aLTTEX_w" %}
 
-Stanaszeks kropbygning ser dog ud til, at han er væksthæmmet, og derfor er hans kropsbygning lidt anderledes end de fleste menneskers.
+Stanaszeks kropbygning er er ikke som de fleste, hvilket giver ham en relativt stor fordel i squat.
 
 ### Squat raw rekorder for mænd
 

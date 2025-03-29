@@ -1,0 +1,339 @@
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<fieldset class="mechanics-model">
+    <legend>Dødløft modellen</legend>
+    <div class="two-columns">
+        <div class="column">
+            <fieldset>
+                <legend>📏 Målinger</legend>
+                <div class="form-group">
+                    <label><b>Foot</b></label>
+                    <input type="range" id="footslider" min="5" max="40" value="20" step="1"
+                        oninput="update(this.value)" />
+                    <span id="footvalue">25 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Tibia</b></label>
+                    <input type="range" id="tibiaslider" min="10" max="80" value="50" step="1"
+                        oninput="update(this.value)" />
+                    <span id="tibiavalue">50 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Femur</b></label>
+                    <input type="range" id="femurslider" min="10" max="80" value="50" step="1"
+                        oninput="update(this.value)" />
+                    <span id="femurvalue">50 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Torso</b></label>
+                    <input type="range" id="torsoslider" min="10" max="120" value="55" step="1"
+                        oninput="update(this.value)" />
+                    <span id="torsovalue">55 cm</span>
+                </div>
+                <div class="form-group">
+                    <label><b>Arm</b></label>
+                    <input type="range" id="armslider" min="10" max="120" value="55" step="1"
+                        oninput="update(this.value)" />
+                    <span id="armvalue">55 cm</span>
+                </div>
+            </fieldset>
+        </div>
+        <div class="column">
+            <fieldset>
+                <legend>📐 Vinkler</legend>
+                <div class="form-group">
+                    <label>
+                        <b>Max Ankle Flexion</b>
+                    </label>
+                    <input type="range" id="ankleflexiontslider" min="0" max="30" value="4" step="1"
+                        oninput="update(this.value)" />
+                    <span id="ankleflexionvalue">10°</span>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <details>
+                    <summary>🛠️ Avanceret</summary>
+                    <div class="form-group">
+                        <label>
+                            <b>Plate Diameter</b>
+                        </label>
+                        <input id="plateslider" min="0" max="200" value="45" step="1" oninput="update(this.value)"
+                            type="range">
+                        <span id="platevalue">45 cm</span>
+                    </div>
+                </details>
+            </fieldset>
+        </div>
+    </div>
+    <fieldset>
+        <div class="form-group">
+            <label><b>Dødløft position</b></label>
+            <div class="slider-container">
+                <span class="label-left">🧍‍♂️ Oppe</span>
+                <input type="range" id="positionslider" min="0" max="99" value="99" step="1"
+                    oninput="update(this.value)" />
+                <span class="label-right">🧎‍♂️ Nede</span>
+            </div>
+        </div>
+    </fieldset>
+</fieldset>
+
+<div class="two-columns">
+    <div class="column model" style="height: 500px; width: 550px; max-width: 550px;" id="model"></div>
+    <div class="column model" style="height: 500px; width: 700px; max-width: 700px;" id="stats"></div>
+</div>
+
+<script type="text/javascript">
+    function update(newValue) {
+
+        var foot = document.getElementById("footslider").value;
+        var tibia = document.getElementById("tibiaslider").value;
+        var femur = document.getElementById("femurslider").value;
+        var torso = document.getElementById("torsoslider").value;
+        var arm = document.getElementById("armslider").value;
+        var ankleflexion = document.getElementById("ankleflexiontslider").value;
+        var position = document.getElementById("positionslider").value;
+        var plated = document.getElementById("plateslider").value;
+        //var plate = 22.5;
+
+        var plate = plated / 2.0;
+
+        document.getElementById("footvalue").innerHTML = foot.concat(" cm");
+        document.getElementById("tibiavalue").innerHTML = tibia.concat(" cm");
+        document.getElementById("femurvalue").innerHTML = femur.concat(" cm");
+        document.getElementById("torsovalue").innerHTML = torso.concat(" cm");
+        document.getElementById("armvalue").innerHTML = arm.concat(" cm");
+        document.getElementById("platevalue").innerHTML = plated.concat(" cm");
+        document.getElementById("ankleflexionvalue").innerHTML = ankleflexion.concat("°");
+
+        var maxankleflexion = Math.atan((foot / 2) / plate) * 180 / Math.PI;
+        if (ankleflexion > maxankleflexion) {
+            ankleflexion = maxankleflexion;
+        }
+        var anklezero = Math.asin((foot / 2) / (Number(tibia) + Number(femur) + Number(torso))) * 180 / Math.PI;
+        var ankleinc = (ankleflexion - anklezero) / 99;
+
+        var shoulderstart = Math.sqrt(Math.pow(Number(tibia) + Number(femur) + Number(torso), 2) - Math.pow(foot / 2, 2));
+        var barinc = (shoulderstart - arm - plate) / 99;
+
+        var shoulderforwardinc = 0.1 * torso / 99;
+
+        var toexy = [foot / 2, 0];
+        var heelxy = [-foot / 2, 0];
+        var anklexy = [-foot / 4, 0.16 * tibia];
+
+        var anklecurrent = new Array();
+        var kneecurrent = new Array();
+        var kneex = new Array();
+        var kneey = new Array();
+        var hipx = new Array();
+        var hipy = new Array();
+        var shoulderx = new Array();
+        var shouldery = new Array();
+        var handy = new Array();
+        var kneemoment = new Array();
+        var hipmoment = new Array();
+        var summedmoment = new Array();
+        var backangle = new Array();
+        var hipangle = new Array();
+        var kneeangle = new Array();
+        var tlen = new Array();
+        var flen = new Array();
+
+        for (i = 0; i < 100; i++) {
+
+            //linear ankle breaking model.
+            //anklecurrent[i] = anklezero + i * ankleinc;
+            //Exp ankle breaking model.  Get those knees out of the way and shins vertical.
+            anklecurrent[i] = anklezero + ankleinc * i * i * i / (99 * 99);
+
+            shoulderx[i] = i * shoulderforwardinc;
+            shouldery[i] = shoulderstart - i * barinc;
+            handy[i] = shouldery[i] - arm;
+
+            kneex[i] = tibia * Math.sin(anklecurrent[i] * Math.PI / 180) - (foot / 2);
+            kneey[i] = tibia * Math.cos(anklecurrent[i] * Math.PI / 180);
+
+            hipy[i] = shouldery[i] + Number(torso);
+            do {
+                hipy[i] -= 0.1;
+                //hipx[i] = - Math.sqrt(torso*torso - Math.pow(shouldery[i] - hipy[i],2));
+                hipx[i] = shoulderx[i] - Math.sqrt(torso * torso - Math.pow(shouldery[i] - hipy[i], 2));
+                flen[i] = Math.sqrt(Math.pow(kneex[i] - hipx[i], 2) + Math.pow(hipy[i] - kneey[i], 2));
+                if (hipy[i] == 0) {
+                    die();
+                }
+            }
+            while (flen[i].toFixed(0) != femur);
+
+            if (i == 0) {
+                hipx[i] = kneex[i] + Math.sin(anklezero * Math.PI / 180) * femur;
+                hipy[i] = kneey[i] + Math.cos(anklezero * Math.PI / 180) * femur;
+            }
+
+            flen[i] = Math.sqrt(Math.pow(kneex[i] - hipx[i], 2) + Math.pow(hipy[i] - kneey[i], 2));
+            tlen[i] = Math.sqrt(Math.pow(hipx[i], 2) + Math.pow(shouldery[i] - hipy[i], 2));
+
+            kneemoment[i] = Math.abs(kneex[i]);
+            hipmoment[i] = Math.abs(hipx[i]);
+            summedmoment[i] = Math.abs(kneex[i]) + Math.abs(hipx[i]);
+
+            backangle[i] = (180 / Math.PI) * (Math.atan((shouldery[i] - hipy[i]) / (shoulderx[i] - hipx[i])));
+
+            shoulderkneedistance = Math.sqrt(Math.pow(kneex[i], 2) + Math.pow((shouldery[i] - kneey[i]), 2));
+            hipangle[i] = (180 / Math.PI) * (Math.acos((Math.pow(shoulderkneedistance, 2) - Math.pow(femur, 2) - Math.pow(torso, 2)) / (-2 * femur * torso)));
+
+            hipsankledistance = Math.sqrt(Math.pow(hipy[i], 2) + Math.pow((hipx[i] - anklexy[0]), 2));
+            kneeangle[i] = (180 / Math.PI) * (Math.acos((Math.pow(hipsankledistance, 2) - Math.pow(tibia, 2) - Math.pow(femur, 2)) / (-2 * tibia * femur)));
+
+        }
+
+        //-----------------------
+        // plot neck and head
+        //-----------------------
+        neckx = shoulderx[position] + 10 * Math.cos((Math.PI / 180) * (backangle[position]));
+        necky = shouldery[position] + 10 * Math.sin((Math.PI / 180) * (backangle[position]));
+        centerheadx = shoulderx[position] + 20 * Math.cos((Math.PI / 180) * (backangle[position]));
+        centerheady = shouldery[position] + 20 * Math.sin((Math.PI / 180) * (backangle[position]));
+
+        steps = 32;
+        radius = 10;
+        var headx = new Array();
+        var heady = new Array();
+        for (i = 0; i < steps; ++i) {
+            a = 2 * Math.PI / steps * i;
+            headx[i] = radius * Math.cos(a) + centerheadx;
+            heady[i] = radius * Math.sin(a) + centerheady;
+        }
+
+        headx[steps] = headx[0];
+        heady[steps] = heady[0];
+
+        var plothead = {
+            x: headx,
+            y: heady,
+            type: 'scatter',
+            mode: 'lines',
+            line: {
+                color: 'red',
+                width: 2
+            },
+            name: ''
+        };
+
+        //-----------------------
+        // plot bar
+        //-----------------------
+        steps = 32;
+        radius = plate;
+        var weightx = new Array();
+        var weighty = new Array();
+        for (i = 0; i < steps; ++i) {
+            a = 2 * Math.PI / steps * i;
+            weightx[i] = radius * Math.cos(a);
+            weighty[i] = radius * Math.sin(a) + handy[position];
+        }
+        weightx[steps] = weightx[0];
+        weighty[steps] = weighty[0];
+
+        var plotbar = {
+            x: weightx,
+            y: weighty,
+            type: 'scatter',
+            mode: 'lines',
+            line: {
+                color: 'blue',
+                width: 2
+            },
+            name: ''
+        };
+
+        //-----------------------
+        // plot body
+        //-----------------------
+        var plotbody = {
+            x: new Array(anklexy[0], toexy[0], heelxy[0], anklexy[0], kneex[position], hipx[position], neckx, shoulderx[position], 0),
+            y: new Array(anklexy[1], toexy[1], heelxy[1], anklexy[1], kneey[position], hipy[position], necky, shouldery[position], handy[position]),
+            type: 'scatter',
+            mode: 'lines+markers',
+            line: {
+                color: 'red',
+                width: 2
+            },
+            name: ''
+        };
+
+        var data = [plothead, plotbody, plotbar];
+
+        var layout = {
+            title: 'Deadlift Model',
+            xaxis: {
+                range: [-50, 50],
+                autorange: false
+            },
+            yaxis: {
+                range: [0, 200],
+                autorange: false
+            },
+            showlegend: false
+        };
+
+        Plotly.newPlot('model', data, layout);
+
+        //-----------------------
+        // plot stats
+        //----------------------
+
+        var data = [
+            { y: kneemoment, x: handy, type: 'scatter', name: 'Knee moment', line: { dash: 'dot' } },
+            { y: hipmoment, x: handy, type: 'scatter', name: 'Hip moment', line: { dash: 'dot' } },
+            { y: summedmoment, x: handy, type: 'scatter', name: 'Summed moment', line: { dash: 'dot' } },
+            { y: backangle, x: handy, type: 'scatter', name: 'Back angle', yaxis: 'y2' },
+            { y: hipangle, x: handy, type: 'scatter', name: 'Hip angle', yaxis: 'y2' },
+            { y: kneeangle, x: handy, type: 'scatter', name: 'Knee angle', yaxis: 'y2' },
+            { y: anklecurrent, x: handy, type: 'scatter', name: 'Ankle angle', yaxis: 'y2' },
+            { y: new Array(0, 180), x: new Array(handy[position], handy[position]), type: 'scatter', name: 'Current Position', yaxis: 'y2' }
+        ];
+
+
+
+        var layout = {
+            title: 'Deadlift Stats',
+            xaxis: {
+                range: [handy[0] + 5, handy[99] - 5],
+                autorange: false,
+                title: 'Bar Height (cm)'
+            },
+            yaxis: {
+                range: [0, 100],
+                autorange: false,
+                showgrid: false,
+                zeroline: false,
+                showline: false,
+                showticklabels: false,
+                title: 'Moment'
+            },
+            yaxis2: {
+                range: [0, 190],
+                autorange: false,
+                overlaying: 'y',
+                title: 'Angle',
+                side: 'right'
+            },
+            legend: {
+                xanchor: "left",
+                yanchor: "top",
+                y: 1.1,
+                x: 1.15,
+                font: {
+                    size: 8
+                }
+            }
+        };
+
+        Plotly.newPlot('stats', data, layout);
+
+    }
+    window.addEventListener("load", update);
+</script>

@@ -13,6 +13,79 @@
 @import "youtube";
 @import "star-rating";
 
+/** MYSQUATMECHANICS */
+
+.two-columns {
+  display: flex;               /* Creates a flexbox container */
+  gap: 20px;                   /* Space between the two columns */
+}
+
+.column {
+  flex: 1;                     /* Each column takes up equal space */
+}
+
+
+.two-columns .form-group {
+display: grid;
+grid-template-columns: 2fr 3fr 1fr;
+align-items: center;
+gap: 10px; /* Adjust spacing if needed */
+}
+
+.two-columns .form-group label {
+text-align: left; /* Align text to the left */
+white-space: nowrap;
+}
+
+.two-columns .form-group input {
+width: 100%; /* Make sure the input fills its column */
+flex-grow: 1;
+justify-self: stretch;       /* Stretch the slider across its grid column */
+}
+
+.mechanics-model {
+font-size: 0.7em;
+}
+
+fieldset fieldset {
+margin-top: 1em;
+}
+
+.two-columns .form-group span {
+width: 4em;                 /* Set a fixed width for the span */
+text-align: right;           /* Align text to the right */
+white-space: nowrap;         /* Prevent line breaks */
+justify-self: end;           /* Align the span to the right of the grid */
+}
+
+.two-columns .form-group .help-block {
+grid-column: 1 / -1; /* Spans the full row */
+font-size: 0.9em;
+color: #666; /* Adjust styling as needed */
+}
+
+.slider-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+
+.slider-container .label-left,
+.label-right {
+font-size: 0.9em; /* Adjust text size if necessary */
+white-space: nowrap;
+}
+
+.slider-container .label-left {
+text-align: left;
+margin-right: 1em;
+}
+
+.slider-container .label-right {
+margin-left: 1em; text-align: right;
+}
+
 /* AUTHOR BYLINE */
 
 .author__byline {

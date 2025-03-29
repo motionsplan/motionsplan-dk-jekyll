@@ -281,7 +281,6 @@ En af de mest typiske fejl i programlægning er at lægge for stor vægt på sup
 
 Nogle bevægelser i styrketræning er virkelig væsentlige. For at få en allround træning, så bør du komme forbi følgende bevægelser i løbet af dit træningsprogram. Det er særligt vigtigt at mestre et 'squat' og 'hip hinge', så sørg for at lære det. Læs endnu mere om de forskellige bevægelsesmønstre i artiklen [Sådan laver du et fuldkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/).
 
-
 <details markdown="1" class="faq">
   <summary>Knædominieret øvelse - squat, lunges</summary>
 
@@ -292,7 +291,6 @@ Knædominerede øvelser involverer primært forlår, baglår og ballemuskler. Sq
   <summary>Hoftedomineret øvelse - 'hip hinge', dødløft</summary>
 
 Hoftedominerede øvelser fokuserer på baglår, baller og den nedre ryg. En korrekt "hip hinge"-bevægelse er afgørende for at løfte tungt uden at overbelaste ryggen.
-  
 
 En måde at træne det på kan være med kosteskaft som på nedenstående billede, hvor kosteskaftet skal røre nedre ryg, øvre ryg og bagsiden af hovedet.
 

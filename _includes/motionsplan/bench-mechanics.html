@@ -1,0 +1,120 @@
+<!-- Plotly.js -->
+<script async src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<!-- Other awesome scripts -->
+<script async src="/assets/js/mysquatmechanics/bench/themodel.js"></script>
+<script async src="/assets/js/mysquatmechanics/bench/somefunctions.js"></script>
+<script async src="/assets/js/mysquatmechanics/bench/BarPathBridges.js"></script>
+<script async src="/assets/js/mysquatmechanics/bench/BarPathKazmaier.js"></script>
+
+<fieldset class="mechanics-model">
+    <div class="two-columns">
+        <div class="column">
+            <fieldset>
+                <legend>📏 Målinger</legend>
+                <div class="form-group">
+                    <label><b>Upper Arm</b></label>
+                    <input type="range" id="upperarmslider" min="10" max="50" value="30" step="1"
+                        oninput="update(this.value)" />
+                    <span id="upperarmvalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label><b>Forearm</b></label>
+                    <input type="range" id="forearmslider" min="10" max="50" value="33" step="1"
+                        oninput="update(this.value)" />
+                    <span id="forearmvalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label><b>Shoulder Width</b></label>
+                    <input type="range" id="shoulderslider" min="20" max="100" value="46" step="1"
+                        oninput="update(this.value)" />
+                    <span id="shouldervalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label><b>Grip Width</b></label>
+                    <input type="range" id="gripslider" min="0" max="131" value="76" step="1"
+                        oninput="update(this.value)" />
+                    <span id="gripvalue"> </span>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>📏 Albuer</legend>
+                <div class="row">
+                    <label class="checkbox form-inline"><input type="checkbox" id="checklock" onchange="update(this.value)"
+                            checked="unchecked"><b> Lock
+                            Elbows</b></label>
+                </div>
+
+                <div class="form-group" id="elbow-flare">
+                    <label><b>Elbow Flare</b></label>
+                    <input type="range" id="flareslider" min="0" max="60" value="30" step="1"
+                        oninput="update(this.value)" />
+                    <span id="flarevalue"> </span>
+                </div>
+            </fieldset>
+
+        </div>
+        <div class="column">
+
+            <fieldset>
+                <legend>❤️ Brystet</legend>
+
+                <div class="form-group">
+                    <label>
+                        <b>Bar Chest Position Height</b>
+                    </label>
+                    <input type="range" id="heightslider" min="0" max="20" value="15" step="1"
+                        oninput="update(this.value)" />
+                    <span id="heightvalue"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <b>Forward Travel</b>
+                    </label>
+                    <input type="range" id="travelslider" min="0" max="50" value="15" step="1"
+                        oninput="update(this.value)" />
+                    <span id="travelvalue"> </span>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>📈 Bar Path</legend>
+                <div class="row">
+                    <label class="radio form-inline"><input type="radio" name="barpathradio" id="checkstraight" onclick="update(this.value)"
+                            checked="checked"> Straight</label>
+                    <label class="radio form-inline"><input type="radio" name="barpathradio" id="checkBridges" onclick="update(this.value)">
+                        Bridges</label>
+                    <label class="radio form-inline"><input type="radio" name="barpathradio" id="checkKazmaier" onclick="update(this.value)">
+                        Kazmaier</label>
+                </div>
+
+            </fieldset>
+        </div>
+        </div>
+        <fieldset>
+            <div class="form-group">
+                <label><b>Bænkpres position</b></label>
+                <div class="slider-container">
+                    <span class="label-left">🧍‍♂️ Oppe</span>
+                    <input type="range" id="positionslider" min="0" max="99" value="0" step="1"
+                    oninput="update(this.value)" />
+                    <span class="label-right">🧎‍♂️ Nede</span>
+                </div>
+            </div>
+        </fieldset>
+    
+</fieldset>
+
+<div class="two-columns">
+    <div class="column model" style="height: 450px; width: 600px; max-width: 600px;" id="model2"></div>
+    <div class="column model" style="height: 450px; width: 600px; max-width: 600px;" id="model"></div>
+</div>
+<div class="row">
+    <div class="one-half column" style="height: 450px; width: 600px; max-width: 600px;" id="model3"></div>
+</div>
+<div class="row">
+    <div class="twelve columns" id="stats"></div>
+</div>

@@ -53,6 +53,8 @@ Du lærer:
 
 Uanset om du træner hjemme eller i fitnesscenter, får du her en letforståelig guide til begyndere at komme i gang med styrketræning på den rigtige måde. 🚀
 
+Hvis **du allerede har styr på det helt basale**, så kan du tjekke vores [grundige introduktion til styrketræning](/styrketraening/introduktion/).
+
 Så lad os dykke ned i det!
 
 ## Sådan kommer du i gang med styrketræning
