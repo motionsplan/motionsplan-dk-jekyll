@@ -272,6 +272,7 @@ function update(newValue)
 	var data = [plotbody, plotbarpath, plotbar, plotbench, plothead];
 
 	var layout = {
+	  title: 'Benchpress Model',
 	  xaxis: {
 		range: [-50, 125],
 		autorange: false

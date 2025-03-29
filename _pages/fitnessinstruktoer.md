@@ -30,6 +30,28 @@ doping:
     rel: sponsored nofollow noopener
 breadcrumbs: true
 classes: wide
+feature_row_biomekanik:
+  - image_path: "/assets/images/blog/biomekanik-squat.jpg"
+    alt: "Biomekanik i squat - se dig selv som en tændstikmand"
+    title: "Squat model"
+    excerpt: "I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se, hvordan løftet alt andet lige vil se ud."
+    url: "/squat-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/blog/biomekanik-benchpress.jpg"
+    alt: "Biomekanik i bænkpres - forstå kraftoverførsel"
+    title: "Bænkpres model"
+    excerpt: "I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være. Gør det individuelt med din armlængde."
+    url: "/baenkpres-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
+    alt: "Biomekanik i dødløft - den rette løftevinkel"
+    title: "Dødløft model"
+    excerpt: "I dødløft kan du indstile en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
+    url: "/doedloeft-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
 ---
 
 {{ page.excerpt }}
@@ -93,6 +115,12 @@ Se vores artikler om træningslære:
 {% endif %}
 
 </div>
+
+## Biomekanik - se dig selv som en tændstikmand
+
+På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv som en tændstikmand, mens du er i gang med at løfte et af dine favoritløft.
+
+{% include feature_row id="feature_row_biomekanik" %}
 
 ## Træningsøvelser
 
