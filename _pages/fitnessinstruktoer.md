@@ -19,6 +19,14 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
+  - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
+    alt: "Motionsdoping - styrketræning, identitet og kultur"
+    title: "Motionsdoping - styrketræning, identitet og kultur"
+    excerpt: "Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning i fitnesscentret med brug af doping."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
+    btn_label: "Tjek prisen"
+    btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
 doping:
   - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
     alt: "Motionsdoping - styrketræning, identitet og kultur"
@@ -28,6 +36,14 @@ doping:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
+feature_row_anatomi:
+  - image_path: /assets/images/anatomy/blank-muscle-anatomy.jpg
+    alt: "Muskeloversigt"
+    title: "Interaktiv muskeloversigt"
+    excerpt: "Vil du blive klogere på musklernes placering, så kan du prøve den interaktive muskeloversigt. Vi synes selv den er ret cool."
+    url: "/muskler/"
+    btn_label: "Prøv den"
+    btn_class: "btn--danger"
 breadcrumbs: true
 classes: wide
 feature_row_biomekanik:
@@ -48,7 +64,7 @@ feature_row_biomekanik:
   - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
     alt: "Biomekanik i dødløft - den rette løftevinkel"
     title: "Dødløft model"
-    excerpt: "I dødløft kan du indstile en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
+    excerpt: "I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
     url: "/doedloeft-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
@@ -73,15 +89,20 @@ PULS & Intensitetsskala
 
 {% endcomment %}
 
-## Fysiologi
+## Emner for en fitnessinstruktør
+
+<details markdown="1" class="faq">
+  <summary><h3 id="fysiologi">🧬 Fysiologi</h3></summary>
 
 Hvis du vil forstå, hvordan træning virker i kroppen, så er det godt at dykke ned i kroppens fysiologi.
 
 Kroppen består af virkelig mange forskellige specialiserede celler. Alle levende organismer styres af overlevelsesmekanismer, som kan beskrives ved disse tre principper.
 
 [Læs meget mere om fysiologi](/fysiologi/).
+</details>
 
-## Anatomi
+<details markdown="1" class="faq">
+  <summary><h3 id="anatomi">🦴 Anatomi</h3></summary>
 
 Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen. Her kan du læse mere om de forskellige grene i anatomien.
 
@@ -89,8 +110,10 @@ Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hv
 - [Muskler](/muskler/)
 - [Knogler](/knogler/)
 - [Led](/led/)
+</details>
 
-## Træningslære
+<details markdown="1" class="faq">
+  <summary><h3 id="traeningslaere">📖 Træningslære</h3></summary>
 
 Træningslære er læren om de forhold, der er afgørende for, hvorfor og hvordan man bør
 træne i forskellige situationer. Træningslæren skal give retningslinjer for, hvordan man
@@ -115,20 +138,28 @@ Se vores artikler om træningslære:
 {% endif %}
 
 </div>
+</details>
 
-## Biomekanik - se dig selv som en tændstikmand
+<details markdown="1" class="faq">
+  <summary><h3 id="konditionstraening">❤️ Kredsløbstræning og konditionstræning</h3></summary>
 
-På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv som en tændstikmand, mens du er i gang med at løfte et af dine favoritløft.
+Konditionstræning har til formål at forbedre eller vedligeholde kroppens udholdenhed, dvs. organismens evne til at arbejde med relativ høj intensitet over længere tid. 
 
-{% include feature_row id="feature_row_biomekanik" %}
+Træningen sigter imod at forbedre kredsløbet (hjertets evne til at pumpe blod rundt i kroppen, og dermed levere ilt og næringsstoffer til de arbejdende muskler), og musklernes evne til at arbejde over længere tid.
 
-## Træningsøvelser
+[Læs mere om konditionstræning og cardio](/kondition/){: .btn .btn--success }
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="traeningsoevelser">💪 Træningsøvelser</h3></summary>
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.
 
 [Se alle øvelserne til fitnessinstruktør](/fitnessinstruktoer/oevelser/).
+</details>
 
-## Programlægning
+<details markdown="1" class="faq">
+  <summary><h3 id="programlaegning">📝 Programlægning</h3></summary>
 
 Et program har til formål at strukturere træningen, således at den bliver målrettet.
 Programmet skal være individuelt baseret, og tage højde for behov og ønsker samt træningstilstand. Programlægning er derfor et vigtigt redskab i tilrettelæggelse af træningen.
@@ -148,16 +179,10 @@ Læs vores artikler om programlægning:
 [Alt om træningsplanlægning](/traeningsplanlaegning/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-## Kredsløbstræning og konditionstræning
-
-Konditionstræning har til formål at forbedre eller vedligeholde kroppens udholdenhed, dvs. organismens evne til at arbejde med relativ høj intensitet over længere tid. 
-
-Træningen sigter imod at forbedre kredsløbet (hjertets evne til at pumpe blod rundt i kroppen, og dermed levere ilt og næringsstoffer til de arbejdende muskler), og musklernes evne til at arbejde over længere tid.
-
-[Læs mere om konditionstræning og cardio](/kondition/){: .btn .btn--success }
-
-## Specifikke målgrupper
+<details markdown="1" class="faq">
+  <summary><h3 id="maalgrupper">🎯 Specifikke målgrupper</h3></summary>
 
 Der findes blandt motionister en række specifikke målgrupper, som ofte kræver særlige hensyn i forbindelse med fitnesstræning. 
 
@@ -178,8 +203,10 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 {% endif %}
 
 </div>
+</details>
 
-## Skadesbehandling
+<details markdown="1" class="faq">
+  <summary><h3 id="skadesbehandling">🏥 Skadesbehandling</h3></summary>
 
 {% assign site_posts = site.posts | where: "tags", "skader" | sort: "date" %}
 
@@ -194,8 +221,10 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 [Mere om skader](/skader/){: .btn .btn--success .btn--center }
 
 </div>
+</details>
 
-## Information om doping og motionsdoping
+<details markdown="1" class="faq">
+  <summary><h3 id="doping">⚠️ Information om doping og motionsdoping</h3></summary>
 
 Doping foregår illegalt og som oftest i det skjulte, og derfor er det også sparsomt med kontrollerede, videnskabelige forsøg og artikler. Der findes uden tvivl enkeltpersoner med en stor medicinsk og praktisk viden om doping, men denne viden er bare ikke tilgængelig.
 
@@ -205,10 +234,24 @@ Du kan blive meget klogere om motionsdoping i denne rigtig gode bog om emnet:
 
 {% include feature_row id="doping" type="left" %}
 
+</details>
+
+## Biomekanik - se dig selv som en tændstikmand
+
+På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv som en tændstikmand, mens du er i gang med at løfte et af dine favoritløft.
+
+{% include feature_row id="feature_row_biomekanik" %}
+
+## Interaktiv muskeloversigt
+
+{% include feature_row id="feature_row_anatomi" type="left" %}
+
 ## Quiz om fitnessinstruktør
 
 På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
+<details markdown="1" class="faq">
+  <summary>🤔 Prøv selv en quiz</summary>
 De forskellige quiz om fitness er lavet på Quizizz.
 
 {% include figure image_path="/assets/images/quizizz.jpg" alt="quizizz screenshot" caption="Sådan kan du prøve quizzen om de forskellige emner i fitnessinstruktør." %}
@@ -222,6 +265,8 @@ De forskellige quiz om fitness er lavet på Quizizz.
 [Fysiologi](https://quizizz.com/admin/quiz/5b995e2702a076001910328f){: .btn .btn--large .btn--success }
 [Træningslære](https://quizizz.com/admin/quiz/5dd7a9787ce184001b624109){: .btn .btn--large .btn--info }
 
-## Anbefalelsesværdige bøger om fitnessinstruktør
+</details>
+
+## Anbefalelsesværdige bøger som fitnessinstruktør
 
 {% include feature_row type="left" %}

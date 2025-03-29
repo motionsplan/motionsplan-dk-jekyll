@@ -1,7 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
----
-
+--- 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -15,87 +14,138 @@
 
 /** MYSQUATMECHANICS */
 
-.two-columns {
-  display: flex;               /* Creates a flexbox container */
-  gap: 20px;                   /* Space between the two columns */
+fieldset .two-columns {
+  display: flex;
+  /* Creates a flexbox container */
+  gap: 20px;
+  /* Space between the two columns */
 }
 
-.column {
-  flex: 1;                     /* Each column takes up equal space */
+fieldset .column {
+  flex: 1;
+  /* Each column takes up equal space */
 }
 
-
-.two-columns .form-group {
-display: grid;
-grid-template-columns: 2fr 3fr 1fr;
-align-items: center;
-gap: 10px; /* Adjust spacing if needed */
+.models {
+  display: flex;
+  gap: 20px;
 }
 
-.two-columns .form-group label {
-text-align: left; /* Align text to the left */
-white-space: nowrap;
+.model {
+  flex: 1;
+  max-width: 600px;
 }
 
-.two-columns .form-group input {
-width: 100%; /* Make sure the input fills its column */
-flex-grow: 1;
-justify-self: stretch;       /* Stretch the slider across its grid column */
+.graph {
+  width: 100%;
+}
+
+/* On smaller screens, stack columns */
+@media (max-width: 768px) {
+  fieldset .two-columns {
+    flex-direction: column;
+  }
+  .models {
+    flex-direction: column;
+  }
+}
+
+fieldset .two-columns .form-group {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  align-items: center;
+  gap: 10px;
+  /* Adjust spacing if needed */
+}
+
+fieldset .two-columns .form-group label {
+  text-align: left;
+  /* Align text to the left */
+  white-space: nowrap;
+}
+
+fieldset .two-columns .form-group input {
+  width: 100%;
+  /* Make sure the input fills its column */
+  flex-grow: 1;
+  justify-self: stretch;
+  /* Stretch the slider across its grid column */
 }
 
 .mechanics-model {
-font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 fieldset fieldset {
-margin-top: 1em;
+  margin-top: 1em;
 }
 
-.two-columns .form-group span {
-width: 4em;                 /* Set a fixed width for the span */
-text-align: right;           /* Align text to the right */
-white-space: nowrap;         /* Prevent line breaks */
-justify-self: end;           /* Align the span to the right of the grid */
+fieldset .two-columns .form-group span {
+  width: 4em;
+  /* Set a fixed width for the span */
+  text-align: right;
+  /* Align text to the right */
+  white-space: nowrap;
+  /* Prevent line breaks */
+  justify-self: end;
+  /* Align the span to the right of the grid */
 }
 
-.two-columns .form-group .help-block {
-grid-column: 1 / -1; /* Spans the full row */
-font-size: 0.9em;
-color: #666; /* Adjust styling as needed */
+fieldset .two-columns .form-group .help-block {
+  grid-column: 1 / -1;
+  /* Spans the full row */
+  font-size: 0.9em;
+  color: #666;
+  /* Adjust styling as needed */
 }
 
 .slider-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .slider-container .label-left,
 .label-right {
-font-size: 0.9em; /* Adjust text size if necessary */
-white-space: nowrap;
+  font-size: 0.9em;
+  /* Adjust text size if necessary */
+  white-space: nowrap;
 }
 
 .slider-container .label-left {
-text-align: left;
-margin-right: 1em;
+  text-align: left;
+  margin-right: 1em;
 }
 
 .slider-container .label-right {
-margin-left: 1em; text-align: right;
+  margin-left: 1em;
+  text-align: right;
 }
 
 /* AUTHOR BYLINE */
 
 .author__byline {
-  font-size: 0.7em; position: relative; padding-left: 3.5em; margin-top: 0; margin-bottom: 1em !important;
+  font-size: 0.7em;
+  position: relative;
+  padding-left: 3.5em;
+  margin-top: 0;
+  margin-bottom: 1em !important;
 }
 
 .author__byline-avatar {
-  position: absolute; top: -0.5em; left: 0; width: 3em; height: 3em; overflow: hidden;
+  position: absolute;
+  top: -0.5em;
+  left: 0;
+  width: 3em;
+  height: 3em;
+  overflow: hidden;
+
   img {
-    height: auto; max-width: 100%; width: auto; object-fit: contain;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
   }
 }
 
@@ -104,26 +154,33 @@ margin-left: 1em; text-align: right;
 .author__byline {
   font-size: 0.6em;
   position: relative;
-  padding-left: 3.5em; /* Lidt mere afstand fra billedet */
+  padding-left: 3.5em;
+  /* Lidt mere afstand fra billedet */
   margin-top: 0;
-  margin-bottom: 1.2em !important; /* Lidt mere luft */
-  line-height: 1.4; /* Lidt bedre læsbarhed */
+  margin-bottom: 1.2em !important;
+  /* Lidt mere luft */
+  line-height: 1.4;
+  /* Lidt bedre læsbarhed */
 }
 
 .author__byline-avatar {
   position: absolute;
-  top: -0.7em; /* Justeret lidt */
+  top: -0.7em;
+  /* Justeret lidt */
   left: 0;
-  width: 3em; /* En anelse større */
+  width: 3em;
+  /* En anelse større */
   height: 3em;
   overflow: hidden;
-  border-radius: 50%; /* Gør billedet cirkulært */
+  border-radius: 50%;
+  /* Gør billedet cirkulært */
 }
 
 .author__byline-avatar img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Sørger for, at billedet fylder rammen pænt */
+  object-fit: cover;
+  /* Sørger for, at billedet fylder rammen pænt */
 }
 
 .page__meta {
@@ -133,28 +190,31 @@ margin-left: 1em; text-align: right;
   font-size: 0.7em;
   color: #666;
   margin-top: 0.3em;
-  gap: 5px; /* Eller lidt mindre afhængigt af, hvad du bruger nu */
+  gap: 5px;
+  /* Eller lidt mindre afhængigt af, hvad du bruger nu */
 }
 
 .page__meta img {
-  width: 2.5em; /* Justér størrelsen */
-  height: 2.5em;
+  width: 2.5em !important;
+  /* Justér størrelsen */
+  height: 2.5em !important;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 0.75em; /* Sørger for lidt afstand til teksten */
+  margin-right: 0.75em;
 }
 
 .collapsible-toc {
-  border: 1px solid #ddd; background-color: #eee; margin-top: 1em; margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* STICKY MENU */
 .masthead {
   background: white;
-  
-  &__inner-wrap {
 
-  }
+  &__inner-wrap {}
 
   &.sticky {
     @include clearfix();
@@ -200,7 +260,8 @@ a.read-more-link:hover {
 }
 
 .concept[open] {
-  background-color: #eef5ff; /* Lyseblå highlight ved åbning */
+  background-color: #eef5ff;
+  /* Lyseblå highlight ved åbning */
   border-color: #a4c8f0;
 }
 
@@ -223,85 +284,117 @@ a.read-more-link:hover {
 
 details.question {
   margin: 10px 0;
-  padding: 8px; /* Mindre padding for kompakt look */
-  border: 2px solid #0073e6; /* Blue border */
+  padding: 8px;
+  /* Mindre padding for kompakt look */
+  border: 2px solid #0073e6;
+  /* Blue border */
   border-radius: 8px;
-  background-color: #f8faff; /* Light blue background */
+  background-color: #f8faff;
+  /* Light blue background */
   transition: all 0.3s ease-in-out;
   font-size: 0.9;
 
   &[open] {
-    background-color: #e6f0ff; /* Slightly darker when open */
+    background-color: #e6f0ff;
+    /* Slightly darker when open */
 
     summary {
-      color: #003366; /* Mørkere farve for åben tilstand */
+      color: #003366;
+      /* Mørkere farve for åben tilstand */
       font-weight: bold;
     }
 
     summary::before {
-      content: "✔️"; /* Skifter ikon når åben */
+      content: "✔️";
+      /* Skifter ikon når åben */
     }
   }
+
   summary {
-    font-size: 0.9em; /* Lidt mindre fontstørrelse for kompakt tekst */
+    font-size: 0.9em;
+    /* Lidt mindre fontstørrelse for kompakt tekst */
     font-weight: normal;
     cursor: pointer;
-    padding: 6px; /* Mindre padding */
-    color: #004a99; /* Standard blå */
+    padding: 6px;
+    /* Mindre padding */
+    color: #004a99;
+    /* Standard blå */
     display: flex;
     align-items: center;
     transition: color 0.3s ease-in-out;
 
     &::before {
-      content: "❓"; /* Standard spørgsmålstegn */
+      content: "❓";
+      /* Standard spørgsmålstegn */
       font-size: 1.3em;
       margin-right: 8px;
     }
   }
 
   &:hover {
-    background-color: rgba(0, 115, 230, 0.1); /* Let baggrundsændring på hover */
-    border-color: #005bbb; /* Skifter til en mørkere blå kant */
+    background-color: rgba(0, 115, 230, 0.1);
+    /* Let baggrundsændring på hover */
+    border-color: #005bbb;
+    /* Skifter til en mørkere blå kant */
   }
 }
 
 /* EQUATION DETAILS SUMMARY */
 
 details.equation {
-  background-color: #f1f1f1; /* Lys baggrund for bedre synlighed */
-  padding: 0.5em; /* Polstring for bedre klikbarhed */
-  border: 1px solid #ddd; /* Let kant omkring elementerne */
+  background-color: #f1f1f1;
+  /* Lys baggrund for bedre synlighed */
+  padding: 0.5em;
+  /* Polstring for bedre klikbarhed */
+  border: 1px solid #ddd;
+  /* Let kant omkring elementerne */
   margin-bottom: 0.5em;
 }
 
 .equation summary {
-  cursor: pointer; /* Ændrer markøren for at gøre det klikbart */
-  display: flex; /* Brug flexbox for at placere pilen og overskriften på samme linje */
-  align-items: center; /* Vertikal centrering af indholdet */
-  background-color: #f1f1f1; /* Lys baggrund for bedre synlighed */
-  padding: 0.5em; /* Polstring for bedre klikbarhed */
-  border: 1px solid #ddd; /* Let kant omkring elementerne */
-  transition: background-color 0.3s ease; /* Blød overgang ved hover */
-  font-weight: bold; /* Gør spørgsmålet mere fremtrædende */
-  position: relative; /* Make sure that the arrows position correctly */
+  cursor: pointer;
+  /* Ændrer markøren for at gøre det klikbart */
+  display: flex;
+  /* Brug flexbox for at placere pilen og overskriften på samme linje */
+  align-items: center;
+  /* Vertikal centrering af indholdet */
+  background-color: #f1f1f1;
+  /* Lys baggrund for bedre synlighed */
+  padding: 0.5em;
+  /* Polstring for bedre klikbarhed */
+  border: 1px solid #ddd;
+  /* Let kant omkring elementerne */
+  transition: background-color 0.3s ease;
+  /* Blød overgang ved hover */
+  font-weight: bold;
+  /* Gør spørgsmålet mere fremtrædende */
+  position: relative;
+  /* Make sure that the arrows position correctly */
 }
 
 .equation summary:hover {
-  background-color: #e1e1e1; /* Mørkere baggrund ved hover for interaktivitet */
+  background-color: #e1e1e1;
+  /* Mørkere baggrund ved hover for interaktivitet */
 }
 
 /* Tilføjer en pil ved siden af spørgsmålet */
 .equation summary::before {
-  content: "▶"; /* Standard pil for lukket FAQ */
-  font-size: 1.2em; /* Juster pilens størrelse */
-  margin-right: 10px; /* Plads mellem pil og tekst */
-  transition: transform 0.3s ease; /* Blød overgang ved pil rotation */
+  content: "▶";
+  /* Standard pil for lukket FAQ */
+  font-size: 1.2em;
+  /* Juster pilens størrelse */
+  margin-right: 10px;
+  /* Plads mellem pil og tekst */
+  transition: transform 0.3s ease;
+  /* Blød overgang ved pil rotation */
 }
 
 /* Når FAQ er åbnet, ændres pilen */
 .equation[open] summary::before {
-  content: "▼"; /* Pil der peger ned, når FAQ er åben */
-  transform: rotate(180deg); /* Rotér pilen, når åbnet */
+  content: "▼";
+  /* Pil der peger ned, når FAQ er åben */
+  transform: rotate(180deg);
+  /* Rotér pilen, når åbnet */
 }
 
 details.equation h3 {
@@ -321,53 +414,77 @@ details summary h3 {
 
 /* Forbedrer udseendet af FAQ-listen */
 .faq {
-  margin-bottom: 1em; /* Afstand mellem FAQ-elementer */
+  margin-bottom: 1em;
+  /* Afstand mellem FAQ-elementer */
 }
 
 .faq summary {
-  cursor: pointer; /* Ændrer markøren for at gøre det klikbart */
-  display: flex; /* Brug flexbox for at placere pilen og overskriften på samme linje */
-  align-items: center; /* Vertikal centrering af indholdet */
-  background-color: #f1f1f1; /* Lys baggrund for bedre synlighed */
-  padding: 0.5em; /* Polstring for bedre klikbarhed */
-  border: 1px solid #ddd; /* Let kant omkring elementerne */
-  transition: background-color 0.3s ease; /* Blød overgang ved hover */
-  font-weight: bold; /* Gør spørgsmålet mere fremtrædende */
-  position: relative; /* Make sure that the arrows position correctly */
+  cursor: pointer;
+  /* Ændrer markøren for at gøre det klikbart */
+  display: flex;
+  /* Brug flexbox for at placere pilen og overskriften på samme linje */
+  align-items: center;
+  /* Vertikal centrering af indholdet */
+  background-color: #f1f1f1;
+  /* Lys baggrund for bedre synlighed */
+  padding: 0.5em;
+  /* Polstring for bedre klikbarhed */
+  border: 1px solid #ddd;
+  /* Let kant omkring elementerne */
+  transition: background-color 0.3s ease;
+  /* Blød overgang ved hover */
+  font-weight: bold;
+  /* Gør spørgsmålet mere fremtrædende */
+  position: relative;
+  /* Make sure that the arrows position correctly */
 }
 
 /* Hover-effekt for feedback */
 .faq summary:hover {
-  background-color: #e1e1e1; /* Mørkere baggrund ved hover for interaktivitet */
+  background-color: #e1e1e1;
+  /* Mørkere baggrund ved hover for interaktivitet */
 }
 
 /* Styling af spørgsmålene */
 .faq h3 {
-  margin: 0; /* Fjern ekstra margin omkring h3 */
-  font-size: 1.1em; /* Let forstørrelse af teksten */
-  color: #333; /* Mørk tekstfarve for læsbarhed */
+  margin: 0;
+  /* Fjern ekstra margin omkring h3 */
+  font-size: 1.1em;
+  /* Let forstørrelse af teksten */
+  color: #333;
+  /* Mørk tekstfarve for læsbarhed */
 }
 
 /* Tilføj en indrykning til svaret, så det skiller sig ud */
 .faq p {
-  margin-top: 10px; /* Afstand fra spørgsmålet til svaret */
-  padding-left: 20px; /* Indrykning af svaret */
-  color: #444; /* Lysere tekstfarve for svarene */
-  line-height: 1.6; /* Bedre linjeafstand */
+  margin-top: 10px;
+  /* Afstand fra spørgsmålet til svaret */
+  padding-left: 20px;
+  /* Indrykning af svaret */
+  color: #444;
+  /* Lysere tekstfarve for svarene */
+  line-height: 1.6;
+  /* Bedre linjeafstand */
 }
 
 /* Tilføjer en pil ved siden af spørgsmålet */
 .faq summary::before {
-  content: "▶"; /* Standard pil for lukket FAQ */
-  font-size: 1.2em; /* Juster pilens størrelse */
-  margin-right: 10px; /* Plads mellem pil og tekst */
-  transition: transform 0.3s ease; /* Blød overgang ved pil rotation */
+  content: "▶";
+  /* Standard pil for lukket FAQ */
+  font-size: 1.2em;
+  /* Juster pilens størrelse */
+  margin-right: 10px;
+  /* Plads mellem pil og tekst */
+  transition: transform 0.3s ease;
+  /* Blød overgang ved pil rotation */
 }
 
 /* Når FAQ er åbnet, ændres pilen */
 .faq[open] summary::before {
-  content: "▼"; /* Pil der peger ned, når FAQ er åben */
-  transform: rotate(180deg); /* Rotér pilen, når åbnet */
+  content: "▼";
+  /* Pil der peger ned, når FAQ er åben */
+  transform: rotate(180deg);
+  /* Rotér pilen, når åbnet */
 }
 
 /* REFERENCER */
@@ -380,25 +497,30 @@ details.references summary {
 }
 
 details.references summary::before {
-  content: "📘"; /* Lukket bog */
+  content: "📘";
+  /* Lukket bog */
   margin-right: 8px;
   font-size: 1.5em;
 }
 
 /* Når details er åbent, vis en åben bog */
 details.references:open summary::before {
-  content: "📖"; /* Åben bog */
+  content: "📖";
+  /* Åben bog */
 }
 
 /* Når musen holdes over en lukket details, vis en åben bog */
 details.references summary:hover::before {
-  content: "📖"; /* Skift til åben bog, når details ikke er åben */
+  content: "📖";
+  /* Skift til åben bog, når details ikke er åben */
 }
 
 /* Når musen holdes over en åben details, vis åben bog med forsinkelse */
 details.references:open summary:hover::before {
-  content: "📘"; /* Åben bog vises stadig */
-  transition-delay: 0.5s; /* Forsinkelse før eventuel ændring til lukket bog */
+  content: "📘";
+  /* Åben bog vises stadig */
+  transition-delay: 0.5s;
+  /* Forsinkelse før eventuel ændring til lukket bog */
 }
 
 
@@ -413,7 +535,8 @@ details.references[open] summary::after {
 details.references[open] ul::before {
   content: "Motionsplan.dk anvender kun pålidelige og videnskabeligt funderede kilder til at understøtte de fakta, vi præsenterer i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
   display: block;
-  width: calc(100% + 2em); /* Udvider boksen, hvis ul har indrykning */
+  width: calc(100% + 2em);
+  /* Udvider boksen, hvis ul har indrykning */
   box-sizing: border-box;
   padding: 1em;
   background-color: #f5f5f5;
@@ -424,7 +547,8 @@ details.references[open] ul::before {
   color: #333;
   border-radius: 8px;
   position: relative;
-  left: -2em; /* Justerer så den går tilbage til kanten af details */
+  left: -2em;
+  /* Justerer så den går tilbage til kanten af details */
 }
 
 .references ul li {
@@ -434,8 +558,8 @@ details.references[open] ul::before {
 /* FEATURE ROW EMOJI STYLE */
 
 .feature__wrapper-emoji {
-  background-color: #eee; 
-  padding: 0 1em; 
+  background-color: #eee;
+  padding: 0 1em;
   margin-bottom: 1em;
   text-align: center;
 
@@ -455,7 +579,8 @@ details.references[open] ul::before {
 
 .section-with-lines {
   text-align: center;
-  padding-top: 1.25em; /* 20px -> 1.25em */
+  padding-top: 1.25em;
+  /* 20px -> 1.25em */
   padding-bottom: 0.5em;
   position: relative;
   border-bottom: 1px solid #ccc;
@@ -475,13 +600,17 @@ details.references[open] ul::before {
 }
 
 .section-title {
-  font-size: 0.6em; /* Mindre tekststørrelse */
-  font-weight: normal; /* Mindre kraftig tekst */
+  font-size: 0.6em;
+  /* Mindre tekststørrelse */
+  font-weight: normal;
+  /* Mindre kraftig tekst */
   text-transform: uppercase;
-  letter-spacing: 1px; /* 1px -> 0.0625em */
+  letter-spacing: 1px;
+  /* 1px -> 0.0625em */
   position: relative;
   background: #fff;
-  padding: 0 1em; /* 15px -> 0.9375em */
+  padding: 0 1em;
+  /* 15px -> 0.9375em */
   z-index: 2;
   line-height: 1;
 }
@@ -490,25 +619,30 @@ details.references[open] ul::before {
 .section-title-wrapper::after {
   content: "";
   flex-grow: 1;
-  height: 1px; /* 1px -> 0.0625em */
+  height: 1px;
+  /* 1px -> 0.0625em */
   background: #ccc;
   position: relative;
-  top: -0.5em; /* Centrerer linjen bedre ift. teksten */
+  top: -0.5em;
+  /* Centrerer linjen bedre ift. teksten */
 }
 
 .section-title-wrapper::before {
-  margin-right: 0.625em; /* 10px -> 0.625em */
+  margin-right: 0.625em;
+  /* 10px -> 0.625em */
 }
 
 .section-title-wrapper::after {
-  margin-left: 0.625em; /* 10px -> 0.625em */
+  margin-left: 0.625em;
+  /* 10px -> 0.625em */
 }
 
 /* PROFILE CARD */
 
 .profile-card {
   display: flex;
-  align-items: flex-start; /* Ensures top alignment */
+  align-items: flex-start;
+  /* Ensures top alignment */
   background-color: #eee;
   padding: 1.5em;
   margin: 1.5em 0;
@@ -569,7 +703,8 @@ details.references[open] ul::before {
 }
 
 .read-more::after {
-  content: '\279C'; /* Right arrow */
+  content: '\279C';
+  /* Right arrow */
   margin-left: 5px;
   font-size: 0.9em;
 }
@@ -586,7 +721,8 @@ details.references[open] ul::before {
 }
 
 .editorial-link::before {
-  content: 'ⓘ'; /* Right arrow */
+  content: 'ⓘ';
+  /* Right arrow */
   margin-right: 5px;
   font-size: 0.9em;
 }
@@ -613,10 +749,14 @@ details.references[open] ul::before {
 .intro::after {
   content: "";
   display: block;
-  width: 100px; /* Adjust the length */
-  height: 5px; /* Adjust the thickness */
-  background-color: orange; /* Adjust the color */
-  margin: 1em auto 0; /* Adjust spacing */
+  width: 100px;
+  /* Adjust the length */
+  height: 5px;
+  /* Adjust the thickness */
+  background-color: orange;
+  /* Adjust the color */
+  margin: 1em auto 0;
+  /* Adjust spacing */
 }
 
 h2.archive__item-title {
@@ -646,19 +786,21 @@ p:has(> a.btn--center) {
   display: inline-block;
   clear: both;
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
 }
 
 .btn--center::after {
   content: " →";
 }
 
-.feature__item .btn::after, .feature__item--left .btn::after {
+.feature__item .btn::after,
+.feature__item--left .btn::after {
   content: " →";
 }
 
 .sidebar {
   position: relative;
+
   &.sticky {
     overflow-y: auto;
     /* calculate height of nav list
@@ -671,8 +813,9 @@ p:has(> a.btn--center) {
 /* Extra possibilities for the gallery */
 figure {
   &.quarter {
-    > a,
-    > img {
+
+    >a,
+    >img {
       @include breakpoint($small) {
         width: calc(25% - 0.5em);
       }
@@ -682,9 +825,11 @@ figure {
       width: 100%;
     }
   }
+
   &.fifth {
-    > a,
-    > img {
+
+    >a,
+    >img {
       @include breakpoint($small) {
         width: calc(20% - 0.5em);
       }
@@ -701,7 +846,8 @@ figure {
   max-height: $nav-height;
 }
 
-#adBlock, .gsc-adBlock {
+#adBlock,
+.gsc-adBlock {
   display: none !important;
 }
 
@@ -714,13 +860,16 @@ span.strong {
   font-weight: bold;
 }
 
-.author__name, .nav__title {
+.author__name,
+.nav__title {
   margin-bottom: 0;
   font-weight: 700;
   font-size: 1.125;
 }
 
-.page__share-title, .page__related-title, .page__meta-title {
+.page__share-title,
+.page__related-title,
+.page__meta-title {
   font-size: 1.0625em;
   font-weight: 700;
 }
@@ -734,7 +883,7 @@ a[rel~=sponsored]:after {
 }
 
 .btn--bmc {
-  background-color:hsl(51, 100%, 50%);
+  background-color: hsl(51, 100%, 50%);
 }
 
 .btn--lead {
@@ -744,17 +893,21 @@ a[rel~=sponsored]:after {
 }
 
 body.layout--single {
-    .feature__item--left, .feature__item--right {
-        h2.archive__item-title {
-            margin-top: 1em !important;
-            margin-bottom: 0em !important;
-            font-size: 0.9em !important;
-        }
-        .archive__item-excerpt p:first {
-            margin-top: 0em !important;
-        }
+
+  .feature__item--left,
+  .feature__item--right {
+    h2.archive__item-title {
+      margin-top: 1em !important;
+      margin-bottom: 0em !important;
+      font-size: 0.9em !important;
     }
+
+    .archive__item-excerpt p:first {
+      margin-top: 0em !important;
+    }
+  }
 }
+
 /*
 form.newsletter {
   fieldset, legend {
@@ -781,37 +934,40 @@ form.newsletter {
 */
 
 #anatomy_muscle {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 
-    .anatomy-popup {
-        display: none;
+  .anatomy-popup {
+    display: none;
+  }
+
+  .anatomy-popup-on {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #333;
+    padding: 0.5em 1em;
+    color: #fff;
+
+    p {
+      font-size: 0.7em;
+      margin: 0;
+      text-align: center;
     }
-
-    .anatomy-popup-on {
-	    display: block !important;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, 0);
-        background-color: #333;
-        padding: 0.5em 1em;
-        color: #fff;
-
-        p {
-            font-size: 0.7em;
-            margin: 0;
-            text-align: center;
-        }
-    }
+  }
 }
 
 /* Grid view */
-.layout--single:not(.wide) .page__content .grid__item, .layout--activity:not(.wide) .page__content .grid__item {
+.layout--single:not(.wide) .page__content .grid__item,
+.layout--activity:not(.wide) .page__content .grid__item {
 
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
+    margin-left: 0;
+    /* override margin*/
+    margin-right: 0;
+    /* override margin*/
     width: span(4 of 12);
 
     &:nth-child(3n + 1) {
@@ -839,33 +995,50 @@ form.newsletter {
 /* FILTER TABLE */
 
 .filter-table-input {
-  background-image: url('/assets/images/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
+  background-image: url('/assets/images/searchicon.png');
+  /* Add a search icon to input */
+  background-position: 10px 12px;
+  /* Position the search icon */
+  background-repeat: no-repeat;
+  /* Do not repeat the icon image */
+  width: 100%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  margin-bottom: 12px;
+  /* Add some space below the input */
 }
 
 .filter-table {
   display: block;
   table-layout: auto;
-  border-collapse: collapse; /* Collapse borders */
-  width: 100%; /* Full-width */
-  border: 1px solid #ddd; /* Add a grey border */
-  font-size: 18px; /* Increase font-size */
+  border-collapse: collapse;
+  /* Collapse borders */
+  width: 100%;
+  /* Full-width */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  font-size: 18px;
+  /* Increase font-size */
   table-layout: auto;
   overflow-x: auto;
   max-width: 100%;
 }
 
-.filter-table th, .filter-table td {
-  text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
-  width: auto; /* Allow dynamic column width */
-  word-wrap: break-word; /* Prevent overflow */
+.filter-table th,
+.filter-table td {
+  text-align: left;
+  /* Left-align text */
+  padding: 12px;
+  /* Add padding */
+  width: auto;
+  /* Allow dynamic column width */
+  word-wrap: break-word;
+  /* Prevent overflow */
   white-space: normal;
 }
 
@@ -874,8 +1047,8 @@ form.newsletter {
   border-bottom: 1px solid #ddd;
 }
 
-.filter-table tr.header, .filter-table tr:hover {
+.filter-table tr.header,
+.filter-table tr:hover {
   /* Add a grey background color to the table header and on hover */
   background-color: #f1f1f1;
 }
-

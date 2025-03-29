@@ -1,6 +1,6 @@
 ---
 layout: single
-title: &title "Anatomi: Kroppens opbygning og strukturer"
+title: &title "Anatomi: Kroppens opbygning og struktur"
 seo_title: "Anatomi: Studiet af hvordan kroppen er opbygget"
 description: "Få en let forståelig oversigt over anatomi. Lær alt om hvordan de forskellige strukturer i kroppen er opbygget, fx knogler, muskler og led."
 system:

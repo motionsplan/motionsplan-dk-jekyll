@@ -115,7 +115,7 @@ feature_row_biomekanik:
   - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
     alt: "Biomekanik i dødløft - den rette løftevinkel"
     title: "Dødløft model"
-    excerpt: "I dødløft kan du indstile en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
+    excerpt: "I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
     url: "/doedloeft-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"

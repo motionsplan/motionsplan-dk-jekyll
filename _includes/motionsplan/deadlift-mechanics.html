@@ -79,9 +79,12 @@
     </fieldset>
 </fieldset>
 
-<div class="two-columns">
-    <div class="column model" style="height: 500px; width: 400px; max-width: 400px;" id="model"></div>
-    <div class="column model" style="height: 500px; width: 700px; max-width: 700px;" id="stats"></div>
+<div class="models">
+    <div class="model" id="model"></div>
+    <div class="model"></div>
+</div>
+<div class="models">
+    <div class="graph" id="stats"></div>
 </div>
 
 <script type="text/javascript">
@@ -266,6 +269,11 @@
 
         var data = [plothead, plotbody, plotbar];
 
+        var aspectRatio = 0.8; // Adjust as needed (e.g., 16/9, 4/3, etc.)
+        var container = document.getElementById('model');
+        var width = container.clientWidth; // Get dynamic width
+        var height = width / aspectRatio; // Maintain aspect ratio
+
         var layout = {
             title: 'Deadlift Model',
             xaxis: {
@@ -276,10 +284,13 @@
                 range: [0, 200],
                 autorange: false
             },
-            showlegend: false
+            showlegend: false,
+            autosize: true,
+            height: height,
+            width: width
         };
 
-        Plotly.newPlot('model', data, layout);
+        Plotly.newPlot('model', data, layout, { responsive: true });
 
         //-----------------------
         // plot stats

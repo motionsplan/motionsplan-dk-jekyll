@@ -12,6 +12,7 @@ tags:
   - spring
   - beregner
   - fysik
+  - biomekanik
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 meta:
@@ -264,6 +265,10 @@ hvor
 
 Hvor <em>I</em> er arealet under kraft-tid-kurven (minus tyngdekraften) fra starten af hoppet og indtil afsættet.
 </details>
+
+## Konklusion
+
+Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [artikler om biomekanik](/biomekanik/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

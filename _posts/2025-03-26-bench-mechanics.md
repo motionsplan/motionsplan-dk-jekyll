@@ -7,7 +7,7 @@ excerpt: "Forstå bænkpres fra et biomekanisk perspektiv. Se dig selv som en t�
 description: "Forstå bænkpres fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og få indsigt i, hvordan teknik og antropometri påvirker løftet."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1629214831802-bb2a07f9517e?q=80&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1652363722833-509b3aac287b?q=80&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 category:
   - Styrketræning
@@ -71,6 +71,10 @@ Kryds af for <i>Bridges</i> eller <i>Kazmaier</i> og se, hvordan dine momenter �
 Gør det det lettere eller sværere?
 
 ***
+
+## Konklusion
+
+Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [sektion om biomekanik](/biomekanik/).
 
 ## Ofte stillede spørgsmål
 

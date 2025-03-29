@@ -1,9 +1,9 @@
 ---
-title: &title "Squatmekanik: En biomekanisk model for kraft, moment og bevægelse"
+title: &title "Squatmekanik: En biomekanisk model for squat"
 seo_title: "Squatmekanik: En biomekanisk model af squat"
 permalink: /squat-biomekanik/
-excerpt: "Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for, hvordan dit løft kan se ud. Vil du ikke gerne være en tændstikmand?"
-description: "Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for, hvordan dit løft kan se ud. Vil du ikke gerne være en tændstikmand?"
+excerpt: "Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du ikke gerne være en tændstikmand?"
+description: "Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du ikke gerne være en tændstikmand?"
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1541600383005-565c949cf777?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -176,6 +176,10 @@ STRETCH FOR LOW BAR SQUAT - https://www.youtube.com/watch?v=X2zDg7RU3TA
 https://www.youtube.com/watch?v=zT3pwocyU68
 
 {% endcomment %}
+
+## Konklusion
+
+Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biomekanik](/biomekanik/).
 
 ## Ofte stillede spørgsmål
 

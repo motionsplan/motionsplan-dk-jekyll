@@ -46,7 +46,7 @@ Denne model baseret på [My Squat Mechanics](https://www.mysquatmechanics.com/de
 
 Du kan justere tændstikmanden til at have dine proportioner. Så kan du se en figur af dig selv løfte en tung vægt og se, hvordan hofte- og knævinkler, stangbanen og muskelaktiveringen ændrer sig i løbet af løftet
 
-Der er altid individuelle forskelle i anatomi og teknik som kan påvirke effektiviteten af dit dødløft.
+Der er altid individuelle forskelle i anatomi og teknik som kan påvirke, hvordan du skal gribe dit dødløft an.
 
 ## Model for dødløft
 
@@ -67,6 +67,10 @@ Dødløft-positionen er baseret på, at anklen bevæger sig gennem en stor vinke
 Grafen viser momentet af hofter og knæ sammen med vinklen af ryggen, hofterne og knæene gennem alle positioner i dødløftet. Fra squat-positionen til stående position. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at glide position-slideren ovenfor.
 
 ***
+
+## Konklusion
+
+Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biomekanik](/biomekanik/).
 
 ## Ofte stillede spørgsmål
 
