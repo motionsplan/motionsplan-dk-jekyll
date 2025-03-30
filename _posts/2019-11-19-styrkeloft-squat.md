@@ -56,6 +56,9 @@ feature_row_biomekanik:
     url: "/squat-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
+gallery_proper_depth:
+  - image_path: /assets/images/blog/squat-above.jpg
+  - image_path: /assets/images/blog/squat-below.jpg
 ---
 
 Squat i styrkeløft har specifikke krav til dybde, teknik og udførelse. Hvis du vil optimere din squat til konkurrencer, skal du kende reglerne og træne målrettet. I denne guide ser vi på reglerne for squat i styrkeløft og giver dig de bedste teknikker og træningsmetoder.
@@ -76,6 +79,16 @@ Kommandoerne i squat er:
 {% endcomment %}
 
 {% include video provider="youtube" id="MGD0UmsZnek" %}
+
+## Hvad er den korrekte dybde?
+
+Du har opnået den korrekte dybde, når hoftefolden er under toppen af knæet. Det kan du se i følgende diagram.
+
+{% include figure image_path="/assets/images/blog/squatc.jpg" caption="Den korrekte dybde på et squat. Diagrammet er fra USAPL Rulebook." %}
+
+Hos en rigtig powerlifter ser det sådan her ud:
+
+{% include gallery id="gallery_proper_depth" caption="Det **første billede** viser en squat, der ville blive underkendt i en konkurrence for ikke at nå den korrekte dybde. Når der trækkes en linje fra toppen af knæet, kan man tydeligt se, at folden ved hofteleddet er over linjen. Det **andet billede** viser en godkendt squatdybde i styrkeløft, hvor hofteleddet tydeligt er under den linje, der er trukket fra toppen af knæet. Kilde: [Temple of Iron](https://www.temple-of-iron.com/squat-depth-are-you-deep-enough/)" %}
 
 ## Regler for klassisk styrkeløft
 
