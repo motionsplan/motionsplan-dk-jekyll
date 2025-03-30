@@ -53,6 +53,9 @@ feature_row_biomekanik:
     url: "/squat-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
+gallery_brett_contreas:
+  - image_path: /assets/images/blog/brett-contreas-femur-torso-squat.png
+  - image_path: /assets/images/blog/brett-contreas-femur-torso-squat-2.png
 ---
 
 Squat er en rigtig vigtig træningsøvelse. Den træner en funktionel bevægelse i kroppen. Her kigger vi på squat teknik og nogle af de rigtig mange variationer, der findes til at træne benene med knæbøjninger.
@@ -147,6 +150,10 @@ Dit kontaktpunkt med jorden er dine fødder. Derfor er fødderne også rigtig vi
 Et godt *cue* kan være at tænke foden som en 'tripod foot'. Mærk at du har kontakt med jorden i tre punkter tre punkter, som det er illustreret i artiklen nedenunder.
 
 {% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)" alt="tripod foot i squat" %}
+
+***
+
+{% include video provider="youtube" id="JrcDRkvVw58" %}
 
 ***
 

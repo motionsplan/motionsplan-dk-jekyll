@@ -29,9 +29,6 @@ faq:
 gallery_kylling:
   - image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg
   - image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg
-gallery_brett_contreas:
-  - image_path: /assets/images/blog/brett-contreas-femur-torso-squat.png
-  - image_path: /assets/images/blog/brett-contreas-femur-torso-squat-2.png
 classes:
   - wide
 author: jye.schmidt
