@@ -20,7 +20,7 @@ breadcrumbs: true
 
 Her kigger vi på de forskellige bevægelsestyper og bevægelsesplaner i anatomien. Kroppen har mange frihedsgrader, men her får du et anatomisk sprog til at beskrive kroppens bevægelser.
 
-Der kan foregå bevægelser i leddene på mange forskellige måder. Her kigger vi på de mange forskellige bevægelsestyper kroppen kan lave.
+Der kan foregå bevægelser i leddene på mange forskellige måder. Her kigger vi på de mange forskellige bevægelsestyper kroppen kan lave. Det er nyttigt at vide, når du skal lave en [bevægelsesanalyse](/bevaegelsesanalyse/).
 
 [Led](/led/) er delt op i forskellige ledtyper. Ledtypen definerer, hvordan leddene kan bevæge sig.
 

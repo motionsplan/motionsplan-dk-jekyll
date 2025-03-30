@@ -74,6 +74,12 @@ Gør det det lettere eller sværere?
 
 ## Konklusion
 
+For at få mest muligt ud af dit bænkpres, er det vigtigt at forstå biomekanikken bag bevægelsen. Korrekt teknik optimerer dit løft, så du kan løfte endnu mere på en hensigtsmæssig måde.
+
+Er du nysgerrig på, hvordan du kan forbedre din teknik? Så dyk videre ned i disse artikler:
+
+- [Bænkpres teknik](/oevelse/baenkpres/) 🏋️‍♂️
+
 Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [sektion om biomekanik](/biomekanik/).
 
 ## Ofte stillede spørgsmål

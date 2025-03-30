@@ -18,17 +18,19 @@ last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
 
-Supersæt hedder _superset_ på engelsk. Grundlæggende er supersæt, når man kombinerer to øvelser i sin træning med hinanden. Man kan kombinere øvelserne i et superset på mange mader, som jeg vil gennemgå her.
+Supersæt hedder _superset_ på engelsk. Grundlæggende er supersæt, når du kombinerer to øvelser i din træning med hinanden. Du kan kombinere øvelserne i et superset på mange måder.
+
+Det kan du blive meget klogere på i denne artikel.
 
 Supersæt kan være en måde at spare tid under træning, så din træning bliver endnu mere effektiv.
 
 ## Hvad er et supersæt?
 
-Et supersæt er grundlæggende at man kombinerer to øvelser med hinanden.
+Et supersæt er grundlæggende, at du kombinerer to øvelser med hinanden.
 
-Hvis du fx laver en [pull up eller chinup](/chinup-vs-pullup/) og umiddelbart bagefter laver en [laver armstrækning eller armbøjning](/armbojninger-eller-armstraekninger-pushups/), så har du lavet et supersæt.
+Hvis du fx laver en [pull up eller chinup](/chinup-vs-pullup/) og umiddelbart bagefter laver en [armstrækning eller armbøjning](/armbojninger-eller-armstraekninger-pushups/), så har du lavet et supersæt.
 
-Når du har udført begge øvelser, så har du lavet dit første supersæt. Nu holder du så en lidt længere pause, inden du igen går i gang med armstræknigerne for at lavet dit andet superset.
+Når du har udført begge øvelser, så har du lavet dit første supersæt. Nu holder du så en lidt længere pause, inden du igen går i gang med pull ups for at lavet dit andet superset.
 
 Du kan se mere om supersæt (superset) i følgende Youtube-video:
 
@@ -38,7 +40,7 @@ Du kan se mere om supersæt (superset) i følgende Youtube-video:
 
 Jeg bruger ofte supersæt i min træning både til mig selv og mine elever af en enkel grund. **Du sparer tid med supersæt (superset).**
 
-Når du bruger supersæt rigtigt, så kan du ganske enkelt nå mere på den samme tid.
+Når du bruger supersæt rigtigt, så kan du ganske enkelt nå mere træning på den samme tid.
 
 Jeg lærte første gang at bruge supersæt, da jeg læste Eric Cresseys [Superset Training Survival Guide](https://ericcressey.com/superset-training-survival-guide), som dette indlæg er inspireret af.
 
@@ -117,8 +119,9 @@ Du kan altså forårsage mere ødelæggelse i musklerne, når du kører to ligne
 
 Det er vigtigt, når du laver supersæt at kvaliteten i de enkelte øvelser stadig er høj. Tanken med supersæt er at nå mere træning på kortere tid uden at gå på kompromis med kvaliteten i træningen.
 
-Superset-træning kan bruges af alle, men du skal naturligvis tænke dig om. God fornøjelse med dine supersæt.
+Superset-træning kan bruges af alle, men du skal naturligvis tænke dig om.
 
+God fornøjelse med dine supersæt.
 
 {% comment %}
 

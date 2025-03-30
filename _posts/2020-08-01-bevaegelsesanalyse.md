@@ -1,8 +1,8 @@
 ---
-title: &title "Hvordan laver man en bevægelsesanalyse som fitnessinstruktør?"
+title: &title "Sådan laver du en bevægelsesanalyse som fitnessinstruktør"
 seo_title: "Sådan laver en fitnessinstruktør en bevægelsesanalyse"
 permalink: /bevaegelsesanalyse/
-last_modified_at: 2020-10-06T09:41:09Z
+last_modified_at: 2025-02-06T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -27,13 +27,13 @@ feature_row:
     rel: nofollow noopener
 ---
 
-Når du underviser i idræt eller træner, så er det en god ide at lave en bevægelsesanalyse. En bevægelsesanalyse er med til at sikre, at du træner de muskler, du gerne vil træne - og bevægelsesanalysen giver dig også et godt udgangspunkt for at give feedback på bevægelser.
+Når du [underviser i træning](/fitnessinstruktoer/) eller selv træner, så er det en god ide at lave en bevægelsesanalyse. En bevægelsesanalyse er med til at sikre, at du træner de muskler, du gerne vil træne - og bevægelsesanalysen giver dig også et godt udgangspunkt for at give feedback på bevægelser.
 
-Når man laver en bevægelsesanalyse identificerer man naturligvis hvilke bevægelser, der foregår, men man finder også ud af hvilke muskler og led, der er særligt aktive i bevægelsen.
+Når du laver en bevægelsesanalyse identificerer du naturligvis hvilke bevægelser, der foregår, men du finder også ud af hvilke muskler og led, der er særligt aktive i bevægelsen.
 
-En bevægelsesanalyse kan fx bruges til at blive klogere på tekniske færdigheder, fx spydkast og smash i volleyball, så man kan finde ud af, om bevægelsen kan laves endnu mere effektivt.
+En bevægelsesanalyse kan fx bruges til at blive klogere på tekniske færdigheder, fx spydkast og smash i volleyball, så du kan finde ud af, om bevægelsen kan laves endnu mere effektivt, eller til at identificere hvad bevægelsen træner.
 
-## Hvordan laver man en bevægelsesanalyse?
+## Sådan laver du en bevægelsesanalyse
 
 Du har både brug for at kunne lave en bevægelsesanalyse, når du gerne vil være bedre til en færdighed, eller når du skal beskrive og forklare en øvelses formål til fx styrketræning.
 
@@ -44,15 +44,28 @@ En bevægelsesanalyse er et redskab til at gøre rede for følgende:
 - Hvilke bevægelser foregår der i leddet (Bøj, stræk, rotation osv.)?
 - Hvad er de arbejdende muskler (primære/sekundære)?
 
-### Hvordan arbejder musklerne? Koncentrisk, excentrisk eller statisk?
+### 1. Hvordan arbejder musklerne? Koncentrisk, excentrisk eller statisk?
 
 Når musklerne trækker sig sammen og forkortes er der tale om et koncentrisk arbejde. Når musklen arbejder imod en forlængelse, taler man om et excentrisk arbejde. Hvis musklen arbejder uden bevægelser, udfører musklen et statisk eller isometrisk arbejde.
 
-### Hvilke bevægelser foregår der i leddet? Bøjning, strækning, rotation?
+### 2. Hvilke bevægelsesplaner arbejder kroppen i?
+
+Kroppens led har forskellige bevægelsestyper. Det betyder, at den kan arbejde i bevægelsesplaner, som er et grundlæggende begreb i anatomien.
+
+Der kan foregå bevægelser i leddene på mange forskellige måder. Du skal angive i hvilke forskellige bevægelsesplaner kroppen bevæger sig i under en bevægelse.
+
+Du kan se forskellen på det frontale, sagitale og transversale plan i denne figur. 
+
+{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
+
+**Læs**: [Bliv klogere på bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
+{: .notice }
+
+### 3. Hvilke bevægelser foregår der i leddet? Bøjning, strækning, rotation?
 
 Er det en enkeltledsøvelse eller flerledsøvelse? Hvilke bevægelser foregår der i leddet?
 
-### Hvad er de arbejdende muskler?
+### 4. Hvad er de arbejdende muskler?
 
 Når du skal beskrive de arbejdende muskler, så skal du identficere den primære bevæger (_prime mover_) og den sekundære bevæger. De primære og sekunder bevægelsesmuskler kaldes agonister og synergister. De muskler, der udfører den modsatte bevægelser af agonisten kaldes for antagonister.
 

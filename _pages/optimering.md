@@ -131,4 +131,6 @@ Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/), [guide til bev
   {% endfor %}
 {% endif %}
 
+[Alt om træningslæren](/traeningslaere/){: .btn .btn--success .btn--center }
+
 </div>

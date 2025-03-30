@@ -1,8 +1,8 @@
 ---
 title: &title "YMCA Modified steptest – Individualiseret test"
 seo_title: "YMCA Modified steptest – 3 minutter med "
-excerpt: "YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
-description: "YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
+excerpt: "YMCA’s tilpassede steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
+description: "YMCA’s modified steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
 permalink: /ymca-modified-steptest/
 language: da
 header:

@@ -46,8 +46,7 @@ Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-t
 
 </div>
 
-
-## Seneste opdaterede øvelser
+## Senest opdaterede øvelser
 
 Her kan du se de nyeste træningsøvelser.
 
@@ -56,74 +55,152 @@ Her kan du se de nyeste træningsøvelser.
 {% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 8 %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
 </div>
 
-## Maveøvelser, mavetræning og coretræning
+## Træningsøvelser efter muskelgrupper
 
-Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere og mere udholdende _core_ og kropsstamme. Maveøvelserne kan enten udføres med kropsvægt, håndvægte, elastikker, bolde og hjul. Du kan også læse meget mere om [kropsstammetræning og coretræning i dette indlæg](/core/) og udfordringerne med [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
+<details markdown="1" class="faq">
+  <summary>🏋️ Maveøvelser, mavetræning og coretræning</summary>
+
+Vi har en lang række maveøvelser, der styrker din core og kropsstamme. Øvelserne kan udføres med kropsvægt, håndvægte, elastikker, bolde eller hjul. 
+
+Læs mere om [coretræning](/core/) og [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
 
 [Se alle maveøvelser](/maveoevelser/).
+</details>
 
-## Armøvelser
+<details markdown="1" class="faq">
+  <summary>💪 Armøvelser (biceps, triceps, underarme)</summary>
 
-Vi har samlet det bedste og mest effektive armøvelser til træning af biceps og triceps, men også øvelser der udfordrer underarmene.
+Vi har samlet de bedste armøvelser til biceps, triceps og underarme – både med frie vægte og kropsvægt. 
 
-Læs mere om [armøvelser til triceps, biceps og underarmene her](/arme-triceps-biceps/).
+Læs mere om [armøvelser her](/arme-triceps-biceps/).
+</details>
 
-## Benøvelser
+<details markdown="1" class="faq">
+  <summary>🦵 Benøvelser (squat, lunges, benpres)</summary>
 
-Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave [squat](/squat/) og [lunges](/lunges/) og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar]({% link _posts/2020-07-05-safetybar-squat.md %}). [Dødløft](/doedloeft/) er også en af de gode benøvelser.
+Bentræning kan foregå både med frie vægte og maskiner. Squat, lunges og dødløft er fundamentale øvelser, men vi dækker også leg extensions, benpres og træning med Safety Squat Bar.
 
 [Tjek alle benøvelser](/benoevelser/).
+</details>
 
-## Brystøvelser
+<details markdown="1" class="faq">
+  <summary>🏋️‍♂️ Brystøvelser (bænkpres, push-ups)</summary>
 
-Vi har samlet en masse effektive styrketræningsøvelser til brystet både med vægtstang, håndvægte, kabel og elastik, så du kan varirere, hvordan du rammer brystmusklen på den bedst mulige måde.
+Træn dit bryst effektivt med vægtstang, håndvægte, kabler eller elastikker. Vi guider dig til den bedste teknik og variation.
 
 [Se alle brystøvelser](/brystoevelser/).
+</details>
 
-## Balleøvelser
+<details markdown="1" class="faq">
+  <summary>🍑 Balleøvelser (hip thrust, glute bridge)</summary>
 
-Dine baller bliver trænet i mange forskellige bevægelser. Vi har samlet alle de bedste og mest effektive baldeøvelser her, som du kan lave både hjemme og i styrketræningscenteret.
+Ballemusklerne arbejder i mange bevægelser. Vi har samlet de mest effektive øvelser, som du kan lave både hjemme og i træningscenteret.
 
 [Se alle balleøvelser](/balleoevelser/).
+</details>
 
-## Rygøvelser
+<details markdown="1" class="faq">
+  <summary>💪 Rygøvelser (pull-ups, dødløft, rows)</summary>
 
-Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning. Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows](/rows/)) og vertikale træk (som [chinup og pullup](/chinup-vs-pullup/)), men husk også at de mange variationer af dødløft er fremragende til at træne ryggen.
+Din ryg skal udfordres med effektive øvelser. Rows og pull-ups træner ryggen i både horisontale og vertikale træk, mens dødløft aktiverer hele bagsiden.
 
 [Se alle rygøvelser](/rygoevelser/).
+</details>
 
-## Skulderøvelser
+<details markdown="1" class="faq">
+  <summary>🏋️‍♀️ Skulderøvelser (militærpres, lateral raises)</summary>
 
-Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Skulderøvelser handler naturligvis om [armstrækninger](/armbojninger-eller-armstraekninger-pushups/), [rows](/rows/) og [pullups og chinups](/chinup-vs-pullup/), men der er også andre øvelser, der udfordrer skulderbladet og for- og bagskulder på forskellige måder.
-
-Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatormanchetten]({% link _posts/2020-12-12-styrk-dine-skuldre.md %}), og du kan også læse mere om [anatomiske opbygning af skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
+Skuldertræning kræver en god balance mellem styrke og stabilitet. Læs om træning af bagskulderen, rotatormanchetten og variationer af presøvelser.
 
 [Se alle skulderøvelser](/skulderoevelser/).
+</details>
 
-## Balanceøvelser
+<details markdown="1" class="faq">
+  <summary>⚖️ Balanceøvelser (single-leg stance, bosu-træning)</summary>
 
-Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?
+Balancetræning er vigtigt for skadesforebyggelse og stabilitet. Vi gennemgår de bedste balanceøvelser, du kan integrere i din træning.
 
 [Læs mere om balance og balanceøvelser](/balance/).
+</details>
 
-## Strækøvelser og smidighedsøvelser
+## Træningsøvelser efter funktion
 
-Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser eller strækøvelser.
+<details markdown="1" class="faq">
+  <summary>🦵 Knædominante øvelser (squat, lunges)</summary>
+
+Knædominerede øvelser aktiverer forlår, baglår og baller. Squat og lunges er essentielle for underkropsstyrke.
+
+[Se knædominante øvelser](/knaedominante-oevelser/)
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🍑 Hoftedominante øvelser (dødløft, hip hinge)</summary>
+
+Hoftedominerede øvelser fokuserer på baglår, baller og den nedre ryg. En korrekt hip hinge-teknik er afgørende for at løfte tungt uden at overbelaste ryggen.
+
+[Se hoftedominante øvelser](/hoftedominante-oevelser/)
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🪝 Trækøvelser (rows, pull-ups)</summary>
+
+Trækøvelser træner øvre ryg, skuldre og biceps. Vi ser på både horisontale træk som barbell row og vertikale træk som pull-ups.
+
+[Se alle trækøvelser](/traekoevelser/)
+</details>
+
+<details markdown="1" class="faq">
+  <summary>➡️ Presøvelser (bænkpres, skulderpres)</summary>
+
+Presøvelser styrker bryst, skuldre og triceps. Horisontale pres involverer bænkpres, mens vertikale pres inkluderer skulderpres og dips.
+
+[Se alle presøvelser](/presoevelser/)
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🏋️ Coreøvelser (planke, hanging leg raises)</summary>
+
+Core-træning handler om stabilitet i mave, bækken og ryg. Vi gennemgår både statiske og dynamiske øvelser.
+
+[Se alle coreøvelser](/core/)
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🔄 Rotation og anti-rotation (Russian twists, Pallof press)</summary>
+
+Rotationsøvelser træner skrå mavemuskler, mens anti-rotation styrker kropsstabiliteten.
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🚶 Bæreøvelser (farmer’s walk, bear hug walk)</summary>
+
+Bæreøvelser forbedrer grebsstyrke, corestabilitet og kropskontrol. Farmer’s walk og bear hug walk er gode eksempler.
+</details>
+
+## Typer træningsøvelser
+
+<details markdown="1" class="faq">
+  <summary>🤸 Stræk- og smidighedsøvelser (dynamisk og statisk udstrækning)</summary>
+
+Udstrækning bruges i mange idrætsgrene. Dynamiske øvelser forbedrer bevægelighed, mens statiske øger fleksibilitet.
 
 [Læs mere om strækøvelser og smidighedstræning](/udstraekning-udspaending/)
+</details>
 
-## Foamrolling og lacrossbolde
+<details markdown="1" class="faq">
+  <summary>🎾 Foamrolling og trigger point-massage</summary>
 
-Foamrolling med en foam roller har til formål at løsne spændte og ømme muskler. Du kan også bruge en lacrossebold til at løsne trigger points. Når du afspænder musklerne ved at bearbejde dine trigger points, så kan du ofte opleve at bevæge dig mere frigjort.
+Foamrolling løsner spændte muskler og trigger points. Lacrossebolde kan bruges til mere præcis massage.
 
-[Læs mere om foamrolling og self-myofacial release](/foamrolling-foamroller-lacrossebolde/).
+[Læs mere om foamrolling og self-myofascial release](/foamrolling-foamroller-lacrossebolde/).
+</details>
 
 ## Artikler om træningsøvelser
 

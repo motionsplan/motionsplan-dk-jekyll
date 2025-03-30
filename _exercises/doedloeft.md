@@ -1,7 +1,7 @@
 ---
-title: "Dødløft"
-seo_title: "Dødløft teknik: Komplet guide og tips til dødløft"
-description: I denne guide til dødløft får du effektive tips og variationer fra en rutineret træner til denne teknisk krævende øvelse til styrktræning.
+title: "Dødløft variationer"
+seo_title: "Dødløft variationer: Guide og tips til de forskellige variationer"
+description: I denne guide til dødløft får du effektive tips og variationer af dødløft fra en rutineret træner til denne teknisk krævende øvelse til styrktræning.
 excerpt: "Dødløft er en af de store hoftedominerede multiøvelser, som kan passe rigtig godt ind i de fleste træningsprogrammer, fordi den træner hoften. Her kigger vi på teknik i dødløft og variationer."
 instructions: "Tag fat i vægten med hænderne. Stå i hoftebredde med fødderne. Den primære bevægelse foregår i hoften, mens knæene er bøjet alt efter dødløft variationen. Rejs dig op og sæt vægten igen kontrolleret."
 permalink: /doedloeft/
@@ -56,11 +56,21 @@ video:
   provider: youtube
   id: 91TMWH1AYAM
 last_modified_at: 2021-03-21T16:06:44Z
+feature_row_biomekanik:
+  - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
+    alt: "Biomekanik i dødløft - den rette løftevinkel"
+    title: "Dødløft model"
+    excerpt: "I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
+    url: "/doedloeft-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
 ---
 
 Dødløft er en klassisk træningsøvelse, hvor der er stort fokus på at træne hængselsbevægelsen i hoften. Dødløft kan laves i mange forskellige variationer, og her kigger vi lidt på teknikken.
 
-De meste kendte variationer af dødløft er helt sikkert [grebet i konventionel dødløft](/oevelse/konventionel-doedloeft/) og [sumo dødløft](/oevelse/sumo-doedloeft/), men der findes også fx [rumænsk dødløft](/oevelse/romanian-deadlift/) og [stivbenet dødløft](/oevelse/doedloeft-stivbenet/). Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men her kigger jeg på den generelle teknik i dødløft.
+De meste kendte variationer af dødløft er helt sikkert [konventionel dødløft](/oevelse/konventionel-doedloeft/) og [sumo dødløft](/oevelse/sumo-doedloeft/), men der findes også fx [rumænsk dødløft](/oevelse/romanian-deadlift/) og [stivbenet dødløft](/oevelse/doedloeft-stivbenet/).
+
+Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men her får du et overblik over de mest brugte teknikker til forskellige dødløft.
 
 ## Teknik i dødløft
 
@@ -71,13 +81,9 @@ Når du arbejder med teknik, så handler det primært om følgende ting.
 1. **Effektiv teknik.** En god teknik er en effektiv teknik. I dødløft handler det altså om at få den mest lige bane med vægten, når du løfter vægten.
 2. **Minimere skadesrisikoen.** En bevægelse er ikke farlig i sig selv. Heller ikke selvom det hedder *dødløft*. Skader handler typisk om dosering. Hvis du løfter for meget og for tungt i stillinger, som kroppen ikke er vant til, så kan du risikere skader. Dødløft er en rigtig god bevægelse at træne, fordi den har en stor overførbarhed til hverdagen, når du vil løfte ting op.
 
-Det er noget vrøvl, når folk siger, at man ikke må løfte med ryggen. Du skal skal helt sikkert løfte med ryggen, men det er en fordel, hvis ryggen er vant til at løfte, og du sætter ryggen i en position, hvor den er stærk, når du laver dødløft.
-
-Lad os kigge på et par enkelte fokuspunkter i dødløft.
-
 ## Dødløft er en hoftedomineret øvelse
 
-I dødløft skal du lave en hængselsbevægelse. Det er en hoftedomineret øvelse, men der er naturligvis lidt forskelle alt efter den variation, du vælger.
+I dødløft laver en hængselsbevægelse ('hinge') i hoften. Derfor kategoriserer vi dødløft som en hoftedomineret øvelse, men der er naturligvis lidt forskelle alt efter den variation, du vælger.
 
 {% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" alt="hoftedominant eller knædominant kontinuum" %}
 
@@ -85,32 +91,9 @@ Hvordan vinklen i overkroppen er er forskelligt alt efter, hvilken teknik du ben
 
 {% include figure image_path="https://www.bodylab.dk/images/bodyfeed/Infographic_hex.jpg" caption="Bodylab sammenligner her forskellen mellem konventionel og *hex bar* dødløft" alt="Forskel mellem konventionel dødløft og hex-bar dødløft" %}
 
-## Hvordan laver man dødløft?
+## Biomekanisk analyse af din dødløft stil
 
-Her kigger vi på de grundlæggende fokuspunkter i at lave dødløft. Der er flere forskellige variationer af dødløft, som har hver deres små detaljer, du skal være opmærksom på. Hop derfor direkte til den variation af dødløft, hvis du allerede har en variation i kikkerten.
-
-Det begyder fx meget om du har lange arme eller korte arme.
-
-{% include figure image_path="https://www.bodylab.dk/images/bodyfeed/guide_dodloft_1.jpg" caption="Forskellen på korte og lange arme for startpositionen i dødløft" alt="startposition i dødløft med korte eller lange arme" %}
-
-### Fodstilling og stand
-
-Det første du gør i dødløft er at placere dine fødder. Her kigger jeg mest på de konventionelle former for dødløft, men du kan også sagtens stå bredere som i fx *sumo dødløft*.
-
-Dødløft udføres ofte med hoftebreddes afstand mellem fødderne, mens tæerne peger nogenlunde lige frem. Sørg for at have vægten på hele foden. I hele bevægelsen skal du gerne holde en nogenlunde stabil vægtbalance.
-
-### Udførelse
-
-Der er mange anatomiske forskelle mellem mennesker. Derfor skal alle ikke dødløfte på fuldstændig samme måde. Men lad os dykke lidt ned den praktiske udførelse. Her tager jeg udgangspunkt i, at det er en vægt, der skal løftes fra gulvet.
-
-1. Start med at tage fat i vægten.
-2. Bøj i hoften og en smule i knæene alt efter variationen.
-3. Hold ryggen i en neutral stilling.
-4. Rejs dig op med vægten.
-5. Stræk hoften helt ud.
-6. Sæt vægten kontrolleret ned igen.
-
-Nogle dødløft-varianter starter stående, og der kan teknikken naturligvis være lidt anderledes.
+{% include feature_row id="feature_row_biomekanik" type="left" %}
 
 ## Tips til et godt dødløft
 
@@ -134,10 +117,6 @@ Et godt *cue* kan være at tænke foden som en 'tripod foot'. Mærk at du har ko
 
 {% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)" alt="tripod foot i dødløft" %}
 
-## Dødløft på et ben
-
-Du kan også lave dødløft på et ben. Jeg er særligt glad for at bruge [etbens rumænsk dødløft]({% link _exercises/doedloeft-one-leg-42.md %}) i min træning. Øvelsen udfordrer virkelig balancen og even til at holde kontrol i kropsstammen.
-
 ## Variationer af dødløft
 
 Der findes flere forskellige variationer af dødløft. Her kan du se en liste over de almindelige, men også nogle lidt anderledes udgaver. Du kan fx også kigge på [rack pull]({% link _exercises/rackpull-0-268.md %}), hvor du arbejder med en kortere *range of motion*.
@@ -154,9 +133,15 @@ Der findes flere forskellige variationer af dødløft. Her kan du se en liste ov
 
 </div>
 
+## Dødløft på et ben
+
+Du kan også lave dødløft på et ben. Jeg er særligt glad for at bruge [etbens rumænsk dødløft]({% link _exercises/doedloeft-one-leg-42.md %}) i min træning. Øvelsen udfordrer virkelig balancen og even til at holde kontrol i kropsstammen.
+
 ## Hvilken dødløft-variant skal jeg vælge?
 
-Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal vælge. [Bodylab](https://www.bodylab.dk/shop/hvilken-doedloeft-variant-1790c1.html) gennemgår her forskellige strategier for valg af enten konventionel eller sumo-varianten for dit primære løft til en [styrkeløft-konkurrence](/powerlifting-rules/).
+Det kommer naturligvis helt an på, hvad dine mål er. Hvis du gerne vil løfte så meget som muligt, så kan du tjekke overvejelserne til [din stærkeste dødløft-variation i styrkeløft](/styrkeloeft/doedloeft/).
+
+Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du vil synes bedst om. [Bodylab](https://www.bodylab.dk/shop/hvilken-doedloeft-variant-1790c1.html) gennemgår her forskellige strategier for valg af enten konventionel eller sumo-varianten for dit primære løft til en [styrkeløft-konkurrence](/powerlifting-rules/).
 
 {% include figure image_path="https://www.bodylab.dk/images/bodyfeed/Dodloft_variant_tabel1.jpg" alt="skema til at vælge dødløftvariant" %}
 
@@ -165,3 +150,13 @@ Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal 
 Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange spørger om [grebet i konventionel dødløft](/oevelse/konventionel-doedloeft/), hvor jeg har skrevet mere om grebet.
 
 {% include gallery id="gallery_grip" caption="Grebet i dødløft kan se forskelligt ud. Her kan du se overhåndsgreb og *mixed grip*. Man kan også bruge et *hook greb*." layout="half" %}
+
+## Konklusion
+
+Uanset hvilken dødløft-variant du vælger, er det vigtigt at finde den, der passer bedst til din kropstype og træningsmål. Når du har styr på teknikken, kan du virkelig begynde at opbygge styrke og muskelmasse. Hvis du er klar til at dykke dybere ned i dødløft-træning, har vi flere artikler, som kan hjælpe dig videre:
+
+- 🏋️‍♂️ [Dødløft Teknik: Tips og tricks](/oevelse/konventionel-doedloeft/)
+- 💪 [Konventionel vs. Sumo Dødløft: Hvilken skal du vælge?](/styrkeloeft/doedloeft/)
+- 📊 [Biomekanik i dødløft (interaktiv model)](/doedloeft-biomekanik/)
+
+God fornøjelse med at få perfektioneret de forskellige dødløft varianter.

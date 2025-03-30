@@ -1,6 +1,6 @@
 ---
 title: "MET-beregner: Personlig beregning af kalorieforbrug"
-seo_title: "MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet [Beregner]"
+seo_title: "MET-beregner: Beregn dit energiforbrug ved fysisk aktivitet"
 description: "Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt."
 excerpt: "Brug vores MET-beregner til at estimere dit energiforbrug baseret på forskellige aktiviteter og din kropsvægt."
 permalink: /met-beregner/

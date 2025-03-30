@@ -70,6 +70,12 @@ Grafen viser momentet af hofter og knæ sammen med vinklen af ryggen, hofterne o
 
 ## Konklusion
 
+For at få mest muligt ud af dit dødløft, er det vigtigt at forstå biomekanikken bag bevægelsen. Korrekt teknik optimerer dit løft, så du kan løfte endnu mere på en hensigtsmæssig måde.
+
+Er du nysgerrig på, hvordan du kan forbedre din teknik? Så dyk videre ned i disse artikler:
+
+- [Dødløft teknik](/doedloeft/) 🏋️‍♂️
+
 Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biomekanik](/biomekanik/).
 
 ## Ofte stillede spørgsmål

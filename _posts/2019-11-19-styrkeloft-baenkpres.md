@@ -45,12 +45,17 @@ feature_row_books:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 quiz:
-  - question: Hvor langt skal man ned i squat for at få godkendt løftet?
-    question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    answer: "Hofteleddet skal være under knæleddet."
   - question: "Må hovedet løftes fra bænken i bænkpres?"
     answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
     answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+feature_row_biomekanik:
+  - image_path: "/assets/images/blog/biomekanik-benchpress.jpg"
+    alt: "Biomekanik i bænkpres - forstå kraftoverførsel"
+    title: "Bænkpres model"
+    excerpt: "I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være. Gør det individuelt med din armlængde."
+    url: "/baenkpres-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
 ---
 
 Bænkpres i styrkeløft har specifikke krav til dybde, pause, teknik og udførelse. Hvis du vil optimere din bænkpres til konkurrencer, skal du kende reglerne og træne målrettet.
@@ -93,7 +98,7 @@ Jeg har primært samlet denne liste for at kunne formidle [reglerne til styrkel�
 Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 {: .notice}
 
-## Hvordan vælger jeg mine forsøg til styrkeløft?
+## Sådan vælger du dine forsøg i bænkpres
 
 At vælge de rigtige forsøg er afgørende for din præstation til et styrkeløft-stævne. En god strategi hjælper dig med at opbygge momentum og maksimere din total, mens forkerte valg kan resultere i missede løft og spildt potentiale.
 
@@ -101,15 +106,18 @@ Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategi
 
 ➡️ **[Sådan vælger du dine forsøg til styrkeløft](/styrkeloeft-vaelg-forsoeg/)**
 
+## Biomekanisk analyse af bænkpres
+
+{% include feature_row id="feature_row_biomekanik" type="left" %}
+
 ## Konklusion
 
-Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
+Det var en hurtig gennemgang af reglerne til styrkeløft til bænkpres, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
 
 Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
 
 - Er du ny i styrkeløft? Læs den [komplette guide til styrkeløft](/styrkeloeft/).
-- Vil du lære mere om squat generelt? Se vores [store bænkpres-guide](/baenkpres/).
-- Se teknikken til [bænkpres med stang](/oevelse/baenkpres/).
+- Lær mere om teknikken i [guiden til bænkpres med stang](/oevelse/baenkpres/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

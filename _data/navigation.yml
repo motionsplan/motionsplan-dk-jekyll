@@ -4,16 +4,18 @@ main:
     url: /beregnere-tests/
   - title: "Træning"
     url: /traening/
-  - title: "Optimer træning"
-    url: /optimer-traening/
+#  - title: "Optimer træning"
+#    url: /optimer-traening/
+  - title: "Træningslære"
+    url: /traeningslaere/
   - title: "Kost & Ernæring"
     url: /kost-ernaering/
-  - title: "Styrketræning"
-    url: /styrketraening/
-  - title: "Kondition"
-    url: /kondition/
-  - title: "Løb"
-    url: /loebesiden/
+#  - title: "Styrketræning"
+#    url: /styrketraening/
+#  - title: "Kondition"
+#    url: /kondition/
+#  - title: "Løb"
+#    url: /loebesiden/
   - title: "Træningsøvelser"
     url: /traeningsoevelser/
   - title: "Udstyr"

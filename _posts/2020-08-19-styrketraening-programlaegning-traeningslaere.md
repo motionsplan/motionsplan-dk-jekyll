@@ -16,6 +16,7 @@ tags:
   - styrketræning
   - begynder
   - guide
+  - træningslære
 last_modified_at: 2024-01-23T08:14:14Z
 toc: true
 ---

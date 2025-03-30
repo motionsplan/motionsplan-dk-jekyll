@@ -95,89 +95,13 @@ Baseret på artiklen af [Hawkins & Hull](https://www.researchgate.net/profile/Ma
 
 ***
 
-## Squatmekanik er baseret på anatomi
-
-{% include video id="Av3LO2GwpAk" provider="youtube" %}
-
-{% include video id="KGEKRjlZKf8" provider="youtube" %}
-
-***
-
-Din anatomi og antropometri er meget afgørende for, hvordan du squatter. Der er ikke en stil, der er rigtig eller forkert. Det handler om at finde en passende stil til din krop.
-
-***
-
-## Squat oprejst vs foroverbøjet
-
-[Mark Rippetoe](https://startingstrength.com/article/squat-mechanics-a-clarification) er altid meget præcis. Han forklarer, at det er godt at have hoften med i squat. Læs artiklen og bliv meget klogere.
-
-[Brett Contreas](https://bretcontreras.com/how-femur-length-effects-squat-mechanics/) har også observeret det med sine atleter.
-
-{% include figure image_path="/assets/images/blog/brett-contreas-femur-torso-squat-dots.jpg" caption="To kvinder med samme højde, men med ret forskellig antropometriske målinger på læggen, lårbenet og overkroppen. Det har naturligvis en betydning for squat-mønsteret for den enkelte. Kilde: [Brett Contreas](https://bretcontreras.com/how-femur-length-effects-squat-mechanics/)." %}
-
-Der er mange parametre, der definerer et squatmønster, men fordi de to kvinder har meget forskellige mål, så vil de også squatte forskelligt.
-
-{% include gallery id="gallery_brett_contreas" caption="Kvinden til venstre har en relativt kort lårben og en lang overkrop. Hun squatter dybt og rimelig oprejst. Kvinden til højre har relativt lange lårben og en kortere overkrop. Hun squatter knap så dybt og noget mere foroverbøjet. Begge kvinder har et fint squat." %}
-
-Der er mange faktorer der indvirker på om din squat stil er mere eller mindre oprejst. Du kan se dem sammenfattet i følgende tabel.
-
-| **Faktorer**            | **Mere oprejst squatstilling**                              | **Mere foroverbøjet squatstilling**                               |
-|-------------------------|-------------------------------------------------------------|------------------------------------------------------------------|
-| **Hælhøjde**            | Større hælløft (f.eks. vægtløftersko)                      | Intet hælløft (f.eks. Chuck Taylors)                             |
-| **Ankelmobilitet**      | Større dorsalfleksion                                       | Begrænset dorsalfleksion                                          |
-| **Lemmelængde**         | Kortere lårben i forhold til torso, længere torso           | Længere lårben i forhold til torso, kortere torso                 |
-| **Stancebredde**        | Bredere stand                                              | Smallere stand                                                    |
-| **Knæposition**         | Mere abduktion (knæene udad)                                | Mindre abduktion (knæene indad)                                   |
-| **Stangposition**       | Højere stangplacering på ryggen                             | Lavere stangplacering på ryggen                                   |
-| **Styrkefokus**         | Større relativ quadriceps-styrke                           | Større relativ gluteal-styrke                                    |
-| **Bevægelsesintention** | Øget fokus på knæekstensorer                               | Øget fokus på hofteekstensorer                                    |
-
-Selvom man er bygget på en særlig måde, så betyder det ikke nødvendigvis at ens squat skal følge et bestemt mønster.
-
-***
-
-## De tre S'er
-
-[Jacob Beermann](https://maxer.dk/videoer/squat-de-3-vigtigste-parametre) beskriver i sin bog [Stærk](/artikel/staerk-traeningsprogram/) tre S'er som en model for at forstå, hvordan du kan justere teknikken og få en effektiv teknik i squat.
-
-Modellen går fra to yderpunkter, som jeg har benævnt olympisk squat (vægtløftning) til powerlifting squat (styrkeløft).
-
-Det er vigtigt at sige, at squatvariationerne i yderpunkterne mere handler om, hvad der passer til din krop, eller hvilken idrætsgren, du har valgt at squatte i forhold til.
-
-Det er ikke et mål i sig selv at de 3 S'er skal passe sammen, men det er heller ikke et mål at skulle lave en oprejst squat (med mindre du gerne vil lave vægtløftning, hvor det kan være en fordel).
-
-| **Parameter**         | **OL Squat**                             | **Mellemliggende valg**                      | **Powerlifting Squat**                             |
-|-----------------------|---------------------------------------------|----------------------------------------------|---------------------------------------------|
-| **Stand**             | Smal stand                | Kan justeres mellem smal og bred stand       | Bred stand             |
-| **Stangplacering**    | Høj stangplacering på ryggen                | Kan justeres mellem høj og lav stangplacering| Lav stangplacering på ryggen                |
-| **Startbevægelse**    | Start med knæene frem                       | Kan justeres mellem knæene frem og hoften bagud | Start med hoften bagud                      |
-
-I denne video kan du se Beermann selv forklare om de 3 S'er:
-
-{% include video provider="youtube" id="ctnTCAkN1_g" %}
-
-Alt efter stilen, så rammer den også lidt forskelligt i kroppen.
-
-| **Kropsbygning & Fokus** | **Forlårsdominant** (korte lårben, lang overkrop) | **Mellemliggende kropsbygning**              | **Bagkæde-dominant** (lange lårben, kort overkrop) |
-|---------------------------|-----------------------------------------------|--------------------------------------------|----------------------------------------------------|
-| **Primært muskulært fokus** | Quadriceps og forreste muskulatur            | Kan justeres afhængigt af valg              | Gluteus og bagkæde muskulatur                      |
-
-***
-{% comment %}
-## Opvarmning til squat
-
-SQUAT UNIVERSITY - ...
-STRETCH FOR LOW BAR SQUAT - https://www.youtube.com/watch?v=X2zDg7RU3TA
-
-***
-
-## Problem med squat illustrationer
-
-https://www.youtube.com/watch?v=zT3pwocyU68
-
-{% endcomment %}
-
 ## Konklusion
+
+For at optimere din squat-teknik er det vigtigt at forstå biomekanikken bag løftet. Ved at lære, hvordan kroppen bevæger sig i de forskellige faser af squat, kan du forbedre både styrke og sikkerhed.
+
+For mere dybdegående viden og praktiske tips, kan du udforske disse artikler:
+
+- [Squat teknik](/squat/) 💪
 
 Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biomekanik](/biomekanik/).
 

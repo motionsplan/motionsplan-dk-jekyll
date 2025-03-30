@@ -15,7 +15,7 @@ category:
 tags:
   - styrkeløft
   - guide
-last_modified_at: 2024-11-19T23:14:14Z
+last_modified_at: 2025-03-19T23:14:14Z
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat - styrkeløft og powerlifting regler for squat"
@@ -48,9 +48,14 @@ quiz:
   - question: Hvor langt skal man ned i squat for at få godkendt løftet?
     question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     answer: "Hofteleddet skal være under knæleddet."
-  - question: "Må hovedet løftes fra bænken i bænkpres?"
-    answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
-    answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+feature_row_biomekanik:
+  - image_path: "/assets/images/blog/biomekanik-squat.jpg"
+    alt: "Biomekanik i squat - se dig selv som en tændstikmand"
+    title: "Squat model"
+    excerpt: "I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se, hvordan løftet alt andet lige vil se ud."
+    url: "/squat-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
 ---
 
 Squat i styrkeløft har specifikke krav til dybde, teknik og udførelse. Hvis du vil optimere din squat til konkurrencer, skal du kende reglerne og træne målrettet. I denne guide ser vi på reglerne for squat i styrkeløft og giver dig de bedste teknikker og træningsmetoder.
@@ -90,13 +95,17 @@ Jeg har primært samlet denne liste for at kunne formidle de gældende [retnings
 Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 {: .notice}
 
-## Hvordan vælger jeg mine forsøg til styrkeløft?
+## Sådan vælger du forsøg til styrkeløft
 
 At vælge de rigtige forsøg er afgørende for din præstation til et styrkeløft-stævne. En god strategi hjælper dig med at opbygge momentum og maksimere din total, mens forkerte valg kan resultere i missede løft og spildt potentiale.
 
 Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategier, anbefalinger og en praktisk skabelon til at planlægge dine løft.
 
 ➡️ **[Sådan vælger du dine forsøg til styrkeløft](/styrkeloeft-vaelg-forsoeg/)**
+
+## Biomekanisk analyse af din squat stil
+
+{% include feature_row id="feature_row_biomekanik" type="left" %}
 
 ## Konklusion
 
