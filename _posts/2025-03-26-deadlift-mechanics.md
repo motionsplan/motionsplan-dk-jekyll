@@ -15,6 +15,7 @@ tags:
   - anatomi
   - styrketræning
   - værktøj
+  - featured
 last_modified_at: 2025-03-28T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=10

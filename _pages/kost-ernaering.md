@@ -77,7 +77,7 @@ Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/), [taljemål](/
 
 Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er mange måder at finde sin kropskomposition på.
 
-{% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "kropskomposition" | where: "tags", "metode" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "kropskomposition" | where: "tags", "metode" | sort: "date" %}
 
 <div class="feature__wrapper" markdown="1">
 
@@ -101,12 +101,12 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag](/ligevaegtsindtag-beregner/). Det er et af de rigtig populære punkter her på siden.
 
-{% assign site_posts = site.posts | where: "tags", "stofskifteberegner" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "stofskifteberegner" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
