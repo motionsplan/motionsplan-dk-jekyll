@@ -29,7 +29,7 @@ Hvis du – ligesom os – er nysgerrig på, hvordan kroppen reagerer på træni
 
 {% include gallery images=site.data.mentioned layout="fifth" headline="Motionsplan er omtalt i" %}
 
-## Hvem står bag Motionsplan.dk?
+## Eksperterne bag Motionsplan.dk
 
 Motionsplan.dk ejes og drives af **Lars Olesen**, cand.scient. i Idræt og Sundhed fra Syddansk Universitet. Lars har undervist siden 1999 i bl.a. test & træning, fitnessinstruktør, løbetræning og idræt på [Vejle Idrætshøjskole](https://www.vih.dk/).
 

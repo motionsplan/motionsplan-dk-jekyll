@@ -23,7 +23,6 @@ category:
 tags:
   - styrketræning
   - beregner
-  - test
   - træningsplanlægning
   - spreadsheet
 meta:

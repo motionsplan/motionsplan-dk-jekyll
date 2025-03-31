@@ -1,13 +1,14 @@
 ---
 layout: single
 toc: true
-permalink: /beregnere-tests/
+permalink: /vaerktoejer/
 redirect_from:
   - /omregn/
-excerpt: "Få overblik over de bedste tests og beregnere til træning og sundhed. Test din kondition, styrke og sundhedsprofil med vores værktøjer og guides."
-description: "Få overblik over de bedste tests og beregnere til træning og sundhed. Test din kondition, styrke og sundhedsprofil med vores værktøjer og guides."
-title: &title "Tests & Beregnere"
-seo_title: "Tests & Beregnere - Find din form og sundhed | Motionsplan"
+  - /beregnere-tests/
+excerpt: "Få overblik over de bedste værktøjer til træning og sundhed. Bliv klogere på træning og sundhed gennem vores gratis træningsværktøjer, beregnere og vurderingstests."
+description: "Få overblik over de bedste værktøjer til træning og sundhed. Prøv vores beregnere og tests gratis til at blive klogere på din sundhed og træning."
+title: &title "Værktøjer - beregnere, analyse og vurderingsværktøjer"
+seo_title: "Træningsværktøjer – Beregnere, analyse og værktøjer til træning | Motionsplan"
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -18,11 +19,13 @@ header:
       url: "/tests/"
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
-    - label: "<i class='fas fa-tools'></i> Værktøjer"
+    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+      url: "/biomekanik/"
+    - label: "<i class='fas fa-tools'></i> Vurderingsværktøjer"
       url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
-feature_row_navigation:
+feature_row_tests:
   - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Tests"
     title: "Tests"
@@ -30,6 +33,7 @@ feature_row_navigation:
     url: "/tests/"
     btn_label: "<i class='fas fa-stopwatch'></i> Gå til tests"
     btn_class: "btn--success"
+feature_row_navigation:
   - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Beregnere"
     title: "Beregnere"
@@ -37,12 +41,19 @@ feature_row_navigation:
     url: "/beregnere/"
     btn_label: "<i class='fas fa-calculator'></i> Gå til beregnere"
     btn_class: "btn--success"
+  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Analyseværktøjer"
+    title: "Analyseværktøjer"
+    excerpt: "Prøv vores analyseværktøjer til squat, bænkpres og dødløft. Se dig selv som en tændstikmand. Det er ret magisk."
+    url: "/biomekanik/"
+    btn_label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+    btn_class: "btn--success"
   - image_path: https://images.unsplash.com/photo-1546016366-bf061374d54e?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
     alt: "Værktøjer"
-    title: "Værktøjer"
+    title: "Vurderingsværktøjer"
     excerpt: "Test din mentale og fysiske sundhed. Få indsigt i dine styrker og opdag områder, der kan forbedres."
     url: "/vurderingsvaerktoejer/"
-    btn_label: "<i class='fas fa-tools'></i> Gå til værktøjer"
+    btn_label: "<i class='fas fa-tools'></i> Vurderingsværktøjer"
     btn_class: "btn--success"
 feature_row_police_test:
   - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
@@ -52,11 +63,33 @@ feature_row_police_test:
     url: "/politiets-optagelsesproeve/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+feature_row_biomekanik:
+  - image_path: "/assets/images/blog/biomekanik-squat.jpg"
+    alt: "Biomekanik i squat - se dig selv som en tændstikmand"
+    title: "Squat model"
+    excerpt: "I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se, hvordan løftet alt andet lige vil se ud."
+    url: "/squat-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/blog/biomekanik-benchpress.jpg"
+    alt: "Biomekanik i bænkpres - forstå kraftoverførsel"
+    title: "Bænkpres model"
+    excerpt: "I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være. Gør det individuelt med din armlængde."
+    url: "/baenkpres-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
+    alt: "Biomekanik i dødløft - den rette løftevinkel"
+    title: "Dødløft model"
+    excerpt: "I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
+    url: "/doedloeft-biomekanik/"
+    btn_label: "Prøv det"
+    btn_class: "btn--primary"
 ---
 
-Her finder du en samlet oversigt over beregnere og tests. De fleste tests har en tilhørende beregner, der hjælper dig med at få dit resultat.
+Her finder du en samlet oversigt over alle værktøjer på Motionsplan. beregnere og tests. De fleste tests har også en tilhørende beregner, der hjælper dig med at få dit resultat.
 
-Derudover finder du også beregnere, der kan omregne værdier eller give indsigt i din kost, sundhed og træning.
+Derudover finder du beregnere, der kan omregne værdier eller give indsigt i din kost, sundhed og træning.
 
 Find den rette test, beregner eller værktøj til dine behov!
 
@@ -261,6 +294,14 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 [Se alle tests](/tests/){: .btn .btn--success .btn--center }
 </div>
 
-## Flere tests og prøver
+## Biomekanisk analyse - dig selv som tændstikmand
+
+{% include feature_row id="feature_row_biomekanik" %}
+
+## Tests - samlet oversigt
+
+{% include feature_row id="feature_row_tests" type="left" %}
+
+## Tjek flere prøver
 
 {% include feature_row id="feature_row_police_test" type="left" %}

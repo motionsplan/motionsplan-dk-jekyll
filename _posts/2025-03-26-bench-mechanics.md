@@ -14,6 +14,7 @@ category:
 tags:
   - anatomi
   - styrketræning
+  - værktøj
 last_modified_at: 2025-03-28T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1652363722833-509b3aac287b?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -52,17 +53,17 @@ I modellen baseret på [My Squat Mechanics](https://www.mysquatmechanics.com/ben
 
 ## Lås albuen vs Elbow Flare
 
-Modellen har mulighed for at sætte elbow flare (vinklen mellem kroppen og albuerne) eller låse albue-tilt til 0 grader (albuerne kan ikke bevæge sig fremad eller bagud i forhold til stangen).
+Modellen har mulighed for at sætte _elbow flare_ (vinklen mellem kroppen og albuerne) eller låse albue-tilt til 0 grader (albuerne kan ikke bevæge sig fremad eller bagud i forhold til stangen).
 
 Desværre har albuepositionen en variabel for meget til at blive modelleret præcist. Hvis du lader <i>lock</i>-muligheden være ulåst, kan du justere albue-flare. Dog laver modellen nogle sjove ting, når vinklen kommer over ca. 60 grader.
 
-At låse albuepositionen, så albuerne ikke kan bevæge sig foran eller bag stangen, gør det muligt at bestemme albuepositionen mere præcist. Dette eliminerer også muligheden for at vælge flare-vinklen.
+At låse albuepositionen, så albuerne ikke kan bevæge sig foran eller bag stangen, gør det muligt at bestemme albuepositionen mere præcist.
 
 Leg med begge muligheder og se, hvad der fungerer bedst for dig.
 
 ## Bar Path
 
-Har du nogensinde ønsket at se, om ændring af din stangbane for at efterligne en af de store løftere ville hjælpe?
+Har du nogensinde ønsket at se, om en ændring af din stangbane, så du efterligner en af de store løftere vil hjælpe på dit løft?
 
 Nu kan du det. 
 

@@ -12,14 +12,6 @@ header:
     url: "/kom-godt-i-gang/"
 intro:
   - excerpt: 'Følg os på &nbsp; [<i class="fab fa-facebook-f"></i> Facebook](https://www.facebook.com/motionsplan/){: .btn .btn--facebook } og [<i class="fab fa-instagram"></i> Instagram](https://www.instagram.com/motionsplan/){: .btn .btn--warning } og [<i class="fab fa-pinterest"></i> Pinterest](https://www.pinterest.com/motionsplan/){: .btn .btn--danger }'
-beregnere:
-  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Beregnere & Tests"
-    title: "Beregnere & Tests"
-    excerpt: "Jeg har samlet alle beregnere og tests her på siden. Til de fleste tests hører der også en beregner, der kan give dig resultatet på testen."
-    url: "/beregnere-tests/"
-    btn_label: "Om træningsformer"
-    btn_class: "btn--info"
 feature_row_content:
   - image_path: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Træningsformer"
@@ -146,11 +138,11 @@ diverse:
   {% endfor %}
 {% endif %}
 
-<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-stopwatch'></i> Se alle tests</a></p>
+<p><a href="/tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-stopwatch'></i> Se alle tests</a></p>
 
 </div>
 
-<h2>Anbefalede beregnere & værktøjer</h2>
+<h2>Anbefalede beregnere</h2>
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
 
@@ -162,7 +154,23 @@ diverse:
   {% endfor %}
 {% endif %}
 
-<p><a href="/beregnere-tests/" class="btn btn--large btn--success btn--center"><i class='fas fa-calculator'></i> Find alle beregnere</a></p>
+<p><a href="/beregnere/" class="btn btn--large btn--success btn--center"><i class='fas fa-calculator'></i> Find alle beregnere</a></p>
+
+</div>
+
+<h2>Populære værktøjer</h2>
+
+{% assign site_posts = site.posts | where: "tags", "værktøj" | where: "tags", "featured" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+<p><a href="/vaerktoej/" class="btn btn--large btn--success btn--center"><i class='fas fa-tools'></i> Prøv alle værktøjer</a></p>
 
 </div>
 

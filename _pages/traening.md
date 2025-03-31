@@ -336,13 +336,13 @@ Ud over kondition kan du også teste din fysiske styrke og muskulære udholdenhe
 - **Kropsvægt-tests** – Mål din styrke ved at se, hvor mange push-ups, pull-ups eller planke-sekunder du kan klare.
 - **Funktionelle tests** – Test din eksplosivitet, mobilitet eller styrke i forskellige øvelser.
 
-Se mere på vores [testoversigt](/beregnere-tests/) og bliv inspireret til forskellige tests!
+Se mere på vores [testoversigt](/tests/) og bliv inspireret til forskellige tests!
 
 ### Følg din udvikling
 
 Når du har taget en test, kan du bruge resultaterne til at [planlægge din træning](/traeningsplanlaegning/) og sætte realistiske mål. Gentag tests med jævne mellemrum for at se dine fremskridt og juster din træning efter dine resultater.
 
-Gå til vores [testoversigt](/beregnere-tests/) og find den bedste test til dig!
+Gå til vores [testoversigt](/tests/) og find den bedste test til dig!
 
 {% endcomment %}
 

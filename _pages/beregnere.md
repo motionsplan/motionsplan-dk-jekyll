@@ -16,6 +16,10 @@ header:
     - label: "<i class='fas fa-stopwatch'></i> Tests"
       url: "/tests/"
     - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vaerktoejer/"
+    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+      url: "/biomekanik/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
       url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide

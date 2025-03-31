@@ -37,7 +37,7 @@ For at sikre, at vores indhold er både troværdigt og letforståeligt, følger 
 - **Klar og forståelig kommunikation**: Vi præsenterer information på en måde, der er let at forstå, uden at forsimple komplekse emner unødigt.
 - **Nuanceret formidling**: Vi belyser fordele, ulemper og potentielle faldgruber ved forskellige træningsmetoder og sundhedsråd.
 
-## Redaktionelt team
+## Vores redaktionelle team
 
 Vores indhold er skrevet af eksperter med en akademisk baggrund inden for idræt og sundhed. Vi samarbejder med trænere, ernæringseksperter og sundhedsprofessionelle for at sikre, at vores artikler er korrekte og opdaterede.
 

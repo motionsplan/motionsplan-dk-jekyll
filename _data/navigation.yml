@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Tests & Beregnere"
-    url: /beregnere-tests/
+  - title: "📝 Tests"
+    url: /tests/
   - title: "Træning"
     url: /traening/
 #  - title: "Optimer træning"
@@ -10,6 +10,8 @@ main:
     url: /traeningslaere/
   - title: "Kost & Ernæring"
     url: /kost-ernaering/
+  - title: "🛠️ Værktøjer"
+    url: /vaerktoejer/
 #  - title: "Styrketræning"
 #    url: /styrketraening/
 #  - title: "Kondition"

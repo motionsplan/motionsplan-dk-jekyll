@@ -16,6 +16,10 @@ header:
       url: "/tests/"
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
+    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+      url: "/biomekanik/"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
 ---

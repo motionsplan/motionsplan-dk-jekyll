@@ -13,6 +13,7 @@ category:
 tags:
   - anatomi
   - styrketræning
+  - værktøj
 last_modified_at: 2025-03-28T19:14:14Z
 feature_row_tests_loeb:
   - image_path: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=10
@@ -94,7 +95,7 @@ Baseret på artiklen af [Hawkins & Hull](https://www.researchgate.net/profile/Ma
 
 ## Konklusion
 
-For at optimere din squat-teknik er det vigtigt at forstå biomekanikken bag løftet. Ved at lære, hvordan kroppen bevæger sig i de forskellige faser af squat, kan du forbedre både styrke og sikkerhed.
+For at optimere din squat-teknik er det vigtigt at forstå biomekanikken bag løftet. Ved at lære, hvordan kroppen bevæger sig i de forskellige faser af squat, kan du forbedre din styrke.
 
 For mere dybdegående viden og praktiske tips, kan du udforske disse artikler:
 
@@ -116,9 +117,6 @@ Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biom
 - [**The Squat, or How I Learned to Stop Leg-Pressing and Use My Ass**](http://startingstrength.com/articles/squat_rippetoe.pdf) by Mark Rippetoe (2009)  
 - [**Squats Part 1: Fold-Ability and Proportions**](https://youtu.be/Av3LO2GwpAk) by PersonalTrainingdotcom (2015)  
 - [**Squats Part 2: Fold-Ability and Proportions (Examples and Adjustments)**](https://youtu.be/KGEKRjlZKf8) by PersonalTrainingdotcom (2015)  
-
-### Additional Resources:
-
 - [de Leva P, **Adjustments to Zatsiorsky-Seluyanov's segment inertia parameters**](http://www.exrx.net/Kinesiology/Segments.html), J Biomech. 1996 Sep;29(9):1223-30.  
 - [Hawkins D, Hull ML, **A method for determining lower extremity muscle-tendon lengths during flexion/extension movements**](https://www.researchgate.net/profile/Maury_Hull/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements/links/0deec5296a6dbe683f000000.pdf), J Biomech. 1990;23(5):487-94.  
 - [**Biomechanics and Motor Control of Human Movement**](https://books.google.com.au/books?id=_bFHL08IWfwC&printsec=frontcover#v=onepage&q&f=false) by David A. Winter, ISBN: 978-0-470-39818-0  

@@ -15,7 +15,6 @@ category:
   - Fedtprocent
 tags:
   - fedtprocent
-  - test
   - kropskomposition
   - beregner
   - metode

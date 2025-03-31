@@ -15,7 +15,11 @@ header:
   actions:
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
+    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+      url: "/biomekanik/"
     - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "/vaerktoejer/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
       url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 feature_row_mental_tests:
@@ -185,6 +189,24 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 {% endif %}
 
 [Se mere om eksplosivitet](/eksplosivitet/){: .btn .btn--success .btn--center }
+
+</div>
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>🧠💭 Psykologiske tests</h3></summary>
+
+{% assign site_posts = site.posts | where: "tags", "psykologisk test" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle psykologiske tests](/psykiske-sundhedstest/){: .btn .btn--success .btn--center }
 
 </div>
 </details>

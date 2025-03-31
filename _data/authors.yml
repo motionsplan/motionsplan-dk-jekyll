@@ -27,7 +27,6 @@ vih:
   bio: |
     På testcenteret testes elever, privatpersoner, klubber og gymnasier. Vi har højtuddannet personale til at varetage testene.
   avatar: "/assets/images/authors/vih.jpg"
-  featured: true
   links:
     - label: "Martin Madsen"
       icon: "fa fa-link"
@@ -61,7 +60,6 @@ jye.schmidt:
     - label: "My Squat Mechanics"
       icon: "fa fa-link"
       url: "https://mysquatmechanics.com/"
-  featured: true
 nikolai.jauk:
   name             : "Nikolai Jauk"
   avatar           : "/assets/images/authors/nikolai-jauk.jpeg"

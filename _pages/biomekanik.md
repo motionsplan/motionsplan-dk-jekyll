@@ -102,7 +102,7 @@ Hvis du vil forstå, hvordan træning virker i kroppen, så er det godt at dykke
 
 Kroppen består af virkelig mange forskellige specialiserede celler. Alle levende organismer styres af overlevelsesmekanismer, som kan beskrives ved disse tre principper.
 
-[Læs meget mere om fysiologi](/fysiologi/).
+[Alt om fysiologi](/fysiologi/){: .btn .btn--success .btn--center }
 </details>
 
 <details markdown="1" class="faq">
@@ -110,10 +110,12 @@ Kroppen består af virkelig mange forskellige specialiserede celler. Alle levend
 
 Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen. Her kan du læse mere om de forskellige grene i anatomien.
 
-- [Grundlæggende anatomi](/anatomi/)
-- [Muskler](/muskler/)
-- [Knogler](/knogler/)
-- [Led](/led/)
+- 🏋️ [Grundlæggende anatomi](/anatomi/)
+- 💪 [Muskler](/muskler/)
+- 🦴 [Knogler](/knogler/)
+- 🔗 [Led](/led/)
+
+[Alt om anatomi](/anatomi/){: .btn .btn--success .btn--center }
 </details>
 
 <details markdown="1" class="faq">
@@ -133,13 +135,15 @@ Se vores artikler om træningslære:
 
 {% assign site_posts = site.posts | where: "tags", "træningslære" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
+
+[Alt om træningslære](/traeningslaere/){: .btn .btn--success .btn--center }
 
 </div>
 </details>

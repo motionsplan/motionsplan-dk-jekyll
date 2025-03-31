@@ -32,9 +32,9 @@
                 </div>
                 <div class="form-group">
                     <label><b>Arm</b></label>
-                    <input type="range" id="armslider" min="10" max="120" value="55" step="1"
+                    <input type="range" id="armslider" min="10" max="120" value="64" step="1"
                         oninput="update(this.value)" />
-                    <span id="armvalue">55 cm</span>
+                    <span id="armvalue">64 cm</span>
                 </div>
             </fieldset>
         </div>
@@ -80,7 +80,7 @@
 </fieldset>
 
 <div class="models">
-    <div class="model" id="model"></div>
+    <div class="model" id="model" style="max-width: 400px; height: 700px;"></div>
     <div class="model"></div>
 </div>
 <div class="models">
@@ -144,6 +144,10 @@
         var tlen = new Array();
         var flen = new Array();
 
+
+        //-----------------------
+        // ankles and knees
+        //-----------------------
         for (i = 0; i < 100; i++) {
 
             //linear ankle breaking model.
@@ -189,7 +193,6 @@
 
             hipsankledistance = Math.sqrt(Math.pow(hipy[i], 2) + Math.pow((hipx[i] - anklexy[0]), 2));
             kneeangle[i] = (180 / Math.PI) * (Math.acos((Math.pow(hipsankledistance, 2) - Math.pow(tibia, 2) - Math.pow(femur, 2)) / (-2 * tibia * femur)));
-
         }
 
         //-----------------------
@@ -269,7 +272,7 @@
 
         var data = [plothead, plotbody, plotbar];
 
-        var aspectRatio = 0.8; // Adjust as needed (e.g., 16/9, 4/3, etc.)
+        var aspectRatio = 0.7; // Adjust as needed (e.g., 16/9, 4/3, etc.)
         var container = document.getElementById('model');
         var width = container.clientWidth; // Get dynamic width
         var height = width / aspectRatio; // Maintain aspect ratio
