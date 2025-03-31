@@ -272,14 +272,16 @@ function update(newValue)
 	var data = [plotbody, plotbarpath, plotbar, plotbench, plothead];
 
 	var layout = {
-	  title: 'Benchpress Model',
+	  title: 'Benchpress From Side',
 	  xaxis: {
 		range: [-50, 125],
-		autorange: false
+		autorange: false,
+		fixedrange: true
 	  },
 	  yaxis: {
 		range: [0, 150],
-		autorange: false
+		autorange: false,
+		fixedrange: true
 	  },
 	  showlegend: false
 	};
@@ -368,13 +370,16 @@ function update(newValue)
 	var data = [plotarms, plotbar, plothead, plotbench];
 
 	var layout = {
+	  title: 'Benchpress From Behind',
 	  xaxis: {
 		range: [-90, 90],
-		autorange: false
+		autorange: false,
+		fixedrange: true
 	  },
 	  yaxis: {
 		range: [0, 150],
-		autorange: false
+		autorange: false,
+		fixedrange: true
 	  },
 	  showlegend: false
 	};
@@ -483,13 +488,16 @@ function update(newValue)
 	var data = [plotarms, plotbar, plotbench, plothead];
 
 	var layout = {
+	  title: 'Benchpress From Above',
 	  xaxis: {
 		range: [-90, 90],
-		autorange: false
+		autorange: false,
+		fixedrange: true
 	  },
 	  yaxis: {
 		range: [-50, 125],
-		autorange: false
+		autorange: false,
+		fixedrange: true
 	  },
 	  showlegend: false
 	};
