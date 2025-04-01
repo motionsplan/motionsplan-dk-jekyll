@@ -1,0 +1,83 @@
+<script>
+    function number(n) {
+        if (n == "" || n.length < 2 || n.length > 3) {
+            return false;
+        }
+        if (isNaN(n) == 1) { return false; }
+        else {
+            return true;
+        }
+    }
+
+    function go(a) {
+        var w = a.T1.value
+        if (w < 80 || w > 300) {
+            if (w.length < 1) {
+                alert('Du mangler at skrive din puls! \nPrøv igen.');
+            }
+            else {
+                alert(w + ' er ikke en gyldig puls ! \nPrøv igen.');
+            }
+            a.T1.focus();
+            a.T1.select();
+            return false;
+        }
+        if (!number(a.T1.value)) {
+            if (a.T1.value.length < 1) {
+                alert('Du mangler at skrive din puls! \nPrøv igen.');
+            }
+            else {
+                alert(a.T1.value + ' er ikke en gyldig puls ! \nPrøv igen.');
+            }
+            a.T1.focus();
+            a.T1.select();
+            return false;
+        }
+        if (!number(a.T2.value)) {
+            if (a.T2.value.length < 1) { alert('Du mangler at skrive din alder! \nPrøv igen.'); }
+            else { alert(a.T2.value + ' er ikke et gyldigt tal ! \nPrøv igen.'); }
+            a.T2.focus();
+            a.T2.select();
+            return false;
+        }
+        if (!number(a.T4.value)) {
+            if (a.T4.value.length < 1) { alert('Du mangler at skrive din vægt ! \nPrøv igen.'); }
+            else { alert(a.T4.value + ' er ikke en gyldig vægt ! \nPrøv igen.'); }
+            a.T4.focus();
+            a.T4.select();
+            return false;
+        }
+        return true;
+    }
+</script>
+
+<form onsubmit="go(this); return false;" class="calculator" id="calculator_aastrand_steptest">
+    <fieldset>
+        <legend>Åstrands steptest. Skema til indtastning.</legend>
+        <div class="form-group">
+            <label>Puls pr. minut
+                <input type="number" name="t1" size="20" min="0" max="300" required>
+            </label>
+        </div>
+        <div class="form-group">
+            Køn:
+            
+            <label>Kvinde <input type="radio" name="t3" value="kvinde" checked required></label>
+            <label>Mand <input type="radio" name="t3" value="mand"></label>
+        </div>
+        <div class="form-group">
+            <label>
+                Alder i hele år
+                <input type="number" name="t2" size="20" min="0" max="200" required>
+                <input type=hidden name="postback" value="true">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Vægt i hele kg
+                <input type="number" min="0" max="400" required name="t4" size="20">
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+ </form>
