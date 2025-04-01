@@ -1,0 +1,329 @@
+<form class="calculator" id="calculator_plate_rack">
+    <fieldset>
+                        <div class="form-group">
+                            <label>Total Weight</label>
+                            <input name="Weight" type="text" size="5" value="100" id="Weight">
+                        </div>
+                        <div class="form-group">
+                            <label>Percentage</label>
+                            <select name="Percentage" id="Percentage">
+                                <option value="1" selected="">100%</option>
+                                <option value="0.95">95%</option>
+                                <option value="0.90">90%</option>
+                                <option value="0.85">85%</option>
+                                <option value="0.80">80%</option>
+                                <option value="0.75">75%</option>
+                                <option value="0.70">70%</option>
+                                <option value="0.65">65%</option>
+                                <option value="0.60">60%</option>
+                                <option value="0.55">55%</option>
+                                <option value="0.50">50%</option>
+                                <option value="0.45">45%</option>
+                                <option value="0.40">40%</option>
+                                <option value="0.35">35%</option>
+                                <option value="0.30">30%</option>
+                                <option value="0.25">25%</option>
+                                <option value="0.20">20%</option>
+                                <option value="0.15">15%</option>
+                                <option value="0.10">10%</option>
+                                <option value="0.05">5%</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Bar weight</label>
+                            <input name="Bar" type="text" size="5" value="20" id="Bar">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Collars</label>
+                            <select name="Collars" id="collars">
+                                <option value="0" selected="">None</option>
+                                <option value="0.5">Spring (0,5 kg)</option>
+                                <option value="1">Clamp (1 kg)</option>
+                                <option value="5">Standard (5 kg)</option>
+                            </select>
+                        </div>
+
+                        <input type="submit" value="Calculate" onclick="return startcalc(); return false;">
+    </fieldset>
+    <fieldset class="results">
+
+        <div class="form-group">
+            <label>Target weight</label>
+            <input name="Target" type="text" size="5" id="Target" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label>Final Weight</label>
+            <input name="Final" type="text" size="5" id="finalw" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label>Difference</label>
+            <input name="Dif" type="text" size="5" id="diff" disabled="disabled">
+        </div>
+
+        <table>
+                <caption>Plate Pairs</caption>
+                <tbody>
+                    <tr>
+                        <td>Required</td>
+                        <td>Weight (kg)</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N25" type="text" size="4" id="req100" disabled="disabled">
+                        </td>
+                        <td bgcolor="#ff0000">25</td>
+                        <td>
+                            <input name="A25" type="text" size="4" value="2" id="avail100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N20" type="text" size="4" id="req45" disabled="disabled">
+                        </td>
+                        <td bgcolor="#0000ff">20</td>
+                        <td>
+                            <input name="A20" type="text" size="4" value="2" id="avail45">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N15" type="text" size="4" id="req35" disabled="disabled">
+                        </td>
+                        <td bgcolor="#ffff00">15</td>
+                        <td>
+                            <input name="A15" type="text" size="4" value="2" id="avail35">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N10" type="text" size="4" id="req25" disabled="disabled">
+                        </td>
+                        <td bgcolor="#009900">10</td>
+                        <td>
+                            <input name="A10" type="text" size="4" value="2" id="avail25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N5" type="text" size="4" id="req10" disabled="disabled">
+                        </td>
+                        <td>5</td>
+                        <td>
+                            <input name="A5" type="text" size="4" value="2" id="avail10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N2half" type="text" size="4" id="req2" disabled="disabled">
+                        </td>
+                        <td bgcolor="#ff0000">2.5</td>
+                        <td>
+                            <input name="A2half" type="text" size="4" value="2" id="avail2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N2" type="text" size="4" id="req5" disabled="disabled">
+                        </td>
+                        <td bgcolor="#0000ff">2</td>
+                        <td>
+                            <input name="A2" type="text" size="4" value="2" id="avail5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N1half" type="text" size="4" id="req2" disabled="disabled">
+                        </td>
+                        <td bgcolor="#ffff00">1.5</td>
+                        <td>
+                            <input name="A1half" type="text" size="4" value="2" id="avail2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="N1" type="text" size="4" id="req5" disabled="disabled">
+                        </td>
+                        <td bgcolor="#009900">1</td>
+                        <td>
+                            <input name="A1" type="text" size="4" value="2" id="avail2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="Nhalf" type="text" size="4" id="req5" disabled="disabled">
+                        </td>
+                        <td>0.5</td>
+                        <td>
+                            <input name="Ahalf" type="text" size="4" value="2" id="avail2">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </fieldset>
+</form>
+<script>
+    function startcalc() {
+
+        var Weight, percentage, Selpercentage, Bar, Collars, Selcollars;
+        var Target, Final, Diff;
+        var N25, N20, N15, N10, N5, N2, N1half, N1, Nhalf;
+        var A25, A20, A15, A10, A5, A2, A1half, A1, Ahalf;
+        var weightcount;
+
+        /*Assign value to varible entered by users */
+        weight = document.getElementsByName('Weight')[0].value;
+        var p = document.getElementById("Percentage");
+        Selpercentage = p.options[p.selectedIndex].value;
+        Bar = document.getElementsByName('Bar')[0].value;
+        var s = document.getElementById("collars");
+        Selcollars = s.options[s.selectedIndex].value;
+
+        A25 = document.getElementsByName('A25')[0].value;
+        A20 = document.getElementsByName('A20')[0].value;
+        A15 = document.getElementsByName('A15')[0].value;
+        A10 = document.getElementsByName('A10')[0].value;
+        A5 = document.getElementsByName('A5')[0].value;
+        A2half = document.getElementsByName('A2half')[0].value;
+        A2 = document.getElementsByName('A2')[0].value;
+        A1half = document.getElementsByName('A1half')[0].value;
+        A1 = document.getElementsByName('A1')[0].value;
+        Ahalf = document.getElementsByName('Ahalf')[0].value;
+
+        var Avail = [A25, A20, A15, A10, A5, A2half, A2, A1half, A1, Ahalf];
+        var plateWeight = [25, 20, 15, 10, 5, 2.5, 2, 1.5, 1, 0.5];
+        var NoPlateReq = [];
+
+        /* get basic weight to count plates needed */
+        var rw = countBasicValues(Weight, Bar, Selpercentage, Selcollars);
+
+        /* loop to count number of plates */
+        for (var i = 0; i < Avail.length; i++) {
+            pairVal = plateWeight[i] * 2;
+            if (rw >= pairVal) {
+                noplate = rw / pairVal;
+                if (noplate > Avail[i]) {
+                    noplate = parseInt(Avail[i]);
+                    NoPlateReq.push(parseInt(noplate));
+                    if (NoPlateReq[i] > 0) {
+                        rw = rw - parseFloat((NoPlateReq[i] * 2 * plateWeight[i]));
+                    }
+
+                }
+                else {
+                    NoPlateReq.push(parseInt(noplate));
+                    if (NoPlateReq[i] > 0) {
+                        rw = rw - parseFloat((NoPlateReq[i] * 2 * plateWeight[i]));
+                    }
+
+                }
+            }
+            else {
+                NoPlateReq.push(0);
+            }
+
+        }
+
+        /*function to dislpay values*/
+        displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage);
+        erturn false;
+    }
+
+    function displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage) {
+
+        if (parseInt(NoPlateReq[0]) == 0) {
+            document.getElementsByName('N25')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N25')[0].value = parseInt(NoPlateReq[0]);
+        }
+
+
+        if (parseInt(NoPlateReq[1]) == 0) {
+            document.getElementsByName('N20')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N20')[0].value = parseInt(NoPlateReq[1]);
+        }
+
+
+        if (parseInt(NoPlateReq[2]) == 0) {
+            document.getElementsByName('N15')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N15')[0].value = parseInt(NoPlateReq[2]);
+        }
+
+
+
+        if (parseInt(NoPlateReq[3]) == 0) {
+            document.getElementsByName('N10')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N10')[0].value = parseInt(NoPlateReq[3]);
+        }
+
+        if (parseInt(NoPlateReq[4]) == 0) {
+            document.getElementsByName('N5')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N5')[0].value = parseInt(NoPlateReq[4]);
+        }
+
+        if (parseInt(NoPlateReq[5]) == 0) {
+            document.getElementsByName('N2half')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N2half')[0].value = parseInt(NoPlateReq[5]);
+        }
+
+        if (parseInt(NoPlateReq[6]) == 0) {
+            document.getElementsByName('N2')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N2')[0].value = parseInt(NoPlateReq[6]);
+        }
+
+        if (parseInt(NoPlateReq[7]) == 0) {
+            document.getElementsByName('N1half')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N1half')[0].value = parseInt(NoPlateReq[7]);
+        }
+
+        if (parseInt(NoPlateReq[8]) == 0) {
+            document.getElementsByName('N1')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N1')[0].value = parseInt(NoPlateReq[8]);
+        }
+
+        if (parseInt(NoPlateReq[9]) == 0) {
+            document.getElementsByName('Nhalf')[0].value = "";
+        }
+        else {
+            document.getElementsByName('Nhalf')[0].value = parseInt(NoPlateReq[9]);
+        }
+
+
+        var finalval = 0;
+        for (var i = 0; i < NoPlateReq.length; i++) {
+            finalval = finalval + parseInt(NoPlateReq[i] * plateWeight[i] * 2);
+        }
+
+        var bs = parseFloat(Selcollars) + parseFloat(Bar);
+        diff = parseFloat(weight * Selpercentage);
+
+        document.getElementsByName('Final')[0].value = parseFloat(finalval + bs);
+        document.getElementsByName('Target')[0].value = parseFloat(weight * Selpercentage);
+        document.getElementsByName('Dif')[0].value = parseFloat(diff - (finalval + bs));
+    }
+
+    function countBasicValues(Weight, Bar, Selpercentage, Selcollars) {
+        var warmupWeight = weight * Selpercentage;
+        var bs = parseFloat(Selcollars) + parseFloat(Bar);
+        var retWeight = parseFloat(warmupWeight) - parseFloat(bs);
+        return retWeight;
+    }
+</script>
