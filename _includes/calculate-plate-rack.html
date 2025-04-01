@@ -1,3 +1,168 @@
+<script>
+    function startcalc() {
+
+        var Weight, percentage, Selpercentage, Bar, Collars, Selcollars;
+        var Target, Final, Diff;
+        var N25, N20, N15, N10, N5, N2, N1half, N1, Nhalf;
+        var A25, A20, A15, A10, A5, A2, A1half, A1, Ahalf;
+        var weightcount;
+
+        /*Assign value to varible entered by users */
+        weight = document.getElementsByName('Weight')[0].value;
+        var p = document.getElementById("Percentage");
+        Selpercentage = p.options[p.selectedIndex].value;
+        Bar = document.getElementsByName('Bar')[0].value;
+        var s = document.getElementById("collars");
+        Selcollars = s.options[s.selectedIndex].value;
+
+        A25 = document.getElementsByName('A25')[0].value;
+        A20 = document.getElementsByName('A20')[0].value;
+        A15 = document.getElementsByName('A15')[0].value;
+        A10 = document.getElementsByName('A10')[0].value;
+        A5 = document.getElementsByName('A5')[0].value;
+        A2half = document.getElementsByName('A2half')[0].value;
+        A2 = document.getElementsByName('A2')[0].value;
+        A1half = document.getElementsByName('A1half')[0].value;
+        A1 = document.getElementsByName('A1')[0].value;
+        Ahalf = document.getElementsByName('Ahalf')[0].value;
+
+        var Avail = [A25, A20, A15, A10, A5, A2half, A2, A1half, A1, Ahalf];
+        var plateWeight = [25, 20, 15, 10, 5, 2.5, 2, 1.5, 1, 0.5];
+        var NoPlateReq = [];
+
+        /* get basic weight to count plates needed */
+        var rw = countBasicValues(Weight, Bar, Selpercentage, Selcollars);
+
+        /* loop to count number of plates */
+        for (var i = 0; i < Avail.length; i++) {
+            pairVal = plateWeight[i] * 2;
+            if (rw >= pairVal) {
+                noplate = rw / pairVal;
+                if (noplate > Avail[i]) {
+                    noplate = parseInt(Avail[i]);
+                    NoPlateReq.push(parseInt(noplate));
+                    if (NoPlateReq[i] > 0) {
+                        rw = rw - parseFloat((NoPlateReq[i] * 2 * plateWeight[i]));
+                    }
+
+                }
+                else {
+                    NoPlateReq.push(parseInt(noplate));
+                    if (NoPlateReq[i] > 0) {
+                        rw = rw - parseFloat((NoPlateReq[i] * 2 * plateWeight[i]));
+                    }
+
+                }
+            }
+            else {
+                NoPlateReq.push(0);
+            }
+
+        }
+
+        /*function to dislpay values*/
+        displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage);
+        return false;
+    }
+
+    function displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage) {
+
+        if (parseInt(NoPlateReq[0]) == 0) {
+            document.getElementsByName('N25')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N25')[0].value = parseInt(NoPlateReq[0]);
+        }
+
+
+        if (parseInt(NoPlateReq[1]) == 0) {
+            document.getElementsByName('N20')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N20')[0].value = parseInt(NoPlateReq[1]);
+        }
+
+
+        if (parseInt(NoPlateReq[2]) == 0) {
+            document.getElementsByName('N15')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N15')[0].value = parseInt(NoPlateReq[2]);
+        }
+
+
+
+        if (parseInt(NoPlateReq[3]) == 0) {
+            document.getElementsByName('N10')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N10')[0].value = parseInt(NoPlateReq[3]);
+        }
+
+        if (parseInt(NoPlateReq[4]) == 0) {
+            document.getElementsByName('N5')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N5')[0].value = parseInt(NoPlateReq[4]);
+        }
+
+        if (parseInt(NoPlateReq[5]) == 0) {
+            document.getElementsByName('N2half')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N2half')[0].value = parseInt(NoPlateReq[5]);
+        }
+
+        if (parseInt(NoPlateReq[6]) == 0) {
+            document.getElementsByName('N2')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N2')[0].value = parseInt(NoPlateReq[6]);
+        }
+
+        if (parseInt(NoPlateReq[7]) == 0) {
+            document.getElementsByName('N1half')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N1half')[0].value = parseInt(NoPlateReq[7]);
+        }
+
+        if (parseInt(NoPlateReq[8]) == 0) {
+            document.getElementsByName('N1')[0].value = "";
+        }
+        else {
+            document.getElementsByName('N1')[0].value = parseInt(NoPlateReq[8]);
+        }
+
+        if (parseInt(NoPlateReq[9]) == 0) {
+            document.getElementsByName('Nhalf')[0].value = "";
+        }
+        else {
+            document.getElementsByName('Nhalf')[0].value = parseInt(NoPlateReq[9]);
+        }
+
+
+        var finalval = 0;
+        for (var i = 0; i < NoPlateReq.length; i++) {
+            finalval = finalval + parseInt(NoPlateReq[i] * plateWeight[i] * 2);
+        }
+
+        var bs = parseFloat(Selcollars) + parseFloat(Bar);
+        diff = parseFloat(weight * Selpercentage);
+
+        document.getElementsByName('Final')[0].value = parseFloat(finalval + bs);
+        document.getElementsByName('Target')[0].value = parseFloat(weight * Selpercentage);
+        document.getElementsByName('Dif')[0].value = parseFloat(diff - (finalval + bs));
+    }
+
+    function countBasicValues(Weight, Bar, Selpercentage, Selcollars) {
+        var warmupWeight = weight * Selpercentage;
+        var bs = parseFloat(Selcollars) + parseFloat(Bar);
+        var retWeight = parseFloat(warmupWeight) - parseFloat(bs);
+        return retWeight;
+    }
+</script>
+
 <form class="calculator" id="calculator_plate_rack">
     <fieldset>
                         <div class="form-group">
@@ -163,167 +328,3 @@
             </table>
     </fieldset>
 </form>
-<script>
-    function startcalc() {
-
-        var Weight, percentage, Selpercentage, Bar, Collars, Selcollars;
-        var Target, Final, Diff;
-        var N25, N20, N15, N10, N5, N2, N1half, N1, Nhalf;
-        var A25, A20, A15, A10, A5, A2, A1half, A1, Ahalf;
-        var weightcount;
-
-        /*Assign value to varible entered by users */
-        weight = document.getElementsByName('Weight')[0].value;
-        var p = document.getElementById("Percentage");
-        Selpercentage = p.options[p.selectedIndex].value;
-        Bar = document.getElementsByName('Bar')[0].value;
-        var s = document.getElementById("collars");
-        Selcollars = s.options[s.selectedIndex].value;
-
-        A25 = document.getElementsByName('A25')[0].value;
-        A20 = document.getElementsByName('A20')[0].value;
-        A15 = document.getElementsByName('A15')[0].value;
-        A10 = document.getElementsByName('A10')[0].value;
-        A5 = document.getElementsByName('A5')[0].value;
-        A2half = document.getElementsByName('A2half')[0].value;
-        A2 = document.getElementsByName('A2')[0].value;
-        A1half = document.getElementsByName('A1half')[0].value;
-        A1 = document.getElementsByName('A1')[0].value;
-        Ahalf = document.getElementsByName('Ahalf')[0].value;
-
-        var Avail = [A25, A20, A15, A10, A5, A2half, A2, A1half, A1, Ahalf];
-        var plateWeight = [25, 20, 15, 10, 5, 2.5, 2, 1.5, 1, 0.5];
-        var NoPlateReq = [];
-
-        /* get basic weight to count plates needed */
-        var rw = countBasicValues(Weight, Bar, Selpercentage, Selcollars);
-
-        /* loop to count number of plates */
-        for (var i = 0; i < Avail.length; i++) {
-            pairVal = plateWeight[i] * 2;
-            if (rw >= pairVal) {
-                noplate = rw / pairVal;
-                if (noplate > Avail[i]) {
-                    noplate = parseInt(Avail[i]);
-                    NoPlateReq.push(parseInt(noplate));
-                    if (NoPlateReq[i] > 0) {
-                        rw = rw - parseFloat((NoPlateReq[i] * 2 * plateWeight[i]));
-                    }
-
-                }
-                else {
-                    NoPlateReq.push(parseInt(noplate));
-                    if (NoPlateReq[i] > 0) {
-                        rw = rw - parseFloat((NoPlateReq[i] * 2 * plateWeight[i]));
-                    }
-
-                }
-            }
-            else {
-                NoPlateReq.push(0);
-            }
-
-        }
-
-        /*function to dislpay values*/
-        displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage);
-        erturn false;
-    }
-
-    function displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage) {
-
-        if (parseInt(NoPlateReq[0]) == 0) {
-            document.getElementsByName('N25')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N25')[0].value = parseInt(NoPlateReq[0]);
-        }
-
-
-        if (parseInt(NoPlateReq[1]) == 0) {
-            document.getElementsByName('N20')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N20')[0].value = parseInt(NoPlateReq[1]);
-        }
-
-
-        if (parseInt(NoPlateReq[2]) == 0) {
-            document.getElementsByName('N15')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N15')[0].value = parseInt(NoPlateReq[2]);
-        }
-
-
-
-        if (parseInt(NoPlateReq[3]) == 0) {
-            document.getElementsByName('N10')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N10')[0].value = parseInt(NoPlateReq[3]);
-        }
-
-        if (parseInt(NoPlateReq[4]) == 0) {
-            document.getElementsByName('N5')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N5')[0].value = parseInt(NoPlateReq[4]);
-        }
-
-        if (parseInt(NoPlateReq[5]) == 0) {
-            document.getElementsByName('N2half')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N2half')[0].value = parseInt(NoPlateReq[5]);
-        }
-
-        if (parseInt(NoPlateReq[6]) == 0) {
-            document.getElementsByName('N2')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N2')[0].value = parseInt(NoPlateReq[6]);
-        }
-
-        if (parseInt(NoPlateReq[7]) == 0) {
-            document.getElementsByName('N1half')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N1half')[0].value = parseInt(NoPlateReq[7]);
-        }
-
-        if (parseInt(NoPlateReq[8]) == 0) {
-            document.getElementsByName('N1')[0].value = "";
-        }
-        else {
-            document.getElementsByName('N1')[0].value = parseInt(NoPlateReq[8]);
-        }
-
-        if (parseInt(NoPlateReq[9]) == 0) {
-            document.getElementsByName('Nhalf')[0].value = "";
-        }
-        else {
-            document.getElementsByName('Nhalf')[0].value = parseInt(NoPlateReq[9]);
-        }
-
-
-        var finalval = 0;
-        for (var i = 0; i < NoPlateReq.length; i++) {
-            finalval = finalval + parseInt(NoPlateReq[i] * plateWeight[i] * 2);
-        }
-
-        var bs = parseFloat(Selcollars) + parseFloat(Bar);
-        diff = parseFloat(weight * Selpercentage);
-
-        document.getElementsByName('Final')[0].value = parseFloat(finalval + bs);
-        document.getElementsByName('Target')[0].value = parseFloat(weight * Selpercentage);
-        document.getElementsByName('Dif')[0].value = parseFloat(diff - (finalval + bs));
-    }
-
-    function countBasicValues(Weight, Bar, Selpercentage, Selcollars) {
-        var warmupWeight = weight * Selpercentage;
-        var bs = parseFloat(Selcollars) + parseFloat(Bar);
-        var retWeight = parseFloat(warmupWeight) - parseFloat(bs);
-        return retWeight;
-    }
-</script>
