@@ -63,6 +63,14 @@ feature_row_police_test:
     url: "/politiets-optagelsesproeve/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+feature_row_plate_calculator:
+  - image_path: "/assets/images/blog/plate-weight-calculator.jpg"
+    alt: "Vægtskiver på stangen"
+    title: "Hvilke vægtskiver skal på stangen?"
+    excerpt: "Hvis du ikke gider at lave hovedregning, når du træner, så kan du bruge vores nytte værktøj, der viser dig, hvilke skiver du skal have på stangen, så den vejer det rigtige."
+    url: "/skiver/"
+    btn_label: "Sæt skiver på stangen"
+    btn_class: "btn--success"
 feature_row_biomekanik:
   - image_path: "/assets/images/blog/biomekanik-squat.jpg"
     alt: "Biomekanik i squat - se dig selv som en tændstikmand"
@@ -279,6 +287,14 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 </div>
 </details>
 
+## Biomekanisk analyse - dig selv som tændstikmand
+
+{% include feature_row id="feature_row_biomekanik" %}
+
+## Sæt de rigtige vægtskiver på stangen
+
+{% include feature_row id="feature_row_plate_calculator" type="left" %}
+
 ## Populære beregnere
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "populær" | sort: "date" %}
@@ -309,10 +325,6 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 
 [Se alle tests](/tests/){: .btn .btn--success .btn--center }
 </div>
-
-## Biomekanisk analyse - dig selv som tændstikmand
-
-{% include feature_row id="feature_row_biomekanik" %}
 
 ## Tests - samlet oversigt
 

@@ -110,6 +110,14 @@ feature_row_biomekanik:
     url: "/doedloeft-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
+feature_row_plate_calculator:
+  - image_path: "/assets/images/blog/plate-weight-calculator.jpg"
+    alt: "Vægtskiver på stangen"
+    title: "Hvilke vægtskiver skal på stangen?"
+    excerpt: "Hvis du ikke gider at lave hovedregning, når du træner, så kan du bruge vores nytte værktøj, der viser dig, hvilke skiver du skal have på stangen, så den vejer det rigtige."
+    url: "/skiver/"
+    btn_label: "Sæt skiver på stangen"
+    btn_class: "btn--success"
 ---
 
 Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. 
@@ -221,6 +229,10 @@ Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del
 {% endif %}
 
 </div>
+
+## Sæt de rigtige vægtskiver på stangen
+
+{% include feature_row id="feature_row_plate_calculator" type="left" %}
 
 {% comment %}
 Lav måske denne om til støttetræning 

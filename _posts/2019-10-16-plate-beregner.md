@@ -1,10 +1,12 @@
 ---
-title: "Udregn skiver på vægtstangen"
+title: "Plate Calculator – Beregn vægtskiver til din vægtstang"
+seo_title: "Plate Calculator – Beregn vægtskiver til din vægtstang"
 permalink: /skiver/
-excerpt: "Udregn hvordan du skal sætte skiver på vægtstangen."
+excerpt: "Brug vores plate calculator til nemt at beregne, hvilke vægtskiver du skal bruge for at opnå din ønskede vægt på vægtstangen. Perfekt til styrkeløft, vægtløftning og træning."
+description: "Brug vores plate calculator til nemt at beregne, hvilke vægtskiver du skal bruge for at opnå din ønskede vægt på vægtstangen. Perfekt til styrkeløft, vægtløftning og træning."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  teaser: "/assets/images/blog/plate-weight-calculator.jpg"
   alt: Photo by Victor Freitas on Unsplash
 category:
   - Styrketræning
@@ -13,21 +15,17 @@ tags:
   - styrketræning
   - beregner
   - værktøj
-last_modified_at: 2019-03-06T23:14:14Z
-toc: true
+last_modified_at: 2025-04-02T23:14:14Z
+toc: false
 classes: wide
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
 ---
 
 Når du skal have vægtskiver på vægtstangen i styrketræning, så kan det sommetider godt blive lidt forvirrende, hvordan de skal fordeles.
 
-Derfor har jeg lavet denne beregner. Den kræver naturligvis først og fremmest, at du ved [hvor meget vægt der skal på stangen](/hvor-meget-vaegt-paa-stangen/). Når du ved det, så gælder det om at få valgt de rigtige vægtskiver.
+Derfor har jeg lavet denne beregner. Den hjælper dig med hurtigt at finde ud af, hvilke vægtskiver du skal bruge – du skal blot [kende den samlede vægt](/hvor-meget-vaegt-paa-stangen/), du vil løfte.
 
 {% include calculate-plate-rack.html %}
+
+## Næste skridt
+
+Nu ved du, hvordan stangen skal loades. Så er det bare at få sat de rette vægtskiver på stangen og få den løftet et passende antal gange.
