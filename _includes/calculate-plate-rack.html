@@ -62,6 +62,15 @@
 
         /*function to dislpay values*/
         displayPlate(NoPlateReq, weight, plateWeight, Selcollars, Bar, Selpercentage);
+
+
+        console.log("Plates to draw", NoPlateReq);
+        try {
+    drawBarbell(NoPlateReq);
+} catch (error) {
+    console.error("Error drawing barbell:", error);
+}
+
         return false;
     }
 
@@ -161,16 +170,128 @@
         var retWeight = parseFloat(warmupWeight) - parseFloat(bs);
         return retWeight;
     }
+
+    function drawBarbell(NoPlateReq) {
+    console.log("Ready to draw", NoPlateReq);
+    
+    const plateColors = {
+        25: 'red',
+        20: 'blue',
+        15: 'yellow',
+        10: 'green',
+        5: 'gray',
+        2.5: 'black',
+        2: 'blue',
+        1.5: 'yellow',
+        1: 'green',
+        0.5: 'gray'
+    };
+
+    const plateWeight = [25, 20, 15, 10, 5, 2.5, 2, 1.5, 1, 0.5];
+
+    // Ensure the SVG container exists
+    const barbellSVG = document.getElementById('barbell-container');
+    if (!barbellSVG) {
+        console.error("SVG container not found.");
+        return;
+    }
+
+    // Clear previous drawings
+    barbellSVG.innerHTML = '';
+
+    // Calculate total width dynamically
+    const plateWidth = 22; 
+    let plateCount = NoPlateReq.reduce((sum, count) => sum + count, 0);
+    let barWidth = 300 + plateCount * plateWidth; // Adjust based on number of plates
+    let barHeight = 15;
+    let svgHeight = 125; // Increased height for better spacing
+    let svgWidth = barWidth + 100; // Some padding on the right
+
+    // Update SVG size dynamically
+    barbellSVG.setAttribute("viewBox", `0 0 ${svgWidth} ${svgHeight}`);
+
+    // Bar position
+    let barX = 50;
+    let barY = svgHeight / 2;
+
+    // Draw the bar
+    const bar = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    bar.setAttribute("width", barWidth);
+    bar.setAttribute("height", barHeight);
+    bar.setAttribute("x", barX);
+    bar.setAttribute("y", barY - barHeight / 2);
+    bar.setAttribute("fill", "grey");
+    barbellSVG.appendChild(bar);
+
+    let leftX = barX + 10; // Start plates slightly off from the bar's left side
+
+    function addPlate(weight, count) {
+        for (let i = 0; i < count; i++) {
+            const plate = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+            plate.setAttribute("width", "20");
+            plate.setAttribute("height", "80");
+            plate.setAttribute("x", leftX);
+            plate.setAttribute("y", barY - 40);
+            plate.setAttribute("fill", plateColors[weight] || 'black');
+            barbellSVG.appendChild(plate);
+
+            // Add text to the plate
+            const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            text.setAttribute("x", leftX + 10);
+            text.setAttribute("y", barY - 10);
+            text.setAttribute("fill", "white");
+            text.setAttribute("font-size", "14");
+            text.setAttribute("font-weight", "bold");
+            text.setAttribute("text-anchor", "middle");
+            text.textContent = weight;
+            barbellSVG.appendChild(text);
+
+            // Add count if more than one
+            if (count > 1) {
+                const countText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                countText.setAttribute("x", leftX + 10);
+                countText.setAttribute("y", barY + 20);
+                countText.setAttribute("fill", "white");
+                countText.setAttribute("font-size", "12");
+                countText.setAttribute("text-anchor", "middle");
+                countText.textContent = i + 1;
+                barbellSVG.appendChild(countText);
+            }
+
+            leftX += plateWidth; // Move to the next plate position
+        }
+    }
+
+    // Add plates based on NoPlateReq
+    for (let i = 0; i < NoPlateReq.length; i++) {
+        if (NoPlateReq[i] > 0) {
+            addPlate(plateWeight[i], NoPlateReq[i]);
+        }
+    }
+
+    // Add collar (slightly wider than bar)
+    const collar = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    collar.setAttribute("width", "10");
+    collar.setAttribute("height", "20");
+    collar.setAttribute("x", leftX);
+    collar.setAttribute("y", barY - 10);
+    collar.setAttribute("fill", "darkgrey");
+    barbellSVG.appendChild(collar);
+}
+
+
+
 </script>
 
 <form class="calculator" id="calculator_plate_rack">
     <fieldset>
+        <legend>Beregn vægtskiver</legend>
                         <div class="form-group">
-                            <label>Total Weight</label>
-                            <input name="Weight" type="text" size="5" value="100" id="Weight">
+                            <label>Vægt</label>
+                            <input name="Weight" type="number" class="input-mini" size="5" value="100" min="0" max="500" id="Weight"> kg
                         </div>
                         <div class="form-group">
-                            <label>Percentage</label>
+                            <label>Procent</label>
                             <select name="Percentage" id="Percentage">
                                 <option value="1" selected="">100%</option>
                                 <option value="0.95">95%</option>
@@ -195,14 +316,14 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>Bar weight</label>
-                            <input name="Bar" type="text" size="5" value="20" id="Bar">
+                            <label>Vægtstangens vægt</label>
+                            <input name="Bar" type="number" class="input-mini" size="5" min="0" max="100"  value="20" id="Bar">
                         </div>
 
                         <div class="form-group">
-                            <label>Collars</label>
+                            <label>Lås (samlet vægt)</label>
                             <select name="Collars" id="collars">
-                                <option value="0" selected="">None</option>
+                                <option value="0" selected="">Ingen</option>
                                 <option value="0.5">Spring (0,5 kg)</option>
                                 <option value="1">Clamp (1 kg)</option>
                                 <option value="5">Standard (5 kg)</option>
@@ -212,27 +333,28 @@
                         <input type="submit" value="Calculate" onclick="return startcalc(); return false;">
     </fieldset>
     <fieldset class="results">
-
-        <div class="form-group">
-            <label>Target weight</label>
-            <input name="Target" type="text" size="5" id="Target" disabled="disabled">
-        </div>
-        <div class="form-group">
-            <label>Final Weight</label>
-            <input name="Final" type="text" size="5" id="finalw" disabled="disabled">
-        </div>
-        <div class="form-group">
-            <label>Difference</label>
-            <input name="Dif" type="text" size="5" id="diff" disabled="disabled">
-        </div>
-
         <table>
-                <caption>Plate Pairs</caption>
+        <tr>
+            <th><label>Målvægt</label></th>
+            <th><label>Endelig vægt</label></th>
+            <th><label>Forskel</label></th>
+        </tr>
+        <tr>
+            <td><input name="Target" type="text" size="5" id="Target" disabled="disabled"></td>        
+            <td><input name="Final" type="text" size="5" id="finalw" disabled="disabled"></td>
+            <td><input name="Dif" type="text" size="5" id="diff" disabled="disabled"></td>
+        </tr>
+    </table>
+
+        <details>
+            <summary>Tilgængelige vægtskiver</summary>
+        <table>
+                <caption>Vægtskiver</caption>
                 <tbody>
                     <tr>
-                        <td>Required</td>
-                        <td>Weight (kg)</td>
-                        <td>Available</td>
+                        <td>Nødvendige</td>
+                        <td>Vægt (kg)</td>
+                        <td>Tilgængelige</td>
                     </tr>
                     <tr>
                         <td>
@@ -240,7 +362,7 @@
                         </td>
                         <td bgcolor="#ff0000">25</td>
                         <td>
-                            <input name="A25" type="text" size="4" value="2" id="avail100">
+                            <input name="A25" type="text" size="4" value="4" id="avail100">
                         </td>
                     </tr>
                     <tr>
@@ -326,5 +448,9 @@
                     </tr>
                 </tbody>
             </table>
-    </fieldset>
+        </details>
+
+        </fieldset>
 </form>
+
+<svg id="barbell-container" width="100%" height="100%" viewBox="0 0 600 200" style="border: 1px solid black;"></svg>

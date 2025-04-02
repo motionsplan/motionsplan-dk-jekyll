@@ -95,6 +95,22 @@ Find den rette test, beregner eller værktøj til dine behov!
 
 {% include feature_row id="feature_row_navigation" %}
 
+## Populære værktøjer
+
+{% assign site_posts = site.posts | where: "tags", "værktøj" | where: "tags", "featured" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Se alle beregnere](/beregnere/){: .btn .btn--success .btn--center }
+
+</div>
+
 <details markdown="1" class="faq">
   <summary><h3>🏋️‍♀️📏 Antropometri - BMI, taljemål og idealvægt</h3></summary>
 
@@ -263,7 +279,7 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 </div>
 </details>
 
-## De mest populære beregnere
+## Populære beregnere
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "populær" | sort: "date" %}
 
@@ -279,7 +295,7 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 
 </div>
 
-## De mest populære tests
+## Populære tests
 
 {% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "featured" | sort: "date" %}
 

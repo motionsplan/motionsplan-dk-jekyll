@@ -12,6 +12,7 @@ category:
 tags:
   - styrketræning
   - beregner
+  - værktøj
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 classes: wide
@@ -30,5 +31,3 @@ Når du skal have vægtskiver på vægtstangen i styrketræning, så kan det som
 Derfor har jeg lavet denne beregner. Den kræver naturligvis først og fremmest, at du ved [hvor meget vægt der skal på stangen](/hvor-meget-vaegt-paa-stangen/). Når du ved det, så gælder det om at få valgt de rigtige vægtskiver.
 
 {% include calculate-plate-rack.html %}
-
-{% include feature_row type="left" %}
