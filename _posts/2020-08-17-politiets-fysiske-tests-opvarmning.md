@@ -10,9 +10,9 @@ header:
   teaser: /assets/images/blog/politiets-fysiske-test.jpeg
   caption: *title
 category:
-  - Tests
+  - Træning
+  - Opvarmning
 tags:
-  - test
   - optagelsesprøve
   - politi
 ---
@@ -34,6 +34,41 @@ Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opd
 Du kan forberede dig godt på opvarmningen, for det er altid de samme øvelser, der laves.
 
 For at bestå opvarmningen skal du gennemføre alle øvelserne og elementerne i opvarmningen, og du skal følge anvisningerne undervejs.
+
+### 1. Løbedel (4-5 minutter)
+
+Cirka 30 sekunder per øvelse.
+
+- Alm. løb 
+- Alm. løb med rundsving fremad H+V 
+- Alm. løb med rundsving bagud H+V 
+- Sidestep 
+- Krydsløb 
+- Gadedrengeløb 
+- Baglæns løb 
+- Reaktionsøvelser – klap i gulvet hhv. højre og venstre – begge hænder samtidig 
+
+### 2. Hoppedel (4-5 minutter)
+
+Cirka 30 sekunder per øvelse.
+
+- Sprællemand 
+- Skihop 
+- Sprællemand m. 360° rotation 
+- Skihop m. 360° rotation 
+- Fejesving med to rundsving 
+- Knæ-til-albue 
+- Fod-til-hånd Englehop 
+
+### 3. Styrkedel (3-4 minutter)
+
+- Mavebøjninger (12 stk) 
+- Rygbøjninger (12 stk) 
+- Benbøjninger (12 stk) 
+- Armstrækninger (12 stk) 
+- Sakseben (12 stk H + 12 stk V) 
+- Lunges/Fremfald (12 stk – 6 hvert ben) 
+- Mountain climbers (12 stk H +12 stk V) 
 
 ## Træn til hele den fysiske test
 
