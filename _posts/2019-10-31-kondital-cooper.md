@@ -130,7 +130,7 @@ McCutcheon et al (1990) fandt, at Cooper testen gav en systematisk underestimeri
 
 [Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
 
-[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet.
+[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen](/kondital-2400-meter/) (rp = 0,79) havde den højeste kriterie-validitet.
 
 Når du ikke har adgang til en laboratorie-test, så er en Cooper-test altså en af de bedste konditionstests, og det er en klassiker inden for løb og løbetræning.
 
@@ -331,7 +331,7 @@ Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er
 
 Jeg synes ikke de oprindelige tabeller til vurdering af din præstation baseret på distancen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 
-Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen](/kondital-2400-meter/) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
 ## Ofte stillede spørgsmål
 

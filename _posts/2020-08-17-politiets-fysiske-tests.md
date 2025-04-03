@@ -255,7 +255,7 @@ Ved prøven kan der være forskelligt løbeunderlag og vekslende vejrforhold.
 |          | Mænd                | Kvinder              |
 | -------- | ------------------- | -------------------- |
 | Karakter | Tid (min:sek)       | Tid (min:sek)        |
-| 12       | 9:00 eller derunder | 10:30 eller derunder |
+| 12       | 9:00 eller hurtigere | 10:30 eller hurtigere |
 | 10       | 9:01 - 9:40         | 10:31 - 11.30        |
 | 7        | 9:41 - 10:20        | 11:31 - 12.00        |
 | 4        | 10:21 - 11:00       | 12:01 - 12:40        |
