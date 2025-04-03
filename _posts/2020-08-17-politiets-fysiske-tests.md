@@ -104,6 +104,9 @@ Du kan forberede dig godt på opvarmningen, for det er altid de samme øvelser, 
 
 For at bestå opvarmningen skal du gennemføre alle øvelserne og elementerne i opvarmningen, og du skal følge anvisningerne undervejs.
 
+**Læs**: [Opvarmning til politiets fysiske test](/politiets-fysiske-test/opvarmning/)
+{: .notice }
+
 ## Hurtighedstest
 
 **Udgangsstilling**: Med keglen på din venstre side tager du opstilling bag startlinjen med hænder, knæ og underbøjede tæer i gulvet. Lår og arme skal følge en lodret linje mod underlaget.
