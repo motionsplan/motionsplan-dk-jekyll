@@ -6,7 +6,7 @@ description: "Sådan laver du bænkpres i styrkeløft. Se reglerne for dybde, pa
 permalink: /styrkeloeft/baenkpres/
 slanguage: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526404079162-d93dafdeef3e?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  overlay_image: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Regler til styrkeløft og powerlifting"
 category:
@@ -56,11 +56,14 @@ feature_row_biomekanik:
     url: "/baenkpres-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
+feature_row_depth:
+  - image_path: /assets/images/blog/ipf-bench-press-rule-change-2023.png
+  - image_path: /assets/images/blog/ipf-good-lift-bench-press-example-2023.png
 ---
 
 Bænkpres i styrkeløft har specifikke krav til dybde, pause, teknik og udførelse. Hvis du vil optimere din bænkpres til konkurrencer, skal du kende reglerne og træne målrettet.
 
-I denne guide ser vi på reglerne for bækpres i styrkeløft og giver dig de bedste teknikker og træningsmetoder.
+I denne guide ser vi på reglerne for bækpres i styrkeløft og giver dig de bedste teknikker og træningsmetoder. Du kan også dykke ned i vores [generelle guide til bænkpres med stang](/oevelse/baenkpres/).
 
 ## Bænkpres regler i styrkeløft
 
@@ -80,7 +83,27 @@ Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 
 {% include video provider="youtube" id="ifrev2QcGXg" %}
 
-## Regler for klassisk styrkeløft
+## Regler for dybde
+
+I 2003 ændrede International Powerlifting Federation (IPF) reglerne for dybde i bænkpres. Albuerne skal nu være under skulderleddet.
+
+Regelændringen er sket for at forhindre overdrevent opspænd, hvor vægtstangen næsten ikke havde nogen vandring.
+
+{% include gallery id="feature_row_depth" caption="Til **venstre ❌** ser du et ikke godkendt løft, mens du til **højre ser et godkendt løft ✅**." %}
+
+## Biomekanisk analyse af bænkpres
+
+{% include feature_row id="feature_row_biomekanik" type="left" %}
+
+## Sådan vælger du dine forsøg i bænkpres
+
+At vælge de rigtige forsøg er afgørende for din præstation til et styrkeløft-stævne. En god strategi hjælper dig med at opbygge momentum og maksimere din total, mens forkerte valg kan resultere i missede løft og spildt potentiale.
+
+Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategier, anbefalinger og en praktisk skabelon til at planlægge dine løft.
+
+➡️ **[Sådan vælger du dine forsøg til styrkeløft](/styrkeloeft-vaelg-forsoeg/)**
+
+## Generelle regler for klassisk styrkeløft
 
 Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.
 
@@ -98,18 +121,6 @@ Jeg har primært samlet denne liste for at kunne formidle [reglerne til styrkel�
 Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 {: .notice}
 
-## Sådan vælger du dine forsøg i bænkpres
-
-At vælge de rigtige forsøg er afgørende for din præstation til et styrkeløft-stævne. En god strategi hjælper dig med at opbygge momentum og maksimere din total, mens forkerte valg kan resultere i missede løft og spildt potentiale.
-
-Læs vores **dybdegående guide til at vælge forsøg** og få konkrete strategier, anbefalinger og en praktisk skabelon til at planlægge dine løft.
-
-➡️ **[Sådan vælger du dine forsøg til styrkeløft](/styrkeloeft-vaelg-forsoeg/)**
-
-## Biomekanisk analyse af bænkpres
-
-{% include feature_row id="feature_row_biomekanik" type="left" %}
-
 ## Konklusion
 
 Det var en hurtig gennemgang af reglerne til styrkeløft til bænkpres, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
@@ -123,8 +134,7 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](https://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
+- [Stærk af Jakob Beermann](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835){: rel="sponsored nofollow noopener" }
+
 </details>
 
-## Køb bog om styrkeløft og træning til powerlifting
-
-{% include feature_row id="feature_row_books" type="left" %}

@@ -48,7 +48,7 @@ feature_row_beginner_get_started:
     btn_label: "Kom i gang med styrketræning"
     btn_class: "btn--info"
 feature_row_powerlifting:
-  - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1534367990512-edbdca781b00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Styrkeløft"
     title: "Styrkeløft - bliv stærk i squat, bænk og dødløft"
     excerpt: "Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw)."
@@ -56,7 +56,7 @@ feature_row_powerlifting:
     btn_label: "Kom i gang med styrkeløft"
     btn_class: "btn--info"
 feature_row_good_program:
-  - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
+  - image_path: https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
     alt: "Sådan vælger du dit styrketræningsprogram?"
     title: "Sådan vælger du dit styrketræningsprogram"
     excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"

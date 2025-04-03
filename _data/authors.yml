@@ -51,13 +51,13 @@ jye.schmidt:
   name             : "Jye Schmidt"
   title            : "Styrketræningsentusiast"
   avatar           : "/assets/images/authors/mysquatmechanics.png"
-  bio              : "Ekspert i tal og biomekanik omkring styrkeløft. Ejer sitet mysquatmechanics.com, hvor du kan få en biomekanisk model af squat, bænkpres og dødløft."
+  bio              : "Ekspert i tal og biomekanik omkring styrkeløft. Ejer sitet _My Squat Mechanics_, hvor du kan få en biomekanisk model af squat, bænkpres og dødløft."
   home             : "https://mysquatmechanics.com/"
   links:
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JyeSmith"
-    - label: "My Squat Mechanics"
+    - label: "mysquatmechanics.com"
       icon: "fa fa-link"
       url: "https://mysquatmechanics.com/"
 nikolai.jauk:

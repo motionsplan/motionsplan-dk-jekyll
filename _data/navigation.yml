@@ -248,14 +248,14 @@ exercises:
     children:
       - title: "Squat"
         url: /squat/
-      - title: "Lunges"
-        url: /lunges/
-      - title: "Dødløft"
-        url: /doedloeft/
       - title: "Bænkpres"
         url: /oevelse/baenkpres/
+      - title: "Dødløft"
+        url: /doedloeft/
+      - title: "Lunges"
+        url: /lunges/
       - title: "Pullup og chinup"
-        url: /oevelse/baenkpres/
+        url: /chinup-vs-pullup/
       - title: "Armstrækninger"
         url: /armbojninger-eller-armstraekninger-pushups/
   - title: Efter muskelgrupper

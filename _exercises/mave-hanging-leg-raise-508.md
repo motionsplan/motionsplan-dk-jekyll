@@ -3,7 +3,7 @@ title: "Hanging leg raises"
 seo_title: "Hanging Leg Raises – Teknik, Progression og Variationer"
 description: "Lær alt om hanging leg raises: korrekt teknik, progressionstrin og variationer, der styrker dine mavemuskler og hoftebøjere."
 excerpt: "Lær alt om hanging leg raises: korrekt teknik, progressionstrin og variationer, der styrker dine mavemuskler og hoftebøjere."
-instructions: ""
+instructions: "Hæng med strakte arme i en bar. Før tæerne op mod baren. Kan udføres med strakte eller bøjede ben."
 permalink: /oevelse/mave-hanging-leg-raise/
 redirect_from: /node/508
 id: 508

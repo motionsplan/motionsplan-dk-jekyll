@@ -8,6 +8,7 @@ header:
   teaser: https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
 category:
   - Styrketræning
+  - Styrkeløft
 tags:
   - apps
 last_modified_at: 2022-03-17T23:14:14Z
@@ -17,7 +18,7 @@ Her kan du læse om et par rigtig gode programmer, som du kan bruge, hvis du ska
 
 På Vejle Idrætshøjskole er det efterhånden en tradition, at vi arrangerer styrkeløftstævner for eleverne. Vi har kigget grundigt efter programmer, som kan være med til at hjælpe med at organisere selve styrkeløftstævnet.
 
-Vi har skrevet et indlæg, der handler om [regler og styrkeløft](/powerlifting-rules/), hvor du kan blive endnu klogere på det.
+Så hvis du godt kan lide [styrkeløft](/styrkeloeft/) og gerne selv vil arrangere et lille stævne, så tjek disse apps.
 
 ## 1. Powerlifting Live
 
@@ -63,3 +64,5 @@ Open Lifter ser meget mere moderne ud, men det mangler nogle features fra Open P
 Hvis du skal lave et mindre stævne, hvor du bare har brug for en skærm, hvor du kan have en til at sidde og markere løftene som godkendte, så ville jeg gå med Open Lifter.
 
 Hvis du gerne vil have, at alle dommerne har et device, så deres bedømmelse af de enkelte løft automatisk kommer op på en skærm, og hvor du i højere grad selv kan sætte flere computere op, der viser forskellige skærme, så skal du gå med Powerlifting Live.
+
+Du kan også dykke yderligere ned i [regler for styrkeløft](/powerlifting-rules/), hvis du gerne vil være endnu klogere på, hvad styrkeløft er.

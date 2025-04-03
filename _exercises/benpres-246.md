@@ -27,7 +27,6 @@ muscle_group:
   - Forlår
 alternative_titles:
   - leg press
-  - leg extensions
 gallery:
   - url: /assets/images/exercises/benpres-0.jpg
     image_path: /assets/images/exercises/benpres-0-320.jpg

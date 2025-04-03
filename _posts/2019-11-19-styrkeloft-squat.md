@@ -61,9 +61,11 @@ gallery_proper_depth:
   - image_path: /assets/images/blog/squat-below.jpg
 ---
 
-Squat i styrkeløft har specifikke krav til dybde, teknik og udførelse. Hvis du vil optimere din squat til konkurrencer, skal du kende reglerne og træne målrettet. I denne guide ser vi på reglerne for squat i styrkeløft og giver dig de bedste teknikker og træningsmetoder.
+Squat i styrkeløft har specifikke krav til dybde, teknik og udførelse. Hvis du vil optimere din squat til konkurrencer i styrkeløft, skal du kende reglerne og træne målrettet.
 
-### Regler for squat i styrkeløft
+I denne guide ser vi på reglerne for squat i styrkeløft og giver dig de bedste teknikker og træningsmetoder. Hvis du mere var på udkig efter en generel beskrivelse, så kan du læse vores [store squat guide](/squat/).
+
+## Regler for squat i styrkeløft
 
 I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet er under knæleddet.
 
@@ -134,8 +136,6 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
   <summary><h2 id="references">Referencer</h2></summary>
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](https://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
+- [Stærk af Jakob Beermann](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835){: rel="sponsored nofollow noopener" }
+
 </details>
-
-## Køb bog om styrkeløft og træning til powerlifting
-
-{% include feature_row id="feature_row_books" type="left" %}

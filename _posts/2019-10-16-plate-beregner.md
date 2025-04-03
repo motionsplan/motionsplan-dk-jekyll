@@ -2,8 +2,8 @@
 title: "Plate Calculator – Beregn vægtskiver til din vægtstang"
 seo_title: "Plate Calculator – Beregn vægtskiver til din vægtstang"
 permalink: /skiver/
-excerpt: "Brug vores plate calculator til nemt at beregne, hvilke vægtskiver du skal bruge for at opnå din ønskede vægt på vægtstangen. Perfekt til styrkeløft, vægtløftning og træning."
-description: "Brug vores plate calculator til nemt at beregne, hvilke vægtskiver du skal bruge for at opnå din ønskede vægt på vægtstangen. Perfekt til styrkeløft, vægtløftning og træning."
+excerpt: "Brug vores plate calculator til nemt at beregne, hvilke vægtskiver du skal sætte på vægt stangen for den ønskede vægt. Perfekt til styrkeløft, vægtløftning og træning."
+description: "Brug vores plate calculator til nemt at beregne, hvilke vægtskiver du skal sætte på vægtstangen for at opnå den ønskede vægt. Perfekt til styrkeløft, vægtløftning og træning."
 language: da
 header:
   teaser: "/assets/images/blog/plate-weight-calculator.jpg"

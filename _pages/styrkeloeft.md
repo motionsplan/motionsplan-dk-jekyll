@@ -28,24 +28,24 @@ sidebar:
 feature_row_lifts:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat - styrkeløft og powerlifting regler for squat"
-    title: "Squat - Guide til back squat"
-    excerpt: "Squat er en grundlæggende benøvelse, der styrker lår, baller og core. Lær korrekt teknik og variationer for maksimal effekt."
+    title: "Squat"
+    excerpt: "Få en komplet guide til, hvordan du kan squatte flest muligt kilo i forhold til din kropsbygning. Lær effektiv teknik og reglerne."
     url: "/styrkeloeft/squat/"
-    btn_label: "Lær squat"
+    btn_label: "Lær styrkeløft squat"
     btn_class: "btn--info"
   - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
     alt: "Bænkpres - powerlifting og styrkeløft regler for bænkpres"
-    title: "Bænkpres - Optimer din teknik"
-    excerpt: "Bænkpres er en essentiel øvelse for bryst, skuldre og triceps. Få styr på teknik, greb og de bedste strategier for styrke."
+    title: "Bænkpres"
+    excerpt: "Optimer din teknik i bænkpres, så du kan løft flest mulig kilo. Få styr på opspænd, grebsbredde og de bedste strategier for styrke."
     url: "/styrkeloeft/baenkpres/"
-    btn_label: "Lær bænkpres"
+    btn_label: "Lær styrkeløft bænkpres"
     btn_class: "btn--info"
   - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
     alt: "Dødløft - powerlifting og styrkeløft regler for dødløft"
-    title: "Dødløft - komplet guide"
-    excerpt: "Dødløft aktiverer hele kroppen med fokus på ryg og ben. Lær korrekt udførelse, typiske fejl og effektive variationer."
+    title: "Dødløft"
+    excerpt: "Lær hvordan du løfter flest muligt kilo fra gulvet og de tilladte variationer af dødløft, der er tilladt i en styrkeløftkonkurrence."
     url: "/styrkeloeft/doedloeft/"
-    btn_label: "Lær dødløft"
+    btn_label: "Lær styrkeløft dødløft"
     btn_class: "btn--info"
 feature_row_get_started:
   - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
@@ -56,7 +56,7 @@ feature_row_get_started:
     btn_label: "Kom i gang med træningen"
     btn_class: "btn--info"
 feature_row_about:
-  - image_path: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1532382708467-d720b918f0da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Styrkeløft"
     title: "Hvad er reglerne til styrkeløft?"
     excerpt: "Hvis du gerne vil lære reglerne til styrkeløft at kende, så har jeg skrevet en begynderguide, så du kan komme i gang allerede i dag."
@@ -132,7 +132,7 @@ Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw
 
 {% include feature_row id="feature_row_about" type="left" %}
 
-## De tre styrkeløft
+## Lær de tre styrkeløft
 
 {% include feature_row id="feature_row_lifts" %}
 

@@ -62,6 +62,7 @@ gallery:
   - image_path: https://www.sportshojskolen.dk/media/imagegenerator/500x0/upscale(false)/2017Bankpres5@2x.jpg
   - image_path: https://www.sportshojskolen.dk/media/imagegenerator/500x0/upscale(false)/2017Bankpres6@2x.jpg
   - image_path: https://www.sportshojskolen.dk/media/imagegenerator/500x0/upscale(false)/2017Bankpres7@2x.jpg
+toc: true
 ---
 
 Bænkpres er en af de mest fundamentale øvelser inden for styrketræning og styrkeløft. Den aktiverer flere led samtidig, herunder skulder-, albue- og håndled, hvilket gør den til en sammensat øvelse.
@@ -72,7 +73,7 @@ Bænkpres er en af de mest fundamentale øvelser inden for styrketræning og sty
 
 ## Udførelse af bænkpres
 
-{% include gallery caption="Billeder er fra [sportshojskolen.dk](https://www.sportshojskolen.dk/vidensbank/b%C3%A6nkpres)" %}
+{% include gallery id="gallery" caption="Billeder er fra [sportshojskolen.dk](https://www.sportshojskolen.dk/vidensbank/b%C3%A6nkpres)" %}
 
 - **Udgangsposition**: Lig på ryggen på en bænk med øjnene placeret direkte under stangen.
 - **Grebet**: Tag fat i stangen med et greb lidt bredere end skulderbredde. Hænderne skal være placeret så håndleddene er lige, og albuerne forbliver under stangen gennem hele løftet.

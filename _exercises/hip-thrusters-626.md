@@ -2,8 +2,8 @@
 title: "Hip thrusters: Avanceret glute-øvelse"
 seo_title: "Hip Thrusters – Teknik, Fordele og Variationer | Komplet Guide"
 instructions: ""
-excerpt: "Lær hvordan du laver hip thrusters korrekt for stærkere og større baller. Få en trin-for-trin-guide, teknikfif, progressioner og varianter af denne effektive øvelse."
-description: "Lær hvordan du laver hip thrusters korrekt for stærkere og større baller. Få en trin-for-trin-guide, teknikfif, progressioner og varianter af denne effektive øvelse."
+excerpt: "Lær hvordan du laver hip thrusters korrekt for stærkere baller. Få en trin-for-trin-guide, teknikfif, progressioner og varianter af denne effektive øvelse."
+description: "Lær hvordan du laver hip thrusters korrekt for stærkere baller. Få en trin-for-trin-guide, teknikfif, progressioner og varianter af denne effektive øvelse."
 permalink: /oevelse/hip-thrusters/
 redirect_from: /node/626
 id: 626

@@ -77,6 +77,7 @@ Bulgarian split-squat er en avanceret variation af lunges, hvor det bagerste ben
 ## Variationer og Progressioner
 
 ### Vægtvalg:
+
 - **Kropsvægt**: Start med kropsvægt for at fokusere på balance og teknik.
 - **Håndvægte eller kettlebells**: Hold vægtene langs siden eller i én hånd for variation.
 - **Stang**: Placer en vægtstang foran kroppen for en mere oprejst holdning.
@@ -88,7 +89,7 @@ Bulgarian split-squat er en avanceret variation af lunges, hvor det bagerste ben
 - **Forreste fod hævet** → øget range of motion.
 - **Smith-maskine** → lettere balancekrav og isolering af benmusklerne.
 
-## Tips til Begyndere
+## Tips til begyndere
 
 - **Find et fokuspunkt** at se på for bedre balance.
 - **Fordel vægten korrekt**: Pres primært gennem hælen (ca. 60% vægtfordeling).
