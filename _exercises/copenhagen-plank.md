@@ -1,12 +1,12 @@
 ---
 title: "Copenhagen Side Plank"
+seo_title: "Copenhagen plank: En effektiv øvelse for hoftestabilitet og adduktorstyrke"
+description: "Copenhagen plank er en effektiv øvelse, der styrker adduktorerne og forbedrer hoftestabiliteten. Perfekt til at forebygge skader og skabe muskulær balance. Lær teknikken og variationerne her!"
+excerpt: "Copenhagen plank er en effektiv øvelse, der styrker adduktorerne og forbedrer hoftestabiliteten. Perfekt til at forebygge skader og skabe muskulær balance. Lær teknikken og variationerne her!"
 instructions: ""
 permalink: /oevelse/copenhagen-plank/
 key: 20201212205400
 language: da
-video:
-  provider: youtube
-  id: n5WeYzi7Dqo
 #header:
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
 tags:
@@ -22,7 +22,37 @@ gallery: []
 #    image_path: /assets/images/exercises/180-jump-0-320.jpg
 #    alt: "Spring, 180  jump "
 #    title: "Spring, 180  jump "
-last_modified_at: 2020-11-02T13:43:26Z
+last_modified_at: 2024-11-02T13:43:26Z
+video:
+  provider: youtube
+  id: VfjAmomtVa0
 ---
 
-{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+**Copenhagen plank** er en simpel, men effektiv øvelse, der styrker lårmusklernes inderside (*adduktorerne*) og forbedrer hoftens stabilitet.  
+
+## Sådan gør du  
+
+1. Placer dig i en **sideplanke** med det øverste ben hvilende på en bænk, mens det nederste ben føres under bænken.  
+2. **Løft hoften op**, så kroppen danner en lige linje, og løft det nederste ben fri fra gulvet.  
+3. **Hold positionen** i den angivne tid.  
+
+## Tilpasning af sværhedsgrad
+
+- **Gør øvelsen lettere** ved at holde foden på det nederste ben i gulvet.  
+- **Reducer belastningen** ved at placere bænken tættere på hoften.  
+
+## Formål
+
+Copenhagen plank styrker **adduktorerne** og fremmer en bedre muskulær balance og **hoftestabilitet**. Øvelsen kan også hjælpe med at **forebygge skader**, såsom forstrækninger i lårmusklernes inderside.  
+
+## Programmering
+
+Udfør **3-4 sæt af 10-30 sekunders hold**.  
+
+## Variationer
+
+- **Bøj let i hofte og knæ** for en alternativ version.  
+- **Tilføj en dynamisk komponent** ved at løfte og sænke det nederste ben under øvelsen.  
+
+Denne øvelse er særligt anvendelig for **atleter** og alle, der ønsker at styrke deres hofter og forbedre deres stabilitet. 💪  
+

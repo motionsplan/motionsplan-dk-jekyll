@@ -69,6 +69,7 @@ Når stangen ligger på gulvet, så venter man ligesom i konventionel dødløft 
 Sumo dødløft arbejder primært med benene, hofterne og indersiden af lårene. Den oprejste position giver mindre fokus på ryggen, hvilket kan være en fordel for dem, der vil undgå at overbelaste rygmusklerne.
 
 ## Regressioner for begyndere
+
 Hvis du er nybegynder, kan du starte med en hævet stang eller bruge kettlebells/håndvægte. Dette giver dig mulighed for at fokusere på teknikken uden at blive overvældet af bevægelsens kompleksitet.
 
 ## Konklusion

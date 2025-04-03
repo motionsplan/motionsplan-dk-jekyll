@@ -15,6 +15,7 @@ category:
 tags:
   - optagelsesprøve
   - politi
+  - polititest
 ---
 
 Opvarmningen er en central del af politiets fysiske prøve. Derfor er det vigtigt, at du sætter dig ind i kravene til opvarmningen.

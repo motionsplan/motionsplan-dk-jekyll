@@ -66,7 +66,7 @@ Hvis du gerne vil forberede dig til den fysiske optagelsesprøve, så prøv vore
 
 ## Læs mange flere relevante artikler
 
-{% assign site_posts = site.posts | where: "tags",  "politi" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% assign site_posts = site.posts | where: "tags", "politi" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 

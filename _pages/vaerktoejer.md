@@ -115,8 +115,6 @@ Find den rette test, beregner eller værktøj til dine behov!
   {% endfor %}
 {% endif %}
 
-[Se alle beregnere](/beregnere/){: .btn .btn--success .btn--center }
-
 </div>
 
 <details markdown="1" class="faq">

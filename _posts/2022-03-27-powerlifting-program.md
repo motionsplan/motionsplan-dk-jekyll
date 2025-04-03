@@ -1,6 +1,6 @@
 ---
-title: "Hvordan styrer jeg et styrkeløftstævne (2 online apps)?"
-seo_title: "Sådan arrangerer du et styrkeløftstævne - 2 gode programmer"
+title: "Hvordan styrer jeg et styrkeløftstævne (3 online apps)?"
+seo_title: "Sådan arrangerer du et styrkeløftstævne - 3 gode programmer"
 permalink: /styrkeloeftstaevne/
 excerpt: "Her kan du læse om et par rigtig gode programmer, som du kan bruge, hvis du skal arrangere et styrkeløftstævne."
 language: da
@@ -58,6 +58,14 @@ I Open Lifter kan du lave et styrkeløftstævne, hvor der løftes på flere plat
 Du kan ikke lave forskellige skærme. Til gengæld er der på skærmen alle de relevante oplysninger i et fint layout.
 
 Open Lifter ser meget mere moderne ud, men det mangler nogle features fra Open Powerlifting Live.
+
+## 3. Simplelifter
+
+Hvis du selv vil kaste dig ud i at kode lidt i PHP, så kan du prøve kræfter med Simplelifter, som er [tilgængelig på Github](https://github.com/meethed/simpleLifter).
+
+Se programmet i aktion her:
+
+{% include video provider="youtube" id="AvJUq_Qn_G8" %}
 
 ## Konklusion
 

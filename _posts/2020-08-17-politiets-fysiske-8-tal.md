@@ -17,6 +17,7 @@ tags:
   - test
   - optagelsesprøve
   - politi
+  - polititest
   - eksplosivitet
   - sprinttest
 meta:
