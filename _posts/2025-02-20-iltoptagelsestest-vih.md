@@ -324,7 +324,7 @@ Laktatmåling skal være over 8 mmol/l.
 <details markdown="1" class="concept">
   <summary>❤️📉 Puls > 220-alder +- 10</summary>
 
-Pulsen skal være omkring den teoretiske maxpuls. Du kan bruge vores  beregner til at [udregne den teoretiske maxpuls](/test-max-puls/).
+Pulsen skal være omkring den teoretiske maxpuls. Du kan bruge vores beregner til en [udregning af den teoretiske maxpuls baseret på alder](/max-puls-beregner/).
 </details>
 
 <details markdown="1" class="concept">

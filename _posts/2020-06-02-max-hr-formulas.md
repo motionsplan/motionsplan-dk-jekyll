@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2025-03-01T08:14:14Z
 faq:
   - question: "Hvad er en normal maxpuls?"
-    answer: "En normal maxpuls afhænger af din alder, men der er store individuelle variationer. Generelt falder maxpulsen med 0,5-1 slag pr. år. Du kan beregne en estimeret maxpuls med [vores maxpuls-beregner](/test-max-puls/)."
+    answer: "En normal maxpuls afhænger af din alder, men der er store individuelle variationer. Generelt falder maxpulsen med 0,5-1 slag pr. år. Du kan beregne en estimeret maxpuls med [vores maxpuls-beregner](/max-puls-beregner/)."
   - question: "Hvor meget falder maxpulsen med alderen?"
     answer: "Studier viser, at maxpulsen typisk falder med 0,5-1 slag pr. år. Der findes flere formler, der forsøger at estimere faldet mere præcist."
   - question: "Hvad er forskellen på maxpuls for mænd og kvinder?"

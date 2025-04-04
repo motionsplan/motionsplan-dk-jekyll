@@ -840,6 +840,32 @@ figure {
       width: 100%;
     }
   }
+  &.sixth {
+
+    >a,
+    >img {
+      @include breakpoint($small) {
+        width: calc(16.6% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+  &.seventh {
+
+    >a,
+    >img {
+      @include breakpoint($small) {
+        width: calc(14.2% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
 }
 
 .greedy-nav {

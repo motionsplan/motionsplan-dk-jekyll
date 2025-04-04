@@ -1,7 +1,8 @@
 ---
-title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
+title: "De fem tibetanere: Komplet guide til de 5 yoga øvelser"
 seo_title: "De fem tibetanere | Komplet guide til de 5 yoga øvelser"
-description: "Lær de 5 tibetanere med video og billeder ✓ Fem yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
+description: "Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder og videoer, der viser øvelserne trin for trin."
+excerpt: "Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder og videoer, der viser øvelserne trin for trin."
 permalink: /artikel/de-fem-tibetanere/
 redirect_from:
   - /2009-07-01-de-fem-tibetanere/
@@ -18,7 +19,7 @@ tags:
   - featured
 category:
   - Yoga
-last_modified_at: 2022-10-05T09:41:09Z
+last_modified_at: 2025-04-04T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "Bogen De 5 tibetanere af Peter Kelder"
@@ -69,6 +70,25 @@ faq:
       Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Du kan læse om vejrtrækningen i øvelsesbeskrivelserne. Vejrtrækningen stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
   - question: Hvor lang tid tager det at lave de 5 tibetanere?
     answer: Det tager kun omkring 10-20 minutter at lave de fem tibetanere.
+  - question: Virker de 5 tibetanere?
+    answer: |
+      Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
+
+      Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned.
+  - question: Hvorfor er der 5 tibetanere?
+    answer: |
+      Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal. Der er mange der søger på: "de syv tibetanere" eller "de 7 tibetanere øvelser". Hvis du ved, hvor for det er endt på 5, så brug rigtig gerne kommentarerne.
+  - question: Hvad er den sjette tibetaner?
+    answer: |
+      I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som jeg ikke har kunnet finde så mange referencer til.
+      
+      Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite:
+
+      > **"It should be practiced only when you feel an excess of sexual energy..."**
+      >
+      > — <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+
+      Hvis du vil vide mere, så kan du dykke yderligere ned i [historien bag ved de tibetanske riter](/artikel/de-fem-tibetanere/historie/).
 ---
 
 Vil du gerne vide mere om de fem tibetanere? Her lærer du, hvordan du udfører de 5 yogaøvelser, og hvilken virkning øvelserne har på kroppen. Lad os dykke ned i hemmelighederne bag ungdommens kilde.
@@ -99,51 +119,19 @@ De fem tibetanere stammer fra tibetanske munke. De fem enkle yogaøvelser er eft
 
 Yogaøvelserne blev bragt til vesten af Oberst Bradford, og vennen Peter Kelder beskrev i slutningen af 1930'erne øvelserne i en [ret interessant bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
 
-Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
-
-{% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere og hans erfaringer med øvelserne. Du kan købe bøgerne hos [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
-
-## Hvordan laver man øvelserne?
-
-Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
-
-Vi har samlet både videoer, illustrationer og forklaringer i det følgende.
-
 I denne lidt ældre video fra Youtube kan du lære endnu mere om øvelserne.
 
 {% include video provider="youtube" id="x2lOypwVfKo" %}
 
-## Hvor ofte skal jeg lave de fem tibetanere?
+Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
 
-De fem riter skal gentages 21 gange hver dag. Du kan fx udføre øvelserne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng.
+{% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere og hans erfaringer med øvelserne. Du kan købe bøgerne hos [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
 
-Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove. Du skal derfor selv finde ud af, hvilken tid på dagen, der passer dig bedst.
+## Sådan udfører du de fem tibetanere
 
-Hvis du ikke kan afse tid til at lave riterne hver dag, så er det bedre at lave dem nogle gange om ugen end slet ikke at lave dem. Vi anbefaler at du prøver dig frem.
+Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
 
-Det er vigtigt, at du tager dig god tid til at lave øvelserne rigtigt og fokusere på vejrtrækningen, så det tager omkring 15-20 minutter at lave øvelserne.
-
-{% comment %}
-Det er umuligt at give et endegyldigt svar på spørgsmålet: "Hvor ofte skal de fem tibetanere udføres?"
-{% endcomment %}
-
-Det handler om at få de fem øvelser til at passe ind, så de gør en forskel i dit liv og dit energiniveau.
-
-## Hvor mange gange skal man lave tibetanerne?
-
-De gamle forskrifter siger, at hver af de 5 øvelser skal gentages 21 gange hver dag. Det er dog bedre at lave tre gentagelser end slet ikke at udføre øvelserne. Så hvis du en dag ikke har tid eller har lyst til at springe over, så tager det det under 5 minutter at lave tre gentagelser.
-
-I begyndelsen skal du ikke regne med, at du kan lave alle 21 gentagelser af hver øvelse.
-
-For at **komme i gang med de fem tibetanere, så anbefaler jeg**, at du starter langsomt.
-
-Start fx med at lave 3 gentagelser af hver øvelse og trap så langsomt op hver uge, så du når op til 21 gentagelser i løbet af en måneds tid. **21 gentagelser er det optimale antal gentagelser af de enkelte riter**, og du bør ikke lave flere gentagelser, for så skubber du til energibalancerne i kroppen. Selvom du er i god fysisk form, skal du altså maksimalt gentage øvelserne det foreskrevne antal gange.
-
-Find dit eget tempo til hver af øvelserne - det handler ikke om at kunne gøre dem hurtigt, men om at føle dig godt tilpas med øvelserne.
-
-Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange du kan med overskud. Derefter går du videre til den næste tibetaner. Du bliver efterhånden stærkere og stærkere, så du kan lave flere gentagelser.
-
-## Hvordan udføres de fem tibetanere?
+Vi har samlet både videoer, illustrationer og forklaringer i det følgende.
 
 Jeg beskriver og illustrerer med billeder i dette afsnit, hvordan du skal udføre de fem tibetanere.
 
@@ -225,6 +213,32 @@ Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme se
 
 [Udskriv øvelserne med forklaring](https://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
 
+## Hvor ofte skal du lave de fem tibetanere?
+
+De fem riter skal gentages 21 gange hver dag. Du kan fx udføre øvelserne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng.
+
+Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove. Du skal derfor selv finde ud af, hvilken tid på dagen, der passer dig bedst.
+
+Hvis du ikke kan afse tid til at lave riterne hver dag, så er det bedre at lave dem nogle gange om ugen end slet ikke at lave dem. Vi anbefaler at du prøver dig frem.
+
+Det er vigtigt, at du tager dig god tid til at lave øvelserne rigtigt og fokusere på vejrtrækningen, så det tager omkring 15-20 minutter at lave øvelserne.
+
+Det handler om at få de fem øvelser til at passe ind, så de gør en forskel i dit liv og dit energiniveau.
+
+## Sådan kommer du i gang med øvelserne - Træningsforslag
+
+De gamle forskrifter siger, at hver af de 5 øvelser skal gentages 21 gange hver dag. Det er dog bedre at lave tre gentagelser end slet ikke at udføre øvelserne. Så hvis du en dag ikke har tid eller har lyst til at springe over, så tager det det under 5 minutter at lave tre gentagelser.
+
+I begyndelsen skal du ikke regne med, at du kan lave alle 21 gentagelser af hver øvelse.
+
+For at **komme i gang med de fem tibetanere, så anbefaler jeg**, at du starter langsomt.
+
+Start fx med at lave 3 gentagelser af hver øvelse og trap så langsomt op hver uge, så du når op til 21 gentagelser i løbet af en måneds tid. **21 gentagelser er det optimale antal gentagelser af de enkelte riter**, og du bør ikke lave flere gentagelser, for så skubber du til energibalancerne i kroppen. Selvom du er i god fysisk form, skal du altså maksimalt gentage øvelserne det foreskrevne antal gange.
+
+Find dit eget tempo til hver af øvelserne - det handler ikke om at kunne gøre dem hurtigt, men om at føle dig godt tilpas med øvelserne.
+
+Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange du kan med overskud. Derefter går du videre til den næste tibetaner. Du bliver efterhånden stærkere og stærkere, så du kan lave flere gentagelser.
+
 ## Vejrtrækning: Hvordan skal jeg trække vejret?
 
 Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører de tibetanske riter.
@@ -273,75 +287,13 @@ De 5 tibetanere påstås allerede efter et par ugers træning at have følgende 
 - Forbedre din styrke og bevægelighed
 - Forbedre din søvn, så du vågner fyldt med energi
 
-## Historien om de fem tibetanere
+## Den historiske baggrund for de tibetanske riter
 
 I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
 
-Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
+Men hvordan fik Peter Kelder øjnene op for De fem tibetanere og hemmeligheden om _ungdommens kilde_.
 
-Hemmeligheden om _ungdommens kilde_ var i mange tusind år forbeholdt de tibetanske munke.
-
-### Opdagelsen af de fem tibetanske øvelser
-
-Nogle år før sin pension var Oberst Bradford under sin tjeneste i Hans Majestæts diplomatiske korps udstationeret i Indien. Her hørte han første gang om, at tibetanske munke fra fjerne dele af Himalaya skulle kende ungdommens kilde. De indfødte fortalte om mænd, der havde besøgt klosteret, var kommet hjem med genvundet sundhed, styrke, kraft og energi.
-
-Som os alle så blev Oberst Bradford ikke yngre med årene. Ideen om at kunne finde ungdommens kilde inspirerede ham meget. Efter flere måneders overvejelse besluttede den nu pensionerede Oberst Bradford sig for at opspore ungdommens kilde.
-
-Han rejste derfor til Himalaya, hvor jagten på den gamle hemmelighed startede. Det var en lang rejse gennem Himalayas dybeste dale, for ingen af de lokale vidste præcist, hvor klosteret lå.
-
-Efter måneders farefuld rejse og søgen fandt obersten endelig frem til klosteret og munkene, som skulle kende hemmeligheden. Obersten blev lukket ind, og han opholdte sig i flere måneder i klosteret, før han vendte hjem igen. Han blev på sit ophold introduceret for de fem tibetanere.
-
-Oberst Bradford beskriver, at han allerede efter blot et par uger i klosteret følte sig yngre. Han behøvede nu kun stok, når han skulle bestige bjergene omkring klosteret, men kunne undvære den i de daglige gøremål.
-
-### Udbredelsen af de fem tibetanere i vesten
-
-Obersten opholdte sig flere måneder i klosteret før han vendte hjem igen. Obersten var begejstret for sine oplevelser i klosteret, så han delte dem med sin gamle ven, Peter Kelder.
-
-Peter Kelder blev meget interesseret i oberstens historier og fortællinger, og han begyndte selv at lave øvelserne. Kelder oplevede også en gavnlig effekt af øvelserne.
-
-Derfor ville Peter Kelder gerne dele de tibetanske riter med flere mennesker, og han fik overtalt Oberst Bradford til at begynde at undervise andre mennesker.
-
-Obersten indvilligede, men havde tre betingelser:
-
-- Holdet skulle bestå af både mænd og kvinder med forskelligt arbejde. Der skulle både være almindelige arbejdere, akademikere og selvstændige på holdet.
-- Alle skulle være mindst 50 år. Hvorfor ved jeg ikke helt, for øvelserne er også velegnede til ynger mennesker.
-- Der måtte maksimalt være 15 deltagere på holdet.
-
-Det lykkedes at samle et hold, som fik navnet _Himalayaklubben_. Deltagerne på holdet oplevede også positive resultater. De forbedrede deres velvære, og de følte sig yngre. Obersten underviste i nogle måneder, hvorefter han begyndte at holde foredrag om sine oplevelser og erfaringer med de fem tibetanere.
-
-Peter Kelder fulgte interesseret med, og han besluttede sig for at skrive en bog om de fem tibetanere. Bogen er siden blevet solgt i mere end 2 millioner eksemplarer rundt omkring i verden.
-
-Hvis du for alvor vil dykke ned i historien, så er der ingen vej uden om at læse bøgerne.
-
-## Virker de 5 tibetanere?
-
-Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
-
-Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned.
-
-## Hvorfor er der 5 tibetanere?
-
-Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal. Der er mange der søger på: "de syv tibetanere" eller "de 7 tibetanere øvelser". Hvis du ved, hvor for det er endt på 5, så brug rigtig gerne kommentarerne.
-
-## Hvad er den sjette tibetaner?
-
-I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som jeg ikke har kunnet finde så mange referencer til.
-
-Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite:
-
-> **"It should be practiced only when you feel an excess of sexual energy..."**
->
-> — <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
-
-Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge beskrivelsen her:
-
-> "Stand straight up and slowly let all of the air out of your lungs...bend over and put your hands on your knees...with the lungs empty, return to a straight up posture. Place your hands on your hips, and press down on them... As you do this, pull in the abdomen as much as possible, and at the same time raise the chest.
-> ...
-> hold this position as long as you possibly can.
-> ...
-> take air into your empty lungs, let the air flow in through the nose. When the lungs are full, exhale through the mouth. As you exhale, relax your arms... Then take several deep breaths through the mouth or nose, allowing them to escape through either the mouth or nose."
->
-> --- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+Dette var i mange tusind år forbeholdt de tibetanske munke, og du kan dykke længere ned i baggrunden i vores artikel om [historien bag de 5 tibetanere](/artikel/de-fem-tibetanere/historie/).
 
 ## Er de fem tibetanske riter for dig?
 
@@ -354,12 +306,6 @@ Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde](/artikel/solhilsen-a-b-surya-namaskar/).
 
 Vi har et andet indlæg her på sitet, der handler om [mindfulness meditation](/mindfulness-meditation/), og vi har også skrevet et andet indlæg om at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
-
-## Bogen om de fem tibetanere
-
-De fem tibetanere blev for alvor udbredt i den vestlige verden i Peter Kelders bog med hans erfaringer med øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
-
-{% include feature_row type="left" %}
 
 {% comment %}
 
@@ -378,3 +324,13 @@ TODO
 {% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
 
 {% endcomment %}
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
+
+## Bogen om de fem tibetanere
+
+De fem tibetanere blev for alvor udbredt i den vestlige verden i Peter Kelders bog med hans erfaringer med øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
+
+{% include feature_row type="left" %}

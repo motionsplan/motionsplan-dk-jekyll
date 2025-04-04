@@ -62,7 +62,7 @@ Et eksempel:
 
 Jeg løb 1220 meter på de 6 minutter, og jeg havde en gennemsnitlig puls på 148 bpm. Jeg ved fra tidligere, at jeg har en max-puls ved løb på 183.
 
-Du kan [udregne din maxpuls her](/test-max-puls/), hvis du ikke kender den på forhånd.
+Du kan [udregne din maxpuls her](/max-puls-beregner/), hvis du ikke kender den på forhånd.
 
 Jeg taster mine oplysninger ind i beregneren og ...
 

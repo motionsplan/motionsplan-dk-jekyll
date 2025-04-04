@@ -36,7 +36,7 @@ Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opf
 
 *[RPE]: Rate of Perceived Exertion
 
-Fordelen med Borg 15-testen er, at den ikke ikke tager udgangspunkt i en anslået, [aldersbestemt maxpuls](/test-max-puls/), og at man kun skal arbejde på en intensitet op til ca. 65% af sin maksimale ydeevne.
+Fordelen med Borg 15-testen er, at den ikke ikke tager udgangspunkt i en anslået, [aldersbestemt maxpuls](/max-puls-beregner/), og at man kun skal arbejde på en intensitet op til ca. 65% af sin maksimale ydeevne.
 
 Ulempen er selvfølgelig, at testresultatet er afhængigt af testpersonens egen subjektive opfattelse af anstrengelse. For at få det mest pålidelige resultat, skal du formentlig prøve Borg 15-testen nogle gange.
 

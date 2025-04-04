@@ -51,7 +51,7 @@ Det behøver ikke at være så indviklet at varme op til din løbetræning. Jeg 
 
 ### 1. Balanceøvelser
 
-Du kan fx stå på et ben. Du kan arbejde med åbne og lukkede øjne. Du kan også arbejde med at dreje hovedet i forskellige stillinger, mens du forsøger at holde balancen. Du kan se mange [flere balanceøvelser her](/balance/).
+Du kan fx stå på et ben. Du kan arbejde med åbne og lukkede øjne. Du kan også arbejde med at dreje hovedet i forskellige stillinger, mens du forsøger at holde balancen. Du kan se mange [flere balanceøvelser her](/balancetraening/).
 
 ### 2. Dynamisk mobilitet
 

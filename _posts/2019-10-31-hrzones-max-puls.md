@@ -48,7 +48,7 @@ Det er nødvendigt at kende din maxpuls nogenlunde præcist for at få de bedste
 
 ## Hvorfor basere pulszoner på maxpulsen?
 
-Det er den letteste måde at komme i gang med pulstræning på. Hvis ikke du laver en decideret test af maxpuls, så kan du altid [bergne din maxpuls](/test-max-puls/).
+Det er den letteste måde at komme i gang med pulstræning på. Hvis ikke du laver en decideret test af maxpuls, så kan du altid [beregne din maxpuls](/test-max-puls/).
 
 Det bedste er naturligvis at du har testet din maxpuls.
 

@@ -119,7 +119,7 @@ Vi opererer typisk med følgende indikatorer på, om testpersonen har opnået si
 1. **Steady state i VO₂-optagelse**. Iltoptagelsen opnår steady state og falder måske lidt igen med tiden (den vigtigste indikator for at den maksimale iltoptagelse er nået).
 2. **RQ > 1,15**. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være større end 1,10-1,15, da forsøgspersonen er i gang med hyperventilere ved maksimalt arbejde.
 3. **Bla > 8 mmol/l**. Laktatmåling skal være over 8 mmol/l.
-4. **Puls > 220-alder +- 10**. Pulsen skal være omkring den teoretiske maxpuls. Du kan bruge vores  beregner til at [udregne den teoretiske maxpuls](/test-max-puls/).
+4. **Puls > 220-alder +- 10**. Pulsen skal være omkring den teoretiske maxpuls. Du kan bruge vores  beregner til at [udregne den teoretiske maxpuls](/max-puls-beregner/).
 5. **VE / VO₂ > 30-35**. Forholdet mellem ventilationen (VE) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30-35.
 
 Når hovedparten disse indikationer er opfyldt antager vi, at forsøgspersonen har ydet sit maksimale og resultatet derfor er et præcist mål for konditallet.

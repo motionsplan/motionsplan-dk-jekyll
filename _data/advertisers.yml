@@ -3,8 +3,9 @@
   title: "Apuls"
   excerpt: "Apuls sælger til interesserede i træning/fitness, men vi har også et stort udvalg indenfor vinter, sport, pleje, vand, wellness, kosttilskud m.v."
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
-  btn_label: "Besøg Apuls*"
+  btn_label: "Besøg Apuls"
   btn_class: "btn--success"
+  rel: sponsored nofollow noopener
 - image_path: /assets/images/logo/fitnessengros.png
   alt: "Fitness Engros"
   title: "Fitness Engros"
@@ -12,24 +13,44 @@
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=89041
   btn_label: "Besøg Fitnessengros"
   btn_class: "btn--danger"
+  rel: sponsored nofollow noopener
 - image_path: /assets/images/logo/bodylab.png
   alt: "Bodylab"
   title: "Bodylab"
   excerpt: "Bodylab er Dks største producent og af sportsprodukter, proteinpulver, kreatin og andre kosttilskud. Via Bodylab.dk handler kunderne direkte med fabrikken udenom fordyrende mellemled."
   url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1
-  btn_label: "Besøg Bodylab*"
+  btn_label: "Besøg Bodylab"
   btn_class: "btn--info"
+  rel: sponsored nofollow noopener
 - image_path: /assets/images/logo/denintelligentekrop.png
   alt: "Den Intelligente Krop"
   title: "Den Intelligente Krop"
   excerpt: "Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit osv."
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-  btn_label: "Den Intelligente Krop*"
+  btn_label: "Den Intelligente Krop"
   btn_class: "btn--info"
+  rel: sponsored nofollow noopener
 - image_path: /assets/images/logo/billig-fitness.png
   alt: "Billig Fitness"
   title: "Billig Fitness"
   excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-  btn_label: "Besøg Billig Fitness*"
+  btn_label: "Besøg Billig Fitness"
   btn_class: "btn--info"
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/logo/intersport.png
+  alt: "Inter Sport"
+  title: "Inter Sport"
+  excerpt: "Intersport er i Danmark kendt som en af de absolut største forhandlere af sportsudstyr og beklædning til sport."
+  url: https://go.intersport.dk/t/t?a=1731781657&as=1889586219&t=2&tk=1
+  btn_label: "Besøg Intersport"
+  btn_class: "btn--info"
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/logo/loebeshop.jpg
+  alt: "Løbeshop"
+  title: "Løbeshop"
+  excerpt: "Velkommen til et online løbeunivers, der bygger på en enorm passion for løb og dybdegående viden om vores produkter."
+  url: https://in.loebeshop.dk/t/t?a=1850102116&as=1889586219&t=2&tk=1
+  btn_label: "Besøg Løbeshop"
+  btn_class: "btn--info"
+  rel: sponsored nofollow noopener

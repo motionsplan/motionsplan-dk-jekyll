@@ -1,6 +1,6 @@
 ---
 title: "Hollow Hold"
-excerpt: "Atomic situps er en øvelse, der træner den lige mavemuskel og hoftebøjerne."
+excerpt: "Hollow Hold."
 instructions: "Læg dig på ryggen med armene over hovedet og benene strakt ud. Rul op på bagdelen ved at svinge armene fremad og trække fødderne ind mod bagdelen. Du skal op at røre dine ankler eller fødder ved hver gentagelse."
 permalink: /oevelse/hollow-hold/
 redirect_from: /node/530

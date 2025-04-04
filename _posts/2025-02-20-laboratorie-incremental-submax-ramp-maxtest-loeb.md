@@ -161,7 +161,7 @@ Vi opererer typisk med fem indikatorer på, om man har opnået sin maksimale yde
 1. Iltoptagelsen opnår steady state og måske falder lidt igen med tiden.
 2. Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) skal være højere end 1,10-1,15, da forsøgspersonen er i gang med hyperventilere, når der ydes maksimalt.
 3. Laktatmåling skal være over 8 mmol.
-4. Pulsen skal være omkring den teoretiske maxpuls. Tjek vores [beregner til max-puls](/test-max-puls/).
+4. Pulsen skal være omkring den teoretiske maxpuls. Tjek vores [beregner til max-puls](/max-puls-beregner/).
 5. Forholdet mellem ventilationen (V<sub>E</sub>) og iltoptagelsen (VO₂) kaldes den ventilatoriske kvotient, og skal være over 30-35.
 
 Vi antager, at testpersonen har opnået den maksimale iltoptagelse, hvis hovedparten af disse indikationer er opfyldt.

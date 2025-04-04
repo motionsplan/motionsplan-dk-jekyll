@@ -53,7 +53,7 @@ Dog kan denne værdi variere afhængigt af træningstilstand og individuelle for
 
 Den maksimale puls (HRmax) estimeres ofte ved formlen **220 - alder**. En test anses for at være maksimal, hvis forsøgspersonen når en puls inden for **±10 slag af den estimerede HRmax**.  
 
-Dog er der individuelle forskelle, og nogle personer kan have en naturligt højere eller lavere maksimalpuls end formlen forudsiger. [Her kan du beregne din maksimale puls.](/test-max-puls/)
+Dog er der individuelle forskelle, og nogle personer kan have en naturligt højere eller lavere maksimalpuls end formlen forudsiger. [Her kan du beregne din maksimale puls.](/max-puls-beregner/).
 
 ## 5. (VE) / (VO₂) > 35
 

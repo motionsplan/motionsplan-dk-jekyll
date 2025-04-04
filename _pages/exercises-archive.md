@@ -26,7 +26,7 @@ classes: wide
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
-Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [balleøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper. Vi har også skrevet selvstændigt om [balanceøvelser](/balance/), [coretræning](/core/) eller [udstrækningsøvelser](/udstraekning-udspaending/).
+Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/), [benøvelser](/benoevelser/), [brystøvelser](/brystoevelser/), [balleøvelser](/balleoevelser/), [rygøvelser](/rygoevelser/), [skulderøvelser](/skulderoevelser/), så har vi lavet en selvstændig side om de muskelgrupper. Vi har også skrevet selvstændigt om [balanceøvelser](/balancetraening/), [coretræning](/core/) eller [udstrækningsøvelser](/udstraekning-udspaending/).
 
 **Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelse, så skriv endelig.**
 
@@ -125,9 +125,9 @@ Skuldertræning kræver en god balance mellem styrke og stabilitet. Læs om træ
 <details markdown="1" class="faq">
   <summary>⚖️ Balanceøvelser (single-leg stance, bosu-træning)</summary>
 
-Balancetræning er vigtigt for skadesforebyggelse og stabilitet. Vi gennemgår de bedste balanceøvelser, du kan integrere i din træning.
+Balancetræning er vigtigt for skadesforebyggelse og stabilitet. Vi gennemgår de bedste balanceøvelser, du kan integrere i din træning for at forbedre din [balanceevne](/balance/).
 
-[Læs mere om balance og balanceøvelser](/balance/).
+[Læs mere om balance og balanceøvelser](/balancetraening/).
 </details>
 
 ## Træningsøvelser efter funktion

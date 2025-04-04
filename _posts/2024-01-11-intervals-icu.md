@@ -112,7 +112,7 @@ Under **Løb** kan du lave de samme indstillinger. Hvis du [løber med wattmåli
 
 {% include figure image_path="/assets/images/blog/intervals-icu-settings-3.jpg" %}
 
-Hvis du ikke lige har tid til at lave en rigtig test af din maxpuls, så kan du [udregne den](/test-max-puls/).
+Hvis du ikke lige har tid til at lave en rigtig test af din maxpuls, så kan du [udregne maxpulsen på baggrund af din alder](/max-puls-beregner/).
 
 ### Integrationer
 
