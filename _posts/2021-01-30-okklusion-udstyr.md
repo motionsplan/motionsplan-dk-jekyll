@@ -8,6 +8,8 @@ header:
   overlay_image: /assets/images/occlude/occlusion-training.jpg
   teaser: /assets/images/occlude/occlusion-training-768.jpg
   caption: *title
+classes:
+  - wide
 category:
   - Styrketræning
 tags:
@@ -16,6 +18,49 @@ tags:
   - udstyr
   - styrkeløft
 language: da
+feature_row_products:
+- image_path: /assets/images/products/Occlude-webshop-athlete-xlarge-800x800.jpg
+  url: https://www.occlude.dk/vare/occlude-athlete-xl/
+  title: Occlude - Athlete
+  excerpt: |
+    Occlude er førende inden for pumpebaseret udstyr til okklusionstræning. Du får præcis kontrol og solid vejledning, hvis du vil i gang med BFR-træning.
+
+    🥇 **Bedst til prisen**<br>
+    ✅ Dansk producent<br>
+    ✅ Pumpebaseret system<br>
+    ✅ Meget præcis trykstyring<br>
+    ✅ Til både arme og ben
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/products/bodylab-okklusionsstraps_arms_legs-p.jpg
+  url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
+  title: Bodylab Occlusion
+  excerpt: |
+    Bodylabs okklusionsstropper er lavet i en blød, semielastisk kvalitet uden plastikspænder. De er nemme at bruge og perfekte til dig, der vil i gang hurtigt.
+
+    🥈 **Godt begyndervalg**<br>
+    ✅ Semielastiske stropper<br>
+    ✅ Nem velcrolukning<br>
+    ✅ Dansk firma<br>
+    ✅ Fylder næsten intet
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/products/BFR-2-pack.png
+  url: https://bfrpro.com/collections/store/products/complete-pack-2-workout-program
+  title: BfR Professional
+  excerpt: |
+    BfR Professionals sæt er funktionelle og leveres med en enkel taske. Armstropperne er smalle, og benstropperne har en solid velcrolukning.
+
+    🥉 **Får jobbet gjort**<br>
+    ✅ Stilrent design<br>
+    ✅ Let at transportere<br>
+    ✅ Til både arme og ben<br>
+    ✅ Lidt dyrere løsning
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 feature_row_bodylab:
   - image_path: https://www.bodylab.dk/images/okklusionsstraps_arms_legs-p.jpg
     url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
@@ -55,6 +100,10 @@ feature_row_occlude:
 [Okklusionstræning](/introduktion-okklusionstraening/) kræver, at man har det rigtige okklusionsudstyr for at kunne lave okklusionen effektivt. Du skal altså bruge okklusionsbånd for at kunne træne effektivt med okklusionstræning. Vi kigger her på mulighederne for okklusionsbånd.
 
 Okklusionstræning kaldes også KAATSU-træning eller _blood flow restriction_ (BFR)-træning. Helt grundlæggende handler det om at afklemme blodtilførslen til enten armene eller benene for derefter at lave træning med relativt lav vægt og mange gentagelser. Du skal bruge okklusionsbånd for at afklemme blodtilførslen.
+
+## TLDR; Bedste udstyr til okklusion
+
+{% include feature_row id="feature_row_products" %}
 
 ## Okklusionstræning i praksis
 
@@ -158,7 +207,7 @@ Bodylabs straps - særligt til benene - er ret smalle, hvilket kan betyde, at de
 
 Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html){: rel='sponsored nofollow noopener' } for omkring 300 kroner.
 
-{% include feature_row id="feature_row_bodylab" type="right" %}
+{% include feature_row id="feature_row_bodylab" type="left" %}
 
 ### 2. BfR Professional okklusionsstropper
 
@@ -172,7 +221,7 @@ BFR har også nogle [_straps_ af læder](https://bfrpro.com/collections/store/pr
 
 Du kan købe en [fuld træningspakke](https://bfrpro.com/collections/store/products/complete-pack-2-workout-program){: rel='nofollow noopener' } med to stropper til armene og to stropper til benene for under 600 kroner.
 
-{% include feature_row id="feature_row_bfr" type="right" %}
+{% include feature_row id="feature_row_bfr" type="left" %}
 
 ### 3. Fitness Institute
 
@@ -180,7 +229,7 @@ Fitness Institute som bl.a. drives af Henrik Duer og uddanner personlige træner
 
 Okklusionsstropperne fra klarer sig også rigtig godt i Maxers anmeldelse af båndene. Du kan få et [komplet sæt til arm- og bentræning](https://www.kaatsu.dk/webshop.html#!/products/okklusions-stropper-i-s%C3%A6t-til-arme-ben){: rel='nofollow noopener' } for omkring 350 kroner.
 
-{% include feature_row id="feature_row_fitnessinstitute" type="right" %}
+{% include feature_row id="feature_row_fitnessinstitute" type="left" %}
 
 ### Opsamling på ‘praktisk’ okklusionsudstyr
 

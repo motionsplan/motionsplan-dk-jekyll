@@ -103,7 +103,7 @@ Hvis du vil maksimere muskelopbygningen lige efter træning, så er der tilsynel
 
 Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage omkring 160 gram protein. De 40 gram kan med fordel ligge lige efter træning. Så skal jeg fordele resten på 3-4 måltider, hvor jeg har et indtag om aftenen, der skal være dobbelt så stort som de andre måltider.
 
-Inden du køber proteinpulver, så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
+Inden du [køber proteinpulver](/kosttilskud/proteinpulver/), så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
 
 Læs: [Hvordan får du billigst opfyldt dit proteinbehov?](/billig-protein/)
 {: .notice }

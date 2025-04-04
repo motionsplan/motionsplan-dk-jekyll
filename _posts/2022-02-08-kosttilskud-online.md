@@ -66,13 +66,7 @@ Jeg køber selv de fleste af mine kosttilskud hos Bodylab. De har en utrolig fin
 
 [Køb hos Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 2. Noutron
-
-Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler Noutron produkter, der skal hjælpe endurance atleter. Noutron er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores atleterne.
-
-[Køb hos Noutron](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
-
-### 3. Pure Power
+### 2. Pure Power
 
 PurePower er en dansk virksomhed, som leverer højkvalitets sporternæring til nordiske atleter. Vi er et datterselskab under Toft Care, som gennem 25 år har været og er førende inden for ernæringsprodukter til det danske sundhedsvæsen.
 
@@ -80,13 +74,13 @@ PurePower er en dansk virksomhed, som leverer højkvalitets sporternæring til n
 
 [Køb hos Pure Power](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52416){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 4. Billig-Fitness.dk
+### 3. Billig-Fitness.dk
 
 Billig-Fitness er en af Danmarks største forhandlere med produkter indenfor fitnessbranchen. De er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv.
 
 [Besøg Billig-Fitness »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 5. Helsam
+### 4. Helsam
 
 Helsam er en livsstils- og helsebutik for dig, der ønsker et sundere liv i balance og en hverdag med mere overskud.
 
@@ -94,19 +88,19 @@ Helsam er en livsstils- og helsebutik for dig, der ønsker et sundere liv i bala
 
 [Besøg Helsam »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 6. Helsebixen
+### 5. Helsebixen
 
 Helsebixen.dk er Danmarks største site for helsekost med mere end 12.000 produkter.
 
 [Besøg Helsebixen »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 7. Muscle House
+### 6. Muscle House
 
 Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, kreatin, BCAA, aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning, samt et udvalg af træningsudstyr.
 
 [Besøg Muscle House »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68774){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 8. Nduranz
+### 7. Nduranz
 
 Nduranz har et stort udvalg inden for kosttilskud til udholdenhedsatleten. Her møder videnskaben ernæringen. De har også en meget fed [fueling beregner](https://nduranz.com/pages/fueling-calculator).
 

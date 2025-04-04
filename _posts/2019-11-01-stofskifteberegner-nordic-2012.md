@@ -41,11 +41,9 @@ Jeg har lavet en beregner til at udregne dit daglige energibehov og energiforbru
 
 Hvordan kan jeg udregne mit daglige energibehov og energiforbrug? **Du kan udregne dit daglige energibehov ved at estimere dit hvilestofskifte og gange det med en faktor, der beskriver dit fysiske aktivitetsniveau for en dag (PAL).**
 
-Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan [læse en lidt mere uddybende forklaring af, hvad stofskiftet er](/beregner/dagligt-stofskifte-og-forbraending/).
+Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan læse en lidt mere [uddybende forklaring af stofskiftet her](/stofskiftet/).
 
 Denne beregner af dit daglige energiforbrug og energibehov kan du vælge mellem forskellige beregninger af hvilestofskiftet. Derefter ganger vi hvilestofskiftet med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL.
-
-På [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/) bruger de formlen fra `Nordic Nutrition Recommendations 2012`.
 
 ## Beregn energiforbrug
 

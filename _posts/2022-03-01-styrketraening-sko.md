@@ -11,6 +11,7 @@ category:
   - Styrketræning
 tags:
   - udstyr
+  - styrketræning
   - styrkeløft
 last_modified_at: 2025-02-19T23:14:14Z
 toc: true

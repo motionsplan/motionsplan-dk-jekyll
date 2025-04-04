@@ -11,7 +11,7 @@ category:
   - Styrketræning
 tags:
   - udstyr
-  - styrkeløft
+  - styrketræning
 last_modified_at: 2025-02-19T23:14:14Z
 toc: true
 feature_row_crossfit:

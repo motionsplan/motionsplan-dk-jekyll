@@ -1,8 +1,8 @@
 ---
-title: "Det Bedste Udstyr til Velocity-Based Training"
-seo_title: "Hvilket Udstyr Skal Du Bruge til VBT?"
-description: Få indsigt i de bedste værktøjer til velocity-based training, fra lineære positionstransducere til accelerometre.
-excerpt: Få indsigt i de bedste værktøjer til velocity-based training, fra lineære positionstransducere til accelerometre.
+title: "Hvilket Udstyr Skal Du Bruge til VBT?"
+seo_title: "Det Bedste Udstyr til Velocity-Based Training 2025"
+description: Få indsigt i de bedste værktøjer og udstyr til velocity-based training, fra lineære positionstransducere til accelerometre.
+excerpt: Få indsigt i de bedste værktøjer og udstyr til velocity-based training, fra lineære positionstransducere til accelerometre.
 permalink: /vbt-udstyr/
 language: da
 header:
@@ -23,7 +23,49 @@ meta:
   equipment: vbt-udstyr
   max: maksimal test
   direct: direkte test
-last_modified_at: 2023-01-01T08:39:32Z
+last_modified_at: 2025-01-01T08:39:32Z
+feature_row_products:
+  - image_path: /assets/images/products/repone-outerglow_hardware-1.png
+    url: https://repone-strength.myshopify.com/lars-olesen
+    title: "RepOne"
+    excerpt: |
+      RepOne er efterfølgeren til Open Barbell. Den bruger en magnet og snor til måling og er designet til den almindelige forbruger, der ønsker præcise data til lavere pris.
+
+      🥇 **Bedst til prisen**<br>
+      ✅ Magnetisk måling<br>
+      ✅ Brugervenlig app<br>
+      ✅ Lav pris<br>
+      ✅ Egnet til hjemmetræning
+    btn_class: "btn--info"
+    btn_label: Tjek prisen
+    rel: sponsored nofollow noopener
+  - image_path: /assets/images/products/train-with-push-image-asset.png
+    url: https://www.trainwithpush.com/
+    title: "Push Band"
+    excerpt: |
+      Push Band er en kompakt enhed, som du bærer om armen eller monterer på stangen. Push er populær til VBT og nem at tage med til forskellige træningssteder.
+
+      🥉 **Kompakt løsning**<br>
+      ✅ Brug på arm og stang<br>
+      ✅ VBT-specifik<br>
+      ✅ Transportvenlig<br>
+      ✅ Billig
+    btn_class: "btn--info"
+    btn_label: Læs mere
+  - image_path: /assets/images/products/flex-gymaware.jpg
+    url: https://www.flexstronger.com/?rfsn=4448247.fcbbca
+    title: "Flex (Gymaware)"
+    excerpt: |
+      Flex fra Gymaware er et af de mest præcise VBT-systemer til privat brug. Monteres nemt på enden af stangen og leverer data, som tidligere var forbeholdt elitehold.
+
+      🏅 **Tæt på pro-niveau**<br>
+      ✅ Høj præcision<br>
+      ✅ Til VBT-entusiaster<br>
+      ✅ Udviklet af Gymaware<br>
+      ✅ Bruges i eliteidræt
+    btn_class: "btn--info"
+    btn_label: Læs mere
+    rel: sponsored nofollow noopener
 feature_row:
   - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
     url: https://repone-strength.myshopify.com/lars-olesen
@@ -59,6 +101,7 @@ feature_row_spreadsheet:
     btn_label: "<i class='fas fa-file-excel'></i> Se Google Sheets"
     btn_class: "btn--success"
     rel: nofollow noopener
+classes: wide
 ---
 
 I denne artikel gennemgår vi de vigtigste typer udstyr, du kan bruge til VBT, og hvordan de kan hjælpe dig med at måle og forbedre din styrketræning.
@@ -72,6 +115,10 @@ Velocity based training er ikke et nyt fænomen, men med den teknologiske udvikl
 De mest udbredte teknologier til at måle hastighed er _lineær position transducers_ (fx Gymaware og [Repone](https://repone-strength.myshopify.com/lars-olesen){: rel="nofollow sponsored noopener" }), accellerometer (fx [Beast](https://www.thisisbeast.com/en)) eller laser (fx [Flex](https://www.flexstronger.com/?rfsn=4448247.fcbbca){: rel="nofollow sponsored noopener" }).
 
 Fælles for disse aggregater som har forskellige udformninger er, at de måler hastigheden af løftene. Det giver en objektiv måde at vurdere om atleten formår at løfte stangen eksplosivt, og om hastigheden på stangen holder sig inden for de rigtig hastighedszoner i forhold til atletens mål.
+
+## Bedste udstyr til VBT
+
+{% include feature_row id="feature_row_products" %}
 
 ## Sådan kan du bruge VBT i din egen træning
 
@@ -110,10 +157,6 @@ Programmet kører VBT på squat og bænkpres, så du kan prøve det af med det s
 
 **Tjek** [VBT-programmet](/vbt-traeningsprogram/)
 {: .notice }
-
-## Gadgets til Velocity based training
-
-{% include feature_row type="left" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

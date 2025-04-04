@@ -2,7 +2,7 @@
 title: "Bælte til styrketræning - har du brug for et træningsbælte?"
 seo_title: "Alt om træningsbælter til styrketræning og fitness"
 permalink: /baelte-styrketraening/
-description: Vil du gerne løfte tungere i squat og dødløft? Et træningsbælte til styrketræning kan hjælpe dig med at gøre dine løft mere stabile. Vi forklarer hvordan du bruger bæltet!
+description: Vil du gerne løfte tungere i squat og dødløft? Et træningsbælte til styrketræning kan hjælpe dig med at gøre dine løft mere stabile. Lær at bruge bæltet!
 excerpt: "Et bælte til styrketræning kan gøre dine løft mere stabile, så du kan løfte mere. Men du skal vælge det rigtige træningsbælte og vide hvordan, du bruger bæltet til fitness, vægtløftning og styrkeløft."
 language: da
 header:
@@ -43,6 +43,53 @@ feature_row_syntetisk:
     btn_label: Tjek prisen
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+feature_row_products:
+  - image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
+    alt: "3 Kamps bælte Professionel kvalitet"
+    title: "Styrkeløft-bælte"
+    excerpt: |
+      Dette bælte er lavet i ekstremt robust læder og er MEGET stabilt. Ideelt til seriøs styrkeløft, bodybuilding, styrketræning og tunge løft.
+
+      🥇 **Bedst til powerlifting**<br>
+      ✅ Kraftigt læder<br>
+      ✅ Maksimal stabilitet<br>
+      ✅ Perfekt til tunge løft<br>
+      ✅ Populært valg i 3-kamp
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/professionelt-traeningsbaelte"
+    btn_label: Tjek prisen
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
+    alt: "Harbinger træningsbælte til vægtløftning"
+    title: "Vægtløfter-bælte"
+    excerpt: |
+      Et klassisk vægtløftningsbælte fra Harbinger i ægte læder med blød polstring og dobbelt spænde. Perfekt til intens træning og tung belastning.
+
+      🥈 **Klassisk læderbælte**<br>
+      ✅ Ægte læder<br>
+      ✅ Indvendig polstring<br>
+      ✅ 10 cm bredde<br>
+      ✅ Dobbelt spænde
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/605-harbinger-laeder-baelte-bredt-m/"
+    btn_label: Tjek prisen
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
+    alt: "Fitnessbælte i neopren"
+    title: "Neoprenbælte"
+    excerpt: |
+      Neoprenbælte fra Harbinger til styrketræning. Let, fleksibelt og behageligt – perfekt til fitness og styrketræning med middel belastning.
+
+      🥉 **Let og komfortabelt**<br>
+      ✅ Blødt neopren<br>
+      ✅ Nem justering<br>
+      ✅ God støtte<br>
+      ✅ Perfekt til fitness
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/617-harbinger-poly-baelte-herre-m/
+    btn_label: Tjek prisen
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+classes: wide
 ---
 
 Her kan du læse mere om forskellige typer af træningsbælter til styrketræning. Når du har læst guiden skulle du gerne være klædt på til at vælge et bælte til din styrketræning uanset om du laver styrkeløft, vægtløftning, almindelige fitnesstræning, bodybuilding eller genoptræning.
@@ -55,6 +102,10 @@ Hvis du i denne guide finder ud af, at du har brug for et bælte, så tjek en af
 
 {% include figure image_path="https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="træningsbælte på kvinde til styrketræning" %}
 
+## Bedste bælter til styrketræning
+
+{% include feature_row id="feature_row_products" %}
+
 ## Hvad er et styrketræningsbælte?
 
 Et træningsbælte er en støtteanordning, der bæres rundt om taljen under træningen. Det er normalt fremstillet af læder, nylon eller et andet robust materiale og har et spænde eller en velcrolukning. Bælternes bredde kan variere fra omkring fire til seks tommer.
@@ -65,11 +116,11 @@ Træningsbælter bruges oftest i tunge løftesportgrene som styrkeløft, vægtl�
 
 Et bælte til styrketræning er ikke bare et bælte. Der er nemlig forskellige bælter alt efter, hvilke øvelser du gerne vil bruge bæltet til. Her kan du se de forskellige typer bælter, der findes.
 
-{% include feature_row id="feature_row_syntetisk" type="left" %}
-
 ### 1. Bælter af syntetisk stof
 
 Denne type bælter bruges ofte i almindelig fitnesstræning eller bodybuilding. Bælterne giver minimal støtte. De giver en lille smule støtte, men formentlig fungerer denne typer bælter mest som en påmindelse om selv at støtte op.
+
+{% include feature_row id="feature_row_syntetisk" type="left" %}
 
 ### 2. Læderbælter til vægtløftning
 
