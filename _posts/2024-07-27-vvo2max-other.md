@@ -11,11 +11,11 @@ header:
 category:
   - Kondition
 tags:
+  - test
   - løb
   - submaksimal test
   - indirekte test
   - løbetest
-  - test
   - tracking
   - testberegner
 last_modified_at: 2024-07-27T10:14:14Z

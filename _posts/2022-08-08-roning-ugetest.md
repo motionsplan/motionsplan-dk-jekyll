@@ -10,9 +10,9 @@ category:
   - Træning
   - Roning
 tags:
+  - test
   - roning
   - rotest
-  - test
   - kondition
 meta:
   name: Powerprofil i roning

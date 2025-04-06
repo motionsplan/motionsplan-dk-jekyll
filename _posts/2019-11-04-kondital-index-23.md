@@ -16,6 +16,7 @@ toc: true
 category:
   - Kondition
 tags:
+  - beregner
   - kondition
   - tabel
   - kondital

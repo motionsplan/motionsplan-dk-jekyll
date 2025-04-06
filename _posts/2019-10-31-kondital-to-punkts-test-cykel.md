@@ -17,11 +17,11 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - submaksimal test
   - indirekte test
   - cykeltest
-  - test
   - testberegner
   - populær
 last_modified_at: 2019-03-06T23:14:14Z

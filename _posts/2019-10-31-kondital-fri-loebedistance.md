@@ -18,13 +18,13 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
+  - beregner
+  - test
   - konditionstest
   - løb
   - maksimal test
   - indirekte test
   - løbetest
-  - test
-  - beregner
   - populær
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true

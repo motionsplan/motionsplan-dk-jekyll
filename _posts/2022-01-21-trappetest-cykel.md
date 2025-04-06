@@ -10,9 +10,9 @@ category:
   - Kondition
   - Cykling
 tags:
+  - test
   - kondition
   - cykeltest
-  - test
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
 meta:

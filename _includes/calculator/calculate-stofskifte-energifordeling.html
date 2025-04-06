@@ -1,0 +1,55 @@
+<form class="calculator full" id="calculator_energifordeling">
+    <fieldset>
+        <legend>Udregning af din daglige energifordeling</legend>
+        <div class="form-group">
+            <label for="age">Energibehov (kcal)</label>
+            <input type="number" min="10" max="10000" placeholder="fx 3000" name="kcal" id="kcal" required>
+        </div>
+        <div class="form-group">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <table>
+            <thead>
+            <tr>
+                <th>Makro</th>
+                <th>Nødvendig</th>
+                <th>g</th>
+                <th>Kcal</th>
+                <th>kJ</th>
+                <th>E%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Protein</td>
+                <td><input step="0.1" value="1.6" placeholder="1.6" class="input-mini input-locked" type="number" min="0" max="100" name="protein_g" id="protein_g"> g/dag</td>
+                <td id="protein_daily_g"></td>
+                <td id="protein_daily_kcal"></td>
+                <td id="protein_daily_kj"></td>
+                <td id="protein_daily_e"></td>
+            </tr>
+            <tr>
+                <td>Kulhydrat</td>
+                <td><input step="0.1" placeholder="5.5" value="5.5" class="input-mini input-locked" type="number" min="0" max="100" name="cho_g" id="cho_g"> g/dag</td>
+                <td id="cho_daily_g"></td>
+                <td id="cho_daily_kcal"></td>
+                <td id="cho_daily_kj"></td>
+                <td id="cho_daily_e"></td>
+            </tr>
+            <tr>
+                <td>Fedt</td>
+                <td></td>
+                <td id="fat_daily_g"></td>
+                <td id="fat_daily_kcal"></td>
+                <td id="fat_daily_kj"></td>
+                <td id="fat_daily_e"></td>
+            </tr>
+        </tbody>
+        </table>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

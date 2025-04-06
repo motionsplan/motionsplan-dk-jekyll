@@ -10,8 +10,8 @@ category:
   - Tests
   - Smidighed
 tags:
-  - smidighed
   - test
+  - smidighed
   - fitnesstest
   - smidighedstest
 last_modified_at: 2020-09-03T23:14:14Z

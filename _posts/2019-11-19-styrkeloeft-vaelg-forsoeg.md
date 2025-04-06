@@ -16,9 +16,9 @@ header:
 category:
   - Styrketræning
 tags:
+  - beregner
   - styrkeløft
   - styrketræning
-  - beregner
   - guide
 meta:
   name: Vælg vægte til styrkeløftstævne

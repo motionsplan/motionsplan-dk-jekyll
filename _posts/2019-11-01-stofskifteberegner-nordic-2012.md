@@ -12,9 +12,9 @@ category:
   - Beregnere
   - Kalorieberegnere
 tags:
+  - beregner
   - stofskifte
   - stofskifteberegner
-  - beregner
 meta:
   name: BMR-beregner
   equipment: ingen

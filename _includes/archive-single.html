@@ -17,11 +17,32 @@
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+      <div class="archive__item-teaser" style="position: relative;">
         <img src="{{ teaser | relative_url }}" alt="{{ title }}" data-pin-nopin="true" loading="lazy">
+        {% if post.tags[1] == "beregner" %}
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        {% elsif post.tags[0] == "værktøj" %}
+        <div class="icon-overlay">
+          <i class="fas fa-tools" aria-hidden="true" title="Værktøj"></i>
+        </div>
+        {% elsif post.tags[0] == "test" %}
+        <div class="icon-overlay">
+          <i class="fas fa-stopwatch" aria-hidden="true" title="Test"></i>
+        </div>
+        {% elsif post.tags[0] == "måling" %}
+        <div class="icon-overlay">
+          <i class="fas fa-ruler" aria-hidden="true" title="Måling"></i>
+        </div>
+        {% elsif post.tags[0] == "vurderingsværktøj" %}
+        <div class="icon-overlay">
+          <i class="fas fa-clipboard-check" aria-hidden="true" title="Vurderingsværktøj"></i>
+        </div>
+        {% endif %}
       </div>
     {% endif %}
-    {% assign category = post.category[0] %}
+    {% assign category = post.category | last %}
     {% if category %}<p class="archive__item-category p-category" itemprop="category">{{ category }}</p>{% endif %}
     <p class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}

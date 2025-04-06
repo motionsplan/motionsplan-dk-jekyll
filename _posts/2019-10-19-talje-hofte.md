@@ -11,9 +11,10 @@ header:
 category:
   - Tests
 tags:
+  - måling
+  - test
   - beregner
   - kropskomposition
-  - test
   - tracking
   - fitnesstest
   - antropometri

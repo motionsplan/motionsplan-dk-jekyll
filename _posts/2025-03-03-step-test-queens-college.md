@@ -20,9 +20,9 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - indirekte test
-  - test
   - steptest
 last_modified_at: 2025-03-03T23:14:14Z
 toc: true

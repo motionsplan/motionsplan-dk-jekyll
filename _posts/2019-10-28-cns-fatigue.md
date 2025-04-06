@@ -10,9 +10,9 @@ header:
 category:
   - Træning
 tags:
+  - test
   - fysiologi
   - tracking
-  - test
 meta:
   name: Finger tapping test
   measures: træthed i nervesysten

@@ -8,8 +8,8 @@ header:
 category:
   - Løb
 tags:
-  - løb
   - beregner
+  - løb
 last_modified_at: 2022-04-12T22:21:26Z
 meta:
   name: Flyer Handicap Løbeberegner

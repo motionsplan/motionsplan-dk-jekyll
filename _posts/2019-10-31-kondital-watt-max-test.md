@@ -19,13 +19,13 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - kondition
   - cykling
   - maksimal test
   - indirekte test
   - cykeltest
-  - test
   - testberegner
   - populær
 last_modified_at: 2019-03-06T23:14:14Z

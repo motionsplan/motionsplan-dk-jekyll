@@ -9,8 +9,8 @@ category:
   - Træning
   - Springtræning
 tags:
-  - spring
   - beregner
+  - spring
   - fysik
   - biomekanik
 last_modified_at: 2021-11-19T08:14:14Z

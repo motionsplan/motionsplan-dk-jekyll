@@ -11,10 +11,10 @@ category:
   - Vurderingsværktøjer
   - Psykologi
 tags:
+  - vurderingsværktøj
   - træning
   - psykologi
   - psykologisk test
-  - vurderingsværktøj
   - populær
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true

@@ -17,12 +17,12 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - løb
   - submaksimal test
   - indirekte test
   - løbetest
-  - test
   - tracking
   - testberegner
   - begynder

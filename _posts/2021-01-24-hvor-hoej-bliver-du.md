@@ -13,8 +13,8 @@ header:
 category:
   - Beregnere
 tags:
-  - højde
   - beregner
+  - højde
   - kropskomposition
   - antropometri
 meta:

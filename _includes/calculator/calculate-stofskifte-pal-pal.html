@@ -1,0 +1,111 @@
+<form class="calculator full" id="calculator_pal">
+    <fieldset>
+        <legend>Udregning af Physical Activity Level (PAL)</legend>
+        <fieldset>
+            <table>
+                <tr>
+                    <th>Generelt aktivitetsniveau</th>
+                    <th>PAL</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radio">
+                            <input type="radio" value="1.2" name="pal" requried>
+                            Sengeliggende eller bundet til en stol (ikke rullestol).
+                        </label>
+                    </td>
+                    <td>
+                        1,2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radio">
+                            <input type="radio" checked="checked" value="1.45" name="pal">
+                            Stillesiddende arbejde med begrænset bevægelse og ingen eller begrænset fysisk aktivitet i fritiden.
+                        </label>
+                    </td>
+                    <td style="white-space: nowrap;">
+                        1,4-1,5
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radio">
+                            <input type="radio" value="1.65" name="pal">
+                            Stillesiddende arbejde med et vist behov for bevægelse og med nogen fysisk aktivitet i fritiden.
+                        </label>
+                    </td>
+                    <td>
+                        1,6-1,7
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radio">
+                            <input type="radio" value="1.85" name="pal">
+                            Hovedsageligt stående arbejde og med fritidsaktivitet næsten dagligt.
+                        </label>
+                    </td>
+                    <td>
+                        1,8-1,9
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radio">
+                            <input type="radio" value="2.2" name="pal">
+                            Hårdt kropsarbejde eller daglig hård hård fysisk træning.
+                        </label>
+                    </td>
+                    <td>
+                        2,0-2,4
+                    </td>
+                </tr>
+            </table>    
+        </fieldset>
+        <fieldset>
+            <legend>Justering for moderat og hård fysisk aktivitet pr. uge</legend>
+            <table>
+                <tr>
+                    <th>Timer/uge</th>
+                    <th>Beskrivelse</th>
+                    <th>PAL</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" class="input-mini" min="0" max="24" name="moderate_leisure_activity">
+                    </td>
+                    <td>
+                        <label>Moderat fritidsaktivitet (fx hurtig gang)</label>
+                        <p class="help-block">+0,025 PAL pr. time pr. uge</p>
+                    </td>
+                    <td>+0,025/time</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" class="input-mini" min="0" max="24" name="strenuous_leisure_activity">
+                    </td>
+                    <td>
+                        <label>
+                            Hård fysisk aktivitet (løb, fodbold)
+                        </label>    
+                        <p class="help-block">+0,05 PAL pr. time pr. uge</p>
+                    </td>
+                    <td>
+                        +0,05/time
+                    </td>
+                </tr>
+        </table>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Faktor for fysisk aktivitetsniveau (PAL)
+                <input name="pal_calc" id="pal_calc" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>

@@ -12,8 +12,8 @@ header:
 category:
   - Kondition
 tags:
-  - puls
   - beregner
+  - puls
 meta:
   name: Max puls beregner
   measures: maxpuls

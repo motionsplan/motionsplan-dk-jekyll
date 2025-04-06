@@ -11,9 +11,10 @@ header:
 category:
   - Tests
 tags:
+  - måling
+  - test
   - beregner
   - kropskomposition
-  - test
   - tracking
 last_modified_at: 2022-05-04T23:14:14Z
 toc: true

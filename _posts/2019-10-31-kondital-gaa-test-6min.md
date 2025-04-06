@@ -19,11 +19,11 @@ meta:
   direct: indirekte test
   target: ældre mennesker
 tags:
+  - test
   - konditionstest
   - submaksimal test
   - indirekte test
   - gangtest
-  - test
   - testberegner
   - gang
 last_modified_at: 2022-05-06T23:14:14Z

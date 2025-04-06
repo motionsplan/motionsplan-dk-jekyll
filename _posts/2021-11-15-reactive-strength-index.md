@@ -9,10 +9,10 @@ category:
   - Tests
   - Eksplosivitet
 tags:
+  - test
   - springtest
   - eksplosivitet
   - spring
-  - test
 meta:
   name: Reactive Strength Index
   measures: springstyrke

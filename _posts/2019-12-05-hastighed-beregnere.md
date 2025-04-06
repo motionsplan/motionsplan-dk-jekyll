@@ -10,9 +10,9 @@ header:
 category:
   - Beregnere
 tags:
+  - beregner
   - løb
   - cykling
-  - beregner
 meta:
   name: Beregn hastighed i km/t, m/s og min/km
   equipment: ingen

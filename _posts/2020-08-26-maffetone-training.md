@@ -12,10 +12,10 @@ header:
 category:
   - Kondition
 tags:
+  - beregner
   - kondition
   - løb
   - cykling
-  - beregner
 meta:
   name: Maffetone Max Aerobic Heartrate
   measures: puls

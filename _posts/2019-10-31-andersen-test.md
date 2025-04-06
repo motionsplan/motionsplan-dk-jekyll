@@ -21,13 +21,13 @@ meta:
   direct: indirekte test
   target: børn
 tags:
+  - test
   - konditionstræning
   - maksimal iltoptagelse
   - konditionstest
   - løbetest
   - løb
   - testberegner
-  - test
   - featured
 last_modified_at: 2024-01-11T08:14:14Z
 feature_row:

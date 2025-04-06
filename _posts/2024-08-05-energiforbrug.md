@@ -11,10 +11,10 @@ header:
 category:
   - Fysiologi
 tags:
+  - beregner
   - interaktiv artikel
   - fysiologi
   - cykling
-  - beregner
 meta:
   name: Energiforbrug og effektivitet i aktivitet
   equipment: ingen

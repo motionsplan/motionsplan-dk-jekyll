@@ -17,10 +17,11 @@ category:
   - Fedtprocent
 breadcrumbs: true
 tags:
+  - måling
+  - test
   - fedtprocent
   - kropskomposition
   - bioimpedans
-  - test
   - metode
 meta:
   name: Bioimpedansmåling

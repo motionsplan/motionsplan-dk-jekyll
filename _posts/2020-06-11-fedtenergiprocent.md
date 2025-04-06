@@ -11,8 +11,8 @@ category:
   - Kost & Ernæring
   - Kalorieberegnere
 tags:
-  - kost & ernæring
   - beregner
+  - kost & ernæring
   - kalorieberegner
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true

@@ -23,12 +23,12 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - løb
   - indirekte test
   - maksimal test
   - løbetest
-  - test
   - testberegner
   - fitnesstest
   - aerob test

@@ -9,8 +9,8 @@ header:
 category:
   - Gang
 tags:
-  - gang
   - beregner
+  - gang
   - gangtest
   - populær
 meta:

@@ -19,11 +19,11 @@ meta:
   max: submaksimal test
   direct: direkte test
 tags:
+  - test
   - konditionstest
   - direkte test
   - submaksimal test
   - løbetest
-  - test
   - laboratorietest
   - testcenter
   - iltoptagelsestest

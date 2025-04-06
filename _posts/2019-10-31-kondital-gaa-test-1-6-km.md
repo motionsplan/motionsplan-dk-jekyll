@@ -20,12 +20,12 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - gang
   - gangtest
   - submaksimal test
   - indirekte test
-  - test
   - tracking
   - featured
   - populær

@@ -11,11 +11,11 @@ category:
   - Træning
   - Springtræning
 tags:
+  - test
   - træning
   - spring
   - eksplosivitet
   - springtest
-  - test
   - polititest
   - politi
   - fitnesstest

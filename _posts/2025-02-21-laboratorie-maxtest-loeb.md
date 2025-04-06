@@ -19,10 +19,10 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
+  - test
   - konditionstest
   - direkte test
   - maksimal test
-  - test
   - løbetest
   - laboratorietest
   - iltoptagelsestest

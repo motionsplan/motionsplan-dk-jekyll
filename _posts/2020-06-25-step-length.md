@@ -11,12 +11,12 @@ category:
   - Træning
   - Gang
 tags:
+  - beregner
   - sundhed
   - skridt
-  - beregner
-  - populær
   - gang
   - gangtest
+  - populær
 meta:
   name: Find din skridtlængde
   equipment: ingen

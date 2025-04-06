@@ -11,9 +11,9 @@ category:
   - Beregnere
   - Kalorieberegnere
 tags:
+  - beregner
   - stofskifte
   - stofskifteberegner
-  - beregner
 meta:
   name: Daglig forbrænding og stofskifte
   equipment: ingen

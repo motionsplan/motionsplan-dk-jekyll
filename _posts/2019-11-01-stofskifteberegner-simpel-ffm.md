@@ -16,9 +16,9 @@ meta:
   measures: dagligt energiforbrug
   type: energiforbrug
 tags:
+  - beregner
   - stofskifte
   - stofskifteberegner
-  - beregner
 last_modified_at: 2025-03-06T23:14:14Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg

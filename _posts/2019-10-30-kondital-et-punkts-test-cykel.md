@@ -18,12 +18,12 @@ meta:
 category:
   - Kondition
 tags:
+  - test
   - konditionstest
   - cykling
   - submaksimal test
   - indirekte test
   - cykeltest
-  - test
   - tracking
   - testberegner
   - fitnesstest

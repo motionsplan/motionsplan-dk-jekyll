@@ -11,8 +11,8 @@ header:
 category:
   - Løb
 tags:
-  - kondition
   - beregner
+  - kondition
   - løbeberegner
   - løb
 meta:

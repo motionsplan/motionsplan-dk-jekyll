@@ -10,8 +10,8 @@ header:
 category:
   - Løb
 tags:
-  - kondition
   - beregner
+  - kondition
   - løb
 meta:
   name: Riegels formel til beregning af løbetider

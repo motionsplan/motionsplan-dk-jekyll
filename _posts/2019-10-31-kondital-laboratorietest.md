@@ -21,11 +21,11 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
+  - test
   - konditionstest
   - laboratorietest
   - testcenter
   - direkte test
-  - test
   - populær
 last_modified_at: 2024-02-20T19:14:14Z
 feature_row_tests:

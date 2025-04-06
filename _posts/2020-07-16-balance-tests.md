@@ -10,8 +10,8 @@ header:
   teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 tags:
+  - test
   - balance
-  - tests
   - moc
 category:
   - Tests

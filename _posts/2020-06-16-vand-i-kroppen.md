@@ -11,8 +11,8 @@ header:
 category:
   - Fysiologi
 tags:
-  - fysiologi
   - beregner
+  - fysiologi
   - anatomi
   - viden om
 last_modified_at: 2020-06-11T08:14:14Z

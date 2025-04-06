@@ -18,11 +18,10 @@ meta:
   max: n/a
   direct: n/a
 tags:
-  - kost & ernæring
-  - makronæringsstof
-  - kost
   - beregner
   - værktøj
+  - kost & ernæring
+  - makronæringsstof
   - featured
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:

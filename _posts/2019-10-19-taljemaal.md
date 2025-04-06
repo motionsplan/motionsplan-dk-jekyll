@@ -11,8 +11,9 @@ header:
 category:
   - Tests
 tags:
-  - kropskomposition
+  - måling
   - test
+  - kropskomposition
   - tracking
   - featured
 popular: true

@@ -840,6 +840,17 @@ figure {
       width: 100%;
     }
   }
+  &.fifth.no-collapse {
+
+    >a,
+    >img {
+      width: calc(20% - 0.5em);
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
   &.sixth {
 
     >a,
@@ -866,7 +877,38 @@ figure {
       width: 100%;
     }
   }
+  &.seventh.no-collapse {
+
+    >a,
+    >img {
+      width: calc(14.2% - 0.5em);
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
 }
+
+//////
+
+.icon-overlay {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.icon-overlay i {
+  pointer-events: none;
+}
+
+
+/////
 
 .greedy-nav {
   height: $nav-height;

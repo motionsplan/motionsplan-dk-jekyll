@@ -11,9 +11,9 @@ header:
 category:
   - Styrketræning
 tags:
+  - værktøj
   - anatomi
   - styrketræning
-  - værktøj
   - featured
 last_modified_at: 2025-03-28T19:14:14Z
 feature_row_tests_loeb:

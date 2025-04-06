@@ -10,9 +10,9 @@ category:
   - Træning
   - Roning
 tags:
+  - test
   - sport
   - roning
-  - test
   - kondition
   - konditionstest
 meta:

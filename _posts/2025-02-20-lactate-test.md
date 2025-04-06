@@ -18,12 +18,12 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
+  - test
   - konditionstest
   - direkte test
   - maksimal test
   - submaksimal test
   - løbetest
-  - test
   - laboratorietest
   - testcenter
 last_modified_at: 2025-02-20T19:14:14Z

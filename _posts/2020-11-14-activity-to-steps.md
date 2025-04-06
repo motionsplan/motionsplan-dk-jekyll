@@ -11,9 +11,9 @@ header:
 category:
   - Beregnere
 tags:
+  - beregner
   - skridt
   - motion
-  - beregner
   - featured
 meta:
   name: Motionsomregner fra sport til sport

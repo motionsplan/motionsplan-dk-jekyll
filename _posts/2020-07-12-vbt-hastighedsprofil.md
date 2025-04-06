@@ -15,10 +15,10 @@ header:
 category:
   - Styrketræning
 tags:
+  - test
   - velocity based training
   - styrketræning
   - styrkeløft
-  - test
 meta:
   name: Hastighedsprofil ift. RPE med VBT
   measures: styrke og hastighed

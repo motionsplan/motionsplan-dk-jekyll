@@ -14,8 +14,8 @@ category:
   - Beregnere
   - Kropskomposition
 tags:
-  - vægt
   - beregner
+  - vægt
   - kropskomposition
   - featured
 meta:

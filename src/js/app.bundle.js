@@ -2233,6 +2233,43 @@ $(function() {
 
         $("[name='jackson_kondital']").val(kondital.toFixed(0));
     });
+
+    $("#calculator_energifordeling").submit(function(e) {
+      console.log("Calculate energifordeling");
+      e.preventDefault();
+
+      let kcal = Number($("[name='kcal']").val());
+      let weight = Number($("[name='weight']").val());
+      let protein_g = Number($("[name='protein_g']").val());
+      let cho_g = Number($("[name='cho_g']").val());
+
+      let protein_daily_g = protein_g * weight;
+      let protein_daily_kcal = 4 * protein_daily_g;
+      let protein_daily_kj = protein_daily_kcal * 4.186;
+      let protein_daily_e = protein_daily_kcal / kcal * 100;
+      let cho_daily_g = cho_g * weight;
+      let cho_daily_kcal = 4 * cho_daily_g;
+      let cho_daily_kj = cho_daily_kcal * 4.186;
+      let cho_daily_e = cho_daily_kcal / kcal * 100;
+      let fat_daily_kcal = kcal - cho_daily_kcal - protein_daily_kcal;
+      let fat_daily_kj = fat_daily_kcal * 4.186;
+      let fat_daily_g = fat_daily_kcal / 9;
+      let fat_daily_e = fat_daily_kcal / kcal * 100;
+
+      $("#protein_daily_g").text(protein_daily_g.toFixed(0));
+      $("#protein_daily_kcal").text(protein_daily_kcal.toFixed(0));
+      $("#protein_daily_kj").text(protein_daily_kj.toFixed(0));
+      $("#protein_daily_e").text(protein_daily_e.toFixed(0));
+      $("#cho_daily_g").text(cho_daily_g.toFixed(0));
+      $("#cho_daily_kcal").text(cho_daily_kcal.toFixed(0));
+      $("#cho_daily_kj").text(cho_daily_kj.toFixed(0));
+      $("#cho_daily_e").text(cho_daily_e.toFixed(0));
+      $("#fat_daily_g").text(fat_daily_g.toFixed(0));
+      $("#fat_daily_kcal").text(fat_daily_kcal.toFixed(0));
+      $("#fat_daily_kj").text(fat_daily_kj.toFixed(0));
+      $("#fat_daily_e").text(fat_daily_e.toFixed(0));
+    });
+    
     // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function(e) {
         console.log("Calculate Skinfold Durnin");
@@ -2614,6 +2651,21 @@ $(function() {
     $("#bmr-formula").change(function() {
         $("#bmr_legend").text($("#bmr-formula option:selected").text());
     });
+    
+    // Calculate pal
+    $("#calculator_pal").submit(function(e) {
+      console.log("Calculate PAL");
+      e.preventDefault();
+
+        let pal = Number($("[name='pal']:checked").val());
+        let moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
+        let strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
+
+        let pal_calc = pal + ((0.025 * moderate_leisure_activity + 0.05 * strenuous_leisure_activity) / 7);
+        
+      $("[name='pal_calc']").val(pal_calc.toFixed(2));
+
+  });
     // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_bmr_pal").submit(function(e) {
         console.log("Calculate BMR - 2012");
@@ -3174,6 +3226,40 @@ $(function() {
         $("#bmr_legend").text(b.getFormulaName());
 
     });
+    // Calculate BMR
+    $("#calculator_pal_met").submit(function(e) {
+      console.log("Calculate PAL - MET");
+      e.preventDefault();
+
+    let min_day = 24 * 60;
+    let activity_intense = Number(document.getElementById('activity_intense').value);
+    let activity_moderat = Number(document.getElementById('activity_moderat').value);
+    let activity_light = Number(document.getElementById('activity_light').value);
+    let activity_standing = Number(document.getElementById('activity_standing').value);
+    let activity_sleeping = Number(document.getElementById('activity_sleeping').value);
+
+    let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+
+      // Estimated MET-values used
+    let met_intense = Number(document.getElementById('activity_intense_met').value);
+    let met_moderat = Number(document.getElementById('activity_moderat_met').value);
+    let met_light = Number(document.getElementById('activity_light_met').value);
+    let met_standing = Number(document.getElementById('activity_standing_met').value);
+    let met_sleeping = Number(document.getElementById('activity_sleeping_met').value);
+    let met_sitting = Number(document.getElementById('activity_sitting_met').value);
+    
+      // My own PAL calculation - there is no weight factor
+    let pal_intense = (met_intense * (activity_intense / 1440));
+    let pal_moderat = (met_moderat * (activity_moderat / 1440));
+    let pal_light = (met_light * (activity_light / 1440));
+    let pal_standing = (met_standing * (activity_standing / 1440));
+    let pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
+    let pal_sitting = (met_sitting * (activity_sitting / 1440));
+
+    let pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+      $("[name='pal_from_met']").val(pal.toFixed(2));
+  });
+
     $("#calculator_riegels").submit(function(e) {
         console.log("Riegels formular");
         e.preventDefault();

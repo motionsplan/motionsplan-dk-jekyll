@@ -10,10 +10,10 @@ category:
   - Tests
   - Eksplosivitet
 tags:
+  - test
   - springtest
   - eksplosivitet
   - spring
-  - test
 meta:
   name: Dynamic Strength Index
   measures: springstyrke

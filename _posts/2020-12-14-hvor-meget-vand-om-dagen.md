@@ -13,9 +13,9 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - væske
-  - ernæring
   - beregner
+  - væske
+  - kost & ernæring
   - featured
 popular: true
 last_modified_at: 2022-12-02T10:14:14Z

@@ -14,12 +14,12 @@ category:
   - Beregnere
   - Kalorieberegnere
 tags:
+  - beregner
   - stofskifte
   - ligevægtsindtag
   - energiberegner
   - featured
   - stofskifteberegner
-  - beregner
 meta:
   name: Dagligt ligevægtsindtag
   equipment: ingen

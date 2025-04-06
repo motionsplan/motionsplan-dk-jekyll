@@ -15,8 +15,9 @@ category:
   - Fedtprocent
 breadcrumbs: true
 tags:
-  - fedtprocent
+  - måling
   - test
+  - fedtprocent
   - kropskomposition
   - metode
 meta:

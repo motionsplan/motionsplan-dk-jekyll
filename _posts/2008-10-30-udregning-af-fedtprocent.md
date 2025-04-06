@@ -14,9 +14,9 @@ category:
   - Tests
   - Fedtprocent
 tags:
+  - beregner
   - fedtprocent
   - kropskomposition
-  - beregner
   - metode
 meta:
   name: Beregn din fedtprocent fra alder, højde og vægt
@@ -62,21 +62,13 @@ Der findes også mere avancerede teknikker som skinfoldmålinger, bioimpedans og
 
 Men hvor vigtigt er det egentlig at kende din fedtprocent?
 
-Overvej, hvorfor du ønsker at beregne den. For mange er det en nysgerrighed, men i praksis er andre faktorer ofte mere relevante, især hvis du træner.
-
-**Styrke, hurtighed, udholdenhed og springhøjde er ofte bedre indikatorer for præstation og sundhed, end en tilfældig udregnet fedtprocent.**
+**I praksis er andre faktorer ofte mere relevante, hvis du går op i træning. Styrke, hurtighed, udholdenhed og springhøjde er alle indikatorer for præstation og sundhed, end en tilfældig udregnet fedtprocent.**
 
 *[BMI]: Body Mass Index
 
-## Beregn din fedtprocent: Udregning med alder, højde og vægt
+## Beregn din fedtprocent i vores beregner
 
-Mange forskere har lavet et bud på, hvordan man kan beregne sin fedtprocent på baggrund af køn, alder, højde og vægt. Man kan altså udregne sin fedtprocent for kvinder og mænd ved et par enkle indtastninger.
-
-Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle beregner.
-
-## Udregn din fedtprocent i vores beregner
-
-Beregn din fedtprocent i vores fedtprocent beregner.
+Få en hurtig beregning af din fedtprocent ud fra dine personlige data. Beregneren herunder bruger anerkendte formler baseret på alder, køn, vægt og højde.
 
 {% include calculator/calculate-fat-percent.html %}
 
@@ -84,7 +76,11 @@ Et eksempel:
 
 Hvis jeg bruger [danske mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) på 181 cm, en vægt på 81 kg og en alder på 46 år, så får jeg resultater i formularen på alt fra 19,5% - 24,7%. Så selvom beregneren er enkel, så kan fortolkningen af resultatet være lidt mere besværligt.
 
-## Beregn fedtprocent fra alder, højde, køn og vægt
+## Hvordan beregnes fedtprocenten?
+
+Er du nysgerrig på, hvordan resultaterne beregnes? Nedenfor kan du se, hvilke formler vi bruger, og hvordan de fungerer.
+
+Mange forskere har lavet et bud på, hvordan man kan beregne sin fedtprocent på baggrund af køn, alder, højde og vægt. Man kan altså udregne sin fedtprocent for kvinder og mænd ved et par enkle indtastninger.
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at få energi og at kunne holde varmen, og fedt er også en central del af mange processer og dannelsen af flere i kroppen.
 
@@ -108,7 +104,7 @@ Når du kigger formlerne igennem, så vil du se at alder er et vigtigt parameter
 
 Hvis vi kan etablere en fælles reference for, hvornår en fedtprocent kan opfattes som overvægtig, så ville vi i teorien kunne regne baglæns til forskellige aldersgrupper med, hvad BMI skulle være.
 
-## Formler brugt i vores fedtprocent beregner
+## Formler brugt i fedtprocent beregneren
 
 <details markdown="1" class="equation">
   <summary><h3 id="durnin-womersley-equation">Durnin & Womersley (1977)</h3></summary>
@@ -196,7 +192,7 @@ Der er udfordringer med alle måder at bestemme sin fedtprocent på. Udregningen
 
 Du skal altså ikke gå på en [tvivlsom slankekur](/slankekur/) på baggrund af disse beregninger.
 
-## Fedtprocent i forhold til Body Mass Index?
+## Fedtprocent i forhold til Body Mass Index
 
 Beregningen af din fedtprocent er indirekte og passer kun på gennemsnitlige folk, der deler din højde, vægt, alder og køn. Derfor skal du tage resultaterne i beregneren med forbehold, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt. Det er de samme udfordringer der findes med BMI.
 
@@ -221,7 +217,7 @@ Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtproc
 
 Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)).
 
-## Er kvinders fedtprocent større end mænds?
+## Er kvinders fedtprocent højere end mænds?
 
 Kvinders fedtprocent er højere end mænds for det samme BMI. Jackson et al (2002) viste, at kvindernes fedtprocent faktisk var 10,4% højere end mænds i gennemsnit. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
 
@@ -232,10 +228,6 @@ Mænds fedtprocent er lavere end kvindernes, fordi de relativt set har en størr
 Læs: [Hvad er en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/)
 {: .notice }
 
-## Ofte stillede spørgsmål om fedtprocent
-
-{% include motionsplan/faq.html %}
-
 ## Konklusion
 
 Her har du haft mulighed for at beregne din fedtprocent baseret på alder, køn og højde. Det siger sig selv, at du ikke ender med din faktiske fedtprocent med mindre, at du er helt usædvanlig gennemsnitlig ift. den gruppe forsøgsdeltagere formlerne er baseret på.
@@ -243,6 +235,10 @@ Her har du haft mulighed for at beregne din fedtprocent baseret på alder, køn 
 Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/maal-fedtprocent/) på.
 
 Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge det tal til.
+
+## Ofte stillede spørgsmål om fedtprocent
+
+{% include motionsplan/faq.html %}
 
 ## Læs mere om fedtprocent
 

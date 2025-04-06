@@ -1,6 +1,6 @@
 ---
 title: &title "Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag"
-seo_title: "Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag"
+seo_title: "Stofskifte og energibehov – Beregn BMR, TDEE og mere"
 description: "Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed."
 permalink: /stofskifte/
 language: da
@@ -50,7 +50,13 @@ keywords:
   - basalstofskifte udregning
   - basalstofskifte hvilestofskifte
   - udregning af basalstofskifte
+faq: 
+  - question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
+  - question: Hvad betyder det, hvis jeg har lavt stofskifte?
+  - question: Kan man øge sit stofskifte?
 ---
+
+Dit stofskifte – eller energiforbrug – handler om, hvor meget energi kroppen bruger i hvile og i aktivitet. Her får du et samlet overblik og adgang til beregnere og baggrundsviden.
 
 Forståelse af dit energibehov er essentielt, hvis du vil optimere din sundhed, ydeevne eller kropskomposition. Energibalance afgør, om du tager på, taber dig eller vedligeholder din nuværende vægt.
 
@@ -59,6 +65,39 @@ Forståelse af dit energibehov er essentielt, hvis du vil optimere din sundhed, 
 - **Kaloriebalance**: Du indtager og forbrænder det samme antal kalorier → stabil vægt.
 
 Vil du hurtigt beregne dit daglige energiforbrug? Gå direkte til vores [mest avancerede energibehovsberegner](/beregner/dagligt-stofskifte-og-forbraending/).
+
+***
+
+## ⚡ Beregn dit stofskifte og energiforbrug
+
+Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores online værktøjer. Vælg den beregner, der passer bedst til dit behov.
+
+| Beregning | Beskrivelse |
+|-|-|
+| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her]() | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
+| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her]() | Dit samlede energiforbrug inkl. fysisk aktivitet. |
+| 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag]() | Hvor mange kalorier du skal spise for at holde vægten stabil. |
+
+💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere længere nede.
+{: .notice .notice--info }
+
+***
+
+## 📚 Forstå begreberne bag
+
+Er du nysgerrig på, hvad de forskellige begreber betyder? Her får du en grundlæggende forklaring på de vigtigste elementer i stofskifte og energiforbrug:
+
+Hvad er hvilestofskifte og basalstofskifte?
+
+Sådan beregnes dit daglige energibehov (TDEE)
+
+Hvad er dit ligevægtsindtag, og hvordan finder du det?
+
+## 📊 Typiske spørgsmål
+
+{% include motionsplan/faq.html %}
+
+***
 
 ## 1. Basalstofskifte (BMR) – Din krops minimumsforbrug
 
@@ -130,6 +169,14 @@ For at forstå dit energibehov skal du kende disse begreber:
 - **Ligevægtsindtag**: Hvor meget du skal spise for at holde vægten stabil.
 
 Nu hvor du har forstået principperne, kan du gå videre og beregne dine egne tal for at optimere din sundhed og præstation.
+
+For at få det bedste ud af dit stofskifte og optimere dit energiforbrug, kan du bruge vores beregnere:
+
+- **Beregn dit hvilestofskifte (BMR)** for at finde ud af, hvor meget energi du forbrænder i hvile.
+- **Beregn dit daglige energiforbrug (TDEE)** for at få et klart billede af dit samlede energiforbrug.
+- **Find ud af dit ligevægtsindtag**, så du ved, hvor mange kalorier du skal spise for at opretholde din nuværende vægt.
+
+Uanset om du ønsker at tabe dig, tage på eller bare forstå din krop bedre, så kan du finde de rette værktøjer og ressourcer her.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

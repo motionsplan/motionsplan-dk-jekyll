@@ -12,10 +12,10 @@ category:
   - Løb
   - Gang
 tags:
+  - beregner
   - energiforbrug
   - løb
   - gang
-  - beregner
   - forbrænding
   - populær
 meta:

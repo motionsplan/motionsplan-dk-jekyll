@@ -9,6 +9,7 @@ category:
   - Styrketræning
 tags:
   - beregner
+  - styrketræning
 last_modified_at: 2022-01-27T22:21:26Z
 meta:
   name: Beregn vægt baseret på RPE

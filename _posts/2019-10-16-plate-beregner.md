@@ -12,9 +12,9 @@ category:
   - Styrketræning
   - Beregnere
 tags:
-  - styrketræning
-  - beregner
   - værktøj
+  - beregner
+  - styrketræning
 last_modified_at: 2025-04-02T23:14:14Z
 toc: false
 classes: wide

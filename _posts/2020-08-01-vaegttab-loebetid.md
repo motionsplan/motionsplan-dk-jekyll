@@ -10,8 +10,8 @@ header:
 category:
   - Løb
 tags:
-  - kondition
   - beregner
+  - kondition
   - vægttab
   - løb
 meta:

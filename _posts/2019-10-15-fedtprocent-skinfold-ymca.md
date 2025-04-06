@@ -9,6 +9,7 @@ category:
   - Tests
   - Fedtprocent
 tags:
+  - måling
   - fedtprocent
   - kropskomposition
   - skinfold

@@ -18,9 +18,9 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
+  - test
   - konditionstest
   - indirekte test
-  - test
   - liste
   - moc
   - featured
