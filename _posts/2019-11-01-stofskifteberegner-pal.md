@@ -16,6 +16,9 @@ tags:
   - beregner
   - stofskifte
   - stofskifteberegner
+  - kost & ernæring
+  - featured
+  - guide
 meta:
   name: PAL-beregner
   equipment: ingen

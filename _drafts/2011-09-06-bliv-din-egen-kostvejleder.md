@@ -4,9 +4,9 @@ permalink: /artikel/bliv-din-egen-kostvejleder/
 language: da
 header:
 tags:
-  - ernæring
+  - kost & ernæring
 category:
-  - Ernæring
+  - Kost & Ernæring
 last_modified_at: 2013-02-13T21:38:52Z
 ---
 

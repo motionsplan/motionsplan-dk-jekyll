@@ -134,7 +134,7 @@ Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fed
 
 Du kan også [udregne din fedtprocent](/artikel/udregning-af-fedtprocent/), og hvis du se normalværdier for fedtprocent, så kig i mit indlæg om [normal fedtprocent tabel](/fedtprocent-normer/).
 
-Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du skal opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
 ## Køb en fedttang til hudfoldsmåling

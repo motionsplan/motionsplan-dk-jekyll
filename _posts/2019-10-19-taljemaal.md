@@ -16,6 +16,7 @@ tags:
   - kropskomposition
   - tracking
   - featured
+  - antropometri
 popular: true
 last_modified_at: 2022-05-04T23:14:14Z
 toc: true
@@ -110,7 +111,7 @@ Et andet meget brugt mål er [talje/hofte-ratioen](/talje-hofte-ratio/), som jeg
 
 Forholdet mellem taljemålet og hoftemålet er en indikator på, om den enkelte har mest intraabdominalt fedt eller det er mere placeret på hofterne og lårene. Man kigger ofte på, om man er æble- eller pæreformet.
 
-{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" alt="Pæreformet og æbleformet" caption="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
+{% include figure image_path="/assets/images/blog/Body-shapes.jpg" alt="Pæreformet og æbleformet" caption="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen." %}
 
 Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer.
 
@@ -136,7 +137,7 @@ Hvis dit taljemål ligger uden for det anbefalede, så kan du med fordel tjekke 
 
 I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at [mavefedtet](/tab-fedt-paa-maven/) ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke din ratio mellem taljeomkredsen og hofteomkredsen en gang imellem.
 
-Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur](/slankekur/), fordi du skal opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
+Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
 <details markdown="1" class="references">

@@ -68,6 +68,14 @@ feature_row_biomekanik:
     url: "/doedloeft-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
+feature_row_rm_calculator:
+  - image_path: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "RM-beregner"
+    title: "RM-beregner"
+    excerpt: "RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse. Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter."
+    url: "/rm-beregner/"
+    btn_label: "Beregn din styrke"
+    btn_class: "btn--info"
 ---
 
 {{ page.excerpt }}
@@ -132,11 +140,12 @@ Se vores artikler om træningslære:
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
+[Alt om træningslære](/traeningslaere/){: .btn .btn--success .btn--center }
 </div>
 </details>
 
@@ -147,7 +156,7 @@ Konditionstræning har til formål at forbedre eller vedligeholde kroppens udhol
 
 Træningen sigter imod at forbedre kredsløbet (hjertets evne til at pumpe blod rundt i kroppen, og dermed levere ilt og næringsstoffer til de arbejdende muskler), og musklernes evne til at arbejde over længere tid.
 
-[Læs mere om konditionstræning og cardio](/kondition/){: .btn .btn--success }
+[Læs mere om konditionstræning og cardio](/kondition/){: .btn .btn--success .btn--center }
 </details>
 
 <details markdown="1" class="faq">
@@ -171,7 +180,7 @@ Læs vores artikler om programlægning:
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -213,7 +222,7 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -246,12 +255,16 @@ På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv so
 
 {% include feature_row id="feature_row_anatomi" type="left" %}
 
+## Lav en max-test i styrketræning
+
+{% include feature_row id="feature_row_rm_calculator" type="left" %}
+
 ## Quiz om fitnessinstruktør
 
 På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktoer/). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
 <details markdown="1" class="faq">
-  <summary>🤔 Prøv selv en quiz</summary>
+  <summary>🤔 Prøv selv en quiz - Sådan virker det</summary>
 De forskellige quiz om fitness er lavet på Quizizz.
 
 {% include figure image_path="/assets/images/quizizz.jpg" alt="quizizz screenshot" caption="Sådan kan du prøve quizzen om de forskellige emner i fitnessinstruktør." %}
@@ -260,12 +273,11 @@ De forskellige quiz om fitness er lavet på Quizizz.
 2. Vælg "Preview" hvis du vil øve selv, og "Live Game", hvis I vil spille mod hinanden.
 3. I vælger selv, om I vil have en Quizizz konto for at spille.
 4. Svar på spørgsmålene.
-
-[Anatomi](https://quizizz.com/admin/quiz/5856b0c7aef9e6020e94438c){: .btn .btn--large .btn--warning }
-[Fysiologi](https://quizizz.com/admin/quiz/5b995e2702a076001910328f){: .btn .btn--large .btn--success }
-[Træningslære](https://quizizz.com/admin/quiz/5dd7a9787ce184001b624109){: .btn .btn--large .btn--info }
-
 </details>
+
+[<i class="fas fa-bone"></i> Anatomi](https://quizizz.com/admin/quiz/5856b0c7aef9e6020e94438c){: .btn .btn--large .btn--warning }
+[<i class="fas fa-heart-pulse"></i> Fysiologi](https://quizizz.com/admin/quiz/5b995e2702a076001910328f){: .btn .btn--large .btn--success }
+[<i class="fas fa-dumbbell"></i> Træningslære](https://quizizz.com/admin/quiz/5dd7a9787ce184001b624109){: .btn .btn--large .btn--info }
 
 ## Anbefalelsesværdige bøger som fitnessinstruktør
 

@@ -2,6 +2,7 @@
 title: &title "Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag"
 seo_title: "Stofskifte og energibehov – Beregn BMR, TDEE og mere"
 description: "Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed."
+excerpt: "Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed."
 permalink: /stofskifte/
 language: da
 header:
@@ -16,7 +17,10 @@ meta:
   measures: dagligt energiforbrug
   type: energiforbrug
 tags:
+  - kost & ernæring
   - stofskifte
+  - guide
+  - featured
 last_modified_at: 2025-03-06T23:14:14Z
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg

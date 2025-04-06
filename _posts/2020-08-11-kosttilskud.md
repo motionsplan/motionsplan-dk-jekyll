@@ -12,8 +12,7 @@ category:
   - Kost & Ernæring
   - Kosttilskud
 tags:
-  - kost
-  - ernæring
+  - kost & ernæring
   - kosttilskud
   - populær
 ---

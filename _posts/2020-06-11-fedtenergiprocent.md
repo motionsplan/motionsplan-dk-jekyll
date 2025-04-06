@@ -1,6 +1,8 @@
 ---
 title: &title "Forskel på fedtenergiprocent og fedtprocent i mad (Beregner)"
 permalink: /fedtenergiprocent/
+excerpt: "Beregn fedtenergiprocent og se, hvor stor del af dine kalorier der kommer fra fedt. Nem udregning for kostplan og ernæringsanalyse."
+description: "Beregn fedtenergiprocent og se, hvor stor del af dine kalorier der kommer fra fedt. Nem udregning for kostplan og ernæringsanalyse."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -14,6 +16,8 @@ tags:
   - beregner
   - kost & ernæring
   - kalorieberegner
+  - guide
+  - featured
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 meta:

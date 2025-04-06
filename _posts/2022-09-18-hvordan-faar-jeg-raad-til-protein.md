@@ -11,7 +11,7 @@ category:
   - Kost & Ernæring
   - Kosttilskud
 tags:
-  - kost
+  - kost & ernæring
   - protein
   - kosttilskud
 last_modified_at: 2022-10-06T23:14:14Z

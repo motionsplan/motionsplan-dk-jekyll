@@ -5,11 +5,10 @@ language: da
 header:
 tags:
   - webclips
-  - kost
-  - ernæring
+  - kost & ernæring
   - superfoods
 category:
-  - Ernæring
+  - Kost & Ernæring
 last_modified_at: 2013-02-13T22:11:54Z
 ---
 

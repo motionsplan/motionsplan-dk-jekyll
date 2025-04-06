@@ -4,7 +4,7 @@ permalink: /artikel/low-hanging-food/
 language: da
 tags:
 category:
-  - Ernæring
+  - Kost & Ernæring
 last_modified_at: 2015-03-12T23:06:06Z
 ---
 

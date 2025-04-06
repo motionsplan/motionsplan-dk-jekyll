@@ -7,11 +7,11 @@ header:
   teaser: /assets/images/blog/hvad-skal-der-til-tabe-sig.jpg
 tags:
   - webclips
-  - kost
+  - kost & ernæring
   - vægttab
   - motion
 category:
-  - Ernæring
+  - Kost & Ernæring
   - Webclips
 last_modified_at: 2013-02-13T22:07:56Z
 ---

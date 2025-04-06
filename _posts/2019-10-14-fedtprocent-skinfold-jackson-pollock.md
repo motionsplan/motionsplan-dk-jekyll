@@ -79,7 +79,7 @@ Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen.
 
 Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang](/skinfold/). Når du har bestemt fedtprocenten, så vil du måske tjekke, hvad en [normal fedtprocent er for mænd og kvinder](/fedtprocent-normer/)?
 
-Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du skal opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.
 {: .notice .notice--info }
 
 ## Alternativer til Jackson & Pollocks formel

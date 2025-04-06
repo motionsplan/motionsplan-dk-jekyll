@@ -9,7 +9,7 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kost
+  - kost & ernæring
   - opskrift
 last_modified_at: 2020-01-23T08:14:14Z
 toc: true

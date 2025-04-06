@@ -14,6 +14,7 @@ category:
   - Fedtprocent
 tags:
   - fedtprocent
+  - featured
 last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 ---

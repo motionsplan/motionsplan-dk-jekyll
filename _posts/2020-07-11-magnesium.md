@@ -15,8 +15,7 @@ category:
 tags:
   - kosttilskud
   - mineral
-  - kost
-  - ernæring
+  - kost & ernæring
   - søvn
 last_modified_at: 2023-01-01T07:33:14Z
 feature_row:

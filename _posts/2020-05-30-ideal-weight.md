@@ -17,6 +17,7 @@ tags:
   - beregner
   - vægt
   - kropskomposition
+  - antropometri
   - featured
 meta:
   name: Idealvægt for mænd og kvinder

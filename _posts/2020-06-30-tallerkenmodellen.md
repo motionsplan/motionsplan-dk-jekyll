@@ -10,8 +10,7 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kost
-  - ernæring
+  - kost & ernæring
   - populær
 last_modified_at: 2022-08-11T08:14:14Z
 toc: true

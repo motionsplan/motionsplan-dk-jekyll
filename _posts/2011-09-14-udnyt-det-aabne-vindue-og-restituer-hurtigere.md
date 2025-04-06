@@ -16,7 +16,7 @@ category:
   - Restitution
 tags:
   - træning
-  - ernæring
+  - kost & ernæring
   - restitution
   - anbefalet
 last_modified_at: 2023-01-01T10:34:52Z

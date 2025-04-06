@@ -4,10 +4,9 @@ permalink: /artikel/den-perfekte-shake/
 language: da
 header:
 tags:
-  - kost
-  - ernæring
+  - kost & ernæring
 category:
-  - Ernæring
+  - Kost & Ernæring
 last_modified_at: 2013-02-13T22:08:10Z
 feature_row:
   - image_path: https://www.elgiganten.dk/image/dv_web_D18000100225744/5KSB8270EBK/kitchenaid-artisan-power-plus-blender-5ksb8270ebk-taenk-testvinder.jpg?$prod_all4one$

@@ -12,7 +12,6 @@ category:
   - Kost & Ernæring
 tags:
   - kost & ernæring
-  - kost
   - vægttab
 last_modified_at: 2025-02-20T19:14:14Z
 feature_row_tests_loeb:

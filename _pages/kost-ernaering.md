@@ -23,28 +23,14 @@ Vi dækker emner som makronæringsstoffer, tallerkenmodeller og kosttilskud, så
 
 Udforsk vores artikler og interaktive værktøjer for at få praktiske råd og inspiration til en sund livsstil. Vi er dedikerede til at levere opdateret og pålidelig information, der kan guide dig mod bedre sundhed og velvære.
 
-## Kost & Ernæring
+## Guides til Kost & Ernæring
 
-{% assign site_posts = site.posts | where: "tags", "kost" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Opskrifter
-
-{% assign site_posts = site.posts | where: "tags", "opskrift" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "kost & ernæring" | where: "tags", "featured" | where: "tags", "guide" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -73,9 +59,23 @@ Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-
 
 Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/), [taljemål](/taljemaal/) og [talje-hofte-forhold](/talje-hofte-ratio/).
 
+{% assign site_posts = site.posts | where: "tags", "kropskomposition" | where: "tags", "måling" | where: "tags", "antropometri" | sort: "date" %}
+
+<div class="feature__wrapper" markdown="1">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Alt om BMI](/bmi/){: .btn .btn--success .btn--center }
+
+</div>
+
 ## Beregnere til kropssammensætning og fedtprocent
 
-Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er mange måder at finde sin kropskomposition på.
+Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men der er også andre måder at finde din kropskomposition på. Tjek dem her:
 
 {% assign site_posts = site.posts | where: "tags", "kropskomposition" | where: "tags", "metode" | sort: "date" %}
 
@@ -133,6 +133,20 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 </div>
 
+## Opskrifter
+
+{% assign site_posts = site.posts | where: "tags", "opskrift" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Vægt & vægttab
 
 Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der findes en kæmpestor forretning af vægttabseksperter og kosttilskud til vægttab. Der bliver brugt før og efter-billeder af en afklædt krop for at vise, hvor effektive resultater, man kan få. Jeg har skrevet lidt om en [anden tilgang til vægttab]({% link _posts/2021-07-31-vaegttab.md %}).
@@ -182,20 +196,16 @@ Det er godt at kende mere til [kroppens fysiologi](/fysiologi/), når man gerne 
 [Se alt om fysiologi](/fysiologi/){: .btn .btn--success .btn--center }
 </div>
 
-## Anatomi
+## Læs mere om Kost & Ernæring
 
-Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/) og [guide til bevægelsesanalyse](/bevaegelsesanalyse/).
+{% assign site_posts = site.posts | where: "category", "Kost & Ernæring" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-{% assign site_posts = site.posts | where: "tags", "anatomi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
-
-<div class="feature__wrapper" markdown="1">
+<div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
-
-[Se alt om anatomi](/anatomi/){: .btn .btn--success .btn--center }
 
 </div>

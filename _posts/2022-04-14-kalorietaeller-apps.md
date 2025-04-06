@@ -7,7 +7,7 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kost
+  - kost & ernæring
   - kalorier
   - apps
 last_modified_at: 2022-04-12T22:21:26Z

@@ -10,7 +10,7 @@ header:
 category:
   - Kost & Ernæring
 tags:
-  - kost
+  - kost & ernæring
   - protein
 last_modified_at: 2022-09-13T23:14:14Z
 toc: true

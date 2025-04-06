@@ -11,8 +11,9 @@ header:
 category:
   - Beregnere
 tags:
-  - kropskomposition
   - beregner
+  - måling
+  - kropskomposition
   - fitnesstest
   - antropometri
   - featured
