@@ -406,6 +406,16 @@ $(function() {
             $(this).find('td').eq(2).html(km.toFixed(2));
         });
     });
+    $("#calculator_pal_met").ready(function() {
+      $("#gerrior_2006").hide();
+  });
+  $("#calculator_pal_met").change(function() {
+      if ($("#pal-formula").val() == 'gerrior_2006') {
+          $("#gerrior_2006").show();
+      } else {
+          $("#gerrior_2006").hide();
+      }
+  });
     // 1RM calculate
     $("#form-formula").ready(function() {
         $(".reynolds").hide();
@@ -3226,10 +3236,12 @@ $(function() {
         $("#bmr_legend").text(b.getFormulaName());
 
     });
-    // Calculate BMR
-    $("#calculator_pal_met").submit(function(e) {
-      console.log("Calculate PAL - MET");
-      e.preventDefault();
+  // Calculate BMR
+  $("#calculator_pal_met").submit(function (e) {
+    console.log("Calculate PAL - MET");
+    e.preventDefault();
+
+    let formula = $("[name='pal-formula']").val();
 
     let min_day = 24 * 60;
     let activity_intense = Number(document.getElementById('activity_intense').value);
@@ -3240,24 +3252,51 @@ $(function() {
 
     let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
 
-      // Estimated MET-values used
+    // Estimated MET-values used
     let met_intense = Number(document.getElementById('activity_intense_met').value);
     let met_moderat = Number(document.getElementById('activity_moderat_met').value);
     let met_light = Number(document.getElementById('activity_light_met').value);
     let met_standing = Number(document.getElementById('activity_standing_met').value);
     let met_sleeping = Number(document.getElementById('activity_sleeping_met').value);
     let met_sitting = Number(document.getElementById('activity_sitting_met').value);
-    
-      // My own PAL calculation - there is no weight factor
-    let pal_intense = (met_intense * (activity_intense / 1440));
-    let pal_moderat = (met_moderat * (activity_moderat / 1440));
-    let pal_light = (met_light * (activity_light / 1440));
-    let pal_standing = (met_standing * (activity_standing / 1440));
-    let pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
-    let pal_sitting = (met_sitting * (activity_sitting / 1440));
+    let pal;
+    if (formula == "gerrior_2006") {
 
-    let pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
-      $("[name='pal_from_met']").val(pal.toFixed(2));
+      let gender = $("[name='sex']:checked").val();
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
+      let height = Number($("[name='height']").val());
+
+      let b;
+
+      // Using recommended formula for the BMR
+      b = bmr_bmr.BMR(gender, age, weight, height, "recommended_formula");
+      let basicMeta = b.getBasicMetabolicRate();
+
+      // Calculate PAL from Gerrior with weight factor
+      let pg = gerrior_pal.BMRGerriorPAL(gender, weight);
+      let bmr_kcal = basicMeta / 4.186; // BMR is in kcal in formula
+      pg.setIntense(activity_intense, met_intense);
+      pg.setModerat(activity_moderat, met_moderat);
+      pg.setLight(activity_light, met_light);
+      pg.setStanding(activity_standing, met_standing);
+      pg.setSleeping(activity_sleeping, met_sleeping);
+      pg.setSitting(activity_sitting, met_sitting);
+      pal = pg.getPAL(bmr_kcal);
+    } else {
+
+      // My own PAL calculation - there is no weight factor
+      let pal_intense = (met_intense * (activity_intense / 1440));
+      let pal_moderat = (met_moderat * (activity_moderat / 1440));
+      let pal_light = (met_light * (activity_light / 1440));
+      let pal_standing = (met_standing * (activity_standing / 1440));
+      let pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
+      let pal_sitting = (met_sitting * (activity_sitting / 1440));
+
+      pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+
+    }
+    $("[name='pal_from_met']").val(pal.toFixed(2));
   });
 
     $("#calculator_riegels").submit(function(e) {

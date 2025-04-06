@@ -51,9 +51,12 @@ keywords:
   - basalstofskifte hvilestofskifte
   - udregning af basalstofskifte
 faq: 
-  - question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
-  - question: Hvad betyder det, hvis jeg har lavt stofskifte?
-  - question: Kan man øge sit stofskifte?
+- question: "Hvad er forskellen på hvilestofskifte og basalstofskifte?"
+  answer: "Hvilestofskifte (BMR) og basalstofskifte refererer ofte til den samme ting, nemlig den energi, kroppen bruger i hvile. BMR måler dette på et minimumsniveau, mens basalstofskifte kan være en mere generel term. Begge begreber bruges til at forstå kroppens grundlæggende energiforbrug."
+- question: "Hvad betyder det, hvis jeg har lavt stofskifte?"
+  answer: "Lavt stofskifte betyder, at kroppen forbrænder energi langsommere, hvilket kan føre til vægtøgning, træthed, og lavt energiniveau. Det kan skyldes hormonelle ubalancer som ved hypothyroidisme."
+- question: "Kan man øge sit stofskifte?"
+  answer: "Ja, fysisk aktivitet, især styrketræning og intensiv cardio, kan øge stofskiftet. Desuden kan en proteinrig kost, regelmæssige måltider og tilstrækkelig søvn også hjælpe med at booste stofskiftet."
 ---
 
 Dit stofskifte – eller energiforbrug – handler om, hvor meget energi kroppen bruger i hvile og i aktivitet. Her får du et samlet overblik og adgang til beregnere og baggrundsviden.
@@ -64,7 +67,7 @@ Forståelse af dit energibehov er essentielt, hvis du vil optimere din sundhed, 
 - **Kalorieunderskud**: Du forbrænder flere kalorier, end du indtager → vægttab.
 - **Kaloriebalance**: Du indtager og forbrænder det samme antal kalorier → stabil vægt.
 
-Vil du hurtigt beregne dit daglige energiforbrug? Gå direkte til vores [mest avancerede energibehovsberegner](/beregner/dagligt-stofskifte-og-forbraending/).
+**Vil du hurtigt beregne dit daglige energiforbrug?** Gå direkte til vores [mest avancerede energibehovsberegner](/beregner/dagligt-stofskifte-og-forbraending/).
 
 ***
 
@@ -74,9 +77,9 @@ Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores on
 
 | Beregning | Beskrivelse |
 |-|-|
-| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her]() | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
-| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her]() | Dit samlede energiforbrug inkl. fysisk aktivitet. |
-| 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag]() | Hvor mange kalorier du skal spise for at holde vægten stabil. |
+| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner-hvilestofskifte-basalstofskifte/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
+| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her](/beregner/dagligt-stofskifte-og-forbraending/) | Dit samlede energiforbrug inkl. fysisk aktivitet. |
+| 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Hvor mange kalorier du skal spise for at holde vægten stabil. |
 
 💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere længere nede.
 {: .notice .notice--info }
@@ -87,11 +90,9 @@ Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores on
 
 Er du nysgerrig på, hvad de forskellige begreber betyder? Her får du en grundlæggende forklaring på de vigtigste elementer i stofskifte og energiforbrug:
 
-Hvad er hvilestofskifte og basalstofskifte?
-
-Sådan beregnes dit daglige energibehov (TDEE)
-
-Hvad er dit ligevægtsindtag, og hvordan finder du det?
+- [Hvad er hvilestofskifte og basalstofskifte?](/bmr-beregner-hvilestofskifte-basalstofskifte/)
+- [Sådan beregnes dit daglige energibehov (TDEE)](/hvordan-beregne-dagligt-energibehov/)
+- [Hvad er dit ligevægtsindtag, og hvordan finder du det?](/ligevaegtsindtag-beregner/)
 
 ## 📊 Typiske spørgsmål
 
@@ -151,6 +152,8 @@ Hvordan bruger du ligevægtsindtaget?
 
 🔗 [Find dit ligevægtsindtag](/ligevaegtsindtag-beregner/)
 
+***
+
 ## Sammenhængen mellem begreberne
 
 {% include figure image_path="https://www.mdpi.com/jcm/jcm-13-05862/article_deploy/html/images/jcm-13-05862-g001.png" caption="Kilde: [mdpi.com](https://www.mdpi.com/2077-0383/13/19/5862)" %}
@@ -158,6 +161,8 @@ Hvordan bruger du ligevægtsindtaget?
 {% include figure image_path="https://athleatsnutrition.com/wp-content/uploads/2020/10/pasted-image-0.png" caption="Kilde: [https://athleatsnutrition.com](https://athleatsnutrition.com/neat-way-to-increase-metabolism/)" %}
 
 {% include figure image_path="https://scontent-cph2-1.xx.fbcdn.net/v/t1.6435-9/96585161_111160733925456_1101710019671359488_n.png?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mu3P-Pnt94kQ7kNvgEKrbzY&_nc_oc=AdnuWu9QV5H__wYdU2e6pbUAGsWMTiUR-qB0w4TfUT0Onc6V4rwOFlnel4v4jBL1bnY&_nc_zt=23&_nc_ht=scontent-cph2-1.xx&_nc_gid=86zqFTXtMCQeFH7oHOrDSw&oh=00_AYE5TjoimLpGNfoG8UHSkXIWs5hVNR3MlYJOuIc8Jufe6A&oe=6807336E" %}
+
+***
 
 ## Afslutning og opsummering
 

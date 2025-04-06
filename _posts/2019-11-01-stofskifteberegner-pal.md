@@ -48,7 +48,7 @@ Vælg den hurtige, hvis du bare vil have et estimat – vælg MET-beregning, hvi
 
 ## Hvad er Physical Activity Level?
 
-Dit fysiske aktivitetsniveau (PAL) er en af de tre hovedkomponenter i stofskiftet ud over hvilestofskiftet (BMR), fødeinduceret termogenese (FIT). Du kan læse en lidt mere [uddybende forklaring af stofskiftet her](/stofskiftet/).
+Dit fysiske aktivitetsniveau (PAL) er en af de tre [hovedkomponenter i stofskiftet](/stofskifte/) ud over hvilestofskiftet (BMR), fødeinduceret termogenese (FIT).
 
 PAL er et mål for den fysiske aktivitetsniveau, der bruges til at estimere, hvor meget energi en person forbrænder i løbet af en dag.
 
@@ -162,7 +162,7 @@ Når du forstår PAL, får du en præcis metode til at skræddersy din ernæring
 
 Brug MET-beregning hvis du arbejder med sportsfolk eller vil være præcis – ellers er tabelmetoden ofte nok til hverdagsbrug.
 
-Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
+Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

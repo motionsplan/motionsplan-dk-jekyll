@@ -1,6 +1,37 @@
 <form class="calculator full" id="calculator_pal_met">
     <fieldset>
         <legend>Avanceret udregning PAL fra MET</legend>
+        <div class="form-group">
+            <label>Formel for udregning af PAL
+            <select name="pal-formula" id="pal-formula">
+                <option value="simple_formula">Simpel formel</option>
+                <option value="gerrior_2006">Gerrior (2006)</option>
+            </select>
+            </label>
+        </div>
+        <fieldset id="gerrior_2006">
+            <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input type="radio" name="sex" value="male" checked="checked"> Mand
+            </label>
+    		<label class="radio">
+    		    <input type="radio" name="sex" value="female"> Kvinde
+    		</label>
+        </fieldset>
+        <div class="form-group">
+            <label for="age">Alder (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age">
+        </div>
+        <div class="form-group">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="height">Højde (cm)</label>
+            <input type="number" min="10" max="240" placeholder="fx 170" name="height" id="height" step="0.1">
+        </div>
+</fieldset>
         <fieldset>
             <legend>Angiv dit daglige fysiske aktivitetsniveau (minutter)</legend>
     <table>
