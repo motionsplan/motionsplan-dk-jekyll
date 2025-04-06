@@ -11,6 +11,7 @@ header:
   caption: *title
 category:
   - Kost & Ernæring
+  - Kalorieberegnere
 tags:
   - stofskifte
 last_modified_at: 2025-03-06T23:14:14Z
@@ -37,9 +38,9 @@ faq:
   - question: Kan man øge sit stofskifte?
 ---
 
-At kende dit daglige energibehov er grundlaget for at kunne tilpasse din kost og træning efter dine mål. Uanset om du ønsker at tabe dig, tage på eller vedligeholde vægten, giver en præcis beregning af dit **stofskifte** og **energibehov** dig værdifuld viden.
+At kende dit daglige energibehov er grundlaget for at kunne tilpasse din kost og træning efter dine mål. Uanset om du ønsker at tabe dig, tage på eller vedligeholde vægten, giver en præcis beregning af dit **daglige stofskifte** og **energibehov** dig værdifuld viden.
 
-I denne guide vil vi hjælpe dig med at beregne dit hvilestofskifte (BMR), aktivitetsniveau og total energiudgift (TDEE) for at få et klart billede af dine behov. 💪
+I denne guide vil vi hjælpe dig med at beregne dit hvilestofskifte (BMR), aktivitetsniveau og total energibehov (TDEE) for at få et klart billede af din daglige forbrænding. 💪
 
 Lad os komme i gang! 🚀
 

@@ -45,7 +45,7 @@ Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den en
 
 Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. PAL afhænger af den samlede fysiske aktivitet gennem hele dagen - både træning, men også mindre bevægelser. Energiforbruget brugt på fysisk aktivitet afhænger af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
 
-Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/). Endelig har jeg lavet en [beregner af ligevægtsindtaget](/ligevaegtsindtag-beregner/).
+Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_](/beregner/dagligt-energiforbrug-energibehov/). Jeg har også lavet en [præcis beregner af dit daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist. Endelig har jeg lavet en [beregner af ligevægtsindtaget](/ligevaegtsindtag-beregner/).
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
@@ -59,7 +59,7 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
+Tjek den [avancerede beregner af dit daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 
@@ -143,7 +143,7 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

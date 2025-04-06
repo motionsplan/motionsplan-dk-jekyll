@@ -115,7 +115,7 @@ Når du har udregnet alle dine aktiviteter på en dag på den måde, så kan du 
 
 **PAL = TEE/BMR**
 
-Du kan derefter gange din [PAL med din BMR for at få dit faktiske energibehov](/beregner/dagligt-stofskifte-og-forbraending/).
+Du kan derefter gange din [PAL med din BMR for at få dit faktiske energibehov](/beregner/dagligt-energiforbrug-energibehov/).
 
 ***
 
@@ -162,7 +162,7 @@ Når du forstår PAL, får du en præcis metode til at skræddersy din ernæring
 
 Brug MET-beregning hvis du arbejder med sportsfolk eller vil være præcis – ellers er tabelmetoden ofte nok til hverdagsbrug.
 
-Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
+Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

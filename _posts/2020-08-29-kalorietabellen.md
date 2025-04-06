@@ -39,7 +39,7 @@ Kalorietabellen indeholder de mest gængse fødevarer i Danmark. I tabellen kan 
 
 Jeg har også lavet kalorietabeller delt op i forskellige kategorier. Du kan se en [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}), [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}), [kalorietabel med grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) og [kalorier i alkohol]({% link _posts/2020-08-29-kalorietabel-alkohol.md %}).
 
-Jeg har skrevet lidt om, [hvad kalorier er](/hvad-er-kalorier/)? Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet, som jeg har lavet en beregner til]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en oversigt over [MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+Jeg har skrevet lidt om, [hvad kalorier er](/hvad-er-kalorier/)? Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet, som jeg har lavet en beregner til](/bmr-beregner-hvilestofskifte-basalstofskifte/). Jeg har også lavet en oversigt over [MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
 
 ## Kilder til kalorietabellen
 

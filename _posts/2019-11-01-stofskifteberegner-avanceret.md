@@ -1,7 +1,11 @@
 ---
-title: &title "Beregn dit daglige stofskifte og forbrænding? 🔥"
+title: &title "Beregn dit energiforbrug præcist med nøjagtig TEE-beregner"
+seo_title: "Nøjagtig TEE-beregner – Præcise beregninger af dagligt energiforbrug"
+excerpt: "Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist mål for din samlede daglige forbrænding."
+description: "Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist mål for din samlede daglige forbrænding."
 permalink: /beregner/dagligt-stofskifte-og-forbraending/
-redirect_from: /avanceret-stofskifteberegner/
+redirect_from:
+  - /avanceret-stofskifteberegner/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -15,13 +19,12 @@ tags:
   - stofskifte
   - stofskifteberegner
 meta:
-  name: Daglig forbrænding og stofskifte
+  name: TEE-beregner med tidsregistrering
   equipment: ingen
   measures: dagligt energiforbrug
   type: energiforbrug
 last_modified_at: 2025-03-06T23:14:14Z
 toc: true
-excerpt: "I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov."
 feature_row:
   - image_path: /assets/images/pal-schedule.png
     url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
@@ -32,9 +35,11 @@ feature_row:
     rel: nofollow noopener
 ---
 
-I denne avancerede energiberegner kan du udregne dit daglige stofskifte og forbrænding. Energiforbruget baseres på dit basalstofskifte (BMR) og dit faktiske fysiske aktivitetsniveau, så du så præcist som muligt finder dit daglige energibehov.
+Denne beregner tager højde for detaljerede faktorer som fysisk aktivitet og stofskifte, hvilket gør den ideel for dem, der ønsker den mest nøjagtige vurdering af deres kaloribehov.
 
-**Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
+Brug denne beregner til at få en dybdegående forståelse af dit energiforbrug og optimere din træning og kost.
+
+**Interesseret i en hurtigere og mere simpel beregning?** Brug [grundlæggende TEE-beregner baseret på PAL-tabellen](/beregner/dagligt-energiforbrug-energibehov/).
 
 ## Beregn dit daglige stofskifte, energiforbrug og forbrænding
 
@@ -54,9 +59,9 @@ Der findes en lang række forskellige formler for hvilestofskiftet, basalstofski
 
 Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
-Du kan læse mere om de forskellige [formler til hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}), og den teoretiske baggrund for at vælge en bestemt formel.
+Du kan læse mere om de forskellige [formler til hvilestofskifte og basalstofskifte](/hvilestofskiftet-formler/), og den teoretiske baggrund for at vælge en bestemt formel.
 
-### Udregning af fysisk aktivitetsniveau
+## Udregning af fysisk aktivitetsniveau
 
 Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrior et al (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/). I artiklen viser Gerrior et al (2006), hvordan man udregner energibehovet med et regneark. Jeg har taget udgangspunkt i dette for at bruge estimerede MET-værdier for aktivitetsniveauet til at udregne PAL.
 
@@ -87,7 +92,7 @@ Hvis du vælger Gerrior et al (2006), så bruger vi deres særlige formel til at
 
 Denne beregner er delvist baseret på Morten Zachos [energiforbrugberegner](https://health-calc.com/diet/energy-expenditure-advanced).
 
-Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %})_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
+Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996](/bmr-beregner-hvilestofskifte-basalstofskifte/)_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
 
 Målet for beregneren af energiforbrug er, at den er pålidelig både for børn, normalvægtige voksne og overvægtige voksne.
 
@@ -133,7 +138,13 @@ Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktivi
 
 ## Udregn stofskifte og forbrænding med andre beregnere
 
-Jeg har lavet en [simpel beregner til hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og en [beregner af dit stofskifte, energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) med en lidt mere generel angivelse af dit daglige fysiske aktivitetsniveau. Endelig kan du tjekke vores [beregner til udregning af ligevægtsindtaget](/ligevaegtsindtag-beregner/).
+Jeg har lavet en [simpel beregner til hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) og en [beregner af dit stofskifte, energiforbrug og energibehov](/beregner/dagligt-energiforbrug-energibehov/) med en lidt mere generel angivelse af dit daglige fysiske aktivitetsniveau. Endelig kan du tjekke vores [beregner til udregning af ligevægtsindtaget](/ligevaegtsindtag-beregner/).
+
+## Konklusion
+
+**Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
+
+I denne præcise beregner har du mulighed for at udregne mere præcist, hvad dit fysiske aktivitetsniveau betyder for dit samlede energiforbrug på en dag.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -60,7 +60,7 @@ Særligt atletiske personer, som alt andet lige har en højere fedtfri masse, ka
 
 Særligt er Cunninghams formel til hvilestofskifte populær. 
 
-Hvis du ikke kender din fedtprocent eller fedtfrie masse, så kan du tjekke vores andre [energiberegnere til stofskifte](/stofskifte/). Fx kan du [udregne dit daglige energibehov baseret på vægt og højde]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller se vores [avancerede beregner med et præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/).
+Hvis du ikke kender din fedtprocent eller fedtfrie masse, så kan du tjekke vores andre [energiberegnere til stofskifte](/stofskifte/). Fx kan du [udregne dit daglige energibehov baseret på vægt og højde](/beregner/dagligt-energiforbrug-energibehov/) eller se vores [avancerede beregner med et præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/).
 
 Du kan også læse om, hvordan du [udregner dit ligevægtsindtag præcist](/ligevaegtsindtag-beregner/).
 

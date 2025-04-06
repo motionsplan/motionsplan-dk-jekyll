@@ -55,7 +55,7 @@ Ligevægtsindtag er, når du indtager lige så meget energi gennem kosten, som d
 
 Hvis du gerne vil finde dit ligevægtsindtag, så er der forskellige måder at gøre det på. Da de færreste har adgang til et laboratorium, så estimerer man ofte sit ligevægtsindtag med forskellige udregninger. Der findes mange forskellige måder at udregne ligevægtsindtaget på.
 
-Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har skrevet et andet indlæg om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og et indlæg om hvordan du [udregner dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) med en mere nøjagtig angivelse af aktivitetsniveauet.
+Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og energibehov](/beregner/dagligt-energiforbrug-energibehov/). Jeg har skrevet et andet indlæg om [hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) og et indlæg om hvordan du [udregner dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) med en mere nøjagtig angivelse af aktivitetsniveauet.
 
 ## Ligevægtsberegner: Beregn dit ligevægtsindtag
 
@@ -79,7 +79,7 @@ Der findes en lang række forskellige formler for hvilestofskiftet, basalstofski
 
  Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
-Du kan læse mere om den [teoretiske baggrund for beregning af hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
+Du kan læse mere om den [teoretiske baggrund for beregning af hvilestofskifte og basalstofskifte](/bmr-beregner-hvilestofskifte-basalstofskifte/).
 
 ## Hvad kan jeg bruge ligevægtsindtaget til?
 
@@ -127,7 +127,7 @@ Nu kender du dit omtrentlige ligevægtsindtag. Som du kan se så er den største
 
 ## Andre beregnere til ligevægtsindtag
 
-Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan du besøge vores BMR-beregner]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Hvis du vil læse mere om udregning af [samlet dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller besøge en [avanceret beregner med en mere præcis aktivitetsregistrering](/beregner/dagligt-stofskifte-og-forbraending/).
+Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan du besøge vores BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/). Hvis du vil læse mere om udregning af [samlet dagligt energiforbrug og energibehov](/beregner/dagligt-energiforbrug-energibehov/) eller besøge en [avanceret beregner med en mere præcis aktivitetsregistrering](/beregner/dagligt-stofskifte-og-forbraending/).
 
 ## Ofte stillede spørgsmål om ligevægtsberegnere
 

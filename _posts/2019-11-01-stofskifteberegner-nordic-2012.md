@@ -16,7 +16,7 @@ tags:
   - stofskifte
   - stofskifteberegner
 meta:
-  name: BMR-beregner
+  name: TEE-beregner med PAL-tabel
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
@@ -45,6 +45,8 @@ Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinducere
 
 Denne beregner af dit daglige energiforbrug og energibehov kan du vælge mellem forskellige beregninger af hvilestofskiftet. Derefter ganger vi hvilestofskiftet med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL.
 
+**For en mere præcis, men også mere tidskrævende beregning** tjek [avanceret og præcis TEE-beregner](/beregner/dagligt-stofskifte-og-forbraending/).
+
 ## Beregn energiforbrug
 
 Med denne beregner kan du udregne dit samlede daglige energibehov. Resultatet fra beregneren giver dig et gennemsnit for, hvor meget energi en person med dit køn, din alder, din vægt og din højde bruger på en dag med dit angivne aktivitetsniveau.
@@ -63,7 +65,7 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Formel for udregning af energibehov
 
-I denne simple energibehov beregner kan du vælge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vil læse mere om de enkelte formler, så har jeg lavet et indlæg om, hvordan [beregningen af hvilestofskiftet og basalstofskiftet laves]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
+I denne simple energibehov beregner kan du vælge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vil læse mere om de enkelte formler, så har jeg lavet et indlæg om, hvordan [beregningen af hvilestofskiftet og basalstofskiftet laves](/bmr-beregner-hvilestofskifte-basalstofskifte/).
 
 ### Fysisk aktivitetsniveau (PAL) og energibehov
 
@@ -85,7 +87,7 @@ Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (P
 
 ## Flere beregnere til dit daglig energibehov
 
-Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding, hvor den fysiske aktivitet bliver angivet lidt mere præcist](/beregner/dagligt-stofskifte-og-forbraending/).
+Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
 
 [Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
 

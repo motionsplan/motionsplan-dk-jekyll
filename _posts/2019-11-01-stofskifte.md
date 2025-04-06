@@ -78,7 +78,7 @@ Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores on
 | Beregning | Beskrivelse |
 |-|-|
 | 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner-hvilestofskifte-basalstofskifte/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
-| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her](/beregner/dagligt-stofskifte-og-forbraending/) | Dit samlede energiforbrug inkl. fysisk aktivitet. |
+| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her](/beregner/dagligt-energiforbrug-energibehov/) | Dit samlede energiforbrug inkl. fysisk aktivitet. |
 | 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Hvor mange kalorier du skal spise for at holde vægten stabil. |
 
 💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere længere nede.
@@ -114,7 +114,7 @@ Faktorer, der påvirker BMR:
 
 🔗 [Beregn dit hvilestofskifte med vores BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/)
 
-## 2. Dagligt energiforbrug – Sådan påvirker aktivitet dit behov
+## 2. Dagligt energiforbrug – Sådan påvirker aktivitet dit energiforbrug
 
 Dit daglige energiforbrug er summen af dit BMR og den energi, du bruger på fysisk aktivitet. Dette inkluderer daglige gåture, træning, arbejde og generelle kropsbevægelser.
 
@@ -128,9 +128,9 @@ BMR ganges med en aktivitetsfaktor afhængigt af dit niveau:
 - 1.725 – Meget aktiv (hård motion 6-7 dage om ugen)
 - 1.9 – Ekstremt aktiv (hård træning dagligt, fysisk arbejde)
 
-🔗 [Beregn dit daglige energiforbrug](/beregner/dagligt-energiforbrug-energibehov/)
+🔗 [Beregn dit daglige energiforbrug i vores TEE-beregner](/beregner/dagligt-energiforbrug-energibehov/)
 
-## 3. Dagligt stofskifte og forbrænding – Flere faktorer spiller ind
+**For en endnu mere præcis beregning**:
 
 Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andre faktorer:
 
@@ -138,9 +138,9 @@ Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andr
 - NEAT (Non-Exercise Activity Thermogenesis): Småbevægelser som at gå rundt, vippe med foden, rejse sig op osv.
 - Træning: Planlagt motion øger din forbrænding betydeligt.
 
-🔗 [Beregn dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/)
+🔗 [Nøjagtig estimering af din dagelige forbrænding](/beregner/dagligt-stofskifte-og-forbraending/)
 
-## 4. Ligevægtsindtag – Find dit balancepunkt
+## 3. Ligevægtsindtag – Find dit balancepunkt
 
 Ligevægtsindtaget er den mængde kalorier, du skal spise dagligt for at opretholde din nuværende vægt. Dette er nyttigt, hvis du vil planlægge et vægttab eller en vægtøgning.
 

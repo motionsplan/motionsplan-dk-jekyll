@@ -31,25 +31,39 @@ Det er interessant at regne på energi, så lad os dykke direkte ned i de forske
 
 Inden du går i gang med kalorieudregnerne, så kan det måske være relevant at kigge på, [hvad kalorier er](/hvad-er-kalorier/).
 
-## Kalorieberegner - hvor mange kalorier har man brug for?
+## 💡 Kalorieberegner - hvor mange kalorier har du brug for?
 
 Du kan bruge en kalorieberegner til at estimere dit daglige energibehov. Du kan altså beregne, hvor mange kalorier du har brug for om dagen for at holde vægten - eller for at få vægten til at stige eller falde.
 
 Alle kalorieberegnere er naturligvis baseret på et gennemsnitligt kaloriebehov for et gennemsnitligt menneske. Der findes mange beregnere, hvor du kan beregne dit daglige kaloriebehov. Kalorieberegningen kan give dig en ide om, hvor meget energi du skal spise om dagen.
 
-Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag beregner](/ligevaegtsindtag-beregner/). Beregn dit kaloriebehov i vores [beregner til dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
+Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag beregner](/ligevaegtsindtag-beregner/). Beregn dit kaloriebehov i vores [beregner til dagligt energiforbrug og energibehov](/beregner/dagligt-energiforbrug-energibehov/).
 
-Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en ret [avanceret beregner til dit stofskifte og daglige forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) på baggrund af et detaljeret fysisk aktivitetsniveau.
+Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet](/hvilestofskiftet-formler/). Jeg har også lavet en ret [avanceret beregner til dit stofskifte og daglige forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) på baggrund af et detaljeret fysisk aktivitetsniveau.
 
 Husk at en kalorieberegner ikke kan stå alene. Du skal ikke bare blindt følge forslagene i disse generelle programmer. Du finder først dit reelle kaloriebehov, hvis du ved hvor meget energi, du indtager over tid, og du fastholder din nuværende vægt.
 
-## Kalorieudregner til mad og måltider (kostberegner)
+Her kan du hurtigt [beregne dit stofskifte](/hvordan-beregne-dagligt-energibehov/) og energiforbrug ved at bruge vores online værktøjer. Vælg den beregner, der passer bedst til dit behov.
+
+| Beregning | Beskrivelse |
+|-|-|
+| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner-hvilestofskifte-basalstofskifte/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
+| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her](/beregner/dagligt-energiforbrug-energibehov/) | Dit samlede energiforbrug inkl. fysisk aktivitet fra tabeller. |
+| 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Hvor mange kalorier du skal spise for at holde vægten stabil. |
+
+💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere under [guide til stofskiftet](/stofskifte/).
+{: .notice .notice--info }
+
+***
+
+## 🍽️ Kalorieudregner til mad og måltider (kostberegner)
 
 En kalorieudregner kan også udregne, hvor meget energi der er i den mad du spiser. Jeg har her på siden en række [forskellige kalorietabeller]({% link _posts/2020-08-29-kalorietabellen.md %}), hvor du kan finde ud af, [hvor mange kalorier der er i fx bananer](/kalorietabel-frugt/).
 
 Hvis du skal udregne mere detaljeret, hvor meget energi der er i et måltid, så findes der heldigvis nogle geniale **gratis madberegnere og kostberegnere**, som du kan bruge til at udregne det samlede kalorieindhold i et måltid.
 
-### Very Well Fits opskriftsberegner (engelsk)
+<details markdown="1" class="faq">
+  <summary><h3>Very Well Fits opskriftsberegner (engelsk)</h3></summary>
 
 Very Well Fit har lavet en rigtig god [opskriftsberegner](https://www.verywellfit.com/recipe-nutrition-analyzer-4157076). Den eneste ulempe ved beregneren er, at den er på engelsk. Den er nemlig helt genial.
 
@@ -66,8 +80,10 @@ Nu gætter værktøjet selv på, hvilke madvarer og størrelser opskriften indeh
 Når du har justeret opskriften til, så får du et overblik over energiindholdet og fordelingen af energi i den samlede opskrift i en fin lille varedeklaration.
 
 {% include figure image_path="/assets/images/blog/verywellfit-opskriftsberegner-3.jpg" caption="Du ender med en ret tjekket varedeklaration til den indtastede opskrift." alt="varedeklaration fra kalorieudregneren fra very well fit" %}
+</details>
 
-### Fødevarestyrelsens madberegner (dansk)
+<details markdown="1" class="faq">
+  <summary><h3>Fødevarestyrelsens madberegner (dansk)</h3></summary>
 
 Fødevarestyrelsen har lavet et kalorieværktøj, hvor du kan indtaste oplysninger om dit aktivitetsniveau og kosten for en hel dag. Du kan finde [værktøjet her](https://madberegneren.foedevarestyrelsen.dk/).
 
@@ -104,28 +120,41 @@ Desuden kunne madberegneren formentlig relativt let give et overblik over minera
 {% comment %}
 Beskriv madital.dk og madlog.dk (som er ret genial, fordi du kan betale fra gang til gang)
 {% endcomment %}
+</details>
 
-## Kalorie beregner til dagligt energiindtag
+***
+
+## 📊 Kalorie beregner til dagligt energiindtag
 
 Hvis du har brug for et mere præcist billede af dit daglige kalorieindtag, så findes der heldigvis nogle programmer, som du kan bruge til at holde styr på alle dine måltider. Vi har samlet en liste med nogle af de [bedste kalorietæller apps](/kalorietaeller-apps/), hvis du vil i gang med at tælle kalorier.
 
 Når du har styr på, hvor mange kalorier om dagen, du indtager, så ved du også om du skal spise færre kalorier eller skrue op for energiindtaget, hvis du gerne vil ændre din vægt.
 
-## Energiberegner med MET-værdier
+***
+
+## 🏃‍♂️ Energiberegner med MET-værdier
 
 Hvis du har brug for en kalorieberegner, der kan udregne [hvor meget energi du forbrænder ved en aktivitet](/met/), så kan du bruge MET-værdier. Jeg har lavet en enkel beregner, hvor du kan se, hvor mange kalorier du forbrænder ved de forskellige aktiviteter.
 
 {% include figure image_path="/assets/images/blog/motionsplan-kalorieberegner.png" caption="En enkel beregner til kalorier baseret på din aktivitet og MET-værdier. Tjek [MET-beregneren](/met-beregner/)." alt="kalorie beregner baseret på MET-værdier" %}
 
-## Kalorieomregner og energiomregner
+***
+
+## 🔁 Kalorieomregner og energiomregner
 
 Det kan ogå være, at du bare er på udkig efter en energiomregner. Jeg har lavet et værktøj, hvor du kan [omregne fra kJ til kcal]({% link _posts/2021-07-23-kj-kcal-omregner.md %}).
+
+***
 
 ## Konklusion
 
 Der er altså mange muligheder for, hvordan man kan forstå kalorieberegner. Jeg håber du fandt ud af, hvilken beregner du har brug for.
 
-Hvis du har andre gode kalorieudregnere, så må du endelig skrive.
+## Hvad nu? Find den kalorieberegner, du har brug for
+
+👉 Vil du beregne dit energibehov? Prøv [TDEE-beregneren](/beregner/dagligt-energiforbrug-energibehov/)  
+🥦 Vil du vide hvor mange kalorier du får fra mad? Prøv [kostberegnerne](/kalorietaeller-apps/)  
+🏃‍♂️ Vil du regne ud hvor meget energi du bruger på aktivitet? Prøv [MET-beregneren](/met-beregner/)
 
 ## Ofte stillede spørgsmål om kaloriebegnere
 

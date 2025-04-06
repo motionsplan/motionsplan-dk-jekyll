@@ -26,7 +26,7 @@ Mange vil gerne vide, hvor mange kalorier, der er i øl, vin og andre drikke med
 
 Kalorietabellen indeholder forskellige alkoholiske drikke. Jeg har lavet en anden [kalorietabel med alle fødevarer]({% link _posts/2020-08-29-kalorietabellen.md %}) eller en [tabel med energiindholdet i forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel med grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) eller [tabel med energien i brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
 
-Jeg har skrevet lidt om, hvad [kalorier og kilokalorier](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [deres stofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og [ligevægtsindtaget](/ligevaegtsindtag-beregner/).
+Jeg har skrevet lidt om, hvad [kalorier og kilokalorier](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [deres stofskifte](/bmr-beregner-hvilestofskifte-basalstofskifte/) og [ligevægtsindtaget](/ligevaegtsindtag-beregner/).
 
 ## Kilder til kalorietabellen over alkohol
 
