@@ -82,7 +82,7 @@ Hvis du køber noget via et link, modtager vi en lille kommission – uden at de
 
 Indtjeningen bruges til at udvikle og forbedre hjemmesiden, opdatere indholdet og lancere nye tiltag. Hvis du vil støtte os direkte, kan du **[aktivere et reklamefrit Motionsplan](https://www.buymeacoffee.com/l/Gi0SBcuPF){: rel="nofollow noopener" }**.
 
-{% include gallery images=site.data.advertisers layout="fifth" headline="Samarbejdspartnere (reklamelinks)" %}
+{% include gallery images=site.data.advertisers layout="seventh" headline="Samarbejdspartnere (reklamelinks)" %}
 
 Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har fortjent det.
 

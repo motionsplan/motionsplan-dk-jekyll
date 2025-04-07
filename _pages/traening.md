@@ -6,7 +6,7 @@ permalink: /traening/
 description: "Få mest muligt ud af din træning med effektive træningsmetoder, konditionstests og styrketræningstips. Find den rette træningsplan og optimer dine resultater i dag!"
 excerpt: "Få mest muligt ud af din træning med effektive træningsmetoder, konditionstests og styrketræningstips. Find den rette træningsplan og optimer dine resultater i dag!"
 header:
-  overlay_image: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
+  overlay_image: https://images.unsplash.com/photo-1658702041515-18275b138fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: Træning og træningsformer
 author_profile: true

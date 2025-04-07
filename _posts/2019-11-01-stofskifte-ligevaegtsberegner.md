@@ -1,7 +1,7 @@
 ---
 title: &title "Beregn dit ligevægtsindtag med vores beregner ⚖️"
 seo_title: "Beregn dit ligevægtsindtag i vores gratis ligevægtsberegner"
-description: "Vil du gerne kende dit ligevægtsindtag? Beregn dit ligevægtsindtag GRATIS i vores enkle beregner, så du kan planlægge din kost."
+description: "Vil du gerne kende dit ligevægtsindtag? Beregn det GRATIS i vores enkle beregner, så du kan planlægge din kost."
 permalink: /ligevaegtsindtag-beregner/
 redirect_from:
   - /ligevaegtsindtag/
@@ -18,8 +18,8 @@ tags:
   - stofskifte
   - ligevægtsindtag
   - energiberegner
-  - featured
   - stofskifteberegner
+  - featured
 meta:
   name: Dagligt ligevægtsindtag
   equipment: ingen

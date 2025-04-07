@@ -12,6 +12,25 @@
 @import "youtube";
 @import "star-rating";
 
+/*** PULL QUOTE ***/
+
+.pull-quote {
+  color: #333;
+  border-left: 4px solid #007acc;
+  padding-left: 1rem;
+  margin: 2rem 0;
+  background-color: #f9f9f9;
+  max-width: 40ch;
+  background-color: yellow;
+
+  p {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+  }
+}
+
 /** MYSQUATMECHANICS */
 
 fieldset .two-columns {
@@ -184,15 +203,18 @@ fieldset .two-columns .form-group .help-block {
   /* Sørger for, at billedet fylder rammen pænt */
 }
 
-.page__meta {
+.page__hero--overlay .page__meta, header .page__meta {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   font-size: 0.7em;
-  color: #666;
   margin-top: 0.3em;
   gap: 5px;
   /* Eller lidt mindre afhængigt af, hvad du bruger nu */
+}
+
+header .page__meta {
+  color: #666;
 }
 
 .page__meta img {
