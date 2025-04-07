@@ -13,10 +13,12 @@ header:
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
+    - label: "<i class='fas fa-stopwatch'></i> Tests"
+      url: "#tests"
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
-    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-      url: "/biomekanik/"
+#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+#      url: "/biomekanik/"
     - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vaerktoejer/"
     - label: "<i class='fas fa-brain'></i> Psykologiske tests"
@@ -54,6 +56,7 @@ Tests hjælper dig med at få en præcis måling af din fysiske form og træning
 De fleste tests indeholder et værktøj, der hjælper dig med at finde resultaterne. Du kan også tjekke [vores side med beregnere](/beregnere/).
 
 ## Oversigt over alle tests
+{: id="tests" }
 
 {% include table/filter-table-tests.html %}
 

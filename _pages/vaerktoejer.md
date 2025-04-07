@@ -19,9 +19,11 @@ header:
       url: "/tests/"
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
-    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-      url: "/biomekanik/"
-    - label: "<i class='fas fa-tools'></i> Vurderingsværktøjer"
+    - label: "<i class='fas fa-tools'></i> Værktøjer"
+      url: "#tools"
+#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+#      url: "/biomekanik/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
       url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
 classes: wide
@@ -104,6 +106,7 @@ Find den rette test, beregner eller værktøj til dine behov!
 {% include feature_row id="feature_row_navigation" %}
 
 ## Populære værktøjer
+{: id="tools" }
 
 {% assign site_posts = site.posts | where: "tags", "værktøj" | where: "tags", "featured" | sort: "date" %}
 

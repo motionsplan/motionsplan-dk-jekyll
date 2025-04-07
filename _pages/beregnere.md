@@ -15,10 +15,12 @@ header:
   actions:
     - label: "<i class='fas fa-stopwatch'></i> Tests"
       url: "/tests/"
+    - label: "<i class='fas fa-calculator'></i> Beregnere"
+      url: "#calculators"
     - label: "<i class='fas fa-tools'></i> Værktøjer"
       url: "/vaerktoejer/"
-    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-      url: "/biomekanik/"
+#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+#      url: "/biomekanik/"
     - label: "<i class='fas fa-brain'></i> Psykologiske tests"
       url: "/vurderingsvaerktoejer/"
 breadcrumbs: true
@@ -30,6 +32,7 @@ Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og mege
 Beregnerne hjælper dig med at omregne fra en enhed til en anden, eller udregne fakta om din kost eller sundhed. Du kan også finde [alle tests til træning her](/tests/).
 
 ## Oversigt over alle beregnere
+{: id="calculators" }
 
 {% include table/filter-table-beregnere.html %}
 

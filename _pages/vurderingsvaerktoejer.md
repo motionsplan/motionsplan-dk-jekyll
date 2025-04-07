@@ -16,10 +16,12 @@ header:
       url: "/tests/"
     - label: "<i class='fas fa-calculator'></i> Beregnere"
       url: "/beregnere/"
-    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-      url: "/biomekanik/"
+#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
+#      url: "/biomekanik/"
     - label: "<i class='fas fa-tools'></i> Værktøjer"
-      url: "/vurderingsvaerktoejer/"
+      url: "/vaerktoejer/"
+    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
+      url: "#tests"
 breadcrumbs: true
 classes: wide
 ---
@@ -42,6 +44,7 @@ Livsstils- og helbredsrisici
 : Få indsigt i, hvordan din livsstil påvirker din sundhed. Disse værktøjer giver dig en idé om risikofaktorer og mulige forbedringsområder.
 
 ## Oversigt over alle vurderingsværktøjer
+{: id="tests" }
 
 {% assign site_posts = site.posts | where: "tags", "vurderingsværktøj" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
