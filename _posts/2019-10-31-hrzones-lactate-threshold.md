@@ -38,6 +38,8 @@ I [pulstræning](/pulstraening/) skal du kende **dine pulszoner**, hvis du gerne
 
 Her får du en pulszoneberegner som tager udgangspunkt i din laktattærkel (LT2), men du kan også [beregne pulszoner ud fra din maxpuls](/pulszoner-max-puls/) eller ud fra din [pulsreserve](/pulszoner-pulsreserve-karvonen/).
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Begreber til pulzonerne
 
 Lad os først lige få definitionerne på plads.
@@ -66,6 +68,7 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 | 7 | Neuromuskulær power | Anaerob |
 
 ## Pulszoner beregner ud fra den anaerobe tærskel
+{: id="calculator" }
 
 [Joe Friel](https://joefrieltraining.com/a-quick-guide-to-setting-zone/) baserer sine pulszoner på pulsen ved den anaerobe tærskel (LTHR). Han har i alt 7 zoner, men her har vi reduceret zonerne til at modsvare de vejledende træningszoner fra Coggan, som vi har skitseret ovenfor. Coggan benytter nogle lidt [andre pulsværdier](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/), men vi har god erfaring med at bruge Friels pulszoner.
 

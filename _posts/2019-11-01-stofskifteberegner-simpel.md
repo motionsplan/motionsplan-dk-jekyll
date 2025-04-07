@@ -64,7 +64,7 @@ Her kan du også sammenligne forskellige formler, der bruges til at udregne BMR.
 
 1. Hvilestofskifte (BMR)
 2. Fødeinduceret termogenese (FIT)
-3. Fysisk aktivitet (PAL)
+3. [Fysisk aktivitet (PAL)](/beregner/pal/)
 
 I denne artikel fokuserer vi på hvilestofskiftet og basalstofskiftet.
 

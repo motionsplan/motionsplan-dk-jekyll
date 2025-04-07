@@ -57,14 +57,6 @@
       }, 400);
     });
 
-    // Smooth scrolling
-    var scroll = new SmoothScroll('a[href*="#"]', {
-      offset: 20,
-      speed: 400,
-      speedAsDuration: true,
-      durationMax: 500
-    });
-
     // Gumshoe scroll spy init
     if($("nav.toc").length > 0) {
       var spy = new Gumshoe("nav.toc a", {

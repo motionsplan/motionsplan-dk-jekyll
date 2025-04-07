@@ -61,6 +61,8 @@ Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkon
 
 Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigger på løberens kapacitet til at fortsætte i længere tid og fastholde eller øge hastigheden.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
 - Den **[maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)** - VO₂max - eller vores [kondital](/kondital/).
@@ -121,6 +123,9 @@ På formel ser løbeøkonomien altså sådan her ud:
 RE = VO₂ (ml/kg/min) / v (km/min)
 
 Hvis du har adgang til et [løbebånd](/loebebaand-udendoers-loeb/), så får du oftest værdierne for iltoptagelsen som l/min og hastigheden som km/t.
+
+## Løbeøkonomi beregner
+{: id="calculator" }
 
 Du kan taste disse værdier ind i følgende beregner og få beregnet din løbeøkonomi.
 

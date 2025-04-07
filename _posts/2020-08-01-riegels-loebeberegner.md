@@ -25,6 +25,8 @@ Riegels formel til at udregne konkurrencetider til løb er af ældre dato, men e
 
 Riegels formel beregner potentielle løbetider og konkurrencetider. Du kan altså beregne din tilnærmede tid på en distance ud fra en tid på en anden distance. Hvis du fx ønsker at kende din omtrentlige maratontid baseret på din 10 km tid, så kan du bruge Pete Riegels formel og løbeberegneren her på siden til det.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Det er efterhånden mere udbredt at bruge [Jack Daniels Running Formula og løbsberegner](/loebesiden-jack-daniels-loebeberegner/), når du gerne vil udregne dine træningstider, konkurrencetider og løbetider.
 
 Som et alternativ til VDOT-beregning giver Riegels beregning også mulighed for at beregne potentielle konkurrencetider og løbetider.
@@ -36,6 +38,9 @@ Pete Riegels udgangspunkt er, at man mister omkring 6% af hastigheden, hver gang
 Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold til mellemtider, når man løber andre distancer.
 
 **Husk** at beregninger af løbetider kun giver et omtrentligt resultat. Der er ingen garantier for at løbetiden passer præcist. Ved løb er der mange faktorer, der kan spille ind på løbetiden, fx vejr og terræn, men det betyder også meget, hvor oplagt du er på dagen, og hvordan du får disponeret løbet?
+
+## Riegels løbeberegner
+{: id="calculator" }
 
 {% include calculator/calculate-running-riegel.html %}
 

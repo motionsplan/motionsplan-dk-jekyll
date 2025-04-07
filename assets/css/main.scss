@@ -226,6 +226,14 @@ fieldset .two-columns .form-group .help-block {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h2, h3 {
+  scroll-margin-top: 85px;
+}
+
 a.read-more-link {
   display: inline-block;
   padding: 4px 10px;
@@ -791,6 +799,10 @@ p:has(> a.btn--center) {
 }
 
 .btn--center::after {
+  content: " →";
+}
+
+.btn--jump::after {
   content: " →";
 }
 

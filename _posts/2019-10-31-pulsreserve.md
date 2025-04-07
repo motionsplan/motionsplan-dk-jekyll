@@ -9,15 +9,18 @@ header:
   overlay_image: https://plus.unsplash.com/premium_photo-1713795721832-0f33126b4abd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://plus.unsplash.com/premium_photo-1713795721832-0f33126b4abd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
+  actions:
+    - label: "<i class='fas fa-calculator'></i> Hop til beregneren →"
+      url: "#calculator"
 category:
   - Kondition
   - Pulstræning
 tags:
+  - beregner
   - kondition
   - træning
   - intensitet
   - puls
-  - beregner
   - løb
   - guide
 meta:
@@ -47,6 +50,8 @@ På denne side kan du lære:
 - Hvordan du finder din puls ved en bestemt træningsintensitet.
 - Brug vores beregnere til at udregne intensitet eller puls baseret på pulsreserven, så du kan tilpasse din træning optimalt.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Hvad er pulsreserven?
 
 Pulsreserven er forskellen mellem [maxpulsen](/max-puls-test/) og [hvilepulsen](/hvilepuls/). Grundlæggende er det altså det spænd hjertet har at arbejde i.
@@ -64,6 +69,7 @@ Fordelen ved at denne metode er, at det er relativt enkelt at finde sin hvilepul
 {% include motionsplan/math formula="Intensitet(%) = \frac{arbejdspuls - hvilepuls}{maxpuls - hvilepuls} * 100" %}
 
 ## Beregn din intensitet ud fra arbejdspuls
+{: id="calculator" }
 
 Hvis du hellere vil have en beregner, så kan du altså bruge denne beregner til at finde den relative arbejdsintensitet på baggrund af intensiteten.
 

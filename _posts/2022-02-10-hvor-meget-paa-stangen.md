@@ -8,7 +8,6 @@ header:
 category:
   - Styrketræning
 tags:
-  - beregner
   - styrketræning
 last_modified_at: 2022-01-27T22:21:26Z
 meta:
@@ -40,13 +39,13 @@ http://bonvecstrength.com/2020/06/29/choosing-the-weight-on-the-bar-percentage-r
 
 {% endcomment %}
 
-## RM-beregner baseret på procenter
+## 1. RM-beregner baseret på procenter
 
 Hvis du skal træne baseret på procenter, så har du brug for at vide, hvor meget vægt du kan løfte en gang. Derefter bruger du den procentvise udregning til at estimere, hvor meget du kan løfte. Du kan udregne dit maksimale løft i en [RM-beregner](/rm-beregner/). Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.
 
 {% include figure image_path="/assets/images/blog/rm-beregner.png" caption="Her er et eksempel påat din _1 Repetition Maximum_ intensitetsprocenterne af dit bedste løft er udregnet i vores egen [RM-beregner](/rm-beregner/)." %}
 
-## Vægt baseret på RPE beregner
+## 2. Vægt baseret på RPE beregner
 
 Jeg kan godt lide at bruge RPE til at smide den rigtige vægt på stangen. Jeg er inspireret af beregneren på [Open Powerlifting](https://www.plsource.org/rpe-calc/) til en beregner baseret på RPE, og den er let at gå til. Du skal bare taste et af dine tidligere løft ind, som du har en god fornemmelse af, så kan du udregne, hvor meget vægt, du skal have på stangen til dit ønskede løft.
 

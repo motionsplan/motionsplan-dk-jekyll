@@ -10,9 +10,9 @@ header:
 category:
   - Styrketræning
 tags:
+  - beregner
   - maksimal styrke
   - træningsmetode
-  - beregner
 last_modified_at: 2020-06-14T23:14:14Z
 meta:
   name: Vægt i styrke waves

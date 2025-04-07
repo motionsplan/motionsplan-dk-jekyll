@@ -11,10 +11,10 @@ category:
   - Kondition
   - Cykling
 tags:
+  - beregner
   - konditionstræning
   - maksimal iltoptagelse
   - cykling
-  - beregner
   - intervaltræning
 meta:
   name: Vmax intervalprogram i cykling

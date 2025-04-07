@@ -57,7 +57,7 @@
     "build:js": "npm run uglify",
     "watch": "watchify src/js/app.bundle.js -o assets/js/bundle.js",
     "build": "browserify src/js/app.bundle.js -g uglifyify -o assets/js/bundle.js",
-    "uglify": "bundle exec uglifyjs assets/js/vendor/jquery/jquery-3.6.0.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
+    "uglify": "bundle exec uglifyjs assets/js/vendor/jquery/jquery-3.6.0.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "add-banner": "node _scripts/banner.js",
     "generate-image": "node _scripts/generate-image.js",
     "og-image": "npm run generate-image -- type:og",

@@ -10,6 +10,9 @@ header:
   caption: Beregn din fedtprocent ud fra højde og vægt.
   alt: Photo by i yunmai on Unsplash
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  actions:
+    - label: "<i class='fas fa-calculator'></i> Hop til beregneren →"
+      url: "#calculator"
 category:
   - Tests
   - Fedtprocent
@@ -60,6 +63,8 @@ Der findes også mere avancerede teknikker som skinfoldmålinger, bioimpedans og
 - 📌 [Bestem din kropskomposition](/kropskomposition/)
 - 📌 [Flere metoder til måling af fedtprocent](/maal-fedtprocent/)
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Men hvor vigtigt er det egentlig at kende din fedtprocent?
 
 **I praksis er andre faktorer ofte mere relevante, hvis du går op i træning. Styrke, hurtighed, udholdenhed og springhøjde er alle indikatorer for præstation og sundhed, end en tilfældig udregnet fedtprocent.**
@@ -67,6 +72,7 @@ Men hvor vigtigt er det egentlig at kende din fedtprocent?
 *[BMI]: Body Mass Index
 
 ## Beregn din fedtprocent i vores beregner
+{: id="calculator" }
 
 Få en hurtig beregning af din fedtprocent ud fra dine personlige data. Beregneren herunder bruger anerkendte formler baseret på alder, køn, vægt og højde.
 

@@ -11,12 +11,12 @@ header:
   caption: "Regler til styrkeløft og powerlifting"
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
-      url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+      url: "#sheet"
       rel: nofollow noopener
 category:
   - Styrketræning
 tags:
-  - beregner
+  - værktøj
   - styrkeløft
   - styrketræning
   - guide
@@ -99,6 +99,9 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi](https://maxer.dk
 |-|-|-|-|
 | Konservativ | 93% | 97% | 102% |
 | Aggressiv | 95% | 101% | 105% |
+
+## Regneark til at vælge forsøg
+{: id="sheet" }
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 

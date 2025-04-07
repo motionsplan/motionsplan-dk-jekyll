@@ -37,6 +37,8 @@ keywords:
 
 I denne BMI-beregner kan du udregne dit BMI, og du kan sammenligne dit BMI for voksne mænd og kvinder med en BMI-tabel. Vi går også i dybden med BMI-formlen, og hvordan BMI-skemaer kan fortolkes for voksne mænd og kvinder.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 BMI er en måde at finde ud af, om man er overvægtig eller undervægtig.
 
 Du kan selv udregne BMI, når du kender din vægt i kilo og din højde i centimeter. Her har vi gjort det lettere for dig. Vi har skrevet et uddybende indlæg om [normalt BMI for mænd og kvinder](/bmi/). BMI fortolkes anderledes for folk under 18 år, derfor har jeg lavet en særskilt [BMI-beregner for børn, unge og teenagere](/bmi-beregner-boern-unge-teenagere/).
@@ -49,6 +51,7 @@ Men husk at det ikke kan betale sig at være bekymret over, hvad en tilfældig B
 *[IOTF]: The International Obesity Task Force
 
 ## BMI beregner - Udregn dit BMI
+{: id="calculator" }
 
 I denne BMI beregner kan du let selv udregne dit BMI uden at skulle have din lommeregner frem. Når du har lavet din BMI udregning, så bliver dit BMI tal vurderet ud fra WHOs BMI skala.
 

@@ -33,6 +33,8 @@ Ved at træne i din optimale fedtforbrændingszone omkring den [aerobe tærskel]
 
 Læs videre for at lære, hvordan du beregner din MAF-puls og implementerer metoden i din træning.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Find din maksimale aerobe puls
 
 Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde den **aerobe tærskel**.
@@ -40,6 +42,9 @@ Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic
 MAHR = 180 - alder + kategori
 
 Denne tærskel er udgangspunktet for Phil Maffetone-metoden. Det tal reviderer du så ud fra, hvilken kategori du hører til. Du kan se de forskellige kategorier i denne beregner.
+
+## Maffetone beregner
+{: id="calculator" }
 
 {% include calculator/calculate-maffetone-aerobic.html %}
 

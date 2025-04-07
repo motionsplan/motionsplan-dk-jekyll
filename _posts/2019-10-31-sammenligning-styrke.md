@@ -12,8 +12,8 @@ category:
   - Beregnere
   - Styrketræning
 tags:
-  - styrketræning
   - beregner
+  - styrketræning
   - moc
 meta:
   name: Relativ styrke på forskellig måde

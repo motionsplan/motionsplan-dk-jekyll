@@ -9,6 +9,9 @@ header:
   overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
+  actions:
+    - label: "<i class='fas fa-calculator'></i> Hop til beregneren →"
+      url: "#calculator"
 category:
   - Beregnere
   - Kondition
@@ -34,6 +37,8 @@ Du kan estimere dit kondital kun ved hjælp af din puls med denne test fra dansk
 Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt.
 
 Du skal faktisk kun bruge lidt viden om din [puls](/puls/).
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
@@ -99,6 +104,7 @@ HR<sub>max</sub> = 208 – 0,7 x alder
 Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls. Jeg skriver mere om [hvordan du kan måle, beregne og teste maxpulsen](/test-max-puls/) i et andet indlæg.
 
 ## Udregn dit kondital på baggrund af hvilepuls og maxpuls
+{: id="calculator" }
 
 {% include calculator/calculate-vo2-max-hr.html %}
 

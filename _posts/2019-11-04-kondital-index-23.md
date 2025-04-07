@@ -63,6 +63,8 @@ Ofte resulterer det i en unfair vurdering, hvor deres faktiske kondition undervu
 
 I denne artikel vil vi dykke ned i problemet med at vurdere kondital hos overvægtige og introducere et mere retfærdigt alternativ: Kondital ved Index 23.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
 Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
@@ -101,6 +103,7 @@ Det har også været foreslået at opløfte kropsvægten med 0,73, når man samm
 {: .notice .notice--warning }
 
 ## Kondital beregning ved index 23
+{: id="calculator" }
 
 En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Morten Zacho foreslår som skrevet, at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes *Kondital ved index 23*.
 

@@ -13,16 +13,18 @@ header:
   caption: "RM-beregner: Udregn 1RM max (one rep max)"
   alt: Photo by Victor Freitas on Unsplash
   actions:
+    - label: <i class='fas fa-calculator'></i> Hop til beregneren
+      url: "#calculator"
     - label: <i class='fas fa-file-excel'></i> Sheet med 1RM-beregner
-      url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy?usp=sharing
+      url: "#sheet"
       rel: nofollow noopener
   overlay_filter: 0.3
 category:
   - Beregnere
   - Styrketræning
 tags:
-  - styrketræning
   - beregner
+  - styrketræning
   - træningsplanlægning
   - spreadsheet
 meta:
@@ -59,6 +61,7 @@ Din 1RM (one rep max) er den maksimale vægt i styrketræning, du netop kan løf
 Hvis du gerne vil kende din styrke uden at skulle lave [1RM-test](/rm-maxtest/), så kan en RM-beregner være nyttig. I vores RM-beregner kan du indtaste en vægt du har løftet et antal gange, og så vil beregneren hurtigt estimere din 1-10RM.
 
 ## RM-beregner til 1RM max
+{: id="calculator" }
 
 Indtast hvor mange kg du kan løfte og antallet af gentagelser og vælg en formel, så giver 1RM-beregneren dig din 1-10 RM baseret på formlen. **Bonus!**: Du får også et gennemsnit af resultatet fra alle [RM-formlerne](/1rm-formler/).
 
@@ -153,6 +156,7 @@ Den **mest udbredte formel lader til at være Brzyckis formel og Epleys formel**
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
 
 ## Regneark med RM-beregninger
+{: id="sheet" }
 
 Her har jeg lavet en regneark i Google Sheets med alle RM-formlerne, hvis du foretrækker at have data på din egen computer.
 

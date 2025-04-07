@@ -40,6 +40,8 @@ I [pulstræning](/pulstraening/) skal du altså først kende **dine pulszoner**,
 
 Her får du en pulszoneberegner som tager udgangspunkt i din pulsreserve, men du kan også [beregne pulszoner ud fra din maxpuls](/pulszoner-max-puls/) eller ud fra din [laktattærskel](/pulszoner-laktat-taerskel/).
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Begreber til pulzonerne
 
 Først kigger vi på et par forskellige definitioner af hvilepuls, maxpuls og pulsreserve.
@@ -74,6 +76,7 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 | 7 | Neuromuskulær power | Anaerob |
 
 ## Beregning af pulszoner ud fra pulsreserven
+{: id="calculator" }
 
 Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/). Karvonens pulszoner bliver brugt i rigtig mange sammenhænge. Her har vi omskrevet navnene på de enkelte zoner til Coggans terminologi.
 

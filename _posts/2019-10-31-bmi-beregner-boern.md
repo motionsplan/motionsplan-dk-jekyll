@@ -11,8 +11,8 @@ header:
 category:
   - Beregnere
 tags:
-  - kropskomposition
   - beregner
+  - kropskomposition
   - børn
 meta:
   name: BMI-beregner for børn
@@ -35,6 +35,8 @@ Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og
 
 Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/).
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
 
@@ -48,6 +50,7 @@ I dette indlæg får du svar på følgende spørgsmål:
 Men lad os først springe til selve BMI beregneren til børn og unge.
 
 ## BMI-beregner for børn og unge
+{: id="calculator" }
 
 {% include calculator/calculate-bmi.html children="true" %}
 

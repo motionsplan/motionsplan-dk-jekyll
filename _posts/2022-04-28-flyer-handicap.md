@@ -21,6 +21,8 @@ meta:
 
 Vanderburgh og Laubach har lavet en formel, så du kan sammenligne løbetider på tværs af alder og vægt. Så hvis du skal have lidt hjælp, når du gerne vil sammenligne dine tider med dine børns tider, så tjek det ud.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Vanderburgh og Laubach kalder det for _Flyer Handicap_. Formlen går ud fra, at alle er 25 år gamle. Kvinderne vejer ~50 kg og mændene vejer ~65 kg. Derved kan du sammenligne dine tider med andre, som har forskellige alder og vægt.
 
 Læs: [Alder og løbetider: Sammenlign med aldersgraduerede løbetider](/aldersgraduerede-tider/)
@@ -35,6 +37,7 @@ Resultatet kan sammenlignes med andre voksne løbere med forskellig vægt og for
 Flyer Handicap er udviklet af Paul M. Vanderburgh og Lloyd L. Laubach ved University of Dayton i USA.
 
 ## Flyer Handicap Beregner
+{: id="calculator" }
 
 {% include calculator/calculate-running-flyer-handicap.html %}
 

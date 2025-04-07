@@ -8,6 +8,9 @@ header:
   overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
+  actions:
+    - label: "<i class='fas fa-calculator'></i> Hop til beregneren →"
+      url: "#calculator"
 category:
   - Kondition
 meta:
@@ -33,6 +36,8 @@ breadcrumbs: true
 
 Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. I denne beregner kan du udregne dit kondital på baggrund af en løbetest, hvor du registrerer din hastighed og din distance.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Konditionstesten til løb er baseret på Tokmakidis et al (1987). Du skal være opmærksom på, at din løbetest skal være løbet så hurtigt som overhovedet muligt.
 
 Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit kondital på baggrund af formlerne fra Tokmakidis et al (1987).
@@ -43,6 +48,7 @@ Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit 
 - Distancen skal være mellem 1500 meter og 42 km, da formlen fra Tokmakidis et al (1987) er baseret på disse distancer.
 
 ## Find dit kondital fra løbetest
+{: id="calculator" }
 
 Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 km test eller andre vilkårlige distancer mellem 1500 meter og 42 km.
 

@@ -32,6 +32,8 @@ Allerede fra fødslen er mere end halvdelen af kroppens vægt vand. Den gennemsn
 
 Jeg har samlet lidt tabeller og en beregner, så du kan udregne, hvor meget vand du i gennemsnit har i kroppen.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Vand i kroppen
 
 I starten af vores liv er knap tre-fjerdedele af vores kropsvægt vand, men den begynder at dale allerede i det første år.
@@ -50,6 +52,7 @@ De følgende tabeller over vand i kroppen er baseret på [healthline.com](https:
 | 51- år | 56% (47%–67%) | 47% (39%–57%) |
 
 ## Udregn vand i kroppen med vores beregner
+{: id="calculator" }
 
 {% include calculator/calculate-bodywater.html %}
 

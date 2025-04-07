@@ -30,6 +30,8 @@ Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du 
 
 Det kan være rart at vide, hvor længe man skal gå for at få de anbefalede 10.000 skridt om dagen. På denne side finder du en beregner, som kan hjælpe med at finde ud af det.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 {% include figure image_path="https://images.unsplash.com/photo-1451156351305-d4f9bff58036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10" caption="Hvor hurtigt går man 1 kilometer, og hvor lang tid tager det at gå 10.000 skridt. Tjek vores beregner for svaret!" alt="skridt til km og 10.000 skridt" %}
 
 Vi kigger altså i dette indlæg lidt på ganghastighed og gangtempo. Vi tager udgangspunkt i almindelige mennesker, som går i et almindeligt tempo.
@@ -74,6 +76,9 @@ Læs: [Hvor lang tid tager det at gå en kilometer?](/tid-at-gaa/)
 Men du kan tage udgangspunkt i dine egne målinger ved at bruge nedenstående beregner.
 
 Hvis vi omregner fra antal skridt og skridtlængde, så kan vi finde distancen. Sammen med den viden kan vi beregne distancen. Bruger vi hastigheden fra tabellen ovenfor, så kan vi estimere, hvor længe det tager at gå 10.000 skridt.
+
+## Beregner
+{: id="calculator" }
 
 Tjek denne beregner:
 

@@ -60,6 +60,8 @@ Særligt atletiske personer, som alt andet lige har en højere fedtfri masse, ka
 
 Særligt er Cunninghams formel til hvilestofskifte populær. 
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Hvis du ikke kender din fedtprocent eller fedtfrie masse, så kan du tjekke vores andre [energiberegnere til stofskifte](/stofskifte/). Fx kan du [udregne dit daglige energibehov baseret på vægt og højde](/beregner/dagligt-energiforbrug-energibehov/) eller se vores [avancerede beregner med et præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/).
 
 Du kan også læse om, hvordan du [udregner dit ligevægtsindtag præcist](/ligevaegtsindtag-beregner/).
@@ -71,7 +73,7 @@ Du kan også læse om, hvordan du [udregner dit ligevægtsindtag præcist](/lige
 *[TEE]: Total Energy Expenditure
 *[kJ]: kilojoule
 
-Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). I dette indlæg koncentrerer vi os om hvilestofskiftet og basalstofskiftet.
+Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og [fysisk aktivitet (PAL)](/beregner/pal/). I dette indlæg koncentrerer vi os om hvilestofskiftet og basalstofskiftet.
 
 ## Hvad er hvilestofskiftet og basalstofskiftet?
 
@@ -81,6 +83,7 @@ Bliv klogere: [Alt om hvilestofskiftet og basalstofskiftet](/bmr-beregner-hviles
 {: .notice }
 
 ## BMR beregner fra fedtfri masse
+{: id="calculator" }
 
 {% include calculator/calculate-stofskifte-ffm.html %}
 

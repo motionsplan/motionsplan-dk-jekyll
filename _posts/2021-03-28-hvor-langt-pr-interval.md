@@ -28,6 +28,8 @@ Jeg har lavet en beregner, så du let kan regne ud, hvor langt du skal løbe på
 
 Jeg bøvler altid lidt med at finde ud af, hvor langt jeg skal løbe på de enkelte intervaller, når jeg laver løbetræning. Jeg foretrækker at tage udgangspunkt i minutter per interval, når jeg laver træningsplanlægning for intervaller.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Jeg bruger fx [Jack Daniels løbsberegner](/loebesiden-jack-daniels-loebeberegner/) til at finde ud af, hvilke hastigheder, jeg skal løbe på de enkelte intervaller.
 
 Fra løbsberegneren får jeg så et bud på, hvilken hastighed jeg skal løbe med på de enkelte intervaller. Hvis jeg gerne vil lave et træningsprogram, hvor jeg vil flytte min [anaerobe tærskel](/anaerobe-taerskel/) eller min [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), så foreslår Jack Daniels, at jeg løber med en bestemt hastighed.
@@ -35,6 +37,7 @@ Fra løbsberegneren får jeg så et bud på, hvilken hastighed jeg skal løbe me
 Hvis vi tager udgangspunkt i nogle meget anvendte intervaller for at flytte den maksimale iltoptagelse, så vælger jeg måske at løbe 4 x 4 minutter med 2-3 minutters pause mellem de enkelte intervaller. Det er let at stille stopuret til 4 minutter. I nedenstående beregner kan du let udregne, hvor langt du skal løbe på de 4 minutter med det givne tempo.
 
 ## Beregn hvor langt du skal løbe på et tidsinterval?
+{: id="calculator" }
 
 I denne beregner kan du hurtigt udregne, hvor langt du skal løbe på et interval, når du kender hastigheden i minutter per kilometer (min/km).
 

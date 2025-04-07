@@ -1,14 +1,14 @@
 ---
 title: "Beregn dit Physical Activity Level (PAL)"
-seo_title: Beregn din PAL for bedre forståelse af energibehov
-description: "Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse af energiforbrug og tilpasse kostanbefalinger."
-excerpt: "Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse af energiforbrug og tilpasse kostanbefalinger."
+seo_title: Beregn din PAL - Forstå din fysiske aktivitets energiforbrug
+description: "Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at se hvad dit fysiske aktivitetsniveau tilføjer til dit energiforbrug."
+excerpt: "Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse af hvad dit fysiske aktivitetsniveau betyder for dit energiforbrug."
 permalink: /beregner/pal/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: Beregn dit daglige energibehov og energiforbrug
+  caption: Beregn din PAL værdi
 category:
   - Beregnere
   - Kalorieberegnere
@@ -36,7 +36,7 @@ feature_row:
     rel: nofollow noopener
 ---
 
-Når vi taler om fysisk aktivitet og energibehov, er det vigtigt at forstå, hvor meget energi vi forbrænder gennem forskellige aktiviteter. Det bruger vi Physical Activity Level (PAL) til.
+Når vi taler om fysisk aktivitet og [energibehov](/bmr-beregner-hvilestofskifte-basalstofskifte/), er det vigtigt at forstå, hvor meget energi vi forbrænder gennem forskellige aktiviteter. Det bruger vi Physical Activity Level (PAL) til.
 
 I denne artikel ser vi på, hvordan du kan bestemme din PAL (Physical Activity Level).
 
@@ -47,7 +47,7 @@ I denne artikel ser vi på, hvordan du kan bestemme din PAL (Physical Activity L
 Vælg den hurtige, hvis du bare vil have et estimat – vælg MET-beregning, hvis du vil være præcis.
 {: .notice }
 
-[🟦 Hurtig metode ↓](/beregner/pal/#pal-tabel){: .btn .btn--inverse .btn--large } [🟨 Detaljeret metode ↓](/beregner/pal/#pal-met){: .btn .btn--inverse .btn--large }
+[🟦 Hurtig metode ↓](#pal-tabel){: .btn .btn--inverse .btn--large } [🟨 Detaljeret metode ↓](#pal-met){: .btn .btn--inverse .btn--large }
 
 ## Hvad er Physical Activity Level?
 

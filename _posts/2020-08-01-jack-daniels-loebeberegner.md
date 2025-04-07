@@ -49,6 +49,8 @@ I denne løbsberegner kan du beregne dit træningstempo og konkurrencetider ud f
 
 Enhver løbeside med respekt for sig selv skal naturligvis have en løbeberegner.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662){: rel='sponsored nofollow noopener' }.
 
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren kan du finde dine løbetider for forskellige distancer. Du får også et bud på, hvilket tempo du bør træne efter i forskellige træningszoner og træningsmetoder, når du fx laver [intervalløb](/intervallob-intervaltraening/).
@@ -85,6 +87,9 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 
 **Husk**: Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
 {: .notice .notice--info }
+
+## Løbeberegner
+{: id="calculator" }
 
 {% include calculator/calculate-jack-daniels.html %}
 

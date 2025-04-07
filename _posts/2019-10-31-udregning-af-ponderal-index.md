@@ -11,8 +11,8 @@ header:
 category:
   - Beregnere
 tags:
-  - kropskomposition
   - beregner
+  - kropskomposition
 last_modified_at: 2021-03-06T23:14:14Z
 meta:
   name: Ponderal Index
@@ -25,6 +25,8 @@ meta:
 *[IOTF]: The International Obesity Task Force
 
 Jeg har været på udkig efter et alternativ til Body Mass Index (BMI) og er stødt på **Ponderal Index**, som også kaldes **Corpulence Index** eller **Rohrer's Index**. Ponderal index er et mål for om man er undervægtig, overvægtig eller normalvægtig.
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ## Hvad er Ponderal Index?
 

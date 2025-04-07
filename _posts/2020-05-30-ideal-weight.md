@@ -37,6 +37,8 @@ Vil du gerne kende din idealvægt? Her kan du læse mere om idealvægt, normalv�
 
 Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 {% include figure image_path="https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="vægt til at måle idealvægt, gennemsnitsvægt og normalvægt" %}
 
 Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
@@ -53,6 +55,7 @@ TODO
 Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du har en sund vægt ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.
 
 ## Udregn din idealvægt for voksne mænd og kvinder
+{: id="calculator" }
 
 Den simple beregner af idealvægt og normalvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Robinson (1983), Devine (1974), Miller (1983), Hamwi (1964).
 

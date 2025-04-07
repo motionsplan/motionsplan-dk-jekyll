@@ -40,6 +40,9 @@ BMR = (0,0592 x 72) + 2,48 = 6,7424 MJ (megajoule) = 6742,4 kj, hvilket giver 67
 PAL = (2 x 0,025) + (1 x 0,05) + 1,6 = 1,7
 
 Energibehov = 1605,3 kcal x 1,7 = 2729 kcal
+
+**Læs**: [Sådan beregner du PAL](/beregner/pal/)
+{: .notice }
  
 ### Den daglige energifordeling:
 

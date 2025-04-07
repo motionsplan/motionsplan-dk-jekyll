@@ -66,6 +66,8 @@ I denne guide lærer du, hvordan du nemt måler din skridtlængde – enten ved 
 
 Til sidst kan du bruge vores skridtlængde-beregner for at få en præcis værdi.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 I denne artikel får du svaret på:
 
 - Hvordan finder du din skridtlængde? 
@@ -92,6 +94,7 @@ Hvis du bruger en omregner på engelsk, så skal du altså holde øje med om det
 Det er godt at kende sin skridtlængde, hvis du gerne vil finde ud af, hvor langt du går på en dag. Hvis du fx har en skridttæller, så kan du skrive din skridtlængde ind, så dit resultat bliver lidt mere præcist.
 
 ### 1. Udregn trinlængde og skridtlængde ud fra din højde
+{: id="calculator" }
 
 {% include calculator/calculate-step-length.html %}
 

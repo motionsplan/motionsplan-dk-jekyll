@@ -38,6 +38,8 @@ Når du laver [pulstræning](/pulstraening/) skal du først kende **dine pulszon
 
 Her får du en pulszoneberegner som tager udgangspunkt i din maxpuls, men du kan også [beregne pulszoner ud fra din laktattærskel](/pulszoner-laktat-taerskel/) eller ud fra din [pulsreserve](/pulszoner-pulsreserve-karvonen/).
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 Lad os først lige få definitionerne på plads.
 
 ## Hvad er den maksimale puls?
@@ -67,6 +69,7 @@ Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-
 | 7 | Neuromuskulær power | Anaerob |
 
 ## Jack Daniels pulszoner ift. maksimale puls
+{: id="calculator" }
 
 Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 

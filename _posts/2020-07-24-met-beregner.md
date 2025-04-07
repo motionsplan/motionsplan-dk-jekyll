@@ -21,8 +21,6 @@ category:
 last_modified_at: 2021-02-13T08:39:32Z
 ---
 
-## MET-beregner: Beregn dit kalorieforbrug  
-
 MET (*Metabolic Equivalent of Task*) er en metode til at estimere dit energiforbrug ved forskellige aktiviteter. Ved at kende MET-værdien for en aktivitet og din vægt kan du beregne, hvor mange kalorier du forbrænder.  
 
 Brug vores MET-beregner til hurtigt at regne dit kalorieforbrug ud baseret på aktivitet, varighed og kropsvægt.  
