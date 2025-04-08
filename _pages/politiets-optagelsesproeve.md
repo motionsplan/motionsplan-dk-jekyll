@@ -21,7 +21,7 @@ feature_row_police_tests:
   - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
     alt: "Politiets fysiske tests og krav til optagelsesprøven"
     title: "Politiets fysiske tests"
-    excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
+    excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning, så du kan forberede dig optimalt."
     url: "/politiets-fysiske-tests-krav-optagelsesproeve/"
     btn_label: "Prøv testen"
     btn_class: "btn--success"
@@ -29,9 +29,9 @@ feature_row_police_program:
   - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
     alt: "Træningsprogram til optagelsesprøven"
     title: "Træningsprogram til optagelsesprøven"
-    excerpt: "Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter."
-    url: "/politi-traeningsprogram/"
-    btn_label: "Prøv programmet"
+    excerpt: "Vi har samlet en masse træningsprogrammer, som du kan bruge til at forberede dig til den fysiske optagelsesprøve. Der er både programmer til dig der har adgang til et træningscenter eller gerne vil have et program uden så meget udstyr."
+    url: "/traening-politiets-fysiske-test/"
+    btn_label: "Find program her"
     btn_class: "btn--success"
 breadcrumb: true
 ---
@@ -40,7 +40,7 @@ Politiets optagelsesprøve er første skridt mod en karriere som betjent. For at
 
 På denne side får du et overblik over optagelsesprøven, og vi guider dig til specifikke tests og krav, så du kan forberede dig bedst muligt.
 
-## Prøv de fysiske tests
+## Prøv de fysiske tests til optagelsesprøven
 
 {% include feature_row id="feature_row_police_tests" type="left" %}
 
@@ -58,7 +58,7 @@ Tjek politiparat og gør det hele meget bedre
 
 {% endcomment %}
 
-## Træningsprogram
+## Træningsprogram til de fysiske prøver
 
 Hvis du gerne vil forberede dig til den fysiske optagelsesprøve, så prøv vores træningsprogra, som er lavet af en af de rutinerede undervisere af politiaspiranter på Vejle Idrætshøjskole.
 
@@ -71,7 +71,7 @@ Hvis du gerne vil forberede dig til den fysiske optagelsesprøve, så prøv vore
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 4 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}

@@ -16,6 +16,14 @@ tags:
 last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 classes: wide
+feature_row_guide_own_program:
+  - image_path: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Sådan laver du dit eget løbeprogram"
+    title: "Sådan laver du dit eget løbeprogram"
+    excerpt: "I denne guide får du 5 enkle trin, der hjælper dig med at planlægge din løbetræning – uanset om du er begynder eller erfaren løber."
+    url: "/guide-til-loebeprogram/"
+    btn_label: "Sådan gør du"
+    btn_class: "btn--info"
 ---
 
 Det er en god ide at have et løbeprogram, hvis du vil ordentligt i gang med at løbe. Det er motiverende, du sikrer dig fremgang, og i et godt program undgår du også irriterende overbelastningsskader.
@@ -122,6 +130,10 @@ På listen herunder kan du finde et begynder løbeprogram.
 
 {% endcomment %}
 
+## Hvordan laver du dit eget løbeprogram?
+
+{% include feature_row id="feature_row_guide_own_program" type="left" %}
+
 ## Alle løbeprogrammer
 
 Her kan du se alle løbeprogrammerne, som vi har skrevet om på denne side.
@@ -141,7 +153,7 @@ Her kan du se alle løbeprogrammerne, som vi har skrevet om på denne side.
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "guide" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
   {% for post in site_posts limit:16 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}

@@ -1,8 +1,9 @@
 ---
-title: &title "Parat til Politiets fysiske test - sådan klarer du kravene"
-permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
+title: &title "Krav til Politiets fysiske test (Guide)"
 seo_title: "Politiets fysiske tests og krav – sådan klarer du dem"
+permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
 excerpt: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bænkpres og længdespring. Se kravene, og få træningstips til at bestå."
+description: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bænkpres og længdespring. Se kravene, og få træningstips til at bestå."
 last_modified_at: 2024-08-17T09:41:09Z
 language: da
 header:
@@ -22,6 +23,18 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: indirekte test
+keywords:
+  - politiets fysiske testkrav
+  - optagelsesprøve politiet fysiske krav
+  - fysiske krav politibetjent
+feature_row_police_program:
+  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
+    alt: "Træningsprogram til optagelsesprøven"
+    title: "Træningsprogram til optagelsesprøven"
+    excerpt: "Vi har samlet en masse træningsprogrammer, som du kan bruge til at forberede dig til den fysiske optagelsesprøve. Der er både programmer til dig der har adgang til et træningscenter eller gerne vil have et program uden så meget udstyr."
+    url: "/traening-politiets-fysiske-test/"
+    btn_label: "Forbered dig til den fysiske prøve"
+    btn_class: "btn--success"
 ---
 
 Politiets fysiske test er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition, styrke og hurtighed. For at bestå skal du leve op til minimumskravene for øvelser som 2400 meter løb, bænkpres, længdespring og kropshævninger. 
@@ -40,38 +53,7 @@ Den fysiske optagelsesprøve til Politiet tager omkring tre timer inklusiv tilba
 
 Jeg gennemgår i det følgende de forskellige fysiske [krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og fysiske [krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation.
 
-## Træn til hele den fysiske test
-
-Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve.
-
-Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner disciplinerne enkeltvis.
-
-Politiets fysiske test har både en opvarmningsdel og fem delprøver. De fem delprøver bliver vurderet efter syvtrinsskalaen, og du skal leve op til minimumskravene i alle prøverne for at bestå den samlede prøve.
-
-Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.
-
-## Udstyr til politiets fysiske tests
-
-Testen foregår typisk både indendørs og udendørs. Det er godt at have fornuftigt fodtøj med til testene.
-
-- **Indendørs sko**. Brug lave, skridsikre sko, da gulvene i hallerne ofte kan være glatte. Det er særligt vigtigt i otte-tals-testen.
-- **Udendørs løb**. Her kan du med fordel have løbesko på.
-
-## Forberedelse til politiprøvens fysiske krav
-
-Uanset om du er mand eller kvinde, så bør forberedelserne være nogenlunde ens. Du skal naturligvis sørge for at træne specifikt til netop de fysiske krav og øvelser, du kommer ud for i selve prøven.
-
-Når du træner op til prøverne, så husk følgende træningsprincipper:
-
-- Princippet om **progressivt overload**. Byg langsomt mere og mere på din træning og lav en fornuftig plan. Du skal ikke starte din træning med det du gerne vil opnå, men bygge op til dine mål.
-- Princippet om **specificitet**. Du bliver god til det du træner. Hvis du gerne vil blive bedre på længdespringet og 2400-meter-testen, så skal du træne de discipliner. Det kommer ikke af sig selv ved at lave bænkpres.
-- **Træn sammenhængen**. Det hænger egentlig sammen med princippet om specificitet. Prøven er lang, og du skal lave både opvarmning og delprøver til den fysiske optagelsesprøve hos politet. Derfor er det godt at få trænet elementerne i den rækkefølge sommetider også.
-
-Sæt dig grundigt ind i den politiprøvens fysiske krav, så du kender alle øvelserne, hvordan de udføres, og hvordan du griber dem an. **Du bliver god til det du træner**, så derfor gælder det om at udføre øvelserne perfekt hver gang, så dine forsøg lever op til de fysiske krav, der stilles til prøven. Det er ærgerligt at få underkendt forsøg.
-
-Politiet tilbyder en [træningsvejledning](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/traeningsvejledning-opdateret-161219-aa.pdf), som giver nogle retningslinjer for at træne til de enkelte discipliner, men træningsplanen er ikke integreret. Du skal således selv i gang med stykke en samlet træningsplan sammen eller måske vælge et højskoleophold, hvor lærerne kan hjælpe dig med at [forberede dig til politiets optagelsesprøve](https://www.vih.dk/fag/politi) eller også skal du have fat i en [personlig træner](https://styrkmig.dk/ep-134-politiets-optagelsesprove-sadan-bestar-du-den-fysiske-del/).
-
-## Politiets fysiske tests til optagelsesprøven
+## Oversigt over Politiets fysiske tests
 
 Elementerne i den fysiske optagelsesprøve er ens for både mænd og kvinder.
 
@@ -79,20 +61,16 @@ Forskellen mellem mænd og kvinder er, hvordan de enkelte øvelser bedømmes, hv
 
 Øvelserne i politiets fysiske optagelsesprøve er følgende:
 
-- Opvarmning
-- Hurtighedstest
-- Længdespring
-- Kropshævninger (mænd udfører pullups og kvinder udfører bodyrows)
-- Bænkpres
-- 2400 meter løb
+1. Opvarmning
+2. Hurtighedstest
+3. Længdespring
+4. Kropshævninger (mænd udfører pullups og kvinder udfører bodyrows)
+5. Bænkpres
+6. 2400 meter løb
 
-## Hvordan bedømmes politiets fysiske optagelsesprøve?
+***
 
-Alle de fem fysiske delprøver vægtes lige, og det samlede resultat er det matematiske gennemsnit af de karakterer, du opnår i hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meter løb. Til sidst afrundes din karakter til den nærmeste hele karakter på 7-trinsskalaen.
-
-Du skal gennemføre opvarmningen, og du skal have mere end 00 og -3 i alle delprøverne for at bestå den fysiske optagelsesprøve til politiet.
-
-## Opvarmning til politiets fysiske tests
+## 1️⃣ Opvarmning til politiets fysiske tests
 
 Opvarmningen er den første del af politiprøvens fysiske test. Opvarmningen skal gøre dig klar til prøvens øvrige elementer, men nogle bliver overrasket over, at opvarmningen også er udmattende.
 
@@ -107,7 +85,9 @@ For at bestå opvarmningen skal du gennemføre alle øvelserne og elementerne i 
 **Læs**: [Opvarmning til politiets fysiske test](/politiets-fysiske-test/opvarmning/)
 {: .notice }
 
-## Hurtighedstest
+***
+
+## 2️⃣ Hurtighedstest
 
 **Udgangsstilling**: Med keglen på din venstre side tager du opstilling bag startlinjen med hænder, knæ og underbøjede tæer i gulvet. Lår og arme skal følge en lodret linje mod underlaget.
 
@@ -128,7 +108,9 @@ Du får en karakter på baggrund af løbetiden.
 | 00       | 17,6 - 18,1 sek.         | 18,8 - 19,3 sek.         |
 | \-3      | 18,2 sek. eller derover  | 19,4 sek. eller derover  |
 
-## Længdespring
+***
+
+## 3️⃣ Længdespring
 
 **Udgangsstilling:** Stå med begge fødder bag 0-centimetermarkeringen.
 
@@ -151,11 +133,14 @@ Længden af springet rundes ned til nærmeste 5 centimeter. Den afrundede længd
 | 00       | 200 - 209 cm         | 150 - 159 cm         |
 | \-3      | 199 cm eller kortere | 149 cm eller kortere |
 
-## Kropshævninger for mænd
+## 4️⃣ Kropshævninger
 
-{% include video provider="youtube" id="ZgFmCNBh-UY" %}
+<details markdown="1" class="faq">
+  <summary<h3>Kropshævninger for mænd</h3></summary>
 
 Du har ét forsøg til at gennemføre op til 14 kropshævninger.
+
+{% include video provider="youtube" id="ZgFmCNBh-UY" %}
 
 Bommen bliver indstillet, så du så vidt muligt kan hænge fuldt udstrakt uden at røre gulvet.
 
@@ -169,11 +154,14 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 
 Jeg har skrevet en mere grundig vejledning til, [hvordan du kan lære at tage en pullup med et træningsprogram]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}).
 
-## Kropshævninger for kvinder
+</details>
 
-{% include video provider="youtube" id="5hdTHhQJQp8" %}
+<details markdown="1" class="faq">
+  <summary<h3>Kropshævninger for kvinder</h3></summary>
 
 Du har ét forsøg til at gennemføre op til 22 kropshævninger.
+
+{% include video provider="youtube" id="5hdTHhQJQp8" %}
 
 Bommen indstilles i cirka 90 centimeters højde, og en plintkasse, der er cirka 40 centimeter høj, placeres cirka en kropslængde fra bommen.
 
@@ -184,8 +172,9 @@ Bommen indstilles i cirka 90 centimeters højde, og en plintkasse, der er cirka 
 Du får karakter ud fra det antal godkendte gentagelser, du gennemfører.
 
 Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
+</details>
 
-## Bedømmelse af kropshævning for mænd og kvinder
+### Bedømmelse af kropshævning
 
 |          | Mænd (pullup)     | Kvinder (bodyrow) |
 | -------- | ----------------- | ----------------- |
@@ -198,13 +187,15 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 | 00       | 3                 | 3 - 4             |
 | \-3      | 0 - 2             | 0 - 2             |
 
-## Bænkpres
+***
+
+## 5️⃣ Bænkpres
+
+Du har ét forsøg til at udføre testens maksimalt 12 gentagelser med en forudbestemt belastning.
 
 {% include video provider="youtube" id="lc1CIASe2So" %}
 
 Du oplyser, hvilken vægtbelastning (kg), du ønsker at udføre testen med.
-
-Du har ét forsøg til at udføre testens maksimalt 12 gentagelser med en forudbestemt belastning.
 
 **Udgangsstilling:** Du skal ligge på ryggen på bænken med vægtstangen i strakte arme.
 
@@ -216,7 +207,8 @@ Du får karakter på baggrund af det antal godkendte gentagelser, du gennemføre
 
 Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 
-### Bænkpres for mænd
+<details markdown="1" class="faq">
+  <summary<h3>Bænkpres for mænd</h3></summary>
 
 | Karakter | 8 - 9 gentagelser med vægtbelastning:           | 10 - 12 gentagelser med vægtbelastning: |
 | -------- | ----------------------------------------------- | --------------------------------------- |
@@ -228,7 +220,10 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 | 00       | 50 kg                                           | \-                                      |
 | \-3      | 7 eller færre gentagelser uanset vægtbelastning |
 
-### Bænkpres for kvinder
+</details>
+
+<details markdown="1" class="faq">
+  <summary<h3>Bænkpres for kvinder</h3></summary>
 
 | Karakter | 8 - 9 gentagelser med vægtbelastning:           | 10 - 12 gentagelser med vægtbelastning: |
 | -------- | ----------------------------------------------- | --------------------------------------- |
@@ -240,7 +235,11 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 | 00       | 30 kg                                           | \-                                      |
 | \-3      | 7 eller færre gentagelser uanset vægtbelastning |
 
-## 2400 meter løb
+</details>
+
+***
+
+## 6️⃣ 2400 meter løb
 
 Politiets fysiske krav inkluderer også [Coopers 2400 meter test](/kondital-2400-meter/). Politiet har lavet sine egne krav til testen. Tjek testen ud herunder.
 
@@ -263,10 +262,45 @@ Ved prøven kan der være forskelligt løbeunderlag og vekslende vejrforhold.
 | 00       | 12:01 - 12:30       | 13:31 - 14:00        |
 | \-3      | 12:31 eller derover | 14:01 eller derover  |
 
-## Træning til politiets fysiske tests
+***
 
-Nu er det egentlig bare at komme i gang med træningen til politiets fysiske tests, så du kan leve op til de krav politiets optagelsesprøve stiller.
+## Hvordan bedømmes politiets fysiske optagelsesprøve?
 
-For at opfylde politiets optagelseskrav, så er det vigtigt, at du forbereder dig ordentligt til de fysiske krav.
+Alle de fem fysiske delprøver vægtes lige, og det samlede resultat er det matematiske gennemsnit af de karakterer, du opnår i hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meter løb. Til sidst afrundes din karakter til den nærmeste hele karakter på 7-trinsskalaen.
+
+Du skal gennemføre opvarmningen, og du skal have mere end 00 og -3 i alle delprøverne for at bestå den fysiske optagelsesprøve til politiet.
+
+***
+
+## Træn til hele den fysiske test
+
+Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve.
+
+Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner disciplinerne enkeltvis.
+
+Politiets fysiske test har både en opvarmningsdel og fem delprøver. De fem delprøver bliver vurderet efter syvtrinsskalaen, og du skal leve op til minimumskravene i alle prøverne for at bestå den samlede prøve.
+
+Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.
+
+***
+
+## Udstyr til politiets fysiske tests
+
+Testen foregår typisk både indendørs og udendørs. Det er godt at have fornuftigt fodtøj med til testene.
+
+- **Indendørs sko**. Brug lave, skridsikre sko, da gulvene i hallerne ofte kan være glatte. Det er særligt vigtigt i otte-tals-testen.
+- **Udendørs løb**. Her kan du med fordel have løbesko på.
+
+***
+
+## Træning til de fysiske krav - Klar til næste skridt?
+
+Nu har du et klart overblik over kravene til politiets fysiske optagelsesprøve – og ved, hvad du bliver målt på.
+
+Det næste skridt er at komme i gang med en målrettet træningsindsats, så du kan forbedre din form og øge dine chancer for at bestå.
+
+👉 [Se træningsprogrammer og forberedelse til politiets fysiske test »](/traening-politiets-fysiske-test/)
 
 Måske kunne du også tænke dig at se, hvad [forsvarets fysiske krav](/forsvarets-fysiske-test/) er.
+
+{% include feature_row id="feature_row_police_program" type="left" %}

@@ -32,6 +32,14 @@ feature_row_howto_program:
     url: "/traeningsprogram-programlaegning-styrketraening/"
     btn_label: "Lav dit eget program"
     btn_class: "btn--info"
+feature_row_choose_program:
+  - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
+    alt: "Hvad er et godt styrketræningsprogram?"
+    title: "Sådan vælger du et styrketræningsprogram"
+    excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
+    url: "/vaelg-traeningsprogram/"
+    btn_label: "Vælg det rette styrketræningsprogram"
+    btn_class: "btn--info"
 ---
 
 Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
@@ -39,6 +47,10 @@ Find et gratis træningsprogram til styrketræning mellem vores klassiske styrke
 Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebeprogrammer/).
 
 Typisk kan det med et styrketræningsprogram betale sig at gøre det så enkelt som muligt, og langt de fleste vil have bedre af at starte med et enkelt træningsprogram.
+
+## Hvordan vælger du et styrketræningsprogram
+
+{% include feature_row id="feature_row_choose_program" type="left" %}
 
 ## Træningsprogrammer til styrketræning fullbody, 2-split, 3-split, 4-split og 5-split
 
@@ -62,23 +74,7 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 </div>
 
-## Flere forslag til styrketræningsprogrammer
-
-Tag udgangspunkt i et af de mange effektive styrkeprogrammer her og tilpas dem til dine behov.
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.programs | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Hvordan laver jeg mit eget styrketræningsprogram?
+## Sådan laver du et styrketræningsprogram selv
 
 {% include feature_row id="feature_row_howto_program" type="left" %}
 
@@ -91,6 +87,22 @@ Tag udgangspunkt i et af de mange effektive styrkeprogrammer her og tilpas dem t
 {% if articles.size > 0 %}
   {% for post in articles %}
     {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Flere forslag til styrketræningsprogrammer
+
+Tag udgangspunkt i et af de mange effektive styrkeprogrammer her og tilpas dem til dine behov.
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.programs | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 

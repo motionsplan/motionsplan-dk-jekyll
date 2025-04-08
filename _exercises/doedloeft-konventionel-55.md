@@ -172,35 +172,35 @@ Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange
 
 Her er nogle af de typiske fejl en begynder laver i dødløft (inspireret af [gilbaks.dk](https://gilbaks.dk/5-typisk-doedloeft-fejl/)).
 
-<details>
+<details markdown="1" class="faq">
   <summary>Neutral rygposition - undgå krum ryg</summary>
   Når du løfter, skal du sikre dig, at din ryg er neutral og ikke krummer eller overekstenderer. Dette hjælper med at opretholde korrekt teknik og undgå unødvendig belastning på rygsøjlen.
 
 {% include video provider="youtube" id="AoA4UfBrhzg" %}
 </details>
 
-<details>
+<details markdown="1" class="faq">
   <summary>Kontrolleret løft - ingen bounce i bunden</summary>
   Stangen skal være helt stille på jorden, før du starter en ny gentagelse. Et kontrolleret løft uden at “bounce” stangen giver bedre teknik og styrke.
 
 {% include video provider="youtube" id="i34qxNw4Bog" %}
 </details>
 
-<details>
+<details markdown="1" class="faq">
   <summary>Hensigtsmæssig startposition - undgå squat-dødløft</summary>
   Undgå at starte for lavt som i en squat. Det er bedst at bruge en højere hofteposition, så benene, ballerne og ryggen arbejder sammen for at løfte korrekt.
 
 {% include video provider="youtube" id="c7zeu-6WeRM" %}
 </details>
 
-<details>
+<details markdown="1" class="faq">
   <summary>Undgå overstrækning af ryggen i toppen</summary>
   Når du afslutter løftet, skal du sikre dig, at ryggen ikke bliver overstrakt. Slut med en neutral rygposition og undgå at presse hofterne for langt frem.
 
 {% include video provider="youtube" id="BxZ6Nr_7YRQ" %}
 </details>
 
-<details>
+<details markdown="1" class="faq">
   <summary>Ikke plads til benene mellem armene</summary>
   Sørg for, at du holder stangen i en bred nok position, så dine knæ ikke falder indad under løftet. Dette giver bedre stabilitet og korrekt teknik.
 

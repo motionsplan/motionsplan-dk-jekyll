@@ -15,8 +15,17 @@ tags:
 breadcrumbs: true
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
+  overlay_image: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  actions:
+    - label: "<i class='fas fa-running'></i> Løbeprogrammer →"
+      url: "/loebeprogrammer/"
+    - label: "<i class='fas fa-dumbbell'></i> Styrkeprogrammer →"
+      url: "/styrketraeningsprogrammer/"
+    - label: "<i class='fas fa-shoe-prints'></i> Gåprogrammer →"
+      url: "#walking-programs"
+    - label: "<i class='fas fa-list-alt'></i> Andre programmer →"
+      url: "#other-programs"
 faq:
   - question: "Hvilket træningsprogram skal jeg vælge?"
     answer: "Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/), som du kan lade dig inspirere af."
@@ -37,13 +46,13 @@ feature_row_template:
     url: /skabeloner/
     title: "Skabeloner til træningsprogrammer"
     excerpt: "Har du brug for en skabelon til dit træningsprogram, så kan du lade dig inspirere af vores GRATIS skabeloner til træningsporgrammer."
-    btn_label: "<i class='fas fa-file-alt'></i> Tjek skabeloner til træningsprogrammer"
+    btn_label: "<i class='fas fa-file-alt'></i> Find skabeloner til træningsprogrammer"
     btn_class: "btn--info"
     rel: nofollow noopener
 feature_row_good_program:
   - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
     alt: "Hvad er et godt styrketræningsprogram?"
-    title: "Hvad er et godt styrketræningsprogram?"
+    title: "Sådan vælger du et styrketræningsprogram"
     excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
     url: "/vaelg-traeningsprogram/"
     btn_label: "Vælg det rette styrketræningsprogram"
@@ -53,7 +62,7 @@ feature_row_walking_training:
     url: /gangtraening/
     title: "Træning og gang"
     excerpt: "Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning."
-    btn_label: "Inspiration til gåtræning"
+    btn_label: "<i class='fas fa-shoe-prints'></i> Inspiration til gåtræning"
     btn_class: "btn--info"
 ---
 
@@ -77,7 +86,7 @@ Her finder du træningsprogrammer til forskellige formål og niveauer – fra ny
   {% endfor %}
 {% endif %}
 
-[Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .btn--center }
+[<i class='fas fa-running'></i> Se alle løbeprogrammer](/loebeprogrammer/){: .btn .btn--success .btn--large .btn--center }
 
 </div>
 
@@ -101,15 +110,17 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
   {% endfor %}
 {% endif %}
 
-[Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center }
+[<i class='fas fa-dumbbell'></i> Se alle styrketræningsprogrammer](/styrketraeningsprogrammer/){: .btn .btn--success .btn--center .btn--large }
 
 </div>
 
 ## Gangprogrammer - gå dig i form
+{: id="walking-programs" }
 
 {% include feature_row id="feature_row_walking_training" type="left" %}
 
 ## Flere forslag til træningsprogrammer
+{: id="other-programs" }
 
 Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
 

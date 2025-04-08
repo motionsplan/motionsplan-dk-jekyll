@@ -32,7 +32,7 @@ Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhje
 
 {% include video provider="youtube" id="ewZ76WPuWaM" ezoic="ezoic-pub-video-placeholder-3" %}
 
-## Hvordan kan du starte træningen mod optagelsesprøven til politiet?
+## Sådan kan du starte træningen mod optagelsesprøven til politiet
 
 Afhængig af din nuværende træningstilstand kan du vælge inden for et spektrum af muligheder. Det kræver lidt selverkendelse. 
 
@@ -42,21 +42,30 @@ Mere træning er kun bedre end mindre træning, indtil det bliver for meget og b
 
 Formålet med løbetræningen og konditionstræningen er at flytte din [maksimale iltoptagelse](/kondition/tests/) og din [løbeøkonomi](/lobeokonomi/).
 
-Det kan være en god ide i første uge at starte med at lave [2400-meter-testen](/kondital-2400-meter/). Vi har lavet en beregner, så du kan tjekke dit kondital, men du kan også kigge efter din karakter under beskrivelsen af [politiprøvens fysiske krav](/politiets-fysiske-tests-krav-optagelsesproeve/).
+Det kan være en god ide i første uge at starte med at lave [2400-meter-testen](/kondital-2400-meter/). Du kan tjekke dit kondital i vores beregner, men du kan også kigge efter din karakter under beskrivelsen af [politiprøvens fysiske krav](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
 Jeg foreslår, at du **løber 2-3 gange om ugen**. Du kunne bygge løbetræningen op på denne måde:
 
-### Hvis du løber 2 ture om ugen
+<details markdown="1" class="faq">
+  <summary><h3>Hvis du løber 2 ture om ugen</h3></summary>
 
-Hvis 2 ture: 1 gang med intervaller 4-10 gange 200-800 meter med 15 til 60 sekunders hvile mellem intervaller. 1 gang med kontinuerligt løb i så højt tempo som muligt 15-30 min.			
+- 1 gang med intervaller 4-10 gange 200-800 meter med 15 til 60 sekunders hvile mellem intervaller.
+- 1 gang med kontinuerligt løb i så højt tempo som muligt 15-30 min.			
+</details>
 
-### Hvis du løber 3 ture om ugen
+<details markdown="1" class="faq">
+  <summary><h3>Hvis du løber 3 ture om ugen</h3></summary>
 
-Hvis 3 ture: Tilføj en tur i langsomt tempo i 30-60 min.			
+- 1 gang med intervaller 4-10 gange 200-800 meter med 15 til 60 sekunders hvile mellem intervaller.
+- 1 gang med kontinuerligt løb i så højt tempo som muligt 15-30 min.			
+- 1 tur i langsomt tempo i 30-60 min.			
+</details>
 
 ### Hvis du ikke er vant til at løbe
 
-Hvis du ikke er vant til at løbe, så start på de laveste anbefalinger (2 ture om ugen med en tur på 4 gange 200 meter og en tur på 15 min kontinuerligt løb) og øg derfra. Det værste for ens fremgang i løb er at få skinnebensbetændelse eller løberknæ. Derfor skal du huske at bygge kroppen fornuftigt op til løb. Det er ikke dagens træning, der er den vigtigste. Det er hvordan dagens træning gør dig klar til den næste træning.
+Hvis du ikke er vant til at løbe, så start på de laveste anbefalinger (2 ture om ugen med en tur på 4 gange 200 meter og en tur på 15 min kontinuerligt løb) og øg derfra. Det værste for ens fremgang i løb er at få skinnebensbetændelse eller løberknæ.
+
+Derfor skal du huske at bygge kroppen fornuftigt op. Det er ikke dagens træning, der er den vigtigste. Det er hvordan dagens træning gør dig klar til den næste træning.
 
 ## Styrketræning mod politiets fysiske optagelssesprøve
 
@@ -70,7 +79,7 @@ Når du skal planlægge din hjemmetræning i styrketræning, så du kan forbered
 
 I forhold til politiets fysiske optagelsesprøve, så er der tre vigtige kategorier, som du kan forberede dig på.
 
-### Kategori 1: Bænkpres
+### 1️⃣ Kategori 1: Bænkpres
 
 Bænkpres er det nemmeste at træne til uden træningsudstyr, da man kan få en rigtig god træningseffekt med forholdsvis god transferværdi til bænkpres af forskellige varianter af armstrækkere.
 
@@ -82,7 +91,7 @@ Vælger man to varianter der er meget forskellige kan man godt lave to øvelser 
 
 Du skal vælge nogle varianter, som udfordrer dig styrkemæssigt. Men det kan alle finde, også selvom du bænker mange kilo.
 			
-### Kategori 2: Kropshævninger
+### 2️⃣ Kategori 2: Kropshævninger
 
 Kropshævninger er hvor man har færrest muligheder uden udstyr. Kvinder kan dog træne forholdsvis effektivt mod deres horisontale kropshævninger i form af fx [Table Rows](/oevelse/table-rows/). Vær opmærksom på, at man ikke skal trække sig så højt op til politiets optagelsesprøve, da bommen er ret bred. Til gengæld skal man huske at fødderne skal ligge på en stol eller tilsvarende, hvis du gerne vil efterligne forholdene til politiets optagelsesprøve. Du kan sagtens have fødderne på jorden for at træne, og få flere gentagelser ind.
 
@@ -90,7 +99,7 @@ Mænd kan også få god allround træning af den øvre ryg med [Table Rows](/oev
 
 Hvis du har en pullupbar eller du kan finde en god gren eller et skilt udenfor, så er almindelige kropshævninger selvfølgelig at foretrække for mændene, hvis du er stærk nok til at lave dem. Du kan læse mere om [kropshævninger med et træningsprogram til at lære at tage en pullup og en chinup](/laer-kropshaevning-chinup-pullup-program/). Du kan også læse om [forskellen på chinups og pullups](/chinup-vs-pullup/). Det er pullups drengene skal tage til politiets optagelsesprøve, men chinups kan også være en god måde at træne op til det på.
 			
-### Kategori 3: Bentræning
+### 3️⃣ Kategori 3: Bentræning
 
 Der er ingen klassisk styrketræningsøvelse til benene til politiets optagelsesprøve, men både til hurtighedstesten og stående længdespring er det en kæmpe fordel at have stærke ben. Derfor anbefaler vi at lave styrketræning til benene, udover at øve selve disciplinerne.
 
@@ -98,13 +107,14 @@ Der er ingen klassisk styrketræningsøvelse til benene til politiets optagelses
 
 Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/), [lunges](/lunges/), jumping lunges, [squats](/squat/), jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.	
 
-## Eksempler træning i forhold til politiets optagelsesprøve
+## Eksempler på træning i forhold til politiets optagelsesprøve
 
 Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser. Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
 
 Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lave hjemme uden udstyr, når du gerne vil forberede dig til politiets fysiske optagelsesprøve.
 
-## Begyndere: Ugentligt begyndertræningsprogram
+<details markdown="1" class="faq">
+  <summary><h3 id="program-beginner">🟢 Begynder - 5 ugentlige træninger</h3></summary>
 
 #### Mandag
 
@@ -131,7 +141,10 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 - Nordic hamstring curls - 3 sæt af 5 gentagelser
 - Jump squats - 2 sæt af 15 gentagelser
 
-## Begyndere: Begyndertræningsprogram
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="program-intermediate">🟡 Let øvet - 4 ugentlige træninger</h3></summary>
 
 #### Mandag
 
@@ -155,7 +168,10 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 
 - Jog 20 min kontinuerligt
 
-## Øvede: Træningsprogram for øvede
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="program-trained">🟠 Øvede - Træningsprogram for øvede</h3></summary>
 
 #### Mandag
 
@@ -190,7 +206,10 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 - Nordic hamstring curls - 5 sæt af 6 gentagelser
 - Lunges - 4 sæt af 25 gentagelser til hvert ben
 
-## Træningsprogram til politiet for øvede
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="program-advanced">🔴 Meget øvede - Træningsprogram til politiet</h3></summary>
 
 #### Mandag
 
@@ -226,9 +245,13 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 
 - 50 min roligt jog
 
+</details>
+
 ## Andre træningsprogrammer
 
 Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Du kan bygge din træning op på mange forskellige måder.
+
+Du kan lade dig inspirere til, hvordan du kan [forberede dig til politiets fysiske test](/traening-politiets-fysiske-test/).
 
 Vi har andre forslag til [træningsprogrammer](/traeningsprogrammer/), [styrketræningsprogrammer](/styrketraeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 

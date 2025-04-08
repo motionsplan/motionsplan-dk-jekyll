@@ -1,5 +1,8 @@
 ---
 title: &title "Sådan vælger du træningsprogram til styrketræning?"
+seo_title: "Vælg det rigtige styrketræningsprogram til dine mål og dit niveau"
+description: "Find det træningsprogram, der passer bedst til dine mål, erfaring og hverdag. Få hjælp til at vælge mellem styrke, løb, vægttab, kondition og mere."
+excerpt: "Find det træningsprogram, der passer bedst til dine mål, erfaring og hverdag. Få hjælp til at vælge mellem styrke, løb, vægttab, kondition og mere."
 permalink: /vaelg-traeningsprogram/
 header:
   overlay_image: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
@@ -8,7 +11,6 @@ header:
 category:
   - Styrketræning
 tags:
-  - træningsprogram
   - begynder
   - guide
 last_modified_at: 2021-08-16T10:14:14Z
