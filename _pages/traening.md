@@ -80,7 +80,7 @@ feature_row_exercises:
 feature_row_injuries:
   - image_path: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Skader"
-    title: "Hvad gør du når du har fået en skade?"
+    title: "Hvad gør du, hvis du har fået en skade?"
     excerpt: "Skader kan være en stor udfordring for både nybegyndere og erfarne idrætsudøvere. Her får du indsigt i de mest almindelige skader, hvad der forårsager dem, og hvordan du kan forebygge og behandle dem."
     url: "/skader/"
     btn_label: "Læs mere om skader"

@@ -51,11 +51,11 @@ Derfor findes der en række forskellige beregningsmodeller, som kan deles op i e
 
 Lad os dykke ned i nogle af de forskellige typer modeller til at sammenligning løft i styrketræning her.
 
-## 1. Relativ styrke
+### 1. Relativ styrke
 
 Det er let at bruge relativ styrke som en måde at sammenligne på. Du tager bare et løft, og så deler du det med kropsvægten. Sammenhængen mellem styrke og vægt er imidlertid ikke lineær, så denne måde at sammenligne på er ikke helt rimelig.
 
-## 2. Sammenligne med styrkestandarder
+### 2. Sammenligne med styrkestandarder
 
 En anden måde at sammenligne styrken med andre er at gå ud fra tabeller med styrkestandarder. Der findes en lang række forskellige tabeller. Den mest brugte er formentlig tabellen fra [www.exrx.net](https://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), men du kan finde lignende tabeller på [symmetricstrength.com](https://symmetricstrength.com/), [strengthlevel.com](https://strengthlevel.com/), [strengthstandards.com](https://strengthstandards.com/) og [www.muscleandstrength.com](https://www.muscleandstrength.com/articles/strong-strength-standards-raw-natural-lifters).
 
@@ -65,13 +65,13 @@ Der er nogle undtagelser. Fx har [www.muscleandstrength.com](https://www.musclea
 
 Mange af disse tabeller har heller ikke data, der gælder for kvinder. Og der er jo også rigtig mange kvinder, som gerne vil løfte og sammenligne sig selv med andre. Styrkestandardtabellerne tager heller ikke kropshøjden med som parameter. Hvis to personer vejer det samme og løfter det samme, men en er højere end den anden, så er den høje i realiteten en bedre løfter ifølge [Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/).
 
-## 3. Wilks score
+### 3. Wilks score
 
 [Wilks Score](https://en.wikipedia.org/wiki/Wilks_Coefficient) er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser. _Wilks score_ er for nylig blevet afløst af IPF Points i styrkeløft.
 
 {% include calculator/calculate-strength-wilks.html %}
 
-## 4. IPF Points
+### 4. IPF Points
 
 I International Powerlifting Federation har man erstattet Wilks Score med en ny formel, som er blevet revideret et par gange. Du kan se og beregne ud fra den nyeste udgave - som kaldes IPF GL formlen - hos [Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel) eller i nedenstående beregner.
 
@@ -83,7 +83,7 @@ Hvorfor valgte IPF at udvikle en ny formel til at gøre konkurrencerne mere retf
 >
 > --- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
 
-### McCulloch aldersjustering
+#### McCulloch aldersjustering
 
 Min alder stiger hver eneste år. Derfor synes jeg det bliver mere og mere interessant at tage alderen med, når man skal sammenligne styrkeniveauet med andre. Heldigvis kan McCulloch hjælpe med at aldersjustere mine løft.
 
@@ -91,7 +91,7 @@ Min alder stiger hver eneste år. Derfor synes jeg det bliver mere og mere inter
 >
 > --- <cite>[WeightTraining.NZ](https://weighttraining.nz/ipf_calculator.php)</cite>
 
-## 5. Greg Nuckols styrkesammenligning
+### 5. Greg Nuckols styrkesammenligning
 
 [Greg Nuckols](https://www.strongerbyscience.com/objective-strength-standards/) har lavet en ret genial [beregner til sammenligning af styrke](https://www.strongerbyscience.com/objective-strength-standards/), som giver dig et bud på, hvor stærk du er i forhold til andre.
 
@@ -135,7 +135,7 @@ TODO lav linket, når jeg har skrevet artiklen
 
 {% comment %}
 
-## Dr. Mel Siff
+### 6. Dr. Mel Siff
 
 Mel Siff har i _[Supertraining](https://www.amazon.com/Supertraining-Yuri-V-Verkhoshansky/dp/8890403810)_ beskrevet [følgende formular](https://www.benchpresschampion.com/FORMULES/SIFF.htm){:rel="nofollow"} til sammenligning på tværs af vægtklasser.
 
@@ -156,7 +156,7 @@ hvor T er forventet for en topklasseløfter, og hvor bw er kropsvægt (kg) og `a
 
 {% include calculator/calculate-strength-siff.html %}
 
-## Index100
+### 7. Index100
 
 Morten Zacho har udviklet en [Index100 beregner](https://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast.
 

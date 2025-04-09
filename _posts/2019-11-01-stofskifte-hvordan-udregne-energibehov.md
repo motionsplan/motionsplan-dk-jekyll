@@ -165,7 +165,7 @@ Når du har beregnet dit energibehov, er det tid til at eksperimentere og juster
 
 ## Brug vores beregnere til hurtigere resultater ⚡
 
-Er du ikke til at regne selv? Brug vores [TDEE-beregner](https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/) for at få en præcis beregning af dit daglige energiforbrug. Du kan også beregne dit **ligevægtsindtag** med vores [ligevægtsindtag-beregner](https://www.motionsplan.dk/ligevaegtsindtag-beregner/).
+Er du ikke til at regne selv? Brug vores [TDEE-beregner](/beregner/dagligt-energiforbrug-energibehov/) for at få en præcis beregning af dit daglige energiforbrug. Du kan også beregne dit **ligevægtsindtag** med vores [ligevægtsindtag-beregner](/ligevaegtsindtag-beregner/).
 
 ***
 

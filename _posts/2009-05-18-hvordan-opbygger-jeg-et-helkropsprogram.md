@@ -17,7 +17,7 @@ tags:
   - programlægning
   - begynder
   - fullbody
-  - træningsprogram
+  - programlægning
 category:
   - Styrketræning
 last_modified_at: 2021-08-03T11:44:17Z

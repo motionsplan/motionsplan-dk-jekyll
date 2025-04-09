@@ -64,7 +64,7 @@ Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående betragtn
 
 Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 
-## 1. Proteinpulver
+### 1. Proteinpulver
 
 Du kan dække dig daglige behov for protein gennem kvalitetsprotein fra mejeriprodukter, fisk, fjerkræ, æg og kød. Du behøver altså ikke tage et proteintilskud, hvis du får dækket dit proteinbehov gennem kosten.
 
@@ -107,7 +107,7 @@ Inden du [køber proteinpulver](/kosttilskud/proteinpulver/), så kan det altså
 Læs: [Hvordan får du billigst opfyldt dit proteinbehov?](/billig-protein/)
 {: .notice }
 
-## 2. Kreatin
+### 2. Kreatin
 
 **Kreatin monohydrat er det eneste kosttilskud, der har en veldokumenteret effekt på både muskelvækst og styrke.**
 
@@ -132,7 +132,7 @@ Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med
 Læs: [Kreatin: Det bedste og billigste kosttilskud?](/kreatin/)
 {: .notice }
 
-## 3. Koffein
+### 3. Koffein
 
 Den primære effekt af koffein som kosttilskud er en træthedsbekæmpende effekt, som gør, at du kan arbejde hårdere i din træning.
 
@@ -161,7 +161,7 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 Læs: [Koffein og træning: Hvordan virker det og hvor meget?](/koffein/)
 {: .notice }
 
-## 4. D-vitamin
+### 4. D-vitamin
 
 Kroppen danner selv [D-vitamin](/kosttilskud-d-vitamin/), når du får sol. Derfor er det godt at eksponere noget bar hud for solen og komme uden for i det hele taget, men du får også D-vitamin fra fed fisk.
 

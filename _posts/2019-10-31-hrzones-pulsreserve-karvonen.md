@@ -12,6 +12,7 @@ header:
 category:
   - Beregnere
 tags:
+  - beregner
   - kondition
   - træning
   - intensitet

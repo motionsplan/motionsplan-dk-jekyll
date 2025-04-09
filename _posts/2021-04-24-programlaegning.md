@@ -2,10 +2,10 @@
 last_modified_at: 2022-09-14T09:14:14.000Z
 toc: true
 author: jakob.nielsson
-title: Hvordan laver man et træningsprogram til styrketræning? 6 enkle trin!
-description: "Hvordan laver du dit eget styrketræningsprogram. Med 6 enkle trin kan du selv lave gode styrketræningsprogrammer, der passer til dine mål."
-permalink: /programlaegning-styrketraening/
+title: "6 trin til at lave dit et træningsprogram til styrketræning"
 seo_title: 6 trin til at lave dit eget træningsprogram til styrketræning
+permalink: /programlaegning-styrketraening/
+description: "Hvordan laver du dit eget styrketræningsprogram. Med 6 enkle trin kan du selv lave gode styrketræningsprogrammer, der passer til dine mål."
 header:
   overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
@@ -22,15 +22,21 @@ I denne artikel vil jeg forklare og demonstrere min fremgangsmåde til, hvordan 
 
 Artiklen fungerer som en skridt-for-skridt manual og vil guide dig fra det blanke papir til et færdiglavet program, som tager udgangspunkt i dine mål.
 
-Metoden går ud på at konstruere programmet ud fra en række teoretiske koncepter og rationelle valg. **Styrketræningsprogrammet baseres på din egen historik og dine egne fremadrettede ønsker**, så du IKKE skal vælge et halvtilfældigt program du har hørt om fra en instagrammer.
+Metoden går ud på at konstruere programmet ud fra en række teoretiske koncepter og rationelle valg. **Styrketræningsprogrammet baseres på din egen historik og dine egne fremadrettede ønsker**, så du IKKE skal vælge et halvtilfældigt program, du har hørt om fra en instagrammer.
 
 Med denne manual i baghånden kan du komme ud over "det her program" versus "det her program", men i stedet lade træningsprogrammet skrive sig selv ved at **forholde dig til dine personlige konkrete mål og behov** ved at følge retningslinjerne her.
+
+<aside markdown="1" class="pull-quote">
+Styrketræningsprogrammet baseres på din egen historik og dine egne fremadrettede ønsker
+</aside>
 
 Det er selvfølgelig et komplekst emne, og da alle mennesker er forskellige og har forskellig historik og ønsker er det svært at være specifik i anbefalinger, men jeg vil give nogle ret brede rammer, der burde passe ret godt til langt de fleste.
 
 Vi går lige til sagen med at præsentere elementerne i at kunne lave sit eget styrketræningsprogram.
 
 {% include figure image_path=page.header.overlay_image caption=page.title alt="hvordan laver du et styrketræningsprogram" %}
+
+***
 
 ## 1. Vælg muskelgrupper, løft og bevægelsesmønstre til træningsprogrammet
 
@@ -51,6 +57,8 @@ Så vurderer vi ud fra hver kategori af muskelgrupper, løft eller bevægelsesm�
 - hvor mange sæt om ugen vi skal have?
 - hvor mange træningspas det skal fordeles ud over?
 - hvilke øvelser der skal i spil?
+
+***
 
 ## 2. Beslut antal sæt og frekvens
 
@@ -79,6 +87,8 @@ Følgende figur giver en idé om, hvad der betyder mest:
 
 Er man helt i tvivl er det et godt sted at starte at tage 8 sæt om ugen til en muskelgruppe fordelt ligeligt på 2 træningspas med 1 øvelse per gang. Så kan man altid forøge antallet af sæt eller træningspas derfra i senere programmer.
 
+***
+
 ## 3. Vælg øvelser
 
 Træner du efter specifikke løft giver øvelsesvalget langt hed ad vejen sig selv; Hvis du eksempelvis gerne vil forbedre dit squat bør du selvfølgelig vælge squat. Du kan evt. supplere med øvelser der ligner eller støtter dit primære løft.
@@ -86,6 +96,8 @@ Træner du efter specifikke løft giver øvelsesvalget langt hed ad vejen sig se
 Træner du efter almen styrke bør du primært vælge de store flerleds- frivægtsøvelser, som squat, dødløft, kropshævninger/lat pulldown og stående skulderpres, for de bedste resultater.
 
 Træner du efter hypertrofi er øvelsesvalget meget fleksibelt, så længe øvelserne du vælger er nogle som du føler rammer musklen/musklerne du prøver at træne. I praksis vil man dog også her oftest have en overvægt af de store løft.
+
+***
 
 ## 4. Fordel træningen ud over ugen
 
@@ -98,6 +110,8 @@ Frekvensen kan have en betydning - især hvis man er på et vis niveau - men så
 Der er praktiske hensyn, der kan have en vis betydning, men det handler primært om præferencer, så længe man ikke gør noget ulogisk som at proppe al sin træning ind på mandag og tirsdag og så hvile hele resten af ugen eller lignende.
 
 Senere i artiklen giver jeg et håndgribeligt overblik over, hvordan denne proces kan se ud.
+
+***
 
 ## 5. Beslut programmets længde
 
@@ -123,6 +137,8 @@ En deload uge kan fungere som en mild form for nulstilling, så man igen kan få
 
 Der er ingen tvivl om at det er fordelagtigt at anvende deload uger, og at den hurtigste måde at blive stærkere og mere muskuløs på, inkluderer brugen af deload uger.
 
+***
+
 ## 6. Lav en progressionsplan for de enkelte træningsøvelser
 
 Herefter, eller samtidig med at man vælger øvelser, da det ofte vil spille sammen, skal vi til en helt ESSENTIEL del af programlægningsprocessen. Desværre en proces som rigtig mange overser, da de kalder det en dag efter at have valgt øvelser og fordelt dem ud på forskellige dage.
@@ -147,11 +163,14 @@ Antal gentagelser kan godt falde, især hvis vægten og/eller antal sæt stiger.
 
 Man skal derfor være forberedt på at justere lidt løbende. Det kan også være man render ind i en dårlig dag hvor man har sovet alt for lidt og intet spist og er slappere end forventet - så kan man også blive tvunget til at justere. Men det er meget bedre at have en plan man sandsynligvis holder og evt skal finjustere løbende, end bare at skyde i blinde.
 
+***
+
 ## Progressionsmodeller til de enkelte øvelser
 
 Tag inspiration i følgende progressionsmodeller, og ellers vær kreative - nogle gange kan det gøre en del for ens motivation hvis man "finder på" en god protokol til ens øvelser. Fx elsker jeg personligt eksempel 4 til de store løft.
 
-### Eksempel 1: Single progression
+<details markdown="1" class="faq">
+  <summary><h3>Eksempel 1: Single progression</h3></summary>
 
 Man ændrer én parameter fra uge til uge. Her har jeg valgt at gøre det med vægt - godt til styrke!
 
@@ -159,8 +178,10 @@ Man ændrer én parameter fra uge til uge. Her har jeg valgt at gøre det med v�
 * 4x6x82,5
 * 4x6x85
 * 4x6x87,5
+</details>
 
-### Eksempel 2: Double progression
+<details markdown="1" class="faq">
+  <summary><h3>Eksempel 2: Double progression</h3></summary>
 
 Her ændrer man i to parametre, hvorved man kan trække progressionen ud. Det er desværre ikke altid muligt at have så hurtig fremgang som single progression kræver!
 
@@ -171,7 +192,10 @@ Her ændrer man i to parametre, hvorved man kan trække progressionen ud. Det er
 * 3x11x17,5
 * 3x12x17,5
 
-### Eksempel 3: Total antal gentagelser
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>Eksempel 3: Total antal gentagelser</h3></summary>
 
 Her forøger man det totale antal gentagelser man vil tage i en øvelse, så tager det så mange sæt som det nu tager. Det er oplagt til kropsvægtsøvelser.
 
@@ -180,7 +204,10 @@ Her forøger man det totale antal gentagelser man vil tage i en øvelse, så tag
 * 36 gentagelser i alt med 40 kg
 * 39 gentagelser i alt med 40 kg
 
-### Eksempel 4: Styrke progression
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>Eksempel 4: Styrke progression</h3></summary>
 
 Man stiger i vægt lidt hurtigere med henblik på at træne mere fokuseret styrke, og antal gentagelser må nødvendigvis falde. Vi kompenserer for faldet i gentagelser ved at stige i antal sæt.
 
@@ -188,8 +215,10 @@ Man stiger i vægt lidt hurtigere med henblik på at træne mere fokuseret styrk
 * 4x6x95
 * 5x5x100
 * 5x4x105
+</details>
 
-### Eksempel 5: En lidt mere fleksibel tilgang
+<details markdown="1" class="faq">
+  <summary><h3>Eksempel 5: En lidt mere fleksibel tilgang</h3></summary>
 
 "+?" henviser til at afhængig af hvordan det gik i ugen inden er der mulighed for at sætte mere vægt på i den pågældende uge. I dette tilfælde hvis man fik 25 gentagelser i alle 3 sæt i uge 1 ville man stige i vægt i uge 2, og så fortsætte med den vægt de næste uger, indtil man kan tage 25 gentagelser i alle sættene igen.
 
@@ -197,6 +226,13 @@ Man stiger i vægt lidt hurtigere med henblik på at træne mere fokuseret styrk
 * 4x(15-25)x20+?
 * 5x(15-25)x20+?
 * 5x(15-25)x20+?
+
+</details>
+
+**Læs**: [Alt om progressionsmodeller](/progressionsmodeller-progressivt-overload/)
+{: .notice }
+
+***
 
 ## Sådan laver du et styrketræningsprogram!
 
@@ -211,7 +247,9 @@ Når du gerne vil lave et styrketræningsprogram, så kan du altså følge disse
 
 Lad os kigge på et eksempel, hvor du kan følge med i hele processen skridt for skridt. Så burde du kunne gøre det samme for dig selv bagefter.
 
-## Styrketræningsprogram og programlægning for David
+***
+
+## Case: Programlægning for David
 
 David er 22 år og vejer 80 kg. Han har trænet kropshævninger i lang tid inden han rigtig begyndte at løfte jern og har derfor en ret muskuløs ryg, og han er naturligt stærk i dødløft. Så de to ting vil han gerne bare vedligeholde indtil videre.
 
@@ -259,10 +297,10 @@ Progressionen i styrkeprogrammet ser sådan her ud:
 
 |        | BP     | DB BP                           | BP2      | Dips                 |
 | ------ | ------ | ------------------------------- | -------- | -------------------- |
-| Uge 1  | 3x7x70 | <nobr>3x(15-20)x14'ere</nobr>   | 6x3x65   | 20 gentagelser i alt |
-| Uge 2  | 4x6x75 | <nobr>3x(15-20)x14'ere+?</nobr> | 6x3x67,5 | 23 gentagelser i alt |
-| Uge 3  | 5x5x80 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x70   | 26 gentagelser i alt |
-| Uge 4  | 6x4x85 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x72,5 | 29 gentagelser i alt |
+| Uge 1  | 3x7x70 | <nobr>3x(15-20)x14kg</nobr>   | 6x3x65   | 20 gentagelser i alt |
+| Uge 2  | 4x6x75 | <nobr>3x(15-20)x14kg+?</nobr> | 6x3x67,5 | 23 gentagelser i alt |
+| Uge 3  | 5x5x80 | <nobr>4x(15-20)x14kg+?</nobr> | 6x2x70   | 26 gentagelser i alt |
+| Uge 4  | 6x4x85 | <nobr>4x(15-20)x14kg+?</nobr> | 6x2x72,5 | 29 gentagelser i alt |
 | Deload | 2x6x50 | intet                           | 4x3x40   | intet                |
 
 David skal stadig lave lidt dødløft (DL) og træning til øvre ryg for at vedligeholde sin styrke og muskelmasse der. Så vi tilføjer DL til onsdagen fordi det er den dag der er mindst belastning for lænden og rygsøjlen indtil videre. Vi kører ikke opad i sæt eller med en særlig aggressiv progression her, fordi det bare er vedligeholdelsestræning.
@@ -282,10 +320,10 @@ Progressionen i træningsprogrammet ser sådan her ud:
 
 |        | DL        | Face pulls                  | Kropshævninger                   | Reverse flyes                  | Situps                            | Rotator cuffs              |
 | ------ | --------- | --------------------------- | -------------------------------- | ------------------------------ | --------------------------------- | -------------------------- |
-| Uge 1  | 3x7x100   | <nobr>3x(15-20)x15</nobr>   | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere</nobr>   | <nobr>30 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
-| Uge 2  | 3x8x100   | <nobr>4x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere+?</nobr> | <nobr>35 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
-| Uge 3  | 3x7x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>40 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
-| Uge 4  | 3x8x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>45 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Uge 1  | 3x7x100   | <nobr>3x(15-20)x15</nobr>   | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4kg</nobr>   | <nobr>30 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 2  | 3x8x100   | <nobr>4x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4kg+?</nobr> | <nobr>35 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 3  | 3x7x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4kg+?</nobr> | <nobr>40 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Uge 4  | 3x8x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4kg+?</nobr> | <nobr>45 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
 | Deload | 1x10x80   | intet                       | 2x6xkropsvægt                    | intet                          | 15 gentagelser i alt              | <nobr>1x(10-20)x2's</nobr> |
 
 Så var programmet færdigt. Nice, tænkte David. Nogle overskuelige dage, selvom han godt vidste, at han virkelig skulle stramme sig an i de enkelte sæt, særligt i de sidste par uger, for at holde progressionsplanerne i de store øvelser.
@@ -306,20 +344,20 @@ For squat og bænkpres ser træningsprogrammet og progressionen sådan her ud:
 
 |        | SQ       | Split squats                | FSQ       | BP     | DB BP                           | BP2      | Dips                              |
 | ------ | -------- | --------------------------- | --------- | ------ | ------------------------------- | -------- | --------------------------------- |
-| Uge 1  | 3x6x80   | <nobr>2x(15-20)x20</nobr>   | 3x10x55   | 3x7x70 | <nobr>3x(15-20)x14'ere</nobr>   | 6x3x65   | <nobr>20 gentagelser i alt</nobr> |
-| Uge 2  | 3x6x82,5 | <nobr>3x(15-20)x20+?</nobr> | 3x12x55   | 4x6x75 | <nobr>3x(15-20)x14'ere+?</nobr> | 6x3x67,5 | <nobr>23 gentagelser i alt</nobr> |
-| Uge 3  | 3x6x85   | <nobr>3x(15-20)x20+?</nobr> | 4x10x57,5 | 5x5x80 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x70   | <nobr>26 gentagelser i alt</nobr> |
-| Uge 4  | 3x6x87,5 | <nobr>4x(15-20)x20+?</nobr> | 4x12x57,5 | 6x4x85 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x72,5 | <nobr>29 gentagelser i alt</nobr> |
+| Uge 1  | 3x6x80   | <nobr>2x(15-20)x20</nobr>   | 3x10x55   | 3x7x70 | <nobr>3x(15-20)x14kg</nobr>   | 6x3x65   | <nobr>20 gentagelser i alt</nobr> |
+| Uge 2  | 3x6x82,5 | <nobr>3x(15-20)x20+?</nobr> | 3x12x55   | 4x6x75 | <nobr>3x(15-20)x14kg+?</nobr> | 6x3x67,5 | <nobr>23 gentagelser i alt</nobr> |
+| Uge 3  | 3x6x85   | <nobr>3x(15-20)x20+?</nobr> | 4x10x57,5 | 5x5x80 | <nobr>4x(15-20)x14kg+?</nobr> | 6x2x70   | <nobr>26 gentagelser i alt</nobr> |
+| Uge 4  | 3x6x87,5 | <nobr>4x(15-20)x20+?</nobr> | 4x12x57,5 | 6x4x85 | <nobr>4x(15-20)x14kg+?</nobr> | 6x2x72,5 | <nobr>29 gentagelser i alt</nobr> |
 | Deload | 2x5x50   | intet                       | 2x10x30   | 2x6x50 | intet                           | 4x3x40   | intet                             |
 
 For dødløft og de resterende øvelser ser træningen sådan her ud:
 
 |        | DL        | Face pulls                  | Kropshævninger                   | Reverse flyes                  | Situps                            | Rotator cuffs              |
 | ------ | --------- | --------------------------- | -------------------------------- | ------------------------------ | --------------------------------- | -------------------------- |
-| Uge 1  | 3x7x100   | <nobr>3x(15-20)x15</nobr>   | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere</nobr>   | <nobr>30 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
-| Uge 2  | 3x8x100   | <nobr>4x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere+?</nobr> | <nobr>35 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
-| Uge 3  | 3x7x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>40 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
-| Uge 4  | 3x8x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>45 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Uge 1  | 3x7x100   | <nobr>3x(15-20)x15</nobr>   | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4kg</nobr>   | <nobr>30 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 2  | 3x8x100   | <nobr>4x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4kg+?</nobr> | <nobr>35 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 3  | 3x7x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4kg+?</nobr> | <nobr>40 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Uge 4  | 3x8x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4kg+?</nobr> | <nobr>45 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
 | Deload | 1x10x80   | intet                       | 2x6xkropsvægt                    | intet                          | 15 gentagelser i alt              | 1x(10-20)x2's              |
 
 ## Konklusion

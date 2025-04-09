@@ -7,12 +7,9 @@ header:
   teaser: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Programlægning
-  - Træning
+  - Kost & Ernæring
 tags:
-  - programlægning
-  - træningsprogram
-  - træning
+  - kost & ernæring
 last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 ---

@@ -31,37 +31,39 @@ For at sikre en præcis vurdering benytter forskere og fysiologer en række krit
 
 {% include concept.html concept="vo2max" %}
 
-## 1. Iltoptagelsen opnår steady state
+## Kriterier for opånåelse af vo2max
+
+### 1. Iltoptagelsen opnår steady state
 
 Når en person når sin maksimale iltoptagelse, vil VO₂ typisk flade ud trods stigende belastning. Dette kaldes **steady state**, hvor kroppen ikke længere kan øge sin iltoptagelse, selvom intensiteten øges. I nogle tilfælde kan iltoptagelsen endda falde en smule på grund af udmattelse.  
 
 Et plateau i VO₂ er en af de mest sikre indikatorer for, at maksimal iltoptagelse er nået. Hvis der ikke observeres en udfladning, kan det være tegn på, at testen blev stoppet for tidligt, eller at forsøgspersonen ikke gav sig fuldt ud.
 
-## 2. Respiratoriske kvotient (RQ) > 1,15
+### 2. Respiratoriske kvotient (RQ) > 1,15
 
 Den [respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/) (RQ) beskriver forholdet mellem iltoptagelse og kuldioxidudskillelse. Ved maksimal anstrengelse overstiger RQ typisk **1,15**, hvilket indikerer, at kroppen hyperventilerer og primært forbrænder kulhydrat frem for fedt som energikilde.  
 
 En høj RQ betyder, at kroppen arbejder tæt på sin grænse og skifter til anaerob metabolisme for at producere energi.
 
-## 3. Laktat > 8 mmol
+### 3. Laktat > 8 mmol
 
 Under maksimal belastning vil mælkesyrekoncentrationen i blodet stige kraftigt. En **laktatkoncentration over 8 mmol/l** betragtes som en markør for, at testen har været tilstrækkeligt udmattende.  
 
 Dog kan denne værdi variere afhængigt af træningstilstand og individuelle forskelle. Veltrænede udholdenhedsatleter kan nå højere laktatniveauer uden at opleve udmattelse, mens utrænede personer kan ophobe laktat hurtigere.
 
-## 4. Pulsen > 220 - alder ± 10
+### 4. Pulsen > 220 - alder ± 10
 
 Den maksimale puls (HRmax) estimeres ofte ved formlen **220 - alder**. En test anses for at være maksimal, hvis forsøgspersonen når en puls inden for **±10 slag af den estimerede HRmax**.  
 
 Dog er der individuelle forskelle, og nogle personer kan have en naturligt højere eller lavere maksimalpuls end formlen forudsiger. [Her kan du beregne din maksimale puls.](/max-puls-beregner/).
 
-## 5. (VE) / (VO₂) > 35
+### 5. (VE) / (VO₂) > 35
 
 Forholdet mellem ventilation (VE) og iltoptagelse (VO₂) kaldes den ventilatoriske ækvivalent for ilt. Ved maksimal indsats overstiger dette forhold typisk **35**, hvilket afspejler en markant øget vejrtrækning i et forsøg på at levere ilt til musklerne og fjerne overskydende CO₂.
 
 En høj værdi tyder på, at vejrtrækningen er tæt på sin grænse, hvilket er en anden indikator for, at maksimal indsats er opnået.
 
-## 6. RPE > 9
+### 6. RPE > 9
 
 **Rate of Perceived Exertion (RPE)** er en subjektiv skala, hvor testpersonen vurderer sin anstrengelse på en skala fra 1 til 10. En test betragtes som maksimal, hvis forsøgspersonen angiver en RPE på **9 eller højere** – altså meget tæt på total udmattelse.  
 

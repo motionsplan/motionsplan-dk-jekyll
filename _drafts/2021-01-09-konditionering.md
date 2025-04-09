@@ -7,13 +7,9 @@ header:
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Styrketræning
+  - Træningslære
 tags:
-  - programlægning
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
+  - træningslære
 last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 ---

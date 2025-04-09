@@ -13,8 +13,8 @@ category:
   - Løb
   - Løbeprogrammer
 tags:
-  - løbeprogram
-  - træningsprogram
+  - træningsplanlægning
+  - programlægning
   - løb
   - guide
 last_modified_at: 2025-03-16T08:14:14Z

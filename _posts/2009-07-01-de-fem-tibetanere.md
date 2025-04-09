@@ -89,6 +89,7 @@ faq:
       > — <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
       Hvis du vil vide mere, så kan du dykke yderligere ned i [historien bag ved de tibetanske riter](/artikel/de-fem-tibetanere/historie/).
+toc_sticy: true
 ---
 
 Vil du gerne vide mere om de fem tibetanere? Her lærer du, hvordan du udfører de 5 yogaøvelser, og hvilken virkning øvelserne har på kroppen. Lad os dykke ned i hemmelighederne bag ungdommens kilde.

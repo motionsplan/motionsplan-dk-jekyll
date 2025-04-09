@@ -201,13 +201,13 @@ Når du begynder at vænne dig til vægtene, og du ikke længere kan få fremgan
 
 Starting Strength bør starte relativt let ud i forhold til din intensitet, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution](/restitution/) og [restitutionstid](/restitutionstid/), din hvile og sørger for at få rigeligt at spise.
 
-## 1. Hvil rigeligt
+### 1. Hvil rigeligt
 
 Starting Strength fungerer ikke, hvis du ikke hviler nok mellem de enkelte sæt eller mellem de enkelte træninger. Du skal have **nok hvile mellem sættene**, så du ikke føler træthed fra forrige sæt, når du starter det næste sæt. Pausen mellem sættene kan være helt op til 3-5 minutter. Du kan bruge pauserne til mobilitet eller bare få vejret igen.
 
 Du skal også **hvile nok mellem de enkelte træningspas**. Der er en grund til, at træningsprogrammet kun har 3 træninger om ugen.
 
-## 2. Lav små vægtspring for at holde progressionen
+### 2. Lav små vægtspring for at holde progressionen
 
 I de første uger af træningsprogrammet, kan du måske øge vægten med 4-5 kg pr. gang på squat, og du kan helt sikkert gøre det i dødløft. Hvis du fortsætter med lige så store vægtspring per gang, så kommer din træning til at stagnere.
 
@@ -223,7 +223,7 @@ En tommelfingerregel kan være, at du i fase 1 øger vægten med 2,5-5 kg fra ga
 
 Når du kommer til næste fase, så bruger du mindre vægtspring.
 
-## 3. Spis rigeligt
+### 3. Spis rigeligt
 
 Hvis du vil have et styrketræningsprogram til at fungere, så har du brug for rigeligt med fornuftig proteinrig kost.
 

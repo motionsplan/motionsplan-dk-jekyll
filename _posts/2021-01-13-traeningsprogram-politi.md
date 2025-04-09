@@ -1,11 +1,13 @@
 ---
 title: &title "Træningsprogram til politiets optagelsesprøve 🏃💪👮👮‍♀️"
-seo_title: "Træningsprogram til politiets optagelsesprøve"
+seo_title: "Træningsprogram til politiets optagelsesprøve – Forbered dig uden udstyr"
+description: "Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset, så du kan forberede dig effektivt hjemme."
+excerpt: "Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset, så du kan forberede dig effektivt hjemme."
 permalink: /politi-traeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: https://images.unsplash.com/photo-1649714808311-70b2e7137a9c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
+  teaser: https://images.unsplash.com/photo-1649714808311-70b2e7137a9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning
@@ -13,7 +15,6 @@ category:
 tags:
   - kondition
   - løb
-  - polititest
   - hjemmetræning
   - politi
   - træningsprogram
@@ -22,17 +23,17 @@ toc: true
 author: jakob.nielsson
 ---
 
-Her er et forslag til et træningsprogram, som kan forberede dig hen mod politiets fysiske optagelsesprøve. Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter.
+Her er et træningsprogram, der kan forberede dig til politiets fysiske optagelsesprøve. Programmet kræver minimalt udstyr, så du kan gennemføre det, selvom du ikke har adgang til et fitnesscenter.
 
-Formålet med dette træningsprogram er at give dig mulighed for at træne, selvom du ikke har adgang til et fitnesscenter eller træningscenter, men stadig vil forberede dig til [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+Målet med dette træningsprogram er at gøre det muligt for dig at træne effektivt hjemme, uden at du behøver dyrt udstyr eller et træningscenter, samtidig med at du forbereder dig til [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-Jeg har lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvor jeg viser, hvordan de kan lave nogle af testene i den fysiske optagelsesprøve med et minimum af udstyr.
+Jeg har også lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvor jeg viser, hvordan man kan gennemføre nogle af testene fra optagelsesprøven med et minimum af udstyr.
 
-Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhjemme, inden du kaster dig ud i træningsprogrammet til politiet. Hvis du er interesseret i 
+Tjek videoen nedenunder for at få et konkret forslag til, hvordan du kan træne til politiets optagelsesprøve derhjemme, inden du kaster dig ud i træningsprogrammet.
 
 {% include video provider="youtube" id="ewZ76WPuWaM" ezoic="ezoic-pub-video-placeholder-3" %}
 
-## Sådan kan du starte træningen mod optagelsesprøven til politiet
+## Sådan kan du starte din træning
 
 Afhængig af din nuværende træningstilstand kan du vælge inden for et spektrum af muligheder. Det kræver lidt selverkendelse. 
 
@@ -109,143 +110,150 @@ Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/)
 
 ## Eksempler på træning i forhold til politiets optagelsesprøve
 
-Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser. Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
+Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser.
+
+Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
 
 Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lave hjemme uden udstyr, når du gerne vil forberede dig til politiets fysiske optagelsesprøve.
 
-<details markdown="1" class="faq">
-  <summary><h3 id="program-beginner">🟢 Begynder - 5 ugentlige træninger</h3></summary>
+<aside markdown="1" class="pull-quote">
+Programmets øvelser kan justeres, så det passer bedre til din egen træningsstil og mål. Du kan skubbe noget træning sammen på færre dage, eller justere antallet af sæt og gentagelser, så det passer tild dit nuværende styrkeniveau.
+</aside>
 
-#### Mandag
+<details markdown="1" class="faq">
+  <summary><h3 id="program-beginner">🟢 Begynder - 3 ugentlige træninger</h3></summary>
+
+**Mandag**
 
 - Armstrækkere med hænder på sofakant - 3 sæt af 10 gentagelser
 - Table rows med fødder på gulvet - 3 sæt af 8 gentagelser
-
-#### Tirsdag
-
-- Længdespring: 8 spring med 30 sek hvile
-- Løb 4 intervaller af 250 meter med 45 sek hvile
-
-#### Torsdag
-
-- Lunges - 3 sæt af 12 gentagelser med hvert ben
-- Armstrækkere på knæene - 3 sæt af 5 gentagelser
-
-#### Lørdag
-
 - Jog 20 min kontinuerligt
 
-#### Søndag
+**Onsdag**
 
-- Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt
-- Nordic hamstring curls - 3 sæt af 5 gentagelser
-- Jump squats - 2 sæt af 15 gentagelser
+- Jump squats - 3 sæt af 15-20 gentagelser
+- Nordic hamstring curls - 3 sæt af 5-8 gentagelser
+- Lunges - 2 sæt af 10-15 gentagelser med hvert ben
+
+**Fredag**
+
+- Armstrækkere på knæene - 3 sæt af 5 gentagelser
+- Længdespring: 8 spring med 30 sek hvile
+- Løb 4 intervaller af 250 meter med 45 sek hvile
+- Armstrækkere på knæene - 3 sæt af 4-6 gentagelser
+- Table rows med fødder på gulvet - 3 sæt af 4-6 gentagelser langsomt
 
 </details>
 
 <details markdown="1" class="faq">
   <summary><h3 id="program-intermediate">🟡 Let øvet - 4 ugentlige træninger</h3></summary>
 
-#### Mandag
+**Mandag**
 
-- Armstrækkere med hænder på sofakant - 3 sæt af 10 gentagelser
-- Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt
+- Armstrækkere med hænder på sofakant - 3 sæt af 10-15 gentagelser
+- Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt begge veje
 - Jumping lunges - 3 sæt af 12 gentagelser med hvert ben
 
-#### Onsdag
+**Onsdag**
 
-- Længdespring: 8 spring med 30 sek hvile
-- Løb 4 intervaller af 250 meter med 45 sek hvile
+- Længdespring: 2 x 5 længdespring med 30 sek hvile mellem spring - 3 minutter mellem serier
+- Løb 6 intervaller af 300 meter med 45 sek hvile
 
-#### Torsdag
+**Torsdag**
 
-- Armstrækkere med hænder på køkkenbordet - 3 sæt af 20 gentagelser
-- Table rows hvor man kun løfter sig halvt op - 3 sæt af 12 gentagelser
-- Nordic hamstring curls - 3 sæt af 5 gentagelser
-- Squat - 2 sæt af 30 gentagelser
+- Armstrækkere med hænder på køkkenbordet - 3 sæt af 15-20 gentagelser
+- Table rows - 3 sæt af 10-12 gentagelser
+- Nordic hamstring curls - 3 sæt af 4-8 gentagelser
+- Squat - 2-3 sæt af 20-30 gentagelser
 
-#### Lørdag
+**Lørdag**
 
-- Jog 20 min kontinuerligt
+- Jog 30 min kontinuerligt
 
 </details>
 
 <details markdown="1" class="faq">
-  <summary><h3 id="program-trained">🟠 Øvede - Træningsprogram for øvede</h3></summary>
+  <summary><h3 id="program-trained">🟠 Øvede - 5 ugentlige træninger</h3></summary>
 
-#### Mandag
+**Mandag**
 
 - Armstrækkere - 4 sæt af 15 gentagelser
-- Kropshævninger i en gren - 4 sæt af 4 gentagelser
+- Kropshævninger - 4 sæt af 4 gentagelser
 - Løb 6 intervaller af 300 meter med 30 sek hvile
 
-#### Tirsdag
+**Tirsdag**
 
 - Længdespring: 10 spring med 45 sek hvile mellem
-- Pistols - 4 sæt af 8 gentagelser på hvert ben
-
-#### Onsdag
-
+- Pistols - 4 sæt af 6-8 gentagelser på hvert ben
 - 30 min kontinuerligt løb
 
-#### Torsdag
+**Torsdag**
 
 - Archer pushups - 4 sæt af 5 gentagelser til hver side
-- Table rows - 5 sæt af 12 gentagelser
-- Hurtighedstest - 4 ture med 2 min hvile imellem
+- Table rows - 5 sæt af 8-12 gentagelser
+- Hurtighedstest - 4 ture med 3 min hvile imellem
+- 30 min kontinuerligt løb + 6-12 10 sekunders løb i 2400 meters tempo
 
-#### Fredag
+**Fredag**
 
 - 50 min roligt jog
 
-#### Lørdag
+**Lørdag**
 
-- Brede armstrækkere - 3 sæt af 12 gentagelser
-- [Hindu pushups](/oevelse/armstraekning-hindu/) - 3 sæt af 6 gentagelser
-- Kropshævninger i en gren - 5 sæt af 3 gentagelser
-- Nordic hamstring curls - 5 sæt af 6 gentagelser
-- Lunges - 4 sæt af 25 gentagelser til hvert ben
+- Brede armstrækkere - 3 sæt af 10-12 gentagelser
+- [Hindu pushups](/oevelse/armstraekning-hindu/) - 3 sæt af 6-8 gentagelser
+- Kropshævninger langsomt ned - 5 sæt af 2-4 gentagelser
+- Nordic hamstring curls - 5 sæt af 5-8 gentagelser
+- Lunges - 4 sæt af 25-30 gentagelser til hvert ben
 
 </details>
 
 <details markdown="1" class="faq">
-  <summary><h3 id="program-advanced">🔴 Meget øvede - Træningsprogram til politiet</h3></summary>
+  <summary><h3 id="program-advanced">🔴 Meget øvede - 6 ugentlige træninger</h3></summary>
 
-#### Mandag
+**Mandag**
 
 - Brede armstrækkere - 3 sæt af 12 gentagelser
 - Smalle armstrækkere - 3 sæt af 10 gentagelser
 - Kropshævninger i en gren - 5 sæt af 2 gentagelser langsomt
 - Jumping lunges - 4 sæt af 20 til hvert ben
 
-#### Tirsdag
+**Tirsdag**
 
 - Længdespring: 6 sæt af 2 spring med 60 sek hvile
 - Løb 10 intervaller af 200 meter med 20 sek hvile
 
-#### Onsdag
+**Onsdag**
 
 - Armstrækkere med fødderne på en stol - 5 sæt af 10 gentagelser
 - Kropshævninger i en gren - 4 sæt af 6 gentagelser
 - Pistols - 5 sæt af 10 gentagelser til hvert ben
 
-#### Torsdag
+**Torsdag**
 
 - Politiprøvens Hurtighedstest: 4 ture med 2 min hvile imellem
 - 30 min kontinuerligt løb
 
-#### Fredag
+**Fredag**
 
 - Armstrækkere med pause i bunden - 4 sæt af 10 gentagelser
 - Table rows - 4 sæt af 15 gentagelser
 - Nordic hamstring curls - 5 sæt af 5 gentagelser
 - Jump squat - 3 sæt af 30 gentagelser
 
-#### Lørdag
+**Lørdag**
 
 - 50 min roligt jog
 
 </details>
+
+### Tilpas programmet efter dine behov og dit niveau
+
+Du kan vælge at følge træningsprogrammerne præcist, som de er beskrevet, eller tilpasse dem efter dine egne præferencer og behov. Hvis du for eksempel ønsker færre sæt armstrækkere og flere sæt kropshævninger, eller hvis du foretrækker at fokusere mere på løb og mindre på styrketræning, er det helt op til dig.
+
+Programmet kan justeres, så det passer bedre til din egen træningsstil og mål.
+
+Når det kommer til gentagelser, skal du forstå antallet pr. sæt som et cirkatal. Det betyder, at det er afhængigt af dit styrkeniveau i den pågældende øvelse, og du kan justere antal gentagelser efter behov. Du kan også vælge at bruge rep ranges i stedet for præcise gentagelser, for at give dig selv lidt fleksibilitet i din træning.
 
 ## Andre træningsprogrammer
 

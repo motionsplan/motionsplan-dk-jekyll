@@ -10,7 +10,7 @@ header:
   teaser: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: "Regler til styrkeløft og powerlifting"
   actions:
-    - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
+    - label: "<i class='fas fa-file-excel'></i> Sheet med forslag"
       url: "#sheet"
       rel: nofollow noopener
 category:
@@ -74,9 +74,11 @@ Vi ser på, hvordan du vælger åbningsforsøg, justerer undervejs og undgår de
 **Læs:** [Regler for løftene i styrkeløft](/powerlifting-rules/)
 {: .notice }
 
-## Hvordan vælger jeg mine forsøg til styrkeløft?
+## Det skal du overveje før du vælger dine forsøg
 
-Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM max](/rm-maxtest/) i alle løftene.
+Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om.
+
+Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM max](/rm-maxtest/) i alle løftene.
 
 Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerlifting-attempt-calculator-spreadsheet/) samlet følgende statistik om `Raw`-løftere (altså løftere der løfter uden udstyr).
 
@@ -87,25 +89,48 @@ Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerli
 
 Det kan altså betale sig at tænke over, at man kommer ind i konkurrencen på en god måde.
 
+## Sådan vælger du dine forsøg til styrkeløft?
+
 Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**.
 
 - Dit **første løft** skal være et sikkert løft. Det kan fx være et løft, du ved du kan løfte tre gange. Formålet med det første løft er at forberede dig til de efterfølgende løft. Det gælder for alle disciplinerne.
 - Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
 - Dit **tredje løft** skal basere sig på fornemmelsen fra det andet løft. Hvis det andet løft går godt, så kan du forsøge dig på en lille PR i sidste forsøg. Hvis du virkelig synes det andet løft er let, så kan du gå for en lidt større PR.
 
-Jacob Beermann [foreslår en konservativ og aggressiv strategi](https://maxer.dk/artikler/maxtest) for dit 1RM-forsøg. Du kan over overveje, om du synes om den strategi til dit styrkeløftstævne også. Beermann anbefaler, at man maksimalt har tre løft, der er over 90% af dit forventede maxløft.
+[Jacob Beermann](https://maxer.dk/artikler/maxtest) foreslår en konservativ og aggressiv [strategi for dit 1RM-forsøg](/rm-maxtest/). Du kan overveje, om du synes om den strategi til dit styrkeløftstævne også.
+
+Beermann anbefaler, at du i alt på dagen maksimalt har tre løft, der er over 90% af dit forventede maxløft.
 
 | Strategi | #1 | #2 | #3 |
 |-|-|-|-|
 | Konservativ | 93% | 97% | 102% |
 | Aggressiv | 95% | 101% | 105% |
 
+Men disse strategier kræver jo, at jeg kender min max.
+
+Det er der heldigvis råd for.
+
+## Sådan ved du nogenlunde hvad din max er
+
+For mange er det svært at vide nøjagtigt, [hvor meget vægt der skal på stangen](/hvor-meget-vaegt-paa-stangen/). Der findes heldigvis et par forskellige måder at estimere din max-vægt på.
+
+Der er mindst 4 strategier til at estimere din maxvægt.
+
+1. **Baseret på et godt løft med flere gentagelser** → Brug vores [RM-beregner](/rm-beregner/)
+2. **Baseret på fornemmelsen for et godt løft** → Brug vores [RPE-beregner til styrketræning](/rpe/)
+3. **Estimeret ud fra hastighed på stangen** → Læs om [1RM ud fra VBT](/vbt-1rm/)
+4. **Varm op og nærm dig gradvist din max** → Få fornemmelsen i løbet af opvarmningen for dit potentiale.
+
+Når du kender din forventede max-vægt, så kan du bruge ovenstående procentsatser til at vælge dine forsøg.
+
+Læs meget mere om, [hvordan du laver en maxtest](/rm-maxtest/).
+
 ## Regneark til at vælge forsøg
 {: id="sheet" }
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-{% include feature_row id="feature_row_spreadsheet" type="center" %}
+{% include feature_row id="feature_row_spreadsheet" type="left" %}
 
 ## Konklusion
 
@@ -120,7 +145,3 @@ Vil du optimere din tilgang til stævner? Planlæg dine forsøg med en strukture
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](https://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
 </details>
-
-## Mere inspiration
-
-{% include feature_row id="feature_row_books" type="left" %}

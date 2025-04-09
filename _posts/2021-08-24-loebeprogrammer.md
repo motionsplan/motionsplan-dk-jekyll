@@ -10,8 +10,6 @@ header:
 category:
   - Løb
 tags:
-  - løbeprogram
-  - træningsprogram
   - løb
 last_modified_at: 2021-08-22T23:14:14Z
 toc: true

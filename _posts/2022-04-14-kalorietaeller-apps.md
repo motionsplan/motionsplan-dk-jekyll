@@ -1,5 +1,8 @@
 ---
-title: "5 kalorietæller apps til kostregistrering i 2025 [Test]"
+title: "5 kalorietæller apps til at tracke dine kalorier [Test]"
+seo_title: "5 kalorietæller apps til at tracke dine kalorier (2025)"
+description: "Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt uden at gøre det kompliceret."
+excerpt: "Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt uden at gøre det kompliceret."
 permalink: /kalorietaeller-apps/
 language: da
 header:
@@ -10,18 +13,62 @@ tags:
   - kost & ernæring
   - kalorier
   - apps
-last_modified_at: 2022-04-12T22:21:26Z
+last_modified_at: 2025-04-09T22:21:26Z
+feature_row_apps:
+  - title: Madital.dk
+    #url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
+    #image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
+    excerpt: |
+      🥇 **Dansk app**<br><br>
+      ✅ Let og enkel at bruge<br>
+      ✅ God gratis version<br>
+      ✅ Fokus på de vigtigste funktioner<br>
+      ❌ Simpelt design og færre avancerede funktioner 
+    #btn_label: Tjek prisen
+    #btn_class: btn--danger
+    rel: sponsored nofollow noopener
+  - title: MyFitnessPal
+    #url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
+    #image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
+    excerpt: |
+      🥇 **Mest udbredte**<br><br>
+      ✅ Største database med madvarer<br>
+      ✅ Integration med mange apps og enheder<br>
+      ✅ Aktivt fællesskab og deling<br>
+      ❌ Gratisversionen er ret begrænset  
+    #btn_label: Tjek prisen
+    #btn_class: btn--danger
+    #rel: sponsored nofollow noopener    
+  - title: Lifesum
+    #url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
+    #image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
+    excerpt: |
+      🥈 **Brugervenlig**<br><br>
+      ✅ Brugervenlig med smarte funktioner<br>
+      ✅ Får personlige råd og kostplaner<br>
+      ✅ Kan scanne stregkoder for nem registrering<br>
+      ❌ Kræver abonnement for det meste indhold  
+    #btn_label: Tjek prisen
+    #btn_class: btn--danger
+    #rel: sponsored nofollow noopener    
 ---
 
-Hvis du gerne vil tælle kalorier, så er der mange kalorietæller apps at vælge imellem. Hvis du gerne vil have styr på, hvor meget energi du får i din kost, så kan du lave kostregistrering i en af de mange smarte apps. Vi har testet 5 apps, der kan holde styr på kalorieregnskabet for dig.
+Hvis du gerne vil tælle kalorier, så er der mange kalorietæller apps at vælge imellem. Hvis du gerne vil have styr på, hvor meget energi du får i din kost, så kan du [lave kostregistrering](/kostregistrering/) i en af de mange smarte apps. Vi har testet 5 apps, der kan holde styr på kalorieregnskabet for dig.
 
 Det er let at finde energiindholdet og næringsindholdet i en enkelt fødevare med [kalorietabeller]({% link _posts/2020-08-29-kalorietabellen.md %}). Der er også mange [kalorieberegnere](/kalorieberegner/) til et enkelt måltid eller en opskrift. Men for at få styr på hele dit kalorieindtag på en dag, så tjek disse apps.
 
-## Hvorfor skal jeg lave en kostregistrering?
+## Bedste apps
+
+{% include feature_row id="feature_row_apps" class="full" %}
+
+## Hvorfor skal du tælle dine kalorier?
 
 Det kan være nyttigt at registrere din kost, hvis du er i tvivl om du får nok energi i løbet af en dag til de aktiviteter, du gerne vil lave. Hvis du fx gerne vil [bygge muskelmasse](/hypertrofi-metoder/) og vide om du får nok [protein på en dag](/dagligt-protein-indtagelse/).
 
 Mange vælger også at tælle kalorier, hvis de gerne vil tabe sig, og det ikke er nok at [spise efter tallerkenmodellen](/tallerken-modeller/). Det kan være en fordel at vide nogenlunde, hvor meget energi du indtager i forhold til dit [ligevægtsindtag](/ligevaegtsindtag-beregner/).
+
+**Læs:** [Sådan laver du kostregistrering - Trin for trin guide](/kostregistrering/)
+{: .notice }
 
 ## Top 5 kalorietæller apps
 
@@ -83,10 +130,20 @@ Ud fra disse oplysninger forsøger Arono at bregne, hvor mange kalorier du skal 
 
 Selve kostplanen planlægges ud fra spørgsmål om dine madvaner. Du skal vælge, om du spiser kød eller er veganer, vegetar eller pescetar. Nu kan Arono fine opskrifter og indkøbslister til dig, så du får en god og alsidig kost med det rigtige makronæringsindhold og forhold mellem kulhydrat, fedt og protein.
 
-Arono koster cirka 80 kroner om måneden, og det smarteste ved appen er, at du får en god kostplan med sunde opkrifter. Der er mange valgmuligheder. Du kan få en 14 dages gratis prøveperiode. Hvis du har brug for en [madplan](https://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/), så kan Arono altså være et udemærket bud. Som kalorietæller synes jeg nogle af de andre apps er lidt bedre.
+Arono koster cirka 80 kroner om måneden, og det smarteste ved appen er, at du får en god kostplan med sunde opkrifter. Der er mange valgmuligheder. Du kan få en 14 dages gratis prøveperiode. Hvis du har brug for en [madplan](https://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/), så kan Arono altså være et udemærket bud.
 
-## Konklusion
+Som kalorietæller synes jeg nogle af de andre apps er lidt bedre.
 
-Jeg bruger kun kostregistrering i kortere tid ad gangen. Hvis du bare vil have et øjebliksbillede af din kost, så synes jeg Madital.dk er et rigtig godt bud på en app, som du kan bruge. Hvis du gerne vil betale for din kostregistrering, så kan du også overveje danske madlog.
+## Konklusion: Find den kalorietæller, der passer til din hverdag
 
-Hvis du gratis over længere tid vil kostregistrere, og du har brug for måltidsforslag, så kan du vælge flere af de præsenterede apps. MyFitnessPal er den gamle internationale spiller, men Lifesum er en stor konkurrent. Hvis du har brug for måltidsplaner, så kan du overveje danske Arono.
+Jeg bruger selv kun kostregistrering i kortere perioder ad gangen, når jeg vil have et øjebliksbillede af min kost. Til det formål er **Madital.dk** et rigtig godt bud, hvis du ønsker en enkel og dansk app. Hvis du er åben for at betale for din kostregistrering, kan du også overveje danske **Madlog**, som tilbyder flere funktioner.
+
+Hvis du derimod gerne vil registrere din kost gratis over længere tid og samtidig få måltidsforslag, er der flere gode muligheder blandt de præsenterede apps.
+
+**MyFitnessPal** er den veletablerede internationale spiller, mens **Lifesum** er en stor konkurrent med et moderne design. Hvis du har brug for færdige måltidsplaner, kan danske **Arono** også være værd at kigge nærmere på.
+
+Vil du gerne tage næste skridt?
+
+👉 [Se vores guide til at beregne dit daglige kaloriebehov](/beregner/dagligt-energiforbrug-energibehov/)  
+👉 [Lær, hvordan du laver kostregistrering](/kostregistrering/)  
+👉 [Få styr på, hvad der egentlig ligger bag kalorieindholdet i maden](/kost-ernaering/)

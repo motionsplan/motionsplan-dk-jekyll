@@ -2,17 +2,17 @@
 title: &title "Kostregistrering – Sådan laver du kalorieregistrering"
 seo_title: "Kostregistrering: Sådan registrerer du dine kalorier"
 description: "Lær hvordan du laver kostregistrering og får overblik over dit kalorieindtag. Se også, hvordan du sammenligner med dit beregnede energibehov."
+excerpt: "Lær hvordan du laver kostregistrering og får overblik over dit kalorieindtag. Se også, hvordan du sammenligner med dit beregnede energibehov."
 permalink: /kostregistrering/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1582004228576-14e8b1256618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1583165583064-a281139b07f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Kost & Ernæring
 tags:
   - ligevægtsindtag
   - guide
-  - featured
 last_modified_at: 2025-04-07T23:14:14Z
 keywords:
   - kostregistrering

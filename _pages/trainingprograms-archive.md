@@ -1,17 +1,16 @@
 ---
 layout: single
-title: Træningsprogrammer til styrke, løb og cykling
+title: Træningsprogrammer - Find program til dine mål
 seo_title: "Træningsprogrammer – Find det rette program til dine mål"
 permalink: /traeningsprogrammer/
-excerpt: "Find træningsprogrammer til styrketræning, løb og cykling. Uanset dit niveau kan du få et skræddersyet program, der hjælper dig med at nå dine mål."
-description: "Find træningsprogrammer til styrke, løb og cykling. Vælg det rette program til dit niveau og mål, og få struktur i din træning."
+excerpt: "Find træningsprogrammer der passer til dit niveau og dine mål. Få mere struktur på din træning til fx kondition, styrketræning eller en kombination."
+description: "Find træningsprogrammer der passer til dit niveau og dine mål. Få mere struktur på din træning til fx kondition, styrketræning eller en kombination."
 comments: false
 toc: true
 category:
   - Træning
 tags:
   - styrketræning
-  - træningsprogrammer
 breadcrumbs: true
 classes: wide
 header:
@@ -90,15 +89,11 @@ Her finder du træningsprogrammer til forskellige formål og niveauer – fra ny
 
 </div>
 
-***
-
-## Træningsprogrammer til styrke
-
-{% include feature_row id="feature_row_good_program" type="left" %}
-
-## Populære styrketræningsprogrammer
+## 💪 Træningsprogrammer til styrke
 
 Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
+
+{% include feature_row id="feature_row_good_program" type="left" %}
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
 
@@ -114,15 +109,29 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 </div>
 
-## Gangprogrammer - gå dig i form
+## 🚶‍♂️ Gangprogrammer - gå dig i form
 {: id="walking-programs" }
 
 {% include feature_row id="feature_row_walking_training" type="left" %}
+
+***
 
 ## Flere forslag til træningsprogrammer
 {: id="other-programs" }
 
 Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 <div class="feature__wrapper">
 
@@ -140,7 +149,7 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 <div class="feature__wrapper">
 
-{% assign articles = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
+{% assign articles = site.posts | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
 
 {% if articles.size > 0 %}
   {% for post in articles %}

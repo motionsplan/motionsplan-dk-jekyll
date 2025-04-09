@@ -147,6 +147,8 @@ Kommandoerne under dødløft er:
 **Lær endnu mere**: [Guide til dødløft i styrkeløft](/styrkeloeft/doedloeft/)
 {: .notice }
 
+***
+
 ## Vægtklasser og IPF-Point
 
 I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.

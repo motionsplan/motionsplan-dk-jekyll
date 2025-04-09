@@ -60,7 +60,7 @@ En fysisk test giver den mest præcise måling, da den tager højde for individu
 
 Selvom en maxpuls-test er krævende, giver den værdifuld indsigt og sikrer, at du træner med den rigtige intensitet. Du kan få et bud på, hvordan du kan lave din egen maxpuls-test herunder.
 
-## 1. Hvordan laver jeg en maxpuls-test? (Løbetest)
+## Hvordan laver jeg en maxpuls-test? (Løbetest)
 
 Jeg har valgt at skrive et eksempel på, hvordan du selv kan teste din maksimale puls ved hjælp af løb. Hvis du har brug for at kende din maksimale puls til en anden aktivitet, så kan du bruge de samme principper.
 
@@ -96,7 +96,7 @@ Jeg foretrækker at tælle fx 30 sekunder og så gange med to. Du bør ikke gør
 
 {% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." alt="måder at måle maxpuls på" %}
 
-## 2. Hvordan måles den maksimale puls i et laboratorium?
+## Hvordan måles den maksimale puls i et laboratorium?
 
 Du kan også få lavet en max-test i et laboratorium. Sådan en test vil typisk foregå på et løbebånd, hvor man progressivt øger enten hastighed eller hældning på løbebåndet. Du kan samtidig få målt din maksimale iltoptagelse.
 

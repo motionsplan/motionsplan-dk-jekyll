@@ -13,7 +13,6 @@ tags:
   - roning
   - konditionstræning
   - kondition
-  - træningsprogram
   - anaerob træning
   - aerob træning
   - intervaltræning

@@ -12,6 +12,35 @@
 @import "youtube";
 @import "star-rating";
 
+/////// ADD COUNTER 
+/// 
+/// /* Set up a counter for h2 elements */
+body {
+  counter-reset: section;
+}
+
+h2:not(.feature__wrapper h2)::before {
+  counter-increment: section;
+  content: counter(section);
+  
+  /* Square styling */
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+  /* Inverted colors */
+  color: white;
+  background-color: black;
+  
+  /* Optional: Rounded corners */
+  border-radius: 0.25rem;
+}
+
 /*** PULL QUOTE ***/
 
 .pull-quote {

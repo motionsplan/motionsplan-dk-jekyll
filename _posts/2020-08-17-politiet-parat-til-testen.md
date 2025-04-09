@@ -71,7 +71,7 @@ Sæt dig grundigt ind i den politiprøvens fysiske krav, så du kender alle øve
 
 Politiet tilbyder en [træningsvejledning](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/traeningsvejledning-opdateret-161219-aa.pdf), som giver nogle retningslinjer for at træne til de enkelte discipliner, men træningsplanen er ikke integreret. Du skal således selv i gang med stykke en samlet træningsplan sammen eller måske vælge et højskoleophold, hvor lærerne kan hjælpe dig med at [forberede dig til politiets optagelsesprøve](https://www.vih.dk/fag/politi) eller også skal du have fat i en [personlig træner](https://styrkmig.dk/ep-134-politiets-optagelsesprove-sadan-bestar-du-den-fysiske-del/).
 
-## Politiets fysiske tests til optagelsesprøven
+## Tests du skal forberede dig til
 
 Elementerne i den fysiske optagelsesprøve er nogenlunde ens for både mænd og kvinder ud over kropshævninger, hvor der er valgt to forskellige øvelser. Desuden bedømmes øvelserne lidt forskelligt.
 
@@ -86,7 +86,7 @@ Elementerne i den fysiske optagelsesprøve er nogenlunde ens for både mænd og 
 
 ***
 
-## 1️⃣ Opvarmning til politiets fysiske test
+### 1️⃣ Opvarmning til politiets fysiske test
 
 Opvarmningen udgør den første del af politiets fysiske optagelsesprøve. Formålet er at forberede kroppen til de efterfølgende elementer, men mange bliver overraskede over, at opvarmningen i sig selv kan være udmattende.
 
@@ -101,7 +101,7 @@ Forberedelse er vigtig, da opvarmningen altid indeholder de samme øvelser. For 
 
 ***
 
-## 2️⃣ Hurtighedstest
+### 2️⃣ Hurtighedstest
 
 **Udgangsstilling**: Start med keglen på din venstre side. Placer hænder, knæ og tæer på gulvet, så dine arme og lår er parallelle med gulvet.
 
@@ -111,7 +111,7 @@ Forberedelse er vigtig, da opvarmningen altid indeholder de samme øvelser. For 
 
 ***
 
-## 3️⃣ Længdespring
+### 3️⃣ Længdespring
 
 **Udgangsstilling:** Start med begge fødder bag 0-centimeter markeringen.
 
@@ -121,7 +121,7 @@ Forberedelse er vigtig, da opvarmningen altid indeholder de samme øvelser. For 
 
 Testen fortsætter, indtil der er to aflæste forsøg. Længden af springet måles fra 0-centimeter markeringen til hælene og rundes ned til nærmeste 5 centimeter. Det bedste af dine to forsøg bestemmer din score.
 
-## 4️⃣ Kropshævninger
+### 4️⃣ Kropshævninger
 
 <details markdown="1" class="faq">
   <summary><h3>Kropshævninger for mænd</h3></summary>
@@ -162,7 +162,7 @@ Din score afgøres af antallet af godkendte gentagelser.
 Brug af handsker eller magnesium er tilladt for at øge friktionen.
 </details>
 
-## 5️⃣ Bænkpres
+### 5️⃣ Bænkpres
 
 {% include video provider="youtube" id="lc1CIASe2So" %}
 
@@ -182,7 +182,7 @@ Brug af handsker eller magnesium er tilladt for at øge friktionen.
 
 ***
 
-## 6️⃣ 2400 meter løb
+### 6️⃣ 2400 meter løb
 
 Politiets krav inkluderer også [Coopers 2400 meter test](/kondital-2400-meter/). Politiet har sine egne specifikke krav til testen. Se testen herunder.
 

@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Kom godt i gang med din træning – find den bedste vej for dig"
+title: "Kom godt i gang med din træning – find den bedste vej"
 seo_title: "Kom godt i gang med træning | Find din vej til motion og styrke"
 permalink: /kom-godt-i-gang/
-excerpt: "Vil du i gang med træning? Vi guider dig til de bedste træningsformer, programmer og beregnere, så du hurtigt kan finde den rette vej – uanset om du vil løbe, styrketræne eller tabe dig."
-description: "Vil du i gang med træning? Vi guider dig til de bedste træningsformer, programmer og beregnere, så du hurtigt kan finde den rette vej – uanset om du vil løbe, styrketræne eller tabe dig."
+excerpt: "Vil du i gang med træning? Her får du en guide til de bedste træningsformer, programmer og beregnere, så du hurtigt kan komme i gang uanset dine mål."
+description: "Vil du i gang med træning? Her får du en guide til de bedste træningsformer, programmer og beregnere, så du hurtigt kan komme i gang uanset dine mål."
 header:
   overlay_image: https://images.unsplash.com/photo-1556739624-20e0d6705520?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODg0fHxleGVyY2lzZXxlbnwwfDB8Mnx8fDI%3D&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1556739624-20e0d6705520?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODg0fHxleGVyY2lzZXxlbnwwfDB8Mnx8fDI%3D&auto=format&fit=crop&h=300&w=400&q=10
@@ -122,7 +122,7 @@ Velkommen til Motionsplan.dk! Uanset om du er ny til træning eller vil optimere
 
 Følg disse trin for at komme godt fra start og opnå de bedste resultater.
 
-## 1. Find den rette træningsform 🔍
+## Find den rette træningsform 🔍
 
 Start med at vælge en træningsform, der passer til dine mål og præferencer:
 
@@ -137,7 +137,7 @@ Start med at vælge en træningsform, der passer til dine mål og præferencer:
 - Hvis du er helt ny til træning, anbefales det at starte med lette øvelser og små træningspas. Vælg en træningsform, du finder sjov, så du er mere tilbøjelig til at holde fast i rutinen.
 - Hvis du allerede har lidt erfaring, kan du vælge en træningsform, der udfordrer dig mere. For eksempel kan du kombinere styrketræning og konditionstræning.
 
-## 2. Planlæg din træning 📅
+## Planlæg din træning 📅
 
 En god plan sikrer fremskridt og minimerer risikoen for skader:
 
@@ -150,7 +150,7 @@ En god plan sikrer fremskridt og minimerer risikoen for skader:
 2. **Vælg øvelser, der arbejder med store muskelgrupper** – Kombiner øvelser som squats, bænkpres og dødløft med konditionstræning som løb eller cykling.
 3. **Progression er nøglen** – Begynd med lettere vægte og øg gradvist. Husk at variere træningen for at undgå stagnation.
 
-## 3. Skadesforebyggelse og restitution 🤕
+## Skadesforebyggelse og restitution 🤕
 
 For at undgå skader og forbedre din præstation, skal du prioritere restitution og mobilitet:
 
@@ -164,7 +164,7 @@ For at undgå skader og forbedre din præstation, skal du prioritere restitution
 - **Skadesforebyggelse**: Brug korrekt form under øvelserne for at undgå unødvendige belastninger på dine led og muskler. Varm op inden du løfter tungt, og sørg for at have hviledage.
 - **Restitution**: Sov nok og sørg for, at din kost støtter op om restitutionen. Foam rolling og let stræk kan hjælpe med at løsne op i spændte muskler.
 
-## 4. Kost og ernæring 🥑
+## Kost og ernæring 🥑
 
 Korrekt ernæring er afgørende for din træning og resultater:
 
@@ -177,7 +177,7 @@ Korrekt ernæring er afgørende for din træning og resultater:
 - **Protein**: Sørg for at få nok protein for at støtte muskelvækst og restitution. En god tommelfingerregel er 1,6-2,2g protein pr. kg kropsvægt.
 - **Kost før og efter træning**: Spis et måltid med kulhydrater og protein 1-2 timer før træning. Efter træning er det godt at få et måltid, der indeholder både protein og kulhydrater for at genopbygge muskler og gendanne energi.
 
-## 5. Test din form og fremskridt 🧰
+## Test din form og fremskridt 🧰
 
 Hold styr på dine fremskridt med relevante tests og målinger:
 

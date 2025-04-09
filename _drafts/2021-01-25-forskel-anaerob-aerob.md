@@ -14,7 +14,6 @@ category:
 tags:
   - kondition
   - fysiologi
-  - træningsprogram
   - træning
   - aerob træning
   - anaerob træning

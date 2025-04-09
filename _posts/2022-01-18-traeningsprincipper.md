@@ -12,7 +12,8 @@ category:
   - Træningsplanlægning
 tags:
   - programlægning
-  - træningsprogram
+  - træningsplanlægning
+  - træningslære
   - træning
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
