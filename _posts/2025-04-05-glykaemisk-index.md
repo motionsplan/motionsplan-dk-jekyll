@@ -6,7 +6,7 @@ excerpt: "Forstå glykæmisk indeks, og hvordan forskellige fødevarer påvirker
 description: "Forstå glykæmisk indeks, og hvordan forskellige fødevarer påvirker blodsukkeret. Læs om definition, GI-tabeller, og hvordan du bruger GI i praksis."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1523362628745-0c100150b504?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1685967836908-7d3b4921a670?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=60&w=400&h=300&auto=format&fit=crop
   caption: *title
 category:
   - Kost & Ernæring

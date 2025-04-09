@@ -52,6 +52,10 @@ Denne beregner hjælper dig med at estimere dit kulhydratforbrug baseret på din
 
 Ved at kende dit forventede kulhydratforbrug pr. time kan du bedre tilpasse din ernæringsstrategi og sikre, at du har tilstrækkelig energi til hele træningen eller konkurrencen.
 
+Hvilke sukkertyper du skal vælge afhænger lidt af dine mål, men typisk vil du gerne have hurtigt optagelige kulhydrater.
+
+Du kan læse mere om [glykæmisk indeks](/glykaemisk-indeks/) og blive klogere på, hvilket madvarer og sukkertyper, der optages hurtigt.
+
 Brug beregneren til at finde det rigtige indtag og optimere din præstation.
 
 ## Ofte stillede spørgsmål
