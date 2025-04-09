@@ -16,6 +16,7 @@ tags:
   - træning
   - meditation
   - træningsprogram
+  - populær
   - featured
 category:
   - Yoga

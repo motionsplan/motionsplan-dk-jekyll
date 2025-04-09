@@ -4,7 +4,7 @@ permalink: /calisthenics-begynderprogram-kropsvaegtstraening/
 redirect_from:
   - /calisthenics-begynderprogram-kropsvaetstraening/
   - /calisthenics-kongen-kropsvaetstraening/
-last_modified_at: 2021-01-18T09:41:09Z
+last_modified_at: 2024-01-18T09:41:09Z
 author: karsten.thor.lund
 language: da
 header:
@@ -19,6 +19,7 @@ tags:
   - workouts
   - træningsprogram
   - øvelser
+  - populær
 gallery:
   - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
@@ -31,15 +32,19 @@ gallery:
     title: Worlds greatest stretch
 ---
 
-Jeg har lavet et begynderprogram til Calisthenics, hvor du skal bruge et minimum af udstyr. Calisthenics er træning med egen kropsvægt, og her har du altså et bud på, hvordan du som begynder kan komme i gang med Calisthenics.
+Er du klar til at komme i gang med calisthenics? Jeg har lavet et 8 ugers begynderprogram, hvor du bruger minimalt udstyr og træner med din egen kropsvægt.
 
-Mens Covid-19-virussen hærger over det ganske danske land, og tvinger de lukkede privatiserede fitnesskæder i knæ, tyr flere og flere til at holde krop og form vedlige med [hjemmetræning](/hjemmetraening-traeningsprogram/). Markedet og alternativer er mange, og det kan være en jungle at orientere sig i hvad man skal kaste sig ud i. 
+Calisthenics er en fleksibel træningsform, som du kan lave næsten hvor som helst – derhjemme, i parken eller på træningspladsen. Programmet hjælper dig med at opbygge styrke og kontrol, så du som nybegynder kan komme godt i gang.
 
-Det er svært at vide hvor lang tid der går, før man kan fortsætte sin normale dagsrutine i sit vante træningscenter, så her kommer vi med lidt inspiration til at bruge pausen fra sine vante omgivelser til at lægge sin træningsstil og fokus om, eller til at lære om helkropsforståelse. Velkommen til Calisthenics.
+Dette program kræver ikke store investeringer i udstyr og er perfekt til dig, der vil lave effektiv [hjemmetræning](/hjemmetraening-traeningsprogram/) uden at være afhængig af et fitnesscenter.
 
-Hvad er Calisthenics? **Calisthenics er træning med kropsvægt, hvor formålet er at få fuld kontrol over sin egen krop ved at lave øvelser med kropsvægt. I calisthenics tænkes kroppen i en helhed.**
+Velkommen til Calisthenics.
 
 {% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/00/d2/2c/00d22c7f74ec3864c456a0e7207a8276.jpg" data-pin-id="579768152030230128" caption=page.title %}
+
+## Hvad er Calisthenics?
+
+**Calisthenics er træning med kropsvægt, hvor formålet er at få fuld kontrol over sin egen krop ved at lave øvelser med kropsvægt. I calisthenics tænkes kroppen i en helhed.**
 
 ## Cali-hvad-for-noget?
 
@@ -48,6 +53,7 @@ For at forstå begrebet, skal man starte med at bryde det ned. Calisthenics er e
 I Calisthenics snakker vi helhed. At forstå at bruge alle kæder af kroppens stærke muskelkæder, og få dem til at samarbejde med hjerne og derved skabe de tekniske komponenter der skal til. I stedet for at begynde at kippe, cheate, eller tage andre genveje, handler det i stedet om at udvikle kapacitet og konstant prøve at gøre træningen så effektiv og hård som muligt. 
 
 Det handler altså ikke om at tage så mange reps som muligt i armbøjninger eller lægge i planken i 7 min, men handler om at finde redskaber og metoder til at få hele kroppen til at være aktiveret og hjælpe i timingen til helt optimal udførsel. Blandt andet ved god tid i træningen mellem sæt og pas, så hjerne og muskler har god tid til at udvikle et godt samarbejde til aktivering, eller en hård excentrisk negativ fase i armbøjningerne, hvis dine reps bliver for mange. 
+
 ## Helheden i calisthenics
 
 Når vi snakker helhed i den smukke træning, handler det heller ikke kun om muskelkæder og hjerneneuroner i vores program, men ligeledes at tænke elementer af den sunde stærke krop ind i resten af ens daglige virke. Helt fra søvn til mobilitet ved udstræk og kost.
@@ -131,7 +137,7 @@ Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umi
 |Banded pull up|4 sæt*5 reps (2-1-2) – hold lidt længere pause her (120 sek. min)|4 sæt*5 reps (2-1-2) – (120 sek. min)|6 sæt*3 reps (2-1-2) – (120 sek. min)|1-2 sæt*5 reps (2-1-2) – (120 sek. min)|
 |Banded dips|4 sæt*5 reps (2-1-2) – (120 sek. min)|4 sæt*5 reps (2-1-2) - (120 sek. min pause)|6 sæt*3 reps (2-1-2) – (120 sek. min)|1-2 sæt*5 reps (2-1-2) – (120 sek. min)|
 |Active hang - max hold|2-4 sæt for så længe du kan holde den (max 30 sek.)| | | 
-|Eccentrisk pull up|3-5 sæt*3-5 reps (tempo: 5 sek. ecc. (5-0-0)| | | |
+|Eccentrisk pull up|3-5 sæt*3-5 reps (tempo: 5 sek. ecc. (5-0-0))| | | |
 |Horisontal rows progression| |2-4 sæt*8-12 reps (2-1-2)| | |
 |Ring front support + dips| |2-4 sæt* 3-5 reps (excentrisk eller isometrisk hold i 5-7 sek.)| | 
 |Feet supported dip| | |2-4 sæt* 8-12 reps (2-1-2)| |

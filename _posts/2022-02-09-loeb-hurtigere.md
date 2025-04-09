@@ -10,9 +10,9 @@ header:
 category:
   - Løb
 tags:
-  - træningsprogram
   - træning
   - løb
+  - guide
   - faq
 last_modified_at: 2022-01-27T22:21:26Z
 ---

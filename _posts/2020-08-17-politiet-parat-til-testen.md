@@ -12,7 +12,6 @@ header:
 category:
   - Træningsprogrammer
 tags:
-  - træningsprogram
   - optagelsesprøve
   - politi
 keywords:

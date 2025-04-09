@@ -18,6 +18,7 @@ tags:
   - hjemmetræning
   - politi
   - træningsprogram
+  - populær
 last_modified_at: 2021-01-02T10:14:14Z
 toc: true
 author: jakob.nielsson
@@ -76,7 +77,7 @@ Når du skal planlægge din hjemmetræning i styrketræning, så du kan forbered
 - 1-2 øvelser fra hver kategori
 - 3-5 sæt per øvelse
 - 5-30 gentagelser per sæt	
-- 6-15 sæt pr kategori om ugen
+- 6-15 sæt pr. kategori om ugen
 
 I forhold til politiets fysiske optagelsesprøve, så er der tre vigtige kategorier, som du kan forberede dig på.
 

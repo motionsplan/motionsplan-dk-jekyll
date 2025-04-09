@@ -116,7 +116,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 ***
 
-## Flere forslag til træningsprogrammer
+## 📅 Andre træningsprogrammer
 {: id="other-programs" }
 
 Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
@@ -145,7 +145,7 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 </div>
 
-## Artikler om programlægning og træningsplanlægning
+## Læs om programlægning og træningsplanlægning
 
 <div class="feature__wrapper">
 
