@@ -1,9 +1,11 @@
 ---
-title: &title "Kropskomposition 101 - fedtprocent og fedtfri masse"
+title: &title "Kropskomposition - 3 modeller for kropssammensætning"
+seo_title: "Kropskomposition 101 - forstå din kropssammensætning"
 permalink: /kropskomposition/
+excerpt: "Kropskomposition handler om at få indblik i, hvad kroppen består af. Her præsenteres 3 modeller til forståelse af kroppens sammensætning."
+description: "Forstå din kropskomposition – lær om fedtprocent, muskelmasse og målemetoder som DEXA og bioimpedans. Fagligt og let at forstå."
 redirect_from:
   - /artikel/kropskomposition/
-excerpt: "Kropskomposition handler om at få indblik i, hvad kroppen består af. Hvad er fedtprocenten og den fedtfri masse?"
 language: da
 header:
   overlay_image: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
@@ -13,6 +15,7 @@ category:
   - Kost & Ernæring
   - Fedtprocent
 tags:
+  - kropskomposition
   - fedtprocent
   - featured
 last_modified_at: 2025-03-06T23:14:14Z
@@ -41,9 +44,9 @@ Kropssammensætning kan måles op til maksimalt fem kompartmenter – atomar, mo
 
 {% include figure image_path="https://rubenmeerman.com/wp-content/uploads/Five-level-model-of-human-body-composition-colour.png" caption="[Ruben Meerman](https://rubenmeerman.com/five-level-model-of-the-human-body/)" %}
 
-I de fleste tilfælde, jo flere kompartmenter der måles, desto mindre fejl er der i estimaterne af kropssammensætningen.
+I de fleste tilfælde, jo flere kompartmenter der måles, desto mindre fejl er der i estimaterne af kroppens sammensætning.
 
-Dog kræver måling af flere kompartmenter, at der bruges flere metoder til vurdering af kropssammensætning.
+Dog kræver måling af flere kompartmenter, at der bruges flere metoder til vurdering af, hvordan kroppen er sammensat.
 
 Sammenligninger:
 
@@ -165,7 +168,7 @@ Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præc
 | **Bioimpedans (BIA)** | Sender en svag strøm gennem kroppen for at estimere kropssammensætning | 2C-modellen | Moderat | Let at bruge, hurtig måling | Påvirkes af hydreringstilstand |
 | **Målinger og udregninger** | Brug af BMI, taljemål og formler til estimering | Ingen direkte model | Lav | Let tilgængeligt | Unøjagtigt for individer med høj muskelmasse |
 
-## Afslutning om kropskomposition
+## Afslutning om kropssammensætning
 
 Der er altså mange måder at måle kropskomposition på. Jeg synes de væsentligste paramtre, man bør vurdere sin træning på, er styrke, hurtighed, springstyrke, udholdenhed og mobilitet. Hvis der er fremgang på alle de paramtre, så kommer kroppen til at fungere bedre og bedre.
 

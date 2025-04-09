@@ -142,7 +142,7 @@ Der er andre måder at måle kropskomposition på. Det kan du læse mere om i vo
 
 Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt.
 
-For en dybere forståelse af kropskomposition, læs vores artikel om [kropskomposition](/kropskomposition/).
+For en dybere forståelse af kropskomposition, læs vores artikel om [kropssammensætning](/kropskomposition/).
 
 Du skal ikke gå på [slankekur](/slankekur/) på baggrund af tallene fra en tilfældig maskine.
 

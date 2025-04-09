@@ -95,7 +95,7 @@ Du kan læse mere om vandvejning under [kropskomposition](/kropskomposition/). T
 
 ### 2. DEXA-scanning
 
-En DEXA-scanning kræver adgang til en DEXA-scanner. Det er et rigtig dyrt apparat, som typisk kun findes på hospitaler eller private klinikker. Du kan læse mere om DEXA-scanning under [kropskomposition](/kropskomposition/).
+En DEXA-scanning kræver adgang til en DEXA-scanner. Det er et rigtig dyrt apparat, som typisk kun findes på hospitaler eller private klinikker. Du kan læse mere om DEXA-scanning i artiklen om [kropskomposition](/kropskomposition/).
 
 For den almindelige fitnessudøver så kan følgende være muligheder for at få målt fedtprocenten.
 
