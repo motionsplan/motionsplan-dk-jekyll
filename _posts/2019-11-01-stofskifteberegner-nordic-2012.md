@@ -122,7 +122,7 @@ Når du kender hvilestofskiftet (BMR) og [faktoren for fysisk aktivitetsniveau (
 
 Nu hvor du har beregnet dit daglige energibehov, kan du tage det næste skridt i at optimere din træning og kost. Udforsk disse ressourcer for at få endnu mere indsigt:
 
-- 📊 Læs om [hvilestofskiftet og basalstofskiftet](/bmr-beregner-hwilestofskifte-basalstofskifte/) for at forstå, hvordan din krop bruger energi i hvile.
+- 📊 Læs om [hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) for at forstå, hvordan din krop bruger energi i hvile.
 - 🔥 Brug vores [avancerede beregner af stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) for en mere præcis vurdering af din aktivitet.
 - ⚖️ Beregn dit [ligevægtsindtag](/ligevaegtsindtag-beregner/) og find ud af, hvordan du opretholder din vægt, så du kan få resultater.
 

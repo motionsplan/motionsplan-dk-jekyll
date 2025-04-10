@@ -37,6 +37,7 @@ Jeg har skrevet en del om [ulemperne ved Body Mass Index (BMI)]({% link _posts/2
 Ponderal Index opløfter højden i tredje potens for at gøre formlen mere uafhængig af højden (se mere på [Wikipedia](https://en.wikipedia.org/wiki/Corpulence_index)).
 
 ## Beregner til Ponderal Index
+{: id="calculator" }
 
 {% include calculator/calculate-ponderal-index.html %}
 
