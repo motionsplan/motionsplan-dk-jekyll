@@ -8,7 +8,7 @@ header:
   caption: *title
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med strukturel balance"
-      url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
+      url: "#sheet"
       rel: nofollow noopener
 category:
   - Styrketræning
@@ -57,8 +57,9 @@ Mange kan ikke helt føle deres Trap-3-muskel. Men i Trap-3 raise er det naturli
 {% include video provider="youtube" id="qLLJWmHlYZQ" %}
 
 ## Skema over værdier for strukturel balance
+{: id="sheet" }
 
-{% include feature_row type="left" %}
+{% include feature_row id="feature_row" type="left" %}
 
 ## Bruger du strukturel balance?
 
@@ -68,9 +69,11 @@ Bruger du strukturel balance i din træning?
 
 ## Er du stå stærk som alle de andre?
 
-Vi har skrevet et andet indlæg, hvor du kan lære, hvordan man [tester sin _one repetition maximum_ med en 1RM-maxtest](/rm-beregner/)
+Vi har skrevet et andet indlæg, hvor du kan lære, hvordan man [tester sin _one repetition maximum_ med en 1RM-maxtest](/rm-maxtest/).
 
 På exrx.net har de samlet en række [styrkestandarder](https://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), hvor du kan få et bud på, om du er stærk.
+
+Tjek også [sammenligning af styrke på tværs af vægtklasser](/sammenligning-styrke/).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

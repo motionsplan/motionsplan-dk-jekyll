@@ -586,7 +586,7 @@ Du kan vælge et splitprogram, når du er rutineret (har trænet regelmæssigt i
 
 Vi foreslår følgende skabelon som er inspireret af Training for Warriors.
 
-#### Underkrop
+**Underkrop**
 
 - Lower Body Warmup
 - Complex Lift 1 (Hip or Knee Dominant)
@@ -596,7 +596,7 @@ Vi foreslår følgende skabelon som er inspireret af Training for Warriors.
 - Posterior Chain 2
 - Core/Finisher
 
-#### Overkrop
+**Overkrop**
 
 - Upper Body Warmup
 - Complex Push (H or V)

@@ -52,9 +52,11 @@ I modellen baseret på [My Squat Mechanics](https://www.mysquatmechanics.com/ben
 
 ***
 
-## Lås albuen vs Elbow Flare
+## Indstillingsmuligheder i bænkpresmodellen
 
-Modellen har mulighed for at sætte _elbow flare_ (vinklen mellem kroppen og albuerne) eller låse albue-tilt til 0 grader (albuerne kan ikke bevæge sig fremad eller bagud i forhold til stangen).
+### Lås albuen vs Elbow Flare
+
+Modellen har mulighed for at sætte _elbow flare_ (vinklen mellem kroppen og albuerne) eller låse albuen til 0 grader under stangen (albuerne kan ikke bevæge sig fremad eller bagud i forhold til stangen).
 
 Desværre har albuepositionen en variabel for meget til at blive modelleret præcist. Hvis du lader <i>lock</i>-muligheden være ulåst, kan du justere albue-flare. Dog laver modellen nogle sjove ting, når vinklen kommer over ca. 60 grader.
 
@@ -62,13 +64,9 @@ At låse albuepositionen, så albuerne ikke kan bevæge sig foran eller bag stan
 
 Leg med begge muligheder og se, hvad der fungerer bedst for dig.
 
-## Bar Path
+### Bar Path
 
-Har du nogensinde ønsket at se, om en ændring af din stangbane, så du efterligner en af de store løftere vil hjælpe på dit løft?
-
-Nu kan du det. 
-
-Kryds af for <i>Bridges</i> eller <i>Kazmaier</i> og se, hvordan dine momenter ændrer sig.
+Du kan ændre din stangbane, så du efterligner en af de store løftere i bænkpres. Kryds af for <i>Bridges</i> eller <i>Kazmaier</i> og se, hvordan dine momenter ændrer sig i løftet.
 
 Gør det det lettere eller sværere?
 

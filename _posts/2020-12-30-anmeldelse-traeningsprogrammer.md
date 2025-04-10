@@ -11,7 +11,6 @@ header:
   caption: *title
 category:
   - Styrketræning
-  - Styrketræningsprogrammer
 tags:
   - styrketræning
   - programanmeldelse

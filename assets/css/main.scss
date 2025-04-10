@@ -19,7 +19,7 @@ body {
   counter-reset: section;
 }
 
-h2:not(.feature__wrapper h2)::before {
+h2:not(.feature__wrapper h2, #references, .calculator h2)::before {
   counter-increment: section;
   content: counter(section);
   
@@ -82,6 +82,7 @@ fieldset .column {
 .model {
   margin: 0 auto;
   flex: 1;
+  width: 100%;
   max-width: 600px;
 }
 
@@ -583,17 +584,18 @@ details.references:open summary:hover::before {
   /* Forsinkelse før eventuel ændring til lukket bog */
 }
 
-
-details.references[open] summary::after {
-  content: " - Læs om vores redaktionelle proces";
-  font-weight: normal;
-  font-size: 0.9em;
-  color: #555;
-  margin-left: 5px;
+@media (min-width: 768px) {
+  details.references[open] summary::after {
+    content: " - Læs om vores redaktionelle proces";
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #555;
+    margin-left: 5px;
+  }
 }
 
 details.references[open] ul::before {
-  content: "Motionsplan.dk anvender kun pålidelige og videnskabeligt funderede kilder til at understøtte de fakta, vi præsenterer i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
+  content: "Motionsplan.dk anvender pålidelige og videnskabeligt funderede kilder for at understøtte indholdet i vores artikler. Læs om vores redaktionelle proces for at lære, hvordan vi sikrer, at vores indhold er præcist, troværdigt og faktatjekket.";
   display: block;
   width: calc(100% + 2em);
   /* Udvider boksen, hvis ul har indrykning */

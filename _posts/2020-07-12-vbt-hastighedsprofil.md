@@ -10,7 +10,7 @@ header:
   teaser: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med Velocity Profile og MVT"
-      url: https://docs.google.com/spreadsheets/d/1jQpPVOIp0i1PhTQ7uFuaFDIB3mav0NkPuhLXhzfHWIs/copy?usp=sharing
+      url: "#sheet"
       rel: nofollow noopener
 category:
   - Styrketræning
@@ -121,6 +121,9 @@ Nu kan du så bruge hastighedsmålingerne til at hjælpe dig med et objektivt m�
 Men det er naturligvis væsentligt, at du laver din egen version af skemaet, så hastighederne bliver dine egne. Og husk at lave skemaet for de forskellige løft, da hastighederne er forskellige.
 
 Jeg har lavet et regneark, som du kan bruge som udgangspunkt til at lave din egen _load velocity profile_, finde din _minimum velocity threshold_ og estimere din 1RM.
+
+## Arbejdsark
+{: id="sheet" }
 
 {% include feature_row id="feature_row_spreadsheet" type="left" %}
 

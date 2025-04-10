@@ -16,13 +16,15 @@ tags:
   - programanmeldelse
   - fullbody
   - populær
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 ---
 
 *[DUP]: Daily Undulating Periodization
 
-Daily Undulating Periodization (DUP) er en metode til at programmere sin træning. Man vælger nogle basisøvelser, som man arbejder med tre gange om ugen med et forskelligt antal sæt og gentagelser hver gang.
+Daily Undulating Periodization (DUP) er en metode til at programmere din træning. Du vælger nogle basisøvelser, som du arbejder med tre gange om ugen med et forskelligt antal sæt og gentagelser hver gang.
+
+## Hvad er Daily Undulating Periodization
 
 En forklaring til de tre ord:
 
@@ -30,9 +32,11 @@ En forklaring til de tre ord:
 - **Undulating**. Programmeringen igennem ugen bevæger sig som en bælge med forskellige vægte, sæt, reps og intensitet hver gang.
 - **Periodization**. Målet er at forbedre styrken samtiddig med at trætheden holdes nede. Tanken i DUP er, at kroppen får nok belastning til at gå frem, uden at man støder på et plateau.
 
-## Hvordan laves DUP?
+## Sådan udfører du et program med DUP-progression
 
-Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Programmet tager udgangspunkt i [1RM](/rm-maxtest/), og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
+Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag.
+
+Programmet tager udgangspunkt i [1RM](/rm-maxtest/), og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
 
 Et eksempel kunne være sådan her:
 
@@ -50,11 +54,44 @@ Ofte vil man vælge tre store øvelser, og så vil man køre en protokol pr. lø
 
 Du kan også køre suppleringsøvelser, hvis du har brug for en ekstra træning. Her kunne du køre 4-6 øvelser med øvelser, der supplerer dine hovedøvelser.
 
+Her er en lille variation af programmet, som du kan prøve direkte i [Liftosaur](/liftosaur/).
+
+{% include figure image_path="/assets/images/blog/daily-undulating-periodization.png" caption="Sådan her kunne det se ud i praksis med progression skrevet ind. Billedet er genereret i Liftosaur." %}
+
+<details markdown="1" class="faq">
+  <summary>🦖 Liftosaur program</summary>
+
+```
+# Week 1
+## Day 1
+Heavy: Squat / 4x3 / @7 / progress: dp(2.5kg, 3, 4)
+Moderate: Bench Press, Barbell / 4x6 @7 / progress: dp(2.5kg, 6, 8)
+Light: Deadlift / 3x8 @7 / progress: dp(2.5kg, 8, 10)
+
+## Day 2
+Moderate: Squat / 4x6 / @7 / progress: dp(2.5kg, 6, 8)
+Light: Bench Press, Barbell / 3x10 @7 / progress: dp(2.5kg, 10, 12)
+Heavy: Deadlift / 3x3 @7 / progress: dp(2.5kg, 3, 4)
+
+## Day 3
+Light: Squat / 4x8 / @7 / progress: dp(2.5kg, 8, 10)
+Heavy: Bench Press, Barbell / 4x3 @7 / progress: dp(2.5kg, 3, 4)
+Moderate: Deadlift / 3x6 @7 / progress: lp(2.5kg, 1)
+```
+
+</details>
+
 ## Progression i Daily Undulating Periodization
 
-Der er to måder at lave progression på i et DUP-baseret program. Enten kan du sætte ekstra vægt på stangen, eller du kan øge antallet af sæt eller reps. Det er formentlig muligt at øge med omkring 2,5 kg om ugen i dine styrke og hypertrofi-sæt, hvis du øger vægten. I dine power-sæt skal du især fokusere på den tekniske udførelse og stangens bane, og derfor kan det være bedre at øge antallet af sæt.
+Der er to måder at lave progression på i et DUP-baseret program. Enten kan du sætte ekstra vægt på stangen, eller du kan øge antallet af sæt eller reps.
+
+Det er formentlig muligt at øge med omkring 2,5 kg om ugen i dine styrke og hypertrofi-sæt, hvis du øger vægten. I dine power-sæt skal du især fokusere på den tekniske udførelse og stangens bane, og derfor kan det være bedre at øge antallet af sæt.
 
 DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en deload uge, hvor du sænker volumen med op til 50%.
+
+## Populære eksempler på styrkeprogrammer med DUP
+
+Et meget kendt og berømt program, der bruger forskellige intensiteter fra dat til dag er [Smolov Jr.-programmet](/smolov-jr-beregner/). Det kan både udføres som progression på din bænkpres (hvor det er meget berømt) eller på squat (hvis du er klar til til noget af en oplevelse).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

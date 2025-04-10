@@ -27,7 +27,7 @@ Vi har en mission --- at hjælpe dig med at få den bedst mulige viden, så du k
 
 Hvis du – ligesom os – er nysgerrig på, hvordan kroppen reagerer på træning, og hvordan du kan optimere dine resultater, så er du kommet til det rette sted.
 
-{% include gallery images=site.data.mentioned layout="fifth" headline="Motionsplan er omtalt i" %}
+{% include gallery images=site.data.mentioned class="no-collapse" layout="fifth" headline="Motionsplan er omtalt i" %}
 
 ## Eksperterne bag Motionsplan.dk
 
@@ -82,7 +82,7 @@ Hvis du køber noget via et link, modtager vi en lille kommission – uden at de
 
 Indtjeningen bruges til at udvikle og forbedre hjemmesiden, opdatere indholdet og lancere nye tiltag. Hvis du vil støtte os direkte, kan du **[aktivere et reklamefrit Motionsplan](https://www.buymeacoffee.com/l/Gi0SBcuPF){: rel="nofollow noopener" }**.
 
-{% include gallery images=site.data.advertisers layout="seventh" headline="Samarbejdspartnere (reklamelinks)" %}
+{% include gallery images=site.data.advertisers class="no-collapse" layout="seventh" headline="Samarbejdspartnere (reklamelinks)" %}
 
 Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har fortjent det.
 

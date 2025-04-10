@@ -38,57 +38,61 @@ author: jye.schmidt
 
 Squat er en teknisk krævende styrkeøvelse, hvor biomekanik spiller en afgørende rolle for både præstation og bevægelsesmønsteret.
 
-Du kan se dig selv som en tændstikmand i en model baseret på [My Squat Mechanics](https://www.mysquatmechanics.com/). Du kan indstille modellen til dine egne kropsmål, så du får et bud på, hvordan din egen squat ser ud med dine kropsmål og dine teknikvalg.
+Du kan se dig selv som en tændstikmand i en model baseret på [My Squat Mechanics](https://www.mysquatmechanics.com/). Du kan indstille modellen til dine egne kropsmål, så du får et bud på, hvordan din egen squat ser ud med dine proportioner og dine teknikvalg.
 
-Se stangens bane, når du sammenligner fx highbar og low bar, forskellige vinkler i din stand og forskellig vægt på stangen.
+Se fx stangens bane, når du sammenligner fx highbar og low bar, forskellige vinkler i din stand, og hvordan løftet ændrer sig med forskellig vægt på stangen.
 
 {% comment %}https://barbell-logic.com/seeing-squat-mechanics/{% endcomment %}
 
-## Om modellen
+## Model for squat
 
-De nedenstående skydeknapper giver dig mulighed for at indtaste dine egne kropsmål og identificere områder såsom dine squat-vinkler, potentielle teknikfejl og hvor din sticking point er placeret. Brug dem til at se, hvordan momentet ændrer sig for din krop, når du varierer stangpositionen fra low bar til high bar... eller leg bare med skydeknapperne og få sjove figurer til at squatte.
+I modellen kan du indstille dine egne kropsmål, squat-vinkler og potentiel teknik. Brug modellen til at se, hvordan momentet ændrer sig for din krop, når du varierer stangpositionen fra low bar til high bar... eller du kan bare lege lidt med indstillingerne og få sjove figurer til at squatte.
 
 **Husk blot, at dette er en model! De viste resultater er korrekte for modellen, men passer muligvis ikke præcist til dig.**
 
-## Model for squat
+***
 
 {% include motionsplan/squat-mechanics.html %}
 
 ***
 
-## Om modellen
+## Om squat-modellen
 
-Stickman-modellen viser de kropsdel-længder, der er valgt ovenfor med skyderne, barens vej i blåt og den aktuelt valgte squat-position. Squat-positionen er baseret på, at ankel, knæ og hofter bøjer samtidig, mens modellens tyngdepunkt (CoG) opretholdes over midtfoden.
+Tændstikmand-modellen viser de proportioner, der er indtastet i ovenstående indstillinger. Vægtstangens vej er fremhævet i blå i forhold til den valgte squat-position.
 
-Knæet bøjes lineært, mens anklen bøjes hurtigere i starten af squatten. "Lineært" betyder, at når modelpositionen er 25% fra stående til squat, har knæet bøjet 25% fra den stående vinkel til maksimum. Når positionen er halvvejs, har vinklen ændret sig med 50% af den maksimale vinkel.
+Forudsætninger i modellen:
 
-Til sidst, når modellen er fuldt squattet, er vinklen ved max. At bryde lineært er måske ikke helt korrekt for knæet, og anklen bøjer hurtigere tidligt i bevægelsen. Husk bare, at det er en model, og den viser ikke præcist, hvordan du squatter.
+- Squat-positionen er baseret på, at ankel, knæ og hofter bøjer samtidig, mens modellens tyngdepunkt (CoG) opretholdes over midtfoden.
+- Bøjningen i knæet er lineær, mens anklen bøjes hurtigere i starten af squatten. "Lineært" betyder, at når modelpositionen er 25% fra stående til squat, har knæet bøjet 25% fra den stående vinkel til maksimum. Når positionen er halvvejs, har vinklen ændret sig med 50% af den maksimale vinkel. Når modellen er fuldt squattet, er vinklen ved max. At bryde lineært er måske ikke helt korrekt for knæet, og anklen bøjer hurtigere tidligt i bevægelsen. Husk bare, at det er en model, og den viser ikke præcist, hvordan du squatter.
+- CoG-beregningerne tager højde for stangens masse, hver kropsdelds masse og hver segments eget CoG. Dette kan få stangen til at bevæge sig fremad forbi midtfoden for at opretholde modelens CoG over midtfoden. Som resultat bevæger stangen sig ikke altid i en lodret bane.
 
-CoG-beregningerne tager højde for stangens masse, hver kropsdelds masse og hver segments eget CoG. Dette kan få stangen til at bevæge sig fremad forbi midtfoden for at opretholde modelens CoG over midtfoden. Som resultat bevæger stangen sig ikke altid i en lodret bane.
+## Indstillingsmuligheder i modellen
 
-## Stance
+### Stance
 
-Brug stance-slideren til at ændre vinklen på dine fødder, f.eks. fødder der peger lige frem giver 0 grader og lige ud giver 90 grader.
+Brug stance-slideren til at ændre vinklen på dine fødder. Hvis fødderne peger lige frem, så indstiller du modellen til 0 grader, og hvis de peger lige ud til siden, så vælg 90 grader.
 
-De af jer med lange ben vil have gavn af en lidt bredere stance og fødder, der er vinklet ud. Dette vil gøre din torso mere opret og få dine hofter tættere på midtfoden.
+De af jer med lange ben vil have gavn af en lidt bredere stance og fødder, der er vinklet ud. Dette vil gøre din torso mere oprejst, og dine hofter tættere på midtfoden.
 
-## High -> Low Bar
+### High -> Low Bar
 
-Bevæg stangen fra en high bar position til en low bar position. Afstanden er fra toppen af torsoen, f.eks. 0 cm for high bar og omkring 5-10 cm for low bar.
+Bevæg stangen fra en high bar position til en low bar position. Afstanden er fra toppen af torsoen, fx 0 cm for high bar og omkring 5-10 cm for low bar for at se forskellen i stangens bane.
 
-## Squat Stats
+## Grafer
 
-Squat Stats-diagrammet viser momentet for hofterne og knæene sammen med vinklerne på ryggen, hofterne og knæene gennem alle positioner af squatten. Fra squatting til højre til stående til venstre. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at bruge position-slideren ovenfor.
+### Squat Stats
 
-Dette er nyttigt for at se, hvordan momentet ændrer sig under squatten og til at identificere den svære position.
+Squat Stats-diagrammet viser momentet for hofterne og knæene sammen med vinklerne på ryggen, hofterne og knæene gennem alle positioner af squatten. Fra squat til højre til stående til venstre. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at ændre position i indstillingerne for modellen ovenfor.
 
-## Moment Breakdown
+Dette er nyttigt for at se, hvordan momentet ændrer sig under squatten og til at identificere den sværeste position i selve løftet.
+
+### Moment Breakdown
 
 Hvis du er kommet så langt, elsker du sikkert tal og diagrammer! Disse to viser en opdeling af knæ- og hofte-momenterne og hvad der bidrager til dem. De samlede momenter er et total af stangens moment og momentet fra hver kropsdel.
 
-Leg med sliderne for krops- og stangvægt for at se, hvordan momentopdelingerne ændrer sig. Du vil også kunne se, hvordan stangens bane ændrer sig og begynder at bevæge sig fremad med en lettere stangvægt. Midtfods-stangbane er kun mulig med en meget tung stangvægt, hvor stangen dominerer tyngdepunktberegningerne.
+Leg med indstillingerne for krops- og stangvægt for at se, hvordan momentopdelingerne ændrer sig. Du vil også kunne se, hvordan stangens bane ændrer sig og begynder at bevæge sig fremad med en lettere stangvægt. Midtfods-stangbane er kun mulig med en ret tung stangvægt, hvor stangen dominerer tyngdepunktberegningerne.
 
-## Muskel-længde
+### Muskel-længde
 
 Baseret på artiklen af [Hawkins & Hull](https://www.researchgate.net/profile/Maury_Hull/publication/20781812_A_method_for_determining_lower_extremity_muscle-tendon_lengths_during_flexionextension_movements/links/0deec5296a6dbe683f000000.pdf), viser dette diagram den beregnede længdeændring for forskellige muskler under squatten.
 

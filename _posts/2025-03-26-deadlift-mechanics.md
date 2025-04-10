@@ -52,6 +52,8 @@ Der er altid individuelle forskelle i anatomi og teknik som kan påvirke, hvorda
 
 ## Model for dødløft
 
+***
+
 {% include motionsplan/deadlift-mechanics.html %}
 
 ***
@@ -66,7 +68,7 @@ Dødløft-positionen er baseret på, at anklen bevæger sig gennem en stor vinke
 
 ## Grafen
 
-Grafen viser momentet af hofter og knæ sammen med vinklen af ryggen, hofterne og knæene gennem alle positioner i dødløftet. Fra start-positionen til stående position. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at glide position-slideren ovenfor.
+Grafen viser momentet af hofter og knæ sammen med vinklen af ryggen, hofterne og knæene gennem alle positioner i dødløftet. Fra start-positionen til stående position. Den lodrette linje viser den aktuelle position af modellen og kan ændres ved at ændre positionen i indstillingerne ovenfor.
 
 ***
 
