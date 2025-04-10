@@ -26,7 +26,7 @@ feature_row_police_tests:
     btn_label: "Prøv testen"
     btn_class: "btn--success"
 feature_row_police_program:
-  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
+  - image_path: "/assets/images/blog/police-training.png"
     alt: "Træningsprogram til optagelsesprøven"
     title: "Træningsprogram til optagelsesprøven"
     excerpt: "Vi har samlet en masse træningsprogrammer, som du kan bruge til at forberede dig til den fysiske optagelsesprøve. Der er både programmer til dig der har adgang til et træningscenter eller gerne vil have et program uden så meget udstyr."
@@ -60,7 +60,7 @@ Tjek politiparat og gør det hele meget bedre
 
 ## Træningsprogram til de fysiske prøver
 
-Hvis du gerne vil forberede dig til den fysiske optagelsesprøve, så prøv vores træningsprogra, som er lavet af en af de rutinerede undervisere af politiaspiranter på Vejle Idrætshøjskole.
+Hvis du gerne vil forberede dig til den fysiske optagelsesprøve, så prøv vores træningsprogram, som er lavet af en af de rutinerede undervisere af politiaspiranter på Vejle Idrætshøjskole.
 
 {% include feature_row id="feature_row_police_program" type="left" %}
 

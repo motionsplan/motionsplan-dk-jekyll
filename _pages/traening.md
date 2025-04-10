@@ -364,7 +364,7 @@ Her kan du finde inspiration til forskellige træningsplaner.
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 8 %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -415,7 +415,7 @@ FEATURE_ROW
 
 {% include feature_row id="feature_row_injuries" type="left" %}
 
-## Læs meget mere om træning her:
+## Læs meget mere om træning her
 
 {% assign site_posts = site.posts | where: "tags", "træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 

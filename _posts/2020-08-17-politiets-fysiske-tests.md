@@ -7,8 +7,8 @@ description: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bæn
 last_modified_at: 2024-08-17T09:41:09Z
 language: da
 header:
-  overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
-  teaser: /assets/images/blog/politiets-fysiske-test.jpeg
+  overlay_image: /assets/images/blog/police-training.png
+  teaser: /assets/images/blog/police-training.png
   caption: *title
 category:
   - Tests

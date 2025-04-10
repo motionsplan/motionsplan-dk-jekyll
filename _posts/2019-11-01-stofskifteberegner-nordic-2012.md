@@ -16,6 +16,7 @@ tags:
   - beregner
   - stofskifte
   - stofskifteberegner
+  - populær
 meta:
   name: TEE-beregner med PAL-tabel
   equipment: ingen

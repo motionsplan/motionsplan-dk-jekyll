@@ -1,5 +1,5 @@
 ---
-title: &title "Træningsprogram til politiets optagelsesprøve 🏃💪👮👮‍♀️"
+title: &title "Træningsprogram til politiets optagelsesprøve uden udstyr"
 seo_title: "Træningsprogram til politiets optagelsesprøve – Forbered dig uden udstyr"
 description: "Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset, så du kan forberede dig effektivt hjemme."
 excerpt: "Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset, så du kan forberede dig effektivt hjemme."
@@ -18,8 +18,9 @@ tags:
   - hjemmetræning
   - politi
   - træningsprogram
+  - styrketræning
   - populær
-last_modified_at: 2021-01-02T10:14:14Z
+last_modified_at: 2025-01-02T10:14:14Z
 toc: true
 author: jakob.nielsson
 ---
@@ -27,6 +28,10 @@ author: jakob.nielsson
 Her er et træningsprogram, der kan forberede dig til politiets fysiske optagelsesprøve. Programmet kræver minimalt udstyr, så du kan gennemføre det, selvom du ikke har adgang til et fitnesscenter.
 
 Målet med dette træningsprogram er at gøre det muligt for dig at træne effektivt hjemme, uden at du behøver dyrt udstyr eller et træningscenter, samtidig med at du forbereder dig til [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+
+**Adgang til et fitnesscenter?** [Prøv 8 ugers politiprogram med udstyr](/politi-traeningsprogram-fitnesscenter/)
+
+## Sådan kan du lave testen uden udstyr
 
 Jeg har også lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvor jeg viser, hvordan man kan gennemføre nogle af testene fra optagelsesprøven med et minimum af udstyr.
 

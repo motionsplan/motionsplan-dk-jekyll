@@ -161,6 +161,8 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
   {% endfor %}
 {% endif %}
 
+[Slankekur er en dårlig ide](/slankekur/){: .btn .btn--success .btn--center }
+
 </div>
 
 ## Kalorietabeller og næringsindhold i fødevarer
