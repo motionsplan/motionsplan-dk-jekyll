@@ -1622,7 +1622,11 @@ $(function() {
         }
       }
 
+      let mp = SM / W * 100;
+
       $("[name='musclemass']").val(SM.toFixed(2));
+      $("[name='musclemass_percent']").val(mp.toFixed(0));
+
     });
     $("#calculator_6sek_fi").submit(function(e) {
       console.log("6sek_fi");

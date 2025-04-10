@@ -63,7 +63,7 @@ For at øge muskelmassen, så skal du typisk træne [styrketræning med fokus p�
 
 ## Hvor lang tid tager det at få større muskler?
 
-Vi har skreet en uddybende guide til, [hvor lang tid det tager for muskler at vokse](/hvor-hurtigt-vokser-muskler/).
+Vi har skrevet en uddybende guide til, [hvor lang tid det tager for muskler at vokse](/hvor-hurtigt-vokser-muskler/). I den artikel kan du også finde en beregner til finde din teoretiske øvre grænse for, hvor meget muskelmasse du kan få.
 
 
 {% comment %}

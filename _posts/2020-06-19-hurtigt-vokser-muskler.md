@@ -12,6 +12,7 @@ header:
 category:
   - Styrketræning
 tags:
+  - beregner
   - fysiologi
   - muskler
   - træningslære
@@ -27,11 +28,15 @@ faq:
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?
 
+Her får du svaret på, hvor hurtigt muskler vokser, men du finder også en beregner med den øvre grænse for, hvor meget muskelmasse, du teoretisk set kan opnå.
+
+[Beregn din øvre grænse for muskelmasse](#calculator){: .btn .btn--success .btn--jump }
+
+## Hvor meget vokser musklerne af styrketræning?
+
 **Hvor hurtigt dine muskler vokser ved styrketræning afhænger af din træningserfaring. Unge mandlige begyndere kan måske have en muskelvækst på 6-10 kg det første år ved en veltilrettelagt træning, kost og restitution, men fremgangen de følgende år vil formentlig halveres hvert år. Kvinder skal nok forvente halvdelen af fremgangen. Alderen spiller også ind på den hastighed, musklerne kan vokse med.**
 
 Hvor hurtigt muskler vokser afhænger naturligvis af flere ting. Træner du hårdt og efter fornuftige retningslinjer? Spiser du ordentligt, så kroppen kan bygge musklerne op? Er du mand eller kvinde? Hvor veltrænet er du nu? Hvor gammel er du? Hvordan sover du?
-
-## Hvor meget vokser musklerne af styrketræning?
 
 Ogasawara et al (2012) undersøgte muskelvækst i forbindelse med bænkpres træning. Mandlige nybegyndere trænede bænkpres i 24 uger, hvor der blev trænet 3 gange om ugen.
 
@@ -108,7 +113,10 @@ De endte med en meget enkel formel til at estimere dit eget øvre potentiale for
 - FFM<sub>max</sub> = højde (m) x højde (m) x 34
 - Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
 
-Vi har lavet en beregner her, som du lynhurtigt kan smide dine egne tal ind i.
+## Beregner til øvre muskelvækst
+{: id="calculator" }
+
+Vi har lavet en beregner her, som du lynhurtigt kan smide dine egne tal ind i. Desværre virker den kun for mænd lige nu. Hvis du kender nogle formler for kvinder, så skriv endelig.
 
 {% include calculator/calculate-musclemass-upper-limit.html %}
 
@@ -125,6 +133,8 @@ Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vans
 David Epstein foreslår i bogen ‘The sports gene’ fra 2013, at der er en ratio på 5:1 i forhold til knoglemassen. Musklerne kan altså aldrig komme til at veje mere end 5 gange så meget som knoglemassen, hvis hans observationer er korrekte. Jeg har lavet et indlæg om, [hvor meget skelettet vejer]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %}).
 
 Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et indlæg om [forskellige modeller for kropskomposition](/kropskomposition/).
+
+Du kan også tjekke vores beregner med, [hvor meget muskelmasse du har](/muskelmasse-beregner/) ud fra simple kropsmål.
 
 ## Hvad skal der til for at få musklerne til at vokse?
 
@@ -162,4 +172,5 @@ Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved sty
 - Ogasawara, Riki, Tomohiro Yasuda, Naokata Ishii, og Takashi Abe. 2013. “Comparison of Muscle Hypertrophy Following 6-Month of Continuous and Periodic Strength Training”. European Journal of Applied Physiology 113 (4): 975–85. <https://doi.org/10.1007/s00421-012-2511-9>.
 - Stock, Matt S., Jacob A. Mota, Ryan N. DeFranco, Katherine A. Grue, A. Unique Jacobo, Eunhee Chung, Jordan R. Moon, Jason M. DeFreitas, og Travis W. Beck. 2017. “The Time Course of Short-Term Hypertrophy in the Absence of Eccentric Muscle Damage”. European Journal of Applied Physiology 117 (5): 989–1004. <https://doi.org/10.1007/s00421-017-3587-z>.
 - Taaffe, D. R., og R. Marcus. 1997. “Dynamic Muscle Strength Alterations to Detraining and Retraining in Elderly Men”. Clinical Physiology (Oxford, England) 17 (3): 311–24. <https://doi.org/10.1111/j.1365-2281.1997.tb00010.x>.
+- [Menno Henselmans: FFMI Calculator: calculate your genetic muscular potential](https://mennohenselmans.com/ffmi-calculator/)
 </details>
