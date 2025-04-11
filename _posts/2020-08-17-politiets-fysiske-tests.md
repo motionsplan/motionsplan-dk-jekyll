@@ -33,7 +33,7 @@ feature_row_police_program:
     title: "Træningsprogram til optagelsesprøven"
     excerpt: "Vi har samlet en masse træningsprogrammer, som du kan bruge til at forberede dig til den fysiske optagelsesprøve. Der er både programmer til dig der har adgang til et træningscenter eller gerne vil have et program uden så meget udstyr."
     url: "/traening-politiets-fysiske-test/"
-    btn_label: "Forbered dig til den fysiske prøve"
+    btn_label: "Sådan forbereder du dig"
     btn_class: "btn--success"
 ---
 

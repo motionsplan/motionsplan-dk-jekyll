@@ -133,7 +133,7 @@ I dette restitutionsskema kan du få et overblik over, hvor lang tid restitution
 
 ## Hvordan ved jeg, om jeg er klar til at træne igen?
 
-Det er ikke så let nøjagtigt at vide, hvornår man er klar til at træne igen.
+Det er ikke så let nøjagtigt at vide, hvornår du er klar til at træne igen.
 
 Du kan tage udgangspunkt i de generelle tommelfingerregler for [hvor længe det tager at restituere](/restitutionstid/), men da alle restituerer individuelt kunne det være rigtig dejligt, hvis du kunne få personlige data om, hvornår du er klar til at træne igen.
 
@@ -147,7 +147,9 @@ Du kan bruge fornemmelsen i kroppen til at guide dig gennem træningslivet. Ulem
 
 Træning skaber ofte lidt [ømhed i musklerne](/omme-muskler-efter-traening/). Man kalder det _delayed onset muscle soreness (DOMS)_ eller andendagsømhed. Jeg kunne også foreslå at bruge muskelømheden som en rettesnor, selvom det kræver en del øvelse og disciplin.
 
-**Brug muskelømheden som retningslinje for dit restitutionsniveau**. Du kan bruge en smerteskala som udgangspunkt for at vurdere, om du kan træne igen. Et forslag kunne være et skema, der ser nogenlunde sådan her ud:
+### 3. Brug muskelømheden som retningslinje for dit restitutionsniveau
+
+Du kan bruge en smerteskala som udgangspunkt for at vurdere, om du kan træne igen. Et forslag kunne være et skema, der ser nogenlunde sådan her ud:
 
 | Skala | Følelse | Reaktion |
 |-|-|-|
@@ -197,7 +199,7 @@ Helt grundlæggende kan du forbedre restitutionen og blive hurtigere klar til n�
 
 Hvis du har styr på de to ting af din træning, så vil du meget hurtigere få resultater.
 
-### 1. Træningstilstand og træningsprogram
+### 1. God balance i dit træningsprogram
 
 Sørg for at der er en fornuftig balance i dit træningsprogram. Ved at have god balance i træningsplanen mellem træning med forskellige intensiteter, så kan du planlægge de optimale pauser mellem dine træningspas.
 
@@ -360,10 +362,6 @@ Du kan også lade dig inspirere af Team Danmarks restitutionskoncept, som har fo
 
 {% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" alt="team danmark restitution" %}
 
-## Ofte stillede spørgsmål
-
-{% include motionsplan/faq.html %}
-
 ## Konklusion
 
 Her fik du en komplet gennemgang af restitution, og hvordan du kan forbedre og optimere din restitutionsperiode mellem to træningspas.
@@ -371,6 +369,10 @@ Her fik du en komplet gennemgang af restitution, og hvordan du kan forbedre og o
 Husk at bruge genopbygningsperioden fornuftigt, så kroppen kan blive stærkere, mere udholdende og mere effektiv.
 
 Når du bliver for ivrig i din træning, så risikerer du at føle dig træt, ikke have fremgang eller blive skadet.
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 {% comment %}
 
