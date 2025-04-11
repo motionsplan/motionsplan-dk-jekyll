@@ -123,7 +123,7 @@ Er man rigtig stærk og presser sig selv til det yderste må træningsfasen vær
 
 **Husk at tage en deload-uge!**
 
-Oftest træner man 3-6 uger progressivt inden man tager en deload uge, og 4 er nok det mest almindelige og et rigtig godt sted at starte.
+Oftest træner man 3-6 uger progressivt inden man tager [en deload uge](/deload-uge/), og 4 er nok det mest almindelige og et rigtig godt sted at starte.
 
 Det er klogt at være praktisk og realistisk når man planlægger længden af sine programmer. Ved man at man skal være væk hjemmefra i uge 15, og man starter et program i uge 10, så er det meget nærliggende at planlægge sit program sådan at det varer 5 uger, og så kan restitutionsfasen (hvor man ikke træner særlig meget) ligge i den uge man er væk.
 

@@ -87,7 +87,7 @@ Der er to måder at lave progression på i et DUP-baseret program. Enten kan du 
 
 Det er formentlig muligt at øge med omkring 2,5 kg om ugen i dine styrke og hypertrofi-sæt, hvis du øger vægten. I dine power-sæt skal du især fokusere på den tekniske udførelse og stangens bane, og derfor kan det være bedre at øge antallet af sæt.
 
-DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en deload uge, hvor du sænker volumen med op til 50%.
+DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en [deload uge](/deload-uge/), hvor du sænker volumen med op til 50%.
 
 ## Populære eksempler på styrkeprogrammer med DUP
 

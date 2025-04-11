@@ -698,7 +698,7 @@ En typisk måde at starte sin træning op på kunne være som i figuren nedenund
 
 {% include figure image_path="/assets/images/training/periodisering.png" caption="" %}
 
-Det er imidlertid også vigtigt, at du tænker ‘deload’ uger ind i dit program. Altså uger hvor du sænker intensiteten og volumen af din træning.
+Det er imidlertid også vigtigt, at du [tænker ‘deload’ uger ind i dit program](/deload-uge/). Altså uger hvor du sænker intensiteten og volumen af din træning.
 
 ***
 

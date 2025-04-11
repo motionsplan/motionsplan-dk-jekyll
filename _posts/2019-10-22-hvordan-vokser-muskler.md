@@ -79,7 +79,7 @@ Traditionelt har man anbefalet relativt korte pauser i forbindelse med hypertrof
 
 ## Hypertrofi og periodisering
 
-Hvis man træner for hypertrofi, så er det vigtigste parameter formentlig at sammensætte en træning, der rammer en given muskelgruppe med den størst mulige volumen, man kan overkomme at restituere fra på ugentlig basis. Restitutionen kan løbende hjælpes på vej af nogle strategisk placerede _deload_-perioder.
+Hvis man træner for hypertrofi, så er det vigtigste parameter formentlig at sammensætte en træning, der rammer en given muskelgruppe med den størst mulige volumen, man kan overkomme at restituere fra på ugentlig basis. Restitutionen kan løbende hjælpes på vej af nogle [strategisk placerede _deload_-perioder](/deload-uge/).
 For relativt utrænede er den allervigtigste parameter for både muskelstyrke og muskeltilvækst _complicance_ (altså overholdelse) af ens træning.
 
 Hvis man derimod gerne vil opnå flere mål samtidigt, fx både hypertrofi og styrke, så kan periodisering være et godt redskab til at styre ens træning, da kroppen har svært ved at forfølge to mål på en gang.

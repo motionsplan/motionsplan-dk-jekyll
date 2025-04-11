@@ -6,14 +6,14 @@ excerpt: "En pivot uge er en planlagt overgangsuge mellem træningsblokke. Læs 
 permalink: /pivot-uge/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1583165583064-a281139b07f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1701826510833-15e5a5460e89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Styrketræning
 tags:
   - træningsplanlægning
   - programlægning
-last_modified_at: 2025-04-07T23:14:14Z
+last_modified_at: 2025-04-11T21:14:14Z
 keywords:
   - pivot uge
 faq:
@@ -41,7 +41,7 @@ Formålet er ikke kun at restituere fysisk, men også mentalt, og at forberede k
 
 ## Forskellen på en pivot uge vs en deload-uge?
 
-En deload er typisk en uge med reduceret volumen og intensitet, men hvor du holder dig til samme øvelser. En pivot uge adskiller sig ved, at du også ændrer øvelsesvalg, tempo, greb eller bevægebane — altså laver en reel “drejning” i programmet.
+En [deload uge](/deload-uge/) er typisk en uge med reduceret volumen og intensitet, men hvor du holder dig til samme øvelser. En pivot uge adskiller sig ved, at du også ændrer øvelsesvalg, tempo, greb eller bevægebane — altså laver en reel “drejning” i programmet.
 
 {% include video provider="youtube" id="nsnrvf1Bm_s" %}
 

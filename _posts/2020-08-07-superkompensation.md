@@ -35,7 +35,7 @@ Superkompensation kan grundlæggende forstås på to forskellige måder.
 - **Ugentlig basis** hvor hver træning har en effekt, som man kan forsøge at udnytte til næste træning.
 - **Træningsblokke** hvor man tænker træningen sammen i forskellige blokke. Man kan altså have en hårdere træningsblok, som efterfølges af lettere træningsblokke.
 
-Når man kigger på superkompensationsfiguren, så kan den altså fortolkes på begge måder. Derfor er superkompensationsteorien både et argument for, at træningen kan være opdelt med hårde og lettere træning i en uge. Samtidig er den et argument for _deload_-uger, hvor man sænker volumen lidt for at få kroppen til at respondere på træningen.
+Når man kigger på superkompensationsfiguren, så kan den altså fortolkes på begge måder. Derfor er superkompensationsteorien både et argument for, at træningen kan være opdelt med hårde og lettere træning i en uge. Samtidig er den et argument for [_deload_-uger](/deload-uge/), hvor man sænker volumen lidt for at få kroppen til at respondere på træningen.
 
 ## Hvordan rammer jeg superkompensationsfasen?
 

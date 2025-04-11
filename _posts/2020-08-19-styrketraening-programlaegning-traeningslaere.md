@@ -129,7 +129,7 @@ Husk de forskellige principper:
 - **Specific Adaptation to Imposed Demands (SAID).** Du bliver bedre til det du træner. Hvis du vil være bedre til at sprinte, skal du sprinte. Hvis du vil være bedre til at hoppe, skal du hoppe.
 - **Progressive overload.** Prøv at slå en rekord, når du træner. Bare med en lille smule. Det kan være en ekstra gentagelse, et ekstra sæt, en kortere pause eller lidt mere vægt på stangen.
 - **Volumen får musklerne til at vokse.** Det er volumen af træningen, der får musklerne til at vokse. Det er også volumen der giver dig en større arbejdskapacitet. Sørg for at holde styr på, at du ikke sætter volumen for voldsomt op.
-- **Deload.** For at blive bedre har du brug for at periodisere din træning. Det betyder, at du jævnligt skal tage en deload-uge, hvor du ikke træner så hårdt.
+- **Deload.** For at blive bedre har du brug for at periodisere din træning. Det betyder, at du jævnligt skal tage en [deload-uge](/deload-uge/), hvor du ikke træner så hårdt.
 
 ## Opsummering af træningslære
 
