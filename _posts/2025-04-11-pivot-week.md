@@ -33,7 +33,7 @@ En pivot uge er en planlagt overgangsuge mellem to træningsblokke. Den giver di
 
 I denne guide ser vi på, hvordan du kan bruge pivot uger til at få mere ud af din træning på lang sigt – både fysisk og mentalt.
 
-# Hvad er en pivot uge?
+## Hvad er en pivot uge?
 
 En *pivot uge* er et begreb introduceret af styrketræneren Mike Tuchscherer. Det beskriver en planlagt overgangsuge mellem to træningsblokke, hvor du bevidst skifter fokus og bryder med de mønstre og øvelser, du har kørt i den foregående periode.
 

@@ -31,7 +31,7 @@ faq:
 
 En deload-uge er en planlagt periode med reduceret træningsintensitet og volumen, designet til at give din krop tid til at komme sig efter flere uger med hård træning. Formålet er at reducere risikoen for overtræning, forbedre restitutionen og sikre, at du kan fortsætte med at gøre fremskridt på lang sigt. I denne artikel vil vi udforske, hvad en deload-uge indebærer, hvornår du bør inkludere den i dit træningsprogram, og hvordan det kan hjælpe dig med at undgå skader og optimere dine resultater.
 
-# Hvad er en deload-uge?
+## Hvad er en deload-uge?
 
 En **deload-uge** er en planlagt periode, hvor du reducerer intensiteten og volumen af din træning for at give kroppen tid til at komme sig og undgå overtræning. En deload-uge fungerer som en pause fra de høje belastninger i træningen, men uden at du stopper helt. Dette giver både kroppen og sindet mulighed for at restituere, så du kan komme stærkere tilbage til din næste træningsblok.
 
