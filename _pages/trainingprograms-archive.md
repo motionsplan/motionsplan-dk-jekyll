@@ -31,7 +31,7 @@ faq:
   - question: "Skal kvinder træne anderledes end mænd?"
     answer: "Mænd og kvinder skal træne ud fra de samme principper. Det afgørende i valget af træningsprogram er, at du tilpasser det din målsætning, dine forudsætninger og din kropsbygning. Både kvinder og mænd kan altså sagtens tage udgangspunkt i et af de effektive træningsprogrammer på denne side."
   - question: "Hvad er et godt træningsprogram til styrketræning?"
-    answer: "Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan man fra uge til uge kan lave [progression og progressivt overload](/progressionsmodeller-progressivt-overload/)."
+    answer: "Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan man fra uge til uge kan lave [progression og progressivt load](/progressionsmodeller-progressivt-overload/)."
 feature_row_choose_running_program:
   - image_path: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
     alt: "Sådan vælger du et løbeprogram"

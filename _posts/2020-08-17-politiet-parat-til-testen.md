@@ -22,7 +22,7 @@ keywords:
   - forberedelse til politiets fysiske test
   - træning til politibetjent optagelse
 feature_row_police_program:
-  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
+  - image_path: "/assets/images/blog/politi-square.png"
     alt: "Træningsprogram til optagelsesprøven"
     title: "Træningsprogram til optagelsesprøven"
     excerpt: "Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter."

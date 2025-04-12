@@ -28,11 +28,15 @@ Progressionsmodeller, faseopdeling og træningsplanlægning ser ud til at betyde
 
 ## Hvad er progressivt overload?
 
-Det er nødvendigt at have progressivt overload, når du gerne vil blive stærkere eller større i styrketræning.
+**Progressivt overload er princippet om gradvist at øge træningsbelastningen over tid for at udfordre kroppen.**
 
-Hvad er progressivt overload? **Progressivt overload er, når du udfordrer kroppen ved gradvist at øge udfordringen for kroppen, så den kan tilpasse sig de stigende udfordringer.**
+Formålet er at fremme fysiologiske tilpasninger, som øger styrke, udholdenhed, muskelmasse eller andre træningsmål.
 
-En måde at lave progressivt overload med er at tilføje vægt til stangen, når du løfter, eller øge antallet af sæt og gentagelser. Udfordringen er, at det ikke kan blive ved med at virke.
+Progressivt overload kan opnås på mange måder. Du kan justere vægten, antallet af gentagelser, intensiteten, volumen, densiteten eller tempoet.
+
+Formålet med progressivt overload er at sikre, at kroppen konstant udsættes for en tilpasningsmæssig stimulus, så du kan opleve kontinuerlig fremgang i træningen.
+
+Udfordringen er, at du ikke bare kan vælge en faktor - for så bliver det ikke ved med at virke.
 
 {% include video provider="youtube" id="7WnTU02CHeM" %}
 
@@ -42,6 +46,21 @@ https://maxer.dk/artikler/progression-traeningsprogrammer
 https://www.myprotein.dk/thezone/traening/progression-traeningsprogram/
 {% endcomment %}
 
+## Progressivt overload vs progressivt load
+
+**Progressivt overload** indikerer, at vi skal overbelaste kroppen med vores træningsjusteringer for at få fremgang. 
+
+Men det er ikke det vi skal.
+
+Vi skal progressivt belaste kroppen mere og mere for at få fremgang. Jeg synes **progressivt load** er en bedre betegnelse for, hvad vi prøver at opnå med fornuftig træningsplanlægning.
+
+<aside markdown="1" class="pull-quote">
+**Progressivt load** fungerer rigtig godt som betegnelse, der indikerer at din træningsplan skal være fremadskridende, men det handler **ikke om at overbelaste kroppen**.
+</aside>
+
+For mig er det en lidt bredere tilgang, hvor du justerer intensitet, volumen og variation i din træning, men det lægger ikke op til, at du skal træne over evne eller starte virkelig tungt ud for at få resultater.
+
+Jeg kan altså sagtens starte mit træningsprogram med en ret konservativ belastning og langsomt vænne mig til det, fordi jeg tænker det progressivt load ind i planen.
 
 ## Hvorfor er progression i træningen vigtigt?
 

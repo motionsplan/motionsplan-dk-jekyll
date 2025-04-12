@@ -28,7 +28,7 @@ keywords:
   - optagelsesprøve politiet fysiske krav
   - fysiske krav politibetjent
 feature_row_police_program:
-  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
+  - image_path: "/assets/images/blog/politi-square.png"
     alt: "Træningsprogram til optagelsesprøven"
     title: "Træningsprogram til optagelsesprøven"
     excerpt: "Vi har samlet en masse træningsprogrammer, som du kan bruge til at forberede dig til den fysiske optagelsesprøve. Der er både programmer til dig der har adgang til et træningscenter eller gerne vil have et program uden så meget udstyr."
