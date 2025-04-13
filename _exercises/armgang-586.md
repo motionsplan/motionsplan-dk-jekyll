@@ -2,7 +2,6 @@
 title: "Armgang"
 instructions: ""
 permalink: /oevelse/armgang/
-redirect_from: /node/586
 id: 586
 language: da
 header:

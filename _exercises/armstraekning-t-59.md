@@ -3,7 +3,6 @@ title: "Armstrækning, T"
 excerpt: "Lav en armstrækning. Når du har strakte arme, løfter du den ene arm op, så du står som et T og overkroppen er vinkelret på gulvet."
 instructions: "Lav en armstrækning. Når du har strakte arme, løfter du den ene arm op, så du står som et T og overkroppen er vinkelret på gulvet."
 permalink: /oevelse/armstraekning-t/
-redirect_from: /node/59
 id: 59
 language: da
 header:

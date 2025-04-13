@@ -5,7 +5,6 @@ excerpt: "Lær alt om incline bænkpres (skrå bænkpres) – teknik, optimal vi
 description: "Lær alt om incline bænkpres (skrå bænkpres) – teknik, optimal vinkel og hvorfor øvelsen er en vigtig variation af bænkpres. Få en guide til både stang og håndvægte."
 instructions: "Liggende på en skrå bænk på omkring 45 grader bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 permalink: /oevelse/baenkpres-skraa/
-redirect_from: /node/34
 id: 34
 language: da
 header:

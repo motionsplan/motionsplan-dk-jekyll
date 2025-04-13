@@ -3,7 +3,6 @@ title: "Balance på bold"
 excerpt: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 instructions: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 permalink: /oevelse/balance-paa-bold/
-redirect_from: /node/99
 id: 99
 language: da
 header:

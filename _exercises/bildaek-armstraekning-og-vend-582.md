@@ -2,9 +2,6 @@
 title: "Bildæk, armstrækning og vend"
 instructions: ""
 permalink: /oevelse/bildaek-armstraekning-og-vend/
-redirect_from:
-  - /node/582
-  - /oevelse/bildæk-armstrækning-og-vend/
 id: 582
 language: da
 header:

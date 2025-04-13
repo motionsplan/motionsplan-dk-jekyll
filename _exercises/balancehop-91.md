@@ -3,7 +3,6 @@ title: "Balancehop"
 excerpt: "Stil dig op på en træstub. Hold balancen. Når du har balancen, hopper du op og ned fra træstubben."
 instructions: "Stil dig op på en træstub. Hold balancen. Når du har balancen, hopper du op og ned fra træstubben."
 permalink: /oevelse/balancehop/
-redirect_from: /node/91
 id: 91
 language: da
 header:

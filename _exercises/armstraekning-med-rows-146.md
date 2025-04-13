@@ -4,7 +4,6 @@ seo_title: "Armstrækning og renegade rows | Træningsøvelse"
 excerpt: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 instructions: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 permalink: /oevelse/armstraekning-med-rows/
-redirect_from: /node/146
 id: 146
 language: da
 header:

@@ -3,7 +3,6 @@ title: "Bænkpres, decline"
 excerpt: "Liggende på en skrå bænk med et let fald bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 instructions: "Liggende på en skrå bænk med et let fald bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 permalink: /oevelse/baenkpres-decline/
-redirect_from: /node/260
 id: 260
 language: da
 header:

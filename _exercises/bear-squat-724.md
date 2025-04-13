@@ -2,7 +2,6 @@
 title: "Bear squat"
 instructions: ""
 permalink: /oevelse/bear-squat/
-redirect_from: /node/724
 id: 724
 language: da
 header:

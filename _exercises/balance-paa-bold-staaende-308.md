@@ -3,7 +3,6 @@ title: "Balance på bold, stående"
 excerpt: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 instructions: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 permalink: /oevelse/balance-paa-bold-staaende/
-redirect_from: /node/308
 id: 308
 language: da
 header:

@@ -2,9 +2,6 @@
 title: "Bildæk, prowler"
 instructions: ""
 permalink: /oevelse/bildaek-prowler/
-redirect_from:
-  - /node/568
-  - /oevelse/bildæk-prowler/
 id: 568
 language: da
 header:

@@ -3,7 +3,6 @@ title: "Armstrækning, hænderne hævet"
 excerpt: "Placer hænderne på en bænk. Sænk brystet ned mod bænken med helt ret krop. Tilbage til udgangsposition. "
 instructions: "Placer hænderne på en bænk. Sænk brystet ned mod bænken med helt ret krop. Tilbage til udgangsposition. "
 permalink: /oevelse/armstraekning-haenderne-haevet/
-redirect_from: /node/427
 id: 427
 language: da
 header:

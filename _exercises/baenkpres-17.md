@@ -4,9 +4,6 @@ seo_title: "Bænkpres: Teknik og tips til at blive stærk i bænk"
 excerpt: "Lær korrekt teknik i bænkpres for at maksimere din styrke og undgå skader. Guide til udførelse af effektiv teknik og se de mest almindelige fejl."
 instructions: "Liggende udstrakt på ryggen med fødderne placeret solidt i gulvet, og øjnene udfor stangen. Tag fat om stangen ca. 10 cm fra ydre skulderbredde, og løft stangen fri og stræk armene. Overarmens position er ca. 45º til kroppen. Fra strakt position sænkes stangen roligt (indåndning) til den rører midten af brystbenet, herfra strækkes armene til udgangspositionen (udåndning). Husk strakte håndled gennem hele øvelsen."
 permalink: /oevelse/baenkpres/
-redirect_from:
-  - /node/17
-  - /baenkpres/
 id: 17
 key: 20210818224100
 language: da

@@ -2,7 +2,8 @@
 title: &title "Vælg sko til crossfit (Guide)"
 seo_title: "De bedste CrossFit-sko i 2025 – Den ultimative guide"
 permalink: /sko-crossfit/
-excerpt: "Skal du vælge styrketræningssko? Skal sko til styrketræning og fitness være vægtløftersko, fitness sko, løbesko eller bare fødder?"
+excerpt: "Find de bedste crossFit-sko med vores ekspertguide. Vi gennemgår topmodellerne og hjælper dig med at vælge det rette par til din crossfit træning."
+description: "Find de bedste crossFit-sko med vores ekspertguide. Vi gennemgår topmodellerne og hjælper dig med at vælge det rette par til din crossfit træning."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1741478551865-da01fd4af0e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10

@@ -2,9 +2,6 @@
 title: "Bildæk, maverulning til armstrækning"
 instructions: ""
 permalink: /oevelse/bildaek-maverulning-til-armstraekning/
-redirect_from:
-  - /node/584
-  - /oevelse/bildæk-maverulning-til-armstrækning/
 id: 584
 language: da
 header:

@@ -2,8 +2,6 @@
 title: "Lårmusklens indre hoved"
 seo_title: "Lårmusklens indre hoved | Vastus Medialis | Muskler"
 permalink: /vastus-medialis/
-redirect_from:
-  - /muskler/vastus-medialis/
 functional_group:
   - Knæstrækkere
 joint:

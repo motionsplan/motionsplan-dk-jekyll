@@ -3,7 +3,6 @@ title: "Armstrækning, på tæerne"
 excerpt: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen."
 instructions: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen."
 permalink: /oevelse/armstraekker/
-redirect_from: /node/170
 id: 170
 key: 170
 language: da

@@ -2,9 +2,6 @@
 title: "Armstrækning, med bold"
 instructions: ""
 permalink: /oevelse/armstraekning-med-bold/
-redirect_from:
-  - /node/594
-  - /oevelse/armstrækning-med-bold/
 id: 594
 language: da
 header:

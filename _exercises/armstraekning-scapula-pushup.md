@@ -4,9 +4,6 @@ excerpt: "Scapula pushups træner aktiv protraktion (primært musklen serratus a
 instructions: "Start hvilende på hænder og tæer med helt strakt krop (armstrækningsposition) og skub helt op i skuldrene. Fasthold positionen men fald ned i skuldrene, så skulderbladene kommer tættere på hinanden."
 permalink: /oevelse/scapula-pushup/
 language: da
-redirect_from:
-  - /node/287
-  - /oevelse/skulder-shrugs-armstraekningsposition/
 id: 287
 header:
   teaser: /assets/images/exercises/skulder-shrugs-armstraekningsposition-0-320.jpg

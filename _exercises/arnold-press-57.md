@@ -3,7 +3,6 @@ title: "Arnold press"
 seo_title: "Arnold press: Schwarzneggers favorit til veludviklede skuldre"
 instructions: "Start med håndvægtene foran brystet, hvor du holder håndfladerne ind mod brystet. Før albuerne udad, så hænderne kommer til at vende modsat. Stræk armene op over hovedet så langt du kan. På toppen skal håndfladerne også vende fremad."
 permalink: /oevelse/arnold-press/
-redirect_from: /node/57
 id: 57
 key: 20210818223920
 language: da

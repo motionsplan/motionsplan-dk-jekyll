@@ -5,7 +5,6 @@ excerpt: "Læs om effektive biceps isolationsøvelser, der hjælper dig med at o
 description: "Læs om effektive biceps isolationsøvelser, der hjælper dig med at opbygge større arme. Få tips til teknikker, variationer og træningsprogrammer, der kan forbedre din bicepstræning."
 instructions: "Hold håndvægtene i strakte arme langs kroppen med håndryggen væk fra kroppen. Før vægten op mod skulderen, mens du laver en rotation i underarmen."
 permalink: /oevelse/biceps-curl/
-redirect_from: /node/279
 id: 279
 key: 279
 language: da

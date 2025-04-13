@@ -2,7 +2,6 @@
 title: "Balancebom"
 instructions: ""
 permalink: /oevelse/balancebom/
-redirect_from: /node/564
 id: 564
 language: da
 header:

@@ -1,6 +1,6 @@
 ---
 title: &title "Beregn dit energiforbrug præcist med nøjagtig TEE-beregner"
-seo_title: "Nøjagtig TEE-beregner – Præcise beregninger af dagligt energiforbrug"
+seo_title: "TEE-beregner: Beregn dit daglige energiforbrug præcist"
 excerpt: "Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist mål for din samlede daglige forbrænding."
 description: "Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist mål for din samlede daglige forbrænding."
 permalink: /beregner/dagligt-stofskifte-og-forbraending/

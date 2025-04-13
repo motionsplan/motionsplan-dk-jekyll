@@ -1,8 +1,8 @@
 ---
 title: "Copenhagen Side Plank"
-seo_title: "Copenhagen plank: En effektiv øvelse for hoftestabilitet og adduktorstyrke"
-description: "Copenhagen plank er en effektiv øvelse, der styrker adduktorerne og forbedrer hoftestabiliteten. Perfekt til at forebygge skader og skabe muskulær balance. Lær teknikken og variationerne her!"
-excerpt: "Copenhagen plank er en effektiv øvelse, der styrker adduktorerne og forbedrer hoftestabiliteten. Perfekt til at forebygge skader og skabe muskulær balance. Lær teknikken og variationerne her!"
+seo_title: "Copenhagen plank: Træn hoftestabilitet og indersiden af låret"
+description: "Copenhagen plank styrker dine indadførere og hoftestabilitet. Forebyg skader og skab balance med korrekt teknik og variationer."
+excerpt: "Copenhagen plank styrker dine indadførere og hoftestabilitet. Forebyg skader og skab balance med korrekt teknik og variationer."
 instructions: ""
 permalink: /oevelse/copenhagen-plank/
 key: 20201212205400

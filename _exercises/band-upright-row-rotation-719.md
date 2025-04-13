@@ -2,7 +2,6 @@
 title: "Band Upright Row to Rotation"
 instructions: ""
 permalink: /oevelse/band-upright-row-rotation/
-redirect_from: /node/719
 id: 719
 language: da
 tags: []

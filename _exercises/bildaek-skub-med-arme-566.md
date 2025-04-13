@@ -2,9 +2,6 @@
 title: "Bildæk, skub med arme"
 instructions: ""
 permalink: /oevelse/bildaek-skub-med-arme/
-redirect_from:
-  - /node/566
-  - /oevelse/bildæk-skub-med-arme/
 id: 566
 language: da
 header:

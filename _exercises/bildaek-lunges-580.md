@@ -2,9 +2,6 @@
 title: "Bildæk, lunges"
 instructions: ""
 permalink: /oevelse/bildaek-lunges/
-redirect_from:
-  - /node/580
-  - /oevelse/bildæk-lunges/
 id: 580
 language: da
 header:

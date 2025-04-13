@@ -2,9 +2,6 @@
 title: "Bildæk, roning med arme"
 instructions: ""
 permalink: /oevelse/bildaek-roning-med-arme/
-redirect_from:
-  - /node/565
-  - /oevelse/bildæk-roning-med-arme/
 id: 565
 language: da
 header:

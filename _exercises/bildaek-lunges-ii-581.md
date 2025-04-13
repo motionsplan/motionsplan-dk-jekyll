@@ -2,9 +2,6 @@
 title: "Bildæk, lunges II"
 instructions: ""
 permalink: /oevelse/bildaek-lunges-ii/
-redirect_from:
-  - /node/581
-  - /oevelse/bildæk-lunges-ii/
 id: 581
 language: da
 header:

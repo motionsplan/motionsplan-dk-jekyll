@@ -2,9 +2,6 @@
 title: "Bildæk, back throw"
 instructions: ""
 permalink: /oevelse/bildaek-back-throw/
-redirect_from:
-  - /node/579
-  - /oevelse/bildæk-back-throw/
 id: 579
 language: da
 header:

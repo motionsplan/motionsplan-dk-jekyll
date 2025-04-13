@@ -3,7 +3,6 @@ title: "Anti-rotation in cable, wide stance"
 excerpt: "I kabeltræk tager du fat i et reb med overhåndsgreb. Stå i en bredstående med siden til. Du fører dine strakte arme ud til siden uden at rotere i kroppen. Langsomt tilbage igen."
 instructions: "I kabeltræk tager du fat i et reb med overhåndsgreb. Stå i en bredstående med siden til. Du fører dine strakte arme ud til siden uden at rotere i kroppen. Langsomt tilbage igen."
 permalink: /oevelse/anti-rotation-cable-wide-stance/
-redirect_from: /node/723
 id: 723
 language: da
 header:

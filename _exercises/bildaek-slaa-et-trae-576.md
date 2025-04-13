@@ -2,9 +2,6 @@
 title: "Bildæk, slå et træ"
 instructions: ""
 permalink: /oevelse/bildaek-slaa-et-trae/
-redirect_from:
-  - /node/576
-  - /oevelse/bildæk-slå-et-træ/
 id: 576
 language: da
 header:

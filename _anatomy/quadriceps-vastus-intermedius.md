@@ -5,8 +5,6 @@ seo_title: Lårmusklens dybe hoved | Vastus Intermedius | Muskler
 tags:
   - fitnessinstruktør
   - muskel
-redirect_from:
-  - /muskler/vastus-intermedius/
 functional_group:
   - Knæstrækkere
 joint:

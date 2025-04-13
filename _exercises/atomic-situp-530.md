@@ -3,7 +3,6 @@ title: "Atomic situp"
 excerpt: "Atomic situps er en øvelse, der træner den lige mavemuskel og hoftebøjerne."
 instructions: "Læg dig på ryggen med armene over hovedet og benene strakt ud. Rul op på bagdelen ved at svinge armene fremad og trække fødderne ind mod bagdelen. Du skal op at røre dine ankler eller fødder ved hver gentagelse."
 permalink: /oevelse/atomic-situp/
-redirect_from: /node/530
 id: 530
 language: da
 header:

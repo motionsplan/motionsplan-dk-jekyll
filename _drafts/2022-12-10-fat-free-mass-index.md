@@ -3,8 +3,6 @@ title: &title "Fat Free Mass Index (FFMI) alternativ til BMI"
 seo_title: &title "Fat Free Mass Index (FFMI) Beregner"
 description: Du kan bruge FFMI til at beregne, hvor meget muskelmasse du kan opbygge. Eller til at udregne om nogen tager steroider.
 permalink: /ffmi-fat-free-mass-index/
-redirect_from:
-  - /ffmi/
 excerpt: Fat Free Mass Index (FFMI) er for dig der gerne vil vide, hvor meget muskelmasse det er muligt at opbygge.
 language: da
 header:

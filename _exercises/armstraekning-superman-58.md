@@ -3,7 +3,6 @@ title: "Armstrækning, Superman"
 excerpt: "Udfør en almindelig armstrækning. Når du har strakte arme, løfter du ben og arm diagonalt, mens du kun støtter på modsatte hånd og fod."
 instructions: "Udfør en almindelig armstrækning. Når du har strakte arme, løfter du ben og arm diagonalt, mens du kun støtter på modsatte hånd og fod."
 permalink: /oevelse/armstraekning-superman/
-redirect_from: /node/58
 id: 58
 language: da
 header:

@@ -3,7 +3,6 @@ title: "Achillessene, excentrisk"
 excerpt: "Stå med tæerne på en kant med hælene ud over. Rejs dig op på tæerne, og derefter sænker du dig ned på den ene fod. Rejs dig op på tæerne med begge fødder. Gentag for den anden fod."
 instructions: "Stå med tæerne på en kant med hælene ud over. Rejs dig op på tæerne, og derefter sænker du dig langsomt ned over 5 sekunder på den ene fod. Rejs dig op på tæerne med begge fødder. Gentag for den anden fod."
 permalink: /oevelse/achillessene-excentrisk/
-redirect_from: /node/267
 id: 267
 key: 267
 language: da

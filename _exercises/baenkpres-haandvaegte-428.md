@@ -3,7 +3,6 @@ title: "Bænkpres, håndvægte"
 excerpt: "Lig på en bænk. Håndvægte i hver hånd. Pres lige op."
 instructions: "Lig på en bænk. Håndvægte i hver hånd. Pres lige op."
 permalink: /node/428/
-redirect_from: /node/428
 id: 428
 language: da
 header:

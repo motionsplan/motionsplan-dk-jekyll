@@ -2,9 +2,6 @@
 title: "Bildæk, russian twist"
 instructions: ""
 permalink: /oevelse/bildaek-russian-twist/
-redirect_from:
-  - /node/571
-  - /oevelse/bildæk-russian-twist/
 id: 571
 language: da
 header:

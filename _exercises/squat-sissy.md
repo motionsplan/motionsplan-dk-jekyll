@@ -1,8 +1,8 @@
 ---
 title: "Sissy Squat"
-seo_title: "Sissy Squats: Sådan gør du, fordele, variationer og træningsprogram"
-excerpt: "Læs alt om sissy squats – en effektiv øvelse til at opbygge stærke quadriceps, forbedre knæstabilitet og balance. Få instruktioner, tips og variationer, der kan booste din bentræning."
-description: "Læs alt om sissy squats – en effektiv øvelse til at opbygge stærke quadriceps, forbedre knæstabilitet og balance. Få instruktioner, tips og variationer, der kan booste din bentræning."
+seo_title: "Sissy squats: Teknik, fordele, variationer og program"
+excerpt: "Sissy squats styrker dine lår og knæstabilitet. Lær teknik, variationer og få tips til at gøre øvelsen til en fast del af din bentræning."
+description: "Sissy squats styrker dine lår og knæstabilitet. Lær teknik, variationer og få tips til at gøre øvelsen til en fast del af din bentræning."
 instructions: "Sissy squat udføres i den simpleste form ved at man stiller sig med siden til f.eks. en pæl man kan holde fast i med den ene hånd. Øvelsen startes ved at der bøjes i knæene og overkroppen lænes bagud. Mens overkroppen lænes bagover skydes knæene fremad og samtidig løftes hælene fra gulvet hvorved balancen skal holdes på forfoden."
 permalink: /oevelse/sissy-squat/
 key: 20201212203700
