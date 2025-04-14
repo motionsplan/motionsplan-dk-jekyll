@@ -92,6 +92,15 @@ Hos en rigtig powerlifter ser det sådan her ud:
 
 {% include gallery id="gallery_proper_depth" caption="Det **første billede** viser en squat, der ville blive underkendt i en konkurrence for ikke at nå den korrekte dybde. Når der trækkes en linje fra toppen af knæet, kan man tydeligt se, at folden ved hofteleddet er over linjen. Det **andet billede** viser en godkendt squatdybde i styrkeløft, hvor hofteleddet tydeligt er under den linje, der er trukket fra toppen af knæet. Kilde: [Temple of Iron](https://www.temple-of-iron.com/squat-depth-are-you-deep-enough/)" %}
 
+## Squat — Dommernes farver og betydning
+
+| Farve | Betydning | Typiske fejl i squat |
+|-------|-----------|---------------------|
+| ⚪️ Hvid | Godkendt løft | Korrekt dybde, god kontrol, ingen regelbrud |
+| 🔴 Rød | Udførelsesfejl | Ikke fuld dybde, "double bounce", ikke fuld oprejst slutposition |
+| 🔵 Blå | Tekniske fejl / regelbrud | Tab af balance, stangen bevæger sig nedad efter opadgående bevægelse, ulovlig bevægelse |
+| 🟡 Gul | Opsætningsfejl / kontrolfejl | Forkert opsætning, løfter bevæger sig før signal, fødder flyttes under løftet |
+
 ## Regler for klassisk styrkeløft
 
 Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.

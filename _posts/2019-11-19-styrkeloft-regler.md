@@ -149,6 +149,19 @@ Kommandoerne under dødløft er:
 
 ***
 
+## Dommerens signalfarver i styrkeløft
+
+Dommeren bruger fire forskellige farver til at indikere, hvordan løftet er gået. Farverne betyder lidt forskellige ting i de forskellige løft.
+
+- ⚪ ✅ **Godkendt løft**
+- 🔴 ❌ Fejl relateret til **løftets udførelse**
+- 🔵 ❌ Fejl relateret til **teknik eller regelsæt for bevægelsen**
+- 🟡 ❌ Fejl relateret til **opsætning eller kontrol af kroppen/stangen**
+
+Du kan læse mere om farvekoderne for løftets godkendelse og fejl under de enkelte løft.
+
+***
+
 ## Vægtklasser og IPF-Point
 
 I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft. Sammenligningen foregår ved hjælp af IPF-point, som uddeles i forhold til ægten, kønnet og det løftede. Der er også lavet en formel, hvor alderen tages med i betragning.

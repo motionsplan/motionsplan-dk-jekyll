@@ -91,6 +91,15 @@ Regelændringen er sket for at forhindre overdrevent opspænd, hvor vægtstangen
 
 {% include gallery id="feature_row_depth" caption="Til **venstre ❌** ser du et ikke godkendt løft, mens du til **højre ser et godkendt løft ✅**." %}
 
+## Bænkpres — Dommernes farver og betydning
+
+| Farve | Betydning | Typiske fejl i bænkpres |
+|-------|-----------|------------------------|
+| ⚪️ Hvid | Godkendt løft | God kontrol, korrekt signalfølge, ingen regelbrud |
+| 🔴 Rød | Udførelsesfejl | Manglende albuelås udstrækning, stangen går ned igen under presningen, ingen korrekt pause på brystet |
+| 🔵 Blå | Tekniske fejl / regelbrud | Bevægelse før dommersignal, stangen bevæger sig skævt, manglende stabilitet |
+| 🟡 Gul | Opsætningsfejl / kontrolfejl | Fødder løfter sig, bagdel løfter sig fra bænken, uens greb uden dommergodkendelse |
+
 ## Biomekanisk analyse af bænkpres
 
 {% include feature_row id="feature_row_biomekanik" type="left" %}

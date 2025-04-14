@@ -87,6 +87,15 @@ Kommandoerne under dødløft er:
 
 {% include video provider="youtube" id="gbnOJuNVt6M" %}
 
+## Dødløft — Dommernes farver og betydning
+
+| Farve | Betydning | Typiske fejl i dødløft |
+|-------|-----------|----------------------|
+| ⚪️ Hvid | Godkendt løft | Kontrolleret løft, fuld oprejst position, korrekt nedlægning |
+| 🔴 Rød | Udførelsesfejl | Manglende fuld opretning, "hitching", stangen glider ned under løftet |
+| 🔵 Blå | Tekniske fejl / regelbrud | Tab af balance, ulovlig bevægelse, stangen føres ikke i én kontinuerlig bevægelse |
+| 🟡 Gul | Opsætningsfejl / kontrolfejl | Bevægelse før dommersignal, ulige belastning eller forkert opsætning |
+
 ## Hvad må du have på til dødløft?
 
 Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.
