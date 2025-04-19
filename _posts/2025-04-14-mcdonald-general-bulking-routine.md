@@ -1,6 +1,6 @@
 ---
-title: &title "Lyle McDonalds Generic Bulking Routine: Program til muskelvækst"
-seo_title: "Lyle McDonalds Generic Bulking Routine – Træningsprogram til muskelvækst"
+title: &title "Lyle McDonalds Generic Bulking Routine til muskelvækst (GBR)"
+seo_title: "Lyle's Generic Bulking Routine – Program til muskelvækst"
 permalink: /lyle-mcdonalds-general-bulking-routine/
 description: "Få overblik over Lyle McDonalds Generic Bulking Routine – et effektivt 4-dages program til muskelvækst for erfarne styrketrænende."
 excerpt: "Få overblik over Lyle McDonalds Generic Bulking Routine – et effektivt 4-dages program til muskelvækst for erfarne styrketrænende."
@@ -39,16 +39,18 @@ Programmet er et [eksempel på et splitprogram](/styrketraening/split-programmer
 - Ønsker **maksimal hypertrofi** og styrkefremgang  
 - Kan tåle et moderat til højt træningsvolumen
 
-> My generic bulking program is stock in the middle because I’m a middle of the road kind of guy. I generically like to see a body part hit about 2X/week with slightly lowered intensity (relative to DC) although higher than Bryan’s HST. I recommend about a rep short of failure so that the volume (which is higher per workout than either DC or HST) can be accomplished. I’m trying to strike a volume between the issues of frequency (for gene expression and protein synthesis), recovery (failure training can burn people out) and progression (I want to see the poundages going up consistently over the cycle).
+> My generic bulking program is stock in the middle because I’m a middle of the road kind of guy. I generically like to see a body part hit about 2X/week with slightly lowered intensity (relative to DC) although higher than Bryan’s HST. I recommend about a **rep short of failure** so that the volume (which is higher per workout than either DC or HST) can be accomplished. I’m trying to strike a volume between the issues of frequency (for gene expression and protein synthesis), recovery (failure training can burn people out) and progression (I want to see the poundages going up consistently over the cycle).
 >
 > --- [Lyle McDonald](https://www.jcdfitness.com/wp-content/download/Lyle_McDonald_Generic_Bulking_Routine_FAQ.pdf)
+
+Lyle McDonald lægger vægt på, at den samlede intensitet er lidt lavere end [DoggCrapp](/doggcrapp/), men lidt højere end [HST](/hst-hypertrophy-specific-training/).
 
 ---
 
 ## Træningsstruktur og skema
 {: id="program" }
 
-Programmet følger en fast rækkefølge med en over- og underkropsstruktur:
+Programmet følger en fast rækkefølge med en struktur, hvor vi skifter mellem dage med træning af underkoppen og overkroppen. Det kunne se sådan her ud:
 
 **Eksempel på ugeplan:**
 
@@ -70,14 +72,14 @@ To vigtige regler:
 
 Hver træning består af:
 
-- **3-4 basisøvelser (kompound)**
+- **3-4 basisøvelser (helkropsøvelser)**
 - **2-3 isolationsøvelser**
 
-Programmet er fleksibelt – du får en **skabelon** frem for faste øvelser, så du selv kan vælge dine favoritter inden for følgende rammer.
+Programmet er fleksibelt. Du får en **skabelon** frem for faste øvelser, så du selv kan vælge dine favoritter inden for følgende rammer.
 
 Direkte fra forummet, hvor det først blev præsenteret:
 
-> Mon: Lower
+> **Mon: Lower**
 > Squat: 3-4X6-8/3′ (3-4 sets of 6-8 with a 3′ rest)
 > SLDL or leg curl: 3-4X6-8/3′
 > Leg press: 2-3X10-12/2′
@@ -85,7 +87,7 @@ Direkte fra forummet, hvor det først blev præsenteret:
 > Calf raise: 3-4X6-8/3′
 > Seated calf: 2-3X10-12/2′
 >
-> Tue: Upper
+> **Tue: Upper**
 > Flat bench: 3-4X6-8/3′
 > Row: 3-4X6-8/3′
 > Incline bench or shoulder press: 2-3X10-12/2′
@@ -97,12 +99,15 @@ Direkte fra forummet, hvor det først blev præsenteret:
 >
 > --- [Lyle McDonald](https://www.jcdfitness.com/wp-content/download/Lyle_McDonald_Generic_Bulking_Routine_FAQ.pdf)
 
+Senere har Lyle også fundet det fint at tilføje Lateral Raises.
+
 ### Eksempel: Lower Body A
 
 - Squat: 3-4 sæt x 6-8 reps  
 - Rumænsk dødløft: 3 sæt x 10-12 reps  
 - Lunges eller benpres: 2-3 sæt x 8-10 reps  
-- Lægpres: 3 sæt x 12-15 reps  
+- Stående lægpres: 3-4 sæt x 6-8 reps
+- Siddende lægpres: 2-3 sæt x 12-15 reps  
 - Maveøvelse (valgfri): 2-3 sæt
 
 ### Eksempel: Upper Body A
@@ -111,7 +116,9 @@ Direkte fra forummet, hvor det først blev præsenteret:
 - Bent-over row: 3-4 sæt x 8-10 reps  
 - Military press: 3 sæt x 10-12 reps  
 - Lat pulldown eller chin-ups: 3 sæt x 8-10 reps  
-- Biceps curl + Triceps extension: 2-3 sæt hver
+- Biceps curl: 2-3 sæt x 12-15
+- Triceps extension: 1-2 sæt x 12-15
+- Lateral raises: 1-2 sæt x 12-15
 
 > Tip: Brug gerne forskellige varianter til A- og B-dagene (fx flad bænk mandag, skrå bænk fredag).
 
@@ -130,6 +137,8 @@ Der benyttes tre forskellige sæt/rep-skemaer, afhængigt af øvelsens placering
 Lyle udtaler selv:
 
 > “3–4 sæt betyder 3 til 4 sæt. Efter tredje sæt må du vurdere: Ser du træt ud? Har du flere kræfter i tanken? Hvis du stadig ser stærk ud, tager du et fjerde. Hvis du ser smadret ud, stopper du på tre.”
+>
+> --- [Lyle McDonald](https://www.jcdfitness.com/wp-content/download/Lyle_McDonald_Generic_Bulking_Routine_FAQ.pdf)
 
 ---
 
@@ -155,7 +164,7 @@ Programmet kører i **8-ugers cyklusser**:
 
 ### Uge 2–4: 
 
-- Øg med ca. 5 % per uge.
+- Øg med ca. 5% per uge.
 
 ### Uge 3–8: Progressiv overload
 

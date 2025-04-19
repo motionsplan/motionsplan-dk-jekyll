@@ -1,6 +1,6 @@
 ---
-title: &title "Anmeldelser: Hvilket styrketræningsprogram skal du vælge? 🥇"
-seo_title: "Sådan vælger du det rette styrketræningsprogram 🥇"
+title: &title "Anmeldelser: Hvad er det bedste styrketræningsprogram? 🥇"
+seo_title: "Hvad er det bedste styrketræningsprogram? [Anmeldelser] 🥇"
 permalink: /anmeldelse-traeningsprogrammer/
 redirect_from:
   - /artikel/opbygning-af-program/
@@ -13,41 +13,24 @@ category:
   - Styrketræning
 tags:
   - styrketræning
-  - programanmeldelse
   - liste
   - moc
-last_modified_at: 2021-04-27T22:21:26Z
+last_modified_at: 2025-04-19T22:21:26Z
 ---
 
 Jeg har her samlet en række anmeldelser af træningsprogrammer og styrketræningsprogrammer, så du får bedre mulighed for at vælge dit styrketræningsprogram. Jeg får ofte spørgsmålet: Hvilket styrketræningsprogram skal jeg vælge?
 
-Jeg har derfor lavet en række anmeldelser af træningsprogrammer baseret på en teoretisk analyse af programmet og mine egne erfaringer med programmerne. Hvis du selv gerne vil bidrage med anmeldelser af styrketræningsprogrammer, så skriv endelig til mig.
+Jeg har derfor lavet en række anmeldelser af træningsprogrammer baseret på en teoretisk analyse af programmet og mine egne erfaringer med programmerne. 
 
-Hvis du er mere interesseret i at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/) eller vores [komplette guide til styrketræning og programlægning](/traeningsprogram-programlaegning-styrketraening/).
+Hvis du er mere interesseret i at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/) eller vores [komplette guide til programlægning i styrketræning](/traeningsprogram-programlaegning-styrketraening/).
 
 Jeg synes, at det kan være godt at afprøve forskellige træningsprogrammer på egen krop, før man prøver at lave sit eget program. Men det er naturligvis rigtig sjovt at lave sit eget eget styrketræningsprogram for at se, hvordan det virker. Hvis du ikke har erfaring med at gennemgå et godt program, så mangler du imidlertid noget viden om, hvilke parametre det er godt at kigge på.
 
-## Baggrundsmateriale om træningsplanlægning
-
-Jeg har skrevet en række indlæg, der kan hjælpe dig med den mere basale træningsplanlægning i forhold til styrketræningsprogrammer, hvis du gerne vil klædes lidt bedre på, inden du læser mere om de enkelte træningsprogrammer.
-
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsplanlægning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
 ## Hvordan bruger man træningsprogrammer?
 
-Når du skal afprøve et træningsprogram, så skal du ikke lave om på det. Træningsprogrammer bliver ofte kendte, fordi de virker fornuftigt med den udformning de har. Det kan godt være, at du synes der mangler lidt, men et træningsprogram er en række træningsblokke, der bygger oven på hinanden. Hvis du ændrer i nogle af blokkene, så vil de virke anderledes end intenderet senere hen.
+Når du skal afprøve et træningsprogram, så skal du ikke lave om på det. Træningsprogrammer bliver ofte kendte, fordi de virker godt med den udformning, de har. Det kan godt være, at du synes der mangler lidt, men et træningsprogram er en række træningsblokke, der bygger oven på hinanden. Når du har kørt træningsprogrammet et stykke tid, så kan du begynde at _tweake_ det lidt.
 
-Alle reagerer ikke ens på træning - og alle programmer vil ikke virke for alle. Men hvis du tester et program, så skal du lave det, som det er beskrevet. Ellers er det i hvert fald ikke det program, du laver længere.
+Alle reagerer ikke ens på træning - og alle programmer vil ikke virke på samme måde for alle. Men hvis du tester et program, så skal du lave det, som det er beskrevet. Ellers er det jo ikke det program, du laver længere.
 
 Som Anders Nedergaard skriver:
 
@@ -55,6 +38,7 @@ Som Anders Nedergaard skriver:
 >
 > --- <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
 
+Jim Wendler skriver fx meget klart om [5/3/1-programmet](/wendler-531-styrketraeningsprogram/):
 
 > **Don't customize.** You must do the program the way it's written.
 >
@@ -72,13 +56,13 @@ Hvis du er vedholdende og får trænet kontinuerligt, og du skulle ramme et plat
 
 Der findes rigtig mange styrketræningsprogrammer, som slår sig op på at være det mest solgte styrketræningsprogram og vil give særligt gode resultater. Sandheden er, at de fleste programmer giver gode resultater, så længe du er begynder.
 
-Det betyder imidlertid ikke, at programmerne ikke er pengene værd. Der findes mange programmer, som er sat godt sammen - og jeg har selv nydt at lære nye ting ved at købe et færdiggjort styrketræningsprogram.
+Det betyder imidlertid ikke, at betalte programmer ikke er pengene værd. Der findes mange programmer, som er sat godt sammen - og jeg har selv nydt at lære nye ting ved at købe et færdiggjort styrketræningsprogram.
 
 Men husk at de kroppe du ser på de gode tilbud kan skabes på mange måder - og med mange forskellige programmer. Typisk kan det sjældent lade sig gøre at få så store muskler så hurtigt eller tabe så meget fedt så hurtigt uden at være ekstremt dedikeret.
 
-Og mange vil ikke lægge kosten om eller træne helt så hårdt og ofte, som gigantiske tranformationer på ingen tid vil tage. (Og ofte tager det også den helt rigtige lyssætning og forberedelse inden _photo shootet_).
+Hvis du forventer store forandringer, så kræver det hårdt arbejde både i træningslokalet, men også med kost og restitution. (Og ofte kræver store transformationer af kroppen også den helt rigtige lyssætning og forberedelse inden _photo shootet_).
 
-Hvis du vil prøve styrkeprogrammer, kan du altså give dig i kast med nogle af de mere berømte versioner af forskellige træningsprogrammer. De er blevet berømte af en årsag.
+Hvis du vil prøve styrkeprogrammer, kan vi kun anbefale dig at prøve nogle af de klassiske og berømte versioner af forskellige træningsprogrammer. De er blevet berømte af en årsag.
 
 ## Vigtige parametre i et styrketræningsprogram
 
@@ -97,20 +81,14 @@ Stil dig selv følgende spørgsmål for dit styrketræningsprogram:
 
 - **Hvad er målet for din træning?** Du kan have mange forskellige mål for din træning. Vil du være stærkere, tabe dig, have større muskler. Din træning skal tilrettelægges ud fr adette mål.
 - **Hvor ofte?** [Begyndere og trænede skal dosere træningen forskelligt](/traeningsprogram-programlaegning-styrketraening/). Begyndere får mest ud af at træne den samme muskelgruppe tre gange om ugen, mens trænede måske kan nøjes med to gange, fordi de kan træne hårdere.
-- **Hvilke øvelser?** Vi anbefaler at du så vidt muligt vælger flerledsøvelser, så du får mest ud af din træningstid. [Vi har skrevet en guide til, hvordan du opbygger et helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). Hvis du er trænet og kører splitprogram gælder de samme retningslinjer, men her fordeler du træningen ud over flere gange.
+- **Hvilke øvelser?** Vi anbefaler at du så vidt muligt vælger flerledsøvelser, så du får mest ud af din træningstid. Læs [guiden til at opbygge et helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). Hvis du er trænet og kører splitprogram gælder de samme retningslinjer, men her fordeler du træningen ud over flere dage.
 - **Hvor mange gentagelser?** [Forskningen viser, at du kan få meget ud af at lave fire sæt](/traeningsprogram-programlaegning-styrketraening/). Antallet af gentagelser pr. sæt afhænger af, hvad du gerne vil opnå med din træning. En generel anbefaling er at du bør løfte mellem 8 - 12 gentagelser pr. sæt.
 - **Hvor tungt skal jeg løfte?** Det kommer an på, hvad du vil opnå. En tommelfingerregel er, at du som begynder løfter vægte, der vejer omkring 60% af det, du maksimalt kan løfte. Når du bliver trænet (har trænet mere end et år) skal du op over 80% af dit maksimale løft.
-- **Hvordan restituere?** Det er i pausen, at din krop bliver stærkere. Derfor er restitutionen og din strategi under restitutionen også vigtig for din træningsfremgang. Vi har skrevet en [artikel om forskellige restitutionsstrategier](/restitution/).
-- **Skal jeg periodisere min træning?** Ja, det er en rigtig god ide. I første omgang handler det dog om at komme i gang med at styrketræning. Når du er i gang, kan du fx køre i en cyklus, hvor du træner relativt hårdt i tre uger og i en uge træner lettere, fx færre træningspas eller bare færre sæt og gentagelser.
-- **Betyder det noget, at jeg holder en pause?** Ja, det betyder meget. Allerede efter 14 dage uden træning går din muskelstyrke væsentligt ned. Men hvis du alligevel holder 14 dage, så betyder det ikke så meget mere, om du holder en måneds pause. Til gengæld kan du fastholde din nyvundne styrke ved bare et træningspas om ugen i flere måneder.
+- **Hvordan restituere?** Det er i pausen, at din krop bliver stærkere. Derfor er din strategi under restitutionen også vigtig for din træningsfremgang. Du kan få inspiration i vores [omfattende guide til restitutionsstrategier](/restitution/).
+- **Skal jeg periodisere min træning?** Ja, det er en rigtig god ide at [periodisere din træning alt efter dit niveau](/styrketraening/periodisering/). I første omgang handler det dog om at komme i gang med at styrketræning. Når du er i gang, kan du fx køre i en cyklus, hvor du træner relativt hårdt i tre uger og i en uge træner lettere, fx færre træningspas eller bare færre sæt og gentagelser.
+- **Betyder det noget, at jeg holder en pause?** Ja, det betyder meget. Allerede efter [14 dage uden træning går din muskelstyrke væsentligt ned](/atrofi-muskelmasse-muskelstyrke/). Men hvis du alligevel holder 14 dage, så betyder det ikke så meget mere, om du holder en måneds pause. Til gengæld kan du fastholde din nyvundne styrke ved bare et træningspas om ugen i flere måneder.
 
-## Træningspyramiden i dit styrketræningsprogram
-
-Eric Helms har lavet et par rigtig gode videoer, som du kan tage udgangspunkt i. Læg mærke til at det allervigtigste punkt er _adherence_. At man rent faktisk laver træningen.
-
-{% include video provider="youtube" id="OWmchPCyDvw" %}
-
-{% include video provider="youtube" id="Dl8v6frDJHc" %}
+Eric Helms har lavet et par rigtig gode videoer, som du kan tage udgangspunkt i, hvis du gerne vil vide mere om, hvordan alle parametrene hænger sammen i [træningspyramiden](/traeningspyramiden-styrketraening/). Læg mærke til at det allervigtigste punkt er _adherence_. At man rent faktisk laver træningen - og det er klart mest motiverende, når programmet virker godt. 
 
 ## Helkropsprogram eller splitprogram
 
@@ -123,6 +101,12 @@ Du kan grundlæggende fx vælge mellem følgende programtyper:
 - **Upper vs lower split**
 - **Push vs pull split**
 - **[Push vs pull split next generation](https://web.archive.org/web/20240302185921/https://www.t-nation.com/training/push-pull-training-the-next-generation/){: rel="nofollow" }**
+
+## Progression
+
+Et godt træningsprogram har en indbygget progression i programmet. Hvis du gerne vil have resultater på lang sigt, så skal du altså have [progression og progressivt overload i din styrketræning]({% link _posts/2020-12-07-progression-strength-training.md %}). Det betyder, at du fra uge til uge enten stiger i vægt, antal sæt, antal gentagelser eller andre måder at lave progression i dit styrketræningsprogram.
+
+Hvis der ikke er tænkt progression ind i træningsprogrammet, så overvej om ikke du skal vælge et andet program.
 
 ## Hvor mange sæt og gentagelser?
 
@@ -143,7 +127,7 @@ Du kan organisere styrketræningen på mange måder. Enten kan du køre sættene
 - At køre sættene adskilt - fx hvis du træner for at blive rigtig stærk
 - At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide]({% link _posts/2020-06-29-superset-guide.md %})
 
-## Checkliste for opbygning af styrketræningsprogrammer
+## Checkliste for valg af et styrketræningsprogram
 
 - [ ] Opfylder programmet målet?
 - [ ] Er der muskelbalance i programmet (knædomineret, hoftedomineret, bagkæde, træk, skub, unilaterale bevægelser, core, bevægelsesplaner)

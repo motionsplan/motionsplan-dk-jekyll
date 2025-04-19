@@ -3,7 +3,8 @@ layout: single
 title: "Træningsprogrammer: fullbody og splitprogrammer til styrke"
 seo_title: "Styrketræningsprogrammer: fullbody og splitprogrammer til styrke"
 permalink: /styrketraeningsprogrammer/
-excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, splitprogrammer, 2-splitprogram og 3-splitprogram."
+excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dit niveau og dine behov. Find et program, der passer til netop dit niveau og behov."
+description: "Få en komplet oversigt over de klassiske gratis træningsprogrammer til styrketræning. Find dit eget program der passer til netop dit niveau og behov."
 comments: false
 toc: true
 category:
@@ -36,7 +37,7 @@ feature_row_howto_program:
     btn_label: "Lav dit eget program"
     btn_class: "btn--info"
 feature_row_choose_program:
-  - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
+  - image_path: https://images.unsplash.com/photo-1718633561231-864a4c466991?q=80&w=400&h=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     alt: "Hvad er et godt styrketræningsprogram?"
     title: "Sådan vælger du et styrketræningsprogram"
     excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
@@ -45,17 +46,17 @@ feature_row_choose_program:
     btn_class: "btn--info"
 ---
 
-Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
+Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer, der passer til netop dit niveau og dine mål.
 
-Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebeprogrammer/).
+Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og den tid, du har til rådighed.
 
-Typisk kan det med et styrketræningsprogram betale sig at gøre det så enkelt som muligt, og langt de fleste vil have bedre af at starte med et enkelt træningsprogram.
+Når du skal vælge dit program, så husk at være ærlig over for dig selv i forhold til [dit styrketræningsniveau](/styrketraening/periodisering/). For langt de fleste kan det betale sig at starte med et enkelt, klassisk træningsprogram.
 
-## Hvordan vælger du et styrketræningsprogram
+## Hvordan vælger du et styrketræningsprogram?
 
 {% include feature_row id="feature_row_choose_program" type="left" %}
 
-## Træningsprogrammer til styrketræning fullbody, 2-split, 3-split, 4-split og 5-split
+## Træningsprogrammer til styrketræning
 
 Disse effektive styrketræningsprogrammer kan hjælpe dig uanset om dit mål er styrke, muskelopbygning eller reducere din fedtprocent.
 
@@ -81,6 +82,10 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 {: id="oversigt" }
 
 {% include table/filter-table-strengthprograms.html %}
+
+## Hvilket træningsprogram skal jeg vælge?
+
+Det kan være vanskeligt at vælge det rette træningsprogram, fordi der er så mange. Tjek vores [guide til at vælge det rette styrketræningsprogram](/vaelg-traeningsprogram/). Hvis du er i tvivl om de enkelte programmer, så kan du også læse [vores vurdering af de mest populære træningsprogrammer](/anmeldelse-traeningsprogrammer/).
 
 ## Sådan laver du et styrketræningsprogram selv
 

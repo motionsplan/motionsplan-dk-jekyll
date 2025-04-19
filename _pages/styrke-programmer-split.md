@@ -113,6 +113,46 @@ Vi foreslår følgende skabelon som er inspireret af Training for Warriors.
 - Core/Finisher
 - Cool Down/Flexibility
 
+## Hvad skal du kigge efter i et splitprogram?
+
+Når du skal vælge et splitprogram, så foreslår [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) en række parametre, som du med fordel kan kigge efter.
+
+### 1. Er der nok frekvens for hver muskelgruppe?
+
+Den nyeste forskning viser, at det er mere effektivt at ramme en muskelgruppe to gange om ugen frem for en - også selvom den samlede volumen er den samme. Det gælder uanset om vi snakker om muskelvækst eller muskelstyrke (Schoenfeld 2016; Ochi 2018). For nogle er det marginalt bedre at ramme musklerne 3 gange om ugen.
+
+Når du kigger på træningsprogrammet, så husk at musklerne bliver stimuleret i forskellige øvelser. Det gælder særligt, når du vælger et program fokuseret på de store basisløft.
+
+Bænkpres bliver ofte kategoriseret som en brystøvelse, men triceps og det forreste af skulderen arbejder også meget i bænkpres. Kropshævninger og rows aktiverer den brede rygmuskel, men biceps er også involveret i mange øvelser. Squat træner den store lårmuskel, men balderne og baglårene er også aktiveret.
+
+Du behøver altså ikke have isoleret arbejde for muskelgrupperne. Du kan sagtens bruge de store flerledsøvelser. Når du skal vælge træningsprogram, så tjek at du rammer de enkelte muskelgrupper mindst 2 gange om ugen.
+
+### 2. Er der minimal negativ overførsel fra en træning til den næste?
+
+Hvis du fx træner dine arme rigtig hårdt om mandagen, og tænker at du skal træne bryst og ryg om tirsdagen, så vil din træning tirsdag være negativt påvirket af mandagens strabadser.
+
+### 3. Er ratioen mellem arbejdsdage og restitutionsdage optimalt?
+
+Nogle gange kan en rigtig høj frekvens virke, men kun hvis volumen og intensiteten i de enkelte træningspas holdes nede.
+
+De fleste løfter vil have **en god effekt af fire ugentlige træninger**, men **3 træninger om ugen er bedre end 5 for de fleste**.
+
+Restitutionsdage er vigtige for at maksimere restitutionen og for at maksimere muskelvækst og muskelstyrke. Det sænker også risikoen for at brænde ud.
+
+## Forslag til splitprogrammer
+
+Her er nogle forskellige splitprogrammer, som du kan lade dig inspirere af. Der er ikke nogen af programmerne, der er bedre end de andre.
+
+Husk at de fleste kan have bedre effekt af et mere enkelt program end et mere kompliceret program.
+
+- [2-split program træk og pres]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %})
+- [2-split træningsprogram med overkrop og underkrop]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %})
+- [3-split træningsprogram]({% link _posts/2021-08-16-styrke-3-split.md %})
+{% comment %}
+- 4-split træningsprogram
+- 5-split træningsprogram
+{% endcomment %}
+
 ## Ofte stillede spørgsmål om splitprogrammer
 
 {% include motionsplan/faq.html %}
