@@ -1,5 +1,5 @@
 ---
-title: &title "2-split træningsprogram - træk/pres - push/pull"
+title: &title "2-split træningsprogram - push/pull (PP)"
 seo_title: "2-split program: Effektiv træning med træk/pres eller push/pull"
 permalink: /2-split-push-pull/
 header:

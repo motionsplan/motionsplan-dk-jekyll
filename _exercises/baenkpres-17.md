@@ -60,6 +60,7 @@ gallery:
   - image_path: https://www.sportshojskolen.dk/media/imagegenerator/500x0/upscale(false)/2017Bankpres6@2x.jpg
   - image_path: https://www.sportshojskolen.dk/media/imagegenerator/500x0/upscale(false)/2017Bankpres7@2x.jpg
 toc: true
+icon: /assets/images/exercise-icons/benchpress_barbell_single_small.png
 ---
 
 Bænkpres er en af de mest fundamentale øvelser inden for styrketræning og styrkeløft. Den aktiverer flere led samtidig, herunder skulder-, albue- og håndled, hvilket gør den til en sammensat øvelse.
@@ -129,7 +130,7 @@ Håndleddene arbejder statisk for at stabilisere grebet om stangen. Selvom flere
 
 ## Typiske udfordringer i bænkpres og hvordan du løser dem
 
-### 1. Manglende albueposition under stangen
+### 1. Albuen er ikke under stangen
 
 En af de mest almindelige fejl i bænkpres er, at albuerne ikke forbliver direkte under stangen. Enten er de trukket for langt ind mod kroppen, hvilket ændrer trykket og kan føre til unødvendig belastning af skuldrene, eller også er de placeret for langt ud, hvilket kan gøre løftet ineffektivt og øge skadesrisikoen.
 
@@ -138,7 +139,7 @@ En af de mest almindelige fejl i bænkpres er, at albuerne ikke forbliver direkt
 - Justér albuepositionen, så de forbliver under stangen gennem hele bevægelsen.
 - Tilpas stangens bane, så den følger en naturlig kurve og rammer brystet korrekt.
 
-### 2. Halve gentagelser
+### 2. Stangen føres ikke ned til brystet
 
 Mange løftere stopper bevægelsen for tidligt og bringer ikke stangen hele vejen ned til brystet. Dette begrænser træningseffekten, især på brystmusklerne, som aktiveres mest i bunden af løftet.
 
@@ -156,7 +157,7 @@ Nogle løftere lader stangen falde hurtigt og "bouncer" den af brystet for at f�
 - Sænk stangen kontrolleret og med spænding i musklerne.
 - Hold et kort øjeblik i bunden for at opbygge styrke og stabilitet.
 
-### 4. Løft af hoften under løftet
+### 4. Hoften løftes fra sædet
 
 Når vægten bliver tung, er det fristende at løfte hoften fra bænken for at skubbe vægten op. Selvom dette kan hjælpe med at få stangen op, ændrer det vinklerne i løftet og kan mindske træningseffekten for brystmusklerne.
 

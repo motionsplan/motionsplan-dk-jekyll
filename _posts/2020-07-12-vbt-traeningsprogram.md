@@ -16,9 +16,9 @@ tags:
   - styrkeløft
   - træningsprogram
 meta:
-  name: Velocity Based Training
-  measures: styrke og hastighed
-  type: styrketest
+  name: Velocity Based træningsprogram
+  measures: styrkeprogram
+  type: vbt-program
   equipment: vbt-udstyr
   max: maksimal test
   direct: direkte test

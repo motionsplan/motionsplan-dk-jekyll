@@ -1,5 +1,5 @@
 ---
-title: &title "2-split træningsprogram - upper/lower"
+title: &title "2-split træningsprogram - upper/lower (UL)"
 seo_title: "2-split træningsprogram: Effektiv upper/lower træning"
 permalink: /2-split-upper-lower/
 header:

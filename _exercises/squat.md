@@ -56,6 +56,7 @@ feature_row_biomekanik:
 gallery_brett_contreas:
   - image_path: /assets/images/blog/brett-contreas-femur-torso-squat.png
   - image_path: /assets/images/blog/brett-contreas-femur-torso-squat-2.png
+icon: /assets/images/exercise-icons/squat_barbell_single_small.png
 ---
 
 Squat er en rigtig vigtig træningsøvelse. Den træner en funktionel bevægelse i kroppen. Her kigger vi på squat teknik og nogle af de rigtig mange variationer, der findes til at træne benene med knæbøjninger.

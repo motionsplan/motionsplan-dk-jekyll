@@ -1,6 +1,9 @@
 ---
-title: &title "Starting Strength: Styrketræningsprogram af Mark Rippetoe"
+title: &title "Starting Strength: Begynderprogram af Mark Rippetoe"
+seo_title: "Starting Strength: Effektivt program for begyndere"
 permalink: /starting-strength-styrketraeningsprogram/
+excerpt: "Starting Strength er et simpelt og effektivt styrketræningsprogram for begyndere. Lær hvordan du udfører programmet med fokus på progressiv belastning."
+description: "Starting Strength er et simpelt og effektivt styrketræningsprogram for begyndere. Lær hvordan du udfører programmet med fokus på progressiv overbelastning."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
@@ -16,7 +19,7 @@ tags:
   - programanmeldelse
   - fullbody
   - populær
-last_modified_at: 2021-03-22T08:14:14Z
+last_modified_at: 2025-03-22T08:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/pinterest/rippetoe-deadlift.jpg
@@ -31,13 +34,20 @@ gallery:
     url: /assets/images/pinterest/rippetoe-strong.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
+meta:
+  name: Starting Strength
+  author: Mark Rippetoe
+  level: begynder
+  goal: generelt
 ---
 
 Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strength er både en bog og et styrketræningsprogram.
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og de enkelte løft bliver gennemgået meget grundigt i bogen.
 
-I Starting Strength træner du tre gange om uge. Programmet er et [helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer til styrketræning](/styrketraeningsprogrammer/), som du kan lade dig inspirere af.
+I Starting Strength træningsprogrammet træner du tre gange om uge. Programmet er et [helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
+
+[Spring direkte til programmet](#program){: .btn .btn--success .btn--jump }
 
 Starting Strength er en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, og hvordan du kan bruge det.
 
@@ -57,7 +67,7 @@ Første gang jeg selv fulgte programmet, var også første gang jeg fandt ud af,
 
 Du behøver ikke at træne rigtig tungt for at blive stærk, men det var interessant, at min krop virkelig responderede godt på Starting Strength-programmet.
 
-## Starting Strength er et enkelt styrketræningsprogram
+## Hvad er Starting Strength?
 
 Starting Strength er et dejligt enkelt program. Det starter med fire helkropsøvelser:
 
@@ -85,7 +95,7 @@ Træningsprogrammeringen er enkel sammenlignet med andre moderne styrkeprogramme
 
 Alt for mange tror, at de har brug for noget rigtig avanceret. Men rigtig mange mennesker kan få meget ud af at bruge de store helkropsøvelser og den lineære programmering.
 
-Når du har kørt programmet et stykke tid, så foreslår Rippetoe selv at fortsætte med fx [Texas Method]({% link _posts/2019-10-24-texas-method.md %}).
+Når du har kørt programmet et stykke tid, så foreslår Rippetoe selv at fortsætte med fx [Texas Method](/texas-method/).
 
 Jeg har selv brugt Starting Strength mange gange efter fx en træningspause for at komme tilbage til et godt niveau på en struktureret måde.
 
@@ -103,15 +113,15 @@ I squat foreslår han, at for de fleste skal stangen placeres længere nede på 
 
 Mark Rippetoe har lavet nogle rigtig gode videoer om de enkelte løft.
 
-## Squat i Starting Strength
+### Squat i Starting Strength
 
 {% include video provider="youtube" id="nhoikoUEI8U" %}
 
-## Bænk som Mark Rippetoe
+### Bænk som Mark Rippetoe
 
 {% include video provider="youtube" id="rxD321l2svE" %}
 
-## Dødløft i Starting Strength
+### Dødløft i Starting Strength
 
 Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi Mark Rippetoe ikke holder af dødløft.
 
@@ -121,11 +131,11 @@ Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi
 
 {% include video provider="youtube" id="p2OPUi4xGrM" %}
 
-## Military press efter Mark Rippetoe
+### Military press efter Mark Rippetoe
 
 {% include video provider="youtube" id="8dacy5hjaE8" %}
 
-## Chinups
+### Chinups
 
 Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træningsprogrammet, men hans nyeste anbefaling er at smide chinups ind efter omkring uge 3. Det svarer til fase 2 i de nedenstående faser.
 
@@ -135,7 +145,7 @@ Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træni
 
 {% include video provider="youtube" id="9aA0-FbxK9E" %}
 
-## Power clean
+### Power clean
 
 Mark Rippetoe bruger lidt flere videoer på at forklare, hvordan man laver et power clean.
 
@@ -151,7 +161,8 @@ Mark Rippetoe bruger lidt flere videoer på at forklare, hvordan man laver et po
 
 {% include video provider="youtube" id="xmKTiqE3S0E" %}
 
-## Faser i Starting Strength
+## Opbygning af Starting Strength
+{: id="program" }
 
 [Mark Rippetoe](https://startingstrength.com/get-started/programs) foreslår tre faser til Starting Strength.
 
@@ -167,6 +178,8 @@ Husk at holde øje med, hvordan kroppen reagerer undervejs.
 | Bench Press 3 x 5 |	Press 3 x 5 |
 | Deadlift 1 x 5 | Deadlift 1 x 5 |
 
+{% include figure image_path="/assets/images/strengthprograms/starting-strength-phase-1.png" %}
+
 ### Fase 2 (variabel længde)
 
 I fase introduceres power cleans den ene dag i stedet for dødløft. Ideen er, at et er vanskeligt at restitutere fra dødløft, hvis du skal lave den hver gang. Men den eksplosive øvelse - cleans - kan hjælpe med stadig at få fremgang i dødløft.
@@ -178,6 +191,8 @@ Hvis du ikke vil arbejde med teknikken i cleans, kan du også bruge _speed deadl
 | Squat 3 x 5 | Squat 3 x 5 |
 | Bench Press 3 x 5 | Press 3 x 5 |
 | Deadlift 1 x 5 | Power Clean 5 x 3 |
+
+{% include figure image_path="/assets/images/strengthprograms/starting-strength-phase-2.png" %}
 
 ### Fase 3 (variabel længde)
 
@@ -196,6 +211,8 @@ Rippetoe anbefaler at lave 3 sæt med AMRAP i chinups. Hvis du kan lave mere end
 Starting Strength er naturligvis ikke bare lineær programmering i det uendelige. Så let er det trods alt ikke at blive rigtig stærk.
 
 Når du begynder at vænne dig til vægtene, og du ikke længere kan få fremgang, så kan det være tid til at finde en nye måde at skrue dit program sammen på.
+
+{% include figure image_path="/assets/images/strengthprograms/starting-strength-phase-3.png" %}
 
 ## Mark Rippetoes træningstips til Starting Strength
 
@@ -247,8 +264,14 @@ Du kan altså bruge de første par uger på at få squat og dødløft til at fun
 
 Nu kan du fortsætte programmet så længe som muligt. Hvis vægtene for hurtigt bliver for tunge, kan du lave et mindre reset, hvor du sænker vægtene, og genstarter den lineære programmering derfra. Det vil formentlig gøre dig i stand til at fortsætte programmet endnu længere.
 
-Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering, som du fx kan finde i Rippetoes [Texas Method]({% link _posts/2019-10-24-texas-method.md %}), som er målrettet let øvede.
+Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering, som du fx kan finde i Rippetoes [Texas Method](/texas-method/), som er målrettet let øvede eller et af de [andre styrketræningsprogrammer](/styrketraeningsprogrammer/)
 
 Du kan læse mere på [startingstrength.com](https://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ).
 
 {% include motionsplan/pinterest-gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}
+
+---
+
+### Tip:
+
+Du kan prøve programmet i **[Liftosaur-appen](/liftosaur/)**. Her behøver du ikke tænke over detaljerne. Det hele bliver gjort automatisk for dig.

@@ -9,8 +9,6 @@ header:
 category:
   - Styrketræning
 tags:
-  - programlægning
-  - træningsprogram
   - styrketræning
   - crossfit
 last_modified_at: 2020-01-23T08:14:14Z

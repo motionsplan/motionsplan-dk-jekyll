@@ -1,0 +1,1 @@
+{% assign exercise_key = include.key %}{% assign posts = site.exercises | where: "key", exercise_key %}{% assign post = posts[0] %}{% assign title = include.title | default: post.title -%}<img style="height: 44px;" src="{{ post.icon }}"> <strong><a href="{{ post.url }}">{{ title }}</a></strong>

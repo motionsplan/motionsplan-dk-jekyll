@@ -6,7 +6,7 @@ excerpt: "Følg Coans & Philipis 10-ugers dødløftprogram. Øg din dødløftsty
 permalink: /ed-coan-doedloeft-cyklus/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://allaboutpowerlifting.com/wp-content/uploads/2014/02/edcoan.jpg
   caption: *title
 category:
   - Styrketræning
@@ -16,22 +16,49 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
-  - populær
 last_modified_at: 2025-03-22T08:14:14Z
 toc: true
+meta:
+  name: Coan 10 uger dødløft
+  author: Ed Coan
+  level: erfaren
+  goal: dødløft
 ---
 
-Coan dødløftprogrammet er en populær styrketræningscyklus, designet af den legendariske styrkeløfter Ed Coan og stærkmanden Mark Philipi.
+Coan dødløftprogrammet er et populært 10 ugers program, som er designet af den legendariske styrkeløfter Ed Coan.
 
-Ed Coan er en af de mest berømte styrkeløftere i historien, kendt for sine utallige verdensrekorder. Mark Philipi er en stærkmand og styrketræner i USA, og programmet blev angiveligt skabt af Coan specielt til Philipi.
+Ed Coan er en af de mest berømte styrkeløftere i historien, kendt for sine utallige verdensrekorder. Programmet blev angiveligt skabt af Coan specielt til stærkmanden Mark Philipi.
 
-Uanset oprindelsen er programmet blevet anerkendt som ekstremt effektivt og er blevet brugt af mange atleter med stor succes.
+Uanset oprindelsen er programmet blevet anerkendt som ekstremt effektivt program til dødløft. Hvis du vil have et bredere program, så kan du kigge i vores [oversigt med styrketræningsprogrammer](/styrketraeningsprogrammer/).
 
-Programmet varer i 10 uger og er opdelt i forskellige faser, der hjælper med at opbygge styrke og teknik i dødløftet.
+[Hop direkte til programmet](#program){: .btn .btn--success .btn--jump }
+
+## Historien bag programmet
+
+Ed Coan kunne løfte meget tung vægt. Han havde på et tidspunkt 4 verdensrekorder i _raw_ dødløft.
+
+{% include video provider="youtube" id="-dpRChwpmaM" %}
+
+Ifølge [Powerliftingtowin](https://www.powerliftingtowin.com/coan-philippi-deadlift-routine/) har Coan aldrig selv fulgt dette program, men det var lavet til Mark Philipi.
 
 ## Programoversigt
+{: id="program" }
 
-### Uge 1-4: Start med Moderat Intensitet
+Programmet varer i 10 uger og er opdelt i forskellige faser, der hjælper med at opbygge styrke, arbejdskapacitet og teknik i dødløftet.
+
+For at forstå programmet skal du vide, at det er delt op i to dele.
+
+- **Dødløft**. Hovedattraktionen i programmet.
+- **Suppleringsøvelser**. Øvelser til at blive stærkere i assisterende øvelser.
+
+Det oprindelige program er baseret på **din ønskede max** og ikke som mange andre programmer **din nuværende max**. De fleste går efter 10-20 kg forbedring på 10 uger. Hvis du ikke bliver stærkere i løbet af programmet, så har du ingen chance for at færdiggøre det.
+
+Du kan nu sagtens køre programmet baseret på din nuværende max. Programmet bliver lidt lettere, men du kan stadig få en fornuftig fremgang i løbet af programmet.
+{: .notice--info }
+
+Dødløft er delt op i **work sets** og **speed sets**. Arbejdssættene skal udføres med høj kvalitet. **Speed sets** skal primært bruges til at opbygge arbejdskapacitet, og der er begrænset pause.
+
+### Dødløft - arbejdssæt og speed sets
 
 | Uge  | **Work Sets**                 | **Speed Sets**                                 |
 |------|-------------------------------|------------------------------------------------|
@@ -39,6 +66,16 @@ Programmet varer i 10 uger og er opdelt i forskellige faser, der hjælper med at
 | 2    | (80%) x 2 reps                | (65%) 8 sæt x 3 reps (90 sekunder hvile)      |
 | 3    | (85%) x 2 reps                | (70%) 6 sæt x 3 reps (90-120 sekunder hvile)  |
 | 4    | (90%) x 2 reps                | (75%) 5 sæt x 3 reps (90-120 sekunder hvile)  |
+| 5    | (80%) 3 sæt x 3 reps          | (65%) 3 sæt x 3 reps (120 sekunder hvile)     |
+| 6    | (85%) x 2 reps                | (70%) 3 sæt x 3 reps (120 sekunder hvile)     |
+| 7    | (90%) x 2 reps                | (75%) 3 sæt x 3 reps (120 sekunder hvile)     |
+| 8    | (95%) x 2 reps                | (70%) 3 sæt x 3 reps (120 sekunder hvile)     |
+| 9    | (97.5%) x 1 rep               | (70%) 2 sæt x 3 reps (hviletid efter behov)    |
+| 10   | (100%) x 1 rep                | (60%) 2 sæt x 3 reps (hviletid efter behov)    |
+
+### Støtteøvelser
+
+Det mest komplicerede ved programmet er suppleringsøvelserne. Her får du en kort oversigt:
 
 **Støtteøvelser (Uge 1-4):**
 
@@ -48,15 +85,6 @@ Disse øvelser skal udføres som cirkeltræning med 90 sekunders hvile mellem s�
 2. Bent over rows – 8 reps
 3. Underhånds pulldowns – 8 reps
 4. Arch back goodmornings – 8 reps (2-3 minutters hvile)
-
-Gentag cirkeltræningen 3 gange.
-
-### Uge 5-6: Øg Intensiteten
-
-| Uge  | **Work Sets**                 | **Speed Sets**                                 |
-|------|-------------------------------|------------------------------------------------|
-| 5    | (80%) 3 sæt x 3 reps          | (65%) 3 sæt x 3 reps (120 sekunder hvile)     |
-| 6    | (85%) x 2 reps                | (70%) 3 sæt x 3 reps (120 sekunder hvile)     |
 
 **Støtteøvelser (Uge 5-6):**
 
@@ -68,13 +96,6 @@ Udføres på traditionel måde, ikke som cirkeltræning.
 4. Underhånds pulldowns – 3 sæt x 5 reps (90-120 sekunders hvile)
 5. Goodmornings – 3 sæt x 5 reps (90-120 sekunders hvile)
 
-### Uge 7-8: Højere Intensitet, Færre Sæt
-
-| Uge  | **Work Sets**                 | **Speed Sets**                                 |
-|------|-------------------------------|------------------------------------------------|
-| 7    | (90%) x 2 reps                | (75%) 3 sæt x 3 reps (120 sekunder hvile)     |
-| 8    | (95%) x 2 reps                | (70%) 3 sæt x 3 reps (120 sekunder hvile)     |
-
 **Støtteøvelser (Uge 7-8):**
 
 Samme som uge 5-6, men med 1 sæt mindre og højere vægte.
@@ -85,32 +106,158 @@ Samme som uge 5-6, men med 1 sæt mindre og højere vægte.
 4. Underhånds pulldowns – 2 sæt x 5 reps (90-120 sekunders hvile)
 5. Goodmornings – 2 sæt x 5 reps (90-120 sekunders hvile)
 
-### Uge 9: Skær ned på Støtteøvelserne
-
-| Uge  | **Work Sets**                 | **Speed Sets**                                 |
-|------|-------------------------------|------------------------------------------------|
-| 9    | (97.5%) x 1 rep               | (70%) 2 sæt x 3 reps (hviletid efter behov)    |
-
 **Støtteøvelser (Uge 9):**
+
 1. Power shrugs – 2 sæt x 5 reps (75% af din 1RM i dødløft)
 2. Stiff legged dødløft – 2 sæt x 5 reps (90-120 sekunders hvile)
 
-### Uge 10: Test Dagen
-
-| Uge  | **Work Sets**                 | **Speed Sets**                                 |
-|------|-------------------------------|------------------------------------------------|
-| 10   | (100%) x 1 rep                | (60%) 2 sæt x 3 reps (hviletid efter behov)    |
-
-**Test Dag:**
-
-På denne dag tester du din 1RM (1 rep max) i dødløft.
-
-## Støtteøvelser og Tilpasning
+## Støtteøvelser og tilpasning
 
 Ed Coan anbefaler specifikke støtteøvelser for hver uge, men det er vigtigt at huske på, at alle har forskellige behov. Hvis du har individuelle støtteøvelser, som fungerer bedre for dig, er det helt okay at erstatte de anbefalede øvelser. Men det er en god idé kun at ændre, hvis du kender din krop og har erfaring med de øvelser, du vælger.
 
-## Anvendelse af beregnere
+## Sådan beregner du dine vægte til programmet
 
 Du kan finde flere online beregnere, som hjælper dig med at beregne vægtene, du skal bruge i programmet, så du ikke selv behøver at regne det ud.
+
+Du kan også lægge programmet ind i [Liftosaur](/liftosaur/).
+
+<details markdown="1" class="faq">
+  <summary>🦖 Liftosaur Ed Coan dødløftrutine</summary>
+
+```
+# Week 1
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 75% / @7 / 180s
+Speed: Deadlift, Barbell / 8x3 / 60% / 90s / warmup: none
+
+// Superset the following. Rest 90s between exercises. 180s between rounds.
+Stiff Leg Deadlift, Barbell / 3x8 / @6
+Bent Over Row, Barbell / 3x8 / @7
+// Underhand grip
+Lat Pulldown, Cable / 3x8 / @7
+Good Morning, Barbell / 3x8 / @6
+
+
+# Week 2
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 80% / @7 / 180s
+Speed: Deadlift, Barbell / 8x3 / 65% / 90s / warmup: none
+
+// Superset the following. Rest 90s between exercises. 180s between rounds.
+Stiff Leg Deadlift, Barbell / 3x8 / @6
+Bent Over Row, Barbell / 3x8 / @7
+// Underhand grip
+Lat Pulldown, Cable / 3x8 / @7
+Good Morning, Barbell / 3x8 / @6
+
+
+# Week 3
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 85% / @7 / 180s
+Speed: Deadlift, Barbell / 6x3 / 70% / 90s / warmup: none
+
+// Superset the following. Rest 90s between exercises. 180s between rounds.
+Stiff Leg Deadlift, Barbell / 3x8 / @6
+Bent Over Row, Barbell / 3x8 / @7
+// Underhand grip
+Lat Pulldown, Cable / 3x8 / @7
+Good Morning, Barbell / 3x8 / @6
+
+
+# Week 4
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 90% / @7 / 180s
+Speed: Deadlift, Barbell / 5x3 / 75% / 90s / warmup: none
+
+// Superset the following. Rest 90s between exercises. 180s between rounds.
+Stiff Leg Deadlift, Barbell / 3x8 / @6
+Bent Over Row, Barbell / 3x8 / @7
+// Underhand grip
+Lat Pulldown, Cable / 3x8 / @7
+Good Morning, Barbell / 3x8 / @6
+
+
+# Week 5
+## Day 1
+Heavy: Deadlift, Barbell / 3x3 / 80% / 180s
+Speed: Deadlift, Barbell / 3x3 / 65% / 120s / warmup: none
+
+// Do as straight sets
+// Use 60% deadlift 1RM
+Power Shrugs / 3x5
+Stiff Leg Deadlift, Barbell / 3x5 / @6
+Bent Over Row, Barbell / 3x5 / @7
+// Underhand grip
+Lat Pulldown, Cable / 3x5 / @7
+Good Morning, Barbell / 3x5 / @6
+
+
+# Week 6
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 85% / 180s
+Speed: Deadlift, Barbell / 3x3 / 70% / 120s / warmup: none
+
+// Do as straight sets
+// Use 60% deadlift 1RM
+Power Shrugs / 3x5
+Stiff Leg Deadlift, Barbell / 3x5 / @6
+Bent Over Row, Barbell / 3x5 / @7
+// Underhand grip
+Lat Pulldown, Cable / 3x5 / @7
+Good Morning, Barbell / 3x5 / @6
+
+
+# Week 7
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 90% / 180s
+Speed: Deadlift, Barbell / 3x3 / 75% / 120s / warmup: none
+
+// Do as straight sets
+// Use 70% deadlift 1RM
+Power Shrugs / 2x5
+Stiff Leg Deadlift, Barbell / 2x5 / @7
+Bent Over Row, Barbell / 2x5 / @8
+// Underhand grip
+Lat Pulldown, Cable / 2x5 / @8
+Good Morning, Barbell / 2x5 / @7
+
+
+# Week 8
+## Day 1
+Heavy: Deadlift, Barbell / 1x2 / 95% / 180s
+Speed: Deadlift, Barbell / 3x3 / 70% / 120s / warmup: none
+
+// Do as straight sets
+// Use 70% deadlift 1RM
+Power Shrugs / 2x5
+Stiff Leg Deadlift, Barbell / 2x5 / @7
+Bent Over Row, Barbell / 2x5 / @8
+// Underhand grip
+Lat Pulldown, Cable / 2x5 / @8
+Good Morning, Barbell / 2x5 / @7
+
+
+# Week 9
+## Day 1
+Heavy: Deadlift, Barbell / 1x1 / 97.5% / 180s
+Speed: Deadlift, Barbell / 2x3 / 70% / 180s / warmup: none
+
+// Do as straight sets
+// Use 75% deadlift 1RM
+Power Shrugs / 2x5 / 120s
+Stiff Leg Deadlift, Barbell / 2x5 / @8 / 120s
+
+
+# Week 10
+// Testday
+## Day 1
+Heavy: Deadlift, Barbell / 1x1 / 100%+ / 180s
+Speed: Deadlift, Barbell / 2x3 / 60% / 180s
+```
+
+</details>
+
+
+## Konklusion
 
 **Bemærk:** Programmet er designet til at optimere din dødløftstyrke. Hvis du følger det nøje og arbejder dig op gennem de forskellige faser, vil du sandsynligvis opleve betydelige forbedringer i din dødløftkapacitet.

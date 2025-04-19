@@ -1,0 +1,50 @@
+{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% if site_posts.size > 0 %}
+
+<input type="text" id="filter-table-input" class="filter-table-input" onkeyup="filterTable()" placeholder="Søg tabellen...">
+
+<table id="filter-table" class="filter-table">
+  <thead>
+  <tr class="header">
+    <th>Program</th>
+    <th>Forfatter</th>
+    <th>Niveau</th>
+    <th>Mål</th>
+  </tr>
+  </thead>
+  <tbody>
+  {%- for post in site_posts %}
+  <tr>
+    <td><a href="{{ post.url }}">{{ post.meta.name | default: post.title  }}</a></td>
+    <td>{{ post.meta.author }}</td>
+    <td>{{ post.meta.level }}</td>
+    <td>{{ post.meta.goal }}</td>
+  </tr>
+  {%- endfor %}
+</tbody>
+</table>
+{% endif %}
+
+
+<script>
+  function filterTable() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("filter-table-input");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("filter-table");
+    tr = table.getElementsByTagName("tr");
+  
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td");
+      for (var j = 0; j < td.length; j++) {
+        txtValue = td[j].textContent || td[j].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+          break;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>

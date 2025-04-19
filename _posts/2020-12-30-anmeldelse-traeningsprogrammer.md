@@ -51,23 +51,34 @@ Alle reagerer ikke ens på træning - og alle programmer vil ikke virke for alle
 
 Som Anders Nedergaard skriver:
 
-> Derfor – første gang du prøver et bestemt træningsprogram, så brug det præcist som beskrevet. Når du er færdig med det, eller har kørt det så lang tid som du mener du skal for at vurdere det, kan du lave din vurdering og så lave eventuelle justeringer til eventuel fremtidig brug af programmet.
+> Derfor – første gang du prøver et bestemt træningsprogram, så brug det præcist som beskrevet. Når du er færdig med det, eller har kørt det så lang tid, som du mener du skal for at vurdere det, kan du lave din vurdering og så lave eventuelle justeringer til eventuel fremtidig brug af programmet.
 >
 > --- <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
 
+
+> **Don't customize.** You must do the program the way it's written.
+>
+> --- [Jim Wendler](https://t-nation.com/t/5-3-1-how-to-build-pure-strength/281694)
+
 ## Hvad betyder mest for et træningsprogram?
 
-Det vigtigste ved et træningsprogram er altid, om du kan lide programmet og har lyst til at lave det. Vedholdenhed og kontinuerlig træning slår altid det mest gennemtænkte program. Så kig efter et program, hvor du træner det, du har lyst til på en måde som du kan se dig selv gøre indtil programmet er slut.
+Det vigtigste ved et træningsprogram er altid, om du kan lide programmet og har lyst til at lave det. Vedholdenhed og kontinuerlig træning slår altid det mest gennemtænkte program. Så kig efter et program, hvor du træner det, du har lyst til på en måde som du kan se dig selv gøre, indtil programmet er slut.
 
-I det lange løb så kan du få brug for variation for at fortsætte med at få fremgang, men jeg tror langt de fleste glemmer at motivationen og vedholdenheden er det allervigtigste, hvis du gerne vil se fremgang over lang tid. Hvis du er vedholdende og får trænet kontinuerligt, og du skulle ramme et plateau i træningen, så kan du altid tilføje variation.
+I det lange løb så kan du få brug for variation for at fortsætte med at få fremgang, men jeg tror langt de fleste glemmer at motivationen og vedholdenheden er det allervigtigste, hvis du gerne vil se fremgang over lang tid.
+
+Hvis du er vedholdende og får trænet kontinuerligt, og du skulle ramme et plateau i træningen, så kan du altid tilføje variation.
 
 ## Hvad skal jeg kigge efter i træningsprogrammet?
 
-Der findes rigtig mange styrketræningsprogrammer, som slår sig op på at være det mest solgte styrketræningsprogram og vil give særligt gode resultater. Sandheden er, at de fleste resultater giver gode resultater, så længe du er begynder. Det betyder imidlertid ikke, at programmerne ikke er pengene værd. Der findes mange programmer, som er sat godt sammen - og jeg har selv nydt at lære nye ting ved at købe et færdiggjort styrketræningsprogram.
+Der findes rigtig mange styrketræningsprogrammer, som slår sig op på at være det mest solgte styrketræningsprogram og vil give særligt gode resultater. Sandheden er, at de fleste programmer giver gode resultater, så længe du er begynder.
 
-Men husk at de kroppe du ser på de gode tilbud kan skabes på mange måder - og med mange forskellige programmer. Typisk kan det sjældent lade sig gøre at få så store muskler så hurtigt eller tabe så meget fedt så hurtigt uden at være ekstremt dedikeret. Og mange vil ikke lægge kosten om eller træne helt så hårdt og ofte, som gigantiske tranformationer på ingen tid vil tage. (Og ofte tager det også den helt rigtige lyssætning og forberedelse inden _photo shootet_).
+Det betyder imidlertid ikke, at programmerne ikke er pengene værd. Der findes mange programmer, som er sat godt sammen - og jeg har selv nydt at lære nye ting ved at købe et færdiggjort styrketræningsprogram.
 
-Hvis du vil prøve træningsprogrammer, kan du altså give dig i kast med nogle af de meget berømte versioner af forskellige træningsprogrammer.
+Men husk at de kroppe du ser på de gode tilbud kan skabes på mange måder - og med mange forskellige programmer. Typisk kan det sjældent lade sig gøre at få så store muskler så hurtigt eller tabe så meget fedt så hurtigt uden at være ekstremt dedikeret.
+
+Og mange vil ikke lægge kosten om eller træne helt så hårdt og ofte, som gigantiske tranformationer på ingen tid vil tage. (Og ofte tager det også den helt rigtige lyssætning og forberedelse inden _photo shootet_).
+
+Hvis du vil prøve styrkeprogrammer, kan du altså give dig i kast med nogle af de mere berømte versioner af forskellige træningsprogrammer. De er blevet berømte af en årsag.
 
 ## Vigtige parametre i et styrketræningsprogram
 

@@ -16,7 +16,10 @@ classes: wide
 header:
   overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Træningsprogrammer: fullbody, 2-split, 3-split, 4-split og 5-split styrketræning"
+  caption: "Træningsprogrammer til styrketræning"
+  actions:
+    - label: "<i class='fas fa-table'></i> Direkte til oversigten"
+      url: "#oversigt"
 faq:
   - question: "Hvilket træningsprogram skal jeg vælge?"
     answer: "Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/), som du kan lade dig inspirere af."
@@ -73,6 +76,11 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 {% endif %}
 
 </div>
+
+## Oversigt over træningsprogrammer til styrketræning
+{: id="oversigt" }
+
+{% include table/filter-table-strengthprograms.html %}
 
 ## Sådan laver du et styrketræningsprogram selv
 

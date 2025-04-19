@@ -64,6 +64,7 @@ feature_row_biomekanik:
     url: "/doedloeft-biomekanik/"
     btn_label: "Prøv det"
     btn_class: "btn--primary"
+icon: /assets/images/exercise-icons/deadlift_barbell_single_small.png
 ---
 
 Dødløft er en klassisk træningsøvelse, hvor der er stort fokus på at træne hængselsbevægelsen i hoften. Dødløft kan laves i mange forskellige variationer, og her kigger vi lidt på teknikken.

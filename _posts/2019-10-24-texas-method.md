@@ -32,20 +32,32 @@ feature_row:
     btn_class: btn--success
     rel: sponsored nofollow noopener
 language: da
+meta:
+  name: Texas Method
+  author: Mark Rippetoe & Glenn Pendlay
+  level: øvet
+  goal: generelt
 ---
 
-*Texas Method* er et styrketræningsprogram, der er rettet mod den letøvede løfter. Ofte opfatter man det som en overbygning på [begynderprogrammet Starting Strength af Mark Rippetoe](/starting-strength-styrketraeningsprogram/). Programmet består af en volumendag om mandagen, en lettere restitutionsdag med variation om onsdagen og en højintensiv dag om fredagen for de store løft.
+**Texas Method** er et styrketræningsprogram, der er rettet mod den letøvede løfter. Texas method kan være en overbygning på [begynderprogrammet Starting Strength af Mark Rippetoe](/starting-strength-styrketraeningsprogram/). Programmet består af en volumendag om mandagen, en lettere restitutionsdag med variation om onsdagen og en højintensiv dag om fredagen for de store løft.
 
 *[AMRAP]: As many reps as possible*
 *[PR]: Personal Record
 
-En af fordelene ved Texas Method er, at den i en meso-cyklus (en uge) både tager højde for volumen, restituion og intensitet. Samtidig per pointen i programmet, at belastningen skal stige fra uge til uge, så der er lineær progression på ugebasis.
+[Spring direkte til programmet](#program){: .btn .btn--success .btn--jump }
+
+En af fordelene ved Texas Method er, at den i en meso-cyklus (en uge) både tager højde for volumen, restitution og intensitet. Samtidig per pointen i programmet, at belastningen skal stige fra uge til uge, så der er lineær progression på ugebasis.
 
 Husk at Texas Method bare er et af forskellige programmer. Vi har samlet flere [gratis klassiske styrkeprogrammer](/styrketraeningsprogrammer/), som du kan lade dig inspirere af.
 
 Sørg for at læse instruktionerne grundigt, inden du går i gang med at bruge programmet.
 
-## Mandag: Volumendag
+## Oversigt over programmet
+{: id="program" }
+
+{% include figure image_path="/assets/images/strengthprograms/texas-method.png" %}
+
+### Mandag: Volumendag
 
 1. **Squat** 5 x 5 @ 90% of 5RM
 2. **Bench Press or Overhead Press** 5 x 5 @ 90% 5RM
@@ -59,30 +71,29 @@ I programmet er valgt 5x5, fordi erfaringen siger, at tungere vægte ikke giver 
 
 **Restitution**. Du skal prioritere restitution, når du kører Texas Method. Ellers vil du ikke få den fremgang, programmet kan give. Det er i restitutionen at kroppen bygges op.
 
-## Onsdag: Restitutionsdag
+### Onsdag: Restitutionsdag
 
 1. **Squat** 2 x 5 @ 80% af mandagens vægt
 2. **Overhead Press (hvis du bænkede mandag)** 3 x 5 eller **Bench Press (hvis du OHP om mandagen)** 3 x 5 @ 90% previous 5 x 5 weight
 3. **Chin-up** 3 x Bodyweight AMRAP (2-5 min pause)
 4. **Back Extension or Glute-Ham Raise** 5 x 10
 
-Squat er omkring 80% af mandagens vægt, men kun to sæt. Bænk eller *military press* er tre sæt med lidt lettere vægt end den seneste tunge 5 x 5 løft, så du kan mærke belastningen, men det ikke går ud over restitutionen. Military press på restituionen er en lille smule tungere end bænkpres i forhold til bænkpres siden den absolutte belastning er mindre.
+Squat er omkring 80% af mandagens vægt, men kun to sæt. Bænk eller *military press* er tre sæt med lidt lettere vægt end den seneste tunge 5 x 5 løft, så du kan mærke belastningen, men det ikke går ud over restitutionen. Military press kan måske køres relativt set lidt tungere ift. bænkpres, da den absolutte belastning er mindre.
 
-Træningen slutter med *chin ups* og arbejde med bagkæden, fx *back extensions* eller *glute ham raise*. Rippetoe kan godt lide at man kører AMRAP for *chinups*, hvor man holder 5 minutters pause mellem sættene.
+Træningen slutter med *chin ups* og arbejde med bagkæden, fx *back extensions* eller *glute ham raise*. Rippetoe foreslår AMRAP for *chinups* med 5 minutters pause mellem sættene.
 
-## Friday: Intensitetsdag
+### Friday: Intensitetsdag
 
 1. **Squat:** opvarmning, hvorefter du arbejder dig op til et sæt med en ny 5RM
 2. **Bench Press (hvis du bænkede mandag)** eller **Overhead Press (hvis du OHP mandag)**: opvarmning, hvorefter du arbejder dig op til en ny 5RM
 3. **Power Clean** eller **Power Snatch:** 5 x 3 / 6 x 2
 
-Fredag er *intensitetsdag*, hvor du bygger oven på mandagens *volumendag* for at slå din tidligere PR eller komme tæt på. Sørg for en ordentlig specifik opvarmning. Sørg for at der er mere vægt på end om mandagen, men at du stadig kan holde en korrekt teknik.
+Fredag er *intensitetsdag*, hvor du bygger oven på mandagens *volumendag* for at slå din tidligere PR eller komme tæt på. Sørg for en ordentlig specifik opvarmning. Prøv at få mere vægt på stangen end om mandagen, men fasthold en korrekt teknik.
 
-Rippetoe anser dødløft for meget hårdt for kroppen, når man løfter meget tungt. Derfor har han valgt *power clean* eller *power snatch* til fredagen for at arbejde med eksplosivitet og power. Du kan også vælge _eksplosiv dødløft_, hvor fokus er på at flytte stangen hurtigt.
+Rippetoe anser dødløft for meget hårdt for kroppen, når du løfter tungt. Derfor har han valgt *power clean* eller *power snatch* til fredagen for at arbejde med eksplosivitet og power. Du kan også vælge _eksplosiv dødløft_, hvor fokus er på at flytte stangen hurtigt.
 
 > If you want to call yourself a lifter, you need to know how to clean and snatch, even if you don't intend to compete in Olympic weightlifting. After your warm up, do power cleans for 5 sets of 3 reps across, or power snatches for 6 doubles.
-
---- Mark Rippetoe
+> --- Mark Rippetoe
 
 Hvis du vil se Mark Rippetoe selv forklare *power cleans*, så se denne video:
 
@@ -95,6 +106,12 @@ Texas Method er et meget brugt op populært styrketræningsprogram. Når vægten
 Texas Method kan varieres på mange forskellige måder, så du kan bruge det som et overordnet skabelon for din træning. Hvis du fx vil bruge det specifikt i forhold til *powerlifting*, så skal du nok [justere balancen mellem presvarianterne og øge volumen af dødløft](https://www.powerliftingtowin.com/texas-method/).
 
 [<i class='fas fa-file-excel'></i> Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success rel="nofollow noopener" }
+
+---
+
+### Tip:
+
+Du kan prøve programmet i **[Liftosaur-appen](/liftosaur/)**. Her behøver du ikke tænke over detaljerne. Det hele bliver gjort automatisk for dig.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -1,6 +1,6 @@
 ---
-title: &title "3-split træningsprogram - træk/pres/ben"
-seo_title: "3-split program: Effektiv træning med træk/pres/ben"
+title: &title "3-split træningsprogram - træk/pres/ben (PPL)"
+seo_title: "3-split program: Effektiv træning med træk/pres/ben (PPL)"
 permalink: /3-split-push-pull/
 header:
   overlay_image: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60

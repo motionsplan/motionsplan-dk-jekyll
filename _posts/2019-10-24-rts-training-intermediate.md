@@ -16,20 +16,18 @@ tags:
   - styrketræning
 last_modified_at: 2019-10-24T23:14:14Z
 toc: true
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+meta:
+  name: RTS Intermediate Template
+  author: Mike Tuscherer
+  level: øvet
+  goal: styrkeløft
 ---
 
 Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et træningsprogram til styrkeløft, der autoregulering ved at basere programmet på RPE og _fatigue percents_.
 
 Programmet er målrettet den øvede løfter. Vi har samlet en række andre [styrketræningsprogrammer til inspiration](/styrketraeningsprogrammer/), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
+
+## Sådan bruges autoregulering i programmet
 
 Mike Tuchscherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
 {: .notice .notice--info }

@@ -1,5 +1,6 @@
 ---
-title: &title "Stærk: Bog og Styrketræningsprogram af Jacob Beermann"
+---
+title: &title "Stærk: Styrketræningsprogram af Jacob Beermann"
 permalink: /artikel/staerk-traeningsprogram/
 language: da
 header:
@@ -16,7 +17,7 @@ tags:
   - træningsprogram
 category:
   - Styrketræning
-last_modified_at: 2019-03-10T08:39:32Z
+last_modified_at: 2025-03-10T08:39:32Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: "Stærk - Jacob Beermann"
@@ -42,15 +43,11 @@ gallery_content:
     alt: "Indholdsfortegnelse til Stærk"
 ---
 
-Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
+Jacob Beermann har skrevet [bogen "Stærk"](/artikel/staerk-bog/) som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
 
 Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [træning til styrkeløft](/styrkeloeft/).
 
 {% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg" caption=page.title alt=page.title %}
-
-Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
-
-{% include gallery id="gallery" caption="_No brain. No gain._ Dette slogan bruger Jacob Beermann ofte. Træningen bliver ikke bedre, fordi den er hårdere. Planlægning gør træningen smartere. Beermann sælger også budskabet på sine [t-shirts](https://shop.maxer.dk/products/no-brain-no-gain)." %}
 
 Når du køber bogen, får du også et **træningsprogram til styrkeløft** og adgang til en **eksklusiv Facebookgruppe**, hvor læserne af bøgerne deler tips, og hvor Jacob Beermann også er aktiv med at svare på spørgsmål.
 
@@ -60,58 +57,9 @@ Stærk er en virkelig god bog til at blive klogere af, hvis du gerne vil blive s
 
 {% include gallery id="feature_row" %}
 
-## Video om Stærk
-
-{% include video provider="youtube" id="32svrapEi8Q" %}
-
-## Indholdsfortegnelse til Stærk
-
-Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du formentlig lyst til at [købe bogen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){: rel='sponsored nofollow noopener' }. Bogen og det medfølgende træningsprogram er i hvert fald alle pengene værd.
-
-1. Indledning
-2. Sådan bliver du stærk
-   - De vigtigste træningsparametre
-   - Progression og variation
-   - Øvelse gør mester
-   - Det misforståede 80/20-princip
-3. Bevægelse i et større perspektiv
-   - Din krop kan ikke noget, som den ikke må
-   - Prisen for (over)specialisering
-   - Din hjerne har et kort over alle led og bevægelser
-   - Når træningen gør ondt
-   - Placebo og nocebo
-   - Calm shit down, build shit back up
-4. Løfteteknik
-   - Hvorfor skal vi arbejde med teknik?
-   - Det er tanken, der tæller
-   - Sådan arbejder jeg med løfteteknik
-   - Find vej
-   - Opvarmning før træning
-   - Sikkerhed til træning
-   - Squat teknik
-   - Bænkpres teknik
-   - Dødløft teknik
-   - Varianter af de tre store
-5. Mental styrke
-   - Tag ansvar for dit liv
-   - Sprint eller maraton
-   - Fokusér på det du faktisk kan påvirke
-   - Jagt forbedringer
-   - Kend dig selv og dine tendenser
-   - Sæt livet i perspektiv
-6. Alt det udonom træningen
-   - Kosten er dit brændstof
-   - [Søvn](/soevn/)
-   - Alkohol
-   - [Stress]({% link _posts/2021-11-10-stress.md %})
-   - Bogens slutning er din start
-7. Træningsprogram
-
-{% include gallery id="gallery_content" caption="Indholdsfortegnelsen til [Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_epub_9788771801842){: rel='sponsored nofollow noopener' }." %}
-
 ## Principperne i Stærk styrketræningsprogrammet
 
-Der er mange måder at blive stærk på. Jeg har beskrevet et eksempel på [Reactive Training Systems]({% link _posts/2019-10-24-rts-training-intermediate.md %}) og [Texas Method]({% link _posts/2019-10-24-texas-method.md %}), men der er virkelig mange programmer og forslag til at blive stærk.
+Der er mange måder at blive stærk på. Jeg har beskrevet et eksempel på [Reactive Training Systems]({% link _posts/2019-10-24-rts-training-intermediate.md %}) og [Texas Method](/texas-method/), men der er virkelig mange programmer og forslag til at blive stærk.
 
 Jacob Beermann skruer frekvensen op ud fra **specificitetsprincippet**, fordi man bliver bedre til det, man træner. Fokus er styrkeløft, og derfor giver det god mening, at man hver dag træner de forskellige løft. I Beermanns program træner man squat, bænkpres og dødløft hver gang med forskellige variationer. Programmet findes til 3, 4 eller 5 dage.
 
@@ -237,6 +185,8 @@ Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild me
 Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts](/bedste-fitness-traening-podcasts/) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
 
 Hvis du er på udkig efter et [gratis styrketræningsprogram, så tjek vores oversigt](/styrketraeningsprogrammer/).
+
+Hvis du er mere interesseret i selve bogen, så kan du læse vores gennemgang af [bogen "Stærk" her](/artikel/staerk-bog/).
 
 ## Køb Stærk
 

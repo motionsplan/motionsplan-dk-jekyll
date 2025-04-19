@@ -124,7 +124,9 @@ Den optimale vinkel afhænger af dit mål:
 - **30-45 grader**: Større involvering af den øvre brystmuskel og forreste del af skulderen.  
 - **Over 45 grader**: Begynder at ligne en skulderpres mere end en bænkpres.  
 
-For de fleste vil **30 grader** være et godt valg, men hvis din bænk kun har faste indstillinger, så brug den nærmeste vinkel – det vigtigste er at træne, ikke perfektionere små detaljer.  
+For de fleste vil **30 grader** være et godt valg, men hvis din bænk kun har faste indstillinger, så brug den nærmeste vinkel – det vigtigste er at træne, ikke perfektionere små detaljer.
+
+{% include figure image_path="https://stronglifts.com/wp-content/uploads/incline-bench-press-angle.webp" caption="Ridao et al (2020) målte EMG fra forskellige vinkler i bænkpres. Kilde: [stronglifts.com](https://stronglifts.com/madcow-5x5/workout-guide/)" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
