@@ -55,7 +55,7 @@ Der er mange årsager til, at folk vil styrketræne. Alle årsagerne er lige god
 
 Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her](/programlaegning-styrketraening/) eller [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/).
 
-Her koncentrerer jeg mig primært om programlægning i forhold ti lat lave et godt styrketræningsprogram.
+Her koncentrerer jeg mig primært om programlægning i forhold til at lave et [godt styrketræningsprogram](/styrketraeningsprogrammer/).
 
 Vi starter med nogle grundlæggende tanker om, hvordan kroppen bliver bedre. Derefter fortsætter vi med mere specifikke råd om programlægning.
 

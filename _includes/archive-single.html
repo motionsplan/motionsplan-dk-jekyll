@@ -39,6 +39,18 @@
         <div class="icon-overlay">
           <i class="fas fa-clipboard-check" aria-hidden="true" title="Vurderingsværktøj"></i>
         </div>
+        {% elsif post.tags.last == "begynder" %}
+        <div class="icon-overlay">
+          <i class="fas fa-star" aria-hidden="true" style="color: #28a745;" title="Begynder"></i>
+        </div>
+        {% elsif post.tags.last == "øvet" %}
+        <div class="icon-overlay">
+          <i class="fas fa-star-half-alt" aria-hidden="true" style="color: #ffc107;" title="Øvet"></i>
+        </div>
+        {% elsif post.tags.last == "erfaren" %}
+        <div class="icon-overlay">
+          <i class="fas fa-star-of-david" aria-hidden="true" style="color: #dc3545;" title="Erfaren"></i>
+        </div>
         {% endif %}
       </div>
     {% endif %}

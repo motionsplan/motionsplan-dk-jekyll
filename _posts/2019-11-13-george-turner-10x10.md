@@ -16,6 +16,7 @@ tags:
   - træningsprogram
   - programanmeldelse
   - hypertrofi
+  - øvet
 last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 meta:

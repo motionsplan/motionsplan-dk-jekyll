@@ -13,9 +13,11 @@ category:
   - Styrketræningsprogrammer
 tags:
   - træningsprogram
+  - styrketræning
   - programanmeldelse
   - fullbody
   - populær
+  - øvet
 last_modified_at: 2025-03-06T23:14:14Z
 toc: true
 ---

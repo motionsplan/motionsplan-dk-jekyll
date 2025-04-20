@@ -16,6 +16,7 @@ tags:
   - træningsprogram
   - programanmeldelse
   - hypertrofi
+  - erfaren
 last_modified_at: 2023-03-06T23:14:14Z
 toc: true
 meta:

@@ -30,7 +30,7 @@ faq:
     answer: >
       Du behøver ikke skifte program ofte, så længe du stadig laver fremskridt. Mange kan følge det samme program i 8-12 uger eller længere. Skift først, når du stagnerer, mister motivationen eller har brug for at ændre fokus.
 feature_row_howto_program:
-  - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=400&w=300&q=10
     alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
     title: "Hvordan laver jeg mit eget styrketræningsprogram?"
     excerpt: "I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
@@ -94,7 +94,7 @@ Målet er at bevare din nuværende styrke og muskelmasse, ofte med vedligeholdel
 
 ### Trin 2: 🧱 Vurder dit niveau
 
-Din nuværende træningserfaring har stor betydning for, hvilket træningsprogram du bør vælge. Dit niveau hænger sammen med, hvor hurtigt du stadig kan få fremgang med træning.
+Din [nuværende træningserfaring](/styrketraening/periodisering/) har stor betydning for, hvilket træningsprogram du bør vælge. Dit niveau hænger sammen med, hvor hurtigt du stadig kan få fremgang med træning.
 
 <details markdown="1" class="faq">
   <summary>🟢 Begynder – Fremgang hver gang du træner</summary>

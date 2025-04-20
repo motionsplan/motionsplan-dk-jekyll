@@ -60,18 +60,51 @@ Når du skal vælge dit program, så husk at være ærlig over for dig selv i fo
 
 Disse effektive styrketræningsprogrammer kan hjælpe dig uanset om dit mål er styrke, muskelopbygning eller reducere din fedtprocent.
 
-Hvis du vil have nogen effekt af styrketræning, så bør du vælge et program, hvor du træner de enkelte muskelgrupper mindst to gange om ugen for at optimere effekten af træningsprogrammet.
+Du bør vælge et program, hvor du træner de enkelte muskelgrupper mindst to gange om ugen for at optimere effekten af træningsprogrammet.
 
 Det kan du gøre gennem [fullbody](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) eller [splitprogrammer](/styrketraening/split-programmer/) (hvor nogle af de populære er [2-split push pull]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}) og [et 3-split-program]({% link _posts/2021-08-16-styrke-3-split.md %})).
 
-Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split, hvis du træner rigtig meget, har ufattelig meget erfaring og gerne vil have noget variation.
+Hvis du er i tvivl om, hvad du skal vælge, så husk vores [guide til at vælge styrkeprogram](/vaelg-traeningsprogram/) for at forstå tre-trins-raketten.
+
+1. 🎯 **Definér dine mål** – Hvad vil du opnå med din træning?
+2. 🧱 **Vælg efter dit niveau** – Programmet skal matche, hvor du er lige nu.
+3. 🗓️ **Tænk din hverdag ind** – Find ud af, hvor meget tid du realistisk kan afsætte.
+
+***
+
+Det er særligt vigtigt, at du får valgt et træningsprogram, der passer til [dit nuværende træningsniveau](/styrketraening/periodisering/). Vi er flere begyndere, end man lige regner med, når du kigger på nedenstående definitioner:
+
+<details markdown="1" class="faq">
+  <summary>🟢 Begynder – Fremgang hver gang du træner</summary>
+
+Som begynder opnår du hurtigt fremgang fra træning til træning. Din krop reagerer hurtigt på træning, og du behøver ikke kompliceret planlægning. Fokus er på teknik og at få en solid base, som du kan bygge videre på.
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🟡 Øvet – Planlægning og variation for fremgang</summary>
+
+Er du sikker? Mange springer til øvet før de har udtømt mulighederne for at få fremgang på simpel lineær periodisering.
+
+Som øvet har du brug for mere struktureret træning. Du kan ikke længere bare øge vægten hver gang, du træner. I stedet er der brug for planlagt variation i volumen, intensitet og restitution over uger.
+
+</details>
+
+<details markdown="1" class="faq">
+  <summary>🔴 Erfaren – Periodisering og specialisering</summary>
+
+Som erfaren kræver din træning langsigtet planlægning og specialisering. Du vil ikke længere opnå hurtige gevinster hver uge. I stedet bygger du fremgang op over længere perioder, og din træning skal være mere specifik for at opnå dine mål.
+
+Er du sikker på, at du er så erfaren, at du har brug for så kompliceret programlægning?
+</details>
+
+***
 
 <div class="feature__wrapper">
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
+  {% for post in site_posts limit: 16 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -101,9 +134,9 @@ Så lad være med at overtænke det. **Du kan altid justere dit programvalg sene
 
 {% include feature_row id="feature_row_howto_program" type="left" %}
 
-## Lær mere om at lave dit eget styrkeprogram
+### Lær mere om at lave dit eget styrkeprogram
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% assign articles = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
 
@@ -113,6 +146,7 @@ Så lad være med at overtænke det. **Du kan altid justere dit programvalg sene
   {% endfor %}
 {% endif %}
 
+[Sådan laver du dit eget program](/traeningsprogram-programlaegning-styrketraening/){: .btn .btn--center .btn--success }
 </div>
 
 ## Flere forslag til styrketræningsprogrammer

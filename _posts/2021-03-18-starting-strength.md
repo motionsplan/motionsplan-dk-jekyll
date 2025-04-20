@@ -19,6 +19,7 @@ tags:
   - programanmeldelse
   - fullbody
   - populær
+  - begynder
 last_modified_at: 2025-03-22T08:14:14Z
 toc: true
 gallery:

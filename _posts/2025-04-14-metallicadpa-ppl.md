@@ -16,6 +16,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
+  - erfaren
 last_modified_at: 2025-01-27T22:21:26Z
 meta:
   name: Metallicadpa PPL
@@ -37,6 +38,8 @@ Programmet følger en [klassisk Push/Pull/Legs (PPL) split](/3-split-push-pull/)
 Denne opdeling giver mulighed for høj træningsfrekvens og tilstrækkelig restitution mellem muskelgrupper.
 
 ## Programstruktur
+
+{% include figure image_path="/assets/images/strengthprograms/metallicadpa-ppl.png" %}
 
 ### Ugedage og opdeling
 
