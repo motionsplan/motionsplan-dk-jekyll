@@ -459,7 +459,7 @@ Hvis du indstiller på et parameter, så skal du være opmærksom på de andre p
 
 {% include feature_row id="feature_row_fiv_triangle" type="left" %}
 
-[Prilepins tabel](/prilepins-tabel/) kan være et godt sted at få inspiration til, hvordan volumen og intensitet hænger sammen.
+[Prilepin](/prilepins-tabel/) har udviklet en tabel over det optimale antal reps og sæt i en træning baseret på vægtløftere. Tabellen passer naturligvis ikke på alle, men det kan være et godt udgangspunkt i træningsplanlægningen i begyndelsen.
 
 | Procent af 1RM | Reps pr. sæt | Optimalt i alt | Total interval |
 |-|-|-|-|
@@ -469,6 +469,14 @@ Hvis du indstiller på et parameter, så skal du være opmærksom på de andre p
 | 90+% | 1-2 | 4 | 4-10 |
 
 Tabellen er ganske vist udviklet for vægtløftere, som er en meget eksplosiv idrætsgren. Men for at udvikle styrke kan det formentlig godt inspirere, at man ikke altid behøver at løft til maksimal udmattelse.
+
+Når træningen er i gang, skal træningsplanen naturligvis tage udgangspunkt i den enkelte løfter.
+
+{% include video provider="youtube" id="vMFeD1ziHAE" %}
+
+Du kan også lære lidt mere om reps, sæt og pauser i træningen i denne video:
+
+{% include video provider="youtube" id="WxDaaFVXFyU" %}
 
 Fordele og ulemper ved frekvens, intensitet og volumen:
 

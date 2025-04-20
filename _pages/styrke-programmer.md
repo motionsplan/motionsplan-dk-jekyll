@@ -85,7 +85,17 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 ## Hvilket træningsprogram skal jeg vælge?
 
-Det kan være vanskeligt at vælge det rette træningsprogram, fordi der er så mange. Tjek vores [guide til at vælge det rette styrketræningsprogram](/vaelg-traeningsprogram/). Hvis du er i tvivl om de enkelte programmer, så kan du også læse [vores vurdering af de mest populære træningsprogrammer](/anmeldelse-traeningsprogrammer/).
+Det kan være vanskeligt at vælge det rette træningsprogram, fordi der er så mange valgmuligheder.
+
+Heldigvis er der gode nyheder: **Det vigtigste er, at du vælger et program, der motiverer dig, så du får trænet.**
+
+Der findes ikke det "perfekte" program, men der sker noget magisk i systematisk træning. Det er **vedholdenhed** – uge efter uge - med passende belastning og volumen, der skaber resultaterne.
+
+Så lad være med at overtænke det. **Du kan altid justere dit programvalg senere.**
+
+📋 Vi har samlet [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/), så du hurtigt kan finde et, der passer til dine behov.
+
+➡️ Ikke helt klar til at vælge? Få hjælp i vores [styrkeprogramvælger](/vaelg-traeningsprogram/).
 
 ## Sådan laver du et styrketræningsprogram selv
 

@@ -16,25 +16,55 @@ tags:
   - guide
 last_modified_at: 2025-03-16T10:14:14Z
 toc: true
+faq:
+  - question: Hvor mange gange om ugen skal jeg træne?
+    answer: >
+      Det kommer an på dit niveau og dine mål. Begyndere kan få gode resultater med 2-3 træninger om ugen, mens øvede ofte træner 3-5 gange om ugen. Det vigtigste er, at du kan restituere mellem træningerne og holde kontinuiteten.
+  - question: Hvor mange sæt og gentagelser giver bedst resultater?
+    answer: >
+      Det afhænger af, hvad du vil opnå. Generelt anbefales 3-5 sæt pr. øvelse. For muskelopbygning (hypertrofi) er 6-12 gentagelser effektivt. For styrke ligger man typisk lavere, omkring 3-6 gentagelser med tungere vægte. For udholdenhed kan 12+ gentagelser bruges.
+  - question: Hvilke øvelser bør jeg vælge?
+    answer: >
+      Fokusér på basisøvelser, der træner flere muskelgrupper ad gangen – f.eks. squat, dødløft, bænkpres, rows og overhead press. De kan suppleres med isolationsøvelser, hvis du har særlige mål eller ønsker mere variation.
+  - question: Hvor tit skal jeg skifte program?
+    answer: >
+      Du behøver ikke skifte program ofte, så længe du stadig laver fremskridt. Mange kan følge det samme program i 8-12 uger eller længere. Skift først, når du stagnerer, mister motivationen eller har brug for at ændre fokus.
+feature_row_howto_program:
+  - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
+    title: "Hvordan laver jeg mit eget styrketræningsprogram?"
+    excerpt: "I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
+    url: "/traeningsprogram-programlaegning-styrketraening/"
+    btn_label: "Lav dit eget program"
+    btn_class: "btn--info"
 ---
 
-Er du i tvivl om, hvilket styrketræningsprogram der passer til dig? Denne guide hjælper dig med at vælge det rette program baseret på dine mål, erfaring og træningsmuligheder.
+Er du i tvivl om, hvilket styrketræningsprogram der passer bedst til dig? I denne guide hjælper jeg dig med at finde det rette program – uanset om dit mål er at blive stærkere, få mere muskelmasse eller komme godt i gang som nybegynder.
 
-Du har sikkert mange spørgsmål.
+Måske sidder du med spørgsmål som:
 
-Hvor mange gange om ugen skal man træne? Hvor mange gentagelser og sæt giver den rigtige fremgang? Hvilke øvelser skal man vælge? Hvor ofte skal mann skifte program?
+- Hvor mange gange om ugen skal jeg træne?
+- Hvilken type program passer godt til mit niveau?
 
-Her har jeg samlet en oversigt over programmer, så du kan få et overblik over, hvilket program du skal vælge. Du kan også se en [samlet liste over alle vores styrkeprogrammer](/styrketraeningsprogrammer/).
+Her får du en oversigt over en række velafprøvede programmer, så du kan finde et, der matcher dine behov. Du kan også gå direkte til den [komplette liste over alle vores styrkeprogrammer](/styrketraeningsprogrammer/).
+
+**Vil du heller lave dit eget program?** Tjek vores [guide til programlægning](/traeningsprogram-programlaegning-styrketraening/).
 
 ***
 
 ## Sådan vælger du dit træningsprogram
 
-Når du skal vælge dit træningsprogram, så skal du altså sørge for først og fremmest at gøre dig dine mål klart. Et træningsprogram skal passe til dit nuværende niveau for at give det bedste resultater. Du skal naturligvis også kigge på din hverdag og se, hvordan træningen passer ind. Hvis du kan få tid til 3 ugentlige træninger, så kan du få en rigtig stor effekt af din træning.
+For at få mest muligt ud af din træning, er det vigtigt at vælge et program, der passer til dine mål, dit niveau og din hverdag. Her er de vigtigste trin, du bør tage:
+
+**Trin for trin**:
+
+1. 🎯 **Definér dine mål** – Hvad vil du opnå med din træning?
+2. 🧱 **Vælg efter dit niveau** – Programmet skal matche, hvor du er lige nu.
+3. 🗓️ **Tænk din hverdag ind** – Find ud af, hvor meget tid du realistisk kan afsætte.
 
 ***
 
-### Trin 1: Definer dit mål - Vælg træningsretning
+### Trin 1: 🎯 Definer dit mål - Vælg træningsretning
 
 <details markdown="1" class="faq">
   <summary>🏋️‍♂️ Styrke</summary>
@@ -62,7 +92,7 @@ Målet er at bevare din nuværende styrke og muskelmasse, ofte med vedligeholdel
 
 ***
 
-### Trin 2: Vurder dit niveau
+### Trin 2: 🧱 Vurder dit niveau
 
 Din nuværende træningserfaring har stor betydning for, hvilket træningsprogram du bør vælge. Dit niveau hænger sammen med, hvor hurtigt du stadig kan få fremgang med træning.
 
@@ -128,7 +158,7 @@ Er du sikker på, at du er så erfaren, at du har brug for så kompliceret progr
 
 ***
 
-### Trin 3: Bestem din træningsfrekvens
+### Trin 3: 🗓️ Bestem din træningsfrekvens
 
 Når du skal vælge et program, så er et af de vigtige parametre, hvor mange gange om ugen du gerne vil træne. Men husk at det ikke nødvendigvis giver bedre resultater at træne flere gange om ugen.
 
@@ -207,15 +237,42 @@ Hvis du ikke har adgang til udstyr eller et fitnesscenter, så tjek vores [udfø
 
 ***
 
-## Konklusion
+## Lav dit eget program
 
-Du behøver ikke være så bange for, hvilket træningsprogram du vælger. Du skal bare sørge for, at det er et motiverende program, du har tid til at lave. Fremgang i træningen kommer i første omgang ved at være vedholdende og træne uge efter uge med en passende vægt på stangen udført et passende antal gange.
+Jeg synes, at det kan være godt at afprøve forskellige træningsprogrammer på egen krop, før man prøver at lave sit eget program. Men det er naturligvis rigtig sjovt at lave sit eget eget styrketræningsprogram for at se, hvordan det virker. 
 
-Langt de fleste får en god effekt af at sørge for at vælge et enkelt program i stedet for et kompliceret program. Jeg har skrevet [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/).
+Ved at prøve nogle af de [populære styrketræningsprogrammer](/styrketraeningsprogrammer/), så får du inspiration og viden om, hvilke parametre, du kan stille på for at lave et godt program.
+
+{% include feature_row type="left" id="feature_row_howto_program" %}
+
+***
+
+## Sådan vælger du det rigtige program – uden at overkomplicere det
+
+Er du i tvivl om, hvilket styrketræningsprogram du skal vælge? Så er der gode nyheder: **Det vigtigste er, at du vælger et program, du har lyst til at følge – og som passer til din hverdag.**
+
+👉 Det er ikke det "perfekte" program, der giver resultater. Det er **vedholdenhed** – uge efter uge, med passende belastning og volumen.
+
+**Kom godt i gang:**
+
+- Vælg **et simpelt program** – det er langt lettere at holde fast i.
+- Sørg for, at det matcher dit niveau og din tid.
+- Lad være med at overtænke det. Du kan altid justere senere.
+
+📋 Vi har samlet [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/), så du hurtigt kan finde et, der passer til dine behov.
+
+➡️ Klar til at vælge? Gå til [oversigten over programmer](/styrketraeningsprogrammer/).
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
 - Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Effects of resistance training frequency on measures of muscle hypertrophy: a systematic review and meta-analysis. Sports Medicine, 46(11), 1689-1697.
 - Ochi, E., Maruo, M., Tsuchiya, Y., Ishii, N., Miura, K., & Sasaki, K. (2018). Higher training frequency is important for gaining muscular strength under volume-matched training. Frontiers in Physiology, 9.
+- Schoenfeld, B. J. (2010). The mechanisms of muscle hypertrophy and their application to resistance training. The Journal of Strength & Conditioning Research, 24(10), 2857-2872.
+- Schoenfeld, B. J., Grgic, J., & Krieger, J. (2019). How many times per week should a muscle be trained to maximize muscle hypertrophy? A systematic review and meta-analysis of studies examining the effects of resistance training frequency. Journal of Sports Sciences, 37(11), 1286–1295.
+- Grgic, J., Schoenfeld, B. J., Davies, T. B., Lazinica, B., Krieger, J. W., & Pedisic, Z. (2018). Effect of Resistance Training Frequency on Gains in Muscular Strength: A Systematic Review and Meta-Analysis. Sports Medicine (Auckland, N.Z.), 48(5), 1207–1220.
 </details>
