@@ -2,7 +2,7 @@
 title: &title "Guide til pulszoner: Find den bedste metode for dig"
 seo_title: "3 metoder til at beregne dine personlige pulszoner"
 excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
-description: "Lær hvordan du beregner dine pulszoner med tre forskellige metoder: maksimal puls, pulsreserve og anaerob tærskel. Vælg den rette metode til din træning og optimer dine resultater."
+description: "Lær hvordan du beregner dine pulszoner med forskellige metoder: maksimal puls, pulsreserve og anaerob tærskel. Vælg den rette metode til din træning"
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:
   - /puls-intensitet/
@@ -18,6 +18,8 @@ tags:
   - kondition
   - træning
   - intensitet
+  - træningsplanlægning
+  - programlægning
   - puls
   - løb
 last_modified_at: 2025-02-08T23:14:14Z

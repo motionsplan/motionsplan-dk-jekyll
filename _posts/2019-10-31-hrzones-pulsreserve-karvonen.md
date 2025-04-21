@@ -15,9 +15,9 @@ tags:
   - beregner
   - kondition
   - træning
-  - intensitet
   - puls
-  - beregner
+  - programlægning
+  - træningsplanlægning
   - pulszoneberegner
   - løb
 last_modified_at: 2025-02-06T23:14:14Z

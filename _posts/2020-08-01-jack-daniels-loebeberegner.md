@@ -1,5 +1,5 @@
 ---
-title: "Løbsberegner: Beregn løbetempo med Jack Daniels Running Formula"
+title: "Løbsberegner: Beregn løbetempo med Jack Daniels løbeberegner"
 seo_title: "Løbsberegner: Beregn løbetider for træning og konkurrence"
 excerpt: "Har du brug for at få udregnet din løbehastighed og løbepace? I denne løbsberegner kan du beregne dit løbepace, dit træningstempo og dine konkurrencetider ud fra Jack Daniels Running Formula."
 permalink: /loebesiden-jack-daniels-loebeberegner/
@@ -14,7 +14,10 @@ tags:
   - beregner
   - kondition
   - løbeberegner
+  - programlægning
   - løb
+  - featured
+  - populær
 meta:
   name: Jack Daniels formel til beregning af løbetider
   equipment: ingen

@@ -52,6 +52,22 @@ feature_row_anatomi:
     url: "/muskler/"
     btn_label: "Prøv den"
     btn_class: "btn--danger"
+feature_row_principles:
+  - image_path: https://images.unsplash.com/photo-1541757088-1c919081357f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=60
+    alt: "Træningsprincipper"
+    title: "Træningsprincipper"
+    excerpt: "Bliv klogere på de vigtigste træningsprincipper, som du kan vurdere god træning efter. Specificitet, progression, håndtering af træthed er nogle af de vigtigste."
+    url: "/traeningsprincipper/"
+    btn_label: "10 træningsprincipper"
+    btn_class: "btn--info"
+feature_row_planning:
+  - image_path: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300&q=60
+    alt: "Træningsplanlægning"
+    title: "Træningsplanlægning"
+    excerpt: "Vil du gerne lave dine egne træningsprogrammer, så tjek vores guide til træningsplanlægning og programlægning. Du får konkrete råd til, hvordan du kommer videre med din egen planlægning."
+    url: "/traeningsplanlaegning/"
+    btn_label: "Lær om træningsplanlægning"
+    btn_class: "btn--info"
 breadcrumbs: true
 classes: wide
 feature_row_biomekanik:
@@ -82,9 +98,17 @@ Træningslære er fundamentet for at forstå, hvordan kroppen reagerer på træn
 
 Denne guide giver dig et indblik i, hvordan musklerne arbejder, hvordan restitution fungerer, og hvordan du kan anvende træningsteorier i praksis for at opbygge en stærk og sund krop. Uanset om du er begynder eller erfaren, er træningslære en vigtig del af din træningsrejse.
 
+## Sådan laver du din egen træningsplanlægning
+
+{% include feature_row id="feature_row_planning" type="left" %}
+
+## 10 principper i træningslæren
+
+{% include feature_row id="feature_row_principles" type="left" %}
+
 ## Artikler om træningslære
 
-{% assign site_posts = site.posts | where: "tags", "træningslære" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "træningslære" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 
@@ -96,35 +120,7 @@ Denne guide giver dig et indblik i, hvordan musklerne arbejder, hvordan restitut
 
 </div>
 
-## Emner om træningslære og træningsteori
-
-<details markdown="1" class="faq">
-  <summary><h3 id="traeningslaere">📖 Træningslære</h3></summary>
-
-Træningslære er læren om de forhold, der er afgørende for, hvorfor og hvordan man bør
-træne i forskellige situationer. Træningslæren skal give retningslinjer for, hvordan man
-kan påvirke og udvikle en motionists egenskaber i gunstig retning.
-
-Det handler bl.a. om disse emner:
-
-- Opvarmning
-- Træning
-- Stræk og cool-down
-
-Se vores artikler om træningslære:
-
-{% assign site_posts = site.posts | where: "tags", "træningslære" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-</details>
+## Emner inden for træningslæren
 
 <details markdown="1" class="faq">
   <summary><h3 id="fysiologi">🧬 Fysiologi</h3></summary>
@@ -162,6 +158,10 @@ Kroppens bevægelser påvirkes af både muskelkræfter og de mekaniske forhold m
 På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv som en tændstikmand, mens du er i gang med at løfte et af dine favoritløft.
 
 {% include feature_row id="feature_row_biomekanik" %}
+
+## Anatomi - prøv vores muskeloversigt
+
+{% include feature_row id="feature_row_anatomi" type="left" %}
 
 ## Optimer din træning
 

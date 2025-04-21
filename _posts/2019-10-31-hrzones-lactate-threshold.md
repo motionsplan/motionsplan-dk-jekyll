@@ -18,6 +18,8 @@ tags:
   - intensitet
   - puls
   - løb
+  - programlægning
+  - træningsplanlægning
   - pulszoneberegner
 last_modified_at: 2025-02-06T23:14:14Z
 toc: true

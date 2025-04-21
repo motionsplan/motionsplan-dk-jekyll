@@ -89,6 +89,14 @@ feature_row_okklusion:
     btn_class: "btn--info"
 classes: wide
 last_modified_at: 2025-02-20T19:14:14Z
+feature_row_principles:
+  - image_path: https://images.unsplash.com/photo-1541757088-1c919081357f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=60
+    alt: "Træningsprincipper"
+    title: "Træningsprincipper"
+    excerpt: "Bliv klogere på de vigtigste træningsprincipper, som du kan vurdere god træning efter. Specificitet, progression, håndtering af træthed er nogle af de vigtigste."
+    url: "/traeningsprincipper/"
+    btn_label: "10 træningsprincipper"
+    btn_class: "btn--info"
 ---
 
 En god træningsplan sikrer, at du får det maksimale ud af din træning – uanset om du styrketræner, løber eller cykler. Ved at planlægge din træning strategisk kan du opnå bedre resultater, mindske risikoen for skader og fastholde motivationen.
@@ -108,6 +116,10 @@ I denne guide gennemgår vi de vigtigste principper for træningsplanlægning, h
 {% endif %}
 
 </div>
+
+## Træningsprincipper
+
+{% include feature_row id="feature_row_principles" type="left" %}
 
 {% comment %}
 
@@ -143,7 +155,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
@@ -151,11 +163,12 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
   {% endfor %}
 {% endif %}
 
+[Sådan laver du dit eget styrketræningsprogram](/traeningsprogram-programlaegning-styrketraening/){: .btn .btn--center .btn--success }
 </div>
 
 ## Beregnere til træningsplanlægning
 
-{% assign site_posts = site.posts | where: "tags", "programlægning" | where: "tags", "beregner" | where: "tags", "beregner" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "tags", "programlægning" | where: "tags", "beregner" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper">
 

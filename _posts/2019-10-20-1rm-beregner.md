@@ -26,6 +26,7 @@ tags:
   - beregner
   - styrketræning
   - træningsplanlægning
+  - programlægning
   - spreadsheet
 meta:
   name: RM-beregner til styrketræning

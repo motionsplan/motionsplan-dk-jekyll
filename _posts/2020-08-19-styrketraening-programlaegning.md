@@ -15,6 +15,7 @@ category:
   - Styrketræning
 tags:
   - programlægning
+  - træningsplanlægning
   - styrketræning
   - begynder
   - guide
