@@ -88,7 +88,7 @@ Tjek A-puls.dk ud. Også for at se deres andet sortiment.
 
 Intersport er verdens største sportskæde med næsten 6000 butikker i mere end 45 lande. Hos Intersport kan du finde alt til din træning for hele familien. Løb, svømning, yoga, fodbold, håndbold, cykling, gymnastik, og vi kunne blive ved.
 
-Intersport samarbejder med de velkendte brands som adidas, NIKE, hummel, reebok, PUMA m.fl., men de udvikler og sælger også en række egne mærker. F.eks. ENERGETICS, PRO TOUCH, Firefly, Tecno Pro og McKINLEY, som i dag er Europas største outdoor brand.
+Intersport samarbejder med de velkendte brands som adidas, NIKE, hummel, reebok, PUMA m.fl., men de udvikler og sælger også en række egne mærker. fx ENERGETICS, PRO TOUCH, Firefly, Tecno Pro og McKINLEY, som i dag er Europas største outdoor brand.
 
 - Fri fragt over 399 og fri returet
 - Landsdækkende byttegaranti i alle butikker

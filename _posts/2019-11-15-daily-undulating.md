@@ -58,7 +58,7 @@ Du kan også køre suppleringsøvelser, hvis du har brug for en ekstra træning.
 
 Her er en lille variation af programmet, som du kan prøve direkte i [Liftosaur](/liftosaur/).
 
-{% include figure image_path="/assets/images/blog/daily-undulating-periodization.png" caption="Sådan her kunne det se ud i praksis med progression skrevet ind. Billedet er genereret i Liftosaur." %}
+{% include figure image_path="/assets/images/strengthprograms/daily-undulating-periodization.png" caption="Sådan her kunne det se ud i praksis med progression skrevet ind. Billedet er genereret i Liftosaur." %}
 
 <details markdown="1" class="faq">
   <summary>🦖 Liftosaur program</summary>
@@ -93,7 +93,7 @@ DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en [deload uge](
 
 ## Populære eksempler på styrkeprogrammer med DUP
 
-Et meget kendt og berømt program, der bruger forskellige intensiteter fra dat til dag er [Smolov Jr.-programmet](/smolov-jr-beregner/). Det kan både udføres som progression på din bænkpres (hvor det er meget berømt) eller på squat (hvis du er klar til til noget af en oplevelse).
+Et meget kendt og berømt program, der bruger forskellige intensiteter fra dag til dag er [Smolov Jr.-programmet](/smolov-jr-beregner/). Det kan både udføres som progression på din bænkpres (hvor det er meget berømt) eller på squat (hvis du er klar til til noget af en oplevelse).
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

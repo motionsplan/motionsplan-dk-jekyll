@@ -39,7 +39,7 @@ faq:
       og intensitet uden at kræve øget frekvens. Det giver også større fleksibilitet med træningsdage og assistanceøvelser.
   - question: Hvor mange gange om ugen skal jeg træne?
     answer: >
-      Typisk træner man 3 gange om ugen med skiftende A- og B-pas (f.eks. ABA / BAB), men det kan tilpasses efter behov. 
+      Typisk træner man 3 gange om ugen med skiftende A- og B-pas (fx ABA / BAB), men det kan tilpasses efter behov. 
       Det er vigtigt at have en hviledag mellem træningsdage for optimal restitution.
   - question: Hvornår skal jeg øge vægten?
     answer: >

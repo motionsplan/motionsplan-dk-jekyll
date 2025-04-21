@@ -173,7 +173,7 @@ For at udføre en blodlaktattest korrekt skal du tage prøver under opvarmningen
 - Følg samme protokol ved gentagne tests for sammenlignelige resultater.
 - Tag en hvilelaktatmåling før testen starter.
 - Forhøjet hvilelaktat (over 2–2,5mMol/L) kan indikere:
-  - Øget glykolytisk aktivitet (f.eks. pga. sukkerindtag før testen).
+  - Øget glykolytisk aktivitet (fx pga. sukkerindtag før testen).
   - Dårlig fedtmetabolisme, hvilket kan kræve ændringer i træning eller kost.
   - Det er nyttigt at kende hvilelaktatniveauet, da det giver indsigt i din metaboliske tilstand.
 

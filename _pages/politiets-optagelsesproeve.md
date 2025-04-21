@@ -113,7 +113,7 @@ Testen foregår typisk både indendørs og udendørs. Det er godt at have fornuf
 
 Uanset om du er mand eller kvinde, så bør forberedelserne være nogenlunde ens. Du skal naturligvis sørge for at træne specifikt til netop de fysiske krav og øvelser, du kommer ud for i selve prøven.
 
-Når du træner op til prøverne, så husk følgende træningsprincipper:
+Når du træner op til prøverne, så husk følgende [træningsprincipper](/traeningsprincipper/):
 
 - Princippet om **progressivt overload**. Byg langsomt mere og mere på din træning og lav en fornuftig plan. Du skal ikke starte din træning med det du gerne vil opnå, men bygge op til dine mål.
 - Princippet om **specificitet**. Du bliver god til det du træner. Hvis du gerne vil blive bedre på længdespringet og 2400-meter-testen, så skal du træne de discipliner. Det kommer ikke af sig selv ved at lave bænkpres.

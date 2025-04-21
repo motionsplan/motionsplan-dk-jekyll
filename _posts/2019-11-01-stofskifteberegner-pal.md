@@ -127,7 +127,7 @@ Du kan derefter gange din [PAL med din BMR for at få dit faktiske energibehov](
 Det afhænger af, hvor præcis du vil være – og hvor meget tid du vil bruge.
 
 - **Vælg den hurtige metode**, hvis du bare vil have et godt estimat og ikke har tid eller lyst til at registrere dagens aktiviteter. Det er ofte tilstrækkeligt til daglig brug og giver dig en brugbar PAL-værdi baseret på livsstil og aktivitetsniveau.
-- **Vælg den detaljerede MET-beregning**, hvis du gerne vil være mere præcis – f.eks. fordi du arbejder med sport og ernæring, laver en plan for vægttab eller har et specifikt træningsmål. Den tager udgangspunkt i din faktiske dag og giver dig et personligt og datadrevet resultat.
+- **Vælg den detaljerede MET-beregning**, hvis du gerne vil være mere præcis – fx fordi du arbejder med sport og ernæring, laver en plan for vægttab eller har et specifikt træningsmål. Den tager udgangspunkt i din faktiske dag og giver dig et personligt og datadrevet resultat.
 - **Vælg den manuelle metode**, hvis du vil nørde igennem og beregne alt selv. Den giver fuld kontrol og forståelse, men kræver, at du sætter tid af til at udregne forbrænding pr. aktivitet.
 
 Uanset hvilken metode du vælger, er det vigtigste, at du bruger den aktivt i din planlægning – og forstår, hvad tallet betyder.
@@ -137,7 +137,7 @@ Uanset hvilken metode du vælger, er det vigtigste, at du bruger den aktivt i di
 - Vær ærlig om dit aktivitetsniveau – overvurdering er almindeligt.
 - Brug MET-beregningen, hvis du har en varieret hverdag, skiftende vagter eller kombinerer fysisk og stillesiddende arbejde.
 - Brug tabelmetoden, hvis du har en stabil hverdag og bare har brug for et hurtigt overblik.
-- Justér din PAL, hvis du ændrer livsstil, f.eks. begynder på nyt træningsprogram, får et fysisk job eller bliver mindre aktiv.
+- Justér din PAL, hvis du ændrer livsstil, fx begynder på nyt træningsprogram, får et fysisk job eller bliver mindre aktiv.
 - Brug resultaterne sammen med din [beregning af hvilestofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) for at finde dit samlede energibehov – og dermed det bedste udgangspunkt for kost, vægtregulering eller præstation.
 
 ***

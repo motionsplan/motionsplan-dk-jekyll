@@ -152,7 +152,7 @@ Uden restitution ender du på skadeslisten i stedet.
 
 Endelig så skal du også lave din **træning**. Dit løbeprogram er planen, og din motivation til at lave løbetræningen sikrer, at du får udført løbeprogrammet.
 
-**Verdens bedste løbetræning er det program, som kender træningsprincipperne og princippet om progressivt overload**.
+**Verdens bedste løbetræning er det program, som kender træningsprincipperne og princippet om progressivt load**.
 
 For at få den bedst mulige oplevelse af din løbetræning, så har du brug for alle tre elementer. Ingen af elementerne kan stå alene.
 

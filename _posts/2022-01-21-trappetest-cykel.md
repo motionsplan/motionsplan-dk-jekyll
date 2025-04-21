@@ -128,7 +128,7 @@ FØLGENDER ER IKKE SAMME PROTOKOL
 
 Det er vigtigt, at du kører testen på nøjagtig samme måde hver gang. Det gør testresultaterne sammenlignelige.
 
-Protokollen er at lægge ud f.eks. ved 50% FTP og holde det i 1 minut. Det næste minut køres 20 watt højere, og sådan forsættes indtil udmattelse. Er du på Zwift, finder du en trappetest i workout mode under FTP tests. Testen hedder Ramp test.
+Protokollen er at lægge ud fx ved 50% FTP og holde det i 1 minut. Det næste minut køres 20 watt højere, og sådan forsættes indtil udmattelse. Er du på Zwift, finder du en trappetest i workout mode under FTP tests. Testen hedder Ramp test.
 
 Det er vigtigt, at du lægger ud ved en relativ beskeden intensitet på 50% FTP eller lavere. Hvis du lægger ud med for høj intensitet, vil du ikke performe optimalt. Du får det bedste resultat, når testen forløber sådan, at du opholder dig nogle minutter i alle pulszoner fra zone 2 og opefter.
 

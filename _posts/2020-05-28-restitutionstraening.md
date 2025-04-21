@@ -59,7 +59,7 @@ Man kan forestille sig mange måder at tilrettelægge sin restitutionstræning p
 
 Eksempler på restitutionstræning inkluderer:
 
-- Aerob træning med meget lav intensitet (f.eks. 20–40 % af VO₂max)
+- Aerob træning med meget lav intensitet (fx 20–40 % af VO₂max)
 - Let cykling, svømning eller gang
 - Dynamisk mobilitetstræning og skånsom udspænding
 - Tekniktræning med lav vægt eller modstand

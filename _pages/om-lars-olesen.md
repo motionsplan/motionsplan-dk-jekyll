@@ -23,7 +23,7 @@ Gennem mange års undervisning er jeg kommet til at holde af en enkel tilgang ti
 
 Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser jeg på [Vejle Idrætshøjskole](https://www.vih.dk/) i styrketræning, ernæring, løb samt test & træning. Derudover er jeg aktiv i uddannelsen af fitnessinstruktører gennem DGI og DIF’s Foreningsfitness.  
 
-Jeg har specialiseret mig i at omsætte videnskabelig viden til praktisk anvendelige træningsprincipper. Mit arbejde omfatter:  
+Jeg har specialiseret mig i at omsætte videnskabelig viden til [praktisk anvendelige træningsprincipper](/traeningsprincipper/). Mit arbejde omfatter:  
 
 - **Udvikling af træningsprogrammer** – Design af effektive træningsforløb til både motionister og eliteudøvere.  
 - **Ernæring og præstationsoptimering** – Vejledning i, hvordan kost og træning spiller sammen for at maksimere resultater.  

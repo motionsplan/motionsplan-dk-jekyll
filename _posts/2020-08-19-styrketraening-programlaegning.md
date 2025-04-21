@@ -215,7 +215,7 @@ Det kan du blive klogere på ved at læse videre i guiden.
 
 ## Grundlæggende træningsprincipper
 
-Her kan du blive klogere på de allervigtigeste træningsprincipper.
+Her kan du blive klogere på de [allervigtigeste træningsprincipper til styrketræning](/styrketraening/traeningslaere/).
 
 <details markdown="1" class="faq">
   <summary>Specific Adaptions to Imposed Demands (SAID) - Træn specifikt</summary>

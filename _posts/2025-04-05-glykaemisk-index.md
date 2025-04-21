@@ -71,7 +71,7 @@ GI er særligt relevant for personer med **type 2-diabetes** eller **insulinresi
 
 For raske personer er det sjældent nødvendigt at tænke i GI til dagligt. En sund kost baseret på varierede og uforarbejdede fødevarer vil som regel automatisk indeholde mange lav-GI-elementer.
 
-Vigtigt: GI siger ikke noget om, hvor sund en fødevare er samlet set. For eksempel har slik og chips ofte højt GI, men også hvidt brød, som mange ellers forbinder med almindelig kost. Omvendt kan en fødevare med lavt GI godt være fedtholdig og energitæt, som f.eks. nødder og mayonnaise.
+Vigtigt: GI siger ikke noget om, hvor sund en fødevare er samlet set. For eksempel har slik og chips ofte højt GI, men også hvidt brød, som mange ellers forbinder med almindelig kost. Omvendt kan en fødevare med lavt GI godt være fedtholdig og energitæt, som fx nødder og mayonnaise.
 
 ## Glykæmisk load: Et bedre billede af hele måltidet
 

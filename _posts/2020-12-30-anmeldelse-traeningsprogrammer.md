@@ -74,9 +74,11 @@ Jeg synes, det er en god idé at afprøve et færdigt program, før du laver dit
 
 ## De bedste styrketræningsprogrammer
 
-{% include feature_row id="feature_row_programs" %}
+Vi har kun valgt [gode styrketræningsprogrammer](/styrketraeningsprogrammer/), så vi vælger mellem "godt, bedre og bedst". Og på denne skala skal du også tage højde for dine mål, dit niveau og din tid, inden du kan [vælge et passende styrkeprogram](/vaelg-traeningsprogram/).
 
-Du kan tjekke [alle de gratis styrketræningsprogrammer her](/styrketraeningsprogrammer/), eller du kan tjekke vores [guide til at vælge styrkeprogram](/vaelg-traeningsprogram/).
+Her har du en genvej, inden du kan læse om alle programmerne.
+
+{% include feature_row id="feature_row_programs" %}
 
 ## Anmeldelser af træningsprogrammer og styrketræningsprogrammer
 
@@ -161,18 +163,6 @@ Stil dig selv følgende spørgsmål for dit styrketræningsprogram:
 - **Betyder det noget, at jeg holder en pause?** Ja, det betyder meget. Allerede efter [14 dage uden træning går din muskelstyrke væsentligt ned](/atrofi-muskelmasse-muskelstyrke/). Men hvis du alligevel holder 14 dage, så betyder det ikke så meget mere, om du holder en måneds pause. Til gengæld kan du fastholde din nyvundne styrke ved bare et træningspas om ugen i flere måneder.
 
 Eric Helms har lavet et par rigtig gode videoer, som du kan tage udgangspunkt i, hvis du gerne vil vide mere om, hvordan alle parametrene hænger sammen i [træningspyramiden](/traeningspyramiden-styrketraening/). Læg mærke til at det allervigtigste punkt er _adherence_. At man rent faktisk laver træningen - og det er klart mest motiverende, når programmet virker godt. 
-
-## Helkropsprogram eller splitprogram
-
-Selv avancerede løftere kan træne helkropsprogrammer hver gang, men det handler om at programmere det rigtigt, så du kan restituere mellem træningerne. Jeg har skrevet mere om, [hvordan du vælger mellem helkropsprogram og splitprogrammer her]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
-
-Du kan grundlæggende fx vælge mellem følgende programtyper:
-
-- **Helkropsprogram**
-- **Full body split**
-- **Upper vs lower split**
-- **Push vs pull split**
-- **[Push vs pull split next generation](https://web.archive.org/web/20240302185921/https://www.t-nation.com/training/push-pull-training-the-next-generation/){: rel="nofollow" }**
 
 ## Progression
 

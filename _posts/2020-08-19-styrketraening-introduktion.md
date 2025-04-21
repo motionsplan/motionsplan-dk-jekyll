@@ -237,7 +237,7 @@ For dem der ønsker at få pulsen op og træne med høj intensitet, er tri- elle
 
 <details markdown="1" class="faq">
   <summary>🤔 Cheat (snyd)</summary>
-  <p>Cheat-metoden bruges til at udnytte momentum, f.eks. ved at bruge benene eller kroppen til at hjælpe med at løfte tungere vægte eller tage flere gentagelser i øvelser, der er svære at øge vægten i. Dette kan være nyttigt i øvelser som bent over rows eller lateral raise, hvor der er stor forskel mellem vægtene.</p>
+  <p>Cheat-metoden bruges til at udnytte momentum, fx ved at bruge benene eller kroppen til at hjælpe med at løfte tungere vægte eller tage flere gentagelser i øvelser, der er svære at øge vægten i. Dette kan være nyttigt i øvelser som bent over rows eller lateral raise, hvor der er stor forskel mellem vægtene.</p>
 </details>
 
 <details markdown="1" class="faq">

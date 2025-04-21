@@ -25,7 +25,7 @@ faq:
       Det afhænger af, hvad du vil opnå. Generelt anbefales 3-5 sæt pr. øvelse. For muskelopbygning (hypertrofi) er 6-12 gentagelser effektivt. For styrke ligger man typisk lavere, omkring 3-6 gentagelser med tungere vægte. For udholdenhed kan 12+ gentagelser bruges.
   - question: Hvilke øvelser bør jeg vælge?
     answer: >
-      Fokusér på basisøvelser, der træner flere muskelgrupper ad gangen – f.eks. squat, dødløft, bænkpres, rows og overhead press. De kan suppleres med isolationsøvelser, hvis du har særlige mål eller ønsker mere variation.
+      Fokusér på basisøvelser, der træner flere muskelgrupper ad gangen – fx squat, dødløft, bænkpres, rows og overhead press. De kan suppleres med isolationsøvelser, hvis du har særlige mål eller ønsker mere variation.
   - question: Hvor tit skal jeg skifte program?
     answer: >
       Du behøver ikke skifte program ofte, så længe du stadig laver fremskridt. Mange kan følge det samme program i 8-12 uger eller længere. Skift først, når du stagnerer, mister motivationen eller har brug for at ændre fokus.
@@ -110,7 +110,7 @@ Som begynder opnår du hurtigt fremgang fra træning til træning. Din krop reag
 **Typisk struktur:**
 
 - Samme øvelser og sæt/reps flere gange om ugen
-- Progression ved hver træning (f.eks. +2,5 kg på stangen)
+- Progression ved hver træning (fx +2,5 kg på stangen)
 - Enkel periodisering, hvor alle fysiske egenskaber forbedres samtidigt
 </details>
 
@@ -125,7 +125,7 @@ Som øvet har du brug for mere struktureret træning. Du kan ikke længere bare 
 
 - Fremgang sker på ugentlig basis, ikke fra træning til træning
 - Behov for planlagt variation i intensitet og volumen
-- Periodemæssig fremgang med fokus på én fysisk kvalitet ad gangen (f.eks. styrke eller hypertrofi)
+- Periodemæssig fremgang med fokus på én fysisk kvalitet ad gangen (fx styrke eller hypertrofi)
 
 **Typisk struktur:**
 
@@ -146,7 +146,7 @@ Er du sikker på, at du er så erfaren, at du har brug for så kompliceret progr
 
 - Fremgang sker over måneder, ikke uger
 - Har brug for høj variation og periodisering
-- Specialiseret mod bestemte discipliner eller mål (f.eks. styrkeløft eller bodybuilding)
+- Specialiseret mod bestemte discipliner eller mål (fx styrkeløft eller bodybuilding)
 
 **Typisk struktur:**
 

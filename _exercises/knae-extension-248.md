@@ -51,7 +51,7 @@ Teknikken i leg extension er enkel og gør den til en god øvelse til at øge ud
 2. Stræk benet ved hjælp af forlåret og kontroller bevægelsen på vej ned.
 3. Brug maskinens håndtag til at fastholde en god position og undgå ændringer i vinklerne.
 
-Leg extension kan udføres med tung vægt (f.eks. 6 reps) eller højere antal gentagelser med lettere vægt (f.eks. 12-15 reps).
+Leg extension kan udføres med tung vægt (fx 6 reps) eller højere antal gentagelser med lettere vægt (fx 12-15 reps).
 
 ## Hvad betyder tæernes retning?
 
@@ -81,7 +81,7 @@ Der findes flere måder at udføre leg extension på for at variere træningen o
 - **Leg extension med håndvægt:** Placer en håndvægt mellem dine fødder og løft benet med håndvægten for ekstra modstand.
 - **Leg extension med elastik:** Brug elastik i stedet for håndvægte for at tilføje modstand.
 - **Leg extension i kabel:** Udfør øvelsen stående med en kabelmaskine og en ankelrem.
-- **Leg extension med tempomanipulation:** Brug en langsom nedadgående bevægelse (f.eks. 3 sekunder ned) og hold et sekund i toppen.
+- **Leg extension med tempomanipulation:** Brug en langsom nedadgående bevægelse (fx 3 sekunder ned) og hold et sekund i toppen.
 - **Leg extension med okklusion:** En intensiv metode til at sikre et godt pump i forlårene, især når du udfører supersæt.
 
 ## Myter om leg extension

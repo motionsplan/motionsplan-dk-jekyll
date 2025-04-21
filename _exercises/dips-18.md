@@ -105,7 +105,7 @@ Dips aktiverer både brystet og triceps, men du kan ændre fokus afhængigt af d
 - Brug et bredere greb  
 - Lad albuerne pege en smule udad  
 
-Dips aktiverer primært den nedre del af brystmuskulaturen, da vinklen mellem overarm og overkrop er lille. Dette adskiller sig fra f.eks. incline bænkpres, hvor vinklen er større, og fokus er på den øvre del af brystet.
+Dips aktiverer primært den nedre del af brystmuskulaturen, da vinklen mellem overarm og overkrop er lille. Dette adskiller sig fra fx incline bænkpres, hvor vinklen er større, og fokus er på den øvre del af brystet.
 
 ### Dips i forskellige udgaver  
 

@@ -75,18 +75,18 @@ Musklen biceps brachii er vigtig af mange årsager. En af dens vigtigste funktio
 
 Musklen biceps brachii er også ansvarlig for mange andre bevægelser i armen og skulderen, hvilket gør den til en vigtig muskel i hverdagen.
 
-Uden biceps brachii-musklen ville vi ikke kunne gøre mange af de ting, vi tager for givet, f.eks. børste vores hår eller tage en skjorte på.
+Uden biceps brachii-musklen ville vi ikke kunne gøre mange af de ting, vi tager for givet, fx børste vores hår eller tage en skjorte på.
 
 Musklen biceps brachii er en meget vigtig muskel og spiller en afgørende rolle i armens funktion og bevægelse af arm og skulder.
 
 Hvordan styrker man biceps?
 Der er mange måder at styrke biceps brachii-musklen på. Nogle af de mest almindelige metoder omfatter styrketræning - både med koncentriske, excentriske og isometriske øvelser.
 
-Ved koncentriske øvelser kontraheres musklen, mens den er forkortet, f.eks. når du bukker en vægt op mod skulderen.
+Ved koncentriske øvelser kontraheres musklen, mens den er forkortet, fx når du bukker en vægt op mod skulderen.
 
-Ekcentriske øvelser indebærer, at musklen forlænges, mens den er spændt, f.eks. når du sænker en vægt ned fra skulderen igen.
+Ekcentriske øvelser indebærer, at musklen forlænges, mens den er spændt, fx når du sænker en vægt ned fra skulderen igen.
 
-Isometriske øvelser indebærer, at musklen holdes i en statisk position, f.eks. nårdu holder en vægt i samme position i længere tid.
+Isometriske øvelser indebærer, at musklen holdes i en statisk position, fx nårdu holder en vægt i samme position i længere tid.
 
 Alle disse øvelser kan udføres med vægte, modstandsbånd eller med kropsvægt alene.
 
@@ -102,7 +102,7 @@ Hvilken øvelse der er bedst for dig, afhænger af dit individuelle fitnessnivea
 
 ## Almindelige skader, og hvordan man forebygger dem
 
-En af de mest almindelige skader på biceps brachii-musklen er en revne i senen. Dette kan opstå som følge af overbelastning eller pludselig stress på musklen, f.eks. ved at løfte en tung vægt.
+En af de mest almindelige skader på biceps brachii-musklen er en revne i senen. Dette kan opstå som følge af overbelastning eller pludselig stress på musklen, fx ved at løfte en tung vægt.
 
 For at forebygge denne type skade er det vigtigt at varme ordentligt op før træning og ikke løfte for tunge vægte for ofte.
 

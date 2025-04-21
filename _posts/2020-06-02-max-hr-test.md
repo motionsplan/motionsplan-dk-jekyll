@@ -23,7 +23,7 @@ meta:
 last_modified_at: 2025-02-03T08:14:14Z
 faq:
   - question: "Hvordan tester jeg min maxpuls?"
-    answer: "Den mest præcise måde at finde din maxpuls på er gennem en fysisk test. Dette kan gøres ved at presse dig selv til maksimal anstrengelse, f.eks. gennem en trappetest eller en intervaltest. Læs mere om testmetoder på vores side."
+    answer: "Den mest præcise måde at finde din maxpuls på er gennem en fysisk test. Dette kan gøres ved at presse dig selv til maksimal anstrengelse, fx gennem en trappetest eller en intervaltest. Læs mere om testmetoder på vores side."
   - question: "Hvilken maxpuls-test er bedst?"
     answer: "Det afhænger af din træningstype. En løbetest er god for løbere, mens en cykeltest er bedre for cyklister. En laboratorietest med iltoptagelsesmåling er den mest præcise, men kræver professionelt udstyr."
   - question: "Kan jeg teste min maxpuls uden at presse mig selv maksimalt?"

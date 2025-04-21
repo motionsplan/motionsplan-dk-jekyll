@@ -173,3 +173,80 @@ peak_power_cykling:
   variations:
     - title: "⚡ Peak Power"
       excerpt: "Jo højere Peak Power, desto større eksplosivitet i en sprint i cykling. 💥🏋️‍♂️"
+progressive_load:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "📈 Progression - og progressivt load"
+  faq_title: "📈 Hvad er progressivt load?"
+  excerpt: "Progressivt overload er princippet om gradvist at øge træningsbelastningen over tid for at udfordre kroppen."
+  btn_label: "Lær om progression"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "📈 Progression - og progressivt load"
+      excerpt: "Progressivt overload er princippet om gradvist at øge træningsbelastningen over tid for at udfordre kroppen."
+specificitet:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "🎯 SAID-princippet - specificitetsprincippet"
+  faq_title: "📈 Hvad er SAID-princippet?"
+  excerpt: "Du bliver god til det du træner. Hvis du gerne vil være god til en bestemt ting, så skal du sørge for at træne den."
+  btn_label: "Lær om specificitet"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "🎯 SAID-princippet - specificitetsprincippet"
+      excerpt: "Du bliver god til det du træner. Hvis du gerne vil være god til en bestemt ting, så skal du sørge for at træne den."
+fatigue_management:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "😴 Fatigue Management – balancen mellem træning og hvile"
+  faq_title: "😴 Hvad er Fatigue Management?"
+  excerpt: "Træning gør dig ikke stærkere – det gør restitution. Du skal balancere træningsmængde og hvile for at undgå overtræning og fremme fremgang."
+  btn_label: "Lær om fatigue management"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "😴 Fatigue Management – balancen mellem træning og hvile"
+      excerpt: "Træning gør dig ikke stærkere – det gør restitution. Du skal balancere træningsmængde og hvile for at undgå overtræning og fremme fremgang."
+individual_variation:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "🧬 Individualiseret træning – tilpas til den enkelte"
+  faq_title: "🧬 Hvad betyder individualisering i træning?"
+  excerpt: "Ingen kroppe er ens. En effektiv træning tager højde for alder, erfaring, restitutionsevne og mål – og tilpasses individuelt."
+  btn_label: "Lær om individualisering"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "🧬 Individualiseret træning – tilpas til den enkelte"
+      excerpt: "Ingen kroppe er ens. En effektiv træning tager højde for alder, erfaring, restitutionsevne og mål – og tilpasses individuelt."
+periodisering:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "📅 Periodisering – planlæg din træning i faser"
+  faq_title: "📅 Hvad er periodisering i træning?"
+  excerpt: "Du kan ikke være i topform hele året. Periodisering handler om at strukturere træningen i faser med forskellig belastning og fokus."
+  btn_label: "Lær om periodisering"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "📅 Periodisering – planlæg din træning i faser"
+      excerpt: "Du kan ikke være i topform hele året. Periodisering handler om at strukturere træningen i faser med forskellig belastning og fokus."
+variation:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "🔁 Variation – undgå stagnation og skader"
+  faq_title: "🔁 Hvorfor er variation vigtig i træning?"
+  excerpt: "Kroppen tilpasser sig hurtigt. Variation i øvelser, belastning og træningsform udfordrer kroppen og holder både fremskridt og motivation i gang."
+  btn_label: "Lær om variation"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "🔁 Variation – undgå stagnation og skader"
+      excerpt: "Kroppen tilpasser sig hurtigt. Variation i øvelser, belastning og træningsform udfordrer kroppen og holder både fremskridt og motivation i gang."
+sra_princippet:
+  type: træningsprincipper
+  category: Træningsprincipper
+  title: "📈 SRA-princippet – stimulus, restitution og adaptation"
+  faq_title: "📈 Hvad er SRA-princippet?"
+  excerpt: "Træning stresser kroppen. Restitution bygger den stærkere. SRA beskriver balancen mellem træningsstimulus, hvile og tilpasning."
+  btn_label: "Lær om SRA-princippet"
+  url: "/traeningsprincipper/"
+  variations:
+    - title: "📈 SRA-princippet – stimulus, restitution og adaptation"
+      excerpt: "Træning stresser kroppen. Restitution bygger den stærkere. SRA beskriver balancen mellem træningsstimulus, hvile og tilpasning."

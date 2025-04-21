@@ -111,7 +111,7 @@ Pendlay rows er også en fantastisk hjælpeøvelse for andre løft som dødløft
 - **For dødløft:** Pendlay rows forbedrer din evne til at stå hurtigt op fra gulvet og styrker din ryg.
 - **For bænkpres og pull-ups:** Øvelsen hjælper med at styrke de muskler, der er nødvendige for at stabilisere din overkrop under disse øvelser.
 
-Når du laver Pendlay rows, kan det være nyttigt at vælge lavere rep-rækker (f.eks. 4-6 gentagelser pr. sæt) for at fokusere på eksplosivitet.
+Når du laver Pendlay rows, kan det være nyttigt at vælge lavere rep-rækker (fx 4-6 gentagelser pr. sæt) for at fokusere på eksplosivitet.
 
 ## Konklusion
 

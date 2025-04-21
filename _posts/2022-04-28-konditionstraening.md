@@ -207,7 +207,7 @@ Men træningen behøver ikke at være hård hver eneste gang. Man kan sagtens fo
 
 Konditionstræning kan også kaldes pulstræning, kredsløbstræning eller cardiotræning. Det er med til at forbedre kredsløbet i hjertet, lungerne og musklerne og til at sende blodet med ilt rundt i systemet. Den udnytter også energien fra fedt og kulhydrat optimalt i musklerne.
 
-Der findes forskellige typer af konditionstræning, f.eks. træning med højintensitetstærskel, tempotræning og udholdenhedstræning. Alle disse hjælper til at forbedre forskellige aspekter af din kondition.
+Der findes forskellige typer af konditionstræning, fx træning med højintensitetstærskel, tempotræning og udholdenhedstræning. Alle disse hjælper til at forbedre forskellige aspekter af din kondition.
 
 Du kan teste dit konditionsniveau, før du begynder at træne, og holde styr på dine fremskridt for at se, om dit program virker. Generelt anbefales det, at du træner tre til fem gange om ugen.
 

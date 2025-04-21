@@ -95,7 +95,7 @@ Målet med funktionel træning er at gøre hele din krop velfungerende og stærk
 
 ### 4. Skal jeg være bange for at få skader af funktionel træning?
 
-Når du vælger mere funktionelle øvelser til din træning, så gælder de samme træningsprincipper som al mulig anden træning. Du skal tænke over progressionen i din træning. Belastningen og intensiteten skal altså bygges langsomt op, og det skal teknikken til træningen også.
+Når du vælger mere funktionelle øvelser til din træning, så gælder de samme [træningsprincipper](/traeningsprincipper/) som al mulig anden træning. Du skal tænke over progressionen i din træning. Belastningen og intensiteten skal altså bygges langsomt op, og det skal teknikken til træningen også.
 
 ### 5. Hvordan kommer jeg i gang med funktionel træning?
 

@@ -82,12 +82,12 @@ Læs meget mere om [restitution](/restitution/) og [restitutionstid](/restitutio
 
 Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 
-{% assign site_posts = site.posts | where: "tags", "restitution" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "restitution" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -105,7 +105,7 @@ Det er altid en god ide at have en eller anden form for træningsprogram, når d
 <div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 6 %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -124,18 +124,20 @@ Du kan også tjekke vores dedikerede sider til [øvelser til maven](/maveoevelse
 
 [Se alle vores træningsøvelser til inspiration](/traeningsoevelser/){: .btn .btn--success .btn--center }
 
+{% include feature_row id="feature_row_okklusion" type="left" %}
+
 ## Træningslære
 
 Når du gerne vil optimere din træning, så kan det være en god ide at vide lidt mere om træningslæren.
 
 Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/), [guide til bevægelsesanalyse](/bevaegelsesanalyse/) eller læse mere om [fysiologi](/fysiologi/).
 
-{% assign site_posts = site.posts | where: "tags", "træningslære" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "træningslære" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 4 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -143,5 +145,3 @@ Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/), [guide til bev
 [Alt om træningslæren](/traeningslaere/){: .btn .btn--success .btn--center }
 
 </div>
-
-{% include feature_row id="feature_row_okklusion" type="left" %}

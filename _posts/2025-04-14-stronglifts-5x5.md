@@ -49,7 +49,7 @@ Hvis du allerede har kørt Stronglifts 5x5 i et stykke tid, så kan du overveje 
 
 ## Grundprincipper
 
-- **3 træninger om ugen** (f.eks. mandag, onsdag, fredag)
+- **3 træninger om ugen** (fx mandag, onsdag, fredag)
 - **5 sæt x 5 gentagelser** i de fleste øvelser
 - **Lineær progression:** Øg vægten med hver træning
 - **Kun basisøvelser**: Fokus på de store løft
@@ -122,7 +122,7 @@ Programmet fungerer indtil dine fremskridt flader ud trods god søvn, kost og re
 
 - Gå over til **Madcow 5x5**, **Texas Method** eller et mere periodiseret program
 - Fokusere på **muskelmasse (hypertrofi)** med højere reps
-- Bruge **autoreguleret progression** (f.eks. RPE)
+- Bruge **autoreguleret progression** (fx RPE)
 
 ## Udstyr og teknik
 

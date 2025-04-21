@@ -78,7 +78,7 @@ feature_row_biomekanik:
     btn_class: "btn--primary"
 ---
 
-Træningslære er fundamentet for at forstå, hvordan kroppen reagerer på træning og hvordan du kan optimere din fysiske ydeevne. Ved at forstå kroppens fysiologi, biomekanik og de grundlæggende træningsprincipper, kan du tilpasse din træning for at opnå de bedste resultater, samtidig med at du undgår skader.
+Træningslære er fundamentet for at forstå, hvordan kroppen reagerer på træning og hvordan du kan optimere din fysiske ydeevne. Ved at forstå kroppens fysiologi, biomekanik og de [grundlæggende træningsprincipper](/traeningsprincipper/), kan du tilpasse din træning for at opnå de bedste resultater, samtidig med at du undgår skader.
 
 Denne guide giver dig et indblik i, hvordan musklerne arbejder, hvordan restitution fungerer, og hvordan du kan anvende træningsteorier i praksis for at opbygge en stærk og sund krop. Uanset om du er begynder eller erfaren, er træningslære en vigtig del af din træningsrejse.
 
@@ -152,7 +152,7 @@ Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hv
 
 For at forstå, hvordan kroppen bevæger sig under træning, er det vigtigt at lære om biomekanik. Biomekanik beskæftiger sig med de fysiske love og principper, der styrer bevægelser i kroppen, som fx kraft, bevægelse og leddenes funktion.
 
-Kroppens bevægelser påvirkes af både muskelkræfter og de mekaniske forhold mellem knogler og led. Denne viden er essentiel for at kunne optimere træning og undgå skader.
+Kroppens bevægelser påvirkes af både muskelkræfter og de mekaniske forhold mellem knogler og led. Denne viden kan være essentiel for at optimere din træning og præstation.
 
 [Læs meget mere om biomekanik](/biomekanik/).
 </details>

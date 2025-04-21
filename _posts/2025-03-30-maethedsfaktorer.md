@@ -61,7 +61,7 @@ Flere faktorer kan påvirke, hvor mættende en fødevare er:
 - **Proteinindhold:** Proteinrige fødevarer som kød, fisk og bælgfrugter har ofte et højere mæthedsindeks.
 - **Fiberindhold:** Kostfibre bremser fordøjelsen og giver en længerevarende mæthedsfølelse.
 - **Fedtindhold:** Selvom fedt har en høj energitæthed, har det ikke altid en stor effekt på mæthed sammenlignet med protein og fiber.
-- **Vandindhold og volumen:** Fødevarer med højt vandindhold (f.eks. suppe og frugt) giver mæthed uden at tilføre mange kalorier.
+- **Vandindhold og volumen:** Fødevarer med højt vandindhold (fx suppe og frugt) giver mæthed uden at tilføre mange kalorier.
 - **Forarbejdning:** Mere forarbejdede fødevarer har ofte et lavere mæthedsindeks, da de nedbrydes hurtigere i fordøjelsessystemet.
 
 ## Anvendelse i praksis
@@ -143,14 +143,14 @@ Mennesker har en tendens til at spise, hvad der er foran dem, uanset om de er su
 ## Praktiske strategier til bedre mæthed
 
 1. **Vælg fiberrige fødevarer** til både hoved- og mellemmåltider.
-2. **Inkluder protein i hvert måltid**, f.eks. æg, kød eller bælgfrugter.
+2. **Inkluder protein i hvert måltid**, fx æg, kød eller bælgfrugter.
 3. **Spis langsomt og tyg grundigt** for at give kroppen tid til at registrere mæthed.
 4. **Stop med at spise, før du er overmæt**, da mæthedsfølelsen kan være forsinket.
 5. **Undgå flydende kalorier**, da de ofte giver mindre mæthed end fast føde.
 6. **Reducer valgmulighederne** for at undgå buffet-effekten.
 7. **Brug mindre tallerkener** og portioner for bedre kontrol over indtaget.
 8. **Undgå ekstrem sult**, da det kan føre til ukontrolleret overspisning.
-9. **Vælg mellemmåltider med flere mæthedsfaktorer**, f.eks. nødder eller yoghurt.
+9. **Vælg mellemmåltider med flere mæthedsfaktorer**, fx nødder eller yoghurt.
 10. **Spis mad med højt vandindhold**, som grøntsager og frugt, for mere volumen uden mange kalorier.
 
 Du behøver ikke implementere alle strategier på én gang – men jo flere, du bruger, desto lettere bliver det at føle sig mæt uden at overspise.

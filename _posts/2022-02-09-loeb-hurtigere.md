@@ -153,7 +153,7 @@ SPIS OG DRIK RIGTIGT
 
 Kroppen skal også have den rette næring. Så sørg for at få både frugt, grøntsager, sunde kulhydrater og rigeligt med væske.
 
-Hvis du har et specifikt løb, du gerne vil være skarp på, så sørg for at få kulhydrater aftenen inden – f.eks. pasta og grøntsager og evt. kødsovs. Sørg også for rigeligt med vand dagen inden. Men ikke så meget, at du skal op og tisse to gange om natten. Det er lidt en kunst. På selve dagen skal du sørge for at være godt hydreret, så drik rigeligt med vand i timerne op til løbet (men ikke for meget de sidste timer, da du kan opleve, det skvulper i maven.
+Hvis du har et specifikt løb, du gerne vil være skarp på, så sørg for at få kulhydrater aftenen inden – fx pasta og grøntsager og evt. kødsovs. Sørg også for rigeligt med vand dagen inden. Men ikke så meget, at du skal op og tisse to gange om natten. Det er lidt en kunst. På selve dagen skal du sørge for at være godt hydreret, så drik rigeligt med vand i timerne op til løbet (men ikke for meget de sidste timer, da du kan opleve, det skvulper i maven.
 
 TRÆN EFTER PULSZONER
 

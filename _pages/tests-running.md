@@ -137,9 +137,9 @@ Hvis du er i tvivl, kan det være en fordel at starte med en lettere test og sen
 
 Hyppigheden af dine løbetests afhænger af dine træningsmål og dit niveau. Generelt anbefales det at teste sig selv hver 6.-8. uge for at følge udviklingen uden at forstyrre træningen unødigt.
 
-- Hvis du træner målrettet mod en konkurrence, kan det være relevant at teste oftere, f.eks. hver 4.-6. uge, for at justere træningsplanen.
+- Hvis du træner målrettet mod en konkurrence, kan det være relevant at teste oftere, fx hver 4.-6. uge, for at justere træningsplanen.
 - Er du motionist, kan en test hver 2.-3. måned være tilstrækkelig til at holde øje med din fremgang.
-- Ved løbestilsanalyser kan det være nok at teste én gang årligt eller ved behov, f.eks. ved skadesproblemer eller skift til nye løbesko.
+- Ved løbestilsanalyser kan det være nok at teste én gang årligt eller ved behov, fx ved skadesproblemer eller skift til nye løbesko.
 
 Det vigtigste er at teste regelmæssigt, så du kan måle din fremgang og tilpasse din træning, uden at hyppige tests bliver en belastning.
 

@@ -115,7 +115,7 @@ Grebsstyrke til forbedring af grebet i normale vægttræningsøvelser
 
 Det er vigtigt, at man vælger en vægt som gør at man holder sig indenfor 20-30 sekunders intervallet. Det passer nemlig med, at det er det tidsinterval man ligger indenfor i de fleste normale sæt. Hvis man er styrkeløfter og har grebsproblemer, så bør man selvfølgelig sænke intervallet en smule. Det kunne eksempelvis være helt ned til omkring 5-10 sekunder, og dermed noget tungere vægte.
 
-Læs også:[De 5 vigtigste træningsprincipper!](https://www.bodylab.dk/shop/de-5-vigtigste-277c1.html)
+**Læs også**: [De 5 vigtigste træningsprincipper](/traeningsprincipper/)
 
 Hvis man er ejer af et par Captain of Crush grippere, så kan man med fordel supplere ovenstående med lidt ”crushing” træning. En 4-5 sæt af 6-8 reps kan gøre tricket.
 Men det er på ingen måde et krav. ”Static holds” har klart den bedste overførlighed til almindelige vægttræningsøvelser, sammenlignet med ”crushing” og ”pinch-gripping” øvelser. Det tydeliggøres også af det faktum, at mange styrkeløftere som uden problemer kan holde +250 kg i dødløft uden stropper, stadigvæk har problemer med at lukke de hardcore udgaver af Captain of Crush gripperne. Der er simpelthen ikke den store overførlighed fra statisk grebsstyrke til dynamisk grebsstyrke. Dermed ikke sagt, at der ikke er en overførlighed mellem de forskellige typer af grebsstyrke. Den er bare ikke så udtalt som man umiddelbart skulle tro.

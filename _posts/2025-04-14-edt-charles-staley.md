@@ -104,7 +104,7 @@ Desuden har det en konditionerende effekt, fordi pauserne bliver korte, og pulse
 Hvis du aldrig har prøvet EDT, her er en hurtig guide. Hvis du har prøvet EDT før, kan det være en god idé at læse denne alligevel, da jeg har fundet ud af, at mange mennesker udfører det på en måde, jeg aldrig havde tænkt mig.
 
 ### 1. Vælg to modsatrettede øvelser
-Vælg to øvelser, der arbejder med modstående muskelgrupper. Det kan være alt fra to antagonister (f.eks. biceps curl/triceps pushdown eller bænkpres/bent row) til to øvelser, der arbejder med to forskellige muskler (f.eks. squat/chin-ups eller calf raise/hammer curls). Du kan også vælge to enarmsøvelser (f.eks. venstre lunge/højre lunge).
+Vælg to øvelser, der arbejder med modstående muskelgrupper. Det kan være alt fra to antagonister (fx biceps curl/triceps pushdown eller bænkpres/bent row) til to øvelser, der arbejder med to forskellige muskler (fx squat/chin-ups eller calf raise/hammer curls). Du kan også vælge to enarmsøvelser (fx venstre lunge/højre lunge).
 
 ### 2. Estimér din 10RM vægt for hver øvelse
 Find eller estimér din 10RM (vægt du kan løfte 10 gange) for hver øvelse. Du kan estimere dette under dine opvarmningssæt. Vær ikke bekymret, hvis estimaterne ikke er helt præcise – det vigtigste er, at vægtene føles omtrent lige svære for hver øvelse.

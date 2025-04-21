@@ -61,7 +61,7 @@ https://www.datasport.com/en/essentials/figuring-out-the-correct-pedal-stroke/
 
 Fra verdenen uden for laboratorierne er der også talrige eksempler på, at cykelryttere og triatleter præsterer på topniveau med vidt forskellig kadence.
 
-Det gælder både, når de kører jævnt, og når de accelererer (tænk f.eks. i forskellen på kadencen, når hhv. Valverde og Froome angriber). Også det styrker argumentet imod, at der skulle findes en generel optimal kadence.
+Det gælder både, når de kører jævnt, og når de accelererer (tænk fx i forskellen på kadencen, når hhv. Valverde og Froome angriber). Også det styrker argumentet imod, at der skulle findes en generel optimal kadence.
 
 Forskellen på lav og høj kadence
 Lidt forsimplet kan man sige, at høj kadence svarer til at køre med lungerne, mens lav kadence er at køre med musklerne.
@@ -78,7 +78,7 @@ Højere kadence er lig hurtige bevægelser og dermed større varmeproduktion. De
 
 ## Din optimale kadence
 
-Det er individuelt, hvad der virker bedst for os. Du er derfor bedst tjent med at arbejde med den oplevede anstrengelse. Det gælder især, når intensiteten er medium og høj (f.eks. i tidskørsler, lange udbrud og på lange stigninger).
+Det er individuelt, hvad der virker bedst for os. Du er derfor bedst tjent med at arbejde med den oplevede anstrengelse. Det gælder især, når intensiteten er medium og høj (fx i tidskørsler, lange udbrud og på lange stigninger).
 
 Der er et gammel udtryk i cykelsporten, som siger, at du skal være “ovenpå pedalerne”. Med det menes, at du ubesværet skal kunne holde dit moment, når du træder.
 

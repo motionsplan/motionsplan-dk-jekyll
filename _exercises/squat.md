@@ -174,7 +174,7 @@ Der er mange faktorer der indvirker på om din squat stil er mere eller mindre o
 
 | **Faktorer**            | **Mere oprejst squatstilling**                              | **Mere foroverbøjet squatstilling**                               |
 |-------------------------|-------------------------------------------------------------|------------------------------------------------------------------|
-| **Hælhøjde**            | Større hælløft (f.eks. vægtløftersko)                      | Intet hælløft (f.eks. Chuck Taylors)                             |
+| **Hælhøjde**            | Større hælløft (fx vægtløftersko)                      | Intet hælløft (fx Chuck Taylors)                             |
 | **Ankelmobilitet**      | Større dorsalfleksion                                       | Begrænset dorsalfleksion                                          |
 | **Lemmelængde**         | Kortere lårben i forhold til torso, længere torso           | Længere lårben i forhold til torso, kortere torso                 |
 | **Stancebredde**        | Bredere stand                                              | Smallere stand                                                    |

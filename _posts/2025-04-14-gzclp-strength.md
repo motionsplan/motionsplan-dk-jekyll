@@ -134,7 +134,7 @@ Hvis du fejler Stage 3:
 
 **Øvelser:** Samme som T1  
 Du bytter mellem T1 og T2.  
-F.eks. hvis squat er T1 → bænkpres er T2  
+fx hvis squat er T1 → bænkpres er T2  
 
 **Ingen AMRAP**, samme progressionsregler som T1
 

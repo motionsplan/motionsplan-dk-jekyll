@@ -153,6 +153,18 @@ Husk at de fleste kan have bedre effekt af et mere enkelt program end et mere ko
 - 5-split træningsprogram
 {% endcomment %}
 
+## Helkropsprogram eller splitprogram
+
+Selv avancerede løftere kan træne helkropsprogrammer hver gang, men det handler om at programmere det rigtigt, så du kan restituere mellem træningerne. Jeg har skrevet mere om, [hvordan du vælger mellem helkropsprogram og splitprogrammer her]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+
+Du kan grundlæggende fx vælge mellem følgende programtyper:
+
+- **Helkropsprogram**
+- **Full body split**
+- **Upper vs lower split**
+- **Push vs pull split**
+- **[Push vs pull split next generation](https://web.archive.org/web/20240302185921/https://www.t-nation.com/training/push-pull-training-the-next-generation/){: rel="nofollow" }**
+
 ## Ofte stillede spørgsmål om splitprogrammer
 
 {% include motionsplan/faq.html %}

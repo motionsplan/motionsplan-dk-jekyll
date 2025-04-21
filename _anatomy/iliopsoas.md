@@ -50,9 +50,9 @@ Efter at have arbejdet med mennesker og min egen krop igennem mange år, er dett
 Psoas major er populært sagt en muskel med mange følelser – man kalder den sågar for en "skraldespand". Kort fortalt hører den til de muskler i kroppen, der beskytte os, når der er fare på færde... Eller i hvert fald, når kroppen oplever eller tolker livet eller hændelser som farligt.
 
 PSOAS BESKYTTER OS I VORES DYBESTE INDERST INDE
-Psoas er en vigtig muskel, som skal beskytte kroppen og organerne. Hvis vi f.eks. falder ned fra noget, vil vi reagere med at krumme os sammen. Dette ligger gemt i vores reflektoriske (automatiske) mønster og styres på hjerneniveau, dvs. ude af dine hænder. 
+Psoas er en vigtig muskel, som skal beskytte kroppen og organerne. Hvis vi fx falder ned fra noget, vil vi reagere med at krumme os sammen. Dette ligger gemt i vores reflektoriske (automatiske) mønster og styres på hjerneniveau, dvs. ude af dine hænder. 
 
-Denne reaktion gælder ikke kun for fysisk fare, men også for mental belastning som f.eks. stress og bekymringer. Smerte påvirker også på en sådan måde, at psoas reagerer negativt og bliver “sur” og uelastisk. Kroppen opfatter smerte som stress, og psoas reagerer med det samme på stress. Praktisk taget kan du forestille dig, at en del af dig "fryser fast". Dette billede er godt at bruge i relation til psoas.
+Denne reaktion gælder ikke kun for fysisk fare, men også for mental belastning som fx stress og bekymringer. Smerte påvirker også på en sådan måde, at psoas reagerer negativt og bliver “sur” og uelastisk. Kroppen opfatter smerte som stress, og psoas reagerer med det samme på stress. Praktisk taget kan du forestille dig, at en del af dig "fryser fast". Dette billede er godt at bruge i relation til psoas.
 
 MEDDELER FRA NERVESYSTEMET
 Psoas er altså en del af den såkaldte “fear response”, som er koblet til vores primitive reflekser via nervesystemet. Psoas er på den måde koblet til vores autonome nervesystem, og er en såkaldt kæmp-eller-flygt muskel. Psoas kaldes for en “beskedsender fra nervesystemet”.

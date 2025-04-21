@@ -88,7 +88,7 @@ Særligt skal dog fremhæves, at både styrketræning og udholdenhedstræning ka
 
 ## Skal man træne anderledes, når man har passeret de 40?
 
-Selvom kroppen har ændret sig, når du har passeret de 40, så gælder de samme grundlæggende træningsprincipper stadigvæk. 
+Selvom kroppen har ændret sig, når du har passeret de 40, så gælder de samme [basale træningsprincipper](/traeningsprincipper/) stadigvæk. 
 
 Din restitutionskapacitet har formentlig ændret sig, så derfor kan det godt være, at du skal tænke over frekvensen af din træning og den samlede volumen. 
 

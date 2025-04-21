@@ -148,7 +148,7 @@ Sørligt bør du lægge mærke til følgende:
 
 ## Vægt
 
-Alle madvarer angives med nettovægt (uden emballage). For produkter med væske, f.eks. tun i olie, kan både nettovægt og drænet vægt være oplyst.
+Alle madvarer angives med nettovægt (uden emballage). For produkter med væske, fx tun i olie, kan både nettovægt og drænet vægt være oplyst.
 
 ## Holdbarhed
 

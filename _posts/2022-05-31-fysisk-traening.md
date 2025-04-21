@@ -142,7 +142,7 @@ Efter træningen er det vigtigt at lade kroppen restituere. Dette kaldes restitu
 
 - Spis sundt: Spis næringsrige fødevarer hjælper vores krop med atreparation og vækst af muskelvæv.
 
-- Aktiv hvile: Let aktivitet, f.eks. gåture eller strækøvelser, kan bidrage til at øge blodgennemstrømningen og mindske stivhed.
+- Aktiv hvile: Let aktivitet, fx gåture eller strækøvelser, kan bidrage til at øge blodgennemstrømningen og mindske stivhed.
 
 Nu, hvor du kender det grundlæggende i fysisk træning, kan du arbejde mod dine mål! Husk at fokusere på kvalitet frem for kvantitet, og lyt altid til din krop.
 
