@@ -20,6 +20,7 @@ tags:
   - træning
 last_modified_at: 2025-04-20T08:14:14Z
 toc: true
+toc_sticky: true
 ---
 
 Når du vurderer træningsprogrammer og laver din egen træningsplan, så er det godt at kende de basale træningsprincipper. Her dykker vi ned i de fundamentale retningslinjer for træning, der kan være med til at sikre dig fremgang over tid i træningen.

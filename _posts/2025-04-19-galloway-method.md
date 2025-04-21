@@ -1,5 +1,8 @@
 ---
 title: &title "Galloway-metoden: The Golden Mile og Run-Walk-Run"
+seo_title: Galloway-metoden – Skiftevis løb og gang i din træning
+description: "Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges i din træning til løb."
+excerpt: "Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges i din træning til løb."
 permalink: /galloway-metoden/
 language: da
 header:
@@ -8,7 +11,9 @@ header:
 category:
   - Løb
 tags:
+  - løb
   - løbeprogram
+  - træningsfilosofi
 last_modified_at: 2024-01-13T22:21:26Z
 feature_row:
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-run-walk-run-method_jeff-galloway_paperback_9781782550822
@@ -200,7 +205,7 @@ https://www.garmin.com/en-US/blog/fitness/setting-runwalk-feature/
 
 {% endcomment %}
 
-## Gode råd til Gallyway-metoden
+## Gode råd til Galloway-metoden
 
 1. Prøv det! Du skal måske lige overtale dig selv til at gå på din løbetur, men det er lettere, når det er en del af en struktureret plan.
 2. Run Walk Run®-strategien bliver brugt på de fleste løbeture i Galloway-metoden, men du kan overveje om de lange løbeture skal være med færre pauser, så du får opbygget mere modstandsdygtighed.

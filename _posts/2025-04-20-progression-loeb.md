@@ -6,7 +6,7 @@ excerpt: "Lær hvordan du opbygger løbetræningen gradvist med progression. Und
 permalink: /progression-loeb/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1743451201783-ab1165df95f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb
@@ -45,6 +45,8 @@ meta:
 En god løbeplan hviler på én afgørende byggesten: **progression**. Det er netop denne løbende tilpasning og stigning i belastning, der sikrer, at du som løber fortsætter med at udvikle dig – fysisk og mentalt.
 
 I denne artikel gennemgår vi, hvad progression er, hvorfor det er vigtigt, og hvordan du bruger det aktivt i din træning.
+
+{% include figure image_path="https://images.unsplash.com/photo-1732039930297-d803a894fd8f?q=60&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" %}
 
 ---
 

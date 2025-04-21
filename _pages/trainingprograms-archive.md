@@ -147,16 +147,17 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 ## Læs om programlægning og træningsplanlægning
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
-{% assign articles = site.posts | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
+{% assign articles = site.posts | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if articles.size > 0 %}
-  {% for post in articles %}
+  {% for post in articles limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
+[Alt om træningslære](/traeningslaere/){: .btn .btn--success .btn--center .btn--large }
 </div>
 
 ## Skabeloner til træningsprogrammer

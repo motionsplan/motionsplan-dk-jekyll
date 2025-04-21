@@ -6,7 +6,7 @@ excerpt: "Lær forskellen på træningsprincipper og -filosofier i løb, og hvor
 permalink: /traeningsfilosofier-loeb/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1719299246416-b4c069be9caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb
@@ -14,7 +14,6 @@ tags:
   - træning
   - løb
   - træningslære
-  - begynder
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:
   - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
@@ -45,6 +44,8 @@ meta:
 Når du træner, er det vigtigt at forstå, hvordan du kan strukturere din træning for at opnå de bedste resultater. For at gøre det skal du kende forskellen mellem en **træningsfilosofi** og et **træningsprincip**. Begge er centrale i at udvikle en effektiv træningsrutine, men de spiller forskellige roller.
 
 Her dykker vi ned i forskellige træningsfilosofier bag ved løb - og hvordan du kan analysere dem med forskellige [træningsprincipper til løb](/traeningsprincipper-loeb/).
+
+{% include figure image_path="https://images.unsplash.com/photo-1734574223327-0104201ee785?q=60&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" %}
 
 ## Hvad er en træningsfilosofi?
 

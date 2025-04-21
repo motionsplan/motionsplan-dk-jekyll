@@ -50,6 +50,7 @@ Filosofien er blandt andet kendt fra den italienske træner **Renato Canova**, d
 
 {% comment %}
 Tjek denne -- https://runningwritings.com/2023/12/percentage-based-training.html
+Tjek også --- https://runningwritings.com/2011/07/something-new-in-training-methods-of.html
 {% endcomment %}
 
 ## Hvad går tragtfilosofien ud på?

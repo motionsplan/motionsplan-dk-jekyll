@@ -11,6 +11,8 @@ header:
 category:
   - Kost & Ernæring
 tags:
+  - kost & ernæring
+  - løb
   - styrketræning
   - kost
   - populær

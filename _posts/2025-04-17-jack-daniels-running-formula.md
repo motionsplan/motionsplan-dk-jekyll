@@ -53,8 +53,6 @@ Jack Daniels er en amerikansk træningsfysiolog og coach, som har haft stor indf
 
 I denne artikel gennemgår vi de vigtigste principper bag hans filosofi – med fokus på **VDOT**, **de fem træningsintensiteter** og **opbygningen af træningsprogrammer**.
 
----
-
 ## Grundlæggende træningsprincipper
 
 Jack Daniels’ træningsfilosofi bygger på nogle få enkle, men vigtige principper:

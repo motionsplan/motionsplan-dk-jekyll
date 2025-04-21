@@ -19,7 +19,7 @@
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser" style="position: relative;">
         <img src="{{ teaser | relative_url }}" alt="{{ title }}" data-pin-nopin="true" loading="lazy">
-        {% if post.tags[1] == "beregner" %}
+        {% if post.tags[0] == "beregner" %}
         <div class="icon-overlay">
           <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
         </div>

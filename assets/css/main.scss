@@ -278,6 +278,20 @@ header .page__meta {
   }
 }
 
+.sidebar__right {
+  &.sticky {
+    top: 85px;
+  }
+}
+
+.collapsible-toc {
+  &.sticky {
+    position: sticky;
+    top: 85px;
+    z-index: 100;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

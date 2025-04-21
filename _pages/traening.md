@@ -13,7 +13,6 @@ header:
     - label: "<i class='fas fa-rocket'></i> Træningsprogrammer →"
       url: "/traeningsprogrammer/"
 author_profile: true
-toc: true
 sidebar:
   nav: trainingtypes
 breadcrumbs: true
@@ -108,6 +107,8 @@ feature_row_tests:
     btn_label: "Gå til værktøjer"
     btn_class: "btn--success"
 classes: wide
+toc: true
+toc_sticky: true
 ---
 
 På denne side får du overblik over forskellige træningsformer, effektive øvelser, træningsprogrammer og tests, der kan hjælpe dig med at måle din udvikling. Uanset dit niveau kan du finde viden og konkrete redskaber til at optimere din træning og nå dine mål.

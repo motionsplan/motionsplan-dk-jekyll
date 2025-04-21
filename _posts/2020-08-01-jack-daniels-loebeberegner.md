@@ -177,9 +177,11 @@ I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på ba
 
 Du kan læse en kritik af Jack Daniels udregninger på [jaredmcqueen.com](https://web.archive.org/web/20111211031947/http://jaredmcqueen.com/jackdanielsflaw.html){: rel="nofollow noopener" }.
 
+Du er formentlig også interesseret i [Jack Daniels træningsfilosofi](/jack-daniels-running-formula/).
+
 ## Andre løbeberegnere
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "løb" | where: "tags", "beregner" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 

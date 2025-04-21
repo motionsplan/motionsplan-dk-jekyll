@@ -18,6 +18,7 @@ tags:
   - træningsprogram
   - populær
   - featured
+  - begynder
 category:
   - Yoga
 last_modified_at: 2025-04-04T09:41:09Z

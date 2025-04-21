@@ -6,7 +6,7 @@ excerpt: "Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din 
 permalink: /traeningsprincipper-loeb/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1728532483490-708f6562b738?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Løb
@@ -59,6 +59,8 @@ Løbetræning handler ikke kun om at følge et bestemt [løbeprogram](/loebeprog
 I denne artikel dykker vi ned i de 4 grundlæggende træningsprincipper: specificitet, progression, variation og individuel variation. Vi viser, hvordan du kan anvende dem i din løbetræning for at maksimere dine præstationer og minimere risikoen for skader.
 
 De forskellige træningsprincipper til løb bliver brugt på forskellige måder i [forskellige tilgange til løbetræningen](/traeningsfilosofier-loeb/).
+
+{% include figure image_path="https://images.unsplash.com/photo-1734574226134-9f0f07e62407?q=60&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" %}
 
 ***
 
