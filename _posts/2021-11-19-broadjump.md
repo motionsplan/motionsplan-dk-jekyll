@@ -88,6 +88,9 @@ Længden af springet rundes ned til nærmeste 5 centimeter. Den afrundede længd
 
 Der findes forskellige normer for, hvad et godt resultat er i det stående længdespring.
 
+<details markdown="1">
+  <summary>Politiets karakterer</summary>
+
 |          | Mænd                 | Kvinder              |
 | -------- | -------------------- | -------------------- |
 | Karakter | Længde (cm)          | Længde (cm)          |
@@ -98,6 +101,7 @@ Der findes forskellige normer for, hvad et godt resultat er i det stående læng
 | 02       | 210 - 219 cm         | 160 - 169 cm         |
 | 00       | 200 - 209 cm         | 150 - 159 cm         |
 | \-3      | 199 cm eller kortere | 149 cm eller kortere |
+</details>
 
 ## Hvordan bliver jeg bedre til stående længdespring?
 
@@ -106,5 +110,3 @@ Her er lidt træningstips til det stående længdespring.
 {% include video provider="youtube" id="gJTPHXgB5MY" %}
 
 {% include video provider="youtube" id="qTE4UN-4hCM" %}
-
-{% include stub.md %}
