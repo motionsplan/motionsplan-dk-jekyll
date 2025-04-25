@@ -132,6 +132,12 @@ Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi
 
 {% include video provider="youtube" id="p2OPUi4xGrM" %}
 
+***
+
+{% include figure image_path="/assets/images/citater/rippetoe-no-easy-way-deadlift.jpg" %}
+
+***
+
 ### Military press efter Mark Rippetoe
 
 {% include video provider="youtube" id="8dacy5hjaE8" %}

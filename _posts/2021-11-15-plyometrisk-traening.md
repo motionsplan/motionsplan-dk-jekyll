@@ -44,7 +44,7 @@ Det er særligt vigtigt med et progressivt træningsprogram til plyometri, hvis 
 
 ## Få hjælp fra Reactive Strength Index
 
-Når du skal lære hurtige plyometriske øvelser, som fx gentagne _tuck jups_, hækkehop og _depth jumps_, så kan [reative strength index (RSI)](/reactive-strength-index-rsi/) være et godt redskab. Grundlæggende er RSI et mål mellem hvor højt du springer, og hvor kort kontakttid du havde på gulvet fra et _drop jump_.
+Når du skal lære hurtige plyometriske øvelser, som fx gentagne _tuck jups_, hækkehop og _depth jumps_, så kan [reactive strength index (RSI)](/reactive-strength-index-rsi/) være et godt redskab. Grundlæggende er RSI et mål mellem hvor højt du springer, og hvor kort kontakttid du havde på gulvet fra et _drop jump_.
 
 {% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strength Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
 

@@ -52,6 +52,8 @@ Når du skal finde et effektivt og gratis træningsprogram til styrketræning, s
 
 Når du skal vælge dit program, så husk at være ærlig over for dig selv i forhold til [dit styrketræningsniveau](/styrketraening/periodisering/). For langt de fleste kan det betale sig at starte med et enkelt, klassisk træningsprogram.
 
+[<i class='fas fa-table'></i> Direkte til oversigten](#oversigt){: .btn .btn--success .btn--jump }
+
 ## Hvordan vælger du et styrketræningsprogram?
 
 {% include feature_row id="feature_row_choose_program" type="left" %}
@@ -99,9 +101,39 @@ Er du sikker på, at du er så erfaren, at du har brug for så kompliceret progr
 
 ***
 
+### Begynderprogrammer til styrketræning
+
 <div class="feature__wrapper">
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "begynder" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+### Programmer til letøvede og øvede
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "øvet" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+### Avancerede programmer til styrketræning
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where: "tags", "erfaren" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 16 %}

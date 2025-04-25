@@ -27,12 +27,12 @@ pringtræning kan bruges til at booste præstationer i sport, men også til at f
 
 I denne guide lærer du, hvordan du optimerer din springkraft, udfører de bedste øvelser og hvilke tests, du kan bruge til at måle dine fremskridt. Hvis du er dedikeret, vil du se markante forbedringer i dine hoppehøjder og springlængder på kort tid.
 
-> *GCT: Ground Contact Time*  
-> *RSI: Reactive Strength Index*  
-> *RFD: Rate of Force Development*  
-> *DJ: Drop Jump*  
-> *SJ: Squat Jump*  
-> *DSI: Dynamic Strength Index*
+*[GCT]: Ground Contact Time
+*[RSI]: Reactive Strength Index 
+*[RFD]: Rate of Force Development
+*[DSI]: Dynamic Strength Index
+*[DJ]: Drop Jump  
+*[SJ]: Squat Jump
 
 ## Hvad er springtræning?
 

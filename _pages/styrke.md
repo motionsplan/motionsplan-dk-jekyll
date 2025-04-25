@@ -129,7 +129,7 @@ feature_row_plate_calculator:
     btn_class: "btn--success"
 ---
 
-Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsprogrammer og dybdegående artikler, der hjælper dig med at opbygge styrke og træne smartere.
+Få mere ud af din styrketræning! Her finder du beregnere, [effektive styrketræningsprogrammer](/styrketraeningsprogrammer/) og dybdegående artikler, der hjælper dig med at opbygge styrke og træne smartere.
 
 {% include feature_row id="feature_row_introduction" type="left" %}
 
@@ -153,11 +153,11 @@ Få mere ud af din styrketræning! Her finder du beregnere, effektive træningsp
 
 ## Træningsprogrammer til styrke
 
+Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **[gratis træningsprogram til styrketræning](/styrketraeningsprogrammer/)** her på siden. Men hvordan vælger du det rigtige program?
+
 {% include feature_row id="feature_row_good_program" type="left" %}
 
 ## Populære styrketræningsprogrammer
-
-Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | where: "tags", "populær" | sort: "date" %}
 
