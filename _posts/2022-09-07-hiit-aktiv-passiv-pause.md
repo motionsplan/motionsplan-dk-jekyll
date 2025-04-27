@@ -80,7 +80,7 @@ Men er det virkelig svaret?
 
 Lad os kigge på, hvad litteraturen rent faktisk siger om emnet.
 
-## Foredele ved aktive pauser i HIIT
+## Fordele ved aktive pauser i HIIT
 
 Umiddelbare argumenter for at anvende aktiv restitution mellem arbejdsperioder kunne være:
 
