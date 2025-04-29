@@ -1032,6 +1032,12 @@ a[rel~=sponsored]:after {
 
 .btn--bmc {
   background-color: hsl(51, 100%, 50%);
+  display: inline-flex; /* Brug flexbox til at centrere indholdet */
+  align-items: center; /* Centrerer elementerne vertikalt */
+
+  svg {
+    margin-right: 0.6em;
+  }
 }
 
 .btn--lead {

@@ -4,10 +4,8 @@ seo_title: "Cooper-test: Guide og værktøj til at beregne dit kondital"
 description: "Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter."
 excerpt: "Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter."
 permalink: /cooper-test/
-show_date: true
 redirect_from:
   - /kondital-cooper/
-excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10

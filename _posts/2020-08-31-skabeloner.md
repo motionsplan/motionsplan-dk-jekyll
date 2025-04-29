@@ -3,6 +3,8 @@ layout: single
 title: &title "Gratis skabelon til træningsprogram 🗓"
 permalink: /skabeloner/
 author_profile: true
+category:
+  - Træning
 header:
   overlay_image: https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10

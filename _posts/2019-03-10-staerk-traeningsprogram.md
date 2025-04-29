@@ -1,11 +1,12 @@
 ---
----
 title: &title "Stærk: Styrketræningsprogram af Jacob Beermann"
 permalink: /artikel/staerk-traeningsprogram/
 language: da
 header:
   teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg
   caption: *title
+category:
+  - Styrketræning
 tags:
   - anmeldelse
   - styrkeløft
@@ -15,8 +16,6 @@ tags:
   - populær
   - styrketræning
   - træningsprogram
-category:
-  - Styrketræning
 last_modified_at: 2025-03-10T08:39:32Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500

@@ -68,6 +68,9 @@ Kalorieberegnere:
 Beregnere:
   title: Beregnere
   url: /beregnere/
+Hastighed:
+  title: Hastighed
+  url: /hastighed/
 Tests:
   title: Tests
   url: /tests/

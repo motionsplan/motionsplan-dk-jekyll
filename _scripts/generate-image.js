@@ -25,23 +25,31 @@ process.argv.slice(2).forEach(arg => {
 // determine if this is one post or many
 let posts = []
 if (fs.lstatSync(args.path).isDirectory()) {
-  fs.readdirSync(args.path).forEach(file => posts.push(`${args.path}${file}`))
+  fs.readdirSync(args.path).forEach(file => {
+    if (path.extname(file) === '.md' || path.extname(file) === '.markdown') {
+      const filePath = `${args.path}${file}`
+      const data = frontmatter(fs.readFileSync(filePath, 'utf8')).data
+      posts.push({
+        file,
+        post: data
+      })
+    }
+  })
 } else {
-  posts = [args.path]
+  const filePath = args.path
+  const data = frontmatter(fs.readFileSync(filePath, 'utf8')).data
+  posts.push({
+    file: path.basename(filePath),
+    post: data
+  })
 }
-
-// get rid of any posts that for whatever reason are not markdown files
-posts = posts.filter(post => (path.extname(post) === '.md' || path.extname(post) === '.markdown'))
-
-// get just the frontmatter from all the posts
-posts = posts.map(post => frontmatter(fs.readFileSync(post, 'utf8')).data)
 
 // get the data for all authors
 const authors = yaml.load(fs.readFileSync('./_data/authors.yml', 'utf8'))
 
 // helper method to pass data to html page
 function objectToParams(object) {
-  const params = new URLSearchParams
+  const params = new URLSearchParams()
   Object.entries(object).map(entry => {
     let [key, value] = entry
     params.set(key, value)
@@ -50,18 +58,15 @@ function objectToParams(object) {
 }
 
 // get only data relevant to screenshot
-const urls = posts.map(post => objectToParams({
+const urls = posts.map(({ post }) => objectToParams({
     'post-title': post.seo_title || post.title || '',
     'post-excerpt': post.description || post.excerpt || '',
-    'author-name': post.author && authors[post.author].name || authors['lsolesen'].name || '',
-    'author-image': post.author && authors[post.author].avatar || authors['lsolesen'].avatar || '',
-    'post-image': post.header.featured_image || post.header.image || post.header.overlay_image || post.header.teaser || 'https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80',
-  })
-).map(params => {
-  // use `utoa` to encode emojis/special characters
-  const url = `http://127.0.0.1:8080/generate-image/${args.type}?${utoa(params)}`
-  // uncomment this to print the url for debug purposes
-  console.log(url)
+    'author-name': post.author && authors[post.author]?.name || authors['lsolesen'].name || '',
+    'author-image': post.author && authors[post.author]?.avatar || authors['lsolesen'].avatar || '',
+    'post-image': post.header?.featured_image || post.header?.image || post.header?.overlay_image || post.header?.teaser || 'https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80',
+}))
+.map(params => {
+  const url = `http://127.0.0.1:4040/generate-image/${args.type}?${utoa(params)}`
   return url
 })
 
@@ -104,20 +109,24 @@ taskList.concurrency = 1
 
 // match up urls and posts, save images with the correct file name
 // push them to the queue
-posts.map(async (post, index) => {
+posts.map(async ({ file, post }, index) => {
+  if (!post.category || !post.category[0]) {
+    console.error(`Missing category at index ${index}: File = ${file}`, post);
+  }
+
   if(post.permalink) {
     // not every page has a set permalink...
     taskList.push(() => generateImage(urls[index], post.permalink))
   } else {
     // ... so follow the `permalink: /:categories/:title/` pattern from _config.yaml
     const category = post.category[0].toLowerCase()
-
+    
     // build the title different if this is a single file or from a directory
     let title
     if (fs.lstatSync(args.path).isDirectory()) {
-      title = `${args.path}${fs.readdirSync(args.path)[index].match(/\d\d\d\d-\d\d-\d\d-(.*).md/)[1]}`
+      title = `${args.path}${file.match(/\d\d\d\d-\d\d-\d\d-(.*).md/)[1]}`
     } else {
-      title = args.path.match(/\d\d\d\d-\d\d-\d\d-(.*).md/)[1]
+      title = file.match(/\d\d\d\d-\d\d-\d\d-(.*).md/)[1]
     }
 
     const permalink = `${category}/${title}`

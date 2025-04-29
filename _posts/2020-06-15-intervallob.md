@@ -87,7 +87,7 @@ En meget populær og effektiv måde at flytte sin maksimale iltoptagelse er at l
 
 Når eleverne løber med forskellig hastighed, er det sandsynligt at de træner noget forskelligt. De får i hvert fald en forskellig træningsmængde, hvor dem der løber lidt langsommere kommer til at træne længere tid.
 
-Hvis du bruger [Jack Daniels Løbsberegner](/loebesiden-jack-daniels-loebeberegner/), så får du et tempo, du skal holde i intervallerne. Jeg har lavet en beregner, som kan [omregne fra hastighed i min/km](/hastighed/) til, [hvor langt du skal løbe på et tidsinterval her]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}).
+Hvis du bruger [Jack Daniels Løbsberegner](/loebesiden-jack-daniels-loebeberegner/), så får du et tempo, du skal holde i intervallerne. Jeg har lavet en beregner, som kan [omregne fra hastighed i min/km](/hastighed/) til, [hvor langt du skal løbe på et tidsinterval her](/hvor-langt-per-interval/).
 
 ## Arbejdstid og pausetid i intervallerne
 

@@ -96,7 +96,7 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 
 {% include calculator/calculate-jack-daniels.html %}
 
-Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %})?
+Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
 
 Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/).
 

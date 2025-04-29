@@ -1,6 +1,6 @@
 ---
 title: &title "De 4 træningsprincipper ved løb – Sådan bruger du dem"
-seo_title: "De 4 Træningsprincipper – Sådan Optimerer Du Din Løbetræning"
+seo_title: "De 4 træningsprincipper – Sådan optimerer du din løbetræning"
 description: "Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din løbetræning. Læs om specifikation, progression og overload for optimale resultater."
 excerpt: "Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din løbetræning. Læs om specifikation, progression og overload for optimale resultater."
 permalink: /traeningsprincipper-loeb/
