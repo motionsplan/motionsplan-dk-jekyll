@@ -1,7 +1,10 @@
 ---
-title: "Riegels formel til beregning af løbetider og konkurrencetider"
+title: "Riegels Formel til Løbetider og Konkurrencetider"
+seo_title: "Riegels Formel til Løbetider og Konkurrencetider"
+description: "Brug Riegels formel til at beregne dine konkurrencetider og løbetider på forskellige distancer. Få hurtigt et estimat af din maratontid eller andre distancer."
+excerpt: "Brug Riegels formel til at beregne dine konkurrencetider og løbetider på forskellige distancer. Få hurtigt et estimat af din maratontid eller andre distancer."
 permalink: /riegels-loebeberegner/
-last_modified_at: 2020-07-24T09:41:09Z
+last_modified_at: 2024-07-24T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
@@ -44,9 +47,13 @@ Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold
 
 {% include calculator/calculate-running-riegel.html %}
 
-Husk at [Jack Daniels Running Formula og løbsberegner](/loebesiden-jack-daniels-loebeberegner/) er mere avanceret og baseret på nyere data fra løbere.
+## Konklusion
 
-**Opdag flere værktøjer til din løbetræning!** Besøg vores [samlede oversigt over løbeberegnere](/loeb/vaerktoejer/) og find præcis det, du har brug for.  
+Riegels formel giver dig et simpelt estimat af dine løbetider, men hvis du vil have en mere præcis beregning, så prøv vores [Jack Daniels Running Formula beregner](/loebesiden-jack-daniels-loebeberegner/), der er baseret på nyere data.
+
+Er du klar til at udfordre dig selv med præcise træningstider? Gå videre til vores [hastighedsberegner](/hastighed/) og find din ideelle træningszone.
+
+**Få flere værktøjer til din løbetræning!** Besøg vores [samlede oversigt over løbeberegnere](/loeb/vaerktoejer/) og find præcis det, du har brug for.  
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
