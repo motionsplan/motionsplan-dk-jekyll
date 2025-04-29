@@ -16,7 +16,7 @@ tags:
   - løb
   - cykling
 meta:
-  name: Beregn hastighed i km/t, m/s og min/km
+  name: Omregn mellem km/t og min/km
   equipment: ingen
   measures: hastighed og pace
   type: løb, gang og cykling
