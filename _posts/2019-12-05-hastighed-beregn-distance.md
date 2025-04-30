@@ -69,10 +69,10 @@ Du vil altså med en løbehastighed på 15 km/t på 15 minutter løbe 3,75 km.
 
 Nu har du beregnet din distance – men hvad nu, hvis du vil finde ud af, hvor hurtigt du løber? Hvor lang tid tager det at gennemføre en bestemt distance? Brug vores andre værktøjer til at få endnu mere præcise data om din løbetræning:
 
-- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-hastighed/)
+- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-fart/)
 - [Se hvor lang tid det tager at løbe en bestemt distance →](/hastighed/beregn-tid/)
 - [Omregn mellem km/t og min/km (pace) →](/hastighed/omregner-tempo-fart/)
-- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pacetabel/)
+- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pace-tabeller/)
 
 📌 *Eller gå tilbage til oversigten med alle hastighedsberegnere → [Hastighed og tempo i løb](/hastighed/)*
 

@@ -63,8 +63,6 @@ Hvad er pace? **Pace er hvor hurtigt du er om at løbe en kilometer. Hvis du fx 
 
 {% include calculator/convert-hastighed-kmt-minkm.html %}
 
-[Gå til omregner med flere eksempler →](/hastighed/omregner-tempo-fart/)
-
 </details>
 
 <details markdown="1" class="faq">
@@ -73,8 +71,6 @@ Hvad er pace? **Pace er hvor hurtigt du er om at løbe en kilometer. Hvis du fx 
 Hvis du kender dit pace, så er det også interessant at udregne, hvilken gennemsnitshastighed du løber med. Det kan du udregne i denne beregner for gennemsnitshastighed.
 
 {% include calculator/convert-hastighed-minkm-kmt.html %}
-
-[Gå til omregner med flere eksempler →](/hastighed/omregner-tempo-fart/)
 
 </details>
 
@@ -102,10 +98,10 @@ Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
 Nu har du omregnet din hastighed til pace – men hvad nu, hvis du vil vide, hvor hurtigt du løber på en given distance? Brug vores andre værktøjer til at få endnu mere indsigt i din løbetræning:
 
-- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-hastighed/)
+- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-fart/)
 - [Beregn hvor langt du når på en given tid →](/hastighed/beregn-distance/)
 - [Se hvor lang tid det tager at løbe en bestemt distance →](/hastighed/beregn-tid/)
-- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pacetabel/)
+- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pace-tabeller/)
 
 📌 *Eller gå tilbage til oversigten med alle hastighedsberegnere → [Hastighed og tempo i løb](/hastighed/)*
 

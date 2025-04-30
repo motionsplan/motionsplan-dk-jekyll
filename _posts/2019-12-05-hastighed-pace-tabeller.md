@@ -65,7 +65,7 @@ I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe
 
 Nu har du set, hvordan din pace sammenlignes med tiderne i pacetabellen – men hvad nu, hvis du vil beregne din hastighed eller se, hvor langt du kan løbe på en given tid? Brug vores andre værktøjer til at få endnu mere indsigt i din træning:
 
-- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-hastighed/)
+- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-fart/)
 - [Beregn hvor langt du når på en given tid →](/hastighed/beregn-distance/)
 - [Se hvor lang tid det tager at løbe en bestemt distance →](/hastighed/beregn-tid/)
 - [Omregn mellem km/t og min/km (pace) →](/hastighed/omregner-tempo-fart/)

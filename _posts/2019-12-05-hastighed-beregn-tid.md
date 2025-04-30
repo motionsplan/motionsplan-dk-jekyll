@@ -79,10 +79,10 @@ Det vil altså tage 50 minutter at løbe eller cykle en distance på 10 km, hvis
 
 Nu har du beregnet din tid – men hvad nu, hvis du vil finde ud af, hvor hurtigt du skal løbe? Beregn din hastighed eller se, hvor langt du kan løbe på en given tid. Brug vores andre værktøjer til at få endnu mere præcise data:
 
-- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-hastighed/)
+- [Beregn din hastighed fra tid og distance →](/hastighed/beregn-fart/)
 - [Beregn hvor langt du når på en given tid →](/hastighed/beregn-distance/)
 - [Omregn mellem km/t og min/km (pace) →](/hastighed/omregner-tempo-fart/)
-- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pacetabel/)
+- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pace-tabeller/)
 
 📌 *Eller gå tilbage til oversigten med alle hastighedsberegnere → [Hastighed og tempo i løb](/hastighed/)*
 

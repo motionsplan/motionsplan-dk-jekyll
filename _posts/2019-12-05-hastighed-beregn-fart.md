@@ -101,7 +101,7 @@ Nu har du beregnet din hastighed – men det er kun én del af billedet. Hvor la
 - [Beregn hvor langt du når på en given tid →](/hastighed/beregn-distance/)
 - [Se hvor lang tid det tager at løbe en bestemt distance →](/hastighed/beregn-tid/)
 - [Omregn mellem km/t og min/km (pace) →](/hastighed/omregner-tempo-fart/)
-- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pacetabel/)
+- [Slå op i pacetabellen og find dine tider for 5 km, 10 km eller maraton →](/hastighed/pace-tabeller/)
 
 📌 *Eller gå tilbage til oversigten med alle hastighedsberegnere → [Hastighed og tempo i løb](/hastighed/)*
 
