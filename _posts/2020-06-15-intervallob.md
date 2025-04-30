@@ -42,11 +42,11 @@ keywords:
   - intervalløb
 ---
 
-Jeg nyder selv at bruge intervaller i min løbetræning. Intervalløb er en fast del af mit løbeprogram, når jeg gerne vil arbejde med min hastighed og kondition.
+Jeg bruger selv intervaller som en fast del af min løbetræning, når jeg vil forbedre både hastighed og kondition. Intervalløb er en effektiv metode til at presse sig selv, og det er en essentiel del af mange løbeprogrammer.
 
-Jeg har researchet lidt på, hvilke metoder til [intervaltræning](/intervaltraening/) til løb, der findes, og så har jeg lavet en overskuelig oversigt over effektive intervalprogrammer til løb.
+Jeg har undersøgt de mest populære metoder til [intervaltræning](/intervaltraening/) for løbere og samlet en overskuelig guide med effektive intervalprogrammer, der hjælper dig med at få maksimalt udbytte af din træning.
 
-Det vanskeligste ved intervalløb synes jeg er at vide, hvor hårdt og hurtigt de enkelte intervaller skal løbes, men det får du også et bud på her, hvis du læser helt til slutningen af indlægget.
+Mange finder det svært at finde ud af, hvor hårdt og hurtigt intervallerne skal løbes. I denne guide får du konkrete forslag og retningslinjer, der kan hjælpe dig med at strukturere dine intervaller korrekt for at opnå de bedste resultater.
 
 ## Hvad er intervalløb?
 
@@ -275,8 +275,14 @@ Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metod
 
 ## Konklusion
 
-Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer](/energisystemer/). Du kan også se intervaltræning under [HIIT træning](/hiit/), der virkelig skubber til den maksimale iltoptagelse. Du kan også finde inspiration til intervaltræning under [intervaller til rotræning](/artikel/traeningsprogrammer-intervaller-roning/). Intervaltræning kan typisk bruges på tværs af udholdenhedsdiscipliner.
+## Konklusion
 
-I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket energisystem du gerne vil træne.
+Der findes utallige intervalprogrammer og -principper, som du kan variere i det uendelige. Hvis du er interesseret i, hvordan intervaltræning relaterer sig til vores energisystemer, kan du læse mere i mit indlæg om [energimetoder](/energisystemer/).
+
+Derudover kan du finde HIIT-træning, der virkelig presser den maksimale iltoptagelse, under [HIIT træning](/hiit/). Hvis du er interesseret i rotræning, kan du hente inspiration til intervalprogrammer under [intervaller til rotræning](/artikel/traeningsprogrammer-intervaller-roning/).
+
+I sidste ende bør du vælge dit intervalprogram baseret på dine specifikke mål og det energisystem, du ønsker at træne. Få flere eksempler under [løbeprogrammerne](/loebeprogrammer/).
+
+## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}

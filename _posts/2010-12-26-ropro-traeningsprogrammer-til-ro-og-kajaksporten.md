@@ -1,5 +1,8 @@
 ---
 title: "Rotræning: Intervaller og træningsprogram til romaskine 🚣"
+seo_title: "Rointervaller: Effektiv rotræning på romaskine"
+description: "Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration fra ekspert Anders Krintel."
+excerpt: "Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration fra ekspert Anders Krintel."
 permalink: /artikel/traeningsprogrammer-intervaller-roning/
 redirect_from:
   - /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten
@@ -30,19 +33,19 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine. Heldigvis kender jeg en ekspert i forskellige roprogrammer. Bliv helt klar til din rotræning ved at sammensætte dit eget træningsprogram!
+Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine, og heldigvis kender jeg en ekspert indenfor området. Bliv klar til din rotræning ved at sammensætte dit eget træningsprogram!
 
-Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside om rotræning.
+Jeg har selv besluttet at komme i gang med at ro på romaskinen for at genvinde noget af min kondition. Derfor skrev jeg til Anders Krintel, der er en af Danmarks mest erfarne rotræningsspecialister. Han var venlig at dele nogle af de bedste intervalprogrammer fra sin hjemmeside om rotræning.
 
-{% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](https://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer. Anders har kigget på et et indendørs træningsprogram til din rotræning og roning med intervaltræning" alt="Anders Krintel om roprogrammer og intervaller" %}
+{% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](https://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange i kano, kajak og kajakergometer. Han har udviklet et indendørs træningsprogram til rotræning med intervaltræning." alt="Anders Krintel om roprogrammer og intervaller" %}
 
-Jeg kan godt afsløre, at Anders Krintel har en forkærlighed for [intervaller og intervaltræning](/intervaltraening/), så sådan er alle træningsforslagene her bygget op.
+Anders Krintel har en særlig forkærlighed for [intervaller og intervaltræning](/intervaltraening/), og det er derfor, alle træningsforslagene her er baseret på intervaltræning.
 
-Formålet med dette indlæg er, at du selv at blive i stand til at udvælge intervaller til dit træningsprogram. Du kan naturligvis også bare ro kontinuerligt på romaskinen, men jeg kan godt lide at bryde min rotræning ned i intervaller.
+Formålet med dette indlæg er, at du bliver i stand til selv at udvælge de rette intervaller til dit træningsprogram. Du kan selvfølgelig vælge at ro kontinuerligt på romaskinen, men jeg synes, det er langt sjovere at bryde træningen op i intervaller.
 
-Husk at du ikke behøver at ro alle intervaller som om, der er nogen efter dig. Det handler om at få kredsløbet til at arbejde med forskellige intensiteter.
+Husk, du behøver ikke at ro hver eneste interval som om der er nogen efter dig. Det handler om at få dit kredsløb til at arbejde med forskellige intensiteter.
 
-Først kigger vi lidt på teknikken i romaskinen, og derefter præsenterer jeg **roeksperten, Anders Krintels, 10 bedste intervalprogrammer til roning i romaskine og rotræning**.
+Før vi dykker ned i de specifikke programmer, kigger vi på teknikken i romaskinen. Derefter præsenterer jeg **Anders Krintels 10 bedste intervalprogrammer til roning i romaskine og rotræning**.
 
 ## Hvad er teknikken i romaskinen?
 

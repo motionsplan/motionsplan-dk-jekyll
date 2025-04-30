@@ -35,13 +35,17 @@ keywords:
   - intervaltræning
 ---
 
-Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min [kondition](/kondition/), kraft og hastighed. 
+Jeg bruger selv intervaltræning, når jeg vil forbedre kondition, kraft og hastighed – og det virker.
 
-Intervaltræning er en effektiv metode til hurtigt at forbedre kondition, styrke og hastighed, hvilket gør det til en uundværlig del af ethvert træningsprogram."
+**Intervaltræning er en effektiv metode til at træne med høj intensitet, uden at du bliver udmattet for hurtigt. Ved at veksle mellem arbejde og pauser, forbedrer du både din kondition, forbrænding og ydeevne.**
 
-**Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du er i stand til at arbejde med en højere intensitet i din træning. Formålet med intervaltræning er ofte at arbejde med både det aerobe og det anaerobe energisystem.**
+I denne guide får du en grundlæggende forståelse af, hvordan intervaltræning virker, hvordan det påvirker kroppen, og hvordan du planlægger intervaller i praksis.
 
-Læs denne guide først, så du får en grundlæggende forståelse for intervaltræning, og hvad intervaller kan bruges til i træningen. Hvis du er på udkig efter specifikke intervaller til løb og cykling, så tjek [intervaltræning til løb](/intervallob-intervaltraening/) og [intervaltræning til cykling](/intervaltraening-cykling/).
+Hvis du allerede ved, hvad intervaltræning er, og leder efter programmer, så gå direkte til:
+
+- [Intervalløb – programmer og forklaringer](/intervallob-intervaltraening/)
+- [Intervaltræning på cykel – fra begynder til øvet](/intervaltraening-cykling/)
+- [HIIT og Tabata – kort og intensiv styrketræning](/hvad-er-hiit-traeningsprogrammer/)
 
 ## Hvad er intervaltræning?
 
@@ -232,37 +236,45 @@ I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket en
 
 {% endcomment %}
 
-## HIIT - High Intensity Interval Training
+<details markdown="1" class="faq">
+<summary><h3>🔥 HIIT – High Intensity Interval Training</h3></summary>
 
 En type intervaltræning er HIIT-træning i dens oprindelige form. Begrebet bliver desværre i øjeblikket brugt lidt i flæng, så det kan være vanskeligt helt at forstå, hvad formålet er, hvordan denne intervaltype skal udføres og hvad effekten er.
 
-[HIIT træning](/hvad-er-hiit-traeningsprogrammer/) er intervaller som udføres med en intensitet, som ligger over 90% af den maksimale iltoptagelse. Formålet med HIIT-intervaller er at flytte den maksimale iltoptagelse. Hvis du gerne vil dykke endnu dybere ned i det emne, så tjek her.
+[HIIT træning](/hvad-er-hiit-traeningsprogrammer/) er intervaller, som udføres med en intensitet over 90 % af den maksimale iltoptagelse. Formålet er at forbedre din VO₂max og kredsløb.
 
-Læs: [Hvad er HIIT træning?](/hvad-er-hiit-traeningsprogrammer/)
+Læs: [Hvad er HIIT træning?](/hvad-er-hiit-traeningsprogrammer/)  
 {: .notice }
+</details>
 
-## Intervaltræning for løbere
+<details markdown="1" class="faq">
+<summary><h3>🏃 Intervaltræning for løbere</h3></summary>
 
-Intervaltræning til løb styrker dit kredsløb og kondition effektivt, fordi du ved intervalløb er i stand til at løbe med en højere intensitet i din løbetræning. Formålet med intervalløb er ofte at arbejde din hastighed og din maksimale iltoptagelse.
+Intervaltræning til løb styrker dit kredsløb og din kondition effektivt, fordi du er i stand til at løbe med højere intensitet. Formålet med intervalløb er ofte at arbejde med hastighed og maksimal iltoptagelse.
 
-Jeg løber ofte intervaller til løb baseret på mit tempo, hvis jeg har adgang til en flad rute eller en løbebane. På det lidt længere løbeinteraller, så bruger jeg også pulsen eller wattmåling.
+Jeg løber ofte intervaller baseret på mit tempo, især på en flad rute eller løbebane. Ved længere intervaller bruger jeg også puls eller wattmåling.
 
-Læs: [Intervalløb: 10 effektive metoder til intervaltræning til løb](/intervallob-intervaltraening/)
+Læs: [Intervalløb: 10 effektive metoder til intervaltræning til løb](/intervallob-intervaltraening/)  
 {: .notice }
+</details>
 
-## Intervaltræning på cykel
+<details markdown="1" class="faq">
+<summary><h3>🚴 Intervaltræning på cykel</h3></summary>
 
-Intervaller kan være en effektiv træningsform til cykling, hvis du gerne vil udnytte din tid optimalt. Men hvordan kan du bruge [intervaltræning](/intervaltraening/) til cykling. Her kigger vi på den nyeste videnskab om cykling og intervaller.
+Intervaller kan være en effektiv træningsform til cykling, hvis du vil udnytte din tid optimalt. Men hvordan bruger du intervaltræning til cykling? Vi kigger på den nyeste forskning og effektive programmer.
 
-Læs: [Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️](/intervaltraening-cykling/)
+Læs: [Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️](/intervaltraening-cykling/)  
 {: .notice }
+</details>
 
-## Intervaller på romaskine
+<details markdown="1" class="faq">
+<summary><h3>🚣 Intervaller på romaskine</h3></summary>
 
-Jeg har fået Anders Krintel, som er ekspert i roprogrammer til at hjælpe med at finde intervaller, der egner sig til brug i et træningsprogram til indendørs roning på romaskine. Jeg kan godt afsløre, at han har en forkærlighed for grumme programmer. Tjek artiklen nedenunder, hvis du vil se de bedste intervalprogrammer fra hans hjemmeside om rotræning.
+Jeg har fået Anders Krintel, som er ekspert i roprogrammer, til at hjælpe med at finde intervaller, der egner sig til indendørs roning. Han har en forkærlighed for grumme programmer, så hvis du er klar på en udfordring, så tjek artiklen nedenfor.
 
-Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/traeningsprogrammer-intervaller-roning/)
+Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/traeningsprogrammer-intervaller-roning/)  
 {: .notice }
+</details>
 
 {% comment %}
 
@@ -274,13 +286,19 @@ Læs: [Rotræning: Intervaller og træningsprogram til romaskine 🚣](/artikel/
 
 Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter dit intervalprogram sørger for at lave en [konditionstests](/kondition/tests/) eller en anden passende test, så du finder ud af, om træningen rent faktisk hjælper dig tættere på dine mål.
 
-## Opsummering - få mest muligt ud af intervaltræning
+## Opsummering – få mest muligt ud af intervaltræning
 
-Intervaltræning er effektiv træning, hvis du bruger den rigtigt i din træning. Sæt på forhånd et mål for, hvad du gerne vil opnå. Vælg derefter nogle passende intervaller, som du gradvist introducerer i din træning.
+Intervaltræning er en effektiv metode til at forbedre både kondition og præstation – men det kræver, at du bruger den rigtigt. Sæt et klart mål, vælg intervaller, der passer til dit niveau, og byg gradvist op.
 
-Find ud af hvor hårdt du bør arbejde i intervallerne og se, hvordan dine præstationer relativt hurtigt vil blive bedre.
+Ved at planlægge intensitet og pauser på forhånd, kan du træne hårdere uden at brænde ud – og se hurtige fremskridt i både kondition og energiniveau.
 
-Start din rejse mod bedre kondition i dag ved at integrere intervaltræning i din ugentlige rutine. 
+**Klar til at komme i gang?**
+
+- [Intervalløb – sådan bygger du et effektivt program](/intervallob-intervaltraening/)
+- [Cykelintervaller – programmer og forklaringer](/intervaltraening-cykling/)
+- [HIIT og Tabata – korte, intensive træningsformer](/hvad-er-hiit-traeningsprogrammer/)
+
+👉 Eller læs mere om [hvordan kroppen reagerer på træning](/traeningslaere/) for at forstå de fysiologiske mekanismer bag eller lær endnu mere om [konditionstræning](/konditionstraening/).
 
 ## Ofte stillede spørgsmål
 

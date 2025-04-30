@@ -21,9 +21,9 @@ last_modified_at: 2022-04-24T10:14:14Z
 toc: true
 ---
 
-Intervaller kan være en effektiv træningsform til cykling, hvis du gerne vil udnytte din tid optimalt.
+Intervaltræning er en af de mest effektive måder at forbedre din cykelpræstation på, især når du ønsker at optimere din træning på kort tid. 
 
-Men hvordan kan du bruge [intervaltræning](/intervaltraening/) til cykling? Lad os kigge på den nyeste videnskab om emnet.
+Men hvordan kan du få mest muligt ud af [intervaltræning](/intervaltraening/) på cyklen? I denne guide dykker vi ned i den nyeste videnskab og træningsmetoder for at maksimere effekten af dine cykelintervaller.
 
 ## Intervaltræning til cykling
 
@@ -157,11 +157,13 @@ https://marinaaagaardblog.com/2015/08/14/inspirerende-intervaltraening-tidseffek
 
 ## Konklusion
 
-Når man træner med meget høj intensitet påvirkes muskel- og senevæv utrolig meget. Det er derfor en god ide at placere dage med hård træning med 2 dages mellemrum, så kroppen har [mulighed restituere helt](/restitution/).
+Når man træner med meget høj intensitet påvirkes muskel- og senevæv utrolig meget. Det er derfor en god ide at placere dage med hård træning med 2 dages mellemrum, så kroppen har [mulighed for at restituere helt](/restitution/).
 
-Husk altid at varme grundigt op først. Desuden kan det være en god ide at placere intervaller i den første halvdel at træningen, hvor man er mest motiveret og energidepoterne er fyldte.
+Husk altid at varme grundigt op først. Desuden kan det være en god ide at placere intervaller i den første halvdel af træningen, hvor du er mest motiveret og energidepoterne er fyldte.
 
-Hvordan sammensætter du din cykeltræning? Kører du også intervaller på cyklen?
+**Vil du dykke mere ned i cykeltræning?** Tjek vores træningsplaner og [find den rette cykeltræning](/cykling/), der passer til dine mål – eller få skræddersyet et program, der kan hjælpe dig med at opnå dine træningsmål.
+
+Hvordan sammensætter du din cykeltræning? Kører du også intervaller på cyklen? Del gerne dine erfaringer eller stil spørgsmål i kommentarfeltet!
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
