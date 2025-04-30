@@ -6,7 +6,7 @@ permalink: /hastighed/beregn-tid/
 excerpt: "Udregn hvor lang tid det tager at tilbagelægge en bestemt distance med en given hastighed. Få resultatet i timer, minutter og sekunder."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1727848966760-4c58b3763949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Beregnere

@@ -6,7 +6,7 @@ permalink: /hastighed/pace-tabeller/
 excerpt: "Brug denne pacetabel til at finde din løbehastighed (km/t), tempo (min/km) og estimeret tid for distancer fra 1 km til maraton."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1720804274286-eb479df0388a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   actions:
     - label: "<i class='fas fa-print'></i> Print tabel →"

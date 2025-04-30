@@ -153,7 +153,7 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
 
 {% assign site_posts = site.posts | where: "tags", "vægttab" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}

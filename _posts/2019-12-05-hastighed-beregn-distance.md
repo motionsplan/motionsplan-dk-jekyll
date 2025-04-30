@@ -6,7 +6,7 @@ permalink: /hastighed/beregn-distance/
 excerpt: "Brug denne beregner til at finde ud af, hvor langt du løber eller cykler ud fra hastighed og tid."
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1741244951328-d95cc9626a05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Beregnere
