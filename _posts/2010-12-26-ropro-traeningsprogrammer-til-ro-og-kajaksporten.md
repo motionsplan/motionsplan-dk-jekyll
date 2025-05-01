@@ -100,7 +100,7 @@ Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), me
 
 ## Intervaller til roning og rotræning
 
-### Sixty seconds off staircase
+### 1. Sixty seconds off staircase
 
 - 5 x 210/30
 - 5 x 150/30
@@ -115,7 +115,7 @@ Er nem at forlænge eller forkorte ved at fjerne en gruppe i den ene eller anden
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/60-seconds-staircase.jpg" data-pin-media="/assets/images/pinterest/60-seconds-staircase.jpg" %}
 
-### 6-18-6 pyramide
+### 2. 6-18-6 pyramide
 
 - 6x1
 - 6x3
@@ -127,7 +127,7 @@ Jeg holder bare 1 minuts pause for hver.
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.jpg" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.jpg" %}
 
-### Pyramid of fours
+### 3. Pyramid of fours
 
 En eller to omgange af (1111 22 4 22 1111 minutter)
 
@@ -135,7 +135,7 @@ Hele tiden med 1 minuts pause.
 
 {% include motionsplan/pinterest image_path="/assets/images/pinterest/pyramid-of-fours.jpg" data-pin-media="/assets/images/pinterest/pyramid-of-fours.jpg" %}
 
-### Krintels Favorit
+### 4. Krintels Favorit
 
 Den her ror Krintel selv ofte for tiden, fordi den er et godt miks mellem lidt længere intervaller og lidt korter intervaller
 
@@ -143,7 +143,7 @@ Den her ror Krintel selv ofte for tiden, fordi den er et godt miks mellem lidt l
 
 En runde = 18 minutter. Der er en pause på 2 minutter mellem de enkelte serier i intervallerne.
 
-### Omvendte trappe
+### 5. Omvendte trappe
 
 Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette interval til roning er bare: “Er det ikke smukt?”
 
@@ -157,7 +157,7 @@ Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
 {% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
 
-### 90 seconds shuffle
+### 6. 90 seconds shuffle
 
 - 15 minutter 60/30
 - 15 minutter 45/45
@@ -165,7 +165,7 @@ Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
 Igen passer tallene sammen, så Krintel giver intervallerne skudsmålet: “Tre blokke af ren skønhed”.
 
-### Del 1000 meter
+### 7. Del 1000 meter
 
 Læg mærke til at intervallerne her er baseret på distance, og du skal holde øje med displayet for at se, hvor langt du har roet.
 
@@ -177,7 +177,7 @@ I hvert sæt ror du 1000 meter, som du fordeler mellem et hårdere interval, og 
 
 Disse intervaller er lette at forlænge eller forkorte, men du får nok mest brug for at forkorte dem.
 
-### EMO2M pyramide
+### 8. EMO2M pyramide
 
 1-2 serier x (30 sek – 35 – 40 – 45 – 50 – 55 – 60 – 55 – 50 – 45 – 40 – 35 - 30)
 
@@ -187,7 +187,7 @@ Pauserne i dette interval bliver således kortere og kortere, indtil de bliver l
 
 Én runde varer i alt 26 minutter.
 
-### 1000 meter trappe
+### 9. 1000 meter trappe
 
 Igen passer tallene sammen i dette distancebaserede intervalprogram til roning. Krintel kommenterer selv symmetrien i programmet med: “Det er så smukt, at man får en klump i halsen!”
 
@@ -202,7 +202,7 @@ Igen passer tallene sammen i dette distancebaserede intervalprogram til roning. 
 - 200/200
 - 100/200
 
-### Ultrafiks dobbelt pyramide
+### 10. Ultrafiks dobbelt pyramide
 
 - 6 min 30/30
 - 6 min 60/30
@@ -248,13 +248,13 @@ Træningsprogrammerne skifter, så du kan altid få lidt ny inspiration til din 
 
 {% include figure image_path="https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=60" caption="En romaskine kaldes også for et ergometer. Ergometertræning på romaskine er effektiv træning af konditionen og forbrændingen." %}
 
-Roere kalder en romaskine for et _ergometer_, og træning på en romaskine for _ergometertræning_. Dansk Forening for Rosport har på [roning.dk](https://www.roning.dk) samlet en masse viden om roning.
+Roere kalder en romaskine for et *ergometer*, og træning på en romaskine for *ergometertræning*. Dansk Forening for Rosport har på [roning.dk](https://www.roning.dk) samlet en masse viden om roning.
 
-De har også [træningsprogrammer til ergometertræning](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/). Træningsprogrammerne er udarbejdet for at hjælpe instruktører, men vi kan alle finde inspiration i de forskellige træningsprogrammer, som findes til både begyndere og øvede.
+De har også [træningsprogrammer til ergometertræning](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/), som er udarbejdet til instruktører – men alle kan finde inspiration i dem, uanset om man er nybegynder eller øvet.
 
-Træningsprogrammerne til rotræningen varer fra 50-60 minutter. Træningsprogrammerne er lidt mere varierede end Concept2s træningsprogrammer. Ligesom Anders Krintel på [Ropro.dk](https://www.ropro.dk//), så er mange af programmerne organiseret som en form for træningspyramide, hvor kadencen undervejs bygges op og sænkes igen - eller hvor distancerne i de enkelte intervaller skifter.
+Programmerne varer typisk 50–60 minutter og byder på større variation end Concept2’s træningsprogrammer. Ligesom Anders Krintel på [Ropro.dk](https://www.ropro.dk) er mange af dem opbygget som træningspyramider, hvor enten kadencen eller distancerne ændrer sig undervejs.
 
-Programmerne på [roning.dk](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/) er skrevet til erfarne roere som instruktører i programmerne. Derfor kan det godt være, at du lige skal læse programmerne nogle gange for at forstå, hvordan de er opbygget, hvis du ikke er så erfaren med træningsprogrammer til rotræning.
+Materialet på [roning.dk](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/) er skrevet med erfarne roere som målgruppe. Så hvis du er ny i ergometertræning, kan det være en god idé at læse programmerne igennem et par gange for at forstå opbygningen.
 
 ## Træningsprogram for begyndere fra IForm
 
