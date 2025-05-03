@@ -46,7 +46,7 @@ Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Ri
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og de enkelte løft bliver gennemgået meget grundigt i bogen.
 
-I Starting Strength træningsprogrammet træner du tre gange om uge. Programmet er et [helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
+I Starting Strength træningsprogrammet træner du tre gange om uge. Programmet er et [helkropsprogram](/styrketraening/helkropsprogrammer/) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
 
 [Spring direkte til programmet](#program){: .btn .btn--success .btn--jump }
 
@@ -276,6 +276,16 @@ Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering
 Du kan læse mere på [startingstrength.com](https://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ).
 
 {% include motionsplan/pinterest-gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}
+
+---
+
+## Konklusion
+
+Starting Strenght er et meget brugt begynderprogram. Det er enkelt, og du kan få fremgang et godt stykke tid med lineær progression.
+
+Du kan også prøve [Ivysaurs 4-4-8](/styrketraening/ivysaur-4-4-8/), hvis du gerne vil have en lidt højere volumen på dødløft og en lidt mere spændende progression.
+
+Tjek også alle vores andre [styrketræningsprogrammer](/styrketraeningsprogrammer/).
 
 ---
 

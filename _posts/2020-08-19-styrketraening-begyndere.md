@@ -466,7 +466,7 @@ Et helkropsprogram skal indeholde øvelser, der opfylder følgende kriterier:
 
 Hvis du vælger en øvelse fra hver kategori, så er der en ret god balance i din træning - og der er ikke mange muskelfibre, der undgår at komme på arbejde. Hvis du vælger et horisontalt træk, er det en god ide også at vælge et horisontalt skub og så fremdeles.
 
-**Gratis helkropsprogram**. Vi har lavet et [gratis eksempel på et helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/), som du kan bruge som udgangspunkt for dit træningsprogram.
+**Gratis helkropsprogram**. Vi har en masse [gratis eksempler på et helkropsprogrammer](/styrketraening/helkropsprogrammer/), som du kan bruge som udgangspunkt for dit træningsprogram.
 {: .notice .notice--success }
 
 ### Split program

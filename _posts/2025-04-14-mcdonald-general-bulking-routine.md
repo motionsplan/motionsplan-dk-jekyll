@@ -16,6 +16,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
+  - fullbody
   - øvet
 last_modified_at: 2025-01-27T22:21:26Z
 meta:
@@ -232,3 +233,42 @@ Hvis du har erfaringen og kosten i orden, er dette program en fremragende måde 
 ### Tip:
 
 Du kan prøve programmet i **[Liftosaur-appen](/liftosaur/)**. Her behøver du ikke tænke over detaljerne. Det hele bliver gjort automatisk for dig.
+
+<details markdown="1" class="faq">
+  <summary>🦖 Training for Warriors Upper/Lower</summary>
+
+```
+// Program is based on a Lyle McDonald's Generic Bulking Routine template ⚙️.
+// You can choose your own exercises within the template 🧩.
+// Program is supposed to be 4 days a week. You can either repeat the same workouts or choose new workouts.
+# Week 1
+## Lower Body
+// ⚙️ Squat: 3-4X6-8/3′ (3-4 sets of 6-8 with a 3′ rest)
+Squat / 4x6-8 / 78.6% 180s / progress: lp(2.5kg)
+// ⚙️ SLDL or leg curl: 3-4X6-8/3′
+Romanian Deadlift, Barbell / 3x6-8 / 78.6% 180s / progress: lp(2.5kg)
+// ⚙️ Leg press: 2-3X10-12/2′
+Leg Press / 3x10-12 / 68.03% 120s / progress: lp(2.5kg)
+// ⚙️ Another leg curl: 2-3X10-12/2′
+Seated Leg Curl / 2x10-12 / 68.03% 120s / progress: lp(2.5kg)
+// ⚙️ Calf raise: 3-4X6-8/3′
+Standing Calf Raise / 3x6-8 / 78.6% 180s / progress: lp(2.5kg)
+// ⚙️ Seated calf: 2-3X10-12/2′
+Seated Calf Raise / 3x10-12 / 68.03% 120s / progress: lp(2.5kg)
+
+## Upper Body
+// ⚙️ Flat bench: 3-4X6-8/3′
+Bench Press / 4x6-8 / 81.1kg 180s / progress: lp(2.5kg)
+// ⚙️ Row: 3-4X6-8/3′
+Bent Over Row / 3x6-8 / 72.9kg 180s / progress: lp(2.5kg)
+// ⚙️ Incline bench or shoulder press: 2-3X10-12/2′
+Shoulder Press / 3x10-12 / 14.3kg 120s / progress: lp(2.5kg)
+// ⚙️ Pulldown/chin: 2-3X10-12/2′
+Chin Up / 2x10-12 / 0kg 120s
+// ⚙️ Triceps: 1-2X12-15/1.5′
+Skullcrusher / 2x12-15 / 19.5kg 90s / progress: lp(2.5kg)
+// ⚙️ Biceps: 1-2X12-15/1.5′
+Hammer Curl / 2x12-15 / 8kg 90s / progress: lp(2kg, 2, 1)
+Lateral Raise / 2x12-15 / 8.5kg @8 90s / progress: lp(2kg, 2, 1)
+```
+</details>

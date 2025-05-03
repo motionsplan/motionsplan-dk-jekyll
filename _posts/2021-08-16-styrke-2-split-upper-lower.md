@@ -17,7 +17,7 @@ toc: true
 
 Dette 2-split program til styrketræning er baseret på upper/lower. Jeg skriver her lidt om forskellen mellem forskellige 2-split-programmer, og hvordan du kan tilpasse det til dine behov og målsætninger.
 
-Du skal træne mindst fire gange om ugen, inden det er nødvendigt at overveje et splitprogram. Typisk er et 2-split eller [3-split]({% link _posts/2021-08-16-styrke-3-split.md %}) de mest hensigtsmæssige splitprogrammer.
+Du skal træne mindst fire gange om ugen, inden det er nødvendigt at overveje et splitprogram. Typisk er et 2-split eller [3-split](/3-split-push-pull/) de mest hensigtsmæssige splitprogrammer.
 
 Dit program skal være motiverende og tilpasset dine personlige behov. Du kan se [andre træningsprogrammer til styrke](/styrketraeningsprogrammer/), som du kan lade dig inspirere af. Jeg går også mere i dybden med, [hvordan du vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
 

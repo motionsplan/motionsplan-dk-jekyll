@@ -3,7 +3,7 @@ title: &title "Anmeldelse af Stærk af Jacob Beermann"
 permalink: /artikel/staerk-bog/
 language: da
 header:
-  teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg
+  teaser: /assets/images/blog/jacob_beermann.jpg
   caption: *title
 category:
   - Styrketræning
@@ -41,7 +41,7 @@ Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du ka
 
 Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [træning til styrkeløft](/styrkeloeft/).
 
-{% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg" caption=page.title alt=page.title %}
+{% include figure image_path="/assets/images/blog/jacob_beermann.jpg" caption=page.title alt=page.title %}
 
 Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
 
@@ -130,7 +130,7 @@ Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild me
 
 Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts](/bedste-fitness-traening-podcasts/) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
 
-Hvis du kunne lide tankerne her i bogen, så kan du sikkert også lide [Stærk-træningsprogrammet](/artikel/staerk-traeningsprogram/), som er baseret på Beermanns træningsfilosofi for styrkeløft.
+Hvis du kunne lide tankerne her i bogen, så kan du sikkert også lide [Stærk-styrkeløftprogrammet](/artikel/staerk-traeningsprogram/), som er baseret på Beermanns træningsfilosofi for styrkeløft.
 
 ## Køb Stærk
 

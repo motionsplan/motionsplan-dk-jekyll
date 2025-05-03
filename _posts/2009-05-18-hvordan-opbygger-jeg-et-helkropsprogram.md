@@ -15,31 +15,51 @@ tags:
   - styrketræning
   - træningsplanlægning
   - programlægning
-  - begynder
-  - fullbody
-  - programlægning
 category:
   - Styrketræning
-last_modified_at: 2021-08-03T11:44:17Z
+last_modified_at: 2025-03-03T11:44:17Z
 ---
 
-Hvordan laver man et fullbody-program, hvor man træner hele kroppen på et træningspas? Et helkropsprogram er egnet for dig, der gerne vil træne mellem en og tre gange om ugen og vil bruge omkring en time til to timer på hver træning. Men du kan sagtens udnytte ideerne fra et fuldkropsprogram også, hvis du vil træne 4 gange om ugen.
+Vil du træne hele kroppen på én gang – uden at skulle dele din uge op i flere split? Et fullbody- eller helkropsprogram er en effektiv løsning for dig, der vil træne 1-3 gange om ugen, men det kan også tilpasses til højere træningsfrekvenser.
 
-Hvis du interesseret i at gå endnu mere i dybden med at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/) eller vores [komplette guide til styrketræning og programlægning](/traeningsprogram-programlaegning-styrketraening/). Jeg har også lavet en række [anmeldelser af styrketræningsprogrammer her](/anmeldelse-traeningsprogrammer/).
+I denne guide får du hjælp til at sammensætte dit eget helkropsprogram. Du lærer:
 
-I dette indlæg får du svar på:
+- Hvordan du vælger de rigtige øvelser?
+- Hvor mange sæt og gentagelser du bør lave?
+- Hvordan du planlægger din uge?
 
-- Hvilke øvelser kan jeg bruge i mit program?
-- Hvordan kan min ugentlige træning se ud?
-- Hvor mange sæt og gentagelser skal jeg tage?
+Hvis du vil gå mere i dybden med at [lave dit eget styrketræningsprogram](/programlaegning-styrketraening/), finder du også [en komplet guide her](/traeningsprogram-programlaegning-styrketraening/). Derudover kan du læse [anmeldelser af styrketræningsprogrammer her](/anmeldelse-traeningsprogrammer/).
 
-Hvis du gerne vil træne 4 gange eller flere om ugen, så kan du overveje at kigge på et [2-splitprogram]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}), og hvis du træner 6 gange om ugen, så kan et [3-splitprogram]({% link _posts/2021-08-16-styrke-3-split.md %}) måske være en overvejelse værd.
+Træner du oftere end 3 gange om ugen? Så kan du også overveje et [splitprogram](/styrketraening/split-programmer/), fx [2-splitprogram](/2-split-push-pull/) eller et [3-splitprogram](/3-split-push-pull/) – især hvis du træner 4-6 gange om ugen.
 
-## Hvilke øvelser skal jeg vælge i et helkropsprogram?
+## Hvad er et helkropsprogram?
 
-For at opbygge et alsidigt styrkeprogram, der træner hele kroppen, skal du vælge styrkeøvelser fra følgende forskellige grupper af øvelser:
+Helkropstræning er en af de ældste måder at træne på, og det var den altdominerende måde indtil 1960'erne. Typisk kan man fx træne et helkropsprogram mandag, onsdag og fredag. Det er en effektiv måde at træne kroppen på uanset om du vil være større, stærkere, mere kraftfuld eller bare i bedre form.
 
-### Knædominerede øvelser
+## Hvorfor vælge et fuldkropsprogram?
+
+[Charles Staley](https://t-nation.com/t/the-single-most-effective-workout-split/284590) har flere grunde til, hvorfor et fuldkropsprogram kan være godt for rigtig mange.
+
+Det gælder særligt begyndere inden for styrketræning. Tjek [dit eget niveau i styrketræning](/styrketraening/periodisering/), inden du [vælger det rigtige styrketræningsprogram for dig](/vaelg-traeningsprogram/).
+
+Staley sammenligner frekvensen for de enkelte muskelgrupper i følgende tabel:
+
+{% include figure image_path="https://global.discourse-cdn.com/tnation/original/4X/8/2/b/82b5155da24d791cef14fa2bd31f20a263ac46ea.jpeg" caption="Kilde: [T-Nation](https://t-nation.com/t/the-single-most-effective-workout-split/284590)" %}
+
+Hvis programmet er skruet rigtigt sammen, og du kan nå at restituere, så har du altså mulighed for at øve dig flere gange om ugen og stimulere proteinsyntesen oftere ved et fullbody-program.
+
+Hvis du allerede er meget erfaren, så skal der mere og mere til at stimulere muskelvækst. Der kan det være gavnligt at vælge splitprogrammer.
+
+## Valg af øvelser i et helkropsprogram
+
+For at opbygge et alsidigt styrkeprogram, der træner hele kroppen, skal du vælge styrkeøvelser fra følgende forskellige grupper af øvelser.
+
+For at holde træningstiden nede, så kan du lade de enkelte træninger være baseret på store basisøvelser. [Christian Thibaudeau](https://t-nation.com/t/training-split-whole-body-gap-workout/283396) foreslår, at man bruger 4-5 øvelser pr. workout.
+
+Du kan vælge fra følgende øvelser:
+
+<details markdown="1" class="faq">
+  <summary><h3>Knædominerede øvelser</h3></summary>
 
 Find øvelser der aktiverer de store muskler i benene og omkring hoften. Disse øvelser udfordrer især musklerne på lårets forside. Det kan være en god ide at nogle af øvelserne foregår på et ben for at udfordre balancen også.
 
@@ -47,57 +67,75 @@ Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({
 
 {% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
 
-### Hoftedominerede øvelser
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>Hoftedominerede øvelser</h3></summary>
 
 Find hoftedominante øvelser der især udfordrer musklerne omkring baglår og hofte og nederste ryg.
 
 Fx [dødløft](/doedloeft/) og [rumænsk dødløft](/oevelse/romanian-deadlift/) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
+</details>
 
-### Presøvelser for arme og bryst
+<details markdown="1" class="faq">
+  <summary><h3>Presøvelser for arme og bryst</h3></summary>
 
 Find øvelser hvor du starter med hænderne tæt på kroppen og skubber en modstand væk fra dig. Du ksla gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
 Fx [armstrækning](/armbojninger-eller-armstraekninger-pushups/), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
 
-### Træk for arme og øvre ryg
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>Træk for arme og øvre ryg</h3></summary>
 
 Find øvelser hvor du starter med hænderne væk fra kroppen og trækker en modstand til dig. Du skal gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
 Fx [pullups](/oevelse/pullup/) og [rows](/oevelse/bent-over-rows-bor/) - [Se flere trækøvelser]({% link _pages/exercises-tag-pull.md %}).
+</details>
 
-### Træning af kropsstammen og core
+<details markdown="1" class="faq">
+  <summary><h3>Loaded carries</h3></summary>
+
+Jeg holder selv meget af *loaded carries*. De er med til at skabe en god stabilitet i kroppen, samtidig med at du lærer at håndtere vægt, mens du flytter kroppen. En meget brugt øvelse er [farmer walk]({% link _exercises/farmerwalk-304.md %}).
+
+Se flere [øvelser til loaded carries](/loaded-carries/).
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3>Træning af kropsstammen og core</h3></summary>
 
 - **Rotation**. Find øvelser hvor du roterer i din overkrop, mens du holder hoften stille. Disse øvelsers formål er bl.a. at gøre din krop stærk nok til at standse rotationer igen. Fx [russian twist](/oevelse/russian-twist/) og [cykelmaveøvelse](/oevelse/cykelmaveoevelse/).
 - **Stabilitet for kropsstammen**. Find øvelser hvor du bruger den lige mavemuskel, rygmusklerne og musklerne omkring hoften til at stabilisere rygsøjlen og hoften. Fx [inch worm](/oevelse/inchworm/).
 
 Se flere [coreøvelser](/core/).
+</details>
 
-### Loaded carries
+## Sådan strukturerer du dine træningspas
 
-Jeg holder selv meget af *loaded carries*. De er med til at skabe en god stabilitet i kroppen, samtidig med at du lærer at håndtere vægt, mens du flytter kroppen. En meget brugt øvelse er [farmer walk]({% link _exercises/farmerwalk-304.md %}).
-
-Se flere [øvelser til loaded carries](/loaded-carries/).
-
-## Hvor mange øvelser skal jeg vælge?
+### Hvor mange øvelser skal jeg vælge?
 
 Hvis du vælger en eller to komplekse øvelse fra hver gruppe af øvelser, sikrer du dig at du har et alsidigt program, hvor du træner hele kroppen i hvert træningspas. Vi beskriver en lang række [træningsøvelser](/traeningsoevelser/), du kan lade dig inspirere af.
 
-## Hvor mange gentagelser skal jeg lave?
+### Hvor mange sæt og gentagelser skal jeg lave?
 
 Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelser af hver øvelse, og det gentager du 2-4 gange. Man siger at man laver otte gentagelser på fire sæt. Du kan læse mere om, [hvordan du kan dosere din styrketræning?](/traeningsprogram-programlaegning-styrketraening/).
 
-## Helkropsprogram
+## Ugentlig træningsplan for et fullbodyprogram?
 
-Helkropstræning er en af de ældste måder at træne på, og det var den altdominerende måde indtil 1960'erne. Typisk kan man fx træne et helkropsprogram mandag, onsdag og fredag. Det er en effektiv måde at træne kroppen på uanset om du vil være større, stærkere, mere kraftfuld eller bare i bedre form.
+Du kunne lave dit fuldkropsprogram på denne måde:
 
-For at holde træningstiden nede, så kan du lade de enkelte træninger være baseret på store basisøvelser. [Christian Thibaudeau](https://t-nation.com/t/whats-the-best-training-split/279335) foreslår, at man bruger 4-5 øvelser pr. workout. Det kan fx være:
+- Mandag: Fuldkrop A
+- Tirsdag: Hviledag
+- Onsdag: Fuldkrop B
+- Torsdag: Hviledag
+- Fredag: Fuldkrop C
+- Lørdag: Gap eller bonus workout
+- Søndag: Hviledag
 
-- Squat
-- Pres
-- Træk
-- Hoftedomineret øvelse
+Hvordan du strukturerer de enkelte workouts er helt op til dig. Du kan enten vælge at bruge de samme øvelser hver gang i en periode, men køre med forskellige intensiteter. Du kan også vælge at lave tre forskellige dage, hvor du bruger forskellige øvelsesvariationer. Det kommer helt an på dine præferencer og dine mål med træningen.
 
-Hvis du tilføjer en unilateral øvelse eller et _loaded carry_, så rammer du hele kroppen. Du har ingen isolationsøvelser, så du rammer ikke præcist den enkelte muskel, fx biceps og triceps, men de er involveret i enten pres eller træk.
+## Fordele ved helkropstræning
 
 Fordelene ved en helkropstræning er følgende.
 
@@ -112,27 +150,13 @@ Hvis du gerne vil udnytte alle fordelene ved et helkropsprogram, men samtidig og
 
 Det kan være meget drænende at lave et helkropsprogram. Du bruger store basisløft, og det tager meget energi i kroppen. Samtidig kan en træning tage relativt lang tid, fordi du har brug for pauser mellem de enkelte sæt, men også mellem de enkelte øvelser. Du kan overveje at udnytte [supersæt]({% link _posts/2020-06-29-superset-guide.md %}), hvor du skifter mellem to øvelser.
 
-## Ugentlig opbygning af et fullbodyprogram?
-
-Du kunne lave dit fuldkropsprogram på denne måde:
-
-- Mandag: Fuldkrop A
-- Tirsdag: Hviledag
-- Onsdag: Fuldkrop B
-- Torsdag: Hviledag
-- Fredag: Fuldkrop C
-- Lørdag: Gap eller bonus workout
-- Søndag: Hviledag
-
-Hvordan du strukturerer de enkelte workouts er helt op til dig. Du kan enten vælge at bruge de samme øvelser hver gang i en periode, men køre med forskellige intensiteter. Du kan også vælge at lave tre forskellige dage, hvor du bruger forskellige øvelsesvariationer. Det kommer helt an på dine præferencer og dine mål med træningen.
-
 ## Hvordan skal jeg træne i et fullbodyprogram?
 
 Så har du det du behøver for at lave et varieret helkropsprogram. For at få de bedste resultater er der stadig mere at lære.
 
 - **Langsom opstart**. Hvis du er begynder, skal du starte stille og roligt, når du starter på et nyt program. Derfor kan det som begynder være fornuftigt ikke at træne med for stor belastning. Husk at sener og knogler er noget langsommere til at tilpasse sig træning end muskler er.
 - **Slå en rekord hver gang**. Når du kommer til træning skal du gerne slå en rekord hver gang. Det kan være lidt mere vægt i en øvelse, eller lidt flere gentagelser, eller et ekstra set af en øvelse. På den måde sikrer du dig, at der er konstant fremgang.
-- **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere på motion-online.dk i artiklen [Brug tiden effektivt i fitnesscenteret](https://www.motion-online.dk/brug-tiden-effektivt-fitnesscenteret/){:rel="nofollow"}.
+- **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere om at [bruge tiden effektivt i fitnesscenteret med supersæt](/guide-superset/).
 - **Variér din træning**. Du skal sørge for at variere din træning. Brug fx det samme træningsprogram tre uger i træk, og derefter vælger du nogle nye øvelser.
 - **Lær noget mere om styrketræning**. Læs fx denne [komplette begynderguide til programlægning til styrketræning](/traeningsprogram-programlaegning-styrketraening/) eller [6 trin til at lave dit eget træningsprogram til styrketræning](/programlaegning-styrketraening/).
 
@@ -147,16 +171,17 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 
 Rigtig mange af de [klassiske træningsprogrammer til styrke](/styrketraeningsprogrammer/) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
 
-{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where: "tags", "populær" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" markdown="1">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
+[Se flere helkropsprogrammer](/styrketraening/helkropsprogrammer/){: .btn .btn--success .btn--center }
 </div>
 
 {% comment %}

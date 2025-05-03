@@ -91,7 +91,7 @@ I mange træningsprogrammer arbejder man med et lidt konservativt **træningsmax
 
 Det er nemlig for hårdt at løfte alle sæt med RPE 10.
 
-[Stærk med Jacob Beermann](/artikel/staerk-traeningsprogram/), [Jim Wendlers 5/3/1](/wendler-531-styrketraeningsprogram/), [Starting Strength](/starting-strength-styrketraeningsprogram/), [Texas Method](/texas-method/) er alle programmer, der forudsætter en viden om din 1RM for at komme i gang med programmet.
+[Jacob Beermanns Stærk](/artikel/staerk-traeningsprogram/), [Jim Wendlers 5/3/1](/wendler-531-styrketraeningsprogram/), [Starting Strength](/starting-strength-styrketraeningsprogram/), [Texas Method](/texas-method/) er alle programmer, der forudsætter en viden om din 1RM for at komme i gang med programmet.
 
 ## Ofte stillede spørgsmål
 

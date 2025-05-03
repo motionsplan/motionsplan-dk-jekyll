@@ -128,132 +128,138 @@ Du kan også lægge programmet ind i [Liftosaur](/liftosaur/).
 ```
 # Week 1
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 75% / @7 / 180s
-Speed: Deadlift, Barbell / 8x3 / 60% / 90s / warmup: none
+Heavy: Deadlift / 1x2 / 75% @7 180s
+Speed: Deadlift / 8x3 / 60% 90s / warmup: none
 
-// Superset the following. Rest 90s between exercises. 180s between rounds.
-Stiff Leg Deadlift, Barbell / 3x8 / @6
-Bent Over Row, Barbell / 3x8 / @7
-// Underhand grip
-Lat Pulldown, Cable / 3x8 / @7
-Good Morning, Barbell / 3x8 / @6
+// **Superset** the following exercises. Rest 90s between exercises. 180s between rounds.
+// 🔁 **Superset 1️⃣**
+Romanian Deadlift, Barbell / 3x8 / 68.03% @6 / 90s
+// 🔁 **Superset 2️⃣**
+Bent Over Row / 3x8 / 70.67% @7 / 90s
+// 🔁 **Superset 3️⃣** - Lat pull down with underhand grip
+Lat Pulldown / 3x8 / 70.67% @7 / 90s
+// 🔁 **Superset 4️⃣** - Good morning done with arched back.
+Good Morning / 3x8 / 68.03% @6 / 180s
 
 
 # Week 2
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 80% / @7 / 180s
-Speed: Deadlift, Barbell / 8x3 / 65% / 90s / warmup: none
+Heavy: Deadlift / 1x2 / 80% @7 180s
+Speed: Deadlift / 8x3 / 65% 90s / warmup: none
 
-// Superset the following. Rest 90s between exercises. 180s between rounds.
-Stiff Leg Deadlift, Barbell / 3x8 / @6
-Bent Over Row, Barbell / 3x8 / @7
-// Underhand grip
-Lat Pulldown, Cable / 3x8 / @7
-Good Morning, Barbell / 3x8 / @6
+/// Same as week 1
+
+Romanian Deadlift, Barbell / 3x8
+Bent Over Row / 3x8
+Lat Pulldown / 3x8
+Good Morning / 3x8
 
 
 # Week 3
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 85% / @7 / 180s
-Speed: Deadlift, Barbell / 6x3 / 70% / 90s / warmup: none
+Heavy: Deadlift / 1x2 / 85% @7 180s
+Speed: Deadlift / 6x3 / 70% 90s / warmup: none
 
-// Superset the following. Rest 90s between exercises. 180s between rounds.
-Stiff Leg Deadlift, Barbell / 3x8 / @6
-Bent Over Row, Barbell / 3x8 / @7
-// Underhand grip
-Lat Pulldown, Cable / 3x8 / @7
-Good Morning, Barbell / 3x8 / @6
+/// Same as week 1
+
+Romanian Deadlift, Barbell / 3x8
+Bent Over Row / 3x8
+Lat Pulldown / 3x8
+Good Morning / 3x8
 
 
 # Week 4
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 90% / @7 / 180s
-Speed: Deadlift, Barbell / 5x3 / 75% / 90s / warmup: none
+Heavy: Deadlift / 1x2 / 90% @7 180s
+Speed: Deadlift / 5x3 / 75% 90s / warmup: none
 
-// Superset the following. Rest 90s between exercises. 180s between rounds.
-Stiff Leg Deadlift, Barbell / 3x8 / @6
-Bent Over Row, Barbell / 3x8 / @7
-// Underhand grip
-Lat Pulldown, Cable / 3x8 / @7
-Good Morning, Barbell / 3x8 / @6
+/// Same as week 1
+
+Romanian Deadlift, Barbell / 3x8
+Bent Over Row / 3x8
+Lat Pulldown / 3x8
+Good Morning / 3x8
 
 
+// This week we deload a bit and accessory exercises are done as straight sets.
 # Week 5
 ## Day 1
-Heavy: Deadlift, Barbell / 3x3 / 80% / 180s
-Speed: Deadlift, Barbell / 3x3 / 65% / 120s / warmup: none
+Heavy: Deadlift / 3x3 / 80% 180s
+Speed: Deadlift / 3x3 / 65% 120s / warmup: none
 
-// Do as straight sets
-// Use 60% deadlift 1RM
-Power Shrugs / 3x5
-Stiff Leg Deadlift, Barbell / 3x5 / @6
-Bent Over Row, Barbell / 3x5 / @7
-// Underhand grip
-Lat Pulldown, Cable / 3x5 / @7
-Good Morning, Barbell / 3x5 / @6
+// ➡️ **Straight sets**
+// **Power shrugs** - Use 60% deadlift 1RM
+Power Shrugs / 3x5 / @7 / 120s
+// **RDL**
+Romanian Deadlift, Barbell / 3x5 / @6 / 120s
+// **BOR**
+Bent Over Row / 3x5 / @7 / 120s
+// **Lat pulldown** - underhand grip
+Lat Pulldown / 3x5 / @7 / 120s
+// **Good morning** - arched back
+Good Morning / 3x5 / @6 / 120s
 
 
 # Week 6
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 85% / 180s
-Speed: Deadlift, Barbell / 3x3 / 70% / 120s / warmup: none
+Heavy: Deadlift / 1x2 / 85% 180s
+Speed: Deadlift / 3x3 / 70% 120s / warmup: none
 
-// Do as straight sets
-// Use 60% deadlift 1RM
+/// Same as week 5
+
 Power Shrugs / 3x5
-Stiff Leg Deadlift, Barbell / 3x5 / @6
-Bent Over Row, Barbell / 3x5 / @7
-// Underhand grip
-Lat Pulldown, Cable / 3x5 / @7
-Good Morning, Barbell / 3x5 / @6
+Romanian Deadlift, Barbell / 3x5
+Bent Over Row / 3x5
+Lat Pulldown / 3x5
+Good Morning / 3x5
 
 
+// Accessory exercises are the same as the week before, but one less set, so use higher weights.
 # Week 7
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 90% / 180s
-Speed: Deadlift, Barbell / 3x3 / 75% / 120s / warmup: none
+Heavy: Deadlift / 1x2 / 90% 180s
+Speed: Deadlift / 3x3 / 75% 120s / warmup: none
 
-// Do as straight sets
-// Use 70% deadlift 1RM
-Power Shrugs / 2x5
-Stiff Leg Deadlift, Barbell / 2x5 / @7
-Bent Over Row, Barbell / 2x5 / @8
-// Underhand grip
-Lat Pulldown, Cable / 2x5 / @8
-Good Morning, Barbell / 2x5 / @7
+// ➡️ **Straight sets**
+// **Power shrugs** - Use 70% deadlift 1RM
+Power Shrugs / 2x5 / @8 / 120s
+Romanian Deadlift, Barbell / 2x5 / @7 / 120s
+Bent Over Row / 2x5 / @8 / 120s
+Lat Pulldown / 2x5 / @8 / 120s
+Good Morning / 2x5 / @7 / 120s
 
 
 # Week 8
 ## Day 1
-Heavy: Deadlift, Barbell / 1x2 / 95% / 180s
-Speed: Deadlift, Barbell / 3x3 / 70% / 120s / warmup: none
+Heavy: Deadlift / 1x2 / 95% 180s
+Speed: Deadlift / 3x3 / 70% 120s / warmup: none
 
-// Do as straight sets
-// Use 70% deadlift 1RM
+/// Same as week 7
+
 Power Shrugs / 2x5
-Stiff Leg Deadlift, Barbell / 2x5 / @7
-Bent Over Row, Barbell / 2x5 / @8
-// Underhand grip
-Lat Pulldown, Cable / 2x5 / @8
-Good Morning, Barbell / 2x5 / @7
+Romanian Deadlift, Barbell / 2x5
+Bent Over Row / 2x5
+Lat Pulldown / 2x5
+Good Morning / 2x5
 
 
 # Week 9
 ## Day 1
-Heavy: Deadlift, Barbell / 1x1 / 97.5% / 180s
-Speed: Deadlift, Barbell / 2x3 / 70% / 180s / warmup: none
+Heavy: Deadlift / 1x1 / 97.5% 180s
+Speed: Deadlift / 2x3 / 70% 180s / warmup: none
 
-// Do as straight sets
-// Use 75% deadlift 1RM
+// ➡️ **Straight sets**
+// **Power shrugs** - Use 75% deadlift 1RM
 Power Shrugs / 2x5 / 120s
-Stiff Leg Deadlift, Barbell / 2x5 / @8 / 120s
+Romanian Deadlift, Barbell / 2x5 / @8 120s
 
 
+// Test week. No accessory exercises.
 # Week 10
 // Testday
 ## Day 1
-Heavy: Deadlift, Barbell / 1x1 / 100%+ / 180s
-Speed: Deadlift, Barbell / 2x3 / 60% / 180s
+Heavy: Deadlift / 1x1 / 100%+ 240s
+Speed: Deadlift / 2x3 / 60% 180s / warmup: none
 ```
 
 </details>

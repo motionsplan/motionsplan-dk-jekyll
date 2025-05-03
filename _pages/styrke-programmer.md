@@ -19,7 +19,7 @@ header:
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: "Træningsprogrammer til styrketræning"
   actions:
-    - label: "<i class='fas fa-table'></i> Direkte til oversigten"
+    - label: "<i class='fas fa-table'></i> Direkte til programoversigten"
       url: "#oversigt"
 faq:
   - question: "Hvilket træningsprogram skal jeg vælge?"
@@ -64,7 +64,7 @@ Disse effektive styrketræningsprogrammer kan hjælpe dig uanset om dit mål er 
 
 Du bør vælge et program, hvor du træner de enkelte muskelgrupper mindst to gange om ugen for at optimere effekten af træningsprogrammet.
 
-Det kan du gøre gennem [fullbody](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/) eller [splitprogrammer](/styrketraening/split-programmer/) (hvor nogle af de populære er [2-split push pull]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}) og [et 3-split-program]({% link _posts/2021-08-16-styrke-3-split.md %})).
+Det kan du gøre gennem [fullbody](/styrketraening/helkropsprogrammer/) eller [splitprogrammer](/styrketraening/split-programmer/) (hvor nogle af de populære er [2-split push pull](/2-split-push-pull/) og [et 3-split-program](/3-split-push-pull/)).
 
 Hvis du er i tvivl om, hvad du skal vælge, så husk vores [guide til at vælge styrkeprogram](/vaelg-traeningsprogram/) for at forstå tre-trins-raketten.
 

@@ -57,7 +57,9 @@ last_modified_at: 2024-07-06T16:08:18Z
 key: 20250706160818
 ---
 
-Pendlay rows er en intens og eksplosiv træningsøvelse, der effektivt styrker ryggen og forbedrer din evne til at løfte tungt. Denne øvelse er ideel for dem, der ønsker at træne deres øvre ryg og core, samtidig med at de arbejder med høj hastighed og eksplosivitet. Selvom den er sjældent brugt i danske fitnesscentre, er Pendlay rows en fantastisk metode til at udfordre både teknik og styrke.
+Pendlay rows er en intens og eksplosiv træningsøvelse, der effektivt styrker ryggen og forbedrer din evne til at løfte tungt. Denne øvelse er ideel for dem, der ønsker at træne deres øvre ryg og core, samtidig med at de arbejder med høj hastighed og eksplosivitet.
+
+Selvom den er sjældent brugt i danske fitnesscentre, er Pendlay rows en fantastisk metode til at udfordre både teknik og styrke.
 
 ## Hvad er Pendlay Rows?
 
@@ -73,7 +75,7 @@ Pendlay rows adskiller sig fra andre row-varianter som T-bar rows og Yates rows,
 
 Udover ryggen arbejder Pendlay rows også med biceps, mave, lænd, baglår, hofte og baller, som hjælper med at stabilisere kroppen under løftet. Øvelsen udfordrer din core og kræver stor mobilitet i hofte, ryg og skuldre.
 
-## Udfør Pendlay Rows Korrekt
+## Udfør Pendlay Rows korrekt
 
 For at udføre Pendlay rows korrekt, følg disse trin:
 
@@ -87,7 +89,7 @@ For at udføre Pendlay rows korrekt, følg disse trin:
 
 Stop i bunden af hver gentagelse giver dig mulighed for at træne mere eksplosivt og tungt end i almindelige rows. Det hjælper også med at fokusere på din core og muskulaturen omkring skulderbladene, hvilket betyder, at du hele tiden lærer at være "tight".
 
-## Brug af Pendlay Rows til Genoptræning
+## Brug af Pendlay Rows til genoptræning
 
 Pendlay rows kan være en god øvelse, selv hvis du har problemer med lænden. Øvelsen kan indgå i din genoptræning og hjælpe med at styrke den nederste del af ryggen.
 
@@ -96,7 +98,7 @@ Pendlay rows kan være en god øvelse, selv hvis du har problemer med lænden. �
 - Hvis du har problemer med at nå ned til gulvet, kan du hæve stangen på en kasse, vægtskiver eller en anden platform for at gøre det lettere at få stangen i den rette position.
 - Hvis du er tæt på failure eller ønsker at bruge mere vægt, kan du bruge "cheat" teknikker som at hjælpe med at løfte overkroppen eller bruge benene lidt, men kun hvis det er nødvendigt.
 
-## Pendlay Rows og Vægtløftning
+## Pendlay Rows og vægtløftning
 
 Pendlay rows er særligt nyttige for dem, der træner vægtløftning eller styrkeløft, især hvis du udfører snatch grip deadlift. Denne variant af dødløft kræver meget af den øvre ryg, og Pendlay rows hjælper med at forbedre din evne til at udføre den korrekt.
 
@@ -104,7 +106,10 @@ Pendlay rows er særligt nyttige for dem, der træner vægtløftning eller styrk
 
 Pendlay rows blev populært gennem den olympiske vægtløftningstræner Glenn Pendlay og styrkeløftere som Ed Coan og Mark Philippi. Øvelsen blev udviklet for at styrke bundpositionen i mange styrkeløft og olympiske løft, såsom snatch, dødløft og squat.
 
-## Pendlay Rows som Hjælpeøvelse
+**Læs også**: [Ed Coans dødløftrutine til Mark Philippi](/ed-coan-doedloeft-cyklus/)
+{: .notice }
+
+## Pendlay Rows som hjælpeøvelse
 
 Pendlay rows er også en fantastisk hjælpeøvelse for andre løft som dødløft, bænkpres og pull-ups. De hjælper især med at styrke din bundposition og eksplosivitet.
 

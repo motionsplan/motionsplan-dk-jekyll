@@ -32,7 +32,7 @@ Fordelen ved et splitprogram er, at du kan fokusere endnu mere på hver muskelgr
 De to mest klassiske måder at lave et to-split på er:
 
 - **Træk-pres**. Det er det program vi går i dybden med i denne artikel. Her kunne dag 1 fx hedde træk med øvelser til ryg, ben og biceps og dag 2 være pres med bryst, skulder og triceps.
-- **[Upper/over eller overkrop/underkrop]({% link _posts/2021-08-16-styrke-2-split-upper-lower.md %})**. Her fokuserer du på underkrop en dag og overkrop den anden dag.
+- **[Upper/over eller overkrop/underkrop](/2-split-upper-lower/)**. Her fokuserer du på underkrop en dag og overkrop den anden dag.
 
 Begge dele kan fungere rigtig godt som et 2-split-program.
 
@@ -63,7 +63,7 @@ En uge kunne fx se sådan her ud:
 
 Hvis du gerne vil træne flere gange om ugen, så kan du godt gøre det ud fra samme skabelon. Du skal sænke volumen i de enkelte træninger, så du er klar til næste træning. Sørg stadig for at have mindst en fridag i ugen.
 
-Du kan også prøve et [3-split-program]({% link _posts/2021-08-16-styrke-3-split.md %}), men yderligere split vil nok være for omfattende for langt de fleste. Det er virkelig avanceret bodybuilding og kræver mange års erfaring.
+Du kan også prøve et [3-split-program](/3-split-push-pull/), men yderligere split vil nok være for omfattende for langt de fleste. Det er virkelig avanceret bodybuilding og kræver mange års erfaring.
 
 ## Modificeret Hatfield 2-split til træk/pres
 

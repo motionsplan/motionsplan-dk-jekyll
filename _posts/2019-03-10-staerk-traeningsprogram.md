@@ -1,9 +1,9 @@
 ---
-title: &title "Stærk: Styrketræningsprogram af Jacob Beermann"
+title: &title "Stærk: Styrkeløftsprogram af Jacob Beermann"
 permalink: /artikel/staerk-traeningsprogram/
 language: da
 header:
-  teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg
+  teaser: /assets/images/blog/jacob_beermann.jpg
   caption: *title
 category:
   - Styrketræning
@@ -11,11 +11,11 @@ tags:
   - anmeldelse
   - styrkeløft
   - programanmeldelse
-  - begynder
   - fullbody
   - populær
   - styrketræning
   - træningsprogram
+  - begynder
 last_modified_at: 2025-03-10T08:39:32Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
@@ -46,7 +46,7 @@ Jacob Beermann har skrevet [bogen "Stærk"](/artikel/staerk-bog/) som en introdu
 
 Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [træning til styrkeløft](/styrkeloeft/).
 
-{% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann.jpg" caption=page.title alt=page.title %}
+{% include figure image_path="/assets/images/blog/jacob_beermann.jpg" caption=page.title alt=page.title %}
 
 Når du køber bogen, får du også et **træningsprogram til styrkeløft** og adgang til en **eksklusiv Facebookgruppe**, hvor læserne af bøgerne deler tips, og hvor Jacob Beermann også er aktiv med at svare på spørgsmål.
 

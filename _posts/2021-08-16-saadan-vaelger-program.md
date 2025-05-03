@@ -211,6 +211,8 @@ Mange vælger dog at arbejde med splitprogrammer, hvor hver træning har fokus p
 
 </details>
 
+Læs meget mere om [helkropsprogrammer](/styrketraening/helkropsprogrammer/) og [splitprogrammer](/styrketraening/split-programmer/).
+
 ***
 
 ## Styrketræningsprogram til kvinder

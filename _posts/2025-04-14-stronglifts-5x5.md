@@ -16,6 +16,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
+  - fullbody
   - begynder
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:
@@ -43,7 +44,7 @@ meta:
 
 **StrongLifts 5x5** er et [simpelt og effektivt styrketræningsprogram](/styrketraeningsprogrammer/) for begyndere og let øvede. Det fokuserer på at opbygge styrke gennem grundlæggende flerledsøvelser med høj frekvens og lineær progression.
 
-Hvis du allerede har kørt Stronglifts 5x5 i et stykke tid, så kan du overveje at kigge på [Madcow 5x5](/madcow-5x5/).
+Hvis du allerede har kørt Stronglifts 5x5 i et stykke tid, så kan du overveje at kigge på [Madcow 5x5](/madcow-5x5/) eller [Ivysaurs 4-4-8](/styrketraening/ivysaur-4-4-8/).
 
 [Spring direkte til programmet](#program){: .btn .btn--success .btn--jump }
 
@@ -159,7 +160,7 @@ Start let, træn hårdt og bliv stærkere uge for uge 💪 Når du ikke længere
 Du kan prøve programmet i **[Liftosaur-appen](/liftosaur/)**. Her behøver du ikke tænke over detaljerne. Det hele bliver gjort automatisk for dig.
 
 <details markdown="1" class="faq">
-  <summary>🦖 Liftosaur Ed Coan dødløftrutine</summary>
+  <summary>🦖 Stronglifts 5x5</summary>
 
 ```
 # Week 1

@@ -280,7 +280,7 @@ En af de mest typiske fejl i programlægning er at lægge for stor vægt på sup
 
 ### Primære bevægelsesmønstre
 
-Nogle bevægelser i styrketræning er virkelig væsentlige. For at få en allround træning, så bør du komme forbi følgende bevægelser i løbet af dit træningsprogram. Det er særligt vigtigt at mestre et 'squat' og 'hip hinge', så sørg for at lære det. Læs endnu mere om de forskellige bevægelsesmønstre i artiklen [Sådan laver du et fuldkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/).
+Nogle bevægelser i styrketræning er virkelig væsentlige. For at få en allround træning, så bør du komme forbi følgende bevægelser i løbet af dit træningsprogram. Det er særligt vigtigt at mestre et 'squat' og 'hip hinge', så sørg for at lære det. Læs endnu mere om de forskellige bevægelsesmønstre i artiklen: [Sådan laver du et fuldkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/).
 
 <details markdown="1" class="faq">
   <summary>Knædominieret øvelse - squat, lunges</summary>
@@ -582,7 +582,7 @@ Et helkropsprogram skal indeholde øvelser, der opfylder følgende kriterier:
 
 Hvis du vælger en øvelse fra hver kategori, så er der en ret god balance i din træning - og der er ikke mange muskelfibre, der undgår at komme på arbejde. Hvis du vælger et horisontalt træk, er det en god ide også at vælge et horisontalt skub og så fremdeles.
 
-**Gratis helkropsprogram**. Vi har lavet et [gratis eksempel på et helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/), som du kan bruge som udgangspunkt for dit træningsprogram.
+**Gratis helkropsprogram**. Du kan finde flere [gratis eksempler på fullbody-programmer](/styrketraening/helkropsprogrammer/), som du kan bruge som udgangspunkt for dit træningsprogram, eller du kan [lave dit eget helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/).
 {: .notice .notice--success }
 </details>
 

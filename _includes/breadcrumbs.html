@@ -6,7 +6,8 @@
         <meta itemprop="position" content="{{ i }}" />
     </li>
     <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
-    {%- for category in page.categories -%}
+    {% assign categories = page.category | default: page.categories %}
+    {%- for category in categories -%}
       {% assign i = i | plus: 1 %}
       {%- assign crumb = site.data.breadcrumbs[category] -%}
       {%- if crumb and page.url != crumb.url -%}

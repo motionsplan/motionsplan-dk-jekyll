@@ -16,6 +16,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
+  - fullbody
   - begynder
 last_modified_at: 2025-01-27T22:21:26Z
 meta:
@@ -27,7 +28,7 @@ meta:
 
 Vil du styrke hele kroppen med en effektiv, klassisk træningsrutine? Så behøver du ikke lede længere end **The Golden Six** – den træningsplan, som en ung Arnold Schwarzenegger brugte i begyndelsen af sin karriere. Enkelt, men yderst effektivt.
 
-Golden Six er en **[fullbody-rutine](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/)**, der trænes tre gange om ugen. Programmet fokuserer på seks grundlæggende øvelser, som tilsammen rammer hele kroppen. Det er perfekt for begyndere, men også velegnet til erfarne løftere, der har brug for et simpelt og gennemprøvet setup.
+Golden Six er en **[fullbody-rutine](/styrketraening/helkropsprogrammer/)**, der trænes tre gange om ugen. Programmet fokuserer på seks grundlæggende øvelser, som tilsammen rammer hele kroppen. Det er perfekt for begyndere, men også velegnet til erfarne løftere, der har brug for et simpelt og gennemprøvet setup.
 
 Golden Six er et af de [styrketræningsprogrammer](/styrketraeningsprogrammer/), som du næsten bør have prøvet, hvis du tager din styrketræning seriøst.
 
