@@ -16,7 +16,7 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-Critical Power er et alternativ til at teste din fysiske formåen, når du har adgang til at måle _power_. Det kan bruges som en erstatning for at måle [Functional Threshold Power (FTP)]({% link _posts/2021-08-29-ftp-power.md %}).
+Critical Power er et alternativ til at teste din fysiske formåen, når du har adgang til at måle _power_. Det kan bruges som en erstatning for at måle [Functional Threshold Power (FTP)](/ftp-cykling/).
 
 {% include video provider="youtube" id="JLDqPDqH69I" %}
 

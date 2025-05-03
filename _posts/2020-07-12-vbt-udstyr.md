@@ -74,12 +74,6 @@ feature_row:
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
-  - image_path: https://cdn.shopify.com/s/files/1/0512/6491/3569/products/beast-sensor-03_0_1024x1024@2x.jpg?v=1611758882
-    url: https://www.thisisbeast.com/
-    title: "Beast"
-    excerpt: "Beast er en sensor som du enten sætter på stangen med en magnet eller bærer rundt om håndleddet. De er meget alsidig fordi du også kan sætte den på vægtstakken på en maskine eller på en vest i forhold til at bruge den i pullups og til springøvelser."
-    btn_class: "btn--info"
-    btn_label: Læs mere
   - image_path: https://static1.squarespace.com/static/51509569e4b0cdd186de0b85/53c5cb51e4b01886bc5516b3/5a9ea0f30d9297fd81ae5127/1580650938021/push-band.png?format=1500w
     url: https://www.trainwithpush.com/
     title: "Push Band"
@@ -112,7 +106,7 @@ For mere information om [VBT og hvordan du bruger det](/vbt/).
 
 Velocity based training er ikke et nyt fænomen, men med den teknologiske udvikling er der kommet flere hjælpemidler frem, som os almindelige mennesker kan købe og bruge til vores egen træning.
 
-De mest udbredte teknologier til at måle hastighed er _lineær position transducers_ (fx Gymaware og [Repone](https://repone-strength.myshopify.com/lars-olesen){: rel="nofollow sponsored noopener" }), accellerometer (fx [Beast](https://www.thisisbeast.com/en)) eller laser (fx [Flex](https://www.flexstronger.com/?rfsn=4448247.fcbbca){: rel="nofollow sponsored noopener" }).
+De mest udbredte teknologier til at måle hastighed er _lineær position transducers_ (fx Gymaware og [Repone](https://repone-strength.myshopify.com/lars-olesen){: rel="nofollow sponsored noopener" }), accellerometer (fx PushBand) eller laser (fx [Flex](https://www.flexstronger.com/?rfsn=4448247.fcbbca){: rel="nofollow sponsored noopener" }).
 
 Fælles for disse aggregater som har forskellige udformninger er, at de måler hastigheden af løftene. Det giver en objektiv måde at vurdere om atleten formår at løfte stangen eksplosivt, og om hastigheden på stangen holder sig inden for de rigtig hastighedszoner i forhold til atletens mål.
 
@@ -125,7 +119,6 @@ Fælles for disse aggregater som har forskellige udformninger er, at de måler h
 Hvis du gerne vil bruge VBT i din egen træning, så er der ingen vej uden om at investere i noget, der kan måle hastigheden på dine løft. Heldigvis er der kommet flere og billigere muligheder de seneste år.
 
 - **RepOne**. Hvis du primært løfter store _compound øvelser_ som fx squat, bænkpres, dødløft og vægtløftning, så kan jeg virkelig godt lide [RepOne](https://repone-strength.myshopify.com/lars-olesen){: rel="nofollow sponsored noopener" }. Den virker meget præcis og er let at bruge under træningen, fordi man bare lige kobler snoren på stangen med en magnet. Jeg har endnu ikke haft en _missed rep_, hvor den ikke har målt løftet. App'en til telefonen er meget simpel, og måske kunne den godt trænge til et designmæssigt løft, og det er lidt bøvlet at planlægge sin træning med appen.
-- **Beast Sensor**. Hvis du også gerne vil måle lidt på spring og pullups også, så har jeg også brugt [Beast Sensor](https://thisisbeast.com/), som er et accelerometer du kan sætte på ting med enten en magnet eller en strap. Med Beast Sensor var _missed reps_ eller _ghost reps_ (reps jeg aldrig tog) en lidt større udfordring. Da den fungerer med accellerometer er den formentlig også mindre præcis end fx RepOne. Til gengæld er den billigere og har lidt flere muligheder. App'en er ret smart, og du kan planlægge din træning hjemmefra.
  - **Andre muligheder**. Jeg har kun prøvet det to ovenstående, men Push Band, Atlas Wristband og [Flex](https://www.flexstronger.com/?rfsn=4448247.fcbbca){: rel="nofollow sponsored noopener" } er andre muligheder med forskellige karakteristika, som det er til at betale.
 
 {% include feature_row type="left" %}

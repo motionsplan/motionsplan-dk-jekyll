@@ -31,12 +31,6 @@ feature_row:
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
-  - image_path: https://cdn.shopify.com/s/files/1/0512/6491/3569/products/beast-sensor-03_0_1024x1024@2x.jpg?v=1611758882
-    url: https://www.thisisbeast.com/
-    title: "Beast"
-    excerpt: "Beast er en sensor som du enten sætter på stangen med en magnet eller bærer rundt om håndleddet. De er meget alsidig fordi du også kan sætte den på vægtstakken på en maskine eller på en vest i forhold til at bruge den i pullups og til springøvelser."
-    btn_class: "btn--info"
-    btn_label: Læs mere
   - image_path: https://static1.squarespace.com/static/51509569e4b0cdd186de0b85/53c5cb51e4b01886bc5516b3/5a9ea0f30d9297fd81ae5127/1580650938021/push-band.png?format=1500w
     url: https://www.trainwithpush.com/
     title: "Push Band"

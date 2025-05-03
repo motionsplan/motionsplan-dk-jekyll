@@ -105,7 +105,7 @@ Her er eksempler på Ground Contact Time og Vertical Oscillation fra en af mine 
 
 Puls er meget udbredt som et redskab til at styre intensitet i træning. Puls måles i slag per minut (BPM).
 
-Du kan lave [pulstræning](/pulstraening/), hvor du kan træne med forskellige [pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne er ofte etableret udfra [maxpulsen](/test-max-puls/), men du kan også bruge [pulsreserven](/pulsreserve/), som også inddrager [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %}).
+Du kan lave [pulstræning](/pulstraening/), hvor du kan træne med forskellige [pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne er ofte etableret udfra [maxpulsen](/test-max-puls/), men du kan også bruge [pulsreserven](/pulsreserve/), som også inddrager [hvilepuls](/hvilepuls/).
 
 Faktisk har nogle forskere fundet ud af, at du også kan estimere dit [kondital](/kondital/) ved at bruge dine [pulsmålinger]({% link _posts/2019-10-31-kondital-fra-puls.md %}).
 

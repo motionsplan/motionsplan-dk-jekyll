@@ -42,7 +42,7 @@ Men lad os først kigge på den grundlæggende teknik for lunges og bagefter kig
 
 ## Teknik i lunges
 
-I [tekniske tips til styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}) har jeg beskrevet nogle grundlæggende tekniske pejlepunkter, som kan være et godt udgangspunkt for en **perfekt lunges teknik**.
+I [tekniske tips til styrketræning](/rigtig-teknik-styrketraening/) har jeg beskrevet nogle grundlæggende tekniske pejlepunkter, som kan være et godt udgangspunkt for en **perfekt lunges teknik**.
 
 Teknisk udførelse af en bevægelse handler primært om:
 

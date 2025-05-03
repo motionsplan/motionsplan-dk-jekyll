@@ -79,7 +79,7 @@ Relateret: [Zwift](/komplet-begynderguide-zwift/) - [MyWhoosh Cycling](/mywhoosh
 
 BKOOL er [virtuel cykling](/hometrainer-apps/), som kobles sammen med din _hometrainer_ til cykling. BKOOL er en platform for cykelryttere. BKOOL giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i BKOOL og køre løb mod andre i den virtuelle BKOOL-verden.
 
-Ud over at konkurrere mod andre cykelryttere i BKOOL-cykelløb kan du også lægge hele din træning ind i BKOOL. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i BKOOL er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)]({% link _posts/2021-08-29-ftp-power.md %}).
+Ud over at konkurrere mod andre cykelryttere i BKOOL-cykelløb kan du også lægge hele din træning ind i BKOOL. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i BKOOL er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)](/ftp-cykling/).
 
 {% include figure image_path="https://cdnwebpub.bkool.com/bkool-2019/images/public-web/home/bkool-family-2x.jpg" caption="Typisk setup i Zwift. Kilde: [bkool.com](https://www.bkool.com/en)" alt="Typisk setup i BKOOL" %}
 

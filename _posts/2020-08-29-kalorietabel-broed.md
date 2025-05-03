@@ -20,7 +20,7 @@ Mange vil gerne vide, hvor mange kalorier, der er i brød, så jeg har lavet den
 
 ## Kalorietabel med brød
 
-Kalorietabellen indeholder forskellige typer brød. I tabellen kan du finde kalorier for forskellige typer brød. Du kan også se en [komplet kalorietabel]({% link _posts/2020-08-29-kalorietabellen.md %}), [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) eller [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}).
+Kalorietabellen indeholder forskellige typer brød. I tabellen kan du finde kalorier for forskellige typer brød. Du kan også se en [komplet kalorietabel](/kalorietabellen/), [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) eller [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}).
 
 Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet, som jeg har lavet en beregner til](/bmr-beregner-hvilestofskifte-basalstofskifte/). Jeg har også lavet en oversigt over [MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
 

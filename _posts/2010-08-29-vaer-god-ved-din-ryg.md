@@ -47,7 +47,7 @@ Selvom vi har skrevet i råd nummer 4, at du skal undgå at lave dumme bevægels
 
 Det betyder ikke, at din løfteteknik er ligegyldig, men sammenhængen mellem løfteteknik og rygsmerter er ikke ret tydelig, når man kigger i videnskaben. Risikoen ved forskellige løfteteknikker er formentlig blevet overdrevet. Det skriver Paul Ingraham meget mere om i sin artikel [Lifting technique is not important for your back](https://www.painscience.com/articles/lifting-technique-is-not-important-for-your-back.php).
 
-Du kan fx se verdensklasseatleter løfte med mange forskellige teknikker, og de har i hvert fald en stærk ryg. Se mere under [Teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+Du kan fx se verdensklasseatleter løfte med mange forskellige teknikker, og de har i hvert fald en stærk ryg. Se mere under [Teknik i styrketræning](/rigtig-teknik-styrketraening/).
 
 ***
 

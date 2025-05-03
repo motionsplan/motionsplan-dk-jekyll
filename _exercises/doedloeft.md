@@ -75,7 +75,7 @@ Teknikken i de forskellige typer dødløft er naturligvis lidt forskellig, men h
 
 ## Teknik i dødløft
 
-I [teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}) har jeg beskrevet nogle grundlæggende tekniske instruktionspunkter, som kan være et godt udgangspunkt for en **perfekt dødløft teknik**.
+I [teknik i styrketræning](/rigtig-teknik-styrketraening/) har jeg beskrevet nogle grundlæggende tekniske instruktionspunkter, som kan være et godt udgangspunkt for en **perfekt dødløft teknik**.
 
 Når du arbejder med teknik, så handler det primært om følgende ting.
 

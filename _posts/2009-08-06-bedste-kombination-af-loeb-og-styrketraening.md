@@ -77,13 +77,13 @@ Inden vi kommer tilbage til timingen, så lad os lige kigge på et par fordele v
 
 Støren et al (2008) undersøgte to grupper af veltrænede løbere over 8 ugers træning. Den ene gruppe fortsatte den normale træning, mens den anden gruppe supplerede med tung styrketræning 3 gange om ugen. Styrkeprogrammet bestod af 4 sæt med halve squats med en belastning på 4RM. Vægten på stangen blev øget, når man kunne løfte mere vægt. Der var 3 minutters pause mellem styrkesættene.
 
-Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og deres eksplosive styrke ([Rate of Force Development]({% link _posts/2020-10-14-rate-of-force-development.md %})). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget.
+Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og deres eksplosive styrke ([Rate of Force Development](/rate-of-force-development/)). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget.
 
 {% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden" %}
 
 Styrkegruppens program tog i alt 11 minutter at gennemføre pr. gang. Det betyder naturligvis, at den gruppe havde 33 minutters ekstra træning i løbet af ugen. Det kunne have været interessant, hvis de havde justeret for træningsmængde i studiet.
 
-Hoff et all (2002) viste også med ekstremt veltrænede langrendsløbere ([kondital](/kondital/) ~ 70), at funktionel styrketræning 3 gange om ugen i  alt 45 minutter forbedrede deres udholdenhed med ~20%, maksimale styrke med ~10% og _[rate of force development]({% link _posts/2020-10-14-rate-of-force-development.md %})_ med 50% i forhold til kontrolgruppen, som trænede normalt.
+Hoff et all (2002) viste også med ekstremt veltrænede langrendsløbere ([kondital](/kondital/) ~ 70), at funktionel styrketræning 3 gange om ugen i  alt 45 minutter forbedrede deres udholdenhed med ~20%, maksimale styrke med ~10% og _[rate of force development](/rate-of-force-development/)_ med 50% i forhold til kontrolgruppen, som trænede normalt.
 
 De to grupper trænede ellers deres normale træningsmængde på 10 timer. Styrketræningen bestod af 3 serier af 6 getagelser med omkring 85% af [1RM](/rm-maxtest/) i et kabeltræk, der ligner dobbelt stavtag på langrendsski.
 

@@ -223,7 +223,7 @@ I træning er det altid godt at sætte en baseline, som du kan sammenligne dit f
 
 I den **aerobe træning** kan du sætte din baseline med følgende:
 
-- Måle din [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %})
+- Måle din [hvilepuls](/hvilepuls/)
 - Bruge [Heart Rate Variability (HRV)]({% link _posts/2019-10-28-hrv.md %})
 - Måle dit kondital med fx en [2400 meter-test](/kondital-2400-meter/) eller [Coopers 12-minutters test](/cooper-test/)
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.

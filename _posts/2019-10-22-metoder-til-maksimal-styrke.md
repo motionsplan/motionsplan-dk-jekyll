@@ -53,7 +53,7 @@ Formålet med opvarmningen er at optimere løfteteknikken inden arbejdssættene.
 
 ## Waves for muskelstyrke
 
-Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af [1RM](/rm-beregner/). Det skaber en PAP, der kan måles som øget _[rate of force development (RFD)]({% link _posts/2020-10-14-rate-of-force-development.md %})_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
+Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af [1RM](/rm-beregner/). Det skaber en PAP, der kan måles som øget _[rate of force development (RFD)](/rate-of-force-development/)_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
 
 Teoretisk set kan løfteren altså nyde øget kraft i de senere sæt ved at lave maksimale sammentrækninger i de forrige sæt. Derved kan man i de følgende sæt lave flere reps og løfte mere vægt. 
 

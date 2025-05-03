@@ -28,7 +28,7 @@ Vil du have et skræddersyet løbeprogram, der passer til dine mål og din hverd
 
 I denne guide gennemgår vi 5 enkle trin, der hjælper dig med at planlægge din løbetræning – uanset om du er begynder eller erfaren løber.
 
-Alle løbeprogrammer skal naturligvis tage udgangspunkt i en specifik målsætning og løberens forudsætninger. Når du har læst denne guide er du i stand til at lave dit eget løbeprogram.
+[Alle løbeprogrammer](/loebeprogrammer/) skal naturligvis tage udgangspunkt i en specifik målsætning og løberens forudsætninger. Når du har læst denne guide er du i stand til at lave dit eget løbeprogram.
 
 [Bonus: Få GRATIS løbeprogram nu »](/loebeprogrammer/){: .btn--lead }
 
@@ -94,14 +94,14 @@ Når du har lavet løbeprogrammet, så kan det være godt at give løberen nogle
 
 Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
-- **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/) og [functional threshold pace]({% link _posts/2021-08-29-ftp-pace.md %}). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen](/test-max-puls/).
+- **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/) og [functional threshold pace](/ftpa-loeb/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen](/hvilepuls/) og [max pulsen](/test-max-puls/).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
-- **Watt**. Du har brug for særligt udstyr for at bruge Watt, men det kan både lade sig gøre med løb og cykling at måle watt. Du kan læse lidt mere om [Functional Threshold Power]({% link _posts/2021-08-29-ftp-power.md %}) og [critical speed]({% link _posts/2021-09-10-critical-power.md %}). Tjek også afsnittet om [løbeøkonomi og løbeteknik](/lobeokonomi/).
+- **Watt**. Du har brug for særligt udstyr for at bruge Watt, men det kan både lade sig gøre med løb og cykling at måle watt. Du kan læse lidt mere om [Functional Threshold Power](/ftp-cykling/) og [critical speed](/critical-power/). Tjek også afsnittet om [løbeøkonomi og løbeteknik](/lobeokonomi/).
 
 Der er fordele og ulemper ved de forskellige måder at måle intensiteten i din træning, som du kan læse mere om under overvejelserne i forhold til [intensitet og træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}).
 
-## Kompoententer i dit ugentlige løbeprogram
+## Komponenter i dit ugentlige løbeprogram
 
 Du kan gøre din løbeplan rimelig enkel ved at dele de forskellige dage op med udgangspunkt i følgende løbetyper:
 

@@ -33,7 +33,7 @@ Mange vil gerne vide, hvor mange kalorier der er i en appelsin og æbler, så de
 
 ## Kalorietabel med frugt og bær
 
-Kalorietabellen indeholder de mest gængse frugter i Danmark. I tabellen kan du finde forskellige frugter og bær. Du kan også se en [komplet kalorietabel]({% link _posts/2020-08-29-kalorietabellen.md %}), [kalorietabel over forskellige grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}) eller [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
+Kalorietabellen indeholder de mest gængse frugter i Danmark. I tabellen kan du finde forskellige frugter og bær. Du kan også se en [komplet kalorietabel](/kalorietabellen/), [kalorietabel over forskellige grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}) eller [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
 
 Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [stofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) og [dit ligevægtsindtag, som jeg har lavet en beregner til](/ligevaegtsindtag-beregner/). Jeg har også lavet en [oversigt over MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
 

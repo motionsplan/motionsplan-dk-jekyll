@@ -58,7 +58,7 @@ Her kan du hurtigt [beregne dit stofskifte](/hvordan-beregne-dagligt-energibehov
 
 ## 🍽️ Kalorieudregner til mad og måltider (kostberegner)
 
-En kalorieudregner kan også udregne, hvor meget energi der er i den mad du spiser. Jeg har her på siden en række [forskellige kalorietabeller]({% link _posts/2020-08-29-kalorietabellen.md %}), hvor du kan finde ud af, [hvor mange kalorier der er i fx bananer](/kalorietabel-frugt/).
+En kalorieudregner kan også udregne, hvor meget energi der er i den mad du spiser. Jeg har her på siden en række [forskellige kalorietabeller](/kalorietabellen/), hvor du kan finde ud af, [hvor mange kalorier der er i fx bananer](/kalorietabel-frugt/).
 
 Hvis du skal udregne mere detaljeret, hvor meget energi der er i et måltid, så findes der heldigvis nogle geniale **gratis madberegnere og kostberegnere**, som du kan bruge til at udregne det samlede kalorieindhold i et måltid.
 

@@ -84,7 +84,7 @@ squat træning
 
 ## Teknik i squat
 
-I [teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}) har jeg beskrevet nogle grundlæggende tekniske instruktionspunkter, som kan være et godt udgangspunkt for en **perfekt squat teknik**.
+I [teknik i styrketræning](/rigtig-teknik-styrketraening/) har jeg beskrevet nogle grundlæggende tekniske instruktionspunkter, som kan være et godt udgangspunkt for en **perfekt squat teknik**.
 
 Husk at teknik og bevægelsesmønster først og fremmest handler om:
 

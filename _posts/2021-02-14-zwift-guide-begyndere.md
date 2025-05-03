@@ -86,7 +86,7 @@ Relateret: [MyWhoosh Cycling](/mywhoosh-cycling/) - [Rouvy](/rouvy/) - [BKOOL](/
 
 Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
 
-Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)]({% link _posts/2021-08-29-ftp-power.md %}).
+Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)](/ftp-cykling/).
 
 I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for at køre sammen, selvom du ikke træder helt de samme watt, fx når I laver træning sammen. Det er en ret genial feature ved Zwift.
 

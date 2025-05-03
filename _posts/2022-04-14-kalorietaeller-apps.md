@@ -55,7 +55,7 @@ feature_row_apps:
 
 Hvis du gerne vil tælle kalorier, så er der mange kalorietæller apps at vælge imellem. Hvis du gerne vil have styr på, hvor meget energi du får i din kost, så kan du [lave kostregistrering](/kostregistrering/) i en af de mange smarte apps. Vi har testet 5 apps, der kan holde styr på kalorieregnskabet for dig.
 
-Det er let at finde energiindholdet og næringsindholdet i en enkelt fødevare med [kalorietabeller]({% link _posts/2020-08-29-kalorietabellen.md %}). Der er også mange [kalorieberegnere](/kalorieberegner/) til et enkelt måltid eller en opskrift. Men for at få styr på hele dit kalorieindtag på en dag, så tjek disse apps.
+Det er let at finde energiindholdet og næringsindholdet i en enkelt fødevare med [kalorietabeller](/kalorietabellen/). Der er også mange [kalorieberegnere](/kalorieberegner/) til et enkelt måltid eller en opskrift. Men for at få styr på hele dit kalorieindtag på en dag, så tjek disse apps.
 
 ## Bedste apps
 
