@@ -80,7 +80,7 @@ Her har du en genvej, inden du kan læse om alle programmerne.
 
 {% include feature_row id="feature_row_programs" %}
 
-## Anmeldelser af træningsprogrammer og styrketræningsprogrammer
+## Anmeldelser af styrketræningsprogrammer
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programanmeldelse" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -100,7 +100,7 @@ Det bedste træningsprogram er det program du rent faktisk laver. Her har vi sam
 
 Du kan tjekke [alle de gratis styrketræningsprogrammer her](/styrketraeningsprogrammer/).
 
-## Hvordan bruger man træningsprogrammer?
+## Sådan skal du bruge træningsprogrammerne
 
 Når du skal afprøve et træningsprogram, så skal du ikke lave om på det. Træningsprogrammer bliver ofte kendte, fordi de virker godt med den udformning, de har. Det kan godt være, at du synes der mangler lidt, men et træningsprogram er en række træningsblokke, der bygger oven på hinanden. Når du har kørt træningsprogrammet et stykke tid, så kan du begynde at _tweake_ det lidt.
 
@@ -116,7 +116,7 @@ Jim Wendler skriver fx meget klart om [5/3/1-programmet](/wendler-531-styrketrae
 
 > **Don't customize.** You must do the program the way it's written.
 >
-> --- [Jim Wendler](https://t-nation.com/t/5-3-1-how-to-build-pure-strength/281694)
+> --- <cite>[Jim Wendler](https://t-nation.com/t/5-3-1-how-to-build-pure-strength/281694)</cite>
 
 ## Hvad betyder mest for et træningsprogram?
 
@@ -126,7 +126,7 @@ I det lange løb så kan du få brug for variation for at fortsætte med at få 
 
 Hvis du er vedholdende og får trænet kontinuerligt, og du skulle ramme et plateau i træningen, så kan du altid tilføje variation.
 
-## Hvad skal jeg kigge efter i træningsprogrammet?
+## Det skal du kigge efter i træningsprogrammet
 
 Der findes rigtig mange styrketræningsprogrammer, som slår sig op på at være det mest solgte styrketræningsprogram og vil give særligt gode resultater. Sandheden er, at de fleste programmer giver gode resultater, så længe du er begynder.
 

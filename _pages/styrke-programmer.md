@@ -158,7 +158,7 @@ Der findes ikke det "perfekte" program, men der sker noget magisk i systematisk 
 
 Så lad være med at overtænke det. **Du kan altid justere dit programvalg senere.**
 
-📋 Vi har samlet [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/), så du hurtigt kan finde et, der passer til dine behov.
+📋 Vi har samlet [anmeldelser af styrketræningsprogrammer](/anmeldelse-traeningsprogrammer/), så du hurtigt kan finde et program, der passer til dine behov. Her kan du læse en vurdering af nogle af de berømte styrketræningsprogrammer.
 
 ➡️ Ikke helt klar til at vælge? Få hjælp i vores [styrkeprogramvælger](/vaelg-traeningsprogram/).
 
