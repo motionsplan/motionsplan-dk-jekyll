@@ -7,14 +7,15 @@ header:
   caption: *title
 category:
   - Styrketræning
+  - Styrketræingsprogrammer
 tags:
   - anmeldelse
+  - styrketræning
   - styrkeløft
+  - træningsprogram
   - programanmeldelse
   - fullbody
   - populær
-  - styrketræning
-  - træningsprogram
   - begynder
 last_modified_at: 2025-03-10T08:39:32Z
 feature_row:

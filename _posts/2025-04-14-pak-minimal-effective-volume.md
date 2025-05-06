@@ -18,6 +18,7 @@ tags:
   - styrkeløft
   - programanmeldelse
   - fullbody
+  - hypertrofi
   - begynder
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:

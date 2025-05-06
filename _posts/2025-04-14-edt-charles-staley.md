@@ -16,6 +16,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
+  - hypertrofi
   - øvet
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:

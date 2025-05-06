@@ -4,8 +4,8 @@ permalink: /hvordan-vokser-muskler/
 excerpt: "Hvad får muskler til at vokse (hypertrofi), og hvordan vokser muskler egentlig? Hvilken træning skal du lave for at få musklerne til blive større?"
 language: da
 header:
-  overlay_image: https://images.askmen.com/1080x540/2016/03/10-044705-best_training_methods_for_muscle_growth.jpg
-  teaser: https://images.askmen.com/1080x540/2016/03/10-044705-best_training_methods_for_muscle_growth.jpg
+  overlay_image: https://images.unsplash.com/photo-1591267802076-da29ebeb3037?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  teaser: https://images.unsplash.com/photo-1591267802076-da29ebeb3037?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 category:
   - Styrketræning
@@ -46,7 +46,7 @@ Træningen påvirker ikke bare de enkelte muskler, men kroppen som helhed. Træn
 
 ## Fysiologiske drivere ved muskelvækst
 
-Det er interessant, hvad der sker i kroppen på celleniveau, der får muskelcellerne til at vokse, men det er også ret kompliceret at forklare. Det kan du læse mere om [i denne glimrende artikel om fysiologien bag muskelvækst ](https://renaissanceperiodization.com/expert-advice/physiology-of-muscle-hypertrophy)
+Det er interessant, hvad der sker i kroppen på celleniveau, der får muskelcellerne til at vokse, men det er også ret kompliceret at forklare. Det kan du læse mere om [i denne glimrende artikel om fysiologien bag muskelvækst](https://renaissanceperiodization.com/expert-advice/physiology-of-muscle-hypertrophy)
 
 I korte træk kræver muskelvækst et _stimulus_ og en efterfølgende _genopbygnings- og reparations_-fase.
 
