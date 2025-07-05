@@ -102,7 +102,7 @@ Desuden har det en konditionerende effekt, fordi pauserne bliver korte, og pulse
 
 ## Sådan laver du EDT – trin for trin
 
-Hvis du aldrig har prøvet EDT, her er en hurtig guide. Hvis du har prøvet EDT før, kan det være en god idé at læse denne alligevel, da jeg har fundet ud af, at mange mennesker udfører det på en måde, jeg aldrig havde tænkt mig.
+Hvis du aldrig har prøvet EDT, her er en hurtig guide. Hvis du har prøvet EDT før, kan det være en god idé at læse denne alligevel. Charles Staley har nemlig oplevet, at mange udfører metoden på en måde, som ikke var hensigten.
 
 ### 1. Vælg to modsatrettede øvelser
 Vælg to øvelser, der arbejder med modstående muskelgrupper. Det kan være alt fra to antagonister (fx biceps curl/triceps pushdown eller bænkpres/bent row) til to øvelser, der arbejder med to forskellige muskler (fx squat/chin-ups eller calf raise/hammer curls). Du kan også vælge to enarmsøvelser (fx venstre lunge/højre lunge).
@@ -192,7 +192,9 @@ Staley anbefaler fx at du:
 
 Escalating Density Training er en enkel, men effektiv metode til at presse kroppen til muskelvækst og bedre kondition. Det er nemt at komme i gang, svært at mestre – og altid udfordrende.
 
-> “More work in less time – that’s the essence of EDT.” – Charles Staley
+> “More work in less time – that’s the essence of EDT.”
+> 
+> – Charles Staley
 
 Hvis du gerne vil tilpasse programmet for styrke, så kan du se et forslag [her](https://archive.t-nation.com/training/edt-for-strength/).
 

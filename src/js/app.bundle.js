@@ -2991,6 +2991,122 @@ $(function() {
       $("[name='energy_fat_kcal_min']").val((kcal * b.getFatPercent()).toFixed(2));
       $("[name='energy_cho_kcal_min']").val((kcal * b.getCHOPercent()).toFixed(2));
   });
+  $("#calculator_cho_usage_biking").submit(function(e) {
+    console.log("Calculate CHO usage biking");
+    e.preventDefault();
+
+    // let formula = $("[name='ee-formula']").val();
+
+    let efficiency = Number($("[name='efficiency']").val()) / 100;
+    let fat_energy = 9.4;
+    let cho_energy = 4.1;
+
+    // Zone 1
+    let z1_min = Number($("[name='cho_zone1_time']").val());
+    let z1_int_a = Number($("[name='cho_zone1_a']").val());
+    let z1_r = Number($("[name='cho_zone1_r']").val());
+
+    let z1_kcal = ((z1_min * 60) * z1_int_a) / efficiency / 4186;
+
+    let z1 = vo2kcal.VO2Kcal(z1_r);
+
+    let z1_fat_g = z1.getPercentFatUtilized() / 100 * z1_kcal / fat_energy;
+    let z1_cho_g = z1.getPercentCHOUtilized() / 100 * z1_kcal / cho_energy;
+
+    $("#cho_zone1_output_time").text(z1_min.toFixed(0));
+    $("#cho_zone1_output_int").text(z1_int_a.toFixed(0));
+    $("#cho_zone1_output_r").text(z1_r.toFixed(2));
+    $("#cho_zone1_output_kcal").text(z1_kcal.toFixed(1));
+    $("#cho_zone1_output_fat").text(z1_fat_g.toFixed(1));
+    $("#cho_zone1_output_cho").text(z1_cho_g.toFixed(1));
+
+    // Zone 2
+    let z2_min = Number($("[name='cho_zone2_time']").val());
+    let z2_int_a = Number($("[name='cho_zone2_a']").val());
+    let z2_r = Number($("[name='cho_zone2_r']").val());
+
+    let z2_kcal = ((z2_min * 60) * z2_int_a) / efficiency / 4186;
+
+    let z2 = vo2kcal.VO2Kcal(z2_r);
+
+    let z2_fat_g = z2.getPercentFatUtilized() / 100 * z2_kcal / fat_energy;
+    let z2_cho_g = z2.getPercentCHOUtilized() / 100 * z2_kcal / cho_energy;
+
+    $("#cho_zone2_output_time").text(z2_min.toFixed(0));
+    $("#cho_zone2_output_int").text(z2_int_a.toFixed(0));
+    $("#cho_zone2_output_r").text(z2_r.toFixed(2));
+    $("#cho_zone2_output_kcal").text(z2_kcal.toFixed(1));
+    $("#cho_zone2_output_fat").text(z2_fat_g.toFixed(1));
+    $("#cho_zone2_output_cho").text(z2_cho_g.toFixed(1));
+
+    // Zone 3
+    let z3_min = Number($("[name='cho_zone3_time']").val());
+    let z3_int_a = Number($("[name='cho_zone3_a']").val());
+    let z3_r = Number($("[name='cho_zone3_r']").val());
+
+    let z3_kcal = ((z3_min * 60) * z3_int_a) / efficiency / 4186;
+
+    let z3 = vo2kcal.VO2Kcal(z3_r);
+
+    let z3_fat_g = z3.getPercentFatUtilized() / 100 * z3_kcal / fat_energy;
+    let z3_cho_g = z3.getPercentCHOUtilized() / 100 * z3_kcal / cho_energy;
+
+    $("#cho_zone3_output_time").text(z3_min.toFixed(0));
+    $("#cho_zone3_output_int").text(z3_int_a.toFixed(0));
+    $("#cho_zone3_output_r").text(z3_r.toFixed(2));
+    $("#cho_zone3_output_kcal").text(z3_kcal.toFixed(1));
+    $("#cho_zone3_output_fat").text(z3_fat_g.toFixed(1));
+    $("#cho_zone3_output_cho").text(z3_cho_g.toFixed(1));
+
+    // Zone 4
+    let z4_min = Number($("[name='cho_zone4_time']").val());
+    let z4_int_a = Number($("[name='cho_zone4_a']").val());
+    let z4_r = Number($("[name='cho_zone4_r']").val());
+
+    let z4_kcal = ((z4_min * 60) * z4_int_a) / efficiency / 4186;
+
+    let z4 = vo2kcal.VO2Kcal(z4_r);
+
+    let z4_fat_g = z4.getPercentFatUtilized() / 100 * z4_kcal / fat_energy;
+    let z4_cho_g = z4.getPercentCHOUtilized() / 100 * z4_kcal / cho_energy;
+
+    $("#cho_zone4_output_time").text(z4_min.toFixed(0));
+    $("#cho_zone4_output_int").text(z4_int_a.toFixed(0));
+    $("#cho_zone4_output_r").text(z4_r.toFixed(2));
+    $("#cho_zone4_output_kcal").text(z4_kcal.toFixed(1));
+    $("#cho_zone4_output_fat").text(z4_fat_g.toFixed(1));
+    $("#cho_zone4_output_cho").text(z4_cho_g.toFixed(1));
+
+    // Zone 5
+    let z5_min = Number($("[name='cho_zone5_time']").val());
+    let z5_int_a = Number($("[name='cho_zone5_a']").val());
+    let z5_r = Number($("[name='cho_zone5_r']").val());
+
+    let z5_kcal = ((z5_min * 60) * z5_int_a) / efficiency / 4186;
+
+    let z5 = vo2kcal.VO2Kcal(z5_r);
+
+    console.log(z5.getPercentCHOUtilized());
+    let z5_fat_g = z5.getPercentFatUtilized() / 100 * z5_kcal / fat_energy;
+    let z5_cho_g = z5.getPercentCHOUtilized() / 100 * z5_kcal / cho_energy;
+
+    $("#cho_zone5_output_time").text(z5_min.toFixed(0));
+    $("#cho_zone5_output_int").text(z5_int_a.toFixed(0));
+    $("#cho_zone5_output_r").text(z5_r.toFixed(2));
+    $("#cho_zone5_output_kcal").text(z5_kcal.toFixed(1));
+    $("#cho_zone5_output_fat").text(z5_fat_g.toFixed(1));
+    $("#cho_zone5_output_cho").text(z5_cho_g.toFixed(1));
+
+    let total_fat_g = z1_fat_g + z2_fat_g + z3_fat_g + z4_fat_g + z5_fat_g;
+    let total_cho_g = z1_cho_g + z2_cho_g + z3_cho_g + z4_cho_g + z5_cho_g;
+    let total_time = z1_min + z2_min + z3_min + z4_min + z5_min;
+    let total_kcal = z1_kcal + z2_kcal + z3_kcal + z4_kcal + z5_kcal;
+
+    $("#cho_total_time").text(total_time.toFixed(0));
+    $("#cho_total_fat").text(total_fat_g.toFixed(1));
+    $("#cho_total_cho").text(total_cho_g.toFixed(1));
+    $("#cho_total_kcal").text(total_kcal.toFixed(1));
+});
   $("#calculator_cho_usage").submit(function(e) {
     console.log("Calculate CHO usage");
     e.preventDefault();

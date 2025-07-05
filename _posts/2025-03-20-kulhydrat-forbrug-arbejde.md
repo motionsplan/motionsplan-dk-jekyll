@@ -14,7 +14,7 @@ meta:
   name: Beregn kulhydratforbrug ved aktivitet
   measures: CHO-forbrug
   type: beregner
-  equipment: se testbeskrivelse
+  equipment: se beskrivelse
   max: n/a
   direct: n/a
 tags:
@@ -43,6 +43,8 @@ faq:
 Når du træner eller konkurrerer i udholdenhedssport som løb og cykling, er det vigtigt at sikre en tilstrækkelig tilførsel af kulhydrater for at opretholde energiniveauet.
 
 Denne beregner hjælper dig med at estimere dit kulhydratforbrug baseret på din vægt, intensitet og varighed af aktiviteten. På den måde kan du planlægge dit kulhydratindtag optimalt og undgå energimangel undervejs.
+
+Du kan også tjekke en endnu mere [præcis kulhydratforbrugberegner til cykling baseret på watt](/kulhydratforbrug-cykling-watt/).
 
 ## Beregn dit kulhydratforbrug
 

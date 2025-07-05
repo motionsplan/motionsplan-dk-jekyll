@@ -31,9 +31,11 @@ Det er ganske enkelt de gyldne regler om træning, som du bør kende, når du g�
 
 ## De vigtigste træningsprincipper
 
-Nedenfor kan du se en illstration, der viser hvor vigtige de enkelte træningsprincipper er. Principperne i bunden af illustrationen er de vigtigste og de elementer der har det største område.
+Nedenfor kan du se en illustration fra Israetel m.fl. fra _Scientific Principles of Training_. Bogen er skrevet med udgangspunkt i styrkeløft, men jeg synes det er en god oversigt over, hvor vigtige de enkelte træningsprincipper er.
 
-Læg mærke til at Israetel i _Scientific Principles of Training_ lader **specificitet** spænde over hele figuren, og derved gør forfatterne dette princip til det vigtigste af alle træningsprincipperne.
+Principperne i bunden af illustrationen er de vigtigste og de elementer, der har det største område. Derfor starter du her.
+
+Læg mærke til at **specificitet** spænder over hele figuren, og derved gør forfatterne dette princip til det vigtigste af alle træningsprincipperne (hvilket er særligt vigtigt ifm. styrkeløft, men jeg synes tankegangen holder for andre mål ift. styrketræning også).
 
 {% include figure image_path="/assets/images/blog/israetel-trainingprinciples.jpg" caption="Kilde: Israetel m.fl.: Scientific Principles of Training" %}
 

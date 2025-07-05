@@ -236,7 +236,7 @@ Hvis du har erfaringen og kosten i orden, er dette program en fremragende måde 
 Du kan prøve programmet i **[Liftosaur-appen](/liftosaur/)**. Her behøver du ikke tænke over detaljerne. Det hele bliver gjort automatisk for dig.
 
 <details markdown="1" class="faq">
-  <summary>🦖 Training for Warriors Upper/Lower</summary>
+  <summary>🦖 Lyle McDonald General Bulking Routine</summary>
 
 ```
 // Program is based on a Lyle McDonald's Generic Bulking Routine template ⚙️.

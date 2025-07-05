@@ -1,0 +1,134 @@
+<form class="calculator full" id="calculator_cho_usage_biking">
+    <fieldset>
+        <legend>Udregn kulhydratforbrug ved cykling</legend>
+        <div class="form-group">
+            <label>Nyttevirkning (%)
+                <input name="efficiency" id="efficiency" min="0" max="100" value="23" type="number" required>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Energiforbrug ved de forskellige intensiteter</legend>
+            <table class="table" style="display: table; width: 100% !important;">
+                <caption>Angiv hvor længe du arbejder med forskellig watt</caption>
+                <thead>
+                    <tr>
+                        <th>Zone</th>
+                        <th style="white-space:nowrap;">Tid (m)</th>
+                        <th>Intensitet (watt)</th>
+                        <th>R-værdi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Restitution</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone1_time" id="cho_zone1_time"></td>
+                        <td><input type="number" min="0" max="3000" value="" id="cho_zone1_a" name="cho_zone1_a" class="input-mini"></td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone1_r" name="cho_zone1_r" step="0.01" value="0.80"></td>
+                    </tr>
+                    <tr>
+                        <td>Udholdenhed</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone2_time" id="cho_zone2_time"></td>
+                        <td><input type="number" size="3" min="0" max="3000" value="" class="input-mini" id="cho_zone2_a" name="cho_zone2_a"></td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone2_r" name="cho_zone2_r" step="0.01" value="0.85"></td>
+                    </tr>
+                    <tr>
+                        <td>Moderat</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone3_time" id="cho_zone3_time"></td>
+                        <td><input type="number" min="0" max="3000" value="" id="cho_zone3_a" name="cho_zone3_a" class="input-mini"></td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone3_r" name="cho_zone3_r" step="0.01" value="0.90"></td>
+                    </tr>
+                    <tr>
+                        <td>Tærskel</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone4_time" id="cho_zone4_time" name="cho_zone4_time"></td>
+                        <td><input type="number" min="0" max="3000" value="" id="cho_zone4_a" name="cho_zone4_a" class="input-mini"></td>
+                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone4_r" name="cho_zone4_r" step="0.01" value="1.00"></td>
+                    </tr>
+                    <tr>
+                        <td>VO2max</td>
+                        <td><input min="0" class="input-mini" type="number" name="cho_zone5_time" id="cho_zone5_time"></td>
+                        <td style="white-space:nowrap;"><input min="0" max="3000" type="number" value="" id="cho_zone5_a" name="cho_zone5_a" class="input-mini"></td>
+                        <td><input class="input-mini" type="number" step="0.01" min="0.70" max="1.00" id="cho_zone5_r" name="cho_zone5_r" value="1.00"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Energiforbrug ved de forskellige intensiteter</legend>
+        <table class="table" style="width: 100% !important; display: table;">
+            <caption>Resultater</caption>
+            <thead>
+                <tr>
+                    <th>Zone</th>
+                    <th style="white-space:nowrap;">Tid (m)</th>
+                    <th>Intensitet (watt)</th>
+                    <th>R-værdi</th>
+                    <th>Kalorier</th>
+                    <th>Fedt (g)</th>
+                    <th>CHO (g)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Restitution</td>
+                    <td id="cho_zone1_output_time"></td>
+                    <td id="cho_zone1_output_int"></td>
+                    <td id="cho_zone1_output_r"></td>
+                    <td id="cho_zone1_output_kcal"></td>
+                    <td id="cho_zone1_output_fat"></td>
+                    <td id="cho_zone1_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>Udholdenhed</td>
+                    <td id="cho_zone2_output_time"></td>
+                    <td id="cho_zone2_output_int"></td>
+                    <td id="cho_zone2_output_r"></td>
+                    <td id="cho_zone2_output_kcal"></td>
+                    <td id="cho_zone2_output_fat"></td>
+                    <td id="cho_zone2_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>Moderat</td>
+                    <td id="cho_zone3_output_time"></td>
+                    <td id="cho_zone3_output_int"></td>
+                    <td id="cho_zone3_output_r"></td>
+                    <td id="cho_zone3_output_kcal"></td>
+                    <td id="cho_zone3_output_fat"></td>
+                    <td id="cho_zone3_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>Tærskel</td>
+                    <td id="cho_zone4_output_time"></td>
+                    <td id="cho_zone4_output_int"></td>
+                    <td id="cho_zone4_output_r"></td>
+                    <td id="cho_zone4_output_kcal"></td>
+                    <td id="cho_zone4_output_fat"></td>
+                    <td id="cho_zone4_output_cho"></td>
+                </tr>
+                <tr>
+                    <td>VO2max</td>
+                    <td id="cho_zone5_output_time"></td>
+                    <td id="cho_zone5_output_int"></td>
+                    <td id="cho_zone5_output_r"></td>
+                    <td id="cho_zone5_output_kcal"></td>
+                    <td id="cho_zone5_output_fat"></td>
+                    <td id="cho_zone5_output_cho"></td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>I alt</td>
+                <td id="cho_total_time"></td>
+                <td style="white-space:nowrap;"></td>
+                <td></td>
+                <td id="cho_total_kcal"></td>
+                <td id="cho_total_fat"></td>
+                <td id="cho_total_cho"></td>
+            </tr>
+        </tfoot>
+        </table>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>
