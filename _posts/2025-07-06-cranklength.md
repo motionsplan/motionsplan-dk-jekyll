@@ -20,7 +20,7 @@ faq:
   - question: Gør kranklængde virkelig en forskel?
     answer: Ja. En ændring på bare 5–10 mm kan påvirke komfort, bevægelsesøkonomi og position på cyklen. Kortere krankarme kan fx give bedre hoftevinkel, højere kadence og mindre belastning på knæ.
   - question: Hvordan måler jeg min skinnebenslængde?
-    answer: Mål fra midten af ankelknoglen til midten af knæleddet. Det er lettest at få hjælp af en anden og bruge en hård lineal eller målebånd. Brug målet i centimeter til at beregne kranklængde med formlen: `Kranklængde = 0,41 × tibialængde`.
+    answer: "Mål fra midten af ankelknoglen til midten af knæleddet. Det er lettest at få hjælp af en anden og bruge en hård lineal eller målebånd. Brug målet i centimeter til at beregne kranklængde med formlen: `Kranklængde = 0,41 × tibialængde`."
   - question: Skal jeg skifte gearing, hvis jeg skifter kranklængde?
     answer: Måske. Kortere krankarme kan give en lille reduktion i mekanisk fordel, men det kan ofte kompenseres med en lettere gearing – fx ved at gå fra 40t til 38t foran, hvis du skifter fra 172,5 mm til 155 mm.
   - question: Hvad med sadelhøjden?

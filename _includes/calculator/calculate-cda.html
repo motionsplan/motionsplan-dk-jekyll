@@ -1,0 +1,83 @@
+<form class="calculator" id="calculator_cda">
+    <fieldset>
+        <legend>Beregn CdA (aerodynamisk modstand)</legend>
+
+        <div class="form-group">
+            <label>Effekt (watt)</label>
+            <input type="number" name="power" placeholder="watt" step="1" required>
+        </div>
+
+        <div class="form-group">
+            <label>Fart (km/t)</label>
+            <input type="number" name="velocity_kmh" placeholder="km/t" step="0.1" required>
+        </div>
+
+        <div class="form-group">
+            <label>Totalvægt (inkl. cykel, kg)</label>
+            <input type="number" name="mass" placeholder="kg" step="0.1" required>
+        </div>
+
+        <div class="form-group">
+            <label>Stigning (%)</label>
+            <input type="number" name="gradient" placeholder="f.eks. 0 for fladt" step="0.1" value="0">
+        </div>
+
+        <div class="form-group">
+            <label>Lufttryk (hPa)</label>
+            <input type="number" name="pressure" placeholder="standard: 1013" step="1" value="1013">
+        </div>
+
+        <div class="form-group">
+            <label>Temperatur (°C)</label>
+            <input type="number" name="temperature" placeholder="°C" step="1" value="20">
+        </div>
+
+        <div class="form-group">
+            <label>Rullemodstand (Crr)</label>
+            <input type="number" name="crr" placeholder="f.eks. 0.004" step="0.001" value="0.004">
+        </div>
+
+        <input type="submit" value="Beregn">
+    </fieldset>
+
+    <fieldset class="results">
+        <legend>Udregnet CdA</legend>
+        <div class="form-group">
+            <label>CdA (m²)</label>
+            <input type="text" id="cda_result" disabled class="input-small">
+        </div>
+    </fieldset>
+
+    {% include calculator/calculator-footer.html %}
+</form>
+<script>
+    document.getElementById("calculator_cda").addEventListener("submit", function (e) {
+        e.preventDefault();
+    
+        const form = e.target;
+    
+        const power = parseFloat(form.power.value);
+        const velocity_kmh = parseFloat(form.velocity_kmh.value);
+        const mass = parseFloat(form.mass.value);
+        const gradient = parseFloat(form.gradient.value) / 100;
+        const pressure = parseFloat(form.pressure.value); // hPa
+        const temperature = parseFloat(form.temperature.value); // °C
+        const crr = parseFloat(form.crr.value);
+    
+        const g = 9.80665; // tyngdeacceleration (m/s²)
+        const rho = (pressure * 100) / (287.05 * (temperature + 273.15)); // luftens tæthed (kg/m³)
+        const velocity = velocity_kmh / 3.6; // m/s
+    
+        // Komponenter af den samlede effekt
+        const rollingResistance = mass * g * Math.cos(Math.atan(gradient)) * crr * velocity;
+        const climbingResistance = mass * g * Math.sin(Math.atan(gradient)) * velocity;
+    
+        const aeroPower = power - rollingResistance - climbingResistance;
+    
+        // Udregn CdA
+        const cda = (2 * aeroPower) / (rho * Math.pow(velocity, 3));
+    
+        document.getElementById("cda_result").value = cda > 0 && isFinite(cda) ? cda.toFixed(3) : "Ugyldige input";
+    });
+    </script>
+    
