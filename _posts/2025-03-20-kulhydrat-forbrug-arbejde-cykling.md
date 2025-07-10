@@ -49,6 +49,18 @@ Hvis du ikke har adgang til en wattmåler, så tjek vores [beregner til kulhydra
 
 {% include calculator/calculate-kulhydrat-forbrug-cykling.html %}
 
+## Hvordan dækker jeg mit kulhydratforbrug?
+
+Når du har regnet ud, hvor meget kulhydrat du forbrænder i timen, opstår det næste spørgsmål: **Hvordan kan jeg erstatte det undervejs i træning eller konkurrence?**
+
+Kroppen kan ikke optage ubegrænsede mængder kulhydrat. Den maksimale optagelse ligger typisk på omkring **90 gram i timen**, hvis du kombinerer **glukose og fruktose i et 2:1-forhold**. Det svarer til fx 60 gram glukose og 30 gram fruktose i timen.
+
+Ved højere behov – fx hvis du forbrænder 100–120 gram i timen – kan du forsøge med et **1:1-forhold eller helt op til et 1:0,8 forhold** og gradvist **træne mave-tarmsystemet** til at tolerere mere.
+
+> 💡 Læs mere om, hvordan du sammensætter den rigtige kulhydratstrategi under træning i [artiklen om det optimale kulhydratforhold](/optimale-kulhydrat-forhold/)
+
+Det er god viden at have, hvis du gerne vil [blande din egen sportsdrik](/sportsdrik/).
+
 ## Konklusion
 
 Du skal være opmærksom på, at det ikke nødvendigvis på cyklen er en god ide at overopfylde med kulhydrater. Hvis du gør det, så risikerer du nemlig at kroppen vil begynde at prioritere kulhydratforbræding over fedtforbrænding. En stærk rytter vil derfor over tid komme til at mangle kulhydrat, fordi man ikke kan nå at genopfylde depoterne tilstrækkeligt undervejs.

@@ -13,7 +13,7 @@ motionsplan.VO2Kcal = function(rer, vo2 = 0) {
     return 100 - getPercentFatUtilized();
   }
 
-  function getTotalKcalExpenditure(vo2, minutes, seconds) {
+  function getTotalKcalExpenditure(vo2, minutes, seconds = 0) {
     return (vo2)*(minutes+(seconds/60))*getKcalPrLiterO2PrMin();
   }
 

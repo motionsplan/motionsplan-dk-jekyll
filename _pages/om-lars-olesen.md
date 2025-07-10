@@ -26,7 +26,7 @@ Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervis
 Jeg har specialiseret mig i at omsætte videnskabelig viden til [praktisk anvendelige træningsprincipper](/traeningsprincipper/). Mit arbejde omfatter:  
 
 - **Udvikling af træningsprogrammer** – Design af effektive træningsforløb til både motionister og eliteudøvere.  
-- **Ernæring og præstationsoptimering** – Vejledning i, hvordan kost og træning spiller sammen for at maksimere resultater.  
+- **Ernæring og [præstationsoptimering](/strategier-praestationsoptimering/)** – Vejledning i, hvordan kost og træning spiller sammen for at maksimere resultater.  
 - **Test og evaluering** – Brug af videnskabelige testmetoder til at analysere og forbedre præstationer.  
 - **Uddannelse og undervisning** – Træning af kommende instruktører og undervisere med fokus på evidensbaseret praksis.  
 

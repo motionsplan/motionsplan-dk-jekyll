@@ -176,7 +176,7 @@ Hvis du indtager kulhydrat og protein i en ratio der siger 3:1 (se fx [Miller et
 
 Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. Der er et vindue, men det lukker ikke brat i efter et præcist tidsrum.
 
-Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index. Du kan ganske givet sænke [restitutionstiden](/restitutionstid/) ved at fylde depoterne op hurtigst muligt.
+Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det [glykæmiske index](/glykaemisk-indeks/). Du kan ganske givet sænke [restitutionstiden](/restitutionstid/) ved at fylde depoterne op hurtigst muligt.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

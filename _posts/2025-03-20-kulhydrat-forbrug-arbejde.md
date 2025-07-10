@@ -50,6 +50,18 @@ Du kan også tjekke en endnu mere [præcis kulhydratforbrugberegner til cykling 
 
 {% include calculator/calculate-kulhydrat-forbrug.html %}
 
+## Sådan matcher du dit kulhydratforbrug med indtag
+
+Har du først beregnet dit kulhydratforbrug under træning, er næste skridt at sikre, at du faktisk kan **optage nok kulhydrat til at følge med energiforbruget**.
+
+Selvom du måske forbrænder over 100 gram i timen, sætter kroppens optagelsesevne en naturlig grænse. **Op til 90 gram kulhydrat i timen** kan optages effektivt, hvis du **kombinerer glukose og fruktose i et 2:1-forhold** – for eksempel 60 g glukose og 30 g fruktose.
+
+Hvis du har brug for endnu mere energi, kan du eksperimentere med højere indtag, fx op til **120 g/t** i et **1:1- eller 1:0,8-forhold**, men det kræver, at du **træner din tarm til at klare det**. Det kaldes “gut training” og bør afprøves i træning – ikke til løbsdagen.
+
+> 💡 Få styr på strategien og læs [guiden til det optimale kulhydratforhold](/optimale-kulhydrat-forhold/)
+
+Vil du tage fuld kontrol over din ernæring? Så kan du med fordel [blande din egen sportsdrik](/sportsdrik/) med præcis det forhold, du ønsker.
+
 ## Konklusion
 
 Ved at kende dit forventede kulhydratforbrug pr. time kan du bedre tilpasse din ernæringsstrategi og sikre, at du har tilstrækkelig energi til hele træningen eller konkurrencen.

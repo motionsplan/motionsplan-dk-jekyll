@@ -109,7 +109,7 @@ Det kræver, at vi dykker dybere ned i forskellige sukkertyper, og hvordan de op
 
 Du kan sagtens bruge almindeligt sukker, men du har sikkert også hørt om andre sukkertyper, fx druesukker. Lad os kigge på nogle af de sukkerformer, du kan bruge til din sportsdrik.
 
-Når man kigger på optagelsestider, så er der to relevante begreber: Glykæmiske index og [Insulin Index](https://en.wikipedia.org/wiki/Insulin_index).
+Når man kigger på optagelsestider, så er der to relevante begreber: [Glykæmiske index](/glykaemisk-indeks/) og [Insulin Index](https://en.wikipedia.org/wiki/Insulin_index).
 
 Det glykæmiske index er en måling af, hvor hurtigt blodsukkeret reagerer på optagelsen af en fødevare.
 
@@ -141,6 +141,10 @@ I denne tabel kan du se det glykæmiske index for udvalgte fødevarer. Tabellen 
 | Glukose | 100 |
 | Stødt melis (sucrose) | 65 |
 | Fruktose | 18 |
+
+Glukose og fruktose bliver optaget over to forskellige kanaler. Hvis du vil optimere dit optag af kulhydrat, kan du derfor blande glukose og fruktose. Forholdet afhænger af, hvor meget sukker, du gerne vil optage i timen.
+
+Du kan læse mere om [forholdet mellem fruktose og glukose her](/optimale-kulhydrat-forhold/).
 
 ## Hvordan optimerer vi sportsdrikkene?
 

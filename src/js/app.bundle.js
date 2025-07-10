@@ -3016,9 +3016,9 @@ $(function() {
     $("#cho_zone1_output_time").text(z1_min.toFixed(0));
     $("#cho_zone1_output_int").text(z1_int_a.toFixed(0));
     $("#cho_zone1_output_r").text(z1_r.toFixed(2));
-    $("#cho_zone1_output_kcal").text(z1_kcal.toFixed(1));
-    $("#cho_zone1_output_fat").text(z1_fat_g.toFixed(1));
-    $("#cho_zone1_output_cho").text(z1_cho_g.toFixed(1));
+    $("#cho_zone1_output_kcal").text(z1_kcal.toFixed(0));
+    $("#cho_zone1_output_fat").text(z1_fat_g.toFixed(0));
+    $("#cho_zone1_output_cho").text(z1_cho_g.toFixed(0));
 
     // Zone 2
     let z2_min = Number($("[name='cho_zone2_time']").val());
@@ -3035,9 +3035,9 @@ $(function() {
     $("#cho_zone2_output_time").text(z2_min.toFixed(0));
     $("#cho_zone2_output_int").text(z2_int_a.toFixed(0));
     $("#cho_zone2_output_r").text(z2_r.toFixed(2));
-    $("#cho_zone2_output_kcal").text(z2_kcal.toFixed(1));
-    $("#cho_zone2_output_fat").text(z2_fat_g.toFixed(1));
-    $("#cho_zone2_output_cho").text(z2_cho_g.toFixed(1));
+    $("#cho_zone2_output_kcal").text(z2_kcal.toFixed(0));
+    $("#cho_zone2_output_fat").text(z2_fat_g.toFixed(0));
+    $("#cho_zone2_output_cho").text(z2_cho_g.toFixed(0));
 
     // Zone 3
     let z3_min = Number($("[name='cho_zone3_time']").val());
@@ -3054,9 +3054,9 @@ $(function() {
     $("#cho_zone3_output_time").text(z3_min.toFixed(0));
     $("#cho_zone3_output_int").text(z3_int_a.toFixed(0));
     $("#cho_zone3_output_r").text(z3_r.toFixed(2));
-    $("#cho_zone3_output_kcal").text(z3_kcal.toFixed(1));
-    $("#cho_zone3_output_fat").text(z3_fat_g.toFixed(1));
-    $("#cho_zone3_output_cho").text(z3_cho_g.toFixed(1));
+    $("#cho_zone3_output_kcal").text(z3_kcal.toFixed(0));
+    $("#cho_zone3_output_fat").text(z3_fat_g.toFixed(0));
+    $("#cho_zone3_output_cho").text(z3_cho_g.toFixed(0));
 
     // Zone 4
     let z4_min = Number($("[name='cho_zone4_time']").val());
@@ -3073,9 +3073,9 @@ $(function() {
     $("#cho_zone4_output_time").text(z4_min.toFixed(0));
     $("#cho_zone4_output_int").text(z4_int_a.toFixed(0));
     $("#cho_zone4_output_r").text(z4_r.toFixed(2));
-    $("#cho_zone4_output_kcal").text(z4_kcal.toFixed(1));
-    $("#cho_zone4_output_fat").text(z4_fat_g.toFixed(1));
-    $("#cho_zone4_output_cho").text(z4_cho_g.toFixed(1));
+    $("#cho_zone4_output_kcal").text(z4_kcal.toFixed(0));
+    $("#cho_zone4_output_fat").text(z4_fat_g.toFixed(0));
+    $("#cho_zone4_output_cho").text(z4_cho_g.toFixed(0));
 
     // Zone 5
     let z5_min = Number($("[name='cho_zone5_time']").val());
@@ -3093,9 +3093,9 @@ $(function() {
     $("#cho_zone5_output_time").text(z5_min.toFixed(0));
     $("#cho_zone5_output_int").text(z5_int_a.toFixed(0));
     $("#cho_zone5_output_r").text(z5_r.toFixed(2));
-    $("#cho_zone5_output_kcal").text(z5_kcal.toFixed(1));
-    $("#cho_zone5_output_fat").text(z5_fat_g.toFixed(1));
-    $("#cho_zone5_output_cho").text(z5_cho_g.toFixed(1));
+    $("#cho_zone5_output_kcal").text(z5_kcal.toFixed(0));
+    $("#cho_zone5_output_fat").text(z5_fat_g.toFixed(0));
+    $("#cho_zone5_output_cho").text(z5_cho_g.toFixed(0));
 
     let total_fat_g = z1_fat_g + z2_fat_g + z3_fat_g + z4_fat_g + z5_fat_g;
     let total_cho_g = z1_cho_g + z2_cho_g + z3_cho_g + z4_cho_g + z5_cho_g;
@@ -3103,9 +3103,43 @@ $(function() {
     let total_kcal = z1_kcal + z2_kcal + z3_kcal + z4_kcal + z5_kcal;
 
     $("#cho_total_time").text(total_time.toFixed(0));
-    $("#cho_total_fat").text(total_fat_g.toFixed(1));
-    $("#cho_total_cho").text(total_cho_g.toFixed(1));
-    $("#cho_total_kcal").text(total_kcal.toFixed(1));
+    $("#cho_total_fat").text(total_fat_g.toFixed(0));
+    $("#cho_total_cho").text(total_cho_g.toFixed(0));
+    $("#cho_total_kcal").text(total_kcal.toFixed(0));
+
+    let cho_usage_per_hour = total_cho_g / total_time * 60;
+    let cho_intake_per_hour = cho_usage_per_hour;
+    let glucose = 0;
+    let fructose = 0;
+
+    if (cho_usage_per_hour <= 60) {
+      glucose = cho_usage_per_hour;
+      fructose = 0;
+    } else if (cho_usage_per_hour <= 90) {
+      glucose = 60;
+      fructose = cho_usage_per_hour - 60;
+    } else if (cho_usage_per_hour <= 130) {
+      glucose = 60;
+      fructose = cho_usage_per_hour - 60;
+    } else {
+      cho_intake_per_hour = 130
+      glucose = 60;
+      fructose = 70;
+    }
+
+    let ratio;
+    if (fructose > 0) {
+      const g = (glucose / fructose).toFixed(1);
+      ratio = `1:${(1 / g).toFixed(1)}`;  // Normalize to 1:X
+    } else {
+      ratio = "Only glucose";
+    }
+
+    $("#cho_usage_per_hour").text(cho_usage_per_hour.toFixed(0));
+    $("#cho_intake_per_hour").text(cho_intake_per_hour.toFixed(0));
+    $("#cho_intake_glucose_per_hour").text(glucose.toFixed(0));
+    $("#cho_intake_fructose_per_hour").text(fructose.toFixed(0));
+    $("#cho_intake_ratio_per_hour").text(ratio);
 });
   $("#calculator_cho_usage").submit(function(e) {
     console.log("Calculate CHO usage");
@@ -3128,9 +3162,9 @@ $(function() {
 
     let z1 = vo2kcal.VO2Kcal(z1_r, z1_o2);
 
-    let z1_fat_g = z1.getKcalFromFat() * z1_min * 4.186 / 37;
-    let z1_cho_g = z1.getKcalFromCHO() * z1_min * 4.186 / 17;
-    let z1_kcal = (z1.getKcalFromFat() + z1.getKcalFromCHO()) * z1_min;
+    let z1_kcal = z1.getTotalKcalExpenditure(z1_o2, z1_min);
+    let z1_fat_g = z1_kcal * z1.getPercentFatUtilized() / 100 * 4.186 / 37;
+    let z1_cho_g = z1_kcal * z1.getPercentCHOUtilized() / 100 * 4.186 / 17;
 
     $("#cho_zone1_output_time").text(z1_min.toFixed(0));
     $("#cho_zone1_output_int").text(z1_int_a.toFixed(0) + "-" + z1_int_b.toFixed(0) + "%");
@@ -3149,9 +3183,9 @@ $(function() {
 
     let z2 = vo2kcal.VO2Kcal(z2_r, z2_o2);
 
-    let z2_fat_g = z2.getKcalFromFat() * z2_min * 4.186 / 37;
-    let z2_cho_g = z2.getKcalFromCHO() * z2_min * 4.186 / 17;
-    let z2_kcal = (z2.getKcalFromFat() + z2.getKcalFromCHO()) * z2_min;
+    let z2_kcal = z2.getTotalKcalExpenditure(z2_o2, z2_min);
+    let z2_fat_g = z2_kcal * z2.getPercentFatUtilized() / 100 * 4.186 / 37;
+    let z2_cho_g = z2_kcal * z2.getPercentCHOUtilized() / 100 * 4.186 / 17;
 
     $("#cho_zone2_output_time").text(z2_min.toFixed(0));
     $("#cho_zone2_output_int").text(z2_int_a.toFixed(0) + "-" + z2_int_b.toFixed(0) + "%");
@@ -3170,9 +3204,9 @@ $(function() {
 
     let z3 = vo2kcal.VO2Kcal(z3_r, z3_o2);
 
-    let z3_fat_g = z3.getKcalFromFat() * z3_min * 4.186 / 37;
-    let z3_cho_g = z3.getKcalFromCHO() * z3_min * 4.186 / 17;
-    let z3_kcal = (z3.getKcalFromFat() + z3.getKcalFromCHO()) * z3_min;
+    let z3_kcal = z3.getTotalKcalExpenditure(z3_o2, z3_min);
+    let z3_fat_g = z3_kcal * z3.getPercentFatUtilized() / 100 * 4.186 / 37;
+    let z3_cho_g = z3_kcal * z3.getPercentCHOUtilized() / 100 * 4.186 / 17;
 
     $("#cho_zone3_output_time").text(z3_min.toFixed(0));
     $("#cho_zone3_output_int").text(z3_int_a.toFixed(0) + "-" + z3_int_b.toFixed(0) + "%");
@@ -3191,9 +3225,9 @@ $(function() {
 
     let z4 = vo2kcal.VO2Kcal(z4_r, z4_o2);
 
-    let z4_fat_g = z4.getKcalFromFat() * z4_min * 4.186 / 37;
-    let z4_cho_g = z4.getKcalFromCHO() * z4_min * 4.186 / 17;
-    let z4_kcal = (z4.getKcalFromFat() + z4.getKcalFromCHO()) * z4_min;
+    let z4_kcal = z4.getTotalKcalExpenditure(z4_o2, z4_min);
+    let z4_fat_g = z4_kcal * z4.getPercentFatUtilized() / 100 * 4.186 / 37;
+    let z4_cho_g = z4_kcal * z4.getPercentCHOUtilized() / 100 * 4.186 / 17;
 
     $("#cho_zone4_output_time").text(z4_min.toFixed(0));
     $("#cho_zone4_output_int").text(z4_int_a.toFixed(0) + "-" + z4_int_b.toFixed(0) + "%");
@@ -3212,9 +3246,9 @@ $(function() {
 
     let z5 = vo2kcal.VO2Kcal(z5_r, z5_o2);
 
-    let z5_fat_g = z5.getKcalFromFat() * z5_min * 4.186 / 37;
-    let z5_cho_g = z5.getKcalFromCHO() * z5_min * 4.186 / 17;
-    let z5_kcal = (z5.getKcalFromFat() + z5.getKcalFromCHO()) * z5_min;
+    let z5_kcal = z5.getTotalKcalExpenditure(z5_o2, z5_min);
+    let z5_fat_g = z5_kcal * z5.getPercentFatUtilized() / 100 * 4.186 / 37;
+    let z5_cho_g = z5_kcal * z5.getPercentCHOUtilized() / 100 * 4.186 / 17;
 
     $("#cho_zone5_output_time").text(z5_min.toFixed(0));
     $("#cho_zone5_output_int").text(z5_int_a.toFixed(0) + "-" + z5_int_b.toFixed(0) + "%");

@@ -42,7 +42,7 @@ I det følgende går vi lidt mere i dybden med de enkelte træningsformer under 
 
 ## Hvorfor lave fysisk træning?
 
-Der er mange fordele ved at lave fysisk træning. Hvis du gerne vil bruge den fysiske træning i forhold til **præstationsoptimering i forbindelse med idræt**, så skal du lave en arbejdskravsanalyse, så du kan planlægge din træning fornuftigt og bruge tid på de væsentligste parametre.
+Der er mange fordele ved at lave fysisk træning. Hvis du gerne vil bruge den fysiske træning i forhold til **[præstationsoptimering i forbindelse med idræt](/strategier-praestationsoptimering/)**, så skal du lave en arbejdskravsanalyse, så du kan planlægge din træning fornuftigt og bruge tid på de væsentligste parametre.
 
 I det følgende dykker vi ned i de enkelte parametre, som en fysisk træner ofte kigger på, når træningen skal planlægges.
 

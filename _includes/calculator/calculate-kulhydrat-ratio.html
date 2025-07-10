@@ -1,0 +1,64 @@
+<form class="calculator full" id="calculator_cho_usage_biking">
+    <fieldset>
+        <legend>Kulhydratsforbrug</legend>
+        <div class="form-group">
+            <label for="carb-burn-slider">Kulhydratforbrug (g/time): <span id="carb-burn-display">90</span> g</label><br>
+            <input type="range" id="carb-burn-slider" min="60" max="130" step="1" value="90">
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Anbefalet indtag</legend>
+        <table>
+            <tr>
+                <th>Glukose</th>
+                <td><span id="glucose-output">60</span> g/t</td>
+            </tr>
+            <tr>
+                <th>Fruktose</th>
+                <td><span id="fructose-output">30</span> g/t</td>
+            </tr>
+            <tr>
+                <th>Forhold</th>
+                <td><span id="ratio-output">2:1</span> g/t</td>
+            </tr>
+        </table>
+    </fieldset>
+    {% include calculator/calculator-footer.html %}
+</form>
+
+<script>
+    const slider = document.getElementById("carb-burn-slider");
+    const display = document.getElementById("carb-burn-display");
+    const glucoseOut = document.getElementById("glucose-output");
+    const fructoseOut = document.getElementById("fructose-output");
+    const ratioOut = document.getElementById("ratio-output");
+  
+    function updateCarbIntake(value) {
+      display.textContent = value;
+  
+      let glucose = 60;
+      let fructose = value - glucose;
+  
+      if (value <= 90) {
+        glucose = Math.min(60, value);
+        fructose = Math.max(0, value - glucose);
+      } else {
+        glucose = 60;
+        fructose = value - 60;
+      }
+  
+      let ratio = glucose / fructose;
+      let ratioText = fructose === 0 ? "1:0" : `${(glucose / fructose).toFixed(1)}:1`;
+  
+      glucoseOut.textContent = Math.round(glucose);
+      fructoseOut.textContent = Math.round(fructose);
+      ratioOut.textContent = ratioText;
+    }
+  
+    slider.addEventListener("input", (e) => {
+      updateCarbIntake(parseInt(e.target.value, 10));
+    });
+  
+    // Initial call
+    updateCarbIntake(slider.value);
+  </script>

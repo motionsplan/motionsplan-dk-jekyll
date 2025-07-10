@@ -6,7 +6,7 @@ excerpt: "Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske proce
 permalink: /bikarbonat/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1603777953081-624bff44a0a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: https://images.unsplash.com/photo-1737098140591-f0988ae7e15a?auto=format&fit=crop&h=300&w=400&q=10&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 category:
   - Kost & Ernæring

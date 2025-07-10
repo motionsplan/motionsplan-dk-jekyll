@@ -39,7 +39,7 @@ gallery_manchetter:
     alt: "Okklusionstræning: Eksempel på okklusionsmanchet fra BFR BANDS"
 ---
 
-Okklusionstræning er ét af de hel nye buzzwords inden for træning, genoptræning og præstationsoptimering. Vi ser okklusionstræning bredt repræsenteret i den danske trænings- og idrætskultur: I fitnessmiljøerne, blandt elitesportsudøvere, i den sundhedsprofessionelle rehabilitering og i forskningen på de danske universiteter.
+Okklusionstræning er ét af de hel nye buzzwords inden for træning, genoptræning og [præstationsoptimering](/strategier-praestationsoptimering/). Vi ser okklusionstræning bredt repræsenteret i den danske trænings- og idrætskultur: I fitnessmiljøerne, blandt elitesportsudøvere, i den sundhedsprofessionelle rehabilitering og i forskningen på de danske universiteter.
 
 Derfor har jeg valgt den nærliggende overskrift for dette indlæg; _”Alle vil have okklusionstræning”._ Men hvad er okklusionstræning egentlig, og hvad kan det? Hvordan træner man det, og for hvem er okklusionstræning relevant?
 

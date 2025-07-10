@@ -2,7 +2,7 @@
     <fieldset>
         <legend>Udregn kulhydratforbrug ved cykling</legend>
         <div class="form-group">
-            <label>Nyttevirkning (%)
+            <label>Bevægelsesøkonomi på cyklen (nyttevirkning i %)
                 <input name="efficiency" id="efficiency" min="0" max="100" value="23" type="number" required>
             </label>
         </div>
@@ -23,31 +23,31 @@
                         <td>Restitution</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone1_time" id="cho_zone1_time"></td>
                         <td><input type="number" min="0" max="3000" value="" id="cho_zone1_a" name="cho_zone1_a" class="input-mini"></td>
-                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone1_r" name="cho_zone1_r" step="0.01" value="0.80"></td>
+                        <td><input class="input-mini input-locked" type="number" min="0.70" max="1.00" id="cho_zone1_r" name="cho_zone1_r" step="0.01" value="0.80"></td>
                     </tr>
                     <tr>
                         <td>Udholdenhed</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone2_time" id="cho_zone2_time"></td>
                         <td><input type="number" size="3" min="0" max="3000" value="" class="input-mini" id="cho_zone2_a" name="cho_zone2_a"></td>
-                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone2_r" name="cho_zone2_r" step="0.01" value="0.85"></td>
+                        <td><input class="input-mini input-locked" type="number" min="0.70" max="1.00" id="cho_zone2_r" name="cho_zone2_r" step="0.01" value="0.85"></td>
                     </tr>
                     <tr>
                         <td>Moderat</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone3_time" id="cho_zone3_time"></td>
                         <td><input type="number" min="0" max="3000" value="" id="cho_zone3_a" name="cho_zone3_a" class="input-mini"></td>
-                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone3_r" name="cho_zone3_r" step="0.01" value="0.90"></td>
+                        <td><input class="input-mini input-locked" type="number" min="0.70" max="1.00" id="cho_zone3_r" name="cho_zone3_r" step="0.01" value="0.90"></td>
                     </tr>
                     <tr>
                         <td>Tærskel</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone4_time" id="cho_zone4_time" name="cho_zone4_time"></td>
                         <td><input type="number" min="0" max="3000" value="" id="cho_zone4_a" name="cho_zone4_a" class="input-mini"></td>
-                        <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone4_r" name="cho_zone4_r" step="0.01" value="1.00"></td>
+                        <td><input class="input-mini input-locked" type="number" min="0.70" max="1.00" id="cho_zone4_r" name="cho_zone4_r" step="0.01" value="1.00"></td>
                     </tr>
                     <tr>
                         <td>VO2max</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone5_time" id="cho_zone5_time"></td>
                         <td style="white-space:nowrap;"><input min="0" max="3000" type="number" value="" id="cho_zone5_a" name="cho_zone5_a" class="input-mini"></td>
-                        <td><input class="input-mini" type="number" step="0.01" min="0.70" max="1.00" id="cho_zone5_r" name="cho_zone5_r" value="1.00"></td>
+                        <td><input class="input-mini input-locked" type="number" step="0.01" min="0.70" max="1.00" id="cho_zone5_r" name="cho_zone5_r" value="1.00"></td>
                     </tr>
                 </tbody>
             </table>
@@ -128,6 +128,31 @@
                 <td id="cho_total_cho"></td>
             </tr>
         </tfoot>
+        </table>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Foreslået kulhydratindtag i timen</legend>
+        <table>
+            <tr>
+                <th>Gennemsnitligt kulhydratforbrug i timen (g/timen)</th>
+                <td id="cho_usage_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Foreslået indtag (g/timen)</th>
+                <td id="cho_intake_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Heraf glukose (g)</th>
+                <td id="cho_intake_glucose_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Heraf fruktose (g)</th>
+                <td id="cho_intake_fructose_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Ratio</th>
+                <td id="cho_intake_ratio_per_hour"></td>
+            </tr>
         </table>
     </fieldset>
     {% include calculator/calculator-footer.html %}

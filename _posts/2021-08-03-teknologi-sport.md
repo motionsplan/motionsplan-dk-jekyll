@@ -185,7 +185,7 @@ Alt udstyr til de olympiske lege er optimeret lige fra sokker, handsker og hjelm
 
 ## Performance engeneering
 
-Hvis du er interesseret i at vide lidt mere om _performance engineering_ og præstationsoptimering gennem forbedringer af udstyret, så har Anders Nedergaard behandlet det i [Fitness M/K](https://andersnedergaard.dk/fitness-mk/fitness-m-k-318/).
+Hvis du er interesseret i at vide lidt mere om _performance engineering_ og [præstationsoptimering](/strategier-praestationsoptimering/) gennem forbedringer af udstyret, så har Anders Nedergaard behandlet det i [Fitness M/K](https://andersnedergaard.dk/fitness-mk/fitness-m-k-318/).
 
 Du kan lytte til hele episoden og interviewet med Andreas Top Adler fra Team Danmark direkte på Spreaker her.
 
