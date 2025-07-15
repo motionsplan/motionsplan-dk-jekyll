@@ -12,6 +12,14 @@
 @import "youtube";
 @import "star-rating";
 
+
+table.dashboard {
+  font-size: 0.6em;
+  text-align: center;
+  width: 100% !important; 
+  span { font-size: 2em; display: block; }
+}
+
 /////// ADD COUNTER 
 /// 
 /// /* Set up a counter for h2 elements */

@@ -3107,6 +3107,31 @@ $(function() {
     $("#cho_total_cho").text(total_cho_g.toFixed(0));
     $("#cho_total_kcal").text(total_kcal.toFixed(0));
 
+    let weight = Number($("[name='weight']").val());
+    let cho_capacity_bw = Number($("[name='glycogen_capacity_per_kg_bw']").val());
+    let glycogen_threshold_percentage = Number($("[name='glycogen_threshold_percentage']").val());
+
+    let glycogen_capacity = cho_capacity_bw * weight;
+    let accepted_threshold = glycogen_threshold_percentage / 100 * glycogen_capacity;
+    let accepted_depletion = glycogen_capacity - accepted_threshold;
+    let needed_refueling = total_cho_g - accepted_depletion;
+    let message = '';
+    if (needed_refueling < 0) {
+      needed_refueling = 0;
+      message = "Du kan formentlig klare denne tur uden at skulle genopfylde kulhydrat undervejs, men du vil formentlig stadig have god effekt af at indtage noget. Hvis du vil have fuld genopfyldning, så tjek tabellen nedenunder.";
+    } else {
+      message = "Hvis du vil have fuld genopfyldning undervejs, så kan du tjekke tabellen herunder."
+    }
+
+    $("#glycogen_capacity").text(glycogen_capacity.toFixed(0) + " g");
+    $("#glycogen_accepted_threshold").text(accepted_threshold.toFixed(0) + " g");
+    $("#glycogen_accepted_depletion").text(accepted_depletion.toFixed(0) + " g");
+    $("#glycogen_accepted_depletion_1").text(accepted_depletion.toFixed(0) + " g");
+    $("#cho_total_cho_1").text(total_cho_g.toFixed(0) + " g");
+    $("#glycogen_refueling_needed").text(needed_refueling.toFixed(0) + " g");
+    $("#message").text(message);
+
+    ///
     let cho_usage_per_hour = total_cho_g / total_time * 60;
     let cho_intake_per_hour = cho_usage_per_hour;
     let glucose = 0;
@@ -3169,9 +3194,9 @@ $(function() {
     $("#cho_zone1_output_time").text(z1_min.toFixed(0));
     $("#cho_zone1_output_int").text(z1_int_a.toFixed(0) + "-" + z1_int_b.toFixed(0) + "%");
     $("#cho_zone1_output_r").text(z1_r.toFixed(2));
-    $("#cho_zone1_output_kcal").text(z1_kcal.toFixed(1));
-    $("#cho_zone1_output_fat").text(z1_fat_g.toFixed(1));
-    $("#cho_zone1_output_cho").text(z1_cho_g.toFixed(1));
+    $("#cho_zone1_output_kcal").text(z1_kcal.toFixed(0));
+    $("#cho_zone1_output_fat").text(z1_fat_g.toFixed(0));
+    $("#cho_zone1_output_cho").text(z1_cho_g.toFixed(0));
 
     // Zone 2
     let z2_min = Number($("[name='cho_zone2_time']").val());
@@ -3190,9 +3215,9 @@ $(function() {
     $("#cho_zone2_output_time").text(z2_min.toFixed(0));
     $("#cho_zone2_output_int").text(z2_int_a.toFixed(0) + "-" + z2_int_b.toFixed(0) + "%");
     $("#cho_zone2_output_r").text(z2_r.toFixed(2));
-    $("#cho_zone2_output_kcal").text(z2_kcal.toFixed(1));
-    $("#cho_zone2_output_fat").text(z2_fat_g.toFixed(1));
-    $("#cho_zone2_output_cho").text(z2_cho_g.toFixed(1));
+    $("#cho_zone2_output_kcal").text(z2_kcal.toFixed(0));
+    $("#cho_zone2_output_fat").text(z2_fat_g.toFixed(0));
+    $("#cho_zone2_output_cho").text(z2_cho_g.toFixed(0));
 
     // Zone 3
     let z3_min = Number($("[name='cho_zone3_time']").val());
@@ -3211,9 +3236,9 @@ $(function() {
     $("#cho_zone3_output_time").text(z3_min.toFixed(0));
     $("#cho_zone3_output_int").text(z3_int_a.toFixed(0) + "-" + z3_int_b.toFixed(0) + "%");
     $("#cho_zone3_output_r").text(z3_r.toFixed(2));
-    $("#cho_zone3_output_kcal").text(z3_kcal.toFixed(1));
-    $("#cho_zone3_output_fat").text(z3_fat_g.toFixed(1));
-    $("#cho_zone3_output_cho").text(z3_cho_g.toFixed(1));
+    $("#cho_zone3_output_kcal").text(z3_kcal.toFixed(0));
+    $("#cho_zone3_output_fat").text(z3_fat_g.toFixed(0));
+    $("#cho_zone3_output_cho").text(z3_cho_g.toFixed(0));
 
     // Zone 4
     let z4_min = Number($("[name='cho_zone4_time']").val());
@@ -3232,9 +3257,9 @@ $(function() {
     $("#cho_zone4_output_time").text(z4_min.toFixed(0));
     $("#cho_zone4_output_int").text(z4_int_a.toFixed(0) + "-" + z4_int_b.toFixed(0) + "%");
     $("#cho_zone4_output_r").text(z4_r.toFixed(2));
-    $("#cho_zone4_output_kcal").text(z4_kcal.toFixed(1));
-    $("#cho_zone4_output_fat").text(z4_fat_g.toFixed(1));
-    $("#cho_zone4_output_cho").text(z4_cho_g.toFixed(1));
+    $("#cho_zone4_output_kcal").text(z4_kcal.toFixed(0));
+    $("#cho_zone4_output_fat").text(z4_fat_g.toFixed(0));
+    $("#cho_zone4_output_cho").text(z4_cho_g.toFixed(0));
 
     // Zone 5
     let z5_min = Number($("[name='cho_zone5_time']").val());
@@ -3253,9 +3278,9 @@ $(function() {
     $("#cho_zone5_output_time").text(z5_min.toFixed(0));
     $("#cho_zone5_output_int").text(z5_int_a.toFixed(0) + "-" + z5_int_b.toFixed(0) + "%");
     $("#cho_zone5_output_r").text(z5_r.toFixed(2));
-    $("#cho_zone5_output_kcal").text(z5_kcal.toFixed(1));
-    $("#cho_zone5_output_fat").text(z5_fat_g.toFixed(1));
-    $("#cho_zone5_output_cho").text(z5_cho_g.toFixed(1));
+    $("#cho_zone5_output_kcal").text(z5_kcal.toFixed(0));
+    $("#cho_zone5_output_fat").text(z5_fat_g.toFixed(0));
+    $("#cho_zone5_output_cho").text(z5_cho_g.toFixed(0));
 
     let total_fat_g = z1_fat_g + z2_fat_g + z3_fat_g + z4_fat_g + z5_fat_g;
     let total_cho_g = z1_cho_g + z2_cho_g + z3_cho_g + z4_cho_g + z5_cho_g;
@@ -3263,16 +3288,66 @@ $(function() {
     let total_kcal = z1_kcal + z2_kcal + z3_kcal + z4_kcal + z5_kcal;
 
     $("#cho_total_time").text(total_time.toFixed(0));
-    $("#cho_total_fat").text(total_fat_g.toFixed(1));
-    $("#cho_total_cho").text(total_cho_g.toFixed(1));
-    $("#cho_total_kcal").text(total_kcal.toFixed(1));
+    $("#cho_total_fat").text(total_fat_g.toFixed(0));
+    $("#cho_total_cho").text(total_cho_g.toFixed(0));
+    $("#cho_total_kcal").text(total_kcal.toFixed(0));
 
-//    $("[name='energy_expenditure']").val(kcal.toFixed(2));
-//    $("[name='energy_fat_percent']").val((b.getFatPercent()* 100).toFixed(0));
-//    $("[name='energy_cho_percent']").val((b.getCHOPercent() * 100).toFixed(0));
-    
-//    $("[name='energy_fat_kcal_min']").val((kcal * b.getFatPercent()).toFixed(2));
-//    $("[name='energy_cho_kcal_min']").val((kcal * b.getCHOPercent()).toFixed(2));
+    let cho_capacity_bw = Number($("[name='glycogen_capacity_per_kg_bw']").val());
+    let glycogen_threshold_percentage = Number($("[name='glycogen_threshold_percentage']").val());
+
+    let glycogen_capacity = cho_capacity_bw * weight;
+    let accepted_threshold = glycogen_threshold_percentage / 100 * glycogen_capacity;
+    let accepted_depletion = glycogen_capacity - accepted_threshold;
+    let needed_refueling = total_cho_g - accepted_depletion;
+    let message = '';
+    if (needed_refueling < 0) {
+      needed_refueling = 0;
+      message = "Du kan formentlig klare denne tur uden at skulle genopfylde kulhydrat undervejs, men du vil formentlig stadig have god effekt af at indtage noget. Hvis du vil have fuld genopfyldning, så tjek tabellen nedenunder.";
+    } else {
+      message = "Hvis du vil have fuld genopfyldning undervejs, så kan du tjekke tabellen herunder."
+    }
+
+    $("#glycogen_capacity").text(glycogen_capacity.toFixed(0) + " g");
+    $("#glycogen_accepted_threshold").text(accepted_threshold.toFixed(0) + " g");
+    $("#glycogen_accepted_depletion").text(accepted_depletion.toFixed(0) + " g");
+    $("#glycogen_accepted_depletion_1").text(accepted_depletion.toFixed(0) + " g");
+    $("#cho_total_cho_1").text(total_cho_g.toFixed(0) + " g");
+    $("#glycogen_refueling_needed").text(needed_refueling.toFixed(0) + " g");
+    $("#message").text(message);
+
+    let cho_usage_per_hour = total_cho_g / total_time * 60;
+    let cho_intake_per_hour = cho_usage_per_hour;
+    let glucose = 0;
+    let fructose = 0;
+
+    if (cho_usage_per_hour <= 60) {
+      glucose = cho_usage_per_hour;
+      fructose = 0;
+    } else if (cho_usage_per_hour <= 90) {
+      glucose = 60;
+      fructose = cho_usage_per_hour - 60;
+    } else if (cho_usage_per_hour <= 130) {
+      glucose = 60;
+      fructose = cho_usage_per_hour - 60;
+    } else {
+      cho_intake_per_hour = 130
+      glucose = 60;
+      fructose = 70;
+    }
+
+    let ratio;
+    if (fructose > 0) {
+      const g = (glucose / fructose).toFixed(1);
+      ratio = `1:${(1 / g).toFixed(1)}`;  // Normalize to 1:X
+    } else {
+      ratio = "Only glucose";
+    }
+
+    $("#cho_usage_per_hour").text(cho_usage_per_hour.toFixed(0));
+    $("#cho_intake_per_hour").text(cho_intake_per_hour.toFixed(0));
+    $("#cho_intake_glucose_per_hour").text(glucose.toFixed(0));
+    $("#cho_intake_fructose_per_hour").text(fructose.toFixed(0));
+    $("#cho_intake_ratio_per_hour").text(ratio);
 });
     $("#calculator_lung").submit(function(e) {
         console.log("Calculate Lungs");

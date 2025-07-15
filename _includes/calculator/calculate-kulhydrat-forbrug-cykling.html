@@ -2,6 +2,21 @@
     <fieldset>
         <legend>Udregn kulhydratforbrug ved cykling</legend>
         <div class="form-group">
+            <label>Din vægt (kg)
+                <input name="weight" id="weight" min="10" max="200" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Glykogen kapacitet (g/kg kropsvægt)
+                <input name="glycogen_capacity_per_kg_bw" id="glycogen_capacity_per_kg_bw" min="8" max="20" value="8" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Glykogen tærskel - sikker værdi (%)
+                <input name="glycogen_threshold_percentage" id="glycogen_threshold_percentage" min="0" max="100" value="60" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
             <label>Bevægelsesøkonomi på cyklen (nyttevirkning i %)
                 <input name="efficiency" id="efficiency" min="0" max="100" value="23" type="number" required>
             </label>
@@ -132,6 +147,44 @@
     </fieldset>
     <fieldset class="results">
         <legend>Foreslået kulhydratindtag i timen</legend>
+        <table class="dashboard table">
+            <tr>
+                <td>🔋
+                    <span id="glycogen_capacity"></span>
+                    Glykogen kapacitet (g)
+                </td>
+                <td> - </td>
+                <td>
+                    🪫
+                    <span id="glycogen_accepted_threshold"></span>
+                    Glykogen tærskel (g)
+                </td>
+                <td> = </td>
+                <td>
+                    ⬇️
+                    <span id="glycogen_accepted_depletion"></span>
+                    Accepteret tømning (g)
+                </td>
+            </tr>
+            <tr>
+                <td>🔥
+                    <span id="cho_total_cho_1"></span>
+                    Kulhydrat forbrændt (g)</td>
+                <td> - </td>
+                <td>
+                    ⬇️
+                    <span id="glycogen_accepted_depletion_1"></span>
+                    Accepteret tømning (g)
+                </td>
+                <td> = </td>
+                <td>
+                    ⚡
+                    <span id="glycogen_refueling_needed"></span>
+                    Kylhydrat til genopfyldning (g)
+                </td>
+            </tr>
+        </table>
+        <p id="message">Hvis du vil have fuld genopfyldning undervejs, så kan du tjekke tabellen herunder.</p>
         <table>
             <tr>
                 <th>Gennemsnitligt kulhydratforbrug i timen (g/timen)</th>

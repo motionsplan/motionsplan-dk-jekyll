@@ -51,10 +51,8 @@ Det giver dig mulighed for at analysere din position på cyklen, teste forskelle
 |----------------------------------|-----------------|-----------------------------------|
 | Oprejst bycyklist                 | 0,40 – 0,60     | Høj luftmodstand                  |
 | Almindelig racercyklist           | 0,30 – 0,35     | Standard racingposition           |
-| Tidskørselsspecialist (aero)     | 0,20 – 0,25     | Aero position med lav front       |
-| Triatlet i aero position          | 0,18 – 0,22     | Optimeret til maksimal aerodynamik|
+| Tidskørselsspecialist (aero)     | 0,18 – 0,25     | Aero position med lav front       |
 | Pro-cyklist i konkurrenceposition | 0,25 – 0,28     | Eliteposition, aggressiv kropsholdning |
-| Cyklist med hjelm                | +0,01 – +0,02   | Hjelm kan forbedre eller forværre afhængigt af typen |
 
 ## Sådan bruger du CdA-beregneren til at teste cykelpositioner
 

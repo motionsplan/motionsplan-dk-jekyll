@@ -11,6 +11,16 @@
                 <input name="weight" id="weight" min="10" max="200" type="number" required>
             </label>
         </div>
+        <div class="form-group">
+            <label>Glykogen kapacitet (g/kg kropsvægt)
+                <input name="glycogen_capacity_per_kg_bw" id="glycogen_capacity_per_kg_bw" min="8" max="20" value="8" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Glykogen tærskel - sikker værdi (%)
+                <input name="glycogen_threshold_percentage" id="glycogen_threshold_percentage" min="0" max="100" value="60" type="number" required>
+            </label>
+        </div>
         <fieldset>
             <legend>Energiforbrug ved de forskellige intensiteter ift. VO2max</legend>
             <table class="table" style="display: table; width: 100% !important;">
@@ -28,34 +38,34 @@
                         <td>Restitution</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone1_time" id="cho_zone1_time"></td>
                         <td><input type="number" min="0" max="100" value="40" id="cho_zone1_a" name="cho_zone1_a" class="input-mini input-locked">
-                            -<input type="number" class="input-mini input-locked" value="55" id="cho_zone1_b" name="cho_zone1_b">%</td>
+                            -<input type="number" class="input-mini input-locked" value="50" id="cho_zone1_b" name="cho_zone1_b">%</td>
                         <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone1_r" name="cho_zone1_r" step="0.01" value="0.80"></td>
                     </tr>
                     <tr>
                         <td>Udholdenhed</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone2_time" id="cho_zone2_time"></td>
-                        <td><input type="number" size="3" min="0" max="100" value="56" class="input-mini input-locked" id="cho_zone2_a" name="cho_zone2_a">
-                            -<input type="number" class="input-mini input-locked" value="75" id="cho_zone2_b" name="cho_zone2_b">%</td>
+                        <td><input type="number" size="3" min="0" max="100" value="50" class="input-mini input-locked" id="cho_zone2_a" name="cho_zone2_a">
+                            -<input type="number" class="input-mini input-locked" value="65" id="cho_zone2_b" name="cho_zone2_b">%</td>
                         <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone2_r" name="cho_zone2_r" step="0.01" value="0.85"></td>
                     </tr>
                     <tr>
                         <td>Moderat</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone3_time" id="cho_zone3_time"></td>
-                        <td><input type="number" min="0" max="100" value="76" id="cho_zone3_a" name="cho_zone3_a" class="input-mini input-locked">
-                            -<input type="number" class="input-mini input-locked" value="85" id="cho_zone3_b" name="cho_zone3_b">%</td>
+                        <td><input type="number" min="0" max="100" value="65" id="cho_zone3_a" name="cho_zone3_a" class="input-mini input-locked">
+                            -<input type="number" class="input-mini input-locked" value="80" id="cho_zone3_b" name="cho_zone3_b">%</td>
                         <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone3_r" name="cho_zone3_r" step="0.01" value="0.90"></td>
                     </tr>
                     <tr>
                         <td>Tærskel</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone4_time" id="cho_zone4_time" name="cho_zone4_time"></td>
-                        <td><input type="number" min="0" max="100" value="86" id="cho_zone4_a" name="cho_zone4_a" class="input-mini input-locked">
-                            -<input type="number" class="input-mini input-locked" value="95" id="cho_zone4_b" name="cho_zone4_b">%</td>
+                        <td><input type="number" min="0" max="100" value="80" id="cho_zone4_a" name="cho_zone4_a" class="input-mini input-locked">
+                            -<input type="number" class="input-mini input-locked" value="90" id="cho_zone4_b" name="cho_zone4_b">%</td>
                         <td><input class="input-mini" type="number" min="0.70" max="1.00" id="cho_zone4_r" name="cho_zone4_r" step="0.01" value="1.00"></td>
                     </tr>
                     <tr>
                         <td>VO2max</td>
                         <td><input min="0" class="input-mini" type="number" name="cho_zone5_time" id="cho_zone5_time"></td>
-                        <td style="white-space:nowrap;"><input min="0" max="100" type="number" value="95" id="cho_zone5_a" name="cho_zone5_a" class="input-mini input-locked">
+                        <td style="white-space:nowrap;"><input min="0" max="100" type="number" value="90" id="cho_zone5_a" name="cho_zone5_a" class="input-mini input-locked">
                             -<input class="input-mini input-locked" type="number" disabled value="100" id="cho_zone5_b" name="cho_zone5_b">%</td>
                         <td><input class="input-mini" type="number" step="0.01" min="0.70" max="1.00" id="cho_zone5_r" name="cho_zone5_r" value="1.00"></td>
                     </tr>
@@ -138,6 +148,69 @@
                 <td id="cho_total_cho"></td>
             </tr>
         </tfoot>
+        </table>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultater</legend>
+        <table class="dashboard table">
+            <tr>
+                <td>🔋
+                    <span id="glycogen_capacity"></span>
+                    Glykogen kapacitet (g)
+                </td>
+                <td> - </td>
+                <td>
+                    🪫
+                    <span id="glycogen_accepted_threshold"></span>
+                    Glykogen tærskel (g)
+                </td>
+                <td> = </td>
+                <td>
+                    ⬇️
+                    <span id="glycogen_accepted_depletion"></span>
+                    Accepteret tømning (g)
+                </td>
+            </tr>
+            <tr>
+                <td>🔥
+                    <span id="cho_total_cho_1"></span>
+                    Kulhydrat forbrændt (g)</td>
+                <td> - </td>
+                <td>
+                    ⬇️
+                    <span id="glycogen_accepted_depletion_1"></span>
+                    Accepteret tømning (g)
+                </td>
+                <td> = </td>
+                <td>
+                    ⚡
+                    <span id="glycogen_refueling_needed"></span>
+                    Kylhydrat til genopfyldning (g)
+                </td>
+            </tr>
+        </table>
+        <p id="message">Hvis du vil have fuld genopfyldning undervejs, så kan du tjekke tabellen herunder.</p>
+        <table>
+            <tr>
+                <th>Gennemsnitligt kulhydratforbrug i timen (g/timen)</th>
+                <td id="cho_usage_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Foreslået indtag (g/timen)</th>
+                <td id="cho_intake_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Heraf glukose (g)</th>
+                <td id="cho_intake_glucose_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Heraf fruktose (g)</th>
+                <td id="cho_intake_fructose_per_hour"></td>
+            </tr>
+            <tr>
+                <th>Ratio</th>
+                <td id="cho_intake_ratio_per_hour"></td>
+            </tr>
         </table>
     </fieldset>
     {% include calculator/calculator-footer.html %}

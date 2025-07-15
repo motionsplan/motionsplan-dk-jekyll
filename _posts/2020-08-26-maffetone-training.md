@@ -27,7 +27,7 @@ meta:
 
 Maffetone-metoden er en træningsfilosofi, der fokuserer på at forbedre din udholdenhed ved at holde pulsen lav. 
 
-Metoden blev udviklet af Dr. Phil Maffetone og bruges af løbere, cyklister og andre udholdenhedsatleter til at opbygge en stærk aerobe base uden risiko for overtræning.
+Metoden blev udviklet af Dr. Phil Maffetone og bruges af løbere, cyklister og andre udholdenhedsatleter til at opbygge en stærk aerob base uden risiko for overtræning.
 
 Ved at træne i din optimale fedtforbrændingszone omkring den [aerobe tærskel](/aerobe-taerskel/) kan du øge din præstation og reducere skaderisikoen.
 
