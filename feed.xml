@@ -1,0 +1,3160 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.motionsplan.dk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.motionsplan.dk/" rel="alternate" type="text/html" /><updated>2025-07-16T14:44:09+00:00</updated><id>https://www.motionsplan.dk/feed.xml</id><title type="html">Motionsplan</title><subtitle>Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.</subtitle><author><name>Motionsplan</name></author><entry><title type="html">Carb-loading: Hvad siger videnskaben og sådan gør du!</title><link href="https://www.motionsplan.dk/carb-loading/" rel="alternate" type="text/html" title="Carb-loading: Hvad siger videnskaben og sådan gør du!" /><published>2025-07-16T00:00:00+00:00</published><updated>2025-07-16T22:21:26+00:00</updated><id>https://www.motionsplan.dk/carbo-loading</id><content type="html" xml:base="https://www.motionsplan.dk/carb-loading/"><![CDATA[<p>Carb-loading (kulhydratpåfyldning) er en strategisk kostmetode, der anvendes før langvarige udholdenhedsbegivenheder (typisk &gt;90 min) for at maksimere muskel- og leverglykogenlagre og derved udsætte træthed.</p>
+
+<h2 id="-videnskabelig-baggrund-og-effekter">🧬 Videnskabelig baggrund og effekter</h2>
+
+<h3 id="muskelglykogen-superkompensation">Muskelglykogen superkompensation</h3>
+
+<ul>
+  <li>Klassiske studier (fx <a href="https://link.springer.com/article/10.1007/BF00423639">Bergström et al. (1967)</a> og <a href="https://pubmed.ncbi.nlm.nih.gov/5545182/">Bergström et al. (1971)</a>) viste, at et protokol med udtømning efterfulgt af høj-kulhydrat kost kan øge muskelglykogen til 2–3 gange normalt niveau.</li>
+  <li>Moderne protokoller kan opnå lignende resultater på 1–2 dage uden udtømningsfase (<a href="https://pubmed.ncbi.nlm.nih.gov/7271952/">Sherman et al. (1981)</a>).</li>
+</ul>
+
+<h3 id="effekt-på-præstation-ved-længerevarende-aktivitet">Effekt på præstation ved længerevarende aktivitet</h3>
+
+<ul>
+  <li><a href="https://link.springer.com/article/10.2165/00007256-199724020-00001">Hawley et al. (1997)</a> viser, at carb-loading kan forsinke træthed med ca. 20 % i konkurrencer over 90 minutter.</li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/5545182/">Karlsson &amp; Saltin (1971)</a> fandt, at en 30 km løbetid kunne forbedres med ~7,7 minutter.</li>
+</ul>
+
+<h3 id="begrænset-effekt-ved-kortvarig-aktivitet">Begrænset effekt ved kortvarig aktivitet</h3>
+
+<ul>
+  <li>For aktiviteter under 60–90 minutter er effekten minimal (<a href="https://pubmed.ncbi.nlm.nih.gov/22150425/">Burke et al. (2011)</a>).</li>
+</ul>
+
+<h3 id="glykogenlagring-og-hurtig-opfyldning">Glykogenlagring og hurtig opfyldning</h3>
+
+<ul>
+  <li>Muskler øger glukosetransport efter udtømning, hvilket letter hurtig glykogenlagring under carb-loading (<a href="https://pubmed.ncbi.nlm.nih.gov/9243551/">Hickner et al. (1997)</a>).</li>
+</ul>
+
+<h2 id="-carb-loading-i-praksis">📋 Carb-loading i praksis</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Protokol</th>
+      <th>Udtømningsfase</th>
+      <th>Loadingfase</th>
+      <th>Effekt og kommentarer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Klassisk (6-7 dage)</strong></td>
+      <td>3-4 dages lav-kulhydrat + hård træning</td>
+      <td>3-4 dages høj-kulhydrat + hvile</td>
+      <td>Øget glykogen 2–3×, men fysisk og mentalt krævende (<a href="https://link.springer.com/article/10.1007/BF00423639">Bergström et al. (1967)</a>)</td>
+    </tr>
+    <tr>
+      <td><strong>Moderne (2-3 dage)</strong></td>
+      <td>Ingen eller let træning</td>
+      <td>2 dage med 5–7 g/kg/dag</td>
+      <td>Effektiv og lettere at gennemføre (<a href="https://pubmed.ncbi.nlm.nih.gov/7271952/">Sherman et al. (1981)</a>)</td>
+    </tr>
+    <tr>
+      <td><strong>Hurtig (24 timer)</strong></td>
+      <td>Kort HIIT dagen før</td>
+      <td>≥8 g/kg i 24 timer</td>
+      <td>Hurtig opfyldning (~90% stigning) (<a href="https://pubmed.ncbi.nlm.nih.gov/12432165/">Bussau et al. (2002)</a>)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-hvor-meget-glykogen-kan-lagres">🧠 Hvor meget glykogen kan lagres?</h2>
+
+<ul>
+  <li>Typisk op til 500–900 mmol/kg tørvægt – 2–3× det normale niveau.</li>
+  <li>Hvert gram glykogen binder ~2,6 gram vand → vægtøgning på 1–2 kg er normalt (<a href="https://pubmed.ncbi.nlm.nih.gov/5493069/">Olsson &amp; Saltin (1970)</a>).</li>
+  <li>I bodybuildingsammenhænge bruges carb-loading for at “fylde” musklerne (<a href="https://www.jssm.org/jssm-18-772.xml">de Moraes et al. (2019)</a>).</li>
+</ul>
+
+<h2 id="-sådan-gør-du-det">✅ Sådan gør du det</h2>
+
+<ol>
+  <li><strong>Start 2 dage før konkurrence.</strong></li>
+  <li><strong>Reducer træningsmængden drastisk</strong> – fx 50–70 % reduktion.</li>
+  <li><strong>Spis 5–7 g kulhydrat pr. kg kropsvægt pr. dag.</strong></li>
+  <li><strong>Vælg letfordøjelige, fiberfattige kulhydrater</strong> – fx hvid ris, pasta, kartoffelmos.</li>
+  <li><strong>Hydrér ordentligt</strong> – væske hjælper med glykogenlagring og minimerer mavegener.</li>
+  <li><strong>Test protokollen før vigtige konkurrencer.</strong></li>
+</ol>
+
+<h2 id="-hvor-meget-kulhydrat-skal-man-spise-under-carb-loading">🥖 Hvor meget kulhydrat skal man spise under carb-loading?</h2>
+
+<p>Kulhydratbehovet varierer afhængigt af dit aktivitetsniveau. Her er en oversigt over typiske indtag sammenlignet med carb-loading:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Situation</strong></th>
+      <th><strong>Kulhydratindtag (g/kg/dag)</strong></th>
+      <th><strong>Beskrivelse</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Normal hverdag</td>
+      <td>3–5 g/kg</td>
+      <td>For inaktive eller lavt aktive personer</td>
+    </tr>
+    <tr>
+      <td>Moderat træning</td>
+      <td>5–7 g/kg</td>
+      <td>Daglig træning på 1–2 timer</td>
+    </tr>
+    <tr>
+      <td>Hård træning</td>
+      <td>6–10 g/kg</td>
+      <td>Ved længere eller intens træning (2–4 timer/dag)</td>
+    </tr>
+    <tr>
+      <td><strong>Carb-loading (2–3 dage før konkurrence)</strong></td>
+      <td><strong>7–10 g/kg</strong></td>
+      <td>Forøgelse af glykogenlagre før længerevarende konkurrence</td>
+    </tr>
+    <tr>
+      <td><strong>Hurtig carb-loading (24 timer)</strong></td>
+      <td><strong>8–12 g/kg</strong></td>
+      <td>Kræver højt indtag og lav træningsvolumen – evt. kombineret med kort HIIT</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="-eksempel-person-på-70-kg">🧮 Eksempel: Person på 70 kg</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Scenarie</strong></th>
+      <th><strong>Kulhydratmål (gram pr. dag)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Normal hverdag (4 g/kg)</td>
+      <td>280 g</td>
+    </tr>
+    <tr>
+      <td>Carb-loading (9 g/kg)</td>
+      <td>630 g</td>
+    </tr>
+    <tr>
+      <td>Hurtig loading (10 g/kg)</td>
+      <td>700 g</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="-tips-til-at-nå-det-høje-indtag">✅ Tips til at nå det høje indtag</h3>
+
+<ul>
+  <li>Vælg <strong>letfordøjelige</strong> kulhydrater: hvid pasta, ris, brød uden kerner, kartoffelmos, pandekager, juice.</li>
+  <li>Spis <strong>mindre, hyppige måltider</strong> over dagen – fx 5–6 måltider + snacks.</li>
+  <li>Brug gerne <strong>flydende kilder</strong> som frugtjuice eller sportsdrikke for at øge indtaget uden at blive mæt.</li>
+  <li>Undgå for meget <strong>kostfibre og fedt</strong> – det kan give maveproblemer under loading.</li>
+</ul>
+
+<hr />
+
+<p>Ved at følge disse retningslinjer kan du maksimere dine glykogenlagre og forbedre din præstation ved lange udholdenhedskonkurrencer.</p>
+
+<hr />
+
+<h2 id="️-udfordringer-og-bivirkninger">⚠️ Udfordringer og bivirkninger</h2>
+
+<ul>
+  <li><strong>Gastrointestinale problemer:</strong> Kvalme, oppustethed og diarré kan opstå ved meget højt kulhydratindtag – især ved klassisk protokol (<a href="https://pubmed.ncbi.nlm.nih.gov/2071645/">Wright et al. (1991)</a>).</li>
+  <li><strong>Vægtøgning:</strong> 1–2 kg ekstra væske er normalt – det er ikke fedt.</li>
+</ul>
+
+<h2 id="-hvornår-giver-det-mening">🎯 Hvornår giver det mening?</h2>
+
+<ul>
+  <li>Ved konkurrencer <strong>&gt;90 minutter</strong>, fx maraton, triatlon, cykelløb og langrendsløb.</li>
+  <li>Mindre relevant ved korte konkurrencer eller for dem med høj GI-sensitivitet.</li>
+</ul>
+
+<hr />
+
+<h2 id="-mere-om-kulhydrater-og-glykogen">🔍 Mere om kulhydrater og glykogen</h2>
+
+<p>Hvis du vil forstå, hvorfor carb-loading virker, er det en god idé at kende til kulhydraters opbygning og funktion i kroppen. Kulhydrater lagres i musklerne og leveren som <strong>glykogen</strong>, og det er netop disse lagre, du forsøger at fylde op under carb-loading.</p>
+
+<p>👉 Læs mere i vores gennemgang af kulhydraternes opbygning:<br />
+<strong><a href="/kulhydrater-opbygning/">Hvad er kulhydrater, og hvordan bruges de i kroppen?</a></strong><br />
+Her forklarer vi bl.a., hvad glukose, glykogen og stivelse er, og hvordan kroppen bruger dem som brændstof.</p>
+
+<p>👉 Vil du vide, hvor meget kulhydrat du egentlig forbrænder under træning?<br />
+Så besøg vores side om:<br />
+<strong><a href="/kulhydratforbrug/">Kulhydratforbrug under aktivitet →</a></strong><br />
+Her finder du eksempler, formler og baggrund for, hvor hurtigt dine glykogenlagre tømmes – og hvordan du kan supplere din carb-loading under aktiviteten.</p>
+
+<p><strong>Vil du lære mere om ernæring og præstationsoptimering?</strong> Så tag et kig på vores andre artikler om <a href="/kost-ernaering/">sportsernæring</a> og <a href="/restitution/">restitution</a>.</p>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-carb-loading">Hvad er carb-loading?</h3></summary>
+<p>Carb-loading er en strategi, hvor man øger sit kulhydratindtag i dagene op til en langvarig konkurrence for at maksimere kroppens lagre af muskelglykogen og dermed forbedre udholdenhedspræstationen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvornår-bør-man-bruge-carb-loading">Hvornår bør man bruge carb-loading?</h3></summary>
+<p>Carb-loading er primært relevant før udholdenhedsbegivenheder, der varer over 90 minutter – fx maraton, triatlon eller lange cykelløb.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-meget-kulhydrat-skal-man-spise-under-carb-loading">Hvor meget kulhydrat skal man spise under carb-loading?</h3></summary>
+<p>Typisk anbefales 5–7 gram kulhydrat pr. kg kropsvægt pr. dag i 2–3 dage op til konkurrencen. Ved hurtige protokoller kan op til 8–10 g/kg anvendes over 24 timer.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="får-man-væskeophobning-eller-vægtøgning-ved-carb-loading">Får man væskeophobning eller vægtøgning ved carb-loading?</h3></summary>
+<p>Ja, hvert gram glykogen binder ca. 2,6 gram vand. Det kan føre til en midlertidig vægtøgning på 1–2 kg, hvilket er normalt og ikke skadeligt.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="skal-man-tømme-glykogenlagrene-før-carb-loading">Skal man tømme glykogenlagrene før carb-loading?</h3></summary>
+<p>Det var tidligere standard (klassisk metode), men nyere forskning viser, at man kan opnå lignende resultater uden en udtømningsfase, blot ved at reducere træningen og øge kulhydratindtaget.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-der-bivirkninger-ved-carb-loading">Er der bivirkninger ved carb-loading?</h3></summary>
+<p>Nogle oplever mavegener som oppustethed, kvalme eller diarré, især ved meget højt indtag af kulhydrater. Det kan hjælpes ved at vælge letfordøjelige fødevarer med lavt fiberindhold.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="virker-carb-loading-til-kortere-løb-og-træning">Virker carb-loading til kortere løb og træning?</h3></summary>
+<p>Nej, der er typisk ingen effekt ved aktiviteter under 60–90 minutter, hvor kroppens normale glykogenlagre er tilstrækkelige.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-carb-loading-kun-relevant-for-løbere">Er carb-loading kun relevant for løbere?</h3></summary>
+<p>Nej, strategien kan bruges af alle udholdenhedsatleter – fx cykelryttere, triatleter, langrendsløbere og roere.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er carb-loading?","acceptedAnswer":{"@type":"Answer","text":"Carb-loading er en strategi, hvor man øger sit kulhydratindtag i dagene op til en langvarig konkurrence for at maksimere kroppens lagre af muskelglykogen og dermed forbedre udholdenhedspræstationen.\n"}},{"@type":"Question","name":"Hvornår bør man bruge carb-loading?","acceptedAnswer":{"@type":"Answer","text":"Carb-loading er primært relevant før udholdenhedsbegivenheder, der varer over 90 minutter – fx maraton, triatlon eller lange cykelløb.\n"}},{"@type":"Question","name":"Hvor meget kulhydrat skal man spise under carb-loading?","acceptedAnswer":{"@type":"Answer","text":"Typisk anbefales 5–7 gram kulhydrat pr. kg kropsvægt pr. dag i 2–3 dage op til konkurrencen. Ved hurtige protokoller kan op til 8–10 g/kg anvendes over 24 timer.\n"}},{"@type":"Question","name":"Får man væskeophobning eller vægtøgning ved carb-loading?","acceptedAnswer":{"@type":"Answer","text":"Ja, hvert gram glykogen binder ca. 2,6 gram vand. Det kan føre til en midlertidig vægtøgning på 1–2 kg, hvilket er normalt og ikke skadeligt.\n"}},{"@type":"Question","name":"Skal man tømme glykogenlagrene før carb-loading?","acceptedAnswer":{"@type":"Answer","text":"Det var tidligere standard (klassisk metode), men nyere forskning viser, at man kan opnå lignende resultater uden en udtømningsfase, blot ved at reducere træningen og øge kulhydratindtaget.\n"}},{"@type":"Question","name":"Er der bivirkninger ved carb-loading?","acceptedAnswer":{"@type":"Answer","text":"Nogle oplever mavegener som oppustethed, kvalme eller diarré, især ved meget højt indtag af kulhydrater. Det kan hjælpes ved at vælge letfordøjelige fødevarer med lavt fiberindhold.\n"}},{"@type":"Question","name":"Virker carb-loading til kortere løb og træning?","acceptedAnswer":{"@type":"Answer","text":"Nej, der er typisk ingen effekt ved aktiviteter under 60–90 minutter, hvor kroppens normale glykogenlagre er tilstrækkelige.\n"}},{"@type":"Question","name":"Er carb-loading kun relevant for løbere?","acceptedAnswer":{"@type":"Answer","text":"Nej, strategien kan bruges af alle udholdenhedsatleter – fx cykelryttere, triatleter, langrendsløbere og roere.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="https://link.springer.com/article/10.1007/BF00423639">Bergström et al. (1967)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/5545182/">Bergström et al. (1971)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/5545182/">Karlsson &amp; Saltin (1971)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/7271952/">Sherman et al. (1981)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/12432165/">Bussau et al. (2002)</a></li>
+    <li><a href="https://link.springer.com/article/10.2165/00007256-199724020-00001">Hawley et al. (1997)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/22150425/">Burke et al. (2011)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/9243551/">Hickner et al. (1997)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/5493069/">Olsson &amp; Saltin (1970)</a></li>
+    <li><a href="https://www.jssm.org/jssm-18-772.xml">de Moraes et al. (2019)</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/2071645/">Wright et al. (1991)</a></li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kost &amp; Ernæring&quot;]" /><category term="kost &amp; ernæring" /><category term="præstationsoptimering" /><summary type="html"><![CDATA[Carb-loading øger dine glykogenlagre og forbedrer udholdenhed. Læs, hvad forskningen siger, og hvordan du gør i praksis før konkurrence.]]></summary></entry><entry><title type="html">Næseplastre og sport: Hjælper de overhovedet?</title><link href="https://www.motionsplan.dk/naeseplastre-effekt-praestation/" rel="alternate" type="text/html" title="Næseplastre og sport: Hjælper de overhovedet?" /><published>2025-07-15T00:00:00+00:00</published><updated>2025-07-10T22:21:26+00:00</updated><id>https://www.motionsplan.dk/nose-strips</id><content type="html" xml:base="https://www.motionsplan.dk/naeseplastre-effekt-praestation/"><![CDATA[<p>I årets Tour de France har det været umuligt at overse dem: Næseplastrene. De små, buede strimler på rytternes næser, der lover friere vejrtrækning og bedre præstation. Men virker de faktisk?</p>
+
+<p>Mathias Skjelmose er en af de ryttere, der virkelig har taget næseplastret til sig.</p>
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIzT8F_MKMG/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/DIzT8F_MKMG/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Vis dette opslag på Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DIzT8F_MKMG/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Et opslag delt af Mattias Skjelmose Jensen (@skjelmose_)</a></p></div></blockquote>
+<script async="" src="//www.instagram.com/embed.js"></script>
+
+<p>En <strong>systematisk oversigtsartikel og meta-analyse</strong> i <em>European Archives of Oto-Rhino-Laryngology</em> har forsøgt at give et videnskabeligt svar.</p>
+
+<h2 id="hvad-er-næseplastre">Hvad er næseplastre?</h2>
+
+<p>Næseplastre – også kendt som <em>eksterne nasale dilatorer</em> – er plastre, der klæbes hen over næseryggen og trækker næseborene en smule fra hinanden.</p>
+
+<p>Det reducerer modstanden i næseventilen, som er det snævreste sted i næsehulen og står for størstedelen af luftmodstanden, når vi trækker vejret gennem næsen.</p>
+
+<p>Teoretisk kan det betyde:</p>
+
+<ul>
+  <li>Mindre modstand ved næsevejtrækning</li>
+  <li>Bedre luftflow</li>
+  <li>Øget iltoptagelse</li>
+  <li>Mindre behov for mundånding under træning</li>
+</ul>
+
+<h2 id="hvad-siger-forskningen">Hvad siger forskningen?</h2>
+
+<p>Forskerne bag oversigtsartiklen gennemgik <strong>19 studier</strong> med både voksne og unge, mænd og kvinder, trænede og utrænede personer. Deres fokus var på tre mål for fysisk præstation:</p>
+
+<ul>
+  <li>Maksimalt iltoptag (VO₂max)</li>
+  <li>Puls (HR)</li>
+  <li>Subjektiv oplevelse af anstrengelse (RPE)</li>
+</ul>
+
+<p>De lavede også en meta-analyse på data fra henholdsvis:</p>
+
+<ul>
+  <li>168 personer for VO₂max</li>
+  <li>138 personer for puls</li>
+  <li>92 personer for RPE</li>
+</ul>
+
+<h3 id="resultaterne-ingen-signifikant-effekt">Resultaterne: Ingen signifikant effekt</h3>
+
+<p>Resultaterne var entydige:</p>
+
+<ul>
+  <li><strong>VO₂max</strong>: Ingen signifikant forskel (MD = 0,86 ml/kg/min, p = 0,19)</li>
+  <li><strong>Puls</strong>: Ingen signifikant forskel (MD = 0,02 slag/min, p = 0,99)</li>
+  <li><strong>Anstrengelse (RPE)</strong>: Ingen signifikant forskel (MD = -0,12, p = 0,56)</li>
+</ul>
+
+<p>Med andre ord: De fleste, der bruger næseplastre, vil <strong>ikke opleve nogen målbar forbedring i deres præstation</strong>.</p>
+
+<h3 id="små-undtagelser">Små undtagelser</h3>
+
+<p>Nogle få studier viste positive effekter – primært hos <strong>unge idrætsaktive personer</strong>, og især ved brug under høj intensitet. Men samlet set var effekterne små, og metodisk kvalitet og risiko for bias i de fleste studier var høj.</p>
+
+<h2 id="næseplastre-og-oplevet-komfort">Næseplastre og oplevet komfort</h2>
+
+<p>Selvom de ikke forbedrer præstationen målt i iltoptag eller puls, rapporterede nogle forsøgspersoner, at det <strong>føles</strong> lettere at trække vejret med næseplaster – og at det <strong>forsinker overgangen fra næse- til mundånding</strong>.</p>
+
+<p>I praksis kan det betyde noget for ryttere, der ønsker at holde næsevejtrækningen lidt længere – eksempelvis i koldt vejr eller for at undgå tør mund.</p>
+
+<h2 id="konklusion-gimmick-eller-god-idé">Konklusion: Gimmick eller god idé?</h2>
+
+<p>Hvis du håber på en præstationsforbedring af næseplastre, <strong>skal du nok dæmpe forventningerne</strong>. De gør hverken dig hurtigere, stærkere eller mere udholdende – i hvert fald ikke målbart. Men hvis du føler, at de hjælper dig til at trække vejret bedre, er der næppe nogen skade ved at bruge dem.</p>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-et-næseplaster">Hvad er et næseplaster?</h3></summary>
+<p>Et næseplaster – også kaldet en ekstern nasal dilator – er et lille plaster, der sættes hen over næseryggen for at udvide næseborene og lette vejrtrækningen gennem næsen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hjælper-næseplastre-med-at-forbedre-sportspræstationer">Hjælper næseplastre med at forbedre sportspræstationer?</h3></summary>
+<p>Ifølge en ny systematisk gennemgang og meta-analyse er der ingen dokumenteret effekt på iltoptagelse (VO₂max), puls eller oplevet anstrengelse under træning hos raske personer.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvorfor-bruger-cykelryttere-næseplastre">Hvorfor bruger cykelryttere næseplastre?</h3></summary>
+<p>Nogle ryttere oplever, at næseplastre letter næsevejtrækningen og forsinker behovet for mundånding. Det kan give en subjektiv følelse af bedre vejrtrækning – men uden målbar effekt på præstation.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-næseplastre-skade">Kan næseplastre skade?</h3></summary>
+<p>Nej, næseplastre anses generelt som sikre at bruge og har ingen kendte skadelige effekter – men de forbedrer ikke nødvendigvis din præstation.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-der-nogen-der-får-gavn-af-næseplastre">Er der nogen, der får gavn af næseplastre?</h3></summary>
+<p>Nogle unge atleter og personer med næseproblemer kan opleve en lille effekt, men det er ikke påvist at gælde bredt for raske motionister og eliteudøvere.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er et næseplaster?","acceptedAnswer":{"@type":"Answer","text":"Et næseplaster – også kaldet en ekstern nasal dilator – er et lille plaster, der sættes hen over næseryggen for at udvide næseborene og lette vejrtrækningen gennem næsen.\n"}},{"@type":"Question","name":"Hjælper næseplastre med at forbedre sportspræstationer?","acceptedAnswer":{"@type":"Answer","text":"Ifølge en ny systematisk gennemgang og meta-analyse er der ingen dokumenteret effekt på iltoptagelse (VO₂max), puls eller oplevet anstrengelse under træning hos raske personer.\n"}},{"@type":"Question","name":"Hvorfor bruger cykelryttere næseplastre?","acceptedAnswer":{"@type":"Answer","text":"Nogle ryttere oplever, at næseplastre letter næsevejtrækningen og forsinker behovet for mundånding. Det kan give en subjektiv følelse af bedre vejrtrækning – men uden målbar effekt på præstation.\n"}},{"@type":"Question","name":"Kan næseplastre skade?","acceptedAnswer":{"@type":"Answer","text":"Nej, næseplastre anses generelt som sikre at bruge og har ingen kendte skadelige effekter – men de forbedrer ikke nødvendigvis din præstation.\n"}},{"@type":"Question","name":"Er der nogen, der får gavn af næseplastre?","acceptedAnswer":{"@type":"Answer","text":"Nogle unge atleter og personer med næseproblemer kan opleve en lille effekt, men det er ikke påvist at gælde bredt for raske motionister og eliteudøvere.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Dinardi RR et al. (2020). <em>Does the external nasal dilator strip help in sports activity? A systematic review and meta-analysis</em>. <a href="https://doi.org/10.1007/s00405-020-06202-5">DOI: 10.1007/s00405-020-06202-5</a></li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Træning&quot;]" /><category term="træning" /><category term="udstyr" /><category term="cykling" /><category term="løb" /><summary type="html"><![CDATA[Næseplastre er blevet populære blandt Tour de France-ryttere, men virker de på iltoptagelsen, puls og præstation?]]></summary></entry><entry><title type="html">Beregn din CdA (aerodynamisk modstand) på cyklen</title><link href="https://www.motionsplan.dk/cda-beregner/" rel="alternate" type="text/html" title="Beregn din CdA (aerodynamisk modstand) på cyklen" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T22:21:26+00:00</updated><id>https://www.motionsplan.dk/cda-beregner</id><content type="html" xml:base="https://www.motionsplan.dk/cda-beregner/"><![CDATA[<p>CdA (aerodynamisk modstandskoefficient) er en af de vigtigste faktorer for din fart på cyklen – især når terrænet er fladt, og hastigheden er høj.</p>
+
+<p>Med denne beregner kan du få et estimat på din CdA baseret på din effekt, fart, vægt og ydre forhold som temperatur, lufttryk og rullemodstand.</p>
+
+<p>Det giver dig mulighed for at analysere din position på cyklen, teste forskellen mellem tøjvalg, hjul og andre aerodynamiske optimeringer.</p>
+
+<h2 id="cda-beregner">CdA beregner</h2>
+
+<form class="calculator" id="calculator_cda">
+    <fieldset>
+        <legend>Beregn CdA (aerodynamisk modstand)</legend>
+
+        <div class="form-group">
+            <label>Effekt (watt)</label>
+            <input type="number" name="power" placeholder="watt" step="1" required="" />
+        </div>
+
+        <div class="form-group">
+            <label>Fart (km/t)</label>
+            <input type="number" name="velocity_kmh" placeholder="km/t" step="0.1" required="" />
+        </div>
+
+        <div class="form-group">
+            <label>Totalvægt (inkl. cykel, kg)</label>
+            <input type="number" name="mass" placeholder="kg" step="0.1" required="" />
+        </div>
+
+        <div class="form-group">
+            <label>Stigning (%)</label>
+            <input type="number" name="gradient" placeholder="f.eks. 0 for fladt" step="0.1" value="0" />
+        </div>
+
+        <div class="form-group">
+            <label>Lufttryk (hPa)</label>
+            <input type="number" name="pressure" placeholder="standard: 1013" step="1" value="1013" />
+        </div>
+
+        <div class="form-group">
+            <label>Temperatur (°C)</label>
+            <input type="number" name="temperature" placeholder="°C" step="1" value="20" />
+        </div>
+
+        <div class="form-group">
+            <label>Rullemodstand (Crr)</label>
+            <input type="number" name="crr" placeholder="f.eks. 0.004" step="0.001" value="0.004" />
+        </div>
+
+        <input type="submit" value="Beregn" />
+    </fieldset>
+
+    <fieldset class="results">
+        <legend>Udregnet CdA</legend>
+        <div class="form-group">
+            <label>CdA (m²)</label>
+            <input type="text" id="cda_result" disabled="" class="input-small" />
+        </div>
+    </fieldset>
+
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+<script>
+    document.getElementById("calculator_cda").addEventListener("submit", function (e) {
+        e.preventDefault();
+    
+        const form = e.target;
+    
+        const power = parseFloat(form.power.value);
+        const velocity_kmh = parseFloat(form.velocity_kmh.value);
+        const mass = parseFloat(form.mass.value);
+        const gradient = parseFloat(form.gradient.value) / 100;
+        const pressure = parseFloat(form.pressure.value); // hPa
+        const temperature = parseFloat(form.temperature.value); // °C
+        const crr = parseFloat(form.crr.value);
+    
+        const g = 9.80665; // tyngdeacceleration (m/s²)
+        const rho = (pressure * 100) / (287.05 * (temperature + 273.15)); // luftens tæthed (kg/m³)
+        const velocity = velocity_kmh / 3.6; // m/s
+    
+        // Komponenter af den samlede effekt
+        const rollingResistance = mass * g * Math.cos(Math.atan(gradient)) * crr * velocity;
+        const climbingResistance = mass * g * Math.sin(Math.atan(gradient)) * velocity;
+    
+        const aeroPower = power - rollingResistance - climbingResistance;
+    
+        // Udregn CdA
+        const cda = (2 * aeroPower) / (rho * Math.pow(velocity, 3));
+    
+        document.getElementById("cda_result").value = cda > 0 && isFinite(cda) ? cda.toFixed(3) : "Ugyldige input";
+    });
+    </script>
+
+<h2 id="typiske-værdier-for-cda">Typiske værdier for CdA</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Position / Udstyr</th>
+      <th>Typisk CdA (m²)</th>
+      <th>Kommentar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Oprejst bycyklist</td>
+      <td>0,40 – 0,60</td>
+      <td>Høj luftmodstand</td>
+    </tr>
+    <tr>
+      <td>Almindelig racercyklist</td>
+      <td>0,30 – 0,35</td>
+      <td>Standard racingposition</td>
+    </tr>
+    <tr>
+      <td>Tidskørselsspecialist (aero)</td>
+      <td>0,18 – 0,25</td>
+      <td>Aero position med lav front</td>
+    </tr>
+    <tr>
+      <td>Pro-cyklist i konkurrenceposition</td>
+      <td>0,25 – 0,28</td>
+      <td>Eliteposition, aggressiv kropsholdning</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sådan-bruger-du-cda-beregneren-til-at-teste-cykelpositioner">Sådan bruger du CdA-beregneren til at teste cykelpositioner</h2>
+
+<p>For at finde ud af, hvilken cykelposition der er mest aerodynamisk, kan du bruge denne CdA-beregner til at sammenligne resultaterne fra forskellige positioner.</p>
+
+<ol>
+  <li>Mål eller estimér din effekt (watt) og fart (km/t) for en given position – for eksempel ved en testtur eller på en rulle.</li>
+  <li>Indtast dine data i beregneren sammen med vægt, temperatur og øvrige parametre.</li>
+  <li>Notér den beregnede CdA-værdi for den pågældende position.</li>
+  <li>Gentag processen for andre positioner, f.eks. mere oprejst eller mere aerodynamisk.</li>
+  <li>Sammenlign CdA-værdierne: En lavere CdA betyder mindre luftmodstand og dermed bedre aerodynamik.</li>
+</ol>
+
+<p>Ved at teste forskellige positioner på denne måde kan du optimere din køreposition og udstyr for at minimere modstanden og forbedre din performance på cyklen.</p>
+
+<h2 id="hvorfor-cda-ekstra-vigtigt-ved-høj-fart">Hvorfor CdA ekstra vigtigt ved høj fart?</h2>
+
+<p>Når du kører hurtigt og alene, bliver CdA (aerodynamisk modstandsareal) en afgørende faktor for din præstation.</p>
+
+<p>Luftmodstanden øges nemlig kraftigt med hastigheden, og det betyder, at en lille forbedring i din CdA kan spare dig for mange watt og dermed gøre en stor forskel på din fart og udholdenhed.</p>
+
+<p>Derfor er det især ved solo-kørsel på flade eller let faldende veje, at optimering af din aerodynamik gennem position, tøjvalg og udstyr har stor betydning for din samlede performance.</p>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-cda">Hvad er CdA?</h3></summary>
+<p>CdA er produktet af aerodynamisk modstandskoefficient (Cd) og det frontale areal (A), som tilsammen beskriver, hvor stor luftmodstand du oplever på cyklen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvorfor-er-cda-vigtigt">Hvorfor er CdA vigtigt?</h3></summary>
+<p>CdA har stor betydning for, hvor meget luftmodstand du møder. Jo lavere CdA, desto lettere er det at køre hurtigt, især ved høj hastighed og solo-kørsel.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-kan-jeg-måle-min-cda">Hvordan kan jeg måle min CdA?</h3></summary>
+<p>Du kan estimere din CdA ved at måle effekt, fart og andre parametre i denne beregner, eller ved hjælp af mere avancerede tests som vindtunnel eller power meter-analyse.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-bruge-denne-beregner-til-at-teste-forskellige-positioner">Kan jeg bruge denne beregner til at teste forskellige positioner?</h3></summary>
+<p>Ja, ved at sammenligne CdA-værdier fra forskellige positioner kan du finde den mest aerodynamiske og dermed hurtigste position på cyklen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-præcis-er-beregningen">Hvor præcis er beregningen?</h3></summary>
+<p>Beregningsmodellen er en forenkling og afhænger af præcise inputværdier. Resultatet giver et godt estimat, men kan variere afhængigt af omstændigheder som vind, vejgreb og præcis måling af effekt.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er CdA?","acceptedAnswer":{"@type":"Answer","text":"CdA er produktet af aerodynamisk modstandskoefficient (Cd) og det frontale areal (A), som tilsammen beskriver, hvor stor luftmodstand du oplever på cyklen.\n"}},{"@type":"Question","name":"Hvorfor er CdA vigtigt?","acceptedAnswer":{"@type":"Answer","text":"CdA har stor betydning for, hvor meget luftmodstand du møder. Jo lavere CdA, desto lettere er det at køre hurtigt, især ved høj hastighed og solo-kørsel.\n"}},{"@type":"Question","name":"Hvordan kan jeg måle min CdA?","acceptedAnswer":{"@type":"Answer","text":"Du kan estimere din CdA ved at måle effekt, fart og andre parametre i denne beregner, eller ved hjælp af mere avancerede tests som vindtunnel eller power meter-analyse.\n"}},{"@type":"Question","name":"Kan jeg bruge denne beregner til at teste forskellige positioner?","acceptedAnswer":{"@type":"Answer","text":"Ja, ved at sammenligne CdA-værdier fra forskellige positioner kan du finde den mest aerodynamiske og dermed hurtigste position på cyklen.\n"}},{"@type":"Question","name":"Hvor præcis er beregningen?","acceptedAnswer":{"@type":"Answer","text":"Beregningsmodellen er en forenkling og afhænger af præcise inputværdier. Resultatet giver et godt estimat, men kan variere afhængigt af omstændigheder som vind, vejgreb og præcis måling af effekt.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Jeukendrup, A.E. (2023). <em>The optimal ratio of carbohydrates</em>. https://www.mysportscience.com</li>
+    <li>Jeukendrup, A., &amp; Jentjens, R. (2000). <em>Oxidation of carbohydrate feedings during prolonged exercise: current thoughts, guidelines and directions for future research</em>. <em>Sports Medicine</em>, 29(6), 407-424.</li>
+    <li>Rowlands, D.S. et al. (2015). <em>Hydration and carbohydrate availability: individualizing strategies for performance</em>. <em>International Journal of Sport Nutrition and Exercise Metabolism</em>, 25(5), 507–517.</li>
+    <li>Smith, J.W., et al. (2013). <em>Optimal carbohydrate intake during endurance exercise: is there a sweet spot?</em> <em>International Journal of Sports Physiology and Performance</em>, 8(5), 516–524.</li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Cykling&quot;]" /><category term="beregner" /><category term="træning" /><category term="cykling" /><summary type="html"><![CDATA[Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt, temperatur og rullemodstand. Få indsigt i din aerodynamik på cyklen.]]></summary></entry><entry><title type="html">Det optimale kulhydratforhold under udholdenhedsidræt</title><link href="https://www.motionsplan.dk/optimale-kulhydrat-forhold/" rel="alternate" type="text/html" title="Det optimale kulhydratforhold under udholdenhedsidræt" /><published>2025-07-08T00:00:00+00:00</published><updated>2025-07-05T22:21:26+00:00</updated><id>https://www.motionsplan.dk/carbohydrate-ratio</id><content type="html" xml:base="https://www.motionsplan.dk/optimale-kulhydrat-forhold/"><![CDATA[<p>Kulhydratindtag under udholdenhedsidræt har stor betydning for præstation. I mange år troede man, at kroppen maksimalt kunne optage og bruge omkring <strong>60 gram kulhydrat i timen</strong> – svarende til ca. <strong>240 kcal/t</strong> – under konkurrence.</p>
+
+<p>Men ny forskning har ændret det billede markant, skriver <a href="https://www.mysportscience.com/post/the-optimal-ratio-of-carbohydrates">Asker Jeukendrup</a>.</p>
+
+<p>Siden 2003 har forskningen vist, at <strong>kombinationer af forskellige typer kulhydrater</strong> – særligt <strong>glukose og fruktose</strong> – kan øge optagelsen betydeligt, hvis de rigtige forhold anvendes.</p>
+
+<p>Denne artikel gennemgår baggrunden for disse fund og giver praktiske anbefalinger til kulhydratforhold og mængder under længerevarende præstation.</p>
+
+<p>Dette forhold er godt at kende, hvis du gerne vil <a href="/sportsdrik/">lave din egen sportsdrik</a>.</p>
+
+<hr />
+
+<h2 id="kulhydrats-optagelse-er-begrænset-af-tarmens-transportører">Kulhydrats optagelse er begrænset af tarmens transportører</h2>
+
+<p>Selvom der blev eksperimenteret med mange protokoller og kulhydratkilder, kunne man ikke overskride 60 g/t grænsen. Det viste sig, at begrænsningen ikke lå i hverken mavesækkens tømning, musklernes evne til at optage glukose eller deres evne til at omsætte det. I stedet lå begrænsningen i <strong>tarmens evne til at absorbere kulhydrater</strong>.</p>
+
+<p>Transporten sker via specifikke proteiner:</p>
+
+<ul>
+  <li><strong>SGLT1</strong>: Transporterer glukose (og galaktose) via natriumafhængig mekanisme.</li>
+  <li><strong>GLUT5</strong>: Transporterer fruktose.</li>
+</ul>
+
+<p>Hypotesen blev derfor, at hvis man brugte <strong>flere transportører samtidigt</strong> – fx ved at kombinere glukose og fruktose – kunne man øge den samlede absorption. Det blev hurtigt bekræftet i praksis: Kombinationer af glukose og fruktose <strong>øger kulhydratoxidationen med op til 50%</strong> sammenlignet med glukose alene.</p>
+
+<hr />
+
+<h2 id="højere-indtag--men-hvor-går-grænsen">Højere indtag – men hvor går grænsen?</h2>
+
+<p>Tidlige studier viste, at det var muligt at indtage op til <strong>144 g/t</strong>, men det mest effektive niveau (set på både optag og maveproblemer) lå omkring <strong>108 g/t</strong> – med et forhold på <strong>2:1 mellem glukose og fruktose</strong>. Det gav:</p>
+
+<ul>
+  <li><strong>Høj oxidationseffektivitet</strong></li>
+  <li><strong>Lav restvolumen i tarmen</strong> (mindre risiko for maveproblemer)</li>
+</ul>
+
+<p>Restvolumen er vigtig, fordi uoptaget kulhydrat kan give <strong>diarré, oppustethed og mavekramper</strong>. Derfor er balancen mellem optag og tolerance central.</p>
+
+<hr />
+
+<h2 id="praktiske-anbefalinger--90-gramt-som-tommelfingerregel">Praktiske anbefalinger – 90 gram/t som tommelfingerregel</h2>
+
+<p>Selvom enkelte atleter kan tolerere mere, anbefales det generelt, at man <strong>sigter mod 90 g kulhydrat i timen</strong> – gerne fordelt i et <strong>2:1-forhold mellem glukose og fruktose</strong> eller <strong>maltodextrin og fruktose</strong>.</p>
+
+<p>To grunde til dette:</p>
+
+<ol>
+  <li>Glukosetransportøren (SGLT1) bliver mættet omkring 60-70 g/t.</li>
+  <li>Kombinationen 2:1 giver høj oxidationseffektivitet og færre maveproblemer.</li>
+</ol>
+
+<hr />
+
+<h2 id="beregn-din-optimale-ratio">Beregn din optimale ratio</h2>
+
+<form class="calculator full" id="calculator_cho_usage_biking">
+    <fieldset>
+        <legend>Kulhydratsforbrug</legend>
+        <div class="form-group">
+            <label for="carb-burn-slider">Kulhydratforbrug (g/time): <span id="carb-burn-display">90</span> g</label><br />
+            <input type="range" id="carb-burn-slider" min="60" max="130" step="1" value="90" />
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Anbefalet indtag</legend>
+        <table>
+            <tr>
+                <th>Glukose</th>
+                <td><span id="glucose-output">60</span> g/t</td>
+            </tr>
+            <tr>
+                <th>Fruktose</th>
+                <td><span id="fructose-output">30</span> g/t</td>
+            </tr>
+            <tr>
+                <th>Forhold</th>
+                <td><span id="ratio-output">2:1</span> g/t</td>
+            </tr>
+        </table>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<script>
+    const slider = document.getElementById("carb-burn-slider");
+    const display = document.getElementById("carb-burn-display");
+    const glucoseOut = document.getElementById("glucose-output");
+    const fructoseOut = document.getElementById("fructose-output");
+    const ratioOut = document.getElementById("ratio-output");
+  
+    function updateCarbIntake(value) {
+      display.textContent = value;
+  
+      let glucose = 60;
+      let fructose = value - glucose;
+  
+      if (value <= 90) {
+        glucose = Math.min(60, value);
+        fructose = Math.max(0, value - glucose);
+      } else {
+        glucose = 60;
+        fructose = value - 60;
+      }
+  
+      let ratio = glucose / fructose;
+      let ratioText = fructose === 0 ? "1:0" : `${(glucose / fructose).toFixed(1)}:1`;
+  
+      glucoseOut.textContent = Math.round(glucose);
+      fructoseOut.textContent = Math.round(fructose);
+      ratioOut.textContent = ratioText;
+    }
+  
+    slider.addEventListener("input", (e) => {
+      updateCarbIntake(parseInt(e.target.value, 10));
+    });
+  
+    // Initial call
+    updateCarbIntake(slider.value);
+  </script>
+
+<hr />
+
+<h2 id="findes-der-et-optimalt-forhold">Findes der et “optimalt” forhold?</h2>
+
+<p>Kort sagt: <strong>Nej.</strong> Det optimale forhold afhænger af den <strong>samlede mængde kulhydrat, du kan tolerere</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kulhydratindtag</th>
+      <th>Glukose (g/t)</th>
+      <th>Fruktose (g/t)</th>
+      <th>Forhold</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>80 g/t</td>
+      <td>60</td>
+      <td>20</td>
+      <td>3:1</td>
+    </tr>
+    <tr>
+      <td>90 g/t</td>
+      <td>60</td>
+      <td>30</td>
+      <td>2:1</td>
+    </tr>
+    <tr>
+      <td>100 g/t</td>
+      <td>60</td>
+      <td>40</td>
+      <td>3:2</td>
+    </tr>
+    <tr>
+      <td>120 g/t</td>
+      <td>60</td>
+      <td>60</td>
+      <td>1:1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>De fleste kommercielle sportsdrikke og gels følger et <strong>2:1- eller 1:0,8-forhold</strong>. Et 1:0,8-forhold blev vist i ét studie til at give en smule højere oxidation ved 110 g/t, men det betyder ikke, at det er bedst i alle situationer.</p>
+
+<hr />
+
+<h2 id="hvad-kan-vi-konkludere">Hvad kan vi konkludere?</h2>
+
+<ul>
+  <li><strong>60 g/t glukose</strong> er det maksimale du kan optage - suppler med fruktose, hvis du har brug for mere.</li>
+  <li><strong>Det samlede indtag af kulhydrat bør baseres på individuel tolerance</strong>, så sørg for at teste og træne dit indtag.</li>
+  <li><strong>Træning af mave-tarm-systemet</strong> (”gut training”) kan forbedre tolerance.</li>
+  <li><strong>Eliteudøvere bør sigte mod højere indtag</strong> – men altid med test i træning først.</li>
+  <li><strong>Jo højere indtag, jo lavere glukoseandel i forholdet.</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="eksempler-på-praktisk-anvendelse">Eksempler på praktisk anvendelse</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tolerance (g/t)</th>
+      <th>Anbefalet mix</th>
+      <th>Kommerciel variant</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>90</td>
+      <td>60 g glukose + 30 g fruktose</td>
+      <td>Maurten 320 (2:1)</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>60 g glukose + 40 g fruktose</td>
+      <td>Custom mix</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>60 g glukose + 50 g fruktose</td>
+      <td>SIS Beta Fuel (1:0,8)</td>
+    </tr>
+    <tr>
+      <td>120</td>
+      <td>60 g glukose + 60 g fruktose</td>
+      <td>GU Roctane, eller egen mix</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><strong>Vil du læse mere om ernæring og præstation?</strong></p>
+
+<p>Tjek vores artikler om <a href="/bikarbonat-kosttilskud">bikarbonat som kosttilskud</a> og <a href="/strategier-praestationsoptimering/">strategier til præstationsoptimering</a>.</p>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-det-optimale-kulhydratforhold-under-træning">Hvad er det optimale kulhydratforhold under træning?</h3></summary>
+<p>Det afhænger af den samlede mængde kulhydrat, du kan tolerere. Ved 90 gram i timen anbefales et 2:1-forhold mellem glukose og fruktose.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-meget-kulhydrat-bør-jeg-indtage-i-timen">Hvor meget kulhydrat bør jeg indtage i timen?</h3></summary>
+<p>De fleste udholdenhedsatleter bør sigte mod op til 90 gram kulhydrat i timen. Højere indtag kræver tilvænning og bør testes i træning.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-sker-der-hvis-jeg-får-for-meget-kulhydrat">Hvad sker der, hvis jeg får for meget kulhydrat?</h3></summary>
+<p>Overskydende kulhydrat, især i maven eller tarmen, kan give ubehag som kramper, oppustethed eller diarré. Det er vigtigt at finde et tolereret niveau.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-er-forskellen-på-glukose-og-fruktose">Hvad er forskellen på glukose og fruktose?</h3></summary>
+<p>Glukose optages via transportøren SGLT1, mens fruktose optages via GLUT5. Ved at kombinere dem øges den samlede optagelse i tarmen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-træne-min-krop-til-at-tåle-mere-kulhydrat">Kan jeg træne min krop til at tåle mere kulhydrat?</h3></summary>
+<p>Ja, det er muligt at træne tarmen til at tolerere højere kulhydratindtag. Dette kaldes “gut training” og bør gøres gradvist i træning.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er det optimale kulhydratforhold under træning?","acceptedAnswer":{"@type":"Answer","text":"Det afhænger af den samlede mængde kulhydrat, du kan tolerere. Ved 90 gram i timen anbefales et 2:1-forhold mellem glukose og fruktose.\n"}},{"@type":"Question","name":"Hvor meget kulhydrat bør jeg indtage i timen?","acceptedAnswer":{"@type":"Answer","text":"De fleste udholdenhedsatleter bør sigte mod op til 90 gram kulhydrat i timen. Højere indtag kræver tilvænning og bør testes i træning.\n"}},{"@type":"Question","name":"Hvad sker der, hvis jeg får for meget kulhydrat?","acceptedAnswer":{"@type":"Answer","text":"Overskydende kulhydrat, især i maven eller tarmen, kan give ubehag som kramper, oppustethed eller diarré. Det er vigtigt at finde et tolereret niveau.\n"}},{"@type":"Question","name":"Hvad er forskellen på glukose og fruktose?","acceptedAnswer":{"@type":"Answer","text":"Glukose optages via transportøren SGLT1, mens fruktose optages via GLUT5. Ved at kombinere dem øges den samlede optagelse i tarmen.\n"}},{"@type":"Question","name":"Kan jeg træne min krop til at tåle mere kulhydrat?","acceptedAnswer":{"@type":"Answer","text":"Ja, det er muligt at træne tarmen til at tolerere højere kulhydratindtag. Dette kaldes “gut training” og bør gøres gradvist i træning.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Jeukendrup, A.E. (2023). <em>The optimal ratio of carbohydrates</em>. https://www.mysportscience.com</li>
+    <li>Jeukendrup, A., &amp; Jentjens, R. (2000). <em>Oxidation of carbohydrate feedings during prolonged exercise: current thoughts, guidelines and directions for future research</em>. <em>Sports Medicine</em>, 29(6), 407-424.</li>
+    <li>Rowlands, D.S. et al. (2015). <em>Hydration and carbohydrate availability: individualizing strategies for performance</em>. <em>International Journal of Sport Nutrition and Exercise Metabolism</em>, 25(5), 507–517.</li>
+    <li>Smith, J.W., et al. (2013). <em>Optimal carbohydrate intake during endurance exercise: is there a sweet spot?</em> <em>International Journal of Sports Physiology and Performance</em>, 8(5), 516–524.</li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kost &amp; Ernæring&quot;]" /><category term="træning" /><category term="kost &amp; ernæring" /><category term="kosttilskud" /><summary type="html"><![CDATA[Hvad er det bedste forhold mellem glukose og fruktose under langvarig træning? Få evidensbaserede anbefalinger og praktiske råd til din ernæringsstrategi.]]></summary></entry><entry><title type="html">Ketoner – virker ketontilskud på præstationen</title><link href="https://www.motionsplan.dk/ketoner/" rel="alternate" type="text/html" title="Ketoner – virker ketontilskud på præstationen" /><published>2025-07-07T00:00:00+00:00</published><updated>2025-07-05T22:21:26+00:00</updated><id>https://www.motionsplan.dk/ketoner</id><content type="html" xml:base="https://www.motionsplan.dk/ketoner/"><![CDATA[<p><em>Eksogene ketoner bliver markedsført som et nyt superbrændstof til udholdenhedspræstationer. Men hvad siger forskningen egentlig?</em></p>
+
+<p>Du har måske hørt om ketoner i forbindelse med ketodiæter, faste eller måske elitecykling. Nogle topatleter eksperimenterer med ketontilskud for at forbedre præstation, restituere hurtigere – og endda måske booste deres blodprocent. Men virker det? Og hvordan?</p>
+
+<p>I denne artikel dykker vi ned i, hvad forskningen siger om eksogene ketoner – altså ketontilskud du indtager som drik – og hvordan de påvirker kroppen under træning og konkurrence.</p>
+
+<hr />
+
+<h2 id="hvad-er-ketoner">Hvad er ketoner?</h2>
+
+<p>Ketoner er små energimolekyler, kroppen selv kan producere, når du faster eller spiser meget få kulhydrater. Så skifter kroppen nemlig til at forbrænde fedt – og i den proces dannes ketoner, som især hjernen er glad for som brændstof.</p>
+
+<p>Men nu kan du også få ketoner som tilskud i drikkeform – og springe hele ketodiæten over. Det kaldes <strong>eksogene ketoner</strong>. Typisk er det stoffet <em>beta-hydroxybutyrat (BHB)</em>, enten bundet til salte eller som en kemisk ester. Når du drikker det, stiger dit ketonniveau hurtigt i blodet – uden at du behøver ændre din kost.</p>
+
+<hr />
+
+<h2 id="hvorfor-skulle-ketoner-forbedre-præstation">Hvorfor skulle ketoner forbedre præstation?</h2>
+
+<p>Det interessante ved ketoner er, at de både kan bruges som energi og måske har nogle spændende ekstraeffekter. Ifølge Sitko 2024 kan ketontilskud påvirke kroppen på flere måder:</p>
+
+<ul>
+  <li><strong>Sparer på glykogen</strong>: Ved at bruge ketoner som brændstof, kan musklerne spare på deres begrænsede sukkerdepoter.</li>
+  <li><strong>Mindre muskelømhed og inflammation</strong>: BHB ser ud til at dæmpe nogle af de signaler, der gør os ømme og slidte efter hård træning.</li>
+  <li><strong>Skarpere i hovedet</strong>: Ketoner giver stabil energi til hjernen – og det kan være en fordel i slutningen af et langt løb eller race.</li>
+  <li><strong>Bedre restitution</strong>: Der er tegn på, at ketoner kan hæmme muskelnedbrydning og støtte opbygning.</li>
+  <li><strong>Mere EPO?</strong> Ja, faktisk peger ny forskning på, at ketontilskud kan stimulere kroppens egen EPO-produktion – det stof, der øger mængden af røde blodlegemer.</li>
+</ul>
+
+<figure class="">
+  <img src="https://www.mdpi.com/physiologia/physiologia-04-00029/article_deploy/html/images/physiologia-04-00029-g001.png" alt="" loading="lazy" /><figcaption>
+      Kilde: <a href="https://www.mdpi.com/2673-9488/4/4/29">Sitko (2024)</a>
+
+    </figcaption></figure>
+
+<hr />
+
+<h2 id="men-virker-det-så-i-praksis">Men virker det så i praksis?</h2>
+
+<p>Det korte svar: Det afhænger af, hvad du mener med “virker”?</p>
+
+<p>Der er set spændende effekter i laboratoriet og på molekylært niveau. Men når forskere har testet ketontilskud i virkelige præstationstest, er resultaterne blandede.</p>
+
+<p>Nogle studier viser en lille forbedring i udholdenhed – især ved længerevarende træning eller hvis man er i kalorieunderskud. Andre finder ingen forskel, eller endda en negativ effekt, hvis man tager for meget keton for tæt på konkurrence.</p>
+
+<p>Der er også stor forskel på ketonform (salte vs. estere), dosering og hvordan atleterne ellers spiser og træner. Det gør det svært at konkludere entydigt.</p>
+
+<hr />
+
+<h2 id="hvad-siger-de-danske-eksperter">Hvad siger de danske eksperter?</h2>
+
+<p>Team Danmark og forskere fra KU og SDU har fulgt området tæt. Deres konklusioner minder meget om de internationale:</p>
+
+<ul>
+  <li><strong>Potentielt interessant til restitution og længerevarende udholdenhed.</strong></li>
+  <li><strong>Usikkert om det reelt forbedrer præstation ved konkurrence.</strong></li>
+  <li><strong>Mere forskning er nødvendig – især på eliteudøvere og over længere tid.</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="bivirkninger-og-ulemper">Bivirkninger og ulemper</h2>
+
+<p>Ketoner er ikke uden bagsider. Mange oplever kvalme, maveproblemer og ubehag, især ved høje doser. Og så smager de fleste ketondrikke rædselsfuldt.</p>
+
+<p>Desuden er ketontilskud – især de effektive estere – dyre og svært tilgængelige.</p>
+
+<hr />
+
+<h2 id="skal-du-selv-eksperimentere">Skal du selv eksperimentere?</h2>
+
+<p>Hvis du er nysgerrig og træner seriøst til lange løb, randonneuring eller ultraløb, kan du godt prøve ketontilskud i en træningsperiode – <strong>men gør det ikke første gang op til et vigtigt race</strong>.</p>
+
+<p>Det kan være relevant, hvis du:</p>
+
+<ul>
+  <li>Træner mange timer og gerne vil spare på glykogenet</li>
+  <li>Har svært ved at spise nok under lange pas</li>
+  <li>Er i et træningsforløb med kalorieunderskud</li>
+  <li>Er interesseret i restitution og genopbygning</li>
+</ul>
+
+<p>Men du skal ikke forvente mirakler – og det er stadig et gråt område, når det kommer til regler og etik.</p>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Ketontilskud er et spændende nyt felt – men også et område fyldt med hype og uafklarede spørgsmål. Der er en række gode biologiske argumenter for, at ketoner kan være gavnlige. Men de fleste effekter er stadig bedst dokumenteret i teorien – ikke nødvendigvis i praksis.</p>
+
+<p>For almindelige motionister giver ketoner næppe nogen fordel. For seriøse udholdenhedsatleter er det værd at følge med – men med en vis skepsis.</p>
+
+<hr />
+
+<h2 id="-læs-videre">🔍 Læs videre</h2>
+
+<ul>
+  <li><a href="/kosttilskud/">Kosttilskud og præstation – hvad virker?</a></li>
+  <li><a href="/kulhydratforbrug/">Sådan planlægger du energiindtag til lange løb</a></li>
+  <li><a href="/restitution/">Hvordan restituerer du bedst efter hård træning?</a></li>
+</ul>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-forskellen-på-eksogene-og-endogene-ketoner">Hvad er forskellen på eksogene og endogene ketoner?</h3></summary>
+<p>Endogene ketoner er dem, kroppen selv producerer under faste eller ketodiæt. Eksogene ketoner er et kosttilskud, man drikker for at hæve ketonniveauet i blodet uden at ændre kostvaner.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-ketontilskud-forbedre-min-præstation">Kan ketontilskud forbedre min præstation?</h3></summary>
+<p>Måske. Nogle studier viser forbedret udholdenhed under længere træning, mens andre ikke finder nogen effekt. Effekten afhænger af dosering, timing og typen af aktivitet.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-ketontilskud-lovlige">Er ketontilskud lovlige?</h3></summary>
+<p>Ja. Ketontilskud er ikke på WADAs forbudsliste, men potentielle effekter på EPO har rejst etiske spørgsmål. Der er dog ingen kendte dopingsager relateret til ketoner.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvilke-bivirkninger-kan-jeg-forvente">Hvilke bivirkninger kan jeg forvente?</h3></summary>
+<p>Nogle oplever kvalme, oppustethed eller diaré – især ved høje doser eller med estere. Det er en god idé at afprøve tilskud i træning og ikke lige før konkurrence.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-tager-man-ketontilskud">Hvordan tager man ketontilskud?</h3></summary>
+<p>Typisk tages 300–600 mg BHB pr. kg kropsvægt ca. 30–60 minutter før træning. Nogle protokoller inkluderer også doser efter træning til restitution. Start lavt og test dig frem.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="smager-ketondrikke-godt">Smager ketondrikke godt?</h3></summary>
+<p>Nej, de fleste estere har en meget bitter og ubehagelig smag. BHB-salte kan være lettere at drikke, men indeholder ofte meget natrium eller magnesium.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-ketoner-kun-for-elitesportsfolk">Er ketoner kun for elitesportsfolk?</h3></summary>
+<p>Ikke nødvendigvis, men de fleste gavnlige effekter ser ud til at være mest relevante for udholdenhedsatleter, der træner i mange timer – fx ultraløbere eller langdistancecyklister.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er forskellen på eksogene og endogene ketoner?","acceptedAnswer":{"@type":"Answer","text":"Endogene ketoner er dem, kroppen selv producerer under faste eller ketodiæt. Eksogene ketoner er et kosttilskud, man drikker for at hæve ketonniveauet i blodet uden at ændre kostvaner.\n"}},{"@type":"Question","name":"Kan ketontilskud forbedre min præstation?","acceptedAnswer":{"@type":"Answer","text":"Måske. Nogle studier viser forbedret udholdenhed under længere træning, mens andre ikke finder nogen effekt. Effekten afhænger af dosering, timing og typen af aktivitet.\n"}},{"@type":"Question","name":"Er ketontilskud lovlige?","acceptedAnswer":{"@type":"Answer","text":"Ja. Ketontilskud er ikke på WADAs forbudsliste, men potentielle effekter på EPO har rejst etiske spørgsmål. Der er dog ingen kendte dopingsager relateret til ketoner.\n"}},{"@type":"Question","name":"Hvilke bivirkninger kan jeg forvente?","acceptedAnswer":{"@type":"Answer","text":"Nogle oplever kvalme, oppustethed eller diaré – især ved høje doser eller med estere. Det er en god idé at afprøve tilskud i træning og ikke lige før konkurrence.\n"}},{"@type":"Question","name":"Hvordan tager man ketontilskud?","acceptedAnswer":{"@type":"Answer","text":"Typisk tages 300–600 mg BHB pr. kg kropsvægt ca. 30–60 minutter før træning. Nogle protokoller inkluderer også doser efter træning til restitution. Start lavt og test dig frem.\n"}},{"@type":"Question","name":"Smager ketondrikke godt?","acceptedAnswer":{"@type":"Answer","text":"Nej, de fleste estere har en meget bitter og ubehagelig smag. BHB-salte kan være lettere at drikke, men indeholder ofte meget natrium eller magnesium.\n"}},{"@type":"Question","name":"Er ketoner kun for elitesportsfolk?","acceptedAnswer":{"@type":"Answer","text":"Ikke nødvendigvis, men de fleste gavnlige effekter ser ud til at være mest relevante for udholdenhedsatleter, der træner i mange timer – fx ultraløbere eller langdistancecyklister.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Sitko, S. (2024). <em>The Role of Exogenous Ketones in Road Cycling: Evidence, Mechanisms, and Performance Claims</em>. Physiologia, 4(4), 433–444. https://doi.org/10.3390/physiologia4040029</li>
+    <li>Poffé, C., Hespel, P. (2023). <em>Exogenous ketosis elevates circulating erythropoietin levels…</em>. The Journal of Physiology.</li>
+    <li>Evans, M. et al. (2019). <em>Metabolism of ketone bodies during exercise and training…</em>. Journal of Physiology.</li>
+    <li>Dearlove, D. et al. (2019). <em>Context is key: Exogenous ketosis and athletic performance</em>. Current Opinion in Physiology.</li>
+    <li>Valenzuela, P. et al. (2020). <em>Acute ketone supplementation and exercise performance</em>. Int J Sports Physiol Perform.</li>
+    <li>Brooks, E. et al. (2022). <em>Acute ingestion of ketone monoesters…</em>. Int. J. Sport Nutr. Exerc. Metab.</li>
+    <li>Ruan, H.-B. &amp; Crawford, P. (2018). <em>Ketone bodies as epigenetic modifiers…</em>. Curr. Opin. Clin. Nutr. Metab. Care.</li>
+    <li>Shimazu, T. et al. (2013). <em>Suppression of oxidative stress by β-hydroxybutyrate…</em>. Science.</li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kost &amp; Ernæring&quot;]" /><category term="træning" /><category term="kosttilskud" /><summary type="html"><![CDATA[Eksogene ketoner bliver markedsført som et nyt superbrændstof til udholdenhedspræstationer. Men hvad siger forskningen egentlig?]]></summary></entry><entry><title type="html">Guide til krankarmslængde: Komfort, kadence og kraft</title><link href="https://www.motionsplan.dk/krankarmlaengde/" rel="alternate" type="text/html" title="Guide til krankarmslængde: Komfort, kadence og kraft" /><published>2025-07-06T00:00:00+00:00</published><updated>2025-07-05T22:21:26+00:00</updated><id>https://www.motionsplan.dk/cranklength</id><content type="html" xml:base="https://www.motionsplan.dk/krankarmlaengde/"><![CDATA[<p><em>Krankarmslængde? Gør det overhovedet en forskel? Ja, måske mere end du tror.</em></p>
+
+<p>For nogle ryttere er kranklængde en nøgle til komfort og performance – mens det for andre aldrig har været et tema. Det kan være svært at finde rundt i, men her får du en grundig og jordnær indføring i, hvad kranklængde betyder, og hvordan du kan vælge den rigtige.</p>
+
+<hr />
+
+<h2 id="den-glemte-dimension-i-cykelfit">Den glemte dimension i cykelfit</h2>
+
+<p>Kranklængde er tidligere ofte blevet overset som et parameter i et bikefit, selvom vi justerer alt andet: stelstørrelse, frempind, saddelhøjde og styrbredde.</p>
+
+<p>Lad os se på nogle typiske variationsområder:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Komponent</th>
+      <th>Størrelser</th>
+      <th>Variation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stelstørrelse</td>
+      <td>48–62 cm</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Frempind</td>
+      <td>40–140 mm</td>
+      <td>111%</td>
+    </tr>
+    <tr>
+      <td>Styrbredde (landevej)</td>
+      <td>38–46 cm</td>
+      <td>19%</td>
+    </tr>
+    <tr>
+      <td>Rytterhøjde</td>
+      <td>152–196 cm</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Kranklængde</td>
+      <td>165–175 mm</td>
+      <td>6%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>🤔 Ifølge <a href="https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/">Matt Appleman</a> giver det ikke meget mening.</p>
+
+<blockquote>
+  <p><strong>The problem</strong> with the industry norm—165’s are for short people and 175’s are for tall people—is that the <strong>scale is all wrong</strong>.</p>
+</blockquote>
+
+<p>Matt Appleman foreslår i stedet, at vi bruger denne skala:</p>
+
+<ul>
+  <li><strong>155–165 mm</strong> → de fleste ryttere</li>
+  <li><strong>135–145 mm</strong> → særligt korte ryttere, eller ved særlige behov</li>
+  <li><strong>175 mm+</strong> → høje ryttere med lange ben og god fleksibilitet</li>
+</ul>
+
+<p>Applemann foreslår også, at vi kun opererer med 5mm ændringer i kranklængder.</p>
+
+<hr />
+
+<h2 id="hvorfor-skifte-kranklængde">Hvorfor skifte kranklængde?</h2>
+
+<p>Kort sagt: For <strong>komfort</strong>.</p>
+
+<p>Men også: for <strong>stabilitet</strong>, bedre <strong>kadence</strong> og måske mere <strong>fart</strong>.</p>
+
+<p>Hvis du:</p>
+
+<ul>
+  <li>oplever smerter i knæ, hofte eller lænd</li>
+  <li>mærker ustabilitet i hoften eller “vuggen” i pedaltaget</li>
+  <li>kæmper for at finde en god position</li>
+  <li>ofte har slået pedalen mod jorden</li>
+  <li>har svært ved at finde en god kadence</li>
+  <li>føler, at noget bare ikke føles helt rigtigt</li>
+</ul>
+
+<p>… så kan en anden kranklængde være værd at overveje.</p>
+
+<p>Det er i <strong>toppen af pedaltrådet du har effekten af en kortere pedalarm</strong>. Ved at gøre krankarmen kortere, så vil du strække benet lidt mere, hvilket reducerer hofte og knævinkel, som du kan se i denne illustration.</p>
+
+<figure class="">
+  <img src="https://www.applemanbicycles.com/wp-content/uploads/2023/01/Appleman-Crank-Length-Hip-Angle.gif" alt="" loading="lazy" /><figcaption>
+      Hoftevinklen åbner sig, når kranklængden bliver kortere. I denne figur er det eneste, der ændrer sig, kranklængden og sadelhøjden. Kilde: <a href="https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/">Appleman Bicycles</a>
+
+    </figcaption></figure>
+
+<hr />
+
+<h2 id="hvad-sker-der-når-du-ændrer-kranklængde">Hvad sker der, når du ændrer kranklængde?</h2>
+
+<h3 id="kortere-kranke-giver">Kortere kranke giver:</h3>
+
+<ul>
+  <li>✅ Mindre knæ- og hoftefleksion</li>
+  <li>✅ Mere plads mellem lår og mave → nemmere vejrtrækning</li>
+  <li>✅ Lettere at sidde stabilt og undgå at “vugge” med hoften</li>
+  <li>✅ Mindre risiko for at pedalen rammer jorden i sving eller MTB-spor</li>
+  <li>✅ Mindre overlap mellem tå og forhjul</li>
+</ul>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="tNJkAjUpn3s">
+      <meta itemprop="name" content="Guide til krankarmslængde: Komfort, kadence og kraft" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/tNJkAjUpn3s/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-07-06T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/tNJkAjUpn3s" />
+      <meta itemprop="description" content="Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan du vælger den rigtige længde." />
+      <a href="https://www.youtube.com/watch?v=tNJkAjUpn3s" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/tNJkAjUpn3s/hqdefault.jpg" loading="lazy" alt="video til Guide til krankarmslængde: Komfort, kadence og kraft" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<h3 id="længere-kranke-kan-give">Længere kranke kan give:</h3>
+
+<ul>
+  <li>✅ Mere “moment” ved høj kraft (fx sprint eller stejle stigninger)</li>
+  <li>❌ Øget belastning på knæ og hofte</li>
+  <li>❌ Øget risiko for pedalerne rammer jorden i sving</li>
+  <li>❌ Mindre mulighed for aggressiv siddestilling</li>
+</ul>
+
+<hr />
+
+<h2 id="kadence-og-power--hvad-siger-forskningen">Kadence og power – hvad siger forskningen?</h2>
+
+<p><a href="https://www.researchgate.net/publication/11923708_Determinants_of_maximal_cycling_power_Crank_length_pedaling_rate_and_pedal_speed">Martin et al. (2001)</a> har undersøgt effekten af kranklængde på maksimal effekt.</p>
+
+<p>Resultaterne viste:</p>
+
+<ul>
+  <li>Der er <strong>ikke stor forskel</strong> på kraftoutput mellem 145 mm og 170 mm</li>
+  <li>En ændring på <strong>10mm</strong> i kranklængde kan dog påvirke <strong>komfort</strong> og <strong>bevægelsesøkonomi</strong> mærkbart</li>
+  <li><strong>Kadence</strong> øges typisk med kortere kranke (fordi pedalcirklen er mindre)</li>
+</ul>
+
+<p>Matt Appleman lavede <a href="https://www.applemanbicycles.com/resources/crank-length-vs-power-cadence/">test for 1 minute power</a> og han fandt følgende:</p>
+
+<figure class="">
+  <img src="https://www.applemanbicycles.com/wp-content/uploads/2022/12/PowerVsCrankLength3-scaled.jpg" alt="" loading="lazy" /><figcaption>
+      Matt Appleman har lavet et <em>case study</em> og ikke et videnskabeligt studie. Det er lidt tankevækkende at power outputtet varierer meget i 155mm krankarmene ift. 175 krankarmene, men i studiet varierer kadencen også mere for 155 krankarmene end 175 krankarmene. Men at man skulle kunne generere mindre power med kortere krankarme er altså ikke en bekymring med mindre krankarmene bliver alt for korte, og kadencen for høj til at producere høje watt. Kilde: <a href="https://www.applemanbicycles.com/resources/crank-length-vs-power-cadence/">Case Study 01: CRANK LENGTH VS POWER and CADENCE</a>
+
+    </figcaption></figure>
+
+<hr />
+
+<h2 id="sådan-vælger-du-kranklængde">Sådan vælger du kranklængde</h2>
+
+<p>Så hvordan finder jeg ud af, hvad der er den bedste kranklængde for mig? En meningsfuld ændring vil være 10mm, og du skal ikke købe en ny krank for ændringer mindre end 5mm.</p>
+
+<p>Der findes flere metoder til at finde din kranklængde. Her er flere forskellige tilgange:</p>
+
+<h3 id="1-ud-fra-knævinkel">1. Ud fra knævinkel</h3>
+
+<p><a href="https://lermagazine.com/article/at-all-levels-and-categories-of-cycling-correct-poor-crank-arm-fit-to-relieve-chronic-knee-and-hip-pain">Schultz</a> beskriver, at der er sammenhæng mellem kroniske knæsmerter, og hvor hvor bøjet knæet er i toppen af pedaltrådet.</p>
+
+<p>Schultz giver nogle ret præcise anbefalinger:</p>
+
+<ul>
+  <li>&lt;66° → høj risiko for knæsmerter</li>
+  <li>66–69° → gråzone</li>
+  <li>&gt;69° → typisk smertefri</li>
+</ul>
+
+<p>I denne figur kan du se, hvad forskellige længder på pedalarme begyder for knævinklen på cyklen.</p>
+
+<figure class="">
+  <img src="https://www.applemanbicycles.com/wp-content/uploads/2023/01/Appleman-Crank-Length-Knee-Angle.gif" alt="" loading="lazy" /><figcaption>
+      Knævinklen åbner sig, når kranklængden bliver kortere. I denne figur er det eneste, der ændrer sig, kranklængden og sadelhøjden. Kilde: <a href="https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/">Appleman Bicycles</a>
+
+    </figcaption></figure>
+
+<p>Men hvordan måler du så knævinklen?</p>
+
+<p>Vinklen måles mellem lårbenet (femur) og skinnebenet (tibia) – når knæet er mest bøjet (typisk lige efter top dead center, hvor krankarmen er nogenlunde på linje med sadelrøret).</p>
+
+<p>🧠 Husk: En ændring på 10 mm kranklængde svarer ca. til 3–4° ændring i knævinkel.</p>
+
+<p><a href="https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/">Matt Appleman</a> har lavet en beregner ud fra knævinklen med dit nuværende setup, hvis du gerne vil bruge knævinklen som udgangspunkt.</p>
+
+<p>Du kunne i teorien også bruge hoftevinklen, men den er sværere at måle, fordi den fleksible ryg gør det svært at måle selve hoftevinklen.</p>
+
+<h3 id="2-formel-41-af-skinnebenslængde-tibia">2. Formel: 41% af skinnebenslængde (tibia)</h3>
+
+<p>Formler er den mest enkle måde at bestemme, hvilken kranklængde der passer til dig. Og så er de gratis.</p>
+
+<p>Længden på skinnebenet er formentlig en mere præcis måde at gøre det på end ved skridtlængden, så vi starter med mden.</p>
+
+<p>Målt fra midten af ankelknoglen til midten af knæleddet. Tibialængden i centimeter giver en god indikator for korrekt kranklængde.</p>
+
+<hr />
+<p>Kranklængde = 0,41 × skinnebenslængde
+***</p>
+
+<p><strong>Kranklængde = <span id="crank-length">150</span> mm</strong></p>
+<p>Tibia = <span id="tibia-length">91.5</span> cm</p>
+
+<p><input type="range" id="tibia-slider" min="33" max="46" step="0.1" value="40" style="width: 100%;" /></p>
+
+<div style="display: flex; justify-content: space-between; font-size: 14px; margin-top: 4px;">
+  <span>33</span>
+  <span>35</span>
+  <span>37</span>
+  <span>39</span>
+  <span>41</span>
+  <span>43</span>
+  <span>45</span>
+</div>
+
+<script>
+  const slider = document.getElementById("tibia-slider");
+  const tibiaDisplay = document.getElementById("tibia-length");
+  const crankDisplay = document.getElementById("crank-length");
+
+  function roundToNearest25(value) {
+    return Math.round(value / 5) * 5;
+  }
+
+  function updateCrankLength(tibiaCm) {
+    tibiaDisplay.textContent = tibiaCm.toFixed(1);
+    const rawCrankLengthMm = tibiaCm * 10 * 0.41; // cm → mm × 0.41
+    const roundedCrankLength = roundToNearest25(rawCrankLengthMm);
+    crankDisplay.textContent = roundedCrankLength;
+  }
+
+  slider.addEventListener("input", (e) => {
+    updateCrankLength(parseFloat(e.target.value));
+  });
+
+  // Initial call
+  updateCrankLength(parseFloat(slider.value));
+</script>
+
+<h3 id="3-formel-20-af-skridtlængde">3. Formel: 20% af skridtlængde</h3>
+
+<p>Målt fra skridt til gulv i stående position. Dette er den mindst præcise metode, men ofte bedre end højdebaserede beregninger og nem at måle.</p>
+
+<p>Læg mærke til at <a href="https://lermagazine.com/article/at-all-levels-and-categories-of-cycling-correct-poor-crank-arm-fit-to-relieve-chronic-knee-and-hip-pain">Schultz</a> har udviklet lidt andre formler, som du også kan lade dig inspirere af.</p>
+
+<hr />
+<p>Kranklængde = 0,20 × skridtlængde
+***</p>
+
+<p><strong>Kranklængde = <span id="inseam-crank-length">155</span> mm</strong></p>
+<p>Inseam = <span id="inseam-length">80.0</span> cm</p>
+
+<p><input type="range" id="inseam-slider" min="66" max="91" step="0.1" value="80.0" style="width: 100%;" /></p>
+
+<div style="display: flex; justify-content: space-between; font-size: 14px; margin-top: 4px;">
+  <span>66</span>
+  <span>69</span>
+  <span>72</span>
+  <span>75</span>
+  <span>78</span>
+  <span>81</span>
+  <span>84</span>
+  <span>87</span>
+  <span>90</span>
+</div>
+
+<script>
+  const inseamSlider = document.getElementById("inseam-slider");
+  const inseamDisplay = document.getElementById("inseam-length");
+  const inseamCrank = document.getElementById("inseam-crank-length");
+
+  function roundToNearest25(value) {
+    return Math.round(value / 5) * 5;
+  }
+
+  function updateInseamCrank(inseamCm) {
+    inseamDisplay.textContent = inseamCm.toFixed(1);
+    const crankMm = inseamCm * 10 * 0.20;
+    const rounded = roundToNearest25(crankMm);
+    inseamCrank.textContent = rounded;
+  }
+
+  inseamSlider.addEventListener("input", (e) => {
+    updateInseamCrank(parseFloat(e.target.value));
+  });
+
+  updateInseamCrank(parseFloat(inseamSlider.value));
+</script>
+
+<hr />
+
+<h2 id="hvad-med-bike-fit">Hvad med bike fit?</h2>
+
+<p>Et professionelt bike fit er den mest sikre måde at få styr på kranklængde og alt andet på cyklen. Men ikke alle fittere har justérbare kranke – og ikke alle har erfaring med det.</p>
+
+<p>Hvis du giver mange penge for en cykel, så bør du også ofre lidt penge på at få cyklen til at passe dig så godt som muligt.</p>
+
+<p>🔍 Vælg en fitter, der:</p>
+
+<ul>
+  <li>Ser på dig – ikke kun måler dig</li>
+  <li>Har erfaring med kortere krankarme</li>
+  <li>Lytter til dine symptomer, behov og mål</li>
+</ul>
+
+<hr />
+
+<h2 id="hvordan-vælger-jeg-så-krankarmslængde">Hvordan vælger jeg så krankarmslængde?</h2>
+
+<p>Det er umuligt at finde en helt perfekt kranklængde. Der vil være flere længder på krankarmen, der kan passe dig som rytter.</p>
+
+<p>Der vil oftere være en øvre grænse for, hvor lang pedalarmen kan være for ikke at forårsage smerter, ubehag eller ustabilitet.</p>
+
+<p>Hvis du er i tvivl, så bør du snarere runde ned end runde op.</p>
+
+<p>Det ærgerlige er at 172.5mm er blevet standard på de fleste cykler, da mange formentlig kan have en fordel af at køre med kortere krankarme.</p>
+
+<hr />
+
+<h2 id="andre-justeringer-og-tilvænning-efter-skifte">Andre justeringer og tilvænning efter skifte?</h2>
+
+<h3 id="skal-jeg-ændre-min-gearing">Skal jeg ændre min gearing?</h3>
+
+<p>Måske. Kortere krankarme betyder, at du har mindre mekanisk fordel – men til gengæld kan du lettere øge kadencen.</p>
+
+<p>🔁 Det meste kan løses ved at skifte gear. Fx:</p>
+
+<ul>
+  <li>Skifter du fra 172,5 til 155 mm = ~10% kortere krank</li>
+  <li>Så kan du overveje at gå fra 40t til 38t foran (5% lettere gear)</li>
+</ul>
+
+<p>Men måske har du ikke bruge for at skifte gear, skriver <a href="https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/">Matt Appleman i sin tankevækkende artikel</a>.</p>
+
+<h3 id="skal-jeg-justere-sadlen">Skal jeg justere sadlen?</h3>
+
+<p>Ja. Når du skifter længden på dine pedalarme, så skal sadelhøjden også ændres.</p>
+
+<p>En tommelfingerregel:</p>
+
+<p>Kortere krankarme = højere saddel (med samme ændring)</p>
+
+<p>Hvis du fx får 10mm kortere krankarme, så skal sadlen ~10mm højere op.</p>
+
+<p>Justér gerne i små trin og prøv dig frem over flere ture, men det er naturligvis stadig vigtigt, at du i bunden af pedeltrådet stadig har et korrekt udstrakt ben.</p>
+
+<p><strong>Valgfri - justere sadlen lidt tilbage</strong>. Muligvis kan du også flytte sadlen lidt tilbage. Du kan læse mere i <a href="https://www.stevehoggbikefitting.com/bikefit/2011/05/seat-set-back-for-road-bikes/">denne artikel fra Steve Hogs</a>.</p>
+
+<p><strong>Valgfri - justere højden på styret</strong>. Efter justering af sadlen, så kan det være nødvendigt at ændre lidt på styrets højde og reach, så komforten bibeholdes efter ændringen i sadelhøjden.</p>
+
+<hr />
+
+<h2 id="hvordan-føles-ændrede-pedalarme">Hvordan føles ændrede pedalarme?</h2>
+
+<p>Skifter du fra fx 175 mm til 155 mm, vil det føles anderledes i starten – især <strong>ude af sadlen</strong>. Men mange ryttere oplever:</p>
+
+<ul>
+  <li>Bedre hoftefrihed</li>
+  <li>Mindre mavekontakt</li>
+  <li>Lettere vejrtrækning</li>
+  <li>Mindre “vuggen” i bækkenet</li>
+</ul>
+
+<p>Og hvis du skifter tilbage til lange kranke efter at have kørt med korte? Så føles de pludselig <strong>meget lange</strong>.</p>
+
+<div class="responsive-video-container">
+
+  <div class="youtube-container" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <div class="youtube-player" data-id="G3StYPqF5_M">
+      <meta itemprop="name" content="Guide til krankarmslængde: Komfort, kadence og kraft" />
+      <meta itemprop="thumbnailURL" content="https://i.ytimg.com/vi/G3StYPqF5_M/default.jpg" />
+      <meta itemprop="uploadDate" content="2025-07-06T00:00:00+00:00" />
+      <meta itemprop="embedURL" content="https://www.youtube.com/embed/G3StYPqF5_M" />
+      <meta itemprop="description" content="Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan du vælger den rigtige længde." />
+      <a href="https://www.youtube.com/watch?v=G3StYPqF5_M" rel="nofollow noopener">
+        <img class="youtube-thumb" src="https://i.ytimg.com/vi/G3StYPqF5_M/hqdefault.jpg" loading="lazy" alt="video til Guide til krankarmslængde: Komfort, kadence og kraft" />
+        <span class="play-button"></span>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>🚴 Længden på krankarmene er ikke bare en detalje. Det kan ændre din fornemmelse på cyklen væsentligt både hvad angår komfort, men måske også præstationen.</p>
+
+<ul>
+  <li>10 mm ændring i kranklængde giver mærkbar forskel</li>
+  <li>Kortere kranke giver ofte bedre komfort, mere kontrol og mindre risiko for skadesproblemer</li>
+  <li>Vælg længde ud fra knævinkler, kropsmål eller følelse</li>
+</ul>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="gør-kranklængde-virkelig-en-forskel">Gør kranklængde virkelig en forskel?</h3></summary>
+<p>Ja. En ændring på bare 5–10 mm kan påvirke komfort, bevægelsesøkonomi og position på cyklen. Kortere krankarme kan fx give bedre hoftevinkel, højere kadence og mindre belastning på knæ.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-måler-jeg-min-skinnebenslængde">Hvordan måler jeg min skinnebenslængde?</h3></summary>
+<p>Mål fra midten af ankelknoglen til midten af knæleddet. Det er lettest at få hjælp af en anden og bruge en hård lineal eller målebånd. Brug målet i centimeter til at beregne kranklængde med formlen: <code class="language-plaintext highlighter-rouge">Kranklængde = 0,41 × tibialængde</code>.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="skal-jeg-skifte-gearing-hvis-jeg-skifter-kranklængde">Skal jeg skifte gearing, hvis jeg skifter kranklængde?</h3></summary>
+<p>Måske. Kortere krankarme kan give en lille reduktion i mekanisk fordel, men det kan ofte kompenseres med en lettere gearing – fx ved at gå fra 40t til 38t foran, hvis du skifter fra 172,5 mm til 155 mm.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-med-sadelhøjden">Hvad med sadelhøjden?</h3></summary>
+<p>Når du går til kortere krankarme, skal du typisk hæve sadlen med samme antal mm, som du forkorter kranklængden med. Fx 10 mm kortere krank = 10 mm højere saddel.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="føles-det-anderledes-at-køre-med-kortere-krankarme">Føles det anderledes at køre med kortere krankarme?</h3></summary>
+<p>Ja, især i starten – og især ude af sadlen. Men mange oplever hurtigt forbedret komfort, bedre kontrol og færre gener i hofte/lænd.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvilke-ryttere-bør-især-overveje-kortere-krankarme">Hvilke ryttere bør især overveje kortere krankarme?</h3></summary>
+<p>Ryttere med knæ- eller hoftesmerter, lav fleksibilitet, højt sadel–styr-drop, ustabilitet i hoften, lav kadence – eller ryttere med kortere benlængde.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-der-en-rigtig-kranklængde-for-alle">Er der en “rigtig” kranklængde for alle?</h3></summary>
+<p>Nej. Der findes flere mulige kranklængder, der kan fungere for den enkelte. Men hvis du er i tvivl, så vælg hellere en lidt kortere krankarm end en for lang.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Gør kranklængde virkelig en forskel?","acceptedAnswer":{"@type":"Answer","text":"Ja. En ændring på bare 5–10 mm kan påvirke komfort, bevægelsesøkonomi og position på cyklen. Kortere krankarme kan fx give bedre hoftevinkel, højere kadence og mindre belastning på knæ.\n"}},{"@type":"Question","name":"Hvordan måler jeg min skinnebenslængde?","acceptedAnswer":{"@type":"Answer","text":"Mål fra midten af ankelknoglen til midten af knæleddet. Det er lettest at få hjælp af en anden og bruge en hård lineal eller målebånd. Brug målet i centimeter til at beregne kranklængde med formlen: <code class='language-plaintext highlighter-rouge'>Kranklængde = 0,41 × tibialængde</code>.\n"}},{"@type":"Question","name":"Skal jeg skifte gearing, hvis jeg skifter kranklængde?","acceptedAnswer":{"@type":"Answer","text":"Måske. Kortere krankarme kan give en lille reduktion i mekanisk fordel, men det kan ofte kompenseres med en lettere gearing – fx ved at gå fra 40t til 38t foran, hvis du skifter fra 172,5 mm til 155 mm.\n"}},{"@type":"Question","name":"Hvad med sadelhøjden?","acceptedAnswer":{"@type":"Answer","text":"Når du går til kortere krankarme, skal du typisk hæve sadlen med samme antal mm, som du forkorter kranklængden med. Fx 10 mm kortere krank = 10 mm højere saddel.\n"}},{"@type":"Question","name":"Føles det anderledes at køre med kortere krankarme?","acceptedAnswer":{"@type":"Answer","text":"Ja, især i starten – og især ude af sadlen. Men mange oplever hurtigt forbedret komfort, bedre kontrol og færre gener i hofte/lænd.\n"}},{"@type":"Question","name":"Hvilke ryttere bør især overveje kortere krankarme?","acceptedAnswer":{"@type":"Answer","text":"Ryttere med knæ- eller hoftesmerter, lav fleksibilitet, højt sadel–styr-drop, ustabilitet i hoften, lav kadence – eller ryttere med kortere benlængde.\n"}},{"@type":"Question","name":"Er der en “rigtig” kranklængde for alle?","acceptedAnswer":{"@type":"Answer","text":"Nej. Der findes flere mulige kranklængder, der kan fungere for den enkelte. Men hvis du er i tvivl, så vælg hellere en lidt kortere krankarm end en for lang.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/">A Rider’s Guide to Crank Length – Appleman Bicycles</a></li>
+    <li><a href="https://lermagazine.com/article/at-all-levels-and-categories-of-cycling-correct-poor-crank-arm-fit-to-relieve-chronic-knee-and-hip-pain">At All Levels and Categories of Cycling, Correct Poor Crank Arm Fit to Relieve Chronic Knee and Hip Pain – LER Magazine</a></li>
+    <li><a href="https://velo.outsideonline.com/road/road-racing/tour-de-france/tadej-pogacar-crank-arm-length-choose">Why Tadej Pogačar Chooses Short Cranks – Velo</a></li>
+    <li><a href="https://www.bikeapp.io/blog/the-ultimate-guide-to-crank-length">The Ultimate Guide to Crank Length – BikeApp.io</a></li>
+    <li><a href="https://www.trainerroad.com/blog/crank-length-what-length-cranks-should-i-run/">Crank Length: What Length Cranks Should I Run? – TrainerRoad Blog</a></li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Træning&quot;, &quot;Cykling&quot;]" /><category term="træning" /><category term="cykling" /><category term="udstyr" /><summary type="html"><![CDATA[Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan du vælger den rigtige længde.]]></summary></entry><entry><title type="html">Bikarbonat som kosttilskud for din præstation</title><link href="https://www.motionsplan.dk/bikarbonat/" rel="alternate" type="text/html" title="Bikarbonat som kosttilskud for din præstation" /><published>2025-07-05T00:00:00+00:00</published><updated>2025-07-05T22:21:26+00:00</updated><id>https://www.motionsplan.dk/bikarbonat</id><content type="html" xml:base="https://www.motionsplan.dk/bikarbonat/"><![CDATA[<p>Bikarbonat (HCO₃⁻) er en naturlig base i kroppen, hvor det blandt andet fungerer som buffer i blodbanen og hjælper med at opretholde syre-base-balancen. I sportsernæringssammenhæng anvendes bikarbonat oftest i form af <strong>natriumbikarbonat</strong> som et ergogent (præstationsfremmende) stof, især i idrætsgrene med høj intensitet og kort til moderat varighed. Stoffet indtages typisk som kapsler med pulverformigt natriumbikarbonat.</p>
+
+<p>Denne artikel beskriver den fysiologiske baggrund, evidensen for præstationseffekter, mulige bivirkninger og anbefalet protokol for indtag. Artiklen er baseret på Team Danmarks anbefalinger og relevant videnskabelig litteratur.</p>
+
+<h2 id="mekanisme-og-fysiologisk-virkning">Mekanisme og fysiologisk virkning</h2>
+
+<p>Ved intensivt arbejde øges produktionen af mælkesyre (laktat) og protoner (H⁺), hvilket medfører en forsuring af det lokale muskelmiljø. Når H⁺-koncentrationen stiger, falder pH, og det menes at bidrage til <strong>udvikling af muskulær træthed</strong>, nedsat kontraktionsevne og hæmning af enzymaktivitet.</p>
+
+<p>Bikarbonat virker som <strong>ekstracellulær buffer</strong>, der øger blodets evne til at neutralisere syre. Ved at øge den systemiske bikarbonatkoncentration inden træning eller konkurrence kan man skabe et større pH-bufferberedskab, som forsinker faldet i pH under arbejdet. Derudover peger nyere teorier på, at et mere basisk blodmiljø kan reducere faldet i blodets iltmætning under højintens arbejde, hvilket kan være relevant i udholdenhedssituationer med stor ventilatorisk og kredsløbsmæssig belastning.</p>
+
+<h2 id="evidens-for-præstationseffekt">Evidens for præstationseffekt</h2>
+
+<p>Der er god dokumentation for, at natriumbikarbonat kan forbedre præstationen i visse idrætsgrene og konkurrencesituationer, særligt når indsatsen er intens og varer mellem 1 og 10 minutter.</p>
+
+<figure class="">
+  <img src="/assets/images/blog/bikarbonat-team-danmark.jpg" alt="effekten af bikarbonat" loading="lazy" /><figcaption>
+      En fuld linje angiver en relativt veldokumenteret effekt, mens en stiplet linje angiver en effekt, der ikke er helt så underbygget.
+
+    </figcaption></figure>
+
+<p>Eksempler inkluderer:</p>
+
+<ul>
+  <li>2000 m roning (6–8 minutter)</li>
+  <li>1000 m kajak (3–4 minutter)</li>
+  <li>4000 m banecykling (4–5 minutter)</li>
+  <li>400–800 m svømning (30–90 sekunder)</li>
+</ul>
+
+<h3 id="intermittente-og-holdsportspræstationer">Intermittente og holdsportspræstationer</h3>
+
+<p>Der er ligeledes fundet positive effekter i <strong>intermittente sportsgrene</strong> som håndbold, fodbold, ishockey og badminton. Her ses forbedringer i test af:</p>
+
+<ul>
+  <li>Gentaget sprintkapacitet</li>
+  <li>Yo-Yo-testpræstation</li>
+  <li>Muskulær udholdenhed</li>
+</ul>
+
+<p>Effekten er dog mere <strong>varierende ved meget korte sprints</strong> (&lt;30 sekunder), hvor energisystemer domineret af kreatinfosfat spiller en større rolle.</p>
+
+<blockquote>
+  <p><em>Meta-analyser peger samlet på en positiv effektstørrelse i størrelsesordenen Cohen’s d = 0.40–0.60, svarende til en lille til moderat præstationsforbedring.</em></p>
+</blockquote>
+
+<h2 id="protokol-for-indtag">Protokol for indtag</h2>
+
+<h3 id="akut-dosering">Akut dosering</h3>
+
+<p>Den mest anvendte protokol er:</p>
+
+<ul>
+  <li><strong>0,3 g bikarbonat pr. kg kropsvægt</strong></li>
+  <li>Indtages <strong>1,5–2 timer før konkurrence eller test</strong></li>
+</ul>
+
+<p><strong>Eksempel:</strong><br />
+En atlet på 70 kg vil indtage 0,3 × 70 = 21 g bikarbonat, fordelt i kapsler eller opløst i væske.</p>
+
+<p>Team Danmark anbefaler, at indtag <strong>ikke sker på tom mave</strong>, og at tilstrækkelig væskeindtag sikres for at mindske gastrointestinale bivirkninger.</p>
+
+<h3 id="re-dosering">Re-dosering</h3>
+
+<p>Ved gentagne konkurrencer samme dag (&gt;4 timers mellemrum), anbefales:</p>
+
+<ul>
+  <li><strong>0,15 g/kg</strong> ca. 1 time før næste indsats (halv dosis)</li>
+</ul>
+
+<h3 id="kronisk-dosering">Kronisk dosering</h3>
+
+<p>Ved mavegener eller følsomhed kan en <strong>kronisk protokol</strong> anvendes:</p>
+
+<ul>
+  <li>Bikarbonat fordeles i mindre doser over <strong>3–5 dage</strong></li>
+  <li>Total daglig dosis opretholdes, men tages i fx 4 opdelte doser</li>
+</ul>
+
+<p>Kronisk indtag har vist lignende fysiologisk effekt og tolereres ofte bedre.</p>
+
+<h2 id="bivirkninger-og-forholdsregler">Bivirkninger og forholdsregler</h2>
+
+<p>Typiske bivirkninger inkluderer:</p>
+
+<ul>
+  <li>Oppustethed og mavekramper</li>
+  <li>Diarré og ubehag i mave-tarmkanalen</li>
+  <li>Hovedpine-lignende symptomer</li>
+</ul>
+
+<p>Særligt kombinationen med <strong>koffein</strong> kan øge risikoen for ubehag, og der er rapporteret tilfælde hvor koffeins præstationsfremmende effekt blev neutraliseret af bivirkninger fra bikarbonat.</p>
+
+<p>Desuden udgør natrium ca. <strong>25 % af bikarbonatmolekylets masse</strong>, hvilket betyder, at store doser bikarbonat også indebærer et højt natriumindtag. Dette er problematisk for personer med:</p>
+
+<ul>
+  <li>Forhøjet blodtryk</li>
+  <li>Nyresygdomme</li>
+  <li>Saltfølsomhed</li>
+</ul>
+
+<h2 id="kvalitetssikring-og-dopingrisiko">Kvalitetssikring og dopingrisiko</h2>
+
+<p>Markedet for kosttilskud er ureguleret, og bikarbonatprodukter kan i princippet være forurenede med forbudte stoffer. Derfor anbefales det udelukkende at anvende produkter, der er testet via anerkendte certificeringsprogrammer:</p>
+
+<ul>
+  <li><a href="https://www.informed-sport.com">www.informed-sport.com</a></li>
+  <li><a href="https://www.nsfsport.com">www.nsfsport.com</a></li>
+</ul>
+
+<blockquote>
+  <p><em>OBS: I skrivende stund (2021) findes ingen kommercielle bikarbonatprodukter, der er certificeret. Derfor foretager Team Danmark en årlig test af egne kapsler tilknyttet danske forbund.</em></p>
+</blockquote>
+
+<h2 id="praktisk-implementering">Praktisk implementering</h2>
+
+<p>En optimal implementering indebærer:</p>
+
+<ul>
+  <li>Individuel afprøvning i træning</li>
+  <li>Justering af dosering og timing baseret på <strong>blodprofil</strong> af bikarbonat</li>
+  <li>Undgå indtag ved kendte bivirkninger eller uprøvede konkurrencer</li>
+</ul>
+
+<p>Atleter i samarbejde med Team Danmark kan få vejledning omkring test af tolerance, bikarbonatprofiler og strategier for re-dosering.</p>
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Natriumbikarbonat er et veldokumenteret supplement, der <strong>kan forbedre præstationen</strong> ved intensivt arbejde af 1–10 minutters varighed. Effekten afhænger af <strong>dosering, timing og individuel tolerance</strong>, og bør altid afprøves i træning før brug i konkurrence.</p>
+
+<p>Det er afgørende, at anvendelsen sker med omhu, og at der tages højde for både <strong>bivirkninger</strong> og <strong>dopingrisici</strong>. Ved korrekt brug og testning kan bikarbonat dog være et relevant tilskud i eliteidræt.</p>
+
+<h2 id="ofte-stilledes-spørgsmål">Ofte stilledes spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-bikarbonat-og-hvorfor-bruges-det-som-kosttilskud">Hvad er bikarbonat, og hvorfor bruges det som kosttilskud?</h3></summary>
+<p>Bikarbonat er en naturlig base i kroppen, der hjælper med at regulere blodets pH. Som kosttilskud bruges det til at forbedre præstationen ved højintensiv træning og konkurrence ved at øge blodets evne til at neutralisere mælkesyre.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvilke-typer-idræt-kan-have-gavn-af-bikarbonat">Hvilke typer idræt kan have gavn af bikarbonat?</h3></summary>
+<p>Bikarbonat har dokumenteret effekt i sportsgrene med intens varighed på 1–10 minutter, såsom 2000 m roning, 4000 m banecykling og 400–800 m svømning. Det kan også gavne holdsport og intervallpræstationer som fodbold og håndbold.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-er-den-anbefalede-dosis">Hvad er den anbefalede dosis?</h3></summary>
+<p>Team Danmark anbefaler 0,3 gram bikarbonat pr. kg kropsvægt indtaget 1,5–2 timer før konkurrence. Ved gentagne præstationer på samme dag kan man re-dosere med 0,15 g/kg ca. 1 time før næste indsats.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvilke-bivirkninger-kan-forekomme">Hvilke bivirkninger kan forekomme?</h3></summary>
+<p>Bikarbonat kan give oppustethed, diarre og ubehag i maven. Det er vigtigt at indtage det med væske og ikke på tom mave. Nogle oplever også hovedpine-lignende symptomer.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-minimeres-risikoen-for-bivirkninger">Hvordan minimeres risikoen for bivirkninger?</h3></summary>
+<p>Start med lavere doser og test i træning. Indtag bikarbonat med mad og rigeligt væske. Overvej kronisk dosering over flere dage, hvis du har tendens til maveproblemer.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-bikarbonat-tilladt-ifølge-dopingregler">Er bikarbonat tilladt ifølge dopingregler?</h3></summary>
+<p>Ja, bikarbonat er tilladt. Men kosttilskud kan være forurenet med forbudte stoffer, så det anbefales kun at bruge produkter testet via Informed-Sport eller NSF Certified for Sport.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-bikarbonat-kombineres-med-andre-tilskud-som-koffein">Kan bikarbonat kombineres med andre tilskud som koffein?</h3></summary>
+<p>Ja, men det kan øge risikoen for maveproblemer. Nogle studier viser, at effekten af koffein kan reduceres, hvis det kombineres med bikarbonat og forårsager ubehag.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="skal-man-måle-sin-bikarbonatprofil">Skal man måle sin bikarbonatprofil?</h3></summary>
+<p>Det er en fordel. En individuel bikarbonatprofil kan hjælpe med at fastlægge optimal timing og dosering. Det anbefales især til eliteatleter.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-kan-man-købe-et-sikkert-bikarbonatprodukt">Hvor kan man købe et sikkert bikarbonatprodukt?</h3></summary>
+<p>Der findes pt. ingen kommercielle bikarbonatprodukter med dopingtest-certificering. Team Danmark anvender egne kapsler, der testes årligt for forbund, men det er altid atletens ansvar, hvad der indtages.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvornår-bør-bikarbonat-ikke-bruges">Hvornår bør bikarbonat ikke bruges?</h3></summary>
+<p>Personer med nyresygdomme, forhøjet blodtryk eller udtalte mavegener bør ikke bruge bikarbonat. Hvis bivirkninger overstiger den præstationsmæssige gevinst, bør det fravælges.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er bikarbonat, og hvorfor bruges det som kosttilskud?","acceptedAnswer":{"@type":"Answer","text":"Bikarbonat er en naturlig base i kroppen, der hjælper med at regulere blodets pH. Som kosttilskud bruges det til at forbedre præstationen ved højintensiv træning og konkurrence ved at øge blodets evne til at neutralisere mælkesyre.\n"}},{"@type":"Question","name":"Hvilke typer idræt kan have gavn af bikarbonat?","acceptedAnswer":{"@type":"Answer","text":"Bikarbonat har dokumenteret effekt i sportsgrene med intens varighed på 1–10 minutter, såsom 2000 m roning, 4000 m banecykling og 400–800 m svømning. Det kan også gavne holdsport og intervallpræstationer som fodbold og håndbold.\n"}},{"@type":"Question","name":"Hvad er den anbefalede dosis?","acceptedAnswer":{"@type":"Answer","text":"Team Danmark anbefaler 0,3 gram bikarbonat pr. kg kropsvægt indtaget 1,5–2 timer før konkurrence. Ved gentagne præstationer på samme dag kan man re-dosere med 0,15 g/kg ca. 1 time før næste indsats.\n"}},{"@type":"Question","name":"Hvilke bivirkninger kan forekomme?","acceptedAnswer":{"@type":"Answer","text":"Bikarbonat kan give oppustethed, diarre og ubehag i maven. Det er vigtigt at indtage det med væske og ikke på tom mave. Nogle oplever også hovedpine-lignende symptomer.\n"}},{"@type":"Question","name":"Hvordan minimeres risikoen for bivirkninger?","acceptedAnswer":{"@type":"Answer","text":"Start med lavere doser og test i træning. Indtag bikarbonat med mad og rigeligt væske. Overvej kronisk dosering over flere dage, hvis du har tendens til maveproblemer.\n"}},{"@type":"Question","name":"Er bikarbonat tilladt ifølge dopingregler?","acceptedAnswer":{"@type":"Answer","text":"Ja, bikarbonat er tilladt. Men kosttilskud kan være forurenet med forbudte stoffer, så det anbefales kun at bruge produkter testet via Informed-Sport eller NSF Certified for Sport.\n"}},{"@type":"Question","name":"Kan bikarbonat kombineres med andre tilskud som koffein?","acceptedAnswer":{"@type":"Answer","text":"Ja, men det kan øge risikoen for maveproblemer. Nogle studier viser, at effekten af koffein kan reduceres, hvis det kombineres med bikarbonat og forårsager ubehag.\n"}},{"@type":"Question","name":"Skal man måle sin bikarbonatprofil?","acceptedAnswer":{"@type":"Answer","text":"Det er en fordel. En individuel bikarbonatprofil kan hjælpe med at fastlægge optimal timing og dosering. Det anbefales især til eliteatleter.\n"}},{"@type":"Question","name":"Hvor kan man købe et sikkert bikarbonatprodukt?","acceptedAnswer":{"@type":"Answer","text":"Der findes pt. ingen kommercielle bikarbonatprodukter med dopingtest-certificering. Team Danmark anvender egne kapsler, der testes årligt for forbund, men det er altid atletens ansvar, hvad der indtages.\n"}},{"@type":"Question","name":"Hvornår bør bikarbonat ikke bruges?","acceptedAnswer":{"@type":"Answer","text":"Personer med nyresygdomme, forhøjet blodtryk eller udtalte mavegener bør ikke bruge bikarbonat. Hvis bivirkninger overstiger den præstationsmæssige gevinst, bør det fravælges.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li>Carr AJ, Hopkins WG, Gore CJ. Effects of acute alkalosis and acidosis on performance: a metaanalysis. Sports Med. 2011 Oct 1;41(10):801-14.</li>
+    <li>Christensen PM, Shirai Y, Ritz C, Nordsborg NB. Caffeine and Bicarbonate for Speed. A Meta-Analysis of Legal Supplements Potential for Improving Intense Endurance Exercise
+Performance. Front Physiol. 2017 May 9;8:240.</li>
+    <li>Grgic J, Garofolini A, Pickering C, Duncan MJ, Tinsley GM, Del Coso J Isolated effects of caffeine and sodium bicarbonate ingestion on  performance in the Yo-Yo test: A systematic review and metaanalysis. J Sci Med Sport. 2020 Jan;23(1):41-47.</li>
+    <li>Grgic J, Rodriguez RF, Garofolini A, Saunders B, Bishop DJ, Schoenfeld BJ, Pedisic Z. Effects of Sodium Bicarbonate Supplementation on Muscular Strength and Endurance: A Systematic Review and Meta-analysis. Sports Med. 2020 Jul;50(7):1361-1375.</li>
+    <li>Heibel AB, Perim PHL, Oliveira LF, McNaughton LR, Saunders B. Time to Optimize Supplementation: Modifying Factors Influencing the Individual Responses to Extracellular Buffering Agents. Front Nutr. 2018 May 8;5:35.</li>
+    <li>Lopes-Silva JP, Choo HC, Franchini E, Abbiss CR. Isolated ingestion of caffeine and sodium bicarbonate on repeated sprint performance: A systematic review and meta-analysis. J Sci Med Sport. 2019 Aug;22(8):962-972.</li>
+    <li>Lopes-Silva JP, Reale R, Franchini E. Acute and chronic effect of sodium bicarbonate ingestion on Wingate test performance: a systematic review and meta-analysis. J Sports Sci. 2019 Apr;37(7):762-771.</li>
+  </ul>
+
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Kost &amp; Ernæring&quot;]" /><category term="træning" /><category term="kosttilskud" /><summary type="html"><![CDATA[Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større muskler.]]></summary></entry><entry><title type="html">Muskelvækst: Ultimativ guide til opbygning af muskelmasse</title><link href="https://www.motionsplan.dk/muskelvaekst-hypertrofi/" rel="alternate" type="text/html" title="Muskelvækst: Ultimativ guide til opbygning af muskelmasse" /><published>2025-05-04T00:00:00+00:00</published><updated>2025-05-05T22:21:26+00:00</updated><id>https://www.motionsplan.dk/muskelvaekst</id><content type="html" xml:base="https://www.motionsplan.dk/muskelvaekst-hypertrofi/"><![CDATA[<p>Hvordan opbygger man egentlig større muskler? Muskelvækst – også kaldet <em>hypertrofi</em> – handler om at øge kroppens <strong>muskelmasse</strong> gennem målrettet styrketræning og tilpas restitution. Men det er langt mere end bare at løfte tungt. For at forstå og udnytte kroppens evne til at vokse, kræver det indsigt i både fysiologi, træningsprincipper og programmering.</p>
+
+<p>Denne guide samler alt, du har brug for at vide om <strong>muskelvækst</strong> – uanset om du er nybegynder eller vil optimere din styrketræning. Vi gennemgår:</p>
+
+<ul>
+  <li><a href="/hvordan-vokser-muskler/">Hvordan og hvorfor muskler vokser</a></li>
+  <li><a href="/fysiologiske-tilpasninger/">Fysiologiske tilpasninger til styrketræning</a></li>
+  <li><a href="/hypertrofi-metoder/">Træningsmetoder og programmer til hypertrofi</a></li>
+  <li><a href="/hvor-hurtigt-vokser-muskler/">Hvor hurtigt du kan bygge muskelmasse</a></li>
+  <li><a href="/atrofi-muskelmasse-muskelstyrke/">Hvordan du undgår at miste muskelmasse</a></li>
+</ul>
+
+<p>Alle dele af guiden hænger sammen, men du kan dykke ned i netop de emner, der er relevante for dig. Uanset om du vil forstå mekanismerne bag større muskler eller bare finde det rigtige program, finder du svaret her.</p>
+
+<p class="notice">Brug guiden som et opslagsværk eller læs den fra ende til anden – du bestemmer.</p>
+
+<h2 id="introduktion-til-muskelvækst">Introduktion til muskelvækst</h2>
+
+<p><strong>Muskelvækst</strong>, også kaldet <em>hypertrofi</em>, er den proces, hvor musklerne bliver større som følge af træning. Når du belaster dine muskler, reagerer kroppen ved at øge muskelcellernes størrelse – ikke antallet. Det betyder, at hypertrofi er en central del af at opbygge <strong>muskelmasse</strong>, få en mere markeret fysik og blive stærkere.</p>
+
+<p>Muskelvækst er især vigtig for styrketrænende, men også for ældre og personer i genoptræning, da det bidrager til både funktionel styrke og sundhed.</p>
+
+<p>Hypertrofi opstår som en tilpasning til træningsbelastning, og der er tre primære fysiologiske faktorer, der driver væksten:</p>
+
+<ul>
+  <li><strong>Mekanisk spænding</strong> – opstår når muskler arbejder under belastning gennem hele bevægelsesbanen. Det er den vigtigste stimulus for muskelvækst.</li>
+  <li><strong>Metabolisk stress</strong> – den ophobning af affaldsstoffer i musklerne, som sker under udmattende træning. Det mærkes ofte som “pump” eller brændende fornemmelse.</li>
+  <li><strong>Muskelskade</strong> – mikroskopiske skader i muskelfibrene, der repareres og fører til øget størrelse. Det er ikke nødvendigt at fremprovokere meget DOMS (ømhed) for at opnå vækst.</li>
+</ul>
+
+<p>Disse mekanismer spiller sammen, men forskelligt træningsfokus og volumen kan stimulere dem i varierende grad. Du kan læse mere om, hvordan kroppen tilpasser sig styrketræning i <a href="/fysiologiske-tilpasninger/">denne artikel om fysiologiske tilpasninger</a>.</p>
+
+<h2 id="hvordan-vokser-muskler">Hvordan vokser muskler?</h2>
+
+<p>Når du træner med belastning, sætter du gang i en række komplekse biologiske processer, som får dine muskler til at vokse. Denne proces kaldes <em>muskelhypertrofi</em> og sker primært ved, at dine muskelceller bliver større – ikke flere.</p>
+
+<p>En af de vigtigste mekanismer bag muskelvækst er <strong>øget proteinsyntese</strong>. Efter træning forsøger kroppen at reparere og opbygge de belastede muskelfibre, og det sker ved, at den bygger nye proteiner inde i cellerne. Det er denne balance mellem proteinsyntese og proteinnedbrydning, der afgør, om dine muskler vokser.</p>
+
+<p>Denne opbygning reguleres blandt andet via signalvejen <strong>mTOR</strong> (mammalian Target of Rapamycin), som aktiveres af både træningsbelastning og tilstrækkeligt proteinindtag. Når mTOR er aktiveret, sætter det gang i muskelopbygningen.</p>
+
+<p><strong>Satellitceller</strong>, som er en slags stamceller i musklerne, spiller også en vigtig rolle. De aktiveres ved træning og smelter sammen med muskelfibrene, hvilket bidrager til reparation og vækst.</p>
+
+<p>De vigtigste signaler, der udløser muskelvækst, er:</p>
+
+<ul>
+  <li><strong>Mekanisk spænding</strong> – skabt af tung belastning og kontrollerede løft.</li>
+  <li><strong>Metabolisk stress</strong> – som opstår under udmattende sæt, fx ved mange gentagelser.</li>
+  <li><strong>Muskelskade</strong> – små revner i muskelfibrene, som kroppen genopbygger stærkere.</li>
+</ul>
+
+<p>Disse faktorer overlapper og påvirker hinanden, og alle tre kan bidrage til vækst afhængig af, hvordan du træner.</p>
+
+<p>👉 Du kan læse en mere detaljeret gennemgang af de biologiske mekanismer bag muskelvækst i denne artikel: <a href="/hvordan-vokser-muskler/">Hvordan vokser muskler?</a></p>
+
+<h2 id="fysiologiske-tilpasninger">Fysiologiske tilpasninger</h2>
+
+<p>Når du træner regelmæssigt og udfordrer dine muskler, tilpasser kroppen sig gradvist – både på celle- og systemniveau. Disse <strong>fysiologiske tilpasninger</strong> er det, der gør dig stærkere, mere udholdende og i stand til at håndtere større belastninger over tid.</p>
+
+<p>På muskelniveau sker der blandt andet:</p>
+
+<ul>
+  <li><strong>Øget proteinsyntese</strong>, som bidrager til opbygning og reparation af muskelfibre.</li>
+  <li><strong>Ændringer i muskelfibertyper</strong>, hvor type II-fibre (hurtige, kraftfulde) vokser mest ved styrketræning.</li>
+  <li><strong>Flere myonuclei</strong> i muskelfibrene via satellitceller, som muliggør større muskler.</li>
+</ul>
+
+<p>Derudover tilpasser kroppen sig på flere andre måder:</p>
+
+<ul>
+  <li><strong>Forbedret blodgennemstrømning</strong> og kapillærnetværk omkring musklerne.</li>
+  <li><strong>Bedre neurale forbindelser</strong>, så du bliver mere effektiv i dine løft.</li>
+  <li><strong>Øget enzymaktivitet og mitokondrier</strong>, især ved mere metabolisk orienteret træning.</li>
+</ul>
+
+<p>Disse tilpasninger er ikke statiske – de sker som reaktion på træningsstimuli og afhænger af faktorer som volumen, intensitet og variation. For at fortsætte med at fremme muskelvækst er det nødvendigt gradvist at udfordre kroppen gennem progressiv overload.</p>
+
+<p>👉 Læs den fulde artikel om <a href="/fysiologiske-tilpasninger/">fysiologiske tilpasninger til styrketræning</a> for en dybere forståelse af, hvordan kroppen ændrer sig gennem træning.</p>
+
+<h2 id="hypertrofi-metoder-og-træningsteknikker">Hypertrofi-metoder og træningsteknikker</h2>
+
+<p>For at få dine muskler til at vokse mest muligt, handler det ikke kun om <em>at træne hårdt</em> – men også om <em>at træne smart</em>. Der findes flere effektive metoder og teknikker, som alle sigter mod at maksimere det samlede muskelstimuli.</p>
+
+<p>De vigtigste grundprincipper er:</p>
+
+<ul>
+  <li><strong>Progressiv overload</strong> – at øge belastningen over tid, fx ved at løfte tungere vægte eller tage flere gentagelser.</li>
+  <li><strong>Træningsvolumen</strong> – det samlede arbejde (sæt × reps × vægt), som er tæt knyttet til muskelvækst.</li>
+  <li><strong>Intensitet</strong> – hvor tung vægten er i forhold til din maksimale styrke.</li>
+  <li><strong>Frekvens</strong> – hvor ofte du træner en muskelgruppe pr. uge.</li>
+</ul>
+
+<p>Ud over disse grundlæggende parametre kan du bruge forskellige <strong>træningsteknikker</strong> for at variere belastningen og øge muskelstimuleringen:</p>
+
+<ul>
+  <li><strong>Supersets</strong> – to øvelser lige efter hinanden uden pause.</li>
+  <li><strong>Drop sets</strong> – reducer vægten og fortsæt sæt, når du når udmattelse.</li>
+  <li><strong>Rest-pause</strong> – korte pauser i et sæt for at presse flere reps ud.</li>
+  <li><strong>Tempo-træning</strong> – bevidst langsomme løft for at øge spændingstiden.</li>
+</ul>
+
+<p>Disse metoder kan bruges strategisk til at ramme musklerne på nye måder, bryde stilstand og øge træningsvolumen uden nødvendigvis at løfte tungere.</p>
+
+<p>👉 Du kan læse mere om de enkelte metoder og hvordan du bruger dem i praksis i <a href="/hypertrofi-metoder/">denne dybdegående artikel om hypertrofi-metoder</a>.</p>
+
+<h2 id="volumen-frekvens-og-progression">Volumen, frekvens og progression</h2>
+
+<p>For at skabe vedvarende muskelvækst kræver det ikke bare hårdt arbejde – men også planlagt arbejde. Her spiller <strong>træningsvolumen</strong>, <strong>frekvens</strong> og <strong>progression</strong> en central rolle.</p>
+
+<details class="faq">
+  <summary>📊 <strong>Træningsvolumen</strong></summary>
+
+  <p>Volumen er mængden af arbejde, du laver i træningen – typisk målt som sæt × reps × vægt. Det er en af de stærkeste drivere for hypertrofi.</p>
+
+  <p>Inden for træningsvidenskab anvendes begreber som:</p>
+
+  <ul>
+    <li><strong>MEV (Minimum Effective Volume)</strong> – den laveste mængde træning, der giver fremgang.</li>
+    <li><strong>MAV (Maximum Adaptive Volume)</strong> – det optimale spænd for tilpasning.</li>
+    <li><strong>MRV (Maximum Recoverable Volume)</strong> – den maksimale mængde træning, du kan restituere fra.</li>
+  </ul>
+
+  <p>Ved at justere volumen i forhold til din erfaring, restitution og træningsplan kan du opnå bedre og mere bæredygtig muskelvækst.</p>
+
+</details>
+
+<details class="faq">
+  <summary>🔁 <strong>Træningsfrekvens</strong></summary>
+
+  <p>Hvor ofte du træner en muskelgruppe påvirker, hvor ofte du stimulerer muskelopbygning. Generelt anbefales <strong>2 eller flere gange pr. uge</strong> pr. muskelgruppe for de fleste trænende.</p>
+
+  <p>Lavere frekvens kan fungere, hvis volumen pr. træningspas er høj. Højere frekvens gør det lettere at fordele volumen og træne med højere kvalitet.</p>
+
+</details>
+
+<details class="faq">
+  <summary>📈 <strong>Progression</strong></summary>
+
+  <p>Muskelvækst kræver, at du gradvist øger belastningen over tid. Det kan ske ved at:</p>
+
+  <ul>
+    <li>Løfte tungere vægte</li>
+    <li>Udføre flere gentagelser</li>
+    <li>Øge antal sæt</li>
+    <li>Forkorte pauser</li>
+    <li>Øge bevægelseskontrol (fx tempo)</li>
+  </ul>
+
+  <p>Denne proces kaldes <strong>progressiv overload</strong> og er nøglen til fortsat udvikling.</p>
+
+</details>
+
+<p>👉 I en kommende artikel vil du kunne læse mere detaljeret om, hvordan du tilpasser volumen og frekvens til dit niveau og dine mål.</p>
+
+<h2 id="styrkeprogrammer-til-muskelvækst">Styrkeprogrammer til muskelvækst</h2>
+
+<p>Der findes mange måder at strukturere styrketræning på, men hvis dit mål er muskelvækst (hypertrofi), er det vigtigt at vælge et program, der matcher dit niveau. Her gennemgår vi programmer for <a href="/styrketraening/periodisering/">forskellige træningsniveauer</a> – og hvordan du justerer dem over tid.</p>
+
+<details class="faq">
+  <summary>👶 <strong>Programmer for begyndere</strong></summary>
+
+  <p>Begyndere bør fokusere på helkropsprogrammer med enkle basisøvelser og høj frekvens.</p>
+
+  <p><strong>Typisk struktur:</strong></p>
+  <ul>
+    <li>Full body 2-3 gange om ugen</li>
+    <li>Fokus på teknik og grundstyrke</li>
+    <li>Progression hver uge eller træning</li>
+  </ul>
+
+  <p><strong>Eksempel:</strong><br />
+Et simpelt full body-program med squat, bænkpres, dødløft og roning kan være effektivt.</p>
+
+</details>
+
+<details class="faq">
+  <summary>🏋️ <strong>Letøvede og øvede programmer</strong></summary>
+
+  <p>Når du har trænet regelmæssigt i 6-12 måneder, kan du begynde at øge volumen og variere øvelsesvalget.</p>
+
+  <p><strong>Typisk struktur:</strong></p>
+  <ul>
+    <li>Upper/Lower split eller Push/Pull/Ben</li>
+    <li>Mere fokus på muskelgrupper og isolation</li>
+    <li>Periodisering over uger</li>
+  </ul>
+
+  <p><strong>Eksempel:</strong><br />
+4-dages upper/lower-program med progressiv overload og fokus på både styrke og volumen.</p>
+
+</details>
+
+<details class="faq">
+  <summary>🧠 <strong>Avancerede programmer</strong></summary>
+
+  <p>Avancerede løftere har brug for intelligent planlægning, højere volumen og specifik variation.</p>
+
+  <p><strong>Typisk struktur:</strong></p>
+  <ul>
+    <li>Push/Pull/Legs eller mere detaljerede 5- eller 6-dages split</li>
+    <li>Periodiseret progression, fx med mesocyklusser</li>
+    <li>Fokus på svage punkter og specialisering</li>
+  </ul>
+
+  <p><strong>Eksempel:</strong><br />
+Et 5-dages split med daglig autoregulering og træning tættere på failure i udvalgte blokke.</p>
+
+</details>
+
+<h2 id="hvor-hurtigt-vokser-muskler">Hvor hurtigt vokser muskler?</h2>
+
+<p>Muskelvækst er en langsom proces, og resultaterne afhænger af flere faktorer som træningserfaring, genetik, køn og hvor godt din træning og restitution hænger sammen. At kende det realistiske tempo for muskelopbygning kan hjælpe dig med at justere dine forventninger og holde motivationen høj.</p>
+
+<details class="faq">
+  <summary>⏳ <strong>Begyndere</strong></summary>
+
+  <p>Begyndere kan opleve hurtigere muskelvækst i de første 6-12 måneder, også kaldet “newbie gains”. Det er ikke usædvanligt at tage 1–1,5 kg muskelmasse på pr. måned i starten, afhængig af træning og kost.</p>
+
+  <ul>
+    <li><strong>Forventning:</strong> 0,5–1,5 kg muskelmasse pr. måned</li>
+    <li><strong>Fokus:</strong> Lær teknik, træn helkropsprogrammer, og få nok protein og søvn</li>
+  </ul>
+
+</details>
+
+<details class="faq">
+  <summary>🔁 <strong>Let øvede og øvede</strong></summary>
+
+  <p>Efter det første år falder væksthastigheden. Nu handler det om at optimere volumen, intensitet og progression. Muskler vokser stadig, men langsommere – typisk 0,25–0,5 kg pr. måned.</p>
+
+  <ul>
+    <li><strong>Forventning:</strong> 2–5 kg om året for mænd, 1–3 kg for kvinder</li>
+    <li><strong>Fokus:</strong> Justér programmet og følg en plan med variation og progression</li>
+  </ul>
+
+</details>
+
+<details class="faq">
+  <summary>📉 <strong>Avancerede</strong></summary>
+
+  <p>Jo længere du har trænet, desto sværere bliver det at opbygge ny muskelmasse. For avancerede kræver det præcis programmering og ofte perioder med særlig fokus på muskelopbygning.</p>
+
+  <ul>
+    <li><strong>Forventning:</strong> &lt; 2 kg muskelmasse om året</li>
+    <li><strong>Fokus:</strong> Specialisering, volumenstyring og langtidsperspektiv</li>
+  </ul>
+
+</details>
+
+<p>👉 Dyk dybere ned i vækstpotentiale og begrænsninger i vores artikel: <a href="/hvor-hurtigt-vokser-muskler/">Hvor hurtigt vokser muskler?</a></p>
+
+<h2 id="atrofi-og-muskelstyrke">Atrofi og muskelstyrke</h2>
+
+<p>Hvis du holder op med at træne, vil du gradvist miste både muskelmasse og styrke – en proces kaldet atrofi. Dette sker hurtigere, end de fleste tror, men det kan modvirkes med minimal indsats og god planlægning.</p>
+
+<details class="faq">
+  <summary>📉 <strong>Hvad er muskelatrofi?</strong></summary>
+
+  <p>Muskelatrofi er tab af muskelmasse som følge af inaktivitet, sygdom eller utilstrækkelig stimulering. Det kan ske i løbet af få uger uden styrketræning – især hvis du ligger stille eller er meget inaktiv.</p>
+
+  <ul>
+    <li>Muskelfibrene bliver mindre</li>
+    <li>Proteinsyntesen falder</li>
+    <li>Styrken mindskes</li>
+  </ul>
+
+</details>
+
+<details class="faq">
+  <summary>🔄 <strong>Hvordan påvirker atrofi styrke?</strong></summary>
+
+  <p>Styrketabet følger ofte muskelmassen, men neurologiske tilpasninger (koordination og aktivering) kan opretholdes i længere tid. Dog falder styrken hurtigt, hvis du er helt inaktiv.</p>
+
+  <ul>
+    <li>Du mister både eksplosivitet og udholdenhed</li>
+    <li>Teknik og motorik kan også forringes</li>
+  </ul>
+
+</details>
+
+<details class="faq">
+  <summary>💪 <strong>Sådan undgår du atrofi</strong></summary>
+
+  <p>Selv lave niveauer af træning kan hjælpe med at vedligeholde muskelmasse. Det gælder især, hvis du genaktiverer musklerne jævnligt og holder dig fysisk aktiv.</p>
+
+  <ul>
+    <li>Træn mindst 1 gang om ugen per muskelgruppe</li>
+    <li>Sørg for tilstrækkeligt proteinindtag</li>
+    <li>Brug variation og vedligeholdende volumen</li>
+  </ul>
+
+  <p>Patroklos Androulakis-Korakakis og kollegaer satte sig til at undersøge, hvad den minimale effektive volumen var for stadig at få lidt fremgang eller vedligeholde træningen. Tjek deres <a href="/styrketraening/dr-pak-minimal-effective-volume/">styrkeprogram baseret på den minimale effektive dosis</a>.</p>
+
+</details>
+
+<p>👉 Læs mere i artiklen: <a href="/atrofi-muskelmasse-muskelstyrke/">Atrofi: Hvad sker der med muskelmasse og styrke, når du holder pause?</a></p>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-hypertrofi">Hvad er hypertrofi?</h3></summary>
+<p>Hypertrofi er den proces, hvor musklerne vokser i størrelse som svar på træning, særligt når de udsættes for mekanisk spænding, metabolisk stress og muskelskader.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-hurtigt-vokser-muskler">Hvor hurtigt vokser muskler?</h3></summary>
+<p>Hvor hurtigt muskler vokser afhænger af faktorer som træningserfaring, genetik og træningsforhold. Begyndere kan forvente hurtigere vækst i de første 6-12 måneder, mens mere erfarne kan opleve en langsommere væksthastighed.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-er-de-bedste-metoder-til-muskelvækst">Hvad er de bedste metoder til muskelvækst?</h3></summary>
+<p>De bedste metoder til muskelvækst inkluderer progressiv overload, variation i træningsvolumen og frekvens, samt brug af teknikker som supersets og drop sets for at maksimere træningens effekt.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-påvirker-atrofi-muskelvækst-og-styrke">Hvordan påvirker atrofi muskelvækst og styrke?</h3></summary>
+<p>Atrofi sker, når du stopper med at træne, og musklerne mister både størrelse og styrke. For at undgå dette bør du fortsætte med at træne regelmæssigt, selvom du tager en pause.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-kan-jeg-undgå-at-miste-muskelmasse">Hvordan kan jeg undgå at miste muskelmasse?</h3></summary>
+<p>For at undgå muskelatrofi bør du træne regelmæssigt, opretholde tilstrækkeligt proteinindtag og sikre, at du ikke er inaktiv i længere perioder.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-er-forskellen-på-volumen-og-intensitet-i-træning">Hvad er forskellen på volumen og intensitet i træning?</h3></summary>
+<p>Volumen refererer til den samlede mængde arbejde udført i et træningspas (fx sæt x gentagelser), mens intensitet refererer til hvor tungt du træner, ofte målt som procent af din maksimale løfteevne.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-opbygge-muskelmasse-uden-at-få-meget-fedt">Kan jeg opbygge muskelmasse uden at få meget fedt?</h3></summary>
+<p>Ja, det er muligt at opbygge muskelmasse uden at tage meget fedt på, hvis du følger en kontrolleret kalorieoverskud og træner effektivt med fokus på muskelopbygning.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-ofte-bør-jeg-træne-for-at-maksimere-muskelvækst">Hvor ofte bør jeg træne for at maksimere muskelvækst?</h3></summary>
+<p>For optimal muskelvækst bør du træne hver muskelgruppe 2-3 gange om ugen, afhængigt af dit træningsniveau og programmering.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er hypertrofi?","acceptedAnswer":{"@type":"Answer","text":"Hypertrofi er den proces, hvor musklerne vokser i størrelse som svar på træning, særligt når de udsættes for mekanisk spænding, metabolisk stress og muskelskader.\n"}},{"@type":"Question","name":"Hvor hurtigt vokser muskler?","acceptedAnswer":{"@type":"Answer","text":"Hvor hurtigt muskler vokser afhænger af faktorer som træningserfaring, genetik og træningsforhold. Begyndere kan forvente hurtigere vækst i de første 6-12 måneder, mens mere erfarne kan opleve en langsommere væksthastighed.\n"}},{"@type":"Question","name":"Hvad er de bedste metoder til muskelvækst?","acceptedAnswer":{"@type":"Answer","text":"De bedste metoder til muskelvækst inkluderer progressiv overload, variation i træningsvolumen og frekvens, samt brug af teknikker som supersets og drop sets for at maksimere træningens effekt.\n"}},{"@type":"Question","name":"Hvordan påvirker atrofi muskelvækst og styrke?","acceptedAnswer":{"@type":"Answer","text":"Atrofi sker, når du stopper med at træne, og musklerne mister både størrelse og styrke. For at undgå dette bør du fortsætte med at træne regelmæssigt, selvom du tager en pause.\n"}},{"@type":"Question","name":"Hvordan kan jeg undgå at miste muskelmasse?","acceptedAnswer":{"@type":"Answer","text":"For at undgå muskelatrofi bør du træne regelmæssigt, opretholde tilstrækkeligt proteinindtag og sikre, at du ikke er inaktiv i længere perioder.\n"}},{"@type":"Question","name":"Hvad er forskellen på volumen og intensitet i træning?","acceptedAnswer":{"@type":"Answer","text":"Volumen refererer til den samlede mængde arbejde udført i et træningspas (fx sæt x gentagelser), mens intensitet refererer til hvor tungt du træner, ofte målt som procent af din maksimale løfteevne.\n"}},{"@type":"Question","name":"Kan jeg opbygge muskelmasse uden at få meget fedt?","acceptedAnswer":{"@type":"Answer","text":"Ja, det er muligt at opbygge muskelmasse uden at tage meget fedt på, hvis du følger en kontrolleret kalorieoverskud og træner effektivt med fokus på muskelopbygning.\n"}},{"@type":"Question","name":"Hvor ofte bør jeg træne for at maksimere muskelvækst?","acceptedAnswer":{"@type":"Answer","text":"For optimal muskelvækst bør du træne hver muskelgruppe 2-3 gange om ugen, afhængigt af dit træningsniveau og programmering.\n"}}]
+    }
+</script>
+
+<h2 id="alt-om-muskelvækst">Alt om muskelvækst</h2>
+
+<div class="feature__wrapper">
+
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="Hypertrofi 💪: Metoder til maksimal muskelvækst! 🌊
+" data-pin-nopin="true" loading="lazy" />
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/hypertrofi-metoder/" rel="permalink">Hypertrofi 💪: Metoder til maksimal muskelvækst! 🌊
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2020-06-06T23:14:14+00:00">6. jun, 2020</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hypertrofi og maksimal muskeltilvækst skabes af mekaniske belastning på musklerne gennem regelmæssig styrketræning. Der er flere metoder der kan skabe tilstr...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1591267802076-da29ebeb3037?q=60&amp;w=400&amp;h=300&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hvad får muskler til at vokse, og hvordan skal man træne? 💪
+" data-pin-nopin="true" loading="lazy" />
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/hvordan-vokser-muskler/" rel="permalink">Hvad får muskler til at vokse, og hvordan skal man træne? 💪
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2020-05-29T23:14:14+00:00">29. may, 2020</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Hvad får muskler til at vokse (hypertrofi), og hvordan vokser muskler egentlig? Hvilken træning skal du lave for at få musklerne til blive større?
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="German Volume Training: Virker GVT til hypertrofi?
+" data-pin-nopin="true" loading="lazy" />
+        
+        <div class="icon-overlay">
+          <i class="fas fa-star-of-david" aria-hidden="true" style="color: #dc3545;" title="Erfaren"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/gvt/" rel="permalink">German Volume Training: Virker GVT til hypertrofi?
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-03-06T23:14:14+00:00">6. mar, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær alt om German Volume Training (GVT) – et effektivt 10x10-program til muskelopbygning. Få program, progression og tips til programmet.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;h=300&amp;w=400&amp;q=10" alt="George Turners 10x10 Træningsprogram
+" data-pin-nopin="true" loading="lazy" />
+        
+        <div class="icon-overlay">
+          <i class="fas fa-star-half-alt" aria-hidden="true" style="color: #ffc107;" title="Øvet"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/george-turner-10x10/" rel="permalink">George Turners 10x10 Træningsprogram
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-06T23:14:14+00:00">6. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Få en komplet guide til George Turners 10x10-program – et simpelt og effektivt træningsprogram med høj volumen, der bygger muskelmasse og styrke over 8 uger.
+</p>
+  </article>
+</div>
+
+  
+
+
+</div>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+  <ul>
+    <li>Madcow. “Madcow’s 5×5 and Training Theory and Information Site.” Geocities Archive Geocities Mirror / The 90s Archive (1990s 2000s Nineties) / The Early Web, https://www.oocities.org/elitemadcow1/.</li>
+    <li>Rodríguez-Ridao, David et al. “Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise.” International journal of environmental research and public health vol. 17,19 7339. 8 Oct. 2020.</li>
+    <li>Miranda, Humberto et al. “Effect of two different rest period lengths on the number of repetitions performed during resistance training.” Journal of strength and conditioning research vol. 21,4 (2007): 1032-6.</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Styrketræning&quot;]" /><category term="træning" /><category term="styrketræning" /><category term="træningslære" /><summary type="html"><![CDATA[Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større muskler.]]></summary></entry><entry><title type="html">Sådan arbejder du med progression i løbetræningen</title><link href="https://www.motionsplan.dk/progression-loeb/" rel="alternate" type="text/html" title="Sådan arbejder du med progression i løbetræningen" /><published>2025-04-20T00:00:00+00:00</published><updated>2025-01-27T22:21:26+00:00</updated><id>https://www.motionsplan.dk/progression-loeb</id><content type="html" xml:base="https://www.motionsplan.dk/progression-loeb/"><![CDATA[<p>En god løbeplan hviler på én afgørende byggesten: <strong>progression</strong>. Det er netop denne løbende tilpasning og stigning i belastning, der sikrer, at du som løber fortsætter med at udvikle dig – fysisk og mentalt.</p>
+
+<p>I denne artikel gennemgår vi, hvad progression er, hvorfor det er vigtigt, og hvordan du bruger det aktivt i din træning.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1732039930297-d803a894fd8f?q=60&amp;w=600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" loading="lazy" /></figure>
+
+<hr />
+
+<h2 id="hvad-er-progression">Hvad er progression?</h2>
+
+<p>I træningsverdenen betyder progression, at man <strong>gradvist øger udfordringen</strong> for kroppen – fx ved at løbe længere, hurtigere eller oftere. Uden denne gradvise stigning tilpasser kroppen sig det nuværende niveau, og dine fremskridt går i stå.</p>
+
+<p>Pointen er enkel: hvis du vil forbedre dig, skal du justere belastningen løbende – men med omtanke.</p>
+
+<hr />
+
+<h2 id="find-balancen-mellem-stilstand-og-overtræning">Find balancen mellem stilstand og overtræning</h2>
+
+<p>Det er vigtigt at finde den rette balance. Øger du træningen for lidt, sker der ingen udvikling. Øger du for meget, risikerer du skader.</p>
+
+<p>En tommelfingerregel er, at du ikke skal øge den samlede træningsmængde med mere end <strong>5% om ugen</strong>. Den regel passer naturligvis ikke altid perfekt, men det er et godt udgangspunkt - især for nye løbere eller hvis du vender tilbage efter en pause.</p>
+
+<hr />
+
+<h2 id="tre-måder-at-øge-belastningen">Tre måder at øge belastningen</h2>
+
+<p>Du kan skrue op for løbetræningen på flere måder:</p>
+
+<ul>
+  <li>Øge <strong>den samlede distance</strong> (den samlede volumen)</li>
+  <li>Øge <strong>tempoet</strong> og derved intensiteten i enkelte pas</li>
+  <li>Kombinere begge (men vær forsigtig)</li>
+</ul>
+
+<p>Det er som regel bedst kun at ændre én faktor ad gangen. Hvis både distance og intensitet stiger på én gang, risikerer du for høj belastning.</p>
+
+<hr />
+
+<h2 id="progression-uge-for-uge">Progression uge for uge</h2>
+
+<p>Lad os se på, hvordan du kan arbejde med progression over uger og måneder.</p>
+
+<h3 id="dårligt-eksempel-pludselig-stigning">Dårligt eksempel: Pludselig stigning</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Uge</th>
+      <th>Dag 1</th>
+      <th>Dag 2</th>
+      <th>Dag 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>40 min</td>
+      <td>50 min</td>
+      <td>40 min</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>40 min</td>
+      <td>50 min</td>
+      <td>40 min</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>40 min</td>
+      <td>50 min</td>
+      <td>40 min</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>60 min</td>
+      <td>60 min</td>
+      <td>90 min</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>En voldsom stigning i uge 4 giver stor risiko for overbelastning.</p>
+
+<h3 id="bedre-eksempel-jævn-udvikling">Bedre eksempel: Jævn udvikling</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Uge</th>
+      <th>Dag 1</th>
+      <th>Dag 2</th>
+      <th>Dag 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>40 min</td>
+      <td>50 min</td>
+      <td>40 min</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>45 min</td>
+      <td>50 min</td>
+      <td>45 min</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>45 min</td>
+      <td>60 min</td>
+      <td>45 min</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>50 min</td>
+      <td>70 min</td>
+      <td>50 min</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Her ser vi en kontrolleret og balanceret stigning, hvor kroppen kan nå at tilpasse sig den øgede træningsmængde.</p>
+
+<hr />
+
+<h2 id="planlæg-progression-måned-for-måned">Planlæg progression måned for måned</h2>
+
+<p>Her er et eksempel på, hvordan du kan planlægge træningen med fokus på gradvis stigning over et par måneder:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Uge</th>
+      <th>Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>40 km</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>42 km</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>45 km</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>40 km <em>(rolig uge)</em></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>45 km</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>47 km</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>50 km</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>45 km <em>(rolig uge)</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Idéen er at skrue belastningen gradigvis i vejret over 2-3 uger, hvorefter du tager en rolig uge med lavere volumen, så kroppen kan tilpasse sig træningen og restituere.</p>
+
+<hr />
+
+<h2 id="brug-en-træningsdagbog">Brug en træningsdagbog</h2>
+
+<p>En enkel måde at holde styr på din progression er at notere din træning. Det behøver ikke være fancy – bare få overblikket. Du kan fx logge:</p>
+
+<ul>
+  <li>Dato</li>
+  <li>Distance og varighed</li>
+  <li>Tempo eller puls</li>
+  <li>Kommentarer (fx træthed, vejr, skader)</li>
+</ul>
+
+<p>Det hjælper dig med at se mønstre, holde dig motiveret og justere træningen, hvis noget ikke virker. Jeg bruger selv Intervals.icu - <a href="/intervals-icu-begynderguide/">tjek vores begynderguide</a>.</p>
+
+<hr />
+
+<h2 id="læg-en-langsigtet-plan">Læg en langsigtet plan</h2>
+
+<p>Lad os sige, du vil gå fra 40 til 60 km om ugen over 4 måneder (ca. 16 uger). Det svarer til ca. 5 km ekstra pr. måned. Du kan planlægge det som følger:</p>
+
+<ul>
+  <li>Måned 1: 40 → 45 km</li>
+  <li>Måned 2: 45 → 50 km</li>
+  <li>Måned 3: 50 → 55 km</li>
+  <li>Måned 4: 55 → 60 km</li>
+</ul>
+
+<p>Inddel hver måned i fire uger med tre ugers optrapning og én restitutionsuge.</p>
+
+<hr />
+
+<h2 id="fokuser-på-de-vigtigste-pas">Fokuser på de vigtigste pas</h2>
+
+<p>Du behøver ikke øge belastningen i alle træningspas. Start med at fokusere på de mest afgørende: fx din <strong>ugentlige lange tur</strong> eller <strong>intervaller</strong>.</p>
+
+<h3 id="eksempel-progression-på-den-lange-tur">Eksempel: Progression på den lange tur</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Uge</th>
+      <th>Lang tur</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>18 km</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>20 km</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>23 km</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>18 km <em>(let uge)</em></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>23 km</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>25 km</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>28 km</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>23 km <em>(let uge)</em></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>28 km</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>30 km</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>33 km</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>28 km <em>(nedtrapning)</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Her kombineres øget belastning med nedtrapningsuger – en opskrift på holdbar fremgang.</p>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>Progression er den røde tråd i al effektiv løbetræning. Når du øger belastningen gradvist, opbygger du form og styrke – uden at slide dig selv ned.</p>
+
+<p>👉 Planlæg.<br />
+👉 Justér.<br />
+👉 Giv kroppen tid.</p>
+
+<p>Så er du godt på vej til bedre præstationer og flere gode løbeoplevelser.</p>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvordan-ved-jeg-om-jeg-er-i-gang-med-at-overtræne">Hvordan ved jeg, om jeg er i gang med at overtræne?</h3></summary>
+<p>Tegn på overtræning kan inkludere vedvarende træthed, nedsat præstation, ømhed der ikke forsvinder, og manglende motivation. Hvis du oplever disse symptomer, bør du tage en rolig uge med mindre belastning og give kroppen tid til at restituere.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-hurtigt-bør-jeg-øge-min-løbedistance">Hvor hurtigt bør jeg øge min løbedistance?</h3></summary>
+<p>En god tommelfingerregel er at øge din samlede træningsdistance med højst <strong>5% per uge</strong>. Dette giver kroppen tid til at tilpasse sig uden at risikere skader.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-kombinere-løb-med-styrketræning-under-progression">Kan jeg kombinere løb med styrketræning under progression?</h3></summary>
+<p>Ja, styrketræning kan hjælpe med at forbedre din løbepræstation ved at styrke musklerne og forebygge skader. Sørg dog for at justere din styrketræning, så den ikke overbelaster dine muskler før lange løbeture.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-gør-jeg-hvis-jeg-rammer-et-plateau-i-min-træning">Hvad gør jeg, hvis jeg rammer et plateau i min træning?</h3></summary>
+<p>Hvis du når et plateau, kan det hjælpe at ændre din træningsrutine ved at justere tempoet, distancen eller intensiteten. Du kan også overveje at inkludere en restitutionsuge eller ændre træningsformen (fx skifte til intervaller eller bakke-løb).</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-ofte-skal-jeg-tage-en-restitutionsuge">Hvor ofte skal jeg tage en restitutionsuge?</h3></summary>
+<p>En restitutionsuge bør planlægges hver 4.-6. uge, hvor du reducerer træningens volumen og intensitet for at give kroppen tid til at komme sig og forberede sig på næste fase af progressionen.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvordan ved jeg, om jeg er i gang med at overtræne?","acceptedAnswer":{"@type":"Answer","text":"Tegn på overtræning kan inkludere vedvarende træthed, nedsat præstation, ømhed der ikke forsvinder, og manglende motivation. Hvis du oplever disse symptomer, bør du tage en rolig uge med mindre belastning og give kroppen tid til at restituere.\n"}},{"@type":"Question","name":"Hvor hurtigt bør jeg øge min løbedistance?","acceptedAnswer":{"@type":"Answer","text":"En god tommelfingerregel er at øge din samlede træningsdistance med højst <strong>5% per uge</strong>. Dette giver kroppen tid til at tilpasse sig uden at risikere skader.\n"}},{"@type":"Question","name":"Kan jeg kombinere løb med styrketræning under progression?","acceptedAnswer":{"@type":"Answer","text":"Ja, styrketræning kan hjælpe med at forbedre din løbepræstation ved at styrke musklerne og forebygge skader. Sørg dog for at justere din styrketræning, så den ikke overbelaster dine muskler før lange løbeture.\n"}},{"@type":"Question","name":"Hvad gør jeg, hvis jeg rammer et plateau i min træning?","acceptedAnswer":{"@type":"Answer","text":"Hvis du når et plateau, kan det hjælpe at ændre din træningsrutine ved at justere tempoet, distancen eller intensiteten. Du kan også overveje at inkludere en restitutionsuge eller ændre træningsformen (fx skifte til intervaller eller bakke-løb).\n"}},{"@type":"Question","name":"Hvor ofte skal jeg tage en restitutionsuge?","acceptedAnswer":{"@type":"Answer","text":"En restitutionsuge bør planlægges hver 4.-6. uge, hvor du reducerer træningens volumen og intensitet for at give kroppen tid til at komme sig og forberede sig på næste fase af progressionen.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+  <ul>
+    <li>Madcow. “Madcow’s 5×5 and Training Theory and Information Site.” Geocities Archive Geocities Mirror / The 90s Archive (1990s 2000s Nineties) / The Early Web, https://www.oocities.org/elitemadcow1/.</li>
+    <li>Rodríguez-Ridao, David et al. “Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise.” International journal of environmental research and public health vol. 17,19 7339. 8 Oct. 2020.</li>
+    <li>Miranda, Humberto et al. “Effect of two different rest period lengths on the number of repetitions performed during resistance training.” Journal of strength and conditioning research vol. 21,4 (2007): 1032-6.</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Løb&quot;]" /><category term="træning" /><category term="løb" /><category term="træningsprincip" /><category term="træningslære" /><summary type="html"><![CDATA[Lær hvordan du opbygger løbetræningen gradvist med progression. Undgå skader og stilstand ved at planlægge distance, intensitet og restitutionsuger korrekt.]]></summary></entry><entry><title type="html">Træningsfilosofier til løbetræningen</title><link href="https://www.motionsplan.dk/traeningsfilosofier-loeb/" rel="alternate" type="text/html" title="Træningsfilosofier til løbetræningen" /><published>2025-04-20T00:00:00+00:00</published><updated>2025-01-27T22:21:26+00:00</updated><id>https://www.motionsplan.dk/traeningsfilosofier-loeb</id><content type="html" xml:base="https://www.motionsplan.dk/traeningsfilosofier-loeb/"><![CDATA[<p>Når du træner, er det vigtigt at forstå, hvordan du kan strukturere din træning for at opnå de bedste resultater. For at gøre det skal du kende forskellen mellem en <strong>træningsfilosofi</strong> og et <strong>træningsprincip</strong>. Begge er centrale i at udvikle en effektiv træningsrutine, men de spiller forskellige roller.</p>
+
+<p>Her dykker vi ned i forskellige træningsfilosofier bag ved løb - og hvordan du kan analysere dem med forskellige <a href="/traeningsprincipper-loeb/">træningsprincipper til løb</a>.</p>
+
+<figure class="">
+  <img src="https://images.unsplash.com/photo-1734574223327-0104201ee785?q=60&amp;w=600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" loading="lazy" /></figure>
+
+<h2 id="hvad-er-en-træningsfilosofi">Hvad er en træningsfilosofi?</h2>
+
+<p>En <strong>træningsfilosofi</strong> beskriver, hvordan man bedst strukturerer træningen ud fra en subjektiv holdning til, hvad der fungerer bedst. Filosofien sætter rammerne for, hvordan du træner, og hvad der skal vægtes i træningen. Det kan inkludere ting som:</p>
+
+<ul>
+  <li>Hvor mange kilometer om ugen du bør løbe?</li>
+  <li>Hvornår du bør bruge intervaltræning?</li>
+  <li>Hvor lang din længste løbetur bør være?</li>
+</ul>
+
+<p>En træningsfilosofi er ofte rettet mod én specifik idrætsgren og kan ikke anvendes på tværs af forskellige sportsgrene. I dette tilfælde vil en træningsfilosofi for <strong>løb</strong> fokusere på de bedste metoder til løb.</p>
+
+<h2 id="eksempler-på-træningsfilosofier">Eksempler på træningsfilosofier</h2>
+
+<div class="feature__wrapper">
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Løb</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/lydiard/" rel="permalink">Arthur Lydiards træningsfilosofi med fokus på en bred base
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo" /></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-01-27T22:21:26+00:00">27. jan, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Oplev Arthur Lydiards originale marathontræningsmetoder fra 1960’erne. Udforsk intensiteten, volumen og periodisering ud over myten om ‘langsom distance’.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Løb</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/igloi/" rel="permalink">Iglóis træningsfilosofi - Intervaltræning baseret på følelse
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo" /></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-01-27T22:21:26+00:00">27. jan, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær om Mihály Iglóis unikke tilgang til intervaltræning, hvor korte intervaller og høj volumen bygger en stærk aerob base uden overbelastning.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Løb</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/jack-daniels-running-formula/" rel="permalink">Jack Daniels Running Formula - træningsfilosofi
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo" /></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-01-27T22:21:26+00:00">27. jan, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Forstå principperne bag Jack Daniels’ Running Formula og lær hvordan VDOT, træningszoner og progressiv belastning kan gøre dig til en bedre løber.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Løb</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/canova/" rel="permalink">Canovas træningsfilosofi - procentbaseret tragtmodel
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo" /></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-01-27T22:21:26+00:00">27. jan, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær hvordan Canovas tragtmodel opbygger din form i faser – fra bred base til specifik konkurrenceform. Effektiv metode til målrettet løbetræning.
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item h-entry" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Løb</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/galloway-metoden/" rel="permalink">Galloway-metoden: The Golden Mile og Run-Walk-Run
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo" /></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-01-13T22:21:26+00:00">13. jan, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Galloway-metoden kombinerer løb og gang for at øge udholdenhed og mindske skader. Læs hvordan metoden kan bruges i din træning til løb.
+</p>
+  </article>
+</div>
+
+  
+
+
+</div>
+
+<p>Træningsfilosofier handler om en overordnet tilgang til træning, som definerer, hvordan du bedst opbygger din træningsplan.</p>
+
+<h2 id="hvad-er-et-træningsprincip">Hvad er et træningsprincip?</h2>
+
+<p>Et <strong>træningsprincip</strong> er derimod en universel regel, der gælder for enhver form for træning og som styrer, hvordan man bedst udvikler færdigheder og præstation.</p>
+
+<p>Disse principper kan anvendes på tværs af sportsgrene, uanset om du træner til løb, styrketræning eller andre aktiviteter.</p>
+
+<p>Der findes fire <a href="/traeningsprincipper/">grundlæggende træningsprincipper</a>, der bør være en del af din løbetræning:</p>
+
+<ul>
+  <li><strong>Specificitet</strong> – Din træning skal være målrettet den type løb, du forbereder dig til.</li>
+  <li><strong>Variation</strong> – Træningen skal variere for at undgå stagnation og for at stimulere forskellige energisystemer.</li>
+  <li><strong>Progression</strong> – Gradvis øgning af træningens intensitet eller volumen for at fremme forbedringer.</li>
+  <li><strong>Individualisering</strong> – Træningen skal tilpasses dine individuelle behov, mål og forudsætninger.</li>
+</ul>
+
+<p>Disse principper er fundamentet for al effektiv træning, og de gælder uanset hvilken sportsgren du træner i.</p>
+
+<p>Træningsprincipper er ikke bare “gode råd”, men uundværlige for at sikre, at du får det maksimale ud af din træning.</p>
+
+<p>Hvis du fx træner uden at følge et princip om <strong>progression</strong>, vil du med stor sandsynlighed opleve stilstand i fremgangen og undgå de nødvendige udfordringer for at forbedre dig.</p>
+
+<h2 id="forskellen-på-en-træningsfilosofi-og-et-træningsprincip">Forskellen på en træningsfilosofi og et træningsprincip</h2>
+
+<p>Så hvad er forskellen på en træningsfilosofi og et træningsprincip?</p>
+
+<p>En <strong>træningsfilosofi</strong> er et overordnet perspektiv på træning og kan være præget af en særlig holdning eller metode til at nå målet. Den kan være meget fokuseret på bestemte træningselementer, som fx langt og langsomt løb, eller kort og intensiv træning. Filosofien kan være vanskelig at forstå i detaljer, og det er vigtigt at kende dens nuancer for at få den optimale effekt.</p>
+
+<p>Et <strong>træningsprincip</strong> er derimod et fundament, som kan anvendes i enhver træningsplan. Det handler om at forstå de underliggende mekanismer, der gør træning effektiv. Principles som <strong>progression</strong> og <strong>variation</strong> er derfor essentielle i enhver træning, uanset hvilken filosofi du følger.</p>
+
+<h3 id="eksempel-på-anvendelse-af-filosofi-vs-princip">Eksempel på anvendelse af filosofi vs. princip</h3>
+
+<p>Forestil dig en kok, der ønsker at forbedre sine færdigheder. Kokken bruger træningsprincipper som <strong>variation</strong> (skift opskrifter) og <strong>progression</strong> (arbejd med sværere opskrifter), som er relevante for at udvikle sig. Derimod kunne kokken ikke bruge en træningsfilosofi fra fx Lydiards pyramide til at blive bedre til at lave mad.</p>
+
+<h2 id="hvorfor-du-skal-forstå-hvorfor-din-træningsfilosofi-virker">Hvorfor du skal forstå, hvorfor din træningsfilosofi virker</h2>
+
+<p>At følge en træningsfilosofi kan være en effektiv måde at opbygge din træning på, men det er også vigtigt at forstå, <strong>hvorfor</strong> den virker. Filosofier bygger på de grundlæggende træningsprincipper som <strong>specificitet</strong>, <strong>variation</strong>, <strong>progression</strong> og <strong>individualisering</strong>. Hvis du ikke kender principperne bag din filosofi, risikerer du at miste fokus på de elementer, der gør træningen effektiv.</p>
+
+<h3 id="udfordring-1-kendskab-til-filosofiens-detaljer">Udfordring 1: Kendskab til filosofiens detaljer</h3>
+
+<p>Når du følger en træningsfilosofi, skal du kende den i dybden for at forstå dens fulde værdi. Mange løbere misforstår, hvad en filosofi som Lydiards træningspyramide indebærer. For eksempel tror mange, at den kun handler om langt og langsomt løb, mens den faktisk også inkluderer højintensitetstræning og variation, som er essentielle for fremgang.</p>
+
+<h3 id="udfordring-2-at-forstå-hvorfor-filosofien-virker">Udfordring 2: At forstå, hvorfor filosofien virker</h3>
+
+<p>Når du virkelig forstår træningsfilosofien, kan du justere den og tilpasse den til dine behov. Hvis du eksempelvis har trænet med Maffetone-metoden til et marathon og nu skal træne til en kortere distance som en stafetteløb, vil du måske opdage, at du skal justere træningen og inkludere mere intensive pas.</p>
+
+<p>Uden kendskab til træningsprincipperne kunne du ende med at følge en filosofi blindt og derved misse de nødvendige justeringer, som kan hjælpe dig med at forbedre dig.</p>
+
+<hr />
+
+<h2 id="konklusion">Konklusion</h2>
+
+<p>At forstå både træningsfilosofier og træningsprincipper er afgørende for at optimere din træning. Filosofier giver dig en ramme for, hvordan du strukturerer din træning, men principperne sikrer, at du træner effektivt og progressivt. Hvis du har fokus på de fire grundlæggende træningsprincipper, <strong>Specificitet</strong>, <strong>Variation</strong>, <strong>Progression</strong> og <strong>Individualisering</strong>, kan du sikre dig, at du opnår dine træningsmål.</p>
+
+<hr />
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvad-er-forskellen-på-en-træningsfilosofi-og-et-træningsprincip">Hvad er forskellen på en træningsfilosofi og et træningsprincip?</h3></summary>
+<p>En træningsfilosofi beskriver en overordnet tilgang til træning, der kan være baseret på en bestemt metode eller holdning, som fx Lydiards pyramide eller Canovas procentbaserede model. Filosofien definerer, hvordan du strukturerer din træning, og hvad der vægtes i forhold til mål og metoder. Et træningsprincip derimod er universelt og gælder for alle typer træning, såsom progression, variation og specificitet. Træningsprincipperne er de fundamentale regler, som sikrer effektiv træning og fremgang.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-kan-jeg-bruge-træningsfilosofier-til-at-strukturere-min-løbetræning">Hvordan kan jeg bruge træningsfilosofier til at strukturere min løbetræning?</h3></summary>
+<p>Træningsfilosofier giver dig rammerne for, hvordan du bygger din træning op. Du kan vælge en filosofi, der passer til dit mål, såsom Lydiards pyramide for længere distancer eller Canovas model for mere intensiv og målrettet maratontræning. Filosofierne guider dig i forhold til, hvordan du skal fordele træningens intensitet og volumen over tid, og hvordan du opbygger en progression frem mod din konkurrence.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="er-det-nødvendigt-at-følge-en-bestemt-træningsfilosofi-for-at-blive-en-bedre-løber">Er det nødvendigt at følge en bestemt træningsfilosofi for at blive en bedre løber?</h3></summary>
+<p>Det er ikke nødvendigt at følge én bestemt filosofi, men det kan hjælpe med at give dig struktur og målrettethed i din træning. Det er vigtigt at vælge en filosofi, der passer til dine mål og træningsniveau. For eksempel, hvis du træner til et marathon, kan en filosofi som Canovas være ideel, mens Lydiards tilgang er bedre for dem, der ønsker at udvikle en solid udholdenhed på længere distancer.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-kombinere-forskellige-træningsfilosofier-i-min-løbetræning">Kan jeg kombinere forskellige træningsfilosofier i min løbetræning?</h3></summary>
+<p>Ja, det er muligt at kombinere elementer fra forskellige træningsfilosofier, men det kræver en god forståelse for de principper, de bygger på. For eksempel kan du kombinere en grundlæggende udholdenhedstræning som i Lydiards model med kortere, intens intervaltræning som i Canovas filosofi, hvis dit mål er at forbedre både udholdenhed og fart. Det er dog vigtigt at sikre, at kombinationen er velafbalanceret og ikke overbelaster kroppen.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvordan-kan-træningsprincipper-som-progression-og-variation-hjælpe-mig-med-at-forbedre-mine-løbetider">Hvordan kan træningsprincipper som progression og variation hjælpe mig med at forbedre mine løbetider?</h3></summary>
+<p>Progression sikrer, at du gradvist øger intensiteten eller volumen i din træning, hvilket er nødvendigt for at fortsætte med at udfordre din krop og gøre fremskridt. Variation er også essentiel, da det forhindrer stagnation og holder din træning interessant. Ved at variere din træning kan du stimulere forskellige energisystemer og undgå overbelastning af de samme muskelgrupper. Begge principper arbejder sammen for at fremme kontinuerlig forbedring og undgå skader.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvad er forskellen på en træningsfilosofi og et træningsprincip?","acceptedAnswer":{"@type":"Answer","text":"En træningsfilosofi beskriver en overordnet tilgang til træning, der kan være baseret på en bestemt metode eller holdning, som fx Lydiards pyramide eller Canovas procentbaserede model. Filosofien definerer, hvordan du strukturerer din træning, og hvad der vægtes i forhold til mål og metoder. Et træningsprincip derimod er universelt og gælder for alle typer træning, såsom progression, variation og specificitet. Træningsprincipperne er de fundamentale regler, som sikrer effektiv træning og fremgang.\n"}},{"@type":"Question","name":"Hvordan kan jeg bruge træningsfilosofier til at strukturere min løbetræning?","acceptedAnswer":{"@type":"Answer","text":"Træningsfilosofier giver dig rammerne for, hvordan du bygger din træning op. Du kan vælge en filosofi, der passer til dit mål, såsom Lydiards pyramide for længere distancer eller Canovas model for mere intensiv og målrettet maratontræning. Filosofierne guider dig i forhold til, hvordan du skal fordele træningens intensitet og volumen over tid, og hvordan du opbygger en progression frem mod din konkurrence.\n"}},{"@type":"Question","name":"Er det nødvendigt at følge en bestemt træningsfilosofi for at blive en bedre løber?","acceptedAnswer":{"@type":"Answer","text":"Det er ikke nødvendigt at følge én bestemt filosofi, men det kan hjælpe med at give dig struktur og målrettethed i din træning. Det er vigtigt at vælge en filosofi, der passer til dine mål og træningsniveau. For eksempel, hvis du træner til et marathon, kan en filosofi som Canovas være ideel, mens Lydiards tilgang er bedre for dem, der ønsker at udvikle en solid udholdenhed på længere distancer.\n"}},{"@type":"Question","name":"Kan jeg kombinere forskellige træningsfilosofier i min løbetræning?","acceptedAnswer":{"@type":"Answer","text":"Ja, det er muligt at kombinere elementer fra forskellige træningsfilosofier, men det kræver en god forståelse for de principper, de bygger på. For eksempel kan du kombinere en grundlæggende udholdenhedstræning som i Lydiards model med kortere, intens intervaltræning som i Canovas filosofi, hvis dit mål er at forbedre både udholdenhed og fart. Det er dog vigtigt at sikre, at kombinationen er velafbalanceret og ikke overbelaster kroppen.\n"}},{"@type":"Question","name":"Hvordan kan træningsprincipper som progression og variation hjælpe mig med at forbedre mine løbetider?","acceptedAnswer":{"@type":"Answer","text":"Progression sikrer, at du gradvist øger intensiteten eller volumen i din træning, hvilket er nødvendigt for at fortsætte med at udfordre din krop og gøre fremskridt. Variation er også essentiel, da det forhindrer stagnation og holder din træning interessant. Ved at variere din træning kan du stimulere forskellige energisystemer og undgå overbelastning af de samme muskelgrupper. Begge principper arbejder sammen for at fremme kontinuerlig forbedring og undgå skader.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+  <ul>
+    <li>Madcow. “Madcow’s 5×5 and Training Theory and Information Site.” Geocities Archive Geocities Mirror / The 90s Archive (1990s 2000s Nineties) / The Early Web, https://www.oocities.org/elitemadcow1/.</li>
+    <li>Rodríguez-Ridao, David et al. “Effect of Five Bench Inclinations on the Electromyographic Activity of the Pectoralis Major, Anterior Deltoid, and Triceps Brachii during the Bench Press Exercise.” International journal of environmental research and public health vol. 17,19 7339. 8 Oct. 2020.</li>
+    <li>Miranda, Humberto et al. “Effect of two different rest period lengths on the number of repetitions performed during resistance training.” Journal of strength and conditioning research vol. 21,4 (2007): 1032-6.</li>
+  </ul>
+</details>]]></content><author><name>Lars Olesen</name></author><category term="[&quot;Løb&quot;]" /><category term="træning" /><category term="løb" /><category term="træningslære" /><summary type="html"><![CDATA[Lær forskellen på træningsprincipper og -filosofier i løb, og hvordan du opbygger træningen med progression, variation og individuel tilpasning.]]></summary></entry></feed>
