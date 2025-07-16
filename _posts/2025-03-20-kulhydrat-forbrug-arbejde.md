@@ -50,6 +50,19 @@ Du kan også tjekke en endnu mere [præcis kulhydratforbrugberegner til cykling 
 
 {% include calculator/calculate-kulhydrat-forbrug.html %}
 
+## Hvor meget kulhydrat kan jeg lagre?
+
+Du lagrer kulhydrat i musklerne og i leveren. Hvor meget du lagrer er afhængig af din træningstilstand, men også hvor meget du kulhydrat du spiser. Og du kan endda lave [strategisk carb-loading](/carb-loading/), hvor du fylder depoterne yderligere.
+
+| Tilstand            | Kulhydratlager (g/kg) |
+|---------------------|-----------------------|
+| Almindelig utrænet | 6 g/kg               |
+| Almindelig trænet | 8 g/kg               |
+| Carbloadet lav      | 9 g/kg                 |
+| Carbloadet høj      | 10–12 g/kg             |
+
+I beregneren har vi brugt en standardværdi på 8 g/kg, men du kan selv indstille den højere, hvis du har carboladet.
+
 ## Sådan matcher du dit kulhydratforbrug med indtag
 
 Har du først beregnet dit kulhydratforbrug under træning, er næste skridt at sikre, at du faktisk kan **optage nok kulhydrat til at følge med energiforbruget**.

@@ -18,7 +18,9 @@ toc: true
 
 Kulhydrater er den primære energikilde i maden. Jeg kigger her på opbygningen af kulhydrat. Det er nemlig interessant at vide, hvordan kulhydrater er opbygget for at forstå, hvordan kulhydrater indgår i kosten - og hvordan det nedbrydes, spaltes og forbrændes i kroppen.
 
-Hvordan er kulhydrater opbygget? **Kulhydrater er opbygget af tre grundstoffer: carbon (C), oxygen (O), hydrogen (H) og kan inddeles i fire klasser: Monosakkarider, disakkarider, oligosakkarider og polysakkarider.**
+## Hvordan er kulhydrater opbygget?
+
+**Kulhydrater er opbygget af tre grundstoffer: carbon (C), oxygen (O), hydrogen (H) og kan inddeles i fire klasser: Monosakkarider, disakkarider, oligosakkarider og polysakkarider.**
 
 {% include figure image_path="https://www.biotechacademy.dk/wp-content/uploads/2017/10/Oversigt-kulhydrater.png" caption="Kulhydraterne inddeles i fire forskellige klasser afhængig af deres størrelse: monosakkarider, disakkarider, oligosakkarider og polysakkarider. Kilde: [www.biotechacademy.dk](https://www.biotechacademy.dk/undervisning/grundskole/kroppen-og-kosten/kulhydrater/)" %}
 
@@ -69,9 +71,9 @@ Der findes ifølge [Netdoktor](https://netdoktor.dk/mave-og-tarm/sygdomme/de-sun
 
 Kostfibre er ufordøjelige kulhydrater. Kostfibre er godt for tarmens funktion. Når du leder efter produkter med fuldkorn er en af fordelene bl.a., at der er mange kostfibre i.
 
-Hvis du gerne vil have fibre i din kost, så kan du fx bruge loppefrøskaller. Du kan fx købe [HUSK Loppefrøskaller](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/husk-1000-g-631p.html){: rel='sponsored nofollow noopener' } hos [Helsebixen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/husk-1000-g-631p.html){: rel='sponsored nofollow noopener' }.
+Hvis du gerne vil have fibre i din kost, så kan du fx bruge loppefrøskaller. Du kan fx købe [HUSK Loppefrøskaller](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/search?search=loppefr%C3%B8skaller){: rel='sponsored nofollow noopener' } hos [Helsebixen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/search?search=loppefr%C3%B8skaller){: rel='sponsored nofollow noopener' }.
 
-[Motion-online.dk](https://www.motion-online.dk/hvad-er-kulhydrater-opbygget-af/){: rel="nofollow" } har lavet følgende tabel over fødevarer med højest indhold af fibre.
+Her er en hurtig oversigt over, hvilke fødevarer der har det højeste indhold af fibre:
 
 | Fødevare (100 gram) | Gram kostfibre |
 |-|-|
@@ -87,6 +89,8 @@ Hvis du gerne vil have fibre i din kost, så kan du fx bruge loppefrøskaller. D
 | Agurk, aubergine, bladselleri, kartoffel, spinat, squash, tomat, banan                                     | 1-2                |
 | Kød, fisk, mælkeprodukter, æg                                                                              | 0                  |
 
-Hvis man slår op Data for fødevarers næringsindhold er stillet til rådighed af DTU Fødevareinstituttet fra [frida.fooddata.dk](https://frida.fooddata.dk) og sorterer efter kostfibre, så er følgende fødevarer dem med flest kostfibre i.
+## Tabel over fødevarer
+
+Hvis man slår op i data fra DTU Fødevareinstituttet, som ligger frit tilgængeligt på [frida.fooddata.dk](https://frida.fooddata.dk) og sorterer efter mængden af kostfibre, så er følgende fødevarer dem med flest kostfibre i.
 
 {% include table/table-kostfibre.html %}
