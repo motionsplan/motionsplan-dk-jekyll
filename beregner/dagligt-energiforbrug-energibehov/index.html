@@ -1,0 +1,1632 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="da" class="no-js">
+  <head>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7MDB7C');</script>
+  <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+
+
+
+
+
+<meta name="category" content="Beregnere, Kalorieberegnere">
+
+
+
+
+
+
+
+
+<title>TDEE-beregner - Beregn dit daglige energibehov</title>
+<meta name="description" content="Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.">
+
+
+  <meta name="author" content="Lars Olesen">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="da">
+<meta property="og:site_name" content="Motionsplan">
+<meta property="og:title" content="TDEE-beregner - Beregn dit daglige energibehov">
+<meta property="og:url" content="https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/">
+
+<meta property="og:description" content="Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.">
+<meta property="og:image" content="https://www.motionsplan.dk/assets/images/og/generated/beregner-dagligt-energiforbrug-energibehov.jpg">
+  <meta property="og:image:alt" content="TDEE-beregner - Beregn dit daglige energibehov">
+
+  <meta name="twitter:site" content="@motionsplan">
+  <meta name="twitter:title" content="TDEE-beregner - Beregn dit daglige energibehov">
+  <meta name="twitter:description" content="Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.">
+  <meta name="twitter:url" content="https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/">
+
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.motionsplan.dk/assets/images/og/generated/beregner-dagligt-energiforbrug-energibehov.jpg">
+  
+
+  
+
+
+<meta property="article:published_time" content="2019-11-01T00:00:00+00:00">
+
+
+<meta property="article:modified_time" content="2025-03-31T23:14:14+00:00">
+
+
+
+  <meta property="article:author" content="Lars Olesen">
+
+
+
+  
+    <meta property="article:publisher" content="https://www.facebook.com/motionsplan/">
+  
+
+  
+    <meta property="fb:app_id" content="145274118551">
+  
+
+
+<link rel="canonical" href="https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/" data-proofer-ignore>
+
+
+
+
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/#webpage",
+        "name": "TDEE-beregner - Beregn dit daglige energibehov",
+        "url": "https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/",
+        "description": "<p>Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.</p>",
+        "isPartOf": { "@type": "WebSite", "@id": "https://www.motionsplan.dk/#website" },
+        "datePublished": "2019-11-01T00:00:00+00:00",
+        "dateModified": "2025-03-31T23:14:14+00:00",
+        
+        "inLanguage": "da",
+        "potentialAction": [
+          { "@type": "ReadAction", "target": ["https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/"] }
+        ]
+    }
+</script>
+
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "@id": "https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/#article",
+        "inLanguage": "da",
+        "name": "Beregn dit daglige energibehov (TDEE-beregner)",
+        "headline": "TDEE-beregner - Beregn dit daglige energibehov",
+        "keywords": "beregner,stofskifte,stofskifteberegner,populær",
+        "description": "<p>Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.</p>",
+        "articleBody": "Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.\n\n Hop til beregneren\n\nSådan beregner du dit energibehov\n\nFor at finde ud af dit daglige energibehov, skal du gange dit hvilestofskifte med en faktor, der afhænger af, hvor aktiv du er (PAL).\n\nStofskiftet består af tre hoveddele: hvilestofskifte (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan læse en mere uddybende forklaring af stofskiftet her.\n\nMed denne beregner kan du vælge den metode, der passer bedst til at beregne dit hvilestofskifte. Derefter beregner vi dit daglige energibehov ved at tage højde for, hvor aktiv du er.\n\nEr du klar til at finde ud af, hvad din krop virkelig har brug for? Gå til beregneren og få svaret!\n\nFor en mere præcis, men også mere tidskrævende beregning tjek avanceret og præcis TEE-beregner.\n\n\n\nSådan beregner du dit energiforbrug\n\nMed denne beregner kan du udregne dit samlede daglige energibehov. Resultatet fra beregneren giver dig et gennemsnit for, hvor meget energi en person med dit køn, din alder, din vægt og din højde bruger på en dag med dit angivne aktivitetsniveau.\n\n\n  1️⃣ Indtast dine personlige oplysninger, som køn, alder, vægt og højde.\n  2️⃣ Vælg dit generelle fysiske aktivitetsniveau.\n  3️⃣ Juster dit aktivitetsnivau med moderat og hård fysisk aktivitet.\n  4️⃣ Klik på ‘Beregn’\n\n\nPrøv beregneren og udregn nemt dit daglige energibehov.\n\nEnergibehov beregner\n\n\n    \n        Udregning af hvilestofskifte og dagligt energibehov.\n        \n            Formel for udregning af hvilestofskifte\n            \n                Anbefalet formel\n                Benedict-Harris (1918-1919)\n                Schofield Equation (1985)\n                Mifflin (1990)\n                Henry (2005)\n                Pavlidou (2023)\n                Gerrior (2006)\n                Nordic Nutrition Recommendations (2012)\n            \n            \n        \n        \n            Køn\n            \n                Mand\n                Kvinde\n            \n            \n        \n        \n            Alder (år)\n                \n            \n        \n        \n            Vægt (kg)\n                \n            \n        \n        \n            Højde (cm) (valgfri)\n                \n            \n        \n        \n            Fysisk aktivitetsniveau (PAL)\n            \n                \n                Sengeliggende eller bundet til en stol (ikke rullestol).\n            \n            \n                \n                Stillesiddende arbejde med begrænset bevægelse og ingen eller begrænset fysisk aktivitet i fritiden.\n            \n            \n                \n                Stillesiddende arbejde med et vist behov for bevægelse og med nogen fysisk aktivitet i fritiden.\n            \n            \n                \n                Hovedsageligt stående arbejde og med fritidsaktivitet næsten dagligt.\n            \n            \n                \n                Hårdt kropsarbejde eller daglig hård hård fysisk træning.\n            \n            \n                Moderat fritidsaktivitet (fx hurtig gang) (timer om ugen)\n                \n                Moderat fysisk aktivitet hæver PAL med 0,025 PAL pr. time pr. uge\n            \n            \n                Hård fysisk aktivitet (løb, fodbold) (timer om ugen)\n                \n                Moderat fysisk aktivitet hæver PAL med 0,05 PAL pr. time pr. uge\n            \n        \n        \n    \n    \n        \n            Hvilestofskifte (BMR) (kJ)\n                \n            \n            Baseret på Anbefalet formel\n        \n        \n            Faktor for fysisk aktivitetsniveau (PAL)\n                \n            \n        \n        \n            Dagligt energiforbrug (kJ)\n                \n            \n        \n    \n    \n    \n\n Køb mig en kaffe\n\n\n\n\n\nFormel for udregning af energibehov\n\nI energibehov-beregneren kan du vælge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vælger Anbefalet formel, så vil beregneren selv vælge den mest passende formel ud fra dine indtastninger.\n\nHvis du vil læse mere om de enkelte formler, og hvilke bmr-formler der bliver foreslået, så har jeg lavet et indlæg om, hvordan beregningen af hvilestofskiftet og basalstofskiftet laves.\n\nFysisk aktivitetsniveau (PAL) og energibehov\n\n\n  \n    \n      Aktivitetsniveau\n      PAL\n    \n  \n  \n    \n      Rullestolsbunden eller sengeliggende.\n      1,2\n    \n    \n      Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.\n      1,4-1,5\n    \n    \n      Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.\n      1,6-1,7\n    \n    \n      Hovedsageligt stående arbejde.\n      1,8-1,9\n    \n    \n      Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)\n      + 0,3\n    \n    \n      Hårdt kropsarbejde eller meget høj fritidsaktivitet.\n      2,0-2,4\n    \n  \n\n\nTabel fra Nordic Nutrition Recommendations 2012.\n\nNår du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere dit daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.\n\nEksempel: Manden fra eksemplet ovenfor arbejder primært med stillesiddende arbejde (PAL = 1,4-1,5). Han dyrker sport og anden hård fysisk aktivitet i fritiden 4-5 gange om ugen (PAL + 0,3). REE (7632 kJ) gange med PAL (1,7) = 12.974 kJ. Mandens samlede daglige stofskifte og energibehov (ligevægtsindtag) er altså cirka 13.000 kJ ifølge disse beregninger.\n\nNæste skridt – Forstå dit energibehov bedre\n\nNu hvor du har beregnet dit daglige energibehov, kan du tage det næste skridt i at optimere din træning og kost. Udforsk disse ressourcer for at få endnu mere indsigt:\n\n\n  📊 Læs om hvilestofskiftet og basalstofskiftet for at forstå, hvordan din krop bruger energi i hvile.\n  🔥 Brug vores avancerede beregner af stofskifte og forbrænding for en mere præcis vurdering af din aktivitet.\n  ⚖️ Beregn dit ligevægtsindtag og find ud af, hvordan du opretholder din vægt, så du kan få resultater.\n\n\nOfte stillede spørgsmål\n\n\nHvordan beregnes mit daglige energibehov?\nDit daglige energibehov beregnes ved at gange dit hvilestofskifte (BMR) med en aktivitetsfaktor (PAL), som afhænger af dit fysiske aktivitetsniveau.\n\n\n\n\nHvad er PAL (Physical Activity Level)?\nPAL er en faktor, der beskriver dit aktivitetsniveau, og som justerer dit hvilestofskifte for at estimere dit daglige energibehov. Jo højere aktivitet, desto højere PAL.\n\n\n\n\nHvad er forskellen på hvilestofskifte og basalstofskifte?\nHvilestofskifte (BMR) refererer til den energi, din krop bruger i hvile, mens basalstofskifte inkluderer alle de processer, din krop udfører for at holde sig i live.\n\n\n\n\nHvor præcis er beregneren?\nBeregneren giver et estimat baseret på gennemsnitlige faktorer, men resultaterne kan variere afhængigt af individuelle forhold som muskelmasse og helbred.\n\n\n\n\nKan jeg bruge denne beregner, hvis jeg er på diæt?\nJa, beregneren kan hjælpe dig med at forstå dit energibehov, hvilket er nyttigt, hvis du planlægger et kalorieunderskud for vægttab.\n\n\n\n\nHvilken beregner skal jeg vælge?\nVi tilbyder både en grundlæggende og avanceret beregner. Den avancerede beregner giver en mere præcis vurdering af fysisk aktivitet.\n\n\n\n\n\n\n  Referencer\n\n  \n    Nordic Nutrition Recommendations 2012\n  \n\n",
+        "image": [
+            
+                "https://www.motionsplan.dk/assets/images/og/generated/beregner-dagligt-energiforbrug-energibehov.jpg"
+            
+        ],
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/"
+        },
+        "datePublished": "2019-11-01T00:00:00+00:00",
+        "dateModified": "2025-03-31T23:14:14+00:00",
+        "isAccessibleForFree": "True",
+        "author": {
+            "@type": "Person",
+            "name": "Lars Olesen",
+            "description": "Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser han på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness. Lars arbejder ud fra den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.\n",
+            "sameAs": ["https://www.linkedin.com/in/lsolesen/","https://www.buymeacoffee.com/lsolesen"],
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.motionsplan.dk/assets/images/authors/larsolesen.jpg"
+            },
+            "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Motionsplan",
+            "description": "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer.",
+            "sameAs": "https://www.motionsplan.dk",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.motionsplan.dk/assets/images/logo-40x40.png"
+            },
+            "publishingPrinciples": "https://www.motionsplan.dk/om/"
+        }
+    }
+</script>
+
+
+
+
+
+
+<meta name="msvalidate.01" content="47BA759FF44194382E7F9A4BB31E8ABE">
+
+
+<meta name="yandex-verification" content="c7c90c6d780c629d">
+
+
+
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Motionsplan Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" type="application/manifest+json" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<meta name="facebook-domain-verification" content="d4r75i83rydhrm07zl4uyloeeulq4m" />
+
+
+
+<script>
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[Motionsplan] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("/pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[Motionsplan] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+</script>
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('b7b3f25e1d2425')
+</script>
+
+  </head>
+
+  <body class="layout--single">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7MDB7C"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Gå til hovedmenuen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Gå til indholdet</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Gå til sidefoden</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead sticky">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo-40x40.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Motionsplan
+          <span class="site-subtitle">Alt om test og træning</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tests/">📝 Tests</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traening/">Træning</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningslaere/">Træningslære</a>
+            </li><li class="masthead__menu-item">
+              <a href="/kost-ernaering/">Kost & Ernæring</a>
+            </li><li class="masthead__menu-item">
+              <a href="/vaerktoejer/">🛠️ Værktøjer</a>
+            </li><li class="masthead__menu-item">
+              <a href="/traeningsoevelser/">Træningsøvelser</a>
+            </li><li class="masthead__menu-item">
+              <a href="/udstyr/">Udstyr</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Artikler</a>
+            </li><li class="masthead__menu-item">
+              <a href="/om/">Om</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Søgning til/fra</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Vis/skjul menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60');"
+>
+  
+    <div class="wrapper">
+      
+        <img src="https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60" alt="" width="0" height="0" style="display: none !important;" />
+      
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Beregn dit daglige energibehov (TDEE-beregner)
+
+        
+      </h1>
+      
+        <p class="page__lead">Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.
+</p>
+      
+      
+
+
+  <p class="page__meta">
+
+    
+      
+      
+      <a href="https://www.motionsplan.dk/om/lars-olesen/"><img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" class="u-photo"></a>Af
+      <span class="page__meta-author p-name" itemprop="name">
+        
+        <a class="u-url" rel="me" href="https://www.motionsplan.dk/om/lars-olesen/" itemprop="url">Lars Olesen</a>
+        
+      </span>
+ 
+    <span class="page__meta-sep"></span>
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-31T23:14:14+00:00">31. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 min læsning
+        
+      </span>
+    
+  </p>
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Beregn dit daglige energibehov og energiforbrug
+</span>
+  
+</div>
+
+
+
+
+  
+    <nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="/" itemprop="item"><span itemprop="name"><i class='fas fa-home'></i> <span class='hidden'>Forsiden</span></span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+    <span class="sep">></span>
+    
+
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/beregnere/" itemprop="item"><span itemprop="name">Beregnere</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">></span>
+      
+    
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/kalorieberegner/" itemprop="item"><span itemprop="name">Kalorieberegnere</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">></span>
+      
+    
+    <li class="current">Beregn dit daglig...</li>
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <a href="/om/lars-olesen/">
+          <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image" data-pin-nopin="true">
+        </a>
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <a href="/om/lars-olesen/"><p class="author__name" itemprop="name">Lars Olesen</p></a>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser han på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF’s Foreningsfitness. Lars arbejder ud fra den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Følg</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="/om/lars-olesen/" rel="nofollow noopener noreferrer "><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Om forfatteren</span></a></li>
+          
+        
+          
+            <li><a href="mailto:lars@motionsplan.dk" rel="nofollow noopener noreferrer "><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/lsolesen/" rel="nofollow noopener noreferrer author"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
+          
+        
+          
+            <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer "><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i><span class="label">Køb mig en kaffe</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Vis/skjul menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Populære sider</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/bmi/">BMI for kvinder, mænd og børn</a></li>
+          
+            <li><a href="/artikel/tael-skridt/">Tæl skridt</a></li>
+          
+            <li><a href="/kondital/">Alt om dit kondital</a></li>
+          
+            <li><a href="/anaerob-traening/">Anaerob træning</a></li>
+          
+            <li><a href="/intervallob-intervaltraening/">Intervalløb og intervaltræning</a></li>
+          
+            <li><a href="/hvilepuls/">Hvilepuls</a></li>
+          
+            <li><a href="/test-max-puls/">Maxpuls</a></li>
+          
+            <li><a href="/balance/">Balancetræning</a></li>
+          
+            <li><a href="/borg-skala/">Borg skala</a></li>
+          
+            <li><a href="/hvor-mange-knogler-har-mennesket/">Hvor mange knogler har et menneske?</a></li>
+          
+            <li><a href="/muskler/">Alt om muskler i kroppen</a></li>
+          
+            <li><a href="/excentrisk-traening/">Excentrisk træning</a></li>
+          
+            <li><a href="/restitution/">Restitution</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Populære øvelser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/armbojninger-eller-armstraekninger-pushups/">Armstrækninger og armbøjninger</a></li>
+          
+            <li><a href="/chinup-vs-pullup/">Pull ups og chin ups</a></li>
+          
+            <li><a href="/udstraekning-udspaending/">Strækøvelser og udstrækningsøvelser</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Populære tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/cooper-test/">Cooper test</a></li>
+          
+            <li><a href="/bip-test/">Bip test</a></li>
+          
+            <li><a href="/rm-beregner/">RM beregner til styrketræning</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Populære beregnere</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/bmr-beregner-hvilestofskifte-basalstofskifte/">BMR og hvilestofskifte beregner</a></li>
+          
+            <li><a href="/ligevaegtsindtag-beregner/">Ligevægtsindtag beregner</a></li>
+          
+            <li><a href="/bmi-beregner/">BMI beregner</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Beregn dit daglige energibehov (TDEE-beregner)">
+    <meta itemprop="description" content="Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.">
+    <meta itemprop="datePublished" content="2019-11-01T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2025-03-31T23:14:14+00:00">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> På denne side</h4></header>
+              <ul class="toc__menu"><li><a href="#sådan-beregner-du-dit-energibehov">Sådan beregner du dit energibehov</a></li><li><a href="#sådan-beregner-du-dit-energiforbrug">Sådan beregner du dit energiforbrug</a></li><li><a href="#calculator">Energibehov beregner</a></li><li><a href="#formel-for-udregning-af-energibehov">Formel for udregning af energibehov</a></li><li><a href="#fysisk-aktivitetsniveau-pal-og-energibehov">Fysisk aktivitetsniveau (PAL) og energibehov</a></li><li><a href="#næste-skridt--forstå-dit-energibehov-bedre">Næste skridt – Forstå dit energibehov bedre</a></li><li><a href="#ofte-stillede-spørgsmål">Ofte stillede spørgsmål</a><ul><li><a href="#hvordan-beregnes-mit-daglige-energibehov">Hvordan beregnes mit daglige energibehov?</a></li><li><a href="#hvad-er-pal-physical-activity-level">Hvad er PAL (Physical Activity Level)?</a></li><li><a href="#hvad-er-forskellen-på-hvilestofskifte-og-basalstofskifte">Hvad er forskellen på hvilestofskifte og basalstofskifte?</a></li><li><a href="#hvor-præcis-er-beregneren">Hvor præcis er beregneren?</a></li><li><a href="#kan-jeg-bruge-denne-beregner-hvis-jeg-er-på-diæt">Kan jeg bruge denne beregner, hvis jeg er på diæt?</a></li><li><a href="#hvilken-beregner-skal-jeg-vælge">Hvilken beregner skal jeg vælge?</a></li></ul></li><li><a href="#references">Referencer</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.</p>
+
+<p><a href="#calculator" class="btn btn--success btn--jump"><i class="fas fa-calculator"></i> Hop til beregneren</a></p>
+
+<h2 id="sådan-beregner-du-dit-energibehov">Sådan beregner du dit energibehov</h2>
+
+<p>For at finde ud af dit daglige energibehov, skal du gange dit hvilestofskifte med en faktor, der afhænger af, hvor aktiv du er (<abbr title="Physical Activity Level">PAL</abbr>).</p>
+
+<p>Stofskiftet består af tre hoveddele: hvilestofskifte (<abbr title="Basic Metabolic Rate">BMR</abbr>), fødeinduceret termogenese (<abbr title="Fødevareinduceret termogenese">FIT</abbr>) og fysisk aktivitet (<abbr title="Physical Activity Level">PAL</abbr>). Du kan læse en mere <a href="/stofskifte/">uddybende forklaring af stofskiftet her</a>.</p>
+
+<p>Med denne beregner kan du vælge den metode, der passer bedst til at beregne dit hvilestofskifte. Derefter beregner vi dit daglige energibehov ved at tage højde for, hvor aktiv du er.</p>
+
+<p>Er du klar til at finde ud af, hvad din krop virkelig har brug for? <a href="#calculator">Gå til beregneren og få svaret</a>!</p>
+
+<p><strong>For en mere præcis, men også mere tidskrævende beregning</strong> tjek <a href="/beregner/dagligt-stofskifte-og-forbraending/">avanceret og præcis <abbr title="Total Energy Expenditure">TEE</abbr>-beregner</a>.</p>
+
+<hr />
+
+<h2 id="sådan-beregner-du-dit-energiforbrug">Sådan beregner du dit energiforbrug</h2>
+
+<p>Med denne beregner kan du udregne dit samlede daglige energibehov. Resultatet fra beregneren giver dig et gennemsnit for, hvor meget energi en person med dit køn, din alder, din vægt og din højde bruger på en dag med dit angivne aktivitetsniveau.</p>
+
+<ul>
+  <li>1️⃣ Indtast dine personlige oplysninger, som køn, alder, vægt og højde.</li>
+  <li>2️⃣ Vælg dit generelle fysiske aktivitetsniveau.</li>
+  <li>3️⃣ Juster dit aktivitetsnivau med <em>moderat</em> og <em>hård</em> fysisk aktivitet.</li>
+  <li>4️⃣ Klik på ‘Beregn’</li>
+</ul>
+
+<p>Prøv beregneren og udregn nemt dit daglige energibehov.</p>
+
+<h2 id="calculator">Energibehov beregner</h2>
+
+<form class="calculator" id="calculator_bmr_pal">
+    <fieldset>
+        <legend>Udregning af hvilestofskifte og dagligt energibehov.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af hvilestofskifte
+            <select name="bmr-formula" id="bmr-formula">
+                <option value="recommended_formula">Anbefalet formel</option>
+                <option value="benedict_harris">Benedict-Harris (1918-1919)</option>
+                <option value="schofield">Schofield Equation (1985)</option>
+                <option value="mifflin">Mifflin (1990)</option>
+                <option value="henry">Henry (2005)</option>
+                <option value="pavlidou_2023">Pavlidou (2023)</option>
+                <option value="gerrior_2006">Gerrior (2006)</option>
+                <option value="nordic_nutrition_2012">Nordic Nutrition Recommendations (2012)</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender" id="gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm) (valgfri)
+                <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1" required="" />
+            </label>
+        </div>
+        <fieldset>
+            <legend>Fysisk aktivitetsniveau (PAL)</legend>
+            <label class="radio">
+                <input type="radio" value="1.2" name="pal" requried="" />
+                Sengeliggende eller bundet til en stol (ikke rullestol).
+            </label>
+            <label class="radio">
+                <input type="radio" checked="checked" value="1.45" name="pal" />
+                Stillesiddende arbejde med begrænset bevægelse og ingen eller begrænset fysisk aktivitet i fritiden.
+            </label>
+            <label class="radio">
+                <input type="radio" value="1.65" name="pal" />
+                Stillesiddende arbejde med et vist behov for bevægelse og med nogen fysisk aktivitet i fritiden.
+            </label>
+            <label class="radio">
+                <input type="radio" value="1.85" name="pal" />
+                Hovedsageligt stående arbejde og med fritidsaktivitet næsten dagligt.
+            </label>
+            <label class="radio">
+                <input type="radio" value="2.2" name="pal" />
+                Hårdt kropsarbejde eller daglig hård hård fysisk træning.
+            </label>
+            <label>
+                Moderat fritidsaktivitet (fx hurtig gang) (timer om ugen)
+                <input type="number" min="0" max="24" name="moderate_leisure_activity" />
+                <p class="help-block">Moderat fysisk aktivitet hæver PAL med 0,025 PAL pr. time pr. uge</p>
+            </label>
+            <label>
+                Hård fysisk aktivitet (løb, fodbold) (timer om ugen)
+                <input type="number" min="0" max="24" name="strenuous_leisure_activity" />
+                <p class="help-block">Moderat fysisk aktivitet hæver PAL med 0,05 PAL pr. time pr. uge</p>
+            </label>
+        </fieldset>
+        <input type="submit" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Hvilestofskifte (BMR) (kJ)
+                <input name="bmr" id="bmr" disabled="" />
+            </label>
+            <p class="help-block">Baseret på <em id="bmr_legend">Anbefalet formel</em></p>
+        </div>
+        <div class="form-group">
+            <label>Faktor for fysisk aktivitetsniveau (PAL)
+                <input name="pal_calc" id="pal_calc" disabled="" />
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Dagligt energiforbrug (kJ)
+                <input name="tee" id="tee" disabled="" />
+            </label>
+        </div>
+    </fieldset>
+    <div style="margin-top: 1em;" class="text-center align-center">
+    
+
+<a href="https://www.buymeacoffee.com/lsolesen" class="btn btn--large btn--bmc" rel="nofollow noopener"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg" loading="lazy" alt="Køb mig en kaffe" /> Køb mig en kaffe</a>
+
+</div>
+
+</form>
+
+<h2 id="formel-for-udregning-af-energibehov">Formel for udregning af energibehov</h2>
+
+<p>I energibehov-beregneren kan du vælge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vælger <strong>Anbefalet formel</strong>, så vil beregneren selv vælge den mest passende formel ud fra dine indtastninger.</p>
+
+<p>Hvis du vil læse mere om de enkelte formler, og hvilke <a href="/hvilestofskiftet-formler/">bmr-formler</a> der bliver foreslået, så har jeg lavet et indlæg om, hvordan <a href="/bmr-beregner-hvilestofskifte-basalstofskifte/">beregningen af hvilestofskiftet og basalstofskiftet laves</a>.</p>
+
+<h2 id="fysisk-aktivitetsniveau-pal-og-energibehov">Fysisk aktivitetsniveau (<abbr title="Physical Activity Level">PAL</abbr>) og energibehov</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aktivitetsniveau</th>
+      <th><abbr title="Physical Activity Level">PAL</abbr></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rullestolsbunden eller sengeliggende.</td>
+      <td>1,2</td>
+    </tr>
+    <tr>
+      <td>Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</td>
+      <td>1,4-1,5</td>
+    </tr>
+    <tr>
+      <td>Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</td>
+      <td>1,6-1,7</td>
+    </tr>
+    <tr>
+      <td>Hovedsageligt stående arbejde.</td>
+      <td>1,8-1,9</td>
+    </tr>
+    <tr>
+      <td>Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)</td>
+      <td>+ 0,3</td>
+    </tr>
+    <tr>
+      <td>Hårdt kropsarbejde eller meget høj fritidsaktivitet.</td>
+      <td>2,0-2,4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Tabel fra <a href="https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012">Nordic Nutrition Recommendations 2012</a>.</p>
+
+<p>Når du kender hvilestofskiftet (<abbr title="Basic Metabolic Rate">BMR</abbr>) og <a href="/beregner/pal/">faktoren for fysisk aktivitetsniveau (<abbr title="Physical Activity Level">PAL</abbr>)</a> kan du estimere dit daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med <abbr title="Physical Activity Level">PAL</abbr>.</p>
+
+<p class="notice notice--info"><strong>Eksempel:</strong> Manden fra eksemplet ovenfor arbejder primært med stillesiddende arbejde (<abbr title="Physical Activity Level">PAL</abbr> = 1,4-1,5). Han dyrker sport og anden hård fysisk aktivitet i fritiden 4-5 gange om ugen (<abbr title="Physical Activity Level">PAL</abbr> + 0,3). <abbr title="Average Resting Energy Expenditure">REE</abbr> (7632 <abbr title="kilokoule">kJ</abbr>) gange med <abbr title="Physical Activity Level">PAL</abbr> (1,7) = 12.974 <abbr title="kilokoule">kJ</abbr>. Mandens samlede daglige stofskifte og energibehov (ligevægtsindtag) er altså cirka 13.000 <abbr title="kilokoule">kJ</abbr> ifølge disse beregninger.</p>
+
+<h2 id="næste-skridt--forstå-dit-energibehov-bedre">Næste skridt – Forstå dit energibehov bedre</h2>
+
+<p>Nu hvor du har beregnet dit daglige energibehov, kan du tage det næste skridt i at optimere din træning og kost. Udforsk disse ressourcer for at få endnu mere indsigt:</p>
+
+<ul>
+  <li>📊 Læs om <a href="/bmr-beregner-hvilestofskifte-basalstofskifte/">hvilestofskiftet og basalstofskiftet</a> for at forstå, hvordan din krop bruger energi i hvile.</li>
+  <li>🔥 Brug vores <a href="/beregner/dagligt-stofskifte-og-forbraending/">avancerede beregner af stofskifte og forbrænding</a> for en mere præcis vurdering af din aktivitet.</li>
+  <li>⚖️ Beregn dit <a href="/ligevaegtsindtag-beregner/">ligevægtsindtag</a> og find ud af, hvordan du opretholder din vægt, så du kan få resultater.</li>
+</ul>
+
+<h2 id="ofte-stillede-spørgsmål">Ofte stillede spørgsmål</h2>
+
+<details class="faq">
+<summary><h3 id="hvordan-beregnes-mit-daglige-energibehov">Hvordan beregnes mit daglige energibehov?</h3></summary>
+<p>Dit daglige energibehov beregnes ved at gange dit hvilestofskifte (BMR) med en aktivitetsfaktor (PAL), som afhænger af dit fysiske aktivitetsniveau.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-er-pal-physical-activity-level">Hvad er PAL (Physical Activity Level)?</h3></summary>
+<p>PAL er en faktor, der beskriver dit aktivitetsniveau, og som justerer dit hvilestofskifte for at estimere dit daglige energibehov. Jo højere aktivitet, desto højere PAL.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvad-er-forskellen-på-hvilestofskifte-og-basalstofskifte">Hvad er forskellen på hvilestofskifte og basalstofskifte?</h3></summary>
+<p>Hvilestofskifte (BMR) refererer til den energi, din krop bruger i hvile, mens basalstofskifte inkluderer alle de processer, din krop udfører for at holde sig i live.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvor-præcis-er-beregneren">Hvor præcis er beregneren?</h3></summary>
+<p>Beregneren giver et estimat baseret på gennemsnitlige faktorer, men resultaterne kan variere afhængigt af individuelle forhold som muskelmasse og helbred.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="kan-jeg-bruge-denne-beregner-hvis-jeg-er-på-diæt">Kan jeg bruge denne beregner, hvis jeg er på diæt?</h3></summary>
+<p>Ja, beregneren kan hjælpe dig med at forstå dit energibehov, hvilket er nyttigt, hvis du planlægger et kalorieunderskud for vægttab.</p>
+
+</details>
+
+<details class="faq">
+<summary><h3 id="hvilken-beregner-skal-jeg-vælge">Hvilken beregner skal jeg vælge?</h3></summary>
+<p>Vi tilbyder både en grundlæggende og avanceret beregner. Den avancerede beregner giver en mere præcis vurdering af fysisk aktivitet.</p>
+
+</details>
+
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{"@type":"Question","name":"Hvordan beregnes mit daglige energibehov?","acceptedAnswer":{"@type":"Answer","text":"Dit daglige energibehov beregnes ved at gange dit hvilestofskifte (BMR) med en aktivitetsfaktor (PAL), som afhænger af dit fysiske aktivitetsniveau.\n"}},{"@type":"Question","name":"Hvad er PAL (Physical Activity Level)?","acceptedAnswer":{"@type":"Answer","text":"PAL er en faktor, der beskriver dit aktivitetsniveau, og som justerer dit hvilestofskifte for at estimere dit daglige energibehov. Jo højere aktivitet, desto højere PAL.\n"}},{"@type":"Question","name":"Hvad er forskellen på hvilestofskifte og basalstofskifte?","acceptedAnswer":{"@type":"Answer","text":"Hvilestofskifte (BMR) refererer til den energi, din krop bruger i hvile, mens basalstofskifte inkluderer alle de processer, din krop udfører for at holde sig i live.\n"}},{"@type":"Question","name":"Hvor præcis er beregneren?","acceptedAnswer":{"@type":"Answer","text":"Beregneren giver et estimat baseret på gennemsnitlige faktorer, men resultaterne kan variere afhængigt af individuelle forhold som muskelmasse og helbred.\n"}},{"@type":"Question","name":"Kan jeg bruge denne beregner, hvis jeg er på diæt?","acceptedAnswer":{"@type":"Answer","text":"Ja, beregneren kan hjælpe dig med at forstå dit energibehov, hvilket er nyttigt, hvis du planlægger et kalorieunderskud for vægttab.\n"}},{"@type":"Question","name":"Hvilken beregner skal jeg vælge?","acceptedAnswer":{"@type":"Answer","text":"Vi tilbyder både en grundlæggende og avanceret beregner. Den avancerede beregner giver en mere præcis vurdering af fysisk aktivitet.\n"}}]
+    }
+</script>
+
+<details class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+  <ul>
+    <li><a href="https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012">Nordic Nutrition Recommendations 2012</a></li>
+  </ul>
+</details>
+
+        
+
+        
+        
+        
+
+<div class="profile-card" itemscope itemtype="http://schema.org/Person">
+  <div class="profile-image">
+  
+    
+
+    
+      
+      <a href="/om/lars-olesen/">
+        <img src="/assets/images/authors/larsolesen.jpg" alt="Lars Olesen" itemprop="image">
+      </a>
+    
+  
+
+  
+  <a href="/om/lars-olesen/" class="read-more">Se profil</a>
+  
+  
+  <a href="/om/redaktionelle-proces/" class="editorial-link">Sådan skriver vi</a>
+  
+  </div>
+
+  <div class="profile-text">
+    
+    <p class="author__name" itemprop="name"><a href="/om/lars-olesen/">Lars Olesen</a></p>
+    
+    
+    <p class="author__title"><strong>Cand. scient. i idræt og idrætshøjskolelærer</strong></p>
+    
+    <p class="author__bio" itemprop="description">
+      Lars er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser han på Vejle Idrætshøjskole og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness. Lars arbejder ud fra den nyeste forskning og omsætter videnskabelig træningsviden til praktiske råd.
+
+    </p>
+  </div>
+</div>
+
+
+        
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "https://www.motionsplan.dk/beregner/dagligt-energiforbrug-energibehov/#article",
+    "name": "Beregn dit daglige energibehov (TDEE-beregner)",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "worstRating": "1",
+      "bestRating": "5",
+      "ratingCount": "9"
+    }
+  }
+</script>
+
+
+
+
+
+<aside id="star-rating">
+<form>
+    <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
+        <div class="rating">
+          
+            
+            <input type="radio" name="rating" value="5" id="5"
+              checked="checked"
+            >
+            <label for="5">☆</label>
+          
+            
+            <input type="radio" name="rating" value="4" id="4"
+              
+            >
+            <label for="4">☆</label>
+          
+            
+            <input type="radio" name="rating" value="3" id="3"
+              
+            >
+            <label for="3">☆</label>
+          
+            
+            <input type="radio" name="rating" value="2" id="2"
+              
+            >
+            <label for="2">☆</label>
+          
+            
+            <input type="radio" name="rating" value="1" id="1"
+              
+            >
+            <label for="1">☆</label>
+          
+        </div>
+        <p><span id="votes">9</span> stemmer. Gennemsnit: <span id="rating_average">4.6</span> / 5</p>
+
+</fieldset>
+</form>
+</aside>
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<aside class="page__signup">
+    <form
+        action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=90126d39b0&amp;f_id=004c40e0f0"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        <fieldset>
+            <p class="brandingLogo">
+                <a href="https://eepurl.com/h2NjYX" title="Mailchimp - email marketing made easy and fun" rel="external nofollow noopener">
+                    <img width="100px" src="/assets/images/mc-logo.png" alt="Mailchimp logo">
+                </a>
+            </p>
+            <div>
+                <p class="signup__title">Få opdateringer</p>
+                <p>Vær den første der får besked, når der er nyt.</p>
+                <div class="form-inline">
+                    <label for="mce-EMAIL" style="position: absolute; left: -5000px;" aria-hidden="true">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" placeholder="Indtast din e-mail" name="EMAIL" class="input-medium email" id="mce-EMAIL" required>
+                    <input type="submit" value="Tilmeld" name="subscribe" id="mc-embedded-subscribe" class="btn btn--danger btn--medium">
+                </div>
+            </div>
+            
+                
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_c17bb696b7624b69cbd0acaff_90126d39b0" tabindex="-1" value="">
+            </div>
+        </fieldset>
+    </form>
+</aside>
+
+
+
+        <!-- Pinterest -->
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+<figure class=" hidden">
+  <img src="/assets/images/pinterest-hide-mini-image.png"
+       alt="Beregn dit daglige energibehov (TDEE-beregner)"
+       data-pin-media="https://www.motionsplan.dk/assets/images/pinterest/generated/beregner-dagligt-energiforbrug-energibehov.jpg"
+       data-pin-description="Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug. #beregner #stofskifte #stofskifteberegner #populær"
+        loading="lazy">
+  
+</figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Nøgleord: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#beregner" class="page__taxonomy-item" rel="tag">beregner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#popul%C3%A6r" class="page__taxonomy-item" rel="tag">populær</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#stofskifteberegner" class="page__taxonomy-item" rel="tag">stofskifteberegner</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#stofskifte" class="page__taxonomy-item" rel="tag">stofskifte</a>
+    
+    </span>
+  </p>
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <span class="strong"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Kategorier: </span>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#beregnere" class="page__taxonomy-item" rel="tag">Beregnere</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#kalorieberegnere" class="page__taxonomy-item" rel="tag">Kalorieberegnere</a>
+    
+    </span>
+  </p>
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Opdateret:</strong> <time class="dt-published" datetime="2025-03-31">31. Mar, 2025</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <p class="page__share-title">Del på</p>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=motionsplan&text=Beregn+dit+daglige+energibehov+%28TDEE-beregner%29%20https%3A%2F%2Fwww.motionsplan.dk%2Fberegner%2Fdagligt-energiforbrug-energibehov%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Del på Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.motionsplan.dk%2Fberegner%2Fdagligt-energiforbrug-energibehov%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Del på Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.motionsplan.dk%2Fberegner%2Fdagligt-energiforbrug-energibehov%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Del på LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+
+  <a data-pin-do="buttonBookmark" data-pin-custom="true" href="https://www.pinterest.com/pin/create/button/" class="btn btn--pinterest btn--danger"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i><span> Pinterest</span></a>
+  <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/hvilestofskiftet-formler/" class="pagination--pager" title="BMR-formler: Sådan beregner du dit basale stofskifte
+">Forrige</a>
+    
+    
+      <a href="/beregner/pal/" class="pagination--pager" title="Beregn dit Physical Activity Level (PAL)
+">Næste</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Kommentarer</h4>
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  var __semio__params = {
+    graphcommentId: "motionsplan", // make sure the id is yours
+
+    behaviour: {
+      // HIGHLY RECOMMENDED
+      //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+    },
+
+    // configure your variables here
+
+  }
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+
+</script>
+
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <p class="page__related-title">Måske kan du også lide</p>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1738523686890-f18afd66509c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10" alt="Introduktion til styrketræning - Forstå alle begreberne
+" data-pin-nopin="true" loading="lazy">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/styrketraening/introduktion/" rel="permalink">Introduktion til styrketræning - Forstå alle begreberne
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-17T08:14:14+00:00">17. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          50 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Styrketræning er en effektiv træningsform, der kan forbedre din styrke, muskelmasse, sundhed og præstationsevne – uanset om du er nybegynder eller styrketræn...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1619107372089-9b05ed524774?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10" alt="Beregn dit Physical Activity Level (PAL)
+" data-pin-nopin="true" loading="lazy">
+        
+        <div class="icon-overlay">
+          <i class="fas fa-calculator" aria-hidden="true" title="Beregner"></i>
+        </div>
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Kalorieberegnere</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/beregner/pal/" rel="permalink">Beregn dit Physical Activity Level (PAL)
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-03T23:14:14+00:00">3. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse af hvad dit fysiske aktivitetsniveau betyder...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10" alt="Komplet guide til programlægning i styrketræning
+" data-pin-nopin="true" loading="lazy">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/traeningsprogram-programlaegning-styrketraening/" rel="permalink">Komplet guide til programlægning i styrketræning
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-01-23T08:14:14+00:00">23. jan, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          42 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan skabe et program, der passer til dine mål.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser" style="position: relative;">
+        <img src="https://images.unsplash.com/photo-1738523686534-7055df5858d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10" alt="Styrketræning for begyndere – sådan starter du
+" data-pin-nopin="true" loading="lazy">
+        
+      </div>
+    
+    
+    <p class="archive__item-category p-category" itemprop="category">Styrketræning</p>
+    <p class="archive__item-title no_toc" itemprop="headline">
+      
+        <a class="u-url" href="/styrketraening/begyndere/" rel="permalink">Styrketræning for begyndere – sådan starter du
+</a>
+      
+    </p>
+    
+
+
+  <p class="page__meta">
+
+    
+
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-16T08:14:14+00:00">16. mar, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          32 min læsning
+        
+      </span>
+    
+  </p>
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" role="search">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Hvad leder du efter...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Hvad leder du efter..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Følg:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://facebook.com/motionsplan" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="https://www.pinterest.dk/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/motionsplan/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCpybeLG46oZfczu4LfI5K0A" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="https://www.buymeacoffee.com/lsolesen" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-mug-hot" aria-hidden="true"></i> Støt sitet</a></li>
+        
+      
+        
+          <li><a href="/privatlivspolitik/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-exclamation-triangle" aria-hidden="true"></i> Privatlivspolitik</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://www.motionsplan.dk">Motionsplan</a>. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+<script>
+  (function () {
+    var cx = '7f59fba70b9fff468';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+    <!-- start custom comments scripts -->
+
+<!-- end custom comments scripts -->
+
+
+
+
+  
+    <script src="/assets/js/bundle.js" defer></script>
+  
+
+
+
+  </body>
+</html>
