@@ -15,6 +15,14 @@ author_profile: true
 toc: true
 breadcrumbs: true
 classes: wide
+feature_row_sportsnutrition:
+  - image_path: https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+    alt: "Sportsernæring"
+    title: "Sportsernæring"
+    excerpt: "Når du træner, stiller kroppen andre krav til energi, væske og timing. Få styr på kosten før, under og efter træning – og spis dig til bedre præstation."
+    url: "/sportsernaering/"
+    btn_label: "Læs om sportsernæring"
+    btn_class: "btn--info"
 ---
 
 Velkommen til vores sektion om kost og ernæring, hvor vi tilbyder evidensbaseret viden for at hjælpe dig med at træffe informerede valg om din kost. Uanset om du ønsker at optimere din træning, tabe dig eller blot leve sundere, finder du her ressourcer og værktøjer til at støtte dig på din rejse.
@@ -180,6 +188,8 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
 [Se den store kalorietabel](/kalorietabellen/){: .btn .btn--success .btn--center }
 
 </div>
+
+{% include feature_row id="feature_row_sportsnutrition" type="left" %}
 
 ## Fysiologi
 

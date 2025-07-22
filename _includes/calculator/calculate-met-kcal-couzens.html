@@ -1,0 +1,138 @@
+<style>
+    table { border-collapse: collapse; width: 100%; max-width: 900px; margin-top: 1em; }
+    th, td { padding: 8px; border: 1px solid #ccc; text-align: left; }
+    input[type="number"] { width: 80px; }
+    select { width: 220px; }
+</style>
+
+<label for="weight">Indtast din vægt (kg):</label>
+<input type="number" id="weight" placeholder="f.eks. 75" min="30" max="150">
+
+<table id="activityTable">
+  <thead>
+    <tr>
+      <th>Aktivitet</th>
+      <th>Varighed (min)</th>
+      <th>kcal/min</th>
+      <th>Forbrug (kcal)</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3"><strong>Total:</strong></td>
+      <td id="totalKcal">0</td>
+    </tr>
+  </tfoot>
+</table>
+
+<button onclick="addRow()">Tilføj aktivitet</button>
+
+<script>
+const activityData = {
+  "Vælg aktivitet": { type: "", kcalPerMin: 0 },    
+  "Svømning 2:00/100 – uøvet svømmer": { type: "fixed", kcalPerMin: 19 },
+  "Svømning 1:30/100 – øvet svømmer": { type: "fixed", kcalPerMin: 16 },
+  "Svømning 1:30/100 – uøvet svømmer": { type: "fixed", kcalPerMin: 31.5 },
+  "Cykling 100W – 'Meget let tråd'": { type: "fixed", kcalPerMin: 6.6 },
+  "Cykling 150W – 'Let'": { type: "fixed", kcalPerMin: 9.9 },
+  "Cykling 200W – 'Moderat'": { type: "fixed", kcalPerMin: 13.2 },
+  "Cykling 300W – 'Hårdt'": { type: "fixed", kcalPerMin: 19.8 },
+  "Gang – 5 km/t": { type: "weight", met: 3.3 },
+  "Let jog – 7 km/t": { type: "weight", met: 6.1 },
+  "Jog – 9 km/t": { type: "weight", met: 7.9 },
+  "Løb – 12 km/t": { type: "weight", met: 10.5 },
+  "Hurtigt løb – 15 km/t": { type: "weight", met: 13.1 },
+  "Sprint – 20 km/t": { type: "weight", met: 17.5 },
+  "Styrkecirkeltræning (zone 1/2)": { type: "weight", met: 7.5 },
+  "Traditionel styrketræning (80–90%RM)": { type: "weight", met: 3.0 },
+  "Yoga (Hatha/Yin)": { type: "weight", met: 2.8 },
+  "Yoga (Vinyasa/Flow)": { type: "weight", met: 4.5 },
+  "Yoga (Power/Bikram)": { type: "weight", met: 5.8 },
+  "Tennis": { type: "weight", met: 5.5 },
+  "Aerobic (holdtræning)": { type: "weight", met: 6.7 },
+  "Havearbejde": { type: "weight", met: 3.0 }
+};
+
+const tableBody = document.querySelector("#activityTable tbody");
+
+function addRow() {
+  const row = document.createElement("tr");
+
+  const activitySelect = document.createElement("select");
+  for (let activity in activityData) {
+    const option = document.createElement("option");
+    option.value = activity;
+    option.text = activity;
+    activitySelect.appendChild(option);
+  }
+
+  const activityCell = document.createElement("td");
+  activityCell.appendChild(activitySelect);
+  row.appendChild(activityCell);
+
+  const timeInput = document.createElement("input");
+  timeInput.type = "number";
+  timeInput.value = 0;
+  timeInput.min = 0;
+  const timeCell = document.createElement("td");
+  timeCell.appendChild(timeInput);
+  row.appendChild(timeCell);
+
+  const kcalInput = document.createElement("input");
+  kcalInput.type = "number";
+  kcalInput.value = 0;
+  kcalInput.min = 0;
+  const kcalCell = document.createElement("td");
+  kcalCell.appendChild(kcalInput);
+  row.appendChild(kcalCell);
+
+  const kcalTotalCell = document.createElement("td");
+  kcalTotalCell.textContent = "0";
+  row.appendChild(kcalTotalCell);
+
+  function getKcalPerMin(activity, weight) {
+    const data = activityData[activity];
+    if (!data) return 0;
+    if (data.type === "fixed") return data.kcalPerMin;
+    if (data.type === "weight" && weight > 0) return (data.met * 3.5 * weight) / 200;
+    return 0;
+  }
+
+  function updateRow(forceUpdateKcal = false) {
+    const activity = activitySelect.value;
+    const time = parseFloat(timeInput.value) || 0;
+    const weight = parseFloat(document.getElementById("weight").value) || 0;
+
+    let kcalPerMin = getKcalPerMin(activity, weight);
+    if (forceUpdateKcal || parseFloat(kcalInput.value) === 0) {
+      kcalInput.value = kcalPerMin.toFixed(1);
+    } else {
+      kcalPerMin = parseFloat(kcalInput.value);
+    }
+
+    const total = (time * kcalPerMin).toFixed(1);
+    kcalTotalCell.textContent = total;
+    updateTotal();
+  }
+
+  activitySelect.addEventListener("change", () => updateRow(true));
+  timeInput.addEventListener("input", () => updateRow(false));
+  kcalInput.addEventListener("input", updateRow);
+  document.getElementById("weight").addEventListener("input", () => updateRow(true));
+
+  tableBody.appendChild(row);
+  updateRow(true);
+}
+
+function updateTotal() {
+  let sum = 0;
+  document.querySelectorAll("#activityTable tbody tr").forEach(row => {
+    const kcal = parseFloat(row.cells[3].textContent) || 0;
+    sum += kcal;
+  });
+  document.getElementById("totalKcal").textContent = sum.toFixed(1);
+}
+
+addRow();
+</script>

@@ -6,7 +6,7 @@
   {% assign met_values = site.data.met %}
 {% endif %}
 
-<form class="calculator">
+<form class="calculator" id="calculator_met_standalone">
     <fieldset>
         <legend>Beregn MET-timer. Indtast værdierne.</legend>
         <div class="form-group">
@@ -40,6 +40,11 @@
                 <input type="number" id="kcal" disabled>
             </label>
         </div>
+        <div class="form-group">
+            <label>Kalorier (kcal/min)
+                <input type="number" id="kcal_min" disabled>
+            </label>
+        </div>
     </fieldset>
     {% include calculator/calculator-footer.html %}
 </form>
@@ -71,8 +76,9 @@ function calculateMET() {
         return false;
     }
 
-    $("#kcal").val(met * weight * time);
-    $("#met_hours").val(met * time);
+    $("#kcal").val((met * weight * time).toFixed(1));
+    $("#kcal_min").val((met * weight / 60).toFixed(1));
+    $("#met_hours").val((met * time).toFixed(2));
     return false;
 }
 </script>

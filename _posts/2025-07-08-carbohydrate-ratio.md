@@ -11,6 +11,7 @@ header:
 category:
   - Kost & Ernæring
 tags:
+  - beregner
   - træning
   - kost & ernæring
   - kosttilskud

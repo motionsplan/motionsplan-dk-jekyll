@@ -1,0 +1,89 @@
+<form class="calculator" id="calculator_energy_availability">
+    <fieldset>
+      <legend>Udregn relativ energitilgængelighed</legend>
+  
+      <div class="form-group">
+        <label>Vægt (kg)
+          <input name="ea_weight" type="number" min="30" max="200" step="0.1" required placeholder="Fx 60">
+        </label>
+      </div>
+  
+      <div class="form-group">
+        <label>Fedtprocent (%)
+          <input name="ea_fat_percent" type="number" min="2" max="70" step="0.1" required placeholder="Fx 20">
+        </label>
+      </div>
+  
+      <div class="form-group">
+        <label>Dagligt energiindtag (kJ)
+          <input name="ea_intake_kj" type="number" min="1000" max="25000" step="10" required placeholder="Fx 7560">
+        </label>
+      </div>
+  
+      <div class="form-group">
+        <label>Energiforbrug ved træning (kJ)
+          <input name="ea_exercise_kj" type="number" min="0" max="10000" step="10" required placeholder="Fx 2100">
+        </label>
+      </div>
+  
+      <input type="submit" value="Udregn">
+    </fieldset>
+  
+    <fieldset class="results">
+      <legend>Resultat</legend>
+      <label>Fedtfri masse (kg)
+        <input disabled name="ea_ffm" type="text">
+      </label>
+      <label>Tilgængelig energi (kJ)
+        <input disabled name="ea_available_kj" type="text">
+      </label>
+      <label>Tilgængelig energi (kcal)
+        <input disabled name="ea_available_kcal" type="text">
+      </label>
+      <label>Energitilgængelighed (kJ/kg FFV)
+        <input disabled name="ea_per_kg_kj" type="text">
+      </label>
+      <label>Energitilgængelighed (kcal/kg FFV)
+        <input disabled name="ea_per_kg_kcal" type="text">
+      </label>
+      <p id="ea_warning" style="color: red; font-weight: bold;"></p>
+    </fieldset>
+  
+    {% include calculator/calculator-footer.html %}
+  </form>
+  <script>
+    document.getElementById("calculator_energy_availability").addEventListener("submit", function(e) {
+      e.preventDefault();
+    
+      const weight = parseFloat(this.ea_weight.value);
+      const fatPercent = parseFloat(this.ea_fat_percent.value);
+      const intake_kj = parseFloat(this.ea_intake_kj.value);
+      const exercise_kj = parseFloat(this.ea_exercise_kj.value);
+    
+      // Beregning af fedtfri masse
+      const ffm = weight * (1 - fatPercent / 100);
+    
+      // Energitilgængelighed
+      const available_kj = intake_kj - exercise_kj;
+      const available_kcal = available_kj / 4.184;
+    
+      const per_kg_kj = available_kj / ffm;
+      const per_kg_kcal = available_kcal / ffm;
+    
+      // Udskriv resultater
+      this.ea_ffm.value = ffm.toFixed(1);
+      this.ea_available_kj.value = available_kj.toFixed(0);
+      this.ea_available_kcal.value = available_kcal.toFixed(0);
+      this.ea_per_kg_kj.value = per_kg_kj.toFixed(1);
+      this.ea_per_kg_kcal.value = per_kg_kcal.toFixed(1);
+    
+      // Advarsel hvis for lav tilgængelighed
+      const warning = this.querySelector("#ea_warning");
+      if (per_kg_kj < 135 || per_kg_kcal < 30) {
+        warning.textContent = "⚠️ Energitilgængeligheden er under 135 kJ (30 kcal) pr. kg fedtfri masse – risiko for hormonelle eller metabolske forstyrrelser.";
+      } else {
+        warning.textContent = "";
+      }
+    });
+</script>
+      

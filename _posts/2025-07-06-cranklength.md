@@ -12,6 +12,7 @@ category:
   - Træning
   - Cykling
 tags:
+  - beregner
   - træning
   - cykling
   - udstyr
