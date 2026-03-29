@@ -30,27 +30,21 @@ faq:
   - question: "Hvad er en normal hvilepuls for mænd?"
     answer: "En normal hvilepuls for mænd ligger på mellem 71-75 slag pr. minut. Sportsudøvere og folk i god form vil typisk have en hvilepuls på 49-66 slag/min."
   - question: "Hvor lav må pulsen være?"
-    answer: "Der er naturligvis grænser for, hvor lav din hvilepuls må være før det indikerer, at der er noget galt med kroppens funktion. Du kan tjekke vores skema med normal hvilepuls og se om du skulle være i farezonen."
+    answer: "Der er naturligvis grænser for, hvor lav din hvilepuls må være, før det indikerer, at der er noget galt med kroppens funktion. Du kan tjekke vores skema med normal hvilepuls og se, om du skulle være i farezonen."
   - question: "Hvordan beregner man hvilepulsen?"
-    answer: "Du kan ikke beregne din hvilepuls. Du kan til gengæld beregne din maxpuls, fordi den typisk er aldersebestemt. Tjek vores [maxpuls-beregner](/max-puls-beregner/)."
+    answer: "Du kan ikke beregne din hvilepuls. Du kan til gengæld beregne din maxpuls, fordi den typisk er aldersbestemt. Tjek vores [maxpuls-beregner](/max-puls-beregner/)."
   - question: "Er en lav hvilepuls altid godt?"
     answer: "Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et [højt blodtryk](/blodtryk/), lavt stofskifte og medicin kan også være med til at sænke pulsen."
-## https://biostrap.com/academy/how-to-calculate-resting-heart-rate/
-## 1 What Is a Normal Resting Heart Rate?
-## 2 Why Does Resting Heart Rate Matter?
-## 3 How To Calculate Resting Heart Rate
-## 4 Heart Rate for Exercise
-## 5 The Best Time To Check Resting and Target Heart Rate
 ---
 
-Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning. Bl.a. kan du vurdere hvad en god hvilepuls er ud fra en tabel.
+Din hvilepuls er en af de simpleste og mest informative målinger, du kan foretage på din krop. Jeg bruger den selv til at følge effekten af min træning – og til at opdage, når kroppen har brug for mere restitution.
 
-I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** svar på følgende spørgsmål:
+I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** svar på:
 
-- hvad der påvirker hvilepulsen?
-- hvordan måler man sin hvilepuls?
-- hvad er en god hvilepuls?
-- hvordan træner man sin hvilepuls?
+- hvad en normal hvilepuls er
+- hvad der påvirker hvilepulsen
+- hvordan du måler den korrekt
+- hvordan du forbedrer din hvilepuls med træning
 
 {% include figure image_path="https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="hvilepuls for mænd og kvinder" %}
 
@@ -59,192 +53,179 @@ Læs: [Hvad er normal puls - alt om hjertets rytme](/puls/)
 
 ## Hvad er hvilepuls?
 
-En hvilepuls er antallet af hjerteslag pr. minut, når din krop er i hvile. Mænd har typisk en gennemsnitshvilepuls på 60-80 slag i minuttet, mens hvilepulsen for kvinder ofte ligger på 70-90 slag i minuttet. Disse tal dækker dog over store variationer.
+Hvilepulsen er antallet af hjerteslag pr. minut, når kroppen er i fuldstændig hvile. For raske voksne ligger den typisk mellem 40 og 100 slag/min – med store individuelle variationer afhængigt af alder, køn, træningsniveau og sundhedstilstand.
 
-Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som **pulsen**.
+Mænd har gennemsnitligt en hvilepuls på 60–80 slag/min, kvinder lidt højere ved 70–90 slag/min. Ekstremt veltrænede udholdenhedsatleter kan komme helt ned på 30–40 slag/min.
 
-## Hvad bestemmer hvilepulsen?
+Når hjertet trækker sig sammen og sender blod rundt i kroppen, opstår der et kortvarigt trykudsving i blodårerne – det er det, du kan mærke som din **puls**.
 
-Hjertet pumper blod rundt i kredsløbet for at levere iltet og næringsmættet blod ud til de arbejdende muskler og organer. Kroppen har også brug for en del energi i hvile, fordi stofskiftet og forbrændingen hele tiden kører. Hjertet slår så mange gange som det er nødvendigt for at få blod nok rundt i systemet til at vedligeholde stofskiftet.
+## Hvad bestemmer din hvilepuls?
 
-Hjertet bliver hovedsageligt trænet under puls-, kredsløbs- og konditionstræning. Jeg har skrevet et grundigt indlæg om de [fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
+Hjertet pumper blod for at levere ilt og næringsstoffer til kroppens organer og muskler. Selv i hvile kræver stofskiftet en konstant blodforsyning, og hjertet slår præcis så mange gange, som er nødvendigt for at dække det behov.
 
-Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for din hvilepuls.
+Hjertets samlede pumpefunktion kan beskrives med denne enkle formel:
 
-- **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger.
-- **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så det kan pumpe kraftigere.
+**Minutvolumen (MV) = Slagvolumen (SV) × Pulsfrekvens (HR)**
+
+- **Slagvolumen (SV)** er mængden af blod, hjertet pumper ud pr. slag
+- **Pulsfrekvens (HR)** er antallet af hjerteslag pr. minut
+- **Minutvolumen (MV)** er den samlede blodmængde, der cirkulerer pr. minut
+
+Hvis slagvolumen stiger – fordi hjertet er blevet større og stærkere af træning – behøver det ikke at slå så mange gange for at nå samme minutvolumen. Resultatet er en lavere hvilepuls.
+
+### Fysiologiske tilpasninger til konditionstræning
+
+Regelmæssig konditionstræning medfører to centrale tilpasninger i hjertet:
+
+- **Venstre hjertekammer vokser** ved træning med lav til moderat intensitet, hvor hjertet kan nå at fyldes mere op pr. slag (øget slagvolumen)
+- **Hjertemusklen bliver stærkere** ved høj-intensitetstræning, så hjertet kan pumpe kraftigere og tømme sig mere komplet
+
+Begge tilpasninger bidrager til en lavere hvilepuls over tid. En systematisk gennemgang og metaanalyse fra 2018 i *Journal of Clinical Medicine* (Reimers et al.) bekræfter, at regelmæssig fysisk aktivitet sænker hvilepulsen signifikant hos raske voksne.
 
 {% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." alt="venstre hjertekammer i forhold størrelse og hvilepuls" %}
-
-Når hjertekammeret bliver større, så kan hjertet fyldes mere op, og når hjertet er stærkere kan hjertet også tømme sig mere pr. hjerteslag. Alt andet lige skal vi bruge den samme mængde blod rundt i systemet i minuttet. Derfor behøver hjertet altså ikke at slå så mange gange, og hvilepulsen falder, fordi du kommer i bedre form.
-
-Hvis du foretrækker en lidt mere matematisk måde at anskue det på, så kommer den her.
-
-Hjertets pumpefunktion og pumpekapacitet udgøres af to faktorer:
-
-- **Slagvolumen (SV)** er den mængde blod, hjertet kan sende rundt på en sammentrækning - altså på et hjerteslag.
-- **Pulsfrekvens (HR)** er det antal gange, hjertet slår i minuttet.
-
-Samlet er det et udtryk for, hvor meget blod der kommer rundt i kroppen.
-
-- **Minutvolumen (MV)** er den mængde blod, der bliver pumpet rundt i kroppen pr. minut. Det er ganske enkelt slagvolumen ganget med pulsfrekvensen.
-
-Det kan sættes på følgende formel:
-
-    MV = SV * HR
-
-Hvis minutvolumen skal være konstant og slagvolumen er faldet, så bliver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj. Derfor falder hvilepulsen, når du kommer i bedre form.
 
 Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
 {: .notice }
 
 ## Hvad påvirker din hvilepuls?
 
-Der er mange ting, der kan påvirke din puls. Det betyder også noget for pulsen, når du hviler. Her lister vi kort nogle af tingene:
+Hvilepulsen er dynamisk og påvirkes af mange faktorer:
 
-Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og [stress]({% link _posts/2021-11-10-stress.md %}), og den er også følsom over visse typer medicin.
-
-- **Hård træning** kan påvirke pulsen i flere dage. Hvis du træner rigtig hårdt, så skal kroppen bruge en masse energi på at restituere.
-- **Kost**. Sund kost kan have positiv indvirkning på din puls, da kroppen fungerer bedre, hvis du følger de officielle kostanbefalinger.
-- **Fysisk aktivitet**. Hvis du er fysisk aktiv og kommer i bedre fysisk form, så vil din hvilepuls blive forbedret.
+- **Konditionsniveau** – jo bedre form, jo lavere hvilepuls
+- **Alder** – hvilepulsen stiger svagt med alderen
+- **Køn** – kvinder har gennemsnitligt lidt højere hvilepuls end mænd
+- **Hård træning og restitution** – en forhøjet morgenpuls kan indikere, at kroppen stadig restituerer. Stiger din morgenpuls pludselig med 8–10 slag, er det et signal om at skrue ned for intensiteten
+- **Kost** – et sundt og varieret kostmønster understøtter hjertets funktion
+- **Stress** – psykisk og fysisk stress øger aktiviteten i det sympatiske nervesystem og driver pulsen op
+- **Søvn** – dårlig eller for lidt søvn hæver hvilepulsen måleligt
+- **Sygdom** – selv en begyndende infektion kan løfte hvilepulsen dage før du mærker andre symptomer
+- **Medicin** – visse typer medicin, fx betablokkere, sænker aktivt pulsen
 
 ## Hvad er en normal hvilepuls?
 
-Den normale hvilepuls ligger typisk i intervallet fra 40 og 100 hos almindelige raske personer. Ekstremt veltrænede udholdenhedsatleter kan have en hvilepuls helt nede omkring 30.
+En hvilepuls under 60 slag/min betegnes medicinsk som bradykardi, men er helt normalt hos veltrænede atleter. Over 100 slag/min i hvile – kaldet takykardi – bør undersøges af en læge, hvis det er vedvarende.
 
-Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet.
-
-Hjertet skal ganske enkelt arbejde mindre, hvis det er stærkere og kan pumpe mere blod ud pr. hjerteslag. Desuden er der en masse afledte sundhedsmæssige konsekvenser af udholdenhedstræning og pulstræning.
-
-Læs mere lidt senere i artiklen om, hvordan du træner din hvilepuls.
+Ifølge et stort studie af Avram et al. (2019) i *NPJ Digital Medicine*, baseret på data fra over 92.000 personer, er den gennemsnitlige hvilepuls ca. 65 slag/min for mænd og ca. 68 slag/min for kvinder. Tallene varierer med alder og viser et tydeligt mønster: jo bedre kondition, jo lavere hvilepuls.
 
 ## Tabel over hvilepuls for mænd og kvinder
 
-Her har jeg samlet nogle retninglinjer baseret på [bgh.dk](https://bgh.dk/hvilepuls/) for hvilepuls for mænd og kvinder i følgende tabel. Pulsskemaet kan bruges til at give en vurdering af din hvilepuls i forhold til andre mænd og kvinder.
+Her har jeg samlet retningslinjer baseret på [bgh.dk](https://bgh.dk/hvilepuls/) for hvilepuls for mænd og kvinder. Pulsskemaet kan bruges til at vurdere din hvilepuls i forhold til andre på dit konditionsniveau.
 
 | Kategori            | Hvilepuls for kvinder | Hvilepuls for mænd |
 |---------------------|-----------------------|--------------------|
-| Sportsudøver        | 54-60                 | 49-56              |
-| Glimrende           | 60-64                 | 57-61              |
-| God                 | 65-68                 | 62-66              |
-| Over gennemsnittet  | 69-73                 | 67-70              |
-| Gennemsnitlig       | 74-78                 | 71-75              |
-| Under gennemsnittet | 79-84                 | 76-81              |
+| Sportsudøver        | 54–60                 | 49–56              |
+| Glimrende           | 60–64                 | 57–61              |
+| God                 | 65–68                 | 62–66              |
+| Over gennemsnittet  | 69–73                 | 67–70              |
+| Gennemsnitlig       | 74–78                 | 71–75              |
+| Under gennemsnittet | 79–84                 | 76–81              |
 | Dårlig              | 85+                   | 82+                |
 
-Nogle lidt grovere **retningslinjer for hvilepulsen** kan også se sådan her ud ifølge [www.sportshojskolen.dk](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen):
+Nogle lidt grovere retningslinjer for hvilepulsen kan ifølge [sportshojskolen.dk](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen) se sådan ud:
 
-- **Hvilepuls 80**: Uhyre dårlig kondition – bør forbedres alene set ud fra en fysisk sundhedsmæssig vinkel.
+- **Hvilepuls 80**: Uhyre dårlig kondition – bør forbedres alene set ud fra en sundhedsmæssig vinkel
 - **Hvilepuls 70**: Dårlig kondition – bør stadig forbedres, både af sundhedsmæssige og præstationsfremmende hensyn
 - **Hvilepuls 60**: Rimelig kondition – passer fint til fritidsmotionisten, men kan stadig med fordel forbedres
-- **Hvilepuls 50**: Rigtig god kondition – Her ligger ofte den ambitiøse amatørmotionist
-- **Hvilepuls 40**: Suveræn kondition – Forbeholdt de få; oftest elitefolk.
+- **Hvilepuls 50**: Rigtig god kondition – her ligger den ambitiøse amatørmotionist
+- **Hvilepuls 40**: Suveræn kondition – forbeholdt de få; oftest elitefolk
 
-Som udgangspunkt er en lav hvilepuls altså at foretrække ifølge tabellen. Jeg har dog ikke kunnet finde nogle videnskabelige referencer. Hvis du kender nogen, så skriv endelig.
+Som udgangspunkt er en lav hvilepuls altså at foretrække.
 
-Miguel Indurain, tidligere cykelrytter, havde efter sigende en puls i hvile på 28. Jeg hørte på et tidspunkt, at udfordringen med en så lav puls og et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet fastholder sin styrke til at kunne pumpe blodet rundt og tømme sig selv helt. Måske er det bare en historie, men den har i hvert fald bidt sig fast i mig.
+Miguel Indurain, tidligere cykelrytter, havde efter sigende en hvilepuls i hvile på 28 slag/min. Udfordringen ved en så lav puls og et så stort hjerte er angiveligt, at man kan blive nødt til at fortsætte sin træning for at hjertet fastholder sin styrke til at pumpe blodet rundt og tømme sig selv komplet. Måske er det bare en god historie – men den har i hvert fald bidt sig fast hos mig.
 {: .notice .notice--info }
 
 ## Hvornår har jeg høj hvilepuls?
 
-Din hvilepuls er ifølge [netdoktor.dk](https://netdoktor.dk/sygdomme/fakta/derfor-har-du-hoej-puls.htm) høj, hvis den ligger over 100. Hvis du har en høj hvilepuls, så kan det være tegn på, at du har en hjertesygdom. Oplever du hjertebanken og en unormalt høj hvilepuls, skal du gå til din læge.
-
-Hvis man har høj puls, så kan der være forskellige måder at sænke den på. Det kan skyldes stresssymptomer, så derfor kan det betale sig at kigge på hele sin livssituation. Ellers kan man sænke pulsen med forskellige typer medicin. Alt det kræver et lægebesøg.
+Din hvilepuls er ifølge [netdoktor.dk](https://netdoktor.dk/sygdomme/fakta/derfor-har-du-hoej-puls.htm) høj, hvis den ligger over 100 slag/min. En vedvarende forhøjet hvilepuls kan være tegn på hjertesygdom, stresssymptomer eller anden underliggende sygdom. Oplever du hjertebanken og en unormalt høj hvilepuls over tid, bør du gå til din læge.
 
 ## Hvad er lav hvilepuls?
 
-En lav hvilepuls kaldes også en langsom puls eller _bradykardi_. Bradykardi betyder, at hjertet slår langsomt. Det kan være helt normalt, hvis du er i særdeles god form, men det kan også skyldes en sygdom i hjertet eller være forårsaget af medicin.
-
-Hvis du er i tvivl om du har en meget lav hvilepuls i forhold til det normale, så bør du søge læge. Du kan læse meget mere om bradykardi på [sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/sygdomme/hjertearytmier/bradykardi-langsom-puls/).
+En lav hvilepuls – under 60 slag/min – kaldes bradykardi og kan være helt normalt hos veltrænede atleter. Det kan dog også skyldes sygdom i hjertet eller visse typer medicin. Hvis du er i tvivl om, hvorvidt din lave hvilepuls er sund, bør du søge læge. Du kan læse mere om bradykardi på [sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/sygdomme/hjertearytmier/bradykardi-langsom-puls/).
 
 ## Hvornår skal jeg måle hvilepulsen?
 
-Hvilepulsen skal måles i total hvile for at få den mest præcise måling. Den måles bedst liggende om morgenen lige inden, du står op. Det er nemlig her din krop er længst nede i hviletilstand.
+For at få den mest præcise måling skal hvilepulsen måles i total hvile – bedst liggende om morgenen, lige inden du står op. Det er her kroppen er på sit laveste aktivitetsniveau.
 
-Så snart du står op vil kroppen begynde at have behov for mere energi, og så går stofskiftet op, hvilket betyder at hjertet bliver nødt til at slå lidt flere gange for at levere ilt og næringsstoffer rundt i systemet.
-
-Du kan selv måle hvilepulsen på forskellige måder. Du kan føle den manuelt, med et pulsur eller med et blodtryksapparat.
+Så snart du rejser dig, stiger stofskiftet og hjertet skal slå hurtigere for at levere ilt og næringsstoffer rundt i kroppen – og din "rene" hvilepuls er forsvundet.
 
 ## Hvordan måler du din hvilepuls?
 
-Du kan enten bruge stopur, pulsur eller blodtryksmåler til at måle hvilepulsen.
+Du kan bruge stopur, pulsur eller blodtryksapparat til at måle hvilepulsen.
 
 ### 1. Mål hvilepulsen med stopur
 
-Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege- og langefingeren til at mærke pulsen.
+Du kan let måle din hvilepuls uden udstyr. Det er den metode, jeg selv foretrækker.
 
 {% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." alt="mål hvilepuls på håndleddet" %}
 
 1. Lig helt roligt og afslappet
-2. Sæt langefingeren og pegefingeren på din halspulsåre og pres lidt, indtil du kan mærke pulsen.
-3. Brug et stopur til at tage tid. Du kan fx tælle slagene i 20 sekunder og så gange med tre. Jeg foretrækker at tælle i et helt minut, da en enkelt fejltælling ved kortere intervaller kommer til at betyde mere.
-
-Hvis du vil have det mest præcise bud på, hvad din reelle hvilepuls er, så bør du gøre det nogle dage i træk under de samme forudsætninger. Der kan nemlig også være daglige variationer.
+2. Sæt lang- og pegefingeren mod halspulsåren eller på indersiden af håndleddet, og pres let, til du kan mærke pulsen
+3. Tæl slagene i 60 sekunder med et stopur – eller tæl i 20 sekunder og gang med tre. Et helt minut giver den mest præcise måling, da en enkelt fejltælling vejer lettere
 
 ### 2. Mål hvilepulsen med pulsur
 
-Du kan bruge et pulsur. Det er klart mest præcist, hvis du bruger en rem, men nogle nye ure kan også måle det direkte gennem håndleddet. Måling direkte i håndleddet er dog forbundet med større usikkerheder.
+Et pulsur med brystrem giver den mest præcise måling. Nyere ure med optisk sensor i håndleddet fungerer rimeligt, men er forbundet med lidt større usikkerheder.
 
-Du gør følgende for at måle din egen hvilepuls:
+Fremgangsmåde:
 
-1. Læg ur og pulsmålerbæltet ved siden af din seng om aftenen (inden for rækkevidde uden at du skal rejse dig). Jeg vil ikke anbefale at sove med pulsmåleren på.
-2. Sov dejligt!
-3. Når dit vækkeur ringer, så tager du pulsmåleren på og lægger dig til at hvile igen i 8-10 minutter med lukkede øjne uden at lave andet. Du må gerne falde i søvn igen. Stil vækkeuret på 10 minutter.
-4. Når vækkeuret ringer for anden gang, tjekker du din puls med det samme, du åbner øjnene på pulsmåleren. Du kan også tænde uret, så den optager din puls i hele hvileperioden for at se om den har været lavere på noget tidspunkt.
+1. Læg pulsmålerbæltet og uret ved sengen om aftenen, inden for rækkevidde
+2. Sov godt
+3. Sæt pulsmåleren på, inden du rejser dig, og hvil i 8–10 minutter med lukkede øjne
+4. Aflæs pulsen, når vækkeuret ringer anden gang
 
-### 3. Mål hvilepulsen med blodtryksmåler
+### 3. Mål hvilepulsen med blodtryksapparat
 
-Her er vi naturligvis i den lidt dyrere ende, men fordelen er, at du også får dit blodtryk målt. Jeg synes dog godt afklemningen af armen kan være lidt stressende, hvilket potentielt kan øge pulsen.
-
-Du følger nogenlunde samme fremgangsmåde som ovenfor, men starter først blodtryksmåleren efter, at du har hvilet nogle minutter efter at være vågnet. Det larmer jo lidt, så hvis du deler din seng med nogen, så skal du nok have lavet en aftale på forhånd.
+Et blodtryksapparat giver både puls og blodtryk på én gang – praktisk, men lidt mere besværligt. Afklemningen kan opleves som lidt stressende, hvilket potentielt kan påvirke målingen. Brug samme fremgangsmåde som ovenfor, og start apparatet, efter du har hvilet nogle minutter.
 
 ## Hvor ofte skal jeg måle min hvilepuls?
 
-Når du vil etablere en _baseline_ for din hvilepuls, så skal du lave morgenmålinger hver dag i en uge i træk. Du skriver alle tallene op, og så tager du gennemsnittet af tallet og registrerer også, hvilken afvigelse der har været.
+Vil du etablere en baseline, så lav daglige morgenmålinger i en hel uge. Skriv tallene ned og beregn gennemsnittet – og bemærk også variationsbredden. Eksempel:
 
-Hvis du fx får følgende målinger: 56, 56, 54, 58, 57, 56, så er gennemsnittet 56, så det er det tal vi tager udgangspunkt i. Men du har også registreret, at hvilepulsen er i et interval fra 54 til 58.
+> Målinger: 56, 56, 54, 58, 57, 56 → Gennemsnit: **56,2 slag/min**, interval: 54–58
 
-Hvis du så jævnligt laver hvilepulsmålinger for at følge, hvordan det går med dit træningsniveau, så vil en meningsfuld ændring af pulsen altså være, hvis du kan sænke gennemsnittet for målingerne, fordi der er daglige variationer. Dette kræver dog, at du igen laver daglige målinger.
+En meningsfuld forbedring vil typisk kræve, at gennemsnittet over en ny uge falder til under 54 i dette eksempel – ikke blot en enkelt lavere måling, da daglige udsving er normale.
 
-Hvis du foretrækker bare at tage stikprøver, så vil en meningsfuld ændring være, at dine målinger skal komme under 54.
+Er du i et træningsforløb, anbefaler jeg at måle hvilepulsen hver dag. En pludselig stigning på 8–10 slag over dit normale niveau er et klart signal om at prioritere restitution frem for hård træning.
 
-Hvis man er i et træningsforløb vil jeg anbefale at måle hvilepulsen hver dag. Begynder den at stige, så kan det nemlig også være et tegn på at kroppen er stresset. Hvis din måling fx en dag er 10 slag højere end normalt, så er det måske tid til at slappe lidt af med træningen og lave restitutionstræning.
+## Hvilepuls og heart rate variability (HRV)
 
-## Hvilepuls og heart rate variability
+Jeg er selv blevet ret optaget af _heart rate variability_ (HRV) – en metode, der ud over selve pulsen også måler variationen i intervallet mellem hjerteslagene. HRV giver et mere nuanceret billede af kroppens parathed til træning end hvilepulsen alene.
 
-Jeg er selv blevet ret optaget af _heart rate variability_, hvor man ud over en daglig måling af hvilepulsen også får andre indikationer på, hvor klar kroppen er til at træne.
-
-Hvis du ikke kender begrebet HRV, så kan du læse lidt i min [artikel om heart rate variability (HRV)](/hrv/).
+Læs mere i min [artikel om heart rate variability (HRV)](/hrv/).
 
 ## Hvordan træner jeg min hvilepuls?
 
-Du træner din hvilepuls når du træner din hjerte. Det er primært slagvolumen, der har betydning for, hvad din hvilepuls er. Derfor skal du lave træning, som kan forøge din hvilepuls. Det kan man gøre ved [aerob træning](/aerob-traening/) og [konditionstræning](/konditionstraening/).
+Du træner din hvilepuls ved at træne dit hjerte – og det er primært slagvolumen, der er afgørende. To tilgange supplerer hinanden godt:
 
-Hvis du skal forbedre din slagvolumen, så får du i første omgang mest ud af at lave aerob træning med lavere intensitet. Når du træner med lavere intensitet, så har hjertet nemlig tid til at udvide sig mange gange uden at du bliver for træt. Når du er i form, så skal du imidlertid arbejde med højere intensitet og høj puls.
+- **Aerob træning med lav-moderat intensitet** giver hjertet mulighed for at udvide sig gentagne gange uden at du bliver for træt. Det øger slagvolumen gradvist over tid
+- **Høj-intensitetstræning** styrker selve hjertemusklen, så den kan pumpe kraftigere
 
-Træningen er altså med til at sænke hvilepulsen, fordi dit hjert i hvert slag kan pumpe mere blod rundt i kroppen. Du får altså en lavere hvilepuls i takt med, at du træner, hvis træningen virker.
+Begge typer [konditionstræning](/konditionstraening/) bidrager til et mere effektivt hjerte – og dermed en lavere hvilepuls.
+
+Læs: [Aerob træning – sådan virker det](/aerob-traening/)
+{: .notice }
 
 ## Hvor hurtigt kan jeg forbedre min hvilepuls?
 
-Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et træningsforløb kunne registrere, at din hvilepuls falder. Det kræver naturligvis, at træningen belaster kredsløbet, så hjertet forbedrer sin effektivitet.
+Hvis du er rask og starter et struktureret træningsforløb, bør du allerede efter 3–4 uger kunne registrere et fald i din hvilepuls. Det kræver, at træningen reelt belaster kredsløbet – dvs. at du arbejder i en intensitet, hvor hjertet udfordres.
 
-Hvis du allerede er veltrænet, så tager det naturligvis længere tid at få en lavere hvilepuls, og der er også grænser for hvor langt den kan komme ned.
+Er du allerede veltrænet, vil forbedringerne komme langsommere og have en naturlig nedre grænse afhængigt af din fysiologi.
 
 ## Hvad kan du bruge hvilepulsen til?
 
-Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge pulsen til at udregne forskellige træningsparametre.
+Ud over at være en indikator for dit konditionsniveau kan hvilepulsen bruges til:
 
-- **Tracke din sundhed**. Hvilepulsen kan være en måde at tracke din sundhed. Det er godt over tid at have en stabil eller faldende hvilepuls.
-- **Finde dit kondital**. Sammen med [max-pulsen](/test-max-puls/) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
-- **Udregne træningszoner**. Når du kender din maxpuls og din hvilepuls, så kan du udregne din pulsreserve. Med den viden kan du [udregne dine træningszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/).
+- **Tracke din sundhed over tid** – en stabil eller faldende hvilepuls er et godt tegn. En pludselig stigning kan signalere sygdom, stress eller overtræning
+- **Estimere dit kondital** – sammen med din [maxpuls](/test-max-puls/) kan du bruge hvilepulsen til at beregne et estimat på dit [kondital via vores beregner](/kondital-fra-puls/). Jo større forskel mellem max- og hvilepuls, desto bedre form
+- **Udregne træningszoner** – kender du både maxpuls og hvilepuls, kan du beregne din pulsreserve og bruge den til at [fastsætte dine pulszoner med Karvonen-metoden](/pulszoner-pulsreserve-karvonen/)
 
 ## Konklusion
 
-Hvilepuls er en vigtig indikator for dit generelle helbred og din kondition. En lavere hvilepuls er ofte et tegn på et veltrænet hjerte, mens en forhøjet hvilepuls kan være et signal om stress, overtræning eller underliggende helbredsproblemer. 
+Hvilepulsen er en enkel, gratis og informativ måling, der afspejler både dit generelle helbred og dit konditionsniveau. En lav hvilepuls er typisk tegn på et veltrænet hjerte med høj slagvolumen, mens en vedvarende forhøjet hvilepuls kan indikere stress, overtræning eller underliggende sygdom.
 
-[Regelmæssig konditionstræning](/konditionstraening/) kan med tiden sænke din hvilepuls, da hjertet bliver stærkere og mere effektivt.
+Regelmæssig [konditionstræning](/konditionstraening/) sænker hvilepulsen over tid ved at gøre hjertet mere effektivt. Brug den daglige morgenmåling som et enkelt redskab til at følge din fremgang – og som et tidligt advarselssignal, hvis kroppen har brug for mere hvile.
 
-Hvis din hvilepuls ændrer sig markant uden en oplagt årsag, eller hvis den er unormalt høj eller lav, kan det være en god idé at konsultere en læge. Ved at måle og følge din hvilepuls kan du få værdifuld indsigt i din sundhedstilstand og optimere din træning.
+Ændrer din hvilepuls sig markant uden oplagt årsag, eller er den vedvarende over 100 slag/min, bør du konsultere en læge.
 
 ## Ofte stillede spørgsmål
 
@@ -253,6 +234,6 @@ Hvis din hvilepuls ændrer sig markant uden en oplagt årsag, eller hvis den er 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Reimers, A. K., Knapp, G., & Reimers, C.-D. (2018). Effects of Exercise on the Resting Heart Rate: A Systematic Review and Meta-Analysis of Interventional Studies. Journal of Clinical Medicine, 7(12), 503. <https://doi.org/10.3390/jcm7120503>
-- Avram, R., Tison, G. H., Aschbacher, K., Kuhar, P., Vittinghoff, E., Butzner, M., Runge, R., Wu, N., Pletcher, M. J., Marcus, G. M., & Olgin, J. (2019). Real-world heart rate norms in the Health eHeart study. NPJ Digital Medicine, 2, 58. <https://doi.org/10.1038/s41746-019-0134-9>
+- Reimers, A. K., Knapp, G., & Reimers, C.-D. (2018). Effects of Exercise on the Resting Heart Rate: A Systematic Review and Meta-Analysis of Interventional Studies. *Journal of Clinical Medicine*, 7(12), 503. <https://doi.org/10.3390/jcm7120503>
+- Avram, R., Tison, G. H., Aschbacher, K., Kuhar, P., Vittinghoff, E., Butzner, M., Runge, R., Wu, N., Pletcher, M. J., Marcus, G. M., & Olgin, J. (2019). Real-world heart rate norms in the Health eHeart study. *NPJ Digital Medicine*, 2, 58. <https://doi.org/10.1038/s41746-019-0134-9>
 </details>
