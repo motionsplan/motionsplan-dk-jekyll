@@ -1,49 +1,53 @@
 ---
 layout: single
 title: "Lars Olesen"
+seo_title: "Lars Olesen - Cand.Scient. i Idræt og Sundhed | Motionsplan"
 permalink: /om/lars-olesen/
-excerpt: "Lars Olesen, cand.scient. i Idræt og Sundhed, underviser i træning og sundhed og hjælper dig med at optimere din træning med evidensbaserede råd. Læs mere på Motionsplan.dk."
+excerpt: "Lars Olesen er cand.scient. i Idræt og Sundhed fra SDU. Han har undervist i træning og sundhed siden 1999, bl.a. på Vejle Idrætshøjskole og for DGI."
 author_profile: true
 author: lsolesen
 breadcrumbs: true
 toc: true
 ---
 
-Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har arbejdet med træning og sundhed i over 25 år. Siden 1999 har jeg undervist på Vejle Idrætshøjskole, hvor jeg står for fag som styrketræning, ernæring, løb og test & træning.
+Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har arbejdet professionelt med træning, fysiologi og sundhed i over 25 år. 
 
-Derudover uddanner jeg fitnessinstruktører for DGI og DIF’s Foreningsfitness.
+Siden 1999 har jeg været underviser på **Vejle Idrætshøjskole**, hvor jeg dagligt arbejder med styrketræning, ernæring, løb og fysiologisk testning. Ved siden af højskolelivet er jeg aktiv i uddannelsen af fitnessinstruktører gennem **Bevæg Dig For Livets Foreningsfitness (DGI og DIF)**.
 
-Min tilgang bygger på evidensbaseret træningsviden, som jeg omsætter til praktiske råd, der hjælper dig med at optimere din træning og opnå bedre resultater. På Motionsplan.dk deler jeg artikler, guides og træningsprogrammer, der løbende opdateres for at afspejle den nyeste forskning.
+Min tilgang er enkel: Træning skal virke, og den skal give mening. På Motionsplan.dk forsøger jeg at skære igennem støjen og formidle den nyeste træningsvidenskab, så den bliver praktisk anvendelig for alle – uanset om du er nybegynder eller erfaren instruktør.
 
-Gennem mange års undervisning er jeg kommet til at holde af en enkel tilgang til træning, hvor man kan se fremgang over tid. Men først og fremmest skal træning være motiverende, for ellers bliver man ikke ved med at gøre det.
+💡 Læs også om [vores redaktionelle proces](/om/redaktionelle-proces/), og hvordan vi sikrer kvaliteten af indholdet.
 
-💡 Vil du vide mere? Læs om [vores tilgang til videnskabelig træning](/om/).
+## Baggrund og erfaring
 
-## Faglig baggrund og erfaring
+Min hverdag foregår i spændingsfeltet mellem teorien i bøgerne og den praktiske træning i centret eller på løbestien. Min faglige baggrund omfatter:
 
-Jeg er cand.scient. i Idræt og Sundhed fra Syddansk Universitet og har undervist i træning og sundhed siden 1999. Til daglig underviser jeg på [Vejle Idrætshøjskole](https://www.vih.dk/) i styrketræning, ernæring, løb samt test & træning. Derudover er jeg aktiv i uddannelsen af fitnessinstruktører gennem DGI og DIF’s Foreningsfitness.  
+- **Uddannelse:** Cand.scient. i Idræt og Sundhed (Syddansk Universitet).
+- **Undervisning:** Fast underviser på [Vejle Idrætshøjskole](https://www.vih.dk/) i fag som Styrketræning, Test & Træning og Ernæring.
+- **Instruktøruddannelse:** Udvikling og afvikling af kurser for kommende instruktører i regi af DGI og DIF.
+- **Formidling:** Forfatter til artikler, guides og [træningsprogrammer](/traeningsprogrammer/) her på siden, som løbende opdateres i takt med ny forskning.
 
-Jeg har specialiseret mig i at omsætte videnskabelig viden til [praktisk anvendelige træningsprincipper](/traeningsprincipper/). Mit arbejde omfatter:  
+## Min filosofi
 
-- **Udvikling af træningsprogrammer** – Design af effektive træningsforløb til både motionister og eliteudøvere.  
-- **Ernæring og [præstationsoptimering](/strategier-praestationsoptimering/)** – Vejledning i, hvordan kost og træning spiller sammen for at maksimere resultater.  
-- **Test og evaluering** – Brug af videnskabelige testmetoder til at analysere og forbedre præstationer.  
-- **Uddannelse og undervisning** – Træning af kommende instruktører og undervisere med fokus på evidensbaseret praksis.  
+Jeg tror på en evidensbaseret tilgang, men jeg ved også, at den bedste træningsplan er den, man rent faktisk får udført. Derfor fokuserer jeg på:
 
-Mit mål er at hjælpe dig med at træne smartere, ikke hårdere – og give dig den bedst mulige vejledning baseret på den nyeste forskning og mange års praktisk erfaring.
+1. **Progressiv belastning:** At træningen er struktureret, så man ser fremgang over tid.
+2. **Motivation:** At det skal være sjovt eller meningsfuldt, så man holder ved på den lange bane.
+3. **Enkelhed:** At man ikke behøver at gøre tingene mere komplicerede, end de er.
 
-## Indlæg på Motionsplan.dk
+Mit mål med Motionsplan.dk er at give dig de bedst mulige forudsætninger for at lære mere om kroppen og træning, så du kan træne smartere og nå dine mål på et oplyst grundlag.
 
-Her er et uddrag af Lars' artikler på Motionsplan.dk.
+---
+
+## Artikler skrevet af Lars Olesen
+
+Herunder finder du et udvalg af mine seneste indlæg om alt fra muskelanatomi til træningsstrategier.
 
 <div class="feature__wrapper">
-
 {% assign site_posts = site.posts | where: "author", "lsolesen" | sort: "last_modified_at" | reverse %}
-
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 12 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
-
 </div>

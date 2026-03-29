@@ -1,6 +1,7 @@
 ---
 title: "Den tohovedede knæbøjer"
 seo_title: "Den tohovedede knæbøjer | Biceps Femoris | Muskler"
+last_modified_at: 2026-03-29T17:21:31.000Z
 joint:
   - Knæleddet
   - Hofteleddet
@@ -11,7 +12,7 @@ group:
   - Ben
 name:
   latin: Biceps Femoris
-  da: "Den tohovedede knæbøjer"
+  da: "Tohovedede knæbøjer"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -43,3 +44,16 @@ coords:
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
 Biceps femoris er en del af baglåret eller _hamstrings_ sammen med [semitendinosus](/semitendinosus/) og [semimembranosus](/semimembranosus/).
+
+## Se oversigt over muskler
+
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

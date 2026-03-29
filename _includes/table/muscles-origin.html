@@ -1,0 +1,88 @@
+<div class="table-controls" style="margin-bottom: 20px; background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #eee;">
+  <div style="margin-bottom: 15px;">
+    <input type="text" id="muscleSearch" placeholder="Søg i muskler, udspring eller hæfte..." style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <button onclick="setLanguage('da')" id="btn-da" class="btn btn--primary" style="flex: 1;">Vis Danske Navne</button>
+    <button onclick="setLanguage('latin')" id="btn-latin" class="btn btn--light" style="flex: 1;">Vis Latinske Navne</button>
+  </div>
+</div>
+
+<div style="overflow-x: auto;">
+  <table id="muscleTable" style="width: 100%; min-width: 600px;">
+    <thead>
+      <tr>
+        <th style="width: 25%;">Muskel</th>
+        <th style="width: 25%;">Udspring (Origin)</th>
+        <th style="width: 25%;">Hæfte (Insertion)</th>
+        <th style="width: 25%;">Primær Funktion</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign all_muscles = site.anatomy | sort: "title" %}
+      {% for m in all_muscles %}
+      <tr class="muscle-row">
+        <td class="name-cell">
+          <a href="{{ m.url }}">
+            <strong class="lang-da">{{ m.name.da | default: m.title }}</strong>
+            <em class="lang-latin" style="display: none;">{{ m.name.latin }}</em>
+          </a>
+        </td>
+        
+        <td>
+          <span class="lang-da">{{ m.origin.da }}</span>
+          <span class="lang-latin" style="display: none;">{{ m.origin.la }}</span>
+        </td>
+        
+        <td>
+          <span class="lang-da">{{ m.insertion.da }}</span>
+          <span class="lang-latin" style="display: none;">{{ m.insertion.la }}</span>
+        </td>
+        
+        <td>
+          {% for f in m.function.da %}
+            {{ f.short }}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+// Søgefunktion: Kigger i hele rækken (både skjult og vist tekst)
+document.getElementById('muscleSearch').addEventListener('keyup', function() {
+  let searchText = this.value.toLowerCase();
+  let rows = document.querySelectorAll('.muscle-row');
+  
+  rows.forEach(row => {
+    let text = row.textContent.toLowerCase();
+    row.style.display = text.includes(searchText) ? '' : 'none';
+  });
+});
+
+// Sprog-omskifter: Håndterer nu alle celler i rækken
+function setLanguage(lang) {
+  const daElements = document.querySelectorAll('.lang-da');
+  const latinElements = document.querySelectorAll('.lang-latin');
+  const btnDa = document.getElementById('btn-da');
+  const btnLatin = document.getElementById('btn-latin');
+
+  if (lang === 'da') {
+    daElements.forEach(el => el.style.display = 'inline');
+    latinElements.forEach(el => el.style.display = 'none');
+    btnDa.classList.add('btn--primary');
+    btnDa.classList.remove('btn--light');
+    btnLatin.classList.add('btn--light');
+    btnLatin.classList.remove('btn--primary');
+  } else {
+    daElements.forEach(el => el.style.display = 'none');
+    latinElements.forEach(el => el.style.display = 'inline');
+    btnDa.classList.add('btn--light');
+    btnDa.classList.remove('btn--primary');
+    btnLatin.classList.add('btn--primary');
+    btnLatin.classList.remove('btn--light');
+  }
+}
+</script>

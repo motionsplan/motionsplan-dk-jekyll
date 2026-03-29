@@ -121,11 +121,11 @@ muscles:
     children:
       - title: Adductor Brevis
         url: /adductor-brevis/
-      - title: Den lange indadfører
+      - title: Lange indadfører
         url: /adductor-longus/
-      - title: Den store indadfører
+      - title: Store indadfører
         url: /adductor-magnus/
-      - title: Den slanke indadfører
+      - title: Slanke indadfører
         url: /gracilis/
       - title: Pectineus
         url: /pectineus/
@@ -135,7 +135,7 @@ muscles:
         url: /semimembranosus/
       - title: Halvtrinde knæbøjer
         url: /semitendinosus/
-      - title: Den tohovedede knæbøjer
+      - title: Tohovedede knæbøjer
         url: /biceps-femoris/
       - title: Firehovede knæstrækker
         url: /quadriceps-femoris/
@@ -143,7 +143,7 @@ muscles:
         url: /tibialis-anterior/
       - title: Flyndermusklen
         url: /soleus/
-      - title: Den tohovedede lægmuskel
+      - title: Tohovedede lægmuskel
         url: /gastrocnemius/
   - title: Armmuskler
     url: /muskler/arme/
@@ -216,11 +216,11 @@ muscles:
     children:
       - title: Hoftebøjeren
         url: /iliopsoas/
-      - title: Den store sædemuskel
+      - title: Store sædemuskel
         url: /gluteus-maximus/
-      - title: Den mellemste sædemuskel
+      - title: Mellemste sædemuskel
         url: /gluteus-medius/
-      - title: Den lille sædemuskel
+      - title: Lille sædemuskel
         url: /gluteus-minimus/
       - title: Tensor Fascia Latae
         url: /tensor-fascia-latae/

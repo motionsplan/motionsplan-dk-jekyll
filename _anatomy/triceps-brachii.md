@@ -35,7 +35,7 @@ insertion:
   da: Underarmsknoglen
   latin: Ulna et radius
   en: Ulna and radius
-last_modified_at: 2020-11-15T07:31:16+01:00
+last_modified_at: 2026-03-29T17:21:31.000Z
 image: /assets/images/anatomy/triceps-brachii.jpg
 image_focus: /assets/images/anatomy/focus-triceps-brachii.jpg
 coords:
@@ -54,3 +54,18 @@ Det **laterale hoved** (caput laterale) af triceps brachii udspringer fra den pr
 Det **mediale hoved** (caput mediale) ligger under de to andre hoveder og udspringer under det laterale hoved.
 
 Triceps senen løber hen over albuen posteriort og tilhæfter sig på olecranon på ulna. Da musklen løber ned over albuen vertikalt, laver den ekstension i albuen. Den har ikke nogen tilhæftning på radius, derfor laver triceps ikke pronation eller supination.
+
+---
+
+## Se oversigt over muskler
+
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

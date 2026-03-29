@@ -116,3 +116,12 @@ Hvis du laver **bred armstrækning**, så foregår der stadig en strækning i al
 Det samme er tilfældet for **bænkpres**. Den kombinerede bevægelse er altså samlet en bevægelse i det transversale plan, men den er ikke forårsaget af en rotation i skulderleddet. Den er forårsaget af en kombineret bevægelse mellem indadføring og fleksion eller udadføring og ekstension. Du kan fx læse lidt mere på [t-nation.com](https://www.t-nation.com/training/5-things-you-need-to-know-about-every-exercise) eller på [NACM](https://blog.nasm.org/exercise-programming/sagittal-frontal-traverse-planes-explained-with-exercises).
 
 Det er mit bedste bud på en god forklaring af bevægelsesplaner. Du er meget velkommen til at foreslå forbedringer til teksten, hvis du har gode ideer.
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

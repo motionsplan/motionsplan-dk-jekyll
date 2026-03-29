@@ -162,7 +162,8 @@ footer:
 author:
   name: "Motionsplan"
   home: "/om/"
-  bio: "Evidensbaseret viden om træning, test og sundhed. Alt indhold er baseret på anerkendt forskning, praktisk erfaring og ekspertviden. Alle vores skribenter gør sig umage for at give dig opdateret viden og de bedste værktøjer til at optimere din træning og nå dine mål."
+  bio: "Motionsplan leverer evidensbaseret viden om træning, test og sundhed. Alt indhold er kvalitetssikret af Lars Olesen (Cand.Scient. Idræt & Sundhed) og hviler på et fundament af anerkendt forskning og over 25 års undervisningserfaring. Vi arbejder målrettet på at omsætte komplekse videnskabelige studier til konkrete værktøjer og praktiske råd, der hjælper dig med at optimere din træning og nå dine mål på et sikkert grundlag."
+#  bio: "Evidensbaseret viden om træning, test og sundhed. Alt indhold er baseret på anerkendt forskning, praktisk erfaring og ekspertviden. Alle vores skribenter gør sig umage for at give dig opdateret viden og de bedste værktøjer til at optimere din træning og nå dine mål."
   avatar: "/android-chrome-192x192.png"
   links:
     - label: "Om Motionsplan"

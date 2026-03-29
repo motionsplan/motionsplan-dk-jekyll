@@ -11,10 +11,11 @@ header:
   caption: *title
 category:
   - Anatomi
+  - Muskler
 tags:
   - muskler
   - anatomi
-last_modified_at: 2021-01-28T23:14:14Z
+last_modified_at: 2025-01-28T23:14:14Z
 toc: true
 author: lsolesen
 sidebar:
@@ -54,3 +55,12 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 ## Konklusion
 
 Det er vigtigt at træne musklerne i armene. Jeg har samlet flere forslag til din [armtræning og øvelser til træning af armene](/arme-triceps-biceps/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

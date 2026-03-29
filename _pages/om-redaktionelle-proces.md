@@ -1,45 +1,50 @@
 ---
 layout: single
-title: "Vores redaktionelle process"
+title: "Vores redaktionelle proces"
+seo_title: "Redaktionel proces: Sådan sikrer vi evidensbaseret viden"
 permalink: /om/redaktionelle-proces/
-excerpt: ""
+excerpt: "Læs om hvordan Motionsplan.dk sikrer høj faglig kvalitet gennem kildekritik, ekspertvalidering og løbende opdatering af træningsvidenskabelig viden."
 author_profile: true
 breadcrumbs: true
 toc: true
 feature_row_editorial_process:
   - title: 👩‍⚕️
-    excerpt: Skrevet af eksperter og praktikere
+    excerpt: Kvalitetssikret af eksperter med akademisk baggrund
   - title: ✍️
-    excerpt: Fakta-tjekket kritisk med videnskaben
+    excerpt: Baseret på peer-reviewed forskning og kildekritik
   - title: 📝
-    excerpt: Opdateret jævnligt med ny viden
+    excerpt: Løbende opdateret i takt med nyeste videnskab
 ---
 
-Hos Motionsplan.dk er vi dedikerede til at levere pålidelig, evidensbaseret og letforståelig information om træning, sundhed og fitness.
+Hos Motionsplan.dk er vi dedikerede til at levere pålidelig, evidensbaseret og letforståelig information om træningsfysiologi, anatomi og sundhed. 
 
-Vores redaktionelle proces sikrer, at alle artikler er baseret på den nyeste forskning og bedste praksis, så vores læsere kan træffe informerede beslutninger om deres sundhed.
+I en verden præget af fitness-myter og hurtige løsninger er vores redaktionelle proces din garanti for, at alt indhold er valideret mod den nyeste forskning og bedste praksis. Dette sikrer, at du som læser kan træffe informerede beslutninger om din træning og sundhed på et sikkert grundlag.
 
 <div class="feature__wrapper-emoji">
 {% include feature_row id="feature_row_editorial_process" %}
 </div>
 
-## Vores mission
+---
 
-Vores mission er at give læserne den bedste viden om motion, træning og sundhed. Vi ønsker at gøre kompleks videnskab tilgængelig og brugbar for alle.
+## Vores faglige mission
 
-Vores indhold er baseret på fakta, fri for misvisende påstande og udviklet af eksperter med årelang erfaring inden for sundhed og idræt.
+Vores mission er at bygge bro mellem den akademiske verden og den praktiske træningssal. Vi gør kompleks bevægelsesvidenskab tilgængelig og brugbar for alle – fra begyndere til professionelle instruktører.
 
-## Redaktionelle principper
+Alt vores indhold er baseret på efterprøvbare fakta, fri for kommercielt farvede påstande og udviklet af eksperter med årelang erfaring inden for idræt, testning og fysiologi.
 
-For at sikre, at vores indhold er både troværdigt og letforståeligt, følger vi disse grundlæggende principper:
+## Redaktionelle principper og kildekritik
 
-- **Evidensbaseret indhold**: Alle artikler er skrevet med udgangspunkt i videnskabelig forskning, peer-reviewed studier og officielle sundhedsretningslinjer.
-- **Klar og forståelig kommunikation**: Vi præsenterer information på en måde, der er let at forstå, uden at forsimple komplekse emner unødigt.
-- **Nuanceret formidling**: Vi belyser fordele, ulemper og potentielle faldgruber ved forskellige træningsmetoder og sundhedsråd.
+For at sikre den højeste troværdighed følger vi et fastlagt sæt af principper for al formidling:
 
-## Vores redaktionelle team
+- **Evidensbaseret fundament:** Vi tager udgangspunkt i et fast kildehierarki. Vi prioriterer **systematiske reviews og meta-analyser** (f.eks. fra PubMed og Cochrane) samt officielle retningslinjer fra organisationer som **Sundhedsstyrelsen**, **WHO** og **ACSM**.
+- **Klar og nuanceret kommunikation:** Vi præsenterer informationen letforståeligt, men uden at forsimple de fysiologiske sammenhænge. Vi belyser altid både fordele, ulemper og individuelle forbehold.
+- **Uafhængighed:** Vores faglige konklusioner er aldrig påvirket af annoncører. Vi bevarer fuld redaktionel frihed i alle artikler og anbefalinger.
 
-Vores indhold er skrevet af eksperter med en akademisk baggrund inden for idræt og sundhed. Vi samarbejder med trænere, ernæringseksperter og sundhedsprofessionelle for at sikre, at vores artikler er korrekte og opdaterede.
+## Faglig kontrol og ekspertpanel
+
+Vores indhold skabes og valideres af fagfolk med en akademisk baggrund (typisk cand.scient. eller ph.d.) inden for idræt og sundhed. 
+
+**Lars Olesen (Cand.Scient. i Idræt og Sundhed)** har det overordnede faglige ansvar og foretager den endelige godkendelse af alle artikler for at sikre videnskabelig præcision.
 
 {% assign featured_authors = site.data.authors %}
 {% for authors in featured_authors %}
@@ -49,23 +54,28 @@ Vores indhold er skrevet af eksperter med en akademisk baggrund inden for idræt
   {% endif %}
 {% endfor %}
 
-## Proces for indholdsskabelse
+---
 
-Vores redaktionelle proces omfatter følgende trin:
+## Processen bag vores indhold (Step-by-step)
 
-- **Emneudvælgelse** – Vi vælger emner baseret på læserinteresser, aktuelle sundhedstendenser og videnskabelige fremskridt.
-- **Research og kildebrug** – Vi benytter pålidelige kilder såsom videnskabelige tidsskrifter, sundhedsorganisationer og erfarne eksperter.
-- **Skrivning og redigering** – Indholdet bliver skrevet i et klart og letforståeligt sprog og gennemgår en grundig redigeringsproces.
-- **Faktatjek og korrektur** – Vi verificerer løbende oplysningerne af eksperter for at sikre nøjagtighed og kvalitet.
+Hver artikel på Motionsplan gennemgår en fastlagt 4-trins proces:
 
-## Opdatering af indhold
+1. **Emnevalg og evidens-screening:** Vi udvælger emner baseret på relevans for folkesundheden og træningsmiljøet. Vi starter altid med at screene for, om der findes tilstrækkelig videnskabelig konsensus på området.
+2. **Research (The Gold Standard):** Vores skribenter dykker ned i primærlitteraturen. Vi prioriterer nyere forskning (helst inden for de sidste 5-10 år), medmindre der er tale om fundamentale anatomiske principper.
+3. **Faglig formidling:** Indholdet skrives i et sprog, der er til at forstå, men vi forklarer altid de bagvedliggende mekanismer (f.eks. *hvorfor* en muskel aktiveres bedst i en bestemt vinkel).
+4. **Faktatjek og godkendelse:** Inden publicering verificeres alle fysiologiske data og påstande af en faglig ansvarlig for at sikre mod fejl og unøjagtigheder.
 
-Sundheds- og træningsvidenskab udvikler sig konstant, og vi opdaterer derfor løbende vores artikler for at sikre, at de afspejler den nyeste viden og anbefalinger.
+## Løbende revision og opdatering
 
-## Uafhængighed og transparens
+Sundheds- og træningsvidenskab er i konstant udvikling. Vi betragter vores artikler som "levende dokumenter". Det betyder, at vi løbende reviderer eksisterende indhold, når nye store metaanalyser eller retningslinjer udkommer. Du kan altid se datoen for den seneste faglige opdatering i toppen af vores artikler.
 
-Motionsplan.dk er uafhængig af eksterne interesser og lader sig ikke påvirke af annoncører eller sponsorer i vores redaktionelle arbejde. Vi finansierer vores hjemmeside gennem reklamer og affiliate-links, men disse påvirker ikke vores indhold eller anbefalinger.
+## Gennemsigtighed om finansiering
 
-## Feedback & kontakt
+Motionsplan.dk er et gratis medie. Vi finansierer driften gennem reklamer og affiliate-links. Det er vigtigt for os at understrege, at:
+- Reklamer og affiliate-links er tydeligt markeret.
+- Økonomiske interesser aldrig dikterer vores faglige anbefalinger.
+- Indtægterne geninvesteres i at forbedre sitets værktøjer og research-kvalitet.
 
-Vi opfordrer vores læsere til at stille spørgsmål, komme med feedback og foreslå forbedringer. Hvis du har kommentarer eller forslag, er du velkommen til at kontakte os på {{ site.email }}.
+## Kontakt og feedback
+
+Vi opfordrer vores læsere til at være kritiske. Hvis du finder unøjagtigheder, eller har input til vores kildebrug, hører vi meget gerne fra dig på {{ site.email }}. Din feedback er en vigtig del af vores kvalitetssikring.

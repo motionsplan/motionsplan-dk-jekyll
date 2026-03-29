@@ -220,7 +220,7 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   liquid-c
-  minimal-mistakes-jekyll (~> 4.26)
+  minimal-mistakes-jekyll (~> 4.27)
   numo-linalg
   numo-narray
 

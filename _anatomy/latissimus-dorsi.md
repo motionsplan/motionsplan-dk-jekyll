@@ -1,6 +1,7 @@
 ---
 title: "Den brede rygmuskel"
 seo_title: "Den brede rygmuskel | Latissimus Dorsi | Muskler"
+last_modified_at: 2026-03-29T17:21:31.000Z
 functional_group:
   - Armens bagudføring
 joint:
@@ -58,3 +59,16 @@ Derfor er funktionen for latissimus dorsi også at dreje overarmen indad (indadr
 Den brede rygmuskel er også involveret i stort set alle rygøvelser. Du kan altså træne den brede rygmuskel med [pullups](/chinup-vs-pullup/), [rows](/rows/) og dødløft-varianter. Her er min favorit helt sikkert pullups.
 
 {% include motionsplan/exercise key="43" title="Pullup" %}
+
+## Se oversigt over muskler
+
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

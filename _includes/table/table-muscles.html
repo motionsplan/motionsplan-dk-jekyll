@@ -1,19 +1,67 @@
-{% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "group" %}
+<input type="text" id="muscleSearch" onkeyup="filterMuscles()" placeholder="Søg på muskel eller funktion (f.eks. 'balle' eller 'rotation')..." style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
 
-<table id="muscles">
-  <caption>Muskeloversigt: Muskelgrupper og navne på muskler på dansk og latin</caption>
-  <thead>
-  <tr>
-    <th>Dansk navn</th>
-    <th>Latin</th>
-  </tr>
-  </thead>
-  <tbody>
-  {% for m in muscles_by_group %}
-    <tr><td colspan="2"><strong>{{ m.name }}</strong></td></tr>
-    {% for post in m.items %}
-    <tr><td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td><td>{{ post.name.latin }}</td></tr>
-    {% endfor %}
-  {% endfor %}
-  </tbody>
-</table>
+<div style="overflow-x:auto;">
+  <table id="musclesTable">
+    <caption>Muskeloversigt: Danske og latinske navne med funktion</caption>
+    <thead>
+      <tr>
+        <th style="width: 30%;">Muskel (Dansk)</th>
+        <th style="width: 30%;">Latin</th>
+        <th style="width: 40%;">Primær funktion</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "group" | sort: "name" %}
+      
+      {% for g in muscles_by_group %}
+        {% assign group_name = g.name | remove: '[' | remove: ']' | remove: '"' | capitalize %}
+        <tr class="group-header" style="background: #f9f9f9;">
+          <td colspan="3"><strong>{{ group_name }}</strong></td>
+        </tr>
+        {% for post in g.items %}
+        <tr>
+          <td>
+            <a href="{{ post.url }}"><strong>{{ post.name.da | default: post.title }}</strong></a>
+          </td>
+          <td><em>{{ post.name.latin }}</em></td>
+          <td style="font-size: 0.9em;">
+            {% assign functions = post.function.da | map: "short" %}
+            {{ functions | join: ", " | capitalize }}
+          </td>
+        </tr>
+        {% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+function filterMuscles() {
+  var input, filter, table, tr, td, i, j, txtValue;
+  input = document.getElementById("muscleSearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("musclesTable");
+  tr = table.getElementsByTagName("tr");
+
+  for (i = 0; i < tr.length; i++) {
+    // Spring over gruppe-overskrifter i filtreringen
+    if (tr[i].classList.contains("group-header")) {
+      tr[i].style.display = filter === "" ? "" : "none";
+      continue;
+    }
+    
+    td = tr[i].getElementsByTagName("td");
+    var found = false;
+    for (j = 0; j < td.length; j++) {
+      if (td[j]) {
+        txtValue = td[j].textContent || td[j].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          found = true;
+          break;
+        }
+      }
+    }
+    tr[i].style.display = found ? "" : "none";
+  }
+}
+</script>

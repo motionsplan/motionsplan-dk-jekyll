@@ -1,58 +1,83 @@
 ---
-title: "Den mellemste sædemuskel"
-seo_title: "Den mellemste sædemuskel | Gluteus Medius | Muskler"
+title: "Mellemste sædemuskel"
+seo_title: "Mellemste sædemuskel | Gluteus Medius | Hoftens stabilitet"
+excerpt: "Gluteus medius er den vigtigste stabilisator af bækkenet. Den er afgørende for en sund løbestil og for at undgå knæ- og lændesmerter."
 functional_group:
-  - Hoftens udadførere
+  - Hoftens abduktorer og stabilisatorer
 joint:
   - Hofteleddet
 group:
   - Hofte
 name:
   latin: "Gluteus Medius"
-  da: "Den mellemste sædemuskel"
+  da: "Mellemste sædemuskel"
 tags:
   - imagemap
-  - fitnessinstruktør
   - muskel
+  - anatomi
+  - løb
 categories:
   - Muskler
 origin:
-  da: Yderst på øverste kant af hoftebenet
+  da: "Ydersiden af hoftebenet (ilium) mellem linea glutea anterior og posterior."
 insertion:
-  da: Øverst på bagsiden af låret
+  da: "Ydersiden af den store lårbensknude (trochanter major)."
 function:
   da:
     - short: Abduktion i hoften
-      extended: Gluteus medius bevæger benet ud til siden væk fra den mediale linje i kroppen.
-    - short: Indadrotation i hoften (forreste fibre)
-      extended: De anteriore fibre af gluteus medius deltager i indadrotation af benet i hoften.
-    - short: Fleksion i hoften (forreste fibre)
-      extended: De anteriore fibre af gluteus medius er med til at lave en fleksion i hoften.
-    - short: Udadrotation i hoften (mediale og bagereste fibre)
-      extended: De posteriore fibre af gluteus medius er med til at lave en udadrotation i hoften.
-    - short: Ekstension i hoften
-      extended: De posteriore fibre af gluteus medius er med til at lave en strækning i hoften.
-    - short: Stabiliserer hoften under gang og løb
-      extended: Gluteus medius er med til at holde bækkenet lige, når benet i den anden side løfter sig fra jorden.
+      extended: "Fører benet ud til siden væk fra kroppen."
+    - short: Stabilisering af bækkenet
+      extended: "Holder bækkenet vandret under gang og løb, når det modsatte ben løftes."
+    - short: Indadrotation i hoften
+      extended: "De forreste fibre roterer lårbenet indad."
+    - short: Udadrotation i hoften
+      extended: "De bagerste fibre bidrager til udadrotation."
   en:
-    - short: Abducts the leg at the hip.
-      extended: This means that the gluteus medius muscle moves the upper leg outward to the side away from the vertical midline of the body (i.e. the action of spreading your legs to the side).
-    - short: The anterior (or front) fibers of the gluteus medius muscle medially rotate the upper leg.
-      extended: This means that the anterior fibers of the gluteus medius muscle rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
-    - short: The anterior (or front) fibers of the gluteus medius muscle flex the leg at the hip.
-      extended: This means that the anterior fibers of the gluteus medius muscle bend the hip joint such that there is a decrease in the angle between the upper leg and the torso.
-    - short: The posterior (or rear) fibers of the gluteus medius muscle laterally rotate the upper leg.
-      extended: This means that the posterior fibers of the gluteus medius muscle rotate the upper leg outward around the axis of the bone (i.e. rotate the upper leg away from the vertical midline of the body).
-    - short: The posterior (or rear) fibers of the gluteus medius muscle extend the leg at the hip.
-      extended: This means that the posterior fibers of the gluteus medius muscle straighten the hip joint such that there is an increase in the angle between the upper leg and the torso.
-    - short: Stabilizes the hip joint during walking.
-      extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
+    - short: Abducts the hip.
+    - short: Stabilizes the pelvis.
+    - short: Medially rotates the hip.
 image: /assets/images/anatomy/gluteus-medius.jpg
 image_focus: /assets/images/anatomy/focus-gluteus-medius.jpg
 coords:
   - "422,216,435,216,443,219,428,224,417,234"
   - "497,235,491,215,481,216,471,218,486,224"
-last_modified_at: 2022-10-19T22:21:11Z
+last_modified_at: 2026-03-29T16:00:00Z
 ---
 
-{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin }}*. Musklen sørger primært for {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} samt {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en helt central del af {{ page.functional_group | join: ", " | downcase }}.
+
+## Hvad er {{ page.title }}?
+
+Gluteus medius er den mellemste af de tre ballemuskler og ligger på ydersiden af hoften, delvist dækket af den store sædemuskel ([Gluteus Maximus](/gluteus-maximus/)). Den fungerer som hoftens "ballast", der sikrer, at dit bækken ikke tipper, hver gang du tager et skridt.
+
+Man kan dele musklen op i en forreste og en bagerste del, som har næsten modsatvirkende funktioner (indadrotation vs. udadrotation), hvilket gør den til en kompleks men ekstremt vigtig muskel for koordinationen i underkroppen.
+
+## Betydning for løbere og knæsmerter
+
+Hvis Gluteus Medius er svag, vil bækkenet falde ned i den side, hvor foden er i luften. Dette skaber en kædereaktion, hvor lårbenet roterer for meget indad, og knæet "falder indad" (valgus-position). Dette er en af de hyppigste årsager til:
+* **Løberknæ** (Iliotibial Band Syndrome)
+* **Springerknæ**
+* **Smerter i lænden** (fordi ryggen skal kompensere for det skæve bækken)
+
+## Træning af {{ page.title }}
+
+For at aktivere den mellemste sædemuskel skal man fokusere på stabilitet og abduktion:
+
+* **Sideliggende benløft:** En klassisk isolationsøvelse. Sørg for at føre benet lidt bagud for at ramme de bagerste fibre.
+* **Monster Walk (med elastik):** Gå sidelæns med en elastik omkring anklerne eller knæene.
+* **Etbens-squats:** En funktionel øvelse, der tvinger musklen til at stabilisere bækkenet under belastning.
+
+Læs også om [den lille sædemuskel (Gluteus Minimus)](/gluteus-minimus/), der ligger lige under medius og hjælper med de samme opgaver.
+
+## Se oversigt over muskler
+
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

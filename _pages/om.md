@@ -1,37 +1,37 @@
 ---
 layout: single
 title: "Om Motionsplan"
-seo_title: "Om Motionsplan - Din kilde til evidensbaseret træningsviden"
+seo_title: "Om Motionsplan - Evidensbaseret viden om træning og fysiologi"
 permalink: /om/
-excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning. Her får du alle detaljerne."
-description: "Lær mere om Motionsplan.dk, et gratis medie drevet af eksperter, der tilbyder evidensbaseret viden om træning, sundhed og fitness."
+excerpt: "Motionsplan er et uafhængigt videnscenter for træningsvidenskab, drevet af fageksperter med baggrund i idræt og sundhed."
+description: "Lær mere om Motionsplan.dk – et uafhængigt medie ledet af Lars Olesen (Cand.Scient.), der formidler evidensbaseret viden om træning, anatomi og sundhed."
 author_profile: true
 breadcrumbs: true
 toc: true
 feature_row_editorial_process:
   - title: 👩‍⚕️
-    excerpt: Skrevet af eksperter og praktikere
+    excerpt: Kvalitetssikret af eksperter med akademisk baggrund
   - title: ✍️
-    excerpt: Fakta-tjekket kritisk med videnskaben
+    excerpt: Baseret på peer-reviewed forskning og kildekritik
   - title: 📝
-    excerpt: Opdateret jævnligt med ny viden
+    excerpt: Løbende opdateret i takt med nyeste videnskab
 ---
 
-Velkommen til Motionsplan.dk – din kilde til evidensbaseret viden om træning, sundhed og fitness.
+Velkommen til Motionsplan.dk – din uafhængige kilde til evidensbaseret viden om træningsfysiologi, anatomi og sundhed.
 {: .intro }
 
-Vores mission er at give dig den bedst mulige viden, så du kan træne effektivt, holde motivationen oppe og få de bedste resultater. Vi kombinerer den nyeste forskning med mange års praktisk erfaring for at give dig indhold, du kan stole på.
+Vores mission er at bygge bro mellem videnskabelig forskning og praktisk træning. Vi kvalitetssikrer alt indhold, så du får adgang til nuanceret viden, du kan stole på – fri for fitness-myter og hurtige løsninger.
 
-Vi har en mission --- at hjælpe dig med at få den bedst mulige viden, så du kan træne effektivt, holde motivationen og få resultater.
+Vi har en mission — at omsætte kompleks træningsvidenskab til praktiske værktøjer, der hjælper dig med at optimere din træning på et oplyst og sikkert grundlag.
 {: .pull-quote }
-
-Hvis du – ligesom os – er nysgerrig på, hvordan kroppen reagerer på træning, og hvordan du kan optimere dine resultater, så er du kommet til det rette sted.
 
 {% include gallery images=site.data.mentioned class="no-collapse" layout="fifth" headline="Motionsplan er omtalt i" %}
 
 ## Eksperterne bag Motionsplan.dk
 
-Motionsplan.dk ejes og drives af **Lars Olesen**, cand.scient. i Idræt og Sundhed fra Syddansk Universitet. Lars har undervist siden 1999 i bl.a. test & træning, fitnessinstruktør, løbetræning og idræt på [Vejle Idrætshøjskole](https://www.vih.dk/).
+Motionsplan.dk ejes og drives af **Lars Olesen**, som har det overordnede faglige ansvar for alt indhold på siden.
+
+**Lars Olesen** er cand.scient. i Idræt og Sundhed fra Syddansk Universitet (SDU) og har siden 1999 arbejdet professionelt med formidling af træningsvidenskab. Som mangeårig underviser på **Vejle Idrætshøjskole** og ansvarlig for uddannelse af fitnessinstruktører hos **Bevæg Dig For Livets Foreningsfitness**, kombinerer han den nyeste fysiologiske forskning med praktisk erfaring for at gøre videnskabelig træningsviden tilgængelig og anvendelig for alle – uanset niveau.
 
 {% assign featured_authors = site.data.authors %}
 {% for authors in featured_authors %}
@@ -41,67 +41,47 @@ Motionsplan.dk ejes og drives af **Lars Olesen**, cand.scient. i Idræt og Sundh
   {% endif %}
 {% endfor %}
 
-Derudover bidrager en række dygtige freelance-journalister til det redaktionelle indhold, som du kan læse nærmere om længere nede på denne side.
-
-## Et gratis medie til dig
-
-Motionsplan.dk er et gratis medie skabt for at gøre kvalificeret viden om træning tilgængelig for alle. Der ligger mange timers arbejde bag artiklerne og de værktøjer, vi udvikler – alt sammen for at give dig den bedst mulige vejledning i din træning.
-
-[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning rel="nofollow noopener" }
-
-## Vores principper
-
-- **Evidensbaseret indhold.** Vores artikler er baseret på videnskab. Hvis forskningen ændrer sig, eller vi bliver klogere, opdaterer vi vores indhold.
-- **Klart og forståeligt sprog.** Vi gør kompleks viden let at forstå – uden at forsimple.
-- **Nuanceret formidling.** Vi går i dybden og nuancerer ofte mediernes forsimplede fremstillinger af træning og sundhed.
-- **Løbende opdatering.** Artikler og øvelser gennemgås og revideres regelmæssigt for at sikre, at de er baseret på den nyeste viden. Har du input eller konstruktive kommentarer, tager vi dem gerne med i overvejelserne.
-
-Har du spørgsmål? Du er altid velkommen til at kontakte os på {{ site.email }}.
+Derudover bidrager et stærkt hold af fagfolk, herunder cand.scient.'er og ph.d.'er, til det redaktionelle indhold for at sikre den højeste faglige standard.
 
 ## Vores redaktionelle proces
 
-Hos Motionsplan.dk er vores mission at levere evidensbaseret og letforståelig information om træning og sundhed. Vores team består af fagfolk med baggrund inden for idræt og sundhed, herunder cand.scient.'er og ph.d.'er. De er med til at sikre, at alt indhold er baseret på den nyeste forskning og bedste praksis.
+Hos Motionsplan.dk er gennemsigtighed og faglig integritet kernen i vores arbejde. Vores team består udelukkende af fagfolk med en akademisk eller professionel baggrund inden for idræt og sundhed.
 
-Alle artikler gennemgår grundig research og faktatjek, inden de publiceres. Det indebærer også en løbende opdatering af eksisterende indhold for at tage højde for udviklingen i videnskaben.
+- **Grundig research:** Alle artikler baseres på anerkendte kilder og peer-reviewed studier.
+- **Faktatjek:** Indholdet gennemgår en kritisk revision, før det publiceres.
+- **Løbende revision:** Vi opdaterer jævnligt vores artikler og værktøjer for at sikre, at de afspejler den nyeste viden på området.
 
-Vores mål er at præsentere information på en klar og nuanceret måde, der gør det komplekse forståeligt uden at gå på kompromis med indholdets dybde.
-
-For at sikre gennemsigtighed og opretholde høj kvalitet er vi ikke påvirket af annoncører i vores redaktionelle dækning.
+For at sikre fuld redaktionel uafhængighed er vores indhold aldrig påvirket af annoncører eller kommercielle interesser.
 
 <div class="feature__wrapper-emoji">
 {% include feature_row id="feature_row_editorial_process" %}
 </div>
 
-[Læs mere om vores redaktionelle process](/om/redaktionelle-proces/){: .btn .btn--info .btn--center }
+[Læs mere om vores redaktionelle proces](/om/redaktionelle-proces/){: .btn .btn--info .btn--center }
 
-## Et gratis medie med reklamer
+## Vores principper
 
-Vi finansierer driften gennem reklamer og affiliate-links, som er tydeligt markeret, og indtægterne bruges til at støtte og videreudvikle hjemmesiden. Vi opfordrer vores læsere til at kontakte os med feedback eller spørgsmål, så vi kontinuerligt kan forbedre og tilpasse vores indhold til jeres behov.
+- **Kvalitetssikret og evidensbaseret.** Vores artikler hviler på et fundament af videnskab. Vi reviderer indholdet, når ny forskning gør os klogere.
+- **Klart og nuanceret sprog.** Vi gør det komplekse forståeligt uden at miste dybden eller forfalde til clickbait.
+- **Kildekritik.** Vi deklarerer vores kilder og skelner skarpt mellem videnskabelige fakta og praktiske erfaringer.
+- **Uafhængighed.** Vi prioriterer altid læserens behov for korrekt information over kommercielle hensyn.
 
-Hvis du køber noget via et link, modtager vi en lille kommission – uden at det koster dig ekstra.
+---
 
-Indtjeningen bruges til at udvikle og forbedre hjemmesiden, opdatere indholdet og lancere nye tiltag. Hvis du vil støtte os direkte, kan du **[aktivere et reklamefrit Motionsplan](https://www.buymeacoffee.com/l/Gi0SBcuPF){: rel="nofollow noopener" }**.
+## Et gratis medie finansieret af fællesskabet
+
+Motionsplan.dk er et gratis medie skabt for at gøre kvalificeret viden tilgængelig for alle. For at finansiere driften og de mange timers research bag artiklerne, benytter vi os af reklamer og affiliate-links.
+
+- **Affiliate-links:** Hvis du køber noget via et link markeret som reklame, modtager vi en lille kommission uden ekstra omkostninger for dig.
+- **Direkte støtte:** Du kan hjælpe os med at holde sitet kørende og annoncefrit ved at støtte os direkte.
+
+[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning rel="nofollow noopener" }
 
 {% include gallery images=site.data.advertisers class="no-collapse" layout="seventh" headline="Samarbejdspartnere (reklamelinks)" %}
 
-Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har fortjent det.
-
 {% include motionsplan/buymeacoffee.html %}
 
-## Billeder og ikoner
-
-- Vi bruger billeder fra [Unsplash.com](https://unsplash.com/){: rel="nofollow noopener" } og skriver selv alle artiklerne.
-- Ikoner brugt på sitet er lavet af [Dave Gandy](https://www.flaticon.com/authors/dave-gandy){: rel="nofollow noopener" } fra [Flaticon](https://www.flaticon.com/){: rel="nofollow noopener" }.
-
-## Motionsplan i tal
-
-- Artikler: {{ site.posts.size }}
-- Øvelser: {{ site.exercises.size }}
-{% comment %}
-- Træningsprogrammer: {{ site.programs.size }}
-{% endcomment%}
-
-## Forfattere - et stærkt hold
+## Forfattere - et stærkt fagligt hold
 
 {% assign featured_authors = site.data.authors %}
 {% for authors in featured_authors %}
@@ -111,6 +91,11 @@ Du kan også støtte os ved at købe os en kop kaffe, hvis du synes, at vi har f
   {% endif %}
 {% endfor %}
 
-## Del din mening på Trustpilot
+## Motionsplan i tal
 
-Vi vil gerne høre, hvad du synes om Motionsplan.dk! Efterlad en anmeldelse på [Trustpilot](https://dk.trustpilot.com/review/motionsplan.dk){: rel="nofollow noopener" }.
+- Videnskabelige artikler: {{ site.posts.size }}
+- Instruktionsvideoer og øvelser: {{ site.exercises.size }}
+
+## Del din mening
+
+Vi værdsætter feedback fra vores brugere for løbende at forbedre kvaliteten af vores formidling. Efterlad gerne en anmeldelse på [Trustpilot](https://dk.trustpilot.com/review/motionsplan.dk){: rel="nofollow noopener" }.

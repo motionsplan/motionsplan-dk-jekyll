@@ -45,7 +45,7 @@ insertion:
   da: Begge underarmsknogler
   latin: Ulna et radius
   en: Ulna and radius
-last_modified_at: 2020-11-15T07:28:29+01:00
+last_modified_at: 2026-03-29T17:21:31.000Z
 image: /assets/images/anatomy/biceps-brachii.jpg
 image_focus: /assets/images/anatomy/focus-biceps-brachii.jpg
 coords:
@@ -111,3 +111,16 @@ En anden almindelig skade er seneskedehindebetændelse, som er en betændelse i 
 For at forebygge senebetændelse er det vigtigt at have en god form, når man udfører øvelser, og at man ikke overdriver det. Hvis du begynder at føle smerte, skal du stoppe øvelsen og hvile i et pardage.
 
 Musklen biceps brachii er en meget vigtig muskel, som spiller en afgørende rolle for armens og skulderens funktion og bevægelse. Det er vigtigt at holde denne muskel sund og skadesfri ved at varme ordentligt op før træning, bruge god form og ikke overdrive.Hvis du oplever en skade, skal du stoppe træningen og hvile i et par dage.
+
+## Se oversigt over muskler
+
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

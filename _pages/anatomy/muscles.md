@@ -16,14 +16,8 @@ tags:
 toc: true
 sidebar:
   nav: anatomi
-feature_row:
-  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-muskler-AN10023.png
-    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/muskulatur-anatomi-plakat/
-    title: Muskulatur - Anatomi plakat
-    alt: "Muskler i ben, arme, skulder, kropsstamme"
-    rel: sponsored nofollow noopener
 breadcrumbs: true
-last_modified_at: 2022-05-19T08:14:14.000Z
+last_modified_at: 2026-03-19T08:14:14.000Z
 faq:
   - question: Hvad er skeletmuskler?
     answer: "Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”."
@@ -36,6 +30,8 @@ faq:
   - question: Hvad er den mindste muskel i kroppen?
     answer: "Den mindste muskel i menneskekroppen er stapedius, som hæfter til bøjlebenet i mellemøret."
 ---
+
+Som underviser i anatomi og fysiologi får jeg ofte spørgsmål om, hvordan kroppens over 700 muskler egentlig arbejder sammen. Her har jeg samlet en komplet oversigt over muskler i kroppen, muskelgrupper og deres latinske navne, så du kan få styr på anatomien bag din træning.
 
 Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler på latin og dansk.
 
@@ -54,8 +50,6 @@ Muskler er celler, der har en evne til at trække sig sammen. Musklerne er hæft
 Musklerne er altså en del af en funktionel enhed sammen med [led](/led/) og [knogler](/knogler/), som skal skabe bevægelse i kroppen. Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes **agonisten**, mens musklen på den modsatte side kaldes **antagonisten**.
 
 Der er aktivitet i begge muskler omkring leddet. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv.
-
-{% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
 ## Sådan fungerer en muskel
 
@@ -98,6 +92,17 @@ I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuld
 
 {% include table/table-muscles.html %}
 
+---
+
+## 🔍 Anatomisk opslagstabel (Udspring, Hæfte & Funktion)
+
+Hvis du er studerende eller bare vil nørde de anatomiske detaljer, har jeg lavet et dedikeret værktøj til dig. Her kan du søge i alle muskler og se deres præcise udspring og hæfte på både dansk og latin.
+
+👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
+{: .notice--info }
+
+---
+
 ## Muskelfibertyper
 
 Musklerne består af muskelfibre. Typen af muskelfibre bestemmes af, hvordan musklen bruges. Derfor findes der forskellige typer af muskelfibre, som kan inddeles i to grupper:
@@ -119,38 +124,53 @@ Du kan finde dedikerede sider om de enkelte muskelgrupper.
 <details markdown="1" class="faq">
   <summary><h3 id="benmuskler">Benmuskler</h3></summary>
 
-Jeg har samlet en liste over muskler i dine ben her. Det er godt at vide, hvordan dine benmuskler virker, hvis du gerne vil træne musklerne i benet.
+Benmusklerne er fundamentet for din krops styrke. De omfatter massive muskler som [**Gluteus Maximus**](/gluteus-maximus/) (ballen) og [**Quadriceps**](/quadriceps-femoris/) (låret). At kende anatomien i benene er essentielt for at optimere øvelser som squat og dødløft.
 
-Læs mere om [benmuskler]({% link _posts/2021-03-30-benmuskler.md %}).
+Læs den dybdegående guide til [benmuskler og bentræning](/muskler/ben/).
 </details>
 
 <details markdown="1" class="faq">
   <summary><h3 id="rygmuskler">Rygmuskler</h3></summary>
 
-Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
+Ryggen er et komplekst system af muskler, der spænder fra den brede [**Latissimus Dorsi**](/latissimus-dorsi/) til de dybe rygstrækkere. For at bygge en stærk ryg skal du både mestre vertikale træk som [pullups](/chinup-vs-pullup/) og horisontale træk som [rows](/rows/).
 
-Nogle af de populære muskler til at træne ryggen er [rygøvelserne pullup og chinups](/chinup-vs-pullup/) og [de mange rows og variationer af trækøvelser](/rows/).
+Se oversigten over [ryggens anatomi og rygmuskler her](/muskler/ryggen/).
+</details>
 
-Læs mere om [rygmusklerne her]({% link _posts/2021-03-30-rygmuskler.md %}).
+<details markdown="1" class="faq">
+  <summary><h3 id="hoftemuskler">Hoftemuskler</h3></summary>
+
+Hoften er omdrejningspunktet for kroppens kraftoverførsel. Her finder du både de dybe hoftebøjere som [**Iliopsoas**](/iliopsoas/) og de kraftfulde sædemuskler som [**Gluteus Maximus**](/gluteus-maximus/). En stærk og mobil hofte er afgørende for at undgå lændesmerter og optimere din præstation i alt fra løb til tunge løft.
+
+Læs den dybdegående guide til [hoftens muskler og funktion her](/muskler/hoften/).
+</details>
+
+<details markdown="1" class="faq">
+  <summary><h3 id="skuldermuskler">Skuldermuskler</h3></summary>
+
+Skulderen er kroppens mest bevægelige led, hvilket stiller store krav til stabiliteten. Her dominerer den synlige [**Deltoideus**](/deltoideus/), mens den dybe [**Rotator Cuff**](/rotator-cuff/) sørger for at holde leddet på plads. Forståelse for skulderens anatomi er nøglen til brede skuldre og skadesfri træning i alle presse- og trækbøjninger.
+
+Se den komplette oversigt over [skuldermuskler og skulderens anatomi her](/muskler/skulder/).
 </details>
 
 <details markdown="1" class="faq">
   <summary><h3 id="mavemuskler">Mavemuskler</h3></summary>
 
-Jeg har samlet en liste over muskler i dine mavemuskler. Det er godt at vide, hvordan dine mavemuskler virker, hvis du gerne vil træne muskler i maven bedst muligt.
+Træning af maven handler om mere end bare "six-pack". Det handler om opspænd og stabilitet via den lige mavemuskel, de skrå mavemuskler og den dybe tværgående mavemuskel. En stærk core beskytter din rygsøjle under tunge løft.
 
-Læs mere om [mavemuskler]({% link _posts/2021-03-30-mavemuskler.md %}).
+Læs mere om funktionel træning af [mavemusklerne her](/muskler/mave/).
 </details>
 
 <details markdown="1" class="faq">
   <summary><h3 id="armmuskler">Armmuskler</h3></summary>
 
-Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvordan dine armmuskler virker, hvis du gerne vil træne musklerne i armene.
+I overarmen fokuserer mange ofte på [biceps](biceps-brachii/), men det er faktisk [**triceps brachii**](triceps-brachii/) (armstrækkeren), der er den største muskel. Da triceps udgør ca. 2/3 af armens samlede muskelvolumen, er det den vigtigste muskel at træne, hvis du ønsker fyldige overarme.
 
-I armene er det faktisk triceps, der er den største muskel. Du kan læse meget mere om størrelsen på muskler hos [bodylab.dk](https://www.bodylab.dk/shop/det-vidste-du-2865c1.html).
+Se også vores rangliste over [kroppens største og mindste muskler](/stoerste-og-mindste-muskel-i-kroppen/).
 
-Læs mere om [armmuskler]({% link _posts/2021-03-30-armmuskler.md %}).
+Læs mere om [armmuskler og effektive armøvelser](/muskler/arme/).
 </details>
+
 
 ## Sådan opbygger du muskler
 
@@ -187,3 +207,12 @@ Vi har også set på, hvordan man opbygger muskelmasse, og forklaret nogle af de
 {% endif %}
 
 </div>
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

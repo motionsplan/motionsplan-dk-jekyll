@@ -1,7 +1,7 @@
 ---
 title: &title "Rygmuskler: Liste og øvelser til muskler i ryggen"
 seo_title: "Rygmuskler: Sådan træner du dine muskler i ryggen"
-description: "Komplet liste over muskler i ryggen. Forslag til træning af rygmusklerne."
+description: "Komplet liste over muskler i ryggen. Forslag til træning af rygmusklerne og forståelse af ryggens anatomi."
 permalink: /muskler/ryggen/
 redirect_from:
   - /rygmuskler/
@@ -13,10 +13,12 @@ header:
   caption: *title
 category:
   - Anatomi
+  - Muskler
 tags:
   - muskler
   - anatomi
-last_modified_at: 2021-01-28T23:14:14Z
+  - ryg
+last_modified_at: 2026-03-29T18:25:00Z
 toc: true
 author: lsolesen
 sidebar:
@@ -24,57 +26,43 @@ sidebar:
 breadcrumbs: true
 ---
 
-Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
+Jeg har samlet en liste over musklerne i din ryg her. Det er afgørende at forstå ryggens komplekse anatomi, hvis du ønsker en stærk holdning, en bred ryg og en krop, der kan modstå hverdagens belastninger.
 
-{% include figure image_path=page.header.teaser caption="Du ser sjældent dine rygmuskler, men de er vigtige for at have en god og ret holdning" alt="rygmuskler og muskler i ryggen" %}
+{% include figure image_path=page.header.teaser caption="Du ser sjældent dine rygmuskler selv, men de er fundamentet for din krops styrke og en ret holdning." alt="rygmuskler og muskler i ryggen" %}
 
-[Pullup og chinups](/chinup-vs-pullup/) er rigtig gode øvelser til ryggen, ligesom du ikke kan undvære de mange [rows og row-variationer](/rows/).
+Ryggen består af mange lag muskler, der arbejder sammen om alt fra at stabilisere rygsøjlen til at trække tunge genstande mod kroppen. For at træne ryggen komplet skal du både mestre vertikale træk som [pullups](/chinup-vs-pullup/) og horisontale bevægelser som [rows](/rows/).
 
 Jeg har lavet en liste over [gode øvelser til ryggen](/rygoevelser/).
 
-{% comment %}
-
 ## Hvorfor træne musklerne i ryggen?
 
-Du bruger dine ben hele tiden. Benene skal bære hele vægten for din krop. Derfor kan det også betale sig at styrke musklerne - både for at [forebygge skader]({% link _posts/2020-11-23-skadesforebyggelse.md %}), men også for at få bedre præstationer.
+Vi bruger ryggen i næsten alt, hvad vi foretager os. Ryggens muskler skal bære overkroppens vægt og beskytte din rygmarv. Derfor kan det i høj grad betale sig at styrke muskulaturen – både for at [forebygge skader]({% link _posts/2020-11-23-skadesforebyggelse.md %}) som diskusprolaps og lændespændinger, men også for at forbedre din præstation i sport.
 
-Hvis musklerne omkring knæet - på både forsiden og bagsiden - er stærke, så vil det fjerne lidt af belastningen på knæleddet, når du står, går og løber. Det kan hjælpe dig med at have et sundt knæled over mange år.
+Når musklerne omkring rygsøjlen og skulderbladene er stærke, aflaster de leddene, når du står, går og løfter. Det er med til at sikre en sund ryg gennem mange år.
 
-Når musklerne i benene er stærke, så vil du også præstere bedre, når du springer, løber og sprinter.
+## Ryggens opbygning
 
-## Hvilke muskler har du i dit ryg?
+Ryggens muskler kan overordnet deles op i to hovedgrupper:
 
-Når du træner ben, så er de store muskler den firehovede knæstrækker (quadriceps), sædemusklerne (gluteus maximus og til dels medius), indadførene (adductor magnus, longus og brevis), hasemusklerne (semimembranosus, semitendinosus og biceps femoris), og lægmusklerne (gastrocnemius og soleus).
+1.  **De overfladiske rygmuskler:** Det er de store, synlige muskler, der primært styrer bevægelser af skuldrene og armene. Det inkluderer [**Latissimus Dorsi**](/latissimus-dorsi/) (den brede rygmuskel), [**Trapezius**](/trapezius/) (kappemusklen) og [**Rhomboideus**](/rhomboideus/). Det er disse muskler, der giver ryggen dens form og bredde.
+2.  **De dybe rygmuskler:** Disse muskler ligger tættere på rygsøjlen og er ofte ikke synlige. Deres vigtigste opgave er at stabilisere rygsøjlen, styre din holdning og sørge for, at du kan rette ryggen ud. En af de mest centrale er [**Erector Spinae**](/rygstraekkere/).
 
-***
-
-RYGGENS OPBYGNING
-Ryggens muskler kan deles op i to muskelgrupper:
-
-De overfladiske rygmuskler
-De dybe rygmuskler
-De overfladiske rygmuskler er de store rygmuskler som har funktion på skulder og skulderbæltet (kraveben og skulderblad) og er de muskler du kan se på en veltrænet ryg. De overfladiske rygmuskler består af nakkemusklen, den brede rygmuskel og skulderbladetsmuskler.
-
-Ryggens anatomi
-
-De dybe rygmuskler er muskler som ligger dybere og er dermed ikke er visuel, men som har vigtig funktion på rygsøjlen og ribbene.
-
-I dette indlæg vil vi koncentrere os om de overfladiske rygmuskler, som du direkte kan træne i træk bevægelser og som primært medvirker til en stærk og veltrænet ryg.
-
-{% endcomment %}
-
-Jeg har samlet musklerne i ryggen på en liste med lidt flere informationer herunder.
+I dette indlæg fokuserer vi primært på de overfladiske muskler, som du direkte kan træne med træk-bevægelser, og som medvirker til en visuelt stærk og funktionel ryg.
 
 ## Liste over muskler i ryggen
+
+Herunder finder du de specifikke muskler i ryggen med genveje til deres detaljerede anatomi, udspring og hæfte:
 
 {% assign muscles = site.anatomy | where: "group", "Ryg" %}
 {%- for m in muscles -%}
 - [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
-{% endfor %}
+{%- endfor -%}
 
-Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du er interesseret i at lære endnu mere om [anatomien i kroppen](/anatomi/).
+Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis du vil lære mere om [anatomien i kroppen](/anatomi/).
 
 ## Vigtige øvelser til træning af rygmuskler
+
+En god rygtræning bør kombinere tunge basisløft med isolationsøvelser for at ramme både de dybe og de overfladiske lag.
 
 {% include motionsplan/exercise key="15" title="Dødløft" %}
 
@@ -84,4 +72,21 @@ Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du e
 
 ## Konklusion
 
-Det er vigtigt at træne rygmusklerne. Jeg har samlet flere forslag til din [rygtræning og øvelser til træning af ryggen](/rygoevelser/).
+Det er fundamentalt for din sundhed og kropsholdning at træne ryggen. Ved at forstå, hvordan de forskellige lag arbejder sammen, kan du sammensætte et mere effektivt træningsprogram. Jeg har samlet flere forslag til din [rygtræning og specifikke øvelser til ryggen her](/rygoevelser/).
+
+---
+
+## Se oversigt over muskler
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+👉 **[Se den store søgbare tabel over alle muskler her](/muskler/tabel/)**
+{: .notice--info }
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

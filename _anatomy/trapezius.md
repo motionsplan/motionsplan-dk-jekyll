@@ -1,6 +1,7 @@
 ---
 title: "Kappemusklen"
 seo_title: "Kappemusklen | Trapezius | Muskler"
+last_modified_at: 2026-03-29T17:21:31.000Z
 functional_group:
   - Skulderbladsadduktorer
 joint:
@@ -53,3 +54,18 @@ Du kan altså træne trapezius med rigtig mange rygøvelser. Men man kan helt si
 Her er en nem og effektiv øvelse til at træne trapezius (kappemusklen). Øvelsen er også god til at styrke øvre ryg. Brug en elastik eller evt. en håndvægt til øvelsen.
 
 {% include video provider="youtube" id="AYOTS-L4_Wg" %}
+
+---
+
+## Se oversigt over muskler
+
+Hvis du vil lære mere om kroppens opbygning, kan du se min komplette [liste over muskler her](/muskler/) eller dykke ned i den generelle [anatomi](/anatomi/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

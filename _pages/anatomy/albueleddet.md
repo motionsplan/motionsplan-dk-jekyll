@@ -57,3 +57,12 @@ Hen over albueleddet går sener og muskler ned til underarmen og fingrene. De st
 {% include anatomy/table-muscles-elbow.html %}
 
 Se [alle muskler delt op efter led](/led/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

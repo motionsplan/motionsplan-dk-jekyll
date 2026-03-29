@@ -84,3 +84,12 @@ Den lige rygstrækker (Erector Spinae) er betegnelsen for den muskulatur, der l�
 {% include anatomy/table-muscles-back.html %}
 
 Se [alle muskler delt op efter led](/led/).
+
+<details markdown="1" class="references">
+  <summary><h2 id="references">Referencer</h2></summary>
+
+- Bojsen-Møller, F. & Simonsen, E. B. (2014). *Bevægeapparatets anatomi* (13. udg.). Munksgaard.
+- Schünke, M., Schulte, E. & Schumacher, U. (2020). *Prometheus - Atlas of Anatomy* (3. udg.). Thieme.
+- Netter, F. H. (2022). *Atlas of Human Anatomy* (8. udg.). Elsevier.
+
+</details>

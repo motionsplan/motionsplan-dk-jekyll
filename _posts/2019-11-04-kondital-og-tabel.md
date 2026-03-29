@@ -96,25 +96,25 @@ Du kan se de præcise værdier for alle aldersgrupper i tabellerne nedenunder.
 
 | Alder | Meget lavt | Lavt  | Middel | Højt  | Meget højt |
 |:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
-| 5-14  | < 38       | 39-43 | 44-51  | 52-56 | > 57       |
-| 15-19 | < 43       | 44-48 | 49-56  | 57-61 | > 62       |
-| 20-29 | < 38       | 39-43 | 44-51  | 52-56 | > 57       |
-| 30-39 | < 34       | 35-39 | 40-47  | 48-51 | > 52       |
-| 40-49 | < 30       | 31-35 | 36-43  | 44-47 | > 48       |
-| 50-59 | < 25       | 26-31 | 32-39  | 40-43 | > 44       |
-| 60-69 | < 21       | 22-26 | 27-35  | 36-39 | > 40       |
-| 70-   | < 19       | 20-24 | 25-32  | 33-37 | > 38       |
+| 5-14  | \< 38       | 39-43 | 44-51  | 52-56 | \> 57       |
+| 15-19 | \< 43       | 44-48 | 49-56  | 57-61 | \> 62       |
+| 20-29 | \< 38       | 39-43 | 44-51  | 52-56 | \> 57       |
+| 30-39 | \< 34       | 35-39 | 40-47  | 48-51 | \> 52       |
+| 40-49 | \< 30       | 31-35 | 36-43  | 44-47 | \> 48       |
+| 50-59 | \< 25       | 26-31 | 32-39  | 40-43 | \> 44       |
+| 60-69 | \< 21       | 22-26 | 27-35  | 36-39 | \> 40       |
+| 70-   | \< 19       | 20-24 | 25-32  | 33-37 | \> 38       |
 
 ## Kondital tabel for kvinder (normalbefolkning)
 
 | Alder | Meget lavt | Lavt  | Middel | Højt  | Meget højt |
 |:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
-| 5-14  | < 34       | 35-39 | 40-47  | 48-51 | > 52       |
-| 15-29 | < 28       | 29-34 | 35-43  | 44-48 | > 49       |
-| 30-39 | < 27       | 28-33 | 34-41  | 42-47 | > 48       |
-| 40-49 | < 25       | 26-31 | 32-40  | 41-45 | > 46       |
-| 50-64 | < 21       | 22-28 | 29-36  | 37-41 | > 42       |
-| 65-   | < 19       | 20-26 | 27-34  | 35-39 | > 40       |
+| 5-14  | \< 34       | 35-39 | 40-47  | 48-51 | \> 52       |
+| 15-29 | \< 28       | 29-34 | 35-43  | 44-48 | \> 49       |
+| 30-39 | \< 27       | 28-33 | 34-41  | 42-47 | \> 48       |
+| 40-49 | \< 25       | 26-31 | 32-40  | 41-45 | \> 46       |
+| 50-64 | \< 21       | 22-28 | 29-36  | 37-41 | \> 42       |
+| 65-   | \< 19       | 20-26 | 27-34  | 35-39 | \> 40       |
 
 Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
@@ -156,8 +156,8 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over
 
 |         | Lavt | Middel | Højt  | Meget højt | Ekstremt højt |
 | ------- |:----:|:------:|:-----:|:----------:|:-------------:|
-| Mænd    | < 60 | 60-70  | 70-80 | 80-90      | > 90          |
-| Kvinder | < 50 | 50-58  | 58-64 | 64-72      | > 72          |
+| Mænd    | \< 60 | 60-70  | 70-80 | 80-90      | \> 90          |
+| Kvinder | \< 50 | 50-58  | 58-64 | 64-72      | \> 72          |
 
 Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){: rel="nofollow" }.
 
@@ -168,6 +168,14 @@ For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** o
 {% include motionsplan/math formula="kondital = \frac{VO_2max}{weight}" %}
 
 Du kan forbedre dit kondital på to måder: enten ved at forbedre din maksimale iltoptagelse eller ved at tabe dig.
+
+### Estimer dit kondital fra puls
+
+Kender du din maxpuls og hvilepuls, kan du få et hurtigt estimat på dit kondital her:
+
+{% include calculator/calculate-vo2-max-hr.html %}
+
+Beregneren er en indirekte metode med en stor usikkerhed på ±10-15% – vil du have et præcist tal, skal du lave en [rigtig konditionstest](/kondition/tests/).
 
 ## Sådan måler du kondital
 
