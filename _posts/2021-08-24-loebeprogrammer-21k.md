@@ -23,7 +23,7 @@ toc: true
 
 {{ page.excerpt }}
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et løbeprogram?]({% link _posts/2021-08-24-loebeprogrammer.md %}), men her dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 21 km og træne frem mod en halvmaraton.
+Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et løbeprogram?](/loebeprogrammer/), men her dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 21 km og træne frem mod en halvmaraton.
 
 Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste parametre, du skal kigge efter:
 

@@ -49,7 +49,7 @@ feature_row_stryd:
 
 Vil du gerne i gang med at løbe, eller løbetræner du for at blive en bedre løber? Hvordan kommer du i gang med [løbetræningen](/loebesiden/), og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?
 
-Jeg dykker i det her indlæg ned i, hvad der skal til for, at du kan blive en bedre løber. Jeg vil vise dig, hvordan du selv kan lave et løbeprogram for din løbetræning, som vil skabe resultater på lang sigt.
+Jeg dykker i det her indlæg ned i, hvad der skal til for, at du kan blive en bedre løber. Jeg vil vise dig, hvordan du selv kan lave et løbeprogram for din løbetræning, som vil skabe resultater på lang sigt. Du kan også vælge at springe direkte til vores [begynderløbeprogram](/loebeprogram-begyndere/).
 
 Der er ingen hemmeligheder.
 
@@ -269,8 +269,8 @@ Der er fordele og ulemper ved alle fremgangsmåderne.
 
 ## Konklusion
 
-Jeg har skrevet mere om [forskellige løbeprogrammer](/loebeprogrammer/), hvis du gerne vil finde ud af, hvilket løbeprogram, der er det rigtige for dig. I denne artikel har vi forsøgt at give nogle overordnede pejlemærker for, hvordan du kan skrue din løbetræning sammen.
+Jeg har skrevet mere om [forskellige løbeprogrammer](/loebeprogrammer/), hvis du gerne vil finde ud af, hvilket løbeprogram, der er det rigtige for dig. I denne artikel har vi forsøgt at give nogle overordnede pejlemærker for, hvordan du kan skrue din løbetræning sammen, når du gerne vil i gang med at løbe.
 
 ## Bøger om løbetræning og løbeprogrammer
-
+**
 {% include feature_row type="left" %}

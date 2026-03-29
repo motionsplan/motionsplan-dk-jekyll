@@ -17,7 +17,6 @@ tags:
   - 5 km
   - løb
 last_modified_at: 2021-08-22T23:14:14Z
-toc: true
 faq:
   - question: "Hvor lang tid tager det at løbe 5 km?"
     answer: "Det kommer naturligvis an på hvor hurtigt du løber. Verdensrekorden for mænd er 12:35, mens den for kvinder er 14:11. Mange drømmer om at komme under 20 minutter, men det kan også tage op til en 30-40 minutter, hvis du er begynder. Du kan bruge vores [beregner til løbehastighed](/hastighed/), hvis du kender din gennemsnitsfart."
@@ -25,7 +24,7 @@ faq:
 
 {{ page.excerpt }}
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et godt løbeprogram]({% link _posts/2021-08-24-loebeprogrammer.md %})? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 5 km.
+Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et godt løbeprogram](/loebeprogrammer/)? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 5 km.
 
 Du får et løbetræningsprogram til 5 km, som du kan bruge allerede i dag.
 
@@ -51,14 +50,14 @@ På listen herunder kan du finde et begynder løbeprogram til 5 kilometer-distan
 
 Folk søger ofte efter et specfikt program i forhold til at løbe 5 km på en bestemt tid. Fx "løb 5 km på 25 min". Du kan sagtens finde et program, der giver dig en specifik fremgangsmåde for at nå det mål.
 
-Når du laver [løbetræning og et løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/), så er følgende parametre rigtig vigtige, når man gerne vil løbe en god tid på 5 km.
+Når du laver [løbetræning](/loebesiden/) og gerne vil [godt i gang med at løbe](/artikel/kom-i-gang-med-loebetraeningen/), så er følgende parametre rigtig vigtige, hvis du gerne vil løbe en god tid på 5 km.
 
 - **Maksimal iltoptagelse.** Hvis du kan hæve din maksimale iltoptagelse, så vil du kunne løbe hurtigere på længere distancer, fordi arbejdet relativt set bliver lettere.
 - **Anaerobe tærskel.** Dette punkt hænger også sammen med udholdenheden. Hvis du kan udskyde det tidspunkt, hvor kroppen ikke længere kan fjerne mælkesyre nok og du begynder at udtrætte, så vil du kunne løbe med højere intensitet.
 - **Løbeøkonomi.** Hvis du bliver en stærkere og mere effektiv løber og får en bedre løbeteknik, så vil du kunne løbe hurtigere - eller du vil kunne løbe længere ved samme hastighed, fordi du ikke bruger helt så meget energi som tidligere.
 - **Udholdenhed.** Hvis du forbedrer musklernes evne til at arbejde i længere tid og forbedre fedtforbrændingen, så vil du blive i stand til at kunne løbe med en højere intensitet på sigt uden at blive træt, og du vil kunne løbe i længere tid.
 
-For at **flytte den maksimale iltoptagelse**, så kan du fx bruge **[Billat-intervaller vVO₂-max]({% link _posts/2020-08-08-billat.md %})** for at løbe længere omkring den maksimale iltoptagelse end du kan uden pauser. Du kan også bruge **[Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/)** til at udregne tempoet for intervaller, der kan flytte den maksimale iltoptagelse. Der findes også andre rigtig hårde [intervaller til løb](/intervallob-intervaltraening/), hvor du kommer til at arbejde tæt på din maksimale løbekapacitet.
+For at **flytte den maksimale iltoptagelse**, så kan du fx bruge **[Billat-intervaller vVO₂-max](/billat-vvovmax-tlimvo2max/)** for at løbe længere omkring den maksimale iltoptagelse end du kan uden pauser. Du kan også bruge **[Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/)** til at udregne tempoet for intervaller, der kan flytte den maksimale iltoptagelse. Der findes også andre rigtig hårde [intervaller til løb](/intervallob-intervaltraening/), hvor du kommer til at arbejde tæt på din maksimale løbekapacitet.
 
 Den **anaerobe tærskel kan du skubbe til** til med tempoløb på mellem 10 minutter og 60 minutter. Du løber hurtigt på den lidt længere distance. Det er hårdt, men et godt element i et [effektivt løbeprogram](/artikel/det-mest-effektive-loebeprogram-til-forbedre-din-praestation/).
 
@@ -88,8 +87,6 @@ Men lad os dykke ned i løbeprogrammet til 5 kilometer med det samme her. Progra
 - **Fase 4**. I denne specifikke fase målretter vi træningen mod at blive endnu hurtigere på 5 km og skubbe til den maksimale iltoptagelse.
 
 Når du læser et træningsprogram, så husk at det skal passe ind i din hverdag. Dette program er et generelt program, som du naturligvis kan have behov for at justere til, så det passer til dig.
-
-[Skriv til {{ site.email }} og få tilsendt program](mailto:{{ site.email }}){: .btn .btn--large .btn--success }
 
 ## Ofte stillede spørgsmål om 5 km
 

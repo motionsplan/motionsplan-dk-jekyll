@@ -21,7 +21,7 @@ toc: true
 
 {{ page.excerpt }}
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [løbeprogrammer]({% link _posts/2021-08-24-loebeprogrammer.md %})? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 10 km.
+Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [løbeprogrammer](/loebeprogrammer/)? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 10 km.
 
 ## Lær at løbe 10 km
 

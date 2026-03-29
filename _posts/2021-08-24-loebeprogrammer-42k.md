@@ -23,7 +23,7 @@ toc: true
 
 {{ page.excerpt }}
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [løbetræningsprogram]({% link _posts/2021-08-24-loebeprogrammer.md %}). I dette indlæg dykker vi specifikt ned i de væsentlige elementer for at gennemføre et maraton. Indlægget er med andre ord for dig, der gerne vil lære at løbe 42 km og træne frem mod en maratonløb.
+Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [løbetræningsprogram](/loebeprogrammer/). I dette indlæg dykker vi specifikt ned i de væsentlige elementer for at gennemføre et maraton. Indlægget er med andre ord for dig, der gerne vil lære at løbe 42 km og træne frem mod en maratonløb.
 
 Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste parametre, du skal kigge efter:
 

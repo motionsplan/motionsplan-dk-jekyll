@@ -181,6 +181,22 @@ Husk at læse den vejledende og forklarende tekst grundigt i gennem, inden du st
 
 {% include feature_row id="feature_row_guide_own_program" type="left" %}
 
+## Træningsfilosofier til løb
+
+<div class="feature__wrapper" markdown="1">
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "træningsfilosofi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+[Læs alt om træningsfilosofier i løbetræningen](/traeningsfilosofier-loeb/){: .btn .btn--success .btn--center }
+
+</div>
+
 ## Afslutning
 
 Uanset om du lige er startet, vil forbedre dine tider, eller træner mod længere distancer, er der masser af inspiration og [løbeværktøjer til dig](/loeb/vaerktoejer/).

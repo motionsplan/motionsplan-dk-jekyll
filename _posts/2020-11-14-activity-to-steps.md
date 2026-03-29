@@ -64,7 +64,7 @@ Det tal du får ud af udregneren svarer således til det antal skridt du ville s
 
 Husk at beregneren kun er en estimering af antallet af skridt. Ikke nødvendigvis det faktuelle antal skridt.
 
-Jeg har skrevet en grundig artikel om [Hvor langt er 10.000 skridt og hvor mange skridt er en km?]({% link _posts/2020-11-14-activity-to-steps.md %}).
+Jeg har skrevet en grundig artikel om [Hvor langt er 10.000 skridt og hvor mange skridt er en km?](/skridt-pr-km-10000/).
 
 ## Konklusion på "Tæl skridt omregner"
 
