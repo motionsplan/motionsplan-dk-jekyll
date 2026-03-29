@@ -10,7 +10,7 @@ group:
   - Arme
 name:
   latin: "Flexor Carpi Radialis"
-  da: "Den radiale håndledsbøjer"
+  da: "Radiale håndledsbøjer"
 tags:
   - imagemap
   - muskel

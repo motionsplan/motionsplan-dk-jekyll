@@ -9,6 +9,7 @@ tags:
 categories:
   - Anatomi
   - Led
+breadcrumbs: true
 latin: ""
 movements:
   - title: Bøjning (i lændedelen)

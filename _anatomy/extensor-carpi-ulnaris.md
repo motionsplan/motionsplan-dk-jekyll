@@ -11,7 +11,7 @@ group:
   - Arme
 name:
   latin: "Extensor Carpi Ulnaris"
-  da: "Den ulnare håndledsstrækker"
+  da: "Ulnare håndledsstrækker"
 tags:
   - imagemap
   - muskel

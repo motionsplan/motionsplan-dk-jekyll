@@ -5,7 +5,7 @@ functional_group:
   - Håndleddets bøjere (volarflektorer)
 name:
   latin: "Flexor Carpi Ulnaris"
-  da: "Den ulnare håndledsbøjer"
+  da: "Ulnare håndledsbøjer"
 group:
   - Arme
 joint:

@@ -46,7 +46,7 @@ Jeg har samlet musklerne i benet på en liste med lidt flere informationer herun
 
 {% assign muscles = site.anatomy | where: "group", "Ben" %}
 {%- for m in muscles -%}
-- [{{ m.title }} - {{ m.name.latin }}]({{ m.url }})
+- [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
 {% endfor %}
 
 Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du er interesseret i at lære endnu mere om [anatomien i kroppen](/anatomi/).

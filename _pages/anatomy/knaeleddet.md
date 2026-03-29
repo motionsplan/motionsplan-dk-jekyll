@@ -10,6 +10,7 @@ tags:
 categories:
   - Anatomi
   - Led
+breadcrumbs: true
 movements:
   - title: Bøjning
     muscles:

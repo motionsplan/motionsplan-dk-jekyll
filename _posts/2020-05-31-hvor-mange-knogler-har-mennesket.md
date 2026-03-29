@@ -15,31 +15,6 @@ tags:
   - anatomi
 last_modified_at: 2022-01-31T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide"
-    excerpt: "En praktisk guide til lokalisering af muskler, skelettet, knogler og led. Du lærer at undersøge bevægeapparatet og kende opbygningen af skelettet og knoglerne og lokalisere de relevante vævsstrukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen beskrives med anatomi, fysiologi og sygdomme i et anatomisk atlas med menneskets knogler og skelettet. Gennem de computergenererede 3D-billeder og fantastiske illustrationer af knogler og muskler kan du opleve menneskekroppens anatomi."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=84908&htmlurl=https://www.bog-ide.dk/produkt/246230/steve-parker-menneskekroppen-indbundet/1589853"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "_Bevægeapparatets anatomi_ er en klassiker, når du skal lære om kroppens anatomi. Forfatterne kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner kroppen."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 sidebar:
   nav: anatomi
 faq:
@@ -91,6 +66,10 @@ Skelettet består af 206 knogler for voksne og udgør ca. 14-18% af din kropsvæ
 
 Du kan også få svar på, [hvad knogler vejer](/hvad-vejer-skelettet/) og se de forskellige [knogletyper]({% link _pages/anatomy/bones.md %}).
 
-## Bøger om menneskets knogler
+<div class="notice--info" markdown="1">
+**📚 Studerer du anatomi eller fysiologi?**
 
-{% include feature_row type="left" %}
+Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede plancher til væggen, har jeg samlet mine personlige anbefalinger her:
+
+👉 [**Se anbefalinger til anatomibøger og plakater her**](/anatomi/udstyr-og-boeger/)
+</div>

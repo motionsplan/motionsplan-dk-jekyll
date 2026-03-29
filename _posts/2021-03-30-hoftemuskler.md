@@ -3,9 +3,6 @@ title: &title "Hoftens muskler: Liste og øvelser til musklerne i hoften"
 seo_title: "Hoftens muskler: Sådan træner du dine muskler omkring hoften"
 description: "Komplet liste over muskler i hoften. Forslag til træning og øvelser for stærke og mobile hofter."
 permalink: /muskler/hoften/
-redirect_from:
-  - /hoftemuskler/
-  - /muskler/hofte/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&h=630&w=1200&q=60
@@ -58,7 +55,7 @@ Herunder finder du musklerne i hoften med genveje til dybdegående information o
 {% assign muscles = site.anatomy | where: "group", "Hofte" %}
 {%- for m in muscles -%}
 - [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
-{%- endfor -%}
+{% endfor %}
 
 Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis du er interesseret i at lære endnu mere om [anatomien i kroppen](/anatomi/).
 

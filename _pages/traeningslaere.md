@@ -18,32 +18,6 @@ header:
   overlay_image: https://images.unsplash.com/photo-1453847668862-487637052f8a?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   teaser: https://images.unsplash.com/photo-1453847668862-487637052f8a?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
-    alt: "Motionsdoping - styrketræning, identitet og kultur"
-    title: "Motionsdoping - styrketræning, identitet og kultur"
-    excerpt: "Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning i fitnesscentret med brug af doping."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
-doping:
-  - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
-    alt: "Motionsdoping - styrketræning, identitet og kultur"
-    title: "Motionsdoping - styrketræning, identitet og kultur"
-    excerpt: "Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning i fitnesscentret med brug af doping."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
 feature_row_anatomi:
   - image_path: /assets/images/anatomy/blank-muscle-anatomy.jpg
     alt: "Muskeloversigt"

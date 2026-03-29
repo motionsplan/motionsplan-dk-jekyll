@@ -138,10 +138,6 @@ Vi har samlet både videoer, illustrationer og forklaringer i det følgende.
 
 Jeg beskriver og illustrerer med billeder i dette afsnit, hvordan du skal udføre de fem tibetanere.
 
-Først kan du se nogle simple tændstikmænd, der illustrerer øvelserne:
-
-{% include gallery id="gallery" caption="Animation af de 5 tibetanske øvelser fra [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites)" %}
-
 ## Video af tibetanerne på Youtube
 
 Jeg har udvalgt de bedste videoer fra Youtube, hvor danske yogainstruktører forklarer de fem yogaøvelser og sammenhængen mellem riterne.
@@ -155,10 +151,6 @@ Yogainstruktøren, Brian Dernje Nielsen, **forklarer og viser øvelserne i denne
 Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og grundigt i denne video:
 
 {% include video provider="youtube" id="qDAsEM1VLNk" %}
-
-Hvis du er til en ret dynamisk gennemgang af øvelserne med markant yogamusik, så gennemgår yogainstruktøren, Helle "Dayal Kaur" Nissen øvelserne i denne video:
-
-{% include video provider="youtube" id="LWA5WHLdaaA" %}
 
 ## Illustreret øvelsesbeskrivelse af de 5 tibetanere
 

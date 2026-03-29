@@ -11,7 +11,7 @@ group:
   - Arme
 name:
   latin: "Extensor Carpi Radialis Longus"
-  da: "Den lange radiale håndledsstrækker"
+  da: "Lange radiale håndledsstrækker"
 tags:
   - imagemap
   - muskel

@@ -42,7 +42,7 @@ feature_row_bike:
     alt: "Sensor Compress - Kompressions cykelstrømper"
     title: "Sensor Compress - Kompressionsstrømper cykelstrømper der virker"
     excerpt: "Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere. Cykelstrømperne er udviklet med en anatomisk svang, samt forstærket tå og hælområde. Derudover modvirker de trætte ben og giver foden en bedre støtte."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42"
+    url: "https://www..com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42"
     btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

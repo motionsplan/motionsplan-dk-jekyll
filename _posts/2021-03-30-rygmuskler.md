@@ -56,7 +56,7 @@ Herunder finder du de specifikke muskler i ryggen med genveje til deres detaljer
 {% assign muscles = site.anatomy | where: "group", "Ryg" %}
 {%- for m in muscles -%}
 - [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
-{%- endfor -%}
+{% endfor %}
 
 Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis du vil lære mere om [anatomien i kroppen](/anatomi/).
 

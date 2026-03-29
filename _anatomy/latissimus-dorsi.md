@@ -10,7 +10,7 @@ group:
   - Ryg
 name:
   latin: "Latissimus Dorsi"
-  da: "Den brede rygmuskel"
+  da: "Brede rygmuskel"
 tags:
   - imagemap
   - fitnessinstruktør

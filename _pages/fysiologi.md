@@ -11,39 +11,8 @@ header:
   teaser: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
   overlay_filter: 0.4
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788777497162/0x500
-    alt: "Menneskets fysiologi"
-    title: "Menneskets fysiologi"
-    excerpt: "Lærebogsklassikeren 'Menneskets fysiologi' af Bente Schibye dækker hele menneskets fysiologi, og som noget særligt beskrives fysiologien både i hvile og under fysisk aktivitet."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&https://www.saxo.com/dk/menneskets-fysiologi_bente-schibye_indbundet_9788777497162"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=84908&htmlurl=https://www.bog-ide.dk/produkt/246230/steve-parker-menneskekroppen-indbundet/1589853"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 toc: true
 author_profile: true
-gallery:
-  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
-    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
-    title: Det respiratoriske system - Anatomi plakat
-  - image_path: "https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
-    url: "https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
-    title: "Blodkredsløbet - Anatomi plakat"
-    vendor: "Citatplakat.dk"
-    category: "Anatomi plakater > Plakater > Plakater til kontoret"
-    price: 129.00
-    old_price: 129.00
-    discounted: false
-    id: "59381"
-    rel: sponsored nofollow noopener
 breadcrumbs: true
 ---
 
@@ -153,9 +122,19 @@ Hvis du savner nogle andre beregnere, så kan du kigge under oversigten over [al
 
 ## Konklusion
 
-Fysiologi er studiet af, hvordan de forskellige organsystemer arbejder sammen for at holde os i live og sunde. I dette indlæg har vi kigget på nogle af de forskellige aspekter af muskelfysiologi, som du måske vil finde interessante. Vi har også kigget på de fysiologiske tilpasninger, der finder sted i kroppen som følge af træning. Endelig har vi introduceret vores quiz om fysiologi, som du kan bruge til at teste din viden.
+Fysiologi er studiet af, hvordan de forskellige organsystemer arbejder sammen for at holde os i live og sunde. I dette indlæg har vi kigget på nogle af de forskellige aspekter af muskelfysiologi, som du måske vil finde interessante.
+
+Vi har også kigget på de fysiologiske tilpasninger, der finder sted i kroppen som følge af træning. Endelig har vi introduceret vores quiz om fysiologi, som du kan bruge til at teste din viden.
 
 Jeg håber, at du har fundet dette indlæg interessant og informativt. Tak fordi du læste med!
+
+<div class="notice--info" markdown="1">
+**📚 Studerer du anatomi eller fysiologi?**
+
+Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede plancher til væggen, har jeg samlet mine personlige anbefalinger her:
+
+👉 [**Se anbefalinger til fysiologibøger og plakater her**](/anatomi/udstyr-og-boeger/)
+</div>
 
 ## Artikler om fysiologi
 
@@ -170,11 +149,3 @@ Jeg håber, at du har fundet dette indlæg interessant og informativt. Tak fordi
 {% endif %}
 
 </div>
-
-## Plakater med fysiologi
-
-{% include gallery id="gallery" %}
-
-## Anbefalelsesværdige bøger om fysiologi
-
-{% include feature_row type="left" %}

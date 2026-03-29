@@ -59,7 +59,7 @@ Herunder finder du de specifikke muskler i maven med links til deres anatomi, ud
 {% assign muscles = site.anatomy | where: "group", "Mave" %}
 {%- for m in muscles -%}
 - [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
-{%- endfor -%}
+{% endfor %}
 
 Jeg har lavet en samlet [liste over alle muskler i kroppen her](/muskler/), hvis du vil lære mere om den fulde [anatomi](/anatomi/).
 

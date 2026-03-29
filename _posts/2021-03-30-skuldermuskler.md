@@ -56,7 +56,7 @@ Herunder finder du en liste over skuldermusklerne med genveje til dybdegående i
 {% assign muscles = site.anatomy | where: "group", "Skulder" %}
 {%- for m in muscles -%}
 - [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
-{%- endfor -%}
+{% endfor %}
 
 Herudover spiller muskler omkring skulderbladet som [Trapezius](/trapezius/) og [Serratus Anterior](/serratus-anterior/) en kæmpe rolle for skulderens samlede sundhed og funktion.
 
