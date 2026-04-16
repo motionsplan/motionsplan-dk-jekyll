@@ -55,7 +55,7 @@ quiz:
 
 Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft.
 
-For at sikre fair konkurrence er der etableret specifikke regler for hver disciplin. Her får du en introduktion til de vigtigste regler.
+For at sikre fair konkurrence er der etableret specifikke regler for hver disciplin. Her får du en introduktion til de vigtigste regler, som tager udgangspunkt i International Powerlifting Federations regler.
 
 *[IPF]: International Powerlifting Federation
 
@@ -83,7 +83,7 @@ Hvis du gerne vil konkurrere i styrkeløft, så skal du være medlem af en klub.
 
 ## Regler i styrkeløft (IPF)
 
-I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF).
+I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i International Powerlifting Federation (IPF).
 
 ### Squat
 
@@ -168,10 +168,13 @@ I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konku
 
 Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
 
+***
+
 ## Regler for klassisk styrkeløft
 
 Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.
 
+- Alle (både mænd og kvinder) løfter på en 20 kg stang med 29mm i diameter.
 - Du skal bære en **ikke** understøttende dragt.
 - Du skal bære t-shirt.
 - Du må bære godkendte bælter på maksimalt 10 cm brede og 13 mm tykke.
