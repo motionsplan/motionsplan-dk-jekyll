@@ -24,7 +24,7 @@ meta:
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
-last_modified_at: 2025-02-31T23:14:14Z
+last_modified_at: 2025-02-27T23:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/pal-schedule.png
