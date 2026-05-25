@@ -1,25 +1,28 @@
 ---
-title: &title "Kropshævninger: Lær at lave en pullup og chinup? 💪"
-seo_title: "Kropshævninger: Lær at lave pullup og chinup [Med program]"
-excerpt: "Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram."
-description: "Vil du lære at tage en pullup eller en chinup? Få et træningsprogram i denne guide, der giver dig øvelser, så du kan få din første kropshævning."
+title: 'Kropshævninger: Lær at lave en pullup og chinup? 💪'
+seo_title: 'Kropshævninger: Lær at lave pullup og chinup [Med program]'
+excerpt: Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram
+  til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram.
+description: Vil du lære at tage en pullup eller en chinup? Få et træningsprogram i denne guide, der giver dig øvelser, så
+  du kan få din første kropshævning.
 permalink: /laer-kropshaevning-chinup-pullup-program/
 redirect_from:
-  - /artikel/vil-du-gerne-tage-en-kropshaevning/
+- /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Kropshævninger: Hvordan lærer jeg at lave pullups og chinups?"
+  overlay_image: /assets/images/unsplash/photo-1502955717682-d0430000b16d.jpg
+  credit: https://images.unsplash.com/photo-1502955717682-d0430000b16d
+  teaser: /assets/images/unsplash/photo-1502955717682-d0430000b16d.jpg
+  caption: 'Kropshævninger: Hvordan lærer jeg at lave pullups og chinups?'
 tags:
-  - styrketræning
-  - guide
-  - skulder
-  - træningsøvelse
-  - begynder
+- styrketræning
+- guide
+- skulder
+- træningsøvelse
+- begynder
 category:
-  - Styrketræning
-last_modified_at: 2021-02-02T22:27:53Z
+- Styrketræning
+last_modified_at: '2021-02-02T22:27:53Z'
 ---
 
 Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram.

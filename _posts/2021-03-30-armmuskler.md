@@ -1,26 +1,27 @@
 ---
-title: &title "Armmuskler: Liste og øvelser til muskler i arme"
-seo_title: "Armmuskler: Liste og øvelser til muskler i arme"
-description: "Komplet liste over muskler i dine arme. Forslag til træning af armmusklerne."
+title: 'Armmuskler: Liste og øvelser til muskler i arme'
+seo_title: 'Armmuskler: Liste og øvelser til muskler i arme'
+description: Komplet liste over muskler i dine arme. Forslag til træning af armmusklerne.
 permalink: /muskler/arme/
 redirect_from:
-  - /armmuskler/
+- /armmuskler/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1598268030450-7a476f602bf6.jpg
+  credit: https://images.unsplash.com/photo-1598268030450-7a476f602bf6
+  caption: 'Armmuskler: Liste og øvelser til muskler i arme'
 category:
-  - Anatomi
-  - Muskler
+- Anatomi
+- Muskler
 tags:
-  - muskler
-  - anatomi
-last_modified_at: 2025-01-28T23:14:14Z
-toc: true
+- muskler
+- anatomi
+last_modified_at: '2025-01-28T23:14:14Z'
+toc: 'true'
 author: lsolesen
 sidebar:
   nav: muscles
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvordan dine armmuskler virker, hvis du gerne vil træne musklerne i armene.

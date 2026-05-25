@@ -1,32 +1,40 @@
 ---
-title: &title "Det optimale kulhydratforhold under udholdenhedsidræt"
-seo_title: "Det optimale kulhydratforhold til udholdenhedspræstation"
-description: "Hvad er det bedste forhold mellem glukose og fruktose under langvarig træning? Få evidensbaserede anbefalinger og praktiske råd til din ernæringsstrategi."
-excerpt: "Hvad er det bedste forhold mellem glukose og fruktose under langvarig træning? Få evidensbaserede anbefalinger og praktiske råd til din ernæringsstrategi."
+title: Det optimale kulhydratforhold under udholdenhedsidræt
+seo_title: Det optimale kulhydratforhold til udholdenhedspræstation
+description: Hvad er det bedste forhold mellem glukose og fruktose under langvarig træning? Få evidensbaserede anbefalinger
+  og praktiske råd til din ernæringsstrategi.
+excerpt: Hvad er det bedste forhold mellem glukose og fruktose under langvarig træning? Få evidensbaserede anbefalinger og
+  praktiske råd til din ernæringsstrategi.
 permalink: /optimale-kulhydrat-forhold/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1603777953081-624bff44a0a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1603777953081-624bff44a0a5.jpg
+  credit: https://images.unsplash.com/photo-1603777953081-624bff44a0a5
+  caption: Det optimale kulhydratforhold under udholdenhedsidræt
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - beregner
-  - træning
-  - kost & ernæring
-  - kosttilskud
-last_modified_at: 2025-07-05T22:21:26Z
+- beregner
+- træning
+- kost & ernæring
+- kosttilskud
+last_modified_at: '2025-07-05T22:21:26Z'
 faq:
-  - question: Hvad er det optimale kulhydratforhold under træning?
-    answer: Det afhænger af den samlede mængde kulhydrat, du kan tolerere. Ved 90 gram i timen anbefales et 2:1-forhold mellem glukose og fruktose.
-  - question: Hvor meget kulhydrat bør jeg indtage i timen?
-    answer: De fleste udholdenhedsatleter bør sigte mod op til 90 gram kulhydrat i timen. Højere indtag kræver tilvænning og bør testes i træning.
-  - question: Hvad sker der, hvis jeg får for meget kulhydrat?
-    answer: Overskydende kulhydrat, især i maven eller tarmen, kan give ubehag som kramper, oppustethed eller diarré. Det er vigtigt at finde et tolereret niveau.
-  - question: Hvad er forskellen på glukose og fruktose?
-    answer: Glukose optages via transportøren SGLT1, mens fruktose optages via GLUT5. Ved at kombinere dem øges den samlede optagelse i tarmen.
-  - question: Kan jeg træne min krop til at tåle mere kulhydrat?
-    answer: Ja, det er muligt at træne tarmen til at tolerere højere kulhydratindtag. Dette kaldes "gut training" og bør gøres gradvist i træning.
+- question: Hvad er det optimale kulhydratforhold under træning?
+  answer: Det afhænger af den samlede mængde kulhydrat, du kan tolerere. Ved 90 gram i timen anbefales et 2:1-forhold mellem
+    glukose og fruktose.
+- question: Hvor meget kulhydrat bør jeg indtage i timen?
+  answer: De fleste udholdenhedsatleter bør sigte mod op til 90 gram kulhydrat i timen. Højere indtag kræver tilvænning og
+    bør testes i træning.
+- question: Hvad sker der, hvis jeg får for meget kulhydrat?
+  answer: Overskydende kulhydrat, især i maven eller tarmen, kan give ubehag som kramper, oppustethed eller diarré. Det er
+    vigtigt at finde et tolereret niveau.
+- question: Hvad er forskellen på glukose og fruktose?
+  answer: Glukose optages via transportøren SGLT1, mens fruktose optages via GLUT5. Ved at kombinere dem øges den samlede
+    optagelse i tarmen.
+- question: Kan jeg træne min krop til at tåle mere kulhydrat?
+  answer: Ja, det er muligt at træne tarmen til at tolerere højere kulhydratindtag. Dette kaldes "gut training" og bør gøres
+    gradvist i træning.
 ---
 
 Kulhydratindtag under udholdenhedsidræt har stor betydning for præstation. I mange år troede man, at kroppen maksimalt kunne optage og bruge omkring **60 gram kulhydrat i timen** – svarende til ca. **240 kcal/t** – under konkurrence.

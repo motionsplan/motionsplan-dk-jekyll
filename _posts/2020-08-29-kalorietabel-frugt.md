@@ -1,30 +1,34 @@
 ---
-title: &title "Gratis tabel med kalorier i frugt og bær 🥭"
+title: Gratis tabel med kalorier i frugt og bær 🥭
 permalink: /kalorietabel-frugt/
-last_modified_at: 2020-07-29T09:41:09Z
+last_modified_at: '2020-07-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1580912534328-fbc00d6f7e9f.jpg
+  credit: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f
+  teaser: /assets/images/unsplash/photo-1580912534328-fbc00d6f7e9f.jpg
+  caption: Gratis tabel med kalorier i frugt og bær 🥭
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - fødevarer
-  - kalorietabel
+- fødevarer
+- kalorietabel
 faq:
-  - question: "Hvilken frugt indeholder færrest kalorier?"
-    answer: "100 gram netmelon indeholder kun 99 kJ eller 23 kalorier."
-  - question: "Hvilken frugt eller nødder indeholder flest kalorier?"
-    answer: "100 gram pecannødder indeholder 3076 kJ eller 747 kalorier. Nødder er noget mere energitætte end frugter."
-  - question: "Hvor mange kalorier er der i en banan?"
-    answer: "En hel banan indeholder ca. 120 kalorier."
-  - question: "Hvor mange kalorier er der i vindruer?"
-    answer: "I 100 gram vindruer er der cirka 67 kcal. 100 gram vindruer indeholder 0,6 gram protein, 0 gram fedt, 15,7 gram kulhydrat og 0,9 gram kostfibre. Energifordeling for vindruer: 93,7 E% kulhydrat, 3,6 E% protein, 2,7 E% kostfiber, 0,0 E% fedt."
-  - question: "Hvor mange kalorier er der i et æble?"
-    answer: "Ved et normalt æble med skræl på kan du forvente omtrent 50-80 kalorier. Ved et af de helt store æbler får du op til 120 kalorier."
-  - question: "Hvor mange kalorier er der i dadler?"
-    answer: "100 gram dadler indeholder 309 kcal samt 2 gram protein, 0,5 gram fedt, 71,2 gram kulhydrat og 6,4 gram kostfibre."
+- question: Hvilken frugt indeholder færrest kalorier?
+  answer: 100 gram netmelon indeholder kun 99 kJ eller 23 kalorier.
+- question: Hvilken frugt eller nødder indeholder flest kalorier?
+  answer: 100 gram pecannødder indeholder 3076 kJ eller 747 kalorier. Nødder er noget mere energitætte end frugter.
+- question: Hvor mange kalorier er der i en banan?
+  answer: En hel banan indeholder ca. 120 kalorier.
+- question: Hvor mange kalorier er der i vindruer?
+  answer: 'I 100 gram vindruer er der cirka 67 kcal. 100 gram vindruer indeholder 0,6 gram protein, 0 gram fedt, 15,7 gram
+    kulhydrat og 0,9 gram kostfibre. Energifordeling for vindruer: 93,7 E% kulhydrat, 3,6 E% protein, 2,7 E% kostfiber, 0,0
+    E% fedt.'
+- question: Hvor mange kalorier er der i et æble?
+  answer: Ved et normalt æble med skræl på kan du forvente omtrent 50-80 kalorier. Ved et af de helt store æbler får du op
+    til 120 kalorier.
+- question: Hvor mange kalorier er der i dadler?
+  answer: 100 gram dadler indeholder 309 kcal samt 2 gram protein, 0,5 gram fedt, 71,2 gram kulhydrat og 6,4 gram kostfibre.
 ---
 
 Jeg har samlet en kalorietabel over alverdens frugt og bær. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre.

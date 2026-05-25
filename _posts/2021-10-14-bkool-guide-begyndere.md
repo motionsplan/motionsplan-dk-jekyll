@@ -1,59 +1,64 @@
 ---
-title: &title "BKOOL cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️"
-seo_title: "BKOOL cykling på hometrainer: Komplet guide til begyndere"
+title: 'BKOOL cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️'
+seo_title: 'BKOOL cykling på hometrainer: Komplet guide til begyndere'
 permalink: /bkool-begynderguide/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1601625193660-86f2807b024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1601625193660-86f2807b024b.jpg
+  credit: https://images.unsplash.com/photo-1601625193660-86f2807b024b
+  caption: 'BKOOL cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️'
 category:
-  - Kondition
-  - Cykling
+- Kondition
+- Cykling
 tags:
-  - konditionstræning
-  - kondition
-  - cykling
-  - hometrainer
-  - virtuel cykling
+- konditionstræning
+- kondition
+- cykling
+- hometrainer
+- virtuel cykling
 gallery:
-  - image_path: /assets/images/blog/bkool-1.jpg
-    url: /assets/images/blog/bkool-1.jpg
-  - image_path: /assets/images/blog/bkool-2.jpg
-    url: /assets/images/blog/bkool-2.jpg
-  - image_path: /assets/images/blog/bkool-3.jpg
-    url: /assets/images/blog/bkool-3.jpg
-  - image_path: /assets/images/blog/bkool-4.jpg
-    url: /assets/images/blog/bkool-4.jpg
-last_modified_at: 2021-10-14T08:14:14Z
+- image_path: /assets/images/blog/bkool-1.jpg
+  url: /assets/images/blog/bkool-1.jpg
+- image_path: /assets/images/blog/bkool-2.jpg
+  url: /assets/images/blog/bkool-2.jpg
+- image_path: /assets/images/blog/bkool-3.jpg
+  url: /assets/images/blog/bkool-3.jpg
+- image_path: /assets/images/blog/bkool-4.jpg
+  url: /assets/images/blog/bkool-4.jpg
+last_modified_at: '2021-10-14T08:14:14Z'
 feature_row:
-  - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
-    title: Wahoo Kickr 5.0 til BKOOL
-    excerpt: "Du kan fx køre BKOOL på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
-    title: Wahoo Kickr Climb til Zwift
-    excerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
-  - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
-    title: Wahoo Kickr Headwind til BKOOL
-    excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i BKOOL."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--warning"
-    rel: sponsored nofollow noopener
-  - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
-    title: Tacx Flux 2 Smart Zwift Bundle
-    excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
+- image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
+  title: Wahoo Kickr 5.0 til BKOOL
+  excerpt: Du kan fx køre BKOOL på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler.
+    Husk at tjekke om gear kasetten passer til din cykel på den version, du køber.
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
+  title: Wahoo Kickr Climb til Zwift
+  excerpt: En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel
+    oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift.
+  btn_label: Tjek prisen
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
+- image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
+  title: Wahoo Kickr Headwind til BKOOL
+  excerpt: Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i
+    læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i BKOOL.
+  btn_label: Tjek prisen
+  btn_class: btn--warning
+  rel: sponsored nofollow noopener
+- image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
+  title: Tacx Flux 2 Smart Zwift Bundle
+  excerpt: Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen
+    med Zwift og er lidt billigere end Wahoo Kickr 5.0.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 ---
 
 Jeg er lige gået i gang med at afprøve BKOOL på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde første gang jeg satte mig på på cyklen for at køre BKOOL.

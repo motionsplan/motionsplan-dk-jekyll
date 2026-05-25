@@ -1,44 +1,63 @@
 ---
-title: &title "Brug dit energiforbrug som målsætning for træningen"
-seo_title: "Brug dit kalorieforbrug som målsætning for din træning"
-description: "Fokusér på arbejdet, ikke kun intensiteten. Brug vores beregner til at planlægge din træning ud fra energiforbrug og opbyg din arbejdskapacitet."
-excerpt: "Fokusér på arbejdet, ikke kun intensiteten. Brug vores beregner til at planlægge din træning ud fra energiforbrug og opbyg din arbejdskapacitet."
+title: Brug dit energiforbrug som målsætning for træningen
+seo_title: Brug dit kalorieforbrug som målsætning for din træning
+description: Fokusér på arbejdet, ikke kun intensiteten. Brug vores beregner til at planlægge din træning ud fra energiforbrug
+  og opbyg din arbejdskapacitet.
+excerpt: Fokusér på arbejdet, ikke kun intensiteten. Brug vores beregner til at planlægge din træning ud fra energiforbrug
+  og opbyg din arbejdskapacitet.
 permalink: /energibudget/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1648748571003-98d6ff522019?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg
+  credit: https://images.unsplash.com/photo-1648748571003-98d6ff522019
+  caption: Brug dit energiforbrug som målsætning for træningen
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - beregner
-  - kost & ernæring
-last_modified_at: 2025-07-16T22:21:26Z
+- beregner
+- kost & ernæring
+last_modified_at: '2025-07-16T22:21:26Z'
 faq:
-  - question: Hvorfor skal jeg måle min træning i kalorier i stedet for watt eller tid?
-    answer: |
-      Kalorier måler det faktiske metaboliske arbejde, du laver, og ikke kun intensiteten. Det giver et mere konkret billede af den belastning og arbejdskapacitet, du opbygger, hvilket hjælper med at planlægge og justere træningen bedre over tid.
-  - question: Hvordan kan jeg bruge energiforbruget som målsætning for min træning?
-    answer: |
-      Ved at sætte et dagligt eller ugentligt kaloriemål for din træning fokuserer du på mængden af arbejde frem for bare intensiteten. Det kan være fx 1000 kcal dagligt eller 5000-10.000 kcal om ugen, som hjælper dig med at bygge arbejdskapacitet og sikre konsekvent træning.
-  - question: Hvordan beregner jeg kalorier brugt under forskellige aktiviteter?
-    answer: |
-      Brug vores beregner, hvor du indtaster vægt, aktivitetstype og varighed. Den bruger kalorieværdier per minut baseret på forskning, så du får et ret præcist estimat af dit energiforbrug.
-  - question: Kan jeg kombinere flere aktiviteter og stadig holde styr på kalorierne?
-    answer: |
-      Ja! Du kan dele dit træningsarbejde op i flere aktiviteter, og summere kalorierne for at nå dit samlede mål. Det giver fleksibilitet i træningen og gør det lettere at tilpasse hverdagen.
-  - question: Er energiforbrug det samme som vægttab?
-    answer: |
-      Nej, energiforbrug måler den mængde energi, du bruger under aktivitet, mens vægttab handler om dit samlede kalorieindtag i forhold til forbrug. Her handler det om at opbygge kapacitet og arbejdsvolumen, ikke nødvendigvis vægttab.
-  - question: Hvor meget energi bruger en almindelig person på daglig aktivitet?
-    answer: |
-      Det varierer meget, men typisk ligger en stillesiddende person under 250 kcal om dagen i fysisk aktivitet, mens en aktiv person kan bruge 500-1000 kcal. Se tabellen i artiklen for flere niveauer.
-  - question: Kan jeg bruge energiforbrugsmål til alle sportsgrene?
-    answer: |
-      Ja, så længe du kan estimere kalorieforbruget for aktiviteten (fx via vores tabel eller beregner), kan du bruge energiforbrugsmål til at strukturere træningen i mange forskellige sportsgrene.
-  - question: Hvordan hjælper det at fokusere på arbejdskapacitet?
-    answer: |
-      Arbejdskapacitet handler om at kunne lave meget arbejde over tid – altså træne konsekvent uden at blive overbelastet. Det er ofte vigtigere for langvarig udvikling end at presse sig hårdt nogle få gange.
+- question: Hvorfor skal jeg måle min træning i kalorier i stedet for watt eller tid?
+  answer: 'Kalorier måler det faktiske metaboliske arbejde, du laver, og ikke kun intensiteten. Det giver et mere konkret
+    billede af den belastning og arbejdskapacitet, du opbygger, hvilket hjælper med at planlægge og justere træningen bedre
+    over tid.
+
+    '
+- question: Hvordan kan jeg bruge energiforbruget som målsætning for min træning?
+  answer: 'Ved at sætte et dagligt eller ugentligt kaloriemål for din træning fokuserer du på mængden af arbejde frem for
+    bare intensiteten. Det kan være fx 1000 kcal dagligt eller 5000-10.000 kcal om ugen, som hjælper dig med at bygge arbejdskapacitet
+    og sikre konsekvent træning.
+
+    '
+- question: Hvordan beregner jeg kalorier brugt under forskellige aktiviteter?
+  answer: 'Brug vores beregner, hvor du indtaster vægt, aktivitetstype og varighed. Den bruger kalorieværdier per minut baseret
+    på forskning, så du får et ret præcist estimat af dit energiforbrug.
+
+    '
+- question: Kan jeg kombinere flere aktiviteter og stadig holde styr på kalorierne?
+  answer: 'Ja! Du kan dele dit træningsarbejde op i flere aktiviteter, og summere kalorierne for at nå dit samlede mål. Det
+    giver fleksibilitet i træningen og gør det lettere at tilpasse hverdagen.
+
+    '
+- question: Er energiforbrug det samme som vægttab?
+  answer: 'Nej, energiforbrug måler den mængde energi, du bruger under aktivitet, mens vægttab handler om dit samlede kalorieindtag
+    i forhold til forbrug. Her handler det om at opbygge kapacitet og arbejdsvolumen, ikke nødvendigvis vægttab.
+
+    '
+- question: Hvor meget energi bruger en almindelig person på daglig aktivitet?
+  answer: 'Det varierer meget, men typisk ligger en stillesiddende person under 250 kcal om dagen i fysisk aktivitet, mens
+    en aktiv person kan bruge 500-1000 kcal. Se tabellen i artiklen for flere niveauer.
+
+    '
+- question: Kan jeg bruge energiforbrugsmål til alle sportsgrene?
+  answer: 'Ja, så længe du kan estimere kalorieforbruget for aktiviteten (fx via vores tabel eller beregner), kan du bruge
+    energiforbrugsmål til at strukturere træningen i mange forskellige sportsgrene.
+
+    '
+- question: Hvordan hjælper det at fokusere på arbejdskapacitet?
+  answer: Arbejdskapacitet handler om at kunne lave meget arbejde over tid – altså træne konsekvent uden at blive overbelastet.
+    Det er ofte vigtigere for langvarig udvikling end at presse sig hårdt nogle få gange.
 ---
 
 I stedet for kun at måle din træning i watt, pace eller TSS – hvad nu hvis du begyndte at måle dit *arbejde*?

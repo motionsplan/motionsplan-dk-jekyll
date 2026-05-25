@@ -1,20 +1,21 @@
 ---
-title: &title "SMART-modellen: Gør din målsætning SMART og nå nye mål!"
-seo_title: "SMART-modellen: Nå dine mål med en målsætning [Eksempel]"
-description: "Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!"
+title: 'SMART-modellen: Gør din målsætning SMART og nå nye mål!'
+seo_title: 'SMART-modellen: Nå dine mål med en målsætning [Eksempel]'
+description: Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!
 permalink: /smart/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1506784983877-45594efa4cbe.jpg
+  credit: https://images.unsplash.com/photo-1506784983877-45594efa4cbe
+  caption: 'SMART-modellen: Gør din målsætning SMART og nå nye mål!'
   alt: Photo by Estée Janssens on Unsplash
-  overlay_filter: 0.4
+  overlay_filter: '0.4'
 category:
-  - Træningsplanlægning
+- Træningsplanlægning
 tags:
-  - målsætning
-  - vaner
-last_modified_at: 2022-10-01T08:14:14Z
+- målsætning
+- vaner
+last_modified_at: '2022-10-01T08:14:14Z'
 ---
 
 Vil du gerne nå dit mål? SMART-modellen hjælpe dig til at lave din målsætning, så den målbar og realistisk!

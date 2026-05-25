@@ -1,27 +1,30 @@
 ---
-title: "Riegels Formel til Løbetider og Konkurrencetider"
-seo_title: "Riegels Formel til Løbetider og Konkurrencetider"
-description: "Brug Riegels formel til at beregne dine konkurrencetider og løbetider på forskellige distancer. Få hurtigt et estimat af din maratontid eller andre distancer."
-excerpt: "Brug Riegels formel til at beregne dine konkurrencetider og løbetider på forskellige distancer. Få hurtigt et estimat af din maratontid eller andre distancer."
+title: Riegels Formel til Løbetider og Konkurrencetider
+seo_title: Riegels Formel til Løbetider og Konkurrencetider
+description: Brug Riegels formel til at beregne dine konkurrencetider og løbetider på forskellige distancer. Få hurtigt et
+  estimat af din maratontid eller andre distancer.
+excerpt: Brug Riegels formel til at beregne dine konkurrencetider og løbetider på forskellige distancer. Få hurtigt et estimat
+  af din maratontid eller andre distancer.
 permalink: /riegels-loebeberegner/
-last_modified_at: 2024-07-24T09:41:09Z
+last_modified_at: '2024-07-24T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Riegels formel til beregning af konkurrencetider og løbetider"
+  overlay_image: /assets/images/unsplash/photo-1486829060564-50dae90dccd4.jpg
+  credit: https://images.unsplash.com/photo-1486829060564-50dae90dccd4
+  teaser: /assets/images/unsplash/photo-1486829060564-50dae90dccd4.jpg
+  caption: Riegels formel til beregning af konkurrencetider og løbetider
 category:
-  - Løb
+- Løb
 tags:
-  - beregner
-  - kondition
-  - løb
+- beregner
+- kondition
+- løb
 meta:
   name: Riegels formel til beregning af løbetider
   equipment: ingen
   measures: løbetid
   type: løb
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Riegels formel til at udregne konkurrencetider til løb er af ældre dato, men en enkel måde at udregne løbetider på andre distancer på ud fra aktuelle løbetider.

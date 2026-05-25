@@ -1,28 +1,31 @@
 ---
-title: &title "Guide til at lave dit eget løbeprogram – 5 enkle trin"
-seo_title: "Løbeprogram: Sådan laver du dit eget (5 enkle trin)"
+title: Guide til at lave dit eget løbeprogram – 5 enkle trin
+seo_title: 'Løbeprogram: Sådan laver du dit eget (5 enkle trin)'
 permalink: /guide-til-loebeprogram/
-excerpt: "Følg vores guide til at lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
-description: "Vil du lave dit eget løbeprogram? Følg vores guide med 5 enkle trin til at skræddersy din løbetræning, uanset om du er nybegynder eller erfaren. Læs mere her!"
+excerpt: Følg vores guide til at lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer,
+  og hvordan opbygger du din løbetræning.
+description: Vil du lave dit eget løbeprogram? Følg vores guide med 5 enkle trin til at skræddersy din løbetræning, uanset
+  om du er nybegynder eller erfaren. Læs mere her!
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1572278116640-337bc3c3b8ae.jpg
+  credit: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae
+  teaser: /assets/images/unsplash/photo-1572278116640-337bc3c3b8ae.jpg
+  caption: Guide til at lave dit eget løbeprogram – 5 enkle trin
 category:
-  - Løb
-  - Løbeprogrammer
+- Løb
+- Løbeprogrammer
 tags:
-  - træningsplanlægning
-  - programlægning
-  - løb
-  - guide
-last_modified_at: 2025-03-16T08:14:14Z
-toc: true
+- træningsplanlægning
+- programlægning
+- løb
+- guide
+last_modified_at: '2025-03-16T08:14:14Z'
+toc: 'true'
 gallery:
-  - image_path: /assets/images/loebeprogram/uge-begynder.png
-  - image_path: /assets/images/loebeprogram/uge-moderat.png
-  - image_path: /assets/images/loebeprogram/uge-traenet.png
+- image_path: /assets/images/loebeprogram/uge-begynder.png
+- image_path: /assets/images/loebeprogram/uge-moderat.png
+- image_path: /assets/images/loebeprogram/uge-traenet.png
 ---
 Vil du have et skræddersyet løbeprogram, der passer til dine mål og din hverdag? Et godt løbeprogram sikrer, at du træner effektivt, holder motivationen oppe og undgår skader.
 

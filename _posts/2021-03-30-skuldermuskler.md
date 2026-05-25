@@ -1,29 +1,31 @@
 ---
-title: &title "Skuldermuskler: Liste og øvelser til stærke skuldre"
-seo_title: "Skuldermuskler: Komplet guide til anatomi og træning"
-description: "Lær om skuldermusklerne (deltoideus og rotator cuff). Liste over muskler i skulderen og de bedste øvelser til træning."
+title: 'Skuldermuskler: Liste og øvelser til stærke skuldre'
+seo_title: 'Skuldermuskler: Komplet guide til anatomi og træning'
+description: Lær om skuldermusklerne (deltoideus og rotator cuff). Liste over muskler i skulderen og de bedste øvelser til
+  træning.
 permalink: /muskler/skulder/
 redirect_from:
-  - /skuldermuskler/
-  - /muskler/skulderen/
+- /skuldermuskler/
+- /muskler/skulderen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1541534741688-6078c6bfb5c5.jpg
+  credit: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5
+  teaser: /assets/images/unsplash/photo-1541534741688-6078c6bfb5c5.jpg
+  caption: 'Skuldermuskler: Liste og øvelser til stærke skuldre'
 category:
-  - Anatomi
-  - Muskler
+- Anatomi
+- Muskler
 tags:
-  - muskler
-  - anatomi
-  - skulder
-last_modified_at: 2026-03-29T17:15:00Z
-toc: true
+- muskler
+- anatomi
+- skulder
+last_modified_at: '2026-03-29T17:15:00Z'
+toc: 'true'
 author: lsolesen
 sidebar:
   nav: muscles
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Jeg har samlet en liste over muskler i din skulder her. Det er afgørende at forstå skulderens anatomi, hvis du vil have stærke, brede og sunde skuldre uden skader.

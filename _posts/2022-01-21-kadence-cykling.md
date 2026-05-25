@@ -1,24 +1,26 @@
 ---
-title: &title "Kadence i cykling og 'det runde tråd'"
+title: Kadence i cykling og 'det runde tråd'
 permalink: /kadence-og-runde-traad/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1628176634111-3e6eac912d5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1628176634111-3e6eac912d5c.jpg
+  credit: https://images.unsplash.com/photo-1628176634111-3e6eac912d5c
+  caption: Kadence i cykling og 'det runde tråd'
 category:
-  - Cykling
+- Cykling
 tags:
-  - cykling
-last_modified_at: 2022-01-20T08:14:14Z
-toc: true
+- cykling
+last_modified_at: '2022-01-20T08:14:14Z'
+toc: 'true'
 feature_row:
-  - title: "Netop gentagelsen er det smukke: Samtaler om cykling"
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/netop-gentagelsen-er-det-smukke_joergen-lethrolf-soerensenflemming-toft_indbundet_9788771083590
-    image_path: https://imgcdn.saxo.com/_9788771083590/0x500
-    excerpt: I Samtaler om cykling mødes Danmarks mest vindende cykelrytter gennem tiden, Rolf Sørensen, og kunstneren og cykelentutiasten, Jørgen Leth, i en samtale om netop cykelsporten.
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+- title: 'Netop gentagelsen er det smukke: Samtaler om cykling'
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/netop-gentagelsen-er-det-smukke_joergen-lethrolf-soerensenflemming-toft_indbundet_9788771083590
+  image_path: https://imgcdn.saxo.com/_9788771083590/0x500
+  excerpt: I Samtaler om cykling mødes Danmarks mest vindende cykelrytter gennem tiden, Rolf Sørensen, og kunstneren og cykelentutiasten,
+    Jørgen Leth, i en samtale om netop cykelsporten.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 ---
 
 Kadence i cykling og 'det runde tråd' er begreber, man hører ofte. Men hvad er egentlig en optimal kadence, og hvad betyder 'et rundt tråd'?

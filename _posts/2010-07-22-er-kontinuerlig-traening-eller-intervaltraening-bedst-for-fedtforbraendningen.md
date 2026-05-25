@@ -1,21 +1,22 @@
 ---
-title: &title "Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?"
-seo_title: "Kontinuerlig træning eller intervaller fedtforbrænding"
+title: Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?
+seo_title: Kontinuerlig træning eller intervaller fedtforbrænding
 permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
+  credit: https://images.unsplash.com/photo-1571008887538-b36bb32f4571
+  teaser: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
+  caption: Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?
 tags:
-  - intervaltræning
-  - fedtforbrænding
-  - vægttab
-  - løb
+- intervaltræning
+- fedtforbrænding
+- vægttab
+- løb
 category:
-  - Kondition
-  - Løb
-last_modified_at: 2020-06-07T08:34:44Z
+- Kondition
+- Løb
+last_modified_at: '2020-06-07T08:34:44Z'
 ---
 
 Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen?

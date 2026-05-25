@@ -1,59 +1,61 @@
 ---
-title: &title "BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥"
-seo_title: "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte"
+title: 'BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥'
+seo_title: 'BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte'
 permalink: /bmr-beregner-hvilestofskifte-basalstofskifte/
 redirect_from:
-  - /simpel-stofskifte/
+- /simpel-stofskifte/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg
+  credit: https://images.unsplash.com/photo-1507413245164-6160d8298b31
+  teaser: /assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg
+  caption: 'BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥'
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 meta:
   name: BMR-beregner (hvilestofskifte)
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
 tags:
-  - beregner
-  - stofskifte
-  - stofskifteberegner
-last_modified_at: 2025-03-06T23:14:14Z
+- beregner
+- stofskifte
+- stofskifteberegner
+last_modified_at: '2025-03-06T23:14:14Z'
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-    alt: "Menneskets ernæring"
-    title: "Menneskets ernæring"
-    excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+  title: Exercise Physiology - Nutrition, Energy, and Human Performance
+  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
+  alt: Menneskets ernæring
+  title: Menneskets ernæring
+  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
+    der er nødvendige for opretholdelse af liv. '
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 keywords:
-  - bmr beregner
-  - basalstofskifte beregner
-  - basalstofskifte
-  - udregn bmr
-  - beregn bmr
-  - hvilestofskifte
-  - beregn hvilestofskifte
-  - beregn basalstofskifte
-  - udregn basalstofskifte
-  - bmr udregning
-  - udregn hvilestofskifte
-  - basalstofskifte udregning
-  - basalstofskifte hvilestofskifte
-  - udregning af basalstofskifte
+- bmr beregner
+- basalstofskifte beregner
+- basalstofskifte
+- udregn bmr
+- beregn bmr
+- hvilestofskifte
+- beregn hvilestofskifte
+- beregn basalstofskifte
+- udregn basalstofskifte
+- bmr udregning
+- udregn hvilestofskifte
+- basalstofskifte udregning
+- basalstofskifte hvilestofskifte
+- udregning af basalstofskifte
 ---
 
 **Jeg har lavet en BMR-beregner, hvor du kan beregne dit hvilestofskifte og basalstofskifte ud fra dit køn, alder, vægt og højde.**

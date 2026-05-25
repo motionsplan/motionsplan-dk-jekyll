@@ -1,61 +1,74 @@
 ---
-title: &title "Beregn dit ligevægtsindtag med vores beregner ⚖️"
-seo_title: "Beregn dit ligevægtsindtag i vores gratis ligevægtsberegner"
-description: "Vil du gerne kende dit ligevægtsindtag? Beregn det GRATIS i vores enkle beregner, så du kan planlægge din kost."
+title: Beregn dit ligevægtsindtag med vores beregner ⚖️
+seo_title: Beregn dit ligevægtsindtag i vores gratis ligevægtsberegner
+description: Vil du gerne kende dit ligevægtsindtag? Beregn det GRATIS i vores enkle beregner, så du kan planlægge din kost.
 permalink: /ligevaegtsindtag-beregner/
 redirect_from:
-  - /ligevaegtsindtag/
-  - /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
+- /ligevaegtsindtag/
+- /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1582004228576-14e8b1256618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1582004228576-14e8b1256618.jpg
+  credit: https://images.unsplash.com/photo-1582004228576-14e8b1256618
+  caption: Beregn dit ligevægtsindtag med vores beregner ⚖️
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 tags:
-  - beregner
-  - stofskifte
-  - ligevægtsindtag
-  - energiberegner
-  - stofskifteberegner
-  - featured
+- beregner
+- stofskifte
+- ligevægtsindtag
+- energiberegner
+- stofskifteberegner
+- featured
 meta:
   name: Dagligt ligevægtsindtag
   equipment: ingen
   measures: dagligt energiforbrug
   type: energiforbrug
-popular: true
-last_modified_at: 2025-04-07T23:14:14Z
-toc: true
+popular: 'true'
+last_modified_at: '2025-04-07T23:14:14Z'
+toc: 'true'
 keywords:
-  - ligevægtsindtag
-  - beregn ligevægtsindtag
-  - ligevægtsindtag beregner
-  - beregning ligevægtsindtag
+- ligevægtsindtag
+- beregn ligevægtsindtag
+- ligevægtsindtag beregner
+- beregning ligevægtsindtag
 faq:
-  - question: "Hvad er mit ligevægtsindtag?"
-    answer: "Ligevægtsindtaget er den mængde energi, du skal indtage gennem kosten i løbet af en dag, for at modsvare hvor meget energi du bruger på en dag. Det kan du udregne i en ligevægtsberegner, som den du kan finde her på siden."
-  - question: "Hvordan beregner man sin ligevægtsindtag?"
-    answer: "Du kan bruge forskellige formler til at lave en udregning af dit ligevægtsindtag. Alle formler bygger på generelle antagelser om, hvor meget aktivitetsniveauet betyder for din forbrænding og gennemsnitlige værdier for den enkelte. Du kan lave en udregning af dit ligevægtsindtag i denne artikel."
-  - question: "Hvor lang tid tager det at finde mit præcise ligevægtsindtag?"
-    answer: "Det kan tage lidt tid at finde det præcise ligevægtsindtag, da det afhænger af flere faktorer, såsom ændringer i din træning, kost og livsstil. Det anbefales at justere og monitorere dit kalorieindtag over tid for at finde det niveau, der passer bedst til dig."
-  - question: "Hvilke faktorer påvirker mit ligevægtsindtag?"
-    answer: "Dit ligevægtsindtag påvirkes af flere faktorer, herunder din alder, køn, vægt, aktivitetsniveau og generelle stofskifte. Livsstilsfaktorer som stress, søvn og hormonbalancer kan også spille en rolle."
-  - question: "Er ligevægtsberegneren præcis?"
-    answer: "Ligevægtsberegneren giver et estimat baseret på gennemsnitlige værdier for aktivitetsniveau og basalstofskifte. Den kan være meget præcis for nogle, men ikke nødvendigvis for alle, da individuelle faktorer kan spille en rolle."
-  - question: "Hvad skal jeg gøre, hvis jeg vil ændre min vægt?"
-    answer: "For at ændre din vægt, skal du justere dit kalorieindtag. For at tabe dig, skal du være i kalorieunderskud, og for at tage på, skal du være i kalorieoverskud."
+- question: Hvad er mit ligevægtsindtag?
+  answer: Ligevægtsindtaget er den mængde energi, du skal indtage gennem kosten i løbet af en dag, for at modsvare hvor meget
+    energi du bruger på en dag. Det kan du udregne i en ligevægtsberegner, som den du kan finde her på siden.
+- question: Hvordan beregner man sin ligevægtsindtag?
+  answer: Du kan bruge forskellige formler til at lave en udregning af dit ligevægtsindtag. Alle formler bygger på generelle
+    antagelser om, hvor meget aktivitetsniveauet betyder for din forbrænding og gennemsnitlige værdier for den enkelte. Du
+    kan lave en udregning af dit ligevægtsindtag i denne artikel.
+- question: Hvor lang tid tager det at finde mit præcise ligevægtsindtag?
+  answer: Det kan tage lidt tid at finde det præcise ligevægtsindtag, da det afhænger af flere faktorer, såsom ændringer i
+    din træning, kost og livsstil. Det anbefales at justere og monitorere dit kalorieindtag over tid for at finde det niveau,
+    der passer bedst til dig.
+- question: Hvilke faktorer påvirker mit ligevægtsindtag?
+  answer: Dit ligevægtsindtag påvirkes af flere faktorer, herunder din alder, køn, vægt, aktivitetsniveau og generelle stofskifte.
+    Livsstilsfaktorer som stress, søvn og hormonbalancer kan også spille en rolle.
+- question: Er ligevægtsberegneren præcis?
+  answer: Ligevægtsberegneren giver et estimat baseret på gennemsnitlige værdier for aktivitetsniveau og basalstofskifte.
+    Den kan være meget præcis for nogle, men ikke nødvendigvis for alle, da individuelle faktorer kan spille en rolle.
+- question: Hvad skal jeg gøre, hvis jeg vil ændre min vægt?
+  answer: For at ændre din vægt, skal du justere dit kalorieindtag. For at tabe dig, skal du være i kalorieunderskud, og for
+    at tage på, skal du være i kalorieoverskud.
 feature_row_needed:
-  - title: ⚖️
-    excerpt: |
-      **Køkkenvægt**<br>For at registrere dit kalorieindtag, så skal du bruge en køkkenvægt, så du præcist kan måle vægten på din mad. Uden at veje maden risikerer du at under- eller overvurdere mængden af dit kalorieindtag.
-  - title: 📏
-    excerpt: | 
-      **Vægt**<br>Med en badevægt kan du jævnligt veje dig selv og holde styr på din vægt. Din vægt er nødvendig for at finde ud af, om dit kalorieindtag passer til dit hvilestofskifte og fysiske aktivitetsniveau.
-  - title: 📲
-    excerpt: | 
-      **Kalorieapp**<br>For at holde styr på dit kalorieindtag er klart det letteste at bruge en app. Her kan du indtaste alt, hvad du spiser, og så holder appen styr på dit totale energiindtag. [Se Kalorietæller apps](/kalorietaeller-apps/).
+- title: ⚖️
+  excerpt: '**Køkkenvægt**<br>For at registrere dit kalorieindtag, så skal du bruge en køkkenvægt, så du præcist kan måle
+    vægten på din mad. Uden at veje maden risikerer du at under- eller overvurdere mængden af dit kalorieindtag.
+
+    '
+- title: 📏
+  excerpt: '**Vægt**<br>Med en badevægt kan du jævnligt veje dig selv og holde styr på din vægt. Din vægt er nødvendig for
+    at finde ud af, om dit kalorieindtag passer til dit hvilestofskifte og fysiske aktivitetsniveau.
+
+    '
+- title: 📲
+  excerpt: '**Kalorieapp**<br>For at holde styr på dit kalorieindtag er klart det letteste at bruge en app. Her kan du indtaste
+    alt, hvad du spiser, og så holder appen styr på dit totale energiindtag. [Se Kalorietæller apps](/kalorietaeller-apps/).'
 ---
 
 Har du nogensinde undret dig over, hvor mange kalorier du skal indtage for at holde vægten stabil? Brug vores gratis beregner til at finde dit ligevægtsindtag.

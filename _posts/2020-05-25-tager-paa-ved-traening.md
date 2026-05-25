@@ -1,27 +1,28 @@
 ---
-title: &title "Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!"
+title: Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!
 permalink: /vaegt-stiger-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.8
-  caption: *title
-  alt: "Photo by Jen Theodore on Unsplash"
+  overlay_image: /assets/images/unsplash/photo-1569956726914-a9db65466c5b.jpg
+  credit: https://images.unsplash.com/photo-1569956726914-a9db65466c5b
+  teaser: /assets/images/unsplash/photo-1569956726914-a9db65466c5b.jpg
+  overlay_filter: '0.8'
+  caption: Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!
+  alt: Photo by Jen Theodore on Unsplash
 category:
-  - Kost & Ernæring
-  - Vægttab
+- Kost & Ernæring
+- Vægttab
 tags:
-  - muskler
-  - fedt
-  - vægt
-  - faq
-last_modified_at: 2020-05-28T08:14:14Z
-toc: true
+- muskler
+- fedt
+- vægt
+- faq
+last_modified_at: '2020-05-28T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvorfor tager jeg på, når jeg træner og spiser sundt?
-    answer: |
-      I dette indlæg får du mange gode grunde til, at du kan komme til at tage på, selvom du føler at du træner hårdt og spiser sundt.
+- question: Hvorfor tager jeg på, når jeg træner og spiser sundt?
+  answer: I dette indlæg får du mange gode grunde til, at du kan komme til at tage på, selvom du føler at du træner hårdt
+    og spiser sundt.
 ---
 
 Jeg er kommet i gang med at træne igen efter at have holdt lidt pause. Jeg oplever ofte, at jeg tager på, når jeg begynder at træne igen, men hvordan kan det egentlig være?

@@ -1,40 +1,44 @@
 ---
-title: &title "Upper/Lower split i Training for Warriors"
-seo_title: "Upper/Lower split i Training for Warriors (TFW)"
-description: "Se hvordan TFW bruger upper/lower split med struktur, øvelser og rep ranges, som kombinerer styrke, hypertrofi og funktionel træning."
-excerpt: "Se hvordan TFW bruger upper/lower split med struktur, øvelser og rep ranges, som kombinerer styrke, hypertrofi og funktionel træning."
+title: Upper/Lower split i Training for Warriors
+seo_title: Upper/Lower split i Training for Warriors (TFW)
+description: Se hvordan TFW bruger upper/lower split med struktur, øvelser og rep ranges, som kombinerer styrke, hypertrofi
+  og funktionel træning.
+excerpt: Se hvordan TFW bruger upper/lower split med struktur, øvelser og rep ranges, som kombinerer styrke, hypertrofi og
+  funktionel træning.
 permalink: /training-for-warriors/upper-lower-styrketraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1618355281342-d7d7569ab0f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1618355281342-d7d7569ab0f8.jpg
+  credit: https://images.unsplash.com/photo-1618355281342-d7d7569ab0f8
+  caption: Upper/Lower split i Training for Warriors
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - splitprogram
-  - begynder
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- splitprogram
+- begynder
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Kan jeg tilføje ekstra øvelser?
-    answer: >
-      Det anbefales **ikke** i starten. Fokusér på at mestre de store løft. Når du er vant til programmet, kan du tilføje fx:
-      - Chin-ups eller pull-ups
-      - Dips
-      - Maveøvelser (planken, hanging leg raises)
-  - question: Kan jeg tabe fedt samtidig?
-    answer: >
-      Ja – men vægtøgningen vil gå langsommere. Sørg for tilstrækkeligt protein og fokusér på styrkefremgang, ikke vægttab.
-  - question: Hvad hvis jeg har travlt?
-    answer: >
-      Programmet kan gennemføres på **45–60 minutter**. Prioritér de vigtigste løft og hold pauserne effektive.
+- question: Kan jeg tilføje ekstra øvelser?
+  answer: 'Det anbefales **ikke** i starten. Fokusér på at mestre de store løft. Når du er vant til programmet, kan du tilføje
+    fx: - Chin-ups eller pull-ups - Dips - Maveøvelser (planken, hanging leg raises)
+
+    '
+- question: Kan jeg tabe fedt samtidig?
+  answer: 'Ja – men vægtøgningen vil gå langsommere. Sørg for tilstrækkeligt protein og fokusér på styrkefremgang, ikke vægttab.
+
+    '
+- question: Hvad hvis jeg har travlt?
+  answer: 'Programmet kan gennemføres på **45–60 minutter**. Prioritér de vigtigste løft og hold pauserne effektive.
+
+    '
 meta:
   name: Training For Warriors Upper/Lower
   author: Martin Rooney

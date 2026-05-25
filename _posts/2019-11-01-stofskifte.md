@@ -1,66 +1,74 @@
 ---
-title: &title "Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag"
-seo_title: "Stofskifte og energibehov – Beregn BMR, TDEE og mere"
-description: "Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed."
-excerpt: "Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige kaloriebehov og optimere din sundhed."
+title: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
+seo_title: Stofskifte og energibehov – Beregn BMR, TDEE og mere
+description: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit
+  daglige kaloriebehov og optimere din sundhed.
+excerpt: Lær hvordan BMR, stofskifte og ligevægtsindtag påvirker dit energibehov. Brug vores beregnere til at finde dit daglige
+  kaloriebehov og optimere din sundhed.
 permalink: /stofskifte/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
+  credit: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3
+  teaser: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
+  caption: 'Forstå dit energibehov: BMR, stofskifte og ligevægtsindtag'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 meta:
   name: Beregn energiforbrug
   equipment: ingen
   measures: dagligt energiforbrug
   type: energiforbrug
 tags:
-  - kost & ernæring
-  - stofskifte
-  - guide
-  - featured
-last_modified_at: 2025-03-06T23:14:14Z
+- kost & ernæring
+- stofskifte
+- guide
+- featured
+last_modified_at: '2025-03-06T23:14:14Z'
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-    alt: "Menneskets ernæring"
-    title: "Menneskets ernæring"
-    excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+  title: Exercise Physiology - Nutrition, Energy, and Human Performance
+  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
+  alt: Menneskets ernæring
+  title: Menneskets ernæring
+  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
+    der er nødvendige for opretholdelse af liv. '
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 keywords:
-  - bmr beregner
-  - basalstofskifte beregner
-  - basalstofskifte
-  - udregn bmr
-  - beregn bmr
-  - hvilestofskifte
-  - beregn hvilestofskifte
-  - beregn basalstofskifte
-  - udregn basalstofskifte
-  - bmr udregning
-  - udregn hvilestofskifte
-  - basalstofskifte udregning
-  - basalstofskifte hvilestofskifte
-  - udregning af basalstofskifte
-faq: 
-- question: "Hvad er forskellen på hvilestofskifte og basalstofskifte?"
-  answer: "Hvilestofskifte (BMR) og basalstofskifte refererer ofte til den samme ting, nemlig den energi, kroppen bruger i hvile. BMR måler dette på et minimumsniveau, mens basalstofskifte kan være en mere generel term. Begge begreber bruges til at forstå kroppens grundlæggende energiforbrug."
-- question: "Hvad betyder det, hvis jeg har lavt stofskifte?"
-  answer: "Lavt stofskifte betyder, at kroppen forbrænder energi langsommere, hvilket kan føre til vægtøgning, træthed, og lavt energiniveau. Det kan skyldes hormonelle ubalancer som ved hypothyroidisme."
-- question: "Kan man øge sit stofskifte?"
-  answer: "Ja, fysisk aktivitet, især styrketræning og intensiv cardio, kan øge stofskiftet. Desuden kan en proteinrig kost, regelmæssige måltider og tilstrækkelig søvn også hjælpe med at booste stofskiftet."
+- bmr beregner
+- basalstofskifte beregner
+- basalstofskifte
+- udregn bmr
+- beregn bmr
+- hvilestofskifte
+- beregn hvilestofskifte
+- beregn basalstofskifte
+- udregn basalstofskifte
+- bmr udregning
+- udregn hvilestofskifte
+- basalstofskifte udregning
+- basalstofskifte hvilestofskifte
+- udregning af basalstofskifte
+faq:
+- question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
+  answer: Hvilestofskifte (BMR) og basalstofskifte refererer ofte til den samme ting, nemlig den energi, kroppen bruger i
+    hvile. BMR måler dette på et minimumsniveau, mens basalstofskifte kan være en mere generel term. Begge begreber bruges
+    til at forstå kroppens grundlæggende energiforbrug.
+- question: Hvad betyder det, hvis jeg har lavt stofskifte?
+  answer: Lavt stofskifte betyder, at kroppen forbrænder energi langsommere, hvilket kan føre til vægtøgning, træthed, og
+    lavt energiniveau. Det kan skyldes hormonelle ubalancer som ved hypothyroidisme.
+- question: Kan man øge sit stofskifte?
+  answer: Ja, fysisk aktivitet, især styrketræning og intensiv cardio, kan øge stofskiftet. Desuden kan en proteinrig kost,
+    regelmæssige måltider og tilstrækkelig søvn også hjælpe med at booste stofskiftet.
 ---
 
 Dit stofskifte – eller energiforbrug – handler om, hvor meget energi kroppen bruger i hvile og i aktivitet. Her får du et samlet overblik og adgang til beregnere og baggrundsviden.

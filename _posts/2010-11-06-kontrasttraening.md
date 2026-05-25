@@ -1,17 +1,18 @@
 ---
-title: &title "Kontrasttræning - for eksplosiv power"
+title: Kontrasttræning - for eksplosiv power
 permalink: /artikel/kontrasttraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1623874514711-0f321325f318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1623874514711-0f321325f318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1623874514711-0f321325f318.jpg
+  credit: https://images.unsplash.com/photo-1623874514711-0f321325f318
+  teaser: /assets/images/unsplash/photo-1623874514711-0f321325f318.jpg
+  caption: Kontrasttræning - for eksplosiv power
 tags:
-  - styrketræning
-  - eksplosivitet
+- styrketræning
+- eksplosivitet
 category:
-  - Styrketræning
-last_modified_at: 2015-04-09T21:24:52Z
+- Styrketræning
+last_modified_at: '2015-04-09T21:24:52Z'
 ---
 
 Ved at blande styrketræning med tunge vægte og eksplosive bevægelser med lav vægtbelastning, kan man tilsyneladende super-oplade nervesystemet. Fx kan man efter squat lave maksimale spring, eller efter bænkpres lave eksplosive armstrækninger.

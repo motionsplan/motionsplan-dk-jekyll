@@ -1,25 +1,29 @@
 ---
-title: &title "Vejer muskler mere end fedt?"
-seo_title: "Vejer muskler mere end fedt? Få svaret her!"
+title: Vejer muskler mere end fedt?
+seo_title: Vejer muskler mere end fedt? Få svaret her!
 permalink: /vejer-muskler-mere-end-fedt/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1551651056-2cb4d5c104be?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1551651056-2cb4d5c104be.jpg
+  credit: https://images.unsplash.com/photo-1551651056-2cb4d5c104be
+  caption: Vejer muskler mere end fedt?
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - muskler
-  - fedt
-  - vægt
-  - faq
-last_modified_at: 2021-12-28T08:14:14Z
-toc: true
+- muskler
+- fedt
+- vægt
+- faq
+last_modified_at: '2021-12-28T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad vejer muskler og fedt?
-    answer: Muskler og fedt har forskellig massefylde. En liter fedt vejer omkring 0,9 kg, mens en liter muskel vejer omkring 1,06 kg.
-  - question: Vejer muskler mere end fedt?
-    answer: Muskler vejer mere end fedt, fordi massefylden for fedt er lavere end for muskler. Det skyldes, at fedtceller først og fremmest består af triglycerider, der er lettere end de proteiner og det vand, muskelcellerne er bygget af. En liter muskel vejer omkring 1,06 kg, mens en liter fedt vejer omkring 0,9 kg.
+- question: Hvad vejer muskler og fedt?
+  answer: Muskler og fedt har forskellig massefylde. En liter fedt vejer omkring 0,9 kg, mens en liter muskel vejer omkring
+    1,06 kg.
+- question: Vejer muskler mere end fedt?
+  answer: Muskler vejer mere end fedt, fordi massefylden for fedt er lavere end for muskler. Det skyldes, at fedtceller først
+    og fremmest består af triglycerider, der er lettere end de proteiner og det vand, muskelcellerne er bygget af. En liter
+    muskel vejer omkring 1,06 kg, mens en liter fedt vejer omkring 0,9 kg.
 ---
 
 Jeg hører ofte folk sige, at muskler vejer mere end fedt, når folk vil forklare, hvorfor man kan tage på af at træne. Jeg lavede lidt research på vægten af muskler og fedt, for der står mange forskellige ting rundt omkring på internettet.

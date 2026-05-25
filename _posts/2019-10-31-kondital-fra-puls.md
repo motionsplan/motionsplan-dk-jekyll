@@ -1,20 +1,22 @@
 ---
-title: &title "Find dit kondital ud fra din puls 💗"
+title: Find dit kondital ud fra din puls 💗
 permalink: /kondital-fra-puls/
 redirect_from:
-  - /kondition-fra-puls/
-excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls til at finde dit kondital."
+- /kondition-fra-puls/
+excerpt: Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls til at finde dit
+  kondital.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1517867065801-e20f409696b0.jpg
+  credit: https://images.unsplash.com/photo-1517867065801-e20f409696b0
+  teaser: /assets/images/unsplash/photo-1517867065801-e20f409696b0.jpg
+  caption: Find dit kondital ud fra din puls 💗
   actions:
-    - label: "<i class='fas fa-calculator'></i> Hop til beregneren →"
-      url: "#calculator"
+  - label: <i class='fas fa-calculator'></i> Hop til beregneren →
+    url: '#calculator'
 category:
-  - Beregnere
-  - Kondition
+- Beregnere
+- Kondition
 meta:
   measures: kondital
   type: pulstest
@@ -22,14 +24,14 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - indirekte test
-  - tracking
-  - beregner
-last_modified_at: 2019-03-06T23:14:14Z
-toc: true
-breadcrumbs: true
+- test
+- konditionstest
+- indirekte test
+- tracking
+- beregner
+last_modified_at: '2019-03-06T23:14:14Z'
+toc: 'true'
+breadcrumbs: 'true'
 ---
 
 Du kan estimere dit kondital kun ved hjælp af din puls med denne test fra danske forskere. Det bliver næsten ikke lettere.

@@ -1,42 +1,49 @@
 ---
-title: "Hvad er en normal fedtprocent?"
-seo_title: "Hvornår er din fedtprocent normal?"
+title: Hvad er en normal fedtprocent?
+seo_title: Hvornår er din fedtprocent normal?
 permalink: /fedtprocent-normer/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1548705085-101177834f47?auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1548705085-101177834f47.jpg
+  credit: https://images.unsplash.com/photo-1548705085-101177834f47
 category:
-  - Kost & Ernæring
-  - Fedtprocent
+- Kost & Ernæring
+- Fedtprocent
 tags:
-  - fedtprocent
-  - normer
-last_modified_at: 2021-11-06T23:14:14Z
-toc: true
+- fedtprocent
+- normer
+last_modified_at: '2021-11-06T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
-    alt: "Tanita DC 360P Kropsanalysevægt"
-    title: "Tanita DC 360P Kropsanalysevægt"
-    excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
-    alt: "Tanita MC 780 P MA"
-    title: "Tanita MC 780 P MA"
-    excerpt: "Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+  alt: Tanita DC 360P Kropsanalysevægt
+  title: Tanita DC 360P Kropsanalysevægt
+  excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
+    det muligt at få en fuld kropsanalyse og måle din fedtprocent.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+  alt: Tanita MC 780 P MA
+  title: Tanita MC 780 P MA
+  excerpt: Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte.
+    Med det todelte display, kan du nemt overskue den målte og beregnede data.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 faq:
-  - question: Hvad er en god fedtprocent?
-    answer: |
-      Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på siden kan du se normer for fedtprocent i forhold til forskellige befolkningsgrupper, men du kan også få et bud på, hvad en sund fedtprocent er.
-  - question: Hvordan finder jeg min fedtprocent?
-    answer: |
-      Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
+- question: Hvad er en god fedtprocent?
+  answer: 'Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på
+    siden kan du se normer for fedtprocent i forhold til forskellige befolkningsgrupper, men du kan også få et bud på, hvad
+    en sund fedtprocent er.
+
+    '
+- question: Hvordan finder jeg min fedtprocent?
+  answer: Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent.
+    Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere
+    og hydrostatisk vejning.
 ---
 
 Kender du din egen fedtprocent? En sund fedtprocent er forskellig for mænd og kvinder. I vores fedtprocent tabel kan du danne dig et overblik over, hvordan din fedtprocent kan sammenlignes med andre.

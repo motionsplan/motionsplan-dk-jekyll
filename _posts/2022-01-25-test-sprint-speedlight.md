@@ -1,21 +1,23 @@
 ---
-title: &title "Sprinttest: Test din hastighed og acceleration"
-seo_title: "Sprinttest med sprintceller: Test hastighed og acceleration"
-excerpt: "Med sprintceller kan du ret præcist måle sprinthastighed og accelerationsevne. Den præcise tidtagning fås i forskellige variationer, men fælles for dem alle er at de præcist kan tage tid."
+title: 'Sprinttest: Test din hastighed og acceleration'
+seo_title: 'Sprinttest med sprintceller: Test hastighed og acceleration'
+excerpt: Med sprintceller kan du ret præcist måle sprinthastighed og accelerationsevne. Den præcise tidtagning fås i forskellige
+  variationer, men fælles for dem alle er at de præcist kan tage tid.
 permalink: /sprinttest-med-sprintceller/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1461896836934-ffe607ba8211.jpg
+  credit: https://images.unsplash.com/photo-1461896836934-ffe607ba8211
+  caption: 'Sprinttest: Test din hastighed og acceleration'
 category:
-  - Tests
-  - Eksplosivitet
+- Tests
+- Eksplosivitet
 tags:
-  - test
-  - sprinttest
-  - eksplosivitet
-last_modified_at: 2022-01-19T23:14:14Z
-toc: true
+- test
+- sprinttest
+- eksplosivitet
+last_modified_at: '2022-01-19T23:14:14Z'
+toc: 'true'
 meta:
   name: Sprinttest med sprintceller
   measures: sprint

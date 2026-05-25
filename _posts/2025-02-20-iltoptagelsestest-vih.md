@@ -1,17 +1,19 @@
 ---
-title: &title "Iltoptagelsestest på løbebånd (submax + maxtest) 🏃"
-seo_title: "Iltoptagelsestest på løbebånd (submax + maxtest)"
+title: Iltoptagelsestest på løbebånd (submax + maxtest) 🏃
+seo_title: Iltoptagelsestest på løbebånd (submax + maxtest)
 permalink: /vo2-test-vih/
 author: vih
-excerpt: "Øvelsesvejledning for iltoptagelsestest på Vejle Idrætshøjskole. Vi laver direkte måling af vo2 i løb med maske og stigende belastning og en maksimal test af konditallet."
-description: "Øvelsesvejledning for iltoptagelsestest på Vejle Idrætshøjskole. Vi laver direkte måling af vo2 i løb med maske og stigende belastning og en maksimal test af konditallet."
+excerpt: Øvelsesvejledning for iltoptagelsestest på Vejle Idrætshøjskole. Vi laver direkte måling af vo2 i løb med maske og
+  stigende belastning og en maksimal test af konditallet.
+description: Øvelsesvejledning for iltoptagelsestest på Vejle Idrætshøjskole. Vi laver direkte måling af vo2 i løb med maske
+  og stigende belastning og en maksimal test af konditallet.
 language: da
 classes: wide
 header:
   teaser: /assets/images/blog/vo2-max-test-running-female.webp
-  caption: *title
+  caption: Iltoptagelsestest på løbebånd (submax + maxtest) 🏃
 category:
-  - Tests
+- Tests
 meta:
   name: Øvelsesvejledning til VO2-test på VIH
   measures: LT1, LT2, VO2max, kondital, maxpuls, løbeøkonomi
@@ -20,22 +22,24 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
-  - test
-  - konditionstest
-  - testcenter
-  - iltoptagelsestest
-last_modified_at: 2025-03-24T08:14:14Z
+- test
+- konditionstest
+- testcenter
+- iltoptagelsestest
+last_modified_at: '2025-03-24T08:14:14Z'
 feature_row_tests_loeb:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Løbetests og kondition"
-    title: "Andre konditionstests"
-    excerpt: "Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige konditionstests, hvor du også kan estimere dit kondital."
-    url: "/kondition/tests/"
-    btn_label: "Se flere konditionstests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Løbetests og kondition
+  title: Andre konditionstests
+  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige konditionstests,
+    hvor du også kan estimere dit kondital.
+  url: /kondition/tests/
+  btn_label: Se flere konditionstests
+  btn_class: btn--success
 gallery_tests:
-  - image_path: /assets/images/motionsplan/incremental-max-test.jpg
-  - image_path: /assets/images/motionsplan/ramp-max-test.jpg
+- image_path: /assets/images/motionsplan/incremental-max-test.jpg
+- image_path: /assets/images/motionsplan/ramp-max-test.jpg
 ---
 
 Denne øvelsesvejledning beskriver iltoptagelsestest på løbebånd, som vi tilbyder på Vejle Idrætshøjskole. I løbebåndstesten laver vi en nøjagtig måling af iltoptagelsen for at finde din aerobe kapacitet under både submaksimalt og maksimalt arbejde.

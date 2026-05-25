@@ -1,20 +1,21 @@
 ---
-title: "Hvad er de fysiologiske tilpasninger ved styrketræning?"
+title: Hvad er de fysiologiske tilpasninger ved styrketræning?
 permalink: /fysiologiske-tilpasninger/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1549060279-7e168fcee0c2.jpg
+  credit: https://images.unsplash.com/photo-1549060279-7e168fcee0c2
+  teaser: /assets/images/unsplash/photo-1549060279-7e168fcee0c2.jpg
   caption: Photo by Taco Fleur on Unsplash
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - fysiologi
-  - muskler
-  - træningslære
-  - styrketræning
-last_modified_at: 2020-06-11T08:14:14Z
-toc: true
+- fysiologi
+- muskler
+- træningslære
+- styrketræning
+last_modified_at: '2020-06-11T08:14:14Z'
+toc: 'true'
 ---
 
 Når man styrketræner bliver du stærkere og dine muskler vokser, fordi der sker nogle fysiologiske ændringer i musklerne. Jeg synes, det er spændende at vide, hvad effekten er og hvilke fysiologiske tilpasninger, der egentlig sker ved styrketræning, så det har jeg undersøgt.

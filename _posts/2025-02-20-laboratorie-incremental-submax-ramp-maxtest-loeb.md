@@ -1,16 +1,18 @@
 ---
-title: &title "Løbebåndstest med iltoptagelse (submax + maxtest) 🏃"
-seo_title: "Løbebåndstest med iltoptagelse (submax + maxtest)"
+title: Løbebåndstest med iltoptagelse (submax + maxtest) 🏃
+seo_title: Løbebåndstest med iltoptagelse (submax + maxtest)
 permalink: /iltoptagelse-submax-trappetest-ramp-maxtest-loeb/
-excerpt: "Direkte måling af vo2 i løb med maske og stigende belastning fra lav intensitet til omkring den anaerobe tærskel. Derefter en maksimal test af konditallet."
-description: "Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til den anaerobe tærskel. Derefter en maksimal test af konditallet."
+excerpt: Direkte måling af vo2 i løb med maske og stigende belastning fra lav intensitet til omkring den anaerobe tærskel.
+  Derefter en maksimal test af konditallet.
+description: Direkte måling med maske af iltoptagelsen i løb med stigende belastning fra lav intensitet til den anaerobe tærskel.
+  Derefter en maksimal test af konditallet.
 language: da
 header:
   teaser: /assets/images/blog/vo2-max-test-running-female.webp
-  caption: *title
+  caption: Løbebåndstest med iltoptagelse (submax + maxtest) 🏃
 category:
-  - Kondition
-  - Konditiontests
+- Kondition
+- Konditiontests
 meta:
   name: Løbebåndstest med iltoptagelse (submax + maxtest)
   measures: LT1, LT2, VO2max, kondital, maxpuls, løbeøkonomi
@@ -19,24 +21,26 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
-  - test
-  - konditionstest
-  - direkte test
-  - maksimal test
-  - submaksimal test
-  - løbetest
-  - laboratorietest
-  - testcenter
-  - iltoptagelsestest
-last_modified_at: 2025-02-20T19:14:14Z
+- test
+- konditionstest
+- direkte test
+- maksimal test
+- submaksimal test
+- løbetest
+- laboratorietest
+- testcenter
+- iltoptagelsestest
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_tests_loeb:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Løbetests og kondition"
-    title: "Andre løbetests"
-    excerpt: "Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital."
-    url: "/tests/loeb/"
-    btn_label: "Se flere løbetests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Løbetests og kondition
+  title: Andre løbetests
+  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
+    du også kan estimere dit kondital.
+  url: /tests/loeb/
+  btn_label: Se flere løbetests
+  btn_class: btn--success
 ---
 
 I denne løbebåndstest for iltoptagelse får du en nøjagtig måling af din aerobe kapacitet under både submaksimalt og maksimalt arbejde. Testresultaterne kan give dig værdifuld indsigt i din præstation ved forskellige intensitetsniveauer og kan hjælpe dig med at optimere din træning.

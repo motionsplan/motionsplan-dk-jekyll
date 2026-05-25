@@ -1,21 +1,24 @@
 ---
-title: &title "Maffetone-metoden: Træn smartere med lav puls"
-seo_title: "Maffetone-metoden – Byg udholdenhed med lav puls-træning"
+title: 'Maffetone-metoden: Træn smartere med lav puls'
+seo_title: Maffetone-metoden – Byg udholdenhed med lav puls-træning
 permalink: /maffetone-metoden/
-description: " Lær, hvordan Maffetone-metoden kan forbedre din udholdenhed ved at træne i den optimale pulszone. Opdag fordelene ved lavintensitetstræning."
-excerpt: " Lær, hvordan Maffetone-metoden kan forbedre din udholdenhed ved at træne i den optimale pulszone. Opdag fordelene ved lavintensitetstræning."
-last_modified_at: 2025-02-24T09:41:09Z
+description: ' Lær, hvordan Maffetone-metoden kan forbedre din udholdenhed ved at træne i den optimale pulszone. Opdag fordelene
+  ved lavintensitetstræning.'
+excerpt: ' Lær, hvordan Maffetone-metoden kan forbedre din udholdenhed ved at træne i den optimale pulszone. Opdag fordelene
+  ved lavintensitetstræning.'
+last_modified_at: '2025-02-24T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1561311152-33b7c14c119c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1561311152-33b7c14c119c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1561311152-33b7c14c119c.jpg
+  credit: https://images.unsplash.com/photo-1561311152-33b7c14c119c
+  teaser: /assets/images/unsplash/photo-1561311152-33b7c14c119c.jpg
 category:
-  - Kondition
+- Kondition
 tags:
-  - beregner
-  - kondition
-  - løb
-  - cykling
+- beregner
+- kondition
+- løb
+- cykling
 meta:
   name: Maffetone Max Aerobic Heartrate
   measures: puls

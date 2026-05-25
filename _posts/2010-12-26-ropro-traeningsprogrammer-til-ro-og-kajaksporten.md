@@ -1,36 +1,40 @@
 ---
-title: "Rotræning: Intervaller og træningsprogram til romaskine 🚣"
-seo_title: "Rointervaller: Effektiv rotræning på romaskine"
-description: "Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration fra ekspert Anders Krintel."
-excerpt: "Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration fra ekspert Anders Krintel."
+title: 'Rotræning: Intervaller og træningsprogram til romaskine 🚣'
+seo_title: 'Rointervaller: Effektiv rotræning på romaskine'
+description: Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration
+  fra ekspert Anders Krintel.
+excerpt: Få effektive træningsprogrammer og intervaller til romaskine, der styrker konditionen og udholdenheden. Inspiration
+  fra ekspert Anders Krintel.
 permalink: /artikel/traeningsprogrammer-intervaller-roning/
 redirect_from:
-  - /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten
+- /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Rotræning: Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine."
+  overlay_image: /assets/images/unsplash/photo-1519505645104-c7be90e0d630.jpg
+  credit: https://images.unsplash.com/photo-1519505645104-c7be90e0d630
+  teaser: /assets/images/unsplash/photo-1519505645104-c7be90e0d630.jpg
+  caption: 'Rotræning: Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine.'
 tags:
-  - træning
-  - roning
-  - konditionstræning
-  - kondition
-  - anaerob træning
-  - aerob træning
-  - intervaltræning
+- træning
+- roning
+- konditionstræning
+- kondition
+- anaerob træning
+- aerob træning
+- intervaltræning
 category:
-  - Træning
-last_modified_at: 2020-07-05T21:42:12Z
+- Træning
+last_modified_at: '2020-07-05T21:42:12Z'
 feature_row:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg
-    alt: "Concept 2 egnet til rotræning og ropoprogrammer"
-    title: "Concept 2 - Model D Sort + PM5"
-    excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/?search=concept2
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg
+  alt: Concept 2 egnet til rotræning og ropoprogrammer
+  title: Concept 2 - Model D Sort + PM5
+  excerpt: Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller,
+    så din rotræning får høj kvalitet og en helt unik træningsoplevelse.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/?search=concept2
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine, og heldigvis kender jeg en ekspert indenfor området. Bliv klar til din rotræning ved at sammensætte dit eget træningsprogram!

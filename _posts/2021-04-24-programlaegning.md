@@ -1,22 +1,24 @@
 ---
-last_modified_at: 2022-09-14T09:14:14.000Z
-toc: true
+last_modified_at: '2022-09-14T09:14:14.000Z'
+toc: 'true'
 author: jakob.nielsson
-title: "6 trin til at lave dit et træningsprogram til styrketræning"
+title: 6 trin til at lave dit et træningsprogram til styrketræning
 seo_title: 6 trin til at lave dit eget træningsprogram til styrketræning
 permalink: /programlaegning-styrketraening/
-description: "Hvordan laver du dit eget styrketræningsprogram. Med 6 enkle trin kan du selv lave gode styrketræningsprogrammer, der passer til dine mål."
+description: Hvordan laver du dit eget styrketræningsprogram. Med 6 enkle trin kan du selv lave gode styrketræningsprogrammer,
+  der passer til dine mål.
 header:
-  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1586205208101-b9da5ef6120d.jpg
+  credit: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d
+  teaser: /assets/images/unsplash/photo-1586205208101-b9da5ef6120d.jpg
   caption: Hvordan laver man et styrketræningsprogram? 6 enkle trin!
 language: da
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - programlægning
-  - styrketræning
-  - guide
+- programlægning
+- styrketræning
+- guide
 ---
 I denne artikel vil jeg forklare og demonstrere min fremgangsmåde til, hvordan du kan lave dit eget styrketræningsprogram. Metoden gør dig i stand til at lave styrketræningsprogrammer, så du selv kan lave gode programmer der passer til netop dig.
 

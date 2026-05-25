@@ -1,26 +1,28 @@
 ---
-title: &title "Trappetest i roning: Test din maksimale præstation"
-excerpt: "Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest pålidelige [tests til roning](/kondital-roning/), hvis du gerne vil finde din maksimale ydeevne."
+title: 'Trappetest i roning: Test din maksimale præstation'
+excerpt: Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest pålidelige [tests
+  til roning](/kondital-roning/), hvis du gerne vil finde din maksimale ydeevne.
 permalink: /roning-trappetest/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1520536363714-9459b8f1af72.jpg
+  credit: https://images.unsplash.com/photo-1520536363714-9459b8f1af72
+  caption: 'Trappetest i roning: Test din maksimale præstation'
 category:
-  - Træning
-  - Roning
+- Træning
+- Roning
 tags:
-  - test
-  - sport
-  - roning
-  - kondition
-  - konditionstest
+- test
+- sport
+- roning
+- kondition
+- konditionstest
 meta:
   name: Trappetest i roning
   equipment: roergometer
   measures: anaerob tærskel
   type: rotest
-last_modified_at: 2022-08-11T10:21:26Z
+last_modified_at: '2022-08-11T10:21:26Z'
 ---
 
 Trappetesten i roning er en test til at finde dit [kondital](/kondital/). Det er en af de mest pålidelige [tests til roning](/kondital-roning/), hvis du gerne vil finde din maksimale ydeevne.

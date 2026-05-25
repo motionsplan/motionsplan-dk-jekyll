@@ -1,23 +1,24 @@
 ---
-title: &title "Hvordan lærer jeg at tage en armstrækning?"
+title: Hvordan lærer jeg at tage en armstrækning?
 permalink: /artikel/hvordan-laerer-jeg-tage-en-armstraekning/
 redirect_from:
-  - /artikel/jeg-vil-tage-mange-armstraekninger/
+- /artikel/jeg-vil-tage-mange-armstraekninger/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1514512364185-4c2b0985be01.jpg
+  credit: https://images.unsplash.com/photo-1514512364185-4c2b0985be01
+  teaser: /assets/images/unsplash/photo-1514512364185-4c2b0985be01.jpg
+  caption: Hvordan lærer jeg at tage en armstrækning?
 tags:
-  - styrketræning
-  - guide
-  - skulder
-  - træningsøvelse
-  - udholdenhed
-  - begynder
+- styrketræning
+- guide
+- skulder
+- træningsøvelse
+- udholdenhed
+- begynder
 category:
-  - Styrketræning
-last_modified_at: 2021-03-21T19:53:30Z
+- Styrketræning
+last_modified_at: '2021-03-21T19:53:30Z'
 ---
 
 Alle raske mennesker bør kunne tage mindst fem armstrækninger, hvor man kun rører jorden med hænderne og tæerne. Hvis ikke du kan, så får du nogle tips til at komme i gang her.

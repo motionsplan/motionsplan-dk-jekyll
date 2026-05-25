@@ -1,18 +1,19 @@
 ---
-title: &title "Test træthed i nervesystemet med finger tapping test?"
+title: Test træthed i nervesystemet med finger tapping test?
 permalink: /cns-fatigue/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.3
-  title: *title
+  overlay_image: /assets/images/unsplash/photo-1524304108392-fdb27fb3f983.jpg
+  credit: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983
+  teaser: /assets/images/unsplash/photo-1524304108392-fdb27fb3f983.jpg
+  overlay_filter: '0.3'
+  title: Test træthed i nervesystemet med finger tapping test?
 category:
-  - Træning
+- Træning
 tags:
-  - test
-  - fysiologi
-  - tracking
+- test
+- fysiologi
+- tracking
 meta:
   name: Finger tapping test
   measures: træthed i nervesysten
@@ -20,8 +21,8 @@ meta:
   equipment: app
   max: stillesiddende
   direct: indirekte test
-last_modified_at: 2020-03-06T23:14:14Z
-toc: true
+last_modified_at: '2020-03-06T23:14:14Z'
+toc: 'true'
 ---
 
 Finger Tapping Test er blevet foreslået, som en biomarkør på træthed i centralnervesystemet. I gamle dage brugte man en blyanttest til at teste CNS-fatigue, men det er noget lettere at lave med en smartphone.

@@ -1,18 +1,19 @@
 ---
-title: &title "3-split træningsprogram - træk/pres/ben (PPL)"
-seo_title: "3-split program: Effektiv træning med træk/pres/ben (PPL)"
+title: 3-split træningsprogram - træk/pres/ben (PPL)
+seo_title: '3-split program: Effektiv træning med træk/pres/ben (PPL)'
 permalink: /3-split-push-pull/
 header:
-  overlay_image: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1526405294019-7f3f7c8c7867.jpg
+  credit: https://images.unsplash.com/photo-1526405294019-7f3f7c8c7867
+  teaser: /assets/images/unsplash/photo-1526405294019-7f3f7c8c7867.jpg
+  caption: 3-split træningsprogram - træk/pres/ben (PPL)
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-last_modified_at: 2021-08-16T10:14:14Z
-toc: true
+- træningsprogram
+last_modified_at: '2021-08-16T10:14:14Z'
+toc: 'true'
 ---
 
 Her er et eksempel på et 3-split program, som du kan bruge, hvis dit mål er at få muskelvækst og du gerne vil træne 6 gange om ugen.

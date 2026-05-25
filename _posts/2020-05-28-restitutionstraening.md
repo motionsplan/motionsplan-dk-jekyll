@@ -1,19 +1,21 @@
 ---
-title: &title "Restitutionstræning: Træn for at blive hurtigere klar!"
-excerpt: "Hvis du gerne vil accelerere din genopbygning efter træning, så kan du lave restitutionstræning. Her kigger vi på, hvordan du kan skrue sådan en træning sammen."
+title: 'Restitutionstræning: Træn for at blive hurtigere klar!'
+excerpt: Hvis du gerne vil accelerere din genopbygning efter træning, så kan du lave restitutionstræning. Her kigger vi på,
+  hvordan du kan skrue sådan en træning sammen.
 permalink: /restitutionstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1547852356-68f969d6ac59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  alt: "Photo by Cris Saur on Unsplash"
+  overlay_image: /assets/images/unsplash/photo-1470777639313-60af88918203.jpg
+  credit: https://images.unsplash.com/photo-1547852356-68f969d6ac59
+  teaser: /assets/images/unsplash/photo-1547852356-68f969d6ac59.jpg
+  caption: 'Restitutionstræning: Træn for at blive hurtigere klar!'
+  alt: Photo by Cris Saur on Unsplash
 category:
-  - Restitution
+- Restitution
 tags:
-  - restitution
-last_modified_at: 2025-04-20T08:14:14Z
-toc: true
+- restitution
+last_modified_at: '2025-04-20T08:14:14Z'
+toc: 'true'
 ---
 
 Når du træner hårdt, så kan det hjælpe at lave restitutionstræning for at gøre genopbygningen mellem to hårdere træningspas hurtigere.

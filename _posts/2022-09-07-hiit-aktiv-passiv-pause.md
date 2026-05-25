@@ -1,48 +1,47 @@
 ---
-last_modified_at: 2022-09-07T02:18:02+01:00
-toc: true
+last_modified_at: '2022-09-07T02:18:02+01:00'
+toc: 'true'
 author: jesper.emil.jakobsgaard
 title: Aktiv eller passiv pause ved HIIT - hvad er optimalt?
 permalink: /hiit-aktiv-eller-passiv-pause/
 header:
-  teaser: https://images.unsplash.com/photo-1612032882906-2fa6f7b5f30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fHRyYWNrJTIwcnVubmVyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1612032882906-2fa6f7b5f30f.jpg
+  credit: https://images.unsplash.com/photo-1612032882906-2fa6f7b5f30f
   caption: Aktiv eller passiv pause ved HIIT - hvad er optimalt?
 category:
-  - Kondition
+- Kondition
 tags:
-  - kondition
-  - træningsprogram
-  - træning
-  - aerob træning
-  - anaerob træning
-  - intervaltræning
-  - træningsmetode
+- kondition
+- træningsprogram
+- træning
+- aerob træning
+- anaerob træning
+- intervaltræning
+- træningsmetode
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781492552123/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/science-and-application-of-high-intensity-interval-training_paul-laursen_hardback_9781492552123
-    title: Science and Application of High Intensity Interval Training
-    excerpt: Paul Laursen og Martin Buchheit har skrevet _Science and Application of
-      High-Intensity Interval Training_, som er _must-have_ for alle coaches,
-      trænere, fysiologer og researchers, der bruger HIIT - high-intensity
-      interval training - som en del af deres arbejdsområde og laver træning og
-      træningsprogrammer.
-    alt: HIIT - Højintensitets Intervaltræning - træningsprogram - træning
-    btn_label: Tjek prisen*
-    btn_class: btn--info
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9781492552123/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/science-and-application-of-high-intensity-interval-training_paul-laursen_hardback_9781492552123
+  title: Science and Application of High Intensity Interval Training
+  excerpt: Paul Laursen og Martin Buchheit har skrevet _Science and Application of High-Intensity Interval Training_, som
+    er _must-have_ for alle coaches, trænere, fysiologer og researchers, der bruger HIIT - high-intensity interval training
+    - som en del af deres arbejdsområde og laver træning og træningsprogrammer.
+  alt: HIIT - Højintensitets Intervaltræning - træningsprogram - træning
+  btn_label: Tjek prisen*
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
 gallery:
-  - image_path: /assets/images/pinterest/hiit-47x15.jpg
-    url: /assets/images/pinterest/hiit-47x15.jpg
-    title: HIIT træning
-    alt: HIIT træning
-  - image_path: /assets/images/pinterest/hiit-4x4.jpg
-    url: /assets/images/pinterest/hiit-4x4.jpg
-    title: HIIT træningsprogram
-    alt: HIIT træning
-  - image_path: /assets/images/pinterest/hiit-4x30.jpg
-    url: /assets/images/pinterest/hiit-4x30.jpg
-    title: HIIT træning
-    alt: HIIT træning
+- image_path: /assets/images/pinterest/hiit-47x15.jpg
+  url: /assets/images/pinterest/hiit-47x15.jpg
+  title: HIIT træning
+  alt: HIIT træning
+- image_path: /assets/images/pinterest/hiit-4x4.jpg
+  url: /assets/images/pinterest/hiit-4x4.jpg
+  title: HIIT træningsprogram
+  alt: HIIT træning
+- image_path: /assets/images/pinterest/hiit-4x30.jpg
+  url: /assets/images/pinterest/hiit-4x30.jpg
+  title: HIIT træning
+  alt: HIIT træning
 language: da
 sidebar:
   nav: methods

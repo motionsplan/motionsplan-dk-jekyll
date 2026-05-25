@@ -1,19 +1,21 @@
 ---
-title: &title "Hvordan påvirker idræt og sportsgrene kroppen?"
-excerpt: "De fleste mennesker tænker på sport som en måde at have det sjovt og holde sig i form på, men kun få er klar over de fantastiske ting, som sport kan gøre for kroppen."
+title: Hvordan påvirker idræt og sportsgrene kroppen?
+excerpt: De fleste mennesker tænker på sport som en måde at have det sjovt og holde sig i form på, men kun få er klar over
+  de fantastiske ting, som sport kan gøre for kroppen.
 permalink: /sportsgrene-paavirker-kroppen/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1528291954423-c0c71c12baeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHNwb3J0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1528291954423-c0c71c12baeb.jpg
+  credit: https://images.unsplash.com/photo-1528291954423-c0c71c12baeb
+  caption: Hvordan påvirker idræt og sportsgrene kroppen?
 category:
-  - Fysiologi
-  - Træning
+- Fysiologi
+- Træning
 tags:
-  - fysiologi
-  - træning
-  - kroppen
-last_modified_at: 2022-08-14T10:21:26Z
+- fysiologi
+- træning
+- kroppen
+last_modified_at: '2022-08-14T10:21:26Z'
 ---
 
 De fleste mennesker tænker på sport som en måde at have det sjovt og holde sig i form på, men kun få er klar over de fantastiske ting, som sport kan gøre for kroppen.

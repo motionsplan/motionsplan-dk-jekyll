@@ -1,21 +1,23 @@
 ---
-title: &title "Introduktion til styrketræning - Forstå alle begreberne"
-seo_title: "Introduktion til styrketræning - Forstå alle begreberne"
-description: "Få en grundig introduktion til styrketræning. Lær om fordelene, øvelserne og hvordan du kommer godt i gang med din træning."
+title: Introduktion til styrketræning - Forstå alle begreberne
+seo_title: Introduktion til styrketræning - Forstå alle begreberne
+description: Få en grundig introduktion til styrketræning. Lær om fordelene, øvelserne og hvordan du kommer godt i gang med
+  din træning.
 permalink: /styrketraening/introduktion/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1738523686890-f18afd66509c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1738523686890-f18afd66509c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1738523686890-f18afd66509c.jpg
+  credit: https://images.unsplash.com/photo-1738523686890-f18afd66509c
+  teaser: /assets/images/unsplash/photo-1738523686890-f18afd66509c.jpg
+  caption: Introduktion til styrketræning - Forstå alle begreberne
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - begynder
-  - guide
-last_modified_at: 2025-03-17T08:14:14Z
-toc: true
+- styrketræning
+- begynder
+- guide
+last_modified_at: '2025-03-17T08:14:14Z'
+toc: 'true'
 ---
 
 Styrketræning er en effektiv træningsform, der kan forbedre din styrke, muskelmasse, sundhed og præstationsevne – uanset om du er nybegynder eller styrketrænet et stykke tid. Ved at træne med vægte eller egen kropsvægt kan du opnå en stærkere og mere velfungerende krop.

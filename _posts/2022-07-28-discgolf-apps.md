@@ -1,67 +1,76 @@
 ---
-title: &title "5 bedste discgolf apps i 2025 (til at forbedre dit spil)"
-excerpt: "Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når du spiller discgolf."
+title: 5 bedste discgolf apps i 2025 (til at forbedre dit spil)
+excerpt: Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når
+  du spiller discgolf.
 permalink: /discgolf-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161910681-1f94317056fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1655161910681-1f94317056fe.jpg
+  credit: https://images.unsplash.com/photo-1655161910681-1f94317056fe
+  caption: 5 bedste discgolf apps i 2025 (til at forbedre dit spil)
 category:
-  - Sportsgrene
-  - Discgolf
+- Sportsgrene
+- Discgolf
 tags:
-  - discgolf
-  - apps
-last_modified_at: 2022-07-21T10:21:26Z
+- discgolf
+- apps
+last_modified_at: '2022-07-21T10:21:26Z'
 faq:
-  - question: Hvad er de bedste discs for en begynder?
-    answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at vælge disc](/golfdisc-til-discgolf/).
-  - question: Hvad betyder udtrykkene overstabil, stabil og understabil?
-    answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
-  - question: Hvad betyder hyzer og anhyzer?
-    answer: Hyzer og anhyzer er en betegnelse for den hældning golfdiscen har, når du kaster den. I et _hyzer_ højrehåndet baghåndskast vender den venstre kant af frisbeen nedad. Det gør, at frisbeen vil dreje endnu mere mod venstre til sidst i kastet. I et _anhyzer_ kast vender den venstre kant opad, hvilket vil få frisbeen til at gå mod højre i starten af kastet.
+- question: Hvad er de bedste discs for en begynder?
+  answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge
+    en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at
+    vælge disc](/golfdisc-til-discgolf/).
+- question: Hvad betyder udtrykkene overstabil, stabil og understabil?
+  answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj
+    hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve
+    mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt
+    betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
+- question: Hvad betyder hyzer og anhyzer?
+  answer: Hyzer og anhyzer er en betegnelse for den hældning golfdiscen har, når du kaster den. I et _hyzer_ højrehåndet baghåndskast
+    vender den venstre kant af frisbeen nedad. Det gør, at frisbeen vil dreje endnu mere mod venstre til sidst i kastet. I
+    et _anhyzer_ kast vender den venstre kant opad, hvilket vil få frisbeen til at gå mod højre i starten af kastet.
 gallery_udisc_length:
-  - image_path: /assets/images/blog/udisc-laengde-kast-1.jpg
-    url: /assets/images/blog/udisc-laengde-kast-1.jpg
-    alt: mål længde af dit kast i discgolf
-  - image_path: /assets/images/blog/udisc-laengde-kast-2.jpg
-    url: /assets/images/blog/udisc-laengde-kast-2.jpg
-    alt: mål længde af dit kast i discgolf
-  - image_path: /assets/images/blog/udisc-laengde-kast-3.jpg
-    url: /assets/images/blog/udisc-laengde-kast-3.jpg
-    alt: mål længde af dit kast i discgolf
+- image_path: /assets/images/blog/udisc-laengde-kast-1.jpg
+  url: /assets/images/blog/udisc-laengde-kast-1.jpg
+  alt: mål længde af dit kast i discgolf
+- image_path: /assets/images/blog/udisc-laengde-kast-2.jpg
+  url: /assets/images/blog/udisc-laengde-kast-2.jpg
+  alt: mål længde af dit kast i discgolf
+- image_path: /assets/images/blog/udisc-laengde-kast-3.jpg
+  url: /assets/images/blog/udisc-laengde-kast-3.jpg
+  alt: mål længde af dit kast i discgolf
 gallery_udisc_putting:
-  - image_path: /assets/images/blog/udisc-putting-practice-1.jpg
-    url: /assets/images/blog/udisc-putting-practice-1.jpg
-    alt: træn putting i discgolf
-  - image_path: /assets/images/blog/udisc-putting-practice-3.jpg
-    url: /assets/images/blog/udisc-putting-practice-3.jpg
-    alt: bliv mere præcis i discgolf
-  - image_path: /assets/images/blog/udisc-putting-practice-4.jpg
-    url: /assets/images/blog/udisc-putting-practice-4.jpg
-    alt: bliv mere præcis i discgolf
+- image_path: /assets/images/blog/udisc-putting-practice-1.jpg
+  url: /assets/images/blog/udisc-putting-practice-1.jpg
+  alt: træn putting i discgolf
+- image_path: /assets/images/blog/udisc-putting-practice-3.jpg
+  url: /assets/images/blog/udisc-putting-practice-3.jpg
+  alt: bliv mere præcis i discgolf
+- image_path: /assets/images/blog/udisc-putting-practice-4.jpg
+  url: /assets/images/blog/udisc-putting-practice-4.jpg
+  alt: bliv mere præcis i discgolf
 gallery_udisc_precision:
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-1.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-1.jpg
-    alt: træn din præcision i discgolf
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-2.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-2.jpg
-    alt: bliv mere præcis i discgolf
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-3.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-3.jpg
-    alt: bliv mere præcis i discgolf udisc
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-4.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-4.jpg
-    alt: bliv mere præcis i discgolf udisc
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-5.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-5.jpg
-    alt: bliv mere præcis i discgolf udisc
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-6.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-6.jpg
-    alt: bliv mere præcis i discgolf udisc
-  - image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-7.jpg
-    url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-7.jpg
-    alt: bliv mere præcis i discgolf udisc
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-1.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-1.jpg
+  alt: træn din præcision i discgolf
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-2.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-2.jpg
+  alt: bliv mere præcis i discgolf
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-3.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-3.jpg
+  alt: bliv mere præcis i discgolf udisc
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-4.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-4.jpg
+  alt: bliv mere præcis i discgolf udisc
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-5.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-5.jpg
+  alt: bliv mere præcis i discgolf udisc
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-6.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-6.jpg
+  alt: bliv mere præcis i discgolf udisc
+- image_path: /assets/images/blog/udisc-precision-discgolf-teknik-practice-7.jpg
+  url: /assets/images/blog/udisc-precision-discgolf-teknik-practice-7.jpg
+  alt: bliv mere præcis i discgolf udisc
 ---
 
 Her får du forskellige apps til discgolf, som kan hjælpe dig med at forbedre dit spil og få en bedre oplevelse, når du spiller discgolf.

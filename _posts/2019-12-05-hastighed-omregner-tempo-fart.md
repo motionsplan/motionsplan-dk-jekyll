@@ -1,46 +1,53 @@
 ---
-title: &title "Omregn mellem km/t og min/km (løbetempo)"
-seo_title: "Omregn tempo og hastighed → min/km ↔ km/t for løb og cykling"
-description: "Brug denne konverter til at omregne mellem løbetempo (min/km) og hastighed (km/t). Perfekt til løbebånd, GPS og træningsprogrammer."
+title: Omregn mellem km/t og min/km (løbetempo)
+seo_title: Omregn tempo og hastighed → min/km ↔ km/t for løb og cykling
+description: Brug denne konverter til at omregne mellem løbetempo (min/km) og hastighed (km/t). Perfekt til løbebånd, GPS
+  og træningsprogrammer.
 permalink: /hastighed/omregner-tempo-fart/
-excerpt: "Brug denne konverter til at omregne mellem løbetempo (min/km) og hastighed (km/t). Perfekt til løbebånd, GPS og træningsprogrammer."
+excerpt: Brug denne konverter til at omregne mellem løbetempo (min/km) og hastighed (km/t). Perfekt til løbebånd, GPS og træningsprogrammer.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1722392308109-37b94319caae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1722392308109-37b94319caae.jpg
+  credit: https://images.unsplash.com/photo-1722392308109-37b94319caae
+  caption: Omregn mellem km/t og min/km (løbetempo)
 category:
-  - Beregnere
-  - Hastighed
+- Beregnere
+- Hastighed
 tags:
-  - beregner
-  - løb
-  - cykling
+- beregner
+- løb
+- cykling
 meta:
   name: Omregn mellem km/t og min/km
   equipment: ingen
   measures: hastighed og pace
   type: løb, gang og cykling
-last_modified_at: 2025-03-30T12:14:14Z
-toc: true
+last_modified_at: '2025-03-30T12:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/freebies/hastighed-og-pace.png
-    title: "Skema med hastighed og pace"
-    excerpt: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
-    url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
-    btn_label: "<i class='fas fa-file-alt'></i> Udskriv hastighedstabel"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/hastighed-og-pace.png
+  title: Skema med hastighed og pace
+  excerpt: Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer
+    til i dit pace i min/km.
+  url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
+  btn_label: <i class='fas fa-file-alt'></i> Udskriv hastighedstabel
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvad bruger løbere og cyklister mest – min/km eller km/t?"
-    answer: "Løbere bruger oftest min/km (tempo), mens cyklister typisk bruger km/t. De fleste GPS-ure viser automatisk min/km under løbeprofiler og km/t under cykelprofiler."
-  - question: "Hvordan beregner man km/t?"
-    answer: "Hvis du kender, hvor langt du har bevæget dig, og hvor lang tid det tog, kan du beregne hastigheden i km/t med formlen: km/t = distance i km / tid i timer."
-  - question: "Hvordan finder man gennemsnitsfarten?"
-    answer: "Gennemsnitsfart beregnes ved at dividere den samlede distance med den samlede tid. Vi har en udregner, du kan bruge, hvis du vil slippe for hovedregningen."
-  - question: "Hvordan omregner man km/t til min/km?"
-    answer: "Du kan omregne hastighed (km/t) til tempo (min/km) med formlen: pace = 60 / hastighed. Fx svarer 12 km/t til et tempo på 5:00 min/km."
-  - question: "Hvordan konverterer man min/km til km/t?"
-    answer: "Brug formlen: hastighed = 60 / (minutter + sekunder/60). Hvis du fx løber i 6:00 min/km, så svarer det til 10 km/t."
+- question: Hvad bruger løbere og cyklister mest – min/km eller km/t?
+  answer: Løbere bruger oftest min/km (tempo), mens cyklister typisk bruger km/t. De fleste GPS-ure viser automatisk min/km
+    under løbeprofiler og km/t under cykelprofiler.
+- question: Hvordan beregner man km/t?
+  answer: 'Hvis du kender, hvor langt du har bevæget dig, og hvor lang tid det tog, kan du beregne hastigheden i km/t med
+    formlen: km/t = distance i km / tid i timer.'
+- question: Hvordan finder man gennemsnitsfarten?
+  answer: Gennemsnitsfart beregnes ved at dividere den samlede distance med den samlede tid. Vi har en udregner, du kan bruge,
+    hvis du vil slippe for hovedregningen.
+- question: Hvordan omregner man km/t til min/km?
+  answer: 'Du kan omregne hastighed (km/t) til tempo (min/km) med formlen: pace = 60 / hastighed. Fx svarer 12 km/t til et
+    tempo på 5:00 min/km.'
+- question: Hvordan konverterer man min/km til km/t?
+  answer: 'Brug formlen: hastighed = 60 / (minutter + sekunder/60). Hvis du fx løber i 6:00 min/km, så svarer det til 10 km/t.'
 ---
 
 Vil du vide, hvilket tempo der svarer til en bestemt hastighed – eller omvendt? Her kan du nemt konvertere mellem km/t og min/km, så du får det hele til at passe med løbebåndet, træningsplanen eller dit GPS-ur. Du kan omregne i begge retninger.

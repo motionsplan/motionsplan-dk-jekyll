@@ -1,18 +1,21 @@
 ---
-title: &title "Contrast Water Therapy: Virker kontrastbade på restitutionen?"
-description: "Kan kontrastbade få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i vand med skiftende temperaturer efter træning og konkurrence."
-excerpt: "Kan kontrastbade få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i vand med skiftende temperaturer efter træning og konkurrence."
+title: 'Contrast Water Therapy: Virker kontrastbade på restitutionen?'
+description: Kan kontrastbade få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker
+  dig ned i vand med skiftende temperaturer efter træning og konkurrence.
+excerpt: Kan kontrastbade få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker
+  dig ned i vand med skiftende temperaturer efter træning og konkurrence.
 permalink: /kontrastbade/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1570877441418-a00651b562ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1570877441418-a00651b562ef.jpg
+  credit: https://images.unsplash.com/photo-1570877441418-a00651b562ef
+  caption: 'Contrast Water Therapy: Virker kontrastbade på restitutionen?'
 tags:
-  - restitution
-  - kuldebehandling
+- restitution
+- kuldebehandling
 category:
-  - Restitution
-last_modified_at: 2022-10-04T20:39:39Z
+- Restitution
+last_modified_at: '2022-10-04T20:39:39Z'
 ---
 
 Kan kontrastbade få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i vand med skiftende temperaturer efter træning og konkurrence.

@@ -1,51 +1,58 @@
 ---
-title: "Kompressionsstrømper til cykling: Præstation og restitution"
-seo_title: "Kompressionsstrømper til cykling: Effekt, fordele og overvejelser"
-description: "Opdag effekten af kompressionsstrømper på din cykelpræstation restitutionen. Læs om fordele og få vejledning til valg af de rette strømper til dine behov."
+title: 'Kompressionsstrømper til cykling: Præstation og restitution'
+seo_title: 'Kompressionsstrømper til cykling: Effekt, fordele og overvejelser'
+description: Opdag effekten af kompressionsstrømper på din cykelpræstation restitutionen. Læs om fordele og få vejledning
+  til valg af de rette strømper til dine behov.
 permalink: /kompressionsstroemper-cykling/
-excerpt: "Opdag, hvordan kompressionsstrømper kan forbedre din cykelpræstation og fremskynde restitutionen. Læs om fordele, potentielle bivirkninger og få vejledning til valg af de rette strømper til dine behov."
+excerpt: Opdag, hvordan kompressionsstrømper kan forbedre din cykelpræstation og fremskynde restitutionen. Læs om fordele,
+  potentielle bivirkninger og få vejledning til valg af de rette strømper til dine behov.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610412970864-ef485d6b7446?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1610412970864-ef485d6b7446?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Virker kompressionsstrømper på restitution og præstation til cykling?"
+  overlay_image: /assets/images/unsplash/photo-1610412970864-ef485d6b7446.jpg
+  credit: https://images.unsplash.com/photo-1610412970864-ef485d6b7446
+  teaser: /assets/images/unsplash/photo-1610412970864-ef485d6b7446.jpg
+  caption: Virker kompressionsstrømper på restitution og præstation til cykling?
 category:
-  - Cykling
-  - Restitution
+- Cykling
+- Restitution
 tags:
-  - cykling
-  - restitution
-  - tøj
-  - skader
-  - udstyr
-last_modified_at: 2024-02-02T20:27:57Z
-toc: true
+- cykling
+- restitution
+- tøj
+- skader
+- udstyr
+last_modified_at: '2024-02-02T20:27:57Z'
+toc: 'true'
 feature_row:
-  - image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
-    alt: "Seger kompressionsløbestrømper - kompressionsstrømper der virker"
-    title: "Seger Kompressionsstrømper til Løb"
-    excerpt: "Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
-    alt: "CEP Calf Sleeve - Kompressionsstrømper"
-    title: "CEP Calf Sleeve"
-    excerpt: "Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence egenskaber. Mesh ved læggen for bedre ventilation."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
+  alt: Seger kompressionsløbestrømper - kompressionsstrømper der virker
+  title: Seger Kompressionsstrømper til Løb
+  excerpt: Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression
+    giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
+  alt: CEP Calf Sleeve - Kompressionsstrømper
+  title: CEP Calf Sleeve
+  excerpt: Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence
+    egenskaber. Mesh ved læggen for bedre ventilation.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 feature_row_bike:
-  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
-    alt: "Sensor Compress - Kompressions cykelstrømper"
-    title: "Sensor Compress - Kompressionsstrømper cykelstrømper der virker"
-    excerpt: "Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere. Cykelstrømperne er udviklet med en anatomisk svang, samt forstærket tå og hælområde. Derudover modvirker de trætte ben og giver foden en bedre støtte."
-    url: "https://www..com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
+  alt: Sensor Compress - Kompressions cykelstrømper
+  title: Sensor Compress - Kompressionsstrømper cykelstrømper der virker
+  excerpt: Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere.
+    Cykelstrømperne er udviklet med en anatomisk svang, samt forstærket tå og hælområde. Derudover modvirker de trætte ben
+    og giver foden en bedre støtte.
+  url: https://www..com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 I cykelsporten søger både amatører og professionelle konstant efter metoder til at optimere præstation og fremskynde [din restitution](/restitution/).

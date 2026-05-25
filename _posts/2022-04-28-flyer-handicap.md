@@ -1,16 +1,17 @@
 ---
-title: &title "Løbetider, alder og vægt - Flyer Handicap Beregner"
+title: Løbetider, alder og vægt - Flyer Handicap Beregner
 permalink: /flyer-handicap/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1509010636466-2292663e132f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1509010636466-2292663e132f.jpg
+  credit: https://images.unsplash.com/photo-1509010636466-2292663e132f
+  caption: Løbetider, alder og vægt - Flyer Handicap Beregner
 category:
-  - Løb
+- Løb
 tags:
-  - beregner
-  - løb
-last_modified_at: 2022-04-12T22:21:26Z
+- beregner
+- løb
+last_modified_at: '2022-04-12T22:21:26Z'
 meta:
   name: Flyer Handicap Løbeberegner
   equipment: ingen

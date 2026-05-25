@@ -1,21 +1,22 @@
 ---
-title: &title "Progressionsmodeller: Progressivt overload i styrketræning 💪"
+title: 'Progressionsmodeller: Progressivt overload i styrketræning 💪'
 permalink: /progressionsmodeller-progressivt-overload/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1533681475364-326b6803d677.jpg
+  credit: https://images.unsplash.com/photo-1533681475364-326b6803d677
+  teaser: /assets/images/unsplash/photo-1533681475364-326b6803d677.jpg
+  caption: 'Progressionsmodeller: Progressivt overload i styrketræning 💪'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træningsplanlægning
-  - styrketræning
-  - programlægning
-  - liste
-last_modified_at: 2022-03-22T23:14:14Z
-toc: true
+- træningsplanlægning
+- styrketræning
+- programlægning
+- liste
+last_modified_at: '2022-03-22T23:14:14Z'
+toc: 'true'
 ---
 
 Hvis du planlægger din styrketræning, så kan du hele tiden udvikle dig. Det gør du ved at indlægge progression i din træning og tænke på over, hvordan du laver progressivt overload. Her kigger vi på forskellige progressionsmodeller.

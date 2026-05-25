@@ -1,31 +1,38 @@
 ---
-title: &title "Akut skadesbehandling: Sådan behandler du akutte sportsskader"
-seo_title: "Akut skadesbehandling: Sådan behandler du akutte sportsskader"
+title: 'Akut skadesbehandling: Sådan behandler du akutte sportsskader'
+seo_title: 'Akut skadesbehandling: Sådan behandler du akutte sportsskader'
 permalink: /akut-skadesbehandling/
-description: "Hvordan behandler du bedst en akut skade? Her får du tips til, hvordan du laver skadesbehandling ud fra enten RICE, POLICE eller PEACE & LOVE."
-excerpt: "Hvordan behandler du bedst en akut skade? Her får du tips til, hvordan du laver skadesbehandling ud fra enten RICE, POLICE eller PEACE & LOVE."
+description: Hvordan behandler du bedst en akut skade? Her får du tips til, hvordan du laver skadesbehandling ud fra enten
+  RICE, POLICE eller PEACE & LOVE.
+excerpt: Hvordan behandler du bedst en akut skade? Her får du tips til, hvordan du laver skadesbehandling ud fra enten RICE,
+  POLICE eller PEACE & LOVE.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1579722820903-01d3e776f85e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.3
+  teaser: /assets/images/unsplash/photo-1579722820903-01d3e776f85e.jpg
+  credit: https://images.unsplash.com/photo-1579722820903-01d3e776f85e
+  caption: 'Akut skadesbehandling: Sådan behandler du akutte sportsskader'
+  overlay_filter: '0.3'
 category:
-  - Skader & Skadesforebyggelse
+- Skader & Skadesforebyggelse
 tags:
-  - skadesbehandling
-last_modified_at: 2022-11-01T07:14:14Z
+- skadesbehandling
+last_modified_at: '2022-11-01T07:14:14Z'
 faq:
-  - question: Hvad er en akut skade?
-    answer: |
-      En akut skade opstår typisk i forbindelse med en høj kraft eller et hurtigt retningsskifte. Det kan ske pga. en kraftig og eksplosiv bevægelse eller fordi du lander forkert.
+- question: Hvad er en akut skade?
+  answer: 'En akut skade opstår typisk i forbindelse med en høj kraft eller et hurtigt retningsskifte. Det kan ske pga. en
+    kraftig og eksplosiv bevægelse eller fordi du lander forkert.
 
-      Ved akutte skader bliver musker, ledbånd, sener eller knogler påvirket kraftigere end hvad de normalt kan holde til.
-  - question: Hvad står RICEM for?
-    answer: RICEM står for **R**est, **I**ce, **C**ompression, **E**levation og **M**ovement.
-  - question: Hvad står POLICE for?
-    answer: POLICE står for **P**rotect, **O**ptimal **L**oading, **I**ce, **C**ompression og **E**levation.
-  - question: Hvad står PEACE & LOVE for?
-    answer: PEACE & LOVE står for **P**roctection, **E**levate, **A**void Anti-Inflammatory, **C**ompress og **E**ducate & **L**oad, **O**ptimism, **V**ascularisation og **Exercise.
+
+    Ved akutte skader bliver musker, ledbånd, sener eller knogler påvirket kraftigere end hvad de normalt kan holde til.
+
+    '
+- question: Hvad står RICEM for?
+  answer: RICEM står for **R**est, **I**ce, **C**ompression, **E**levation og **M**ovement.
+- question: Hvad står POLICE for?
+  answer: POLICE står for **P**rotect, **O**ptimal **L**oading, **I**ce, **C**ompression og **E**levation.
+- question: Hvad står PEACE & LOVE for?
+  answer: PEACE & LOVE står for **P**roctection, **E**levate, **A**void Anti-Inflammatory, **C**ompress og **E**ducate & **L**oad,
+    **O**ptimism, **V**ascularisation og **Exercise.
 ---
 
 Når der opstår en akut skade, så kan de første timer og dage have stor betydning for, hvor lang tid det tager for dig at komme i gang med træning og konkurrence igen.

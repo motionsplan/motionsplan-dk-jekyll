@@ -1,45 +1,55 @@
 ---
-title: &title "Hvor meget søvn har vi brug for?"
-seo_title: "Hvor meget søvn skal man have? (Tabel med alder)"
+title: Hvor meget søvn har vi brug for?
+seo_title: Hvor meget søvn skal man have? (Tabel med alder)
 permalink: /hvor-meget-skal-man-sove/
-excerpt: "Hvor meget søvn har du brug for, hvis din krop og hjerne skal fungere optimalt?"
+excerpt: Hvor meget søvn har du brug for, hvis din krop og hjerne skal fungere optimalt?
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1549675584-c22bde15df72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1549675584-c22bde15df72.jpg
+  credit: https://images.unsplash.com/photo-1549675584-c22bde15df72
+  caption: Hvor meget søvn har vi brug for?
 category:
-  - Restitution
-  - Søvn
+- Restitution
+- Søvn
 tags:
-  - søvn
-last_modified_at: 2022-08-17T23:14:14Z
-toc: true
+- søvn
+last_modified_at: '2022-08-17T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788711731611/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569
-    title: "Sov Rigtigt"
-    excerpt: "Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder det lige nu – ikke når du går i seng i aften. - Nick Littlehales"
-    alt: Sov Rigtigt - Nick Littlehales
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9780674975392/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/internal-time_till-roenneberg_paperback_9780674975392
-    title: "Internal time"
-    excerpt: "Till Roenneberg viser at hvis vi ikke respekterer vores indre ur, så risikerer vi at være i kronisk søvnunderskud, hvilket kan få os til at ryge, tage på i vægt, føle os deprimeret og blive syge. Hvis man forstår den indre tid, så kan vi også leve bedre. Till Roenneberg står bl.a. bag Munich Chronotype Questionnaire (MCTQ)."
-    alt: Internal Time - Roenneberg
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788711731611/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569
+  title: Sov Rigtigt
+  excerpt: Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun
+    om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder
+    det lige nu – ikke når du går i seng i aften. - Nick Littlehales
+  alt: Sov Rigtigt - Nick Littlehales
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9780674975392/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/internal-time_till-roenneberg_paperback_9780674975392
+  title: Internal time
+  excerpt: Till Roenneberg viser at hvis vi ikke respekterer vores indre ur, så risikerer vi at være i kronisk søvnunderskud,
+    hvilket kan få os til at ryge, tage på i vægt, føle os deprimeret og blive syge. Hvis man forstår den indre tid, så kan
+    vi også leve bedre. Till Roenneberg står bl.a. bag Munich Chronotype Questionnaire (MCTQ).
+  alt: Internal Time - Roenneberg
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 faq:
-  - question: Hvor meget skal man sove?
-    answer: I gennemsnit skal voksne mennesker sove 7,5 timer hver nat. Anbefalingerne er at man sover mellem 7-9 timer. Nogle kan imidlertid godt nøjes med mindre søvn, og nogle har brug for flere timers søvn. Søvnbehovet ændrer sig også med alderen.
-  - question: Hvordan ved man om man sover for lidt?
-    answer: Hvis du har svært ved vågne, og du har brug for et vækkeur for at komme op, så kan det være, at du sover for lidt. Hvis du føler dig træt gennem dagen, og hjernen føles slukket, så bør du sove lidt mere eller forbedre kvaliteten af din søvn. Måske passer din [kronotype ikke med din hverdag](/a-eller-b-menneske/).
-  - question: Hvordan ved man om man sover nok?
-    answer: Hvis du vågner frisk og veludhvilet de fleste morgener, så får du formentlig den søvn du har brug for. Selvom der findes nogle generelle anbefalinger, så er søvn en meget individuel ting.
-  - question: Hvor meget søvn skal man have i forhold til sin alder?
-    answer: Dit søvnbehov ændrer sig med alderen. Små børn har brug for mere søvn end ældre mennesker. Du kan finde en tabel med generelle anbefalinger for sovetider i dette indlæg.
+- question: Hvor meget skal man sove?
+  answer: I gennemsnit skal voksne mennesker sove 7,5 timer hver nat. Anbefalingerne er at man sover mellem 7-9 timer. Nogle
+    kan imidlertid godt nøjes med mindre søvn, og nogle har brug for flere timers søvn. Søvnbehovet ændrer sig også med alderen.
+- question: Hvordan ved man om man sover for lidt?
+  answer: Hvis du har svært ved vågne, og du har brug for et vækkeur for at komme op, så kan det være, at du sover for lidt.
+    Hvis du føler dig træt gennem dagen, og hjernen føles slukket, så bør du sove lidt mere eller forbedre kvaliteten af din
+    søvn. Måske passer din [kronotype ikke med din hverdag](/a-eller-b-menneske/).
+- question: Hvordan ved man om man sover nok?
+  answer: Hvis du vågner frisk og veludhvilet de fleste morgener, så får du formentlig den søvn du har brug for. Selvom der
+    findes nogle generelle anbefalinger, så er søvn en meget individuel ting.
+- question: Hvor meget søvn skal man have i forhold til sin alder?
+  answer: Dit søvnbehov ændrer sig med alderen. Små børn har brug for mere søvn end ældre mennesker. Du kan finde en tabel
+    med generelle anbefalinger for sovetider i dette indlæg.
 ---
 
 Hvor meget søvn har du brug for, hvis din krop skal fungere optimalt, hjernen nå at blive renset og nulstillet, restitutionen være god og for at få forbedringer i immunsystemet?

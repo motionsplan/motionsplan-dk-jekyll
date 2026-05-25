@@ -1,14 +1,16 @@
 ---
-title: &title "Kondital på romaskine ud fra 2000 meter test i roning 🚣"
-seo_title: "Kondital på romaskine ud fra 2000 meter test i roning"
-excerpt: "Du kan finde dit kondital i roning og måle din kondition med en maksimal konditiontest på romaskine. Det er en 2000 meter maksimal test på et roergometer."
+title: Kondital på romaskine ud fra 2000 meter test i roning 🚣
+seo_title: Kondital på romaskine ud fra 2000 meter test i roning
+excerpt: Du kan finde dit kondital i roning og måle din kondition med en maksimal konditiontest på romaskine. Det er en 2000
+  meter maksimal test på et roergometer.
 permalink: /kondital-roning/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1640334554795-095bce07fc8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1640334554795-095bce07fc8a.jpg
+  credit: https://images.unsplash.com/photo-1640334554795-095bce07fc8a
+  caption: Kondital på romaskine ud fra 2000 meter test i roning 🚣
 category:
-  - Kondition
+- Kondition
 meta:
   name: 2000 meter ro-test
   measures: kondital
@@ -17,11 +19,11 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
-  - konditionstest
-  - roning
-  - testberegner
-  - rotest
-last_modified_at: 2022-08-07T10:14:14Z
+- konditionstest
+- roning
+- testberegner
+- rotest
+last_modified_at: '2022-08-07T10:14:14Z'
 ---
 
 Du kan finde dit kondital på forskellige måder i en romaskine. Hvis du har adgang til et roergometer, så kan du få estimeret din kondition ved at lave en maksimal konditiontest.

@@ -1,21 +1,24 @@
 ---
-title: &title "Sådan laver du et splitprogram til styrketræning"
-seo_title: "Sådan laver du dit eget splitprogram til styrketræning"
-excerpt: "Lær at lave dit eget splitprogram til styrketræning. Få styr på muskelopdeling, øvelsesvalg og hvordan du tilpasser programmet til dit niveau og dine mål."
-description: "Lær at lave dit eget splitprogram til styrketræning. Få styr på muskelopdeling, øvelsesvalg og hvordan du tilpasser programmet til dit niveau og dine mål."
+title: Sådan laver du et splitprogram til styrketræning
+seo_title: Sådan laver du dit eget splitprogram til styrketræning
+excerpt: Lær at lave dit eget splitprogram til styrketræning. Få styr på muskelopdeling, øvelsesvalg og hvordan du tilpasser
+  programmet til dit niveau og dine mål.
+description: Lær at lave dit eget splitprogram til styrketræning. Få styr på muskelopdeling, øvelsesvalg og hvordan du tilpasser
+  programmet til dit niveau og dine mål.
 permalink: /styrketraening/lav-dit-eget-splitprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1520948013839-62020f374478.jpg
+  credit: https://images.unsplash.com/photo-1520948013839-62020f374478
+  teaser: /assets/images/unsplash/photo-1520948013839-62020f374478.jpg
+  caption: Sådan laver du et splitprogram til styrketræning
 tags:
-  - styrketræning
-  - træningsplanlægning
-  - programlægning
+- styrketræning
+- træningsplanlægning
+- programlægning
 category:
-  - Styrketræning
-last_modified_at: 2025-03-03T11:44:17Z
+- Styrketræning
+last_modified_at: '2025-03-03T11:44:17Z'
 ---
 
 Vil du selv sammensætte et splitprogram, hvor du fordeler muskelgrupperne over flere træningsdage? Et splitprogram er ideelt, hvis du træner 3 eller flere gange om ugen og gerne vil give hver muskelgruppe mere fokus og volumen.

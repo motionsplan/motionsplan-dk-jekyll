@@ -1,24 +1,25 @@
 ---
-title: &title "Øvelser til baglår: Træn haser og undgå fibersprængninger?"
+title: 'Øvelser til baglår: Træn haser og undgå fibersprængninger?'
 permalink: /artikel/traener-du-dine-haser/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1701826510604-933d4f755d35?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1701826510604-933d4f755d35.jpg
+  credit: https://images.unsplash.com/photo-1701826510604-933d4f755d35
+  caption: 'Øvelser til baglår: Træn haser og undgå fibersprængninger?'
 tags:
-  - styrketræning
-  - skader
-  - skadesforebyggelse
+- styrketræning
+- skader
+- skadesforebyggelse
 category:
-  - Styrketræning
-last_modified_at: 2020-07-05T21:40:51Z
+- Styrketræning
+last_modified_at: '2020-07-05T21:40:51Z'
 gallery:
-  - image_path: /assets/images/knee_flexors.jpg
-    alt: Musklerne på baglåret flekterer knæet
-    title: Musklerne på baglåret flekterer knæet
-  - image_path: /assets/images/hip_extensors.jpg
-    alt: Musklerne på baglåret er med til at strække hoften
-    title: Musklerne på baglåret er med til at strække hoften
+- image_path: /assets/images/knee_flexors.jpg
+  alt: Musklerne på baglåret flekterer knæet
+  title: Musklerne på baglåret flekterer knæet
+- image_path: /assets/images/hip_extensors.jpg
+  alt: Musklerne på baglåret er med til at strække hoften
+  title: Musklerne på baglåret er med til at strække hoften
 sidebar:
   nav: exercises
 ---

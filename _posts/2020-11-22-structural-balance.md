@@ -1,30 +1,31 @@
 ---
-title: &title "Strukturel balance i forskellige styrketræningsøvelser 💪"
+title: Strukturel balance i forskellige styrketræningsøvelser 💪
 permalink: /strukturel-balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1571019613914-85f342c6a11e.jpg
+  credit: https://images.unsplash.com/photo-1571019613914-85f342c6a11e
+  teaser: /assets/images/unsplash/photo-1571019613914-85f342c6a11e.jpg
+  caption: Strukturel balance i forskellige styrketræningsøvelser 💪
   actions:
-    - label: "<i class='fas fa-file-excel'></i> Sheet med strukturel balance"
-      url: "#sheet"
-      rel: nofollow noopener
-category:
-  - Styrketræning
-tags:
-  - styrketræning
-  - spreadsheet
-last_modified_at: 2020-10-13T23:14:14Z
-toc: true
-feature_row:
-  - image_path: /assets/images/blog/structural-balance.png
-    url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
-    title: Strukturel Balance
-    excerpt: Google Sheets med forslag til strukturel balance mellem forskellige styrketræningsøvelser.
-    btn_label: <i class='fas fa-file-excel'></i> Google Sheets
-    btn_class: btn--info
+  - label: <i class='fas fa-file-excel'></i> Sheet med strukturel balance
+    url: '#sheet'
     rel: nofollow noopener
+category:
+- Styrketræning
+tags:
+- styrketræning
+- spreadsheet
+last_modified_at: '2020-10-13T23:14:14Z'
+toc: 'true'
+feature_row:
+- image_path: /assets/images/blog/structural-balance.png
+  url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
+  title: Strukturel Balance
+  excerpt: Google Sheets med forslag til strukturel balance mellem forskellige styrketræningsøvelser.
+  btn_label: <i class='fas fa-file-excel'></i> Google Sheets
+  btn_class: btn--info
+  rel: nofollow noopener
 ---
 
 Strukturel balance i forskellige styrketræningsøvelser som koncept er ideen om, at man der bør være en balance mellem, hvor stærk man er i forskellige styrketræningsøvelser, så der er balance i kroppens styrke.

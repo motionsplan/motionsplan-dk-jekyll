@@ -1,18 +1,21 @@
 ---
-title: "Cooper-test: Beregn dit kondital med 12 minutters løbetest"
-seo_title: "Cooper-test: Guide og værktøj til at beregne dit kondital"
-description: "Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter."
-excerpt: "Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din kondition på 12 minutter."
+title: 'Cooper-test: Beregn dit kondital med 12 minutters løbetest'
+seo_title: 'Cooper-test: Guide og værktøj til at beregne dit kondital'
+description: Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle
+  din kondition på 12 minutter.
+excerpt: Beregn dit kondital med Cooper-testen. Få en detaljeret guide, beregner og tabel over resultater til at måle din
+  kondition på 12 minutter.
 permalink: /cooper-test/
 redirect_from:
-  - /kondital-cooper/
+- /kondital-cooper/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
+  credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
-  - Kondition
-  - Løb
+- Kondition
+- Løb
 meta:
   name: Coopers 12 minutters løbetest
   measures: kondital
@@ -21,36 +24,40 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - løb
-  - indirekte test
-  - maksimal test
-  - løbetest
-  - testberegner
-  - fitnesstest
-  - aerob test
-  - featured
-  - populær
-popular: true
-last_modified_at: 2024-08-20T10:14:14Z
+- test
+- konditionstest
+- løb
+- indirekte test
+- maksimal test
+- løbetest
+- testberegner
+- fitnesstest
+- aerob test
+- featured
+- populær
+popular: 'true'
+last_modified_at: '2024-08-20T10:14:14Z'
 feature_row:
-  - image_path: /assets/images/freebies/cooper.png
-    alt: "Tabel og skema over Cooper-test"
-    title: "Tabel over distancer til udskrivning"
-    excerpt: "Det modificerede skema og tabel over distancer på Cooper-testen kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs."
-    url: "https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing"
-    btn_label: "<i class='fas fa-file-alt'></i> Se tabel over Cooper-test"
-    btn_class: "btn--info"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/cooper.png
+  alt: Tabel og skema over Cooper-test
+  title: Tabel over distancer til udskrivning
+  excerpt: Det modificerede skema og tabel over distancer på Cooper-testen kan udskrives herfra, så den er lige til at hænge
+    op på væggen. Tabellen er lavet i Google Docs.
+  url: https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing
+  btn_label: <i class='fas fa-file-alt'></i> Se tabel over Cooper-test
+  btn_class: btn--info
+  rel: nofollow noopener
 faq:
-  - question: Hvordan beregner man Cooper test?
-    answer: Du kan bruge distancen på løbetesten til at beregne dit kondital. Her på siden kan du finde formlen og en beregner til at udregne tallet.
-  - question: Hvad er godt i en Cooper test?
-    answer: "Coopers løbetest kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med at vurdere, hvor godt resultatet er. Hvis du har forbedret dig siden sidst, så kan man godt sige, at du har fået et godt resultat i Coopers løbetest."
+- question: Hvordan beregner man Cooper test?
+  answer: Du kan bruge distancen på løbetesten til at beregne dit kondital. Her på siden kan du finde formlen og en beregner
+    til at udregne tallet.
+- question: Hvad er godt i en Cooper test?
+  answer: Coopers løbetest kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med
+    at vurdere, hvor godt resultatet er. Hvis du har forbedret dig siden sidst, så kan man godt sige, at du har fået et godt
+    resultat i Coopers løbetest.
 about:
-  name: "Cooper test"
-  url: "https://da.wikipedia.org/wiki/Coopertest"
+  name: Cooper test
+  url: https://da.wikipedia.org/wiki/Coopertest
 ---
 
 Har du løbet en Cooper-test, og vil du gerne finde dit kondital? Vi har lavet en gratis beregner, hvor du kan sammenligne dit resultat med andre i en tabel og et skema.

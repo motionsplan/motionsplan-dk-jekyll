@@ -1,79 +1,84 @@
 ---
-title: "Hjemmetræning: Øvelser og træningsprogram til træning hjemme"
+title: 'Hjemmetræning: Øvelser og træningsprogram til træning hjemme'
 permalink: /hjemmetraening-traeningsprogram/
 redirect_from:
-  - /hjaemmetraening-corona-workouts/
-last_modified_at: 2021-08-06T09:41:09Z
+- /hjaemmetraening-corona-workouts/
+last_modified_at: '2021-08-06T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Hjemmetræning: Øvelser og træningsprogram til træning hjemme"
+  overlay_image: /assets/images/unsplash/photo-1514512364185-4c2b0985be01.jpg
+  credit: https://images.unsplash.com/photo-1514512364185-4c2b0985be01
+  teaser: /assets/images/unsplash/photo-1514512364185-4c2b0985be01.jpg
+  caption: 'Hjemmetræning: Øvelser og træningsprogram til træning hjemme'
 category:
-  - Træning
+- Træning
 tags:
-  - hjemmetræning
-  - workouts
-  - træningsprogram
-  - øvelser
+- hjemmetræning
+- workouts
+- træningsprogram
+- øvelser
 gallery:
-  - image_path: /assets/images/corona/MB_CW1.jpg
-    url: /assets/images/corona/MB_CW1.jpg
-    title: "Corona Workout Hjemmetræning Day 1"
-    alt: "Corona Workout Hjemmetræning Day 1"
-  - image_path: /assets/images/corona/MB_CW2.jpg
-    url: /assets/images/corona/MB_CW2.jpg
-    title: "Corona Workout Hjemmetræning Day 2"
-    alt: "Corona Workout Hjemmetræning Day 2"
-  - image_path: /assets/images/corona/MB_CW3.jpg
-    url: /assets/images/corona/MB_CW3.jpg
-    title: "Corona Workout Hjemmetræning Day 3"
-    alt: "Corona Workout Hjemmetræning Day 3"
-  - image_path: /assets/images/corona/MB_CW4.jpg
-    url: /assets/images/corona/MB_CW4.jpg
-    title: "Corona Workout Hjemmetræning Day 4"
-    alt: "Corona Workout Hjemmetræning Day 4"
-  - image_path: /assets/images/corona/MB_CW5.jpg
-    url: /assets/images/corona/MB_CW5.jpg
-    title: "Corona Workout Hjemmetræning Day 5"
-    alt: "Corona Workout Hjemmetræning Day 5"
-  - image_path: /assets/images/corona/MB_CW6.jpg
-    url: /assets/images/corona/MB_CW6.jpg
-    title: "Corona Workout Hjemmetræning Day 6"
-    alt: "Corona Workout Hjemmetræning Day 6"
-  - image_path: /assets/images/corona/MB_CW7.jpg
-    url: /assets/images/corona/MB_CW7.jpg
-    title: "Corona Workout Hjemmetræning Day 7"
-    alt: "Corona Workout Hjemmetræning Day 7"
-  - image_path: /assets/images/corona/MB_CW13.jpg
-    url: /assets/images/corona/MB_CW13.jpg
-    title: "Corona Workout Hjemmetræning Day 13"
-    alt: "Corona Workout Hjemmetræning Day 13"
+- image_path: /assets/images/corona/MB_CW1.jpg
+  url: /assets/images/corona/MB_CW1.jpg
+  title: Corona Workout Hjemmetræning Day 1
+  alt: Corona Workout Hjemmetræning Day 1
+- image_path: /assets/images/corona/MB_CW2.jpg
+  url: /assets/images/corona/MB_CW2.jpg
+  title: Corona Workout Hjemmetræning Day 2
+  alt: Corona Workout Hjemmetræning Day 2
+- image_path: /assets/images/corona/MB_CW3.jpg
+  url: /assets/images/corona/MB_CW3.jpg
+  title: Corona Workout Hjemmetræning Day 3
+  alt: Corona Workout Hjemmetræning Day 3
+- image_path: /assets/images/corona/MB_CW4.jpg
+  url: /assets/images/corona/MB_CW4.jpg
+  title: Corona Workout Hjemmetræning Day 4
+  alt: Corona Workout Hjemmetræning Day 4
+- image_path: /assets/images/corona/MB_CW5.jpg
+  url: /assets/images/corona/MB_CW5.jpg
+  title: Corona Workout Hjemmetræning Day 5
+  alt: Corona Workout Hjemmetræning Day 5
+- image_path: /assets/images/corona/MB_CW6.jpg
+  url: /assets/images/corona/MB_CW6.jpg
+  title: Corona Workout Hjemmetræning Day 6
+  alt: Corona Workout Hjemmetræning Day 6
+- image_path: /assets/images/corona/MB_CW7.jpg
+  url: /assets/images/corona/MB_CW7.jpg
+  title: Corona Workout Hjemmetræning Day 7
+  alt: Corona Workout Hjemmetræning Day 7
+- image_path: /assets/images/corona/MB_CW13.jpg
+  url: /assets/images/corona/MB_CW13.jpg
+  title: Corona Workout Hjemmetræning Day 13
+  alt: Corona Workout Hjemmetræning Day 13
 feature_row_ads:
-  - image_path: /assets/images/logo/apuls.png
-    alt: "Apuls"
-    title: "Apuls"
-    excerpt: "Apuls sælger til interesserede i træning/fitness, men vi har også et stort udvalg indenfor vinter, sport, pleje, vand, wellness, kosttilskud m.v."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
-    btn_label: "Besøg Apuls"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: /assets/images/logo/denintelligentekrop.png
-    alt: "Den Intelligente Krop"
-    title: "Den Intelligente Krop"
-    excerpt: "Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit osv."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-    btn_label: "Besøg Den Intelligente Krop"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
-  - image_path: /assets/images/logo/billig-fitness.png
-    alt: "Billig-Fitness.dk"
-    title: "Billig-Fitness.dk"
-    excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-    btn_label: "Besøg Billig-Fitness.dk"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
+- image_path: /assets/images/logo/apuls.png
+  alt: Apuls
+  title: Apuls
+  excerpt: Apuls sælger til interesserede i træning/fitness, men vi har også et stort udvalg indenfor vinter, sport, pleje,
+    vand, wellness, kosttilskud m.v.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
+  btn_label: Besøg Apuls
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/logo/denintelligentekrop.png
+  alt: Den Intelligente Krop
+  title: Den Intelligente Krop
+  excerpt: Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr
+    til Pilates, yoga, crossfit osv.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
+  btn_label: Besøg Den Intelligente Krop
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/logo/billig-fitness.png
+  alt: Billig-Fitness.dk
+  title: Billig-Fitness.dk
+  excerpt: Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet,
+    og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte
+    mv.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
+  btn_label: Besøg Billig-Fitness.dk
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
 ---
 
 Her på siden kan du få inspiration til din hjemmetræning. Vi har her samlet en lang række øvelser til hjemmetræning og et hjemmetræningsprogram, som du kan lave hjemme uden udstyr.

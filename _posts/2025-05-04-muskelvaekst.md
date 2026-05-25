@@ -1,40 +1,50 @@
 ---
-title: &title "Muskelvækst: Ultimativ guide til opbygning af muskelmasse"
-seo_title: "Muskelvækst - Guide til effektiv muskelopbygning og hypertrofi"
-description: "Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større muskler."
-excerpt: "Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større muskler."
+title: 'Muskelvækst: Ultimativ guide til opbygning af muskelmasse'
+seo_title: Muskelvækst - Guide til effektiv muskelopbygning og hypertrofi
+description: Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får
+  større muskler.
+excerpt: Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større
+  muskler.
 permalink: /muskelvaekst-hypertrofi/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1641625997768-c59943f7e10e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1641625997768-c59943f7e10e.jpg
+  credit: https://images.unsplash.com/photo-1641625997768-c59943f7e10e
+  caption: 'Muskelvækst: Ultimativ guide til opbygning af muskelmasse'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træning
-  - styrketræning
-  - træningslære
-last_modified_at: 2025-05-05T22:21:26Z
+- træning
+- styrketræning
+- træningslære
+last_modified_at: '2025-05-05T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: "Hvad er hypertrofi?"
-    answer: "Hypertrofi er den proces, hvor musklerne vokser i størrelse som svar på træning, særligt når de udsættes for mekanisk spænding, metabolisk stress og muskelskader."
-  - question: "Hvor hurtigt vokser muskler?"
-    answer: "Hvor hurtigt muskler vokser afhænger af faktorer som træningserfaring, genetik og træningsforhold. Begyndere kan forvente hurtigere vækst i de første 6-12 måneder, mens mere erfarne kan opleve en langsommere væksthastighed."
-  - question: "Hvad er de bedste metoder til muskelvækst?"
-    answer: "De bedste metoder til muskelvækst inkluderer progressiv overload, variation i træningsvolumen og frekvens, samt brug af teknikker som supersets og drop sets for at maksimere træningens effekt."
-  - question: "Hvordan påvirker atrofi muskelvækst og styrke?"
-    answer: "Atrofi sker, når du stopper med at træne, og musklerne mister både størrelse og styrke. For at undgå dette bør du fortsætte med at træne regelmæssigt, selvom du tager en pause."
-  - question: "Hvordan kan jeg undgå at miste muskelmasse?"
-    answer: "For at undgå muskelatrofi bør du træne regelmæssigt, opretholde tilstrækkeligt proteinindtag og sikre, at du ikke er inaktiv i længere perioder."
-  - question: "Hvad er forskellen på volumen og intensitet i træning?"
-    answer: "Volumen refererer til den samlede mængde arbejde udført i et træningspas (fx sæt x gentagelser), mens intensitet refererer til hvor tungt du træner, ofte målt som procent af din maksimale løfteevne."
-  - question: "Kan jeg opbygge muskelmasse uden at få meget fedt?"
-    answer: "Ja, det er muligt at opbygge muskelmasse uden at tage meget fedt på, hvis du følger en kontrolleret kalorieoverskud og træner effektivt med fokus på muskelopbygning."
-  - question: "Hvor ofte bør jeg træne for at maksimere muskelvækst?"
-    answer: "For optimal muskelvækst bør du træne hver muskelgruppe 2-3 gange om ugen, afhængigt af dit træningsniveau og programmering."
+- question: Hvad er hypertrofi?
+  answer: Hypertrofi er den proces, hvor musklerne vokser i størrelse som svar på træning, særligt når de udsættes for mekanisk
+    spænding, metabolisk stress og muskelskader.
+- question: Hvor hurtigt vokser muskler?
+  answer: Hvor hurtigt muskler vokser afhænger af faktorer som træningserfaring, genetik og træningsforhold. Begyndere kan
+    forvente hurtigere vækst i de første 6-12 måneder, mens mere erfarne kan opleve en langsommere væksthastighed.
+- question: Hvad er de bedste metoder til muskelvækst?
+  answer: De bedste metoder til muskelvækst inkluderer progressiv overload, variation i træningsvolumen og frekvens, samt
+    brug af teknikker som supersets og drop sets for at maksimere træningens effekt.
+- question: Hvordan påvirker atrofi muskelvækst og styrke?
+  answer: Atrofi sker, når du stopper med at træne, og musklerne mister både størrelse og styrke. For at undgå dette bør du
+    fortsætte med at træne regelmæssigt, selvom du tager en pause.
+- question: Hvordan kan jeg undgå at miste muskelmasse?
+  answer: For at undgå muskelatrofi bør du træne regelmæssigt, opretholde tilstrækkeligt proteinindtag og sikre, at du ikke
+    er inaktiv i længere perioder.
+- question: Hvad er forskellen på volumen og intensitet i træning?
+  answer: Volumen refererer til den samlede mængde arbejde udført i et træningspas (fx sæt x gentagelser), mens intensitet
+    refererer til hvor tungt du træner, ofte målt som procent af din maksimale løfteevne.
+- question: Kan jeg opbygge muskelmasse uden at få meget fedt?
+  answer: Ja, det er muligt at opbygge muskelmasse uden at tage meget fedt på, hvis du følger en kontrolleret kalorieoverskud
+    og træner effektivt med fokus på muskelopbygning.
+- question: Hvor ofte bør jeg træne for at maksimere muskelvækst?
+  answer: For optimal muskelvækst bør du træne hver muskelgruppe 2-3 gange om ugen, afhængigt af dit træningsniveau og programmering.
 ---
 
 Hvordan opbygger man egentlig større muskler? Muskelvækst – også kaldet *hypertrofi* – handler om at øge kroppens **muskelmasse** gennem målrettet styrketræning og tilpas restitution. Men det er langt mere end bare at løfte tungt. For at forstå og udnytte kroppens evne til at vokse, kræver det indsigt i både fysiologi, træningsprincipper og programmering.

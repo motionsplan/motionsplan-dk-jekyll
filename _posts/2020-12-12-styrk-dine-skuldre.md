@@ -1,19 +1,20 @@
 ---
-title: &title "Skuldertræning: Styrk dine skuldre og rotatormanchet 💪"
+title: 'Skuldertræning: Styrk dine skuldre og rotatormanchet 💪'
 permalink: /skuldertraening-styrk-dine-skuldre-rotatormanchet/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1532384748853-8f54a8f476e2.jpg
+  credit: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2
+  teaser: /assets/images/unsplash/photo-1532384748853-8f54a8f476e2.jpg
+  caption: 'Skuldertræning: Styrk dine skuldre og rotatormanchet 💪'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - skulder
-last_modified_at: 2020-12-03T23:14:14Z
-toc: true
+- styrketræning
+- skulder
+last_modified_at: '2020-12-03T23:14:14Z'
+toc: 'true'
 ---
 
 Når du planlægger din skuldertræning, så er det godt at tænke lidt over skulderens opbygning. For at styrke dine skuldre, skal du træne skulderen med flere øvelser. Det kan betale sig at tage højde for rotatormanchetten, når du vælger de mest effektive skulderøvelser.

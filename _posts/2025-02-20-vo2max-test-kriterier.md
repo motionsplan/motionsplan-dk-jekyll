@@ -1,26 +1,30 @@
 ---
-title: &title "6 kritierer for en maksimal iltoptagelsestest"
-seo_title: "6 kritierer for en maksimal iltoptagelsestest"
+title: 6 kritierer for en maksimal iltoptagelsestest
+seo_title: 6 kritierer for en maksimal iltoptagelsestest
 permalink: /kriterier-maksimal-iltoptagelsestest/
-excerpt: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Disse 6 kriterier kan være med til at vurdere, om du har ydet dit maksimale."
-description: "Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Disse 6 kriterier kan være med til at vurdere, om du har ydet dit maksimale."
+excerpt: Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Disse 6 kriterier kan være med til
+  at vurdere, om du har ydet dit maksimale.
+description: Hvordan ved du, om du har opnået din maksimale iltoptagelse (VO₂max) i en test? Disse 6 kriterier kan være med
+  til at vurdere, om du har ydet dit maksimale.
 language: da
 header:
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
-  caption: *title
+  caption: 6 kritierer for en maksimal iltoptagelsestest
 category:
-  - Kondition
+- Kondition
 tags:
-  - fysiologi
-last_modified_at: 2025-02-20T19:14:14Z
+- fysiologi
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_tests_loeb:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Løbetests og kondition"
-    title: "Andre løbetests"
-    excerpt: "Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital."
-    url: "/tests/loeb/"
-    btn_label: "Se flere løbetests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Løbetests og kondition
+  title: Andre løbetests
+  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
+    du også kan estimere dit kondital.
+  url: /tests/loeb/
+  btn_label: Se flere løbetests
+  btn_class: btn--success
 ---
 
 Maksimal iltoptagelse (VO₂max) er et afgørende mål for din aerobe kapacitet og en vigtig indikator for din kondition. Men hvordan ved vi, om en person virkelig har nået sin maksimale iltoptagelse under en test?

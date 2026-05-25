@@ -1,18 +1,21 @@
 ---
-title: "Maxpuls-test – de bedste metoder til præcis måling"
-seo_title: "Maxpuls-test: Sådan tester du selv din maksimale puls"
-description: "Vil du kende din præcise maksimale puls? Her er en guide til de bedste testmetoder, så du kan finde en test, der passer dig."
-excerpt: "En fysisk test er den mest præcise måde at måle din maxpuls på. Se vores guide til de bedste metoder, og find en test, der passer til dig."
+title: Maxpuls-test – de bedste metoder til præcis måling
+seo_title: 'Maxpuls-test: Sådan tester du selv din maksimale puls'
+description: Vil du kende din præcise maksimale puls? Her er en guide til de bedste testmetoder, så du kan finde en test,
+  der passer dig.
+excerpt: En fysisk test er den mest præcise måde at måle din maxpuls på. Se vores guide til de bedste metoder, og find en
+  test, der passer til dig.
 permalink: /max-puls-test/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1523394643039-a2770cf4a2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.2
+  teaser: /assets/images/unsplash/photo-1523394643039-a2770cf4a2a0.jpg
+  credit: https://images.unsplash.com/photo-1523394643039-a2770cf4a2a0
+  overlay_filter: '0.2'
 category:
-  - Kondition
+- Kondition
 tags:
-  - test
-  - puls
+- test
+- puls
 meta:
   name: Max puls test
   measures: maxpuls
@@ -20,18 +23,24 @@ meta:
   equipment: pulsmåler
   max: maksimal test
   direct: direkte test
-last_modified_at: 2025-02-03T08:14:14Z
+last_modified_at: '2025-02-03T08:14:14Z'
 faq:
-  - question: "Hvordan tester jeg min maxpuls?"
-    answer: "Den mest præcise måde at finde din maxpuls på er gennem en fysisk test. Dette kan gøres ved at presse dig selv til maksimal anstrengelse, fx gennem en trappetest eller en intervaltest. Læs mere om testmetoder på vores side."
-  - question: "Hvilken maxpuls-test er bedst?"
-    answer: "Det afhænger af din træningstype. En løbetest er god for løbere, mens en cykeltest er bedre for cyklister. En laboratorietest med iltoptagelsesmåling er den mest præcise, men kræver professionelt udstyr."
-  - question: "Kan jeg teste min maxpuls uden at presse mig selv maksimalt?"
-    answer: "Nej! Du skal presse dig selv maksimalt, men du skal sørge for, at du ikke arbejder for hårdt i starten, så du ikke bliver for træt, inden du når op på din maxpuls. Alternativt kan du bruge en beregningsformel, men den er mindre præcis. Se vores [maxpuls-beregner](/max-puls-beregner/) for en hurtig estimering."
-  - question: "Er det farligt at teste sin maxpuls?"
-    answer: "For raske personer er en maxpuls-test ikke farlig, men den er meget hård. Hvis du har hjerteproblemer eller er i dårlig form, bør du konsultere en læge, før du laver testen."
-  - question: "Hvor ofte bør jeg teste min maxpuls?"
-    answer: "Maxpulsen ændrer sig kun lidt over tid, typisk falder den 0,5-1 slag/år med alderen. En test hvert eller hvert andet år er som regel nok, medmindre du oplever store ændringer i din form eller præstation."
+- question: Hvordan tester jeg min maxpuls?
+  answer: Den mest præcise måde at finde din maxpuls på er gennem en fysisk test. Dette kan gøres ved at presse dig selv til
+    maksimal anstrengelse, fx gennem en trappetest eller en intervaltest. Læs mere om testmetoder på vores side.
+- question: Hvilken maxpuls-test er bedst?
+  answer: Det afhænger af din træningstype. En løbetest er god for løbere, mens en cykeltest er bedre for cyklister. En laboratorietest
+    med iltoptagelsesmåling er den mest præcise, men kræver professionelt udstyr.
+- question: Kan jeg teste min maxpuls uden at presse mig selv maksimalt?
+  answer: Nej! Du skal presse dig selv maksimalt, men du skal sørge for, at du ikke arbejder for hårdt i starten, så du ikke
+    bliver for træt, inden du når op på din maxpuls. Alternativt kan du bruge en beregningsformel, men den er mindre præcis.
+    Se vores [maxpuls-beregner](/max-puls-beregner/) for en hurtig estimering.
+- question: Er det farligt at teste sin maxpuls?
+  answer: For raske personer er en maxpuls-test ikke farlig, men den er meget hård. Hvis du har hjerteproblemer eller er i
+    dårlig form, bør du konsultere en læge, før du laver testen.
+- question: Hvor ofte bør jeg teste min maxpuls?
+  answer: Maxpulsen ændrer sig kun lidt over tid, typisk falder den 0,5-1 slag/år med alderen. En test hvert eller hvert andet
+    år er som regel nok, medmindre du oplever store ændringer i din form eller præstation.
 ---
 
 Den mest præcise måde at finde din maksimale puls på er ved at teste den fysisk. Her gennemgår vi forskellige testmetoder – både for begyndere og erfarne atleter – så du kan vælge den, der passer bedst til din træning.

@@ -1,32 +1,34 @@
 ---
-title: "Magnesium: Har du brug for et tilskud?"
-seo_title: "Magnesium: Er kosttilskud nødvendigt? Find ud af det her"
+title: 'Magnesium: Har du brug for et tilskud?'
+seo_title: 'Magnesium: Er kosttilskud nødvendigt? Find ud af det her'
 description: Overvejer du magnesiumtilskud? Find ud af, om du får nok gennem kosten, eller om tilskud er nødvendigt.
 permalink: /magnesium/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Magnesium: Har du brug for et tilskud?"
-  overlay_filter: 0.4
+  overlay_image: /assets/images/unsplash/photo-1573883430697-4c3479aae6b9.jpg
+  credit: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9
+  teaser: /assets/images/unsplash/photo-1573883430697-4c3479aae6b9.jpg
+  caption: 'Magnesium: Har du brug for et tilskud?'
+  overlay_filter: '0.4'
 category:
-  - Kost & Ernæring
-  - Kosttilskud
+- Kost & Ernæring
+- Kosttilskud
 tags:
-  - kosttilskud
-  - mineral
-  - kost & ernæring
-  - søvn
-last_modified_at: 2023-01-01T07:33:14Z
+- kosttilskud
+- mineral
+- kost & ernæring
+- søvn
+last_modified_at: '2023-01-01T07:33:14Z'
 feature_row:
-  - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
-    url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html
-    title: "Bodylab ZMA"
-    excerpt: "Bodylab ZMA indeholder en kombination af zink, magnesium og B6 vitamin. Bodylab ZMA bruger det organisk-bundne magnesium bisglycinat."
-    alt: "Bodylab magnesium tilskud til at undgå magnesiummangel bivirkninger"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
+- image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
+  url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html
+  title: Bodylab ZMA
+  excerpt: Bodylab ZMA indeholder en kombination af zink, magnesium og B6 vitamin. Bodylab ZMA bruger det organisk-bundne
+    magnesium bisglycinat.
+  alt: Bodylab magnesium tilskud til at undgå magnesiummangel bivirkninger
+  btn_label: Tjek prisen
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
 ---
 
 Overvejer du magnesium som kosttilskud? Kan det betale sig at tage magnesium som tilskud, eller får du rigeligt gennem de rigtige fødevarer?

@@ -1,94 +1,102 @@
 ---
-title: &title "De bedste Instagram profiler om fitness og træning"
-seo_title: "De bedste Instagram profiler om fitness og træning (2025)"
+title: De bedste Instagram profiler om fitness og træning
+seo_title: De bedste Instagram profiler om fitness og træning (2025)
 permalink: /bedste-fitness-instagram/
-last_modified_at: 2023-01-01T09:41:09Z
+last_modified_at: '2023-01-01T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1585250003309-694ff34512d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1585250003309-694ff34512d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1585250003309-694ff34512d7.jpg
+  credit: https://images.unsplash.com/photo-1585250003309-694ff34512d7
+  teaser: /assets/images/unsplash/photo-1585250003309-694ff34512d7.jpg
+  caption: De bedste Instagram profiler om fitness og træning
 category:
-  - Inspiration
+- Inspiration
 tags:
-  - inspiration
+- inspiration
 feature_row_coacheltong:
-  - url: https://www.instagram.com/coacheltong
-    title: "Søren Eltong - @coacheltong"
-    alt: "Søren Eltong - @coacheltong"
-    excerpt: "Søren Eltong er personlig træner hos [maxer.dk](https://maxer.dk/bruger/soeren-eltong). Søren arbejder med mål, vaneændringer og at finde glæden ved bevægelse. Det afspejles meget tydeligt på hans Instagram-feed, hvor der er små guldkorn om mange forskellige træningsrelaterede emner og om vaner - og @coacheltong underskriver ofte med referencer."
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> Besøg @coacheltong"
-    btn_class: "btn--warning"
+- url: https://www.instagram.com/coacheltong
+  title: Søren Eltong - @coacheltong
+  alt: Søren Eltong - @coacheltong
+  excerpt: Søren Eltong er personlig træner hos [maxer.dk](https://maxer.dk/bruger/soeren-eltong). Søren arbejder med mål,
+    vaneændringer og at finde glæden ved bevægelse. Det afspejles meget tydeligt på hans Instagram-feed, hvor der er små guldkorn
+    om mange forskellige træningsrelaterede emner og om vaner - og @coacheltong underskriver ofte med referencer.
+  btn_label: <i class='fab fa-fw fa-instagram'></i> Besøg @coacheltong
+  btn_class: btn--warning
 feature_row_amdipt:
-  - url: https://www.instagram.com/amdipt/
-    title: "Christian Amdi - @amdipt"
-    alt: "Christian Amdi Personlig Træner"
-    excerpt: "Christian Amdi er personlig træner. Christian Amdi har ofte små opdateringer på sin Instagram-profil, der handler om nye studier - hvor man får lov til at swipe for at finde endnu mere information. Ofte er de enkelte Instagram-opslag ret dybdegående, og der er ofte videnskabelige referencer i beskrivelserne."
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> Besøg @amdipt"
-    btn_class: "btn--warning"
+- url: https://www.instagram.com/amdipt/
+  title: Christian Amdi - @amdipt
+  alt: Christian Amdi Personlig Træner
+  excerpt: Christian Amdi er personlig træner. Christian Amdi har ofte små opdateringer på sin Instagram-profil, der handler
+    om nye studier - hvor man får lov til at swipe for at finde endnu mere information. Ofte er de enkelte Instagram-opslag
+    ret dybdegående, og der er ofte videnskabelige referencer i beskrivelserne.
+  btn_label: <i class='fab fa-fw fa-instagram'></i> Besøg @amdipt
+  btn_class: btn--warning
 feature_row_nikolajbachdk:
-  - url: https://www.instagram.com/nikolajbachdk/
-    title: "Nikolaj Bach - @nikolajbachdk"
-    alt: "Nikolaj Bach - @nikolajbachdk"
-    excerpt: "Nikolaj Bach er personlig træner. De fleste af opdateringerne fra Nikolaj Bach på Instagram er små humoristiske indsigter i træning - ofte opstillet som en lille infographic. Nikolaj Bach er også med i Styrk, og leverer også fremragende indhold på [podcast](/bedste-fitness-traening-podcasts/), [blogs](/bedste-fitness-blogs/) og Youtube."
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> Besøg @nikolajbachdk"
-    btn_class: "btn--warning"
+- url: https://www.instagram.com/nikolajbachdk/
+  title: Nikolaj Bach - @nikolajbachdk
+  alt: Nikolaj Bach - @nikolajbachdk
+  excerpt: Nikolaj Bach er personlig træner. De fleste af opdateringerne fra Nikolaj Bach på Instagram er små humoristiske
+    indsigter i træning - ofte opstillet som en lille infographic. Nikolaj Bach er også med i Styrk, og leverer også fremragende
+    indhold på [podcast](/bedste-fitness-traening-podcasts/), [blogs](/bedste-fitness-blogs/) og Youtube.
+  btn_label: <i class='fab fa-fw fa-instagram'></i> Besøg @nikolajbachdk
+  btn_class: btn--warning
 feature_row_kaptajnmeier:
-  - url: https://www.instagram.com/kaptajnmeier/
-    title: "Niklas Meier - @kaptajnmeier"
-    alt: "Niklas Meier - @kaptajnmeier"
-    excerpt: "Niklas Meier er personlig træner. De fleste af opdateringerne på Instagram-profilen er livskloge opslag, men der er også faglige opslag og gode råd til træning."
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> Besøg @kaptajnmeier"
-    btn_class: "btn--warning"
+- url: https://www.instagram.com/kaptajnmeier/
+  title: Niklas Meier - @kaptajnmeier
+  alt: Niklas Meier - @kaptajnmeier
+  excerpt: Niklas Meier er personlig træner. De fleste af opdateringerne på Instagram-profilen er livskloge opslag, men der
+    er også faglige opslag og gode råd til træning.
+  btn_label: <i class='fab fa-fw fa-instagram'></i> Besøg @kaptajnmeier
+  btn_class: btn--warning
 feature_row_english:
-  - url: https://www.instagram.com/bradschoenfeldphd/
-    title: "Brad Schoenfeld - @bradschoenfeldphd"
-    alt: "Brad Schoenfeld - @bradschoenfeldphd"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @bradschoenfeldphd"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/ericcressey/
-    title: "Eric Cressey - @ericcressey"
-    alt: "Eric Cressey - @ericcressey"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @ericcressey"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/squat_university/
-    title: "Squat University - @squat_university"
-    alt: "Squat University - @squat_university"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @squat_university"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/gregnuckols/
-    title: "Greg Nuckols - @gregnuckols"
-    alt: "Greg Nuckols - @gregnuckols"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @gregnuckols"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/scienceforsport/
-    title: "Science for Sport - @scienceforsport"
-    alt: "Science for Sport - @scienceforsport"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @scienceforsport"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/strong_by_science/
-    title: "Strong by science - @strong_by_science"
-    alt: "Strong by science - @strong_by_science"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @strong_by_science"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/kaisafit/
-    title: "Kaisafit - @kaisafit"
-    alt: "Kaisafit - @kaisafit"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @kaisafit"
-    btn_class: "btn--warning"
-  - url: https://www.instagram.com/scientist_with_a_board/
-    title: "Kaisafit - @scientist_with_a_board"
-    alt: "Kaisafit - @scientist_with_a_board"
-    excerpt: ""
-    btn_label: "<i class='fab fa-fw fa-instagram'></i> @scientist_with_a_board"
-    btn_class: "btn--warning"
+- url: https://www.instagram.com/bradschoenfeldphd/
+  title: Brad Schoenfeld - @bradschoenfeldphd
+  alt: Brad Schoenfeld - @bradschoenfeldphd
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @bradschoenfeldphd
+  btn_class: btn--warning
+- url: https://www.instagram.com/ericcressey/
+  title: Eric Cressey - @ericcressey
+  alt: Eric Cressey - @ericcressey
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @ericcressey
+  btn_class: btn--warning
+- url: https://www.instagram.com/squat_university/
+  title: Squat University - @squat_university
+  alt: Squat University - @squat_university
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @squat_university
+  btn_class: btn--warning
+- url: https://www.instagram.com/gregnuckols/
+  title: Greg Nuckols - @gregnuckols
+  alt: Greg Nuckols - @gregnuckols
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @gregnuckols
+  btn_class: btn--warning
+- url: https://www.instagram.com/scienceforsport/
+  title: Science for Sport - @scienceforsport
+  alt: Science for Sport - @scienceforsport
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @scienceforsport
+  btn_class: btn--warning
+- url: https://www.instagram.com/strong_by_science/
+  title: Strong by science - @strong_by_science
+  alt: Strong by science - @strong_by_science
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @strong_by_science
+  btn_class: btn--warning
+- url: https://www.instagram.com/kaisafit/
+  title: Kaisafit - @kaisafit
+  alt: Kaisafit - @kaisafit
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @kaisafit
+  btn_class: btn--warning
+- url: https://www.instagram.com/scientist_with_a_board/
+  title: Kaisafit - @scientist_with_a_board
+  alt: Kaisafit - @scientist_with_a_board
+  excerpt: ''
+  btn_label: <i class='fab fa-fw fa-instagram'></i> @scientist_with_a_board
+  btn_class: btn--warning
 ---
 
 Det kan godt være lidt en jungle at finde de bedste Instagram-profiler om fitness, træning og sundhed. Jeg har derfor håndplukket nogle profiler, hvor jeg har lært noget ved at følge dem.

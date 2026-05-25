@@ -1,22 +1,23 @@
 ---
-title: &title "Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?"
-seo_title: "Gennemsnitlig skridtlængde og løbekadence ved løb"
+title: Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?
+seo_title: Gennemsnitlig skridtlængde og løbekadence ved løb
 permalink: /gennemsnitlige-skridtlaengde-kadence-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1603102859961-64b17d43580d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1603102859961-64b17d43580d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1603102859961-64b17d43580d.jpg
+  credit: https://images.unsplash.com/photo-1603102859961-64b17d43580d
+  teaser: /assets/images/unsplash/photo-1603102859961-64b17d43580d.jpg
+  caption: Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?
 category:
-  - Løb
+- Løb
 tags:
-  - løb
-last_modified_at: 2022-02-07T08:14:14Z
-toc: true
+- løb
+last_modified_at: '2022-02-07T08:14:14Z'
+toc: 'true'
 garmin_metronom:
-  - image_path: /assets/images/blog/lobekadence-garmin-metronom-1.jpg
-  - image_path: /assets/images/blog/lobekadence-garmin-metronom-2.jpg
-  - image_path: /assets/images/blog/lobekadence-garmin-metronom-3.jpg
+- image_path: /assets/images/blog/lobekadence-garmin-metronom-1.jpg
+- image_path: /assets/images/blog/lobekadence-garmin-metronom-2.jpg
+- image_path: /assets/images/blog/lobekadence-garmin-metronom-3.jpg
 ---
 
 Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber? Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber.

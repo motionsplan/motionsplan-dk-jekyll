@@ -1,41 +1,53 @@
 ---
-title: &title "Kostregistrering – Sådan laver du kalorieregistrering"
-seo_title: "Kostregistrering: Sådan registrerer du dine kalorier"
-description: "Lær hvordan du laver kostregistrering og får overblik over dit kalorieindtag. Se også, hvordan du sammenligner med dit beregnede energibehov."
-excerpt: "Lær hvordan du laver kostregistrering og får overblik over dit kalorieindtag. Se også, hvordan du sammenligner med dit beregnede energibehov."
+title: Kostregistrering – Sådan laver du kalorieregistrering
+seo_title: 'Kostregistrering: Sådan registrerer du dine kalorier'
+description: Lær hvordan du laver kostregistrering og får overblik over dit kalorieindtag. Se også, hvordan du sammenligner
+  med dit beregnede energibehov.
+excerpt: Lær hvordan du laver kostregistrering og får overblik over dit kalorieindtag. Se også, hvordan du sammenligner med
+  dit beregnede energibehov.
 permalink: /kostregistrering/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1583165583064-a281139b07f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1583165583064-a281139b07f8.jpg
+  credit: https://images.unsplash.com/photo-1583165583064-a281139b07f8
+  caption: Kostregistrering – Sådan laver du kalorieregistrering
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - ligevægtsindtag
-  - guide
-last_modified_at: 2025-04-07T23:14:14Z
+- ligevægtsindtag
+- guide
+last_modified_at: '2025-04-07T23:14:14Z'
 keywords:
-  - kostregistrering
-  - kalorieregistrering
+- kostregistrering
+- kalorieregistrering
 faq:
-  - question: "Hvad vil det sige at registrere sin kost?"
-    answer: "Kostregistrering betyder, at du systematisk noterer alt, hvad du spiser og drikker – inklusiv mængder og ingredienser. Det indebærer ofte, at du vejer maden og bruger en app eller kalorietabel til at finde energiværdien."
-  - question: "Hvor længe skal jeg registrere min kost?"
-    answer: "For at få et retvisende billede anbefales det at registrere din kost i minimum 14 dage. I den periode bør du spise som du plejer og være konsekvent med at få alt med – også små snacks og drikkevarer."
-  - question: "Hvorfor er det vigtigt at registrere præcist?"
-    answer: "Præcis registrering er afgørende, hvis du vil finde dit reelle energibehov. Små fejl og udeladelser kan hurtigt føre til misvisende resultater. Jo mere nøjagtig du er, jo bedre grundlag har du for at vurdere, om dit kalorieindtag matcher dit energibehov."
-  - question: "Hvordan registrerer jeg mit kalorieindtag korrekt?"
-    answer: "For at registrere dit kalorieindtag præcist skal du veje al mad og drikke, du indtager, og beregne energiindholdet – gerne ved hjælp af en kalorietæller-app. Det er vigtigt at være konsekvent og registrere alt, også små snacks og drikkevarer."
+- question: Hvad vil det sige at registrere sin kost?
+  answer: Kostregistrering betyder, at du systematisk noterer alt, hvad du spiser og drikker – inklusiv mængder og ingredienser.
+    Det indebærer ofte, at du vejer maden og bruger en app eller kalorietabel til at finde energiværdien.
+- question: Hvor længe skal jeg registrere min kost?
+  answer: For at få et retvisende billede anbefales det at registrere din kost i minimum 14 dage. I den periode bør du spise
+    som du plejer og være konsekvent med at få alt med – også små snacks og drikkevarer.
+- question: Hvorfor er det vigtigt at registrere præcist?
+  answer: Præcis registrering er afgørende, hvis du vil finde dit reelle energibehov. Små fejl og udeladelser kan hurtigt
+    føre til misvisende resultater. Jo mere nøjagtig du er, jo bedre grundlag har du for at vurdere, om dit kalorieindtag
+    matcher dit energibehov.
+- question: Hvordan registrerer jeg mit kalorieindtag korrekt?
+  answer: For at registrere dit kalorieindtag præcist skal du veje al mad og drikke, du indtager, og beregne energiindholdet
+    – gerne ved hjælp af en kalorietæller-app. Det er vigtigt at være konsekvent og registrere alt, også små snacks og drikkevarer.
 feature_row_needed:
-  - title: ⚖️
-    excerpt: |
-      **Køkkenvægt**<br>For at registrere dit kalorieindtag, så skal du bruge en køkkenvægt, så du præcist kan måle vægten på din mad. Uden at veje maden risikerer du at under- eller overvurdere mængden af dit kalorieindtag.
-  - title: 📏
-    excerpt: | 
-      **Vægt**<br>Med en badevægt kan du jævnligt veje dig selv og holde styr på din vægt. Din vægt er nødvendig for at finde ud af, om dit kalorieindtag passer til dit hvilestofskifte og fysiske aktivitetsniveau.
-  - title: 📲
-    excerpt: | 
-      **Kalorieapp**<br>For at holde styr på dit kalorieindtag er klart det letteste at bruge en app. Her kan du indtaste alt, hvad du spiser, og så holder appen styr på dit totale energiindtag. [Se Kalorietæller apps](/kalorietaeller-apps/).
+- title: ⚖️
+  excerpt: '**Køkkenvægt**<br>For at registrere dit kalorieindtag, så skal du bruge en køkkenvægt, så du præcist kan måle
+    vægten på din mad. Uden at veje maden risikerer du at under- eller overvurdere mængden af dit kalorieindtag.
+
+    '
+- title: 📏
+  excerpt: '**Vægt**<br>Med en badevægt kan du jævnligt veje dig selv og holde styr på din vægt. Din vægt er nødvendig for
+    at finde ud af, om dit kalorieindtag passer til dit hvilestofskifte og fysiske aktivitetsniveau.
+
+    '
+- title: 📲
+  excerpt: '**Kalorieapp**<br>For at holde styr på dit kalorieindtag er klart det letteste at bruge en app. Her kan du indtaste
+    alt, hvad du spiser, og så holder appen styr på dit totale energiindtag. [Se Kalorietæller apps](/kalorietaeller-apps/).'
 ---
 
 Vil du vide, hvor mange kalorier du egentlig spiser i løbet af en dag? Med en kostregistrering kan du få et klart billede af dit kalorieindtag – og sammenligne det med dit **beregnede energibehov**. Det kan være et nyttigt redskab, uanset om du vil tabe dig, tage på eller blot forstå dine kostvaner bedre.

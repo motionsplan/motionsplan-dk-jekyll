@@ -1,26 +1,30 @@
 ---
-title: &title "Depression: Test om du er deprimeret med PHQ-2 og PHQ-9"
-seo_title: "Depression: Test om du er deprimeret med PHQ-2 og PHQ-9"
+title: 'Depression: Test om du er deprimeret med PHQ-2 og PHQ-9'
+seo_title: 'Depression: Test om du er deprimeret med PHQ-2 og PHQ-9'
 permalink: /phq-9-depression-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1511297968426-a869b61af3da.jpg
+  credit: https://images.unsplash.com/photo-1511297968426-a869b61af3da
+  teaser: /assets/images/unsplash/photo-1511297968426-a869b61af3da.jpg
+  caption: 'Depression: Test om du er deprimeret med PHQ-2 og PHQ-9'
 category:
-  - Vurderingsværktøjer
-  - Psykologi
+- Vurderingsværktøjer
+- Psykologi
 tags:
-  - vurderingsværktøj
-  - psykologi
-  - psykologisk test
-  - populær
-last_modified_at: 2021-10-14T08:14:14Z
+- vurderingsværktøj
+- psykologi
+- psykologisk test
+- populær
+last_modified_at: '2021-10-14T08:14:14Z'
 faq:
-  - question: "Hvad er forskellen på PHQ-2 og PHQ-9?"
-    answer: "PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i PHQ-9. Den samlede score for PHQ-2 ligger mellem 0-6, og scoren tolkes som positiv for depression, når den er tre eller derover. Det anbefales, at patienter der får en positiv score efterfølgende udfylder PHQ-9"
-  - question: "Hvem har udviklet PHQ-2 og PHQ-9 depressionstesten?"
-    answer: "Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger med et uddannelseslegat fra Pfizer Inc."
+- question: Hvad er forskellen på PHQ-2 og PHQ-9?
+  answer: PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i PHQ-9. Den samlede score for PHQ-2 ligger
+    mellem 0-6, og scoren tolkes som positiv for depression, når den er tre eller derover. Det anbefales, at patienter der
+    får en positiv score efterfølgende udfylder PHQ-9
+- question: Hvem har udviklet PHQ-2 og PHQ-9 depressionstesten?
+  answer: Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger
+    med et uddannelseslegat fra Pfizer Inc.
 ---
 
 Her er en depressionstest, som kan hjælpe dig med finde ud af, om du har tegn på at have en depression. Testen er en anerkendt test af, om du skulle være deprimeret.

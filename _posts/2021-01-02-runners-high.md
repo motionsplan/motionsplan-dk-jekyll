@@ -1,21 +1,23 @@
 ---
-last_modified_at: 2021-01-02T10:14:14.000Z
-toc: true
+last_modified_at: '2021-01-02T10:14:14.000Z'
+toc: 'true'
 title: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 seo_title: Hvad er Runner's High - og hvordan opnår du følelsen?
-excerpt: "Har du hørt om Runner's High? Men hvad gør, at du bliver høj på løb, og hvordan får du følelsen af af velvære, når du anstrenger dig på løbeturen."
+excerpt: Har du hørt om Runner's High? Men hvad gør, at du bliver høj på løb, og hvordan får du følelsen af af velvære, når
+  du anstrenger dig på løbeturen.
 permalink: /runners-high/
 header:
-  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1530655638484-de9ff231551e.jpg
+  credit: https://images.unsplash.com/photo-1530655638484-de9ff231551e
+  teaser: /assets/images/unsplash/photo-1530655638484-de9ff231551e.jpg
   caption: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 language: da
 category:
-  - Kondition
-  - Løb
+- Kondition
+- Løb
 tags:
-  - kondition
-  - løb
+- kondition
+- løb
 ---
 Du har sikkert hørt om Runner's High, og måske har du endda selv oplevet det. Der er i hvert fald mange, der søger på "runners high", så jeg gennemgår her, hvad det er og hvordan du opnår det.
 

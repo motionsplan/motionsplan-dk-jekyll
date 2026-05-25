@@ -1,23 +1,21 @@
 ---
-title: &title "Prilepins tabel: Sådan kan du bruge tabellen i din planlægning"
-seo_title: "Prilepins tabel: 5 trin til at bruge tabellen"
+title: 'Prilepins tabel: Sådan kan du bruge tabellen i din planlægning'
+seo_title: 'Prilepins tabel: 5 trin til at bruge tabellen'
 permalink: /prilepins-tabel/
-description: "Vil du gerne have gode resultater af din styrketræning? Brug Prilepins tabel til at planlægge din træning, så den kan være effektiv."
-excerpt: "Vil du gerne have gode resultater af din styrketræning? Brug Prilepins tabel til at planlægge din træning, så den kan være effektiv."
+description: Vil du gerne have gode resultater af din styrketræning? Brug Prilepins tabel til at planlægge din træning, så
+  den kan være effektiv.
+excerpt: Vil du gerne have gode resultater af din styrketræning? Brug Prilepins tabel til at planlægge din træning, så den
+  kan være effektiv.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1517964603305-11c0f6f66012?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1517964603305-11c0f6f66012.jpg
+  credit: https://images.unsplash.com/photo-1517964603305-11c0f6f66012
+  caption: 'Prilepins tabel: Sådan kan du bruge tabellen i din planlægning'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-last_modified_at: 2022-11-20T07:14:14Z
-#faq:
-#  - question: Hvordan finder man et billigt træningscenter?
-#    answer: På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige services.
-#  - question: Hvad skal du være opmærksom på, når du vælger fitnesscenter?
-#    answer: Når du vælger et fitnesscenter, så sørg for at det lever op til dine krav. Vil du gerne træne i maskiner, frie vægte eller måske følge holdtræning? Vil du gerne have omklædningsfaciliteter? Hvilket fællesskab vil du gerne opleve i fitensscenteret? Husk også at holde øje med de forskellige abonnementstyper.
+- styrketræning
+last_modified_at: '2022-11-20T07:14:14Z'
 ---
 
 Hvor meget vægt skal du have på stangen for at få resultater? Prilepins tabel kan hjælpe dig med at opnå dine mål for din styrketræning.

@@ -1,20 +1,22 @@
 ---
-title: &title "Hvordan lærer jeg at løbe hurtigere?"
-seo_title: "8 tips til at blive en hurtigere løber"
-description: Vil du gerne løbe hurtigere? Løb hurtigere med disse tips, som du kan implementere i din løbetræning allerede fra i dag.
+title: Hvordan lærer jeg at løbe hurtigere?
+seo_title: 8 tips til at blive en hurtigere løber
+description: Vil du gerne løbe hurtigere? Løb hurtigere med disse tips, som du kan implementere i din løbetræning allerede
+  fra i dag.
 permalink: /loeb-hurtigere/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1610969770059-7084269fa3be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1610969770059-7084269fa3be.jpg
+  credit: https://images.unsplash.com/photo-1610969770059-7084269fa3be
+  caption: Hvordan lærer jeg at løbe hurtigere?
 category:
-  - Løb
+- Løb
 tags:
-  - træning
-  - løb
-  - guide
-  - faq
-last_modified_at: 2022-01-27T22:21:26Z
+- træning
+- løb
+- guide
+- faq
+last_modified_at: '2022-01-27T22:21:26Z'
 ---
 
 Hvis du gerne vil være en hurtigere løber, så er der flere ting du kan gøre. Hvis du følger disse tips til din løbetræning, så kan du lære at løbe hurtigere.

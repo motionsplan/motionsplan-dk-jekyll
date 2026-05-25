@@ -1,30 +1,33 @@
 ---
 layout: single
-title: "Træningsformer og motionsformer"
-seo_title: "Træningsformer og motionsformer - inspiration til bevægelse"
+title: Træningsformer og motionsformer
+seo_title: Træningsformer og motionsformer - inspiration til bevægelse
 permalink: /traeningsformer/
-description: "Er du på udkig efter spændende træningsformer og motionsformer? Her får du en grundig gennemgang af, hvad man kan træne for at være fysisk aktiv."
-excerpt: "Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på."
+description: Er du på udkig efter spændende træningsformer og motionsformer? Her får du en grundig gennemgang af, hvad man
+  kan træne for at være fysisk aktiv.
+excerpt: Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle
+  de forskellige måder at træne på.
 header:
-  overlay_image: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
+  credit: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9
+  teaser: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
   caption: Træningsformer
   actions:
-    - label: "<i class='fas fa-download'></i> Styrketræning"
-      url: "/styrketraening/"
-    - label: "<i class='fas fa-download'></i> Løb"
-      url: "/loebesiden/"
-    - label: "<i class='fas fa-download'></i> Konditionstræning"
-      url: "/kondition/"
-    - label: "<i class='fas fa-download'></i> Træningsøvelser"
-      url: "/traeningsoevelser/"
-    - label: "<i class='fas fa-download'></i> Træningsprogrammer"
-      url: "/traeningsprogrammer/"
-author_profile: true
-toc: true
+  - label: <i class='fas fa-download'></i> Styrketræning
+    url: /styrketraening/
+  - label: <i class='fas fa-download'></i> Løb
+    url: /loebesiden/
+  - label: <i class='fas fa-download'></i> Konditionstræning
+    url: /kondition/
+  - label: <i class='fas fa-download'></i> Træningsøvelser
+    url: /traeningsoevelser/
+  - label: <i class='fas fa-download'></i> Træningsprogrammer
+    url: /traeningsprogrammer/
+author_profile: 'true'
+toc: 'true'
 sidebar:
   nav: trainingtypes
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Vi præsenterer viden om en lang række forskellige træningsformer og motionsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på.

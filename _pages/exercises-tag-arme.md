@@ -3,19 +3,21 @@ layout: single
 permalink: /arme-triceps-biceps/
 collection: exercises
 header:
-  overlay_image: https://images.unsplash.com/photo-1552848031-326ec03fe2ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1552848031-326ec03fe2ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Armøvelser: De mest effektive øvelser til biceps og triceps"
-title: "Armøvelser: De mest effektive øvelser til biceps og triceps 🏋"
-seo_title: "Armøvelser: 10+ effektive øvelser til biceps og triceps"
-author_profile: true
-excerpt: "Vi har samlet det bedste og mest effektive armøvelser på en side her. Når du skal have gang i din armtræning, så har du brug for øvelser til biceps og triceps, men også øvelser der udfordrer underarmene."
+  overlay_image: /assets/images/unsplash/photo-1552848031-326ec03fe2ec.jpg
+  credit: https://images.unsplash.com/photo-1552848031-326ec03fe2ec
+  teaser: /assets/images/unsplash/photo-1552848031-326ec03fe2ec.jpg
+  caption: 'Armøvelser: De mest effektive øvelser til biceps og triceps'
+title: 'Armøvelser: De mest effektive øvelser til biceps og triceps 🏋'
+seo_title: 'Armøvelser: 10+ effektive øvelser til biceps og triceps'
+author_profile: 'true'
+excerpt: Vi har samlet det bedste og mest effektive armøvelser på en side her. Når du skal have gang i din armtræning, så
+  har du brug for øvelser til biceps og triceps, men også øvelser der udfordrer underarmene.
 categories:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
-toc: true
+toc: 'true'
 ---
 
 Vi har samlet det bedste og mest effektive armøvelser på en side her. Der er både øvelser til biceps og triceps, men også øvelser der udfordrer underarmene.

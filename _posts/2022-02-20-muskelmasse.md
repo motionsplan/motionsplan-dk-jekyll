@@ -1,17 +1,18 @@
 ---
-title: &title "Udregn din muskelmasse i vores beregner"
+title: Udregn din muskelmasse i vores beregner
 permalink: /muskelmasse-beregner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1613288092085-eb081fde1509.jpg
+  credit: https://images.unsplash.com/photo-1613288092085-eb081fde1509
+  caption: Udregn din muskelmasse i vores beregner
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - beregner
-  - styrketræning
-  - hypertrofi
-last_modified_at: 2022-02-12T22:21:26Z
+- beregner
+- styrketræning
+- hypertrofi
+last_modified_at: '2022-02-12T22:21:26Z'
 meta:
   name: Beregn muskelmasse
   equipment: vægt

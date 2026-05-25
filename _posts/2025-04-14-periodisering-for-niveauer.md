@@ -1,23 +1,26 @@
 ---
-title: &title "Periodisering efter niveau: Begynder, øvet og erfaren"
-seo_title: "Periodisering i styrketræning: Begynder, øvet, erfaren"
-description: "Lær hvordan din træningsplan skal se ud afhængigt af om du er begynder, øvet eller erfaren. Få overblik over progression og periodisering."
-excerpt: "Lær hvordan din træningsplan skal se ud afhængigt af om du er begynder, øvet eller erfaren. Få overblik over progression og periodisering."
+title: 'Periodisering efter niveau: Begynder, øvet og erfaren'
+seo_title: 'Periodisering i styrketræning: Begynder, øvet, erfaren'
+description: Lær hvordan din træningsplan skal se ud afhængigt af om du er begynder, øvet eller erfaren. Få overblik over
+  progression og periodisering.
+excerpt: Lær hvordan din træningsplan skal se ud afhængigt af om du er begynder, øvet eller erfaren. Få overblik over progression
+  og periodisering.
 permalink: /styrketraening/periodisering/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1584464367415-2e7ff6482b54.jpg
+  credit: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54
+  caption: 'Periodisering efter niveau: Begynder, øvet og erfaren'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træning
-  - styrketræning
-  - træningslære
-last_modified_at: 2025-01-27T22:21:26Z
+- træning
+- styrketræning
+- træningslære
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 ---
 
 Træningsplanlægning – også kaldet periodisering – handler om at strukturere træningen over tid, så man hele tiden gør fremskridt uden at ramme muren. Men måden man planlægger træningen på, afhænger i høj grad af, hvor erfaren man er som styrketrænet.

@@ -1,19 +1,22 @@
 ---
-title: &title "Beregn din CdA (aerodynamisk modstand) på cyklen"
-seo_title: "CdA-beregner – Beregn din aerodynamiske modstand på cykel"
-description: "Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt, temperatur og rullemodstand. Få indsigt i din aerodynamik på cyklen."
-excerpt: "Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt, temperatur og rullemodstand. Få indsigt i din aerodynamik på cyklen."
+title: Beregn din CdA (aerodynamisk modstand) på cyklen
+seo_title: CdA-beregner – Beregn din aerodynamiske modstand på cykel
+description: Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt, temperatur og rullemodstand. Få
+  indsigt i din aerodynamik på cyklen.
+excerpt: Beregn din CdA (aerodynamiske modstandskoefficient) ud fra fart, effekt, vægt, temperatur og rullemodstand. Få indsigt
+  i din aerodynamik på cyklen.
 permalink: /cda-beregner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1728454994678-21be5481e249?auto=format&fit=crop&h=300&w=400&q=10&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1728454994678-21be5481e249.jpg
+  credit: https://images.unsplash.com/photo-1728454994678-21be5481e249
+  caption: Beregn din CdA (aerodynamisk modstand) på cyklen
 category:
-  - Cykling
+- Cykling
 tags:
-  - beregner
-  - træning
-  - cykling
+- beregner
+- træning
+- cykling
 meta:
   name: Beregn CdA (aerodynamisk modstand) på cyklen
   measures: CdA (m²)
@@ -21,18 +24,23 @@ meta:
   equipment: effektmåler (power meter) anbefales, fartmåler (speedometer eller GPS)
   max: n/a
   direct: n/a
-last_modified_at: 2025-07-10T22:21:26Z
+last_modified_at: '2025-07-10T22:21:26Z'
 faq:
-  - question: "Hvad er CdA?"
-    answer: "CdA er produktet af aerodynamisk modstandskoefficient (Cd) og det frontale areal (A), som tilsammen beskriver, hvor stor luftmodstand du oplever på cyklen."  
-  - question: "Hvorfor er CdA vigtigt?"
-    answer: "CdA har stor betydning for, hvor meget luftmodstand du møder. Jo lavere CdA, desto lettere er det at køre hurtigt, især ved høj hastighed og solo-kørsel."
-  - question: "Hvordan kan jeg måle min CdA?"
-    answer: "Du kan estimere din CdA ved at måle effekt, fart og andre parametre i denne beregner, eller ved hjælp af mere avancerede tests som vindtunnel eller power meter-analyse."
-  - question: "Kan jeg bruge denne beregner til at teste forskellige positioner?"
-    answer: "Ja, ved at sammenligne CdA-værdier fra forskellige positioner kan du finde den mest aerodynamiske og dermed hurtigste position på cyklen."
-  - question: "Hvor præcis er beregningen?"
-    answer: "Beregningsmodellen er en forenkling og afhænger af præcise inputværdier. Resultatet giver et godt estimat, men kan variere afhængigt af omstændigheder som vind, vejgreb og præcis måling af effekt."
+- question: Hvad er CdA?
+  answer: CdA er produktet af aerodynamisk modstandskoefficient (Cd) og det frontale areal (A), som tilsammen beskriver, hvor
+    stor luftmodstand du oplever på cyklen.
+- question: Hvorfor er CdA vigtigt?
+  answer: CdA har stor betydning for, hvor meget luftmodstand du møder. Jo lavere CdA, desto lettere er det at køre hurtigt,
+    især ved høj hastighed og solo-kørsel.
+- question: Hvordan kan jeg måle min CdA?
+  answer: Du kan estimere din CdA ved at måle effekt, fart og andre parametre i denne beregner, eller ved hjælp af mere avancerede
+    tests som vindtunnel eller power meter-analyse.
+- question: Kan jeg bruge denne beregner til at teste forskellige positioner?
+  answer: Ja, ved at sammenligne CdA-værdier fra forskellige positioner kan du finde den mest aerodynamiske og dermed hurtigste
+    position på cyklen.
+- question: Hvor præcis er beregningen?
+  answer: Beregningsmodellen er en forenkling og afhænger af præcise inputværdier. Resultatet giver et godt estimat, men kan
+    variere afhængigt af omstændigheder som vind, vejgreb og præcis måling af effekt.
 ---
 
 CdA (aerodynamisk modstandskoefficient) er en af de vigtigste faktorer for din fart på cyklen – især når terrænet er fladt, og hastigheden er høj.

@@ -1,26 +1,30 @@
 ---
-title: &title "Køb kosttilskud online på danske webshops"
-excerpt: "Hvis du vil købe kosttilskud online, så er der nogle ting, som du med fordel kan være opmærksom på. Her får du en komplet gennemgang og et par gode råd."
+title: Køb kosttilskud online på danske webshops
+excerpt: Hvis du vil købe kosttilskud online, så er der nogle ting, som du med fordel kan være opmærksom på. Her får du en
+  komplet gennemgang og et par gode råd.
 permalink: /koeb-kosttilskud-online/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1589854522013-6fba220e52b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1589854522013-6fba220e52b3.jpg
+  credit: https://images.unsplash.com/photo-1589854522013-6fba220e52b3
+  caption: Køb kosttilskud online på danske webshops
 category:
-  - Kost & Ernæring
-  - Kosttilskud
+- Kost & Ernæring
+- Kosttilskud
 tags:
-  - kosttilskud
-  - butikker
-last_modified_at: 2022-01-27T22:21:26Z
+- kosttilskud
+- butikker
+last_modified_at: '2022-01-27T22:21:26Z'
 shops:
-  - title: Noutron
-    excerpt: Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler Noutron produkter, der skal hjælpe endurance atleter. Noutron er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores atleterne.
-    image: /assets/images/blog/fitnessbutik-fitnessengros.jpg
-    cta_label: Besøg Noutron
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
+- title: Noutron
+  excerpt: Med base i lægevidenskab og erfaring fra danske elitesportsudøver udvikler Noutron produkter, der skal hjælpe endurance
+    atleter. Noutron er engagerede og ambitiøse, og første prioriteret er at skabe et godt samarbejde og muligheder for vores
+    atleterne.
+  image: /assets/images/blog/fitnessbutik-fitnessengros.jpg
+  cta_label: Besøg Noutron
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98123
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
 ---
 
 Hvis du vil købe kosttilskud online, så er der nogle ting, som du med fordel kan være opmærksom på. Her får du en komplet gennemgang og et par gode råd.

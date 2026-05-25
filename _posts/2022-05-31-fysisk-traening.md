@@ -1,16 +1,17 @@
 ---
-title: &title "Komplet guide til fysisk træning"
-seo_title: "Fysisk træning: Hvad skal du træne?"
+title: Komplet guide til fysisk træning
+seo_title: 'Fysisk træning: Hvad skal du træne?'
 permalink: /fysisk-traening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1565185691168-ad7f98cb8e07.jpg
+  credit: https://images.unsplash.com/photo-1565185691168-ad7f98cb8e07
+  caption: Komplet guide til fysisk træning
 category:
-  - Træning
+- Træning
 tags:
-  - træning
-last_modified_at: 2022-05-31T10:21:26Z
+- træning
+last_modified_at: '2022-05-31T10:21:26Z'
 ---
 
 Fysisk træning er en vigtig del af enhver sport, men også for at kunne klare hverdagen endnu bedre. Læs her hvordan du får det optimale udbytte af din træning.

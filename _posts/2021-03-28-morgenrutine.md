@@ -1,19 +1,20 @@
 ---
-last_modified_at: 2021-01-28T23:14:14.000Z
-toc: true
+last_modified_at: '2021-01-28T23:14:14.000Z'
+toc: 'true'
 author: lsolesen
 title: En god morgenrutine kan hjælpe dig med mere overskud
 permalink: /morgenrutine-giver-overskud/
-seo_title: "Morgenrutine: 5 tips til at få mere overskud i hverdagen"
+seo_title: 'Morgenrutine: 5 tips til at få mere overskud i hverdagen'
 header:
-  overlay_image: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1489533119213-66a5cd877091.jpg
+  credit: https://images.unsplash.com/photo-1489533119213-66a5cd877091
+  teaser: /assets/images/unsplash/photo-1489533119213-66a5cd877091.jpg
   caption: En god morgenrutine kan hjælpe dig med mere overskud
 language: da
 category:
-  - Restitution
+- Restitution
 tags:
-  - forberedelse
+- forberedelse
 ---
 
 Kender du det, når man har svært ved at finde energien og overskuddet frem tidligt om morgenen? Det er der mange, som oplever, og det gælder især personer, som drømmer om at blive morgenmennesker. Men faktisk behøver det ikke at være afgørende, om du er A- eller B-menneske. En god [morgenrutine](https://www.chrichri.dk/lifebeyond/lifestyle/2017/03/se-hvordan-en-god-morgenrutine-kan-paavirke-din-dag-2/) kan nemlig hjælpe dig godt på vej.

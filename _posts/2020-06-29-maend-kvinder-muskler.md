@@ -1,27 +1,29 @@
 ---
-title: "Er der forskel på mænds og kvinders muskler?"
-seo_title: "Mænd vs kvinder: Forskelle på muskler og styrke"
-description: Bliv klogere på fysiologiske forskelle på mænds og kvinders muskler. Få svar på myterne og lær, hvordan træningen skal tilpasses.
+title: Er der forskel på mænds og kvinders muskler?
+seo_title: 'Mænd vs kvinder: Forskelle på muskler og styrke'
+description: Bliv klogere på fysiologiske forskelle på mænds og kvinders muskler. Få svar på myterne og lær, hvordan træningen
+  skal tilpasses.
 permalink: /maend-kvinder-muskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Er der forskel på mænd og kvinders muskler?"
+  overlay_image: /assets/images/unsplash/photo-1434682881908-b43d0467b798.jpg
+  credit: https://images.unsplash.com/photo-1434682881908-b43d0467b798
+  teaser: /assets/images/unsplash/photo-1434682881908-b43d0467b798.jpg
+  caption: Er der forskel på mænd og kvinders muskler?
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - fysiologi
-  - muskler
-  - træningslære
-  - faq
-last_modified_at: 2023-01-01T08:14:14Z
-toc: true
+- fysiologi
+- muskler
+- træningslære
+- faq
+last_modified_at: '2023-01-01T08:14:14Z'
+toc: 'true'
 gallery:
-  - image_path: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
-    url: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
-    title: "Mandlig og kvindelig muskel MRI"
-    alt: "Mandlig og kvindelig muskel fra MRI"
+- image_path: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
+  url: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
+  title: Mandlig og kvindelig muskel MRI
+  alt: Mandlig og kvindelig muskel fra MRI
 ---
 
 Er der forskel på mænds og kvinders muskler? Her får du svar på de forskellige myter, du måske har hørt om muskler og køn.

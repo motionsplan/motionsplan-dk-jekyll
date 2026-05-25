@@ -1,22 +1,25 @@
 ---
-title: &title "4 mmol-grænsen: Hvad er den anaerobe tærskel?"
+title: '4 mmol-grænsen: Hvad er den anaerobe tærskel?'
 permalink: /anaerobe-taerskel/
-last_modified_at: 2025-02-24T09:41:09Z
-description: "Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan du tester og forbedrer din tærskel for bedre præstation og udholdenhed."
-excerpt: "Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan du tester og forbedrer din tærskel for bedre præstation og udholdenhed."
+last_modified_at: '2025-02-24T09:41:09Z'
+description: Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan
+  du tester og forbedrer din tærskel for bedre præstation og udholdenhed.
+excerpt: Den anaerobe tærskel markerer grænsen, hvor mælkesyre ophobes hurtigere, end kroppen kan fjerne den. Lær, hvordan
+  du tester og forbedrer din tærskel for bedre præstation og udholdenhed.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "4 mmol-grænsen: Hvad er den anaerobe tærskel og mælkesyregrænsen?"
+  overlay_image: /assets/images/unsplash/photo-1560073743-0a45c01b68c4.jpg
+  credit: https://images.unsplash.com/photo-1560073743-0a45c01b68c4
+  teaser: /assets/images/unsplash/photo-1560073743-0a45c01b68c4.jpg
+  caption: '4 mmol-grænsen: Hvad er den anaerobe tærskel og mælkesyregrænsen?'
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - fysiologi
-  - forbrænding
-  - anaerob
-  - mælkesyre
-  - løb
+- fysiologi
+- forbrænding
+- anaerob
+- mælkesyre
+- løb
 ---
 
 Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i [konditionstræning](/konditionstraening/) og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet, og hvordan det kan bruges i praksis? 

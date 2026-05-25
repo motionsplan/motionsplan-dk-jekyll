@@ -1,58 +1,68 @@
 ---
-title: &title "Escalating Density Training (EDT) – Træn mere på kortere tid"
-seo_title: "Escalating Density Training (EDT) – Effektiv Træning med Charles Staley"
-description: "Lær hvordan Escalating Density Training (EDT) af Charles Staley virker som en effektiv træningsmetode, der øger din volumen på kort tid."
-excerpt: "Lær hvordan Escalating Density Training (EDT) af Charles Staley virker som en effektiv træningsmetode, der øger din volumen på kort tid."
+title: Escalating Density Training (EDT) – Træn mere på kortere tid
+seo_title: Escalating Density Training (EDT) – Effektiv Træning med Charles Staley
+description: Lær hvordan Escalating Density Training (EDT) af Charles Staley virker som en effektiv træningsmetode, der øger
+  din volumen på kort tid.
+excerpt: Lær hvordan Escalating Density Training (EDT) af Charles Staley virker som en effektiv træningsmetode, der øger din
+  volumen på kort tid.
 permalink: /edt-escalating-density-training/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1584464367415-2e7ff6482b54.jpg
+  credit: https://images.unsplash.com/photo-1584464367415-2e7ff6482b54
+  caption: Escalating Density Training (EDT) – Træn mere på kortere tid
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - hypertrofi
-  - øvet
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- hypertrofi
+- øvet
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Hvad er EDT, og hvordan fungerer det?
-    answer: >
-      EDT (Escalating Density Training) er en træningsmetode udviklet af Charles Staley, hvor du arbejder i faste tidsblokke 
-      (typisk 15–20 minutter) med to øvelser ad gangen. Målet er at udføre så mange gentagelser som muligt inden for tidsrammen, 
-      hvilket øger træningsvolumen og intensitet over tid.
-  - question: Hvilke øvelser egner sig bedst til EDT?
-    answer: >
-      Det anbefales at vælge øvelser, der ikke kræver lang opsætning og har en lav risiko for teknisk sammenbrud ved træthed. 
-      Eksempler inkluderer bænkpres, rows, chin-ups, triceps pushdowns og leg curls. 
-      Undgå teknisk komplekse øvelser som tunge dødløft, især i udmattet tilstand.
-  - question: Hvor ofte bør jeg træne med EDT?
-    answer: >
-      EDT kan implementeres 3–4 gange om ugen, afhængigt af din restitution og træningsmål. 
-      Det er vigtigt at lytte til kroppen og justere frekvensen efter behov.
-  - question: Hvordan ved jeg, hvornår jeg skal øge vægten?
-    answer: >
-      Når du har forbedret din samlede gentagelsesantal med 20% eller mere i en given tidsblok, anbefales det at øge vægten 
-      med 2,5 kg eller 5% og nulstille din personlige rekord (PR) for den pågældende øvelse.
-  - question: Kan jeg kombinere EDT med andre træningsmetoder?
-    answer: >
-      Ja, EDT er fleksibelt og kan kombineres med andre træningsmetoder. For eksempel kan du bruge traditionelle styrketræningssæt 
-      til basisøvelser og implementere EDT for assistanceøvelser eller i perioder med begrænset tid.
-  - question: Er EDT egnet til fedttab?
-    answer: >
-      Ja, EDT kan være effektivt til fedttab, da den højere træningsdensitet og kortere pauser øger den metaboliske belastning. 
-      Kombineret med en passende kost kan det føre til fedttab samtidig med muskelopbygning.
-  - question: Hvordan holder jeg motivationen oppe under EDT?
-    answer: >
-      Fokusér på at slå din egen PR i hver træningssession. Den konkurrenceprægede tilgang mod dig selv kan øge motivationen 
-      og gøre træningen mere engagerende.
+- question: Hvad er EDT, og hvordan fungerer det?
+  answer: 'EDT (Escalating Density Training) er en træningsmetode udviklet af Charles Staley, hvor du arbejder i faste tidsblokke  (typisk
+    15–20 minutter) med to øvelser ad gangen. Målet er at udføre så mange gentagelser som muligt inden for tidsrammen,  hvilket
+    øger træningsvolumen og intensitet over tid.
+
+    '
+- question: Hvilke øvelser egner sig bedst til EDT?
+  answer: 'Det anbefales at vælge øvelser, der ikke kræver lang opsætning og har en lav risiko for teknisk sammenbrud ved
+    træthed.  Eksempler inkluderer bænkpres, rows, chin-ups, triceps pushdowns og leg curls.  Undgå teknisk komplekse øvelser
+    som tunge dødløft, især i udmattet tilstand.
+
+    '
+- question: Hvor ofte bør jeg træne med EDT?
+  answer: 'EDT kan implementeres 3–4 gange om ugen, afhængigt af din restitution og træningsmål.  Det er vigtigt at lytte
+    til kroppen og justere frekvensen efter behov.
+
+    '
+- question: Hvordan ved jeg, hvornår jeg skal øge vægten?
+  answer: 'Når du har forbedret din samlede gentagelsesantal med 20% eller mere i en given tidsblok, anbefales det at øge
+    vægten  med 2,5 kg eller 5% og nulstille din personlige rekord (PR) for den pågældende øvelse.
+
+    '
+- question: Kan jeg kombinere EDT med andre træningsmetoder?
+  answer: 'Ja, EDT er fleksibelt og kan kombineres med andre træningsmetoder. For eksempel kan du bruge traditionelle styrketræningssæt  til
+    basisøvelser og implementere EDT for assistanceøvelser eller i perioder med begrænset tid.
+
+    '
+- question: Er EDT egnet til fedttab?
+  answer: 'Ja, EDT kan være effektivt til fedttab, da den højere træningsdensitet og kortere pauser øger den metaboliske belastning.  Kombineret
+    med en passende kost kan det føre til fedttab samtidig med muskelopbygning.
+
+    '
+- question: Hvordan holder jeg motivationen oppe under EDT?
+  answer: 'Fokusér på at slå din egen PR i hver træningssession. Den konkurrenceprægede tilgang mod dig selv kan øge motivationen  og
+    gøre træningen mere engagerende.
+
+    '
 meta:
   name: Escalating Density Training (EDT)
   author: Charles Staley

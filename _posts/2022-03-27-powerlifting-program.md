@@ -1,17 +1,18 @@
 ---
-title: "Hvordan styrer jeg et styrkeløftstævne (3 online apps)?"
-seo_title: "Sådan arrangerer du et styrkeløftstævne - 3 gode programmer"
+title: Hvordan styrer jeg et styrkeløftstævne (3 online apps)?
+seo_title: Sådan arrangerer du et styrkeløftstævne - 3 gode programmer
 permalink: /styrkeloeftstaevne/
-excerpt: "Her kan du læse om et par rigtig gode programmer, som du kan bruge, hvis du skal arrangere et styrkeløftstævne."
+excerpt: Her kan du læse om et par rigtig gode programmer, som du kan bruge, hvis du skal arrangere et styrkeløftstævne.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1532384305128-54c7ac0d7139.jpg
+  credit: https://images.unsplash.com/photo-1532384305128-54c7ac0d7139
 category:
-  - Styrketræning
-  - Styrkeløft
+- Styrketræning
+- Styrkeløft
 tags:
-  - apps
-last_modified_at: 2022-03-17T23:14:14Z
+- apps
+last_modified_at: '2022-03-17T23:14:14Z'
 ---
 
 Her kan du læse om et par rigtig gode programmer, som du kan bruge, hvis du skal arrangere et styrkeløftstævne.

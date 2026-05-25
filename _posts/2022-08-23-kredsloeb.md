@@ -1,16 +1,18 @@
 ---
-title: &title "Kredsløbet: Sådan fungerer dit hjerte og lunger"
+title: 'Kredsløbet: Sådan fungerer dit hjerte og lunger'
 permalink: /kredsloeb/
-excerpt: "Vil du gerne vide mere om dit kredsløb? Dit hjerte og dine lunger arbejder sammen for at holde dig i live. Men hvordan virker kredsløbet egentlig?"
+excerpt: Vil du gerne vide mere om dit kredsløb? Dit hjerte og dine lunger arbejder sammen for at holde dig i live. Men hvordan
+  virker kredsløbet egentlig?
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1530026186672-2cd00ffc50fe.jpg
+  credit: https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe
+  caption: 'Kredsløbet: Sådan fungerer dit hjerte og lunger'
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - puls
-last_modified_at: 2022-08-23T23:14:14Z
+- puls
+last_modified_at: '2022-08-23T23:14:14Z'
 ---
 
 Vil du gerne vide mere om dit kredsløb? Dit hjerte og dine lunger arbejder sammen for at holde dig i live. Men hvordan virker det?

@@ -1,19 +1,21 @@
 ---
-title: &title "Critical Power: Alternativ til FTP-træning"
+title: 'Critical Power: Alternativ til FTP-træning'
 permalink: /critical-power/
-excerpt: "Critical Power er et alternativ til at teste din fysiske formåen, når du har adgang til at måle _power_. Det kan bruges som en erstatning for at måle Functional Threshold Power."
+excerpt: Critical Power er et alternativ til at teste din fysiske formåen, når du har adgang til at måle _power_. Det kan
+  bruges som en erstatning for at måle Functional Threshold Power.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1475666675596-cca2035b3d79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1475666675596-cca2035b3d79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1475666675596-cca2035b3d79.jpg
+  credit: https://images.unsplash.com/photo-1475666675596-cca2035b3d79
+  teaser: /assets/images/unsplash/photo-1475666675596-cca2035b3d79.jpg
+  caption: 'Critical Power: Alternativ til FTP-træning'
 category:
-  - Træning
-  - Kondition
+- Træning
+- Kondition
 tags:
-  - træningszoner
-last_modified_at: 2021-08-22T23:14:14Z
-toc: true
+- træningszoner
+last_modified_at: '2021-08-22T23:14:14Z'
+toc: 'true'
 ---
 
 Critical Power er et alternativ til at teste din fysiske formåen, når du har adgang til at måle _power_. Det kan bruges som en erstatning for at måle [Functional Threshold Power (FTP)](/ftp-cykling/).

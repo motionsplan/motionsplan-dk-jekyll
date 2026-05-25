@@ -1,26 +1,28 @@
 ---
-title: &title "Rotator cuffen: Skulderens dybe stabilisatorer"
-seo_title: "Rotator cuff: Anatomi, funktion og træning af skulderstabilitet"
-description: "Lær om de fire muskler i rotator cuffen. Se liste over muskler, deres funktion i skulderen og hvordan du forebygger skader."
+title: 'Rotator cuffen: Skulderens dybe stabilisatorer'
+seo_title: 'Rotator cuff: Anatomi, funktion og træning af skulderstabilitet'
+description: Lær om de fire muskler i rotator cuffen. Se liste over muskler, deres funktion i skulderen og hvordan du forebygger
+  skader.
 permalink: /rotator-cuff/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1576037722139-10871f993f4d?auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1576037722139-10871f993f4d?auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1576037722139-10871f993f4d.jpg
+  credit: https://images.unsplash.com/photo-1576037722139-10871f993f4d
+  teaser: /assets/images/unsplash/photo-1576037722139-10871f993f4d.jpg
+  caption: 'Rotator cuffen: Skulderens dybe stabilisatorer'
 category:
-  - Anatomi
-  - Muskler
+- Anatomi
+- Muskler
 tags:
-  - muskler
-  - anatomi
-  - skulder
-last_modified_at: 2026-03-29T20:15:00Z
-toc: true
+- muskler
+- anatomi
+- skulder
+last_modified_at: '2026-03-29T20:15:00Z'
+toc: 'true'
 author: lsolesen
 sidebar:
   nav: muscles
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Jeg har samlet en oversigt over musklerne i rotator cuffen her. Selvom de er små og ligger gemt under den store deltamuskel, er de de vigtigste muskler for at holde din skulder sund og stabil.

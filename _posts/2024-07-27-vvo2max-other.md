@@ -1,24 +1,27 @@
 ---
-title: &title "️Submaksimal 6 min test til at finde hastigheden ved VO2max"
-seo_title: "️Submaksimal 6 min test til at finde vVO2max"
+title: ️Submaksimal 6 min test til at finde hastigheden ved VO2max
+seo_title: ️Submaksimal 6 min test til at finde vVO2max
 permalink: /submaximal-6min-vvo2max-test/
-description: "I denne løbetest på 6 min kan du finde din hastighed ved VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
-excerpt: "I denne løbetest på 6 min kan du finde din hastighed ved VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
+description: I denne løbetest på 6 min kan du finde din hastighed ved VO2max. Du skal bare bruge en nøjagtigt opmålt rute,
+  et stopur og et pulsur.
+excerpt: I denne løbetest på 6 min kan du finde din hastighed ved VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et
+  stopur og et pulsur.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1600679472183-07cc4f68b140.jpg
+  credit: https://images.unsplash.com/photo-1600679472183-07cc4f68b140
+  caption: ️Submaksimal 6 min test til at finde hastigheden ved VO2max
 category:
-  - Kondition
+- Kondition
 tags:
-  - test
-  - løb
-  - submaksimal test
-  - indirekte test
-  - løbetest
-  - tracking
-  - testberegner
-last_modified_at: 2024-07-27T10:14:14Z
+- test
+- løb
+- submaksimal test
+- indirekte test
+- løbetest
+- tracking
+- testberegner
+last_modified_at: '2024-07-27T10:14:14Z'
 meta:
   name: 6 minutters submaksimal løbetest
   measures: vVO2max

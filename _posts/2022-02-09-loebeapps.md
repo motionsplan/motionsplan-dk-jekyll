@@ -1,35 +1,37 @@
 ---
-title: &title "Hvad er den bedste løbe app til løbetræning 2025?"
-description: Er du på udkig efter en løbe app? Jeg har fundet nogle rigtig gode bud på de bedste løbe apps, der kan hjælpe dig med din løbetræning.
+title: Hvad er den bedste løbe app til løbetræning 2025?
+description: Er du på udkig efter en løbe app? Jeg har fundet nogle rigtig gode bud på de bedste løbe apps, der kan hjælpe
+  dig med din løbetræning.
 permalink: /loebe-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585250003309-694ff34512d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHJ1bm5pbmclMjBhcHB8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1585250003309-694ff34512d7.jpg
+  credit: https://images.unsplash.com/photo-1585250003309-694ff34512d7
+  caption: Hvad er den bedste løbe app til løbetræning 2025?
 category:
-  - Løb
+- Løb
 tags:
-  - løb
-  - apps
-last_modified_at: 2022-01-27T22:21:26Z
+- løb
+- apps
+last_modified_at: '2022-01-27T22:21:26Z'
 gallery_garmin:
-  - image_path: /assets/images/blog/loebeapp-garmin-1.jpg
-    alt: garmin løbe app
-  - image_path: /assets/images/blog/loebeapp-garmin-2.jpg
-    alt: løbe app fra garmin connect
-  - image_path: /assets/images/blog/loebeapp-garmin-3.jpg
-    alt: løbe appen fra garmin
+- image_path: /assets/images/blog/loebeapp-garmin-1.jpg
+  alt: garmin løbe app
+- image_path: /assets/images/blog/loebeapp-garmin-2.jpg
+  alt: løbe app fra garmin connect
+- image_path: /assets/images/blog/loebeapp-garmin-3.jpg
+  alt: løbe appen fra garmin
 gallery_vdot:
-  - image_path: /assets/images/blog/loebeapp-vdot-1.jpg
-  - image_path: /assets/images/blog/loebeapp-vdot-2.jpg
-  - image_path: /assets/images/blog/loebeapp-vdot-3.jpg
+- image_path: /assets/images/blog/loebeapp-vdot-1.jpg
+- image_path: /assets/images/blog/loebeapp-vdot-2.jpg
+- image_path: /assets/images/blog/loebeapp-vdot-3.jpg
 gallery_strava:
-  - image_path: /assets/images/blog/loebeapp-strava-1.jpg
-  - image_path: /assets/images/blog/loebeapp-strava-2.jpg
+- image_path: /assets/images/blog/loebeapp-strava-1.jpg
+- image_path: /assets/images/blog/loebeapp-strava-2.jpg
 gallery_stryd:
-  - image_path: /assets/images/blog/loebeapp-stryd-1.jpg
-  - image_path: /assets/images/blog/loebeapp-stryd-2.jpg
-  - image_path: /assets/images/blog/loebeapp-stryd-3.jpg
+- image_path: /assets/images/blog/loebeapp-stryd-1.jpg
+- image_path: /assets/images/blog/loebeapp-stryd-2.jpg
+- image_path: /assets/images/blog/loebeapp-stryd-3.jpg
 ---
 
 Jeg er hele tiden på udkig efter nye apps, der kan hjælpe mig i træningen. Jeg har været på udkig efter den bedste løbe app, og jeg har fundet nogle rigtig gode bud.

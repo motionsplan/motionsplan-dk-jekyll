@@ -1,32 +1,35 @@
 ---
-title: "7 tips til den rigtige teknik i styrketræning "
-seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt"
-description: "God teknik i styrketræning er effektiv teknik, som minimerer skadesrisikoen. Derfor er god teknik til styrketræning er individuelt. Hvad er din?"
+title: '7 tips til den rigtige teknik i styrketræning '
+seo_title: Teknik i styrketræning - 7 tips til at løfte rigtigt
+description: God teknik i styrketræning er effektiv teknik, som minimerer skadesrisikoen. Derfor er god teknik til styrketræning
+  er individuelt. Hvad er din?
 permalink: /rigtig-teknik-styrketraening/
 redirect_from:
-  - /artikel/tjek-teknikken-i-din-styrketraening/
-  - /rigtige-teknik/
+- /artikel/tjek-teknikken-i-din-styrketraening/
+- /rigtige-teknik/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Hvad er den rigtige teknik i styrketræning?"
+  overlay_image: /assets/images/unsplash/photo-1544033527-b192daee1f5b.jpg
+  credit: https://images.unsplash.com/photo-1544033527-b192daee1f5b
+  teaser: /assets/images/unsplash/photo-1544033527-b192daee1f5b.jpg
+  caption: Hvad er den rigtige teknik i styrketræning?
 tags:
-  - styrketræning
-  - teknik
-  - begynder
+- styrketræning
+- teknik
+- begynder
 category:
-  - Styrketræning
-last_modified_at: 2023-01-01T15:06:01Z
+- Styrketræning
+last_modified_at: '2023-01-01T15:06:01Z'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen _Stærk_. Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
+  alt: Stærk
+  title: Stærk - Jacob Beermann
+  excerpt: Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob
+    Beermann med bogen _Stærk_. Her får du en god og grundig introduktion til hvordan man styrketræner bedst.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Hvad er god teknik i styrketræning, og hvordan kan man formidle den til sine atleter? God teknik er **effektiv** teknik, som **minimerer skadesrisikoen**.

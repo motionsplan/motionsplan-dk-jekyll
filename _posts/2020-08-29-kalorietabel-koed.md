@@ -1,28 +1,26 @@
 ---
-title: &title "Tabel med kalorier i kød, oksekød, kylling, svin 🥩"
-seo_title: "Tabel med kalorier i kød, oksekød, kylling, svin"
+title: Tabel med kalorier i kød, oksekød, kylling, svin 🥩
+seo_title: Tabel med kalorier i kød, oksekød, kylling, svin
 permalink: /kalorietabel-koed/
-last_modified_at: 2020-07-29T09:41:09Z
+last_modified_at: '2020-07-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1592686092916-672fa9e86866.jpg
+  credit: https://images.unsplash.com/photo-1592686092916-672fa9e86866
+  teaser: /assets/images/unsplash/photo-1592686092916-672fa9e86866.jpg
+  caption: Tabel med kalorier i kød, oksekød, kylling, svin 🥩
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - fødevarer
-  - kalorietabel
+- fødevarer
+- kalorietabel
 faq:
-  - question: Hvor mange proteiner er der i kød?
-    answer: Proteinindholdet i kød varierer alt efter kødtypen. For at vide, hvor meget protein, der er i kød, så skal du altså bruge en tabel, hvor du kan slå forskellige kødtyper op.
-  - question: Hvad er det anbefalede daglige proteinindtag?
-    answer: De generelle anbefalinger for proteinindtag er, at det skal udgøre omkring 10% af det daglige energiindtag. Vi har skrevet meget mere om [det anbefalede daglige proteindindtag](/dagligt-protein-indtagelse/).
-# bøf kalorier
-#steg kcal
-#hakket svinekød kalorier
-#hvor mange proteiner er der i kød
-#kalorier i kyllingebryst
+- question: Hvor mange proteiner er der i kød?
+  answer: Proteinindholdet i kød varierer alt efter kødtypen. For at vide, hvor meget protein, der er i kød, så skal du altså
+    bruge en tabel, hvor du kan slå forskellige kødtyper op.
+- question: Hvad er det anbefalede daglige proteinindtag?
+  answer: De generelle anbefalinger for proteinindtag er, at det skal udgøre omkring 10% af det daglige energiindtag. Vi har
+    skrevet meget mere om [det anbefalede daglige proteindindtag](/dagligt-protein-indtagelse/).
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer kød. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for oksekød, kylling, svin og andre typer kød.

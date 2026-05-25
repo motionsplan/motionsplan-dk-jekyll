@@ -1,25 +1,27 @@
 ---
-title: &title "Iltmætningsprocent: Hvad er din iltmætning i blodet?"
-seo_title: "Iltmætningsprocent: Hvad er din iltmætning i blodet?"
+title: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
+seo_title: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
 permalink: /iltmaetning/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1626851528990-fee2c2e6fadb.jpg
+  credit: https://images.unsplash.com/photo-1626851528990-fee2c2e6fadb
+  caption: 'Iltmætningsprocent: Hvad er din iltmætning i blodet?'
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - træning
-last_modified_at: 2022-07-10T10:21:26Z
+- træning
+last_modified_at: '2022-07-10T10:21:26Z'
 feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/p/u/pulsoximeter-cms50d2-700x700.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/pulsoximeter-cms50d2
-    alt: Pulsoximeter til at måle iltmætningsgrad i blodet
-    title: Pulsoximeter CMS50D2
-    excerpt: Pulsoximeteret CMS50D2 er et lille og handy pulsoximeter, der hurtigt og nemt kan måle dit blods iltmætning blot ved at gennemlyse din pegefinger.
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+- image_path: https://www.denintelligentekrop.dk/media/catalog/product/p/u/pulsoximeter-cms50d2-700x700.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/pulsoximeter-cms50d2
+  alt: Pulsoximeter til at måle iltmætningsgrad i blodet
+  title: Pulsoximeter CMS50D2
+  excerpt: Pulsoximeteret CMS50D2 er et lille og handy pulsoximeter, der hurtigt og nemt kan måle dit blods iltmætning blot
+    ved at gennemlyse din pegefinger.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 ---
 
 Kun få mennesker ved, hvad deres iltmætningsgrad i blodet er? Iltmætningen i blodet kan give et øjebliksbillede af dit generelle helbred.

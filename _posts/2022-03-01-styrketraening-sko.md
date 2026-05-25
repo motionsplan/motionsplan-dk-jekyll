@@ -1,89 +1,117 @@
 ---
-title: &title "Vælg sko til styrketræning, træning og fitness (Guide)"
-seo_title: "Styrketræningssko (2025): Vælg den rigtige sko til styrketræning"
+title: Vælg sko til styrketræning, træning og fitness (Guide)
+seo_title: 'Styrketræningssko (2025): Vælg den rigtige sko til styrketræning'
 permalink: /sko-styrketraening-fitness/
-excerpt: "Skal du vælge styrketræningssko? Skal sko til styrketræning og fitness være vægtløftersko, fitness sko, løbesko eller bare fødder?"
+excerpt: Skal du vælge styrketræningssko? Skal sko til styrketræning og fitness være vægtløftersko, fitness sko, løbesko eller
+  bare fødder?
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1526405098960-78ccf7a1dbd6.jpg
+  credit: https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6
+  caption: Vælg sko til styrketræning, træning og fitness (Guide)
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - udstyr
-  - styrketræning
-  - styrkeløft
-last_modified_at: 2025-02-19T23:14:14Z
-toc: true
+- udstyr
+- styrketræning
+- styrkeløft
+last_modified_at: '2025-02-19T23:14:14Z'
+toc: 'true'
 feature_row_crossfit:
-  - url: https://go.intersport.dk/t/t?a=1731781657&as=1892865368&t=2&tk=1&url=https://intersport.dk/search?q=reebook+nano+x
-    image_path: /assets/images/products/reebok-nano-x.jpg
-    title: Reebok Nano X
-    excerpt: |
-      Reebok Nano X er en topklasse træningssko til højintens træning. Den kombinerer komfort, stabilitet og stil med en let, åndbar overdel. Mellemsålen sikrer god støtte og responsivitet, perfekt til CrossFit.
+- url: https://go.intersport.dk/t/t?a=1731781657&as=1892865368&t=2&tk=1&url=https://intersport.dk/search?q=reebook+nano+x
+  image_path: /assets/images/products/reebok-nano-x.jpg
+  title: Reebok Nano X
+  excerpt: 'Reebok Nano X er en topklasse træningssko til højintens træning. Den kombinerer komfort, stabilitet og stil med
+    en let, åndbar overdel. Mellemsålen sikrer god støtte og responsivitet, perfekt til CrossFit.
 
-      🥇 **Testvinder**<br>
-      ✅ Stabilitet<br>
-      ✅ God støtte<br>
-      ✅ Komfortabel
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+
+    🥇 **Testvinder**<br>
+
+    ✅ Stabilitet<br>
+
+    ✅ God støtte<br>
+
+    ✅ Komfortabel
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 feature_row_weightlifting:
-  - url: https://go.adt267.com/t/t?a=1466242320&as=1889586219&t=2&tk=1&url=https://www.bodystore.dk/traeningstoj/traeningstoj-til-maend/traeningssko?prefn1=hsng-product-onlineFlag-gg&prefv1=true&prefn2=hsng-skor&prefv2=lyftarsko
-    image_path: /assets/images/products/adidas-adipower.jpg
-    title: Adidas Adipower Weightlifting II
-    excerpt: Disse strømlinede vægtløftningssko har en åndbar overdel i vævet tekstil samt indvendige forstærkninger, der forbedrer stabiliteten. Skoene omfavner foden med målrettet støtte og giver samtidig plads til tæernes naturlige bevægelser.
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - url: https://go.adt267.com/t/t?a=1466242320&as=1889586219&t=2&tk=1&url=https://www.bodystore.dk/ua-reign-lifter-black/3028028-001R.html
-    image_path: /assets/images/products/ua-reign-lifter.jpg
-    title: UA Reign Lifter
-    excerpt: Sko fra Under Armour, overdelen på skoen er lavet af syntetisk læder, der er holdbart nok til at modstå selv de hårdeste træninger. Der er en justerbar mellemfodsrem, der hjælper med at låse foden for en tætsiddende pasform.
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+- url: https://go.adt267.com/t/t?a=1466242320&as=1889586219&t=2&tk=1&url=https://www.bodystore.dk/traeningstoj/traeningstoj-til-maend/traeningssko?prefn1=hsng-product-onlineFlag-gg&prefv1=true&prefn2=hsng-skor&prefv2=lyftarsko
+  image_path: /assets/images/products/adidas-adipower.jpg
+  title: Adidas Adipower Weightlifting II
+  excerpt: Disse strømlinede vægtløftningssko har en åndbar overdel i vævet tekstil samt indvendige forstærkninger, der forbedrer
+    stabiliteten. Skoene omfavner foden med målrettet støtte og giver samtidig plads til tæernes naturlige bevægelser.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- url: https://go.adt267.com/t/t?a=1466242320&as=1889586219&t=2&tk=1&url=https://www.bodystore.dk/ua-reign-lifter-black/3028028-001R.html
+  image_path: /assets/images/products/ua-reign-lifter.jpg
+  title: UA Reign Lifter
+  excerpt: Sko fra Under Armour, overdelen på skoen er lavet af syntetisk læder, der er holdbart nok til at modstå selv de
+    hårdeste træninger. Der er en justerbar mellemfodsrem, der hjælper med at låse foden for en tætsiddende pasform.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 feature_row_shoes:
-  - url: https://go.intersport.dk/t/t?a=1731781657&as=1892865368&t=2&tk=1&url=https://intersport.dk/search?q=reebook+nano+x
-    image_path: /assets/images/products/reebok-nano-x.jpg
-    title: Reebok Nano X
-    excerpt: |
-      Reebok Nano X er en topklasse træningssko til højintens træning. Den kombinerer komfort, stabilitet og stil med en let, åndbar overdel. Mellemsålen sikrer god støtte og responsivitet, perfekt til CrossFit.
+- url: https://go.intersport.dk/t/t?a=1731781657&as=1892865368&t=2&tk=1&url=https://intersport.dk/search?q=reebook+nano+x
+  image_path: /assets/images/products/reebok-nano-x.jpg
+  title: Reebok Nano X
+  excerpt: 'Reebok Nano X er en topklasse træningssko til højintens træning. Den kombinerer komfort, stabilitet og stil med
+    en let, åndbar overdel. Mellemsålen sikrer god støtte og responsivitet, perfekt til CrossFit.
 
-      🥇 **Testvinder**<br>
-      ✅ Stabilitet<br>
-      ✅ God støtte<br>
-      ✅ Komfortabel
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - url: https://go.adt267.com/t/t?a=1466242320&as=1889586219&t=2&tk=1&url=https://www.bodystore.dk/traeningstoj/traeningstoj-til-maend/traeningssko?prefn1=hsng-product-onlineFlag-gg&prefv1=true&prefn2=hsng-skor&prefv2=lyftarsko
-    image_path: /assets/images/products/adidas-adipower.jpg
-    title: Adipower WL II
-    excerpt: |
-      Disse vægtløftningssko fra Adidas har en åndbar overdel og indvendige forstærkninger og god stabilitet. Skoene giver målrettet støtte og god plads til tæernes naturlige bevægelser.
-      
-      🥇 **God til vægtløftning**<br>
-      ✅ Godt drop<br>
-      ✅ Åndbar<br>
-      ✅ Stabil
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - url: https://go.intersport.dk/t/t?a=1731781657&as=1892865368&t=2&tk=1&url=https://intersport.dk/search?q=tribase+reign
-    image_path: /assets/images/products/under-armour-tribase-reign.jpg
-    title: Tribase Reign 6
-    excerpt: |
-      Tribase Reign 6 fra Under Armour er designet til maksimal stabilitet og fleksibilitet. Tre jordkontaktpunkter og en stærk overdel giver skoen den perfekte støtte til eksplosive træningspas.
 
-      🥇 **Bedst til dødløft**<br>
-      ✅ Minimalistisk<br>
-      ✅ Stærk overdel<br>
-      ✅ Lavt drop
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+    🥇 **Testvinder**<br>
+
+    ✅ Stabilitet<br>
+
+    ✅ God støtte<br>
+
+    ✅ Komfortabel
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- url: https://go.adt267.com/t/t?a=1466242320&as=1889586219&t=2&tk=1&url=https://www.bodystore.dk/traeningstoj/traeningstoj-til-maend/traeningssko?prefn1=hsng-product-onlineFlag-gg&prefv1=true&prefn2=hsng-skor&prefv2=lyftarsko
+  image_path: /assets/images/products/adidas-adipower.jpg
+  title: Adipower WL II
+  excerpt: 'Disse vægtløftningssko fra Adidas har en åndbar overdel og indvendige forstærkninger og god stabilitet. Skoene
+    giver målrettet støtte og god plads til tæernes naturlige bevægelser.
+
+
+    🥇 **God til vægtløftning**<br>
+
+    ✅ Godt drop<br>
+
+    ✅ Åndbar<br>
+
+    ✅ Stabil
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- url: https://go.intersport.dk/t/t?a=1731781657&as=1892865368&t=2&tk=1&url=https://intersport.dk/search?q=tribase+reign
+  image_path: /assets/images/products/under-armour-tribase-reign.jpg
+  title: Tribase Reign 6
+  excerpt: 'Tribase Reign 6 fra Under Armour er designet til maksimal stabilitet og fleksibilitet. Tre jordkontaktpunkter
+    og en stærk overdel giver skoen den perfekte støtte til eksplosive træningspas.
+
+
+    🥇 **Bedst til dødløft**<br>
+
+    ✅ Minimalistisk<br>
+
+    ✅ Stærk overdel<br>
+
+    ✅ Lavt drop
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 classes: wide
 ---
 Når du vælger sko til styrketræning, er det vigtigt at tænke på, hvordan de understøtter din træning. Skal du bruge vægtløftersko, fitness-sko, løbesko, eller træne barfodet?

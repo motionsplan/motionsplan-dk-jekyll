@@ -1,48 +1,55 @@
 ---
-title: "Beregn dit daglige energibehov (TDEE-beregner)"
-seo_title: "TDEE-beregner - Beregn dit daglige energibehov"
+title: Beregn dit daglige energibehov (TDEE-beregner)
+seo_title: TDEE-beregner - Beregn dit daglige energibehov
 permalink: /beregner/dagligt-energiforbrug-energibehov/
 redirect_from:
-  - /beregner/stofskifte-energiforbrug-energibehov/
+- /beregner/stofskifte-energiforbrug-energibehov/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1551337948-0ad8de8568ac.jpg
+  credit: https://images.unsplash.com/photo-1551337948-0ad8de8568ac
+  teaser: /assets/images/unsplash/photo-1551337948-0ad8de8568ac.jpg
   caption: Beregn dit daglige energibehov og energiforbrug
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 tags:
-  - beregner
-  - stofskifte
-  - stofskifteberegner
-  - populær
+- beregner
+- stofskifte
+- stofskifteberegner
+- populær
 meta:
   name: TEE-beregner med PAL-tabel
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
-last_modified_at: 2025-03-31T23:14:14Z
-toc: true
+last_modified_at: '2025-03-31T23:14:14Z'
+toc: 'true'
 keywords:
-  - beregn dit energiforbrug
-  - beregn energiforbrug
-  - energiforbrug beregner
-  - beregn stofskifte
-  - beregning af energiforbrug
+- beregn dit energiforbrug
+- beregn energiforbrug
+- energiforbrug beregner
+- beregn stofskifte
+- beregning af energiforbrug
 faq:
-  - question: "Hvordan beregnes mit daglige energibehov?"
-    answer: "Dit daglige energibehov beregnes ved at gange dit hvilestofskifte (BMR) med en aktivitetsfaktor (PAL), som afhænger af dit fysiske aktivitetsniveau."
-  - question: "Hvad er PAL (Physical Activity Level)?"
-    answer: "PAL er en faktor, der beskriver dit aktivitetsniveau, og som justerer dit hvilestofskifte for at estimere dit daglige energibehov. Jo højere aktivitet, desto højere PAL."
-  - question: "Hvad er forskellen på hvilestofskifte og basalstofskifte?"
-    answer: "Hvilestofskifte (BMR) refererer til den energi, din krop bruger i hvile, mens basalstofskifte inkluderer alle de processer, din krop udfører for at holde sig i live."
-  - question: "Hvor præcis er beregneren?"
-    answer: "Beregneren giver et estimat baseret på gennemsnitlige faktorer, men resultaterne kan variere afhængigt af individuelle forhold som muskelmasse og helbred."
-  - question: "Kan jeg bruge denne beregner, hvis jeg er på diæt?"
-    answer: "Ja, beregneren kan hjælpe dig med at forstå dit energibehov, hvilket er nyttigt, hvis du planlægger et kalorieunderskud for vægttab."
-  - question: "Hvilken beregner skal jeg vælge?"
-    answer: "Vi tilbyder både en grundlæggende og avanceret beregner. Den avancerede beregner giver en mere præcis vurdering af fysisk aktivitet."
+- question: Hvordan beregnes mit daglige energibehov?
+  answer: Dit daglige energibehov beregnes ved at gange dit hvilestofskifte (BMR) med en aktivitetsfaktor (PAL), som afhænger
+    af dit fysiske aktivitetsniveau.
+- question: Hvad er PAL (Physical Activity Level)?
+  answer: PAL er en faktor, der beskriver dit aktivitetsniveau, og som justerer dit hvilestofskifte for at estimere dit daglige
+    energibehov. Jo højere aktivitet, desto højere PAL.
+- question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
+  answer: Hvilestofskifte (BMR) refererer til den energi, din krop bruger i hvile, mens basalstofskifte inkluderer alle de
+    processer, din krop udfører for at holde sig i live.
+- question: Hvor præcis er beregneren?
+  answer: Beregneren giver et estimat baseret på gennemsnitlige faktorer, men resultaterne kan variere afhængigt af individuelle
+    forhold som muskelmasse og helbred.
+- question: Kan jeg bruge denne beregner, hvis jeg er på diæt?
+  answer: Ja, beregneren kan hjælpe dig med at forstå dit energibehov, hvilket er nyttigt, hvis du planlægger et kalorieunderskud
+    for vægttab.
+- question: Hvilken beregner skal jeg vælge?
+  answer: Vi tilbyder både en grundlæggende og avanceret beregner. Den avancerede beregner giver en mere præcis vurdering
+    af fysisk aktivitet.
 ---
 
 Jeg har lavet en simpel beregner, der hjælper dig med at finde ud af, hvor meget energi du faktisk har brug for hver dag. Ved at kombinere dit hvilestofskifte og dit aktivitetsniveau får du et præcist estimat af dit daglige energibehov og energiforbrug.

@@ -1,24 +1,22 @@
 ---
-title: &title "Træning og sengetid: Hvor længe før bør du motionere?"
-seo_title: "Træning før sengetid: Kan du træne om aftenen?"
+title: 'Træning og sengetid: Hvor længe før bør du motionere?'
+seo_title: 'Træning før sengetid: Kan du træne om aftenen?'
 permalink: /traening-sengetid/
-description: "Har du også bedst tid til træning lige før sengetid? Her kigger vi på, hvordan motion om aftenen påvirker din søvn og resultaterne af din træning."
-excerpt: "Har du også bedst tid til træning lige før sengetid? Her kigger vi på, hvordan motion om aftenen påvirker din søvn og resultaterne af din træning."
+description: Har du også bedst tid til træning lige før sengetid? Her kigger vi på, hvordan motion om aftenen påvirker din
+  søvn og resultaterne af din træning.
+excerpt: Har du også bedst tid til træning lige før sengetid? Her kigger vi på, hvordan motion om aftenen påvirker din søvn
+  og resultaterne af din træning.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1548610325-af59423f54bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1548610325-af59423f54bc.jpg
+  credit: https://images.unsplash.com/photo-1548610325-af59423f54bc
+  caption: 'Træning og sengetid: Hvor længe før bør du motionere?'
 category:
-  - Søvn
+- Søvn
 tags:
-  - søvn
-  - faq
-last_modified_at: 2022-11-01T07:14:14Z
-#faq:
-#  - question: Hvordan beregner man sin egen 1 RM?
-#    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
-#  - question: Hvad betyder RM, 1RM max og one repetition maximum?
-#    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+- søvn
+- faq
+last_modified_at: '2022-11-01T07:14:14Z'
 ---
 
 Har du også bedst tid til træning lige før sengetid? Her kigger vi på, hvordan motion om aftenen påvirker din søvn og resultaterne af din træning.

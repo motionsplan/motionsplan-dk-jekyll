@@ -1,40 +1,43 @@
 ---
-title: &title "Starting Strength: Begynderprogram af Mark Rippetoe"
-seo_title: "Starting Strength: Effektivt program for begyndere"
+title: 'Starting Strength: Begynderprogram af Mark Rippetoe'
+seo_title: 'Starting Strength: Effektivt program for begyndere'
 permalink: /starting-strength-styrketraeningsprogram/
-excerpt: "Starting Strength er et simpelt og effektivt styrketræningsprogram for begyndere. Lær hvordan du udfører programmet med fokus på progressiv belastning."
-description: "Starting Strength er et simpelt og effektivt styrketræningsprogram for begyndere. Lær hvordan du udfører programmet med fokus på progressiv overbelastning."
+excerpt: Starting Strength er et simpelt og effektivt styrketræningsprogram for begyndere. Lær hvordan du udfører programmet
+  med fokus på progressiv belastning.
+description: Starting Strength er et simpelt og effektivt styrketræningsprogram for begyndere. Lær hvordan du udfører programmet
+  med fokus på progressiv overbelastning.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1583187938491-1dcc103c9e14.jpg
+  credit: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14
+  teaser: /assets/images/unsplash/photo-1583187938491-1dcc103c9e14.jpg
+  caption: 'Starting Strength: Begynderprogram af Mark Rippetoe'
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - fullbody
-  - populær
-  - begynder
-last_modified_at: 2025-03-22T08:14:14Z
-toc: true
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- fullbody
+- populær
+- begynder
+last_modified_at: '2025-03-22T08:14:14Z'
+toc: 'true'
 gallery:
-  - image_path: /assets/images/pinterest/rippetoe-deadlift.jpg
-    url: /assets/images/pinterest/rippetoe-deadlift.jpg
-    title: "Mark Rippetoe"
-    alt: "Mark Rippetoe Starting Strength Citat"
-  - image_path: /assets/images/pinterest/rippetoe-squat.jpg
-    url: /assets/images/pinterest/rippetoe-squat.jpg
-    title: "Mark Rippetoe"
-    alt: "Mark Rippetoe Starting Strength Citat"
-  - image_path: /assets/images/pinterest/rippetoe-strong.jpg
-    url: /assets/images/pinterest/rippetoe-strong.jpg
-    title: "Mark Rippetoe"
-    alt: "Mark Rippetoe Starting Strength Citat"
+- image_path: /assets/images/pinterest/rippetoe-deadlift.jpg
+  url: /assets/images/pinterest/rippetoe-deadlift.jpg
+  title: Mark Rippetoe
+  alt: Mark Rippetoe Starting Strength Citat
+- image_path: /assets/images/pinterest/rippetoe-squat.jpg
+  url: /assets/images/pinterest/rippetoe-squat.jpg
+  title: Mark Rippetoe
+  alt: Mark Rippetoe Starting Strength Citat
+- image_path: /assets/images/pinterest/rippetoe-strong.jpg
+  url: /assets/images/pinterest/rippetoe-strong.jpg
+  title: Mark Rippetoe
+  alt: Mark Rippetoe Starting Strength Citat
 meta:
   name: Starting Strength
   author: Mark Rippetoe

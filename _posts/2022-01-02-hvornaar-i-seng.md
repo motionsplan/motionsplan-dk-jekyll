@@ -1,16 +1,18 @@
 ---
-title: &title "Hvornår skal jeg gå i seng og sove?"
-description: Vil du også gerne sove godt og vågne frisk og veludhvilet? Her får du svaret på, hvornår du skal gå i seng for at få den bedste søvn.
+title: Hvornår skal jeg gå i seng og sove?
+description: Vil du også gerne sove godt og vågne frisk og veludhvilet? Her får du svaret på, hvornår du skal gå i seng for
+  at få den bedste søvn.
 permalink: /hvornaar-gaa-i-seng/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1618517047922-d18a5a36c109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1618517047922-d18a5a36c109.jpg
+  credit: https://images.unsplash.com/photo-1618517047922-d18a5a36c109
 category:
-  - Restitution
-  - Søvn
+- Restitution
+- Søvn
 tags:
-  - søvn
-last_modified_at: 2022-01-02T08:14:14Z
+- søvn
+last_modified_at: '2022-01-02T08:14:14Z'
 ---
 
 Hvis du gerne vil vågne frisk og veludhvilet, så skal du gå i seng på det rigtige tidspunkt. Her kan du få svaret på, hvornår du skal sove for at få den bedste søvn.

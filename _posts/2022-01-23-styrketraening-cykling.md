@@ -1,22 +1,24 @@
 ---
-title: &title "Cykeltræningsprogram - Få en styrketræningsguide til cykling"
+title: Cykeltræningsprogram - Få en styrketræningsguide til cykling
 seo_title: Cykeltræningsprogram - Få en styrketræningsguide til cykling
 permalink: /cykeltraeningsprogram/
-excerpt: "Her har du en omfattende guide til træningsøvelser til dit cykeltræningsprogram, der fokuserer på mere end bare dine lårmuskler. De 5 udvalgte øvelser, kan laves både i hjemmet og i fitnesscenteret, og styrker din performance under cykling."
+excerpt: Her har du en omfattende guide til træningsøvelser til dit cykeltræningsprogram, der fokuserer på mere end bare dine
+  lårmuskler. De 5 udvalgte øvelser, kan laves både i hjemmet og i fitnesscenteret, og styrker din performance under cykling.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
+  credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
+  caption: Cykeltræningsprogram - Få en styrketræningsguide til cykling
 category:
-  - Styrketræning
-  - Cykling
+- Styrketræning
+- Cykling
 tags:
-  - styrketræning
-  - cykling
-last_modified_at: 2022-01-20T08:14:14Z
-toc: true
+- styrketræning
+- cykling
+last_modified_at: '2022-01-20T08:14:14Z'
+toc: 'true'
 author: nikolai.jauk
-author_profile: true
+author_profile: 'true'
 ---
 
 Vil du gerne forbedre din cykling? Så er en god og målrettet styrketræning måske det, du har brug for. Det kan dog være svært at finde den perfekte styrketræning til cykling.

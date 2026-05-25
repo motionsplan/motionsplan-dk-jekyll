@@ -1,18 +1,19 @@
 ---
-title: &title "Makkerøvelser: Træn med en makker"
+title: 'Makkerøvelser: Træn med en makker'
 permalink: /artikel/traen-med-en-makker/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHBhcnRuZXIlMjBleGVyY2lzZXxlbnwwfDB8MHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHBhcnRuZXIlMjBleGVyY2lzZXxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1571689230986-c2dcb5f4c5f7.jpg
+  credit: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7
+  teaser: /assets/images/unsplash/photo-1571689230986-c2dcb5f4c5f7.jpg
+  caption: 'Makkerøvelser: Træn med en makker'
 tags:
-  - styrketræning
-  - makkerøvelser
-  - træning
+- styrketræning
+- makkerøvelser
+- træning
 category:
-  - Styrketræning
-last_modified_at: 2013-02-13T22:19:00Z
+- Styrketræning
+last_modified_at: '2013-02-13T22:19:00Z'
 ---
 
 Vi har på det seneste eksperimenteret lidt med forskellige makkerøvelser. At træne med en makker giver en række fordele:

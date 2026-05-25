@@ -1,26 +1,30 @@
 ---
-title: &title "Cirkeltræning: Effektiv træning - Øvelser og variationer"
+title: 'Cirkeltræning: Effektiv træning - Øvelser og variationer'
 permalink: /cirkeltraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.4
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1544216717-3bbf52512659.jpg
+  credit: https://images.unsplash.com/photo-1544216717-3bbf52512659
+  teaser: /assets/images/unsplash/photo-1544216717-3bbf52512659.jpg
+  overlay_filter: '0.4'
+  caption: 'Cirkeltræning: Effektiv træning - Øvelser og variationer'
 category:
-  - Træning
+- Træning
 tags:
-  - kondition
-  - træning
-  - kombinationstræning
-  - styrketræning
-last_modified_at: 2020-06-11T08:14:14Z
-toc: true
+- kondition
+- træning
+- kombinationstræning
+- styrketræning
+last_modified_at: '2020-06-11T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad er cirkeltræning?
-    answer: Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser, som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.
-  - question: Hvor mange øvelser skal jeg vælge til cirkeltræning?
-    answer: Du bestemmer naturligvis selv, hvor mange øvelser du vælger til cirkeltræning. Men du skal nok i hvert fald vælge 3-4 øvelser før du kan kalde det cirkeltræning.
+- question: Hvad er cirkeltræning?
+  answer: Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser,
+    som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste
+    øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.
+- question: Hvor mange øvelser skal jeg vælge til cirkeltræning?
+  answer: Du bestemmer naturligvis selv, hvor mange øvelser du vælger til cirkeltræning. Men du skal nok i hvert fald vælge
+    3-4 øvelser før du kan kalde det cirkeltræning.
 ---
 
 Jeg kan godt lide at organisere min træning som cirkeltræning eller som det hedder på _circuit træning_. Jeg har kigget lidt på, hvad cirkeltræning er, hvordan du kan skrue dit cirkeltræningsprogram sammen, og hvilke øvelser du kan bruge i din cirkeltræning?

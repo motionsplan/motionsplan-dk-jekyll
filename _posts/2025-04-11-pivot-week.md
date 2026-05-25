@@ -1,32 +1,40 @@
 ---
-title: &title "Hvad er en pivot uge?"
-seo_title: "Hvad er en pivot uge i styrketræning?"
-description: "En pivot uge er en planlagt overgangsuge mellem træningsblokke. Læs hvordan du bruger den til at restituere og forberede dig mentalt og fysisk."
-excerpt: "En pivot uge er en planlagt overgangsuge mellem træningsblokke. Læs hvordan du bruger den til at restituere og forberede dig mentalt og fysisk."
+title: Hvad er en pivot uge?
+seo_title: Hvad er en pivot uge i styrketræning?
+description: En pivot uge er en planlagt overgangsuge mellem træningsblokke. Læs hvordan du bruger den til at restituere og
+  forberede dig mentalt og fysisk.
+excerpt: En pivot uge er en planlagt overgangsuge mellem træningsblokke. Læs hvordan du bruger den til at restituere og forberede
+  dig mentalt og fysisk.
 permalink: /pivot-uge/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1701826510833-15e5a5460e89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1701826510833-15e5a5460e89.jpg
+  credit: https://images.unsplash.com/photo-1701826510833-15e5a5460e89
+  caption: Hvad er en pivot uge?
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træningsplanlægning
-  - programlægning
-last_modified_at: 2025-04-11T21:14:14Z
+- træningsplanlægning
+- programlægning
+last_modified_at: '2025-04-11T21:14:14Z'
 keywords:
-  - pivot uge
+- pivot uge
 faq:
-  - question: "Hvad er forskellen på en pivot uge og en deload uge?"
-    answer: "En deload uge har reduceret intensitet og volumen, men holder fast i de samme øvelser. En pivot uge inkluderer også ændringer i øvelsesvalg, tempo og bevægebane for at skabe mental og fysisk variation."
-  - question: "Hvornår bør jeg bruge en pivot uge?"
-    answer: "Efter 4–8 ugers intens træning eller når du oplever træthed, stagnation eller faldende motivation. Pivot uger passer godt ind i periodisering og autoreguleret træning."
-  - question: "Kan jeg springe pivot uger over?"
-    answer: "Ja, men det kan føre til øget risiko for overtræning og lavere motivation. Pivot uger hjælper med at forebygge skader og vedligeholde lysten til træningen."
-  - question: "Hvordan planlægger jeg en effektiv pivot uge?"
-    answer: "Brug lettere belastning, højere reps, nye øvelsesvarianter og fokus på mobilitet eller kondition. Hold fokus på bevægelse og restitution frem for progression."
-  - question: "Skal jeg holde helt fri i en pivot uge?"
-    answer: "Nej! En pivot uge handler om aktiv restitution. Du kan stadig træne, men hav et nyt fokus i din træning, så du bliver klar til næste træningsblok."
+- question: Hvad er forskellen på en pivot uge og en deload uge?
+  answer: En deload uge har reduceret intensitet og volumen, men holder fast i de samme øvelser. En pivot uge inkluderer også
+    ændringer i øvelsesvalg, tempo og bevægebane for at skabe mental og fysisk variation.
+- question: Hvornår bør jeg bruge en pivot uge?
+  answer: Efter 4–8 ugers intens træning eller når du oplever træthed, stagnation eller faldende motivation. Pivot uger passer
+    godt ind i periodisering og autoreguleret træning.
+- question: Kan jeg springe pivot uger over?
+  answer: Ja, men det kan føre til øget risiko for overtræning og lavere motivation. Pivot uger hjælper med at forebygge skader
+    og vedligeholde lysten til træningen.
+- question: Hvordan planlægger jeg en effektiv pivot uge?
+  answer: Brug lettere belastning, højere reps, nye øvelsesvarianter og fokus på mobilitet eller kondition. Hold fokus på
+    bevægelse og restitution frem for progression.
+- question: Skal jeg holde helt fri i en pivot uge?
+  answer: Nej! En pivot uge handler om aktiv restitution. Du kan stadig træne, men hav et nyt fokus i din træning, så du bliver
+    klar til næste træningsblok.
 ---
 
 En pivot uge er en planlagt overgangsuge mellem to træningsblokke. Den giver dig en tiltrængt pause fra specifik og målrettet styrketræning – uden at du holder helt fri. I stedet bruger du ugen på at restituere, justere og genfinde motivationen.

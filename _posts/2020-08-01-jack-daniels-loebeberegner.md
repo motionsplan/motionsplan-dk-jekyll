@@ -1,82 +1,104 @@
 ---
-title: "Løbsberegner: Beregn løbetempo med Jack Daniels løbeberegner"
-seo_title: "Løbsberegner: Beregn løbetider for træning og konkurrence"
-excerpt: "Har du brug for at få udregnet din løbehastighed og løbepace? I denne løbsberegner kan du beregne det og dine konkurrencetider ud fra Jack Daniels Running Formula."
-description: "Beregn din løbehastighed, træningstempo og konkurrencetider ud fra Jack Daniels Running Formula med denne løbsberegner."
+title: 'Løbsberegner: Beregn løbetempo med Jack Daniels løbeberegner'
+seo_title: 'Løbsberegner: Beregn løbetider for træning og konkurrence'
+excerpt: Har du brug for at få udregnet din løbehastighed og løbepace? I denne løbsberegner kan du beregne det og dine konkurrencetider
+  ud fra Jack Daniels Running Formula.
+description: Beregn din løbehastighed, træningstempo og konkurrencetider ud fra Jack Daniels Running Formula med denne løbsberegner.
 permalink: /loebesiden-jack-daniels-loebeberegner/
-last_modified_at: 2025-04-28T09:41:09Z
+last_modified_at: '2025-04-28T09:41:09Z'
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider"
+  teaser: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
+  credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
+  caption: Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider
 category:
-  - Løb
+- Løb
 tags:
-  - beregner
-  - kondition
-  - løbeberegner
-  - programlægning
-  - løb
-  - featured
-  - populær
+- beregner
+- kondition
+- løbeberegner
+- programlægning
+- løb
+- featured
+- populær
 meta:
   name: Jack Daniels formel til beregning af løbetider
   equipment: ingen
   measures: løbetid
   type: løb
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
-    title: "Daniels' Running Formula"
-    excerpt: "Jack Daniels er en af de toneangivende løbetrænere i verden. Han har udviklet Daniels' Running Formula, hvor du via dine konkurrencetider kan udregne dine løbetider til træning og konkurrence. Læs alle detaljerne i hans bog."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
-  - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
-    title: "Løb som eliten"
-    excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
+  title: Daniels' Running Formula
+  excerpt: Jack Daniels er en af de toneangivende løbetrænere i verden. Han har udviklet Daniels' Running Formula, hvor du
+    via dine konkurrencetider kan udregne dine løbetider til træning og konkurrence. Læs alle detaljerne i hans bog.
+  btn_label: Tjek prisen
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
+- image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
+  title: Løb som eliten
+  excerpt: Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest
+    muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og
+    helt op til maraton.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 template:
-  - image_path: /assets/images/template/jack-daniels.png
-    url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
-    title: "Løbetræning og løbeprogram skabelon"
-    excerpt: "Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner."
-    btn_label: "<i class='fas fa-file-alt'></i> Download Google Docs"
-    btn_class: "btn--info"
-    rel: nofollow noopener
+- image_path: /assets/images/template/jack-daniels.png
+  url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
+  title: Løbetræning og løbeprogram skabelon
+  excerpt: Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner.
+  btn_label: <i class='fas fa-file-alt'></i> Download Google Docs
+  btn_class: btn--info
+  rel: nofollow noopener
 faq:
-  - question: "Hvad er Jack Daniels løbsberegner?"
-    answer: |
-      Jack Daniels løbsberegner er et værktøj, der hjælper dig med at beregne dit ideelle løbetempo og estimere dine konkurrencetider baseret på dine aktuelle løbetider. Beregneren er baseret på Jack Daniels' Running Formula, som anvender VDOT-værdien til at bestemme dine træningstempoer og forventede tider på forskellige distancer.
-  - question: "Hvordan beregnes mit løbetempo?"
-    answer: |
-      For at beregne dit løbetempo skal du indtaste en nylig løbetid (f.eks. en 5 km- eller 10 km-tid) i beregneren. Beregneren anvender din tid til at estimere din VDOT-værdi, som derefter bruges til at anbefale tempoer for forskellige træningsformer, såsom intervaller, tempoture og restitutionsløb.
-  - question: "Hvad er VDOT?"
-    answer: |
-      VDOT er en værdi, der reflekterer din løbeevne og er baseret på din bedste præstation på en given distance. Det er Jack Daniels' alternative mål for VO₂max, som afspejler din faktiske løbeøkonomi og ydeevne i praksis. To løbere med samme VDOT kan have forskellige VO₂max-værdier, men de vil stadig præstere på samme niveau i praksis.
-  - question: "Er beregneren kun for erfarne løbere?"
-    answer: |
-      Nej, beregneren er for både begyndere og erfarne løbere. Hvis du er nybegynder, kan du bruge beregneren til at finde et realistisk tempo for din træning. Det er dog vigtigt at huske, at nybegyndere ikke altid kan overføre en 5 km-tid direkte til længere distancer som maraton, og det anbefales at justere tiderne for maraton og længere distancer.
-  - question: "Hvilke træningszoner bruger Jack Daniels?"
-    answer: |
-      Jack Daniels definerer fem hovedtræningszoner: 
-      - **E (Easy Run)**: Forbedrer aerob udholdenhed og løbeøkonomi.
-      - **M (Maraton-tempo)**: Specifik træning for maratondistancen.
-      - **T (Tærskel)**: Forbedrer din evne til at holde høje hastigheder i længere tid.
-      - **I (Intervaller)**: Forbedrer den maksimale iltoptagelse (VO₂max).
-      - **R (Repetitions)**: Øger hastigheden og løbeøkonomien på kortere distancer.
-  - question: "Kan jeg bruge beregneren til at estimere konkurrencetider?"
-    answer: |
-      Ja, beregneren kan estimere dine konkurrencetider på distancer som 5 km, 10 km, halvmaraton og maraton, baseret på din aktuelle løbetid på en kortere distance. Det giver dig en idé om, hvad du kan forvente at præstere under konkurrenceforhold, hvis du træner effektivt.
-  - question: "Hvordan kan jeg bruge resultaterne fra beregneren til at planlægge min træning?"
-    answer: |
-      Du kan bruge beregnerens resultater til at planlægge din træning ved at justere dine tempoer i forhold til de anbefalede træningszoner. For eksempel, hvis du skal træne intervaller, kan du bruge den beregnede VDOT-værdi til at finde ud af, hvilket tempo du skal sigte efter. Du kan også bruge beregneren til at tilpasse din træning baseret på dine konkurrenceforventninger og gradvist forbedre din præstation.
-  - question: "Er der nogen forbehold, når jeg bruger løbsberegneren?"
-    answer: |
-      Ja, der er nogle vigtige forbehold. For det første er de estimerede konkurrencetider teoretiske baseret på optimal træning og dagsform. Hvis du er nybegynder, kan det være svært at konvertere en kort løbetid som 5 km til en realistisk maratontid. Desuden skal erfarne løbere følge et målrettet træningsprogram for at opnå de tidspunkter, beregneren estimerer.
+- question: Hvad er Jack Daniels løbsberegner?
+  answer: 'Jack Daniels løbsberegner er et værktøj, der hjælper dig med at beregne dit ideelle løbetempo og estimere dine
+    konkurrencetider baseret på dine aktuelle løbetider. Beregneren er baseret på Jack Daniels'' Running Formula, som anvender
+    VDOT-værdien til at bestemme dine træningstempoer og forventede tider på forskellige distancer.
+
+    '
+- question: Hvordan beregnes mit løbetempo?
+  answer: 'For at beregne dit løbetempo skal du indtaste en nylig løbetid (f.eks. en 5 km- eller 10 km-tid) i beregneren.
+    Beregneren anvender din tid til at estimere din VDOT-værdi, som derefter bruges til at anbefale tempoer for forskellige
+    træningsformer, såsom intervaller, tempoture og restitutionsløb.
+
+    '
+- question: Hvad er VDOT?
+  answer: 'VDOT er en værdi, der reflekterer din løbeevne og er baseret på din bedste præstation på en given distance. Det
+    er Jack Daniels'' alternative mål for VO₂max, som afspejler din faktiske løbeøkonomi og ydeevne i praksis. To løbere med
+    samme VDOT kan have forskellige VO₂max-værdier, men de vil stadig præstere på samme niveau i praksis.
+
+    '
+- question: Er beregneren kun for erfarne løbere?
+  answer: 'Nej, beregneren er for både begyndere og erfarne løbere. Hvis du er nybegynder, kan du bruge beregneren til at
+    finde et realistisk tempo for din træning. Det er dog vigtigt at huske, at nybegyndere ikke altid kan overføre en 5 km-tid
+    direkte til længere distancer som maraton, og det anbefales at justere tiderne for maraton og længere distancer.
+
+    '
+- question: Hvilke træningszoner bruger Jack Daniels?
+  answer: "Jack Daniels definerer fem hovedtræningszoner: \n- **E (Easy Run)**: Forbedrer aerob udholdenhed og løbeøkonomi.\n\
+    - **M (Maraton-tempo)**: Specifik træning for maratondistancen.\n- **T (Tærskel)**: Forbedrer din evne til at holde høje\
+    \ hastigheder i længere tid.\n- **I (Intervaller)**: Forbedrer den maksimale iltoptagelse (VO₂max).\n- **R (Repetitions)**:\
+    \ Øger hastigheden og løbeøkonomien på kortere distancer.\n"
+- question: Kan jeg bruge beregneren til at estimere konkurrencetider?
+  answer: 'Ja, beregneren kan estimere dine konkurrencetider på distancer som 5 km, 10 km, halvmaraton og maraton, baseret
+    på din aktuelle løbetid på en kortere distance. Det giver dig en idé om, hvad du kan forvente at præstere under konkurrenceforhold,
+    hvis du træner effektivt.
+
+    '
+- question: Hvordan kan jeg bruge resultaterne fra beregneren til at planlægge min træning?
+  answer: 'Du kan bruge beregnerens resultater til at planlægge din træning ved at justere dine tempoer i forhold til de anbefalede
+    træningszoner. For eksempel, hvis du skal træne intervaller, kan du bruge den beregnede VDOT-værdi til at finde ud af,
+    hvilket tempo du skal sigte efter. Du kan også bruge beregneren til at tilpasse din træning baseret på dine konkurrenceforventninger
+    og gradvist forbedre din præstation.
+
+    '
+- question: Er der nogen forbehold, når jeg bruger løbsberegneren?
+  answer: Ja, der er nogle vigtige forbehold. For det første er de estimerede konkurrencetider teoretiske baseret på optimal
+    træning og dagsform. Hvis du er nybegynder, kan det være svært at konvertere en kort løbetid som 5 km til en realistisk
+    maratontid. Desuden skal erfarne løbere følge et målrettet træningsprogram for at opnå de tidspunkter, beregneren estimerer.
 ---
 
 Brug denne beregner til at finde dine ideelle træningstempoer og forventede konkurrencetider – baseret på den anerkendte **Jack Daniels Running Formula**.

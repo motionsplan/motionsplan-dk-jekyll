@@ -1,21 +1,23 @@
 ---
-title: &title "Hvordan finder du og læser en videnskabelig artikel?"
-description: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
-excerpt: "Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her."
+title: Hvordan finder du og læser en videnskabelig artikel?
+description: Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek
+  her.
+excerpt: Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her.
 permalink: /videnskabelig-sogning/
 redirect_from:
-  - /artikel/tag-ikke-vores-ord-det
-  - /artikel/hvordan-kan-du-laese-en-videnskabelig-artikel/
+- /artikel/tag-ikke-vores-ord-det
+- /artikel/hvordan-kan-du-laese-en-videnskabelig-artikel/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1581093588401-fbb62a02f120.jpg
+  credit: https://images.unsplash.com/photo-1581093588401-fbb62a02f120
+  teaser: /assets/images/unsplash/photo-1581093588401-fbb62a02f120.jpg
+  caption: Hvordan finder du og læser en videnskabelig artikel?
 tags:
-  - videnskab
+- videnskab
 category:
-  - Træningslære
-last_modified_at: 2022-09-13T21:55:25Z
+- Træningslære
+last_modified_at: '2022-09-13T21:55:25Z'
 ---
 
 Er du på udkig efter en videnskabelig artikel? Vil du gerne vide, hvordan du læser og forstår artiklen, så tjek her.

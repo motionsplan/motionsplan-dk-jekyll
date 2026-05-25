@@ -1,17 +1,18 @@
 ---
-title: &title "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
+title: Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1519156062512-8e563047dc6f.jpg
+  credit: https://images.unsplash.com/photo-1519156062512-8e563047dc6f
+  caption: Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - fysiologi
-  - muskler
-  - træningslære
-last_modified_at: 2020-06-11T08:14:14Z
+- fysiologi
+- muskler
+- træningslære
+last_modified_at: '2020-06-11T08:14:14Z'
 ---
 
 Jeg har haft en længere styrketræningspause, så jeg synes det er interessant at kigge på, hvor hurtigt musklerne forsvinder.

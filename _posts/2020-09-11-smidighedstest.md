@@ -1,21 +1,22 @@
 ---
-title: &title "Smidighedstest: Modified Sit & Reach Test"
+title: 'Smidighedstest: Modified Sit & Reach Test'
 permalink: /smidighedstest/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1492176273113-2d51f47b23b0.jpg
+  credit: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0
+  teaser: /assets/images/unsplash/photo-1492176273113-2d51f47b23b0.jpg
+  caption: 'Smidighedstest: Modified Sit & Reach Test'
 category:
-  - Tests
-  - Smidighed
+- Tests
+- Smidighed
 tags:
-  - test
-  - smidighed
-  - fitnesstest
-  - smidighedstest
-last_modified_at: 2020-09-03T23:14:14Z
-toc: true
+- test
+- smidighed
+- fitnesstest
+- smidighedstest
+last_modified_at: '2020-09-03T23:14:14Z'
+toc: 'true'
 meta:
   name: Modified Sit & Reach
   measures: smidighed

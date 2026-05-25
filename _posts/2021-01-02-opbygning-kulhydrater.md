@@ -1,19 +1,20 @@
 ---
-title: &title "Opbygning af kulhydrater og kostfibre 🥑🍞🍆"
-seo_title: "Opbygning af kulhydrater og kostfibre"
+title: Opbygning af kulhydrater og kostfibre 🥑🍞🍆
+seo_title: Opbygning af kulhydrater og kostfibre
 permalink: /kulhydrater-opbygning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
+  credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
+  teaser: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
+  caption: Opbygning af kulhydrater og kostfibre 🥑🍞🍆
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kost & ernæring
-  - makronæringsstof
-last_modified_at: 2021-01-02T10:14:14Z
-toc: true
+- kost & ernæring
+- makronæringsstof
+last_modified_at: '2021-01-02T10:14:14Z'
+toc: 'true'
 ---
 
 Kulhydrater er den primære energikilde i maden. Jeg kigger her på opbygningen af kulhydrat. Det er nemlig interessant at vide, hvordan kulhydrater er opbygget for at forstå, hvordan kulhydrater indgår i kosten - og hvordan det nedbrydes, spaltes og forbrændes i kroppen.

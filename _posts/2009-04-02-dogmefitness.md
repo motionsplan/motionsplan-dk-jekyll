@@ -1,20 +1,21 @@
 ---
-title: &title "Dogmefitness forslag til udendørs træning"
-seo_title: "Outdoor fitness: 38 øvelser til udendørs træning"
+title: Dogmefitness forslag til udendørs træning
+seo_title: 'Outdoor fitness: 38 øvelser til udendørs træning'
 permalink: /artikel/dogmefitness/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1540474211005-7c8a448f69e6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1540474211005-7c8a448f69e6?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1540474211005-7c8a448f69e6.jpg
+  credit: https://images.unsplash.com/photo-1540474211005-7c8a448f69e6
+  teaser: /assets/images/unsplash/photo-1540474211005-7c8a448f69e6.jpg
+  caption: Dogmefitness forslag til udendørs træning
 category:
-  - Træning
+- Træning
 tags:
-  - styrketræning
-  - konditionstræning
-  - træning
-  - udendørs træning
-last_modified_at: 2020-02-13T22:23:21Z
+- styrketræning
+- konditionstræning
+- træning
+- udendørs træning
+last_modified_at: '2020-02-13T22:23:21Z'
 ---
 
 Er du klar på udendørs træning? Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscyklen, se om du kan vikle dig ud af styrkemaskinen, og gør dig klar til en træning udenfor. 

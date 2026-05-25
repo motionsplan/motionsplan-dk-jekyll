@@ -1,56 +1,33 @@
 ---
-title: "5 kalorietæller apps til at tracke dine kalorier [Test]"
-seo_title: "5 kalorietæller apps til at tracke dine kalorier (2025)"
-description: "Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt uden at gøre det kompliceret."
-excerpt: "Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt uden at gøre det kompliceret."
+title: 5 kalorietæller apps til at tracke dine kalorier [Test]
+seo_title: 5 kalorietæller apps til at tracke dine kalorier (2025)
+description: Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt
+  uden at gøre det kompliceret.
+excerpt: Find den kalorietæller, der passer til din hverdag, og få styr på, hvordan du bruger kostregistrering effektivt uden
+  at gøre det kompliceret.
 permalink: /kalorietaeller-apps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1490645935967-10de6ba17061.jpg
+  credit: https://images.unsplash.com/photo-1490645935967-10de6ba17061
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kost & ernæring
-  - kalorier
-  - apps
-last_modified_at: 2025-04-09T22:21:26Z
+- kost & ernæring
+- kalorier
+- apps
+last_modified_at: '2025-04-09T22:21:26Z'
 feature_row_apps:
-  - title: Madital.dk
-    #url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
-    #image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
-    excerpt: |
-      🥇 **Dansk app**<br><br>
-      ✅ Let og enkel at bruge<br>
-      ✅ God gratis version<br>
-      ✅ Fokus på de vigtigste funktioner<br>
-      ❌ Simpelt design og færre avancerede funktioner 
-    #btn_label: Tjek prisen
-    #btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - title: MyFitnessPal
-    #url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
-    #image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
-    excerpt: |
-      🥇 **Mest udbredte**<br><br>
-      ✅ Største database med madvarer<br>
-      ✅ Integration med mange apps og enheder<br>
-      ✅ Aktivt fællesskab og deling<br>
-      ❌ Gratisversionen er ret begrænset  
-    #btn_label: Tjek prisen
-    #btn_class: btn--danger
-    #rel: sponsored nofollow noopener    
-  - title: Lifesum
-    #url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
-    #image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
-    excerpt: |
-      🥈 **Brugervenlig**<br><br>
-      ✅ Brugervenlig med smarte funktioner<br>
-      ✅ Får personlige råd og kostplaner<br>
-      ✅ Kan scanne stregkoder for nem registrering<br>
-      ❌ Kræver abonnement for det meste indhold  
-    #btn_label: Tjek prisen
-    #btn_class: btn--danger
-    #rel: sponsored nofollow noopener    
+- title: Madital.dk
+  excerpt: "\U0001F947 **Dansk app**<br><br>\n✅ Let og enkel at bruge<br>\n✅ God gratis version<br>\n✅ Fokus på de vigtigste\
+    \ funktioner<br>\n❌ Simpelt design og færre avancerede funktioner \n"
+  rel: sponsored nofollow noopener
+- title: MyFitnessPal
+  excerpt: "\U0001F947 **Mest udbredte**<br><br>\n✅ Største database med madvarer<br>\n✅ Integration med mange apps og enheder<br>\n\
+    ✅ Aktivt fællesskab og deling<br>\n❌ Gratisversionen er ret begrænset  \n"
+- title: Lifesum
+  excerpt: "\U0001F948 **Brugervenlig**<br><br>\n✅ Brugervenlig med smarte funktioner<br>\n✅ Får personlige råd og kostplaner<br>\n\
+    ✅ Kan scanne stregkoder for nem registrering<br>\n❌ Kræver abonnement for det meste indhold  \n"
 ---
 
 Hvis du gerne vil tælle kalorier, så er der mange kalorietæller apps at vælge imellem. Hvis du gerne vil have styr på, hvor meget energi du får i din kost, så kan du [lave kostregistrering](/kostregistrering/) i en af de mange smarte apps. Vi har testet 5 apps, der kan holde styr på kalorieregnskabet for dig.

@@ -1,16 +1,18 @@
 ---
-title: &title "Løbefællesskaber og løbeklubber i Danmark"
-excerpt: "Hvis du gerne vil løbe sammen med andre, så kan du melde dig ind i en af de mange løbeklubber eller opsøge nogle af de mere løst organiserede løbefællesskaber i Danmark."
+title: Løbefællesskaber og løbeklubber i Danmark
+excerpt: Hvis du gerne vil løbe sammen med andre, så kan du melde dig ind i en af de mange løbeklubber eller opsøge nogle
+  af de mere løst organiserede løbefællesskaber i Danmark.
 permalink: /loebefaellesskaber/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1552035509-b247fe8e5078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1552035509-b247fe8e5078.jpg
+  credit: https://images.unsplash.com/photo-1552035509-b247fe8e5078
+  caption: Løbefællesskaber og løbeklubber i Danmark
 category:
-  - Løb
+- Løb
 tags:
-  - inspiration
-last_modified_at: 2022-01-27T22:21:26Z
+- inspiration
+last_modified_at: '2022-01-27T22:21:26Z'
 ---
 
 Hvis du gerne vil løbe sammen med andre, så kan du melde dig ind i en af de mange løbeklubber eller opsøge nogle af de mere løst organiserede løbefællesskaber i Danmark.

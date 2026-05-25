@@ -1,19 +1,21 @@
 ---
 layout: single
-title: &title "Fysiologi og træningsfysiologi: Kroppen i arbejde og hvile"
-seo_title: "Fysiologi: Kroppens funktioner i hvile og arbejde"
-excerpt: "Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser."
+title: 'Fysiologi og træningsfysiologi: Kroppen i arbejde og hvile'
+seo_title: 'Fysiologi: Kroppens funktioner i hvile og arbejde'
+excerpt: Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien
+  beskæftiger sig med den sunde krop under normale betingelser.
 permalink: /fysiologi/
 system:
-  - fitnessinstruktør
+- fitnessinstruktør
 header:
-  overlay_image: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.4
-toc: true
-author_profile: true
-breadcrumbs: true
+  overlay_image: /assets/images/unsplash/photo-1559757296-5c84adc6d116.jpg
+  credit: https://images.unsplash.com/photo-1559757296-5c84adc6d116
+  teaser: /assets/images/unsplash/photo-1559757296-5c84adc6d116.jpg
+  caption: 'Fysiologi og træningsfysiologi: Kroppen i arbejde og hvile'
+  overlay_filter: '0.4'
+toc: 'true'
+author_profile: 'true'
+breadcrumbs: 'true'
 ---
 
 Fysiologi er studiet af, hvordan kroppen fungerer. Den ser på, hvordan de forskellige organsystemer fungerer under normale forhold, men også under fysisk aktivitet.

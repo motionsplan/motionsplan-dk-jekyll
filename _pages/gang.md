@@ -1,57 +1,68 @@
 ---
 layout: single
-title: "Gang - alt om at gå"
-seo_title: "Gang - gå dig i form med enkle skridt"
+title: Gang - alt om at gå
+seo_title: Gang - gå dig i form med enkle skridt
 permalink: /gang/
-description: "Gåture forbedrer din sundhed, forbrænder kalorier og reducerer stress. Læs om fordelene ved at gå, og hvordan du får mere gang ind i din hverdag."
-excerpt: "Gåture forbedrer din sundhed, forbrænder kalorier og reducerer stress. Læs om fordelene ved at gå, og hvordan du får mere gang ind i din hverdag."
+description: Gåture forbedrer din sundhed, forbrænder kalorier og reducerer stress. Læs om fordelene ved at gå, og hvordan
+  du får mere gang ind i din hverdag.
+excerpt: Gåture forbedrer din sundhed, forbrænder kalorier og reducerer stress. Læs om fordelene ved at gå, og hvordan du
+  får mere gang ind i din hverdag.
 header:
-  teaser: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
+  credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
   caption: Gang - fordele ved at gå
-author_profile: true
+author_profile: 'true'
 author: lsolesen
-toc: true
+toc: 'true'
 feature_row_why_walk:
-  - image_path: https://images.unsplash.com/photo-1566917306266-652261b1ae5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-    url: /gang-fordele-ved-at-gaa/
-    title: "20 fordele ved at gå"
-    excerpt: "Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at gå, som også dannede baggrund for #danmarkgårsammen."
-    btn_label: "Hvorfor skal du gå?"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1566917306266-652261b1ae5c.jpg
+  credit: https://images.unsplash.com/photo-1566917306266-652261b1ae5c
+  url: /gang-fordele-ved-at-gaa/
+  title: 20 fordele ved at gå
+  excerpt: 'Der er vel ingen nemmere og billigere motionsform end gang? Har kigger vi på alle de gode grunde, der er til at
+    gå, som også dannede baggrund for #danmarkgårsammen.'
+  btn_label: Hvorfor skal du gå?
+  btn_class: btn--info
 feature_row_inspiration_walking:
-  - image_path: https://images.unsplash.com/photo-1538471726790-0f6b031f1982?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=crop&w=400&q=10
-    url: /inspiration-til-gaature/
-    title: "Inspiration til gåture"
-    excerpt: "Her kan du finde inspiration til dine gåture. Hvor kan du gå, og hvad kan du lave undervejs?"
-    btn_label: "Få inspiration"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1538471726790-0f6b031f1982.jpg
+  credit: https://images.unsplash.com/photo-1538471726790-0f6b031f1982
+  url: /inspiration-til-gaature/
+  title: Inspiration til gåture
+  excerpt: Her kan du finde inspiration til dine gåture. Hvor kan du gå, og hvad kan du lave undervejs?
+  btn_label: Få inspiration
+  btn_class: btn--info
 feature_row_training:
-  - image_path: https://images.unsplash.com/photo-1613931372190-b067a12f73b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHdhbGtpbmd8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=400&q=10
-    url: /gangtraening/
-    title: "Træning og gang"
-    excerpt: "Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning."
-    btn_label: "Inspiration til gåtræning"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1613931372190-b067a12f73b6.jpg
+  credit: https://images.unsplash.com/photo-1613931372190-b067a12f73b6
+  url: /gangtraening/
+  title: Træning og gang
+  excerpt: Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning.
+  btn_label: Inspiration til gåtræning
+  btn_class: btn--info
 feature_row_skridt_til_km:
-  - image_path: https://images.unsplash.com/photo-1606474226448-4aa808468efc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=10
-    url: /skridt-pr-km-10000/
-    title: "Hvor langt går du?"
-    excerpt: "Hvor mange kilometer er 10.000 skridt? Hvor mange skridt er 1 km? Vi har lavet en omregner fra skridt til km, der kan give dig svaret!"
-    btn_label: "Hvor langt går du?"
-    btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=10
-    url: /tid-at-gaa/
-    title: "Hvor hurtigt går du?"
-    excerpt: "Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her får du også svaret på, hvor hurtigt man går 1 kilometer?"
-    btn_label: "Hvor hurtigt går du?"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1606474226448-4aa808468efc.jpg
+  credit: https://images.unsplash.com/photo-1606474226448-4aa808468efc
+  url: /skridt-pr-km-10000/
+  title: Hvor langt går du?
+  excerpt: Hvor mange kilometer er 10.000 skridt? Hvor mange skridt er 1 km? Vi har lavet en omregner fra skridt til km, der
+    kan give dig svaret!
+  btn_label: Hvor langt går du?
+  btn_class: btn--info
+- image_path: /assets/images/unsplash/photo-1560741282-a3ff4a507b4f.jpg
+  credit: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f
+  url: /tid-at-gaa/
+  title: Hvor hurtigt går du?
+  excerpt: Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her
+    får du også svaret på, hvor hurtigt man går 1 kilometer?
+  btn_label: Hvor hurtigt går du?
+  btn_class: btn--info
 sidebar:
   nav: trainingtypes
 category:
-  - Træning
+- Træning
 tag:
-  - træningsformer
-breadcrumbs: true
+- træningsformer
+breadcrumbs: 'true'
 classes: wide
 ---
 

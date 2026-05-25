@@ -1,26 +1,34 @@
 ---
-title: &title "Disc golf butikker: Køb discs online"
-seo_title: "Oversigt over disc golf butikker online"
-excerpt: "Vi har samlet en liste over de bedste disc golf butikker på internettet. Her kan du finde dine frisbees"
+title: 'Disc golf butikker: Køb discs online'
+seo_title: Oversigt over disc golf butikker online
+excerpt: Vi har samlet en liste over de bedste disc golf butikker på internettet. Her kan du finde dine frisbees
 permalink: /discgolf-butikker/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161920449-cd10d9391f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1655161920449-cd10d9391f44.jpg
+  credit: https://images.unsplash.com/photo-1655161920449-cd10d9391f44
+  caption: 'Disc golf butikker: Køb discs online'
 category:
-  - Sportsgrene
-  - Discgolf
+- Sportsgrene
+- Discgolf
 tags:
-  - discgolf
-  - butikker
-last_modified_at: 2022-09-24T10:21:26Z
+- discgolf
+- butikker
+last_modified_at: '2022-09-24T10:21:26Z'
 faq:
-  - question: Hvad er de bedste discs for en begynder?
-    answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at vælge disc](/golfdisc-til-discgolf/).
-  - question: Hvad betyder udtrykkene overstabil, stabil og understabil?
-    answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
-  - question: Hvad betyder hyzer og anhyzer?
-    answer: Hyzer og anhyzer er en betegnelse for den hældning golfdiscen har, når du kaster den. I et _hyzer_ højrehåndet baghåndskast vender den venstre kant af frisbeen nedad. Det gør, at frisbeen vil dreje endnu mere mod venstre til sidst i kastet. I et _anhyzer_ kast vender den venstre kant opad, hvilket vil få frisbeen til at gå mod højre i starten af kastet.
+- question: Hvad er de bedste discs for en begynder?
+  answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge
+    en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at
+    vælge disc](/golfdisc-til-discgolf/).
+- question: Hvad betyder udtrykkene overstabil, stabil og understabil?
+  answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj
+    hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve
+    mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt
+    betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
+- question: Hvad betyder hyzer og anhyzer?
+  answer: Hyzer og anhyzer er en betegnelse for den hældning golfdiscen har, når du kaster den. I et _hyzer_ højrehåndet baghåndskast
+    vender den venstre kant af frisbeen nedad. Det gør, at frisbeen vil dreje endnu mere mod venstre til sidst i kastet. I
+    et _anhyzer_ kast vender den venstre kant opad, hvilket vil få frisbeen til at gå mod højre i starten af kastet.
 ---
 
 Hvis du leder efter et sted at købe discs til [discgolf](/discgolf/), så er der efterhånden kommet mange muligheder. Du kan både handle online eller i fysiske disc golf butikker.

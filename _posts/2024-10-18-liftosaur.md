@@ -2,28 +2,31 @@
 title: ️Liftosaur - app til styrketræning
 seo_title: ️Liftosaur - app til styrketræning
 permalink: /liftosaur/
-description: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.
-excerpt: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende bruge det til træningslog.
+description: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende
+  bruge det til træningslog.
+excerpt: Liftosaur er en genial app til at lave dit styrketræningsprogram. Du kan let skrive dit program, og efterfølgende
+  bruge det til træningslog.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1656774950529-44a6153521ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1656774950529-44a6153521ee.jpg
+  credit: https://images.unsplash.com/photo-1656774950529-44a6153521ee
   caption: ️Liftosaur - app til styrketræning
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - træningslog
-last_modified_at: 2024-10-12T10:14:14Z
+- styrketræning
+- træningslog
+last_modified_at: '2024-10-12T10:14:14Z'
 gallery_program:
-  - image_path: /assets/images/liftosaur/liftosaur-choose-program.png
-  - image_path: /assets/images/liftosaur/liftosaur-choose-program-start.jpg
-  - image_path: /assets/images/liftosaur/liftosaur-choose-program-start-1.png
+- image_path: /assets/images/liftosaur/liftosaur-choose-program.png
+- image_path: /assets/images/liftosaur/liftosaur-choose-program-start.jpg
+- image_path: /assets/images/liftosaur/liftosaur-choose-program-start-1.png
 gallery_rm:
-  - image_path: /assets/images/liftosaur/liftosaur-edit-1rm.png
-  - image_path: /assets/images/liftosaur/liftosaur-edit-1rm-2.png
-  - image_path: /assets/images/liftosaur/liftosaur-edit-1rm-3.png
+- image_path: /assets/images/liftosaur/liftosaur-edit-1rm.png
+- image_path: /assets/images/liftosaur/liftosaur-edit-1rm-2.png
+- image_path: /assets/images/liftosaur/liftosaur-edit-1rm-3.png
 keywords:
-  - Liftosaur
+- Liftosaur
 ---
 
 **Liftosaur** er en genial app til planlægning af din styrketræning. Du kan let skrive dine egne programmer, få andres programmer eller bruge nogle af standardprogrammerne.

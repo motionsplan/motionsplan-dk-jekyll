@@ -1,61 +1,68 @@
 ---
-title: &title "Bedste udstyr til e-cykling på hometrainer"
-seo_title: "Bedste udstyr til e-cykling på hometrainer (Guide 2025)"
-description: Her får du en komplet guide til at komme i gang med cykling på motionscykel og e-cykling? Hvad er det bedste setup i forskellige prislejer.
+title: Bedste udstyr til e-cykling på hometrainer
+seo_title: Bedste udstyr til e-cykling på hometrainer (Guide 2025)
+description: Her får du en komplet guide til at komme i gang med cykling på motionscykel og e-cykling? Hvad er det bedste
+  setup i forskellige prislejer.
 permalink: /udstyr-hometrainer-ecykling/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1496147539180-13929f8aa03a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1496147539180-13929f8aa03a.jpg
+  credit: https://images.unsplash.com/photo-1496147539180-13929f8aa03a
+  caption: Bedste udstyr til e-cykling på hometrainer
 category:
-  - Cykling
+- Cykling
 tags:
-  - kondition
-  - cykling
-  - hometrainer
-  - udstyr
-  - virtuel cykling
-last_modified_at: 2022-11-06T08:14:14Z
+- kondition
+- cykling
+- hometrainer
+- udstyr
+- virtuel cykling
+last_modified_at: '2022-11-06T08:14:14Z'
 feature_row_kickr_bike:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
-    image_path: https://www.fotoagent.dk/images/w/JqJAsn3HMfMDXAHPYw6btw/s/10678/138/1_Wahoo_KICKR_BIKE_V2_150241.jpg?v=116122064
-    title: Wahoo Kickr Bike v2
-    excerpt: Nu kommer Wahoo Kickr Bike 2, en ny og forbedret version af den oprindelige Kickr Bike. Og her har vi virkelig at gøre med det ypperste indenfor e-cycling/indendørs cykling.
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
+  image_path: https://www.fotoagent.dk/images/w/JqJAsn3HMfMDXAHPYw6btw/s/10678/138/1_Wahoo_KICKR_BIKE_V2_150241.jpg?v=116122064
+  title: Wahoo Kickr Bike v2
+  excerpt: Nu kommer Wahoo Kickr Bike 2, en ny og forbedret version af den oprindelige Kickr Bike. Og her har vi virkelig
+    at gøre med det ypperste indenfor e-cycling/indendørs cykling.
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 feature_row_kickr:
-  - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
-    title: Wahoo Kickr 5.0
-    excerpt: "Du kan fx køre e-cykling på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
+  title: Wahoo Kickr 5.0
+  excerpt: Du kan fx køre e-cykling på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler.
+    Husk at tjekke om gear kasetten passer til din cykel på den version, du køber.
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 feature_row_kickr_climb:
-  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
-    title: Wahoo Kickr Climb
-    excerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
+- image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
+  title: Wahoo Kickr Climb
+  excerpt: En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel
+    oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift.
+  btn_label: Tjek prisen
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
 feature_row_kickr_headwind:
-  - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
-    title: Wahoo Kickr Headwind
-    excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--warning"
-    rel: sponsored nofollow noopener
+- image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
+  title: Wahoo Kickr Headwind
+  excerpt: Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i
+    læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder.
+  btn_label: Tjek prisen
+  btn_class: btn--warning
+  rel: sponsored nofollow noopener
 feature_row_kickr_tacx_flux:
-  - image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
-    title: Tacx Flux 2
-    excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
+- image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
+  title: Tacx Flux 2
+  excerpt: Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen
+    med Zwift og er lidt billigere end Wahoo Kickr.
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 ---
 
 Hvilket udstyr har du brug for, når du gerne vil i gang med cykling på motionscykel eller e-cykling? Her kigger vi på det bedste setup til virtuel cykling i forskellige prislejer.

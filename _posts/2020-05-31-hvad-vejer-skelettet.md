@@ -1,37 +1,50 @@
 ---
-title: "Hvad vejer skelettet og knoglerne i mennesket? ⚖"
-seo_title: "Hvad vejer skelettet & knoglerne i mennesket?"
-description: Hvad vejer knoglerne og skelettet egentlig? Her får du en guide til, hvor meget knoglevævet i mennesker vejer. Du bliver sikkert overrasket over svaret!
+title: Hvad vejer skelettet og knoglerne i mennesket? ⚖
+seo_title: Hvad vejer skelettet & knoglerne i mennesket?
+description: Hvad vejer knoglerne og skelettet egentlig? Her får du en guide til, hvor meget knoglevævet i mennesker vejer.
+  Du bliver sikkert overrasket over svaret!
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Hvad vejer menneskets skelet og vores knogler?"
-  alt: "Photo by Mathew Schwartz on Unsplash"
-  overlay_filter: 0.2
+  overlay_image: /assets/images/unsplash/photo-1530210124550-912dc1381cb8.jpg
+  credit: https://images.unsplash.com/photo-1530210124550-912dc1381cb8
+  teaser: /assets/images/unsplash/photo-1530210124550-912dc1381cb8.jpg
+  caption: Hvad vejer menneskets skelet og vores knogler?
+  alt: Photo by Mathew Schwartz on Unsplash
+  overlay_filter: '0.2'
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - anatomi
-  - faq
-last_modified_at: 2020-05-31T08:14:14Z
-toc: true
+- anatomi
+- faq
+last_modified_at: '2020-05-31T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvor mange knogler har et menneske?
-    answer: |
-      Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper](/led/). Alle mennesker har flere forskellige [knogletyper](/knogler/).
+- question: Hvor mange knogler har et menneske?
+  answer: 'Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige
+    ledtyper](/led/). Alle mennesker har flere forskellige [knogletyper](/knogler/).
 
-      Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til '[Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/)', hvor du også får svaret på, hvor mange knogler en baby har?
-  - question: Vejer en babys knogler mindre end en voksen?
-    answer: |
-      Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
 
-      Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler. Hvis du ved det, så skriv endelig.
-  - question: Hvad er den mindste og letteste knogle i kroppen?
-    answer: Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også 'stigbøjlen', og den befinder sig i øret. Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre noget.
-  - question: Hvad er den største og tungeste knogle i kroppen?
-    answer: "Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg."
+    Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til ''[Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/)'',
+    hvor du også får svaret på, hvor mange knogler en baby har?
+
+    '
+- question: Vejer en babys knogler mindre end en voksen?
+  answer: 'Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden
+    sammen.
+
+
+    Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler. Hvis
+    du ved det, så skriv endelig.
+
+    '
+- question: Hvad er den mindste og letteste knogle i kroppen?
+  answer: Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også 'stigbøjlen', og den befinder sig i øret.
+    Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre
+    noget.
+- question: Hvad er den største og tungeste knogle i kroppen?
+  answer: Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer
+    omkring 1 kg.
 ---
 
 Under mine anatomiundervisninger spørger mange, hvor meget knoglerne i kroppen vejer? Det er et spændende spørgsmål, og jeg har kigget nærmere på det for at give et præcist svar.

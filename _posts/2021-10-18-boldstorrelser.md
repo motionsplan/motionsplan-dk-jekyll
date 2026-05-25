@@ -1,27 +1,29 @@
 ---
-title: &title "Boldstørrelser: Størrelser på bolde til sport"
-seo_title: "Boldstørrelse: Hvad er størrelsen på bolde til sport?"
+title: 'Boldstørrelser: Størrelser på bolde til sport'
+seo_title: 'Boldstørrelse: Hvad er størrelsen på bolde til sport?'
 permalink: /boldstorrelser/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1498940757830-82f7813bf178.jpg
+  credit: https://images.unsplash.com/photo-1498940757830-82f7813bf178
+  teaser: /assets/images/unsplash/photo-1498940757830-82f7813bf178.jpg
+  caption: 'Boldstørrelser: Størrelser på bolde til sport'
 category:
-  - Sportsgrene
+- Sportsgrene
 tags:
-  - bolde
-last_modified_at: 2021-10-14T08:14:14Z
-toc: true
+- bolde
+last_modified_at: '2021-10-14T08:14:14Z'
+toc: 'true'
 faq:
- - question: "Hvad er den letteste bold til sport?"
-   answer: "Den letteste bold til sport er en bordtennisbold, som kun vejer 2,7 gram."
- - question: "Hvad er den tungeste bold til sport?"
-   answer: "Den tungeste bold eller kugle til sport er en uafgjort mellem bowling og kuglestød. Kuglen vejer til begge idrætsgrene 7,26 kg."
- - question: "Hvad er den mindste bold?"
-   answer: "En squash-bold er den mindste bold med sine kun omkring 4 cm i diameter." 
- - question: "Hvad er den største bold?"
-   answer: "Den største bold er en basketball, som er omkring 23,88 mm i diameter"
+- question: Hvad er den letteste bold til sport?
+  answer: Den letteste bold til sport er en bordtennisbold, som kun vejer 2,7 gram.
+- question: Hvad er den tungeste bold til sport?
+  answer: Den tungeste bold eller kugle til sport er en uafgjort mellem bowling og kuglestød. Kuglen vejer til begge idrætsgrene
+    7,26 kg.
+- question: Hvad er den mindste bold?
+  answer: En squash-bold er den mindste bold med sine kun omkring 4 cm i diameter.
+- question: Hvad er den største bold?
+  answer: Den største bold er en basketball, som er omkring 23,88 mm i diameter
 ---
 
 Sportsbolde kommer i mange former og størrelser. Her er en oversigt over alle de bolde, jeg kunne finde.

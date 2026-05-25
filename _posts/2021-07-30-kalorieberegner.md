@@ -1,28 +1,33 @@
 ---
-title: &title "Kalorieberegnere: Beregn alt om kalorier"
-seo_title: "Kalorieberegnere: 4 måder at beregne alt om kalorier"
-description: "Har du brug for en kalorie beregner? Her har vi samlet forskellige kalorieberegnere, som kan udregne kaloriebehov og kalorieindtag gratis. Prøv dem nu!"
+title: 'Kalorieberegnere: Beregn alt om kalorier'
+seo_title: 'Kalorieberegnere: 4 måder at beregne alt om kalorier'
+description: Har du brug for en kalorie beregner? Her har vi samlet forskellige kalorieberegnere, som kan udregne kaloriebehov
+  og kalorieindtag gratis. Prøv dem nu!
 permalink: /kalorieberegner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1611077543693-a0194a16b034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1611077543693-a0194a16b034.jpg
+  credit: https://images.unsplash.com/photo-1611077543693-a0194a16b034
+  teaser: /assets/images/unsplash/photo-1611077543693-a0194a16b034.jpg
+  caption: 'Kalorieberegnere: Beregn alt om kalorier'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kalorier
-  - energi
-  - kost & ernæring
-last_modified_at: 2022-05-11T10:14:14Z
-toc: true
+- kalorier
+- energi
+- kost & ernæring
+last_modified_at: '2022-05-11T10:14:14Z'
+toc: 'true'
 faq:
-  - question: "Hvad er kalorier?"
-    answer: "Kalorier er en måde at opgøre energi på. Jeg har skrevet mere uddybende om [kalorier](/hvad-er-kalorier/)."
-  - question: "Hvad er en kalorieberegner?"
-    answer: "En kalorieberegner kan betyde mindst tre forskellige ting. For det første kan man beregne sit daglige energiforbrug baseret på dit aktivitetsniveau eller specifikke aktiviteter. For det andet kan man beregne indholdet af kalorier i din mad og kost. For det tredje kan man i en energiomregner omregne mellem kJ og kalorier eller den anden vej."
-  - question: "Hvordan beregner man sit daglige kaloriebehov?"
-    answer: "Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn kaloriebehov i vores [avancerede stofskifteberegner](/beregner/dagligt-stofskifte-og-forbraending/)."
+- question: Hvad er kalorier?
+  answer: Kalorier er en måde at opgøre energi på. Jeg har skrevet mere uddybende om [kalorier](/hvad-er-kalorier/).
+- question: Hvad er en kalorieberegner?
+  answer: En kalorieberegner kan betyde mindst tre forskellige ting. For det første kan man beregne sit daglige energiforbrug
+    baseret på dit aktivitetsniveau eller specifikke aktiviteter. For det andet kan man beregne indholdet af kalorier i din
+    mad og kost. For det tredje kan man i en energiomregner omregne mellem kJ og kalorier eller den anden vej.
+- question: Hvordan beregner man sit daglige kaloriebehov?
+  answer: Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn
+    kaloriebehov i vores [avancerede stofskifteberegner](/beregner/dagligt-stofskifte-og-forbraending/).
 ---
 
 En kalorieberegner kan være flere ting. Du kan udregne dit eget energibehov eller hvor mange kalorier der er i mad. Jeg har samlet flere forskellige beregnere til kalorier her.

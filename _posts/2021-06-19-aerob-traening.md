@@ -1,18 +1,19 @@
 ---
-title: &title "Aerob træning: 5 forslag til at træne det aerobe system 💗"
+title: 'Aerob træning: 5 forslag til at træne det aerobe system 💗'
 permalink: /aerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598379682609-c617fa376f76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1598379682609-c617fa376f76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1598379682609-c617fa376f76.jpg
+  credit: https://images.unsplash.com/photo-1598379682609-c617fa376f76
+  teaser: /assets/images/unsplash/photo-1598379682609-c617fa376f76.jpg
+  caption: 'Aerob træning: 5 forslag til at træne det aerobe system 💗'
 category:
-  - Kondition
+- Kondition
 tags:
-  - energisystemer
-  - aerob træning
-last_modified_at: 2021-06-06T23:14:14Z
-toc: true
+- energisystemer
+- aerob træning
+last_modified_at: '2021-06-06T23:14:14Z'
+toc: 'true'
 ---
 
 Aerob træning handler om at træne det aerobe energisystem. Det er den del af energisystemet, hvor der er ilt til stedet til forbrændingen.

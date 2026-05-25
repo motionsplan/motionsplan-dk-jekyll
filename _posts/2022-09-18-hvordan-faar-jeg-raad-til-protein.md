@@ -1,21 +1,23 @@
 ---
-title: &title "Hvordan finder jeg billigt protein?"
-seo_title: "Hvordan får jeg råd til protein? Hvor er det billigst?"
-description: "Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Her kigger vi på de billigste kilder til protein."
+title: Hvordan finder jeg billigt protein?
+seo_title: Hvordan får jeg råd til protein? Hvor er det billigst?
+description: Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Her kigger vi på de billigste kilder til
+  protein.
 permalink: /billig-protein/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1600841909485-03146c24b014?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1600841909485-03146c24b014.jpg
+  credit: https://images.unsplash.com/photo-1600841909485-03146c24b014
+  caption: Hvordan finder jeg billigt protein?
 category:
-  - Kost & Ernæring
-  - Kosttilskud
+- Kost & Ernæring
+- Kosttilskud
 tags:
-  - kost & ernæring
-  - protein
-  - kosttilskud
-last_modified_at: 2022-10-06T23:14:14Z
-toc: true
+- kost & ernæring
+- protein
+- kosttilskud
+last_modified_at: '2022-10-06T23:14:14Z'
+toc: 'true'
 ---
 
 Vil du gerne vide, hvordan du får dækket dit proteinbehov billigst? Her kigger vi på de billigste kilder til protein.

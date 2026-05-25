@@ -1,31 +1,40 @@
 ---
-title: &title "Discgolf handicap: Hvordan fungerer rating?"
-excerpt: "Her dykker vi ned i, hvordan rating i discgolf fungerer, og hvordan du kan spille med et discgolf handicap, så spillere med forskelligt niveau kan konkurrere på nogenlunde lige vilkår."
+title: 'Discgolf handicap: Hvordan fungerer rating?'
+excerpt: Her dykker vi ned i, hvordan rating i discgolf fungerer, og hvordan du kan spille med et discgolf handicap, så spillere
+  med forskelligt niveau kan konkurrere på nogenlunde lige vilkår.
 permalink: /discgolf-handicap/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161920099-86c24c59f1bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1655161920099-86c24c59f1bf.jpg
+  credit: https://images.unsplash.com/photo-1655161920099-86c24c59f1bf
+  caption: 'Discgolf handicap: Hvordan fungerer rating?'
 category:
-  - Sportsgrene
-  - Discgolf
+- Sportsgrene
+- Discgolf
 tags:
-  - sport
-last_modified_at: 2022-07-21T10:21:26Z
+- sport
+last_modified_at: '2022-07-21T10:21:26Z'
 faq:
-  - question: Hvad er de bedste discs for en begynder?
-    answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at vælge disc](/golfdisc-til-discgolf/).
-  - question: Hvad betyder udtrykkene overstabil, stabil og understabil?
-    answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
-  - question: Hvad betyder hyzer og anhyzer?
-    answer: Hyzer og anhyzer er en betegnelse for den hældning golfdiscen har, når du kaster den. I et _hyzer_ højrehåndet baghåndskast vender den venstre kant af frisbeen nedad. Det gør, at frisbeen vil dreje endnu mere mod venstre til sidst i kastet. I et _anhyzer_ kast vender den venstre kant opad, hvilket vil få frisbeen til at gå mod højre i starten af kastet.
+- question: Hvad er de bedste discs for en begynder?
+  answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge
+    en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Vi har skrevet en [guide til at
+    vælge disc](/golfdisc-til-discgolf/).
+- question: Hvad betyder udtrykkene overstabil, stabil og understabil?
+  answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj
+    hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve
+    mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt
+    betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
+- question: Hvad betyder hyzer og anhyzer?
+  answer: Hyzer og anhyzer er en betegnelse for den hældning golfdiscen har, når du kaster den. I et _hyzer_ højrehåndet baghåndskast
+    vender den venstre kant af frisbeen nedad. Det gør, at frisbeen vil dreje endnu mere mod venstre til sidst i kastet. I
+    et _anhyzer_ kast vender den venstre kant opad, hvilket vil få frisbeen til at gå mod højre i starten af kastet.
 gallery_udisc_handicap:
-  - image_path: /assets/images/blog/udisc-handicap-discgolf-1.jpg
-    url: /assets/images/blog/udisc-handicap-discgolf-1.jpg
-    alt: discgolf handicap i udisc
-  - image_path: /assets/images/blog/udisc-handicap-discgolf-2.jpg
-    url: /assets/images/blog/udisc-handicap-discgolf-2.jpg
-    alt: discgolf handicap i udisc
+- image_path: /assets/images/blog/udisc-handicap-discgolf-1.jpg
+  url: /assets/images/blog/udisc-handicap-discgolf-1.jpg
+  alt: discgolf handicap i udisc
+- image_path: /assets/images/blog/udisc-handicap-discgolf-2.jpg
+  url: /assets/images/blog/udisc-handicap-discgolf-2.jpg
+  alt: discgolf handicap i udisc
 ---
 
 Her dykker vi ned i, hvordan rating i discgolf fungerer, og hvordan du kan spille med et discgolf handicap, så spillere med forskelligt niveau kan konkurrere på nogenlunde lige vilkår.

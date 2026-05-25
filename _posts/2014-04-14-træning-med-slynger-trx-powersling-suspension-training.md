@@ -1,20 +1,21 @@
 ---
-title: "Slyngetræning: Træning med slynger, TRX og slyngetræner"
+title: 'Slyngetræning: Træning med slynger, TRX og slyngetræner'
 permalink: /artikel/traening-med-slynger-trx-powersling-suspension-training/
 redirect_from:
-  - /artikel/træning-med-slynger-trx-powersling-suspension-training
+- /artikel/træning-med-slynger-trx-powersling-suspension-training
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Slyngetræning: Træning med slynger, TRX og PowerSling"
+  overlay_image: /assets/images/unsplash/photo-1581009137042-c552e485697a.jpg
+  credit: https://images.unsplash.com/photo-1581009137042-c552e485697a
+  teaser: /assets/images/unsplash/photo-1581009137042-c552e485697a.jpg
+  caption: 'Slyngetræning: Træning med slynger, TRX og PowerSling'
 tags:
-  - trx
-  - udstyr
-  - hjemmetræning
+- trx
+- udstyr
+- hjemmetræning
 category:
-  - Styrketræning
-last_modified_at: 2019-03-06T23:00:18Z
+- Styrketræning
+last_modified_at: '2019-03-06T23:00:18Z'
 ---
 
 Hvis man hænger en snor op med to håndtag, kalder man det 'suspension' træning. Træningsformen kaldes også slyngetræning, træning med slynger, TRX og Powersling.

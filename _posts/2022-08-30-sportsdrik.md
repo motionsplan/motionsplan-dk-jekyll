@@ -1,30 +1,37 @@
 ---
-title: &title "Sportsdrik: Hvordan laver du en hjemmelavet energidrik?"
+title: 'Sportsdrik: Hvordan laver du en hjemmelavet energidrik?'
 permalink: /sportsdrik/
-excerpt: "Vil du gerne lære at lave en hjemmelavet sportsdrik? Her får du tips til at lave din egen energidrik, der sikrer dig energi og de rigtige salte til træning og konkurrence."
+excerpt: Vil du gerne lære at lave en hjemmelavet sportsdrik? Her får du tips til at lave din egen energidrik, der sikrer
+  dig energi og de rigtige salte til træning og konkurrence.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1474222300086-56f8a438e47d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1474222300086-56f8a438e47d.jpg
+  credit: https://images.unsplash.com/photo-1474222300086-56f8a438e47d
+  caption: 'Sportsdrik: Hvordan laver du en hjemmelavet energidrik?'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - væske
-  - kost & ernæring
-  - guide
-last_modified_at: 2022-09-01T10:14:14Z
-toc: true
+- væske
+- kost & ernæring
+- guide
+last_modified_at: '2022-09-01T10:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad betyder isotonisk opløsning?
-    answer: |
-      En isotonisk opløsning er en vandig opløsning, hvor de opløste stoffer, fx salte, har en koncentration, så den svarer nogenlunde til cellerne i levende organsimer. Det betyder, at opløsningen ikke forårsager osmose på tværs af cellemembranen.
+- question: Hvad betyder isotonisk opløsning?
+  answer: 'En isotonisk opløsning er en vandig opløsning, hvor de opløste stoffer, fx salte, har en koncentration, så den
+    svarer nogenlunde til cellerne i levende organsimer. Det betyder, at opløsningen ikke forårsager osmose på tværs af cellemembranen.
 
-      Når du ser reklamer for isotoniske sportsdrikke, så betyder det altså, at drikken nogenlunde modsvarer saltopløsningen i kroppens celler.
-  - question: Hvad er elektrolytter?
-    answer: |
-      Elektrolytter er mineraler i kroppen, der har en elektrisk ladning. De er nødvendige for mange funktioner i kroppen, herunder muskelfunktion og hydrering.
 
-      De vigtigste elektrolytter i kroppen er natrium, kalium, klorid og magnesium.
+    Når du ser reklamer for isotoniske sportsdrikke, så betyder det altså, at drikken nogenlunde modsvarer saltopløsningen
+    i kroppens celler.
+
+    '
+- question: Hvad er elektrolytter?
+  answer: 'Elektrolytter er mineraler i kroppen, der har en elektrisk ladning. De er nødvendige for mange funktioner i kroppen,
+    herunder muskelfunktion og hydrering.
+
+
+    De vigtigste elektrolytter i kroppen er natrium, kalium, klorid og magnesium.'
 ---
 
 Vil du gerne lære at lave en hjemmelavet sportsdrik? Ofte kan man slukke tørsten i vand, men hvis du motionerer over længere tid eller sveder meget, så kan du lave din egen energidrik, der sikrer dig energi og de rigtige salte.

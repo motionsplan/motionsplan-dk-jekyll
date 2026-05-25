@@ -1,18 +1,19 @@
 ---
-title: &title "Forbedrer tung styrketræning præstationen ved cykling? 🚴🚴‍♀️"
+title: Forbedrer tung styrketræning præstationen ved cykling? 🚴🚴‍♀️
 permalink: /styrketraening-cykling/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1535312273391-a512d4290f43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1535312273391-a512d4290f43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1535312273391-a512d4290f43.jpg
+  credit: https://images.unsplash.com/photo-1535312273391-a512d4290f43
+  teaser: /assets/images/unsplash/photo-1535312273391-a512d4290f43.jpg
+  caption: Forbedrer tung styrketræning præstationen ved cykling? 🚴🚴‍♀️
 category:
-  - Cykling
-  - Styrketræning
+- Cykling
+- Styrketræning
 tags:
-  - styrketræning
-  - cykling
-last_modified_at: 2016-01-02T10:14:14Z
+- styrketræning
+- cykling
+last_modified_at: '2016-01-02T10:14:14Z'
 ---
 
 Skal du lave tung styrketræning, når du cykler? Kan styrketræning forbedre præstationen ved cykling? Hvad siger den seneste forskning på området om styrketræning er et godt supplement til landevejscykling?

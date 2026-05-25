@@ -1,29 +1,30 @@
 ---
-title: &title "MyWhoosh Cycling: Gratis alternativ til Zwift"
+title: 'MyWhoosh Cycling: Gratis alternativ til Zwift'
 permalink: /mywhoosh-cycling/
 redirect_from:
-  - /rgt-cycling/
+- /rgt-cycling/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1605235186583-a8272b61f9fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1605235186583-a8272b61f9fe.jpg
+  credit: https://images.unsplash.com/photo-1605235186583-a8272b61f9fe
+  caption: 'MyWhoosh Cycling: Gratis alternativ til Zwift'
 category:
-  - Cykling
+- Cykling
 tags:
-  - apps
-  - virtuel cykling
-  - hometrainer
-  - cykling
-last_modified_at: 2024-01-23T22:21:26Z
+- apps
+- virtuel cykling
+- hometrainer
+- cykling
+last_modified_at: '2024-01-23T22:21:26Z'
 gallery:
-  - image_path: /assets/images/blog/wahoo-rgt-1.jpg
-    url: /assets/images/blog/wahoo-rgt-1.jpg
-  - image_path: /assets/images/blog/wahoo-rgt-2.jpg
-    url: /assets/images/blog/wahoo-rgt-2.jpg
-  - image_path: /assets/images/blog/wahoo-rgt-3.jpg
-    url: /assets/images/blog/wahoo-rgt-3.jpg
-  - image_path: /assets/images/blog/wahoo-rgt-4.jpg
-    url: /assets/images/blog/wahoo-rgt-4.jpg
+- image_path: /assets/images/blog/wahoo-rgt-1.jpg
+  url: /assets/images/blog/wahoo-rgt-1.jpg
+- image_path: /assets/images/blog/wahoo-rgt-2.jpg
+  url: /assets/images/blog/wahoo-rgt-2.jpg
+- image_path: /assets/images/blog/wahoo-rgt-3.jpg
+  url: /assets/images/blog/wahoo-rgt-3.jpg
+- image_path: /assets/images/blog/wahoo-rgt-4.jpg
+  url: /assets/images/blog/wahoo-rgt-4.jpg
 ---
 
 Her har du en guide til at cykle på hometrainer med MyWhoosh Cycling. Det er en virtuel cykelplatform, som kan gøre indendørs træningen lidt mere interessant.

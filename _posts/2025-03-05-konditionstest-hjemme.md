@@ -1,60 +1,72 @@
 ---
 layout: single
 permalink: /konditionstests-hjemme/
-title: &title "Konditionstests du kan lave hjemme"
-seo_title: "Konditionstests du selv kan lave – Test din form derhjemme"
-excerpt: "Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre din form."
+title: Konditionstests du kan lave hjemme
+seo_title: Konditionstests du selv kan lave – Test din form derhjemme
+excerpt: Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre
+  din form.
 category:
-  - Kondition
+- Kondition
 tags:
-  - kondition
-  - konditionstests
-  - liste
+- kondition
+- konditionstests
+- liste
 header:
-  overlay_image: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1585855822554-4d21c841708c.jpg
+  credit: https://images.unsplash.com/photo-1585855822554-4d21c841708c
+  teaser: /assets/images/unsplash/photo-1585855822554-4d21c841708c.jpg
+  caption: Konditionstests du kan lave hjemme
 classes: wide
-author_profile: true
+author_profile: 'true'
 feature_row_about_tests:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Om kondition og tests"
-    title: "Om kondition og tests"
-    excerpt: "Hvordan ved jeg, om min kondition forbedres? Der findes flere metoder til at beregne dit kondital og din iltoptagelse ved hjælp af vores beregnere. Se tabellen for at vælge den test, der passer bedst til dig."
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  alt: Om kondition og tests
+  title: Om kondition og tests
+  excerpt: Hvordan ved jeg, om min kondition forbedres? Der findes flere metoder til at beregne dit kondital og din iltoptagelse
+    ved hjælp af vores beregnere. Se tabellen for at vælge den test, der passer bedst til dig.
 feature_row_kondital:
-  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=10
-    alt: "Hvad er en god kondition?"
-    title: "Hvad er en god kondition?"
-    excerpt: "Hvad der betragtes som et godt kondital, afhænger af, hvem du sammenligner dig med. Her finder du tabeller, der viser standarder for almindelige personer i Skandinavien."
-    url: "/kondital/"
-    btn_label: "Sammenlign dit kondital"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1616877217977-fe8d019afd76.jpg
+  credit: https://images.unsplash.com/photo-1616877217977-fe8d019afd76
+  alt: Hvad er en god kondition?
+  title: Hvad er en god kondition?
+  excerpt: Hvad der betragtes som et godt kondital, afhænger af, hvem du sammenligner dig med. Her finder du tabeller, der
+    viser standarder for almindelige personer i Skandinavien.
+  url: /kondital/
+  btn_label: Sammenlign dit kondital
+  btn_class: btn--info
 feature_row_train_fitness:
-  - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Hvordan forbedrer jeg min kondition?"
-    title: "Hvordan forbedrer jeg min kondition?"
-    excerpt: "Når du kender dit kondital, vil du sikkert gerne vide, hvordan du kan forbedre det. Heldigvis har vi samlet en masse viden om, hvordan du kan træne din kondition."
-    url: "/konditionstraening/"
-    btn_label: "Læs om konditionstræning"
-    btn_class: "btn--info"
-last_modified_at: 2025-02-18T22:21:26Z
-breadcrumbs: true
-toc: true
+- image_path: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
+  credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
+  alt: Hvordan forbedrer jeg min kondition?
+  title: Hvordan forbedrer jeg min kondition?
+  excerpt: Når du kender dit kondital, vil du sikkert gerne vide, hvordan du kan forbedre det. Heldigvis har vi samlet en
+    masse viden om, hvordan du kan træne din kondition.
+  url: /konditionstraening/
+  btn_label: Læs om konditionstræning
+  btn_class: btn--info
+last_modified_at: '2025-02-18T22:21:26Z'
+breadcrumbs: 'true'
+toc: 'true'
 faq:
-  - question: "Kan jeg teste min kondition derhjemme?"
-    answer: "Ja, du kan udføre flere enkle konditionstests derhjemme uden behov for avanceret udstyr. Eksempler inkluderer step-tests, submaksimale løbetests og simple pulsbaserede tests."
-  - question: "Hvilke konditionstests kan jeg lave hjemme?"
-    answer: "Der er mange konditionstests, du kan lave som selvtest derhjemme. Du kan se nogle forslag på denne side."
-  - question: "Hvordan vælger jeg den rette test?"
-    answer: "Det afhænger af dine mål og din nuværende form. Hvis du vil have en simpel test uden løb, er en step-test et godt valg. Hvis du vil vurdere din løbeform, kan en submaksimal løbetest eller en 6-minutters gangtest være bedre."
-  - question: "Hvordan forbereder jeg mig på en konditionstest?"
-    answer: "Sørg for at være udhvilet, undgå koffein og større måltider lige inden testen, og udfør en kort opvarmning."
-  - question: "Hvor ofte bør jeg teste min kondition?"
-    answer: "Det afhænger af dine træningsmål, men en test hver 4.-6. uge giver et godt billede af din udvikling."
-  - question: "Hvad gør jeg med mine testresultater?"
-    answer: "Brug dem til at følge din fremgang, justere din træning og sætte nye mål. Du kan sammenligne resultaterne over tid for at se forbedringer."
-  - question: "Er hjemmetests lige så præcise som laboratorietests?"
-    answer: De fleste hjemmetests giver et estimat af din kondition, men laboratorietests med iltoptagelsesmåling er mere præcise. Dog er hjemmetests et fremragende alternativ til at følge din udvikling over tid.
+- question: Kan jeg teste min kondition derhjemme?
+  answer: Ja, du kan udføre flere enkle konditionstests derhjemme uden behov for avanceret udstyr. Eksempler inkluderer step-tests,
+    submaksimale løbetests og simple pulsbaserede tests.
+- question: Hvilke konditionstests kan jeg lave hjemme?
+  answer: Der er mange konditionstests, du kan lave som selvtest derhjemme. Du kan se nogle forslag på denne side.
+- question: Hvordan vælger jeg den rette test?
+  answer: Det afhænger af dine mål og din nuværende form. Hvis du vil have en simpel test uden løb, er en step-test et godt
+    valg. Hvis du vil vurdere din løbeform, kan en submaksimal løbetest eller en 6-minutters gangtest være bedre.
+- question: Hvordan forbereder jeg mig på en konditionstest?
+  answer: Sørg for at være udhvilet, undgå koffein og større måltider lige inden testen, og udfør en kort opvarmning.
+- question: Hvor ofte bør jeg teste min kondition?
+  answer: Det afhænger af dine træningsmål, men en test hver 4.-6. uge giver et godt billede af din udvikling.
+- question: Hvad gør jeg med mine testresultater?
+  answer: Brug dem til at følge din fremgang, justere din træning og sætte nye mål. Du kan sammenligne resultaterne over tid
+    for at se forbedringer.
+- question: Er hjemmetests lige så præcise som laboratorietests?
+  answer: De fleste hjemmetests giver et estimat af din kondition, men laboratorietests med iltoptagelsesmåling er mere præcise.
+    Dog er hjemmetests et fremragende alternativ til at følge din udvikling over tid.
 ---
 
 Har du nogensinde tænkt over, hvor god din kondition egentlig er? Det behøver ikke kræve en tur til laboratoriet – du kan teste det derhjemme!

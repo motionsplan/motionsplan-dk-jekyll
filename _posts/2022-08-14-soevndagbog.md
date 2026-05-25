@@ -1,17 +1,19 @@
 ---
-title: &title "Søvndagbog: Kortlæg din søvn og sov bedre"
-excerpt: "Er du interesseret i at sove bedre? Her får du en guide til og eksempler på, hvordan du kan lave søvnregistrering og føre en søvndagbog."
+title: 'Søvndagbog: Kortlæg din søvn og sov bedre'
+excerpt: Er du interesseret i at sove bedre? Her får du en guide til og eksempler på, hvordan du kan lave søvnregistrering
+  og føre en søvndagbog.
 permalink: /soevndagbog/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1525169267298-12532cf95139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNsZWVwaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1525169267298-12532cf95139.jpg
+  credit: https://images.unsplash.com/photo-1525169267298-12532cf95139
+  caption: 'Søvndagbog: Kortlæg din søvn og sov bedre'
 category:
-  - Restitution
-  - Søvn
+- Restitution
+- Søvn
 tags:
-  - søvn
-last_modified_at: 2022-08-14T10:21:26Z
+- søvn
+last_modified_at: '2022-08-14T10:21:26Z'
 ---
 
 Søvn er meget vigtig for dit generelle helbred og velvære. Hvis du gerne vil dykke lidt ned i dine egne søvnvaner, så kan du lave søvnregistrering og føre en søvndagbog.

@@ -1,49 +1,65 @@
 ---
 layout: single
-title: "Træningsprogrammer: fullbody og splitprogrammer til styrke"
-seo_title: "Styrketræningsprogrammer: fullbody og splitprogrammer til styrke"
+title: 'Træningsprogrammer: fullbody og splitprogrammer til styrke'
+seo_title: 'Styrketræningsprogrammer: fullbody og splitprogrammer til styrke'
 permalink: /styrketraeningsprogrammer/
-excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dit niveau og dine behov. Find et program, der passer til netop dit niveau og behov."
-description: "Få en komplet oversigt over de klassiske gratis træningsprogrammer til styrketræning. Find dit eget program der passer til netop dit niveau og behov."
-comments: false
-toc: true
+excerpt: Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dit niveau og dine behov. Find
+  et program, der passer til netop dit niveau og behov.
+description: Få en komplet oversigt over de klassiske gratis træningsprogrammer til styrketræning. Find dit eget program der
+  passer til netop dit niveau og behov.
+comments: 'false'
+toc: 'true'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - træningsprogrammer
-breadcrumbs: true
+- styrketræning
+- træningsprogrammer
+breadcrumbs: 'true'
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Træningsprogrammer til styrketræning"
+  overlay_image: /assets/images/unsplash/photo-1574680178050-55c6a6a96e0a.jpg
+  credit: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a
+  teaser: /assets/images/unsplash/photo-1574680178050-55c6a6a96e0a.jpg
+  caption: Træningsprogrammer til styrketræning
   actions:
-    - label: "<i class='fas fa-table'></i> Direkte til programoversigten"
-      url: "#oversigt"
+  - label: <i class='fas fa-table'></i> Direkte til programoversigten
+    url: '#oversigt'
 faq:
-  - question: "Hvilket træningsprogram skal jeg vælge?"
-    answer: "Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/), som du kan lade dig inspirere af."
-  - question: "Skal kvinder træne anderledes end mænd?"
-    answer: "Mænd og kvinder skal træne ud fra de samme principper. Det afgørende i valget af træningsprogram er, at du tilpasser det din målsætning, dine forudsætninger og din kropsbygning. Både kvinder og mænd kan altså sagtens tage udgangspunkt i et af de effektive træningsprogrammer på denne side."
-  - question: "Hvad er et godt træningsprogram til styrketræning?"
-    answer: "Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan man fra uge til uge kan lave [progression og progressivt overload](/progressionsmodeller-progressivt-overload/)."
+- question: Hvilket træningsprogram skal jeg vælge?
+  answer: Når du skal vælge et træningsprogram, så skal du kigge på dit mål og den tid du har til rådighed. Uanset om du gerne
+    vil forøge din styrke, opbygge muskler eller begge dele, så viser forskningen at det er en god ide at træne alle musklerne
+    i kroppen mindst 2 gange om ugen. Jeg har skrevet en guide til, [hvordan du vælger det rigtige træningsprogram](/vaelg-traeningsprogram/),
+    som du kan lade dig inspirere af.
+- question: Skal kvinder træne anderledes end mænd?
+  answer: Mænd og kvinder skal træne ud fra de samme principper. Det afgørende i valget af træningsprogram er, at du tilpasser
+    det din målsætning, dine forudsætninger og din kropsbygning. Både kvinder og mænd kan altså sagtens tage udgangspunkt
+    i et af de effektive træningsprogrammer på denne side.
+- question: Hvad er et godt træningsprogram til styrketræning?
+  answer: Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt
+    i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige
+    volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan
+    man fra uge til uge kan lave [progression og progressivt overload](/progressionsmodeller-progressivt-overload/).
 feature_row_howto_program:
-  - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    title: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    excerpt: "I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
-    url: "/traeningsprogram-programlaegning-styrketraening/"
-    btn_label: "Lav dit eget program"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
+  credit: https://images.unsplash.com/photo-1526408984842-5f1323d42469
+  alt: Hvordan laver jeg mit eget styrketræningsprogram?
+  title: Hvordan laver jeg mit eget styrketræningsprogram?
+  excerpt: I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende
+    træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov.
+  url: /traeningsprogram-programlaegning-styrketraening/
+  btn_label: Lav dit eget program
+  btn_class: btn--info
 feature_row_choose_program:
-  - image_path: https://images.unsplash.com/photo-1718633561231-864a4c466991?q=80&w=400&h=400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: "Hvad er et godt styrketræningsprogram?"
-    title: "Sådan vælger du et styrketræningsprogram"
-    excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
-    url: "/vaelg-traeningsprogram/"
-    btn_label: "Vælg det rette styrketræningsprogram"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1718633561231-864a4c466991.jpg
+  credit: https://images.unsplash.com/photo-1718633561231-864a4c466991
+  alt: Hvad er et godt styrketræningsprogram?
+  title: Sådan vælger du et styrketræningsprogram
+  excerpt: Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan
+    vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater?
+    Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?
+  url: /vaelg-traeningsprogram/
+  btn_label: Vælg det rette styrketræningsprogram
+  btn_class: btn--info
 ---
 
 Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer, der passer til netop dit niveau og dine mål.

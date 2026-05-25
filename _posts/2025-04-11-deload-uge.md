@@ -1,32 +1,40 @@
 ---
-title: &title "Deload-uge: Fordele og hvordan gør du?"
-seo_title: "Deload-uge: Effektivt springbræt for bedre træning"
-description: "En deload-uge hjælper med at undgå overtræning og forbedre restitutionen. Læs hvordan du planlægger en effektiv deload-uge for bedre træningsresultater."
-excerpt: "En deload-uge hjælper med at undgå overtræning og forbedre restitutionen. Læs hvordan du planlægger en effektiv deload-uge for bedre træningsresultater."
+title: 'Deload-uge: Fordele og hvordan gør du?'
+seo_title: 'Deload-uge: Effektivt springbræt for bedre træning'
+description: En deload-uge hjælper med at undgå overtræning og forbedre restitutionen. Læs hvordan du planlægger en effektiv
+  deload-uge for bedre træningsresultater.
+excerpt: En deload-uge hjælper med at undgå overtræning og forbedre restitutionen. Læs hvordan du planlægger en effektiv deload-uge
+  for bedre træningsresultater.
 permalink: /deload-uge/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1683889842937-33f56d28e6e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1683889842937-33f56d28e6e4.jpg
+  credit: https://images.unsplash.com/photo-1683889842937-33f56d28e6e4
+  caption: 'Deload-uge: Fordele og hvordan gør du?'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træningsplanlægning
-  - programlægning
-last_modified_at: 2025-04-11T23:14:14Z
+- træningsplanlægning
+- programlægning
+last_modified_at: '2025-04-11T23:14:14Z'
 keywords:
-  - deload uge
+- deload uge
 faq:
-  - question: "Hvad er forskellen på en pivot uge og en deload uge?"
-    answer: "En deload uge indebærer reduceret intensitet og volumen, men du fortsætter med de samme øvelser. En pivot uge inkluderer ændringer i øvelsesvalg, tempo og bevægebane for at skabe fysisk og mental variation."
-  - question: "Hvornår bør jeg bruge en deload uge?"
-    answer: "En deload uge er ideel efter 4–8 ugers intensiv træning eller når du føler dig træt, overbelastet eller står over for stagnation. Den er en vigtig del af periodisering og hjælper med at undgå overtræning."
-  - question: "Kan jeg springe deload uger over?"
-    answer: "Selvom du kan springe en deload uge over, kan det føre til overtræning, skader og manglende fremgang. Deload uger er nødvendige for at give kroppen tid til at restituere og bevare træningsmotivation."
-  - question: "Hvordan planlægger jeg en effektiv deload uge?"
-    answer: "En effektiv deload uge indebærer at reducere træningsvolumen og intensitet, samtidig med at du fastholder øvelserne. Fokuser på teknik og mobilitet, og undgå at presse dig selv til maksimal ydeevne."
-  - question: "Skal jeg holde helt fri i en deload uge?"
-    answer: "Nej, en deload uge kræver ikke, at du holder helt fri. Du kan træne, men med betydeligt lettere vægte og færre sæt og reps. Fokusér på restitution og at give din krop tid til at komme sig."
+- question: Hvad er forskellen på en pivot uge og en deload uge?
+  answer: En deload uge indebærer reduceret intensitet og volumen, men du fortsætter med de samme øvelser. En pivot uge inkluderer
+    ændringer i øvelsesvalg, tempo og bevægebane for at skabe fysisk og mental variation.
+- question: Hvornår bør jeg bruge en deload uge?
+  answer: En deload uge er ideel efter 4–8 ugers intensiv træning eller når du føler dig træt, overbelastet eller står over
+    for stagnation. Den er en vigtig del af periodisering og hjælper med at undgå overtræning.
+- question: Kan jeg springe deload uger over?
+  answer: Selvom du kan springe en deload uge over, kan det føre til overtræning, skader og manglende fremgang. Deload uger
+    er nødvendige for at give kroppen tid til at restituere og bevare træningsmotivation.
+- question: Hvordan planlægger jeg en effektiv deload uge?
+  answer: En effektiv deload uge indebærer at reducere træningsvolumen og intensitet, samtidig med at du fastholder øvelserne.
+    Fokuser på teknik og mobilitet, og undgå at presse dig selv til maksimal ydeevne.
+- question: Skal jeg holde helt fri i en deload uge?
+  answer: Nej, en deload uge kræver ikke, at du holder helt fri. Du kan træne, men med betydeligt lettere vægte og færre sæt
+    og reps. Fokusér på restitution og at give din krop tid til at komme sig.
 ---
 
 En deload-uge er en planlagt periode med reduceret træningsintensitet og volumen, designet til at give din krop tid til at komme sig efter flere uger med hård træning. Formålet er at reducere risikoen for overtræning, forbedre restitutionen og sikre, at du kan fortsætte med at gøre fremskridt på lang sigt. I denne artikel vil vi udforske, hvad en deload-uge indebærer, hvornår du bør inkludere den i dit træningsprogram, og hvordan det kan hjælpe dig med at undgå skader og optimere dine resultater.

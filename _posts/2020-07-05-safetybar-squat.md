@@ -1,23 +1,25 @@
 ---
-title: "Safety Bar Squat: Hvilken safety squat bar kan anbefales?"
+title: 'Safety Bar Squat: Hvilken safety squat bar kan anbefales?'
 permalink: /safety-bar-squats/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
+  overlay_image: /assets/images/unsplash/photo-1534368575702-7c65b7474f91.jpg
+  credit: https://images.unsplash.com/photo-1534368575702-7c65b7474f91
+  teaser: /assets/images/unsplash/photo-1534368575702-7c65b7474f91.jpg
+  caption: Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - squat
-  - træningsøvelse
-last_modified_at: 2020-07-05T21:49:14Z
-toc: true
+- squat
+- træningsøvelse
+last_modified_at: '2020-07-05T21:49:14Z'
+toc: 'true'
 gallery:
-  - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-    alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
-    title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
+- image_path: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
+  credit: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b
+  url: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
+  alt: Håndtag til at lave armbøjninger, armstrækninger og pushups
+  title: Håndtag til at lave armbøjninger, armstrækninger og pushups
 ---
 
 Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?

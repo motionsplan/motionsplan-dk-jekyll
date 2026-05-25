@@ -1,16 +1,18 @@
 ---
-title: &title "Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃"
-seo_title: "Maksimal løbetest - Sådan finder du din iltoptagelse i lab"
+title: Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃
+seo_title: Maksimal løbetest - Sådan finder du din iltoptagelse i lab
 permalink: /iltoptagelse-max-test-loeb/
-excerpt: "Guide til test af din maksimale iltoptagelse på løbebånd med maske. Se testprotokollen, nødvendigt udstyr og hvordan du analyserer dine resultater for at optimere din træning."
-description: "Detaljeret guide til test af VO2max i laboratorium på løbebånd. Alt om testprotokollen og hvordan du analyserer dine resultater for at optimere din træning."
+excerpt: Guide til test af din maksimale iltoptagelse på løbebånd med maske. Se testprotokollen, nødvendigt udstyr og hvordan
+  du analyserer dine resultater for at optimere din træning.
+description: Detaljeret guide til test af VO2max i laboratorium på løbebånd. Alt om testprotokollen og hvordan du analyserer
+  dine resultater for at optimere din træning.
 language: da
 header:
   teaser: https://de.beatyesterday.org/wp-content/uploads/2018/12/iStock-885516322-jacoblund-header-359x219.jpg
-  caption: *title
+  caption: Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃
 category:
-  - Kondition
-  - Konditiontests
+- Kondition
+- Konditiontests
 meta:
   name: Maksimal løbetest på løbebånd (rampetest)
   measures: VO2max, kondital, maxpuls
@@ -19,50 +21,57 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
-  - test
-  - konditionstest
-  - direkte test
-  - maksimal test
-  - løbetest
-  - laboratorietest
-  - iltoptagelsestest
-  - testcenter
-last_modified_at: 2025-02-20T19:14:14Z
+- test
+- konditionstest
+- direkte test
+- maksimal test
+- løbetest
+- laboratorietest
+- iltoptagelsestest
+- testcenter
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_test_ark:
-  - image_path: /assets/images/blog/vo2max-test-sheet-freebie.jpg
-    alt: "Testark til VO2max løbetest"
-    title: "Testark til VO2max løbetest"
-    excerpt: "Vi bruger dette testark lavet i Google Sheets på Vejle Idrætshøjskole til at lave en maksimal iltoptagelsestest. Du får dit kondital, men også den maxpuls. Den kan bruges til at lave træningszoner ud fra."
-    url: "https://docs.google.com/spreadsheets/d/1KV5QVhzzEYsG39Z7nVsepJ8ql7Bh_lvZXPHvaGHY_2s/copy?gid=758480326#gid=758480326"
-    btn_label: "Kopier arket"
-    btn_class: "btn--success"
+- image_path: /assets/images/blog/vo2max-test-sheet-freebie.jpg
+  alt: Testark til VO2max løbetest
+  title: Testark til VO2max løbetest
+  excerpt: Vi bruger dette testark lavet i Google Sheets på Vejle Idrætshøjskole til at lave en maksimal iltoptagelsestest.
+    Du får dit kondital, men også den maxpuls. Den kan bruges til at lave træningszoner ud fra.
+  url: https://docs.google.com/spreadsheets/d/1KV5QVhzzEYsG39Z7nVsepJ8ql7Bh_lvZXPHvaGHY_2s/copy?gid=758480326#gid=758480326
+  btn_label: Kopier arket
+  btn_class: btn--success
 feature_row_tests:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Kondition og tests"
-    title: "Kondition og tests"
-    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
-    url: "/kondition/tests/"
-    btn_label: "Læs og prøv konditionstests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Kondition og tests
+  title: Kondition og tests
+  excerpt: Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?
+  url: /kondition/tests/
+  btn_label: Læs og prøv konditionstests
+  btn_class: btn--success
 feature_row_cooper_test:
-  - image_path: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Cooper-test"
-    title: "Cooper-test"
-    excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance."
-    url: "/cooper-test/"
-    btn_label: "Prøv Cooper-testen"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
+  credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
+  alt: Cooper-test
+  title: Cooper-test
+  excerpt: Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema
+    og tabel til at finde dit kondital ud fra den tilbagelagte distance.
+  url: /cooper-test/
+  btn_label: Prøv Cooper-testen
+  btn_class: btn--info
 feature_row_kondital:
-  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Hvad er en god kondition?"
-    title: "Hvad er en god kondition?"
-    excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."
-    url: "/kondital/"
-    btn_label: "Se konditionstabel og kondital"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1616877217977-fe8d019afd76.jpg
+  credit: https://images.unsplash.com/photo-1616877217977-fe8d019afd76
+  alt: Hvad er en god kondition?
+  title: Hvad er en god kondition?
+  excerpt: Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende
+    for almindelige mennesker i Skandinavien.
+  url: /kondital/
+  btn_label: Se konditionstabel og kondital
+  btn_class: btn--info
 faq:
-  - question: "Hvad kan du bruge en maksimal iltoptagelsestest til?"
-    answer: Med en maksimal iltoptagelsestest kan du få et ret præcist estimat på dit kondital. Vi måler direkte på iltoptagelsen, så hvis du formår at presse dig selv, så får du altså dit kondital.
+- question: Hvad kan du bruge en maksimal iltoptagelsestest til?
+  answer: Med en maksimal iltoptagelsestest kan du få et ret præcist estimat på dit kondital. Vi måler direkte på iltoptagelsen,
+    så hvis du formår at presse dig selv, så får du altså dit kondital.
 ---
 
 Hvis du vil kende dit præcise kondital i løb, kræver det en direkte måling af din maksimale iltoptagelse (VO2max). 

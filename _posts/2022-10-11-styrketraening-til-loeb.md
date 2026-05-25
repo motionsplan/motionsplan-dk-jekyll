@@ -1,27 +1,25 @@
 ---
-title: &title "Styrketræning til løb: Hvordan gør du?"
-seo_title: "Styrketræning til løb: Hvordan gør du?"
+title: 'Styrketræning til løb: Hvordan gør du?'
+seo_title: 'Styrketræning til løb: Hvordan gør du?'
 permalink: /styrketraening-til-loeb/
-description: "Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme til at løbe hurtigere?"
-excerpt: "Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme til at løbe hurtigere?"
+description: Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme
+  til at løbe hurtigere?
+excerpt: Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme
+  til at løbe hurtigere?
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1499290572571-a48c08140a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.3
+  teaser: /assets/images/unsplash/photo-1499290572571-a48c08140a19.jpg
+  credit: https://images.unsplash.com/photo-1499290572571-a48c08140a19
+  caption: 'Styrketræning til løb: Hvordan gør du?'
+  overlay_filter: '0.3'
 category:
-  - Løb
+- Løb
 tags:
-  - styrketræning
-  - løb
-  - guide
-  - faq
-last_modified_at: 2024-02-04T07:14:14Z
-#faq:
-#  - question: Hvordan beregner man sin egen 1 RM?
-#    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
-#  - question: Hvad betyder RM, 1RM max og one repetition maximum?
-#    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+- styrketræning
+- løb
+- guide
+- faq
+last_modified_at: '2024-02-04T07:14:14Z'
 ---
 
 Skal du lave styrketræning, hvis du gerne vil være en bedre løber? Kan det betale sig at styrketræne for at komme til at løbe hurtigere?

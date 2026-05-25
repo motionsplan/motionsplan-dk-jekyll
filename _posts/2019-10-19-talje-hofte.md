@@ -1,33 +1,39 @@
 ---
-title: "Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)"
-seo_title: "Talje-hofte-ratio: Beregn fordeling af fedtet med hoftemål"
-description: "Vil du gerne vide mere om fedtfordelingen på din krop? Mål dit hoftemål og dit taljemål og beregn talje-hofte-ratio og få svaret i vores beregner."
-excerpt: "Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes."
+title: Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)
+seo_title: 'Talje-hofte-ratio: Beregn fordeling af fedtet med hoftemål'
+description: Vil du gerne vide mere om fedtfordelingen på din krop? Mål dit hoftemål og dit taljemål og beregn talje-hofte-ratio
+  og få svaret i vores beregner.
+excerpt: Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier
+  har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg
+  har researchet hvilke forskellige taljemål og hoftemål, der findes.
 permalink: /talje-hofte-ratio/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Talje-hofte-ratioen siger noget om fedtfordelingen på kroppen"
+  teaser: /assets/images/unsplash/photo-1591384640699-9a85bd036da2.jpg
+  credit: https://images.unsplash.com/photo-1591384640699-9a85bd036da2
+  caption: Talje-hofte-ratioen siger noget om fedtfordelingen på kroppen
 category:
-  - Tests
+- Tests
 tags:
-  - måling
-  - test
-  - beregner
-  - kropskomposition
-  - tracking
-  - fitnesstest
-  - antropometri
-popular: true
-last_modified_at: 2022-05-04T23:14:14Z
-toc: true
+- måling
+- test
+- beregner
+- kropskomposition
+- tracking
+- fitnesstest
+- antropometri
+popular: 'true'
+last_modified_at: '2022-05-04T23:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad er et normalt hoftemål for kvinder?
-    answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for kvinder. Du kan i stedet kigge på forholdet mellem hofteomkredsen og taljeomkredsen. Der skal kvinder helst ligge under 0,8.
-  - question: Hvad er et normalt hoftemål for mænd?
-    answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for mænd. Du kan i stedet kigge på talje-hofte-ratioen. Der skal mænd helst ligge under 1.
-  - question: Hvor måler man hoften?
-    answer: Du skal lave hoftemålet på det bredeste sted set fra siden.
+- question: Hvad er et normalt hoftemål for kvinder?
+  answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for kvinder. Du kan i stedet kigge på forholdet mellem
+    hofteomkredsen og taljeomkredsen. Der skal kvinder helst ligge under 0,8.
+- question: Hvad er et normalt hoftemål for mænd?
+  answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for mænd. Du kan i stedet kigge på talje-hofte-ratioen.
+    Der skal mænd helst ligge under 1.
+- question: Hvor måler man hoften?
+  answer: Du skal lave hoftemålet på det bredeste sted set fra siden.
 meta:
   name: Talje-hofte mål
   equipment: målebånd

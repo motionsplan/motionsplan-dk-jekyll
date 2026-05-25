@@ -1,17 +1,18 @@
 ---
-title: &title "Virker nedvarmning og afjogging på restitutionen?"
-seo_title: "Er nedvarmning og afjogging en god restitutionssaktivitet?"
+title: Virker nedvarmning og afjogging på restitutionen?
+seo_title: Er nedvarmning og afjogging en god restitutionssaktivitet?
 permalink: /nedvarmning-som-restitutionsaktivitet/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1513378628213-b8f36d8c2878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1513378628213-b8f36d8c2878.jpg
+  credit: https://images.unsplash.com/photo-1513378628213-b8f36d8c2878
+  caption: Virker nedvarmning og afjogging på restitutionen?
 category:
-  - Træning
-  - Restitution
+- Træning
+- Restitution
 tags:
-  - restitution
-last_modified_at: 2022-05-22T10:21:26Z
+- restitution
+last_modified_at: '2022-05-22T10:21:26Z'
 ---
 
 Det er populært at lave nedvarmning og afjogging efter træning og kamp. Formålet er at restitutere hurtigere, så man kan blive klar til det næste træningspas hurtigere.

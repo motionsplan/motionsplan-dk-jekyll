@@ -1,28 +1,30 @@
 ---
-title: "Vmax intervaller til cykling (Beregner)"
+title: Vmax intervaller til cykling (Beregner)
 permalink: /vmax-cykling/
-excerpt: "I Vmax-træning til cykling arbejder du med en intensitet i nærheden af din maksimale iltoptagelse. I denne beregner kan du udregne, hvor mange watt du skal træde med for at få en passende intensitet i intervallerne."
+excerpt: I Vmax-træning til cykling arbejder du med en intensitet i nærheden af din maksimale iltoptagelse. I denne beregner
+  kan du udregne, hvor mange watt du skal træde med for at få en passende intensitet i intervallerne.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Vmax-træning til cykling"
+  overlay_image: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
+  credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
+  teaser: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
+  caption: Vmax-træning til cykling
 category:
-  - Kondition
-  - Cykling
+- Kondition
+- Cykling
 tags:
-  - beregner
-  - konditionstræning
-  - maksimal iltoptagelse
-  - cykling
-  - intervaltræning
+- beregner
+- konditionstræning
+- maksimal iltoptagelse
+- cykling
+- intervaltræning
 meta:
   name: Vmax intervalprogram i cykling
   equipment: ingen
   measures: intervalprogram
   type: cykling
-last_modified_at: 2022-04-22T23:14:14Z
-toc: true
+last_modified_at: '2022-04-22T23:14:14Z'
+toc: 'true'
 ---
 
 V<sub>max</sub>-cykeltræning er cykelintervaller med en intensitet omkring den maksimale iltoptagelse. Her får du en beregner som kan beregne hvilken intensitet, du skal køre de enkelte cykelintervaller i.

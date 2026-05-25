@@ -1,62 +1,63 @@
 ---
-title: &title "Populære blog posts på Motionsplan i 2023 🥇"
+title: Populære blog posts på Motionsplan i 2023 🥇
 permalink: /populaere-posts/
 redirect_from:
-  - /webclips/populaere-posts-2020/
+- /webclips/populaere-posts-2020/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1538503529202-7a0e79cbb6f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1538503529202-7a0e79cbb6f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1538503529202-7a0e79cbb6f6.jpg
+  credit: https://images.unsplash.com/photo-1538503529202-7a0e79cbb6f6
+  teaser: /assets/images/unsplash/photo-1538503529202-7a0e79cbb6f6.jpg
+  caption: Populære blog posts på Motionsplan i 2023 🥇
 tags:
-  - website
+- website
 category:
-  - Inspiration
-last_modified_at: 2024-07-31T18:21:26Z
+- Inspiration
+last_modified_at: '2024-07-31T18:21:26Z'
 popular_posts_2023:
-  - /idealvaegt/
-  - /hastighed/
-  - /kalorietaeller-apps/
-  - /skridt-pr-km-10000/
-  - /cooper-test/
-  - /kondital/
-  - /proteinpandekager-uden-banan/
-  - /bip-test/
-  - /artikel/de-fem-tibetanere/
-  - /muskelmasse-beregner/
+- /idealvaegt/
+- /hastighed/
+- /kalorietaeller-apps/
+- /skridt-pr-km-10000/
+- /cooper-test/
+- /kondital/
+- /proteinpandekager-uden-banan/
+- /bip-test/
+- /artikel/de-fem-tibetanere/
+- /muskelmasse-beregner/
 popular_posts_2022:
-  - /skridt-pr-km-10000/
-  - /idealvaegt/
-  - /cooper-test/
-  - /kondital/
-  - /artikel/de-fem-tibetanere/
-  - /kalorietabellen/
-  - /bip-test/
-  - /muskler/
-  - /koncentrisk-excentrisk-isometrisk/
-  - /andersen-test/
+- /skridt-pr-km-10000/
+- /idealvaegt/
+- /cooper-test/
+- /kondital/
+- /artikel/de-fem-tibetanere/
+- /kalorietabellen/
+- /bip-test/
+- /muskler/
+- /koncentrisk-excentrisk-isometrisk/
+- /andersen-test/
 popular_posts_2021:
-  - /skridt-pr-km-10000/
-  - /artikel/de-fem-tibetanere/
-  - /hvad-er-gennemsnitshoejden-i-danmark/
-  - /kondital/
-  - /cooper-test/
-  - /bip-test/
-  - /tab-fedt-paa-maven/
-  - /idealvaegt/
-  - /bmi/
-  - /koncentrisk-excentrisk-isometrisk/
+- /skridt-pr-km-10000/
+- /artikel/de-fem-tibetanere/
+- /hvad-er-gennemsnitshoejden-i-danmark/
+- /kondital/
+- /cooper-test/
+- /bip-test/
+- /tab-fedt-paa-maven/
+- /idealvaegt/
+- /bmi/
+- /koncentrisk-excentrisk-isometrisk/
 popular_posts_2020:
-  - /artikel/de-fem-tibetanere/
-  - /skridt-pr-km-10000/
-  - /bip-test/
-  - /bmi/
-  - /beregn-kondital/
-  - /rm-beregner/
-  - /tab-fedt-paa-maven/
-  - /kondital/
-  - /artikel/udregning-af-fedtprocent/
-  - /koncentrisk-excentrisk-isometrisk/
+- /artikel/de-fem-tibetanere/
+- /skridt-pr-km-10000/
+- /bip-test/
+- /bmi/
+- /beregn-kondital/
+- /rm-beregner/
+- /tab-fedt-paa-maven/
+- /kondital/
+- /artikel/udregning-af-fedtprocent/
+- /koncentrisk-excentrisk-isometrisk/
 ---
 
 Vi har virkelig mange populære artikler på Motionsplan. Det er sjovt hvert år at samle op på, hvad der gør en artikel populær.

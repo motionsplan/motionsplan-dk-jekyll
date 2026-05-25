@@ -1,18 +1,20 @@
 ---
 layout: single
 permalink: /presoevelser/
-title: &title "Presøvelser: Effektive styrketræningsøvelser til at træne pres"
-seo_title: "Presøvelser: Effektive øvelser til at træne pres"
-author_profile: true
+title: 'Presøvelser: Effektive styrketræningsøvelser til at træne pres'
+seo_title: 'Presøvelser: Effektive øvelser til at træne pres'
+author_profile: 'true'
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fGV4ZXJjaXNlc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fGV4ZXJjaXNlc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
-  caption: *title
-excerpt: "Vi har samlet en række presøvelser, som du kan bruge til din prestræning. Når du vil træne dit bryst og dine, så kan du vælge mellem forskellige presøvelser."
+  overlay_image: /assets/images/unsplash/photo-1571689230986-c2dcb5f4c5f7.jpg
+  credit: https://images.unsplash.com/photo-1571689230986-c2dcb5f4c5f7
+  teaser: /assets/images/unsplash/photo-1571689230986-c2dcb5f4c5f7.jpg
+  caption: 'Presøvelser: Effektive styrketræningsøvelser til at træne pres'
+excerpt: Vi har samlet en række presøvelser, som du kan bruge til din prestræning. Når du vil træne dit bryst og dine, så
+  kan du vælge mellem forskellige presøvelser.
 categories:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
 ---

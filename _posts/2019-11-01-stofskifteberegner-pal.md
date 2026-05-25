@@ -1,39 +1,43 @@
 ---
-title: "Beregn dit Physical Activity Level (PAL)"
+title: Beregn dit Physical Activity Level (PAL)
 seo_title: Beregn din PAL - Forstå din fysiske aktivitets energiforbrug
-description: "Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at se hvad dit fysiske aktivitetsniveau tilføjer til dit energiforbrug."
-excerpt: "Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse af hvad dit fysiske aktivitetsniveau betyder for dit energiforbrug."
+description: Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at se hvad dit fysiske
+  aktivitetsniveau tilføjer til dit energiforbrug.
+excerpt: Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse
+  af hvad dit fysiske aktivitetsniveau betyder for dit energiforbrug.
 permalink: /beregner/pal/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1619107372089-9b05ed524774?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1619107372089-9b05ed524774?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1619107372089-9b05ed524774.jpg
+  credit: https://images.unsplash.com/photo-1619107372089-9b05ed524774
+  teaser: /assets/images/unsplash/photo-1619107372089-9b05ed524774.jpg
   caption: Beregn din PAL værdi
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 tags:
-  - beregner
-  - stofskifte
-  - stofskifteberegner
-  - kost & ernæring
-  - featured
-  - guide
+- beregner
+- stofskifte
+- stofskifteberegner
+- kost & ernæring
+- featured
+- guide
 meta:
   name: PAL-beregner
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
-last_modified_at: 2025-02-27T23:14:14Z
-toc: true
+last_modified_at: '2025-02-27T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/pal-schedule.png
-    url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
-    title: "Skema til registrering af aktivitet"
-    excerpt: "Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov."
-    btn_label: <i class='fas fa-file-alt'></i> Download skema
-    btn_class: btn--info
-    rel: nofollow noopener
+- image_path: /assets/images/pal-schedule.png
+  url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
+  title: Skema til registrering af aktivitet
+  excerpt: Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget
+    aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov.
+  btn_label: <i class='fas fa-file-alt'></i> Download skema
+  btn_class: btn--info
+  rel: nofollow noopener
 ---
 
 Når vi taler om fysisk aktivitet og [energibehov](/bmr-beregner-hvilestofskifte-basalstofskifte/), er det vigtigt at forstå, hvor meget energi vi forbrænder gennem forskellige aktiviteter. Det bruger vi Physical Activity Level (PAL) til.

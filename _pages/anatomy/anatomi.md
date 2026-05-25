@@ -1,24 +1,27 @@
 ---
 layout: single
-title: &title "Anatomi: Kroppens opbygning og struktur"
-seo_title: "Anatomi: Studiet af hvordan kroppen er opbygget"
-description: "Få en let forståelig oversigt over anatomi. Lær alt om hvordan de forskellige strukturer i kroppen er opbygget, fx knogler, muskler og led."
+title: 'Anatomi: Kroppens opbygning og struktur'
+seo_title: 'Anatomi: Studiet af hvordan kroppen er opbygget'
+description: Få en let forståelig oversigt over anatomi. Lær alt om hvordan de forskellige strukturer i kroppen er opbygget,
+  fx knogler, muskler og led.
 system:
-  - fitnessinstruktør
-excerpt: "Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen."
+- fitnessinstruktør
+excerpt: Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget,
+  hvordan disse igen samler sig til væv, organer og systemer i kroppen.
 permalink: /anatomi/
 categories:
-  - Anatomi
-breadcrumbs: true
+- Anatomi
+breadcrumbs: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1567607673554-2048def2c6b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1567607673554-2048def2c6b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.4
-toc: true
+  overlay_image: /assets/images/unsplash/photo-1567607673554-2048def2c6b4.jpg
+  credit: https://images.unsplash.com/photo-1567607673554-2048def2c6b4
+  teaser: /assets/images/unsplash/photo-1567607673554-2048def2c6b4.jpg
+  caption: 'Anatomi: Kroppens opbygning og struktur'
+  overlay_filter: '0.4'
+toc: 'true'
 sidebar:
   nav: anatomi
-last_modified_at: 2026-03-19T08:14:14.000Z
+last_modified_at: '2026-03-19T08:14:14.000Z'
 ---
 
 Har du nogensinde undret dig over, hvordan den menneskelige krop fungerer? Anatomi er studiet af, hvordan kroppens forskellige strukturer er opbygget. Alt fra celler hele vejen op til væv og organer.

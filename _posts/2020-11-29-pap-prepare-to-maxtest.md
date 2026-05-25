@@ -1,22 +1,24 @@
 ---
-title: &title "Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋"
-seo_title: "Hvordan varmer du op til en 1RM-maxtest med PAP?"
-excerpt: Hvordan forbereder du dig i opvarmningen til en 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op.
+title: Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋
+seo_title: Hvordan varmer du op til en 1RM-maxtest med PAP?
+excerpt: Hvordan forbereder du dig i opvarmningen til en 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt
+  og varme grundigt op.
 permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1532382752999-45b3dc5d4bf2.jpg
+  credit: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2
+  teaser: /assets/images/unsplash/photo-1532382752999-45b3dc5d4bf2.jpg
+  caption: Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - opvarmning
-  - præstation
-  - styrketræning
-  - eksplosivitet
-last_modified_at: 2020-11-13T23:14:14Z
+- opvarmning
+- præstation
+- styrketræning
+- eksplosivitet
+last_modified_at: '2020-11-13T23:14:14Z'
 ---
 
 Hvordan forbereder du dig i opvarmningen til en [1RM-test](/rm-maxtest/)? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op. Her kigger vi lidt på, hvad du kan tænke over i dine forberedelser og opvarmning til en maxtest eller styrkeløftstævne.

@@ -1,37 +1,38 @@
 ---
-title: &title "Mål din fedtprocent med målebånd (Navy-metoden) 📏"
+title: Mål din fedtprocent med målebånd (Navy-metoden) 📏
 permalink: /fedtprocent-navy/
 redirect_from:
-  - /measure-fp/
-excerpt: "Udregn din fedtprocent på baggrund af Navy-metoden, som er enkelte kropsmålinger, der kan laves med et målebånd."
+- /measure-fp/
+excerpt: Udregn din fedtprocent på baggrund af Navy-metoden, som er enkelte kropsmålinger, der kan laves med et målebånd.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1633009824314-c9095d90a9e6?&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1633009824314-c9095d90a9e6?&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1633009824314-c9095d90a9e6.jpg
+  credit: https://images.unsplash.com/photo-1633009824314-c9095d90a9e6
+  teaser: /assets/images/unsplash/photo-1633009824314-c9095d90a9e6.jpg
+  caption: Mål din fedtprocent med målebånd (Navy-metoden) 📏
 category:
-  - Tests
-  - Fedtprocent
-breadcrumbs: true
+- Tests
+- Fedtprocent
+breadcrumbs: 'true'
 tags:
-  - måling
-  - fedtprocent
-  - kropskomposition
+- måling
+- fedtprocent
+- kropskomposition
 meta:
   name: Mål fedtprocent med målebånd (Navy-metoden)
   equipment: målebånd
   measures: fedtprocent
-last_modified_at: 2019-03-06T23:14:14Z
-toc: true
+last_modified_at: '2019-03-06T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+  title: Exercise Physiology - Nutrition, Energy, and Human Performance
+  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 US Navy har udarbejdet denne metode til at beregne fedtprocenten på baggrund af nogle enkelte målinger, som du let kan lave med et målebånd.

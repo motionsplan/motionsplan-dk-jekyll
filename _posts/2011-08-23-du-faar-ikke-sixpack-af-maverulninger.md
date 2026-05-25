@@ -1,17 +1,18 @@
 ---
-title: &title "Du får ikke sixpack af maverulninger"
+title: Du får ikke sixpack af maverulninger
 permalink: /artikel/du-faar-ikke-sixpack-af-maverulninger/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1614396648745-d5de9c9e037e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1614396648745-d5de9c9e037e?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1614396648745-d5de9c9e037e.jpg
+  credit: https://images.unsplash.com/photo-1614396648745-d5de9c9e037e
+  teaser: /assets/images/unsplash/photo-1614396648745-d5de9c9e037e.jpg
+  caption: Du får ikke sixpack af maverulninger
 tags:
-  - vægttab
-  - mavetræning
+- vægttab
+- mavetræning
 category:
-  - Kost & Ernæring
-last_modified_at: 2013-02-13T21:39:32Z
+- Kost & Ernæring
+last_modified_at: '2013-02-13T21:39:32Z'
 ---
 
 [Jacob Søndergaard](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"} har i Godmorgen Danmark trænet to unge fyre i forbindelse med det ret ambitiøse projekt ["Sixpack på seks uger"](/assets/pdf/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf){:rel="nofollow"} - og resultatet var rigtig godt. Her gennemgår vi kort, hvilke ting han fokuseret på i løbet af de seks uger.

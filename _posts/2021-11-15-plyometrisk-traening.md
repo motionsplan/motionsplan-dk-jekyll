@@ -1,21 +1,22 @@
 ---
-title: &title "Plyometrisk træning: Følg disse fire trin"
-seo_title: "Plyometrisk træning: Følg disse 4 lette trin"
+title: 'Plyometrisk træning: Følg disse fire trin'
+seo_title: 'Plyometrisk træning: Følg disse 4 lette trin'
 permalink: /plyometrisk-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1591845699489-e357b2346bf1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1591845699489-e357b2346bf1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1591845699489-e357b2346bf1.jpg
+  credit: https://images.unsplash.com/photo-1591845699489-e357b2346bf1
+  teaser: /assets/images/unsplash/photo-1591845699489-e357b2346bf1.jpg
 category:
-  - Træning
-  - Springtræning
+- Træning
+- Springtræning
 tags:
-  - træning
-  - spring
-  - eksplosivitet
-  - springtræning
-last_modified_at: 2021-11-19T08:14:14Z
-toc: true
+- træning
+- spring
+- eksplosivitet
+- springtræning
+last_modified_at: '2021-11-19T08:14:14Z'
+toc: 'true'
 ---
 
 Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Det kræver en fornuftig progression at træne plyometriske øvelser. Her er fire enkle trin til, hvordan du kan komme i gang med at træne plyometri.

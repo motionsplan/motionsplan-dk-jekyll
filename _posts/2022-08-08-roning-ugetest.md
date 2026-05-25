@@ -1,25 +1,27 @@
 ---
-title: &title "Powerprofil i roning: Beregn din powerkurve på romaskine"
-excerpt: "De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine."
+title: 'Powerprofil i roning: Beregn din powerkurve på romaskine'
+excerpt: De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve
+  kan se ud i roning og hvordan du tester den på romaskine.
 permalink: /roning-powerprofil/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1467818488384-3a21f2b79959?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1467818488384-3a21f2b79959.jpg
+  credit: https://images.unsplash.com/photo-1467818488384-3a21f2b79959
+  caption: 'Powerprofil i roning: Beregn din powerkurve på romaskine'
 category:
-  - Træning
-  - Roning
+- Træning
+- Roning
 tags:
-  - test
-  - roning
-  - rotest
-  - kondition
+- test
+- roning
+- rotest
+- kondition
 meta:
   name: Powerprofil i roning
   equipment: roergometer
   measures: powerprofil
   type: rotest
-last_modified_at: 2022-08-11T10:21:26Z
+last_modified_at: '2022-08-11T10:21:26Z'
 ---
 
 De bedste roere har noget til fælles. De har nogenlunde den samme powerprofil. Her dykker vi ned i, hvordan en powerkurve kan se ud i roning og hvordan du tester den på romaskine.

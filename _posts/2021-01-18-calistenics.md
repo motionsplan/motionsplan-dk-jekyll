@@ -1,35 +1,39 @@
 ---
-title: &title "Calisthenics: 8 ugers begynderprogram til kropsvægtstræning"
+title: 'Calisthenics: 8 ugers begynderprogram til kropsvægtstræning'
 permalink: /calisthenics-begynderprogram-kropsvaegtstraening/
 redirect_from:
-  - /calisthenics-begynderprogram-kropsvaetstraening/
-  - /calisthenics-kongen-kropsvaetstraening/
-last_modified_at: 2024-01-18T09:41:09Z
+- /calisthenics-begynderprogram-kropsvaetstraening/
+- /calisthenics-kongen-kropsvaetstraening/
+last_modified_at: '2024-01-18T09:41:09Z'
 author: karsten.thor.lund
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1599744331097-8e64155b1383.jpg
+  credit: https://images.unsplash.com/photo-1599744331097-8e64155b1383
+  teaser: /assets/images/unsplash/photo-1599744331097-8e64155b1383.jpg
+  caption: 'Calisthenics: 8 ugers begynderprogram til kropsvægtstræning'
 category:
-  - Træning
-  - Styrketræning
+- Træning
+- Styrketræning
 tags:
-  - hjemmetræning
-  - workouts
-  - træningsprogram
-  - øvelser
-  - populær
+- hjemmetræning
+- workouts
+- træningsprogram
+- øvelser
+- populær
 gallery:
-  - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-    title: Downward dog
-  - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-    title: Frog
-  - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-    url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=630&w=1200&q=60
-    title: Worlds greatest stretch
+- image_path: /assets/images/unsplash/photo-1592334843880-69bb253e68be.jpg
+  credit: https://images.unsplash.com/photo-1592334843880-69bb253e68be
+  url: /assets/images/unsplash/photo-1592334843880-69bb253e68be.jpg
+  title: Downward dog
+- image_path: /assets/images/unsplash/photo-1603710488871-d4c531f20515.jpg
+  credit: https://images.unsplash.com/photo-1603710488871-d4c531f20515
+  url: /assets/images/unsplash/photo-1603710488871-d4c531f20515.jpg
+  title: Frog
+- image_path: /assets/images/unsplash/photo-1604519561858-19594a77b2c2.jpg
+  credit: https://images.unsplash.com/photo-1604519561858-19594a77b2c2
+  url: /assets/images/unsplash/photo-1604519561858-19594a77b2c2.jpg
+  title: Worlds greatest stretch
 ---
 
 Er du klar til at komme i gang med calisthenics? Jeg har lavet et 8 ugers begynderprogram, hvor du bruger minimalt udstyr og træner med din egen kropsvægt.

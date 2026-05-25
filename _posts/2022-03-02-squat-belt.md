@@ -1,94 +1,121 @@
 ---
-title: "Bælte til styrketræning - har du brug for et træningsbælte?"
-seo_title: "Alt om træningsbælter til styrketræning og fitness"
+title: Bælte til styrketræning - har du brug for et træningsbælte?
+seo_title: Alt om træningsbælter til styrketræning og fitness
 permalink: /baelte-styrketraening/
-description: Vil du gerne løfte tungere i squat og dødløft? Et træningsbælte til styrketræning kan hjælpe dig med at gøre dine løft mere stabile. Lær at bruge bæltet!
-excerpt: "Et bælte til styrketræning kan gøre dine løft mere stabile, så du kan løfte mere. Men du skal vælge det rigtige træningsbælte og vide hvordan, du bruger bæltet til fitness, vægtløftning og styrkeløft."
+description: Vil du gerne løfte tungere i squat og dødløft? Et træningsbælte til styrketræning kan hjælpe dig med at gøre
+  dine løft mere stabile. Lær at bruge bæltet!
+excerpt: Et bælte til styrketræning kan gøre dine løft mere stabile, så du kan løfte mere. Men du skal vælge det rigtige træningsbælte
+  og vide hvordan, du bruger bæltet til fitness, vægtløftning og styrkeløft.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1532384305128-54c7ac0d7139.jpg
+  credit: https://images.unsplash.com/photo-1532384305128-54c7ac0d7139
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - styrkeløft
-  - udstyr
-  - guide
-last_modified_at: 2022-11-24T23:14:14Z
-toc: true
+- styrketræning
+- styrkeløft
+- udstyr
+- guide
+last_modified_at: '2022-11-24T23:14:14Z'
+toc: 'true'
 feature_row_powerlifting:
-  - image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
-    alt: "3 Kamps bælte Professionel kvalitet"
-    title: "3 Kamps bælte Professionel kvalitet"
-    excerpt: "3 Kamps bælte Professionel kvalitet. Dette bælte er lavet i ekstrem robust læder og er MEGET stabil. Det er specielt velegnet for hård styrkeløft, bodybuilding og 3-kamp."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/professionelt-traeningsbaelte"
-    btn_label: Tjek prisen
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
+  alt: 3 Kamps bælte Professionel kvalitet
+  title: 3 Kamps bælte Professionel kvalitet
+  excerpt: 3 Kamps bælte Professionel kvalitet. Dette bælte er lavet i ekstrem robust læder og er MEGET stabil. Det er specielt
+    velegnet for hård styrkeløft, bodybuilding og 3-kamp.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/professionelt-traeningsbaelte
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 feature_row_weightlifting:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
-    alt: "Harbinger træningsbælte til vægtløftning"
-    title: "Harbinger træningsbælte til vægtløftning"
-    excerpt: "Harbinger træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Harbinger bæltet yder en optimal støtte ved intens styrkeløft med en bredde på 10 cm og dobbelt spænde til lukning."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/605-harbinger-laeder-baelte-bredt-m/"
-    btn_label: Tjek prisen
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
+  alt: Harbinger træningsbælte til vægtløftning
+  title: Harbinger træningsbælte til vægtløftning
+  excerpt: Harbinger træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Harbinger
+    bæltet yder en optimal støtte ved intens styrkeløft med en bredde på 10 cm og dobbelt spænde til lukning.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/605-harbinger-laeder-baelte-bredt-m/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 feature_row_syntetisk:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
-    alt: "Fitnessbælte i neopren"
-    title: "Fitnessbælte i neopren"
-    excerpt: "Harbinger Neopren Bælte til vægtløft i sort. Træningsbæltet fra Harbinger hjælper dig med, at støtte og stabilisere din ryg under træningen."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/617-harbinger-poly-baelte-herre-m/
-    btn_label: Tjek prisen
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
+  alt: Fitnessbælte i neopren
+  title: Fitnessbælte i neopren
+  excerpt: Harbinger Neopren Bælte til vægtløft i sort. Træningsbæltet fra Harbinger hjælper dig med, at støtte og stabilisere
+    din ryg under træningen.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/617-harbinger-poly-baelte-herre-m/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 feature_row_products:
-  - image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
-    alt: "3 Kamps bælte Professionel kvalitet"
-    title: "Styrkeløft-bælte"
-    excerpt: |
-      Dette bælte er lavet i ekstremt robust læder og er MEGET stabilt. Ideelt til seriøs styrkeløft, bodybuilding, styrketræning og tunge løft.
+- image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
+  alt: 3 Kamps bælte Professionel kvalitet
+  title: Styrkeløft-bælte
+  excerpt: 'Dette bælte er lavet i ekstremt robust læder og er MEGET stabilt. Ideelt til seriøs styrkeløft, bodybuilding,
+    styrketræning og tunge løft.
 
-      🥇 **Bedst til powerlifting**<br>
-      ✅ Kraftigt læder<br>
-      ✅ Maksimal stabilitet<br>
-      ✅ Perfekt til tunge løft<br>
-      ✅ Populært valg i 3-kamp
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/professionelt-traeningsbaelte"
-    btn_label: Tjek prisen
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
-    alt: "Harbinger træningsbælte til vægtløftning"
-    title: "Vægtløfter-bælte"
-    excerpt: |
-      Et klassisk vægtløftningsbælte fra Harbinger i ægte læder med blød polstring og dobbelt spænde. Perfekt til intens træning og tung belastning.
 
-      🥈 **Klassisk læderbælte**<br>
-      ✅ Ægte læder<br>
-      ✅ Indvendig polstring<br>
-      ✅ 10 cm bredde<br>
-      ✅ Dobbelt spænde
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/605-harbinger-laeder-baelte-bredt-m/"
-    btn_label: Tjek prisen
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
-    alt: "Fitnessbælte i neopren"
-    title: "Neoprenbælte"
-    excerpt: |
-      Neoprenbælte fra Harbinger til styrketræning. Let, fleksibelt og behageligt – perfekt til fitness og styrketræning med middel belastning.
+    🥇 **Bedst til powerlifting**<br>
 
-      🥉 **Let og komfortabelt**<br>
-      ✅ Blødt neopren<br>
-      ✅ Nem justering<br>
-      ✅ God støtte<br>
-      ✅ Perfekt til fitness
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/617-harbinger-poly-baelte-herre-m/
-    btn_label: Tjek prisen
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+    ✅ Kraftigt læder<br>
+
+    ✅ Maksimal stabilitet<br>
+
+    ✅ Perfekt til tunge løft<br>
+
+    ✅ Populært valg i 3-kamp
+
+    '
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://www.billig-fitness.dk/products/professionelt-traeningsbaelte
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
+  alt: Harbinger træningsbælte til vægtløftning
+  title: Vægtløfter-bælte
+  excerpt: 'Et klassisk vægtløftningsbælte fra Harbinger i ægte læder med blød polstring og dobbelt spænde. Perfekt til intens
+    træning og tung belastning.
+
+
+    🥈 **Klassisk læderbælte**<br>
+
+    ✅ Ægte læder<br>
+
+    ✅ Indvendig polstring<br>
+
+    ✅ 10 cm bredde<br>
+
+    ✅ Dobbelt spænde
+
+    '
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/605-harbinger-laeder-baelte-bredt-m/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
+  alt: Fitnessbælte i neopren
+  title: Neoprenbælte
+  excerpt: 'Neoprenbælte fra Harbinger til styrketræning. Let, fleksibelt og behageligt – perfekt til fitness og styrketræning
+    med middel belastning.
+
+
+    🥉 **Let og komfortabelt**<br>
+
+    ✅ Blødt neopren<br>
+
+    ✅ Nem justering<br>
+
+    ✅ God støtte<br>
+
+    ✅ Perfekt til fitness
+
+    '
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/69-tilbehoer-styrketraening/617-harbinger-poly-baelte-herre-m/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 classes: wide
 ---
 

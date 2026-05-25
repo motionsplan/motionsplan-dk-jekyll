@@ -1,20 +1,21 @@
 ---
-title: &title "Løbeteknik og løbestil i forhold til præstation og løbeskader"
+title: Løbeteknik og løbestil i forhold til præstation og løbeskader
 permalink: /loebeteknik/
-last_modified_at: 2020-08-15T09:41:09Z
+last_modified_at: '2020-08-15T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1512941675424-1c17dabfdddc.jpg
+  credit: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc
+  teaser: /assets/images/unsplash/photo-1512941675424-1c17dabfdddc.jpg
+  caption: Løbeteknik og løbestil i forhold til præstation og løbeskader
 category:
-  - Løb
-  - Kondition
+- Løb
+- Kondition
 tags:
-  - bevægelsesanalyse
-  - løbetræning
-  - løbeteknik & løbestil
-  - løb
+- bevægelsesanalyse
+- løbetræning
+- løbeteknik & løbestil
+- løb
 ---
 
 Når du løber, så kan det være en rigtig god ide at tænke over din løbeteknik. Jeg kigger i det følgende på, hvilke elementer i din løbestil, du kan arbejde med, hvis du vil forbedre din teknik, når du løber.

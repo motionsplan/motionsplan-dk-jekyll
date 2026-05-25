@@ -1,19 +1,21 @@
 ---
-title: &title "Højdetræning: Hvordan virker det at træne i højderne?"
-excerpt: "Højdetræning på nye niveauer er en af forklaringerne på Jumbo-Visma og Jonas Vingegaards store succes i Tour de France. Men hvordan virker det egentlig på kroppen at træne i højderne?"
+title: 'Højdetræning: Hvordan virker det at træne i højderne?'
+excerpt: Højdetræning på nye niveauer er en af forklaringerne på Jumbo-Visma og Jonas Vingegaards store succes i Tour de France.
+  Men hvordan virker det egentlig på kroppen at træne i højderne?
 permalink: /hoejdetraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1549311986-87f53aece52e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1549311986-87f53aece52e.jpg
+  credit: https://images.unsplash.com/photo-1549311986-87f53aece52e
+  caption: 'Højdetræning: Hvordan virker det at træne i højderne?'
 category:
-  - Fysiologi
-  - Træning
+- Fysiologi
+- Træning
 tags:
-  - fysiologi
-  - træning
-  - højdetræning
-last_modified_at: 2022-08-14T10:21:26Z
+- fysiologi
+- træning
+- højdetræning
+last_modified_at: '2022-08-14T10:21:26Z'
 ---
 
 Højdetræning på nye niveauer er en af forklaringerne på Jumbo-Visma og Jonas Vingegaards store succes i Tour de France. Men hvordan virker det egentlig på kroppen at træne i højderne?

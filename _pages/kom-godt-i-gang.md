@@ -1,121 +1,144 @@
 ---
 layout: single
-title: "Kom godt i gang med din træning – find den bedste vej"
-seo_title: "Kom godt i gang med træning | Find din vej til motion og styrke"
+title: Kom godt i gang med din træning – find den bedste vej
+seo_title: Kom godt i gang med træning | Find din vej til motion og styrke
 permalink: /kom-godt-i-gang/
-excerpt: "Vil du i gang med træning? Her får du en guide til de bedste træningsformer, programmer og beregnere, så du hurtigt kan komme i gang uanset dine mål."
-description: "Vil du i gang med træning? Her får du en guide til de bedste træningsformer, programmer og beregnere, så du hurtigt kan komme i gang uanset dine mål."
+excerpt: Vil du i gang med træning? Her får du en guide til de bedste træningsformer, programmer og beregnere, så du hurtigt
+  kan komme i gang uanset dine mål.
+description: Vil du i gang med træning? Her får du en guide til de bedste træningsformer, programmer og beregnere, så du hurtigt
+  kan komme i gang uanset dine mål.
 header:
-  overlay_image: https://images.unsplash.com/photo-1556739624-20e0d6705520?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODg0fHxleGVyY2lzZXxlbnwwfDB8Mnx8fDI%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1556739624-20e0d6705520?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODg0fHxleGVyY2lzZXxlbnwwfDB8Mnx8fDI%3D&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1556739624-20e0d6705520.jpg
+  credit: https://images.unsplash.com/photo-1556739624-20e0d6705520
+  teaser: /assets/images/unsplash/photo-1556739624-20e0d6705520.jpg
   caption: Kom godt i gang med træningen
-author_profile: true
+author_profile: 'true'
 author: lsolesen
-toc: true
+toc: 'true'
 category:
-  - Træning
+- Træning
 tag:
-  - træning
-  - begynder
-breadcrumbs: true
+- træning
+- begynder
+breadcrumbs: 'true'
 feature_row_strength:
-  - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
-    alt: "RepOne device"
-    url: https://repone-strength.myshopify.com/lars-olesen
-    title: "Repone"
-    excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
+- image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
+  alt: RepOne device
+  url: https://repone-strength.myshopify.com/lars-olesen
+  title: Repone
+  excerpt: RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet
+    med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med.
+  btn_class: btn--info
+  rel: sponsored nofollow noopener
 sidebar:
   nav: trainingtypes
 feature_row_introduction:
-  - image_path: https://images.unsplash.com/photo-1596357395217-80de13130e92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Guide: Introduktion til styrketræning"
-    title: "Guide: Introduktion til styrketræning"
-    excerpt: "Styrketræning er en fællesbetegnelse for en række øvelser, der bruges til at styrke udøverens muskler. Formålet med styrketræning kan både være stærkere eller få større muskler. Her får du en grundlæggende introduktion til styrketræning."
-    url: "/styrketraening/introduktion/"
-    btn_label: "Grundlæggende guide til styrketræning"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1596357395217-80de13130e92.jpg
+  credit: https://images.unsplash.com/photo-1596357395217-80de13130e92
+  alt: 'Guide: Introduktion til styrketræning'
+  title: 'Guide: Introduktion til styrketræning'
+  excerpt: Styrketræning er en fællesbetegnelse for en række øvelser, der bruges til at styrke udøverens muskler. Formålet
+    med styrketræning kan både være stærkere eller få større muskler. Her får du en grundlæggende introduktion til styrketræning.
+  url: /styrketraening/introduktion/
+  btn_label: Grundlæggende guide til styrketræning
+  btn_class: btn--info
 feature_row_beginner_get_started:
-  - image_path: https://images.unsplash.com/photo-1643142313816-0d9c86c49f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Begynder: Sådan kommer du i gang med styrketræning"
-    title: "Begynder: Sådan kommer du i gang med styrketræning"
-    excerpt: "Hvis du gerne vil i gang med styrketræning, men ikke helt ved, hvordan du skal gribe det an, så er du kommet til det rette sted. Her får du en guide til, hvordan du kommer i gang!"
-    url: "/styrketraening/begyndere/"
-    btn_label: "Kom i gang med styrketræning"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1643142313816-0d9c86c49f91.jpg
+  credit: https://images.unsplash.com/photo-1643142313816-0d9c86c49f91
+  alt: 'Begynder: Sådan kommer du i gang med styrketræning'
+  title: 'Begynder: Sådan kommer du i gang med styrketræning'
+  excerpt: Hvis du gerne vil i gang med styrketræning, men ikke helt ved, hvordan du skal gribe det an, så er du kommet til
+    det rette sted. Her får du en guide til, hvordan du kommer i gang!
+  url: /styrketraening/begyndere/
+  btn_label: Kom i gang med styrketræning
+  btn_class: btn--info
 feature_row_powerlifting:
-  - image_path: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Styrkeløft"
-    title: "Styrkeløft - bliv stærk i squat, bænk og dødløft"
-    excerpt: "Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw)."
-    url: "/styrkeloeft/"
-    btn_label: "Kom i gang med styrkeløft"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1574680178050-55c6a6a96e0a.jpg
+  credit: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a
+  alt: Styrkeløft
+  title: Styrkeløft - bliv stærk i squat, bænk og dødløft
+  excerpt: Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres
+    og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw).
+  url: /styrkeloeft/
+  btn_label: Kom i gang med styrkeløft
+  btn_class: btn--info
 feature_row_good_program:
-  - image_path: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=300&q=10
-    alt: "Sådan vælger du dit styrketræningsprogram?"
-    title: "Sådan vælger du dit styrketræningsprogram"
-    excerpt: "Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater? Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?"
-    url: "/vaelg-traeningsprogram/"
-    btn_label: "Vælg dit styrketræningsprogram"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1605296867424-35fc25c9212a.jpg
+  credit: https://images.unsplash.com/photo-1605296867424-35fc25c9212a
+  alt: Sådan vælger du dit styrketræningsprogram?
+  title: Sådan vælger du dit styrketræningsprogram
+  excerpt: Mange oplever usikkerhed, når det kommer til valg af styrketræningsprogram – og det er helt forståeligt. Hvordan
+    vælger man det rigtige program? Hvor mange gange om ugen bør du træne? Hvor mange gentagelser og sæt giver resultater?
+    Hvilke øvelser skal du inkludere, og hvornår er det tid til at skifte program?
+  url: /vaelg-traeningsprogram/
+  btn_label: Vælg dit styrketræningsprogram
+  btn_class: btn--info
 feature_row_howto_program:
-  - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    title: "Sådan laver du dit eget styrketræningsprogram"
-    excerpt: "I denne guide lærer du at sammensætte et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
-    url: "/traeningsprogram-programlaegning-styrketraening/"
-    btn_label: "Lav dit eget styrkeprogram"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
+  credit: https://images.unsplash.com/photo-1526408984842-5f1323d42469
+  alt: Hvordan laver jeg mit eget styrketræningsprogram?
+  title: Sådan laver du dit eget styrketræningsprogram
+  excerpt: I denne guide lærer du at sammensætte et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper,
+    så du kan skabe et program, der er skræddersyet til dine mål og behov.
+  url: /traeningsprogram-programlaegning-styrketraening/
+  btn_label: Lav dit eget styrkeprogram
+  btn_class: btn--info
 feature_row_rm_calculator:
-  - image_path: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "RM-beregner"
-    title: "RM-beregner"
-    excerpt: "RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse. Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter."
-    url: "/rm-beregner/"
-    btn_label: "Beregn din styrke"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526401485004-46910ecc8e51.jpg
+  credit: https://images.unsplash.com/photo-1526401485004-46910ecc8e51
+  alt: RM-beregner
+  title: RM-beregner
+  excerpt: RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse.
+    Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter.
+  url: /rm-beregner/
+  btn_label: Beregn din styrke
+  btn_class: btn--info
 feature_row_okklusion:
-  - image_path: /assets/images/occlude/occlusion-training-768.jpg
-    alt: "Okklusionstræning"
-    title: "Okklusionstræning"
-    excerpt: "Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning. Læs lidt mere om det her og spørg din fysioterapeut om gode råd."
-    url: "/introduktion-okklusionstraening/"
-    btn_label: "Læs mere om okklusionstræning"
-    btn_class: "btn--info"
+- image_path: /assets/images/occlude/occlusion-training-768.jpg
+  alt: Okklusionstræning
+  title: Okklusionstræning
+  excerpt: Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning.
+    Læs lidt mere om det her og spørg din fysioterapeut om gode råd.
+  url: /introduktion-okklusionstraening/
+  btn_label: Læs mere om okklusionstræning
+  btn_class: btn--info
 feature_row_helms:
-  - image_path: /assets/images/blog/helms-training-pyramid.jpg
-    alt: "Eric Helms Styrketræningspyramide"
-    title: "Eric Helms Styrketræningspyramide"
-    excerpt: "Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er skrevet af Eric Helms. Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning, og hvordan du bør prioritere din indsats."
-    url: "/traeningspyramiden-styrketraening/"
-    btn_label: "Læs introduktion til træningspyramiden"
-    btn_class: "btn--info"
+- image_path: /assets/images/blog/helms-training-pyramid.jpg
+  alt: Eric Helms Styrketræningspyramide
+  title: Eric Helms Styrketræningspyramide
+  excerpt: Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er
+    skrevet af Eric Helms. Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning, og hvordan
+    du bør prioritere din indsats.
+  url: /traeningspyramiden-styrketraening/
+  btn_label: Læs introduktion til træningspyramiden
+  btn_class: btn--info
 classes: wide
-last_modified_at: 2025-02-20T19:14:14Z
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_biomekanik:
-  - image_path: "/assets/images/blog/biomekanik-squat.jpg"
-    alt: "Biomekanik i squat - se dig selv som en tændstikmand"
-    title: "Squat model"
-    excerpt: "I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se, hvordan løftet alt andet lige vil se ud."
-    url: "/squat-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
-  - image_path: "/assets/images/blog/biomekanik-benchpress.jpg"
-    alt: "Biomekanik i bænkpres - forstå kraftoverførsel"
-    title: "Bænkpres model"
-    excerpt: "I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være. Gør det individuelt med din armlængde."
-    url: "/baenkpres-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
-  - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
-    alt: "Biomekanik i dødløft - den rette løftevinkel"
-    title: "Dødløft model"
-    excerpt: "I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
-    url: "/doedloeft-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
+- image_path: /assets/images/blog/biomekanik-squat.jpg
+  alt: Biomekanik i squat - se dig selv som en tændstikmand
+  title: Squat model
+  excerpt: 'I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se,
+    hvordan løftet alt andet lige vil se ud.'
+  url: /squat-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
+- image_path: /assets/images/blog/biomekanik-benchpress.jpg
+  alt: Biomekanik i bænkpres - forstå kraftoverførsel
+  title: Bænkpres model
+  excerpt: I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være.
+    Gør det individuelt med din armlængde.
+  url: /baenkpres-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
+- image_path: /assets/images/blog/biomekanik-doedloeft.jpg
+  alt: Biomekanik i dødløft - den rette løftevinkel
+  title: Dødløft model
+  excerpt: I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt
+    dødløft alt andet lige vil se ud.
+  url: /doedloeft-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
 ---
 
 Velkommen til Motionsplan.dk! Uanset om du er ny til træning eller vil optimere din tilgang, har vi samlet de bedste ressourcer til dig.

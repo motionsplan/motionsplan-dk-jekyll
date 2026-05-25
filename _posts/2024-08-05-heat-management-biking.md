@@ -1,19 +1,22 @@
 ---
-title: "️Varmehåndtering på cykel"
-seo_title: "️Varmehåndtering i cykling"
+title: ️Varmehåndtering på cykel
+seo_title: ️Varmehåndtering i cykling
 permalink: /varme-management-cykling/
-description: "Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde."
-excerpt: "Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde."
+description: Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende
+  arbejde.
+excerpt: Når du gerne vil cykle, når det er varmt, så er det det godt at vide, hvordan du skal håndtere varmen under længerevarende
+  arbejde.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1546310603-a12096dc0f79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1546310603-a12096dc0f79.jpg
+  credit: https://images.unsplash.com/photo-1546310603-a12096dc0f79
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - interaktiv artikel
-  - fysiologi
-  - varmetræning
-last_modified_at: 2024-08-04T10:14:14Z
+- interaktiv artikel
+- fysiologi
+- varmetræning
+last_modified_at: '2024-08-04T10:14:14Z'
 ---
 
 Hvis du gerne vil cykle, når det er varmt, så er det godt at vide, hvordan du skal håndtere varmen under længerevarende arbejde.

@@ -1,15 +1,17 @@
 ---
-title: &title "Blodlaktattest testprotokol – Tips og tricks 🏃"
-seo_title: "Blodlaktattest – Sådan finder du din AeT og AnT præcist"
+title: Blodlaktattest testprotokol – Tips og tricks 🏃
+seo_title: Blodlaktattest – Sådan finder du din AeT og AnT præcist
 permalink: /laktattest/
-excerpt: "Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin vejledning til at bruge en håndholdt laktatmåler og optimere din træning."
-description: "Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin vejledning til at bruge en håndholdt laktatmåler og optimere din træning."
+excerpt: Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin
+  vejledning til at bruge en håndholdt laktatmåler og optimere din træning.
+description: Lær, hvordan du tester din aerobe tærskel (AeT) og anaerobe tærskel (AnT) med en blodlaktattest. Få trin-for-trin
+  vejledning til at bruge en håndholdt laktatmåler og optimere din træning.
 language: da
 header:
   teaser: /assets/images/blog/lactate-testing.jpg
-  caption: *title
+  caption: Blodlaktattest testprotokol – Tips og tricks 🏃
 category:
-  - Kondition
+- Kondition
 meta:
   name: Laktattest
   measures: LT1, LT2
@@ -18,38 +20,51 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
-  - test
-  - konditionstest
-  - direkte test
-  - maksimal test
-  - submaksimal test
-  - løbetest
-  - laboratorietest
-  - testcenter
-last_modified_at: 2025-02-20T19:14:14Z
+- test
+- konditionstest
+- direkte test
+- maksimal test
+- submaksimal test
+- løbetest
+- laboratorietest
+- testcenter
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_tests_loeb:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Løbetests og kondition"
-    title: "Andre løbetests"
-    excerpt: "Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital."
-    url: "/tests/loeb/"
-    btn_label: "Se flere løbetests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Løbetests og kondition
+  title: Andre løbetests
+  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
+    du også kan estimere dit kondital.
+  url: /tests/loeb/
+  btn_label: Se flere løbetests
+  btn_class: btn--success
 faq:
-  - question: Hvorfor starter laktatmålingerne sommetider på 2 mmol/l eller højere?
-    answer: |
-      Der kan være et par forskellige grunde til dette usædvanlige forløb.
+- question: Hvorfor starter laktatmålingerne sommetider på 2 mmol/l eller højere?
+  answer: 'Der kan være et par forskellige grunde til dette usædvanlige forløb.
 
-      1. Atleten er træt på forhånd. Hvis det er en lille ophobning af mælkesyre, vil værdierne sommetider stablisere sig. Men uanset hvad så er det vigtigt at komme frisk ind i testen.
-      2. Atleten har spist sukkerholdig mad kort tid før testen. Typisk vil målingerne dog begynde at stabilisere sig på lavere niveauer gennem opvarmningen eller de første arbejdsintervaller.
-      3. Ineffektivt aerob system eller aerob mangel. Atleten kan have en uudviklet aerob kapacitet og kan ikke forbruge den producerede laktat.
-  - question: Hvad er aerob mangel?
-    answer: |
-      Sommetider ser man laktatniveauer, der starter over 2 mmol/l og fortsætter med at stige. Dette kan skyldes, at atleten har lavet meget højintensitetstræning mange gange om ugen. Det skærper det glykolytiske system
 
-      Hvis det ikke suppleres med træning i zone 1 og 2, som kan opbygge den aerobe base, så står atleten tilbage med et underudviklet aerobt system, som ikke effektivt kan forbrænde næringsstofferne og bruge laktat som energikilde.
+    1. Atleten er træt på forhånd. Hvis det er en lille ophobning af mælkesyre, vil værdierne sommetider stablisere sig. Men
+    uanset hvad så er det vigtigt at komme frisk ind i testen.
 
-      I nogle tilfælde er eneste mulighed ifølge [Uphillathlete](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/) at stoppe alt højintensitetstræning og skifte til træning med lav intensitet.
+    2. Atleten har spist sukkerholdig mad kort tid før testen. Typisk vil målingerne dog begynde at stabilisere sig på lavere
+    niveauer gennem opvarmningen eller de første arbejdsintervaller.
+
+    3. Ineffektivt aerob system eller aerob mangel. Atleten kan have en uudviklet aerob kapacitet og kan ikke forbruge den
+    producerede laktat.
+
+    '
+- question: Hvad er aerob mangel?
+  answer: 'Sommetider ser man laktatniveauer, der starter over 2 mmol/l og fortsætter med at stige. Dette kan skyldes, at
+    atleten har lavet meget højintensitetstræning mange gange om ugen. Det skærper det glykolytiske system
+
+
+    Hvis det ikke suppleres med træning i zone 1 og 2, som kan opbygge den aerobe base, så står atleten tilbage med et underudviklet
+    aerobt system, som ikke effektivt kan forbrænde næringsstofferne og bruge laktat som energikilde.
+
+
+    I nogle tilfælde er eneste mulighed ifølge [Uphillathlete](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/)
+    at stoppe alt højintensitetstræning og skifte til træning med lav intensitet.'
 ---
 
 En blodlaktattest giver en værdifuld indsigt i din træningstilstand, og hvordan kroppen arbejder med forskellige intensiteter.

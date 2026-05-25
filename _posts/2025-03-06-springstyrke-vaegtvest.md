@@ -1,64 +1,78 @@
 ---
 layout: single
 permalink: /springkraft-vaegtvest/
-title: &title "Øg springkraften med vægtvest – Effektiv plyometrisk træning"
-seo_title: "Sådan bruger du en vægtvest til at øge din springkraft"
-excerpt: "Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk træning, især for erfarne atleter."
-description: "Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk træning, især for erfarne atleter."
+title: Øg springkraften med vægtvest – Effektiv plyometrisk træning
+seo_title: Sådan bruger du en vægtvest til at øge din springkraft
+excerpt: Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk træning,
+  især for erfarne atleter.
+description: Øv din springkraft med ekstra belastning i din springtræning. En vægtvest kan øge effekten af din plyometrisk
+  træning, især for erfarne atleter.
 category:
-  - Springtræning
+- Springtræning
 tags:
-  - spring
-  - springtræning
+- spring
+- springtræning
 header:
   teaser: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCaSQ2S8utHULNgdfqeyX3vW-R2Y6GzG_uA&s
-  caption: *title
-author_profile: true
+  caption: Øg springkraften med vægtvest – Effektiv plyometrisk træning
+author_profile: 'true'
 author: lsolesen
 feature_row_about_tests:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Om kondition og tests"
-    title: "Om kondition og tests"
-    excerpt: "Hvordan ved jeg, om min kondition forbedres? Der findes flere metoder til at beregne dit kondital og din iltoptagelse ved hjælp af vores beregnere. Se tabellen for at vælge den test, der passer bedst til dig."
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  alt: Om kondition og tests
+  title: Om kondition og tests
+  excerpt: Hvordan ved jeg, om min kondition forbedres? Der findes flere metoder til at beregne dit kondital og din iltoptagelse
+    ved hjælp af vores beregnere. Se tabellen for at vælge den test, der passer bedst til dig.
 feature_row_kondital:
-  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=10
-    alt: "Hvad er en god kondition?"
-    title: "Hvad er en god kondition?"
-    excerpt: "Hvad der betragtes som et godt kondital, afhænger af, hvem du sammenligner dig med. Her finder du tabeller, der viser standarder for almindelige personer i Skandinavien."
-    url: "/kondital/"
-    btn_label: "Sammenlign dit kondital"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1616877217977-fe8d019afd76.jpg
+  credit: https://images.unsplash.com/photo-1616877217977-fe8d019afd76
+  alt: Hvad er en god kondition?
+  title: Hvad er en god kondition?
+  excerpt: Hvad der betragtes som et godt kondital, afhænger af, hvem du sammenligner dig med. Her finder du tabeller, der
+    viser standarder for almindelige personer i Skandinavien.
+  url: /kondital/
+  btn_label: Sammenlign dit kondital
+  btn_class: btn--info
 feature_row_train_fitness:
-  - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Hvordan forbedrer jeg min kondition?"
-    title: "Hvordan forbedrer jeg min kondition?"
-    excerpt: "Når du kender dit kondital, vil du sikkert gerne vide, hvordan du kan forbedre det. Heldigvis har vi samlet en masse viden om, hvordan du kan træne din kondition."
-    url: "/konditionstraening/"
-    btn_label: "Læs om konditionstræning"
-    btn_class: "btn--info"
-last_modified_at: 2025-02-18T22:21:26Z
-breadcrumbs: true
-toc: true
+- image_path: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
+  credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
+  alt: Hvordan forbedrer jeg min kondition?
+  title: Hvordan forbedrer jeg min kondition?
+  excerpt: Når du kender dit kondital, vil du sikkert gerne vide, hvordan du kan forbedre det. Heldigvis har vi samlet en
+    masse viden om, hvordan du kan træne din kondition.
+  url: /konditionstraening/
+  btn_label: Læs om konditionstræning
+  btn_class: btn--info
+last_modified_at: '2025-02-18T22:21:26Z'
+breadcrumbs: 'true'
+toc: 'true'
 faq:
-  - question: "Er det sikkert at bruge vægtveste i plyometrisk træning?"
-    answer: "Ja, det kan være sikkert at bruge vægtveste, men det er vigtigt at sikre, at vægten er passende for dit niveau. Begynd ikke med for stor belastning, og sørg for at øge vægten gradvist for at undgå skader."
-  - question: "Hvordan vælger jeg den rigtige vægtvest til springtræning?"
-    answer: "Når du vælger en vægtvest, skal du overveje din egen kropsvægt og træningserfaring. For erfarne atleter anbefales en vægt på 10-11% af deres kropsvægt, men begyndere bør starte med lavere vægt."
-  - question: "Hvordan kan vægtveste forbedre min springkraft?"
-    answer: "Ved at tilføje ekstra vægt til din træning tvinger vægtvestene dine muskler til at arbejde hårdere, hvilket kan føre til øget muskelstyrke og eksplosiv kraft. Dette er især effektivt for atleter, der allerede har erfaring med springtræning."
-  - question: "Kan jeg bruge vægtveste til andre typer træning?"
-    answer: "Ja, vægtveste kan også bruges til andre træningsformer som løb, styrketræning og funktionelle øvelser for at øge intensiteten og forbedre styrke og udholdenhed."
-  - question: "Er vægtveste egnet til begyndere?"
-    answer: "For begyndere er det bedst at starte uden vægtveste, så du kan lære de grundlæggende plyometriske øvelser korrekt. Når du bliver mere erfaren, kan du langsomt begynde at tilføje vægt for at øge intensiteten af din træning."
+- question: Er det sikkert at bruge vægtveste i plyometrisk træning?
+  answer: Ja, det kan være sikkert at bruge vægtveste, men det er vigtigt at sikre, at vægten er passende for dit niveau.
+    Begynd ikke med for stor belastning, og sørg for at øge vægten gradvist for at undgå skader.
+- question: Hvordan vælger jeg den rigtige vægtvest til springtræning?
+  answer: Når du vælger en vægtvest, skal du overveje din egen kropsvægt og træningserfaring. For erfarne atleter anbefales
+    en vægt på 10-11% af deres kropsvægt, men begyndere bør starte med lavere vægt.
+- question: Hvordan kan vægtveste forbedre min springkraft?
+  answer: Ved at tilføje ekstra vægt til din træning tvinger vægtvestene dine muskler til at arbejde hårdere, hvilket kan
+    føre til øget muskelstyrke og eksplosiv kraft. Dette er især effektivt for atleter, der allerede har erfaring med springtræning.
+- question: Kan jeg bruge vægtveste til andre typer træning?
+  answer: Ja, vægtveste kan også bruges til andre træningsformer som løb, styrketræning og funktionelle øvelser for at øge
+    intensiteten og forbedre styrke og udholdenhed.
+- question: Er vægtveste egnet til begyndere?
+  answer: For begyndere er det bedst at starte uden vægtveste, så du kan lære de grundlæggende plyometriske øvelser korrekt.
+    Når du bliver mere erfaren, kan du langsomt begynde at tilføje vægt for at øge intensiteten af din træning.
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
-    alt: "KINETIK Vægtvest VX1"
-    title: "KINETIK Vægtvest VX1"
-    excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
+  alt: KINETIK Vægtvest VX1
+  title: KINETIK Vægtvest VX1
+  excerpt: KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest
+    er specialdesignet til at aktivere din styrke, og effektivisere din træning.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
   
 Som atlet søger du konstant efter nye metoder til at forbedre din præstation. Springtræning, også kaldet plyometrisk træning, er en velkendt og effektiv metode til at øge din springkraft.

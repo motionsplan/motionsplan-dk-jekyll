@@ -1,20 +1,22 @@
 ---
-title: &title "Hvilke kosttilskud virker og hvilke er spild af penge?"
-excerpt: "Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning."
+title: Hvilke kosttilskud virker og hvilke er spild af penge?
+excerpt: Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud
+  det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning.
 permalink: /kosttilskud/
-last_modified_at: 2023-01-01T09:41:09Z
+last_modified_at: '2023-01-01T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
+  credit: https://images.unsplash.com/photo-1579722822280-a3d601518cc9
+  teaser: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
+  caption: Hvilke kosttilskud virker og hvilke er spild af penge?
 category:
-  - Kost & Ernæring
-  - Kosttilskud
+- Kost & Ernæring
+- Kosttilskud
 tags:
-  - kost & ernæring
-  - kosttilskud
-  - populær
+- kost & ernæring
+- kosttilskud
+- populær
 ---
 
 Er du også interesseret i at vide, hvilke kosttilskud der rent faktisk virker? Her hjælper vi dig til, hvilke tilskud det kan betale sig at bruge penge på, hvis du gerne vil have mere ud af din træning.

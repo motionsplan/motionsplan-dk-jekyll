@@ -1,59 +1,71 @@
 ---
 layout: single
 permalink: /kondition/tests/
-title: &title "Konditionstests - mål din kondition"
-seo_title: "Konditionstests: 10+ tests af din kondition og VO2max"
-excerpt: "Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre din form."
+title: Konditionstests - mål din kondition
+seo_title: 'Konditionstests: 10+ tests af din kondition og VO2max'
+excerpt: Find den rette konditionstest for dig i vores detaljerede oversigt. Mål kondition, VO2 max og kondital for at forbedre
+  din form.
 category:
-  - Kondition
+- Kondition
 redirect_from:
-  - /kondition-og-test/
-  - /test-kondition-konditest-kondital/
+- /kondition-og-test/
+- /test-kondition-konditest-kondital/
 header:
-  overlay_image: https://images.unsplash.com/photo-1709601414405-db08d323a87a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1709601414405-db08d323a87a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
+  credit: https://images.unsplash.com/photo-1709601414405-db08d323a87a
+  teaser: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
+  caption: Konditionstests - mål din kondition
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-download'></i> Gå til oversigten"
-      url: "/kondition/tests/#oversigt-over-konditionstests"
+  - label: <i class='fas fa-download'></i> Gå til oversigten
+    url: /kondition/tests/#oversigt-over-konditionstests
 classes: wide
 feature_row_about_tests:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Om kondition og tests"
-    title: "Om kondition og tests"
-    excerpt: "Kommer jeg i bedre form og kondition? Der findes mange måder at teste og udregne dit kondital og iltoptagelse med vores beregnere. Kig i tabellen for at finde nøjagtig den test, du helst vil lave."
-author_profile: true
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  alt: Om kondition og tests
+  title: Om kondition og tests
+  excerpt: Kommer jeg i bedre form og kondition? Der findes mange måder at teste og udregne dit kondital og iltoptagelse med
+    vores beregnere. Kig i tabellen for at finde nøjagtig den test, du helst vil lave.
+author_profile: 'true'
 feature_row_kondital:
-  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=10
-    alt: "Hvad er en god kondition?"
-    title: "Hvad er en god kondition?"
-    excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."
-    url: "/kondital/"
-    btn_label: "Sammenlign dit kondital"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1616877217977-fe8d019afd76.jpg
+  credit: https://images.unsplash.com/photo-1616877217977-fe8d019afd76
+  alt: Hvad er en god kondition?
+  title: Hvad er en god kondition?
+  excerpt: Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende
+    for almindelige mennesker i Skandinavien.
+  url: /kondital/
+  btn_label: Sammenlign dit kondital
+  btn_class: btn--info
 feature_row_train_fitness:
-  - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Hvordan forbedrer jeg min kondition?"
-    title: "Hvordan forbedrer jeg min kondition?"
-    excerpt: "Når du har fået svar på, hvad dit kondital er, så er du nok interesseret i at vide, hvordan du kan forbedre din kondition. Det har vi heldigvis skrevet meget mere om."
-    url: "/konditionstraening/"
-    btn_label: "Læs om konditionstræning"
-    btn_class: "btn--info"
-last_modified_at: 2025-02-18T22:21:26Z
-breadcrumbs: true
-toc: true
+- image_path: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
+  credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
+  alt: Hvordan forbedrer jeg min kondition?
+  title: Hvordan forbedrer jeg min kondition?
+  excerpt: Når du har fået svar på, hvad dit kondital er, så er du nok interesseret i at vide, hvordan du kan forbedre din
+    kondition. Det har vi heldigvis skrevet meget mere om.
+  url: /konditionstraening/
+  btn_label: Læs om konditionstræning
+  btn_class: btn--info
+last_modified_at: '2025-02-18T22:21:26Z'
+breadcrumbs: 'true'
+toc: 'true'
 faq:
-  - question: "Hvad er en konditionstest?"
-    answer: "En konditionstest er en test, der vurderer din aerobe kapacitet, altså hvor effektivt din krop kan optage og bruge ilt under fysisk aktivitet."
-  - question: "Hvilke typer konditionstests findes der?"
-    answer: "Der findes mange typer konditionstests, herunder løbetests (fx Cooper-testen og 2400-meter testen), cykeltests og laboratoriebaserede VO2max-målinger."
-  - question: "Hvordan vælger jeg den rette konditionstest?"
-    answer: "Valget af konditionstest afhænger af dit træningsniveau, formål og tilgængeligt udstyr. Løbetests er gode til løbere, mens cykeltests passer bedre til cyklister."
-  - question: "Kan jeg teste min kondition derhjemme?"
-    answer: "Ja, du kan udføre simple konditionstests som step-testen eller en submaksimal løbetest uden avanceret udstyr."
-  - question: "Hvorfor er det vigtigt at teste sin kondition?"
-    answer: "At teste din kondition hjælper dig med at spore din træningsfremgang, sætte realistiske mål og identificere områder, der kan forbedres."
+- question: Hvad er en konditionstest?
+  answer: En konditionstest er en test, der vurderer din aerobe kapacitet, altså hvor effektivt din krop kan optage og bruge
+    ilt under fysisk aktivitet.
+- question: Hvilke typer konditionstests findes der?
+  answer: Der findes mange typer konditionstests, herunder løbetests (fx Cooper-testen og 2400-meter testen), cykeltests og
+    laboratoriebaserede VO2max-målinger.
+- question: Hvordan vælger jeg den rette konditionstest?
+  answer: Valget af konditionstest afhænger af dit træningsniveau, formål og tilgængeligt udstyr. Løbetests er gode til løbere,
+    mens cykeltests passer bedre til cyklister.
+- question: Kan jeg teste min kondition derhjemme?
+  answer: Ja, du kan udføre simple konditionstests som step-testen eller en submaksimal løbetest uden avanceret udstyr.
+- question: Hvorfor er det vigtigt at teste sin kondition?
+  answer: At teste din kondition hjælper dig med at spore din træningsfremgang, sætte realistiske mål og identificere områder,
+    der kan forbedres.
 ---
 
 Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i din VO2 max, udholdenhed og kondital. Uanset om du er nybegynder eller erfaren, findes der en test, der passer til dit niveau.

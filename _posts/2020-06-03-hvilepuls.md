@@ -1,20 +1,22 @@
 ---
-title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
-seo_title: "Hvilepuls - Hvad er normalt for mænd og kvinder (Tabel)"
-description: "Vil du vide mere om hvilepuls? Hvordan måler du pulsen i hvile? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over normal hvilepuls."
+title: 'Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓'
+seo_title: Hvilepuls - Hvad er normalt for mænd og kvinder (Tabel)
+description: Vil du vide mere om hvilepuls? Hvordan måler du pulsen i hvile? Er den for høj? Få en komplet guide med tabel
+  for mænd og kvinder over normal hvilepuls.
 permalink: /hvilepuls/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1579123480439-dcc379da4707.jpg
+  credit: https://images.unsplash.com/photo-1579123480439-dcc379da4707
+  caption: 'Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓'
   alt: Photo by Jude Beck on Unsplash
-  overlay_filter: 0.2
+  overlay_filter: '0.2'
 category:
-  - Kondition
+- Kondition
 tags:
-  - test
-  - puls
-  - tracking
+- test
+- puls
+- tracking
 meta:
   name: Hvilepuls test
   measures: hvilepuls
@@ -22,19 +24,25 @@ meta:
   equipment: pulsmåler
   max: submaksimal
   direct: direkte test
-last_modified_at: 2025-02-24T08:14:14Z
-toc: true
+last_modified_at: '2025-02-24T08:14:14Z'
+toc: 'true'
 faq:
-  - question: "Hvad er normal hvilepuls for kvinder?"
-    answer: "En gennemsnitlig hvilepuls for kvinder ligger på mellem 74-78 slag pr. minut. Sportsudøvere og folk i god form vil typisk have en hvilepuls på 54-68 slag/min."
-  - question: "Hvad er en normal hvilepuls for mænd?"
-    answer: "En normal hvilepuls for mænd ligger på mellem 71-75 slag pr. minut. Sportsudøvere og folk i god form vil typisk have en hvilepuls på 49-66 slag/min."
-  - question: "Hvor lav må pulsen være?"
-    answer: "Der er naturligvis grænser for, hvor lav din hvilepuls må være, før det indikerer, at der er noget galt med kroppens funktion. Du kan tjekke vores skema med normal hvilepuls og se, om du skulle være i farezonen."
-  - question: "Hvordan beregner man hvilepulsen?"
-    answer: "Du kan ikke beregne din hvilepuls. Du kan til gengæld beregne din maxpuls, fordi den typisk er aldersbestemt. Tjek vores [maxpuls-beregner](/max-puls-beregner/)."
-  - question: "Er en lav hvilepuls altid godt?"
-    answer: "Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et [højt blodtryk](/blodtryk/), lavt stofskifte og medicin kan også være med til at sænke pulsen."
+- question: Hvad er normal hvilepuls for kvinder?
+  answer: En gennemsnitlig hvilepuls for kvinder ligger på mellem 74-78 slag pr. minut. Sportsudøvere og folk i god form vil
+    typisk have en hvilepuls på 54-68 slag/min.
+- question: Hvad er en normal hvilepuls for mænd?
+  answer: En normal hvilepuls for mænd ligger på mellem 71-75 slag pr. minut. Sportsudøvere og folk i god form vil typisk
+    have en hvilepuls på 49-66 slag/min.
+- question: Hvor lav må pulsen være?
+  answer: Der er naturligvis grænser for, hvor lav din hvilepuls må være, før det indikerer, at der er noget galt med kroppens
+    funktion. Du kan tjekke vores skema med normal hvilepuls og se, om du skulle være i farezonen.
+- question: Hvordan beregner man hvilepulsen?
+  answer: Du kan ikke beregne din hvilepuls. Du kan til gengæld beregne din maxpuls, fordi den typisk er aldersbestemt. Tjek
+    vores [maxpuls-beregner](/max-puls-beregner/).
+- question: Er en lav hvilepuls altid godt?
+  answer: Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring
+    hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et [højt blodtryk](/blodtryk/), lavt stofskifte
+    og medicin kan også være med til at sænke pulsen.
 ---
 
 Din hvilepuls er en af de simpleste og mest informative målinger, du kan foretage på din krop. Jeg bruger den selv til at følge effekten af min træning – og til at opdage, når kroppen har brug for mere restitution.

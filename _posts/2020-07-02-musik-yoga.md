@@ -1,23 +1,25 @@
 ---
-title: "Den bedste musik til yoga, mindfulness og meditation"
-seo_title: "Yogamusik • Det bedste musik til yoga og mindfulness (2025)"
-description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
+title: Den bedste musik til yoga, mindfulness og meditation
+seo_title: Yogamusik • Det bedste musik til yoga og mindfulness (2025)
+description: Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan
+  lave din egen playliste med yogamusik.
 permalink: /yoga-musik/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1549576490-b0b4831ef60a.jpg
+  credit: https://images.unsplash.com/photo-1549576490-b0b4831ef60a
+  teaser: /assets/images/unsplash/photo-1549576490-b0b4831ef60a.jpg
   caption: Yogamusik - God musik til yoga, meditation og mindfulness
   alt: Photo by Anupam Mahapatra on Unsplash
-  overlay_filter: 0.2
+  overlay_filter: '0.2'
 category:
-  - Yoga
+- Yoga
 tags:
-  - yoga
-  - musik
-  - meditation
-last_modified_at: 2023-01-01T08:12:14Z
-toc: true
+- yoga
+- musik
+- meditation
+last_modified_at: '2023-01-01T08:12:14Z'
+toc: 'true'
 ---
 
 Er du på udkig efter noget god musik til yoga, meditation og mindfulness? Her får du forslag til, hvordan du bedst vælger noget musik.

@@ -1,35 +1,41 @@
 ---
-title: &title "Hvor meget vand skal man drikke om dagen? (Beregner)"
-seo_title: "Hvor meget væske skal man drikke om dagen? (Beregner)"
-description: "Drikker du for lidt vand? Eller måske for meget? Prøv vores beregner til at udregne dit daglige væskebehov og hvor meget væske man skal drikke om dagen?"
-excerpt: Er du også i tvivl om, hvor meget vand du bør drikke dagligt? Jeg har researchet og samlet svaret på spørgsmålet. Du kan også prøve vores beregner til at udregne det daglige væskebehov.
+title: Hvor meget vand skal man drikke om dagen? (Beregner)
+seo_title: Hvor meget væske skal man drikke om dagen? (Beregner)
+description: Drikker du for lidt vand? Eller måske for meget? Prøv vores beregner til at udregne dit daglige væskebehov og
+  hvor meget væske man skal drikke om dagen?
+excerpt: Er du også i tvivl om, hvor meget vand du bør drikke dagligt? Jeg har researchet og samlet svaret på spørgsmålet.
+  Du kan også prøve vores beregner til at udregne det daglige væskebehov.
 permalink: /hvor-meget-vand-skal-man-drikke-om-dagen/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1523621509625-54893aa665ff.jpg
+  credit: https://images.unsplash.com/photo-1523621509625-54893aa665ff
+  teaser: /assets/images/unsplash/photo-1523621509625-54893aa665ff.jpg
+  caption: Hvor meget vand skal man drikke om dagen? (Beregner)
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - beregner
-  - væske
-  - kost & ernæring
-  - featured
-popular: true
-last_modified_at: 2022-12-02T10:14:14Z
-toc: true
+- beregner
+- væske
+- kost & ernæring
+- featured
+popular: 'true'
+last_modified_at: '2022-12-02T10:14:14Z'
+toc: 'true'
 meta:
   name: Beregn vandindtag på en dag
   equipment: vægt
   measures: dagligt vandindtag
   type: kost & ernæring
 faq:
-  - question: "Hvor meget vand skal man drikke om dagen?"
-    answer: "Der er uenighed i litteraturen om, hvor meget vand man skal drikke om dagen. For langt de fleste mennesker vil tørsten sørge for, at vi får vand nok. En tommelfingerregel er at du mindst skal have 1-1,5 liter vand om dagen, men mange aktive vil formentlig drikke mere. Hvis du sveder skal du naturligvis også supplere op med vand!"
-  - question: "Kan man drikke for meget vand?"
-    answer: "Ja. Du kan godt drikke for meget vand. Hvis du drikker rigtig meget vand, så skal du være meget opmærksom på indholdet af salte og mineraler i det væske du indtager. Læs meget mere i denne artikel..."
+- question: Hvor meget vand skal man drikke om dagen?
+  answer: Der er uenighed i litteraturen om, hvor meget vand man skal drikke om dagen. For langt de fleste mennesker vil tørsten
+    sørge for, at vi får vand nok. En tommelfingerregel er at du mindst skal have 1-1,5 liter vand om dagen, men mange aktive
+    vil formentlig drikke mere. Hvis du sveder skal du naturligvis også supplere op med vand!
+- question: Kan man drikke for meget vand?
+  answer: Ja. Du kan godt drikke for meget vand. Hvis du drikker rigtig meget vand, så skal du være meget opmærksom på indholdet
+    af salte og mineraler i det væske du indtager. Læs meget mere i denne artikel...
 ---
 
 Er du også i tvivl om, hvor meget vand du bør drikke dagligt? Jeg har researchet og samlet svaret på spørgsmålet i det følgende her.

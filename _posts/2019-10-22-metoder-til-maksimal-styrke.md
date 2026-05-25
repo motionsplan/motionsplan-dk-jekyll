@@ -1,19 +1,21 @@
 ---
-title: &title "Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️"
+title: 'Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️'
 permalink: /maksimal-styrke/
-excerpt: "Maksimal muskelstyrke kan trænes på flere måder. Wave loading og rest pause kan være effektive metoder til at træne maksimal styrke."
+excerpt: Maksimal muskelstyrke kan trænes på flere måder. Wave loading og rest pause kan være effektive metoder til at træne
+  maksimal styrke.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1534438097545-a2c22c57f2ad.jpg
+  credit: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad
+  teaser: /assets/images/unsplash/photo-1534438097545-a2c22c57f2ad.jpg
+  caption: 'Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - beregner
-  - maksimal styrke
-  - træningsmetode
-last_modified_at: 2020-06-14T23:14:14Z
+- beregner
+- maksimal styrke
+- træningsmetode
+last_modified_at: '2020-06-14T23:14:14Z'
 meta:
   name: Vægt i styrke waves
   equipment: ingen

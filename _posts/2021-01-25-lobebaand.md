@@ -1,65 +1,76 @@
 ---
-title: &title "Guide til løbebånd: Kurvet eller motoriseret 🏃🏃‍♀🐹️"
-seo_title: "Guide til løbebånd: Kurvet eller motoriseret"
+title: 'Guide til løbebånd: Kurvet eller motoriseret 🏃🏃‍♀🐹️'
+seo_title: 'Guide til løbebånd: Kurvet eller motoriseret'
 permalink: /guide-loebebaand/
-last_modified_at: 2021-12-18T09:41:09Z
+last_modified_at: '2021-12-18T09:41:09Z'
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1593079831268-3381b0db4a77.jpg
+  credit: https://images.unsplash.com/photo-1593079831268-3381b0db4a77
+  teaser: /assets/images/unsplash/photo-1593079831268-3381b0db4a77.jpg
+  caption: 'Guide til løbebånd: Kurvet eller motoriseret 🏃🏃‍♀🐹️'
 category:
-  - Løb
-  - Løbeudstyr
+- Løb
+- Løbeudstyr
 tags:
-  - løb
-  - løbebånd
-  - kredsløbsmaskiner
-  - udstyr
+- løb
+- løbebånd
+- kredsløbsmaskiner
+- udstyr
 feature_row_draxfit:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2018_05_Ne__Speedfit_Drax_fit(1).w774.h774.fill.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/98-pro-loebebaand/402-speedfit-curve-running/
-    title: Draxfit Curve Running
-    excerpt: "Draxfit er et nyt og anderledes form for løbebånd. På et Draxfit løbebånd bestemmer du selv hastigheden ved hjælp af din position på den kurvede løbeflade. Når du bevæger dig tættere på den forreste del af båndet, øger du hastigheden."
-    price: 43895
-    btn_class: btn--info
-    vendor: Fitnessgruppen
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2018_05_Ne__Speedfit_Drax_fit(1).w774.h774.fill.png
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/98-pro-loebebaand/402-speedfit-curve-running/
+  title: Draxfit Curve Running
+  excerpt: Draxfit er et nyt og anderledes form for løbebånd. På et Draxfit løbebånd bestemmer du selv hastigheden ved hjælp
+    af din position på den kurvede løbeflade. Når du bevæger dig tættere på den forreste del af båndet, øger du hastigheden.
+  price: '43895'
+  btn_class: btn--info
+  vendor: Fitnessgruppen
+  rel: sponsored nofollow noopener
 feature_row_apuls:
-  - image_path: https://m2.apuls.dk/media/catalog/product/L/H/LHR510_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/gymleco-lhr510-curve-lobebaand
-    title: Gymleco Curve Løbebånd
-    excerpt: "Løbefladen på løbebåndet måler 150 x 43 cm og det kan klare en personvægt på op til 230 kg. Et curve løbebånd som dette Gymleco LHR510 er yderst skånsomt for brugeren. Løbebåndet har en meget længere levetid end traditionelle løbebånd."
-    price: 44999
-    btn_class: btn--success
-    vendor: Læs mere
-    rel: sponsored nofollow noopener
+- image_path: https://m2.apuls.dk/media/catalog/product/L/H/LHR510_1.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/gymleco-lhr510-curve-lobebaand
+  title: Gymleco Curve Løbebånd
+  excerpt: Løbefladen på løbebåndet måler 150 x 43 cm og det kan klare en personvægt på op til 230 kg. Et curve løbebånd som
+    dette Gymleco LHR510 er yderst skånsomt for brugeren. Løbebåndet har en meget længere levetid end traditionelle løbebånd.
+  price: '44999'
+  btn_class: btn--success
+  vendor: Læs mere
+  rel: sponsored nofollow noopener
 feature_row_toorx:
-  - image_path: https://fitnessshoppen.dk/images/TRX%2045-p.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937&htmlurl=https://fitnessshoppen.dk/shop/toorx-trx-45-61587p.html
-    title: Toorx TRX 45 S Løbebånd
-    excerpt: "Toorx TRX 45 er et superfint løbebånd til dig som vil igang med at træne, eller skal igang med noget genoptræning. Du får et løbebånd med en 2/3 hestes motor som giver en god ydelse, samt en overskuelig computer der giver dig et godt overblik over dine data."
-    price: 4999
-    old_price: 7999
-    btn_class: btn--danger
-    vendor: Læs mere
-    rel: sponsored nofollow noopener
+- image_path: https://fitnessshoppen.dk/images/TRX%2045-p.png
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937&htmlurl=https://fitnessshoppen.dk/shop/toorx-trx-45-61587p.html
+  title: Toorx TRX 45 S Løbebånd
+  excerpt: Toorx TRX 45 er et superfint løbebånd til dig som vil igang med at træne, eller skal igang med noget genoptræning.
+    Du får et løbebånd med en 2/3 hestes motor som giver en god ydelse, samt en overskuelig computer der giver dig et godt
+    overblik over dine data.
+  price: '4999'
+  old_price: '7999'
+  btn_class: btn--danger
+  vendor: Læs mere
+  rel: sponsored nofollow noopener
 feature_row_odin:
-  - image_path: https://apuls.dk/img/900/900/resize/Y/K/YKET1601A_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/t8-lobebaand
-    title: ODIN T800 Løbebånd
-    excerpt: "Odin T 800 anses for at være markedets bedste løbebånd til prisen. Løbebåndet er designet til dig, der gerne vil have et solidt løbebånd, med mange funktioner - ikke mindst, tilslutning af en tablet eller telefon (iPad & Android). Peakstyrke på 5HK og hastighed på 20 km/t."
-    price: 14000
-    btn_class: btn--success
-    vendor: Læs mere
-    rel: sponsored nofollow noopener
-breadcrumbs: true
+- image_path: https://apuls.dk/img/900/900/resize/Y/K/YKET1601A_1.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/t8-lobebaand
+  title: ODIN T800 Løbebånd
+  excerpt: Odin T 800 anses for at være markedets bedste løbebånd til prisen. Løbebåndet er designet til dig, der gerne vil
+    have et solidt løbebånd, med mange funktioner - ikke mindst, tilslutning af en tablet eller telefon (iPad & Android).
+    Peakstyrke på 5HK og hastighed på 20 km/t.
+  price: '14000'
+  btn_class: btn--success
+  vendor: Læs mere
+  rel: sponsored nofollow noopener
+breadcrumbs: 'true'
 faq:
-  - question: Hvad vejer et løbebånd?
-    answer: Gennemsnitligt vejer de mindre og billigere løbebånd mellem 80 og 115 kg, mens de dyrere og større modeller kan veje helt op til 230 kg. Det er godt at vide, hvor tung et løbebånd er, inden du bestiller et løbebånd. Jeg har prøvet at skulle slæbe flere løbebånd op og ned af første sal, og det gør man altså ikke lige sådan alene.
-  - question: Kan et løbebånd stå udenfor?
-    answer: Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til.
+- question: Hvad vejer et løbebånd?
+  answer: Gennemsnitligt vejer de mindre og billigere løbebånd mellem 80 og 115 kg, mens de dyrere og større modeller kan
+    veje helt op til 230 kg. Det er godt at vide, hvor tung et løbebånd er, inden du bestiller et løbebånd. Jeg har prøvet
+    at skulle slæbe flere løbebånd op og ned af første sal, og det gør man altså ikke lige sådan alene.
+- question: Kan et løbebånd stå udenfor?
+  answer: Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det
+    danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det
+    samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til.
 ---
 
 Jeg skal købe et nyt løbebånd, og jeg er i gang med at researche, hvilken type løbebånd, jeg skal købe. Jeg har samlet min research til en guide til at købe et løbebånd. Skal løbebåndet have motor, skal det være kurvet og hvad kan man tænke på, inden man investerer i et løbebånd?

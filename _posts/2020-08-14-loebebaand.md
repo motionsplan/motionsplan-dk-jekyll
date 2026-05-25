@@ -1,22 +1,23 @@
 ---
-title: &title "Løbebånd: 4 tips til løbebåndet i forhold til udendørs løb?"
+title: 'Løbebånd: 4 tips til løbebåndet i forhold til udendørs løb?'
 permalink: /loebebaand-udendoers-loeb/
-last_modified_at: 2020-08-14T09:41:09Z
+last_modified_at: '2020-08-14T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1578763363228-6e8428de69b2.jpg
+  credit: https://images.unsplash.com/photo-1578763363228-6e8428de69b2
+  teaser: /assets/images/unsplash/photo-1578763363228-6e8428de69b2.jpg
+  caption: 'Løbebånd: 4 tips til løbebåndet i forhold til udendørs løb?'
 category:
-  - Løb
-  - Kondition
+- Løb
+- Kondition
 tags:
-  - bevægelsesanalyse
-  - løb
-  - løbetræning
-  - udstyr
-  - løbebånd
-breadcrumbs: true
+- bevægelsesanalyse
+- løb
+- løbetræning
+- udstyr
+- løbebånd
+breadcrumbs: 'true'
 ---
 
 Løb på løbebånd er en af de træningsformer, der kan skabe mange diskussioner. Nogle kan godt lide at træne på løbebånd, mens andre meget hellere vil udendørs. Et løbebånd er i hvert fald et godt redskab til tests og analyse, fordi det er lettere at benytte end at løbe udenfor.

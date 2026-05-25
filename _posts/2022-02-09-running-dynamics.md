@@ -1,23 +1,24 @@
 ---
-title: &title "Begynderguide til løbedynamik og løbemålinger"
+title: Begynderguide til løbedynamik og løbemålinger
 permalink: /loebedynamik-loebemaalinger/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1619037961380-5ab533fc7129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1619037961380-5ab533fc7129.jpg
+  credit: https://images.unsplash.com/photo-1619037961380-5ab533fc7129
+  caption: Begynderguide til løbedynamik og løbemålinger
 category:
-  - Løb
+- Løb
 tags:
-  - løbeteknik & løbestil
-last_modified_at: 2022-01-27T22:21:26Z
+- løbeteknik & løbestil
+last_modified_at: '2022-01-27T22:21:26Z'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-    title: The Secret of Running
-    excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-    btn_label: Læs mere
-    btn_class: btn--success
-    rel: sponsored nofollow nooopener
+- image_path: https://imgcdn.saxo.com/_9781782551096/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
+  title: The Secret of Running
+  excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
+  btn_label: Læs mere
+  btn_class: btn--success
+  rel: sponsored nofollow nooopener
 ---
 
 Hvis du har et pulsur eller en _foot pod_ til løb, så er du sikkert blevet overvældet over en masse løbemålinger af din løbedynamik. Det her er en begynderguide til at forstå, hvad alle tallene betyder.

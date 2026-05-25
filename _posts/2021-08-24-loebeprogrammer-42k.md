@@ -1,24 +1,26 @@
 ---
-title: &title "Løbeprogram til maraton - 42 km"
+title: Løbeprogram til maraton - 42 km
 permalink: /loebeprogram-maraton-42km/
 redirect_from:
-  - /loebeprogram-maraton/
-excerpt: "Løbeprogram til dig der gerne vil løbe et maraton. Løbeprogrammer til maraton tager typisk 16-20 uger, men det kan sagtens betale sig at træne endnu længere, hvis du skal gøre klar til at løbe 42 km."
+- /loebeprogram-maraton/
+excerpt: Løbeprogram til dig der gerne vil løbe et maraton. Løbeprogrammer til maraton tager typisk 16-20 uger, men det kan
+  sagtens betale sig at træne endnu længere, hvis du skal gøre klar til at løbe 42 km.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502224562085-639556652f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1502224562085-639556652f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1502224562085-639556652f33.jpg
+  credit: https://images.unsplash.com/photo-1502224562085-639556652f33
+  teaser: /assets/images/unsplash/photo-1502224562085-639556652f33.jpg
+  caption: Løbeprogram til maraton - 42 km
 category:
-  - Løb
-  - Løbeprogrammer
+- Løb
+- Løbeprogrammer
 tags:
-  - løbeprogram
-  - træningsprogram
-  - maraton
-  - løb
-last_modified_at: 2021-08-22T23:14:14Z
-toc: true
+- løbeprogram
+- træningsprogram
+- maraton
+- løb
+last_modified_at: '2021-08-22T23:14:14Z'
+toc: 'true'
 ---
 
 {{ page.excerpt }}

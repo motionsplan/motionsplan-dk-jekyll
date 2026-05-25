@@ -1,40 +1,54 @@
 ---
-title: &title "Sådan arbejder du med progression i løbetræningen"
-seo_title: "Sådan arbejder du med progression i løbetræningen"
-description: "Lær hvordan du opbygger løbetræningen gradvist med progression. Undgå skader og stilstand ved at planlægge distance, intensitet og restitutionsuger korrekt."
-excerpt: "Lær hvordan du opbygger løbetræningen gradvist med progression. Undgå skader og stilstand ved at planlægge distance, intensitet og restitutionsuger korrekt."
+title: Sådan arbejder du med progression i løbetræningen
+seo_title: Sådan arbejder du med progression i løbetræningen
+description: Lær hvordan du opbygger løbetræningen gradvist med progression. Undgå skader og stilstand ved at planlægge distance,
+  intensitet og restitutionsuger korrekt.
+excerpt: Lær hvordan du opbygger løbetræningen gradvist med progression. Undgå skader og stilstand ved at planlægge distance,
+  intensitet og restitutionsuger korrekt.
 permalink: /progression-loeb/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1743451201783-ab1165df95f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1743451201783-ab1165df95f5.jpg
+  credit: https://images.unsplash.com/photo-1743451201783-ab1165df95f5
+  caption: Sådan arbejder du med progression i løbetræningen
 category:
-  - Løb
+- Løb
 tags:
-  - træning
-  - løb
-  - træningsprincip
-  - træningslære
-last_modified_at: 2025-01-27T22:21:26Z
+- træning
+- løb
+- træningsprincip
+- træningslære
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Hvordan ved jeg, om jeg er i gang med at overtræne?
-    answer: >
-      Tegn på overtræning kan inkludere vedvarende træthed, nedsat præstation, ømhed der ikke forsvinder, og manglende motivation. Hvis du oplever disse symptomer, bør du tage en rolig uge med mindre belastning og give kroppen tid til at restituere.
-  - question: Hvor hurtigt bør jeg øge min løbedistance?
-    answer: >
-      En god tommelfingerregel er at øge din samlede træningsdistance med højst **5% per uge**. Dette giver kroppen tid til at tilpasse sig uden at risikere skader.
-  - question: Kan jeg kombinere løb med styrketræning under progression?
-    answer: >
-      Ja, styrketræning kan hjælpe med at forbedre din løbepræstation ved at styrke musklerne og forebygge skader. Sørg dog for at justere din styrketræning, så den ikke overbelaster dine muskler før lange løbeture.
-  - question: Hvad gør jeg, hvis jeg rammer et plateau i min træning?
-    answer: >
-      Hvis du når et plateau, kan det hjælpe at ændre din træningsrutine ved at justere tempoet, distancen eller intensiteten. Du kan også overveje at inkludere en restitutionsuge eller ændre træningsformen (fx skifte til intervaller eller bakke-løb).
-  - question: Hvor ofte skal jeg tage en restitutionsuge?
-    answer: >
-      En restitutionsuge bør planlægges hver 4.-6. uge, hvor du reducerer træningens volumen og intensitet for at give kroppen tid til at komme sig og forberede sig på næste fase af progressionen.
+- question: Hvordan ved jeg, om jeg er i gang med at overtræne?
+  answer: 'Tegn på overtræning kan inkludere vedvarende træthed, nedsat præstation, ømhed der ikke forsvinder, og manglende
+    motivation. Hvis du oplever disse symptomer, bør du tage en rolig uge med mindre belastning og give kroppen tid til at
+    restituere.
+
+    '
+- question: Hvor hurtigt bør jeg øge min løbedistance?
+  answer: 'En god tommelfingerregel er at øge din samlede træningsdistance med højst **5% per uge**. Dette giver kroppen tid
+    til at tilpasse sig uden at risikere skader.
+
+    '
+- question: Kan jeg kombinere løb med styrketræning under progression?
+  answer: 'Ja, styrketræning kan hjælpe med at forbedre din løbepræstation ved at styrke musklerne og forebygge skader. Sørg
+    dog for at justere din styrketræning, så den ikke overbelaster dine muskler før lange løbeture.
+
+    '
+- question: Hvad gør jeg, hvis jeg rammer et plateau i min træning?
+  answer: 'Hvis du når et plateau, kan det hjælpe at ændre din træningsrutine ved at justere tempoet, distancen eller intensiteten.
+    Du kan også overveje at inkludere en restitutionsuge eller ændre træningsformen (fx skifte til intervaller eller bakke-løb).
+
+    '
+- question: Hvor ofte skal jeg tage en restitutionsuge?
+  answer: 'En restitutionsuge bør planlægges hver 4.-6. uge, hvor du reducerer træningens volumen og intensitet for at give
+    kroppen tid til at komme sig og forberede sig på næste fase af progressionen.
+
+    '
 meta:
   name: Canova
   author: Mehdi Hadim

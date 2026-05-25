@@ -1,61 +1,71 @@
 ---
-title: &title "13 citater om yoga, meditation og mindfulness"
+title: 13 citater om yoga, meditation og mindfulness
 permalink: /citater-yoga-meditation-mindfulness/
-excerpt: "Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet en række citater, der kan inspirere dig på din spirituelle vej."
-last_modified_at: 2020-12-29T09:41:09Z
+excerpt: Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet en række citater, der kan
+  inspirere dig på din spirituelle vej.
+last_modified_at: '2020-12-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.8
+  overlay_image: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
+  credit: https://images.unsplash.com/photo-1487088678257-3a541e6e3922
+  teaser: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
+  caption: 13 citater om yoga, meditation og mindfulness
+  overlay_filter: '0.8'
 category:
-  - Yoga
+- Yoga
 tags:
-  - citater
-  - motivation
-  - fitness
-  - yoga
+- citater
+- motivation
+- fitness
+- yoga
 feature_quotes:
-  - quote: "Jeg kender ikke til et mere opmuntrende faktum end den utvivlsomme evne mennesket har til at løfte sit liv ved bevidst bestræbelse."
-    cite: Henry David Thoreau
-  - quote: "Hvis du er lykkelig, er det sandsynligvis din egen skyld, for der er masser af ting i verden at være ulykkelig over."
-    cite: Storm P
-  - quote: "Der er en revne i alting. Det er sådan, lyset kommer ind."
-    cite: Leonard Cohen
-  - quote: "Yoga is not a work-out, it is a work-in. And this is the point of spiritual practice. To make us teachable. To open up our hearts and focus our awareness so that we can know what we already know and be who we already are."
-    cite: Rolf Gates
-  - quote: "You cannot do yoga. Yoga is your natural state. What you can do are yoga poses, which may reveal to you where you are resisting your natural state."
-    cite: Sharon Gannon
-  - quote: "Crying is one of the highest devotional songs. One who knows crying, knows spiritual practice. If you can cry with a pure heart, nothing else compares to such a prayer. Crying includes all the principles of Yoga."
-    cite: Kripalvanandji
-  - quote: "Sleep is the best meditation."
-    cite: Dalai Lama
-  - quote: "There will always be people who can do it better than you, but that’s a good thing! Start to see competition as inspiration — without envy."
-    cite: Kathryn Budig
-  - quote: "I offer you peace. I offer you love. I offer you friendship. I see your beauty. I hear your need. I feel your feelings. My wisdom flows from the Highest Source. I salute that Source in you. Let us work together for unity and love."
-    cite: Gandhi
-  - quote: "May all beings everywhere be happy and free, and may the thoughts, words, and actions of my own life contribute in some way to that happiness and to that freedom for all."
-    cite: Lokah Samastah Sukhino Bhavantu
-  - quote: "The attitude of gratitude is the highest yoga. Make an attitude to be in gratitude, you will find the whole Universe will come to you."
-    cite: Yogi Bhajan
-  - quote: "The rhythm of the body, the melody of the mind and the harmony of the soul create the symphony of life."
-    cite: B.K.S. Iyengar
-  - quote: "Yoga is the practice of quieting the mind."
-    cite: Patanjali
-  - quote: "Yoga keeps punching me in the face with how good it is."
-    cite: "Nicky Lobo"
+- quote: Jeg kender ikke til et mere opmuntrende faktum end den utvivlsomme evne mennesket har til at løfte sit liv ved bevidst
+    bestræbelse.
+  cite: Henry David Thoreau
+- quote: Hvis du er lykkelig, er det sandsynligvis din egen skyld, for der er masser af ting i verden at være ulykkelig over.
+  cite: Storm P
+- quote: Der er en revne i alting. Det er sådan, lyset kommer ind.
+  cite: Leonard Cohen
+- quote: Yoga is not a work-out, it is a work-in. And this is the point of spiritual practice. To make us teachable. To open
+    up our hearts and focus our awareness so that we can know what we already know and be who we already are.
+  cite: Rolf Gates
+- quote: You cannot do yoga. Yoga is your natural state. What you can do are yoga poses, which may reveal to you where you
+    are resisting your natural state.
+  cite: Sharon Gannon
+- quote: Crying is one of the highest devotional songs. One who knows crying, knows spiritual practice. If you can cry with
+    a pure heart, nothing else compares to such a prayer. Crying includes all the principles of Yoga.
+  cite: Kripalvanandji
+- quote: Sleep is the best meditation.
+  cite: Dalai Lama
+- quote: There will always be people who can do it better than you, but that’s a good thing! Start to see competition as inspiration
+    — without envy.
+  cite: Kathryn Budig
+- quote: I offer you peace. I offer you love. I offer you friendship. I see your beauty. I hear your need. I feel your feelings.
+    My wisdom flows from the Highest Source. I salute that Source in you. Let us work together for unity and love.
+  cite: Gandhi
+- quote: May all beings everywhere be happy and free, and may the thoughts, words, and actions of my own life contribute in
+    some way to that happiness and to that freedom for all.
+  cite: Lokah Samastah Sukhino Bhavantu
+- quote: The attitude of gratitude is the highest yoga. Make an attitude to be in gratitude, you will find the whole Universe
+    will come to you.
+  cite: Yogi Bhajan
+- quote: The rhythm of the body, the melody of the mind and the harmony of the soul create the symphony of life.
+  cite: B.K.S. Iyengar
+- quote: Yoga is the practice of quieting the mind.
+  cite: Patanjali
+- quote: Yoga keeps punching me in the face with how good it is.
+  cite: Nicky Lobo
 gallery_posters:
-  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png"
-    url: "https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
-    title: "Dalai Lama - Plakat"
-    vendor: "Citatplakat.dk"
-    category: "Design plakater > Fotokunst plakater > Historiske billeder > Plakater > Plakater til stuen > Sort hvid plakater"
-    price: 129.00
-    old_price: 129.00
-    discounted: false
-    id: "237915"
-    rel: sponsored nofollow noopener
+- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png
+  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/
+  title: Dalai Lama - Plakat
+  vendor: Citatplakat.dk
+  category: Design plakater > Fotokunst plakater > Historiske billeder > Plakater > Plakater til stuen > Sort hvid plakater
+  price: '129.00'
+  old_price: '129.00'
+  discounted: 'false'
+  id: '237915'
+  rel: sponsored nofollow noopener
 ---
 
 Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din spirituelle vej.

@@ -1,25 +1,32 @@
 ---
 layout: single
 permalink: /skulderoevelser/
-title: "Skulderøvelser: De mest effektive træningsøvelser til skulderen 🏋"
-seo_title: "Skulder øvelser: 10+ effektive træningsøvelser til skulderen"
-author_profile: true
-toc: true
+title: 'Skulderøvelser: De mest effektive træningsøvelser til skulderen 🏋'
+seo_title: 'Skulder øvelser: 10+ effektive træningsøvelser til skulderen'
+author_profile: 'true'
+toc: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Skulder-øvelser: De mest effektive styrketræningsøvelser til skulderen"
-excerpt: "Skuldertræning kan bestå af forskellige skulder øvelser. Vi har samlet det bedste styrketræningsøvelser og skulder-øvelser til træning af din skulder."
+  overlay_image: /assets/images/unsplash/photo-1541534741688-6078c6bfb5c5.jpg
+  credit: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5
+  teaser: /assets/images/unsplash/photo-1541534741688-6078c6bfb5c5.jpg
+  caption: 'Skulder-øvelser: De mest effektive styrketræningsøvelser til skulderen'
+excerpt: Skuldertræning kan bestå af forskellige skulder øvelser. Vi har samlet det bedste styrketræningsøvelser og skulder-øvelser
+  til træning af din skulder.
 categories:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
 faq:
-  - question: "Hvad er den bedste skulderøvelse?"
-    answer: "De mest effektive øvelser til at træne skulderens muskler er military press, skulderpres, arnold press, lateral raise og bent over rows. Du kan ikke ramme alle tre dele af skuldermusklen med en øvelse, så husk også at fokusere på den midterste del og bagskulderen. Du kan se alle øvelserne her på siden."
-  - question: "Hvad hedder skulderen og skuldermusklen på latin?"
-    answer: "Din skuldermuskel hedder deltoideus på latin. Den er delt op i tre dele. Den forreste del kaldes også den anteriore del og deltoideus pars clavicularis. Den midterste del eller laterale del kaldes også deltoideus acromialis. Den bagerste del eller posteriore del kaldes også detoideus pars spinalis. Du kan læse mere om [skuldermusklen deltoideus her](/deltoideus/). Den primære funktion for skuldermusklen er abduktion og fleksion i skulderleddet."
+- question: Hvad er den bedste skulderøvelse?
+  answer: De mest effektive øvelser til at træne skulderens muskler er military press, skulderpres, arnold press, lateral
+    raise og bent over rows. Du kan ikke ramme alle tre dele af skuldermusklen med en øvelse, så husk også at fokusere på
+    den midterste del og bagskulderen. Du kan se alle øvelserne her på siden.
+- question: Hvad hedder skulderen og skuldermusklen på latin?
+  answer: Din skuldermuskel hedder deltoideus på latin. Den er delt op i tre dele. Den forreste del kaldes også den anteriore
+    del og deltoideus pars clavicularis. Den midterste del eller laterale del kaldes også deltoideus acromialis. Den bagerste
+    del eller posteriore del kaldes også detoideus pars spinalis. Du kan læse mere om [skuldermusklen deltoideus her](/deltoideus/).
+    Den primære funktion for skuldermusklen er abduktion og fleksion i skulderleddet.
 ---
 
 Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Træning af skulderen laves med øvelser, hvor du løfter armene over hovedet og ud til siden eller presser fremad. Vi har samlet de bedste skulderøvelser til træning af dine skuldermuskler.

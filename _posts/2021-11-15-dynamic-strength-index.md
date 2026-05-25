@@ -1,19 +1,20 @@
 ---
-title: &title "Dynamic Strength Index (DSI)"
-seo_title: "DSI: Dynamic Strength Index"
+title: Dynamic Strength Index (DSI)
+seo_title: 'DSI: Dynamic Strength Index'
 permalink: /dynamic-strength-index-dsi/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
+  credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
+  caption: Dynamic Strength Index (DSI)
 category:
-  - Tests
-  - Eksplosivitet
+- Tests
+- Eksplosivitet
 tags:
-  - test
-  - springtest
-  - eksplosivitet
-  - spring
+- test
+- springtest
+- eksplosivitet
+- spring
 meta:
   name: Dynamic Strength Index
   measures: springstyrke
@@ -22,21 +23,21 @@ meta:
   max: maksimal test
   direct: direkte test
   description: Måler forholdet mellem maksimal styrke og springstyrke.
-last_modified_at: 2021-11-19T08:14:14Z
-toc: true
+last_modified_at: '2021-11-19T08:14:14Z'
+toc: 'true'
 gallery:
-  - image_path: /assets/images/blog/dsi-cmj.png
-    alt: Dynamic Strength Index CMJ
-  - image_path: /assets/images/blog/dsi-imtp.png
-    alt: Dynamic Strength Index IMTP
+- image_path: /assets/images/blog/dsi-cmj.png
+  alt: Dynamic Strength Index CMJ
+- image_path: /assets/images/blog/dsi-imtp.png
+  alt: Dynamic Strength Index IMTP
 feature_row:
-  - image_path: /assets/images/freebies/dsi-sheet.png
-    title: Dynamic Strength Index arbejdsark
-    excerpt: Google Sheet til at registrere _peak force_ ved maksimal styrke (fx IMTP) og ballistisk styrke (fx CMJ).
-    url: https://docs.google.com/spreadsheets/d/1hg3brOAlQTmSUvUnFicRcN8zqs9Tsf3rSBV1QdDitfY/copy?usp=sharing
-    btn_label: <i class='fas fa-file-excel'></i> Download
-    btn_class: btn--success
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/dsi-sheet.png
+  title: Dynamic Strength Index arbejdsark
+  excerpt: Google Sheet til at registrere _peak force_ ved maksimal styrke (fx IMTP) og ballistisk styrke (fx CMJ).
+  url: https://docs.google.com/spreadsheets/d/1hg3brOAlQTmSUvUnFicRcN8zqs9Tsf3rSBV1QdDitfY/copy?usp=sharing
+  btn_label: <i class='fas fa-file-excel'></i> Download
+  btn_class: btn--success
+  rel: nofollow noopener
 ---
 
 Dynamic Strength Index (DSI) er et godt værktøj til finde ud af, om du har brug for at forbedre din maksimale styrke eller dine plyometriske egenskaber.

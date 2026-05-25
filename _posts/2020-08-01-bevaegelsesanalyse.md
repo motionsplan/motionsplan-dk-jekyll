@@ -1,30 +1,31 @@
 ---
-title: &title "Sådan laver du en bevægelsesanalyse som fitnessinstruktør"
-seo_title: "Sådan laver en fitnessinstruktør en bevægelsesanalyse"
+title: Sådan laver du en bevægelsesanalyse som fitnessinstruktør
+seo_title: Sådan laver en fitnessinstruktør en bevægelsesanalyse
 permalink: /bevaegelsesanalyse/
-last_modified_at: 2025-02-06T09:41:09Z
+last_modified_at: '2025-02-06T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1540206063137-4a88ca974d1a.jpg
+  credit: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a
+  teaser: /assets/images/unsplash/photo-1540206063137-4a88ca974d1a.jpg
+  caption: Sådan laver du en bevægelsesanalyse som fitnessinstruktør
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - træning
-  - bevægelsesanalyse
-  - anatomi
-  - bevægelsesplaner
-  - træningslære
+- træning
+- bevægelsesanalyse
+- anatomi
+- bevægelsesplaner
+- træningslære
 feature_row:
-  - url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing
-    image_path: /assets/images/blog/movement-analysis.png
-    title: Skema til bevægelsesanalyse
-    alt: Skema til bevægelsesanalyse
-    excerpt: Download et skema i Google Docs som du kan bruge til at lave din bevægelsesanalyse.
-    btn_label: "<i class='fab fa-google-drive'></i> Download skema"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+- url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing
+  image_path: /assets/images/blog/movement-analysis.png
+  title: Skema til bevægelsesanalyse
+  alt: Skema til bevægelsesanalyse
+  excerpt: Download et skema i Google Docs som du kan bruge til at lave din bevægelsesanalyse.
+  btn_label: <i class='fab fa-google-drive'></i> Download skema
+  btn_class: btn--success
+  rel: nofollow noopener
 ---
 
 Når du [underviser i træning](/fitnessinstruktoer/) eller selv træner, så er det en god ide at lave en bevægelsesanalyse. En bevægelsesanalyse er med til at sikre, at du træner de muskler, du gerne vil træne - og bevægelsesanalysen giver dig også et godt udgangspunkt for at give feedback på bevægelser.

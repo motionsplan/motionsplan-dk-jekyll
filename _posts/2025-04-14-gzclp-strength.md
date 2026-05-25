@@ -1,24 +1,27 @@
 ---
-title: &title "GZCLP: Et effektivt styrketræningsprogram for begyndere"
-seo_title: "GZCLP-programmet forklaret – et styrketræningsprogram for begyndere"
-excerpt: "GZCLP er et styrketræningsprogram, som er ideelt for begyndere efter fx Starting Strength. Få en komplet forklaring af principper, progression og opbygning."
-description: "GZCLP er et styrketræningsprogram, som er ideelt for begyndere efter fx Starting Strength. Få en komplet forklaring af principper, progression og opbygning."
+title: 'GZCLP: Et effektivt styrketræningsprogram for begyndere'
+seo_title: GZCLP-programmet forklaret – et styrketræningsprogram for begyndere
+excerpt: GZCLP er et styrketræningsprogram, som er ideelt for begyndere efter fx Starting Strength. Få en komplet forklaring
+  af principper, progression og opbygning.
+description: GZCLP er et styrketræningsprogram, som er ideelt for begyndere efter fx Starting Strength. Få en komplet forklaring
+  af principper, progression og opbygning.
 permalink: /gzclp/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1546817372-628669db4655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1546817372-628669db4655.jpg
+  credit: https://images.unsplash.com/photo-1546817372-628669db4655
+  caption: 'GZCLP: Et effektivt styrketræningsprogram for begyndere'
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - fullbody
-  - begynder
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- fullbody
+- begynder
+last_modified_at: '2025-01-27T22:21:26Z'
 meta:
   name: GZCLP
   author: Cody Lefever

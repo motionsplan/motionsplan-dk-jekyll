@@ -1,33 +1,38 @@
 ---
-title: &title "Test din styrke med armstrækninger"
-seo_title: "Test din styrke med armstrækninger - Er du stærk nok?"
-excerpt: "Prøv armstrækningstesten fra The Canadian Standardized Test of Fitness for at vurdere din overkropsstyrke. Kan du tage nok armstrækninger?"
-description: "Test din overkropsstyrke med armstrækninger. Læs hvordan du udfører testen korrekt, og få vejledning til at vurdere dine resultater i forhold til alder og køn."
+title: Test din styrke med armstrækninger
+seo_title: Test din styrke med armstrækninger - Er du stærk nok?
+excerpt: Prøv armstrækningstesten fra The Canadian Standardized Test of Fitness for at vurdere din overkropsstyrke. Kan du
+  tage nok armstrækninger?
+description: Test din overkropsstyrke med armstrækninger. Læs hvordan du udfører testen korrekt, og få vejledning til at vurdere
+  dine resultater i forhold til alder og køn.
 permalink: /armstraekninger-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
+  credit: https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71
+  teaser: /assets/images/unsplash/photo-1598971457999-ca4ef48a9a71.jpg
+  caption: Test din styrke med armstrækninger
 category:
-  - Tests
-  - Styrketræning
+- Tests
+- Styrketræning
 meta:
   name: Armstrækninger test
   measures: overkropsstyrke
   type: styrketræning
   equipment: ingen
 tags:
-  - test
-  - styrketræning
-  - styrketest
-last_modified_at: 2025-02-03T23:14:14Z
-toc: true
-breadcrumbs: true
+- test
+- styrketræning
+- styrketest
+last_modified_at: '2025-02-03T23:14:14Z'
+toc: 'true'
+breadcrumbs: 'true'
 faq:
-  - question: "Hvor mange armbøjninger skal man kunne tage?"
-    answer: |
-      Antallet af armbøjninger, du bør kunne tage, afhænger af din alder, dit køn og dit træningsniveau. Armstrækningstesten fra The Canadian Standardized Test of Fitness giver en vurdering af din overkropsstyrke baseret på, hvor mange gentagelser du kan lave uden pause. Du kan bruge vores beregner til at se, hvordan dine resultater sammenlignes med standardiserede normer. Husk, at kropsvægt også spiller en rolle – tungere personer løfter mere vægt i hver gentagelse.
+- question: Hvor mange armbøjninger skal man kunne tage?
+  answer: Antallet af armbøjninger, du bør kunne tage, afhænger af din alder, dit køn og dit træningsniveau. Armstrækningstesten
+    fra The Canadian Standardized Test of Fitness giver en vurdering af din overkropsstyrke baseret på, hvor mange gentagelser
+    du kan lave uden pause. Du kan bruge vores beregner til at se, hvordan dine resultater sammenlignes med standardiserede
+    normer. Husk, at kropsvægt også spiller en rolle – tungere personer løfter mere vægt i hver gentagelse.
 ---
 
 Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vurderer din overkropsstyrke på baggrund af, hvor mange armstrækninger du kan tage.

@@ -1,63 +1,71 @@
 ---
-title: &title "Greyskull LP af John Shaeffer"
-seo_title: "Greyskull LP - Styrketræningsprogram med Lineær Progression og AMRAP"
-description: "Lær om Greyskull LP-programmet til at opbygge styrke og muskelmasse. Perfekt til både begyndere og erfarne løftere."
-excerpt: "Lær om Greyskull LP, et effektivt styrketræningsprogram til at opbygge styrke og muskelmasse. Perfekt til både begyndere og erfarne løftere."
+title: Greyskull LP af John Shaeffer
+seo_title: Greyskull LP - Styrketræningsprogram med Lineær Progression og AMRAP
+description: Lær om Greyskull LP-programmet til at opbygge styrke og muskelmasse. Perfekt til både begyndere og erfarne løftere.
+excerpt: Lær om Greyskull LP, et effektivt styrketræningsprogram til at opbygge styrke og muskelmasse. Perfekt til både begyndere
+  og erfarne løftere.
 permalink: /greyskull-lp/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1534438097545-a2c22c57f2ad.jpg
+  credit: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad
+  caption: Greyskull LP af John Shaeffer
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - fullbody
-  - begynder
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- fullbody
+- begynder
+last_modified_at: '2025-01-27T22:21:26Z'
 meta:
   name: Greyskull LP
   author: John Sheaffer
   level: begynder
   goal: generelt
 faq:
-  - question: Hvad er Greyskull LP?
-    answer: >
-      Greyskull LP (Linear Progression) er et styrketræningsprogram udviklet af John Sheaffer, designet til begyndere og let øvede. 
-      Det fokuserer på lineær progression i basisløft med en særlig AMRAP (as many reps as possible)-sæt på sidste arbejdssæt 
-      for at fremme muskelvækst og styrke.
-  - question: Hvilke øvelser indgår i programmet?
-    answer: >
-      Grundprogrammet inkluderer squat, bænkpres, dødløft, overhead press og chin-ups. 
-      Du kan tilføje assistanceøvelser som curls, triceps extensions eller maveøvelser via “plug-ins”.
-  - question: Hvad gør Greyskull LP anderledes end Starting Strength?
-    answer: >
-      I modsætning til Starting Strength bruger Greyskull LP kun 2 arbejdssæt og et tredje AMRAP-sæt, hvilket tilføjer volumen 
-      og intensitet uden at kræve øget frekvens. Det giver også større fleksibilitet med træningsdage og assistanceøvelser.
-  - question: Hvor mange gange om ugen skal jeg træne?
-    answer: >
-      Typisk træner man 3 gange om ugen med skiftende A- og B-pas (fx ABA / BAB), men det kan tilpasses efter behov. 
-      Det er vigtigt at have en hviledag mellem træningsdage for optimal restitution.
-  - question: Hvornår skal jeg øge vægten?
-    answer: >
-      Hvis du gennemfører mindst 1 ekstra gentagelse ud over målet i dit AMRAP-sæt, øger du vægten næste gang. 
-      Typisk med 2,5 kg i bænk og pres, og 5 kg i dødløft og squat.
-  - question: Hvad sker der, hvis jeg ikke klarer mine reps?
-    answer: >
-      Hvis du fejler i AMRAP-sættet to træningspas i træk på samme øvelse, skal du deload – typisk 10% ned i vægt – 
-      og starte progressionen igen derfra.
-  - question: Kan jeg bruge Greyskull LP til muskelvækst?
-    answer: >
-      Ja, Greyskull LP er velegnet til hypertrofi, især pga. AMRAP-sættene og muligheden for at tilføje isolationsøvelser. 
-      Det er et godt valg for dem, der ønsker både styrke og muskelmasse.
-  - question: Er Greyskull LP egnet til hjemmebrug?
-    answer: >
-      Ja, hvis du har adgang til en vægtstang, vægtskiver og et stativ, kan du sagtens køre programmet hjemme. 
-      Det er simpelt og kræver ikke specialudstyr.
+- question: Hvad er Greyskull LP?
+  answer: 'Greyskull LP (Linear Progression) er et styrketræningsprogram udviklet af John Sheaffer, designet til begyndere
+    og let øvede.  Det fokuserer på lineær progression i basisløft med en særlig AMRAP (as many reps as possible)-sæt på sidste
+    arbejdssæt  for at fremme muskelvækst og styrke.
+
+    '
+- question: Hvilke øvelser indgår i programmet?
+  answer: 'Grundprogrammet inkluderer squat, bænkpres, dødløft, overhead press og chin-ups.  Du kan tilføje assistanceøvelser
+    som curls, triceps extensions eller maveøvelser via “plug-ins”.
+
+    '
+- question: Hvad gør Greyskull LP anderledes end Starting Strength?
+  answer: 'I modsætning til Starting Strength bruger Greyskull LP kun 2 arbejdssæt og et tredje AMRAP-sæt, hvilket tilføjer
+    volumen  og intensitet uden at kræve øget frekvens. Det giver også større fleksibilitet med træningsdage og assistanceøvelser.
+
+    '
+- question: Hvor mange gange om ugen skal jeg træne?
+  answer: 'Typisk træner man 3 gange om ugen med skiftende A- og B-pas (fx ABA / BAB), men det kan tilpasses efter behov.  Det
+    er vigtigt at have en hviledag mellem træningsdage for optimal restitution.
+
+    '
+- question: Hvornår skal jeg øge vægten?
+  answer: 'Hvis du gennemfører mindst 1 ekstra gentagelse ud over målet i dit AMRAP-sæt, øger du vægten næste gang.  Typisk
+    med 2,5 kg i bænk og pres, og 5 kg i dødløft og squat.
+
+    '
+- question: Hvad sker der, hvis jeg ikke klarer mine reps?
+  answer: 'Hvis du fejler i AMRAP-sættet to træningspas i træk på samme øvelse, skal du deload – typisk 10% ned i vægt –  og
+    starte progressionen igen derfra.
+
+    '
+- question: Kan jeg bruge Greyskull LP til muskelvækst?
+  answer: 'Ja, Greyskull LP er velegnet til hypertrofi, især pga. AMRAP-sættene og muligheden for at tilføje isolationsøvelser.  Det
+    er et godt valg for dem, der ønsker både styrke og muskelmasse.
+
+    '
+- question: Er Greyskull LP egnet til hjemmebrug?
+  answer: Ja, hvis du har adgang til en vægtstang, vægtskiver og et stativ, kan du sagtens køre programmet hjemme.  Det er
+    simpelt og kræver ikke specialudstyr.
 ---
 
 Greyskull LP (Linear Progression) er et populært træningsprogram udviklet af John Sheaffer, også kendt som Johnny Pain. Programmet kombinerer elementer fra styrketræning og hypertrofi og er designet til at hjælpe både begyndere og øvede med at opbygge styrke og muskelmasse.

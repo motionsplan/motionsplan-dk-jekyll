@@ -1,20 +1,21 @@
 ---
-title: &title "Fysikken og kræfterne bag et vertikalt spring"
-seo_title: "Hvad er fysikken og kræfterne bag det vertikale spring?"
+title: Fysikken og kræfterne bag et vertikalt spring
+seo_title: Hvad er fysikken og kræfterne bag det vertikale spring?
 permalink: /fysik-vertikalt-hop/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613122707153-070406e9fd27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1613122707153-070406e9fd27.jpg
+  credit: https://images.unsplash.com/photo-1613122707153-070406e9fd27
 category:
-  - Træning
-  - Springtræning
+- Træning
+- Springtræning
 tags:
-  - beregner
-  - spring
-  - fysik
-  - biomekanik
-last_modified_at: 2021-11-19T08:14:14Z
-toc: true
+- beregner
+- spring
+- fysik
+- biomekanik
+last_modified_at: '2021-11-19T08:14:14Z'
+toc: 'true'
 meta:
   name: Udregn hoppehøjde fra afsætshastighed
   equipment: hoppemåtte

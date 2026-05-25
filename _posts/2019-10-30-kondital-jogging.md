@@ -1,14 +1,17 @@
 ---
-title: &title "️Submaksimal 1609 m løbetest til at finde VO2max"
+title: ️Submaksimal 1609 m løbetest til at finde VO2max
 permalink: /submaximal-jogging-test-vo2/
-description: "I denne løbetest på 1609 meter kan du finde dit kondital og VO2max. Du skal bare bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
-excerpt: "Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
+description: I denne løbetest på 1609 meter kan du finde dit kondital og VO2max. Du skal bare bruge en nøjagtigt opmålt rute,
+  et stopur og et pulsur.
+excerpt: Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge
+  en nøjagtigt opmålt rute, et stopur og et pulsur.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1600679472183-07cc4f68b140.jpg
+  credit: https://images.unsplash.com/photo-1600679472183-07cc4f68b140
+  caption: ️Submaksimal 1609 m løbetest til at finde VO2max
 category:
-  - Kondition
+- Kondition
 meta:
   name: 1,6 km submaksimal løbetest
   measures: kondital
@@ -17,16 +20,16 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - løb
-  - submaksimal test
-  - indirekte test
-  - løbetest
-  - tracking
-  - testberegner
-  - begynder
-last_modified_at: 2022-10-12T10:14:14Z
+- test
+- konditionstest
+- løb
+- submaksimal test
+- indirekte test
+- løbetest
+- tracking
+- testberegner
+- begynder
+last_modified_at: '2022-10-12T10:14:14Z'
 ---
 
 Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit [kondital](/kondital/) over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.

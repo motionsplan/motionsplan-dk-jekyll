@@ -1,27 +1,32 @@
 ---
-title: &title "Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?"
-seo_title: "Gennemsnitshøjde i Danmark for mænd & kvinder i 2025"
-description: "Hvordan ser det ud med Danmarks gennemsnitshøjde? Den gennemsnitlige dansker har haft vokseværk. Er du højere end gennemsnittet for mænd og kvinder?"
+title: Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?
+seo_title: Gennemsnitshøjde i Danmark for mænd & kvinder i 2025
+description: Hvordan ser det ud med Danmarks gennemsnitshøjde? Den gennemsnitlige dansker har haft vokseværk. Er du højere
+  end gennemsnittet for mænd og kvinder?
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1496545087308-51ec893e6bbc.jpg
+  credit: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc
+  caption: Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?
 category:
-  - Kropskomposition
+- Kropskomposition
 tags:
-  - højde
-last_modified_at: 2022-12-02T08:14:14Z
-toc: true
+- højde
+last_modified_at: '2022-12-02T08:14:14Z'
+toc: 'true'
 faq:
-  - question: "Hvad er gennemsnitshøjden for kvinder i Danmark?"
-    answer: "Danske kvinder er i gennemsnit 167,2 cm høje."
-  - question: "Hvad er gennemsnitshøjden for danske mænd?"
-    answer: "Gennemsnitshøjden for danske mænd er 181,4 cm."
-  - question: "Kan man blive højere?"
-    answer: "Der er mange der søger på, om man kan blive højere. Vi har skrevet et andet indlæg om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/), hvor du kan finde tips til, hvordan du kan skyde i vejret."
-  - question: Hvor længe bliver vi ved med at vokse?"
-    answer: "Mænd og kvinder stopper med at vokse på forskellig tid. Kvinder bliver sjældent højere, når de runder deres 18 års fødselsdag. Mænd kan måske stadig blive lidt højere indtil omkring 20 års alderen. Væksten går imidlertid noget langsommere når man nærmer sig at være udvokset."
+- question: Hvad er gennemsnitshøjden for kvinder i Danmark?
+  answer: Danske kvinder er i gennemsnit 167,2 cm høje.
+- question: Hvad er gennemsnitshøjden for danske mænd?
+  answer: Gennemsnitshøjden for danske mænd er 181,4 cm.
+- question: Kan man blive højere?
+  answer: Der er mange der søger på, om man kan blive højere. Vi har skrevet et andet indlæg om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/),
+    hvor du kan finde tips til, hvordan du kan skyde i vejret.
+- question: Hvor længe bliver vi ved med at vokse?"
+  answer: Mænd og kvinder stopper med at vokse på forskellig tid. Kvinder bliver sjældent højere, når de runder deres 18 års
+    fødselsdag. Mænd kan måske stadig blive lidt højere indtil omkring 20 års alderen. Væksten går imidlertid noget langsommere
+    når man nærmer sig at være udvokset.
 ---
 
 I Danmark er vores gennemsnitshøjde relativt høj. Hvis du er interesseret i at finde ud af, om du er højere end gennemsnittet, så er du kommet til det rigtige sted.

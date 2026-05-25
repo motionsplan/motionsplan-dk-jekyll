@@ -1,17 +1,18 @@
 ---
-title: &title "Kalorietabel for brød: Tabel med kalorier i brød 🍞"
+title: 'Kalorietabel for brød: Tabel med kalorier i brød 🍞'
 permalink: /kalorietabel-broed/
-last_modified_at: 2020-07-29T09:41:09Z
+last_modified_at: '2020-07-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1509440159596-0249088772ff.jpg
+  credit: https://images.unsplash.com/photo-1509440159596-0249088772ff
+  teaser: /assets/images/unsplash/photo-1509440159596-0249088772ff.jpg
+  caption: 'Kalorietabel for brød: Tabel med kalorier i brød 🍞'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - fødevarer
-  - kalorietabel
+- fødevarer
+- kalorietabel
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer brød. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for forskellige typer brød.

@@ -1,24 +1,27 @@
 ---
-title: &title "Springtræning – Sådan forbedrer du dit spring"
-seo_title: "Springtræning – Guide til bedre hoppehøjde og springlængde"
-description: Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke. Få overblik over metoder, tests og øvelser.
-excerpt: "Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke. Få overblik over metoder, tests og øvelser."
+title: Springtræning – Sådan forbedrer du dit spring
+seo_title: Springtræning – Guide til bedre hoppehøjde og springlængde
+description: Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke.
+  Få overblik over metoder, tests og øvelser.
+excerpt: Hvordan kan du hoppe højere og springe længere? Springtræning forbedrer dine spring, eksplosivitet og styrke. Få
+  overblik over metoder, tests og øvelser.
 permalink: /springtraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517626102333-83f7319aa06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1517626102333-83f7319aa06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1517626102333-83f7319aa06e.jpg
+  credit: https://images.unsplash.com/photo-1517626102333-83f7319aa06e
+  teaser: /assets/images/unsplash/photo-1517626102333-83f7319aa06e.jpg
+  caption: Springtræning – Sådan forbedrer du dit spring
 category:
-  - Træning
-  - Eksplosivitet
+- Træning
+- Eksplosivitet
 tags:
-  - spring
-  - træning
-  - moc
-  - springtræning
-last_modified_at: 2021-11-19T23:14:14Z
-toc: true
+- spring
+- træning
+- moc
+- springtræning
+last_modified_at: '2021-11-19T23:14:14Z'
+toc: 'true'
 ---
 
 Springtræning handler om at udvikle din eksplosivitet og styrke gennem målrettede hoppeøvelser og kraftudvikling. Det er ikke kun for atleter – enhver, der ønsker at forbedre sin fysiske formåen, kan få gavn af det. S

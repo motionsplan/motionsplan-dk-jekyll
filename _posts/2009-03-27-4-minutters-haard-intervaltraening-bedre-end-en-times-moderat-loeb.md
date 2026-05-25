@@ -1,27 +1,29 @@
 ---
-title: "Tabata-træning: 4 minutters effektiv intervaltræning"
-description: "Tabata er 4 minutters hård, effektiv intervaltræning. Her får du den rigtige forklaring på hvad 8x 20 sekunders Tabata-intervaller og Tabata-træning er!"
+title: 'Tabata-træning: 4 minutters effektiv intervaltræning'
+description: Tabata er 4 minutters hård, effektiv intervaltræning. Her får du den rigtige forklaring på hvad 8x 20 sekunders
+  Tabata-intervaller og Tabata-træning er!
 permalink: /artikel/tabata-traening-intervaller/
 redirect_from:
-  - /artikel/4-minutters-h-rd-intervaltr-ning-bedre-end-en-times-moderat-l-b
-  - /artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb
-  - /artikel/4-minutter-i-helvede
+- /artikel/4-minutters-h-rd-intervaltr-ning-bedre-end-en-times-moderat-l-b
+- /artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb
+- /artikel/4-minutter-i-helvede
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1586919257548-66ec29b8c7ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Hvad er Tabata, Tabata-intervaller og Tabata-træning?"
+  teaser: /assets/images/unsplash/photo-1586919257548-66ec29b8c7ed.jpg
+  credit: https://images.unsplash.com/photo-1586919257548-66ec29b8c7ed
+  caption: Hvad er Tabata, Tabata-intervaller og Tabata-træning?
 tags:
-  - udholdenhed
-  - træning
-  - intervaltræning
-  - anaerob træning
-  - aerob træning
-  - løb
-  - træningsmetode
+- udholdenhed
+- træning
+- intervaltræning
+- anaerob træning
+- aerob træning
+- løb
+- træningsmetode
 category:
-  - Kondition
-  - Løb
-last_modified_at: 2021-01-17T22:42:12Z
+- Kondition
+- Løb
+last_modified_at: '2021-01-17T22:42:12Z'
 sidebar:
   nav: methods
 ---

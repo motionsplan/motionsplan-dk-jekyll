@@ -1,60 +1,71 @@
 ---
 layout: single
-title: &title "Led, ledtyper og ledbevægelser 🔧"
-seo_title: "Led i kroppen: Typer, funktion og bevægelsesmuligheder"
-description: "Få en oversigt over led i kroppen, de forskellige ledtyper i menneskekroppen, deres opbygning og hvordan de muliggør bevægelse."
-excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
+title: Led, ledtyper og ledbevægelser 🔧
+seo_title: 'Led i kroppen: Typer, funktion og bevægelsesmuligheder'
+description: Få en oversigt over led i kroppen, de forskellige ledtyper i menneskekroppen, deres opbygning og hvordan de muliggør
+  bevægelse.
+excerpt: 'Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled
+  og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.'
 permalink: /led/
 header:
-  teaser: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1539815208687-a0f05e15d601.jpg
+  credit: https://images.unsplash.com/photo-1539815208687-a0f05e15d601
+  overlay_image: /assets/images/unsplash/photo-1539815208687-a0f05e15d601.jpg
+  caption: Led, ledtyper og ledbevægelser 🔧
 categories:
-  - Anatomi
+- Anatomi
 tags:
-  - anatomi
+- anatomi
 feature_row:
-  - image_path: /assets/images/anatomy/glideled.png
-    alt: "Glideled"
-    title: "Glideled"
-    excerpt: "Et glideled kan lave to forskellige parallelforskydninger og en vinkelbevægelse. Der er glideled mellem tappene i ryghvirvlerne."
-  - image_path: /assets/images/anatomy/haengselled.png
-    alt: "Hængselled"
-    title: "Hængselled"
-    excerpt: "Et hængselled kan lave en bevægelse som ligner en drejning i et dørhængsel. Albueleddet og knæleddet er fx hængselled."
-  - image_path: /assets/images/anatomy/drejeled.png
-    alt: "Drejeled"
-    title: "Drejeled"
-    excerpt: "Et drejeled kan lave en drejning omkring knoglens længderetning. Der er fx et drejeled mellem ulna og radius, som er underarmens knogler."
-  - image_path: /assets/images/anatomy/saddelled.png
-    alt: "Saddelled"
-    title: "Saddelled"
-    excerpt: "Et saddelled kan lave to bevægelser, som går vinkelret på hinanden. Tommelfingerens rodled er fx et saddelled."
-  - image_path: /assets/images/anatomy/aegled.png
-    alt: "Ægled"
-    title: "Ægled"
-    excerpt: "I et ægled foregår bevægelserne som et æg kan bevæge sig i et æggebæger. Den sidste nakkehvirvel inden kraniet er et ægled."
-  - image_path: /assets/images/anatomy/kugleled.png
-    alt: "Kugleled"
-    title: "Kugleled"
-    excerpt: "Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og i skulderleddet."
-toc: true
+- image_path: /assets/images/anatomy/glideled.png
+  alt: Glideled
+  title: Glideled
+  excerpt: Et glideled kan lave to forskellige parallelforskydninger og en vinkelbevægelse. Der er glideled mellem tappene
+    i ryghvirvlerne.
+- image_path: /assets/images/anatomy/haengselled.png
+  alt: Hængselled
+  title: Hængselled
+  excerpt: Et hængselled kan lave en bevægelse som ligner en drejning i et dørhængsel. Albueleddet og knæleddet er fx hængselled.
+- image_path: /assets/images/anatomy/drejeled.png
+  alt: Drejeled
+  title: Drejeled
+  excerpt: Et drejeled kan lave en drejning omkring knoglens længderetning. Der er fx et drejeled mellem ulna og radius, som
+    er underarmens knogler.
+- image_path: /assets/images/anatomy/saddelled.png
+  alt: Saddelled
+  title: Saddelled
+  excerpt: Et saddelled kan lave to bevægelser, som går vinkelret på hinanden. Tommelfingerens rodled er fx et saddelled.
+- image_path: /assets/images/anatomy/aegled.png
+  alt: Ægled
+  title: Ægled
+  excerpt: I et ægled foregår bevægelserne som et æg kan bevæge sig i et æggebæger. Den sidste nakkehvirvel inden kraniet
+    er et ægled.
+- image_path: /assets/images/anatomy/kugleled.png
+  alt: Kugleled
+  title: Kugleled
+  excerpt: Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og
+    i skulderleddet.
+toc: 'true'
 sidebar:
   nav: anatomi
 gallery:
-  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
-    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
-    title: Skelettet fra siden - Anatomi plakat
-    rel: sponsored nofollow noopener
-last_modified_at: 2022-04-24T08:14:14Z
-breadcrumbs: true
+- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
+  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
+  title: Skelettet fra siden - Anatomi plakat
+  rel: sponsored nofollow noopener
+last_modified_at: '2022-04-24T08:14:14Z'
+breadcrumbs: 'true'
 faq:
-  - question: Hvad er et led?
-    answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
-  - question: Hvor mange led har vi i kroppen?
-    answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
-  - question: Hvilke led er der i kroppen?
-    answer: Der findes mange forskellige typer af led i kroppen. Den mest almindelige type led hængselleddet, som bl.a. findes i albuen, knæet, anklen, fingre og tæer. Andre ledtyper omfatter kugleleddet, som findes i skulderen og hoften. Drejeleddet (findes i nakken) og glideleddet (findes i håndleddet). Der er et saddelled ved tommelfingeren, og endelig er der et ægled ved den sidste nakkehvirvel inden kraniet.
+- question: Hvad er et led?
+  answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller
+    ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
+- question: Hvor mange led har vi i kroppen?
+  answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
+- question: Hvilke led er der i kroppen?
+  answer: Der findes mange forskellige typer af led i kroppen. Den mest almindelige type led hængselleddet, som bl.a. findes
+    i albuen, knæet, anklen, fingre og tæer. Andre ledtyper omfatter kugleleddet, som findes i skulderen og hoften. Drejeleddet
+    (findes i nakken) og glideleddet (findes i håndleddet). Der er et saddelled ved tommelfingeren, og endelig er der et ægled
+    ved den sidste nakkehvirvel inden kraniet.
 ---
 
 Led er en vigtig del af læren om [kroppens anatomi](/anatomi/). Kroppens led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled.

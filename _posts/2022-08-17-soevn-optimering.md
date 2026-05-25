@@ -1,41 +1,47 @@
 ---
-title: &title "Søvnhygiejne: 7 tips til at optimere din søvn"
+title: 'Søvnhygiejne: 7 tips til at optimere din søvn'
 permalink: /soevn-optimering/
-excerpt: "Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har brug for at sove godt for at fungere. Her kan du læse mere om søvnhygiejne og søvnoptimering, og hvordan du får en god nattesøvn."
+excerpt: Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har brug for at sove godt for at fungere.
+  Her kan du læse mere om søvnhygiejne og søvnoptimering, og hvordan du får en god nattesøvn.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1531353826977-0941b4779a1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1531353826977-0941b4779a1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1531353826977-0941b4779a1c.jpg
+  credit: https://images.unsplash.com/photo-1531353826977-0941b4779a1c
+  teaser: /assets/images/unsplash/photo-1531353826977-0941b4779a1c.jpg
+  caption: 'Søvnhygiejne: 7 tips til at optimere din søvn'
 category:
-  - Restitution
-  - Søvn
+- Restitution
+- Søvn
 tags:
-  - søvn
-last_modified_at: 2022-08-17T23:14:14Z
-toc: true
+- søvn
+last_modified_at: '2022-08-17T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788711731611/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569
-    title: "Sov Rigtigt"
-    excerpt: "Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder det lige nu – ikke når du går i seng i aften. - Nick Littlehales"
-    alt: Sov Rigtigt - Nick Littlehales
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9780674975392/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/internal-time_till-roenneberg_paperback_9780674975392
-    title: "Internal time"
-    excerpt: "Till Roenneberg viser at hvis vi ikke respekterer vores indre ur, så risikerer vi at være i kronisk søvnunderskud, hvilket kan få os til at ryge, tage på i vægt, føle os deprimeret og blive syge. Hvis man forstår den indre tid, så kan vi også leve bedre. Till Roenneberg står bl.a. bag Munich Chronotype Questionnaire (MCTQ)."
-    alt: Internal Time - Roenneberg
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788711731611/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569
+  title: Sov Rigtigt
+  excerpt: Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun
+    om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder
+    det lige nu – ikke når du går i seng i aften. - Nick Littlehales
+  alt: Sov Rigtigt - Nick Littlehales
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9780674975392/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/internal-time_till-roenneberg_paperback_9780674975392
+  title: Internal time
+  excerpt: Till Roenneberg viser at hvis vi ikke respekterer vores indre ur, så risikerer vi at være i kronisk søvnunderskud,
+    hvilket kan få os til at ryge, tage på i vægt, føle os deprimeret og blive syge. Hvis man forstår den indre tid, så kan
+    vi også leve bedre. Till Roenneberg står bl.a. bag Munich Chronotype Questionnaire (MCTQ).
+  alt: Internal Time - Roenneberg
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 gallery_soevnhygiejne:
-  - image_path: /assets/images/blog/soevnhygiejne-soevnoptimering-anna-west.jpg
-    url: /assets/images/blog/soevnhygiejne-soevnoptimering-anna-west.jpg
-    title: Søvnhygiejne
-    alt: søvnhygiejne
+- image_path: /assets/images/blog/soevnhygiejne-soevnoptimering-anna-west.jpg
+  url: /assets/images/blog/soevnhygiejne-soevnoptimering-anna-west.jpg
+  title: Søvnhygiejne
+  alt: søvnhygiejne
 ---
 
 Vi har samlet tankevækkende tips og viden om at optimere din søvn. Alle har brug for at sove godt for at fungere. Her kan du læse mere om søvnhygiejne og søvnoptimering, og hvordan du får en god nattesøvn.

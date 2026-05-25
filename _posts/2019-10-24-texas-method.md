@@ -1,36 +1,35 @@
 ---
-last_modified_at: 2019-03-06T23:14:14.000Z
-excerpt: Texas Method er et styrketræningsprogram til letøvede og øvede, som er gjort populært af
-  Glenn Pendlay og Mark Rippetoe. Programmet er målrettet folk, der har løftet
-  før.
-toc: true
+last_modified_at: '2019-03-06T23:14:14.000Z'
+excerpt: Texas Method er et styrketræningsprogram til letøvede og øvede, som er gjort populært af Glenn Pendlay og Mark Rippetoe.
+  Programmet er målrettet folk, der har løftet før.
+toc: 'true'
 permalink: /texas-method/
-title: "Texas Method: Styrketræningsprogram til letøvede og øvede"
+title: 'Texas Method: Styrketræningsprogram til letøvede og øvede'
 header:
-  overlay_image: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "*title"
+  overlay_image: /assets/images/unsplash/photo-1550977616-efc580084ac5.jpg
+  credit: https://images.unsplash.com/photo-1550977616-efc580084ac5
+  teaser: /assets/images/unsplash/photo-1550977616-efc580084ac5.jpg
+  caption: '*title'
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - programanmeldelse
-  - fullbody
-  - styrketræning
-  - populær
-  - øvet
+- træningsprogram
+- programanmeldelse
+- fullbody
+- styrketræning
+- populær
+- øvet
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: Stærk
-    title: Stærk - Jacob Beermann
-    excerpt: Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette
-      hjælp, og den kan du heldigvis få af Jacob Beermann med bogen Stærk. Her
-      får du en god og grundig introduktion til hvordan man styrketræner bedst.
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
-    btn_label: Tjek prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
+  alt: Stærk
+  title: Stærk - Jacob Beermann
+  excerpt: Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob
+    Beermann med bogen Stærk. Her får du en god og grundig introduktion til hvordan man styrketræner bedst.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 language: da
 meta:
   name: Texas Method

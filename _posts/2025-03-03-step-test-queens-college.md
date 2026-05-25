@@ -1,17 +1,20 @@
 ---
-title: &title "Queens College Step Test – Standardiseret konditionstest (QCST)"
-seo_title: "Queens College Step Test: Test din kondition nemt"
-excerpt: "Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine."
-description: "Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine."
+title: Queens College Step Test – Standardiseret konditionstest (QCST)
+seo_title: 'Queens College Step Test: Test din kondition nemt'
+excerpt: Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast
+  step-rutine.
+description: Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter
+  en fast step-rutine.
 permalink: /queens-college-step-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1546869372-abdd57773019?w=1200&h=630&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHN0ZXB8ZW58MHx8MHx8fDI%3D
-  teaser: https://images.unsplash.com/photo-1546869372-abdd57773019?w=400&h=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHN0ZXB8ZW58MHx8MHx8fDI%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
+  credit: https://images.unsplash.com/photo-1546869372-abdd57773019
+  teaser: /assets/images/unsplash/photo-1546869372-abdd57773019.jpg
+  caption: Queens College Step Test – Standardiseret konditionstest (QCST)
 category:
-  - Tests
-  - Kondition
+- Tests
+- Kondition
 meta:
   name: Queens College Step Test (QCST)
   measures: kondital
@@ -20,13 +23,13 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - indirekte test
-  - steptest
-last_modified_at: 2025-03-03T23:14:14Z
-toc: true
-breadcrumbs: true
+- test
+- konditionstest
+- indirekte test
+- steptest
+last_modified_at: '2025-03-03T23:14:14Z'
+toc: 'true'
+breadcrumbs: 'true'
 ---
 
 Queens College Step Test er en simpel og effektiv metode til at vurdere din kardiovaskulære kondition. Ved at følge denne test kan du få et hurtigt mål for din kondition, baseret på din puls efter testen.

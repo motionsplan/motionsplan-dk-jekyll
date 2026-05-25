@@ -1,26 +1,29 @@
 ---
-title: &title "Træningsprincipper: 10 gyldne regler om træning"
-seo_title: "Træningsprincipper – De 10 grundlæggende træningsregler"
-description: "Få styr på de 10 træningsprincipper, der danner grundlag for effektiv træning – fra overload og progression til variation og individualisering."
-excerpt: "Få styr på de 10 træningsprincipper, der danner grundlag for effektiv træning – fra overload og progression til variation og individualisering."
+title: 'Træningsprincipper: 10 gyldne regler om træning'
+seo_title: Træningsprincipper – De 10 grundlæggende træningsregler
+description: Få styr på de 10 træningsprincipper, der danner grundlag for effektiv træning – fra overload og progression til
+  variation og individualisering.
+excerpt: Få styr på de 10 træningsprincipper, der danner grundlag for effektiv træning – fra overload og progression til variation
+  og individualisering.
 permalink: /traeningsprincipper/
 redirect_from:
-  - /gyldne-regler-om-traening/
+- /gyldne-regler-om-traening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1541757088-1c919081357f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1541757088-1c919081357f.jpg
+  credit: https://images.unsplash.com/photo-1541757088-1c919081357f
+  caption: 'Træningsprincipper: 10 gyldne regler om træning'
 category:
-  - Træning
-  - Træningsplanlægning
+- Træning
+- Træningsplanlægning
 tags:
-  - programlægning
-  - træningsplanlægning
-  - træningslære
-  - træning
-last_modified_at: 2025-04-20T08:14:14Z
-toc: true
-toc_sticky: true
+- programlægning
+- træningsplanlægning
+- træningslære
+- træning
+last_modified_at: '2025-04-20T08:14:14Z'
+toc: 'true'
+toc_sticky: 'true'
 ---
 
 Når du vurderer træningsprogrammer og laver din egen træningsplan, så er det godt at kende de basale træningsprincipper. Her dykker vi ned i de fundamentale retningslinjer for træning, der kan være med til at sikre dig fremgang over tid i træningen.

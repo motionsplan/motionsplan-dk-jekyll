@@ -1,19 +1,20 @@
 ---
-last_modified_at: 2019-09-03T23:14:14.000Z
-toc: true
+last_modified_at: '2019-09-03T23:14:14.000Z'
+toc: 'true'
 permalink: /slankekur/
-title: "Hvor effektiv er en slankekur fra Ude & Hjemme?"
+title: Hvor effektiv er en slankekur fra Ude & Hjemme?
 header:
-  overlay_image: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Kan det passe, at Ude & Hjemmes slankekur er så effektiv?"
+  overlay_image: /assets/images/unsplash/photo-1557564437-0995702f88fc.jpg
+  credit: https://images.unsplash.com/photo-1557564437-0995702f88fc
+  teaser: /assets/images/unsplash/photo-1557564437-0995702f88fc.jpg
+  caption: Kan det passe, at Ude & Hjemmes slankekur er så effektiv?
 language: da
 category:
-  - Kost & Ernæring
-  - Vægttab
+- Kost & Ernæring
+- Vægttab
 tags:
-  - vægttab
-  - sundhed
+- vægttab
+- sundhed
 ---
 
 Jeg har lige læst om en utrolig effektiv slankekur. Faktisk må det være den bedste slankekur i verden. Slankekuren har i hvert fald et helt utroligt vægttab på meget kort tid.

@@ -1,32 +1,35 @@
 ---
-title: &title "Er jeg et A- eller B-menneske? Hvilken kronotype er du?"
+title: Er jeg et A- eller B-menneske? Hvilken kronotype er du?
 permalink: /a-eller-b-menneske/
 redirect_from:
-  - /a-eller-b-menneske
+- /a-eller-b-menneske
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1585577529540-a8095ea25427.jpg
+  credit: https://images.unsplash.com/photo-1585577529540-a8095ea25427
 category:
-  - Restitution
-  - Søvn
+- Restitution
+- Søvn
 tags:
-  - søvn
-last_modified_at: 2022-08-15T08:14:14Z
-toc: true
+- søvn
+last_modified_at: '2022-08-15T08:14:14Z'
+toc: 'true'
 feature_row:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_epub_9788702163698
-    image_path: https://imgcdn.saxo.com/_9788702163681/0x500
-    title: Jeg er B-menneske
-    alt: Forside til Jeg er B-menneske af Camilla Kring
-    excerpt: Camilla Kring skriver en kritik af samfundets arbejdstider, hvor der ikke er plads til at at være B-menneske, så kan du læse med her. Kring giver sine bud på, hvordan en anden type arbejdstid kan øge produktiviteten og livskvaliteten i samfundet.
-    rel: sponsored nofollow noopener
+- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/jeg-er-b-menneske_camilla-kring_epub_9788702163698
+  image_path: https://imgcdn.saxo.com/_9788702163681/0x500
+  title: Jeg er B-menneske
+  alt: Forside til Jeg er B-menneske af Camilla Kring
+  excerpt: Camilla Kring skriver en kritik af samfundets arbejdstider, hvor der ikke er plads til at at være B-menneske, så
+    kan du læse med her. Kring giver sine bud på, hvordan en anden type arbejdstid kan øge produktiviteten og livskvaliteten
+    i samfundet.
+  rel: sponsored nofollow noopener
 gallery:
-  - image_path: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
-    url: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
-    alt: Søvndagbog for et A-menneske
-  - image_path: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
-    url: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
-    alt: Søvndagbog for et B-menneske
+- image_path: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
+  url: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
+  alt: Søvndagbog for et A-menneske
+- image_path: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
+  url: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
+  alt: Søvndagbog for et B-menneske
 ---
 
 Om du er et A-menneske eller et B-menneske styres af et indre biologisk ur. Vores kronotype styres altså ubevidst af en masse mekanismer, som påvirker døgnrytmen og hvornår du er mest frisk på dagen.

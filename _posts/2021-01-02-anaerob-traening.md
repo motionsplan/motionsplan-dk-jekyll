@@ -1,20 +1,22 @@
 ---
-title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
-seo_title: "Anaerob træning: Øvelser og træningsprogram"
-description: "Kunne du tænke dig at prøve anaerob træning? Det er en vigtig del af dit energisystem og her får du øvelser og træningsprogrammer."
+title: 'Anaerob træning: Øvelser og træningsprogram 🏃'
+seo_title: 'Anaerob træning: Øvelser og træningsprogram'
+description: Kunne du tænke dig at prøve anaerob træning? Det er en vigtig del af dit energisystem og her får du øvelser og
+  træningsprogrammer.
 permalink: /anaerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1553593155-9e0dc045405c.jpg
+  credit: https://images.unsplash.com/photo-1553593155-9e0dc045405c
+  teaser: /assets/images/unsplash/photo-1553593155-9e0dc045405c.jpg
+  caption: 'Anaerob træning: Øvelser og træningsprogram 🏃'
 category:
-  - Kondition
+- Kondition
 tags:
-  - anaerob træning
-  - energisystemer
-last_modified_at: 2021-01-21T10:14:14Z
-toc: true
+- anaerob træning
+- energisystemer
+last_modified_at: '2021-01-21T10:14:14Z'
+toc: 'true'
 ---
 
 Anaerob træning bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på, hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.

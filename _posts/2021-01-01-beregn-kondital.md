@@ -1,36 +1,36 @@
 ---
-title: &title "Beregn dit kondital uden test – se dit kondital med en formel"
-# title: Beregn dit kondital i vores værktøjer 💗🥇
-seo_title: "5 måder at beregne dit kondital fra sofaen"
+title: Beregn dit kondital uden test – se dit kondital med en formel
+seo_title: 5 måder at beregne dit kondital fra sofaen
 permalink: /beregn-kondital/
 redirect_from:
-  - /kondital-loeb/
+- /kondital-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1566709603547-638aba3dbbc0.jpg
+  credit: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0
+  teaser: /assets/images/unsplash/photo-1566709603547-638aba3dbbc0.jpg
+  caption: Beregn dit kondital uden test – se dit kondital med en formel
 category:
-  - Kondition
+- Kondition
 tags:
-  - beregner
+- beregner
 meta:
   name: Beregn kondital
   equipment: ingen
   measures: kondital
   type: kondition
-last_modified_at: 2021-03-06T23:14:14Z
-toc: true
+last_modified_at: '2021-03-06T23:14:14Z'
+toc: 'true'
 gallery_world_fitnesslevel:
-  - image_path: /assets/images/blog/worldfitnesslevel-www.jpg
-    url: https://www.worldfitnesslevel.org/
+- image_path: /assets/images/blog/worldfitnesslevel-www.jpg
+  url: https://www.worldfitnesslevel.org/
 polar:
-  - image_path: /assets/images/blog/polar-ownindex-2.jpg
-    url: /assets/images/blog/polar-ownindex-2.jpg
-  - image_path: /assets/images/blog/polar-ownindex-3.jpg
-    url: /assets/images/blog/polar-ownindex-3.jpg
-  - image_path: /assets/images/blog/polar-ownindex-4.jpg
-    url: /assets/images/blog/polar-ownindex-4.jpg
+- image_path: /assets/images/blog/polar-ownindex-2.jpg
+  url: /assets/images/blog/polar-ownindex-2.jpg
+- image_path: /assets/images/blog/polar-ownindex-3.jpg
+  url: /assets/images/blog/polar-ownindex-3.jpg
+- image_path: /assets/images/blog/polar-ownindex-4.jpg
+  url: /assets/images/blog/polar-ownindex-4.jpg
 ---
 
 Du kan beregne [dit kondital](/kondital/) på mange forskellige måder. Her kan du lave en beregning af dit kondital uden at du behøver at lave en fysisk test. Du kan altså blive siddende i sofaen og få dit kondital foræret med disse simple formler.

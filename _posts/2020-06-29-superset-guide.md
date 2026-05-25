@@ -1,21 +1,22 @@
 ---
-title: "Superset: Komplet guide til supersæt"
-seo_title: "Superset: 7 forskellige effektive supersæt"
+title: 'Superset: Komplet guide til supersæt'
+seo_title: 'Superset: 7 forskellige effektive supersæt'
 permalink: /guide-superset/
 redirect_from:
-  - /styrketraening/superset-antagonist/
+- /styrketraening/superset-antagonist/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1593355349790-6330d1a2dc98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1593355349790-6330d1a2dc98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Superset: Komplet guide til supersæt"
+  overlay_image: /assets/images/unsplash/photo-1593355349790-6330d1a2dc98.jpg
+  credit: https://images.unsplash.com/photo-1593355349790-6330d1a2dc98
+  teaser: /assets/images/unsplash/photo-1593355349790-6330d1a2dc98.jpg
+  caption: 'Superset: Komplet guide til supersæt'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træningsplanlægning
-  - guide
-last_modified_at: 2020-06-11T08:14:14Z
-toc: true
+- træningsplanlægning
+- guide
+last_modified_at: '2020-06-11T08:14:14Z'
+toc: 'true'
 ---
 
 Supersæt hedder _superset_ på engelsk. Grundlæggende er supersæt, når du kombinerer to øvelser i din træning med hinanden. Du kan kombinere øvelserne i et superset på mange måder.

@@ -1,25 +1,28 @@
 ---
-title: &title "Anabolic Window: Hvad er facts om det åbne vindue?"
-seo_title: "Anabolic Window: Hvad er facts om det åbne vindue? (2025)"
-description: "Du kan udnytte det åbne vindue for kost og ernæring, hvis du gerne vil have optimale træningsresultater. Lær her hvordan!"
-excerpt: "Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?"
+title: 'Anabolic Window: Hvad er facts om det åbne vindue?'
+seo_title: 'Anabolic Window: Hvad er facts om det åbne vindue? (2025)'
+description: Du kan udnytte det åbne vindue for kost og ernæring, hvis du gerne vil have optimale træningsresultater. Lær
+  her hvordan!
+excerpt: Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller
+  på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:
-  - /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
+- /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1534175262708-ebf71ac916c2.jpg
+  credit: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2
+  teaser: /assets/images/unsplash/photo-1534175262708-ebf71ac916c2.jpg
+  caption: 'Anabolic Window: Hvad er facts om det åbne vindue?'
 category:
-  - Kost & Ernæring
-  - Restitution
+- Kost & Ernæring
+- Restitution
 tags:
-  - træning
-  - kost & ernæring
-  - restitution
-  - anbefalet
-last_modified_at: 2023-01-01T10:34:52Z
+- træning
+- kost & ernæring
+- restitution
+- anbefalet
+last_modified_at: '2023-01-01T10:34:52Z'
 ---
 
 Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Dette kan også kaldes _det åbne vindue_ eller på engelsk _the anabolic window_.

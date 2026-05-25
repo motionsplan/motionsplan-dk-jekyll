@@ -1,35 +1,43 @@
 ---
-title: &title "Konditionstræning og kredsløbstræning"
-seo_title: "4 tips til konditionstræning og kredsløbstræning (Guide 2025)"
-description: "Vil du gerne i bedre form? Så skal du i gang med konditionstræning og kredsløbstræning. Her får du en komplet guide til at flytte iltoptagelsen."
+title: Konditionstræning og kredsløbstræning
+seo_title: 4 tips til konditionstræning og kredsløbstræning (Guide 2025)
+description: Vil du gerne i bedre form? Så skal du i gang med konditionstræning og kredsløbstræning. Her får du en komplet
+  guide til at flytte iltoptagelsen.
 permalink: /konditionstraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1529795533870-ea8020391255.jpg
+  credit: https://images.unsplash.com/photo-1529795533870-ea8020391255
+  caption: Konditionstræning og kredsløbstræning
 category:
-  - Kondition
+- Kondition
 tags:
-  - kondition
+- kondition
 feature_row_tests:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Kondition og tests"
-    title: "Kondition og tests"
-    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
-    url: "/kondition/tests/"
-    btn_label: "Læs og prøv konditionstests"
-    btn_class: "btn--success"
-last_modified_at: 2022-04-12T22:21:26Z
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Kondition og tests
+  title: Kondition og tests
+  excerpt: Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?
+  url: /kondition/tests/
+  btn_label: Læs og prøv konditionstests
+  btn_class: btn--success
+last_modified_at: '2022-04-12T22:21:26Z'
 faq:
-  - question: Hvorfor er konditionstræning vigtigt?
-    answer: |
-      En god kondition beskytter dig mod mange sygdomme og forbedrer din livskvalitet. Det hjælper dig også til at holde dig slank og få mindre fedt på kroppen.
+- question: Hvorfor er konditionstræning vigtigt?
+  answer: 'En god kondition beskytter dig mod mange sygdomme og forbedrer din livskvalitet. Det hjælper dig også til at holde
+    dig slank og få mindre fedt på kroppen.
 
-      Der findes forskellige former for fitness, men den vigtigste for sundheden er kardiovaskulær fitness. Det er det, vi primært træner, når vi laver konditionstræning.
-  - question: Hvor ofte skal du lave kredsløbstræning for at se optimale resultater?
-    answer: Regelmæssig konditionstræning giver de bedste resultater. Hvis du gerne vil forbedre din kondition, så skal du lave et træningsprogram, hvor du veksler mellem den hårde træning og lettere træning.
-  - question: Hvilke øvelser kan du inkludere i din kredsløbstræning?
-    answer: Når du gerne vil lave effektiv konditionstræning, så er det godt at veksle mellem kort og intensiv træning.
+
+    Der findes forskellige former for fitness, men den vigtigste for sundheden er kardiovaskulær fitness. Det er det, vi primært
+    træner, når vi laver konditionstræning.
+
+    '
+- question: Hvor ofte skal du lave kredsløbstræning for at se optimale resultater?
+  answer: Regelmæssig konditionstræning giver de bedste resultater. Hvis du gerne vil forbedre din kondition, så skal du lave
+    et træningsprogram, hvor du veksler mellem den hårde træning og lettere træning.
+- question: Hvilke øvelser kan du inkludere i din kredsløbstræning?
+  answer: Når du gerne vil lave effektiv konditionstræning, så er det godt at veksle mellem kort og intensiv træning.
 ---
 
 Vil du gerne i bedre form? Her får ud en grundig indføring i konditionstræning og kredsløbstræning. Hvad skal der til for at rykke konditionen?

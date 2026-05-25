@@ -1,26 +1,29 @@
 ---
-title: &title "Udholdenhedstræning i løb – Sådan bygger du en stærk base"
-seo_title: "Udholdenhedstræning i løb: Sådan forbedrer du din base"
+title: Udholdenhedstræning i løb – Sådan bygger du en stærk base
+seo_title: 'Udholdenhedstræning i løb: Sådan forbedrer du din base'
 permalink: /loeb/udholdenhedstraening/
-excerpt: "Udholdenhedstræning er fundamentet for alle løbere. Lær, hvordan du træner din aerobe kapacitet med lange, rolige løbeture og opbygger en stærk kondition."
-description: "Udholdenhedstræning er fundamentet for alle løbere. Lær, hvordan du træner din aerobe kapacitet med lange, rolige løbeture og opbygger en stærk kondition."
+excerpt: Udholdenhedstræning er fundamentet for alle løbere. Lær, hvordan du træner din aerobe kapacitet med lange, rolige
+  løbeture og opbygger en stærk kondition.
+description: Udholdenhedstræning er fundamentet for alle løbere. Lær, hvordan du træner din aerobe kapacitet med lange, rolige
+  løbeture og opbygger en stærk kondition.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1553012547-284d8c582b1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1553012547-284d8c582b1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1553012547-284d8c582b1f.jpg
+  credit: https://images.unsplash.com/photo-1553012547-284d8c582b1f
+  teaser: /assets/images/unsplash/photo-1553012547-284d8c582b1f.jpg
+  caption: Udholdenhedstræning i løb – Sådan bygger du en stærk base
 category:
-  - Løb
-  - Løbeprogrammmer
+- Løb
+- Løbeprogrammmer
 tags:
-  - træningsmetode
-  - løb
-last_modified_at: 2025-03-16T08:14:14Z
-toc: true
+- træningsmetode
+- løb
+last_modified_at: '2025-03-16T08:14:14Z'
+toc: 'true'
 gallery:
-  - image_path: /assets/images/loebeprogram/uge-begynder.png
-  - image_path: /assets/images/loebeprogram/uge-moderat.png
-  - image_path: /assets/images/loebeprogram/uge-traenet.png
+- image_path: /assets/images/loebeprogram/uge-begynder.png
+- image_path: /assets/images/loebeprogram/uge-moderat.png
+- image_path: /assets/images/loebeprogram/uge-traenet.png
 ---
 
 Udholdenhedstræning er en af de vigtigste dele af et løbeprogram. Det hjælper dig med at forbedre din kondition og øge din evne til at løbe længere uden at blive træt.

@@ -1,39 +1,47 @@
 ---
-title: &title "Komplet guide til programlægning i styrketræning"
-seo_title: "Programlægning i styrketræning: Din komplette guide"
-excerpt: "Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan skabe et program, der passer til dine mål."
-description: "Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan skabe et program, der passer til dine mål."
+title: Komplet guide til programlægning i styrketræning
+seo_title: 'Programlægning i styrketræning: Din komplette guide'
+excerpt: Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan skabe
+  et program, der passer til dine mål.
+description: Lær at sammensætte et effektivt styrketræningsprogram med vores omfattende guide til programlægning, så du kan
+  skabe et program, der passer til dine mål.
 permalink: /traeningsprogram-programlaegning-styrketraening/
 redirect_from:
-  - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
+- /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
+  credit: https://images.unsplash.com/photo-1526408984842-5f1323d42469
+  teaser: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
+  caption: Komplet guide til programlægning i styrketræning
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - programlægning
-  - træningsplanlægning
-  - styrketræning
-  - begynder
-  - guide
-last_modified_at: 2023-01-23T08:14:14Z
-toc: true
+- programlægning
+- træningsplanlægning
+- styrketræning
+- begynder
+- guide
+last_modified_at: '2023-01-23T08:14:14Z'
+toc: 'true'
 feature_row_fiv_triangle:
-  - image_path: https://pccblog.dragondoor.com/wp-content/uploads/2015/02/FIV_triangle.png
-    alt: "Intensitet, volumen, frekvens"
-    title: "Frekvens, volumen, intensitet"
-    excerpt: "Hvis du justerer på en af disse parametre, så bliver du også nødt til at justere på de andre. Øger du frekvensen, så bliver intensiteten nødt til at gå ned. Hvis intensiteten går op, så kan du ikke holde til den samme volumen. Kilde: [Dragon Door](https://pccblog.dragondoor.com/increasing-frequency-how-to-work-out-more-without-overtraining/)."
+- image_path: https://pccblog.dragondoor.com/wp-content/uploads/2015/02/FIV_triangle.png
+  alt: Intensitet, volumen, frekvens
+  title: Frekvens, volumen, intensitet
+  excerpt: 'Hvis du justerer på en af disse parametre, så bliver du også nødt til at justere på de andre. Øger du frekvensen,
+    så bliver intensiteten nødt til at gå ned. Hvis intensiteten går op, så kan du ikke holde til den samme volumen. Kilde:
+    [Dragon Door](https://pccblog.dragondoor.com/increasing-frequency-how-to-work-out-more-without-overtraining/).'
 faq:
-  - question: "Hvordan griber jeg styrketræningen an?"
-    answer: "Det mest præcise svar er: “det kommer an på…” Læs denne guide for at få svar på nogle af de spørgsmål, du måske har."
-  - question: "Hvor lang tid tager et træningspas?"
-    answer: |
-      Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning.
+- question: Hvordan griber jeg styrketræningen an?
+  answer: 'Det mest præcise svar er: “det kommer an på…” Læs denne guide for at få svar på nogle af de spørgsmål, du måske
+    har.'
+- question: Hvor lang tid tager et træningspas?
+  answer: 'Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du
+    holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning.
 
-      Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her](/opvarmning-styrketraening/).
+
+    Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis
+    altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her](/opvarmning-styrketraening/).'
 ---
 
 Vil du gerne lave dit eget styrketræningsprogram? Her gennemgår jeg, hvordan du kan sammensætte et program til styrketræning. 

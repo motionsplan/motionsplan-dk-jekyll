@@ -1,67 +1,85 @@
 ---
-title: &title "Fitnessbutikker: Køb dit fitnessudstyr i online webshops"
-description: Er du på udkig efter udstyr til hjemmetræning? Så kan du se vores guide til danske online fitnessbutikker og webshops, hvor du kan købe fitnessudstyr.
+title: 'Fitnessbutikker: Køb dit fitnessudstyr i online webshops'
+description: Er du på udkig efter udstyr til hjemmetræning? Så kan du se vores guide til danske online fitnessbutikker og
+  webshops, hvor du kan købe fitnessudstyr.
 permalink: /fitnessbutikker/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1534438327276-14e5300c3a48.jpg
+  credit: https://images.unsplash.com/photo-1534438327276-14e5300c3a48
+  caption: 'Fitnessbutikker: Køb dit fitnessudstyr i online webshops'
 category:
-  - Fitness
+- Fitness
 tags:
-  - butikker
-  - fitness
-last_modified_at: 2024-07-27T22:21:26Z
+- butikker
+- fitness
+last_modified_at: '2024-07-27T22:21:26Z'
 shops:
-  - title: Fitnessengros.dk
-    excerpt: |
-      Fitness Engros sælger fitnessudstyr til både professionelle og private. De forhandler mange forskellige brands og er eksklusive distributører på mange af dem. Vi har brugt dem mange gange på Vejle Idrætshøjskole som leverandør til vores styrketræningslokale, og de har produkter i alle prisklasser.
-    
-      Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis jeg skal bruge noget nyt udstyr."
-    image: /assets/images/blog/fitnessbutik-fitnessengros.jpg
-    cta_label: Besøg Fitness Engros
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=89041
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
-  - title: Den Intelligente Krop
-    excerpt: Den Intelligente Krop er en af Danmarks førende webshops indenfor 'en sund krop i udvikling'. De har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit. Hjemmesiden er godt skruet sammen. Jeg har bl.a. købt mine [Blazepods](/blazepod/) på siden. Leveringen var hurtig, og der var en god kundeservice, da jeg havde spørgsmål.
-    image: /assets/images/blog/fitnessbutik-denintelligentekrop.jpg
-    cta_label: Besøg Den Intelligente Krop
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
-  - title: Apuls
-    excerpt: Apuls.dk sælger også træningsudstyr. Apuls forhandler alt fra træningsmaskiner til kosttilskud og produkter til velvære og genoptræning. Udover fitnessudstyr så kan du også også købe udstyr til mange [forskellige sportsgrene](/sportsgrene-liste/), fx atletikudstyr, kampsport og boldsport.
-    image: /assets/images/blog/fitnessbutik-denintelligentekrop.jpg
-    cta_label: Besøg Apuls
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
-  - title: Billig-fitness.dk
-    excerpt: Billig-fitness.dk er en af Danmarks største forhandlere med produkter indenfor fitnessbranchen. De er kendt for gode priser og god kvalitet, og gør sig både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr fx kettlebells, håndvægte mv.
-    cta_label: Besøg Billig-fitness.dk
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
-  - title: Abilica Online
-    excerpt: Abilicaonline.dk er en anerkendt online fitnessforhandler. De har et bredt udvalg af fitness udstyr til konditionstræning, styrketræning og funktionel træning. De henvender sig både til private og professionelle, og de har butikker flere steder, bl.a. i Vejle. Det er inspirerende at kigge forbi. De forhandler fortrinsvist deres eget brand, Abilica, men forhandler også anerkendte fitnessmærker som fx NordicTrack, Sole, Keiser og Spirit Fitness.
-    cta_label: Besøg Abilica
-    cta_url: https://www.abilicaonline.dk/
-    rel: nofollow noopener
-    class: .btn .btn--large .btn--success
-  - title: Fitness Shoppen
-    excerpt: Fitnessshoppen.dk er en online fitness butik. De forhandler udstyr til hjemmetræning. Du kan fx købe udstyr til styrketræning og forskellige motionscykler og træningsmaskiner. Fitnessshoppen har fitnessudstyr både til private og professionelle.
-    image: /assets/images/blog/fitnessbutik-fitnessshoppen.jpg
-    cta_label: Besøg FitnessShoppen
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
-  - title: Muscle House
-    excerpt: Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, [kreatin](/kreatin/), BCAA, aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning, samt et udvalg af træningsudstyr.
-    cta_label: Besøg Muscle House
-    cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68774
-    rel: sponsored nofollow noopener
-    class: .btn .btn--large .btn--danger
+- title: Fitnessengros.dk
+  excerpt: 'Fitness Engros sælger fitnessudstyr til både professionelle og private. De forhandler mange forskellige brands
+    og er eksklusive distributører på mange af dem. Vi har brugt dem mange gange på Vejle Idrætshøjskole som leverandør til
+    vores styrketræningslokale, og de har produkter i alle prisklasser.
+
+
+    Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis jeg skal bruge noget nyt udstyr."
+
+    '
+  image: /assets/images/blog/fitnessbutik-fitnessengros.jpg
+  cta_label: Besøg Fitness Engros
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=89041
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
+- title: Den Intelligente Krop
+  excerpt: Den Intelligente Krop er en af Danmarks førende webshops indenfor 'en sund krop i udvikling'. De har langt det
+    meste indenfor træningsudstyr til Pilates, yoga, crossfit. Hjemmesiden er godt skruet sammen. Jeg har bl.a. købt mine
+    [Blazepods](/blazepod/) på siden. Leveringen var hurtig, og der var en god kundeservice, da jeg havde spørgsmål.
+  image: /assets/images/blog/fitnessbutik-denintelligentekrop.jpg
+  cta_label: Besøg Den Intelligente Krop
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
+- title: Apuls
+  excerpt: Apuls.dk sælger også træningsudstyr. Apuls forhandler alt fra træningsmaskiner til kosttilskud og produkter til
+    velvære og genoptræning. Udover fitnessudstyr så kan du også også købe udstyr til mange [forskellige sportsgrene](/sportsgrene-liste/),
+    fx atletikudstyr, kampsport og boldsport.
+  image: /assets/images/blog/fitnessbutik-denintelligentekrop.jpg
+  cta_label: Besøg Apuls
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
+- title: Billig-fitness.dk
+  excerpt: Billig-fitness.dk er en af Danmarks største forhandlere med produkter indenfor fitnessbranchen. De er kendt for
+    gode priser og god kvalitet, og gør sig både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr
+    fx kettlebells, håndvægte mv.
+  cta_label: Besøg Billig-fitness.dk
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
+- title: Abilica Online
+  excerpt: Abilicaonline.dk er en anerkendt online fitnessforhandler. De har et bredt udvalg af fitness udstyr til konditionstræning,
+    styrketræning og funktionel træning. De henvender sig både til private og professionelle, og de har butikker flere steder,
+    bl.a. i Vejle. Det er inspirerende at kigge forbi. De forhandler fortrinsvist deres eget brand, Abilica, men forhandler
+    også anerkendte fitnessmærker som fx NordicTrack, Sole, Keiser og Spirit Fitness.
+  cta_label: Besøg Abilica
+  cta_url: https://www.abilicaonline.dk/
+  rel: nofollow noopener
+  class: .btn .btn--large .btn--success
+- title: Fitness Shoppen
+  excerpt: Fitnessshoppen.dk er en online fitness butik. De forhandler udstyr til hjemmetræning. Du kan fx købe udstyr til
+    styrketræning og forskellige motionscykler og træningsmaskiner. Fitnessshoppen har fitnessudstyr både til private og professionelle.
+  image: /assets/images/blog/fitnessbutik-fitnessshoppen.jpg
+  cta_label: Besøg FitnessShoppen
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
+- title: Muscle House
+  excerpt: Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, [kreatin](/kreatin/), BCAA,
+    aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning,
+    samt et udvalg af træningsudstyr.
+  cta_label: Besøg Muscle House
+  cta_url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68774
+  rel: sponsored nofollow noopener
+  class: .btn .btn--large .btn--danger
 ---
 
 Hjemmefitness og hjemmetræning bliver mere og mere udbredt. Her er en guide til danske online fitnessbutikker og webshops, hvor du kan købe fitnessudstyr.

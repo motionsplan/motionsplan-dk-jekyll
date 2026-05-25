@@ -1,23 +1,27 @@
 ---
-title: "Talje-højde-ratio: Hvad siger forholdet om din sundhed?"
-seo_title: "Talje-højde-forhold | Hvor sund er du?"
-description: "Forholdet mellem taljeomkredsen og din højde kan sige noget om din sundhed. Tjek her, hvad din risiko for livsstilssygdomme er."
-excerpt: "Studier har vist, at forholdet mellem din taljeomkreds og din højde er forbundet med risiko for livsstilssygdomme. Her kigger vi på, hvordan du måler talje-højde-ratioen, og jeg har inkluderet en beregner, så du let kan udregne dit forhold. Derudover kigger vi på, hvad forholdet ellers betyder."
+title: 'Talje-højde-ratio: Hvad siger forholdet om din sundhed?'
+seo_title: Talje-højde-forhold | Hvor sund er du?
+description: Forholdet mellem taljeomkredsen og din højde kan sige noget om din sundhed. Tjek her, hvad din risiko for livsstilssygdomme
+  er.
+excerpt: Studier har vist, at forholdet mellem din taljeomkreds og din højde er forbundet med risiko for livsstilssygdomme.
+  Her kigger vi på, hvordan du måler talje-højde-ratioen, og jeg har inkluderet en beregner, så du let kan udregne dit forhold.
+  Derudover kigger vi på, hvad forholdet ellers betyder.
 permalink: /talje-hoejde-beregner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1633009824205-51c01df4b577?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
+  teaser: /assets/images/unsplash/photo-1633009824205-51c01df4b577.jpg
+  credit: https://images.unsplash.com/photo-1633009824205-51c01df4b577
+  caption: Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen.
 category:
-  - Tests
+- Tests
 tags:
-  - måling
-  - test
-  - beregner
-  - kropskomposition
-  - tracking
-last_modified_at: 2022-05-04T23:14:14Z
-toc: true
+- måling
+- test
+- beregner
+- kropskomposition
+- tracking
+last_modified_at: '2022-05-04T23:14:14Z'
+toc: 'true'
 meta:
   name: Talje-højde-ratio
   equipment: målebånd

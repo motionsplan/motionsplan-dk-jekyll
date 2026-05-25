@@ -1,21 +1,24 @@
 ---
-title: &title "Løbebånd Beregner – Juster hældning og beregn kalorieforbrug"
-seo_title: "Løbebånd beregner - Juster hældning og beregn kalorier"
+title: Løbebånd Beregner – Juster hældning og beregn kalorieforbrug
+seo_title: Løbebånd beregner - Juster hældning og beregn kalorier
 permalink: /loebebaand-beregner/
-description: "Brug vores løbebånd beregner til at justere hældning, hastighed og tid og sammenlign med udendørs løb og beregn dit kalorieforbrug."
-excerpt: "Brug vores løbebånd beregner til at justere hældning, hastighed og tid og sammenlign med udendørs løb og beregn dit kalorieforbrug."
+description: Brug vores løbebånd beregner til at justere hældning, hastighed og tid og sammenlign med udendørs løb og beregn
+  dit kalorieforbrug.
+excerpt: Brug vores løbebånd beregner til at justere hældning, hastighed og tid og sammenlign med udendørs løb og beregn dit
+  kalorieforbrug.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1638183395699-2c0db5b6afbb.jpg
+  credit: https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb
+  caption: Løbebånd Beregner – Juster hældning og beregn kalorieforbrug
 category:
-  - Løb
+- Løb
 tags:
-  - beregner
-  - løbebånd
-  - udstyr
-  - løb
-last_modified_at: 2022-03-12T22:21:26Z
+- beregner
+- løbebånd
+- udstyr
+- løb
+last_modified_at: '2022-03-12T22:21:26Z'
 meta:
   name: Løbebåndsberegner
   measures: se beregnerbeskrivelse

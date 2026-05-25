@@ -1,26 +1,35 @@
 ---
-title: &title "Golfdiscs: Hvilken frisbee skal jeg vælge til discgolf?"
-excerpt: "Når du leder efter en golfdisc til discgolf, så er der rigtig mange muligheder. Her får du nogle tips til at vælge den rigtige disc, når du gerne vil i gang med at spille discgolf."
+title: 'Golfdiscs: Hvilken frisbee skal jeg vælge til discgolf?'
+excerpt: Når du leder efter en golfdisc til discgolf, så er der rigtig mange muligheder. Her får du nogle tips til at vælge
+  den rigtige disc, når du gerne vil i gang med at spille discgolf.
 permalink: /golfdisc-til-discgolf/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1655161919642-7d318b88a40b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1655161919642-7d318b88a40b.jpg
+  credit: https://images.unsplash.com/photo-1655161919642-7d318b88a40b
+  caption: 'Golfdiscs: Hvilken frisbee skal jeg vælge til discgolf?'
 category:
-  - Sportsgrene
-  - Discgolf
+- Sportsgrene
+- Discgolf
 tags:
-  - udstyr
-  - discgolf
-  - træning
-last_modified_at: 2022-07-21T10:21:26Z
+- udstyr
+- discgolf
+- træning
+last_modified_at: '2022-07-21T10:21:26Z'
 faq:
-  - question: Hvor mange disctyper findes der?
-    answer: Der findes fire typer golfdiscs. Vi har distance drivers, som bruges til lange kast. Fairway drivers bruges til de mellem-lange drives). Midrange discs bruges til kortere drives og de lidt længere indspil. Putt og approach discs bruges til korte indspil og putts.
-  - question: Hvad er de bedste discs for en begynder?
-    answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Mange forhandlere tilbyder begyndersæt, som er velegnet til nybegyndere at kaste med.
-  - question: Hvad betyder udtrykkene overstabil, stabil og understabil?
-    answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
+- question: Hvor mange disctyper findes der?
+  answer: Der findes fire typer golfdiscs. Vi har distance drivers, som bruges til lange kast. Fairway drivers bruges til
+    de mellem-lange drives). Midrange discs bruges til kortere drives og de lidt længere indspil. Putt og approach discs bruges
+    til korte indspil og putts.
+- question: Hvad er de bedste discs for en begynder?
+  answer: Hvis du er ny i discgolf-sporten, så vil du gerne have nogle golfdiscs, som er lette at kaste med. Du bør vælge
+    en relativt let disc på 165-180 gram, som er understabil (dvs. har et lavt _turn_-tal). Mange forhandlere tilbyder begyndersæt,
+    som er velegnet til nybegyndere at kaste med.
+- question: Hvad betyder udtrykkene overstabil, stabil og understabil?
+  answer: En golfdiscs stabilitet refererer til discens flyveegenskaber. Hvis du laver et højrehåndet baghåndskast med høj
+    hastighed, så vil en understabil disc have en tendens til at dreje lidt mod højre i starten. En stabil disc vil flyve
+    mere lige ud. En overstabil disc vil trække mod venstre i starten både ved høj og lav udgangshastighed. Det har særligt
+    betydning for discens svæveegenskaber, da de fleste discs vil fade lidt mod venstre til sidst.
 ---
 
 Når du leder efter en golfdisc til discgolf, så er der rigtig mange muligheder. Her får du nogle tips til at vælge den rigtige disc, når du gerne vil i gang med at spille discgolf.

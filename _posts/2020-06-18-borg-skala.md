@@ -1,37 +1,42 @@
 ---
-title: &title "Borg-skala: Hvordan bruger du anstrengelsesskalaen?"
-seo_title: "Borg-skala • Alt om anstrengelsesskalaen [Download PDF]"
-description: "Er du på udkig efter mere viden om Borg-skala? Her kan du downloade Borgskalaen til fysisk aktivitet GRATIS som en PDF."
-excerpt: "Du kan bruge Borg-skalaen til at vurdere den følte anstrengelse i træningen og ved tests. Her kan du læse mere om baggrunden for Borgs skala, og hvordan skalaen for anstrengelse skal forstås."
+title: 'Borg-skala: Hvordan bruger du anstrengelsesskalaen?'
+seo_title: Borg-skala • Alt om anstrengelsesskalaen [Download PDF]
+description: Er du på udkig efter mere viden om Borg-skala? Her kan du downloade Borgskalaen til fysisk aktivitet GRATIS som
+  en PDF.
+excerpt: Du kan bruge Borg-skalaen til at vurdere den følte anstrengelse i træningen og ved tests. Her kan du læse mere om
+  baggrunden for Borgs skala, og hvordan skalaen for anstrengelse skal forstås.
 permalink: /borg-skala/
 redirect_from:
-  - /borg/
+- /borg/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1486739985386-d4fae04ca6f7.jpg
+  credit: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7
+  teaser: /assets/images/unsplash/photo-1486739985386-d4fae04ca6f7.jpg
+  caption: 'Borg-skala: Hvordan bruger du anstrengelsesskalaen?'
 category:
-  - Kondition
+- Kondition
 tags:
-  - konditionstræning
-  - kondition
-  - kredsløb
-last_modified_at: 2022-10-02T08:14:14Z
-toc: true
+- konditionstræning
+- kondition
+- kredsløb
+last_modified_at: '2022-10-02T08:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/borg-skala-724x1024.jpg
-    url: /assets/pdf/borg-skala-a4-format.pdf
-    title: "Download Borg-skala"
-    excerpt: "Borgskala bearbejdet af [Morten Zacho](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set på [marinaagaardblog.com](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/)."
-    alt: "Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala"
-    btn_label: "<i class='fas fa-file-pdf'></i> Download Borg skala"
-    btn_class: "btn--info"
+- image_path: /assets/images/borg-skala-724x1024.jpg
+  url: /assets/pdf/borg-skala-a4-format.pdf
+  title: Download Borg-skala
+  excerpt: Borgskala bearbejdet af [Morten Zacho](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}.
+    Set på [marinaagaardblog.com](https://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/).
+  alt: Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala
+  btn_label: <i class='fas fa-file-pdf'></i> Download Borg skala
+  btn_class: btn--info
 faq:
-  - question: "Hvorfor starter Borg-skalaen på 6 og ikke på 1?"
-    answer: "Borgs 15-skala starter på 6, fordi tankerne bag den nogenlunde modsvarer pulsen for de fleste mennesker. Arbejde på niveau 6 i Borg-skalaen er således omkring puls 60 slag/min."
-  - question: "Hvem har lavet Borg-skala?"
-    answer: "Borgs skala er lavet af Gunnar Borg. Den mest brugte version i Danmark er bearbejdet af Morten Zacho."
+- question: Hvorfor starter Borg-skalaen på 6 og ikke på 1?
+  answer: Borgs 15-skala starter på 6, fordi tankerne bag den nogenlunde modsvarer pulsen for de fleste mennesker. Arbejde
+    på niveau 6 i Borg-skalaen er således omkring puls 60 slag/min.
+- question: Hvem har lavet Borg-skala?
+  answer: Borgs skala er lavet af Gunnar Borg. Den mest brugte version i Danmark er bearbejdet af Morten Zacho.
 ---
 
 Er du på udkig efter mere viden om Borg-skala? Her kan du downloade Borg-skalaen til fysisk aktivitet GRATIS som en PDF.

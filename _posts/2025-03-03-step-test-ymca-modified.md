@@ -1,16 +1,18 @@
 ---
-title: &title "YMCA Modified steptest – Individualiseret test"
-seo_title: "YMCA Modified steptest – 3 minutter med "
-excerpt: "YMCA’s tilpassede steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
-description: "YMCA’s modified steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
+title: YMCA Modified steptest – Individualiseret test
+seo_title: 'YMCA Modified steptest – 3 minutter med '
+excerpt: YMCA’s tilpassede steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling.
+description: YMCA’s modified steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og
+  pulsmåling.
 permalink: /ymca-modified-steptest/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1476480862126-209bfaa8edc8.jpg
+  credit: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8
+  caption: YMCA Modified steptest – Individualiseret test
 category:
-  - Tests
-  - Kondition
+- Tests
+- Kondition
 meta:
   name: YMCA modified steptest
   measures: kondital
@@ -19,13 +21,13 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - indirekte test
-  - steptest
-last_modified_at: 2025-03-03T23:14:14Z
-toc: true
-breadcrumbs: true
+- test
+- konditionstest
+- indirekte test
+- steptest
+last_modified_at: '2025-03-03T23:14:14Z'
+toc: 'true'
+breadcrumbs: 'true'
 ---
 
 YMCA’s modified 3-minutters steptest ligner den originale [YMCA steptest](/ymca-3-minutters-steptest/). I tre minutter træder du op og ned af en boks, og efterfølgende teager du din puls. Her udregner du højden på boksen ud fra din højde.

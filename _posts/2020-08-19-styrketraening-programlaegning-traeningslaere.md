@@ -1,24 +1,27 @@
 ---
-title: &title "Træningslære – Grundprincipperne bag effektiv styrketræning"
-seo_title: "Træningslære – Sådan bliver du stærkere med de rette principper"
-excerpt: "Forstå de vigtigste principper i træningslære: overbelastning, specifik tilpasning og restitution. Optimer din styrketræning med viden."
-description: "Forstå de vigtigste principper i træningslære: overbelastning, specifik tilpasning og restitution. Optimer din styrketræning med viden."
+title: Træningslære – Grundprincipperne bag effektiv styrketræning
+seo_title: Træningslære – Sådan bliver du stærkere med de rette principper
+excerpt: 'Forstå de vigtigste principper i træningslære: overbelastning, specifik tilpasning og restitution. Optimer din styrketræning
+  med viden.'
+description: 'Forstå de vigtigste principper i træningslære: overbelastning, specifik tilpasning og restitution. Optimer din
+  styrketræning med viden.'
 permalink: /styrketraening/traeningslaere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544021601-3e5723f9d333?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1544021601-3e5723f9d333?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1544021601-3e5723f9d333.jpg
+  credit: https://images.unsplash.com/photo-1544021601-3e5723f9d333
+  teaser: /assets/images/unsplash/photo-1544021601-3e5723f9d333.jpg
+  caption: Træningslære – Grundprincipperne bag effektiv styrketræning
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - programlægning
-  - styrketræning
-  - begynder
-  - guide
-  - træningslære
-last_modified_at: 2025-02-23T08:14:14Z
-toc: true
+- programlægning
+- styrketræning
+- begynder
+- guide
+- træningslære
+last_modified_at: '2025-02-23T08:14:14Z'
+toc: 'true'
 ---
 
 Hvad skal der til for at blive stærkere og få resultater af sin styrketræning? Træningslære giver dig de grundlæggende principper, som styrer, hvordan kroppen reagerer på belastning. Forstå [vigtige træningsbegreber](/traeningsprincipper/) som progressiv overbelastning, specificitet og restitution, så du kan strukturere din træning optimalt.

@@ -1,20 +1,22 @@
 ---
-title: &title "Yogaøvelser: Yogastillinger og øvelser til yoga 🧘‍♂️"
+title: 'Yogaøvelser: Yogastillinger og øvelser til yoga 🧘‍♂️'
 permalink: /yogastillinger-yogaovelser/
-excerpt: "Jeg har samlet en række gode yogaøvelser og yogastillinger, som du kan gå i gang med allerede i dag. Yogaøvelser er rigtig gode at bruge alene som træning, men fungerer også rigtig godt i opvarmning til andre idrætsgrene."
-last_modified_at: 2020-08-22T09:41:09Z
+excerpt: Jeg har samlet en række gode yogaøvelser og yogastillinger, som du kan gå i gang med allerede i dag. Yogaøvelser
+  er rigtig gode at bruge alene som træning, men fungerer også rigtig godt i opvarmning til andre idrætsgrene.
+last_modified_at: '2020-08-22T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1544367567-0f2fcb009e0b.jpg
+  credit: https://images.unsplash.com/photo-1544367567-0f2fcb009e0b
+  teaser: /assets/images/unsplash/photo-1544367567-0f2fcb009e0b.jpg
+  caption: 'Yogaøvelser: Yogastillinger og øvelser til yoga 🧘‍♂️'
 category:
-  - Yoga
+- Yoga
 tags:
-  - træningsøvelser
-  - yogaøvelser
-  - yoga
-  - øvelser
+- træningsøvelser
+- yogaøvelser
+- yoga
+- øvelser
 ---
 
 Jeg har samlet en række gode yogaøvelser og yogastillinger, som du kan gå i gang med allerede i dag. Yogaøvelser er rigtig gode at bruge alene som træning, men fungerer også rigtig godt i opvarmning til andre idrætsgrene.

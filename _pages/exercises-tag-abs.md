@@ -1,27 +1,34 @@
 ---
 layout: single
 permalink: /maveoevelser/
-title: "Maveøvelser: De mest effektive øvelser til mavetræning 🏋"
-seo_title: "Mavetræning: 10+ mest effektive maveøvelser til styrketræning"
-excerpt: "Vi har samlet alle de effektive maveøvelser her. Uanset om målet med din mavetræning er at få en stærk core, markeret sixpack eller en flad mave, så er øvelserne perfekte, effektive og udfordrende"
-author_profile: true
-toc: true
+title: 'Maveøvelser: De mest effektive øvelser til mavetræning 🏋'
+seo_title: 'Mavetræning: 10+ mest effektive maveøvelser til styrketræning'
+excerpt: Vi har samlet alle de effektive maveøvelser her. Uanset om målet med din mavetræning er at få en stærk core, markeret
+  sixpack eller en flad mave, så er øvelserne perfekte, effektive og udfordrende
+author_profile: 'true'
+toc: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Maveøvelser: De mest effektive øvelser til maven"
+  overlay_image: /assets/images/unsplash/photo-1583454156935-ba06aef90b3f.jpg
+  credit: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f
+  teaser: /assets/images/unsplash/photo-1583454156935-ba06aef90b3f.jpg
+  caption: 'Maveøvelser: De mest effektive øvelser til maven'
 category:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
 faq:
-  - question: "Hvad er et godt træningsprogram for mave?"
-    answer: "I et træningsprogram kan du vælge 1-3 varianter af maveøvelser, hvor du sørger for at arbejde med både rotationer og anti-rotation, men også stabilisering af maven. Det er en god ide at huske at træne relativt hårdt. Som med al styrketræning, så kan det også være fint at træne med færre reps i et mavetræningsprogram."
-  - question: "Hvilke maveøvelser giver sixpack?"
-    answer: "Der er ingen maveøvelser, der i sig giver dig sixpack. At få en markeret mave kræver mere muskelmasse og en lavere fedtprocent. Jeg har skrevet mere om, hvad der skal til for at få en flad mave her."
-  - question: "Kan man forbrænde fedt på maven med maveøvelser?"
-    answer: "Nej. Du kan [ikke punktforbrænde fedt på maven](/tab-fedt-paa-maven/) ved at lave en magisk maveøvelse. Hvis du gerne vil have synlige mavemuskler, så skal du sørge for at få større mavemuskler samtidig med, at du taber fedt på maven. Derfor skal det meste af arbejdet laves i køkkenet, hvis du vil have en sixpack."
+- question: Hvad er et godt træningsprogram for mave?
+  answer: I et træningsprogram kan du vælge 1-3 varianter af maveøvelser, hvor du sørger for at arbejde med både rotationer
+    og anti-rotation, men også stabilisering af maven. Det er en god ide at huske at træne relativt hårdt. Som med al styrketræning,
+    så kan det også være fint at træne med færre reps i et mavetræningsprogram.
+- question: Hvilke maveøvelser giver sixpack?
+  answer: Der er ingen maveøvelser, der i sig giver dig sixpack. At få en markeret mave kræver mere muskelmasse og en lavere
+    fedtprocent. Jeg har skrevet mere om, hvad der skal til for at få en flad mave her.
+- question: Kan man forbrænde fedt på maven med maveøvelser?
+  answer: Nej. Du kan [ikke punktforbrænde fedt på maven](/tab-fedt-paa-maven/) ved at lave en magisk maveøvelse. Hvis du
+    gerne vil have synlige mavemuskler, så skal du sørge for at få større mavemuskler samtidig med, at du taber fedt på maven.
+    Derfor skal det meste af arbejdet laves i køkkenet, hvis du vil have en sixpack.
 ---
 
 Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op.

@@ -1,52 +1,57 @@
 ---
-title: &title "Bioimpedansmåling (BIA): Teknologi og præcision"
-seo_title: "Bioimpedansmåling – Forstå kropsanalyse med de populære vægte"
-description: "Bioimpedans bruges til at måle fedtprocent og kropskomposition. Lær, hvordan kropsanalysen fungerer, og hvilke faktorer der påvirker måleresultaterne."
+title: 'Bioimpedansmåling (BIA): Teknologi og præcision'
+seo_title: Bioimpedansmåling – Forstå kropsanalyse med de populære vægte
+description: Bioimpedans bruges til at måle fedtprocent og kropskomposition. Lær, hvordan kropsanalysen fungerer, og hvilke
+  faktorer der påvirker måleresultaterne.
 permalink: /bioimpedans-maaling/
 redirect_from:
-  - /bioimpedans/
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. Nogle af de moderne kropsanalysevægte er pålidelige. Find ud af hvordan og hvornår?"
+- /bioimpedans/
+excerpt: Du kan måle din fedtprocent og kropskomposition med bioimpedans. Nogle af de moderne kropsanalysevægte er pålidelige.
+  Find ud af hvordan og hvornår?
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
+  overlay_image: /assets/images/unsplash/photo-1501525547-7b008cf72da5.jpg
+  credit: https://images.unsplash.com/photo-1501525547-7b008cf72da5
   alt: Photo by Yannis Papanastasopoulos on Unsplash
-  caption: *title
-  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  caption: 'Bioimpedansmåling (BIA): Teknologi og præcision'
+  teaser: /assets/images/unsplash/photo-1501525547-7b008cf72da5.jpg
 category:
-  - Tests
-  - Fedtprocent
-breadcrumbs: true
+- Tests
+- Fedtprocent
+breadcrumbs: 'true'
 tags:
-  - måling
-  - test
-  - fedtprocent
-  - kropskomposition
-  - bioimpedans
-  - metode
+- måling
+- test
+- fedtprocent
+- kropskomposition
+- bioimpedans
+- metode
 meta:
   name: Bioimpedansmåling
   equipment: bioimpedans-vægt
   measures: kropskomposition og fedtprocent
   type: kropskomposition
-last_modified_at: 2025-02-06T23:14:14Z
-toc: true
+last_modified_at: '2025-02-06T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
-    alt: "Tanita DC 360P Kropsanalysevægt test"
-    title: "Tanita DC 360P Kropsanalysevægt"
-    excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
-    alt: "Tanita MC 780 kropsanalysevægt til test"
-    title: "Tanita MC 780 P MA"
-    excerpt: "På Tanita MC 780 kan du lave en interaktiv kropsanalysevægt test. Vægten er let at benytte. Med det todelte display kan du nemt overskue de målte og beregnede data."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+  alt: Tanita DC 360P Kropsanalysevægt test
+  title: Tanita DC 360P Kropsanalysevægt
+  excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
+    det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+  alt: Tanita MC 780 kropsanalysevægt til test
+  title: Tanita MC 780 P MA
+  excerpt: På Tanita MC 780 kan du lave en interaktiv kropsanalysevægt test. Vægten er let at benytte. Med det todelte display
+    kan du nemt overskue de målte og beregnede data.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 **Bioimpedansmåling** er en enkel og tilgængelig metode til at [måle fedtprocent](/maal-fedtprocent/) og [kropssammensætning](/kropskomposition/). 

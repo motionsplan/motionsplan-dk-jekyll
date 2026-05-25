@@ -1,19 +1,20 @@
 ---
-title: &title "Fysikken og kræfterne bag det horisontale spring"
-seo_title: "Hvad er fysikken og kræfterne bag det horisontale spring?"
+title: Fysikken og kræfterne bag det horisontale spring
+seo_title: Hvad er fysikken og kræfterne bag det horisontale spring?
 permalink: /fysik-horisontalt-hop/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1473091540282-9b846e7965e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1473091540282-9b846e7965e3.jpg
+  credit: https://images.unsplash.com/photo-1473091540282-9b846e7965e3
 category:
-  - Træning
-  - Springtræning
+- Træning
+- Springtræning
 tags:
-  - spring
-  - fysik
-  - biomekanik
-last_modified_at: 2021-11-19T08:14:14Z
-toc: true
+- spring
+- fysik
+- biomekanik
+last_modified_at: '2021-11-19T08:14:14Z'
+toc: 'true'
 ---
 
 Det horisontale hop bliver ofte brugt som en test for styrken i benene. Fordelen ved _[broad jump](/broadjump/)_ er, at det er relativt let at teste og måle.

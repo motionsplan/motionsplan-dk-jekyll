@@ -1,42 +1,50 @@
 ---
 layout: single
-toc: true
+toc: 'true'
 permalink: /tests/loeb/
-excerpt: "Få overblik over løbetests til at måle din form og fremgang. Find den rette test til dit niveau og optimer din træning med præcise målinger."
-description: "Udforsk vores omfattende samling af løbetests designet til at vurdere din kondition og spore dine træningsfremskridt. Find den rette test for dit niveau og dine mål."
-title: &title "Løbetests - for alle niveauer"
-seo_title: "Løbetests - din guide til test af træning i løb"
-author_profile: true
+excerpt: Få overblik over løbetests til at måle din form og fremgang. Find den rette test til dit niveau og optimer din træning
+  med præcise målinger.
+description: Udforsk vores omfattende samling af løbetests designet til at vurdere din kondition og spore dine træningsfremskridt.
+  Find den rette test for dit niveau og dine mål.
+title: Løbetests - for alle niveauer
+seo_title: Løbetests - din guide til test af træning i løb
+author_profile: 'true'
 category:
-  - Tests
+- Tests
 header:
-  overlay_image: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1534185468818-f3eba1d779c0.jpg
+  credit: https://images.unsplash.com/photo-1534185468818-f3eba1d779c0
+  teaser: /assets/images/unsplash/photo-1534185468818-f3eba1d779c0.jpg
+  caption: Løbetests - for alle niveauer
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-calculator'></i> Gå til oversigten"
-      url: "/tests/loeb/#l%C3%B8betests---samlet-oversigt"
-    - label: "<i class='fas fa-tools'></i> Se løbeberegnere"
-      url: "/loeb/vaerktoejer/"
-breadcrumbs: true
+  - label: <i class='fas fa-calculator'></i> Gå til oversigten
+    url: /tests/loeb/#l%C3%B8betests---samlet-oversigt
+  - label: <i class='fas fa-tools'></i> Se løbeberegnere
+    url: /loeb/vaerktoejer/
+breadcrumbs: 'true'
 classes: wide
 feature_row_loebesiden:
-  - image_path: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Løb og løbetræning"
-    title: "Guide til løb og løbetræning"
-    excerpt: "På løbesiden kan du finde masser af ressoucer og tips og tricks fra eksperter på, hvordan du kan planlægge din løbetræning, så du får resultater."
-    url: "/loebesiden/"
-    btn_label: "Læs mere om løb"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
+  credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
+  alt: Løb og løbetræning
+  title: Guide til løb og løbetræning
+  excerpt: På løbesiden kan du finde masser af ressoucer og tips og tricks fra eksperter på, hvordan du kan planlægge din
+    løbetræning, så du får resultater.
+  url: /loebesiden/
+  btn_label: Læs mere om løb
+  btn_class: btn--success
 feature_row_cooper_test:
-  - image_path: https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Cooper-test"
-    title: "Cooper-test eller 2400 meter test"
-    excerpt: "Hvis du ikke har adgang til et laboratorie og måleudstyr, så er Coopers 12 minutters løbetest eller [2400 meter testen](/kondital-2400-meter/) et rigtig godt bud på en maksimal konditionstest. Du kan også vælge [bib-testen](/kondital-2400-meter/), som er let at udføre på begrænset plads."
-    url: "/cooper-test/"
-    btn_label: "Prøv Cooper-testen"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1496163668521-39614a16b23f.jpg
+  credit: https://images.unsplash.com/photo-1496163668521-39614a16b23f
+  alt: Cooper-test
+  title: Cooper-test eller 2400 meter test
+  excerpt: Hvis du ikke har adgang til et laboratorie og måleudstyr, så er Coopers 12 minutters løbetest eller [2400 meter
+    testen](/kondital-2400-meter/) et rigtig godt bud på en maksimal konditionstest. Du kan også vælge [bib-testen](/kondital-2400-meter/),
+    som er let at udføre på begrænset plads.
+  url: /cooper-test/
+  btn_label: Prøv Cooper-testen
+  btn_class: btn--info
 ---
 
 Løbetests er en effektiv måde at måle din kondition, overvåge din træningsfremgang og sætte realistiske mål.

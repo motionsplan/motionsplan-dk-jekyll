@@ -1,52 +1,53 @@
 ---
-title: &title "De bedste trænings og fitness apps"
-seo_title: "De bedste fitness og trænings apps i 2025"
+title: De bedste trænings og fitness apps
+seo_title: De bedste fitness og trænings apps i 2025
 permalink: /fitness-apps/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1434494878577-86c23bcb06b9.jpg
+  credit: https://images.unsplash.com/photo-1434494878577-86c23bcb06b9
+  teaser: /assets/images/unsplash/photo-1434494878577-86c23bcb06b9.jpg
+  caption: De bedste trænings og fitness apps
 category:
-  - Træning
+- Træning
 tags:
-  - træning
-  - hjemmetræning
-last_modified_at: 2023-01-01T08:14:14Z
-toc: true
+- træning
+- hjemmetræning
+last_modified_at: '2023-01-01T08:14:14Z'
+toc: 'true'
 skadefri:
-  - image_path: /assets/images/apps/skadefri-1.jpg
-    url: /assets/images/apps/skadefri-1.jpg
-    title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret trænings app"
-  - image_path: /assets/images/apps/skadefri-2.jpg
-    url: /assets/images/apps/skadefri-2.jpg
-    title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret træning app"
-  - image_path: /assets/images/apps/skadefri-3.jpg
-    url: /assets/images/apps/skadefri-3.jpg
-    title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret trænings app"
+- image_path: /assets/images/apps/skadefri-1.jpg
+  url: /assets/images/apps/skadefri-1.jpg
+  title: Træn med Forsvaret træning app
+  alt: Træn med Forsvaret trænings app
+- image_path: /assets/images/apps/skadefri-2.jpg
+  url: /assets/images/apps/skadefri-2.jpg
+  title: Træn med Forsvaret træning app
+  alt: Træn med Forsvaret træning app
+- image_path: /assets/images/apps/skadefri-3.jpg
+  url: /assets/images/apps/skadefri-3.jpg
+  title: Træn med Forsvaret træning app
+  alt: Træn med Forsvaret trænings app
 tmf:
-  - image_path: /assets/images/apps/tmf-1.jpg
-    url: /assets/images/apps/tmf-1.jpg
-    title: "Træn med Forsvaret trænings app" 
-    alt: "Træn med Forsvaret træningsapp"
-  - image_path: /assets/images/apps/tmf-2.jpg
-    url: /assets/images/apps/tmf-2.jpg
-    title: "Træn med Forsvaret træning app" 
-    alt: "Træn med Forsvaret træning app"
-  - image_path: /assets/images/apps/tmf-3.jpg
-    url: /assets/images/apps/tmf-3.jpg
-    title: "Træn med Forsvaret trænings app" 
-    alt: "Træn med Forsvaret træningsapp"
+- image_path: /assets/images/apps/tmf-1.jpg
+  url: /assets/images/apps/tmf-1.jpg
+  title: Træn med Forsvaret trænings app
+  alt: Træn med Forsvaret træningsapp
+- image_path: /assets/images/apps/tmf-2.jpg
+  url: /assets/images/apps/tmf-2.jpg
+  title: Træn med Forsvaret træning app
+  alt: Træn med Forsvaret træning app
+- image_path: /assets/images/apps/tmf-3.jpg
+  url: /assets/images/apps/tmf-3.jpg
+  title: Træn med Forsvaret trænings app
+  alt: Træn med Forsvaret træningsapp
 elitehrv:
-  - image_path: /assets/images/apps/elitehrv-1.jpg
-    url: /assets/images/apps/elitehrv-1.jpg
-  - image_path: /assets/images/apps/elitehrv-2.jpg
-    url: /assets/images/apps/elitehrv-2.jpg
-  - image_path: /assets/images/apps/elitehrv-3.jpg
-    url: /assets/images/apps/elitehrv-3.jpg
+- image_path: /assets/images/apps/elitehrv-1.jpg
+  url: /assets/images/apps/elitehrv-1.jpg
+- image_path: /assets/images/apps/elitehrv-2.jpg
+  url: /assets/images/apps/elitehrv-2.jpg
+- image_path: /assets/images/apps/elitehrv-3.jpg
+  url: /assets/images/apps/elitehrv-3.jpg
 ---
 
 Markedet er næsten oversvømmet af fitness apps og træningsapps. Du kan få apps til at tracke din træning og din kost, men det kan være svært at vælge mellem alle mulighederne, når du står i app store.

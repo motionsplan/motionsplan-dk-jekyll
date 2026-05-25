@@ -1,22 +1,25 @@
 ---
-title: &title "Helkropsprogrammer til styrketræning"
-seo_title: "Fullbody – find det rette program til at træne hele kroppen"
-excerpt: "Find et fullbody styrketræningsprogram, der passer til dit niveau og din hverdag. Vi har helkropsprogrammer til både begyndere og øvede."
-description: "Find et fullbody styrketræningsprogram, der passer til dit niveau og din hverdag. Vi har helkropsprogrammer til både begyndere og øvede."
+title: Helkropsprogrammer til styrketræning
+seo_title: Fullbody – find det rette program til at træne hele kroppen
+excerpt: Find et fullbody styrketræningsprogram, der passer til dit niveau og din hverdag. Vi har helkropsprogrammer til både
+  begyndere og øvede.
+description: Find et fullbody styrketræningsprogram, der passer til dit niveau og din hverdag. Vi har helkropsprogrammer til
+  både begyndere og øvede.
 permalink: /styrketraening/helkropsprogrammer/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1520948013839-62020f374478.jpg
+  credit: https://images.unsplash.com/photo-1520948013839-62020f374478
+  teaser: /assets/images/unsplash/photo-1520948013839-62020f374478.jpg
+  caption: Helkropsprogrammer til styrketræning
 tags:
-  - styrketræning
-  - begynder
-  - øvet
-  - fullbody
+- styrketræning
+- begynder
+- øvet
+- fullbody
 category:
-  - Styrketræning
-last_modified_at: 2025-04-03T11:44:17Z
+- Styrketræning
+last_modified_at: '2025-04-03T11:44:17Z'
 classes: wide
 ---
 

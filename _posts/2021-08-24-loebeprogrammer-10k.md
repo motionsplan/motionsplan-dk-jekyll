@@ -1,22 +1,24 @@
 ---
-title: &title "Løbeprogram til 10 km"
+title: Løbeprogram til 10 km
 permalink: /loebeprogram-10km/
-excerpt: "Her kan du finde et løbeprogram til at komme i gang med at løbe 10 km. DU kan blive inspireret af programmet, hvis du gerne vil løbe 10 km som begynder eller træningen allerede har taget lidt mere fart."
+excerpt: Her kan du finde et løbeprogram til at komme i gang med at løbe 10 km. DU kan blive inspireret af programmet, hvis
+  du gerne vil løbe 10 km som begynder eller træningen allerede har taget lidt mere fart.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610969524113-bae462bb3892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1610969524113-bae462bb3892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1610969524113-bae462bb3892.jpg
+  credit: https://images.unsplash.com/photo-1610969524113-bae462bb3892
+  teaser: /assets/images/unsplash/photo-1610969524113-bae462bb3892.jpg
+  caption: Løbeprogram til 10 km
 category:
-  - Løb
-  - Løbeprogrammer
+- Løb
+- Løbeprogrammer
 tags:
-  - løbeprogram
-  - træningsprogram
-  - 10 km
-  - løb
-last_modified_at: 2021-08-22T23:14:14Z
-toc: true
+- løbeprogram
+- træningsprogram
+- 10 km
+- løb
+last_modified_at: '2021-08-22T23:14:14Z'
+toc: 'true'
 ---
 
 {{ page.excerpt }}

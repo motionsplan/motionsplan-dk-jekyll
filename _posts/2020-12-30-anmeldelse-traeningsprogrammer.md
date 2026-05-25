@@ -1,66 +1,60 @@
 ---
-title: &title "Anmeldelser: Hvad er det bedste styrketræningsprogram? 🥇"
-seo_title: "Hvad er det bedste styrketræningsprogram? [Anmeldelser] 🥇"
-description: "Læs anmeldelser af styrketræningsprogrammer, så du kan vælge det bedste program til dine mål. Få indsigt i teori og erfaringer med de mest populære programmer."
-excerpt: "Læs anmeldelser af styrketræningsprogrammer, så du kan vælge det bedste program til dine mål. Få indsigt i teori og erfaringer med de mest populære programmer."
+title: 'Anmeldelser: Hvad er det bedste styrketræningsprogram? 🥇'
+seo_title: Hvad er det bedste styrketræningsprogram? [Anmeldelser] 🥇
+description: Læs anmeldelser af styrketræningsprogrammer, så du kan vælge det bedste program til dine mål. Få indsigt i teori
+  og erfaringer med de mest populære programmer.
+excerpt: Læs anmeldelser af styrketræningsprogrammer, så du kan vælge det bedste program til dine mål. Få indsigt i teori
+  og erfaringer med de mest populære programmer.
 permalink: /anmeldelse-traeningsprogrammer/
 redirect_from:
-  - /artikel/opbygning-af-program/
+- /artikel/opbygning-af-program/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1516481157630-05bc0aeb8b19.jpg
+  credit: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19
+  teaser: /assets/images/unsplash/photo-1516481157630-05bc0aeb8b19.jpg
+  caption: 'Anmeldelser: Hvad er det bedste styrketræningsprogram? 🥇'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - liste
-  - moc
-last_modified_at: 2025-04-19T22:21:26Z
+- styrketræning
+- liste
+- moc
+last_modified_at: '2025-04-19T22:21:26Z'
 feature_row_programs:
-  - image_path: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-    url: /greyskull-lp/
-    title: "GreySkull LP"  
-    excerpt: |  
-      GreySkull LP er et solidt program for begyndere, der ønsker at bygge styrke og muskelmasse hurtigt. Fokuserer på de store løft med lineær progression og AMRAP-sæt for konstant fremgang.
-
-      🏋️‍♂️ **Perfekt til begyndere**<br>
-      ✅ Lineær progression (LP)<br>
-      ✅ AMRAP for øget intensitet<br>
-      ✅ Fokus på de store løft<br>
-      ✅ Tilpasset til at bygge fundament  
-    btn_class: "btn--info"  
-    btn_label: Læs om GreySkull LP  
-    rel: sponsored nofollow noopener
-  - image_path: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    url: /texas-method/ 
-    title: "Texas Method"  
-    excerpt: |  
-      Texas Method er et effektivt program til øvede med en kombination af volumen og intensitet. Perfekt til dem, der har været i gang et stykke tid og har brug for ny variation.
-
-      🔥 **God til letøvet & øvet**<br>
-      ✅ 3 træningsdage om ugen<br>
-      ✅ Progression volumen og intensitet<br>
-      ✅ Ideel til øvede styrkeløftere<br>
-      ✅ Testet og bevist gennem tid  
-    btn_class: "btn--success"  
-    btn_label: Læs om Texas Method  
-    rel: sponsored nofollow noopener
-  - image_path: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    url: /rts-generalized-intermediate/ 
-    title: "RTS Program"  
-    excerpt: |  
-      RTS er bredt anerkendt som det mest avancerede og tilpassede system for styrkeløftere. Brug autoregulering og individuel periodisering til at løfte dit total til næste niveau.
-
-      🧠 **Avanceret progression**<br>
-      ✅ Autoregulering (RPE-baseret træning)<br>
-      ✅ Høj grad af individualisering<br>
-      ✅ Udviklet af Mike Tuchscherer<br>
-      ✅ Ideel til dedikerede løftere  
-    btn_class: "btn--warning"  
-    btn_label: Læs anmeldelse  
-    rel: sponsored nofollow noopener
+- image_path: /assets/images/unsplash/photo-1534438097545-a2c22c57f2ad.jpg
+  credit: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad
+  url: /greyskull-lp/
+  title: GreySkull LP
+  excerpt: "GreySkull LP er et solidt program for begyndere, der ønsker at bygge styrke og muskelmasse hurtigt. Fokuserer\
+    \ på de store løft med lineær progression og AMRAP-sæt for konstant fremgang.\n\n\U0001F3CB️‍♂️ **Perfekt til begyndere**<br>\n\
+    ✅ Lineær progression (LP)<br>\n✅ AMRAP for øget intensitet<br>\n✅ Fokus på de store løft<br>\n✅ Tilpasset til at bygge\
+    \ fundament  \n"
+  btn_class: btn--info
+  btn_label: Læs om GreySkull LP
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/unsplash/photo-1550977616-efc580084ac5.jpg
+  credit: https://images.unsplash.com/photo-1550977616-efc580084ac5
+  url: /texas-method/
+  title: Texas Method
+  excerpt: "Texas Method er et effektivt program til øvede med en kombination af volumen og intensitet. Perfekt til dem, der\
+    \ har været i gang et stykke tid og har brug for ny variation.\n\n\U0001F525 **God til letøvet & øvet**<br>\n✅ 3 træningsdage\
+    \ om ugen<br>\n✅ Progression volumen og intensitet<br>\n✅ Ideel til øvede styrkeløftere<br>\n✅ Testet og bevist gennem\
+    \ tid  \n"
+  btn_class: btn--success
+  btn_label: Læs om Texas Method
+  rel: sponsored nofollow noopener
+- image_path: /assets/images/unsplash/photo-1574680096145-d05b474e2155.jpg
+  credit: https://images.unsplash.com/photo-1574680096145-d05b474e2155
+  url: /rts-generalized-intermediate/
+  title: RTS Program
+  excerpt: "RTS er bredt anerkendt som det mest avancerede og tilpassede system for styrkeløftere. Brug autoregulering og\
+    \ individuel periodisering til at løfte dit total til næste niveau.\n\n\U0001F9E0 **Avanceret progression**<br>\n✅ Autoregulering\
+    \ (RPE-baseret træning)<br>\n✅ Høj grad af individualisering<br>\n✅ Udviklet af Mike Tuchscherer<br>\n✅ Ideel til dedikerede\
+    \ løftere  \n"
+  btn_class: btn--warning
+  btn_label: Læs anmeldelse
+  rel: sponsored nofollow noopener
 classes: wide
 ---
 

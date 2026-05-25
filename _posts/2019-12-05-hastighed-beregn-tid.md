@@ -1,50 +1,59 @@
 ---
-title: &title "Beregn tid ud fra distance og fart"
-seo_title: "Hvor lang tid tager det? Beregn tid ud fra distance og fart"
-description: "Udregn hvor lang tid det tager at tilbagelægge en bestemt distance med en given hastighed. Få resultatet i timer, minutter og sekunder."
+title: Beregn tid ud fra distance og fart
+seo_title: Hvor lang tid tager det? Beregn tid ud fra distance og fart
+description: Udregn hvor lang tid det tager at tilbagelægge en bestemt distance med en given hastighed. Få resultatet i timer,
+  minutter og sekunder.
 permalink: /hastighed/beregn-tid/
-excerpt: "Udregn hvor lang tid det tager at tilbagelægge en bestemt distance med en given hastighed. Få resultatet i timer, minutter og sekunder."
+excerpt: Udregn hvor lang tid det tager at tilbagelægge en bestemt distance med en given hastighed. Få resultatet i timer,
+  minutter og sekunder.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1727848966760-4c58b3763949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1727848966760-4c58b3763949.jpg
+  credit: https://images.unsplash.com/photo-1727848966760-4c58b3763949
+  caption: Beregn tid ud fra distance og fart
 category:
-  - Beregnere
-  - Hastighed
+- Beregnere
+- Hastighed
 tags:
-  - beregner
-  - løb
-  - cykling
+- beregner
+- løb
+- cykling
 meta:
   name: Beregn tid fra distance og fart
   equipment: ingen
   measures: hastighed og pace
   type: løb, gang og cykling
-last_modified_at: 2025-03-30T12:14:14Z
-toc: true
+last_modified_at: '2025-03-30T12:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/freebies/hastighed-og-pace.png
-    title: "Skema med hastighed og pace"
-    excerpt: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
-    url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
-    btn_label: "<i class='fas fa-file-alt'></i> Udskriv hastighedstabel"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/hastighed-og-pace.png
+  title: Skema med hastighed og pace
+  excerpt: Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer
+    til i dit pace i min/km.
+  url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
+  btn_label: <i class='fas fa-file-alt'></i> Udskriv hastighedstabel
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvordan beregner jeg, hvor lang tid det tager at løbe eller cykle en bestemt distance?"
-    answer: "Du skal kende din hastighed – fx i km/t – og gange den omvendt med distancen. Det kan gøres med formlen: Tid (minutter) = (Distance * 60) / Hastighed. Du kan også bruge beregneren øverst på siden for at få resultatet automatisk."
-  - question: "Hvad betyder det, at resultatet vises i timer, minutter og sekunder?"
-    answer: "Når du bruger beregneren, bliver tiden omregnet til et letforståeligt format – fx 1 time, 25 minutter og 30 sekunder – i stedet for kun minutter eller decimaler. Det gør det nemmere at planlægge din træning eller gennemføre et løb."
-  - question: "Hvad gør jeg, hvis jeg kun kender mit tempo i min/km og ikke km/t?"
-    answer: "Hvis du har tempo i min/km, skal du først omregne det til km/t for at bruge beregneren. Du kan bruge vores [omregner mellem km/t og min/km](/hastighed/omregner-tempo-fart/) til det."
-  - question: "Kan jeg bruge beregneren til både løb og cykling?"
-    answer: "Ja, beregneren virker både til løb, gang og cykling – så længe du kender hastigheden og distancen. Den tager ikke højde for underlag eller terræn, men giver et godt udgangspunkt for planlægning."
-  - question: "Hvordan kan jeg bruge resultatet i min træning?"
-    answer: "Når du kender, hvor lang tid en distance tager ved en bestemt hastighed, kan du bruge det til at planlægge træningspas, konkurrencer eller restitutionsture. Det kan også hjælpe dig med at sætte realistiske mål."
+- question: Hvordan beregner jeg, hvor lang tid det tager at løbe eller cykle en bestemt distance?
+  answer: 'Du skal kende din hastighed – fx i km/t – og gange den omvendt med distancen. Det kan gøres med formlen: Tid (minutter)
+    = (Distance * 60) / Hastighed. Du kan også bruge beregneren øverst på siden for at få resultatet automatisk.'
+- question: Hvad betyder det, at resultatet vises i timer, minutter og sekunder?
+  answer: Når du bruger beregneren, bliver tiden omregnet til et letforståeligt format – fx 1 time, 25 minutter og 30 sekunder
+    – i stedet for kun minutter eller decimaler. Det gør det nemmere at planlægge din træning eller gennemføre et løb.
+- question: Hvad gør jeg, hvis jeg kun kender mit tempo i min/km og ikke km/t?
+  answer: Hvis du har tempo i min/km, skal du først omregne det til km/t for at bruge beregneren. Du kan bruge vores [omregner
+    mellem km/t og min/km](/hastighed/omregner-tempo-fart/) til det.
+- question: Kan jeg bruge beregneren til både løb og cykling?
+  answer: Ja, beregneren virker både til løb, gang og cykling – så længe du kender hastigheden og distancen. Den tager ikke
+    højde for underlag eller terræn, men giver et godt udgangspunkt for planlægning.
+- question: Hvordan kan jeg bruge resultatet i min træning?
+  answer: Når du kender, hvor lang tid en distance tager ved en bestemt hastighed, kan du bruge det til at planlægge træningspas,
+    konkurrencer eller restitutionsture. Det kan også hjælpe dig med at sætte realistiske mål.
 keywords:
-  - beregn løbetid
-  - tid ved løb
-  - beregn varighed
+- beregn løbetid
+- tid ved løb
+- beregn varighed
 ---
 
 Vil du vide, hvor lang tid det tager at løbe eller cykle en bestemt distance med en bestemt hastighed? Denne beregner giver dig hurtigt svaret – og omregner det til både timer, minutter og sekunder, så det er let at bruge i praksis.

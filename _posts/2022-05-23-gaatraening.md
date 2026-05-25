@@ -1,17 +1,18 @@
 ---
-title: &title "Gåtræning: Træningsprogrammer til at gå og gang"
-seo_title: "Gangtræning: Træningsprogrammer til at gå og gang"
+title: 'Gåtræning: Træningsprogrammer til at gå og gang'
+seo_title: 'Gangtræning: Træningsprogrammer til at gå og gang'
 permalink: /gangtraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
+  credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
+  caption: 'Gåtræning: Træningsprogrammer til at gå og gang'
 category:
-  - Træning
-  - Gang
+- Træning
+- Gang
 tags:
-  - gang
-last_modified_at: 2022-05-22T10:21:26Z
+- gang
+last_modified_at: '2022-05-22T10:21:26Z'
 ---
 
 Vil du gerne i gang med at træne lidt mere, mens du går. Så tjek alle forslagene her for inspiration til gåtræning.

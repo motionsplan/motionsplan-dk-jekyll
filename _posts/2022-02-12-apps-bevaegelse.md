@@ -1,24 +1,25 @@
 ---
-title: &title "Apps til bevægelse med familien og børn"
-seo_title: "Bevægelsesapps: 5 apps til motion til familien med børn"
+title: Apps til bevægelse med familien og børn
+seo_title: 'Bevægelsesapps: 5 apps til motion til familien med børn'
 permalink: /apps-bevaegelse-familie-boern/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1613288092085-eb081fde1509.jpg
+  credit: https://images.unsplash.com/photo-1613288092085-eb081fde1509
+  caption: Apps til bevægelse med familien og børn
 category:
-  - Udstyr & Teknologi
+- Udstyr & Teknologi
 tags:
-  - apps
-  - motionside
-  - børn
-  - udstyr
-last_modified_at: 2022-02-12T22:21:26Z
+- apps
+- motionside
+- børn
+- udstyr
+last_modified_at: '2022-02-12T22:21:26Z'
 gallery_goplaydot:
-  - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-1.jpg
-    alt: Go Play Dot - aktivitetsapp til børn
-  - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-2.jpg
-    alt: Go Play Dot - aktivitetsapp til børn
+- image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-1.jpg
+  alt: Go Play Dot - aktivitetsapp til børn
+- image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-2.jpg
+  alt: Go Play Dot - aktivitetsapp til børn
 ---
 
 Vil du gerne lave noget motiverende motion med dine børn og familien? Her er nogle bevægelsesapps, som børnefamilien kan samles om.

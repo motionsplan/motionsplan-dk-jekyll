@@ -1,39 +1,63 @@
 ---
-title: &title "Træningsfilosofier til løbetræningen"
-seo_title: "Træningsfilosofier til løbetræningen"
-description: "Lær forskellen på træningsprincipper og -filosofier i løb, og hvordan du opbygger træningen med progression, variation og individuel tilpasning."
-excerpt: "Lær forskellen på træningsprincipper og -filosofier i løb, og hvordan du opbygger træningen med progression, variation og individuel tilpasning."
+title: Træningsfilosofier til løbetræningen
+seo_title: Træningsfilosofier til løbetræningen
+description: Lær forskellen på træningsprincipper og -filosofier i løb, og hvordan du opbygger træningen med progression,
+  variation og individuel tilpasning.
+excerpt: Lær forskellen på træningsprincipper og -filosofier i løb, og hvordan du opbygger træningen med progression, variation
+  og individuel tilpasning.
 permalink: /traeningsfilosofier-loeb/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1719299246416-b4c069be9caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1719299246416-b4c069be9caf.jpg
+  credit: https://images.unsplash.com/photo-1719299246416-b4c069be9caf
+  caption: Træningsfilosofier til løbetræningen
 category:
-  - Løb
+- Løb
 tags:
-  - træning
-  - løb
-  - træningslære
-last_modified_at: 2025-01-27T22:21:26Z
+- træning
+- løb
+- træningslære
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Hvad er forskellen på en træningsfilosofi og et træningsprincip?
-    answer: >
-      En træningsfilosofi beskriver en overordnet tilgang til træning, der kan være baseret på en bestemt metode eller holdning, som fx Lydiards pyramide eller Canovas procentbaserede model. Filosofien definerer, hvordan du strukturerer din træning, og hvad der vægtes i forhold til mål og metoder. Et træningsprincip derimod er universelt og gælder for alle typer træning, såsom progression, variation og specificitet. Træningsprincipperne er de fundamentale regler, som sikrer effektiv træning og fremgang.
-  - question: Hvordan kan jeg bruge træningsfilosofier til at strukturere min løbetræning?
-    answer: >
-      Træningsfilosofier giver dig rammerne for, hvordan du bygger din træning op. Du kan vælge en filosofi, der passer til dit mål, såsom Lydiards pyramide for længere distancer eller Canovas model for mere intensiv og målrettet maratontræning. Filosofierne guider dig i forhold til, hvordan du skal fordele træningens intensitet og volumen over tid, og hvordan du opbygger en progression frem mod din konkurrence.
-  - question: Er det nødvendigt at følge en bestemt træningsfilosofi for at blive en bedre løber?
-    answer: >
-      Det er ikke nødvendigt at følge én bestemt filosofi, men det kan hjælpe med at give dig struktur og målrettethed i din træning. Det er vigtigt at vælge en filosofi, der passer til dine mål og træningsniveau. For eksempel, hvis du træner til et marathon, kan en filosofi som Canovas være ideel, mens Lydiards tilgang er bedre for dem, der ønsker at udvikle en solid udholdenhed på længere distancer.
-  - question: Kan jeg kombinere forskellige træningsfilosofier i min løbetræning?
-    answer: >
-      Ja, det er muligt at kombinere elementer fra forskellige træningsfilosofier, men det kræver en god forståelse for de principper, de bygger på. For eksempel kan du kombinere en grundlæggende udholdenhedstræning som i Lydiards model med kortere, intens intervaltræning som i Canovas filosofi, hvis dit mål er at forbedre både udholdenhed og fart. Det er dog vigtigt at sikre, at kombinationen er velafbalanceret og ikke overbelaster kroppen.
-  - question: Hvordan kan træningsprincipper som progression og variation hjælpe mig med at forbedre mine løbetider?
-    answer: >
-      Progression sikrer, at du gradvist øger intensiteten eller volumen i din træning, hvilket er nødvendigt for at fortsætte med at udfordre din krop og gøre fremskridt. Variation er også essentiel, da det forhindrer stagnation og holder din træning interessant. Ved at variere din træning kan du stimulere forskellige energisystemer og undgå overbelastning af de samme muskelgrupper. Begge principper arbejder sammen for at fremme kontinuerlig forbedring og undgå skader.
+- question: Hvad er forskellen på en træningsfilosofi og et træningsprincip?
+  answer: 'En træningsfilosofi beskriver en overordnet tilgang til træning, der kan være baseret på en bestemt metode eller
+    holdning, som fx Lydiards pyramide eller Canovas procentbaserede model. Filosofien definerer, hvordan du strukturerer
+    din træning, og hvad der vægtes i forhold til mål og metoder. Et træningsprincip derimod er universelt og gælder for alle
+    typer træning, såsom progression, variation og specificitet. Træningsprincipperne er de fundamentale regler, som sikrer
+    effektiv træning og fremgang.
+
+    '
+- question: Hvordan kan jeg bruge træningsfilosofier til at strukturere min løbetræning?
+  answer: 'Træningsfilosofier giver dig rammerne for, hvordan du bygger din træning op. Du kan vælge en filosofi, der passer
+    til dit mål, såsom Lydiards pyramide for længere distancer eller Canovas model for mere intensiv og målrettet maratontræning.
+    Filosofierne guider dig i forhold til, hvordan du skal fordele træningens intensitet og volumen over tid, og hvordan du
+    opbygger en progression frem mod din konkurrence.
+
+    '
+- question: Er det nødvendigt at følge en bestemt træningsfilosofi for at blive en bedre løber?
+  answer: 'Det er ikke nødvendigt at følge én bestemt filosofi, men det kan hjælpe med at give dig struktur og målrettethed
+    i din træning. Det er vigtigt at vælge en filosofi, der passer til dine mål og træningsniveau. For eksempel, hvis du træner
+    til et marathon, kan en filosofi som Canovas være ideel, mens Lydiards tilgang er bedre for dem, der ønsker at udvikle
+    en solid udholdenhed på længere distancer.
+
+    '
+- question: Kan jeg kombinere forskellige træningsfilosofier i min løbetræning?
+  answer: 'Ja, det er muligt at kombinere elementer fra forskellige træningsfilosofier, men det kræver en god forståelse for
+    de principper, de bygger på. For eksempel kan du kombinere en grundlæggende udholdenhedstræning som i Lydiards model med
+    kortere, intens intervaltræning som i Canovas filosofi, hvis dit mål er at forbedre både udholdenhed og fart. Det er dog
+    vigtigt at sikre, at kombinationen er velafbalanceret og ikke overbelaster kroppen.
+
+    '
+- question: Hvordan kan træningsprincipper som progression og variation hjælpe mig med at forbedre mine løbetider?
+  answer: 'Progression sikrer, at du gradvist øger intensiteten eller volumen i din træning, hvilket er nødvendigt for at
+    fortsætte med at udfordre din krop og gøre fremskridt. Variation er også essentiel, da det forhindrer stagnation og holder
+    din træning interessant. Ved at variere din træning kan du stimulere forskellige energisystemer og undgå overbelastning
+    af de samme muskelgrupper. Begge principper arbejder sammen for at fremme kontinuerlig forbedring og undgå skader.
+
+    '
 meta:
   name: Canova
   author: Mehdi Hadim

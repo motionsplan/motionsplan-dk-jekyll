@@ -1,23 +1,25 @@
 ---
-title: &title "Restitutionstid: Hvordan bliver jeg hurtigst klar til træning?"
-seo_title: "Restitutionstid: Hvor længe tager det at restituere?"
-excerpt: "Hvis du gerne vil træne ofte og have resultater, så er din restitutionstid vigtig. Hvordan kan du reducere den tid kroppen skal bruge på at genopbygge og hurtigst muligt blive klar til at træne igen?"
+title: 'Restitutionstid: Hvordan bliver jeg hurtigst klar til træning?'
+seo_title: 'Restitutionstid: Hvor længe tager det at restituere?'
+excerpt: Hvis du gerne vil træne ofte og have resultater, så er din restitutionstid vigtig. Hvordan kan du reducere den tid
+  kroppen skal bruge på at genopbygge og hurtigst muligt blive klar til at træne igen?
 permalink: /restitutionstid/
 redirect_from:
-  - /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen/
-  - /artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen
+- /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen/
+- /artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1591147810559-9ae8cc24c862?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  alt: "Photo by Cris Saur on Unsplash"
+  teaser: /assets/images/unsplash/photo-1591147810559-9ae8cc24c862.jpg
+  credit: https://images.unsplash.com/photo-1591147810559-9ae8cc24c862
+  caption: 'Restitutionstid: Hvordan bliver jeg hurtigst klar til træning?'
+  alt: Photo by Cris Saur on Unsplash
 category:
-  - Restitution
+- Restitution
 tags:
-  - restitution
-  - anbefalet
-last_modified_at: 2022-04-20T08:14:14Z
-toc: true
+- restitution
+- anbefalet
+last_modified_at: '2022-04-20T08:14:14Z'
+toc: 'true'
 ---
 
 Hvis du gerne vil træne ofte og have resultater, så er din restitutionstid vigtig. Hvordan kan du reducere den tid kroppen skal bruge på at genopbygge og hurtigst muligt blive klar til at træne igen?

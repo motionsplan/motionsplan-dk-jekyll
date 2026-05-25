@@ -1,18 +1,20 @@
 ---
 layout: single
 permalink: /brystoevelser/
-title: "Øvelser til brystet: Effektive styrketræningsøvelser til brystet 🏋"
-seo_title: "Brystøvelser: Effektive øvelser til træning af bryst"
-author_profile: true
+title: 'Øvelser til brystet: Effektive styrketræningsøvelser til brystet 🏋'
+seo_title: 'Brystøvelser: Effektive øvelser til træning af bryst'
+author_profile: 'true'
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet"
-excerpt: "Vi har samlet en række brystøvelser, som du kan bruge til din brysttræning. Når du vil træne dit bryst, så kan du vælge mellem forskellige øvelser."
+  overlay_image: /assets/images/unsplash/photo-1534368959876-26bf04f2c947.jpg
+  credit: https://images.unsplash.com/photo-1534368959876-26bf04f2c947
+  teaser: /assets/images/unsplash/photo-1534368959876-26bf04f2c947.jpg
+  caption: 'Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet'
+excerpt: Vi har samlet en række brystøvelser, som du kan bruge til din brysttræning. Når du vil træne dit bryst, så kan du
+  vælge mellem forskellige øvelser.
 categories:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
 ---

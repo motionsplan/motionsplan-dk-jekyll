@@ -1,15 +1,18 @@
 ---
-title: &title "2400-meter løbetest: Sådan beregner du dit kondital 🏃"
-seo_title: "Prøv 2400-meter testen - Beregn dit kondital i vores værktøj"
+title: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
+seo_title: Prøv 2400-meter testen - Beregn dit kondital i vores værktøj
 permalink: /kondital-2400-meter/
-excerpt: "På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne."
-description: "Test din kondition med 2400-meter løbetesten. Beregn dit kondital, sammenlign dine resultater, og få tips til at forbedre dit resultat."
+excerpt: På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital
+  og sammenligne dig med normerne.
+description: Test din kondition med 2400-meter løbetesten. Beregn dit kondital, sammenlign dine resultater, og få tips til
+  at forbedre dit resultat.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1585855822554-4d21c841708c.jpg
+  credit: https://images.unsplash.com/photo-1585855822554-4d21c841708c
+  caption: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
 category:
-  - Kondition
+- Kondition
 meta:
   name: 2400-meters løbetest
   measures: kondital
@@ -18,26 +21,26 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - løb
-  - polititest
-  - maksimal test
-  - indirekte test
-  - løbetest
-  - testberegner
-  - fitnesstest
-  - aerob test
-  - populær
-  - politi
-last_modified_at: 2022-10-06T22:12:12Z
+- test
+- konditionstest
+- løb
+- polititest
+- maksimal test
+- indirekte test
+- løbetest
+- testberegner
+- fitnesstest
+- aerob test
+- populær
+- politi
+last_modified_at: '2022-10-06T22:12:12Z'
 gallery_whyiexercise:
-  - image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
-    url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
-    title: "Normer for kvinder for 2400 meter testen"
-  - image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
-    url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
-    title: "Normer for mænd for 2400 meter testen"
+- image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
+  url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
+  title: Normer for kvinder for 2400 meter testen
+- image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+  url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+  title: Normer for mænd for 2400 meter testen
 ---
 
 Hvis du vil kende dit kondital, kan du tage 2400-meter testen. Her får du både en beregner og en guide til, hvordan du gennemfører Coopers modificerede test.

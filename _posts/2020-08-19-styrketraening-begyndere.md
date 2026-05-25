@@ -1,45 +1,58 @@
 ---
-title: &title "Styrketræning for begyndere – sådan starter du"
-seo_title: "Styrketræning for begyndere – Kom godt i gang"
-description: "Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning."
-excerpt: "Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater. Guide til begyndere i styrketræning."
+title: Styrketræning for begyndere – sådan starter du
+seo_title: Styrketræning for begyndere – Kom godt i gang
+description: Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater.
+  Guide til begyndere i styrketræning.
+excerpt: Er du ny til styrketræning? Lær hvordan du kommer i gang med det rette program, vælger øvelser og får resultater.
+  Guide til begyndere i styrketræning.
 permalink: /styrketraening/begyndere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1738523686534-7055df5858d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1738523686534-7055df5858d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1738523686534-7055df5858d6.jpg
+  credit: https://images.unsplash.com/photo-1738523686534-7055df5858d6
+  teaser: /assets/images/unsplash/photo-1738523686534-7055df5858d6.jpg
+  caption: Styrketræning for begyndere – sådan starter du
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - begynder
-  - guide
-last_modified_at: 2025-03-16T08:14:14Z
-toc: true
+- styrketræning
+- begynder
+- guide
+last_modified_at: '2025-03-16T08:14:14Z'
+toc: 'true'
 faq:
-  - question: "Hvor ofte skal jeg styrketræne som begynder?"
-    answer: "Som begynder anbefales det at styrketræne 2-3 gange om ugen for at give musklerne tid til at restituere og tilpasse sig."
-  - question: "Hvilke øvelser er bedst for begyndere?"
-    answer: "Grundlæggende flerledsøvelser som squat, dødløft, bænkpres, rows og skulderpres er gode valg, da de træner flere muskelgrupper samtidig, men du skal naturligvis vælge de øvelser, du gerne vil lave."
-  - question: "Hvor mange sæt og gentagelser skal jeg lave?"
-    answer: "Et godt udgangspunkt er 3 sæt af 8-12 gentagelser pr. øvelse. Dette giver en god balance mellem styrke og muskelopbygning."
-  - question: "Hvor meget vægt skal jeg starte med?"
-    answer: "Start med en vægt, du kan løfte med god teknik i 8-12 gentagelser. Første gang du skal lave en øvelse, så laver du nogle opvarmningssæt, og du øger bare vægten stille og roligt indtil du synes den passer ift. det antal gentagelser, du gerne vil lave. I de efterfølgende træningspas øger ud vægten gradvist, når du kan lave alle gentagelser uden problemer."
-  - question: "Skal jeg træne med frie vægte eller maskiner?"
-    answer: "Frie vægte aktiverer flere muskler og forbedrer koordination, men maskiner kan være gode til at lære bevægelser sikkert som begynder."
-  - question: "Hvor lang tid tager et træningspas?"
-    answer: "Et effektivt styrketræningspas varer typisk mellem 45 og 75 minutter, afhængigt af program og pauser mellem sæt. Men hvis du kun har 30 minutter, så er det bedre end 0 minutter."
-  - question: "Hvor lange pauser skal jeg holde mellem sættene?"
-    answer: "For muskelopbygning er 30-90 sekunder passende, mens 2-3 minutter kan være bedre for maksimal styrke. En tommelfingerregel kan væer, at du skal løfte igen, når du føler dig klar."
-  - question: "Hvordan undgår jeg skader i styrketræning?"
-    answer: "Fokuser på korrekt teknik, start med let vægt, varm op grundigt, og lyt til kroppen for at undgå overbelastning."
-  - question: "Kan jeg kombinere styrketræning med konditionstræning?"
-    answer: "Ja, men hvis målet er muskelopbygning, bør du prioritere styrketræning og placere konditionstræningen efter eller på separate dage."
-  - question: "Hvor hurtigt kan jeg se resultater af styrketræning?"
-    answer: "De fleste begyndere oplever styrkeøgning inden for få uger, mens synlige muskelændringer typisk tager 2-3 måneder med regelmæssig træning og god kost."
-  - question: Er styrketræning farligt?
-    answer: Nej! Styrketræning er ikke farligt. De fleste skader kommer, hvis du går for hurtigt frem. Så sørg for en fornuftig og stille og rolig plan.
+- question: Hvor ofte skal jeg styrketræne som begynder?
+  answer: Som begynder anbefales det at styrketræne 2-3 gange om ugen for at give musklerne tid til at restituere og tilpasse
+    sig.
+- question: Hvilke øvelser er bedst for begyndere?
+  answer: Grundlæggende flerledsøvelser som squat, dødløft, bænkpres, rows og skulderpres er gode valg, da de træner flere
+    muskelgrupper samtidig, men du skal naturligvis vælge de øvelser, du gerne vil lave.
+- question: Hvor mange sæt og gentagelser skal jeg lave?
+  answer: Et godt udgangspunkt er 3 sæt af 8-12 gentagelser pr. øvelse. Dette giver en god balance mellem styrke og muskelopbygning.
+- question: Hvor meget vægt skal jeg starte med?
+  answer: Start med en vægt, du kan løfte med god teknik i 8-12 gentagelser. Første gang du skal lave en øvelse, så laver
+    du nogle opvarmningssæt, og du øger bare vægten stille og roligt indtil du synes den passer ift. det antal gentagelser,
+    du gerne vil lave. I de efterfølgende træningspas øger ud vægten gradvist, når du kan lave alle gentagelser uden problemer.
+- question: Skal jeg træne med frie vægte eller maskiner?
+  answer: Frie vægte aktiverer flere muskler og forbedrer koordination, men maskiner kan være gode til at lære bevægelser
+    sikkert som begynder.
+- question: Hvor lang tid tager et træningspas?
+  answer: Et effektivt styrketræningspas varer typisk mellem 45 og 75 minutter, afhængigt af program og pauser mellem sæt.
+    Men hvis du kun har 30 minutter, så er det bedre end 0 minutter.
+- question: Hvor lange pauser skal jeg holde mellem sættene?
+  answer: For muskelopbygning er 30-90 sekunder passende, mens 2-3 minutter kan være bedre for maksimal styrke. En tommelfingerregel
+    kan væer, at du skal løfte igen, når du føler dig klar.
+- question: Hvordan undgår jeg skader i styrketræning?
+  answer: Fokuser på korrekt teknik, start med let vægt, varm op grundigt, og lyt til kroppen for at undgå overbelastning.
+- question: Kan jeg kombinere styrketræning med konditionstræning?
+  answer: Ja, men hvis målet er muskelopbygning, bør du prioritere styrketræning og placere konditionstræningen efter eller
+    på separate dage.
+- question: Hvor hurtigt kan jeg se resultater af styrketræning?
+  answer: De fleste begyndere oplever styrkeøgning inden for få uger, mens synlige muskelændringer typisk tager 2-3 måneder
+    med regelmæssig træning og god kost.
+- question: Er styrketræning farligt?
+  answer: Nej! Styrketræning er ikke farligt. De fleste skader kommer, hvis du går for hurtigt frem. Så sørg for en fornuftig
+    og stille og rolig plan.
 ---
 
 Vil du i gang med styrketræning, men er usikker på, hvor du skal starte? Denne guide hjælper dig med at forstå de vigtigste principper, så du træner effektivt og nyder træningen fra dag ét.

@@ -1,20 +1,22 @@
 ---
-title: &title "Mænd, beregn sandsynlighed for at dø af livsstilssygdomme"
+title: Mænd, beregn sandsynlighed for at dø af livsstilssygdomme
 permalink: /cooper-mortality/
-excerpt: "The Cooper Clinic Mortality Risk Index for Men kan ud fra simple parametre beregne mænds relative og absolutte risiko for at dø af livsstilssygdomme inden for 15 år."
+excerpt: The Cooper Clinic Mortality Risk Index for Men kan ud fra simple parametre beregne mænds relative og absolutte risiko
+  for at dø af livsstilssygdomme inden for 15 år.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1551104083-c046edeed47e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1551104083-c046edeed47e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1551104083-c046edeed47e.jpg
+  credit: https://images.unsplash.com/photo-1551104083-c046edeed47e
+  teaser: /assets/images/unsplash/photo-1551104083-c046edeed47e.jpg
+  caption: Mænd, beregn sandsynlighed for at dø af livsstilssygdomme
 category:
-  - Vurderingsværktøjer
+- Vurderingsværktøjer
 tags:
-  - vurderingsværktøj
-  - sundhed
-  - populær
-last_modified_at: 2021-03-06T23:14:14Z
-toc: true
+- vurderingsværktøj
+- sundhed
+- populær
+last_modified_at: '2021-03-06T23:14:14Z'
+toc: 'true'
 meta:
   name: Cooper Clinic Mortality Risk Index
   equipment: ingen

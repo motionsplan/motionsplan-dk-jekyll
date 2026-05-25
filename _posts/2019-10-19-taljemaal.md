@@ -1,25 +1,28 @@
 ---
-title: "Mål dit taljemål og tjek din sundhed"
-seo_title: "Taljemål - Mål det korrekt og tjek din sundhed"
-description: "Vil du vide mere om din fedtfordeling? Tag dit taljemål og få et bud på risikoen for livsstilssygdomme for mænd og kvinder. Få alle detaljerne her."
-excerpt: "Taljemål er en enkel måde at sige noget om din sundhed. Studier har vist, at der er en sammenhæng mellem taljemål for mænd og kvinder og risiko for livsstilssygdomme. Jeg har researchet lidt på hvilke forskellige taljemål, der findes."
+title: Mål dit taljemål og tjek din sundhed
+seo_title: Taljemål - Mål det korrekt og tjek din sundhed
+description: Vil du vide mere om din fedtfordeling? Tag dit taljemål og få et bud på risikoen for livsstilssygdomme for mænd
+  og kvinder. Få alle detaljerne her.
+excerpt: Taljemål er en enkel måde at sige noget om din sundhed. Studier har vist, at der er en sammenhæng mellem taljemål
+  for mænd og kvinder og risiko for livsstilssygdomme. Jeg har researchet lidt på hvilke forskellige taljemål, der findes.
 permalink: /taljemaal/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
+  teaser: /assets/images/unsplash/photo-1523901839036-a3030662f220.jpg
+  credit: https://images.unsplash.com/photo-1523901839036-a3030662f220
+  caption: Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen.
 category:
-  - Tests
+- Tests
 tags:
-  - måling
-  - test
-  - kropskomposition
-  - tracking
-  - featured
-  - antropometri
-popular: true
-last_modified_at: 2022-05-04T23:14:14Z
-toc: true
+- måling
+- test
+- kropskomposition
+- tracking
+- featured
+- antropometri
+popular: 'true'
+last_modified_at: '2022-05-04T23:14:14Z'
+toc: 'true'
 meta:
   name: Taljemål
   equipment: målebånd

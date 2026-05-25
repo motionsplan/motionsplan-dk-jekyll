@@ -1,24 +1,27 @@
 ---
-title: &title "George Turners 10x10 Træningsprogram"
-seo_title: "George Turners 10x10 – Klassisk højvolumentræning for muskelvækst"
-description: "Få en komplet guide til George Turners 10x10-program – et simpelt og effektivt træningsprogram med høj volumen, der bygger muskelmasse og styrke over 8 uger."
-excerpt: "Få en komplet guide til George Turners 10x10-program – et simpelt og effektivt træningsprogram med høj volumen, der bygger muskelmasse og styrke over 8 uger."
+title: George Turners 10x10 Træningsprogram
+seo_title: George Turners 10x10 – Klassisk højvolumentræning for muskelvækst
+description: Få en komplet guide til George Turners 10x10-program – et simpelt og effektivt træningsprogram med høj volumen,
+  der bygger muskelmasse og styrke over 8 uger.
+excerpt: Få en komplet guide til George Turners 10x10-program – et simpelt og effektivt træningsprogram med høj volumen, der
+  bygger muskelmasse og styrke over 8 uger.
 permalink: /george-turner-10x10/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1534367610401-9f5ed68180aa.jpg
+  credit: https://images.unsplash.com/photo-1583454110551-21f2fa2afe61
+  teaser: /assets/images/unsplash/photo-1583454110551-21f2fa2afe61.jpg
+  caption: George Turners 10x10 Træningsprogram
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - træningsprogram
-  - programanmeldelse
-  - hypertrofi
-  - øvet
-last_modified_at: 2025-03-06T23:14:14Z
-toc: true
+- styrketræning
+- træningsprogram
+- programanmeldelse
+- hypertrofi
+- øvet
+last_modified_at: '2025-03-06T23:14:14Z'
+toc: 'true'
 meta:
   name: Turner 10x10
   author: George Turner

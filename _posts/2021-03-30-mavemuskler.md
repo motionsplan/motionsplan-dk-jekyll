@@ -1,28 +1,30 @@
 ---
-title: &title "Mavemuskler: Liste og øvelser til muskler i maven"
-seo_title: "Mavemuskler: Komplet guide til anatomi og mavetræning"
-description: "Lær om mavemusklerne (rectus abdominis, obliques og transversus). Liste over muskler i maven og de bedste øvelser til en stærk core."
+title: 'Mavemuskler: Liste og øvelser til muskler i maven'
+seo_title: 'Mavemuskler: Komplet guide til anatomi og mavetræning'
+description: Lær om mavemusklerne (rectus abdominis, obliques og transversus). Liste over muskler i maven og de bedste øvelser
+  til en stærk core.
 permalink: /muskler/mave/
 redirect_from:
-  - /mavemuskler/
+- /mavemuskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1571019613454-1cb2f99b2d8b.jpg
+  credit: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b
+  teaser: /assets/images/unsplash/photo-1571019613454-1cb2f99b2d8b.jpg
+  caption: 'Mavemuskler: Liste og øvelser til muskler i maven'
 category:
-  - Anatomi
-  - Muskler
+- Anatomi
+- Muskler
 tags:
-  - muskler
-  - anatomi
-  - mave
-last_modified_at: 2026-03-29T18:15:00Z
-toc: true
+- muskler
+- anatomi
+- mave
+last_modified_at: '2026-03-29T18:15:00Z'
+toc: 'true'
 author: lsolesen
 sidebar:
   nav: muscles
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Jeg har samlet en liste over musklerne i din mave her. Det er afgørende at forstå mavemusklernes anatomi, hvis du ønsker en stærk core, en sund ryg og en velmarkeret midtersektion.

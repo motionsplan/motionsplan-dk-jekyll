@@ -1,22 +1,24 @@
 ---
-title: "Musik til træning: Find de bedste sange til træningen"
-seo_title: "Musik til træning: Find de bedste sange til træningen (2025)"
-description: Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning, men hvad skal du tænke på?
+title: 'Musik til træning: Find de bedste sange til træningen'
+seo_title: 'Musik til træning: Find de bedste sange til træningen (2025)'
+description: Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning,
+  men hvad skal du tænke på?
 permalink: /artikel/musik-til-traeningen/
 redirect_from:
-  - /artikel/musik-til-træningen
+- /artikel/musik-til-træningen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!"
+  overlay_image: /assets/images/unsplash/photo-1514994806776-144805fdde34.jpg
+  credit: https://images.unsplash.com/photo-1514994806776-144805fdde34
+  teaser: /assets/images/unsplash/photo-1514994806776-144805fdde34.jpg
+  caption: 'Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!'
 tags:
-  - inspiration
-  - musik
-  - løb
+- inspiration
+- musik
+- løb
 category:
-  - Kondition
-last_modified_at: 2023-01-01T15:29:24Z
+- Kondition
+last_modified_at: '2023-01-01T15:29:24Z'
 ---
 
 Hvordan vælger du den bedste musik til din træning? Musik kan være motiverende, og den kan forbedre din træning, men hvad skal du tænke på?

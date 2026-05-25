@@ -1,61 +1,66 @@
 ---
-title: &title "17 citater om at kæmpe med sig selv, sygdom og kærlighed"
+title: 17 citater om at kæmpe med sig selv, sygdom og kærlighed
 permalink: /citater-om-at-kaempe/
-excerpt: "Jeg har set mange gode citater om at kæmpe, og jeg har samlet en række citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs."
-last_modified_at: 2020-12-29T09:41:09Z
+excerpt: Jeg har set mange gode citater om at kæmpe, og jeg har samlet en række citater, der kan inspirere dig på din vej.
+  Sommetider kan et citat lige netop være det, der får dig på rette kurs.
+last_modified_at: '2020-12-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.8
+  overlay_image: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
+  credit: https://images.unsplash.com/photo-1487088678257-3a541e6e3922
+  teaser: /assets/images/unsplash/photo-1487088678257-3a541e6e3922.jpg
+  caption: 17 citater om at kæmpe med sig selv, sygdom og kærlighed
+  overlay_filter: '0.8'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - citater
-  - motivation
-  - fitness
-  - træning
+- citater
+- motivation
+- fitness
+- træning
 feature_quotes:
-  - quote: "Life may be full of pain but that’s not an excuse to give up."
-    cite: Arnold Schwarzenegger
-  - quote: "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."
-    cite: Arnold Schwarzenegger
-  - quote: "I can accept failure, everyone fails at something. But I can’t accept not trying."
-    cite: Michael Jordan
-  - quote: "It ain’t about how hard you hit, it’s about how hard you can get hit, and keep moving forward."
-    cite: Rocky Balboa
-  - quote: "Det eneste der står imellem dig og din drøm, er viljen til at forsøge og troen på, at det rent faktisk er muligt."
-    cite: Joel Brown
-  - quote: "When I hear somebody sigh, ‘Life is hard,’ I am always tempted to ask, ‘Compared to what?’"
-    cite: Sydney Harris
-  - quote: "Du bliver, hvad du tænker"
-    cite: Buddha
-  - quote: "Udfordringer gør livet interessant og at overkomme dem gør livet meningsfuldt."
-    cite: Joshua J. Marine
-  - quote: "Selvom ingen kan gå tilbage og lave en helt ny start, kan alle starte nu og lave en helt ny ende."
-    cite: Carl Bard
-  - quote: "Hvis du går gennem helvede, så bliv ved med at gå."
-    cite: Winston Churchill
-  - quote: "Ingen har nogensinde planlagt at blive fattig, fed, doven eller dum. De ting sker, når man ikke har en plan."
-    cite: Larry Winget
-  - quote: "Jeg kender ikke til et mere opmuntrende faktum end den utvivlsomme evne mennesket har til at løfte sit liv ved bevidst bestræbelse."
-    cite: Henry David Thoreau
-  - quote: "Lykke kan ikke rejses til, ejes, tjenes eller bæres. Det er den spirituelle erfaring, der ligger i at leve hvert minut med kærlighed, ynde og taknemmelighed."
-    cite: Denis Waitley
-  - quote: "Ingen kan få dig til at føle dig mindreværdig uden din tilladelse."
-    cite: Eleanor Roosevelt
-  - quote: "Jeg har haft tusinder af bekymringer, de færreste er blevet til noget."
-    cite: Mark Twain
-  - quote: "Hvis du er lykkelig, er det sandsynligvis din egen skyld, for der er masser af ting i verden at være ulykkelig over."
-    cite: Storm P
-  - quote: "Der er en revne i alting. Det er sådan, lyset kommer ind."
-    cite: Leonard Cohen
+- quote: Life may be full of pain but that’s not an excuse to give up.
+  cite: Arnold Schwarzenegger
+- quote: Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide
+    not to surrender, that is strength.
+  cite: Arnold Schwarzenegger
+- quote: I can accept failure, everyone fails at something. But I can’t accept not trying.
+  cite: Michael Jordan
+- quote: It ain’t about how hard you hit, it’s about how hard you can get hit, and keep moving forward.
+  cite: Rocky Balboa
+- quote: Det eneste der står imellem dig og din drøm, er viljen til at forsøge og troen på, at det rent faktisk er muligt.
+  cite: Joel Brown
+- quote: When I hear somebody sigh, ‘Life is hard,’ I am always tempted to ask, ‘Compared to what?’
+  cite: Sydney Harris
+- quote: Du bliver, hvad du tænker
+  cite: Buddha
+- quote: Udfordringer gør livet interessant og at overkomme dem gør livet meningsfuldt.
+  cite: Joshua J. Marine
+- quote: Selvom ingen kan gå tilbage og lave en helt ny start, kan alle starte nu og lave en helt ny ende.
+  cite: Carl Bard
+- quote: Hvis du går gennem helvede, så bliv ved med at gå.
+  cite: Winston Churchill
+- quote: Ingen har nogensinde planlagt at blive fattig, fed, doven eller dum. De ting sker, når man ikke har en plan.
+  cite: Larry Winget
+- quote: Jeg kender ikke til et mere opmuntrende faktum end den utvivlsomme evne mennesket har til at løfte sit liv ved bevidst
+    bestræbelse.
+  cite: Henry David Thoreau
+- quote: Lykke kan ikke rejses til, ejes, tjenes eller bæres. Det er den spirituelle erfaring, der ligger i at leve hvert
+    minut med kærlighed, ynde og taknemmelighed.
+  cite: Denis Waitley
+- quote: Ingen kan få dig til at føle dig mindreværdig uden din tilladelse.
+  cite: Eleanor Roosevelt
+- quote: Jeg har haft tusinder af bekymringer, de færreste er blevet til noget.
+  cite: Mark Twain
+- quote: Hvis du er lykkelig, er det sandsynligvis din egen skyld, for der er masser af ting i verden at være ulykkelig over.
+  cite: Storm P
+- quote: Der er en revne i alting. Det er sådan, lyset kommer ind.
+  cite: Leonard Cohen
 gallery:
-  - image_path: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
-    url: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
-  - image_path: /assets/images/pinterest/citat-winston-churchill.jpg
-    url: /assets/images/pinterest/citat-winston-churchill.jpg
+- image_path: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
+  url: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
+- image_path: /assets/images/pinterest/citat-winston-churchill.jpg
+  url: /assets/images/pinterest/citat-winston-churchill.jpg
 ---
 
 Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs.

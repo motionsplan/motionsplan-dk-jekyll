@@ -1,19 +1,20 @@
 ---
-title: &title "Kan jeg træne på penicillin og antibiotika?"
+title: Kan jeg træne på penicillin og antibiotika?
 permalink: /antibiotika-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1549477754-350cf45a1772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1549477754-350cf45a1772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  alt: "Photo by Anastasia Dulgier on Unsplash"
+  overlay_image: /assets/images/unsplash/photo-1549477754-350cf45a1772.jpg
+  credit: https://images.unsplash.com/photo-1549477754-350cf45a1772
+  teaser: /assets/images/unsplash/photo-1549477754-350cf45a1772.jpg
+  caption: Kan jeg træne på penicillin og antibiotika?
+  alt: Photo by Anastasia Dulgier on Unsplash
 category:
-  - Træning
+- Træning
 tags:
-  - træning
-  - faq
-last_modified_at: 2021-01-29T08:14:14Z
-toc: true
+- træning
+- faq
+last_modified_at: '2021-01-29T08:14:14Z'
+toc: 'true'
 ---
 
 Jeg får ofte spørgsmålet om, man kan træne når man tager penicillin og antibiotika af mine elever på højskolen, så jeg har skrevet en lille guide?

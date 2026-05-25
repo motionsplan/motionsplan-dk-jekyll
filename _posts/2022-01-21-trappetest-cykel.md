@@ -1,20 +1,22 @@
 ---
-title: &title "Trappetest på cykel: En enkel cykeltest du kan lave selv"
+title: 'Trappetest på cykel: En enkel cykeltest du kan lave selv'
 permalink: /trappetest-cykel/
-excerpt: "En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest, som du let kan udføre selv."
+excerpt: En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest,
+  som du let kan udføre selv.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1590523329673-7b10bd21e519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1590523329673-7b10bd21e519.jpg
+  credit: https://images.unsplash.com/photo-1590523329673-7b10bd21e519
+  caption: 'Trappetest på cykel: En enkel cykeltest du kan lave selv'
 category:
-  - Kondition
-  - Cykling
+- Kondition
+- Cykling
 tags:
-  - test
-  - kondition
-  - cykeltest
-last_modified_at: 2022-01-20T08:14:14Z
-toc: true
+- test
+- kondition
+- cykeltest
+last_modified_at: '2022-01-20T08:14:14Z'
+toc: 'true'
 meta:
   name: Trappetest på cykel
   measures: kondital

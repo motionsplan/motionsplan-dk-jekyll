@@ -1,28 +1,33 @@
 ---
-title: &title "Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦"
-seo_title: "Kalorietabel: Gratis tabel med kalorier i fødevarer 🥭🥩🥦"
+title: 'Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
+seo_title: 'Kalorietabel: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
 permalink: /kalorietabellen/
-last_modified_at: 2020-08-29T09:41:09Z
+last_modified_at: '2020-08-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1471193945509-9ad0617afabf.jpg
+  credit: https://images.unsplash.com/photo-1471193945509-9ad0617afabf
+  teaser: /assets/images/unsplash/photo-1471193945509-9ad0617afabf.jpg
+  caption: 'Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kalorier
-  - energi
-  - fødevarer
-  - kost & ernæring
-  - featured
+- kalorier
+- energi
+- fødevarer
+- kost & ernæring
+- featured
 faq:
-  - question: "Hvor mange kalorier er der i mad?"
-    answer: "Mængden af energi i mad kommer an på mængder, typer og tilberedning. Derfor kan du bruge vores søgbare kalorietabel til at finde mængden af kalorier i mad."
-  - question: "Hvor mange kalorier er der i et æg?"
-    answer: "I et kogt, mellemstort æg på 55 gram er der cirka 75 kalorier fordelt på 6,8 g protein, 0,7 g kulhydrat og 5,1 g fedt."
-  - question: "Hvor mange kalorier er der i havregryn?"
-    answer: "1 dl havregryn vejer 30 gram og indeholder 110 kalorier samt 3,9 gram protein, 2,1 gram fedt, 17,5 gram kulhydrat og 3 gram kostfibre. 100 gram havregryn indeholder 366 kcal samt 12,9 gram protein, 6,9 gram fedt, 58,3 gram kulhydrat og 9,9 gram kostfibre."
+- question: Hvor mange kalorier er der i mad?
+  answer: Mængden af energi i mad kommer an på mængder, typer og tilberedning. Derfor kan du bruge vores søgbare kalorietabel
+    til at finde mængden af kalorier i mad.
+- question: Hvor mange kalorier er der i et æg?
+  answer: I et kogt, mellemstort æg på 55 gram er der cirka 75 kalorier fordelt på 6,8 g protein, 0,7 g kulhydrat og 5,1 g
+    fedt.
+- question: Hvor mange kalorier er der i havregryn?
+  answer: 1 dl havregryn vejer 30 gram og indeholder 110 kalorier samt 3,9 gram protein, 2,1 gram fedt, 17,5 gram kulhydrat
+    og 3 gram kostfibre. 100 gram havregryn indeholder 366 kcal samt 12,9 gram protein, 6,9 gram fedt, 58,3 gram kulhydrat
+    og 9,9 gram kostfibre.
 ---
 
 Jeg har samlet en kalorietabel, hvor du kan se indholdet af kalorier og næringsstoffer i maden. Kalorietabellen indeholder energi og næringsindhold fra fedt, kulhydrat og protein i rigtig mange fødevarer. Tabellen med kalorier i mad er gjort søgbar.

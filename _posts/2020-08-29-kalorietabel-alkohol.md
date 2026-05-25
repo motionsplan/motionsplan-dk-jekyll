@@ -1,21 +1,23 @@
 ---
-title: &title "Kalorier i alkohol, vin, øl og spiritus 🍺🍷"
-seo_title: "Hvor mange kalorier er der i alkohol, vin, øl og spiritus?"
+title: Kalorier i alkohol, vin, øl og spiritus 🍺🍷
+seo_title: Hvor mange kalorier er der i alkohol, vin, øl og spiritus?
 permalink: /kalorietabel-alkohol/
-last_modified_at: 2021-07-28T09:41:09Z
+last_modified_at: '2021-07-28T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1535958636474-b021ee887b13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1535958636474-b021ee887b13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1535958636474-b021ee887b13.jpg
+  credit: https://images.unsplash.com/photo-1535958636474-b021ee887b13
+  teaser: /assets/images/unsplash/photo-1535958636474-b021ee887b13.jpg
+  caption: Kalorier i alkohol, vin, øl og spiritus 🍺🍷
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - fødevarer
-  - kalorietabel
+- fødevarer
+- kalorietabel
 faq:
-  - question: "Hvor mange kalorier er der i en øl?"
-    answer: "Det kommer an på, hvilken øl det er - og hvor stor den er. I en Carlsberg Pilsner fadøl med 568 ml på 4.6% alkohol er der 211 kcal."
+- question: Hvor mange kalorier er der i en øl?
+  answer: Det kommer an på, hvilken øl det er - og hvor stor den er. I en Carlsberg Pilsner fadøl med 568 ml på 4.6% alkohol
+    er der 211 kcal.
 ---
 
 I denne kalorietabel med alkohol, øl, vin og spiritus kan du se, hvor meget energi i kalorier der findes de de forskellige alkoholiske drikkevarer.

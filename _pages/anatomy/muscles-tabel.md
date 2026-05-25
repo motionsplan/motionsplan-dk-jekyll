@@ -1,23 +1,24 @@
 ---
 layout: single
-title: "Anatomisk opslagstabel: Udspring, hæfte og funktion"
-seo_title: "Muskeloversigt: Tabel over udspring og hæfte (Dansk/Latin)"
-description: "Søgbar oversigt over kroppens muskler. Se præcise udspring, hæfte og funktioner på både dansk og latin."
+title: 'Anatomisk opslagstabel: Udspring, hæfte og funktion'
+seo_title: 'Muskeloversigt: Tabel over udspring og hæfte (Dansk/Latin)'
+description: Søgbar oversigt over kroppens muskler. Se præcise udspring, hæfte og funktioner på både dansk og latin.
 permalink: /muskler/tabel/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?auto=format&fit=crop&h=400&w=60
+  overlay_image: /assets/images/unsplash/photo-1539814858141-928517f6afd3.jpg
+  credit: https://images.unsplash.com/photo-1539814858141-928517f6afd3
+  teaser: /assets/images/unsplash/photo-1539814858141-928517f6afd3.jpg
 categories:
-  - Anatomi
-  - Muskler
+- Anatomi
+- Muskler
 tags:
-  - anatomi
-  - muskler
-last_modified_at: 2026-03-29T17:40:00Z
+- anatomi
+- muskler
+last_modified_at: '2026-03-29T17:40:00Z'
 sidebar:
   nav: anatomi
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Dette er dit professionelle opslagsværktøj til muskelanatomi. Brug søgefeltet til at filtrere efter specifikke knogler (f.eks. "Humerus" eller "Skinneben") eller muskelnavne. 

@@ -1,66 +1,71 @@
 ---
-title: &title "Løbeprogrammer - find et program til dig og dit mål"
-seo_title: "Løbeprogrammer - find et program til dig og dit mål"
+title: Løbeprogrammer - find et program til dig og dit mål
+seo_title: Løbeprogrammer - find et program til dig og dit mål
 permalink: /loebeprogrammer/
-excerpt: "Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer til at blive hurtigere på 5km, 10 km, halvmaraton og maraton."
+excerpt: Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer
+  til at blive hurtigere på 5km, 10 km, halvmaraton og maraton.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
+  credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
+  teaser: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
+  caption: Løbeprogrammer - find et program til dig og dit mål
 category:
-  - Løb
+- Løb
 tags:
-  - løb
-last_modified_at: 2025-11-22T23:14:14Z
-toc: true
+- løb
+last_modified_at: '2025-11-22T23:14:14Z'
+toc: 'true'
 classes: wide
 feature_row_guide_own_program:
-  - image_path: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Sådan laver du dit eget løbeprogram"
-    title: "Sådan laver du dit eget løbeprogram"
-    excerpt: "I denne guide får du 5 enkle trin, der hjælper dig med at planlægge din løbetræning – uanset om du er begynder eller erfaren løber."
-    url: "/guide-til-loebeprogram/"
-    btn_label: "Sådan gør du"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1594911772125-07fc7a2d8d9f.jpg
+  credit: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f
+  alt: Sådan laver du dit eget løbeprogram
+  title: Sådan laver du dit eget løbeprogram
+  excerpt: I denne guide får du 5 enkle trin, der hjælper dig med at planlægge din løbetræning – uanset om du er begynder
+    eller erfaren løber.
+  url: /guide-til-loebeprogram/
+  btn_label: Sådan gør du
+  btn_class: btn--info
 faq:
-  - question: "Hvordan vælger jeg det rigtige løbeprogram?"
-    answer: >
-      Start med at afgøre dit niveau. Begyndere bør vælge programmer med gå/løb-
-      intervaller, let øvede kan vælge programmer med 2–3 faste ugentlige træninger,
-      og øvede kan vælge målrettede programmer til tid eller distance. Brug evt.
-      løbekalkulatoren til at finde realistiske målsætninger.
-  - question: "Hvor ofte skal jeg løbe om ugen?"
-    answer: >
-      De fleste får gode resultater med 2–4 træninger om ugen. Er du ny, så start
-      med 2. Træner du efter et mål som 5 km eller halvmaraton, følger programmet
-      en planlagt progression.
-  - question: "Hvordan undgår jeg skader som løber?"
-    answer: >
-      Øg træningsmængden langsomt, skift mellem hårde og lette dage, og vælg
-      løbesko der passer til dine behov. Lyt til kroppen – ømhed er normalt, men
-      skarpe smerter er et advarselstegn.
-  - question: "Hvilke værktøjer kan hjælpe mig?"
-    answer: >
-      Motionsplan tilbyder bl.a. tempo- og hastighedsberegner, VDOT-beregner,
-      pulszoner, energiomsætning og BMI. De hjælper dig med at planlægge
-      intensitet og progression.
-  - question: "Hvad er den bedste måde at komme i gang på?"
-    answer: >
-      Start roligt, brug et simpelt program og hold pauser uden dårlig
-      samvittighed. Regelmæssighed er vigtigere end tempo i starten.
-  - question: "Kan jeg bruge Motionsplans programmer sammen med Garmin, Polar eller Strava?"
-    answer: >
-      Ja. Programmerne kan følges manuelt, og mange brugere overfører dem selv til
-      deres træningsur eller kalender.
-  - question: "Hvor lang tid tager det at blive bedre til at løbe?"
-    answer: >
-      For begyndere mærkes forbedringer efter 3–4 uger. For øvede afhænger det af
-      træningsmængde og mål, men typisk følger progressionen 4–6 ugers blokke.
-  - question: "Skal jeg styrketræne som løber?"
-    answer: >
-      Ja. Styrketræning 1–2 gange om ugen kan reducere skader og forbedre
-      løbeøkonomi – især øvelser for hofter, lår og core.
+- question: Hvordan vælger jeg det rigtige løbeprogram?
+  answer: 'Start med at afgøre dit niveau. Begyndere bør vælge programmer med gå/løb- intervaller, let øvede kan vælge programmer
+    med 2–3 faste ugentlige træninger, og øvede kan vælge målrettede programmer til tid eller distance. Brug evt. løbekalkulatoren
+    til at finde realistiske målsætninger.
+
+    '
+- question: Hvor ofte skal jeg løbe om ugen?
+  answer: 'De fleste får gode resultater med 2–4 træninger om ugen. Er du ny, så start med 2. Træner du efter et mål som 5
+    km eller halvmaraton, følger programmet en planlagt progression.
+
+    '
+- question: Hvordan undgår jeg skader som løber?
+  answer: 'Øg træningsmængden langsomt, skift mellem hårde og lette dage, og vælg løbesko der passer til dine behov. Lyt til
+    kroppen – ømhed er normalt, men skarpe smerter er et advarselstegn.
+
+    '
+- question: Hvilke værktøjer kan hjælpe mig?
+  answer: 'Motionsplan tilbyder bl.a. tempo- og hastighedsberegner, VDOT-beregner, pulszoner, energiomsætning og BMI. De hjælper
+    dig med at planlægge intensitet og progression.
+
+    '
+- question: Hvad er den bedste måde at komme i gang på?
+  answer: 'Start roligt, brug et simpelt program og hold pauser uden dårlig samvittighed. Regelmæssighed er vigtigere end
+    tempo i starten.
+
+    '
+- question: Kan jeg bruge Motionsplans programmer sammen med Garmin, Polar eller Strava?
+  answer: 'Ja. Programmerne kan følges manuelt, og mange brugere overfører dem selv til deres træningsur eller kalender.
+
+    '
+- question: Hvor lang tid tager det at blive bedre til at løbe?
+  answer: 'For begyndere mærkes forbedringer efter 3–4 uger. For øvede afhænger det af træningsmængde og mål, men typisk følger
+    progressionen 4–6 ugers blokke.
+
+    '
+- question: Skal jeg styrketræne som løber?
+  answer: Ja. Styrketræning 1–2 gange om ugen kan reducere skader og forbedre løbeøkonomi – især øvelser for hofter, lår og
+    core.
 ---
 
 Et løbeprogram kan være din genvej til fremgang, motivation og færre skader. Uanset om du lige har taget de første skridt som ny løber, drømmer om at gennemføre 10 km, eller sigter mod halvmaraton eller maraton, har vi samlet programmer, der passer præcis til dit niveau og dine mål. Vil du gerne [lære at løbe hurtigere](/loeb-hurtigere/) eller vil du bare gerne i gang med at løbe?

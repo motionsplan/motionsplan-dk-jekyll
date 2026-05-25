@@ -1,18 +1,21 @@
 ---
-title: &title "️Hvilken kropstype er du? Find din somatotype med vores beregner!"
-seo_title: "️Beregn din somatotype og find din kropstype [Beregner]"
+title: ️Hvilken kropstype er du? Find din somatotype med vores beregner!
+seo_title: ️Beregn din somatotype og find din kropstype [Beregner]
 permalink: /somatotype-og-kropstype/
-description: "Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud af, hvilken kropstype du er."
-excerpt: "Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud af, hvilken kropstype du er."
+description: Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud
+  af, hvilken kropstype du er.
+excerpt: Her kan du lære mere om somatotyperne endomorph, ectomorph og mesomorph. I vores beregner kan du find finde ud af,
+  hvilken kropstype du er.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1478604659451-3424450de009?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1478604659451-3424450de009.jpg
+  credit: https://images.unsplash.com/photo-1478604659451-3424450de009
+  caption: ️Hvilken kropstype er du? Find din somatotype med vores beregner!
 category:
-  - Vurderingsværktøjer
+- Vurderingsværktøjer
 tags:
-  - vurderingsværktøj
-last_modified_at: 2024-08-04T10:14:14Z
+- vurderingsværktøj
+last_modified_at: '2024-08-04T10:14:14Z'
 ---
 
 Du har sikkert hørt om kropstyperne endomorph, ectomorph og mesomorf før. Her får du mulighed for at blive klogere på, hvordan din ellers helt unikke krop kan beskrives som en somatotype.

@@ -1,26 +1,29 @@
 ---
-title: &title "Mål din hoppehøjde og springhøjde med springtests"
-seo_title: "Hoppehøjde og springtests: 5 måder at måle springhøjde"
+title: Mål din hoppehøjde og springhøjde med springtests
+seo_title: 'Hoppehøjde og springtests: 5 måder at måle springhøjde'
 permalink: /springtests-hoppehoejde/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1462146449396-2d7d4ba877d7.jpg
+  credit: https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7
 category:
-  - Tests
-  - Springtests
+- Tests
+- Springtests
 tags:
-  - spring
-  - moc
-last_modified_at: 2021-11-19T23:14:14Z
-toc: true
+- spring
+- moc
+last_modified_at: '2021-11-19T23:14:14Z'
+toc: 'true'
 feature_row_jump_training:
-  - image_path: https://images.unsplash.com/photo-1517626102333-83f7319aa06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Træn din hoppehøjde og springstyrke"
-    title: "Træn din hoppehøjde og springstyrke"
-    excerpt: "Bliv stærkere og hop højere! Øg din hoppehøjde og springstyrke med målrettet træning. Lær de bedste øvelser og metoder til at forbedre din eksplosive styrke og springkraft."
-    url: "/springstyrke-og-springtraening/"
-    btn_label: "Lær om springtræning"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1517626102333-83f7319aa06e.jpg
+  credit: https://images.unsplash.com/photo-1517626102333-83f7319aa06e
+  alt: Træn din hoppehøjde og springstyrke
+  title: Træn din hoppehøjde og springstyrke
+  excerpt: Bliv stærkere og hop højere! Øg din hoppehøjde og springstyrke med målrettet træning. Lær de bedste øvelser og
+    metoder til at forbedre din eksplosive styrke og springkraft.
+  url: /springstyrke-og-springtraening/
+  btn_label: Lær om springtræning
+  btn_class: btn--info
 meta:
   name: Samling af springtests
   equipment: se testbeskrivelser

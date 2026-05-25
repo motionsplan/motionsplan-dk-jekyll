@@ -1,19 +1,21 @@
 ---
-title: "Motion-online.dk virker ikke. Find andre beregnere her!"
+title: Motion-online.dk virker ikke. Find andre beregnere her!
 seo_title: Motion-online.dk virker ikke - Find 30+ beregnere her
-excerpt: "Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Du kan finde opdaterede beregnere her!"
+excerpt: Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Du kan
+  finde opdaterede beregnere her!
 permalink: /motion-online/
 language: da
 header:
   overlay_image: https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
   caption: Motion-Online.dk virker ikke!
-  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
+  teaser: /assets/images/unsplash/photo-1522844990619-4951c40f7eda.jpg
+  credit: https://images.unsplash.com/photo-1522844990619-4951c40f7eda
 category:
-  - Beregnere
+- Beregnere
 tags:
-  - website
-last_modified_at: 2020-02-11T23:14:14Z
-toc: true
+- website
+last_modified_at: '2020-02-11T23:14:14Z'
+toc: 'true'
 ---
 
 Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Motion-online.dk havde bmi-, kondital- og rm-beregnere. Der var beskrivelse af Coopertest, gangtest cirketræning og løbeprogrammer. Men nu virker det ikke længere.

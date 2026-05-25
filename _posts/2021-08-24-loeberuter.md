@@ -1,18 +1,20 @@
 ---
-title: &title "Find den perfekte løberute med disse 10 tips"
+title: Find den perfekte løberute med disse 10 tips
 permalink: /loeberuter/
-excerpt: "Vi har samlet en række tips til dig, der gerne vil finde den ideelle løberute og planlægge, hvor du skal løbe hen på dine ture."
+excerpt: Vi har samlet en række tips til dig, der gerne vil finde den ideelle løberute og planlægge, hvor du skal løbe hen
+  på dine ture.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560354892-75d8f5d0b5e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1560354892-75d8f5d0b5e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1560354892-75d8f5d0b5e9.jpg
+  credit: https://images.unsplash.com/photo-1560354892-75d8f5d0b5e9
+  teaser: /assets/images/unsplash/photo-1560354892-75d8f5d0b5e9.jpg
+  caption: Find den perfekte løberute med disse 10 tips
 category:
-  - Løb
+- Løb
 tags:
-  - løb
-last_modified_at: 2021-08-22T23:14:14Z
-toc: true
+- løb
+last_modified_at: '2021-08-22T23:14:14Z'
+toc: 'true'
 ---
 
 {{ page.excerpt }}

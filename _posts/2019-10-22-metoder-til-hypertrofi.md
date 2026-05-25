@@ -1,20 +1,22 @@
 ---
-title: "Hypertrofi 💪: Metoder til maksimal muskelvækst! 🌊"
+title: 'Hypertrofi 💪: Metoder til maksimal muskelvækst! 🌊'
 permalink: /hypertrofi-metoder/
-excerpt: "Hypertrofi og maksimal muskeltilvækst skabes af mekaniske belastning på musklerne gennem regelmæssig styrketræning. Der er flere metoder der kan skabe tilstrækkelig belastning og udtrætning af musklerne."
+excerpt: Hypertrofi og maksimal muskeltilvækst skabes af mekaniske belastning på musklerne gennem regelmæssig styrketræning.
+  Der er flere metoder der kan skabe tilstrækkelig belastning og udtrætning af musklerne.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
+  credit: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b
+  teaser: /assets/images/unsplash/photo-1571019614242-c5c5dee9f50b.jpg
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - hypertrofi
-  - træningsmetode
-  - muskler
-  - træningsplanlægning
-last_modified_at: 2020-06-06T23:14:14Z
-toc: true
+- hypertrofi
+- træningsmetode
+- muskler
+- træningsplanlægning
+last_modified_at: '2020-06-06T23:14:14Z'
+toc: 'true'
 meta:
   name: Vægt i hypertrofi waves
   equipment: ingen

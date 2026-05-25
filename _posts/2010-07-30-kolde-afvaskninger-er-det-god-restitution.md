@@ -1,21 +1,24 @@
 ---
-title: &title "Cold Water Immersion: Virker isbade på restitutionen?"
-description: "Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i koldt vand efter træning og konkurrence."
-excerpt: "Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i koldt vand efter træning og konkurrence?"
+title: 'Cold Water Immersion: Virker isbade på restitutionen?'
+description: Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis
+  du sænker dig ned i koldt vand efter træning og konkurrence.
+excerpt: Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis
+  du sænker dig ned i koldt vand efter træning og konkurrence?
 permalink: /isbad-og-kryoterapi/
 redirect_from:
-  - /artikel/kolde-afvaskninger-er-det-god-restitution
+- /artikel/kolde-afvaskninger-er-det-god-restitution
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1570877441418-a00651b562ef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1570877441418-a00651b562ef?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1570877441418-a00651b562ef.jpg
+  credit: https://images.unsplash.com/photo-1570877441418-a00651b562ef
+  teaser: /assets/images/unsplash/photo-1570877441418-a00651b562ef.jpg
+  caption: 'Cold Water Immersion: Virker isbade på restitutionen?'
 tags:
-  - restitution
-  - kuldebehandling
+- restitution
+- kuldebehandling
 category:
-  - Restitution
-last_modified_at: 2023-10-14T20:39:39Z
+- Restitution
+last_modified_at: '2023-10-14T20:39:39Z'
 ---
 
 Kan isbade og koldt vand få dig til at restituere hurtigere? Kan du blive hurtigere klar til at træne igen, hvis du sænker dig ned i koldt vand efter træning og konkurrence?

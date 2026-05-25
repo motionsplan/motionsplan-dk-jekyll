@@ -1,63 +1,100 @@
 ---
 permalink: /skridtlaengde-gang/
 title: Sådan måler du din skridtlængde præcist
-seo_title: "Skridtlængde: Sådan finder du dit antal skridt per km"
-description: "Find din skridtlængde nemt – mål den selv eller brug vores beregner til at se dine skridt per kilometer."
-excerpt: "Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer."
+seo_title: 'Skridtlængde: Sådan finder du dit antal skridt per km'
+description: Find din skridtlængde nemt – mål den selv eller brug vores beregner til at se dine skridt per kilometer.
+excerpt: Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til
+  at finde ud af, hvor mange skridt du tager per kilometer.
 header:
-  teaser: https://images.unsplash.com/photo-1530902815270-606a8f82b563?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1530902815270-606a8f82b563.jpg
+  credit: https://images.unsplash.com/photo-1530902815270-606a8f82b563
   caption: Hvor lang er din skridtlængde?
 category:
-  - Træning
-  - Gang
+- Træning
+- Gang
 tags:
-  - beregner
-  - sundhed
-  - skridt
-  - gang
-  - gangtest
-  - populær
+- beregner
+- sundhed
+- skridt
+- gang
+- gangtest
+- populær
 meta:
   name: Find din skridtlængde
   equipment: ingen
   measures: skridt og distance
   type: gang
-popular: true
+popular: 'true'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788702259803/0x500
-    alt: Gå-bogen af Bente Klarlund
-    title: Gå-bogen af Bente Klarlund
-    excerpt: Med _Gå-bogen_ får du en klog og lærerig bog, der lærer dig om alle
-      fordelene ved at gå. Bente Klarlund Pedersen står bag værket, der handler
-      om at gå.
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-bogen_bente-klarlund-pedersen_indbundet_9788702259803
-    btn_label: Tjek prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788790524814/0x500
-    alt: Gå - eller kunsten at leve et vildt og poetisk liv
-    title: Gå - eller kunsten at leve et vildt og poetisk liv
-    excerpt: Tomas Espedal starter med at gå, der hvor han bor, han vandrer i
-      Bergens gader, ud på landet, besøger venner, forfattere og litterater.
-      Himlen er hans tag, og mens han går, fører han samtaler med filosoffer og
-      digtere som Rousseau, Wordsworth, Baudelaire, Kierkegaard og Nietzsche.
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-eller-kunsten-at-leve-et-vildt-og-poetisk-liv_tomas-espedal_haeftet_9788790524814
-    btn_label: Tjek prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
-last_modified_at: 2025-02-05T08:12:14.000Z
-toc: true
+- image_path: https://imgcdn.saxo.com/_9788702259803/0x500
+  alt: Gå-bogen af Bente Klarlund
+  title: Gå-bogen af Bente Klarlund
+  excerpt: Med _Gå-bogen_ får du en klog og lærerig bog, der lærer dig om alle fordelene ved at gå. Bente Klarlund Pedersen
+    står bag værket, der handler om at gå.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-bogen_bente-klarlund-pedersen_indbundet_9788702259803
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788790524814/0x500
+  alt: Gå - eller kunsten at leve et vildt og poetisk liv
+  title: Gå - eller kunsten at leve et vildt og poetisk liv
+  excerpt: Tomas Espedal starter med at gå, der hvor han bor, han vandrer i Bergens gader, ud på landet, besøger venner, forfattere
+    og litterater. Himlen er hans tag, og mens han går, fører han samtaler med filosoffer og digtere som Rousseau, Wordsworth,
+    Baudelaire, Kierkegaard og Nietzsche.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-eller-kunsten-at-leve-et-vildt-og-poetisk-liv_tomas-espedal_haeftet_9788790524814
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+last_modified_at: '2025-02-05T08:12:14.000Z'
+toc: 'true'
 faq:
-  - question: "Hvor mange skridt er 1 km?"
-    answer: "Det afhænger af din skridtlængde! Hvis du har en gennemsnitlig skridtlængde, kan du bruge den til at beregne, hvor mange skridt du tager på 1 km. Hvis din skridtlængde er 158 cm (for mænd) eller 132 cm (for kvinder), kan du bruge følgende formel til at estimere antallet af skridt på 1 km:\n\n- **Mænd**: 1 km / 1,58 m = cirka 633 skridt\n- **Kvinder**: 1 km / 1,32 m = cirka 757 skridt\n\nDu kan også bruge vores **skridtlængde-beregner** til at få et præcist tal baseret på din egen skridtlængde."
-  - question: "Hvor mange km er 10.000 skridt?"
-    answer: "Hvor langt 10.000 skridt er, afhænger af din skridtlængde. Hvis din skridtlængde er omkring 158 cm (for mænd) eller 132 cm (for kvinder), kan du beregne det som følger:\n\n- **Mænd** (gennemsnitlig skridtlængde på 158 cm): 10.000 skridt = ca. 6,3 km\n- **Kvinder** (gennemsnitlig skridtlængde på 132 cm): 10.000 skridt = ca. 5,7 km\n\nHvis du vil finde ud af præcis, hvor mange km du går på 10.000 skridt, kan du bruge vores **beregner** til at få en nøjagtig beregning baseret på din individuelle skridtlængde."
-  - question: "Hvad er forskellen mellem skridtlængde og trinlængde?"
-    answer: "Skridtlængde og trinlængde bruges ofte synonymt i daglig tale, men der er en forskel. Trinlængde (step length) er afstanden mellem hælisæt af den ene fod til hælisæt af den anden fod, mens skridtlængde (stride length) er afstanden mellem hælisæt af den samme fod (to skridt). Når du bruger en app eller en skridttæller, er det normalt trinlængde, du skal indtaste. Sørg derfor for at vide, hvilken værdi der kræves, når du bruger en skridttæller."
-  - question: "Hvordan kan jeg måle min skridtlængde?"
-    answer: "Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling:\n\n1. Sæt et kridtmærke ved hælen på din sko.\n2. Gå 10 skridt (5 med højre ben og 5 med venstre).\n3. Mål afstanden mellem de to kridtstreger.\n4. Del afstanden med 10 for at finde længden af et skridt.\n\nAlternativt kan du bruge vores **beregner** til at udregne din skridtlængde baseret på din højde."
-  - question: "Hvad er den gennemsnitlige skridtlængde?"
-    answer: "Den gennemsnitlige skridtlængde varierer afhængigt af køn og højde. For mænd er den gennemsnitlige skridtlængde omkring 158 cm, mens kvinder har en gennemsnitlig skridtlængde på 132 cm. Skridtlængden kan dog variere meget afhængigt af din kropsbygning og gangstil. Brug vores beregner for at finde din præcise skridtlængde!"
+- question: Hvor mange skridt er 1 km?
+  answer: 'Det afhænger af din skridtlængde! Hvis du har en gennemsnitlig skridtlængde, kan du bruge den til at beregne, hvor
+    mange skridt du tager på 1 km. Hvis din skridtlængde er 158 cm (for mænd) eller 132 cm (for kvinder), kan du bruge følgende
+    formel til at estimere antallet af skridt på 1 km:
+
+
+    - **Mænd**: 1 km / 1,58 m = cirka 633 skridt
+
+    - **Kvinder**: 1 km / 1,32 m = cirka 757 skridt
+
+
+    Du kan også bruge vores **skridtlængde-beregner** til at få et præcist tal baseret på din egen skridtlængde.'
+- question: Hvor mange km er 10.000 skridt?
+  answer: 'Hvor langt 10.000 skridt er, afhænger af din skridtlængde. Hvis din skridtlængde er omkring 158 cm (for mænd) eller
+    132 cm (for kvinder), kan du beregne det som følger:
+
+
+    - **Mænd** (gennemsnitlig skridtlængde på 158 cm): 10.000 skridt = ca. 6,3 km
+
+    - **Kvinder** (gennemsnitlig skridtlængde på 132 cm): 10.000 skridt = ca. 5,7 km
+
+
+    Hvis du vil finde ud af præcis, hvor mange km du går på 10.000 skridt, kan du bruge vores **beregner** til at få en nøjagtig
+    beregning baseret på din individuelle skridtlængde.'
+- question: Hvad er forskellen mellem skridtlængde og trinlængde?
+  answer: Skridtlængde og trinlængde bruges ofte synonymt i daglig tale, men der er en forskel. Trinlængde (step length) er
+    afstanden mellem hælisæt af den ene fod til hælisæt af den anden fod, mens skridtlængde (stride length) er afstanden mellem
+    hælisæt af den samme fod (to skridt). Når du bruger en app eller en skridttæller, er det normalt trinlængde, du skal indtaste.
+    Sørg derfor for at vide, hvilken værdi der kræves, når du bruger en skridttæller.
+- question: Hvordan kan jeg måle min skridtlængde?
+  answer: 'Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling:
+
+
+    1. Sæt et kridtmærke ved hælen på din sko.
+
+    2. Gå 10 skridt (5 med højre ben og 5 med venstre).
+
+    3. Mål afstanden mellem de to kridtstreger.
+
+    4. Del afstanden med 10 for at finde længden af et skridt.
+
+
+    Alternativt kan du bruge vores **beregner** til at udregne din skridtlængde baseret på din højde.'
+- question: Hvad er den gennemsnitlige skridtlængde?
+  answer: Den gennemsnitlige skridtlængde varierer afhængigt af køn og højde. For mænd er den gennemsnitlige skridtlængde
+    omkring 158 cm, mens kvinder har en gennemsnitlig skridtlængde på 132 cm. Skridtlængden kan dog variere meget afhængigt
+    af din kropsbygning og gangstil. Brug vores beregner for at finde din præcise skridtlængde!
 ---
 
 Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation.

@@ -1,25 +1,28 @@
 ---
-title: "Sådan vælger du dine forsøg til et styrkeløft-stævne"
-seo_title: "Vælg de rette forsøg til dit styrkeløft-stævne (Guide)"
-excerpt: Få en strategi til at vælge de rigtige forsøg i squat, bænkpres og dødløft under et styrkeløft-stævne. Undgå fejl og maksimer din præstation med vores guide.
-description: "Få en strategi til at vælge de rigtige forsøg i squat, bænkpres og dødløft under et styrkeløft-stævne. Undgå fejl og maksimer din præstation med vores guide."
+title: Sådan vælger du dine forsøg til et styrkeløft-stævne
+seo_title: Vælg de rette forsøg til dit styrkeløft-stævne (Guide)
+excerpt: Få en strategi til at vælge de rigtige forsøg i squat, bænkpres og dødløft under et styrkeløft-stævne. Undgå fejl
+  og maksimer din præstation med vores guide.
+description: Få en strategi til at vælge de rigtige forsøg i squat, bænkpres og dødløft under et styrkeløft-stævne. Undgå
+  fejl og maksimer din præstation med vores guide.
 permalink: /styrkeloeft-vaelg-forsoeg/
 slanguage: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Regler til styrkeløft og powerlifting"
+  overlay_image: /assets/images/unsplash/photo-1532384360595-4ff4a8c055f4.jpg
+  credit: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4
+  teaser: /assets/images/unsplash/photo-1532384360595-4ff4a8c055f4.jpg
+  caption: Regler til styrkeløft og powerlifting
   actions:
-    - label: "<i class='fas fa-file-excel'></i> Sheet med forslag"
-      url: "#sheet"
-      rel: nofollow noopener
+  - label: <i class='fas fa-file-excel'></i> Sheet med forslag
+    url: '#sheet'
+    rel: nofollow noopener
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - værktøj
-  - styrkeløft
-  - styrketræning
-  - guide
+- værktøj
+- styrkeløft
+- styrketræning
+- guide
 meta:
   name: Vælg vægte til styrkeløftstævne
   measures: vægte til konkurrence
@@ -27,42 +30,44 @@ meta:
   equipment: se testbeskrivelse
   max: maksimal test
   direct: indirekte test
-last_modified_at: 2025-02-19T23:14:14Z
+last_modified_at: '2025-02-19T23:14:14Z'
 feature_row:
-  - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    alt: "Squat - styrkeløft og powerlifting regler for squat"
-    excerpt: "Squat"
-  - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
-    alt: "Bænkpres - powerlifting og styrkeløft regler for bænkpres"
-    excerpt: "Bænkpres"
-  - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
-    alt: "Dødløft - poserlifting og styrkeløft regler for dødløft"
-    excerpt: "Dødløft"
+- image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  alt: Squat - styrkeløft og powerlifting regler for squat
+  excerpt: Squat
+- image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+  alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
+  excerpt: Bænkpres
+- image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+  alt: Dødløft - poserlifting og styrkeløft regler for dødløft
+  excerpt: Dødløft
 feature_row_spreadsheet:
-  - image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
-    alt: "Udregn dine forsøg"
-    title: "Udregn dine forsøg"
-    excerpt: "Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne."
-    url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
-    rel: nofollow noopener
-    btn_label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
-    btn_class: "btn--success"
+- image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
+  alt: Udregn dine forsøg
+  title: Udregn dine forsøg
+  excerpt: Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne.
+  url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+  rel: nofollow noopener
+  btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
+  btn_class: btn--success
 feature_row_books:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet får du et fremragende program målrettet på powerlifting."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
+  alt: Stærk
+  title: Stærk - Jacob Beermann
+  excerpt: Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere
+    Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet
+    får du et fremragende program målrettet på powerlifting.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 quiz:
-  - question: Hvor langt skal man ned i squat for at få godkendt løftet?
-    question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    answer: "Hofteleddet skal være under knæleddet."
-  - question: "Må hovedet løftes fra bænken i bænkpres?"
-    answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
-    answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+- question: Hvor langt skal man ned i squat for at få godkendt løftet?
+  question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  answer: Hofteleddet skal være under knæleddet.
+- question: Må hovedet løftes fra bænken i bænkpres?
+  answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
+  answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
 
 At vælge de rette forsøg til et styrkeløft-stævne er en afgørende faktor for din præstation. En god strategi kan gøre forskellen mellem et vellykket stævne og en skuffende oplevelse.

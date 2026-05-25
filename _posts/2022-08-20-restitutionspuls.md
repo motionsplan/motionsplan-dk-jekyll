@@ -1,16 +1,18 @@
 ---
-title: &title "Restitutionspuls: Hvad er Heart Rate Recovery?"
+title: 'Restitutionspuls: Hvad er Heart Rate Recovery?'
 permalink: /restitutionspuls/
-excerpt: "Vil du gerne vide, hvor god form du er i? Din restitutionspuls er en måde at måle på, hvor godt dit hjerte fungerer og din krop kan vende tilbage til hvile efter fysisk aktivitet."
+excerpt: Vil du gerne vide, hvor god form du er i? Din restitutionspuls er en måde at måle på, hvor godt dit hjerte fungerer
+  og din krop kan vende tilbage til hvile efter fysisk aktivitet.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1523394894855-2feb062d437d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1523394894855-2feb062d437d.jpg
+  credit: https://images.unsplash.com/photo-1523394894855-2feb062d437d
+  caption: 'Restitutionspuls: Hvad er Heart Rate Recovery?'
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - puls
-last_modified_at: 2022-08-18T23:14:14Z
+- puls
+last_modified_at: '2022-08-18T23:14:14Z'
 ---
 
 Vil du gerne vide, hvor god form du er i? Din restitutionspuls er en måde at måle på, hvor godt dit hjerte fungerer og din krop kan vende tilbage til hvile efter fysisk aktivitet.

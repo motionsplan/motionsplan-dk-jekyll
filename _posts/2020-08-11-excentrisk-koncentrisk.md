@@ -1,28 +1,35 @@
 ---
-title: &title "Hvad er excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse?"
-#seo_title: "Excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse"
-seo_title: "Forstå excentrisk, koncentrisk og isometrisk bevægelse"
+title: Hvad er excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse?
+seo_title: Forstå excentrisk, koncentrisk og isometrisk bevægelse
 permalink: /koncentrisk-excentrisk-isometrisk/
-last_modified_at: 2021-12-24T09:41:09Z
+last_modified_at: '2021-12-24T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1532029837206-abbe2b7620e3.jpg
+  credit: https://images.unsplash.com/photo-1532029837206-abbe2b7620e3
+  teaser: /assets/images/unsplash/photo-1532029837206-abbe2b7620e3.jpg
+  caption: Hvad er excentrisk, koncentrisk og isometrisk muskelkontraktion og bevægelse?
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - bevægelsesanalyse
-  - anatomi
+- bevægelsesanalyse
+- anatomi
 sidebar:
   nav: anatomi
 faq:
-  - question: Hvad er koncentrisk arbejde?
-    answer: Koncentrisk arbejde er, når sker en sammentrækning af musklen under belastning. I bænkpres sker der fx koncentrisk muskelarbejde i bryst og triceps, når stangen løftes fra brystet til strakt arm. I biceps curl sker der en koncentrisk bevægelse i armbøjerne, bl.a. biceps, når stangen eller håndvægten løftes fra strakte arme (i hoftehøjde) til bøjede arme.
-  - question: Hvad er excentrisk arbejde?
-    answer: Excentrisk arbejde er, når der sker en forlængelse af musklen under belastning. Musklen bremser altså vægten eller den udefrakommende kraft. I bænkpres er det en excentrisk muskelarbejde i brystmusklen og triceps, når stangen sænkes fra strakte arme ned til brystet, men der i biceps curls foregår en excentrisk kontraktion i armbøjerne, når stangen sænkes igen.
-  - question: Hvad er isometrisk arbejde?
-    answer: Isometrisk arbejde er, når den samme stilling bibeholdes samtidig med, at man arbejder imod en vægt eller udefrakommende kraft. Det er fx isometrisk muskelarbejde, hvis man holder et stop med stangen lige over brystet i bænkpres, eller når man halvvejs i sin biceps curl holder en pause.
+- question: Hvad er koncentrisk arbejde?
+  answer: Koncentrisk arbejde er, når sker en sammentrækning af musklen under belastning. I bænkpres sker der fx koncentrisk
+    muskelarbejde i bryst og triceps, når stangen løftes fra brystet til strakt arm. I biceps curl sker der en koncentrisk
+    bevægelse i armbøjerne, bl.a. biceps, når stangen eller håndvægten løftes fra strakte arme (i hoftehøjde) til bøjede arme.
+- question: Hvad er excentrisk arbejde?
+  answer: Excentrisk arbejde er, når der sker en forlængelse af musklen under belastning. Musklen bremser altså vægten eller
+    den udefrakommende kraft. I bænkpres er det en excentrisk muskelarbejde i brystmusklen og triceps, når stangen sænkes
+    fra strakte arme ned til brystet, men der i biceps curls foregår en excentrisk kontraktion i armbøjerne, når stangen sænkes
+    igen.
+- question: Hvad er isometrisk arbejde?
+  answer: Isometrisk arbejde er, når den samme stilling bibeholdes samtidig med, at man arbejder imod en vægt eller udefrakommende
+    kraft. Det er fx isometrisk muskelarbejde, hvis man holder et stop med stangen lige over brystet i bænkpres, eller når
+    man halvvejs i sin biceps curl holder en pause.
 ---
 
 Forskellen på excentrisk, koncentrisk og isometrisk muskelkontraktion forvirrer ofte, når vi laver bevægelsesanalyser. Derfor kigger jeg lidt i det følgende på, hvad de forskellige typer kontraktioner og bevægelser er.

@@ -1,41 +1,51 @@
 ---
-title: &title "Hvad er one rep max (1RM)?"
-seo_title: "Hvad er 1RM? Definition og brug i styrketræning"
+title: Hvad er one rep max (1RM)?
+seo_title: Hvad er 1RM? Definition og brug i styrketræning
 permalink: /1rm-one-rep-max/
-description: "Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå 1RM’s rolle i programmering og progression."
-excerpt: "Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå 1RM’s rolle i programmering og progression."
+description: Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå
+  1RM’s rolle i programmering og progression.
+excerpt: Lær, hvad One Rep Max (1RM) betyder, hvorfor det er vigtigt, og hvordan du bruger det i din styrketræning. Forstå
+  1RM’s rolle i programmering og progression.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.3
+  teaser: /assets/images/unsplash/photo-1532384360595-4ff4a8c055f4.jpg
+  credit: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4
+  caption: Hvad er one rep max (1RM)?
+  overlay_filter: '0.3'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - træningsplanlægning
-last_modified_at: 2025-02-18T07:14:14Z
-toc: true
+- styrketræning
+- træningsplanlægning
+last_modified_at: '2025-02-18T07:14:14Z'
+toc: 'true'
 feature_row_sheet:
-  - image_path: /assets/images/freebies/rmberegner.png
-    alt: "Google Sheets med RM-beregner"
-    title: "RM-beregner i Google Sheets"
-    excerpt: "I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis."
-    url: "https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424"
-    btn_label: "<i class='fas fa-file-excel'></i> Download"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/rmberegner.png
+  alt: Google Sheets med RM-beregner
+  title: RM-beregner i Google Sheets
+  excerpt: I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis.
+  url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424
+  btn_label: <i class='fas fa-file-excel'></i> Download
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: Hvad er 1RM?
-    answer: "**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. Det bruges ofte til at måle maksimal styrke og til at tilpasse træningsprogrammer baseret på procentdele af 1RM."
-  - question: Hvorfor er det vigtigt at kende sin 1RM?
-    answer: "At kende sin 1RM gør det muligt at træne mere målrettet. Mange styrketræningsprogrammer angiver belastning i procent af 1RM, så du kan optimere din træning ud fra dine mål, hvad enten det er styrke, hypertrofi eller udholdenhed."
-  - question: Hvordan kan jeg finde min 1RM?
-    answer: "Du kan finde din 1RM på flere måder. Den mest præcise metode er en [1RM-test](/rm-maxtest/), hvor du gradvist øger vægten, indtil du når dit maksimale løft. Alternativt kan du estimere din 1RM med en af vores [1RM-formler](/1rm-formler/) eller ved hjælp af en [1RM-beregner](/rm-beregner/)."
-  - question: Kan jeg finde min 1RM uden at løfte maksimalt?
-    answer: "Ja, du kan estimere din 1RM ved at bruge en submaksimal test, hvor du løfter en lettere vægt til failure og bruger en [1RM-formel](/1rm-formler/) til at beregne din maksimale styrke. Du kan også bruge [Velocity Based Training (VBT)](/vbt/) eller en [RPE-baseret metode](/rpe/)."
-  - question: Hvilke faktorer påvirker 1RM?
-    answer: "Flere faktorer kan påvirke din 1RM, herunder teknik, træthed, ernæring, restitution og neurologisk tilpasning. Derfor kan din 1RM variere afhængigt af din dagsform og træningsniveau."
+- question: Hvad er 1RM?
+  answer: '**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. Det bruges ofte
+    til at måle maksimal styrke og til at tilpasse træningsprogrammer baseret på procentdele af 1RM.'
+- question: Hvorfor er det vigtigt at kende sin 1RM?
+  answer: At kende sin 1RM gør det muligt at træne mere målrettet. Mange styrketræningsprogrammer angiver belastning i procent
+    af 1RM, så du kan optimere din træning ud fra dine mål, hvad enten det er styrke, hypertrofi eller udholdenhed.
+- question: Hvordan kan jeg finde min 1RM?
+  answer: Du kan finde din 1RM på flere måder. Den mest præcise metode er en [1RM-test](/rm-maxtest/), hvor du gradvist øger
+    vægten, indtil du når dit maksimale løft. Alternativt kan du estimere din 1RM med en af vores [1RM-formler](/1rm-formler/)
+    eller ved hjælp af en [1RM-beregner](/rm-beregner/).
+- question: Kan jeg finde min 1RM uden at løfte maksimalt?
+  answer: Ja, du kan estimere din 1RM ved at bruge en submaksimal test, hvor du løfter en lettere vægt til failure og bruger
+    en [1RM-formel](/1rm-formler/) til at beregne din maksimale styrke. Du kan også bruge [Velocity Based Training (VBT)](/vbt/)
+    eller en [RPE-baseret metode](/rpe/).
+- question: Hvilke faktorer påvirker 1RM?
+  answer: Flere faktorer kan påvirke din 1RM, herunder teknik, træthed, ernæring, restitution og neurologisk tilpasning. Derfor
+    kan din 1RM variere afhængigt af din dagsform og træningsniveau.
 ---
 
 One Repetition Maximum (1RM) refererer til den maksimale vægt, du kan løfte én gang i en given øvelse. 1RM er en central faktor i styrketræning og bruges til at beregne træningsintensitet.

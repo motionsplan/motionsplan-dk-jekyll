@@ -1,20 +1,21 @@
 ---
-last_modified_at: 2020-10-13T23:14:14.000Z
-toc: true
+last_modified_at: '2020-10-13T23:14:14.000Z'
+toc: 'true'
 author: jesper.emil.jakobsgaard
 permalink: /skadesforebyggelse-skadesforebyggende-traening/
-title: "Skadesforebyggelse: Hvilke øvelser kan forebygge skader?"
+title: 'Skadesforebyggelse: Hvilke øvelser kan forebygge skader?'
 header:
-  overlay_image: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Skadesforebyggelse: Hvilke øvelser kan forebygge skader?"
+  overlay_image: /assets/images/unsplash/photo-1550259979-ed79b48d2a30.jpg
+  credit: https://images.unsplash.com/photo-1550259979-ed79b48d2a30
+  teaser: /assets/images/unsplash/photo-1550259979-ed79b48d2a30.jpg
+  caption: 'Skadesforebyggelse: Hvilke øvelser kan forebygge skader?'
 language: da
 category:
-  - Træning
-  - Skader & Skadesforebyggelse
+- Træning
+- Skader & Skadesforebyggelse
 tags:
-  - styrketræning
-  - skadesforebyggelse
+- styrketræning
+- skadesforebyggelse
 ---
 Hvordan kan man arbejde med skadesforebyggelse? Skadesforebyggende træning kan mindske risikoen for skader, så vi dykker ned i hvilke øvelser, du kan lave for at forebygge skader.
 

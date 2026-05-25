@@ -1,38 +1,42 @@
 ---
-title: &title "Beregn dit energiforbrug præcist med nøjagtig TEE-beregner"
-seo_title: "TEE-beregner: Beregn dit daglige energiforbrug præcist"
-excerpt: "Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist mål for din samlede daglige forbrænding."
-description: "Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist mål for din samlede daglige forbrænding."
+title: Beregn dit energiforbrug præcist med nøjagtig TEE-beregner
+seo_title: 'TEE-beregner: Beregn dit daglige energiforbrug præcist'
+excerpt: Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere præcist
+  mål for din samlede daglige forbrænding.
+description: Pålidelig TEE-beregner med nøjagtig registrering af dit fysiske aktivitetsniveau. Lidt tidskrævende, men mere
+  præcist mål for din samlede daglige forbrænding.
 permalink: /beregner/dagligt-stofskifte-og-forbraending/
 redirect_from:
-  - /avanceret-stofskifteberegner/
+- /avanceret-stofskifteberegner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1495976797530-f33e6580e44b.jpg
+  credit: https://images.unsplash.com/photo-1495976797530-f33e6580e44b
+  teaser: /assets/images/unsplash/photo-1495976797530-f33e6580e44b.jpg
+  caption: Beregn dit energiforbrug præcist med nøjagtig TEE-beregner
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 tags:
-  - beregner
-  - stofskifte
-  - stofskifteberegner
+- beregner
+- stofskifte
+- stofskifteberegner
 meta:
   name: TEE-beregner med tidsregistrering
   equipment: ingen
   measures: dagligt energiforbrug
   type: energiforbrug
-last_modified_at: 2025-03-06T23:14:14Z
-toc: true
+last_modified_at: '2025-03-06T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/pal-schedule.png
-    url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
-    title: "Skema til registrering af aktivitet"
-    excerpt: "Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov."
-    btn_label: <i class='fas fa-file-alt'></i> Download skema
-    btn_class: btn--info
-    rel: nofollow noopener
+- image_path: /assets/images/pal-schedule.png
+  url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
+  title: Skema til registrering af aktivitet
+  excerpt: Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget
+    aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov.
+  btn_label: <i class='fas fa-file-alt'></i> Download skema
+  btn_class: btn--info
+  rel: nofollow noopener
 ---
 
 Denne beregner tager højde for detaljerede faktorer som fysisk aktivitet og stofskifte, hvilket gør den ideel for dem, der ønsker den mest nøjagtige vurdering af deres kaloribehov.

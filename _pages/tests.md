@@ -1,53 +1,58 @@
 ---
 layout: single
-toc: true
+toc: 'true'
 permalink: /tests/
-excerpt: "Find tests du selv kan lave i vores oversigt over alle fysiske fitness tests til gang, løb, cykling, styrketræning, balance, smidighed og roning og træning."
-description: "Find fysiske tests, du selv kan lave, og få indsigt i din kondition, styrke, balance og smidighed. Vælg mellem tests til gang, løb, cykling, roning og styrketræning."
-title: &title "Tests – find den rette test for dig"
-seo_title: "Fysiske tests – test din kondition, styrke og udholdenhed selv"
-author_profile: true
+excerpt: Find tests du selv kan lave i vores oversigt over alle fysiske fitness tests til gang, løb, cykling, styrketræning,
+  balance, smidighed og roning og træning.
+description: Find fysiske tests, du selv kan lave, og få indsigt i din kondition, styrke, balance og smidighed. Vælg mellem
+  tests til gang, løb, cykling, roning og styrketræning.
+title: Tests – find den rette test for dig
+seo_title: Fysiske tests – test din kondition, styrke og udholdenhed selv
+author_profile: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1706029831332-67734fbf73d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1706029831332-67734fbf73d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1706029831332-67734fbf73d9.jpg
+  credit: https://images.unsplash.com/photo-1706029831332-67734fbf73d9
+  teaser: /assets/images/unsplash/photo-1706029831332-67734fbf73d9.jpg
+  caption: Tests – find den rette test for dig
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-stopwatch'></i> Tests"
-      url: "#tests"
-    - label: "<i class='fas fa-calculator'></i> Beregnere"
-      url: "/beregnere/"
-#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-#      url: "/biomekanik/"
-    - label: "<i class='fas fa-tools'></i> Værktøjer"
-      url: "/vaerktoejer/"
-    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "/vurderingsvaerktoejer/"
-breadcrumbs: true
+  - label: <i class='fas fa-stopwatch'></i> Tests
+    url: '#tests'
+  - label: <i class='fas fa-calculator'></i> Beregnere
+    url: /beregnere/
+  - label: <i class='fas fa-tools'></i> Værktøjer
+    url: /vaerktoejer/
+  - label: <i class='fas fa-brain'></i> Psykologiske tests
+    url: /vurderingsvaerktoejer/
+breadcrumbs: 'true'
 feature_row_mental_tests:
-  - image_path: https://images.unsplash.com/photo-1546016366-bf061374d54e?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
-    alt: "Psykisk og mentalt velvære"
-    title: "Psykisk og mentalt velvære"
-    excerpt: "Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale tilstand og tage de første skridt mod at forbedre din trivsel."
-    url: "/psykiske-sundhedstest/"
-    btn_label: "Test din mentale sundhed"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1546016366-bf061374d54e.jpg
+  credit: https://images.unsplash.com/photo-1546016366-bf061374d54e
+  alt: Psykisk og mentalt velvære
+  title: Psykisk og mentalt velvære
+  excerpt: Psykisk velvære er lige så vigtigt som fysisk sundhed. Med disse tests kan du få en bedre forståelse af din mentale
+    tilstand og tage de første skridt mod at forbedre din trivsel.
+  url: /psykiske-sundhedstest/
+  btn_label: Test din mentale sundhed
+  btn_class: btn--success
 feature_row_test_fat_percent:
-  - image_path: https://images.unsplash.com/photo-1611077544170-be90a2f68add?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
-    alt: "Hvordan måler jeg min fedtprocent?"
-    title: "Mål din fedtprocent"
-    excerpt: "Vil du gerne måle din fedtprocent? Her har jeg samlet op på, hvordan du kan måle din fedtprocent. Der er i hvert fald mindst 7 forskellige metoder, du kan afprøve."
-    url: "/maal-fedtprocent/"
-    btn_label: "Test din fedtprocent"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1611077544170-be90a2f68add.jpg
+  credit: https://images.unsplash.com/photo-1611077544170-be90a2f68add
+  alt: Hvordan måler jeg min fedtprocent?
+  title: Mål din fedtprocent
+  excerpt: Vil du gerne måle din fedtprocent? Her har jeg samlet op på, hvordan du kan måle din fedtprocent. Der er i hvert
+    fald mindst 7 forskellige metoder, du kan afprøve.
+  url: /maal-fedtprocent/
+  btn_label: Test din fedtprocent
+  btn_class: btn--success
 feature_row_police_test:
-  - image_path: "/assets/images/blog/politiets-fysiske-test.jpeg"
-    alt: "Politiets optagelsesprøven"
-    title: "Politiets optagelsesprøve"
-    excerpt: "Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt."
-    url: "/politiets-optagelsesproeve/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
+- image_path: /assets/images/blog/politiets-fysiske-test.jpeg
+  alt: Politiets optagelsesprøven
+  title: Politiets optagelsesprøve
+  excerpt: Forstå de fysiske krav og tests i politiets optagelsesprøve. Få indsigt i testens opbygning og forbered dig optimalt.
+  url: /politiets-optagelsesproeve/
+  btn_label: Læs mere
+  btn_class: btn--success
 classes: wide
 ---
 

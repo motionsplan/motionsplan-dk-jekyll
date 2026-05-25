@@ -1,17 +1,18 @@
 ---
-title: &title "Kend din krop: Gæt og quiz"
-seo_title: "Kend din krop: Gæt og quiz om kroppen"
+title: 'Kend din krop: Gæt og quiz'
+seo_title: 'Kend din krop: Gæt og quiz om kroppen'
 permalink: /kend-din-krop/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1520787182336-0e4f42027ac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1520787182336-0e4f42027ac6.jpg
+  credit: https://images.unsplash.com/photo-1520787182336-0e4f42027ac6
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - anatomi
-  - fysiologi
-last_modified_at: 2021-12-31T08:14:14Z
-toc: true
+- anatomi
+- fysiologi
+last_modified_at: '2021-12-31T08:14:14Z'
+toc: 'true'
 ---
 
 Kender du din krop? Her har du mulighed for at gætte lidt på forskellige fakta om kroppen. Vi kigger lidt på anatomi, kredsløb og fysiologi og kroppens opbygning. Er du klar til at gætte med?

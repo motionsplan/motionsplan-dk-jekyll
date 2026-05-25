@@ -1,24 +1,27 @@
 ---
-title: &title "Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
-seo_title: "Cykeltræning: Effektiv intervaltræning til cykling"
-excerpt: "Men hvordan kan du bruge intervaltræning til cykling? Vi kigger på den nyeste videnskab om emnet og du får en række cykelintervaller, som du kan bruge i praksis allerede i dag."
-description: "Vil du træne smartere på cyklen? Prøv intervaltræning! Se programmer og teknikker til bedre udholdenhed og højere watt."
+title: 'Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️'
+seo_title: 'Cykeltræning: Effektiv intervaltræning til cykling'
+excerpt: Men hvordan kan du bruge intervaltræning til cykling? Vi kigger på den nyeste videnskab om emnet og du får en række
+  cykelintervaller, som du kan bruge i praksis allerede i dag.
+description: Vil du træne smartere på cyklen? Prøv intervaltræning! Se programmer og teknikker til bedre udholdenhed og højere
+  watt.
 permalink: /intervaltraening-cykling/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1607109329787-d5133183ee57.jpg
+  credit: https://images.unsplash.com/photo-1607109329787-d5133183ee57
+  teaser: /assets/images/unsplash/photo-1607109329787-d5133183ee57.jpg
+  caption: 'Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️'
 category:
-  - Kondition
-  - Cykling
+- Kondition
+- Cykling
 tags:
-  - konditionstræning
-  - cykling
-  - anaerob træning
-  - intervaltræning
-last_modified_at: 2022-04-24T10:14:14Z
-toc: true
+- konditionstræning
+- cykling
+- anaerob træning
+- intervaltræning
+last_modified_at: '2022-04-24T10:14:14Z'
+toc: 'true'
 ---
 
 Intervaltræning er en af de mest effektive måder at forbedre din cykelpræstation på, især når du ønsker at optimere din træning på kort tid. 

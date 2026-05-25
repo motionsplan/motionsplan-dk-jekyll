@@ -1,23 +1,25 @@
 ---
-title: &title "Fullbody: Helkropsprogram til styrketræning"
-seo_title: "Fullbody: Hvordan opbygger jeg et helkropsprogram?"
-excerpt: "Guide til at opbygge et helkropsprogram til styrketræning, der træner hele kroppen hver gang. Komplet med forslag til fullbody-program."
+title: 'Fullbody: Helkropsprogram til styrketræning'
+seo_title: 'Fullbody: Hvordan opbygger jeg et helkropsprogram?'
+excerpt: Guide til at opbygge et helkropsprogram til styrketræning, der træner hele kroppen hver gang. Komplet med forslag
+  til fullbody-program.
 permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 redirect_from:
-  - /gratis-helkropsprogram/
-  - /artikel/verdens-korteste-styrkeprogram/
+- /gratis-helkropsprogram/
+- /artikel/verdens-korteste-styrkeprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1520948013839-62020f374478.jpg
+  credit: https://images.unsplash.com/photo-1520948013839-62020f374478
+  teaser: /assets/images/unsplash/photo-1520948013839-62020f374478.jpg
+  caption: 'Fullbody: Helkropsprogram til styrketræning'
 tags:
-  - styrketræning
-  - træningsplanlægning
-  - programlægning
+- styrketræning
+- træningsplanlægning
+- programlægning
 category:
-  - Styrketræning
-last_modified_at: 2025-03-03T11:44:17Z
+- Styrketræning
+last_modified_at: '2025-03-03T11:44:17Z'
 ---
 
 Vil du træne hele kroppen på én gang – uden at skulle dele din uge op i flere split? Et fullbody- eller helkropsprogram er en effektiv løsning for dig, der vil træne 1-3 gange om ugen, men det kan også tilpasses til højere træningsfrekvenser.

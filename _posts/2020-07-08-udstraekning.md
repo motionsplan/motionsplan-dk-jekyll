@@ -1,27 +1,29 @@
 ---
-title: &title "Udstrækning: Guide til udstrækningsøvelser og strækøvelser!"
-seo_title: "Alt om udstrækning: 22+ udstrækningsøvelser og strækøvelser"
-description: "Udstrækning og udspænding bruges i mange idrætsgrene ✓ Se 15+ udstrækningsøvelser for hele kroppen ✓ 3 myter om strækøvelser ✓ 3 effekter af udstrækning"
+title: 'Udstrækning: Guide til udstrækningsøvelser og strækøvelser!'
+seo_title: 'Alt om udstrækning: 22+ udstrækningsøvelser og strækøvelser'
+description: Udstrækning og udspænding bruges i mange idrætsgrene ✓ Se 15+ udstrækningsøvelser for hele kroppen ✓ 3 myter
+  om strækøvelser ✓ 3 effekter af udstrækning
 permalink: /udstraekning-udspaending/
 redirect_from:
-  - /artikel/du-bliver-smidigere-af-straekke/
+- /artikel/du-bliver-smidigere-af-straekke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.2
+  overlay_image: /assets/images/unsplash/photo-1562771379-eafdca7a02f8.jpg
+  credit: https://images.unsplash.com/photo-1562771379-eafdca7a02f8
+  teaser: /assets/images/unsplash/photo-1562771379-eafdca7a02f8.jpg
+  caption: 'Udstrækning: Guide til udstrækningsøvelser og strækøvelser!'
+  overlay_filter: '0.2'
 category:
-  - Træning
+- Træning
 tags:
-  - smidighed
-  - udstrækning
-  - øvelser
-  - liste
-  - moc
-  - træning
-last_modified_at: 2021-02-07T15:33:14Z
-toc: true
+- smidighed
+- udstrækning
+- øvelser
+- liste
+- moc
+- træning
+last_modified_at: '2021-02-07T15:33:14Z'
+toc: 'true'
 sidebar:
   nav: exercises
 ---

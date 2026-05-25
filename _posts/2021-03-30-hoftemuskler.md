@@ -1,26 +1,27 @@
 ---
-title: &title "Hoftens muskler: Liste og øvelser til musklerne i hoften"
-seo_title: "Hoftens muskler: Sådan træner du dine muskler omkring hoften"
-description: "Komplet liste over muskler i hoften. Forslag til træning og øvelser for stærke og mobile hofter."
+title: 'Hoftens muskler: Liste og øvelser til musklerne i hoften'
+seo_title: 'Hoftens muskler: Sådan træner du dine muskler omkring hoften'
+description: Komplet liste over muskler i hoften. Forslag til træning og øvelser for stærke og mobile hofter.
 permalink: /muskler/hoften/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1434682772747-f16d3ea162c3.jpg
+  credit: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3
+  teaser: /assets/images/unsplash/photo-1434682772747-f16d3ea162c3.jpg
+  caption: 'Hoftens muskler: Liste og øvelser til musklerne i hoften'
 category:
-  - Anatomi
-  - Muskler
+- Anatomi
+- Muskler
 tags:
-  - muskler
-  - anatomi
-  - hofte
-last_modified_at: 2026-03-29T17:20:00Z
-toc: true
+- muskler
+- anatomi
+- hofte
+last_modified_at: '2026-03-29T17:20:00Z'
+toc: 'true'
 author: lsolesen
 sidebar:
   nav: muscles
-breadcrumbs: true
+breadcrumbs: 'true'
 ---
 
 Jeg har samlet en liste over muskler i din hofte her. Det er vigtigt at vide, hvordan dine hoftemuskler virker, hvis du gerne vil have en stærk og stabil underkrop samt undgå smerter i lænd og knæ.

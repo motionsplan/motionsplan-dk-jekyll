@@ -1,18 +1,19 @@
 ---
-title: &title "2-split træningsprogram - upper/lower (UL)"
-seo_title: "2-split træningsprogram: Effektiv upper/lower træning"
+title: 2-split træningsprogram - upper/lower (UL)
+seo_title: '2-split træningsprogram: Effektiv upper/lower træning'
 permalink: /2-split-upper-lower/
 header:
-  overlay_image: https://images.unsplash.com/photo-1526407153035-415201c1ba3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1526407153035-415201c1ba3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1526407153035-415201c1ba3d.jpg
+  credit: https://images.unsplash.com/photo-1526407153035-415201c1ba3d
+  teaser: /assets/images/unsplash/photo-1526407153035-415201c1ba3d.jpg
+  caption: 2-split træningsprogram - upper/lower (UL)
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-last_modified_at: 2021-08-16T10:14:14Z
-toc: true
+- træningsprogram
+last_modified_at: '2021-08-16T10:14:14Z'
+toc: 'true'
 ---
 
 Dette 2-split program til styrketræning er baseret på upper/lower. Jeg skriver her lidt om forskellen mellem forskellige 2-split-programmer, og hvordan du kan tilpasse det til dine behov og målsætninger.

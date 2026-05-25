@@ -1,17 +1,18 @@
 ---
-title: &title "Home Gym: Tips og udstyr til dit eget garagegym"
+title: 'Home Gym: Tips og udstyr til dit eget garagegym'
 permalink: /artikel/gode-raad-til-eget-garagegym/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1513352098199-8ccf457b35a8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1513352098199-8ccf457b35a8?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1513352098199-8ccf457b35a8.jpg
+  credit: https://images.unsplash.com/photo-1513352098199-8ccf457b35a8
+  teaser: /assets/images/unsplash/photo-1513352098199-8ccf457b35a8.jpg
+  caption: 'Home Gym: Tips og udstyr til dit eget garagegym'
 tags:
-  - udstyr
-  - gør-det-selv
+- udstyr
+- gør-det-selv
 category:
-  - Træning
-last_modified_at: 2020-02-13T22:20:01Z
+- Træning
+last_modified_at: '2020-02-13T22:20:01Z'
 ---
 
 Det kan være rigtig fedt at have sit eget home gym i garagen, hvis du gerne let vil kunne træne. Det behøver ikke at være så dyrt at få udstyr til sit eget home gym.

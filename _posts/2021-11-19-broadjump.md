@@ -1,25 +1,28 @@
 ---
-title: &title "Længdespring - Test din eksplosive springstyrke med broad jump"
-seo_title: "Broad Jump – Test din eksplosive springstyrke i længdespring"
-description: Broad Jump er en test af eksplosiv kraft og horisontal springstyrke. Lær, hvordan du udfører et stående korrekt, hvad resultaterne betyder, og hvordan du forbedrer dit spring.
-excerpt: Broad Jump er en test af eksplosiv kraft og horisontal springstyrke. Lær, hvordan du udfører et stående længdespring korrekt, hvad resultaterne betyder, og hvordan du forbedrer dit spring.
+title: Længdespring - Test din eksplosive springstyrke med broad jump
+seo_title: Broad Jump – Test din eksplosive springstyrke i længdespring
+description: Broad Jump er en test af eksplosiv kraft og horisontal springstyrke. Lær, hvordan du udfører et stående korrekt,
+  hvad resultaterne betyder, og hvordan du forbedrer dit spring.
+excerpt: Broad Jump er en test af eksplosiv kraft og horisontal springstyrke. Lær, hvordan du udfører et stående længdespring
+  korrekt, hvad resultaterne betyder, og hvordan du forbedrer dit spring.
 permalink: /broadjump/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1473091540282-9b846e7965e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1473091540282-9b846e7965e3.jpg
+  credit: https://images.unsplash.com/photo-1473091540282-9b846e7965e3
 category:
-  - Træning
-  - Springtræning
+- Træning
+- Springtræning
 tags:
-  - test
-  - træning
-  - spring
-  - eksplosivitet
-  - springtest
-  - polititest
-  - politi
-  - fitnesstest
-  - anaerob test
+- test
+- træning
+- spring
+- eksplosivitet
+- springtest
+- polititest
+- politi
+- fitnesstest
+- anaerob test
 meta:
   name: Broadjump (længdespring)
   measures: springstyrke
@@ -28,8 +31,8 @@ meta:
   max: maksimal test
   direct: indirekte test
   description: Test for at måle, hvor langt du kan springe fremad.
-last_modified_at: 2025-01-19T08:14:14Z
-toc: true
+last_modified_at: '2025-01-19T08:14:14Z'
+toc: 'true'
 ---
 
 Broad Jump, også kaldet stående længdespring, er en test af eksplosiv styrke, hvor du springer så langt som muligt fra en stående position.

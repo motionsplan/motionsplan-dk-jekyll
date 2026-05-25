@@ -1,18 +1,19 @@
 ---
-title: &title "Crossfit workouts: Hvad er Workout of the Day i crossfit?"
+title: 'Crossfit workouts: Hvad er Workout of the Day i crossfit?'
 permalink: /crossfit-workouts/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1536922246289-88c42f957773.jpg
+  credit: https://images.unsplash.com/photo-1536922246289-88c42f957773
+  teaser: /assets/images/unsplash/photo-1536922246289-88c42f957773.jpg
+  caption: 'Crossfit workouts: Hvad er Workout of the Day i crossfit?'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - crossfit
-last_modified_at: 2020-01-23T08:14:14Z
-toc: true
+- styrketræning
+- crossfit
+last_modified_at: '2020-01-23T08:14:14Z'
+toc: 'true'
 ---
 
 Crossfit workouts er utrolig populære. En crossfit workout er en række øvelser sat sammen, som du skal gennemføre på en bestemt måde. Dette indlæg handler om Workout of the Day.

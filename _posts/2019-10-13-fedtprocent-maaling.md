@@ -1,45 +1,53 @@
 ---
-title: "Sådan måler du din fedtprocent - 7 forskellige metoder"
-seo_title: "7 metoder til at måle fedtprocent – hvad er bedst?"
-description: "Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere af metoderne kan du lave derhjemme i dag!"
+title: Sådan måler du din fedtprocent - 7 forskellige metoder
+seo_title: 7 metoder til at måle fedtprocent – hvad er bedst?
+description: Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere
+  af metoderne kan du lave derhjemme i dag!
 permalink: /maal-fedtprocent/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1611077544170-be90a2f68add?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1611077544170-be90a2f68add?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.6
-  caption: "7 metoder til at måling af din fedtprocent"
+  overlay_image: /assets/images/unsplash/photo-1611077544170-be90a2f68add.jpg
+  credit: https://images.unsplash.com/photo-1611077544170-be90a2f68add
+  teaser: /assets/images/unsplash/photo-1611077544170-be90a2f68add.jpg
+  overlay_filter: '0.6'
+  caption: 7 metoder til at måling af din fedtprocent
 category:
-  - Tests
+- Tests
 tags:
-  - fedtprocent
-  - moc
-last_modified_at: 2023-01-01T22:14:14Z
-toc: true
+- fedtprocent
+- moc
+last_modified_at: '2023-01-01T22:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
-    alt: "Tanita DC 360P Kropsanalysevægt"
-    title: "Tanita DC 360P Kropsanalysevægt"
-    excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
-    alt: "Tanita MC 780 P MA"
-    title: "Tanita MC 780 P MA"
-    excerpt: "Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+  alt: Tanita DC 360P Kropsanalysevægt
+  title: Tanita DC 360P Kropsanalysevægt
+  excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
+    det muligt at få en fuld kropsanalyse og måle din fedtprocent.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+  alt: Tanita MC 780 P MA
+  title: Tanita MC 780 P MA
+  excerpt: Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte.
+    Med det todelte display, kan du nemt overskue den målte og beregnede data.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/
+  btn_label: Tjek pris
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 faq:
-  - question: Hvad er en god fedtprocent?
-    answer: |
-      Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på siden kan du se normer for fedtprocent i forhold til forskellige befolkningsgrupper, men du kan også få et bud på, hvad en sund fedtprocent er.
-  - question: Hvordan finder jeg min fedtprocent?
-    answer: |
-      Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
+- question: Hvad er en god fedtprocent?
+  answer: 'Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på
+    siden kan du se normer for fedtprocent i forhold til forskellige befolkningsgrupper, men du kan også få et bud på, hvad
+    en sund fedtprocent er.
+
+    '
+- question: Hvordan finder jeg min fedtprocent?
+  answer: Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent.
+    Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere
+    og hydrostatisk vejning.
 ---
 
 Vil du gerne måle din fedtprocent? Der findes flere metoder til at måle fedtprocent, men ingen af dem er 100 % præcise. Hver metode har sine fordele, ulemper og en vis grad af unøjagtighed.

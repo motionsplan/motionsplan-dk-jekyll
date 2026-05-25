@@ -1,28 +1,29 @@
 ---
 layout: single
-toc: true
+toc: 'true'
 permalink: /vurderingsvaerktoejer/
-excerpt: "Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger og selvtests samlet ét sted."
-description: "Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger og selvtests samlet ét sted."
-title: &title "Vurderingsværktøjer til din sundhed og trivsel"
-seo_title: "Vurderingsværktøjer – få indsigt i din sundhed og trivsel"
-author_profile: true
+excerpt: Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger
+  og selvtests samlet ét sted.
+description: Brug vores vurderingsværktøjer til at få indsigt i din sundhed, trivsel og livsstil. Screening, risikovurderinger
+  og selvtests samlet ét sted.
+title: Vurderingsværktøjer til din sundhed og trivsel
+seo_title: Vurderingsværktøjer – få indsigt i din sundhed og trivsel
+author_profile: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1434030216411-0b793f4b4173.jpg
+  credit: https://images.unsplash.com/photo-1434030216411-0b793f4b4173
+  caption: Vurderingsværktøjer til din sundhed og trivsel
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-stopwatch'></i> Tests"
-      url: "/tests/"
-    - label: "<i class='fas fa-calculator'></i> Beregnere"
-      url: "/beregnere/"
-#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-#      url: "/biomekanik/"
-    - label: "<i class='fas fa-tools'></i> Værktøjer"
-      url: "/vaerktoejer/"
-    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "#tests"
-breadcrumbs: true
+  - label: <i class='fas fa-stopwatch'></i> Tests
+    url: /tests/
+  - label: <i class='fas fa-calculator'></i> Beregnere
+    url: /beregnere/
+  - label: <i class='fas fa-tools'></i> Værktøjer
+    url: /vaerktoejer/
+  - label: <i class='fas fa-brain'></i> Psykologiske tests
+    url: '#tests'
+breadcrumbs: 'true'
 classes: wide
 ---
 

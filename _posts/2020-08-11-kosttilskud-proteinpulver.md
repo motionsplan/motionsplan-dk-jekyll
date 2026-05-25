@@ -1,76 +1,100 @@
 ---
-title: &title "Guide til det Bedste Proteinpulver i 2025 💪"
+title: Guide til det Bedste Proteinpulver i 2025 💪
 seo_title: Bedste proteinpulver 2025 – Find den rette type til dig
-excerpt: "Se hvilken type proteinpulver der passer bedst til dig. Få overblik over valle, kasein og veganske varianter – og vores topvalg i 2025."
-description: "Se hvilken type proteinpulver der passer bedst til dig. Få overblik over valle, kasein og veganske varianter – og vores topvalg i 2025."
+excerpt: Se hvilken type proteinpulver der passer bedst til dig. Få overblik over valle, kasein og veganske varianter – og
+  vores topvalg i 2025.
+description: Se hvilken type proteinpulver der passer bedst til dig. Få overblik over valle, kasein og veganske varianter
+  – og vores topvalg i 2025.
 permalink: /kosttilskud/proteinpulver/
-last_modified_at: 2025-01-01T09:41:09Z
+last_modified_at: '2025-01-01T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
+  credit: https://images.unsplash.com/photo-1579722822280-a3d601518cc9
+  teaser: /assets/images/unsplash/photo-1579722822280-a3d601518cc9.jpg
+  caption: Guide til det Bedste Proteinpulver i 2025 💪
 category:
-  - Kost & Ernæring
-  - Kosttilskud
+- Kost & Ernæring
+- Kosttilskud
 tags:
-  - kost & ernæring
-  - kosttilskud
-  - produkt
+- kost & ernæring
+- kosttilskud
+- produkt
 faq:
-  - question: Hvordan vælger jeg det rette proteinpulver?
-    answer: Overvej dine mål, kostpræferencer (fx vegansk eller laktosefri) og hvornår du vil bruge pulveret.
-  - question: Hvornår bør jeg tage proteinpulver?
-    answer: |
-      - **Efter træning**: Whey-protein
-      - **Før sengetid**: Kasein
-      - **Mellem måltider**: Vegansk eller Clear Whey
-  - question: Er der bivirkninger ved proteinpulver?
-    answer: De fleste tåler proteinpulver fint. For højt indtag kan give fordøjelsesproblemer, især ved intolerance.
-  - question: Er vegansk protein lige så godt som valleprotein?
-    answer: Ja, især hvis det er baseret på en blanding af fx ris og ærteprotein – det giver en komplet aminosyreprofil.
-  - question: Kan proteinpulver hjælpe med vægttab?
-    answer: Ja, protein mætter godt og bevarer muskelmasse – det er en god støtte i kalorieunderskud.
+- question: Hvordan vælger jeg det rette proteinpulver?
+  answer: Overvej dine mål, kostpræferencer (fx vegansk eller laktosefri) og hvornår du vil bruge pulveret.
+- question: Hvornår bør jeg tage proteinpulver?
+  answer: '- **Efter træning**: Whey-protein
+
+    - **Før sengetid**: Kasein
+
+    - **Mellem måltider**: Vegansk eller Clear Whey
+
+    '
+- question: Er der bivirkninger ved proteinpulver?
+  answer: De fleste tåler proteinpulver fint. For højt indtag kan give fordøjelsesproblemer, især ved intolerance.
+- question: Er vegansk protein lige så godt som valleprotein?
+  answer: Ja, især hvis det er baseret på en blanding af fx ris og ærteprotein – det giver en komplet aminosyreprofil.
+- question: Kan proteinpulver hjælpe med vægttab?
+  answer: Ja, protein mætter godt og bevarer muskelmasse – det er en god støtte i kalorieunderskud.
 feature_row_protein:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
-    image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
-    title: Whey 100
-    excerpt: |
-      Bodylab Whey 100 er et alsidigt proteinpulver, uanset om du træner for muskelopbygning, vægttab eller blot vil sikre dig nok dagligt protein. Et solidt valg.
+- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-whey-100-663p.html
+  image_path: /assets/images/products/Whey100-1000g_3stk_bw.avif
+  title: Whey 100
+  excerpt: 'Bodylab Whey 100 er et alsidigt proteinpulver, uanset om du træner for muskelopbygning, vægttab eller blot vil
+    sikre dig nok dagligt protein. Et solidt valg.
 
-      🥇 **Bedst til prisen**<br>
-      ✅ Dansk producent<br>
-      ✅ >70% protein<br>
-      ✅ Muskelopbygning
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/clear-whey-3662p.html
-    image_path: /assets/images/products/clear-whey-500g-3stk-new.avif
-    title: Bodylab Clear Whey
-    excerpt: |
-      Bodylab Clear Whey er perfekt til dig, der ønsker et frisk og let proteinpulver uden den tunge milkshake-følelse. Et forfriskende alternativ med høj proteinkvalitet.
 
-      🥈 **Frisk smag**<br>
-      ✅ Friske smage<br>
-      ✅ >80% protein<br>
-      ✅ Lav på kulhydrat
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/vegan-protein-blend-3719p.html
-    image_path: /assets/images/products/vegan-blend-3x.avif
-    title: Vegan Blend
-    excerpt: |
-      Vegan Blend fra Bodylab er til dig, der ønsker et vegansk proteinpulver med god smag og kvalitet. Et af de bedste plantebaserede valg.
+    🥇 **Bedst til prisen**<br>
 
-      🥉 **Vegansk**<br>
-      ✅ Dansk producent<br>
-      ✅ Forskellige smage<br>
-      ✅ Lavt sukkerindhold
-    btn_label: Tjek prisen
-    btn_class: btn--danger
-    rel: sponsored nofollow noopener
+    ✅ Dansk producent<br>
+
+    ✅ >70% protein<br>
+
+    ✅ Muskelopbygning
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/clear-whey-3662p.html
+  image_path: /assets/images/products/clear-whey-500g-3stk-new.avif
+  title: Bodylab Clear Whey
+  excerpt: 'Bodylab Clear Whey er perfekt til dig, der ønsker et frisk og let proteinpulver uden den tunge milkshake-følelse.
+    Et forfriskende alternativ med høj proteinkvalitet.
+
+
+    🥈 **Frisk smag**<br>
+
+    ✅ Friske smage<br>
+
+    ✅ >80% protein<br>
+
+    ✅ Lav på kulhydrat
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/vegan-protein-blend-3719p.html
+  image_path: /assets/images/products/vegan-blend-3x.avif
+  title: Vegan Blend
+  excerpt: 'Vegan Blend fra Bodylab er til dig, der ønsker et vegansk proteinpulver med god smag og kvalitet. Et af de bedste
+    plantebaserede valg.
+
+
+    🥉 **Vegansk**<br>
+
+    ✅ Dansk producent<br>
+
+    ✅ Forskellige smage<br>
+
+    ✅ Lavt sukkerindhold
+
+    '
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 classes: wide
 ---
 

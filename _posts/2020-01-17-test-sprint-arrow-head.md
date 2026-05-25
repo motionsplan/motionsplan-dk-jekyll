@@ -1,20 +1,21 @@
 ---
-title: &title "Arrowhead Test: Retningsskift og agilitytest"
+title: 'Arrowhead Test: Retningsskift og agilitytest'
 permalink: /arrowhead-test/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1658702041515-18275b138fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1658702041515-18275b138fda.jpg
+  credit: https://images.unsplash.com/photo-1658702041515-18275b138fda
 category:
-  - Tests
-  - Eksplosivitet
+- Tests
+- Eksplosivitet
 tags:
-  - test
-  - eksplosivitet
-  - agility
-  - løb
-  - sprinttest
-last_modified_at: 2019-11-19T23:14:14Z
-toc: true
+- test
+- eksplosivitet
+- agility
+- løb
+- sprinttest
+last_modified_at: '2019-11-19T23:14:14Z'
+toc: 'true'
 meta:
   name: Arrowhead test
   measures: sprint og retningsskift

@@ -1,23 +1,30 @@
 ---
-title: &title "Billigt fitness center: Se de billigste abonnementer (Pristjek 2025)"
-seo_title: "Billigste fitness center: Se billige abonnementer (Pristjek 2025)"
+title: 'Billigt fitness center: Se de billigste abonnementer (Pristjek 2025)'
+seo_title: 'Billigste fitness center: Se billige abonnementer (Pristjek 2025)'
 permalink: /billigste-fitnesscenter/
-description: "Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret."
-excerpt: "Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret."
+description: Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre.
+  Så læs med her for at få svaret.
+excerpt: Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre.
+  Så læs med her for at få svaret.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1596357395104-ba989e72b5ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1596357395104-ba989e72b5ec.jpg
+  credit: https://images.unsplash.com/photo-1596357395104-ba989e72b5ec
+  caption: 'Billigt fitness center: Se de billigste abonnementer (Pristjek 2025)'
 category:
-  - Inspiration
+- Inspiration
 tags:
-  - anmeldelse
-last_modified_at: 2022-12-04T07:14:14Z
+- anmeldelse
+last_modified_at: '2022-12-04T07:14:14Z'
 faq:
-  - question: Hvordan finder man et billigt træningscenter?
-    answer: På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige services.
-  - question: Hvad skal du være opmærksom på, når du vælger fitnesscenter?
-    answer: Når du vælger et fitnesscenter, så sørg for at det lever op til dine krav. Vil du gerne træne i maskiner, frie vægte eller måske følge holdtræning? Vil du gerne have omklædningsfaciliteter? Hvilket fællesskab vil du gerne opleve i fitensscenteret? Husk også at holde øje med de forskellige abonnementstyper.
+- question: Hvordan finder man et billigt træningscenter?
+  answer: På vores liste over billige træningscentre kan du hurtigt danne dig et overblik over, hvilke fitnesscentre, der
+    er de billigste i Danmark. Men husk at være opmærksom på, at de forskellige fitnesscentre og fitnesskæder leverer forskellige
+    services.
+- question: Hvad skal du være opmærksom på, når du vælger fitnesscenter?
+  answer: Når du vælger et fitnesscenter, så sørg for at det lever op til dine krav. Vil du gerne træne i maskiner, frie vægte
+    eller måske følge holdtræning? Vil du gerne have omklædningsfaciliteter? Hvilket fællesskab vil du gerne opleve i fitensscenteret?
+    Husk også at holde øje med de forskellige abonnementstyper.
 ---
 
 Er du interesseret i at finde et billigt fitness center? Jeg har undersøgt priserne på alle de danske fitnesscentre. Så læs med her for at få svaret.

@@ -1,35 +1,38 @@
 ---
-title: &title "Omregner fra kJ til kcal til kJ"
-seo_title: "KJ til kcal til kJ | Hurtig automatisk udregning"
+title: Omregner fra kJ til kcal til kJ
+seo_title: KJ til kcal til kJ | Hurtig automatisk udregning
 permalink: /kj-kcal-omregner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1611077544695-c7942e060c4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1611077544695-c7942e060c4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg
+  credit: https://images.unsplash.com/photo-1611077544695-c7942e060c4d
+  teaser: /assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg
+  caption: Omregner fra kJ til kcal til kJ
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 tags:
-  - beregner
-  - kalorieberegner
-  - kost & ernæring
+- beregner
+- kalorieberegner
+- kost & ernæring
 meta:
   name: Omregner fra kJ til kcal
   equipment: ingen
   measures: omregner energi
   type: kalorieberegner
-last_modified_at: 2021-07-28T10:14:14Z
-toc: true
+last_modified_at: '2021-07-28T10:14:14Z'
+toc: 'true'
 faq:
-  - question: "Hvor mange Joule (J) er der i en kalorie (cal)?"
-    answer: "Der går 4,184 Joule på en kalorie."
-  - question: "Hvor mange kiloJoule (kJ) er der i en kilokalorie (kcal)?"
-    answer: "Der går 4,184 kiloJoule (kJ) på en kilokalorie (kcal)."
-  - question: "Hvordan regner man kalorier om til kilojoule?"
-    answer: "Hvis du vil regne kalorier om til kilojoule, så skal du gange værdien i kalorier med 4,1862 for at få svaret i kilojoule. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere."
-  - question: "Hvordan regner man kilojoule om til kalorier?"
-    answer: "Hvis du vil regne kilojoule om til kalorier, så skal du dividere værdien i kilojoule med 4,184 for at få værdien i kalorier. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere."
+- question: Hvor mange Joule (J) er der i en kalorie (cal)?
+  answer: Der går 4,184 Joule på en kalorie.
+- question: Hvor mange kiloJoule (kJ) er der i en kilokalorie (kcal)?
+  answer: Der går 4,184 kiloJoule (kJ) på en kilokalorie (kcal).
+- question: Hvordan regner man kalorier om til kilojoule?
+  answer: Hvis du vil regne kalorier om til kilojoule, så skal du gange værdien i kalorier med 4,1862 for at få svaret i kilojoule.
+    De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere.
+- question: Hvordan regner man kilojoule om til kalorier?
+  answer: Hvis du vil regne kilojoule om til kalorier, så skal du dividere værdien i kilojoule med 4,184 for at få værdien
+    i kalorier. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere.
 ---
 
 Man har ofte bruge for at omregne kJ til kcal (kilojoule til kalorier) eller omvendt fra kcal til kJ (kalorier til kilojoule). Det har jeg lavet en beregner til, som gør det let og automatisk.

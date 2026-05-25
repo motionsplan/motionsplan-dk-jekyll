@@ -1,31 +1,34 @@
 ---
-title: &title "Beregn dine pulszoner med pulsreserve (Karvonen-metoden)"
-seo_title: "Pulszoneberegner fra pulsreserven (Karvonen-metoden)"
-description: "Udnyt Karvonen-metoden til at beregne dine pulszoner baseret på pulsreserve. Optimer din træning med vores nøjagtige pulszoneberegner."
-excerpt: "Udnyt Karvonen-metoden til at beregne dine pulszoner baseret på pulsreserve. Optimer din træning med vores nøjagtige pulszoneberegner."
+title: Beregn dine pulszoner med pulsreserve (Karvonen-metoden)
+seo_title: Pulszoneberegner fra pulsreserven (Karvonen-metoden)
+description: Udnyt Karvonen-metoden til at beregne dine pulszoner baseret på pulsreserve. Optimer din træning med vores nøjagtige
+  pulszoneberegner.
+excerpt: Udnyt Karvonen-metoden til at beregne dine pulszoner baseret på pulsreserve. Optimer din træning med vores nøjagtige
+  pulszoneberegner.
 permalink: /pulszoner-pulsreserve-karvonen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1523475585621-bc60c6d75c2a.jpg
+  credit: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a
+  teaser: /assets/images/unsplash/photo-1523475585621-bc60c6d75c2a.jpg
+  caption: Beregn dine pulszoner med pulsreserve (Karvonen-metoden)
 category:
-  - Beregnere
+- Beregnere
 tags:
-  - beregner
-  - kondition
-  - træning
-  - puls
-  - programlægning
-  - træningsplanlægning
-  - pulszoneberegner
-  - løb
-last_modified_at: 2025-02-06T23:14:14Z
-toc: true
+- beregner
+- kondition
+- træning
+- puls
+- programlægning
+- træningsplanlægning
+- pulszoneberegner
+- løb
+last_modified_at: '2025-02-06T23:14:14Z'
+toc: 'true'
 garmin_lactate:
-  - image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 meta:
   name: Beregn pulszoner pulsreserve
   equipment: beregner

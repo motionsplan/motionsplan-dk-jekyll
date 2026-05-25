@@ -1,19 +1,21 @@
 ---
-title: &title "Tallerkenmodellen: Hvad er Y, T, E og X tallerkenmodellerne?"
-seo_title: "Tallerkenmodellen • Spis efter Y, T, E og X-modellen"
-description: "Tallerkenmodeller kan bruges i forbindelse med sundhed og vægttab. Se fordele og ulemper ved Y-tallerken, T-tallerken, E-tallerken og X-tallerken."
+title: 'Tallerkenmodellen: Hvad er Y, T, E og X tallerkenmodellerne?'
+seo_title: Tallerkenmodellen • Spis efter Y, T, E og X-modellen
+description: Tallerkenmodeller kan bruges i forbindelse med sundhed og vægttab. Se fordele og ulemper ved Y-tallerken, T-tallerken,
+  E-tallerken og X-tallerken.
 permalink: /tallerken-modeller/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1533777857889-4be7c70b33f7.jpg
+  credit: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7
+  caption: 'Tallerkenmodellen: Hvad er Y, T, E og X tallerkenmodellerne?'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kost & ernæring
-  - populær
-last_modified_at: 2022-08-11T08:14:14Z
-toc: true
+- kost & ernæring
+- populær
+last_modified_at: '2022-08-11T08:14:14Z'
+toc: 'true'
 ---
 
 Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har researchet lidt på, hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved tallerkenmodellerne: Y-tallerken, T-tallerken, E-tallerken og X-tallerken.

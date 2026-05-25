@@ -1,24 +1,29 @@
 ---
-title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓"
-seo_title: "Liste over sportsgrene, idræt og motion (2025)"
-description: Vil du gerne finde en sport, motion og idræt, som du kan dyrke i din fritid? Vi har samlet de mest populære sportsgrene og idrætsgrene i Danmark.
+title: Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓
+seo_title: Liste over sportsgrene, idræt og motion (2025)
+description: Vil du gerne finde en sport, motion og idræt, som du kan dyrke i din fritid? Vi har samlet de mest populære sportsgrene
+  og idrætsgrene i Danmark.
 permalink: /sportsgrene-liste/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1547347298-4074fc3086f0.jpg
+  credit: https://images.unsplash.com/photo-1547347298-4074fc3086f0
+  teaser: /assets/images/unsplash/photo-1547347298-4074fc3086f0.jpg
+  caption: Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓
 category:
-  - Sportsgrene
+- Sportsgrene
 tags:
-  - liste
-  - sportsgrene
-last_modified_at: 2023-01-01T23:14:14Z
+- liste
+- sportsgrene
+last_modified_at: '2023-01-01T23:14:14Z'
 faq:
-  - question: Hvad er nationalsporten i Danmark?
-    answer: Mange er blevet snydt af Dansk Dartunions [aprilsnar](https://www.dart-ddu.dk/dart-nyheder/dif-dart-udnaevnt-til-danmarks-officielle-nationalsport/) fra 2017, hvor de fortæller at DIF har udnævnt dart som nationalsport. Men fodbold er Danmarks nationalsport og mest populære idræt.
-  - question: Hvor mange medlemmer er der i DIF og DGI?
-    answer: I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.dk/om/fakta/tal-og-referater/medlemstal) og knap [2 millioner medlemmer i en forening under Danmarks Idræts-Forbund (DIF)](https://www.dif.dk/da/politik/vi-er/medlemstal)
+- question: Hvad er nationalsporten i Danmark?
+  answer: Mange er blevet snydt af Dansk Dartunions [aprilsnar](https://www.dart-ddu.dk/dart-nyheder/dif-dart-udnaevnt-til-danmarks-officielle-nationalsport/)
+    fra 2017, hvor de fortæller at DIF har udnævnt dart som nationalsport. Men fodbold er Danmarks nationalsport og mest populære
+    idræt.
+- question: Hvor mange medlemmer er der i DIF og DGI?
+  answer: I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.dk/om/fakta/tal-og-referater/medlemstal)
+    og knap [2 millioner medlemmer i en forening under Danmarks Idræts-Forbund (DIF)](https://www.dif.dk/da/politik/vi-er/medlemstal)
 ---
 Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
 

@@ -2,41 +2,48 @@
 layout: single
 permalink: /benoevelser/
 redirect_from:
-  - /effektive-benovelser-til-bentraening/
+- /effektive-benovelser-til-bentraening/
 header:
-  overlay_image: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
-title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen 🏋"
-seo_title: "Benøvelser: Effektive øvelser til bentræning 🏋"
-author_profile: true
+  overlay_image: /assets/images/unsplash/photo-1434682772747-f16d3ea162c3.jpg
+  credit: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3
+  teaser: /assets/images/unsplash/photo-1434682772747-f16d3ea162c3.jpg
+  caption: 'Benøvelser: De mest effektive styrketræningsøvelser til bentræningen'
+title: 'Benøvelser: De mest effektive styrketræningsøvelser til bentræningen 🏋'
+seo_title: 'Benøvelser: Effektive øvelser til bentræning 🏋'
+author_profile: 'true'
 classes: wide
-excerpt: "Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben."
+excerpt: Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du
+  kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have
+  større og stærkere ben.
 categories:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
 exercises:
-  - key: 20201212201800
-    title: "Zercher Squat"
-  - key: 20201212203300
-    title: "Hack Squat"
-  - key: 20201212203500
-    title: "Jefferson Deadlift"
-  - key: 20201212203700
-    title: "Sissy Squat"
-  - key: 20201212203800
-    title: "Kneeling Squat"
-  - key: 20201212231800
-    title: "Frankenstein Squat"
-  - key: 20201212231900
-    title: "Cronus Squat"
+- key: '20201212201800'
+  title: Zercher Squat
+- key: '20201212203300'
+  title: Hack Squat
+- key: '20201212203500'
+  title: Jefferson Deadlift
+- key: '20201212203700'
+  title: Sissy Squat
+- key: '20201212203800'
+  title: Kneeling Squat
+- key: '20201212231800'
+  title: Frankenstein Squat
+- key: '20201212231900'
+  title: Cronus Squat
 faq:
-  - question: "Hvilke benøvelser giver den bedste bentræning?"
-    answer: "Du kan lave bentræning med mange forskellige øvelser. Men husk at inkludere squat, lunges, dødløft, bulgarian split squat og glute ham raises. Så får du en allround bentræning. Du kan læse om alle de store benøvelser her på siden."
-  - question: "Kan man lave bentræning med dårligt knæ?"
-    answer: "Ja. Hvis du har dårligt knæ, så skal du bare sørge for at vælge de rigtige varianter. Det kan være, at du skal gå efter nogle lidt mere isolerede øvelser eller forbedre din teknik i de store basisøvelser. Med skader i knæet, så er det vigtigt, at du tænker over den rette dosering og at optimere dit bevægelsesmønster. Det hjælper ikke noget at lade være med at træne knæet. Der er masser af forslag til gode benøvelser for knæene her på siden."
+- question: Hvilke benøvelser giver den bedste bentræning?
+  answer: Du kan lave bentræning med mange forskellige øvelser. Men husk at inkludere squat, lunges, dødløft, bulgarian split
+    squat og glute ham raises. Så får du en allround bentræning. Du kan læse om alle de store benøvelser her på siden.
+- question: Kan man lave bentræning med dårligt knæ?
+  answer: Ja. Hvis du har dårligt knæ, så skal du bare sørge for at vælge de rigtige varianter. Det kan være, at du skal gå
+    efter nogle lidt mere isolerede øvelser eller forbedre din teknik i de store basisøvelser. Med skader i knæet, så er det
+    vigtigt, at du tænker over den rette dosering og at optimere dit bevægelsesmønster. Det hjælper ikke noget at lade være
+    med at træne knæet. Der er masser af forslag til gode benøvelser for knæene her på siden.
 ---
 
 Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben.

@@ -1,40 +1,46 @@
 ---
 layout: single
-title: "Optimer træningen"
-seo_title: "Sådan optimerer du din træning"
+title: Optimer træningen
+seo_title: Sådan optimerer du din træning
 permalink: /optimer-traening/
-excerpt: "Få overblik over strategier, der kan forbedre din præstation i sport – fra ernæring og restitution til mentale teknikker og konkurrencetaktik."
-description: "Få overblik over strategier, der kan forbedre din præstation i sport – fra ernæring og restitution til mentale teknikker og konkurrencetaktik."
+excerpt: Få overblik over strategier, der kan forbedre din præstation i sport – fra ernæring og restitution til mentale teknikker
+  og konkurrencetaktik.
+description: Få overblik over strategier, der kan forbedre din præstation i sport – fra ernæring og restitution til mentale
+  teknikker og konkurrencetaktik.
 header:
-  overlay_image: https://images.unsplash.com/photo-1620213391117-0d169a917221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1620213391117-0d169a917221?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1620213391117-0d169a917221.jpg
+  credit: https://images.unsplash.com/photo-1620213391117-0d169a917221
+  teaser: /assets/images/unsplash/photo-1620213391117-0d169a917221.jpg
   caption: Optimering af træningen
-author_profile: true
+author_profile: 'true'
 author: lsolesen
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Tests"
-    title: "Tests"
-    excerpt: "Du kan bruge tests før, under og efter din træningperioder, så du kan se om dit træningsprogram virker."
-    url: "/tests/"
-    btn_label: "Test"
-    btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Træning"
-    title: "Træning"
-    excerpt: "Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træning til inspiration her."
-    url: "/traening/"
-    btn_label: "Træn"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Tracking"
-    title: "Tracking"
-    excerpt: "Du kan holde styr på din træning med fx en træningslog eller _tracke_ din træning på andre måder."
-    url: "/tracking/"
-    btn_label: "Track"
-    btn_class: "btn--info"
-toc: true
-breadcrumbs: true
+- image_path: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
+  credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
+  alt: Tests
+  title: Tests
+  excerpt: Du kan bruge tests før, under og efter din træningperioder, så du kan se om dit træningsprogram virker.
+  url: /tests/
+  btn_label: Test
+  btn_class: btn--info
+- image_path: /assets/images/unsplash/photo-1475274110913-480c45d0e873.jpg
+  credit: https://images.unsplash.com/photo-1475274110913-480c45d0e873
+  alt: Træning
+  title: Træning
+  excerpt: Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træning til inspiration her.
+  url: /traening/
+  btn_label: Træn
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  alt: Tracking
+  title: Tracking
+  excerpt: Du kan holde styr på din træning med fx en træningslog eller _tracke_ din træning på andre måder.
+  url: /tracking/
+  btn_label: Track
+  btn_class: btn--info
+toc: 'true'
+breadcrumbs: 'true'
 classes: wide
 ---
 

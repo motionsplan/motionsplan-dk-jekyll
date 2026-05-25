@@ -1,21 +1,22 @@
 ---
-title: &title "Trivselsindeks: Test din trivsel og livskvalitet med WHO-5"
-seo_title: "Trivselsindeks: Test din trivsel og livskvalitet med WHO-5"
+title: 'Trivselsindeks: Test din trivsel og livskvalitet med WHO-5'
+seo_title: 'Trivselsindeks: Test din trivsel og livskvalitet med WHO-5'
 permalink: /who5-trivselindekset/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1499209974431-9dddcece7f88.jpg
+  credit: https://images.unsplash.com/photo-1499209974431-9dddcece7f88
+  teaser: /assets/images/unsplash/photo-1499209974431-9dddcece7f88.jpg
+  caption: 'Trivselsindeks: Test din trivsel og livskvalitet med WHO-5'
 category:
-  - Vurderingsværktøjer
-  - Psykologi
+- Vurderingsværktøjer
+- Psykologi
 tags:
-  - vurderingsværktøj
-  - psykologi
-  - psykologisk test
-  - populær
-last_modified_at: 2021-10-14T08:14:14Z
+- vurderingsværktøj
+- psykologi
+- psykologisk test
+- populær
+last_modified_at: '2021-10-14T08:14:14Z'
 ---
 
 Her er en test, der kan teste din din livskvalitet og trivsel. Testen er udformet af WHO, og den bruges over hele verden som trivselstest.

@@ -1,50 +1,60 @@
 ---
-title: &title "Beregn fart ud fra distance og tid"
-seo_title: "Beregn hastighed (km/t og m/s) fra distance og tid → Fartberegner"
-description: "Brug denne beregner til at finde din hastighed i km/t eller m/s ud fra distance og tid. Få forklaret hvordan du selv udregner fart og pace."
+title: Beregn fart ud fra distance og tid
+seo_title: Beregn hastighed (km/t og m/s) fra distance og tid → Fartberegner
+description: Brug denne beregner til at finde din hastighed i km/t eller m/s ud fra distance og tid. Få forklaret hvordan
+  du selv udregner fart og pace.
 permalink: /hastighed/beregn-fart/
-excerpt: "Brug denne beregner til at finde din hastighed i km/t eller m/s ud fra distance og tid. Få forklaret hvordan du selv udregner fart og pace."
+excerpt: Brug denne beregner til at finde din hastighed i km/t eller m/s ud fra distance og tid. Få forklaret hvordan du selv
+  udregner fart og pace.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1744000253584-aad21a82d253?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1744000253584-aad21a82d253.jpg
+  credit: https://images.unsplash.com/photo-1744000253584-aad21a82d253
+  caption: Beregn fart ud fra distance og tid
 category:
-  - Beregnere
-  - Hastighed
+- Beregnere
+- Hastighed
 tags:
-  - beregner
-  - løb
-  - cykling
+- beregner
+- løb
+- cykling
 meta:
   name: Beregn fart i km/t, m/s og min/km
   equipment: ingen
   measures: hastighed og pace
   type: løb, gang og cykling
-last_modified_at: 2025-03-30T12:14:14Z
-toc: true
+last_modified_at: '2025-03-30T12:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/freebies/hastighed-og-pace.png
-    title: "Skema med hastighed og pace"
-    excerpt: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
-    url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
-    btn_label: "<i class='fas fa-file-alt'></i> Udskriv hastighedstabel"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/hastighed-og-pace.png
+  title: Skema med hastighed og pace
+  excerpt: Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer
+    til i dit pace i min/km.
+  url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
+  btn_label: <i class='fas fa-file-alt'></i> Udskriv hastighedstabel
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvordan beregner man hastighed ud fra distance og tid?"
-    answer: "Du dividerer distancen i kilometer med tiden i timer. For eksempel: Hvis du løber 10 km på 50 minutter, så omregner du 50 minutter til timer (50 / 60 = 0,833) og regner: 10 / 0,833 = ca. 12 km/t. Du kan også bruge beregneren øverst på siden."
-  - question: "Hvad er forskellen på km/t og min/km?"
-    answer: "Km/t angiver hvor mange kilometer du tilbagelægger i timen, mens min/km (tempo eller pace) angiver hvor mange minutter du bruger pr. kilometer. De er to måder at udtrykke hastighed på – og kan nemt omregnes mellem hinanden."
-  - question: "Hvordan omregner jeg km/t til tempo (min/km)?"
-    answer: "Du kan bruge formlen: 60 divideret med hastigheden i km/t. Hvis du fx løber 10 km/t, er dit tempo 60 / 10 = 6 min/km. Du kan også bruge vores [omregner mellem tempo og hastighed](/hastighed/omregner-tempo-fart/)."
-  - question: "Kan jeg bruge beregneren til både løb og cykling?"
-    answer: "Ja, beregneren virker til både løb, gang og cykling – eller enhver anden aktivitet, hvor du kender distance og tid. Den tager dog ikke højde for terræn, underlag eller vind."
-  - question: "Hvorfor er det vigtigt at kende sin gennemsnitshastighed?"
-    answer: "Din gennemsnitshastighed giver dig et klart billede af, hvor hurtigt du bevæger dig over tid. Det er nyttigt, når du planlægger træningspas, vurderer intensitet eller sammenligner præstationer fra tidligere ture."
+- question: Hvordan beregner man hastighed ud fra distance og tid?
+  answer: 'Du dividerer distancen i kilometer med tiden i timer. For eksempel: Hvis du løber 10 km på 50 minutter, så omregner
+    du 50 minutter til timer (50 / 60 = 0,833) og regner: 10 / 0,833 = ca. 12 km/t. Du kan også bruge beregneren øverst på
+    siden.'
+- question: Hvad er forskellen på km/t og min/km?
+  answer: Km/t angiver hvor mange kilometer du tilbagelægger i timen, mens min/km (tempo eller pace) angiver hvor mange minutter
+    du bruger pr. kilometer. De er to måder at udtrykke hastighed på – og kan nemt omregnes mellem hinanden.
+- question: Hvordan omregner jeg km/t til tempo (min/km)?
+  answer: 'Du kan bruge formlen: 60 divideret med hastigheden i km/t. Hvis du fx løber 10 km/t, er dit tempo 60 / 10 = 6 min/km.
+    Du kan også bruge vores [omregner mellem tempo og hastighed](/hastighed/omregner-tempo-fart/).'
+- question: Kan jeg bruge beregneren til både løb og cykling?
+  answer: Ja, beregneren virker til både løb, gang og cykling – eller enhver anden aktivitet, hvor du kender distance og tid.
+    Den tager dog ikke højde for terræn, underlag eller vind.
+- question: Hvorfor er det vigtigt at kende sin gennemsnitshastighed?
+  answer: Din gennemsnitshastighed giver dig et klart billede af, hvor hurtigt du bevæger dig over tid. Det er nyttigt, når
+    du planlægger træningspas, vurderer intensitet eller sammenligner præstationer fra tidligere ture.
 keywords:
-  - beregn fart
-  - løbefart
-  - gennemsnitsfart
+- beregn fart
+- løbefart
+- gennemsnitsfart
 ---
 
 Vil du finde ud af, hvor hurtigt du har løbet eller cyklet? Med denne beregner kan du nemt regne din gennemsnitshastighed ud i både km/t og m/s – baseret på den distance, du har tilbagelagt, og hvor lang tid det tog. Du får også vist dit tempo (min/km), så du kan bruge beregningen i din løbetræning.

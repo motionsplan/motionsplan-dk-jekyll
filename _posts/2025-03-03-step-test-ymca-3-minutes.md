@@ -1,16 +1,18 @@
 ---
-title: &title "YMCA’s 3-minutters steptest – Enkel konditionstest"
-seo_title: "YMCA’s 3-minutters steptest – Test din kondition på 3 minutter"
-excerpt: "YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
-description: "YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling."
+title: YMCA’s 3-minutters steptest – Enkel konditionstest
+seo_title: YMCA’s 3-minutters steptest – Test din kondition på 3 minutter
+excerpt: YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine og pulsmåling.
+description: YMCA’s 3-minutters steptest er en hurtig og enkel måde at teste din kondition på ved hjælp af en step-rutine
+  og pulsmåling.
 permalink: /ymca-3-minutters-steptest/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1448387473223-5c37445527e7?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1448387473223-5c37445527e7.jpg
+  credit: https://images.unsplash.com/photo-1448387473223-5c37445527e7
+  caption: YMCA’s 3-minutters steptest – Enkel konditionstest
 category:
-  - Tests
-  - Kondition
+- Tests
+- Kondition
 meta:
   name: YMCA 3 minutters steptest (3MST)
   measures: kondital
@@ -19,17 +21,17 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - indirekte test
-  - steptest
-  - testberegner
-last_modified_at: 2025-03-03T23:14:14Z
-toc: true
-breadcrumbs: true
+- test
+- konditionstest
+- indirekte test
+- steptest
+- testberegner
+last_modified_at: '2025-03-03T23:14:14Z'
+toc: 'true'
+breadcrumbs: 'true'
 whyiexercise:
-  - image_path: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-women.jpg.pagespeed.ic.ypA8zMp-Fx.webp
-  - image_path: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-men.jpg.pagespeed.ic.Nt00qIrgK0.webp
+- image_path: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-women.jpg.pagespeed.ic.ypA8zMp-Fx.webp
+- image_path: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-men.jpg.pagespeed.ic.Nt00qIrgK0.webp
 ---
 
 YMCA’s 3-minutters steptest er en hurtig og effektiv metode til at vurdere hjerte-kar-konditionen. Testen består af tre minutters step-arbejde med efterfølgende pulsmåling, hvilket gør den nem at gennemføre for de fleste.

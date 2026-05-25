@@ -1,41 +1,49 @@
 ---
-title: &title "Sådan læser du en varedeklaration"
-seo_title: "Varedeklaration: Sådan ved du hvad der er i din mad"
+title: Sådan læser du en varedeklaration
+seo_title: 'Varedeklaration: Sådan ved du hvad der er i din mad'
 permalink: /varedeklaration/
-excerpt: "Få styr på varedeklarationer! Lær, hvordan du læser og forstår næringsindholdet og ingredienserne, så du kan træffe de rigtige valg med din kost."
-description: "Få styr på varedeklarationer! Lær, hvordan du læser og forstår næringsindholdet og ingredienserne, så du kan træffe de rigtige valg med din kost."
+excerpt: Få styr på varedeklarationer! Lær, hvordan du læser og forstår næringsindholdet og ingredienserne, så du kan træffe
+  de rigtige valg med din kost.
+description: Få styr på varedeklarationer! Lær, hvordan du læser og forstår næringsindholdet og ingredienserne, så du kan
+  træffe de rigtige valg med din kost.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1629214831802-bb2a07f9517e?q=80&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1629214831802-bb2a07f9517e.jpg
+  credit: https://images.unsplash.com/photo-1629214831802-bb2a07f9517e
+  caption: Sådan læser du en varedeklaration
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kost & ernæring
-  - featured
-  - guide
-last_modified_at: 2025-02-20T19:14:14Z
+- kost & ernæring
+- featured
+- guide
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_tests_loeb:
-  - image_path: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=10
-    alt: "Løbetests og kondition"
-    title: "Andre løbetests"
-    excerpt: "Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital."
-    url: "/tests/loeb/"
-    btn_label: "Se flere løbetests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
+  credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
+  alt: Løbetests og kondition
+  title: Andre løbetests
+  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
+    du også kan estimere dit kondital.
+  url: /tests/loeb/
+  btn_label: Se flere løbetests
+  btn_class: btn--success
 faq:
-  - question: Hvordan finder jeg næringsindholdet, hvis der ikke er en varedeklaration?
-    answer: |
-      Hvis der ikke er varedeklaration på fødevaren, fx på frugt, så kan du finde næringsindholdet i [gratis kalorietæller apps](/kalorietaeller-apps/) eller i nogle af vores [kalorietabeller](/kalorietabellen/), der er baseret på Fødevaredatabanken lavet af Fødevareinstituttet på Danmarks Tekniske Universitet (DTU).
+- question: Hvordan finder jeg næringsindholdet, hvis der ikke er en varedeklaration?
+  answer: 'Hvis der ikke er varedeklaration på fødevaren, fx på frugt, så kan du finde næringsindholdet i [gratis kalorietæller
+    apps](/kalorietaeller-apps/) eller i nogle af vores [kalorietabeller](/kalorietabellen/), der er baseret på Fødevaredatabanken
+    lavet af Fødevareinstituttet på Danmarks Tekniske Universitet (DTU).
+
+    '
 gallery_kylling:
-  - image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg
-  - image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg
+- image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg
+- image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg
 gallery_proteinbar_ingredients:
-  - image_path: /assets/images/blog/ingrediensliste-maxim.jpg
-  - image_path: /assets/images/blog/ingrediensliste-bodylab.jpg
+- image_path: /assets/images/blog/ingrediensliste-maxim.jpg
+- image_path: /assets/images/blog/ingrediensliste-bodylab.jpg
 gallery_proteinbar_content:
-  - image_path: /assets/images/blog/ingrediensliste-naering-maxim.jpg
-  - image_path: /assets/images/blog/ingrediensliste-bodylab-naering.jpg
+- image_path: /assets/images/blog/ingrediensliste-naering-maxim.jpg
+- image_path: /assets/images/blog/ingrediensliste-bodylab-naering.jpg
 ---
 
 Varedeklarationen på en fødevarepakke kan være fyldt med informationer, men hvad betyder de egentlig? Her får du en gennemgang af de vigtigste elementer, så du nemmere kan afkode, hvad du putter i indkøbskurven.

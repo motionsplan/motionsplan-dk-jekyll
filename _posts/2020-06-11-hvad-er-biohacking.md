@@ -1,38 +1,43 @@
 ---
-title: &title "Biohacking: Definition og begynderguide til at blive biohacker"
-seo_title: "Biohacking - Bliv biohacker med træning [Begynderguide]"
-description: "Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge din biohacker træning. Kom i gang nu!"
-excerpt: Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
+title: 'Biohacking: Definition og begynderguide til at blive biohacker'
+seo_title: Biohacking - Bliv biohacker med træning [Begynderguide]
+description: Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge
+  din biohacker træning. Kom i gang nu!
+excerpt: Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution
+  og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
 permalink: /hvad-er-biohacking/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.2
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1573511860302-28c524319d2a.jpg
+  credit: https://images.unsplash.com/photo-1573511860302-28c524319d2a
+  teaser: /assets/images/unsplash/photo-1573511860302-28c524319d2a.jpg
+  overlay_filter: '0.2'
+  caption: 'Biohacking: Definition og begynderguide til at blive biohacker'
 category:
-  - Træning
+- Træning
 tags:
-  - biohacking
-last_modified_at: 2021-04-03T08:14:14Z
-toc: true
+- biohacking
+last_modified_at: '2021-04-03T08:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781512121278/0x500
-    alt: "The Biohacking Manifesto"
-    title: "The Biohacking Manifesto"
-    excerpt: "Biohacking is just a fancy word for optimizing your own biological potential, and in the context of this brand new book from James Lee (author of The Methuselah Project) it means achieving this via - - Slowing the process of cellular aging to extend longevity"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
-    alt: "Saxos bøger om Biohacking"
-    title: "Saxos bøger om Biohacking"
-    excerpt: "Der er skrevet en masse bøger om Biohacking efterhånden, og Saxo har flere spændende bøger, bl.a. af John Board."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9781512121278/0x500
+  alt: The Biohacking Manifesto
+  title: The Biohacking Manifesto
+  excerpt: Biohacking is just a fancy word for optimizing your own biological potential, and in the context of this brand
+    new book from James Lee (author of The Methuselah Project) it means achieving this via - - Slowing the process of cellular
+    aging to extend longevity
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
+  alt: Saxos bøger om Biohacking
+  title: Saxos bøger om Biohacking
+  excerpt: Der er skrevet en masse bøger om Biohacking efterhånden, og Saxo har flere spændende bøger, bl.a. af John Board.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?

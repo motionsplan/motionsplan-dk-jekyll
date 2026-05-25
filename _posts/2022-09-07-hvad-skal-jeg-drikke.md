@@ -1,26 +1,31 @@
 ---
-title: &title "Hvad skal jeg drikke ved træning og konkurrence?"
+title: Hvad skal jeg drikke ved træning og konkurrence?
 seo_title: Hvad skal du drikke ved træning og konkurrence?
-excerpt: "Er du også interesseret i at vide, hvordan du skal drikke, når du skal til træning, kamp eller konkurrence. Her får du en komplet guide til at holde væskebalancen optimal, når du skal præstere."
+excerpt: Er du også interesseret i at vide, hvordan du skal drikke, når du skal til træning, kamp eller konkurrence. Her får
+  du en komplet guide til at holde væskebalancen optimal, når du skal præstere.
 permalink: /hvad-skal-jeg-drikke/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1553531889-65d9c41c2609?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1553531889-65d9c41c2609.jpg
+  credit: https://images.unsplash.com/photo-1553531889-65d9c41c2609
+  caption: Hvad skal jeg drikke ved træning og konkurrence?
 category:
-  - Fysiologi
-  - Træning
+- Fysiologi
+- Træning
 tags:
-  - fysiologi
-  - træning
-  - varmetræning
-last_modified_at: 2022-09-05T10:21:26Z
+- fysiologi
+- træning
+- varmetræning
+last_modified_at: '2022-09-05T10:21:26Z'
 faq:
-  - question: Hvad er elektrolytter?
-    answer: |
-      Elektrolytter er atomer, der kan splittes op, så der opstå ioner med elektriske ladninger. Disse elektriske ladninger kan påvirke cellemembranerne og aktivere enzymer, som kontrollerer forskellige processer i cellerne.
-      
-      Natrium, klorid og kalium er vigtige elektrolytter i kroppen. Uden disse kan reguleringen af kroppens fysiologiske processser ikke fungere optimalt. Elektrolytterne er opløst i forskellige koncentrationer i væsken i kroppen i forskellige koncentrationer inden og udenfor cellerne.
+- question: Hvad er elektrolytter?
+  answer: 'Elektrolytter er atomer, der kan splittes op, så der opstå ioner med elektriske ladninger. Disse elektriske ladninger
+    kan påvirke cellemembranerne og aktivere enzymer, som kontrollerer forskellige processer i cellerne.
+
+
+    Natrium, klorid og kalium er vigtige elektrolytter i kroppen. Uden disse kan reguleringen af kroppens fysiologiske processser
+    ikke fungere optimalt. Elektrolytterne er opløst i forskellige koncentrationer i væsken i kroppen i forskellige koncentrationer
+    inden og udenfor cellerne.'
 ---
 
 Er du også interesseret i at vide, hvordan du skal drikke, når du skal til træning, kamp eller konkurrence. Her får du en komplet guide til at holde væskebalancen optimal, når du skal præstere.

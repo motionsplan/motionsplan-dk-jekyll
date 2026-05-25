@@ -1,19 +1,21 @@
 ---
-title: &title "Træningszoner: Find din intensitetszoner i træning"
+title: 'Træningszoner: Find din intensitetszoner i træning'
 permalink: /traeningszoner/
-excerpt: "Vil du gerne optimere din træning? Ved konditionstræning kan det være gavnligt at træne i forskellige træningszoner. Lær alt om de forskellige intensitetszoner og deres formål."
+excerpt: Vil du gerne optimere din træning? Ved konditionstræning kan det være gavnligt at træne i forskellige træningszoner.
+  Lær alt om de forskellige intensitetszoner og deres formål.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1505676731599-081a7a67766a.jpg
+  credit: https://images.unsplash.com/photo-1505676731599-081a7a67766a
+  teaser: /assets/images/unsplash/photo-1505676731599-081a7a67766a.jpg
+  caption: 'Træningszoner: Find din intensitetszoner i træning'
 category:
-  - Træning
-  - Kondition
+- Træning
+- Kondition
 tags:
-  - træningszoner
-last_modified_at: 2021-08-22T23:14:14Z
-toc: true
+- træningszoner
+last_modified_at: '2021-08-22T23:14:14Z'
+toc: 'true'
 ---
 
 Vil du gerne træne mere optimalt og få mere ud af din træning? I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner.

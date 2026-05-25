@@ -1,27 +1,30 @@
 ---
-title: &title "️Udregn energiforbrug og effektivitet af en aktivitet"
-seo_title: "️Udregn energiforbrug og effektivitet af en aktivitet"
+title: ️Udregn energiforbrug og effektivitet af en aktivitet
+seo_title: ️Udregn energiforbrug og effektivitet af en aktivitet
 permalink: /udregne-energiforbrug-og-effektivitet/
-description: "Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling. Du kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi."
-excerpt: "Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling. Du kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi."
+description: Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling.
+  Du kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi.
+excerpt: Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling. Du
+  kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1452573992436-6d508f200b30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1452573992436-6d508f200b30.jpg
+  credit: https://images.unsplash.com/photo-1452573992436-6d508f200b30
+  caption: ️Udregn energiforbrug og effektivitet af en aktivitet
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - beregner
-  - interaktiv artikel
-  - fysiologi
-  - cykling
+- beregner
+- interaktiv artikel
+- fysiologi
+- cykling
 meta:
   name: Energiforbrug og effektivitet i aktivitet
   equipment: ingen
   measures: energiforbrug og bevægelsesøkonomi
   target: voksne
   type: cykling og løb
-last_modified_at: 2024-08-04T10:14:14Z
+last_modified_at: '2024-08-04T10:14:14Z'
 ---
 
 Her dykker vi ned i beregningerne bag energiforbrug, bevægelsesøkonomi og effektivitet i øvelser, fx cykling. Du kan efterfølgende selv prøve at udregne din egen bevægelsesøkonomi.

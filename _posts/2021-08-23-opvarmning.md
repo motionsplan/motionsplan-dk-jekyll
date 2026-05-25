@@ -1,24 +1,30 @@
 ---
-title: "Opvarmning før træning og sport"
+title: Opvarmning før træning og sport
 permalink: /opvarmning/
-excerpt: "Opvarmning før træning, idræt og sport har mange fordele. Her leder vi dig gennem de forskellige faser i dit opvarmningsprogram, så du kan præstere bedre og undgå skader."
+excerpt: Opvarmning før træning, idræt og sport har mange fordele. Her leder vi dig gennem de forskellige faser i dit opvarmningsprogram,
+  så du kan præstere bedre og undgå skader.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1608138278545-366680accc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1608138278545-366680accc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Opvarmning før træning og sport"
+  overlay_image: /assets/images/unsplash/photo-1608138278545-366680accc66.jpg
+  credit: https://images.unsplash.com/photo-1608138278545-366680accc66
+  teaser: /assets/images/unsplash/photo-1608138278545-366680accc66.jpg
+  caption: Opvarmning før træning og sport
 category:
-  - Træning
+- Træning
 tags:
-  - opvarmning
-  - begynder
-last_modified_at: 2021-08-22T23:14:14Z
-toc: true
+- opvarmning
+- begynder
+last_modified_at: '2021-08-22T23:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad er en god opvarmning?
-    answer: En god opvarmning sørger for at have både en generel opvarmning, hvor du får varmet hele kroppen op. Der er også en specifik del, som gør dig helt klar til den aktivitet du skal lave efterfølgende. Endelig er der en eksplosiv del, der virkelig aktivererer nervesystemet. Tjek indlægget for en udbybning af alle punkterne.
-  - question: "Hvorfor skal man varme op?"
-    answer: Du skal varme op for at gøre dig klar til den efterfølgende aktivitet. Du hæver din kropstemperatur, så alle processerne i kroppen bliver mere effektiv. De mindsker risikoen for skader, men forbedrer også din præstation i den efterfølgende træning og sport.
+- question: Hvad er en god opvarmning?
+  answer: En god opvarmning sørger for at have både en generel opvarmning, hvor du får varmet hele kroppen op. Der er også
+    en specifik del, som gør dig helt klar til den aktivitet du skal lave efterfølgende. Endelig er der en eksplosiv del,
+    der virkelig aktivererer nervesystemet. Tjek indlægget for en udbybning af alle punkterne.
+- question: Hvorfor skal man varme op?
+  answer: Du skal varme op for at gøre dig klar til den efterfølgende aktivitet. Du hæver din kropstemperatur, så alle processerne
+    i kroppen bliver mere effektiv. De mindsker risikoen for skader, men forbedrer også din præstation i den efterfølgende
+    træning og sport.
 ---
 
 Opvarmning er vigtig for dine resultater af træning og din præstationsevne i sport og idræt. Lær her alle effekterne af dit opvarmningsprogram, og hvordan du varmer optimalt op.

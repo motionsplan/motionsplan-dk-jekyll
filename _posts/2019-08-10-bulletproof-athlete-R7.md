@@ -1,18 +1,19 @@
 ---
-title: "Bulletproof Athlete og R7-metoden"
-seo_title: "Bulletproof Athlete og R7-metoden af Mike Robertson"
+title: Bulletproof Athlete og R7-metoden
+seo_title: Bulletproof Athlete og R7-metoden af Mike Robertson
 permalink: /artikel/bulletproof-athlete/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1590260712186-ff1891e5876e.jpg
+  credit: https://images.unsplash.com/photo-1590260712186-ff1891e5876e
+  teaser: /assets/images/unsplash/photo-1590260712186-ff1891e5876e.jpg
 tags:
-  - anmeldelse
+- anmeldelse
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
-last_modified_at: 2019-03-10T08:39:32Z
-excerpt: "Mike Robertson har udviklet programmet Bulletproof Athlete, som er bygget op efter princippet R7"
+- Styrketræning
+- Styrketræningsprogrammer
+last_modified_at: '2019-03-10T08:39:32Z'
+excerpt: Mike Robertson har udviklet programmet Bulletproof Athlete, som er bygget op efter princippet R7
 ---
 
 Mike Robertson er en af de online trænere, jeg synes er mest spændende. Han har udviklet programmet Bulletproof Athlete, som er bygget op efter princippet R7. Egentlig udviklede de metoden for bedre at kunne forklare træning til klienterne, men nu bygger de træningsprogrammerne op efter det.[^alwyn]

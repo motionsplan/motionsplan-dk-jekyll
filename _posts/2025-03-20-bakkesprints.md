@@ -1,18 +1,21 @@
 ---
-title: &title "Bakketræning: bakkeløb, bakkesprints og bakkeintervaller"
+title: 'Bakketræning: bakkeløb, bakkesprints og bakkeintervaller'
 permalink: /bakkesprint-bakkeloeb/
-seo_title: "Effektiv bakketræning – Bakkeløb, sprints og intervaller"
-excerpt: "Optimer din løbeøkonomi med bakketræning. Lær de bedste teknikker, intervaller og videnskabeligt funderede metoder til at forbedre din præstation."
-description: "Optimer din løbeøkonomi med bakketræning. Lær de bedste teknikker, intervaller og videnskabeligt funderede metoder til at forbedre din præstation."
-last_modified_at: 2025-03-17T09:41:09Z
+seo_title: Effektiv bakketræning – Bakkeløb, sprints og intervaller
+excerpt: Optimer din løbeøkonomi med bakketræning. Lær de bedste teknikker, intervaller og videnskabeligt funderede metoder
+  til at forbedre din præstation.
+description: Optimer din løbeøkonomi med bakketræning. Lær de bedste teknikker, intervaller og videnskabeligt funderede metoder
+  til at forbedre din præstation.
+last_modified_at: '2025-03-17T09:41:09Z'
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1695918425801-41dd27ed8277?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1695918425801-41dd27ed8277.jpg
+  credit: https://images.unsplash.com/photo-1695918425801-41dd27ed8277
+  caption: 'Bakketræning: bakkeløb, bakkesprints og bakkeintervaller'
 category:
-  - Løb
+- Løb
 tags:
-  - træning
+- træning
 ---
 
 Bakketræning er en af de mest effektive måder at forbedre din løbeøkonomi, styrke og kondition. Men hvordan strukturerer du din træning bedst muligt for at få det maksimale udbytte?

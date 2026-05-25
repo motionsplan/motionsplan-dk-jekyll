@@ -1,41 +1,50 @@
 ---
-title: &title "Hvad er min hastighed i km/t, m/s eller min/km? (Beregner)"
-seo_title: "Hastighed, tempo, pace og fart – forstå og beregn det rigtigt"
-description: "Beregn din hastighed, pace og løbehastighed i vores beregner ✔ Hvordan udregner man km/t, m/s og min/km ✔ Omregning fra km/t til min/km ✔ Tabel"
+title: Hvad er min hastighed i km/t, m/s eller min/km? (Beregner)
+seo_title: Hastighed, tempo, pace og fart – forstå og beregn det rigtigt
+description: Beregn din hastighed, pace og løbehastighed i vores beregner ✔ Hvordan udregner man km/t, m/s og min/km ✔ Omregning
+  fra km/t til min/km ✔ Tabel
 permalink: /hastighed/
-excerpt: "Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel, så du ikke behøver at regne."
+excerpt: Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel,
+  så du ikke behøver at regne.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1585218059208-5cfd7659560b.jpg
+  credit: https://images.unsplash.com/photo-1585218059208-5cfd7659560b
+  caption: Hvad er min hastighed i km/t, m/s eller min/km? (Beregner)
 category:
-  - Beregnere
+- Beregnere
 tags:
-  - beregner
-  - løb
-  - cykling
+- beregner
+- løb
+- cykling
 meta:
   name: Beregn hastighed i km/t, m/s og min/km
   equipment: ingen
   measures: hastighed og pace
   type: løb, gang og cykling
-last_modified_at: 2025-03-30T12:14:14Z
-toc: true
+last_modified_at: '2025-03-30T12:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/freebies/hastighed-og-pace.png
-    title: "Skema med hastighed og pace"
-    excerpt: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
-    url: /hastighed/pace-tabeller/
-    btn_label: "<i class='fas fa-file-alt'></i> Få en hastighedstabel"
-    btn_class: "btn--success"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/hastighed-og-pace.png
+  title: Skema med hastighed og pace
+  excerpt: Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer
+    til i dit pace i min/km.
+  url: /hastighed/pace-tabeller/
+  btn_label: <i class='fas fa-file-alt'></i> Få en hastighedstabel
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvad bruger løbere og cyklister mest - min/km eller km/t?"
-    answer: "Det er meget forskelligt, hvad løbere og cyklister foretrækker at bruge. Når jeg bruger mit GPS-ur, så står der som standard under løbeprofilerne et tempo og en løbehastighed, der er angivet i min/km. Hvis jeg skifter til cykling, så er tempoet og cykelhastigheden angivet i km/t. Det lader altså til, at de fleste løbere bruger min/km, men cyklister mest bruger km/t."
-  - question: "Hvordan beregner man km/t?"
-    answer: "Når du kender den tilbagelagte distance og tiden det tog, så kan du regne km/t. Du kan se formlen her, og vi har også lavet en udregner til det."
-  - question: "Hvordan finder man gennemsnitsfarten?"
-    answer: "Hvis du gerne vil finde gennemsnitsfarten, så skal du bruge en formel for gennemsnitshastighed. Du skal kende distancen og tiden. Du kan bruge vores formel og beregner for gennemsnitshastighed."
+- question: Hvad bruger løbere og cyklister mest - min/km eller km/t?
+  answer: Det er meget forskelligt, hvad løbere og cyklister foretrækker at bruge. Når jeg bruger mit GPS-ur, så står der
+    som standard under løbeprofilerne et tempo og en løbehastighed, der er angivet i min/km. Hvis jeg skifter til cykling,
+    så er tempoet og cykelhastigheden angivet i km/t. Det lader altså til, at de fleste løbere bruger min/km, men cyklister
+    mest bruger km/t.
+- question: Hvordan beregner man km/t?
+  answer: Når du kender den tilbagelagte distance og tiden det tog, så kan du regne km/t. Du kan se formlen her, og vi har
+    også lavet en udregner til det.
+- question: Hvordan finder man gennemsnitsfarten?
+  answer: Hvis du gerne vil finde gennemsnitsfarten, så skal du bruge en formel for gennemsnitshastighed. Du skal kende distancen
+    og tiden. Du kan bruge vores formel og beregner for gennemsnitshastighed.
 ---
 
 Hvordan hænger **hastighed, tempo og tid** sammen i træning og løb? På denne side finder du både **forklaringer på begreberne** og en række **beregnere**, der hjælper dig med at:

@@ -1,31 +1,33 @@
 ---
-title: &title "Pulstræning: Sådan kommer du i gang"
-excerpt: "I pulstræning bruger du pulsen til at styre din træningsintensitet. Du bruger pulszoner enten baseret på din maxpuls, laktattærsklen eller pulsreserven. Her får du en komplet guide til, hvordan du kan komme i gang med at træne efter pulsen."
+title: 'Pulstræning: Sådan kommer du i gang'
+excerpt: I pulstræning bruger du pulsen til at styre din træningsintensitet. Du bruger pulszoner enten baseret på din maxpuls,
+  laktattærsklen eller pulsreserven. Her får du en komplet guide til, hvordan du kan komme i gang med at træne efter pulsen.
 permalink: /pulstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1601976864636-403ab1eea224.jpg
+  credit: https://images.unsplash.com/photo-1601976864636-403ab1eea224
+  teaser: /assets/images/unsplash/photo-1601976864636-403ab1eea224.jpg
+  caption: 'Pulstræning: Sådan kommer du i gang'
 category:
-  - Kondition
+- Kondition
 tags:
-  - kondition
-  - træning
-  - intensitet
-  - puls
-  - løb
-  - guide
-last_modified_at: 2025-02-06T23:14:14Z
-toc: true
+- kondition
+- træning
+- intensitet
+- puls
+- løb
+- guide
+last_modified_at: '2025-02-06T23:14:14Z'
+toc: 'true'
 garmin_setup:
-  - image_path: /assets/images/blog/garmin-setup-zones-1.jpg
-  - image_path: /assets/images/blog/garmin-setup-zones-2.jpg
-  - image_path: /assets/images/blog/garmin-setup-zones-3.jpg
+- image_path: /assets/images/blog/garmin-setup-zones-1.jpg
+- image_path: /assets/images/blog/garmin-setup-zones-2.jpg
+- image_path: /assets/images/blog/garmin-setup-zones-3.jpg
 garmin_lactate:
-  - image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 ---
 
 Træningsintensiteten under løb og træning kan måles på mange forskellige måder. Pulsen kan være en ret præcis måde at måle intensiteten. Derfor er pulstræning også rimelig udbredt.

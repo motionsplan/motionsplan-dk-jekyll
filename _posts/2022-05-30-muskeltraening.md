@@ -1,26 +1,35 @@
 ---
-title: &title "Muskeltræning: Muskeludholdenhed og muskelstyrketræning"
-seo_title: "Hvad er muskeltræning?"
+title: 'Muskeltræning: Muskeludholdenhed og muskelstyrketræning'
+seo_title: Hvad er muskeltræning?
 permalink: /muskeltraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1642519068837-b75f17ed65d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1642519068837-b75f17ed65d5.jpg
+  credit: https://images.unsplash.com/photo-1642519068837-b75f17ed65d5
+  caption: 'Muskeltræning: Muskeludholdenhed og muskelstyrketræning'
 category:
-  - Træning
-  - Styrketræning
+- Træning
+- Styrketræning
 tags:
-  - styrketræning
-last_modified_at: 2022-05-22T10:21:26Z
+- styrketræning
+last_modified_at: '2022-05-22T10:21:26Z'
 faq:
-  - question: Hvad er muskeltræning?
-    answer: Muskeltræning er en fællesbetegnelse for træning af muskeludholdenhed og muskelstyrke. Muskeltræning kan være dynamisk (dvs. i bevægelse) eller statisk (fastholdelse af en stilling). I dagligdagen har vi mest brug for udholdenhed dynamisk muskelstyrke. Vi har brug for at kunne arbejde med den samme muskelgruppe i længere tid uden at blive træt.
-  - question: Hvad er fordelene ved muskeltræning?
-    answer: Fordelene ved muskeltræning er bl.a. forbedret muskeludholdenhed, styrke og størrelse. Muskeltræning kan også bidrage til at reducere risikoen for skader.
-  - question: Hvad er de forskellige typer muskeltræning?
-    answer: De to hovedtyper af muskeltræning er isotonisk og isometrisk træning. Isotonisk muskeltræning indebærer, at du bevæger en vægt gennem et bevægelsesområde, mens isometrisk muskeltræning indebærer, at du trækker dine muskler sammen uden at bevæge vægten. Begge typer muskeltræning har deres egne fordele.
-  - question: Hvilken type muskeltræning er mest effektiv?
-    answer: Forskellige typer muskeltræning er mere effektive til forskellige mål. Isotonisk muskeltræning er mere effektiv til at forbedre muskeludholdenhed, mens isometrisk muskeltræning er mere effektiv til at forbedre muskelstyrke. Hvis du ønsker at forbedre både muskeludholdenhed og muskelstyrke, bør du lave en kombination af både isotonisk og isometrisk muskeltræning.
+- question: Hvad er muskeltræning?
+  answer: Muskeltræning er en fællesbetegnelse for træning af muskeludholdenhed og muskelstyrke. Muskeltræning kan være dynamisk
+    (dvs. i bevægelse) eller statisk (fastholdelse af en stilling). I dagligdagen har vi mest brug for udholdenhed dynamisk
+    muskelstyrke. Vi har brug for at kunne arbejde med den samme muskelgruppe i længere tid uden at blive træt.
+- question: Hvad er fordelene ved muskeltræning?
+  answer: Fordelene ved muskeltræning er bl.a. forbedret muskeludholdenhed, styrke og størrelse. Muskeltræning kan også bidrage
+    til at reducere risikoen for skader.
+- question: Hvad er de forskellige typer muskeltræning?
+  answer: De to hovedtyper af muskeltræning er isotonisk og isometrisk træning. Isotonisk muskeltræning indebærer, at du bevæger
+    en vægt gennem et bevægelsesområde, mens isometrisk muskeltræning indebærer, at du trækker dine muskler sammen uden at
+    bevæge vægten. Begge typer muskeltræning har deres egne fordele.
+- question: Hvilken type muskeltræning er mest effektiv?
+  answer: Forskellige typer muskeltræning er mere effektive til forskellige mål. Isotonisk muskeltræning er mere effektiv
+    til at forbedre muskeludholdenhed, mens isometrisk muskeltræning er mere effektiv til at forbedre muskelstyrke. Hvis du
+    ønsker at forbedre både muskeludholdenhed og muskelstyrke, bør du lave en kombination af både isotonisk og isometrisk
+    muskeltræning.
 ---
 
 Det er nyttigt at vide noget om muskeltræning, når du vil analysere træningsprogrammer.

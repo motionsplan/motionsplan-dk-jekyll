@@ -1,18 +1,20 @@
 ---
-title: &title "Direkte måling af iltoptagelse i laboratoriet"
-seo_title: "Direkte iltoptagelsestest - Test VO2max med maske i laboratoriet"
+title: Direkte måling af iltoptagelse i laboratoriet
+seo_title: Direkte iltoptagelsestest - Test VO2max med maske i laboratoriet
 permalink: /iltoptagelse-laboratorietest/
 redirect_from:
-  - /kondital-laboratorietest/
-excerpt: "En direkte måling af iltoptagelsen gennem både submaksimale og maksimale forsøgsprotokoller med maske, hvor man måler ilt- og kuldioxidindholdet og volumen af indåndingsluften og udåndingsluften."
-description: "Test din VO2max direkte i et laboratorium med maske. Læs om submaksimale og maksimale tests, og hvordan de kan være med til at optimere din træning."
+- /kondital-laboratorietest/
+excerpt: En direkte måling af iltoptagelsen gennem både submaksimale og maksimale forsøgsprotokoller med maske, hvor man måler
+  ilt- og kuldioxidindholdet og volumen af indåndingsluften og udåndingsluften.
+description: Test din VO2max direkte i et laboratorium med maske. Læs om submaksimale og maksimale tests, og hvordan de kan
+  være med til at optimere din træning.
 language: da
 header:
   overlay_image: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
   teaser: /assets/images/blog/laboratorie-test-max-iltoptagelse.jpg
-  caption: *title
+  caption: Direkte måling af iltoptagelse i laboratoriet
 category:
-  - Kondition
+- Kondition
 meta:
   name: Direkte måling af iltoptagelse i laboratorium 📝
   measures: VO2max og kondital
@@ -21,21 +23,22 @@ meta:
   max: maksimal test
   direct: direkte test
 tags:
-  - test
-  - konditionstest
-  - laboratorietest
-  - testcenter
-  - direkte test
-  - populær
-last_modified_at: 2024-02-20T19:14:14Z
+- test
+- konditionstest
+- laboratorietest
+- testcenter
+- direkte test
+- populær
+last_modified_at: '2024-02-20T19:14:14Z'
 feature_row_tests:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Kondition og tests"
-    title: "Kondition og tests"
-    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
-    url: "/kondition/tests/"
-    btn_label: "Læs og prøv konditionstests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Kondition og tests
+  title: Kondition og tests
+  excerpt: Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?
+  url: /kondition/tests/
+  btn_label: Læs og prøv konditionstests
+  btn_class: btn--success
 ---
 
 Vil du optimere din træning og forstå, hvor effektivt din krop bruger ilt? En laboratorietest af VO2max giver præcise data om din aerobe kapacitet.

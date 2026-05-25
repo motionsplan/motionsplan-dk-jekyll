@@ -1,30 +1,33 @@
 ---
-title: "Hvor hurtigt vokser dine muskler? 💪"
-seo_title: "Hvor hurtigt vokser dine muskler?"
-description: Hvor hurtigt får du resultater af styrketræning? Her kigger vi på, hvor hurtigt muskler vokser og hvor meget muskelmasse du kan opbygge på et år.
+title: Hvor hurtigt vokser dine muskler? 💪
+seo_title: Hvor hurtigt vokser dine muskler?
+description: Hvor hurtigt får du resultater af styrketræning? Her kigger vi på, hvor hurtigt muskler vokser og hvor meget
+  muskelmasse du kan opbygge på et år.
 permalink: /hvor-hurtigt-vokser-muskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Hypertrofi: Hvor hurtigt vokser dine muskler?"
-  alt: "Photo by Paweł Czerwiński on Unsplash"
+  overlay_image: /assets/images/unsplash/photo-1552084162-ec07b3f162dc.jpg
+  credit: https://images.unsplash.com/photo-1552084162-ec07b3f162dc
+  teaser: /assets/images/unsplash/photo-1552084162-ec07b3f162dc.jpg
+  caption: 'Hypertrofi: Hvor hurtigt vokser dine muskler?'
+  alt: Photo by Paweł Czerwiński on Unsplash
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - beregner
-  - fysiologi
-  - muskler
-  - træningslære
-  - hypertrofi
-  - faq
-last_modified_at: 2020-06-11T08:14:14Z
-toc: true
-#Hvor lang tid tager det at bygge muskler op?
-#Hvor hurtigt kan man bygge muskler op?
+- beregner
+- fysiologi
+- muskler
+- træningslære
+- hypertrofi
+- faq
+last_modified_at: '2020-06-11T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvor meget muskelmasse kan man tage på på en uge?
-    answer: Muskelvækst sker gradvist, og hvor meget muskelmasse man kan tage på på en uge afhænger af flere faktorer som træningserfaring, kost, genetik og restitution. Generelt kan begyndere forvente at tage på omkring 100-250 gram muskelmasse pr. uge, mens trænede individer vil opleve en langsommere vækst. Meget hurtig vægtøgning skyldes ofte en kombination af muskelmasse, væske og fedt. En velstruktureret styrketræning og proteinrig kost er afgørende for optimal muskelvækst.
+- question: Hvor meget muskelmasse kan man tage på på en uge?
+  answer: Muskelvækst sker gradvist, og hvor meget muskelmasse man kan tage på på en uge afhænger af flere faktorer som træningserfaring,
+    kost, genetik og restitution. Generelt kan begyndere forvente at tage på omkring 100-250 gram muskelmasse pr. uge, mens
+    trænede individer vil opleve en langsommere vækst. Meget hurtig vægtøgning skyldes ofte en kombination af muskelmasse,
+    væske og fedt. En velstruktureret styrketræning og proteinrig kost er afgørende for optimal muskelvækst.
 ---
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?

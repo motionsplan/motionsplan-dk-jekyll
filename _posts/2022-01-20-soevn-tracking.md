@@ -1,17 +1,18 @@
 ---
-title: &title "Søvntracking: Kan mit aktivitetsur måle søvn?"
+title: 'Søvntracking: Kan mit aktivitetsur måle søvn?'
 permalink: /soevn-tracking/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1495364141860-b0d03eccd065.jpg
+  credit: https://images.unsplash.com/photo-1495364141860-b0d03eccd065
+  caption: 'Søvntracking: Kan mit aktivitetsur måle søvn?'
 category:
-  - Restitution
-  - Søvn
+- Restitution
+- Søvn
 tags:
-  - søvn
-last_modified_at: 2022-01-20T08:14:14Z
-toc: true
+- søvn
+last_modified_at: '2022-01-20T08:14:14Z'
+toc: 'true'
 ---
 
 Der er uendeligt mange grunde til at sove godt. Hvis du gerne vil fokusere mere på din søvn, så kan søvntracking med en søvndagbog, et smartwatch eller et aktivitetsur, en ring eller en app på telefonen måske være en motiverende faktor.

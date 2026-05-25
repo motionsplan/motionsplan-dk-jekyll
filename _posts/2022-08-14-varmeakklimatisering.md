@@ -1,26 +1,29 @@
 ---
-title: &title "Varmeakklimatisering: Træning og præstation i varmen"
-excerpt: "Det er varmt udenfor. Rigtig varmt. Så hvordan træner og præsterer man i varmen? Her er nogle tips, der kan hjælpe dig med at vænne dig til varmen og akklimatisere dig, så du kan yde dit bedste, når det gælder mest."
+title: 'Varmeakklimatisering: Træning og præstation i varmen'
+excerpt: Det er varmt udenfor. Rigtig varmt. Så hvordan træner og præsterer man i varmen? Her er nogle tips, der kan hjælpe
+  dig med at vænne dig til varmen og akklimatisere dig, så du kan yde dit bedste, når det gælder mest.
 permalink: /varmeakklimatisering-traening-i-varmen/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1473580044384-7ba9967e16a0.jpg
+  credit: https://images.unsplash.com/photo-1473580044384-7ba9967e16a0
+  caption: 'Varmeakklimatisering: Træning og præstation i varmen'
 category:
-  - Fysiologi
-  - Træning
+- Fysiologi
+- Træning
 tags:
-  - fysiologi
-  - træning
-  - varmetræning
-last_modified_at: 2022-08-14T10:21:26Z
+- fysiologi
+- træning
+- varmetræning
+last_modified_at: '2022-08-14T10:21:26Z'
 faq:
-  - question: Er der en sammenhæng mellem dehydrering og krampe?
-    answer: Indtil videre har man mig bekendt ikke kunnet påvise nogen sammenhæng imellem dehydrering og krampe.
-  - question: Hvor længe tager tilvænning til varmen?
-    answer: Det tager ca. 10-14 dage at blive tilvænnet ekstremt varme forhold (+30 grader celsius).
-  - question: Hvor meget væske kan man optage i timen?
-    answer: I laboratorieforsøg har man indtil videre ikke observeret højere væskeoptag i omegnen af 1200 ml/timen. Du kan læse mere om, [hvor meget væske man skal drikke](/hvor-meget-vand-skal-man-drikke-om-dagen/).
+- question: Er der en sammenhæng mellem dehydrering og krampe?
+  answer: Indtil videre har man mig bekendt ikke kunnet påvise nogen sammenhæng imellem dehydrering og krampe.
+- question: Hvor længe tager tilvænning til varmen?
+  answer: Det tager ca. 10-14 dage at blive tilvænnet ekstremt varme forhold (+30 grader celsius).
+- question: Hvor meget væske kan man optage i timen?
+  answer: I laboratorieforsøg har man indtil videre ikke observeret højere væskeoptag i omegnen af 1200 ml/timen. Du kan læse
+    mere om, [hvor meget væske man skal drikke](/hvor-meget-vand-skal-man-drikke-om-dagen/).
 ---
 
 Det er varmt udenfor. Rigtig varmt. Så hvordan træner og præsterer man i varmen? Her er nogle tips, der kan hjælpe dig med at vænne dig til varmen og akklimatisere dig, så du kan yde dit bedste, når det gælder mest.

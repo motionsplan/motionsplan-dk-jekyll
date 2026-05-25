@@ -1,20 +1,21 @@
 ---
-title: &title "Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2max"
-seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2 max"
+title: 'Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2max'
+seo_title: Maksimal iltoptagelse - Alt du skal vide om VO2 max
 permalink: /maksimale-iltoptagelse-vo2max/
 redirect_from:
-  - /intensitet-vo2max/
+- /intensitet-vo2max/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1596358985970-ff88f3ad4cb3.jpg
+  credit: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3
+  teaser: /assets/images/unsplash/photo-1596358985970-ff88f3ad4cb3.jpg
+  caption: 'Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2max'
 category:
-  - Kondition
+- Kondition
 tags:
-  - kondition
-  - maksimal iltoptagelse
-last_modified_at: 2021-03-06T23:14:14Z
+- kondition
+- maksimal iltoptagelse
+last_modified_at: '2021-03-06T23:14:14Z'
 ---
 
 Din maksimale iltoptagelse eller VO₂max er en af elementerne i din [kondition](/kondition/). Den maksimale iltoptagelse kalder man også VO2 max.

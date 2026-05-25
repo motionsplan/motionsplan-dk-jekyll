@@ -1,35 +1,37 @@
 ---
-title: &title "Hvordan træner man med kettlebells?"
+title: Hvordan træner man med kettlebells?
 permalink: /artikel/hvordan-traener-man-med-kettlebells/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1517344800994-80b20463999c.jpg
+  credit: https://images.unsplash.com/photo-1517344800994-80b20463999c
+  teaser: /assets/images/unsplash/photo-1517344800994-80b20463999c.jpg
+  caption: Hvordan træner man med kettlebells?
 tags:
-  - styrketræning
-  - liste
-  - udstyr
+- styrketræning
+- liste
+- udstyr
 category:
-  - Styrketræning
-last_modified_at: 2015-03-09T15:37:15Z
+- Styrketræning
+last_modified_at: '2015-03-09T15:37:15Z'
 feature_row:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Kettlebell_14_kg_sort__eb3.w774.h774.fill.jpg
-    alt: "Peak Fitness Kettlebell"
-    title: "Peak Fitness Kettlebell"
-    excerpt: "En super lækker kettlebell af støbejern, som er delvist betrukket med et kraftigt lag neopren for at beskytte gulv."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/67-kettlebells/1071-peak-fitness-14-kg-kettlebell/"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Peak_Fitness_Competition_Kettlebell_12_kg_2.w774.h774.fill.jpg
-    alt: "Peak Fitness Competition Kettlebell"
-    title: "Peak Fitness Competition Kettlebell"
-    excerpt: "Peak Fitness Competition Kettlebells er lavet af stål, og har de internationale farvekoder, hvilket gør det nemt at kende de forskellige kg. fra hinanden. Håndtaget er poleret og giver en god komfort."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/67-kettlebells/1067-peak-fitness-12-kg-competition-kettlebell/"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Kettlebell_14_kg_sort__eb3.w774.h774.fill.jpg
+  alt: Peak Fitness Kettlebell
+  title: Peak Fitness Kettlebell
+  excerpt: En super lækker kettlebell af støbejern, som er delvist betrukket med et kraftigt lag neopren for at beskytte gulv.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/67-kettlebells/1071-peak-fitness-14-kg-kettlebell/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Peak_Fitness_Competition_Kettlebell_12_kg_2.w774.h774.fill.jpg
+  alt: Peak Fitness Competition Kettlebell
+  title: Peak Fitness Competition Kettlebell
+  excerpt: Peak Fitness Competition Kettlebells er lavet af stål, og har de internationale farvekoder, hvilket gør det nemt
+    at kende de forskellige kg. fra hinanden. Håndtaget er poleret og giver en god komfort.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/67-kettlebells/1067-peak-fitness-12-kg-competition-kettlebell/
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Kettlebells er et rigtig godt træningsredskab. Kettlebells er meget velegnede, hvis du går efter allround fitness. Kettlebells bruges først og fremmest til at lave dynamisk træning med flere gentagelser.

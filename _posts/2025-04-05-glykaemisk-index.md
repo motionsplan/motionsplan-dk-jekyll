@@ -1,39 +1,47 @@
 ---
-title: &title "Glykæmisk indeks (GI): Sådan påvirker mad dit blodsukker?"
-seo_title: "Glykæmisk indeks (GI) – Guide til hvordan mad påvirker blodsukkere"
+title: 'Glykæmisk indeks (GI): Sådan påvirker mad dit blodsukker?'
+seo_title: Glykæmisk indeks (GI) – Guide til hvordan mad påvirker blodsukkere
 permalink: /glykaemisk-indeks/
-excerpt: "Forstå glykæmisk indeks, og hvordan forskellige fødevarer påvirker blodsukkeret. Læs om definition, GI-tabeller, og hvordan du bruger GI i praksis."
-description: "Forstå glykæmisk indeks, og hvordan forskellige fødevarer påvirker blodsukkeret. Læs om definition, GI-tabeller, og hvordan du bruger GI i praksis."
+excerpt: Forstå glykæmisk indeks, og hvordan forskellige fødevarer påvirker blodsukkeret. Læs om definition, GI-tabeller,
+  og hvordan du bruger GI i praksis.
+description: Forstå glykæmisk indeks, og hvordan forskellige fødevarer påvirker blodsukkeret. Læs om definition, GI-tabeller,
+  og hvordan du bruger GI i praksis.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1685967836908-7d3b4921a670?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=60&w=400&h=300&auto=format&fit=crop
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1685967836908-7d3b4921a670.jpg
+  credit: https://images.unsplash.com/photo-1685967836908-7d3b4921a670
+  caption: 'Glykæmisk indeks (GI): Sådan påvirker mad dit blodsukker?'
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kost & ernæring
-last_modified_at: 2025-02-20T19:14:14Z
+- kost & ernæring
+last_modified_at: '2025-02-20T19:14:14Z'
 feature_row_tests_loeb:
-  - image_path: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=10
-    alt: "Løbetests og kondition"
-    title: "Andre løbetests"
-    excerpt: "Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor du også kan estimere dit kondital."
-    url: "/tests/loeb/"
-    btn_label: "Se flere løbetests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
+  credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
+  alt: Løbetests og kondition
+  title: Andre løbetests
+  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
+    du også kan estimere dit kondital.
+  url: /tests/loeb/
+  btn_label: Se flere løbetests
+  btn_class: btn--success
 faq:
-  - question: Hvordan finder jeg næringsindholdet, hvis der ikke er en varedeklaration?
-    answer: |
-      Hvis der ikke er varedeklaration på fødevaren, fx på frugt, så kan du finde næringsindholdet i [gratis kalorietæller apps](/kalorietaeller-apps/) eller i nogle af vores [kalorietabeller](/kalorietabellen/), der er baseret på Fødevaredatabanken lavet af Fødevareinstituttet på Danmarks Tekniske Universitet (DTU).
+- question: Hvordan finder jeg næringsindholdet, hvis der ikke er en varedeklaration?
+  answer: 'Hvis der ikke er varedeklaration på fødevaren, fx på frugt, så kan du finde næringsindholdet i [gratis kalorietæller
+    apps](/kalorietaeller-apps/) eller i nogle af vores [kalorietabeller](/kalorietabellen/), der er baseret på Fødevaredatabanken
+    lavet af Fødevareinstituttet på Danmarks Tekniske Universitet (DTU).
+
+    '
 gallery_kylling:
-  - image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg
-  - image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg
+- image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_63e-768x1024.jpeg
+- image_path: https://foedevareguiden.dk/wp-content/uploads/2020/08/fullsizeoutput_648-768x1024.jpeg
 gallery_proteinbar_ingredients:
-  - image_path: /assets/images/blog/ingrediensliste-maxim.jpg
-  - image_path: /assets/images/blog/ingrediensliste-bodylab.jpg
+- image_path: /assets/images/blog/ingrediensliste-maxim.jpg
+- image_path: /assets/images/blog/ingrediensliste-bodylab.jpg
 gallery_proteinbar_content:
-  - image_path: /assets/images/blog/ingrediensliste-naering-maxim.jpg
-  - image_path: /assets/images/blog/ingrediensliste-bodylab-naering.jpg
+- image_path: /assets/images/blog/ingrediensliste-naering-maxim.jpg
+- image_path: /assets/images/blog/ingrediensliste-bodylab-naering.jpg
 ---
 
 **Glykæmisk indeks (GI)** er et værktøj, der viser, hvor hurtigt kulhydrater i en fødevare påvirker blodsukkeret. Skalaen går fra 0 til 100, hvor 100 repræsenterer glukose, som giver den hurtigste stigning i blodsukkeret.

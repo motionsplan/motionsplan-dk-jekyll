@@ -1,17 +1,18 @@
 ---
-title: &title "Body Adiposity Index (BAI) Beregner"
+title: Body Adiposity Index (BAI) Beregner
 permalink: /bai-body-adiposity-index/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1586170737392-383ba61aca98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1586170737392-383ba61aca98.jpg
+  credit: https://images.unsplash.com/photo-1586170737392-383ba61aca98
+  caption: Body Adiposity Index (BAI) Beregner
 category:
-  - Tests
-  - Fedtprocent
+- Tests
+- Fedtprocent
 tags:
-  - beregner
-  - fedtprocent
-last_modified_at: 2022-04-29T22:21:26Z
+- beregner
+- fedtprocent
+last_modified_at: '2022-04-29T22:21:26Z'
 meta:
   name: Body Adiposity Index
   equipment: målebånd

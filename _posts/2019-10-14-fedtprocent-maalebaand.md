@@ -1,40 +1,41 @@
 ---
-title: &title "Mål din fedtprocent med målebånd 📏"
-seo_title: "Mål din fedtprocent med målebånd – sådan gør du"
+title: Mål din fedtprocent med målebånd 📏
+seo_title: Mål din fedtprocent med målebånd – sådan gør du
 permalink: /fedtprocent-maalebaand/
 redirect_from:
-  - /measure-fp/
+- /measure-fp/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
+  overlay_image: /assets/images/unsplash/photo-1530530488105-64664c7213bf.jpg
+  credit: https://images.unsplash.com/photo-1530530488105-64664c7213bf
   alt: Photo by Annie Spratt on Unsplash
-  teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1530530488105-64664c7213bf.jpg
+  caption: Mål din fedtprocent med målebånd 📏
 category:
-  - Tests
-  - Fedtprocent
-breadcrumbs: true
+- Tests
+- Fedtprocent
+breadcrumbs: 'true'
 tags:
-  - måling
-  - test
-  - fedtprocent
-  - kropskomposition
-  - metode
+- måling
+- test
+- fedtprocent
+- kropskomposition
+- metode
 meta:
   name: Mål fedtprocent med målebånd
   equipment: målebånd
   measures: fedtprocent
   type: kropskomposition
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: '2019-03-06T23:14:14Z'
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+  title: Exercise Physiology - Nutrition, Energy, and Human Performance
+  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppen.

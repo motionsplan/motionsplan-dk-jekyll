@@ -1,19 +1,21 @@
 ---
-title: "Superkompensation: Hvornår er jeg klar til at træne igen?"
-excerpt: "Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien."
+title: 'Superkompensation: Hvornår er jeg klar til at træne igen?'
+excerpt: Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg
+  i dette indlæg i dybden med superkompensationsteorien.
 permalink: /superkompensation/
-last_modified_at: 2020-07-06T09:41:09Z
+last_modified_at: '2020-07-06T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Superkompensation: Hvornår er jeg klar til at træne igen?"
+  overlay_image: /assets/images/unsplash/photo-1520529301226-42abc4cd766b.jpg
+  credit: https://images.unsplash.com/photo-1520529301226-42abc4cd766b
+  teaser: /assets/images/unsplash/photo-1520529301226-42abc4cd766b.jpg
+  caption: 'Superkompensation: Hvornår er jeg klar til at træne igen?'
 category:
-  - Træning
+- Træning
 tags:
-  - træning
-  - restitution
-  - træningslære
+- træning
+- restitution
+- træningslære
 ---
 
 Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien.

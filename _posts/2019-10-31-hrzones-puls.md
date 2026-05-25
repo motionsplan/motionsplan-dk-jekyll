@@ -1,33 +1,36 @@
 ---
-title: &title "Guide til pulszoner: Find den bedste metode for dig"
-seo_title: "3 metoder til at beregne dine personlige pulszoner"
-excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
-description: "Lær hvordan du beregner dine pulszoner med forskellige metoder: maksimal puls, pulsreserve og anaerob tærskel. Vælg den rette metode til din træning"
+title: 'Guide til pulszoner: Find den bedste metode for dig'
+seo_title: 3 metoder til at beregne dine personlige pulszoner
+excerpt: Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel
+  eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
+description: 'Lær hvordan du beregner dine pulszoner med forskellige metoder: maksimal puls, pulsreserve og anaerob tærskel.
+  Vælg den rette metode til din træning'
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:
-  - /puls-intensitet/
+- /puls-intensitet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1635863898961-e91351fc1741?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1635863898961-e91351fc1741?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1635863898961-e91351fc1741.jpg
+  credit: https://images.unsplash.com/photo-1635863898961-e91351fc1741
+  teaser: /assets/images/unsplash/photo-1635863898961-e91351fc1741.jpg
+  caption: 'Guide til pulszoner: Find den bedste metode for dig'
 category:
-  - Kondition
-  - Pulstræning
+- Kondition
+- Pulstræning
 tags:
-  - kondition
-  - træning
-  - intensitet
-  - træningsplanlægning
-  - programlægning
-  - puls
-  - løb
-last_modified_at: 2025-02-08T23:14:14Z
-toc: true
+- kondition
+- træning
+- intensitet
+- træningsplanlægning
+- programlægning
+- puls
+- løb
+last_modified_at: '2025-02-08T23:14:14Z'
+toc: 'true'
 garmin_lactate:
-  - image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 ---
 
 Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din [maxpuls](/test-max-puls/) eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.

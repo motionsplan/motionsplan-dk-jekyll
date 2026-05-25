@@ -1,20 +1,23 @@
 ---
-title: &title "️Fysiologien bag temperaturregulering af menneskekroppen"
-seo_title: "️Fysiologien bag temperaturregulering af menneskekroppen"
+title: ️Fysiologien bag temperaturregulering af menneskekroppen
+seo_title: ️Fysiologien bag temperaturregulering af menneskekroppen
 permalink: /fysiologi-temperaturregulering/
-description: "Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer eller lave varmetræning."
-excerpt: "Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer eller lave varmetræning."
+description: Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer
+  eller lave varmetræning.
+excerpt: Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer
+  eller lave varmetræning.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1489659831163-682b5af42225?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1489659831163-682b5af42225.jpg
+  credit: https://images.unsplash.com/photo-1489659831163-682b5af42225
+  caption: ️Fysiologien bag temperaturregulering af menneskekroppen
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - interaktiv artikel
-  - fysiologi
-  - varmetræning
-last_modified_at: 2024-08-12T10:14:14Z
+- interaktiv artikel
+- fysiologi
+- varmetræning
+last_modified_at: '2024-08-12T10:14:14Z'
 ---
 
 Temperaturreguleringen hos mennesker er ret unik. Ved at forstå den, så kan du bedre planlægge dine præstationer eller lave varmetræning.

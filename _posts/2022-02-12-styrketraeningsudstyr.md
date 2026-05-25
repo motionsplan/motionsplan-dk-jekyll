@@ -1,47 +1,44 @@
 ---
-last_modified_at: 2022-02-12T22:21:26.000Z
+last_modified_at: '2022-02-12T22:21:26.000Z'
 feature_row_running_watch:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=29407&htmlurl=https://www.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa-p540021?utm_source=pa&utm_medium=cpc&utm_campaign=pa
-    image_path: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
-    title: Garmin Forerunner 245
-    excerpt: Dette GPS-smartwatch registrerer dine statistikker, behandler dine data
-      og lærer alt om dine præstationer, din løbeform, din træning og endda dine
-      mål.
-    btn_class: btn--info
-    btn_label: Tjek prisen
-    rel: sponsored nofollow noopener
+- url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=29407&htmlurl=https://www.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa-p540021?utm_source=pa&utm_medium=cpc&utm_campaign=pa
+  image_path: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
+  title: Garmin Forerunner 245
+  excerpt: Dette GPS-smartwatch registrerer dine statistikker, behandler dine data og lærer alt om dine præstationer, din
+    løbeform, din træning og endda dine mål.
+  btn_class: btn--info
+  btn_label: Tjek prisen
+  rel: sponsored nofollow noopener
 feature_row_liquid_chalk:
-  - image_path: https://cdn.shopify.com/s/files/1/0605/1941/6061/products/DSC09304.jpg?v=1648043835
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68773&htmlurl=https://www.musclehouse.dk/products/barbenders-liquid-chalk-250ml?variant=42634678075645
-    title: Barbenders Liquid Chalk (250ml)
-    excerpt: Barbenders Liquid Chalk er flydende kalk til brug under træning.
-      Flydende kalk sikrer dig en bedre grebskontakt til dine redskaber under
-      træning, hvor sveddannelse vil være en hindring.
-    rel: sponsored nofollow noopener
-    btn_label: Se prisen
-    btn_class: btn--info
-title: "Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr"
-seo_title: "Styrketræningsudstyr: 8 tips til udstyr til styrketræning"
+- image_path: https://cdn.shopify.com/s/files/1/0605/1941/6061/products/DSC09304.jpg?v=1648043835
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68773&htmlurl=https://www.musclehouse.dk/products/barbenders-liquid-chalk-250ml?variant=42634678075645
+  title: Barbenders Liquid Chalk (250ml)
+  excerpt: Barbenders Liquid Chalk er flydende kalk til brug under træning. Flydende kalk sikrer dig en bedre grebskontakt
+    til dine redskaber under træning, hvor sveddannelse vil være en hindring.
+  rel: sponsored nofollow noopener
+  btn_label: Se prisen
+  btn_class: btn--info
+title: 'Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr'
+seo_title: 'Styrketræningsudstyr: 8 tips til udstyr til styrketræning'
 permalink: /styrketraening-udstyr/
 header:
-  teaser: https://images.unsplash.com/photo-1526409499567-9f0af1fcb6d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Udstyr til styrketræning: Begynderguide til det rigtige
-    styrketræningsudstyr"
+  teaser: /assets/images/unsplash/photo-1526409499567-9f0af1fcb6d1.jpg
+  credit: https://images.unsplash.com/photo-1526409499567-9f0af1fcb6d1
+  caption: 'Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr'
 language: da
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træningsudstyr
+- træningsudstyr
 feature_row_shokz:
-  - image_path: https://www.proshop.dk/Images/600x800/2790958_5f9604797196.png
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/AfterShokz-Aeropex-Lunar-Grey/2790958
-    title: AfterShokz Aeropex hovedtelefoner
-    excerpt: Vær åben over for verden omkring dig. Knogleledningsteknologi giver
-      mulighed for både højkvalitetslyd og situationsbevidsthed for at levere en
-      høreoplevelse som ingen anden.
-    btn_class: btn--info
-    btn_label: Tjek prisen
-    rel: sponsored nofollow noopener
+- image_path: https://www.proshop.dk/Images/600x800/2790958_5f9604797196.png
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/AfterShokz-Aeropex-Lunar-Grey/2790958
+  title: AfterShokz Aeropex hovedtelefoner
+  excerpt: Vær åben over for verden omkring dig. Knogleledningsteknologi giver mulighed for både højkvalitetslyd og situationsbevidsthed
+    for at levere en høreoplevelse som ingen anden.
+  btn_class: btn--info
+  btn_label: Tjek prisen
+  rel: sponsored nofollow noopener
 ---
 Når man skal i gang med at styrketræne, er det vigtigt, at man har det rigtige udstyr. Der findes nemlig et utal af forskellige redskaber, som kan hjælpe én med sin træning. I denne artikel vil vi gennemgå de forskellige former for styrketræningsudstyr og komme med vores bud på, hvad det vigtigste udstyr er.
 

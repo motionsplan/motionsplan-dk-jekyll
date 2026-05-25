@@ -1,21 +1,22 @@
 ---
-title: &title "Tæl skridt: Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2024: Vind op til 25.000 kroner 4 gange årligt"
-description: "Vil du deltage i den landsdækkende kampagne Tæl skridt og vinde op til 25.000 kroner? Tjek her hvordan du gør?"
+title: 'Tæl skridt: Det er motiverende at tælle skridt'
+seo_title: 'Tæl skridt 2024: Vind op til 25.000 kroner 4 gange årligt'
+description: Vil du deltage i den landsdækkende kampagne Tæl skridt og vinde op til 25.000 kroner? Tjek her hvordan du gør?
 permalink: /artikel/tael-skridt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1616935487656-1b6b25c1015f.jpg
+  credit: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f
+  teaser: /assets/images/unsplash/photo-1616935487656-1b6b25c1015f.jpg
+  caption: 'Tæl skridt: Det er motiverende at tælle skridt'
 tags:
-  - skridt
-  - sundhed
-  - motionside
-  - gang
+- skridt
+- sundhed
+- motionside
+- gang
 category:
-  - Gang
-last_modified_at: 2023-01-01T10:51:18Z
+- Gang
+last_modified_at: '2023-01-01T10:51:18Z'
 ---
 
 Det kan være yderst motiverende at tælle skridt. Du kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en skridttæller, en app til at tælle skridt eller en aktivitetstracker.

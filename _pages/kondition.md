@@ -1,63 +1,81 @@
 ---
 layout: single
 permalink: /kondition/
-title: &title "Kondition: Alt om hvordan den trænes og måles"
-excerpt: "Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om du er i god form?"
+title: 'Kondition: Alt om hvordan den trænes og måles'
+excerpt: Her kan du lære mere om kondition, og hvordan du træner og måler din kondition. Få eksempler på træning og se om
+  du er i god form?
 header:
-  overlay_image: https://images.unsplash.com/photo-1529662795444-4a44b7a29db1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1529662795444-4a44b7a29db1.jpg
+  credit: https://images.unsplash.com/photo-1529662795444-4a44b7a29db1
+  caption: 'Kondition: Alt om hvordan den trænes og måles'
 feature_row_energysystems:
-  - image_path: https://images.unsplash.com/photo-1526676317768-d9b14f15615a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Energisystemer 101"
-    title: "Energisystemer 101"
-    excerpt: "Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre kredsløb og udholdenhed."
-    url: "/energisystemer/"
-    btn_label: "Lær om energisystemer"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526676317768-d9b14f15615a.jpg
+  credit: https://images.unsplash.com/photo-1526676317768-d9b14f15615a
+  alt: Energisystemer 101
+  title: Energisystemer 101
+  excerpt: Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre
+    kredsløb og udholdenhed.
+  url: /energisystemer/
+  btn_label: Lær om energisystemer
+  btn_class: btn--info
 feature_row_tests:
-  - image_path: https://images.unsplash.com/photo-1628787333461-9de5910002f7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Kondition og tests"
-    title: "Kondition og tests"
-    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
-    url: "/kondition/tests/"
-    btn_label: "Læs og prøv konditionstests"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1628787333461-9de5910002f7.jpg
+  credit: https://images.unsplash.com/photo-1628787333461-9de5910002f7
+  alt: Kondition og tests
+  title: Kondition og tests
+  excerpt: Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?
+  url: /kondition/tests/
+  btn_label: Læs og prøv konditionstests
+  btn_class: btn--success
 feature_row_kondital:
-  - image_path: https://images.unsplash.com/photo-1616877217977-fe8d019afd76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=10
-    alt: "Hvad er en god kondition?"
-    title: "Hvad er en god kondition?"
-    excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."
-    url: "/kondital/"
-    btn_label: "Se konditionstabel og kondital"
-    btn_class: "btn--info"
-author_profile: true
+- image_path: /assets/images/unsplash/photo-1616877217977-fe8d019afd76.jpg
+  credit: https://images.unsplash.com/photo-1616877217977-fe8d019afd76
+  alt: Hvad er en god kondition?
+  title: Hvad er en god kondition?
+  excerpt: Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende
+    for almindelige mennesker i Skandinavien.
+  url: /kondital/
+  btn_label: Se konditionstabel og kondital
+  btn_class: btn--info
+author_profile: 'true'
 system:
-  - fitnessinstruktør
+- fitnessinstruktør
 sidebar:
   nav: trainingtypes
-toc: true
+toc: 'true'
 faq:
-  - question: "Hvad er kondition?"
-    answer: "Kondition refererer til kroppens evne til at optage, transportere og bruge ilt under fysisk aktivitet. En god kondition er forbundet med bedre udholdenhed og sundhed."
-  - question: Hvad vil det sige at have en god kondition?
-    answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
-  - question: Hvad er dårlig kondition?
-    answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition. Konditionen afhænger især af alderen.
-  - question: Hvor hurtigt bliver ens kondition dårligere?
-    answer: |
-      Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det kan gå, når du holder træningspause.
+- question: Hvad er kondition?
+  answer: Kondition refererer til kroppens evne til at optage, transportere og bruge ilt under fysisk aktivitet. En god kondition
+    er forbundet med bedre udholdenhed og sundhed.
+- question: Hvad vil det sige at have en god kondition?
+  answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og
+    kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
+- question: Hvad er dårlig kondition?
+  answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition.
+    Konditionen afhænger især af alderen.
+- question: Hvor hurtigt bliver ens kondition dårligere?
+  answer: 'Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv kortere pauser kan have betydning
+    for, hvor effektivt kroppen arbejder med iltoptagelsen. Tjek nedenstående indlæg ud, hvis du vil vide, hvor hurtigt det
+    kan gå, når du holder træningspause.
 
-      Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
-  - question: "Hvordan kan jeg forbedre min kondition?"
-    answer: "Du kan forbedre din kondition gennem regelmæssig træning såsom løb, cykling og svømning. Intervaltræning og langvarig udholdenhedstræning er effektive metoder."
-  - question: "Hvad er forskellen på VO2max og kondital?"
-    answer: "VO2max er et absolut mål for kroppens maksimale iltoptagelse pr. minut (liter O₂/min), mens kondital tager højde for kropsvægten og angiver, hvor meget ilt kroppen kan optage per kilo kropsvægt (ml O₂/kg/min)."
-  - question: "Hvordan måler man sin kondition?"
-    answer: "Kondition kan måles ved hjælp af forskellige tests, såsom Cooper-testen, 2400-meter testen eller en direkte VO2max-måling i et laboratorium."
-  - question: "Hvorfor er kondition vigtig for sundheden?"
-    answer: "En god kondition reducerer risikoen for hjertekarsygdomme, diabetes og for tidlig død. Det forbedrer også den generelle livskvalitet og evnen til at udføre daglige aktiviteter."
-breadcrumbs: true
-last_modified_at: 2025-02-12T22:21:26Z
+
+    Læs: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
+
+    '
+- question: Hvordan kan jeg forbedre min kondition?
+  answer: Du kan forbedre din kondition gennem regelmæssig træning såsom løb, cykling og svømning. Intervaltræning og langvarig
+    udholdenhedstræning er effektive metoder.
+- question: Hvad er forskellen på VO2max og kondital?
+  answer: VO2max er et absolut mål for kroppens maksimale iltoptagelse pr. minut (liter O₂/min), mens kondital tager højde
+    for kropsvægten og angiver, hvor meget ilt kroppen kan optage per kilo kropsvægt (ml O₂/kg/min).
+- question: Hvordan måler man sin kondition?
+  answer: Kondition kan måles ved hjælp af forskellige tests, såsom Cooper-testen, 2400-meter testen eller en direkte VO2max-måling
+    i et laboratorium.
+- question: Hvorfor er kondition vigtig for sundheden?
+  answer: En god kondition reducerer risikoen for hjertekarsygdomme, diabetes og for tidlig død. Det forbedrer også den generelle
+    livskvalitet og evnen til at udføre daglige aktiviteter.
+breadcrumbs: 'true'
+last_modified_at: '2025-02-12T22:21:26Z'
 ---
 
 Kondition forbinder man ofte med det at være i form. Når man laver udholdenhedsidræt, fx løb eller cykling, så bliver man hurtigt interesseret i at være i en god kondition.

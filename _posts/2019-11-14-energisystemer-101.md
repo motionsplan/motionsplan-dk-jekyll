@@ -1,21 +1,22 @@
 ---
-title: "Energisystemer 101: Aerobt og anaerobt arbejde 💗"
-seo_title: "Energisystemer 101: Aerob og anaerob arbejde"
+title: 'Energisystemer 101: Aerobt og anaerobt arbejde 💗'
+seo_title: 'Energisystemer 101: Aerob og anaerob arbejde'
 permalink: /energisystemer/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Energisystemer 101: Aerob og anaerob arbejde"
+  overlay_image: /assets/images/unsplash/photo-1495976797530-f33e6580e44b.jpg
+  credit: https://images.unsplash.com/photo-1495976797530-f33e6580e44b
+  teaser: /assets/images/unsplash/photo-1495976797530-f33e6580e44b.jpg
+  caption: 'Energisystemer 101: Aerob og anaerob arbejde'
 category:
-  - Træning
-  - Kondition
+- Træning
+- Kondition
 tags:
-  - energisystemer
-  - anaerob træning
-  - aerob træning
-last_modified_at: 2020-03-06T23:14:14Z
-toc: true
+- energisystemer
+- anaerob træning
+- aerob træning
+last_modified_at: '2020-03-06T23:14:14Z'
+toc: 'true'
 ---
 
 Man hører ofte om træning af det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på forskellen på anaerob og aerob træning, og hvordan du træner de aerobe og anaerobe energissystemer?

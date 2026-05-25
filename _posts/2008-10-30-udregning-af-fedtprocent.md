@@ -1,55 +1,65 @@
 ---
-title: "Beregn din fedtprocent: Udregning med alder, højde og vægt"
-seo_title: "Fedtprocent beregner: Beregn fra alder, højde og vægt"
+title: 'Beregn din fedtprocent: Udregning med alder, højde og vægt'
+seo_title: 'Fedtprocent beregner: Beregn fra alder, højde og vægt'
 permalink: /artikel/udregning-af-fedtprocent/
-description: Vil du gerne kende din fedtprocent? Beregn din fedtprocent på baggrund af køn, alder, højde og vægt i denne beregner for mænd og kvinder.
-excerpt: Beregn din fedtprocent med en udregning baseret på køn, alder, højde og vægt i denne
-  fedtprocent beregner for mænd og kvinder. Avanceret beregner med forskellige fedtprocent formler.
+description: Vil du gerne kende din fedtprocent? Beregn din fedtprocent på baggrund af køn, alder, højde og vægt i denne beregner
+  for mænd og kvinder.
+excerpt: Beregn din fedtprocent med en udregning baseret på køn, alder, højde og vægt i denne fedtprocent beregner for mænd
+  og kvinder. Avanceret beregner med forskellige fedtprocent formler.
 header:
-  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
+  overlay_image: /assets/images/unsplash/photo-1522844990619-4951c40f7eda.jpg
+  credit: https://images.unsplash.com/photo-1522844990619-4951c40f7eda
   caption: Beregn din fedtprocent ud fra højde og vægt.
   alt: Photo by i yunmai on Unsplash
-  teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1522844990619-4951c40f7eda.jpg
   actions:
-    - label: "<i class='fas fa-calculator'></i> Hop til beregneren →"
-      url: "#calculator"
+  - label: <i class='fas fa-calculator'></i> Hop til beregneren →
+    url: '#calculator'
 category:
-  - Tests
-  - Fedtprocent
+- Tests
+- Fedtprocent
 tags:
-  - beregner
-  - fedtprocent
-  - kropskomposition
-  - metode
+- beregner
+- fedtprocent
+- kropskomposition
+- metode
 meta:
   name: Beregn din fedtprocent fra alder, højde og vægt
   type: kropskomposition
   equipment: beregner
   measures: fedtprocent
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: Exercise Physiology - Nutrition, Energy, and Human Performance
-    title: Exercise Physiology - Nutrition, Energy, and Human Performance
-    excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L.
-      Katch - og indeholder bl.a. formlen til at udregne fedtprocenten.
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
-    btn_label: Tjek prisen
-    btn_class: btn--success
-    rel: sponsored nofollow noopener
-last_modified_at: 2025-03-21T08:14:14.000Z
-toc: true
+- image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+  title: Exercise Physiology - Nutrition, Energy, and Human Performance
+  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch - og indeholder bl.a. formlen til
+    at udregne fedtprocenten.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+last_modified_at: '2025-03-21T08:14:14.000Z'
+toc: 'true'
 redirect_from:
-  - /udregn-fp/
+- /udregn-fp/
 language: da
 faq:
-  - question: Hvad er en normal fedtprocent?
-    answer: En normal fedtprocent er forskellig for mænd og kvinder. En sund fedtprocent for mænd ligger mellem 8% til 25% alt efter alderen. En normal fedtprocent hos kvinder ligger på 21% til 36% alt efter alderen. Kvinder har ganske enkelt en større mængde fedt i forhold til deres kropsvægt. Du kan læse mere om [normal fedtprocent for kvinder og mænd](/fedtprocent-normer/).
-  - question: Hvordan kan man måle fedtprocent?
-    answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/) med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/bioimpedans-maaling/) på en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/maal-fedtprocent/).
-  - question: Kan man have for lav fedtprocent?
-    answer: Du kan sagtens have for lav fedtprocent. Fedt er en helt essentiel del af kroppens processer. Derfor der det også godt at holde sig inden for den anbefalede fedtprocent. Hvis du allerede har en meget lav fedtprocent, så kan det gå ud over din sundhed, hvis du går efter en lavere fedtprocent.
-  - question: Kan man have for høj fedtprocent?
-    answer: Du kan have for høj fedtprocent, hvis du er overvægtig og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet](/taljemaal/) eller [hofte-talje-forholdet](/talje-hofte-ratio/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan være farligt, hvis fedtet er centreret omkring de indre organer.
+- question: Hvad er en normal fedtprocent?
+  answer: En normal fedtprocent er forskellig for mænd og kvinder. En sund fedtprocent for mænd ligger mellem 8% til 25% alt
+    efter alderen. En normal fedtprocent hos kvinder ligger på 21% til 36% alt efter alderen. Kvinder har ganske enkelt en
+    større mængde fedt i forhold til deres kropsvægt. Du kan læse mere om [normal fedtprocent for kvinder og mænd](/fedtprocent-normer/).
+- question: Hvordan kan man måle fedtprocent?
+  answer: Du kan måle din fedtprocent på mange måder. Du kan fx måle tykkelsen af dine hudfolder med [hudfoldsmålinger](/skinfold/)
+    med en professionel fedttang. Det er også meget populært at få lavet en [bioimpedans-måling](/bioimpedans-maaling/) på
+    en vægt. Vi har skrevet meget mere om [metoder til måling af fedtprocent](/maal-fedtprocent/).
+- question: Kan man have for lav fedtprocent?
+  answer: Du kan sagtens have for lav fedtprocent. Fedt er en helt essentiel del af kroppens processer. Derfor der det også
+    godt at holde sig inden for den anbefalede fedtprocent. Hvis du allerede har en meget lav fedtprocent, så kan det gå ud
+    over din sundhed, hvis du går efter en lavere fedtprocent.
+- question: Kan man have for høj fedtprocent?
+  answer: Du kan have for høj fedtprocent, hvis du er overvægtig og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet](/taljemaal/)
+    eller [hofte-talje-forholdet](/talje-hofte-ratio/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan
+    være farligt, hvis fedtet er centreret omkring de indre organer.
 ---
 
 Med vores fedtprocent-beregner kan du få et estimat baseret på din vægt, højde, køn og alder.

@@ -1,52 +1,74 @@
 ---
-title: &title "De 4 træningsprincipper ved løb – Sådan bruger du dem"
-seo_title: "De 4 træningsprincipper – Sådan optimerer du din løbetræning"
-description: "Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din løbetræning. Læs om specifikation, progression og overload for optimale resultater."
-excerpt: "Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din løbetræning. Læs om specifikation, progression og overload for optimale resultater."
+title: De 4 træningsprincipper ved løb – Sådan bruger du dem
+seo_title: De 4 træningsprincipper – Sådan optimerer du din løbetræning
+description: Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din løbetræning. Læs om specifikation, progression
+  og overload for optimale resultater.
+excerpt: Få indsigt i de 4 træningsprincipper og hvordan de kan forbedre din løbetræning. Læs om specifikation, progression
+  og overload for optimale resultater.
 permalink: /traeningsprincipper-loeb/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1728532483490-708f6562b738?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1728532483490-708f6562b738.jpg
+  credit: https://images.unsplash.com/photo-1728532483490-708f6562b738
+  caption: De 4 træningsprincipper ved løb – Sådan bruger du dem
 category:
-  - Løb
+- Løb
 tags:
-  - træning
-  - løb
-  - træningslære
-last_modified_at: 2025-01-27T22:21:26Z
+- træning
+- løb
+- træningslære
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Hvad er de 4 træningsprincipper for løb?
-    answer: >
-      De 4 grundlæggende træningsprincipper for løb er:
-      - **Specificitet**: Træn målrettet mod din specifikke distance og tempo.
-      - **Progression**: Øg gradvist intensiteten eller varigheden af dine træningspas for at fremme fremgang.
-      - **Variation**: Skift mellem forskellige typer af træning for at undgå stagnation og fremme motivation.
-      - **Individualisering**: Tilpas træningen efter dine personlige behov og forudsætninger.
-  - question: Hvordan kan jeg anvende specificitet i min træning?
-    answer: >
-      Specificitet betyder, at din træning skal være tilpasset den distance og det tempo, du ønsker at forbedre. For eksempel, hvis du træner til et maraton, bør dine træningspas inkludere længere løbeture i marathontempo og intervalpas, der er tilpasset den ønskede målsætning.
-  - question: Hvad betyder progression i forhold til løbetræning?
-    answer: >
-      Progression handler om at øge intensiteten af dine træningspas, så din krop hele tiden udfordres. Dette kan gøres ved at øge tempoet, længden eller antallet af intervaller i dine træningspas.
-  - question: Hvorfor er variation vigtig i træningen?
-    answer: >
-      Variation er nødvendig for at undgå kedsomhed og overbelastning. Ved at variere tempo, distance og type af træning fremmer du både fysisk og mental tilpasning, hvilket hjælper dig med at opnå bedre resultater.
-  - question: Hvordan kan jeg individualisere min træning?
-    answer: >
-      Individualisering betyder, at du tilpasser træningen efter dine egne præferencer, behov og niveau. Hvis du har været træt eller har været udsat for stress, kan du justere intensiteten af træningen. Det er vigtigt at lytte til din krop og justere din træning, så den passer til din dagsform og eventuelle livsomstændigheder.
-  - question: Kan jeg ændre på mit træningsprogram, hvis jeg ikke føler mig i form?
-    answer: >
-      Ja, det er vigtigt at lytte til din krop. Hvis du ikke føler dig i form, kan du justere dit træningsprogram ved at reducere intensiteten eller erstatte et hårdt træningspas med et lettere. Det er bedre at tilpasse træningen end at risikere overtræning og skader.
-  - question: Hvordan ved jeg, om min træning er progressiv nok?
-    answer: >
-      Du kan vurdere din progression ved at se på ændringer i dit tempo, varighed og intensitet. Hvis du ikke oplever fremgang, kan det være tegn på, at du ikke udfordrer din krop tilstrækkeligt. Overvej at øge intensiteten eller ændre på træningsmetoderne, såsom intervallængde eller pausetid.
-  - question: Hvor ofte bør jeg variere min træning?
-    answer: >
-      Det er en god idé at variere din træning regelmæssigt, både for at holde motivationen oppe og for at udfordre kroppen på nye måder. En god tommelfingerregel er at have mindst én intensiv træning og én lettere træning pr. uge. Det kan være skiftende intervaller, tempo eller træningstyper.
+- question: Hvad er de 4 træningsprincipper for løb?
+  answer: 'De 4 grundlæggende træningsprincipper for løb er: - **Specificitet**: Træn målrettet mod din specifikke distance
+    og tempo. - **Progression**: Øg gradvist intensiteten eller varigheden af dine træningspas for at fremme fremgang. - **Variation**:
+    Skift mellem forskellige typer af træning for at undgå stagnation og fremme motivation. - **Individualisering**: Tilpas
+    træningen efter dine personlige behov og forudsætninger.
+
+    '
+- question: Hvordan kan jeg anvende specificitet i min træning?
+  answer: 'Specificitet betyder, at din træning skal være tilpasset den distance og det tempo, du ønsker at forbedre. For
+    eksempel, hvis du træner til et maraton, bør dine træningspas inkludere længere løbeture i marathontempo og intervalpas,
+    der er tilpasset den ønskede målsætning.
+
+    '
+- question: Hvad betyder progression i forhold til løbetræning?
+  answer: 'Progression handler om at øge intensiteten af dine træningspas, så din krop hele tiden udfordres. Dette kan gøres
+    ved at øge tempoet, længden eller antallet af intervaller i dine træningspas.
+
+    '
+- question: Hvorfor er variation vigtig i træningen?
+  answer: 'Variation er nødvendig for at undgå kedsomhed og overbelastning. Ved at variere tempo, distance og type af træning
+    fremmer du både fysisk og mental tilpasning, hvilket hjælper dig med at opnå bedre resultater.
+
+    '
+- question: Hvordan kan jeg individualisere min træning?
+  answer: 'Individualisering betyder, at du tilpasser træningen efter dine egne præferencer, behov og niveau. Hvis du har
+    været træt eller har været udsat for stress, kan du justere intensiteten af træningen. Det er vigtigt at lytte til din
+    krop og justere din træning, så den passer til din dagsform og eventuelle livsomstændigheder.
+
+    '
+- question: Kan jeg ændre på mit træningsprogram, hvis jeg ikke føler mig i form?
+  answer: 'Ja, det er vigtigt at lytte til din krop. Hvis du ikke føler dig i form, kan du justere dit træningsprogram ved
+    at reducere intensiteten eller erstatte et hårdt træningspas med et lettere. Det er bedre at tilpasse træningen end at
+    risikere overtræning og skader.
+
+    '
+- question: Hvordan ved jeg, om min træning er progressiv nok?
+  answer: 'Du kan vurdere din progression ved at se på ændringer i dit tempo, varighed og intensitet. Hvis du ikke oplever
+    fremgang, kan det være tegn på, at du ikke udfordrer din krop tilstrækkeligt. Overvej at øge intensiteten eller ændre
+    på træningsmetoderne, såsom intervallængde eller pausetid.
+
+    '
+- question: Hvor ofte bør jeg variere min træning?
+  answer: 'Det er en god idé at variere din træning regelmæssigt, både for at holde motivationen oppe og for at udfordre kroppen
+    på nye måder. En god tommelfingerregel er at have mindst én intensiv træning og én lettere træning pr. uge. Det kan være
+    skiftende intervaller, tempo eller træningstyper.
+
+    '
 meta:
   name: Canova
   author: Mehdi Hadim

@@ -1,25 +1,28 @@
 ---
-title: &title "Lyle McDonalds Generic Bulking Routine til muskelvækst (GBR)"
-seo_title: "Lyle's Generic Bulking Routine – Program til muskelvækst"
+title: Lyle McDonalds Generic Bulking Routine til muskelvækst (GBR)
+seo_title: Lyle's Generic Bulking Routine – Program til muskelvækst
 permalink: /lyle-mcdonalds-general-bulking-routine/
-description: "Få overblik over Lyle McDonalds Generic Bulking Routine – et effektivt 4-dages program til muskelvækst for erfarne styrketrænende."
-excerpt: "Få overblik over Lyle McDonalds Generic Bulking Routine – et effektivt 4-dages program til muskelvækst for erfarne styrketrænende."
+description: Få overblik over Lyle McDonalds Generic Bulking Routine – et effektivt 4-dages program til muskelvækst for erfarne
+  styrketrænende.
+excerpt: Få overblik over Lyle McDonalds Generic Bulking Routine – et effektivt 4-dages program til muskelvækst for erfarne
+  styrketrænende.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1605296867304-46d5465a13f1.jpg
+  credit: https://images.unsplash.com/photo-1605296867304-46d5465a13f1
+  caption: Lyle McDonalds Generic Bulking Routine til muskelvækst (GBR)
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - fullbody
-  - hypertrofi
-  - øvet
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- fullbody
+- hypertrofi
+- øvet
+last_modified_at: '2025-01-27T22:21:26Z'
 meta:
   name: General Bulking Routine
   author: Lyle McDonald

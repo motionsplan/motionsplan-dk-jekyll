@@ -1,24 +1,22 @@
 ---
-title: &title "10 tips til at blive en bedre løber"
-seo_title: "Hvordan bliver du en bedre løber? 10 løbetips"
+title: 10 tips til at blive en bedre løber
+seo_title: Hvordan bliver du en bedre løber? 10 løbetips
 permalink: /bedre-loeber/
-description: "Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber."
-excerpt: "Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber."
+description: Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at
+  forbedre dit løb og blive en mere effektiv løber.
+excerpt: Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre
+  dit løb og blive en mere effektiv løber.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1622407769557-e48f257b96b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1622407769557-e48f257b96b7.jpg
+  credit: https://images.unsplash.com/photo-1622407769557-e48f257b96b7
+  caption: 10 tips til at blive en bedre løber
 category:
-  - Løb
+- Løb
 tags:
-  - løb
-  - guide
-last_modified_at: 2022-11-07T07:14:14Z
-#faq:
-#  - question: Hvordan beregner man sin egen 1 RM?
-#    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
-#  - question: Hvad betyder RM, 1RM max og one repetition maximum?
-#    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+- løb
+- guide
+last_modified_at: '2022-11-07T07:14:14Z'
 ---
 
  Det er ikke så svært at blive en bedre løber, som du måske tror. Der er faktisk mange ting, du kan gøre for at forbedre dit løb og blive en mere effektiv løber. Her er 10 tips, der kan hjælpe dig i gang.

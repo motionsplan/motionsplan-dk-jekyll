@@ -1,18 +1,20 @@
 ---
-title: &title "Holdtræning: Hvordan kan det forbedres?"
-seo_title: "Holdtræning: Læs dette inden du booker dig på hold!"
-excerpt: "Når du søger på holdtræning, så er første side på Google pakke med tilbud fra de store fitnesskæder. Her kan du vælge mellem mange forskellige holdtræningskoncepter. Lad os kigge på, hvordan de alle kunne forbedres!"
+title: 'Holdtræning: Hvordan kan det forbedres?'
+seo_title: 'Holdtræning: Læs dette inden du booker dig på hold!'
+excerpt: Når du søger på holdtræning, så er første side på Google pakke med tilbud fra de store fitnesskæder. Her kan du vælge
+  mellem mange forskellige holdtræningskoncepter. Lad os kigge på, hvordan de alle kunne forbedres!
 permalink: /holdtraening/
 header:
-  overlay_image: https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1518310383802-640c2de311b2.jpg
+  credit: https://images.unsplash.com/photo-1518310383802-640c2de311b2
+  teaser: /assets/images/unsplash/photo-1518310383802-640c2de311b2.jpg
+  caption: 'Holdtræning: Hvordan kan det forbedres?'
 category:
-  - Træning
+- Træning
 tags:
-  - holdtræning
-last_modified_at: 2021-06-16T10:14:14Z
-toc: true
+- holdtræning
+last_modified_at: '2021-06-16T10:14:14Z'
+toc: 'true'
 ---
 
 Når du søger på holdtræning, så er første side på Google pakke med tilbud fra de store fitnesskæder. Her kan du vælge mellem mange forskellige holdtræningskoncepter. Lad os kigge på, hvordan de alle kunne forbedres!

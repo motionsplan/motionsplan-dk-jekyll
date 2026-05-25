@@ -1,23 +1,27 @@
 ---
-title: &title "Powerprofil i cykling: Hvordan tester du den?"
-excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt i, hvilken type rytter du er.
+title: 'Powerprofil i cykling: Hvordan tester du den?'
+excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt
+  i, hvilken type rytter du er.
 permalink: /powerprofil-cykling/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1499438075715-fc23ef376ab9.jpg
+  credit: https://images.unsplash.com/photo-1499438075715-fc23ef376ab9
+  caption: 'Powerprofil i cykling: Hvordan tester du den?'
 category:
-  - Cykling
+- Cykling
 tags:
-  - cykeltest
-last_modified_at: 2022-01-20T08:14:14Z
-toc: true
+- cykeltest
+last_modified_at: '2022-01-20T08:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781937715939/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939
-    rel: sponsored nofollow noopener
-    title: Training and Racing with a Power Meter
-    excerpt: Pioneering cycling coach Hunter Allen and exercise physiologists Dr. Andy Coggan and Stephen McGregor show how to use a power meter to find your baseline power data, profile your strengths and weaknesses, measure fitness and fatigue, optimize your daily workouts, peak for races, and set and adjust your racing strategy during af race.
+- image_path: https://imgcdn.saxo.com/_9781937715939/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939
+  rel: sponsored nofollow noopener
+  title: Training and Racing with a Power Meter
+  excerpt: Pioneering cycling coach Hunter Allen and exercise physiologists Dr. Andy Coggan and Stephen McGregor show how
+    to use a power meter to find your baseline power data, profile your strengths and weaknesses, measure fitness and fatigue,
+    optimize your daily workouts, peak for races, and set and adjust your racing strategy during af race.
 ---
 
 Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt i, hvilken type rytter du er.

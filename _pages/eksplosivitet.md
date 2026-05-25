@@ -1,44 +1,46 @@
 ---
 layout: single
-toc: true
+toc: 'true'
 permalink: /eksplosivitet/
-title: &title "Eksplosivitet: Effektive træningsmetoder og tests til spring og spring"
-seo_title: "Eksplosivitet, Sprint og Spring: Træningsmetoder og Tests"
-excerpt: "Lær hvordan du øger din eksplosivitet med effektive træningsmetoder som plyometrisk træning og styrketræning. Se også tests til at måle dine fremskridt inden for sprint og spring."
-description: "Lær hvordan du øger din eksplosivitet med effektive træningsmetoder som plyometrisk træning og styrketræning. Se også tests til at måle dine fremskridt inden for sprint og spring."
-author_profile: true
+title: 'Eksplosivitet: Effektive træningsmetoder og tests til spring og spring'
+seo_title: 'Eksplosivitet, Sprint og Spring: Træningsmetoder og Tests'
+excerpt: Lær hvordan du øger din eksplosivitet med effektive træningsmetoder som plyometrisk træning og styrketræning. Se
+  også tests til at måle dine fremskridt inden for sprint og spring.
+description: Lær hvordan du øger din eksplosivitet med effektive træningsmetoder som plyometrisk træning og styrketræning.
+  Se også tests til at måle dine fremskridt inden for sprint og spring.
+author_profile: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  alt: "Photo by Tikkho Maciel on Unsplash"
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1507853941863-0ed76ec6add4.jpg
+  credit: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4
+  teaser: /assets/images/unsplash/photo-1507853941863-0ed76ec6add4.jpg
+  alt: Photo by Tikkho Maciel on Unsplash
+  caption: 'Eksplosivitet: Effektive træningsmetoder og tests til spring og spring'
   actions:
-    - label: "<i class='fas fa-download'></i> Se testoversigten"
-      url: "/eksplosivitet/#tests-for-eksplosivitet"
-#    - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
-#      url: "/hastighed/"
+  - label: <i class='fas fa-download'></i> Se testoversigten
+    url: /eksplosivitet/#tests-for-eksplosivitet
 classes: wide
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-    alt: "Hvordan sprinter du?"
-    title: "Hvordan sprinter du?"
-    excerpt: "Hvordan sprinter du?"
-    url: "/sprint/"
-    btn_label: "Læs om sprint"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  alt: Hvordan sprinter du?
+  title: Hvordan sprinter du?
+  excerpt: Hvordan sprinter du?
+  url: /sprint/
+  btn_label: Læs om sprint
+  btn_class: btn--info
 feature_row:
-  - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
-    alt: "Hvordan springer du?"
-    title: "Hvordan springer du?"
-    excerpt: "Hvordan springer du?"
-    url: "/spring/"
-    btn_label: "Læs om spring"
-    btn_class: "btn--success"
+- image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
+  alt: Hvordan springer du?
+  title: Hvordan springer du?
+  excerpt: Hvordan springer du?
+  url: /spring/
+  btn_label: Læs om spring
+  btn_class: btn--success
 category:
-  - Træning
+- Træning
 tags:
-  - træningsformer
-breadcrumbs: true
+- træningsformer
+breadcrumbs: 'true'
 ---
 
 **Eksplosivitet** er evnen til hurtigt at udvikle kraft, hvilket er essentielt i mange sportsgrene og fysiske aktiviteter.

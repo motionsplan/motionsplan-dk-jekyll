@@ -1,17 +1,18 @@
 ---
-title: &title "Inspiration til din gåtur og vandretur"
-seo_title: "20+ forslag til gåture og inspiration til din vandretur"
+title: Inspiration til din gåtur og vandretur
+seo_title: 20+ forslag til gåture og inspiration til din vandretur
 permalink: /inspiration-til-gaature/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1623930979475-19a6f4dee7b1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1623930979475-19a6f4dee7b1.jpg
+  credit: https://images.unsplash.com/photo-1623930979475-19a6f4dee7b1
+  caption: Inspiration til din gåtur og vandretur
 category:
-  - Træning
-  - Gang
+- Træning
+- Gang
 tags:
-  - gang
-last_modified_at: 2022-05-22T10:21:26Z
+- gang
+last_modified_at: '2022-05-22T10:21:26Z'
 ---
 
 Det er sundt at gå. Gåture gør så meget godt for vores krop, fordi frisk luft og motion renser både kroppen og hovedet. Samtidig er det pærelet, socialt og drønhyggeligt, når vi går sammen, og der er mange ideer til at gøre gåturen endnu mere interessant.

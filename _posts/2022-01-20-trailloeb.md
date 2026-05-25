@@ -1,19 +1,20 @@
 ---
-title: &title "Kom godt i gang med trailløb"
-seo_title: "Trailløb: Sådan kommer du godt i gang"
+title: Kom godt i gang med trailløb
+seo_title: 'Trailløb: Sådan kommer du godt i gang'
 permalink: /trailloeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1623390003553-4fa3f9fceb89.jpg
+  credit: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89
+  teaser: /assets/images/unsplash/photo-1623390003553-4fa3f9fceb89.jpg
+  caption: Kom godt i gang med trailløb
 category:
-  - Kondition
-  - Løb
+- Kondition
+- Løb
 tags:
-  - trailløb
-last_modified_at: 2022-01-20T08:14:14Z
-toc: true
+- trailløb
+last_modified_at: '2022-01-20T08:14:14Z'
+toc: 'true'
 ---
 
 I trailløb søger du en løbeoplevelse i naturen, hvor du følger de mindre stier. I trailløb er der mulighed for at improvisere i terrænet og følge de naturlige udfordringer. Her kigger vi på, hvordan du kommer i gang.

@@ -1,25 +1,23 @@
 ---
-title: &title "Styrkeløft rekorder: Hvem løfter mest i squat, bænkpres og dødløft?"
-seo_title: "Styrkeløft rekorder: De stærkeste i squat, bænkpres og dødløft?"
+title: 'Styrkeløft rekorder: Hvem løfter mest i squat, bænkpres og dødløft?'
+seo_title: 'Styrkeløft rekorder: De stærkeste i squat, bænkpres og dødløft?'
 permalink: /styrkeloeft-rekorder/
-description: "Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem løfter mest i squat, bænkpres og dødløft?"
-excerpt: "Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem er de stærkeste i squat, bænkpres og dødløft?"
+description: Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem
+  løfter mest i squat, bænkpres og dødløft?
+excerpt: Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem er
+  de stærkeste i squat, bænkpres og dødløft?
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534368270820-9de3d8053204?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.3
+  teaser: /assets/images/unsplash/photo-1534368270820-9de3d8053204.jpg
+  credit: https://images.unsplash.com/photo-1534368270820-9de3d8053204
+  caption: 'Styrkeløft rekorder: Hvem løfter mest i squat, bænkpres og dødløft?'
+  overlay_filter: '0.3'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - normer
-last_modified_at: 2022-10-09T07:14:14Z
-#faq:
-#  - question: Hvordan beregner man sin egen 1 RM?
-#    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM formel. Jeg har samlet de mest populære formler til at udregne 1RM-max nedenunder.
-#  - question: Hvad betyder RM, 1RM max og one repetition maximum?
-#    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
+- styrketræning
+- normer
+last_modified_at: '2022-10-09T07:14:14Z'
 ---
 
 Hvor stærk er du i forhold til de bedste? Her kigger vi på, hvilke rekorder der findes der i styrkeløft? Hvem løfter mest i squat, bænkpres og dødløft?

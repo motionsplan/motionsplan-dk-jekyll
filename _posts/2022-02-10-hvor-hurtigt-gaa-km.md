@@ -1,29 +1,32 @@
 ---
-title: &title "Hvor lang tid tager det at gå 10.000 skridt?"
-description: Få svaret på, hvor lang tid det tager at gå 10.000 skridt, hvor hurtigt man går 1 kilometer og hvor langt man kan gå på en time?
+title: Hvor lang tid tager det at gå 10.000 skridt?
+description: Få svaret på, hvor lang tid det tager at gå 10.000 skridt, hvor hurtigt man går 1 kilometer og hvor langt man
+  kan gå på en time?
 permalink: /tid-at-gaa/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1572015653901-313e493edc82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1572015653901-313e493edc82.jpg
+  credit: https://images.unsplash.com/photo-1572015653901-313e493edc82
+  caption: Hvor lang tid tager det at gå 10.000 skridt?
 category:
-  - Gang
+- Gang
 tags:
-  - beregner
-  - gang
-  - gangtest
-  - populær
+- beregner
+- gang
+- gangtest
+- populær
 meta:
   name: Beregn tid på at gå 10.000 skridt
   equipment: ingen
   measures: tid
   type: gang
-last_modified_at: 2022-10-5T10:21:26Z
+last_modified_at: '2022-10-5T10:21:26Z'
 faq:
-  - question: Hvor mange km går man på en time?
-    answer: Hvis du går rask gang, så går du 5-6 km i timen. Se flere hastigheder her på siden.
-  - question: Hvor hurtigt går man 1 kilometer?
-    answer: Hvis du går i et raskt tempo med 6 km i timen, så tager det dig 10 minutter at gå 1 kilometer. Regn dit tempo ud her på siden.
+- question: Hvor mange km går man på en time?
+  answer: Hvis du går rask gang, så går du 5-6 km i timen. Se flere hastigheder her på siden.
+- question: Hvor hurtigt går man 1 kilometer?
+  answer: Hvis du går i et raskt tempo med 6 km i timen, så tager det dig 10 minutter at gå 1 kilometer. Regn dit tempo ud
+    her på siden.
 ---
 
 Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du kommet til det rigtige sted. Her får du også svaret på, hvor hurtigt man går 1 kilometer?

@@ -1,32 +1,35 @@
 ---
-title: &title "Beregn dine pulszoner ud fra anaerob tærskel (Beregner)"
-seo_title: "Pulszoneberegner baseret på laktattærsklen (Beregner)"
-description: "Find dine træningszoner ved at beregne pulszoner ud fra din anaerobe tærskel. Forbedr din præstation med vores specialiserede beregner."
-excerpt: "Find dine træningszoner ved at beregne pulszoner ud fra din anaerobe tærskel. Forbedr din præstation med vores specialiserede beregner."
+title: Beregn dine pulszoner ud fra anaerob tærskel (Beregner)
+seo_title: Pulszoneberegner baseret på laktattærsklen (Beregner)
+description: Find dine træningszoner ved at beregne pulszoner ud fra din anaerobe tærskel. Forbedr din præstation med vores
+  specialiserede beregner.
+excerpt: Find dine træningszoner ved at beregne pulszoner ud fra din anaerobe tærskel. Forbedr din præstation med vores specialiserede
+  beregner.
 permalink: /pulszoner-laktat-taerskel/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1609096458733-95b38583ac4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1609096458733-95b38583ac4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
+  credit: https://images.unsplash.com/photo-1609096458733-95b38583ac4e
+  teaser: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
+  caption: Beregn dine pulszoner ud fra anaerob tærskel (Beregner)
 category:
-  - Beregnere
+- Beregnere
 tags:
-  - beregner
-  - kondition
-  - træning
-  - intensitet
-  - puls
-  - løb
-  - programlægning
-  - træningsplanlægning
-  - pulszoneberegner
-last_modified_at: 2025-02-06T23:14:14Z
-toc: true
+- beregner
+- kondition
+- træning
+- intensitet
+- puls
+- løb
+- programlægning
+- træningsplanlægning
+- pulszoneberegner
+last_modified_at: '2025-02-06T23:14:14Z'
+toc: 'true'
 garmin_lactate:
-  - image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
-  - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
+- image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 meta:
   name: Beregn pulszoner fra anaerob tærskel (AnT)
   equipment: beregner

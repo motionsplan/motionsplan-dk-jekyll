@@ -1,43 +1,48 @@
 ---
-title: &title "Løb og wattmåling: Hvordan bruger du running power?"
-description: "Få en mere præcis måling af din intensitet i løb med wattmåling. Her får du en guide til, hvordan løbeeffekt kan hjælpe dig i din løbetræning."
-excerpt: "Vil du gerne have en mere præcis måling af din intensitet i løb? Wattmåling kan være svaret. Vi kigger på, hvordan løbeeffekt kan hjælpe dig i din løbetræning."
+title: 'Løb og wattmåling: Hvordan bruger du running power?'
+description: Få en mere præcis måling af din intensitet i løb med wattmåling. Her får du en guide til, hvordan løbeeffekt
+  kan hjælpe dig i din løbetræning.
+excerpt: Vil du gerne have en mere præcis måling af din intensitet i løb? Wattmåling kan være svaret. Vi kigger på, hvordan
+  løbeeffekt kan hjælpe dig i din løbetræning.
 permalink: /loeb-watt/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1602853186862-723dee51784c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1602853186862-723dee51784c.jpg
+  credit: https://images.unsplash.com/photo-1602853186862-723dee51784c
+  caption: 'Løb og wattmåling: Hvordan bruger du running power?'
 category:
-  - Løb
+- Løb
 tags:
-  - træning
-  - løb
-last_modified_at: 2022-08-22T11:10:26Z
+- træning
+- løb
+last_modified_at: '2022-08-22T11:10:26Z'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-    title: The Secret of Running
-    excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-    btn_label: Se prisen
-    btn_class: btn--success
-    rel: sponsored nofollow nooopener
-  - image_path: https://imgcdn.saxo.com/_9781937715434/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/run-with-power_jim-vance_paperback_9781937715434
-    title: Run With Power
-    alt: Run With Power. Jim Vance.
-    excerpt: RUN WITH POWER er en guide skrevet til at finde dit sande potentiale med at løbe med løbeeffekt og _running power_. Guiden er skrevet af Jim Vance.
-    btn_label: Se prisen
-    btn_class: btn--success
-    rel: sponsored nofollow nooopener
+- image_path: https://imgcdn.saxo.com/_9781782551096/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
+  title: The Secret of Running
+  excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow nooopener
+- image_path: https://imgcdn.saxo.com/_9781937715434/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/run-with-power_jim-vance_paperback_9781937715434
+  title: Run With Power
+  alt: Run With Power. Jim Vance.
+  excerpt: RUN WITH POWER er en guide skrevet til at finde dit sande potentiale med at løbe med løbeeffekt og _running power_.
+    Guiden er skrevet af Jim Vance.
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow nooopener
 feature_row_stryd:
-  - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
-    alt: "STRYD Wattmåler - Next Generation"
-    title: "STRYD Wattmåler - Next Generation"
-    excerpt: "STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er."
-    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
+  alt: STRYD Wattmåler - Next Generation
+  title: STRYD Wattmåler - Next Generation
+  excerpt: STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt
+    forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er.
+  url: https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Vil du gerne have en mere præcis måling af din intensitet i løb? Så kan wattmåling være svaret. Her ser vi på, hvordan løbeeffekt kan hjælpe dig i din løbetræning.

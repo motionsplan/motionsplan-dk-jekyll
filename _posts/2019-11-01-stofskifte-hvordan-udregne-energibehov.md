@@ -1,41 +1,45 @@
 ---
-title: &title "Hvordan beregner du dit daglige energibehov? (Guide)"
-seo_title: "Sådan beregner du dit daglige energibehov: Step-by-step guide"
-description: "Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af enkle formler og hvad du skal tage højde for."
-excerpt: "Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af enkle formler og hvad du skal tage højde for."
+title: Hvordan beregner du dit daglige energibehov? (Guide)
+seo_title: 'Sådan beregner du dit daglige energibehov: Step-by-step guide'
+description: Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af
+  enkle formler og hvad du skal tage højde for.
+excerpt: Følg vores guide til at beregne dit daglige energibehov. Vi forklarer, hvordan du finder dit TDEE ved hjælp af enkle
+  formler og hvad du skal tage højde for.
 permalink: /hvordan-beregne-dagligt-energibehov/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
+  credit: https://images.unsplash.com/photo-1550859492-d5da9d8e45f3
+  teaser: /assets/images/unsplash/photo-1550859492-d5da9d8e45f3.jpg
+  caption: Hvordan beregner du dit daglige energibehov? (Guide)
 category:
-  - Kost & Ernæring
-  - Kalorieberegnere
+- Kost & Ernæring
+- Kalorieberegnere
 tags:
-  - stofskifte
-last_modified_at: 2025-03-06T23:14:14Z
+- stofskifte
+last_modified_at: '2025-03-06T23:14:14Z'
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
-    alt: "Menneskets ernæring"
-    title: "Menneskets ernæring"
-    excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-faq: 
-  - question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
-  - question: Hvad betyder det, hvis jeg har lavt stofskifte?
-  - question: Kan man øge sit stofskifte?
+- image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+  title: Exercise Physiology - Nutrition, Energy, and Human Performance
+  excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/exercise-physiology-nutrition-energy-and-human-performance_bog_9781975217303
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788762813762/0x500
+  alt: Menneskets ernæring
+  title: Menneskets ernæring
+  excerpt: 'Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer,
+    der er nødvendige for opretholdelse af liv. '
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+faq:
+- question: Hvad er forskellen på hvilestofskifte og basalstofskifte?
+- question: Hvad betyder det, hvis jeg har lavt stofskifte?
+- question: Kan man øge sit stofskifte?
 ---
 
 At kende dit daglige energibehov er grundlaget for at kunne tilpasse din kost og træning efter dine mål. Uanset om du ønsker at tabe dig, tage på eller vedligeholde vægten, giver en præcis beregning af dit **daglige stofskifte** og **energibehov** dig værdifuld viden.

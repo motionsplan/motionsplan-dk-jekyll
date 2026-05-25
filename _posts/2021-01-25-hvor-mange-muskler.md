@@ -1,21 +1,23 @@
 ---
-title: &title "Hvor mange muskler har mennesket i kroppen? 💪"
-seo_title: "Hvor mange muskler er der i menneskekroppen? (Omkring 700)"
-description: "Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt."
+title: Hvor mange muskler har mennesket i kroppen? 💪
+seo_title: Hvor mange muskler er der i menneskekroppen? (Omkring 700)
+description: Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen.
+  Desværre er det ikke så lige til at besvare nøjagtigt.
 permalink: /hvor-mange-muskler-i-kroppen/
-last_modified_at: 2021-01-18T09:41:09Z
+last_modified_at: '2021-01-18T09:41:09Z'
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1539812278296-26c236ed98f4.jpg
+  credit: https://images.unsplash.com/photo-1539812278296-26c236ed98f4
+  teaser: /assets/images/unsplash/photo-1539812278296-26c236ed98f4.jpg
+  caption: Hvor mange muskler har mennesket i kroppen? 💪
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - muskler
-  - anatomi
-  - faq
+- muskler
+- anatomi
+- faq
 ---
 
 Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt.

@@ -1,42 +1,46 @@
 ---
-title: &title "Dr. Paks Minimal Effective Volume-programmer"
-seo_title: "Dr. Paks Minimal Effective Volume-programmer"
-description: "Bliv stærkere med få sæt. Dr. Paks programmer viser, hvor lidt styrketræning der skal til for at opnå fremgang i styrke og muskelmasse."
-excerpt: "Bliv stærkere med få sæt. Dr. Paks programmer viser, hvor lidt styrketræning der skal til for at opnå fremgang i styrke og muskelmasse."
+title: Dr. Paks Minimal Effective Volume-programmer
+seo_title: Dr. Paks Minimal Effective Volume-programmer
+description: Bliv stærkere med få sæt. Dr. Paks programmer viser, hvor lidt styrketræning der skal til for at opnå fremgang
+  i styrke og muskelmasse.
+excerpt: Bliv stærkere med få sæt. Dr. Paks programmer viser, hvor lidt styrketræning der skal til for at opnå fremgang i
+  styrke og muskelmasse.
 permalink: /styrketraening/dr-pak-minimal-effective-volume/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1620188500179-32ac33c60848?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1620188500179-32ac33c60848.jpg
+  credit: https://images.unsplash.com/photo-1620188500179-32ac33c60848
+  caption: Dr. Paks Minimal Effective Volume-programmer
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - styrkeløft
-  - programanmeldelse
-  - fullbody
-  - hypertrofi
-  - begynder
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- styrkeløft
+- programanmeldelse
+- fullbody
+- hypertrofi
+- begynder
+last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Kan jeg tilføje ekstra øvelser?
-    answer: >
-      Det anbefales **ikke** i starten. Fokusér på at mestre de store løft. Når du er vant til programmet, kan du tilføje fx:
-      - Chin-ups eller pull-ups
-      - Dips
-      - Maveøvelser (planken, hanging leg raises)
-  - question: Kan jeg tabe fedt samtidig?
-    answer: >
-      Ja – men vægtøgningen vil gå langsommere. Sørg for tilstrækkeligt protein og fokusér på styrkefremgang, ikke vægttab.
-  - question: Hvad hvis jeg har travlt?
-    answer: >
-      Programmet kan gennemføres på **45–60 minutter**. Prioritér de vigtigste løft og hold pauserne effektive.
+- question: Kan jeg tilføje ekstra øvelser?
+  answer: 'Det anbefales **ikke** i starten. Fokusér på at mestre de store løft. Når du er vant til programmet, kan du tilføje
+    fx: - Chin-ups eller pull-ups - Dips - Maveøvelser (planken, hanging leg raises)
+
+    '
+- question: Kan jeg tabe fedt samtidig?
+  answer: 'Ja – men vægtøgningen vil gå langsommere. Sørg for tilstrækkeligt protein og fokusér på styrkefremgang, ikke vægttab.
+
+    '
+- question: Hvad hvis jeg har travlt?
+  answer: 'Programmet kan gennemføres på **45–60 minutter**. Prioritér de vigtigste løft og hold pauserne effektive.
+
+    '
 meta:
   name: Dr. Paks Minimal Effective Volume
   author: Patroklos Androulakis-Korakakis

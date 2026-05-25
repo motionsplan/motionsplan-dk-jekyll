@@ -1,53 +1,61 @@
 ---
-title: "Solhilsen A og B: Komplet guide til solhilsen 🧘"
-#seo_title: "Solhilsen A og B: Komplet guide til solhilsen"
-seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2025"
-description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke yogaøvelser der er i solhilsen? | Hvad er forskellen på A og B? | Hvad er solhilsen godt for?"
+title: 'Solhilsen A og B: Komplet guide til solhilsen 🧘'
+seo_title: Solhilsen A og B • 8 overbevisende grunde til at prøve i 2025
+description: Lær at lave solhilsen a og b med video og beskrivelser | Hvilke yogaøvelser der er i solhilsen? | Hvad er forskellen
+  på A og B? | Hvad er solhilsen godt for?
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Komplet guide til yoga solhilsen A og B"
+  overlay_image: /assets/images/unsplash/photo-1570997491915-47ade51fed9f.jpg
+  credit: https://images.unsplash.com/photo-1570997491915-47ade51fed9f
+  teaser: /assets/images/unsplash/photo-1570997491915-47ade51fed9f.jpg
+  caption: Komplet guide til yoga solhilsen A og B
 tags:
-  - yoga
-  - træning
-  - meditation
+- yoga
+- træning
+- meditation
 category:
-  - Yoga
-last_modified_at: 2023-01-01T09:41:09Z
+- Yoga
+last_modified_at: '2023-01-01T09:41:09Z'
 plakat:
-  - image_path: https://trendyliving.dk/images/Solhilsen.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
-    title: "Solhilsen plakat fra Vissevasse"
-    alt: "Solhilsen plakat fra Vissevasse"
-    excerpt: "Plakat fra Vissevasse med solhilsen. Plakaten illustrere en lille hilsen til solen der står op. Plakaterne er trykt på svensk miljøvenligt papir."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--warning"
-    rel: sponsored nofollow noopener
+- image_path: https://trendyliving.dk/images/Solhilsen.jpg
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
+  title: Solhilsen plakat fra Vissevasse
+  alt: Solhilsen plakat fra Vissevasse
+  excerpt: Plakat fra Vissevasse med solhilsen. Plakaten illustrere en lille hilsen til solen der står op. Plakaterne er trykt
+    på svensk miljøvenligt papir.
+  btn_label: Tjek prisen
+  btn_class: btn--warning
+  rel: sponsored nofollow noopener
 books:
-  - image_path: https://imgcdn.saxo.com/_9788771900774
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/den-lille-solhilsen-med-de-store-virkninger_inge-maria-niebuhr_epub_9788771900774
-    title: "Den lille solhilsen med de store virkninger"
-    alt: "Den lille solhilsen med de store virkninger"
-    excerpt: "Solhilsenen er en kendt yogaøvelse, og den er let at udøve, også for mennesker, der måske ikke er vant til at strække kroppens muskler og sener. Den lille solhilsen er nem at lære og kan nemt flettes ind i dagligdagen, fordi den kun kræver få minutter. Inge-Maria Niebuhr har dyrket, fordybet og uddannet sig i yoga siden 1975. Hun er en erfaren yogalærer, der tager udgangspunkt i elevens muligheder og behov."
-    btn_class: "btn--danger"
-    btn_label: "Tjek prisen"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771900774
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/den-lille-solhilsen-med-de-store-virkninger_inge-maria-niebuhr_epub_9788771900774
+  title: Den lille solhilsen med de store virkninger
+  alt: Den lille solhilsen med de store virkninger
+  excerpt: Solhilsenen er en kendt yogaøvelse, og den er let at udøve, også for mennesker, der måske ikke er vant til at strække
+    kroppens muskler og sener. Den lille solhilsen er nem at lære og kan nemt flettes ind i dagligdagen, fordi den kun kræver
+    få minutter. Inge-Maria Niebuhr har dyrket, fordybet og uddannet sig i yoga siden 1975. Hun er en erfaren yogalærer, der
+    tager udgangspunkt i elevens muligheder og behov.
+  btn_class: btn--danger
+  btn_label: Tjek prisen
+  rel: sponsored nofollow noopener
 feature_row_yogamat:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
-    alt: "Manduka X Yoga Mat til de 5 tibetanere"
-    title: "Manduka X Yoga Mat"
-    excerpt: "Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan fx kigge på denne Manduka X Yoga Mat."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
+  alt: Manduka X Yoga Mat til de 5 tibetanere
+  title: Manduka X Yoga Mat
+  excerpt: Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan
+    fx kigge på denne Manduka X Yoga Mat.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 faq:
-  - question: Hvad er forskellen på Solhilsen A og B?
-    answer: Solhilsen B er lidt mere avanceret yogasekvens end version A. Typisk laves Solhilsen B efter, at du har lavet flere runder af solhilsen A. Få alt at vide her...
-  - question: Skal jeg bruge noget bestemt udstyr for at lave Solhilsen?
-    answer: Nej. Du har ikke brug for bestemt udstyr for at lave yoga og en solhilsen. Det kan dog være rart med en skridsikker yogamåtte, som kan gøre udførelsen lidt mere behagelig.
+- question: Hvad er forskellen på Solhilsen A og B?
+  answer: Solhilsen B er lidt mere avanceret yogasekvens end version A. Typisk laves Solhilsen B efter, at du har lavet flere
+    runder af solhilsen A. Få alt at vide her...
+- question: Skal jeg bruge noget bestemt udstyr for at lave Solhilsen?
+  answer: Nej. Du har ikke brug for bestemt udstyr for at lave yoga og en solhilsen. Det kan dog være rart med en skridsikker
+    yogamåtte, som kan gøre udførelsen lidt mere behagelig.
 ---
 
 Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denne alsidige serie af yoga-øvelser for dig, så du også kan komme i gang med øvelserne. Jeg dykker i det følgende ned i _Surya Namaskar_ (solhilsen) fra Asthanga Vinyasa Yogaen, som findes i en A- og B-version.

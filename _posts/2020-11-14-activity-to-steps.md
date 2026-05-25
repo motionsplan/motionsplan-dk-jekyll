@@ -1,32 +1,36 @@
 ---
-title: &title "Motionsomregner: Omregn aktivitet, sport og motion til skridt 🚴‍♀️ ⇒ 🚶‍♀️"
-seo_title: "Skridtomregner 2022: Omregn til skridt i vores motionsomregner"
-description: "GRATIS ultimative tæl skridt omregner! Leder du efter en motionsomregner? Her kan du lave en omregning fra din aktivitet, motion og sport til antal skridt!"
+title: 'Motionsomregner: Omregn aktivitet, sport og motion til skridt 🚴‍♀️ ⇒ 🚶‍♀️'
+seo_title: 'Skridtomregner 2022: Omregn til skridt i vores motionsomregner'
+description: GRATIS ultimative tæl skridt omregner! Leder du efter en motionsomregner? Her kan du lave en omregning fra din
+  aktivitet, motion og sport til antal skridt!
 permalink: /omregn-motion-aktivitet-sport-til-skridt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1453342664588-b702c83fc822.jpg
+  credit: https://images.unsplash.com/photo-1453342664588-b702c83fc822
+  teaser: /assets/images/unsplash/photo-1453342664588-b702c83fc822.jpg
+  caption: 'Motionsomregner: Omregn aktivitet, sport og motion til skridt 🚴‍♀️ ⇒ 🚶‍♀️'
 category:
-  - Beregnere
+- Beregnere
 tags:
-  - beregner
-  - skridt
-  - motion
-  - featured
+- beregner
+- skridt
+- motion
+- featured
 meta:
   name: Motionsomregner fra sport til sport
   equipment: ingen
   measures: energiforbrug
   type: kalorieberegner
-last_modified_at: 2020-10-13T23:14:14Z
-toc: true
+last_modified_at: '2020-10-13T23:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvordan omregnes cykling til skridt?
-    answer: I gennemsnit kan du regne med omkring 100-343 skridt pr. minut du cykler alt efter, hvor hurtigt du cykler. Se mere i omregningstabellen.
-  - question: Hvordan omregner jeg svømning til skridt?
-    answer: I gennemsnit kan du omregne svømning til mellem 171 - 286 alt efter, hvor hurtigt du svømmer. Se tabellen med omregningsfaktor mellem sport og aktivitet.
+- question: Hvordan omregnes cykling til skridt?
+  answer: I gennemsnit kan du regne med omkring 100-343 skridt pr. minut du cykler alt efter, hvor hurtigt du cykler. Se mere
+    i omregningstabellen.
+- question: Hvordan omregner jeg svømning til skridt?
+  answer: I gennemsnit kan du omregne svømning til mellem 171 - 286 alt efter, hvor hurtigt du svømmer. Se tabellen med omregningsfaktor
+    mellem sport og aktivitet.
 ---
 
 Hvis du gerne vil have svar på hvor mange skridt 10 km cykling svarer til - eller hvor mange skridt du kan skrive i regnskabet for anden motion, sport og aktivitet, så tjek vores "tæl skridt beregner" og motionsomregner.

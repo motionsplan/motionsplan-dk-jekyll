@@ -1,27 +1,29 @@
 ---
-title: &title "Ondt i ryggen: Få fire gode råd til at undgå ondt i lænden!"
+title: 'Ondt i ryggen: Få fire gode råd til at undgå ondt i lænden!'
 seo_title: 4 gode råd til at undgå ondt i ryggen og lænden
-excerpt: "Ondt i ryggen er en folkesygdom, og der er mange råd til, hvad man skal gøre for at undgå at få ondt i lænden og passe på sin ryg."
+excerpt: Ondt i ryggen er en folkesygdom, og der er mange råd til, hvad man skal gøre for at undgå at få ondt i lænden og
+  passe på sin ryg.
 permalink: /artikel/vaer-god-ved-din-ryg/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1624716346716-303904799c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1624716346716-303904799c92.jpg
+  credit: https://images.unsplash.com/photo-1624716346716-303904799c92
+  caption: 'Ondt i ryggen: Få fire gode råd til at undgå ondt i lænden!'
 tags:
-  - træning
-  - ryggen
-  - skadesforebyggelse
+- træning
+- ryggen
+- skadesforebyggelse
 category:
-  - Styrketræning
-last_modified_at: 2020-04-13T22:03:29Z
+- Styrketræning
+last_modified_at: '2020-04-13T22:03:29Z'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781450472913/0x500
-    alt: "Forside til Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
-    title: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
-    excerpt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/low-back-disorders_stuart-mcgill_hardback_9781450472913"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
+- image_path: https://imgcdn.saxo.com/_9781450472913/0x500
+  alt: Forside til Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill
+  title: Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill
+  excerpt: Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/low-back-disorders_stuart-mcgill_hardback_9781450472913
+  btn_label: Tjek prisen
+  btn_class: btn--success
 ---
 
 Ondt i ryggen er en folkesygdom, og der er mange råd til, hvad man skal gøre for at undgå at få ondt i lænden og passe på sin ryg.

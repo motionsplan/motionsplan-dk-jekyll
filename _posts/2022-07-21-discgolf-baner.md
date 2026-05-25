@@ -1,18 +1,20 @@
 ---
-title: &title "Discgolf baner i Danmark: Hvor kan du spille?"
-seo_title: "140+ Discgolf baner i Danmark: Hvor kan du spille i 2025?"
-excerpt: "At gå en runde på en af de mange discgolf baner i danmark er en fantastisk måde at tilbring tid sammen med vennerne på. Her kan du læse mere om, hvor du kan spille discgolf?"
+title: 'Discgolf baner i Danmark: Hvor kan du spille?'
+seo_title: '140+ Discgolf baner i Danmark: Hvor kan du spille i 2025?'
+excerpt: At gå en runde på en af de mange discgolf baner i danmark er en fantastisk måde at tilbring tid sammen med vennerne
+  på. Her kan du læse mere om, hvor du kan spille discgolf?
 permalink: /discgolf-baner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1616840388998-a514fe2175b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1616840388998-a514fe2175b9.jpg
+  credit: https://images.unsplash.com/photo-1616840388998-a514fe2175b9
+  caption: 'Discgolf baner i Danmark: Hvor kan du spille?'
 category:
-  - Sportsgrene
-  - Discgolf
+- Sportsgrene
+- Discgolf
 tags:
-  - discgolf
-last_modified_at: 2022-07-21T10:21:26Z
+- discgolf
+last_modified_at: '2022-07-21T10:21:26Z'
 ---
 
 At gå en runde på en af de mange discgolf baner i danmark er en fantastisk måde at tilbring tid sammen med vennerne på. Her kan du læse mere om, hvor du kan spille discgolf?

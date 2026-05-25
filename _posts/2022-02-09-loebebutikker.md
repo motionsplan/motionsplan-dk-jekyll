@@ -1,15 +1,16 @@
 ---
-title: &title "Danske løbebutikker – køb billigt løbetøj online"
+title: Danske løbebutikker – køb billigt løbetøj online
 permalink: /loebebutikker-online/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1539185441755-769473a23570.jpg
+  credit: https://images.unsplash.com/photo-1539185441755-769473a23570
+  caption: Danske løbebutikker – køb billigt løbetøj online
 category:
-  - Løb
+- Løb
 tags:
-  - butikker
-last_modified_at: 2022-01-27T22:21:26Z
+- butikker
+last_modified_at: '2022-01-27T22:21:26Z'
 ---
 
 Der findes mange danske løbebutikker. Der er både fysiske butikker i de fleste store byer, men du kan også finde løbebutikker online, hvor der kan være mange penge at spare på løbesko og løbetøj.

@@ -1,60 +1,69 @@
 ---
-title: "Kondital for overvægtige: Introduktion til Index 23"
-seo_title: "Overvægt og kondition: Sådan bruger du Index 23 og kondital"
+title: 'Kondital for overvægtige: Introduktion til Index 23'
+seo_title: 'Overvægt og kondition: Sådan bruger du Index 23 og kondital'
 permalink: /kondital-index-23/
-# Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
-# Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
-# Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
-description: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere præcis vurdering af konditionen.
-excerpt: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere præcis vurdering af konditionen.
+description: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere
+  præcis vurdering af konditionen.
+excerpt: Lær, hvordan du retfærdigt vurderer kondital hos overvægtige med Index 23. Undgå unfair målinger og få en mere præcis
+  vurdering af konditionen.
 header:
-  overlay_image: https://images.unsplash.com/photo-1612497266264-6ef0f75009ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1612497266264-6ef0f75009ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=630&w=1200&q=60
+  overlay_image: /assets/images/unsplash/photo-1612497266264-6ef0f75009ec.jpg
+  credit: https://images.unsplash.com/photo-1612497266264-6ef0f75009ec
+  teaser: /assets/images/unsplash/photo-1612497266264-6ef0f75009ec.jpg
   caption: Kondital ved Index 23
-last_modified_at: 2024-04-09T04:46:02+02:00
-toc: true
+last_modified_at: '2024-04-09T04:46:02+02:00'
+toc: 'true'
 category:
-  - Kondition
+- Kondition
 tags:
-  - beregner
-  - kondition
-  - tabel
-  - kondital
-popular: true
+- beregner
+- kondition
+- tabel
+- kondital
+popular: 'true'
 feature_row:
-  - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
-    alt: kondital textbook of work physiology
-    title: Textbook of Work Physiology - Åstrand m.fl.
-    excerpt: En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om
-      kondition og kondital. I bogen finder du også forskellige tabeller over
-      kondital, som du kan sammenligne dig med.
-    url: https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y
-    btn_label: Se bogen
-    btn_class: btn--success
+- image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
+  alt: kondital textbook of work physiology
+  title: Textbook of Work Physiology - Åstrand m.fl.
+  excerpt: En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om kondition og kondital. I bogen finder du også
+    forskellige tabeller over kondital, som du kan sammenligne dig med.
+  url: https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y
+  btn_label: Se bogen
+  btn_class: btn--success
 language: da
 feature_row_kondital:
-  - image_path: /assets/images/freebies/kondital.png
-    alt: Tabel og skema over kondital
-    title: Tabel over kondital til udskrivning
-    excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige
-      til at hænge op på væggen. Tabellen er lavet i Google Docs.
-    url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
-    btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
-    btn_class: btn--success
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/kondital.png
+  alt: Tabel og skema over kondital
+  title: Tabel over kondital til udskrivning
+  excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet
+    i Google Docs.
+  url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
+  btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvad er Index 23, og hvordan adskiller det sig fra almindeligt kondital?"
-    answer: "Index 23 er en metode til at beregne kondital, der tager højde for overvægt. I modsætning til det almindelige kondital, hvor vægten direkte påvirker resultatet, beregner Index 23 konditallet, som hvis personen havde et BMI på 23. Dette giver en mere retfærdig vurdering af konditionen uafhængigt af overvægt."
-  - question: "Hvordan beregnes kondital ved Index 23?"
-    answer: "Kondital ved Index 23 beregnes ved at dividere den maksimale iltoptagelse (VO₂max) med den vægt, personen ville have haft ved et BMI på 23. Formlen er: Kondital<sub>Index 23</sub> = VO₂max / (23 * højde²). Dette giver et kondital, der er uafhængigt af den aktuelle vægt."
-  - question: "Hvorfor er Index 23 mere retfærdigt for overvægtige?"
-    answer: "Fordi det almindelige kondital tager højde for den aktuelle vægt, vil overvægtige typisk få et lavere kondital, selvom deres kredsløb er i god form. Index 23 fjerner denne vægtbias og giver en mere retvisende vurdering af den faktiske kondition."
-  - question: "Kan Index 23 bruges til alle, eller kun til overvægtige?"
-    answer: "Index 23 er primært designet til at give en mere retfærdig vurdering af kondital hos overvægtige. Men det kan i princippet bruges til alle, der ønsker at se deres kondital i forhold til en normalvægt."
-  - question: "Hvordan kan jeg bruge Index 23 til at forbedre min sundhed?"
-    answer: "Ved at bruge Index 23 kan du få et mere realistisk billede af din kondition. Dette kan motivere dig til at træne og forbedre din kondition, uanset din nuværende vægt. Det er også et nyttigt værktøj for sundhedsprofessionelle til at give mere målrettet rådgivning."
-  - question: "Hvor kan jeg finde mere information om kondital og konditionstræning?"
-    answer: "Du kan finde mange ressourcer og information om kondital, konditionstræning og relaterede emner her på vores side. Vi har artikler om [kondition, kredsløb og konditionstræning](/kondition/) og en [oversigt over konditionstests](/kondition/tests/)."
+- question: Hvad er Index 23, og hvordan adskiller det sig fra almindeligt kondital?
+  answer: Index 23 er en metode til at beregne kondital, der tager højde for overvægt. I modsætning til det almindelige kondital,
+    hvor vægten direkte påvirker resultatet, beregner Index 23 konditallet, som hvis personen havde et BMI på 23. Dette giver
+    en mere retfærdig vurdering af konditionen uafhængigt af overvægt.
+- question: Hvordan beregnes kondital ved Index 23?
+  answer: 'Kondital ved Index 23 beregnes ved at dividere den maksimale iltoptagelse (VO₂max) med den vægt, personen ville
+    have haft ved et BMI på 23. Formlen er: Kondital<sub>Index 23</sub> = VO₂max / (23 * højde²). Dette giver et kondital,
+    der er uafhængigt af den aktuelle vægt.'
+- question: Hvorfor er Index 23 mere retfærdigt for overvægtige?
+  answer: Fordi det almindelige kondital tager højde for den aktuelle vægt, vil overvægtige typisk få et lavere kondital,
+    selvom deres kredsløb er i god form. Index 23 fjerner denne vægtbias og giver en mere retvisende vurdering af den faktiske
+    kondition.
+- question: Kan Index 23 bruges til alle, eller kun til overvægtige?
+  answer: Index 23 er primært designet til at give en mere retfærdig vurdering af kondital hos overvægtige. Men det kan i
+    princippet bruges til alle, der ønsker at se deres kondital i forhold til en normalvægt.
+- question: Hvordan kan jeg bruge Index 23 til at forbedre min sundhed?
+  answer: Ved at bruge Index 23 kan du få et mere realistisk billede af din kondition. Dette kan motivere dig til at træne
+    og forbedre din kondition, uanset din nuværende vægt. Det er også et nyttigt værktøj for sundhedsprofessionelle til at
+    give mere målrettet rådgivning.
+- question: Hvor kan jeg finde mere information om kondital og konditionstræning?
+  answer: Du kan finde mange ressourcer og information om kondital, konditionstræning og relaterede emner her på vores side.
+    Vi har artikler om [kondition, kredsløb og konditionstræning](/kondition/) og en [oversigt over konditionstests](/kondition/tests/).
 ---
 
 I vores tidligere artikel om [kondital](/kondital/) har vi udforsket, hvordan denne måling bruges til at vurdere en persons fysiske form. Men hvad sker der, når vi anvender den traditionelle konditalberegning på overvægtige personer?

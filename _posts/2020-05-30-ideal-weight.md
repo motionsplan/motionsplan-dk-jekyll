@@ -1,36 +1,42 @@
 ---
-title: &title "Beregn idealvægt for mænd og kvinder i vores enkle beregner"
-#seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
-seo_title: "Idealvægt beregner: Hvad bør mænd og kvinder veje?"
-description: "Vil du gerne kende din idealvægt? Her kigger vi på sund vægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Komplet guide med beregner."
-excerpt: "Er du interesseret i at kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
+title: Beregn idealvægt for mænd og kvinder i vores enkle beregner
+seo_title: 'Idealvægt beregner: Hvad bør mænd og kvinder veje?'
+description: Vil du gerne kende din idealvægt? Her kigger vi på sund vægt, normalvægt og gennemsnitsvægt for mænd og kvinder?
+  Komplet guide med beregner.
+excerpt: Er du interesseret i at kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og
+  hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
 permalink: /idealvaegt/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  overlay_filter: 0.1
+  teaser: /assets/images/unsplash/photo-1589829545856-d10d557cf95f.jpg
+  credit: https://images.unsplash.com/photo-1589829545856-d10d557cf95f
+  caption: Beregn idealvægt for mænd og kvinder i vores enkle beregner
+  overlay_filter: '0.1'
 category:
-  - Beregnere
-  - Kropskomposition
+- Beregnere
+- Kropskomposition
 tags:
-  - beregner
-  - vægt
-  - kropskomposition
-  - antropometri
-  - featured
+- beregner
+- vægt
+- kropskomposition
+- antropometri
+- featured
 meta:
   name: Idealvægt for mænd og kvinder
   equipment: målebånd
   measures: idealvægt
   type: kropskomposition
-last_modified_at: 2022-08-22T08:14:14Z
-toc: true
+last_modified_at: '2022-08-22T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad er idealvægt?
-    answer: Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.
-  - question: Hvordan kan man udregne idealvægt?
-    answer: Der findes en lang række forskellige måder at beregne idealvægt på. Enten kan man tage udgangspunkt i højde og vægttabeller baseret på en lang række mennesker. Ellers kan man beregne den ud fra et [ideelt BMI](/bmi/). Læs meget mere om fordele og ulemper her.
+- question: Hvad er idealvægt?
+  answer: Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med
+    færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten udregnes oftest
+    i forhold til din højde, alder, køn og kropsbygning.
+- question: Hvordan kan man udregne idealvægt?
+  answer: Der findes en lang række forskellige måder at beregne idealvægt på. Enten kan man tage udgangspunkt i højde og vægttabeller
+    baseret på en lang række mennesker. Ellers kan man beregne den ud fra et [ideelt BMI](/bmi/). Læs meget mere om fordele
+    og ulemper her.
 ---
 
 Vil du gerne kende din idealvægt? Her kan du læse mere om idealvægt, normalvægt og gennemsnitsvægt, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?

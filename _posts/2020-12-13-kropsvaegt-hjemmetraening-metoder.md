@@ -1,29 +1,31 @@
 ---
-title: &title "Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪"
-seo_title: "Gør træning med kropsvægt og hjemmetræning mere effektivt 💪"
+title: Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪
+seo_title: Gør træning med kropsvægt og hjemmetræning mere effektivt 💪
 permalink: /metoder-hjemmetraening-kropsvaegt-mere-effektiv/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1589955791915-526198ae4ee9.jpg
+  credit: https://images.unsplash.com/photo-1589955791915-526198ae4ee9
+  teaser: /assets/images/unsplash/photo-1589955791915-526198ae4ee9.jpg
+  caption: Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - hjemmetræning
-last_modified_at: 2020-12-03T23:14:14Z
-toc: true
+- styrketræning
+- hjemmetræning
+last_modified_at: '2020-12-03T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
-    alt: "KINETIK Vægtvest VX1"
-    title: "KINETIK Vægtvest VX1"
-    excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
+  alt: KINETIK Vægtvest VX1
+  title: KINETIK Vægtvest VX1
+  excerpt: KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest
+    er specialdesignet til at aktivere din styrke, og effektivisere din træning.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest
+  btn_label: Se prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet metoder til at gøre din hjemmetræning mere effektiv. Når du træner hjemme, så træner du ofte uden udstyr eller med begrænset udstyr. Jeg træner ofte selv øvelser med kropsvægt, når jeg træner hjemme, men jeg vælger effektive øvelser, og så bruger jeg forskellige metoder for at gøre træningen endnu mere effektiv.

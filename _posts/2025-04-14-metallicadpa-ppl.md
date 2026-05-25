@@ -1,26 +1,29 @@
 ---
-title: &title "Metallicadpa PPL: 6-dages Push/Pull/Legs-program"
-seo_title: "Metallicadpa PPL – Push/Pull/Legs-program fra Reddit"
-excerpt: "Metallicadpa PPL er et effektivt 6-dages Push/Pull/Legs-program med fokus på styrke og muskelopbygning. Følg struktureret progression og mål fremgang."
-description: "Metallicadpa PPL er et effektivt 6-dages Push/Pull/Legs-program med fokus på styrke og muskelopbygning. Følg struktureret progression og mål fremgang."
+title: 'Metallicadpa PPL: 6-dages Push/Pull/Legs-program'
+seo_title: Metallicadpa PPL – Push/Pull/Legs-program fra Reddit
+excerpt: Metallicadpa PPL er et effektivt 6-dages Push/Pull/Legs-program med fokus på styrke og muskelopbygning. Følg struktureret
+  progression og mål fremgang.
+description: Metallicadpa PPL er et effektivt 6-dages Push/Pull/Legs-program med fokus på styrke og muskelopbygning. Følg
+  struktureret progression og mål fremgang.
 permalink: /metallicadpa-ppl/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1690731069562-6c6fbcd47353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1690731069562-6c6fbcd47353.jpg
+  credit: https://images.unsplash.com/photo-1690731069562-6c6fbcd47353
+  caption: 'Metallicadpa PPL: 6-dages Push/Pull/Legs-program'
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - træning
-  - styrketræning
-  - programanmeldelse
-  - splitprogram
-  - push-pull-legs
-  - hypertrofi
-  - erfaren
-last_modified_at: 2025-01-27T22:21:26Z
+- træningsprogram
+- træning
+- styrketræning
+- programanmeldelse
+- splitprogram
+- push-pull-legs
+- hypertrofi
+- erfaren
+last_modified_at: '2025-01-27T22:21:26Z'
 meta:
   name: Metallicadpa PPL
   author: /u/Metallicadpa

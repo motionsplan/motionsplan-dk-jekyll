@@ -1,16 +1,17 @@
 ---
-title: &title "Teknologi og sport: Revolution i sportsudstyr"
+title: 'Teknologi og sport: Revolution i sportsudstyr'
 permalink: /teknologi-sport/
 header:
-  overlay_image: https://images.unsplash.com/photo-1516487200032-8532cb603261?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1516487200032-8532cb603261?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1516487200032-8532cb603261.jpg
+  credit: https://images.unsplash.com/photo-1516487200032-8532cb603261
+  teaser: /assets/images/unsplash/photo-1516487200032-8532cb603261.jpg
+  caption: 'Teknologi og sport: Revolution i sportsudstyr'
 category:
-  - Inspiration
+- Inspiration
 tags:
-  - udstyr
-last_modified_at: 2023-09-24T10:14:14Z
-toc: true
+- udstyr
+last_modified_at: '2023-09-24T10:14:14Z'
+toc: 'true'
 ---
 
 Der har været rigtig meget debat om den teknologiske udvikling i sport. Der bliver brugt mange penge på at forbedre sportsudstyr, så atleterne får bedre vilkår for at kunne slå rekorder.

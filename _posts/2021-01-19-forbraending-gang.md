@@ -1,23 +1,25 @@
 ---
-title: &title "Så mange kalorier forbrænder du ved at gå 🚶🚶‍♀️"
-seo_title: "Forbrænding gang: Så mange kalorier forbrænder du ved at gå"
-description: "✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt? Hvor meget forbrænder gang af energi og kalorier?"
+title: Så mange kalorier forbrænder du ved at gå 🚶🚶‍♀️
+seo_title: 'Forbrænding gang: Så mange kalorier forbrænder du ved at gå'
+description: ✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt? Hvor meget forbrænder
+  gang af energi og kalorier?
 permalink: /forbraending-ved-gaa-gang/
-last_modified_at: 2021-05-11T09:41:09Z
+last_modified_at: '2021-05-11T09:41:09Z'
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1560741282-a3ff4a507b4f.jpg
+  credit: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f
+  teaser: /assets/images/unsplash/photo-1560741282-a3ff4a507b4f.jpg
+  caption: Så mange kalorier forbrænder du ved at gå 🚶🚶‍♀️
 category:
-  - Gang
+- Gang
 tags:
-  - forbrænding
-  - gang
-  - kalorier
-  - kalorieberegner
-  - populær
+- forbrænding
+- gang
+- kalorier
+- kalorieberegner
+- populær
 ---
 
 Jeg har kigget lidt på, hvor mange kalorier man forbrænder ved at gå? Så hvis du er interesseret i at vide, hvad din kalorieforbrænding og energiforbrug er ved gang, så har du her den ultimative guide.

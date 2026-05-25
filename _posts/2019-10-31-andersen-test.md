@@ -1,17 +1,20 @@
 ---
-title: &title "Andersen Test: Beregn kondital for børn og unge"
-seo_title: "Andersen Test: Find kondital for børn og unge (Beregner)"
-description: "Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering af deres kondition."
-excerpt: "Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering af deres kondition."
+title: 'Andersen Test: Beregn kondital for børn og unge'
+seo_title: 'Andersen Test: Find kondital for børn og unge (Beregner)'
+description: Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering
+  af deres kondition.
+excerpt: Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering
+  af deres kondition.
 permalink: /andersen-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1582948818273-b8fdb032a863.jpg
+  credit: https://images.unsplash.com/photo-1582948818273-b8fdb032a863
+  teaser: /assets/images/unsplash/photo-1582948818273-b8fdb032a863.jpg
+  caption: 'Andersen Test: Beregn kondital for børn og unge'
 category:
-  - Kondition
-  - Løb
+- Kondition
+- Løb
 meta:
   name: Andersen Test
   measures: kondital
@@ -21,30 +24,31 @@ meta:
   direct: indirekte test
   target: børn
 tags:
-  - test
-  - konditionstræning
-  - maksimal iltoptagelse
-  - konditionstest
-  - løbetest
-  - løb
-  - testberegner
-  - featured
-last_modified_at: 2024-01-11T08:14:14Z
+- test
+- konditionstræning
+- maksimal iltoptagelse
+- konditionstest
+- løbetest
+- løb
+- testberegner
+- featured
+last_modified_at: '2024-01-11T08:14:14Z'
 feature_row:
-  - image_path: /assets/images/freebies/andersen-notering.png
-    url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
-    title: "Skema til Andersen Testen"
-    excerpt: "Der printes et noteringsark til hver elev. Man krydser af for hver 20 meter der er løbet."
-    btn_class: btn--success
-    btn_label: "<i class='fas fa-file-excel'></i> Lav en kopi"
-    rel: nofollow noopener
-  - image_path: /assets/images/freebies/andersen-sheet.png
-    url: https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing
-    title: "Beregn kondital fra Andersen Testen"
-    excerpt: "Her kan du hente et regneark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes kondital."
-    btn_class: btn--success
-    btn_label: "<i class='fas fa-file-excel'></i> Lav en kopi i Google Sheet"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/andersen-notering.png
+  url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
+  title: Skema til Andersen Testen
+  excerpt: Der printes et noteringsark til hver elev. Man krydser af for hver 20 meter der er løbet.
+  btn_class: btn--success
+  btn_label: <i class='fas fa-file-excel'></i> Lav en kopi
+  rel: nofollow noopener
+- image_path: /assets/images/freebies/andersen-sheet.png
+  url: https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing
+  title: Beregn kondital fra Andersen Testen
+  excerpt: Her kan du hente et regneark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes
+    kondital.
+  btn_class: btn--success
+  btn_label: <i class='fas fa-file-excel'></i> Lav en kopi i Google Sheet
+  rel: nofollow noopener
 ---
 
 Andersen testen er en [konditionstest](/kondition/tests/), hvor du skiftevis løber og holde pause i 10 minutter. Testen kan bruges til at estimere konditallet på gruppeniveau. Testen er særligt velegnet til børn og kan udføres med større grupper, hvor alle er aktivitet undervejs.

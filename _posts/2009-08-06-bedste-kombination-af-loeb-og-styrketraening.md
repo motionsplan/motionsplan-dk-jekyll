@@ -1,34 +1,36 @@
 ---
-title: &title "Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀"
-seo_title: "Hvad er den bedste kombination af løb og styrketræning?"
+title: Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀
+seo_title: Hvad er den bedste kombination af løb og styrketræning?
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening/
 redirect_from:
-  - /artikel/bedste-kombination-af-loeb-og-styrketraening
+- /artikel/bedste-kombination-af-loeb-og-styrketraening
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1526676537331-7747bf8278fc.jpg
+  credit: https://images.unsplash.com/photo-1526676537331-7747bf8278fc
+  teaser: /assets/images/unsplash/photo-1526676537331-7747bf8278fc.jpg
+  caption: Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀
 tags:
-  - styrketræning
-  - løb
-  - kondition
-  - kombinationstræning
-  - træning
-  - faq
+- styrketræning
+- løb
+- kondition
+- kombinationstræning
+- træning
+- faq
 category:
-  - Kondition
-  - Løb
-  - Styrketræning
-last_modified_at: 2021-06-09T10:09:36Z
+- Kondition
+- Løb
+- Styrketræning
+last_modified_at: '2021-06-09T10:09:36Z'
 feature_row:
-  - image_path: /assets/images/freebies/combination-infographic.png
-    url: https://docs.google.com/document/d/15XeEFJ4xV0n7_7OecJGReOq6YalQZY5--6zMC5RBtoU/copy?usp=sharing
-    title: Hvordan laver jeg et godt træningsprogram?
-    excerpt: Her er en infographic lavet i Google Docs med nogle af hovedpunkterne til, hvordan du laver et godt træningsprogram til kombinationstræning.
-    btn_class: btn--warning
-    btn_label: "<i class='fas fa-file-alt'></i> Download Google Docs"
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/combination-infographic.png
+  url: https://docs.google.com/document/d/15XeEFJ4xV0n7_7OecJGReOq6YalQZY5--6zMC5RBtoU/copy?usp=sharing
+  title: Hvordan laver jeg et godt træningsprogram?
+  excerpt: Her er en infographic lavet i Google Docs med nogle af hovedpunkterne til, hvordan du laver et godt træningsprogram
+    til kombinationstræning.
+  btn_class: btn--warning
+  btn_label: <i class='fas fa-file-alt'></i> Download Google Docs
+  rel: nofollow noopener
 ---
 
 Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning samtidigt. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?

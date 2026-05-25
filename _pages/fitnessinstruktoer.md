@@ -1,81 +1,91 @@
 ---
 layout: single
-title: &title "Fitnessinstruktør: Hvad skal du vide som instruktør?"
-excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning, styrketræning, doping og træning af særlige målgrupper.
+title: 'Fitnessinstruktør: Hvad skal du vide som instruktør?'
+excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning,
+  styrketræning, doping og træning af særlige målgrupper.
 permalink: /fitnessinstruktoer/
 redirect_from:
-  - /fitnessinstruktor/
-author_profile: true
-toc: true
+- /fitnessinstruktor/
+author_profile: 'true'
+toc: 'true'
 header:
   overlay_image: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
-  caption: *title
+  caption: 'Fitnessinstruktør: Hvad skal du vide som instruktør?'
 feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
-    alt: "Motionsdoping - styrketræning, identitet og kultur"
-    title: "Motionsdoping - styrketræning, identitet og kultur"
-    excerpt: "Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning i fitnesscentret med brug af doping."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
+  alt: Stærk
+  title: Stærk - Jacob Beermann
+  excerpt: Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob
+    Beermann med bogen "Stærk". Her får du en god og grundig introduktion til hvordan man styrketræner bedst.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771843378/0x500
+  alt: Motionsdoping - styrketræning, identitet og kultur
+  title: Motionsdoping - styrketræning, identitet og kultur
+  excerpt: Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning
+    i fitnesscentret med brug af doping.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 doping:
-  - image_path: https://imgcdn.saxo.com/_9788771843378/0x500
-    alt: "Motionsdoping - styrketræning, identitet og kultur"
-    title: "Motionsdoping - styrketræning, identitet og kultur"
-    excerpt: "Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning i fitnesscentret med brug af doping."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--danger"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771843378/0x500
+  alt: Motionsdoping - styrketræning, identitet og kultur
+  title: Motionsdoping - styrketræning, identitet og kultur
+  excerpt: Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning
+    i fitnesscentret med brug af doping.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378
+  btn_label: Tjek prisen
+  btn_class: btn--danger
+  rel: sponsored nofollow noopener
 feature_row_anatomi:
-  - image_path: /assets/images/anatomy/blank-muscle-anatomy.jpg
-    alt: "Muskeloversigt"
-    title: "Interaktiv muskeloversigt"
-    excerpt: "Vil du blive klogere på musklernes placering, så kan du prøve den interaktive muskeloversigt. Vi synes selv den er ret cool."
-    url: "/muskler/"
-    btn_label: "Prøv den"
-    btn_class: "btn--danger"
-breadcrumbs: true
+- image_path: /assets/images/anatomy/blank-muscle-anatomy.jpg
+  alt: Muskeloversigt
+  title: Interaktiv muskeloversigt
+  excerpt: Vil du blive klogere på musklernes placering, så kan du prøve den interaktive muskeloversigt. Vi synes selv den
+    er ret cool.
+  url: /muskler/
+  btn_label: Prøv den
+  btn_class: btn--danger
+breadcrumbs: 'true'
 classes: wide
 feature_row_biomekanik:
-  - image_path: "/assets/images/blog/biomekanik-squat.jpg"
-    alt: "Biomekanik i squat - se dig selv som en tændstikmand"
-    title: "Squat model"
-    excerpt: "I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se, hvordan løftet alt andet lige vil se ud."
-    url: "/squat-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
-  - image_path: "/assets/images/blog/biomekanik-benchpress.jpg"
-    alt: "Biomekanik i bænkpres - forstå kraftoverførsel"
-    title: "Bænkpres model"
-    excerpt: "I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være. Gør det individuelt med din armlængde."
-    url: "/baenkpres-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
-  - image_path: "/assets/images/blog/biomekanik-doedloeft.jpg"
-    alt: "Biomekanik i dødløft - den rette løftevinkel"
-    title: "Dødløft model"
-    excerpt: "I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt dødløft alt andet lige vil se ud."
-    url: "/doedloeft-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
+- image_path: /assets/images/blog/biomekanik-squat.jpg
+  alt: Biomekanik i squat - se dig selv som en tændstikmand
+  title: Squat model
+  excerpt: 'I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se,
+    hvordan løftet alt andet lige vil se ud.'
+  url: /squat-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
+- image_path: /assets/images/blog/biomekanik-benchpress.jpg
+  alt: Biomekanik i bænkpres - forstå kraftoverførsel
+  title: Bænkpres model
+  excerpt: I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være.
+    Gør det individuelt med din armlængde.
+  url: /baenkpres-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
+- image_path: /assets/images/blog/biomekanik-doedloeft.jpg
+  alt: Biomekanik i dødløft - den rette løftevinkel
+  title: Dødløft model
+  excerpt: I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt
+    dødløft alt andet lige vil se ud.
+  url: /doedloeft-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
 feature_row_rm_calculator:
-  - image_path: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "RM-beregner"
-    title: "RM-beregner"
-    excerpt: "RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse. Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter."
-    url: "/rm-beregner/"
-    btn_label: "Beregn din styrke"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526401485004-46910ecc8e51.jpg
+  credit: https://images.unsplash.com/photo-1526401485004-46910ecc8e51
+  alt: RM-beregner
+  title: RM-beregner
+  excerpt: RM-beregneren hjælper dig med at estimere dit maksimale løft (1RM) baseret på din præstation i en given øvelse.
+    Brug beregneren til at finde ud af, hvor meget du kan løfte i maksimal styrke, og tilpas din træning derefter.
+  url: /rm-beregner/
+  btn_label: Beregn din styrke
+  btn_class: btn--info
 ---
 
 {{ page.excerpt }}

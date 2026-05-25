@@ -1,48 +1,55 @@
 ---
 layout: single
-title: "Skader og forebyggelse i træning"
-seo_title: "Skader i træning – Forebyggelse, årsager og behandling"
+title: Skader og forebyggelse i træning
+seo_title: Skader i træning – Forebyggelse, årsager og behandling
 permalink: /skader/
-excerpt: "Lær hvordan du forebygger og behandler skader i træning. Få indsigt i typiske skader, deres årsager og effektive strategier til genoptræning."
-description: "Lær hvordan du forebygger og behandler skader i træning. Få indsigt i typiske skader, deres årsager og effektive strategier til genoptræning."
+excerpt: Lær hvordan du forebygger og behandler skader i træning. Få indsigt i typiske skader, deres årsager og effektive
+  strategier til genoptræning.
+description: Lær hvordan du forebygger og behandler skader i træning. Få indsigt i typiske skader, deres årsager og effektive
+  strategier til genoptræning.
 header:
-  overlay_image: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1644492097455-d5f39f458fcd.jpg
+  credit: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd
+  teaser: /assets/images/unsplash/photo-1644492097455-d5f39f458fcd.jpg
   caption: Skader og forebyggelse i træningen
-author_profile: true
+author_profile: 'true'
 author: lsolesen
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Tests"
-    title: "Tests"
-    excerpt: "Du kan bruge tests før, under og efter din træningperioder, så du kan se om dit træningsprogram virker."
-    url: "/tests/"
-    btn_label: "Test"
-    btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Træning"
-    title: "Træning"
-    excerpt: "Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træning til inspiration her."
-    url: "/traening/"
-    btn_label: "Træn"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Tracking"
-    title: "Tracking"
-    excerpt: "Du kan holde styr på din træning med fx en træningslog eller _tracke_ din træning på andre måder."
-    url: "/tracking/"
-    btn_label: "Track"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
+  credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
+  alt: Tests
+  title: Tests
+  excerpt: Du kan bruge tests før, under og efter din træningperioder, så du kan se om dit træningsprogram virker.
+  url: /tests/
+  btn_label: Test
+  btn_class: btn--info
+- image_path: /assets/images/unsplash/photo-1475274110913-480c45d0e873.jpg
+  credit: https://images.unsplash.com/photo-1475274110913-480c45d0e873
+  alt: Træning
+  title: Træning
+  excerpt: Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træning til inspiration her.
+  url: /traening/
+  btn_label: Træn
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  alt: Tracking
+  title: Tracking
+  excerpt: Du kan holde styr på din træning med fx en træningslog eller _tracke_ din træning på andre måder.
+  url: /tracking/
+  btn_label: Track
+  btn_class: btn--info
 feature_row_okklusion:
-  - image_path: /assets/images/occlude/occlusion-training-768.jpg
-    alt: "Okklusionstræning"
-    title: "Okklusionstræning"
-    excerpt: "Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning. Læs lidt mere om det her og spørg din fysioterapeut om gode råd."
-    url: "/introduktion-okklusionstraening/"
-    btn_label: "Læs mere om okklusionstræning"
-    btn_class: "btn--info"
-toc: true
-breadcrumbs: true
+- image_path: /assets/images/occlude/occlusion-training-768.jpg
+  alt: Okklusionstræning
+  title: Okklusionstræning
+  excerpt: Hvis du er blevet skadet og gerne vil sørge for at bibeholde din muskelmasse, så kan du overveje okklusionstræning.
+    Læs lidt mere om det her og spørg din fysioterapeut om gode råd.
+  url: /introduktion-okklusionstraening/
+  btn_label: Læs mere om okklusionstræning
+  btn_class: btn--info
+toc: 'true'
+breadcrumbs: 'true'
 classes: wide
 ---
 

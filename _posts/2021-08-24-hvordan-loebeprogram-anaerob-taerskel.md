@@ -1,25 +1,28 @@
 ---
-title: &title "Mælkesyretærskeltræning – Bliv bedre til at løbe hurtigt i længere tid"
-seo_title: "Mælkesyretærskeltræning: Løb hurtigere i længere tid"
+title: Mælkesyretærskeltræning – Bliv bedre til at løbe hurtigt i længere tid
+seo_title: 'Mælkesyretærskeltræning: Løb hurtigere i længere tid'
 permalink: /loeb/maelkesyretarskel/
-excerpt: "Mælkesyretærskeltræning forbedrer din evne til at holde høj fart uden at syre til. Lær, hvordan du træner omkring din laktattærskel og bliver en stærkere løber."
-description: "Mælkesyretærskeltræning forbedrer din evne til at holde høj fart uden at syre til. Lær, hvordan du træner omkring din laktattærskel og bliver en stærkere løber."
+excerpt: Mælkesyretærskeltræning forbedrer din evne til at holde høj fart uden at syre til. Lær, hvordan du træner omkring
+  din laktattærskel og bliver en stærkere løber.
+description: Mælkesyretærskeltræning forbedrer din evne til at holde høj fart uden at syre til. Lær, hvordan du træner omkring
+  din laktattærskel og bliver en stærkere løber.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1602853186862-723dee51784c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1602853186862-723dee51784c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1602853186862-723dee51784c.jpg
+  credit: https://images.unsplash.com/photo-1602853186862-723dee51784c
+  teaser: /assets/images/unsplash/photo-1602853186862-723dee51784c.jpg
+  caption: Mælkesyretærskeltræning – Bliv bedre til at løbe hurtigt i længere tid
 category:
-  - Løb
-  - Løbeprogrammer
+- Løb
+- Løbeprogrammer
 tags:
-  - løb
-last_modified_at: 2025-03-16T08:14:14Z
-toc: true
+- løb
+last_modified_at: '2025-03-16T08:14:14Z'
+toc: 'true'
 gallery:
-  - image_path: /assets/images/loebeprogram/uge-begynder.png
-  - image_path: /assets/images/loebeprogram/uge-moderat.png
-  - image_path: /assets/images/loebeprogram/uge-traenet.png
+- image_path: /assets/images/loebeprogram/uge-begynder.png
+- image_path: /assets/images/loebeprogram/uge-moderat.png
+- image_path: /assets/images/loebeprogram/uge-traenet.png
 ---
 Vil du kunne holde en højere fart uden at syre til? Mælkesyretærskeltræning hjælper dig med netop dette.
 

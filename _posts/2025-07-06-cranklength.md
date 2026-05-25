@@ -1,37 +1,47 @@
 ---
-title: &title "Guide til krankarmslængde: Komfort, kadence og kraft"
-seo_title: "Guide til krankarmslængde: Hvor lange skal dine pedalarme være?"
-description: "Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan du vælger den rigtige længde."
-excerpt: "Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan du vælger den rigtige længde."
+title: 'Guide til krankarmslængde: Komfort, kadence og kraft'
+seo_title: 'Guide til krankarmslængde: Hvor lange skal dine pedalarme være?'
+description: Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan
+  du vælger den rigtige længde.
+excerpt: Hvad betyder krankarmslængde for din komfort og performance på cyklen? Få overblik over fordele, ulemper og hvordan
+  du vælger den rigtige længde.
 permalink: /krankarmlaengde/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1562615193-cbeef074a501?auto=format&fit=crop&h=300&w=400&q=10&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1562615193-cbeef074a501.jpg
+  credit: https://images.unsplash.com/photo-1562615193-cbeef074a501
+  caption: 'Guide til krankarmslængde: Komfort, kadence og kraft'
 category:
-  - Træning
-  - Cykling
+- Træning
+- Cykling
 tags:
-  - beregner
-  - træning
-  - cykling
-  - udstyr
-last_modified_at: 2025-07-05T22:21:26Z
+- beregner
+- træning
+- cykling
+- udstyr
+last_modified_at: '2025-07-05T22:21:26Z'
 faq:
-  - question: Gør kranklængde virkelig en forskel?
-    answer: Ja. En ændring på bare 5–10 mm kan påvirke komfort, bevægelsesøkonomi og position på cyklen. Kortere krankarme kan fx give bedre hoftevinkel, højere kadence og mindre belastning på knæ.
-  - question: Hvordan måler jeg min skinnebenslængde?
-    answer: "Mål fra midten af ankelknoglen til midten af knæleddet. Det er lettest at få hjælp af en anden og bruge en hård lineal eller målebånd. Brug målet i centimeter til at beregne kranklængde med formlen: `Kranklængde = 0,41 × tibialængde`."
-  - question: Skal jeg skifte gearing, hvis jeg skifter kranklængde?
-    answer: Måske. Kortere krankarme kan give en lille reduktion i mekanisk fordel, men det kan ofte kompenseres med en lettere gearing – fx ved at gå fra 40t til 38t foran, hvis du skifter fra 172,5 mm til 155 mm.
-  - question: Hvad med sadelhøjden?
-    answer: Når du går til kortere krankarme, skal du typisk hæve sadlen med samme antal mm, som du forkorter kranklængden med. Fx 10 mm kortere krank = 10 mm højere saddel.
-  - question: Føles det anderledes at køre med kortere krankarme?
-    answer: Ja, især i starten – og især ude af sadlen. Men mange oplever hurtigt forbedret komfort, bedre kontrol og færre gener i hofte/lænd.
-  - question: Hvilke ryttere bør især overveje kortere krankarme?
-    answer: Ryttere med knæ- eller hoftesmerter, lav fleksibilitet, højt sadel–styr-drop, ustabilitet i hoften, lav kadence – eller ryttere med kortere benlængde.
-  - question: Er der en “rigtig” kranklængde for alle?
-    answer: Nej. Der findes flere mulige kranklængder, der kan fungere for den enkelte. Men hvis du er i tvivl, så vælg hellere en lidt kortere krankarm end en for lang.
+- question: Gør kranklængde virkelig en forskel?
+  answer: Ja. En ændring på bare 5–10 mm kan påvirke komfort, bevægelsesøkonomi og position på cyklen. Kortere krankarme kan
+    fx give bedre hoftevinkel, højere kadence og mindre belastning på knæ.
+- question: Hvordan måler jeg min skinnebenslængde?
+  answer: 'Mål fra midten af ankelknoglen til midten af knæleddet. Det er lettest at få hjælp af en anden og bruge en hård
+    lineal eller målebånd. Brug målet i centimeter til at beregne kranklængde med formlen: `Kranklængde = 0,41 × tibialængde`.'
+- question: Skal jeg skifte gearing, hvis jeg skifter kranklængde?
+  answer: Måske. Kortere krankarme kan give en lille reduktion i mekanisk fordel, men det kan ofte kompenseres med en lettere
+    gearing – fx ved at gå fra 40t til 38t foran, hvis du skifter fra 172,5 mm til 155 mm.
+- question: Hvad med sadelhøjden?
+  answer: Når du går til kortere krankarme, skal du typisk hæve sadlen med samme antal mm, som du forkorter kranklængden med.
+    Fx 10 mm kortere krank = 10 mm højere saddel.
+- question: Føles det anderledes at køre med kortere krankarme?
+  answer: Ja, især i starten – og især ude af sadlen. Men mange oplever hurtigt forbedret komfort, bedre kontrol og færre
+    gener i hofte/lænd.
+- question: Hvilke ryttere bør især overveje kortere krankarme?
+  answer: Ryttere med knæ- eller hoftesmerter, lav fleksibilitet, højt sadel–styr-drop, ustabilitet i hoften, lav kadence
+    – eller ryttere med kortere benlængde.
+- question: Er der en “rigtig” kranklængde for alle?
+  answer: Nej. Der findes flere mulige kranklængder, der kan fungere for den enkelte. Men hvis du er i tvivl, så vælg hellere
+    en lidt kortere krankarm end en for lang.
 ---
 
 *Krankarmslængde? Gør det overhovedet en forskel? Ja, måske mere end du tror.*

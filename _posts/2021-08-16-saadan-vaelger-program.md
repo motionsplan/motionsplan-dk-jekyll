@@ -1,42 +1,56 @@
 ---
-title: &title "Sådan vælger du træningsprogram til styrketræning?"
-seo_title: "Vælg det rigtige styrketræningsprogram til dine mål og dit niveau"
-description: "Find det styrketræningsprogram, der passer bedst til dine mål, erfaring og hverdag. Få hjælp til at vælge mellem alle de forskellige styrkeprogrammer."
-excerpt: "Find det styrketræningsprogram, der passer bedst til dine mål, erfaring og hverdag. Få hjælp til at vælge mellem alle de forskellige styrkeprogrammer."
+title: Sådan vælger du træningsprogram til styrketræning?
+seo_title: Vælg det rigtige styrketræningsprogram til dine mål og dit niveau
+description: Find det styrketræningsprogram, der passer bedst til dine mål, erfaring og hverdag. Få hjælp til at vælge mellem
+  alle de forskellige styrkeprogrammer.
+excerpt: Find det styrketræningsprogram, der passer bedst til dine mål, erfaring og hverdag. Få hjælp til at vælge mellem
+  alle de forskellige styrkeprogrammer.
 permalink: /vaelg-traeningsprogram/
 header:
-  overlay_image: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1605296867424-35fc25c9212a.jpg
+  credit: https://images.unsplash.com/photo-1605296867424-35fc25c9212a
+  teaser: /assets/images/unsplash/photo-1605296867424-35fc25c9212a.jpg
+  caption: Sådan vælger du træningsprogram til styrketræning?
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - begynder
-  - guide
-last_modified_at: 2025-03-16T10:14:14Z
-toc: true
+- styrketræning
+- begynder
+- guide
+last_modified_at: '2025-03-16T10:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvor mange gange om ugen skal jeg træne?
-    answer: >
-      Det kommer an på dit niveau og dine mål. Begyndere kan få gode resultater med 2-3 træninger om ugen, mens øvede ofte træner 3-5 gange om ugen. Det vigtigste er, at du kan restituere mellem træningerne og holde kontinuiteten.
-  - question: Hvor mange sæt og gentagelser giver bedst resultater?
-    answer: >
-      Det afhænger af, hvad du vil opnå. Generelt anbefales 3-5 sæt pr. øvelse. For muskelopbygning (hypertrofi) er 6-12 gentagelser effektivt. For styrke ligger man typisk lavere, omkring 3-6 gentagelser med tungere vægte. For udholdenhed kan 12+ gentagelser bruges.
-  - question: Hvilke øvelser bør jeg vælge?
-    answer: >
-      Fokusér på basisøvelser, der træner flere muskelgrupper ad gangen – fx squat, dødløft, bænkpres, rows og overhead press. De kan suppleres med isolationsøvelser, hvis du har særlige mål eller ønsker mere variation.
-  - question: Hvor tit skal jeg skifte program?
-    answer: >
-      Du behøver ikke skifte program ofte, så længe du stadig laver fremskridt. Mange kan følge det samme program i 8-12 uger eller længere. Skift først, når du stagnerer, mister motivationen eller har brug for at ændre fokus.
+- question: Hvor mange gange om ugen skal jeg træne?
+  answer: 'Det kommer an på dit niveau og dine mål. Begyndere kan få gode resultater med 2-3 træninger om ugen, mens øvede
+    ofte træner 3-5 gange om ugen. Det vigtigste er, at du kan restituere mellem træningerne og holde kontinuiteten.
+
+    '
+- question: Hvor mange sæt og gentagelser giver bedst resultater?
+  answer: 'Det afhænger af, hvad du vil opnå. Generelt anbefales 3-5 sæt pr. øvelse. For muskelopbygning (hypertrofi) er 6-12
+    gentagelser effektivt. For styrke ligger man typisk lavere, omkring 3-6 gentagelser med tungere vægte. For udholdenhed
+    kan 12+ gentagelser bruges.
+
+    '
+- question: Hvilke øvelser bør jeg vælge?
+  answer: 'Fokusér på basisøvelser, der træner flere muskelgrupper ad gangen – fx squat, dødløft, bænkpres, rows og overhead
+    press. De kan suppleres med isolationsøvelser, hvis du har særlige mål eller ønsker mere variation.
+
+    '
+- question: Hvor tit skal jeg skifte program?
+  answer: 'Du behøver ikke skifte program ofte, så længe du stadig laver fremskridt. Mange kan følge det samme program i 8-12
+    uger eller længere. Skift først, når du stagnerer, mister motivationen eller har brug for at ændre fokus.
+
+    '
 feature_row_howto_program:
-  - image_path: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=400&w=300&q=10
-    alt: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    title: "Hvordan laver jeg mit eget styrketræningsprogram?"
-    excerpt: "I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov."
-    url: "/traeningsprogram-programlaegning-styrketraening/"
-    btn_label: "Lav dit eget program"
-    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526408984842-5f1323d42469.jpg
+  credit: https://images.unsplash.com/photo-1526408984842-5f1323d42469
+  alt: Hvordan laver jeg mit eget styrketræningsprogram?
+  title: Hvordan laver jeg mit eget styrketræningsprogram?
+  excerpt: I denne guide viser jeg, hvordan du sammensætter et effektivt styrketræningsprogram. Jeg gennemgår de grundlæggende
+    træningsprincipper, så du kan skabe et program, der er skræddersyet til dine mål og behov.
+  url: /traeningsprogram-programlaegning-styrketraening/
+  btn_label: Lav dit eget program
+  btn_class: btn--info
 ---
 
 Er du i tvivl om, hvilket styrketræningsprogram der passer bedst til dig? I denne guide hjælper jeg dig med at finde det rette program – uanset om dit mål er at blive stærkere, få mere muskelmasse eller komme godt i gang som nybegynder.

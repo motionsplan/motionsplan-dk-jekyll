@@ -1,17 +1,19 @@
 ---
-title: &title "Grebsstyrke: 4 øvelser til et stærkere greb?"
+title: 'Grebsstyrke: 4 øvelser til et stærkere greb?'
 permalink: /artikel/traener-du-grebsstyrke/
-description: "Hvis du har dårlig grebsstyrke, når du laver øvelser, hvor grebet spiller en vigtig rolle? Så tjek disse fire øvelser til et stærkere greb!"
+description: Hvis du har dårlig grebsstyrke, når du laver øvelser, hvor grebet spiller en vigtig rolle? Så tjek disse fire
+  øvelser til et stærkere greb!
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdyaXAlMjBzdHJlbmd0aHxlbnwwfDB8MHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdyaXAlMjBzdHJlbmd0aHxlbnwwfDB8MHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1533681475364-326b6803d677.jpg
+  credit: https://images.unsplash.com/photo-1533681475364-326b6803d677
+  teaser: /assets/images/unsplash/photo-1533681475364-326b6803d677.jpg
+  caption: 'Grebsstyrke: 4 øvelser til et stærkere greb?'
 tags:
-  - grebsstyrke
+- grebsstyrke
 category:
-  - Styrketræning
-last_modified_at: 2020-05-07T11:25:36Z
+- Styrketræning
+last_modified_at: '2020-05-07T11:25:36Z'
 ---
 
 Et stærkt greb er vigtigt, når du løfter vægte. Du skal træne din grebsstyrke, så du kan holde det, du gerne vil løfte. Dit greb er særligt vigtigt i de store rygøvelser.

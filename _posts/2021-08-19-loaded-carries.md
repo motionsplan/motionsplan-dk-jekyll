@@ -1,19 +1,21 @@
 ---
-title: &title "Loaded carries: Bær noget og bliv stærk"
-seo_title: "Loaded carries: Bliv rigtig stærk med disse øvelser"
-excerpt: "_Loaded carries_ handler meget enkelt om at samle en vægt op og begynde at gå med den. Og det kan du altså blive rigtig stærk af."
+title: 'Loaded carries: Bær noget og bliv stærk'
+seo_title: 'Loaded carries: Bliv rigtig stærk med disse øvelser'
+excerpt: _Loaded carries_ handler meget enkelt om at samle en vægt op og begynde at gå med den. Og det kan du altså blive
+  rigtig stærk af.
 permalink: /loaded-carries/
 header:
-  overlay_image: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1550977616-efc580084ac5.jpg
+  credit: https://images.unsplash.com/photo-1550977616-efc580084ac5
+  teaser: /assets/images/unsplash/photo-1550977616-efc580084ac5.jpg
+  caption: 'Loaded carries: Bær noget og bliv stærk'
 category:
-  - Styrketræning
-  - Træningsøvelser
+- Styrketræning
+- Træningsøvelser
 tags:
-  - træningsøvelser
-last_modified_at: 2021-04-16T10:14:14Z
-toc: true
+- træningsøvelser
+last_modified_at: '2021-04-16T10:14:14Z'
+toc: 'true'
 sidebar:
   nav: exercises
 ---

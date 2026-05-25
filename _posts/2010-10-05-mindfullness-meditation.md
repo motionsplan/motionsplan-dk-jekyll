@@ -1,22 +1,25 @@
 ---
-title: "Mindfulness meditation: Øvelser og video på dansk 🧘"
-seo_title: "Mindfulness meditation: Øvelser og video på dansk (2025)"
-description: Her får du en række nyttige øvelser på dansk til mindfulness meditation, så du kan få mere bevidsthed om dine egne værdier og målsætninger.
-excerpt: Er du også på jagt efter mental ro og indsigt? Her får du øvelser fra mindfulness meditation som du kan bruge til at få øget bevidstgørelse omkring egne værdier og målsætninger.
+title: 'Mindfulness meditation: Øvelser og video på dansk 🧘'
+seo_title: 'Mindfulness meditation: Øvelser og video på dansk (2025)'
+description: Her får du en række nyttige øvelser på dansk til mindfulness meditation, så du kan få mere bevidsthed om dine
+  egne værdier og målsætninger.
+excerpt: Er du også på jagt efter mental ro og indsigt? Her får du øvelser fra mindfulness meditation som du kan bruge til
+  at få øget bevidstgørelse omkring egne værdier og målsætninger.
 permalink: /mindfulness-meditation/
 redirect_from:
-  - /artikel/mindfullness-meditation/
+- /artikel/mindfullness-meditation/
 author: kathrine.christensen
 header:
-  overlay_image: https://images.unsplash.com/photo-1474418397713-7ede21d49118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1474418397713-7ede21d49118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1474418397713-7ede21d49118.jpg
+  credit: https://images.unsplash.com/photo-1474418397713-7ede21d49118
+  teaser: /assets/images/unsplash/photo-1474418397713-7ede21d49118.jpg
   caption: Mindfullness meditation til yoga - øvelser på dansk
 tags:
-  - yoga
-  - meditation
+- yoga
+- meditation
 category:
-  - Yoga
-last_modified_at: 2023-01-01T20:41:31Z
+- Yoga
+last_modified_at: '2023-01-01T20:41:31Z'
 ---
 
 Er du også på jagt efter mental ro og indsigt?

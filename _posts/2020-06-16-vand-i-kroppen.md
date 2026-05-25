@@ -1,22 +1,23 @@
 ---
-title: &title "Udregn hvor meget vand du har i kroppen med vores beregner? 🚰"
-seo_title: "Udregn hvor meget vand du har i kroppen (Beregner)?"
+title: Udregn hvor meget vand du har i kroppen med vores beregner? 🚰
+seo_title: Udregn hvor meget vand du har i kroppen (Beregner)?
 permalink: /vand-i-kroppen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1511593358241-7eea1f3c84e5.jpg
+  credit: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5
+  teaser: /assets/images/unsplash/photo-1511593358241-7eea1f3c84e5.jpg
+  caption: Udregn hvor meget vand du har i kroppen med vores beregner? 🚰
   alt: Photo by Jong Marshes on Unsplash
 category:
-  - Fysiologi
+- Fysiologi
 tags:
-  - beregner
-  - fysiologi
-  - anatomi
-  - viden om
-last_modified_at: 2020-06-11T08:14:14Z
-toc: true
+- beregner
+- fysiologi
+- anatomi
+- viden om
+last_modified_at: '2020-06-11T08:14:14Z'
+toc: 'true'
 meta:
   name: Vand i kroppen
   equipment: vægt

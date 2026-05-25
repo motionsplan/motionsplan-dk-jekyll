@@ -1,16 +1,17 @@
 ---
-title: &title "Alt om tempoløft, tempomanipulation og Time Under Tension (TUT)"
-seo_title: "Tempoløft, tempomanipulation og Time Under Tension (TUT)"
+title: Alt om tempoløft, tempomanipulation og Time Under Tension (TUT)
+seo_title: Tempoløft, tempomanipulation og Time Under Tension (TUT)
 permalink: /artikel/foelg-tempoet-naar-du-loefter/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?q=10&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1517964706594-8bf49837d8dc.jpg
+  credit: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc
+  caption: Alt om tempoløft, tempomanipulation og Time Under Tension (TUT)
 tags:
-  - styrketræning
+- styrketræning
 category:
-  - Styrketræning
-last_modified_at: 2020-04-10T20:11:29Z
+- Styrketræning
+last_modified_at: '2020-04-10T20:11:29Z'
 ---
 
 Ud over at registrere sæt og gentagelser, kan du også registrere hvilket tempo øvelserne bliver kørt med. Tempoet i dine løft betyder en del for, hvad du får ud af din træning. Det kan man også kalde tempomanipulation eller tempo løft.

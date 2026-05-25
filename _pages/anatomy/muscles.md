@@ -1,34 +1,41 @@
 ---
 layout: single
-title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
-seo_title: "Muskler i kroppen: Oversigt over skeletmuskler og muskelgrupper"
-description: Få en komplet oversigt over kroppens muskler, deres funktioner og placeringer. Lær om de forskellige muskelgrupper og deres betydning for bevægelse.
-excerpt: "Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler på latin og dansk."
+title: 'Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪'
+seo_title: 'Muskler i kroppen: Oversigt over skeletmuskler og muskelgrupper'
+description: Få en komplet oversigt over kroppens muskler, deres funktioner og placeringer. Lær om de forskellige muskelgrupper
+  og deres betydning for bevægelse.
+excerpt: Her har du en oversigt over muskler i kroppen, muskelgrupper og muskel anatomi. Du får både navne på kroppens muskler
+  på latin og dansk.
 permalink: /muskler/
 header:
-  overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1539814858141-928517f6afd3.jpg
+  credit: https://images.unsplash.com/photo-1539814858141-928517f6afd3
+  teaser: /assets/images/unsplash/photo-1539814858141-928517f6afd3.jpg
+  caption: 'Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪'
 categories:
-  - Anatomi
+- Anatomi
 tags:
-  - anatomi
-toc: true
+- anatomi
+toc: 'true'
 sidebar:
   nav: anatomi
-breadcrumbs: true
-last_modified_at: 2026-03-19T08:14:14.000Z
+breadcrumbs: 'true'
+last_modified_at: '2026-03-19T08:14:14.000Z'
 faq:
-  - question: Hvad er skeletmuskler?
-    answer: "Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”."
-  - question: Hvor mange muskler har man i kroppen?
-    answer: "Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler har vi i kroppen](/hvor-mange-muskler-i-kroppen/)."
-  - question: Hvad er kroppens største muskel?
-    answer: "Kroppens største muskel er den store sædemuskel - gluteus maximus. Ballemusklerne er kroppens største og stærkeste muskel, som også er vigtig for at du kan holde dig oprejst og bevæge dig rundt."
-  - question: Hvor meget af kroppens vægt er muskler?
-    answer: "Omkring 50-60 % af din kropsvægt består af muskler. Hvor mange muskler du har i din krop afhænger af mange faktorer som alder, genetik, køn og motion."
-  - question: Hvad er den mindste muskel i kroppen?
-    answer: "Den mindste muskel i menneskekroppen er stapedius, som hæfter til bøjlebenet i mellemøret."
+- question: Hvad er skeletmuskler?
+  answer: Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede
+    skeletmuskulatur”.
+- question: Hvor mange muskler har man i kroppen?
+  answer: Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter
+    og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler har vi i kroppen](/hvor-mange-muskler-i-kroppen/).
+- question: Hvad er kroppens største muskel?
+  answer: Kroppens største muskel er den store sædemuskel - gluteus maximus. Ballemusklerne er kroppens største og stærkeste
+    muskel, som også er vigtig for at du kan holde dig oprejst og bevæge dig rundt.
+- question: Hvor meget af kroppens vægt er muskler?
+  answer: Omkring 50-60 % af din kropsvægt består af muskler. Hvor mange muskler du har i din krop afhænger af mange faktorer
+    som alder, genetik, køn og motion.
+- question: Hvad er den mindste muskel i kroppen?
+  answer: Den mindste muskel i menneskekroppen er stapedius, som hæfter til bøjlebenet i mellemøret.
 ---
 
 Som underviser i anatomi og fysiologi får jeg ofte spørgsmål om, hvordan kroppens over 700 muskler egentlig arbejder sammen. Her har jeg samlet en komplet oversigt over muskler i kroppen, muskelgrupper og deres latinske navne, så du kan få styr på anatomien bag din træning.

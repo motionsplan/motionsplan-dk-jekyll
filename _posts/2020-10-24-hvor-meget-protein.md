@@ -1,20 +1,21 @@
 ---
-title: &title "Hvor meget protein har jeg brug for om dagen? (Beregner)"
-seo_title: "Hvor meget protein har man behov for om dagen? (Beregner)"
-description: "Er du interesseret i, hvor meget protein du skal indtage om dagen i forbindelse med træning? Her har du svaret!"
+title: Hvor meget protein har jeg brug for om dagen? (Beregner)
+seo_title: Hvor meget protein har man behov for om dagen? (Beregner)
+description: Er du interesseret i, hvor meget protein du skal indtage om dagen i forbindelse med træning? Her har du svaret!
 permalink: /dagligt-protein-indtagelse/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1583532452513-a02186582ccd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1583532452513-a02186582ccd.jpg
+  credit: https://images.unsplash.com/photo-1583532452513-a02186582ccd
+  caption: Hvor meget protein har jeg brug for om dagen? (Beregner)
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - kost & ernæring
-  - protein
-  - populær
-last_modified_at: 2022-09-13T23:14:14Z
-toc: true
+- kost & ernæring
+- protein
+- populær
+last_modified_at: '2022-09-13T23:14:14Z'
+toc: 'true'
 ---
 
 Er du interesseret i, hvor meget protein du skal indtage om dagen for at få de optimale resultater af din træning? Her har du svaret!

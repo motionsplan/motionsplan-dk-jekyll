@@ -1,22 +1,23 @@
 ---
-last_modified_at: 2020-02-13T22:23:01.000Z
+last_modified_at: '2020-02-13T22:23:01.000Z'
 author: martin.madsen
 permalink: /artikel/kan-styrketraening-forebygge-skader/
-title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
-seo_title: "Hvordan forebygger du skader mest effektivt?"
+title: 'Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?'
+seo_title: Hvordan forebygger du skader mest effektivt?
 header:
-  overlay_image: https://images.unsplash.com/photo-1623946724822-ba48a838f3da?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1623946724822-ba48a838f3da?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
+  overlay_image: /assets/images/unsplash/photo-1623946724822-ba48a838f3da.jpg
+  credit: https://images.unsplash.com/photo-1623946724822-ba48a838f3da
+  teaser: /assets/images/unsplash/photo-1623946724822-ba48a838f3da.jpg
+  caption: 'Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?'
 language: da
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - skadesforebyggelse
-  - skader
-  - springtræning
-  - balancetræning
+- styrketræning
+- skadesforebyggelse
+- skader
+- springtræning
+- balancetræning
 ---
 Antallet af skader bliver flere og flere som antallet af aktive timer stiger. Vi kigger her på, hvordan vi kan forebygge skader og reducere risikoen for at blive skadet gennem oftest anvendte virkemidler som styrketræning, balancetræning og springtræning. Nogle af træningsformerne har mere veldokumenterede effekter bag sig end andre.
 

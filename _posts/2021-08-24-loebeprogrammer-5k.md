@@ -1,25 +1,29 @@
 ---
-title: &title "Løbeprogram til 5 km"
-seo_title: "Løbeprogram 5 km"
+title: Løbeprogram til 5 km
+seo_title: Løbeprogram 5 km
 permalink: /loebeprogram-5km/
-excerpt: "Få inspiration til din løbetræning på 5 km med et løbeprogram. Lær at løbe 5 km eller bliv en hurtigere løber på distancen."
+excerpt: Få inspiration til din løbetræning på 5 km med et løbeprogram. Lær at løbe 5 km eller bliv en hurtigere løber på
+  distancen.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610969544920-47371c6d0d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1610969544920-47371c6d0d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1610969544920-47371c6d0d17.jpg
+  credit: https://images.unsplash.com/photo-1610969544920-47371c6d0d17
+  teaser: /assets/images/unsplash/photo-1610969544920-47371c6d0d17.jpg
+  caption: Løbeprogram til 5 km
 category:
-  - Løb
-  - Løbeprogrammer
+- Løb
+- Løbeprogrammer
 tags:
-  - løbeprogram
-  - træningsprogram
-  - 5 km
-  - løb
-last_modified_at: 2021-08-22T23:14:14Z
+- løbeprogram
+- træningsprogram
+- 5 km
+- løb
+last_modified_at: '2021-08-22T23:14:14Z'
 faq:
-  - question: "Hvor lang tid tager det at løbe 5 km?"
-    answer: "Det kommer naturligvis an på hvor hurtigt du løber. Verdensrekorden for mænd er 12:35, mens den for kvinder er 14:11. Mange drømmer om at komme under 20 minutter, men det kan også tage op til en 30-40 minutter, hvis du er begynder. Du kan bruge vores [beregner til løbehastighed](/hastighed/), hvis du kender din gennemsnitsfart."
+- question: Hvor lang tid tager det at løbe 5 km?
+  answer: Det kommer naturligvis an på hvor hurtigt du løber. Verdensrekorden for mænd er 12:35, mens den for kvinder er 14:11.
+    Mange drømmer om at komme under 20 minutter, men det kan også tage op til en 30-40 minutter, hvis du er begynder. Du kan
+    bruge vores [beregner til løbehastighed](/hastighed/), hvis du kender din gennemsnitsfart.
 ---
 
 {{ page.excerpt }}

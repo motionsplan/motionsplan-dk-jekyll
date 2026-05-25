@@ -1,38 +1,35 @@
 ---
-title: "Max-puls formler – Find den bedste beregningsmetode for dig"
-seo_title: "Max-puls formler – Hvordan beregnes maksimal puls?"
-description: "Få indsigt i, hvordan max-puls estimeres med forskellige formler. Vi gennemgår de mest anvendte metoder og deres nøjagtighed."
+title: Max-puls formler – Find den bedste beregningsmetode for dig
+seo_title: Max-puls formler – Hvordan beregnes maksimal puls?
+description: Få indsigt i, hvordan max-puls estimeres med forskellige formler. Vi gennemgår de mest anvendte metoder og deres
+  nøjagtighed.
 permalink: /max-puls-formler/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1682706841281-f723c5bfcd83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.2
+  teaser: /assets/images/unsplash/photo-1682706841281-f723c5bfcd83.jpg
+  credit: https://images.unsplash.com/photo-1682706841281-f723c5bfcd83
+  overlay_filter: '0.2'
 category:
-  - Kondition
+- Kondition
 tags:
-  - puls
-  - løb
-  - cykling
-  - kondition
-last_modified_at: 2025-03-01T08:14:14Z
+- puls
+- løb
+- cykling
+- kondition
+last_modified_at: '2025-03-01T08:14:14Z'
 faq:
-  - question: "Hvad er en normal maxpuls?"
-    answer: "En normal maxpuls afhænger af din alder, men der er store individuelle variationer. Generelt falder maxpulsen med 0,5-1 slag pr. år. Du kan beregne en estimeret maxpuls med [vores maxpuls-beregner](/max-puls-beregner/)."
-  - question: "Hvor meget falder maxpulsen med alderen?"
-    answer: "Studier viser, at maxpulsen typisk falder med 0,5-1 slag pr. år. Der findes flere formler, der forsøger at estimere faldet mere præcist."
-  - question: "Hvad er forskellen på maxpuls for mænd og kvinder?"
-    answer: "Både mænd og kvinder oplever et fald i maxpulsen med alderen. Dog kan der være små forskelle mellem kønnene i nogle formler. Du kan se din estimerede maxpuls ved at bruge vores beregner."
-  - question: "Hvor høj må pulsen være under træning?"
-    answer: "Du kan træne op til din maxpuls, men det er meget krævende og kan kun opretholdes i kort tid. Derfor giver det mening at træne i forskellige intensitetszoner, fx ved pulstræning eller intervaltræning."
-## Hvad er en normal maxpuls?
-## Hvordan finder jeg min maks puls?
-## Hvor meget falder maxpulsen pr. år, når man bliver ældre?
-## Hvor høj må pulsen være, når man træner?
-## Hvad er den maksimale puls?
-## Maxpuls for mænd i forhold til alder?
-## Maxpuls for mænd baseret på alder
-## Aldersbestemt maxpuls
-## Kan lave artikel på legestue.net baseret på https://www.dbu.dk/media/1303/pulsmaaling-i-intervaltraening.pdf
+- question: Hvad er en normal maxpuls?
+  answer: En normal maxpuls afhænger af din alder, men der er store individuelle variationer. Generelt falder maxpulsen med
+    0,5-1 slag pr. år. Du kan beregne en estimeret maxpuls med [vores maxpuls-beregner](/max-puls-beregner/).
+- question: Hvor meget falder maxpulsen med alderen?
+  answer: Studier viser, at maxpulsen typisk falder med 0,5-1 slag pr. år. Der findes flere formler, der forsøger at estimere
+    faldet mere præcist.
+- question: Hvad er forskellen på maxpuls for mænd og kvinder?
+  answer: Både mænd og kvinder oplever et fald i maxpulsen med alderen. Dog kan der være små forskelle mellem kønnene i nogle
+    formler. Du kan se din estimerede maxpuls ved at bruge vores beregner.
+- question: Hvor høj må pulsen være under træning?
+  answer: Du kan træne op til din maxpuls, men det er meget krævende og kan kun opretholdes i kort tid. Derfor giver det mening
+    at træne i forskellige intensitetszoner, fx ved pulstræning eller intervaltræning.
 ---
 
 Din max-puls kan estimeres ved hjælp af forskellige formler, men de giver ikke altid det samme resultat.

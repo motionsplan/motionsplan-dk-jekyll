@@ -1,43 +1,56 @@
 ---
-title: &title "Bikarbonat som kosttilskud for din præstation"
-seo_title: "Bikarbonat som kosttilskud for din præstation"
-description: "Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større muskler."
-excerpt: "Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større muskler."
+title: Bikarbonat som kosttilskud for din præstation
+seo_title: Bikarbonat som kosttilskud for din præstation
+description: Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får
+  større muskler.
+excerpt: Læs om hvordan du opbygger muskelmasse, forstå de fysiologiske processer bag hypertrofi, og lær hvordan du får større
+  muskler.
 permalink: /bikarbonat/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1737098140591-f0988ae7e15a?auto=format&fit=crop&h=300&w=400&q=10&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1737098140591-f0988ae7e15a.jpg
+  credit: https://images.unsplash.com/photo-1737098140591-f0988ae7e15a
+  caption: Bikarbonat som kosttilskud for din præstation
 category:
-  - Kost & Ernæring
+- Kost & Ernæring
 tags:
-  - træning
-  - kosttilskud
-last_modified_at: 2025-07-05T22:21:26Z
+- træning
+- kosttilskud
+last_modified_at: '2025-07-05T22:21:26Z'
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
-  - question: Hvad er bikarbonat, og hvorfor bruges det som kosttilskud?
-    answer: Bikarbonat er en naturlig base i kroppen, der hjælper med at regulere blodets pH. Som kosttilskud bruges det til at forbedre præstationen ved højintensiv træning og konkurrence ved at øge blodets evne til at neutralisere mælkesyre.
-  - question: Hvilke typer idræt kan have gavn af bikarbonat?
-    answer: Bikarbonat har dokumenteret effekt i sportsgrene med intens varighed på 1–10 minutter, såsom 2000 m roning, 4000 m banecykling og 400–800 m svømning. Det kan også gavne holdsport og intervallpræstationer som fodbold og håndbold.
-  - question: Hvad er den anbefalede dosis?
-    answer: Team Danmark anbefaler 0,3 gram bikarbonat pr. kg kropsvægt indtaget 1,5–2 timer før konkurrence. Ved gentagne præstationer på samme dag kan man re-dosere med 0,15 g/kg ca. 1 time før næste indsats.
-  - question: Hvilke bivirkninger kan forekomme?
-    answer: Bikarbonat kan give oppustethed, diarre og ubehag i maven. Det er vigtigt at indtage det med væske og ikke på tom mave. Nogle oplever også hovedpine-lignende symptomer.
-  - question: Hvordan minimeres risikoen for bivirkninger?
-    answer: Start med lavere doser og test i træning. Indtag bikarbonat med mad og rigeligt væske. Overvej kronisk dosering over flere dage, hvis du har tendens til maveproblemer.
-  - question: Er bikarbonat tilladt ifølge dopingregler?
-    answer: Ja, bikarbonat er tilladt. Men kosttilskud kan være forurenet med forbudte stoffer, så det anbefales kun at bruge produkter testet via Informed-Sport eller NSF Certified for Sport.
-  - question: Kan bikarbonat kombineres med andre tilskud som koffein?
-    answer: Ja, men det kan øge risikoen for maveproblemer. Nogle studier viser, at effekten af koffein kan reduceres, hvis det kombineres med bikarbonat og forårsager ubehag.
-  - question: Skal man måle sin bikarbonatprofil?
-    answer: Det er en fordel. En individuel bikarbonatprofil kan hjælpe med at fastlægge optimal timing og dosering. Det anbefales især til eliteatleter.
-  - question: Hvor kan man købe et sikkert bikarbonatprodukt?
-    answer: Der findes pt. ingen kommercielle bikarbonatprodukter med dopingtest-certificering. Team Danmark anvender egne kapsler, der testes årligt for forbund, men det er altid atletens ansvar, hvad der indtages.
-  - question: Hvornår bør bikarbonat ikke bruges?
-    answer: Personer med nyresygdomme, forhøjet blodtryk eller udtalte mavegener bør ikke bruge bikarbonat. Hvis bivirkninger overstiger den præstationsmæssige gevinst, bør det fravælges.
+- question: Hvad er bikarbonat, og hvorfor bruges det som kosttilskud?
+  answer: Bikarbonat er en naturlig base i kroppen, der hjælper med at regulere blodets pH. Som kosttilskud bruges det til
+    at forbedre præstationen ved højintensiv træning og konkurrence ved at øge blodets evne til at neutralisere mælkesyre.
+- question: Hvilke typer idræt kan have gavn af bikarbonat?
+  answer: Bikarbonat har dokumenteret effekt i sportsgrene med intens varighed på 1–10 minutter, såsom 2000 m roning, 4000
+    m banecykling og 400–800 m svømning. Det kan også gavne holdsport og intervallpræstationer som fodbold og håndbold.
+- question: Hvad er den anbefalede dosis?
+  answer: Team Danmark anbefaler 0,3 gram bikarbonat pr. kg kropsvægt indtaget 1,5–2 timer før konkurrence. Ved gentagne præstationer
+    på samme dag kan man re-dosere med 0,15 g/kg ca. 1 time før næste indsats.
+- question: Hvilke bivirkninger kan forekomme?
+  answer: Bikarbonat kan give oppustethed, diarre og ubehag i maven. Det er vigtigt at indtage det med væske og ikke på tom
+    mave. Nogle oplever også hovedpine-lignende symptomer.
+- question: Hvordan minimeres risikoen for bivirkninger?
+  answer: Start med lavere doser og test i træning. Indtag bikarbonat med mad og rigeligt væske. Overvej kronisk dosering
+    over flere dage, hvis du har tendens til maveproblemer.
+- question: Er bikarbonat tilladt ifølge dopingregler?
+  answer: Ja, bikarbonat er tilladt. Men kosttilskud kan være forurenet med forbudte stoffer, så det anbefales kun at bruge
+    produkter testet via Informed-Sport eller NSF Certified for Sport.
+- question: Kan bikarbonat kombineres med andre tilskud som koffein?
+  answer: Ja, men det kan øge risikoen for maveproblemer. Nogle studier viser, at effekten af koffein kan reduceres, hvis
+    det kombineres med bikarbonat og forårsager ubehag.
+- question: Skal man måle sin bikarbonatprofil?
+  answer: Det er en fordel. En individuel bikarbonatprofil kan hjælpe med at fastlægge optimal timing og dosering. Det anbefales
+    især til eliteatleter.
+- question: Hvor kan man købe et sikkert bikarbonatprodukt?
+  answer: Der findes pt. ingen kommercielle bikarbonatprodukter med dopingtest-certificering. Team Danmark anvender egne kapsler,
+    der testes årligt for forbund, men det er altid atletens ansvar, hvad der indtages.
+- question: Hvornår bør bikarbonat ikke bruges?
+  answer: Personer med nyresygdomme, forhøjet blodtryk eller udtalte mavegener bør ikke bruge bikarbonat. Hvis bivirkninger
+    overstiger den præstationsmæssige gevinst, bør det fravælges.
 ---
 
 Bikarbonat (HCO₃⁻) er en naturlig base i kroppen, hvor det blandt andet fungerer som buffer i blodbanen og hjælper med at opretholde syre-base-balancen. I sportsernæringssammenhæng anvendes bikarbonat oftest i form af **natriumbikarbonat** som et ergogent (præstationsfremmende) stof, især i idrætsgrene med høj intensitet og kort til moderat varighed. Stoffet indtages typisk som kapsler med pulverformigt natriumbikarbonat.

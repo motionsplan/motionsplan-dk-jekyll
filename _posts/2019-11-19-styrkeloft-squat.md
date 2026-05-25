@@ -1,64 +1,69 @@
 ---
-title: "Squat i styrkeløft – Teknik, regler og træning"
-seo_title: "Squat i styrkeløft – Teknik, regler og træning"
+title: Squat i styrkeløft – Teknik, regler og træning
+seo_title: Squat i styrkeløft – Teknik, regler og træning
 excerpt: Sådan laver du squat i styrkeløft. Se reglerne for dybde, udførelse og de bedste teknikker til at løfte tungt i konkurrence.
-description: "Sådan laver du squat i styrkeløft. Se reglerne for dybde, udførelse og de bedste teknikker til at løfte tungt i konkurrence."
+description: Sådan laver du squat i styrkeløft. Se reglerne for dybde, udførelse og de bedste teknikker til at løfte tungt
+  i konkurrence.
 permalink: /styrkeloeft/squat/
 slanguage: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368420009-621bfab424a8?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1534368420009-621bfab424a8?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: "Regler til styrkeløft og powerlifting"
+  overlay_image: /assets/images/unsplash/photo-1534368420009-621bfab424a8.jpg
+  credit: https://images.unsplash.com/photo-1534368420009-621bfab424a8
+  teaser: /assets/images/unsplash/photo-1534368420009-621bfab424a8.jpg
+  caption: Regler til styrkeløft og powerlifting
 category:
-  - Styrketræning
-  - Styrkeløft
+- Styrketræning
+- Styrkeløft
 tags:
-  - styrkeløft
-  - guide
-last_modified_at: 2025-03-19T23:14:14Z
+- styrkeløft
+- guide
+last_modified_at: '2025-03-19T23:14:14Z'
 feature_row:
-  - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    alt: "Squat - styrkeløft og powerlifting regler for squat"
-    excerpt: "Squat"
-  - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
-    alt: "Bænkpres - powerlifting og styrkeløft regler for bænkpres"
-    excerpt: "Bænkpres"
-  - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
-    alt: "Dødløft - poserlifting og styrkeløft regler for dødløft"
-    excerpt: "Dødløft"
+- image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  alt: Squat - styrkeløft og powerlifting regler for squat
+  excerpt: Squat
+- image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+  alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
+  excerpt: Bænkpres
+- image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+  alt: Dødløft - poserlifting og styrkeløft regler for dødløft
+  excerpt: Dødløft
 feature_row_spreadsheet:
-  - image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
-    alt: "Udregn dine forsøg"
-    title: "Udregn dine forsøg"
-    excerpt: "Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne."
-    url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
-    rel: nofollow noopener
-    btn_label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
-    btn_class: "btn--success"
+- image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
+  alt: Udregn dine forsøg
+  title: Udregn dine forsøg
+  excerpt: Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne.
+  url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+  rel: nofollow noopener
+  btn_label: <i class='fas fa-file-excel'></i> Sheet med forslag til forsøg
+  btn_class: btn--success
 feature_row_books:
-  - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
-    title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet får du et fremragende program målrettet på powerlifting."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://imgcdn.saxo.com/_9788771801835/0x500
+  alt: Stærk
+  title: Stærk - Jacob Beermann
+  excerpt: Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere
+    Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet
+    får du et fremragende program målrettet på powerlifting.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
+  btn_label: Tjek prisen
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 quiz:
-  - question: Hvor langt skal man ned i squat for at få godkendt løftet?
-    question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    answer: "Hofteleddet skal være under knæleddet."
+- question: Hvor langt skal man ned i squat for at få godkendt løftet?
+  question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  answer: Hofteleddet skal være under knæleddet.
 feature_row_biomekanik:
-  - image_path: "/assets/images/blog/biomekanik-squat.jpg"
-    alt: "Biomekanik i squat - se dig selv som en tændstikmand"
-    title: "Squat model"
-    excerpt: "I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se, hvordan løftet alt andet lige vil se ud."
-    url: "/squat-biomekanik/"
-    btn_label: "Prøv det"
-    btn_class: "btn--primary"
+- image_path: /assets/images/blog/biomekanik-squat.jpg
+  alt: Biomekanik i squat - se dig selv som en tændstikmand
+  title: Squat model
+  excerpt: 'I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se,
+    hvordan løftet alt andet lige vil se ud.'
+  url: /squat-biomekanik/
+  btn_label: Prøv det
+  btn_class: btn--primary
 gallery_proper_depth:
-  - image_path: /assets/images/blog/squat-above.jpg
-  - image_path: /assets/images/blog/squat-below.jpg
+- image_path: /assets/images/blog/squat-above.jpg
+- image_path: /assets/images/blog/squat-below.jpg
 ---
 
 Squat i styrkeløft har specifikke krav til dybde, teknik og udførelse. Hvis du vil optimere din squat til konkurrencer i styrkeløft, skal du kende reglerne og træne målrettet.

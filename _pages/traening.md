@@ -1,114 +1,125 @@
 ---
 layout: single
-title: "Træning - Find inspiration til din træning"
-seo_title: "Træning - Find inspiration til din træning"
+title: Træning - Find inspiration til din træning
+seo_title: Træning - Find inspiration til din træning
 permalink: /traening/
-description: "Få mest muligt ud af din træning med effektive træningsmetoder træningstips. Find den rette træningsplan og optimer dine resultater i dag!"
-excerpt: "Få mest muligt ud af din træning med effektive træningsmetoder og træningstips. Find den rette træningsplan og optimer dine resultater i dag!"
+description: Få mest muligt ud af din træning med effektive træningsmetoder træningstips. Find den rette træningsplan og optimer
+  dine resultater i dag!
+excerpt: Få mest muligt ud af din træning med effektive træningsmetoder og træningstips. Find den rette træningsplan og optimer
+  dine resultater i dag!
 header:
-  overlay_image: https://images.unsplash.com/photo-1658702041515-18275b138fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1658702041515-18275b138fda.jpg
+  credit: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9
+  teaser: /assets/images/unsplash/photo-1540474238286-8fd6702d30d9.jpg
   caption: Træning og træningsformer
   actions:
-    - label: "<i class='fas fa-rocket'></i> Træningsprogrammer →"
-      url: "/traeningsprogrammer/"
-author_profile: true
+  - label: <i class='fas fa-rocket'></i> Træningsprogrammer →
+    url: /traeningsprogrammer/
+author_profile: 'true'
 sidebar:
   nav: trainingtypes
-breadcrumbs: true
+breadcrumbs: 'true'
 feature_row_topics:
-  - image_path: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Styrketræning - komplet guide til øvelser og programmer"
-    title: "Styrketræning"
-    excerpt: "Bliv stærkere med effektive programmer, de bedste øvelser og viden om teknik. Undgå skader og træn smart."
-    url: "/styrketraening/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Løb, løbetræning & løbeprogrammer"
-    title: "Løb & løbetræning"
-    excerpt: "Find træningsprogrammer til 5 km, 10 km, halvmaraton og maraton. Optimer din løbestil og træn efter puls."
-    url: "/loebesiden/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1709601414405-db08d323a87a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Konditionstræning"
-    title: "Konditionstræning"
-    excerpt: |
-      Bliv bedre til konditionstræning! Lær effektive metoder til at forbedre din udholdenhed og øg din VO2 max og dit kondital.".
-    url: "/kondition/"
-    btn_label: "Læs mere"
-    btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Gang - alt om at gå"
-    title: "Gang & træning"
-    excerpt: "Gåture forbedrer sundhed, forbrænder kalorier og reducerer stress. Få tips til at gå mere i din hverdag."
-    url: "/gang/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Cykling: Alt om cykeltræning og cykeltests"
-    title: "Cykling & træning"
-    excerpt: "Guide til cykeltræning og tests. Lær om træning, teknik og udstyr, så du kan cykle hurtigere og længere."
-    url: "/cykling/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1593810451137-5dc55105dace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Yoga & Mindfulness"
-    title: "Yoga & Mindfulness"
-    excerpt: "Find artikler om yoga, mindfulness og vejrtrækning. Få teknikker til ro, fleksibilitet og mental balance."
-    url: "/yoga/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-#  - image_path: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-#    alt: "Varmetræning"
-#    title: "Varmetræning"
-#    excerpt: |
-#      Varmetræning er blevet mere og mere populært. Bliv bedre til at kunne præstere bedre i varmen og kom i bedre form".
-#    url: "/varmetraening/"
-#    btn_label: "Læs mere"
-#    btn_class: "btn--info"
+- image_path: /assets/images/unsplash/photo-1526403223670-2aa44aaface2.jpg
+  credit: https://images.unsplash.com/photo-1526403223670-2aa44aaface2
+  alt: Styrketræning - komplet guide til øvelser og programmer
+  title: Styrketræning
+  excerpt: Bliv stærkere med effektive programmer, de bedste øvelser og viden om teknik. Undgå skader og træn smart.
+  url: /styrketraening/
+  btn_label: Læs mere
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1581889470536-467bdbe30cd0.jpg
+  credit: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0
+  alt: Løb, løbetræning & løbeprogrammer
+  title: Løb & løbetræning
+  excerpt: Find træningsprogrammer til 5 km, 10 km, halvmaraton og maraton. Optimer din løbestil og træn efter puls.
+  url: /loebesiden/
+  btn_label: Læs mere
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1709601414405-db08d323a87a.jpg
+  credit: https://images.unsplash.com/photo-1709601414405-db08d323a87a
+  alt: Konditionstræning
+  title: Konditionstræning
+  excerpt: 'Bliv bedre til konditionstræning! Lær effektive metoder til at forbedre din udholdenhed og øg din VO2 max og dit
+    kondital.".
+
+    '
+  url: /kondition/
+  btn_label: Læs mere
+  btn_class: btn--info
+- image_path: /assets/images/unsplash/photo-1580058572462-98e2c0e0e2f0.jpg
+  credit: https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0
+  alt: Gang - alt om at gå
+  title: Gang & træning
+  excerpt: Gåture forbedrer sundhed, forbrænder kalorier og reducerer stress. Få tips til at gå mere i din hverdag.
+  url: /gang/
+  btn_label: Læs mere
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1535913064547-c24f85802447.jpg
+  credit: https://images.unsplash.com/photo-1535913064547-c24f85802447
+  alt: 'Cykling: Alt om cykeltræning og cykeltests'
+  title: Cykling & træning
+  excerpt: Guide til cykeltræning og tests. Lær om træning, teknik og udstyr, så du kan cykle hurtigere og længere.
+  url: /cykling/
+  btn_label: Læs mere
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1593810451137-5dc55105dace.jpg
+  credit: https://images.unsplash.com/photo-1593810451137-5dc55105dace
+  alt: Yoga & Mindfulness
+  title: Yoga & Mindfulness
+  excerpt: Find artikler om yoga, mindfulness og vejrtrækning. Få teknikker til ro, fleksibilitet og mental balance.
+  url: /yoga/
+  btn_label: Læs mere
+  btn_class: btn--success
 feature_row_exercises:
-  - image_path: https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Træningsøvelser"
-    title: "Få styr på øvelserne"
-    excerpt: "Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
-    url: "/traeningsoevelser/"
-    btn_label: "Se alle øvelser"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1535743686920-55e4145369b9.jpg
+  credit: https://images.unsplash.com/photo-1535743686920-55e4145369b9
+  alt: Træningsøvelser
+  title: Få styr på øvelserne
+  excerpt: Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig
+    forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet
+    og cardio.
+  url: /traeningsoevelser/
+  btn_label: Se alle øvelser
+  btn_class: btn--success
 feature_row_injuries:
-  - image_path: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Skader"
-    title: "Hvad gør du, hvis du har fået en skade?"
-    excerpt: "Skader kan være en stor udfordring for både nybegyndere og erfarne idrætsudøvere. Her får du indsigt i de mest almindelige skader, hvad der forårsager dem, og hvordan du kan forebygge og behandle dem."
-    url: "/skader/"
-    btn_label: "Læs mere om skader"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1644492097455-d5f39f458fcd.jpg
+  credit: https://images.unsplash.com/photo-1644492097455-d5f39f458fcd
+  alt: Skader
+  title: Hvad gør du, hvis du har fået en skade?
+  excerpt: Skader kan være en stor udfordring for både nybegyndere og erfarne idrætsudøvere. Her får du indsigt i de mest
+    almindelige skader, hvad der forårsager dem, og hvordan du kan forebygge og behandle dem.
+  url: /skader/
+  btn_label: Læs mere om skader
+  btn_class: btn--success
 feature_row_tests:
-  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Tests"
-    title: "Tests"
-    excerpt: "Udforsk fysiske tests, der måler din kondition, styrke og præstation. Følg din udvikling og se din fremgang."
-    url: "/tests/"
-    btn_label: "Gå til tests"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: "Beregnere"
-    title: "Beregnere"
-    excerpt: "Brug vores beregnere til at få indsigt i din forbrænding, kondital og BMI. Få detaljeret information om din sundhed."
-    url: "/beregnere/"
-    btn_label: "Gå til beregnere"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1546016366-bf061374d54e?auto=format&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop&h=300&w=400&q=10
-    alt: "Værktøjer"
-    title: "Værktøjer"
-    excerpt: "Test din mentale og fysiske sundhed. Få indsigt i dine styrker og opdag områder, der kan forbedres."
-    url: "/vurderingsvaerktoejer/"
-    btn_label: "Gå til værktøjer"
-    btn_class: "btn--success"
+- image_path: /assets/images/unsplash/photo-1428790067070-0ebf4418d9d8.jpg
+  credit: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8
+  alt: Tests
+  title: Tests
+  excerpt: Udforsk fysiske tests, der måler din kondition, styrke og præstation. Følg din udvikling og se din fremgang.
+  url: /tests/
+  btn_label: Gå til tests
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1475274110913-480c45d0e873.jpg
+  credit: https://images.unsplash.com/photo-1475274110913-480c45d0e873
+  alt: Beregnere
+  title: Beregnere
+  excerpt: Brug vores beregnere til at få indsigt i din forbrænding, kondital og BMI. Få detaljeret information om din sundhed.
+  url: /beregnere/
+  btn_label: Gå til beregnere
+  btn_class: btn--success
+- image_path: /assets/images/unsplash/photo-1546016366-bf061374d54e.jpg
+  credit: https://images.unsplash.com/photo-1546016366-bf061374d54e
+  alt: Værktøjer
+  title: Værktøjer
+  excerpt: Test din mentale og fysiske sundhed. Få indsigt i dine styrker og opdag områder, der kan forbedres.
+  url: /vurderingsvaerktoejer/
+  btn_label: Gå til værktøjer
+  btn_class: btn--success
 classes: wide
-toc: true
-toc_sticky: true
+toc: 'true'
+toc_sticky: 'true'
 ---
 
 På denne side får du overblik over forskellige træningsformer, effektive øvelser, træningsprogrammer og tests, der kan hjælpe dig med at måle din udvikling. Uanset dit niveau kan du finde viden og konkrete redskaber til at optimere din træning og nå dine mål.

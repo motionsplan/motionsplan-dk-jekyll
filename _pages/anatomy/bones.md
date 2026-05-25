@@ -1,40 +1,51 @@
 ---
 layout: single
-title: &title "Skelettet, knogler og knogletyper 🦴"
-seo_title: "Skelettet: Funktion, opbygning og knogletyper i menneskekroppen"
-description: "Lær om skelettets funktion, knoglernes opbygning og de forskellige knogletyper i menneskekroppen. Få en dybdegående forståelse af vores knoglestruktur."
-excerpt: "Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig. Knoglerne opdeles i forskellige knogletyper."
+title: Skelettet, knogler og knogletyper 🦴
+seo_title: 'Skelettet: Funktion, opbygning og knogletyper i menneskekroppen'
+description: Lær om skelettets funktion, knoglernes opbygning og de forskellige knogletyper i menneskekroppen. Få en dybdegående
+  forståelse af vores knoglestruktur.
+excerpt: Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge
+  sig. Knoglerne opdeles i forskellige knogletyper.
 permalink: /knogler/
 categories:
-  - Anatomi
+- Anatomi
 tags:
-  - anatomi
+- anatomi
 header:
-  teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: *title
-toc: true
+  teaser: /assets/images/unsplash/photo-1530210124550-912dc1381cb8.jpg
+  credit: https://images.unsplash.com/photo-1530210124550-912dc1381cb8
+  overlay_image: /assets/images/unsplash/photo-1530210124550-912dc1381cb8.jpg
+  caption: Skelettet, knogler og knogletyper 🦴
+toc: 'true'
 sidebar:
   nav: anatomi
 feature_row:
-  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
-    url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
-    title: Skelettet - Anatomi plakat
-    alt: plakat med menneskets skelet og knogler
-    rel: sponsored nofollow noopener
-breadcrumbs: true
-last_modified_at: 2022-05-19T08:14:14.000Z
+- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
+  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
+  title: Skelettet - Anatomi plakat
+  alt: plakat med menneskets skelet og knogler
+  rel: sponsored nofollow noopener
+breadcrumbs: 'true'
+last_modified_at: '2022-05-19T08:14:14.000Z'
 faq:
-  - question: Hvor mange knogler er der i kroppen?
-    answer: "Der er 206 knogler i menneskekroppen. Dette antal kan dog variere afhængigt af, om personen har ekstra knogler (fx ribben) eller færre knogler (fx når nogle af knoglerne i fingrene smelter sammen). Børn har imidlertid flere knogler. Få den fulde historie i indlægget: [Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/)."
-  - question: Hvad vejer knoglerne?
-    answer: "Skelettet udgør 14-18 % af kroppens vægt. Et voksent menneskes skelet består af 206 knogler. Få hele historien i indlægget: [Hvad vejer skelettet og knoglerne?] (/hvad-vejer-skelettet/)."
-  - question: Hvor lang tid tager det at nedbryde knogler?
-    answer: "Det tager to til fire måneder for kroppen at nedbryde og genopbygge en brækket knogle. Denne proces kaldes remodellering. Ved omdannelse fjernes gammelt knoglevæv, og der dannes nyt knoglevæv. Den tid, det tager kroppen at ombygge en brækket knogle, afhænger af typen af skade, personens alder og det generelle helbred."
-  - question: Hvordan adskiller knogler sig fra andre væv i kroppen?
-    answer: Knogler adskiller sig fra andre væv i kroppen, fordi de indeholder et mineral kaldet hydroxyapatit. Hydroxyapatit giver knoglerne deres styrke. Knoglerne har også kollagen, som gør dem fleksible. Andre væv i kroppen har ikke hydroxyapatiat.
-  - question: Hvad sker der med knoglevæv med alderen?
-    answer: Efterhånden som vi bliver ældre, begynder vores knogler at miste hydroxyapatit. Det gør dem svagere og mere tilbøjelige til at gå i stykker. For at forebygge dette er det vigtigt at spise sundt og motionere regelmæssigt - gerne med vægtbærende aktivitet.
+- question: Hvor mange knogler er der i kroppen?
+  answer: 'Der er 206 knogler i menneskekroppen. Dette antal kan dog variere afhængigt af, om personen har ekstra knogler
+    (fx ribben) eller færre knogler (fx når nogle af knoglerne i fingrene smelter sammen). Børn har imidlertid flere knogler.
+    Få den fulde historie i indlægget: [Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/).'
+- question: Hvad vejer knoglerne?
+  answer: 'Skelettet udgør 14-18 % af kroppens vægt. Et voksent menneskes skelet består af 206 knogler. Få hele historien
+    i indlægget: [Hvad vejer skelettet og knoglerne?] (/hvad-vejer-skelettet/).'
+- question: Hvor lang tid tager det at nedbryde knogler?
+  answer: Det tager to til fire måneder for kroppen at nedbryde og genopbygge en brækket knogle. Denne proces kaldes remodellering.
+    Ved omdannelse fjernes gammelt knoglevæv, og der dannes nyt knoglevæv. Den tid, det tager kroppen at ombygge en brækket
+    knogle, afhænger af typen af skade, personens alder og det generelle helbred.
+- question: Hvordan adskiller knogler sig fra andre væv i kroppen?
+  answer: Knogler adskiller sig fra andre væv i kroppen, fordi de indeholder et mineral kaldet hydroxyapatit. Hydroxyapatit
+    giver knoglerne deres styrke. Knoglerne har også kollagen, som gør dem fleksible. Andre væv i kroppen har ikke hydroxyapatiat.
+- question: Hvad sker der med knoglevæv med alderen?
+  answer: Efterhånden som vi bliver ældre, begynder vores knogler at miste hydroxyapatit. Det gør dem svagere og mere tilbøjelige
+    til at gå i stykker. For at forebygge dette er det vigtigt at spise sundt og motionere regelmæssigt - gerne med vægtbærende
+    aktivitet.
 ---
 
 Skelettet består af knogler. I forbindelse med idræt er det interessant at dykke ned i knoglernes [anatomi](/anatomi/) og alle de forskellige knogler i kroppen, som hver har en helt bestemt funktion.

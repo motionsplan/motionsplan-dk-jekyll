@@ -1,38 +1,41 @@
 ---
-title: &title "Hvordan kan du blive højere? Få svar på myter og fakta om højde"
-seo_title: "Hvordan bliver du højere? Myter og fakta!"
-desscription: Hvordan bliver du højere? Læs om væksthormon, træning og kost, og få indsigt i, hvad der virkelig påvirker din højde.
+title: Hvordan kan du blive højere? Få svar på myter og fakta om højde
+seo_title: Hvordan bliver du højere? Myter og fakta!
+desscription: Hvordan bliver du højere? Læs om væksthormon, træning og kost, og få indsigt i, hvad der virkelig påvirker din
+  højde.
 permalink: /hvordan-bliver-jeg-hojere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1496545087308-51ec893e6bbc.jpg
+  credit: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc
+  teaser: /assets/images/unsplash/photo-1496545087308-51ec893e6bbc.jpg
+  caption: Hvordan kan du blive højere? Få svar på myter og fakta om højde
   alt: Photo by Jack Sloop on Unsplash
 category:
-  - Kropskomposition
+- Kropskomposition
 tags:
-  - højde
-  - fysiologi
-  - antropometri
-  - kropskomposition
-last_modified_at: 2023-01-01T09:12:14Z
-toc: true
+- højde
+- fysiologi
+- antropometri
+- kropskomposition
+last_modified_at: '2023-01-01T09:12:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
-    alt: "Fitwood Pullupbar"
-    excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Køb her"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
-    alt: "cPro9 Pullupbar"
-    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
-    btn_label: "Køb her"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+- image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
+  alt: Fitwood Pullupbar
+  excerpt: FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
+  btn_label: Køb her
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
+- image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
+  alt: cPro9 Pullupbar
+  excerpt: cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for
+    greb.
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
+  btn_label: Køb her
+  btn_class: btn--success
+  rel: sponsored nofollow noopener
 ---
 
 Vil du vide, hvordan du bliver højere? Her får du svar på, hvad der virkelig påvirker din højde og har betydning for, hvor høj, du bliver.

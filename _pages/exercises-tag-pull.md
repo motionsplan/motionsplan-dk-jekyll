@@ -1,18 +1,20 @@
 ---
 layout: single
 permalink: /traekoevelser/
-title: &title "Trækøvelser: De mest effektive styrkeøvelser til at træne træk 🏋"
-seo_title: "Trækøvelser: 10+ mest effektive øvelser til at træne træk"
+title: 'Trækøvelser: De mest effektive styrkeøvelser til at træne træk 🏋'
+seo_title: 'Trækøvelser: 10+ mest effektive øvelser til at træne træk'
 header:
-  overlay_image: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-author_profile: true
-excerpt: "Trækøvelser bør være en vigtig del af din træning. Her har vi samlet træk øvelser, som du kan bruge i din styrketræning. Vi har bla.a samlet de 10+ bedste trækøvelser."
-toc: true
+  overlay_image: /assets/images/unsplash/photo-1584863231364-2edc166de576.jpg
+  credit: https://images.unsplash.com/photo-1584863231364-2edc166de576
+  teaser: /assets/images/unsplash/photo-1584863231364-2edc166de576.jpg
+  caption: 'Trækøvelser: De mest effektive styrkeøvelser til at træne træk 🏋'
+author_profile: 'true'
+excerpt: Trækøvelser bør være en vigtig del af din træning. Her har vi samlet træk øvelser, som du kan bruge i din styrketræning.
+  Vi har bla.a samlet de 10+ bedste trækøvelser.
+toc: 'true'
 categories:
-  - Træningsøvelser
-breadcrumbs: true
+- Træningsøvelser
+breadcrumbs: 'true'
 sidebar:
   nav: exercises
 ---

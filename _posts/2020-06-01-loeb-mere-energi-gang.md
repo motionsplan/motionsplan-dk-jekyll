@@ -1,38 +1,42 @@
 ---
 title: Du forbrænder mere ved at løbe end ved at gå. Punktum.
-seo_title: "Du forbrænder 4x mere ved løb end ved gang!"
+seo_title: Du forbrænder 4x mere ved løb end ved gang!
 permalink: /loeb-mere-energi-gang/
 header:
-  overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.2
+  overlay_image: /assets/images/unsplash/photo-1523321826514-fcd51dbe0c2e.jpg
+  credit: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e
+  teaser: /assets/images/unsplash/photo-1523321826514-fcd51dbe0c2e.jpg
+  overlay_filter: '0.2'
   caption: Forbrænding af kalorier ved at gå og løbe
 language: da
 category:
-  - Løb
-  - Gang
+- Løb
+- Gang
 tags:
-  - beregner
-  - energiforbrug
-  - løb
-  - gang
-  - forbrænding
-  - populær
+- beregner
+- energiforbrug
+- løb
+- gang
+- forbrænding
+- populær
 meta:
   name: Forbrænding ved løb og gang
   equipment: ingen
   measures: energiforbrug
   type: løb og gang
-toc: true
-last_modified_at: 2022-05-10T08:14:14Z
+toc: 'true'
+last_modified_at: '2022-05-10T08:14:14Z'
 faq:
-  - question: "Hvor mange kalorier forbrænder man ved at gå?"
-    answer: "Hvor meget du forbrænder ved at gå, handler om hvor hurtigt du går. Du kan læse meget mere om [hvor meget du forbrænder ved at gå her](/forbraending-ved-gaa-gang/)."
-  - question: "Hvilke fordele er der ved at gå?"
-    answer: "Selvom løb forbrænder flere kalorier end gang, så er der stadig masser af gode grunde til at gå. Faktisk er der [mindst 20 fordele ved at gå](/gang-fordele-ved-at-gaa/)."
-  - question: "Forbrænder man mest ved at gå eller løbe?"
-    answer: Du forbrænder mere ved at løbe. Det er der slet ikke nogen tvivl om. Til gengæld kan du formentlig gå noget længere, end du kan løbe.
-breadcrumbs: true
+- question: Hvor mange kalorier forbrænder man ved at gå?
+  answer: Hvor meget du forbrænder ved at gå, handler om hvor hurtigt du går. Du kan læse meget mere om [hvor meget du forbrænder
+    ved at gå her](/forbraending-ved-gaa-gang/).
+- question: Hvilke fordele er der ved at gå?
+  answer: Selvom løb forbrænder flere kalorier end gang, så er der stadig masser af gode grunde til at gå. Faktisk er der
+    [mindst 20 fordele ved at gå](/gang-fordele-ved-at-gaa/).
+- question: Forbrænder man mest ved at gå eller løbe?
+  answer: Du forbrænder mere ved at løbe. Det er der slet ikke nogen tvivl om. Til gengæld kan du formentlig gå noget længere,
+    end du kan løbe.
+breadcrumbs: 'true'
 ---
 
 Det er umuligt at finde et godt svar på, om man forbrænder flere kalorier eller kilojoule ved at løbe end ved at gå, så jeg besluttede mig for at kigge på kalorieforbrændingen ved gang og løb for at give et definitivt svar.

@@ -1,16 +1,19 @@
 ---
-title: "Find konditallet med Watt-Max testen på cykel"
-seo_title: "Watt-max test: Find dit kondital på cykel"
+title: Find konditallet med Watt-Max testen på cykel
+seo_title: 'Watt-max test: Find dit kondital på cykel'
 permalink: /kondital-wattmax/
-description: "Vil du prøve en Watt-max test? Her får du en forklaring på, hvordan du kan bruge max watt testen til at lave en konditionstest på cykel."
-excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testen kan bruges til at estimere din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv."
+description: Vil du prøve en Watt-max test? Her får du en forklaring på, hvordan du kan bruge max watt testen til at lave
+  en konditionstest på cykel.
+excerpt: Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testen kan bruges til at estimere
+  din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1598289333486-1d36791de1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1598289333486-1d36791de1c2.jpg
+  credit: https://images.unsplash.com/photo-1598289333486-1d36791de1c2
   caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
 category:
-  - Kondition
-  - Cykling
+- Kondition
+- Cykling
 meta:
   name: Watt-max test
   measures: kondital
@@ -19,25 +22,26 @@ meta:
   max: maksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - kondition
-  - cykling
-  - maksimal test
-  - indirekte test
-  - cykeltest
-  - testberegner
-  - populær
-last_modified_at: 2019-03-06T23:14:14Z
-toc: true
+- test
+- konditionstest
+- kondition
+- cykling
+- maksimal test
+- indirekte test
+- cykeltest
+- testberegner
+- populær
+last_modified_at: '2019-03-06T23:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: https://www.fitnessequipmentireland.ie/wp-content/uploads/2020/06/Copy-of-Copy-of-Untitled-700-x-700-px-13.png
-    alt: "Wattbike Pro er perfekt til at lave Watt max test på"
-    title: "Wattbike Pro eller trainer"
-    excerpt: "Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer en rigtig god indendørs cykel til din vintertræning."
-    url: "https://wattbike.com/dk/product/wattbike"
-    btn_label: "Besøg Wattbike"
-    btn_class: "btn--success"
+- image_path: https://www.fitnessequipmentireland.ie/wp-content/uploads/2020/06/Copy-of-Copy-of-Untitled-700-x-700-px-13.png
+  alt: Wattbike Pro er perfekt til at lave Watt max test på
+  title: Wattbike Pro eller trainer
+  excerpt: Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer en rigtig god indendørs cykel
+    til din vintertræning.
+  url: https://wattbike.com/dk/product/wattbike
+  btn_label: Besøg Wattbike
+  btn_class: btn--success
 ---
 
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)

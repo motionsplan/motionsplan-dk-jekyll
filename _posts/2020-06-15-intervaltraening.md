@@ -1,38 +1,46 @@
 ---
-title: "Intervaltræning: Komplet guide til intervaller"
+title: 'Intervaltræning: Komplet guide til intervaller'
 seo_title: Intervaltræning • Komplet guide til intervaller
 permalink: /intervaltraening/
-description: Lær hvordan intervaltræning forbedrer din form og kondition. Se eksempler på effektive træningspas for løb, cykling og andre sportsgrene.
-excerpt: I denne komplette guide kan du lære alt om, hvad intervaltræning er, hvordan det virker på kroppen, og du får en oversigt over effektive intervalprogrammer.
+description: Lær hvordan intervaltræning forbedrer din form og kondition. Se eksempler på effektive træningspas for løb, cykling
+  og andre sportsgrene.
+excerpt: I denne komplette guide kan du lære alt om, hvad intervaltræning er, hvordan det virker på kroppen, og du får en
+  oversigt over effektive intervalprogrammer.
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1612032636260-70ff387b0d5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
-  overlay_filter: 0.4
-  caption: "Intervaltræning: Effektive metoder til intervaltræning"
+  teaser: /assets/images/unsplash/photo-1612032636260-70ff387b0d5a.jpg
+  credit: https://images.unsplash.com/photo-1612032636260-70ff387b0d5a
+  overlay_filter: '0.4'
+  caption: 'Intervaltræning: Effektive metoder til intervaltræning'
 category:
-  - Kondition
+- Kondition
 tags:
-  - intervaltræning
-  - anaerob træning
-  - aerob træning
-  - featured
-popular: true
-last_modified_at: 2025-03-14 15:03:00
-toc: true
-breadcrumb: true
+- intervaltræning
+- anaerob træning
+- aerob træning
+- featured
+popular: 'true'
+last_modified_at: '2025-03-14 15:03:00'
+toc: 'true'
+breadcrumb: 'true'
 faq:
-  - question: Kan begyndere lave intervaltræning?
-    answer: Ja, men det er vigtigt at starte roligt. Begyndere kan starte med kortere intervaller med lavere intensitet og længere pauser. For eksempel 30 sekunder arbejde efterfulgt af 1-2 minutters aktiv hvile.
-  - question: Hvor ofte bør jeg lave intervaltræning?
-    answer: For de fleste er 2-3 gange om ugen passende. Hvis du også træner udholdenhed eller styrke, bør du balancere træningen for at undgå overbelastning.
-  - question: Hvordan ved jeg, om jeg presser mig selv nok under intervaltræning?
-    answer: En god tommelfingerregel er, at du skal føle dig forpustet og have svært ved at tale under højintensitetsperioderne, men stadig kunne fortsætte bevægelsen. Brug en pulsmåler eller subjektiv følelse til at styre intensiteten.
-  - question: Hvordan kombinerer jeg intervaltræning med andre træningsformer?
-    answer: Hvis du også styrketræner eller dyrker udholdenhedstræning, kan du placere intervaltræningen på dage, hvor du ikke laver tung styrketræning eller lange, rolige løb for at undgå overbelastning.
-  - question: Hvordan kan jeg måle effekten af min intervaltræning?
-    answer: Du kan teste din fremgang med fx Cooper-testen, bip-testen eller ved at måle din tid på faste distancer før og efter en træningsperiode. En lavere hvilepuls og bedre restitutionstid er også gode indikatorer.
+- question: Kan begyndere lave intervaltræning?
+  answer: Ja, men det er vigtigt at starte roligt. Begyndere kan starte med kortere intervaller med lavere intensitet og længere
+    pauser. For eksempel 30 sekunder arbejde efterfulgt af 1-2 minutters aktiv hvile.
+- question: Hvor ofte bør jeg lave intervaltræning?
+  answer: For de fleste er 2-3 gange om ugen passende. Hvis du også træner udholdenhed eller styrke, bør du balancere træningen
+    for at undgå overbelastning.
+- question: Hvordan ved jeg, om jeg presser mig selv nok under intervaltræning?
+  answer: En god tommelfingerregel er, at du skal føle dig forpustet og have svært ved at tale under højintensitetsperioderne,
+    men stadig kunne fortsætte bevægelsen. Brug en pulsmåler eller subjektiv følelse til at styre intensiteten.
+- question: Hvordan kombinerer jeg intervaltræning med andre træningsformer?
+  answer: Hvis du også styrketræner eller dyrker udholdenhedstræning, kan du placere intervaltræningen på dage, hvor du ikke
+    laver tung styrketræning eller lange, rolige løb for at undgå overbelastning.
+- question: Hvordan kan jeg måle effekten af min intervaltræning?
+  answer: Du kan teste din fremgang med fx Cooper-testen, bip-testen eller ved at måle din tid på faste distancer før og efter
+    en træningsperiode. En lavere hvilepuls og bedre restitutionstid er også gode indikatorer.
 keywords:
-  - intervaltræning
+- intervaltræning
 ---
 
 Jeg bruger selv intervaltræning, når jeg vil forbedre kondition, kraft og hastighed – og det virker.

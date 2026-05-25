@@ -1,24 +1,27 @@
 ---
-title: &title "German Volume Training: Virker GVT til hypertrofi?"
-seo_title: "German Volume Training (GVT) – Byg muskler med 10x10-metoden"
-description: "Lær alt om German Volume Training (GVT) – et effektivt 10x10-program til muskelopbygning. Få program, progression og tips til programmet."
-excerpt: "Lær alt om German Volume Training (GVT) – et effektivt 10x10-program til muskelopbygning. Få program, progression og tips til programmet."
+title: 'German Volume Training: Virker GVT til hypertrofi?'
+seo_title: German Volume Training (GVT) – Byg muskler med 10x10-metoden
+description: Lær alt om German Volume Training (GVT) – et effektivt 10x10-program til muskelopbygning. Få program, progression
+  og tips til programmet.
+excerpt: Lær alt om German Volume Training (GVT) – et effektivt 10x10-program til muskelopbygning. Få program, progression
+  og tips til programmet.
 permalink: /gvt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1534367610401-9f5ed68180aa.jpg
+  credit: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa
+  teaser: /assets/images/unsplash/photo-1534367610401-9f5ed68180aa.jpg
+  caption: 'German Volume Training: Virker GVT til hypertrofi?'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - styrketræning
-  - træningsprogram
-  - programanmeldelse
-  - hypertrofi
-  - erfaren
-last_modified_at: 2023-03-06T23:14:14Z
-toc: true
+- styrketræning
+- træningsprogram
+- programanmeldelse
+- hypertrofi
+- erfaren
+last_modified_at: '2023-03-06T23:14:14Z'
+toc: 'true'
 meta:
   name: German Volume Training 10x10 (GVT)
   author: Charles Poliquin

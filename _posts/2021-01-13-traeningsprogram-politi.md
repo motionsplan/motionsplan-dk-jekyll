@@ -1,27 +1,30 @@
 ---
-title: &title "Træningsprogram til politiets optagelsesprøve uden udstyr"
-seo_title: "Træningsprogram til politiets optagelsesprøve – Forbered dig uden udstyr"
-description: "Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset, så du kan forberede dig effektivt hjemme."
-excerpt: "Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset, så du kan forberede dig effektivt hjemme."
+title: Træningsprogram til politiets optagelsesprøve uden udstyr
+seo_title: Træningsprogram til politiets optagelsesprøve – Forbered dig uden udstyr
+description: Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset,
+  så du kan forberede dig effektivt hjemme.
+excerpt: Træn til politiets optagelsesprøve uden behov for udstyr eller fitnesscenter. Vores træningsprogram er tilpasset,
+  så du kan forberede dig effektivt hjemme.
 permalink: /politi-traeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1649714808311-70b2e7137a9c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1649714808311-70b2e7137a9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1649714808311-70b2e7137a9c.jpg
+  credit: https://images.unsplash.com/photo-1649714808311-70b2e7137a9c
+  teaser: /assets/images/unsplash/photo-1649714808311-70b2e7137a9c.jpg
+  caption: Træningsprogram til politiets optagelsesprøve uden udstyr
 category:
-  - Træning
-  - Træningsprogrammer
+- Træning
+- Træningsprogrammer
 tags:
-  - kondition
-  - løb
-  - hjemmetræning
-  - politi
-  - træningsprogram
-  - styrketræning
-  - populær
-last_modified_at: 2025-01-02T10:14:14Z
-toc: true
+- kondition
+- løb
+- hjemmetræning
+- politi
+- træningsprogram
+- styrketræning
+- populær
+last_modified_at: '2025-01-02T10:14:14Z'
+toc: 'true'
 author: jakob.nielsson
 ---
 

@@ -1,27 +1,31 @@
 ---
 layout: single
-toc: true
+toc: 'true'
 permalink: /tracking/
-excerpt: "Oversigt over alle måder at lave tracking af din træning. Du kan naturligvis bruge tests, men monitoriering af træning kan sagtens fungere uden at skulle lave maksimale tests."
-title: &title "Tracking af træning"
-author_profile: true
+excerpt: Oversigt over alle måder at lave tracking af din træning. Du kan naturligvis bruge tests, men monitoriering af træning
+  kan sagtens fungere uden at skulle lave maksimale tests.
+title: Tracking af træning
+author_profile: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1589953605483-a2964c38d415?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1589953605483-a2964c38d415.jpg
+  credit: https://images.unsplash.com/photo-1589953605483-a2964c38d415
+  caption: Tracking af træning
   actions:
-    - label: "<i class='fas fa-download'></i> Se alle tests"
-      url: "/tests/"
+  - label: <i class='fas fa-download'></i> Se alle tests
+    url: /tests/
 classes: wide
 feature_row:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-    teaser: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-    alt: Se tests
-    title: "Tests"
-    excerpt: "Virker min træning efter hensigten? Tests kan være en måde at teste, om du bliver bedre over tid. Se alle vores tests."
-    url: "/tests/"
-    btn_label: "Se tests"
-    btn_class: "btn--info"
-breadcrumbs: true
+- image_path: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  credit: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b
+  teaser: /assets/images/unsplash/photo-1501820434261-5bb046afcf6b.jpg
+  alt: Se tests
+  title: Tests
+  excerpt: Virker min træning efter hensigten? Tests kan være en måde at teste, om du bliver bedre over tid. Se alle vores
+    tests.
+  url: /tests/
+  btn_label: Se tests
+  btn_class: btn--info
+breadcrumbs: 'true'
 ---
 
 {{ page.excerpt }}

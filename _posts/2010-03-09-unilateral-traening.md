@@ -1,17 +1,18 @@
 ---
-title: &title "Unilateral træning: Ensidige øvelser løfter niveauet"
+title: 'Unilateral træning: Ensidige øvelser løfter niveauet'
 permalink: /artikel/unilateral-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1601422407692-ec4eeec1d9b3.jpg
+  credit: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3
+  teaser: /assets/images/unsplash/photo-1601422407692-ec4eeec1d9b3.jpg
+  caption: 'Unilateral træning: Ensidige øvelser løfter niveauet'
 tags:
-  - styrketræning
-  - unilateral
+- styrketræning
+- unilateral
 category:
-  - Styrketræning
-last_modified_at: 2020-02-12T19:47:02Z
+- Styrketræning
+last_modified_at: '2020-02-12T19:47:02Z'
 ---
 
 Det er en god ide, at lave unilateral træning, som belaster den ene side af kroppen på skift. Med andre ord så skal du lave unilaterale øvelser, fordi det har mange positive effekter på din træning.

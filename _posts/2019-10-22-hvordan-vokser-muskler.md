@@ -1,22 +1,24 @@
 ---
-title: &title "Hvad får muskler til at vokse, og hvordan skal man træne? 💪"
+title: Hvad får muskler til at vokse, og hvordan skal man træne? 💪
 permalink: /hvordan-vokser-muskler/
-excerpt: "Hvad får muskler til at vokse (hypertrofi), og hvordan vokser muskler egentlig? Hvilken træning skal du lave for at få musklerne til blive større?"
+excerpt: Hvad får muskler til at vokse (hypertrofi), og hvordan vokser muskler egentlig? Hvilken træning skal du lave for
+  at få musklerne til blive større?
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1591267802076-da29ebeb3037?q=60&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  teaser: https://images.unsplash.com/photo-1591267802076-da29ebeb3037?q=60&w=400&h=300&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1591267802076-da29ebeb3037.jpg
+  credit: https://images.unsplash.com/photo-1591267802076-da29ebeb3037
+  teaser: /assets/images/unsplash/photo-1591267802076-da29ebeb3037.jpg
+  caption: Hvad får muskler til at vokse, og hvordan skal man træne? 💪
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - hypertrofi
-  - træningsmetode
-  - muskler
-  - træningsplanlægning
-  - faq
-last_modified_at: 2020-05-29T23:14:14Z
-toc: true
+- hypertrofi
+- træningsmetode
+- muskler
+- træningsplanlægning
+- faq
+last_modified_at: '2020-05-29T23:14:14Z'
+toc: 'true'
 ---
 
 *[RM]: Repetition Maximum

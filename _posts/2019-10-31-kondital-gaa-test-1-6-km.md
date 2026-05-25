@@ -1,17 +1,19 @@
 ---
-title: "1,6 km gå-test: Find dit kondital med Rockports test 🚶‍"
-seo_title: "1,6 km gå-test: Find dit kondital med Rockports test"
+title: '1,6 km gå-test: Find dit kondital med Rockports test 🚶‍'
+seo_title: '1,6 km gå-test: Find dit kondital med Rockports test'
 permalink: /gaatest/
-excerpt: "Rockports 1,6 km gå-test er en submaksimal gang-test til at estimere konditallet ud fra tiden det tager at gennemføre gangtesten. Gå-testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
+excerpt: Rockports 1,6 km gå-test er en submaksimal gang-test til at estimere konditallet ud fra tiden det tager at gennemføre
+  gangtesten. Gå-testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434119261056-73a0f53c8306?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1434119261056-73a0f53c8306?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: "Rockports Gangtest: 1,6 km gå-test"
+  overlay_image: /assets/images/unsplash/photo-1434119261056-73a0f53c8306.jpg
+  credit: https://images.unsplash.com/photo-1434119261056-73a0f53c8306
+  teaser: /assets/images/unsplash/photo-1434119261056-73a0f53c8306.jpg
+  caption: 'Rockports Gangtest: 1,6 km gå-test'
   alt: 1,6 km gåtest
 category:
-  - Kondition
-  - Gang
+- Kondition
+- Gang
 meta:
   name: Rockports 1,6 km gangtest
   measures: kondital
@@ -20,16 +22,16 @@ meta:
   max: submaksimal test
   direct: indirekte test
 tags:
-  - test
-  - konditionstest
-  - gang
-  - gangtest
-  - submaksimal test
-  - indirekte test
-  - tracking
-  - featured
-  - populær
-last_modified_at: 2022-10-13T10:14:14Z
+- test
+- konditionstest
+- gang
+- gangtest
+- submaksimal test
+- indirekte test
+- tracking
+- featured
+- populær
+last_modified_at: '2022-10-13T10:14:14Z'
 ---
 
 Vil du gerne kende dit kondital ud fra en gå-test? Så er Rockports 1,6 km gå-test helt oplagt. Her får du både baggrunden for testen og en beregner til at udregne dit resultat.

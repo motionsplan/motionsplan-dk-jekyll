@@ -1,19 +1,20 @@
 ---
-title: &title "Træningsøvelser med håndvægte: Træning med dumbbells"
+title: 'Træningsøvelser med håndvægte: Træning med dumbbells'
 permalink: /traeningsoevelser-haandvaegte/
-last_modified_at: 2020-08-29T09:41:09Z
+last_modified_at: '2020-08-29T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544033527-b192daee1f5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1544033527-b192daee1f5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1544033527-b192daee1f5b.jpg
+  credit: https://images.unsplash.com/photo-1544033527-b192daee1f5b
+  teaser: /assets/images/unsplash/photo-1544033527-b192daee1f5b.jpg
+  caption: 'Træningsøvelser med håndvægte: Træning med dumbbells'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træningsøvelser
-  - udstyr
-  - hjemmetræning
-  - liste
+- træningsøvelser
+- udstyr
+- hjemmetræning
+- liste
 sidebar:
   nav: exercises
 ---

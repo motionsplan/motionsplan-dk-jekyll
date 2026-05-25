@@ -1,64 +1,71 @@
 ---
-title: "Sådan finder du dit kondital: Beregning og tabel"
-seo_title: "Kondital tabel for mænd og kvinder [2026]: Hvad er godt?"
+title: 'Sådan finder du dit kondital: Beregning og tabel'
+seo_title: 'Kondital tabel for mænd og kvinder [2026]: Hvad er godt?'
 permalink: /kondital/
-description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder,
-  teenagere og børn i en samlet tabel og skema lige til at printe ud!
-excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
-  for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital.
+description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder, teenagere og børn i en samlet tabel og skema lige
+  til at printe ud!
+excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital for mænd, kvinder og børn i tabel. Find metoder
+  til at teste til kondital.
 header:
-  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
-    kvinder og børn?
-last_modified_at: 2026-03-29T08:00:00+02:00
-toc: true
+  overlay_image: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
+  credit: https://images.unsplash.com/photo-1571008887538-b36bb32f4571
+  teaser: /assets/images/unsplash/photo-1571008887538-b36bb32f4571.jpg
+  caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd, kvinder og børn?
+last_modified_at: '2026-03-29T08:00:00+02:00'
+toc: 'true'
 category:
-  - Kondition
+- Kondition
 tags:
-  - kondition
-  - tabel
-  - featured
-  - populær
-popular: true
+- kondition
+- tabel
+- featured
+- populær
+popular: 'true'
 feature_row:
-  - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
-    alt: kondital textbook of work physiology
-    title: Textbook of Work Physiology - Åstrand m.fl.
-    excerpt: En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om
-      kondition og kondital. I bogen finder du også forskellige tabeller over
-      kondital, som du kan sammenligne dig med.
-    url: https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y
-    btn_label: Se bogen
-    btn_class: btn--success
+- image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
+  alt: kondital textbook of work physiology
+  title: Textbook of Work Physiology - Åstrand m.fl.
+  excerpt: En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om kondition og kondital. I bogen finder du også
+    forskellige tabeller over kondital, som du kan sammenligne dig med.
+  url: https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y
+  btn_label: Se bogen
+  btn_class: btn--success
 language: da
 feature_row_kondital:
-  - image_path: /assets/images/freebies/kondital.png
-    alt: Tabel og skema over kondital
-    title: Tabel over kondital til udskrivning
-    excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige
-      til at hænge op på væggen. Tabellen er lavet i Google Docs.
-    url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
-    btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
-    btn_class: btn--success
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/kondital.png
+  alt: Tabel og skema over kondital
+  title: Tabel over kondital til udskrivning
+  excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet
+    i Google Docs.
+  url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
+  btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvad er definitionen på et kondital?"
-    answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O₂ pr. min pr. kg kropsvægt."
-  - question: "Hvordan kan man beregne konditallet?"
-    answer: "Du kan finde dit kondital ved enten direkte tests eller indirekte tests. Du kan lave maksimale tests eller submaksimale tests. Du kan finde mange eksempler på, hvordan du kan lave konditionstests her på siden."
-  - question: "Hvordan forbedrer man konditallet?"
-    answer: "Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration her på siden under [kondition, kredsløb og konditionstræning](/kondition/)."
-  - question: Falder konditallet med alderen?
-    answer: Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsniveauet typisk går ned med alderen. Hvis du bliver ved med at træne og forsøger at holde det samme aktivitetsniveau, så kan du vedligeholde konditallet over tid, men da muskelmassen typisk også går ned med alderen, så vil den maksimale iltoptagelse og derved konditallet også falde.
-  - question: Hvorfor er kvinders kondital lavere end mænds?
-    answer: Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
-  - question: Hvordan tester jeg mit kondital?
-    answer: Der er mange måder at måle sin kondition på. Du kan se vores [oversigt over konditionstests](/kondition/tests/).
-  - question: "Hvad er et godt kondital for en mand?"
-    answer: "For mænd i 20-29 år regnes et kondital over 52 som højt og over 57 som meget højt. For mænd i 40-49 år er et kondital over 44 højt. Se de fulde tabeller på siden."
-  - question: "Hvad er et godt kondital for en kvinde?"
-    answer: "For kvinder i 15-29 år regnes et kondital over 44 som højt og over 49 som meget højt. For kvinder i 40-49 år er et kondital over 41 højt. Se de fulde tabeller på siden."
+- question: Hvad er definitionen på et kondital?
+  answer: Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O₂ pr. min pr. kg
+    kropsvægt.
+- question: Hvordan kan man beregne konditallet?
+  answer: Du kan finde dit kondital ved enten direkte tests eller indirekte tests. Du kan lave maksimale tests eller submaksimale
+    tests. Du kan finde mange eksempler på, hvordan du kan lave konditionstests her på siden.
+- question: Hvordan forbedrer man konditallet?
+  answer: Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration
+    her på siden under [kondition, kredsløb og konditionstræning](/kondition/).
+- question: Falder konditallet med alderen?
+  answer: Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsniveauet typisk går ned med alderen.
+    Hvis du bliver ved med at træne og forsøger at holde det samme aktivitetsniveau, så kan du vedligeholde konditallet over
+    tid, men da muskelmassen typisk også går ned med alderen, så vil den maksimale iltoptagelse og derved konditallet også
+    falde.
+- question: Hvorfor er kvinders kondital lavere end mænds?
+  answer: Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
+- question: Hvordan tester jeg mit kondital?
+  answer: Der er mange måder at måle sin kondition på. Du kan se vores [oversigt over konditionstests](/kondition/tests/).
+- question: Hvad er et godt kondital for en mand?
+  answer: For mænd i 20-29 år regnes et kondital over 52 som højt og over 57 som meget højt. For mænd i 40-49 år er et kondital
+    over 44 højt. Se de fulde tabeller på siden.
+- question: Hvad er et godt kondital for en kvinde?
+  answer: For kvinder i 15-29 år regnes et kondital over 44 som højt og over 49 som meget højt. For kvinder i 40-49 år er
+    et kondital over 41 højt. Se de fulde tabeller på siden.
 ---
 
 Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt, og hvordan du kan forbedre det.

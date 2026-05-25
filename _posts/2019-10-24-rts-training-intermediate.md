@@ -1,22 +1,24 @@
 ---
-title: "Reactive Training Systems - Intermediate example template"
+title: Reactive Training Systems - Intermediate example template
 permalink: /rts-generalized-intermediate/
-excerpt: "Mike Tuchscherer fra Reactive Training Systems har lavet et eksempel på et træningsprogram med brug af RPE og fatigue percents."
+excerpt: Mike Tuchscherer fra Reactive Training Systems har lavet et eksempel på et træningsprogram med brug af RPE og fatigue
+  percents.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1574680096145-d05b474e2155.jpg
+  credit: https://images.unsplash.com/photo-1574680096145-d05b474e2155
+  teaser: /assets/images/unsplash/photo-1574680096145-d05b474e2155.jpg
 category:
-  - Styrketræning
-  - Styrketræningsprogrammer
+- Styrketræning
+- Styrketræningsprogrammer
 tags:
-  - træningsprogram
-  - programanmeldelse
-  - fullbody
-  - styrketræning
-  - erfaren
-last_modified_at: 2019-10-24T23:14:14Z
-toc: true
+- træningsprogram
+- programanmeldelse
+- fullbody
+- styrketræning
+- erfaren
+last_modified_at: '2019-10-24T23:14:14Z'
+toc: 'true'
 meta:
   name: RTS Intermediate Template
   author: Mike Tuscherer

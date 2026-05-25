@@ -1,26 +1,27 @@
 ---
-title: &title "Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?"
-seo_title: "Pause fra træning - Så hurtigt mister du form og kondition"
+title: 'Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?'
+seo_title: Pause fra træning - Så hurtigt mister du form og kondition
 permalink: /hvor-hurtigt-mister-form-kondition/
 redirect_from:
-  - /kondital-hvor-hurtigt/
-  - /viden%20om/kondital-hvor-hurtigt/
+- /kondital-hvor-hurtigt/
+- /viden%20om/kondital-hvor-hurtigt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1457449205106-d0aad138e99b.jpg
+  credit: https://images.unsplash.com/photo-1457449205106-d0aad138e99b
+  teaser: /assets/images/unsplash/photo-1457449205106-d0aad138e99b.jpg
+  caption: 'Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?'
   alt: Photo by Tikkho Maciel on Unsplash
 category:
-  - Kondition
+- Kondition
 tags:
-  - fysiologi
-  - muskler
-  - kredsløb
-  - træningslære
-  - faq
-last_modified_at: 2021-04-04T08:14:14Z
-toc: true
+- fysiologi
+- muskler
+- kredsløb
+- træningslære
+- faq
+last_modified_at: '2021-04-04T08:14:14Z'
+toc: 'true'
 ---
 
 Jeg har undersøgt, hvor hurtigt man mister formen, hvis man holder pause fra træningen? Man bruger mange kræfter på at komme i god [kondition](/kondition/), men hvor hurtigt falder konditallet egentlig, når man holder ferie fra træningen?

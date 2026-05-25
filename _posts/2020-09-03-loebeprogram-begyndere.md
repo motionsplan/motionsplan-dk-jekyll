@@ -1,33 +1,36 @@
 ---
-title: &title "Løbeprogram for begyndere: Kom i gang med løbetræningen"
-seo_title: "Løbeprogram for nybegyndere: Løbetræning for begyndere"
-description: "Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræning."
+title: 'Løbeprogram for begyndere: Kom i gang med løbetræningen'
+seo_title: 'Løbeprogram for nybegyndere: Løbetræning for begyndere'
+description: Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere,
+  der gerne vil i gang med løbetræning.
 permalink: /loebeprogram-begyndere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1477332552946-cfb384aeaf1c.jpg
+  credit: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c
+  teaser: /assets/images/unsplash/photo-1477332552946-cfb384aeaf1c.jpg
+  caption: 'Løbeprogram for begyndere: Kom i gang med løbetræningen'
 category:
-  - Løb
+- Løb
 tags:
-  - løbeprogram
-  - træningsprogram
-  - løbetræning
-  - begynder
-  - kondition
-  - løb
-last_modified_at: 2021-03-29T20:14:14Z
-toc: true
+- løbeprogram
+- træningsprogram
+- løbetræning
+- begynder
+- kondition
+- løb
+last_modified_at: '2021-03-29T20:14:14Z'
+toc: 'true'
 feature_row_program:
-  - image_path: /assets/images/template/lobeprogram-begynder.png
-    url: https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing
-    title: "Løbeprogram til nybegynder"
-    excerpt: "Forslag til et løbeprogram, hvor du kan komme fra 0 til 5 kilometer som begynder. Vi arbejder os op fra at gå til at kunne løbe længere og længere i fire faser. Programmet er målrettet dig, der gerne vil i gang med at løbe."
-    btn_label: "<i class='fas fa-file-alt'></i> Download løbeprogrammet til begyndere"
-    btn_class: "btn--info"
-    rel: nofollow noopener
-breadcrumbs: true
+- image_path: /assets/images/template/lobeprogram-begynder.png
+  url: https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing
+  title: Løbeprogram til nybegynder
+  excerpt: Forslag til et løbeprogram, hvor du kan komme fra 0 til 5 kilometer som begynder. Vi arbejder os op fra at gå til
+    at kunne løbe længere og længere i fire faser. Programmet er målrettet dig, der gerne vil i gang med at løbe.
+  btn_label: <i class='fas fa-file-alt'></i> Download løbeprogrammet til begyndere
+  btn_class: btn--info
+  rel: nofollow noopener
+breadcrumbs: 'true'
 ---
 
 Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.

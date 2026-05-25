@@ -1,29 +1,38 @@
 ---
-title: &title "Varmetræning: Hvordan træner man til at tåle varmen?"
-excerpt: "Vil du gerne præstere bedre i varmen? Det er en god ide at lave varmetræning, hvis du skal blive bedre til at tåle varmen, når du træner."
+title: 'Varmetræning: Hvordan træner man til at tåle varmen?'
+excerpt: Vil du gerne præstere bedre i varmen? Det er en god ide at lave varmetræning, hvis du skal blive bedre til at tåle
+  varmen, når du træner.
 permalink: /varmetraening/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1546778316-dfda79f1c84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN3ZWF0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1546778316-dfda79f1c84e.jpg
+  credit: https://images.unsplash.com/photo-1546778316-dfda79f1c84e
+  caption: 'Varmetræning: Hvordan træner man til at tåle varmen?'
 category:
-  - Fysiologi
-  - Træning
+- Fysiologi
+- Træning
 tags:
-  - fysiologi
-  - træning
-  - varmetræning
-  - faq
-last_modified_at: 2022-09-05T10:21:26Z
+- fysiologi
+- træning
+- varmetræning
+- faq
+last_modified_at: '2022-09-05T10:21:26Z'
 faq:
-  - question: Hvordan ved du, hvornår du er varmeakklimatiseret?
-    answer: Hvis du kan opsamle data gennem standardiserede træningsaktiviteteter, så kan du følge med i dine fremskridt. Du kan fx lave en standardisereret træning hver 4-5 dag, hvor du måler puls og belastning. Pulsen skal gerne gå ned. Det kan du let måle med pulsmåler. Din svedrate skulle også gerne gå ned, hvilket du kan måle med en badevægt. Endelig så skulle det gerne føles lettere.
-  - question: Hvordan kan du varmetræne under køligere forhold?
-    answer: Du kan bruge varme rum eller ekstra tøj. Her foreslår vi en metode, hvor du tager ekstra høj på, når du træner, men du kan også udnytte saunaer til varmetræning. Der er flere muligheder.
-  - question: Hvor hurtigt tilpasser kroppen sig varmen?
-    answer: Kroppen kan tilpasse sig til varmen på 5-14 dage alt efter, hvordan du griber træningen an. Du kan få yderligere tilpasninger efter 14 dage, men mange af tilpasningerne rammer så hurtigt.
-  - question: Hvor hurtigt mister man evnen igen?
-    answer: Hvis du ikke jævnligt gentager aktivitet med varmestress, så taber du de fulde tilpasninger omkring en måned. Efter to uger uden varmepåvirkning i forbindelse med træning, så vil pulsen, svedraten og kernetemperaturen forventes at falde med hhv. ~35%, ~30% og ~6% ([Daanen et al 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775394/)).
+- question: Hvordan ved du, hvornår du er varmeakklimatiseret?
+  answer: Hvis du kan opsamle data gennem standardiserede træningsaktiviteteter, så kan du følge med i dine fremskridt. Du
+    kan fx lave en standardisereret træning hver 4-5 dag, hvor du måler puls og belastning. Pulsen skal gerne gå ned. Det
+    kan du let måle med pulsmåler. Din svedrate skulle også gerne gå ned, hvilket du kan måle med en badevægt. Endelig så
+    skulle det gerne føles lettere.
+- question: Hvordan kan du varmetræne under køligere forhold?
+  answer: Du kan bruge varme rum eller ekstra tøj. Her foreslår vi en metode, hvor du tager ekstra høj på, når du træner,
+    men du kan også udnytte saunaer til varmetræning. Der er flere muligheder.
+- question: Hvor hurtigt tilpasser kroppen sig varmen?
+  answer: Kroppen kan tilpasse sig til varmen på 5-14 dage alt efter, hvordan du griber træningen an. Du kan få yderligere
+    tilpasninger efter 14 dage, men mange af tilpasningerne rammer så hurtigt.
+- question: Hvor hurtigt mister man evnen igen?
+  answer: Hvis du ikke jævnligt gentager aktivitet med varmestress, så taber du de fulde tilpasninger omkring en måned. Efter
+    to uger uden varmepåvirkning i forbindelse med træning, så vil pulsen, svedraten og kernetemperaturen forventes at falde
+    med hhv. ~35%, ~30% og ~6% ([Daanen et al 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775394/)).
 ---
 
 Vil du gerne præstere bedre i varmen? Det er en god ide at lave varmetræning, hvis du skal blive bedre til at tåle varmen, når du træner.

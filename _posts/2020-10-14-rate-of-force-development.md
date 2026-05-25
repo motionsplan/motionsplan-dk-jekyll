@@ -1,31 +1,39 @@
 ---
-title: &title "Hvordan træner jeg Rate of Force Development (RFD)?"
-seo_title: "Rate of Force Development: Forstå og forbedr din power"
+title: Hvordan træner jeg Rate of Force Development (RFD)?
+seo_title: 'Rate of Force Development: Forstå og forbedr din power'
 permalink: /rate-of-force-development/
-excerpt: Rate of Force Development (RFD) måler hvor hurtigt du kan udvikle kraft. Læs hvordan du forbedrer din RFD til sprint, spring og styrketræning.
-description: "Rate of Force Development (RFD) måler hvor hurtigt du kan udvikle kraft. Læs hvordan du forbedrer din RFD til sprint, spring og styrketræning."
+excerpt: Rate of Force Development (RFD) måler hvor hurtigt du kan udvikle kraft. Læs hvordan du forbedrer din RFD til sprint,
+  spring og styrketræning.
+description: Rate of Force Development (RFD) måler hvor hurtigt du kan udvikle kraft. Læs hvordan du forbedrer din RFD til
+  sprint, spring og styrketræning.
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1580473037627-6336da87b7e5?&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1580473037627-6336da87b7e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1580473037627-6336da87b7e5.jpg
+  credit: https://images.unsplash.com/photo-1580473037627-6336da87b7e5
+  teaser: /assets/images/unsplash/photo-1580473037627-6336da87b7e5.jpg
+  caption: Hvordan træner jeg Rate of Force Development (RFD)?
 category:
-  - Træning
-  - Eksplosivitet
+- Træning
+- Eksplosivitet
 tags:
-  - begreb
-  - fysiologi
-  - eksplosivitet
-last_modified_at: 2021-12-13T23:14:14Z
-toc: true
+- begreb
+- fysiologi
+- eksplosivitet
+last_modified_at: '2021-12-13T23:14:14Z'
+toc: 'true'
 faq:
-  - question: Hvad er rate of force development (RFD)?
-    answer: Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.
-  - question: Hvordan kan jeg teste Rate of Force Development?
-    answer: En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
-  - question: Hvad sker der med Rate of Force Development med alderen
-    answer: |
-      [Henning Langberg](https://web.archive.org/web/20210305220145/http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/){: rel="nofollow noopener" } skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
+- question: Hvad er rate of force development (RFD)?
+  answer: Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et
+    mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development
+    måles i Newton per sekund.
+- question: Hvordan kan jeg teste Rate of Force Development?
+  answer: En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du trækker i en stang, som er fastgjort,
+    mens kraftplatformen måler den kraft du trækker med.
+- question: Hvad sker der med Rate of Force Development med alderen
+  answer: '[Henning Langberg](https://web.archive.org/web/20210305220145/http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/){:
+    rel="nofollow noopener" } skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig
+    virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere
+    på at udvikle kraft hurtigt, når de træner styrketræning.'
 ---
 
 Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. Her kigger jeg på, hvad RFD er, og hvordan du træner rate of force development?

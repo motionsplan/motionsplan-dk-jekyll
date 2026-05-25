@@ -1,19 +1,21 @@
 ---
-title: &title "Excentrisk træning: Beskyt musklerne og skab muskelvækst"
-description: "Vil du gerne i gang med excentrisk træning? Læs her hvad excentrisk træning kan gøre for din muskelmasse, muskelstyrke og skadesforebyggende træning."
+title: 'Excentrisk træning: Beskyt musklerne og skab muskelvækst'
+description: Vil du gerne i gang med excentrisk træning? Læs her hvad excentrisk træning kan gøre for din muskelmasse, muskelstyrke
+  og skadesforebyggende træning.
 permalink: /excentrisk-traening/
-last_modified_at: 2020-08-24T09:41:09Z
+last_modified_at: '2020-08-24T09:41:09Z'
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1589579234096-25cb6b83e021?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1589579234096-25cb6b83e021?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1589579234096-25cb6b83e021.jpg
+  credit: https://images.unsplash.com/photo-1589579234096-25cb6b83e021
+  teaser: /assets/images/unsplash/photo-1589579234096-25cb6b83e021.jpg
+  caption: 'Excentrisk træning: Beskyt musklerne og skab muskelvækst'
 category:
-  - Styrketræning
+- Styrketræning
 tags:
-  - træning
-  - styrketræning
-  - skadesforebyggelse
+- træning
+- styrketræning
+- skadesforebyggelse
 ---
 
 Jeg har researchet lidt på hvad excentrisk træning er, hvordan man kan bruge excentriske træning, og hvad man får ud af at lægge mere vægt på den excentriske fase i sine løft.

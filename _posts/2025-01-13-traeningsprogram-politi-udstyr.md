@@ -1,25 +1,28 @@
 ---
-title: &title "Træningsprogram til politiets fysiske test i fitnesscenter"
-seo_title: "Træningsprogram til politiets fysiske test (fitnesscenter)"
-description: "Bliv klar til politiets optagelsesprøve med et effektivt træningsprogram til fitnesscenter. Byg styrke og kondition til den fysiske test."
-excerpt: "Bliv klar til politiets optagelsesprøve med et effektivt træningsprogram til fitnesscenter. Byg styrke og kondition til den fysiske test."
+title: Træningsprogram til politiets fysiske test i fitnesscenter
+seo_title: Træningsprogram til politiets fysiske test (fitnesscenter)
+description: Bliv klar til politiets optagelsesprøve med et effektivt træningsprogram til fitnesscenter. Byg styrke og kondition
+  til den fysiske test.
+excerpt: Bliv klar til politiets optagelsesprøve med et effektivt træningsprogram til fitnesscenter. Byg styrke og kondition
+  til den fysiske test.
 permalink: /politi-traeningsprogram-fitnesscenter/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1630408511347-7ac715eb708b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  teaser: /assets/images/unsplash/photo-1630408511347-7ac715eb708b.jpg
+  credit: https://images.unsplash.com/photo-1630408511347-7ac715eb708b
+  caption: Træningsprogram til politiets fysiske test i fitnesscenter
 category:
-  - Træning
-  - Træningsprogrammer
+- Træning
+- Træningsprogrammer
 tags:
-  - kondition
-  - løb
-  - styrketræning
-  - politi
-  - træningsprogram
-  - populær
-last_modified_at: 2025-01-02T10:14:14Z
-toc: true
+- kondition
+- løb
+- styrketræning
+- politi
+- træningsprogram
+- populær
+last_modified_at: '2025-01-02T10:14:14Z'
+toc: 'true'
 author: lsolesen
 ---
 

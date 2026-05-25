@@ -1,28 +1,30 @@
 ---
-title: "Sådan udregner du energifordeling"
+title: Sådan udregner du energifordeling
 seo_title: Sådan udregner du din daglige energifordeling
-description: "Læs hvordan du kan beregne din dalige energifordeling og få en præcis forståelse af energiforbrug og tilpasse kostanbefalinger."
-excerpt: "Læs hvordan du kan beregne din dalige energifordeling og få en præcis forståelse af energiforbrug og tilpasse kostanbefalinger."
+description: Læs hvordan du kan beregne din dalige energifordeling og få en præcis forståelse af energiforbrug og tilpasse
+  kostanbefalinger.
+excerpt: Læs hvordan du kan beregne din dalige energifordeling og få en præcis forståelse af energiforbrug og tilpasse kostanbefalinger.
 permalink: /beregner/energifordeling/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1707723029914-e4f3e27ebc5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/unsplash/photo-1551337948-0ad8de8568ac.jpg
+  credit: https://images.unsplash.com/photo-1707723029914-e4f3e27ebc5d
+  teaser: /assets/images/unsplash/photo-1707723029914-e4f3e27ebc5d.jpg
   caption: Beregn dit daglige energibehov og energiforbrug
 category:
-  - Beregnere
-  - Kalorieberegnere
+- Beregnere
+- Kalorieberegnere
 tags:
-  - beregner
-  - stofskifte
-  - stofskifteberegner
+- beregner
+- stofskifte
+- stofskifteberegner
 meta:
   name: Daglig energifordeling
   equipment: ingen
   measures: hvilestofskifte
   type: energiforbrug
-last_modified_at: 2025-02-27T23:14:14Z
-toc: true
+last_modified_at: '2025-02-27T23:14:14Z'
+toc: 'true'
 ---
 
 Det kan være afgørende for præstationsevnen at indtage energi i rigtige mængder når man dyrker regelmæssigt sport som løb. Løb er en af de mest energikrævende motionsformer, der findes, og for at holde sig i energibalance, kan det overraske mange, hvor meget man egentlig skal spise.

@@ -1,27 +1,32 @@
 ---
-title: &title "Restitution: Komplet guide til optimering"
-seo_title: "Restitution: 8 tips til optimering (Guide)"
-description: "Vil du have det optimale udbytte af din træning? Restitution er et vigtigt parameter, når du skal optimere effekten af din træning. Få tips her."
-excerpt: "Lær alt om, hvordan du får en balance mellem træning og restitution, så du kan bygge kroppen op og få de optimale resultater. Her er en komplet guide til restitution, så du kan gøre den så optimal og effektiv som muligt."
+title: 'Restitution: Komplet guide til optimering'
+seo_title: 'Restitution: 8 tips til optimering (Guide)'
+description: Vil du have det optimale udbytte af din træning? Restitution er et vigtigt parameter, når du skal optimere effekten
+  af din træning. Få tips her.
+excerpt: Lær alt om, hvordan du får en balance mellem træning og restitution, så du kan bygge kroppen op og få de optimale
+  resultater. Her er en komplet guide til restitution, så du kan gøre den så optimal og effektiv som muligt.
 permalink: /restitution/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
-  alt: "Photo by Cris Saur on Unsplash"
+  overlay_image: /assets/images/unsplash/photo-1470777639313-60af88918203.jpg
+  credit: https://images.unsplash.com/photo-1470777639313-60af88918203
+  teaser: /assets/images/unsplash/photo-1470777639313-60af88918203.jpg
+  caption: 'Restitution: Komplet guide til optimering'
+  alt: Photo by Cris Saur on Unsplash
 category:
-  - Restitution
+- Restitution
 tags:
-  - restitution
-  - begynder
-  - træning
-  - anbefalet
-last_modified_at: 2022-05-20T08:14:14Z
-toc: true
+- restitution
+- begynder
+- træning
+- anbefalet
+last_modified_at: '2022-05-20T08:14:14Z'
+toc: 'true'
 faq:
-  - question: Kan jeg restituere for længe?
-    answer: Du kan sagtens restituere for længe. Eksempler er når folk er sengeliggende eller hvis du får et ben i gips. Hvis ikke kroppens vedholdende bliver udsat for et træningsstimlus, så vil den stille og roligt forfalde. Det er vores livsopgave at blive ved med at bevæge os, så kroppen hele tiden holder sig stærk og udholdende.
+- question: Kan jeg restituere for længe?
+  answer: Du kan sagtens restituere for længe. Eksempler er når folk er sengeliggende eller hvis du får et ben i gips. Hvis
+    ikke kroppens vedholdende bliver udsat for et træningsstimlus, så vil den stille og roligt forfalde. Det er vores livsopgave
+    at blive ved med at bevæge os, så kroppen hele tiden holder sig stærk og udholdende.
 ---
 
 Når du gerne vil træne så effektivt som muligt, så skal du finde en balance mellem restitution og træning. Her får du svar på alle dine spørgsmål om, hvad det vil sige at restituere i forbindelse med træning.

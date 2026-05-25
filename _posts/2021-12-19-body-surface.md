@@ -1,17 +1,18 @@
 ---
-title: &title "Udregn kroppens overfladeareal"
+title: Udregn kroppens overfladeareal
 permalink: /kroppens-overfladeareal/
 redirect_from:
-  - /body-surface-area/
+- /body-surface-area/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1611784601573-409f9b545ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1611784601573-409f9b545ed2.jpg
+  credit: https://images.unsplash.com/photo-1611784601573-409f9b545ed2
 category:
-  - Anatomi
+- Anatomi
 tags:
-  - beregner
-last_modified_at: 2021-11-19T08:14:14Z
-toc: true
+- beregner
+last_modified_at: '2021-11-19T08:14:14Z'
+toc: 'true'
 meta:
   name: Udregn kroppens overfladeareal
   equipment: vægt

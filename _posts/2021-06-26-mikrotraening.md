@@ -1,18 +1,19 @@
 ---
-title: &title "Mikrotræning: 6 forslag til din ferietræning 💗"
+title: 'Mikrotræning: 6 forslag til din ferietræning 💗'
 permalink: /mikrotraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1573858129683-59f4d9c445d9.jpg
+  credit: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9
+  teaser: /assets/images/unsplash/photo-1573858129683-59f4d9c445d9.jpg
+  caption: 'Mikrotræning: 6 forslag til din ferietræning 💗'
 category:
-  - Træning
+- Træning
 tags:
-  - træning
-  - motionside
-last_modified_at: 2021-06-27T10:14:14Z
-toc: true
+- træning
+- motionside
+last_modified_at: '2021-06-27T10:14:14Z'
+toc: 'true'
 ---
 
 I ferier så plejer jeg altid at lave mikrotræning. På den måde kan jeg spare tid, og jeg kan få træningen til at passe ind på alle tider af dagen.

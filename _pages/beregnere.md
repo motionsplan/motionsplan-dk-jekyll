@@ -1,29 +1,30 @@
 ---
 layout: single
-toc: true
+toc: 'true'
 permalink: /beregnere/
-excerpt: "Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til din træning og sundhed her."
-description: "Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til din træning og sundhed her."
-title: &title "Beregnere til træning og sundhed"
-seo_title: "Præcise beregnere til træning, sundhed og kost | Motionsplan"
-author_profile: true
+excerpt: Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger til
+  din træning og sundhed her.
+description: Brug vores beregnere til at finde din BMI, fedtprocent, ligevægtsindtag og meget mere. Få præcise beregninger
+  til din træning og sundhed her.
+title: Beregnere til træning og sundhed
+seo_title: Præcise beregnere til træning, sundhed og kost | Motionsplan
+author_profile: 'true'
 header:
-  overlay_image: https://images.unsplash.com/photo-1608792992053-f397e328a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/photo-1608792992053-f397e328a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
-  caption: *title
+  overlay_image: /assets/images/unsplash/photo-1608792992053-f397e328a56d.jpg
+  credit: https://images.unsplash.com/photo-1608792992053-f397e328a56d
+  teaser: /assets/images/unsplash/photo-1608792992053-f397e328a56d.jpg
+  caption: Beregnere til træning og sundhed
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
-    - label: "<i class='fas fa-stopwatch'></i> Tests"
-      url: "/tests/"
-    - label: "<i class='fas fa-calculator'></i> Beregnere"
-      url: "#calculators"
-    - label: "<i class='fas fa-tools'></i> Værktøjer"
-      url: "/vaerktoejer/"
-#    - label: "<i class='fas fa-chart-line'></i> Analyseværktøjer"
-#      url: "/biomekanik/"
-    - label: "<i class='fas fa-brain'></i> Psykologiske tests"
-      url: "/vurderingsvaerktoejer/"
-breadcrumbs: true
+  - label: <i class='fas fa-stopwatch'></i> Tests
+    url: /tests/
+  - label: <i class='fas fa-calculator'></i> Beregnere
+    url: '#calculators'
+  - label: <i class='fas fa-tools'></i> Værktøjer
+    url: /vaerktoejer/
+  - label: <i class='fas fa-brain'></i> Psykologiske tests
+    url: /vurderingsvaerktoejer/
+breadcrumbs: 'true'
 classes: wide
 ---
 

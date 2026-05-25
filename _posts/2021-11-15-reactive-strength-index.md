@@ -1,18 +1,19 @@
 ---
-title: &title "Reactive Strength Index (RSI)"
-seo_title: "Reactive Strength Index (RSI)"
+title: Reactive Strength Index (RSI)
+seo_title: Reactive Strength Index (RSI)
 permalink: /reactive-strength-index-rsi/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1607962252666-2c33af3c6ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&h=300&w=400&q=10
+  teaser: /assets/images/unsplash/photo-1607962252666-2c33af3c6ba6.jpg
+  credit: https://images.unsplash.com/photo-1607962252666-2c33af3c6ba6
 category:
-  - Tests
-  - Eksplosivitet
+- Tests
+- Eksplosivitet
 tags:
-  - test
-  - springtest
-  - eksplosivitet
-  - spring
+- test
+- springtest
+- eksplosivitet
+- spring
 meta:
   name: Reactive Strength Index
   measures: springstyrke
@@ -21,27 +22,34 @@ meta:
   max: maksimal test
   direct: direkte test
   description: Mål, hvor hurtigt du kan udnytte elastisk energi i et hop.
-last_modified_at: 2025-02-19T08:14:14Z
-toc: true
+last_modified_at: '2025-02-19T08:14:14Z'
+toc: 'true'
 feature_row:
-  - image_path: /assets/images/freebies/rsi-sheet.png
-    title: Incremental Drop Jump Test
-    excerpt: Google Sheet til at registrere forsøg i Incremental Drop Jump test, hvor du får udregnet RSI baseret på hoppehøjde og kontakttid. Med vurdering baseret på Eamonn Flanagans arbejde.
-    url: https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy?usp=sharing
-    btn_label: <i class='fas fa-file-excel'></i> Download
-    btn_class: btn--success
-    rel: nofollow noopener
+- image_path: /assets/images/freebies/rsi-sheet.png
+  title: Incremental Drop Jump Test
+  excerpt: Google Sheet til at registrere forsøg i Incremental Drop Jump test, hvor du får udregnet RSI baseret på hoppehøjde
+    og kontakttid. Med vurdering baseret på Eamonn Flanagans arbejde.
+  url: https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy?usp=sharing
+  btn_label: <i class='fas fa-file-excel'></i> Download
+  btn_class: btn--success
+  rel: nofollow noopener
 faq:
-  - question: "Hvad er Reactive Strength Index (RSI)?"
-    answer: "RSI er et mål for en persons evne til hurtigt at skifte fra en excentrisk (muskelforlængende) bevægelse til en koncentrisk (muskelforkortende) bevægelse. Det bruges ofte til at vurdere eksplosiv styrke og effektiviteten af plyometriske øvelser."
-  - question: "Hvordan beregnes RSI?"
-    answer: "RSI beregnes ved at dividere hoppehøjden med kontakttiden med jorden: RSI = Hoppehøjde (m) / Kontakttid (s). En højere RSI indikerer en bedre evne til hurtigt at producere kraft."
-  - question: "Hvordan måles RSI?"
-    answer: "RSI måles typisk ved hjælp af drop jumps, hvor en atlet hopper ned fra en platform og straks hopper op igen. Ved at registrere hoppehøjden og kontakttiden kan man beregne RSI. Udstyr som kraftplatforme eller hoppemåtter bruges ofte til præcise målinger."
-  - question: "Hvad er en god RSI-score?"
-    answer: "RSI-værdier varierer afhængigt af atletens niveau og sport. Generelt anses en RSI mellem 1,5 og 2,0 som gennemsnitlig, mens værdier over 2,5 betragtes som fremragende."
-  - question: "Hvordan kan jeg forbedre min RSI?"
-    answer: "For at forbedre RSI bør man fokusere på plyometrisk træning, der kombinerer styrke og hastighed. Øvelser som drop jumps, hurtige hop og sprinttræning kan hjælpe med at øge både hoppehøjde og reducere kontakttid, hvilket forbedrer RSI."
+- question: Hvad er Reactive Strength Index (RSI)?
+  answer: RSI er et mål for en persons evne til hurtigt at skifte fra en excentrisk (muskelforlængende) bevægelse til en koncentrisk
+    (muskelforkortende) bevægelse. Det bruges ofte til at vurdere eksplosiv styrke og effektiviteten af plyometriske øvelser.
+- question: Hvordan beregnes RSI?
+  answer: 'RSI beregnes ved at dividere hoppehøjden med kontakttiden med jorden: RSI = Hoppehøjde (m) / Kontakttid (s). En
+    højere RSI indikerer en bedre evne til hurtigt at producere kraft.'
+- question: Hvordan måles RSI?
+  answer: RSI måles typisk ved hjælp af drop jumps, hvor en atlet hopper ned fra en platform og straks hopper op igen. Ved
+    at registrere hoppehøjden og kontakttiden kan man beregne RSI. Udstyr som kraftplatforme eller hoppemåtter bruges ofte
+    til præcise målinger.
+- question: Hvad er en god RSI-score?
+  answer: RSI-værdier varierer afhængigt af atletens niveau og sport. Generelt anses en RSI mellem 1,5 og 2,0 som gennemsnitlig,
+    mens værdier over 2,5 betragtes som fremragende.
+- question: Hvordan kan jeg forbedre min RSI?
+  answer: For at forbedre RSI bør man fokusere på plyometrisk træning, der kombinerer styrke og hastighed. Øvelser som drop
+    jumps, hurtige hop og sprinttræning kan hjælpe med at øge både hoppehøjde og reducere kontakttid, hvilket forbedrer RSI.
 ---
 
 Reactive Strength Index (RSI) er et værdifuldt værktøj til at vurdere eksplosiv styrke og springteknik, særligt i hurtige bevægelser, som er vigtige for atleter.
