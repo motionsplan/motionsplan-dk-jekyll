@@ -68,16 +68,11 @@ For at sikre fuld redaktionel uafhængighed er vores indhold aldrig påvirket af
 
 ---
 
-## Et gratis medie finansieret af fællesskabet
+## Transparens og finansiering
 
-Motionsplan.dk er et gratis medie skabt for at gøre kvalificeret viden tilgængelig for alle. For at finansiere driften og de mange timers research bag artiklerne, benytter vi os af reklamer og affiliate-links.
+Motionsplan.dk er gratis at bruge. På enkelte sider bruger vi affiliate-links — hvis du køber noget via et sådant link, modtager vi en lille kommission uden ekstra omkostninger for dig. Det er tydeligt markeret hvor det er tilfældet.
 
-- **Affiliate-links:** Hvis du køber noget via et link markeret som reklame, modtager vi en lille kommission uden ekstra omkostninger for dig.
-- **Direkte støtte:** Du kan hjælpe os med at holde sitet kørende og annoncefrit ved at støtte os direkte.
-
-[Få reklamefrit Motionsplan for 5$](https://www.buymeacoffee.com/l/Gi0SBcuPF){: .btn .btn--large .btn--warning rel="nofollow noopener" }
-
-{% include gallery images=site.data.advertisers class="no-collapse" layout="seventh" headline="Samarbejdspartnere (reklamelinks)" %}
+Vil du støtte sitet direkte, kan du [købe os en kop kaffe](https://www.buymeacoffee.com/l/Gi0SBcuPF){: rel="nofollow noopener" }.
 
 {% include motionsplan/buymeacoffee.html %}
 

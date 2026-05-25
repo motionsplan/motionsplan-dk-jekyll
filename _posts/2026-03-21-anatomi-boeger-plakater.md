@@ -13,17 +13,8 @@ header:
   overlay_image: /assets/images/unsplash/photo-1567607673554-2048def2c6b4.jpg
   credit: https://images.unsplash.com/photo-1567607673554-2048def2c6b4
   caption: Anbefalet udstyr og litteratur til anatomi
-feature_row:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-  alt: Bog Anatomisk Guide til Bevægeapparatet
-  title: Anatomisk Guide til Bevægeapparatet
-  excerpt: En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle
-    bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104
-  btn_label: Se prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
+feature_row_books:
+- image_path: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
   alt: Bog Menneskekroppen - Anatomi, fysiologi og sygdomme
   title: Menneskekroppen - Anatomi, fysiologi og sygdomme
   excerpt: Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem
@@ -52,7 +43,7 @@ feature_row:
   btn_label: Se prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
+- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
   alt: Anatomisk Guide til Bevægeapparatet
   title: Anatomisk Guide til Bevægeapparatet
   excerpt: En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle
@@ -61,7 +52,7 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
+- image_path: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
   alt: Menneskekroppen - Anatomi, fysiologi og sygdomme
   title: Menneskekroppen - Anatomi, fysiologi og sygdomme
   excerpt: Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem
@@ -86,37 +77,32 @@ sidebar:
   nav: anatomi
 feature_row_citatplakat:
 - image_path: https://citatplakat.dk/cdn/shop/files/Plakat-med-menneskets-skelet-AN10028.png?v=1734685912
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/products/skelettet-anatomi-plakat-1?_pos=2&_sid=d7a1ea844&_ss=r
+  url: https://citatplakat.dk/products/skelettet-anatomi-plakat-1?_pos=2&_sid=d7a1ea844&_ss=r
   title: Skelettet 2 - Anatomi plakat
   alt: plakat med sletttet
   rel: sponsored nofollow noopener
 - image_path: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-skelet-bagfra-AN10026.png?v=1734675735
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/products/skelettet-bagfra-anatomi-plakat-1?_pos=6&_sid=d7a1ea844&_ss=r
+  url: https://citatplakat.dk/products/skelettet-bagfra-anatomi-plakat-1?_pos=6&_sid=d7a1ea844&_ss=r
   title: Skelettet bagfra - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: anatomi plakat skelettet bagfra
 - image_path: https://citatplakat.dk/cdn/shop/files/Plakat-med-menneskets-muskler-AN10023.png?v=1734641138
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/products/muskulatur-anatomi-plakat?_pos=1&_sid=6a219cf53&_ss=r
+  url: https://citatplakat.dk/products/muskulatur-anatomi-plakat?_pos=1&_sid=6a219cf53&_ss=r
   title: Muskulatur bagfra - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: musklerne bagfra
 - image_path: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-nervesystem-AN10024.png?v=1734683097
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/products/nervesystemet-anatomi-plakat-1?_pos=2&_sid=6009a5234&_ss=r
+  url: https://citatplakat.dk/products/nervesystemet-anatomi-plakat-1?_pos=2&_sid=6009a5234&_ss=r
   title: Nervesystemet - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: nervesystemet plakat
-- image_path: https://citatplakat.dk/products/det-respiratoriske-system-anatomi-plakat?_pos=1&_sid=5fe605f46&_ss=r
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/products/det-respiratoriske-system-anatomi-plakat?_pos=1&_sid=5fe605f46&_ss=r
+- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-vejrtraekning-AN10030.png?v=1764613856&width=480
+  url: https://citatplakat.dk/products/det-respiratoriske-system-anatomi-plakat?_pos=1&_sid=5fe605f46&_ss=r
   title: Det respiratoriske system - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: respiratoriske system og åndedrætssystemet plakat
-- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-mandens-anatomi-AN10000.png
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/anatomi-plakater/fysiologi-anatomi-plakat/
-  title: Fysiologi - Anatomi plakat
-  rel: sponsored nofollow noopener
-  alt: fysiologi plakat
 - image_path: https://citatplakat.dk/cdn/shop/files/Plakat-af-mandens-anatomi-AN10000.png?v=1734662041
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/products/fysiologi-anatomi-plakat?_pos=1&_psq=fysiologi&_ss=e&_v=1.0
+  url: https://citatplakat.dk/products/fysiologi-anatomi-plakat?_pos=1&_psq=fysiologi&_ss=e&_v=1.0
   title: Blodkredsløbet - Anatomi plakat
   vendor: Citatplakat.dk
   category: Anatomi plakater > Plakater > Plakater til kontoret
@@ -144,20 +130,6 @@ feature_row_citatplakat:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-gallery:
-- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
-  title: Det respiratoriske system - Anatomi plakat
-- image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/
-  title: Blodkredsløbet - Anatomi plakat
-  vendor: Citatplakat.dk
-  category: Anatomi plakater > Plakater > Plakater til kontoret
-  price: '129.00'
-  old_price: '129.00'
-  discounted: 'false'
-  id: '59381'
-  rel: sponsored nofollow noopener
 ---
 
 Når man studerer anatomi, er visuelle hjælpemidler og gode opslagsværker alfa og omega. Her har jeg samlet de ressourcer, jeg selv bruger og anbefaler til mine studerende.
@@ -170,16 +142,10 @@ En god plakat gør det nemt at visualisere musklernes forløb og knoglernes plac
 
 Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){: rel='sponsored nofollow noopener' }.
 
-## De bedste lærebøger
+## De bedste lærebøger om anatomi
 
 Hvis du vil dykke helt ned i detaljerne om udspring, hæfte og fysiologi, er disse bøger de bedste på markedet.
 
-{% include feature_row type="left" %}
+{% include feature_row id="feature_row_books" type="left" %}
 
 [Tilbage til oversigten over anatomi](/anatomi/)
-
-## Plakater med fysiologi
-
-{% include gallery id="gallery" %}
-
-Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_fysiologi){: rel='sponsored nofollow noopener' }.
