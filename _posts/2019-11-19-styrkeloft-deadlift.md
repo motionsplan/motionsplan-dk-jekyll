@@ -18,13 +18,16 @@ tags:
 - guide
 last_modified_at: '2024-11-19T23:14:14Z'
 feature_row:
-- image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
   alt: Squat - styrkeløft og powerlifting regler for squat
   excerpt: Squat
-- image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
   alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
   excerpt: Bænkpres
-- image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
+  credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
   alt: Dødløft - poserlifting og styrkeløft regler for dødløft
   excerpt: Dødløft
 feature_row_spreadsheet:
@@ -127,7 +130,8 @@ Vil du vide mere? [Alt om bælter til styrketræning](/baelte-styrketraening/)
 
 Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du vil synes bedst om. [Bodylab](https://www.bodylab.dk/shop/hvilken-doedloeft-variant-1790c1.html) gennemgår her forskellige strategier for valg af enten konventionel eller sumo-varianten for dit primære løft til en [styrkeløft-konkurrence](/powerlifting-rules/).
 
-{% include figure image_path="https://www.bodylab.dk/images/bodyfeed/Dodloft_variant_tabel1.jpg" alt="skema til at vælge dødløftvariant" %}
+{% include figure image_path="/assets/images/bodylab.dk/Dodloft_variant_tabel1-5e21fecf.jpg" alt="skema til at vælge dødløftvariant" caption="[📷](https://www.bodylab.dk/images/bodyfeed/Dodloft_variant_tabel1.jpg){: rel='nofollow noopener' }" %}
+
 
 ## Hvilken dødløft variation skal du vælge?
 

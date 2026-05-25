@@ -23,7 +23,8 @@ meta:
 last_modified_at: 2022-04-30T10:14:14Z
 toc: true
 feature_row:
-  - image_path: https://images-na.ssl-images-amazon.com/images/I/51CveAOo-KL._SX373_BO1,204,203,200_.jpg
+  - image_path: /assets/images/images-na.ssl-images-amazon.com/51CveAOo-KL__SX373_BO1_204_203_200_-088d4beb.jpg
+    credit: https://images-na.ssl-images-amazon.com/images/I/51CveAOo-KL._SX373_BO1,204,203,200_.jpg
     url: https://www.amazon.com/Supertraining-Yuri-V-Verkhoshansky/dp/8890403810
     title: "Supertraining af Mel Siff"
     excerpt: "En klassiker inden for styrketræningslitteratur."
@@ -128,7 +129,8 @@ Nuckols sammenligning mellem forskellige styrkeniveauer er virkelig gennemarbejd
 TODO lav linket, når jeg har skrevet artiklen
 , men vi har også skrevet lidt om, [hvor meget muskelmasse du kan opbygge]().
 
-{% include figure image_path="https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif" %}
+{% include figure image_path="/assets/images/web.archive.org/siff_loeft1-e022cce5.gif" caption="[📷](https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif){: rel='nofollow noopener' }" %}
+
 
 {% endcomment %}
 

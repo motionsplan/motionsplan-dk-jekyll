@@ -40,7 +40,7 @@ Det samme sker ikke med safety squat stang, så det er lettere at lave mange gen
 
 ## Hvordan skal en safety bar se ud?
 
-{% include figure image_path="https://garagegymlab.com/wp-content/uploads/2017/11/Safety-Squat-Bar-Profile.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
+{% include figure image_path="/assets/images/garagegymlab.com/Safety-Squat-Bar-Profile-ef1e2cab.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/). [📷](https://garagegymlab.com/wp-content/uploads/2017/11/Safety-Squat-Bar-Profile.jpg){: rel='nofollow noopener' }" alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 Simon fra [supertraining.dk](https://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](https://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
 

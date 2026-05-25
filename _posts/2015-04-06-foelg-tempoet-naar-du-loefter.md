@@ -81,7 +81,7 @@ Du kender helt sikkert de her elementer: antal træningsdage, øvelsesvalg, sets
 
 Se denne video om hvad Tempotræning er her:
 
-![](https://i.ytimg.com/vi/1F55ELeiwX8/hqdefault.jpg)
+![](/assets/images/i.ytimg.com/hqdefault-e01522c5.jpg)
 
 ## **TUT**
 
@@ -94,7 +94,7 @@ Tempoet beskrives normalt med 4 tal, eks: 3110. Hvor:
 
 Her ses et eksempel med tempo 3010
 
-![](https://i.ytimg.com/vi/jjvignTaMxY/hqdefault.jpg)
+![](/assets/images/i.ytimg.com/hqdefault-fae933e7.jpg)
 
 Hvor lang tid man er under “tension”, er en af de variabler der er med til at diktere ens træningsmål.
 

@@ -20,7 +20,8 @@ tags:
 last_modified_at: '2022-11-24T23:14:14Z'
 toc: 'true'
 feature_row_powerlifting:
-- image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
+- image_path: /assets/images/billig-fitness.dk/bodybuilding-dreikampfguertel_LRG_480x_crop_center-2c1a9746.jpg
+  credit: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
   alt: 3 Kamps bælte Professionel kvalitet
   title: 3 Kamps bælte Professionel kvalitet
   excerpt: 3 Kamps bælte Professionel kvalitet. Dette bælte er lavet i ekstrem robust læder og er MEGET stabil. Det er specielt
@@ -30,7 +31,8 @@ feature_row_powerlifting:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_weightlifting:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/2856inPaddedLeatherBelt__1__1__w774_h774_fill-fda82069.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
   alt: Harbinger træningsbælte til vægtløftning
   title: Harbinger træningsbælte til vægtløftning
   excerpt: Harbinger træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Harbinger
@@ -40,7 +42,8 @@ feature_row_weightlifting:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_syntetisk:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/243_HB_Product_4inchNylonBelt_coiled_1080x645_w774_h774_fill-0c0bdfde.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
   alt: Fitnessbælte i neopren
   title: Fitnessbælte i neopren
   excerpt: Harbinger Neopren Bælte til vægtløft i sort. Træningsbæltet fra Harbinger hjælper dig med, at støtte og stabilisere
@@ -50,7 +53,8 @@ feature_row_syntetisk:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_products:
-- image_path: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
+- image_path: /assets/images/billig-fitness.dk/bodybuilding-dreikampfguertel_LRG_480x_crop_center-2c1a9746.jpg
+  credit: https://www.billig-fitness.dk/cdn/shop/products/bodybuilding-dreikampfguertel_LRG_480x_crop_center.jpg?v=1672430976
   alt: 3 Kamps bælte Professionel kvalitet
   title: Styrkeløft-bælte
   excerpt: 'Dette bælte er lavet i ekstremt robust læder og er MEGET stabilt. Ideelt til seriøs styrkeløft, bodybuilding,
@@ -72,7 +76,8 @@ feature_row_products:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/2856inPaddedLeatherBelt__1__1__w774_h774_fill-fda82069.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2856inPaddedLeatherBelt__1_(1).w774.h774.fill.jpg
   alt: Harbinger træningsbælte til vægtløftning
   title: Vægtløfter-bælte
   excerpt: 'Et klassisk vægtløftningsbælte fra Harbinger i ægte læder med blød polstring og dobbelt spænde. Perfekt til intens
@@ -94,7 +99,8 @@ feature_row_products:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/243_HB_Product_4inchNylonBelt_coiled_1080x645_w774_h774_fill-0c0bdfde.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/243_HB_Product_4inchNylonBelt_coiled_1080x645.w774.h774.fill.jpg
   alt: Fitnessbælte i neopren
   title: Neoprenbælte
   excerpt: 'Neoprenbælte fra Harbinger til styrketræning. Let, fleksibelt og behageligt – perfekt til fitness og styrketræning

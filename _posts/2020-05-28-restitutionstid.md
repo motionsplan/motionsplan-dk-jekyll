@@ -45,7 +45,7 @@ Restitution er perioden mellem to træningspas. Kroppen nedbryder kroppen og eft
 
 Modellen viser kroppens evne til at tilpasse sig træne.
 
-{% include figure image_path="https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg" caption="Træning nedbryder kroppen. Når træningen slutter, så begynder kroppen at genopbygge igen. Tiden kroppen bruger på at gøre sig klar til at kunne modstå en ny belastning kalder man restitutionstiden. Hvis træningen er hårdere, så vil det tage længe tid at komme sig, før man kan yde det samme." alt="Superkompensation-teorien og restitutionstid" %}
+{% include figure image_path="/assets/images/miro.medium.com/0_usKRMQYeTe97f6cE-0df3e224.jpg" caption="Træning nedbryder kroppen. Når træningen slutter, så begynder kroppen at genopbygge igen. Tiden kroppen bruger på at gøre sig klar til at kunne modstå en ny belastning kalder man restitutionstiden. Hvis træningen er hårdere, så vil det tage længe tid at komme sig, før man kan yde det samme. [📷](https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg){: rel='nofollow noopener' }" alt="Superkompensation-teorien og restitutionstid" %}
 
 Hvis du træner før kroppen er fuldt restitueret, så vil du nedbryde kroppen yderligere, og det vil tage endnu længere inden, du får et positivt resultat af din træning.
 
@@ -80,7 +80,7 @@ Det er meget individuelt, hvor lang tid det tager at restituere. Her giver vi et
 
 [Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) præsenterer restitutionstiden i denne overskuelige tabel.
 
-{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/)" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
+{% include figure image_path="/assets/images/cdn.bloggersdelight.dk/restitution_tabel_2016_web-680x631-82bfd7af.jpg" caption="Restitutionstid for udholdenhedstræning, styrketræning og hurtighedstræning. Kilde: [Marina Aagaard](https://marinaaagaardblog.com/2016/08/12/restitutionstider-og-restitutionstiltag-undga-overtraening-og-overbelastning/) [📷](https://cdn.bloggersdelight.dk/wp-content/blogs.dir/205710/files/2016/12/restitution_tabel_2016_web-680x631.jpg){: rel='nofollow noopener' }" alt="restitutionstider for styrketræning og udholdenhedsidræt" %}
 
 ### Restitutionstid for styrketræning
 

@@ -11,8 +11,10 @@ system:
   - fitnessinstruktør
 classes: wide
 header:
-  overlay_image: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
-  teaser: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
+  overlay_image: /assets/images/wp.vih.dk/vih_62A4833_web-1-2048x1366-41e53d29.jpg
+  credit: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
+  teaser: /assets/images/wp.vih.dk/vih_62A4833_web-1-2048x1366-41e53d29.jpg
+  credit: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
   caption: "Fitnessinstruktør: Øvelser til Bevæg Dig For Livet Fitness"
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
@@ -23,7 +25,8 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
+  - image_path: /assets/images/denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusa-3b9060a8.jpg
+    credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
     alt: "Anatomisk Guide til Bevægeapparatet"
     title: "Anatomisk Guide til Bevægeapparatet"
     excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."

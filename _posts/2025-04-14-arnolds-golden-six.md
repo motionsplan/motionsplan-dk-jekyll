@@ -6,7 +6,8 @@ excerpt: "Få styr på Arnold Schwarzeneggers Golden Six – et effektivt fullbo
 permalink: /arnolds-golden-six/
 language: da
 header:
-  teaser: https://mandesager.dk/wp-content/uploads/2018/12/ArnoldSchwarzenegger_2.jpg
+  teaser: /assets/images/mandesager.dk/ArnoldSchwarzenegger_2-9365f9eb.jpg
+  credit: https://mandesager.dk/wp-content/uploads/2018/12/ArnoldSchwarzenegger_2.jpg
   caption: *title
 category:
   - Styrketræning
@@ -33,7 +34,7 @@ Golden Six er en **[fullbody-rutine](/styrketraening/helkropsprogrammer/)**, der
 
 Golden Six er et af de [styrketræningsprogrammer](/styrketraeningsprogrammer/), som du næsten bør have prøvet, hvis du tager din styrketræning seriøst.
 
-{% include figure image_path="https://image.bodylab.dk/images/bodyfeed/arnold_traning_1.jpg" caption="Arnold Schwarznegger er måske den mest kendte bodybuilder." %}
+{% include figure image_path="/assets/images/image.bodylab.dk/arnold_traning_1-410217bb.jpg" caption="Arnold Schwarznegger er måske den mest kendte bodybuilder. [📷](https://image.bodylab.dk/images/bodyfeed/arnold_traning_1.jpg){: rel='nofollow noopener' }" %}
 
 ---
 

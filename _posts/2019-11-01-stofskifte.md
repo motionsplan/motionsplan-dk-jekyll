@@ -168,9 +168,9 @@ Hvordan bruger du ligevægtsindtaget?
 
 ## Sammenhængen mellem begreberne
 
-{% include figure image_path="https://www.mdpi.com/jcm/jcm-13-05862/article_deploy/html/images/jcm-13-05862-g001.png" caption="Kilde: [mdpi.com](https://www.mdpi.com/2077-0383/13/19/5862)" %}
+{% include figure image_path="/assets/images/mdpi.com/jcm-13-05862-g001-e4872776.png" caption="Kilde: [mdpi.com](https://www.mdpi.com/2077-0383/13/19/5862) [📷](https://www.mdpi.com/jcm/jcm-13-05862/article_deploy/html/images/jcm-13-05862-g001.png){: rel='nofollow noopener' }" %}
 
-{% include figure image_path="https://athleatsnutrition.com/wp-content/uploads/2020/10/pasted-image-0.png" caption="Kilde: [https://athleatsnutrition.com](https://athleatsnutrition.com/neat-way-to-increase-metabolism/)" %}
+{% include figure image_path="/assets/images/athleatsnutrition.com/pasted-image-0-03372c72.png" caption="Kilde: [https://athleatsnutrition.com](https://athleatsnutrition.com/neat-way-to-increase-metabolism/) [📷](https://athleatsnutrition.com/wp-content/uploads/2020/10/pasted-image-0.png){: rel='nofollow noopener' }" %}
 
 {% include figure image_path="https://scontent-cph2-1.xx.fbcdn.net/v/t1.6435-9/96585161_111160733925456_1101710019671359488_n.png?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mu3P-Pnt94kQ7kNvgEKrbzY&_nc_oc=AdnuWu9QV5H__wYdU2e6pbUAGsWMTiUR-qB0w4TfUT0Onc6V4rwOFlnel4v4jBL1bnY&_nc_zt=23&_nc_ht=scontent-cph2-1.xx&_nc_gid=86zqFTXtMCQeFH7oHOrDSw&oh=00_AYE5TjoimLpGNfoG8UHSkXIWs5hVNR3MlYJOuIc8Jufe6A&oe=6807336E" %}
 

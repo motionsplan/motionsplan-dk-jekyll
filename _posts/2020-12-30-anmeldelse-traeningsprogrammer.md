@@ -143,7 +143,8 @@ For at vælge et godt styrketræningsprogram, er der en række faktorer man kan 
 
 *[KISS]: Keep It Simple Stupid
 
-{% include figure image_path="https://chebellainteriors.com/wp-content/uploads/2019/08/Simple-but-significant.jpg" alt="Make it simple but significant" %}
+{% include figure image_path="/assets/images/chebellainteriors.com/Simple-but-significant-0fca8473.jpg" alt="Make it simple but significant" caption="[📷](https://chebellainteriors.com/wp-content/uploads/2019/08/Simple-but-significant.jpg){: rel='nofollow noopener' }" %}
+
 
 Stil dig selv følgende spørgsmål for dit styrketræningsprogram:
 

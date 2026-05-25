@@ -93,7 +93,7 @@ Hvor god en app er handler naturligvis først og fremmest om, hvad du skal bruge
 
 UDisc er Professional Disc Golf Associations officielle app, og hvis du kun skal have en app med discgolf, så vælg denne. Appen er en rigtig god all-round app. Her har du mulighed for at finde discgolfbaner i nærheden, lave et scorekort og måle dine bedste kast.
 
-{% include figure image_path="https://udisc.com/images/logos2021/mockups/phone-courses.png" caption="Udisc er en genial app til at finde de forskellige discgolfbaner." alt="Udisc discgolf baneoversigt" %}
+{% include figure image_path="/assets/images/udisc.com/phone-courses-3385f6fb.png" caption="Udisc er en genial app til at finde de forskellige discgolfbaner. [📷](https://udisc.com/images/logos2021/mockups/phone-courses.png){: rel='nofollow noopener' }" alt="Udisc discgolf baneoversigt" %}
 
 Der er over [10.000 discgolfbaner i appen med banekort](/discgolf-baner/), som du kan lave scorekort til. Du kan søge discgolfbanerne frem i appen, og brugerne kan **anmelde de enkelte baner**. Det er en rigtig fed feature, for spilbarheden af discgolfbaner varierer noget hen over året i forhold til hvor velholdte banerne er.
 
@@ -136,7 +136,8 @@ Noget andet sjovt i Discgolf Metrix er, at man i klubber kan lave en _bag tag ch
 
 Du kan endnu ikke finde banekort, øve dig eller andre af de smarte ting, du fx kan i UDisc. Til gengæld så er deres turneringsmanager noget mere lækkert sat op end de andre systemer.
 
-{% include figure image_path="https://tjing.se/img/Landing-image@2x.88dd92b8.png" alt="tjing app til discgolf" %}
+{% include figure image_path="/assets/images/tjing.se/Landing-image_2x_88dd92b8-627f25ad.png" alt="tjing app til discgolf" caption="[📷](https://tjing.se/img/Landing-image@2x.88dd92b8.png){: rel='nofollow noopener' }" %}
+
 
 ## 4. Discgolf Handicap
 

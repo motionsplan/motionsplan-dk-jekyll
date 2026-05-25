@@ -20,7 +20,8 @@ tags:
 - søvn
 last_modified_at: '2023-01-01T07:33:14Z'
 feature_row:
-- image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
+- image_path: /assets/images/bodylab.dk/zma-105g-2019-p-383079ad.png
+  credit: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html
   title: Bodylab ZMA
   excerpt: Bodylab ZMA indeholder en kombination af zink, magnesium og B6 vitamin. Bodylab ZMA bruger det organisk-bundne

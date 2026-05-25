@@ -95,7 +95,7 @@ RICE-protokollen til behandling af akutte skader er altså en myte!
 
 Hvis den skadede gerne vil bruge kompression og elevation, så kan det være en del af behandlingen, da det ikke ser ud til at forhindre helingen af skaden.
 
-{% include figure image_path="https://www.sportsmd.com/wp-content/uploads/2015/01/PRICE-protection-rest-ice-compression-elevate.jpg" caption="Kilde: [www.sportsmd.com](https://www.sportsmd.com/acute-sports-injury-treatment-using-p-r-c-e-principle/)" alt="PRICE akut skadeshåndtering" %}
+{% include figure image_path="/assets/images/sportsmd.com/PRICE-protection-rest-ice-compression-elevate-1f3bf810.jpg" caption="Kilde: [www.sportsmd.com](https://www.sportsmd.com/acute-sports-injury-treatment-using-p-r-c-e-principle/) [📷](https://www.sportsmd.com/wp-content/uploads/2015/01/PRICE-protection-rest-ice-compression-elevate.jpg){: rel='nofollow noopener' }" alt="PRICE akut skadeshåndtering" %}
 
 Der bør dog hverken bruges is eller NSAID (fx ibuprofen) med mindre formålet er smertelindring.
 

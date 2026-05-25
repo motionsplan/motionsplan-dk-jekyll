@@ -202,7 +202,7 @@ Når musklen strækkes i et statisk stræk over fx 90 sekunder vil musklen langs
 
 Denne effekt forøges indtil 5. stræk (Magnusson 1998).
 
-{% include figure image_path="https://ars.els-cdn.com/content/image/3-s2.0-B9781455731725000074-f07-05-9781455731725.jpg" caption="Stress relaxation forklares på [www.sciencedirect.com](https://www.sciencedirect.com/topics/engineering/stress-relaxation)" alt="Stress relaxation forklares i forbindelse med udstrækning og udspænding forklares" %}
+{% include figure image_path="/assets/images/ars.els-cdn.com/3-s2_0-B9781455731725000074-f07-05-9781455731725-cce4cbae.jpg" caption="Stress relaxation forklares på [www.sciencedirect.com](https://www.sciencedirect.com/topics/engineering/stress-relaxation) [📷](https://ars.els-cdn.com/content/image/3-s2.0-B9781455731725000074-f07-05-9781455731725.jpg){: rel='nofollow noopener' }" alt="Stress relaxation forklares i forbindelse med udstrækning og udspænding forklares" %}
 
 Hvis musklen var et elastik, så ville den med det samme returnere til sin almindelige størrelse. Viskoelastisk materiale krymper sig langsomt sammen til samme størrelse.
 

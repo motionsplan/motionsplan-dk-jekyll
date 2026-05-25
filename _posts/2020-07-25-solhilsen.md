@@ -18,7 +18,8 @@ category:
 - Yoga
 last_modified_at: '2023-01-01T09:41:09Z'
 plakat:
-- image_path: https://trendyliving.dk/images/Solhilsen.jpg
+- image_path: /assets/images/trendyliving.dk/Solhilsen-ff97e62f.jpg
+  credit: https://trendyliving.dk/images/Solhilsen.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
   title: Solhilsen plakat fra Vissevasse
   alt: Solhilsen plakat fra Vissevasse
@@ -40,7 +41,8 @@ books:
   btn_label: Tjek prisen
   rel: sponsored nofollow noopener
 feature_row_yogamat:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/manduka-x-mat-moerkeblaa-03_1-80695b5e.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
   alt: Manduka X Yoga Mat til de 5 tibetanere
   title: Manduka X Yoga Mat
   excerpt: Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan
@@ -174,7 +176,7 @@ Solhilsen B har flere af de samme komponenter, som mange andre typer yoga, bl.a.
 
 Du kan se en illustration af solhilsen B her:
 
-{% include figure image_path="https://3.bp.blogspot.com/-pancvfJSGs8/V8GamYZEVnI/AAAAAAAAAEg/MbU6v97wS9M0jalz4trVUkZ8CnLtcEdpACLcB/s400/surya-namaskara-b_orig.jpg" caption="Solhilsen B" alt="Yoga Solhilsen B" %}
+{% include figure image_path="/assets/images/3.bp.blogspot.com/surya-namaskara-b_orig-d9baeace.jpg" caption="Solhilsen B [📷](https://3.bp.blogspot.com/-pancvfJSGs8/V8GamYZEVnI/AAAAAAAAAEg/MbU6v97wS9M0jalz4trVUkZ8CnLtcEdpACLcB/s400/surya-namaskara-b_orig.jpg){: rel='nofollow noopener' }" alt="Yoga Solhilsen B" %}
 
 Yogalærer Patrick Beach viser solhilsen B i denne Youtube-video:
 

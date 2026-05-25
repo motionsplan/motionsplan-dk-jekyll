@@ -3,8 +3,10 @@ title: &title "Sliding filament: Hvordan trækker en muskel sig sammen?"
 permalink: /muskelsammentraekning/
 language: da
 header:
-  overlay_image: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
-  teaser: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
+  overlay_image: /assets/images/verywellmind.com/GettyImages-172594438-56a796f13df78cf7729768ee-12b924d7.jpg
+  credit: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
+  teaser: /assets/images/verywellmind.com/GettyImages-172594438-56a796f13df78cf7729768ee-12b924d7.jpg
+  credit: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
   overlay_filter: 0.4
   caption: *title
 category:
@@ -21,7 +23,7 @@ Jeg har ofte forklaret mine elever, hvordan en muskel trækker sig sammen. Jeg h
 
 Hvordan trækker en muskel sig sammen? **Den mest udbredte teori til at forklare, hvorfor en muskel trækker sig sammen er ‘sliding filament’-teorien. Ifølge teorien så kommer der et signal gennem nervetrådene til muskelfiberen, som gør at myosin-filamenterne bruger energi til at vandre på langs af aktin-filamenterne, hvorefter muskelfiberen bliver kortere.**
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Skeletal_muscle.jpg/1280px-Skeletal_muscle.jpg" caption="Opbygningen af en muskel. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction)" alt="Hvordan trækker en muskel sig sammen" %}
+{% include figure image_path="/assets/images/upload.wikimedia.org/1280px-Skeletal_muscle-c0ea0083.jpg" caption="Opbygningen af en muskel. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction) [📷](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Skeletal_muscle.jpg/1280px-Skeletal_muscle.jpg){: rel='nofollow noopener' }" alt="Hvordan trækker en muskel sig sammen" %}
 
 ## Hvad får en muskel til at trække sig sammen?
 

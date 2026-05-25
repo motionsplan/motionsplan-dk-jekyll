@@ -4,8 +4,10 @@ seo_title: "Zwift cykling på hometrainer: Komplet guide til begyndere"
 permalink: /komplet-begynderguide-zwift/
 language: da
 header:
-  overlay_image: https://cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm.jpg
-  teaser: https://cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm.jpg
+  overlay_image: /assets/images/cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm-1f39b615.jpg
+  credit: https://cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm.jpg
+  teaser: /assets/images/cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm-1f39b615.jpg
+  credit: https://cdn.mos.cms.futurecdn.net/SD7XaAW7TryMEgomC5kNBm.jpg
   caption: *title
 category:
   - Kondition
@@ -27,14 +29,16 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
+  - image_path: /assets/images/resources.chainbox.io/150066_A_default-81b7a74a.jpg
+    credit: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
     title: Wahoo Kickr Climb til Zwift
     excerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
+  - image_path: /assets/images/cykelexperten.b-cdn.net/uploads_2018_10_wahoo-kickr-headwind-e1540299465291-a28a9c35.jpeg
+    credit: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/#%7B%22c22cd927e63c%22%3A%7B%22search_term%22%3A%22wahoo%20kickr%22%2C%22filters%22%3A%5B%5D%2C%22sorting%22%3A%5B%5D%2C%22offsets%22%3A%7B%22category%22%3A10%2C%22brand%22%3A10%2C%22site_page%22%3A10%2C%22product%22%3A42%7D%7D%7D
     title: Wahoo Kickr Headwind til Zwift
     excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i Zwift, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i Zwift."
@@ -90,7 +94,7 @@ Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også læg
 
 I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for at køre sammen, selvom du ikke træder helt de samme watt, fx når I laver træning sammen. Det er en ret genial feature ved Zwift.
 
-{% include figure image_path="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/zwiftipad.jpg" caption="Typisk setup i Zwift" alt="Typisk setup i Zwift" %}
+{% include figure image_path="/assets/images/keyassets.timeincuk.net/zwiftipad-9b3eefb6.jpg" caption="Typisk setup i Zwift [📷](https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/zwiftipad.jpg){: rel='nofollow noopener' }" alt="Typisk setup i Zwift" %}
 
 Zwift er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i Zwift. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på Zwift i hvert fald mere.
 
@@ -154,7 +158,7 @@ De fleste af de store producenter af _smart trainers_, fx Wahoo, Tacx, Elite og 
 
 Zwift kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
 
-{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="Zwift setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i Zwift med et Wahoo Bike Desk"  %}
+{% include figure image_path="/assets/images/i.pinimg.com/62b1d69426d4cc6241a0e5d9cf0a3028-47ea6354.jpg" caption="Zwift setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran [📷](https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg){: rel='nofollow noopener' }" alt="Typisk setup i Zwift med et Wahoo Bike Desk"  %}
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
 
@@ -175,7 +179,7 @@ Derefter skal du oprette en konto og udfylde oplysninger om dit køn, højde og 
 
 Højden betyder noget i forhold til vindmodstanden. Vægten betyder noget i forhold den vigtigste _metric_ i spillet som er watt/kg. Det er nemlig watt per kilo, der betyder noget for, hvordan du klarer dig i forhold til de andre i spillet - altså din nøjagtige hastighed.
 
-{% include figure image_path="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2015/10/zwift-user-customisation.jpg" caption="Zwift giver dig masser af muligheder for at få din avatar til at se ret professionel ud." alt="Zwift giver dig masser af muligheder for at få din avatar til at se ret professionel ud."  %}
+{% include figure image_path="/assets/images/keyassets.timeincuk.net/zwift-user-customisation-3d003b9b.jpg" caption="Zwift giver dig masser af muligheder for at få din avatar til at se ret professionel ud. [📷](https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2015/10/zwift-user-customisation.jpg){: rel='nofollow noopener' }" alt="Zwift giver dig masser af muligheder for at få din avatar til at se ret professionel ud."  %}
 
 Det næste trin er at oprette din avatar og give den det rigtige tøj på. Når du lige starter er der ikke så meget _gear_ at vælge imellem, men efterhånden som du kører Zwift flere gange og tjener _drops_, så vil du stige i niveau og du vil få mulighed for at låse op for merer tøj, flere cykler og forskellige hjul.
 
@@ -195,7 +199,7 @@ Der er forskellige kort tilgængelige på Zwift. Zwift har lavet deres egen verd
 
 Watopia er en sammensat rute med fiktive elementer. Richmond- og Innsbruck-banerne er kopier af banerne fra henholdsvis 2015 og 2018 _Road World Championships_, og London bruger ruten til _Prudential RideLondon Classique_.  New York City er hovedsageligt bygget inden for rammerne af Central Park, men formentlig set noget i fremtiden.
 
-{% include figure image_path="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/zwiftin.jpg" caption="Udforsk et større udvalg af virtuelle verdener på Zwift. Der er i hvert fald nok forskellige ruter, så du ikke går tør lige foreløbig." alt="Udforsk et større udvalg af virtuelle verdener på Zwift. Der er i hvert fald nok forskellige ruter, så du ikke går tør lige foreløbig."  %}
+{% include figure image_path="/assets/images/keyassets.timeincuk.net/zwiftin-27960467.jpg" caption="Udforsk et større udvalg af virtuelle verdener på Zwift. Der er i hvert fald nok forskellige ruter, så du ikke går tør lige foreløbig. [📷](https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/zwiftin.jpg){: rel='nofollow noopener' }" alt="Udforsk et større udvalg af virtuelle verdener på Zwift. Der er i hvert fald nok forskellige ruter, så du ikke går tør lige foreløbig."  %}
 
 Der er adskillige brugergenererede Strava-segmenter, men hver rute indeholder også tre forskellige officielle segmenter, der hver vises med en bue i løbet af løbet. Den orange bue måler din samlede omgangstid, den grønne bue måler din tid over en kort sprint, og prikkebuen måler din tid op ad en bakke på hver bane.
 
@@ -215,7 +219,7 @@ Træningstilstand vælges på startskærmen.
 
 Der er et stort antal træningspas at vælge imellem. Du har en funktionel tærskeltesttest, masser af andre individuelle træningsprogrammer baseret på den tid, du har til rådighed, eller den slags træning, du er ude efter, samt komplette træningsplaner designet af folk som Marco Pinotti og Chris Carmichael til at hjælpe dig med at arbejde hen imod forskellige mål.
 
-{% include figure image_path="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/Zwift-Workout-Mode1.jpg" caption="Zwift gruppetræning og meetups kan man sætte programmet op til, at alle holder alle sammen" alt="Zwift gruppetræning og meetups kan man sætte programmet op til, at alle holder alle sammen" %}
+{% include figure image_path="/assets/images/keyassets.timeincuk.net/Zwift-Workout-Mode1-a5760c97.jpg" caption="Zwift gruppetræning og meetups kan man sætte programmet op til, at alle holder alle sammen [📷](https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/Zwift-Workout-Mode1.jpg){: rel='nofollow noopener' }" alt="Zwift gruppetræning og meetups kan man sætte programmet op til, at alle holder alle sammen" %}
 
 Når du kører, er træningen meget let at følge. Til venstre på skærmen har du den overordnede struktur for træningen, i bunden en graf over din styrke gennem hele træningen og øverst en indikation af din nuværende effekt (watt) og den effekt (watt), du skal sigte mod i det specifikke interval.
 
@@ -298,7 +302,7 @@ Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
 
 - **Vælg flade ruter for hurtigere at stige i niveau**. Når du stiger i niveau, så kan du købe nyt udstyr til din avatar. Rytterne får 20 XP for at køre en kilometer, og du kører naturligvis hurtigere på flad vej. Du kan også tjene XP ved at køre workouts, intervaller og _time trials_.
 
-{% include figure image_path="https://zwiftinsider.com/wp-content/uploads/2019/08/2019-03-20_1617542-1024x551.jpg" caption="Du kan låse op for belønninger undervejs i Zwift" alt="Du kan låse op for belønninger undervejs i Zwift" %}
+{% include figure image_path="/assets/images/zwiftinsider.com/2019-03-20_1617542-1024x551-f9eb2856.jpg" caption="Du kan låse op for belønninger undervejs i Zwift [📷](https://zwiftinsider.com/wp-content/uploads/2019/08/2019-03-20_1617542-1024x551.jpg){: rel='nofollow noopener' }" alt="Du kan låse op for belønninger undervejs i Zwift" %}
 
 - **Vælg bjerge for at tjene drops**. Du kan veksle drops til cykler og hjul i Zwift, som din avatar kan køre på. Nogle cykler og dæk kan gøre sådan, at du kører hurtigere eller ser smartere ud. Du tjener flere drops, når bakkerne er over 3% i stigning.
 

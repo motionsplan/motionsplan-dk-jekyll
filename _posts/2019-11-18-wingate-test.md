@@ -5,8 +5,10 @@ permalink: /wingate/
 excerpt: "Wingate test er en 30 sekunders anaerob træningstest som måler anaerob power og kapacitet."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
+  overlay_image: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
+  credit: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-edd65ea2.jpg
+  credit: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
   caption: *title
 category:
   - Tests
@@ -96,11 +98,11 @@ Du kan sammenligne dine resultater med andre unge voksne på baggrund af dette s
 
 Her er et skema for **Peak Power Output**.
 
-{% include figure image_path="https://www.scienceforsport.com/wp-content/uploads/2016/01/Table-1-Peak-power-output-norms-for-active-young-adults.png" caption="Normer for peak power output (PPO) for unge mennesker." alt="Absolutte Peak Power i Wingate-test" %}
+{% include figure image_path="/assets/images/scienceforsport.com/Table-1-Peak-power-output-norms-for-active-young-adults-302b148f.png" caption="Normer for peak power output (PPO) for unge mennesker. [📷](https://www.scienceforsport.com/wp-content/uploads/2016/01/Table-1-Peak-power-output-norms-for-active-young-adults.png){: rel='nofollow noopener' }" alt="Absolutte Peak Power i Wingate-test" %}
 
 I sig selv er Peak Power Output dog ikke så interessant, som den den **relative peak power output**, hvor der er taget højde for kropsvægten.
 
-{% include figure image_path="https://www.scienceforsport.com/wp-content/uploads/2016/01/Table-2-Relative-peak-power-output-norms-for-active-young-adults.png" caption="Normer for peak power output (PPO) for unge mennesker." alt="Relative PPO i Wingate-test" %}
+{% include figure image_path="/assets/images/scienceforsport.com/Table-2-Relative-peak-power-output-norms-for-active-young-adults-ac49da17.png" caption="Normer for peak power output (PPO) for unge mennesker. [📷](https://www.scienceforsport.com/wp-content/uploads/2016/01/Table-2-Relative-peak-power-output-norms-for-active-young-adults.png){: rel='nofollow noopener' }" alt="Relative PPO i Wingate-test" %}
 
 [Richmond et al (2011)](https://www.researchgate.net/publication/288475344_Power_output_in_trained_male_and_female_cyclists_during_the_wingate_test_with_increasing_flywheel_resistance) undersøgte 29 kompetetive cyklister i Wingate-testen. De undersøgte dem med lav modstand og høj modstand. Du kan sammenlige dig selv med deres gennemsnitsværdier.
 

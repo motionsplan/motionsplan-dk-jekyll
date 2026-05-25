@@ -6,7 +6,8 @@ excerpt: "Oplev Arthur Lydiards originale marathontræningsmetoder fra 1960'erne
 permalink: /lydiard/
 language: da
 header:
-  teaser: https://athleticsillustrated.com/wp-content/uploads/2018/09/LydiardBoys.jpg
+  teaser: /assets/images/athleticsillustrated.com/LydiardBoys-1cc2ac02.jpg
+  credit: https://athleticsillustrated.com/wp-content/uploads/2018/09/LydiardBoys.jpg
   caption: *title
 category:
   - Løb
@@ -16,8 +17,10 @@ tags:
   - træningsfilosofi
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
   - question: Hvad er Arthur Lydiards træningsmetode?
     answer: >
@@ -65,7 +68,7 @@ At lytte til kroppens signaler er afgørende. Ved at lære at fortolke kroppens 
 
 I stedet for at forsøge at udvikle alle aspekter af løbeformen samtidigt, fokuserer Lydiard-metoden på at udvikle de nødvendige byggesten individuelt over en længere træningscyklus. Ligesom en pyramide bygges fundamentet først:
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=100w%20100w,%20https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=300w%20300w,%20https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=500w%20500w,%20https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=750w%20750w,%20https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=1000w%201000w,%20https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=1500w%201500w,%20https://images.squarespace-cdn.com/content/v1/64a88eed6e47a17d783d5042/ac11e557-b8b0-4fda-bba5-49fa541ed804/Lydiard-Pyramid.jpg?format=2500w%202500w" %}
+{% include figure image_path="/assets/images/images.squarespace-cdn.com/Lydiard-Pyramid-287990c0.jpg" %}
 
 *   **Aerob Basebygning (Aerobic Base Building):** Udvikling af udholdenhed gennem aerobe løbeture i forskellige tempoer, styret af tid, ikke distance.
 *   **Bakker (Hills):** Opbygning af benstyrke og fleksibilitet, samtidig med at den aerobe base vedligeholdes.

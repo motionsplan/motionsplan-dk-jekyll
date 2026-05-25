@@ -21,7 +21,8 @@ category:
 - Træning
 breadcrumbs: 'true'
 feature_row_strength:
-- image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
+- image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
+  credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
   alt: RepOne device
   url: https://repone-strength.myshopify.com/lars-olesen
   title: Repone

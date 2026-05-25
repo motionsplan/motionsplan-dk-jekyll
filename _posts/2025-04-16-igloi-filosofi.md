@@ -6,7 +6,8 @@ excerpt: "Lær om Mihály Iglóis unikke tilgang til intervaltræning, hvor kort
 permalink: /igloi/
 language: da
 header:
-  teaser: https://fastrunning.com/wp-content/uploads/2021/01/BD54A075-FAFC-4608-B1D9-50E0A36056E0.jpeg
+  teaser: /assets/images/fastrunning.com/BD54A075-FAFC-4608-B1D9-50E0A36056E0-dbabb6e7.jpeg
+  credit: https://fastrunning.com/wp-content/uploads/2021/01/BD54A075-FAFC-4608-B1D9-50E0A36056E0.jpeg
   caption: "1956: Igloi coached athlete Laszlo Tabori with Ken Wood and Istvan Rozsavolgy."
   credit: "Photo: PA Images / Alamy Stock Photo"
 category:
@@ -17,8 +18,10 @@ tags:
   - træningsfilosofi
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
   - question: Hvad er Igloi-metoden?
     answer: >

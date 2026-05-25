@@ -23,7 +23,7 @@ Kulhydrater er den primære energikilde i maden. Jeg kigger her på opbygningen 
 
 **Kulhydrater er opbygget af tre grundstoffer: carbon (C), oxygen (O), hydrogen (H) og kan inddeles i fire klasser: Monosakkarider, disakkarider, oligosakkarider og polysakkarider.**
 
-{% include figure image_path="https://www.biotechacademy.dk/wp-content/uploads/2017/10/Oversigt-kulhydrater.png" caption="Kulhydraterne inddeles i fire forskellige klasser afhængig af deres størrelse: monosakkarider, disakkarider, oligosakkarider og polysakkarider. Kilde: [www.biotechacademy.dk](https://www.biotechacademy.dk/undervisning/grundskole/kroppen-og-kosten/kulhydrater/)" %}
+{% include figure image_path="/assets/images/biotechacademy.dk/Oversigt-kulhydrater-9c19db60.png" caption="Kulhydraterne inddeles i fire forskellige klasser afhængig af deres størrelse: monosakkarider, disakkarider, oligosakkarider og polysakkarider. Kilde: [www.biotechacademy.dk](https://www.biotechacademy.dk/undervisning/grundskole/kroppen-og-kosten/kulhydrater/) [📷](https://www.biotechacademy.dk/wp-content/uploads/2017/10/Oversigt-kulhydrater.png){: rel='nofollow noopener' }" %}
 
 ## Hvad er kulhydrater opbygget af?
 

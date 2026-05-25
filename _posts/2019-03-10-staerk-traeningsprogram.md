@@ -28,17 +28,22 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 gallery:
-  - image_path: https://cdn.shopify.com/s/files/1/0129/4532/products/IMG_8426_1024x1024.jpg?v=1329043769
+  - image_path: /assets/images/cdn.shopify.com/IMG_8426_1024x1024-ca1b0452.jpg
+    credit: https://cdn.shopify.com/s/files/1/0129/4532/products/IMG_8426_1024x1024.jpg?v=1329043769
     url: https://shop.maxer.dk/products/no-brain-no-gain
     title: "T-shirt lavet af Jacob Beermann"
     alt:  "T-shirt lavet af Jacob Beermann"
 gallery_content:
-  - image_path: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
-    url: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
+  - image_path: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse-6fc22c02.jpg
+    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
+    url: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse-6fc22c02.jpg
+    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse.jpg
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
-  - image_path: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
-    url: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
+  - image_path: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse2-06206062.jpg
+    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
+    url: /assets/images/maxer.dk/staerk-bog-indholdsfortegnelse2-06206062.jpg
+    credit: https://maxer.dk/sites/default/files/staerk-bog-indholdsfortegnelse2.jpg
     title: "Indholdsfortegnelse til Stærk"
     alt: "Indholdsfortegnelse til Stærk"
 ---

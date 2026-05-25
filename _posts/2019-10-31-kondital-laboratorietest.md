@@ -146,14 +146,14 @@ Testen afsluttes altså af forsøgslederen ud fra nogle forskellige kriterier.
 
 ### Eksempler på værdier fra en submaksimal løbetest
 
-{% include figure image_path="https://testcenter.vih.dk/assets/images/submax-vaerdier.jpg" caption="Iltoptagelseshastighed og løbeøkonomi" alt="Iltoptagelseshastighed og løbeøkonomi" %}
+{% include figure image_path="/assets/images/testcenter.vih.dk/submax-vaerdier-3596cef6.jpg" caption="Iltoptagelseshastighed og løbeøkonomi [📷](https://testcenter.vih.dk/assets/images/submax-vaerdier.jpg){: rel='nofollow noopener' }" alt="Iltoptagelseshastighed og løbeøkonomi" %}
 
 **OBS:** Procent af VO₂max og maksimal puls kan kun angives, hvis der samtidig laves en maksimal test.
 {: .notice .notice--info }
 
 På baggrund af ovenstående er det muligt at estimere en række træningszoner:
 
-{% include figure image_path="https://testcenter.vih.dk/assets/images/traeningszoner.jpg" caption="Puls og løbehastighedszoner" alt="Puls og løbehastighedszoner og løbeøkonomi" %}
+{% include figure image_path="/assets/images/testcenter.vih.dk/traeningszoner-2ebd3508.jpg" caption="Puls og løbehastighedszoner [📷](https://testcenter.vih.dk/assets/images/traeningszoner.jpg){: rel='nofollow noopener' }" alt="Puls og løbehastighedszoner og løbeøkonomi" %}
 
 En submaksimal test kan være med til at sige noget om [løbeøkonomien ved forskellige hastigheder](/lobeokonomi/).
 

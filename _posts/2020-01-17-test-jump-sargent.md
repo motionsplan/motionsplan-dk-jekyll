@@ -5,8 +5,10 @@ redirect_from:
 permalink: /sargent-jump-test/
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
+  overlay_image: /assets/images/i.ytimg.com/maxresdefault-3fe01ff2.jpg
+  credit: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-3fe01ff2.jpg
+  credit: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
   caption: *title
 category:
   - Tests

@@ -18,7 +18,8 @@ movements:
   - title: Strækning
     muscles:
       - Quadriceps
-image: https://shop9156.hstatic.dk/upload_dir/pics/Menisk-01.jpg
+image: /assets/images/shop9156.hstatic.dk/Menisk-01-23839bbd.jpg
+credit: https://shop9156.hstatic.dk/upload_dir/pics/Menisk-01.jpg
 image_movement: /assets/images/anatomy/movement-knee.png
 header:
   teaser: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg

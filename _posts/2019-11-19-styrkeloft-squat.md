@@ -19,13 +19,16 @@ tags:
 - guide
 last_modified_at: '2025-03-19T23:14:14Z'
 feature_row:
-- image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
   alt: Squat - styrkeløft og powerlifting regler for squat
   excerpt: Squat
-- image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
   alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
   excerpt: Bænkpres
-- image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
+  credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
   alt: Dødløft - poserlifting og styrkeløft regler for dødløft
   excerpt: Dødløft
 feature_row_spreadsheet:
@@ -50,7 +53,8 @@ feature_row_books:
   rel: sponsored nofollow noopener
 quiz:
 - question: Hvor langt skal man ned i squat for at få godkendt løftet?
-  question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  question-attachment: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
   answer: Hofteleddet skal være under knæleddet.
 feature_row_biomekanik:
 - image_path: /assets/images/blog/biomekanik-squat.jpg

@@ -53,7 +53,7 @@ Der er i dag over 140 disc golf baner i Danmark og flere kommer hele tiden til. 
 
 Samtidig er appen virkelig smart, hvis du er en ivrig discgolfspiller. Du kan bruge appen til at lave scorecards, banekort på de enkelte baner, tælle antallet af kast og måle længden på dine kast og træne din putning.
 
-{% include figure image_path="https://udisc.com/images/logos2021/mockups/phone-courses.png" caption="Udisc er en genial app til at finde de forskellige discgolfbaner." alt="Udisc discgolf baneoversigt" %}
+{% include figure image_path="/assets/images/udisc.com/phone-courses-3385f6fb.png" caption="Udisc er en genial app til at finde de forskellige discgolfbaner. [📷](https://udisc.com/images/logos2021/mockups/phone-courses.png){: rel='nofollow noopener' }" alt="Udisc discgolf baneoversigt" %}
 
 På **Professional Disc Golf Association (PDGA)** kan du også finde en **baneoversigt**, som bliver opdateret jævnligt. Tjek deres [liste](https://www.pdga.com/course-directory?field_course_location_country=DK) over disc golf baner. PDGA har imidlertid ikke helt kunnet følge med den rivende udvikling, der har været i anlæggelsen af discgolf baner de seneste år i Danmark, så derfor bruger jeg selv uDisc.
 
@@ -65,7 +65,7 @@ Discgolf er efterhånden ved at være en folkesport i Danmark. Det kan man også
 
 På dette kort fra uDisc kan du se fordelingen af baner rundt omkring i Danmark.
 
-{% include figure image_path="https://cdn.shopify.com/s/files/1/0528/0845/0204/files/Kort_over_disc_golf_baner_i_Danmark_2022_2a5e3f90-03a0-41ed-8c2b-5b4e0fd8d9ca_1024x1024.png?v=1646678224" caption="Discgolfbaner i Danmark ifølge Udisc. Opdateret 2022. Se hele listen på deres [hjemmeside](https://www.pdga.com/course-directory?field_course_location_country=DK). Kilde: [disctree.dk](https://disctree.dk/pages/disc-golf-i-danmark){: rel='nofollow noopener' }" alt="Kort over Discgolf baner i Danmark" %}
+{% include figure image_path="/assets/images/cdn.shopify.com/Kort_over_disc_golf_baner_i_Danmark_2022_2a5e3f90-03a0-41ed-8c2b-5b4e0fd8d9ca_10-b2ec3de5.png" caption="Discgolfbaner i Danmark ifølge Udisc. Opdateret 2022. Se hele listen på deres [hjemmeside](https://www.pdga.com/course-directory?field_course_location_country=DK). Kilde: [disctree.dk](https://disctree.dk/pages/disc-golf-i-danmark){: rel='nofollow noopener' } [📷](https://cdn.shopify.com/s/files/1/0528/0845/0204/files/Kort_over_disc_golf_baner_i_Danmark_2022_2a5e3f90-03a0-41ed-8c2b-5b4e0fd8d9ca_1024x1024.png?v=1646678224){: rel='nofollow noopener' }" alt="Kort over Discgolf baner i Danmark" %}
 
 Når du har fundet en bane, du gerne vil spille, så kan du også tjekke om der findes nogle [lokale regler for handicap på banen](/discgolf-handicap/).
 

@@ -16,7 +16,8 @@ tags:
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
+  - image_path: /assets/images/resources.chainbox.io/010-12883-00ny_A_default-164ceee5.jpg
+    credit: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
     alt: "Garmin HRM-Dual"
     title: "Garmin HRM-Dual"
     excerpt: "HRM-dual Pulsmåler fra Garmin, der er kompatibel med alle Garmin-computere med pulsfunktion. Måleren er blevet opgraderet, så den nu også anvender Bluetooth (BLE), og dermed også er kompatibel med alle andre mærker, der benytter ANT+ eller Bluetooth."
@@ -32,7 +33,8 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://plusshop.dk/media/catalog/product/b/o/bose_sport_earbuds_black.png
+  - image_path: /assets/images/plusshop.dk/bose_sport_earbuds_black-8dada93b.png
+    credit: https://plusshop.dk/media/catalog/product/b/o/bose_sport_earbuds_black.png
     alt: "Bose Sport Free"
     title: "Bose Sport Free"
     excerpt: "Bose Soundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."

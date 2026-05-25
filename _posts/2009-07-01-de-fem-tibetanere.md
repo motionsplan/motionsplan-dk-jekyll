@@ -26,7 +26,8 @@ category:
 - Yoga
 last_modified_at: '2025-04-04T09:41:09Z'
 feature_row:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/de-fem-tibetanere-1-77eebdf6.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
   alt: Bogen De 5 tibetanere af Peter Kelder
   title: De fem tibetanere (bog 1)
   excerpt: Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder.
@@ -45,7 +46,8 @@ feature_row:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_yogamat:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/manduka-x-mat-moerkeblaa-03_1-80695b5e.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
   alt: Manduka X Yoga Mat
   title: Manduka X Yoga Mat
   excerpt: Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan
@@ -55,19 +57,24 @@ feature_row_yogamat:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 gallery:
-- image_path: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_1-4a0d82be.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
   alt: Rite 1
   title: 'Rite 1: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_2-77389d5c.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
   alt: Rite 2
   title: 'Rite 2: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_3-6f7cc038.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
   alt: Rite 3
   title: 'Rite 3: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_4-fabd0585.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
   alt: Rite 4
   title: 'Rite 4: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_5-294233e2.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
   alt: Rite 5
   title: 'Rite 5: De 5 tibetanere'
 faq:
@@ -187,13 +194,13 @@ _Det er ikke meningen, at du skal opleve smerte eller ubehag, når du gennemfør
 
 ### Rite 1
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_01-1296x728.jpg" caption="Rite 1" alt="Rite 1 for de fem tibetanere" %}
+{% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-f4980e3f.jpg" caption="Rite 1 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_01-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 1 for de fem tibetanere" %}
 
 I den første rite skal du stå oprejst og strække armene ud til siden. Drej rundt om dig selv i urets retning i det tempo, der passer dig. Træk vejret dybt og langsomt for at undgå at blive svimmel. Denne øvelse er måske den der for de fleste voksne kræver mest tilvænning.
 
 ### Rite 2
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_02-1296x728.jpg" caption="Rite 2" alt="Rite 2 for de 5 tibetanere" %}
+{% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-7dcd6f30.jpg" caption="Rite 2 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_02-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 2 for de 5 tibetanere" %}
 
 I den anden rite skal du lægge dig fladt på ryggen. Armene skal ligge langs siden og dine håndflader skal vende mod gulvet. Løft nu hovedet op fra gulvet og træk hagen ned mod brystet, mens du løfter dine ben strakte og lodret op. Sænk herefter ben og hoved tilbage igen, så du ender i startpositionen.
 
@@ -203,7 +210,7 @@ Hvis denne øvelse er for hård, kan du med fordele bøje dine ben i stedet for 
 
 ### Rite 3
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg" caption="Rite 3" alt="Rite 3 for de fem tibetanere" %}
+{% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-0215a9e5.jpg" caption="Rite 3 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 3 for de fem tibetanere" %}
 
 Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen.
 
@@ -211,7 +218,7 @@ Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forov
 
 ### Rite 4
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg" caption="Rite 4" alt="Rite 4 for de fem tibetanere" %}
+{% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-fa0675bc.jpg" caption="Rite 4 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 4 for de fem tibetanere" %}
 
 Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen mod brystet. Ryk derefter hovedet så langt tilbage det kan komme, og løft kroppen op i en ”bro”, ved at spænde i alle muskler. Slap herefter af i musklerne og kør din krop tilbage til startpositionen.
 
@@ -219,7 +226,7 @@ Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen p
 
 ### Rite 5
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg" caption="Rite 5" alt="Rite 5 for de fem tibetanere" %}
+{% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-fb348283.jpg" caption="Rite 5 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 5 for de fem tibetanere" %}
 
 For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en "pyramide". Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger.
 

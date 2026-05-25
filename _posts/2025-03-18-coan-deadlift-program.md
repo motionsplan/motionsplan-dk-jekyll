@@ -6,7 +6,8 @@ excerpt: "Følg Coans & Philipis 10-ugers dødløftprogram. Øg din dødløftsty
 permalink: /ed-coan-doedloeft-cyklus/
 language: da
 header:
-  teaser: https://allaboutpowerlifting.com/wp-content/uploads/2014/02/edcoan.jpg
+  teaser: /assets/images/allaboutpowerlifting.com/edcoan-dba0356b.jpg
+  credit: https://allaboutpowerlifting.com/wp-content/uploads/2014/02/edcoan.jpg
   caption: *title
 category:
   - Styrketræning

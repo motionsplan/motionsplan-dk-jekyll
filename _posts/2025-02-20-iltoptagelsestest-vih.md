@@ -52,7 +52,8 @@ Vi prøver to forskellige typer tests.
 1. **Submaksimal trappetest** - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes op. Formålet er at etablere laktatprofil og etablere løbeøkonomi.
 2. **Maksimal rampetest** - hvor belastningen stiger ved at hældningen på løbebåndet øges undervejs. Formålet er at finde den maksimale aerobe kapacitet - og derved konditallet.
 
-{% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" %}
+{% include figure image_path="/assets/images/wp.vih.dk/2K2A0602-2084a13d.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" caption="[📷](https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg){: rel='nofollow noopener' }" %}
+
 
 ## Hvilke målinger laver vi?
 
@@ -137,7 +138,8 @@ Når belastningen stiger, vil en større og større andel af energiomsætningen 
 
 Dette er illustreret i figuren herunder.
 
-{% include figure image_path="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" %}
+{% include figure image_path="/assets/images/static.wixstatic.com/b059e0_c1fed96532df4341b70a4b2c8bb025c6_mv2-c9906655.webp" caption="[📷](https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp){: rel='nofollow noopener' }" %}
+
 
 Oftest taler man om en given "laktat-tærskel", defineret som den højest mulige træningsintensitet (belastning eller løbehastighed), som en person kan opretholde over lang tid.  
 
@@ -241,7 +243,8 @@ Når belastningen stiger, så vil en større del af energiomsætningen komme fra
 
 Laktatkurven skal gerne have et nogenlunde forudsigelig udvikling. Den skal gerne starte fladt ud, inden den stiger stille og roligt, indtil løberen rammer omkring den anaerobe tærskel, hvor laktatophobningen foregår noget hurtigere.
 
-{% include figure image_path="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" %}
+{% include figure image_path="/assets/images/static.wixstatic.com/b059e0_c1fed96532df4341b70a4b2c8bb025c6_mv2-c9906655.webp" caption="[📷](https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp){: rel='nofollow noopener' }" %}
+
 
 ### 💭 Arbejdsspørgsmål
 

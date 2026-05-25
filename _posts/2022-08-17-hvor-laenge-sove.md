@@ -80,7 +80,7 @@ Voksne mennesker skal sove mellem 7-9 timer. Det gennemsnitlige søvnbehov er om
 
 Det skiftende søvnbehov kan ses i et _review_ studie publiceret i [The Journal of the National Sleep Foundation](https://www.sleephealthjournal.org/article/S2352-7218(15)00015-7/fulltext). Her konkluderer forskerne på baggrund af en opsamling af en række undersøgelser, at søvnbehovet den enkelte nat varierer med alderen.
 
-{% include figure image_path="https://web.archive.org/web/20230331161343im_/https://www.vipra.dk/wp-content/uploads/2019/11/hvor-mange-timer-skal-man-sove-tabel-2019.jpg" caption="Søvnbehov gennem livet. Kilde: [www.vipra.dk](https://web.archive.org/web/20230331161343/https://www.vipra.dk/blog/soevnmangel-under-vaegttab-saa-mange-timer-skal-du-sove/){: rel='nofollow noopener' }." alt="søvnbehov med alder" %}
+{% include figure image_path="/assets/images/web.archive.org/hvor-mange-timer-skal-man-sove-tabel-2019-f0c7af16.jpg" caption="Søvnbehov gennem livet. Kilde: [www.vipra.dk](https://web.archive.org/web/20230331161343/https://www.vipra.dk/blog/soevnmangel-under-vaegttab-saa-mange-timer-skal-du-sove/){: rel='nofollow noopener' }. [📷](https://web.archive.org/web/20230331161343im_/https://www.vipra.dk/wp-content/uploads/2019/11/hvor-mange-timer-skal-man-sove-tabel-2019.jpg){: rel='nofollow noopener' }" alt="søvnbehov med alder" %}
 
 Jeg har samlet deres anbefalinger i forhold til alder og **søvnens varighed** i timer i følgende tabel. Det er tydeligt, at der gennem livet er stor forskel på, hvor længe man skal sove?
 
@@ -124,7 +124,7 @@ Alle søvnfaserne er naturligvis vigtige, men den dybe søvn har særlige effekt
 
 I denne grafik kan du få en fornemmelse af, om du sover for meget eller for lidt.
 
-{% include figure image_path="https://www.bedrenaetter.dk/media/wysiwyg/Artikler/Sover_du_for_meget/Anbefaling_Af_S_vn_Uden_Overskrift.jpg" caption="Kilde: [www.bedrenaetter.dk](https://www.bedrenaetter.dk/inspiration-artikler/sover-du-for-meget.html)" %}
+{% include figure image_path="/assets/images/bedrenaetter.dk/Anbefaling_Af_S_vn_Uden_Overskrift-7388ea11.jpg" caption="Kilde: [www.bedrenaetter.dk](https://www.bedrenaetter.dk/inspiration-artikler/sover-du-for-meget.html) [📷](https://www.bedrenaetter.dk/media/wysiwyg/Artikler/Sover_du_for_meget/Anbefaling_Af_S_vn_Uden_Overskrift.jpg){: rel='nofollow noopener' }" %}
 
 ## Konklusion
 

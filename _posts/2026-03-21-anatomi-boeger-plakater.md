@@ -14,7 +14,8 @@ header:
   credit: https://images.unsplash.com/photo-1567607673554-2048def2c6b4
   caption: Anbefalet udstyr og litteratur til anatomi
 feature_row_books:
-- image_path: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
+- image_path: /assets/images/bog-ide.dk/1589853_Cover-b304da8d.jpg
+  credit: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
   alt: Bog Menneskekroppen - Anatomi, fysiologi og sygdomme
   title: Menneskekroppen - Anatomi, fysiologi og sygdomme
   excerpt: Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem
@@ -43,7 +44,8 @@ feature_row_books:
   btn_label: Se prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
+- image_path: /assets/images/denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusa-3b9060a8.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
   alt: Anatomisk Guide til Bevægeapparatet
   title: Anatomisk Guide til Bevægeapparatet
   excerpt: En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle
@@ -52,7 +54,8 @@ feature_row_books:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
+- image_path: /assets/images/bog-ide.dk/1589853_Cover-b304da8d.jpg
+  credit: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
   alt: Menneskekroppen - Anatomi, fysiologi og sygdomme
   title: Menneskekroppen - Anatomi, fysiologi og sygdomme
   excerpt: Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem
@@ -76,32 +79,38 @@ toc: 'true'
 sidebar:
   nav: anatomi
 feature_row_citatplakat:
-- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-med-menneskets-skelet-AN10028.png?v=1734685912
+- image_path: /assets/images/citatplakat.dk/Plakat-med-menneskets-skelet-AN10028-43b1d2bb.png
+  credit: https://citatplakat.dk/cdn/shop/files/Plakat-med-menneskets-skelet-AN10028.png?v=1734685912
   url: https://citatplakat.dk/products/skelettet-anatomi-plakat-1?_pos=2&_sid=d7a1ea844&_ss=r
   title: Skelettet 2 - Anatomi plakat
   alt: plakat med sletttet
   rel: sponsored nofollow noopener
-- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-skelet-bagfra-AN10026.png?v=1734675735
+- image_path: /assets/images/citatplakat.dk/Plakat-om-menneskets-skelet-bagfra-AN10026-ed6638f5.png
+  credit: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-skelet-bagfra-AN10026.png?v=1734675735
   url: https://citatplakat.dk/products/skelettet-bagfra-anatomi-plakat-1?_pos=6&_sid=d7a1ea844&_ss=r
   title: Skelettet bagfra - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: anatomi plakat skelettet bagfra
-- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-med-menneskets-muskler-AN10023.png?v=1734641138
+- image_path: /assets/images/citatplakat.dk/Plakat-med-menneskets-muskler-AN10023-2295349c.png
+  credit: https://citatplakat.dk/cdn/shop/files/Plakat-med-menneskets-muskler-AN10023.png?v=1734641138
   url: https://citatplakat.dk/products/muskulatur-anatomi-plakat?_pos=1&_sid=6a219cf53&_ss=r
   title: Muskulatur bagfra - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: musklerne bagfra
-- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-nervesystem-AN10024.png?v=1734683097
+- image_path: /assets/images/citatplakat.dk/Plakat-om-menneskets-nervesystem-AN10024-3f1b157f.png
+  credit: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-nervesystem-AN10024.png?v=1734683097
   url: https://citatplakat.dk/products/nervesystemet-anatomi-plakat-1?_pos=2&_sid=6009a5234&_ss=r
   title: Nervesystemet - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: nervesystemet plakat
-- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-vejrtraekning-AN10030.png?v=1764613856&width=480
+- image_path: /assets/images/citatplakat.dk/Plakat-om-menneskets-vejrtraekning-AN10030-88cdb4a7.png
+  credit: https://citatplakat.dk/cdn/shop/files/Plakat-om-menneskets-vejrtraekning-AN10030.png?v=1764613856&width=480
   url: https://citatplakat.dk/products/det-respiratoriske-system-anatomi-plakat?_pos=1&_sid=5fe605f46&_ss=r
   title: Det respiratoriske system - Anatomi plakat
   rel: sponsored nofollow noopener
   alt: respiratoriske system og åndedrætssystemet plakat
-- image_path: https://citatplakat.dk/cdn/shop/files/Plakat-af-mandens-anatomi-AN10000.png?v=1734662041
+- image_path: /assets/images/citatplakat.dk/Plakat-af-mandens-anatomi-AN10000-21d91f15.png
+  credit: https://citatplakat.dk/cdn/shop/files/Plakat-af-mandens-anatomi-AN10000.png?v=1734662041
   url: https://citatplakat.dk/products/fysiologi-anatomi-plakat?_pos=1&_psq=fysiologi&_ss=e&_v=1.0
   title: Blodkredsløbet - Anatomi plakat
   vendor: Citatplakat.dk

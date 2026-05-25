@@ -5,8 +5,10 @@ description: "Countermovement Jump (CMJ) måler din eksplosive styrke ved et hop
 permalink: /countermovement-jump-cmj-squat-jump-sj/
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
+  overlay_image: /assets/images/i.ytimg.com/maxresdefault-06f8a2b2.jpg
+  credit: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-06f8a2b2.jpg
+  credit: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
   caption: *title
 category:
   - Tests
@@ -113,7 +115,7 @@ Husk også at normerne kan være lavet med forskelligt udstyr.
 
 Disse normer er lavet med Output Sports tilbehør. Denne tabel samler både mænd og kvinder og deler op i percentiler.
 
-{% include figure image_path="https://cdn.prod.website-files.com/63f47e4d6db6b898d2015dbd/64ca3c82125e9c569b72a6e1_CMJ%20Jump%20Height.png" caption="Kilde: [Output Sports](https://www.outputsports.com/blog/how-do-your-scores-compare-to-normatives-from-thousands-of-athletes-personal-bests-in-power-jumps)" %}
+{% include figure image_path="/assets/images/cdn.prod.website-files.com/64ca3c82125e9c569b72a6e1_CMJ_20Jump_20Height-c9c86542.png" caption="Kilde: [Output Sports](https://www.outputsports.com/blog/how-do-your-scores-compare-to-normatives-from-thousands-of-athletes-personal-bests-in-power-jumps)" %}
 
 I denne post på [Instagram](https://www.instagram.com/p/CMxse7zHwcN/) har de delt normer for kvinder med hænderne på hoften. Det er lidt tankevækkende, at deres normer er det samme som Plantigas med armsving.
 

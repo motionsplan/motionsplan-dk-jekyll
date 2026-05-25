@@ -78,7 +78,7 @@ Man kalder også denne effekt for _kontraktionsinduceret GLUT-4 translokation_. 
 
 Glykogen og kulhydrat er den bedste energikilde, hvis du skal træne hårdt. Hvis man træner hårdt eller flere gange om dagen, så giver det mening at overveje, hvordan man hurtigst muligt får genopfyldt glykogendepoterne i kroppen.
 
-{% include figure image_path="https://sw14958.smartweb-static.com/upload_dir/blog/2018-06-12.png" caption="Glykogenindhold i vastus lateralis målt gør og efter muskelarbejde. Efter træningen er der indtaget flere kulhydratrige måltider med 70% energiprocent. De to grupper fik hhv. kulhydratkilder med lavt glykæmisk indeks og med højt glykæmisk indeks. Figur efter Kiens et al (1998)" %}
+{% include figure image_path="/assets/images/sw14958.smartweb-static.com/2018-06-12-6314f4cb.png" caption="Glykogenindhold i vastus lateralis målt gør og efter muskelarbejde. Efter træningen er der indtaget flere kulhydratrige måltider med 70% energiprocent. De to grupper fik hhv. kulhydratkilder med lavt glykæmisk indeks og med højt glykæmisk indeks. Figur efter Kiens et al (1998)" %}
 
 Figuren ovenfor viser et cykelstudium, hvor man udtømte musklerne. I studiet sammenlignede man måltider med kulhydratkilder som havde hhv. lavt og højt glykæmisk index. Hvis du skal op på niveauerne før træning, så tager det altså mindst omkring 24 timer, og noget tyder på, at det kan betale sig i timerne efter at satse på kulhydratkilder, der har højt glykæmisk index, hvis du hurtigst muligt vil have et så højt niveau som muligt, men efter 24 timer betyder det formentlig mindre.
 
@@ -119,7 +119,7 @@ Noget kan altså tyde på at de studier, der har fundet en positiv effekt af at 
 
 Efter styrketræning vil proteinsyntesen være forhøjet i op til 24 timer (måske helt op til 48 timer) efter træning. Hvis man spiser protein på noget tidspunkt i løbet af denne periode, så vil proteinsyntesen i kroppen gå yderligere i vejret.
 
-{% include figure image_path="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7023/3464665/267143be6ed1/1743-7075-9-40-1.jpg" caption="Styrketræning forårsager proteinsyntesen til at være forhøjet i længere tid. Hvis du spiser protein på noget tidspunkt i denne udvidede periode med anabolsk potentiale, så vil muskelproteinsyntesen gå yderligere op. Figur fra [Churchward-Venné et all (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464665/)" alt="Proteinsyntese i det åbne vindue - anabolic window" %}
+{% include figure image_path="/assets/images/cdn.ncbi.nlm.nih.gov/1743-7075-9-40-1-d9e14897.jpg" caption="Styrketræning forårsager proteinsyntesen til at være forhøjet i længere tid. Hvis du spiser protein på noget tidspunkt i denne udvidede periode med anabolsk potentiale, så vil muskelproteinsyntesen gå yderligere op. Figur fra [Churchward-Venné et all (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464665/) [📷](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7023/3464665/267143be6ed1/1743-7075-9-40-1.jpg){: rel='nofollow noopener' }" alt="Proteinsyntese i det åbne vindue - anabolic window" %}
 
 Men det er tydeligt i figuren, at det anabolske vindue for protein er noget længere end man tidligere har opereret med. Forudsætningen i ovenstående figur er også, at man ikke træner fastende.
 

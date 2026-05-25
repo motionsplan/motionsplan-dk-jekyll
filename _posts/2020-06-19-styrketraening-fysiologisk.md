@@ -242,7 +242,7 @@ Den tunge styrketræning er med til at forbedre præstationsevnen og forebygge i
 
 Det er vigtigt at huske på, at _rep ranges_ er en tommelfingerregel i forhold til, hvad man opnår med styrketræning. Billedet er meget mere mudret end man skulle tro, når man læser rundt omkring i styrketræningslitteraturen.
 
-{% include figure image_path="https://myzone-strengtheory.netdna-ssl.com/wp-content/uploads/2016/02/12752057_10153492667389016_1119053659_o.jpg" caption="Der er mange veje til det samme mål i forhold til styrke og hypertrofi. Kilde: [Greg Nuckols](https://www.strongerbyscience.com/hypertrophy-range-fact-fiction/)" %}
+{% include figure image_path="/assets/images/myzone-strengtheory.netdna-ssl.com/12752057_10153492667389016_1119053659_o-2c32c65b.jpg" caption="Der er mange veje til det samme mål i forhold til styrke og hypertrofi. Kilde: [Greg Nuckols](https://www.strongerbyscience.com/hypertrophy-range-fact-fiction/) [📷](https://myzone-strengtheory.netdna-ssl.com/wp-content/uploads/2016/02/12752057_10153492667389016_1119053659_o.jpg){: rel='nofollow noopener' }" %}
 
 Tidligere har vi skrevet en artikel, der handler om, [hvordan muskler vokser](/hvordan-vokser-muskler/), som giver nogle praktiske anvisninger på, hvordan du kan træne for muskeltilvækst.
 

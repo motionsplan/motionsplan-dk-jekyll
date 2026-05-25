@@ -15,7 +15,8 @@ category:
 - Styrketræning
 last_modified_at: '2015-03-09T15:37:15Z'
 feature_row:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Kettlebell_14_kg_sort__eb3.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/Kettlebell_14_kg_sort__eb3_w774_h774_fill-4e64541e.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Kettlebell_14_kg_sort__eb3.w774.h774.fill.jpg
   alt: Peak Fitness Kettlebell
   title: Peak Fitness Kettlebell
   excerpt: En super lækker kettlebell af støbejern, som er delvist betrukket med et kraftigt lag neopren for at beskytte gulv.
@@ -23,7 +24,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Peak_Fitness_Competition_Kettlebell_12_kg_2.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/Peak_Fitness_Competition_Kettlebell_12_kg_2_w774_h774_fill-7c60aaa5.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Peak_Fitness_Competition_Kettlebell_12_kg_2.w774.h774.fill.jpg
   alt: Peak Fitness Competition Kettlebell
   title: Peak Fitness Competition Kettlebell
   excerpt: Peak Fitness Competition Kettlebells er lavet af stål, og har de internationale farvekoder, hvilket gør det nemt

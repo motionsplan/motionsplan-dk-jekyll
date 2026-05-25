@@ -17,7 +17,8 @@ category:
 - Yoga
 last_modified_at: '2025-03-05T09:41:09Z'
 feature_row:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/de-fem-tibetanere-1-77eebdf6.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
   alt: Bogen De 5 tibetanere af Peter Kelder
   title: De fem tibetanere (bog 1)
   excerpt: Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder.
@@ -36,7 +37,8 @@ feature_row:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_yogamat:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/manduka-x-mat-moerkeblaa-03_1-80695b5e.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
   alt: Manduka X Yoga Mat
   title: Manduka X Yoga Mat
   excerpt: Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan
@@ -46,19 +48,24 @@ feature_row_yogamat:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 gallery:
-- image_path: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_1-4a0d82be.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
   alt: Rite 1
   title: 'Rite 1: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_2-77389d5c.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
   alt: Rite 2
   title: 'Rite 2: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_3-6f7cc038.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
   alt: Rite 3
   title: 'Rite 3: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_4-fabd0585.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
   alt: Rite 4
   title: 'Rite 4: De 5 tibetanere'
-- image_path: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
+- image_path: /assets/images/upload.wikimedia.org/Five_tibetan_rite_5-294233e2.gif
+  credit: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
   alt: Rite 5
   title: 'Rite 5: De 5 tibetanere'
 faq:

@@ -68,4 +68,4 @@ Et [studie](http://www.mltj.online/wp-content/uploads/2020/12/REZAEI-2.pdf) har 
 
 Du kan bruge måle Nordic Hamstring Breakpoint Angle med IOS-appen [My Jump Lab](https://apps.apple.com/us/app/my-jump-lab/id1554077178){: rel="noopener nofollow" }. Den er rigtig let at bruge.
 
-{% include figure image_path="https://www.carlos-balsalobre.com/images/Nordics_iphone.png" caption="Du filmer ganske enkelt et forsøg i Nordic Hamstring fra siden. Derefter skal du sætte nogle markører ind, der angiver, hvornår breakpoint angle er der. Kilde: [www.carlos-balsalobre.dk](https://www.carlos-balsalobre.com/)" %}
+{% include figure image_path="/assets/images/carlos-balsalobre.com/Nordics_iphone-c5597e58.png" caption="Du filmer ganske enkelt et forsøg i Nordic Hamstring fra siden. Derefter skal du sætte nogle markører ind, der angiver, hvornår breakpoint angle er der. Kilde: [www.carlos-balsalobre.dk](https://www.carlos-balsalobre.com/) [📷](https://www.carlos-balsalobre.com/images/Nordics_iphone.png){: rel='nofollow noopener' }" %}

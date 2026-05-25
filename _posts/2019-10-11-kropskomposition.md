@@ -8,8 +8,10 @@ redirect_from:
   - /artikel/kropskomposition/
 language: da
 header:
-  overlay_image: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
-  teaser: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
+  overlay_image: /assets/images/crossfitdnr.com/inbody-dnr-570-47249275.jpg
+  credit: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
+  teaser: /assets/images/crossfitdnr.com/inbody-dnr-570-47249275.jpg
+  credit: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
   caption: *title
 category:
   - Kost & Ernæring
@@ -42,7 +44,7 @@ I en måling af kropskomposition er vi interesseret i at måle fedtprocent, musk
 
 Kropssammensætning kan måles op til maksimalt fem kompartmenter – atomar, molekylær, cellulær, væv og hele kroppen (Wang et al 1992).
 
-{% include figure image_path="https://rubenmeerman.com/wp-content/uploads/Five-level-model-of-human-body-composition-colour.png" caption="[Ruben Meerman](https://rubenmeerman.com/five-level-model-of-the-human-body/)" %}
+{% include figure image_path="/assets/images/rubenmeerman.com/Five-level-model-of-human-body-composition-colour-b2166352.png" caption="[Ruben Meerman](https://rubenmeerman.com/five-level-model-of-the-human-body/) [📷](https://rubenmeerman.com/wp-content/uploads/Five-level-model-of-human-body-composition-colour.png){: rel='nofollow noopener' }" %}
 
 I de fleste tilfælde, jo flere kompartmenter der måles, desto mindre fejl er der i estimaterne af kroppens sammensætning.
 
@@ -70,7 +72,7 @@ Ud over fedt, så inddeles den fedtfrie masse i  i lean tissue mass, LTM, og kno
 
 En lidt mere detaljeret model bryder kroppens komponenter ned i flere dele.
 
-{% include figure image_path="https://www.chardermedical.com/upload-files/blog/202408_4C/4C.jpg" caption="Kilde: [Charder Medical](https://www.chardermedical.com/news/blog/Guide-to-the-4-Compartment-Body-Composition-Model.htm)" %}
+{% include figure image_path="/assets/images/chardermedical.com/4C-fb218c0e.jpg" caption="Kilde: [Charder Medical](https://www.chardermedical.com/news/blog/Guide-to-the-4-Compartment-Body-Composition-Model.htm) [📷](https://www.chardermedical.com/upload-files/blog/202408_4C/4C.jpg){: rel='nofollow noopener' }" %}
 
 1. Vand
 : Voksne har mere end 50% vand i kroppen. Fedt, muskler, blod og andre kropsvæsker indeholder vand. Der er vand inde i cellerne (intracellular) og uden for cellerne (extracellular).
@@ -97,7 +99,7 @@ Skeletal Muscle Mass (SMM)
 
 Samlet kan de to modeller give dig en mere præcis opfattelse af, hvad din krop består af. Hvis du styrketræning, så kan det være motiverende at se, at muskelmassen vokser.
 
-{% include figure image_path="https://static.wixstatic.com/media/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared)" %}
+{% include figure image_path="/assets/images/static.wixstatic.com/a04440_131547bf5e7748c392b7b6b5de704a62_mv2-4e176b12.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared) [📷](https://static.wixstatic.com/media/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_131547bf5e7748c392b7b6b5de704a62~mv2.jpg){: rel='nofollow noopener' }" %}
 
 ## Hvad er vigtigt med kropssammensætning?
 
@@ -105,7 +107,7 @@ Men hvad betyder måling af kropskomposition, muskelmasse og fedtmasse for den a
 
 Du har sikkert hørt om BMI, som på befolkningsgruppeniveu kan forudsige mortalitet, men det er ikke så præcist på individniveau, fordi målingen ikke kan afdække, hvad kropsvægten består af. Som skrevet tidligere så er fedt nødvendigt for en velfungerende krop, men for meget fedt kan være forbundet med sundhedsproblemer. Selvom man er normalvægtig set ud fra BMI, kan man således godt have en fedtprocent, som er lidt for høj.
 
-{% include figure image_path="https://static.wixstatic.com/media/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared)" %}
+{% include figure image_path="/assets/images/static.wixstatic.com/a04440_4d589093bbfe43389d0dcb4919fc7e15_mv2-34e9c0bd.jpg" caption="Kilde: [My Sport Science](https://www.mysportscience.com/post/body-composition-methods-compared) [📷](https://static.wixstatic.com/media/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg/v1/fill/w_1249,h_800,al_c,q_85,enc_avif,quality_auto/a04440_4d589093bbfe43389d0dcb4919fc7e15~mv2.jpg){: rel='nofollow noopener' }" %}
 
 ## Sådan måler du din kropskomposition - 5 metoder
 
@@ -129,7 +131,7 @@ I modsætning til vandvejning kan DEXA-scannere måle de enkelte segmenter, så 
 
 DEXA-scanninger er ofte relativt dyrt at få lavet.
 
-{% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](https://nicksmithphotography.com/)" alt="DEXA Scanner" %}
+{% include figure image_path="/assets/images/cdn.shopify.com/1047px-DEXA_scanner_in_use_ALSPAC_grande-962adfd6.jpg" caption="DEXA-scanner. Image Credit: [Nick Smith photography](https://nicksmithphotography.com/) [📷](https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401){: rel='nofollow noopener' }" alt="DEXA Scanner" %}
 
 ### 3. Hudfoldsmåling (fedttang)
 

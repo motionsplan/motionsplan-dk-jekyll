@@ -108,7 +108,7 @@ Du kan lære lidt mere om 'butt wink' her:
 
 I øvelser hvor du har bevægelse i knæleddet kan det være hensigtsmæssigt at tæerne peger i samme retning som knæleddet. Så hvis tæerne peger lidt ud til siden, skal knæene pege samme vej, hvis der er en bøjning i knæleddet.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette *case* studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
+{% include figure image_path="/assets/images/images.squarespace-cdn.com/Sarah_Front_view_squat_export_final-0e6c34b3.jpg" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette *case* studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec) [📷](https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w){: rel='nofollow noopener' }" alt="teknik i styrketræning" %}
 
 ### 5. Stå på hele foden - 'tripod foot'
 
@@ -116,7 +116,7 @@ Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraf
 
 Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre punkter, som i figuren nedenunder.
 
-{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)." alt="tripod foot teknik styrketræning" %}
+{% include figure image_path="/assets/images/jacktylerperformance.com/FOOT-TRIPOD-048f136d.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/). [📷](https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png){: rel='nofollow noopener' }" alt="tripod foot teknik styrketræning" %}
 
 ### 6. Respekter bevægeligheden i skuldrene
 
@@ -200,7 +200,7 @@ Konstantinovs har løftet 426 kg med en kropsvægt på 140 kg.
 
 ## Lamar Gant, skoliose og teknik i dødløft
 
-{% include figure image_path="https://i.pinimg.com/originals/00/2e/9c/002e9cf5c7ec98943d1426efb1e610b2.jpg" caption="Lamar Gant under konkurrence. Gant har pga. sin skoliose et lockout i dødløft, hvor stangen er lidt tættere på jorden end mange andre." alt="Lamar Gant under konkurrence" %}
+{% include figure image_path="/assets/images/i.pinimg.com/002e9cf5c7ec98943d1426efb1e610b2-9e274e32.jpg" caption="Lamar Gant under konkurrence. Gant har pga. sin skoliose et lockout i dødløft, hvor stangen er lidt tættere på jorden end mange andre. [📷](https://i.pinimg.com/originals/00/2e/9c/002e9cf5c7ec98943d1426efb1e610b2.jpg){: rel='nofollow noopener' }" alt="Lamar Gant under konkurrence" %}
 
 Et andet eksempel er [Lamar Gant](https://web.archive.org/web/20201112015104/https://www.hudsonvalleyscoliosis.com/lamar-gant-scoliosis/){: rel="nofollow noopener" } som har haft verdensrekorden både i dødløft og i bænkpres for sin vægtklasse. Han løfter med ret krum ryg i dødløft.
 
@@ -208,7 +208,7 @@ Et andet eksempel er [Lamar Gant](https://web.archive.org/web/20201112015104/htt
 
 Lamar Gant har _skoliose_. Jeg har hørt en historie om ham, at lægerne frarådede ham at træne, fordi det ville være farligt for hans ryg. Men han besluttede sig for, at træning skulle gøre ham i stand til at bevæge sig bedre i stedet.
 
-{% include figure image_path="https://www.hudsonvalleyscoliosis.com/wp-content/uploads/2016/12/lamar-gant-scoliosis.jpg" caption="Lamar Gants ryg er yderst veludviklet, selvom det også er tydeligt, at han har skoliose. Men muskelopbygningen er med til at beskytte rygsøjlen." alt="Lamar Gants ryg" %}
+{% include figure image_path="/assets/images/hudsonvalleyscoliosis.com/lamar-gant-scoliosis-06c909b6.jpg" caption="Lamar Gants ryg er yderst veludviklet, selvom det også er tydeligt, at han har skoliose. Men muskelopbygningen er med til at beskytte rygsøjlen. [📷](https://www.hudsonvalleyscoliosis.com/wp-content/uploads/2016/12/lamar-gant-scoliosis.jpg){: rel='nofollow noopener' }" alt="Lamar Gants ryg" %}
 
 Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til noget andet.
 
@@ -226,7 +226,7 @@ Her er en lille hjemmelavet model af hele squat-bevægelsen, der viser dig de fo
 
 Det samme gør sig gældende med dødløft. Den relative længde af dine skinneben, lårben, arme og ryg betyder meget for, hvordan det kan være mest optimalt for dig at løfte.
 
-{% include figure image_path="https://trainforskills.pl/wp-content/uploads/2020/02/hip-hinge-768x576.jpg" caption="Hoftens placering i dødløft" alt="Hoftens placering i dødløft" %}
+{% include figure image_path="/assets/images/trainforskills.pl/hip-hinge-768x576-4c8c188d.jpg" caption="Hoftens placering i dødløft [📷](https://trainforskills.pl/wp-content/uploads/2020/02/hip-hinge-768x576.jpg){: rel='nofollow noopener' }" alt="Hoftens placering i dødløft" %}
 
 Der er altså mange måder at løfte på og mange måder at bevæge sig på. Det man øver sig på, bliver man bedre til, og det man ikke øver sig på, bliver man dårligere til.
 

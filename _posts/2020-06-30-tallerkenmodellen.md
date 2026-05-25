@@ -82,7 +82,7 @@ Det Amerikanske Landbrugsministerium, U.S. Department of Agriculture (USDA) anbe
 
 X-modellen er baseret på amerikanske ernæringsanbefalinger. Tendensen i X-tallerkenen er at der anbefales færre kornprodukter og mere protein, især i forbindelse med diæter til vægttab. Der foregår fortsat en del debat om, hvordan den sundeste fordeling mellem kulhydrat og protein er.
 
-{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="X-tallerken-modellen fra [USDA](https://fdc.nal.usda.gov/)" alt="X-tallerkenmodellen" %}
+{% include figure image_path="/assets/images/i2.wp.com/MyPlateInfographic-f867fcd5.png" caption="X-tallerken-modellen fra [USDA](https://fdc.nal.usda.gov/)" alt="X-tallerkenmodellen" %}
 
 _My Plate_ indeholder følgende følgende:
 
@@ -149,7 +149,7 @@ Team Danmark foreslår følgende værdier for kulhydrat og protein i forhold til
 
 Casper Jespersen [foreslår](https://casperjespersen.dk/den-modificerede-tallerkenmodel-til-dig-der-gerne-vil-spise-ude/) en modificeret tallerkenmodel, som jeg rigtig godt kan lide. Egentlig er det bare en præcisering af T-tallerkenmodellen. Casper Jespersen opprioriterer, at det skal være grøntsagerne på tallerkenen, der fylder mest (ikke frugt). Casper Jespersen er personlig træner og arbejder ofte med klienter, som har et ønske om at tabe sig.
 
-{% include figure image_path="https://casperjespersen.dk/wp-content/uploads/2019/01/50517273_619006101861854_6042291499616436224_n.jpg" caption="Casper Jespersens grøntsagsmodificerede tallerkenmodel" alt="Modificeret tallerkenmodel" %}
+{% include figure image_path="/assets/images/casperjespersen.dk/50517273_619006101861854_6042291499616436224_n-0d18af13.jpg" caption="Casper Jespersens grøntsagsmodificerede tallerkenmodel [📷](https://casperjespersen.dk/wp-content/uploads/2019/01/50517273_619006101861854_6042291499616436224_n.jpg){: rel='nofollow noopener' }" alt="Modificeret tallerkenmodel" %}
 
 > I stedet for ovenstående tallerkener, anbefaler jeg, at din tallerken består af 25% protein, 25% kulhydrat/fedt og 50% grøntsager. Derudover anbefaler jeg, at du drikker vand i minimum (gerne mere) samme mængde som vin/alkohol. Uanset om du er på restaurant eller hos gode venner og familie.
 >

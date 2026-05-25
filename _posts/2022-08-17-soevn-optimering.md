@@ -104,7 +104,7 @@ Du kan lære meget mere i denne [podcast fra Superhuman Academy](https://superhu
 
 Nick Littlehales har lavet et koncept, han kalder R90. Der er i alt 7 *Key Sleep Recovery Indicators* (KSRI) i hans system. Dem har han selv skitseret sådan her på et slide.
 
-{% include figure image_path="https://www.thesun.co.uk/wp-content/uploads/2018/11/sleep.jpg" caption="Nøgleindikatorer på en god søvn ifølge Nick Littlehales. Kilde: [www.thesun.co.uk](https://www.thesun.co.uk)" alt="Nick Littlehales R90" %}
+{% include figure image_path="/assets/images/thesun.co.uk/sleep-ab35abc0.jpg" caption="Nøgleindikatorer på en god søvn ifølge Nick Littlehales. Kilde: [www.thesun.co.uk](https://www.thesun.co.uk) [📷](https://www.thesun.co.uk/wp-content/uploads/2018/11/sleep.jpg){: rel='nofollow noopener' }" alt="Nick Littlehales R90" %}
 
 De syv indikatorer Littlehales har identificeret i forhold til søvnen kan være en god måde at gennemgå de væsentlige nøglepunkter i forbindelse med søvnen.
 
@@ -140,7 +140,7 @@ Hvis du ikke ved, om du er et A- eller B-menneske, så kan du læse mere om de f
 
 Baggrunden for dette er at **en søvncyklus** tager omkring 90 minutter.
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Hypro_zyklus_1_en_103.svg/1920px-Hypro_zyklus_1_en_103.svg.png" caption="En søvncyklus med de forskellige stadier af søvn. Billede: [Wikipedia](https://en.wikipedia.org/wiki/Sleep_cycle). Se beskrivelse på [www.sportsleepcoach.com](https://www.sportsleepcoach.com/blogs/blogs/the-cycles-of-sleep)." %}
+{% include figure image_path="/assets/images/upload.wikimedia.org/1920px-Hypro_zyklus_1_en_103_svg-a9d034fd.png" caption="En søvncyklus med de forskellige stadier af søvn. Billede: [Wikipedia](https://en.wikipedia.org/wiki/Sleep_cycle). Se beskrivelse på [www.sportsleepcoach.com](https://www.sportsleepcoach.com/blogs/blogs/the-cycles-of-sleep). [📷](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Hypro_zyklus_1_en_103.svg/1920px-Hypro_zyklus_1_en_103.svg.png){: rel='nofollow noopener' }" %}
 
 Når en søvncyklus tager 90 minutter, så bør man ifølge Littlehales altså i stedet tænke i 90 minutters søvncyklusser. Derfor skal vi finde vores **constant wakeup time** - altså det tidspunkt vi gerne vil stå op hver morgen. Det er væsentligt for Littlehales at dette tidspunkt er det samme både i hverdage og i weekender. Dette tidspunkt afhænger naturligvis ofte af dit hverdagsliv. Når du har fundet dette tidspunkt, så kan du regne baglæns fra dette tidspunkt for at finde det tidspunkt, du skal gå i seng på.
 
@@ -188,7 +188,7 @@ Soveomgivelserne og soveværelset er naturligvis utrolig vigtigt. Littlehales fr
 
 Anna West er også ekspert i søvn. Hun rådgiver bl.a. fodboldklubber gennem sin konsulentvirksomhed, [SleepToPerform](https://sleep2perform.com/). Du kan høre Anna West fortælle om sit arbejde med fodboldklubberne her.
 
-<a class="spreaker-player" href="https://www.spreaker.com/user/15082972/anna-west_1" data-resource="episode_id=47479195" data-theme="light" data-playlist="false" data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/a8c9b047e4d54d82e6ee744c78e3e5c8.jpg" data-width="100%" data-height="400px">Listen to "#S1E3 - BONUS - Anna West" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
+<a class="spreaker-player" href="https://www.spreaker.com/user/15082972/anna-west_1" data-resource="episode_id=47479195" data-theme="light" data-playlist="false" data-cover="/assets/images/d3wo5wojvuv7l.cloudfront.net/a8c9b047e4d54d82e6ee744c78e3e5c8-8a02cbb8.jpg" data-width="100%" data-height="400px">Listen to "#S1E3 - BONUS - Anna West" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
 
 Anna West [lægger vægt på](https://sems.ch/fileadmin/user_upload/Zeitschrift/66-2018-4/4-2018_7_West.pdf) **søvnhygiejne**. Hun skriver, at mange ikke er så dygtige til selv at vurdere deres søvnvaner. Derfor kan det være en god ide med en struktureret og lavpraktisk tilgang, fx gennem [brug af søvndagbog](/soevndagbog/).
 

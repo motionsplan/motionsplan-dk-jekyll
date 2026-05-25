@@ -6,7 +6,8 @@ description: Lær hvordan du opsætter og bruger AccuPower kraftplatformen til p
 permalink: /accupower-setup/
 language: da
 header:
-  teaser: https://www.accupowersolutions.com/wp-content/uploads/2018/10/For-Website-Forces-Side.jpg
+  teaser: /assets/images/accupowersolutions.com/For-Website-Forces-Side-b02cac92.jpg
+  credit: https://www.accupowersolutions.com/wp-content/uploads/2018/10/For-Website-Forces-Side.jpg
 category:
   - Udstyr
 tags:

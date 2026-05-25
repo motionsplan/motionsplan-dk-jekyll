@@ -114,7 +114,7 @@ Du kan imidlertid også købe energidrikke og elektrolyttabletter, der indeholde
 
 Hvor stor er effekten egentlig af dehydrering, og hvor meget dehydrering skal der til før der er fald i præstationsevnen? Team Danmark har lavet denne glimrende grafik:
 
-{% include figure image_path="https://www.teamdanmark.dk/media/2424/udholdenhed-graa.png" caption="Kilde: [www.teamdanmark.dk](https://www.teamdanmark.dk/performance/sportsernaering/vaeske/)" alt="væskebalance, dehydrering og præstationsevne" %}
+{% include figure image_path="/assets/images/teamdanmark.dk/udholdenhed-graa-7c482c47.png" caption="Kilde: [www.teamdanmark.dk](https://www.teamdanmark.dk/performance/sportsernaering/vaeske/) [📷](https://www.teamdanmark.dk/media/2424/udholdenhed-graa.png){: rel='nofollow noopener' }" alt="væskebalance, dehydrering og præstationsevne" %}
 
 Grafikken viser nedsættelsen af præstationen for udholdenhedspræstationer. Der er nemlig ikke samme fald i præstation for styrkerelaterede aktiviteter.
 

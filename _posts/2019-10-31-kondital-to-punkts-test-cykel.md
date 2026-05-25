@@ -4,8 +4,10 @@ permalink: /topunktstest/
 excerpt: "Åstrands to-punktstest er en submaksimal konditionstest på en ergometercykel, hvor du måler belastning og puls."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
+  overlay_image: /assets/images/i.ytimg.com/maxresdefault-7aae0c63.jpg
+  credit: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-7aae0c63.jpg
+  credit: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
   caption: *title
 category:
   - Kondition

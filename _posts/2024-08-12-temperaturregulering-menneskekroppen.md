@@ -45,7 +45,7 @@ Kroppen har alle mulige måder at holde temperaturen konstant på.
 
 ### Lufttemperaturen er lavere end hudtemperaturen
 
-{% include figure image_path="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool2.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1)" %}
+{% include figure image_path="/assets/images/hyperphysics.phy-astr.gsu.edu/bodycool2-5338b20c.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1) [📷](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool2.png){: rel='nofollow noopener' }" %}
 
 Dette er naturligvis en forsimplet udgave af temperaturreguleringen. Selvom du er inaktiv, så skal du stadig af med en del varme, som hænger sammen med [dit hvilestofskifte](/bmr-beregner-hvilestofskifte-basalstofskifte/).
 
@@ -57,7 +57,7 @@ Hudtemperaturen er typisk omkring 34 C i hvile, og din kernetemperatur er omkrin
 
 ## Lufttemperaturen er højere end hudtemperaturen
 
-{% include figure image_path="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool3.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1)" %}
+{% include figure image_path="/assets/images/hyperphysics.phy-astr.gsu.edu/bodycool3-eee0a703.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1) [📷](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool3.png){: rel='nofollow noopener' }" %}
 
 Når lufttemperaturen er højere end kropstemperaturen, så bliver det lidt vanskeligere at komme af med varmen.
 
@@ -105,7 +105,7 @@ I et eksempel med køling af kroppen, så kan du naturligvis ikke nøjagtigt se,
 
 Det er et gæt, at barrieren er `d = 5 cm` inden luften er kølet ned til den omgivende temperatur, når du sidder stille. 
 
-{% include figure image_path="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/wall2.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c4)" %}
+{% include figure image_path="/assets/images/hyperphysics.phy-astr.gsu.edu/wall2-de20105d.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c4) [📷](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/wall2.png){: rel='nofollow noopener' }" %}
 
 Hvis du har en blæser til at fjerne den opvarmede luft eller kører udenfor i vinden, så vil konduktionen blive noget højere.
 

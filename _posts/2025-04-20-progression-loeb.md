@@ -20,8 +20,10 @@ tags:
 - træningslære
 last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
 - question: Hvordan ved jeg, om jeg er i gang med at overtræne?
   answer: 'Tegn på overtræning kan inkludere vedvarende træthed, nedsat præstation, ømhed der ikke forsvinder, og manglende

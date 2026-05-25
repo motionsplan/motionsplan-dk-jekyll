@@ -116,7 +116,7 @@ Man skal virkelig være varsom med at fortolke en korrelation som kausalitet. Ty
 
 Her er et par humoristiske eksempler på korrelationer, som næppe er kausale årsagssammenhænge.
 
-{% include figure image_path="https://n1s1t23sxna2acyes3x4cz0h-wpengine.netdna-ssl.com/wp-content/uploads/2014/09/autism-organic2.jpg" caption="Der er en korrelation mellem salget af økologiske madvarer og autisme. Kausalitet? Næppe! - via [sciencebasedmedicine.org](https://sciencebasedmedicine.org/autism-prevalence-unchanged-in-20-years/). " %}
+{% include figure image_path="/assets/images/n1s1t23sxna2acyes3x4cz0h-wpengine.netdna-ssl.com/autism-organic2-29b5f844.jpg" caption="Der er en korrelation mellem salget af økologiske madvarer og autisme. Kausalitet? Næppe! - via [sciencebasedmedicine.org](https://sciencebasedmedicine.org/autism-prevalence-unchanged-in-20-years/). [📷](https://n1s1t23sxna2acyes3x4cz0h-wpengine.netdna-ssl.com/wp-content/uploads/2014/09/autism-organic2.jpg){: rel='nofollow noopener' }" %}
 
 Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](https://medium.com/@menaka_17260/will-your-bedsheet-kill-you-if-you-consume-cheese-aka-does-correlation-imply-causation-5453c6901b88):
 
@@ -124,7 +124,7 @@ Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](
 
 Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mellem druknede og film med Nicolas Cage](https://www.nationalgeographic.com/science/phenomena/2015/09/11/nick-cage-movies-vs-drownings-and-more-strange-but-spurious-correlations/):
 
-{% include figure image_path="https://i.imgur.com/q54sO25.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359)." %}
+{% include figure image_path="/assets/images/i.imgur.com/q54sO25-0dde1781.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! Kilde: [tylervigen.com](https://tylervigen.com/view_correlation?id=359). [📷](https://i.imgur.com/q54sO25.png){: rel='nofollow noopener' }" %}
 
 Korrelation bliver ofte forvekslet med kausalitet i medierne og i fitnessmiljøet. Når man laver fejlfortolkninger, så kan det ende med at specifikke næringsstoffer eller fødevarer bliver gjort til uretmæssig syndebuk - tag bare et kig på sukker, kulhydrater og mælkeprodukter.
 

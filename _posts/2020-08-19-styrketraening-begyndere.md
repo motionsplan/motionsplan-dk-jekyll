@@ -385,7 +385,7 @@ Nogle bevægelser i styrketræning er virkelig væsentlige. Den bevægelse der e
 
 Du skal lære at knække i hoften med bløde knæ og hovedet i forlængelse af kroppen. En måde at træne det på kan være med kosteskaft som på nedenstående billede, hvor kosteskaftet skal røre nedre ryg, øvre ryg og bagsiden af hovedet. Hvis du ikke vil lære andet, så lær det her!
 
-{% include figure image_path="https://acewebcontent.azureedge.net/fit-life/2016/06/2016-06-07-Classic-Exercises-Everyone-Should-Master-03.png" caption="" %}
+{% include figure image_path="/assets/images/acewebcontent.azureedge.net/2016-06-07-Classic-Exercises-Everyone-Should-Master-03-19dae7ce.png" caption=" [📷](https://acewebcontent.azureedge.net/fit-life/2016/06/2016-06-07-Classic-Exercises-Everyone-Should-Master-03.png){: rel='nofollow noopener' }" %}
 
 ### Sprint
 

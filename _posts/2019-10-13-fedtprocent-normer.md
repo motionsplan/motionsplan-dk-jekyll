@@ -15,7 +15,8 @@ tags:
 last_modified_at: '2021-11-06T23:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
   alt: Tanita DC 360P Kropsanalysevægt
   title: Tanita DC 360P Kropsanalysevægt
   excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
@@ -24,7 +25,8 @@ feature_row:
   btn_label: Tjek pris
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+- image_path: /assets/images/shop93647.sfstatic.io/tanita-mc_w774_h774_fill-7d7a5bf0.webp
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
   alt: Tanita MC 780 P MA
   title: Tanita MC 780 P MA
   excerpt: Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte.
@@ -141,7 +143,7 @@ En god fedtprocent afhænger af, hvad dine mål er. Derfor skal din fedtprocent 
 
 Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Fedtprocent for mænd og kvinder" %}
+{% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Fedtprocent for mænd og kvinder" %}
 
 ## Måling af fedtprocent
 
@@ -165,7 +167,7 @@ Læs: [Fedtprocent beregner: Udregn fra alder, højde og vægt](/artikel/udregni
 
 Kvinders fedtprocent er højere end mænds for det samme BMI. I Jackson et al (2002) viste de, at kvindernes fedtprocent faktisk var 10,4% højere end mænds. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
 
-{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
+{% include figure image_path="/assets/images/halls.md/heritage-a12b6971.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/) [📷](https://halls.md/bmi/images/heritage.gif){: rel='nofollow noopener' }" %}
 
 Kvinder har større fedtdepoter, fordi de har brug for mere energi til de processer der har med at gøre, at de kan føde børn.
 

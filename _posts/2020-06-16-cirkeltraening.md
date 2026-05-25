@@ -52,7 +52,7 @@ Du gør følgende for at planlægge din cirkeltræning:
 4. **Find passende musik**. Jeg har næsten altid musik til, når jeg laver cirkeltræning. Ofte har jeg kombineret musikken med en _tidtager-app_ på telefonen, som hjælper mig med at tage tid, så jeg ikke behøver at kigge på klokken.
 5. **Arbejd hårdt**. Og nyd træningen.
 
-{% include figure image_path="https://static1.squarespace.com/static/595e5a971b631bc13c6ba25b/595e8a9578d171e39723c07c/596c68bef14aa1a6e70f9c9d/1533589031026/Circuit+Training+Defined.jpg?format=1500w" caption="Eksempel på cirkeltræning" %}
+{% include figure image_path="/assets/images/static1.squarespace.com/Circuit_Training_Defined-b049ccd8.jpg" caption="Eksempel på cirkeltræning [📷](https://static1.squarespace.com/static/595e5a971b631bc13c6ba25b/595e8a9578d171e39723c07c/596c68bef14aa1a6e70f9c9d/1533589031026/Circuit+Training+Defined.jpg?format=1500w){: rel='nofollow noopener' }" %}
 
 Lad os tage et simpelt eksempel på denne fremgangsmåde til at planlægge dit cirkeltræningsprogram.
 

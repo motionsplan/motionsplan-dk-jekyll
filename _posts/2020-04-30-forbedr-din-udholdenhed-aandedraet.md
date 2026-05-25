@@ -20,7 +20,8 @@ tags:
 last_modified_at: '2022-10-03T08:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/r/e/relaxator-aandedraetstraener-1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/relaxator-aandedraetstraener-1-50d69ef3.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/r/e/relaxator-aandedraetstraener-1.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener
   title: The Relaxator Åndedrætstræner
   excerpt: Relaxator åndedrætstræner er en lille og praktisk 'fløjte' der forbedrer dine vejrtrækningsvaner. Du kan lave åndedrætstræning
@@ -29,7 +30,8 @@ feature_row:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_books:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/2/5/1191-traek-vejret-mere-energi-mindre-stress.jpg
+- image_path: /assets/images/denintelligentekrop.dk/1191-traek-vejret-mere-energi-mindre-stress-4eeba298.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/2/5/1191-traek-vejret-mere-energi-mindre-stress.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/traek-vejret-mere-energi-mindre-stress
   title: Træk vejret - mere energi - mindre stress
   excerpt: Træk vejret med den danske fridykker Stig Åvall Severinsen kommer bredt omkring brugen af åndedrættet ift. fridykning

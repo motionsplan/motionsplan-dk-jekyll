@@ -6,7 +6,8 @@ description: "Den danske steptest bruges til at estimere dit kondital uden brug 
 excerpt: "Den danske steptest bruges til at estimere dit kondital uden brug af puls. Læs mere om testens protokol her."
 language: da
 header:
-  teaser: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-6097801a.jpg
+  credit: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   caption: *title
 category:
   - Tests

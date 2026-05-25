@@ -35,11 +35,15 @@ tags:
 - politi
 last_modified_at: '2022-10-06T22:12:12Z'
 gallery_whyiexercise:
-- image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
-  url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
+- image_path: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-women-by-age-group_jpg_pagespeed_ic_KhNsKxmeOD-1eac3be7.webp
+  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
+  url: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-women-by-age-group_jpg_pagespeed_ic_KhNsKxmeOD-1eac3be7.webp
+  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
   title: Normer for kvinder for 2400 meter testen
-- image_path: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
-  url: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+- image_path: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-men-by-age-group_jpg_pagespeed_ic_--y1eSzhzE-ad60d1d2.webp
+  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+  url: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-men-by-age-group_jpg_pagespeed_ic_--y1eSzhzE-ad60d1d2.webp
+  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
   title: Normer for mænd for 2400 meter testen
 ---
 

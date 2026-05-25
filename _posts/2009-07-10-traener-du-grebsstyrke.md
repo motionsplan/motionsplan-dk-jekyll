@@ -78,7 +78,7 @@ Et stærkt greb spiller en vigtig rolle i forhold til mange øvelser, og i særd
 
 Umiddelbart skulle man tro, at det siger sig selv, hvad det vil sige at have et stærkt greb, men det gør sig ikke nødvendigvis gældende. Grebsstyrke er nemlig mange ting. Der findes primært 3 typer af grebsarbejde, hvor grebsstyrke spiller en rolle. 
 
-![Greb på vægtstang](https://www.bodylab.dk/images/bodyfeed/starkere_greb_1.jpg)
+![Greb på vægtstang](/assets/images/bodylab.dk/starkere_greb_1-4230d433.jpg)
 
 ## ”Crushing”
 
@@ -101,7 +101,7 @@ Wrist curls kan være ganske fine til at øge massen i underarmen, men de har ik
 Et stærkt greb spiller en vigtig rolle i forhold til mange øvelser, og i særdeleshed de store rygøvelser
 
 
-![Captain of crunch](https://www.bodylab.dk/images/bodyfeed/starkere_greb_2.jpg)
+![Captain of crunch](/assets/images/bodylab.dk/starkere_greb_2-a4c3002d.jpg)
 
 ## Sådan bruger du din tid fornuftigt  
 
@@ -140,9 +140,9 @@ Hangs fra pullup bar 5 sæt x 5, 10, 15, 20, 25 sekunder  
 
 Uanset om man vælger den avancerede udgave, eller om man vælger den skrabede udgave, så vil det have en positiv effekt på grebet i ens normale vægttræning. Og når grebet ikke længere er det svage led, så vil det resultere i mere styrke og masse i de primære muskelgrupper. Så hvad venter du på? I gang med grebstræningen.
 
-![Citat element](https://www.bodylab.dk/images/bodyfeed/citat_element_blaa.jpg)Uanset om man vælger den avancerede udgave, eller den skrabede udgave, så vil det have en positiv effekt på grebet i ens normale vægttræning
+![Citat element](/assets/images/bodylab.dk/citat_element_blaa-c204632d.jpg)Uanset om man vælger den avancerede udgave, eller den skrabede udgave, så vil det have en positiv effekt på grebet i ens normale vægttræning
 
-[![](https://www.bodylab.dk/images/campaigns/2021-02-protein-shakes/dk/1080x429.jpg)](https://www.bodylab.dk/shop/protein-shake-12x330ml-3690p.html)
+[![](/assets/images/bodylab.dk/1080x429-efee3ed2.jpg)](https://www.bodylab.dk/shop/protein-shake-12x330ml-3690p.html)
 
 
 Artikler og indlæg udformes af skribenter, som fungerer uafhængigt fra Bodylab.dk. Dette betyder, at de holdninger der udtrykkes ikke skal ses som et udtryk for virksomhedens eller medarbejdernes holdninger. Alle artikler og indlæg på Bodylab.dk er derfor udelukkende et udtryk for **skribentens egne holdninger.**

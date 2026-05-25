@@ -29,7 +29,8 @@ feature_row_crossfit:
   rel: sponsored nofollow noopener
 feature_row_weightlifting:
 - url: https://clk.tradedoubler.com/click?p=212130&a=3258244&url=https%3A%2F%2Fwww.bodystore.dk%2Ftraeningstoj%2Ftraeningstoj-til-maend%2Ftraeningssko%3Fprefn1%3Dhsng-product-onlineFlag-gg%26prefv1%3Dtrue%26prefn2%3Dhsng-skor%26prefv2%3Dlyftarsko
-  image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dw9f4bc3f9/media/GG-Produktbilder/Adidas/GZ5953R_Adidas_Adipower-Weightlifting-II-WhiteBlack-01_jan22.jpg?sw=655&sh=655&sm=fit&sfrm=png
+  image_path: /assets/images/bodystore.dk/GZ5953R_Adidas_Adipower-Weightlifting-II-WhiteBlack-01_jan22-3e96f96f.jpg
+  credit: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dw9f4bc3f9/media/GG-Produktbilder/Adidas/GZ5953R_Adidas_Adipower-Weightlifting-II-WhiteBlack-01_jan22.jpg?sw=655&sh=655&sm=fit&sfrm=png
   title: Adidas Adipower Weightlifting II
   excerpt: Disse strømlinede vægtløftningssko har en åndbar overdel i vævet tekstil samt indvendige forstærkninger, der forbedrer
     stabiliteten. Skoene omfavner foden med målrettet støtte og giver samtidig plads til tæernes naturlige bevægelser.

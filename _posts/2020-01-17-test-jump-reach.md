@@ -3,7 +3,8 @@ title: &title "Jump and Reach: Hvor højt springer du?"
 permalink: /jump-reach/
 language: da
 header:
-  teaser: https://m.media-amazon.com/images/I/61+QaSxNKDL.jpg
+  teaser: /assets/images/m.media-amazon.com/61_QaSxNKDL-5e06da22.jpg
+  credit: https://m.media-amazon.com/images/I/61+QaSxNKDL.jpg
   caption: *title
 category:
   - Tests

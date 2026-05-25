@@ -48,7 +48,7 @@ Balancetræning gavner præstationsevnen og forebygger skader. Samtidig er det s
 
 Balancetræning er en af flere typer træning, der er gavnlig for at lave en komplet atlet.
 
-{% include figure image_path="https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/)" alt=page.title %}
+{% include figure image_path="/assets/images/barbellmedicine.com/Screen-Shot-2019-10-30-at-9_36_43-PM-e1578938168537-1dac3e89.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/) [📷](https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png){: rel='nofollow noopener' }" alt=page.title %}
 
 ## Hvorfor skal du træne din balance?
 

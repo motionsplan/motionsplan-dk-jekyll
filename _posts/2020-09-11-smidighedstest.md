@@ -28,7 +28,7 @@ Smidighed og bevægelighed er væsentligt for at opretholde en god all-round fun
 
 ## Hvordan udføres den modificerede 'sit and reach'-test
 
-{% include figure image_path="https://i.ytimg.com/vi/d52r658epCc/maxresdefault.jpg" caption="Modificeret 'sit and reach'-test. [Kilde](https://www.youtube.com/watch?v=d52r658epCc)." alt="Modificeret 'sit and reach'-test" %}
+{% include figure image_path="/assets/images/i.ytimg.com/maxresdefault-b1c49fa4.jpg" caption="Modificeret 'sit and reach'-test. [Kilde](https://www.youtube.com/watch?v=d52r658epCc). [📷](https://i.ytimg.com/vi/d52r658epCc/maxresdefault.jpg){: rel='nofollow noopener' }" alt="Modificeret 'sit and reach'-test" %}
 
 - Placer en tommestok eller målebånd på gulvet
 - Sæt et tapestykke, så kanten af tapen er ved 38 cm på målebåndet.

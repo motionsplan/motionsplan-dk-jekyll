@@ -44,7 +44,7 @@ Dette program kræver ikke store investeringer i udstyr og er perfekt til dig, d
 
 Velkommen til Calisthenics.
 
-{% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/00/d2/2c/00d22c7f74ec3864c456a0e7207a8276.jpg" data-pin-id="579768152030230128" caption=page.title %}
+{% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="/assets/images/i.pinimg.com/00d22c7f74ec3864c456a0e7207a8276-31fdd6bc.jpg" data-pin-id="579768152030230128" caption=page.title %}
 
 ## Hvad er Calisthenics?
 

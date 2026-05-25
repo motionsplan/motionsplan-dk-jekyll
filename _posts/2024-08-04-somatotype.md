@@ -24,7 +24,7 @@ En somatotype er bare et fint ord for bestemmelse af kropstype.
 
 Visuelt vises kropstyperne ofte sådan her:
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/a/ab/Bodytypes.jpg" caption="Kropstyperne ectomorph, mesomorph og endomorph. Kilde: [Granito Diaz CC BY-SA 4.0 via Commons](https://commons.wikimedia.org/wiki/File:Bodytypes.jpg#/media/File:Bodytypes.jpg)" alt="kropstyper endomorph ectomorph mesomorph" %}
+{% include figure image_path="/assets/images/upload.wikimedia.org/Bodytypes-63c283ad.jpg" caption="Kropstyperne ectomorph, mesomorph og endomorph. Kilde: [Granito Diaz CC BY-SA 4.0 via Commons](/assets/images/commons.wikimedia.org/File_Bodytypes-c5fef80a.jpg) [📷](https://upload.wikimedia.org/wikipedia/commons/a/ab/Bodytypes.jpg){: rel='nofollow noopener' }" alt="kropstyper endomorph ectomorph mesomorph" %}
 
 Denne blogpost er kraftigt inspireret af [Alan Couzens indlæg om somatotyper](https://www.alancouzens.com/blog/somatotype.html), hvor han forsøger at definere den optimale kropstype for triatlon.
 

@@ -95,7 +95,7 @@ I praksis er det vanskeligt at tracke den vertikale belastning. “Landingslyden
 
 Det er imidlertid tydeligt, hvad en øget kadence gør i forhold til kraftpåvirkningen af kroppen i nedenstående figur.
 
-{% include figure image_path="https://lermagazine.com/wp-content/uploads/2013/06/6running-Ground-reaction-force-curve.jpg" caption="Figuren viser forskellen på den vertikale belastning mellem den foretrukne kadence (sort) og øget kadence på 7,5% (røde prikker). Figuren er fra [Miller og Willy (2013)](https://lermagazine.com/article/retraining-fixes-faulty-gait-in-injured-runners)." %}
+{% include figure image_path="/assets/images/lermagazine.com/6running-Ground-reaction-force-curve-c129a427.jpg" caption="Figuren viser forskellen på den vertikale belastning mellem den foretrukne kadence (sort) og øget kadence på 7,5% (røde prikker). Figuren er fra [Miller og Willy (2013)](https://lermagazine.com/article/retraining-fixes-faulty-gait-in-injured-runners)." %}
 
 [Van der Vorp et al (2016)](https://bjsm.bmj.com/content/50/8/450) konkluderede i deres review, at der er sammenhæng mellem kraftpåvirkningen og stressfrakturer, men der er ikke lavet særlig mange studier, der undersøger sammenhængen mellem den vertikale kraftpåvirkning og løberelaterede skader.
 

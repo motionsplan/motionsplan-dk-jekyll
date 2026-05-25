@@ -9,7 +9,8 @@ redirect_from:
 author_profile: 'true'
 toc: 'true'
 header:
-  overlay_image: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
+  overlay_image: /assets/images/wp.vih.dk/vih_62A4833_web-1-2048x1366-41e53d29.jpg
+  credit: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
   caption: 'Fitnessinstruktør: Hvad skal du vide som instruktør?'
 feature_row:
 - image_path: https://imgcdn.saxo.com/_9788771801835/0x500

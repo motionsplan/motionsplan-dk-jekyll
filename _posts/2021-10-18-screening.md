@@ -4,8 +4,10 @@ seo_title: "Hvordan laver jeg en screening til et træningsprogram?"
 permalink: /screening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/1/bag-and-hands.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
-  teaser: https://images.unsplash.com/1/bag-and-hands.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
+  overlay_image: /assets/images/images.unsplash.com/bag-and-hands-b75c95ef.jpg
+  credit: https://images.unsplash.com/1/bag-and-hands.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=630&w=1200&q=60
+  teaser: /assets/images/images.unsplash.com/bag-and-hands-1c45a6a3.jpg
+  credit: https://images.unsplash.com/1/bag-and-hands.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=300&w=400&q=10
   caption: *title
 category:
   - Træning

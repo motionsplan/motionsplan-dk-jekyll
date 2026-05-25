@@ -88,7 +88,7 @@ Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bli
 
 [Browne et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27379959/) anbefaler at bruge _incremental drop jump_ test til at finde den maksimale RSI og optimale 'drop' højde, som kan bruges i forhold til træning for 'hurlers'. [Rodrigo Ramirez-Campillo et al (2018)](https://pubmed.ncbi.nlm.nih.gov/29389692/) fandt det også værdifuldt at kende _optimal drop-box height_ i forbindelse med træningen af unge fodboldspillere.
 
-{% include figure image_path="https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg" caption="I et _drop jump_ eller _depth jump_ skal du forsøge at komme fra jorden så hurtigt som muligt." %}
+{% include figure image_path="/assets/images/i.pinimg.com/f5163be27e98e6441a037602208e0b2b-c1b9c9cc.jpg" caption="I et _drop jump_ eller _depth jump_ skal du forsøge at komme fra jorden så hurtigt som muligt. [📷](https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg){: rel='nofollow noopener' }" %}
 
 {% include feature_row type="left" %}
 
@@ -184,7 +184,7 @@ Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som
 
 Tjek den også ud i denne grafik:
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel='nofollow noopener' }" %}
+{% include figure image_path="/assets/images/images.squarespace-cdn.com/image-asset-a6b0e41d.png" caption="Kilde: [www.trainwithpush.com](https://web.archive.org/web/20220403211632/https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2){: rel='nofollow noopener' } [📷](https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w){: rel='nofollow noopener' }" %}
 
 </details>
 
@@ -205,7 +205,7 @@ Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som
 
 Tjek den også ud i denne grafik:
 
-{% include figure image_path="https://gymaware.com/wp-content/uploads/2023/05/Reactive-Strength-Index-RSI-chart.png" caption="Kilde: [Gymaware](https://gymaware.com/reactive-strength-index-rsi-in-sports/)" %}
+{% include figure image_path="/assets/images/gymaware.com/Reactive-Strength-Index-RSI-chart-3bed4a0b.png" caption="Kilde: [Gymaware](https://gymaware.com/reactive-strength-index-rsi-in-sports/) [📷](https://gymaware.com/wp-content/uploads/2023/05/Reactive-Strength-Index-RSI-chart.png){: rel='nofollow noopener' }" %}
 
 </details>
 

@@ -18,8 +18,10 @@ tags:
 - kosttilskud
 last_modified_at: '2025-07-05T22:21:26Z'
 gallery:
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
 - question: Hvad er bikarbonat, og hvorfor bruges det som kosttilskud?
   answer: Bikarbonat er en naturlig base i kroppen, der hjælper med at regulere blodets pH. Som kosttilskud bruges det til

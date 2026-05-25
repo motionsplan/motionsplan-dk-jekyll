@@ -5,7 +5,8 @@ permalink: /kondital-borg15/
 excerpt: "Borg 15-testen eller _Graded Cycling Test with Talk Test_ er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
 language: da
 header:
-  teaser: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-57623931.jpg
+  credit: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
   caption: *title
 category:
   - Kondition

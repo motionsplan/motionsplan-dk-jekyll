@@ -95,7 +95,7 @@ Hvis du spiser efter de officielle kostråd, så bliver du automatisk dækket re
 
 Der er netop kommet en ny **kostcirkel**, som skal gøre det endnu lettere at spise efter kostrådene:
 
-{% include figure image_path="https://altomkost.dk/fileadmin/_migrated/news_uploads/kostraadscirke0__686x457l.png" caption="Den nye kostcirkel fra 2022, som skal gøre det endnu lettere at spise efter de officielle kostråd. Selvom klima også er sat ind som parameter, så skal kostcirklen netop sikre, at man får en varieret kost og derved også får godt med mikronæringsstoffer. Kilde: [altomkost.dk](https://altomkost.dk/nyheder/nyhed/nyhed/ny-kostraadscirkel-goer-det-nemmere-at-spise-efter-de-officielle-kostraad/)" alt="fødevarestyrelsens kostcirkel og kostpyramide" %}
+{% include figure image_path="/assets/images/altomkost.dk/kostraadscirke0__686x457l-41b7dbd7.png" caption="Den nye kostcirkel fra 2022, som skal gøre det endnu lettere at spise efter de officielle kostråd. Selvom klima også er sat ind som parameter, så skal kostcirklen netop sikre, at man får en varieret kost og derved også får godt med mikronæringsstoffer. Kilde: [altomkost.dk](https://altomkost.dk/nyheder/nyhed/nyhed/ny-kostraadscirkel-goer-det-nemmere-at-spise-efter-de-officielle-kostraad/) [📷](https://altomkost.dk/fileadmin/_migrated/news_uploads/kostraadscirke0__686x457l.png){: rel='nofollow noopener' }" alt="fødevarestyrelsens kostcirkel og kostpyramide" %}
 
 Hvis du er i tvivl om du mangler nogle mikronæringsstoffer, så kan du spørge din læge om at få det testet. Hvis lægen også ser en grund til det, så er det gratis at få taget en blodprøve og få den analyseret.
 

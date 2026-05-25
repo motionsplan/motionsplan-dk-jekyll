@@ -30,8 +30,10 @@ last_modified_at: '2025-03-03T23:14:14Z'
 toc: 'true'
 breadcrumbs: 'true'
 whyiexercise:
-- image_path: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-women.jpg.pagespeed.ic.ypA8zMp-Fx.webp
-- image_path: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-men.jpg.pagespeed.ic.Nt00qIrgK0.webp
+- image_path: /assets/images/whyiexercise.com/x3-minute-step-test-chart-for-women_jpg_pagespeed_ic_ypA8zMp-Fx-f80caf55.webp
+  credit: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-women.jpg.pagespeed.ic.ypA8zMp-Fx.webp
+- image_path: /assets/images/whyiexercise.com/x3-minute-step-test-chart-for-men_jpg_pagespeed_ic_Nt00qIrgK0-c1a184b7.webp
+  credit: https://www.whyiexercise.com/images/x3-minute-step-test-chart-for-men.jpg.pagespeed.ic.Nt00qIrgK0.webp
 ---
 
 YMCA’s 3-minutters steptest er en hurtig og effektiv metode til at vurdere hjerte-kar-konditionen. Testen består af tre minutters step-arbejde med efterfølgende pulsmåling, hvilket gør den nem at gennemføre for de fleste.

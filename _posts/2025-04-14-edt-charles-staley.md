@@ -23,8 +23,10 @@ tags:
 - øvet
 last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
 - question: Hvad er EDT, og hvordan fungerer det?
   answer: 'EDT (Escalating Density Training) er en træningsmetode udviklet af Charles Staley, hvor du arbejder i faste tidsblokke  (typisk

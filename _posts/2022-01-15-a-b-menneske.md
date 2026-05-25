@@ -24,11 +24,15 @@ feature_row:
     i samfundet.
   rel: sponsored nofollow noopener
 gallery:
-- image_path: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
-  url: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
+- image_path: /assets/images/k9-drupal-images.k.dk/graf2-bc893f91.jpg
+  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
+  url: /assets/images/k9-drupal-images.k.dk/graf2-bc893f91.jpg
+  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf2.jpg?itok=0ghw9hUV
   alt: Søvndagbog for et A-menneske
-- image_path: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
-  url: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
+- image_path: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
+  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
+  url: /assets/images/k9-drupal-images.k.dk/graf3-85718ff2.jpg
+  credit: https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf3.jpg?itok=cwBsHF5K
   alt: Søvndagbog for et B-menneske
 ---
 
@@ -63,7 +67,7 @@ Du kan finde din egen kronotype på Munich ChronoType Questionnaire, som du find
 
 Det interessante er at døgnrytmen ændrer sig gennem livet. De fleste børn er A-mennesker, mens mange teenagere er B-mennesker. Når vi bliver ældre så nærmer vi os igen A-menneskernes rytme.
 
-{% include figure image_path="https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf1.jpg?itok=R-A39s6C" caption="Døgnrytmen gennem livet. Grafen er baseret på data fra 85.000 mennesker i Centraleuropa. Kilde: [Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske)." %}
+{% include figure image_path="/assets/images/k9-drupal-images.k.dk/graf1-36d134f7.jpg" caption="Døgnrytmen gennem livet. Grafen er baseret på data fra 85.000 mennesker i Centraleuropa. Kilde: [Camilla Kring](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske). [📷](https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/body_inline/s3/2015/09-24/graf1.jpg?itok=R-A39s6C){: rel='nofollow noopener' }" %}
 
 Der er nogle interessante kønsforskelle i grafen. Kvinder topper som sene kronotyper som 19,5 årige, mens mænd topper som 21 årige. Desuden er mændene lidt senere kronotyper end kvinderne det meste af livet - indtil omkring 52 år, hvor kvinderne i gennemsnit også går i overgangsalderen.
 

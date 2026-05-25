@@ -8,7 +8,8 @@ description: Detaljeret guide til test af VO2max i laboratorium på løbebånd. 
   dine resultater for at optimere din træning.
 language: da
 header:
-  teaser: https://de.beatyesterday.org/wp-content/uploads/2018/12/iStock-885516322-jacoblund-header-359x219.jpg
+  teaser: /assets/images/de.beatyesterday.org/iStock-885516322-jacoblund-header-359x219-19fc4641.jpg
+  credit: https://de.beatyesterday.org/wp-content/uploads/2018/12/iStock-885516322-jacoblund-header-359x219.jpg
   caption: Maksimal iltoptagelse på løbebånd – Test og vejledning 🏃
 category:
 - Kondition

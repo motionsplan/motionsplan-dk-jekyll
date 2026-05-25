@@ -4,7 +4,8 @@ permalink: /kondital-wattmax-boern/
 excerpt: "Watt-max test for børn er en trinvist stigende maksimaltest på ergometercykel, som du kan bruge til at udregne konditallet. Testen er tilpasset børn fra 7 - 15 år og lavet af danske forskere."
 language: da
 header:
-  teaser: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-3417227e.jpg
+  credit: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
   caption: *title
 category:
   - Kondition

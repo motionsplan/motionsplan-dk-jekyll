@@ -101,11 +101,11 @@ Det drejer sig om fx armstrækninger og bænkpres, hvor skulderleddet er involve
 
 Når skulderen er hævet i halvfems graders vinkel fra kroppen, og du bevæger armene rundt i nogenlunde denne højde, så foregår bevægelserne i det transversale plan. Det er tydeligt, når du tænker på, hvor aksen er for bevægelsen, som jo går ovenfra (superior) og ned (inferior).
 
-{% include figure image_path="https://blog.nasm.org/hubfs/Imported_Blog_Media/Screen-Shot-2019-05-28-at-1_56_36-PM-1024x451.png" caption="Når armene og benene holdes i 90 graders vinkel på kroppen, så er bevægelserne i det transverale plan. Kilde: [NASM](https://blog.nasm.org/exercise-programming/sagittal-frontal-traverse-planes-explained-with-exercises)" alt="bevægelsesplan for skulderen i det transversale plan" %}
+{% include figure image_path="/assets/images/blog.nasm.org/Screen-Shot-2019-05-28-at-1_56_36-PM-1024x451-cf214426.png" caption="Når armene og benene holdes i 90 graders vinkel på kroppen, så er bevægelserne i det transverale plan. Kilde: [NASM](https://blog.nasm.org/exercise-programming/sagittal-frontal-traverse-planes-explained-with-exercises) [📷](https://blog.nasm.org/hubfs/Imported_Blog_Media/Screen-Shot-2019-05-28-at-1_56_36-PM-1024x451.png){: rel='nofollow noopener' }" alt="bevægelsesplan for skulderen i det transversale plan" %}
 
 Du har i dette tilfælde en overarm, der roterer omkring den transversale akse.
 
-Lad os prøve at kigge lidt på armstrækninger og bænkpres.
+Lad os prøve at kigge lidt på en bevægelsesanalyse af armstrækninger og bænkpres.
 
 ### Armstrækning
 

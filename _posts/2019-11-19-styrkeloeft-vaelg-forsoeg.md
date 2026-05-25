@@ -6,7 +6,7 @@ excerpt: Få en strategi til at vælge de rigtige forsøg i squat, bænkpres og 
 description: Få en strategi til at vælge de rigtige forsøg i squat, bænkpres og dødløft under et styrkeløft-stævne. Undgå
   fejl og maksimer din præstation med vores guide.
 permalink: /styrkeloeft-vaelg-forsoeg/
-slanguage: da
+language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1532384360595-4ff4a8c055f4.jpg
   credit: https://images.unsplash.com/photo-1532384360595-4ff4a8c055f4
@@ -32,13 +32,16 @@ meta:
   direct: indirekte test
 last_modified_at: '2025-02-19T23:14:14Z'
 feature_row:
-- image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
   alt: Squat - styrkeløft og powerlifting regler for squat
   excerpt: Squat
-- image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
   alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
   excerpt: Bænkpres
-- image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
+  credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
   alt: Dødløft - poserlifting og styrkeløft regler for dødløft
   excerpt: Dødløft
 feature_row_spreadsheet:
@@ -63,11 +66,13 @@ feature_row_books:
   rel: sponsored nofollow noopener
 quiz:
 - question: Hvor langt skal man ned i squat for at få godkendt løftet?
-  question-attachment: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  question-attachment: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
   answer: Hofteleddet skal være under knæleddet.
 - question: Må hovedet løftes fra bænken i bænkpres?
   answer: Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
-  answer-attachment: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+  answer-attachment: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
 ---
 
 At vælge de rette forsøg til et styrkeløft-stævne er en afgørende faktor for din præstation. En god strategi kan gøre forskellen mellem et vellykket stævne og en skuffende oplevelse.

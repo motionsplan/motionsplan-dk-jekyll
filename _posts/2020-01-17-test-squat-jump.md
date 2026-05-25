@@ -6,8 +6,10 @@ excerpt: "Squat Jump (SJ) tester din rene eksplosive styrke uden forspænding. S
 permalink: /squat-jump-test/
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
+  overlay_image: /assets/images/i.ytimg.com/maxresdefault-06f8a2b2.jpg
+  credit: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-06f8a2b2.jpg
+  credit: https://i.ytimg.com/vi/rSaR_Aq38SQ/maxresdefault.jpg
   caption: *title
 category:
   - Tests

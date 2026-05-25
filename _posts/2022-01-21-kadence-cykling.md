@@ -130,7 +130,7 @@ Lad os migge på de forskellige eksempler på et tråd i forhold til dit niveau.
 
 For begynderen ligner kræfterne et 8-tal. Det betyder at cyklisten taber for meget momentum, når man skifter fra højre til venstre ben (punkt 1) og fra venstre til højre ben (punkt 2). Cyklisten bruger primært forsiden af benene.
 
-{% include figure image_path="https://cdn.shopify.com/s/files/1/0942/6160/files/wattbike-improve-cycling-technique.jpg?v=1536673155" caption="Punkt 1 er skiftet fra højre til venstre ben, mens punkt 2 er skiftet fra venstre til højre. Kilde: Wattbike." %}
+{% include figure image_path="/assets/images/cdn.shopify.com/wattbike-improve-cycling-technique-9f4dde0f.jpg" caption="Punkt 1 er skiftet fra højre til venstre ben, mens punkt 2 er skiftet fra venstre til højre. Kilde: Wattbike. [📷](https://cdn.shopify.com/s/files/1/0942/6160/files/wattbike-improve-cycling-technique.jpg?v=1536673155){: rel='nofollow noopener' }" %}
 
 Hvis du kører med cykelsko eller med spænder på pedalerne, så kan du forbedre transitionen mellem benene.
 
@@ -138,7 +138,8 @@ Hvis du kører med cykelsko eller med spænder på pedalerne, så kan du forbedr
 
 Den letøvede kan fastholde lidt af pedalens momentum, når der skiftes ben. Der er imidlertid stadig et mærkbart tab af momentum. I dette eksempel er der i punkt 2 et større dødt punkt end ved punkt 1.
 
-{% include figure image_path="https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Peanut.jpg?10528249343562057681" %}
+{% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Peanut-acf9e833.jpg" caption="[📷](https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Peanut.jpg?10528249343562057681){: rel='nofollow noopener' }" %}
+
 
 Hvis den letøvede gerne vil forbedre sit tråd, så kan man forestille sig, at man skraber mudder af det forreste af fodsålen for at forbedre transitionen mellem højre og venstre ben.
 
@@ -146,7 +147,8 @@ Hvis den letøvede gerne vil forbedre sit tråd, så kan man forestille sig, at 
 
 Elitecykelryttere kan lave en stor rund figure, som er meget konsistent og balanceret mellem hvert ben. Der er et godt momentum igennem hele runden i pedalerne.
 
-{% include figure image_path="https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Sausage.jpg?17207390738609430523" %}
+{% include figure image_path="/assets/images/cdn.shopify.com/Wattbike-The-Sausage-d8767c8a.jpg" caption="[📷](https://cdn.shopify.com/s/files/1/0942/6160/files/Wattbike-The-Sausage.jpg?17207390738609430523){: rel='nofollow noopener' }" %}
+
 
 ## Wattbikes Polar View
 

@@ -35,7 +35,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-- image_path: https://content.gucca.dk/covers/big/h/v/hvad-jeg-taler-om-naar-jeg-taler-om-at-loebe_339452.jpg
+- image_path: /assets/images/content.gucca.dk/hvad-jeg-taler-om-naar-jeg-taler-om-at-loebe_339452-f1b94678.jpg
+  credit: https://content.gucca.dk/covers/big/h/v/hvad-jeg-taler-om-naar-jeg-taler-om-at-loebe_339452.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9399&htmlurl=https://www.gucca.dk/hvad-jeg-taler-om-naar-jeg-taler-om-at-loebe-bog-p339452
   title: What I Talk About When I Talk About Running
   excerpt: Den japanske forfatter Haruki Murakami er dedikeret løber har skrevet en læseværdig fortælling og løbemanual forklædt
@@ -54,7 +55,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-- image_path: https://content.gucca.dk/covers/big/l/o/loeb-i-storbyer_428188.jpg
+- image_path: /assets/images/content.gucca.dk/loeb-i-storbyer_428188-1eda973c.jpg
+  credit: https://content.gucca.dk/covers/big/l/o/loeb-i-storbyer_428188.jpg
   url: https://www.gucca.dk/loeb-i-storbyer-europa-bog-p428188
   title: Løb i storbyer i Europa
   excerpt: Else Marie Lehman har skrevet en guide til løb i 49 storbyer i Europa. En guide, der for hver eneste storby, beskriver

@@ -49,7 +49,8 @@ feature_row:
   btn_class: btn--danger
   rel: sponsored nofollow noopener
 feature_row_stryd:
-- image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
+- image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
+  credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
   alt: STRYD Wattmåler - Next Generation
   title: STRYD Wattmåler - Next Generation
   excerpt: STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt

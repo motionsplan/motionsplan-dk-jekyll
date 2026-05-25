@@ -14,13 +14,16 @@ tags:
 last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+  - image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+    credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
     alt: "Squat"
     excerpt: "Squat"
-  - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+  - image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+    credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
     alt: "Bænkpres"
     excerpt: "Bænkpres"
-  - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+  - image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
+    credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
     alt: "Dødløft"
     excerpt: "Dødløft"
 ---

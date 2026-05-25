@@ -46,7 +46,7 @@ I rigtig mange idrætsgrene har _rate of force development_ en stor betydning fo
 
 Du kan se en illustration af en kraftkurve i forbindelse mellem et løft.
 
-{% include figure image_path="https://athleticperformanceacademy.co.uk/wp-content/uploads/2012/10/80_what_i4.gif" caption="Sammenhængen mellem forskellige typer styrke, hvor 'rate of force development' er nummer 3 i figuren. Kilde: [athleticperformanceacademy.co.uk](https://athleticperformanceacademy.co.uk/)." %}
+{% include figure image_path="/assets/images/athleticperformanceacademy.co.uk/80_what_i4-acad65e1.gif" caption="Sammenhængen mellem forskellige typer styrke, hvor 'rate of force development' er nummer 3 i figuren. Kilde: [athleticperformanceacademy.co.uk](https://athleticperformanceacademy.co.uk/). [📷](https://athleticperformanceacademy.co.uk/wp-content/uploads/2012/10/80_what_i4.gif){: rel='nofollow noopener' }" %}
 
 Typisk defineres RFD som evnen til at udvikle kraft inden for de første 200 ms af en kraftudfoldelse. Du kan se det illustreret i figuren ovenfor som punkt nummer 3.
 

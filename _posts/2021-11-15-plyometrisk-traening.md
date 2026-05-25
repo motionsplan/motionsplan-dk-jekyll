@@ -25,7 +25,7 @@ Plyometrisk træning kan være hårdt for kroppen. Derfor er det en god ide at b
 
 Schmidtbleicher (1992) foreslår, at man kan klassificere _stretch shortening cycle (SSC)_ som enten langsom eller hurtig. Den **hurtige SSC** er karakteriseret med en kort sammentrækningstid på under 0,25 sekunder og mindre vinkler i hofte, knæ og ankler. Et typisk eksempel på dette vil være _depth jumps_ eller et _drop jump_.
 
-{% include figure image_path="https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg" caption="I et depth jump skal du forsøge at komme fra jorden så hurtigt som muligt." %}
+{% include figure image_path="/assets/images/i.pinimg.com/f5163be27e98e6441a037602208e0b2b-c1b9c9cc.jpg" caption="I et depth jump skal du forsøge at komme fra jorden så hurtigt som muligt. [📷](https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg){: rel='nofollow noopener' }" %}
 
 I en **langsom SSC** er kontraktionstiden langsommere, og vinklerne bliver noget større i hofte, knæ og ankler. Dette ser du typisk i et maksimalt vertikalt hop, fx når du laver et squat jump eller et counter movement jump.
 

@@ -127,7 +127,7 @@ Lad os kigge på et par af frontløberne, som er villige til at gå lidt til eks
 
 ## Biohacker Neil Harbisson kan høre farver
 
-{% include figure image_path="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d06593f2820b67dbb5abfceaa20aa8240d779850_1600x1200.jpg?c=1050%2C550&w=1050" caption="Neil Harbisson fik i 2013 indopereret en antenne i baghovedet, som gør ham i stand til at høre farver" alt="neil harbisson antenne biohacking" %}
+{% include figure image_path="/assets/images/pi.tedcdn.com/d06593f2820b67dbb5abfceaa20aa8240d779850_1600x1200-9a744722.jpg" caption="Neil Harbisson fik i 2013 indopereret en antenne i baghovedet, som gør ham i stand til at høre farver" alt="neil harbisson antenne biohacking" %}
 
 <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/neil_harbisson_i_listen_to_color" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
@@ -171,7 +171,7 @@ Jeg kan altså ikke give en helt præcis definition på, hvornår man er biohack
 
 [Anders Nedergaard](https://andersnedergaard.dk/fitness-mk/fitness-m-k-253/) har talt med Rasmus Just, som er med i Min Sindssygt Sunde Familie. Det er interessant, hvordan udeforstående dømmer livsstilen uden rigtigt at kende den i detaljer.
 
-<a class="spreaker-player" href="https://www.spreaker.com/user/anders_nedergaard/253-biohacking" data-resource="episode_id=29721297" data-theme="light" data-autoplay="false" data-playlist="false" data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/d5e15be562fee05af164e9c2803d11fb.jpg" data-width="100%" data-height="400px">Listen to "#253 Biohacking - Just did it" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
+<a class="spreaker-player" href="https://www.spreaker.com/user/anders_nedergaard/253-biohacking" data-resource="episode_id=29721297" data-theme="light" data-autoplay="false" data-playlist="false" data-cover="/assets/images/d3wo5wojvuv7l.cloudfront.net/d5e15be562fee05af164e9c2803d11fb-e47199cf.jpg" data-width="100%" data-height="400px">Listen to "#253 Biohacking - Just did it" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
 
 Som skrevet har jeg selv eksperimenteret med at måle min HRV, som jeg har skrevet lidt om i dette indlæg om [heart rate variability](/hrv/).
 

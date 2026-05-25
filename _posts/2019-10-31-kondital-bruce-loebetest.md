@@ -4,8 +4,10 @@ permalink: /bruce-test/
 excerpt: "Bruce-test på løbebånd er en maksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
+  overlay_image: /assets/images/i.ytimg.com/maxresdefault-3704e256.jpg
+  credit: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-3704e256.jpg
+  credit: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
   caption: *title
 category:
   - Kondition

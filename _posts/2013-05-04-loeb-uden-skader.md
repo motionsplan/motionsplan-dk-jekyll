@@ -62,7 +62,8 @@ Når du analyserer løbestil, så skelnes ofte mellem, hvor løberne lander på 
 
 Opdelingen laves ofte sådan her:
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/6308298e0ebef337e98577a6/53e37bbf-a48f-4b55-bd50-3496e7a6c916/running_7.png?format=2500w" alt="Forskellige måder løbere lander på. A. Forfod. B. Midtfod. C. Hæl. Kilde: [www.jannaliphysio.com.au](https://www.jannaliphysio.com.au/blog/running-bio)" %}
+{% include figure image_path="/assets/images/images.squarespace-cdn.com/running_7-e121a501.png" alt="Forskellige måder løbere lander på. A. Forfod. B. Midtfod. C. Hæl. Kilde: [www.jannaliphysio.com.au](https://www.jannaliphysio.com.au/blog/running-bio)" caption="[📷](https://images.squarespace-cdn.com/content/v1/6308298e0ebef337e98577a6/53e37bbf-a48f-4b55-bd50-3496e7a6c916/running_7.png?format=2500w){: rel='nofollow noopener' }" %}
+
 
 Du kan enten lægge mærke til, hvordan du lander eller få en ven til at optage dig på video, hvis du gerne vil vide, hvordan du lander på foden?
 
@@ -100,7 +101,7 @@ Det er det sikkert ikke!
 
 På et tidspunkt blev det populært at analysere, om foden falder ind (pronation) eller falder ud (supination), når man løber.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/56be345360b5e9597a8fa8e4/1464533804054-YJFSRB9GPL36IZM9HMMW/image-asset.png?format=750w" caption="Som løber kan man have en tendens til enten at pronere, supinere eller løbe neutralt alt efter, hvordan foden opfører sig efter kontakten med jorden. Kilde: [www.mountainridgept.com](https://www.mountainridgept.com/physicaltherapyblog/2016/5/27/foot-pronation)" %}
+{% include figure image_path="/assets/images/images.squarespace-cdn.com/image-asset-f60fdc3c.png" caption="Som løber kan man have en tendens til enten at pronere, supinere eller løbe neutralt alt efter, hvordan foden opfører sig efter kontakten med jorden. Kilde: [www.mountainridgept.com](https://www.mountainridgept.com/physicaltherapyblog/2016/5/27/foot-pronation) [📷](https://images.squarespace-cdn.com/content/v1/56be345360b5e9597a8fa8e4/1464533804054-YJFSRB9GPL36IZM9HMMW/image-asset.png?format=750w){: rel='nofollow noopener' }" %}
 
 Mange har fået lavet en løbeanalyse på et løbebånd og er blevet filmet bagfra med et high-speed kamera.
 

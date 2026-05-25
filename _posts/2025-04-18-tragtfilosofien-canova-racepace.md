@@ -6,7 +6,8 @@ excerpt: "Lær hvordan Canovas tragtmodel opbygger din form i faser – fra bred
 permalink: /canova/
 language: da
 header:
-  teaser: https://runningwritings.com/wp-content/uploads/2011/07/renato-canova-in-kenya.jpg
+  teaser: /assets/images/runningwritings.com/renato-canova-in-kenya-415f61b6.jpg
+  credit: https://runningwritings.com/wp-content/uploads/2011/07/renato-canova-in-kenya.jpg
   caption: *title
 category:
   - Løb
@@ -16,8 +17,10 @@ tags:
   - træningsfilosofi
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
   - question: Hvad er Canovas træningsfilosofi?
     answer: >

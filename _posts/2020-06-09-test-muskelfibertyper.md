@@ -4,8 +4,10 @@ description: Vil du gerne kende din sammensætning af muskelfibertyper? Her genn
 permalink: /test-muskelfibertyper/
 language: da
 header:
-  overlay_image: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
-  teaser: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
+  overlay_image: /assets/images/upload.wikimedia.org/Muscle_Tissue_Skeletal_Muscle_Fibers__2828089113308_29-47a9f185.jpg
+  credit: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
+  teaser: /assets/images/upload.wikimedia.org/Muscle_Tissue_Skeletal_Muscle_Fibers__2828089113308_29-47a9f185.jpg
+  credit: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
   caption: "Hvordan tester jeg min muskelfibertypesammensætning? Billede: Wikipedia"
   overlay_filter: 0.4
 category:

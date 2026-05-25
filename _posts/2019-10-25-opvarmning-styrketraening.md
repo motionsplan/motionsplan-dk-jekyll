@@ -4,8 +4,10 @@ permalink: /opvarmning-styrketraening/
 excerpt: "Opvarmning til styrketræning kan kan struktureres gennem en række faser, fx generel, dynamisk, specifik og en forberedelse af nervesystemet."
 language: da
 header:
-  overlay_image: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
-  teaser: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
+  overlay_image: /assets/images/rdellatraining.com/Warm-up-1-da0995fd.jpg
+  credit: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
+  teaser: /assets/images/rdellatraining.com/Warm-up-1-da0995fd.jpg
+  credit: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
   caption: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
 category:
   - Styrketræning

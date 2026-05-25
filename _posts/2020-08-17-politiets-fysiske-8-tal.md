@@ -9,7 +9,8 @@ description: "8-tals-testen måler din hurtighed og retningsskift. Læs hvordan 
 last_modified_at: 2025-02-17T09:41:09Z
 language: da
 header:
-  teaser: https://i.ytimg.com/vi/TbaBYiS7JrU/hqdefault.jpg
+  teaser: /assets/images/i.ytimg.com/hqdefault-73fe8e0b.jpg
+  credit: https://i.ytimg.com/vi/TbaBYiS7JrU/hqdefault.jpg
   caption: *title
 category:
   - Tests
@@ -40,7 +41,7 @@ I denne guide gennemgår vi testens opbygning, regler, samt hvordan du kan træn
 
 **Udgangsstilling**: Med keglen på din venstre side tager du opstilling bag startlinjen med hænder, knæ og underbøjede tæer i gulvet. Lår og arme skal følge en lodret linje mod underlaget.
 
-{% include figure image_path="https://i.ytimg.com/vi/TbaBYiS7JrU/hqdefault.jpg" caption="Udgangsstillingen til politiets hurtighedstest." %}
+{% include figure image_path="/assets/images/i.ytimg.com/hqdefault-73fe8e0b.jpg" caption="Udgangsstillingen til politiets hurtighedstest. [📷](https://i.ytimg.com/vi/TbaBYiS7JrU/hqdefault.jpg){: rel='nofollow noopener' }" %}
 
 **Udførelse**: Bedømmeren giver meldingen: ”Færdige ---- Løb” og starter tidtagningen. Du løber 2 1/4 gang i ottetal omkring keglerne. Under løbet må du ikke røre keglerne. Keglerne er opstillet med en afstand af 13,40 m.
 

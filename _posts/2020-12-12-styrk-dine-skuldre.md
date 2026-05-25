@@ -25,11 +25,11 @@ Skulderen er primært et kugleled, som har bevægelsesfrihed i alle bevægelsesp
 
 Bevægelsesfriheden i skulderen og alle de mulige bevægeudslag gør, at musklerne omkring skulderen skal være med til at styre og beskytte leddet.
 
-{% include figure image_path="https://lift-it.dk/wp-content/uploads/2015/03/blog-examprep-092513-1.jpg" caption="Skulderleddets bevægelser i de forskellige bevægelsesplaner. Kilde: [lift-it.dk](https://lift-it.dk/styrk-dine-skuldre/)" %}
+{% include figure image_path="/assets/images/lift-it.dk/blog-examprep-092513-1-230b85e6.jpg" caption="Skulderleddets bevægelser i de forskellige bevægelsesplaner. Kilde: [lift-it.dk](https://lift-it.dk/styrk-dine-skuldre/) [📷](https://lift-it.dk/wp-content/uploads/2015/03/blog-examprep-092513-1.jpg){: rel='nofollow noopener' }" %}
 
 Skulderleddet består af tre knogler: _humerus_ (overarmsknoglen), _scapula_ (skulderbladet) og clavicula (kravebenet). Skulderleddet er et ret kompliceret led. Scapula er en del af skulderleddet er fx spændt ind til kroppen ved hjælp af muskler, hvilket gør skulderbladet ret bevægeligt. Bevægelsesfriheden i skulderbladet er med til at gøre, at overarmsknoglen kan bevæge sig, men samtidig kan skulderbladet også flytte sig næsten uafhængigt heraf.
 
-{% include figure image_path="https://lift-it.dk/wp-content/uploads/2015/03/ShoulderMvmnt.jpg" caption="Skulderbladets forskellige bevægelser. Kilde: [lift-it.dk](https://lift-it.dk/styrk-dine-skuldre/)" %}
+{% include figure image_path="/assets/images/lift-it.dk/ShoulderMvmnt-5752626f.jpg" caption="Skulderbladets forskellige bevægelser. Kilde: [lift-it.dk](https://lift-it.dk/styrk-dine-skuldre/) [📷](https://lift-it.dk/wp-content/uploads/2015/03/ShoulderMvmnt.jpg){: rel='nofollow noopener' }" %}
 
 Det er derfor lige så vigtigt at styrke musklerne omkring skulderbladet, som det er at styrke musklerne omkring overarmsknoglen. Når man styrker musklerne og skal mærke de små bevægelser, så kan man også få en bedre føling med området på kroppen. Særligt når du kaster meget eller styrketræner meget, så har du brug for at finde ud af, hvordan du kan lave stabilitet i skulderen, så den kan udføre det nødvendige arbejde.
 

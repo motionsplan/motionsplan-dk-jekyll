@@ -34,7 +34,8 @@ tags:
 last_modified_at: '2019-03-06T23:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://www.fitnessequipmentireland.ie/wp-content/uploads/2020/06/Copy-of-Copy-of-Untitled-700-x-700-px-13.png
+- image_path: /assets/images/fitnessequipmentireland.ie/Copy-of-Copy-of-Untitled-700-x-700-px-13-ef49429f.png
+  credit: https://www.fitnessequipmentireland.ie/wp-content/uploads/2020/06/Copy-of-Copy-of-Untitled-700-x-700-px-13.png
   alt: Wattbike Pro er perfekt til at lave Watt max test på
   title: Wattbike Pro eller trainer
   excerpt: Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer en rigtig god indendørs cykel

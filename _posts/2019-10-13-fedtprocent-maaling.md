@@ -19,7 +19,8 @@ tags:
 last_modified_at: '2023-01-01T22:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
   alt: Tanita DC 360P Kropsanalysevægt
   title: Tanita DC 360P Kropsanalysevægt
   excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
@@ -28,7 +29,8 @@ feature_row:
   btn_label: Tjek pris
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+- image_path: /assets/images/shop93647.sfstatic.io/tanita-mc_w774_h774_fill-7d7a5bf0.webp
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
   alt: Tanita MC 780 P MA
   title: Tanita MC 780 P MA
   excerpt: Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte.
@@ -111,7 +113,7 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 Spejlet er faktisk en udmærket måde at estimere på, om man har en passende fedtprocent i forhold til både sundhed og træning.
 
-{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten. Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="Hvordan måler jeg min fedtprocent for mænd og kvinder?" %}
+{% include figure image_path="/assets/images/exerciseandwellness.files.wordpress.com/body-fat-percentage-men-women-23e92cca.jpg" caption="Øjemålstest af fedtprocenten. Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/) [📷](https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg){: rel='nofollow noopener' }" alt="Hvordan måler jeg min fedtprocent for mænd og kvinder?" %}
 
 Ulempen er at man kan blive snydt af fedt, der sidder omkring organerne, men som man ikke umiddelbart kan se. Der er nogle der er såkaldt _tyndfede_, som ser sunde og slanke ud, men som har en høj fedtprocent.
 
@@ -178,7 +180,7 @@ Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/
 
 [Gallagher (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index) har lavet en grafik baseret på BMI og alder i forhold til, hvad en **sund normal fedtprocent** er:
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
+{% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 Læs: [Hvad en en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/).
 {: .notice }

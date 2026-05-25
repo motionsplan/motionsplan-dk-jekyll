@@ -51,7 +51,8 @@ Testen er delt i to trin, som køres med en kort pause i mellem.
 1. **Submaksimal trappetest** - hvor belastningen stiger undervejs ved at hastigheden på løbebåndet sættes op.
 2. **Maksimal rampetest** - hvor belastningen stiger ved at hældningen på løbebåndet øges undervejs.
 
-{% include figure image_path="https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" %}
+{% include figure image_path="/assets/images/wp.vih.dk/2K2A0602-2084a13d.jpeg" alt="Løbetest med iltoptagelse på Vejle Idrætshøjskole" caption="[📷](https://wp.vih.dk/wp-content/uploads/2024/04/2K2A0602.jpeg){: rel='nofollow noopener' }" %}
+
 
 ## Hvad tester løbetesten?
 
@@ -140,7 +141,8 @@ En træningsforbedring til en submaksimal test vil eksempelvis være, at man ved
 
 Dette er illustreret i figuren herunder.
 
-{% include figure image_path="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" %}
+{% include figure image_path="/assets/images/static.wixstatic.com/b059e0_c1fed96532df4341b70a4b2c8bb025c6_mv2-c9906655.webp" caption="[📷](https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp){: rel='nofollow noopener' }" %}
+
 
 Oftest taler man om en given "laktat-tærskel", defineret som den højest mulige træningsintensitet (belastning eller løbehastighed), som en person kan opretholde over lang tid.  
 

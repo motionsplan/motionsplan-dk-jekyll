@@ -13,7 +13,8 @@ tags:
 - træningsudstyr
 last_modified_at: '2022-02-12T22:21:26Z'
 feature_row_flipbelt:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/f/l/flipbelt-alle-farver_1.jpg
+- image_path: /assets/images/denintelligentekrop.dk/flipbelt-alle-farver_1-474e2dff.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/f/l/flipbelt-alle-farver_1.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/flipbelt-lobebaelte-pengekat
   title: Flipbelt løbebælte
   excerpt: I Flipbelt løbebæltet kan du have din telefon, kreditkort, nøgler, og alt andet du måske har brug på din løbetur.
@@ -31,7 +32,8 @@ feature_row_shokz:
   rel: sponsored nofollow noopener
 feature_row_running_watch:
 - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=29407&htmlurl=https://www.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa-p540021?utm_source=pa&utm_medium=cpc&utm_campaign=pa
-  image_path: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
+  image_path: /assets/images/content.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa_540021-af95eb53.jpg
+  credit: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
   title: Garmin Forerunner 245
   excerpt: Dette GPS-smartwatch registrerer dine statistikker, behandler dine data og lærer alt om dine præstationer, din
     løbeform, din træning og endda dine mål.

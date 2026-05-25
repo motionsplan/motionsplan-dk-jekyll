@@ -2,7 +2,8 @@
 last_modified_at: '2022-02-12T22:21:26.000Z'
 feature_row_running_watch:
 - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=29407&htmlurl=https://www.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa-p540021?utm_source=pa&utm_medium=cpc&utm_campaign=pa
-  image_path: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
+  image_path: /assets/images/content.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa_540021-af95eb53.jpg
+  credit: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
   title: Garmin Forerunner 245
   excerpt: Dette GPS-smartwatch registrerer dine statistikker, behandler dine data og lærer alt om dine præstationer, din
     løbeform, din træning og endda dine mål.
@@ -10,7 +11,8 @@ feature_row_running_watch:
   btn_label: Tjek prisen
   rel: sponsored nofollow noopener
 feature_row_liquid_chalk:
-- image_path: https://cdn.shopify.com/s/files/1/0605/1941/6061/products/DSC09304.jpg?v=1648043835
+- image_path: /assets/images/cdn.shopify.com/DSC09304-f82e5eb8.jpg
+  credit: https://cdn.shopify.com/s/files/1/0605/1941/6061/products/DSC09304.jpg?v=1648043835
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68773&htmlurl=https://www.musclehouse.dk/products/barbenders-liquid-chalk-250ml?variant=42634678075645
   title: Barbenders Liquid Chalk (250ml)
   excerpt: Barbenders Liquid Chalk er flydende kalk til brug under træning. Flydende kalk sikrer dig en bedre grebskontakt

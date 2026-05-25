@@ -62,7 +62,7 @@ Fx:
 
 Det foreslås, at din landing kan være med til at sige noget om din løbeeffektivitet, men her er forskerne ikke helt enige.
 
-{% include figure image_path="https://olderyetfaster.com/wp-content/uploads/2020/04/1.jpg" caption="Illustration af løber, der lander på hælen, midtfoden eller på forfoden. Men alle løberne lander foran tyngdepunktslinjen, hvilket kan bremse løberen. Det er altså ikke landingen på foden der afgør, hvor effektive løberne er. Kilde: [olderyetfaster.com](https://olderyetfaster.com/running-myths-explained/changing-foot-strike/)" %}
+{% include figure image_path="/assets/images/olderyetfaster.com/1-bc6ee310.jpg" caption="Illustration af løber, der lander på hælen, midtfoden eller på forfoden. Men alle løberne lander foran tyngdepunktslinjen, hvilket kan bremse løberen. Det er altså ikke landingen på foden der afgør, hvor effektive løberne er. Kilde: [olderyetfaster.com](https://olderyetfaster.com/running-myths-explained/changing-foot-strike/) [📷](https://olderyetfaster.com/wp-content/uploads/2020/04/1.jpg){: rel='nofollow noopener' }" %}
 
 Læs: [Alt om løbeøkonomi](/lobeokonomi/)
 {: .notice }

@@ -34,7 +34,8 @@ meta:
 last_modified_at: '2025-02-06T23:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
   alt: Tanita DC 360P Kropsanalysevægt test
   title: Tanita DC 360P Kropsanalysevægt
   excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
@@ -43,7 +44,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+- image_path: /assets/images/shop93647.sfstatic.io/tanita-mc_w774_h774_fill-7d7a5bf0.webp
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
   alt: Tanita MC 780 kropsanalysevægt til test
   title: Tanita MC 780 P MA
   excerpt: På Tanita MC 780 kan du lave en interaktiv kropsanalysevægt test. Vægten er let at benytte. Med det todelte display
@@ -130,7 +132,7 @@ InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses f
 
 Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
 
-{% include figure image_path="https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/)" alt="LCD på InBody 570" %}
+{% include figure image_path="/assets/images/bodytracker.dk/Global_inbody570_lcd-64835da6.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/) [📷](https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg){: rel='nofollow noopener' }" alt="LCD på InBody 570" %}
 
 Læs meget mere om, hvordan du foretager en bioimpedansmåling med [InBody 570](/artikel/inbody-570-bioimpedans/).
 

@@ -19,8 +19,10 @@ tags:
 - træningslære
 last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 ---
 
 Træningsplanlægning – også kaldet periodisering – handler om at strukturere træningen over tid, så man hele tiden gør fremskridt uden at ramme muren. Men måden man planlægger træningen på, afhænger i høj grad af, hvor erfaren man er som styrketrænet.
@@ -123,7 +125,7 @@ Den erfarne vil ofte skulle bruge en eller anden form for periodisering af træn
 
 Det kan fx være **blokperiodisering**:
 
-{% include figure image_path="http://www.powerliftingtowin.com/wp-content/uploads/2014/04/block-training.gif" caption="Som du kan se, bliver hver egenskab udviklet sekventielt med block-periodisering. Forkortelserne er ikke vigtige – du kan indsætte hvilke som helst fysiske kvaliteter i felterne." %}
+{% include figure image_path="/assets/images/powerliftingtowin.com/block-training-0f84de73.gif" caption="Som du kan se, bliver hver egenskab udviklet sekventielt med block-periodisering. Forkortelserne er ikke vigtige – du kan indsætte hvilke som helst fysiske kvaliteter i felterne. [📷](http://www.powerliftingtowin.com/wp-content/uploads/2014/04/block-training.gif){: rel='nofollow noopener' }" %}
 
 **Kendetegn:**
 

@@ -110,7 +110,7 @@ En lang række af formlerne er baseret på en lineær sammenhæng mellem BMI og 
 
 Alle formlerne giver altså resultater, som ikke ligger så langt fra hinanden. Ulempen ved disse formler er naturligvis, at de alle viser en lineær sammenhæng, men Jackson et al (2002) og Gallagher et al (2000) viser tydeligt, at sammenhængen er kurvet.
 
-{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" alt="figur viser kurvet sammenhæng mellem bmi og fedtprocent udregninger" %}
+{% include figure image_path="/assets/images/halls.md/heritage-a12b6971.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/) [📷](https://halls.md/bmi/images/heritage.gif){: rel='nofollow noopener' }" alt="figur viser kurvet sammenhæng mellem bmi og fedtprocent udregninger" %}
 
 Hvis du kigger på formlen fra Gallagher et al (2002), så beskriver den en kurvet sammenhæng mellem BMI og den udregnede fedtprocent.
 
@@ -222,14 +222,14 @@ Jeg har skrevet mere om [Body Mass Index](/bmi/) og lavet en [BMI beregner](/bmi
 
 Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at kombinere udregningen af fedtprocent med en øjemålstest. Den kan give dig en nogenlunde ide, om din fedtprocent ligger inden for et sundt spektrum.
 
-{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten: Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
+{% include figure image_path="/assets/images/exerciseandwellness.files.wordpress.com/body-fat-percentage-men-women-23e92cca.jpg" caption="Øjemålstest af fedtprocenten: Kilde: [exerciseandwellness.wordpress.com](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/) [📷](https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg){: rel='nofollow noopener' }" alt="beregn din fedtprocent" %}
 
 Læs: [7 måder at måle sin fedtprocent på?](/maal-fedtprocent/)
 {: .notice }
 
 Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan beregner jeg fedtprocent?" %}
+{% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Hvordan beregner jeg fedtprocent?" %}
 
 Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)).
 
@@ -237,7 +237,7 @@ Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagh
 
 Kvinders fedtprocent er højere end mænds for det samme BMI. Jackson et al (2002) viste, at kvindernes fedtprocent faktisk var 10,4% højere end mænds i gennemsnit. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
 
-{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
+{% include figure image_path="/assets/images/halls.md/heritage-a12b6971.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/) [📷](https://halls.md/bmi/images/heritage.gif){: rel='nofollow noopener' }" %}
 
 Mænds fedtprocent er lavere end kvindernes, fordi de relativt set har en større muskelmasse end kvinder.
 

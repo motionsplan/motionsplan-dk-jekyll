@@ -46,7 +46,7 @@ Det gælder særligt begyndere inden for styrketræning. Tjek [dit eget niveau i
 
 Staley sammenligner frekvensen for de enkelte muskelgrupper i følgende tabel:
 
-{% include figure image_path="https://global.discourse-cdn.com/tnation/original/4X/8/2/b/82b5155da24d791cef14fa2bd31f20a263ac46ea.jpeg" caption="Kilde: [T-Nation](https://t-nation.com/t/the-single-most-effective-workout-split/284590)" %}
+{% include figure image_path="/assets/images/global.discourse-cdn.com/82b5155da24d791cef14fa2bd31f20a263ac46ea-45f7ec55.jpeg" caption="Kilde: [T-Nation](https://t-nation.com/t/the-single-most-effective-workout-split/284590) [📷](https://global.discourse-cdn.com/tnation/original/4X/8/2/b/82b5155da24d791cef14fa2bd31f20a263ac46ea.jpeg){: rel='nofollow noopener' }" %}
 
 Hvis programmet er skruet rigtigt sammen, og du kan nå at restituere, så har du altså mulighed for at øve dig flere gange om ugen og stimulere proteinsyntesen oftere ved et fullbody-program.
 
@@ -67,7 +67,7 @@ Find øvelser der aktiverer de store muskler i benene og omkring hoften. Disse �
 
 Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({% link _pages/exercises-tag-knee-dominant.md %}).
 
-{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
+{% include figure image_path="/assets/images/crossfys.dk/www_Crossfys_dk_-1024x1024-33828490.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/) [📷](https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png){: rel='nofollow noopener' }" %}
 
 </details>
 

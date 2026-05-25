@@ -7,7 +7,8 @@ permalink: /fitness/
 author_profile: true
 toc: true
 header:
-  teaser: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
+  teaser: /assets/images/wp.vih.dk/vih_62A4833_web-1-2048x1366-41e53d29.jpg
+  credit: https://wp.vih.dk/wp-content/uploads/2024/04/vih_62A4833_web-1-2048x1366.jpg
   caption: *title
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500

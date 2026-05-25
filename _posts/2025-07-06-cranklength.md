@@ -97,7 +97,7 @@ Hvis du:
 
 Det er i **toppen af pedaltrådet du har effekten af en kortere pedalarm**. Ved at gøre krankarmen kortere, så vil du strække benet lidt mere, hvilket reducerer hofte og knævinkel, som du kan se i denne illustration. 
 
-{% include figure image_path="https://www.applemanbicycles.com/wp-content/uploads/2023/01/Appleman-Crank-Length-Hip-Angle.gif" caption="Hoftevinklen åbner sig, når kranklængden bliver kortere. I denne figur er det eneste, der ændrer sig, kranklængden og sadelhøjden. Kilde: [Appleman Bicycles](https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/)" %}
+{% include figure image_path="/assets/images/applemanbicycles.com/Appleman-Crank-Length-Hip-Angle-0ef738c6.gif" caption="Hoftevinklen åbner sig, når kranklængden bliver kortere. I denne figur er det eneste, der ændrer sig, kranklængden og sadelhøjden. Kilde: [Appleman Bicycles](https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/) [📷](https://www.applemanbicycles.com/wp-content/uploads/2023/01/Appleman-Crank-Length-Hip-Angle.gif){: rel='nofollow noopener' }" %}
 
 ---
 
@@ -134,7 +134,7 @@ Resultaterne viste:
 
 Matt Appleman lavede [test for 1 minute power](https://www.applemanbicycles.com/resources/crank-length-vs-power-cadence/) og han fandt følgende:
 
-{% include figure image_path="https://www.applemanbicycles.com/wp-content/uploads/2022/12/PowerVsCrankLength3-scaled.jpg" caption="Matt Appleman har lavet et _case study_ og ikke et videnskabeligt studie. Det er lidt tankevækkende at power outputtet varierer meget i 155mm krankarmene ift. 175 krankarmene, men i studiet varierer kadencen også mere for 155 krankarmene end 175 krankarmene. Men at man skulle kunne generere mindre power med kortere krankarme er altså ikke en bekymring med mindre krankarmene bliver alt for korte, og kadencen for høj til at producere høje watt. Kilde: [Case Study 01: CRANK LENGTH VS POWER and CADENCE](https://www.applemanbicycles.com/resources/crank-length-vs-power-cadence/)" %}
+{% include figure image_path="/assets/images/applemanbicycles.com/PowerVsCrankLength3-scaled-a985dd86.jpg" caption="Matt Appleman har lavet et _case study_ og ikke et videnskabeligt studie. Det er lidt tankevækkende at power outputtet varierer meget i 155mm krankarmene ift. 175 krankarmene, men i studiet varierer kadencen også mere for 155 krankarmene end 175 krankarmene. Men at man skulle kunne generere mindre power med kortere krankarme er altså ikke en bekymring med mindre krankarmene bliver alt for korte, og kadencen for høj til at producere høje watt. Kilde: [Case Study 01: CRANK LENGTH VS POWER and CADENCE](https://www.applemanbicycles.com/resources/crank-length-vs-power-cadence/) [📷](https://www.applemanbicycles.com/wp-content/uploads/2022/12/PowerVsCrankLength3-scaled.jpg){: rel='nofollow noopener' }" %}
 
 ---
 
@@ -156,7 +156,7 @@ Schultz giver nogle ret præcise anbefalinger:
 
 I denne figur kan du se, hvad forskellige længder på pedalarme begyder for knævinklen på cyklen.
 
-{% include figure image_path="https://www.applemanbicycles.com/wp-content/uploads/2023/01/Appleman-Crank-Length-Knee-Angle.gif" caption="Knævinklen åbner sig, når kranklængden bliver kortere. I denne figur er det eneste, der ændrer sig, kranklængden og sadelhøjden. Kilde: [Appleman Bicycles](https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/)" %}
+{% include figure image_path="/assets/images/applemanbicycles.com/Appleman-Crank-Length-Knee-Angle-3c26e264.gif" caption="Knævinklen åbner sig, når kranklængden bliver kortere. I denne figur er det eneste, der ændrer sig, kranklængden og sadelhøjden. Kilde: [Appleman Bicycles](https://www.applemanbicycles.com/resources/riders-guide-to-crank-length/) [📷](https://www.applemanbicycles.com/wp-content/uploads/2023/01/Appleman-Crank-Length-Knee-Angle.gif){: rel='nofollow noopener' }" %}
 
 Men hvordan måler du så knævinklen?
 

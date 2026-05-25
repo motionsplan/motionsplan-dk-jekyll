@@ -42,7 +42,7 @@ Howard Schatz har udgivet en fotobog med billeder fra før og efter en boksekamp
 
 DR.dk har lavet en [webfeature](https://www.dr.dk/sporten/webfeature/gaetsportsgren), hvor man skal gætte, hvilken sportsgren forskellige mennesker dyrker. Det er en meget sjov gættekonkurrence, og faktisk kan man måske gætte mere ud fra kroppens udseende end, man lige regnede med.
 
-{% include figure image_path="https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/COVER_SPORT-100.jpg" caption="Prøv DRs gættekonkurrence med, hvilken idræt de forskellige mennesker dyrker [her](https://www.dr.dk/sporten/webfeature/gaetsportsgren). Kilde: [DR.dk](https://www.dr.dk/sporten/webfeature/gaetsportsgren)." alt="gæt sportsgrenen bag kropstypen" %}
+{% include figure image_path="/assets/images/dr.dk/COVER_SPORT-100-ed62c4c3.jpg" caption="Prøv DRs gættekonkurrence med, hvilken idræt de forskellige mennesker dyrker [her](https://www.dr.dk/sporten/webfeature/gaetsportsgren). Kilde: [DR.dk](https://www.dr.dk/sporten/webfeature/gaetsportsgren). [📷](https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/COVER_SPORT-100.jpg){: rel='nofollow noopener' }" alt="gæt sportsgrenen bag kropstypen" %}
 
 Når man prøver at gætte eliteidrætsudøveres idrætsgren ud fra deres kropstype, så skal man naturligvis være klar over mindst to ting.
 
@@ -51,13 +51,13 @@ Når man prøver at gætte eliteidrætsudøveres idrætsgren ud fra deres kropst
 
 DR.dk har spurgt forskere om, hvad [drømmeatleten](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter) kunne se ud til sprint, maraton-løb, vægtløftning og svømning.
 
-{% include figure image_path="https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/1x/COVER_BYG.jpg" caption="Se forskernes bud på, hvad den optimale kropstype er til drømmeatleten i forskellige sportsgrene [her](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter). Kilde: [DR.dk](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter)." alt="drømmeatleten ud fra sportsgrene og kropstype" %}
+{% include figure image_path="/assets/images/dr.dk/COVER_BYG-d5b9dcc3.jpg" caption="Se forskernes bud på, hvad den optimale kropstype er til drømmeatleten i forskellige sportsgrene [her](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter). Kilde: [DR.dk](https://www.dr.dk/sporten/webfeature/forskernes-droemmeatleter). [📷](https://www.dr.dk/tjenester/netdoks/Sporten/SUPERMENNESKET/1x/COVER_BYG.jpg){: rel='nofollow noopener' }" alt="drømmeatleten ud fra sportsgrene og kropstype" %}
 
 ## Du vælger sportsgren ud fra din krop
 
 [Aktiv Træning](https://aktivtraening.dk/traening/se-den-perfekte-sport-til-din-kropstype) skriver at kropstypen har betydning for, hvilken idrætsgren du egner dig godt til.
 
-{% include figure image_path="https://images.interactives.dk/files/bonnier-atr/84897011_thumbnail.jpg?auto=compress&ch=Width%2CDPR&dpr=1.5&ixjsv=2.2.4&q=66&w=610" caption="Kilde: [Aktiv Træning](https://aktivtraening.dk/traening/se-den-perfekte-sport-til-din-kropstype)" alt="mesomorph, ectomorph eller endomorph og sportsgren" %}
+{% include figure image_path="/assets/images/images.interactives.dk/84897011_thumbnail-9e721264.jpg" caption="Kilde: [Aktiv Træning](https://aktivtraening.dk/traening/se-den-perfekte-sport-til-din-kropstype)" alt="mesomorph, ectomorph eller endomorph og sportsgren" %}
 
 Bestemte kropstyper egner sig til forskellige sportsgrene. Det betyder, at det er lettere at lave en specifik sportsgren. Når du får gode oplevelser med en idræt, så er der også større sandsynlighed for, at du synes, at det er sjovt.
 

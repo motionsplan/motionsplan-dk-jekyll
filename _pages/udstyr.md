@@ -18,7 +18,8 @@ feature_row:
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
 feature_row_running:
-  - image_path: https://m2.apuls.dk/media/catalog/product/0/1/0101125403_1.jpg
+  - image_path: /assets/images/m2.apuls.dk/0101125403_1-b3aafcfd.jpg
+    credit: https://m2.apuls.dk/media/catalog/product/0/1/0101125403_1.jpg
     alt: "Garmin HRM-Tri Pulsbælte"
     title: "Garmin HRM-Run Pulsbælte"
     excerpt: "Garmins pulsbælte fungerer rigtig fint sammen med EliteHRV-appen til at måle heart rate variability og naturligvis sammen med de forskellige Garmin Produkter, fx det fantastiske FENIX-ur."
@@ -34,7 +35,8 @@ feature_row_running:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
+  - image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
+    credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
@@ -42,7 +44,8 @@ feature_row_running:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://comtek.dk/wp-content/uploads/2020/10/db7db160-56ae-493f-86f1-f488c90a3615.jpg
+  - image_path: /assets/images/comtek.dk/db7db160-56ae-493f-86f1-f488c90a3615-c7664138.jpg
+    credit: https://comtek.dk/wp-content/uploads/2020/10/db7db160-56ae-493f-86f1-f488c90a3615.jpg
     alt: "Bose Spoundsport Free"
     title: "Bose Spoundsport Free"
     excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
@@ -68,7 +71,8 @@ feature_row_compression:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_strength:
-  - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
+  - image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
+    credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
     url: https://repone-strength.myshopify.com/lars-olesen
     title: "Repone"
     alt: "RepOne device"

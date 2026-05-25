@@ -5,7 +5,8 @@ permalink: /gaatest-6min/
 excerpt: "6 minutters gangtest (6MWT) er en gåtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker i samme aldersgruppe som dig selv. Gangtesten henvender sig til relativt fysisk svage personer."
 language: da
 header:
-  teaser: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
+  teaser: /assets/images/static1.straitstimes.com.sg/20170904_1504497527583_2073451859691958_16_amyama4_zuann-903e30dc.jpg
+  credit: https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
   caption: *title
 category:
   - Kondition
@@ -35,7 +36,8 @@ Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke e
 
 *[6MWT]: 6 Minutes Walk Test
 
-{% include figure image_path="https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg" alt="asiatiske kvinder gennemfører 6 min gangtest (6MWT)" %}
+{% include figure image_path="/assets/images/static1.straitstimes.com.sg/20170904_1504497527583_2073451859691958_16_amyama4_zuann-903e30dc.jpg" alt="asiatiske kvinder gennemfører 6 min gangtest (6MWT)" caption="[📷](https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg){: rel='nofollow noopener' }" %}
+
 
 ## Sådan udfører du gangtesten på 6 minutter
 

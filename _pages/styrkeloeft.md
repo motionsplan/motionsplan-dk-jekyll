@@ -18,7 +18,8 @@ category:
 - Styrketræning
 breadcrumbs: 'true'
 feature_row_strength:
-- image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
+- image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
+  credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
   alt: RepOne device
   url: https://repone-strength.myshopify.com/lars-olesen
   title: Repone
@@ -29,7 +30,8 @@ feature_row_strength:
 sidebar:
   nav: trainingtypes
 feature_row_lifts:
-- image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-6812d0d0.jpg
+  credit: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
   alt: Squat - styrkeløft og powerlifting regler for squat
   title: Squat
   excerpt: Få en komplet guide til, hvordan du kan squatte flest muligt kilo i forhold til din kropsbygning. Lær effektiv
@@ -37,7 +39,8 @@ feature_row_lifts:
   url: /styrkeloeft/squat/
   btn_label: Lær styrkeløft squat
   btn_class: btn--info
-- image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-61842227.jpg
+  credit: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
   alt: Bænkpres - powerlifting og styrkeløft regler for bænkpres
   title: Bænkpres
   excerpt: Optimer din teknik i bænkpres, så du kan løft flest mulig kilo. Få styr på opspænd, grebsbredde og de bedste strategier
@@ -45,7 +48,8 @@ feature_row_lifts:
   url: /styrkeloeft/baenkpres/
   btn_label: Lær styrkeløft bænkpres
   btn_class: btn--info
-- image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
+- image_path: /assets/images/i.ytimg.com/maxresdefault-753765c5.jpg
+  credit: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
   alt: Dødløft - powerlifting og styrkeløft regler for dødløft
   title: Dødløft
   excerpt: Lær hvordan du løfter flest muligt kilo fra gulvet og de tilladte variationer af dødløft, der er tilladt i en styrkeløftkonkurrence.

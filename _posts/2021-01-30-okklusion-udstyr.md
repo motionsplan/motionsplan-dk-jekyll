@@ -62,7 +62,8 @@ feature_row_products:
   btn_class: btn--danger
   rel: sponsored nofollow noopener
 feature_row_bodylab:
-  - image_path: https://www.bodylab.dk/images/okklusionsstraps_arms_legs-p.jpg
+  - image_path: /assets/images/bodylab.dk/okklusionsstraps_arms_legs-p-94689758.jpg
+    credit: https://www.bodylab.dk/images/okklusionsstraps_arms_legs-p.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
     title: Bodylab Occlusion Training Bands
     excerpt: Bodylabs okklusionsstraps har ikke plastikspænder, da de ofte kan være svære at lukke med den helt rigtige modstand. De er udviklet i en semielastisk strap med velcrolukning.
@@ -71,7 +72,8 @@ feature_row_bodylab:
     btn_class: btn--info
     rel: sponsored nofollow noopeners
 feature_row_bfr:
-  - image_path: https://cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
+  - image_path: /assets/images/cdn.shopify.com/Complete_Pack_2-142b29fd.jpg
+    credit: https://cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
     url: https://bfrpro.com/collections/store/products/complete-pack-2-workout-program
     title: BfR Professional
     excerpt: BfR Professionals okklussionsstropper til armene er relativt smalle, og til benene er de lavet med velcro, som skal rulles flere gange rundt om benet. De leveres i en pose og er forsøgt gjort lidt eksklusivt.
@@ -88,7 +90,8 @@ feature_row_fitnessinstitute:
     btn_label: Se prisen
     btn_class: btn--inverse
 feature_row_occlude:
-  - image_path: https://www.occlude.dk/wp-content/uploads/2020/02/Occlude-webshop-athlete-xlarge-800x800.jpg
+  - image_path: /assets/images/occlude.dk/Occlude-webshop-athlete-xlarge-800x800-873b2053.jpg
+    credit: https://www.occlude.dk/wp-content/uploads/2020/02/Occlude-webshop-athlete-xlarge-800x800.jpg
     url: https://www.occlude.dk/vare/occlude-athlete-xl/
     title: Occlude - Athlete
     excerpt: Occlude leverer pumpebaseret udstyr til okklusion i høj kvalitet. Du kan samtidig få utrolig kompetent vejledning til udstyret. Hvis du køber udstyret til dig selv, så sørg for at få manchetter til både arme og ben, hvis du vil træne begge dele.

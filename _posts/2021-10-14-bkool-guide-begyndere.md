@@ -35,7 +35,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
+- image_path: /assets/images/resources.chainbox.io/150066_A_default-81b7a74a.jpg
+  credit: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
   title: Wahoo Kickr Climb til Zwift
   excerpt: En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel
@@ -43,7 +44,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--info
   rel: sponsored nofollow noopener
-- image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
+- image_path: /assets/images/cykelexperten.b-cdn.net/uploads_2018_10_wahoo-kickr-headwind-e1540299465291-a28a9c35.jpeg
+  credit: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
   title: Wahoo Kickr Headwind til BKOOL
   excerpt: Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i BKOOL, om du ligger i
@@ -51,7 +53,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--warning
   rel: sponsored nofollow noopener
-- image_path: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
+- image_path: /assets/images/fribikeshop-cdn-endpoint.azureedge.net/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1-ebcd60aa.jpg
+  credit: https://fribikeshop-cdn-endpoint.azureedge.net/images/products/96-T2900S-64/tacx-flux-s-smart-hometrainer-100-t2900s-pp_1.jpg?v=b962e90c04d63509ae39945d5da3510d&width=600
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/
   title: Tacx Flux 2 Smart Zwift Bundle
   excerpt: Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen
@@ -86,7 +89,7 @@ BKOOL er [virtuel cykling](/hometrainer-apps/), som kobles sammen med din _homet
 
 Ud over at konkurrere mod andre cykelryttere i BKOOL-cykelløb kan du også lægge hele din træning ind i BKOOL. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i BKOOL er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)](/ftp-cykling/).
 
-{% include figure image_path="https://cdnwebpub.bkool.com/bkool-2019/images/public-web/home/bkool-family-2x.jpg" caption="Typisk setup i Zwift. Kilde: [bkool.com](https://www.bkool.com/en)" alt="Typisk setup i BKOOL" %}
+{% include figure image_path="/assets/images/cdnwebpub.bkool.com/bkool-family-2x-6641ad95.jpg" caption="Typisk setup i Zwift. Kilde: [bkool.com](https://www.bkool.com/en) [📷](https://cdnwebpub.bkool.com/bkool-2019/images/public-web/home/bkool-family-2x.jpg){: rel='nofollow noopener' }" alt="Typisk setup i BKOOL" %}
 
 BKOOL er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i BKOOL. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på BKOOL i hvert fald mere.
 
@@ -120,7 +123,7 @@ Hvis du gerne vil forbedre oplevelsen og _tracke_ om du kommer i bedre form, så
 
 BKOOL kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
 
-{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i BKOOL med et Wahoo Bike Desk"  %}
+{% include figure image_path="/assets/images/i.pinimg.com/62b1d69426d4cc6241a0e5d9cf0a3028-47ea6354.jpg" caption="BKOOL setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran [📷](https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg){: rel='nofollow noopener' }" alt="Typisk setup i BKOOL med et Wahoo Bike Desk"  %}
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23616&htmlurl=https://cykelexperten.dk/hometrainer/) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
 

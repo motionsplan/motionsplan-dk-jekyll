@@ -26,7 +26,8 @@ feature_row:
   btn_class: btn--success
   btn_label: Se prisen
   rel: sponsored nofollow noopener
-- image_path: https://content.gucca.dk/covers/big/r/a/racercykel-traening_280085.jpg
+- image_path: /assets/images/content.gucca.dk/racercykel-traening_280085-1a9b4e45.jpg
+  credit: https://content.gucca.dk/covers/big/r/a/racercykel-traening_280085.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9399&htmlurl=https://www.gucca.dk/racercykel-traening-bog-p280085
   title: Racercykel træning
   excerpt: Vil du gerne have en bog om, hvordan du skal sammensætte din træning, kost og øvelser for at optimere din performance,
@@ -82,7 +83,8 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-- image_path: https://images.bod.com/images/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378.jpg/500/500/Kontrol_og_l%C3%A6ring_af_motoriske_f%C3%A6rdigheder_og_verbal_feedback.jpg
+- image_path: /assets/images/images.bod.com/Kontrol_og_l_C3_A6ring_af_motoriske_f_C3_A6rdigheder_og_verbal_feedback-68fdac29.jpg
+  credit: https://images.bod.com/images/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378.jpg/500/500/Kontrol_og_l%C3%A6ring_af_motoriske_f%C3%A6rdigheder_og_verbal_feedback.jpg
   url: https://www.bod.dk/bogshop/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378
   title: Kontrol og læring af motoriske færdigheder og verbal feedback
   excerpt: 'Den her har jeg selv skrevet. Bogen besvarer følgende to spørgsmål: (1) Hvordan kan komplicerede, hurtige færdigheder

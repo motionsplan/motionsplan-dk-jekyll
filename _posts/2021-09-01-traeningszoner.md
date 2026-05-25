@@ -42,7 +42,7 @@ Både den aerobe tærskel og den anaerobe tærskel kan trænes, så derfor skal 
 
 I denne figur er de to tærskler tegnet ind i forhold til både en polariseret zone-model og en 6-zoners model.
 
-{% include figure image_path="https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp" caption="Kilde: [www.connecttoperform.ie](https://www.connecttoperform.ie/post/what-is-the-aerobic-threshold)" alt="aerob og anaerob tærskel i forhold til zonerne" %}
+{% include figure image_path="/assets/images/static.wixstatic.com/b059e0_c1fed96532df4341b70a4b2c8bb025c6_mv2-c9906655.webp" caption="Kilde: [www.connecttoperform.ie](https://www.connecttoperform.ie/post/what-is-the-aerobic-threshold) [📷](https://static.wixstatic.com/media/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.png/v1/fill/w_730,h_383,al_c,q_95/b059e0_c1fed96532df4341b70a4b2c8bb025c6~mv2.webp){: rel='nofollow noopener' }" alt="aerob og anaerob tærskel i forhold til zonerne" %}
 
 Figuren er ret god, og den inkluderer også om forbrændingen primært foregår med fedt eller kulhydrat undervejs. Når laktatkoncentrationen i blodet stiger, så stiger bidraget fra det anaerobe system også. Husk imidlertid på, at begge systemer hele tiden medvirker til at skabe energi i kroppen.
 
@@ -123,7 +123,7 @@ Du vil altså få grundlæggende forbedringer i udholdenheden og energiomsætnin
 
 Effekten af træning i denne zone er mere en funktion af tiden i zonen end af intensiteten.
 
-{% include figure image_path="https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-endurance-1536x616.jpg" caption="60 minutters træning et stykke under tærsklen rammer zone 2. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/)" %}
+{% include figure image_path="/assets/images/trainerroad.com/cycling-power-zones-endurance-1536x616-e604a738.jpg" caption="60 minutters træning et stykke under tærsklen rammer zone 2. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/) [📷](https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-endurance-1536x616.jpg){: rel='nofollow noopener' }" %}
 
 ### 3. Tempo
 
@@ -139,7 +139,7 @@ Mælkesyretærskeltræning er typisk baseret på intervaller på 5-30 minutter a
 
 Træning omkring laktattærsklen er også med til at forbedre **modstandsdygtigheden**. Modstandsdygtigheden er et udtryk for, hvor høj procent af VO₂max man er i stand til at løbe med på den anaerobe tærskel. Det er særligt her eliteløbere adskiller sig fra os andre. De kan nemlig løbe med rigtig høj intensitet i forhold til deres maksimale iltoptagelse uden at opbygge ekstra træthedsstoffer i musklerne.
 
-{% include figure image_path="https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-threshold-1536x616.jpg" caption="4x9 minutter intervaller på FTP med 4 minutters pause er et eksempel på træning i zone 4. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/)" %}
+{% include figure image_path="/assets/images/trainerroad.com/cycling-power-zones-threshold-1536x616-c41a76ea.jpg" caption="4x9 minutter intervaller på FTP med 4 minutters pause er et eksempel på træning i zone 4. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/) [📷](https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-threshold-1536x616.jpg){: rel='nofollow noopener' }" %}
 
 ### 5. VO₂max
 
@@ -185,7 +185,7 @@ Selvom de 7 træningszoner kan give god mening forklaringsmæssigt, så er de en
 
 En anden model at forstå træning ud fra kan være 3-zoners-modellen. Her arbejder vi med tre zoner.
 
-{% include figure image_path="https://fiteducation.edu.au/wp-content/uploads/2021/07/FitEd_Polarised_Training_V2_Diagram-1-2048x1448.jpg" caption="Her kan du se de tre zoner beskrevet i forhold til RPE. Angivelserne i procent er et udtryk for den polariserede træningsmodel. Kilde: [fiteducation.edu.au](https://fiteducation.edu.au/2020/02/06/blog-polarised-training/)" %}
+{% include figure image_path="/assets/images/fiteducation.edu.au/FitEd_Polarised_Training_V2_Diagram-1-2048x1448-22b2e9c8.jpg" caption="Her kan du se de tre zoner beskrevet i forhold til RPE. Angivelserne i procent er et udtryk for den polariserede træningsmodel. Kilde: [fiteducation.edu.au](https://fiteducation.edu.au/2020/02/06/blog-polarised-training/) [📷](https://fiteducation.edu.au/wp-content/uploads/2021/07/FitEd_Polarised_Training_V2_Diagram-1-2048x1448.jpg){: rel='nofollow noopener' }" %}
 
 ## Hvordan styrer jeg intensitet i min træning?
 

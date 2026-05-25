@@ -95,7 +95,7 @@ Man kan snakke om F.I.T.T.-princippet:
 
 F.I.T.T. parametrene kan du både tænke over til konditionstræning, eksplosiv træning og styrketræning. Til styrketræning kan du lade dig inspirere af disse [progressionsmodeller til styrketræning](/progressionsmodeller-progressivt-overload/) eller [progression i løb](/progression-loeb/).
 
-{% include figure image_path="https://www.mondaycampaigns.org/wp-content/uploads/2020/03/Move-it-Monday-tip-FITT-7-23-2018-1024x1024.png" caption="F.I.T.T. kan være en god huskeregel til, hvilke knapper du kan skrue på, når du skal lave progressivt overload i dit program. Kilde: [www.mondaycampaigns.org](https://www.mondaycampaigns.org/move-it-monday/overcome-fitness-challenges-with-the-f-i-t-t-workout-formula)" alt="F.I.T.T. træningsprincipper for progressivt overload" %}
+{% include figure image_path="/assets/images/mondaycampaigns.org/Move-it-Monday-tip-FITT-7-23-2018-1024x1024-ddd538ac.png" caption="F.I.T.T. kan være en god huskeregel til, hvilke knapper du kan skrue på, når du skal lave progressivt overload i dit program. Kilde: [www.mondaycampaigns.org](https://www.mondaycampaigns.org/move-it-monday/overcome-fitness-challenges-with-the-f-i-t-t-workout-formula) [📷](https://www.mondaycampaigns.org/wp-content/uploads/2020/03/Move-it-Monday-tip-FITT-7-23-2018-1024x1024.png){: rel='nofollow noopener' }" alt="F.I.T.T. træningsprincipper for progressivt overload" %}
 
 I styrketræning kan du i begyndelsen af din træningskarriere ganske enkelt følge en lineær progression og smide lidt mere vægt på stangen hver gang. I konditionstræning kan du løbe et minut længere fra gang til gang.
 

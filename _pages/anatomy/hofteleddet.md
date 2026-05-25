@@ -6,8 +6,10 @@ permalink: /joints/hofteleddet/
 excerpt: "Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser stræknings- og udadføringsbevægelser."
 latin: ""
 header:
-  teaser: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
-  overlay_image: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
+  teaser: /assets/images/upload.wikimedia.org/Knochenmetastase_Mamma-Ca_Becken_02-ca81ebee.jpg
+  credit: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
+  overlay_image: /assets/images/upload.wikimedia.org/Knochenmetastase_Mamma-Ca_Becken_02-ca81ebee.jpg
+  credit: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
 type: Kugleled
 breadcrumbs: true
 categories:
@@ -38,7 +40,8 @@ movements:
     muscles:
       - Gluteus Minimus
       - Adductors
-image: https://www.orthonow.com/3d-images/Hip-Anatomy.jpg
+image: /assets/images/orthonow.com/Hip-Anatomy-acfeb8f8.jpg
+credit: https://www.orthonow.com/3d-images/Hip-Anatomy.jpg
 toc: true
 sidebar:
   nav: anatomi

@@ -26,7 +26,7 @@ Critical Power er et alternativ til at teste din fysiske formåen, når du har a
 
 Test af Critical Power er baseret på det princip, at _power output_ over et bestemt 'critical power' følger en veldefineret hyperbolsk kraft-tid kurve.
 
-{% include figure image_path="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1024,h_528/https://cpsinmotion.com/wp-content/uploads/2013/10/Critical_Power-1024x528.png" caption="Kilde: [cpsinmotion.com](https://cpsinmotion.com/critical-power-profiling/)" %}
+{% include figure image_path="/assets/images/sp-ao.shortpixel.ai/Critical_Power-1024x528-7ae750c7.png" caption="Kilde: [cpsinmotion.com](https://cpsinmotion.com/critical-power-profiling/) [📷](https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1024,h_528/https://cpsinmotion.com/wp-content/uploads/2013/10/Critical_Power-1024x528.png){: rel='nofollow noopener' }" %}
 
 Kurven er defineret af to variable: Critical Power (CP) og W’ (udtales ‘W prime’).
 
@@ -129,7 +129,7 @@ Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszone
 
 Zonerne er navngivet på samme måde som [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/). De udregnes automatisk på i appen, og du kan have Stryd til automatisk at opdatere zonerne ud fra dine aktuelle træninger.
 
-{% include figure image_path="https://support.stryd.com/hc/article_attachments/360055015934/mceclip0.png" caption="Kilde: [stryd.com](https://support.stryd.com/hc/en-us/articles/360039774153-Power-Zones)." %}
+{% include figure image_path="/assets/images/support.stryd.com/mceclip0-57791996.png" caption="Kilde: [stryd.com](https://support.stryd.com/hc/en-us/articles/360039774153-Power-Zones). [📷](https://support.stryd.com/hc/article_attachments/360055015934/mceclip0.png){: rel='nofollow noopener' }" %}
 
 ## Konklusion
 

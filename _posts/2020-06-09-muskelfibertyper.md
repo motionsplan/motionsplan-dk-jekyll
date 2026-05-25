@@ -4,8 +4,10 @@ seo_title: "Muskelfibertyper: Hvilke 3 typer muskelfibre findes der?"
 permalink: /muskelfibertyper/
 language: da
 header:
-  overlay_image: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
-  teaser: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
+  overlay_image: /assets/images/upload.wikimedia.org/Muscle_Tissue_Skeletal_Muscle_Fibers__2828089113308_29-47a9f185.jpg
+  credit: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
+  teaser: /assets/images/upload.wikimedia.org/Muscle_Tissue_Skeletal_Muscle_Fibers__2828089113308_29-47a9f185.jpg
+  credit: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
   overlay_filter: 0.4
   caption: "Muskelfibertyper: Langsomme og hurtige muskelfibre. Røde og hvide muskelfibre. Type I, IIa, IIx. Billede fra Wikipedia."
 category:
@@ -59,7 +61,7 @@ Type IIX (er også tidligere blevet kaldt type IIB) kaldes også _fast twitch_ e
 
 Type IIX fibrene er hvidlige og eksperter i at skabe ATP gennem hurtige anaerobe processer, og muskelfibrene kan trække sig sammen hurtigt. Til gengæld er type IIX fibre ikke så udholdende.
 
-{% include figure image_path="https://www.freelapusa.com/wp-content/uploads/2014/03/muscle-fiber-type.jpg" caption="Muskelfibertypesammensætning mellem røde og hvide muskelfibre og idrætsgrene. Kilde: [www.freelapusa.com](https://www.freelapusa.com/steve-magness-on-muscle-fiber-types-tension-tone-and-blood-testing/)" alt="Muskelfibre - og muskelfibertyper i forhold til idrætsgrene" %}
+{% include figure image_path="/assets/images/freelapusa.com/muscle-fiber-type-87a2ea92.jpg" caption="Muskelfibertypesammensætning mellem røde og hvide muskelfibre og idrætsgrene. Kilde: [www.freelapusa.com](https://www.freelapusa.com/steve-magness-on-muscle-fiber-types-tension-tone-and-blood-testing/) [📷](https://www.freelapusa.com/wp-content/uploads/2014/03/muscle-fiber-type.jpg){: rel='nofollow noopener' }" alt="Muskelfibre - og muskelfibertyper i forhold til idrætsgrene" %}
 
 ## Karakteristika for muskelfibertyperne
 

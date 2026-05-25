@@ -16,7 +16,8 @@ tags:
 last_modified_at: '2021-07-24T23:14:14Z'
 toc: 'true'
 gallery_bodylab:
-- image_path: https://www.bodylab.dk/images/campaigns/2021-02-free-pancake/dk/1080x429.jpg
+- image_path: /assets/images/bodylab.dk/1080x429-0f5aefc6.jpg
+  credit: https://www.bodylab.dk/images/campaigns/2021-02-free-pancake/dk/1080x429.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/frontpage.html
   alt: Proteinpandekager
   title: Proteinpandekager med proteinpulver

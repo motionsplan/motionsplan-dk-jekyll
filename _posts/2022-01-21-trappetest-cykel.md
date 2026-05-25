@@ -120,7 +120,7 @@ Men ud over at være konsekvent i udførelsen af testen, så er det også en god
 
 [Menschmachine.dk](https://menschmaschine.dk/simpel-cykeltest-du-kan-lave-hjemme/) foreslår at køre testen hver 4-6 uge og så skrive dine observationer ned som data, watt, maxpuls og en kommentar til dine resultater og præstation.
 
-{% include figure image_path="https://menschmaschine.dk/wp-content/uploads/2018/12/Sk%C3%A6rmbillede-37.png" caption="Kilde: Eksempel på testlog over trappetesten. Kilde: [Menschmachine.dk](https://menschmaschine.dk/simpel-cykeltest-du-kan-lave-hjemme/)" alt="testlog over trappetesten" %}
+{% include figure image_path="/assets/images/menschmaschine.dk/Sk_C3_A6rmbillede-37-86670928.png" caption="Kilde: Eksempel på testlog over trappetesten. Kilde: [Menschmachine.dk](https://menschmaschine.dk/simpel-cykeltest-du-kan-lave-hjemme/)" alt="testlog over trappetesten" %}
 
 
 {% comment %}
@@ -156,7 +156,7 @@ Vil du forsøge dig med at måle dit niveau ud fra en trappetest, så bør du f�
 
 Kør evt. testen hver 5-6. uge, sådan at du kan nå at lægge lidt til niveauet mellem testene. Du behøver ikke logge mange observationer. Dato, slut watt, maxpuls og en kommentar er tilstrækkeligt.
 
-{% include figure image_path="https://menschmaschine.dk/wp-content/uploads/2018/12/Sk%C3%A6rmbillede-37.png" %}
+{% include figure image_path="/assets/images/menschmaschine.dk/Sk_C3_A6rmbillede-37-86670928.png" %}
 
 {% endcomment %}
 

@@ -23,8 +23,10 @@ tags:
 - begynder
 last_modified_at: '2025-01-27T22:21:26Z'
 gallery:
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-- image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+- image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+  credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
 - question: Kan jeg tilføje ekstra øvelser?
   answer: 'Det anbefales **ikke** i starten. Fokusér på at mestre de store løft. Når du er vant til programmet, kan du tilføje
@@ -81,7 +83,7 @@ Hvis du allerede har kørt Stronglifts 5x5 i et stykke tid, så kan du overveje 
 
 Læg mærke til, at dødløft kun er med 1 topsæt. Du varmer op med en rampe, så det ser sådan ud:
 
-{% include figure image_path="https://stronglifts.com/wp-content/uploads/deadlift-1x5-1.webp" caption="Kilde: [Stronglifts](https://stronglifts.com/stronglifts-5x5/workout-program/)" %}
+{% include figure image_path="/assets/images/stronglifts.com/deadlift-1x5-1-d5b6e2aa.webp" caption="Kilde: [Stronglifts](https://stronglifts.com/stronglifts-5x5/workout-program/) [📷](https://stronglifts.com/wp-content/uploads/deadlift-1x5-1.webp){: rel='nofollow noopener' }" %}
 
 ## Progression
 
@@ -105,7 +107,8 @@ Du skal kun øge vægten, hvis du fuldfører alle 5 sæt med 5 gentagelser.
 - Øg til **1,5–3 minutter**, hvis du kæmper med at gennemføre alle gentagelser.
 - For squat og dødløft kan **op til 5 minutters pause** være nødvendigt ved tunge sæt.
 
-{% include figure image_path="https://stronglifts.com/wp-content/uploads/warmup-5x5-workout.webp" %}
+{% include figure image_path="/assets/images/stronglifts.com/warmup-5x5-workout-cf2dde30.webp" caption="[📷](https://stronglifts.com/wp-content/uploads/warmup-5x5-workout.webp){: rel='nofollow noopener' }" %}
+
 
 ## Hviledage og frekvens
 
@@ -147,7 +150,7 @@ Programmet fungerer indtil dine fremskridt flader ud trods god søvn, kost og re
 
 > Uge 2: B – A – B
 
-{% include figure image_path="https://stronglifts.com/wp-content/uploads/stronglifts-5%C3%975-schedule.webp" caption="Kilde: [Stronglifts](https://stronglifts.com/stronglifts-5x5/workout-program/)" %}
+{% include figure image_path="/assets/images/stronglifts.com/stronglifts-5_C3_975-schedule-ab9d2a3d.webp" caption="Kilde: [Stronglifts](https://stronglifts.com/stronglifts-5x5/workout-program/)" %}
 
 ---
 

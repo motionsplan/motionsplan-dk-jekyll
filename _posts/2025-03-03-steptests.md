@@ -5,7 +5,8 @@ excerpt: "Få overblik over de mest anvendte step tests til at vurdere din kondi
 permalink: /kondital-fra-steptest/
 language: da
 header:
-  teaser: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
+  teaser: /assets/images/i.ytimg.com/maxresdefault-6097801a.jpg
+  credit: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   caption: *title
 category:
   - Tests
@@ -35,7 +36,7 @@ Steptests er ofte brugt inden for fitness, sundhedsvurdering og forskning.
 
 Her finder du en oversigt over de mest populære step tests.
 
-{% include figure image_path="https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg" caption="Et eksempel på at sætte en steptest op for flere på en gang." %}
+{% include figure image_path="/assets/images/i.ytimg.com/maxresdefault-6097801a.jpg" caption="Et eksempel på at sætte en steptest op for flere på en gang. [📷](https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg){: rel='nofollow noopener' }" %}
 
 ## Sådan vælger du den rigtige steptest
 

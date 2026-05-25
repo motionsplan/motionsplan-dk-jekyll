@@ -31,7 +31,7 @@ Kropshævning er en af de absolut bedste overkropsøvelser, så du kan egentlig 
 
 Jeg har skrevet en guide til [forskellen på en pullup og en chinup](/chinup-vs-pullup/), men kort forklaret så handler det om, hvordan man holder i stangen.
 
-{% include figure image_path="https://res-5.cloudinary.com/rubberbanditz/image/upload/c_lpad,dpr_1.0,f_auto,q_auto/v1/media/wysiwyg/blog_images/pullupchinup-image1.jpg" caption="Forskel på chinups og pullups fra [Rubberbanditz](https://www.rubberbanditz.com/blog/pull-up-vs-chin-up/)"  %}
+{% include figure image_path="/assets/images/res-5.cloudinary.com/pullupchinup-image1-d0d8724e.jpg" caption="Forskel på chinups og pullups fra [Rubberbanditz](https://www.rubberbanditz.com/blog/pull-up-vs-chin-up/) [📷](https://res-5.cloudinary.com/rubberbanditz/image/upload/c_lpad,dpr_1.0,f_auto,q_auto/v1/media/wysiwyg/blog_images/pullupchinup-image1.jpg){: rel='nofollow noopener' }"  %}
 
 I dette indlæg får du svar på følgende:
 
@@ -121,9 +121,9 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 
 ### Leg supported pullup og chinup
 
-{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up-chair.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+{% include figure image_path="/assets/images/nerdfitness.com/assisted-pull-up-chair-9392eb90.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/) [📷](https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up-chair.gif){: rel='nofollow noopener' }"  %}
 
-{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+{% include figure image_path="/assets/images/nerdfitness.com/assisted-pull-up-741a7a91.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/) [📷](https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up.gif){: rel='nofollow noopener' }"  %}
 
 {% include video provider="youtube" id="BLJtNxBtv_8" %}
 
@@ -157,13 +157,13 @@ En progression med elastik kan være at arbejde dig op til at kunne tage 10-12 m
 
 {% include video provider="youtube" id="7yqudG7vnow" %}
 
-{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up-staci.gif" caption="Elastik assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+{% include figure image_path="/assets/images/nerdfitness.com/assisted-pull-up-staci-5458ff00.gif" caption="Elastik assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/) [📷](https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up-staci.gif){: rel='nofollow noopener' }"  %}
 
 ### Partner assisterede pullups og chinups
 
 Du kan have en ven til at holde dine fødder. Så fungerer det nogenlunde som leg-assisted, hvor du har fødderne bag ved dig selv. Det er lidt unaturligt at have benene bagved sig selv i forhold til bevægelsen, men prøv det gerne.
 
-{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/pull-up-friend.gif" caption="Partner assisterede pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+{% include figure image_path="/assets/images/nerdfitness.com/pull-up-friend-928936e7.gif" caption="Partner assisterede pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/) [📷](https://www.nerdfitness.com/wp-content/uploads/2019/03/pull-up-friend.gif){: rel='nofollow noopener' }"  %}
 
 ## Variationer af pullups og chinups
 
@@ -177,7 +177,7 @@ Hæng i samme position over længere tid. Du kan vælge forskellige positioner, 
 
 Du laver excentriske pullups og chinups ved at springe op og sænke dig meget langsomt. Fra gang til gang skal du gerne blive bedre til at sænke dig langsomt. Måske kan du til sidst bruge op til 20-30 sekunder på at sænke dig. Du skal være opmærksom på, at excentriske pullups er meget hårde, og selvom du kan lave mange, så kan det virkelig sætte sig dagen efter.
 
-{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/negative-pull-up.gif" caption="Negative eller excentriske pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+{% include figure image_path="/assets/images/nerdfitness.com/negative-pull-up-04135f7c.gif" caption="Negative eller excentriske pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/) [📷](https://www.nerdfitness.com/wp-content/uploads/2019/03/negative-pull-up.gif){: rel='nofollow noopener' }"  %}
 
 ### Halve chinups eller pullups
 

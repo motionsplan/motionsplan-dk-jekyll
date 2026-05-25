@@ -50,7 +50,7 @@ Bentræning kan foregå både med frie vægte og lave squat og lunges og i benma
 
 Når man træner underkoppen, så opererer man med et kontinuum for, hvornår en øvelse karakteriseres som hoftedomineret frem for knædomineret.
 
-{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
+{% include figure image_path="/assets/images/crossfys.dk/www_Crossfys_dk_-1024x1024-33828490.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/) [📷](https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png){: rel='nofollow noopener' }" %}
 
 Det betyder også, at der er mere eller mindre aktivering af musklerne i de forskellige variationer.
 

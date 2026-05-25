@@ -13,7 +13,8 @@ tags:
 - træning
 last_modified_at: '2022-07-10T10:21:26Z'
 feature_row:
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/p/u/pulsoximeter-cms50d2-700x700.jpg
+- image_path: /assets/images/denintelligentekrop.dk/pulsoximeter-cms50d2-700x700-b8436ab3.jpg
+  credit: https://www.denintelligentekrop.dk/media/catalog/product/p/u/pulsoximeter-cms50d2-700x700.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/pulsoximeter-cms50d2
   alt: Pulsoximeter til at måle iltmætningsgrad i blodet
   title: Pulsoximeter CMS50D2
@@ -132,7 +133,7 @@ Iltmætningsmætningskurven er S-formet. Hæmoglobinet er for det meste umættet
 
 Oxygenmætningskurven viser, at der er en begrænset mængde ilt, som blodet kan transportere. Når PO2 i blodet falder, falder iltmætningen også. Det sker, fordi nogle af iltmolekylerne dissocieres fra hæmoglobinet og frigives i vævene.
 
-{% include figure image_path="https://media.lex.dk/media/32737/standard_compressed_haemoglobin.jpg" caption="Hæmoglobin. Øverste diagram viser relationen mellem iltmætningsgrad og ilttryk for voksen-hæmoglobin A og foster-hæmoglobin F. Hæmoglobin F bliver hurtigere iltmættet end hæmoglobin A. Nederste diagram viser relationen for voksen-hæmoglobin A ved forskellige pH-værdier (surhedsgrader). Hæmoglobinet er næsten fuldt mættet med ilt ved ilttrykket i arterielt blod (aB-PO2), mens mætningsgraden er mindre (ned til 50%) og i højere grad afhængig af pH ved ilttrykket i venøst blod (vB-PO2). Kilde: [Den Store Danske](https://denstoredanske.lex.dk/h%C3%A6moglobin)" alt="iltbindingskurven" %}
+{% include figure image_path="/assets/images/media.lex.dk/standard_compressed_haemoglobin-39a785a8.jpg" caption="Hæmoglobin. Øverste diagram viser relationen mellem iltmætningsgrad og ilttryk for voksen-hæmoglobin A og foster-hæmoglobin F. Hæmoglobin F bliver hurtigere iltmættet end hæmoglobin A. Nederste diagram viser relationen for voksen-hæmoglobin A ved forskellige pH-værdier (surhedsgrader). Hæmoglobinet er næsten fuldt mættet med ilt ved ilttrykket i arterielt blod (aB-PO2), mens mætningsgraden er mindre (ned til 50%) og i højere grad afhængig af pH ved ilttrykket i venøst blod (vB-PO2). Kilde: [Den Store Danske](https://denstoredanske.lex.dk/h%C3%A6moglobin)" alt="iltbindingskurven" %}
 
 ## Hvordan forbedrer du din iltmætningsgrad i blodet?
 

@@ -90,7 +90,7 @@ Regelmæssig konditionstræning medfører to centrale tilpasninger i hjertet:
 
 Begge tilpasninger bidrager til en lavere hvilepuls over tid. En systematisk gennemgang og metaanalyse fra 2018 i *Journal of Clinical Medicine* (Reimers et al.) bekræfter, at regelmæssig fysisk aktivitet sænker hvilepulsen signifikant hos raske voksne.
 
-{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." alt="venstre hjertekammer i forhold størrelse og hvilepuls" %}
+{% include figure image_path="/assets/images/athleticlab.com/ventriculargeo-1024x552-2c49424f.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://www.athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/). [📷](https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg){: rel='nofollow noopener' }" alt="venstre hjertekammer i forhold størrelse og hvilepuls" %}
 
 Læs: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
 {: .notice }

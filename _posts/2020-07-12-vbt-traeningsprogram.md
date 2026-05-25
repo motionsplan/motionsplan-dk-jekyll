@@ -6,8 +6,10 @@ excerpt: Læs hvordan et træningsprogram baseret på velocity-based training ka
 permalink: /vbt-traeningsprogram/
 language: da
 header:
-  overlay_image: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
-  teaser: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
+  overlay_image: /assets/images/assets.website-files.com/60f7885ace96d9569961c62e_App_20Pitch_20GRaph_20Highlight-66dec772.png
+  credit: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
+  teaser: /assets/images/assets.website-files.com/60f7885ace96d9569961c62e_App_20Pitch_20GRaph_20Highlight-66dec772.png
+  credit: https://assets.website-files.com/606e9d26b5e253fc0880655c/60f7885ace96d9569961c62e_App%20Pitch%20GRaph%20Highlight.png
 category:
   - Styrketræning
 tags:
@@ -24,20 +26,23 @@ meta:
   direct: direkte test
 last_modified_at: 2023-01-01T08:39:32Z
 feature_row:
-  - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
+  - image_path: /assets/images/reponestrength.com/outerglow_hardware-1-370441b7.png
+    credit: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
     url: https://repone-strength.myshopify.com/lars-olesen
     title: "Repone"
     excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
     btn_class: "btn--info"
     btn_label: Læs mere
     rel: sponsored nofollow noopener
-  - image_path: https://static1.squarespace.com/static/51509569e4b0cdd186de0b85/53c5cb51e4b01886bc5516b3/5a9ea0f30d9297fd81ae5127/1580650938021/push-band.png?format=1500w
+  - image_path: /assets/images/static1.squarespace.com/push-band-aa59cdc4.png
+    credit: https://static1.squarespace.com/static/51509569e4b0cdd186de0b85/53c5cb51e4b01886bc5516b3/5a9ea0f30d9297fd81ae5127/1580650938021/push-band.png?format=1500w
     url: https://www.trainwithpush.com/
     title: "Push Band"
     excerpt: "Push er et device, du bærer på armen, eller som du kan vikle rundt om stangen."
     btn_class: "btn--info"
     btn_label: Læs mere
-  - image_path: https://www.flexstronger.com/wp-content/uploads/2021/02/FLEX-IMAGE-800x800.jpg
+  - image_path: /assets/images/flexstronger.com/FLEX-IMAGE-800x800-9a829795.jpg
+    credit: https://www.flexstronger.com/wp-content/uploads/2021/02/FLEX-IMAGE-800x800.jpg
     url: https://www.flexstronger.com/?rfsn=4448247.fcbbca
     title: "Flex (Gymaware)"
     excerpt: "Gymaware er formentlig gold standard i forhold til måleudstyr til Velocity Based Training i forhold til store hold. De har netop lanceret Flex til at sætte på enden af stangen til den almindelige forbruger."

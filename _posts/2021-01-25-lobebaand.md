@@ -19,7 +19,8 @@ tags:
 - kredsløbsmaskiner
 - udstyr
 feature_row_draxfit:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2018_05_Ne__Speedfit_Drax_fit(1).w774.h774.fill.png
+- image_path: /assets/images/shop93647.sfstatic.io/2018_05_Ne__Speedfit_Drax_fit_1__w774_h774_fill-5455e7d5.png
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/2018_05_Ne__Speedfit_Drax_fit(1).w774.h774.fill.png
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/98-pro-loebebaand/402-speedfit-curve-running/
   title: Draxfit Curve Running
   excerpt: Draxfit er et nyt og anderledes form for løbebånd. På et Draxfit løbebånd bestemmer du selv hastigheden ved hjælp
@@ -29,7 +30,8 @@ feature_row_draxfit:
   vendor: Fitnessgruppen
   rel: sponsored nofollow noopener
 feature_row_apuls:
-- image_path: https://m2.apuls.dk/media/catalog/product/L/H/LHR510_1.jpg
+- image_path: /assets/images/m2.apuls.dk/LHR510_1-cc3e90b1.jpg
+  credit: https://m2.apuls.dk/media/catalog/product/L/H/LHR510_1.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/gymleco-lhr510-curve-lobebaand
   title: Gymleco Curve Løbebånd
   excerpt: Løbefladen på løbebåndet måler 150 x 43 cm og det kan klare en personvægt på op til 230 kg. Et curve løbebånd som
@@ -39,7 +41,8 @@ feature_row_apuls:
   vendor: Læs mere
   rel: sponsored nofollow noopener
 feature_row_toorx:
-- image_path: https://fitnessshoppen.dk/images/TRX%2045-p.png
+- image_path: /assets/images/fitnessshoppen.dk/TRX_2045-p-e2d755ef.png
+  credit: https://fitnessshoppen.dk/images/TRX%2045-p.png
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937&htmlurl=https://fitnessshoppen.dk/shop/toorx-trx-45-61587p.html
   title: Toorx TRX 45 S Løbebånd
   excerpt: Toorx TRX 45 er et superfint løbebånd til dig som vil igang med at træne, eller skal igang med noget genoptræning.
@@ -51,7 +54,8 @@ feature_row_toorx:
   vendor: Læs mere
   rel: sponsored nofollow noopener
 feature_row_odin:
-- image_path: https://apuls.dk/img/900/900/resize/Y/K/YKET1601A_1.jpg
+- image_path: /assets/images/apuls.dk/YKET1601A_1-3a8ad8c5.jpg
+  credit: https://apuls.dk/img/900/900/resize/Y/K/YKET1601A_1.jpg
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/t8-lobebaand
   title: ODIN T800 Løbebånd
   excerpt: Odin T 800 anses for at være markedets bedste løbebånd til prisen. Løbebåndet er designet til dig, der gerne vil

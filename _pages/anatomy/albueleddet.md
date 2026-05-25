@@ -25,9 +25,11 @@ movements:
   - title: Rotation - pronation
     muscles:
       - Underarmsmusklerne
-image: https://ars.els-cdn.com/content/image/1-s2.0-S0021929013003527-gr1.jpg
+image: /assets/images/ars.els-cdn.com/1-s2_0-S0021929013003527-gr1-2ba0438b.jpg
+credit: https://ars.els-cdn.com/content/image/1-s2.0-S0021929013003527-gr1.jpg
 header:
-  overlay_image: https://i1.wp.com/dontforgetthebubbles.com/wp-content/uploads/2013/11/image1.jpg
+  overlay_image: /assets/images/i1.wp.com/image1-59b3ce4f.jpg
+  credit: https://i1.wp.com/dontforgetthebubbles.com/wp-content/uploads/2013/11/image1.jpg
   caption: *title
 toc: true
 sidebar:

@@ -32,7 +32,8 @@ feature_row:
   btn_class: btn--success
   rel: sponsored nofollow nooopener
 feature_row_stryd:
-- image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
+- image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
+  credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
   alt: STRYD Wattmåler - Next Generation
   title: STRYD Wattmåler - Next Generation
   excerpt: STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt
@@ -127,7 +128,7 @@ Jeg løb 413 watt i gennemsnit på de første tre minutter og 360 watt på de si
 
 Jim Vance foreslår i hans bog følgende wattzoner.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/5af9e068697a988a0d722b70/1546901189079-OGL5AF63YIKR4WFT07DB/Screen+Shot+2019-01-07+at+2.46.08+PM.png?format=1500w" caption="Kilde: [www.tristarathletes.com](https://www.tristarathletes.com/coaches-corner/2019/1/7/running-with-power-vs-biking-with-power)" %}
+{% include figure image_path="/assets/images/images.squarespace-cdn.com/Screen_Shot_2019-01-07_at_2_46_08_PM-1711d796.png" caption="Kilde: [www.tristarathletes.com](https://www.tristarathletes.com/coaches-corner/2019/1/7/running-with-power-vs-biking-with-power) [📷](https://images.squarespace-cdn.com/content/v1/5af9e068697a988a0d722b70/1546901189079-OGL5AF63YIKR4WFT07DB/Screen+Shot+2019-01-07+at+2.46.08+PM.png?format=1500w){: rel='nofollow noopener' }" %}
 
 ## 2. Claus Hechmanns 3-9 test
 

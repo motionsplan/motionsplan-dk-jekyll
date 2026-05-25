@@ -43,7 +43,8 @@ feature_row:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 feature_row_bike:
-- image_path: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
+- image_path: /assets/images/resources.chainbox.io/15100128_A_default-f5922ebf.jpg
+  credit: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
   alt: Sensor Compress - Kompressions cykelstrømper
   title: Sensor Compress - Kompressionsstrømper cykelstrømper der virker
   excerpt: Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere.

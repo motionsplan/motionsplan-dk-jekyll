@@ -5,7 +5,8 @@ excerpt: "Recovery boots markedsføres i øjeblikket både til motionister og el
 language: da
 header:
   overlay_image: /assets/images/e/hearstapps-com-recovery-boots.jpg
-  teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
+  teaser: /assets/images/hips.hearstapps.com/normatec-livingroom-boots-overhear-1574756535-039f7786.jpg
+  credit: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
   caption: Er recovery boots effektiv restitution?
 category:
   - Restitution
@@ -23,7 +24,8 @@ feature_row:
     btn_label: "Køb her"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/r/e/reecover-recovery-boots-pro6-6-kamre-large-up-800x800.jpg
+  - image_path: /assets/images/denintelligentekrop.dk/reecover-recovery-boots-pro6-6-kamre-large-up-800x800-180cbcb9.jpg
+    credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/r/e/reecover-recovery-boots-pro6-6-kamre-large-up-800x800.jpg
     alt: "Recover vakuumbukser og recovery boots"
     title: "Vakuumbukser og recovery boots"
     excerpt: "Recovery Boots er designet med henblik på restitution gennem øget cirkulation i lymfesystemet ved dybe tryk."

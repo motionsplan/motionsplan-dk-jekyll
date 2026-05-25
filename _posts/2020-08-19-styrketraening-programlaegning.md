@@ -127,7 +127,7 @@ En progressionsmodel kunne fx se sådan her ud:
 {% include figure image_path="/assets/images/loebeprogram/progression.png" caption="Forslag til en simpel progressionsmodel, som kan bruges i løbeprogrammet." %}
 
 
-{% include figure image_path="https://www.fullrangestrength.com/images/xTraining_for_strength_and_hypertrophy.png.pagespeed.ic.Aj2qn2g_iu.webp" caption="Kilde: [Full Range Strength](https://www.fullrangestrength.com/training-for-strength-and-hypertrophy.html)" %}
+{% include figure image_path="/assets/images/fullrangestrength.com/xTraining_for_strength_and_hypertrophy_png_pagespeed_ic_Aj2qn2g_iu-fbc67a7d.webp" caption="Kilde: [Full Range Strength](https://www.fullrangestrength.com/training-for-strength-and-hypertrophy.html) [📷](https://www.fullrangestrength.com/images/xTraining_for_strength_and_hypertrophy.png.pagespeed.ic.Aj2qn2g_iu.webp){: rel='nofollow noopener' }" %}
 
 ***
 
@@ -303,7 +303,7 @@ Hoftedominerede øvelser fokuserer på baglår, baller og den nedre ryg. En korr
 
 En måde at træne det på kan være med kosteskaft som på nedenstående billede, hvor kosteskaftet skal røre nedre ryg, øvre ryg og bagsiden af hovedet.
 
-{% include figure image_path="https://acewebcontent.azureedge.net/fit-life/2016/06/2016-06-07-Classic-Exercises-Everyone-Should-Master-03.png" caption="" %}
+{% include figure image_path="/assets/images/acewebcontent.azureedge.net/2016-06-07-Classic-Exercises-Everyone-Should-Master-03-19dae7ce.png" caption=" [📷](https://acewebcontent.azureedge.net/fit-life/2016/06/2016-06-07-Classic-Exercises-Everyone-Should-Master-03.png){: rel='nofollow noopener' }" %}
 </details>
 
 <details markdown="1" class="faq">

@@ -86,5 +86,5 @@ Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe t�
 
 En anden angivelse af de forskellige zoner i forhold til HR<sub>max</sub> kan ses i denne grafik.
 
-{% include figure image_path="https://vic.tri-alliance.com/wp-content/uploads/sites/3/2018/02/Training-Zones-Descriptions-1038x1467.jpg" caption="Kilde: [vic.tri-alliance.com](https://vic.tri-alliance.com/know-training-zones/)." %}
+{% include figure image_path="/assets/images/vic.tri-alliance.com/Training-Zones-Descriptions-1038x1467-ef142478.jpg" caption="Kilde: [vic.tri-alliance.com](https://vic.tri-alliance.com/know-training-zones/). [📷](https://vic.tri-alliance.com/wp-content/uploads/sites/3/2018/02/Training-Zones-Descriptions-1038x1467.jpg){: rel='nofollow noopener' }" %}
 

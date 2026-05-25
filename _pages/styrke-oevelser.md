@@ -8,8 +8,10 @@ description: "Find de bedste styrketræningsøvelser til hele kroppen. Lær korr
 comments: false
 author_profile: true
 gallery:
-  - image_path: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
-    url: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
+  - image_path: /assets/images/i.pinimg.com/3f17845a79b4552c5fbbcbd584d1c36a-cca30250.jpg
+    credit: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
+    url: /assets/images/i.pinimg.com/3f17845a79b4552c5fbbcbd584d1c36a-cca30250.jpg
+    credit: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
     alt: *title
     title: *title
     data_pin_id: 579768152024756849

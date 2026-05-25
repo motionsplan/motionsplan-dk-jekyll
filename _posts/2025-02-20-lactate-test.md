@@ -287,8 +287,8 @@ Denne atlet starter med en aerob base, der ikke er særlig veludviklet.
 
 **Anbefaling:** Uphillathlete anbefalede atleten at træne i pulszonen omkring 115-118 bpm i flere måneder for at forbedre den aerobe kapacitet og udholdenhed.
 
-{% include figure image_path="https://uphillathlete.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-03-at-08.32.32.png" caption="Grøn pil: Zoner 1–2 - Gul pil: Zone 3 - 
-Rød pil: Zone 4 - Kilde: [uphillathlete.com](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/)" %}
+{% include figure image_path="/assets/images/uphillathlete.com/Screen-Shot-2019-11-03-at-08_32_32-a9e5f9b8.png" caption="Grøn pil: Zoner 1–2 - Gul pil: Zone 3 - 
+Rød pil: Zone 4 - Kilde: [uphillathlete.com](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/) [📷](https://uphillathlete.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-03-at-08.32.32.png){: rel='nofollow noopener' }" %}
 
 ### Test #2 – Efter seks måneders aerob basetræning
 
@@ -303,7 +303,7 @@ Den aerobe mangel er rettet, og atleten kan tilføje en lille mængde højintens
 
 Denne proces med aerob grundtræning kan fortsætte i årevis, cyklus efter cyklus, hvor hver træningsperiode kan føre til højere AeT-hastigheder – og i nogle tilfælde også en højere puls ved AeT.
 
-{% include figure image_path="https://uphillathlete.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-03-at-08.31.47.png" caption="Grøn pil: Zoner 1–2 - Gul pil: Zone 3 - Rød pil: Zone 4 - Kilde: [uphillathlete.com](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/)" %}
+{% include figure image_path="/assets/images/uphillathlete.com/Screen-Shot-2019-11-03-at-08_31_47-6d2d92af.png" caption="Grøn pil: Zoner 1–2 - Gul pil: Zone 3 - Rød pil: Zone 4 - Kilde: [uphillathlete.com](https://uphillathlete.com/aerobic-training/blood-lactate-test-protocol-tips-and-tricks/) [📷](https://uphillathlete.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-03-at-08.31.47.png){: rel='nofollow noopener' }" %}
 
 Det er væsentligt konstant at arbejde med den aerobe grundtræning for at have en god base, som den højintense træning kan skærpe.
 

@@ -46,7 +46,7 @@ Din **core** hedder på dansk kropsstammen eller kropskorsettet. Din core bestå
 
 Det er vigtigt, at du træner din vejrtrækningsmuskel (diaphragma) i toppen af din core og ned til bækkenbundsmusklerne, som udgør den nederste del af kropsstammen.
 
-{% include figure image_path="https://acewebcontent.azureedge.net/blogs/blog-examprep-101113-2.jpg" caption="Et bud på hvad core musklerne er! Kilde: [www.acefitness.org](https://www.acefitness.org/fitness-certifications/ace-answers/exam-preparation-blog/3562/core-anatomy-muscles-of-the-core/)" %}
+{% include figure image_path="/assets/images/acewebcontent.azureedge.net/blog-examprep-101113-2-ed808f58.jpg" caption="Et bud på hvad core musklerne er! Kilde: [www.acefitness.org](https://www.acefitness.org/fitness-certifications/ace-answers/exam-preparation-blog/3562/core-anatomy-muscles-of-the-core/) [📷](https://acewebcontent.azureedge.net/blogs/blog-examprep-101113-2.jpg){: rel='nofollow noopener' }" %}
 
 Derimellem ligger dine mave- og rygmuskler, som både kan give kraft til bevægelser, men som også stabiliserer bevægelser.
 

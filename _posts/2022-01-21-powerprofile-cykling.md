@@ -41,7 +41,7 @@ En powerprofil viser, hvor mange watt du kan holde over forskellige tidsperioder
 
 Ud fra disse fire målinger kan du sammenligne dig med med eliten, og du får en cykelrytterprofil.
 
-{% include figure image_path="https://zwiftinsider.com/wp-content/uploads/2019/04/pursuiter-phenotype.jpg" caption="Kilde: [Training and Racing with a Power Meter](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939){: rel='sponsored nofollow noopener' }" %}
+{% include figure image_path="/assets/images/zwiftinsider.com/pursuiter-phenotype-a5d5e265.jpg" caption="Kilde: [Training and Racing with a Power Meter](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/training-and-racing-with-a-power-meter_hunter-allen_paperback_9781937715939){: rel='sponsored nofollow noopener' } [📷](https://zwiftinsider.com/wp-content/uploads/2019/04/pursuiter-phenotype.jpg){: rel='nofollow noopener' }" %}
 
 Hvis du kører Zwift og har sat din brugerprofil sammen med ZwiftPower, så kan du se en variation af denne vurdering på din profil på ZwiftPower. Her kan du se en powerprofil for en af de dygtigste ryttere i Zwift.
 
@@ -51,7 +51,7 @@ Læg mærke til, at der her bruges 15 sekunder, 1 minut, 5 minutter og 20 minutt
 
 På [Menschmaschine.dk](https://menschmaschine.dk/cykeltest/) kan du se en anden måde at illustrere en powerprofil, hvor der er taget nogle flere målepunkter. Her er det den absolutte power i forhold til tiden. Det kan være en fin måde at lave sin egen powerprofil på, da man så har nogle absolutte power-tal, man kan prioritere sin træning efter.
 
-{% include figure image_path="https://menschmaschine.dk/wp-content/uploads/2018/01/powerprofile.png" caption="Kilde: [menschmaschine.dk](https://menschmaschine.dk/cykeltest/)" %}
+{% include figure image_path="/assets/images/menschmaschine.dk/powerprofile-7b50931a.png" caption="Kilde: [menschmaschine.dk](https://menschmaschine.dk/cykeltest/) [📷](https://menschmaschine.dk/wp-content/uploads/2018/01/powerprofile.png){: rel='nofollow noopener' }" %}
 
 ## Sammenlign din powerprofil med andre
 
@@ -59,7 +59,7 @@ Hvis du gerne vil sammenligne din powerprofil med andre, så skal du normalisere
 
 På [Training Peaks](https://www.trainingpeaks.com/blog/power-profiling/) kan du finde en samlet tabel over, hvordan power fordeler sig på forskellige niveauer. I tabellen nedenunder kan du sammenligne dit _maksimale power output (MPO)_ pr. kilo kropsvægt med alt fra begyndere til verdensklassecykelryttere.
 
-{% include figure image_path="https://wpassets.trainingpeaks.com/wp-content/uploads/2017/01/PowerProfilewidth700height608.jpg" caption="Kilde: [www.trainingpeaks.com](https://www.trainingpeaks.com/blog/power-profiling/)"  %}
+{% include figure image_path="/assets/images/wpassets.trainingpeaks.com/PowerProfilewidth700height608-c1025837.jpg" caption="Kilde: [www.trainingpeaks.com](https://www.trainingpeaks.com/blog/power-profiling/) [📷](https://wpassets.trainingpeaks.com/wp-content/uploads/2017/01/PowerProfilewidth700height608.jpg){: rel='nofollow noopener' }"  %}
 
 ## Hvordan laver man en powerprofil?
 

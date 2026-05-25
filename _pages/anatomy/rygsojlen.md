@@ -32,7 +32,8 @@ movements:
       - Den lige rygstrækker
       - Den ydre skrå bugmuskel
       - Den indre skrå bugmuskel
-image: http://rygsygdom.dk/images/6/69/Columnavertebralis.jpg
+image: /assets/images/rygsygdom.dk/Columnavertebralis-54fc3760.jpg
+credit: http://rygsygdom.dk/images/6/69/Columnavertebralis.jpg
 image_movement: /assets/images/anatomy/movement-back.png
 header:
   overlay_image: https://besimplywell.com/wp-content/uploads/2018/02/xray-back.jpg

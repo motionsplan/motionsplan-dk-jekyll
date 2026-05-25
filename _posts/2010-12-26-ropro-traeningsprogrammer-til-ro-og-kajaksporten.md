@@ -26,7 +26,8 @@ category:
 - Træning
 last_modified_at: '2020-07-05T21:42:12Z'
 feature_row:
-- image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg
+- image_path: /assets/images/shop93647.sfstatic.io/Concept_2_model_D_sort1_w774_h774_fill-ad0c2dde.jpg
+  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/Concept_2_model_D_sort1.w774.h774.fill.jpg
   alt: Concept 2 egnet til rotræning og ropoprogrammer
   title: Concept 2 - Model D Sort + PM5
   excerpt: Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller,

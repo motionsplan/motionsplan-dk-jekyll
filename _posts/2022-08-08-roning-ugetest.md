@@ -84,7 +84,8 @@ Det er på baggrund af en lang række tests, at sammenhængen er dukket op. Det 
 
 I en graf ser det sådan her ud:
 
-{% include figure image_path="https://ergrowing.com/wp-content/uploads/2012/01/power-profile.png" alt="Powerprofil for roere baseret på Kurt Jensens Data. Kilde: [Kurt Jensen](https://ergrowing.com/2k-erg-power-profile-calculator/)." %}
+{% include figure image_path="/assets/images/ergrowing.com/power-profile-ae2e9344.png" alt="Powerprofil for roere baseret på Kurt Jensens Data. Kilde: [Kurt Jensen](https://ergrowing.com/2k-erg-power-profile-calculator/)." caption="[📷](https://ergrowing.com/wp-content/uploads/2012/01/power-profile.png){: rel='nofollow noopener' }" %}
+
 
 ## Hvad er ugetesten i roning?
 

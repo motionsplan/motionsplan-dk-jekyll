@@ -64,7 +64,7 @@ Løbekadencen er et rigtig godt parameter at træne, hvis du gerne vil være en 
 
 Jeg har selv slået kadence til, så jeg kan se det på mit ur. Jeg har lagt mærke til, at min løbekadence har en tendens til at falde, når jeg bliver træt, så det det er et godt parameter at have tilgængeligt på uret.
 
-{% include figure image_path="https://miro.medium.com/max/700/1*2kOX4ZL9PyVhQis9Pk4Q0w.png" caption="Løbekadence og skridtlængde. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
+{% include figure image_path="/assets/images/miro.medium.com/1_2kOX4ZL9PyVhQis9Pk4Q0w-db91cdf1.png" caption="Løbekadence og skridtlængde. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7) [📷](https://miro.medium.com/max/700/1*2kOX4ZL9PyVhQis9Pk4Q0w.png){: rel='nofollow noopener' }" %}
 
 ### 2. Skridtlængde
 
@@ -92,7 +92,7 @@ Den gennemsnitlige tid løberen er på jorden ved hvert eneste skridt. Det blive
 
 Vertical Oscillation er målingen af, hvor meget løberens overkrop flyttes vertikalt på jorden. Denne løbemåling giver en fornemmelse for, hvor meget løberen hopper undervejs. Det måles typisk centimeter. Målet med løb er horisontal bevægelse. Derfor kan det betale sig, at energi brugt på vertikal bevægelse minimeres for at løbe mere effektivt.
 
-{% include figure image_path="https://miro.medium.com/max/700/1*c9_GCaPD7oYPT7CmLaJXLg.png" caption="Vertical Oscillation og Ground Contact Time. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
+{% include figure image_path="/assets/images/miro.medium.com/1_c9_GCaPD7oYPT7CmLaJXLg-01b17482.png" caption="Vertical Oscillation og Ground Contact Time. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7) [📷](https://miro.medium.com/max/700/1*c9_GCaPD7oYPT7CmLaJXLg.png){: rel='nofollow noopener' }" %}
 
 ### 5. Vertical Ratio
 
@@ -114,7 +114,7 @@ De fleste har efterhånden et [pulsur](/pulsure/), men mange får ikke indstille
 
 Du skal være opmærksom på, at pulsen afhænger af alderen, fysiske forfatning, vejret, stimulanser og fx dehydrering. Samtidig reagerer pulsen altid forsinket på den aktivitet, du laver. Hvis du fx laver intervaller, så vil svaret på pulsen komme senere.
 
-{% include figure image_path="https://miro.medium.com/max/700/1*APsnxSbENOe2aNSQARYbUw.png" caption="Puls fra Stryd Powercenter og Strava Elevate. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
+{% include figure image_path="/assets/images/miro.medium.com/1_APsnxSbENOe2aNSQARYbUw-bd1d4344.png" caption="Puls fra Stryd Powercenter og Strava Elevate. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7) [📷](https://miro.medium.com/max/700/1*APsnxSbENOe2aNSQARYbUw.png){: rel='nofollow noopener' }" %}
 
 ### Power (watt)
 
@@ -122,7 +122,7 @@ Power er en relativ ny løbemåling. Den har været brugt længe i cykling, men 
 
 En af fordelene ved watt er, at den reagerer øjeblikkeligt, når du ændrer intensitet. Power er heller ikke afhængig af nogen udefrakommende faktorer, som pulsen er. Der er forskellige forskellige metoder at måle watt på, som jeg har skrevet mere om under [wattmåling og løb](/loeb-watt/).
 
-{% include figure image_path="https://miro.medium.com/max/700/1*PxYGn8rmqpZJ9FYsgMcKBA.png" caption="Power målt med Stryd. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
+{% include figure image_path="/assets/images/miro.medium.com/1_PxYGn8rmqpZJ9FYsgMcKBA-1a6c1d94.png" caption="Power målt med Stryd. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7) [📷](https://miro.medium.com/max/700/1*PxYGn8rmqpZJ9FYsgMcKBA.png){: rel='nofollow noopener' }" %}
 
 ## Løbeøkonomi og løbeeffektitet
 

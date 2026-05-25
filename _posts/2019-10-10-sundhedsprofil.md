@@ -8,8 +8,10 @@ redirect_from:
   - /test/fitness-tests/
   - /fitness-tests/
 header:
-  overlay_image: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
-  teaser: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
+  overlay_image: /assets/images/cdn-dk-mk-me.clio.me/HVad_er_sundhed-9bd57401.jpg
+  credit: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
+  teaser: /assets/images/cdn-dk-mk-me.clio.me/HVad_er_sundhed-9bd57401.jpg
+  credit: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   caption: *title
 category:
   - Tests

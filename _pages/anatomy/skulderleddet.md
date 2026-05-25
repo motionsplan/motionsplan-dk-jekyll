@@ -59,10 +59,12 @@ movements_scapula:
   - title: Indadrotation
     muscles:
       - Rhombemusklen
-image: https://static1.squarespace.com/static/5bba6b9caf468381c6d11b6f/5d33107d18cbd7000113d73a/5dad8ba351bf6e19d66acec1/1571863756133/acromion-process.jpg?format=2500w
+image: /assets/images/static1.squarespace.com/acromion-process-bfb3bff7.jpg
+credit: https://static1.squarespace.com/static/5bba6b9caf468381c6d11b6f/5d33107d18cbd7000113d73a/5dad8ba351bf6e19d66acec1/1571863756133/acromion-process.jpg?format=2500w
 image_movement: /assets/images/anatomy/movement-shoulder.png
 header:
-  overlay_image: https://www.drivelinebaseball.com/wp-content/uploads/2018/05/Screenshot-106.webp
+  overlay_image: /assets/images/drivelinebaseball.com/Screenshot-106-c5bbe743.webp
+  credit: https://www.drivelinebaseball.com/wp-content/uploads/2018/05/Screenshot-106.webp
   caption: *title
 toc: true
 sidebar:
@@ -122,7 +124,7 @@ I denne video kan du blive klogere på, hvilken betydning skulderbladet har for 
 
 I dette billede kan du se, hvilket bevægelser der er mulige i skulderbladet.
 
-{% include figure image_path="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12178-020-09672-6/MediaObjects/12178_2020_9672_Fig2_HTML.png" caption="Bevægelser i skulderbladet" %}
+{% include figure image_path="/assets/images/media.springernature.com/12178_2020_9672_Fig2_HTML-fbc6a995.png" caption="Bevægelser i skulderbladet" %}
 
 ## Anatomi i skulderen
 

@@ -21,14 +21,16 @@ tags:
 last_modified_at: '2023-01-01T09:12:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
+- image_path: /assets/images/apuls.dk/1240420_1-0a65dc3d.jpg
+  credit: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
   alt: Fitwood Pullupbar
   excerpt: FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design.
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
   btn_label: Køb her
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
+- image_path: /assets/images/apuls.dk/Apuls0136_1-97782c79.jpg
+  credit: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
   alt: cPro9 Pullupbar
   excerpt: cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for
     greb.
@@ -64,11 +66,11 @@ Du har garanteret set højde-kurver før. Med vækstkurver kan du sammenligne di
 
 ### Vækstkurven for drenge:
 
-{% include figure image_path="https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/)" %}
+{% include figure image_path="/assets/images/sundhed.dk/61594_vaekstkurve-drenge902x1279-8c0e3d9b.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/) [📷](https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg){: rel='nofollow noopener' }" %}
 
 ### Vækstkurven for piger:
 
-{% include figure image_path="https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/)" %}
+{% include figure image_path="/assets/images/sundhed.dk/61595_vaekstkurve-pige902x1282-26096fd5.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF]( https://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/) [📷](https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg){: rel='nofollow noopener' }" %}
 
 ## Hvordan har udviklingen historisk været i gennemsnitshøjden?
 
@@ -76,7 +78,7 @@ Jeg har ledt med lys og lygte, men jeg har kun kunnet finde en graf over udvikli
 
 Her kan du se udviklingen for mændene.
 
-{% include figure image_path="https://www.museumskanderborg.dk/Files/Billeder/0120_Oem_Kloster_Museum/0610_MIDDELALDERSKELETTER/0611_Skeletterne_fortaeller/hoejde_graf.jpg" caption="Udviklingen af den mandlige danske befolknings gennemsnitshøjde fra 1850 – 2000. Middelalderbefolkningen havde den samme højde som man havde i 1850. Kilde: [Skanderborg Museum](https://www.museumskanderborg.dk/skeletterne-fort%C3%A6ller)" %}
+{% include figure image_path="/assets/images/museumskanderborg.dk/hoejde_graf-119c3b18.jpg" caption="Udviklingen af den mandlige danske befolknings gennemsnitshøjde fra 1850 – 2000. Middelalderbefolkningen havde den samme højde som man havde i 1850. Kilde: [Skanderborg Museum](https://www.museumskanderborg.dk/skeletterne-fort%C3%A6ller)" %}
 
 Jeg har ledt efter gennemsnitstal for både mænd og kvinder, og dem jeg har kunnet finde, har jeg lagt ind i følgende tabel.
 

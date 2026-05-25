@@ -6,7 +6,8 @@ excerpt: "Forstå principperne bag Jack Daniels' Running Formula og lær hvordan
 permalink: /jack-daniels-running-formula/
 language: da
 header:
-  teaser: https://www.coachray.nz/wp-content/uploads/2021/10/Jack-Daniels.jpeg
+  teaser: /assets/images/coachray.nz/Jack-Daniels-64ea815b.jpeg
+  credit: https://www.coachray.nz/wp-content/uploads/2021/10/Jack-Daniels.jpeg
   caption: *title
 category:
   - Løb
@@ -16,8 +17,10 @@ tags:
   - træningsfilosofi
 last_modified_at: 2025-01-27T22:21:26Z
 gallery:
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
+  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
+    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
 faq:
   - question: Hvad er VDOT, og hvordan bruges det i træningen?
     answer: >

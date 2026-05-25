@@ -103,7 +103,7 @@ I _repeats_ har vi måske planlagt, at vi vil lave en x3 @ RPE 8 og opnå en _fa
 3. Når RPE er steget til RPE 9, så ved vi at der ifølge tabellen har indsneget sig 5% træthed.
 4. Øvelsen er altså ovre, og man fortsætter til næste øvelse.
 
-{% include figure image_path="https://www.powerliftingtowin.com/wp-content/uploads/2014/04/miket-rpe.png" caption="RPE Percentage Chart" alt="RPE percentage chart fra Reactive Training Systems" %}
+{% include figure image_path="/assets/images/powerliftingtowin.com/miket-rpe-338e75fc.png" caption="RPE Percentage Chart [📷](https://www.powerliftingtowin.com/wp-content/uploads/2014/04/miket-rpe.png){: rel='nofollow noopener' }" alt="RPE percentage chart fra Reactive Training Systems" %}
 
 ## Ugentlig træthed
 
@@ -162,11 +162,11 @@ Se en videoforklaring af programmet her.
 
 Programmet løber over 9 uger, og der er ikke to uger der er ens. Den første måned arbejder man fire dage om ugen, mens man den sidste måned arbejder tre dage om ugen.
 
-{% include figure image_path="https://www.powerliftingtowin.com/wp-content/uploads/2014/06/RTS-Generalized-Intermediate-Program.jpg" caption="RTS Generalized Intermediate Program fra [PowerliftingToWin](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/)" alt="RTS Generalized Intermediate Program" %}
+{% include figure image_path="/assets/images/powerliftingtowin.com/RTS-Generalized-Intermediate-Program-bb77cbf5.jpg" caption="RTS Generalized Intermediate Program fra [PowerliftingToWin](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/) [📷](https://www.powerliftingtowin.com/wp-content/uploads/2014/06/RTS-Generalized-Intermediate-Program.jpg){: rel='nofollow noopener' }" alt="RTS Generalized Intermediate Program" %}
 
 Programmet er et godt eksempel på brugen af _fatigue percents_ og kompleks programmering.
 
-{% include figure image_path="https://www.powerliftingtowin.com/wp-content/uploads/2014/06/RTS-Generalized-Intermediate-Programming-Layout.jpg" caption="Programming Layout from [PowerliftingToWin](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/)" alt="RTS Generalized Intermediate Program" %}
+{% include figure image_path="/assets/images/powerliftingtowin.com/RTS-Generalized-Intermediate-Programming-Layout-1c21a120.jpg" caption="Programming Layout from [PowerliftingToWin](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/) [📷](https://www.powerliftingtowin.com/wp-content/uploads/2014/06/RTS-Generalized-Intermediate-Programming-Layout.jpg){: rel='nofollow noopener' }" alt="RTS Generalized Intermediate Program" %}
 
 Hvis du allerede er vant til at træne fire gange om ugen, så kan du godt lægge lidt _fatigue_ ind i den første uge, men ellers er programmet relativt hårdt.
 

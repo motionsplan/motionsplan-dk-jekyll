@@ -56,7 +56,7 @@ Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at
 
 Typisk opdeler man øvelserne til underkoppen i enten [knædominante øvelser]({% link _pages/exercises-tag-knee-dominant.md %}) eller [hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}). Det kan illustreres meget godt på dette kontinuum, hvornår en øvelse kan siges at tilhøre den ene eller anden kategori.
 
-{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
+{% include figure image_path="/assets/images/crossfys.dk/www_Crossfys_dk_-1024x1024-33828490.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/) [📷](https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png){: rel='nofollow noopener' }" %}
 
 ## Artikler om træning af bentræning
 

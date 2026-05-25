@@ -8,9 +8,11 @@ redirect_from:
 excerpt: "InBody 570 er en avanceret bioimpedansmåler. Lær, hvordan du bruger den korrekt, fortolker resultaterne og sikrer præcise målinger."
 language: da
 header:
-  overlay_image: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
+  overlay_image: /assets/images/bodytracker.dk/DSC02424-1030x688-90b2ef04.jpg
+  credit: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
   caption: *title
-  teaser: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
+  teaser: /assets/images/bodytracker.dk/DSC02424-1030x688-90b2ef04.jpg
+  credit: https://bodytracker.dk/wp-content/uploads/2022/05/DSC02424-1030x688.jpg
 category:
   - Tests
   - Fedtprocent
@@ -22,7 +24,8 @@ tags:
 last_modified_at: 2025-02-06T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
+  - image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
+    credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
     alt: "Tanita DC 360P Kropsanalysevægt test"
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse."
@@ -30,7 +33,8 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
+  - image_path: /assets/images/shop93647.sfstatic.io/tanita-mc_w774_h774_fill-7d7a5bf0.webp
+    credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
     alt: "Tanita MC 780 kropsanalysevægt til test"
     title: "Tanita MC 780 P MA"
     excerpt: "På Tanita MC 780 kan du lave en interaktiv kropsanalysevægt test. Vægten er let at benytte. Med det todelte display kan du nemt overskue de målte og beregnede data."
@@ -80,7 +84,7 @@ Det er ret enkelt at tage selve testen på InBody 570. Du følger bare instrukti
 
 Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
 
-{% include figure image_path="https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/)" alt="LCD på InBody 570" %}
+{% include figure image_path="/assets/images/bodytracker.dk/Global_inbody570_lcd-64835da6.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/) [📷](https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg){: rel='nofollow noopener' }" alt="LCD på InBody 570" %}
 
 De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er ratioen _extra cellulære væske_ (ECW-ratio) i forhold til den _intra cellulære væske (ICW)_.
 
@@ -102,7 +106,7 @@ Resultatarket indeholder også dit Body Mass Index. Vi har skrevet meget uddybde
 
 Når du har lavet testen, så får du også et resultatark skrevet ud. Resultat fra kropskompositionstesten ser nogenlunde sådan her ud:
 
-{% include figure image_path="https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra bioimpedansmålingen for InBody 570. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/)." alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
+{% include figure image_path="/assets/images/bodytracker.dk/Global_inbody570_results02-b70b65fd.jpg" caption="Resultatark fra bioimpedansmålingen for InBody 570. Kilde: [bodytracker.dk](https://bodytracker.dk/produkter/inbody570/). [📷](https://bodytracker.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg){: rel='nofollow noopener' }" alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
 
 På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket.
 

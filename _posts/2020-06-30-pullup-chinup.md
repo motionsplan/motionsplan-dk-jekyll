@@ -17,14 +17,16 @@ tags:
 last_modified_at: 2021-01-11T08:14:14Z
 toc: true
 feature_row:
-  - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
+  - image_path: /assets/images/apuls.dk/1240420_1-0a65dc3d.jpg
+    credit: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
     btn_label: "Køb her"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
+  - image_path: /assets/images/apuls.dk/Apuls0136_1-97782c79.jpg
+    credit: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb til chinups og pullups."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
@@ -88,7 +90,7 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 - **Neutralt greb** vender håndfladerne mod hinanden.
 
-{% include figure image_path="https://438p81ekhtervo423d6400fn-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="grebstyper i kropshævninger - chinups, pullups" %}
+{% include figure image_path="/assets/images/438p81ekhtervo423d6400fn-wpengine.netdna-ssl.com/Nov18_WO_Grip_Chart-6be9d7be.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/) [📷](https://438p81ekhtervo423d6400fn-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Nov18_WO_Grip_Chart.jpg){: rel='nofollow noopener' }" alt="grebstyper i kropshævninger - chinups, pullups" %}
 
 ## Forskelle i bevægelsen i chinups og pullups
 
@@ -129,7 +131,7 @@ Nogle mener at chinups er bedre for at træne trapezius, men det eneste der bety
 
 Lad os kigge på det fra et **anatomisk perspektiv**. Den primære funktion af alle tre dele af trapezius er at lave en retraktion af skulderbladet.
 
-{% include figure image_path="https://i.pinimg.com/originals/cc/36/62/cc3662bde440e1f71d3028f6dbfbd923.jpg" caption="Skulderbladets bevægelser på ryggen. Kilde: [thebackbone.co.uk](https://thebackbone.co.uk/raise-your-hand-if-you-have-shoulder-or-neck-pain/)" alt="Skulderbladets bevægelser på ryggen" %}
+{% include figure image_path="/assets/images/i.pinimg.com/cc3662bde440e1f71d3028f6dbfbd923-7b268f9f.jpg" caption="Skulderbladets bevægelser på ryggen. Kilde: [thebackbone.co.uk](https://thebackbone.co.uk/raise-your-hand-if-you-have-shoulder-or-neck-pain/) [📷](https://i.pinimg.com/originals/cc/36/62/cc3662bde440e1f71d3028f6dbfbd923.jpg){: rel='nofollow noopener' }" alt="Skulderbladets bevægelser på ryggen" %}
 
 Deruodver laver de øverste fibre i trapezius med _elevation_ af skulderbladet og det nederste fibre hjælper med _depression_ af skulderbladet.
 

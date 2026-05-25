@@ -84,7 +84,7 @@ Bryan Smith og kollegaer undersøgte ifølge [runnersworld.com](https://www.runn
 
 I denne figur kan du se, hvor meget de forskellige ure over- og underestimerer konditallet i forhold til laboratorietesten. Når bjælken er opadgående, så har uret undervurderet konditallet.
 
-{% include figure image_path="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/garmin-vs-polar-1506613579.jpg?resize=768:*" caption="Sammenligning af Garmin FR230, Garmin FR235 og Polar til måling af kondital. Kilde: [runnersworld.com](https://www.runnersworld.com/gear/a20856601/can-your-watch-estimate-your-vo2-max/)" %}
+{% include figure image_path="/assets/images/hips.hearstapps.com/garmin-vs-polar-1506613579-7460942f.jpg" caption="Sammenligning af Garmin FR230, Garmin FR235 og Polar til måling af kondital. Kilde: [runnersworld.com](https://www.runnersworld.com/gear/a20856601/can-your-watch-estimate-your-vo2-max/) [📷](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1076/garmin-vs-polar-1506613579.jpg?resize=768:*){: rel='nofollow noopener' }" %}
 
 [Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/) sammenlignede Polar V800 og Garmin Forerunner 230 til at estimere V̇o₂max. De konkluderer:
 

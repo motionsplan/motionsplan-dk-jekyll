@@ -89,7 +89,7 @@ Cody lægger vægt på, at kroppen skal opbygges som en pyramid for at kunne bli
 
 Dette kan illustreres i følgende figur:
 
-{% include figure image_path="https://liftvault.com/wp-content/uploads/2016/09/gzcl-method-outline.png" caption="Her kan du se forklaringen på de enkelte kateorier." %}
+{% include figure image_path="/assets/images/liftvault.com/gzcl-method-outline-974ecc92.png" caption="Her kan du se forklaringen på de enkelte kateorier. [📷](https://liftvault.com/wp-content/uploads/2016/09/gzcl-method-outline.png){: rel='nofollow noopener' }" %}
 
 ---
 

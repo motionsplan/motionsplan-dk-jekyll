@@ -4,8 +4,10 @@ permalink: /gps-doodles/
 excerpt: "Brug din GPS til at tegne tegning og være med til at lave Strava Art og GPS-doodles."
 language: da
 header:
-  overlay_image: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
-  teaser: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
+  overlay_image: /assets/images/img.atlasobscura.com/bGUgKDEpLmpwZw-20d5c2a9.jpg
+  credit: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
+  teaser: /assets/images/img.atlasobscura.com/bGUgKDEpLmpwZw-20d5c2a9.jpg
+  credit: https://img.atlasobscura.com/KRBw9bOg-a8j9k4yLIDN0RV7FqxB4L-xIZxUhII9uTo/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy82MGI2NzEyMmE4/YzQxZTZiZjhfYW5n/bGVyZmlzaCBkb29k/bGUgKDEpLmpwZw.jpg
   overlay_filter: 0.5
 category:
   - Træning
@@ -17,7 +19,8 @@ tags:
 last_modified_at: 2020-04-10T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
+  - image_path: /assets/images/resources.chainbox.io/010-12883-00ny_A_default-164ceee5.jpg
+    credit: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
     alt: "Garmin HRM-Dual"
     title: "Garmin HRM-Dual"
     excerpt: "HRM-dual Pulsmåler fra Garmin, der er kompatibel med alle Garmin-computere med pulsfunktion. Måleren er blevet opgraderet, så den nu også anvender Bluetooth (BLE), og dermed også er kompatibel med alle andre mærker, der benytter ANT+ eller Bluetooth."
