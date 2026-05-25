@@ -19,12 +19,6 @@ header:
 toc: 'true'
 sidebar:
   nav: anatomi
-feature_row:
-- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
-  url: https://track.adtraction.com/t/t?a=1873806873&as=1889586219&t=2&tk=1&url=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
-  title: Skelettet - Anatomi plakat
-  alt: plakat med menneskets skelet og knogler
-  rel: sponsored nofollow noopener
 breadcrumbs: 'true'
 last_modified_at: '2022-05-19T08:14:14.000Z'
 faq:
@@ -65,8 +59,6 @@ I dette indlæg bliver du klogere på:
 - Hvordan påvirkes de enkelte knogler af træning og alderen?
 
 Lad os dykke ned i at blive lidt klogere på knoglerne og knogleanatomi.
-
-{% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
 ## Hvad er skelettet og knoglernes funktion?
 

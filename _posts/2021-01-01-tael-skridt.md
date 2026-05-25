@@ -102,7 +102,7 @@ Hvis du tilmelder dig Tæl Skridt-kampagnen kan du **vinde kontante pengepræmie
 
 ## Skridt ur til at tælle skridt
 
-Der findes mange billige og effektive skridttællere. Rigtig mange aktivitetsure har også efterhånden indbygget skridttæller. Jeg bruger selv et [Garmin Fenix](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB){: rel="nofollow sponsored noopener" }.
+Der findes mange billige og effektive skridttællere. Rigtig mange aktivitetsure har også efterhånden indbygget skridttæller. Jeg bruger selv et Garmin Fenix.
 
 Jeg leder lige nu efter de bedste skridture og skridttællere til at tælle skridt. Det er jo vigtigt, at de måler nogenlunde præcist.
 

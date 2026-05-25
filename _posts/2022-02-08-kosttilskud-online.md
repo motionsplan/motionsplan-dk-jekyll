@@ -68,7 +68,7 @@ Anders Nedergaard dykker på i podcasten Fitness M/K ned i Bodylabs historie, so
 
 Jeg køber selv de fleste af mine kosttilskud hos Bodylab. De har en utrolig fin kundeservice, sender hurtigt produkterne, og de er dedikerede til at lave produkter af høj kvalitet.
 
-[Køb hos Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+[Køb hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
 ### 2. Pure Power
 

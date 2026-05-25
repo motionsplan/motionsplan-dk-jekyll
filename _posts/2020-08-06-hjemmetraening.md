@@ -102,7 +102,7 @@ Da Coronaen lukkede Danmark ned, så steg søgningen efter "hjemmetræning" på 
 
 {% include figure image_path="/assets/images/blog/hjemmetraening.png" caption="Søgning efter hjemmetræning på Google" %}
 
-Rigtig mange sider begyndte at lave træningsprogrammer til hjemmetræning. [Sportmaster](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/inspiration/hjemmetraening){: rel="nofollow sponsored noopener" } lavede en side om hjemmetræning, og selv [Fitness World](https://www.fitnessworld.com/dk2/fw-online/traeningsprogrammer/7-minutters-traeningsprogram) lavede et træningsprogram uden udstyr, som du kunne træne derhjemme.
+Rigtig mange sider begyndte at lave træningsprogrammer til hjemmetræning. [Sportmaster](https://sportmaster.dk/inspiration/hjemmetraening){: rel="nofollow sponsored noopener" } lavede en side om hjemmetræning, og selv [Fitness World](https://www.fitnessworld.com/dk2/fw-online/traeningsprogrammer/7-minutters-traeningsprogram) lavede et træningsprogram uden udstyr, som du kunne træne derhjemme.
 
 Du kan se et af Fitness Worlds træningsprogrammer, som man kan lave hjemme kun ved hjælp af kropsvægt i denne Youtube-video.
 

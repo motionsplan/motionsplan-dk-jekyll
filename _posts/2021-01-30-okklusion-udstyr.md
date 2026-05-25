@@ -34,7 +34,7 @@ feature_row_products:
   btn_class: btn--danger
   rel: sponsored nofollow noopener
 - image_path: /assets/images/products/bodylab-okklusionsstraps_arms_legs-p.jpg
-  url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
   title: Bodylab Occlusion
   excerpt: |
     Bodylabs okklusionsstropper er lavet i en blød, semielastisk kvalitet uden plastikspænder. De er nemme at bruge og perfekte til dig, der vil i gang hurtigt.
@@ -63,7 +63,7 @@ feature_row_products:
   rel: sponsored nofollow noopener
 feature_row_bodylab:
   - image_path: https://www.bodylab.dk/images/okklusionsstraps_arms_legs-p.jpg
-    url: https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html
     title: Bodylab Occlusion Training Bands
     excerpt: Bodylabs okklusionsstraps har ikke plastikspænder, da de ofte kan være svære at lukke med den helt rigtige modstand. De er udviklet i en semielastisk strap med velcrolukning.
     alt: *title
@@ -205,7 +205,7 @@ Bodylab har brugt velcrolukning, hvilket gør det let at justere båndene, men s
 
 Bodylabs straps - særligt til benene - er ret smalle, hvilket kan betyde, at de skal strammes ret meget for at opnå en passende afklemning.
 
-Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://track.adtraction.com/t/t?a=1873806383&as=1889586219&t=2&tk=1&url=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html){: rel='sponsored nofollow noopener' } for omkring 300 kroner.
+Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html){: rel='sponsored nofollow noopener' } for omkring 300 kroner.
 
 {% include feature_row id="feature_row_bodylab" type="left" %}
 
