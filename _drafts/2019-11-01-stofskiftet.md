@@ -14,7 +14,7 @@ tags:
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
+  - image_path: https://imgcdn.saxo.com/_9781975217303/0x500
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."

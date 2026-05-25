@@ -49,7 +49,7 @@ Det kommer an på, om hvor god kondition du er i. Hvis du har et godt og velfung
 
 Tjek denne graf for at se, hvad jeg mener.
 
-{% include figure image_path="https://derbycitycf.com/wp-content/uploads/2016/03/HeartRateRecovery.jpg" alt="restitutionspuls og heart rate recovery graf for trænet vs utrænet" caption="Kilde: [derbycitycf.com](https://derbycitycf.com/heart-rate-recovery-an-easy-way-to-track-your-fitness/)" %}
+{% include figure image_path="/assets/images/blog/HeartRateRecovery.jpg" alt="restitutionspuls og heart rate recovery graf for trænet vs utrænet" caption="Kilde: [derbycitycf.com](https://derbycitycf.com/heart-rate-recovery-an-easy-way-to-track-your-fitness/)" %}
 
 ## Hvordan måler jeg restitutionspulsen?
 

@@ -39,7 +39,7 @@ feature_row:
   btn_label: Se prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
+- image_path: https://imgcdn.saxo.com/_9788702160390/0x500
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
   title: Løb som eliten
   excerpt: Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest

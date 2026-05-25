@@ -57,7 +57,7 @@ Der kan foregå bevægelser i leddene på mange forskellige måder. Du skal angi
 
 Du kan se forskellen på det frontale, sagitale og transversale plan i denne figur. 
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
+{% include figure image_path="/assets/images/blog/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
 **Læs**: [Bliv klogere på bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
 {: .notice }

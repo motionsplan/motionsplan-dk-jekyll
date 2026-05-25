@@ -34,7 +34,7 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
+  - image_path: https://www.bog-ide.dk/cdn/shop/files/1589853_Cover.jpg?v=1773245149&width=300
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."

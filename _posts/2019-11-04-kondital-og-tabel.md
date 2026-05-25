@@ -226,7 +226,7 @@ Konditallet er med til at fortælle om hjerte og kredsløb fungerer optimalt. Ko
 
 Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser hvad den relative risiko for at udvikle sygdomme er sammenholdt med konditallet og alderen.
 
-{% include figure image_path="https://inner-gym.com/wp-content/uploads/2018/09/Graf.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin. [PDF](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx)." alt="kondital og relativ risiko for sygdom" %}
+{% include figure image_path="/assets/images/blog/relativ-risiko-kondital.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin. [PDF](/assets/pdf/haandbog-fysisk-aktivitet-2011.pdf)." alt="kondital og relativ risiko for sygdom" %}
 
 ## Hvordan forbedrer man sit kondital?
 

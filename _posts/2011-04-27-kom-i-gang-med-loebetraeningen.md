@@ -25,7 +25,7 @@ category:
 - Løb
 last_modified_at: '2025-02-13T21:41:09Z'
 feature_row:
-- image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
+- image_path: https://imgcdn.saxo.com/_9781718203662/0x500
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
   title: Daniels' Running Formula
   excerpt: Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels'
@@ -34,7 +34,7 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-- image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
+- image_path: https://imgcdn.saxo.com/_9788702160390/0x500
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
   title: Løb som eliten
   excerpt: Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest

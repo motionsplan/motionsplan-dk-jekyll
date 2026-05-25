@@ -27,21 +27,21 @@ category:
 last_modified_at: '2025-04-04T09:41:09Z'
 feature_row:
 - image_path: /assets/images/denintelligentekrop.dk/de-fem-tibetanere-1-77eebdf6.jpg
-  credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
+  credit: https://imgcdn.saxo.com/_9788777594281/0x500
   alt: Bogen De 5 tibetanere af Peter Kelder
   title: De fem tibetanere (bog 1)
   excerpt: Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder.
     Solgt i mere end 2 millioner eksemplarer. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/de-fem-tibetanere-bog1_peter-kelder_paperback_9788777594281
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener
-- image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
+- image_path: https://imgcdn.saxo.com/_9788777594304/0x500
   alt: Peter Kelders anden bog om de 5 tibetanere
   title: De fem tibetanere (bog 2)
   excerpt: Den gamle hemmelighed om ungdommens kilde er opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er på 302 sider
     og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/de-fem-tibetanere-bog-2_brugtbog_sx106906273
   btn_label: Tjek prisen
   btn_class: btn--success
   rel: sponsored nofollow noopener

@@ -55,17 +55,6 @@ feature_quotes:
   cite: Patanjali
 - quote: Yoga keeps punching me in the face with how good it is.
   cite: Nicky Lobo
-gallery_posters:
-- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png
-  url: https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/
-  title: Dalai Lama - Plakat
-  vendor: Citatplakat.dk
-  category: Design plakater > Fotokunst plakater > Historiske billeder > Plakater > Plakater til stuen > Sort hvid plakater
-  price: '129.00'
-  old_price: '129.00'
-  discounted: 'false'
-  id: '237915'
-  rel: sponsored nofollow noopener
 ---
 
 Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din spirituelle vej.
@@ -122,9 +111,3 @@ Husk også at tjekke vores side om [De fem tibetanere](/artikel/de-fem-tibetaner
 {% endif %}
 
 </div>
-
-## Plakater med yogo, mindfulness og meditation
-
-{% include gallery id="gallery_posters" caption=page.title %}
-
-Du kan finde endnu flere [plakater med yoga, meditation og mindfulness hos plakaterne.dk](https://www.plakaterne.dk/plakater-yoga-meditation-mindfulness/).

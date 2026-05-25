@@ -98,7 +98,7 @@ Hvis du ikke kan holde ryggen i neutral, kan det måske være en god ide at stop
 
 Man kalder det 'butt wink', hvis bækkenet tilter. I denne grafik kan du se forskellige positioner for ryggen i et squat.
 
-{% include figure image_path="https://www.bodybuilding.com/images/2016/may/beat-butt-wink-squat-big-without-hurting-your-back_01.jpg" caption="Forskellige positioner for ryggen i et squat." alt="ryggen i squat" %}
+{% include figure image_path="/assets/images/blog/beat-butt-wink-squat-big-without-hurting-your-back_01.jpg" caption="Forskellige positioner for ryggen i et squat. Kilde: [bodybuilding.com](https://www.bodybuilding.com)" alt="ryggen i squat" %}
 
 Du kan lære lidt mere om 'butt wink' her:
 

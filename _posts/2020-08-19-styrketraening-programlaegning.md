@@ -25,7 +25,7 @@ tags:
 last_modified_at: '2023-01-23T08:14:14Z'
 toc: 'true'
 feature_row_fiv_triangle:
-- image_path: https://pccblog.dragondoor.com/wp-content/uploads/2015/02/FIV_triangle.png
+- image_path: /assets/images/blog/FIV_triangle.png
   alt: Intensitet, volumen, frekvens
   title: Frekvens, volumen, intensitet
   excerpt: 'Hvis du justerer på en af disse parametre, så bliver du også nødt til at justere på de andre. Øger du frekvensen,
@@ -112,7 +112,7 @@ Nu kan du organisere træningsugen.
 
 Træningsugen skal organiseres efter, hvor meget tid den enkelte har til at træne - og den enkeltes niveau. 
 
-{% include figure image_path="https://pccblog.dragondoor.com/wp-content/uploads/2015/02/intensity_curve.png" caption="Intensiteten i træningen kan variere gennem ugen, som du ser i den orange linje. Du kan sagtens træne med høj frekvens, men så skal intensiteten justeres. Figuren viser, hvordan restitution også er en vigtig parameter for, at træningen kan give fremgang. Kilde: [Dragon Door](https://pccblog.dragondoor.com/increasing-frequency-how-to-work-out-more-without-overtraining/)" %}
+{% include figure image_path="/assets/images/blog/intensity_curve.png" caption="Intensiteten i træningen kan variere gennem ugen, som du ser i den orange linje. Du kan sagtens træne med høj frekvens, men så skal intensiteten justeres. Figuren viser, hvordan restitution også er en vigtig parameter for, at træningen kan give fremgang. Kilde: [Dragon Door](https://pccblog.dragondoor.com/increasing-frequency-how-to-work-out-more-without-overtraining/)" %}
 
 ### 4. Vælg effektive træningsmetoder
 

@@ -36,7 +36,7 @@ image: /assets/images/rygsygdom.dk/Columnavertebralis-54fc3760.jpg
 credit: http://rygsygdom.dk/images/6/69/Columnavertebralis.jpg
 image_movement: /assets/images/anatomy/movement-back.png
 header:
-  overlay_image: https://besimplywell.com/wp-content/uploads/2018/02/xray-back.jpg
+  overlay_image: https://images.unsplash.com/photo-1624716346720-6c96dfd07807?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   caption: *title
 toc: true
 sidebar:

@@ -17,8 +17,8 @@ tags:
 last_modified_at: '2020-01-23T08:14:14Z'
 toc: 'true'
 feature_row:
-- image_path: https://cdn6.tales.dk/00019/15424/cover.1494853237.jpg
-  url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/shut-up-legs-mit-vilde-ridt-med-og-uden-cyklen_jens-voigt_9788740616811
+- image_path: https://imgcdn.saxo.com/_9781785031755/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/shut-up-legs_paperback_9781785031755
   title: Shutup Legs
   excerpt: Fortællingen om Jens Voigts vej til professionel cykelsport er bemærkelsesværdig. Lige fra hans opvækst i Østtyskland,
     hvor Tour de France blot var noget, man hørte rygter om, til den sene professionelle debut i 1997 og de mange bedrifter,
@@ -36,8 +36,8 @@ feature_row:
   btn_class: btn--success
   btn_label: Se prisen
   rel: sponsored nofollow noopener
-- image_path: https://cdn6.tales.dk/00001/70375/cover.1497214104.jpg
-  url: https://aslinkhub.com/?bid=2184141&media_id=90737&deeplink=https://tales.dk/tri_torbjoern-sindballe_9788702129410
+- image_path: https://imgcdn.saxo.com/_9788702129410/0x500
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/tri_torbjoern-sindballe_haeftet_9788702129410
   title: Tri – Den ultimative træningsbog
   excerpt: Hvis du vil optimere dine præstationer, så tjek bogen _Tri – Den ultimative træningsbog_. Bogen henvender sig godt
     nok til triatlonudøvere, men er stadig meget brugbar for almindelige landevejscyklister. Bogens tips om teknik, træning,
@@ -45,7 +45,7 @@ feature_row:
   btn_class: btn--success
   btn_label: Tjek prisen
   rel: sponsored nofollow noopener
-- image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
+- image_path: https://imgcdn.saxo.com/_9781718203662/0x500
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/daniels-running-formula_jack-daniels_paperback_9781718203662
   title: Daniels' Running Formula
   excerpt: Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels'
@@ -54,7 +54,7 @@ feature_row:
   btn_label: Tjek prisen
   btn_class: btn--danger
   rel: sponsored nofollow noopener
-- image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
+- image_path: https://imgcdn.saxo.com/_9788702160390/0x500
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/loeb-som-eliten_claus-hechmann_indbundet_9788702160390
   title: Løb som eliten
   excerpt: Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest

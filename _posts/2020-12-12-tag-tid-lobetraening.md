@@ -25,14 +25,6 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.proshop.dk/Images/600x800/2799963_ee580b740aa6.jpg
-    alt: "Garmin fenix 6 Sapphire"
-    title: "Garmin fenix 6 Sapphire"
-    excerpt: "Disse robuste fēnix GPS-multisportsure giver dig mulighed for at tilføje kort, musik, intelligent tempoplanlægning med mere til din træning – så du kan klare alle udfordringer med lethed. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Sportsur-Aktivitetstracker/Garmin-fenix-6-Sapphire-black/2799963
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
   - image_path: /assets/images/plusshop.dk/bose_sport_earbuds_black-8dada93b.png
     credit: https://plusshop.dk/media/catalog/product/b/o/bose_sport_earbuds_black.png
     alt: "Bose Sport Free"

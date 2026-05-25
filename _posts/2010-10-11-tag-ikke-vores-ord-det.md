@@ -94,7 +94,7 @@ Hvilke kriterier kigger I efter, når I forsøger at tilegne jer viden?
 
 ## Hvad er reliabilitet og validitet?
 
-{% include figure image_path="https://analyseskolen.dk/wp-content/uploads/2019/11/reliabilitet-validitet.jpg" caption="Validitet og reliabilitet. Kilde: [analyseskolen.dk](https://analyseskolen.dk/validitet-og-reliabilitet/)" %}
+{% include figure image_path="/assets/images/blog/reliabilitet-validitet.jpg" caption="Validitet og reliabilitet. Kilde: [analyseskolen.dk](https://analyseskolen.dk/validitet-og-reliabilitet/)" %}
 
 Du kan lære lidt mere om reliabilitet og validitet i denne video. Videoen forklarer det ganske vist ud fra et samfundsvidenskabeligt perspektiv, men begreberne validtet og reliabilitet skal forstås på samme måde.
 

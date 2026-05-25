@@ -365,7 +365,7 @@ Læs: [Restitution og alder: Hvad betyder alderen for kroppens genopbygning?](/r
 
 Du kan også lade dig inspirere af Team Danmarks restitutionskoncept, som har forsøgt at sætte det sammen i en samlet figur over restitution.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/performance/restitution/)" alt="team danmark restitution" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/2577/restitutionskoncept-jpg.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/til-atleter/restitution)" alt="team danmark restitution" %}
 
 ## Konklusion
 

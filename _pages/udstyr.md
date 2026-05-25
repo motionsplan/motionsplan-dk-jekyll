@@ -27,14 +27,6 @@ feature_row_running:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: "sponsored nofollow noopener"
-  - image_path: https://www.proshop.dk/Images/600x800/2800146_4b59fc4eda4b.jpg
-    alt: "Garmin FENIX 6X PRO Smartwatch"
-    title: "Garmin FENIX 6X PRO Smartwatch"
-    excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Sportsur-Aktivitetstracker/Garmin-fenix-6X-Pro-Solar-Titanium-blackgrey/2800146
-    btn_label: "Se prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
   - image_path: /assets/images/static.wixstatic.com/3c82eb_70f1384f64584b009ccc002dbe0fe482_mv2-68a09ff4.webp
     credit: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
@@ -59,14 +51,6 @@ feature_row_compression:
     title: "Seger Kompressionsstrømper til Løb"
     excerpt: "Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
-    btn_label: "Tjek pris"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
-    alt: "CEP Calf Sleeve - Kompressionsstrømper"
-    title: "CEP Calf Sleeve"
-    excerpt: "Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence egenskaber. Mesh ved læggen for bedre ventilation."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens"
     btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

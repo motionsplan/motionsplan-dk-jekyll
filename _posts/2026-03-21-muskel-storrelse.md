@@ -4,6 +4,8 @@ title: "Kroppens største og mindste muskler"
 seo_title: "Hvad er kroppens største og mindste muskel? (Anatomisk guide)"
 description: "Få svaret på hvilke muskler der er de største og mindste i kroppen. Vi gennemgår Gluteus Maximus, Stapedius og muskelgruppernes volumen."
 excerpt: "Er det ballemusklen, der er størst? Og hvor sidder kroppens mindste muskel? Læs Lars Olesens gennemgang af muskelrekorderne i menneskekroppen."
+header:
+  teaser: /assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg
 permalink: /stoerste-og-mindste-muskel-i-kroppen/
 author: lsolesen
 categories:

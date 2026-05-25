@@ -46,18 +46,6 @@ feature_quotes:
 - quote: For me, life is continuously being hungry. The meaning of life is not simply to exist, to survive, but to move ahead,
     to go up, to achieve, to conquer.
   cite: Arnold Schwarzenegger
-feature_row_schwarznegger_poster:
-- image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-arnold-shwarzenegger-FO10270.png
-  url: https://citatplakat.dk/plakater/design-plakater/arnold-schwarzenegger-plakat/
-  title: Arnold Schwarzenegger - Plakat
-  vendor: Citatplakat.dk
-  category: Black Friday 2020 limited editions > Design plakater > Fotokunst plakater > Historiske billeder > Ikoniske billeder
-    - Black Friday limited > Plakater > Plakater til stuen > Sort hvid plakater
-  price: '129.00'
-  old_price: '129.00'
-  discounted: 'false'
-  id: '232432'
-  rel: sponsored nofollow noopener
 gallery:
 - image_path: /assets/images/pinterest/citat-dwayne-johnson.jpg
   url: /assets/images/pinterest/citat-dwayne-johnson.jpg
@@ -65,19 +53,6 @@ gallery:
   url: /assets/images/pinterest/wendler-accessories.jpg
 - image_path: /assets/images/pinterest/wendler-get-it-done.jpg
   url: /assets/images/pinterest/wendler-get-it-done.jpg
-citatplakat:
-- image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Definition-fitness-ML10014-214x300.png
-  url: https://citatplakat.dk/plakater/definitionsplakater/fitness-definition-engelsk/
-  title: Fitness definition
-  rel: sponsored nofollow noopener
-- image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-med-tegning-af-vaegt-PA10081-214x300.png
-  url: https://citatplakat.dk/plakater/haandvaegt-patent-plakat/
-  title: Håndvægt
-  rel: sponsored nofollow noopener
-- image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Citat-plakat-staerk-mand-CG16100-595x833.png
-  url: https://citatplakat.dk/plakater/citatplakater/do-you-even-lift-bro/
-  title: Do you even lift bro?
-  rel: sponsored nofollow noopener
 ---
 
 Jeg falder ofte over citater om fitness og bodybuilding. Det er alle inspirerende og motiverende udsagn til din træning.
@@ -85,8 +60,6 @@ Jeg falder ofte over citater om fitness og bodybuilding. Det er alle inspirerend
 Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere.
 
 Jeg har samlet en masse forskellige citater om fitness og bodybuilding her på siden, men jeg har også oprettet en [Pinterest Opslagstavle med citater](https://pin.it/6VHPDcC), så skynd dig ind og følge den.
-
-{% include gallery id="feature_row_schwarznegger_poster" caption="Citater om fitness og bodybuilding (reklamelinks)" %}
 
 ## {{ page.feature_quotes.size }} motiverende citater om fitness og bodybuilding
 
@@ -136,9 +109,3 @@ Brug meget gerne kommentarerne til at dele dine inspirerende favoritcitater, så
 {% endif %}
 
 </div>
-
-## Plakater med {{ page.title }}
-
-{% include gallery id="citatplakat" caption="Plakater med fitness og bodybuilding (reklamelinks)"  %}
-
-Du kan se endnu flere citater om [styrketræning, fitness og bodybuilding hos plakaterne.dk](https://www.plakaterne.dk/plakater-traening-styrketraening-loeb/).

@@ -5,6 +5,8 @@ seo_title: 'Anatomibøger og plakater: Anbefalinger til studerende og trænere'
 description: Leder du efter den bedste anatomibog eller en flot anatomiplakat? Se mine anbefalinger til lærebøger og udstyr
   til bevægeapparatet.
 permalink: /anatomi/udstyr-og-boeger/
+header:
+  teaser: /assets/images/unsplash/photo-1648748571003-98d6ff522019.jpg
 category:
 - Udstyr
 tags:

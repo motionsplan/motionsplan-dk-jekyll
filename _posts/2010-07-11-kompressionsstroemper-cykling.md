@@ -23,25 +23,6 @@ tags:
 - udstyr
 last_modified_at: '2024-02-02T20:27:57Z'
 toc: 'true'
-feature_row:
-- image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
-  alt: Seger kompressionsløbestrømper - kompressionsstrømper der virker
-  title: Seger Kompressionsstrømper til Løb
-  excerpt: Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression
-    giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
-  alt: CEP Calf Sleeve - Kompressionsstrømper
-  title: CEP Calf Sleeve
-  excerpt: Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence
-    egenskaber. Mesh ved læggen for bedre ventilation.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 feature_row_bike:
 - image_path: /assets/images/resources.chainbox.io/15100128_A_default-f5922ebf.jpg
   credit: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
@@ -142,10 +123,6 @@ Kompressionsstrømper er et populært redskab blandt cyklister, der ønsker at o
 For at få den bedste effekt er det vigtigt at vælge strømper med den rette pasform og kompressionsgrad, så de hverken er for stramme eller for løse.
 
 Hvis du også er interesseret i, hvordan kompressionsstrømper kan bruges til løb, kan du læse vores [guide om kompressionsstrømper](/kompressionsstroemper-restitution-praestation-bivirkninger/) til løb.
-
-## Køb kompressionsstrømper
-
-{% include feature_row type="left" %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

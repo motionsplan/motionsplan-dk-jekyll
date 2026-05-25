@@ -163,7 +163,7 @@ Bevægelser i kroppen kan foregå i tre forskellige bevægelsesplaner.
 
 Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
+{% include figure image_path="/assets/images/blog/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
 Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/), så tjek følgende artikel.
 
