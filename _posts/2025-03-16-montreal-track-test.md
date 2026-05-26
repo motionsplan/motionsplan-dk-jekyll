@@ -70,7 +70,7 @@ faq:
 - question: Er der en digital version af testen?
   answer: Der findes apps til testadministration, men selve testen kræver stadig en fysisk bane og lydoptagelse.
 feature_row:
-- image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
+- image_path: https://kinetikshop.dk/cdn/shop/files/KINETIK_VX1_-_Vaegtvest.png?v=1687445993&width=1946
   alt: KINETIK Vægtvest VX1
   title: KINETIK Vægtvest VX1
   excerpt: KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest

@@ -64,7 +64,7 @@ faq:
   answer: For begyndere er det bedst at starte uden vægtveste, så du kan lære de grundlæggende plyometriske øvelser korrekt.
     Når du bliver mere erfaren, kan du langsomt begynde at tilføje vægt for at øge intensiteten af din træning.
 feature_row:
-- image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-ProfessionelVaegtvest001_1200x1200.jpg?v=1643228690
+- image_path: https://kinetikshop.dk/cdn/shop/files/KINETIK_VX1_-_Vaegtvest.png?v=1687445993&width=1946
   alt: KINETIK Vægtvest VX1
   title: KINETIK Vægtvest VX1
   excerpt: KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest
