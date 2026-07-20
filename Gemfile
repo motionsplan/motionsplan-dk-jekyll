@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4"
 gem "minimal-mistakes-jekyll", "~> 4.28"
 gem "liquid-c"
+gem 'faraday-retry'
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
@@ -12,6 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
   gem "jemoji"
+  gem 'jekyll-brotli'
 end
 
 group :math do

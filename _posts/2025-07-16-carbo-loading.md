@@ -18,28 +18,28 @@ tags:
 - præstationsoptimering
 last_modified_at: '2025-07-16T22:21:26Z'
 faq:
-- question: Hvad er carb-loading?
-  answer: Carb-loading er en strategi, hvor man øger sit kulhydratindtag i dagene op til en langvarig konkurrence for at maksimere
-    kroppens lagre af muskelglykogen og dermed forbedre udholdenhedspræstationen.
-- question: Hvornår bør man bruge carb-loading?
-  answer: Carb-loading er primært relevant før udholdenhedsbegivenheder, der varer over 90 minutter – fx maraton, triatlon
-    eller lange cykelløb.
-- question: Hvor meget kulhydrat skal man spise under carb-loading?
-  answer: Typisk anbefales 5–7 gram kulhydrat pr. kg kropsvægt pr. dag i 2–3 dage op til konkurrencen. Ved hurtige protokoller
-    kan op til 8–10 g/kg anvendes over 24 timer.
-- question: Får man væskeophobning eller vægtøgning ved carb-loading?
-  answer: Ja, hvert gram glykogen binder ca. 2,6 gram vand. Det kan føre til en midlertidig vægtøgning på 1–2 kg, hvilket
-    er normalt og ikke skadeligt.
-- question: Skal man tømme glykogenlagrene før carb-loading?
-  answer: Det var tidligere standard (klassisk metode), men nyere forskning viser, at man kan opnå lignende resultater uden
-    en udtømningsfase, blot ved at reducere træningen og øge kulhydratindtaget.
-- question: Er der bivirkninger ved carb-loading?
-  answer: Nogle oplever mavegener som oppustethed, kvalme eller diarré, især ved meget højt indtag af kulhydrater. Det kan
-    hjælpes ved at vælge letfordøjelige fødevarer med lavt fiberindhold.
-- question: Virker carb-loading til kortere løb og træning?
-  answer: Nej, der er typisk ingen effekt ved aktiviteter under 60–90 minutter, hvor kroppens normale glykogenlagre er tilstrækkelige.
-- question: Er carb-loading kun relevant for løbere?
-  answer: Nej, strategien kan bruges af alle udholdenhedsatleter – fx cykelryttere, triatleter, langrendsløbere og roere.
+  - question: Hvad er carb-loading?
+    answer: Carb-loading er en strategi, hvor man øger sit kulhydratindtag i dagene op til en langvarig konkurrence for at maksimere
+      kroppens lagre af muskelglykogen og dermed forbedre udholdenhedspræstationen.
+  - question: Hvornår bør man bruge carb-loading?
+    answer: Carb-loading er primært relevant før udholdenhedsbegivenheder, der varer over 90 minutter – fx maraton, triatlon
+      eller lange cykelløb.
+  - question: Hvor meget kulhydrat skal man spise under carb-loading?
+    answer: Typisk anbefales 5–7 gram kulhydrat pr. kg kropsvægt pr. dag i 2–3 dage op til konkurrencen. Ved hurtige protokoller
+      kan op til 8–10 g/kg anvendes over 24 timer.
+  - question: Får man væskeophobning eller vægtøgning ved carb-loading?
+    answer: Ja, hvert gram glykogen binder ca. 2,6 gram vand. Det kan føre til en midlertidig vægtøgning på 1–2 kg, hvilket
+      er normalt og ikke skadeligt.
+  - question: Skal man tømme glykogenlagrene før carb-loading?
+    answer: Det var tidligere standard (klassisk metode), men nyere forskning viser, at man kan opnå lignende resultater uden
+      en udtømningsfase, blot ved at reducere træningen og øge kulhydratindtaget.
+  - question: Er der bivirkninger ved carb-loading?
+    answer: Nogle oplever mavegener som oppustethed, kvalme eller diarré, især ved meget højt indtag af kulhydrater. Det kan
+      hjælpes ved at vælge letfordøjelige fødevarer med lavt fiberindhold.
+  - question: Virker carb-loading til kortere løb og træning?
+    answer: Nej, der er typisk ingen effekt ved aktiviteter under 60–90 minutter, hvor kroppens normale glykogenlagre er tilstrækkelige.
+  - question: Er carb-loading kun relevant for løbere?
+    answer: Nej, strategien kan bruges af alle udholdenhedsatleter – fx cykelryttere, triatleter, langrendsløbere og roere.
 ---
 
 Carb-loading (kulhydratpåfyldning) er en strategisk kostmetode, der anvendes før langvarige udholdenhedsbegivenheder (typisk >90 min) for at maksimere muskel- og leverglykogenlagre og derved udsætte træthed.

@@ -22,10 +22,6 @@ main:
     url: /traeningsoevelser/
   - title: "Udstyr"
     url: /udstyr/
-  - title: "Artikler"
-    url: /blog/
-  - title: "Om"
-    url: /om/
 blog:
   - title: "Populære sider"
     children:

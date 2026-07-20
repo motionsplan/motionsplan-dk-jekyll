@@ -133,6 +133,10 @@ analytics:
 
 footer:
   links:
+    - label: "Artikler"
+      icon: "fas fa-fw fa-newspaper"
+      webslides: "fa-newspaper-o"
+      url: "/blog/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       webslides: "fa-facebook-official"
@@ -157,6 +161,10 @@ footer:
       icon: "fas fa-fw fa-exclamation-triangle"
       webslides: "fa-exclamation-triangle"
       url: "/privatlivspolitik/"
+    - label: "Om"
+      icon: "fas fa-fw fa-info-circle"
+      webslides: "fa-info-circle"
+      url: "/om/"
 
 # Site Author
 author:

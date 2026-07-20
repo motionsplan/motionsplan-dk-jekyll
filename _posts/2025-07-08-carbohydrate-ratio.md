@@ -20,21 +20,21 @@ tags:
 - kosttilskud
 last_modified_at: '2025-07-05T22:21:26Z'
 faq:
-- question: Hvad er det optimale kulhydratforhold under træning?
-  answer: Det afhænger af den samlede mængde kulhydrat, du kan tolerere. Ved 90 gram i timen anbefales et 2:1-forhold mellem
-    glukose og fruktose.
-- question: Hvor meget kulhydrat bør jeg indtage i timen?
-  answer: De fleste udholdenhedsatleter bør sigte mod op til 90 gram kulhydrat i timen. Højere indtag kræver tilvænning og
-    bør testes i træning.
-- question: Hvad sker der, hvis jeg får for meget kulhydrat?
-  answer: Overskydende kulhydrat, især i maven eller tarmen, kan give ubehag som kramper, oppustethed eller diarré. Det er
-    vigtigt at finde et tolereret niveau.
-- question: Hvad er forskellen på glukose og fruktose?
-  answer: Glukose optages via transportøren SGLT1, mens fruktose optages via GLUT5. Ved at kombinere dem øges den samlede
-    optagelse i tarmen.
-- question: Kan jeg træne min krop til at tåle mere kulhydrat?
-  answer: Ja, det er muligt at træne tarmen til at tolerere højere kulhydratindtag. Dette kaldes "gut training" og bør gøres
-    gradvist i træning.
+  - question: Hvad er det optimale kulhydratforhold under træning?
+    answer: Det afhænger af den samlede mængde kulhydrat, du kan tolerere. Ved 90 gram i timen anbefales et 2:1-forhold mellem
+      glukose og fruktose.
+  - question: Hvor meget kulhydrat bør jeg indtage i timen?
+    answer: De fleste udholdenhedsatleter bør sigte mod op til 90 gram kulhydrat i timen. Højere indtag kræver tilvænning og
+      bør testes i træning.
+  - question: Hvad sker der, hvis jeg får for meget kulhydrat?
+    answer: Overskydende kulhydrat, især i maven eller tarmen, kan give ubehag som kramper, oppustethed eller diarré. Det er
+      vigtigt at finde et tolereret niveau.
+  - question: Hvad er forskellen på glukose og fruktose?
+    answer: Glukose optages via transportøren SGLT1, mens fruktose optages via GLUT5. Ved at kombinere dem øges den samlede
+      optagelse i tarmen.
+  - question: Kan jeg træne min krop til at tåle mere kulhydrat?
+    answer: Ja, det er muligt at træne tarmen til at tolerere højere kulhydratindtag. Dette kaldes "gut training" og bør gøres
+      gradvist i træning.
 ---
 
 Kulhydratindtag under udholdenhedsidræt har stor betydning for præstation. I mange år troede man, at kroppen maksimalt kunne optage og bruge omkring **60 gram kulhydrat i timen** – svarende til ca. **240 kcal/t** – under konkurrence.

@@ -18,21 +18,21 @@ tags:
 - løb
 last_modified_at: '2025-07-10T22:21:26Z'
 faq:
-- question: Hvad er et næseplaster?
-  answer: Et næseplaster – også kaldet en ekstern nasal dilator – er et lille plaster, der sættes hen over næseryggen for
-    at udvide næseborene og lette vejrtrækningen gennem næsen.
-- question: Hjælper næseplastre med at forbedre sportspræstationer?
-  answer: Ifølge en ny systematisk gennemgang og meta-analyse er der ingen dokumenteret effekt på iltoptagelse (VO₂max), puls
-    eller oplevet anstrengelse under træning hos raske personer.
-- question: Hvorfor bruger cykelryttere næseplastre?
-  answer: Nogle ryttere oplever, at næseplastre letter næsevejtrækningen og forsinker behovet for mundånding. Det kan give
-    en subjektiv følelse af bedre vejrtrækning – men uden målbar effekt på præstation.
-- question: Kan næseplastre skade?
-  answer: Nej, næseplastre anses generelt som sikre at bruge og har ingen kendte skadelige effekter – men de forbedrer ikke
-    nødvendigvis din præstation.
-- question: Er der nogen, der får gavn af næseplastre?
-  answer: Nogle unge atleter og personer med næseproblemer kan opleve en lille effekt, men det er ikke påvist at gælde bredt
-    for raske motionister og eliteudøvere.
+  - question: Hvad er et næseplaster?
+    answer: Et næseplaster – også kaldet en ekstern nasal dilator – er et lille plaster, der sættes hen over næseryggen for
+      at udvide næseborene og lette vejrtrækningen gennem næsen.
+  - question: Hjælper næseplastre med at forbedre sportspræstationer?
+    answer: Ifølge en ny systematisk gennemgang og meta-analyse er der ingen dokumenteret effekt på iltoptagelse (VO₂max), puls
+      eller oplevet anstrengelse under træning hos raske personer.
+  - question: Hvorfor bruger cykelryttere næseplastre?
+    answer: Nogle ryttere oplever, at næseplastre letter næsevejtrækningen og forsinker behovet for mundånding. Det kan give
+      en subjektiv følelse af bedre vejrtrækning – men uden målbar effekt på præstation.
+  - question: Kan næseplastre skade?
+    answer: Nej, næseplastre anses generelt som sikre at bruge og har ingen kendte skadelige effekter – men de forbedrer ikke
+      nødvendigvis din præstation.
+  - question: Er der nogen, der får gavn af næseplastre?
+    answer: Nogle unge atleter og personer med næseproblemer kan opleve en lille effekt, men det er ikke påvist at gælde bredt
+      for raske motionister og eliteudøvere.
 ---
 
 I årets Tour de France har det været umuligt at overse dem: Næseplastrene. De små, buede strimler på rytternes næser, der lover friere vejrtrækning og bedre præstation. Men virker de faktisk?

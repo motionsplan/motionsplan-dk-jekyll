@@ -1,10 +1,8 @@
 ---
 title: Kirsebærjuice og tranebærjuice til restitution
 seo_title: Kirsebærjuice og tranebærjuice til restitution
-description: Kirsebær- og tranebærjuice bruges som naturlig hjælp til restitution, søvn og inflammation. Se hvad forskningen
-  siger om effekten.
-excerpt: Kirsebær- og tranebærjuice bruges som naturlig hjælp til restitution, søvn og inflammation. Se hvad forskningen siger
-  om effekten.
+description: Kirsebær- og tranebærjuice bruges som naturlig hjælp til restitution, søvn og inflammation. Se hvad forskningen siger om effekten.
+excerpt: Kirsebær- og tranebærjuice bruges som naturlig hjælp til restitution, søvn og inflammation. Se hvad forskningen siger om effekten.
 permalink: /effekten-af-kirsebaer-og-tranebaer-juice/
 language: da
 header:
@@ -12,36 +10,23 @@ header:
   credit: https://images.unsplash.com/photo-1530176611600-d05a6387d07c
   caption: Kirsebærjuice og tranebærjuice til restitution
 category:
-- Kost & Ernæring
+  - Kost & Ernæring
 tags:
-- kost & ernæring
-- præstationsoptimering
-- restitution
+  - kost & ernæring
+  - præstationsoptimering
+  - restitution
 last_modified_at: '2025-07-16T22:21:26Z'
 faq:
-- question: Hvorfor drikker ryttere kirsebærjuice efter en etape?
-  answer: 'For at fremme restitution. Kirsebærjuice indeholder antioxidanter (bl.a. anthocyaniner), kulhydrater og naturligt
-    melatonin, som tilsammen reducerer inflammation, hjælper med muskelreparation og forbedrer søvn.
-
-    '
-- question: Hvad er forskellen på almindelig kirsebærjuice og koncentrat?
-  answer: 'Koncentrat (fx Montmorency cherry) er mere koncentreret og bruges i mindre mængder (30–60 ml). Almindelig juice
-    kræver større mængder (300–500 ml) for at opnå samme effekt.
-
-    '
-- question: Har tranebærjuice samme effekt som kirsebærjuice?
-  answer: 'Ikke helt. Tranebærjuice har færre studier bag sig, men nyere forskning viser forbedringer i laktattolerance, iltoptagelse
-    og oxidativ kapacitet ved længere tids brug (fx 28 dage).
-
-    '
-- question: Hvor meget juice skal man drikke for effekt?
-  answer: 'Typisk 30–60 ml kirsebærjuice-koncentrat eller 300–500 ml juice lige efter træning/konkurrence. Ved tranebærjuice
-    anbefales dagligt tilskud over længere tid.
-
-    '
-- question: Hvornår virker juice bedst?
-  answer: Når det indtages lige efter træning eller konkurrence. Mange eliteatleter kombinerer det også med aftenindtag pga.
-    søvneffekten fra melatonin i kirsebær.
+  - question: Hvorfor drikker ryttere kirsebærjuice efter en etape?
+    answer: "For at fremme restitution. Kirsebærjuice indeholder antioxidanter (bl.a. anthocyaniner), kulhydrater og naturligt melatonin, som tilsammen reducerer inflammation, hjælper med muskelreparation og forbedrer søvn."
+  - question: Hvad er forskellen på almindelig kirsebærjuice og koncentrat?
+    answer: "Koncentrat (fx Montmorency cherry) er mere koncentreret og bruges i mindre mængder (30–60 ml). Almindelig juice kræver større mængder (300–500 ml) for at opnå samme effekt."
+  - question: Har tranebærjuice samme effekt som kirsebærjuice?
+    answer: "Ikke helt. Tranebærjuice har færre studier bag sig, men nyere forskning viser forbedringer i laktattolerance, iltoptagelse og oxidativ kapacitet ved længere tids brug (fx 28 dage)."
+  - question: Hvor meget juice skal man drikke for effekt?
+    answer: "Typisk 30–60 ml kirsebærjuice-koncentrat eller 300–500 ml juice lige efter træning/konkurrence. Ved tranebærjuice anbefales dagligt tilskud over længere tid."
+  - question: Hvornår virker juice bedst?
+    answer: "Når det indtages lige efter træning eller konkurrence. Mange eliteatleter kombinerer det også med aftenindtag pga. søvneffekten fra melatonin i kirsebær."
 ---
 
 Efter en Tour de France-etape ser man ofte ryttere drikke kirsebærjuice eller tranebærjuice nærmest øjeblikkeligt. Hvorfor? Fordi det er en hurtig og effektiv måde at understøtte restitutionen på – og der er faktisk videnskab bag.
