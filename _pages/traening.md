@@ -144,7 +144,7 @@ Tjek også disse forskellige træningsformer:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -165,7 +165,7 @@ Læs mere om [cardio træning](/cardio-traening-workout/), [kondition](/konditio
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -188,7 +188,7 @@ Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprog
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -210,7 +210,7 @@ Læs mere om [løb og løbetræning her](/loebesiden/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -233,7 +233,7 @@ Læs mere om [cykling og cykeltræning her](/cykling/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -262,7 +262,7 @@ Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -308,7 +308,7 @@ For at få mest muligt ud af din træning er det vigtigt at måle din fremgang. 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -325,7 +325,7 @@ Du kan lade dig inspirere til vores lange liste af beregnere til træning.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -377,7 +377,7 @@ Her kan du finde inspiration til forskellige træningsplaner.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -401,7 +401,7 @@ FEATURE_ROW
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -417,7 +417,7 @@ FEATURE_ROW
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -435,7 +435,7 @@ FEATURE_ROW
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 20 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

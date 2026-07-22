@@ -1,0 +1,172 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<div class="mp-calc-card" data-calculator="walkingtest-6min" style="max-width: 700px; margin: 0 auto; position: relative;">
+
+  <!-- Header & Introduktion -->
+  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
+    <h3 class="mp-calc-title" style="margin-bottom: 0;">🚶‍♂️ 6 Minutters Gåtest (6MWT)</h3>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+  
+  <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
+    Sammenlign din gå-distance på 6 minutter med gennemsnittet for raske personer på din alder og kropstype.
+  </p>
+
+  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
+
+  <!-- TRIN 1: DEMOGRAFI & TESTRESULTAT -->
+  <div style="margin-bottom: 1rem;">
+    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.4rem;">
+      1. Testperson
+    </div>
+    
+    <!-- Række 1: Demografi -->
+    <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: flex-start; margin-bottom: 0.75rem;">
+      <!-- Køn -->
+      <div class="mp-form-group" style="flex: 1.2; min-width: 140px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
+        <div class="mp-toggle-group" style="height: 38px;">
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="wt6_gender" value="male" class="js-wt6-input" checked>
+            <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="wt6_gender" value="female" class="js-wt6-input">
+            <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Alder -->
+      <div class="mp-form-group" style="flex: 1; min-width: 90px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
+        <input type="number" name="wt6_age" class="mp-form-control js-wt6-input" min="10" max="100" placeholder="60" style="padding: 0.4rem; text-align: center;">
+      </div>
+
+      <!-- Højde -->
+      <div class="mp-form-group" style="flex: 1; min-width: 100px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Højde <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(cm)</span></label>
+        <input type="number" name="wt6_height" class="mp-form-control js-wt6-input" min="100" max="230" placeholder="175" style="padding: 0.4rem; text-align: center;">
+      </div>
+
+      <!-- Vægt -->
+      <div class="mp-form-group" style="flex: 1; min-width: 100px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
+        <input type="number" name="wt6_weight" class="mp-form-control js-wt6-input" min="30" max="250" step="0.1" placeholder="75" style="padding: 0.4rem; text-align: center;">
+      </div>
+    </div>
+
+    <!-- Række 2: Distance og Forsøgsswitch på SAMME RÆKKE -->
+    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.4rem;">
+      2. Resultat & Forsøg
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.85rem;">
+      
+      <!-- Distance Felt -->
+      <div class="mp-form-group" style="flex: 1.3; min-width: 180px;">
+        <label style="font-size: 0.8rem; font-weight: 700; white-space: nowrap;">Tilbagelagt distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(meter)</span></label>
+        <input type="number" name="wt6_distance" class="mp-form-control js-wt6-input" min="50" max="1500" placeholder="F.eks. 550" style="padding: 0.4rem; font-size: 1rem; font-weight: 800; text-align: center; height: 38px;">
+      </div>
+
+      <!-- Forsøg Switch -->
+      <div class="mp-form-group" style="flex: 1.2; min-width: 170px;">
+        <label style="font-size: 0.8rem; font-weight: 700; white-space: nowrap;">Forsøg nr.</label>
+        <div class="mp-toggle-group" style="height: 38px;">
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="wt6_attempt" value="first" class="js-wt6-input js-wt6-attempt" checked>
+            <div class="mp-toggle-btn" style="padding: 0 0.3rem; font-size: 0.8rem;">1. forsøg</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="wt6_attempt" value="second" class="js-wt6-input js-wt6-attempt">
+            <div class="mp-toggle-btn" style="padding: 0 0.3rem; font-size: 0.8rem;">2. forsøg</div>
+          </label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FORMULARVÆLGER (Manuel overstyring tilgængelig) -->
+    <div class="mp-form-group" style="margin-bottom: 0.5rem;">
+      <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">
+        Referenceligning <span style="font-size: 0.68rem; color: #64748b; font-weight: normal;">(Vælges automatisk eller manuelt)</span>
+      </label>
+      <select name="wt6_formula" class="mp-form-control js-wt6-input js-wt6-formula-select" style="display: block; width: 100%; height: 38px !important; min-height: 38px !important; padding: 0 0.75rem !important; font-size: 0.82rem !important; line-height: 38px !important; box-sizing: border-box !important; background-color: #ffffff;">
+        <option value="auto" selected>✨ Automatisk (anbefalet ud fra forsøg nr.)</option>
+        <option value="enright">Enright & Sherrill (1998) — Standard (Køn, alder, højde, vægt)</option>
+        <option value="gibbons">Gibbons et al. (2001) — Re-test / Gentaget forsøg (Køn & alder)</option>
+      </select>
+      <div class="js-wt6-formula-hint" style="font-size: 0.68rem; color: #64748b; margin-top: 0.25rem;">
+        <em>Aktiv formel: <strong>Enright & Sherrill (1998)</strong></em>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FREMDRIFTSKORT (Opnået ift. forventet distance) -->
+  <div class="js-wt6-progress-card" style="margin-bottom: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.75rem 0.9rem; box-shadow: inset 0 1px 2px rgba(0,0,0,0.02);">
+    <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #334155; font-weight: 700; margin-bottom: 4px;">
+      <span style="display: flex; align-items: center; gap: 4px;">🎯 Opnået ift. forventet distance</span>
+      <span class="js-wt6-progress-text" style="color: #64748b; font-weight: 800;">- m / - m (0%)</span>
+    </div>
+    <div style="width: 100%; height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden;">
+      <div class="js-wt6-progress-bar" style="width: 0%; height: 100%; background: linear-gradient(90deg, #3b82f6, #15803d); border-radius: 4px; transition: width 0.3s ease;"></div>
+    </div>
+  </div>
+
+  <!-- RESULTATER -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    
+    <div class="mp-results-split">
+      
+      <!-- Venstre: Stor procent-visning -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
+            Resultat i forhold til norm
+          </div>
+          
+          <div class="js-wt6-percent" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.2rem 0;">-</div>
+          <div style="font-size: 0.85rem; font-weight: 800; color: #3b82f6; line-height: 1;">af forventet gennemsnit</div>
+          
+          <div class="js-wt6-diff-text" style="font-size: 0.72rem; font-weight: 600; color: #64748b; margin-top: 0.35rem;">
+            -
+          </div>
+        </div>
+      </div>
+
+      <!-- Højre: Sekundære bokse / Resumé -->
+      <div class="mp-results-boxes">
+        
+        <!-- Boks 1: Vurdering Badge -->
+        <div class="mp-result-box-split" style="padding: 0.75rem 1rem; align-items: center; justify-content: space-between;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div style="font-weight: 800; font-size: 0.7rem; color: #64748b; text-transform: uppercase; margin-bottom: 3px;">Klinisk Vurdering</div>
+            <div class="js-wt6-eval-badge" style="font-size: 0.85rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
+              -
+            </div>
+          </div>
+        </div>
+        
+        <!-- Boks 2: Dynamisk Forklaringstekst i stedet for tørre tal -->
+        <div class="mp-result-box-split" style="padding: 0.85rem 1rem; flex-direction: column; align-items: flex-start; justify-content: center; background: #f8fafc;">
+          <div class="js-wt6-summary-text" style="font-size: 0.8rem; color: #334155; line-height: 1.45; font-weight: 500;">
+            Indtast dine oplysninger og distance for at se din personlige sammenligning.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Action knapper -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  </div>
+  <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
+
+</div>

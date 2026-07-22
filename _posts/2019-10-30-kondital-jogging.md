@@ -66,6 +66,8 @@ På baggrund af disse målinger kan du så udregne dit kondital i beregneren ned
 
 {% include calculator/calculate-fitness-jog-vo2.html %}
 
+{% include calc/fitness-jogging.html %}
+
 Et eksempel:
 
 Jeg brugte 9:40 til at løbe distancen, og jeg havde en gennemsnitlig puls på 145 bpm. Jeg er en mand på 46 år og 84 kilo.

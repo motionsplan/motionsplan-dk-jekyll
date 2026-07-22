@@ -46,7 +46,7 @@ Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprog
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 3 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -64,7 +64,7 @@ Læs mere om [løb og løbetræning her](/loebesiden/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 3 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -82,7 +82,7 @@ Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 3 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -100,7 +100,7 @@ Læs mere om [cykling og cykeltræning her](/cykling/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 3 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -116,7 +116,7 @@ Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 3 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

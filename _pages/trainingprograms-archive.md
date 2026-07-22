@@ -99,7 +99,7 @@ Her finder du træningsprogrammer til forskellige formål og niveauer – fra ny
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -119,7 +119,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -145,7 +145,7 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -171,7 +171,7 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 
 {% if articles.size > 0 %}
   {% for post in articles limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

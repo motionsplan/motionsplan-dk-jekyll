@@ -1,0 +1,43 @@
+{% if jekyll.environment == "production" %}
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("{{ '/pwabuilder-sw.js' | relative_url }}", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[{{ site.title }}] Service worker er registreret for scope: " + reg.scope);
+      })
+      .catch(function (err) {
+        console.error("[{{ site.title }}] Service worker kunne ikke registreres:", err);
+      });
+  });
+}
+</script>
+{% endif %}
+
+{% comment %}
+    NEW IMPLEMENTATION AF BEREGNERE
+{% endcomment %}
+<script type="module">
+  document.addEventListener('DOMContentLoaded', async () => {
+    const calculators = document.querySelectorAll('[data-calculator]');
+
+    for (const calc of calculators) {
+      const calcType = calc.dataset.calculator;
+      
+      // Henter specifikt UI-modul fra data-ui-module, hvis det findes, ellers standardnavnet
+      const uiModule = calc.dataset.uiModule || `${calcType}-ui`;
+
+      try {
+        const module = await import(`/assets/js/ui/${uiModule}.js`);
+        module.initCalculator?.(calc);
+      } catch (err) {
+        console.error(`Fejl ved indlæsning af beregner [${calcType}] via [${uiModule}]:`, err);
+      }
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+

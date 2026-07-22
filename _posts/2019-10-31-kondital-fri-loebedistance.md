@@ -54,7 +54,7 @@ Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit 
 
 Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 km test eller andre vilkårlige distancer mellem 1500 meter og 42 km.
 
-{% include calculator/calculate-fitness-runningdistance.html %}
+{% include calc/running-distance-vo2max.html %}
 
 ## Formler bag beregneren
 

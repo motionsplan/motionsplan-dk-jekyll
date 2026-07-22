@@ -1,0 +1,254 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<div class="mp-calc-card" data-calculator="biptest" style="max-width: 700px; margin: 0 auto; position: relative;">
+
+  <!-- Header & Introduktion -->
+  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
+    <h3 class="mp-calc-title" style="margin-bottom: 0;">🔊 Yo-Yo & Bip-test (20m Shuttle Run)</h3>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+  
+  <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
+    Estimer dit kondital (VO₂max) ud fra dit opnåede niveau og antal shuttles i bip-testen.
+  </p>
+
+  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
+
+  <!-- TRIN 1: DEMOGRAFI -->
+  <div style="margin-bottom: 1.25rem;">
+    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.4rem;">
+      1. Demografi
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: flex-start;">
+      
+      <!-- Alder -->
+      <div class="mp-form-group" style="flex: 0 0 85px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
+        <input type="number" name="bip_age" class="mp-form-control js-bip-input" min="8" max="80" placeholder="20" style="padding: 0.4rem; text-align: center;">
+      </div>
+      
+      <!-- Valgfri vægt -->
+      <div class="mp-form-group" style="flex: 1; min-width: 110px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Valgfri vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
+        <input type="number" name="bip_weight" class="mp-form-control js-bip-input" min="20" max="200" step="0.1" placeholder="70" style="padding: 0.4rem; text-align: center;">
+      </div>
+
+      <!-- Køn -->
+      <div class="mp-form-group" style="flex: 1.2; min-width: 150px;">
+        <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
+        <div class="mp-toggle-group" style="height: 38px;">
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="bip_gender" value="male" class="js-bip-input" checked>
+            <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="bip_gender" value="female" class="js-bip-input">
+            <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- TRIN 2: TESTVALG (Synlige knapper med baggrundsramme) -->
+  <div style="margin-bottom: 1.25rem;">
+    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.5rem;">
+      2. Vælg Testtype
+    </div>
+
+    <!-- Knap-container med lys baggrund og kant, så uvalgte knapper ligner rigtige knapper -->
+    <div class="mp-toggle-group" style="display: flex; height: auto; min-height: initial; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 4px; gap: 4px;">
+      
+      <!-- Knap 1: YYE1 -->
+      <label style="flex: 1; margin: 0; position: relative;">
+        <input type="radio" name="bip_formula" value="yye1" class="js-bip-input" checked>
+        <div class="mp-toggle-btn" style="padding: 0.5rem 0.3rem; height: auto; min-height: initial; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-radius: 6px;">
+          <span style="font-size: 0.8rem; font-weight: 800; line-height: 1.2; display: block;">YYE1 🏆</span>
+          <span style="font-size: 0.65rem; font-weight: 500; opacity: 0.85; margin-top: 2px; display: block; line-height: 1.25;">Bangsbo Lvl 1<br>(Start)</span>
+        </div>
+      </label>
+
+      <!-- Knap 2: YYE2 -->
+      <label style="flex: 1; margin: 0; position: relative;">
+        <input type="radio" name="bip_formula" value="yye2" class="js-bip-input">
+        <div class="mp-toggle-btn" style="padding: 0.5rem 0.3rem; height: auto; min-height: initial; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-radius: 6px;">
+          <span style="font-size: 0.8rem; font-weight: 800; line-height: 1.2; display: block;">YYE2</span>
+          <span style="font-size: 0.65rem; font-weight: 500; opacity: 0.85; margin-top: 2px; display: block; line-height: 1.25;">Bangsbo Lvl 2<br>(Elite)</span>
+        </div>
+      </label>
+
+      <!-- Knap 3: Léger -->
+      <label style="flex: 1; margin: 0; position: relative;">
+        <input type="radio" name="bip_formula" value="leger1988" class="js-bip-input">
+        <div class="mp-toggle-btn" style="padding: 0.5rem 0.3rem; height: auto; min-height: initial; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-radius: 6px;">
+          <span style="font-size: 0.8rem; font-weight: 800; line-height: 1.2; display: block;">Léger Biptest</span>
+          <span style="font-size: 0.65rem; font-weight: 500; opacity: 0.85; margin-top: 2px; display: block; line-height: 1.25;">Den oprindelige bip-test.<br>(Multi-stage)</span>
+        </div>
+      </label>
+
+    </div>
+  </div>
+
+  <!-- TRIN 3: TESTRESULTAT -->
+  <div style="margin-bottom: 1rem;">
+    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.4rem;">
+      3. Testresultat
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-start;">
+      
+      <!-- Niveau (Level) -->
+      <div class="mp-form-group" style="flex: 1; min-width: 130px;">
+        <label style="font-size: 0.8rem; font-weight: 700; white-space: nowrap;">Niveau <span class="js-bip-level-range-label" style="font-size: 0.7rem; color: #64748b; font-weight: normal; margin-left: 2px;">(1-21)</span></label>
+        <input type="number" name="bip_level" class="mp-form-control js-bip-input" min="1" max="21" placeholder="F.eks. 9" style="padding: 0.4rem; text-align: center;">
+      </div>
+
+      <!-- Antal Shuttles på niveauet -->
+      <div class="mp-form-group" style="flex: 1.4; min-width: 180px;">
+        <label style="font-size: 0.8rem; font-weight: 700; white-space: nowrap;">Shuttles <span class="js-bip-shuttle-max-label" style="font-size: 0.7rem; color: #64748b; font-weight: normal; margin-left: 2px;">(på niveauet)</span></label>
+        <input type="number" name="bip_shuttles" class="mp-form-control js-bip-input" min="0" max="16" placeholder="F.eks. 4" style="padding: 0.4rem; text-align: center;">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3-TRINS VISUEL FREMDRIFTS-KORT -->
+  <div class="js-bip-progress-card" style="display: none; margin-bottom: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.75rem 0.9rem; box-shadow: inset 0 1px 2px rgba(0,0,0,0.02);">
+    
+    <!-- 1. Fremdrift på niveauet -->
+    <div style="margin-bottom: 0.6rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #334155; font-weight: 700; margin-bottom: 3px;">
+        <span style="display: flex; align-items: center; gap: 4px;">⚡ Fremdrift på Level <span class="js-bip-current-level-text">-</span></span>
+        <span class="js-bip-shuttle-progress-text" style="color: #64748b; font-weight: 800;">- / - (0%)</span>
+      </div>
+      <div style="width: 100%; height: 6px; background: #e2e8f0; border-radius: 3px; overflow: hidden;">
+        <div class="js-bip-shuttle-progress-bar" style="width: 0%; height: 100%; background: linear-gradient(90deg, #3b82f6, #2563eb); border-radius: 3px; transition: width 0.3s ease;"></div>
+      </div>
+    </div>
+
+    <!-- 2. Samlet distance fremdrift -->
+    <div style="margin-bottom: 0.6rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #334155; font-weight: 700; margin-bottom: 3px;">
+        <span style="display: flex; align-items: center; gap: 4px;">🏁 Samlet distance</span>
+        <span class="js-bip-distance-progress-text" style="color: #64748b; font-weight: 800;">0 m / - (0%)</span>
+      </div>
+      <div style="width: 100%; height: 6px; background: #e2e8f0; border-radius: 3px; overflow: hidden;">
+        <div class="js-bip-distance-progress-bar" style="width: 0%; height: 100%; background: linear-gradient(90deg, #10b981, #059669); border-radius: 3px; transition: width 0.3s ease;"></div>
+      </div>
+    </div>
+
+    <!-- 3. Totale 20m shuttles fremdrift -->
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: #334155; font-weight: 700; margin-bottom: 3px;">
+        <span style="display: flex; align-items: center; gap: 4px;">🏃 Samlet 20m shuttles</span>
+        <span class="js-bip-total-shuttles-progress-text" style="color: #64748b; font-weight: 800;">0 / - (0%)</span>
+      </div>
+      <div style="width: 100%; height: 6px; background: #e2e8f0; border-radius: 3px; overflow: hidden;">
+        <div class="js-bip-total-shuttles-progress-bar" style="width: 0%; height: 100%; background: linear-gradient(90deg, #8b5cf6, #6d28d9); border-radius: 3px; transition: width 0.3s ease;"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 4. Resultater -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    
+    <div class="mp-results-split">
+      
+      <!-- Venstre: Kondital, SD & Slider -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
+            Estimeret Kondital
+          </div>
+          
+          <div class="js-bip-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
+          <div style="font-size: 0.9rem; font-weight: 800; color: #3b82f6; line-height: 1;">ml/kg/min</div>
+          
+          <div class="js-bip-sd-text" style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.15rem; margin-bottom: 0.15rem;">
+            -
+          </div>
+          
+          <!-- Slider -->
+          <div class="mp-fitness-continuum" style="margin-top: 0.5rem;">
+            <div class="mp-continuum-bar-wrapper">
+              <div class="mp-continuum-bar">
+                <div class="mp-segment" style="background: #ef4444;"></div>
+                <div class="mp-segment" style="background: #f97316;"></div>
+                <div class="mp-segment" style="background: #eab308;"></div>
+                <div class="mp-segment" style="background: #22c55e;"></div>
+                <div class="mp-segment" style="background: #3b82f6;"></div>
+              </div>
+              <div class="js-bip-continuum-marker mp-continuum-marker" style="display: none;"></div>
+            </div>
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
+              <span>Lav</span>
+              <span>Høj</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Højre: Sekundære bokse -->
+      <div class="mp-results-boxes">
+        
+        <!-- Boks 1: Test Rating -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div class="js-bip-eval-badge" style="font-size: 0.85rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
+              -
+            </div>
+          </div>
+          <div class="mp-box-right">
+            <button type="button" class="js-bip-table-btn mp-btn-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: none; border: none; padding: 0; cursor: pointer; outline: none;">
+              <span style="font-size: 1.2rem; line-height: 1; margin-bottom: 2px;">📊</span>
+              <span style="font-size: 0.65rem; color: #64748b; font-weight: 700;">Se tabel</span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Boks 2: Iltoptagelse -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
+          <div class="mp-box-left">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Maksimal<br>iltoptagelse</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1;">
+            <div class="mp-box-value js-bip-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Popup-tabel -->
+    <div class="js-bip-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <button type="button" class="js-bip-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="flex: 1; overflow-y: auto;">
+        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+          <tbody class="js-bip-table-body">
+            <!-- Udfyldes af JS -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Action knapper -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  </div>
+  <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
+
+</div>

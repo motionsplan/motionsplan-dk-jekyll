@@ -40,7 +40,7 @@ Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-t
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -58,7 +58,7 @@ Her kan du se de nyeste træningsøvelser.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -212,7 +212,7 @@ Foamrolling løsner spændte muskler og trigger points. Lacrossebolde kan bruges
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -228,7 +228,7 @@ Vi har i alt samlet {{ site.exercises.size }} træningsøvelser, som du kan brug
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

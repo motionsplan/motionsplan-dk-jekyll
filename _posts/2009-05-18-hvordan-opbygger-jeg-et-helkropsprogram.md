@@ -179,7 +179,7 @@ Rigtig mange af de [klassiske træningsprogrammer til styrke](/styrketraeningspr
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 3 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

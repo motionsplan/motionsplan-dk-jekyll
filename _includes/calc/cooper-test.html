@@ -1,0 +1,179 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<div class="mp-calc-card" data-calculator="cooper-test" style="max-width: 700px; margin: 0 auto; position: relative;">
+
+  <!-- Header & Introduktion -->
+  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
+    <h3 class="mp-calc-title" style="margin-bottom: 0;">🏃‍♂️ Cooper-test (12 minutters løbetest)</h3>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+  
+  <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
+    Estimer dit kondital (VO₂max) ved at løbe så langt du kan på præcis 12 minutter.
+  </p>
+
+  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
+
+  <!-- 1. Stamdata & Testresultat (Optimeret bredde-fordeling og højde) -->
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; align-items: flex-start;">
+    
+    <!-- Distance (m) -->
+    <div class="mp-form-group" style="flex: 1; min-width: 100px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(m)</span></label>
+      <input type="number" name="cooper_distance" class="mp-form-control js-cooper-input" min="500" max="5000" step="10" placeholder="2800" style="padding: 0.4rem; text-align: center;">
+    </div>
+
+    <!-- Alder (Bredere: fra 75px til 85px) -->
+    <div class="mp-form-group" style="flex: 0 0 85px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
+      <input type="number" name="cooper_age" class="mp-form-control js-cooper-input" min="10" max="90" placeholder="30" style="padding: 0.4rem; text-align: center;">
+    </div>
+    
+    <!-- Valgfri vægt (kg) (Smallere: min-width 95px, flex: 0.9) -->
+    <div class="mp-form-group" style="flex: 0.9; min-width: 95px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Valgfri vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
+      <input type="number" name="cooper_weight" class="mp-form-control js-cooper-input" min="30" max="200" step="0.1" placeholder="75" style="padding: 0.4rem; text-align: center;">
+    </div>
+
+    <!-- Køn -->
+    <div class="mp-form-group" style="flex: 1.2; min-width: 150px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
+      <div class="mp-toggle-group" style="height: 38px;">
+        <label style="flex: 1; margin: 0; position: relative;">
+          <input type="radio" name="cooper_gender" value="male" class="js-cooper-input" checked>
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+        </label>
+        <label style="flex: 1; margin: 0; position: relative;">
+          <input type="radio" name="cooper_gender" value="female" class="js-cooper-input">
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+        </label>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 2. Formel-valg (Lille tæt margin) -->
+  <div class="mp-form-group" style="margin-bottom: 1.25rem;">
+    <label style="font-size: 0.8rem; font-weight: 700; color: #334155;">Formel</label>
+    <select name="cooper_formula" class="mp-form-control js-cooper-input js-cooper-formula" style="display: block; width: 100%; height: 42px !important; min-height: 42px !important; padding: 0 0.75rem !important; font-size: 0.85rem !important; line-height: 42px !important; box-sizing: border-box !important; background-color: #ffffff;">
+      <option value="auto" selected>✨ Vælg bedste formel (Automatisk)</option>
+      <option value="wikipedia" class="js-opt-wiki">Standard / Wikipedia 🏆</option>
+      <option value="cooper" class="js-opt-cooper">Cooper (1968) – Oprindelig formel</option>
+      <option value="bandyopadhyay" class="js-opt-bandyo">Bandyopadhyay (2015)</option>
+    </select>
+  </div>
+
+  <!-- 3. Resultater -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    
+    <div class="mp-results-split">
+      
+      <!-- Venstre: Kondital, SD & Slider -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
+            Estimeret Kondital
+          </div>
+          
+          <div class="js-cooper-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
+          <div style="font-size: 0.9rem; font-weight: 800; color: #3b82f6; line-height: 1;">ml/kg/min</div>
+          
+          <!-- Standardafvigelse (Start som - ) -->
+          <div class="js-cooper-sd-text" style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.15rem; margin-bottom: 0.15rem;">
+            -
+          </div>
+          
+          <!-- Slider -->
+          <div class="mp-fitness-continuum" style="margin-top: 0.5rem;">
+            <div class="mp-continuum-bar-wrapper">
+              <div class="mp-continuum-bar">
+                <div class="mp-segment" style="background: #ef4444;"></div>
+                <div class="mp-segment" style="background: #f97316;"></div>
+                <div class="mp-segment" style="background: #eab308;"></div>
+                <div class="mp-segment" style="background: #22c55e;"></div>
+                <div class="mp-segment" style="background: #3b82f6;"></div>
+              </div>
+              <div class="js-cooper-continuum-marker mp-continuum-marker" style="display: none;"></div>
+            </div>
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
+              <span>Lav</span>
+              <span>Høj</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Højre: 3 Sekundære bokse (Vurdering, Iltoptagelse & Formel-info) -->
+      <div class="mp-results-boxes">
+        
+        <!-- Boks 1: Vurdering Badge + Knap -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div class="js-cooper-eval-badge" style="font-size: 0.85rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
+              -
+            </div>
+          </div>
+          <div class="mp-box-right">
+            <button type="button" class="js-cooper-table-btn mp-btn-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: none; border: none; padding: 0; cursor: pointer; outline: none;">
+              <span style="font-size: 1.2rem; line-height: 1; margin-bottom: 2px;">📊</span>
+              <span style="font-size: 0.65rem; color: #64748b; font-weight: 700;">Se tabel</span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Boks 2: Iltoptagelse -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
+          <div class="mp-box-left">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Maksimal<br>iltoptagelse</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1;">
+            <div class="mp-box-value js-cooper-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
+          </div>
+        </div>
+
+        <!-- Boks 3: Anvendt Formel Info -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: flex-start; flex-direction: column; justify-content: center; background: #f8fafc;">
+          <div style="display: flex; align-items: center; gap: 0.35rem; width: 100%; margin-bottom: 0.15rem;">
+            <span style="font-size: 0.8rem;" class="js-cooper-info-icon">ℹ️</span>
+            <div style="font-weight: 800; font-size: 0.75rem; color: #334155;" class="js-cooper-formula-title">Anvendt formel</div>
+          </div>
+          <div style="font-size: 0.7rem; color: #64748b; line-height: 1.3;" class="js-cooper-formula-desc">
+            Indtast distance for at beregne.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Popup-tabel -->
+    <div class="js-cooper-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <button type="button" class="js-cooper-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="flex: 1; overflow-y: auto;">
+        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+          <tbody class="js-cooper-table-body">
+            <!-- Udfyldes af JS -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Action knapper -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  </div>
+  <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
+
+</div>

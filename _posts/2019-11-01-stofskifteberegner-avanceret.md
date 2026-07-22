@@ -51,6 +51,8 @@ Med denne beregner kan du udregne dit samlede daglige energibehov, stofskifte og
 
 {% include calculator/calculate-stofskifte-avanceret.html %}
 
+{% include calc/bmr-pal.html %}
+
 ## Lav præcis aktivitetsregistrering til udregning af stofskiftet
 
 Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt omhyggelig med din aktivitetsregistrering.

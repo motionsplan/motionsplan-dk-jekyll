@@ -65,7 +65,7 @@ Rows er en helt central del af din træning. Når du gerne vil træne den øvre 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

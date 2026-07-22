@@ -125,7 +125,7 @@ Guide til løbetræning. Uanset om du træner til [5 km](/loebeprogram-5km/), [1
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -160,7 +160,7 @@ løb 5 km på 25 min
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -180,7 +180,7 @@ løb 5 km på 25 min
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -206,7 +206,7 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -226,7 +226,7 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -242,7 +242,7 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -327,7 +327,7 @@ hiit træning løbebånd
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -343,7 +343,7 @@ hiit træning løbebånd
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -374,7 +374,7 @@ starte med at løbe
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -405,7 +405,7 @@ opvarmning løb
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

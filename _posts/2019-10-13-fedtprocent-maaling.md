@@ -130,6 +130,8 @@ Læs: [Mål din fedtprocent med målebånd](/fedtprocent-maalebaand/) eller med 
 
 ### 6. Måling af fedtprocent med fedttang
 
+{% include figure image_path="/assets/images/shutterstock/fedtmaaling-fedttang.jpg" %}
+
 En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne i hudfoldstykkelsen over tid.
 
 Læs: [Måling af fedtprocent med hudfoldsmålinger og fedttang](/skinfold/)

@@ -69,6 +69,8 @@ Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag ti
 
 {% include calculator/calculate-ideal-weight.html %}
 
+{% include calc/ideal-weight.html calc_id="ideal-weight-all" title="⚖️ Beregn Din Idealvægt" %}
+
 Lad os tage et eksempel:
 
 [Danske kvinder er i gennemsnit](/hvad-er-gennemsnitshoejden-i-danmark/) er 167 cm. Lad os prøve det i beregneren.

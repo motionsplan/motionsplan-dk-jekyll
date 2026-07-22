@@ -91,6 +91,8 @@ Det kan være en god ide at prøve testen to gange, så eleverne lærer hvordan 
 
 {% include calculator/calculate-fitness-andersen-test.html %}
 
+{% include calc/andersen-test.html %}
+
 ## Test-materiale til Andersens Test
 
 Hvis du gerne vil lave testen, så er der nogle dokumenter her, som du kan bruge.

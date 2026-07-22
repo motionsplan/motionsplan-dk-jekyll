@@ -60,6 +60,11 @@ Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af k
 
 Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt. Rationalet er, at man ved et højt taljemål har meget mavefedt.
 
+{% include calc/waist.html 
+   calc_id="waist-only" 
+   title="📐 Talje-målet" 
+%}
+
 Denne tabel er det mest brugte skema til at vurdere taljemål for kvinder og mænd ifølge [hjerteforeningen.dk](https://hjerteforeningen.dk/2013/05/fedt-paa-maven-er-ufedt/) i forhold til risikoen for livsstilssygdomme.
 
 |         | Let forøget risiko | Forøget risiko |
@@ -133,6 +138,8 @@ Læs: [Body Adiposity Index (BAI) Beregner](/bai-body-adiposity-index/)
 ## Opsamling på taljemål
 
 Taljemålet er et meget udbredt mål til at sige noget om sundhed. Det kan være en god ide at måle sit taljemål engang imellem for at lave et lille sundhedstjek. **Men når det er sagt, så fortæller dit taljemål altså ikke hele historien om din kropsbygning og sundhedstilstand.**
+
+{% include calc/waist-dashboard.html %}
 
 Der findes imidlertid nogle alternativer, som praktisk talt er lige så lette at bruge, men som kan give nogle lidt mere retvisende svar i forhold til den enkeltes sundhed.
 

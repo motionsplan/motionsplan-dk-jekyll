@@ -88,6 +88,8 @@ Få en hurtig beregning af din fedtprocent ud fra dine personlige data. Beregner
 
 {% include calculator/calculate-fat-percent.html %}
 
+{% include calc/fat-pct.html %}
+
 Et eksempel:
 
 Hvis jeg bruger [danske mænds gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) på 181 cm, en vægt på 81 kg og en alder på 46 år, så får jeg resultater i formularen på alt fra 19,5% - 24,7%. Så selvom beregneren er enkel, så kan fortolkningen af resultatet være lidt mere besværligt.

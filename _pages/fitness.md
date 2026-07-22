@@ -49,7 +49,7 @@ På denne side finder du en oversigt over forskellige fitness tests samt vejledn
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -63,7 +63,7 @@ På denne side finder du en oversigt over forskellige fitness tests samt vejledn
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -77,7 +77,7 @@ På denne side finder du en oversigt over forskellige fitness tests samt vejledn
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -90,7 +90,7 @@ På denne side finder du en oversigt over forskellige fitness tests samt vejledn
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
 {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% else %}
@@ -105,7 +105,7 @@ Vi har endnu ikke beskrevet nogle relevante styrketests.
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% else %}
@@ -120,7 +120,7 @@ Vi har i øjeblikket ikke beskrevet nogen behændighedstests.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

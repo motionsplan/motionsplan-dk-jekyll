@@ -1,0 +1,317 @@
+<style>
+  .sf-guide-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .sf-guide-header {
+    background: #f8fafc;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .sf-guide-body {
+    padding: 1.5rem;
+  }
+
+  .sf-section-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Quiz knapper (Radio styling) */
+  .sf-radio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sf-radio-label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .sf-radio-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .sf-radio-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .sf-radio-icon {
+    font-size: 1.5rem;
+  }
+
+  .sf-radio-text {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #334155;
+    line-height: 1.3;
+  }
+
+  /* Hover & Checked states */
+  .sf-radio-label:hover .sf-radio-card {
+    border-color: #cbd5e1;
+    background: #f8fafc;
+  }
+
+  .sf-radio-input:checked + .sf-radio-card {
+    border-color: #2563eb;
+    background: #eff6ff;
+  }
+
+  .sf-radio-input:checked + .sf-radio-card .sf-radio-text {
+    color: #1e3a8a;
+  }
+
+  /* Resultat boks */
+  .sf-result-box {
+    background: #ffffff;
+    border: 2px solid #2563eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.08);
+  }
+
+  .sf-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.85rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.25rem;
+    transition: background 0.2s ease, transform 0.1s ease;
+  }
+
+  .sf-btn:hover {
+    background: #1d4ed8;
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+</style>
+
+<div class="sf-guide-card" id="skinfold-guide-app">
+  <div class="sf-guide-header">
+    <h3 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #1e293b; display: flex; align-items: center; gap: 8px;">
+      🎯 Find den rigtige formel
+    </h3>
+    <p style="margin: 0.25rem 0 0 0; font-size: 0.9rem; color: #64748b; font-weight: 500;">
+      Svar på to hurtige spørgsmål, så guider vi dig til den bedste beregner.
+    </p>
+  </div>
+
+  <div class="sf-guide-body">
+    
+    <!-- TRIN 1: ALDER -->
+    <div class="sf-section-title">1. Hvem skal måles?</div>
+    <div class="sf-radio-grid" id="sf-step-1">
+      <label class="sf-radio-label">
+        <input type="radio" name="sf_age" value="adult" class="sf-radio-input" checked>
+        <div class="sf-radio-card">
+          <span class="sf-radio-icon">🧑</span>
+          <span class="sf-radio-text">Voksen<br><small style="font-weight:500; color:#64748b;">(18+ år)</small></span>
+        </div>
+      </label>
+      
+      <label class="sf-radio-label">
+        <input type="radio" name="sf_age" value="child" class="sf-radio-input">
+        <div class="sf-radio-card">
+          <span class="sf-radio-icon">🧒</span>
+          <span class="sf-radio-text">Barn / Ung<br><small style="font-weight:500; color:#64748b;">(Under 18 år)</small></span>
+        </div>
+      </label>
+    </div>
+
+    <!-- TRIN 2: KROPSBYGNING (Vises for voksne) -->
+    <div id="sf-adult-options">
+      <div class="sf-section-title">2. Kropsbygning eller behov</div>
+      <div class="sf-radio-grid">
+        <label class="sf-radio-label">
+          <input type="radio" name="sf_need" value="durnin" class="sf-radio-input" checked>
+          <div class="sf-radio-card">
+            <span class="sf-radio-icon">💪</span>
+            <span class="sf-radio-text">Almindelig / Motionist<br><small style="font-weight:500; color:#64748b;">(Mest brugte)</small></span>
+          </div>
+        </label>
+        
+        <label class="sf-radio-label">
+          <input type="radio" name="sf_need" value="jackson" class="sf-radio-input">
+          <div class="sf-radio-card">
+            <span class="sf-radio-icon">⚡</span>
+            <span class="sf-radio-text">Slank / Atletisk<br><small style="font-weight:500; color:#64748b;">(Lav fedtprocent)</small></span>
+          </div>
+        </label>
+
+        <label class="sf-radio-label">
+          <input type="radio" name="sf_need" value="peterson" class="sf-radio-input">
+          <div class="sf-radio-card">
+            <span class="sf-radio-icon">🔬</span>
+            <span class="sf-radio-text">Moderne 4C-model<br><small style="font-weight:500; color:#64748b;">(Høj præcision)</small></span>
+          </div>
+        </label>
+
+        <label class="sf-radio-label">
+          <input type="radio" name="sf_need" value="ymca" class="sf-radio-input">
+          <div class="sf-radio-card">
+            <span class="sf-radio-icon">⏱️</span>
+            <span class="sf-radio-text">Nem selv-måling<br><small style="font-weight:500; color:#64748b;">(Undgår ben-måling)</small></span>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <!-- TRIN 2: ALDERSGRUPPE (Vises for børn) -->
+    <div id="sf-child-options" style="display: none;">
+      <div class="sf-section-title">2. Vælg formel for børn</div>
+      <div class="sf-radio-grid">
+        <label class="sf-radio-label">
+          <input type="radio" name="sf_need_child" value="slaughter" class="sf-radio-input">
+          <div class="sf-radio-card">
+            <span class="sf-radio-icon">📚</span>
+            <span class="sf-radio-text">Slaughter formlen<br><small style="font-weight:500; color:#64748b;">(Måler triceps & læg)</small></span>
+          </div>
+        </label>
+        
+        <label class="sf-radio-label">
+          <input type="radio" name="sf_need_child" value="lohman" class="sf-radio-input">
+          <div class="sf-radio-card">
+            <span class="sf-radio-icon">📏</span>
+            <span class="sf-radio-text">Lohman formlen<br><small style="font-weight:500; color:#64748b;">(Måler triceps & læg)</small></span>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <!-- RESULTAT BOKS -->
+    <div class="sf-result-box">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #2563eb; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem;">
+        Dit bedste match:
+      </div>
+      <h4 id="sf-res-title" style="margin: 0 0 0.5rem 0; font-size: 1.5rem; font-weight: 900; color: #0f172a;">
+        Durnin & Womersley
+      </h4>
+      <p id="sf-res-text" style="margin: 0; font-size: 0.95rem; color: #475569; line-height: 1.5; font-weight: 500;">
+        Anbefalet af Team Danmark. Lige velegnet til mænd og kvinder med en almindelig kropsbygning.
+      </p>
+      
+      <a href="/skinfold-durnin-womersley/" id="sf-res-url" class="sf-btn">
+        Gå til beregneren ➔
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const guideData = {
+    'durnin': {
+      title: 'Durnin & Womersley',
+      text: 'Anbefalet af bl.a. Team Danmark. Den bedste allround-formel, der er lige velegnet til mænd og kvinder med en almindelig kropsbygning.',
+      url: '/skinfold-durnin-womersley/'
+    },
+    'jackson': {
+      title: 'Jackson & Pollock',
+      text: 'Særligt præcis til slanke og atleter. Den formel overestimerer ikke fedtprocenten hos personer, der i forvejen har en meget lav fedtprocent.',
+      url: '/skinfold-jackson-pollock/'
+    },
+    'peterson': {
+      title: 'Peterson et al.',
+      text: 'Baseret på nyere 4-komponent kropsanalyser. En utroligt stærk og moderne formel, der giver høj videnskabelig præcision.',
+      url: '/skinfold-peterson/'
+    },
+    'ymca': {
+      title: 'YMCA-metoden',
+      text: 'Ekstremt simpel og perfekt til selv-måling. Undgår svære målinger på eksempelvis låret.',
+      url: '/skinfold-ymca/'
+    },
+    'slaughter': {
+      title: 'Slaughter (0-18 år)',
+      text: 'Valideret i studier med bl.a. danske skolebørn. Tager højde for børns unikke knogletæthed. Kræver måling på triceps og ryggen.',
+      url: '/slaughter-fedtprocent-boern/'
+    },
+    'lohman': {
+      title: 'Lohman (8-18 år)',
+      text: 'En populær alternativ metode til børn. Her undgår man ryggen og måler i stedet nemt og diskret på triceps og læggen.',
+      url: '/lohman-fedtprocent-boern/'
+    }
+  };
+
+  const app = document.getElementById('skinfold-guide-app');
+  if (!app) return;
+
+  const radiosAge = app.querySelectorAll('input[name="sf_age"]');
+  const adultOptions = document.getElementById('sf-adult-options');
+  const childOptions = document.getElementById('sf-child-options');
+  const radiosNeed = app.querySelectorAll('input[name="sf_need"]');
+  const radiosNeedChild = app.querySelectorAll('input[name="sf_need_child"]');
+  
+  const resTitle = document.getElementById('sf-res-title');
+  const resText = document.getElementById('sf-res-text');
+  const resUrl = document.getElementById('sf-res-url');
+
+  function updateResult() {
+    const age = app.querySelector('input[name="sf_age"]:checked').value;
+    let selectedKey = 'durnin';
+
+    if (age === 'adult') {
+      adultOptions.style.display = 'block';
+      childOptions.style.display = 'none';
+      selectedKey = app.querySelector('input[name="sf_need"]:checked').value;
+    } else {
+      adultOptions.style.display = 'none';
+      childOptions.style.display = 'block';
+      
+      // Sikr at der er valgt en børnemodel, ellers tving 'slaughter'
+      const childChecked = app.querySelector('input[name="sf_need_child"]:checked');
+      if (childChecked) {
+        selectedKey = childChecked.value;
+      } else {
+        radiosNeedChild[0].checked = true;
+        selectedKey = 'slaughter';
+      }
+    }
+
+    const data = guideData[selectedKey];
+    resTitle.textContent = data.title;
+    resText.textContent = data.text;
+    resUrl.href = data.url;
+  }
+
+  // Lyt på ændringer
+  radiosAge.forEach(r => r.addEventListener('change', updateResult));
+  radiosNeed.forEach(r => r.addEventListener('change', updateResult));
+  radiosNeedChild.forEach(r => r.addEventListener('change', updateResult));
+
+  // Initiel opdatering
+  updateResult();
+});
+</script>

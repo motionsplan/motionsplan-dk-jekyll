@@ -51,6 +51,11 @@ Angiv værdierne i beregneren nedenunder.
 
 {% include calculator/calculate-fatpercent-skinfold-ymca.html %}
 
+{% include calc/skinfold.html 
+   calc_id="skinfold-ymca-4" 
+   title="📐 YMCA 4-punkt" 
+%}
+
 ## Formel til YMCA
 
 YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog specielt tilpasset til YMCA og gjort enklere, så både mænd og kvinder vurderes ud fra de samme målepunkter. Samtidig kan lårmålingen let ekskluderes. Validiteten i testen påvirkes kun ganske lidt af at udelade låret.

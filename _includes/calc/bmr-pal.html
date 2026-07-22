@@ -1,0 +1,158 @@
+{% assign calc_title = include.title | default: "⚡ Avanceret Energiforbrug & PAL" %}
+{% assign selected_gender = include.gender | default: "man" %}
+
+<div class="mp-calc-card mp-compact" data-calculator="bmr-pal">
+  
+  <!-- Header: Ingen badge -->
+  {% if calc_title != "" %}
+    <div class="mp-calc-header">
+      <h3 class="mp-calc-title">{{ calc_title }}</h3>
+    </div>
+  {% endif %}
+
+  <form class="mp-calc-form">
+    
+    <!-- RÆKKE 1: Formel-valg -->
+    <div class="mp-form-group mp-full-width">
+      <label for="bmr-adv-formula">📐 Formel for hvilestofskifte (BMR)</label>
+      <select name="formula" id="bmr-adv-formula" class="mp-form-control">
+        <option value="recommended_formula" selected>Anbefalet formel (baseret på BMI)</option>
+        <option value="nordic_nutrition_2012">Nordic Nutrition Recommendations (2012)</option>
+        <option value="mifflin">Mifflin et al. (1990)</option>
+        <option value="henry">Henry (2005)</option>
+        <option value="schofield">Schofield (1985)</option>
+        <option value="benedict_harris">Benedict-Harris (1918-1919)</option>
+        <option value="gerrior_2006">Gerrior (2006)</option>
+        <option value="pavlidou_2023">Pavlidou (2023)</option>
+      </select>
+    </div>
+
+    <!-- RÆKKE 2: Køn i 100% bredde -->
+    <div class="mp-form-group mp-full-width">
+      <label>👫 Køn</label>
+      <div class="mp-toggle-group mp-toggle-full">
+        <input type="radio" name="gender" id="bmr-adv-man" value="man" {% if selected_gender == 'man' %}checked{% endif %}>
+        <label for="bmr-adv-man" class="mp-toggle-btn">👨 Mand</label>
+
+        <input type="radio" name="gender" id="bmr-adv-woman" value="woman" {% if selected_gender == 'woman' %}checked{% endif %}>
+        <label for="bmr-adv-woman" class="mp-toggle-btn">👩 Kvinde</label>
+      </div>
+    </div>
+
+    <!-- RÆKKE 3: Alder, Vægt og Højde (3 kolonner) -->
+    <div class="mp-form-grid mp-grid-3">
+      <div class="mp-form-group">
+        <label for="bmr-adv-age">🎂 Alder</label>
+        <input type="number" min="10" max="100" name="age" id="bmr-adv-age" class="mp-form-control" inputmode="numeric" placeholder="40" value="{{ include.age }}" required>
+      </div>
+
+      <div class="mp-form-group">
+        <label for="bmr-adv-weight">⚖️ Vægt (kg)</label>
+        <input type="number" min="30" max="250" step="0.1" name="weight" id="bmr-adv-weight" class="mp-form-control" inputmode="decimal" placeholder="70" value="{{ include.weight }}" required>
+      </div>
+
+      <div class="mp-form-group">
+        <label for="bmr-adv-height">📏 Højde (cm)</label>
+        <input type="number" min="100" max="230" name="height" id="bmr-adv-height" class="mp-form-control" inputmode="numeric" placeholder="175" value="{{ include.height }}" required>
+      </div>
+    </div>
+
+    <!-- RÆKKE 4: Aktivitets-tabel med knap til MET -->
+    <div class="mp-activity-section">
+      <div class="mp-activity-header">
+        <label class="mp-section-label">🏃‍♂️ Angiv dit daglige aktivitetsniveau (minutter i døgnet)</label>
+        <button type="button" class="mp-btn-text" id="bmr-adv-toggle-met">⚙️ Tilpas MET-værdier</button>
+      </div>
+      
+      <div class="mp-table-wrapper">
+        <table class="mp-activity-table">
+          <thead>
+            <tr>
+              <th>Aktivitet</th>
+              <th class="mp-met-col" style="width: 70px;">MET</th>
+              <th style="width: 100px;">Minutter</th>
+              <th class="mp-hide-mobile">Beskrivelse</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Intens træning</strong></td>
+              <td class="mp-met-col"><input type="number" step="0.1" name="met_intense" class="mp-form-control mp-input-sm" value="10.0"></td>
+              <td><input type="number" min="0" max="1440" name="min_intense" class="mp-form-control mp-input-sm" placeholder="0"></td>
+              <td class="mp-hide-mobile mp-text-muted">Intensiv idræt, hurtig løb/roning.</td>
+            </tr>
+            <tr>
+              <td><strong>Moderat træning</strong></td>
+              <td class="mp-met-col"><input type="number" step="0.1" name="met_moderate" class="mp-form-control mp-input-sm" value="7.0"></td>
+              <td><input type="number" min="0" max="1440" name="min_moderate" class="mp-form-control mp-input-sm" placeholder="0"></td>
+              <td class="mp-hide-mobile mp-text-muted">Styrketræning, hugge brænde, idræt.</td>
+            </tr>
+            <tr>
+              <td><strong>Let aktivitet</strong></td>
+              <td class="mp-met-col"><input type="number" step="0.1" name="met_light" class="mp-form-control mp-input-sm" value="4.0"></td>
+              <td><input type="number" min="0" max="1440" name="min_light" class="mp-form-control mp-input-sm" placeholder="0"></td>
+              <td class="mp-hide-mobile mp-text-muted">Husarbejde, havearbejde, hurtig gang.</td>
+            </tr>
+            <tr>
+              <td><strong>Stående & gående</strong></td>
+              <td class="mp-met-col"><input type="number" step="0.1" name="met_standing" class="mp-form-control mp-input-sm" value="2.0"></td>
+              <td><input type="number" min="0" max="1440" name="min_standing" class="mp-form-control mp-input-sm" placeholder="0"></td>
+              <td class="mp-hide-mobile mp-text-muted">Madlavning, let gang, shopping.</td>
+            </tr>
+            <tr>
+              <td><strong>Sove</strong></td>
+              <td class="mp-met-col"><input type="number" step="0.1" name="met_sleeping" class="mp-form-control mp-input-sm" value="0.9"></td>
+              <td><input type="number" min="0" max="1440" name="min_sleeping" class="mp-form-control mp-input-sm" value="480"></td>
+              <td class="mp-hide-mobile mp-text-muted">Søvn i sengen.</td>
+            </tr>
+            <tr class="mp-highlight-row">
+              <td><strong>Siddende (auto)</strong></td>
+              <td class="mp-met-col"><input type="number" step="0.1" name="met_sitting" class="mp-form-control mp-input-sm" value="1.2" readonly></td>
+              <td><input type="number" name="min_sitting" class="mp-form-control mp-input-sm mp-input-readonly" value="960" readonly></td>
+              <td class="mp-hide-mobile mp-text-muted">Resterende tid af døgnet.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <button type="submit" class="mp-btn-submit" style="margin-top: 1.25rem;">⚡ Beregn samlet energiforbrug</button>
+  </form>
+
+  <!-- Resultat Sektion (2 rækker) -->
+  <div class="mp-results-container">
+    <div class="mp-results-grid">
+      
+      <!-- RÆKKE 1: BMR & PAL side om side -->
+      <div class="mp-result-card">
+        <div class="mp-result-label">🔥 HVILESTOFSKIFTE (BMR)</div>
+        <div class="mp-result-value">
+          <span data-result="bmr">0</span>
+          <small>kJ</small>
+        </div>
+        <div class="mp-result-subtext">
+          Formel: <span data-result="formula_name">Anbefalet</span>
+        </div>
+      </div>
+
+      <div class="mp-result-card">
+        <div class="mp-result-label">📈 PAL-VÆRDI</div>
+        <div class="mp-result-value">
+          <span data-result="pal">0.00</span>
+        </div>
+        <div class="mp-result-subtext">Aktivitetsniveau</div>
+      </div>
+
+      <!-- RÆKKE 2: Hovedresultat i 100% bredde -->
+      <div class="mp-result-card mp-card-primary mp-card-full">
+        <div class="mp-result-label">🎯 DAGLIGT ENERGIBEHOV</div>
+        <div class="mp-result-value">
+          <span data-result="tee">0</span>
+          <small>kJ/dag</small>
+        </div>
+        <div class="mp-result-subtext-primary" data-result="tee_kcal">0 kcal / dag</div>
+      </div>
+
+    </div>
+  </div>
+</div>

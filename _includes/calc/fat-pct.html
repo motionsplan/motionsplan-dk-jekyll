@@ -1,0 +1,180 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<div class="mp-calc-card" data-calculator="fat-pct" style="max-width: 700px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
+    <h3 class="mp-calc-title" style="margin-bottom: 0;">🔥 Fedtprocent Beregner</h3>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+  
+  <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
+    Estimer din fedtprocent baseret på antropometriske data og validerede formler.
+  </p>
+
+  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
+
+  <!-- 1. Demografi (Række 1) -->
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; align-items: flex-start;">
+    
+    <!-- Alder -->
+    <div class="mp-form-group" style="flex: 0 0 85px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
+      <input type="number" name="age" class="mp-form-control js-fp-input" min="5" max="110" placeholder="30" style="padding: 0.4rem; text-align: center;">
+    </div>
+
+    <!-- Højde -->
+    <div class="mp-form-group" style="flex: 0 0 85px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Højde <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(cm)</span></label>
+      <input type="number" name="height" class="mp-form-control js-fp-input" min="80" max="230" placeholder="180" style="padding: 0.4rem; text-align: center;">
+    </div>
+    
+    <!-- Vægt -->
+    <div class="mp-form-group" style="flex: 0 0 85px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
+      <input type="number" name="weight" class="mp-form-control js-fp-input" min="30" max="250" step="0.1" placeholder="80" style="padding: 0.4rem; text-align: center;">
+    </div>
+    
+    <!-- Køn -->
+    <div class="mp-form-group" style="flex: 1; min-width: 130px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
+      <div class="mp-toggle-group" style="height: 38px;">
+        <label style="flex: 1; margin: 0; position: relative;">
+          <input type="radio" name="gender" value="man" class="js-fp-input" checked>
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+        </label>
+        <label style="flex: 1; margin: 0; position: relative;">
+          <input type="radio" name="gender" value="woman" class="js-fp-input">
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+        </label>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 2. Formel-valg (Række 2) -->
+  <div class="mp-form-group" style="margin-bottom: 1.5rem;">
+    <label style="font-size: 0.8rem; font-weight: 700; color: #334155;">Formel</label>
+    <select name="formula" class="mp-form-control js-fp-input js-fp-formula" style="display: block; width: 100%; height: 42px !important; min-height: 42px !important; padding: 0 0.75rem !important; font-size: 0.85rem !important; line-height: 42px !important; box-sizing: border-box !important; background-color: #ffffff;">
+      <option value="auto" selected>✨ Vælg bedste formel (Automatisk)</option>
+      <option value="duerenberg1998">Deurenberg et al. (1998) – Voksne</option>
+      <option value="duerenberg1991">Deurenberg et al. (1991) – Børn/Unge</option>
+      <option value="jacksonPollock1980">Jackson & Pollock (1980)</option>
+      <option value="gallagher2000">Gallagher et al. (2000)</option>
+      <option value="heitmann1990">Heitmann (1990)</option>
+      <option value="womersleyDurnin1977">Durnin & Womersley (1977)</option>
+      <option value="heritage2002">HERITAGE Study (2002)</option>
+    </select>
+  </div>
+
+  <!-- 3. Resultater -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    
+    <div class="mp-results-split">
+      
+      <!-- Venstre: Hero Resultatkort -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: center; justify-content: center; padding: 1.5rem 1rem; text-align: center;">
+          
+          <!-- Overskrift -->
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; margin-bottom: 0.35rem; color: #1e40af; font-weight: 800;">
+            Fedtprocent
+          </div>
+          
+          <!-- Stort Tal + % bagefter -->
+          <div style="display: flex; align-items: baseline; justify-content: center; line-height: 1; margin: 0.2rem 0;">
+            <span class="js-fp-best-val" style="font-size: 3.8rem; font-weight: 900; color: #1e3a8a;">-</span>
+            <span style="font-size: 1.8rem; font-weight: 800; color: #3b82f6; margin-left: 2px;">%</span>
+          </div>
+          
+          <!-- Valgt Formel Navn -->
+          <div class="js-fp-best-name" style="font-size: 0.78rem; font-weight: 700; color: #334155; margin-top: 0.2rem; margin-bottom: 0.15rem;">
+            -
+          </div>
+
+          <!-- Standardafvigelse -->
+          <div class="js-fp-sd-text" style="font-size: 0.72rem; font-weight: 600; color: #64748b;">
+            SD: ±0.0%
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Højre: 3 Sekundære bokse (Gennemsnit, BMI, Fedtmasse) -->
+      <div class="mp-results-boxes">
+        
+        <!-- Gennemsnit -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Gennemsnit</div>
+            <button type="button" class="js-fp-table-btn mp-btn-text" style="text-align: left; margin-top: 3px; font-size: 0.7rem; color: #3b82f6; font-weight: 700; background: none; border: none; padding: 0; cursor: pointer;">
+              📊 Se tabel
+            </button>
+          </div>
+          <div class="mp-box-right" style="text-align: right;">
+            <div style="display: flex; align-items: baseline; justify-content: flex-end; line-height: 1;">
+              <span class="mp-box-value js-fp-avg" style="font-size: 1.4rem; font-weight: 900; color: #0f172a;">-</span>
+              <span style="font-size: 0.85rem; font-weight: 800; color: #3b82f6; margin-left: 2px;">%</span>
+            </div>
+            <!-- Kun selve tallene fremvises her (uden ordet "Spænd:") -->
+            <div class="js-fp-avg-range" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px; white-space: nowrap;">
+              -
+            </div>
+          </div>
+        </div>
+        
+        <!-- BMI -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
+          <div class="mp-box-left">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">BMI</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1;">
+            <div class="mp-box-value js-fp-bmi" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">kg/m²</div>
+          </div>
+        </div>
+
+        <!-- Fedtmasse -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
+          <div class="mp-box-left">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Fedtmasse</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1;">
+            <div class="mp-box-value js-fp-fatmass" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">kg</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Popup-tabel -->
+    <div class="js-fp-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Alle 7 formler sorteret</h4>
+        <button type="button" class="js-fp-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="flex: 1; overflow-y: auto;">
+        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+          <tbody class="js-fp-table-body">
+            <!-- Udfyldes af JS -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Action knapper -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  </div>
+  <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
+
+</div>

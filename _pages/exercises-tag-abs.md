@@ -162,7 +162,7 @@ Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elas
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -176,7 +176,7 @@ Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elas
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

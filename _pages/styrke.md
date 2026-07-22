@@ -169,7 +169,7 @@ Få mere ud af din styrketræning! Her finder du beregnere, [effektive styrketr�
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -193,7 +193,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **[grati
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -213,7 +213,7 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **[grati
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -231,7 +231,7 @@ Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -251,7 +251,7 @@ Du kan finde [maveøvelser](/maveoevelser/), [armøvelser](/arme-triceps-biceps/
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -277,7 +277,7 @@ På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv so
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -295,7 +295,7 @@ På nedenstående modeller kan du indtaste dine egne kropsmål og se dig selv so
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -317,7 +317,7 @@ Lav måske denne om til støttetræning
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -345,7 +345,7 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -361,7 +361,7 @@ Jeg bruger selv RepOne til at lave [velocity based training](/vbt/). Jeg synes d
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

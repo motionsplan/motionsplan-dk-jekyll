@@ -17,19 +17,19 @@ tags:
 last_modified_at: '2025-07-16T22:21:26Z'
 faq:
   - question: Hvorfor skal jeg måle min træning i kalorier i stedet for watt eller tid?
-    answer: 'Kalorier måler det faktiske metaboliske arbejde, du laver, og ikke kun intensiteten. Det giver et mere konkret billede af den belastning og arbejdskapacitet, du opbygger, hvilket hjælper med at planlægge og justere træningen bedre over tid.
+    answer: Kalorier måler det faktiske metaboliske arbejde, du laver, og ikke kun intensiteten. Det giver et mere konkret billede af den belastning og arbejdskapacitet, du opbygger, hvilket hjælper med at planlægge og justere træningen bedre over tid.
   - question: Hvordan kan jeg bruge energiforbruget som målsætning for min træning?
-    answer: 'Ved at sætte et dagligt eller ugentligt kaloriemål for din træning fokuserer du på mængden af arbejde frem for bare intensiteten. Det kan være fx 1000 kcal dagligt eller 5000-10.000 kcal om ugen, som hjælper dig med at bygger arbejdskapacitet og sikre konsekvent træning.
+    answer: Ved at sætte et dagligt eller ugentligt kaloriemål for din træning fokuserer du på mængden af arbejde frem for bare intensiteten. Det kan være fx 1000 kcal dagligt eller 5000-10.000 kcal om ugen, som hjælper dig med at bygger arbejdskapacitet og sikre konsekvent træning.
   - question: Hvordan beregner jeg kalorier brugt under forskellige aktiviteter?
-    answer: 'Brug vores beregner, hvor du indtaster vægt, aktivitetstype og varighed. Den bruger kalorieværdier per minut baseret på forskning, så du får et ret præcist estimat af dit energiforbrug.
+    answer: Brug vores beregner, hvor du indtaster vægt, aktivitetstype og varighed. Den bruger kalorieværdier per minut baseret på forskning, så du får et ret præcist estimat af dit energiforbrug.
   - question: Kan jeg kombinere flere aktiviteter og stadig holde styr på kalorierne?
-    answer: 'Ja! Du kan dele dit træningsarbejde op i flere aktiviteter, og summere kalorierne for at nå dit samlede mål. De giver fleksibilitet i træningen og gør det lettere at tilpasse hverdagen.
+    answer: Ja! Du kan dele dit træningsarbejde op i flere aktiviteter, og summere kalorierne for at nå dit samlede mål. De giver fleksibilitet i træningen og gør det lettere at tilpasse hverdagen.
   - question: Er energiforbrug det samme som vægttab?
-    answer: 'Nej, energiforbrug måler den mængde energi, du bruger under aktivitet, mens vægttab handler om dit samlede kalorieindtag i forhold til forbrug. Her handler det om at opbygge kapacitet og arbejdsvolumen, ikke nødvendigvis vægttab.
+    answer: Nej, energiforbrug måler den mængde energi, du bruger under aktivitet, mens vægttab handler om dit samlede kalorieindtag i forhold til forbrug. Her handler det om at opbygge kapacitet og arbejdsvolumen, ikke nødvendigvis vægttab.
   - question: Hvor meget energi bruger en almindelig person på daglig aktivitet?
-    answer: 'Det varierer meget, men typisk ligger en stillesiddende person under 250 kcal om dagen i fysisk aktivitet, mens en aktiv person kan bruge 500-1000 kcal. Se tabellen i artiklen for flere niveauer.
+    answer: Det varierer meget, men typisk ligger en stillesiddende person under 250 kcal om dagen i fysisk aktivitet, mens en aktiv person kan bruge 500-1000 kcal. Se tabellen i artiklen for flere niveauer.
   - question: Kan jeg bruge energiforbrugsmål til alle sportsgrene?
-    answer: 'Ja, så længe du kan estimere kalorieforbruget for aktiviteten (fx via vores tabel eller beregner), kan du bruge energiforbrugsmål til at strukturere træningen i mange forskellige sportsgrene.
+    answer: Ja, så længe du kan estimere kalorieforbruget for aktiviteten (fx via vores tabel eller beregner), kan du bruge energiforbrugsmål til at strukturere træningen i mange forskellige sportsgrene.
   - question: Hvordan hjælper det at fokusere på arbejdskapacitet?
     answer: Arbejdskapacitet handler om at kunne lave meget arbejde over tid – altså træne konsekvent uden at blive overbelastet. Det er ofte vigtigere for langvarig udvikling end at presse sig hårdt nogle få gange.
 ---

@@ -62,6 +62,8 @@ I denne BMI beregner kan du let selv udregne dit BMI uden at skulle have din lom
 
 {% include calculator/calculate-bmi.html %}
 
+{% include calc/bmi.html calc_id="bmi-adult" title="📊 BMI Beregner (Voksne)" %}
+
 Et alternativ til BMI er også vores [Ponderal Index beregner]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}). Dette mål er beslægtet med BMI, men burde give en mere retfærdig vurdering, hvis du ligger uden for den normale højdekurve.
 
 ## Hvad er Body Mass Index (BMI)?

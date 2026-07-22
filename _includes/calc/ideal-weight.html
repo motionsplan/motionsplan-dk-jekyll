@@ -1,0 +1,304 @@
+{% assign calc_title = include.title | default: "⚖️ Idealvægt Beregner" %}
+{% assign data_id = include.calc_id | default: "ideal-weight-all" %}
+
+<style>
+  .mp-demographics-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mp-demographics-row .mp-form-group {
+    flex: 0.8 1 0px;
+    min-width: 0;
+    margin: 0 !important;
+  }
+
+  .mp-demographics-row .mp-form-group.js-input-group-gender { flex: 1.1 1 0px; }
+  
+  /* Mere plads til skeletbredde så teksten ikke klemmes */
+  .mp-demographics-row .mp-form-group.js-input-group-frame { 
+    flex: 2.2 1 0px; 
+    min-width: 190px;
+  }
+
+  .mp-iw-sync-height {
+    height: 48px !important;
+    box-sizing: border-box !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Formel vælger række med strict sizing mod overflow */
+  .mp-formula-select-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-end;
+    margin-bottom: 1.25rem;
+    background: #f8fafc;
+    padding: 0.85rem 1rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  /* Toggles styling */
+  .mp-clean-toggle-group {
+    display: flex;
+    width: 100%;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    box-sizing: border-box;
+  }
+  .mp-clean-toggle-radio { display: none; }
+  .mp-clean-toggle-label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.825rem;
+    font-weight: 700;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    margin: 0;
+    padding: 0 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+  .mp-clean-toggle-radio:checked + .mp-clean-toggle-label {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.25);
+  }
+
+  .mp-form-label-clean {
+    display: block;
+    margin-bottom: 0.35rem !important;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1e293b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .vbt-select-mega {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%20475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.1em;
+    padding-right: 2.2rem !important;
+  }
+
+  @media (max-width: 600px) {
+    .mp-demographics-row, .mp-formula-select-row {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .mp-demographics-row .mp-form-group {
+      width: 100%;
+      flex: auto !important;
+    }
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="ideal-weight-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <h3 class="mp-calc-title" style="margin: 0;">{{ calc_title }}</h3>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-iw-container">
+    
+    <!-- DEMOGRAFI RÆKKE: Højde, Køn, Skeletbredde -->
+    <div class="mp-demographics-row">
+      
+      <!-- Højde -->
+      <div class="mp-form-group js-input-group-height">
+        <label for="iw-height-{{ data_id }}" class="vbt-premium-label mp-form-label-clean">Højde (cm)</label>
+        <input type="number" id="iw-height-{{ data_id }}" class="vbt-input-mega js-iw-input mp-iw-sync-height" data-input="height" placeholder="f.eks. 178" min="152" max="230" style="width: 100%; box-sizing: border-box;">
+      </div>
+
+      <!-- Køn -->
+      <div class="mp-form-group js-input-group-gender">
+        <label class="vbt-premium-label mp-form-label-clean">Køn</label>
+        <div class="mp-clean-toggle-group mp-iw-sync-height">
+          <input type="radio" id="iw-male-{{ data_id }}" name="iw-gender-{{ data_id }}" value="male" class="js-gender-radio mp-clean-toggle-radio" checked>
+          <label for="iw-male-{{ data_id }}" class="mp-clean-toggle-label">Mand</label>
+          
+          <input type="radio" id="iw-female-{{ data_id }}" name="iw-gender-{{ data_id }}" value="female" class="js-gender-radio mp-clean-toggle-radio">
+          <label for="iw-female-{{ data_id }}" class="mp-clean-toggle-label">Kvinde</label>
+        </div>
+      </div>
+
+      <!-- Skeletbredde (Ekstra plads tildelt) -->
+      <div class="mp-form-group js-input-group-frame">
+        <label class="vbt-premium-label mp-form-label-clean">🦴 Skeletbredde</label>
+        <div class="mp-clean-toggle-group mp-iw-sync-height">
+          <input type="radio" id="iw-f-small-{{ data_id }}" name="iw-frame-{{ data_id }}" value="small" class="js-frame-radio mp-clean-toggle-radio">
+          <label for="iw-f-small-{{ data_id }}" class="mp-clean-toggle-label" title="Smalt skelet (-10%)">Smalt</label>
+
+          <input type="radio" id="iw-f-med-{{ data_id }}" name="iw-frame-{{ data_id }}" value="medium" class="js-frame-radio mp-clean-toggle-radio" checked>
+          <label for="iw-f-med-{{ data_id }}" class="mp-clean-toggle-label" title="Normalt skelet (0%)">Normalt</label>
+
+          <input type="radio" id="iw-f-large-{{ data_id }}" name="iw-frame-{{ data_id }}" value="large" class="js-frame-radio mp-clean-toggle-radio">
+          <label for="iw-f-large-{{ data_id }}" class="mp-clean-toggle-label" title="Bredt skelet (+10%)">Bredt</label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FORMEL VÆLGER RÆKKE -->
+    <div class="mp-formula-select-row">
+      <div style="flex: 1 1 0px; min-width: 0; margin: 0;">
+        <label for="iw-formula-{{ data_id }}" class="vbt-premium-label mp-form-label-clean">Formel</label>
+        <select id="iw-formula-{{ data_id }}" class="vbt-input-mega vbt-select-mega js-formula-select mp-iw-sync-height" style="width: 100%; font-weight: 700; color: #1e293b; background-color: #ffffff; border: 1px solid #cbd5e1; box-sizing: border-box;">
+          <option value="auto" selected>✨ Vælg bedste formel (Automatisk)</option>
+          <option value="zacho">Morten Zacho (2000)</option>
+          <option value="peterson">Peterson et al. (2016)</option>
+          <option value="devine">B. J. Devine (1974)</option>
+          <option value="hamwi">G. J. Hamwi (1964)</option>
+          <option value="robinson">J. D. Robinson (1983)</option>
+          <option value="miller">D. R. Miller (1983)</option>
+        </select>
+      </div>
+
+      <!-- INLINE TARGET BMI BOX -->
+      <div class="js-target-bmi-wrapper" style="flex: 0 0 110px; min-width: 0; margin: 0; display: none; transition: all 0.2s ease;">
+        <label for="iw-target-bmi-{{ data_id }}" class="vbt-premium-label mp-form-label-clean">Mål-BMI</label>
+        <input type="number" id="iw-target-bmi-{{ data_id }}" class="vbt-input-mega js-iw-input mp-iw-sync-height" data-input="targetBmi" placeholder="24.5" step="0.5" min="15" max="35" style="width: 100%; font-weight: 800; text-align: center; background: #ffffff; box-sizing: border-box;">
+      </div>
+    </div>
+
+    <!-- 2-KOLONNE RESULTAT GRID -->
+    <div class="mp-results-container js-results" style="position: relative; display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.25rem; align-items: stretch;">
+      
+      <!-- VENSTRE KOLONNE: HERO RESULTAT -->
+      <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1.5rem; text-align: center; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+        
+        <div>
+          <div style="font-size: 0.8rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.4rem;">
+            ESTIMERET IDEALVÆGT
+          </div>
+
+          <!-- Tal og Enhed -->
+          <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.35rem; margin-bottom: 0.85rem;">
+            <span class="js-res-main" style="font-size: 3.4rem; font-weight: 900; color: #1e3a8a; line-height: 1;">0.0</span>
+            <span class="js-res-unit" style="font-size: 1.2rem; font-weight: 800; color: #3b82f6;">kg</span>
+          </div>
+
+          <!-- SUNDT SPÆND (UDEN BOKS / BAGGRUND) -->
+          <div style="margin-bottom: 1.25rem; text-align: center;">
+            <div style="width: 100%; max-width: 180px; margin: 6px auto 0 auto;">
+              <div style="height: 6px; width: 100%; background: #e2e8f0; border-radius: 3px; position: relative; overflow: hidden;">
+                <div style="position: absolute; left: 20%; right: 20%; height: 100%; background: #2563eb; border-radius: 3px;"></div>
+              </div>
+            </div>
+
+            <div style="font-size: 1.35rem; font-weight: 900; color: #1e293b;">
+              <span class="js-res-range-min">0</span> – <span class="js-res-range-max">0</span> kg
+            </div>
+          </div>
+
+
+          <!-- FORMELNAVN -->
+          <div class="js-res-formula-name" style="font-size: 0.875rem; font-weight: 700; color: #2563eb; margin-bottom: 0.75rem;">
+            Morten Zacho (2000)
+          </div>
+          <!-- SEE MED SVAG SKRIFT (LIGE OVER FORMELNAVN) -->
+          <div class="js-res-margin-text" style="font-size: 0.75rem; font-weight: 600; color: #94a3b8; margin-bottom: 2px; white-space: nowrap;">
+            SEE: ± <span class="js-res-margin">6.0</span> kg
+          </div>
+
+        </div>
+
+        <!-- SKELETTYPE NOTE -->
+        <div class="js-res-skeleton-note" style="font-size: 0.8rem; font-weight: 600; color: #64748b; display: flex; align-items: center; justify-content: center; gap: 4px;">
+          🦴 <span>Normalt skelet</span>
+        </div>
+
+      </div>
+
+      <!-- HØJRE KOLONNE: TO SEPARATE, STABLEDE KASSER -->
+      <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+        
+        <!-- KASSE 1: GENNEMSNIT (MINDRE TEKST, MERE HØJRE-PADDING OG GOD AFSTAND) -->
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1rem 1.6rem 1rem 1.25rem; display: flex; align-items: stretch; justify-content: space-between; gap: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.02); box-sizing: border-box;">
+          
+          <!-- VENSTRE DEL: OVERSKRIFT SKUBBET HELT I TOP -->
+          <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;">
+            <span style="font-size: 0.80rem; font-weight: 800; color: #1e293b; line-height: 1; margin-top: 2px;">GENNEMSNIT</span>
+            
+            <button class="js-criteria-btn" type="button" style="background: none; border: none; padding: 0; display: inline-flex; align-items: center; gap: 4px; cursor: pointer; font-size: 0.8rem; font-weight: 700; color: #2563eb; transition: opacity 0.15s ease;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+              <span>📊 Se tabel</span>
+            </button>
+          </div>
+
+          <!-- HØJRE DEL: MINDRE TAL, SKUBBET NED FOR NUL KARAMBOLAGE -->
+          <div style="text-align: right; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;">
+            <div style="font-size: 1.5rem; font-weight: 900; color: #0f172a; line-height: 1; display: flex; align-items: baseline; justify-content: flex-end; gap: 0.2rem; margin-top: 0.35rem;">
+              <span class="js-res-avg">0.0</span> <span style="font-size: 0.875rem; font-weight: 800; color: #2563eb;">kg</span>
+            </div>
+            <div class="js-res-avg-range" style="font-size: 0.775rem; font-weight: 700; color: #64748b; margin-top: 4px; white-space: nowrap;">
+              0.0 - 0.0
+            </div>
+          </div>
+
+        </div>
+
+        <!-- KASSE 2: FORMEL-KOMMENTARER -->
+        <div class="js-res-card-right" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1.25rem; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start;">
+          <div style="font-size: 0.8rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem;">
+            OM BEREGNINGEN
+          </div>
+
+          <div class="js-res-comments" style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.875rem; color: #334155; line-height: 1.5; font-weight: 500;">
+            <!-- Dynamiske kommentarer -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- MODAL OVERLAY: SAMMENLIGNING AF ALLE FORMLER -->
+      <div class="js-criteria-modal" style="position: absolute; top: -10px; left: -10px; right: -10px; bottom: -10px; background: rgba(255, 255, 255, 0.97); backdrop-filter: blur(6px); z-index: 10; display: flex; flex-direction: column; padding: 1.75rem; box-sizing: border-box; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; max-width: 600px; margin-left: auto; margin-right: auto; width: 100%;">
+          <div style="font-size: 0.9rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px;">
+            📈 SAMMENLIGNING AF IDEALVÆGT-FORMLER
+          </div>
+          <button class="js-criteria-close" type="button" style="background: #e2e8f0; border: none; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.1rem; color: #475569; padding: 0; font-weight: bold;">✕</button>
+        </div>
+        
+        <div class="js-criteria-content" style="flex-grow: 1; overflow-y: auto; max-width: 600px; margin: 0 auto; width: 100%;"></div>
+      </div>
+
+    </div>
+
+    <!-- DISCLAIMER -->
+    <div class="js-res-disclaimer" style="margin-top: 1.25rem; font-size: 0.85rem; color: #475569; line-height: 1.5; font-style: normal; font-weight: 400; padding: 0 0.25rem;">
+      <!-- Fyldes dynamisk ud fra ideal-weight-health.js -->
+    </div>
+
+    <!-- BUNDMENU: Download & Nulstil -->
+    <div id="iw-actions" class="mp-action-group" style="margin-top: 1.25rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

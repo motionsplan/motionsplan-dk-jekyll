@@ -43,6 +43,11 @@ I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ra
 
 {% include calculator/calculate-waist.html %}
 
+{% include calc/waist.html 
+   calc_id="waist-height" 
+   title="📐 Talje-højde-ratio" 
+%}
+
 ## Hvad er talje-højde-ratio?
 
 Efterhånden har [talje/højde-ratioen](https://en.wikipedia.org/wiki/Waist-to-height_ratio) sneget sig ind i litteraturen, fordi det ser ud til at være bedre til at vurdere personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et meningsfuldt mål man kan bruge på både børn og voksne med forskellige højder.

@@ -73,6 +73,9 @@ Inden du starter med at lave din hastighedsprofil, kan det være nyttigt estimer
 
 For at gå i gang med testen, så skal du naturligvis have noget [VBT-udstyr](/vbt-udstyr/).
 
+{% include calc/vbt.html %}
+
+
 ## Hvad er velocity based training?
 
 Velocity based training er faktisk ikke noget nyt, men det er blevet meget mere tilgængeligt, og der er kommet mange fine forbrugerorienterede _gadgets_, som man kan bruge i træning.

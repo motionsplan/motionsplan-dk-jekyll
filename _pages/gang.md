@@ -82,7 +82,7 @@ Så hav skoene klar.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -100,7 +100,7 @@ Du [forbrænder færre kalorier end ved løb](/loeb-mere-energi-gang/), men hvor
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -124,7 +124,7 @@ Du [forbrænder færre kalorier end ved løb](/loeb-mere-energi-gang/), men hvor
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -148,7 +148,7 @@ Du kan se alle grundene til at gå nedenunder, men derfor kan det jo godt være,
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -166,7 +166,7 @@ Du kan se alle grundene til at gå nedenunder, men derfor kan det jo godt være,
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

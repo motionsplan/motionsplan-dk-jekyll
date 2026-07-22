@@ -82,7 +82,7 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -100,7 +100,7 @@ Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split,
 
 {% if articles.size > 0 %}
   {% for post in articles %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

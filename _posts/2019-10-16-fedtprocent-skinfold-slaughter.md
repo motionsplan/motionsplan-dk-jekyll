@@ -55,6 +55,11 @@ Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skul
 
 {% include calculator/calculate-fatpercent-skinfold-children-slaughter.html %}
 
+{% include calc/skinfold.html 
+   calc_id="skinfold-slaughter-2" 
+   title="📐 Slaughter 2-punkt børn" 
+%}
+
 ## Formlen bag Slaughter-beregningen
 
 [Slaughter et al (1988)](https://www.researchgate.net/publication/19931264_Skinfold_Equations_for_Estimation_of_Body_Fatness_in_Children_and_Youth) angiver forskellige formler for drenge i forhold til, hvor langt fremme de er i puberteten.

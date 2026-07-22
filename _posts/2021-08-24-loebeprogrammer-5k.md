@@ -45,7 +45,7 @@ På listen herunder kan du finde et begynder løbeprogram til 5 kilometer-distan
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}

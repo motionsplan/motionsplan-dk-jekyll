@@ -54,6 +54,11 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 {% include calculator/calculate-fatpercent-skinfold-peterson.html %}
 
+{% include calc/skinfold.html 
+   calc_id="skinfold-peterson-4" 
+   title="📐 Peterson 4-punkt" 
+%}
+
 ## Usikkerheder i Peterson formlen
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur](/slankekur/), fordi du gerne vil opnå en tilfældig [idealvægt](/idealvaegt/) fra en beregner.

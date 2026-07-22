@@ -1,0 +1,214 @@
+{% assign calc_title = include.title | default: "Taljemål & Kropsform" %}
+{% assign data_id = include.calc_id | default: "waist-only" %}
+
+<style>
+  /* Flex-række der altid fordeler synlige felter ligeligt på 1 enkelt linje */
+  .mp-demographics-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  .mp-demographics-row .mp-form-group {
+    flex: 1 1 0px;
+    min-width: 0;
+    margin: 0 !important;
+  }
+
+  /* FÆLLES HØJDE: Tvinger inputs og kønstoggle til præcis samme højde */
+  .mp-waist-sync-height {
+    height: 48px !important;
+    box-sizing: border-box !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Kønstoggle Container */
+  .mp-clean-gender-group {
+    display: flex;
+    width: 100%;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+  }
+  .mp-clean-gender-radio { display: none; }
+  .mp-clean-gender-label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    margin: 0;
+    padding: 0;
+  }
+  .mp-clean-gender-radio:checked + .mp-clean-gender-label {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.25);
+  }
+
+  /* Ren label-styling */
+  .mp-form-label-clean {
+    display: block;
+    margin-bottom: 0.35rem !important;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1e293b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (max-width: 480px) {
+    .mp-demographics-row {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .mp-demographics-row .mp-form-group {
+      width: 100%;
+      flex: auto;
+    }
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="waist-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <h3 class="mp-calc-title" style="margin: 0;">{{ calc_title }}</h3>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-waist-container">
+    
+    <!-- DEMOGRAFI RÆKKE: Altid på 1 linje -->
+    <div class="mp-demographics-row">
+      
+      <!-- 1. Taljemål input -->
+      <div class="mp-form-group js-input-group-waist">
+        <label for="w-waist-{{ data_id }}" class="vbt-premium-label mp-form-label-clean">Taljemål (cm)</label>
+        <input type="number" id="w-waist-{{ data_id }}" class="vbt-input-mega js-waist-input mp-waist-sync-height" data-input="waist" placeholder="f.eks. 85" min="40" max="200" step="0.5" style="width: 100%;">
+      </div>
+      
+      <!-- 2. Hofteomkreds input -->
+      <div class="mp-form-group js-input-group-hip">
+        <label for="w-hip-{{ data_id }}" class="vbt-premium-label mp-form-label-clean">Hofteomkreds (cm)</label>
+        <input type="number" id="w-hip-{{ data_id }}" class="vbt-input-mega js-waist-input mp-waist-sync-height" data-input="hip" placeholder="f.eks. 98" min="40" max="200" step="0.5" style="width: 100%;">
+      </div>
+
+      <!-- 3. Højde input -->
+      <div class="mp-form-group js-input-group-height">
+        <label for="w-height-{{ data_id }}" class="vbt-premium-label mp-form-label-clean">Højde (cm)</label>
+        <input type="number" id="w-height-{{ data_id }}" class="vbt-input-mega js-waist-input mp-waist-sync-height" data-input="height" placeholder="f.eks. 180" min="100" max="230" style="width: 100%;">
+      </div>
+
+      <!-- 4. Kønstoggle -->
+      <div class="mp-form-group js-input-group-gender">
+        <label class="vbt-premium-label mp-form-label-clean">Køn</label>
+        <div class="mp-clean-gender-group mp-waist-sync-height">
+          <input type="radio" id="w-male-{{ data_id }}" name="w-gender-{{ data_id }}" value="male" class="js-gender-radio mp-clean-gender-radio" checked>
+          <label for="w-male-{{ data_id }}" class="mp-clean-gender-label">Mand</label>
+          
+          <input type="radio" id="w-female-{{ data_id }}" name="w-gender-{{ data_id }}" value="female" class="js-gender-radio mp-clean-gender-radio">
+          <label for="w-female-{{ data_id }}" class="mp-clean-gender-label">Kvinde</label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 2-KOLONNE RESULTAT GRID (Nu med position: relative, så modalen kan dække det hele) -->
+    <div class="mp-results-container js-results" style="position: relative; display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.25rem; align-items: stretch;">
+      
+      <!-- VENSTRE KOLONNE: Hero Tal + Slider + Badge -->
+      <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1.5rem; text-align: center; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+        
+        <div style="font-size: 0.8rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.5rem;">
+          RESULTAT
+        </div>
+
+        <div style="display: flex; align-items: baseline; justify-content: center; gap: 0.35rem; margin-bottom: 1.25rem;">
+          <span class="js-res-main" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1;">0.0</span>
+          <span class="js-res-unit" style="font-size: 1.1rem; font-weight: 800; color: #3b82f6;">-</span>
+        </div>
+
+        <!-- Slider / Skala -->
+        <div style="width: 100%; max-width: 260px; margin: 0 auto 1.25rem auto;">
+          <div style="height: 10px; width: 100%; background: linear-gradient(to right, #3b82f6 0%, #22c55e 30%, #f97316 65%, #ef4444 100%); border-radius: 5px; position: relative;">
+            <div class="js-res-pin" style="position: absolute; top: -4px; left: 0%; width: 18px; height: 18px; background: #0f172a; border: 2px solid #ffffff; border-radius: 50%; transform: translateX(-50%); transition: left 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.25);"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.7rem; color: #64748b; font-weight: 800; margin-top: 6px; text-transform: uppercase;">
+            <span>LAV</span>
+            <span>HØJ</span>
+          </div>
+        </div>
+
+        <!-- BADGE -->
+        <div>
+          <span class="js-res-badge" style="font-size: 0.875rem; font-weight: 800; padding: 0.45rem 1rem; border-radius: 8px; background: #cbd5e1; color: #475569; display: inline-block;">
+            Indtast værdier
+          </span>
+        </div>
+      </div>
+
+      <!-- HØJRE KOLONNE: Dynamisk kantfarve + Overskrift med (i)-ikon -->
+      <div class="js-res-card-right" style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: flex-start; transition: border-color 0.3s ease;">
+        
+        <!-- Top bar: Overskrift + i-ikon knap -->
+        <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.85rem;">
+          <div style="font-size: 0.8rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px;">
+            VURDERING
+          </div>
+
+          <!-- DISKRET (i)-IKON KNAP -->
+          <button class="js-criteria-btn" type="button" title="Se grænseværdier" style="background: #dbeafe; border: none; border-radius: 50%; width: 20px; height: 20px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 0.7rem; font-weight: 800; color: #1d4ed8; padding: 0; line-height: 1; transition: transform 0.15s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            i
+          </button>
+        </div>
+
+        <!-- Hovedtekst -->
+        <div class="js-res-text" style="font-size: 0.95rem; color: #334155; line-height: 1.6; font-weight: 500;">
+          Indtast dine mål ovenfor for at beregne din sundhedsprofil.
+        </div>
+      </div>
+
+      <!-- MODAL OVERLAY (Dækker nu BEGGE kasser, da den ligger i selve grid-containeren) -->
+      <div class="js-criteria-modal" style="position: absolute; top: -10px; left: -10px; right: -10px; bottom: -10px; background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(6px); z-index: 10; display: flex; flex-direction: column; padding: 2rem; box-sizing: border-box; opacity: 0; pointer-events: none; transition: opacity 0.2s ease; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; max-width: 600px; margin-left: auto; margin-right: auto; width: 100%;">
+          <div style="font-size: 0.9rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px;">
+            SUNDHEDSFAGLIGE GRÆNSEVÆRDIER
+          </div>
+          <!-- LUK KNAP -->
+          <button class="js-criteria-close" type="button" style="background: #e2e8f0; border: none; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.1rem; color: #475569; padding: 0; font-weight: bold; transition: background 0.2s;">✕</button>
+        </div>
+        
+        <!-- Tabel injiceres her (Centreret, så den ikke strækker sig ulækkert langt) -->
+        <div class="js-criteria-content" style="flex-grow: 1; overflow-y: auto; max-width: 600px; margin: 0 auto; width: 100%;"></div>
+        
+      </div>
+
+    </div>
+
+    <!-- DISCLAIMER / FORBEHOLD -->
+    <div class="js-res-disclaimer" style="margin-top: 1.25rem; font-size: 0.85rem; color: #475569; line-height: 1.5; font-style: normal; font-weight: 400; padding: 0 0.25rem;">
+      <!-- Fyldes dynamisk ud fra waist-health.js -->
+    </div>
+
+    <!-- BUNDMENU: Download & Nulstil -->
+    <div id="waist-actions" class="mp-action-group" style="margin-top: 1.25rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

@@ -152,7 +152,7 @@ Se vores artikler om træningslære:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -192,7 +192,7 @@ Læs vores artikler om programlægning:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -218,7 +218,7 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -234,7 +234,7 @@ Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

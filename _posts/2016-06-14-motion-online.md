@@ -88,7 +88,7 @@ Her har du en liste over **Motionsplans beregnere som naturligvis bliver opdater
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -106,7 +106,7 @@ Vi har også skrevet mange andre artikler om kondition og konditionstræning.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

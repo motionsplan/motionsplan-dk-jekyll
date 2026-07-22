@@ -110,6 +110,9 @@ Denne formel har vist sig at være mere præcis end den tidligere tommelfingerre
 
 {% include calculator/calculate-vo2-max-hr.html %}
 
+{% include calc/vo2max-maxpuls-uth.html %}
+
+
 ## Formlen bag beregneren af kondital
 
 [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har lavet en formel, hvor du kan estimere dit kondital på baggrund af forholdet mellem din maxpuls og din hvilepuls. 

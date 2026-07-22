@@ -45,6 +45,8 @@ Vælg den formel du helst vil bruge. Indtast derefter din alder, og få dit resu
 
 {% include calculator/calculate-max-hr.html %}
 
+{% include calc/max-hr.html %}
+
 ## Hvordan finder beregneren min max-puls?
 
 Beregneren bruger en af de mange formler, der findes til at beregne maxpuls. 

@@ -30,9 +30,7 @@ feature_row_heat_training:
   alt: Varmetræning
   title: Varmetræning - bliv klar til varmen
   excerpt: 'Varmetræning er blevet mere og mere populært blandt cykelryttere. Dels forbereder det rytterne på at kunne præstere
-    bedre i varmen, men det kaldes også højdetræning for fattigmænd. Skal du prøve?"
-
-    '
+    bedre i varmen, men det kaldes også højdetræning for fattigmænd. Skal du prøve?"'
   url: /varmetraening/
   btn_label: Læs mere
   btn_class: btn--info
@@ -42,9 +40,7 @@ feature_row_virtuel_biking:
   alt: Virtuel cykling
   title: Virtuel cykling - kør på hometrainer
   excerpt: 'At cykle på en motionscykel indendørs er en fantastisk måde at forbedre din kondition på, og du kan nu gøre det,
-    mens du kører gennem virtuelle verdener eller konkurrerer mod andre online.
-
-    '
+    mens du kører gennem virtuelle verdener eller konkurrerer mod andre online.'
   url: /hometrainer-apps/
   btn_label: Læs mere
   btn_class: btn--info
@@ -66,7 +62,7 @@ Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -86,7 +82,7 @@ Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -102,7 +98,7 @@ Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -116,7 +112,7 @@ Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -132,7 +128,7 @@ Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -146,7 +142,7 @@ Vores mål er at hjælpe dig med at nå dine cykelmål med evidensbaserede råd 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

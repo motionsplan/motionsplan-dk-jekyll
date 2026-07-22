@@ -132,3 +132,1334 @@ meter::-webkit-meter-optimum-value {
   );
   transition: width 1s;
 }
+
+/* ==========================================================================
+   MOTIONSPLAN BEREGNER-SYSTEM (Komplet SCSS for ALLE beregnere & VBT)
+   Opryddet og optimeret
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. BASAL KORT-CONTAINER
+   -------------------------------------------------------------------------- */
+.mp-calc-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  color: #1e293b;
+
+  * { box-sizing: border-box; }
+  &.mp-compact { padding: 1.15rem; }
+
+  .mp-table-wrapper, 
+  .mp-results-container, 
+  details.mp-details-table {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  table, .mp-results-table {
+    width: 100% !important;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0;
+    table-layout: auto;
+    
+    th, td { box-sizing: border-box; }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. HEADER & OVERSKRIFTER
+   -------------------------------------------------------------------------- */
+.mp-calc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+
+  .mp-calc-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1.2;
+  }
+
+  .mp-calc-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: #eff6ff;
+    color: #2563eb;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .mp-calc-description {
+    margin: 0;
+    color: #64748b;
+    font-size: 0.95rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. GRIDS & LAYOUTS
+   -------------------------------------------------------------------------- */
+.mp-form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .mp-form-group {
+    flex: 1;
+    min-width: 0; /* Forhindrer overflow */
+  }
+
+  /* Backwards compatibility (til ældre beregnere) */
+  &.mp-grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); }
+  &.mp-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); }
+  &.mp-grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
+}
+
+.mp-grid-profile {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+
+  @media (max-width: 520px) {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
+.mp-grid-profile-4 {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  align-items: flex-end;
+  
+  .mp-form-group label { white-space: nowrap; }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mp-full-width { width: 100%; }
+
+/* --------------------------------------------------------------------------
+   4. FORMULAR-ELEMENTER & INPUTS
+   -------------------------------------------------------------------------- */
+.mp-calc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.mp-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  label {
+    font-size: 0.825rem;
+    font-weight: 700;
+    color: #334155;
+    white-space: nowrap;
+  }
+}
+
+/* Fælles styling for alle Number-inputs (Spinners er pænt fremhævet) */
+input[type="number"],
+.vbt-input-mega,
+.mp-form-control,
+.mp-skinfold-input {
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: inner-spin-button !important;
+    opacity: 0.65 !important;
+    height: 22px !important;
+    cursor: pointer !important;
+    margin-right: 2px !important;
+    transition: opacity 0.15s ease !important;
+
+    &:hover { opacity: 1 !important; }
+  }
+  -moz-appearance: number-input !important;
+}
+
+.mp-form-control {
+  height: 38px;
+  padding: 0 0.6rem;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #0f172a;
+  transition: all 0.15s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+}
+
+select.mp-form-control {
+  height: 38px !important;
+  padding-right: 2rem !important;
+  font-size: 0.875rem !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 0.6rem center !important;
+  background-size: 0.85rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. TOGGLES & KØNSVÆLGERE
+   -------------------------------------------------------------------------- */
+/* Standard Toggle */
+.mp-toggle-group {
+  height: 38px;
+  display: flex;
+  background: #f1f5f9;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 3px;
+  width: 100%;
+
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:checked + .mp-toggle-btn {
+      background: #2563eb;
+      color: #ffffff;
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(37, 99, 235, 0.2);
+    }
+  }
+
+  .mp-toggle-btn {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.38rem;
+    padding: 0 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #475569;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+  }
+}
+
+/* Stacked Toggle (Ikon over tekst) */
+.mp-toggle-stacked {
+  height: 80px !important;
+  padding: 4px !important;
+
+  .mp-toggle-btn-stacked {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+
+    .mp-toggle-icon {
+      font-size: 1.6rem !important;
+      line-height: 1 !important;
+    }
+    .mp-toggle-text {
+      font-size: 0.85rem !important;
+      font-weight: 800 !important;
+      letter-spacing: 0.02em !important;
+    }
+  }
+}
+
+/* Tall Toggle (Ekstra høj IFRE-styling) */
+.mp-toggle-tall {
+  height: auto !important; 
+  min-height: 90px !important;
+  padding: 6px !important;
+  display: flex;
+  background: #f1f5f9;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 12px;
+  width: 100%;
+
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:checked + .mp-toggle-btn-tall {
+      background: #2563eb !important;
+      color: #ffffff !important;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25) !important;
+    }
+  }
+
+  .mp-toggle-btn-tall {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 14px 0 !important;
+    background: transparent;
+    color: #475569;
+    border-radius: 8px !important;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    .mp-toggle-icon {
+      font-size: 2.1rem !important;
+      line-height: 1 !important;
+      display: block !important;
+    }
+
+    .mp-toggle-text {
+      font-size: 0.825rem !important;
+      font-weight: 800 !important;
+      letter-spacing: 0.03em !important;
+      line-height: 1 !important;
+      display: block !important;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. KNAPPER & ACTIONS
+   -------------------------------------------------------------------------- */
+.mp-btn-submit {
+  height: 42px;
+  width: 100%;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0 1rem;
+
+  &:hover { background: #1d4ed8; }
+}
+
+/* Action Group Bundmenu (Download / Nulstil) */
+.mp-action-group {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.mp-btn-action-wide {
+  flex: 1;
+  background: #2563eb;
+  color: #ffffff;
+  height: 54px;
+  border-radius: 12px;
+  font-size: 0.85rem !important;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  line-height: 1 !important;
+
+  .mp-icon {
+    font-size: 1.15rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1 !important;
+    margin-bottom: 1px; 
+  }
+
+  &:hover {
+    background: #1d4ed8;
+    box-shadow: 0 6px 14px rgba(37, 99, 235, 0.35);
+  }
+}
+
+.mp-btn-action-reset {
+  width: 54px;
+  height: 54px;
+  background: #f8fafc;
+  color: #475569;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #cbd5e1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  
+  &:hover {
+    background: #e2e8f0;
+    color: #334155;
+    border-color: #94a3b8;
+  }
+  &:active { transform: scale(0.95); }
+}
+
+.mp-btn-text {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  &:hover { text-decoration: underline; }
+}
+
+.mp-btn-xs {
+  height: 28px !important;
+  font-size: 0.75rem !important;
+  padding: 0 0.5rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. RESULTAT-SEKTIONER & BOKSE
+   -------------------------------------------------------------------------- */
+.mp-results-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: stretch;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mp-results-left {
+  display: flex;
+  flex-direction: column;
+
+  .mp-hero-fullheight {
+    flex: 1;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.mp-results-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+
+  .mp-result-box {
+    background: #f8fafc;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 0.5rem; 
+
+    .mp-result-box-label {
+      font-size: 0.725rem; 
+      line-height: 1.25;   
+      font-weight: 700;
+      color: #475569;
+      max-width: 80px;      
+      display: block;
+    }
+    
+    .mp-result-box-value {
+      font-size: 1.4rem;   
+      font-weight: 900;
+      color: #0f172a;
+      white-space: nowrap; 
+      display: flex;
+      align-items: baseline;
+      gap: 3px;
+      
+      small {
+        font-size: 0.8rem;
+        color: #64748b;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .mp-result-box-primary {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    .mp-result-box-label { color: #1d4ed8; }
+    .mp-result-box-value { color: #1e40af; small { color: #3b82f6; } }
+  }
+}
+
+/* Klassiske Hero Cards */
+.mp-hero-result {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  .mp-hero-label {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #1e40af;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .mp-hero-value {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1.1;
+    margin-top: 0.25rem;
+
+    small {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #3b82f6;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   8. HUDFOLD / SKINFOLD BEREGNER (Dynamisk Flexbox Layout)
+   -------------------------------------------------------------------------- */
+.mp-skinfold-section-header { margin-bottom: 0.5rem; }
+
+.mp-skinfold-unified-box {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.mp-skinfold-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+
+  @media (max-width: 640px) {
+    gap: 1.5rem 0.5rem; 
+  }
+}
+
+.mp-skinfold-card {
+  background: transparent;
+  border: none;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Justerer bredden, så både 2, 3 og 4 kort kan passe */
+  flex: 1 1 calc(20%); 
+  min-width: 100px; 
+  max-width: 180px;
+
+  .mp-skinfold-img-wrapper {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+
+    svg, .mp-skinfold-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      display: block;
+      transition: transform 0.2s ease;
+    }
+  }
+
+  &:hover .mp-skinfold-img-wrapper svg,
+  &:hover .mp-skinfold-img {
+    transform: scale(1.04);
+  }
+
+  .mp-skinfold-card-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mp-skinfold-title-main {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #0f172a;
+    display: block;
+    line-height: 1.1;
+  }
+
+  .mp-skinfold-title-sub {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #64748b;
+    display: block;
+    margin-bottom: 0.6rem;
+    margin-top: 0.15rem;
+  }
+
+  .mp-skinfold-input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 90px;
+    margin: 0 auto;
+
+    .mp-skinfold-input {
+      height: 38px !important;
+      padding-left: 8px !important;
+      padding-right: 28px !important;
+      font-size: 1rem !important;
+      font-weight: 800 !important;
+      border-radius: 8px !important;
+      border: 1.5px solid #cbd5e1 !important;
+      text-align: center !important;
+      width: 100% !important;
+
+      &:focus {
+        border-color: #2563eb !important;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+        outline: none;
+      }
+    }
+
+    .mp-skinfold-unit {
+      position: absolute;
+      right: 10px;
+      font-size: 0.65rem !important;
+      font-weight: 700 !important;
+      color: #94a3b8;
+      pointer-events: none;
+      line-height: 1 !important;
+    }
+  }
+}
+
+.mp-skinfold-disclaimer {
+  margin-top: 1.25rem;
+  font-size: 0.72rem;
+  color: #64748b;
+  line-height: 1.45;
+  text-align: center;
+  strong { color: #475569; }
+}
+
+/* --------------------------------------------------------------------------
+   9. TABELLER (Generel, Aktiviteter & Detaljer)
+   -------------------------------------------------------------------------- */
+.mp-table-wrapper { overflow-x: auto; }
+
+.mp-activity-table,
+.mp-results-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 0.45rem 0.6rem;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.875rem;
+  }
+
+  th {
+    background: #f1f5f9;
+    color: #334155;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+  }
+
+  td { color: #0f172a; }
+
+  tbody tr:nth-child(even) { background-color: #f8fafc; }
+  tbody tr:hover { background-color: #f1f5f9; }
+
+  .mp-input-sm {
+    height: 34px;
+    padding: 0 0.4rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .mp-input-readonly {
+    background-color: #f1f5f9;
+    color: #334155;
+    border-color: #cbd5e1;
+  }
+}
+
+.mp-details-table {
+  summary {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #2563eb;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    user-select: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   10. VBT SPECIFIK STYLING (Velocity Based Training)
+   -------------------------------------------------------------------------- */
+.vbt-premium-card { font-family: inherit; }
+
+.vbt-header-spacing {
+  margin-bottom: 1.25rem !important;
+  .mp-calc-title {
+    font-size: 1.35rem !important;
+    font-weight: 900 !important;
+    letter-spacing: -0.02em;
+  }
+}
+
+.vbt-top-grid {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1.25rem;
+
+  @media (max-width: 580px) {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+}
+
+.vbt-premium-label {
+  font-size: 0.85rem !important;
+  font-weight: 800 !important;
+  color: #1e293b !important;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.vbt-input-mega {
+  height: 48px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  background-color: #f8fafc !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 10px !important;
+  padding-left: 0.85rem !important;
+  width: 100%;
+  transition: all 0.2s ease;
+
+  &:focus {
+    background-color: #ffffff !important;
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+    outline: none;
+  }
+}
+
+.vbt-select-wrapper {
+  position: relative;
+  select.vbt-input-mega {
+    padding-right: 2.25rem !important;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 0.85rem center !important;
+    background-size: 1rem !important;
+  }
+}
+
+.vbt-input-with-lock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .vbt-input-mega { padding-right: 42px !important; }
+
+  .vbt-lock-inside-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.15rem;
+    cursor: pointer;
+    padding: 4px;
+    opacity: 0.55;
+    transition: opacity 0.2s ease;
+
+    &:hover, &.unlocked { opacity: 1; }
+  }
+}
+
+/* VBT Tabel */
+.vbt-table-container {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.vbt-premium-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    background: #f8fafc;
+    color: #475569;
+    font-weight: 800;
+    font-size: 0.78rem;
+    padding: 0.65rem 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1.5px solid #e2e8f0;
+  }
+
+  td {
+    padding: 0.45rem 0.5rem;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: middle;
+  }
+  
+  tbody tr:last-child td { border-bottom: none; }
+}
+
+.vbt-col-num {
+  font-weight: 900;
+  color: #1e293b;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.vbt-input-cell {
+  height: 38px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0 0.5rem;
+  font-size: 0.925rem;
+  font-weight: 700;
+  text-align: center;
+  color: #0f172a;
+  transition: all 0.15s ease;
+
+  &::placeholder {
+    font-weight: 500;
+    color: #94a3b8;
+  }
+
+  &:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: #f8fafc;
+    color: #64748b;
+    border-color: #e2e8f0;
+    cursor: not-allowed;
+  }
+}
+
+.vbt-row-warmup {
+  background-color: #fafafa;
+  .vbt-col-num { color: #94a3b8; }
+  .vbt-input-cell {
+    background-color: #f1f5f9;
+    color: #64748b;
+    border-color: #e2e8f0;
+  }
+}
+
+.vbt-save-diskette-btn {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #3b82f6;
+  border-radius: 8px;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 0 auto;
+
+  svg {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+
+  &:hover {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+  }
+
+  &:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    background: #f8fafc;
+    border-color: #e2e8f0;
+    color: #94a3b8;
+  }
+}
+
+/* VBT Actions & Timer */
+.vbt-action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.85rem;
+}
+
+.vbt-btn-add-modern {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.825rem;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.15s ease;
+
+  .vbt-icon-plus {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+  &:hover {
+    background: #dbeafe;
+    border-color: #93c5fd;
+  }
+}
+
+.vbt-btn-reset-modern {
+  background: transparent;
+  color: #ef4444;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover { text-decoration: underline; }
+}
+
+.vbt-inline-timer {
+  background: #eff6ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.825rem;
+  color: #1e40af;
+
+  strong {
+    font-size: 0.925rem;
+    font-weight: 900;
+    margin-left: 0.2rem;
+  }
+}
+
+.vbt-btn-timer-close {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  background: none;
+  border: none;
+  cursor: pointer;
+  &:hover { color: #0f172a; }
+}
+
+/* VBT Guidance Boxes */
+.vbt-guidance-premium {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+
+  .vbt-info-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .vbt-info-text {
+    flex: 1;
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  &.mp-guidance-info { background: #f8fafc; border: 1px solid #e2e8f0; color: #334155; }
+  &.mp-guidance-warning { background: #fffbeb; border: 1px solid #fde68a; color: #92400e; }
+  &.mp-guidance-success { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
+
+  &.vbt-success-layout, &.vbt-finished-layout {
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    @media (max-width: 520px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+}
+
+.vbt-success-info {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex: 1;
+}
+
+/* VBT Kvadratiske App-knapper (76x76px - Store Ikoner, Mikro Tekst) */
+.vbt-square-btn-group {
+  display: flex !important;
+  gap: 0.65rem !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+.vbt-btn-square {
+  width: 76px !important;
+  height: 76px !important;
+  border-radius: 16px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 10px 4px 8px 4px !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  border: none !important;
+  margin: 0 !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+  position: relative !important;
+
+  .vbt-square-icon {
+    position: static !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    flex: 1 !important;
+    
+    svg {
+      display: block !important;
+      width: 28px !important;
+      height: 28px !important;
+    }
+  }
+
+  .vbt-square-text {
+    position: static !important;
+    display: block !important;
+    font-size: 0.52rem !important; 
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+
+  &.vbt-btn-finish {
+    background: #10b981 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25) !important;
+
+    &:hover {
+      background: #059669 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 16px rgba(16, 185, 129, 0.35) !important;
+    }
+  }
+
+  &.vbt-btn-download {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25) !important;
+
+    &:hover {
+      background: #1d4ed8 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35) !important;
+    }
+  }
+
+  &.vbt-btn-reopen {
+    background: #ffffff !important;
+    color: #334155 !important;
+    border: 1.5px solid #cbd5e1 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+
+    &:hover {
+      background: #f8fafc !important;
+      border-color: #94a3b8 !important;
+      color: #0f172a !important;
+      transform: translateY(-2px) !important;
+    }
+  }
+}
+
+/* VBT Graf & 1RM Overlay */
+.vbt-chart-full-wrapper {
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.vbt-chart-premium-box {
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 0.5rem;
+}
+
+.vbt-svg-chart {
+  width: 100%;
+  height: auto;
+  min-height: 320px;
+  display: block;
+}
+
+.vbt-chart-overlay-1rm {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 0.5rem 0.85rem;
+  text-align: right;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: opacity 0.2s ease;
+
+  .vbt-overlay-label {
+    font-size: 0.58rem !important;
+    font-weight: 900 !important;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .vbt-overlay-val {
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    color: #1e3a8a;
+    line-height: 0.95;
+    margin-top: 0.15rem;
+
+    small {
+      font-size: 0.8rem !important;
+      font-weight: 700;
+      color: #3b82f6;
+      margin-left: 1px;
+    }
+  }
+
+  .vbt-overlay-r2 {
+    font-size: 0.68rem;
+    color: #64748b;
+    font-weight: 600;
+    margin-top: 0.25rem;
+  }
+}
+
+
+
+/* --- Box med split layout (Venstre: tekst, Højre: tal + enhed under) --- */
+.mp-result-box-split {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  flex: 1;
+
+  .mp-box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+    .mp-box-title {
+      font-weight: 800;
+      font-size: 0.85rem;
+      color: #475569;
+    }
+    .mp-box-subtitle {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+  }
+
+  .mp-box-right {
+    text-align: right;
+    line-height: 1.1;
+
+    .mp-box-value {
+      font-weight: 900;
+      font-size: 1.6rem;
+      color: #0f172a;
+    }
+    .mp-box-unit {
+      font-size: 0.75rem;
+      color: #64748b;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+  }
+}
+
+/* --- VO2max Kontinuum / Slider --- */
+.mp-fitness-continuum {
+  margin-top: 1.5rem;
+  position: relative;
+  text-align: left;
+  
+  .mp-continuum-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
+
+    .mp-continuum-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #475569;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  .mp-continuum-bar-wrapper {
+    position: relative;
+    padding-bottom: 0.5rem; // Plads til skyggen på markøren
+  }
+
+  .mp-continuum-bar {
+    display: flex;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #e2e8f0;
+
+    .mp-segment {
+      flex: 1; /* Gør de 5 farve-segmenter lige brede */
+    }
+  }
+
+  /* Selve prikken/stregen der viser brugerens placering */
+  .mp-continuum-marker {
+    position: absolute;
+    top: -4px;
+    width: 14px;
+    height: 16px;
+    background: #0f172a;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    z-index: 2;
+  }
+  
+  .mp-continuum-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 0.65rem;
+    color: #94a3b8;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.mp-calc-card {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,91 @@
+{% assign calc_title = include.title | default: "📊 Talemål og sundhed" %}
+{% assign data_id = "waist-dashboard" %}
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="waist-ui">
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+    <h3 class="mp-calc-title" style="margin: 0;">{{ calc_title }}</h3>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-waist-container">
+    
+    <!-- Kønsvælger -->
+    <div class="mp-form-group mp-full-width" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label">👫 Køn</label>
+      <div class="mp-toggle-group mp-toggle-full mp-toggle-tall">
+        <input type="radio" id="wd-male" name="wd-gender" value="male" class="js-gender-radio" checked>
+        <label for="wd-male" class="mp-toggle-btn-tall">
+          <span class="mp-toggle-icon">👨</span>
+          <span class="mp-toggle-text">Mand</span>
+        </label>
+        
+        <input type="radio" id="wd-female" name="wd-gender" value="female" class="js-gender-radio">
+        <label for="wd-female" class="mp-toggle-btn-tall">
+          <span class="mp-toggle-icon">👩</span>
+          <span class="mp-toggle-text">Kvinde</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Måle-inputs: Alle 3 vises på dashboardet -->
+    <div class="mp-form-grid mp-grid-3" style="margin-bottom: 1.5rem;">
+      <div class="mp-form-group">
+        <label for="wd-waist" class="vbt-premium-label">Taljemål (cm)</label>
+        <input type="number" id="wd-waist" class="vbt-input-mega js-waist-input" data-input="waist" placeholder="f.eks. 85" min="40" max="200" step="0.5">
+      </div>
+      
+      <div class="mp-form-group">
+        <label for="wd-hip" class="vbt-premium-label">Hofteomkreds (cm)</label>
+        <input type="number" id="wd-hip" class="vbt-input-mega js-waist-input" data-input="hip" placeholder="f.eks. 98" min="40" max="200" step="0.5">
+      </div>
+
+      <div class="mp-form-group">
+        <label for="wd-height" class="vbt-premium-label">Højde (cm)</label>
+        <input type="number" id="wd-height" class="vbt-input-mega js-waist-input" data-input="height" placeholder="f.eks. 180" min="100" max="230">
+      </div>
+    </div>
+
+    <!-- DASHBOARD RESULTATER (2x2 Grid) -->
+    <div class="mp-results-container js-dashboard-results" style="margin-top: 1.5rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+        
+        <!-- 1. Taljemål Alone -->
+        <div class="js-dash-card" data-dash="waistOnly" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+          <div style="font-size: 0.75rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Taljemål (Visceralt fedt)</div>
+          <div style="font-size: 1.5rem; font-weight: 900; color: #0f172a; margin: 0.2rem 0;"><span class="js-d-val">0.0</span> <small style="font-size: 0.85rem;" class="js-d-unit">cm</small></div>
+          <span class="js-d-badge" style="font-size: 0.75rem; font-weight: 800; padding: 0.25rem 0.6rem; border-radius: 4px; background: #cbd5e1; color: #475569; display: inline-block;">Indtast talje</span>
+        </div>
+
+        <!-- 2. Hofte-Talje (WHR) -->
+        <div class="js-dash-card" data-dash="waistHip" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+          <div style="font-size: 0.75rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Hofte-Talje Ratio (WHR)</div>
+          <div style="font-size: 1.5rem; font-weight: 900; color: #0f172a; margin: 0.2rem 0;"><span class="js-d-val">0.0</span> <small style="font-size: 0.85rem;" class="js-d-unit">ratio</small></div>
+          <span class="js-d-badge" style="font-size: 0.75rem; font-weight: 800; padding: 0.25rem 0.6rem; border-radius: 4px; background: #cbd5e1; color: #475569; display: inline-block;">Indtast hofte</span>
+        </div>
+
+        <!-- 3. Højde-Talje (WHtR) -->
+        <div class="js-dash-card" data-dash="waistHeight" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+          <div style="font-size: 0.75rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Højde-Talje Ratio (WHtR)</div>
+          <div style="font-size: 1.5rem; font-weight: 900; color: #0f172a; margin: 0.2rem 0;"><span class="js-d-val">0.0</span> <small style="font-size: 0.85rem;" class="js-d-unit">ratio</small></div>
+          <span class="js-d-badge" style="font-size: 0.75rem; font-weight: 800; padding: 0.25rem 0.6rem; border-radius: 4px; background: #cbd5e1; color: #475569; display: inline-block;">Indtast højde</span>
+        </div>
+
+        <!-- 4. Body Adiposity Index (BAI) -->
+        <div class="js-dash-card" data-dash="bai" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
+          <div style="font-size: 0.75rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Body Adiposity Index (BAI)</div>
+          <div style="font-size: 1.5rem; font-weight: 900; color: #0f172a; margin: 0.2rem 0;"><span class="js-d-val">0.0</span> <small style="font-size: 0.85rem;" class="js-d-unit">%</small></div>
+          <span class="js-d-badge" style="font-size: 0.75rem; font-weight: 800; padding: 0.25rem 0.6rem; border-radius: 4px; background: #cbd5e1; color: #475569; display: inline-block;">Indtast hofte & højde</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BUNDMENU: Download & Nulstil -->
+    <div id="waist-actions" class="mp-action-group" style="margin-top: 1.5rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

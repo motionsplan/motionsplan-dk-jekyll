@@ -57,6 +57,11 @@ I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ra
 
 {% include calculator/calculate-waist.html %}
 
+{% include calc/waist.html 
+   calc_id="waist-hip" 
+   title="📐 Talje-hofte-ratio" 
+%}
+
 ## Hvad er talje-hofte-ratio?
 
 Talje/hofte-ratioen er et mål, hvor du sætter taljeomkredsen i forhold til hofteomkredsen. Derved kan du få et bud på, hvordan kropsfaconen er, og hvordan fedtet fordeler sig rundt på kroppen.

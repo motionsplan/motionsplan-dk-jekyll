@@ -1,0 +1,125 @@
+{% assign calc_title = include.title | default: "🏋️‍♂️ 1RM Beregner" %}
+{% assign calc_category = include.category | default: "Styrkeberegner" %}
+{% assign calc_formula = include.default_formula | default: "brzycki" %}
+
+<div class="mp-calc-card" data-calculator="1rm">
+  
+  <!-- Header med badge rykket helt ud til højre -->
+  <div class="mp-calc-header">
+    <div class="mp-calc-header-main">
+      {% if calc_title != "" %}
+        <h3 class="mp-calc-title">{{ calc_title }}</h3>
+      {% endif %}
+      {% if include.description %}
+        <p class="mp-calc-description">{{ include.description }}</p>
+      {% endif %}
+    </div>
+
+    {% if include.show_badge != false and calc_category != "" %}
+      <div class="mp-calc-badge">
+        <span>📊</span> {{ calc_category | upcase }}
+      </div>
+    {% endif %}
+  </div>
+
+  <form class="mp-calc-form">
+    <div class="mp-form-grid">
+      
+      <!-- Formel valg -->
+      <div class="mp-form-group">
+        <label for="1rm-formula">⚙️ Formel</label>
+        <select name="formula" id="1rm-formula" class="mp-form-control">
+          <option value="brzycki" {% if calc_formula == "brzycki" %}selected{% endif %}>Brzycki (Mest udbredt)</option>
+          <option value="epley" {% if calc_formula == "epley" %}selected{% endif %}>Epley</option>
+          <option value="lander" {% if calc_formula == "lander" %}selected{% endif %}>Lander</option>
+          <option value="lombardi" {% if calc_formula == "lombardi" %}selected{% endif %}>Lombardi</option>
+          <option value="mayhew" {% if calc_formula == "mayhew" %}selected{% endif %}>Mayhew</option>
+          <option value="oconnor" {% if calc_formula == "oconnor" %}selected{% endif %}>O'Connor</option>
+          <option value="wathan" {% if calc_formula == "wathan" %}selected{% endif %}>Wathan</option>
+          <option value="wendler" {% if calc_formula == "wendler" %}selected{% endif %}>Wendler</option>
+          <option value="reynolds" {% if calc_formula == "reynolds" %}selected{% endif %}>Reynolds</option>
+        </select>
+      </div>
+
+      <!-- Kropsdel (Vises kun ved Reynolds) -->
+      <div class="mp-form-group mp-reynolds-field" style="{% if calc_formula != 'reynolds' %}display: none;{% endif %}">
+        <label for="1rm-bodypart">🦵 Kropsdel</label>
+        <select name="bodypart" id="1rm-bodypart" class="mp-form-control">
+          <option value="lower">Underkrop (fx Benpres/Squat)</option>
+          <option value="upper">Overkrop (fx Bænkpres)</option>
+        </select>
+      </div>
+
+      <!-- Reps -->
+      <div class="mp-form-group">
+        <label for="1rm-reps">🔄 Antal gentagelser (Reps)</label>
+        <input type="number" min="1" max="15" name="reps" id="1rm-reps" class="mp-form-control" inputmode="numeric" placeholder="fx 5" value="{{ include.reps }}" required>
+      </div>
+
+      <!-- Vægt -->
+      <div class="mp-form-group">
+        <label for="1rm-weight">🏋️ Vægt du løftede (kg)</label>
+        <input type="number" min="1" max="600" step="0.5" name="weight" id="1rm-weight" class="mp-form-control" inputmode="decimal" placeholder="fx 100" value="{{ include.weight }}" required>
+      </div>
+
+    </div>
+
+    <button type="submit" class="mp-btn-submit">⚡ Beregn 1RM</button>
+  </form>
+
+  <!-- Resultat Sektion -->
+  <div class="mp-results-container">
+    <div class="mp-hero-result">
+      <div class="mp-hero-label">🎯 Din estimerede 1RM (<span id="formula-1rm-table-caption">Brzycki</span>)</div>
+      <div class="mp-hero-value">
+        <span data-result="rm1">0</span>
+        <small>kg</small>
+      </div>
+    </div>
+
+    <div class="mp-table-wrapper">
+      <table class="mp-results-table">
+        <thead>
+          <tr>
+            <th>🔒 Rep Max</th>
+            <th>📊 Estimeret vægt</th>
+            <th>📈 Pct. af 1RM</th>
+            <th>⚖️ Gns. alle formler</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1 RM</strong></td>
+            <td><strong data-result="rm1" class="mp-text-primary">-</strong></td>
+            <td><span data-result="p1">100%</span></td>
+            <td><span data-result="rm1avg">-</span></td>
+          </tr>
+          <tr>
+            <td><strong>3 RM</strong></td>
+            <td><strong data-result="rm3">-</strong></td>
+            <td><span data-result="p3">-</span></td>
+            <td><span data-result="rm3avg">-</span></td>
+          </tr>
+          <tr>
+            <td><strong>5 RM</strong></td>
+            <td><strong data-result="rm5">-</strong></td>
+            <td><span data-result="p5">-</span></td>
+            <td><span data-result="rm5avg">-</span></td>
+          </tr>
+          <tr>
+            <td><strong>8 RM</strong></td>
+            <td><strong data-result="rm8">-</strong></td>
+            <td><span data-result="p8">-</span></td>
+            <td><span data-result="rm8avg">-</span></td>
+          </tr>
+          <tr>
+            <td><strong>10 RM</strong></td>
+            <td><strong data-result="rm10">-</strong></td>
+            <td><span data-result="p10">-</span></td>
+            <td><span data-result="rm10avg">-</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -98,7 +98,7 @@ url
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       
         {% assign signup = page.signup | default: site.signup.enabled %}
-        {% if signup %}{% include motionsplan/signup.html %}{% endif %}
+        {% if signup %}{% include_cached motionsplan/signup.html %}{% endif %}
       </section>
 
       <footer class="page__meta">
@@ -125,7 +125,7 @@ url
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
       <div class="grid__wrapper">
         {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
+          {% include_cached archive-single.html post=post type="grid" %}
         {% endfor %}
       </div>
     </div>
@@ -138,7 +138,7 @@ url
           {% if post.id == page.id %}
             {% continue %}
           {% endif %}
-          {% include archive-single.html type="grid" %}
+          {% include_cached archive-single.html post=post type="grid" %}
         {% endfor %}
       </div>
     </div>

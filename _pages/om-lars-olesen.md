@@ -47,7 +47,7 @@ Herunder finder du et udvalg af mine seneste indlæg om alt fra muskelanatomi ti
 {% assign site_posts = site.posts | where: "author", "lsolesen" | sort: "last_modified_at" | reverse %}
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 12 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 </div>

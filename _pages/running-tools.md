@@ -161,7 +161,7 @@ Brug dem til at måle dine fremskridt og få endnu mere ud af din løbetræning.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -185,7 +185,7 @@ Der er masser af forskellige måder at teste dig selv på, når du gerne vil bli
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

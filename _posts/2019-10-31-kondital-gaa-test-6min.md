@@ -58,6 +58,8 @@ I denne beregner for 6 minutters gangdistancetest kan du sammenligne dit resulta
 
 {% include calculator/calculate-fitness-walktest-6min.html %}
 
+{% include calc/walkingtest-6min.html %}
+
 ## Referenceværdier for 6 minutters-gangtesten (6mwt)
 
 Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen.

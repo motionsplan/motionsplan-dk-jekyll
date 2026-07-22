@@ -76,7 +76,7 @@ I 2023 har vi i alt haft 477.006 sidevisninger fra 248.335 brugere. Et lille fal
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html %}
+    {% include_cached archive-single.html post=post %}
   {% endfor %}
 {% endif %}
 

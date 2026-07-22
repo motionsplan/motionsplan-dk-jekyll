@@ -1,0 +1,93 @@
+{% assign calc_title = include.title | default: "🔥 Hvilestofskifte (BMR) Beregner" %}
+{% assign selected_gender = include.gender | default: "man" %}
+{% assign selected_formula = include.formula | default: "recommended_formula" %}
+
+<div class="mp-calc-card mp-compact" data-calculator="bmr">
+  
+  <!-- Header uten badge -->
+  {% if calc_title != "" %}
+    <div class="mp-calc-header">
+      <h3 class="mp-calc-title">{{ calc_title }}</h3>
+    </div>
+  {% endif %}
+
+  <form class="mp-calc-form">
+    
+    <!-- RÆKKE 1: Køn i 100% bredde -->
+    <div class="mp-form-group mp-full-width">
+      <label>👫 Vælg køn</label>
+      <div class="mp-toggle-group mp-toggle-full">
+        <input type="radio" name="gender" id="bmr-gender-man" value="man" {% if selected_gender == 'man' %}checked{% endif %}>
+        <label for="bmr-gender-man" class="mp-toggle-btn">👨 Mand</label>
+
+        <input type="radio" name="gender" id="bmr-gender-woman" value="woman" {% if selected_gender == 'woman' %}checked{% endif %}>
+        <label for="bmr-gender-woman" class="mp-toggle-btn">👩 Kvinde</label>
+      </div>
+    </div>
+
+    <!-- RÆKKE 2: Alder, Højde og Vægt i 3 kolonner -->
+    <div class="mp-form-grid mp-grid-3">
+      <div class="mp-form-group">
+        <label for="bmr-age">🎂 Alder (år)</label>
+        <input type="number" min="10" max="110" name="age" id="bmr-age" class="mp-form-control" inputmode="numeric" placeholder="40" value="{{ include.age }}" required>
+      </div>
+
+      <div class="mp-form-group">
+        <label for="bmr-height">📏 Højde (cm)</label>
+        <input type="number" min="50" max="250" name="height" id="bmr-height" class="mp-form-control" inputmode="numeric" placeholder="180" value="{{ include.height }}" required>
+      </div>
+
+      <div class="mp-form-group">
+        <label for="bmr-weight">⚖️ Vægt (kg)</label>
+        <input type="number" min="30" max="300" step="0.1" name="weight" id="bmr-weight" class="mp-form-control" inputmode="decimal" placeholder="70" value="{{ include.weight }}" required>
+      </div>
+    </div>
+
+    <!-- RÆKKE 3: Formel Vælger -->
+    <div class="mp-form-group mp-full-width">
+      <label for="bmr-formula">🧪 Formel til hvilestofskifte</label>
+      <select name="formula" id="bmr-formula" class="mp-form-control">
+        <option value="recommended_formula" {% if selected_formula == 'recommended_formula' %}selected{% endif %}>⭐ Anbefalet formel (automatisk ud fra BMI)</option>
+        <option value="nordic_nutrition_2012" {% if selected_formula == 'nordic_nutrition_2012' %}selected{% endif %}>Nordic Nutrition Recommendations (2012)</option>
+        <option value="mifflin" {% if selected_formula == 'mifflin' %}selected{% endif %}>Mifflin et al. (1990)</option>
+        <option value="henry" {% if selected_formula == 'henry' %}selected{% endif %}>Henry (2005)</option>
+        <option value="benedict_harris" {% if selected_formula == 'benedict_harris' %}selected{% endif %}>Benedict-Harris (1918-1919)</option>
+        <option value="schofield" {% if selected_formula == 'schofield' %}selected{% endif %}>Schofield (1985)</option>
+        <option value="gerrior_2006" {% if selected_formula == 'gerrior_2006' %}selected{% endif %}>Gerrior (2006)</option>
+        <option value="pavlidou_2023" {% if selected_formula == 'pavlidou_2023' %}selected{% endif %}>Pavlidou (2023)</option>
+      </select>
+    </div>
+
+    <button type="submit" class="mp-btn-submit">⚡ Beregn hvilestofskifte</button>
+  </form>
+
+  <!-- Resultat Sektion med symmetriske bokse -->
+  <div class="mp-results-container">
+    <div class="mp-results-summary">
+      
+      <!-- Venstre boks: kJ -->
+      <div class="mp-result-card mp-card-primary">
+        <div class="mp-result-label">🔥 HVILESTOFSKIFTE</div>
+        <div class="mp-result-value">
+          <span data-result="bmr-kj">0</span>
+          <small>kJ/dag</small>
+        </div>
+      </div>
+
+      <!-- Højre boks: kcal -->
+      <div class="mp-result-card">
+        <div class="mp-result-label">⚡ KALORIER</div>
+        <div class="mp-result-value">
+          <span data-result="bmr-kcal">0</span>
+          <small>kcal/dag</small>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Info om hvilken formel der blev brugt -->
+    <div class="mp-formula-info">
+      <span>Baseret på: <strong data-result="formula-used">Nordic Nutrition Recommendations (2012)</strong></span>
+    </div>
+  </div>
+</div>

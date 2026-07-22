@@ -92,7 +92,7 @@ Hvis du ikke helt kan overskue, hvor du skal starte, så kan du se de mest popul
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -119,7 +119,7 @@ Her kan du se alle de løbetests, som tester din kondition eller hastighed ved d
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

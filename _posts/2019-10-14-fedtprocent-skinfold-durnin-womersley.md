@@ -50,6 +50,11 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 {% include calculator/calculate-fatpercent-skinfold-durnin-womersley.html %}
 
+{% include calc/skinfold.html 
+   calc_id="skinfold-durnin-4" 
+   title="📐 Durnin & Womersley 4-punkt" 
+%}
+
 ## Usikkerheder i Durnin & Womersley
 
 [Davidson et al (2012)](https://pubmed.ncbi.nlm.nih.gov/26490540/) sammenlignede Durnin og Womersleys formler med DEXA-scanninger i forhold til forskellige etniske grupper. Studiet viste, at formlerne ikke kunne forudsige fedtprocenten målt med DEXA-scanner ens for alle racer.

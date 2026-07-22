@@ -56,7 +56,7 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -78,7 +78,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 <div class="feature__wrapper markdown="1">
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -94,7 +94,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -111,7 +111,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -128,7 +128,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -144,7 +144,7 @@ Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at ill
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -158,7 +158,7 @@ Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at ill
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -174,7 +174,7 @@ Jeg har skrevet en række artikler, hvor jeg har inkluderet beregnere for at ill
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

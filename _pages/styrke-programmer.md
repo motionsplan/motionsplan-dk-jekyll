@@ -125,7 +125,7 @@ Er du sikker på, at du er så erfaren, at du har brug for så kompliceret progr
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -139,7 +139,7 @@ Er du sikker på, at du er så erfaren, at du har brug for så kompliceret progr
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -153,7 +153,7 @@ Er du sikker på, at du er så erfaren, at du har brug for så kompliceret progr
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -190,7 +190,7 @@ Så lad være med at overtænke det. **Du kan altid justere dit programvalg sene
 
 {% if articles.size > 0 %}
   {% for post in articles %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

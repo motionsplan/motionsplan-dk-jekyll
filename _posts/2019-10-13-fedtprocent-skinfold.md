@@ -104,6 +104,46 @@ Hvis du gerne vil tracke din kropskomposition over tid, så giver det formentlig
 
 ***
 
+## Hvilken hudfoldsmåling skal du vælge?
+
+Resultatet af en fedttangsmåling afhænger direkte af den formel, du regner efter. Ingen formel er perfekt til alle, så for at få det mest præcise resultat bør du vælge den metode, der passer bedst til din kropsbygning og alder.
+
+> 🎯 **Kort overblik: Hvad passer til dig?**
+> * **Almindelig kropsbygning & motionist:** 👉 *Durnin & Womersley (4-punkt)*
+> * **Slank / Veltrænet / Lav fedtprocent:** 👉 *Jackson & Pollock (3-punkt)*
+> * **Nyeste videnskabelige præcision (4C-model):** 👉 *Peterson (4-punkt)*
+> * **Hurtig / Nem selv-måling:** 👉 *YMCA*
+> * **Børn og unge (2–18 år):** 👉 *Slaughter eller Lohman*
+
+---
+
+## Oversigt over formlerne
+
+| Målgruppe / Behov | Anbefalet formel | Målesteder | Særlige fordele |
+| :--- | :--- | :--- | :--- |
+| **Almindelig kropsbygning** | **Durnin & Womersley** | Biceps, Triceps, Skulderblad, Hofte | Anbefalet af Team Danmark. Lige velegnet til mænd og kvinder. |
+| **Atleter / Lav fedtprocent** | **Jackson & Pollock 3-pt** | Mænd: Bryst, Mave, Lår<br>Kvinder: Triceps, Hofte, Lår | Særligt præcis til slanke og trænede personer. |
+| **Moderne / Høj præcision** | **Peterson 4-punkt** | Triceps, Skulderblad, Mave, Lår | Baseret på nyere 4-komponent kropsanalyser. |
+| **Nem selv-måling** | **YMCA** | Mænd: Mave<br>Kvinder: Triceps | Ekstremt simpel og undgår svære målinger på f.eks. lår. |
+| **Børn & Unge (0–18 år)** | **Slaughter** | Triceps, Skulderblad | Valideret i studier med bl.a. danske skolebørn. |
+| **Børn & Unge (8–18 år)** | **Lohman** | Triceps, Læg | Nem adgang til målesteder på arme og ben. |
+
+---
+
+## Hvorfor er valget af formel vigtigt?
+
+Formlerne estimerer mængden af underhudsfedt baseret på bestemte populationsgrupper. Hvis du f.eks. bruger en formel udviklet til slanke atleter på en almindelig motionist, vil testen ofte underestimere fedtprocenten. 
+
+Omvendt kræver børns kroppe helt særlige formler (som Slaughter og Lohman), fordi børns knogletæthed og vandindhold ændrer sig konstant under opvæksten.
+
+*(Husk altid at bruge den samme pålidelige fedttang og helst få den samme person til at udføre målingerne hver gang for højeste præcision).*
+
+## Formelvælger
+
+{% include calc/skinfold-guide.html %}
+
+***
+
 ## Valg af formel til estimering af fedtprocenten
 
 Der er mange forskellige formler, som kan bruges til _skinfold_-målinger. Vi har valgt de mest brugte ud nedenfor og lavet beregnere og instruktioner til de enkelte metoder.

@@ -48,7 +48,7 @@ Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vo
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -62,7 +62,7 @@ Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vo
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -82,7 +82,7 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

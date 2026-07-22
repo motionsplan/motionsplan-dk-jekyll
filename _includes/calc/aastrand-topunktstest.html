@@ -1,0 +1,232 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<div class="mp-calc-card" data-calculator="aastrand-topunktstest" style="max-width: 700px; margin: 0 auto; position: relative;">
+
+  <!-- Header & Introduktion -->
+  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
+    <h3 class="mp-calc-title" style="margin-bottom: 0;">Åstrands topunktstest</h3>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+  
+  <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.75rem; color: #64748b; line-height: 1.4;">
+    Få vurderet dit kondital via en cykeltest med to submaksimale arbejdsbelastninger.
+  </p>
+
+  <!-- Skilnelinje -->
+  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
+
+  <!-- 1. Demografi & Maxpuls (Skarp, kompakt række) -->
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
+    
+    <!-- Alder -->
+    <div class="mp-form-group" style="flex: 0 0 85px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
+      <input type="number" name="as_age" class="mp-form-control js-as-input" min="10" max="100" placeholder="40" style="padding: 0.4rem; text-align: center;">
+    </div>
+    
+    <!-- Vægt -->
+    <div class="mp-form-group" style="flex: 0 0 85px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
+      <input type="number" name="as_weight" class="mp-form-control js-as-input" min="30" max="200" placeholder="80" style="padding: 0.4rem; text-align: center;">
+    </div>
+    
+    <!-- Køn -->
+    <div class="mp-form-group" style="flex: 1; min-width: 140px;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
+      <div class="mp-toggle-group" style="height: 38px;">
+        <label style="flex: 1; margin: 0; position: relative;">
+          <input type="radio" name="as_gender" value="male" class="js-as-input" checked>
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+        </label>
+        <label style="flex: 1; margin: 0; position: relative;">
+          <input type="radio" name="as_gender" value="female" class="js-as-input">
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+        </label>
+      </div>
+    </div>
+    
+    <!-- Maxpuls + Estimer-knap -->
+    <div class="mp-form-group" style="flex: 1.2; min-width: 160px; position: relative;">
+      <label style="font-size: 0.8rem; font-weight: 700;">Maxpuls <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(slag/min)</span></label>
+      <div style="display: flex; gap: 0.35rem; height: 38px;">
+        <input type="number" name="as_maxhr" class="mp-form-control js-as-input" min="130" max="220" placeholder="185" style="flex: 1; min-width: 0; padding: 0.4rem; text-align: center;">
+        <button type="button" class="js-as-estimate-btn mp-btn-submit" style="flex: 0 0 42px; width: 42px; padding: 0; font-size: 1.1rem; background: #f1f5f9; color: #475569; border: 1.5px solid #cbd5e1; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer;" title="Estimer maxpuls ud fra alder">
+          🪄
+        </button>
+      </div>
+      <div class="js-as-maxhr-helper" style="position: absolute; bottom: -18px; left: 0; font-size: 0.65rem; color: #16a34a; font-weight: 600; display: none; white-space: nowrap;">
+        ✓ Tanaka (2001)
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 2. Belastningsdata (Kompakte fieldsets uden ekstra inder-bokse) -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem; margin-bottom: 1.25rem;">
+    
+    <!-- Fieldset 1 -->
+    <fieldset style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.5rem 0.75rem 0.6rem; margin: 0; background: #f8fafc;">
+      <legend style="padding: 0 0.3rem; font-weight: 700; font-size: 0.8rem; color: #1e293b;">1. belastning</legend>
+      
+      <div style="display: flex; gap: 0.5rem; margin-bottom: 0.35rem;">
+        <div class="mp-form-group" style="flex: 1; margin: 0;">
+          <label style="font-size: 0.75rem; font-weight: 700;">Belastning <span style="font-weight: normal; color: #64748b;">(watt)</span></label>
+          <input type="number" name="as_work1" class="mp-form-control js-as-input" min="50" max="400" placeholder="F.eks. 100">
+        </div>
+        <div class="mp-form-group" style="flex: 1; margin: 0;">
+          <label style="font-size: 0.75rem; font-weight: 700;">Puls <span style="font-weight: normal; color: #64748b;">(slag/min)</span></label>
+          <input type="number" name="as_hr1" class="mp-form-control js-as-input" min="80" max="220" placeholder="F.eks. 130">
+        </div>
+      </div>
+      
+      <!-- Ren, diskret tekst uden ekstra boks -->
+      <div style="font-size: 0.68rem; color: #64748b; line-height: 1.2; padding-top: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        💡 Puls skal ramme <strong>steady state (~120-140)</strong> efter ca. 5-6 min.
+      </div>
+    </fieldset>
+
+    <!-- Fieldset 2 -->
+    <fieldset style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.5rem 0.75rem 0.6rem; margin: 0; background: #f8fafc;">
+      <legend style="padding: 0 0.3rem; font-weight: 700; font-size: 0.8rem; color: #1e293b;">2. belastning</legend>
+      
+      <div style="display: flex; gap: 0.5rem; margin-bottom: 0.35rem;">
+        <div class="mp-form-group" style="flex: 1; margin: 0;">
+          <label style="font-size: 0.75rem; font-weight: 700;">Belastning <span style="font-weight: normal; color: #64748b;">(watt)</span></label>
+          <input type="number" name="as_work2" class="mp-form-control js-as-input" min="50" max="400" placeholder="F.eks. 180">
+        </div>
+        <div class="mp-form-group" style="flex: 1; margin: 0;">
+          <label style="font-size: 0.75rem; font-weight: 700;">Puls <span style="font-weight: normal; color: #64748b;">(slag/min)</span></label>
+          <input type="number" name="as_hr2" class="mp-form-control js-as-input" min="80" max="220" placeholder="F.eks. 160">
+        </div>
+      </div>
+
+      <!-- Ren, diskret tekst uden ekstra boks -->
+      <div style="font-size: 0.68rem; color: #64748b; line-height: 1.2; padding-top: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        💡 Puls skal ramme <strong>steady state (~150-170)</strong> efter yderligere 4-5 min.
+      </div>
+    </fieldset>
+
+  </div>
+
+  <!-- 3. Resultater (Explicit position: relative tvinger absolute børne-elementer til at blive HER) -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    
+    <div class="mp-results-split">
+      
+      <!-- Venstre: Kondital & Slider -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 1.25rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; margin-bottom: 0.25rem; color: #1e40af; font-weight: 700;">
+            Estimeret Kondital
+          </div>
+          
+          <div class="js-as-fitness" style="font-size: 3.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.25rem 0;">-</div>
+          <div style="font-size: 0.95rem; font-weight: 800; color: #3b82f6;">ml/kg/min</div>
+          
+          <!-- Slider -->
+          <div class="mp-fitness-continuum" style="margin-top: 1.25rem;">
+            <div class="mp-continuum-bar-wrapper">
+              <div class="mp-continuum-bar">
+                <div class="mp-segment" style="background: #ef4444;"></div>
+                <div class="mp-segment" style="background: #f97316;"></div>
+                <div class="mp-segment" style="background: #eab308;"></div>
+                <div class="mp-segment" style="background: #22c55e;"></div>
+                <div class="mp-segment" style="background: #3b82f6;"></div>
+              </div>
+              <div class="js-as-continuum-marker mp-continuum-marker" style="display: none;"></div>
+            </div>
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 4px; text-transform: uppercase;">
+              <span>Lav</span>
+              <span>Høj</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Højre: 3 Sekundære bokse -->
+      <div class="mp-results-boxes">
+        
+        <!-- Vurdering Badge + Knap -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div class="js-as-eval-badge" style="font-size: 0.85rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
+              -
+            </div>
+          </div>
+          <div class="mp-box-right">
+            <button type="button" class="js-as-table-btn mp-btn-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: none; border: none; padding: 0; cursor: pointer; outline: none;">
+              <span style="font-size: 1.2rem; line-height: 1; margin-bottom: 2px;">📊</span>
+              <span style="font-size: 0.65rem; color: #64748b; font-weight: 700;">Se tabel</span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Iltoptagelse -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
+          <div class="mp-box-left">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Maksimal<br>iltoptagelse</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1;">
+            <div class="mp-box-value js-as-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
+          </div>
+        </div>
+
+        <!-- Belastning -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
+          <div class="mp-box-left">
+            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Maksimal<br>belastning</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1;">
+            <div class="mp-box-value js-as-maxwatt" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">watt</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Popup-tabel: Låst præcist til resultatsektionen via top/bottom/left/right 0 -->
+    <div class="js-as-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <button type="button" class="js-as-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="flex: 1; overflow-y: auto;">
+        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+          <tbody class="js-as-table-body">
+            <!-- Udfyldes af JS -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Graf -->
+  <details class="js-as-chart-details" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 1.5rem;" open>
+    <summary style="padding: 0.8rem 1rem; font-weight: 700; font-size: 0.95rem; cursor: pointer; color: #0f172a; outline: none; list-style-position: inside;">
+      📈 Koordinatsystem (Testens logik)
+    </summary>
+    <div style="padding: 1rem; border-top: 1px solid #e2e8f0;">
+      <div style="position: relative; height: 260px; width: 100%;">
+        <canvas class="js-as-chart"></canvas>
+      </div>
+    </div>
+  </details>
+
+  <!-- Bundmenu -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+  </div>
+  <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
+
+</div>

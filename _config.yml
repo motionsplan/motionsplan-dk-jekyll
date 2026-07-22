@@ -199,9 +199,9 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
   - .nojekyll
   - _redirects
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -372,7 +372,7 @@ collections:
 # Defaults
 defaults:
   - scope:
-      path: "assets/pdf/**/*.pdf"
+      path: "assets/pdf"
     values:
       sitemap: false
   - scope:

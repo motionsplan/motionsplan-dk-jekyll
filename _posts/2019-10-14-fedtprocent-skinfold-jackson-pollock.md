@@ -49,6 +49,11 @@ Jackson og Pollocks formel en blandt flere måder at [finde fedtprocenten med en
 
 I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kvinder. Jeg gennemgår dem særskilt nedenunder:
 
+{% include calc/skinfold.html 
+   calc_id="skinfold-jackson-pollock-3" 
+   title="📐 Jackson & Pollock 3-punkt" 
+%}
+
 ## Fedtprocent for mænd
 
 **Mænd** skal måle hudfolderne ved bryst, mave og lår. Du kan se mere i følgende video.

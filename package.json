@@ -1,5 +1,6 @@
 {
   "name": "motionsplan.dk",
+  "type": "module",
   "version": "1.0.0",
   "description": "Official site for motionpslan.dk.",
   "repository": {
@@ -48,7 +49,7 @@
     "wilks-calculator": "^1.2"
   },
   "scripts": {
-    "test": "bundle exec mocha src/test/*.*",
+    "test": "mocha src/test/*.*",
     "test:html": "bundle exec htmlproofer --only-4xx --assume-extension \".html\" --ignore-urls \"/bjsm.bmj.com/, /mademistakes.com/\" --ignore-status-codes \"400,403,409,429\" --allow-hash-href --ignore-empty-alt _site/",
     "start": "bundle exec jekyll server --port 4040 --incremental",
     "lsi": "bundle exec jekyll server --port 4040 --incremental --lsi",

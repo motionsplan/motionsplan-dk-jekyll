@@ -100,7 +100,7 @@ Ud fra min egen erfaring kan det betale sig at afprøve sit eget program, inden 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 12 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

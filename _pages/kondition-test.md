@@ -123,7 +123,7 @@ Nogle konditionstests er særligt populære, enten fordi de er lette at lave, kr
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -164,7 +164,7 @@ Her er nogle af de mest populære indirekte tests – find endnu flere i tabelle
 <div class="feature__wrapper">
 {% if site_posts.size > 0 %}
 {% for post in site_posts limit: 4 %}
-{% include archive-single.html type="grid" %}
+{% include_cached archive-single.html post=post type="grid" %}
 {% endfor %}
 {% endif %}
 
@@ -183,7 +183,7 @@ Her er nogle af de mest anvendte direkte tests – du kan finde flere i tabellen
 <div class="feature__wrapper">
 {% if site_posts.size > 0 %}
 {% for post in site_posts limit: 4 %}
-{% include archive-single.html type="grid" %}
+{% include_cached archive-single.html post=post type="grid" %}
 {% endfor %}
 {% endif %}
 
@@ -201,7 +201,7 @@ Til gengæld er den typisk ikke lige så præcis. Her kan du finde nogle af de m
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -221,7 +221,7 @@ Her er de mest populære, ellers få endnu mere inspiration i tabellen ovenfor.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -240,7 +240,7 @@ Vil du teste din kondition eller løbepræstation? Der findes flere velafprøved
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -261,7 +261,7 @@ Vil du vil måle din kondition eller præstation på cyklen? Der findes flere fo
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -280,7 +280,7 @@ Vil du vil måle din kondition eller præstation på cyklen? Der findes flere fo
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

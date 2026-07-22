@@ -57,6 +57,11 @@ I nedenstående beregner kan du udregne fedtprocenten baseret på dine målinger
 
 {% include calculator/calculate-fatpercent-skinfold-children-lohman.html %}
 
+{% include calc/skinfold.html 
+   calc_id="skinfold-lohman-2" 
+   title="📐 Lohman 2-punkt børn" 
+%}
+
 ## Lohman formlen
 
 Jeg bruger i beregneren formlen som præsenteres på [www.topendsports.com](https://www.topendsports.com/testing/bodyfat-equation-slaughter-lohman.htm).

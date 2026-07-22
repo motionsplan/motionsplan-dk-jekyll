@@ -123,7 +123,7 @@ Find den rette test, beregner eller værktøj til dine behov!
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -149,7 +149,7 @@ Vi har beskrevet [alle måder at måle fedtprocent på](/maal-fedtprocent/), men
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -171,7 +171,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -191,7 +191,7 @@ Det kan du gøre på flere forskellige måder, og du kan springe direkte til en 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -211,7 +211,7 @@ Hvis du godt kan lide at løbe, så kan det være en god ide en gang imellem at 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -231,7 +231,7 @@ Gangtests er ret populære - særligt for folk der ikke har lyst til at lave en 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -249,7 +249,7 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -270,7 +270,7 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -288,7 +288,7 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -313,7 +313,7 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -329,7 +329,7 @@ Her kan du finde [tests til eksplosivitet](/eksplosivitet/) og [springtests](/sp
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

@@ -87,7 +87,7 @@ På denne side får du en praktisk og evidensbaseret guide til, hvordan du samme
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -101,7 +101,7 @@ På denne side får du en praktisk og evidensbaseret guide til, hvordan du samme
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -119,7 +119,7 @@ Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevæ
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -137,7 +137,7 @@ Jeg har skrevet mere om [forskellige typer kalorieberegnere](/kalorieberegner/).
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

@@ -46,7 +46,7 @@ Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-t
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -60,7 +60,7 @@ Hvis du er på udkig efter [maveøvelser](/maveoevelser/), [armøvelser](/arme-t
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -78,7 +78,7 @@ Her kan du se de nyeste træningsøvelser.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -96,7 +96,7 @@ Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -114,7 +114,7 @@ Vi har samlet det bedste og mest effektive armøvelser til træning af biceps og
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -132,7 +132,7 @@ Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -150,7 +150,7 @@ Vi har samlet en masse effektive styrketræningsøvelser til brystet både med v
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -168,7 +168,7 @@ Dine baller bliver trænet i mange forskellige bevægelser. Vi har samlet alle d
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -186,7 +186,7 @@ Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -206,7 +206,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -224,7 +224,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -240,7 +240,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -256,7 +256,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -272,7 +272,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -288,7 +288,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -304,7 +304,7 @@ Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatorm
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -322,7 +322,7 @@ Tjek også disse forskellige træningsformer:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -356,7 +356,7 @@ Foamrolling med en foam roller har til formål at løsne spændte og ømme muskl
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -372,7 +372,7 @@ Vi har i alt samlet {{ site.exercises.size }} styrketræningsøvelser, som du ka
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

@@ -77,6 +77,8 @@ Indtast hvor mange kg du kan løfte og antallet af gentagelser og vælg en forme
 
 {% include calculator/calculate-1rm.html %}
 
+{% include calc/1rm.html %}
+
 Hvis du sætter antallet af reps til 1 i beregneren, så vil du lægge mærke til, at formlerne overestimerer. Sætter du din 1RM til fx 50 kg, så vil nogle af formlerne udregne din 1RM til så højt som 54,4 kg.
 {: .notice--info }
 

@@ -1,65 +1,78 @@
-// This is the "Offline copy of pages" service worker
+// Navn på cachen – skift versionsnummer (f.eks. v2), når du laver store ændringer på siden
+const CACHE_NAME = "meteoric-cache-v2";
+const OFFLINE_FALLBACK = "index.html";
 
-const CACHE = "pwabuilder-offline";
-
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "index.html";
-const offlineFallbackPage = "index.html";
-
-// Install stage sets up the index page (home page) in the cache and opens a new cache
-self.addEventListener("install", function (event) {
-  console.log("[Meteoric Teachings] Install Event processing");
-
+// 1. INSTALLATION: Læg fallback-siden i cachen
+self.addEventListener("install", (event) => {
+  console.log("[Service Worker] Installerer...");
   event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("[Meteoric Teachings] Cached offline page during install");
-
-      if (offlineFallbackPage === "ToDo-replace-this-name.html") {
-        return cache.add(new Response("TODO: Update the value of the offlineFallbackPage constant in the serviceworker."));
-      }
-      
-      return cache.add(offlineFallbackPage);
+    caches.open(CACHE_NAME).then((cache) => {
+      console.log("[Service Worker] Cacher offline-side");
+      return cache.add(OFFLINE_FALLBACK);
     })
   );
+  self.skipWaiting();
 });
 
-// If any fetch fails, it will look for the request in the cache and serve it from there first
-self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
+// 2. AKTIVERING: Slet gammel cache når koden opdateres
+self.addEventListener("activate", (event) => {
+  console.log("[Service Worker] Aktiverer...");
+  event.waitUntil(
+    caches.keys().then((keyList) => {
+      return Promise.all(
+        keyList.map((key) => {
+          if (key !== CACHE_NAME) {
+            console.log("[Service Worker] Fjerner gammel cache:", key);
+            return caches.delete(key);
+          }
+        })
+      );
+    })
+  );
+  self.clients.claim();
+});
+
+self.addEventListener("fetch", (event) => {
+  const { request } = event;
+
+  // Ignorer alt andet end GET, samt ikke-HTTP(S) forespørgsler
+  if (request.method !== "GET" || !request.url.startsWith("http")) {
+    return;
+  }
 
   event.respondWith(
-    fetch(event.request)
-      .then(function (response) {
-        console.log("[Meteoric Teachings] add page to offline cache: " + response.url);
-
-        // If request was success, add or update it in the cache
-        event.waitUntil(updateCache(event.request, response.clone()));
-
+    fetch(request)
+      .then(async (response) => {
+        // Gem i cachen hvis svaret er HTTP 200 OK
+        if (response.status === 200 && response.type === "basic") {
+          const cache = await caches.open(CACHE_NAME);
+          cache.put(request, response.clone());
+        }
         return response;
       })
-      .catch(function (error) {        
-        console.log("[Meteoric Teachings] Network request Failed. Serving content from cache: " + error);
-        return fromCache(event.request);
+      .catch(async () => {
+        console.log("[Service Worker] Netværksfejl for:", request.url);
+
+        // 1. Prøv at hente den forespurgte fil fra cachen
+        const cachedResponse = await caches.match(request);
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+
+        // 2. Hvis det er en sidevisning (navigation), vis offline-fallback siden
+        if (request.mode === "navigate") {
+          const offlinePage = await caches.match(OFFLINE_FALLBACK);
+          if (offlinePage) {
+            return offlinePage;
+          }
+        }
+
+        // 3. SIKKERHEDSNET: Hvis alt andet fejler, returner et gyldigt Response-objekt!
+        return new Response("Indholdet er ikke tilgængeligt offline.", {
+          status: 503,
+          statusText: "Service Unavailable",
+          headers: new Headers({ "Content-Type": "text/plain; charset=utf-8" })
+        });
       })
   );
 });
-
-function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, then return error page
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching || matching.status === 404) {
-        return Promise.reject("no-match");
-      }
-
-      return matching;
-    });
-  });
-}
-
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
-}

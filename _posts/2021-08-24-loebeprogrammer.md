@@ -97,7 +97,7 @@ På listen herunder kan du finde et godt begynder løbeprogram.
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
@@ -115,7 +115,7 @@ På den her side kan du finde træningsprogrammer, vi har lavet til nybegyndere 
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
@@ -127,7 +127,7 @@ På den her side kan du finde træningsprogrammer, vi har lavet til nybegyndere 
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
@@ -139,7 +139,7 @@ På den her side kan du finde træningsprogrammer, vi har lavet til nybegyndere 
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
@@ -151,7 +151,7 @@ På den her side kan du finde træningsprogrammer, vi har lavet til nybegyndere 
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
@@ -171,7 +171,7 @@ Her kan du se alle løbeprogrammerne, som vi har skrevet om på denne side.
 {% if site_posts.size > 0 %}
 <div class="feature__wrapper">
   {% for post in site_posts limit:16 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
@@ -194,7 +194,7 @@ Husk at læse den vejledende og forklarende tekst grundigt i gennem, inden du st
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

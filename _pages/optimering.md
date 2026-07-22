@@ -66,7 +66,7 @@ Lad dig inspirere af vores anbefalede indlæg om restitution her:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -84,7 +84,7 @@ Det er altid en god ide at have en eller anden form for træningsprogram, når d
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 8 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -114,7 +114,7 @@ Skadesforebyggende træning kan nemlig mindske risikoen for skader, så vi dykke
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 4 %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -134,7 +134,7 @@ Du kan fx dykke ned i vores [omfattende anatomiguide](/anatomi/), [guide til bev
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include_cached archive-single.html post=post type="grid" %}
   {% endfor %}
 {% endif %}
 

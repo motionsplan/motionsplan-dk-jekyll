@@ -97,6 +97,8 @@ Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på
 
 {% include calculator/calculate-fitness-cooper.html %}
 
+{% include calc/cooper-test.html %}
+
 Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering af konditallet i denne [tabel over kondital](/kondital/).
 
 ## Baggrund for kondital og Cooper-test

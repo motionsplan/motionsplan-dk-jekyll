@@ -1,0 +1,116 @@
+{% assign calc_title = include.title | default: "📏 Hudfoldstest" %}
+{% assign data_id = include.calc_id | default: "generic" %}
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="skinfold-ui">
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.5rem;">
+    <h3 class="mp-calc-title" style="margin: 0;">{{ calc_title }}</h3>
+
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <div class="mp-skinfold-container">
+    
+    <!-- Kønsvælger -->
+    <div class="mp-form-group mp-full-width" style="margin-bottom: 1.25rem;">
+      <label class="vbt-premium-label">👫 Køn</label>
+      <div class="mp-toggle-group mp-toggle-full mp-toggle-tall">
+        <input type="radio" id="sf-male-{{ data_id }}" name="sf-gender-{{ data_id }}" value="male" class="js-gender-radio" checked>
+        <label for="sf-male-{{ data_id }}" class="mp-toggle-btn-tall">
+          <span class="mp-toggle-icon">👨</span>
+          <span class="mp-toggle-text">Mand</span>
+        </label>
+        
+        <input type="radio" id="sf-female-{{ data_id }}" name="sf-gender-{{ data_id }}" value="female" class="js-gender-radio">
+        <label for="sf-female-{{ data_id }}" class="mp-toggle-btn-tall">
+          <span class="mp-toggle-icon">👩</span>
+          <span class="mp-toggle-text">Kvinde</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Demografi -->
+    <div class="mp-form-grid mp-grid-3 js-demographics-grid" style="margin-bottom: 1.5rem;">
+      <div class="mp-form-group js-demo-group-age">
+        <label for="sf-age-{{ data_id }}" class="vbt-premium-label">🎂 Alder (år)</label>
+        <input type="number" id="sf-age-{{ data_id }}" class="vbt-input-mega js-demo-input" data-demo="age" placeholder="f.eks. 30" min="5" max="100">
+      </div>
+      <div class="mp-form-group js-demo-group-weight">
+        <label for="sf-weight-{{ data_id }}" class="vbt-premium-label">⚖️ Vægt (kg)</label>
+        <input type="number" step="0.1" id="sf-weight-{{ data_id }}" class="vbt-input-mega js-demo-input" data-demo="weight" placeholder="f.eks. 80">
+      </div>
+      <div class="mp-form-group js-demo-group-height">
+        <label for="sf-height-{{ data_id }}" class="vbt-premium-label">📏 Højde (cm)</label>
+        <input type="number" id="sf-height-{{ data_id }}" class="vbt-input-mega js-demo-input" data-demo="height" placeholder="f.eks. 180">
+      </div>
+    </div>
+    <!-- Alders-advarsel (Skjult som standard) -->
+    <div class="js-age-warning" style="display: none; margin-bottom: 1.5rem; padding: 0.75rem 1rem; background-color: #fffbeb; border: 1px solid #fde68a; border-radius: 8px; color: #92400e; font-size: 0.875rem; line-height: 1.4;">
+      <strong>⚠️ Bemærk:</strong> <span class="js-age-warning-text"></span>
+    </div>
+
+    <!-- Målepunkter Container -->
+    <div class="mp-skinfold-section-header">
+      <span class="vbt-premium-label">🎯 Indtast hudfoldsmålinger (mm)</span>
+    </div>
+    
+    <!-- Den hvide samleboks er tilbage! -->
+    <div class="mp-skinfold-unified-box">
+      <div class="mp-skinfold-cards-grid js-dynamic-cards">
+        <!-- JS bygger kortene her -->
+      </div>
+    </div>
+
+
+    <!-- Resultatkort -->
+    <div class="mp-results-container js-results" style="margin-top: 1.5rem;">
+      <div class="mp-results-split">
+        <div class="mp-results-left">
+          <div class="mp-hero-result mp-hero-fullheight">
+            <div class="mp-hero-label">ESTIMERET FEDTPROCENT</div>
+            <div class="mp-hero-value"><span data-result="fat-pct">0.0</span><small> %</small></div>
+            <!-- NY: Standardafvigelse / SEE -->
+            <div class="js-sd-text" style="font-size: 0.72rem; font-weight: 600; color: #64748b; margin-top: 0.25rem;">
+            -
+            </div>
+          </div>
+        </div>
+        <div class="mp-results-right mp-results-boxes">
+          <div class="mp-result-box">
+            <span class="mp-result-box-label">Samlet Hudfold</span>
+            <span class="mp-result-box-value"><span data-result="sum-skinfold">0</span> <small>mm</small></span>
+          </div>
+          <div class="mp-result-box js-box-leanmass">
+            <span class="mp-result-box-label">Fedtfri Masse</span>
+            <span class="mp-result-box-value"><span data-result="lean-mass">0.0</span> <small>kg</small></span>
+          </div>
+          <div class="mp-result-box mp-result-box-primary js-box-fatmass">
+            <span class="mp-result-box-label">Samlet Fedtmasse</span>
+            <span class="mp-result-box-value"><span data-result="fat-mass">0.0</span> <small>kg</small></span>
+          </div>
+        </div>
+      </div>
+      <div class="mp-skinfold-disclaimer">
+        <strong>Bemærk:</strong> Dette er en estimeret fedtprocent baseret på hudfoldsmålinger. Resultatet er vejledende.
+      </div>
+    </div>
+
+    <!-- BUNDMENU: Download & Nulstil -->
+<!-- Actions (Skjules stensikkert på billedet nu) -->
+    <div id="sf-actions" class="mp-action-group" style="margin-top: 1.5rem;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">
+        <span class="mp-icon">📸</span> Tag et billede
+      </button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd alle indtastninger">
+        🗑️
+      </button>
+    </div>
+
+    <div style="text-align: center; margin-top: 1.5rem; font-size: 0.75rem; color: #94a3b8; font-weight: 600; letter-spacing: 0.5px;">
+        &copy; motionsplan.dk
+      </div>
+
+  </div>
+</div>
