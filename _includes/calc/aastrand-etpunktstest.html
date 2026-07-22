@@ -1,0 +1,316 @@
+{% assign calc_title = include.title | default: "Åstrands etpunktstest" %}
+{% assign data_id = include.calc_id | default: "aastrand-etpunktstest-all" %}
+
+<style>
+  .mp-astrand-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  /* Segmented Gender Toggle */
+  .mp-astrand-gender-toggle {
+    display: flex;
+    background: #f1f5f9;
+    padding: 3px;
+    border-radius: 8px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+  }
+
+  .mp-astrand-gender-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #475569;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    padding: 0 12px;
+  }
+
+  .mp-astrand-gender-btn.active {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  /* Resultat Grid & Cards */
+  .mp-astrand-results-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 0.85rem;
+    align-items: stretch;
+  }
+
+  @media (max-width: 640px) {
+    .mp-astrand-results-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Left Hero Card */
+  .mp-astrand-hero-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+
+  .mp-astrand-hero-title {
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-astrand-hero-val {
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+  }
+
+  .mp-astrand-hero-unit {
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #2563eb;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Farveskala under kondital */
+  .mp-astrand-scale-wrapper {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .mp-astrand-scale-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    background: linear-gradient(to right, #ef4444 0%, #f97316 25%, #eab308 50%, #22c55e 75%, #3b82f6 100%);
+    position: relative;
+  }
+
+  .mp-astrand-scale-pin {
+    position: absolute;
+    top: -4px;
+    left: 0%;
+    width: 8px;
+    height: 16px;
+    background: #0f172a;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    transition: left 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+
+  .mp-astrand-scale-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #64748b;
+    margin-top: 6px;
+  }
+
+  /* Right Stack Cards */
+  .mp-astrand-right-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .mp-astrand-side-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    min-height: 58px;
+    box-sizing: border-box;
+  }
+
+  .mp-astrand-badge {
+    background: #22c55e;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .mp-astrand-side-label {
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #334155;
+    line-height: 1.25;
+    max-width: 120px;
+  }
+
+  .mp-astrand-side-val-wrap {
+    text-align: right;
+  }
+
+  .mp-astrand-side-num {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+  }
+
+  .mp-astrand-side-unit {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 2px;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="aastrand-etpunktstest-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Få vurderet dit kondital via en cykeltest med en submaksimal arbejdsbelastning.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div class="mp-astrand-container" style="width: 100%;">
+    
+    <!-- TOP BARS: STAMDATA -->
+    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: flex-end; margin-bottom: 1.25rem;">
+      
+      <!-- Alder -->
+      <div style="flex: 1; min-width: 85px;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Alder <span style="font-weight: 500; color: #64748b;">(år)</span></label>
+        <input type="number" min="15" max="90" class="vbt-input-mega mp-astrand-input-field js-astrand-input" data-input="age" placeholder="40">
+      </div>
+
+      <!-- Vægt -->
+      <div style="flex: 1; min-width: 85px;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Vægt <span style="font-weight: 500; color: #64748b;">(kg)</span></label>
+        <input type="number" step="0.1" min="30" max="250" class="vbt-input-mega mp-astrand-input-field js-astrand-input" data-input="weight" placeholder="75">
+      </div>
+
+      <!-- Køn -->
+      <div style="flex: 1.4; min-width: 150px;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Køn</label>
+        <div class="mp-astrand-gender-toggle">
+          <button type="button" class="mp-astrand-gender-btn active js-astrand-gender" data-gender="male">Mand</button>
+          <button type="button" class="mp-astrand-gender-btn js-astrand-gender" data-gender="female">Kvinde</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TESTBOKS (ARBEJDSBELASTNING & PULS) -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.1rem 1.25rem; margin-bottom: 1.5rem;">
+      <h4 style="margin: 0 0 0.85rem 0; font-size: 0.875rem; font-weight: 800; color: #0f172a;">Arbejdsbelastning & Puls</h4>
+
+      <div style="display: flex; gap: 0.85rem; align-items: flex-end; flex-wrap: wrap; margin-bottom: 0.75rem;">
+        
+        <div style="flex: 1; min-width: 130px;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Belastning <span style="font-weight: 500; color: #64748b;">(watt)</span></label>
+          <input type="number" step="5" min="25" max="400" class="vbt-input-mega mp-astrand-input-field js-astrand-input" data-input="watt" placeholder="100">
+        </div>
+
+        <div style="flex: 1; min-width: 130px;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Puls <span style="font-weight: 500; color: #64748b;">(slag/min)</span></label>
+          <input type="number" min="80" max="220" class="vbt-input-mega mp-astrand-input-field js-astrand-input" data-input="hr" placeholder="130">
+        </div>
+
+      </div>
+
+      <div style="font-size: 0.75rem; color: #64748b; font-weight: 500; display: flex; align-items: center; gap: 5px;">
+        <span>💡</span>
+        <span>Puls skal ramme steady state (~120–170 bpm) efter ca. 5–6 min. <span class="js-astrand-watt-guide" style="font-weight: 700; color: #475569;"></span></span>
+      </div>
+    </div>
+
+    <!-- RESULTATOMRÅDE -->
+    <div class="mp-astrand-results-grid" style="margin-bottom: 1.25rem;">
+      
+      <!-- HERO CARD: ESTIMERET KONDITAL -->
+      <div class="mp-astrand-hero-card">
+        <div class="mp-astrand-hero-title">ESTIMERET KONDITAL</div>
+        <div class="js-astrand-res-fitness mp-astrand-hero-val">-</div>
+        <div class="mp-astrand-hero-unit">ml/kg/min</div>
+
+        <!-- Indikator skala -->
+        <div class="mp-astrand-scale-wrapper">
+          <div class="mp-astrand-scale-bar">
+            <div class="js-astrand-scale-pin mp-astrand-scale-pin"></div>
+          </div>
+          <div class="mp-astrand-scale-labels">
+            <span>LAV</span>
+            <span>HØJ</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STACKED CARDS RIGHT -->
+      <div class="mp-astrand-right-stack">
+        
+        <!-- Card 1: Kategori Badge -->
+        <div class="mp-astrand-side-card">
+          <div class="js-astrand-res-badge mp-astrand-badge" style="background: #94a3b8;">-</div>
+          <div style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 4px;">
+            <span>📊 Vurdering</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Maksimal Iltoptagelse -->
+        <div class="mp-astrand-side-card">
+          <div class="mp-astrand-side-label">Maksimal iltoptagelse</div>
+          <div class="mp-astrand-side-val-wrap">
+            <div class="js-astrand-res-vo2 mp-astrand-side-num">-</div>
+            <div class="mp-astrand-side-unit">L/min</div>
+          </div>
+        </div>
+
+        <!-- Card 3: Aldersfaktor -->
+        <div class="mp-astrand-side-card">
+          <div class="mp-astrand-side-label">Aldersfaktor</div>
+          <div class="mp-astrand-side-val-wrap">
+            <div class="js-astrand-res-agefactor mp-astrand-side-num">-</div>
+            <div class="mp-astrand-side-unit">korrektion</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="astrand-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

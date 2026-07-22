@@ -32,13 +32,29 @@ export function getMETBasedOnKmAndKmt(km, kmt) {
   }
 }
 
-export function formatPace(timeInSeconds, distanceMeters) {
+// Jack Daniels VDOT formel ud fra meter og sekunder
+export function calculateVDOT(distanceMeters, totalSeconds) {
+  if (distanceMeters <= 0 || totalSeconds <= 0) return 0;
+  const tMin = totalSeconds / 60;
+  const velocity = distanceMeters / tMin; // m/min
+  const percentVo2 = 0.8 + 0.1894393 * Math.exp(-0.012778 * tMin) + 0.2989558 * Math.exp(-0.1932605 * tMin);
+  const vo2 = -4.60 + 0.182258 * velocity + 0.000104 * Math.pow(velocity, 2);
+  const vdot = vo2 / percentVo2;
+  return (vdot > 0 && !isNaN(vdot)) ? vdot : 0;
+}
+
+export function formatPaceNum(timeInSeconds, distanceMeters) {
   if (timeInSeconds <= 0 || distanceMeters <= 0) return '-';
   const km = distanceMeters / 1000;
   const paceSecondsPerKm = timeInSeconds / km;
   const mins = Math.floor(paceSecondsPerKm / 60);
   const secs = Math.round(paceSecondsPerKm % 60);
-  return `${mins}:${secs < 10 ? '0' : ''}${secs} /km`;
+  return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+}
+
+export function formatPace(timeInSeconds, distanceMeters) {
+  const p = formatPaceNum(timeInSeconds, distanceMeters);
+  return p === '-' ? '-' : `${p} /km`;
 }
 
 export function calculateRunningDistanceVO2(distanceInput, hoursInput, minutesInput, secondsInput, bodyweightInput = 0) {
@@ -56,8 +72,13 @@ export function calculateRunningDistanceVO2(distanceInput, hoursInput, minutesIn
 
   const km = distanceMeters / 1000;
   const kmt = getKilometersPrHour(totalSeconds, distanceMeters);
+  
+  // 1. Tokmakidis fysiologiske VO2max
   const met = getMETBasedOnKmAndKmt(km, kmt);
-  const fitnessLevel = 3.5 * met; // 1 MET = 3.5 ml O2/kg/min
+  const fitnessLevel = 3.5 * met; 
+  
+  // 2. Jack Daniels VDOT
+  const vdot = calculateVDOT(distanceMeters, totalSeconds);
 
   if (fitnessLevel <= 0 || isNaN(fitnessLevel)) {
     return { isValid: false };
@@ -70,10 +91,14 @@ export function calculateRunningDistanceVO2(distanceInput, hoursInput, minutesIn
     distanceMeters: distanceMeters,
     totalSeconds: totalSeconds,
     kmt: kmt,
+    formattedKmtNum: kmt.toFixed(1),
     formattedKmt: kmt.toFixed(1) + ' km/t',
+    paceNum: formatPaceNum(totalSeconds, distanceMeters),
     pace: formatPace(totalSeconds, distanceMeters),
     fitnessLevel: fitnessLevel,
     formattedFitnessLevel: fitnessLevel.toFixed(1),
+    vdot: vdot,
+    formattedVDOT: vdot > 0 ? vdot.toFixed(1) : '-',
     maxOxygenUptake: vo2max,
     formattedVO2Max: vo2max ? vo2max.toFixed(2) : '-',
     sd: 3.0,

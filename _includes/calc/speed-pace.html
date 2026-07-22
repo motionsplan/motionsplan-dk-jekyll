@@ -1,0 +1,321 @@
+{% assign calc_title = include.title | default: "Super-Hastigheds & Paceberegner" %}
+{% assign data_id = include.calc_id | default: "speed-pace-all" %}
+
+<style>
+  .mp-sp-sync-height {
+    height: 48px !important;
+    box-sizing: border-box !important;
+    margin-bottom: 0 !important;
+  }
+
+  .mp-sp-time-group {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mp-sp-field-center {
+    text-align: center;
+    font-weight: 800;
+  }
+
+  /* 1. TOP LABELS MED ENSARTET ALIGNMENT */
+  .mp-sp-top-label {
+    font-size: 0.825rem;
+    font-weight: 700;
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.35rem;
+    min-height: 24px;
+  }
+
+  /* 2. RESULTATKORT MED CLEAN HEADER-STRIBE */
+  .mp-sp-res-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 95px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+
+  .mp-sp-res-header {
+    background: #f1f5f9;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 8px;
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mp-sp-res-body {
+    padding: 0.85rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .mp-sp-res-num {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #1d4ed8;
+    line-height: 1;
+  }
+
+  .mp-sp-res-unit {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #64748b;
+    margin-top: 5px;
+  }
+
+  /* 3. HOVEDFANER MED IKONER */
+  .mp-sp-mode-selector {
+    display: flex;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+    gap: 4px;
+  }
+
+  .mp-sp-mode-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #64748b;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .mp-sp-mode-btn.active {
+    background: #ffffff;
+    color: #1d4ed8;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+
+  /* 4. SUB-TOGGLE TIL FART / PACE */
+  .mp-sp-subtab-container {
+    display: inline-flex;
+    background: #f1f5f9;
+    padding: 2px;
+    border-radius: 8px;
+  }
+
+  .mp-sp-subtab {
+    border: none;
+    background: transparent;
+    padding: 3px 8px;
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .mp-sp-subtab.active {
+    background: #ffffff;
+    color: #1d4ed8;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  /* 5. LYN-OMREGNER DESIGN & ALIGNMENT */
+  .mp-sp-conv-label {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    display: block;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+
+  .mp-sp-conv-eq {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #64748b;
+    background: #e2e8f0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Løfter lighedstegnet op ud for midten af 44px inputfeltet */
+    flex-shrink: 0;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="speed-pace-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <h3 class="mp-calc-title" style="margin: 0;">{{ calc_title }}</h3>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-sp-container" style="width: 100%;">
+    
+    <!-- MODE VÆLGER MED IKONER -->
+    <div class="mp-sp-mode-selector">
+      <button type="button" class="mp-sp-mode-btn active js-sp-mode" data-mode="speed">
+        <span>🏁</span><span>Fart / Pace</span>
+      </button>
+      <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="time">
+        <span>⏱️</span><span>Tid</span>
+      </button>
+      <button type="button" class="mp-sp-mode-btn js-sp-mode" data-mode="distance">
+        <span>📍</span><span>Distance</span>
+      </button>
+    </div>
+
+    <!-- SEKTION 1: DYNAMISK TREPARTSBEREGNER -->
+    <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.25rem; margin-bottom: 1.5rem;">
+      
+      <div style="display: flex; gap: 0.85rem; margin-bottom: 1.25rem; align-items: flex-end; flex-wrap: wrap;">
+        
+        <!-- Field: Distance -->
+        <div class="js-sp-group-distance" style="flex: 0.8; min-width: 110px;">
+          <label class="mp-sp-top-label">Distance (km)</label>
+          <input type="number" step="0.01" min="0" class="vbt-input-mega js-sp-input mp-sp-sync-height" data-input="distance" placeholder="f.eks. 10" style="padding: 0 8px !important;">
+        </div>
+
+        <!-- Field: Tid -->
+        <div class="js-sp-group-time" style="flex: 1.2; min-width: 160px;">
+          <label class="mp-sp-top-label">Tid (tt : mm : ss)</label>
+          <div class="mp-sp-time-group mp-sp-sync-height">
+            <input type="number" min="0" max="23" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="hours" placeholder="00" style="padding: 0 4px !important;">
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="minutes" placeholder="45" style="padding: 0 4px !important;">
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="seconds" placeholder="00" style="padding: 0 4px !important;">
+          </div>
+        </div>
+
+        <!-- Field: Fart / Pace -->
+        <div class="js-sp-group-pace" style="display: none; flex: 1.2; min-width: 160px;">
+          <div class="mp-sp-top-label">
+            <span>Hastighed</span>
+            <div class="mp-sp-subtab-container">
+              <button type="button" class="mp-sp-subtab active js-sp-speedtype" data-type="kmh">km/t</button>
+              <button type="button" class="mp-sp-subtab js-sp-speedtype" data-type="pace">min/km</button>
+            </div>
+          </div>
+
+          <!-- km/t input -->
+          <div class="js-sp-input-kmh-wrap">
+            <input type="number" step="0.1" min="0" class="vbt-input-mega js-sp-input mp-sp-sync-height" data-input="targetSpeed" placeholder="f.eks. 12.0" style="width: 100%; text-align: center; font-weight: 800; padding: 0 8px !important;">
+          </div>
+
+          <!-- Pace input -->
+          <div class="js-sp-input-pace-wrap" style="display: none;">
+            <div class="mp-sp-time-group mp-sp-sync-height">
+              <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="paceMin" placeholder="min" style="padding: 0 4px !important;">
+              <span style="font-weight: 900; color: #94a3b8;">:</span>
+              <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-input" data-input="paceSec" placeholder="sek" style="padding: 0 4px !important;">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RESULTATKORT -->
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        
+        <div class="mp-sp-res-card">
+          <div class="js-sp-res-primary-label mp-sp-res-header">HASTIGHED</div>
+          <div class="mp-sp-res-body">
+            <span class="js-sp-res-primary-val mp-sp-res-num">-</span>
+            <span class="js-sp-res-primary-unit mp-sp-res-unit"></span>
+          </div>
+        </div>
+
+        <div class="mp-sp-res-card">
+          <div class="js-sp-res-secondary-label mp-sp-res-header">PACE</div>
+          <div class="mp-sp-res-body">
+            <span class="js-sp-res-secondary-val mp-sp-res-num">-</span>
+            <span class="js-sp-res-secondary-unit mp-sp-res-unit"></span>
+          </div>
+        </div>
+
+        <div class="mp-sp-res-card">
+          <div class="js-sp-res-tertiary-label mp-sp-res-header">M/S</div>
+          <div class="mp-sp-res-body">
+            <span class="js-sp-res-tertiary-val mp-sp-res-num">-</span>
+            <span class="js-sp-res-tertiary-unit mp-sp-res-unit"></span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- SEKTION 2: LYN-OMREGNER MED IKON OG ELEGANTE LIGHEDSTEGN-BADGES -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.1rem 1.25rem; margin-bottom: 1.25rem;">
+      <h4 style="margin: 0 0 0.85rem 0; font-size: 0.85rem; font-weight: 800; color: #0f172a; text-transform: uppercase; letter-spacing: 0.03em; display: flex; align-items: center; gap: 6px;">
+        <span>⚡ Lyn-omregner</span>
+        <span style="font-size: 0.75rem; font-weight: 600; color: #64748b; text-transform: none;">(Tast km/t, min/km eller m/s)</span>
+      </h4>
+
+      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+        
+        <!-- Input km/t -->
+        <div style="flex: 1; min-width: 95px;">
+          <label class="mp-sp-conv-label">KM / T</label>
+          <input type="number" step="0.1" min="0" class="vbt-input-mega js-sp-conv-kmh" placeholder="12.0" style="font-weight: 800; text-align: center; height: 44px; padding: 0 6px !important;">
+        </div>
+
+        <div class="mp-sp-conv-eq">=</div>
+
+        <!-- Input Pace -->
+        <div style="flex: 1.3; min-width: 120px;">
+          <label class="mp-sp-conv-label">PACE (MIN / KM)</label>
+          <div class="mp-sp-time-group" style="height: 44px;">
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacemin" placeholder="05" style="padding: 0 4px !important;">
+            <span style="font-weight: 900; color: #94a3b8;">:</span>
+            <input type="number" min="0" max="59" class="vbt-input-mega mp-sp-field-center js-sp-conv-pacesec" placeholder="00" style="padding: 0 4px !important;">
+          </div>
+        </div>
+
+        <div class="mp-sp-conv-eq">=</div>
+
+        <!-- Input m/s -->
+        <div style="flex: 1; min-width: 95px;">
+          <label class="mp-sp-conv-label">M / S</label>
+          <input type="number" step="0.01" min="0" class="vbt-input-mega js-sp-conv-ms" placeholder="3.33" style="font-weight: 800; text-align: center; height: 44px; color: #059669; padding: 0 6px !important;">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="sp-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

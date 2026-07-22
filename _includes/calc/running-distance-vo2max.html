@@ -11,16 +11,13 @@
   </div>
   
   <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
-    Estimer dit kondital (VO₂max) ud fra en vilkårlig løbetest eller distanceløb (baseret på Léger/Tokmakidis, 1987).
+    Estimer dit fysiologiske kondital (Tokmakidis, 1987) samt dit effektive trænings-VDOT (Daniels) ud fra en valgfri løbetest.
   </p>
 
   <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
 
   <!-- TRIN 1: DEMOGRAFI -->
   <div style="margin-bottom: 1.25rem;">
-    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.4rem;">
-      1. Demografi
-    </div>
     <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: flex-start;">
       
       <!-- Alder -->
@@ -53,35 +50,29 @@
     </div>
   </div>
 
-  <!-- TRIN 2: DISTANCE & TID PÅ SAMME LINJE -->
+  <!-- TRIN 2: DISTANCE & TID -->
   <div style="margin-bottom: 1.25rem;">
-    <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; margin-bottom: 0.4rem;">
-      2. Distance & Tid
+
+    <!-- Distance-hjælpere i fuld bredde -->
+    <div style="display: flex; gap: 0.35rem; margin-bottom: 0.6rem; width: 100%;">
+      <button type="button" class="js-rdv-preset mp-btn-text" data-km="1.5" style="flex: 1; font-size: 0.75rem; padding: 6px 2px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 700; color: #334155; text-align: center;">1,5k</button>
+      <button type="button" class="js-rdv-preset mp-btn-text" data-km="3" style="flex: 1; font-size: 0.75rem; padding: 6px 2px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 700; color: #334155; text-align: center;">3k</button>
+      <button type="button" class="js-rdv-preset mp-btn-text" data-km="5" style="flex: 1; font-size: 0.75rem; padding: 6px 2px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 700; color: #334155; text-align: center;">5k</button>
+      <button type="button" class="js-rdv-preset mp-btn-text" data-km="10" style="flex: 1; font-size: 0.75rem; padding: 6px 2px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 700; color: #334155; text-align: center;">10k</button>
+      <button type="button" class="js-rdv-preset mp-btn-text" data-km="21.097" style="flex: 1; font-size: 0.75rem; padding: 6px 2px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 700; color: #334155; text-align: center;">21,1k</button>
+      <button type="button" class="js-rdv-preset mp-btn-text" data-km="42.195" style="flex: 1; font-size: 0.75rem; padding: 6px 2px; background: #f1f5f9; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 700; color: #334155; text-align: center;">42,2k</button>
     </div>
 
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-end;">
       
-      <!-- Distance kolonne med knapper over -->
-      <div class="mp-form-group" style="flex: 1.2; min-width: 180px;">
-        <!-- Hurtig-valg knapper LIGE OVER feltet -->
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-          <label style="font-size: 0.8rem; font-weight: 700; margin: 0;">Distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(km)</span></label>
-        </div>
-
-        <div style="display: flex; gap: 0.25rem; margin-bottom: 0.35rem; flex-wrap: wrap;">
-          <button type="button" class="js-rdv-preset mp-btn-text" data-km="1.5" style="font-size: 0.65rem; padding: 2px 5px; background: #e2e8f0; border-radius: 4px; border: none; cursor: pointer; font-weight: 700; color: #475569;">1,5k</button>
-          <button type="button" class="js-rdv-preset mp-btn-text" data-km="3" style="font-size: 0.65rem; padding: 2px 5px; background: #e2e8f0; border-radius: 4px; border: none; cursor: pointer; font-weight: 700; color: #475569;">3k</button>
-          <button type="button" class="js-rdv-preset mp-btn-text" data-km="5" style="font-size: 0.65rem; padding: 2px 5px; background: #e2e8f0; border-radius: 4px; border: none; cursor: pointer; font-weight: 700; color: #475569;">5k</button>
-          <button type="button" class="js-rdv-preset mp-btn-text" data-km="10" style="font-size: 0.65rem; padding: 2px 5px; background: #e2e8f0; border-radius: 4px; border: none; cursor: pointer; font-weight: 700; color: #475569;">10k</button>
-          <button type="button" class="js-rdv-preset mp-btn-text" data-km="21.097" style="font-size: 0.65rem; padding: 2px 5px; background: #e2e8f0; border-radius: 4px; border: none; cursor: pointer; font-weight: 700; color: #475569;">21,1k</button>
-          <button type="button" class="js-rdv-preset mp-btn-text" data-km="42.195" style="font-size: 0.65rem; padding: 2px 5px; background: #e2e8f0; border-radius: 4px; border: none; cursor: pointer; font-weight: 700; color: #475569;">42,2k</button>
-        </div>
-
+      <!-- Distance felt -->
+      <div class="mp-form-group" style="flex: 1.2; min-width: 160px;">
+        <label style="font-size: 0.8rem; font-weight: 700; display: block; margin-bottom: 2px;">Distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(km)</span></label>
         <input type="number" name="rdv_distance_km" class="mp-form-control js-rdv-input" min="0.1" max="100" step="0.001" placeholder="F.eks. 5" style="padding: 0.4rem; font-size: 1rem; font-weight: 800; text-align: center; height: 38px;">
       </div>
 
-      <!-- Tidsinput (Timer, Minutter, Sekunder) der deler pladsen på samme række -->
-      <div style="flex: 1.5; min-width: 220px; display: flex; gap: 0.35rem;">
+      <!-- Tidsinput -->
+      <div style="flex: 1.8; min-width: 220px; display: flex; gap: 0.35rem;">
         <div style="flex: 1;">
           <label style="font-size: 0.72rem; color: #475569; font-weight: 700; display: block; margin-bottom: 2px; text-align: center;">Timer</label>
           <input type="number" name="rdv_hours" class="mp-form-control js-rdv-input" min="0" max="23" placeholder="0" style="text-align: center; padding: 0.4rem; font-weight: 700; height: 38px;">
@@ -105,69 +96,86 @@
     
     <div class="mp-results-split">
       
-      <!-- Venstre: Kondital, SD & Slider -->
+      <!-- Venstre: Kondital, Slider, Rating Label & Tabel Knap i ét -->
       <div class="mp-results-left">
-        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
-          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
-            Estimeret Kondital
-          </div>
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: space-between; padding: 0.85rem 1rem; text-align: center;">
           
-          <div class="js-rdv-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
-          <div style="font-size: 0.9rem; font-weight: 800; color: #3b82f6; line-height: 1;">ml/kg/min</div>
-          
-          <div class="js-rdv-sd-text" style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.15rem; margin-bottom: 0.15rem;">
-            -
-          </div>
-          
-          <!-- Slider -->
-          <div class="mp-fitness-continuum" style="margin-top: 0.5rem;">
-            <div class="mp-continuum-bar-wrapper">
-              <div class="mp-continuum-bar">
-                <div class="mp-segment" style="background: #ef4444;"></div>
-                <div class="mp-segment" style="background: #f97316;"></div>
-                <div class="mp-segment" style="background: #eab308;"></div>
-                <div class="mp-segment" style="background: #22c55e;"></div>
-                <div class="mp-segment" style="background: #3b82f6;"></div>
+          <div>
+            <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
+              Estimeret Kondital
+            </div>
+            
+            <div class="js-rdv-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
+            <div style="font-size: 0.9rem; font-weight: 800; color: #3b82f6; line-height: 1;">ml/kg/min</div>
+            
+            <div class="js-rdv-sd-text" style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.15rem; margin-bottom: 0.15rem;">
+              -
+            </div>
+            
+            <!-- Slider -->
+            <div class="mp-fitness-continuum" style="margin-top: 0.4rem; margin-bottom: 0.6rem;">
+              <div class="mp-continuum-bar-wrapper">
+                <div class="mp-continuum-bar">
+                  <div class="mp-segment" style="background: #ef4444;"></div>
+                  <div class="mp-segment" style="background: #f97316;"></div>
+                  <div class="mp-segment" style="background: #eab308;"></div>
+                  <div class="mp-segment" style="background: #22c55e;"></div>
+                  <div class="mp-segment" style="background: #3b82f6;"></div>
+                </div>
+                <div class="js-rdv-continuum-marker mp-continuum-marker" style="display: none;"></div>
               </div>
-              <div class="js-rdv-continuum-marker mp-continuum-marker" style="display: none;"></div>
+              <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
+                <span>Lav</span>
+                <span>Høj</span>
+              </div>
             </div>
-            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
-              <span>Lav</span>
-              <span>Høj</span>
-            </div>
+          </div>
+
+          <!-- SAMLEDE RATING BADGE & TABEL-KNAP MED IKON -->
+          <div style="display: flex; justify-content: center; margin-top: 0.25rem;">
+            <button type="button" class="js-rdv-table-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: #e2e8f0; border: none; padding: 0.35rem 0.85rem; border-radius: 6px; cursor: pointer; transition: all 0.2s ease; outline: none;">
+              <span class="js-rdv-eval-text" style="font-size: 0.8rem; font-weight: 800; color: #64748b; white-space: nowrap;">-</span>
+              <span style="font-size: 0.85rem; line-height: 1;">📊</span>
+            </button>
           </div>
 
         </div>
       </div>
 
-      <!-- Højre: 3 FOKUSEREDE BOKSE -->
+      <!-- Højre: PRÆCIS 3 BOKSE MED ENHEDER I MINDRE SKRIFT -->
       <div class="mp-results-boxes">
         
-        <!-- Boks 1: Test Rating + Tabel Knap -->
-        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
-          <div class="mp-box-left" style="min-width: 0;">
-            <div style="font-weight: 800; font-size: 0.7rem; color: #64748b; text-transform: uppercase; margin-bottom: 2px;">Test Rating</div>
-            <div class="js-rdv-eval-badge" style="font-size: 0.85rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
-              -
+        <!-- Boks 1: VDOT (Stor skrift + Jack Daniels småt + Info I-ikon) -->
+        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between; background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px;">
+          <div class="mp-box-left">
+            <div style="display: flex; align-items: center; gap: 4px;">
+              <span style="font-weight: 900; font-size: 1.15rem; color: #0369a1; line-height: 1;">VDOT</span>
+              <button type="button" class="js-vdot-info-btn" style="background: none; border: none; padding: 0; font-size: 0.85rem; color: #0284c7; cursor: pointer; font-weight: 700;" title="Forklaring af boksene">ℹ️</button>
+            </div>
+            <div style="font-size: 0.72rem; color: #0284c7; font-weight: 700; margin-top: 1px;">
+              Jack Daniels
             </div>
           </div>
-          <div class="mp-box-right">
-            <button type="button" class="js-rdv-table-btn mp-btn-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: none; border: none; padding: 0; cursor: pointer; outline: none;">
-              <span style="font-size: 1.2rem; line-height: 1; margin-bottom: 2px;">📊</span>
-              <span style="font-size: 0.65rem; color: #64748b; font-weight: 700;">Se tabel</span>
-            </button>
+          <div class="mp-box-right" style="text-align: right;">
+            <div class="js-rdv-vdot" style="font-size: 1.8rem; font-weight: 900; color: #0284c7; line-height: 1;">-</div>
           </div>
         </div>
 
-        <!-- Boks 2: Hastighed & Pace -->
+        <!-- Boks 2: Hastighed & Pace (Uden "Gns." & enheder i mindre skrift) -->
         <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
           <div class="mp-box-left">
-            <div style="font-weight: 800; font-size: 0.75rem; color: #475569; line-height: 1.1;">Gns. hastighed</div>
-            <div class="js-rdv-kmt" style="font-size: 1.1rem; font-weight: 900; color: #0f172a;">- km/t</div>
+            <div style="font-weight: 800; font-size: 0.75rem; color: #475569; line-height: 1.1;">Hastighed</div>
+            <div style="display: flex; align-items: baseline; gap: 3px; margin-top: 2px;">
+              <span class="js-rdv-kmt-num" style="font-size: 1.25rem; font-weight: 900; color: #0f172a; line-height: 1;">-</span>
+              <span style="font-size: 0.7rem; font-weight: 700; color: #64748b;">km/t</span>
+            </div>
           </div>
           <div class="mp-box-right" style="text-align: right;">
-            <div style="font-weight: 800; font-size: 0.75rem; color: #475569; line-height: 1.1;">Gns. pace</div>
-            <div class="js-rdv-pace" style="font-size: 1.1rem; font-weight: 900; color: #2563eb;">-</div>
+            <div style="font-weight: 800; font-size: 0.75rem; color: #475569; line-height: 1.1;">Pace</div>
+            <div style="display: flex; align-items: baseline; justify-content: flex-end; gap: 3px; margin-top: 2px;">
+              <span class="js-rdv-pace-num" style="font-size: 1.25rem; font-weight: 900; color: #2563eb; line-height: 1;">-</span>
+              <span style="font-size: 0.7rem; font-weight: 700; color: #3b82f6;">/km</span>
+            </div>
           </div>
         </div>
         
@@ -185,7 +193,7 @@
       </div>
     </div>
 
-    <!-- Popup-tabel -->
+    <!-- Popup 1: Normtabel -->
     <div class="js-rdv-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
       
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
@@ -199,6 +207,23 @@
             <!-- Udfyldes af JS -->
           </tbody>
         </table>
+      </div>
+
+    </div>
+
+    <!-- Popup 2: Info for VDOT og nøgletal -->
+    <div class="js-vdot-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 35; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Forklaring af nøgletallene</h4>
+        <button type="button" class="js-vdot-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="font-size: 0.825rem; color: #334155; line-height: 1.5; flex: 1; overflow-y: auto;">
+        <p style="margin-top: 0; margin-bottom: 0.6rem;"><strong>Estimeret Kondital (Tokmakidis et al., 1987):</strong> Belyser din teoretiske fysiologiske brutto-iltoptagelse ($VO_2\text{max}$) baseret på din hastighed og distancens varighed.</p>
+        <p style="margin-bottom: 0.6rem;"><strong>VDOT (Jack Daniels):</strong> VDOT er dit <em>effektive præstations-kondital</em>. Det tager højde for både din iltoptagelse og din løbeøkonomi på den gældende distance. Dette tal bruges i praksis til at fastsætte dine specifikke træningstempi.</p>
+        <p style="margin-bottom: 0.6rem;"><strong>Hastighed & Pace:</strong> Viser dit gennemsnitstempo udtrykt i km/t samt min/km under testen.</p>
+        <p style="margin-bottom: 0;"><strong>Maksimal iltoptagelse (L/min):</strong> Viser din absolutte iltoptagelse i liter ilt pr. minut (kræver angivelse af kropsvægt).</p>
       </div>
 
     </div>

@@ -1,4 +1,4 @@
-// assets/js/ui/running-distance-vo2-ui.js
+// assets/js/ui/running-distance-vo2max-ui.js
 import { calculateRunningDistanceVO2 } from '../core/running-distance-vo2max.js';
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
 
@@ -16,18 +16,24 @@ export function initRunningDistanceVO2(container) {
 
   // DOM resultater
   const resFitness = container.querySelector('.js-rdv-fitness');
+  const resVdot = container.querySelector('.js-rdv-vdot');
   const resSdText = container.querySelector('.js-rdv-sd-text');
-  const resEvalBadge = container.querySelector('.js-rdv-eval-badge');
-  const resKmt = container.querySelector('.js-rdv-kmt');
-  const resPace = container.querySelector('.js-rdv-pace');
+  const resEvalText = container.querySelector('.js-rdv-eval-text');
+  const resKmtNum = container.querySelector('.js-rdv-kmt-num');
+  const resPaceNum = container.querySelector('.js-rdv-pace-num');
   const resVo2Max = container.querySelector('.js-rdv-vo2max');
   const marker = container.querySelector('.js-rdv-continuum-marker');
 
-  // Popup DOM
+  // Popup 1: Normtabel DOM
   const tableBtn = container.querySelector('.js-rdv-table-btn');
   const popup = container.querySelector('.js-rdv-popup');
   const popupClose = container.querySelector('.js-rdv-popup-close');
   const tableBody = container.querySelector('.js-rdv-table-body');
+
+  // Popup 2: VDOT Info DOM
+  const vdotInfoBtn = container.querySelector('.js-vdot-info-btn');
+  const vdotPopup = container.querySelector('.js-vdot-popup');
+  const vdotPopupClose = container.querySelector('.js-vdot-popup-close');
 
   function saveState() {
     try {
@@ -80,9 +86,10 @@ export function initRunningDistanceVO2(container) {
 
     if (res && res.isValid) {
       if (resFitness) resFitness.textContent = res.formattedFitnessLevel;
+      if (resVdot) resVdot.textContent = res.formattedVDOT;
       if (resSdText) resSdText.textContent = `± ${res.sd} ${res.sdUnit}`;
-      if (resKmt) resKmt.textContent = res.formattedKmt;
-      if (resPace) resPace.textContent = res.pace;
+      if (resKmtNum) resKmtNum.textContent = res.formattedKmtNum;
+      if (resPaceNum) resPaceNum.textContent = res.paceNum;
       if (resVo2Max) resVo2Max.textContent = res.formattedVO2Max;
 
       // Norm vurdering
@@ -90,15 +97,15 @@ export function initRunningDistanceVO2(container) {
       const userAge = age > 0 ? age : 20;
       const evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
 
-      if (resEvalBadge) {
+      if (tableBtn && resEvalText) {
         if (evaluation && age > 0) {
-          resEvalBadge.textContent = evaluation.label;
-          resEvalBadge.style.backgroundColor = evaluation.color;
-          resEvalBadge.style.color = '#ffffff';
+          resEvalText.textContent = evaluation.label;
+          tableBtn.style.backgroundColor = evaluation.color;
+          resEvalText.style.color = '#ffffff';
         } else {
-          resEvalBadge.textContent = 'Mangler alder';
-          resEvalBadge.style.backgroundColor = '#e2e8f0';
-          resEvalBadge.style.color = '#64748b';
+          resEvalText.textContent = 'Mangler alder';
+          tableBtn.style.backgroundColor = '#e2e8f0';
+          resEvalText.style.color = '#64748b';
         }
       }
 
@@ -128,7 +135,7 @@ export function initRunningDistanceVO2(container) {
         marker.style.display = 'block';
       }
 
-      // Popup tabel
+      // Popup 1: Normtabel
       if (thresholds && tableBody && age > 0) {
         const tableData = [
           { name: 'Meget højt', range: `> ${thresholds[3]}` },
@@ -165,14 +172,15 @@ export function initRunningDistanceVO2(container) {
 
   function resetResults() {
     if (resFitness) resFitness.textContent = '-';
+    if (resVdot) resVdot.textContent = '-';
     if (resSdText) resSdText.textContent = '-';
-    if (resKmt) resKmt.textContent = '- km/t';
-    if (resPace) resPace.textContent = '-';
+    if (resKmtNum) resKmtNum.textContent = '-';
+    if (resPaceNum) resPaceNum.textContent = '-';
     if (resVo2Max) resVo2Max.textContent = '-';
-    if (resEvalBadge) {
-      resEvalBadge.textContent = 'Mangler data';
-      resEvalBadge.style.backgroundColor = '#e2e8f0';
-      resEvalBadge.style.color = '#64748b';
+    if (resEvalText) resEvalText.textContent = 'Mangler data';
+    if (tableBtn) {
+      tableBtn.style.backgroundColor = '#e2e8f0';
+      if (resEvalText) resEvalText.style.color = '#64748b';
     }
     if (marker) marker.style.display = 'none';
   }
@@ -199,6 +207,7 @@ export function initRunningDistanceVO2(container) {
     });
   });
 
+  // Popup 1 Event
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
       const age = parseFloat(ageInput ? ageInput.value : '0');
@@ -211,6 +220,16 @@ export function initRunningDistanceVO2(container) {
     popupClose.addEventListener('click', () => popup.style.display = 'none');
   }
 
+  // Popup 2 Event (VDOT Info)
+  if (vdotInfoBtn && vdotPopup && vdotPopupClose) {
+    vdotInfoBtn.addEventListener('click', () => {
+      vdotPopup.style.display = 'flex';
+    });
+    vdotPopupClose.addEventListener('click', () => {
+      vdotPopup.style.display = 'none';
+    });
+  }
+
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
 
@@ -221,6 +240,7 @@ export function initRunningDistanceVO2(container) {
         else if (input.type !== 'radio') input.value = '';
       });
       if (popup) popup.style.display = 'none';
+      if (vdotPopup) vdotPopup.style.display = 'none';
       try { localStorage.removeItem('mp_rdv_state'); } catch(e){}
       calculate();
     });
@@ -229,6 +249,7 @@ export function initRunningDistanceVO2(container) {
   if (downloadBtn) {
     downloadBtn.addEventListener('click', () => {
       if (popup) popup.style.display = 'none';
+      if (vdotPopup) vdotPopup.style.display = 'none';
       setTimeout(() => {
         if (typeof html2canvas !== 'undefined') {
           html2canvas(container, { scale: 2, backgroundColor: '#ffffff' }).then(canvas => {

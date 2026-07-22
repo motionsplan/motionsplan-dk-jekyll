@@ -58,6 +58,8 @@ Brug oversigten herunder eller klik dig videre til en detaljeret side for hver b
 
 [Gå direkte til beregnerne](#calculators){: .btn .btn--success .btn--jump }
 
+{% include calc/speed-pace.html %}
+
 ---
 
 ## Hvorfor bruge en hastighedsberegner?

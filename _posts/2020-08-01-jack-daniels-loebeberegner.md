@@ -85,9 +85,7 @@ faq:
 - question: Kan jeg bruge beregneren til at estimere konkurrencetider?
   answer: 'Ja, beregneren kan estimere dine konkurrencetider på distancer som 5 km, 10 km, halvmaraton og maraton, baseret
     på din aktuelle løbetid på en kortere distance. Det giver dig en idé om, hvad du kan forvente at præstere under konkurrenceforhold,
-    hvis du træner effektivt.
-
-    '
+    hvis du træner effektivt.'
 - question: Hvordan kan jeg bruge resultaterne fra beregneren til at planlægge min træning?
   answer: 'Du kan bruge beregnerens resultater til at planlægge din træning ved at justere dine tempoer i forhold til de anbefalede
     træningszoner. For eksempel, hvis du skal træne intervaller, kan du bruge den beregnede VDOT-værdi til at finde ud af,
@@ -159,6 +157,8 @@ Jack Daniels har defineret forskellige løbetempi til fx restitutionsløb, tempo
 {: id="calculator" }
 
 {% include calculator/calculate-jack-daniels.html %}
+
+{% include calc/running-performance.html %}
 
 Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
 

@@ -1,0 +1,311 @@
+{% assign calc_title = include.title | default: "🏃‍♂️ Jack Daniels VDOT & Løbeberegner" %}
+{% assign data_id = include.calc_id | default: "running-performance-all" %}
+
+<style>
+  .mp-ra-sync-height {
+    height: 48px !important;
+    box-sizing: border-box !important;
+    margin-bottom: 0 !important;
+  }
+
+  .mp-time-input-group {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  .mp-time-field {
+    flex: 1;
+    text-align: center;
+    padding: 0 4px !important;
+    font-weight: 800;
+  }
+
+  .vbt-select-mega {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%20475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.1em;
+    padding-right: 2rem !important;
+  }
+
+  /* Klikbare Træningskort */
+  .mp-pace-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.75rem 0.85rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #cbd5e1;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+  }
+
+  .mp-pace-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border-color: #cbd5e1;
+  }
+
+  /* TABEL CONTAINMENT & 100% BREDDE */
+  .js-table-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-rp-table {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    display: table !important;
+    border-collapse: collapse !important;
+    margin: 0 !important;
+    font-size: 0.85rem;
+    table-layout: auto !important;
+  }
+
+  .mp-rp-table th, 
+  .mp-rp-table td {
+    padding: 0.75rem 0.65rem !important;
+    box-sizing: border-box !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+  }
+
+  .mp-rp-table th {
+    background: #f8fafc !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+    font-weight: 800 !important;
+    color: #475569 !important;
+    font-size: 0.725rem !important;
+    text-transform: uppercase !important;
+  }
+
+  /* Riegel skjul/vis logik */
+  .js-riegel-col {
+    display: none !important;
+  }
+  .show-riegel .js-riegel-col {
+    display: table-cell !important;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="running-performance-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+    <h3 class="mp-calc-title" style="margin: 0;">{{ calc_title }}</h3>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+  </div>
+
+  <div class="mp-rp-container" style="width: 100%;">
+    
+    <!-- INPUT RÆKKE -->
+    <div style="display: flex; gap: 0.75rem; align-items: flex-end; margin-bottom: 1.25rem; flex-wrap: wrap; width: 100%;">
+      <div class="mp-form-group" style="flex: 1.2; min-width: 160px;">
+        <label for="rp-dist-{{ data_id }}" class="vbt-premium-label" style="font-size: 0.875rem; font-weight: 700; color: #1e293b; display: block; margin-bottom: 0.35rem;">🏁 Vælg testdistance</label>
+        <select id="rp-dist-{{ data_id }}" class="vbt-input-mega vbt-select-mega js-rp-input mp-ra-sync-height" data-input="distanceKey" style="width: 100%; font-weight: 700; background: #ffffff;">
+          <option value="5k">5 km</option>
+          <option value="10k" selected>10 km</option>
+          <option value="half">Halvmaraton</option>
+          <option value="marathon">Maraton</option>
+        </select>
+      </div>
+
+      <div class="mp-form-group" style="flex: 1.8; min-width: 220px;">
+        <label class="vbt-premium-label" style="font-size: 0.875rem; font-weight: 700; color: #1e293b; display: block; margin-bottom: 0.35rem;">⏱️ Opnået tid (tt : mm : ss)</label>
+        <div class="mp-time-input-group mp-ra-sync-height">
+          <input type="number" class="vbt-input-mega mp-time-field js-rp-input" data-input="hours" placeholder="00" min="0" max="23">
+          <span style="font-weight: 900; color: #64748b;">:</span>
+          <input type="number" class="vbt-input-mega mp-time-field js-rp-input" data-input="minutes" placeholder="45" min="0" max="59">
+          <span style="font-weight: 900; color: #64748b;">:</span>
+          <input type="number" class="vbt-input-mega mp-time-field js-rp-input" data-input="seconds" placeholder="00" min="0" max="59">
+        </div>
+      </div>
+    </div>
+
+    <!-- VDOT HERO BOKS -->
+    <div style="background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%); border-radius: 14px; padding: 1.1rem 1.25rem; color: #ffffff; display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25); width: 100%; box-sizing: border-box;">
+      <div>
+        <div style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #93c5fd; margin-bottom: 2px;">DIN FYSIOLOGISKE LØBESCORE</div>
+        <div style="font-size: 0.875rem; font-weight: 700; color: #ffffff;">Jack Daniels VDOT Model</div>
+      </div>
+      <div style="text-align: right;">
+        <div class="js-res-vdot" style="font-size: 2.8rem; font-weight: 900; line-height: 1;">-</div>
+        <div style="font-size: 0.65rem; font-weight: 800; text-transform: uppercase; color: #bfdbfe; letter-spacing: 0.05em;">VDOT SCORE</div>
+      </div>
+    </div>
+
+    <!-- OPSAMLINGSTEKST -->
+    <div class="js-res-text" style="margin-bottom: 1.5rem; font-size: 0.85rem; color: #334155; line-height: 1.45; font-weight: 500; background: #f8fafc; padding: 0.75rem 0.9rem; border-radius: 10px; border: 1px solid #e2e8f0; width: 100%; box-sizing: border-box;">
+      Indtast din opnåede tid ovenfor for at få beregnet din VDOT-score, forventede sluttider samt anbefalede træningstempi.
+    </div>
+
+    <!-- SECTION 1: FORVENTEDE SLUTTIDER -->
+    <div style="margin-bottom: 1.5rem; width: 100%;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; width: 100%;">
+        <h4 style="margin: 0; font-size: 0.95rem; font-weight: 800; color: #0f172a;">📊 FORVENTEDE SLUTTIDER</h4>
+        <label style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.775rem; font-weight: 700; color: #475569; cursor: pointer; user-select: none; background: #f1f5f9; padding: 4px 10px; border-radius: 20px; border: 1px solid #cbd5e1;">
+          <input type="checkbox" class="js-riegel-toggle" style="cursor: pointer;">
+          <span>Sammenlign med Riegel</span>
+        </label>
+      </div>
+
+      <div class="js-table-wrapper">
+        <table class="mp-rp-table">
+          <thead>
+            <tr>
+              <th style="text-align: left;">Distance</th>
+              <th style="color: #1d4ed8; text-align: left;">Daniels</th>
+              <th style="text-align: left;">Pace</th>
+              <th class="js-riegel-col" style="color: #059669; text-align: left;">Riegel</th>
+              <th class="js-riegel-col" style="text-align: right;">Forskel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #f1f5f9;">
+              <td style="font-weight: 700; color: #334155;">5 km</td>
+              <td class="js-res-5k-daniels" style="font-weight: 900; color: #1d4ed8;">-</td>
+              <td class="js-res-5k-pace" style="font-weight: 700; color: #64748b;">-</td>
+              <td class="js-riegel-col js-res-5k-riegel" style="font-weight: 800; color: #059669;">-</td>
+              <td class="js-riegel-col js-res-5k-diff" style="text-align: right; font-weight: 600; color: #94a3b8;">-</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f1f5f9;">
+              <td style="font-weight: 700; color: #334155;">10 km</td>
+              <td class="js-res-10k-daniels" style="font-weight: 900; color: #1d4ed8;">-</td>
+              <td class="js-res-10k-pace" style="font-weight: 700; color: #64748b;">-</td>
+              <td class="js-riegel-col js-res-10k-riegel" style="font-weight: 800; color: #059669;">-</td>
+              <td class="js-riegel-col js-res-10k-diff" style="text-align: right; font-weight: 600; color: #94a3b8;">-</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f1f5f9;">
+              <td style="font-weight: 700; color: #334155;">Halvmaraton</td>
+              <td class="js-res-half-daniels" style="font-weight: 900; color: #1d4ed8;">-</td>
+              <td class="js-res-half-pace" style="font-weight: 700; color: #64748b;">-</td>
+              <td class="js-riegel-col js-res-half-riegel" style="font-weight: 800; color: #059669;">-</td>
+              <td class="js-riegel-col js-res-half-diff" style="text-align: right; font-weight: 600; color: #94a3b8;">-</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #334155;">Maraton</td>
+              <td class="js-res-marathon-daniels" style="font-weight: 900; color: #1d4ed8;">-</td>
+              <td class="js-res-marathon-pace" style="font-weight: 700; color: #64748b;">-</td>
+              <td class="js-riegel-col js-res-marathon-riegel" style="font-weight: 800; color: #059669;">-</td>
+              <td class="js-riegel-col js-res-marathon-diff" style="text-align: right; font-weight: 600; color: #94a3b8;">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SECTION 2: ANBEFALEDE TRÆNINGSTEMPI -->
+    <div style="position: relative; margin-bottom: 1.25rem; width: 100%;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; width: 100%;">
+        <h4 style="margin: 0; font-size: 0.95rem; font-weight: 800; color: #0f172a;">🎯 ANBEFALEDE TRÆNINGSTEMPI</h4>
+        <span style="font-size: 0.725rem; color: #64748b; font-weight: 600;">💡 Klik på en zone for info</span>
+      </div>
+
+      <!-- E-Pace -->
+      <div class="mp-pace-card js-zone-card" data-zone="E" style="border-left-color: #22c55e;">
+        <div>
+          <div style="font-weight: 800; font-size: 0.85rem; color: #15803d; display: flex; align-items: center; gap: 6px;">
+            <span>🟢 JOG / ROLIG (E)</span>
+            <span style="font-size: 0.75rem; opacity: 0.75;">ℹ️</span>
+          </div>
+          <div style="font-size: 0.725rem; color: #64748b; font-weight: 600;">Opbygning & restitution</div>
+        </div>
+        <div style="text-align: right; white-space: nowrap;">
+          <span class="js-res-pace-e" style="font-size: 1.15rem; font-weight: 900; color: #0f172a;">-</span>
+          <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-left: 2px;">min/km</span>
+        </div>
+      </div>
+
+      <!-- M-Pace -->
+      <div class="mp-pace-card js-zone-card" data-zone="M" style="border-left-color: #eab308;">
+        <div>
+          <div style="font-weight: 800; font-size: 0.85rem; color: #a16207; display: flex; align-items: center; gap: 6px;">
+            <span>🟡 MARATON (M)</span>
+            <span style="font-size: 0.75rem; opacity: 0.75;">ℹ️</span>
+          </div>
+          <div style="font-size: 0.725rem; color: #64748b; font-weight: 600;">Konkurrencetempo</div>
+        </div>
+        <div style="text-align: right; white-space: nowrap;">
+          <span class="js-res-pace-m" style="font-size: 1.15rem; font-weight: 900; color: #0f172a;">-</span>
+          <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-left: 2px;">min/km</span>
+        </div>
+      </div>
+
+      <!-- T-Pace -->
+      <div class="mp-pace-card js-zone-card" data-zone="T" style="border-left-color: #f97316;">
+        <div>
+          <div style="font-weight: 800; font-size: 0.85rem; color: #c2410c; display: flex; align-items: center; gap: 6px;">
+            <span>🟠 TEMPO / TÆRSKEL (T)</span>
+            <span style="font-size: 0.75rem; opacity: 0.75;">ℹ️</span>
+          </div>
+          <div style="font-size: 0.725rem; color: #64748b; font-weight: 600;">Syregrænse (~60 min pace)</div>
+        </div>
+        <div style="text-align: right; white-space: nowrap;">
+          <span class="js-res-pace-t" style="font-size: 1.15rem; font-weight: 900; color: #0f172a;">-</span>
+          <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-left: 2px;">min/km</span>
+        </div>
+      </div>
+
+      <!-- I-Pace -->
+      <div class="mp-pace-card js-zone-card" data-zone="I" style="border-left-color: #ef4444;">
+        <div>
+          <div style="font-weight: 800; font-size: 0.85rem; color: #b91c1c; display: flex; align-items: center; gap: 6px;">
+            <span>🔴 INTERVAL (I)</span>
+            <span style="font-size: 0.75rem; opacity: 0.75;">ℹ️</span>
+          </div>
+          <div style="font-size: 0.725rem; color: #64748b; font-weight: 600;">VO2max-træning (3–5 min ryk)</div>
+        </div>
+        <div style="text-align: right; white-space: nowrap;">
+          <span class="js-res-pace-i" style="font-size: 1.15rem; font-weight: 900; color: #0f172a;">-</span>
+          <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-left: 2px;">min/km</span>
+        </div>
+      </div>
+
+      <!-- R-Pace -->
+      <div class="mp-pace-card js-zone-card" data-zone="R" style="border-left-color: #8b5cf6;">
+        <div>
+          <div style="font-weight: 800; font-size: 0.85rem; color: #6d28d9; display: flex; align-items: center; gap: 6px;">
+            <span>🟣 REPETITION (R)</span>
+            <span style="font-size: 0.75rem; opacity: 0.75;">ℹ️</span>
+          </div>
+          <div style="font-size: 0.725rem; color: #64748b; font-weight: 600;">Løbeøkonomi • Korte hurtige ryk</div>
+        </div>
+        <div style="text-align: right; white-space: nowrap;">
+          <span class="js-res-pace-r" style="font-size: 1.15rem; font-weight: 900; color: #0f172a;">-</span>
+          <span style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-left: 2px;">min/km</span>
+        </div>
+      </div>
+
+      <!-- OVERLAY POPUP -->
+      <div class="js-zone-detail-overlay" style="display: none; position: absolute !important; top: -5px; bottom: -5px; left: -5px; right: -5px; background: rgba(255, 255, 255, 0.99); backdrop-filter: blur(6px); z-index: 30; padding: 1rem; box-sizing: border-box; border-radius: 14px; border: 1.5px solid #cbd5e1; flex-direction: column; justify-content: space-between; box-shadow: 0 8px 24px rgba(0,0,0,0.12);">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.5rem; margin-bottom: 0.75rem; flex-shrink: 0;">
+          <h4 class="js-zone-detail-title" style="margin: 0; font-size: 0.95rem; font-weight: 800; color: #0f172a;">-</h4>
+          <button type="button" class="js-zone-detail-close" style="background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 6px; padding: 4px 10px; font-size: 0.75rem; font-weight: 800; color: #334155; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+            ← Tilbage
+          </button>
+        </div>
+        <div class="js-zone-detail-body" style="flex: 1; overflow-y: auto; font-size: 0.825rem; color: #334155; line-height: 1.5; padding-right: 4px;">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="rp-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

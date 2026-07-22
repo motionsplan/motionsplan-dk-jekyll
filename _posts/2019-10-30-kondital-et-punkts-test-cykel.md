@@ -82,6 +82,8 @@ Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 puls
 
 {% include calculator/calculate-etpunkttest.html %}
 
+{% include calc/aastrand-etpunktstest.html %}
+
 ## Baggrund for beregningen i Åstrands etpunktstest
 
 Generelt kan man sige at jo lavere _steady state_ puls, du har i testen, desto bedre kondition er du i.
