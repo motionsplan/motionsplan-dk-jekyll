@@ -36,6 +36,8 @@ Du får med andre ord en aldersgradueret vurdering af din præstation baseret p�
 
 {% include calculator/calculate-running-age-graded.html %}
 
+{% include calc/running-adjustments.html %}
+
 ## Hvordan aldersjusterer man løbetiden?
 
 Du kan bruge formularen ovenfor for at lave en aldersjusteret løbetid. Her vægtes din tid på en given distance i forhold til verdensrekorden på samme distance for en person på din egen alder.
