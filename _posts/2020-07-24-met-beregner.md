@@ -32,6 +32,8 @@ Vil du se en komplet oversigt over MET-værdier for forskellige aktiviteter? Bes
 
 {% include calculator/calculate-met.html %}
 
+{% include calc/met-calculator.html %}
+
 ## Hvad er MET?
 
 **MET** er en forkortelse for _Metabolic Equivalent of Task_. MET er altså et udtryk for iltforbruget ved forskellige aktiviteter. MET er helt kort en metabolisk værdi for hvad iltforbruget - altså forbrændingen - er under fysisk aktivitet.

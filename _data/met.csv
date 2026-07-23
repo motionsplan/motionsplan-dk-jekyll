@@ -1,822 +1,1998 @@
-Group,Activity,MET
-bicycling,"bicycling, mountain, uphill, vigorous",14
-bicycling,"bicycling, mountain, competitive, racing",16
-bicycling,"bicycling, BMX",8.5
-bicycling,"bicycling, mountain, general",8.5
-bicycling,"bicycling, <10 mph, leisure, to work or for pleasure",4
-bicycling,"bicycling, to/from work, self selected pace",6.8
-bicycling,"bicycling, on dirt or farm road, moderate pace",5.8
-bicycling,"bicycling, general",7.5
-bicycling,"bicycling, leisure, 5.5 mph",3.5
-bicycling,"bicycling, leisure, 9.4 mph",5.8
-bicycling,"bicycling, 10-11.9 mph, leisure, slow, light effort",6.8
-bicycling,"bicycling, 12-13.9 mph, leisure, moderate effort",8
-bicycling,"bicycling, 14-15.9 mph, racing or leisure, fast, vigorous effort",10
-bicycling,"bicycling, 16-19 mph, racing/not drafting or > 19 mph drafting, very fast, racing general",12
-bicycling,"bicycling, > 20 mph, racing, not drafting",15.8
-bicycling,"bicycling, 12 mph, seated, hands on brake hoods or bar drops, 80 rpm",8.5
-bicycling,"bicycling, 12 mph, standing, hands on brake hoods, 60 rpm",9
-bicycling,unicycling,5
-conditioning exercise,"activity promoting video game (e.g., Wii Fit), light effort (e.g., balance, yoga)",2.3
-conditioning exercise,"activity promoting video game (e.g., Wii Fit), moderate effort (e.g., aerobic, resistance)",3.8
-conditioning exercise,"activity promoting video/arcade game (e.g., Exergaming, Dance Dance Revolution), vigorous effort",7.2
-conditioning exercise,"army type obstacle course exercise, boot camp training program",5
-conditioning exercise,"bicycling, stationary, general",7
-conditioning exercise,"bicycling, stationary, 30-50 watts, very light to light effort",3.5
-conditioning exercise,"bicycling, stationary, 90-100 watts, moderate to vigorous effort",6.8
-conditioning exercise,"bicycling, stationary, 101-160 watts, vigorous effort",8.8
-conditioning exercise,"bicycling, stationary, 161-200 watts, vigorous effort",11
-conditioning exercise,"bicycling, stationary, 201-270 watts, very vigorous effort",14
-conditioning exercise,"bicycling, stationary, 51-89 watts, light-to-moderate effort",4.8
-conditioning exercise,"bicycling, stationary, RPM/Spin bike class",8.5
-conditioning exercise,"calisthenics (e.g., push ups, sit ups, pull-ups, jumping jacks), vigorous effort",8
-conditioning exercise,"calisthenics (e.g., push ups, sit ups, pull-ups, lunges), moderate effort",3.8
-conditioning exercise,"calisthenics (e.g., situps, abdominal crunches), light effort",2.8
-conditioning exercise,"calisthenics, light or moderate effort, general (e.g., back exercises), going up & down from floor ( 150)",3.5
-conditioning exercise,"circuit training, moderate effort",4.3
-conditioning exercise,"circuit training, including kettlebells, some aerobic movement with minimal rest, general, vigorous intensity",8
-conditioning exercise,CurvesTM exercise routines in women,3.5
-conditioning exercise,"Elliptical trainer, moderate effort",5
-conditioning exercise,"resistance training (weight lifting, free weight, nautilus or universal), power lifting or body building, vigorous effort",6
-conditioning exercise,"resistance (weight) training, squats , slow or explosive effort",5
-conditioning exercise,"resistance (weight) training, multiple exercises, 8-15 repetitions at varied resistance",3.5
-conditioning exercise,"health club exercise, general",5.5
-conditioning exercise,"health club exercise classes, general, gym/weight training combined in one visit",5
-conditioning exercise,"health club exercise, conditioning classes",7.8
-conditioning exercise,"home exercise, general",3.8
-conditioning exercise,"stair-treadmill ergometer, general",9
-conditioning exercise,"rope skipping, general",12.3
-conditioning exercise,"rowing, stationary ergometer, general, vigorous effort",6
-conditioning exercise,"rowing, stationary, general, moderate effort",4.8
-conditioning exercise,"rowing, stationary, 100 watts, moderate effort",7
-conditioning exercise,"rowing, stationary, 150 watts, vigorous effort",8.5
-conditioning exercise,"rowing, stationary, 200 watts, very vigorous effort",12
-conditioning exercise,"ski machine, general",6.8
-conditioning exercise,"slide board exercise, general",11
-conditioning exercise,"slimnastics, jazzercise",6
-conditioning exercise,"stretching, mild",2.3
-conditioning exercise,"pilates, general",3
-conditioning exercise,"teaching exercise class (e.g., aerobic, water)",6.8
-conditioning exercise,"therapeutic exercise ball, Fitball exercise",2.8
-conditioning exercise,"upper body exercise, arm ergometer",2.8
-conditioning exercise,"upper body exercise, stationary bicycle – Airdyne (arms only) 40 rpm, moderate",4.3
-conditioning exercise,"water aerobics, water calisthenics, water exercise",5.3
-conditioning exercise,"whirlpool, sitting",1.3
-conditioning exercise,"video exercise workouts, TV conditioning programs (e.g., yoga, stretching), light effort",2.3
-conditioning exercise,"video exercise workouts, TV conditioning programs (e.g., cardio-resistance), moderate effort",4
-conditioning exercise,"video exercise workouts, TV conditioning programs (e.g., cardio-resistance), vigorous effort",6
-conditioning exercise,"yoga, Hatha",2.5
-conditioning exercise,"yoga, Power",4
-conditioning exercise,"yoga, Nadisodhana",2
-conditioning exercise,"yoga, Surya Namaskar",3.3
-conditioning exercise,"native New Zealander physical activities (e.g., Haka Powhiri, Moteatea, Waita Tira, Whakawatea, etc.), general, moderate effort",5.3
-conditioning exercise,"native New Zealander physical activities (e.g., Haka, Taiahab), general, vigorous effort",6.8
-dancing,"ballet, modern, or jazz, general, rehearsal or class",5
-dancing,"ballet, modern, or jazz, performance, vigorous effort",6.8
-dancing,tap,4.8
-dancing,"aerobic, general",7.3
-dancing,"aerobic, step, with 6 – 8 inch step",7.5
-dancing,"aerobic, step, with 10 – 12 inch step",9.5
-dancing,"aerobic, step, with 4-inch step",5.5
-dancing,"bench step class, general",8.5
-dancing,"aerobic, low impact",5
-dancing,"aerobic, high impact",7.3
-dancing,aerobic dance wearing 10-15 lb weights,10
-dancing,"ethnic or cultural dancing (e.g., Greek, Middle Eastern, hula, salsa, merengue, bamba y plena, flamenco, belly, and swing)",4.5
-dancing,"ballroom, fast",5.5
-dancing,"general dancing (e.g., disco, folk, Irish step dancing, line dancing, polka, contra, country)",7.8
-dancing,"ballroom dancing, competitive, general",11.3
-dancing,"ballroom, slow (e.g., waltz, foxtrot, slow dancing, samba, tango, 19th century dance, mambo, cha cha)",3
-dancing,Anishinaabe Jingle Dancing,5.5
-dancing,"Caribbean dance (Abakua, Beguine, Bellair, Bongo, Brukin’s, Caribbean Quadrills, Dinki Mini, Gere, Gumbay, Ibo, Jonkonnu, Kumina, Oreisha, Jambu)",3.5
-fishing and hunting,"fishing, general",3.5
-fishing and hunting,"fishing, crab fishing",4.5
-fishing and hunting,"fishing, catching fish with hands",4
-fishing and hunting,"fishing related, digging worms, with shovel",4.3
-fishing and hunting,fishing from river bank and walking,4
-fishing and hunting,"fishing from boat or canoe, sitting",2
-fishing and hunting,"fishing from river bank, standing",3.5
-fishing and hunting,"fishing in stream, in waders",6
-fishing and hunting,"fishing, ice, sitting",2
-fishing and hunting,"fishing, jog or line, standing, general",1.8
-fishing and hunting,"fishing, dip net, setting net and retrieving fish, general",3.5
-fishing and hunting,"fishing, set net, setting net and retrieving fish, general",3.8
-fishing and hunting,"fishing, fishing wheel, setting net and retrieving fish, general",3
-fishing and hunting,"fishing with a spear, standing",2.3
-fishing and hunting,"hunting, bow and arrow, or crossbow",2.5
-fishing and hunting,"hunting, deer, elk, large game",6
-fishing and hunting,"hunting large game, dragging carcass",11.3
-fishing and hunting,hunting large marine animals,4
-fishing and hunting,"hunting large game, from a hunting stand, limited walking",2.5
-fishing and hunting,"hunting large game from a car, plane, or boat",2
-fishing and hunting,"hunting, duck, wading",2.5
-fishing and hunting,"hunting, flying fox, squirrel",3
-fishing and hunting,"hunting, general",5
-fishing and hunting,"hunting, pheasants or grouse",6
-fishing and hunting,"hunting, birds",3.3
-fishing and hunting,"hunting, rabbit, squirrel, prairie chick, raccoon, small game",5
-fishing and hunting,"hunting, pigs, wild",3.3
-fishing and hunting,"trapping game, general",2
-fishing and hunting,"hunting, hiking with hunting gear",9.5
-fishing and hunting,"pistol shooting or trap shooting, standing",2.5
-fishing and hunting,"rifle exercises, shooting, lying down",2.3
-fishing and hunting,"rifle exercises, shooting, kneeling or standing",2.5
-home activities,"cleaning, sweeping carpet or floors, general",3.3
-home activities,"cleaning, sweeping, slow, light effort",2.3
-home activities,"cleaning, sweeping, slow, moderateeffort",3.8
-home activities,"cleaning, heavy or major (e.g. wash car, wash windows, clean garage), moderate effort",3.5
-home activities,"cleaning, mopping, standing, moderate effort",3.5
-home activities,"cleaning windows, washing windows, general",3.2
-home activities,"mopping, standing, light effort",2.5
-home activities,"polishing floors, standing, walking slowly, using electric polishing machine",4.5
-home activities,"multiple household tasks all at once, light effort",2.8
-home activities,"multiple household tasks all at once, moderate effort",3.5
-home activities,"multiple household tasks all at once, vigorous effort",4.3
-home activities,"cleaning, house or cabin, general, moderate effort",3.3
-home activities,"dusting or polishing furniture, general",2.3
-home activities,"kitchen activity, general, (e.g., cooking, washing dishes, cleaning up), moderate effort",3.3
-home activities,"cleaning, general (straightening up, changing linen, carrying out trash, light effort",2.5
-home activities,"wash dishes, standing or in general (not broken into stand/walk components)",1.8
-home activities,"wash dishes, clearing dishes from table, walking, light effort",2.5
-home activities,"vacuuming, general, moderate effort",3.3
-home activities,"butchering animals, small",3
-home activities,"butchering animal, large, vigorous effort",6
-home activities,"cutting and smoking fish, drying fish or meat",2.3
-home activities,"tanning hides, general",4
-home activities,"cooking or food preparation, moderate effort",3.5
-home activities,"cooking or food preparation – standing or sitting or in general (not broken into stand/walk components), manual appliances, light effort",2
-home activities,"serving food, setting table, implied walking or standing",2.5
-home activities,"cooking or food preparation, walking",2.5
-home activities,feeding household animals,2.5
-home activities,"putting away groceries (e.g. carrying groceries, shopping without a grocery cart), carrying packages",2.5
-home activities,carrying groceries upstairs,7.5
-home activities,cooking Indian bread on an outside stove,3
-home activities,"food shopping with or without a grocery cart, standing or walking",2.3
-home activities,"non-food shopping, with or without a cart, standing or walking",2.3
-home activities,ironing,1.8
-home activities,"knitting, sewing, light effort, wrapping presents, sitting",1.3
-home activities,sewing with a machine,2.8
-home activities,"laundry, fold or hang clothes, put clothes in washer or dryer, packing suitcase, washing clothes by hand, implied standing, light effort",2
-home activities,"laundry, hanging wash, washing clothes by hand, moderate effort",4
-home activities,"laundry, putting away clothes, gathering clothes to pack, putting away laundry, implied walking",2.3
-home activities,"making bed, changing linens",3.3
-home activities,"maple syruping/sugar bushing (including carrying buckets, carrying wood)",5
-home activities,"moving furniture, household items, carrying boxes",5.8
-home activities,"moving, lifting light loads",5
-home activities,organizing room,4.8
-home activities,"scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, moderate effort",3.5
-home activities,"scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, light effort",2
-home activities,"scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, vigorous effort",6.5
-home activities,"sweeping garage, sidewalk or outside of house",4
-home activities,"standing, packing/unpacking boxes, occasional lifting of lightweight household items, loading or unloading items in car, moderate effort",3.5
-home activities,"implied walking, putting away household items, moderate effort",3
-home activities,watering plants,2.5
-home activities,building a fire inside,2.5
-home activities,"moving household items upstairs, carrying boxes or furniture",9
-home activities,"standing, light effort tasks (pump gas, change light bulb, etc.)",2
-home activities,"walking, moderate effort tasks, non-cleaning (readying to leave, shut/lock doors, close windows, etc.)",3.5
-home activities,"sitting, playing with child(ren), light effort, only active periods",2.2
-home activities,"standing, playing with child(ren) light effort, only active periods",2.8
-home activities,"walking/running, playing with child(ren), moderate effort, only active periods",3.5
-home activities,"walking/running, playing with child(ren), vigorous effort, only active periods",5.8
-home activities,"walking and carrying small child, child weighing 15 lbs or more",3
-home activities,"walking and carrying small child, child weighing less than 15 lbs",2.3
-home activities,"standing, holding child",2
-home activities,"child care, infant, general",2.5
-home activities,"child care, sitting/kneeling (e.g., dressing, bathing, grooming, feeding, occasional lifting of child), light effort, general",2
-home activities,"child care, standing (e.g., dressing, bathing, grooming, feeding, occasional lifting of child), moderate effort",3
-home activities,reclining with baby,1.5
-home activities,"breastfeeding, sitting or reclining",2
-home activities,"sit, playing with animals, light effort, only active periods",2.5
-home activities,"stand, playing with animals, light effort, only active periods",2.8
-home activities,"walk/run, playing with animals, general, light effort, only active periods",3
-home activities,"walk/run, playing with animals, moderate effort, only active periods",4
-home activities,"walk/run, playing with animals, vigorous effort, only active periods",5
-home activities,"standing, bathing dog",3.5
-home activities,"animal care, household animals, general",2.3
-home activities,"elder care, disabled adult, bathing, dressing, moving into and out of bed, only active periods",4
-home activities,"elder care, disabled adult, feeding, combing hair, light effort, only active periods",2.3
-home repair,airplane repair,3
-home repair,automobile body work,4
-home repair,"automobile repair, light or moderate effort",3.3
-home repair,"carpentry, general, workshop",3
-home repair,"carpentry, outside house, installing rain gutters,carpentry, outside house, building a fence",6
-home repair,"carpentry, outside house, building a fence",3.8
-home repair,"carpentry, finishing or refinishing cabinets or furniture",3.3
-home repair,"carpentry, sawing hardwood",6
-home repair,"carpentry, home remodeling tasks, moderate effort",4
-home repair,"carpentry, home remodeling tasks, light effort",2.3
-home repair,"caulking, chinking log cabin",5
-home repair,"caulking, except log cabin",4.5
-home repair,cleaning gutters,5
-home repair,excavating garage,5
-home repair,hanging storm windows,5
-home repair,hanging sheet rock inside house,5
-home repair,hammering nails,3
-home repair,"home repair, general, light effort",2.5
-home repair,"home repair, general, moderate effort",4.5
-home repair,"home repair, general, vigorous effort",6
-home repair,laying or removing carpet,4.5
-home repair,"laying tile or linoleum,repairing appliances",3.8
-home repair,repairing appliances,3
-home repair,"painting, outside home",5
-home repair,"painting inside house,wallpapering, scraping paint",3.3
-home repair,painting,4.5
-home repair,"plumbing, general",3
-home repair,put on and removal of tarp – sailboat,3
-home repair,roofing,6
-home repair,sanding floors with a power sander,4.5
-home repair,scraping and painting sailboat or powerboat,4.5
-home repair,sharpening tools,2
-home repair,spreading dirt with a shovel,5
-home repair,washing and waxing hull of sailboat or airplane,4.5
-home repair,washing and waxing car,2
-home repair,"washing fence, painting fence, moderate effort",4.5
-home repair,"wiring, tapping-splicing",3.3
-inactivity quiet/light,lying quietly and watching television,1
-inactivity quiet/light,"lying quietly, doing nothing, lying in bed awake, listening to music (not talking or reading)",1.3
-inactivity quiet/light,sitting quietly and watching television,1.3
-inactivity quiet/light,"sitting quietly, general",1.3
-inactivity quiet/light,"sitting quietly, fidgeting, general, fidgeting hands",1.5
-inactivity quiet/light,"sitting, fidgeting feet",1.8
-inactivity quiet/light,"sitting, smoking",1.3
-inactivity quiet/light,"sitting, listening to music (not talking or reading) or watching a movie in a theater",1.5
-inactivity quiet/light,"sitting at a desk, resting head in hands",1.3
-inactivity quiet/light,sleeping,0.95
-inactivity quiet/light,"standing quietly, standing in a line",1.3
-inactivity quiet/light,"standing, fidgeting",1.8
-inactivity quiet/light,"reclining, writing",1.3
-inactivity quiet/light,"reclining, talking or talking on phone",1.3
-inactivity quiet/light,"reclining, reading",1.3
-inactivity quiet/light,meditating,1
-lawn and garden,"carrying, loading or stacking wood, loading/unloading or carrying lumber, light-to-moderate effort",3.3
-lawn and garden,"carrying, loading or stacking wood, loading/unloading or carrying lumber",5.5
-lawn and garden,"chopping wood, splitting logs, moderate effort",4.5
-lawn and garden,"chopping wood, splitting logs, vigorous effort",6.3
-lawn and garden,"clearing light brush, thinning garden, moderate effort",3.5
-lawn and garden,"clearing brush/land, undergrowth, or ground, hauling branches, wheelbarrow chores, vigorous effort",6.3
-lawn and garden,"digging sandbox, shoveling sand",5
-lawn and garden,"digging, spading, filling garden, composting, light-to-moderate effort",3.5
-lawn and garden,"digging, spading, filling garden, compositing",5
-lawn and garden,"digging, spading, filling garden, composting, vigorous effort",7.8
-lawn and garden,driving tractor,2.8
-lawn and garden,"felling trees, large size",8.3
-lawn and garden,"felling trees, small-medium size",5.3
-lawn and garden,"gardening with heavy power tools, tilling a garden, chain saw",5.8
-lawn and garden,"gardening, using containers, older adults > 60 years",2.3
-lawn and garden,"irrigation channels, opening and closing ports",4
-lawn and garden,laying crushed rock,6.3
-lawn and garden,laying sod,5
-lawn and garden,"mowing lawn, general",5.5
-lawn and garden,"mowing lawn, riding mower",2.5
-lawn and garden,"mowing lawn, walk, hand mower",6
-lawn and garden,"mowing lawn, walk, power mower, moderate or vigorous effort",5
-lawn and garden,"mowing lawn, power mower, light or moderate effort",4.5
-lawn and garden,"operating snow blower, walking",2.5
-lawn and garden,"planting, potting, transplanting seedlings or plants, light effort",2
-lawn and garden,"planting seedlings, shrub, stooping, moderate effort",4.3
-lawn and garden,"planting crops or garden, stooping, moderate effort",4.3
-lawn and garden,planting trees,4.5
-lawn and garden,"raking lawn or leaves, moderate effort",3.8
-lawn and garden,raking lawn,4
-lawn and garden,raking roof with snow rake,4
-lawn and garden,riding snow blower,3
-lawn and garden,"sacking grass, leaves",4
-lawn and garden,shoveling dirt or mud,5.5
-lawn and garden,"shoveling snow, by hand, moderate effort",5.3
-lawn and garden,"shoveling snow, by hand",6
-lawn and garden,"shoveling snow, by hand, vigorous effort",7.5
-lawn and garden,"trimming shrubs or trees, manual cutter",4
-lawn and garden,"trimming shrubs or trees, power cutter, using leaf blower, edge, moderate effort",3.5
-lawn and garden,"walking, applying fertilizer or seeding a lawn, push applicator",3
-lawn and garden,"watering lawn or garden, standing or walking",1.5
-lawn and garden,"weeding, cultivating garden, light-to-moderate effort",3.5
-lawn and garden,"weeding, cultivating garden",4.5
-lawn and garden,"weeding, cultivating garden, using a hoe, moderate-to-vigorous effort",5
-lawn and garden,"gardening, general, moderate effort",3.8
-lawn and garden,"picking fruit off trees, picking fruits/vegetables, moderate effort",3.5
-lawn and garden,"picking fruit off trees, gleaning fruits, picking fruits/vegetables, climbing ladder to pick fruit, vigorous effort",4.5
-lawn and garden,"implied walking/standing – picking up yard, light, picking flowers or vegetables",3.3
-lawn and garden,"walking, gathering gardening tools",3
-lawn and garden,"wheelbarrow, pushing garden cart or wheelbarrow",5.5
-lawn and garden,"yard work, general, light effort",3
-lawn and garden,"yard work, general, moderate effort",4
-lawn and garden,"yard work, general, vigorous effort",6
-miscellaneous,"board game playing, sitting",1.5
-miscellaneous,"casino gambling, standing",2.5
-miscellaneous,"card playing,sitting",1.5
-miscellaneous,"chess game, sitting",1.5
-miscellaneous,"copying documents, standing",1.5
-miscellaneous,"drawing, writing, painting, standing",1.8
-miscellaneous,"laughing, sitting",1
-miscellaneous,"sitting, reading, book, newspaper, etc.",1.3
-miscellaneous,"sitting, writing, desk work, typing",1.3
-miscellaneous,"sitting, playing traditional video game, computer game",1
-miscellaneous,"standing, talking in person, on the phone, computer, or text messaging, light effort",1.8
-miscellaneous,"sitting, talking in person, on the phone, computer, or text messaging, light effort",1.5
-miscellaneous,"sitting, studying, general, including reading and/or writing, light effort",1.3
-miscellaneous,"sitting, in class, general, including note-taking or class discussion",1.8
-miscellaneous,"standing, reading",1.8
-miscellaneous,"standing, miscellaneous",2.5
-miscellaneous,"sitting, arts and crafts, carving wood, weaving, spinning wool, light effort",1.8
-miscellaneous,"sitting, arts and crafts, carving wood, weaving, spinning wool, moderate effort",3
-miscellaneous,"standing, arts and crafts, sand painting, carving, weaving, light effort",2.5
-miscellaneous,"standing, arts and crafts, sand painting, carving, weaving, moderate effort",3.3
-miscellaneous,"standing, arts and crafts, sand painting, carving, weaving, vigorous effort",3.5
-miscellaneous,"retreat/family reunion activities involving sitting, relaxing, talking, eating",1.8
-miscellaneous,retreat/family reunion activities involving playing games with children,3
-miscellaneous,touring/traveling/vacation involving riding in a vehicle,2
-miscellaneous,touring/traveling/vacation involving walking,3.5
-miscellaneous,"camping involving standing, walking, sitting, light-to-moderate effort",2.5
-miscellaneous,"sitting at a sporting event, spectator",1.5
-music playing,"accordion, sitting",1.8
-music playing,"cello, sitting",2.3
-music playing,"conducting orchestra, standing",2.3
-music playing,"double bass, standing",2.5
-music playing,"drums, sitting",3.8
-music playing,"drumming (e.g., bongo, conga, benbe), moderate, sitting",3
-music playing,"flute, sitting",2
-music playing,"horn, standing",1.8
-music playing,"piano, sitting",2.3
-music playing,"playing musical instruments, general",2
-music playing,"organ, sitting",2
-music playing,"trombone, standing",3.5
-music playing,"trumpet, standing",1.8
-music playing,"violin, sitting",2.5
-music playing,"woodwind, sitting",1.8
-music playing,"guitar, classical, folk, sitting",2
-music playing,"guitar, rock and roll band, standing",3
-music playing,"marching band, baton twirling, walking, moderate pace, general",4
-music playing,"marching band, playing an instrument, walking, brisk pace, general",5.5
-music playing,"marching band, drum major, walking",3.5
-occupation,"active workstation, treadmill desk, walking",2.3
-occupation,airline flight attendant,3
-occupation,"bakery, general, moderate effort",4
-occupation,"bakery, light effort",2
-occupation,bookbinding,2.3
-occupation,"building road, driving heavy machinery",6
-occupation,"building road, directing traffic, standing",2
-occupation,"carpentry, general, light effort",2.5
-occupation,"carpentry, general, moderate effort",4.3
-occupation,"carpentry, general, heavy or vigorous effort",7
-occupation,"carrying heavy loads (e.g., bricks, tools)",8
-occupation,"carrying moderate loads up stairs, moving boxes 25-49 lbs",8
-occupation,"chambermaid, hotel housekeeper, making bed, cleaning bathroom, pushing cart",4
-occupation,"coal mining, drilling coal, rock",5.3
-occupation,"coal mining, erecting supports",5
-occupation,"coal mining, general",5.5
-occupation,"coal mining, shoveling coal",6.3
-occupation,"cook, chef",2.5
-occupation,"construction, outside, remodeling, new structures (e.g., roof repair, miscellaneous)",4
-occupation,"custodial work, light effort (e.g., cleaning sink and toilet, dusting, vacuuming, light cleaning)",2.3
-occupation,"custodial work, moderate effort (e.g., electric buffer, feathering arena floors, mopping, taking out trash, vacuuming)",3.8
-occupation,"electrical work (e.g., hook up wire, tapping-splicing)",3.3
-occupation,"engineer (e.g., mechanical or electrical)",1.8
-occupation,"farming, vigorous effort (e.g., baling hay, cleaning barn)",7.8
-occupation,"farming, moderate effort (e.g., feeding animals, chasing cattle by walking and/or horseback, spreading manure, harvesting crops)",4.8
-occupation,"farming, light effort (e.g., cleaning animal sheds, preparing animal feed)",2
-occupation,"farming, driving tasks (e.g., driving tractor or harvester)",2.8
-occupation,"farming, feeding small animals",3.5
-occupation,"farming, feeding cattle, horses",4.3
-occupation,"farming, hauling water for animals, general hauling water,farming, general hauling water",4.3
-occupation,"farming, taking care of animals (e.g., grooming, brushing, shearing sheep, assisting with birthing, medical care, branding), general",4.5
-occupation,"farming, rice, planting, grain milling activities",3.8
-occupation,"farming, milking by hand, cleaning pails, moderate effort",3.5
-occupation,"farming, milking by machine, light effort",1.3
-occupation,"fire fighter, general",8
-occupation,"fire fighter, rescue victim, automobile accident, using pike pole",6.8
-occupation,"fire fighter, raising and climbing ladder with full gear, simulated fire suppression",8
-occupation,"fire fighter, hauling hoses on ground, carrying/hoisting equipment, breaking down walls etc., wearing full gear",9
-occupation,"fishing, commercial, light effort",3.5
-occupation,"fishing, commercial, moderate effort",5
-occupation,"fishing, commercial, vigorous effort",7
-occupation,"forestry, ax chopping, very fast, 1.25 kg axe, 51 blows/min, extremely vigorous effort",17.5
-occupation,"forestry, ax chopping, slow, 1.25 kg axe, 19 blows/min, moderate effort",5
-occupation,"forestry, ax chopping, fast, 1.25 kg axe, 35 blows/min, vigorous effort",8
-occupation,"forestry, moderate effort (e.g., sawing wood with power saw, weeding, hoeing)",4.5
-occupation,"forestry, vigorous effort (e.g., barking, felling, or trimming trees, carrying or stacking logs, planting seeds, sawing lumber by hand)",8
-occupation,furriery,4.5
-occupation,"garbage collector, walking, dumping bins into truck",4
-occupation,"hairstylist (e.g., plaiting hair, manicure, make-up artist)",1.8
-occupation,"horse grooming, including feeding, cleaning stalls, bathing, brushing, clipping, longeing and exercising horses",7.3
-occupation,"horse, feeding, watering, cleaning stalls, implied walking and lifting loads",4.3
-occupation,"horse racing, galloping",7.3
-occupation,"horse racing, trotting",5.8
-occupation,"horse racing, walking",3.8
-occupation,kitchen maid,3
-occupation,"lawn keeper, yard work, general",4
-occupation,laundry worker,3.3
-occupation,locksmith,3
-occupation,"machine tooling (e.g., machining, working sheet metal, machine fitter, operating lathe, welding) light-to-moderate effort",3
-occupation,"Machine tooling, operating punch press, moderate effort",5
-occupation,"manager, property",1.8
-occupation,"manual or unskilled labor, general, light effort",2.8
-occupation,"manual or unskilled labor, general, moderate effort",4.5
-occupation,"manual or unskilled labor, general, vigorous effort",6.5
-occupation,"masonry, concrete, moderate effort",4.3
-occupation,"masonry, concrete, light effort",2.5
-occupation,"massage therapist, standing",4
-occupation,"moving, carrying or pushing heavy objects, 75 lbs or more, only active time (e.g., desks, moving van work)",7.5
-occupation,"skindiving or SCUBA diving as a frogman, Navy Seal",12
-occupation,"operating heavy duty equipment, automated, not driving",2.5
-occupation,"orange grove work, picking fruit",4.5
-occupation,"painting,house, furniture, moderate effort",3.3
-occupation,plumbing activities,3
-occupation,"printing, paper industry worker, standing",2
-occupation,"police, directing traffic, standing",2.5
-occupation,"police, driving a squad car, sitting",2.5
-occupation,"police, riding in a squad car, sitting",1.3
-occupation,"police, making an arrest, standing",4
-occupation,"postal carrier, walking to deliver mail",2.3
-occupation,"shoe repair, general",2
-occupation,"shoveling, digging ditches",7.8
-occupation,"shoveling, more than 16 lbs/minute, deep digging, vigorous effort",8.8
-occupation,"shoveling, less than 10 lbs/minute, moderate effort",5
-occupation,"shoveling, 10 to 15 lbs/minute, vigorous effort",6.5
-occupation,"sitting tasks, light effort (e.g., office work, chemistry lab work, computer work, light assembly repair, watch repair, reading, desk work)",1.5
-occupation,"sitting meetings, light effort, general, and/or with talking involved (e.g., eating at a business meeting)",1.5
-occupation,"sitting tasks, moderate effort (e.g., pushing heavy levers, riding mower/forklift, crane operation)",2.5
-occupation,"sitting, teaching stretching or yoga, or light effort exercise class",2.8
-occupation,"standing tasks, light effort (e.g., bartending, store clerk, assembling, filing, duplicating, librarian, putting up a Christmas tree, standing and talking at work, changing clothes when teaching physical education, standing)",3
-occupation,"standing, light/moderate effort (e.g., assemble/repair heavy parts, welding,stocking parts,auto repair,standing, packing boxes, nursing patient care)",3
-occupation,"standing, moderate effort, lifting items continuously, 10 – 20 lbs, with limited walking or resting",4.5
-occupation,"standing, moderate effort, intermittent lifting 50 lbs, hitch/twisting ropes",3.5
-occupation,"standing, moderate/heavy tasks (e.g., lifting more than 50 lbs, masonry, painting, paper hanging)",4.5
-occupation,"steel mill, moderate effort (e.g., fettling, forging, tipping molds)",5.3
-occupation,"steel mill, vigorous effort (e.g., hand rolling, merchant mill rolling, removing slag, tending furnace)",8.3
-occupation,"tailoring, cutting fabric",2.3
-occupation,"tailoring, general",2.5
-occupation,"tailoring, hand sewing",1.8
-occupation,"tailoring, machine sewing",2.5
-occupation,"tailoring, pressing",3.5
-occupation,"tailoring, weaving, light effort (e.g., finishing operations, washing, dyeing, inspecting cloth, counting yards, paperwork)",2
-occupation,"tailoring, weaving, moderate effort (e.g., spinning and weaving operations, delivering boxes of yam to spinners, loading of warp bean, pinwinding, conewinding, warping, cloth cutting)",4
-occupation,"truck driving, loading and unloading truck, tying down load, standing, walking and carrying heavy loads",6.5
-occupation,"Truck, driving delivery truck, taxi, shuttlebus, school bus",2
-occupation,"typing, electric, manual or computer",1.3
-occupation,"using heavy power tools such as pneumatic tools (e.g., jackhammers, drills)",6.3
-occupation,"using heavy tools (not power) such as shovel, pick, tunnel bar, spade",8
-occupation,"walking on job, less than 2.0 mph, very slow speed, in office or lab area",2
-occupation,"walking on job, 3.0 mph, in office, moderate speed, not carrying anything",3.5
-occupation,"walking on job, 3.5 mph, in office, brisk speed, not carrying anything",4.3
-occupation,"walking on job, 2.5 mph, slow speed and carrying light objects less than 25 lbs",3.5
-occupation,"walking, gathering things at work, ready to leave",3
-occupation,"walking, 2.5 mph, slow speed, carrying heavy objects more than 25 lbs",3.8
-occupation,"walking, 3.0 mph, moderately and carrying light objects less than 25 lbs",4.5
-occupation,"walking, pushing a wheelchair",3.5
-occupation,"walking, 3.5 mph, briskly and carrying objects less than 25 lbs",4.8
-occupation,"walking or walk downstairs or standing, carrying objects about 25 to 49 lbs",5
-occupation,"walking or walk downstairs or standing, carrying objects about 50 to 74 lbs",6.5
-occupation,"walking or walk downstairs or standing, carrying objects about 75 to 99 lbs",7.5
-occupation,"walking or walk downstairs or standing, carrying objects about 100 lbs or more",8.5
-occupation,"working in scene shop, theater actor, backstage employee",3
-running,jog/walk combination (jogging component of less than 10 minutes),6
-running,"jogging, general",7
-running,"jogging, in place",8
-running,"jogging, on a mini-tramp",4.5
-running,"Running, 4 mph (13 min/mile)",6
-running,"running, 5 mph (12 min/mile)",8.3
-running,"running, 5.2 mph (11.5 min/mile)",9
-running,"running, 6 mph (10 min/mile)",9.8
-running,"running, 6.7 mph (9 min/mile)",10.5
-running,"running, 7 mph (8.5 min/mile)",11
-running,"running, 7.5 mph (8 min/mile)",11.5
-running,"running, 8 mph (7.5 min/mile)",11.8
-running,"running, 8.6 mph (7 min/mile)",12.3
-running,"running, 9 mph (6.5 min/mile)",12.8
-running,"running, 10 mph (6 min/mile)",14.5
-running,"running, 11 mph (5.5 min/mile)",16
-running,"running, 12 mph (5 min/mile)",19
-running,"running, 13 mph (4.6 min/mile)",19.8
-running,"running, 14 mph (4.3 min/mile)",23
-running,"running, cross country",9
-running,running,8
-running,"running, stairs, up",15
-running,"running, on a track, team practice",10
-running,"running, training, pushing a wheelchair or baby carrier",8
-running,"running, marathon",13.3
-self care,"getting ready for bed, general, standing",2.3
-self care,"sitting on toilet, eliminating while standing or squatting",1.8
-self care,"bathing, sitting",1.5
-self care,"dressing, undressing, standing or sitting",2.5
-self care,"eating, sitting",1.5
-self care,"talking and eating or eating only, standing",2
-self care,"taking medication, sitting or standing",1.5
-self care,"grooming, washing hands, shaving, brushing teeth, putting on make-up, sitting or standing",2
-self care,"hairstyling, standing",2.5
-self care,"having hair or nails done by someone else, sitting",1.3
-self care,"showering, toweling off, standing",2
-sexual activity,"active, vigorous effort",2.8
-sexual activity,"general, moderate effort",1.8
-sexual activity,"passive, light effort, kissing, hugging",1.3
-sports,"Alaska Native Games, Eskimo Olympics, general",5.5
-sports,"archery, non-hunting",4.3
-sports,"badminton, competitive",7
-sports,"badminton, social singles and doubles, general",5.5
-sports,"basketball, game",8
-sports,"basketball, non-game, general",6
-sports,"basketball, general",6.5
-sports,"basketball, officiating",7
-sports,"basketball, shooting baskets",4.5
-sports,"basketball, drills, practice",9.3
-sports,"basketball, wheelchair",7.8
-sports,billiards,2.5
-sports,bowling,3
-sports,"bowling, indoor, bowling alley",3.8
-sports,"boxing, in ring, general",12.8
-sports,"boxing, punching bag",5.5
-sports,"boxing, sparring",7.8
-sports,broomball,7
-sports,"children’s games, adults playing (e.g., hopscotch, 4-square, dodgeball, playground apparatus, t-ball, tetherball, marbles, arcade games), moderate effort",5.8
-sports,"cheerleading, gymnastic moves, competitive",6
-sports,"coaching, football, soccer, basketball, baseball, swimming, etc.",4
-sports,"coaching, actively playing sport with players",8
-sports,"cricket, batting, bowling, fielding",4.8
-sports,croquet,3.3
-sports,curling,4
-sports,"darts, wall or lawn",2.5
-sports,"drag racing, pushing or driving a car",6
-sports,"auto racing, open wheel",8.5
-sports,fencing,6
-sports,"football, competitive",8
-sports,"football, touch, flag, general",8
-sports,"football, touch, flag, light effort",4
-sports,"football or baseball, playing catch",2.5
-sports,"frisbee playing, general",3
-sports,"frisbee, ultimate",8
-sports,"golf, general",4.8
-sports,"golf, walking, carrying clubs",4.3
-sports,"golf, miniature, driving range",3
-sports,"golf, walking, pulling clubs",5.3
-sports,"golf, using power cart",3.5
-sports,"gymnastics, general",3.8
-sports,hacky sack,4
-sports,"handball, general",12
-sports,"handball, team",8
-sports,"high ropes course, multiple elements",4
-sports,hang gliding,3.5
-sports,"hockey, field",7.8
-sports,"hockey, ice, general",8
-sports,"hockey, ice, competitive",10
-sports,"horseback riding, general",5.5
-sports,"horse chores, feeding, watering, cleaning stalls, implied walking and lifting loads",4.3
-sports,"saddling, cleaning, grooming, harnessing and unharnessing horse",4.5
-sports,"horseback riding, trotting",5.8
-sports,"horseback riding, canter or gallop",7.3
-sports,"horseback riding,walking",3.8
-sports,"horseback riding, jumping",9
-sports,"horse cart, driving, standing or sitting",1.8
-sports,"horseshoe pitching, quoits",3
-sports,jai alai,12
-sports,"martial arts, different types, slower pace, novice performers, practice",5.3
-sports,"martial arts, different types, moderate pace (e.g., judo, jujitsu, karate, kick boxing, tae kwan do, tai-bo, Muay Thai boxing)",10.3
-sports,juggling,4
-sports,kickball,7
-sports,lacrosse,8
-sports,"lawn bowling, bocce ball, outdoor",3.3
-sports,"moto-cross, off-road motor sports, all-terrain vehicle, general",4
-sports,orienteering,9
-sports,"paddleball, competitive",10
-sports,"paddleball, casual, general",6
-sports,"polo, on horseback",8
-sports,"racquetball, competitive",10
-sports,"racquetball, general",7
-sports,rock or mountain climbing,8
-sports,"rock climbing, ascending rock, high difficulty",7.5
-sports,"rock climbing, ascending or traversing rock, low-to-moderate difficulty",5.8
-sports,"rock climbing, rappelling",5
-sports,"rodeo sports, general, light effort",4
-sports,"rodeo sports, general, moderate effort",5.5
-sports,"rodeo sports, general, vigorous effort",7
-sports,"rope jumping, fast pace, 120-160 skips/min",12.3
-sports,"rope jumping, moderate pace, 100-120 skips/min, general, 2 foot skip, plain bounce",11.8
-sports,"rope jumping, slow pace, < 100 skips/min, 2 foot skip, rhythm bounce",8.8
-sports,"rugby, union, team, competitive",8.3
-sports,"rugby, touch, non-competitive",6.3
-sports,shuffleboard,3
-sports,"skateboarding, general, moderate effort",5
-sports,"skateboarding, competitive, vigorous effort",6
-sports,"skating, roller",7
-sports,"rollerblading, in-line skating, 14.4 km/h (9.0 mph), recreational pace",7.5
-sports,"rollerblading, in-line skating, 17.7 km/h (11.0 mph), moderate pace, exercise training",9.8
-sports,"rollerblading, in-line skating, 21.0 to 21.7 km/h (13.0 to 13.6 mph), fast pace, exercise training",12.3
-sports,"rollerblading, in-line skating, 24.0 km/h (15.0 mph), maximal effort",14
-sports,"skydiving, base jumping, bungee jumping",3.5
-sports,"soccer, competitive",10
-sports,"soccer, casual, general",7
-sports,"softball or baseball, fast or slow pitch, general",5
-sports,"softball, practice",4
-sports,"softball, officiating",4
-sports,"softball, pitching",6
-sports,"sports spectator, very excited, emotional, physically moving",3.3
-sports,squash,12
-sports,"squash, general",7.3
-sports,"table tennis, ping pong",4
-sports,"tai chi, qi gong, general",3
-sports,"tai chi, qi gong, sitting, light effort",1.5
-sports,"tennis, general",7.3
-sports,"tennis, doubles",6
-sports,"tennis, doubles",4.5
-sports,"tennis, singles",8
-sports,"tennis, hitting balls, non-game play, moderate effort",5
-sports,"trampoline, recreational",3.5
-sports,"trampoline, competitive",4.5
-sports,volleyball,4
-sports,"volleyball, competitive, in gymnasium",6
-sports,"volleyball, non-competitive, 6 – 9 member team, general",3
-sports,"volleyball, beach, in sand",8
-sports,wrestling (one match = 5 minutes),6
-sports,"wallyball, general",7
-sports,"track and field (e.g., shot, discus, hammer throw)",4
-sports,"track and field (e.g., high jump, long jump, triple jump, javelin, pole vault)",6
-sports,"track and field (e.g., steeplechase, hurdles)",10
-transportation,automobile or light truck (not a semi) driving,2.5
-transportation,riding in a car or truck,1.3
-transportation,riding in a bus or train,1.3
-transportation,flying airplane or helicopter,1.8
-transportation,"motor scooter, motorcycle",3.5
-transportation,pulling rickshaw,6.3
-transportation,pushing plane in and out of hangar,6
-transportation,"truck, semi, tractor, > 1 ton, or bus, driving",2.5
-transportation,"walking for transportation, 2.8-3.2 mph, level, moderate pace, firm surface",3.5
-walking,backpacking,7
-walking,"backpacking, hiking or organized walking with a daypack",7.8
-walking,"carrying 15 pound load (e.g. suitcase), level ground or downstairs",5
-walking,"carrying 15 lb child, slow walking",2.3
-walking,"carrying load upstairs, general",8.3
-walking,"carrying 1 to 15 lb load, upstairs",5
-walking,"carrying 16 to 24 lb load, upstairs",6
-walking,"carrying 25 to 49 lb load, upstairs",8
-walking,"carrying 50 to 74 lb load, upstairs",10
-walking,"carrying > 74 lb load, upstairs",12
-walking,"loading /unloading a car, implied walking",3.5
-walking,"climbing hills, no load",6.3
-walking,climbing hills with 0 to 9 lb load,6.5
-walking,climbing hills with 10 to 20 lb load,7.3
-walking,climbing hills with 21 to 42 lb load,8.3
-walking,climbing hills with 42+ lb load,9
-walking,descending stairs,3.5
-walking,"hiking, cross country",6
-walking,hiking or walking at a normal pace through fields and hillsides,5.3
-walking,"bird watching, slow walk",2.5
-walking,"marching, moderate speed, military, no pack",4.5
-walking,"marching rapidly, military, no pack",8
-walking,"pushing or pulling stroller with child or walking with children, 2.5 to 3.1 mph",4
-walking,"pushing a wheelchair, non-occupational",3.8
-walking,race walking,6.5
-walking,"stair climbing, using or climbing up ladder",8
-walking,"stair climbing, slow pace",4
-walking,"stair climbing, fast pace",8.8
-walking,using crutches,5
-walking,"walking, household",2
-walking,"walking, less than 2.0 mph, level, strolling, very slow",2
-walking,"walking, 2.0 mph, level, slow pace, firm surface",2.8
-walking,walking for pleasure,3.5
-walking,"walking from house to car or bus, from car or bus to go places, from car or bus to and from the worksite",2.5
-walking,walking to neighbor’s house or family’s house for social reasons,2.5
-walking,walking the dog,3
-walking,"walking, 2.5 mph, level, firm surface",3
-walking,"walking, 2.5 mph, downhill",3.3
-walking,"walking, 2.8 to 3.2 mph, level, moderate pace, firm surface",3.5
-walking,"walking, 3.5 mph, level, brisk, firm surface, walking for exercise",4.3
-walking,"walking, 2.9 to 3.5 mph, uphill, 1 to 5% grade",5.3
-walking,"walking, 2.9 to 3.5 mph, uphill, 6% to 15% grade",8
-walking,"walking, 4.0 mph, level, firm surface, very brisk pace",5
-walking,"walking, 4.5 mph, level, firm surface, very, very brisk",7
-walking,"walking, 5.0 mph, level, firm surface",8.3
-walking,"walking, 5.0 mph, uphill, 3% grade",9.8
-walking,"walking, for pleasure, work break",3.5
-walking,"walking, grass track",4.8
-walking,"walking, normal pace, plowed field or sand",4.5
-walking,"walking, to work or class",4
-walking,"walking, to and from an outhouse",2.5
-walking,"walking, for exercise, 3.5 to 4 mph, with ski poles, Nordic walking, level, moderate pace",4.8
-walking,"walking, for exercise, 5.0 mph, with ski poles, Nordic walking, level, fast pace",9.5
-walking,"walking, for exercise, with ski poles, Nordic walking, uphill",6.8
-walking,"walking, backwards, 3.5 mph, level",6
-walking,"walking, backwards, 3.5 mph, uphill, 5% grade",8
-water activities,"boating, power, driving",2.5
-water activities,"boating, power, passenger, light",1.3
-water activities,"canoeing, on camping trip",4
-water activities,"canoeing, harvesting wild rice, knocking rice off the stalks",3.3
-water activities,"canoeing, portaging",7
-water activities,"canoeing, rowing, 2.0-3.9 mph, light effort",2.8
-water activities,"canoeing, rowing, 4.0-5.9 mph, moderate effort",5.8
-water activities,"canoeing, rowing, kayaking, competition, >6 mph, vigorous effort",12.5
-water activities,"canoeing, rowing, for pleasure, general",3.5
-water activities,"canoeing, rowing, in competition, or crew or sculling",12
-water activities,"diving, springboard or platform",3
-water activities,"kayaking, moderate effort",5
-water activities,paddle boat,4
-water activities,"sailing, boat and board sailing, windsurfing, ice sailing, general",3
-water activities,"sailing, in competition",4.5
-water activities,"sailing, Sunfish/Laser/Hobby Cat, Keel boats, ocean sailing, yachting, leisure",3.3
-water activities,"skiing, water or wakeboarding",6
-water activities,"jet skiing, driving, in water",7
-water activities,"skindiving, fast",15.8
-water activities,"skindiving, moderate",11.8
-water activities,"skindiving, scuba diving, general",7
-water activities,snorkeling,5
-water activities,"surfing, body or board, general",3
-water activities,"surfing, body or board, competitive",5
-water activities,"paddle boarding, standing",6
-water activities,"swimming laps, freestyle, fast, vigorous effort",9.8
-water activities,"swimming laps, freestyle, front crawl, slow, light or moderate effort",5.8
-water activities,"swimming, backstroke, general, training or competition",9.5
-water activities,"swimming, backstroke, recreational",4.8
-water activities,"swimming, breaststroke, general, training or competition",10.3
-water activities,"swimming, breaststroke, recreational",5.3
-water activities,"swimming, butterfly, general",13.8
-water activities,"swimming, crawl, fast speed, ~75 yards/minute, vigorous effort",10
-water activities,"swimming, crawl, medium speed, ~50 yards/minute, vigorous effort",8.3
-water activities,"swimming, lake, ocean, river",6
-water activities,"swimming, leisurely, not lap swimming, general",6
-water activities,"swimming, sidestroke, general",7
-water activities,"swimming, synchronized",8
-water activities,"swimming, treading water, fast, vigorous effort",9.8
-water activities,"swimming, treading water, moderate effort, general",3.5
-water activities,"tubing, floating on a river, general",2.3
-water activities,"water aerobics, water calisthenics",5.5
-water activities,water polo,10
-water activities,water volleyball,3
-water activities,water jogging,9.8
-water activities,"water walking, light effort, slow pace",2.5
-water activities,"water walking, moderate effort, moderate pace",4.5
-water activities,"water walking, vigorous effort, brisk pace",6.8
-water activities,"whitewater rafting, kayaking, or canoeing",5
-water activities,"windsurfing, not pumping for speed",5
-water activities,"windsurfing or kitesurfing, crossing trial",11
-water activities,"windsurfing, competition, pumping for speed",13.5
-winter activities,"dog sledding, mushing",7.5
-winter activities,"dog sledding, passenger",2.5
-winter activities,"moving ice house, set up/drill holes",6
-winter activities,"ice fishing, sitting",2
-winter activities,"skating, ice dancing",14
-winter activities,"skating, ice, 9 mph or less",5.5
-winter activities,"skating, ice, general",7
-winter activities,"skating, ice, rapidly, more than 9 mph, not competitive",9
-winter activities,"skating, speed, competitive",13.3
-winter activities,"ski jumping, climb up carrying skis",7
-winter activities,"skiing, general",7
-winter activities,"skiing, cross country, 2.5 mph, slow or light effort, ski walking",6.8
-winter activities,"skiing, cross country, 4.0-4.9 mph, moderate speed and effort, general",9
-winter activities,"skiing, cross country, 5.0-7.9 mph, brisk speed, vigorous effort",12.5
-winter activities,"skiing, cross country, >8.0 mph, elite skier, racing",15
-winter activities,"skiing, cross country, hard snow, uphill, maximum, snow mountaineering",15.5
-winter activities,"skiing, cross-country, skating",13.3
-winter activities,"skiing, cross-country, biathlon, skating technique",13.5
-winter activities,"skiing, downhill, alpine or snowboarding, light effort, active time only",4.3
-winter activities,"skiing, downhill, alpine or snowboarding, moderate effort, general, active time only",5.3
-winter activities,"skiing, downhill, vigorous effort, racing",8
-winter activities,"skiing, roller, elite racers",12.5
-winter activities,"sledding, tobogganing, bobsledding, luge",7
-winter activities,"snow shoeing, moderate effort",5.3
-winter activities,"snow shoeing, vigorous effort",10
-winter activities,"snowmobiling, driving, moderate",3.5
-winter activities,"snowmobiling, passenger",2
-winter activities,"snow shoveling, by hand, moderate effort",5.3
-winter activities,"snow shoveling, by hand, vigorous effort",7.5
-winter activities,"snow blower, walking and pushing",2.5
-religious activities,"sitting in church, in service, attending a ceremony, sitting quietly",1.3
-religious activities,"sitting, playing an instrument at church",2
-religious activities,"sitting in church, talking or singing, attending a ceremony, sitting, active participation",1.8
-religious activities,"sitting, reading religious materials at home",1.3
-religious activities,"standing quietly in church, attending a ceremony",1.3
-religious activities,"standing, singing in church, attending a ceremony, standing, active participation",2
-religious activities,"kneeling in church or at home, praying",1.3
-religious activities,"standing, talking in church",1.8
-religious activities,walking in church,2
-religious activities,"walking, less than 2.0 mph, very slow",2
-religious activities,"walking, 3.0 mph, moderate speed, not carrying anything",3.5
-religious activities,"walking, 3.5 mph, brisk speed, not carrying anything",4.3
-religious activities,"walk/stand combination for religious purposes, usher",2
-religious activities,"praise with dance or run, spiritual dancing in church",5
-religious activities,serving food at church,2.5
-religious activities,preparing food at church,2
-religious activities,"washing dishes, cleaning kitchen at church",3.3
-religious activities,eating at church,1.5
-religious activities,"eating/talking at church or standing eating, American Indian Feast days",2
-religious activities,cleaning church,3.3
-religious activities,general yard work at church,4
-religious activities,"standing, moderate effort (e.g., lifting heavy objects, assembling at fast rate)",3.5
-religious activities,"Standing, moderate-to-heavy effort, manual labor, lifting 50 lbs, heavy maintenance",4.5
-religious activities,"typing, electric, manual, or computer",1.3
-volunteer activities,"sitting, meeting, general, and/or with talking involved",1.5
-volunteer activities,"sitting, light office work, in general",1.5
-volunteer activities,"sitting, moderate work",2.5
-volunteer activities,"standing, light work (filing, talking, assembling)",2.3
-volunteer activities,"sitting, child care, only active periods",2
-volunteer activities,"standing, child care, only active periods",3
-volunteer activities,"walk/run play with children, moderate, only active periods",3.5
-volunteer activities,"walk/run play with children, vigorous, only active periods",5.8
-volunteer activities,"standing, light/moderate work (e.g., pack boxes, assemble/repair, set up chairs/furniture)",3
-volunteer activities,"standing, moderate (lifting 50 lbs., assembling at fast rate)",3.5
-volunteer activities,"standing, moderate/heavy work",4.5
-volunteer activities,"typing, electric, manual, or computer",1.3
-volunteer activities,"walking, less than 2.0 mph, very slow",2
-volunteer activities,"walking, 3.0 mph, moderate speed, not carrying anything",3.5
-volunteer activities,"walking, 3.5 mph, brisk speed, not carrying anything",4.3
-volunteer activities,"walking, 2.5 mph slowly and carrying objects less than 25 lbs",3.5
-volunteer activities,"walking, 3.0 mph moderately and carrying objects less than 25 lbs, pushing something",4.5
-volunteer activities,"walking, 3.5 mph, briskly and carrying objects less than 25 lbs",4.8
-volunteer activities,"walk/stand combination, for volunteer purposes",3
+Hovedkategori,Aktivitetskode,MET-værdi,Aktivitetsbeskrivelse (Dansk)
+Cykling,1003,14,"Cykling, mountainbike, op ad bakke, høj intensitet"
+Cykling,1004,16,"Cykling, mountainbike, konkurrenceløb"
+Cykling,1008,8.5,"Cykling, BMX"
+Cykling,1009,8.5,"Cykling, mountainbike, generelt"
+Cykling,1010,4,"Cykling, <16 km/t, fritid, til arbejde eller for fornøjelse (Taylor-kode 115)"
+Cykling,1011,6.8,"Cykling, til/fra arbejde, selvvalgt tempo"
+Cykling,1013,5.8,"Cykling, på grus- eller markvej, moderat tempo"
+Cykling,1014,7,"Cykling, generelt"
+Cykling,1015,4.3,"Cykling, selvvalgt roligt tempo"
+Cykling,1016,7,"Cykling, selvvalgt moderat tempo"
+Cykling,1017,9,"Cykling, selvvalgt højt tempo"
+Cykling,1018,3.5,"Cykling, fritid, 9 km/t"
+Cykling,1019,5.8,"Cykling, fritid, 15 km/t"
+Cykling,1020,6.8,"Cykling, 16-19 km/t, fritid, langsomt, let indsats"
+Cykling,1030,8,"Cykling, 19-22 km/t, fritid, moderat indsats"
+Cykling,1040,10,"Cykling, 22-25 km/t, løb eller fritid, hurtigt, hård indsats"
+Cykling,1050,12,"Cykling, 25-30 km/t, løb/uden læ eller >30 km/t i læ, meget hurtigt, løb generelt"
+Cykling,1060,16.8,"Cykling, >32 km/t, løb, uden læ"
+Cykling,1065,8.5,"Cykling, 19 km/t, siddende, hænder på bremsegreb eller i bøjlen, 80 omdr./min"
+Cykling,1066,9,"Cykling, 19 km/t, stående, hænder på bremsegreb, 60 omdr./min"
+Cykling,1070,5,Et-hjulet cykling
+Cykling,1080,6.8,"Elcykel, uden motorhjælp"
+Cykling,1084,6,"Elcykel, med let motorhjælp"
+Cykling,1088,4,"Elcykel, med kraftig motorhjælp"
+Cykling,1200,6.8,"Cykling, kondicykel, generelt"
+Cykling,1210,3.5,"Cykling, kondicykel, 25-30 watt, meget let til let indsats"
+Cykling,1214,4,"Cykling, kondicykel, 50 watt, let indsats"
+Cykling,1216,5,"Cykling, kondicykel, 60 watt, let til moderat indsats"
+Cykling,1218,5.8,"Cykling, kondicykel, 70-80 watt"
+Cykling,1220,6,"Cykling, kondicykel, 90-100 watt, moderat til hård indsats"
+Cykling,1224,6.8,"Cykling, kondicykel, 101-125 watt"
+Cykling,1228,8,"Cykling, kondicykel, 126-150 watt"
+Cykling,1232,10.3,"Cykling, kondicykel, 151-199 watt"
+Cykling,1236,10.8,"Cykling, kondicykel, 200-229 watt, hård indsats"
+Cykling,1240,12.5,"Cykling, kondicykel, 230-250 watt, meget hård indsats"
+Cykling,1244,13.8,"Cykling, kondicykel, 270-305 watt, meget hård indsats"
+Cykling,1248,16.3,"Cykling, kondicykel, >325 watt, meget hård indsats"
+Cykling,1252,5.5,"Cykling, kun koncentrisk, 100 W"
+Cykling,1254,11,"Cykling, kun koncentrisk, 200 W"
+Cykling,1262,2.3,"Cykling, kun excentrisk, 100 til 149 W"
+Cykling,1264,4,"Cykling, kun excentrisk, 200 W"
+Cykling,1270,9,"Cykling, kondicykel, RPM/spinninghold"
+Cykling,1290,8.8,"Cykling, interaktiv virtuel cykling, indendørs cykelergometer"
+Cykling,1305,8.8,"Cykling, højintensiv intervaltræning (HIIT)"
+Kondition og styrketræning,2000,7.3,"Aerobic, generelt"
+Kondition og styrketræning,2001,5.5,"Step-aerobic, 10 cm trin"
+Kondition og styrketræning,2002,7.3,"Step-aerobic, 15-20 cm trin"
+Kondition og styrketræning,2003,9,"Step-aerobic, 25-30 cm trin"
+Kondition og styrketræning,2004,7.8,"Step-holdtræning, generelt"
+Kondition og styrketræning,2005,4.8,"Aerobic-dans, low impact, moderat indsats"
+Kondition og styrketræning,2006,8,"Aerobic-dans, high impact, hård indsats"
+Kondition og styrketræning,2007,10,"Aerobic-dans med 4,5-7 kg vægte"
+Kondition og styrketræning,2008,5,"Militær forhindringsbane, boot camp-træningsprogram"
+Kondition og styrketræning,2020,7.5,"Kropsvægtstræning (f.eks. armbøjninger, mavebøjninger, kropshævninger, englehop, burpees, battle ropes), hård indsats"
+Kondition og styrketræning,2022,3.8,"Kropsvægtstræning (f.eks. armbøjninger, mavebøjninger, kropshævninger, lunges), moderat indsats"
+Kondition og styrketræning,2024,2.8,"Kropsvægtstræning (f.eks. maveøvelser, planken), let indsats"
+Kondition og styrketræning,2030,3.5,"Kropsvægtstræning, let eller moderat indsats, generelt (f.eks. rygøvelser), op og ned fra gulvet (Taylor-kode 150)"
+Kondition og styrketræning,2032,6,"Cirkeltræning, kropsvægtsøvelser"
+Kondition og styrketræning,2034,3.5,"Cirkeltræning, let indsats"
+Kondition og styrketræning,2035,5,"Cirkeltræning, moderat indsats"
+Kondition og styrketræning,2040,7.5,"Cirkeltræning (inkl. kettlebells, lidt aerob bevægelse med minimal hvile), generelt, høj intensitet"
+Kondition og styrketræning,2045,3.5,Curves™ træningsrutiner for kvinder
+Kondition og styrketræning,2048,5,"Crosstrainer (elliptisk maskine), moderat indsats"
+Kondition og styrketræning,2049,9,"Crosstrainer (elliptisk maskine), hård indsats"
+Kondition og styrketræning,2052,5,"Styrke- / vægttræning, squats, dødløft, langsom eller eksplosiv indsats"
+Kondition og styrketræning,2054,3.5,"Styrke- / vægttræning, flere øvelser, 8-15 gentagelser ved varieret modstand"
+Kondition og styrketræning,2055,5.8,"Styrketræning, cirkeltræning, supersets, PHA-træning"
+Kondition og styrketræning,2056,3,"Kropsvægtstræning (f.eks. squat, lunge, armbøjning, mavebøjning), generelt"
+Kondition og styrketræning,2057,6.5,"Kropsvægtstræning (f.eks. squat, lunge, armbøjning, mavebøjning), høj intensitet"
+Kondition og styrketræning,2058,9.8,Kettlebell swings
+Kondition og styrketræning,2060,5.5,"Træningscenter (fitness), generelt (Taylor-kode 160)"
+Kondition og styrketræning,2061,5,"Holdtræning i fitnesscenter generelt, kondition og vægttræning kombineret i ét besøg"
+Kondition og styrketræning,2062,7.8,"Træningscenter (fitness), konditionshold"
+Kondition og styrketræning,2064,3.8,"Hjemmetræning, generelt"
+Kondition og styrketræning,2065,9.3,"Trappemaskine (stairmaster), generelt"
+Kondition og styrketræning,2068,11,"Sjippetovstræning, generelt"
+Kondition og styrketræning,2069,9,"Sjippetov, Digi-Jump maskine, 120 hop/minut"
+Kondition og styrketræning,2070,7.3,"Roning, romaskine, generelt, hård indsats"
+Kondition og styrketræning,2071,5,"Roning, romaskine, generelt, <100 watt, moderat indsats"
+Kondition og styrketræning,2072,7.5,"Roning, romaskine, 100 til 149 watt, hård indsats"
+Kondition og styrketræning,2073,11,"Roning, romaskine, 150 til 199 watt, hård indsats"
+Kondition og styrketræning,2074,14,"Roning, romaskine, ≥ 200 watt, meget hård indsats"
+Kondition og styrketræning,2078,11,Shuttle run (løb frem/tilbage/sidelæns)
+Kondition og styrketræning,2080,6.8,"Skimaskine, generelt"
+Kondition og styrketræning,2082,10.5,"Skiergometer (stager), langrend, dobbelt stavtag, langsom til moderat hastighed"
+Kondition og styrketræning,2084,18,"Skiergometer (stager), langrend, dobbelt stavtag, hurtig til maksimal hastighed"
+Kondition og styrketræning,2085,10.5,"Slide board-træning, generelt"
+Kondition og styrketræning,2090,6,"Slimnastics, jazzercise"
+Kondition og styrketræning,2101,2.3,"Udstrækning, let"
+Kondition og styrketræning,2103,1.8,"Pilates, traditionel, på måtte"
+Kondition og styrketræning,2105,2.8,"Pilates, generelt"
+Kondition og styrketræning,2107,8.5,Pound (kombination af pilates og kropsbevægelser med trommestikker)
+Kondition og styrketræning,2108,4.5,Pole dancing (holdtræning)
+Kondition og styrketræning,2110,6.8,"Undervise i holdtræning (f.eks. aerobic, vandgymnastik)"
+Kondition og styrketræning,2112,2.8,"Træningsbold (Fitball), træning"
+Kondition og styrketræning,2114,9.5,"Træningsbold (Fitball), træning, høj intensitet"
+Kondition og styrketræning,2115,2.8,"Overkropstræning, armcykel, generelt, let"
+Kondition og styrketræning,2116,2,"Armcykel, 15W"
+Kondition og styrketræning,2117,2.8,"Armcykel, 25-30W"
+Kondition og styrketræning,2118,3.5,"Armcykel, 45W"
+Kondition og styrketræning,2119,4.3,"Overkropstræning, motionscykel med arme (Airdyne, kun arme) 40 omdr/min, moderat intensitet"
+Kondition og styrketræning,2120,5.3,"Vandaerobic, vandgymnastik, træning i vand"
+Kondition og styrketræning,2135,1.3,"Spabad, siddende"
+Kondition og styrketræning,2140,2.5,"Videotræning, tv-programmer (f.eks. yoga, udstrækning, siddende), let indsats"
+Kondition og styrketræning,2143,4,"Videotræning, tv-programmer (f.eks. cardio-styrketræning), moderat indsats"
+Kondition og styrketræning,2145,6,"Videotræning, tv-programmer (f.eks. cardio-styrketræning), hård indsats"
+Kondition og styrketræning,2150,2.3,"Yoga, Hatha"
+Kondition og styrketræning,2153,8,"Yoga, Hatha, høj intensitet"
+Kondition og styrketræning,2155,3,"Yoga, Hot yoga"
+Kondition og styrketræning,2160,4,"Yoga, Power yoga"
+Kondition og styrketræning,2170,2,"Yoga, Nadi Shodhana (åndedrætsøvelser)"
+Kondition og styrketræning,2175,2.3,"Yoga, Generelt"
+Kondition og styrketræning,2180,3.5,"Yoga, Surya Namaskar (Solhilsen)"
+Kondition og styrketræning,2185,2.7,"Yoga, Vinyasa"
+Kondition og styrketræning,2200,5.3,"Newzealandsk indfødt aktivitet (f.eks. Haka, Poi), generelt moderat indsats"
+Kondition og styrketræning,2205,6.8,"Newzealandsk indfødt aktivitet, generelt, hård indsats"
+Kondition og styrketræning,2210,7,"Højintensiv intervaltræning, moderat indsats"
+Kondition og styrketræning,2214,11,"Højintensiv intervaltræning, burpees, mountain climbers, squat jumps, Tabata, hård indsats"
+Kondition og styrketræning,2225,2.3,"Balance Exercise Assist Robot (BEAR), simuleret skiløb, tennis, rodeo"
+Kondition og styrketræning,2230,5.8,Hulahopring
+Kondition og styrketræning,2240,9,"Impulse Training System, inertitræningsmaskine"
+Kondition og styrketræning,2280,7.9,"Virtual Reality Fitness (Supernatural™ Flow, boksning), høj intensitet"
+Kondition og styrketræning,2284,9.3,"ExerCube, træningsserie"
+Kondition og styrketræning,2288,13,"Blackbox virtual reality træningssystem, høj intensitet"
+Kondition og styrketræning,2300,3,"Stavtræning, Life-Build-Line"
+Kondition og styrketræning,2310,6.5,"Zumba, holdtræning"
+Kondition og styrketræning,2315,5.5,"Zumba, hjemmevideo"
+Kondition og styrketræning,2340,2.8,"Rejse-sætte-sig-øvelse, 6-12 gange/min"
+Kondition og styrketræning,2344,4,"Rejse-sætte-sig-øvelse, 18-24 gange/min"
+Dans,3005,6,"Afrocubansk salsa (cubansk cha-cha-cha, mambo, afro-rumba osv.)"
+Dans,3010,5,"Ballet, moderne dans eller jazzdans, generelt, prøve eller undervisning"
+Dans,3011,6.3,"Balletøvelser (plié, tendu, jeté, rond de jambe osv.)"
+Dans,3012,6.8,"Ballet, moderne dans eller jazzdans, forestilling, hård indsats"
+Dans,3014,4.8,Stepdans
+Dans,3025,4.5,"Etnisk eller kulturel dans (f.eks. græsk, mellemøstlig, mavedans, flamenco, swing)"
+Dans,3028,5.5,"Kinesisk square dance, ballet & tibetansk dans"
+Dans,3029,7.3,"Kinesisk square dance, aerobic"
+Dans,3030,5.5,"Selskabsdans, hurtig (Taylor-kode 125)"
+Dans,3031,9.8,"Natklub- eller folkedans, hård indsats (f.eks. disco, linedance, irsk step, polka)"
+Dans,3033,5,"Folkedans, moderat indsats"
+Dans,3038,11.3,"Selskabsdans, konkurrence, generelt"
+Dans,3040,3,"Selskabsdans, langsom (f.eks. vals, foxtrot, samba, tango, rumba, cha-cha-cha)"
+Dans,3042,6,"Selskabsdans, fritid (vals, foxtrot, cha-cha-cha, swing)"
+Dans,3050,5.5,"Traditionel indiansk dans (f.eks. Jingle dance), rask tempo, moderat indsats"
+Dans,3070,3.8,"Contemporary (moderne) dans, generelt"
+Dans,3072,4.3,"Contemporary (moderne) dans, natklub"
+Dans,3075,8.5,Flamencodans
+Dans,3078,4.5,"Jazzdans, generelt"
+Dans,3080,10.3,"Musicalteater, sang og dans"
+Dans,3085,5.8,"Polynesisk dans, hawaiiansk hula (langsom), maori haka, tongansk"
+Dans,3086,7,"Polynesisk dans, hawaiiansk hula (hurtig), samoansk sasa, filippinsk tinikling"
+Dans,3087,8.8,"Polynesisk dans, samoansk slap dance, tahitiansk"
+Dans,3090,4.8,"Salsadans, med partner"
+Dans,3091,6.3,"Salsadans, til en video"
+Dans,3093,5.5,"Square dance, country/western"
+Fiskeri og jagt,4001,3.5,"Fiskeri, generelt"
+Fiskeri og jagt,4005,4.5,Krabbe-fiskeri
+Fiskeri og jagt,4007,4,"Fiskeri, fange fisk med hænderne"
+Fiskeri og jagt,4010,4.3,"Fiskerelateret, grave orm med skovl"
+Fiskeri og jagt,4020,4,Fiskeri fra flodbred og gående
+Fiskeri og jagt,4030,2,"Fiskeri fra båd eller kano, siddende"
+Fiskeri og jagt,4040,3.5,"Fiskeri fra flodbred, stående (Taylor-kode 660)"
+Fiskeri og jagt,4050,6,"Fiskeri i å/vandløb, iført waders (Taylor-kode 670)"
+Fiskeri og jagt,4060,2,"Isfiskeri, siddende"
+Fiskeri og jagt,4061,1.8,"Fiskeri med pirk eller snøre, stående, generelt"
+Fiskeri og jagt,4062,3.5,"Fiskeri med sænkenet, sætte net og fange fisk, generelt"
+Fiskeri og jagt,4063,3.8,"Fiskeri med garn, sætte garn og fange fisk, generelt"
+Fiskeri og jagt,4064,3,"Fiskeri med fiskehjul, sætte net og fange fisk, generelt"
+Fiskeri og jagt,4065,2.3,"Fiskeri med spyd, stående"
+Fiskeri og jagt,4070,2.5,"Jagt, bue og pil eller armbrøst"
+Fiskeri og jagt,4080,6,"Jagt, hjort, elg, storvildt (Taylor-kode 170)"
+Fiskeri og jagt,4081,9.8,"Jagt på storvildt, trække byttet"
+Fiskeri og jagt,4083,4,Jagt på store havdyr
+Fiskeri og jagt,4085,2.5,"Jagt, storvildt fra skydetårn, begrænset gang"
+Fiskeri og jagt,4086,2,"Jagt på storvildt fra bil, fly eller båd"
+Fiskeri og jagt,4090,2.5,"Andejagt, vadende"
+Fiskeri og jagt,4095,3,"Jagt på flyvehunde, egern"
+Fiskeri og jagt,4100,5,"Jagt, generelt"
+Fiskeri og jagt,4110,6,"Jagt, fasaner eller ryper (Taylor-kode 680)"
+Fiskeri og jagt,4115,3.3,Fuglejagt
+Fiskeri og jagt,4120,5,"Jagt, kanin, egern, vaskebjørn, småvildt (Taylor-kode 690)"
+Fiskeri og jagt,4123,3.3,Vildsvinejagt
+Fiskeri og jagt,4124,2,"Fældefangst, generelt"
+Fiskeri og jagt,4125,9.5,Jagt - vandring med jagtudstyr
+Fiskeri og jagt,4130,2.5,"Pistolskydning eller flugtskydning, stående"
+Fiskeri og jagt,4140,2.3,"Riffelskydning, liggende"
+Fiskeri og jagt,4145,2.5,"Riffelskydning, knælende eller stående"
+Fiskeri og jagt,4150,2.8,"Sankning, 0-10 kg rygsæk"
+Fiskeri og jagt,4152,3,"Sankning, 10-15 kg rygsæk"
+Fiskeri og jagt,4160,1,"Sidde i båd, passager"
+Fiskeri og jagt,4164,1.5,Stå i båd
+Fiskeri og jagt,4168,3.3,"Aktiviteter i en båd, løfte, sænke"
+Husholdningsaktiviteter,5010,3.3,"Rengøring, støvsugning eller fejning af gulv, generelt"
+Husholdningsaktiviteter,5011,2.3,"Rengøring, fejning, langsomt, let indsats"
+Husholdningsaktiviteter,5012,3.8,"Rengøring, fejning, hurtigt, moderat indsats"
+Husholdningsaktiviteter,5020,3.5,"Rengøring, tung eller stor (f.eks. bilvask, rengøring af garage), moderat indsats"
+Husholdningsaktiviteter,5021,3.5,"Rengøring, gulvvask, stående, moderat indsats"
+Husholdningsaktiviteter,5022,3.3,"Vinduespudsning, generelt"
+Husholdningsaktiviteter,5023,2.5,"Gulvvask, stående, let indsats"
+Husholdningsaktiviteter,5024,4.5,"Gulvpolering, stående, gå langsomt, med elektrisk polermaskine"
+Husholdningsaktiviteter,5025,2.8,"Flere husholdningsopgaver på én gang, let indsats"
+Husholdningsaktiviteter,5026,3.3,"Flere husholdningsopgaver på én gang, moderat indsats"
+Husholdningsaktiviteter,5027,4.3,"Flere husholdningsopgaver på én gang, hård indsats"
+Husholdningsaktiviteter,5030,3.3,"Rengøring af hus eller hytte, generelt, moderat indsats"
+Husholdningsaktiviteter,5032,2.5,"Aftørring af støv eller polering af møbler, generelt"
+Husholdningsaktiviteter,5035,3.3,"Køkkenaktivitet, generelt (f.eks. madlavning, opvask, oprydning), moderat indsats"
+Husholdningsaktiviteter,5040,2.5,"Rengøring, generelt (oprydning, skift af sengetøj, gå ud med skrald), let indsats"
+Husholdningsaktiviteter,5041,2,"Opvask, stående eller generelt"
+Husholdningsaktiviteter,5042,2,"Opvask, rydde bordet, gående, let indsats"
+Husholdningsaktiviteter,5043,3,"Støvsugning, generelt, moderat indsats"
+Husholdningsaktiviteter,5044,3,Slagtning af små dyr
+Husholdningsaktiviteter,5045,6,"Slagtning af store dyr, hård indsats"
+Husholdningsaktiviteter,5046,2.3,"Skære og ryge fisk, tørre fisk eller kød"
+Husholdningsaktiviteter,5048,4,"Garvning af skind, generelt"
+Husholdningsaktiviteter,5049,3.5,"Madlavning eller forberedelse af mad, moderat indsats"
+Husholdningsaktiviteter,5051,2.3,"Madlavning eller forberedelse af mad, gående"
+Husholdningsaktiviteter,5052,2.3,"Servere mad, dække/rydde bordet, gående eller stående"
+Husholdningsaktiviteter,5053,2.5,Fodre husdyr
+Husholdningsaktiviteter,5054,3.5,"Bære indkøb, på plant underlag, gående"
+Husholdningsaktiviteter,5055,2.5,Sætte indkøb på plads (f.eks. bære poser/pakker)
+Husholdningsaktiviteter,5056,5.3,Bære indkøb ovenpå
+Husholdningsaktiviteter,5057,3,Bage indisk brød eller lave anden mad på udendørs komfur
+Husholdningsaktiviteter,5060,3.3,Indkøb af mad med eller uden indkøbsvogn; bære 4-5 kg pose; stående eller gående
+Husholdningsaktiviteter,5065,2.3,"Indkøb af non-food, med eller uden vogn, stående eller gående"
+Husholdningsaktiviteter,5070,1.8,Strygning
+Husholdningsaktiviteter,5080,1.3,"Strikke, sy, let indsats, pakke gaver ind, siddende"
+Husholdningsaktiviteter,5082,2.8,Sy på symaskine
+Husholdningsaktiviteter,5091,2,"Tøjvask, folde eller hænge tøj op, siddende"
+Husholdningsaktiviteter,5092,4,"Tøjvask, moderat indsats"
+Husholdningsaktiviteter,5095,2,"Tøjvask, lægge tøj på plads, samle tøj til pakning, gående"
+Husholdningsaktiviteter,5100,3,"Rede seng, skifte sengetøj"
+Husholdningsaktiviteter,5110,5,Aftapning af ahornsirup (inkl. bære spande og brænde)
+Husholdningsaktiviteter,5120,5.8,"Flytte møbler, husholdningsartikler, bære flyttekasser"
+Husholdningsaktiviteter,5121,5,"Flytning, løft af lette byrder"
+Husholdningsaktiviteter,5125,4.8,Oprydning af et rum
+Husholdningsaktiviteter,5130,3.5,"Skure gulv, på alle fire, skure badeværelse/badekar, moderat indsats"
+Husholdningsaktiviteter,5131,2,"Skure gulv, på alle fire, skure badeværelse/badekar, let indsats"
+Husholdningsaktiviteter,5132,6.5,"Skure gulv, på alle fire, skure badeværelse/badekar, hård indsats"
+Husholdningsaktiviteter,5140,3,"Feje garage, fortov eller udendørsarealer"
+Husholdningsaktiviteter,5147,3,"Gående, sætte husholdningsartikler på plads, moderat indsats"
+Husholdningsaktiviteter,5148,2,Vande planter
+Husholdningsaktiviteter,5149,2.5,Tænde op i pejsen indendørs
+Husholdningsaktiviteter,5150,9,"Bære husholdningsartikler ovenpå, bære kasser eller møbler"
+Husholdningsaktiviteter,5160,2,"Stående, lette opgaver (pumpe benzin, skifte pære, osv.)"
+Husholdningsaktiviteter,5165,3.5,"Gående, moderate opgaver, ikke-rengøring (gøre klar til at tage hjemmefra, låse døre osv.)"
+Husholdningsaktiviteter,5170,2.3,"Sidde og lege med barn/børn, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5171,2.8,"Stå og lege med barn/børn, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5175,3.5,"Gå/løbe, lege med barn/børn, moderat indsats, kun aktive perioder"
+Husholdningsaktiviteter,5180,5.8,"Gå/løbe, lege med barn/børn, hård indsats, kun aktive perioder"
+Husholdningsaktiviteter,5181,3,Gå og bære lille barn (over 7 kg)
+Husholdningsaktiviteter,5182,2.5,Gå og bære lille barn (under 7 kg)
+Husholdningsaktiviteter,5183,2,"Stående, holde barn"
+Husholdningsaktiviteter,5184,2.5,"Børnepasning, spædbarn, generelt"
+Husholdningsaktiviteter,5185,2,"Børnepasning: siddende eller knælende, påklædning, badning, madning, lette løft af barn, generelt"
+Husholdningsaktiviteter,5186,3.5,"Børnepasning: stående, påklædning, badning, madning, lette løft af barn"
+Husholdningsaktiviteter,5188,1.5,Ligge ned med baby
+Husholdningsaktiviteter,5189,2,"Amning, siddende eller liggende"
+Husholdningsaktiviteter,5190,2.5,"Sidde og lege med dyr, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5191,2.8,"Stå og lege med dyr, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5192,2.8,"Gå eller løbe, lege med dyr, generelt, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5193,4,"Gå/løbe, lege med dyr, moderat indsats, kun aktive perioder"
+Husholdningsaktiviteter,5194,5,"Gå/løbe, lege med dyr, hård indsats, kun aktive perioder"
+Husholdningsaktiviteter,5195,3.5,"Stående, bade hund"
+Husholdningsaktiviteter,5197,2.3,"Dyrepleje, husdyr, generelt"
+Husholdningsaktiviteter,5200,3,"Ældrepleje, handikappet voksen, badning, påklædning, hjælp ind/ud af sengen, kun aktive perioder"
+Husholdningsaktiviteter,5205,1.8,"Ældrepleje, handikappet voksen, madning, rede hår, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5300,1.3,Håndvask
+Boligreparation og vedligeholdelse,6010,3,Flyreparation
+Boligreparation og vedligeholdelse,6020,4,Karosseriarbejde
+Boligreparation og vedligeholdelse,6030,3.3,"Bilreparation, let eller moderat indsats"
+Boligreparation og vedligeholdelse,6040,3,"Tømrerarbejde, generelt, værksted (Taylor-kode 620)"
+Boligreparation og vedligeholdelse,6050,6,"Tømrerarbejde, udendørs (Taylor-kode 640)"
+Boligreparation og vedligeholdelse,6052,3.8,"Tømrerarbejde, udendørs, bygge et hegn"
+Boligreparation og vedligeholdelse,6060,3.3,"Snedkerarbejde, lakering eller renovering af skabe/møbler"
+Boligreparation og vedligeholdelse,6070,6,"Tømrerarbejde, save i hårdttræ, høvle og bore, moderat til hård indsats"
+Boligreparation og vedligeholdelse,6072,4,"Tømrerarbejde, renovering af hjemmet, moderat indsats"
+Boligreparation og vedligeholdelse,6074,2.3,"Tømrerarbejde, renovering af hjemmet, let indsats"
+Boligreparation og vedligeholdelse,6080,5,"Fugning, tætning af bjælkehytte"
+Boligreparation og vedligeholdelse,6090,4.5,"Fugning, undtagen bjælkehytte"
+Boligreparation og vedligeholdelse,6100,5,Rensning af tagrender
+Boligreparation og vedligeholdelse,6110,5,Udgravning af garage
+Boligreparation og vedligeholdelse,6120,5,Opsætning af forsatsvinduer
+Boligreparation og vedligeholdelse,6122,5,Opsætning af gipsplader indendørs
+Boligreparation og vedligeholdelse,6124,3,Slå søm i
+Boligreparation og vedligeholdelse,6126,2.5,"Boligreparation, generelt, let indsats"
+Boligreparation og vedligeholdelse,6127,4.5,"Boligreparation, generelt, moderat indsats"
+Boligreparation og vedligeholdelse,6128,6,"Boligreparation, generelt, hård indsats"
+Boligreparation og vedligeholdelse,6130,4.5,Lægge eller fjerne gulvtæppe
+Boligreparation og vedligeholdelse,6140,3.8,Lægge klinker eller linoleum
+Boligreparation og vedligeholdelse,6144,3,Reparation af hvidevarer/apparater
+Boligreparation og vedligeholdelse,6150,5,"Maling, udendørs (Taylor-kode 650)"
+Boligreparation og vedligeholdelse,6160,3.3,"Maling indendørs, tapetsering, skrabe maling"
+Boligreparation og vedligeholdelse,6165,4.5,Maling (Taylor-kode 630)
+Boligreparation og vedligeholdelse,6167,3,"VVS-arbejde, generelt"
+Boligreparation og vedligeholdelse,6170,3,Pålægning og fjernelse af presenning – sejlbåd
+Boligreparation og vedligeholdelse,6180,6,Tagarbejde
+Boligreparation og vedligeholdelse,6190,4.5,Slibe gulv med el-sliber
+Boligreparation og vedligeholdelse,6200,4.5,Skrabe og male sejlbåd eller motorbåd
+Boligreparation og vedligeholdelse,6205,2,Slibning af værktøj
+Boligreparation og vedligeholdelse,6210,5,Sprede jord med en skovl
+Boligreparation og vedligeholdelse,6220,4.5,Vask og voksning af skrog på sejlbåd eller fly
+Boligreparation og vedligeholdelse,6225,2,Bilvask og voksning
+Boligreparation og vedligeholdelse,6230,4.5,"Vask af hegn, maling af hegn, moderat indsats"
+Boligreparation og vedligeholdelse,6240,3.3,"Ledningsarbejde, samling af kabler"
+Inaktivitet og hvile,7009,1,Ligge stille og se fjernsyn
+Inaktivitet og hvile,7011,1,"Ligge stille, lave ingenting, ligge vågen i sengen, lytte til musik (uden at tale eller læse)"
+Inaktivitet og hvile,7020,1,Sidde og se fjernsyn
+Inaktivitet og hvile,7021,1,"Sidde stille, generelt"
+Inaktivitet og hvile,7022,1.5,"Sidde stille, rastløs, generelt, pille ved ting med hænderne"
+Inaktivitet og hvile,7023,1.8,"Sidde stille, vippe med fødderne"
+Inaktivitet og hvile,7024,1.3,Sidde og ryge
+Inaktivitet og hvile,7025,1.5,Sidde og lytte til musik (uden at tale/læse) eller se film i biografen
+Inaktivitet og hvile,7026,1.3,"Sidde ved et skrivebord, hvile hovedet i hænderne"
+Inaktivitet og hvile,7030,1,Sove
+Inaktivitet og hvile,7040,1.3,Stå stille (f.eks. stå i kø)
+Inaktivitet og hvile,7041,1.5,Stående (rastløs/småbevægelser)
+Inaktivitet og hvile,7045,1.3,Stå og se fjernsyn
+Inaktivitet og hvile,7050,1.5,"Ligge ned/tilbagelænet, skrive"
+Inaktivitet og hvile,7060,1.3,"Ligge ned/tilbagelænet, tale eller tale i telefon"
+Inaktivitet og hvile,7070,1.3,"Ligge ned/tilbagelænet, læse"
+Inaktivitet og hvile,7075,1,Meditation
+Have- og udendørsarbejde,8009,4.1,"Bære, læsse eller stable brænde/tømmer, let til moderat indsats"
+Have- og udendørsarbejde,8010,5.5,"Bære, læsse eller stable brænde/tømmer, moderat indsats"
+Have- og udendørsarbejde,8019,4.5,"Hugge/kløve brænde, moderat indsats"
+Have- og udendørsarbejde,8020,6.5,"Hugge/kløve brænde, hård indsats"
+Have- og udendørsarbejde,8025,3.5,"Rydde let krat, udtynde have, moderat indsats"
+Have- og udendørsarbejde,8030,6.3,"Rydde jord, slæbe krat eller muld, hård indsats"
+Have- og udendørsarbejde,8040,5,"Grave i sandkasse, skovle sand"
+Have- og udendørsarbejde,8045,3.5,"Grave, vende jord, fylde jord på, kompostere, let til moderat indsats"
+Have- og udendørsarbejde,8050,5,"Grave, vende jord, fylde jord på, kompostere (Taylor-kode 590)"
+Have- og udendørsarbejde,8052,7.3,"Grave, vende jord, fylde jord på, kompostere, hård indsats"
+Have- og udendørsarbejde,8055,2.8,Køre traktor
+Have- og udendørsarbejde,8057,8.3,"Fælde træer, store"
+Have- og udendørsarbejde,8058,5.3,"Fælde træer, små/mellemstore"
+Have- og udendørsarbejde,8060,5.8,"Havearbejde med tunge maskiner, bruge motorsav, fræse jord"
+Have- og udendørsarbejde,8066,2,"Havearbejde, generelt"
+Have- og udendørsarbejde,8070,4,"Vandingskanaler, åbne og lukke sluser"
+Have- og udendørsarbejde,8080,6.3,Lægge granitskærver eller grus
+Have- og udendørsarbejde,8090,5,Lægge rullegræs
+Have- og udendørsarbejde,8095,5.5,"Græsslåning, generelt, gående, moderat indsats"
+Have- og udendørsarbejde,8100,2.5,"Græsslåning, havetraktor (Taylor-kode 550)"
+Have- og udendørsarbejde,8110,6,"Græsslåning, håndskubber, hård indsats (Taylor-kode 570)"
+Have- og udendørsarbejde,8120,5,"Græsslåning, gående, motorplæneklipper, moderat eller hård indsats"
+Have- og udendørsarbejde,8125,4.5,"Græsslåning, motorplæneklipper, let eller moderat indsats (Taylor-kode 590)"
+Have- og udendørsarbejde,8130,2.5,"Køre sneslynge, gående"
+Have- og udendørsarbejde,8135,2.6,"Plante, omplante stiklinger eller planter, let indsats"
+Have- og udendørsarbejde,8140,4.3,"Plante stiklinger/buske, foroverbøjet, moderat indsats"
+Have- og udendørsarbejde,8145,4.3,"Plante afgrøder i have/mark, foroverbøjet, moderat indsats"
+Have- og udendørsarbejde,8150,4.5,Plante træer
+Have- og udendørsarbejde,8160,4,"Rive græsplæne eller blade sammen, moderat indsats"
+Have- og udendørsarbejde,8165,4,Rive græsplæne (Taylor-kode 600)
+Have- og udendørsarbejde,8170,4,Rive sne ned af tag med snerive
+Have- og udendørsarbejde,8180,3,Køre sneslynge (siddende)
+Have- og udendørsarbejde,8190,4,Samle græs/blade i sække
+Have- og udendørsarbejde,8192,5.5,Skovle jord eller mudder
+Have- og udendørsarbejde,8195,5.3,"Skovle sne med håndkraft, moderat indsats"
+Have- og udendørsarbejde,8200,6,Skovle sne med håndkraft (Taylor-kode 610)
+Have- og udendørsarbejde,8202,7.5,"Skovle sne med håndkraft, hård indsats"
+Have- og udendørsarbejde,8210,3.8,Klippe buske eller træer med håndværktøj
+Have- og udendørsarbejde,8215,3.3,"Klippe buske/træer med el-værktøj, bruge løvblæser/kantskærer, moderat indsats"
+Have- og udendørsarbejde,8220,3,"Gående, gøde eller så græs med skubbe-spreder"
+Have- og udendørsarbejde,8230,4,"Vande græsplæne eller have, stående eller gående"
+Have- og udendørsarbejde,8239,3.8,"Luge ukrudt, kultivere have, let til moderat indsats"
+Have- og udendørsarbejde,8240,4.5,"Luge ukrudt, kultivere have, moderat indsats (Taylor-kode 580)"
+Have- og udendørsarbejde,8241,5,"Luge ukrudt, kultivere have med hakkejern, moderat til hård indsats"
+Have- og udendørsarbejde,8245,3.8,"Havearbejde, generelt, moderat indsats"
+Have- og udendørsarbejde,8246,3.5,"Plukke frugt eller kaffebønner fra træer, moderat indsats"
+Have- og udendørsarbejde,8248,4.5,"Høste afgrøder, plukke frugt fra træer, samle frugt, klatre på stige for at plukke frugt, hård indsats"
+Have- og udendørsarbejde,8250,3,"Gående/stående - rydde op i haven, let, plukke blomster eller grøntsager"
+Have- og udendørsarbejde,8251,3,"Gående, samle haveredskaber"
+Have- og udendørsarbejde,8255,4.8,"Skubbe havevogn eller trillebør, generelt"
+Have- og udendørsarbejde,8256,6,Skubbe stor havevogn eller tung trillebør (op til 150 kg)
+Have- og udendørsarbejde,8260,2.3,"Have/udendørsarbejde, generelt, let indsats"
+Have- og udendørsarbejde,8261,4,"Have/udendørsarbejde, generelt, moderat indsats"
+Have- og udendørsarbejde,8262,6,"Have/udendørsarbejde, generelt, hård indsats"
+Diverse,9000,1.3,"Spille brætspil, siddende"
+Diverse,9005,2.5,"Spille casinospil, stående"
+Diverse,9010,1.5,"Spille kort, siddende"
+Diverse,9013,1.5,"Spille skak, siddende"
+Diverse,9015,1.5,"Kopiere eller arkivere dokumenter, stående"
+Diverse,9020,1.8,"Tegne, skrive, male, stående"
+Diverse,9025,1,"Grine, siddende"
+Diverse,9030,1,"Siddende: læse bog, avis eller magasin"
+Diverse,9034,1.8,Siddende: skrive eller læse på balancebold/stol
+Diverse,9036,2,"Se fjernsyn, trippe/gå på stedet under reklamepauser"
+Diverse,9040,1.3,"Siddende: skrive, skrivebordsarbejde, tastearbejde"
+Diverse,9050,1.3,"Stående: tale personligt, i telefon, ved computer, sms'e, skrive"
+Diverse,9055,1.3,"Siddende: tale personligt, i telefon, ved computer eller sms'e, let indsats"
+Diverse,9060,1.5,"Siddende - studere, generelt, inkl. læsning og/eller skrivning, let indsats"
+Diverse,9065,1.8,"Siddende - i klasse/undervisning, generelt, inkl. tage noter eller klassediskussion"
+Diverse,9070,1,Stående - læse
+Diverse,9071,2.5,Stående - diverse
+Diverse,9075,1.8,"Siddende: kunsthåndværk, træskæring, vævning, spinde uld, let indsats"
+Diverse,9080,3,"Siddende: kunsthåndværk, træskæring, vævning, spinde uld, moderat indsats"
+Diverse,9085,2.5,"Stående: kunsthåndværk, sandmaling, træskæring, vævning, let indsats"
+Diverse,9090,3.3,"Stående - kunsthåndværk, sandmaling, træskæring, vævning, moderat indsats"
+Diverse,9095,3.5,"Stående - kunsthåndværk, sandmaling, træskæring, vævning, hård indsats"
+Diverse,9100,1.5,"Retræte/familiekomsammen, inkl. sidde, slappe af, tale, spise"
+Diverse,9101,2.5,"Retræte/familiekomsammen, inkl. spille spil/lege med børn"
+Diverse,9105,2,"Tur/rejse/ferie, køre som passager i køretøj"
+Diverse,9106,3.5,"Tur/rejse/ferie, gående"
+Diverse,9110,2.5,"Camping, stående, gående, siddende, let til moderat indsats"
+Diverse,9115,1.5,"Sidde til sportsbegivenhed, tilskuer"
+Musikutøvelse,10010,1.8,"Spille harmonika, siddende"
+Musikutøvelse,10020,2.3,"Spille cello, siddende"
+Musikutøvelse,10030,2.3,"Dirigere orkester, stående"
+Musikutøvelse,10035,2.5,"Spille kontrabas, stående"
+Musikutøvelse,10040,3.8,"Spille trommesæt, siddende"
+Musikutøvelse,10045,3,"Trommespil (f.eks. bongo, conga), moderat, siddende"
+Musikutøvelse,10048,8.3,"Trommespil, koncert/liveshow"
+Musikutøvelse,10050,2,"Spille tværfløjte, siddende"
+Musikutøvelse,10060,1.8,"Spille horn, stående"
+Musikutøvelse,10070,2.3,"Spille klaver, siddende"
+Musikutøvelse,10074,2,"Spille musikinstrument, generelt"
+Musikutøvelse,10077,2,"Spille orgel, siddende"
+Musikutøvelse,10080,3.5,"Spille trækbasun (trombone), stående"
+Musikutøvelse,10090,2.5,"Spille trompet, stående"
+Musikutøvelse,10100,2.5,"Spille violin, siddende"
+Musikutøvelse,10110,1.8,"Spille træblæser, siddende"
+Musikutøvelse,10115,1.8,"Spille messingblæser, siddende"
+Musikutøvelse,10120,2,"Spille guitar, klassisk/folk, siddende"
+Musikutøvelse,10125,3,"Spille el-guitar i rockband, stående"
+Musikutøvelse,10130,4,"Marchband, svinge tamburstav, gående, moderat tempo, generelt"
+Musikutøvelse,10131,5.5,"Marchband, spille instrument, gående, rask tempo, generelt"
+Musikutøvelse,10135,3.5,"Marchband, tamburmajor, gående"
+Erhvervsarbejde,11000,2,"Aktiv arbejdsstation, kontorcykel, balancebold/stol, generelt, let indsats"
+Erhvervsarbejde,11001,3.5,"Aktiv arbejdsstation, kontorcykel (40 watt)"
+Erhvervsarbejde,11002,5.3,"Aktiv arbejdsstation, kontorcykel (80 watt)"
+Erhvervsarbejde,11003,2,"Aktiv arbejdsstation, gåbånd, gå langsomt (under 1,6 km/t)"
+Erhvervsarbejde,11004,2.8,"Aktiv arbejdsstation, gåbånd, gå 1,6 - 3,2 km/t"
+Erhvervsarbejde,11006,3,Stewardesse / kabinepersonale
+Erhvervsarbejde,11008,4.8,Æblehøst
+Erhvervsarbejde,11010,4,"Bageri, generelt, moderat indsats"
+Erhvervsarbejde,11015,2,"Bageri, let indsats"
+Erhvervsarbejde,11020,2.3,Bogbinding
+Erhvervsarbejde,11030,6,"Vejbyggeri, køre entreprenørmaskiner"
+Erhvervsarbejde,11035,2,"Vejbyggeri, dirigere trafik, stående"
+Erhvervsarbejde,11038,2.5,"Tømrerarbejde, generelt, let indsats"
+Erhvervsarbejde,11040,4.3,"Tømrerarbejde, generelt, moderat indsats"
+Erhvervsarbejde,11042,7,"Tømrerarbejde, generelt, tung eller hård indsats"
+Erhvervsarbejde,11050,8,"Bære tunge byrder (f.eks. mursten, værktøj)"
+Erhvervsarbejde,11060,8,"Bære moderate byrder op ad trapper, flyttekasser, 11-22 kg"
+Erhvervsarbejde,11070,4,"Stuepige/rengøring på hotel, rede seng, rengøre bad, skubbe vogn"
+Erhvervsarbejde,11072,4.3,"Rengøring, støvsugning af erhvervslokaler"
+Erhvervsarbejde,11080,5.3,"Kulminedrift, bore i kul/sten"
+Erhvervsarbejde,11090,5,"Kulminedrift, opsætte støtter"
+Erhvervsarbejde,11100,5.5,"Kulminedrift, generelt"
+Erhvervsarbejde,11110,6.3,"Kulminedrift, skovle kul med håndkraft"
+Erhvervsarbejde,11115,2.5,Kok
+Erhvervsarbejde,11120,4,"Bygge- og anlægsarbejde, udendørs, renovering, nybyggeri"
+Erhvervsarbejde,11124,2.3,"Byggearbejde, armering, bukke/binde jern"
+Erhvervsarbejde,11125,2.3,"Rengøringsarbejde, let indsats (f.eks. vaske vask/toilet, støve af, støvsuge)"
+Erhvervsarbejde,11130,3.3,"Elektrikerarbejde (f.eks. trække kabler, samle ledninger)"
+Erhvervsarbejde,11135,1.8,Ingeniør (f.eks. maskin- eller el-ingeniør)
+Erhvervsarbejde,11145,7.8,"Landbrug, hård indsats (f.eks. pakke hø, muge ud)"
+Erhvervsarbejde,11147,2,"Landbrug, let indsats (f.eks. rengøre dyrestalde, blande foder)"
+Erhvervsarbejde,11170,2.8,"Landbrug, køreopgaver (f.eks. køre traktor eller mejetærsker)"
+Erhvervsarbejde,11180,3.5,"Landbrug, fodre smådyr"
+Erhvervsarbejde,11190,4.3,"Landbrug, fodre kvæg eller heste"
+Erhvervsarbejde,11191,4.3,"Landbrug, hente vand til dyr fra brønd/å"
+Erhvervsarbejde,11195,3.8,"Landbrug, ris, plantning, kornmaling"
+Erhvervsarbejde,11210,3.5,"Landbrug, håndmalkning, rengøre spande, moderat indsats"
+Erhvervsarbejde,11220,1.3,"Landbrug, maskinmalkning, let indsats"
+Erhvervsarbejde,11222,3,"Landbrug, malkning af køer, komplet proces i moderne malkestald"
+Erhvervsarbejde,11240,8,"Brandmand, generelt"
+Erhvervsarbejde,11244,6.8,"Brandmand, redde offer, bilulykke, bruge brandhage"
+Erhvervsarbejde,11245,8,"Brandmand, rejse og klatre på stige i fuld mundering, simuleret brandslukning"
+Erhvervsarbejde,11246,9,"Brandmand, trække slanger, bære udstyr, bryde vægge ned, i fuld mundering"
+Erhvervsarbejde,11247,3.5,"Erhvervsfiskeri, let indsats"
+Erhvervsarbejde,11248,5,"Erhvervsfiskeri, moderat indsats"
+Erhvervsarbejde,11250,17.5,"Skovbrug, hugge med økse, meget hurtigt (1,25 kg økse, 51 slag/min), ekstremt hård indsats"
+Erhvervsarbejde,11260,5,"Skovbrug, hugge med økse, langsomt (1,25 kg økse, 19 slag/min), moderat indsats"
+Erhvervsarbejde,11262,8,"Skovbrug, hugge med økse, hurtigt (1,25 kg økse, 35 slag/min), hård indsats"
+Erhvervsarbejde,11264,5,"Skovbrug, moderat indsats (f.eks. save med motorsav, luge, hakke)"
+Erhvervsarbejde,11370,4.8,Buntmager (pelsarbejde)
+Erhvervsarbejde,11375,3.8,"Skraldemand, gående, tømme spande i bil, gaderengøring"
+Erhvervsarbejde,11378,1.8,"Frisør / Kosmetolog (f.eks. flette hår, manicure, makeup)"
+Erhvervsarbejde,11380,7.3,"Hestepleje (inkl. fodring, muge ud, vask, børstning, klipning, longering)"
+Erhvervsarbejde,11381,4.3,"Heste, fodre, vande, muge ud, gående og løfte byrder"
+Erhvervsarbejde,11383,4.5,"Ridning, arbejde, drive kvæg"
+Erhvervsarbejde,11390,7.8,"Hestevæddeløb, galop, canter"
+Erhvervsarbejde,11400,6.3,"Hestevæddeløb, jockey, trav"
+Erhvervsarbejde,11410,2.3,"Hestevæddeløb, jockey, skridt"
+Erhvervsarbejde,11413,3,Køkkenmedhjælper
+Erhvervsarbejde,11415,4,"Gartner, havearbejde, generelt"
+Erhvervsarbejde,11416,3,"Gartner, fjerne ukrudt (benzindrevet værktøj)"
+Erhvervsarbejde,11418,3.3,Vaskeriarbejder
+Erhvervsarbejde,11420,3,Låsesmed
+Erhvervsarbejde,11430,3,"Maskinarbejder (f.eks. pladearbejde, drejebænk, svejsning), let til moderat indsats"
+Erhvervsarbejde,11450,5,"Maskinarbejder, betjene stansemaskine, moderat indsats"
+Erhvervsarbejde,11472,1.8,Ejendomsadministrator/vicevært
+Erhvervsarbejde,11475,2.8,"Manuelt eller ufaglært arbejde, generelt, let indsats"
+Erhvervsarbejde,11476,4.5,"Manuelt eller ufaglært arbejde, generelt, moderat indsats"
+Erhvervsarbejde,11477,6.5,"Manuelt eller ufaglært arbejde, generelt, hård indsats"
+Erhvervsarbejde,11480,4.3,"Murerarbejde, beton, moderat indsats"
+Erhvervsarbejde,11482,2.5,"Murerarbejde, beton, let indsats"
+Erhvervsarbejde,11485,5.5,"Massør, stående"
+Erhvervsarbejde,11486,2.3,"Postbud, gående uddeling af post"
+Erhvervsarbejde,11487,1.5,"Postbud, på knallert/motorcykel"
+Erhvervsarbejde,11488,3.5,"Postbud, på elcykel"
+Erhvervsarbejde,11490,7.5,"Flytning, bære/skubbe tunge byrder (over 34 kg), f.eks. flyttemand (kun aktiv tid)"
+Erhvervsarbejde,11493,8.5,"Minedrift, generelle opgaver, boring, support (mekanik, svejsning, rørarbejde)"
+Erhvervsarbejde,11495,12,"Frømand, SCUBA-dykning (militær/Navy Seal)"
+Erhvervsarbejde,11500,2.5,"Betjene tunge maskiner, stationært"
+Erhvervsarbejde,11510,3.5,"Arbejde i appelsinplantage, plukke frugt"
+Erhvervsarbejde,11514,3.3,"Malerarbejde, hus/møbler, moderat indsats"
+Erhvervsarbejde,11516,3,VVS-arbejde
+Erhvervsarbejde,11520,2,"Trykkeriarbejder, papirindustri, stående"
+Erhvervsarbejde,11524,3.8,"Politibetjent, gående patrulje"
+Erhvervsarbejde,11525,2.5,"Politi, dirigere trafik, stående"
+Erhvervsarbejde,11526,2,"Politi, køre patruljevogn, siddende"
+Erhvervsarbejde,11527,1.3,"Politi, passager i patruljevogn, siddende"
+Erhvervsarbejde,11528,4,"Politi, foretage anholdelse, stående"
+Erhvervsarbejde,11529,9,"Antiterror-manøvrer, rydde bygning"
+Erhvervsarbejde,11530,2,"Skomager, generelt"
+Erhvervsarbejde,11540,7.3,"Skovle, grave grøfter"
+Erhvervsarbejde,11550,8.8,"Skovle (mere end 7 kg/min), grave dybt, hård indsats"
+Erhvervsarbejde,11560,5,"Skovle (mindre end 4,5 kg/min), moderat indsats"
+Erhvervsarbejde,11570,6.5,"Skovle (4,5 - 7 kg/min), hård indsats"
+Erhvervsarbejde,11580,1.5,"Siddende arbejde, let indsats (f.eks. kontor, laborant, urmager, læse)"
+Erhvervsarbejde,11582,1.3,"Siddende, computerarbejde"
+Erhvervsarbejde,11583,1.3,"Stående arbejdsstation, taste/computerarbejde"
+Erhvervsarbejde,11585,1.3,"Siddende møder, let indsats, generelt, evt. med tale (f.eks. forretningsfrokost)"
+Erhvervsarbejde,11590,2.5,"Siddende arbejde, moderat indsats (f.eks. trække i tunge håndtag, køre truck/kran)"
+Erhvervsarbejde,11593,2.8,"Siddende, undervise i udstrækning/yoga, lette hold"
+Erhvervsarbejde,11615,4.5,"Stående, moderat indsats, kontinuerlige løft (4,5 - 9 kg), begrænset gang/hvile"
+Erhvervsarbejde,11620,3.8,"Stående, moderat indsats, løft (22 kg) i intervaller, binde/sno reb"
+Erhvervsarbejde,11630,4.5,"Stående, moderat/tungt arbejde (f.eks. løft over 22 kg, murer, maler)"
+Erhvervsarbejde,11650,2.3,"Patientpleje, sundhedsfagligt arbejde"
+Erhvervsarbejde,11660,3.5,"Patientpleje, rengøring/klargøring af stue"
+Erhvervsarbejde,11708,5.3,"Stålværk, moderat indsats (f.eks. smedning, vippe forme)"
+Erhvervsarbejde,11710,8.3,"Stålværk, hård indsats (f.eks. fjerne slagger, passe ovn)"
+Erhvervsarbejde,11720,2.3,"Skrædderi, klippe stof"
+Erhvervsarbejde,11730,2.5,"Skrædderi, generelt"
+Erhvervsarbejde,11740,1.8,"Skrædderi, håndsyning"
+Erhvervsarbejde,11750,2.5,"Skrædderi, maskinsyning"
+Erhvervsarbejde,11760,3.5,"Skrædderi, strygning/presning"
+Erhvervsarbejde,11763,2,"Skrædderi/vævning, let indsats (f.eks. vask, farvning, inspektion)"
+Erhvervsarbejde,11766,6.5,"Lastbilchauffør, læsse af/på, spænde last fast, stående/gående med tunge løft"
+Erhvervsarbejde,11767,2,"Chauffør (varevogn, taxa, bus)"
+Erhvervsarbejde,11770,1.3,Tastaturarbejde (computer/skrivemaskine)
+Erhvervsarbejde,11780,6.3,Brug af tunge el-værktøjer/trykluft (f.eks. trykluftbor)
+Erhvervsarbejde,11790,7.8,"Brug af tungt håndværktøj (skovl, hakke, spade)"
+Erhvervsarbejde,11791,2,"Gående på jobbet, under 3,2 km/t, meget langsomt i kontor/laboratorium"
+Erhvervsarbejde,11792,3.8,"Gående på jobbet, 4,5-5,5 km/t, moderat tempo, uden at bære noget"
+Erhvervsarbejde,11793,4.8,"Gående på jobbet, 5,6-6,3 km/t, rask tempo, uden at bære noget"
+Erhvervsarbejde,11795,3.5,"Gående på jobbet, 4 km/t, langsomt tempo, bære lette genstande (under 11 kg)"
+Erhvervsarbejde,11796,3,"Gående, samle ting sammen på jobbet, gøre klar til at gå"
+Erhvervsarbejde,11797,3.8,"Gående, 4 km/t, bære tunge genstande (over 11 kg)"
+Erhvervsarbejde,11800,4.5,"Gående, 4,8 km/t, bære lette genstande (under 11 kg)"
+Erhvervsarbejde,11805,3.8,"Gående, skubbe kørestol"
+Erhvervsarbejde,11810,4.5,"Gående, 5,6 km/t, rask tempo, bære genstande (under 11 kg)"
+Erhvervsarbejde,11820,4,"Gående/gå ned ad trapper/stående, bære 11-22 kg"
+Erhvervsarbejde,11830,5.5,"Gående/gå ned ad trapper/stående, bære 23-33 kg"
+Erhvervsarbejde,11840,7,"Gående/gå ned ad trapper/stående, bære 34-45 kg"
+Erhvervsarbejde,11850,7.3,"Gående/gå ned ad trapper/stående, bære over 45 kg"
+Erhvervsarbejde,11860,2.3,"Lager/fragtcentral, læsse kasser af og på"
+Erhvervsarbejde,11862,4.3,"Lager/fragtcentral, flytte kasser (~5 kg)"
+Erhvervsarbejde,11870,3,"Teaterarbejde, skuespiller eller scenetekniker"
+Erhvervsarbejde,11880,3.5,"Soldater, militærmarch, uden oppakning, 2,4 - 4 km/t"
+Erhvervsarbejde,11882,4,"Soldater, militærmarch, 10-30 kg oppakning, 2,4 - 4 km/t"
+Erhvervsarbejde,11884,5,"Militærmarch (Airborne Shuffle), 20-30 kg oppakning, 4 - 5,6 km/t"
+Erhvervsarbejde,11886,6.3,"Soldater, militærmarch i varierende terræn, 25-40 kg oppakning"
+Erhvervsarbejde,11887,6,"Soldater, gående, 4,5 km/t, 5% stigning, op til 21,5 kg oppakning"
+Erhvervsarbejde,11888,8.5,"Soldater, gående, 4,5 km/t, 10% stigning, op til 21,5 kg oppakning"
+Erhvervsarbejde,11889,11,"Soldater, gående, 4,5 km/t, 15% stigning, op til 21,5 kg oppakning"
+Erhvervsarbejde,11892,6,"Militæraktivitet, klargøring i felten, grave forsvarsstillinger"
+Løb,12010,6,Kombineret gå-/joggetur (jogging-sekvenser under 10 minutter)
+Løb,12020,7.5,"Jogging, generelt, selvvalgt tempo"
+Løb,12025,4.8,Jogging på stedet
+Løb,12026,3.3,"Jogging, 4 - 6 km/t"
+Løb,12027,4.5,Jogging på minitrampolin
+Løb,12028,6.5,"Løb, 6,4 - 6,8 km/t (8 min/km)"
+Løb,12029,7.8,"Løb, 6,9 - 7,7 km/t (8 - 7:45 min/km)"
+Løb,12030,8.5,"Løb, 8 - 8,4 km/t (7:30 min/km)"
+Løb,12045,9,"Løb, 8,8 - 9,3 km/t"
+Løb,12050,9.3,"Løb, 9,7 - 10,1 km/t (6:15 min/km)"
+Løb,12060,10.5,"Løb, 10,8 km/t (5:35 min/km)"
+Løb,12070,11,"Løb, 11,3 km/t (5:15 min/km)"
+Løb,12080,11.8,"Løb, 12 km/t (5:00 min/km)"
+Løb,12090,12,"Løb, 12,9 km/t (4:40 min/km)"
+Løb,12100,12.5,"Løb, 13,8 km/t (4:20 min/km)"
+Løb,12110,13,"Løb, 14,5 km/t (4:00 min/km)"
+Løb,12115,14.8,"Løb, 15 - 15,5 km/t"
+Løb,12120,14.8,"Løb, 16,1 km/t (3:45 min/km)"
+Løb,12130,16.8,"Løb, 17,7 km/t (3:25 min/km)"
+Løb,12132,18.5,"Løb, 19,3 km/t (3:05 min/km)"
+Løb,12134,19.8,"Løb, 20,9 km/t (2:50 min/km)"
+Løb,12135,23,"Løb, 22,5 km/t (2:40 min/km)"
+Løb,12140,9.3,"Løb, terrænløb (cross country)"
+Løb,12145,10.5,"Løb, selvvalgt tempo"
+Løb,12150,8,Løb (Taylor-kode 200)
+Løb,12170,15,"Løb på trapper, opad"
+Løb,12180,10,"Løb på atletikbane, holdtræning"
+Løb,12184,18,"Løb på atletikbane, 500-1500m, konkurrence"
+Løb,12186,19.3,"Løb på atletikbane, 2000-3000m, konkurrence"
+Løb,12190,8,"Løb, træning, skubbe kørestol eller løbevogn"
+Løb,12200,13.3,"Løb, maraton"
+Løb,12255,10.3,"Løb, op ad bakke, 7,2 km/t, 5% stigning"
+Løb,12260,13.3,"Løb, op ad bakke, 9,7 km/t, 5% stigning"
+Løb,12265,15.5,"Løb op ad bakke, 11,3 km/t, 5% stigning"
+Løb,12325,17.5,"Løb op ad bakke, 8 - 9,5 km/t, 15% stigning"
+Løb,12335,8.8,"Løb op ad bakke, 1 - 1,3 km/t, 30% stigning"
+Løb,12337,10.3,"Løb op ad bakke, 1,3 - 1,6 km/t, 30% stigning"
+Løb,12339,11.8,"Løb op ad bakke, 1,6 - 1,9 km/t, 30% stigning"
+Løb,12341,13.5,"Løb op ad bakke, 1,9 - 2,2 km/t, 30-40% stigning"
+Løb,12343,14.8,"Løb op ad bakke, 2,3 - 2,6 km/t, 30% stigning"
+Løb,12345,16.3,"Løb op ad bakke, >2,6 km/t, 10-30% stigning"
+Løb,12350,16,"Løb, bakket terræn, ±100m højdeforskel"
+Løb,12352,5.8,"Løb ned ad bakke, 8 - 9,5 km/t, 10-15% hældning nedad"
+Løb,12353,7.5,"Løb ned ad bakke, 9,7 - 11,1 km/t, 10-15% hældning nedad"
+Løb,12355,9,"Løb ned ad bakke, 11,3 - 14,3 km/t, 10-15% hældning nedad"
+Løb,12358,9.3,"Løb ned ad bakke, 9,7 - 12,7 km/t, 3-9% hældning nedad"
+Løb,12361,13.8,"Løb ned ad bakke, 12,9 - 16,9 km/t, 3-9% hældning nedad"
+Løb,12405,5.3,"Løb/jogging, buet løbebånd, 4,8 - 6,3 km/t"
+Løb,12408,6.5,"Løb/jogging, buet løbebånd, 6,4 - 7,9 km/t"
+Løb,12410,11,"Løb, buet løbebånd, 8 - 9,5 km/t"
+Løb,12412,12,"Løb, buet løbebånd, 11,3 - 12,7 km/t"
+Løb,12414,14,"Løb, buet løbebånd, 12,9 - 14,3 km/t"
+Løb,12416,16.8,"Løb, buet løbebånd, 14,5 - 15,9 km/t"
+Løb,12508,8.5,"Løb, 8 - 9,5 km/t, 1-3 kg rygsæk"
+Løb,12510,9.5,"Løb, 9,7 - 11,1 km/t, 1-3 kg rygsæk"
+Løb,12512,9.8,"Løb, 11,3 - 12,7 km/t, 1-3 kg rygsæk"
+Løb,12514,12,"Løb, 12,9 - 14,3 km/t, 1-3 kg rygsæk"
+Løb,12555,7.8,"Løb, barfodet, 5,6 - 9,5 km/t"
+Løb,12560,12,"Løb, barfodet, 9,7 - 12,7 km/t"
+Løb,12565,13.5,"Løb, barfodet, 12,9 - 14,3 km/t"
+Løb,12585,8,"Løb med løbevogn, indendørs, 8 km/t"
+Løb,12588,9,"Løb med løbevogn, indendørs, 9,7 km/t"
+Løb,12593,10,"Løb med løbevogn, udendørs, 8 km/t"
+Løb,12595,11.5,"Løb med løbevogn, udendørs, 9,7 km/t"
+Løb,12600,11.5,"Hinke/Skipping, 8,8 - 9,7 km/t"
+Løb,12620,13,"Triatlon, Løb"
+Personlig pleje,13000,2.3,"Gøre sig klar til sengetid, generelt, stående"
+Personlig pleje,13009,2.3,Sidde på toilet / toiletbesøg stående eller på hug
+Personlig pleje,13010,1.5,"Badning, siddende"
+Personlig pleje,13020,2.8,"Påklædning, afklædning, stående eller siddende"
+Personlig pleje,13030,1.5,"Spise, siddende"
+Personlig pleje,13035,2,"Tale og spise eller kun spise, stående"
+Personlig pleje,13036,1.5,"Tage medicin, siddende eller stående"
+Personlig pleje,13040,2,"Personlig pleje, vaske hænder, barbere sig, børste tænder, lægge makeup, siddende/stående"
+Personlig pleje,13045,2.5,"Sætte hår, stående"
+Personlig pleje,13046,1.3,"Få ordnet hår eller negle af andre, siddende"
+Personlig pleje,13050,2,"Brusebad, tørre sig med håndklæde, stående"
+Seksuel aktivitet,14010,5.8,"Aktiv, hård indsats"
+Seksuel aktivitet,14020,3,"Generelt, moderat indsats"
+Seksuel aktivitet,14030,1.8,"Passiv, let indsats, kysse, kramme"
+Sport og idræt,15000,5.5,"Alaska Native Games, Eskimo Olympics, generelt"
+Sport og idræt,15010,4.3,Bueskydning (ikke jagt)
+Sport og idræt,15020,7,"Badminton, konkurrence (Taylor-kode 450)"
+Sport og idræt,15025,9,"Badminton, konkurrence, kamp"
+Sport og idræt,15030,5.5,"Badminton, hygge-single og -double, generelt"
+Sport og idræt,15040,8,"Basketball, kamp (Taylor-kode 490)"
+Sport og idræt,15050,6,"Basketball, uden for kamp, generelt (Taylor-kode 480)"
+Sport og idræt,15055,7.5,"Basketball, generelt"
+Sport og idræt,15060,7,"Basketball, dommergerning (Taylor-kode 500)"
+Sport og idræt,15062,5.8,"Basketball, dommergerning"
+Sport og idræt,15070,5,"Basketball, skyde på kurv"
+Sport og idræt,15072,9.3,"Basketball, øvelser, træning"
+Sport og idræt,15080,2.5,Billard
+Sport og idræt,15090,3,Bowling (Taylor-kode 390)
+Sport og idræt,15092,3.8,"Bowling, indendørs i bowlinghal"
+Sport og idræt,15100,12.3,"Boksning, i ringen, generelt"
+Sport og idræt,15110,5.8,"Boksning, boksesæk"
+Sport og idræt,15113,7,"Boksning, boksesæk, 60 slag/min"
+Sport og idræt,15115,8.5,"Boksning, boksesæk, 120 slag/min"
+Sport og idræt,15118,10.8,"Boksning, boksesæk, 180 slag/min"
+Sport og idræt,15120,7.8,"Boksning, sparring"
+Sport og idræt,15125,9.3,"Boksning, simuleret bokserunde, træning"
+Sport og idræt,15130,7,Broomball
+Sport og idræt,15138,6,"Cheerleading, gymnastiske bevægelser, konkurrence"
+Sport og idræt,15140,4,"Trænergerning (fodbold, basketball, svømning osv.)"
+Sport og idræt,15142,8,"Trænergerning, aktiv deltagelse i sport med spillerne"
+Sport og idræt,15150,4.8,"Cricket, batting, bowling, fielding"
+Sport og idræt,15160,3.3,Kroket
+Sport og idræt,15170,4,Curling
+Sport og idræt,15180,2.5,"Dart, indendørs eller udendørs"
+Sport og idræt,15190,6,"Drag racing, skubbe eller køre en bil"
+Sport og idræt,15192,8.5,"Motorsport, open wheel / formel-biler"
+Sport og idræt,15195,7.8,Futsal
+Sport og idræt,15200,6,"Fægtning, generelt"
+Sport og idræt,15203,9.8,"Fægtning, kårde, konkurrence"
+Sport og idræt,15205,10.5,Floorball
+Sport og idræt,15210,8,"Amerikansk fodbold, konkurrence"
+Sport og idræt,15230,8,"Amerikansk fodbold, touch/flag, generelt (Taylor-kode 510)"
+Sport og idræt,15232,4,"Amerikansk fodbold, touch/flag, let indsats"
+Sport og idræt,15235,2.5,"Amerikansk fodbold eller baseball, kaste gris"
+Sport og idræt,15240,3,"Frisbee, generelt"
+Sport og idræt,15250,8,Ultimate frisbee
+Sport og idræt,15252,3.8,Disc golf / frisbee golf
+Sport og idræt,15255,4.5,"Golf, generelt"
+Sport og idræt,15265,4.3,"Golf, gående, bære køller"
+Sport og idræt,15270,3.5,"Minigolf, driving range"
+Sport og idræt,15285,4.5,"Golf, gående, trække golfvogn"
+Sport og idræt,15290,3.5,"Golf, køre i golfbil (Taylor-kode 070)"
+Sport og idræt,15300,3.8,"Gymnastik, generelt"
+Sport og idræt,15310,4,Hacky sack
+Sport og idræt,15320,12,"Håndbold, generelt (Taylor-kode 520)"
+Sport og idræt,15330,8,"Håndbold, hold"
+Sport og idræt,15335,4,"Klatrepark / svævebane, flere elementer"
+Sport og idræt,15340,3.5,Drageflyvning
+Sport og idræt,15350,7.8,"Hockey, landhockey"
+Sport og idræt,15360,8,"Ishockey, generelt"
+Sport og idræt,15362,10,"Ishockey, konkurrence"
+Sport og idræt,15370,5.5,"Ridning, generelt"
+Sport og idræt,15380,4.5,"Hestepleje, vedligeholdelse, sadling"
+Sport og idræt,15390,5.8,"Ridning, trav"
+Sport og idræt,15395,7.3,"Ridning, galop"
+Sport og idræt,15400,3.8,"Ridning, skridt"
+Sport og idræt,15402,9,"Ridning, springning"
+Sport og idræt,15403,6,"Ridning, reining (western)"
+Sport og idræt,15406,2.1,"Ridning, simulator"
+Sport og idræt,15408,1.8,"Kørsel med hestevogn, stående eller siddende"
+Sport og idræt,15410,3,Hesteskokast
+Sport og idræt,15420,12,Jai alai
+Sport og idræt,15425,5.3,"Kampsport, forskellige typer, langsomt tempo, begyndere, træning"
+Sport og idræt,15430,10.3,"Kampsport, moderat tempo (f.eks. judo, jujitsu, karate, kickboxing, taekwondo)"
+Sport og idræt,15432,14.3,"Taekwondo, kampsimulering"
+Sport og idræt,15433,11.3,Judo
+Sport og idræt,15440,4,Jonglering
+Sport og idræt,15444,6.5,"Kendo, kihon-keiko, moderat intensitet"
+Sport og idræt,15445,9.6,"Kendo, kirikaeshi, høj intensitet"
+Sport og idræt,15446,11.3,"Kendo, kakari keiko, meget høj intensitet"
+Sport og idræt,15450,7,Kickball
+Sport og idræt,15455,5.5,Kung Fu gymnastik
+Sport og idræt,15457,7.3,Kickboxing
+Sport og idræt,15460,8,Lacrosse
+Sport og idræt,15465,3.3,"Lawn bowling, boccia, udendørs"
+Sport og idræt,15470,4,"Motocross, off-road motorsport, ATV, generelt"
+Sport og idræt,15475,5.3,"Motorcykelløb, Supermoto"
+Sport og idræt,15477,7,Netball
+Sport og idræt,15480,9,Orienteringsløb
+Sport og idræt,15490,10,"Paddleball, konkurrence"
+Sport og idræt,15500,6,"Paddleball, fritid, generelt (Taylor-kode 460)"
+Sport og idræt,15503,1.8,"Paragliding, moderat højde"
+Sport og idræt,15506,6.5,Klatring med Prusik-knude
+Sport og idræt,15510,8,"Polo, til hest"
+Sport og idræt,15520,10,"Racquetball, konkurrence"
+Sport og idræt,15525,10.3,"Kapgang, 11,1 km/t"
+Sport og idræt,15527,13.8,"Kapgang, 13,3 km/t"
+Sport og idræt,15528,15.5,"Kapgang, konkurrencehastighed, 14,4 km/t"
+Sport og idræt,15530,7,"Racquetball, generelt (Taylor-kode 470)"
+Sport og idræt,15533,8,Klippe- eller bjergklatring (Taylor-kode 060)
+Sport og idræt,15534,8.8,"Klippeklatring, bouldering"
+Sport og idræt,15535,7.3,"Klippeklatring, opstigning, høj sværhedsgrad"
+Sport og idræt,15536,10.5,"Klippeklatring, speedklatring, meget svær"
+Sport og idræt,15537,5.8,"Klippeklatring, opstigning eller traversering, let til moderat sværhedsgrad"
+Sport og idræt,15538,10.5,"Klippeklatring, klatrevæg med rullebånd (treadwall), 4-6 m/min"
+Sport og idræt,15539,10.5,"Klippeklatring, klatrevæg med rullebånd, 7-10 m/min"
+Sport og idræt,15540,5,"Klippeklatring, rappelling"
+Sport og idræt,15542,4,"Rodeo, generelt, let indsats"
+Sport og idræt,15544,5.5,"Rodeo, generelt, moderat indsats"
+Sport og idræt,15546,7,"Rodeo, generelt, hård indsats"
+Sport og idræt,15550,12.3,"Sjippe, højt tempo, 120-160 hop/min"
+Sport og idræt,15551,11.8,"Sjippe, moderat tempo, generelt, 100-120 hop/min, samlede ben"
+Sport og idræt,15552,8.3,"Sjippe, langsomt tempo, <100 hop/min, samlede ben, rytmisk hop"
+Sport og idræt,15554,10,"Sjippe, double unders eller mere"
+Sport og idræt,15560,8.3,"Rugby, hold, konkurrence"
+Sport og idræt,15562,6.3,"Rugby, touch, fritid"
+Sport og idræt,15570,3,Shuffleboard
+Sport og idræt,15580,5,"Skateboarding, generelt, moderat indsats"
+Sport og idræt,15582,6,"Skateboarding, konkurrence, hård indsats"
+Sport og idræt,15590,7,Rulleskøjteløb (Taylor-kode 360)
+Sport og idræt,15591,7.5,"Rulleskøjteløb, inliners, 14,4 km/t, fritidstempo"
+Sport og idræt,15592,9.8,"Rulleskøjteløb, inliners, 17,7 km/t, moderat tempo, træning"
+Sport og idræt,15593,12.3,"Rulleskøjteløb, inliners, 21,0 - 21,7 km/t, højt tempo, træning"
+Sport og idræt,15594,15.5,"Rulleskøjteløb, inliners, 24,0 km/t, maksimal indsats"
+Sport og idræt,15595,6.8,"Skateboard, longboard, 13,3 km/t, langsom hastighed"
+Sport og idræt,15596,8.3,"Skateboard, longboard, 16,2 km/t, normal hastighed"
+Sport og idræt,15597,10.5,"Skateboard, longboard, 18,4 km/t, høj hastighed"
+Sport og idræt,15600,3.5,"Faldskærmsudspring, basejumping, bungyjump"
+Sport og idræt,15605,9.5,"Fodbold, konkurrence"
+Sport og idræt,15610,7,"Fodbold, fritid, generelt (Taylor-kode 540)"
+Sport og idræt,15615,3.5,Gå-fodbold
+Sport og idræt,15620,5,"Softball eller baseball, generelt, moderat indsats (Taylor-kode 440)"
+Sport og idræt,15625,4,"Softball, træning"
+Sport og idræt,15630,4,"Softball, dommergerning"
+Sport og idræt,15640,6,"Softball, pitching"
+Sport og idræt,15645,3.3,"Tilskuer til sport, meget begejstret, følelsesladet, fysisk urolig"
+Sport og idræt,15650,12,Squash (Taylor-kode 530)
+Sport og idræt,15652,7.3,"Squash, generelt"
+Sport og idræt,15660,4,Bordtennis (Taylor-kode 410)
+Sport og idræt,15670,3.3,"Tai chi, qi gong, generelt"
+Sport og idræt,15672,1.5,"Tai chi, qi gong, siddende, let indsats"
+Sport og idræt,15674,6,"Tai chi chuan, Yang-stil"
+Sport og idræt,15675,6.8,"Tennis, generelt, moderat indsats"
+Sport og idræt,15676,8,"Tennis, generelt, konkurrence"
+Sport og idræt,15680,6,"Tennis, double (Taylor-kode 430)"
+Sport og idræt,15685,4.5,"Tennis, double"
+Sport og idræt,15690,8,"Tennis, single (Taylor-kode 420)"
+Sport og idræt,15695,5,"Tennis, slå til bolde, ikke kamp, moderat indsats"
+Sport og idræt,15700,6.3,"Trampolin, fritid"
+Sport og idræt,15702,10.3,"Trampolin, konkurrence"
+Sport og idræt,15710,4,Volleyball (Taylor-kode 400)
+Sport og idræt,15711,6,"Volleyball, konkurrence, i idrætshal"
+Sport og idræt,15720,3,"Volleyball, ikke-konkurrence, hold af 6-9, generelt"
+Sport og idræt,15725,8,"Beachvolley, i sand"
+Sport og idræt,15730,6,"Brydning, konkurrence (1 kamp = 5 minutter)"
+Sport og idræt,15731,7,"Wallyball, generelt"
+Sport og idræt,15732,4,"Atletik (f.eks. kuglestød, diskoskast, hammerkast)"
+Sport og idræt,15733,6,"Atletik (f.eks. højdespring, længdespring, trespring, spydkast, stangspring)"
+Sport og idræt,15734,10,"Atletik (f.eks. forhindringsløb, hækkeløb)"
+Transport,16002,6.8,"Cykling som transport, moderat indsats"
+Transport,16004,9.3,"Cykling som transport, hård indsats"
+Transport,16005,6.8,Elcykel som transport
+Transport,16010,2,Kørsel i bil eller varevogn (ikke lastbil)
+Transport,16015,1.3,Passager i bil eller varevogn
+Transport,16016,1.3,Passager i bus eller tog
+Transport,16020,1.8,Flyve fly eller helikopter
+Transport,16030,2.8,"Scooter, motorcykel"
+Transport,16035,6.3,Trække rickshaw
+Transport,16040,6,Skubbe fly ind/ud af hangar
+Transport,16050,2.5,"Lastbil, traktor (≥1 ton) eller bus, kørsel"
+Transport,16060,3.5,"Gang som transport, 4,5-5,1 km/t, fladt terræn, moderat tempo, fast underlag"
+Gang,17010,7,Vandring med rygsæk / Backpacking (Taylor-kode 050)
+Gang,17011,3.5,"Gå med dagsrygsæk, fladt terræn, i by"
+Gang,17012,7.8,"Vandring/hiking med dagsrygsæk, organiseret gang med dagsrygsæk"
+Gang,17016,4,"Bære 2,3 - 6,4 kg byrde (kuffert, kasser, indkøb), fladt terræn, moderat tempo"
+Gang,17018,4.5,"Bære 6,8 - 70 kg byrde (kuffert, møbler), fladt terræn eller ned ad trapper, langsomt tempo"
+Gang,17019,6.5,"Bære 22 - 68 kg byrde, fladt terræn, moderat tempo"
+Gang,17021,2.3,"Bære ca. 4,5 kg barn, langsom gang"
+Gang,17025,8.3,"Bære byrde op ad trapper, generelt"
+Gang,17026,5.5,"Bære byrde, 0,5 - 6,8 kg, op ad trapper"
+Gang,17027,6,"Bære byrde, 7,2 - 10,8 kg, op ad trapper"
+Gang,17028,8,"Bære byrde, 11,3 - 22,2 kg, op ad trapper"
+Gang,17029,10,"Bære byrde, 22,6 - 33,5 kg, op ad trapper"
+Gang,17030,12,"Bære byrde, >33,5 kg, op ad trapper"
+Gang,17031,3.8,"Læsse i og/eller ud af en bil, med gang"
+Gang,17032,5,"Gå op ad bakker, uden byrde, 5-20% stigning, meget langsomt tempo"
+Gang,17033,3.8,"Gå op ad bakker, 6,8 - 22,6 kg byrde, 1-2% stigning, langsomt tempo"
+Gang,17034,5.3,"Gå op ad bakker, uden byrde, 1-5% stigning, moderat til rask tempo"
+Gang,17035,7,"Gå op ad bakker, uden byrde, 6-10% stigning, moderat til rask tempo"
+Gang,17036,8.8,"Gå op ad bakker, uden byrde, 11-20% stigning, langsomt til moderat tempo"
+Gang,17037,10,"Gå op ad bakker, uden byrde, 6,4 - 8,0 km/t, 3-5% stigning, meget højt tempo"
+Gang,17038,8.5,"Gå op ad bakker, uden byrde, stejl stigning (30%), langsomt tempo (<1,9 km/t)"
+Gang,17039,15.5,"Gå op ad bakker, uden byrde, meget stejl stigning (30-40%), 1,9 - 2,9 km/t"
+Gang,17040,16.3,"Gå op ad bakker, uden byrde, stejl stigning (10-40%), 2,9 - 8,0 km/t"
+Gang,17045,6.5,"Gå op ad bakker, 4,5 - 9 kg byrde, 5-10% stigning, moderat tempo"
+Gang,17050,7.5,"Gå op ad bakker, 9,5 - 18,1 kg byrde, 3-10% stigning, moderat til rask tempo"
+Gang,17060,10,"Gå op ad bakker, >9 kg byrde, 5-20% stigning, moderat til rask tempo"
+Gang,17070,3.5,Gå ned ad trapper
+Gang,17076,4.5,"Bære vand, bæring på hovedet, gå på fladt underlag"
+Gang,17080,6,Vandring i terræn (Taylor-kode 040)
+Gang,17081,3.8,"Vandring, langsom gang/slentre gennem marker/bakker, ingen byrde"
+Gang,17082,5.3,"Vandring/gang i normalt tempo gennem marker/bakker, ingen byrde"
+Gang,17085,2.5,"Fuglekiggeri, gående med stop"
+Gang,17088,4.5,"March, moderat hastighed, militær, uden oppakning"
+Gang,17090,8,"March, rask hastighed, militær, uden oppakning"
+Gang,17100,3.8,"Skubbe/trække barnevogn med barn eller gå med børn, 4,0 - 5,0 km/t"
+Gang,17105,3.8,"Skubbe en kørestol, fritid"
+Gang,17110,6.5,Kapgang
+Gang,17130,8,"Trappegang, bruge eller klatre op ad stige (Taylor-kode 030)"
+Gang,17131,6.8,"Trappegang, generelt"
+Gang,17133,4.5,"Trappegang, langsomt tempo"
+Gang,17134,9.3,"Trappegang, rask tempo, ét trin ad gangen"
+Gang,17136,7.5,"Trappegang, to trin ad gangen"
+Gang,17138,7.5,"Trappegang, gå op og ned ad trapper"
+Gang,17140,4.5,"Bruge krykker, fladt terræn, generelt"
+Gang,17142,7,"Bruge krykker, højt tempo"
+Gang,17145,4.3,Bruge knæscooter/rollator
+Gang,17150,2.3,"Gang, i hjemmet"
+Gang,17151,2.3,"Gang, under 3,2 km/t, fladt terræn, slentre, meget langsomt"
+Gang,17152,2.8,"Gang, 3,2 - 3,9 km/t, fladt terræn, langsomt tempo, fast underlag"
+Gang,17160,3.5,Gang for fornøjelsens skyld (Taylor-kode 010)
+Gang,17161,2.5,"Gang fra hus til bil/bus, fra bil/bus for at komme rundt, til/fra jobbet"
+Gang,17162,2.5,Gang til nabo eller familie af sociale årsager
+Gang,17165,3,Gå tur med hunden
+Gang,17170,3,"Gang, 4,0 km/t, fast, fladt underlag"
+Gang,17180,3.3,"Gang, 4,0 km/t, ned ad bakke"
+Gang,17190,3.8,"Gang, 4,5 - 5,5 km/t, fladt terræn, moderat tempo, fast underlag"
+Gang,17200,4.8,"Gang, 5,6 - 6,3 km/t, fladt terræn, rask, fast underlag, motionsgang"
+Gang,17220,5.5,"Gang, 6,4 - 7,0 km/t, fladt terræn, fast underlag, meget rask tempo"
+Gang,17230,7,"Gang, 7,2 - 7,9 km/t, fladt terræn, fast underlag, ekstremt rask tempo"
+Gang,17231,8.5,"Gang, 8,0 - 8,9 km/t, fladt terræn, fast underlag"
+Gang,17250,3.5,"Gang, for fornøjelse, i pausen på jobbet"
+Gang,17255,4,"Gang, selvvalgt hastighed, indendørsbane eller udendørs på fast underlag"
+Gang,17260,4.8,"Gang, på græs"
+Gang,17262,4.5,"Gang, normalt tempo, på pløjemark eller sand"
+Gang,17270,4,"Gang, til job eller skole (Taylor-kode 015)"
+Gang,17280,2.5,"Gang, til og fra et udendørs das/toilet"
+Gang,17302,4.3,"Motionsgang, 4,0 - 5,6 km/t, med stave (Nordic walking), fladt terræn, moderat tempo"
+Gang,17304,5.3,"Motionsgang, 5,8 - 7,1 km/t, med stave (Nordic walking), fladt terræn, moderat tempo"
+Gang,17305,8.5,"Motionsgang, 7,2 - 8,0 km/t, med stave (Nordic walking), fladt terræn, hurtigt tempo"
+Gang,17310,8.8,"Motionsgang, med stave (Nordic walking), op ad bakke, moderat tempo"
+Gang,17313,10.8,"Motionsgang, med stave (Nordic walking), fladt terræn, bære 9 - 15 kg byrde"
+Gang,17315,12.3,"Motionsgang, med stave (Nordic walking), op ad bakke, bære 9 - 15 kg byrde"
+Gang,17320,6,"Gang, baglæns, 5,6 km/t, fladt terræn"
+Gang,17325,7.8,"Gang, baglæns, 5,6 km/t, op ad bakke, 5% stigning"
+Gang,17330,8,"Gang, the Teabag walk (Monty Python's Ministry of Silly Walks)"
+Gang,17332,3.5,"Gang, the Putey walk (Monty Python's Ministry of Silly Walks)"
+Gang,17340,2.1,"Gang, løbebånd, under 1,6 km/t, 0% stigning"
+Gang,17343,2.3,"Gang, løbebånd, 1,6 km/t, 0% stigning"
+Gang,17346,2.8,"Gang, løbebånd, 1,9 - 3,0 km/t, 0% stigning"
+Gang,17349,3,"Gang, løbebånd, 3,2 - 3,9 km/t, 0% stigning"
+Gang,17352,3.5,"Gang, løbebånd, 4,0 - 4,7 km/t, 0% stigning"
+Gang,17355,3.8,"Gang, løbebånd, 4,8 - 5,5 km/t, 0% stigning"
+Gang,17358,4.8,"Gang, løbebånd, 5,6 - 6,3 km/t, 0% stigning"
+Gang,17361,5.8,"Gang, løbebånd, 6,4 - 7,1 km/t, 0% stigning"
+Gang,17364,6.8,"Gang, løbebånd, 7,2 - 7,9 km/t, 0% stigning"
+Gang,17367,8.3,"Gang, løbebånd, 8,0 - 8,9 km/t, 0% stigning"
+Cykling,1003,14,"Cykling, mountainbike, op ad bakke, høj intensitet"
+Cykling,1004,16,"Cykling, mountainbike, konkurrenceløb"
+Cykling,1008,8.5,"Cykling, BMX"
+Cykling,1009,8.5,"Cykling, mountainbike, generelt"
+Cykling,1010,4,"Cykling, <16 km/t, fritid, til arbejde eller for fornøjelse (Taylor-kode 115)"
+Cykling,1011,6.8,"Cykling, til/fra arbejde, selvvalgt tempo"
+Cykling,1013,5.8,"Cykling, på grus- eller markvej, moderat tempo"
+Cykling,1014,7,"Cykling, generelt"
+Cykling,1015,4.3,"Cykling, selvvalgt roligt tempo"
+Cykling,1016,7,"Cykling, selvvalgt moderat tempo"
+Cykling,1017,9,"Cykling, selvvalgt højt tempo"
+Cykling,1018,3.5,"Cykling, fritid, 9 km/t"
+Cykling,1019,5.8,"Cykling, fritid, 15 km/t"
+Cykling,1020,6.8,"Cykling, 16-19 km/t, fritid, langsomt, let indsats"
+Cykling,1030,8,"Cykling, 19-22 km/t, fritid, moderat indsats"
+Cykling,1040,10,"Cykling, 22-25 km/t, løb eller fritid, hurtigt, hård indsats"
+Cykling,1050,12,"Cykling, 25-30 km/t, løb/uden læ eller >30 km/t i læ, meget hurtigt, løb generelt"
+Cykling,1060,16.8,"Cykling, >32 km/t, løb, uden læ"
+Cykling,1065,8.5,"Cykling, 19 km/t, siddende, hænder på bremsegreb eller i bøjlen, 80 omdr./min"
+Cykling,1066,9,"Cykling, 19 km/t, stående, hænder på bremsegreb, 60 omdr./min"
+Cykling,1070,5,Et-hjulet cykling
+Cykling,1080,6.8,"Elcykel, uden motorhjælp"
+Cykling,1084,6,"Elcykel, med let motorhjælp"
+Cykling,1088,4,"Elcykel, med kraftig motorhjælp"
+Cykling,1200,6.8,"Cykling, kondicykel, generelt"
+Cykling,1210,3.5,"Cykling, kondicykel, 25-30 watt, meget let til let indsats"
+Cykling,1214,4,"Cykling, kondicykel, 50 watt, let indsats"
+Cykling,1216,5,"Cykling, kondicykel, 60 watt, let til moderat indsats"
+Cykling,1218,5.8,"Cykling, kondicykel, 70-80 watt"
+Cykling,1220,6,"Cykling, kondicykel, 90-100 watt, moderat til hård indsats"
+Cykling,1224,6.8,"Cykling, kondicykel, 101-125 watt"
+Cykling,1228,8,"Cykling, kondicykel, 126-150 watt"
+Cykling,1232,10.3,"Cykling, kondicykel, 151-199 watt"
+Cykling,1236,10.8,"Cykling, kondicykel, 200-229 watt, hård indsats"
+Cykling,1240,12.5,"Cykling, kondicykel, 230-250 watt, meget hård indsats"
+Cykling,1244,13.8,"Cykling, kondicykel, 270-305 watt, meget hård indsats"
+Cykling,1248,16.3,"Cykling, kondicykel, >325 watt, meget hård indsats"
+Cykling,1252,5.5,"Cykling, kun koncentrisk, 100 W"
+Cykling,1254,11,"Cykling, kun koncentrisk, 200 W"
+Cykling,1262,2.3,"Cykling, kun excentrisk, 100 til 149 W"
+Cykling,1264,4,"Cykling, kun excentrisk, 200 W"
+Cykling,1270,9,"Cykling, kondicykel, RPM/spinninghold"
+Cykling,1290,8.8,"Cykling, interaktiv virtuel cykling, indendørs cykelergometer"
+Cykling,1305,8.8,"Cykling, højintensiv intervaltræning (HIIT)"
+Kondition og styrketræning,2000,7.3,"Aerobic, generelt"
+Kondition og styrketræning,2001,5.5,"Step-aerobic, 10 cm trin"
+Kondition og styrketræning,2002,7.3,"Step-aerobic, 15-20 cm trin"
+Kondition og styrketræning,2003,9,"Step-aerobic, 25-30 cm trin"
+Kondition og styrketræning,2004,7.8,"Step-holdtræning, generelt"
+Kondition og styrketræning,2005,4.8,"Aerobic-dans, low impact, moderat indsats"
+Kondition og styrketræning,2006,8,"Aerobic-dans, high impact, hård indsats"
+Kondition og styrketræning,2007,10,"Aerobic-dans med 4,5-7 kg vægte"
+Kondition og styrketræning,2008,5,"Militær forhindringsbane, boot camp-træningsprogram"
+Kondition og styrketræning,2020,7.5,"Kropsvægtstræning (f.eks. armbøjninger, mavebøjninger, kropshævninger, englehop, burpees, battle ropes), hård indsats"
+Kondition og styrketræning,2022,3.8,"Kropsvægtstræning (f.eks. armbøjninger, mavebøjninger, kropshævninger, lunges), moderat indsats"
+Kondition og styrketræning,2024,2.8,"Kropsvægtstræning (f.eks. maveøvelser, planken), let indsats"
+Kondition og styrketræning,2030,3.5,"Kropsvægtstræning, let eller moderat indsats, generelt (f.eks. rygøvelser), op og ned fra gulvet (Taylor-kode 150)"
+Kondition og styrketræning,2032,6,"Cirkeltræning, kropsvægtsøvelser"
+Kondition og styrketræning,2034,3.5,"Cirkeltræning, let indsats"
+Kondition og styrketræning,2035,5,"Cirkeltræning, moderat indsats"
+Kondition og styrketræning,2040,7.5,"Cirkeltræning (inkl. kettlebells, lidt aerob bevægelse med minimal hvile), generelt, høj intensitet"
+Kondition og styrketræning,2045,3.5,Curves™ træningsrutiner for kvinder
+Kondition og styrketræning,2048,5,"Crosstrainer (elliptisk maskine), moderat indsats"
+Kondition og styrketræning,2049,9,"Crosstrainer (elliptisk maskine), hård indsats"
+Kondition og styrketræning,2052,5,"Styrke- / vægttræning, squats, dødløft, langsom eller eksplosiv indsats"
+Kondition og styrketræning,2054,3.5,"Styrke- / vægttræning, flere øvelser, 8-15 gentagelser ved varieret modstand"
+Kondition og styrketræning,2055,5.8,"Styrketræning, cirkeltræning, supersets, PHA-træning"
+Kondition og styrketræning,2056,3,"Kropsvægtstræning (f.eks. squat, lunge, armbøjning, mavebøjning), generelt"
+Kondition og styrketræning,2057,6.5,"Kropsvægtstræning (f.eks. squat, lunge, armbøjning, mavebøjning), høj intensitet"
+Kondition og styrketræning,2058,9.8,Kettlebell swings
+Kondition og styrketræning,2060,5.5,"Træningscenter (fitness), generelt (Taylor-kode 160)"
+Kondition og styrketræning,2061,5,"Holdtræning i fitnesscenter generelt, kondition og vægttræning kombineret i ét besøg"
+Kondition og styrketræning,2062,7.8,"Træningscenter (fitness), konditionshold"
+Kondition og styrketræning,2064,3.8,"Hjemmetræning, generelt"
+Kondition og styrketræning,2065,9.3,"Trappemaskine (stairmaster), generelt"
+Kondition og styrketræning,2068,11,"Sjippetovstræning, generelt"
+Kondition og styrketræning,2069,9,"Sjippetov, Digi-Jump maskine, 120 hop/minut"
+Kondition og styrketræning,2070,7.3,"Roning, romaskine, generelt, hård indsats"
+Kondition og styrketræning,2071,5,"Roning, romaskine, generelt, <100 watt, moderat indsats"
+Kondition og styrketræning,2072,7.5,"Roning, romaskine, 100 til 149 watt, hård indsats"
+Kondition og styrketræning,2073,11,"Roning, romaskine, 150 til 199 watt, hård indsats"
+Kondition og styrketræning,2074,14,"Roning, romaskine, ≥ 200 watt, meget hård indsats"
+Kondition og styrketræning,2078,11,Shuttle run (løb frem/tilbage/sidelæns)
+Kondition og styrketræning,2080,6.8,"Skimaskine, generelt"
+Kondition og styrketræning,2082,10.5,"Skiergometer (stager), langrend, dobbelt stavtag, langsom til moderat hastighed"
+Kondition og styrketræning,2084,18,"Skiergometer (stager), langrend, dobbelt stavtag, hurtig til maksimal hastighed"
+Kondition og styrketræning,2085,10.5,"Slide board-træning, generelt"
+Kondition og styrketræning,2090,6,"Slimnastics, jazzercise"
+Kondition og styrketræning,2101,2.3,"Udstrækning, let"
+Kondition og styrketræning,2103,1.8,"Pilates, traditionel, på måtte"
+Kondition og styrketræning,2105,2.8,"Pilates, generelt"
+Kondition og styrketræning,2107,8.5,Pound (kombination af pilates og kropsbevægelser med trommestikker)
+Kondition og styrketræning,2108,4.5,Pole dancing (holdtræning)
+Kondition og styrketræning,2110,6.8,"Undervise i holdtræning (f.eks. aerobic, vandgymnastik)"
+Kondition og styrketræning,2112,2.8,"Træningsbold (Fitball), træning"
+Kondition og styrketræning,2114,9.5,"Træningsbold (Fitball), træning, høj intensitet"
+Kondition og styrketræning,2115,2.8,"Overkropstræning, armcykel, generelt, let"
+Kondition og styrketræning,2116,2,"Armcykel, 15W"
+Kondition og styrketræning,2117,2.8,"Armcykel, 25-30W"
+Kondition og styrketræning,2118,3.5,"Armcykel, 45W"
+Kondition og styrketræning,2119,4.3,"Overkropstræning, motionscykel med arme (Airdyne, kun arme) 40 omdr/min, moderat intensitet"
+Kondition og styrketræning,2120,5.3,"Vandaerobic, vandgymnastik, træning i vand"
+Kondition og styrketræning,2135,1.3,"Spabad, siddende"
+Kondition og styrketræning,2140,2.5,"Videotræning, tv-programmer (f.eks. yoga, udstrækning, siddende), let indsats"
+Kondition og styrketræning,2143,4,"Videotræning, tv-programmer (f.eks. cardio-styrketræning), moderat indsats"
+Kondition og styrketræning,2145,6,"Videotræning, tv-programmer (f.eks. cardio-styrketræning), hård indsats"
+Kondition og styrketræning,2150,2.3,"Yoga, Hatha"
+Kondition og styrketræning,2153,8,"Yoga, Hatha, høj intensitet"
+Kondition og styrketræning,2155,3,"Yoga, Hot yoga"
+Kondition og styrketræning,2160,4,"Yoga, Power yoga"
+Kondition og styrketræning,2170,2,"Yoga, Nadi Shodhana (åndedrætsøvelser)"
+Kondition og styrketræning,2175,2.3,"Yoga, Generelt"
+Kondition og styrketræning,2180,3.5,"Yoga, Surya Namaskar (Solhilsen)"
+Kondition og styrketræning,2185,2.7,"Yoga, Vinyasa"
+Kondition og styrketræning,2200,5.3,"Newzealandsk indfødt aktivitet (f.eks. Haka, Poi), generelt moderat indsats"
+Kondition og styrketræning,2205,6.8,"Newzealandsk indfødt aktivitet, generelt, hård indsats"
+Kondition og styrketræning,2210,7,"Højintensiv intervaltræning, moderat indsats"
+Kondition og styrketræning,2214,11,"Højintensiv intervaltræning, burpees, mountain climbers, squat jumps, Tabata, hård indsats"
+Kondition og styrketræning,2225,2.3,"Balance Exercise Assist Robot (BEAR), simuleret skiløb, tennis, rodeo"
+Kondition og styrketræning,2230,5.8,Hulahopring
+Kondition og styrketræning,2240,9,"Impulse Training System, inertitræningsmaskine"
+Kondition og styrketræning,2280,7.9,"Virtual Reality Fitness (Supernatural™ Flow, boksning), høj intensitet"
+Kondition og styrketræning,2284,9.3,"ExerCube, træningsserie"
+Kondition og styrketræning,2288,13,"Blackbox virtual reality træningssystem, høj intensitet"
+Kondition og styrketræning,2300,3,"Stavtræning, Life-Build-Line"
+Kondition og styrketræning,2310,6.5,"Zumba, holdtræning"
+Kondition og styrketræning,2315,5.5,"Zumba, hjemmevideo"
+Kondition og styrketræning,2340,2.8,"Rejse-sætte-sig-øvelse, 6-12 gange/min"
+Kondition og styrketræning,2344,4,"Rejse-sætte-sig-øvelse, 18-24 gange/min"
+Dans,3005,6,"Afrocubansk salsa (cubansk cha-cha-cha, mambo, afro-rumba osv.)"
+Dans,3010,5,"Ballet, moderne dans eller jazzdans, generelt, prøve eller undervisning"
+Dans,3011,6.3,"Balletøvelser (plié, tendu, jeté, rond de jambe osv.)"
+Dans,3012,6.8,"Ballet, moderne dans eller jazzdans, forestilling, hård indsats"
+Dans,3014,4.8,Stepdans
+Dans,3025,4.5,"Etnisk eller kulturel dans (f.eks. græsk, mellemøstlig, mavedans, flamenco, swing)"
+Dans,3028,5.5,"Kinesisk square dance, ballet & tibetansk dans"
+Dans,3029,7.3,"Kinesisk square dance, aerobic"
+Dans,3030,5.5,"Selskabsdans, hurtig (Taylor-kode 125)"
+Dans,3031,9.8,"Natklub- eller folkedans, hård indsats (f.eks. disco, linedance, irsk step, polka)"
+Dans,3033,5,"Folkedans, moderat indsats"
+Dans,3038,11.3,"Selskabsdans, konkurrence, generelt"
+Dans,3040,3,"Selskabsdans, langsom (f.eks. vals, foxtrot, samba, tango, rumba, cha-cha-cha)"
+Dans,3042,6,"Selskabsdans, fritid (vals, foxtrot, cha-cha-cha, swing)"
+Dans,3050,5.5,"Traditionel indiansk dans (f.eks. Jingle dance), rask tempo, moderat indsats"
+Dans,3070,3.8,"Contemporary (moderne) dans, generelt"
+Dans,3072,4.3,"Contemporary (moderne) dans, natklub"
+Dans,3075,8.5,Flamencodans
+Dans,3078,4.5,"Jazzdans, generelt"
+Dans,3080,10.3,"Musicalteater, sang og dans"
+Dans,3085,5.8,"Polynesisk dans, hawaiiansk hula (langsom), maori haka, tongansk"
+Dans,3086,7,"Polynesisk dans, hawaiiansk hula (hurtig), samoansk sasa, filippinsk tinikling"
+Dans,3087,8.8,"Polynesisk dans, samoansk slap dance, tahitiansk"
+Dans,3090,4.8,"Salsadans, med partner"
+Dans,3091,6.3,"Salsadans, til en video"
+Dans,3093,5.5,"Square dance, country/western"
+Fiskeri og jagt,4001,3.5,"Fiskeri, generelt"
+Fiskeri og jagt,4005,4.5,Krabbe-fiskeri
+Fiskeri og jagt,4007,4,"Fiskeri, fange fisk med hænderne"
+Fiskeri og jagt,4010,4.3,"Fiskerelateret, grave orm med skovl"
+Fiskeri og jagt,4020,4,Fiskeri fra flodbred og gående
+Fiskeri og jagt,4030,2,"Fiskeri fra båd eller kano, siddende"
+Fiskeri og jagt,4040,3.5,"Fiskeri fra flodbred, stående (Taylor-kode 660)"
+Fiskeri og jagt,4050,6,"Fiskeri i å/vandløb, iført waders (Taylor-kode 670)"
+Fiskeri og jagt,4060,2,"Isfiskeri, siddende"
+Fiskeri og jagt,4061,1.8,"Fiskeri med pirk eller snøre, stående, generelt"
+Fiskeri og jagt,4062,3.5,"Fiskeri med sænkenet, sætte net og fange fisk, generelt"
+Fiskeri og jagt,4063,3.8,"Fiskeri med garn, sætte garn og fange fisk, generelt"
+Fiskeri og jagt,4064,3,"Fiskeri med fiskehjul, sætte net og fange fisk, generelt"
+Fiskeri og jagt,4065,2.3,"Fiskeri med spyd, stående"
+Fiskeri og jagt,4070,2.5,"Jagt, bue og pil eller armbrøst"
+Fiskeri og jagt,4080,6,"Jagt, hjort, elg, storvildt (Taylor-kode 170)"
+Fiskeri og jagt,4081,9.8,"Jagt på storvildt, trække byttet"
+Fiskeri og jagt,4083,4,Jagt på store havdyr
+Fiskeri og jagt,4085,2.5,"Jagt, storvildt fra skydetårn, begrænset gang"
+Fiskeri og jagt,4086,2,"Jagt på storvildt fra bil, fly eller båd"
+Fiskeri og jagt,4090,2.5,"Andejagt, vadende"
+Fiskeri og jagt,4095,3,"Jagt på flyvehunde, egern"
+Fiskeri og jagt,4100,5,"Jagt, generelt"
+Fiskeri og jagt,4110,6,"Jagt, fasaner eller ryper (Taylor-kode 680)"
+Fiskeri og jagt,4115,3.3,Fuglejagt
+Fiskeri og jagt,4120,5,"Jagt, kanin, egern, vaskebjørn, småvildt (Taylor-kode 690)"
+Fiskeri og jagt,4123,3.3,Vildsvinejagt
+Fiskeri og jagt,4124,2,"Fældefangst, generelt"
+Fiskeri og jagt,4125,9.5,Jagt - vandring med jagtudstyr
+Fiskeri og jagt,4130,2.5,"Pistolskydning eller flugtskydning, stående"
+Fiskeri og jagt,4140,2.3,"Riffelskydning, liggende"
+Fiskeri og jagt,4145,2.5,"Riffelskydning, knælende eller stående"
+Fiskeri og jagt,4150,2.8,"Sankning, 0-10 kg rygsæk"
+Fiskeri og jagt,4152,3,"Sankning, 10-15 kg rygsæk"
+Fiskeri og jagt,4160,1,"Sidde i båd, passager"
+Fiskeri og jagt,4164,1.5,Stå i båd
+Fiskeri og jagt,4168,3.3,"Aktiviteter i en båd, løfte, sænke"
+Husholdningsaktiviteter,5010,3.3,"Rengøring, støvsugning eller fejning af gulv, generelt"
+Husholdningsaktiviteter,5011,2.3,"Rengøring, fejning, langsomt, let indsats"
+Husholdningsaktiviteter,5012,3.8,"Rengøring, fejning, hurtigt, moderat indsats"
+Husholdningsaktiviteter,5020,3.5,"Rengøring, tung eller stor (f.eks. bilvask, rengøring af garage), moderat indsats"
+Husholdningsaktiviteter,5021,3.5,"Rengøring, gulvvask, stående, moderat indsats"
+Husholdningsaktiviteter,5022,3.3,"Vinduespudsning, generelt"
+Husholdningsaktiviteter,5023,2.5,"Gulvvask, stående, let indsats"
+Husholdningsaktiviteter,5024,4.5,"Gulvpolering, stående, gå langsomt, med elektrisk polermaskine"
+Husholdningsaktiviteter,5025,2.8,"Flere husholdningsopgaver på én gang, let indsats"
+Husholdningsaktiviteter,5026,3.3,"Flere husholdningsopgaver på én gang, moderat indsats"
+Husholdningsaktiviteter,5027,4.3,"Flere husholdningsopgaver på én gang, hård indsats"
+Husholdningsaktiviteter,5030,3.3,"Rengøring af hus eller hytte, generelt, moderat indsats"
+Husholdningsaktiviteter,5032,2.5,"Aftørring af støv eller polering af møbler, generelt"
+Husholdningsaktiviteter,5035,3.3,"Køkkenaktivitet, generelt (f.eks. madlavning, opvask, oprydning), moderat indsats"
+Husholdningsaktiviteter,5040,2.5,"Rengøring, generelt (oprydning, skift af sengetøj, gå ud med skrald), let indsats"
+Husholdningsaktiviteter,5041,2,"Opvask, stående eller generelt"
+Husholdningsaktiviteter,5042,2,"Opvask, rydde bordet, gående, let indsats"
+Husholdningsaktiviteter,5043,3,"Støvsugning, generelt, moderat indsats"
+Husholdningsaktiviteter,5044,3,Slagtning af små dyr
+Husholdningsaktiviteter,5045,6,"Slagtning af store dyr, hård indsats"
+Husholdningsaktiviteter,5046,2.3,"Skære og ryge fisk, tørre fisk eller kød"
+Husholdningsaktiviteter,5048,4,"Garvning af skind, generelt"
+Husholdningsaktiviteter,5049,3.5,"Madlavning eller forberedelse af mad, moderat indsats"
+Husholdningsaktiviteter,5051,2.3,"Madlavning eller forberedelse af mad, gående"
+Husholdningsaktiviteter,5052,2.3,"Servere mad, dække/rydde bordet, gående eller stående"
+Husholdningsaktiviteter,5053,2.5,Fodre husdyr
+Husholdningsaktiviteter,5054,3.5,"Bære indkøb, på plant underlag, gående"
+Husholdningsaktiviteter,5055,2.5,Sætte indkøb på plads (f.eks. bære poser/pakker)
+Husholdningsaktiviteter,5056,5.3,Bære indkøb ovenpå
+Husholdningsaktiviteter,5057,3,Bage indisk brød eller lave anden mad på udendørs komfur
+Husholdningsaktiviteter,5060,3.3,Indkøb af mad med eller uden indkøbsvogn; bære 4-5 kg pose; stående eller gående
+Husholdningsaktiviteter,5065,2.3,"Indkøb af non-food, med eller uden vogn, stående eller gående"
+Husholdningsaktiviteter,5070,1.8,Strygning
+Husholdningsaktiviteter,5080,1.3,"Strikke, sy, let indsats, pakke gaver ind, siddende"
+Husholdningsaktiviteter,5082,2.8,Sy på symaskine
+Husholdningsaktiviteter,5091,2,"Tøjvask, folde eller hænge tøj op, siddende"
+Husholdningsaktiviteter,5092,4,"Tøjvask, moderat indsats"
+Husholdningsaktiviteter,5095,2,"Tøjvask, lægge tøj på plads, samle tøj til pakning, gående"
+Husholdningsaktiviteter,5100,3,"Rede seng, skifte sengetøj"
+Husholdningsaktiviteter,5110,5,Aftapning af ahornsirup (inkl. bære spande og brænde)
+Husholdningsaktiviteter,5120,5.8,"Flytte møbler, husholdningsartikler, bære flyttekasser"
+Husholdningsaktiviteter,5121,5,"Flytning, løft af lette byrder"
+Husholdningsaktiviteter,5125,4.8,Oprydning af et rum
+Husholdningsaktiviteter,5130,3.5,"Skure gulv, på alle fire, skure badeværelse/badekar, moderat indsats"
+Husholdningsaktiviteter,5131,2,"Skure gulv, på alle fire, skure badeværelse/badekar, let indsats"
+Husholdningsaktiviteter,5132,6.5,"Skure gulv, på alle fire, skure badeværelse/badekar, hård indsats"
+Husholdningsaktiviteter,5140,3,"Feje garage, fortov eller udendørsarealer"
+Husholdningsaktiviteter,5147,3,"Gående, sætte husholdningsartikler på plads, moderat indsats"
+Husholdningsaktiviteter,5148,2,Vande planter
+Husholdningsaktiviteter,5149,2.5,Tænde op i pejsen indendørs
+Husholdningsaktiviteter,5150,9,"Bære husholdningsartikler ovenpå, bære kasser eller møbler"
+Husholdningsaktiviteter,5160,2,"Stående, lette opgaver (pumpe benzin, skifte pære, osv.)"
+Husholdningsaktiviteter,5165,3.5,"Gående, moderate opgaver, ikke-rengøring (gøre klar til at tage hjemmefra, låse døre osv.)"
+Husholdningsaktiviteter,5170,2.3,"Sidde og lege med barn/børn, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5171,2.8,"Stå og lege med barn/børn, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5175,3.5,"Gå/løbe, lege med barn/børn, moderat indsats, kun aktive perioder"
+Husholdningsaktiviteter,5180,5.8,"Gå/løbe, lege med barn/børn, hård indsats, kun aktive perioder"
+Husholdningsaktiviteter,5181,3,Gå og bære lille barn (over 7 kg)
+Husholdningsaktiviteter,5182,2.5,Gå og bære lille barn (under 7 kg)
+Husholdningsaktiviteter,5183,2,"Stående, holde barn"
+Husholdningsaktiviteter,5184,2.5,"Børnepasning, spædbarn, generelt"
+Husholdningsaktiviteter,5185,2,"Børnepasning: siddende eller knælende, påklædning, badning, madning, lette løft af barn, generelt"
+Husholdningsaktiviteter,5186,3.5,"Børnepasning: stående, påklædning, badning, madning, lette løft af barn"
+Husholdningsaktiviteter,5188,1.5,Ligge ned med baby
+Husholdningsaktiviteter,5189,2,"Amning, siddende eller liggende"
+Husholdningsaktiviteter,5190,2.5,"Sidde og lege med dyr, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5191,2.8,"Stå og lege med dyr, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5192,2.8,"Gå eller løbe, lege med dyr, generelt, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5193,4,"Gå/løbe, lege med dyr, moderat indsats, kun aktive perioder"
+Husholdningsaktiviteter,5194,5,"Gå/løbe, lege med dyr, hård indsats, kun aktive perioder"
+Husholdningsaktiviteter,5195,3.5,"Stående, bade hund"
+Husholdningsaktiviteter,5197,2.3,"Dyrepleje, husdyr, generelt"
+Husholdningsaktiviteter,5200,3,"Ældrepleje, handikappet voksen, badning, påklædning, hjælp ind/ud af sengen, kun aktive perioder"
+Husholdningsaktiviteter,5205,1.8,"Ældrepleje, handikappet voksen, madning, rede hår, let indsats, kun aktive perioder"
+Husholdningsaktiviteter,5300,1.3,Håndvask
+Boligreparation og vedligeholdelse,6010,3,Flyreparation
+Boligreparation og vedligeholdelse,6020,4,Karosseriarbejde
+Boligreparation og vedligeholdelse,6030,3.3,"Bilreparation, let eller moderat indsats"
+Boligreparation og vedligeholdelse,6040,3,"Tømrerarbejde, generelt, værksted (Taylor-kode 620)"
+Boligreparation og vedligeholdelse,6050,6,"Tømrerarbejde, udendørs (Taylor-kode 640)"
+Boligreparation og vedligeholdelse,6052,3.8,"Tømrerarbejde, udendørs, bygge et hegn"
+Boligreparation og vedligeholdelse,6060,3.3,"Snedkerarbejde, lakering eller renovering af skabe/møbler"
+Boligreparation og vedligeholdelse,6070,6,"Tømrerarbejde, save i hårdttræ, høvle og bore, moderat til hård indsats"
+Boligreparation og vedligeholdelse,6072,4,"Tømrerarbejde, renovering af hjemmet, moderat indsats"
+Boligreparation og vedligeholdelse,6074,2.3,"Tømrerarbejde, renovering af hjemmet, let indsats"
+Boligreparation og vedligeholdelse,6080,5,"Fugning, tætning af bjælkehytte"
+Boligreparation og vedligeholdelse,6090,4.5,"Fugning, undtagen bjælkehytte"
+Boligreparation og vedligeholdelse,6100,5,Rensning af tagrender
+Boligreparation og vedligeholdelse,6110,5,Udgravning af garage
+Boligreparation og vedligeholdelse,6120,5,Opsætning af forsatsvinduer
+Boligreparation og vedligeholdelse,6122,5,Opsætning af gipsplader indendørs
+Boligreparation og vedligeholdelse,6124,3,Slå søm i
+Boligreparation og vedligeholdelse,6126,2.5,"Boligreparation, generelt, let indsats"
+Boligreparation og vedligeholdelse,6127,4.5,"Boligreparation, generelt, moderat indsats"
+Boligreparation og vedligeholdelse,6128,6,"Boligreparation, generelt, hård indsats"
+Boligreparation og vedligeholdelse,6130,4.5,Lægge eller fjerne gulvtæppe
+Boligreparation og vedligeholdelse,6140,3.8,Lægge klinker eller linoleum
+Boligreparation og vedligeholdelse,6144,3,Reparation af hvidevarer/apparater
+Boligreparation og vedligeholdelse,6150,5,"Maling, udendørs (Taylor-kode 650)"
+Boligreparation og vedligeholdelse,6160,3.3,"Maling indendørs, tapetsering, skrabe maling"
+Boligreparation og vedligeholdelse,6165,4.5,Maling (Taylor-kode 630)
+Boligreparation og vedligeholdelse,6167,3,"VVS-arbejde, generelt"
+Boligreparation og vedligeholdelse,6170,3,Pålægning og fjernelse af presenning – sejlbåd
+Boligreparation og vedligeholdelse,6180,6,Tagarbejde
+Boligreparation og vedligeholdelse,6190,4.5,Slibe gulv med el-sliber
+Boligreparation og vedligeholdelse,6200,4.5,Skrabe og male sejlbåd eller motorbåd
+Boligreparation og vedligeholdelse,6205,2,Slibning af værktøj
+Boligreparation og vedligeholdelse,6210,5,Sprede jord med en skovl
+Boligreparation og vedligeholdelse,6220,4.5,Vask og voksning af skrog på sejlbåd eller fly
+Boligreparation og vedligeholdelse,6225,2,Bilvask og voksning
+Boligreparation og vedligeholdelse,6230,4.5,"Vask af hegn, maling af hegn, moderat indsats"
+Boligreparation og vedligeholdelse,6240,3.3,"Ledningsarbejde, samling af kabler"
+Inaktivitet og hvile,7009,1,Ligge stille og se fjernsyn
+Inaktivitet og hvile,7011,1,"Ligge stille, lave ingenting, ligge vågen i sengen, lytte til musik (uden at tale eller læse)"
+Inaktivitet og hvile,7020,1,Sidde og se fjernsyn
+Inaktivitet og hvile,7021,1,"Sidde stille, generelt"
+Inaktivitet og hvile,7022,1.5,"Sidde stille, rastløs, generelt, pille ved ting med hænderne"
+Inaktivitet og hvile,7023,1.8,"Sidde stille, vippe med fødderne"
+Inaktivitet og hvile,7024,1.3,Sidde og ryge
+Inaktivitet og hvile,7025,1.5,Sidde og lytte til musik (uden at tale/læse) eller se film i biografen
+Inaktivitet og hvile,7026,1.3,"Sidde ved et skrivebord, hvile hovedet i hænderne"
+Inaktivitet og hvile,7030,1,Sove
+Inaktivitet og hvile,7040,1.3,Stå stille (f.eks. stå i kø)
+Inaktivitet og hvile,7041,1.5,Stående (rastløs/småbevægelser)
+Inaktivitet og hvile,7045,1.3,Stå og se fjernsyn
+Inaktivitet og hvile,7050,1.5,"Ligge ned/tilbagelænet, skrive"
+Inaktivitet og hvile,7060,1.3,"Ligge ned/tilbagelænet, tale eller tale i telefon"
+Inaktivitet og hvile,7070,1.3,"Ligge ned/tilbagelænet, læse"
+Inaktivitet og hvile,7075,1,Meditation
+Have- og udendørsarbejde,8009,4.1,"Bære, læsse eller stable brænde/tømmer, let til moderat indsats"
+Have- og udendørsarbejde,8010,5.5,"Bære, læsse eller stable brænde/tømmer, moderat indsats"
+Have- og udendørsarbejde,8019,4.5,"Hugge/kløve brænde, moderat indsats"
+Have- og udendørsarbejde,8020,6.5,"Hugge/kløve brænde, hård indsats"
+Have- og udendørsarbejde,8025,3.5,"Rydde let krat, udtynde have, moderat indsats"
+Have- og udendørsarbejde,8030,6.3,"Rydde jord, slæbe krat eller muld, hård indsats"
+Have- og udendørsarbejde,8040,5,"Grave i sandkasse, skovle sand"
+Have- og udendørsarbejde,8045,3.5,"Grave, vende jord, fylde jord på, kompostere, let til moderat indsats"
+Have- og udendørsarbejde,8050,5,"Grave, vende jord, fylde jord på, kompostere (Taylor-kode 590)"
+Have- og udendørsarbejde,8052,7.3,"Grave, vende jord, fylde jord på, kompostere, hård indsats"
+Have- og udendørsarbejde,8055,2.8,Køre traktor
+Have- og udendørsarbejde,8057,8.3,"Fælde træer, store"
+Have- og udendørsarbejde,8058,5.3,"Fælde træer, små/mellemstore"
+Have- og udendørsarbejde,8060,5.8,"Havearbejde med tunge maskiner, bruge motorsav, fræse jord"
+Have- og udendørsarbejde,8066,2,"Havearbejde, generelt"
+Have- og udendørsarbejde,8070,4,"Vandingskanaler, åbne og lukke sluser"
+Have- og udendørsarbejde,8080,6.3,Lægge granitskærver eller grus
+Have- og udendørsarbejde,8090,5,Lægge rullegræs
+Have- og udendørsarbejde,8095,5.5,"Græsslåning, generelt, gående, moderat indsats"
+Have- og udendørsarbejde,8100,2.5,"Græsslåning, havetraktor (Taylor-kode 550)"
+Have- og udendørsarbejde,8110,6,"Græsslåning, håndskubber, hård indsats (Taylor-kode 570)"
+Have- og udendørsarbejde,8120,5,"Græsslåning, gående, motorplæneklipper, moderat eller hård indsats"
+Have- og udendørsarbejde,8125,4.5,"Græsslåning, motorplæneklipper, let eller moderat indsats (Taylor-kode 590)"
+Have- og udendørsarbejde,8130,2.5,"Køre sneslynge, gående"
+Have- og udendørsarbejde,8135,2.6,"Plante, omplante stiklinger eller planter, let indsats"
+Have- og udendørsarbejde,8140,4.3,"Plante stiklinger/buske, foroverbøjet, moderat indsats"
+Have- og udendørsarbejde,8145,4.3,"Plante afgrøder i have/mark, foroverbøjet, moderat indsats"
+Have- og udendørsarbejde,8150,4.5,Plante træer
+Have- og udendørsarbejde,8160,4,"Rive græsplæne eller blade sammen, moderat indsats"
+Have- og udendørsarbejde,8165,4,Rive græsplæne (Taylor-kode 600)
+Have- og udendørsarbejde,8170,4,Rive sne ned af tag med snerive
+Have- og udendørsarbejde,8180,3,Køre sneslynge (siddende)
+Have- og udendørsarbejde,8190,4,Samle græs/blade i sække
+Have- og udendørsarbejde,8192,5.5,Skovle jord eller mudder
+Have- og udendørsarbejde,8195,5.3,"Skovle sne med håndkraft, moderat indsats"
+Have- og udendørsarbejde,8200,6,Skovle sne med håndkraft (Taylor-kode 610)
+Have- og udendørsarbejde,8202,7.5,"Skovle sne med håndkraft, hård indsats"
+Have- og udendørsarbejde,8210,3.8,Klippe buske eller træer med håndværktøj
+Have- og udendørsarbejde,8215,3.3,"Klippe buske/træer med el-værktøj, bruge løvblæser/kantskærer, moderat indsats"
+Have- og udendørsarbejde,8220,3,"Gående, gøde eller så græs med skubbe-spreder"
+Have- og udendørsarbejde,8230,4,"Vande græsplæne eller have, stående eller gående"
+Have- og udendørsarbejde,8239,3.8,"Luge ukrudt, kultivere have, let til moderat indsats"
+Have- og udendørsarbejde,8240,4.5,"Luge ukrudt, kultivere have, moderat indsats (Taylor-kode 580)"
+Have- og udendørsarbejde,8241,5,"Luge ukrudt, kultivere have med hakkejern, moderat til hård indsats"
+Have- og udendørsarbejde,8245,3.8,"Havearbejde, generelt, moderat indsats"
+Have- og udendørsarbejde,8246,3.5,"Plukke frugt eller kaffebønner fra træer, moderat indsats"
+Have- og udendørsarbejde,8248,4.5,"Høste afgrøder, plukke frugt fra træer, samle frugt, klatre på stige for at plukke frugt, hård indsats"
+Have- og udendørsarbejde,8250,3,"Gående/stående - rydde op i haven, let, plukke blomster eller grøntsager"
+Have- og udendørsarbejde,8251,3,"Gående, samle haveredskaber"
+Have- og udendørsarbejde,8255,4.8,"Skubbe havevogn eller trillebør, generelt"
+Have- og udendørsarbejde,8256,6,Skubbe stor havevogn eller tung trillebør (op til 150 kg)
+Have- og udendørsarbejde,8260,2.3,"Have/udendørsarbejde, generelt, let indsats"
+Have- og udendørsarbejde,8261,4,"Have/udendørsarbejde, generelt, moderat indsats"
+Have- og udendørsarbejde,8262,6,"Have/udendørsarbejde, generelt, hård indsats"
+Diverse,9000,1.3,"Spille brætspil, siddende"
+Diverse,9005,2.5,"Spille casinospil, stående"
+Diverse,9010,1.5,"Spille kort, siddende"
+Diverse,9013,1.5,"Spille skak, siddende"
+Diverse,9015,1.5,"Kopiere eller arkivere dokumenter, stående"
+Diverse,9020,1.8,"Tegne, skrive, male, stående"
+Diverse,9025,1,"Grine, siddende"
+Diverse,9030,1,"Siddende: læse bog, avis eller magasin"
+Diverse,9034,1.8,Siddende: skrive eller læse på balancebold/stol
+Diverse,9036,2,"Se fjernsyn, trippe/gå på stedet under reklamepauser"
+Diverse,9040,1.3,"Siddende: skrive, skrivebordsarbejde, tastearbejde"
+Diverse,9050,1.3,"Stående: tale personligt, i telefon, ved computer, sms'e, skrive"
+Diverse,9055,1.3,"Siddende: tale personligt, i telefon, ved computer eller sms'e, let indsats"
+Diverse,9060,1.5,"Siddende - studere, generelt, inkl. læsning og/eller skrivning, let indsats"
+Diverse,9065,1.8,"Siddende - i klasse/undervisning, generelt, inkl. tage noter eller klassediskussion"
+Diverse,9070,1,Stående - læse
+Diverse,9071,2.5,Stående - diverse
+Diverse,9075,1.8,"Siddende: kunsthåndværk, træskæring, vævning, spinde uld, let indsats"
+Diverse,9080,3,"Siddende: kunsthåndværk, træskæring, vævning, spinde uld, moderat indsats"
+Diverse,9085,2.5,"Stående: kunsthåndværk, sandmaling, træskæring, vævning, let indsats"
+Diverse,9090,3.3,"Stående - kunsthåndværk, sandmaling, træskæring, vævning, moderat indsats"
+Diverse,9095,3.5,"Stående - kunsthåndværk, sandmaling, træskæring, vævning, hård indsats"
+Diverse,9100,1.5,"Retræte/familiekomsammen, inkl. sidde, slappe af, tale, spise"
+Diverse,9101,2.5,"Retræte/familiekomsammen, inkl. spille spil/lege med børn"
+Diverse,9105,2,"Tur/rejse/ferie, køre som passager i køretøj"
+Diverse,9106,3.5,"Tur/rejse/ferie, gående"
+Diverse,9110,2.5,"Camping, stående, gående, siddende, let til moderat indsats"
+Diverse,9115,1.5,"Sidde til sportsbegivenhed, tilskuer"
+Musikutøvelse,10010,1.8,"Spille harmonika, siddende"
+Musikutøvelse,10020,2.3,"Spille cello, siddende"
+Musikutøvelse,10030,2.3,"Dirigere orkester, stående"
+Musikutøvelse,10035,2.5,"Spille kontrabas, stående"
+Musikutøvelse,10040,3.8,"Spille trommesæt, siddende"
+Musikutøvelse,10045,3,"Trommespil (f.eks. bongo, conga), moderat, siddende"
+Musikutøvelse,10048,8.3,"Trommespil, koncert/liveshow"
+Musikutøvelse,10050,2,"Spille tværfløjte, siddende"
+Musikutøvelse,10060,1.8,"Spille horn, stående"
+Musikutøvelse,10070,2.3,"Spille klaver, siddende"
+Musikutøvelse,10074,2,"Spille musikinstrument, generelt"
+Musikutøvelse,10077,2,"Spille orgel, siddende"
+Musikutøvelse,10080,3.5,"Spille trækbasun (trombone), stående"
+Musikutøvelse,10090,2.5,"Spille trompet, stående"
+Musikutøvelse,10100,2.5,"Spille violin, siddende"
+Musikutøvelse,10110,1.8,"Spille træblæser, siddende"
+Musikutøvelse,10115,1.8,"Spille messingblæser, siddende"
+Musikutøvelse,10120,2,"Spille guitar, klassisk/folk, siddende"
+Musikutøvelse,10125,3,"Spille el-guitar i rockband, stående"
+Musikutøvelse,10130,4,"Marchband, svinge tamburstav, gående, moderat tempo, generelt"
+Musikutøvelse,10131,5.5,"Marchband, spille instrument, gående, rask tempo, generelt"
+Musikutøvelse,10135,3.5,"Marchband, tamburmajor, gående"
+Erhvervsarbejde,11000,2,"Aktiv arbejdsstation, kontorcykel, balancebold/stol, generelt, let indsats"
+Erhvervsarbejde,11001,3.5,"Aktiv arbejdsstation, kontorcykel (40 watt)"
+Erhvervsarbejde,11002,5.3,"Aktiv arbejdsstation, kontorcykel (80 watt)"
+Erhvervsarbejde,11003,2,"Aktiv arbejdsstation, gåbånd, gå langsomt (under 1,6 km/t)"
+Erhvervsarbejde,11004,2.8,"Aktiv arbejdsstation, gåbånd, gå 1,6 - 3,2 km/t"
+Erhvervsarbejde,11006,3,Stewardesse / kabinepersonale
+Erhvervsarbejde,11008,4.8,Æblehøst
+Erhvervsarbejde,11010,4,"Bageri, generelt, moderat indsats"
+Erhvervsarbejde,11015,2,"Bageri, let indsats"
+Erhvervsarbejde,11020,2.3,Bogbinding
+Erhvervsarbejde,11030,6,"Vejbyggeri, køre entreprenørmaskiner"
+Erhvervsarbejde,11035,2,"Vejbyggeri, dirigere trafik, stående"
+Erhvervsarbejde,11038,2.5,"Tømrerarbejde, generelt, let indsats"
+Erhvervsarbejde,11040,4.3,"Tømrerarbejde, generelt, moderat indsats"
+Erhvervsarbejde,11042,7,"Tømrerarbejde, generelt, tung eller hård indsats"
+Erhvervsarbejde,11050,8,"Bære tunge byrder (f.eks. mursten, værktøj)"
+Erhvervsarbejde,11060,8,"Bære moderate byrder op ad trapper, flyttekasser, 11-22 kg"
+Erhvervsarbejde,11070,4,"Stuepige/rengøring på hotel, rede seng, rengøre bad, skubbe vogn"
+Erhvervsarbejde,11072,4.3,"Rengøring, støvsugning af erhvervslokaler"
+Erhvervsarbejde,11080,5.3,"Kulminedrift, bore i kul/sten"
+Erhvervsarbejde,11090,5,"Kulminedrift, opsætte støtter"
+Erhvervsarbejde,11100,5.5,"Kulminedrift, generelt"
+Erhvervsarbejde,11110,6.3,"Kulminedrift, skovle kul med håndkraft"
+Erhvervsarbejde,11115,2.5,Kok
+Erhvervsarbejde,11120,4,"Bygge- og anlægsarbejde, udendørs, renovering, nybyggeri"
+Erhvervsarbejde,11124,2.3,"Byggearbejde, armering, bukke/binde jern"
+Erhvervsarbejde,11125,2.3,"Rengøringsarbejde, let indsats (f.eks. vaske vask/toilet, støve af, støvsuge)"
+Erhvervsarbejde,11130,3.3,"Elektrikerarbejde (f.eks. trække kabler, samle ledninger)"
+Erhvervsarbejde,11135,1.8,Ingeniør (f.eks. maskin- eller el-ingeniør)
+Erhvervsarbejde,11145,7.8,"Landbrug, hård indsats (f.eks. pakke hø, muge ud)"
+Erhvervsarbejde,11147,2,"Landbrug, let indsats (f.eks. rengøre dyrestalde, blande foder)"
+Erhvervsarbejde,11170,2.8,"Landbrug, køreopgaver (f.eks. køre traktor eller mejetærsker)"
+Erhvervsarbejde,11180,3.5,"Landbrug, fodre smådyr"
+Erhvervsarbejde,11190,4.3,"Landbrug, fodre kvæg eller heste"
+Erhvervsarbejde,11191,4.3,"Landbrug, hente vand til dyr fra brønd/å"
+Erhvervsarbejde,11195,3.8,"Landbrug, ris, plantning, kornmaling"
+Erhvervsarbejde,11210,3.5,"Landbrug, håndmalkning, rengøre spande, moderat indsats"
+Erhvervsarbejde,11220,1.3,"Landbrug, maskinmalkning, let indsats"
+Erhvervsarbejde,11222,3,"Landbrug, malkning af køer, komplet proces i moderne malkestald"
+Erhvervsarbejde,11240,8,"Brandmand, generelt"
+Erhvervsarbejde,11244,6.8,"Brandmand, redde offer, bilulykke, bruge brandhage"
+Erhvervsarbejde,11245,8,"Brandmand, rejse og klatre på stige i fuld mundering, simuleret brandslukning"
+Erhvervsarbejde,11246,9,"Brandmand, trække slanger, bære udstyr, bryde vægge ned, i fuld mundering"
+Erhvervsarbejde,11247,3.5,"Erhvervsfiskeri, let indsats"
+Erhvervsarbejde,11248,5,"Erhvervsfiskeri, moderat indsats"
+Erhvervsarbejde,11250,17.5,"Skovbrug, hugge med økse, meget hurtigt (1,25 kg økse, 51 slag/min), ekstremt hård indsats"
+Erhvervsarbejde,11260,5,"Skovbrug, hugge med økse, langsomt (1,25 kg økse, 19 slag/min), moderat indsats"
+Erhvervsarbejde,11262,8,"Skovbrug, hugge med økse, hurtigt (1,25 kg økse, 35 slag/min), hård indsats"
+Erhvervsarbejde,11264,5,"Skovbrug, moderat indsats (f.eks. save med motorsav, luge, hakke)"
+Erhvervsarbejde,11370,4.8,Buntmager (pelsarbejde)
+Erhvervsarbejde,11375,3.8,"Skraldemand, gående, tømme spande i bil, gaderengøring"
+Erhvervsarbejde,11378,1.8,"Frisør / Kosmetolog (f.eks. flette hår, manicure, makeup)"
+Erhvervsarbejde,11380,7.3,"Hestepleje (inkl. fodring, muge ud, vask, børstning, klipning, longering)"
+Erhvervsarbejde,11381,4.3,"Heste, fodre, vande, muge ud, gående og løfte byrder"
+Erhvervsarbejde,11383,4.5,"Ridning, arbejde, drive kvæg"
+Erhvervsarbejde,11390,7.8,"Hestevæddeløb, galop, canter"
+Erhvervsarbejde,11400,6.3,"Hestevæddeløb, jockey, trav"
+Erhvervsarbejde,11410,2.3,"Hestevæddeløb, jockey, skridt"
+Erhvervsarbejde,11413,3,Køkkenmedhjælper
+Erhvervsarbejde,11415,4,"Gartner, havearbejde, generelt"
+Erhvervsarbejde,11416,3,"Gartner, fjerne ukrudt (benzindrevet værktøj)"
+Erhvervsarbejde,11418,3.3,Vaskeriarbejder
+Erhvervsarbejde,11420,3,Låsesmed
+Erhvervsarbejde,11430,3,"Maskinarbejder (f.eks. pladearbejde, drejebænk, svejsning), let til moderat indsats"
+Erhvervsarbejde,11450,5,"Maskinarbejder, betjene stansemaskine, moderat indsats"
+Erhvervsarbejde,11472,1.8,Ejendomsadministrator/vicevært
+Erhvervsarbejde,11475,2.8,"Manuelt eller ufaglært arbejde, generelt, let indsats"
+Erhvervsarbejde,11476,4.5,"Manuelt eller ufaglært arbejde, generelt, moderat indsats"
+Erhvervsarbejde,11477,6.5,"Manuelt eller ufaglært arbejde, generelt, hård indsats"
+Erhvervsarbejde,11480,4.3,"Murerarbejde, beton, moderat indsats"
+Erhvervsarbejde,11482,2.5,"Murerarbejde, beton, let indsats"
+Erhvervsarbejde,11485,5.5,"Massør, stående"
+Erhvervsarbejde,11486,2.3,"Postbud, gående uddeling af post"
+Erhvervsarbejde,11487,1.5,"Postbud, på knallert/motorcykel"
+Erhvervsarbejde,11488,3.5,"Postbud, på elcykel"
+Erhvervsarbejde,11490,7.5,"Flytning, bære/skubbe tunge byrder (over 34 kg), f.eks. flyttemand (kun aktiv tid)"
+Erhvervsarbejde,11493,8.5,"Minedrift, generelle opgaver, boring, support (mekanik, svejsning, rørarbejde)"
+Erhvervsarbejde,11495,12,"Frømand, SCUBA-dykning (militær/Navy Seal)"
+Erhvervsarbejde,11500,2.5,"Betjene tunge maskiner, stationært"
+Erhvervsarbejde,11510,3.5,"Arbejde i appelsinplantage, plukke frugt"
+Erhvervsarbejde,11514,3.3,"Malerarbejde, hus/møbler, moderat indsats"
+Erhvervsarbejde,11516,3,VVS-arbejde
+Erhvervsarbejde,11520,2,"Trykkeriarbejder, papirindustri, stående"
+Erhvervsarbejde,11524,3.8,"Politibetjent, gående patrulje"
+Erhvervsarbejde,11525,2.5,"Politi, dirigere trafik, stående"
+Erhvervsarbejde,11526,2,"Politi, køre patruljevogn, siddende"
+Erhvervsarbejde,11527,1.3,"Politi, passager i patruljevogn, siddende"
+Erhvervsarbejde,11528,4,"Politi, foretage anholdelse, stående"
+Erhvervsarbejde,11529,9,"Antiterror-manøvrer, rydde bygning"
+Erhvervsarbejde,11530,2,"Skomager, generelt"
+Erhvervsarbejde,11540,7.3,"Skovle, grave grøfter"
+Erhvervsarbejde,11550,8.8,"Skovle (mere end 7 kg/min), grave dybt, hård indsats"
+Erhvervsarbejde,11560,5,"Skovle (mindre end 4,5 kg/min), moderat indsats"
+Erhvervsarbejde,11570,6.5,"Skovle (4,5 - 7 kg/min), hård indsats"
+Erhvervsarbejde,11580,1.5,"Siddende arbejde, let indsats (f.eks. kontor, laborant, urmager, læse)"
+Erhvervsarbejde,11582,1.3,"Siddende, computerarbejde"
+Erhvervsarbejde,11583,1.3,"Stående arbejdsstation, taste/computerarbejde"
+Erhvervsarbejde,11585,1.3,"Siddende møder, let indsats, generelt, evt. med tale (f.eks. forretningsfrokost)"
+Erhvervsarbejde,11590,2.5,"Siddende arbejde, moderat indsats (f.eks. trække i tunge håndtag, køre truck/kran)"
+Erhvervsarbejde,11593,2.8,"Siddende, undervise i udstrækning/yoga, lette hold"
+Erhvervsarbejde,11615,4.5,"Stående, moderat indsats, kontinuerlige løft (4,5 - 9 kg), begrænset gang/hvile"
+Erhvervsarbejde,11620,3.8,"Stående, moderat indsats, løft (22 kg) i intervaller, binde/sno reb"
+Erhvervsarbejde,11630,4.5,"Stående, moderat/tungt arbejde (f.eks. løft over 22 kg, murer, maler)"
+Erhvervsarbejde,11650,2.3,"Patientpleje, sundhedsfagligt arbejde"
+Erhvervsarbejde,11660,3.5,"Patientpleje, rengøring/klargøring af stue"
+Erhvervsarbejde,11708,5.3,"Stålværk, moderat indsats (f.eks. smedning, vippe forme)"
+Erhvervsarbejde,11710,8.3,"Stålværk, hård indsats (f.eks. fjerne slagger, passe ovn)"
+Erhvervsarbejde,11720,2.3,"Skrædderi, klippe stof"
+Erhvervsarbejde,11730,2.5,"Skrædderi, generelt"
+Erhvervsarbejde,11740,1.8,"Skrædderi, håndsyning"
+Erhvervsarbejde,11750,2.5,"Skrædderi, maskinsyning"
+Erhvervsarbejde,11760,3.5,"Skrædderi, strygning/presning"
+Erhvervsarbejde,11763,2,"Skrædderi/vævning, let indsats (f.eks. vask, farvning, inspektion)"
+Erhvervsarbejde,11766,6.5,"Lastbilchauffør, læsse af/på, spænde last fast, stående/gående med tunge løft"
+Erhvervsarbejde,11767,2,"Chauffør (varevogn, taxa, bus)"
+Erhvervsarbejde,11770,1.3,Tastaturarbejde (computer/skrivemaskine)
+Erhvervsarbejde,11780,6.3,Brug af tunge el-værktøjer/trykluft (f.eks. trykluftbor)
+Erhvervsarbejde,11790,7.8,"Brug af tungt håndværktøj (skovl, hakke, spade)"
+Erhvervsarbejde,11791,2,"Gående på jobbet, under 3,2 km/t, meget langsomt i kontor/laboratorium"
+Erhvervsarbejde,11792,3.8,"Gående på jobbet, 4,5-5,5 km/t, moderat tempo, uden at bære noget"
+Erhvervsarbejde,11793,4.8,"Gående på jobbet, 5,6-6,3 km/t, rask tempo, uden at bære noget"
+Erhvervsarbejde,11795,3.5,"Gående på jobbet, 4 km/t, langsomt tempo, bære lette genstande (under 11 kg)"
+Erhvervsarbejde,11796,3,"Gående, samle ting sammen på jobbet, gøre klar til at gå"
+Erhvervsarbejde,11797,3.8,"Gående, 4 km/t, bære tunge genstande (over 11 kg)"
+Erhvervsarbejde,11800,4.5,"Gående, 4,8 km/t, bære lette genstande (under 11 kg)"
+Erhvervsarbejde,11805,3.8,"Gående, skubbe kørestol"
+Erhvervsarbejde,11810,4.5,"Gående, 5,6 km/t, rask tempo, bære genstande (under 11 kg)"
+Erhvervsarbejde,11820,4,"Gående/gå ned ad trapper/stående, bære 11-22 kg"
+Erhvervsarbejde,11830,5.5,"Gående/gå ned ad trapper/stående, bære 23-33 kg"
+Erhvervsarbejde,11840,7,"Gående/gå ned ad trapper/stående, bære 34-45 kg"
+Erhvervsarbejde,11850,7.3,"Gående/gå ned ad trapper/stående, bære over 45 kg"
+Erhvervsarbejde,11860,2.3,"Lager/fragtcentral, læsse kasser af og på"
+Erhvervsarbejde,11862,4.3,"Lager/fragtcentral, flytte kasser (~5 kg)"
+Erhvervsarbejde,11870,3,"Teaterarbejde, skuespiller eller scenetekniker"
+Erhvervsarbejde,11880,3.5,"Soldater, militærmarch, uden oppakning, 2,4 - 4 km/t"
+Erhvervsarbejde,11882,4,"Soldater, militærmarch, 10-30 kg oppakning, 2,4 - 4 km/t"
+Erhvervsarbejde,11884,5,"Militærmarch (Airborne Shuffle), 20-30 kg oppakning, 4 - 5,6 km/t"
+Erhvervsarbejde,11886,6.3,"Soldater, militærmarch i varierende terræn, 25-40 kg oppakning"
+Erhvervsarbejde,11887,6,"Soldater, gående, 4,5 km/t, 5% stigning, op til 21,5 kg oppakning"
+Erhvervsarbejde,11888,8.5,"Soldater, gående, 4,5 km/t, 10% stigning, op til 21,5 kg oppakning"
+Erhvervsarbejde,11889,11,"Soldater, gående, 4,5 km/t, 15% stigning, op til 21,5 kg oppakning"
+Erhvervsarbejde,11892,6,"Militæraktivitet, klargøring i felten, grave forsvarsstillinger"
+Løb,12010,6,Kombineret gå-/joggetur (jogging-sekvenser under 10 minutter)
+Løb,12020,7.5,"Jogging, generelt, selvvalgt tempo"
+Løb,12025,4.8,Jogging på stedet
+Løb,12026,3.3,"Jogging, 4 - 6 km/t"
+Løb,12027,4.5,Jogging på minitrampolin
+Løb,12028,6.5,"Løb, 6,4 - 6,8 km/t (8 min/km)"
+Løb,12029,7.8,"Løb, 6,9 - 7,7 km/t (8 - 7:45 min/km)"
+Løb,12030,8.5,"Løb, 8 - 8,4 km/t (7:30 min/km)"
+Løb,12045,9,"Løb, 8,8 - 9,3 km/t"
+Løb,12050,9.3,"Løb, 9,7 - 10,1 km/t (6:15 min/km)"
+Løb,12060,10.5,"Løb, 10,8 km/t (5:35 min/km)"
+Løb,12070,11,"Løb, 11,3 km/t (5:15 min/km)"
+Løb,12080,11.8,"Løb, 12 km/t (5:00 min/km)"
+Løb,12090,12,"Løb, 12,9 km/t (4:40 min/km)"
+Løb,12100,12.5,"Løb, 13,8 km/t (4:20 min/km)"
+Løb,12110,13,"Løb, 14,5 km/t (4:00 min/km)"
+Løb,12115,14.8,"Løb, 15 - 15,5 km/t"
+Løb,12120,14.8,"Løb, 16,1 km/t (3:45 min/km)"
+Løb,12130,16.8,"Løb, 17,7 km/t (3:25 min/km)"
+Løb,12132,18.5,"Løb, 19,3 km/t (3:05 min/km)"
+Løb,12134,19.8,"Løb, 20,9 km/t (2:50 min/km)"
+Løb,12135,23,"Løb, 22,5 km/t (2:40 min/km)"
+Løb,12140,9.3,"Løb, terrænløb (cross country)"
+Løb,12145,10.5,"Løb, selvvalgt tempo"
+Løb,12150,8,Løb (Taylor-kode 200)
+Løb,12170,15,"Løb på trapper, opad"
+Løb,12180,10,"Løb på atletikbane, holdtræning"
+Løb,12184,18,"Løb på atletikbane, 500-1500m, konkurrence"
+Løb,12186,19.3,"Løb på atletikbane, 2000-3000m, konkurrence"
+Løb,12190,8,"Løb, træning, skubbe kørestol eller løbevogn"
+Løb,12200,13.3,"Løb, maraton"
+Løb,12255,10.3,"Løb, op ad bakke, 7,2 km/t, 5% stigning"
+Løb,12260,13.3,"Løb, op ad bakke, 9,7 km/t, 5% stigning"
+Løb,12265,15.5,"Løb op ad bakke, 11,3 km/t, 5% stigning"
+Løb,12325,17.5,"Løb op ad bakke, 8 - 9,5 km/t, 15% stigning"
+Løb,12335,8.8,"Løb op ad bakke, 1 - 1,3 km/t, 30% stigning"
+Løb,12337,10.3,"Løb op ad bakke, 1,3 - 1,6 km/t, 30% stigning"
+Løb,12339,11.8,"Løb op ad bakke, 1,6 - 1,9 km/t, 30% stigning"
+Løb,12341,13.5,"Løb op ad bakke, 1,9 - 2,2 km/t, 30-40% stigning"
+Løb,12343,14.8,"Løb op ad bakke, 2,3 - 2,6 km/t, 30% stigning"
+Løb,12345,16.3,"Løb op ad bakke, >2,6 km/t, 10-30% stigning"
+Løb,12350,16,"Løb, bakket terræn, ±100m højdeforskel"
+Løb,12352,5.8,"Løb ned ad bakke, 8 - 9,5 km/t, 10-15% hældning nedad"
+Løb,12353,7.5,"Løb ned ad bakke, 9,7 - 11,1 km/t, 10-15% hældning nedad"
+Løb,12355,9,"Løb ned ad bakke, 11,3 - 14,3 km/t, 10-15% hældning nedad"
+Løb,12358,9.3,"Løb ned ad bakke, 9,7 - 12,7 km/t, 3-9% hældning nedad"
+Løb,12361,13.8,"Løb ned ad bakke, 12,9 - 16,9 km/t, 3-9% hældning nedad"
+Løb,12405,5.3,"Løb/jogging, buet løbebånd, 4,8 - 6,3 km/t"
+Løb,12408,6.5,"Løb/jogging, buet løbebånd, 6,4 - 7,9 km/t"
+Løb,12410,11,"Løb, buet løbebånd, 8 - 9,5 km/t"
+Løb,12412,12,"Løb, buet løbebånd, 11,3 - 12,7 km/t"
+Løb,12414,14,"Løb, buet løbebånd, 12,9 - 14,3 km/t"
+Løb,12416,16.8,"Løb, buet løbebånd, 14,5 - 15,9 km/t"
+Løb,12508,8.5,"Løb, 8 - 9,5 km/t, 1-3 kg rygsæk"
+Løb,12510,9.5,"Løb, 9,7 - 11,1 km/t, 1-3 kg rygsæk"
+Løb,12512,9.8,"Løb, 11,3 - 12,7 km/t, 1-3 kg rygsæk"
+Løb,12514,12,"Løb, 12,9 - 14,3 km/t, 1-3 kg rygsæk"
+Løb,12555,7.8,"Løb, barfodet, 5,6 - 9,5 km/t"
+Løb,12560,12,"Løb, barfodet, 9,7 - 12,7 km/t"
+Løb,12565,13.5,"Løb, barfodet, 12,9 - 14,3 km/t"
+Løb,12585,8,"Løb med løbevogn, indendørs, 8 km/t"
+Løb,12588,9,"Løb med løbevogn, indendørs, 9,7 km/t"
+Løb,12593,10,"Løb med løbevogn, udendørs, 8 km/t"
+Løb,12595,11.5,"Løb med løbevogn, udendørs, 9,7 km/t"
+Løb,12600,11.5,"Hinke/Skipping, 8,8 - 9,7 km/t"
+Løb,12620,13,"Triatlon, Løb"
+Personlig pleje,13000,2.3,"Gøre sig klar til sengetid, generelt, stående"
+Personlig pleje,13009,2.3,Sidde på toilet / toiletbesøg stående eller på hug
+Personlig pleje,13010,1.5,"Badning, siddende"
+Personlig pleje,13020,2.8,"Påklædning, afklædning, stående eller siddende"
+Personlig pleje,13030,1.5,"Spise, siddende"
+Personlig pleje,13035,2,"Tale og spise eller kun spise, stående"
+Personlig pleje,13036,1.5,"Tage medicin, siddende eller stående"
+Personlig pleje,13040,2,"Personlig pleje, vaske hænder, barbere sig, børste tænder, lægge makeup, siddende/stående"
+Personlig pleje,13045,2.5,"Sætte hår, stående"
+Personlig pleje,13046,1.3,"Få ordnet hår eller negle af andre, siddende"
+Personlig pleje,13050,2,"Brusebad, tørre sig med håndklæde, stående"
+Seksuel aktivitet,14010,5.8,"Aktiv, hård indsats"
+Seksuel aktivitet,14020,3,"Generelt, moderat indsats"
+Seksuel aktivitet,14030,1.8,"Passiv, let indsats, kysse, kramme"
+Sport og idræt,15000,5.5,"Alaska Native Games, Eskimo Olympics, generelt"
+Sport og idræt,15010,4.3,Bueskydning (ikke jagt)
+Sport og idræt,15020,7,"Badminton, konkurrence (Taylor-kode 450)"
+Sport og idræt,15025,9,"Badminton, konkurrence, kamp"
+Sport og idræt,15030,5.5,"Badminton, hygge-single og -double, generelt"
+Sport og idræt,15040,8,"Basketball, kamp (Taylor-kode 490)"
+Sport og idræt,15050,6,"Basketball, uden for kamp, generelt (Taylor-kode 480)"
+Sport og idræt,15055,7.5,"Basketball, generelt"
+Sport og idræt,15060,7,"Basketball, dommergerning (Taylor-kode 500)"
+Sport og idræt,15062,5.8,"Basketball, dommergerning"
+Sport og idræt,15070,5,"Basketball, skyde på kurv"
+Sport og idræt,15072,9.3,"Basketball, øvelser, træning"
+Sport og idræt,15080,2.5,Billard
+Sport og idræt,15090,3,Bowling (Taylor-kode 390)
+Sport og idræt,15092,3.8,"Bowling, indendørs i bowlinghal"
+Sport og idræt,15100,12.3,"Boksning, i ringen, generelt"
+Sport og idræt,15110,5.8,"Boksning, boksesæk"
+Sport og idræt,15113,7,"Boksning, boksesæk, 60 slag/min"
+Sport og idræt,15115,8.5,"Boksning, boksesæk, 120 slag/min"
+Sport og idræt,15118,10.8,"Boksning, boksesæk, 180 slag/min"
+Sport og idræt,15120,7.8,"Boksning, sparring"
+Sport og idræt,15125,9.3,"Boksning, simuleret bokserunde, træning"
+Sport og idræt,15130,7,Broomball
+Sport og idræt,15138,6,"Cheerleading, gymnastiske bevægelser, konkurrence"
+Sport og idræt,15140,4,"Trænergerning (fodbold, basketball, svømning osv.)"
+Sport og idræt,15142,8,"Trænergerning, aktiv deltagelse i sport med spillerne"
+Sport og idræt,15150,4.8,"Cricket, batting, bowling, fielding"
+Sport og idræt,15160,3.3,Kroket
+Sport og idræt,15170,4,Curling
+Sport og idræt,15180,2.5,"Dart, indendørs eller udendørs"
+Sport og idræt,15190,6,"Drag racing, skubbe eller køre en bil"
+Sport og idræt,15192,8.5,"Motorsport, open wheel / formel-biler"
+Sport og idræt,15195,7.8,Futsal
+Sport og idræt,15200,6,"Fægtning, generelt"
+Sport og idræt,15203,9.8,"Fægtning, kårde, konkurrence"
+Sport og idræt,15205,10.5,Floorball
+Sport og idræt,15210,8,"Amerikansk fodbold, konkurrence"
+Sport og idræt,15230,8,"Amerikansk fodbold, touch/flag, generelt (Taylor-kode 510)"
+Sport og idræt,15232,4,"Amerikansk fodbold, touch/flag, let indsats"
+Sport og idræt,15235,2.5,"Amerikansk fodbold eller baseball, kaste gris"
+Sport og idræt,15240,3,"Frisbee, generelt"
+Sport og idræt,15250,8,Ultimate frisbee
+Sport og idræt,15252,3.8,Disc golf / frisbee golf
+Sport og idræt,15255,4.5,"Golf, generelt"
+Sport og idræt,15265,4.3,"Golf, gående, bære køller"
+Sport og idræt,15270,3.5,"Minigolf, driving range"
+Sport og idræt,15285,4.5,"Golf, gående, trække golfvogn"
+Sport og idræt,15290,3.5,"Golf, køre i golfbil (Taylor-kode 070)"
+Sport og idræt,15300,3.8,"Gymnastik, generelt"
+Sport og idræt,15310,4,Hacky sack
+Sport og idræt,15320,12,"Håndbold, generelt (Taylor-kode 520)"
+Sport og idræt,15330,8,"Håndbold, hold"
+Sport og idræt,15335,4,"Klatrepark / svævebane, flere elementer"
+Sport og idræt,15340,3.5,Drageflyvning
+Sport og idræt,15350,7.8,"Hockey, landhockey"
+Sport og idræt,15360,8,"Ishockey, generelt"
+Sport og idræt,15362,10,"Ishockey, konkurrence"
+Sport og idræt,15370,5.5,"Ridning, generelt"
+Sport og idræt,15380,4.5,"Hestepleje, vedligeholdelse, sadling"
+Sport og idræt,15390,5.8,"Ridning, trav"
+Sport og idræt,15395,7.3,"Ridning, galop"
+Sport og idræt,15400,3.8,"Ridning, skridt"
+Sport og idræt,15402,9,"Ridning, springning"
+Sport og idræt,15403,6,"Ridning, reining (western)"
+Sport og idræt,15406,2.1,"Ridning, simulator"
+Sport og idræt,15408,1.8,"Kørsel med hestevogn, stående eller siddende"
+Sport og idræt,15410,3,Hesteskokast
+Sport og idræt,15420,12,Jai alai
+Sport og idræt,15425,5.3,"Kampsport, forskellige typer, langsomt tempo, begyndere, træning"
+Sport og idræt,15430,10.3,"Kampsport, moderat tempo (f.eks. judo, jujitsu, karate, kickboxing, taekwondo)"
+Sport og idræt,15432,14.3,"Taekwondo, kampsimulering"
+Sport og idræt,15433,11.3,Judo
+Sport og idræt,15440,4,Jonglering
+Sport og idræt,15444,6.5,"Kendo, kihon-keiko, moderat intensitet"
+Sport og idræt,15445,9.6,"Kendo, kirikaeshi, høj intensitet"
+Sport og idræt,15446,11.3,"Kendo, kakari keiko, meget høj intensitet"
+Sport og idræt,15450,7,Kickball
+Sport og idræt,15455,5.5,Kung Fu gymnastik
+Sport og idræt,15457,7.3,Kickboxing
+Sport og idræt,15460,8,Lacrosse
+Sport og idræt,15465,3.3,"Lawn bowling, boccia, udendørs"
+Sport og idræt,15470,4,"Motocross, off-road motorsport, ATV, generelt"
+Sport og idræt,15475,5.3,"Motorcykelløb, Supermoto"
+Sport og idræt,15477,7,Netball
+Sport og idræt,15480,9,Orienteringsløb
+Sport og idræt,15490,10,"Paddleball, konkurrence"
+Sport og idræt,15500,6,"Paddleball, fritid, generelt (Taylor-kode 460)"
+Sport og idræt,15503,1.8,"Paragliding, moderat højde"
+Sport og idræt,15506,6.5,Klatring med Prusik-knude
+Sport og idræt,15510,8,"Polo, til hest"
+Sport og idræt,15520,10,"Racquetball, konkurrence"
+Sport og idræt,15525,10.3,"Kapgang, 11,1 km/t"
+Sport og idræt,15527,13.8,"Kapgang, 13,3 km/t"
+Sport og idræt,15528,15.5,"Kapgang, konkurrencehastighed, 14,4 km/t"
+Sport og idræt,15530,7,"Racquetball, generelt (Taylor-kode 470)"
+Sport og idræt,15533,8,Klippe- eller bjergklatring (Taylor-kode 060)
+Sport og idræt,15534,8.8,"Klippeklatring, bouldering"
+Sport og idræt,15535,7.3,"Klippeklatring, opstigning, høj sværhedsgrad"
+Sport og idræt,15536,10.5,"Klippeklatring, speedklatring, meget svær"
+Sport og idræt,15537,5.8,"Klippeklatring, opstigning eller traversering, let til moderat sværhedsgrad"
+Sport og idræt,15538,10.5,"Klippeklatring, klatrevæg med rullebånd (treadwall), 4-6 m/min"
+Sport og idræt,15539,10.5,"Klippeklatring, klatrevæg med rullebånd, 7-10 m/min"
+Sport og idræt,15540,5,"Klippeklatring, rappelling"
+Sport og idræt,15542,4,"Rodeo, generelt, let indsats"
+Sport og idræt,15544,5.5,"Rodeo, generelt, moderat indsats"
+Sport og idræt,15546,7,"Rodeo, generelt, hård indsats"
+Sport og idræt,15550,12.3,"Sjippe, højt tempo, 120-160 hop/min"
+Sport og idræt,15551,11.8,"Sjippe, moderat tempo, generelt, 100-120 hop/min, samlede ben"
+Sport og idræt,15552,8.3,"Sjippe, langsomt tempo, <100 hop/min, samlede ben, rytmisk hop"
+Sport og idræt,15554,10,"Sjippe, double unders eller mere"
+Sport og idræt,15560,8.3,"Rugby, hold, konkurrence"
+Sport og idræt,15562,6.3,"Rugby, touch, fritid"
+Sport og idræt,15570,3,Shuffleboard
+Sport og idræt,15580,5,"Skateboarding, generelt, moderat indsats"
+Sport og idræt,15582,6,"Skateboarding, konkurrence, hård indsats"
+Sport og idræt,15590,7,Rulleskøjteløb (Taylor-kode 360)
+Sport og idræt,15591,7.5,"Rulleskøjteløb, inliners, 14,4 km/t, fritidstempo"
+Sport og idræt,15592,9.8,"Rulleskøjteløb, inliners, 17,7 km/t, moderat tempo, træning"
+Sport og idræt,15593,12.3,"Rulleskøjteløb, inliners, 21,0 - 21,7 km/t, højt tempo, træning"
+Sport og idræt,15594,15.5,"Rulleskøjteløb, inliners, 24,0 km/t, maksimal indsats"
+Sport og idræt,15595,6.8,"Skateboard, longboard, 13,3 km/t, langsom hastighed"
+Sport og idræt,15596,8.3,"Skateboard, longboard, 16,2 km/t, normal hastighed"
+Sport og idræt,15597,10.5,"Skateboard, longboard, 18,4 km/t, høj hastighed"
+Sport og idræt,15600,3.5,"Faldskærmsudspring, basejumping, bungyjump"
+Sport og idræt,15605,9.5,"Fodbold, konkurrence"
+Sport og idræt,15610,7,"Fodbold, fritid, generelt (Taylor-kode 540)"
+Sport og idræt,15615,3.5,Gå-fodbold
+Sport og idræt,15620,5,"Softball eller baseball, generelt, moderat indsats (Taylor-kode 440)"
+Sport og idræt,15625,4,"Softball, træning"
+Sport og idræt,15630,4,"Softball, dommergerning"
+Sport og idræt,15640,6,"Softball, pitching"
+Sport og idræt,15645,3.3,"Tilskuer til sport, meget begejstret, følelsesladet, fysisk urolig"
+Sport og idræt,15650,12,Squash (Taylor-kode 530)
+Sport og idræt,15652,7.3,"Squash, generelt"
+Sport og idræt,15660,4,Bordtennis (Taylor-kode 410)
+Sport og idræt,15670,3.3,"Tai chi, qi gong, generelt"
+Sport og idræt,15672,1.5,"Tai chi, qi gong, siddende, let indsats"
+Sport og idræt,15674,6,"Tai chi chuan, Yang-stil"
+Sport og idræt,15675,6.8,"Tennis, generelt, moderat indsats"
+Sport og idræt,15676,8,"Tennis, generelt, konkurrence"
+Sport og idræt,15680,6,"Tennis, double (Taylor-kode 430)"
+Sport og idræt,15685,4.5,"Tennis, double"
+Sport og idræt,15690,8,"Tennis, single (Taylor-kode 420)"
+Sport og idræt,15695,5,"Tennis, slå til bolde, ikke kamp, moderat indsats"
+Sport og idræt,15700,6.3,"Trampolin, fritid"
+Sport og idræt,15702,10.3,"Trampolin, konkurrence"
+Sport og idræt,15710,4,Volleyball (Taylor-kode 400)
+Sport og idræt,15711,6,"Volleyball, konkurrence, i idrætshal"
+Sport og idræt,15720,3,"Volleyball, ikke-konkurrence, hold af 6-9, generelt"
+Sport og idræt,15725,8,"Beachvolley, i sand"
+Sport og idræt,15730,6,"Brydning, konkurrence (1 kamp = 5 minutter)"
+Sport og idræt,15731,7,"Wallyball, generelt"
+Sport og idræt,15732,4,"Atletik (f.eks. kuglestød, diskoskast, hammerkast)"
+Sport og idræt,15733,6,"Atletik (f.eks. højdespring, længdespring, trespring, spydkast, stangspring)"
+Sport og idræt,15734,10,"Atletik (f.eks. forhindringsløb, hækkeløb)"
+Transport,16002,6.8,"Cykling som transport, moderat indsats"
+Transport,16004,9.3,"Cykling som transport, hård indsats"
+Transport,16005,6.8,Elcykel som transport
+Transport,16010,2,Kørsel i bil eller varevogn (ikke lastbil)
+Transport,16015,1.3,Passager i bil eller varevogn
+Transport,16016,1.3,Passager i bus eller tog
+Transport,16020,1.8,Flyve fly eller helikopter
+Transport,16030,2.8,"Scooter, motorcykel"
+Transport,16035,6.3,Trække rickshaw
+Transport,16040,6,Skubbe fly ind/ud af hangar
+Transport,16050,2.5,"Lastbil, traktor (≥1 ton) eller bus, kørsel"
+Transport,16060,3.5,"Gang som transport, 4,5-5,1 km/t, fladt terræn, moderat tempo, fast underlag"
+Gang,17010,7,Vandring med rygsæk / Backpacking (Taylor-kode 050)
+Gang,17011,3.5,"Gå med dagsrygsæk, fladt terræn, i by"
+Gang,17012,7.8,"Vandring/hiking med dagsrygsæk, organiseret gang med dagsrygsæk"
+Gang,17016,4,"Bære 2,3 - 6,4 kg byrde (kuffert, kasser, indkøb), fladt terræn, moderat tempo"
+Gang,17018,4.5,"Bære 6,8 - 70 kg byrde (kuffert, møbler), fladt terræn eller ned ad trapper, langsomt tempo"
+Gang,17019,6.5,"Bære 22 - 68 kg byrde, fladt terræn, moderat tempo"
+Gang,17021,2.3,"Bære ca. 4,5 kg barn, langsom gang"
+Gang,17025,8.3,"Bære byrde op ad trapper, generelt"
+Gang,17026,5.5,"Bære byrde, 0,5 - 6,8 kg, op ad trapper"
+Gang,17027,6,"Bære byrde, 7,2 - 10,8 kg, op ad trapper"
+Gang,17028,8,"Bære byrde, 11,3 - 22,2 kg, op ad trapper"
+Gang,17029,10,"Bære byrde, 22,6 - 33,5 kg, op ad trapper"
+Gang,17030,12,"Bære byrde, >33,5 kg, op ad trapper"
+Gang,17031,3.8,"Læsse i og/eller ud af en bil, med gang"
+Gang,17032,5,"Gå op ad bakker, uden byrde, 5-20% stigning, meget langsomt tempo"
+Gang,17033,3.8,"Gå op ad bakker, 6,8 - 22,6 kg byrde, 1-2% stigning, langsomt tempo"
+Gang,17034,5.3,"Gå op ad bakker, uden byrde, 1-5% stigning, moderat til rask tempo"
+Gang,17035,7,"Gå op ad bakker, uden byrde, 6-10% stigning, moderat til rask tempo"
+Gang,17036,8.8,"Gå op ad bakker, uden byrde, 11-20% stigning, langsomt til moderat tempo"
+Gang,17037,10,"Gå op ad bakker, uden byrde, 6,4 - 8,0 km/t, 3-5% stigning, meget højt tempo"
+Gang,17038,8.5,"Gå op ad bakker, uden byrde, stejl stigning (30%), langsomt tempo (<1,9 km/t)"
+Gang,17039,15.5,"Gå op ad bakker, uden byrde, meget stejl stigning (30-40%), 1,9 - 2,9 km/t"
+Gang,17040,16.3,"Gå op ad bakker, uden byrde, stejl stigning (10-40%), 2,9 - 8,0 km/t"
+Gang,17045,6.5,"Gå op ad bakker, 4,5 - 9 kg byrde, 5-10% stigning, moderat tempo"
+Gang,17050,7.5,"Gå op ad bakker, 9,5 - 18,1 kg byrde, 3-10% stigning, moderat til rask tempo"
+Gang,17060,10,"Gå op ad bakker, >9 kg byrde, 5-20% stigning, moderat til rask tempo"
+Gang,17070,3.5,Gå ned ad trapper
+Gang,17076,4.5,"Bære vand, bæring på hovedet, gå på fladt underlag"
+Gang,17080,6,Vandring i terræn (Taylor-kode 040)
+Gang,17081,3.8,"Vandring, langsom gang/slentre gennem marker/bakker, ingen byrde"
+Gang,17082,5.3,"Vandring/gang i normalt tempo gennem marker/bakker, ingen byrde"
+Gang,17085,2.5,"Fuglekiggeri, gående med stop"
+Gang,17088,4.5,"March, moderat hastighed, militær, uden oppakning"
+Gang,17090,8,"March, rask hastighed, militær, uden oppakning"
+Gang,17100,3.8,"Skubbe/trække barnevogn med barn eller gå med børn, 4,0 - 5,0 km/t"
+Gang,17105,3.8,"Skubbe en kørestol, fritid"
+Gang,17110,6.5,Kapgang
+Gang,17130,8,"Trappegang, bruge eller klatre op ad stige (Taylor-kode 030)"
+Gang,17131,6.8,"Trappegang, generelt"
+Gang,17133,4.5,"Trappegang, langsomt tempo"
+Gang,17134,9.3,"Trappegang, rask tempo, ét trin ad gangen"
+Gang,17136,7.5,"Trappegang, to trin ad gangen"
+Gang,17138,7.5,"Trappegang, gå op og ned ad trapper"
+Gang,17140,4.5,"Bruge krykker, fladt terræn, generelt"
+Gang,17142,7,"Bruge krykker, højt tempo"
+Gang,17145,4.3,Bruge knæscooter/rollator
+Gang,17150,2.3,"Gang, i hjemmet"
+Gang,17151,2.3,"Gang, under 3,2 km/t, fladt terræn, slentre, meget langsomt"
+Gang,17152,2.8,"Gang, 3,2 - 3,9 km/t, fladt terræn, langsomt tempo, fast underlag"
+Gang,17160,3.5,Gang for fornøjelsens skyld (Taylor-kode 010)
+Gang,17161,2.5,"Gang fra hus til bil/bus, fra bil/bus for at komme rundt, til/fra jobbet"
+Gang,17162,2.5,Gang til nabo eller familie af sociale årsager
+Gang,17165,3,Gå tur med hunden
+Gang,17170,3,"Gang, 4,0 km/t, fast, fladt underlag"
+Gang,17180,3.3,"Gang, 4,0 km/t, ned ad bakke"
+Gang,17190,3.8,"Gang, 4,5 - 5,5 km/t, fladt terræn, moderat tempo, fast underlag"
+Gang,17200,4.8,"Gang, 5,6 - 6,3 km/t, fladt terræn, rask, fast underlag, motionsgang"
+Gang,17220,5.5,"Gang, 6,4 - 7,0 km/t, fladt terræn, fast underlag, meget rask tempo"
+Gang,17230,7,"Gang, 7,2 - 7,9 km/t, fladt terræn, fast underlag, ekstremt rask tempo"
+Gang,17231,8.5,"Gang, 8,0 - 8,9 km/t, fladt terræn, fast underlag"
+Gang,17250,3.5,"Gang, for fornøjelse, i pausen på jobbet"
+Gang,17255,4,"Gang, selvvalgt hastighed, indendørsbane eller udendørs på fast underlag"
+Gang,17260,4.8,"Gang, på græs"
+Gang,17262,4.5,"Gang, normalt tempo, på pløjemark eller sand"
+Gang,17270,4,"Gang, til job eller skole (Taylor-kode 015)"
+Gang,17280,2.5,"Gang, til og fra et udendørs das/toilet"
+Gang,17302,4.3,"Motionsgang, 4,0 - 5,6 km/t, med stave (Nordic walking), fladt terræn, moderat tempo"
+Gang,17304,5.3,"Motionsgang, 5,8 - 7,1 km/t, med stave (Nordic walking), fladt terræn, moderat tempo"
+Gang,17305,8.5,"Motionsgang, 7,2 - 8,0 km/t, med stave (Nordic walking), fladt terræn, hurtigt tempo"
+Gang,17310,8.8,"Motionsgang, med stave (Nordic walking), op ad bakke, moderat tempo"
+Gang,17313,10.8,"Motionsgang, med stave (Nordic walking), fladt terræn, bære 9 - 15 kg byrde"
+Gang,17315,12.3,"Motionsgang, med stave (Nordic walking), op ad bakke, bære 9 - 15 kg byrde"
+Gang,17320,6,"Gang, baglæns, 5,6 km/t, fladt terræn"
+Gang,17325,7.8,"Gang, baglæns, 5,6 km/t, op ad bakke, 5% stigning"
+Gang,17330,8,"Gang, the Teabag walk (Monty Python's Ministry of Silly Walks)"
+Gang,17332,3.5,"Gang, the Putey walk (Monty Python's Ministry of Silly Walks)"
+Gang,17340,2.1,"Gang, løbebånd, under 1,6 km/t, 0% stigning"
+Gang,17343,2.3,"Gang, løbebånd, 1,6 km/t, 0% stigning"
+Gang,17346,2.8,"Gang, løbebånd, 1,9 - 3,0 km/t, 0% stigning"
+Gang,17349,3,"Gang, løbebånd, 3,2 - 3,9 km/t, 0% stigning"
+Gang,17352,3.5,"Gang, løbebånd, 4,0 - 4,7 km/t, 0% stigning"
+Gang,17355,3.8,"Gang, løbebånd, 4,8 - 5,5 km/t, 0% stigning"
+Gang,17358,4.8,"Gang, løbebånd, 5,6 - 6,3 km/t, 0% stigning"
+Gang,17361,5.8,"Gang, løbebånd, 6,4 - 7,1 km/t, 0% stigning"
+Gang,17364,6.8,"Gang, løbebånd, 7,2 - 7,9 km/t, 0% stigning"
+Gang,17367,8.3,"Gang, løbebånd, 8,0 - 8,9 km/t, 0% stigning"
+Gang,17382,3.3,"Gang, løbebånd, ned ad bakke (3-12% fald), 4,5-5 km/t"
+Gang,17412,3.3,"Gang, løbebånd, ned ad bakke (5-25% fald), 4,5 km/t, med Nordic walking-stave"
+Gang,17434,4.8,"Gang, løbebånd, 4 km/t, 0% stigning, 5-20°C, 18,2 kg byrde"
+Gang,17438,5.8,"Gang, løbebånd, 4 km/t, 0% stigning, -10 til 0°C, 18,2 kg byrde"
+Gang,17455,8.3,"Gang, buet løbebånd, 4,8-8,0 km/t, rask tempo"
+Gang,17475,7.8,"Gang, løbebånd, baglæns, 4 km/t, +10% stigning"
+Gang,17492,1.5,"Gang, med rollator eller tøvende gang på løbebånd, 1,1 km/t, 0% stigning"
+Vandaktiviteter,18010,2.5,"Sejle i motorbåd, fører"
+Vandaktiviteter,18012,1.3,"Sejle i motorbåd, passager, let indsats"
+Vandaktiviteter,18020,4,"Kanosejlads, på campingtur (Taylor-kode 270)"
+Vandaktiviteter,18025,3.3,"Kanosejlads, høste vilde ris, slå ris af stråene"
+Vandaktiviteter,18030,7,"Kanosejlads, bære kanoen over land (portage)"
+Vandaktiviteter,18040,2.8,"Kanosejlads, roning, 3,2-6,3 km/t, let indsats"
+Vandaktiviteter,18050,5.8,"Kanosejlads, roning, 6,4-9,5 km/t, moderat indsats"
+Vandaktiviteter,18060,12.5,"Kanosejlads, roning, kajak, konkurrence, >9,7 km/t, hård indsats"
+Vandaktiviteter,18070,3.5,"Kanosejlads, roning, fritid, generelt (Taylor-kode 250)"
+Vandaktiviteter,18080,12,"Kanosejlads eller roning, konkurrence, hold/sculler (Taylor-kode 260)"
+Vandaktiviteter,18090,3,Udspring fra vippe eller platform
+Vandaktiviteter,18100,5,"Kajak, moderat indsats"
+Vandaktiviteter,18104,13.5,"Kajak, konkurrence"
+Vandaktiviteter,18106,9,"Kajak, slalom, fladt vand"
+Vandaktiviteter,18110,4,Pedalbåd / vandcykel
+Vandaktiviteter,18112,15.5,"Roning, simuleret hold i vandtank, én åre, 33 tag/min"
+Vandaktiviteter,18114,15.5,"Roning, singlesculler, ergometer, høj fart (32+ tag/min, >16 km/t)"
+Vandaktiviteter,18120,3,"Sejlsport, båd- og brætsejlads, windsurfing, isbåd, generelt (Taylor-kode 235)"
+Vandaktiviteter,18130,4.5,"Sejlsport, konkurrence, generelt"
+Vandaktiviteter,18132,9.3,"Sejlsport, konkurrence, hård indsats"
+Vandaktiviteter,18140,3.3,"Sejlads i småbåd (Laser/Hobie Cat) eller kølbåd, havsejlads, fritid"
+Vandaktiviteter,18142,2,"Sejlsport, jolle"
+Vandaktiviteter,18150,6,Vandski eller wakeboard (Taylor-kode 220)
+Vandaktiviteter,18160,7,"Jetski/vandscooter, kørsel i vand"
+Vandaktiviteter,18180,15.8,"Fridykning/snorkling, højt tempo"
+Vandaktiviteter,18190,11.8,"Fridykning/snorkling, moderat tempo"
+Vandaktiviteter,18200,7,"Fridykning, SCUBA-dykning, generelt (Taylor-kode 310)"
+Vandaktiviteter,18202,5.3,"SCUBA-dykning, generelt, let indsats"
+Vandaktiviteter,18204,5.8,"SCUBA-dykning, generelt, moderat indsats"
+Vandaktiviteter,18206,5.5,"SCUBA-dykning, professionel dykker"
+Vandaktiviteter,18208,6.8,"SCUBA-dykning, fritidsdykker"
+Vandaktiviteter,18210,5,Snorkling (Taylor-kode 320)
+Vandaktiviteter,18220,3,"Surfing (bodyboard eller surfboard), generelt"
+Vandaktiviteter,18221,6.8,"Surfboard, padling med armene"
+Vandaktiviteter,18222,5,"Surfing, konkurrence"
+Vandaktiviteter,18224,6.5,"Stand up paddle (SUP), generelt"
+Vandaktiviteter,18225,2.8,"Stand up paddle (SUP), stående, 10-19 tag/min"
+Vandaktiviteter,18226,3.8,"Stand up paddle (SUP), stående, 20-29 tag/min"
+Vandaktiviteter,18227,5,"Stand up paddle (SUP), stående, 30-39 tag/min"
+Vandaktiviteter,18228,9.8,"Stand up paddle (SUP), stående, 40-49 tag/min"
+Vandaktiviteter,18229,11,"Stand up paddle (SUP), stående, 50-69 tag/min"
+Vandaktiviteter,18230,9.8,"Svømme baner, freestyle, hurtigt, hård indsats"
+Vandaktiviteter,18240,5.8,"Svømme baner, freestyle, langsomt, fritid"
+Vandaktiviteter,18250,9.5,"Svømning, rygcrawl, træning eller konkurrence"
+Vandaktiviteter,18255,4.8,"Svømning, rygcrawl, fritid"
+Vandaktiviteter,18260,10.3,"Svømning, brystsvømning, generelt, træning eller konkurrence"
+Vandaktiviteter,18265,5.3,"Svømning, brystsvømning, fritid"
+Vandaktiviteter,18270,13.8,"Svømning, butterfly, generelt"
+Vandaktiviteter,18280,10.5,"Svømning, crawl, højt tempo (~68 m/min), hård indsats"
+Vandaktiviteter,18285,10.5,"Svømning, åbent vand, 5 km"
+Vandaktiviteter,18290,8,"Svømning, crawl, medium tempo (~45 m/min), hård indsats"
+Vandaktiviteter,18292,5.8,"Svømning, crawl, lavt tempo (~27-41 m/min), moderat indsats"
+Vandaktiviteter,18294,14.5,"Svømning, crawl, elitesvømmere, konkurrence, >82 m/min"
+Vandaktiviteter,18300,6,"Svømning, sø, hav eller å (Taylor-kode 280, 295)"
+Vandaktiviteter,18310,6,"Svømning, fritid, ikke banesvømning, generelt"
+Vandaktiviteter,18320,7,"Svømning, sidelæns svømning, generelt"
+Vandaktiviteter,18330,8,Synkronsvømning
+Vandaktiviteter,18340,9.8,"Træde vande, hurtigt, hård indsats"
+Vandaktiviteter,18350,3.5,"Træde vande, moderat indsats, generelt"
+Vandaktiviteter,18352,2.3,"Badering (tubing), flyde på en å/flod, generelt"
+Vandaktiviteter,18355,5.5,"Vandaerobic, vandgymnastik, generelt"
+Vandaktiviteter,18356,3.8,"Vandaerobic, styrkeøvelser i vand"
+Vandaktiviteter,18358,7.5,"Vandaerobic, høj intensitet"
+Vandaktiviteter,18360,10,Vandpolo
+Vandaktiviteter,18365,3,Vand-volleyball
+Vandaktiviteter,18366,9.8,"Vand-jogging, hård indsats"
+Vandaktiviteter,18367,2.5,"Vand-gang, let indsats, langsomt tempo"
+Vandaktiviteter,18368,4.8,"Vand-gang, moderat indsats, moderat tempo"
+Vandaktiviteter,18369,6.8,"Vand-gang, hård indsats, rask tempo"
+Vandaktiviteter,18370,5,"Riverrafting, kajak eller kano i vildtvand"
+Vandaktiviteter,18374,6.5,"Vand-løb, 30 skridt/min, langsomt"
+Vandaktiviteter,18375,7.5,"Vand-løb, 40 skridt/min, moderat"
+Vandaktiviteter,18376,8.5,"Vand-løb, 50 skridt/min, hurtigt"
+Vandaktiviteter,18377,9.8,"Vand-løb, 60 skridt/min, meget hurtigt"
+Vandaktiviteter,18380,5,"Windsurfing, uden 'pumpning' for fart"
+Vandaktiviteter,18385,11,"Windsurfing eller kitesurfing, krydse vand/prøve"
+Vandaktiviteter,18390,14,"Windsurfing, konkurrence, pumper sejlet for fart"
+Vandaktiviteter,18404,2.8,"Vandcykling (Aquatic cycling), 25W, 40-50 RPM"
+Vandaktiviteter,18408,4.8,"Vandcykling (Aquatic cycling), 25W, 60-70 RPM"
+Vandaktiviteter,18412,3.8,"Vandcykling (Aquatic cycling), 50W, 40-50 RPM"
+Vandaktiviteter,18416,6,"Vandcykling (Aquatic cycling), 50W, 60-70 RPM"
+Vandaktiviteter,18420,5,"Vandcykling (Aquatic cycling), 75W, 40-50 RPM"
+Vandaktiviteter,18424,6.3,"Vandcykling (Aquatic cycling), 75W, 60-70 RPM"
+Vandaktiviteter,18428,6.3,"Vandcykling (Aquatic cycling), 100W, 40-50 RPM"
+Vandaktiviteter,18432,7.5,"Vandcykling (Aquatic cycling), 100W, 60-70 RPM"
+Vandaktiviteter,18436,8.5,"Vandcykling (Aquatic cycling), 80-89 RPM"
+Vandaktiviteter,18440,10.3,"Vandcykling (Aquatic cycling), 90+ RPM"
+Vinteraktiviteter,19005,7.5,"Hundeslædekørsel, fører (mushing)"
+Vinteraktiviteter,19006,2.5,"Hundeslædekørsel, passager"
+Vinteraktiviteter,19010,6,"Flytte ishytte, sætte op / bore huller"
+Vinteraktiviteter,19011,2,Isfiskeri
+Vinteraktiviteter,19018,14,"Skøjteløb, isdans"
+Vinteraktiviteter,19020,5.5,"Skøjteløb, 14,5 km/t eller derunder"
+Vinteraktiviteter,19030,7,"Skøjteløb, generelt (Taylor-kode 360)"
+Vinteraktiviteter,19040,9,"Skøjteløb, hurtigt, over 14,5 km/t (ikke konkurrence)"
+Vinteraktiviteter,19045,9,"Skøjteløb på løbebånd, 9,7 - 11,1 km/t, 2% stigning"
+Vinteraktiviteter,19046,10,"Skøjteløb på løbebånd, 11,3 - 12,7 km/t, 2% stigning"
+Vinteraktiviteter,19047,10.5,"Skøjteløb på løbebånd, 12,9 - 14,3 km/t, 2% stigning"
+Vinteraktiviteter,19048,11,"Skøjteløb på løbebånd, 14,5 - 15,9 km/t, 2% stigning"
+Vinteraktiviteter,19050,13.8,"Hurtigløb på skøjter, konkurrence"
+Vinteraktiviteter,19060,7,"Skihop, klatre op med ski"
+Vinteraktiviteter,19075,7,"Skiløb, generelt"
+Vinteraktiviteter,19080,6.8,"Skiløb, langrend, 4 km/t, langsom eller let indsats, 'skigang'"
+Vinteraktiviteter,19090,8.5,"Skiløb, langrend, 6,4 - 7,9 km/t, moderat tempo og indsats, generelt"
+Vinteraktiviteter,19100,11.3,"Skiløb, langrend, 8 - 12,7 km/t, rask tempo, hård indsats"
+Vinteraktiviteter,19110,14,"Skiløb, langrend, eliteløber, >12,9 - 19,1 km/t, løb"
+Vinteraktiviteter,19112,16,"Skiløb, langrend, 19 - 25,7 km/t, eliteløber, løb"
+Vinteraktiviteter,19115,9.5,"Skiløb, langrend, højintensiv træning"
+Vinteraktiviteter,19130,15.5,"Skiløb, langrend, hård sne, op ad bakke, maksimal indsats, randonee"
+Vinteraktiviteter,19135,13.3,"Skiløb, langrend, skøjteteknik"
+Vinteraktiviteter,19140,13.5,"Skiløb, skiskydning (biatlon), skøjteteknik"
+Vinteraktiviteter,19142,12.8,"Skiskydningstræning, 5 graders stigning, 8 km/t, med/uden riffel"
+Vinteraktiviteter,19144,12.8,"Skiskydningstræning, 5 graders stigning, 10,7 km/t, med/uden riffel"
+Vinteraktiviteter,19146,9.3,"Skiløb, slalom"
+Vinteraktiviteter,19150,4.3,"Skiløb, alpint/slalom eller snowboard, let indsats (kun aktiv tid)"
+Vinteraktiviteter,19160,6.3,"Skiløb, alpint/slalom eller snowboard, moderat indsats (kun aktiv tid)"
+Vinteraktiviteter,19170,8,"Skiløb, alpint/slalom eller snowboard, hård indsats (kun aktiv tid)"
+Vinteraktiviteter,19174,7.3,"Skiløb, alpint, højintensiv træning"
+Vinteraktiviteter,19180,7,"Kælkning, bobslæde, luge (Taylor-kode 370)"
+Vinteraktiviteter,19190,5.3,"Sneskovandring, moderat indsats"
+Vinteraktiviteter,19192,10,"Sneskovandring, hård indsats"
+Vinteraktiviteter,19200,3.8,"Køre snescooter, moderat tempo, fladt terræn"
+Vinteraktiviteter,19201,7.5,"Snowboard, fritid, moderat tempo, på bjerget"
+Vinteraktiviteter,19202,2,"Snescooter, passager, let indsats"
+Vinteraktiviteter,19252,5.3,"Sneskovlning, manuel, moderat indsats"
+Vinteraktiviteter,19254,7.5,"Sneskovlning, manuel, hård indsats"
+Vinteraktiviteter,19260,2.5,"Sneslynge, gå og skubbe"
+Vinteraktiviteter,19300,12.5,"Rulleski, eliteløbere"
+Vinteraktiviteter,19305,5.5,"Rulleski, 10 - 12,9 km/t, fladt terræn"
+Vinteraktiviteter,19310,6.8,"Rulleski, 13 - 16,9 km/t, fladt terræn"
+Vinteraktiviteter,19315,8.3,"Rulleski, 17 - 19,9 km/t, fladt terræn"
+Vinteraktiviteter,19320,10.5,"Rulleski, 20 - 23,9 km/t, fladt terræn"
+Vinteraktiviteter,19325,15,"Rulleski, 24 - 27,9 km/t, fladt terræn"
+Vinteraktiviteter,19330,12.5,"Rulleski, 10-15 km/t, 2-5 graders stigning"
+Vinteraktiviteter,19335,14.3,"Rulleski, 16-22 km/t, 2-5 graders stigning"
+Vinteraktiviteter,19340,12.3,"Rulleski, 6-9 km/t, 6-10 graders stigning"
+Vinteraktiviteter,19345,16,"Rulleski, >10 km/t, 6-10 graders stigning"
+Vinteraktiviteter,19400,9,"Bjergbestigning, nedstigning, gå ned med reb"
+Vinteraktiviteter,19405,10.3,"Bjergbestigning, nedstigning eller langrend"
+Religiøse aktiviteter,20000,1,"Sidde i kirke til gudstjeneste/ceremoni, sidde stille"
+Religiøse aktiviteter,20001,2,Sidde og spille et instrument i kirken
+Religiøse aktiviteter,20005,1.8,"Sidde i kirke, tale eller synge til ceremoni, siddende, aktiv deltagelse"
+Religiøse aktiviteter,20010,1.5,Sidde og læse religiøst materiale derhjemme
+Religiøse aktiviteter,20015,1.3,"Stå stille i kirke, deltage i ceremoni"
+Religiøse aktiviteter,20020,2,"Stående, synge i kirke, deltage i ceremoni, aktiv deltagelse"
+Religiøse aktiviteter,20025,1.3,"Knæle i kirke eller derhjemme, bede"
+Religiøse aktiviteter,20030,1.3,"Stå op, tale i kirken"
+Religiøse aktiviteter,20035,2,Gå rundt i kirken
+Religiøse aktiviteter,20036,2,"Gang, under 3,2 km/t, meget langsomt"
+Religiøse aktiviteter,20037,3.8,"Gang, 4,5 - 5,5 km/t, moderat tempo, bærer ikke på noget"
+Religiøse aktiviteter,20038,4.8,"Gang, 5,6 - 6,3 km/t, rask tempo, bærer ikke på noget"
+Religiøse aktiviteter,20039,2,"Kombineret gang/stående, kirketjener/bedemand"
+Religiøse aktiviteter,20040,5,"Lovsangs-dans eller løb, spirituel dans i kirke"
+Religiøse aktiviteter,20045,2.3,Servere mad i kirken
+Religiøse aktiviteter,20046,2,Tilberede mad i kirken
+Religiøse aktiviteter,20047,3.3,"Opvask, rengøring af køkken i kirken"
+Religiøse aktiviteter,20050,1.5,Spise i kirken
+Religiøse aktiviteter,20055,2,Spise/tale i kirke eller stå og spise
+Religiøse aktiviteter,20060,3.3,Rengøring af kirke
+Religiøse aktiviteter,20061,4,Almindeligt udendørsarbejde ved kirke
+Religiøse aktiviteter,20065,3.8,"Stående, moderat indsats (f.eks. tunge løft, hurtig montering)"
+Religiøse aktiviteter,20095,4.5,"Stående, moderat til tung indsats, manuelt arbejde, løft ≥22 kg, tung vedligeholdelse"
+Religiøse aktiviteter,20100,1.3,"Tastaturarbejde, computer"
+Frivilligt arbejde,21000,1.3,"Siddende, møde, generelt og/eller inkl. tale"
+Frivilligt arbejde,21005,1.5,"Siddende, let kontorarbejde, generelt"
+Frivilligt arbejde,21010,2.5,"Siddende, moderat arbejde"
+Frivilligt arbejde,21015,1.8,"Stående, let arbejde (arkivering, tale, let montering)"
+Frivilligt arbejde,21016,2,"Siddende, børnepasning (kun aktiv tid)"
+Frivilligt arbejde,21017,3.5,"Stående, børnepasning (kun aktiv tid)"
+Frivilligt arbejde,21018,3.5,"Gå/løbe, lege med børn, moderat (kun aktiv tid)"
+Frivilligt arbejde,21019,5.8,"Gå/løbe, lege med børn, høj intensitet (kun aktiv tid)"
+Frivilligt arbejde,21020,3.3,"Stående, let/moderat arbejde (f.eks. pakke kasser, opstille stole/møbler)"
+Frivilligt arbejde,21025,3.5,"Stående, moderat indsats (f.eks. løft på 22 kg, hurtig montering)"
+Frivilligt arbejde,21030,4.5,"Stående, moderat til tungt arbejde"
+Frivilligt arbejde,21035,1.3,"Tastaturarbejde, computer"
+Frivilligt arbejde,21040,2.3,"Gang, under 3,2 km/t, meget langsomt"
+Frivilligt arbejde,21045,3.8,"Gang, 4,5 - 5,5 km/t, moderat tempo, bærer ikke på noget"
+Frivilligt arbejde,21050,4.8,"Gang, 5,6 - 6,3 km/t, rask tempo, bærer ikke på noget"
+Frivilligt arbejde,21055,3.5,"Gang, 4 km/t, langsomt, bære genstande under 11 kg"
+Frivilligt arbejde,21060,4.5,"Gang, 4,8 km/t, moderat tempo, bære genstande under 11 kg eller skubbe noget"
+Frivilligt arbejde,21065,4.5,"Gang, 5,6 km/t, rask tempo, bære genstande under 11 kg"
+Frivilligt arbejde,21070,3,Kombineret gang og stående ifm. frivilligt arbejde
+Computerspil / Videospil,22040,1.3,"Siddende, videospil med håndholdt controller (inaktiv)"
+Computerspil / Videospil,22120,1.5,Videospil med håndholdt controller (let indsats)
+Computerspil / Videospil,22160,2.3,"Videospil, let indsats (Wii Fit, yoga, bowling osv.)"
+Computerspil / Videospil,22200,3,"Aktivt videospil, bevægelsessensor/brug af overkrop (let til moderat indsats)"
+Computerspil / Videospil,22240,4,"Aktivt videospil, bevægelsessensor/brug af hele kroppen (moderat indsats)"
+Computerspil / Videospil,22280,5,"Aktivt videospil, bevægelsessensor/brug af hele kroppen (moderat til hård indsats)"
+Computerspil / Videospil,22320,7.5,"Aktivt videospil, bevægelsessensor/brug af hele kroppen, exergames/dans (hård indsats)"
+Computerspil / Videospil,22360,9.8,"Kondition/træning i virtual reality (VR-fitness), høj intensitet"

@@ -1,0 +1,333 @@
+{% assign calc_title = include.title | default: "Sammenlign energiforbrug: Gang vs. Løb" %}
+{% assign data_id = include.calc_id | default: "running-walking-compare" %}
+
+<style>
+  .mp-rw-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  /* Fast 2-kolonne layout side om side på desktop/tablet */
+  .mp-rw-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    align-items: stretch;
+  }
+
+  @media (max-width: 640px) {
+    .mp-rw-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Activity Card Wrapper */
+  .mp-rw-activity-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.15rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Hero Result Box inside Activity Card */
+  .mp-rw-hero-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 14px;
+    padding: 1.1rem 0.85rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .mp-rw-hero-emoji {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .mp-rw-hero-val {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .mp-rw-hero-unit {
+    font-size: 0.775rem;
+    font-weight: 800;
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.85rem;
+  }
+
+  /* Sub-stats inside hero */
+  .mp-rw-sub-stats {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dashed #cbd5e1;
+    padding-top: 0.65rem;
+  }
+
+  .mp-rw-sub-stat-item {
+    text-align: center;
+  }
+
+  .mp-rw-sub-stat-num {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #334155;
+    line-height: 1.1;
+  }
+
+  .mp-rw-sub-stat-lbl {
+    font-size: 0.675rem;
+    font-weight: 700;
+    color: #64748b;
+  }
+
+  /* Bottom Summary Card Centreret */
+  .mp-rw-summary-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.25rem 1.15rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .mp-rw-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 0.85rem;
+  }
+
+  .mp-rw-summary-item {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 14px;
+    padding: 1.15rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .mp-rw-summary-title {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #0f172a;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Visual Ratio med Emojis */
+  .mp-rw-visual-ratio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0.4rem 0;
+    height: 48px;
+  }
+
+  .mp-rw-summary-badge {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 4px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  .mp-rw-summary-subtext {
+    font-size: 0.825rem;
+    font-weight: 800;
+    color: #334155;
+    margin-top: 0.4rem;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="running-walking-compare-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Sammenlign din samlede forbrænding, kilometer-forbrænding og minut-forbrænding ved gang og løb.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div class="mp-rw-container" style="width: 100%;">
+    
+    <!-- TOP BAREN: VÆGT & TID -->
+    <div style="display: flex; gap: 0.85rem; margin-bottom: 1.25rem;">
+      <div style="flex: 1;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Kropsvægt <span style="font-weight: 500; color: #64748b;">(kg)</span></label>
+        <input type="number" min="30" max="250" class="vbt-input-mega mp-rw-input-field js-rw-input" data-input="weight" placeholder="70">
+      </div>
+
+      <div style="flex: 1;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Varighed <span style="font-weight: 500; color: #64748b;">(minutter)</span></label>
+        <input type="number" min="1" max="600" class="vbt-input-mega mp-rw-input-field js-rw-input" data-input="duration" placeholder="30">
+      </div>
+    </div>
+
+    <!-- MAIN GRID: GANG VS LØB (SIDE OM SIDE) -->
+    <div class="mp-rw-grid">
+      
+      <!-- KORT 1: GANG -->
+      <div class="mp-rw-activity-card">
+        <div>
+          <h4 style="margin: 0 0 0.85rem 0; font-size: 0.95rem; font-weight: 800; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">
+            🚶‍♂️ GANG
+          </h4>
+
+          <div style="margin-bottom: 0.75rem;">
+            <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Formel</label>
+            <select class="vbt-input-mega mp-rw-input-field js-rw-input" data-input="walk_formula" style="width: 100%; text-align: left; padding: 0 10px !important;">
+              <option value="acsm" selected>ACSM formel</option>
+              <option value="pandolf">Pandolf formel</option>
+              <option value="met">MET værdier</option>
+            </select>
+          </div>
+
+          <div>
+            <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Hastighed <span style="font-weight: 500; color: #64748b;">(km/t)</span></label>
+            <input type="number" step="0.1" min="1" max="12" class="vbt-input-mega mp-rw-input-field js-rw-input" data-input="walk_speed" placeholder="5.0">
+          </div>
+
+          <!-- MET DYNAMISK INFO-BOKS GANG -->
+          <div class="js-rw-met-info-walk" style="display: none; margin-top: 0.65rem; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0.5rem 0.75rem; font-size: 0.725rem; color: #334155; line-height: 1.35;">
+          </div>
+        </div>
+
+        <!-- HERO BOX GANG -->
+        <div class="mp-rw-hero-box">
+          <div class="mp-rw-hero-emoji">🚶‍♂️</div>
+          <div class="js-rw-res-walk-total mp-rw-hero-val">-</div>
+          <div class="js-rw-res-walk-total-lbl mp-rw-hero-unit">kcal på 30 min</div>
+
+          <div class="mp-rw-sub-stats">
+            <div class="mp-rw-sub-stat-item">
+              <div class="js-rw-res-walk-km mp-rw-sub-stat-num">-</div>
+              <div class="mp-rw-sub-stat-lbl">kcal / km</div>
+            </div>
+            <div class="mp-rw-sub-stat-item">
+              <div class="js-rw-res-walk-min mp-rw-sub-stat-num">-</div>
+              <div class="mp-rw-sub-stat-lbl">kcal / min</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KORT 2: LØB -->
+      <div class="mp-rw-activity-card">
+        <div>
+          <h4 style="margin: 0 0 0.85rem 0; font-size: 0.95rem; font-weight: 800; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">
+            🏃‍♂️ LØB
+          </h4>
+
+          <div style="margin-bottom: 0.75rem;">
+            <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Formel</label>
+            <select class="vbt-input-mega mp-rw-input-field js-rw-input" data-input="run_formula" style="width: 100%; text-align: left; padding: 0 10px !important;">
+              <option value="acsm" selected>ACSM formel</option>
+              <option value="leger">Léger formel</option>
+              <option value="met">MET værdier</option>
+            </select>
+          </div>
+
+          <div>
+            <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Hastighed <span style="font-weight: 500; color: #64748b;">(km/t)</span></label>
+            <input type="number" step="0.1" min="4" max="25" class="vbt-input-mega mp-rw-input-field js-rw-input" data-input="run_speed" placeholder="10.0">
+          </div>
+
+          <!-- MET DYNAMISK INFO-BOKS LØB -->
+          <div class="js-rw-met-info-run" style="display: none; margin-top: 0.65rem; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0.5rem 0.75rem; font-size: 0.725rem; color: #334155; line-height: 1.35;">
+          </div>
+        </div>
+
+        <!-- HERO BOX LØB -->
+        <div class="mp-rw-hero-box" style="background: #f0fdf4; border-color: #bbf7d0;">
+          <div class="mp-rw-hero-emoji">🏃‍♂️</div>
+          <div class="js-rw-res-run-total mp-rw-hero-val" style="color: #166534;">-</div>
+          <div class="js-rw-res-run-total-lbl mp-rw-hero-unit" style="color: #15803d;">kcal på 30 min</div>
+
+          <div class="mp-rw-sub-stats" style="border-top-color: #bbf7d0;">
+            <div class="mp-rw-sub-stat-item">
+              <div class="js-rw-res-run-km mp-rw-sub-stat-num">-</div>
+              <div class="mp-rw-sub-stat-lbl">kcal / km</div>
+            </div>
+            <div class="mp-rw-sub-stat-item">
+              <div class="js-rw-res-run-min mp-rw-sub-stat-num">-</div>
+              <div class="mp-rw-sub-stat-lbl">kcal / min</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SKARP CENTRERET OPSAMLING -->
+    <div class="mp-rw-summary-card">
+      <h4 style="margin: 0; font-size: 0.9rem; font-weight: 800; color: #0f172a;">
+        ⚡ Opsamling: Hvad sker der når du løber frem for at gå?
+      </h4>
+
+      <div class="mp-rw-summary-grid">
+        <!-- 1. TID -->
+        <div class="mp-rw-summary-item">
+          <div class="mp-rw-summary-title">⏱️ Tid</div>
+          
+          <!-- Visuel Ratio: Emojis skalerede dynamisk ud fra ratio -->
+          <div class="mp-rw-visual-ratio">
+            <span class="js-rw-ratio-run-emoji-time" style="font-size: 2.2rem; transition: font-size 0.3s ease; line-height: 1;">🏃‍♂️</span>
+            <span style="font-weight: 900; color: #94a3b8; font-size: 1.1rem; margin: 0 2px;">&gt;</span>
+            <span class="js-rw-ratio-walk-emoji-time" style="font-size: 1.2rem; opacity: 0.7; line-height: 1;">🚶‍♂️</span>
+          </div>
+
+          <div class="js-rw-res-summary-time-badge mp-rw-summary-badge" style="background: #2563eb;">-</div>
+          <div class="js-rw-res-summary-time-diff mp-rw-summary-subtext">-</div>
+        </div>
+
+        <!-- 2. DISTANCE -->
+        <div class="mp-rw-summary-item">
+          <div class="mp-rw-summary-title">📏 Distance</div>
+          
+          <!-- Visuel Ratio: Emojis skalerede dynamisk ud fra ratio -->
+          <div class="mp-rw-visual-ratio">
+            <span class="js-rw-ratio-run-emoji-dist" style="font-size: 1.6rem; transition: font-size 0.3s ease; line-height: 1;">🏃‍♂️</span>
+            <span style="font-weight: 900; color: #94a3b8; font-size: 1.1rem; margin: 0 2px;">&gt;</span>
+            <span class="js-rw-ratio-walk-emoji-dist" style="font-size: 1.2rem; opacity: 0.7; line-height: 1;">🚶‍♂️</span>
+          </div>
+
+          <div class="js-rw-res-summary-dist-badge mp-rw-summary-badge" style="background: #0284c7;">-</div>
+          <div class="js-rw-res-summary-dist-diff mp-rw-summary-subtext">-</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="rw-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

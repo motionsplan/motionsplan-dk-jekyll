@@ -1,0 +1,155 @@
+<style>
+  .mp-nomo-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    margin-top: 1.25rem;
+  }
+
+  .mp-nomo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .mp-nomo-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+  }
+
+  .mp-nomo-svg-container {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  /* SVG Stilarter */
+  .mp-nomo-axis {
+    stroke: #cbd5e1;
+    stroke-width: 2;
+  }
+
+  .mp-nomo-tick {
+    stroke: #94a3b8;
+    stroke-width: 1.5;
+  }
+
+  .mp-nomo-text {
+    font-size: 10px;
+    font-family: inherit;
+    font-weight: 700;
+    fill: #64748b;
+  }
+
+  .mp-nomo-title-text {
+    font-size: 11px;
+    font-weight: 800;
+    fill: #1e293b;
+    text-anchor: middle;
+  }
+
+  /* Den dynamiske lineal (streg) */
+  .mp-nomo-line {
+    stroke: #ef4444;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+  }
+
+  .mp-nomo-line.active {
+    opacity: 0.85;
+  }
+
+  /* Skæringspunktet (Pulserende Prik) */
+  .mp-nomo-point {
+    fill: #2563eb;
+    stroke: #ffffff;
+    stroke-width: 2.5;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+  }
+
+  .mp-nomo-point.active {
+    opacity: 1;
+    animation: mp-nomo-pulse 2s infinite;
+  }
+
+  @keyframes mp-nomo-pulse {
+    0% { r: 6px; }
+    50% { r: 8px; }
+    100% { r: 6px; }
+  }
+</style>
+
+<div class="mp-nomo-card js-nomogram-card">
+  <div class="mp-nomo-header">
+    <h5 class="mp-nomo-title">Interaktivt Åstrand Nomogram</h5>
+    <span class="js-nomo-status" style="font-size: 0.725rem; font-weight: 700; color: #94a3b8;">Indtast puls & watt</span>
+  </div>
+
+  <div class="mp-nomo-svg-container">
+    <svg viewBox="0 0 460 260" style="width: 100%; height: auto; overflow: visible;">
+      
+      <!-- AKSE 1: PULS (Venstre) -->
+      <g>
+        <line x1="70" y1="30" x2="70" y2="230" class="mp-nomo-axis" />
+        <text x="70" y="18" class="mp-nomo-title-text">PULS</text>
+        <text x="70" y="248" class="mp-nomo-text" text-anchor="middle">(slag/min)</text>
+        
+        <!-- Ticks for Puls (120 - 170) -->
+        <line x1="63" y1="30" x2="70" y2="30" class="mp-nomo-tick" /><text x="58" y="33" class="mp-nomo-text" text-anchor="end">170</text>
+        <line x1="65" y1="70" x2="70" y2="70" class="mp-nomo-tick" /><text x="58" y="73" class="mp-nomo-text" text-anchor="end">160</text>
+        <line x1="65" y1="110" x2="70" y2="110" class="mp-nomo-tick" /><text x="58" y="113" class="mp-nomo-text" text-anchor="end">150</text>
+        <line x1="65" y1="150" x2="70" y2="150" class="mp-nomo-tick" /><text x="58" y="153" class="mp-nomo-text" text-anchor="end">140</text>
+        <line x1="65" y1="190" x2="70" y2="190" class="mp-nomo-tick" /><text x="58" y="193" class="mp-nomo-text" text-anchor="end">130</text>
+        <line x1="63" y1="230" x2="70" y2="230" class="mp-nomo-tick" /><text x="58" y="233" class="mp-nomo-text" text-anchor="end">120</text>
+      </g>
+
+      <!-- AKSE 2: VO2MAX (Midte) -->
+      <g>
+        <line x1="230" y1="30" x2="230" y2="230" class="mp-nomo-axis" style="stroke: #2563eb; stroke-width: 2.5;" />
+        <text x="230" y="18" class="mp-nomo-title-text" style="fill: #1d4ed8;">VO₂MAX</text>
+        <text x="230" y="248" class="mp-nomo-text" text-anchor="middle" style="fill: #2563eb;">(L/min)</text>
+        
+        <!-- Ticks for VO2max (1.0 - 6.0) -->
+        <line x1="223" y1="30" x2="237" y2="30" class="mp-nomo-tick" /><text x="242" y="33" class="mp-nomo-text">6.0</text>
+        <line x1="225" y1="70" x2="235" y2="70" class="mp-nomo-tick" /><text x="242" y="73" class="mp-nomo-text">5.0</text>
+        <line x1="225" y1="110" x2="235" y2="110" class="mp-nomo-tick" /><text x="242" y="113" class="mp-nomo-text">4.0</text>
+        <line x1="225" y1="150" x2="235" y2="150" class="mp-nomo-tick" /><text x="242" y="153" class="mp-nomo-text">3.0</text>
+        <line x1="225" y1="190" x2="235" y2="190" class="mp-nomo-tick" /><text x="242" y="193" class="mp-nomo-text">2.0</text>
+        <line x1="223" y1="230" x2="237" y2="230" class="mp-nomo-tick" /><text x="242" y="233" class="mp-nomo-text">1.0</text>
+      </g>
+
+      <!-- AKSE 3: WATT (Højre) -->
+      <g>
+        <line x1="390" y1="30" x2="390" y2="230" class="mp-nomo-axis" />
+        <text x="390" y="18" class="mp-nomo-title-text">BELASTNING</text>
+        <text x="390" y="248" class="mp-nomo-text" text-anchor="middle">(watt)</text>
+        
+        <!-- Ticks for Watt (50 - 300W) -->
+        <line x1="390" y1="30" x2="397" y2="30" class="mp-nomo-tick" /><text x="402" y="33" class="mp-nomo-text">300W</text>
+        <line x1="390" y1="70" x2="395" y2="70" class="mp-nomo-tick" /><text x="402" y="73" class="mp-nomo-text">250W</text>
+        <line x1="390" y1="110" x2="395" y2="110" class="mp-nomo-tick" /><text x="402" y="113" class="mp-nomo-text">200W</text>
+        <line x1="390" y1="150" x2="395" y2="150" class="mp-nomo-tick" /><text x="402" y="153" class="mp-nomo-text">150W</text>
+        <line x1="390" y1="190" x2="395" y2="190" class="mp-nomo-tick" /><text x="402" y="193" class="mp-nomo-text">100W</text>
+        <line x1="390" y1="230" x2="397" y2="230" class="mp-nomo-tick" /><text x="402" y="233" class="mp-nomo-text">50W</text>
+      </g>
+
+      <!-- DYNAMISK LINEAL -->
+      <line class="js-nomo-line mp-nomo-line" x1="70" y1="130" x2="390" y2="130" />
+
+      <!-- SKÆRINGSPUNKT -->
+      <circle class="js-nomo-point mp-nomo-point" cx="230" cy="130" r="6" />
+
+    </svg>
+  </div>
+</div>

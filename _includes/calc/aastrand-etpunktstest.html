@@ -47,6 +47,7 @@
     grid-template-columns: 1.15fr 1fr;
     gap: 0.85rem;
     align-items: stretch;
+    position: relative !important;
   }
 
   @media (max-width: 640px) {
@@ -155,9 +156,10 @@
     color: #ffffff;
     font-weight: 800;
     font-size: 0.85rem;
-    padding: 6px 14px;
+    padding: 6px 12px;
     border-radius: 8px;
     display: inline-block;
+    white-space: nowrap;
   }
 
   .mp-astrand-side-label {
@@ -184,6 +186,27 @@
     font-weight: 700;
     color: #64748b;
     margin-top: 2px;
+  }
+
+  /* Ikon-knap til alders-tabel */
+  .mp-astrand-table-icon-btn {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.15s ease;
+    flex-shrink: 0;
+  }
+
+  .mp-astrand-table-icon-btn:hover {
+    background: #e2e8f0;
+    border-color: #94a3b8;
   }
 </style>
 
@@ -276,12 +299,14 @@
       <!-- STACKED CARDS RIGHT -->
       <div class="mp-astrand-right-stack">
         
-        <!-- Card 1: Kategori Badge -->
-        <div class="mp-astrand-side-card">
-          <div class="js-astrand-res-badge mp-astrand-badge" style="background: #94a3b8;">-</div>
-          <div style="font-size: 0.75rem; font-weight: 700; color: #64748b; display: flex; align-items: center; gap: 4px;">
-            <span>📊 Vurdering</span>
+        <!-- Card 1: Kategori Badge + Rent Ikon uden Tekst -->
+        <div class="mp-astrand-side-card" style="gap: 8px;">
+          <div style="min-width: 0; flex: 1;">
+            <div class="js-astrand-res-badge mp-astrand-badge" style="background: #94a3b8;">-</div>
           </div>
+          <button type="button" class="js-astrand-table-btn mp-astrand-table-icon-btn" title="Se konditabel for din alder">
+            📊
+          </button>
         </div>
 
         <!-- Card 2: Maksimal Iltoptagelse -->
@@ -300,6 +325,24 @@
             <div class="js-astrand-res-agefactor mp-astrand-side-num">-</div>
             <div class="mp-astrand-side-unit">korrektion</div>
           </div>
+        </div>
+
+      </div>
+
+      <!-- POPUP TABEL MED KONDITAL FOR ALDERSGRUPPEN -->
+      <div class="js-astrand-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 14px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+          <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+          <button type="button" class="js-astrand-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+        </div>
+
+        <div style="flex: 1; overflow-y: auto;">
+          <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+            <tbody class="js-astrand-table-body">
+              <!-- Udfyldes dynamisk af JS -->
+            </tbody>
+          </table>
         </div>
 
       </div>

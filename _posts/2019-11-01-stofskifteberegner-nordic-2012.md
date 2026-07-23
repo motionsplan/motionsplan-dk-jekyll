@@ -93,6 +93,8 @@ Prøv beregneren og udregn nemt dit daglige energibehov.
 
 {% include calculator/calculate-stofskifte-pal.html %}
 
+{% include calc/bmr-calculator.html %}
+
 {% comment %}
 
 ## Baggrunden for udregning af hvilestofskiftet

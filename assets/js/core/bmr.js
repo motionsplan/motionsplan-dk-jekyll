@@ -3,18 +3,42 @@
 const KCAL_TO_KJ = 4.184;
 
 /**
- * Strategy Pattern: Alle BMR-formler med deres præcise koefficienter og native enheder.
- * Placeret uden for funktionen for maksimal ydeevne (oprettes kun én gang i hukommelsen).
+ * Strategy Pattern: Alle BMR-formler med koefficienter, enheder og SEE (Standard Error of Estimate).
  */
 const FORMULAS = {
-  // 1. Nordic Nutrition Recommendations 2012 (Standard i Norden)
+  // --- FFM / LBM Formler (Kræver fedtprocent / Mager kropsmasse) ---
+  cunningham: {
+    name: 'Cunningham (1991) – FFM/LBM',
+    unit: 'kcal',
+    requiresFFM: true,
+    seeKcal: 110,
+    calc: ({ lbm }) => 500 + (22 * lbm)
+  },
+
+  katch_mcardle: {
+    name: 'Katch-McArdle – FFM/LBM',
+    unit: 'kcal',
+    requiresFFM: true,
+    seeKcal: 115,
+    calc: ({ lbm }) => 370 + (21.6 * lbm)
+  },
+
+  nordic_nutrition_ffm: {
+    name: 'Nordic Nutrition Recommendations (FFM)',
+    unit: 'kJ',
+    requiresFFM: true,
+    seeKcal: 140,
+    calc: ({ lbm }) => (0.09 * lbm + 1.55) * 1000
+  },
+
+  // --- Standard Formler (Vægt, Højde, Alder) ---
   nordic_nutrition_2012: {
     name: 'Nordic Nutrition Recommendations (2012)',
     unit: 'kJ',
+    seeKcal: 160,
     calc: ({ weight, height, age, isMale }) => {
       const hMeters = height / 100;
 
-      // Hvis højde er angivet (> 0)
       if (hMeters > 0) {
         let bmrMJ = 0;
         if (isMale) {
@@ -34,10 +58,9 @@ const FORMULAS = {
           else if (age > 2)  bmrMJ = 0.0666 * weight + 0.878 * hMeters + 1.46;
           else               bmrMJ = 0.127 * weight + 2.94 * hMeters - 1.20;
         }
-        return bmrMJ * 1000; // Returnerer i kJ
+        return bmrMJ * 1000;
       }
 
-      // Kun vægt-baseret
       let bmrMJ = 0;
       if (isMale) {
         if (age > 70)      bmrMJ = 0.0573 * weight + 2.01;
@@ -56,41 +79,41 @@ const FORMULAS = {
         else if (age > 2)  bmrMJ = 0.0842 * weight + 2.12;
         else               bmrMJ = 0.246 * weight - 0.0965;
       }
-      return bmrMJ * 1000; // Returnerer i kJ
+      return bmrMJ * 1000;
     }
   },
 
-  // 2. Mifflin et al. (1990)
   mifflin: {
     name: 'Mifflin et al. (1990)',
     unit: 'kcal',
+    seeKcal: 125,
     calc: ({ weight, height, age, isMale }) => {
-      const w = parseInt(weight, 10);
-      const h = parseInt(height, 10);
-      const a = parseInt(age, 10);
+      const w = parseFloat(weight);
+      const h = parseFloat(height);
+      const a = parseFloat(age);
       return isMale
         ? 10 * w + 6.25 * h - 5 * a + 5
         : 10 * w + 6.25 * h - 5 * a - 161;
     }
   },
 
-  // 3. Pavlidou et al. (2023)
   pavlidou_2023: {
     name: 'Pavlidou (2023)',
     unit: 'kJ',
+    seeKcal: 130,
     calc: ({ weight, height, age, isMale }) => {
       const hMeters = height / 100;
       const bmrKcal = isMale
         ? 9.65 * weight + 573 * hMeters - 5.08 * age + 260
         : 7.38 * weight + 607 * hMeters - 2.31 * age + 43;
-      return bmrKcal * 4.186; // Returnerer i kJ
+      return bmrKcal * KCAL_TO_KJ;
     }
   },
 
-  // 4. Schofield (1985)
   schofield: {
     name: 'Schofield (1985)',
     unit: 'kJ',
+    seeKcal: 180,
     calc: ({ weight, age, isMale }) => {
       if (isMale) {
         if (age > 60) return 49.9 * weight + 2930;
@@ -111,10 +134,10 @@ const FORMULAS = {
     }
   },
 
-  // 5. Nordic Nutrition Recommendations 1996
   nordic_nutrition_1996: {
     name: 'Nordic Nutrition Recommendations (1996)',
     unit: 'kJ',
+    seeKcal: 180,
     calc: ({ weight, age, isMale }) => {
       if (isMale) {
         if (age > 75) return 35 * weight + 3430;
@@ -133,20 +156,20 @@ const FORMULAS = {
     }
   },
 
-  // 6. Benedict-Harris (1918-1919)
   benedict_harris: {
     name: 'Benedict-Harris (1918-1919)',
     unit: 'kcal',
+    seeKcal: 185,
     calc: ({ weight, height, age, isMale }) =>
       isMale
         ? 66.5 + 13.75 * weight + 5.003 * height - 6.75 * age
         : 655.1 + 9.563 * weight + 1.850 * height - 4.676 * age
   },
 
-  // 7. Henry (2005)
   henry: {
     name: 'Henry (2005)',
     unit: 'kcal',
+    seeKcal: 145,
     calc: ({ weight, height, age, isMale }) => {
       const hMeters = height / 100;
       if (isMale) {
@@ -162,10 +185,10 @@ const FORMULAS = {
     }
   },
 
-  // 8. Gerrior (2006)
   gerrior_2006: {
     name: 'Gerrior (2006)',
     unit: 'kcal',
+    seeKcal: 135,
     calc: ({ weight, height, age, isMale }) =>
       isMale
         ? 293 + 12.8 * weight + 10.2 * height - 6.2 * age
@@ -173,31 +196,32 @@ const FORMULAS = {
   }
 };
 
-/**
- * Vælger den mest egnede formel ud fra BMI-kriterierne
- */
-function getRecommendedFormulaKey(bmi) {
+function getRecommendedFormulaKey(bmi, bodyFat = 0) {
+  if (bodyFat > 0) return 'cunningham';
   if (bmi >= 40) return 'henry';
   if (bmi >= 30) return 'mifflin';
   return 'nordic_nutrition_2012';
 }
 
-/**
- * Hovedfunktion
- */
-export function calculateBMR(gender, age, weight, height = 0, formula = 'recommended_formula') {
+export function calculateBMR(gender, age, weight, height = 0, formula = 'recommended_formula', bodyFat = 0) {
   const isMale = gender === 'man' || gender === 'male' || gender === '1' || gender === 1;
   const hMeters = height > 0 ? height / 100 : 0;
   const bmi = hMeters > 0 ? weight / (hMeters * hMeters) : 0;
+  const fatPct = parseFloat(bodyFat) || 0;
+
+  const lbm = fatPct > 0 ? weight * (1 - (fatPct / 100)) : 0;
 
   const isAuto = !formula || formula === 'recommended_formula' || formula === 'recommended';
-  const activeKey = isAuto ? getRecommendedFormulaKey(bmi) : formula;
-  const formulaObj = FORMULAS[activeKey] || FORMULAS.nordic_nutrition_2012;
+  let activeKey = isAuto ? getRecommendedFormulaKey(bmi, fatPct) : formula;
+  let formulaObj = FORMULAS[activeKey] || FORMULAS.nordic_nutrition_2012;
 
-  // Udregn rå-værdi
-  const rawValue = formulaObj.calc({ weight, height, age, isMale, bmi });
+  if (formulaObj.requiresFFM && lbm <= 0) {
+    activeKey = 'nordic_nutrition_2012';
+    formulaObj = FORMULAS.nordic_nutrition_2012;
+  }
 
-  // Konverter korrekt så der altid returneres både kJ og kcal
+  const rawValue = formulaObj.calc({ weight, height, age, isMale, bmi, lbm });
+
   let bmrKJ = 0;
   let bmrKcal = 0;
 
@@ -209,29 +233,31 @@ export function calculateBMR(gender, age, weight, height = 0, formula = 'recomme
     bmrKJ = rawValue * KCAL_TO_KJ;
   }
 
+  const seeKcal = formulaObj.seeKcal || 150;
+  const seeKJ = Math.round(seeKcal * KCAL_TO_KJ);
+
   return {
     getBMRKcal: () => bmrKcal,
     getBMRKJ: () => bmrKJ,
     getBasicMetabolicRate: () => bmrKJ,
+    getSEE: () => seeKcal,
+    getSEEKj: () => seeKJ,
     getFormulaName: () => formulaObj.name,
     getFormulaKey: () => activeKey,
     getBMI: () => bmi,
+    getLBM: () => lbm,
     isAutoSelected: () => isAuto
   };
 }
 
-/**
- * Bagudkompatibelt API for dine eksisterende unit-tests
- */
-export function BMR(sex, age, weight, height = 0, formula = 'recommended_formula') {
-  const calc = calculateBMR(sex, age, weight, height, formula);
+export function BMR(sex, age, weight, height = 0, formula = 'recommended_formula', bodyFat = 0) {
+  const calc = calculateBMR(sex, age, weight, height, formula, bodyFat);
   return {
     getBasicMetabolicRate: () => calc.getBMRKJ(),
     getFormulaName: () => calc.getFormulaName()
   };
 }
 
-// Hvis Node/Jest kræver CommonJS module.exports:
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     calculateBMR,

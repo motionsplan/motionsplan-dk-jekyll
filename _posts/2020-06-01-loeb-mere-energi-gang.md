@@ -47,6 +47,8 @@ Det gør man ikke!
 
 Så lad os kigge på, hvordan det i virkeligheden hænger sammen med energiforbruget og forbrændingen af kalorier, når man går og løber. Lad os besvare spørgsmålene: "Hvor meget forbrænder man ved at gå?" og "Hvor meget forbrænder man ved at løbe?".
 
+{% include calc/running-walking-compare.html %}
+
 ## Skal hvilestofskiftet regnes med?
 
 Hvilestofskiftet er den energiomsætning, man altid har. Det betyder naturligvis, at hvilestofskiftet både er der, når vi løber, og når vi går. Selve energiforbruget under aktiviteten skal lægges oven i hvilestofskiftet for at få det samlede energiforbrug ved aktiviteten. Hvilestofskiftet er altså en del af forbrændingen ved gang og løb.

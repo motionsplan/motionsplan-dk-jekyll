@@ -1,46 +1,9 @@
 // assets/js/core/aastrand-etpunktstest-health.js
 
-const ASTRAND_AGE_TABLE = [
-  { age: 15, factor: 1.10 },
-  { age: 25, factor: 1.00 },
-  { age: 35, factor: 0.87 },
-  { age: 40, factor: 0.83 },
-  { age: 45, factor: 0.78 },
-  { age: 50, factor: 0.75 },
-  { age: 55, factor: 0.71 },
-  { age: 60, factor: 0.68 },
-  { age: 65, factor: 0.65 }
-];
-
 export const AASTRAND_ETPUNKTSTEST_FORMULAS = {
   'aastrand-etpunktstest-all': {
     id: 'aastrand-etpunktstest-all',
-    name: 'Åstrands etpunktstest',
-
-    getAgeFactor(age) {
-      if (!age || age <= 0) return 1.0;
-      if (age <= 15) return 1.10;
-      if (age >= 65) return 0.65;
-
-      for (let i = 0; i < ASTRAND_AGE_TABLE.length - 1; i++) {
-        const p1 = ASTRAND_AGE_TABLE[i];
-        const p2 = ASTRAND_AGE_TABLE[i + 1];
-        if (age >= p1.age && age <= p2.age) {
-          const ratio = (age - p1.age) / (p2.age - p1.age);
-          return p1.factor + ratio * (p2.factor - p1.factor);
-        }
-      }
-      return 1.0;
-    },
-
-    getFitnessCategory(fitness) {
-      if (!fitness || fitness <= 0) return { label: '-', color: '#94a3b8' };
-      if (fitness < 28) return { label: 'Lavt', color: '#ef4444' };
-      if (fitness < 36) return { label: 'Under middel', color: '#f97316' };
-      if (fitness < 44) return { label: 'Middel', color: '#eab308' };
-      if (fitness < 52) return { label: 'Højt', color: '#22c55e' };
-      return { label: 'Særdeles højt', color: '#2563eb' };
-    },
+    name: 'Åstrand 1-punkts Cykeltest (Buono et al., 1989)',
 
     evaluate(params) {
       const { gender = 'male', age = 0, weight = 0, watt = 0, hr = 0 } = params || {};
@@ -50,13 +13,17 @@ export const AASTRAND_ETPUNKTSTEST_FORMULAS = {
       const numWatt = Number(watt) || 0;
       const numHr = Number(hr) || 0;
 
+      // Validering af basale input
       if (numAge <= 0 || numWeight <= 0 || numWatt <= 0 || numHr <= 0) {
         return { isValid: false };
       }
 
-      const workloadKpm = numWatt * 6.118297;
+      // 1. Omregn Watt til kp*m/min (1 Watt = 6.12 kp*m/min jf. din standard)
+      const workloadKpm = numWatt * 6.12;
+
       let uncorrectedVo2 = 0;
 
+      // 2. Buono et al. (1989) - Ukorrigeret VO2max (L/min)
       if (gender === 'female') {
         const denominator = (0.769 * numHr) - 56.1;
         if (denominator <= 0) return { isValid: false };
@@ -67,10 +34,14 @@ export const AASTRAND_ETPUNKTSTEST_FORMULAS = {
         uncorrectedVo2 = ((0.00212 * workloadKpm + 0.299) / denominator) * 100;
       }
 
-      const ageFactor = this.getAgeFactor(numAge);
-      const correctedVo2 = uncorrectedVo2 * ageFactor;
-      const fitnessLevel = (correctedVo2 * 1000) / numWeight;
-      const category = this.getFitnessCategory(fitnessLevel);
+      // 3. Buono et al. (1989) - Alders- og vægtkorrektion (L/min)
+      const correctedVo2 = (0.166 - 0.028 * numAge) + (0.026 * numWeight) + (0.66 * uncorrectedVo2);
+
+      // 4. Kondital i ml/kg/min
+      const fitnessLevel = (correctedVo2 / numWeight) * 1000;
+
+      // Effektiv korrektionsfaktor til visning i UI (Forholdet ml. korrigeret og ukorrigeret)
+      const effectiveAgeFactor = uncorrectedVo2 > 0 ? (correctedVo2 / uncorrectedVo2) : 1.0;
 
       return {
         isValid: true,
@@ -80,10 +51,10 @@ export const AASTRAND_ETPUNKTSTEST_FORMULAS = {
         watt: numWatt,
         hr: numHr,
         uncorrectedVo2,
-        ageFactor,
         correctedVo2,
         fitnessLevel,
-        category
+        ageFactor: effectiveAgeFactor,
+        isHrValid: numHr >= 120 && numHr <= 170
       };
     },
 

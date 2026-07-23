@@ -1,0 +1,220 @@
+{% assign calc_title = include.title | default: "Kalorieberegner for gang" %}
+{% assign data_id = include.calc_id | default: "walking-energy" %}
+
+<style>
+  .mp-walk-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  /* Grid til 3 felter (Vægt, Hældning, Rygsæk) */
+  .mp-walk-grid-trio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+
+  /* Grid til 2 felter (Hastighed, Varighed) */
+  .mp-walk-grid-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.85rem;
+  }
+
+  @media (max-width: 540px) {
+    .mp-walk-grid-trio {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Main Hero Result Card */
+  .mp-walk-hero-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    text-align: center;
+  }
+
+  .mp-walk-hero-emoji {
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-walk-hero-val {
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .mp-walk-hero-unit {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Sub Stats Row */
+  .mp-walk-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    border-top: 1.5px dashed #cbd5e1;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    .mp-walk-stats-grid {
+      grid-template-columns: 1fr;
+      gap: 0.85rem;
+    }
+  }
+
+  .mp-walk-stat-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.65rem 0.5rem;
+    text-align: center;
+  }
+
+  .mp-walk-stat-val {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: #1e293b;
+    line-height: 1.1;
+  }
+
+  .mp-walk-stat-lbl {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 2px;
+  }
+
+  .mp-walk-hero-meta {
+    margin-top: 1rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid #f1f5f9;
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    text-align: center;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="walking-energy-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dit præcise energiforbrug ved at gå ud fra hastighed, hældning og kropsvægt.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div class="mp-walk-container" style="width: 100%;">
+    
+    <!-- INDSTILLINGER OG INPUTS -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      
+      <!-- RÆKKE 1: BEREGNINGSMODEL (FULL WIDTH) -->
+      <div style="margin-bottom: 0.85rem;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Beregningsmodel</label>
+        <select class="vbt-input-mega mp-walk-input-field js-walk-input" data-input="formula" style="width: 100%; text-align: left; padding: 0 10px !important;">
+          <option value="acsm" selected>ACSM formel</option>
+          <option value="pandolf">Pandolf formel (v/ rygsæk/stigning)</option>
+          <option value="met">MET værdier (Compendium of Physical Activities)</option>
+        </select>
+      </div>
+
+      <!-- RÆKKE 2: KROPSVÆGT, HÆLDNING & RYGSÆK (3 KOLONNER) -->
+      <div class="mp-walk-grid-trio">
+        <div>
+          <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Kropsvægt <span style="font-weight: 500; color: #64748b;">(kg)</span></label>
+          <input type="number" min="30" max="250" class="vbt-input-mega mp-walk-input-field js-walk-input" data-input="weight" placeholder="70">
+        </div>
+
+        <div>
+          <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Hældning <span style="font-weight: 500; color: #64748b;">(%)</span></label>
+          <input type="number" step="0.5" min="0" max="40" class="vbt-input-mega mp-walk-input-field js-walk-input" data-input="grade" placeholder="0">
+        </div>
+
+        <div class="js-walk-load-wrapper">
+          <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Rygsæk <span style="font-weight: 500; color: #64748b;">(kg)</span></label>
+          <input type="number" min="0" max="60" class="vbt-input-mega mp-walk-input-field js-walk-input" data-input="load" placeholder="0">
+        </div>
+      </div>
+
+      <!-- RÆKKE 3: HASTIGHED & VARIGHED (2 KOLONNER) -->
+      <div class="mp-walk-grid-duo">
+        <div>
+          <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Hastighed <span style="font-weight: 500; color: #64748b;">(km/t)</span></label>
+          <input type="number" step="0.1" min="1" max="15" class="vbt-input-mega mp-walk-input-field js-walk-input" data-input="speed" placeholder="5.0">
+        </div>
+
+        <div>
+          <label style="font-size: 0.75rem; font-weight: 700; color: #475569; display: block; margin-bottom: 0.25rem;">Varighed <span style="font-weight: 500; color: #64748b;">(min)</span></label>
+          <input type="number" min="1" max="600" class="vbt-input-mega mp-walk-input-field js-walk-input" data-input="duration" placeholder="60">
+        </div>
+      </div>
+
+      <!-- DYNAMISK MET INFO-BOKS -->
+      <div class="js-walk-met-info" style="display: none; margin-top: 0.85rem; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 0.6rem 0.85rem; font-size: 0.75rem; color: #334155; line-height: 1.35;">
+      </div>
+
+    </div>
+
+    <!-- HERO RESULTATKORT -->
+    <div class="mp-walk-hero-card">
+      <div class="mp-walk-hero-emoji">🚶‍♂️</div>
+      <div class="js-walk-res-total mp-walk-hero-val">-</div>
+      <div class="js-walk-res-total-lbl mp-walk-hero-unit">Samlet kalorieforbrænding (kcal)</div>
+
+      <!-- SEKUNDÆRE NØGLETAL -->
+      <div class="mp-walk-stats-grid">
+        <div class="mp-walk-stat-box">
+          <div class="js-walk-res-km mp-walk-stat-val">-</div>
+          <div class="mp-walk-stat-lbl">kcal / km</div>
+        </div>
+
+        <div class="mp-walk-stat-box">
+          <div class="js-walk-res-min mp-walk-stat-val">-</div>
+          <div class="mp-walk-stat-lbl">kcal / min</div>
+        </div>
+
+        <div class="mp-walk-stat-box">
+          <div class="js-walk-res-dist mp-walk-stat-val">-</div>
+          <div class="mp-walk-stat-lbl">Distance (km)</div>
+        </div>
+      </div>
+
+      <!-- BUND META: STANDARDAFVIGELSE + FORMEL -->
+      <div class="js-walk-res-meta mp-walk-hero-meta">
+        Standardafvigelse: ±10-15% | Model: ACSM formel
+      </div>
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="walk-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

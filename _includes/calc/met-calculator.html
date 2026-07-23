@@ -1,0 +1,216 @@
+{% assign calc_title = include.title | default: "MET Kalorie- & Aktivitsberegner" %}
+{% assign data_id = include.calc_id | default: "met-calculator" %}
+
+<style>
+  .mp-met-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-met-search-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .mp-met-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 240px;
+    overflow-y: auto;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+    margin-top: 4px;
+    display: none;
+  }
+
+  .mp-met-dropdown-item {
+    padding: 0.65rem 0.85rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.15s ease;
+  }
+
+  .mp-met-dropdown-item:last-child {
+    border-bottom: none;
+  }
+
+  .mp-met-dropdown-item:hover,
+  .mp-met-dropdown-item.is-selected {
+    background: #f0f9ff;
+  }
+
+  /* Main Hero Result Card */
+  .mp-met-hero-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    text-align: center;
+  }
+
+  .mp-met-hero-emoji {
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-met-hero-val {
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .mp-met-hero-unit {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Sub Stats Row */
+  .mp-met-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    border-top: 1.5px dashed #cbd5e1;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    .mp-met-stats-grid {
+      grid-template-columns: 1fr;
+      gap: 0.85rem;
+    }
+  }
+
+  .mp-met-stat-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.65rem 0.5rem;
+    text-align: center;
+  }
+
+  .mp-met-stat-val {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: #1e293b;
+    line-height: 1.1;
+  }
+
+  .mp-met-stat-lbl {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-top: 2px;
+  }
+
+  .mp-met-hero-meta {
+    margin-top: 1rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid #f1f5f9;
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    text-align: center;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="met-calculator-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Søg blandt over 800 aktiviteter og beregn dit præcise energiforbrug ud fra MET-værdier.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div class="mp-met-container" style="width: 100%;">
+    
+    <!-- INPUTS -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      
+      <!-- SØGEFELT (Søg aktivitet) -->
+      <div style="margin-bottom: 0.85rem;">
+        <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Aktivitet (Søg i database)</label>
+        <div class="mp-met-search-container">
+          <input type="text" class="vbt-input-mega mp-met-input-field js-met-search-input" placeholder="🔍 F.eks. Styrketræning, Græsslåning, Gang..." style="text-align: left !important; padding: 0 12px !important; width: 100%;">
+          <div class="js-met-dropdown mp-met-dropdown"></div>
+        </div>
+      </div>
+
+      <!-- VÆGT OG TID -->
+      <div style="display: flex; gap: 0.85rem; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 120px;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Kropsvægt <span style="font-weight: 500; color: #64748b;">(kg)</span></label>
+          <input type="number" min="30" max="250" class="vbt-input-mega mp-met-input-field js-met-input" data-input="weight" placeholder="70">
+        </div>
+
+        <div style="flex: 1; min-width: 120px;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.35rem;">Varighed <span style="font-weight: 500; color: #64748b;">(minutter)</span></label>
+          <input type="number" min="1" max="1440" class="vbt-input-mega mp-met-input-field js-met-input" data-input="duration" placeholder="60">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- HERO RESULTATKORT -->
+    <div class="mp-met-hero-card">
+      <div class="mp-met-hero-emoji">🔥</div>
+      <div class="js-met-res-total mp-met-hero-val">-</div>
+      <div class="js-met-res-total-lbl mp-met-hero-unit">Samlet kalorieforbrænding (kcal)</div>
+
+      <!-- SEKUNDÆRE NØGLETAL -->
+      <div class="mp-met-stats-grid">
+        <div class="mp-met-stat-box">
+          <div class="js-met-res-met-val mp-met-stat-val">-</div>
+          <div class="mp-met-stat-lbl">MET-værdi</div>
+        </div>
+
+        <div class="mp-met-stat-box">
+          <div class="js-met-res-min mp-met-stat-val">-</div>
+          <div class="mp-met-stat-lbl">kcal / min</div>
+        </div>
+
+        <div class="mp-met-stat-box">
+          <div class="js-met-res-hours mp-met-stat-val">-</div>
+          <div class="mp-met-stat-lbl">MET-timer</div>
+        </div>
+      </div>
+
+      <!-- BUND META -->
+      <div class="js-met-res-meta mp-met-hero-meta">
+        Vælg en aktivitet ovenfor for at starte beregningen
+      </div>
+    </div>
+
+    <!-- BUNDMENU -->
+    <div id="met-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

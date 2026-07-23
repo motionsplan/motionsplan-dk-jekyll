@@ -61,6 +61,10 @@ PAL er et mål for den fysiske aktivitetsniveau, der bruges til at estimere, hvo
 
 ***
 
+{% include calc/pal-calculator.html %}
+
+***
+
 ## 🟦 Den hurtige PAL udregning med tabel
 {: id="pal-tabel" }
 

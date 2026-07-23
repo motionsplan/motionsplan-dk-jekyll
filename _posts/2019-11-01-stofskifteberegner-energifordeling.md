@@ -33,6 +33,8 @@ Her kigger vi på, hvordan du kan beregne din daglige energifordeling:
 
 {% include calculator/calculate-stofskifte-energifordeling.html %}
 
+{% include calc/bmr-calculator.html %}
+
 ## Eksempel på en motionsløber
 
 Mand, 32 år, 72 kg. Arbejder på et kontor og er lidt aktiv i fritiden udover træning. Løber 4 gange om ugen; 2 timer af let til moderat intensitet og 1 time af hård intensitet.

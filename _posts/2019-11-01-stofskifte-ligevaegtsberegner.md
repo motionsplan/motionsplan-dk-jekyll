@@ -104,6 +104,8 @@ Beregn ligevægtsindtag i vores ligevægtsberegner. Du får det bedste estimat, 
 
 {% include calculator/calculate-stofskifte-pal.html %}
 
+{% include calc/bmr-calculator.html %}
+
 Hvis du gerne vil registrere al din aktivitet, så kan du også bruge vores [præcise energiberegner ud fra aktivitetsregistrering](/beregner/dagligt-stofskifte-og-forbraending/).
 {: .notice }
 
