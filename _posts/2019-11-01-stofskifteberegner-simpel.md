@@ -89,8 +89,6 @@ Resultatet er en gennemsnitsberegning for personer med samme køn, alder, vægt 
 
 {% include calculator/calculate-stofskifte.html %}
 
-{% include calc/bmr.html %}
-
 {% include calc/bmr-calculator.html %}
 
 ## Hvilken formel skal du vælge i BMR-beregneren?
