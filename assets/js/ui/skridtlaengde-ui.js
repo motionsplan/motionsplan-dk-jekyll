@@ -9,7 +9,7 @@ import {
 export function initSkridtlaengdeUI(container, calcId = 'skridtlaengde-calculator') {
   if (!container) return;
 
-  const STORAGE_KEY = `mp_skridtlaengde_state_${calcId}`;
+  const STORAGE_KEY = `mp_skridtlaengde_state_v3_${calcId}`;
 
   let currentGender = 'man';
 
@@ -56,7 +56,11 @@ export function initSkridtlaengdeUI(container, calcId = 'skridtlaengde-calculato
     saveState();
 
     const h = parseFloat(heightInput ? heightInput.value : 180) || 180;
+    
+    // 1 Skridt (fx 74,3 cm)
     const stepLen = calculateStepLength(h, currentGender);
+    
+    // Fuld Gangcyklus = 2 Skridt (fx 148,6 cm)
     const strideLen = Math.round(stepLen * 2 * 10) / 10;
 
     if (resStepVal) resStepVal.textContent = stepLen.toString().replace('.', ',');

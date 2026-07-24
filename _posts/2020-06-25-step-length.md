@@ -49,52 +49,15 @@ last_modified_at: '2025-02-05T08:12:14.000Z'
 toc: 'true'
 faq:
 - question: Hvor mange skridt er 1 km?
-  answer: 'Det afhænger af din skridtlængde! Hvis du har en gennemsnitlig skridtlængde, kan du bruge den til at beregne, hvor
-    mange skridt du tager på 1 km. Hvis din skridtlængde er 158 cm (for mænd) eller 132 cm (for kvinder), kan du bruge følgende
-    formel til at estimere antallet af skridt på 1 km:
-
-
-    - **Mænd**: 1 km / 1,58 m = cirka 633 skridt
-
-    - **Kvinder**: 1 km / 1,32 m = cirka 757 skridt
-
-
-    Du kan også bruge vores **skridtlængde-beregner** til at få et præcist tal baseret på din egen skridtlængde.'
+  answer: Det afhænger af din skridtlængde! Hvis du regner i almindelige hverdags-skridt (trin), tager mænd med en gennemsnitlig skridtlængde på 79 cm ca. 1.266 skridt på 1 km. Kvinder med en gennemsnitlig skridtlængde på 66 cm tager ca. 1.515 skridt på 1 km. Regner du i hele gangcyklusser (2 trin = 132-158 cm), er tallet ca. 633-757.
 - question: Hvor mange km er 10.000 skridt?
-  answer: 'Hvor langt 10.000 skridt er, afhænger af din skridtlængde. Hvis din skridtlængde er omkring 158 cm (for mænd) eller
-    132 cm (for kvinder), kan du beregne det som følger:
-
-
-    - **Mænd** (gennemsnitlig skridtlængde på 158 cm): 10.000 skridt = ca. 6,3 km
-
-    - **Kvinder** (gennemsnitlig skridtlængde på 132 cm): 10.000 skridt = ca. 5,7 km
-
-
-    Hvis du vil finde ud af præcis, hvor mange km du går på 10.000 skridt, kan du bruge vores **beregner** til at få en nøjagtig
-    beregning baseret på din individuelle skridtlængde.'
+  answer: 10.000 hverdags-skridt svarer i gennemsnit til ca. 7,9 km for mænd (skridtlængde på 79 cm) og ca. 6,6 km for kvinder (skridtlængde på 66 cm). Du kan bruge vores beregner her på siden til at taste dit eget præcise tal ind.
 - question: Hvad er forskellen mellem skridtlængde og trinlængde?
-  answer: Skridtlængde og trinlængde bruges ofte synonymt i daglig tale, men der er en forskel. Trinlængde (step length) er
-    afstanden mellem hælisæt af den ene fod til hælisæt af den anden fod, mens skridtlængde (stride length) er afstanden mellem
-    hælisæt af den samme fod (to skridt). Når du bruger en app eller en skridttæller, er det normalt trinlængde, du skal indtaste.
-    Sørg derfor for at vide, hvilken værdi der kræves, når du bruger en skridttæller.
+  answer: I daglig tale kalder vi ofte et enkelt trin for et skridt. I ganganalyse er der dog forskel: Et **trin** (step length) er afstanden fra den ene fod til den anden. En **skridtlængde** (stride length) – også kaldet en **gangcyklus** – er afstanden fra den ene fod, indtil den samme fod rammer jorden igen (altså 2 trin). I vores beregner tager vi udgangspunkt i de enkelte trin, da det er det, skridttællere måler.
 - question: Hvordan kan jeg måle min skridtlængde?
-  answer: 'Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling:
-
-
-    1. Sæt et kridtmærke ved hælen på din sko.
-
-    2. Gå 10 skridt (5 med højre ben og 5 med venstre).
-
-    3. Mål afstanden mellem de to kridtstreger.
-
-    4. Del afstanden med 10 for at finde længden af et skridt.
-
-
-    Alternativt kan du bruge vores **beregner** til at udregne din skridtlængde baseret på din højde.'
+  answer: 'Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling: 1. Sæt et kridtmærke ved hælen på din sko. 2. Gå 10 skridt (5 med højre ben og 5 med venstre). 3. Mål afstanden mellem de to kridtstreger. 4. Del afstanden med 10 for at finde længden af et skridt.'
 - question: Hvad er den gennemsnitlige skridtlængde?
-  answer: Den gennemsnitlige skridtlængde varierer afhængigt af køn og højde. For mænd er den gennemsnitlige skridtlængde
-    omkring 158 cm, mens kvinder har en gennemsnitlig skridtlængde på 132 cm. Skridtlængden kan dog variere meget afhængigt
-    af din kropsbygning og gangstil. Brug vores beregner for at finde din præcise skridtlængde!
+  answer: I daglig tale er den gennemsnitlige skridtlængde (længden på ét trin) ca. 79 cm for mænd og 66 cm for kvinder. I faglige sammenhænge er en skridtlængde (en hel gangcyklus / to trin) i gennemsnit 158 cm for mænd og 132 cm for kvinder.
 ---
 
 Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation.
@@ -116,19 +79,17 @@ Hvis du er interesseret i løb, så er det måske denne artikel om [kadence og s
 
 {% include calc/skridtlaengde-calculator.html %}
 
-## Hvad er skridtlængde og trinlængde?
+## Hvad er forskellen på skridt, trin og gangcyklus?
 
-I Danmark opfatter vi typisk skridtlængden som et skridt, men på engelsk er begreberne lidt mere præcise. Der sondrer man mellem skridtlængde (stride length) og trinlængde (step length). De defineres sådan her:
+I daglig tale bruger vi næsten altid ordet **"skridt"** om den afstand, vi tilbagelægger, når vi flytter den ene fod frem foran den anden. Når dit ur eller din telefon tæller "10.000 skridt", tæller den netop disse enkelte stød mod jorden.
 
-Trinlængde (step length)
-: Trinlængden er afstanden mellem hælisæt af den ene fod til hælisæt af den anden fod.
+Inden for ganganalyse og biomekanik skelner man dog mere præcist mellem begreberne:
 
-Skridtlængde (stride length)
-: Skridtlængden er afstanden fra hælisæt til hælisæt for den samme fod.
+* **Trin / Hverdags-skridt (*Step length*):** Afstanden fra hælisæt af den ene fod til hælisæt af den anden fod (fx fra højre til venstre). 
+* **Gangcyklus / Fagligt skridt (*Stride length*):** Afstanden fra hælisæt af den ene fod til hælisæt af *samme* fod. En hel gangcyklus kræver altså to hverdags-skridt (et højre- og et venstretrin).
 
-Når man skal skrive sin skridtlængde ind i forskellige apps eller skridttællere, så er det typisk definitionen af det engelske udtryk _step length_ - altså trinlængden.
-
-Hvis du bruger en omregner på engelsk, så skal du altså holde øje med om det er _stride length_ eller _step length_, der skal bruges.
+> **Hvorfor vi bruger "Skridt" og "Gangcyklus" i beregneren:**  
+> Da de fleste af os i hverdagen tænker i enkeltvise skridt (og det er det, aktivitetsarmbånd tæller), har vi i vores beregner valgt at lade **Skridt** afspejle et enkelt trin (*step length*). Vil du lave mere faglige udregninger, kan du i stedet vælge **Gangcyklus** (*stride length*), som svarer til 2 skridt.
 
 ## Sådan måler du din skridtlængde
 
@@ -171,11 +132,11 @@ Du kan bruge gennemsnitsværdier for trinlængde og skridtlængde for mænd og k
 
 Nedenstående tabel er baseret på studier af Murray et al (1964) og Murray et al (1970). Tabellen viser den normal skridtlængde for mænd og kvinder.
 
-| Køn                | Mænd         | Kvinder      |
-|--------------------|--------------|--------------|
-| Trinlænge          | 79 cm        | 66 cm        |
-| Skridtlængde       | 158 cm       | 132 cm       |
-| Kadence (trin/min) | 117 (60-132) | 117 (60-132) |
+| Begreb / Køn | Mænd | Kvinder |
+| :--- | :--- | :--- |
+| **Enkelt skridt / Trin (*Step length*)** | 79 cm | 66 cm |
+| **Gangcyklus / Fagligt skridt (*Stride length*)** | 158 cm | 132 cm |
+| **Kadence (trin/min)** | 117 (60-132) | 117 (60-132) |
 
 Hvis din skridtlængde afhænger af højden, så er den sandsynligvis steget, da [gennemsnitshøjden i Danmark](/hvad-er-gennemsnitshoejden-i-danmark/) er steget siden studierne blev lavet.
 
