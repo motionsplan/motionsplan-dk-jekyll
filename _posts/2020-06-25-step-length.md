@@ -112,6 +112,10 @@ I denne artikel får du svaret på:
 
 Hvis du er interesseret i løb, så er det måske denne artikel om [kadence og skridtlængde ved løb](/gennemsnitlige-skridtlaengde-kadence-loeb/), du er på udkig efter.
 
+## Beregner
+
+{% include calc/skridtlaengde-calculator.html %}
+
 ## Hvad er skridtlængde og trinlængde?
 
 I Danmark opfatter vi typisk skridtlængden som et skridt, men på engelsk er begreberne lidt mere præcise. Der sondrer man mellem skridtlængde (stride length) og trinlængde (step length). De defineres sådan her:

@@ -1,0 +1,114 @@
+{% assign calc_title = include.title | default: "🚶‍♂️ Skridt til Kilometer Omregner" %}
+{% assign data_id = include.calc_id | default: "skridt-km-calculator" %}
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-skridt-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 8px !important; }
+  
+  .mp-mode-switch { display: flex; background: #e2e8f0; border-radius: 10px; padding: 3px; margin-bottom: 1.25rem; }
+  .mp-mode-btn { flex: 1; border: none; background: transparent; padding: 0.6rem 0.35rem; font-size: 0.8rem; font-weight: 800; color: #64748b; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; text-align: center; }
+  .mp-mode-btn.is-active { background: #ffffff; color: #2563eb; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+
+  .mp-gender-grid { display: flex; gap: 0.5rem; margin-bottom: 0.85rem; }
+  .mp-gender-btn { flex: 1; border: 1.5px solid #cbd5e1; background: #ffffff; padding: 0.6rem; font-size: 0.8rem; font-weight: 800; color: #334155; border-radius: 10px; cursor: pointer; transition: all 0.15s ease; text-align: center; }
+  .mp-gender-btn.is-selected { background: #eff6ff; border-color: #2563eb; color: #1e40af; }
+
+  .mp-hero-result-box { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 14px; padding: 1.25rem 1rem; text-align: center; margin-bottom: 1.25rem; }
+  .mp-hero-val { font-size: 2.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.2rem 0; }
+  
+  .mp-panel-info-btn { position: absolute !important; top: 12px !important; right: 12px !important; width: 24px !important; height: 24px !important; border-radius: 50% !important; background: #eff6ff !important; color: #2563eb !important; border: 1px solid #bfdbfe !important; font-size: 0.775rem !important; font-weight: 900 !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; z-index: 10 !important; }
+  .mp-panel-info-overlay { position: absolute !important; inset: 0 !important; background: #ffffff !important; border-radius: inherit !important; z-index: 20 !important; padding: 1.15rem !important; box-sizing: border-box !important; display: none; flex-direction: column !important; overflow-y: auto !important; box-shadow: inset 0 0 0 1px #e2e8f0; }
+  .mp-panel-info-close { position: absolute !important; top: 10px !important; right: 10px !important; background: #f1f5f9 !important; border: none !important; border-radius: 50% !important; width: 28px !important; height: 28px !important; font-size: 1rem !important; font-weight: 800 !important; color: #64748b !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="skridt-km-ui">
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Omregn hurtigt mellem skridt og kilometer baseret på din personlige skridtlængde.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div style="width: 100%;">
+    <!-- MODE SWITCHER -->
+    <div class="mp-mode-switch">
+      <button type="button" class="mp-mode-btn js-mode-btn is-active" data-mode="stepsToKm">🔄 Skridt ➔ Km</button>
+      <button type="button" class="mp-mode-btn js-mode-btn" data-mode="kmToSteps">📏 Km ➔ Skridt</button>
+    </div>
+
+    <!-- MAIN INPUT SECTION -->
+    <div class="mp-calc-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; position: relative;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="step_info" title="Information om skridtomregning">i</button>
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <!-- 1. VÆRDI INPUT -->
+      <div style="margin-bottom: 1rem;">
+        <label class="js-primary-label" style="font-size: 0.775rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">Antal skridt</label>
+        <input type="number" min="1" step="1" class="vbt-input-mega mp-skridt-input js-primary-input" placeholder="fx 10000" value="10000">
+      </div>
+
+      <!-- 2. SKRIDTLÆNGDE BEREGNING / INDTASTNING -->
+      <div style="border-top: 1px dashed #cbd5e1; padding-top: 0.85rem; margin-top: 0.85rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+          <label style="font-size: 0.775rem; font-weight: 800; color: #0f172a;">Skridtlængde (trin)</label>
+          <label style="font-size: 0.725rem; color: #2563eb; cursor: pointer; font-weight: 700;">
+            <input type="checkbox" class="js-toggle-manual-step" style="accent-color: #2563eb;"> Indtast cm manuelt
+          </label>
+        </div>
+
+        <!-- AUTO-ESTIMERING VIA HØJDE -->
+        <div class="js-auto-step-wrapper">
+          <div class="mp-gender-grid">
+            <button type="button" class="mp-gender-btn js-gender-btn is-selected" data-gender="man">👨 Mand</button>
+            <button type="button" class="mp-gender-btn js-gender-btn" data-gender="woman">👩 Kvinde</button>
+          </div>
+          <div>
+            <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Din højde (cm)</label>
+            <input type="number" min="100" max="230" class="vbt-input-mega mp-skridt-input js-height-input" placeholder="180" value="180">
+          </div>
+        </div>
+
+        <!-- MANUEL SKRIDTLÆNGDE -->
+        <div class="js-manual-step-wrapper" style="display: none;">
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Trinlængde (cm)</label>
+          <input type="number" min="30" max="150" step="0.5" class="vbt-input-mega mp-skridt-input js-manual-step-input" placeholder="75" value="74.7">
+        </div>
+      </div>
+
+      <!-- TEMPO CHOOSER -->
+      <div style="margin-top: 0.85rem; border-top: 1px dashed #cbd5e1; padding-top: 0.85rem;">
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Aktivitet / Tempo</label>
+        <select class="vbt-input-mega mp-skridt-input js-pace-select" style="width: 100%; text-align: left; padding: 0 8px !important; height: 38px !important;">
+          <option value="normal" selected>🚶‍♂️ Almindelig gang (~4.8 km/t)</option>
+          <option value="brisk">🏃‍♂️ Rask gang (~6.0 km/t)</option>
+          <option value="run">⚡ Løb (~10.0 km/t)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- RESULTAT HERO BOKS -->
+    <div class="mp-hero-result-box">
+      <div class="js-res-label" style="text-transform: uppercase; font-size: 0.725rem; font-weight: 800; color: #2563eb; letter-spacing: 0.04em;">
+        Svarer til i kilometer
+      </div>
+      <div class="mp-hero-val">
+        <span class="js-res-val">-</span> <span class="js-res-unit" style="font-size: 1.4rem; color: #2563eb;">km</span>
+      </div>
+      <div class="js-res-sub" style="font-size: 0.775rem; font-weight: 700; color: #64748b; margin-top: 0.25rem;">
+        Estimeret gangtid: - min (Trinlængde: - cm)
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+  </div>
+</div>

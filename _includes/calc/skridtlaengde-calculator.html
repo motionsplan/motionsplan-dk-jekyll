@@ -1,0 +1,91 @@
+{% assign calc_title = include.title | default: "📐 Skridtlængde Beregner & Distancetabel" %}
+{% assign data_id = include.calc_id | default: "skridtlaengde-calculator" %}
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-skridt-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 8px !important; }
+
+  .mp-gender-grid { display: flex; gap: 0.5rem; margin-bottom: 0.85rem; }
+  .mp-gender-btn { flex: 1; border: 1.5px solid #cbd5e1; background: #ffffff; padding: 0.6rem; font-size: 0.8rem; font-weight: 800; color: #334155; border-radius: 10px; cursor: pointer; transition: all 0.15s ease; text-align: center; }
+  .mp-gender-btn.is-selected { background: #eff6ff; border-color: #2563eb; color: #1e40af; }
+
+  .mp-hero-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.85rem; margin-bottom: 1.25rem; }
+  .mp-hero-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1rem 0.75rem; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.02); }
+  .mp-hero-card.highlight { background: #eff6ff; border-color: #bfdbfe; }
+  .mp-hero-val { font-size: 2.2rem; font-weight: 900; color: #2563eb; line-height: 1; margin: 0.2rem 0; }
+
+  .mp-dist-table-wrapper { background: #ffffff !important; border: 1px solid #e2e8f0 !important; border-radius: 14px !important; margin-bottom: 1rem !important; overflow: hidden !important; width: 100% !important; box-sizing: border-box !important; }
+  .mp-dist-table { display: table !important; width: 100% !important; border-collapse: collapse !important; font-size: 0.85rem !important; margin: 0 !important; table-layout: fixed !important; }
+  .mp-dist-table th { background: #f8fafc !important; font-size: 0.725rem !important; font-weight: 800 !important; color: #475569 !important; text-transform: uppercase !important; padding: 0.75rem 0.65rem !important; border-bottom: 1.5px solid #e2e8f0 !important; }
+  .mp-dist-table td { padding: 0.65rem !important; border-bottom: 1px solid #f1f5f9 !important; color: #0f172a !important; vertical-align: middle !important; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="skridtlaengde-ui">
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn din trinlængde og se hvor mange skridt du skal gå på forskellige distancer.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div style="width: 100%;">
+    <!-- INPUT SECTION -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">1. Indtast stamdata</h4>
+
+      <div class="mp-gender-grid">
+        <button type="button" class="mp-gender-btn js-gender-btn is-selected" data-gender="man">👨 Mand</button>
+        <button type="button" class="mp-gender-btn js-gender-btn" data-gender="woman">👩 Kvinde</button>
+      </div>
+
+      <div>
+        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Højde (cm)</label>
+        <input type="number" min="100" max="230" class="vbt-input-mega mp-skridt-input js-height-input" placeholder="180" value="180">
+      </div>
+    </div>
+
+    <!-- HERO RESULT GRID -->
+    <div class="mp-hero-grid">
+      <div class="mp-hero-card highlight">
+        <div style="font-size: 0.725rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Trinlængde (1 trin)</div>
+        <div class="mp-hero-val"><span class="js-res-step-val">-</span> <small style="font-size: 1rem;">cm</small></div>
+        <div style="font-size: 0.7rem; color: #64748b;">Hæl til modsat hæl</div>
+      </div>
+
+      <div class="mp-hero-card">
+        <div style="font-size: 0.725rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Skridtlængde (2 trin)</div>
+        <div class="mp-hero-val" style="color: #0f172a;"><span class="js-res-stride-val">-</span> <small style="font-size: 1rem;">cm</small></div>
+        <div style="font-size: 0.7rem; color: #64748b;">Hæl til samme hæl igen</div>
+      </div>
+    </div>
+
+    <!-- DISTANCETABEL -->
+    <div style="margin-bottom: 0.5rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.5rem 0;">📊 Antal skridt på typiske distancer</h4>
+    </div>
+
+    <div class="mp-dist-table-wrapper">
+      <table class="mp-dist-table">
+        <thead>
+          <tr>
+            <th style="width: 25%;">Distance</th>
+            <th style="width: 35%; text-align: right;">Antal Skridt</th>
+            <th style="width: 40%; text-align: right;">Tid (Rask gang)</th>
+          </tr>
+        </thead>
+        <tbody class="js-table-body">
+          <!-- Genereres dynamisk i JS -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+  </div>
+</div>
