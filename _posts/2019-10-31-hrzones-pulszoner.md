@@ -11,7 +11,8 @@ redirect_from:
   - /puls-intensitet/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1587400519568-1fe0329bfb2e.jpg
+  overlay_image: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
+  teaser: /assets/images/unsplash/photo-1609096458733-95b38583ac4e.jpg
   caption: 'Pulszoneberegner: Find dine personlige træningszoner 🫀'
 category:
 - Beregnere

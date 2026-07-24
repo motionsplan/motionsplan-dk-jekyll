@@ -4,24 +4,89 @@
 <style>
   .mp-calc-card { position: relative !important; }
   .mp-skridt-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 8px !important; }
-  
-  .mp-mode-switch { display: flex; background: #e2e8f0; border-radius: 10px; padding: 3px; margin-bottom: 1.25rem; }
+
+  /* Mode switcher */
+  .mp-mode-switch { display: flex; background: #e2e8f0; border-radius: 10px; padding: 3px; margin-bottom: 1.15rem; }
   .mp-mode-btn { flex: 1; border: none; background: transparent; padding: 0.6rem 0.35rem; font-size: 0.8rem; font-weight: 800; color: #64748b; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; text-align: center; }
   .mp-mode-btn.is-active { background: #ffffff; color: #2563eb; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
 
-  .mp-gender-grid { display: flex; gap: 0.5rem; margin-bottom: 0.85rem; }
-  .mp-gender-btn { flex: 1; border: 1.5px solid #cbd5e1; background: #ffffff; padding: 0.6rem; font-size: 0.8rem; font-weight: 800; color: #334155; border-radius: 10px; cursor: pointer; transition: all 0.15s ease; text-align: center; }
+  /* Kønsknapper i modal */
+  .mp-gender-grid { display: flex; gap: 0.5rem; width: 100%; margin-bottom: 0.85rem; }
+  .mp-gender-btn { 
+    flex: 1; 
+    height: 40px !important; 
+    border: 1.5px solid #cbd5e1; 
+    background: #ffffff; 
+    font-size: 0.8rem; 
+    font-weight: 800; 
+    color: #334155; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: all 0.15s ease; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box; 
+  }
   .mp-gender-btn.is-selected { background: #eff6ff; border-color: #2563eb; color: #1e40af; }
 
+  /* Elegant Ikon-Knap integreret direkte i feltet */
+  .mp-input-icon-btn {
+    position: absolute !important;
+    top: 3px !important;
+    right: 3px !important;
+    height: 36px !important;
+    width: 36px !important;
+    background: #eff6ff !important;
+    border: 1px solid #bfdbfe !important;
+    border-radius: 6px !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    z-index: 5 !important;
+  }
+  .mp-input-icon-btn:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  /* Hero Resultat */
   .mp-hero-result-box { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 14px; padding: 1.25rem 1rem; text-align: center; margin-bottom: 1.25rem; }
   .mp-hero-val { font-size: 2.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.2rem 0; }
-  
+
+  /* Modal Overlay til Estimering */
+  .mp-modal-overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    background: rgba(15, 23, 42, 0.75) !important;
+    backdrop-filter: blur(2px);
+    border-radius: inherit !important;
+    z-index: 30 !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+    display: none;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .mp-modal-content {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 1.15rem;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    position: relative;
+  }
+
   .mp-panel-info-btn { position: absolute !important; top: 12px !important; right: 12px !important; width: 24px !important; height: 24px !important; border-radius: 50% !important; background: #eff6ff !important; color: #2563eb !important; border: 1px solid #bfdbfe !important; font-size: 0.775rem !important; font-weight: 900 !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; z-index: 10 !important; }
   .mp-panel-info-overlay { position: absolute !important; inset: 0 !important; background: #ffffff !important; border-radius: inherit !important; z-index: 20 !important; padding: 1.15rem !important; box-sizing: border-box !important; display: none; flex-direction: column !important; overflow-y: auto !important; box-shadow: inset 0 0 0 1px #e2e8f0; }
   .mp-panel-info-close { position: absolute !important; top: 10px !important; right: 10px !important; background: #f1f5f9 !important; border: none !important; border-radius: 50% !important; width: 28px !important; height: 28px !important; font-size: 1rem !important; font-weight: 800 !important; color: #64748b !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; }
 </style>
 
 <div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="skridt-km-ui">
+  <!-- Header -->
   <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
     <div>
       <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
@@ -42,53 +107,71 @@
     <!-- MAIN INPUT SECTION -->
     <div class="mp-calc-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; position: relative;">
       <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="step_info" title="Information om skridtomregning">i</button>
+      
+      <!-- SECTION INFO OVERLAY -->
       <div class="js-section-info-overlay mp-panel-info-overlay">
         <button type="button" class="mp-panel-info-close js-info-close">✕</button>
         <div class="js-info-overlay-body"></div>
       </div>
 
-      <!-- 1. VÆRDI INPUT -->
-      <div style="margin-bottom: 1rem;">
-        <label class="js-primary-label" style="font-size: 0.775rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">Antal skridt</label>
-        <input type="number" min="1" step="1" class="vbt-input-mega mp-skridt-input js-primary-input" placeholder="fx 10000" value="10000">
-      </div>
-
-      <!-- 2. SKRIDTLÆNGDE BEREGNING / INDTASTNING -->
-      <div style="border-top: 1px dashed #cbd5e1; padding-top: 0.85rem; margin-top: 0.85rem;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-          <label style="font-size: 0.775rem; font-weight: 800; color: #0f172a;">Skridtlængde (trin)</label>
-          <label style="font-size: 0.725rem; color: #2563eb; cursor: pointer; font-weight: 700;">
-            <input type="checkbox" class="js-toggle-manual-step" style="accent-color: #2563eb;"> Indtast cm manuelt
-          </label>
+      <!-- LINJE 1: VÆRDI + TEMPO -->
+      <div style="display: flex; gap: 0.85rem; flex-wrap: wrap; margin-bottom: 0.85rem;">
+        <div style="flex: 1; min-width: 140px;">
+          <label class="js-primary-label" style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Antal skridt</label>
+          <input type="number" min="1" step="any" class="vbt-input-mega mp-skridt-input js-primary-input" placeholder="fx 10000" value="10000">
         </div>
-
-        <!-- AUTO-ESTIMERING VIA HØJDE -->
-        <div class="js-auto-step-wrapper">
-          <div class="mp-gender-grid">
-            <button type="button" class="mp-gender-btn js-gender-btn is-selected" data-gender="man">👨 Mand</button>
-            <button type="button" class="mp-gender-btn js-gender-btn" data-gender="woman">👩 Kvinde</button>
-          </div>
-          <div>
-            <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Din højde (cm)</label>
-            <input type="number" min="100" max="230" class="vbt-input-mega mp-skridt-input js-height-input" placeholder="180" value="180">
-          </div>
-        </div>
-
-        <!-- MANUEL SKRIDTLÆNGDE -->
-        <div class="js-manual-step-wrapper" style="display: none;">
-          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Trinlængde (cm)</label>
-          <input type="number" min="30" max="150" step="0.5" class="vbt-input-mega mp-skridt-input js-manual-step-input" placeholder="75" value="74.7">
+        
+        <div style="flex: 1.5; min-width: 200px;">
+          <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Tempo / Aktivitet</label>
+          <select class="vbt-input-mega mp-skridt-input js-pace-select" style="width: 100%; text-align: left; padding: 0 10px !important; height: 42px !important; font-size: 0.825rem !important;">
+            <option value="normal" selected>🚶‍♂️ Almindelig gang (~4.8 km/t)</option>
+            <option value="brisk">🏃‍♂️ Rask gang (~6.0 km/t)</option>
+            <option value="run">⚡ Løb (~10.0 km/t)</option>
+          </select>
         </div>
       </div>
 
-      <!-- TEMPO CHOOSER -->
-      <div style="margin-top: 0.85rem; border-top: 1px dashed #cbd5e1; padding-top: 0.85rem;">
-        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Aktivitet / Tempo</label>
-        <select class="vbt-input-mega mp-skridt-input js-pace-select" style="width: 100%; text-align: left; padding: 0 8px !important; height: 38px !important;">
-          <option value="normal" selected>🚶‍♂️ Almindelig gang (~4.8 km/t)</option>
-          <option value="brisk">🏃‍♂️ Rask gang (~6.0 km/t)</option>
-          <option value="run">⚡ Løb (~10.0 km/t)</option>
-        </select>
+      <!-- LINJE 2: TRINLÆNGDE (FULD BREDDE MED INTEGRERET 📐 KNAP) -->
+      <div style="border-top: 1px dashed #cbd5e1; padding-top: 0.85rem;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Trinlængde (cm)</label>
+        <div style="position: relative; width: 100%;">
+          <input type="number" min="30" max="150" step="0.1" class="vbt-input-mega mp-skridt-input js-step-length-input" placeholder="74.7" value="74.7" style="width: 100%; padding-right: 42px !important;">
+          <button type="button" class="mp-input-icon-btn js-open-estimer-btn" title="Estimer din trinlængde ud fra køn og højde">
+            📐
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ESTIMERING MODAL OVERLAY -->
+    <div class="js-estimator-modal mp-modal-overlay">
+      <div class="mp-modal-content">
+        <button type="button" class="mp-panel-info-close js-close-modal-btn">✕</button>
+        <h4 style="font-size: 0.9rem; font-weight: 800; color: #0f172a; margin: 0 0 0.4rem 0;">📐 Estimer din trinlængde</h4>
+        
+        <p style="font-size: 0.75rem; color: #64748b; margin-bottom: 0.85rem; line-height: 1.35;">
+          Vælg køn og indtast kropshøjde for at beregne din gennemsnitlige trinlængde.
+        </p>
+
+        <div class="mp-gender-grid">
+          <button type="button" class="mp-gender-btn js-modal-gender-btn is-selected" data-gender="man">👨 Mand</button>
+          <button type="button" class="mp-gender-btn js-modal-gender-btn" data-gender="woman">👩 Kvinde</button>
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Din højde (cm)</label>
+          <input type="number" min="100" max="230" class="vbt-input-mega mp-skridt-input js-modal-height-input" value="180">
+        </div>
+
+        <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 0.65rem; text-align: center; margin-bottom: 1rem;">
+          <div style="font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Estimeret trinlængde</div>
+          <div style="font-size: 1.5rem; font-weight: 900; color: #2563eb;" class="js-modal-step-preview">74,7 cm</div>
+        </div>
+
+        <button type="button" class="mp-btn-action-wide js-apply-modal-btn" style="width: 100%; height: 40px; font-size: 0.85rem;">
+          ✓ Indsæt skridtlængde
+        </button>
       </div>
     </div>
 

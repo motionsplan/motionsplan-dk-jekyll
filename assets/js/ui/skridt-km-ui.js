@@ -10,25 +10,30 @@ import {
 export function initSkridtKmUI(container, calcId = 'skridt-km-calculator') {
   if (!container) return;
 
-  const STORAGE_KEY = `mp_skridt_km_state_${calcId}`;
+  const STORAGE_KEY = `mp_skridt_km_state_v5_${calcId}`;
 
-  let currentMode = 'stepsToKm';
-  let currentGender = 'man';
-  let isManualStep = false;
+  // Separat tilstand for skridt vs km
+  let currentMode = 'stepsToKm'; // 'stepsToKm' or 'kmToSteps'
+  let stepsVal = '10000';
+  let kmVal = '7.5';
+  let modalGender = 'man';
+  let modalHeight = '180';
 
-  // Elements
+  // UI Elements
   const modeBtns = container.querySelectorAll('.js-mode-btn');
   const primaryLabel = container.querySelector('.js-primary-label');
   const primaryInput = container.querySelector('.js-primary-input');
-
-  const toggleManualCheck = container.querySelector('.js-toggle-manual-step');
-  const autoStepWrapper = container.querySelector('.js-auto-step-wrapper');
-  const manualStepWrapper = container.querySelector('.js-manual-step-wrapper');
-
-  const genderBtns = container.querySelectorAll('.js-gender-btn');
-  const heightInput = container.querySelector('.js-height-input');
-  const manualStepInput = container.querySelector('.js-manual-step-input');
   const paceSelect = container.querySelector('.js-pace-select');
+  const stepLengthInput = container.querySelector('.js-step-length-input');
+
+  // Modal Elements
+  const estimatorModal = container.querySelector('.js-estimator-modal');
+  const openEstimerBtn = container.querySelector('.js-open-estimer-btn');
+  const closeModalBtn = container.querySelector('.js-close-modal-btn');
+  const applyModalBtn = container.querySelector('.js-apply-modal-btn');
+  const modalGenderBtns = container.querySelectorAll('.js-modal-gender-btn');
+  const modalHeightInput = container.querySelector('.js-modal-height-input');
+  const modalStepPreview = container.querySelector('.js-modal-step-preview');
 
   // Result Elements
   const resLabel = container.querySelector('.js-res-label');
@@ -43,12 +48,12 @@ export function initSkridtKmUI(container, calcId = 'skridt-km-calculator') {
   const INFO_TEXTS = {
     step_info: `
       <h4 style="margin:0 0 0.5rem 0; font-size:0.95rem; font-weight:800; color:#0f172a;">🚶‍♂️ Om Skridtomregning</h4>
-      <p style="margin:0 0 0.5rem 0; font-size:0.8rem; color:#475569;">Beregneren estimerer din trinlængde ud fra din højde ganged med fysiologiske faktorer (0,415 for mænd / 0,413 for kvinder).</p>
-      <p style="margin:0; font-size:0.775rem; color:#64748b;">Når du kender din trinlængde, svarer 10.000 skridt typisk til ca. 7,4 – 8,0 km for en voksen person.</p>
+      <p style="margin:0 0 0.5rem 0; font-size:0.8rem; color:#475569;">Omregneren benytter din personlige trinlængde i cm til præcist at beregne distancen.</p>
+      <p style="margin:0; font-size:0.775rem; color:#64748b;">Kender du ikke din trinlængde, kan du trykke på lineal-ikonet (📐) for at udregne den ud fra dit køn og din højde.</p>
     `
   };
 
-  function openOverlay(btn) {
+  function openInfoOverlay(btn) {
     const type = btn.getAttribute('data-info-type');
     const overlay = container.querySelector('.js-section-info-overlay');
     const body = container.querySelector('.js-info-overlay-body');
@@ -62,11 +67,11 @@ export function initSkridtKmUI(container, calcId = 'skridt-km-calculator') {
     try {
       const state = {
         mode: currentMode,
-        gender: currentGender,
-        isManualStep,
-        primaryVal: primaryInput ? primaryInput.value : '',
-        height: heightInput ? heightInput.value : '',
-        manualStep: manualStepInput ? manualStepInput.value : '',
+        stepsVal,
+        kmVal,
+        modalGender,
+        modalHeight,
+        stepLengthCm: stepLengthInput ? stepLengthInput.value : '74.7',
         pace: paceSelect ? paceSelect.value : 'normal'
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -78,68 +83,91 @@ export function initSkridtKmUI(container, calcId = 'skridt-km-calculator') {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const state = JSON.parse(saved);
-        if (state.mode) setMode(state.mode);
-        if (state.gender) setGender(state.gender);
-        if (state.isManualStep !== undefined) {
-          isManualStep = state.isManualStep;
-          if (toggleManualCheck) toggleManualCheck.checked = isManualStep;
-          updateStepInputVisibilities();
+        if (state.stepsVal !== undefined) stepsVal = state.stepsVal;
+        if (state.kmVal !== undefined) kmVal = state.kmVal;
+        if (state.modalGender) setModalGender(state.modalGender);
+        if (state.modalHeight && modalHeightInput) {
+          modalHeight = state.modalHeight;
+          modalHeightInput.value = modalHeight;
         }
-        if (primaryInput && state.primaryVal !== undefined) primaryInput.value = state.primaryVal;
-        if (heightInput && state.height !== undefined) heightInput.value = state.height;
-        if (manualStepInput && state.manualStep !== undefined) manualStepInput.value = state.manualStep;
-        if (paceSelect && state.pace) paceSelect.value = state.pace;
+        if (state.stepLengthCm && stepLengthInput) stepLengthInput.value = state.stepLengthCm;
+        if (state.pace && paceSelect) paceSelect.value = state.pace;
+        if (state.mode) setMode(state.mode);
+      } else {
+        setModalGender('man');
+        setMode('stepsToKm');
       }
-    } catch (e) {}
+    } catch (e) {
+      setMode('stepsToKm');
+    }
   }
 
   function setMode(mode) {
+    if (primaryInput) {
+      if (currentMode === 'stepsToKm') {
+        stepsVal = primaryInput.value;
+      } else {
+        kmVal = primaryInput.value;
+      }
+    }
+
     currentMode = mode;
+
     modeBtns.forEach(btn => {
       btn.classList.toggle('is-active', btn.getAttribute('data-mode') === mode);
     });
 
     if (mode === 'stepsToKm') {
-      if (primaryLabel) primaryLabel.textContent = 'Antal skridt (trin)';
-      if (primaryInput) primaryInput.placeholder = 'fx 10000';
+      if (primaryLabel) primaryLabel.textContent = 'Antal skridt';
+      if (primaryInput) {
+        primaryInput.placeholder = 'fx 10000';
+        primaryInput.value = stepsVal || '10000';
+      }
       if (resLabel) resLabel.textContent = 'Svarer til i kilometer';
       if (resUnit) resUnit.textContent = 'km';
     } else {
       if (primaryLabel) primaryLabel.textContent = 'Antal kilometer (km)';
-      if (primaryInput) primaryInput.placeholder = 'fx 7.5';
+      if (primaryInput) {
+        primaryInput.placeholder = 'fx 7.5';
+        primaryInput.value = kmVal || '7.5';
+      }
       if (resLabel) resLabel.textContent = 'Svarer til i skridt';
       if (resUnit) resUnit.textContent = 'skridt';
     }
+
     calculate();
   }
 
-  function setGender(gender) {
-    currentGender = gender;
-    genderBtns.forEach(btn => {
+  function setModalGender(gender) {
+    modalGender = gender;
+    modalGenderBtns.forEach(btn => {
       btn.classList.toggle('is-selected', btn.getAttribute('data-gender') === gender);
     });
-    calculate();
+    updateModalPreview();
   }
 
-  function updateStepInputVisibilities() {
-    if (autoStepWrapper) autoStepWrapper.style.display = isManualStep ? 'none' : 'block';
-    if (manualStepWrapper) manualStepWrapper.style.display = isManualStep ? 'block' : 'none';
+  function updateModalPreview() {
+    const h = parseFloat(modalHeightInput ? modalHeightInput.value : 180) || 180;
+    modalHeight = h.toString();
+    const est = calculateStepLength(h, modalGender);
+    if (modalStepPreview) modalStepPreview.textContent = `${est.toString().replace('.', ',')} cm`;
   }
 
   function calculate() {
-    saveState();
+    const rawStepLen = stepLengthInput ? stepLengthInput.value.replace(',', '.') : '74.7';
+    const stepLen = parseFloat(rawStepLen) || 0;
 
-    let stepLen = 0;
-    if (isManualStep) {
-      stepLen = parseFloat(manualStepInput ? manualStepInput.value : 0) || 0;
+    const rawPrimary = primaryInput ? primaryInput.value.replace(',', '.') : '0';
+    const val = parseFloat(rawPrimary) || 0;
+    const pace = paceSelect ? paceSelect.value : 'normal';
+
+    if (currentMode === 'stepsToKm') {
+      stepsVal = primaryInput ? primaryInput.value : '10000';
     } else {
-      const h = parseFloat(heightInput ? heightInput.value : 180) || 180;
-      stepLen = calculateStepLength(h, currentGender);
-      if (manualStepInput) manualStepInput.value = stepLen;
+      kmVal = primaryInput ? primaryInput.value : '7.5';
     }
 
-    const val = parseFloat(primaryInput ? primaryInput.value : 0) || 0;
-    const pace = paceSelect ? paceSelect.value : 'normal';
+    saveState();
 
     if (val <= 0 || stepLen <= 0) {
       if (resVal) resVal.textContent = '-';
@@ -151,54 +179,84 @@ export function initSkridtKmUI(container, calcId = 'skridt-km-calculator') {
       const km = stepsToKm(val, stepLen);
       const timeMin = estimateTimeMinutes(km, pace);
       if (resVal) resVal.textContent = km.toLocaleString('da-DK');
-      if (resSub) resSub.textContent = `Estimeret tid: ${formatMinutes(timeMin)} (Trinlængde: ${stepLen.toString().replace('.', ',')} cm)`;
+      if (resSub) resSub.textContent = `Estimeret gangtid: ${formatMinutes(timeMin)} (Trinlængde: ${stepLen.toString().replace('.', ',')} cm)`;
     } else {
       const steps = kmToSteps(val, stepLen);
       const timeMin = estimateTimeMinutes(val, pace);
       if (resVal) resVal.textContent = steps.toLocaleString('da-DK');
-      if (resSub) resSub.textContent = `Estimeret tid: ${formatMinutes(timeMin)} (Trinlængde: ${stepLen.toString().replace('.', ',')} cm)`;
+      if (resSub) resSub.textContent = `Estimeret gangtid: ${formatMinutes(timeMin)} (Trinlængde: ${stepLen.toString().replace('.', ',')} cm)`;
     }
   }
 
-  // Event Listeners
+  // EVENT LISTENERS
   modeBtns.forEach(btn => btn.addEventListener('click', () => setMode(btn.getAttribute('data-mode'))));
-  genderBtns.forEach(btn => btn.addEventListener('click', () => setGender(btn.getAttribute('data-gender'))));
 
-  if (toggleManualCheck) {
-    toggleManualCheck.addEventListener('change', (e) => {
-      isManualStep = e.target.checked;
-      updateStepInputVisibilities();
+  if (primaryInput) {
+    ['input', 'change', 'keyup'].forEach(ev => primaryInput.addEventListener(ev, calculate));
+  }
+
+  if (stepLengthInput) {
+    ['input', 'change', 'keyup'].forEach(ev => stepLengthInput.addEventListener(ev, calculate));
+  }
+
+  if (paceSelect) paceSelect.addEventListener('change', calculate);
+
+  // Modal Lyttere
+  if (openEstimerBtn && estimatorModal) {
+    openEstimerBtn.addEventListener('click', () => {
+      estimatorModal.style.display = 'flex';
+      updateModalPreview();
+    });
+  }
+
+  if (closeModalBtn && estimatorModal) {
+    closeModalBtn.addEventListener('click', () => {
+      estimatorModal.style.display = 'none';
+    });
+  }
+
+  modalGenderBtns.forEach(btn => btn.addEventListener('click', () => setModalGender(btn.getAttribute('data-gender'))));
+
+  if (modalHeightInput) {
+    ['input', 'change', 'keyup'].forEach(ev => modalHeightInput.addEventListener(ev, updateModalPreview));
+  }
+
+  if (applyModalBtn) {
+    applyModalBtn.addEventListener('click', () => {
+      const h = parseFloat(modalHeightInput ? modalHeightInput.value : 180) || 180;
+      const est = calculateStepLength(h, modalGender);
+      if (stepLengthInput) {
+        stepLengthInput.value = est.toFixed(1);
+      }
+      if (estimatorModal) estimatorModal.style.display = 'none';
       calculate();
     });
   }
 
-  container.querySelectorAll('.js-primary-input, .js-height-input, .js-manual-step-input').forEach(i => {
-    ['input', 'change', 'keyup'].forEach(ev => i.addEventListener(ev, calculate));
-  });
-
-  if (paceSelect) paceSelect.addEventListener('change', calculate);
-
-  container.querySelectorAll('.js-info-btn').forEach(btn => btn.addEventListener('click', () => openOverlay(btn)));
+  // Info overlay
+  container.querySelectorAll('.js-info-btn').forEach(btn => btn.addEventListener('click', () => openInfoOverlay(btn)));
   container.querySelectorAll('.js-info-close').forEach(btn => btn.addEventListener('click', () => {
     const o = container.querySelector('.js-section-info-overlay');
     if (o) o.style.display = 'none';
   }));
 
+  // Nulstil
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
       try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
-      setMode('stepsToKm');
-      setGender('man');
-      isManualStep = false;
-      if (toggleManualCheck) toggleManualCheck.checked = false;
-      updateStepInputVisibilities();
-      if (primaryInput) primaryInput.value = '10000';
-      if (heightInput) heightInput.value = '180';
+      stepsVal = '10000';
+      kmVal = '7.5';
+      modalGender = 'man';
+      modalHeight = '180';
+      if (modalHeightInput) modalHeightInput.value = '180';
+      if (stepLengthInput) stepLengthInput.value = '74.7';
       if (paceSelect) paceSelect.value = 'normal';
-      calculate();
+      setModalGender('man');
+      setMode('stepsToKm');
     });
   }
 
+  // Billede rapport
   if (downloadBtn) {
     downloadBtn.addEventListener('click', () => {
       setTimeout(() => {
