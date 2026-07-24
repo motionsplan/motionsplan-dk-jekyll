@@ -45,7 +45,7 @@ Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den en
 
 Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. PAL afhænger af den samlede fysiske aktivitet gennem hele dagen - både træning, men også mindre bevægelser. Energiforbruget brugt på fysisk aktivitet afhænger af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
 
-Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_](/beregner/dagligt-energiforbrug-energibehov/). Jeg har også lavet en [præcis beregner af dit daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist. Endelig har jeg lavet en [beregner af ligevægtsindtaget](/ligevaegtsindtag-beregner/).
+**📊 [Udregn dit daglige energibehov i vores ligevægtsberegner](/ligevaegtsindtag-beregner/)**
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
@@ -53,15 +53,11 @@ Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://www.motion-on
 
 De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.
 
-## Beregn dit stofskifte og forbrænding
+## Beregn dit stofskifte, energiforbrug og forbrænding
 
 Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
 
-## Mere avanceret udregning af dagligt energiforbrug
-
-Tjek den [avancerede beregner af dit daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
-
-[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
+[Avanceret stofskifte-beregner](/ligevaegtsindtag-beregner/){: .btn .btn--large .btn--success }
 
 {% comment %}
 
@@ -139,13 +135,9 @@ I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
 Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg]({% link _posts/2019-10-14-kropskomposition.md %}) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/).
 
-## Mere avanceret udregning af dagligt energiforbrug
-
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
-
-[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner](/ligevaegtsindtag-beregner/){: .btn .btn--large .btn--success }
 
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
 *[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)

@@ -192,7 +192,7 @@ For at undgå skader og forbedre din præstation, skal du prioritere restitution
 
 Korrekt ernæring er afgørende for din træning og resultater:
 
-- 🍎 [Energibehov og makronæringsstoffer](/beregner/dagligt-stofskifte-og-forbraending/) – Beregn dit kaloriebehov og forstå næringsstoffer.
+- 🍎 [Energibehov og makronæringsstoffer](/beregner/energifordeling/) – Beregn dit kaloriebehov og forstå næringsstoffer.
 - 🥗 [Kost til træning og præstation](/kost-ernaering/) – Optimer din kost for bedre præstation og restitution.
 
 ### Grundlæggende kosttips:

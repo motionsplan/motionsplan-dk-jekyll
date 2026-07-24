@@ -7,6 +7,21 @@
   <meta name="robots" content="{{ page.robots | default: "noindex" }}">
 {% endif %}
 
+{% if page.mathjax or site.mathjax %}
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
+
 <script>
   (function (s, e, n, d, er) {
     s['Sender'] = er;

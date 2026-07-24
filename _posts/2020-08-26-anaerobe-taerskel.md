@@ -84,7 +84,7 @@ Hvis du selv tester din anaerobe tærskel med en pulsmåler, så ender du med at
 
 Den anaerobe tærskel er trænerbar, og derfor bliver du jævnligt nødt til at teste din LTHR igen, hvis du bruger pulsen til at bestemme din intensitet.
 
-Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Her kan du dog se de foreslåede pulszoner.
+Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder](/pulszoner-beregner/). Her kan du dog se de foreslåede pulszoner.
 
 {% include calculator/calculate-hrzones-lthr.html %}
 

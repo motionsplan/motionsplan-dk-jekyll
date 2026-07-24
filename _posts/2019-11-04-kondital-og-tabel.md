@@ -172,7 +172,9 @@ Tabellen er udformet af [Morten Zacho](https://web.archive.org/web/2010022220222
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter dividere med din kropsvægt.
 
-{% include motionsplan/math formula="kondital = \frac{VO_2max}{weight}" %}
+$$
+\text{kondital} = \frac{\text{VO}_2\text{max}}{\text{kropsvægt}}
+$$
 
 Du kan forbedre dit kondital på to måder: enten ved at forbedre din maksimale iltoptagelse eller ved at tabe dig.
 

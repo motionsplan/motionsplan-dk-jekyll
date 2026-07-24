@@ -66,11 +66,15 @@ Testen bør køres med en kadence på 60-80 RPM.
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 
-{% include motionsplan/math formula="MPO = \frac{T}{180} * 25 + (W - 25)" %}
+$$
+\text{MPO} = \frac{T}{180} \times 25 + (W - 25)
+$$
 
 Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra denne formel:
 
-VO₂max = 13.16 * MPO + 5 * weight
+$$
+\text{VO}_2\text{max} = 13{,}16 \times \text{MPO} + 5 \times \text{kropsvægt}
+$$
 
 ## Andre konditionstests for børn
 

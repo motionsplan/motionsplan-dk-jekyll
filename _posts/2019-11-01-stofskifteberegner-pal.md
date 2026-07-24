@@ -6,6 +6,7 @@ description: Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjæl
 excerpt: Læs hvordan du kan beregne PAL (Physical Activity Level) ved hjælp af MET-værdier for at få en præcis forståelse
   af hvad dit fysiske aktivitetsniveau betyder for dit energiforbrug.
 permalink: /beregner/pal/
+classes: wide
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1619107372089-9b05ed524774.jpg
@@ -40,7 +41,7 @@ feature_row:
   rel: nofollow noopener
 ---
 
-Når vi taler om fysisk aktivitet og [energibehov](/bmr-beregner-hvilestofskifte-basalstofskifte/), er det vigtigt at forstå, hvor meget energi vi forbrænder gennem forskellige aktiviteter. Det bruger vi Physical Activity Level (PAL) til.
+Når vi taler om fysisk aktivitet og [energibehov](/bmr-beregner/), er det vigtigt at forstå, hvor meget energi vi forbrænder gennem forskellige aktiviteter. Det bruger vi Physical Activity Level (PAL) til.
 
 I denne artikel ser vi på, hvordan du kan bestemme din PAL (Physical Activity Level).
 
@@ -106,7 +107,7 @@ Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt o
 
 {% include feature_row type="left" %}
 
-Når du har lavet din PAL-beregning, så kan du let gange den med [din beregning af dit hvilestofskifte](/bmr-beregner-hvilestofskifte-basalstofskifte/) eller du kan gøre den endnu mere præcis ved at tage højde for dit hvilestofskifte allerede i udregningen af din PAL. Det gør vi i vores [avancerede TEE-beregner](/beregner/dagligt-stofskifte-og-forbraending/).
+Når du har lavet din PAL-beregning, så kan du let gange den med [din beregning af dit hvilestofskifte](/bmr-beregner/) eller du kan gøre den endnu mere præcis ved at tage højde for dit hvilestofskifte allerede i udregningen af din PAL. Det gør vi i vores [avancerede TEE-beregner](/ligevaegtsindtag-beregner/).
 
 ***
 
@@ -118,15 +119,15 @@ Først skal du estimere, hvor mange kalorier, du bruger på din daglige aktivite
 
 Her bruger du formlen:
 
-**Kcal / min = METs x 3.5 x (kropsvægt i kg) / 200 = kcal/min**
+    **Kcal / min = METs x 3.5 x (kropsvægt i kg) / 200 = kcal/min**
 
 Når du har udregnet alle dine aktiviteter på en dag på den måde, så kan du udregne din PAL-faktor på følgende måde:
 
 [PAL kan udregnes ud fra den gennemsnitlige 24-timers TEE og BMR](https://www.fao.org/3/y5686e/y5686e07.htm#:~:text=As%20growth%20does%20not%20contribute,gives%20the%20actual%20energy%20requirements) med formlen:
 
-**PAL = TEE/BMR**
+    **PAL = TEE/BMR**
 
-Du kan derefter gange din [PAL med din BMR for at få dit faktiske energibehov](/beregner/dagligt-energiforbrug-energibehov/).
+📊 **[Find dit faktiske energibehov med vores beregner](/ligevaegtsindtag-beregner/)**
 
 ***
 
@@ -146,7 +147,7 @@ Uanset hvilken metode du vælger, er det vigtigste, at du bruger den aktivt i di
 - Brug MET-beregningen, hvis du har en varieret hverdag, skiftende vagter eller kombinerer fysisk og stillesiddende arbejde.
 - Brug tabelmetoden, hvis du har en stabil hverdag og bare har brug for et hurtigt overblik.
 - Justér din PAL, hvis du ændrer livsstil, fx begynder på nyt træningsprogram, får et fysisk job eller bliver mindre aktiv.
-- Brug resultaterne sammen med din [beregning af hvilestofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) for at finde dit samlede energibehov – og dermed det bedste udgangspunkt for kost, vægtregulering eller præstation.
+- Brug resultaterne sammen med din [beregning af hvilestofskiftet](/bmr-beregner/) for at finde dit samlede energibehov – og dermed det bedste udgangspunkt for kost, vægtregulering eller præstation.
 
 ***
 
@@ -173,9 +174,9 @@ Når du forstår PAL, får du en præcis metode til at skræddersy din ernæring
 
 Brug MET-beregning hvis du arbejder med sportsfolk eller vil være præcis – ellers er tabelmetoden ofte nok til hverdagsbrug.
 
-Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/) eller om [ligevægtsindtaget](/ligevaegtsindtag-beregner/). Jeg har også lavet en [avanceret beregner af dit daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
+Tjek vores andre indlæg, hvis du vil læse mere om [hvilestofskiftet og basalstofskiftet](/bmr-beregner/) eller bruge vores beregner til at finde din fulde daglige forbrænding inklusive dit fysiske aktivitetsniveau.
 
-[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner](/ligevaegtsindtag-beregner/){: .btn .btn--large .btn--success }
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

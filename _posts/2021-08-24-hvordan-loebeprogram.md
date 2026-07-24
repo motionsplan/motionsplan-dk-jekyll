@@ -98,7 +98,7 @@ Når du har lavet løbeprogrammet, så kan det være godt at give løberen nogle
 Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/) og [functional threshold pace](/ftpa-loeb/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen](/hvilepuls/) og [max pulsen](/test-max-puls/).
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulszoner-beregner/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen](/hvilepuls/) og [max pulsen](/test-max-puls/).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt, men det kan både lade sig gøre med løb og cykling at måle watt. Du kan læse lidt mere om [Functional Threshold Power](/ftp-cykling/) og [critical speed](/critical-power/). Tjek også afsnittet om [løbeøkonomi og løbeteknik](/lobeokonomi/).
 

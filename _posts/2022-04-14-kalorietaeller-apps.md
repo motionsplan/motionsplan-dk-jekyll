@@ -61,7 +61,7 @@ De fleste af de apps, vi har testet har en gratis udgave, men hvis du skal have 
 
 Appen er udenlandsk, men den er oversat til dansk, og den indeholder virkelig mange danske madvarer, som er blevet tilføjet af brugerne. Det gør det virkelig let at bruge appen i dagligdagen, når der er alle de gængse varer fra de danske dagligbutikker.
 
-Integrationen med andre apps går også den anden vej, så du i MyFitnessPal også kan få en ide om, hvad dit [daglige energibehov](/beregner/dagligt-energiforbrug-energibehov/) er baseret på din aktivitet.
+Integrationen med andre apps går også den anden vej, så du i MyFitnessPal også kan få en ide om, hvad dit [daglige energibehov](/ligevaegtsindtag-beregner/) er baseret på din aktivitet.
 
 Hvis du gerne vil have en app med et stort _community_, og hvor du kan dele din vægt og fysiske aktivitet, så man MyFitnessPal være en god app. Det er let at tilføje egne madvarer, og der er et massivt fællesskab, hvor du kan diskutere med ligesindede. Samtidig integrerer MyFitnessPal med rigtig mange af de andre [fitness apps](/fitness-apps/) og [løbe apps](/loebe-apps/).
 
@@ -99,7 +99,7 @@ Hos Madlog.dk kan du købe adgang for helt ned til en uge ad gangen. Det er ret 
 
 [Arono](https://arono.dk/){: rel="nofollow noopener" } er en dansk app, som er et forsøg på at tilbyde online diætist hjælp. Udgangspunktet for Arono er at tilbyde en skræddersyet kostplan, som kombineres med en ugentlig indkøbsliste.
 
-Når du tilmelder dig, så fortæller du Arono, hvor høj du er, hvor gammel og hvor meget du vejer. Sammen med spørgsmål om aktivitetsniveau, så beregnes dit [daglige stofskifte og forbrænding](/beregner/dagligt-stofskifte-og-forbraending/).
+Når du tilmelder dig, så fortæller du Arono, hvor høj du er, hvor gammel og hvor meget du vejer. Sammen med spørgsmål om aktivitetsniveau, så beregnes dit [daglige stofskifte og forbrænding](/ligevaegtsindtag-beregner/).
 
 Ud fra disse oplysninger forsøger Arono at bregne, hvor mange kalorier du skal spise om dagen i forhold til dit mål. Du skal dog være opmærksom på, at disse generelle beregninger netop er generelle, så de ikke nødvendigvis passer på alle mennesker.
 
@@ -121,6 +121,6 @@ Hvis du derimod gerne vil registrere din kost gratis over længere tid og samtid
 
 Vil du gerne tage næste skridt?
 
-👉 [Se vores guide til at beregne dit daglige kaloriebehov](/beregner/dagligt-energiforbrug-energibehov/)  
+👉 [Se vores guide til at beregne dit daglige kaloriebehov](/ligevaegtsindtag-beregner/)  
 👉 [Lær, hvordan du laver kostregistrering](/kostregistrering/)  
 👉 [Få styr på, hvad der egentlig ligger bag kalorieindholdet i maden](/kost-ernaering/)

@@ -26,8 +26,7 @@ faq:
     baseret på dit aktivitetsniveau eller specifikke aktiviteter. For det andet kan man beregne indholdet af kalorier i din
     mad og kost. For det tredje kan man i en energiomregner omregne mellem kJ og kalorier eller den anden vej.
 - question: Hvordan beregner man sit daglige kaloriebehov?
-  answer: Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn
-    kaloriebehov i vores [avancerede stofskifteberegner](/beregner/dagligt-stofskifte-og-forbraending/).
+  answer: Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn kaloriebehov i vores [avancerede stofskifteberegner](/ligevaegtsindtag-beregner/).
 ---
 
 En kalorieberegner kan være flere ting. Du kan udregne dit eget energibehov eller hvor mange kalorier der er i mad. Jeg har samlet flere forskellige beregnere til kalorier her.
@@ -42,9 +41,9 @@ Du kan bruge en kalorieberegner til at estimere dit daglige energibehov. Du kan 
 
 Alle kalorieberegnere er naturligvis baseret på et gennemsnitligt kaloriebehov for et gennemsnitligt menneske. Der findes mange beregnere, hvor du kan beregne dit daglige kaloriebehov. Kalorieberegningen kan give dig en ide om, hvor meget energi du skal spise om dagen.
 
-Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag beregner](/ligevaegtsindtag-beregner/). Beregn dit kaloriebehov i vores [beregner til dagligt energiforbrug og energibehov](/beregner/dagligt-energiforbrug-energibehov/).
+Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag, energibehov eller energiforbrug](/ligevaegtsindtag-beregner/).
 
-Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet](/hvilestofskiftet-formler/). Jeg har også lavet en ret [avanceret beregner til dit stofskifte og daglige forbrænding](/beregner/dagligt-stofskifte-og-forbraending/) på baggrund af et detaljeret fysisk aktivitetsniveau.
+Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet](/hvilestofskiftet-formler/).
 
 Husk at en kalorieberegner ikke kan stå alene. Du skal ikke bare blindt følge forslagene i disse generelle programmer. Du finder først dit reelle kaloriebehov, hvis du ved hvor meget energi, du indtager over tid, og du fastholder din nuværende vægt.
 
@@ -52,9 +51,8 @@ Her kan du hurtigt [beregne dit stofskifte](/hvordan-beregne-dagligt-energibehov
 
 | Beregning | Beskrivelse |
 |-|-|
-| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner-hvilestofskifte-basalstofskifte/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
-| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her](/beregner/dagligt-energiforbrug-energibehov/) | Dit samlede energiforbrug inkl. fysisk aktivitet fra tabeller. |
-| 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Hvor mange kalorier du skal spise for at holde vægten stabil. |
+| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
+| 🟢 **Dagligt energiforbrug (TDEE) og ligevægtsindtag**<br> → [Beregn TDEE og ligevægtsindtag](/ligevaegtsindtag-beregner/) | Dit samlede energiforbrug inkl. fysisk aktivitet fra tabeller. |
 
 💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere under [guide til stofskiftet](/stofskifte/).
 {: .notice .notice--info }
@@ -157,7 +155,7 @@ Der er altså mange muligheder for, hvordan man kan forstå kalorieberegner. Jeg
 
 ## Hvad nu? Find den kalorieberegner, du har brug for
 
-👉 Vil du beregne dit energibehov? Prøv [TDEE-beregneren](/beregner/dagligt-energiforbrug-energibehov/)  
+👉 Vil du beregne dit energibehov? Prøv [TDEE-beregneren](/ligevaegtsindtag-beregner/)  
 🥦 Vil du vide hvor mange kalorier du får fra mad? Prøv [kostberegnerne](/kalorietaeller-apps/)  
 🏃‍♂️ Vil du regne ud hvor meget energi du bruger på aktivitet? Prøv [MET-beregneren](/met-beregner/)
 

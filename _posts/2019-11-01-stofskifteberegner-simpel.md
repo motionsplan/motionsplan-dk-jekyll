@@ -1,9 +1,11 @@
 ---
-title: 'BMR-beregner: Beregn hvilestofskifte og basalstofskifte 🔥'
+title: 'BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte'
 seo_title: 'BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte'
-permalink: /bmr-beregner-hvilestofskifte-basalstofskifte/
+permalink: /bmr-beregner/
 redirect_from:
-- /simpel-stofskifte/
+  - /simpel-stofskifte/
+  - /bmr-beregner-hvilestofskifte-basalstofskifte/
+classes: wide
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1507413245164-6160d8298b31.jpg
@@ -89,7 +91,10 @@ Resultatet er en gennemsnitsberegning for personer med samme køn, alder, vægt 
 
 {% include calculator/calculate-stofskifte.html %}
 
-{% include calc/bmr-calculator.html %}
+{% include calc/bmr-calculator.html 
+  title="Hvilestofskifteberegner (BMR)"
+  description="Beregn dit hvilestofskifte (BMR) på baggrund af din højde, alder og køn med anerkendte formler."
+  pal_mode="none" %}
 
 ## Hvilken formel skal du vælge i BMR-beregneren?
 
@@ -199,7 +204,7 @@ Særligt er [Cunninghams formel til hvilestofskifte](/bmr-beregner-ffm/) populæ
 
 **Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
-Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov](/beregner/dagligt-energiforbrug-energibehov/) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag](/ligevaegtsindtag-beregner/), så har jeg også skrevet om det.
+Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag og energibehov](/ligevaegtsindtag-beregner/), så har jeg også skrevet om det.
 
 ## Er der forskel på hvilestofskiftet og basalstofskiftet?
 
@@ -215,7 +220,7 @@ Dit hvilestofskifte (BMR) er grundlaget for at forstå dit samlede energibehov �
 
 👉 **Prøv TEE-beregneren og find dit samlede daglige energiforbrug (Total Energy Expenditure) baseret på dit aktivitetsniveau:**
 
-➡️ [Beregn dit daglige energibehov med TEE-beregneren](/beregner/dagligt-stofskifte-og-forbraending/)
+➡️ [Beregn dit daglige energibehov med TEE-beregneren](/ligevaegtsindtag-beregner/)
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

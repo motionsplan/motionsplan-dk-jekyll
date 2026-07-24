@@ -1,26 +1,29 @@
 ---
-title: Beregn dit hvilestofskifte fra din fedtfri masse 🔥
-seo_title: 'BMR-beregner fra fedtfri masse: Beregn dit hvilestofskifte'
+title: 'BMR-beregner fra fedtfri masse (FFM): Hvilestofskifte ud fra fedtprocent'
+seo_title: 'BMR-beregner fra fedtfri masse: Cunningham & Katch-McArdle'
 permalink: /bmr-beregner-ffm/
 language: da
+classes: wide
 header:
   overlay_image: /assets/images/unsplash/photo-1481966115753-963394378f23.jpg
   credit: https://images.unsplash.com/photo-1481966115753-963394378f23
   teaser: /assets/images/unsplash/photo-1481966115753-963394378f23.jpg
-  caption: Beregn dit hvilestofskifte fra din fedtfri masse 🔥
+  caption: 'Beregn hvilestofskifte ud fra fedtfri masse (FFM) 🔥'
 category:
 - Beregnere
 - Kalorieberegnere
 meta:
-  name: Hvilestofskifte baseret på fedtfri masse
+  name: Hvilestofskifte baseret på fedtfri masse (FFM)
   equipment: ingen
-  measures: dagligt energiforbrug
+  measures: hvilestofskifte for atleter
   type: energiforbrug
 tags:
 - beregner
-- stofskifte
-- stofskifteberegner
-last_modified_at: '2025-03-06T23:14:14Z'
+- fedtfri masse
+- cunningham
+- katch-mcardle
+- bmr atlet
+last_modified_at: '2026-03-29T00:00:00Z'
 feature_row:
 - image_path: https://imgcdn.saxo.com/_9781975217303/0x500
   alt: Exercise Physiology - Nutrition, Energy, and Human Performance
@@ -40,117 +43,126 @@ feature_row:
   btn_class: btn--success
   rel: sponsored nofollow noopener
 keywords:
-- bmr beregner
-- basalstofskifte beregner
-- basalstofskifte
-- udregn bmr
-- beregn bmr
-- hvilestofskifte
-- beregn hvilestofskifte
-- beregn basalstofskifte
-- udregn basalstofskifte
-- bmr udregning
-- udregn hvilestofskifte
-- basalstofskifte udregning
-- basalstofskifte hvilestofskifte
-- udregning af basalstofskifte
+- bmr fedtfri masse
+- cunningham formel hvilestofskifte
+- katch mcardle beregner
+- hvilestofskifte fedtprocent
+- bmr for atleter
+- basalstofskifte kropskomposition
+- ffm bmr beregning
 ---
 
-I denne BMR-beregner, kan du udregne dit basalstofskifte baseret på den fedtfrie masse. Du bliver klogere på, hvilken formel, der er mest anvendelig.
+I denne specialiserede BMR-beregner kan du udregne dit basalstofskifte direkte baseret på din **fedtfrie masse (FFM)** eller **fedtprocent**.
 
-Særligt atletiske personer, som alt andet lige har en højere fedtfri masse, kan sommetider få bedre resultater ved at bruge beregninger, som tager udgangspunkt i den fedtfrie masse.
+Omkring 85% af den individuelle variation i hvilestofskiftet skyldes den fedtfrie masse. Da fedtmassen i kroppen kun bidrager i meget ringe grad til energiomsætningen, vil personer med en høj muskelmasse eller en lav fedtprocent ofte opleve, at gennemsnitlige BMR-formler underestimerer deres reelle forbrænding.
 
-Særligt er Cunninghams formel til hvilestofskifte populær. 
+Særligt formler som **Cunningham (1991)** og **Katch-McArdle** er anerkendte til at give mere præcise estimater for atleter og veltrænede personer.
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+{: .notice--info}
+**Kender du ikke din fedtprocent?**  
+Hvis du ikke kender din fedtfrie masse, skal du i stedet benytte vores [standard BMR-beregner ud fra højde, vægt, alder og køn](/bmr-beregner/).
 
-Hvis du ikke kender din fedtprocent eller fedtfrie masse, så kan du tjekke vores andre [energiberegnere til stofskifte](/stofskifte/). Fx kan du [udregne dit daglige energibehov baseret på vægt og højde](/beregner/dagligt-energiforbrug-energibehov/) eller se vores [avancerede beregner med et præcist fysisk aktivitetsniveau](/beregner/dagligt-stofskifte-og-forbraending/).
-
-Du kan også læse om, hvordan du [udregner dit ligevægtsindtag præcist](/ligevaegtsindtag-beregner/).
+[<i class='fas fa-calculator'></i> Hop direkte til FFM-beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 *[BMR]: Basic Metabolic Rate
 *[REE]: Resting Energy Expenditure
 *[PAL]: Physical Activity Level
 *[FIT]: Fødeinduceret termogenese
 *[TEE]: Total Energy Expenditure
+*[FFM]: Fat-Free Mass (Fedtfri masse)
+*[FM]: Fat Mass (Fedtmasse)
 *[kJ]: kilojoule
 
-Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og [fysisk aktivitet (PAL)](/beregner/pal/). I dette indlæg koncentrerer vi os om hvilestofskiftet og basalstofskiftet.
+---
 
-## Hvad er hvilestofskiftet og basalstofskiftet?
-
-**Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
-
-Bliv klogere: [Alt om hvilestofskiftet og basalstofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/)
-{: .notice }
-
-## BMR beregner fra fedtfri masse
+## BMR-beregner ud fra fedtfri masse (FFM)
 {: id="calculator" }
 
-{% include calculator/calculate-stofskifte-ffm.html %}
+{% include calc/bmr-calculator.html 
+  title="Hvilestofskifteberegner"
+  description="Beregn dit hvilestofskifte (BMR) på baggrund af din højde, alder og køn og din fedtfrie masse med anerkendte formler."
+  pal_mode="none"
+  show_body_fat="true"
+%}
 
-## Hvilken formel skal jeg vælge i BMR-beregneren?
+---
 
-Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR.
+## Hvilken FFM-formel skal du vælge?
 
-I beregneren kan du vælge den **anbefalede formel**. Beregneren er ret klog, så den kan vælge den mest passende formel til netop dig.
+Når du beregner hvilestofskifte ud fra kropssammensætning, findes der flere anerkendte fysiologiske modeller:
 
-Hvis du selv vil bestemme formel, men er lidt i tvivl om hvilken formel, du skal vælge, så start med Cunningham(1991).
+1. **Cunningham (1991):** Den klassiske formel til veltrænede og atleter. Den tager udelukkende udgangspunkt i den fedtfrie masse og tager højde for det forhøjede stofskifte i aktivt muskelvæv.
+2. **Katch-McArdle (1996):** En populær formel i fitnessverdenen, som ligeledes justerer hvileforbrændingen direkte ud fra din samlede fedtfrie masse i kg.
+3. **Nordic Nutrition Recommendations (1996):** Nordiske retningslinjer, som tilbyder formler baseret på enten FFM alene eller en kombination af FFM, FM, alder og køn.
 
-Du skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper.
+### Er en FFM-formel altid mest præcis?
+Ikke nødvendigvis! Det er en udbredt antagelse, at formler med fedtfri masse altid er overlegne for trænede personer, men videnskaben viser et mere nuanceret billede. 
 
-Formlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennesker. Personer, der træner meget eller har en høj fedtfri masse i forhold til deres vægt, kan have et højere hvilestofskifte, mens meget inaktive personer kan have et lavere hvilestofskifte, end beregningerne af BMR viser.
+Et studie af [Jagim et al. (2018)](https://pubmed.ncbi.nlm.nih.gov/28682934/) undersøgte præcisionen af BMR-formler på atleter og fandt overraskende, at **Harris-Benedict-formlen (som IKKE kræver fedtprocent)** var den mest præcise for mandlige atleter, mens **Cunningham-formlen (som kræver FFM)** var mest præcis for kvindelige atleter.
 
-## Formler og tabeller for udregning af hvilestofskiftet
+> "The Harris-Benedict equation seems to be most accurate for male athletes, whereas the Cunningham equation may be better suited for female athletes."
+> — <cite>[Jagim et al. (2018)](https://pubmed.ncbi.nlm.nih.gov/28682934/)</cite>
+
+Formlerne til beregning af hvilestofskiftet ud fra fedtprocent kan være et godt redskab, hvis du har en præcis måling af din kropssammensætning (fx fra DEXA-scan eller InBody). Det kan du blive meget klogere på, hvor vanskeligt det kan være i vores indlæg om [hvordan du måler din fedtprocent](/maal-fedtprocent/) og i vores artikel om [kropskomposition](/kropskomposition/).
+
+Du kan med fordel også sammenligne resultatet med vores [standard BMR-beregner baseret på højde og vægt](/bmr-beregner/).
+
+---
+
+## Formler for udregning af hvilestofskiftet fra FFM
 
 <details markdown="1" class="equation">
   <summary>Cunningham (1991)</summary>
 
-[Cunnningham (1991)](https://pubmed.ncbi.nlm.nih.gov/1957828/) udformede følgende formel, som er meget anerkendt til at udregne hvilestofskiftet.
+[Cunningham (1991)](https://pubmed.ncbi.nlm.nih.gov/1957828/) udformede følgende formel, som er meget anerkendt til at udregne hvilestofskiftet for trænede personer og atleter:
 
 ***
-REE = 500 + 22 * lbm * 4.186
+REE (kcal/døgn) = 500 + 22 * FFM (kg)
 ***
+*(Ganges med 4,184 for omregning til kilojoule).*
+</details>
+
+<details markdown="1" class="equation">
+  <summary>Katch-McArdle (1996)</summary>
+
+Katch-McArdle-formlen er en af de mest populære formler i fitnessverdenen. Den skelner ikke mellem køn eller alder, men beregner hvilestofskiftet udelukkende ud fra din samlede fedtfrie masse (FFM / LBM):
+
+***
+BMR (kcal/døgn) = 370 + 21,6 * FFM (kg)
+***
+*(Ganges med 4,184 for omregning til kilojoule).*
 </details>
 
 <details markdown="1" class="equation">
   <summary>Nordiska Næringsrekommendationer (1996)</summary>
 
-I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' } af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
+I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' } angives følgende formler til udregning af basalstofskiftet ud fra FFM:
 
-- Basalstofskifte (MJ/døgn) = 0,09 * FFM (kg) + 1,55
+- **Basalstofskifte (MJ/døgn)** = $0{,}09 \times \text{FFM (kg)} + 1{,}55$
 
-eller
+eller den mere udvidede model:
 
-- Basalstofskifte (MJ/døgn) = 0,058 * FFM (kg) + 0,026 * FM (kg) - 0,018 * alder + 0,615 * køn + 3,322
+- **Basalstofskifte (MJ/døgn)** = $0{,}058 \times \text{FFM (kg)} + 0{,}026 \times \text{FM (kg)} - 0{,}018 \times \text{alder} + 0{,}615 \times \text{køn} + 3{,}322$
 
-I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
+*(Hvor køn = 1 for mænd og 0 for kvinder).*</details>
 
-Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse](/kropskomposition/) i et af vores andre indlæg eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
+---
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag](/ligevaegtsindtag-beregner/).
+## Næste skridt: Beregn dit samlede ligevægtsindtag
 
-</details>
+Dit hvilestofskifte (BMR) angiver kun, hvad din krop forbrænder i fuldstændig hvile. For at finde ud af, hvor mange kalorier du skal spise om dagen for at holde vægten eller opbygge muskelmasse, skal du gange din BMR med dit daglige aktivitetsniveau (PAL-faktor).
 
-## Mere avanceret udregning af dagligt energiforbrug
-
-Jeg har også lavet en [avanceret beregner af dit samlede daglige energibehov](/beregner/dagligt-stofskifte-og-forbraending/), hvor den fysiske aktivitet bliver angivet lidt mere præcist.
-
-[Avanceret stofskifte beregner](/beregner/dagligt-stofskifte-og-forbraending/){: .btn .btn--large .btn--success }
+👉 **Find dit samlede daglige energibehov i vores [Ligevægtsindtag-beregner](/ligevaegtsindtag-beregner/)**
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
 {% include feature_row type="left" %}
 
-- Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
-- Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.
-- Henry, C. J. K. 2005. “Basal Metabolic Rate Studies in Humans: Measurement and Development of New Equations”. Public Health Nutrition 8 (7A): 1133–52. <https://doi.org/10.1079/phn2005801>.
-- Jagim, Andrew R., Clayton L. Camic, Jacob Kisiolek, Joel Luedke, Jacob Erickson, Margaret T. Jones, og Jonathan M. Oliver. 2018. “Accuracy of Resting Metabolic Rate Prediction Equations in Athletes”. Journal of Strength and Conditioning Research 32 (7): 1875–81. <https://doi.org/10.1519/JSC.0000000000002111>.
-- McMurray, Robert G., Jesus Soares, Carl J. Caspersen, og Thomas McCurdy. 2014. “Examining Variations of Resting Metabolic Rate of Adults: A Public Health Perspective”. Medicine and science in sports and exercise 46 (7): 1352–58. <https://doi.org/10.1249/MSS.0000000000000232>.
-- Sabounchi, Nasim S., Hazhir Rahmandad, og Alice Ammerman. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. International journal of obesity (2005) 37 (10): 1364–70. <https://doi.org/10.1038/ijo.2012.218>.
-- Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
-- Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. <https://doi.org/10.1139/apnm-2018-0412>.
-- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <https://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
-- Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). <https://doi.org/10.3389/fphys.2013.00090>.
+- Cunningham, J. J. 1991. “Body composition as a determinant of energy expenditure: a synthetic review and a proposed general prediction equation”. *The American Journal of Clinical Nutrition* 54 (5): 963–69.
+- Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. *Clinical Nutrition* 32 (6): 976–82.
+- Jagim, Andrew R. et al. 2018. “Accuracy of Resting Metabolic Rate Prediction Equations in Athletes”. *Journal of Strength and Conditioning Research* 32 (7): 1875–81.
+- McMurray, Robert G. et al. 2014. “Examining Variations of Resting Metabolic Rate of Adults: A Public Health Perspective”. *Medicine and Science in Sports and Exercise* 46 (7): 1352–58.
+- Sabounchi, Nasim S. et al. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. *International Journal of Obesity* 37 (10): 1364–70.
+- Tinsley, Grant M. et al. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. *Applied Physiology, Nutrition, and Metabolism* 44 (4): 397–406.
 </details>

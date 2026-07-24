@@ -191,7 +191,7 @@ En anden model at forstå træning ud fra kan være 3-zoners-modellen. Her arbej
 
 Dine træningszoner kan styres på flere forskellige måder.
  
-- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/pulsreserve/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
+- **Puls**. Du skal bruge en pulsmåler og [udregne dine egne pulszoner til træning](/pulszoner-beregner/). Pulszonerne kan fx udregnes i forhold til [max pulsen](/test-max-puls/), [pulsreserven](/pulsreserve/) eller pulsen ved den anaerob tærskel. Du kan kun bruge pulsen som rettesnor for intensiteten i zone 1-5, da pulsen ikke indikerer intensiteten i zone 6 og 7.
 - **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane, andre opmålte distancer eller et GPS-ur at træne på denne måde. Det er klart lettest at bruge pace, hvis du løber nogenlunde flade ruter.
 - **Watt**. Du har brug for særligt udstyr for at bruge watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [wattmåling til løb](/loeb-watt/). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer](/ftp-cykling/).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
@@ -214,7 +214,7 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 
 </div>
 
-Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), udregne [dine intensitetszoner ud fra FTP](/ftp-cykling/) eller mere om [critical power](/critical-power/).
+Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner](/pulszoner-beregner/), udregne [dine intensitetszoner ud fra FTP](/ftp-cykling/) eller mere om [critical power](/critical-power/).
 
 ## Konklusion
 
@@ -237,7 +237,7 @@ Først skal du naturligvis have kigget på dit mål for træningen. Det er forsk
 Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen](/hvilepuls/) og [max pulsen](/test-max-puls/).
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her](/pulszoner-beregner/). Pulszonerne kan fx udregnes i forhold til [hvilepulsen](/hvilepuls/) og [max pulsen](/test-max-puls/).
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under [løbeøkonomi og løbeteknik](/lobeokonomi/).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 
@@ -494,7 +494,7 @@ Når du bruger restitutionstræning i dit løbeprogram, skal du altså være opm
 
 ### Udførelse
 
-Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
+Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve](/pulszoner-beregner/). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
 
 ### Hyppighed og mængde
 

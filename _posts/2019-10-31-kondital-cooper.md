@@ -119,7 +119,9 @@ Der findes forskellige formler til at udregne konditallet fra Cooper-testen.
 
 I beregneren bruger jeg denne formel til at beregne konditallet ud fra Cooper-testen, som er den formel der bruges på [www.brianmac.co.uk](https://www.brianmac.co.uk/gentest.htm) og [Wikipedia](https://en.wikipedia.org/wiki/Cooper_test).
 
-{% include motionsplan/math formula="kondital = \frac{d_{12} - 504,9}{44,73}" %}
+$$
+\text{kondital} = \frac{d_{12} - 504{,}9}{44{,}73}
+$$
 
 Der findes vist også formler, der inkluderer vægt, køn og alder, men dem har jeg ikke kunnet finde.
 
@@ -321,7 +323,7 @@ Du kan fx bruge vores [løbeberegner til at udregne dit træningstempo](/loebesi
 
 ### 4. Finde pulszoner
 
-Gennemsnitspulsen på de 12 minutter ligger ikke så langt væk fra din [anaerobe tærskel](/anaerobe-taerskel/). Derfor kan du bruge det som udgangspunkt for at [beregne dine pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
+Gennemsnitspulsen på de 12 minutter ligger ikke så langt væk fra din [anaerobe tærskel](/anaerobe-taerskel/). Derfor kan du bruge det som udgangspunkt for at [beregne dine pulszoner](/pulszoner-beregner/).
 
 ## Tips til at forbedre din løbedistance på Cooper-testen
 

@@ -40,7 +40,7 @@ feature_row:
 
 At forstå hvordan man beregner sit hvilestofskifte (BMR) er vigtigt for at kunne tilpasse sin kost og træning. I denne artikel gennemgår vi de mest anvendte BMR-formler, herunder Mifflin-St Jeor og Harris-Benedict, og viser dig, hvordan du kan bruge dem til at beregne dit BMR.
 
-Hvis du er interesseret i en mere praktisk tilgang til at beregne dit energibehov, kan du også besøge vores [BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/) for at få en hurtigere beregning.
+Hvis du er interesseret i en mere praktisk tilgang til at beregne dit energibehov, kan du også besøge vores [BMR-beregner](/bmr-beregner/) for at få en hurtigere beregning.
 
 ## Formler og tabeller for udregning af hvilestofskiftet
 
@@ -240,7 +240,7 @@ Hvis man kigger i andre studier, der tjekker pålideligheden af de forskellige f
 
 Beregning af dit hvilestofskifte ved hjælp af de rigtige formler er første skridt mod at forstå dit daglige energibehov. Brug denne viden til at tilpasse din kost og træning for at opnå dine mål.
 
-Hvis du vil have en nemmere beregning, kan du altid bruge vores [BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/) til at få en præcis vurdering af dit BMR.
+Hvis du vil have en nemmere beregning, kan du altid bruge vores [BMR-beregner](/bmr-beregner/) til at få en præcis vurdering af dit BMR.
 
 Hvis du vil udregne BMR ud fra den fedtfrie masse, så er [Cunninghams formel til hvilestofskifte](/bmr-beregner-ffm/) populær. Hvis du gerne vil lære, hvordan du [beregner dit daglige energibehov](/hvordan-beregne-dagligt-energibehov/).
 

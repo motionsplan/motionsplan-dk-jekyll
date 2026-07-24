@@ -127,7 +127,9 @@ Deltageren fortsætter, indtil de:
 
 Testscoren er den **samlede distance** løbet i meter. Denne score kan omregnes til **VO2max** ved hjælp af følgende formel (Ahmaidi et al., 1992):  
 
-{% include motionsplan/math formula="VO2max = 1.353 + (3.163 \times \text{hastighed i sidste fase}) + (0.0122586 \times (\text{hastighed i sidste fase})^2)" %}
+$$
+\text{VO}_2\text{max} = 1{,}353 + 3{,}163 \times \text{hastighed i sidste fase} + 0{,}0122586 \times (\text{hastighed i sidste fase})^2
+$$
 
 ## Målgruppe  
 

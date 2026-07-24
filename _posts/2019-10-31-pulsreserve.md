@@ -66,7 +66,9 @@ Her beregner man sin relative arbejdsintenstitet på baggrund af din hvilepuls o
 
 Fordelen ved at denne metode er, at det er relativt enkelt at finde sin hvilepuls og beregne sin maxpuls. 
 
-{% include motionsplan/math formula="Intensitet(%) = \frac{arbejdspuls - hvilepuls}{maxpuls - hvilepuls} * 100" %}
+$$
+\text{Intensitet (\%)} = \frac{\text{arbejdspuls} - \text{hvilepuls}}{\text{maxpuls} - \text{hvilepuls}} \times 100
+$$
 
 ## Beregn din intensitet ud fra arbejdspuls
 {: id="calculator" }
@@ -103,4 +105,4 @@ Pulsreserve er en præcis metode til at beregne træningsintensitet, da den tage
 
 Ved at bruge pulsreserven kan du tilpasse din træning mere individuelt og sikre, at du arbejder i de rigtige intensitetszoner for at nå dine mål.
 
-Vil du finde dine personlige pulszoner baseret på pulsreserven? Brug vores beregner til at udregne dine [optimale pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/) her.
+Vil du finde dine personlige pulszoner baseret på pulsreserven? Brug vores beregner til at udregne dine [optimale pulszoner fra pulsreserven](/pulszoner-beregner/) her.

@@ -42,7 +42,7 @@ Beregnerne hjælper dig med at omregne fra en enhed til en anden, eller udregne 
 
 Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
 
-Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/), [taljemål](/taljemaal/) og [talje-hofte-forhold](/talje-hofte-ratio/).
+Du kan bl.a. prøve vores [beregner til idealvægt](/idealvaegt/) samt vores samlede beregner til [taljemål og talje-hofte-forhold](/taljemaal/).
 </details>
 
 <details markdown="1" class="faq">

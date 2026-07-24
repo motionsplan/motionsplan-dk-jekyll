@@ -100,7 +100,9 @@ Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel f
 <details markdown="1" class="equation">
   <summary>Se Lewis (1974) formler</summary>
 
-{% include motionsplan/math formula="Average power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
+$$
+\text{Gennemsnitlig effekt (kg}\cdot\text{m/s)} = \sqrt{4{,}9} \times \text{kropsvægt (kg)} \times \sqrt{\text{jump-and-reach score (m)}}
+$$
 
 For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften.
 

@@ -1,125 +1,499 @@
-{% assign calc_title = include.title | default: "🏋️‍♂️ 1RM Beregner" %}
-{% assign calc_category = include.category | default: "Styrkeberegner" %}
-{% assign calc_formula = include.default_formula | default: "brzycki" %}
+{% assign calc_title = include.title | default: "🏋️‍♂️ 1RM Beregner & Styrketabel" %}
+{% assign data_id = include.calc_id | default: "1rm-calculator" %}
 
-<div class="mp-calc-card" data-calculator="1rm">
+<style>
+  .mp-calc-card {
+    position: relative !important;
+  }
+
+  .mp-1rm-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-1rm-section-rel {
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Info Button (i) */
+  .mp-panel-info-btn {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50% !important;
+    background: #eff6ff !important;
+    color: #2563eb !important;
+    border: 1px solid #bfdbfe !important;
+    font-size: 0.775rem !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  .mp-panel-info-btn:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  /* Section Info Overlay */
+  .mp-panel-info-overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    background: #ffffff !important;
+    border-radius: inherit !important;
+    z-index: 20 !important;
+    padding: 1.15rem !important;
+    box-sizing: border-box !important;
+    display: none;
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    box-shadow: inset 0 0 0 1px #e2e8f0;
+  }
+
+  .mp-panel-info-close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: #f1f5f9 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* KROPSDEL KNAPPER */
+  .mp-1rm-bodypart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 0.65rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-1rm-bodypart-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0.5rem;
+    background: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+    gap: 0.15rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+
+  .mp-1rm-bodypart-btn:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-1rm-bodypart-btn.is-selected {
+    background: #eff6ff;
+    border-color: #2563eb;
+    box-shadow: 0 3px 10px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-1rm-btn-icon {
+    font-size: 1.4rem !important;
+    line-height: 1 !important;
+    margin-bottom: 0.2rem !important;
+    display: block !important;
+  }
+
+  .mp-1rm-btn-title {
+    font-size: 0.85rem !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: #0f172a !important;
+  }
+
+  .mp-1rm-bodypart-btn.is-selected .mp-1rm-btn-title {
+    color: #1e40af !important;
+  }
+
+  .mp-1rm-btn-sub {
+    font-size: 0.675rem !important;
+    font-weight: 600 !important;
+    color: #64748b !important;
+    line-height: 1.2 !important;
+  }
+
+  /* FORMELKORT BAR OG PICKER */
+  .mp-1rm-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+
+  .mp-1rm-badge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .mp-1rm-badge-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-1rm-badge-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-1rm-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1.05rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mp-1rm-btn-gear:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  .mp-1rm-rec-tag {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #1e40af;
+    background: #dbeafe;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .mp-1rm-picker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .mp-1rm-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-1rm-picker-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-1rm-picker-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-1rm-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .mp-1rm-picker-card.is-selected .mp-1rm-check-icon {
+    background: #2563eb;
+    color: #ffffff;
+  }
+
+  /* HERO BOKS */
+  .mp-1rm-hero-box {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 14px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-1rm-hero-val {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1;
+    margin: 0.2rem 0;
+  }
+
+  /* STRICT 100% TABEL TVANGS-STYLING */
+  .js-1rm-results-wrapper {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+
+  .mp-1rm-table-wrapper {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 14px !important;
+    margin-bottom: 1rem !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02) !important;
+    display: block !important;
+  }
+
+  .mp-1rm-table {
+    display: table !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 0.85rem !important;
+    margin: 0 !important;
+    table-layout: fixed !important;
+    box-sizing: border-box !important;
+  }
+
+  .mp-1rm-table thead {
+    display: table-header-group !important;
+    width: 100% !important;
+  }
+
+  .mp-1rm-table tbody {
+    display: table-row-group !important;
+    width: 100% !important;
+  }
+
+  .mp-1rm-table tr {
+    display: table-row !important;
+    width: 100% !important;
+  }
+
+  .mp-1rm-table th {
+    background: #f8fafc !important;
+    font-size: 0.725rem !important;
+    font-weight: 800 !important;
+    color: #475569 !important;
+    text-transform: uppercase !important;
+    padding: 0.75rem 0.65rem !important;
+    border-bottom: 1.5px solid #e2e8f0 !important;
+    letter-spacing: 0.02em !important;
+    box-sizing: border-box !important;
+  }
+
+  .mp-1rm-table td {
+    padding: 0.65rem !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    color: #0f172a !important;
+    vertical-align: middle !important;
+    box-sizing: border-box !important;
+  }
+
+  .mp-1rm-table tr:last-child td {
+    border-bottom: none !important;
+  }
+
+  .mp-1rm-empty-state {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #f8fafc;
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="1rm-ui">
   
-  <!-- Header med badge rykket helt ud til højre -->
-  <div class="mp-calc-header">
-    <div class="mp-calc-header-main">
-      {% if calc_title != "" %}
-        <h3 class="mp-calc-title">{{ calc_title }}</h3>
-      {% endif %}
-      {% if include.description %}
-        <p class="mp-calc-description">{{ include.description }}</p>
-      {% endif %}
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Estimer din maksimale 1RM styrke og komplet Rep Max-tabel ud fra dit seneste løft.
+      </p>
     </div>
-
-    {% if include.show_badge != false and calc_category != "" %}
-      <div class="mp-calc-badge">
-        <span>📊</span> {{ calc_category | upcase }}
-      </div>
-    {% endif %}
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
   </div>
 
-  <form class="mp-calc-form">
-    <div class="mp-form-grid">
+  <div class="mp-1rm-container" style="width: 100%;">
+    
+    <!-- TRIN 1: INDTAST LØFT -->
+    <div class="mp-1rm-section-rel" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="1rm_basics" title="Information om 1RM og Reps">i</button>
+
+      <!-- SECTION INFO OVERLAY -->
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0; padding-right: 32px;">1. Indtast dit seneste løft</h4>
+
+      <!-- KROPSDEL KNAPPER MED IKON ØVERST -->
+      <div class="mp-1rm-bodypart-grid">
+        <button type="button" class="mp-1rm-bodypart-btn js-bodypart-btn is-selected" data-bodypart="all">
+          <span class="mp-1rm-btn-icon">🏋️‍♂️</span>
+          <span class="mp-1rm-btn-title">Generel</span>
+          <span class="mp-1rm-btn-sub">Alle øvelser</span>
+        </button>
+
+        <button type="button" class="mp-1rm-bodypart-btn js-bodypart-btn" data-bodypart="upper">
+          <span class="mp-1rm-btn-icon">💪</span>
+          <span class="mp-1rm-btn-title">Overkrop</span>
+          <span class="mp-1rm-btn-sub">Bænkpres, DB Press</span>
+        </button>
+
+        <button type="button" class="mp-1rm-bodypart-btn js-bodypart-btn" data-bodypart="lower">
+          <span class="mp-1rm-btn-icon">🦵</span>
+          <span class="mp-1rm-btn-title">Underkrop</span>
+          <span class="mp-1rm-btn-sub">Squat, Benpres</span>
+        </button>
+      </div>
+
+      <!-- Input Felter (Vægt, Reps & RPE) -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.65rem;">
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Vægt løftet (kg)</label>
+          <input type="number" min="1" max="600" step="0.5" class="vbt-input-mega mp-1rm-input-field js-1rm-input" data-key="weight" placeholder="100" value="100">
+        </div>
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Gentagelser (Reps)</label>
+          <input type="number" min="1" max="15" class="vbt-input-mega mp-1rm-input-field js-1rm-input" data-key="reps" placeholder="5" value="5">
+        </div>
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Anstrengelse (RPE)</label>
+          <select class="vbt-input-mega mp-1rm-input-field js-1rm-input" data-key="rpe" style="width: 100%; text-align: center; padding: 0 4px !important; font-size: 0.8rem !important;">
+            <option value="10" selected>RPE 10 (Helt max / 0 RIR)</option>
+            <option value="9.5">RPE 9,5 (Måske 1 rep mere)</option>
+            <option value="9">RPE 9 (1 rep i tanken)</option>
+            <option value="8.5">RPE 8,5 (1-2 reps i tanken)</option>
+            <option value="8">RPE 8 (2 reps i tanken)</option>
+            <option value="7.5">RPE 7,5 (2-3 reps i tanken)</option>
+            <option value="7">RPE 7 (3 reps i tanken)</option>
+            <option value="6.5">RPE 6,5 (3-4 reps i tanken)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRIN 2: FORMEL SEKTION -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        2. Vælg 1RM formel
+      </label>
+
+      <!-- COLLAPSED BAR -->
+      <div class="js-1rm-formula-bar mp-1rm-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- EXPANDED LISTE AF FORMELKORT -->
+      <div class="js-1rm-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-1rm-picker-container mp-1rm-picker-list" style="margin-top: 0.5rem;">
+          <!-- Genereres dynamisk i JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTAT SEKTION -->
+    <div class="js-1rm-results-wrapper">
       
-      <!-- Formel valg -->
-      <div class="mp-form-group">
-        <label for="1rm-formula">⚙️ Formel</label>
-        <select name="formula" id="1rm-formula" class="mp-form-control">
-          <option value="brzycki" {% if calc_formula == "brzycki" %}selected{% endif %}>Brzycki (Mest udbredt)</option>
-          <option value="epley" {% if calc_formula == "epley" %}selected{% endif %}>Epley</option>
-          <option value="lander" {% if calc_formula == "lander" %}selected{% endif %}>Lander</option>
-          <option value="lombardi" {% if calc_formula == "lombardi" %}selected{% endif %}>Lombardi</option>
-          <option value="mayhew" {% if calc_formula == "mayhew" %}selected{% endif %}>Mayhew</option>
-          <option value="oconnor" {% if calc_formula == "oconnor" %}selected{% endif %}>O'Connor</option>
-          <option value="wathan" {% if calc_formula == "wathan" %}selected{% endif %}>Wathan</option>
-          <option value="wendler" {% if calc_formula == "wendler" %}selected{% endif %}>Wendler</option>
-          <option value="reynolds" {% if calc_formula == "reynolds" %}selected{% endif %}>Reynolds</option>
-        </select>
+      <!-- HERO BOKS -->
+      <div class="mp-1rm-hero-box">
+        <div style="text-transform: uppercase; font-size: 0.725rem; font-weight: 800; color: #2563eb; letter-spacing: 0.04em;">
+          🎯 Din Estimerede 1RM (<span class="js-res-formula-label">Brzycki</span>)
+        </div>
+        
+        <div class="mp-1rm-hero-val">
+          <span class="js-res-1rm-val">-</span> <span style="font-size: 1.5rem; color: #3b82f6;">kg</span>
+        </div>
+
+        <div class="js-res-see-tag" style="font-size: 0.75rem; font-weight: 700; color: #64748b; margin-top: 0.2rem;">
+          Estimeret usikkerhed (SEE): ±- kg
+        </div>
       </div>
 
-      <!-- Kropsdel (Vises kun ved Reynolds) -->
-      <div class="mp-form-group mp-reynolds-field" style="{% if calc_formula != 'reynolds' %}display: none;{% endif %}">
-        <label for="1rm-bodypart">🦵 Kropsdel</label>
-        <select name="bodypart" id="1rm-bodypart" class="mp-form-control">
-          <option value="lower">Underkrop (fx Benpres/Squat)</option>
-          <option value="upper">Overkrop (fx Bænkpres)</option>
-        </select>
-      </div>
-
-      <!-- Reps -->
-      <div class="mp-form-group">
-        <label for="1rm-reps">🔄 Antal gentagelser (Reps)</label>
-        <input type="number" min="1" max="15" name="reps" id="1rm-reps" class="mp-form-control" inputmode="numeric" placeholder="fx 5" value="{{ include.reps }}" required>
-      </div>
-
-      <!-- Vægt -->
-      <div class="mp-form-group">
-        <label for="1rm-weight">🏋️ Vægt du løftede (kg)</label>
-        <input type="number" min="1" max="600" step="0.5" name="weight" id="1rm-weight" class="mp-form-control" inputmode="decimal" placeholder="fx 100" value="{{ include.weight }}" required>
+      <!-- 100% FULD-BREDDE TABEL CONTAINER -->
+      <div class="mp-1rm-table-wrapper">
+        <table class="mp-1rm-table">
+          <thead>
+            <tr>
+              <th style="width: 22%;">🔒 Rep Max</th>
+              <th style="width: 28%; text-align: right;">📊 Estimeret Vægt</th>
+              <th style="width: 22%; text-align: right;">📈 Pct. af 1RM</th>
+              <th style="width: 28%; text-align: right;">⚖️ Gns. Alle Formler</th>
+            </tr>
+          </thead>
+          <tbody class="js-1rm-table-body">
+            <!-- Genereres dynamisk i JS -->
+          </tbody>
+        </table>
       </div>
 
     </div>
 
-    <button type="submit" class="mp-btn-submit">⚡ Beregn 1RM</button>
-  </form>
-
-  <!-- Resultat Sektion -->
-  <div class="mp-results-container">
-    <div class="mp-hero-result">
-      <div class="mp-hero-label">🎯 Din estimerede 1RM (<span id="formula-1rm-table-caption">Brzycki</span>)</div>
-      <div class="mp-hero-value">
-        <span data-result="rm1">0</span>
-        <small>kg</small>
-      </div>
+    <!-- Actions -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
     </div>
 
-    <div class="mp-table-wrapper">
-      <table class="mp-results-table">
-        <thead>
-          <tr>
-            <th>🔒 Rep Max</th>
-            <th>📊 Estimeret vægt</th>
-            <th>📈 Pct. af 1RM</th>
-            <th>⚖️ Gns. alle formler</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>1 RM</strong></td>
-            <td><strong data-result="rm1" class="mp-text-primary">-</strong></td>
-            <td><span data-result="p1">100%</span></td>
-            <td><span data-result="rm1avg">-</span></td>
-          </tr>
-          <tr>
-            <td><strong>3 RM</strong></td>
-            <td><strong data-result="rm3">-</strong></td>
-            <td><span data-result="p3">-</span></td>
-            <td><span data-result="rm3avg">-</span></td>
-          </tr>
-          <tr>
-            <td><strong>5 RM</strong></td>
-            <td><strong data-result="rm5">-</strong></td>
-            <td><span data-result="p5">-</span></td>
-            <td><span data-result="rm5avg">-</span></td>
-          </tr>
-          <tr>
-            <td><strong>8 RM</strong></td>
-            <td><strong data-result="rm8">-</strong></td>
-            <td><span data-result="p8">-</span></td>
-            <td><span data-result="rm8avg">-</span></td>
-          </tr>
-          <tr>
-            <td><strong>10 RM</strong></td>
-            <td><strong data-result="rm10">-</strong></td>
-            <td><span data-result="p10">-</span></td>
-            <td><span data-result="rm10avg">-</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
   </div>
 </div>

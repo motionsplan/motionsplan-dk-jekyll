@@ -36,7 +36,7 @@ Mange vil gerne vide, hvor mange kalorier, der er i grøntsager, så jeg har lav
 
 Kalorietabellen indeholder forskellige typer grøntsager. I tabellen kan du finde kalorier for forskellige typer grøntsager. Du kan også se en [komplet kalorietabel](/kalorietabellen/), [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}) eller [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
 
-Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet](/bmr-beregner-hvilestofskifte-basalstofskifte/). Jeg har også lavet en [liste over MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet](/bmr-beregner/). Jeg har også lavet en [liste over MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
 
 ## Kilder til kalorietabellen over grøntsater
 

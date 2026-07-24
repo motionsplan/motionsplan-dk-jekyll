@@ -80,7 +80,9 @@ Læg mærke til at Durnin og Womersley-formlerne tager højde for alderen. Det s
 
 Derefter kan Siri-formlen omsætte densiteten til fedtprocent.
 
-{% include motionsplan/math formula="PBF = \frac{495}{D} - 450" %}
+$$
+\text{PBF} = \frac{495}{D} - 450
+$$
 
 ## Hvorfor får man en densitet med Durnin og Womersley?
 

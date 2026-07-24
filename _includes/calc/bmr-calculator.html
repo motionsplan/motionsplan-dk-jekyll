@@ -1,7 +1,8 @@
 {% assign calc_title = include.title | default: "BMR & Dagligt Energiforbrug (Ligevægtsindtag)" %}
+{% assign calc_description = include.description | default: "Beregn dit samlede energibehov på en dag ud fra hvilestofskiftet (BMR) og dit daglige aktivitetsniveau (PAL)." %}
 {% assign data_id = include.calc_id | default: "bmr-calculator" %}
 {% assign show_body_fat = include.show_body_fat | default: true %}
-
+{% assign default_pal_mode = include.pal_mode | default: "simple" %}
 <style>
   .mp-calc-card {
     position: relative !important;
@@ -72,7 +73,7 @@
     overflow: hidden !important;
   }
 
-  /* Info Button (i) i øverste højre hjørne af paneler */
+  /* Info Button (i) */
   .mp-panel-info-btn {
     position: absolute !important;
     top: 12px !important;
@@ -159,6 +160,123 @@
     background: #eff6ff;
     border-color: #2563eb;
     color: #1e40af;
+  }
+
+  /* --- FORMELKORT KASSER OG VALG --- */
+  .mp-bmr-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.85rem 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+
+  .mp-bmr-badge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .mp-bmr-badge-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-bmr-badge-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-bmr-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1.05rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mp-bmr-btn-gear:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  .mp-bmr-rec-tag {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #1e40af;
+    background: #dbeafe;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .mp-bmr-picker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .mp-bmr-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-bmr-picker-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-bmr-picker-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-bmr-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .mp-bmr-picker-card.is-selected .mp-bmr-check-icon {
+    background: #2563eb;
+    color: #ffffff;
   }
 
   /* Mode Switcher */
@@ -293,7 +411,7 @@
     flex-shrink: 0;
   }
 
-  /* Hero Result Grid - Symmetrisk layout */
+  /* Hero Result Grid */
   .mp-bmr-hero-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -318,7 +436,6 @@
     border-color: #bfdbfe;
   }
 
-  /* Ikoner på egen linje, lidt større */
   .mp-bmr-hero-icon {
     font-size: 1.6rem;
     line-height: 1;
@@ -326,7 +443,6 @@
     display: block;
   }
 
-  /* Fastlåst højdestruktur for perfekt horisontal flugtning */
   .mp-bmr-hero-title {
     font-size: 0.675rem;
     font-weight: 800;
@@ -372,7 +488,6 @@
     justify-content: center;
   }
 
-  /* SEE (Standard Error) felt i bunden af kortene */
   .mp-bmr-hero-see {
     font-size: 0.675rem;
     font-weight: 700;
@@ -392,19 +507,46 @@
     padding: 4px 10px;
     border-radius: 6px;
   }
+
+  /* OPT-IN BOKS */
+  .mp-bmr-pal-optin-btn {
+    width: 100%;
+    background: #f8fafc;
+    border: 1.5px dashed #cbd5e1;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    color: #2563eb;
+    font-weight: 800;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    transition: all 0.15s ease;
+  }
+
+  .mp-bmr-pal-optin-btn:hover {
+    background: #eff6ff;
+    border-color: #93c5fd;
+  }
 </style>
 
 <!-- SKJULT DATALIST TIL SØGBARE MET-AKTIVITETER -->
 <datalist id="mp-bmr-met-datalist"></datalist>
 
-<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="bmr-calculator-ui" data-show-body-fat="{{ show_body_fat }}">
+<div class="mp-calc-card vbt-premium-card" 
+     data-calculator="{{ data_id }}" 
+     data-ui-module="bmr-calculator-ui" 
+     data-show-body-fat="{{ show_body_fat }}"
+     data-default-pal-mode="{{ default_pal_mode }}">
   
   <!-- Header -->
   <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
     <div>
       <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
       <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
-        Beregn dit hvilestofskifte (BMR) og samlede daglige energibehov (ligevægtsindtag / TEE).
+        {{ calc_description }}
       </p>
     </div>
     <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
@@ -412,7 +554,7 @@
 
   <div class="mp-bmr-container" style="width: 100%;">
     
-    <!-- 1. STAMDATA -->
+    <!-- 1. STAMDATA SEKTION -->
     <div class="mp-bmr-section-rel" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
       <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="bmr_formulas" title="Information om Hvilestofskifte & Formler">i</button>
 
@@ -430,8 +572,8 @@
         <button type="button" class="mp-bmr-gender-btn js-gender-btn" data-gender="woman">👩 Kvinde</button>
       </div>
 
-      <!-- Input Felter i perfekt 4-kolonne gitter -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 0.65rem; margin-bottom: 0.85rem;">
+      <!-- Input Felter -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 0.65rem;">
         <div>
           <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Alder (år)</label>
           <input type="number" min="10" max="110" class="vbt-input-mega mp-bmr-input-field js-bmr-input" data-key="age" placeholder="40" value="40">
@@ -446,7 +588,7 @@
         </div>
 
         {% if show_body_fat %}
-        <!-- Fedtprocent Felt med Lås Overlay -->
+        <!-- Fedtprocent Felt -->
         <div>
           <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">
             Fedt % <span style="font-weight: 500; color: #94a3b8;">(valgfri)</span>
@@ -461,44 +603,52 @@
         </div>
         {% endif %}
       </div>
+    </div>
 
-      <!-- Formel Select -->
-      <div>
-        <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Formel til hvilestofskifte (BMR)</label>
-        <select class="vbt-input-mega mp-bmr-input-field js-bmr-formula-select" style="width: 100%; text-align: left; padding: 0 8px !important; height: 38px !important;">
-          <option value="recommended_formula" selected>⭐ Anbefalet formel (automatisk ud fra BMI / FFM)</option>
-          
-          <optgroup label="🔒 Muskelmasse / FFM Formler (kræver fedtprocent)" class="js-bmr-ffm-optgroup" disabled style="display: none;">
-            <option value="cunningham">Cunningham (1991) – FFM/LBM</option>
-            <option value="katch_mcardle">Katch-McArdle – FFM/LBM</option>
-            <option value="nordic_nutrition_ffm">Nordic Nutrition Recommendations (FFM)</option>
-          </optgroup>
+    <!-- SEPARAT BMR-FORMEL SEKTION (TRUKKET UD AF STAMDATA) -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        Formel til hvilestofskifte (BMR)
+      </label>
 
-          <optgroup label="Standard Formler (Vægt, Højde, Alder)">
-            <option value="nordic_nutrition_2012">Nordic Nutrition Recommendations (2012)</option>
-            <option value="mifflin">Mifflin et al. (1990)</option>
-            <option value="henry">Henry (2005)</option>
-            <option value="benedict_harris">Benedict-Harris (1918-1919)</option>
-            <option value="schofield">Schofield (1985)</option>
-            <option value="gerrior_2006">Gerrior (2006)</option>
-            <option value="pavlidou_2023">Pavlidou (2023)</option>
-          </optgroup>
-        </select>
+      <!-- COLLAPSED BAR: VISER DEN VALGTE/ANBEFALEDE FORMEL DIREKTE -->
+      <div class="js-bmr-formula-bar mp-bmr-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- EXPANDED LISTE AF FORMELKORT -->
+      <div class="js-bmr-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-bmr-picker-container mp-bmr-picker-list">
+          <!-- Genereres dynamisk i JS -->
+        </div>
       </div>
     </div>
 
-    <!-- 2. AKTIVITETSNIVEAU (PAL) TABS -->
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
-      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">2. Fysisk Aktivitetsniveau (PAL / Daglige aktiviteter)</h4>
+    <!-- OPT-IN BOKS TIL SKJULT PAL -->
+    <div class="js-pal-toggle-wrapper" style="margin-bottom: 1.25rem; display: none;">
+      <button type="button" class="js-pal-enable-btn mp-bmr-pal-optin-btn">
+        <span>⚡ Vil du også beregne dit samlede daglige energiforbrug (ligevægtsindtag)?</span>
+        <span style="background: #2563eb; color: #ffffff; padding: 4px 10px; border-radius: 6px; font-size: 0.725rem; flex-shrink: 0;">+ Tilføj aktivitet</span>
+      </button>
+    </div>
+
+    <!-- 2. AKTIVITETSNIVEAU (PAL) SEKTION -->
+    <div class="js-pal-section-wrapper" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem;">
+        <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;">2. Fysisk Aktivitetsniveau (PAL / Daglige aktiviteter)</h4>
+        <button type="button" class="js-pal-disable-btn" style="background: transparent; border: none; font-size: 0.725rem; font-weight: 800; color: #64748b; cursor: pointer;" title="Skjul aktivitetsberegning">
+          ✕ Skjul
+        </button>
+      </div>
 
       <div class="mp-bmr-mode-switch">
-        <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn" data-pal-mode="none">🚫 Kun BMR</button>
         <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn is-active" data-pal-mode="simple">⚡ Hurtig</button>
         <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn" data-pal-mode="normal">📊 Normal</button>
         <button type="button" class="mp-bmr-mode-btn js-bmr-mode-btn" data-pal-mode="advanced">🔍 Avanceret</button>
       </div>
 
-      <!-- SUB-PANEL 1: SIMPLE (NNR) -->
+      <!-- SUB-PANEL 1: SIMPLE -->
       <div class="js-pal-panel-simple mp-bmr-section-rel" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
         <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="nnr_info" title="Information om Hurtig PAL">i</button>
 
@@ -591,7 +741,7 @@
 
       <!-- ADVANCED WRAPPER FOR NORMAL & ADVANCED -->
       <div class="js-pal-advanced-wrapper" style="display: none;">
-        <!-- SUB-PANEL 2: NORMAL (6 ZONER) -->
+        <!-- SUB-PANEL 2: NORMAL -->
         <div class="js-pal-panel-normal mp-bmr-section-rel" style="display: none; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
           <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="met_24h_info" title="Information om 24-timers MET">i</button>
 
@@ -663,7 +813,7 @@
           </div>
         </div>
 
-        <!-- SUB-PANEL 3: ADVANCED (DØGNBYGGER) -->
+        <!-- SUB-PANEL 3: ADVANCED -->
         <div class="js-pal-panel-advanced mp-bmr-section-rel" style="display: none; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem;">
           <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="met_24h_info" title="Information om Døgnbyggeren">i</button>
 
@@ -722,7 +872,7 @@
       </div>
     </div>
 
-    <!-- HERO RESULTAT GRID - SYMMETRISK & HORISONTALT FLUGTENDE -->
+    <!-- HERO RESULTAT GRID -->
     <div class="mp-bmr-hero-grid">
       <!-- CARD 1: BMR -->
       <div class="mp-bmr-hero-card">

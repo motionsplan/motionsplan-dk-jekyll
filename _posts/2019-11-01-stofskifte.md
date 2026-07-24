@@ -79,7 +79,7 @@ Forståelse af dit energibehov er essentielt, hvis du vil optimere din sundhed, 
 - **Kalorieunderskud**: Du forbrænder flere kalorier, end du indtager → vægttab.
 - **Kaloriebalance**: Du indtager og forbrænder det samme antal kalorier → stabil vægt.
 
-**Vil du hurtigt beregne dit daglige energiforbrug?** Gå direkte til vores [mest avancerede energibehovsberegner](/beregner/dagligt-stofskifte-og-forbraending/).
+**Vil du hurtigt beregne dit daglige energiforbrug?** Gå direkte til vores [mest avancerede energibehovsberegner](/ligevaegtsindtag-beregner/).
 
 ***
 
@@ -89,9 +89,8 @@ Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores on
 
 | Beregning | Beskrivelse |
 |-|-|
-| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner-hvilestofskifte-basalstofskifte/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
-| 🟢 **Dagligt energiforbrug (TDEE)**<br> → [Beregn TDEE her](/beregner/dagligt-energiforbrug-energibehov/) | Dit samlede energiforbrug inkl. fysisk aktivitet. |
-| 🟠 **Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Hvor mange kalorier du skal spise for at holde vægten stabil. |
+| 🔵 **BMR / hvilestofskifte**<br>→ [Beregn BMR her](/bmr-beregner/) | Hvor meget energi din krop bruger i total hvile – grundlaget for al energiberegning. |
+| 🟢 **Dagligt energiforbrug & Ligevægtsindtag**<br>→ [Beregn dit ligevægtsindtag](/ligevaegtsindtag-beregner/) | Dit samlede energiforbrug inkl. fysisk aktivitet. |
 
 💡 Du behøver ikke kende forskellen – start bare med den beregner, du har brug for. Du kan altid læse mere længere nede.
 {: .notice .notice--info }
@@ -102,7 +101,7 @@ Her kan du hurtigt beregne dit stofskifte og energiforbrug ved at bruge vores on
 
 Er du nysgerrig på, hvad de forskellige begreber betyder? Her får du en grundlæggende forklaring på de vigtigste elementer i stofskifte og energiforbrug:
 
-- [Hvad er hvilestofskifte og basalstofskifte?](/bmr-beregner-hvilestofskifte-basalstofskifte/)
+- [Hvad er hvilestofskifte og basalstofskifte?](/bmr-beregner/)
 - [Sådan beregnes dit daglige energibehov (TDEE)](/hvordan-beregne-dagligt-energibehov/)
 - [Hvad er dit ligevægtsindtag, og hvordan finder du det?](/ligevaegtsindtag-beregner/)
 
@@ -124,7 +123,7 @@ Faktorer, der påvirker BMR:
 - Højde og vægt: Større personer har en højere BMR.
 - Genetik: Arvelige faktorer kan have indflydelse på stofskiftet.
 
-🔗 [Beregn dit hvilestofskifte med vores BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/)
+🔗 [Beregn dit hvilestofskifte med vores BMR-beregner](/bmr-beregner/)
 
 ## 2. Dagligt energiforbrug – Sådan påvirker aktivitet dit energiforbrug
 
@@ -140,8 +139,6 @@ BMR ganges med en aktivitetsfaktor afhængigt af dit niveau:
 - 1.725 – Meget aktiv (hård motion 6-7 dage om ugen)
 - 1.9 – Ekstremt aktiv (hård træning dagligt, fysisk arbejde)
 
-🔗 [Beregn dit daglige energiforbrug i vores TEE-beregner](/beregner/dagligt-energiforbrug-energibehov/)
-
 **For en endnu mere præcis beregning**:
 
 Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andre faktorer:
@@ -150,7 +147,7 @@ Ud over BMR og fysisk aktivitet påvirkes dit stofskifte og forbrænding af andr
 - NEAT (Non-Exercise Activity Thermogenesis): Småbevægelser som at gå rundt, vippe med foden, rejse sig op osv.
 - Træning: Planlagt motion øger din forbrænding betydeligt.
 
-🔗 [Nøjagtig estimering af din dagelige forbrænding](/beregner/dagligt-stofskifte-og-forbraending/)
+🔗 [Nøjagtig estimering af din dagelige forbrænding](/ligevaegtsindtag-beregner/)
 
 ## 3. Ligevægtsindtag – Find dit balancepunkt
 

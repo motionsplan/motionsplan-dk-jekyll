@@ -98,7 +98,9 @@ Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres
 
 Da Index 23 er baseret på BMI, så ser formlen således ud:
 
-{% include motionsplan/math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
+$$
+\text{Kondital}_{\text{Index23}} = \frac{\text{VO}_2\text{max (ml/min)}}{23 \times \text{højde (m)}^2}
+$$
 
 Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale kroppen har, hvis man var [normalvægtig i forhold til BMI](/bmi/).
 

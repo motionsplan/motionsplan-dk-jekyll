@@ -39,7 +39,7 @@ Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [f
 
 ## Udførelse
 
-Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være over 95% af din _[heart rate reserve](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/)_ (HRR).
+Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være over 95% af din _[heart rate reserve](/pulszoner-beregner/)_ (HRR).
 
 *[HRR]: Heart Rate Reserve
 

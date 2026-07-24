@@ -55,7 +55,9 @@ Jeg foretrækker at bruge kilojoule, når jeg angiver energi i fødevarer.
 
 Det kan sættes ind i følgende formel:
 
-{% include motionsplan/math formula="Fedtenergiprocent = \frac{fedt_{100g} (gram) * 38 kJ}{energi_{samlet} (kJ)} * 100" %}
+$$
+\text{Fedtenergiprocent} = \frac{\text{fedt}_{100\text{g}} \times 38 \text{ kJ}}{\text{energi}_{\text{samlet}} \text{ (kJ)}} \times 100
+$$
 
 ## Eksempel på fedtenergiprocent med Mars
 

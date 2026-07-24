@@ -239,7 +239,7 @@ Jeg synes godt det kan være lidt vanskeligt at bruge hastighederne, når jeg l�
 
 Jeg bliver også sommetider for ivrig og kommer til at løbe hurtigere på de lidt løbetider, som har til formål at sætte løbetempoet for en træning med lavere intensitet.
 
-I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på baggrund af min [puls og pulszonerne](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
+I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på baggrund af min [puls og pulszonerne](/pulszoner-beregner/).
 
 ## Brug beregneren sammen med dit løbeprogram
 

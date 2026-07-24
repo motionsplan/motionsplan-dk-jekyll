@@ -47,7 +47,7 @@ Kroppen har alle mulige måder at holde temperaturen konstant på.
 
 {% include figure image_path="/assets/images/hyperphysics.phy-astr.gsu.edu/bodycool2-5338b20c.png" caption="Kilde: [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/coobod.html#c1) [📷](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/imgheat/bodycool2.png){: rel='nofollow noopener' }" %}
 
-Dette er naturligvis en forsimplet udgave af temperaturreguleringen. Selvom du er inaktiv, så skal du stadig af med en del varme, som hænger sammen med [dit hvilestofskifte](/bmr-beregner-hvilestofskifte-basalstofskifte/).
+Dette er naturligvis en forsimplet udgave af temperaturreguleringen. Selvom du er inaktiv, så skal du stadig af med en del varme, som hænger sammen med [dit hvilestofskifte](/bmr-beregner/).
 
 En voksen mand skal fx af med omkring 90 watt varme bare pga. basalstofskiftet.
 
@@ -81,7 +81,9 @@ Du kan udregne din omtrentlige temperaturregulering gennem udstråling i denne b
 
 Beregneren er baseret på Stefan Boltzmanns formel for, hvor meget varme, der forsvinder ved radiation (se mere på [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodrad.html)):
 
-{% include motionsplan/math formula="\frac{Q}{t} = e \times \sigma \times A \times (T_{hot}^4 - T_{cold}^4)" %}
+$$
+\frac{Q}{t} = e \times \sigma \times A \times (T_{\text{hot}}^4 - T_{\text{cold}}^4)
+$$
 
 A er kroppens areal, og e er _emmisionsevnen_ af kroppen. Hvis kroppen var en perfekt radiator, så ville e være 1. Kroppen er faktisk en ret god radiator, så vi går ud fra at emmisionsevnen er 0,97.
 
@@ -89,7 +91,7 @@ Temperaturerne skal være i Kelvin i formlen, men beregneren antager, at du indt
 
 ## Konduktion
 
-Konduktion er varmeoverførslen mellem to overflader. Et eksempel er når du sætter dig på en stol, så vil stolen være varmere, når du rejser dig igen (se mere på [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c1)).
+Konduktion er varmeoverførslen mellem two overflader. Et eksempel er når du sætter dig på en stol, så vil stolen være varmere, når du rejser dig igen (se mere på [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/bodcon.html#c1)).
 
 Du kan estimere, hvor meget køling der foregår af din krop i nedenstående beregner.
 
@@ -97,7 +99,9 @@ Du kan estimere, hvor meget køling der foregår af din krop i nedenstående ber
 
 Beregneren baserer sig på følgende udregninger.
 
-{% include motionsplan/math formula="\frac{Q}{t} = \frac{k \times A \times (T_{hot} - T_{cold})}{d}" %}
+$$
+\frac{Q}{t} = \frac{k \times A \times (T_{\text{hot}} - T_{\text{cold}})}{d}
+$$
 
 Hvor k er 'thermal conductivity' af den luft, der omgiver kroppen, som er en konstant. A er kroppens areal. T er temperaturen. d er tykkelsen på barrieren, som typisk kan sættes til 5 centimeter fra huden til den omgivende luft, inden temperaturen er skiftet. Endelig skal du huske at gange med 4.186 J/cal.
 

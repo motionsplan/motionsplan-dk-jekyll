@@ -47,6 +47,12 @@ Vælg den formel du helst vil bruge. Indtast derefter din alder, og få dit resu
 
 {% include calc/max-hr.html %}
 
+> ⚠️ **Husk usikkerheden på formler**
+> Da aldersbaserede formler har en usikkerhed på $\pm 10\text{--}15\text{ slag/min}$, giver de kun et gennemsnitligt estimat. 
+> 
+> * Vil du have helt præcise pulszoner? 👉 **[Læs vores guide til at teste din maxpuls selv](/max-puls-test/)**
+> * Vil du se, hvilken formel der passer bedst til din alder? 👉 **[Sammenlign alle maxpuls-formler her](/max-puls-formler/)**
+
 ## Hvordan finder beregneren min max-puls?
 
 Beregneren bruger en af de mange formler, der findes til at beregne maxpuls. 
@@ -78,7 +84,7 @@ At beregne din maksimale puls med en formel kan give et hurtigt estimat, men den
 - 🧮 [Max-puls formler](/max-puls-formler/) – Sammenligning af forskellige beregningsmetoder.  
 - ℹ️ [Overblik over max-puls](/test-max-puls/) – Alt, du behøver at vide om maksimal puls.
 
-Nu kan du [finde dine pulszoner ud fra maxpulsen](/pulszoner-max-puls/) eller [udregne kondital baseret på maxpuls](/kondital-fra-puls/). 🚀
+Nu kan du [finde dine pulszoner ud fra maxpulsen](/pulszoner-beregner/) eller [udregne kondital baseret på maxpuls](/kondital-fra-puls/). 🚀
 
 ## Ofte stillede spørgsmål
 

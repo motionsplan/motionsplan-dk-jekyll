@@ -1,6 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
-<div class="mp-calc-card" data-calculator="andersen-test" style="max-width: 700px; margin: 0 auto; position: relative;">
+<div class="mp-calc-card" data-calculator="andersen-test" data-ui-module="andersen-test-ui" style="max-width: 700px; margin: 0 auto; position: relative;">
 
   <!-- Header & Introduktion -->
   <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
@@ -20,7 +20,7 @@
   <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.25rem; align-items: flex-start;">
     
     <!-- Distance (meter) -->
-    <div class="mp-form-group" style="flex: 1.2; min-width: 130px;">
+    <div class="mp-form-group" style="flex: 1.1; min-width: 130px;">
       <label style="font-size: 0.8rem; font-weight: 700;">Distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(meter)</span></label>
       <input type="number" name="at_distance" class="mp-form-control js-at-input" min="300" max="2500" step="5" placeholder="1150" style="padding: 0.4rem; text-align: center;">
     </div>
@@ -41,16 +41,16 @@
     </div>
 
     <!-- Køn -->
-    <div class="mp-form-group" style="flex: 1; min-width: 130px;">
+    <div class="mp-form-group" style="flex: 1.1; min-width: 130px;">
       <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
       <div class="mp-toggle-group" style="height: 38px;">
         <label style="flex: 1; margin: 0; position: relative;">
           <input type="radio" name="at_gender" value="male" class="js-at-input" checked>
-          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Mand</div>
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Dreng</div>
         </label>
         <label style="flex: 1; margin: 0; position: relative;">
           <input type="radio" name="at_gender" value="female" class="js-at-input">
-          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Kvinde</div>
+          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Pige</div>
         </label>
       </div>
     </div>
@@ -108,7 +108,7 @@
         </div>
       </div>
 
-      <!-- Højre: 3 Sekundære bokse (Vurdering, Iltoptagelse & Formel-info) -->
+      <!-- Højre: 3 Sekundære bokse -->
       <div class="mp-results-boxes">
         
         <!-- Boks 1: Vurdering Badge + Knap -->

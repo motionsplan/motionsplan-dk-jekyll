@@ -1,119 +1,88 @@
 <table class="table">
-    <thead>
-        <tr>
-            <th>km/t</th>
-            <th>m/s</th>
-            <th>min/km</th>
-            <th>400 m</th>
-            <th>3 km</th>
-            <th>5 km</th>
-            <th>10 km</th>
-            <th>½ mara</th>
-            <th>Maraton</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% assign kmt = 8.0 | times: 1 %}
-        {% for i in (1..80) %}
-        <tr>
-        <td>{{ kmt }}</td>
+  <thead>
+    <tr>
+      <th>km/t</th>
+      <th>m/s</th>
+      <th>min/km</th>
+      <th>400 m</th>
+      <th>3 km</th>
+      <th>5 km</th>
+      <th>10 km</th>
+      <th>½ mara</th>
+      <th>Maraton</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in (0..80) %}
+      {% assign step = i | times: 0.25 %}
+      {% assign kmt = 8.0 | plus: step %}
+      
+      {% comment %} 1 km tid i sekunder {% endcomment %}
+      {% assign pace_sec = 3600 | divided_by: kmt %}
+      
+      <tr>
+        <td>{{ kmt | round: 2 }}</td>
+        <td>{{ kmt | divided_by: 3.6 | round: 2 }}</td>
+        
+        {% comment %} min/km {% endcomment %}
         <td>
-            {% assign ms = kmt | times: 1 | divided_by: 3.6 %}
-            {{ ms | round: 2 }}
+          {% assign total_sec = pace_sec | round %}
+          {% assign m = total_sec | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
+
+        {% comment %} 400 m {% endcomment %}
         <td>
-            {% assign min_km = 60 | divided_by: kmt %}
-            {% assign min_out = min_km | floor %}
-            {% assign sec_out = min_km | minus: min_out | times: 60 | round: 0 %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {{ min_out }}:{{ sec_out }}
+          {% assign total_sec = pace_sec | times: 0.4 | round %}
+          {% assign m = total_sec | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
+
+        {% comment %} 3 km {% endcomment %}
         <td>
-            {% assign min_dist = 400 | divided_by: ms | divided_by: 60 %}
-            {% assign min_out = min_dist | floor %}
-            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {{ min_out }}:{{ sec_out }}
+          {% assign total_sec = pace_sec | times: 3.0 | round %}
+          {% assign m = total_sec | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
+
+        {% comment %} 5 km {% endcomment %}
         <td>
-            {% assign min_dist = 3000 | divided_by: ms | divided_by: 60 %}
-            {% assign min_out = min_dist | floor %}
-            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {{ min_out }}:{{ sec_out }}
+          {% assign total_sec = pace_sec | times: 5.0 | round %}
+          {% assign m = total_sec | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
+
+        {% comment %} 10 km {% endcomment %}
         <td>
-            {% assign min_dist = 5000 | divided_by: ms | divided_by: 60 %}
-            {% assign min_out = min_dist | floor %}
-            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {{ min_out }}:{{ sec_out }}
+          {% assign total_sec = pace_sec | times: 10.0 | round %}
+          {% assign h = total_sec | divided_by: 3600 %}
+          {% assign m = total_sec | modulo: 3600 | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ h }}:{% if m < 10 %}0{% endif %}{{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
+
+        {% comment %} ½ Maraton (21.0975 km) {% endcomment %}
         <td>
-            {% assign min_dist = 10000 | divided_by: ms | divided_by: 60 %}
-            {% assign min_out = min_dist | floor %}
-            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
-            {% assign hours_out = min_out | divided_by: 60 | round: 0 %}
-            {% assign minus_min = hours_out | times: 60 %}
-            {% assign min_out = min_out | minus: minus_min %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {% if min_out < 10 %}
-              {% assign min_out = min_out | downcase %}
-              {% assign min_out = '0' | append: min_out %}
-            {% endif %}
-            {{ hours_out }}:{{ min_out }}:{{ sec_out }}
+          {% assign total_sec = pace_sec | times: 21.0975 | round %}
+          {% assign h = total_sec | divided_by: 3600 %}
+          {% assign m = total_sec | modulo: 3600 | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ h }}:{% if m < 10 %}0{% endif %}{{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
+
+        {% comment %} Maraton (42.195 km) {% endcomment %}
         <td>
-            {% assign min_dist = 21097.5 | divided_by: ms | divided_by: 60 %}
-            {% assign min_out = min_dist | floor %}
-            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
-            {% assign hours_out = min_out | divided_by: 60 | round: 0 %}
-            {% assign minus_min = hours_out | times: 60 %}
-            {% assign min_out = min_out | minus: minus_min %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {% if min_out < 10 %}
-              {% assign min_out = min_out | downcase %}
-              {% assign min_out = '0' | append: min_out %}
-            {% endif %}
-            {{ hours_out }}:{{ min_out }}:{{ sec_out }}
+          {% assign total_sec = pace_sec | times: 42.195 | round %}
+          {% assign h = total_sec | divided_by: 3600 %}
+          {% assign m = total_sec | modulo: 3600 | divided_by: 60 %}
+          {% assign s = total_sec | modulo: 60 %}
+          {{ h }}:{% if m < 10 %}0{% endif %}{{ m }}:{% if s < 10 %}0{% endif %}{{ s }}
         </td>
-        <td>
-            {% assign min_dist = 42195 | divided_by: ms | divided_by: 60 %}
-            {% assign min_out = min_dist | floor %}
-            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
-            {% assign hours_out = min_out | divided_by: 60 | round: 0 %}
-            {% assign minus_min = hours_out | times: 60 %}
-            {% assign min_out = min_out | minus: minus_min %}
-            {% if sec_out < 10 %}
-              {% assign sec_out = sec_out | downcase %}
-              {% assign sec_out = '0' | append: sec_out %}
-            {% endif %}
-            {% if min_out < 10 %}
-              {% assign min_out = min_out | downcase %}
-              {% assign min_out = '0' | append: min_out %}
-            {% endif %}
-            {{ hours_out }}:{{ min_out }}:{{ sec_out }}
-        </td>
-        {% assign kmt = kmt | plus: 0.25 %}
-        </tr>
-        {% endfor %}
-    </tbody>
+      </tr>
+    {% endfor %}
+  </tbody>
 </table>

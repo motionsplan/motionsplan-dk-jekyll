@@ -62,11 +62,15 @@ Den Danske Steptest bruger kun trinhøjden, tiden og kropsvægten som input for 
 
 Som baggrund for Den Danske Steptest bruger [Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest) følgende teoretiske sammenhæng:
 
-{% include motionsplan/math formula="arbejde_{total} = \frac{kropsvaegt * tyngdekraft * stephoejde * stepfrekvens}{nyttevirkning}" %}
+$$
+\text{arbejde}_{\text{total}} = \frac{\text{kropsvægt} \times \text{tyngdeacceleration} \times \text{stephøjde} \times \text{stepfrekvens}}{\text{nyttevirkning}}
+$$
 
 Tyngdekraften er ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) 9,816 m/s<sup>2</sup> i Danmark. Det totale arbejde er i sidste ende præstationsbegrænset ved at både koordinationen og kredsløbet kan være den begrænsende faktor.
 
-{% include motionsplan/math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
+$$
+\text{VO}_2\text{max} = \frac{\frac{\text{arbejde}_{\text{total}}}{\text{O}_2\text{-energi}}}{\text{intensitet}_{\text{slut}}} + \text{VO}_2\text{hvile}
+$$
 
 Hvilestofskiftet er cirka [0,25 liter O₂ pr. minut](https://web.archive.org/web/20230307005511/http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf){: rel="nofollow" }. Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient](/respiratoriske-metaboliske-udvekslingskvotient/).
 
@@ -76,7 +80,9 @@ Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, s�
 
 Når man kender den estimerede VO₂max, så kan man udregne konditallet.
 
-{% include motionsplan/math formula="kondital = \frac{VO_2max}{kropsvaegt}" %}
+$$
+\text{kondital} = \frac{\text{VO}_2\text{max}}{\text{kropsvægt}}
+$$
 
 ## Hvor pålidelig er steptesten?
 

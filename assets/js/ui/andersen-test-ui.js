@@ -3,6 +3,8 @@ import { calculateAndersenTest, getRecommendedAndersenFormula } from '../core/an
 import { evaluateFitnessLevel, getFitnessThresholds } from '../core/vo2max-norms.js';
 
 export function initAndersenTest(container) {
+  if (!container) return;
+
   const inputs = container.querySelectorAll('.js-at-input');
   const formulaSelect = container.querySelector('.js-at-formula');
   const weightInput = container.querySelector('[name="at_weight"]');
@@ -33,34 +35,42 @@ export function initAndersenTest(container) {
 
   // --- STATE MANAGEMENT ---
   function saveState() {
-    const state = {
-      formula: formulaSelect ? formulaSelect.value : 'auto',
-      isManuallySelected: isManuallySelected,
-      distance: container.querySelector('[name="at_distance"]').value,
-      age: container.querySelector('[name="at_age"]').value,
-      weight: weightInput ? weightInput.value : '',
-      gender: container.querySelector('input[name="at_gender"]:checked')?.value || 'male'
-    };
-    localStorage.setItem('mp_andersen_state', JSON.stringify(state));
+    try {
+      const state = {
+        formula: formulaSelect ? formulaSelect.value : 'auto',
+        isManuallySelected: isManuallySelected,
+        distance: container.querySelector('[name="at_distance"]')?.value || '',
+        age: container.querySelector('[name="at_age"]')?.value || '',
+        weight: weightInput ? weightInput.value : '',
+        gender: container.querySelector('input[name="at_gender"]:checked')?.value || 'male'
+      };
+      localStorage.setItem('mp_andersen_state', JSON.stringify(state));
+    } catch (e) {
+      // Ignorer hvis storage er blokeret
+    }
   }
 
   function loadState() {
-    const saved = localStorage.getItem('mp_andersen_state');
-    if (saved) {
-      try {
+    try {
+      const saved = localStorage.getItem('mp_andersen_state');
+      if (saved) {
         const state = JSON.parse(saved);
         if (state.formula && formulaSelect) formulaSelect.value = state.formula;
         if (state.isManuallySelected !== undefined) isManuallySelected = state.isManuallySelected;
-        if (state.distance) container.querySelector('[name="at_distance"]').value = state.distance;
-        if (state.age) container.querySelector('[name="at_age"]').value = state.age;
+        if (state.distance && container.querySelector('[name="at_distance"]')) {
+          container.querySelector('[name="at_distance"]').value = state.distance;
+        }
+        if (state.age && container.querySelector('[name="at_age"]')) {
+          container.querySelector('[name="at_age"]').value = state.age;
+        }
         if (state.weight && weightInput) weightInput.value = state.weight;
         if (state.gender) {
           const radio = container.querySelector(`input[name="at_gender"][value="${state.gender}"]`);
           if (radio) radio.checked = true;
         }
-      } catch (e) {
-        console.error("Kunne ikke indlæse gemt data.");
       }
+    } catch (e) {
+      console.error("Kunne ikke indlæse gemt data.");
     }
   }
 
@@ -94,7 +104,8 @@ export function initAndersenTest(container) {
 
   if (tableBtn && popup && popupClose) {
     tableBtn.addEventListener('click', () => {
-      const age = parseFloat(container.querySelector('[name="at_age"]').value);
+      const ageVal = container.querySelector('[name="at_age"]')?.value;
+      const age = parseFloat(ageVal);
       if (age > 0) {
         popup.style.display = 'flex';
       } else {
@@ -107,8 +118,11 @@ export function initAndersenTest(container) {
   function calculate() {
     const genderEl = container.querySelector('input[name="at_gender"]:checked');
     const gender = genderEl ? genderEl.value : 'male';
-    const distance = container.querySelector('[name="at_distance"]').value;
-    const age = parseInt(container.querySelector('[name="at_age"]').value, 10);
+    const distInput = container.querySelector('[name="at_distance"]');
+    const ageInput = container.querySelector('[name="at_age"]');
+
+    const distance = distInput ? distInput.value : '';
+    const age = ageInput ? parseInt(ageInput.value, 10) : 0;
     const weight = parseFloat(weightInput ? weightInput.value : '');
 
     updateDropdownTrophy(weight);
@@ -121,15 +135,14 @@ export function initAndersenTest(container) {
     const res = calculateAndersenTest(gender, distance, weight, chosenFormula);
 
     if (res && res.isValid) {
-      // Nulstil evt. fejl på vægt-feltet
       if (weightHelper) {
         weightHelper.textContent = weight > 0 ? '✓ Vægt angivet' : 'Valgfri (kræves kun v. Aadland)';
         weightHelper.style.color = weight > 0 ? '#16a34a' : '#94a3b8';
       }
 
-      resFitness.textContent = res.formattedFitnessLevel;
+      if (resFitness) resFitness.textContent = res.formattedFitnessLevel;
       if (resSdText) resSdText.textContent = `± ${res.sd} ${res.sdUnit}`;
-      resVo2Max.textContent = res.formattedVO2Max;
+      if (resVo2Max) resVo2Max.textContent = res.formattedVO2Max;
 
       if (infoTitle) infoTitle.textContent = res.formulaName;
       if (infoDesc) {
@@ -140,14 +153,16 @@ export function initAndersenTest(container) {
 
       // Evaluation & Slider
       const normGender = (gender === 'male' || gender === 'mand') ? 'male' : 'female';
-      const userAge = age > 0 ? age : 12; // Standard referencealder hvis alder mangler
+      const userAge = age > 0 ? age : 12;
       const evaluation = evaluateFitnessLevel(res.fitnessLevel, userAge, normGender);
 
       if (evaluation && age > 0) {
-        resEvalBadge.textContent = evaluation.label;
-        resEvalBadge.style.backgroundColor = evaluation.color;
-        resEvalBadge.style.color = '#ffffff';
-      } else {
+        if (resEvalBadge) {
+          resEvalBadge.textContent = evaluation.label;
+          resEvalBadge.style.backgroundColor = evaluation.color;
+          resEvalBadge.style.color = '#ffffff';
+        }
+      } else if (resEvalBadge) {
         resEvalBadge.textContent = 'Mangler alder';
         resEvalBadge.style.backgroundColor = '#e2e8f0';
         resEvalBadge.style.color = '#64748b';
@@ -178,9 +193,11 @@ export function initAndersenTest(container) {
           marker.style.left = `${percent}%`;
           marker.style.display = 'block';
         }
+      } else if (marker) {
+        marker.style.display = 'none';
       }
 
-      // Popup tabel
+      // Popup tabel (Rettet til cssText)
       if (thresholds && tableBody && age > 0) {
         const tableData = [
           { name: 'Meget højt', range: `> ${thresholds[3]}` },
@@ -205,15 +222,14 @@ export function initAndersenTest(container) {
           }
 
           const tr = document.createElement('tr');
-          tr.style = rowStyle;
+          tr.style.cssText = rowStyle;
           tr.innerHTML = `<td style="${nameStyle}">${row.name}</td><td style="${valStyle}">${row.range} ${badgeHtml}</td>`;
           tableBody.appendChild(tr);
         });
       }
     } else {
       resetResults();
-      
-      // Håndtering af manglende kropsvægt ved Aadland
+
       if (res && res.missingWeight) {
         if (weightHelper) {
           weightHelper.textContent = '⚠️ Påkrævet til Aadland (2014)';
@@ -281,3 +297,8 @@ export function initAndersenTest(container) {
   loadState();
   calculate();
 }
+
+// EKSPORTERES TIL DIVERSE LOADER-MØNSTRE
+export const initCalculator = initAndersenTest;
+export const init = initAndersenTest;
+export default initAndersenTest;

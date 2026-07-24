@@ -83,7 +83,7 @@ En kvinde på 30 år, der vejer 60 kg og er 165 cm høj:
     BMR = 600 + 1031.25 - 150 - 161
     BMR = 1320 kcal/dag
 
-Du kan også bruge vores [BMR-beregner](/bmr-beregner-hvilestofskifte-basalstofskifte/) for at få en hurtigere beregning. Eller du kan se nogle af alle de andre [formler til hvilestofskiftet](/hvilestofskiftet-formler/).
+Du kan også bruge vores [BMR-beregner](/bmr-beregner/) for at få en hurtigere beregning. Eller du kan se nogle af alle de andre [formler til hvilestofskiftet](/hvilestofskiftet-formler/).
 
 ***
 
@@ -169,7 +169,7 @@ Når du har beregnet dit energibehov, er det tid til at eksperimentere og juster
 
 ## Brug vores beregnere til hurtigere resultater ⚡
 
-Er du ikke til at regne selv? Brug vores [TDEE-beregner](/beregner/dagligt-energiforbrug-energibehov/) for at få en præcis beregning af dit daglige energiforbrug. Du kan også beregne dit **ligevægtsindtag** med vores [ligevægtsindtag-beregner](/ligevaegtsindtag-beregner/).
+Er du ikke til at regne selv? Brug vores [TDEE-beregner](/ligevaegtsindtag-beregner/) for at få en præcis beregning af dit daglige energiforbrug.
 
 ***
 

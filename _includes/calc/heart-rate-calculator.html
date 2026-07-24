@@ -1,4 +1,5 @@
-{% assign calc_title = include.title | default: "Pulszone- & Pulsreserve Beregner" %}
+{% assign calc_title = include.title | default: "Beregn dine pulszoner" %}
+{% assign calc_description = include.description | default: "Beregn dine pulszoner fra enten maxpuls, pulsreserve eller pulsen ved din laktattærskel med anerkendte formler." %}
 {% assign data_id = include.calc_id | default: "heart-rate-calculator" %}
 
 <style>
@@ -538,8 +539,8 @@
             <span class="mp-hr-check-icon">✓</span>
           </div>
           <div class="mp-hr-base-body">
-            <span class="mp-hr-base-title">Kun<br>Maxpuls</span>
-            <span class="mp-hr-base-sub">Kan udregnes</span>
+            <span class="mp-hr-base-title">Procent af Maxpuls</span>
+            <span class="mp-hr-base-sub">Kan udregnes eller testes</span>
           </div>
         </button>
 
@@ -550,8 +551,8 @@
             <span class="mp-hr-check-icon">✓</span>
           </div>
           <div class="mp-hr-base-body">
-            <span class="mp-hr-base-title">Maxpuls + Hvilepuls</span>
-            <span class="mp-hr-base-sub">To målinger</span>
+            <span class="mp-hr-base-title">Pulsreserven (Karvonen)</span>
+            <span class="mp-hr-base-sub">Maxpuls og hvilepuls</span>
           </div>
         </button>
 
@@ -562,8 +563,8 @@
             <span class="mp-hr-check-icon">✓</span>
           </div>
           <div class="mp-hr-base-body">
-            <span class="mp-hr-base-title">Tærskelpuls (LT2)</span>
-            <span class="mp-hr-base-sub">Kræver test</span>
+            <span class="mp-hr-base-title">Laktattærskel (LTHR)</span>
+            <span class="mp-hr-base-sub">LT2 (& LT1) - Kræver test</span>
           </div>
         </button>
       </div>

@@ -80,7 +80,7 @@ Joel Jamieson foreslår en [High Performance Recovery Training](https://www.8wee
 
 ### 2. Træning i restitutionszonen i 15-20 minutter
 
-Det er en god ide at få blodet til at flyde gennem kroppen ved at bevæge dig, hvor du får pulsen op. Men pulsen skal ikke alt for højt op. Du skal arbejde i restitutionszonen. Du kan udregne [dine pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/) baseret på din [maksimale puls](/test-max-puls/). Typisk siger man at restitutionszonen er op til omkring 60% af den maksimale puls. En tommelfingerregel kan være, at pulsen skal ligge fra 120 - 150, men Joel Jamieson mener at hans data viser, at pulsen godt kan ligge endnu højere.
+Det er en god ide at få blodet til at flyde gennem kroppen ved at bevæge dig, hvor du får pulsen op. Men pulsen skal ikke alt for højt op. Du skal arbejde i restitutionszonen. Du kan udregne [dine pulszoner](/pulszoner-beregner/) baseret på din [maksimale puls](/test-max-puls/). Typisk siger man at restitutionszonen er op til omkring 60% af den maksimale puls. En tommelfingerregel kan være, at pulsen skal ligge fra 120 - 150, men Joel Jamieson mener at hans data viser, at pulsen godt kan ligge endnu højere.
 
 Du kan bruge alle mulige aktiviteter til at holde dig i den rigtige træningszone. Det kan være en mobilitetscirkel, prowler med lav intensitet, cykling eller endda løb. Min erfaring er, at det kan være en fordel at bruge low-impact bevægelser.
 

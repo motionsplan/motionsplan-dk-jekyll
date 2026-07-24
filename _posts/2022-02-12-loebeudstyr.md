@@ -129,7 +129,7 @@ Huen skal ikke være for varm, for når du begynder at få varmen på løbeturen
 
 ### Løbeur eller pulsur
 
-Du har ikke brug for et løbeur, men jeg er virkelig glad for mit. Ud over løbesko og tights er det nok det jeg nødigst vil undvære. Jeg bruger løbeuret til at holde øje med min træning og automatisk registrere den. Desuden bruger jeg uret til at holde øje med, om jeg træner i de rigtige [træningszoner](/traeningszoner/) og [pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), når jeg laver [pulstræning](/pulstraening/).
+Du har ikke brug for et løbeur, men jeg er virkelig glad for mit. Ud over løbesko og tights er det nok det jeg nødigst vil undvære. Jeg bruger løbeuret til at holde øje med min træning og automatisk registrere den. Desuden bruger jeg uret til at holde øje med, om jeg træner i de rigtige [træningszoner](/traeningszoner/) og [pulszoner](/pulszoner-beregner/), når jeg laver [pulstræning](/pulstraening/).
 
 Når jeg skal [løbe intervalløb](/intervallob-intervaltraening/), så programmerer jeg min intervaller på uret, så jeg ikke skal tænke så meget over at tage tid undervejs.
 

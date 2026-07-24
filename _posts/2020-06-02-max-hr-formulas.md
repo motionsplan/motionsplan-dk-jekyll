@@ -40,6 +40,9 @@ Vi vurderer de forskellige formlers præcision, så du kan vælge den bedste max
 
 Hvis du ikke er interesseret i teorien, så kan du gå direkte til vores [interaktive beregner af maxpuls](/max-puls-beregner/).
 
+> 🛠️ **Vil du hellere bare have beregnet dit tal med det samme?**
+> Du behøver ikke regne efter i hånden. Du kan indtaste din alder og vælge mellem de mest anerkendte formler direkte i vores **[interaktive maxpuls-beregner](/max-puls-beregner/)**.
+
 {% include figure image_path="https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" caption=page.title alt="maxpuls og maksimale puls" %}
 
 ## Hvad er max-pulsen?
@@ -190,11 +193,13 @@ Derfor er det bedre at teste maxpulsen direkte. Det kan du enten gøre selv elle
 
 Resultaterne fra en udregning kan være med til at identificere, hvis man har talt forkert i pulsmålingerne, eller at pulsbæltet og pulsuret har målt et uforklarligt _spike_ i pulsen.
 
+> 🏃 **Tag næste skridt:** Da alle aldersbestemte formler har en høj standardafvigelse, anbefaler vi altid at udføre en **[fysisk maxpuls-test](/max-puls-test/)**, hvis du planlægger din træning efter pulszoner[cite: 16, 17].
+
 ## Hvad kan jeg bruge max-pulsen til?
 
 Hvis du vil planlægge pulstræning, så skal du kende din max-puls. Max-pulsen er udgangspunktet for at udregne dine pulszoner. Du bør måle den med en maxtest, hvis du vil have et pålideligt tal, da ingen kendte formler har en acceptabel standardafvigelse.
 
-Jeg har skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Du kan også bruge din max-puls sammen med din [hvilepuls](/hvilepuls/) til at [estimere dit kondital ud fra puls](/kondital-fra-puls/) med vores enkle beregner.
+Jeg har skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/pulszoner-beregner/). Du kan også bruge din max-puls sammen med din [hvilepuls](/hvilepuls/) til at [estimere dit kondital ud fra puls](/kondital-fra-puls/) med vores enkle beregner.
 
 ## Konklusion
 

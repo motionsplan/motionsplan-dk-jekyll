@@ -4,7 +4,8 @@ seo_title: 'RM-beregner: Udregn 1RM i bænkpres, squat og dødløft'
 permalink: /rm-beregner/
 classes: wide
 redirect_from:
-- /artikel/brug-tests-og-faa-fremgang/
+  - /artikel/brug-tests-og-faa-fremgang/
+  - /1rm-one-rep-max/
 description: Vil du gerne vide, hvor stærk du er? Brug vores RM-beregner og udregn dit 1RM max - eller one repetition maximum
   - i fx bænkpres, squat og dødløft.
 excerpt: Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Beregn din
@@ -58,17 +59,20 @@ faq:
     beregninger.
 - question: Hvad betyder 1RM, RM og One Repetition Maximum?
   answer: '**One Repetition Maximum (1RM)** er den maksimale vægt, du kan løfte én gang i en given øvelse. RM (Repetition
-    Maximum) angiver den maksimale vægt, du kan løfte et bestemt antal gange, fx 5RM for den vægt, du maksimalt kan løfte
-    fem gange.'
+    Maximum) angiver den maksimale vægt, du kan løfte et bestemt antal gange, fx 5RM for den vægt, du maksimalt kan løfte fem gange.'
+- question: Hvilke faktorer påvirker min 1RM max?
+  answer: Flere faktorer påvirker din 1RM fra dag til dag, herunder løfteteknik, dagsform, træthed, søvn, ernæring og nervesystemets tilpasning. Derfor kan din præstation svinge let.
 keywords:
 - rm-beregner
 ---
 
 Med denne RM-beregner kan du hurtigt estimere din 1-10RM ud fra et løft, du har lavet – uden at skulle teste din maksimale styrke. Indtast vægt og gentagelser, så klarer vi resten.
 
-Din 1RM (one rep max) er den maksimale vægt i styrketræning, du netop kan løfte en gang tilsvarende 100% af dit max. [Mere om one rep max](/1rm-one-rep-max/){: .read-more-link }. Din 5RM er den vægt du netop kan løfte 5 gange.
+Din 1RM (one rep max) er den maksimale vægt i styrketræning, du netop kan løfte en gang tilsvarende 100% af dit max. Din 5RM er den vægt du netop kan løfte 5 gange.
 
-Hvis du gerne vil kende din styrke uden at skulle lave [1RM-test](/rm-maxtest/), så kan en RM-beregner være nyttig. I vores RM-beregner kan du indtaste en vægt du har løftet et antal gange, og så vil beregneren hurtigt estimere din 1-10RM.
+Hvis du gerne vil kende din styrke uden at skulle lave [1RM-test](/rm-maxtest/), så kan en RM-beregner være nyttig. [Lær hvordan du laver en fysisk maxtest](/rm-maxtest/){: .read-more-link }
+
+I vores RM-beregner kan du indtaste en vægt du har løftet et antal gange, og så vil beregneren hurtigt estimere din 1-10RM.
 
 ## RM-beregner til 1RM max
 {: id="calculator" }
@@ -78,9 +82,6 @@ Indtast hvor mange kg du kan løfte og antallet af gentagelser og vælg en forme
 {% include calculator/calculate-1rm.html %}
 
 {% include calc/1rm.html %}
-
-Hvis du sætter antallet af reps til 1 i beregneren, så vil du lægge mærke til, at formlerne overestimerer. Sætter du din 1RM til fx 50 kg, så vil nogle af formlerne udregne din 1RM til så højt som 54,4 kg.
-{: .notice--info }
 
 ## Hvad er en RM-beregner?
 
@@ -191,6 +192,16 @@ For at få fremgang skal man naturligvis træne, men der skal også være progre
 Selvom en RM-udregner aldrig kan give dig det helt præcise tal, så kan du få et fornuftigt estimat, når du skal udregne træningsvægte i andre rep ranges.
 
 Jeg bruger ofte selv [RPE-tabeller baseret på Rate of Perceived Exertion](/rpe/) til at estimere mine træningsvægte.
+
+---
+
+## 🔍 Dyk dybere ned i 1RM og Styrketræning
+
+Når du har beregnet dit 1RM max, kan du udforske fysiologien, matematikken og den praktiske anvendelse bag de forskellige metoder:
+
+* 🧮 **[Alle formler til 1RM-beregning](/1rm-formler/):** Se matematikken bag Brzycki, Epley, Reynolds m.fl. og sammenlign formlernes præcision.
+* 🏋️‍♂️ **[Guide til en fysisk 1RM-maxtest](/rm-maxtest/):** Lær hvordan du opvarmer rigtigt, sikrer dig med spottere og gennemfører en maxtest uden skader. Sammenlign de 4 forskellige testmetoder og lær, hvordan du gennemfører en fysisk maxtest sikkert.
+* 📊 **[Styr dit program med RPE & RIR](/rpe/):** Lær hvordan du bruger Borg/Tuchscherer-skalaen til at styre din vægt på stangen ud fra dagsform.
 
 ## Ofte stillede spørgsmål
 

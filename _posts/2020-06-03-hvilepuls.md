@@ -225,7 +225,7 @@ Ud over at være en indikator for dit konditionsniveau kan hvilepulsen bruges ti
 
 - **Tracke din sundhed over tid** – en stabil eller faldende hvilepuls er et godt tegn. En pludselig stigning kan signalere sygdom, stress eller overtræning
 - **Estimere dit kondital** – sammen med din [maxpuls](/test-max-puls/) kan du bruge hvilepulsen til at beregne et estimat på dit [kondital via vores beregner](/kondital-fra-puls/). Jo større forskel mellem max- og hvilepuls, desto bedre form
-- **Udregne træningszoner** – kender du både maxpuls og hvilepuls, kan du beregne din pulsreserve og bruge den til at [fastsætte dine pulszoner med Karvonen-metoden](/pulszoner-pulsreserve-karvonen/)
+- **Udregne træningszoner** – kender du både maxpuls og hvilepuls, kan du beregne din pulsreserve og bruge den til at [fastsætte dine pulszoner med Karvonen-metoden](/pulszoner-beregner/)
 
 ## Konklusion
 

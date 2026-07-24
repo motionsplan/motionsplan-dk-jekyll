@@ -69,9 +69,9 @@ blog:
         url: /rm-beregner/
   - title: "Populære beregnere"
     children:
-      - title: "BMR og hvilestofskifte beregner"
-        url: /bmr-beregner-hvilestofskifte-basalstofskifte/
-      - title: "Ligevægtsindtag beregner"
+      - title: "Hvilestofskifte (BMR)"
+        url: /bmr-beregner/
+      - title: "Ligevægtsindtag og energiforbrug"
         url: /ligevaegtsindtag-beregner/
       - title: "BMI beregner"
         url: /bmi-beregner/

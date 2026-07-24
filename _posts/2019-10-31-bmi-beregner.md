@@ -78,13 +78,17 @@ For at få dit BMI tal, så skal du lave en BMI udregning. Du kan selv beregne B
 
 Beregn dit BMI med denne formel:
 
-{% include motionsplan/math formula="BMI = \frac{\text{weight (kg)}}{\text{height (m)}^2}" %}
+$$
+\text{BMI} = \frac{\text{vægt (kg)}}{\text{højde (m)}^2}
+$$
 
 Et eksempel:
 
 Lad os bruge 1,67 m, som er [danske kvinders gennemsnitshøjde](/hvad-er-gennemsnitshoejden-i-danmark/) og en vægt på 65 kg.
 
-{% include motionsplan/math formula="BMI = \frac{\text{65 (kg)}}{\text{1,67 (m)}^2} = 23,3" %}
+$$
+\text{BMI} = \frac{65 \text{ kg}}{(1{,}67 \text{ m})^2} = 23{,}3
+$$
 
 Så bliver BMI-resultatet altså 23,3.
 

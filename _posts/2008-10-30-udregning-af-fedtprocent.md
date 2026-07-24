@@ -57,9 +57,7 @@ faq:
     godt at holde sig inden for den anbefalede fedtprocent. Hvis du allerede har en meget lav fedtprocent, så kan det gå ud
     over din sundhed, hvis du går efter en lavere fedtprocent.
 - question: Kan man have for høj fedtprocent?
-  answer: Du kan have for høj fedtprocent, hvis du er overvægtig og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet](/taljemaal/)
-    eller [hofte-talje-forholdet](/talje-hofte-ratio/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan
-    være farligt, hvis fedtet er centreret omkring de indre organer.
+  answer: Du kan have for høj fedtprocent, hvis du er overvægtig, og overvægten skyldes mængden af fedt. Du kan fx bruge [taljemålet og talje-hofte-forholdet](/taljemaal/) til at sige noget om, hvordan fedtet er fordelt på din krop. Det kan være farligt, hvis fedtet er centreret omkring de indre organer.
 ---
 
 Med vores fedtprocent-beregner kan du få et estimat baseret på din vægt, højde, køn og alder.
@@ -155,11 +153,15 @@ Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er d
 
 #### Formel for fedtprocent for mænd
 
-{% include motionsplan/math formula="PBF = \frac{0.988 \times BMI + 0.242 \times weight (kg) + 0.094 \times age - 30.18}{weight (kg)}" %}
+$$
+\text{PBF} = \frac{0{,}988 \times \text{BMI} + 0{,}242 \times \text{vægt (kg)} + 0{,}094 \times \text{alder} - 30{,}18}{\text{vægt (kg)}}
+$$
 
 #### Formel for fedtprocent for kvinder
 
-{% include motionsplan/math formula="PBF = \frac{0.988 \times BMI + 0.344 \times weight (kg) + 0.094 \times age - 30.18}{height (m)^2}" %}
+$$
+\text{PBF} = \frac{0{,}988 \times \text{BMI} + 0{,}344 \times \text{vægt (kg)} + 0{,}094 \times \text{alder} - 30{,}18}{\text{højde (m)}^2}
+$$
 
 </details>
 

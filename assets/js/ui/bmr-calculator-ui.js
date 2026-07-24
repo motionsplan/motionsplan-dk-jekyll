@@ -2,14 +2,63 @@
 import { calculateBMR } from '../core/bmr.js';
 import { PAL_CALCULATOR_CORE } from '../core/pal-calculator.js';
 
+// DEFINITION AF BMR FORMLER TIL FLOTTE KORT
+const BMR_FORMULA_DEFINITIONS = {
+  recommended_formula: {
+    name: '⭐ Anbefalet formel (Automatisk)',
+    desc: 'Vælger automatisk den mest fysiologisk præcise formel ud fra din profil (Katch-McArdle/Cunningham v. fedtprocent, ellers NNR 2012 / Mifflin).'
+  },
+  nordic_nutrition_2012: {
+    name: 'Nordic Nutrition Recommendations (2012)',
+    desc: 'Det officielle nordiske referencegrundlag baseret på nyere skandinaviske befolkningsundersøgelser.'
+  },
+  mifflin: {
+    name: 'Mifflin et al. (1990)',
+    desc: 'Klinisk guldstandard for moderne voksne. Høj præcision ved både normalvægt og overvægt.'
+  },
+  henry: {
+    name: 'Henry (2005) / Oxford',
+    desc: 'Opdateret europæisk standard baseret på BMR-målinger uden tropiske skævheder.'
+  },
+  benedict_harris: {
+    name: 'Benedict-Harris (1918 / 1984)',
+    desc: 'Klassisk historisk formel. Meget udbredt, men har tendens til at overestimere stofskiftet en smule.'
+  },
+  schofield: {
+    name: 'Schofield (1985)',
+    desc: 'Tidligere WHO-standard formel baseret på store internationale befolkningsgrupper.'
+  },
+  cunningham: {
+    name: 'Cunningham (1991) – FFM/LBM',
+    requiresFat: true,
+    desc: 'Beregner hvilestofskiftet direkte ud fra din magre kropsmasse (FFM). Velegnet til trænede og atleter.'
+  },
+  katch_mcardle: {
+    name: 'Katch-McArdle – FFM/LBM',
+    requiresFat: true,
+    desc: 'Populær fysiologisk formel baseret på fedtfri masse. Lige præcis til både mænd og kvinder.'
+  },
+  nordic_nutrition_ffm: {
+    name: 'Nordic Nutrition Recommendations (FFM)',
+    requiresFat: true,
+    desc: 'Nordisk anbefaling baseret på målt fedtfri kropsmasse.'
+  }
+};
+
 export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
   if (!container) return;
 
-  const STORAGE_KEY = `mp_bmr_calc_state_v16_${calcId}`;
+  // UNIK GEMME-NØGLE PR. UNDERSIDE (URL PATH)
+  const pagePath = window.location.pathname.replace(/[^a-zA-Z0-9_-]/g, '_');
+  const STORAGE_KEY = `mp_bmr_calc_state_v20_${calcId}_${pagePath}`;
   const MET_DATA_URL = '/assets/data/met.json';
 
+  const defaultPalMode = container.getAttribute('data-default-pal-mode') || 'simple';
+
   let currentGender = 'man';
-  let currentPalMode = 'simple'; // 'none', 'simple', 'normal', 'advanced'
+  let currentPalMode = defaultPalMode;
+  let activeFormulaKey = 'recommended_formula';
+  let isFormulaOverride = false;
   let metDatabase = [];
   let isMetLoaded = false;
   let isMetLoading = false;
@@ -21,11 +70,20 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
   const weightInput = container.querySelector('[data-key="weight"]');
   const bodyFatInput = container.querySelector('.js-bmr-fat-input');
   const bodyFatOverlay = container.querySelector('.js-bmr-fat-overlay');
-  const formulaSelect = container.querySelector('.js-bmr-formula-select');
-  const ffmOptgroup = container.querySelector('.js-bmr-ffm-optgroup');
 
-  // UI Elements - PAL Mode
+  // UI Elements - Formel Bar & Picker
+  const formulaBar = container.querySelector('.js-bmr-formula-bar');
+  const manualWrapper = container.querySelector('.js-bmr-manual-dropdown-wrapper');
+  const pickerContainer = container.querySelector('.js-bmr-picker-container');
+
+  // UI Elements - PAL Sektion & Opt-in
+  const palSectionWrapper = container.querySelector('.js-pal-section-wrapper');
+  const palToggleWrapper = container.querySelector('.js-pal-toggle-wrapper');
+  const palEnableBtn = container.querySelector('.js-pal-enable-btn');
+  const palDisableBtn = container.querySelector('.js-pal-disable-btn');
   const palModeBtns = container.querySelectorAll('.js-bmr-mode-btn');
+
+  // Sub-Panels
   const panelSimple = container.querySelector('.js-pal-panel-simple');
   const panelAdvancedWrapper = container.querySelector('.js-pal-advanced-wrapper');
   const panelNormal = container.querySelector('.js-pal-panel-normal');
@@ -71,22 +129,19 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
 
-  // SECTION OVERLAY TEKSTER
   const INFO_TEXTS = {
     bmr_formulas: `
       <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem; font-weight: 800; color: #0f172a;">🔥 Om Hvilestofskifte (BMR) & Formler</h4>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.8rem; color: #475569;">BMR (Basal Metabolic Rate) er den mængde energi, din krop forbrænder i fuldstændig hvile for at holde organerne i gang.</p>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.8rem; color: #475569;"><strong>Anbefalet formel:</strong> Vælger automatisk den mest præcise fysiologiske formel baseret på din fedtprocent/FFM eller dit BMI.</p>
-      <p style="margin: 0; font-size: 0.775rem; color: #64748b;"><strong>SEE (Standardfejl):</strong> Alle formler er statistiske estimater. SEE viser den gennemsnitlige afvigelse for formlen.</p>
     `,
     nnr_info: `
       <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem; font-weight: 800; color: #0f172a;">⚡ Hurtig PAL (Nordic Nutrition Recommendations)</h4>
-      <p style="margin: 0 0 0.5rem 0; font-size: 0.8rem; color: #475569;">Fastslår din PAL-faktor ud fra et skøn over din primære hverdag (f.eks. kontor = 1,45) med tillæg for ugentlig træning (+0,025 for moderat time/uge, +0,050 for hård time/uge).</p>
+      <p style="margin: 0 0 0.5rem 0; font-size: 0.8rem; color: #475569;">Fastslår din PAL-faktor ud fra et skøn over din primære hverdag med tillæg for ugentlig træning.</p>
     `,
     met_24h_info: `
       <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem; font-weight: 800; color: #0f172a;">📊 24-timers MET Døgnbudget</h4>
       <p style="margin: 0 0 0.5rem 0; font-size: 0.8rem; color: #475569;">Beregn din faktiske gennemsnitlige PAL-faktor ud fra alle 24 timer (1440 minutter) i et døgn.</p>
-      <p style="margin: 0; font-size: 0.775rem; color: #64748b;">Når du kender din PAL og BMR, beregnes dit samlede energibehov (TEE) direkte som: TEE = BMR × PAL.</p>
     `
   };
 
@@ -101,16 +156,67 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
     if (overlay && body) {
       body.innerHTML = INFO_TEXTS[type] || '';
       overlay.style.display = 'flex';
-
-      if (window.MathJax && window.MathJax.typesetPromise) {
-        window.MathJax.typesetPromise([body]);
-      }
     }
   }
 
   function closeSectionOverlay(closeBtn) {
     const overlay = closeBtn.closest('.js-section-info-overlay');
     if (overlay) overlay.style.display = 'none';
+  }
+
+  function toggleFormulaPicker(show) {
+    const isCurrentlyOpen = manualWrapper && manualWrapper.style.display === 'block';
+    const open = show !== undefined ? show : !isCurrentlyOpen;
+
+    if (open) {
+      if (formulaBar) formulaBar.style.display = 'none';
+      if (manualWrapper) manualWrapper.style.display = 'block';
+    } else {
+      if (manualWrapper) manualWrapper.style.display = 'none';
+      if (formulaBar) formulaBar.style.display = 'flex';
+    }
+  }
+
+  function renderFormulaPicker() {
+    if (!pickerContainer) return;
+
+    const isFatUnlocked = bodyFatInput ? !bodyFatInput.hasAttribute('readonly') : false;
+    const fatVal = bodyFatInput ? parseFloat(bodyFatInput.value) || 0 : 0;
+    const hasFatPercent = isFatUnlocked && fatVal > 0;
+
+    const availableKeys = Object.keys(BMR_FORMULA_DEFINITIONS).filter(key => {
+      const def = BMR_FORMULA_DEFINITIONS[key];
+      if (def.requiresFat && !hasFatPercent) return false;
+      return true;
+    });
+
+    pickerContainer.innerHTML = availableKeys.map(key => {
+      const f = BMR_FORMULA_DEFINITIONS[key];
+      const isSelected = key === activeFormulaKey;
+      const isAuto = key === 'recommended_formula';
+
+      return `
+        <div class="mp-bmr-picker-card ${isSelected ? 'is-selected' : ''}" data-formula-key="${key}">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+            <div style="display: flex; align-items: center; gap: 0.35rem;">
+              <strong style="font-size: 0.875rem; color: #0f172a;">${f.name}</strong>
+              ${isAuto ? '<span class="mp-bmr-rec-tag">⭐ Anbefalet</span>' : ''}
+            </div>
+            <span class="mp-bmr-check-icon ${isSelected ? 'is-selected' : ''}">✓</span>
+          </div>
+          <div style="font-size: 0.75rem; color: #475569; line-height: 1.35;">${f.desc}</div>
+        </div>
+      `;
+    }).join('');
+
+    pickerContainer.querySelectorAll('.mp-bmr-picker-card').forEach(card => {
+      card.addEventListener('click', () => {
+        activeFormulaKey = card.getAttribute('data-formula-key');
+        isFormulaOverride = true;
+        toggleFormulaPicker(false);
+        calculate();
+      });
+    });
   }
 
   async function ensureMetLoaded() {
@@ -157,31 +263,13 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
       bodyFatInput.setAttribute('readonly', 'readonly');
       bodyFatInput.value = '';
       if (bodyFatOverlay) bodyFatOverlay.classList.remove('is-hidden');
-    }
-    updateFFMFormulasState();
-    calculate();
-  }
 
-  function updateFFMFormulasState() {
-    const isLocked = bodyFatInput ? bodyFatInput.hasAttribute('readonly') : true;
-    const fatVal = bodyFatInput ? parseFloat(bodyFatInput.value) || 0 : 0;
-    const hasFatPercent = !isLocked && fatVal > 0;
-
-    if (ffmOptgroup) {
-      if (hasFatPercent) {
-        ffmOptgroup.removeAttribute('disabled');
-        ffmOptgroup.style.display = '';
-        ffmOptgroup.label = '⚡ Muskelmasse / FFM Formler';
-      } else {
-        ffmOptgroup.setAttribute('disabled', 'disabled');
-        ffmOptgroup.style.display = 'none';
-        ffmOptgroup.label = '🔒 Muskelmasse / FFM Formler (kræver fedtprocent)';
-
-        if (formulaSelect && ['cunningham', 'katch_mcardle', 'nordic_nutrition_ffm'].includes(formulaSelect.value)) {
-          formulaSelect.value = 'recommended_formula';
-        }
+      if (['cunningham', 'katch_mcardle', 'nordic_nutrition_ffm'].includes(activeFormulaKey)) {
+        activeFormulaKey = 'recommended_formula';
+        isFormulaOverride = false;
       }
     }
+    calculate();
   }
 
   function saveState() {
@@ -215,12 +303,13 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
       const state = {
         gender: currentGender,
         palMode: currentPalMode,
-        age: ageInput ? ageInput.value : '40',
-        height: heightInput ? heightInput.value : '180',
-        weight: weightInput ? weightInput.value : '70',
+        activeFormulaKey,
+        isFormulaOverride,
+        age: ageInput ? ageInput.value : '',
+        height: heightInput ? heightInput.value : '',
+        weight: weightInput ? weightInput.value : '',
         bodyFat: bodyFatInput ? bodyFatInput.value : '',
         isFatUnlocked,
-        formula: formulaSelect ? formulaSelect.value : 'recommended_formula',
         basePal: selectedBase,
         modHours: modHoursInput ? modHoursInput.value : '0',
         vigHours: vigHoursInput ? vigHoursInput.value : '0',
@@ -238,7 +327,11 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
       if (saved) {
         const state = JSON.parse(saved);
         if (state.gender) switchGender(state.gender);
-        if (state.palMode) switchPalMode(state.palMode);
+
+        switchPalMode(state.palMode || defaultPalMode);
+
+        if (state.activeFormulaKey) activeFormulaKey = state.activeFormulaKey;
+        if (state.isFormulaOverride !== undefined) isFormulaOverride = state.isFormulaOverride;
 
         if (ageInput && state.age !== undefined) ageInput.value = state.age;
         if (heightInput && state.height !== undefined) heightInput.value = state.height;
@@ -250,10 +343,6 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
         } else {
           setFatUnlocked(false);
         }
-
-        updateFFMFormulasState();
-
-        if (formulaSelect && state.formula) formulaSelect.value = state.formula;
 
         if (state.basePal) {
           basePalRadios.forEach(r => {
@@ -283,9 +372,11 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
           state.advRows.forEach(r => addBuilderRow(r.name, r.met, r.min));
         }
       } else {
+        switchPalMode(defaultPalMode);
         setFatUnlocked(false);
       }
     } catch (e) {
+      switchPalMode(defaultPalMode);
       setFatUnlocked(false);
     }
   }
@@ -300,17 +391,26 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
 
   function switchPalMode(mode) {
     currentPalMode = mode;
-    palModeBtns.forEach(btn => {
-      btn.classList.toggle('is-active', btn.getAttribute('data-pal-mode') === mode);
-    });
 
-    if (panelSimple) panelSimple.style.display = (mode === 'simple') ? 'block' : 'none';
-    if (panelAdvancedWrapper) panelAdvancedWrapper.style.display = (mode === 'normal' || mode === 'advanced') ? 'block' : 'none';
-    if (panelNormal) panelNormal.style.display = (mode === 'normal') ? 'block' : 'none';
-    if (panelAdvanced) panelAdvanced.style.display = (mode === 'advanced') ? 'block' : 'none';
+    if (mode === 'none') {
+      if (palSectionWrapper) palSectionWrapper.style.display = 'none';
+      if (palToggleWrapper) palToggleWrapper.style.display = 'block';
+    } else {
+      if (palSectionWrapper) palSectionWrapper.style.display = 'block';
+      if (palToggleWrapper) palToggleWrapper.style.display = 'none';
 
-    if (mode === 'advanced') {
-      ensureMetLoaded().then(() => updateDatalistOptions(''));
+      palModeBtns.forEach(btn => {
+        btn.classList.toggle('is-active', btn.getAttribute('data-pal-mode') === mode);
+      });
+
+      if (panelSimple) panelSimple.style.display = (mode === 'simple') ? 'block' : 'none';
+      if (panelAdvancedWrapper) panelAdvancedWrapper.style.display = (mode === 'normal' || mode === 'advanced') ? 'block' : 'none';
+      if (panelNormal) panelNormal.style.display = (mode === 'normal') ? 'block' : 'none';
+      if (panelAdvanced) panelAdvanced.style.display = (mode === 'advanced') ? 'block' : 'none';
+
+      if (mode === 'advanced') {
+        ensureMetLoaded().then(() => updateDatalistOptions(''));
+      }
     }
 
     calculate();
@@ -384,17 +484,62 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
   }
 
   function calculate(event) {
-    updateFFMFormulasState();
     saveState();
 
-    const age = parseInt(ageInput ? ageInput.value : 40, 10) || 40;
-    const height = parseFloat(heightInput ? heightInput.value : 180) || 180;
-    const weight = parseFloat(weightInput ? weightInput.value : 70) || 70;
+    const rawAge = ageInput ? ageInput.value.trim() : '';
+    const rawHeight = heightInput ? heightInput.value.trim() : '';
+    const rawWeight = weightInput ? weightInput.value.trim() : '';
+
+    const age = rawAge !== '' ? parseInt(rawAge, 10) : 0;
+    const height = rawHeight !== '' ? parseFloat(rawHeight) : 0;
+    const weight = rawWeight !== '' ? parseFloat(rawWeight) : 0;
     const bodyFat = (bodyFatInput && !bodyFatInput.hasAttribute('readonly')) ? (parseFloat(bodyFatInput.value) || 0) : 0;
-    const selectedFormula = formulaSelect ? formulaSelect.value : 'recommended_formula';
 
     // 1. BMR BEREGNING
-    const bmrRes = calculateBMR(currentGender, age, weight, height, selectedFormula, bodyFat);
+    const bmrRes = calculateBMR(currentGender, age, weight, height, activeFormulaKey, bodyFat);
+    
+    // VIS KUN FORMELNAVN I DEN LUKKEDE FELTVISNING
+    const actualFormulaName = bmrRes ? bmrRes.getFormulaName() : 'Nordic Nutrition Recommendations (2012)';
+    const isAuto = activeFormulaKey === 'recommended_formula';
+
+    if (formulaBar) {
+      formulaBar.innerHTML = `
+        <div class="mp-bmr-badge-header">
+          <div class="mp-bmr-badge-title-group">
+            <strong class="mp-bmr-badge-title">${actualFormulaName}</strong>
+            ${isAuto ? '<span class="mp-bmr-rec-tag">⭐ Anbefalet</span>' : ''}
+          </div>
+          <button type="button" class="js-bmr-toggle-override mp-bmr-btn-gear" title="Skift BMR formel">
+            ⚙️
+          </button>
+        </div>
+      `;
+
+      const gearBtn = formulaBar.querySelector('.js-bmr-toggle-override');
+      if (gearBtn) {
+        gearBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          toggleFormulaPicker();
+        });
+      }
+    }
+
+    renderFormulaPicker();
+
+    // Tjek om påkrævede felter er udfyldt
+    if (age <= 0 || height <= 0 || weight <= 0) {
+      if (resBmrKcal) resBmrKcal.textContent = '-';
+      if (resBmrKj) resBmrKj.textContent = '- kJ / dag';
+      if (resBmrSee) resBmrSee.textContent = 'SEE: ±- kcal';
+      if (resPalVal) resPalVal.textContent = '-';
+      if (resPalLabel) resPalLabel.textContent = '-';
+      if (resTeeKcal) resTeeKcal.textContent = '-';
+      if (resTeeKj) resTeeKj.textContent = '- kJ / dag';
+      if (resTeeSee) resTeeSee.textContent = 'SEE: ±- kcal';
+      if (resDesc) resDesc.textContent = 'Indtast dine stamdata for at beregne stofskifte.';
+      return;
+    }
+
     const bmrKcal = Math.round(bmrRes.getBMRKcal());
     const bmrKJ = Math.round(bmrRes.getBMRKJ());
     const seeKcal = bmrRes.getSEE();
@@ -514,7 +659,15 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
     }));
   }
 
-  // Event Listeners for Overlay & Felt
+  // EVENT LISTENERS
+  if (palEnableBtn) {
+    palEnableBtn.addEventListener('click', () => switchPalMode('simple'));
+  }
+
+  if (palDisableBtn) {
+    palDisableBtn.addEventListener('click', () => switchPalMode('none'));
+  }
+
   if (bodyFatOverlay) {
     bodyFatOverlay.addEventListener('click', () => {
       setFatUnlocked(true);
@@ -543,10 +696,6 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
       closeSectionOverlay(closeBtn);
     });
   });
-
-  if (formulaSelect) {
-    formulaSelect.addEventListener('change', calculate);
-  }
 
   if (unlockMetNormal) {
     unlockMetNormal.addEventListener('change', (e) => {
@@ -584,13 +733,17 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
 
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+
       switchGender('man');
-      if (ageInput) ageInput.value = '40';
-      if (heightInput) heightInput.value = '180';
-      if (weightInput) weightInput.value = '70';
+      if (ageInput) ageInput.value = '';
+      if (heightInput) heightInput.value = '';
+      if (weightInput) weightInput.value = '';
       setFatUnlocked(false);
 
-      if (formulaSelect) formulaSelect.value = 'recommended_formula';
+      activeFormulaKey = 'recommended_formula';
+      isFormulaOverride = false;
+      toggleFormulaPicker(false);
 
       basePalRadios.forEach((r, idx) => {
         r.checked = (idx === 1);
@@ -606,8 +759,7 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
 
       container.querySelectorAll('.js-section-info-overlay').forEach(o => o.style.display = 'none');
 
-      switchPalMode('simple');
-      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      switchPalMode(defaultPalMode);
       calculate();
     });
   }
@@ -628,7 +780,6 @@ export function initBmrCalculatorUI(container, calcId = 'bmr-calculator') {
   }
 
   loadState();
-  calculate();
 }
 
 export const initCalculator = initBmrCalculatorUI;

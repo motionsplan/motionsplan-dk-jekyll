@@ -49,6 +49,9 @@ Max-pulsen er det maksimale antal slag, hjertet kan slå på et minut. Hjertet n
 
 ## Hvordan måler jeg min maxpuls nøjagtigt?
 
+> 💡 **Er du ikke klar til en hård fysisk test endnu?**
+> Hvis du er nybegynder eller blot ønsker et hurtigt udgangspunkt til din træning, kan du starte med at **[beregne din estimerede maxpuls med vores beregner](/max-puls-beregner/)**
+
 Den mest præcise metode til at finde din maksimale puls er at udføre en fysisk test.  
 
 Selvom [formler til at estimere maxpulsen](/max-puls-formler/) giver et hurtigt bud, kan de afvige med ±10-15 slag i minuttet og tager ikke højde for individuelle forskelle. En laboratorietest kan være endnu mere præcis, men den er ofte dyr og ikke let tilgængelig.  
@@ -116,6 +119,11 @@ Du kan læse mere om en [maksimal laboratorietest af iltoptagelse her](/iltoptag
 At teste din maxpuls med en fysisk test er den mest præcise måde at bestemme din maksimale hjertefrekvens på. Selvom formler kan give et hurtigt estimat, kan individuelle variationer betyde, at de ikke altid er nøjagtige nok til målrettet træning. En fysisk test sikrer, at du får præcise pulszoner, hvilket kan optimere din træningseffektivitet.
 
 Hvis du foretrækker en hurtig beregning, kan du prøve vores [maxpuls-beregner](/max-puls-beregner/). Vil du lære mere om de forskellige testmetoder? Læs vores guide til [hvordan du finder din maxpuls](/test-max-puls/).
+
+🔗 **Læs mere om pulstræning og teori:**
+* 🧮 **[Udregn dine pulszoner](/pulszoner-beregner/)** – Sæt dit testresultat i spil i din træning.
+* 📖 **[Forstå videnskaben bag formlerne](/max-puls-formler/)** – Læs om, hvorfor 220-alder er en myte, og hvad nyere studier viser.
+* ℹ️ **[Alt om maxpuls og hjertets fysiologi](/test-max-puls/)** – Gå tilbage til vores samlede overblik.
 
 ## Ofte stillede spørgsmål
 

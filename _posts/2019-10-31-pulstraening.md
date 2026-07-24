@@ -32,7 +32,7 @@ garmin_lactate:
 
 Træningsintensiteten under løb og træning kan måles på mange forskellige måder. Pulsen kan være en ret præcis måde at måle intensiteten. Derfor er pulstræning også rimelig udbredt.
 
-I pulstræning bruger du viden om dine pulszoner til at styre din træningsintensitet. Pulszoner kan udregnes enten ud fra din [maxpuls](/test-max-puls/) eller pulsreserven. Vi har lavet en [beregner til pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), som du kan bruge til at hjælpe med at udregne zonerne.
+I pulstræning bruger du viden om dine pulszoner til at styre din træningsintensitet. Pulszoner kan udregnes enten ud fra din [maxpuls](/test-max-puls/) eller pulsreserven. Vi har lavet en [beregner til pulszoner](/pulszoner-beregner/), som du kan bruge til at hjælpe med at udregne zonerne.
 
 Pulstræning bruges i forbindelse med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre intensiteten i træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i de enkelte træninger.
 
@@ -98,7 +98,7 @@ Fordelen ved at denne metode er, at det er relativt enkelt at finde sin hvilepul
 
 Du kan lære mere om at beregne arbejdspuls eller intensitet i vores [guide om pulsreserven](/pulsreserve/).
 
-[Udregn dine egne pulszoner fra pulsreserven](/pulszoner-pulsreserve-karvonen/){: .btn .btn--info }
+[Udregn dine egne pulszoner fra pulsreserven](/pulszoner-beregner/){: .btn .btn--info }
 
 ### 2. Pulstræning ud fra maxpulsen
 
@@ -112,7 +112,7 @@ Den maksimale puls ændrer sig ikke over tid. Desuden er der en lineær sammenh�
 
 Intensitet angivet i procent af den maksimale puls svarer faktisk meget godt til [RM-begrebet](/rm-beregner/) i styrketræning.
 
-[Udregn dine egne pulszoner fra din maxpuls](/pulszoner-max-puls/){: .btn .btn--info }
+[Udregn dine egne pulszoner fra din maxpuls](/pulszoner-beregner/){: .btn .btn--info }
 
 ### 3. Pulstræning ud fra laktattærsklen
 
@@ -120,7 +120,7 @@ Den tredje måde som du kan lave pulstræning på er ud fra den anaerobe tærske
 
 Det er relativt enkelt at lave en test af den anaerobe tærskel, hvis du har af de moderne pulsure. Her er et eksempel fra et Garmin Fenix ur.
 
-[Udregn dine pulszoner fra laktattærsklen](/pulszoner-laktat-taerskel/){: .btn .btn--info }
+[Udregn dine pulszoner fra laktattærsklen](/pulszoner-beregner/){: .btn .btn--info }
 
 ## Vælg det rigtige intensitetsbegreb
 
@@ -138,7 +138,7 @@ Der er unægtelig lidt forskal på at ramme den ene eller ande puls i pulstræni
 
 Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt.
 
-Vi har lavet en grundig [guide til beregning af pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
+Vi har lavet en grundig [guide til beregning af pulszoner](/pulszoner-beregner/). Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
 
 ## Pulstræning i praksis
 
@@ -166,7 +166,7 @@ På Garmin uret kan du relativt let opstille dine egne zoner til pulstræning. D
 
 {% include gallery id="garmin_setup" caption="Sådan sætter du zonerne op til pulstræning i Garmin Connect på din telefon." %}
 
-Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/).
+Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner](/pulszoner-beregner/).
 
 ## Konklusion
 

@@ -257,7 +257,7 @@ Du kan enten løbe ud fra **fysiologisk baseret intervaltræning** eller basere 
 
 Hvis du baserer på fysiologien, så kan du angribe det på lidt forskellige måder:
 
-- **Træne efter puls**. Du kan [beregne pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/) til din [pulstræning](/pulstraening/). Ulempen er at pulsen er langsom til at tilpasse sig. Det betyder, at du får et forsinket svar på, hvilken intensitetszone, du reelt træner i.
+- **Træne efter puls**. Du kan [beregne pulszoner](/pulszoner-beregner/) til din [pulstræning](/pulstraening/). Ulempen er at pulsen er langsom til at tilpasse sig. Det betyder, at du får et forsinket svar på, hvilken intensitetszone, du reelt træner i.
 - **Træne efter hastighed**. Du kan træne efter løbehastigheder. Det er smart, hvis du har taget en test på løbebånd og skal træne på løbebånd. Du kan også bruge løbehastighederne på løbebane, eller hvis du har et [pulsur med GPS](/pulsure/).
 - **Watt-måling**. Med [Stryd](/loeb-watt/) kan du måle det faktiske arbejde du laver undervejs ligesom man kan på cykel.
 

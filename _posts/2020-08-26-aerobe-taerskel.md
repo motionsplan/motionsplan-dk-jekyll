@@ -60,7 +60,7 @@ Den mest præcise måde at finde din aerobe tærskel er ved en [blodlaktattest](
 
 ### 2. Træningszoner - pulsberegninger
 
-Når du finder dine [træningszoner](/traeningszoner/), så kan du [udregne dine pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/). Det kan du gøre på flere forskellige måder. Den aerobe tærskel vil teoretisk set svare til toppen af zone 2 i disse beregninger i en 5-zone model og toppen af zone 1 i en 3-zone model.
+Når du finder dine [træningszoner](/traeningszoner/), så kan du [udregne dine pulszoner](/pulszoner-beregner/). Det kan du gøre på flere forskellige måder. Den aerobe tærskel vil teoretisk set svare til toppen af zone 2 i disse beregninger i en 5-zone model og toppen af zone 1 i en 3-zone model.
 
 ### 3. Snakketesten - RPE-testen
 
