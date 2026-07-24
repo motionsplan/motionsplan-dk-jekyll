@@ -1,0 +1,719 @@
+{% assign calc_title = include.title | default: "Pulszone- & Pulsreserve Beregner" %}
+{% assign data_id = include.calc_id | default: "heart-rate-calculator" %}
+
+<style>
+  .mp-hr-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-hr-section-rel {
+    position: relative !important;
+  }
+
+  /* Symmetriske Labels */
+  .mp-hr-label {
+    font-size: 0.725rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    height: 22px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-bottom: 0.35rem !important;
+    white-space: nowrap !important;
+  }
+
+  .mp-hr-label .opt {
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  .mp-magic-link {
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-size: 0.725rem !important;
+    font-weight: 800 !important;
+    color: #2563eb !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 2px !important;
+  }
+
+  .mp-magic-link:hover {
+    text-decoration: underline !important;
+  }
+
+  /* Info Button (i) */
+  .mp-panel-info-btn {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50% !important;
+    background: #eff6ff !important;
+    color: #2563eb !important;
+    border: 1px solid #bfdbfe !important;
+    font-size: 0.775rem !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  /* Magic Wand Popover Modal */
+  .mp-hr-magic-popover {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: #ffffff !important;
+    border-radius: 14px !important;
+    z-index: 30 !important;
+    padding: 1.15rem !important;
+    display: none;
+    flex-direction: column !important;
+    box-shadow: inset 0 0 0 2px #2563eb, 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  /* Section Info Overlay */
+  .mp-panel-info-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: #ffffff !important;
+    border-radius: inherit !important;
+    z-index: 20 !important;
+    padding: 1.25rem !important;
+    box-sizing: border-box !important;
+    display: none;
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    box-shadow: inset 0 0 0 1px #e2e8f0;
+  }
+
+  .mp-panel-info-close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: #f1f5f9 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* --- TRIN 1: DATAGRUNDLAG KNAPPER --- */
+  .mp-hr-base-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+  }
+
+  @media (max-width: 640px) {
+    .mp-hr-base-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .mp-hr-base-btn {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 0.9rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 96px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    box-sizing: border-box;
+  }
+
+  .mp-hr-base-btn:hover:not(.is-active) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+    transform: translateY(-2px);
+  }
+
+  .mp-hr-base-btn.is-active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
+  }
+
+  .mp-hr-base-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.4rem;
+  }
+
+  .mp-hr-base-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .mp-hr-base-title {
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.25;
+  }
+
+  .mp-hr-base-btn.is-active .mp-hr-base-title {
+    color: #1e40af;
+  }
+
+  .mp-hr-base-sub {
+    font-size: 0.725rem;
+    font-weight: 600;
+    color: #64748b;
+  }
+
+  .mp-hr-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .mp-hr-base-btn.is-active .mp-hr-check-icon,
+  .mp-hr-mode-card.is-active .mp-hr-check-icon,
+  .mp-hr-picker-card.is-selected .mp-hr-check-icon {
+    background: #2563eb;
+    color: #ffffff;
+  }
+
+  .mp-hr-base-badge {
+    font-size: 0.675rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    white-space: nowrap !important;
+  }
+
+  .mp-hr-base-badge.badge-basis {
+    background: #f1f5f9;
+    color: #475569;
+  }
+
+  .mp-hr-base-badge.badge-hrr {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+
+  .mp-hr-base-badge.badge-gold {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+  }
+
+  /* TRIN 2: ZONETYPE KORT */
+  .mp-hr-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-hr-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-hr-mode-card:hover:not(.is-active) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+    transform: translateY(-2px);
+  }
+
+  .mp-hr-mode-card.is-active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.14);
+  }
+
+  .mp-hr-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-hr-dots-indicator {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .mp-hr-dots-indicator .dot {
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+  }
+
+  .mp-hr-card-heading {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+  }
+
+  .mp-hr-mode-card.is-active .mp-hr-card-heading {
+    color: #1e40af;
+  }
+
+  .mp-hr-card-sub {
+    font-size: 0.725rem;
+    font-weight: 600;
+    color: #64748b;
+    line-height: 1.3;
+  }
+
+  /* FULL-CARD FORMULA BOKS */
+  .mp-hr-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    margin-bottom: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+
+  .mp-hr-badge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .mp-hr-badge-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-hr-badge-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-hr-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1.05rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mp-hr-btn-gear:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  .mp-hr-rec-tag {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #1e40af;
+    background: #dbeafe;
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  /* FORMELKORT LISTE */
+  .mp-hr-picker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-hr-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-hr-picker-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-hr-picker-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  /* ZONE KORT */
+  .mp-hr-zone-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left-width: 6px !important;
+    border-radius: 12px;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.65rem;
+    transition: all 0.15s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .mp-hr-zone-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transform: translateY(-1px);
+  }
+
+  .mp-hr-card-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-hr-card-bpm-container {
+    text-align: right !important;
+    flex-shrink: 0;
+  }
+
+  .mp-hr-card-bpm {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .mp-hr-pct-sub {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .mp-hr-rpe-badge {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+
+  .mp-hr-threshold-tag {
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #64748b;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .mp-hr-empty-state {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="heart-rate-calculator-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dine personlige trænervinduer og pulszoner.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div class="mp-hr-container" style="width: 100%;">
+    
+    <!-- TRIN 1: VÆLG DATAGRUNDLAG OG INDTAST TAL -->
+    <div class="mp-hr-section-rel" style="margin-bottom: 1.25rem;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="hr_basics" title="Information om Datagrundlag">i</button>
+
+      <!-- SECTION INFO OVERLAY -->
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0; padding-right: 32px;">
+        1. Vælg dit datagrundlag
+      </h4>
+
+      <!-- 3 KORT-KNAPPER PÅ HVID BAGGRUND -->
+      <div class="mp-hr-base-grid">
+        <!-- MAXPULS -->
+        <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn is-active" data-input-mode="hrmax">
+          <div class="mp-hr-base-top-row">
+            <span class="mp-hr-base-badge badge-basis">Basis</span>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-base-body">
+            <span class="mp-hr-base-title">Kun<br>Maxpuls</span>
+            <span class="mp-hr-base-sub">Kan udregnes</span>
+          </div>
+        </button>
+
+        <!-- MAXPULS + HVILEPULS -->
+        <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn" data-input-mode="hrr">
+          <div class="mp-hr-base-top-row">
+            <span class="mp-hr-base-badge badge-hrr">Bedre</span>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-base-body">
+            <span class="mp-hr-base-title">Maxpuls + Hvilepuls</span>
+            <span class="mp-hr-base-sub">To målinger</span>
+          </div>
+        </button>
+
+        <!-- TÆRSKELPULS LT2 -->
+        <button type="button" class="mp-hr-base-btn js-hr-input-mode-btn" data-input-mode="lthr">
+          <div class="mp-hr-base-top-row">
+            <span class="mp-hr-base-badge badge-gold">⭐ Bedst</span>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-base-body">
+            <span class="mp-hr-base-title">Tærskelpuls (LT2)</span>
+            <span class="mp-hr-base-sub">Kræver test</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- GRÅ BOKS TIL INDSTILLINGER OG INPUT FELTER -->
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; position: relative;">
+        
+        <!-- MAXPULS ESTIMERING POPOVER (Åbnes via 🪄 Estimer linket) -->
+<div class="js-hr-magic-popover mp-hr-magic-popover">
+  <button type="button" class="mp-panel-info-close js-hr-magic-close" title="Luk estimering">✕</button>
+  <h4 style="font-size: 0.875rem; font-weight: 800; color: #1e40af; margin: 0 0 0.5rem 0;">🪄 Estimer din Maxpuls fra alder</h4>
+  
+  <div style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem;">
+    <div style="flex: 1;">
+      <input type="number" min="10" max="100" class="vbt-input-mega mp-hr-input-field js-hr-est-age" value="40" placeholder="40" style="width: 100%; margin: 0;">
+    </div>
+    <button type="button" class="js-hr-apply-est-btn" style="flex: 1.5; height: 42px; background: #2563eb; color: #ffffff; border: none; border-radius: 8px; font-size: 0.8rem; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; margin: 0; transition: background 0.15s ease;">
+      Indsæt <span class="js-hr-est-val-span" style="margin: 0 4px;">180</span> bpm ↵
+    </button>
+  </div>
+</div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.75rem;">
+          <!-- MAXPULS -->
+          <div class="js-hr-field-wrapper-hrmax">
+            <label class="mp-hr-label">
+              <span>Maxpuls</span>
+              <button type="button" class="js-hr-magic-btn mp-magic-link" title="Estimer din maxpuls ud fra alder">🪄 Estimer</button>
+            </label>
+            <input type="number" min="100" max="230" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="hrMax" placeholder="190" value="190">
+          </div>
+
+          <!-- HVILEPULS -->
+          <div class="js-hr-field-wrapper-hrrest" style="display: none;">
+            <label class="mp-hr-label">
+              <span>Hvilepuls</span>
+            </label>
+            <input type="number" min="30" max="110" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="hrRest" placeholder="55" value="55">
+          </div>
+
+          <!-- TÆRSKELPULS LT2 -->
+          <div class="js-hr-field-wrapper-lthr" style="display: none;">
+            <label class="mp-hr-label">
+              <span>Tærskelpuls (LT2)</span>
+            </label>
+            <input type="number" min="100" max="210" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="lthr" placeholder="168" value="168">
+          </div>
+
+          <!-- AEROB TÆRSKEL LT1 -->
+          <div class="js-hr-field-wrapper-lt1" style="display: none;">
+            <label class="mp-hr-label">
+              <span>Aerob tærskel (LT1) <span class="opt">(valgfri)</span></span>
+            </label>
+            <input type="number" min="80" max="200" class="vbt-input-mega mp-hr-input-field js-hr-input" data-key="lt1" placeholder="f.eks. 145">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRIN 2: VÆLG STRUKTUR -->
+    <div style="margin-bottom: 1rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.65rem;">
+        2. Vælg zonetype
+      </label>
+      
+      <div class="mp-hr-cards-grid">
+        <!-- 3-ZONE KORT -->
+        <button type="button" class="mp-hr-mode-card js-hr-mode-btn is-active" data-mode="3_zone">
+          <div class="mp-hr-card-top">
+            <div class="mp-hr-dots-indicator">
+              <span class="dot" style="background:#10b981;"></span>
+              <span class="dot" style="background:#f59e0b;"></span>
+              <span class="dot" style="background:#ef4444;"></span>
+            </div>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-card-heading">3-Zone Model</div>
+          <div class="mp-hr-card-sub">Tærskel & Polariseret (LT1 / LT2)</div>
+        </button>
+
+        <!-- 5-7 ZONE KORT -->
+        <button type="button" class="mp-hr-mode-card js-hr-mode-btn" data-mode="5_zone">
+          <div class="mp-hr-card-top">
+            <div class="mp-hr-dots-indicator">
+              <span class="dot" style="background:#0284c7;"></span>
+              <span class="dot" style="background:#10b981;"></span>
+              <span class="dot" style="background:#f59e0b;"></span>
+              <span class="dot" style="background:#f97316;"></span>
+              <span class="dot" style="background:#ef4444;"></span>
+            </div>
+            <span class="mp-hr-check-icon">✓</span>
+          </div>
+          <div class="mp-hr-card-heading">5–7 Zone Model</div>
+          <div class="mp-hr-card-sub">Garmin, Joe Friel, Coggan & OLT</div>
+        </button>
+      </div>
+    </div>
+
+    <!-- TRIN 3: VÆLG FORMEL -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        3. Vælg formel
+      </label>
+
+      <!-- FORMELKORT FOR DEN VALGTE FORMEL -->
+      <div class="js-hr-formula-bar mp-hr-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- FORMEL LISTE (NÅR MAN KLIKKER PÅ TANDHJULET) -->
+      <div class="js-hr-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-hr-picker-container mp-hr-picker-list">
+          <!-- Genereres dynamisk i JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTATKORT OG ZONE POP-UP OVERLAY -->
+    <div class="js-hr-results-wrapper mp-hr-section-rel" style="margin-bottom: 1.25rem;">
+      
+      <!-- ZONE DETAIL POPOVER OVERLAY -->
+      <div class="js-hr-zone-popover mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-hr-zone-popover-close" title="Luk zoneinfo">✕</button>
+        <div class="js-hr-zone-popover-body" style="padding-top: 0.5rem;">
+          <!-- Indsættes dynamisk ved zoneklik -->
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 0.875rem; font-weight: 800; color: #0f172a; margin: 0;">
+          Dine Personlige Pulszoner
+        </h4>
+        <!-- DYNAMISK BASIS BADGE -->
+        <span class="js-hr-rr-badge" style="font-size: 0.725rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 4px 10px; border-radius: 6px;">
+          Maxpuls: 190 bpm
+        </span>
+      </div>
+
+      <!-- KORTCONTAINER -->
+      <div class="js-hr-zone-card-container">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+    </div>
+
+    <!-- Actions -->
+    <div id="hr-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,518 @@
+{% assign calc_title = include.title | default: "Wattzone- & FTP Beregner" %}
+{% assign data_id = include.calc_id | default: "power-zone-calculator" %}
+
+<style>
+  .mp-pw-input-field {
+    height: 42px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    box-sizing: border-box !important;
+    padding: 0 8px !important;
+  }
+
+  .mp-pw-section-rel {
+    position: relative !important;
+  }
+
+  /* Symmetriske Labels */
+  .mp-pw-label {
+    font-size: 0.725rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    height: 22px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-bottom: 0.35rem !important;
+    white-space: nowrap !important;
+  }
+
+  .mp-pw-label .opt {
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+  }
+
+  /* Info Button (i) */
+  .mp-panel-info-btn {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50% !important;
+    background: #eff6ff !important;
+    color: #2563eb !important;
+    border: 1px solid #bfdbfe !important;
+    font-size: 0.775rem !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  /* Section Info Overlay */
+  .mp-panel-info-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: #ffffff !important;
+    border-radius: inherit !important;
+    z-index: 20 !important;
+    padding: 1.25rem !important;
+    box-sizing: border-box !important;
+    display: none;
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    box-shadow: inset 0 0 0 1px #e2e8f0;
+  }
+
+  .mp-panel-info-close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background: #f1f5f9 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* TRIN 2: SPORT KORT (CYKLING VS LØB) */
+  .mp-pw-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .mp-pw-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-pw-mode-card:hover:not(.is-active) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+    transform: translateY(-2px);
+  }
+
+  .mp-pw-mode-card.is-active {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.14);
+  }
+
+  .mp-pw-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.35rem;
+  }
+
+  .mp-pw-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .mp-pw-mode-card.is-active .mp-pw-check-icon,
+  .mp-pw-picker-card.is-selected .mp-pw-check-icon {
+    background: #2563eb;
+    color: #ffffff;
+  }
+
+  .mp-pw-card-heading {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+  }
+
+  .mp-pw-mode-card.is-active .mp-pw-card-heading {
+    color: #1e40af;
+  }
+
+  .mp-pw-card-sub {
+    font-size: 0.725rem;
+    font-weight: 600;
+    color: #64748b;
+    line-height: 1.3;
+  }
+
+  /* FULL-CARD FORMULA BOKS */
+  .mp-pw-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    margin-bottom: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+
+  .mp-pw-badge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .mp-pw-badge-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .mp-pw-badge-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-pw-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1.05rem !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mp-pw-btn-gear:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+  }
+
+  .mp-pw-rec-tag {
+    font-size: 0.675rem;
+    font-weight: 800;
+    color: #1e40af;
+    background: #dbeafe;
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  /* FORMELKORT LISTE MED PRIKKER */
+  .mp-pw-picker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mp-pw-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+
+  .mp-pw-picker-card:hover:not(.is-selected) {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  .mp-pw-picker-card.is-selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  }
+
+  /* PRIKKER I FORMELPICKER */
+  .mp-pw-dots-indicator {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+
+  .mp-pw-dots-indicator .dot {
+    width: 9px !important;
+    height: 9px !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+  }
+
+  /* ZONE KORT */
+  .mp-pw-zone-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left-width: 6px !important;
+    border-radius: 12px;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.65rem;
+    transition: all 0.15s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .mp-pw-zone-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transform: translateY(-1px);
+  }
+
+  .mp-pw-card-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+
+  .mp-pw-card-watt-container {
+    text-align: right !important;
+    flex-shrink: 0;
+  }
+
+  .mp-pw-card-watt {
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .mp-pw-pct-sub {
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .mp-pw-rpe-badge {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+
+  .mp-pw-time-badge {
+    font-size: 0.725rem;
+    font-weight: 700;
+    color: #475569;
+    background: #f1f5f9;
+    padding: 3px 8px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* SWEET SPOT BOKS NEDERST */
+  .mp-pw-sweetspot-card {
+    background: #fffbeb;
+    border: 2px dashed #fde68a;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.08);
+  }
+
+  .mp-pw-empty-state {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="power-zone-calculator-ui">
+  
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dine personlige wattzoner og træningseffekter ud fra din FTP.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div class="mp-pw-container" style="width: 100%;">
+    
+    <!-- TRIN 1: INDTAST FTP & VÆGT -->
+    <div class="mp-pw-section-rel" style="margin-bottom: 1.25rem;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="power_basics" title="Information om FTP og Watt">i</button>
+
+      <!-- SECTION INFO OVERLAY -->
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close" title="Luk forklaring">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0; padding-right: 32px;">
+        1. Indtast din FTP
+      </h4>
+
+      <!-- GRÅ BOKS TIL INPUT FELTER -->
+      <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem;">
+          <!-- FTP IN WATT -->
+          <div>
+            <label class="mp-pw-label">
+              <span>FTP (Watt)</span>
+            </label>
+            <input type="number" min="50" max="600" class="vbt-input-mega mp-pw-input-field js-pw-input" data-key="ftp" placeholder="285" value="285">
+          </div>
+
+          <!-- KROPSVÆGT (VALGFRI FOR W/KG) -->
+          <div>
+            <label class="mp-pw-label">
+              <span>Vægt (kg) <span class="opt">(valgfri)</span></span>
+            </label>
+            <input type="number" min="30" max="150" class="vbt-input-mega mp-pw-input-field js-pw-input" data-key="weight" placeholder="75" value="75">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRIN 2: VÆLG SPORT / DISCIPLIN -->
+    <div style="margin-bottom: 1rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.65rem;">
+        2. Vælg disciplin
+      </label>
+      
+      <div class="mp-pw-cards-grid">
+        <!-- CYKLING -->
+        <button type="button" class="mp-pw-mode-card js-pw-mode-btn is-active" data-sport="cycling">
+          <div class="mp-pw-card-top">
+            <span style="font-size: 1.35rem;">🚴</span>
+            <span class="mp-pw-check-icon">✓</span>
+          </div>
+          <div class="mp-pw-card-heading">Cykling (Bike Power)</div>
+          <div class="mp-pw-card-sub">Coggan, Carmichael (CTS) & Joe Friel</div>
+        </button>
+
+        <!-- LØB -->
+        <button type="button" class="mp-pw-mode-card js-pw-mode-btn" data-sport="running">
+          <div class="mp-pw-card-top">
+            <span style="font-size: 1.35rem;">🏃</span>
+            <span class="mp-pw-check-icon">✓</span>
+          </div>
+          <div class="mp-pw-card-heading">Løb (Running Power)</div>
+          <div class="mp-pw-card-sub">Stryd & 80/20 Running Power</div>
+        </button>
+      </div>
+    </div>
+
+    <!-- TRIN 3: VÆLG FORMEL -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        3. Vælg watt-model
+      </label>
+
+      <!-- FORMELKORT FOR DEN VALGTE MODEL -->
+      <div class="js-pw-formula-bar mp-pw-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- FORMEL LISTE (ÅBNER NÅR MAN KLIKKER PÅ TANDHJULET) -->
+      <div class="js-pw-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-pw-picker-container mp-pw-picker-list">
+          <!-- Genereres dynamisk i JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTATKORT OG ZONE POP-UP OVERLAY -->
+    <div class="js-pw-results-wrapper mp-pw-section-rel" style="margin-bottom: 1.25rem;">
+      
+      <!-- ZONE DETAIL POPOVER OVERLAY -->
+      <div class="js-pw-zone-popover mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-pw-zone-popover-close" title="Luk zoneinfo">✕</button>
+        <div class="js-pw-zone-popover-body" style="padding-top: 0.5rem;">
+          <!-- Indsættes dynamisk ved zoneklik -->
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+        <h4 style="font-size: 0.875rem; font-weight: 800; color: #0f172a; margin: 0;">
+          Dine Personlige Wattzoner
+        </h4>
+        <!-- DYNAMISK BASIS BADGE (FTP + W/KG) -->
+        <span class="js-pw-basis-badge" style="font-size: 0.725rem; font-weight: 800; color: #2563eb; background: #eff6ff; padding: 4px 10px; border-radius: 6px;">
+          FTP: 285 W
+        </span>
+      </div>
+
+      <!-- KORTCONTAINER FOR ZONEKORT + SWEET SPOT -->
+      <div class="js-pw-zone-card-container">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+    </div>
+
+    <!-- Actions -->
+    <div id="pw-actions" class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+
+  </div>
+</div>
