@@ -1,97 +1,98 @@
 ---
-title: Omregner fra kJ til kcal til kJ
-seo_title: KJ til kcal til kJ | Hurtig automatisk udregning
+title: 'Omregner fra kJ til kcal og kcal til kJ'
+seo_title: 'kJ til kcal omregner | Beregn kilojoule til kalorier nemt'
+excerpt: Omregn nemt mellem kilojoule (kJ) og kilokalorier (kcal). Brug vores gratis omregner og se den præcise formel og omregningstabel her!
+description: Omregn kilojoule (kJ) til kilokalorier (kcal) og omvendt. Gratis interaktiv omregner, formler og tabel over energi i madvarer.
 permalink: /kj-kcal-omregner/
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg
   credit: https://images.unsplash.com/photo-1611077544695-c7942e060c4d
   teaser: /assets/images/unsplash/photo-1611077544695-c7942e060c4d.jpg
-  caption: Omregner fra kJ til kcal til kJ
+  caption: Omregner fra kJ til kcal
 category:
-- Beregnere
-- Kalorieberegnere
+  - Beregnere
+  - Kalorieberegnere
 tags:
-- beregner
-- kalorieberegner
-- kost & ernæring
+  - beregner
+  - kalorieberegner
+  - kost & ernæring
 meta:
   name: Omregner fra kJ til kcal
   equipment: ingen
   measures: omregner energi
   type: kalorieberegner
-last_modified_at: '2021-07-28T10:14:14Z'
+last_modified_at: '2026-07-25T18:00:00Z'
 toc: 'true'
 faq:
-- question: Hvor mange Joule (J) er der i en kalorie (cal)?
-  answer: Der går 4,184 Joule på en kalorie.
-- question: Hvor mange kiloJoule (kJ) er der i en kilokalorie (kcal)?
-  answer: Der går 4,184 kiloJoule (kJ) på en kilokalorie (kcal).
-- question: Hvordan regner man kalorier om til kilojoule?
-  answer: Hvis du vil regne kalorier om til kilojoule, så skal du gange værdien i kalorier med 4,1862 for at få svaret i kilojoule.
-    De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere.
-- question: Hvordan regner man kilojoule om til kalorier?
-  answer: Hvis du vil regne kilojoule om til kalorier, så skal du dividere værdien i kilojoule med 4,184 for at få værdien
-    i kalorier. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere.
+  - question: Hvor mange Joule (J) er der i en kalorie (cal)?
+    answer: Der går nøjagtigt 4,184 Joule på 1 kalorie.
+  - question: Hvor mange kiloJoule (kJ) er der i en kilokalorie (kcal)?
+    answer: Der går 4,184 kiloJoule (kJ) på 1 kilokalorie (kcal).
+  - question: Hvordan omregner man kilojoule (kJ) til kalorier (kcal)?
+    answer: Du omregner kJ til kcal ved enten at dividere antallet af kJ med 4,184 eller ved at gange med 0,239.
+  - question: Hvordan omregner man kalorier (kcal) til kilojoule (kJ)?
+    answer: Du omregner kcal til kJ ved at gange antallet af kilokalorier med 4,184.
 ---
 
-Man har ofte bruge for at omregne kJ til kcal (kilojoule til kalorier) eller omvendt fra kcal til kJ (kalorier til kilojoule). Det har jeg lavet en beregner til, som gør det let og automatisk.
+Brug omregneren herunder til lynhurtigt at regne mellem **kilojoule (kJ)** og **kilokalorier (kcal)**. Indtast blot din værdi i feltet:
 
-Du kan naturligvis også selv lave omregningen, når du kender konstanten der kan omregne mellem joule og kalorier. **1 kalorie svarer til 4,184 Joule** og **1 kilokalorie (kcal) svarer til 4,184 kiloJoule**.
+## kJ til kcal omregner
 
-Vi starter med at gå direkte til beregneren, men læs gerne lidt videre af forklaringerne nedenunder.
+{% include calc/energy-unit-converter.html %}
 
-## KJ til kcal beregner
+---
 
-I denne enkle beregner kan du omregne mellem kilojoule og kalorier. Forholdet fra kilojoule til kalorier er 0,239 kcal/kJ. Det betyder, at du skal gange antallet af kJ med 0,239 for at få værdien i kalorier. Du kan også bare dele med de 4,184 J/cal for at omregne fra kJ til kcal.
+## Hvordan omregner man kilojoule til kalorier manuelt?
 
-{% include calculator/calculate-kj-kcal.html %}
+Vil du selv regne efter, er omregningsfaktoren mellem kalorier og kilojoule **4,184**.
 
-## Kcal til kJ omregner
+### Formel: Fra kJ til kcal
+For at omregne fra kilojoule til kilokalorier skal du **dividere med 4,184** (eller gange med 0,239):
 
-Beregneren omregner fra kalorier til kilojoule. Du skal altså gange antallet af kalorier med 4,184 J/cal for at få energien udtrykt i kJ. Det er lettest at lave beregningen fra kcal til kJ i en beregner.
+$$
+\text{kcal} = \frac{\text{kJ}}{4{,}184}
+$$
 
-{% include calculator/calculate-kcal-kj.html %}
+*Eksempel:* $2.000 \text{ kJ} / 4{,}184 = 478 \text{ kcal}$.
 
-## Hvorfor skal jeg omregne fra kcal til kj og tilbage igen?
+### Formel: Fra kcal til kJ
+For at omregne fra kilokalorier til kilojoule skal du **gange med 4,184**:
 
-De fleste madvarer i Danmark har både kalorier og kilojoule i varedeklarationen, men energibetegnelserne bliver ofte anvendt alene forskellige steder. Hvis du fx er vant til at tænke i kalorier, men læser noget hvor svarene er i kJ, så er det rart hurtigt at kunne omregne værdierne.
+$$
+\text{kJ} = \text{kcal} \times 4{,}184
+$$
 
-Hvis du fx bruger vores [beregner til ligevægtsindtag](/ligevaegtsindtag-beregner/), så er det godt at kunne omregne til din foretrukne energiangivelse.
+*Eksempel:* $500 \text{ kcal} \times 4{,}184 = 2.092 \text{ kJ}$.
 
-## Kilokalorier (kcal) vs. kiloJoule (kJ)?
+> **Hovedregne-tip:** Hvis du skal lave en hurtig overslagsberegning i hovedet, kan du nøjes med at gange eller dividere med **4** (eller 4,2).
 
-I daglig tale kalder man det ofte kalorier, når man egentlig taler om kilokalorier. Jeg har skrevet meget mere uddybende om [hvad kalorier er?](/hvad-er-kalorier/).
+---
 
-Men hvordan forholder det sig egentlig med kalorier og joule? De er begge betegnelser for energi, og de fleste støder jævnligt bekendtskab med dem, fordi de står på varedeklarationen på fødevarerne.
+## Hvorfor står der både kJ og kcal på fødevarer?
 
-## Kaloriebetegnelsen er den mest anvendte
+På næringsdeklarationer i Danmark og EU er det lovpligtigt at angive energiindholdet i både **kJ (kiloJoule)** og **kcal (kilokalorier)**. 
 
-Selvom den officielle faglige enhed for energi er Joule, så er det alligevel kalorier der bliver brugt klart mest. Det betyder ikke så meget, hvilken betegnelse du bruger, men du skal bare være helt sikker på, at dem du snakker med bruger samme betegnelse for energi.
+* **Joule (J)** er den officielle SI-enhed for energi i fysikkens verden.
+* **Kalorier (cal)** er den traditionelle enhed, som de fleste kender og bruger i hverdagen, når de tæller kalorier eller beregner deres [ligevægtsindtag](/ligevaegtsindtag-beregner/).
 
-En kalorie er:
-: Den energi der skal bruges til at opvarme 1 gram vand 1 grad.
+I daglig tale kalder vi ofte *kilokalorier (kcal)* for bare "kalorier". Vil du nørde fysiologien bag, kan du læse vores dybdegående artikel om [hvad kalorier egentlig er](/hvad-er-kalorier/).
 
-En Joule er:
-: - den energi der skal bruges til at skabe en effekt på 1 Watt i et sekund
-: - den energi man skal bruge på at flytte et objekt 1 meter med en kraft på 1 newton
-: - den energi man skal bruge på at flytte en ladning på 1 Coulomb igennem en spændingsforskel
+---
 
-Der går **4,184 Joule på en kalorie**. Hvis du skal omregne fra kcal til kJ i hovedet, så kan du bare bruge omregningsfaktor 4 eller 4,2, så rammer du nogenlunde. Hvis du fx skal omregne 3000 kilokalorier til kilojoule, så bliver det altså 12600 kJ eller 12,6 MJ.
+## Energiindhold i makronæringsstoffer (kJ vs. kcal)
 
-## Energiindholdet i de forskellige makronæringsstoffer
+Når du regner på din kost og dine makronæringsstoffer (protein, fedt og kulhydrat), har de forskellig energitæthed pr. gram:
 
-I kostberegninger skal du også vide, hvor meget energi der er i de enkelte makronæringsstoffer.
+| Næringsstof | Energi i kJ/gram | Energi i kcal/gram |
+| :--- | :---: | :---: |
+| **Kulhydrat** | 17 kJ | 4 kcal |
+| **Protein** | 17 kJ | 4 kcal |
+| **Fedt** | 37 kJ | 9 kcal |
+| **Alkohol (ethanol)** | 29 kJ | 7 kcal |
+| **Kostfibre** | 8 kJ | 2 kcal |
 
-Ved beregning af energi skal du benytte følgende omregningsfaktorer:
-
-| Næringsstof | kJ/gram | kcal/gram |
-|-|-|-|
-| Kulhydrat | 17 | 4 |
-| Protein | 17 | 4 |
-| Fedt | 37 | 9 |
-| Alkohol (ethanol) | 29 | 7 |
-| Fibre | 8 | 2 |
+---
 
 ## Ofte stillede spørgsmål
 

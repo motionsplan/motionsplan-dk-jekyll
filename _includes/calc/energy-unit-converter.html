@@ -1,0 +1,246 @@
+{% assign calc_title = include.title | default: "⚡ Energiomregner (kJ ↔ kcal)" %}
+{% assign data_id = include.calc_id | default: "energy-unit-converter" %}
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  
+  /* LYNOMREGNER PRIMÆRE INPUTS (kcal & kJ) */
+  .mp-energy-input {
+    height: 48px !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    font-size: 1.25rem !important;
+    font-weight: 900 !important;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
+    border: 2px solid #cbd5e1 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    transition: all 0.15s ease !important;
+  }
+  .mp-energy-input:focus {
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+    outline: none !important;
+  }
+
+  /* DE TO PRIMÆRE KORT (kcal & kJ) */
+  .mp-primary-unit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
+    margin-bottom: 1.15rem;
+  }
+  .mp-primary-unit-card {
+    border-radius: 14px;
+    padding: 1.15rem 0.85rem;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1.5px solid #bfdbfe;
+    background: #eff6ff;
+  }
+  .mp-primary-unit-card.kj {
+    border-color: #93c5fd;
+    background: #f8fafc;
+  }
+
+  /* SEKUNDÆRE ENHEDER (STRØMLINET 4-GRID) */
+  .mp-secondary-unit-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
+    margin-bottom: 1.15rem;
+  }
+  .mp-secondary-unit-card {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.65rem 0.25rem;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* GARANTERET 2-LINJERS HOVEDER */
+  .mp-sec-unit-label {
+    font-size: 0.625rem !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    text-transform: uppercase !important;
+    display: block !important;
+    line-height: 1.2 !important;
+    height: 2.4em !important; /* Låser til præcis 2 linjer */
+    margin-bottom: 0.35rem !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  /* MINDRE SKRIFT + SKJULT SPINNER-PILE FOR MAKSIMAL PLADS */
+  .mp-secondary-input {
+    width: 100% !important;
+    height: 38px !important;
+    text-align: center !important;
+    font-size: 0.8rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.02em !important;
+    border: 1.5px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    box-sizing: border-box !important;
+    padding: 0 4px !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    transition: all 0.15s ease !important;
+
+    /* Skjul piletaster i Chrome, Safari, Edge, Firefox */
+    -moz-appearance: textfield !important;
+  }
+  .mp-secondary-input::-webkit-outer-spin-button,
+  .mp-secondary-input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+  }
+
+  .mp-secondary-input:focus {
+    border-color: #2563eb !important;
+    outline: none !important;
+  }
+
+  /* HURTIG-PRESETS KNAPPER */
+  .mp-preset-btn-group {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+  }
+  .mp-preset-btn {
+    flex: 1;
+    min-width: 80px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #334155;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+  }
+  .mp-preset-btn:hover {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+  }
+
+  /* FORKLARINGSBOKS */
+  .mp-summary-explanation-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.85rem 1.15rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.8rem;
+    color: #475569;
+    line-height: 1.45;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="energy-unit-converter-ui">
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Lynhurtig to-vejs omregner mellem kilokalorier (kcal), kilojoule (kJ), Joule (J), Megajoule (MJ) og Watt-timer (Wh).
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div style="width: 100%;">
+    
+    <!-- 1. HURTIGE PRESETS -->
+    <div style="margin-bottom: 0.5rem;">
+      <label style="font-size: 0.725rem; font-weight: 800; color: #64748b; text-transform: uppercase; display: block; margin-bottom: 0.35rem;">
+        ⚡ Hurtig-valg:
+      </label>
+      <div class="mp-preset-btn-group">
+        <button type="button" class="mp-preset-btn js-preset-btn" data-unit="kcal" data-val="100">100 kcal</button>
+        <button type="button" class="mp-preset-btn js-preset-btn" data-unit="kcal" data-val="500">500 kcal</button>
+        <button type="button" class="mp-preset-btn js-preset-btn" data-unit="kj" data-val="1000">1.000 kJ</button>
+        <button type="button" class="mp-preset-btn js-preset-btn" data-unit="kwh" data-val="1">1 kWh</button>
+      </div>
+    </div>
+
+    <!-- 2. PRIMÆRE ENHEDER (KCAL & KJ) -->
+    <div class="mp-primary-unit-grid">
+      <!-- KCAL -->
+      <div class="mp-primary-unit-card">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #1e40af; text-transform: uppercase; display: block; margin-bottom: 0.4rem;">
+          🔥 Kilokalorier (kcal)
+        </label>
+        <input type="number" step="any" class="mp-energy-input js-energy-input" data-unit="kcal" placeholder="0" value="500" style="width: 100%;">
+      </div>
+
+      <!-- KJ -->
+      <div class="mp-primary-unit-card kj">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; text-transform: uppercase; display: block; margin-bottom: 0.4rem;">
+          ⚡ Kilojoule (kJ)
+        </label>
+        <input type="number" step="any" class="mp-energy-input js-energy-input" data-unit="kj" placeholder="0" value="2092" style="width: 100%;">
+      </div>
+    </div>
+
+    <!-- 3. SEKUNDÆRE ENHEDER (4 SYMMETRISKE KORT MED PRÆCIS 2 LINJER OG SKJULTE PILE) -->
+    <div class="mp-secondary-unit-grid">
+      <!-- JOULE -->
+      <div class="mp-secondary-unit-card">
+        <label class="mp-sec-unit-label">
+          Joule<br>(J)
+        </label>
+        <input type="number" step="any" class="mp-secondary-input js-energy-input" data-unit="j" placeholder="0">
+      </div>
+
+      <!-- MEGAJOULE -->
+      <div class="mp-secondary-unit-card">
+        <label class="mp-sec-unit-label">
+          Megajoule<br>(MJ)
+        </label>
+        <input type="number" step="any" class="mp-secondary-input js-energy-input" data-unit="mj" placeholder="0">
+      </div>
+
+      <!-- WATT-TIMER -->
+      <div class="mp-secondary-unit-card">
+        <label class="mp-sec-unit-label">
+          Watt-timer<br>(Wh)
+        </label>
+        <input type="number" step="any" class="mp-secondary-input js-energy-input" data-unit="wh" placeholder="0">
+      </div>
+
+      <!-- KILOWATT-TIMER -->
+      <div class="mp-secondary-unit-card">
+        <label class="mp-sec-unit-label">
+          kW-timer<br>(kWh)
+        </label>
+        <input type="number" step="any" class="mp-secondary-input js-energy-input" data-unit="kwh" placeholder="0">
+      </div>
+    </div>
+
+    <!-- 4. DYNAMISK FORKLARINGSBOKS -->
+    <div class="mp-summary-explanation-box">
+      <strong style="color: #0f172a; display: block; margin-bottom: 0.2rem;">📐 Omregningsformel:</strong>
+      <div class="js-res-formula-text">
+        1 kcal = <strong>4,184 kJ</strong> (eller 4.184 Joule). For at regne fra kJ til kcal dividerer du med 4,184.
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+  </div>
+</div>
