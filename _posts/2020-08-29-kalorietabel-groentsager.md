@@ -1,62 +1,93 @@
 ---
-title: Tabel med kalorier i grøntsager 🥦
-seo_title: Hvor mange kalorier er der i grøntsager? 🥦
+title: 'Tabel med kalorier i grøntsager: Se kalorie- og proteinindhold 🥦'
+seo_title: 'Hvor mange kalorier er der i grøntsager? Se stor tabel her'
+description: 'Se hvor mange kalorier, proteiner, kulhydrater og kostfibre der er i grøntsager (gulerod, broccoli, agurk m.fl.). Brug vores store grøntsagstabel.'
 permalink: /kalorietabel-groentsager/
-last_modified_at: '2020-07-29T09:41:09Z'
+last_modified_at: '2026-07-25T18:00:00Z'
 language: da
+classes: wide
 header:
   overlay_image: /assets/images/unsplash/photo-1581283177406-be33dee67044.jpg
   credit: https://images.unsplash.com/photo-1581283177406-be33dee67044
   teaser: /assets/images/unsplash/photo-1581283177406-be33dee67044.jpg
-  caption: Tabel med kalorier i grøntsager 🥦
+  caption: 'Tabel med kalorier i grøntsager 🥦'
 category:
-- Kost & Ernæring
+  - Kost & Ernæring
 tags:
-- fødevarer
-- kalorietabel
+  - fødevarer
+  - kalorietabel
 faq:
-- question: Hvor mange kalorier er der i gulerødder?
-  answer: 1 gulerod på omkring 65 gram indeholder omtrent 25 kalorier fordelt på 0,5 gram protein, 0,3 gram fedt, 4,1 gram
-    kulhydrat og 1,8 gram kostfibre.
-- question: Hvor mange kalorier er der i en agurk?
-  answer: Der er 11 kcal eller 45 kJ i 100 gram agurk.
-- question: Hvor mange kalorier er der i blomkål?
-  answer: I 100 g blomkål er der 23 kcal og 99 kJ. I alt er der 2 g protein, 4,3 gram kulhydrat og 0,4 gram fedt.
-- question: Hvor mange kalorier er der i broccoli?
-  answer: 3 buketter broccoli vejer 90 gram og indeholder 32 kalorier samt 3,2 gram protein, 0,2 gram fedt, 2,8 gram kulhydrat
-    og 2,9 gram kostfibre. 100 gram broccoli indeholder 35 kcal samt 3,6 gram protein, 0,2 gram fedt, 3,1 gram kulhydrat og
-    3,2 gram kostfibre.
+  - question: Hvilken grøntsag indeholder færrest kalorier?
+    answer: Vandholdige grøntsager som agurk (11 kcal pr. 100 g), icebergsalat (13 kcal pr. 100 g), blegselleri og radiser ligger helt i bunden af kalorieskalaen.
+  - question: Hvilke grøntsager indeholder flest proteiner?
+    answer: Bælgfrugter som grønne ærter (ca. 6 g protein pr. 100 g), rosenkål (ca. 4,5 g) og broccoli (ca. 3,6 g) er blandt de mest proteinrige grøntsager.
+  - question: Hvor mange kalorier er der i en gulerod?
+    answer: En almindelig mellemstor gulerod (ca. 65 gram) indeholder cirka 25 kcal og omkring 1,8 gram kostfibre.
+  - question: Hvor mange kalorier er der i broccoli og blomkål?
+    answer: 100 gram rå broccoli indeholder cirka 35 kcal og 3,2 gram kostfibre. 100 gram blomkål indeholder cirka 23 kcal.
 ---
 
-Jeg har samlet en kalorietabel med forskellige typer grøntsager. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for forskellige typer grøntsager.
+Grøntsager er hjørnestenen i en sund, næringsrig og mættende kost. De er fyldt med vitaminer, mineraler, vand og kostfibre – og så har de fleste grøntsager et utroligt lavt kalorieindhold i forhold til, hvor meget de fylder i maven.
 
-Mange vil gerne vide, hvor mange kalorier, der er i grøntsager, så jeg har lavet denne kalorietabel med en oversigt over forskellige typer brød for at hjælpe dig til at finde kalorieindholdet hurtigt.
+I denne **kalorietabel for grøntsager** kan du lynhurtigt finde indholdet af kalorier, kilojoule, protein, fedt, kulhydrater og kostfibre i alle de mest almindelige danske grøntsager.
 
-## Kalorietabel med grøntsager
+---
 
-Kalorietabellen indeholder forskellige typer grøntsager. I tabellen kan du finde kalorier for forskellige typer grøntsager. Du kan også se en [komplet kalorietabel](/kalorietabellen/), [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}) eller [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
+### Hurtigt overblik: Kalorier og protein i populære grøntsager
 
-Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet](/bmr-beregner/). Jeg har også lavet en [liste over MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+Hvis du vil sammensætte måltider til vægttab eller øge dit indtag af planteprotein, får du her et overblik pr. 100 gram:
 
-## Kilder til kalorietabellen over grøntsater
+* **Mest kaloriefattige (under 25 kcal / 100 g):**
+  * Agurk (11 kcal)
+  * Bladselleri (14 kcal)
+  * Tomat (18 kcal)
+  * Blomkål (23 kcal)
+* **Mest proteinrige grøntsager:**
+  * Grønne ærter (ca. 6,0 g protein)
+  * Rosenkål (ca. 4,5 g protein)
+  * Grønkål (ca. 4,0 g protein)
+  * Broccoli (ca. 3,6 g protein)
+* **Energitætte / Stivelsesrige grøntsager:**
+  * Kartoffel (ca. 82 kcal)
+  * Pastinak / Persillerod (ca. 60–65 kcal)
+  * Majs (ca. 80–90 kcal)
 
-Kalorietabellen med grøntsager er baseret på data fra [DTU Fødevareinstituttet](https://frida.fooddata.dk) med grøntsagernes næringsværdi og indholdet af energi og kalorier.
+👉 *Vil du sammenligne grøntsager med andre madvarer? Se vores [samlede kalorietabel over fødevarer](/kalorietabellen/), eller tjek vores specifikke tabeller for [frugt](/kalorietabel-frugt/), [brød](/kalorietabel-broed/) og [kød](/kalorietabel-koed/).*
 
-## Forbehold for tabeller med kalorier
+---
 
-Der er ingen garanti for, at tallene i kalorietabeller nøjagtigt svarer til de grøntsager, du køber i supermarkedet. Dyrkningssted, dyrkningsmetode, høsttidspunkt, opbevaring, friskhed og andre faktorer betyder nemlig også noget for, hvor mange kalorier der er i den specifikke grøntsager.
-{: .notice .notice--info }
+## Kalorietabel med grøntsager 🥦🥕
 
-Tal i kalorie- og næringsstoftabeller er altid cirkatal. Derfor skal du også læse denne tabel med kalorier i grøntsager med forbehold. 
+I tabellen herunder kan du søge og slå næringsindholdet op pr. 100 gram rå fødevare (spiselig del).
 
-Alle tallene i kalorietabellen med grøntsager er per 100 gram rå fødevare (spiselig del).
+{% include components/kalorietabel.html category="groent" %}
 
-## Kalorietabel med grøntsager
+---
 
-{% include table/table-kalorietabellen.html where="grøntsager" %}
+## Hvorfor mætter grøntsager så godt ved vægttab?
 
-Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer grøntsager indholder af ernæring og kalorier.
+Når man ønsker et vægttab eller en stabil vægt, handler det i høj grad om **volumen på tallerkenen**. Grøntsager har en meget lav kaloritæthed, hvilket betyder, at du kan spise store mængder mad for relativt få kalorier.
 
-## Ofte stillede spørgsmål
+Kombinationen af et højt vandindhold og en stor mængde ufordøjelige **kostfibre** forsinker mavesækkens tømning. Det giver en langvarig mæthedsfornemmelse og holder blodsukkeret stabilt gennem dagen.
+
+---
+
+## Kilder og forbehold for tabellen
+
+Data i tabellen stammer fra den officielle danske database [DTU Fødevareinstituttet (Frida)](https://frida.fooddata.dk).
+
+*Bemærk: Alle tal er angivet pr. 100 gram rå grøntsag. Vær opmærksom på, at tilberedningsmetoder (f.eks. stegning i olie eller smør) øger det samlede kalorieindhold i det færdige måltid.*
+
+Vil du kende dit daglige energibehov? Udregn dit [ligevægtsindtag](/ligevaegtsindtag-beregner/) og [basalstofskifte (BMR)](/bmr-beregner/).
+
+---
+
+## Konklusion
+
+Grøntsager er den ultimative fødevaregruppe, når du ønsker at spise dig mæt uden at overskride dit kaloriebudget. Ved at kombinere vandholdige grøntsager som agurk, tomat og blomkål med mere fiber- og proteinrige typer som broccoli, grønkål og ærter opnår du maksimal mæthed, god fordøjelse og et stærkt næringsfundament.
+
+---
+
+## Ofte stillede spørgsmål om kalorier i grøntsager
 
 {% include motionsplan/faq.html %}

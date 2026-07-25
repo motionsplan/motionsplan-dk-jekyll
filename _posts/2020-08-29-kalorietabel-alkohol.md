@@ -1,68 +1,125 @@
 ---
-title: Kalorier i alkohol, vin, øl og spiritus 🍺🍷
+title: "Kalorier i alkohol: Tabel for øl, vin og spiritus 🍺🍷"
 seo_title: Hvor mange kalorier er der i alkohol, vin, øl og spiritus?
+description: Se hvor mange kalorier der er i øl, rødvin, hvidvin, drinks og spiritus. Brug vores store kalorietabel over alkohol til at sammenligne drikkevarer.
 permalink: /kalorietabel-alkohol/
-last_modified_at: '2021-07-28T09:41:09Z'
+last_modified_at: '2026-07-25T18:00:00Z'
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1535958636474-b021ee887b13.jpg
   credit: https://images.unsplash.com/photo-1535958636474-b021ee887b13
   teaser: /assets/images/unsplash/photo-1535958636474-b021ee887b13.jpg
   caption: Kalorier i alkohol, vin, øl og spiritus 🍺🍷
+classes: wide
 category:
-- Kost & Ernæring
+  - Kost & Ernæring
 tags:
-- fødevarer
-- kalorietabel
+  - fødevarer
+  - kalorietabel
 faq:
-- question: Hvor mange kalorier er der i en øl?
-  answer: Det kommer an på, hvilken øl det er - og hvor stor den er. I en Carlsberg Pilsner fadøl med 568 ml på 4.6% alkohol
-    er der 211 kcal.
+  - question: Hvor mange kalorier er der i en øl?
+    answer: En almindelig pilsner (33 cl, 4,6 %) indeholder cirka 125 kcal. En stor fadøl (50 cl) indeholder omkring 190-210 kcal.
+  - question: Hvor mange kalorier er der i et glas vin?
+    answer: Et almindeligt glas rødvin eller tør hvidvin (150 ml) indeholder typisk omkring 100-125 kcal. Sød hvidvin og dessertvin indeholder mere på grund af højere sukkerindhold.
+  - question: Hvilken alkohol indeholder færrest kalorier?
+    answer: Ren spiritus (f.eks. vodka, gin, rom eller whisky) blandet med kaloriefri sodavand (som Cola Zero eller Danskvand) indeholder færrest kalorier pr. genstand (ca. 55-60 kcal pr. 3 cl).
 ---
 
-I denne kalorietabel med alkohol, øl, vin og spiritus kan du se, hvor meget energi i kalorier der findes de de forskellige alkoholiske drikkevarer.
+Vil du vide, hvor mange kalorier du indtager, når du drikker et glas vin, en kold øl eller en drink? 
 
-Mange vil gerne vide, hvor mange kalorier, der er i øl, vin og andre drikke med spiritus, så har jeg lavet denne kalorietabel, så du lynhurtig kan få overblik over kalorieindholdet.
+Alkohol indeholder næsten lige så mange kalorier pr. gram som rent fedt (**7 kcal pr. gram alkohol** i forhold til fedtets 9 kcal). Derfor udgør alkoholiske drikkevarer ofte en usynlig kaloriefælde i hverdagen og i weekenden.
 
-## Kalorietabel med øl, vin og spiritus
+I denne **kalorietabel over alkohol** kan du lynhurtigt slå kalorieindholdet op i øl, rødvin, hvidvin, hedvin og spiritus.
 
-Kalorietabellen indeholder forskellige alkoholiske drikke. Jeg har lavet en anden [kalorietabel med alle fødevarer](/kalorietabellen/) eller en [tabel med energiindholdet i forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel med grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) eller [tabel med energien i brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
+---
 
-Jeg har skrevet lidt om, hvad [kalorier og kilokalorier](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [deres stofskifte](/bmr-beregner/) og [ligevægtsindtaget](/ligevaegtsindtag-beregner/).
+### Hurtigt overblik: Kalorier pr. genstand
 
-## Kilder til kalorietabellen over alkohol
+| Drikkevare | Mængde / Servering | Kalorier (ca.) |
+| :--- | :--- | :---: |
+| **Pilsner øl (4,6 %)** | 1 flaske (33 cl) | **125 kcal** |
+| **Guldøl / Stærk øl (5,7 %)** | 1 flaske (33 cl) | **150 kcal** |
+| **Rødvin (12-13.5 %)** | 1 glas (150 ml) | **115 kcal** |
+| **Tør hvidvin (11-12 %)** | 1 glas (150 ml) | **100 kcal** |
+| **Sød hvidvin / Rosé** | 1 glas (150 ml) | **130 kcal** |
+| **Vodka / Gin / Rom (40 %)** | 1 shot (3 cl) | **65 kcal** |
+| **Rom & Coke / Gin & Tonic** | 1 drink (med almindelig sodavand) | **160 – 200 kcal** |
 
-Kalorietabellen med alkohol er baseret på data fra [DTU Fødevareinstituttet](https://frida.fooddata.dk) med drikkens næringsværdi og indholdet af energi og kalorier.
+👉 *Vil du se kalorieindholdet i madvarer? Se vores [samlede kalorietabel over fødevarer](/kalorietabellen/), eller tjek vores specifikke tabeller for [frugt](/kalorietabel-frugt/), [grøntsager](/kalorietabel-groentsager/) og [brød](/kalorietabel-broed/).*
 
-## Forbehold for tabeller med kalorier
+---
 
-Der er ingen garanti for, at tallene i kalorietabeller nøjagtigt svarer til, du køber i supermarkedet. Drikkevaren kan være lavet på en lidt anden måde, hvilket kan spille ind på næringsindholdet i de forskellige drikkevarer.
-{: .notice .notice--info }
+## Sammenlign drikkevarer direkte ⚖️
 
-Tal i kalorie- og næringsstoftabeller er altid cirkatal. Derfor skal du også læse denne tabel med kalorier med forbehold. 
+Hvad indeholder flest kalorier – en stor pilsner eller et glas rødvin? Brug vores interaktive sammenligner til at stille to fødevarer over for hinanden i præcis de mængder, du indtager:
 
-Alle tallene i kalorietabellen er per 100 gram drikkevare.
+{% include components/sammenlign-foedevare.html 
+   f1="Øl, pilsner, 4,6 vol.%" 
+   g1="330" 
+   f2="Rødvin, 12 vol.%" 
+   g2="150" %}
 
-## Kalorietabel med øl og andre maltdrikke 🍺
+---
 
-{% include table/table-kalorietabellen.html where="Øl og andre maltdrikke" %}
+## Hvorfor indeholder alkohol så mange kalorier?
 
-## Kalorietabel med rødvin og hvidvin 🍷
+Når vi kigger på makronæringsstoffer, opdeles energi i fire primære kilder:
 
-{% include table/table-kalorietabellen.html where="Vine" %}
+* **Protein:** 4 kcal pr. gram
+* **Kulhydrat:** 4 kcal pr. gram
+* **Alkohol:** 7 kcal pr. gram
+* **Fedt:** 9 kcal pr. gram
 
-## Kalorietabel med hedvine 🥂
+Alkohol leverer såkaldte "tomme kalorier" – det vil sige energi uden nævneværdige mængder af vitaminer, mineraler eller kostfibre. Samtidig prioriterer kroppen altid at forbrænde alkoholen først, hvilket midlertidigt sænker forbrændingen af fedt og kulhydrater fra din mad.
 
-{% include table/table-kalorietabellen.html where="Hedvine" %}
+---
 
-## Kalorietabel med spiritus 🥂
+## Kalorietabel med øl og maltdrikke 🍺
 
-{% include table/table-kalorietabellen.html where="Spiritus" %}
+Hvor mange kalorier er der i en øl? Mængden afhænger af både alkoholprocenten og indholdet af restsukker.
 
-## Ofte stillede spørgsmål
+{% include components/kalorietabel.html category="alkohol" subcategory="oel" %}
 
-{% include motionsplan/faq.html %}
+---
+
+## Kalorietabel med rødvin, hvidvin og rosé 🍷
+
+Kalorierne i vin stammer både fra alkoholprocenten og sukkerindholdet. Tørre vine indeholder generelt færre kalorier end søde dessertvine.
+
+{% include components/kalorietabel.html category="alkohol" subcategory="vin" %}
+
+---
+
+## Kalorietabel med hedvine og dessertvine 🥂
+
+{% include components/kalorietabel.html category="alkohol" subcategory="hedvin" %}
+
+---
+
+## Kalorietabel med spiritus og shots 🥃
+
+Ren spiritus indeholder ingen kulhydrater, men har en høj koncentration af alkohol. Pas på sukkerholdige miksere som juice, energidrikke og almindelig sodavand, da de fordobler kalorieindholdet i din drink.
+
+{% include components/kalorietabel.html category="alkohol" subcategory="spiritus" %}
+
+---
+
+## Kilder og forbehold for tabellen
+
+Kalorietabellen er baseret på officielle data fra [DTU Fødevareinstituttet (Frida databasen)](https://frida.fooddata.dk). 
+
+*Bemærk: Alle tal i tabellerne er angivet pr. 100 gram (ca. 100 ml) drikkevare. Da brygmetoder, alkoholprocenter og sukkerindhold varierer fra mærke til mærke, skal tallene betragtes som vejledende gennemsnit.*
+
+Hvis du vil holde øje med dit samlede energiindtag i forhold til dit vægttab eller din træning, kan du udregne dit personlige [ligevægtsindtag](/ligevaegtsindtag-beregner/) og [basalstofskifte (BMR)](/bmr-beregner/).
+
+---
 
 ## Konklusion
 
-Jeg håber du kan bruge vores tabel til at se, hvad de forskellige alkoholiske drikke indholder af ernæring og kalorier.
+Alkoholholdige drikkevarer kan hurtigt øge dit daglige energiindtag ubevidst, fordi flydende kalorier ikke mætter på samme måde som fast føde. Hvis du ønsker at passe på kaloriebudgettet uden helt at undvære alkohol, kan du med fordel vælge tørre vine, lys pilsner eller spiritus blandet med kaloriefri sodavand – og nyde det i moderate mængder.
+
+---
+
+## Ofte stillede spørgsmål om kalorier i alkohol
+
+{% include motionsplan/faq.html %}

@@ -1,0 +1,619 @@
+<!-- Fødevare Sammenligning (Perfekt tekst-alignment uden afskårne bogstaver) -->
+<div class="sammenlign-app" 
+     data-f1="{{ include.f1 | default: 'Øl, pilsner, 4.4 % vol.' }}" 
+     data-g1="{{ include.g1 | default: '330' }}"
+     data-f2="{{ include.f2 | default: 'Rødvin, uspec.' }}" 
+     data-g2="{{ include.g2 | default: '150' }}">
+
+  <!-- Quick Presets (Single-line horizontal scroll) -->
+  <div class="sm-presets">
+    <span class="sm-preset-label">🔥 Populære sammenligninger:</span>
+    <div class="sm-preset-scroll">
+      <div class="sm-preset-buttons">
+        <button type="button" class="sm-preset-btn" data-f1="Øl, pilsner, 4.4 % vol." data-g1="330" data-f2="Rødvin, uspec." data-g2="150">🍺 Øl (33 cl) vs 🍷 Rødvin (15 cl)</button>
+        <button type="button" class="sm-preset-btn" data-f1="Kylling, kød, rå" data-g1="100" data-f2="Oksekød, hakket, 15-20% fedt, rå" data-g2="100">🍗 Kylling vs 🥩 Oksekød 15-20%</button>
+        <button type="button" class="sm-preset-btn" data-f1="Rugbrød, fuldkorn, industrifremstillet" data-g1="50" data-f2="Franskbrød" data-g2="50">🍞 Rugbrød (1 skive) vs 🥖 Franskbrød</button>
+        <button type="button" class="sm-preset-btn" data-f1="Æble, uspec., råt" data-g1="120" data-f2="Banan, rå" data-g2="100">🍎 Æble vs 🍌 Banan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main 1x2 Comparison Grid -->
+  <div class="sm-grid">
+    
+    <!-- Kort 1 -->
+    <div class="sm-card sm-card-1">
+      <div class="sm-card-header">
+        <div class="sm-search-box">
+          <label>Vælg fødevare 1</label>
+          <input type="text" class="sm-search-input sm-input-1" placeholder="🔍 Søg fødevare..." autocomplete="off" />
+          <div class="sm-dropdown sm-dropdown-1" style="display:none;"></div>
+        </div>
+        <div class="sm-portion-box">
+          <label>Mængde</label>
+          <div class="sm-gram-wrapper">
+            <input type="number" class="sm-gram-input sm-gram-1" min="1" max="2000" value="100" />
+            <span>g/ml</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Badges zonen -->
+      <div class="sm-badges sm-badges-1"></div>
+
+      <div class="sm-card-body">
+        <!-- Titel & Gruppe med udvidet min-højde -->
+        <h3 class="sm-title sm-title-1">-</h3>
+        <p class="sm-group sm-group-1">-</p>
+
+        <div class="sm-main-stat">
+          <span class="sm-kcal-val sm-kcal-1">0</span>
+          <span class="sm-kcal-unit">kcal</span>
+          <span class="sm-kj-val sm-kj-1">(0 kJ)</span>
+        </div>
+
+        <!-- Makroer -->
+        <div class="sm-macros">
+          <div class="sm-macro-item">
+            <span class="sm-macro-label">Protein</span>
+            <strong class="sm-macro-val sm-prot-1">0g</strong>
+            <div class="sm-progress"><div class="sm-bar sm-bar-prot sm-bar-prot-1" style="width:0%"></div></div>
+          </div>
+          <div class="sm-macro-item">
+            <span class="sm-macro-label">Kulhydrat</span>
+            <strong class="sm-macro-val sm-kulh-1">0g</strong>
+            <div class="sm-progress"><div class="sm-bar sm-bar-kulh sm-bar-kulh-1" style="width:0%"></div></div>
+          </div>
+          <div class="sm-macro-item">
+            <span class="sm-macro-label">Fedt</span>
+            <strong class="sm-macro-val sm-fedt-1">0g</strong>
+            <div class="sm-progress"><div class="sm-bar sm-bar-fedt sm-bar-fedt-1" style="width:0%"></div></div>
+          </div>
+        </div>
+
+        <!-- Ekstra detaljer -->
+        <div class="sm-details">
+          <div class="sm-detail-row"><span>🌾 Kostfibre:</span><strong class="sm-fiber-1">0g</strong></div>
+          <div class="sm-detail-row"><span>🍬 Sukkerarter:</span><strong class="sm-sukker-1">0g</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VS Divider Badge -->
+    <div class="sm-vs-badge">VS</div>
+
+    <!-- Kort 2 -->
+    <div class="sm-card sm-card-2">
+      <div class="sm-card-header">
+        <div class="sm-search-box">
+          <label>Vælg fødevare 2</label>
+          <input type="text" class="sm-search-input sm-input-2" placeholder="🔍 Søg fødevare..." autocomplete="off" />
+          <div class="sm-dropdown sm-dropdown-2" style="display:none;"></div>
+        </div>
+        <div class="sm-portion-box">
+          <label>Mængde</label>
+          <div class="sm-gram-wrapper">
+            <input type="number" class="sm-gram-input sm-gram-2" min="1" max="2000" value="100" />
+            <span>g/ml</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Badges zonen -->
+      <div class="sm-badges sm-badges-2"></div>
+
+      <div class="sm-card-body">
+        <!-- Titel & Gruppe med udvidet min-højde -->
+        <h3 class="sm-title sm-title-2">-</h3>
+        <p class="sm-group sm-group-2">-</p>
+
+        <div class="sm-main-stat">
+          <span class="sm-kcal-val sm-kcal-2">0</span>
+          <span class="sm-kcal-unit">kcal</span>
+          <span class="sm-kj-val sm-kj-2">(0 kJ)</span>
+        </div>
+
+        <!-- Makroer -->
+        <div class="sm-macros">
+          <div class="sm-macro-item">
+            <span class="sm-macro-label">Protein</span>
+            <strong class="sm-macro-val sm-prot-2">0g</strong>
+            <div class="sm-progress"><div class="sm-bar sm-bar-prot sm-bar-prot-2" style="width:0%"></div></div>
+          </div>
+          <div class="sm-macro-item">
+            <span class="sm-macro-label">Kulhydrat</span>
+            <strong class="sm-macro-val sm-kulh-2">0g</strong>
+            <div class="sm-progress"><div class="sm-bar sm-bar-kulh sm-bar-kulh-2" style="width:0%"></div></div>
+          </div>
+          <div class="sm-macro-item">
+            <span class="sm-macro-label">Fedt</span>
+            <strong class="sm-macro-val sm-fedt-2">0g</strong>
+            <div class="sm-progress"><div class="sm-bar sm-bar-fedt sm-bar-fedt-2" style="width:0%"></div></div>
+          </div>
+        </div>
+
+        <!-- Ekstra detaljer -->
+        <div class="sm-details">
+          <div class="sm-detail-row"><span>🌾 Kostfibre:</span><strong class="sm-fiber-2">0g</strong></div>
+          <div class="sm-detail-row"><span>🍬 Sukkerarter:</span><strong class="sm-sukker-2">0g</strong></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<style>
+.sammenlign-app {
+  margin: 2rem 0;
+  font-family: inherit;
+  box-sizing: border-box;
+  width: 100%;
+}
+.sammenlign-app *, .sammenlign-app *::before, .sammenlign-app *::after { box-sizing: border-box; }
+
+/* Presets */
+.sm-presets { margin-bottom: 1.2rem; }
+.sm-preset-label { font-size: 0.85rem; font-weight: 600; color: #495057; display: block; margin-bottom: 6px; }
+.sm-preset-scroll { 
+  overflow-x: auto; 
+  white-space: nowrap; 
+  -webkit-overflow-scrolling: touch; 
+  scrollbar-width: none; 
+}
+.sm-preset-scroll::-webkit-scrollbar { display: none; }
+.sm-preset-buttons { display: inline-flex; gap: 6px; padding: 2px 0; }
+.sm-preset-btn {
+  background: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.sm-preset-btn:hover { background: #007bff; color: #fff; border-color: #007bff; }
+
+/* Grid 1x2 */
+.sm-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 15px;
+  align-items: stretch;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .sm-grid { grid-template-columns: 1fr; gap: 20px; }
+  .sm-vs-badge { margin: -10px auto !important; }
+}
+
+/* VS Badge */
+.sm-vs-badge {
+  background: #343a40;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.85rem;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+/* Card Styling */
+.sm-card {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sm-card-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.sm-search-box { flex: 1; position: relative; min-width: 0; }
+.sm-search-box label, .sm-portion-box label { 
+  display: block; 
+  font-size: 0.72rem; 
+  font-weight: 700; 
+  color: #6c757d; 
+  margin-bottom: 4px; 
+  text-transform: uppercase; 
+  letter-spacing: 0.3px;
+}
+
+.sm-search-input {
+  width: 100%;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 0.88rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  outline: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #fff;
+}
+.sm-search-input:focus { border-color: #007bff; box-shadow: 0 0 0 3px rgba(0,123,255,0.12); }
+
+/* Autocomplete Dropdown */
+.sm-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 100;
+  margin-top: 4px;
+}
+.sm-dropdown-item {
+  padding: 8px 12px;
+  font-size: 0.84rem;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f3f5;
+}
+.sm-dropdown-item:hover { background: #007bff; color: #fff; }
+.sm-dropdown-item small { display: block; opacity: 0.7; font-size: 0.75rem; }
+
+/* Gram Input */
+.sm-portion-box { width: 100px; flex-shrink: 0; }
+.sm-gram-wrapper { display: flex; align-items: center; border: 1px solid #ced4da; border-radius: 6px; padding: 0 8px; background: #fff; height: 38px; }
+.sm-gram-input {
+  width: 100%;
+  height: 36px;
+  border: none;
+  padding: 0 4px 0 0;
+  font-size: 0.90rem;
+  font-weight: 600;
+  outline: none;
+  text-align: right;
+  background: transparent;
+}
+.sm-gram-input::-webkit-outer-spin-button,
+.sm-gram-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.sm-gram-input[type=number] { -moz-appearance: textfield; }
+.sm-gram-wrapper span { font-size: 0.75rem; color: #888; flex-shrink: 0; }
+
+/* Badges zonen med fast højde */
+.sm-badges { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 4px; 
+  min-height: 28px; 
+  align-items: center;
+  margin-bottom: 8px; 
+}
+.sm-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
+}
+.sm-badge-winner { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+.sm-badge-high { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+
+/* Card Body med udvidede linjehøjder for at forhindre clipping */
+.sm-card-body { flex: 1; display: flex; flex-direction: column; }
+
+.sm-title { 
+  font-size: 1.05rem; 
+  font-weight: 700; 
+  margin: 0 0 4px 0; 
+  color: #212529; 
+  line-height: 1.35; 
+  min-height: 2.8rem; /* Sikrer 2 linjers højde uden beskæring */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sm-group { 
+  font-size: 0.80rem; 
+  line-height: 1.35rem; 
+  color: #888; 
+  margin: 0 0 12px 0; 
+  min-height: 1.35rem; /* Forhindrer at underlængder (g, p, y, j, æ, ø, å) kapping */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sm-main-stat {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+  border: 1px solid #f1f3f5;
+}
+.sm-kcal-val { font-size: 1.8rem; font-weight: 800; color: #007bff; line-height: 1; }
+.sm-kcal-unit { font-size: 0.9rem; font-weight: 600; color: #007bff; margin-right: 6px; }
+.sm-kj-val { font-size: 0.8rem; color: #6c757d; }
+
+/* Makroer */
+.sm-macros { display: flex; flex-direction: column; gap: 8px; margin-bottom: 15px; margin-top: auto; }
+.sm-macro-item { font-size: 0.82rem; }
+.sm-macro-label { color: #495057; display: inline-block; width: 70px; }
+.sm-macro-val { font-weight: 700; color: #212529; float: right; }
+.sm-progress { height: 6px; background: #e9ecef; border-radius: 3px; overflow: hidden; margin-top: 3px; }
+.sm-bar { height: 100%; border-radius: 3px; transition: width 0.3s ease; }
+.sm-bar-prot { background: #28a745; }
+.sm-bar-kulh { background: #ffc107; }
+.sm-bar-fedt { background: #dc3545; }
+
+/* Ekstra detaljer */
+.sm-details { border-top: 1px solid #f1f3f5; padding-top: 10px; font-size: 0.80rem; display: flex; flex-direction: column; gap: 4px; }
+.sm-detail-row { display: flex; justify-content: space-between; color: #6c757d; }
+.sm-detail-row strong { color: #333; }
+</style>
+
+<script>
+(function() {
+  if (!window.kalorieDataPromise) {
+    function parseNum(val) {
+      if (typeof val === 'number') return val;
+      if (!val) return 0;
+      const cleaned = String(val).replace(',', '.').trim();
+      const num = parseFloat(cleaned);
+      return isNaN(num) ? 0 : num;
+    }
+
+    window.kalorieDataPromise = fetch('/assets/data/kalorietabel.json')
+      .then(res => res.json())
+      .then(rawList => {
+        return rawList
+          .filter(item => item.Navn && item.Navn !== 'Navn')
+          .map(item => ({
+            navn: item.Navn || '',
+            gruppe: item.Gruppe || '',
+            kcal: parseNum(item.kcal),
+            kj: parseNum(item.kJ),
+            protein: parseNum(item.Protein),
+            kulhydrat: parseNum(item.Kulhydrat),
+            fedt: parseNum(item.Fedt),
+            kostfibre: parseNum(item.Kostfibre),
+            sukker: parseNum(item.Sukker)
+          }));
+      });
+  }
+
+  function smartFindItem(query, dataList) {
+    if (!query) return null;
+    const q = query.toLowerCase().trim();
+
+    let found = dataList.find(d => d.navn.toLowerCase() === q);
+    if (found) return found;
+
+    found = dataList.find(d => d.navn.toLowerCase().startsWith(q));
+    if (found) return found;
+
+    try {
+      const regex = new RegExp('\\b' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      found = dataList.find(d => regex.test(d.navn));
+      if (found) return found;
+    } catch(e) {}
+
+    found = dataList.find(d => d.navn.toLowerCase().includes(q));
+    if (found) return found;
+
+    return null;
+  }
+
+  function initSammenlignInstance(app) {
+    if (app.dataset.initialized === 'true') return;
+    app.dataset.initialized = 'true';
+
+    let allData = [];
+    let item1 = null;
+    let item2 = null;
+
+    const input1 = app.querySelector('.sm-input-1');
+    const input2 = app.querySelector('.sm-input-2');
+    const dropdown1 = app.querySelector('.sm-dropdown-1');
+    const dropdown2 = app.querySelector('.sm-dropdown-2');
+    const gram1Input = app.querySelector('.sm-gram-1');
+    const gram2Input = app.querySelector('.sm-gram-2');
+
+    gram1Input.value = app.dataset.g1 || 100;
+    gram2Input.value = app.dataset.g2 || 100;
+
+    window.kalorieDataPromise.then(data => {
+      allData = data;
+
+      const defaultName1 = app.dataset.f1 || 'Øl, pilsner, 4.4 % vol.';
+      const defaultName2 = app.dataset.f2 || 'Rødvin, uspec.';
+
+      item1 = smartFindItem(defaultName1, allData) || allData[0];
+      item2 = smartFindItem(defaultName2, allData) || allData[1];
+
+      input1.value = item1 ? item1.navn : '';
+      input2.value = item2 ? item2.navn : '';
+
+      updateView();
+    });
+
+    function setupSearch(inputEl, dropdownEl, setItemCallback) {
+      inputEl.addEventListener('input', () => {
+        const query = inputEl.value.toLowerCase().trim();
+        if (!query) { dropdownEl.style.display = 'none'; return; }
+
+        const matches = allData.filter(d => d.navn.toLowerCase().includes(query)).slice(0, 6);
+        if (matches.length === 0) { dropdownEl.style.display = 'none'; return; }
+
+        let html = '';
+        matches.forEach(m => {
+          html += `<div class="sm-dropdown-item" data-navn="${m.navn}">
+                    <strong>${m.navn}</strong>
+                    <small>${m.gruppe} • ${m.kcal} kcal / 100g</small>
+                   </div>`;
+        });
+        dropdownEl.innerHTML = html;
+        dropdownEl.style.display = 'block';
+      });
+
+      dropdownEl.addEventListener('click', e => {
+        const itemRow = e.target.closest('.sm-dropdown-item');
+        if (itemRow) {
+          const navn = itemRow.dataset.navn;
+          const found = allData.find(d => d.navn === navn);
+          if (found) {
+            inputEl.value = found.navn;
+            setItemCallback(found);
+            dropdownEl.style.display = 'none';
+            updateView();
+          }
+        }
+      });
+
+      document.addEventListener('click', e => {
+        if (!inputEl.contains(e.target) && !dropdownEl.contains(e.target)) {
+          dropdownEl.style.display = 'none';
+        }
+      });
+    }
+
+    setupSearch(input1, dropdown1, (found) => { item1 = found; });
+    setupSearch(input2, dropdown2, (found) => { item2 = found; });
+
+    gram1Input.addEventListener('input', updateView);
+    gram2Input.addEventListener('input', updateView);
+
+    app.querySelectorAll('.sm-preset-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const f1 = btn.dataset.f1;
+        const f2 = btn.dataset.f2;
+        const g1 = btn.dataset.g1 || 100;
+        const g2 = btn.dataset.g2 || 100;
+
+        const found1 = smartFindItem(f1, allData);
+        const found2 = smartFindItem(f2, allData);
+
+        if (found1 && found2) {
+          item1 = found1;
+          item2 = found2;
+          input1.value = found1.navn;
+          input2.value = found2.navn;
+          gram1Input.value = g1;
+          gram2Input.value = g2;
+          updateView();
+        }
+      });
+    });
+
+    function updateView() {
+      if (!item1 || !item2) return;
+
+      const g1 = parseFloat(gram1Input.value) || 100;
+      const g2 = parseFloat(gram2Input.value) || 100;
+
+      const calc1 = {
+        kcal: Math.round(item1.kcal * (g1 / 100)),
+        kj: Math.round(item1.kj * (g1 / 100)),
+        protein: Math.round(item1.protein * (g1 / 100) * 10) / 10,
+        kulhydrat: Math.round(item1.kulhydrat * (g1 / 100) * 10) / 10,
+        fedt: Math.round(item1.fedt * (g1 / 100) * 10) / 10,
+        kostfibre: Math.round(item1.kostfibre * (g1 / 100) * 10) / 10,
+        sukker: Math.round(item1.sukker * (g1 / 100) * 10) / 10
+      };
+
+      const calc2 = {
+        kcal: Math.round(item2.kcal * (g2 / 100)),
+        kj: Math.round(item2.kj * (g2 / 100)),
+        protein: Math.round(item2.protein * (g2 / 100) * 10) / 10,
+        kulhydrat: Math.round(item2.kulhydrat * (g2 / 100) * 10) / 10,
+        fedt: Math.round(item2.fedt * (g2 / 100) * 10) / 10,
+        kostfibre: Math.round(item2.kostfibre * (g2 / 100) * 10) / 10,
+        sukker: Math.round(item2.sukker * (g2 / 100) * 10) / 10
+      };
+
+      // Kort 1
+      app.querySelector('.sm-title-1').textContent = item1.navn;
+      app.querySelector('.sm-group-1').textContent = item1.gruppe;
+      app.querySelector('.sm-kcal-1').textContent = calc1.kcal;
+      app.querySelector('.sm-kj-1').textContent = `(${calc1.kj} kJ)`;
+      app.querySelector('.sm-prot-1').textContent = `${calc1.protein}g`;
+      app.querySelector('.sm-kulh-1').textContent = `${calc1.kulhydrat}g`;
+      app.querySelector('.sm-fedt-1').textContent = `${calc1.fedt}g`;
+      app.querySelector('.sm-fiber-1').textContent = `${calc1.kostfibre}g`;
+      app.querySelector('.sm-sukker-1').textContent = `${calc1.sukker}g`;
+
+      // Kort 2
+      app.querySelector('.sm-title-2').textContent = item2.navn;
+      app.querySelector('.sm-group-2').textContent = item2.gruppe;
+      app.querySelector('.sm-kcal-2').textContent = calc2.kcal;
+      app.querySelector('.sm-kj-2').textContent = `(${calc2.kj} kJ)`;
+      app.querySelector('.sm-prot-2').textContent = `${calc2.protein}g`;
+      app.querySelector('.sm-kulh-2').textContent = `${calc2.kulhydrat}g`;
+      app.querySelector('.sm-fedt-2').textContent = `${calc2.fedt}g`;
+      app.querySelector('.sm-fiber-2').textContent = `${calc2.kostfibre}g`;
+      app.querySelector('.sm-sukker-2').textContent = `${calc2.sukker}g`;
+
+      const maxProt = Math.max(calc1.protein, calc2.protein, 1);
+      const maxKulh = Math.max(calc1.kulhydrat, calc2.kulhydrat, 1);
+      const maxFedt = Math.max(calc1.fedt, calc2.fedt, 1);
+
+      app.querySelector('.sm-bar-prot-1').style.width = `${(calc1.protein / maxProt) * 100}%`;
+      app.querySelector('.sm-bar-prot-2').style.width = `${(calc2.protein / maxProt) * 100}%`;
+
+      app.querySelector('.sm-bar-kulh-1').style.width = `${(calc1.kulhydrat / maxKulh) * 100}%`;
+      app.querySelector('.sm-bar-kulh-2').style.width = `${(calc2.kulhydrat / maxKulh) * 100}%`;
+
+      app.querySelector('.sm-bar-fedt-1').style.width = `${(calc1.fedt / maxFedt) * 100}%`;
+      app.querySelector('.sm-bar-fedt-2').style.width = `${(calc2.fedt / maxFedt) * 100}%`;
+
+      // Badges
+      const b1 = app.querySelector('.sm-badges-1');
+      const b2 = app.querySelector('.sm-badges-2');
+      b1.innerHTML = '';
+      b2.innerHTML = '';
+
+      if (calc1.kcal > calc2.kcal) {
+        b1.innerHTML += `<span class="sm-badge sm-badge-high">⚡ Flest kalorier</span>`;
+      } else if (calc2.kcal > calc1.kcal) {
+        b2.innerHTML += `<span class="sm-badge sm-badge-high">⚡ Flest kalorier</span>`;
+      }
+
+      if (calc1.protein > calc2.protein && calc1.protein >= 3) {
+        b1.innerHTML += `<span class="sm-badge sm-badge-winner">💪 Mest protein</span>`;
+      } else if (calc2.protein > calc1.protein && calc2.protein >= 3) {
+        b2.innerHTML += `<span class="sm-badge sm-badge-winner">💪 Mest protein</span>`;
+      }
+
+      if (calc1.kostfibre > calc2.kostfibre && calc1.kostfibre >= 2) {
+        b1.innerHTML += `<span class="sm-badge sm-badge-winner">🌾 Flest fibre</span>`;
+      } else if (calc2.kostfibre > calc1.kostfibre && calc2.kostfibre >= 2) {
+        b2.innerHTML += `<span class="sm-badge sm-badge-winner">🌾 Flest fibre</span>`;
+      }
+    }
+  }
+
+  document.querySelectorAll('.sammenlign-app').forEach(initSammenlignInstance);
+})();
+</script>

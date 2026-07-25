@@ -1,77 +1,96 @@
 ---
-title: Gratis tabel med kalorier i frugt og bær 🥭
+title: Gratis tabel med kalorier og sukker i frugt og bær 🥭🍎
+seo_title: Kalorier og sukkerindhold i frugt – Se stor tabel her
+description: Hvor mange kalorier og hvor meget sukker er der i frugt? Se vores kalorietabel over frugt og bær (banan, æble, vindruer, jordbær m.fl.).
 permalink: /kalorietabel-frugt/
-last_modified_at: '2020-07-29T09:41:09Z'
+last_modified_at: '2026-07-25T18:00:00Z'
 language: da
+classes: wide
 header:
   overlay_image: /assets/images/unsplash/photo-1580912534328-fbc00d6f7e9f.jpg
   credit: https://images.unsplash.com/photo-1580912534328-fbc00d6f7e9f
   teaser: /assets/images/unsplash/photo-1580912534328-fbc00d6f7e9f.jpg
   caption: Gratis tabel med kalorier i frugt og bær 🥭
 category:
-- Kost & Ernæring
+  - Kost & Ernæring
 tags:
-- fødevarer
-- kalorietabel
+  - fødevarer
+  - kalorietabel
 faq:
-- question: Hvilken frugt indeholder færrest kalorier?
-  answer: 100 gram netmelon indeholder kun 99 kJ eller 23 kalorier.
-- question: Hvilken frugt eller nødder indeholder flest kalorier?
-  answer: 100 gram pecannødder indeholder 3076 kJ eller 747 kalorier. Nødder er noget mere energitætte end frugter.
-- question: Hvor mange kalorier er der i en banan?
-  answer: En hel banan indeholder ca. 120 kalorier.
-- question: Hvor mange kalorier er der i vindruer?
-  answer: 'I 100 gram vindruer er der cirka 67 kcal. 100 gram vindruer indeholder 0,6 gram protein, 0 gram fedt, 15,7 gram
-    kulhydrat og 0,9 gram kostfibre. Energifordeling for vindruer: 93,7 E% kulhydrat, 3,6 E% protein, 2,7 E% kostfiber, 0,0
-    E% fedt.'
-- question: Hvor mange kalorier er der i et æble?
-  answer: Ved et normalt æble med skræl på kan du forvente omtrent 50-80 kalorier. Ved et af de helt store æbler får du op
-    til 120 kalorier.
-- question: Hvor mange kalorier er der i dadler?
-  answer: 100 gram dadler indeholder 309 kcal samt 2 gram protein, 0,5 gram fedt, 71,2 gram kulhydrat og 6,4 gram kostfibre.
+  - question: Hvilken frugt indeholder færrest kalorier?
+    answer: Bær som jordbær (37 kcal pr. 100 g), hindbær (52 kcal pr. 100 g) samt melonsorter som netmelon og vandmelon (23–35 kcal pr. 100 g) indeholder færrest kalorier.
+  - question: Hvilken frugt indeholder flest kalorier og mest sukker?
+    answer: Tørret frugt (som dadler med 309 kcal pr. 100 g og rosiner) samt friske bananer (88 kcal pr. 100 g) og vindruer (67 kcal pr. 100 g) ligger i den høje ende for kalorier og sukkerindhold.
+  - question: Hvor mange kalorier er der i en banan?
+    answer: En almindelig mellemstor banan (ca. 100-120 gram uden skræl) indeholder omkring 90–110 kcal.
+  - question: Hvor mange kalorier og hvor meget sukker er der i vindruer?
+    answer: 100 gram vindruer indeholder cirka 67 kcal og ca. 15,7 gram kulhydrat (hvoraf størstedelen er naturligt frugtsukker).
+  - question: Hvor mange kalorier er der i et æble?
+    answer: Et almindeligt mellemstort æble med skræl (ca. 120-130 gram) indeholder omkring 60–75 kcal.
 ---
 
-Jeg har samlet en kalorietabel over alverdens frugt og bær. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre.
+Frugt og bær er fyldt med vitaminer, mineraler, væske og vigtige kostfibre – men hvor mange kalorier og hvor meget frugtsukker indeholder de egentlig?
 
-Mange vil gerne vide, hvor mange kalorier der er i en appelsin og æbler, så denne kalorietabel med frugt kan hjælpe dig med at finde kalorieindholdet hurtigt.
+I denne **kalorietabel for frugt og bær** finder du et hurtigt overblik over kalorieindhold, kulhydrat, sukker, fedt og kostfibre i de mest populære frugter i Danmark.
 
-## Kalorietabel med frugt og bær
+---
 
-Kalorietabellen indeholder de mest gængse frugter i Danmark. I tabellen kan du finde forskellige frugter og bær. Du kan også se en [komplet kalorietabel](/kalorietabellen/), [kalorietabel over forskellige grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}) eller [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
+### Hurtigt overblik: Frugter med flest og færrest kalorier
 
-Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg](/hvad-er-kalorier/). Mange kigger på kalorier i fødevarer sammen med [stofskiftet](/bmr-beregner/) og [dit ligevægtsindtag, som jeg har lavet en beregner til](/ligevaegtsindtag-beregner/). Jeg har også lavet en [oversigt over MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+Vil du have styr på frugtsukkeret og energiindholdet, kan du bruge denne opdeling pr. 100 gram:
 
-## Kilder til kalorietabellen over frugt og bær
+* **Kaloriefattige frugter & bær (under 45 kcal / 100 g):** 
+  * Netmelon (23 kcal)
+  * Jordbær (37 kcal)
+  * Watermelon (35 kcal)
+  * Grapefrugt (42 kcal)
+* **Middel kalorieindhold (45 – 65 kcal / 100 g):**
+  * Æble (52 kcal)
+  * Appelsin (47 kcal)
+  * Pære (57 kcal)
+  * Blueberries / Blåbær (57 kcal)
+* **Kalorietætte frugter (over 65 kcal / 100 g):**
+  * Vindruer (67 kcal)
+  * Banan (88 kcal)
+  * Avocado (160 kcal – pga. sunde fedtsyre)
+  * Tørret frugt (f.eks. dadler med 309 kcal og rosiner med 300 kcal)
 
-Kalorietabellen med frugt er baseret på data fra [DTU Fødevareinstituttet](https://frida.fooddata.dk) med frugternes næringsværdi og indholdet af energi og kalorier.
+👉 *Vil du sammenligne frugt med andre fødevarer? Se vores [samlede kalorietabel over mad](/kalorietabellen/), eller tjek vores specifikke tabeller for [grøntsager](/kalorietabel-groentsager/), [brød](/kalorietabel-broed/) og [kød](/kalorietabel-koed/).*
 
-## Forbehold for tabeller med kalorier
+---
 
-Der er ingen garanti for, at tallene i kalorietabeller nøjagtigt svarer til de frugter, du har købt i supermarkedet. Æbler, appelsiner, pærer og andre frugter har forskelligt dyrkningssted, dyrkningsmetode, høsttidspunkt, opbevaring, friskhed og andre faktorer betyder nemlig også noget for, hvor mange kalorier der er i den specifikke frugt.
-{: .notice .notice--info }
+## Kalorietabel med frugt og bær 🥭🍎
 
-Tal i kalorie- og næringsstoftabeller er altid cirkatal. Derfor skal du også læse denne tabel med kalorier i frugter med forbehold. 
+I tabellen herunder kan du søge og slå næringsindholdet op pr. 100 gram rå fødevare (spiselig del).
 
-Alle tallene i kalorietabellen med frugter er per 100 gram rå fødevare (spiselig del).
+{% include components/kalorietabel.html category="frugt" %}
 
-## Kalorietabel med frugt og bær
+---
 
-{% include table/table-kalorietabellen.html where="frugt" %}
+## Frugtsukker vs. Vægttab: "Feder" frugt?
 
-Jeg håber du kan bruge vores tabel til at se, hvad de forskellige frugter og bær indholder af ernæring og kalorier.
+Mange, der gerne vil tabe sig, bliver urolige for frugtsukker (fruktose). Selvom frugt indeholder naturligt sukker, er det vigtigt at huske, at sukkeret i frugt kommer pakket ind i **vand og kostfibre**. 
 
-## Ofte stillede spørgsmål
+Fibrene gør, at sukkeret optages langsommere i blodet, hvilket giver en bedre mæthedsfornemmelse sammenlignet med tilsat sukker fra slik og sodavand. Frugt er derfor en glimrende erstatning for søde sager.
+
+---
+
+## Kilder og forbehold for tabellen
+
+Tallene i denne kalorietabel er hentet fra den officielle danske fødevaredatabase hos [DTU Fødevareinstituttet (Frida)](https://frida.fooddata.dk).
+
+*Bemærk: Da frugters modenhed, dyrkningssted og størrelse varierer, er alle værdier angivet som vejledende gennemsnit pr. 100 gram.*
+
+Vil du udregne dit samlede daglige energibehov? Brug vores beregnere til [basalstofskifte (BMR)](/bmr-beregner/) og [ligevægtsindtag](/ligevaegtsindtag-beregner/).
+
+---
+
+## Konklusion
+
+Frugt og bær er sundt, næringsrigt og en perfekt kilde til naturlig sødme i hverdagen. Hvis du ønsker at maksimere mætheden for færrest mulige kalorier, kan du med fordel skrue op for bær og melonsorter, mens mere kaloritætte frugter som bananer, vindruer og tørret frugt nydes i lidt mindre portioner.
+
+---
+
+## Ofte stillede spørgsmål om kalorier og sukker i frugt
 
 {% include motionsplan/faq.html %}
-
-{% comment %}
-## Hvilke frugter indeholder flest kalorier?
-
-{% include table/table-kalorietabellen.html where="frugt_most" limit="3" %}
-
-## Hvilke frugter indeholder færrest kalorier?
-
-{% include table/table-kalorietabellen.html where="frugt_lowest" limit="3" %}
-
-## Hvor meget feder frugt?
-{% endcomment %}

@@ -1,8 +1,9 @@
 ---
-title: 'Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
-seo_title: 'Kalorietabel: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
+title: 'Kalorietabellen: Gratis tabel over kalorier i mad 🥭🥩🥦'
+seo_title: 'Kalorietabel: Hvor mange kalorier er der i mad? Søg her'
+description: 'Søgbar kalorietabel over fødevarer. Se hvor mange kalorier, proteiner, fedt og kulhydrater der er i mad (æg, havregryn, kød, frugt m.m.).'
 permalink: /kalorietabellen/
-last_modified_at: '2020-08-29T09:41:09Z'
+last_modified_at: '2026-07-25T18:00:00Z'
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1471193945509-9ad0617afabf.jpg
@@ -10,63 +11,93 @@ header:
   teaser: /assets/images/unsplash/photo-1471193945509-9ad0617afabf.jpg
   caption: 'Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦'
 category:
-- Kost & Ernæring
+  - Kost & Ernæring
 tags:
-- kalorier
-- energi
-- fødevarer
-- kost & ernæring
-- featured
+  - kalorier
+  - energi
+  - fødevarer
+  - kost & ernæring
+  - featured
+classes: wide
 faq:
-- question: Hvor mange kalorier er der i mad?
-  answer: Mængden af energi i mad kommer an på mængder, typer og tilberedning. Derfor kan du bruge vores søgbare kalorietabel
-    til at finde mængden af kalorier i mad.
-- question: Hvor mange kalorier er der i et æg?
-  answer: I et kogt, mellemstort æg på 55 gram er der cirka 75 kalorier fordelt på 6,8 g protein, 0,7 g kulhydrat og 5,1 g
-    fedt.
-- question: Hvor mange kalorier er der i havregryn?
-  answer: 1 dl havregryn vejer 30 gram og indeholder 110 kalorier samt 3,9 gram protein, 2,1 gram fedt, 17,5 gram kulhydrat
-    og 3 gram kostfibre. 100 gram havregryn indeholder 366 kcal samt 12,9 gram protein, 6,9 gram fedt, 58,3 gram kulhydrat
-    og 9,9 gram kostfibre.
+  - question: Hvor mange kalorier er der i mad?
+    answer: Mængden af kalorier i mad afhænger af fødevarens indhold af fedt, kulhydrat og protein. Du kan bruge vores søgbare kalorietabel til at slå det præcise kalorieindhold op pr. 100 gram for hundreder af fødevarer.
+  - question: Hvor mange kalorier er der i et æg?
+    answer: I et almindeligt mellemstort æg (ca. 55 gram) er der cirka 75–80 kcal fordelt på ca. 7 g protein, 5 g fedt og under 1 g kulhydrat.
+  - question: Hvor mange kalorier er der i havregryn?
+    answer: 100 gram havregryn indeholder cirka 366 kcal samt 12,9 gram protein, 6,9 gram fedt, 58,3 gram kulhydrat og 9,9 gram kostfibre. En almindelig portion på 1 dl (30 g) indeholder ca. 110 kcal.
+  - question: Hvad er forskellen på kalorier (cal) og kilokalorier (kcal)?
+    answer: I daglig tale kalder vi det blot "kalorier", men fagligt måles energi i mad i kilokalorier (1 kcal = 1.000 cal). Når der står 200 kcal på en varedeklaration, svarer det til 200 "hverdagskalorier".
 ---
 
-Jeg har samlet en kalorietabel, hvor du kan se indholdet af kalorier og næringsstoffer i maden. Kalorietabellen indeholder energi og næringsindhold fra fedt, kulhydrat og protein i rigtig mange fødevarer. Tabellen med kalorier i mad er gjort søgbar.
+Vil du gerne have styr på dit daglige energiindtag, opbygge muskler eller tabe dig? En **kalorietabel** er et af de mest effektive redskaber til at få overblik over, hvad din mad reelt indeholder.
 
-Når man søger rundt på nettet, så kan man finde rigtig mange kalorietabeller. Når man kigger på en kalorietabel, så skal man huske at det ikke handler om slankekur eller fødevarer, der er usunde, hvis der er mange kalorier i fødevaren.
+I vores store, interaktive kalorietabel herunder kan du søge blandt hundreder af fødevarer og finde det præcise indhold af **kalorier (kcal), kilojoule (kJ), protein, fedt, kulhydrater og kostfibre**.
 
-Hvis du mangler fødevarer i listen med kalorier eller gerne vil have en kalorietabel over en specifik gruppe af fødevarer, så må du endelig skrive i kommentarerne.
+---
 
-{% include motionsplan/pinterest image_path=page.header.overlay_image data-pin-media="/assets/images/i.pinimg.com/de388a319c398ed24e9958b8200d1996-a84ecf9c.jpg" data-pin-id="579768152024787955" caption=page.title %}
+### Dyk direkte ned i specifikke kalorietabeller
 
-## Kalorietabel med frugt, kød og brød
+Leder du efter en bestemt fødevaregruppe? Vi har lavet dybdegående guider med top/bund-lister og anbefalinger for de mest populære kategorier:
 
-Kalorietabellen indeholder de mest gængse fødevarer i Danmark. I tabellen kan du finde både frugt, kød og brød og andre typer fødevarer.
+* 🥩 **[Kalorietabel for Kød & Fjerkræ](/kalorietabel-koed/):** Se kalorier og protein i oksekød, kylling, svinekød, lam og fisk.
+* 🍞 **[Kalorietabel for Brød](/kalorietabel-broed/):** Sammenlign rugbrød, franskbrød, knækbrød og fladbrød.
+* 🥭 **[Kalorietabel for Frugt & Bær](/kalorietabel-frugt/):** Få overblik over frugtsukker og kalorier i bananer, æbler, bær og vindruer.
+* 🥦 **[Kalorietabel for Grøntsager](/kalorietabel-groentsager/):** Find de mest fiber- og proteinrige grøntsager med færrest kalorier.
+* 🍺 **[Kalorietabel for Alkohol](/kalorietabel-alkohol/):** Se kalorier i øl, rødvin, hvidvin, drinks og spiritus.
 
-Jeg har også lavet kalorietabeller delt op i forskellige kategorier. Du kan se en [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}), [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}), [kalorietabel med grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) og [kalorier i alkohol]({% link _posts/2020-08-29-kalorietabel-alkohol.md %}).
+---
 
-Jeg har skrevet lidt om, [hvad kalorier er](/hvad-er-kalorier/)? Mange kigger på kalorier i fødevarer sammen med [ligevægtsindtaget](/ligevaegtsindtag-beregner/) og [stofskiftet, som jeg har lavet en beregner til](/bmr-beregner/). Jeg har også lavet en oversigt over [MET-værdier](/met/), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+## Genveje til populære basisfødevarer
 
-## Kilder til kalorietabellen
+Nogle fødevarer går igen på tallerkenen næsten hver eneste dag. Her er det hurtige kalorieoverblik for et par af de mest søgte hverdagsvarer:
 
-Kalorietabellen er baseret på data for fødevarers næringsindhold, som er stillet til rådighed af [DTU Fødevareinstituttet](https://frida.fooddata.dk). Værdierne i tabellen med kalorier kan også indeholde data fra [Nutrient Data Laboratory i USA](https://fdc.nal.usda.gov/), som er en af verdens største og omfattende databaser med oplysninger om fødevarers næringsindhold.
+| Fødevare | Mængde / Portion | Kalorier (kcal) | Protein | Fedt | Kulhydrat |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Æg (str. M)** | 1 stk. (ca. 55 g) | **75 kcal** | 6,8 g | 5,1 g | 0,7 g |
+| **Havregryn** | 100 g (rå) | **366 kcal** | 12,9 g | 6,9 g | 58,3 g |
+| **Mælk (Letmælk 1,5%)** | 1 glas (200 ml) | **94 kcal** | 7,0 g | 3,0 g | 9,6 g |
+| **Skyr (Neutral 0,2%)** | 100 g | **60 kcal** | 11,0 g | 0,2 g | 3,5 g |
+| **Ris (Hvide, rå)** | 100 g | **350 kcal** | 7,0 g | 0,6 g | 78,0 g |
+| **Pasta (Lys, rå)** | 100 g | **350 kcal** | 12,0 g | 1,5 g | 71,0 g |
 
-De primære data i tabellen er tjekket op mod DTU Fødevareinstituttet, som bruger tabeller fra Skandinavien og Europa, og både tager højde for værdier fra varedeklarationen og tester fødevaren videnskabeligt også. De asiatiske fødevarer er også taget fra DTU Fødevareinstituttet.
+---
 
-## Forbehold for tabeller med kalorier i mad
+## Søgbar og Interaktiv Kalorietabel
 
-Der er ingen garanti for, at tallene i kalorietabeller nøjagtigt svarer til den fødevare, du har købt i supermarkedet. Dyrkningssted, dyrkningsmetode, høsttidspunkt, opbevaring, friskhed og andre faktorer betyder nemlig også noget for, hvor mange kalorier der er i den specifikke fødevare. Der er altid variationer fra produkt til produkt. Samtidig er der ofte hundredvis af forskellige sorter indenfor samme fødevare.
-{: .notice .notice--info }
+Brug kategorierne eller søgefeltet herunder til lynhurtigt at finde næringsindholdet i din mad: 
+Brug søgefeltet i tabellen herunder til at slå din mad op. Alle værdier er angivet pr. **100 gram rå/tilberedt fødevare (spiselig del)**.
 
-Tal i kalorie- og næringsstoftabeller er altid cirkatal. Derfor skal du også læse denne tabel med kalorier med forbehold.
+{% include components/kalorietabel.html %}
 
-Alle tallene i kalorietabellen er per 100 gram rå fødevare (spiselig del).
+---
 
-## Søgbar kalorietabel
+## Hvordan bruger du kalorietabellen til din træning og vægt?
 
-I denne tabel kan du søge på, hvor mange kalorier der er i mad.
+Kalorier er ganske enkelt måleenheden for den energi, din krop får tilført gennem mad og drikke. For at bruge tabellen effektivt i din hverdag kan du holde dine tal op mod din krops grundlæggende behov:
 
-{% include table/table-kalorietabellen.html %}
+1. **Find dit Basalstofskifte (BMR):** BMR angiver, hvor mange kalorier din krop forbrænder i komplet hvile blot for at holde hjerne, hjerte og organer i gang. Udregn dit [BMR (Basalstofskifte) her](/bmr-beregner/).
+2. **Kend dit Ligevægtsindtag:** Når du lægger dit aktivitetsniveau (træning, arbejde, daglig bevægelse) oveni dit BMR, får du dit ligevægtsindtag. Beregn dit [Ligevægtsindtag her](/ligevaegtsindtag-beregner/).
+3. **Justér for Vægttab eller Muskelopbygning:** 
+   * **Vægttab:** Indtag ca. 300–500 kcal *mindre* end dit ligevægtsindtag pr. dag.
+   * **Muskelopbygning:** Indtag ca. 200–400 kcal *mere* end dit ligevægtsindtag kombineret med styrketræning og tilstrækkeligt [dagligt proteinindtag](/dagligt-protein-indtagelse/).
 
-## Ofte stillede spørgsmål
+---
+
+## Kilder og datagrundlag
+
+Data i vores kalorietabel er primært baseret på den officielle fødevaredatabase hos **[DTU Fødevareinstituttet (Frida databasen)](https://frida.fooddata.dk)** suppleret med data fra *USDA Nutrient Data Laboratory*.
+
+*Forbehold: Næringsindholdet i fødevarer kan variere alt efter sort, opdræt, dyrkningsforhold, modenhed og tilberedningsmetode. Værdierne i tabellen skal derfor betragtes som vejledende gennemsnitstal.*
+
+---
+
+## Konklusion
+
+En kalorietabel er ikke et redskab til at skabe restriktioner, men et stærkt værktøj til at opnå viden og kontrol over din kost. Ved at kende energiindholdet og fordelingen af makronæringsstoffer i din mad kan du nemt sammensætte måltider, der giver langvarig mæthed, god energi til træning og støtter op om dine personlige mål.
+
+---
+
+## Ofte stillede spørgsmål om kalorier i mad
 
 {% include motionsplan/faq.html %}

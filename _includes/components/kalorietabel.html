@@ -1,0 +1,641 @@
+<!-- Kalorietabel (Stabil Paginerings- & Layout-styring) -->
+<div class="kalorie-app" 
+     data-default-category="{{ include.category | default: 'alle' }}"
+     data-default-subcategory="{{ include.subcategory | default: 'alle' }}"
+     data-default-protein="{{ include.protein | default: 'false' }}"
+     data-default-fiber="{{ include.fiber | default: 'false' }}"
+     data-default-lowcal="{{ include.lowcal | default: 'false' }}">
+
+  <!-- Topbar: Søgefelt + Filter-knap -->
+  <div class="kt-topbar">
+    <div class="kt-search-wrapper">
+      <input type="text" class="kt-search" placeholder="🔍 Søg efter fødevare..." autocomplete="off" />
+      <span class="kt-count-badge kt-count">Henter...</span>
+    </div>
+    <button type="button" class="kt-filter-toggle-btn" title="Åbn/skjul ekstra filtre">
+      ⚙️ Filtre <span class="kt-filter-active-dot" style="display:none;">•</span>
+    </button>
+  </div>
+
+  <!-- Fold-ud panel til ekstra filtre -->
+  <div class="kt-toggles-panel" style="display: none;">
+    <label class="kt-toggle">
+      <input type="checkbox" class="toggle-protein" /> 💪 Kun proteinrig (≥10g)
+    </label>
+    <label class="kt-toggle">
+      <input type="checkbox" class="toggle-fiber" /> 🥬 Kun fiberrig (≥4g)
+    </label>
+    <label class="kt-toggle">
+      <input type="checkbox" class="toggle-lowcal" /> 💧 Kalorielav (≤50 kcal)
+    </label>
+  </div>
+
+  <!-- Hovedkategorier -->
+  <div class="kt-pills-scroll">
+    <div class="kt-pills kt-category-pills">
+      <button class="kt-pill" data-cat="alle">Alle</button>
+      <button class="kt-pill" data-cat="frugt">🍎 Frugt & Bær</button>
+      <button class="kt-pill" data-cat="groent">🥦 Grøntsager</button>
+      <button class="kt-pill" data-cat="koed">🥩 Kød & Fisk</button>
+      <button class="kt-pill" data-cat="broed">🍞 Brød & Korn</button>
+      <button class="kt-pill" data-cat="mejeri">🥛 Mejeri</button>
+      <button class="kt-pill" data-cat="alkohol">🍺 Drikke & Alkohol</button>
+    </div>
+  </div>
+
+  <!-- Dynamiske Underkategorier -->
+  <div class="kt-subpills-scroll" style="display:none;">
+    <div class="kt-subpills kt-subcategory-pills"></div>
+  </div>
+
+  <!-- Selve Tabellen med fast min-højde for at forhindre hop -->
+  <div class="kt-table-responsive">
+    <table class="kt-table">
+      <thead>
+        <tr>
+          <th data-sort="navn" style="width: 36%;">Fødevare ↕</th>
+          <th data-sort="kcal" class="text-right" style="width: 12%;">kcal ↕</th>
+          <th data-sort="protein" class="text-right" style="width: 11%;">Prot. ↕</th>
+          <th data-sort="kulhydrat" class="text-right" style="width: 11%;">Kulh. ↕</th>
+          <th data-sort="fedt" class="text-right" style="width: 11%;">Fedt ↕</th>
+          <th style="width: 19%;">E% Fordeling</th>
+        </tr>
+      </thead>
+      <tbody class="kt-tbody">
+        <tr><td colspan="6" class="text-center">Indlæser kaloriedata...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pagination Controls -->
+  <div class="kt-pagination">
+    <button class="kt-prev" disabled>← Forrige</button>
+    <span class="kt-page-info">Side 1 af 1</span>
+    <button class="kt-next" disabled>Næste →</button>
+  </div>
+</div>
+
+<style>
+.kalorie-app { 
+  margin: 1.5rem 0; 
+  font-family: inherit; 
+  box-sizing: border-box; 
+  width: 100%;
+}
+
+.kalorie-app *, .kalorie-app *::before, .kalorie-app *::after {
+  box-sizing: border-box;
+}
+
+/* Topbar Alignment */
+.kt-topbar { 
+  display: flex; 
+  gap: 8px; 
+  margin-bottom: 10px; 
+  align-items: center; 
+  width: 100%;
+}
+.kt-search-wrapper { 
+  position: relative; 
+  flex: 1; 
+  display: flex; 
+  align-items: center; 
+  height: 40px;
+}
+.kt-search-wrapper input.kt-search { 
+  width: 100%; 
+  height: 40px; 
+  padding: 0 90px 0 12px; 
+  font-size: 0.92rem; 
+  border: 1px solid #ced4da; 
+  border-radius: 6px; 
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.kt-search-wrapper input.kt-search:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+.kt-count-badge { 
+  position: absolute; 
+  right: 12px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 0.80rem; 
+  color: #6c757d; 
+  pointer-events: none; 
+  white-space: nowrap;
+}
+
+/* Filter Toggle Knap */
+.kt-filter-toggle-btn { 
+  height: 40px; 
+  background: #f8f9fa; 
+  border: 1px solid #ced4da; 
+  border-radius: 6px; 
+  padding: 0 14px; 
+  font-size: 0.88rem; 
+  font-weight: 500;
+  color: #333;
+  cursor: pointer; 
+  white-space: nowrap; 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+.kt-filter-toggle-btn:hover { 
+  background: #e9ecef; 
+  border-color: #adb5bd;
+}
+.kt-filter-active-dot { 
+  color: #007bff; 
+  font-weight: bold; 
+  font-size: 1.2rem; 
+  line-height: 0; 
+}
+
+/* Fold-ud Toggles Panel */
+.kt-toggles-panel { 
+  background: #f8f9fa; 
+  border: 1px solid #e9ecef; 
+  border-radius: 6px; 
+  padding: 10px 14px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 16px; 
+  margin-bottom: 10px; 
+  font-size: 0.85rem; 
+}
+.kt-toggle { 
+  cursor: pointer; 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 6px; 
+  user-select: none;
+}
+
+/* Horizontal Scroll Pills */
+.kt-pills-scroll, .kt-subpills-scroll { 
+  overflow-x: auto; 
+  white-space: nowrap; 
+  -webkit-overflow-scrolling: touch; 
+  margin-bottom: 8px; 
+  scrollbar-width: none;
+  width: 100%;
+}
+.kt-pills-scroll::-webkit-scrollbar, .kt-subpills-scroll::-webkit-scrollbar { display: none; }
+
+.kt-pills, .kt-subpills { 
+  display: inline-flex; 
+  gap: 6px; 
+  padding: 2px 0; 
+  align-items: center;
+}
+.kt-subpills-scroll { 
+  background: #f8f9fa; 
+  padding: 6px 10px; 
+  border-radius: 6px; 
+  border: 1px solid #e9ecef; 
+  margin-bottom: 12px;
+}
+
+.kt-pill, .kt-subpill { 
+  background: #ffffff; 
+  border: 1px solid #dee2e6; 
+  padding: 6px 14px; 
+  border-radius: 20px; 
+  cursor: pointer; 
+  font-size: 0.84rem; 
+  line-height: 1.2;
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-in-out; 
+}
+.kt-pill.active, .kt-pill:hover { background: #007bff; color: #fff; border-color: #007bff; }
+.kt-subpill.active, .kt-subpill:hover { background: #495057; color: #fff; border-color: #495057; }
+
+/* Tabel Layout med Låste Bredder og Fast Min-Højde */
+.kt-table-responsive { 
+  overflow-x: auto; 
+  margin-bottom: 12px; 
+  width: 100%; 
+  min-height: 520px; /* Sikrer at tabellen ikke hopper ved paginering */
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  background: #fff;
+}
+.kt-table { 
+  width: 100% !important; 
+  table-layout: fixed; 
+  border-collapse: collapse; 
+  font-size: 0.88rem; 
+  background: #fff;
+}
+.kt-table th { 
+  background: #f8f9fa; 
+  padding: 10px 12px; 
+  text-align: left; 
+  cursor: pointer; 
+  border-bottom: 2px solid #dee2e6; 
+  user-select: none; 
+  font-weight: 600;
+  color: #333;
+  vertical-align: middle;
+}
+.kt-table td { 
+  padding: 10px 12px; 
+  border-bottom: 1px solid #e9ecef; 
+  vertical-align: middle; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+}
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+/* E% Makro bar */
+.macro-bar-container { 
+  width: 100%; 
+  max-width: 90px; 
+  height: 8px; 
+  background: #e9ecef; 
+  border-radius: 4px; 
+  display: flex; 
+  overflow: hidden; 
+}
+.macro-protein { background: #28a745; height: 100%; }
+.macro-carbs { background: #ffc107; height: 100%; }
+.macro-fat { background: #dc3545; height: 100%; }
+
+/* Pagination Controls */
+.kt-pagination { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  font-size: 0.85rem; 
+  padding: 4px 0;
+}
+.kt-pagination button { 
+  height: 34px;
+  padding: 0 16px; 
+  border: 1px solid #007bff; 
+  background: #fff; 
+  color: #007bff; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.15s ease;
+}
+.kt-pagination button:hover:not(:disabled) {
+  background: #007bff;
+  color: #fff;
+}
+.kt-pagination button:disabled { 
+  border-color: #dee2e6; 
+  color: #adb5bd; 
+  cursor: not-allowed; 
+  background: #f8f9fa;
+}
+
+/* Accordion detalje-række */
+.kt-detail-row { background: #f8f9fa; font-size: 0.80rem; }
+.kt-detail-content { padding: 8px 12px; display: flex; gap: 18px; flex-wrap: wrap; }
+</style>
+
+<script>
+(function() {
+  if (!window.kalorieDataPromise) {
+    function parseNum(val) {
+      if (typeof val === 'number') return val;
+      if (!val) return 0;
+      const cleaned = String(val).replace(',', '.').trim();
+      const num = parseFloat(cleaned);
+      return isNaN(num) ? 0 : num;
+    }
+
+    window.kalorieDataPromise = fetch('/assets/data/kalorietabel.json')
+      .then(res => res.json())
+      .then(rawList => {
+        return rawList
+          .filter(item => item.Navn && item.Navn !== 'Navn')
+          .map(item => ({
+            navn: item.Navn || '',
+            gruppe: item.Gruppe || '',
+            kcal: parseNum(item.kcal),
+            kj: parseNum(item.kJ),
+            protein: parseNum(item.Protein),
+            kulhydrat: parseNum(item.Kulhydrat),
+            fedt: parseNum(item.Fedt),
+            kostfibre: parseNum(item.Kostfibre),
+            sukker: parseNum(item.Sukker),
+            c_vitamin: item['C-vitamin'] ? parseNum(item['C-vitamin']) : null,
+            jern: item['Jern, Fe'] ? parseNum(item['Jern, Fe']) : null
+          }));
+      });
+  }
+
+  const subCategoryMap = {
+    alkohol: [
+      { id: 'alle', label: 'Alle drikke' },
+      { id: 'oel', label: '🍺 Øl & Maltdrikke', groups: ['øl og andre maltdrikke'] },
+      { id: 'vin', label: '🍷 Vine', groups: ['vine'] },
+      { id: 'hedvin', label: '🥂 Hedvine', groups: ['hedvine'] },
+      { id: 'spiritus', label: '🥃 Spiritus & Likør', groups: ['spiritus', 'likør'] },
+      { id: 'laeske', label: '🥤 Saft & Sodavand', groups: ['limonade, mineralvand, saftdrik o.l.', 'frugtsaft og juice'] }
+    ],
+    koed: [
+      { id: 'alle', label: 'Alt kød & fisk' },
+      { id: 'okse', label: '🥩 Okse & Kalv', groups: ['oksekød', 'kalvekød'] },
+      { id: 'gris', label: '🐖 Svinekød', groups: ['svinekød (gris)'] },
+      { id: 'fjerkrae', label: '🍗 Fjerkræ', groups: ['kylling og høne', 'kalkun', 'and og gås', 'andre fjerkræ', 'fjerkræ'] },
+      { id: 'fisk', label: '🐟 Fisk & Skaldyr', groups: ['saltvandsfisk', 'ferskvandsfisk', 'fiskeprodukter', 'skaldyr', 'bløddyr', 'andet fisk'] }
+    ],
+    frugt: [
+      { id: 'alle', label: 'Alle frugter' },
+      { id: 'baer', label: '🍓 Bær', groups: ['bærfrugt'] },
+      { id: 'kerne', label: '🍎 Kernefrugt', groups: ['kernefrugt'] },
+      { id: 'sten', label: '🍑 Stenfrugt', groups: ['stenfrugt'] },
+      { id: 'syd', label: '🍌 Sydfrugter', groups: ['sydfrugt'] }
+    ]
+  };
+
+  const categoryGroups = {
+    frugt: ['bærfrugt', 'kernefrugt', 'sydfrugt', 'stenfrugt', 'fedtrig frugt og frø', '"frugt"-grøntsager', 'frugtsaft og juice', 'frugtprodukter'],
+    groent: ['rod- og knoldgrøntsager', 'blad- og stængelgrøntsager', 'grøntsagsprodukter', 'grøntsagssaft og -juice', 'svampe', 'bælgplanter', 'krydderurter'],
+    koed: ['saltvandsfisk', 'fiskeprodukter', 'ferskvandsfisk', 'skaldyr', 'bløddyr', 'andet fisk', 'oksekød', 'kalvekød', 'svinekød (gris)', 'fåre- og lammekød', 'hestekød', 'kylling og høne', 'kalkun', 'and og gås', 'fuglevildt', 'andre fjerkræ', 'fjerkræ', 'indmad', 'charcuterivarer', 'pålægsvarer', 'vildt', 'andre kødprodukter'],
+    broed: ['brød', 'kornsorter', 'mel', 'gryn', 'pastaprodukter', 'kiks og småkager', 'kager', 'morgenprodukter'],
+    mejeri: ['usyrnede mælkeprodukter', 'syrnede mælkeprodukter', 'mælkekonserves', 'råmælk o.l.', 'fast løbeost', 'halvfast løbeost', 'blød løbeost', 'smelteost', 'fast surmælksost', 'blød surmælksost', 'valleost', 'valle', 'smør', 'andre mælkeprodukter'],
+    alkohol: ['vine', 'hedvine', 'øl og andre maltdrikke', 'spiritus', 'likør', 'andre drikkevarer', 'limonade, mineralvand, saftdrik o.l.', 'drikkevand', 'kaffe, te, kakao og chokolade']
+  };
+
+  function initInstance(container) {
+    if (container.dataset.initialized === 'true') return;
+    container.dataset.initialized = 'true';
+
+    let allData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    const pageSize = 15;
+    let currentSort = { col: 'navn', asc: true };
+
+    const searchInput = container.querySelector('.kt-search');
+    const filterToggleBtn = container.querySelector('.kt-filter-toggle-btn');
+    const togglesPanel = container.querySelector('.kt-toggles-panel');
+    const filterActiveDot = container.querySelector('.kt-filter-active-dot');
+
+    const categoryPills = container.querySelector('.kt-category-pills');
+    const subcategoryPills = container.querySelector('.kt-subcategory-pills');
+    const subcategoryScroll = container.querySelector('.kt-subpills-scroll');
+
+    const toggleProtein = container.querySelector('.toggle-protein');
+    const toggleFiber = container.querySelector('.toggle-fiber');
+    const toggleLowcal = container.querySelector('.toggle-lowcal');
+
+    const tbody = container.querySelector('.kt-tbody');
+    const countEl = container.querySelector('.kt-count');
+    const pageInfo = container.querySelector('.kt-page-info');
+    const prevBtn = container.querySelector('.kt-prev');
+    const nextBtn = container.querySelector('.kt-next');
+
+    let selectedCategory = container.dataset.defaultCategory || 'alle';
+    let selectedSubCategory = container.dataset.defaultSubcategory || 'alle';
+
+    toggleProtein.checked = container.dataset.defaultProtein === 'true';
+    toggleFiber.checked = container.dataset.defaultFiber === 'true';
+    toggleLowcal.checked = container.dataset.defaultLowcal === 'true';
+
+    function updateCategoryPillUI() {
+      container.querySelectorAll('.kt-category-pills .kt-pill').forEach(p => {
+        if (p.dataset.cat === selectedCategory) {
+          p.classList.add('active');
+        } else {
+          p.classList.remove('active');
+        }
+      });
+      renderSubPills();
+    }
+
+    function renderSubPills() {
+      const subs = subCategoryMap[selectedCategory];
+
+      if (!subs || subs.length === 0) {
+        subcategoryScroll.style.display = 'none';
+        subcategoryPills.innerHTML = '';
+        selectedSubCategory = 'alle';
+        return;
+      }
+
+      subcategoryScroll.style.display = 'block';
+      let html = '';
+      subs.forEach(sub => {
+        const activeClass = (sub.id === selectedSubCategory) ? 'active' : '';
+        html += `<button class="kt-subpill ${activeClass}" data-sub="${sub.id}">${sub.label}</button>`;
+      });
+      subcategoryPills.innerHTML = html;
+    }
+
+    function updateFilterActiveDot() {
+      const isAnyActive = toggleProtein.checked || toggleFiber.checked || toggleLowcal.checked;
+      filterActiveDot.style.display = isAnyActive ? 'inline' : 'none';
+    }
+
+    window.kalorieDataPromise.then(data => {
+      allData = data;
+      updateCategoryPillUI();
+      updateFilterActiveDot();
+      applyFilters();
+    }).catch(err => {
+      console.error(err);
+      tbody.innerHTML = '<tr><td colspan="6" class="text-center" style="color:red;">Kunne ikke indlæse kaloriedata.</td></tr>';
+    });
+
+    filterToggleBtn.addEventListener('click', () => {
+      const isHidden = togglesPanel.style.display === 'none';
+      togglesPanel.style.display = isHidden ? 'flex' : 'none';
+    });
+
+    searchInput.addEventListener('input', applyFilters);
+    
+    [toggleProtein, toggleFiber, toggleLowcal].forEach(cb => {
+      cb.addEventListener('change', () => {
+        updateFilterActiveDot();
+        applyFilters();
+      });
+    });
+
+    categoryPills.addEventListener('click', e => {
+      if (e.target.classList.contains('kt-pill')) {
+        selectedCategory = e.target.dataset.cat;
+        selectedSubCategory = 'alle';
+        updateCategoryPillUI();
+        applyFilters();
+      }
+    });
+
+    subcategoryPills.addEventListener('click', e => {
+      if (e.target.classList.contains('kt-subpill')) {
+        selectedSubCategory = e.target.dataset.sub;
+        container.querySelectorAll('.kt-subpill').forEach(sp => sp.classList.remove('active'));
+        e.target.classList.add('active');
+        applyFilters();
+      }
+    });
+
+    container.querySelectorAll('.kt-table th[data-sort]').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.sort;
+        if (currentSort.col === col) {
+          currentSort.asc = !currentSort.asc;
+        } else {
+          currentSort.col = col;
+          currentSort.asc = true;
+        }
+        applyFilters();
+      });
+    });
+
+    tbody.addEventListener('click', e => {
+      const row = e.target.closest('.kt-row');
+      if (row) {
+        const nextRow = row.nextElementSibling;
+        if (nextRow && nextRow.classList.contains('kt-detail-row')) {
+          nextRow.style.display = nextRow.style.display === 'none' ? 'table-row' : 'none';
+        }
+      }
+    });
+
+    prevBtn.addEventListener('click', () => { if(currentPage > 1) { currentPage--; renderTable(); } });
+    nextBtn.addEventListener('click', () => { if(currentPage * pageSize < filteredData.length) { currentPage++; renderTable(); } });
+
+    function applyFilters() {
+      const query = searchInput.value.toLowerCase().trim();
+      const onlyProtein = toggleProtein.checked;
+      const onlyFiber = toggleFiber.checked;
+      const onlyLowCal = toggleLowcal.checked;
+
+      filteredData = allData.filter(item => {
+        const grpLower = item.gruppe.toLowerCase();
+
+        const nameMatch = item.navn.toLowerCase().includes(query);
+        const groupMatch = grpLower.includes(query);
+        if (query && !nameMatch && !groupMatch) return false;
+
+        if (selectedCategory !== 'alle') {
+          const allowedGroups = categoryGroups[selectedCategory] || [];
+          if (!allowedGroups.includes(grpLower)) return false;
+        }
+
+        if (selectedCategory !== 'alle' && selectedSubCategory !== 'alle') {
+          const subList = subCategoryMap[selectedCategory];
+          const currentSub = subList ? subList.find(s => s.id === selectedSubCategory) : null;
+          if (currentSub && currentSub.groups) {
+            if (!currentSub.groups.includes(grpLower)) return false;
+          }
+        }
+
+        if (onlyProtein && item.protein < 10) return false;
+        if (onlyFiber && item.kostfibre < 4) return false;
+        if (onlyLowCal && item.kcal > 50) return false;
+
+        return true;
+      });
+
+      filteredData.sort((a, b) => {
+        let valA = a[currentSort.col];
+        let valB = b[currentSort.col];
+        if (typeof valA === 'string') valA = valA.toLowerCase();
+        if (typeof valB === 'string') valB = valB.toLowerCase();
+
+        if (valA < valB) return currentSort.asc ? -1 : 1;
+        if (valA > valB) return currentSort.asc ? 1 : -1;
+        return 0;
+      });
+
+      currentPage = 1;
+      renderTable();
+    }
+
+    function renderTable() {
+      countEl.textContent = `${filteredData.length} varer`;
+
+      if (filteredData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="text-center">Ingen fødevarer matchede din søgning.</td></tr>';
+        updatePaginationControls();
+        return;
+      }
+
+      const start = (currentPage - 1) * pageSize;
+      const pageItems = filteredData.slice(start, start + pageSize);
+
+      let html = '';
+      pageItems.forEach(item => {
+        const p = item.protein;
+        const c = item.kulhydrat;
+        const f = item.fedt;
+
+        const pKcal = p * 4;
+        const cKcal = c * 4;
+        const fKcal = f * 9;
+        const totalKcal = pKcal + cKcal + fKcal || 1;
+
+        const pPct = Math.round((pKcal / totalKcal) * 100);
+        const cPct = Math.round((cKcal / totalKcal) * 100);
+        const fPct = Math.round((fKcal / totalKcal) * 100);
+
+        html += `
+          <tr class="kt-row" style="cursor:pointer;" title="Klik for næringsdetaljer">
+            <td>
+              <strong>${item.navn}</strong><br>
+              <small style="color:#888;">${item.gruppe}</small>
+            </td>
+            <td class="text-right"><strong>${item.kcal}</strong></td>
+            <td class="text-right">${p}g</td>
+            <td class="text-right">${c}g</td>
+            <td class="text-right">${f}g</td>
+            <td>
+              <div class="macro-bar-container" title="E% - Grøn: Prot (${pPct}%), Gul: Kulh (${cPct}%), Rød: Fedt (${fPct}%)">
+                <div class="macro-protein" style="width:${pPct}%"></div>
+                <div class="macro-carbs" style="width:${cPct}%"></div>
+                <div class="macro-fat" style="width:${fPct}%"></div>
+              </div>
+            </td>
+          </tr>
+          <tr class="kt-detail-row" style="display:none;">
+            <td colspan="6">
+              <div class="kt-detail-content">
+                <span>🌾 <strong>Kostfibre:</strong> ${item.kostfibre}g</span>
+                <span>🍬 <strong>Sukker:</strong> ${item.sukker}g</span>
+                <span>⚡ <strong>Energi:</strong> ${item.kj} kJ</span>
+                ${item.c_vitamin ? `<span>🍊 <strong>C-vitamin:</strong> ${item.c_vitamin}mg</span>` : ''}
+                ${item.jern ? `<span>🥩 <strong>Jern:</strong> ${item.jern}mg</span>` : ''}
+              </div>
+            </td>
+          </tr>
+        `;
+      });
+
+      tbody.innerHTML = html;
+      updatePaginationControls();
+    }
+
+    function updatePaginationControls() {
+      const totalPages = Math.ceil(filteredData.length / pageSize) || 1;
+      pageInfo.textContent = `Side ${currentPage} af ${totalPages}`;
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage >= totalPages;
+    }
+  }
+
+  document.querySelectorAll('.kalorie-app').forEach(initInstance);
+})();
+</script>
