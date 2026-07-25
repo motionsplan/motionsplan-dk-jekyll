@@ -107,7 +107,7 @@ Her har vi samlet de bedste måder at test din kondition hjemme på. Testen er l
   
   Disse beregninger er baseret på faktorer som alder, vægt, hvilepuls eller træningsniveau.
   
-  👉 [Beregn dit kondital uden en test](/beregn-kondital/)
+  👉 [Beregn dit kondital uden en test](/kondital/)
 </details>
 
 <details markdown="1" class="faq">

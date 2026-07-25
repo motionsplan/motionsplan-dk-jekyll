@@ -52,7 +52,6 @@ popular_posts_2020:
 - /skridt-pr-km-10000/
 - /bip-test/
 - /bmi/
-- /beregn-kondital/
 - /rm-beregner/
 - /tab-fedt-paa-maven/
 - /kondital/

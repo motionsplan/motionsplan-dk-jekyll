@@ -74,7 +74,7 @@ Du kan også estimere iltoptagelsen med forskellige **maksimale tests**, fx en [
 
 Der findes også **submaksimale tests**, hvor du bruger din puls, fornemmelse for anstrengelse eller dit arbejde til at estimere iltoptagelsen. Typisk bruges også grundlæggende oplysninger som dit alder og dit køn i udregningerne. Det er sådan Garmin bl.a. estimere din VO₂max med FirstBeat-teknologien.
 
-Endelig findes der estimater, hvor du slet ikke træner. Her bruges bare oplysninger om din alder, [hvilepuls](/hvilepuls/) og typiske aktivitetsniveau. Disse grundlæggende oplysninger er sammen med [heart rate variability](/hrv/) grundlaget for Polars 5 minutters konditionstest, som findes i Polar Beat og deres ure. Du kan se flere [kondital beregnere](/beregn-kondital/).
+Endelig findes der estimater, hvor du slet ikke træner. Her bruges bare oplysninger om din alder, [hvilepuls](/hvilepuls/) og typiske aktivitetsniveau. Disse grundlæggende oplysninger er sammen med [heart rate variability](/hrv/) grundlaget for Polars 5 minutters konditionstest, som findes i Polar Beat og deres ure. Du kan se flere [kondital beregnere](/kondital/).
 
 Lad os kigge på hvor godt urerne virker til at estimere din kondition.
 

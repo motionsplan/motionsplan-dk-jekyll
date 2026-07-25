@@ -1,7 +1,7 @@
 ---
-title: Beregn dit kondital ud fra en vilkårlig løbedistance 🏃
-seo_title: Beregn dit kondital ud fra en vilkårlig løbedistance
-permalink: /kondital-loeb-distance-tid/
+title: Beregn kondital ud fra løb (tid og distance)
+seo_title: "Beregn kondital ud fra løb: Indtast tid & distance"
+description: "Brug denne nemme beregner til at udregne dit kondital baseret på en løbetur. Indtast blot din distanceret og tid for at få dit resultat."
 excerpt: I denne beregner kan du indtaste en vilkårlig løbedistance og tiden for at gennemføre distancen. Hvis det var et
   maksimalt løb, kan du få estimeret dit kondital.
 language: da
@@ -56,6 +56,8 @@ Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 
 
 {% include calc/running-distance-vo2max.html %}
 
+---
+
 ## Formler bag beregneren
 
 I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
@@ -64,11 +66,19 @@ I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 >
 > --- <cite>[Tokmakidis et al (1987)](https://pubmed.ncbi.nlm.nih.gov/3444324/)</cite>
 
+---
+
+## Hvad betyder dit beregnede kondital?
+
+Når du har udregnet dit tal i beregneren ovenfor, kan du sammenligne det med alderssvarende normer for mænd og kvinder:
+
+👉 **[Se den komplette kondital-tabel her og find ud af, om dit tal er højt eller lavt](/kondital/#kondital-tabel-for-mænd-normalbefolkning)**
+
+---
+
 ## Andre konditionstests
 
-Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [test af din kondition](/kondition/tests/).
-
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/kondital/). Tjek også alle de andre [test af din kondition](/kondition/tests/).
 
 **For flere smarte løbeværktøjer**, besøg vores [fulde samling af beregnere og værktøjer](/loeb/vaerktoejer/).
 

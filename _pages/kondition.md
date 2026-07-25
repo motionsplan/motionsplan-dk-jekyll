@@ -111,7 +111,7 @@ Hvis du ikke vil lave en fysisk test, så kan du også beregne dit kondital ud f
 
 Disse tests er naturligvis ikke lige så pålidelige som fysiske tests, men de kan måske give en indikation af, hvordan det kunne se ud med din sundhed.
 
-Læs mere om, hvordan du kan [beregne dit kondital](/beregn-kondital/).
+Læs mere om, hvordan du kan [beregne dit kondital](/kondital/).
 
 ## Kondition og kroppens energiproduktion
 

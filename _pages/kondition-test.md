@@ -72,7 +72,7 @@ Vil du vide, hvor god din kondition er? En konditionstest kan give dig indsigt i
 
 Her for du en oversigt over de mest populære konditionstests, så du kan vælge nøjagtigt den test, der passer bedst til dine mål.
 
-Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [beregnere uden test her](/beregn-kondital/)!
+Her fokuserer vi på de fysiske konditionstests. Vil du beregne dit kondital uden at tage en test? Prøv [beregnere uden test her](/kondital/)!
 
 ## Hvad er en konditionstest, og hvorfor tage en?
 
@@ -298,7 +298,7 @@ Vil du vil måle din kondition eller præstation på cyklen? Der findes flere fo
 <details markdown="1" class="faq">
   <summary><h3 id="measure-condition-without-tests">📊 Mål din kondition uden tests</h3></summary>
   
-  Du kan også få en idé om din kondition uden at udføre specifikke tests. Læs hvordan du kan estimere din kondition på siden: [Mål din kondition uden tests](/beregn-kondital/).
+  Du kan også få en idé om din kondition uden at udføre specifikke tests. Læs hvordan du kan estimere din kondition på siden: [Mål din kondition uden tests](/kondital/).
 </details>
 
 ## Hvordan forbedrer jeg min kondition baseret på testresultater?
