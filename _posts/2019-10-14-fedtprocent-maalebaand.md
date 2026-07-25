@@ -1,6 +1,7 @@
 ---
-title: Mål din fedtprocent med målebånd 📏
-seo_title: Mål din fedtprocent med målebånd – sådan gør du
+title: "Mål din fedtprocent med målebånd (McArdle & Katch)"
+seo_title: "Mål fedtprocent med målebånd (McArdle & Katch formel)"
+description: "Mål din fedtprocent med et målebånd ud fra McArdle & Katch-metoden. Beregn din kropskomposition ud fra omkredsmålinger på kroppen."
 permalink: /fedtprocent-maalebaand/
 redirect_from:
 - /measure-fp/
@@ -41,6 +42,9 @@ feature_row:
 Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppen.
 
 Der findes mange andre [metoder til måling af fedtprocent](/maal-fedtprocent/), som du også kan bruge.
+
+> 📏 **Søger du US Navy-metoden til målebånd?** 
+> Denne side bruger *McArdle & Katch-formlen*. Hvis du leder efter den udbredte US Navy-test, kan du gå direkte til vores **[Navy Fedtprocent Beregner her](/fedtprocent-navy/)**.
 
 ## Måling af fedtprocent med målebånd har følgende antagelser
 

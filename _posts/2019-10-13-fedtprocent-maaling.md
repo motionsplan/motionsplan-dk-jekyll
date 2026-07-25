@@ -1,8 +1,8 @@
 ---
-title: Sådan måler du din fedtprocent - 7 forskellige metoder
-seo_title: 7 metoder til at måle fedtprocent – hvad er bedst?
-description: Er du interesseret i at kende din fedtprocent? Få viden om alle måder, du kan måle din fedtprocent på? Flere
-  af metoderne kan du lave derhjemme i dag!
+title: Sådan måler du din fedtprocent (7 metoder – hvad er bedst?)
+seo_title: "Måling af fedtprocent: 7 metoder fra målebånd til DEXA"
+description: Guide til måling af fedtprocent. Sammenlign 7 metoder fra målebånd, fedttang og bioimpedans til DEXA-scanning, og find den bedste metode til dig.
+permalink: /maal-fedtprocent/
 permalink: /maal-fedtprocent/
 language: da
 header:
@@ -16,7 +16,7 @@ category:
 tags:
 - fedtprocent
 - moc
-last_modified_at: '2023-01-01T22:14:14Z'
+last_modified_at: '2026-07-01T22:14:14Z'
 toc: 'true'
 feature_row:
 - image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
@@ -64,6 +64,12 @@ I denne guide får du svar på:
 - ✅ Hvordan måler man fedtprocent? Vi gennemgår syv metoder, deres nøjagtighed, fordele og ulemper.
 
 Lad os dykke ned i de forskellige metoder og finde den, der passer bedst til dig!
+
+### 🏃‍♀️ Hvad vil du gøre nu?
+* **Vil du bruge et målebånd derhjemme?** Brug [US Navy-beregneren](/fedtprocent-navy/) eller [McArdle & Katch-beregneren](/fedtprocent-maalebaand/).
+* **Vil du beregne ud fra højde/vægt?** Prøv vores [simple fedtprocent-udregner](/artikel/udregning-af-fedtprocent/).
+* **Vil du beregne ud fra skinfold-målinger?** Tjek vores [guide til fedtprocent ud fra hudfoldsmålinger](/skinfold/).
+* **Vil du se, om din fedtprocent er sund?** Se vores [Fedtprocent skema & tabeller for kvinder og mænd](/fedtprocent-normer/).
 
 ## Hvad er fedtprocent?
 
@@ -165,27 +171,11 @@ Det kan være usundt at have en høj fedtprocent, men det kan også være proble
 
 I næste afsnit kan du læse mere om, hvad en normal fedtprocent er.
 
-## Normer for fedtprocent for mænd og kvinder
+## Hvad er en normal og sund fedtprocent?
 
-Når du har valgt en metode til at måle din fedtprocent, så får du et tal. Men hvad kan du så bruge tallet til efterfølgende?
+En normal fedtprocent varierer i høj grad afhængigt af dit køn og din alder[cite: 3, 4]. Kvinder har fysiologisk set brug for en højere fedtprocent end mænd på grund af kønsspecifikke depoter.
 
-Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/fedtprocent-normer/), som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
-
-| Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
-|------------------------|-----------------|---------------|
-| Essentiel fedt         | 10-12%          | 2-5%          |
-| Udholdenhedsatlet      | 14-10%          | 6-8%          |
-| Atleter                | 17-20%          | 10-13%        |
-| Fitness                | 21-24%          | 14-17%        |
-| Acceptabel             | 25-31%          | 18-24%        |
-| Overvægt               | > 32%           | > 25%         |
-
-[Gallagher (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index) har lavet en grafik baseret på BMI og alder i forhold til, hvad en **sund normal fedtprocent** er:
-
-{% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
-
-Læs: [Hvad en en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/).
-{: .notice }
+[📊 Se det komplette fedtprocent-skema for mænd og kvinder her](/fedtprocent-normer/){: .btn .btn--primary }
 
 ## Mere om at måle fedtprocent og kropskomposition
 
@@ -194,6 +184,16 @@ Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på
 Når nu det er så vanskeligt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur](/slankekur/) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfordring med din fedtprocent.
 
 Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt](/idealvaegt/) og vores betragtninger om [BMI for mænd og kvinder](/bmi/).
+
+## Konklusion
+
+Ingen metode til måling af fedtprocent er 100% fejlfri – alle metoder indeholder en vis usikkerhed. Der findes forskellige praktiske metoder (f.eks. [målebånd](/fedtprocent-navy/) eller [fedttang](/skinfold/)), men overvej altid: 
+
+**Hvorfor vil du gerne have testet din fedtprocent?**
+
+Der er relativt store usikkerheder på alle tests. Og hvad kan du egentlig bruge tallet til, når du har fået det? Og hvis det er lidt højere, end du havde håbet, hvad gør det så ved dig? Og du finder aldrig ud af, om det faktisk var en fejlmåling.
+
+Så tænk dig om, inden du springer ud i målinger af din fedtprocent.
 
 ## Ofte stillede spørgsmål om måling af fedtprocent
 

@@ -1,132 +1,105 @@
 ---
-title: Hvad er en normal fedtprocent?
-seo_title: Hvornår er din fedtprocent normal?
+title: Hvad er en normal fedtprocent? (Skema & Tabel for mænd og kvinder)
+seo_title: Normal fedtprocent kvinder og mænd – Se skema og tabeller
+description: Hvad er en sund og normal fedtprocent for kvinder og mænd? Se vores overskuelige fedtprocent tabeller opdelt på alder, køn og atlet-kategorier.
 permalink: /fedtprocent-normer/
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1548705085-101177834f47.jpg
   credit: https://images.unsplash.com/photo-1548705085-101177834f47
 category:
-- Kost & Ernæring
-- Fedtprocent
+  - Kost & Ernæring
+  - Fedtprocent
 tags:
-- fedtprocent
-- normer
-last_modified_at: '2021-11-06T23:14:14Z'
+  - fedtprocent
+  - normer
+last_modified_at: '2026-07-25T18:00:00Z'
 toc: 'true'
-feature_row:
-- image_path: /assets/images/shop93647.sfstatic.io/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co_w774_h774_fill-a4f59501.jpg
-  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.w774.h774.fill.jpg
-  alt: Tanita DC 360P Kropsanalysevægt
-  title: Tanita DC 360P Kropsanalysevægt
-  excerpt: Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er
-    det muligt at få en fuld kropsanalyse og måle din fedtprocent.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1764-tanita-dc-360p-kropsanalysevaegt/
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: /assets/images/shop93647.sfstatic.io/tanita-mc_w774_h774_fill-7d7a5bf0.webp
-  credit: https://shop93647.sfstatic.io/upload_dir/shop/_thumbs/tanita-mc.w774.h774.fill.webp
-  alt: Tanita MC 780 P MA
-  title: Tanita MC 780 P MA
-  excerpt: Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte.
-    Med det todelte display, kan du nemt overskue den målte og beregnede data.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/shop/84-fedtmaaling/1771-tanita-mc-780-p-ma/
-  btn_label: Tjek pris
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
 faq:
-- question: Hvad er en god fedtprocent?
-  answer: 'Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på
-    siden kan du se normer for fedtprocent i forhold til forskellige befolkningsgrupper, men du kan også få et bud på, hvad
-    en sund fedtprocent er.
-
-    '
-- question: Hvordan finder jeg min fedtprocent?
-  answer: Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent.
-    Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere
-    og hydrostatisk vejning.
+  - question: Hvad er en normal fedtprocent for kvinder?
+    answer: For unge kvinder (20-39 år) ligger en normal fedtprocent typisk på 21-33 %. Med alderen stiger normen naturally til 23-35 % (40-59 år) og 24-36 % (over 60 år).
+  - question: Hvad er en normal fedtprocent for mænd?
+    answer: For unge mænd (20-39 år) ligger en normal fedtprocent typisk på 8-19 %. For mænd i alderen 40-59 år er normen 11-22 %, og for mænd over 60 år er den 13-25 %.
+  - question: Hvorfor har kvinder en højere fedtprocent end mænd?
+    answer: Kvinder har fysiologisk set omkring 10-12 % mere essentielt fedt end mænd. Dette fedt er nødvendigt for den hormonelle balance og reproduktive funktioner.
 ---
 
-Kender du din egen fedtprocent? En sund fedtprocent er forskellig for mænd og kvinder. I vores fedtprocent tabel kan du danne dig et overblik over, hvordan din fedtprocent kan sammenlignes med andre.
+Vil du vide, om din fedtprocent er sund, lav eller høj? Kvinders og mænds fysiologi er forskellig, og derfor afhænger en **normal fedtprocent** i høj grad af både dit køn og din alder.
 
-Fedtprocenten er den den mængde af fedt, du har i kroppen, i forhold til den fedtfrie masse. Vi har samlet nogle fedtprocentskemaer, hvor du kan sammenligne med en anbefalet fedtprocent for din alder og dit køn.
+Herunder finner du de officielle **fedtprocent skemaer og tabeller** baseret på WHO og American Council on Exercise (ACE).
 
-I tabellen over fedtprocenter kan du se, om du har en lav fedtprocent, en normal fedtprocent eller en høj fedtprocent sammenlignet med anbefalingerne.
+👉 *Har du endnu ikke målt din fedtprocent? Brug vores interaktive [Navy-beregner med målebånd her](/fedtprocent-navy/), lær at [måle fedtprocent med målebånd](/fedtprocent-maalebaand/) eller se vores samlede guide til [7 måder at måle fedtprocent på](/maal-fedtprocent/).*
 
-Du kan lave en [måling af din fedtprocent](/maal-fedtprocent/), hvis du er i tvivl om du har en sund mængde fedt i kroppen.
+---
 
-## Hvad betyder fedtprocent?
+## Fedtprocent skema for kvinder (opdelt på alder)
 
-Din fedtprocent fortæller, hvor meget fedt du har i kroppen. Kroppen består af fedt og fedtfri masse. Den fedtfri masse er knogler, muskler, organer, vand og alt det der ikke er fedt.
+Kvinder har naturally en højere fedtprocent end mænd på grund af essentielle fedtdepoter.
 
-Fedtet i kroppen er placeret under huden og i bughulen. Der er også et fint lag fedt i musklerne, og cellemembranerne består af fedtsyrer.
+| Alder | For lav fedtprocent | Normal fedtprocent | Overvægt | Svær overvægt |
+| :---: | :---: | :---: | :---: | :---: |
+| **20 – 39 år** | Under 21 % | **21 – 33 %** | 33 – 39 % | Over 39 % |
+| **40 – 59 år** | Under 23 % | **23 – 35 %** | 35 – 40 % | Over 40 % |
+| **Over 60 år** | Under 24 % | **24 – 36 %** | 36 – 42 % | Over 42 % |
 
-Når vi måler kroppens fedtprocent, så er det kun fedtet, der er lagret i fedtdepoterne under huden og i bughulen.
+*Kilde: Gallagher et al. (New York Obesity Research Center / WHO guidelines).*
 
-Den målte fedtprocent siger ikke noget om, hvor fedtdepoterne er fordelt på kroppen. Derfor er fedtprocent-værdien i sig selv ikke alene velegnet til at sige noget om sundhed.
+---
 
-Det ser ud til, at det fedt der er placeret i bughulen har større indvirkning på din sundhed end fedtet på lår og baller. Det er også derfor [taljemålet](/taljemaal/) er et godt mål at supplere med.
+## Fedtprocent skema for mænd (opdelt på alder)
 
-## Hvad er en normal fedtprocent?
+Mænd har en lavere mængde essentielt fedt og opbygger lettere muskelmasse i forhold til samlet kropsvægt.
 
-En normal fedtprocent vurderes typisk ud fra din alder og dit køn i forhold til undersøgelser, der vurderer risikoen for tidlig død. Kvinder og mænd har forskellige fedtprocenter, og fedtprocenten har også en tendens til at stige med alderen af forskellige årsager.
+| Alder | For lav fedtprocent | Normal fedtprocent | Overvægt | Svær overvægt |
+| :---: | :---: | :---: | :---: | :---: |
+| **20 – 39 år** | Under 8 % | **8 – 19 %** | 19 – 25 % | Over 25 % |
+| **40 – 59 år** | Under 11 % | **11 – 22 %** | 22 – 28 % | Over 28 % |
+| **Over 60 år** | Under 13 % | **13 – 25 %** | 25 – 30 % | Over 30 % |
 
-Den anbefalede fedtprocent er udelukkende en tommelfingerregel for, hvor meget fedt der bør være i kroppen for at være sund. Når du vurderer din egen krop og din egen fedtprocent, så skal du være meget opmærksom på, at alle målemetoderne er behæftet med en del udfordringer.
+*Kilde: Gallagher et al. (New York Obesity Research Center / WHO guidelines).*
 
-{% comment %}
+---
 
-## Forskel på mænd og kvinders fedtprocent?
+## Fedtprocent for atleter og motionister (ACE-normer)
 
-## Fedtprocent kvinder
+Træner du meget, eller vil du se normerne for atleter, har *American Council on Exercise (ACE)* opstillet følgende opdeling:
 
-## Fedtprocent mænd
+| Klassifikation | Kvinder (% fedt) | Mænd (% fedt) |
+| :--- | :---: | :---: |
+| **Essentielt fedt** (minimum for overlevelse) | 10 – 12 % | 2 – 5 % |
+| **Atleter / Eliteløbere** | 14 – 20 % | 6 – 13 % |
+| **Fitness / Motionist** | 21 – 24 % | 14 – 17 % |
+| **Gennemsnitlig / Acceptabel** | 25 – 31 % | 18 – 24 % |
+| **Overvægt** | > 32 % | > 25 % |
 
-## Hvornår er man tyndfed?
+---
 
-Tyndfed
+## Hvorfor har kvinder højere fedtprocent end mænd?
 
-## Fedtprocent børn
+Studier (fx Jackson et al., 2002) viser, at kvinders fedtprocent i gennemsnit ligger ca. **10,4 % højere** end mænds ved samme [BMI](/bmi/). 
 
+Dette skyldes primært kønshormonet østrogen samt behovet for energidepoter til graviditet og amning. Det fedt, der sidder på hofte, lår og baller hos kvinder, er kønsspecifikt og udgør sjældent samme sundhedsrisiko som mavefedt.
 
+---
 
-## Fedtprocent og BMI?
+## Hvad betyder fedtprocenten for din sundhed?
 
-{% endcomment %}
+Din fedtprocent angiver, hvor stor en del af din samlede kropsvægt der udgøres af fedtmasse i forhold til den **fedtfrie masse** (muskler, knogler, organer og væske).
 
-## Fedtprocent skema
+Vil du dykke dybere ned i kroppens opbygning, kan du læse vores guide om [kropskomposition](/kropskomposition/), eller undersøge teorierne om [idealvægt](/idealvaegt/).
 
-Når du har valgt en metode til at måle din fedtprocent, så får du et tal. Men hvad kan du så bruge tallet til efterfølgende?
+* **Visceralt fedt (mavefedt):** Fedt placeret inde omkring de indre organer udgør den største risiko for livsstilssygdomme og [højt blodtryk](/blodtryk/).
+* **Subkutant fedt:** Fedt placeret direkte under huden.
 
-Lad os først kigge på tabeller for kvinder og mænd og alder. Tabellerne viser de anbefalede værdier fordelt på køn.
+> 💡 **Tip:** Suppler altid din fedtprocentmåling med dit **[taljemål](/taljemaal/)**. Taljemålet giver et meget mere direkte billede af det farlige mavefedt.
 
-### Fedtprocent kvinder
-
-Her kan du se fedtprocent for kvinder fordelt på alder.
-
-| Alder | Undervægt<br>For lav fedtprocent | Perfekt<br>Normal fedtprocent| Overvægt<br>For høj fedtprocent | Svær overvægt<br>Alt for høj fedtprocent |
-|-|-|-|-|-|
-| 20-39 år | Under 21 % | 21 - 33 % | 33 - 39 % | Over 39 % |
-| 40-59 år | Under 23 % | 23 - 35 % | 35 - 40 % | Over 40 % |
-| Over 60 år | Under 24 % | 24 - 36 % | 36 - 42 % | Over 42 % |
-
-**Tabel**: Kilde: [Gallagher et al, New York Obesity Research Center](https://www.ncbi.nlm.nih.gov/pubmed/10966886). Baseret på officiel WHO/NIH guidelines.
-
-### Fedtprocent mænd
-
-I denne tabel kan du se fedtprocent for mænd fordelt på alder.
-
-| Alder | Undervægt<br>For lav fedtprocent | Perfekt<br>Normal fedtprocent | Overvægt<br>For høj fedtprocent | Svær overvægt<br>Alt for høj fedtprocent |
-|-|-|-|-|-|-|
-| 20-39 år | Under 8 % | 8 - 19 % | 19 - 25 % | Over 25 % |
-| 40-59 år | Under 11 % | 11 - 22 % | 22 - 28 % | Over 28 % |
-| Over 60 år | Under 13 % | 13 - 25 % | 25 - 30 % | Over 30 % |
-
-**Tabel**: Kilde: [Gallagher et al, New York Obesity Research Center](https://www.ncbi.nlm.nih.gov/pubmed/10966886). Baseret på officiel WHO/NIH guidelines.
+---
 
 ## Normer for fedtprocent for mænd og kvinder
 
-Hvis du er atlet, så vil værdierne ofte være lidt anderledes. Tabellen med normerne for fedtprocent for mænd og kvinder, som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/), kan derfor være et godt supplement for sportsfolk.
+Når du har valgt en metode til at måle din fedtprocent, så får du et tal. Men hvad kan du så bruge tallet til efterfølgende?
+
+Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/fedtprocent-normer/), som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
 
 | Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
 |------------------------|-----------------|---------------|
@@ -137,48 +110,20 @@ Hvis du er atlet, så vil værdierne ofte være lidt anderledes. Tabellen med no
 | Acceptabel             | 25-31%          | 18-24%        |
 | Overvægt               | > 32%           | > 25%         |
 
-## Hvad er en god fedtprocent?
+[Gallagher (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index) har lavet en grafik baseret på BMI og alder i forhold til, hvad en **sund normal fedtprocent** er:
 
-En god fedtprocent afhænger af, hvad dine mål er. Derfor skal din fedtprocent vurderes individuelt.
+{% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
-Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
-
-{% include figure image_path="/assets/images/4.bp.blogspot.com/BodyFatRangeChartLarge-c4f51d51.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index)) [📷](https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg){: rel='nofollow noopener' }" alt="Fedtprocent for mænd og kvinder" %}
-
-## Måling af fedtprocent
-
-Der er flere forskellige måder at måle fedtprocenten på. Lige fra den højteknologiske DEXA-scanner, beregninger, øjemålstests, vægte og hudfoldsmålinger. Vi har skrevet en guide til de forskellige [målemetoder til fedtprocent](/maal-fedtprocent/).
-
-## Beregning af fedtprocent
-
-Hvis du gerne vil have en ide om, hvad din fedtprocent er baseret på din alder, højde og vægt, så har forskere i mange studier forsøgt at lave nogle formler til at udregne fedtprocenten.
-
-Læs: [Fedtprocent beregner: Udregn fra alder, højde og vægt](/artikel/udregning-af-fedtprocent/)
-{: .notice }
-
-
-{% comment %}
-
-## Fedtprocent og alder
-
-{% endcomment %}
-
-## Hvorfor er kvinders fedtprocent højere end mænds?
-
-Kvinders fedtprocent er højere end mænds for det samme BMI. I Jackson et al (2002) viste de, at kvindernes fedtprocent faktisk var 10,4% højere end mænds. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
-
-{% include figure image_path="/assets/images/halls.md/heritage-a12b6971.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/) [📷](https://halls.md/bmi/images/heritage.gif){: rel='nofollow noopener' }" %}
-
-Kvinder har større fedtdepoter, fordi de har brug for mere energi til de processer der har med at gøre, at de kan føde børn.
-
-## Ofte stillede spørgsmål om måling af fedtprocent
-
-{% include motionsplan/faq.html %}
+---
 
 ## Konklusion
 
-I dette indlæg kunne du se, hvad en normal fedtprocent er?
+En sund fedtprocent er ikke et fast, entydigt tal, men et dynamisk spænd, der afhænger af dit køn, din alder og dit aktivitetsniveau. Selvom tabellerne giver dig et stærkt pejlemærke for din sundhed, er det vigtigt at huske, at kropskomposition kun er én brik i det samlede billede. 
 
-Jeg har skrevet en [guide til kropskomposition](/kropskomposition/), som måske kan give dig et nuanceret billede af, hvad fedtprocent er? Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
+Fokuser på sund og varieret ernæring, regelmæssig bevægelse og god energi i hverdagen – frem for at lade et tilfældigt tal styre din trivsel.
 
-Det er vanskeligt at bestemme den nøjagtige fedtprocent med det tilgængelige målemetoder. Derfor skal du tage fedtprocentmålingerne med et gran salt. Hvis du interesseret i at dykke endnu mere ned i beslægtede emner, så kan du tjekke indlægget om [idealvægt](/idealvaegt/) eller læse mere om [BMI for mænd og kvinder](/bmi/).
+---
+
+## Ofte stillede spørgsmål om fedtprocent
+
+{% include motionsplan/faq.html %}
