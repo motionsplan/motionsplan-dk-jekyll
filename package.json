@@ -2,14 +2,13 @@
   "name": "motionsplan.dk",
   "type": "module",
   "version": "1.0.0",
-  "description": "Official site for motionpslan.dk.",
+  "description": "Official site for motionsplan.dk.",
   "repository": {
     "type": "git",
     "url": "git://github.com/motionsplan/motionsplan-dk-jekyll.git"
   },
   "keywords": [
     "jekyll",
-    "gulp",
     "netlify"
   ],
   "author": "Lars Olesen",
@@ -19,16 +18,6 @@
   },
   "dependencies": {
     "glob": "^7.0",
-    "gulp": "^4.0",
-    "gulp-concat": "^2.6",
-    "gulp-empty": "^0.1",
-    "gulp-filter": "^5.1",
-    "gulp-if": "^2.0",
-    "gulp-imagemin": "^8.0",
-    "gulp-newer": "^1.4",
-    "gulp-notify": "^4.0",
-    "gulp-responsive": "2.12",
-    "gulp-size": "^3.0",
     "image-map-resizer": "^1.0"
   },
   "devDependencies": {
@@ -36,8 +25,6 @@
     "linkinator": "^6.1.2",
     "minipass": "2.7.0",
     "mocha": "^9.2",
-    "sharp": "^0.33.5",
-    "tinify": "^1.6",
     "uglify-js": "^3.13",
     "uglifyify": "^5.0.2",
     "watchify": "^4.0",
