@@ -122,7 +122,7 @@ Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [indlæg om biom
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- [**How to Squat: The Definitive Guide**](http://strengtheory.com/how-to-squat/) by Greg Nuckols (03/16/2016)  
+- [**How to Squat: The Definitive Guide**](https://www.strongerbyscience.com/how-to-squat/) by Greg Nuckols (03/16/2016)  
 - [**Squat Mechanics – The Red Pill**](http://www.strengtheory.com/squat-mechanics-the-red-pill/) by Greg Nuckols (02/23/2015)  
 - [**Calculating Joint Moments in the Squat**](http://bretcontreras.com/calculating-joint-moments-in-the-squat/) by Andrew Vigotsky (09/21/2015)  
 - [**Squat Mechanics: A Deep Analysis**](https://www.t-nation.com/training/squat-mechanics-a-deep-analysis) by Mark Rippetoe (01/15/2015)  

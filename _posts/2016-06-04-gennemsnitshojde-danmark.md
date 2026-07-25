@@ -1,8 +1,7 @@
 ---
 title: Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?
-seo_title: Gennemsnitshøjde i Danmark for mænd & kvinder i 2025
-description: Hvordan ser det ud med Danmarks gennemsnitshøjde? Den gennemsnitlige dansker har haft vokseværk. Er du højere
-  end gennemsnittet for mænd og kvinder?
+seo_title: Hvad er gennemsnitshøjden i Danmark? (Se tallene for 2026)
+description: Den gennemsnitlige danske mand er 181,4 cm og kvinden er 167,2 cm. Få de præcise svar, se historisk udvikling og sammenlign dig med andre lande her.
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
@@ -13,7 +12,7 @@ category:
 - Kropskomposition
 tags:
 - højde
-last_modified_at: '2022-12-02T08:14:14Z'
+last_modified_at: '2026-07-02T08:14:14Z'
 toc: 'true'
 faq:
 - question: Hvad er gennemsnitshøjden for kvinder i Danmark?
@@ -29,11 +28,13 @@ faq:
     når man nærmer sig at være udvokset.
 ---
 
-I Danmark er vores gennemsnitshøjde relativt høj. Hvis du er interesseret i at finde ud af, om du er højere end gennemsnittet, så er du kommet til det rigtige sted.
+Er du højere eller lavere end den gennemsnitlige dansker? Her får du det præcise svar med det samme:
 
-Vi har fundet flere interessante facts om højde i Danmark, og vi sammenligner også danskernes højde med andre lande og befolkningsgrupper.
+**Ifølge de nyeste tal er gennemsnitshøjden for danske mænd 181,4 cm, mens den gennemsnitlige danske kvinde er 167,2 cm høj.**
 
-Den gennemsnitlige danske mand er ifølge de nyeste tal 181,4 centimeter høj, og den gennemsnitlige danske kvinde er 167,2 centimeter høj. Den gennemsnitlige dansker har haft vokseværk de sidste 100 år. Gennemsnitshøjden er øget med 10 cm de seneste 100 år.
+Det gør danskerne til nogle af de absolut højeste mennesker i verden. 
+
+Gennemsnitsdanskeren har haft et solidt vokseværk, og højden er faktisk øget med hele 10 cm over de seneste 100 år. Læs videre for at se interessante facts om vores højde, og hvordan vi sammenligner os med resten af verden.
 
 {% include figure image_path="https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="gennemsnitshøjde i Danmark" %}
 

@@ -11,7 +11,7 @@ layout: webslides
       <div class="content-right vertical-align">
         <h2 class="aligncenter">{{ o.title }}</h2>
         <figure>
-            <img class="aligncenter" src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl={{ page.url | absolute_url }}?utm_source=orbit_{{ page.slug }}&utm_medium=qrcode&utm_campaign=website" alt="{{ m.title }}">
+            <img class="aligncenter" src="https://api.qrserver.com/v1/create-qr-code/?cht=qr&chs=250x250&chl={{ page.url | absolute_url }}?utm_source=orbit_{{ page.slug }}&utm_medium=qrcode&utm_campaign=website" alt="{{ m.title }}">
           </figure>
       </div>
     </div>

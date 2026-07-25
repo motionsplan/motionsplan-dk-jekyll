@@ -1,8 +1,7 @@
 ---
 title: Hvor mange muskler har mennesket i kroppen? 💪
-seo_title: Hvor mange muskler er der i menneskekroppen? (Omkring 700)
-description: Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen.
-  Desværre er det ikke så lige til at besvare nøjagtigt.
+seo_title: Hvor mange muskler har vi? (Og har mænd flere end kvinder?)
+description: Kroppen har omkring 700 skeletmuskler. Men har mænd og kvinder lige mange muskler? Få det præcise svar, og bliv klogere på vores muskeltyper.
 permalink: /hvor-mange-muskler-i-kroppen/
 last_modified_at: '2021-01-18T09:41:09Z'
 author: lsolesen
@@ -18,13 +17,24 @@ tags:
 - muskler
 - anatomi
 - faq
+faq:
+- question: Har mænd og kvinder lige mange muskler?
+  answer: Ja, rent anatomisk har mænd og kvinder nøjagtig det samme antal skeletmuskler. Mænd har fra naturens side generelt en større samlet muskelmasse, men selve antallet af muskler (omkring 700) er fuldstændig ens.
+- question: Hvor mange muskler er der i menneskekroppen?
+  answer: Et menneske har omkring 700 navngivne skeletmuskler. Hvis man også tæller den ufrivillige glatte muskulatur med (som findes i organer og blodkar), består kroppen af flere milliarder muskelceller.
+- question: Hvor mange muskeltyper findes der?
+  answer: Mennesket har tre forskellige muskeltyper. Skeletmuskulaturen (som vi bevidst kan styre og træne), hjertemusklen (der pumper blodet rundt) og den glatte muskulatur (som styrer vores organer helt automatisk).
 ---
 
-Hvor mange muskler har et menneske? Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt.
+Leder du efter det hurtige svar på, hvor mange muskler vi har i kroppen, og om der er forskel på kønnene? 
 
-Det korte svar på spørgsmålet er, at det er der måske ikke nogen, der nøjagtigt ved. Derfor må vi operere med et cirkatal.
+**Et menneske har omkring 700 navngivne skeletmuskler i kroppen – og mænd og kvinder har anatomisk set nøjagtig det samme antal.** 
 
-Hvor mange muskler er der i kroppen? **Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer meget an på, hvordan man tæller. Der er kun 200-300 muskler, som selv massageterapeuter og fysioterapeuter er interesserede i.**
+Selvom mænd fra naturens side generelt har en større samlet muskelmasse, er selve *antallet* af skeletmuskler altså ens. (Der findes dog enkelte kønsunikke undtagelser, som f.eks. livmoderen hos kvinder).
+
+Det præcise samlede antal er dog overraskende svært at slå fast. Herunder får du hele forklaringen på hvorfor, og hvordan kroppens 3 forskellige muskeltyper fungerer.
+
+**Bonusinfo: Der er kun 200-300 muskler, som selv massageterapeuter og fysioterapeuter er interesserede i.**
 
 ## Hvor mange muskler har vi i kroppen?
 
@@ -83,7 +93,7 @@ Men skeletmusklerne omfatter også musculus intercostales, som findes mellem rib
 
 Signalerne fra hjernen overføres via nervesystemet.
 
-## Muskler for mænd og kvinder
+## Har mænd og kvinder lige mange muskler?
 
 Mænd og kvinder har anatomisk samme antal skeletmuskler. Mænds muskler er i nogle tilfælde større end kvinders muskler. Der er [ikke forskel på mænds og kvinders muskler]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}).
 
@@ -102,3 +112,7 @@ Men hvis du kun tæller skeletmuskulaturen med, så er der omkring 700 muskler. 
 Jeg har skrevet mere om, hvordan [muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}) og jeg har også lavet en [muskeloversigt]({% link _pages/anatomy/muscles.md %}), hvor du kan se de mest nødvendige muskler i forhold til træning.
 
 Hvis du leder efter, hvor mange [knogler menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.
+
+## Ofte stillede spørgsmål om kroppens muskler
+
+{% include motionsplan/faq.html %}

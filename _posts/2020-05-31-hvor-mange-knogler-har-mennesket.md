@@ -1,6 +1,7 @@
 ---
 title: Hvor mange knogler har et menneske i kroppen? 🦴️
-seo_title: Hvor mange knogler har et menneske i kroppen?
+seo_title: Hvor mange knogler har et menneske? (Se det præcise tal her)
+description: Vidste du, at voksne og babyer ikke har lige mange knogler? Få det præcise svar, se den fulde liste over knogler i kroppen, og bliv klogere på din anatomi.
 permalink: /hvor-mange-knogler-har-mennesket/
 language: da
 header:
@@ -39,11 +40,21 @@ faq:
 - question: Hvor mange knogler er der i foden?
   answer: Selve fodens skelet består af 26 fodknogler, der holdes sammen af kraftige ledbånd. Du kan læse mere om fodens knogler
     under [ankelleddet og fodleddet](/joints/ankelleddet-og-fodleddet/).
+- question: Hvor mange knogler har en baby?
+  answer: Vi er født med omkring 300 forskellige knogler, som dog i begyndelsen hovedsageligt er brusk. Efterhånden som vi vokser, så vokser knoglerne sammen, og som voksen har vi altså kun omkring 206 knogler.
+- question: Hvor mange muskler har et menneske?
+  answer: Et menneske har omkring 700 navngivne skeletmuskler, men det samlede antal afhænger helt af, hvordan man tæller. Læs det fulde svar i vores dedikerede artikel om [hvor mange muskler mennesket har i kroppen](/hvor-mange-muskler-i-kroppen/).
 ---
 
-Jeg får ofte spørgsmålet om, hvor mange knogler et menneske har i kroppen, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor mange knogler skelettet består af, og jeg har lavet en liste over, hvad knoglerne i kroppen hedder på dansk, engelsk og latin?
+Leder du efter det hurtige svar på, hvor mange knogler vi har i kroppen? Her er det:
 
-**TLDR; Et voksent menneske har 206 knogler i kroppen. Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.**
+**Et fuldvoksent menneske har 206 knogler i kroppen.** 
+
+**En baby bliver derimod født med omkring 300 knogler.** 
+
+Hvorfor forsvinder der næsten 100 knogler undervejs? Efterhånden som vi vokser, vokser flere af børne-knoglerne (som i starten primært består af brusk) simpelthen sammen. 
+
+Læs videre herunder for at se, hvordan de 206 knogler er fordelt, eller spring direkte til vores [fulde liste over alle knoglerne i kroppen på dansk og latin](#liste-over-knogler-i-kroppen).
 
 ## Hvor mange knogler er der i et menneske?
 
@@ -54,10 +65,6 @@ Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle 
 Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
 
 {% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Det voksne menneske har i alt 206 knogler" alt="Hvor mange knogler har mennesket" %}
-
-## Hvor mange knogler har en baby?
-
-Vi er født med omkring 300 forskellige knogler, som dog i begyndelsen hovedsageligt er brusk. Efterhånden som vi vokser, så vokser knoglerne sammen, og som voksen har vi altså kun omkring 206 knogler.
 
 ## Ofte stillede spørgsmål
 

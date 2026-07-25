@@ -76,7 +76,7 @@ Opvarmningen er den første del af politiprøvens fysiske test. Opvarmningen ska
 
 {% include video provider="youtube" id="isDmCC3_fPk" %}
 
-Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opdelt i en løbedel, hoppedel og en styrkedel. Du kan læse hele programmet for opvarmningen til den politiets fysiske optagelsesprøve i denne [PDF](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/opvarmning-2019-aa.pdf).
+Opvarmningen varer omkring 15 minutter. Opvarmningen til de fysiske tests er opdelt i en løbedel, hoppedel og en styrkedel. Du kan læse hele programmet for opvarmningen til den politiets fysiske optagelsesprøve i denne [PDF](https://politi.dk/politiskolen/om-politiskolen/optagelsespr%C3%B8ven).
 
 Du kan forberede dig godt på opvarmningen, for det er altid de samme øvelser, der laves.
 

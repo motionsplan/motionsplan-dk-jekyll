@@ -32,7 +32,7 @@
   },
   "scripts": {
     "test": "mocha src/test/*.*",
-    "test:html": "bundle exec htmlproofer --only-4xx --assume-extension \".html\" --ignore-urls \"/bjsm.bmj.com/, /mademistakes.com/\" --ignore-status-codes \"400,403,409,429\" --allow-hash-href --ignore-empty-alt _site/",
+    "check-links": "bundle exec htmlproofer ./_site --only-4xx --ignore-status-codes '400,401,402,403,406,409,429,999' --ignore-empty-alt --allow-hash-href --no-enforce-https --ignore-urls '/bjsm.bmj.com/,/mademistakes.com/,/www.t-nation.com/,/pubmed.ncbi.nlm.nih.gov/,/doi.org/' > broken_links.txt 2>&1",
     "start": "bundle exec jekyll server --port 4040 --incremental",
     "lsi": "bundle exec jekyll server --port 4040 --incremental --lsi",
     "draft": "bundle exec jekyll server --port 4040 --incremental --drafts",

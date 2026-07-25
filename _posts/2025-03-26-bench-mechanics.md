@@ -96,7 +96,7 @@ Hvis du godt kan lide fysik og biomekanik, så tjek vores andre [sektion om biom
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- [How to Bench: The Definitive Guide](http://strengtheory.com/how-to-bench/) by Greg Nuckols 04/19/2016
+- [How to Bench: The Definitive Guide](https://www.strongerbyscience.com/how-to-bench/) by Greg Nuckols 04/19/2016
 - [4 Bench Press Lies](https://www.t-nation.com/training/4-bench-press-lies/) by Tony Bonvechio 08/27/2014
 - [A biomechanical anlysis of the bench press](https://etda.libraries.psu.edu/catalog/8894) by Duffey, Michael J 08/21/2008
 

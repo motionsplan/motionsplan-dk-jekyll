@@ -88,7 +88,7 @@ Opvarmningen udgør den første del af politiets fysiske optagelsesprøve. Form�
 
 {% include video provider="youtube" id="isDmCC3_fPk" %}
 
-Opvarmningen varer cirka 15 minutter og består af tre sektioner: løb, hop og styrketræning. Du kan finde det fulde program i denne [PDF](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/opvarmning-2019-aa.pdf).
+Opvarmningen varer cirka 15 minutter og består af tre sektioner: løb, hop og styrketræning. Du kan finde det fulde program i denne [PDF](https://politi.dk/politiskolen/om-politiskolen/optagelsespr%C3%B8ven).
 
 Forberedelse er vigtig, da opvarmningen altid indeholder de samme øvelser. For at bestå opvarmningen skal du gennemføre alle øvelserne korrekt og følge anvisningerne.
 

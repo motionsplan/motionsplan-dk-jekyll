@@ -236,17 +236,3 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 ## Psykologiske tests
 
 {% include feature_row id="feature_row_mental_tests" type="left" %}
-
-## Alle fitness tests på Motionsplan
-
-{% assign site_posts = site.posts | where: "tags", "test" | sort: "last_modified_date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>

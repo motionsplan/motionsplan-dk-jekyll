@@ -1,7 +1,7 @@
 ---
-title: 'Hastighedsberegner & Paceberegner'
-seo_title: 'Hastighedsberegner: Beregn km/t, pace (min/km), tid & distance'
-description: Samlet hastigheds- og paceberegner til løb og cykling ✔ Beregn km/t, pace (min/km), løbetid og distance ✔ Omregn lynhurtigt mellem enheder.
+title: 'Paceberegner & Hastighedsberegner'
+seo_title: 'Paceberegner: Omregn nemt pace til km/t & beregn din tid'
+description: 'Gratis hastigheds- og paceberegner til løb. Indtast din tid og distance, eller omregn lynhurtigt mellem pace (min/km) og km/t. Få svaret her!'
 permalink: /hastighed/
 redirect_from:
   - /hastighed/beregn-fart/
@@ -53,28 +53,30 @@ faq:
 
 Hvordan hænger **hastighed, tempo og tid** sammen i træning og løb? Med denne super-beregner kan du udregne og omregne alle variabler på ét samlet sted:
 
+[<i class='fas fa-calculator'></i> Gå direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
+**Brug vores hastighedsberegner til:**
+
 - Udregn **gennemsnitshastighed** i km/t eller m/s  
 - Find dit **tempo (pace)** i min/km  
 - Beregn **distance** eller **tid** ud fra tempo og fart  
 - Omregn direkte mellem **km/t, min/km og m/s**
 
-[<i class='fas fa-calculator'></i> Gå direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
-
 ---
 
-## Beregn din hastighed og pace
+## Beregn dit pace og din hastighed
 {: id="calculator" }
 
 {% include calc/speed-pace.html %}
 
 ---
 
-## Hvorfor bruge en hastighedsberegner?
+## Hvorfor bruge en paceberegner?
 
 Når jeg laver træningsprogrammer til løb eller cykling, bruger jeg næsten altid hastighed og tempo som udgangspunkt. Med en god beregner eller en **tempo-tabel** kan du nemt finde ud af:
 
-- Hvor hurtigt du løber eller cykler  
-- Hvor lang tid det tager at tilbagelægge en bestemt distance  
+- Hvor hurtigt du løber eller cykler
+- Hvor lang tid det tager at tilbagelægge en bestemt distance
 - Hvordan du omregner **km/t til min/km** – og den anden vej rundt
 
 ---
@@ -123,7 +125,7 @@ $$\text{Tid (min)} = \frac{\text{Distance (km)} \times 60}{\text{Hastighed (km/t
 
 ---
 
-### 4. Omregn mellem km/t og Pace (min/km)
+### 4. Omregn pace til km/t (og km/t til min/km)
 - **Fra km/t til pace (min/km):** Divider 60 med din hastighed i km/t.
   $$\text{Pace (min/km)} = \frac{60}{\text{Hastighed (km/t)}}$$
   *Eksempel:* $12 \text{ km/t} \rightarrow \frac{60}{12} = \mathbf{5:00 \text{ min/km}}$.

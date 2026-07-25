@@ -16,3 +16,4 @@ jekyll-algolia-record-too-big.log
 */.ztr-directory
 .bundle/*
 build/*
+broken_links.txt
