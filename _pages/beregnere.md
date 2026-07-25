@@ -35,7 +35,14 @@ Beregnerne hjælper dig med at omregne fra en enhed til en anden, eller udregne 
 ## Oversigt over alle beregnere
 {: id="calculators" }
 
-{% include table/filter-table-beregnere.html %}
+<!-- 2. Gem den tunge tabel i en foldud-boks -->
+<details markdown="1" style="background: #f8f9fa; padding: 12px 18px; border-radius: 6px; margin-bottom: 30px;">
+  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Vil du søge i den komplette liste? (Klik her for tabel)</strong></summary>
+
+  {% include table/filter-table-beregnere.html %}
+
+</details>
+
 
 <details markdown="1" class="faq">
   <summary><h3>🏋️‍♀️📏 BMI beregner, taljemål og idealvægt</h3></summary>

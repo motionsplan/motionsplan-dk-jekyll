@@ -63,11 +63,19 @@ De fleste tests indeholder et værktøj, der hjælper dig med at finde resultate
 ## Oversigt over alle tests
 {: id="tests" }
 
-{% include table/filter-table-tests.html %}
+<!-- 2. Gem den tunge tabel i en foldud-boks -->
+<details markdown="1" style="background: #f8f9fa; padding: 12px 18px; border-radius: 6px; margin-bottom: 30px;">
+  <summary><strong style="cursor: pointer; font-size: 1.1em;">🔍 Vil du søge i den komplette liste? (Klik her for tabel)</strong></summary>
+
+  <p style="margin-top: 10px;">Brug søgefeltet herunder til at filtrere på tværs af alle vores fysiske og psykologiske tests:</p>
+
+  {% include table/filter-table-tests.html %}
+
+</details>
 
 ***
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="konditionstests">
   <summary><h3>💨🫁 Konditionstests</h3></summary>
 
 Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og sit [kondital](/kondital/). Her har jeg samlet alle konditionstests her på Motionsplan.
@@ -89,7 +97,7 @@ Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vo
 </div>
 </details>
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="lobetests">
   <summary><h3>🏃‍♀️📏 Løbetests</h3></summary>
 
 Der findes flere løbetests, som du kan bruge til at teste dit nuværende niveau.
@@ -109,7 +117,7 @@ Der findes flere løbetests, som du kan bruge til at teste dit nuværende niveau
 </div>
 </details>
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="gangtests">
   <summary><h3>🚶‍♂️📊 Gangtests</h3></summary>
 
 Gangtests kan være en rigtig god måde at få tjekket sit nuværende fysiske niveau. Disse gangtests er ofte benyttet til lidt ældre mennesker, som ikke kan løbe eller cykle.
@@ -127,7 +135,7 @@ Gangtests kan være en rigtig god måde at få tjekket sit nuværende fysiske ni
 </div>
 </details>
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="cykeltests">
   <summary><h3>🚴‍♀️💨 Cykeltests</h3></summary>
 
 Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet en oversigt over alle cykeltests her på siden.
@@ -147,7 +155,7 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 </div>
 </details>
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="hoppetests">
   <summary><h3>🦘🏋️‍♀️ Springtest og hoppetests</h3></summary>
 
 {% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
@@ -165,7 +173,7 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 </div>
 </details>
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="sprinttests">
   <summary><h3>🏃‍♂️💨 Sprint- og hurtighedstests</h3></summary>
 
 {% assign site_posts = site.posts | where: "tags", "sprinttest" | sort: "date" %}
@@ -201,7 +209,7 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 </div>
 </details>
 
-<details markdown="1" class="faq">
+<details markdown="1" class="faq" id="psykologiske">
   <summary><h3>🧠💭 Psykologiske tests</h3></summary>
 
 {% assign site_posts = site.posts | where: "tags", "psykologisk test" | sort: "date" %}
