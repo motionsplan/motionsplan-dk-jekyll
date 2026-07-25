@@ -1,5 +1,8 @@
 ---
-title: Er jeg et A- eller B-menneske? Hvilken kronotype er du?
+title: 'Er du et A- eller B-menneske? Find din kronotype'
+seo_title: 'A- eller B-menneske? Sammenligning, kendetegn & Kronotype Test'
+excerpt: Test om du er A- eller B-menneske. Lær om de fysiologiske kendetegn for din kronotype, døgnrytme og socialt jetlag her!
+description: Er du A- eller B-menneske? Se den visuelle sammenligningstabel over kendetegn, forstå din kronotype og tag en gratis online kronotype test her.
 permalink: /a-eller-b-menneske/
 redirect_from:
 - /a-eller-b-menneske
@@ -44,7 +47,7 @@ Vores samfund er primært konstrueret med udgangspunkt i døgnrytmen for A-menne
 
 {% include video provider="youtube" id="t5ylqK-aPX8" %}
 
-## Hvad er A-mennesker og B-mennesker?
+## A-menneske vs. B-menneske: Hvad er forskellen?
 
 A-mennesker og B-mennesker er betegnelser for, hvordan det enkelte menneske foretrækker deres døgnrytme. Det er et kontinuum mellem mennesker der har en tidlig kronotype og en sen kronotype.
 
@@ -52,7 +55,7 @@ Vi kan naturligvis ikke [reducere](https://videnskab.dk/krop-sundhed/vores-doegn
 
 {% include figure image_path="https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=600&q=60" alt="a-menneske eller b-menneske i sengen" %}
 
-## Hvad er din kronotype?
+## Hvad er en kronotype og dit søvnmidtpunkt?
 
 Till Roenneberg fra Ludwig-Maximilians-Universität i München har kortlagt mere end 220.000 menneskers døgnrytme. Han har fundet ud af, at fordelingen af kronotyper  og døgnrytmer spænder fra ekstremt A-menneske til ekstremt B-menneske.
 
@@ -125,7 +128,7 @@ Her kan du se en søvndagbog for to forskellige kronotyper. Det er tydeligt at B
 
 For B-mennesket er der stor uoverensstemmelse mellem det biologiske indre ur og den sociale tid. Denne uoverensstemmelse kaldes ofte i litteraturen **socialt jetlag**.
 
-## Hvad er socialt jetlag?
+## Hvad er socialt jetlag? (Konsekvenser for B-mennesker)
 
 Socialt jetlag er når der er uoverensstemmelse mellem det indre ur og tidsregningen i de sociale sammenhænge, fx skole- og arbejdslivet. Det anslås at over [70% af befolkningen](https://www.kristeligt-dagblad.dk/sundhed-helbred/saadan-faar-du-den-bedste-soevn-som-eller-b-menneske) har mere en 1 times forskel i indre tid og social tid.
 
@@ -143,11 +146,13 @@ Du kan dykke mere ned i socialt jetlag i denne Youtube-video med Till Roenneberg
 
 Hvordan klarer jeg mig så som B-menneske i en verden, der er konstrueret til A-mennesker?
 
-## Alle har ikke samme døgnrytme
+## Døgnrytmen ændrer sig gennem livet
 
 Din døgnrytme er bestemt af en **biologisk faktor** og en indre døgnrytme. Søvnen styres af et komplekst netværk af nervesystemet, hjernen og hormoner. Alle har et **indre ur**.
 
 Det er svært at lave om på, at et døgn varer 24 timer i vores tidsregning, men mange mennesker har en biologisk døgnrytme, der er tættere på 25 timer. Denne døgnrytme gør, at de bliver trætte senere og senere på aftenen - og får lyst til at gå sent i seng.
+
+## Biologi vs. eksterne faktorer (Det 25-timers døgn)
 
 Jürgen Aschof lod i 1965 forsøgspersoner leve i huse uden vinduer i en isolationsperiode på tre-fire uger. En del af personerne endte med en døgnrytme på 45 timer, hvor de var vågne i 30 timer og sov i 15 timer. De var altså ekstreme B-mennesker.
 
@@ -159,13 +164,13 @@ Derfor kan du sagtens udleve en døgnrytme, der følger dagens naturlige længde
 
 Fx kan du relativt let beregne [hvornår du skal gå i seng?](/hvornaar-gaa-i-seng/) for at få den bedst mulige søvn.
 
-## Hvordan finder jeg mit søvnvindue?
+## Hvordan finder du dit søvnvindue?
 
 Når du skal finde et godt søvnmønster, så er det godt at finde ud af, hvornår dit søvnvindue er. Alle har forskellige søvnbehov, men der kan være tidspunkter som passer bedre til den enkelte at falde i søvn på.
 
 Et søvnvindue for et A-menneske kunne eksempelvis være fra kl. 22-6, og for et B-menneske kunne det være fra kl. 1-9.
 
-## Test: Er jeg A- eller B-menneske?
+## Kronotype test: Er du A- eller B-menneske?
 
 Du kan naturligvis bruge ovenstående karakteristika for at finde ud af, om du er A- eller B-menneske.
 
@@ -187,7 +192,7 @@ Derfor kan tage *Horne-Ostberg Morning-Eveningness Questionnaire (MEQ)*, som du 
 
 {% include figure image_path="/assets/images/blog/kronotype-horne-ostberg.jpg" caption="Du kan tage Horne-Ostberg Morning-Eveningness Questionnaire online på [www.cet-surveys.com](https://www.cet-surveys.com/index.php?sid=61524)." alt="Horne-Ostberg Morning-Eveningness Questionnaire - A- eller B-menneske?" %}
 
-## Bonus: Epworths Søvnighedsskala
+## Bonus: Epworths Søvnighedsskala (Søvnighedstest)
 
 Epworths søvnighedsskala har til hensigt at måle på søvnigheden og tendensen til at falde i søvn i hverdagssituationer. Spørgeskemaet kan bruges til at diagnostisere søvnsygdomme, men det kan også hjælpe med at afdække om dine søvnmønstre passer til din kronotype.
 
