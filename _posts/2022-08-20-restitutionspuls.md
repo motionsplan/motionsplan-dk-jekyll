@@ -1,142 +1,121 @@
 ---
-title: 'Restitutionspuls: Hvad er Heart Rate Recovery?'
+title: 'Restitutionspuls: Hvad er et godt pulsfald efter træning?'
+seo_title: 'Restitutionspuls: Hvad er et godt pulsfald? (Tabel & Skema)'
+excerpt: Hvor hurtigt skal pulsen falde efter træning? Se vores restitutionspuls tabel, forstå dine tal og lær hvordan Garmin måler din Heart Rate Recovery (HRR).
+description: Hvad er en god restitutionspuls? Se skema og tabel over pulsfald efter 1 og 2 minutter (HRR), lær at tolke Garmin-målinger og test dit formniveau.
 permalink: /restitutionspuls/
-excerpt: Vil du gerne vide, hvor god form du er i? Din restitutionspuls er en måde at måle på, hvor godt dit hjerte fungerer
-  og din krop kan vende tilbage til hvile efter fysisk aktivitet.
 language: da
 header:
-  teaser: /assets/images/unsplash/photo-1523394894855-2feb062d437d.jpg
+  overlay_image: /assets/images/unsplash/photo-1523394894855-2feb062d437d.jpg
   credit: https://images.unsplash.com/photo-1523394894855-2feb062d437d
+  teaser: /assets/images/unsplash/photo-1523394894855-2feb062d437d.jpg
   caption: 'Restitutionspuls: Hvad er Heart Rate Recovery?'
 category:
-- Fysiologi
+  - Fysiologi
 tags:
-- puls
-last_modified_at: '2022-08-18T23:14:14Z'
+  - puls
+  - restitution
+  - kondition
+last_modified_at: '2026-07-25T18:00:00Z'
+toc: 'true'
+faq:
+  - question: Hvad er en god restitutionspuls efter 1 minut?
+    answer: Et pulsfald på 12-20 slag i minuttet efter 1 minut betragtes som normalt. Falder pulsen med over 25-30 slag i det første minut, er du i særdeles god form.
+  - question: Hvad er en god restitutionspuls efter 2 minutter?
+    answer: Efter 2 minutter bør pulsen gerne falde med 30-40 slag for en gennemsnitlig person. Hos veltrænede atleter kan pulsen falde med 50-60+ slag efter 2 minutter.
+  - question: Hvorfor er en lav restitutionspuls uhensigtsmæssig?
+    answer: Hvis din puls falder med mindre end 12 slag i minuttet det første minut efter intensiv træning, regnes det fysiologisk for et unormalt lavt pulsfald, hvilket i studier er koblet til øget risiko for hjerte-kar-sygdomme.
+  - question: Hvordan måler Garmin min restitutionspuls?
+    answer: Når du stopper en aktivitet på dit Garmin-ur, kan du vælge 'Restitutionspuls'. Uret måler derefter din puls i nøjagtigt 2 minutter, mens du står stille, og viser dit samlede pulsfald (HRR).
 ---
 
-Vil du gerne vide, hvor god form du er i? Din restitutionspuls er en måde at måle på, hvor godt dit hjerte fungerer og din krop kan vende tilbage til hvile efter fysisk aktivitet.
+Din **restitutionspuls** (på engelsk *Heart Rate Recovery* eller *HRR*) er et af de mest præcise og undervurderede mål for dit kredsløb og din fysiske form. 
 
-[Din puls](/puls/) kan være med til at fortælle noget om din generelle sundhed, hvor [god kondition](/kondition/) du er i, og hvor meget du anstrenger dig.
+Kort fortalt måler restitutionspulsen, **hvor hurtigt dit hjerte falder i kadence**, lige efter du stopper en intensiv træning. Et hurtigt pulsfald er et stærkt tegn på et sundt hjerte og en god kondition.
 
-Men hvordan kan den sige noget om din form?
+---
 
-Der kan du bruge din restitutionspuls, eller din _heart rate recovery_ (HRR) puls.
+## Hvad er en god restitutionspuls? (Tabel og skema)
 
-Lad os kigge på det!
+Søger du efter et **skema eller en tabel over restitutionspuls** for at se, hvor godt dit pulsfald placerer sig?
 
-{% include figure image_path="https://images.unsplash.com/photo-1523394894855-2feb062d437d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="pulsur måler heart rate recovery og restitutionspuls" %}
+Tidsrummet for målingen er afgørende: Måler du pulsfaldet efter **1 minut ($HRR_1$)** eller efter **2 minutter ($HRR_2$)**? De fleste pulsure (herunder Garmin) benytter 2 minutter.
 
-## Hvad er restitutionspuls?
+Herunder kan du aflæse normalkategorierne for voksne efter moderat til hård træning:
 
-Din restitutionspuls er hjertets evne til at vende tilbage til normal hastighed efter fysisk aktivitet.
+### Restitutionspuls tabel ($HRR_1$ og $HRR_2$)
 
-Du måler din puls umiddelbart efter træningen slutter, og så måler du den igen 1 eller 2 minutter efter. Forskellen mellem de to målinger er restitutionspulsen.
+| Formniveau / Kategori | Pulsfald efter 1 min ($HRR_1$) | Pulsfald efter 2 min ($HRR_2$) | Vurdering |
+| :--- | :---: | :---: | :--- |
+| **Dårlig / Unormal** | < 12 slag | < 22 slag | Unormalt lavt pulsfald. Kan indikere manglende form eller overbelastning. |
+| **Middel / Normal** | 12 – 20 slag | 22 – 35 slag | Gennemsnitligt pulsfald for en sund, rask voksen. |
+| **God** | 21 – 30 slag | 36 – 45 slag | Godt kredsløb og fin kondition. |
+| **Fremragende / Atlet** | > 30 slag | > 45 slag | Fremragende hjertesundhed og høj aerob kapacitet. |
 
-Hvis din restitutionspuls er høj, så er du i god form. Hvis den er knap så høj, så er der stadig plads til forbedring.
+> ⚠️ **Vigtigt om grænseværdien 12:** Lægevidenskabelige studier (bl.a. udgivet i *New England Journal of Medicine*) har vist, at et pulsfald på **under 12 slag i minuttet** det første minut efter intens motion er forbundet med en markant forøget risiko for hjerte-kar-sygdomme.
 
-Men er det 1 eller 2 minutter?
+---
 
-Det kan du selv vælge. Du skal bare gøre det samme fra gang til gang. Og når du kigger på et skema over en god restitutionspuls, så skal du naturligvis også være opmærksom på, hvilken tidsperiode der er valgt.
+## Hvordan fungerer restitutionspuls (HRR)?
 
-## Hvordan opfører pulsen sig efter aktivitet?
+Når du træner, aktiverer kroppen det *sympatiske nervesystem* ("kemisk gaspedal"), som får hjertet til at slå hurtigere for at pumpe ilt ud til musklerne.
 
-Når du er færdig med fysisk aktivitet, så falder din puls. Det er derfor vi overhovedet kan snakke om _heart rate recovery_.
+Så snart du stopper træningen, overtager det *parasympatiske nervesystem* ("bremsen"). Hos en veltrænet person slår bremsen hurtigt og effektivt igennem, hvorfor pulsen dykker stejlt med det samme.
 
-Men hvordan falder pulsen?
+{% include figure image_path="/assets/images/blog/HeartRateRecovery.jpg" alt="restitutionspuls og heart rate recovery graf for trænet vs utrænet" caption="Kurven for pulsfald hos en trænet person dykker markant hurtigere sammenlignet med en utrænet. Kilde: derbycitycf.com" %}
 
-Det kommer an på, om hvor god kondition du er i. Hvis du har et godt og velfungerende kredsløb, så falder den hurtigere, end hvis du ikke er i så god form.
+---
 
-Tjek denne graf for at se, hvad jeg mener.
+## Sådan måler du din restitutionspuls korrekt
 
-{% include figure image_path="/assets/images/blog/HeartRateRecovery.jpg" alt="restitutionspuls og heart rate recovery graf for trænet vs utrænet" caption="Kilde: [derbycitycf.com](https://derbycitycf.com/heart-rate-recovery-an-easy-way-to-track-your-fitness/)" %}
+For at få valide målinger fra gang til gang skal du følge samme fremgangsmåde:
 
-## Hvordan måler jeg restitutionspulsen?
+1. **Afslut træningen brat:** Kør eller løb med moderat til høj intensitet til sidst (f.eks. ved din arbejds- eller [maxpuls](/test-max-puls/)).
+2. **Stå helt stille:** Stop op i samme øjeblik træningen slutter. Sid eller stå helt stille uden at gå rundt.
+3. **Mål startpuls ($P_{\text{start}}$):** Noter din puls præcis i det sekund, du stopper.
+4. **Mål slutpuls ($P_{\text{slut}}$):** Noter din puls efter nøjagtig **60 sekunder** ($HRR_1$) eller **120 sekunder** ($HRR_2$).
+5. **Udregn forskellen:** 
+   $$\text{Restitutionspuls} = P_{\text{start}} - P_{\text{slut}}$$
 
-For at måle din restitutionspuls, så har du brug for en måling lige efter du er stoppet med at træne, og enten 1 eller 2 minutter efter.
+### Eksempel på beregning:
+* Arbejdspuls ved træningsstop: **160 slag/min**
+* Puls efter 2 minutter: **115 slag/min**
+* **Restitutionspuls ($HRR_2$):** $160 - 115 = 45 \text{ slag}$. (Dette placerer dig i kategorien "God/Fremragende").
 
-Du måler altså din puls lige efter du stopper med at træne. Så står du helt stille i 1 eller 2 minutter. Derefter måler du pulsen igen.
+{% include figure image_path="/assets/images/blog/restitutionspuls-1600m.png" alt="graf med restitutionspuls" caption="Eksempel på et pulspas med registrering af pulsen ved arbejdets afslutning, samt efter 1 og 2 minutters hvile." %}
 
-Men hvordan måler du pulsen i praksis?
+---
 
-Hvis du gør det **manuelt**, så kan det anbefales at tælle pulsen i fx 1 minut lige efter træningen. Dette giver ganske vist ikke det nøjagtige pulstal, da den jo allerede daler i løbet af minuttet.
+## Restitutionspuls på Garmin-ure
 
-Derefter tæller du igen pulsen fra 1-2 minutter efter træningen. Så får du stadig et nogenlunde billede af, hvad din restitutionspuls er.
+Brugere af Garmin-pulsure kan nemt måle deres restitutionspuls automatisk efter hvert træningspas:
 
-Hvis du gør det ved at kigge på **pulsen på et pulsur**, så kan du kigge på pulsmåleren i afslutningen af træningen. Derefter venter du et minut, og så noterer du også pulsen der.
+1. Tryk på **Stop** på uret, når du afslutter dit løb eller din cykeltur.
+2. Rul ned på skærmen (eller tryk på menuen) og vælg **Restitutionspuls** (*Recovery HR*).
+3. Stå helt stille. Uret tæller nu ned fra **2:00 minutter**.
+4. Når nedtællingen slutter, viser uret din **$HRR_2$** (f.eks. *"Restitutionspuls: 38 bpm"*).
 
-Det er også en **indbygget funktion** i visse pulsure. Fx kan du med Garmin efter et træningspas måle din restitutionspuls, inden du gemmer træningspasset. Garmin bruger 2 minutter som restitutionspuls.
+> **Hvorfor ændrer tallet sig fra dag til dag på Garmin?** 
+> Din restitutionspuls påvirkes af mere end blot din kondition. Stress, manglende [søvn](/soevn/), væskeunderskud, varme og [overtræning](/restitution/) kan reducere dit pulsfald midlertidigt.
 
-Lad os tage et eksempel:
+---
 
-Du træner med omkring 140 slag pr. minut. Når du stopper træningspasset, så står du helt stille. Efter 1 minut har du en puls på 105 og efter 2 minutter har du en puls på 98 slag/min.
+## 3 måder du forbedrer din restitutionspuls på
 
-{% include figure image_path="/assets/images/blog/restitutionspuls-1600m.png" alt="graf med restitutionspuls" caption="Pulsgraf med omkring 10 minutters arbejde ved _steady state_. Pulsen måles når arbejdet slutter, 1 minut efter og 2 minutter efter." %}
+Vil du gerne have dit pulsfald højere op i skemaet? 
 
-Så skal vi bare regne lidt.
+1. **Øg din konditionstræning:** Både rolig udholdenhedstræning og [intervaltræning](/intervaltraening/) styrker hjertets slagvolumen og parasympatiske tone.
+2. **Sænk din hvilepuls:** Et stærkt hjerte har generelt en [lavere hvilepuls](/hvilepuls/), hvilket giver hjertet et større spænd at falde ned i efter arbejde.
+3. **Prioriter restitution og søvn:** Stress og for lidt søvn holder det sympatiske nervesystem aktiveret, hvilket hæmmer hjertets evne til at falde til ro efter træning.
 
-Din arbejdspuls var 140. Det trækker vi 105 fra, som var din puls efter 1 minut. I alt er din restitutionspuls altså HRR<sub>1 minut</sub>=35 og HRR<sub>2 minut</sub>=42.
-
-## Hvordan kan jeg bruge min restitutionspuls?
-
-Når du gerne vil bruge din restitutionspuls til at sige noget om dit træningsudbytte, så skal du selvfølgelig vide, hvordan du gør.
-
-Hvis du måler den jævnligt i forbindelse med træning, så kan du få et godt indtryk af, om din form forbedrer sig
-
-Hvad betyder det?
-
-Du kan fx finde din restitutionspuls i begyndelsen af et træningsforløb. Efter 1 måned måler du igen din restitutionspuls. Hvis antallet af pulsslag er blevet lavere fra første til anden test, så er din form sandsynligvis forbedret.
-
-Men der er noget du skal vide.
-
-Du kan ikke bare tage et hvilket som helst træningspas. Dit træningspas skal ligne hinanden nogenlunde og have samme intensitet.
-
-Det er klart, at hvis du er tæt på [din maxpuls](/test-max-puls/), så vil pulsen falde mere, end hvis du arbejder med en lav intensitet.
-
-Så har vi styr på det.
-
-Men hvor meget skal pulsen så falde?
-
-## Hvad er en god restitutionspuls?
-
-En almindelig rask person har typisk et pulsfald på omkring 20, mens restitutionspulsen hos en veltrænet atlet kan ligge på omkring 50.
-
-Hvis din restitutionspuls falder med [mindre end 12 slag i minuttet](https://www.nytimes.com/2001/04/24/health/maximum-heart-rate-theory-is-challenged.html) efter energisk motion, så har du fire gange så høj risiko for hjerte-kar-sygdomme.
-
-Fire gange så høj risiko!
-
-Det kan altså betale sig at [træne sin kondition](/konditionstraening/). Og hvis du får en [lavere hvilepuls](/hvilepuls/), så kan du formentlig også få pulsen til at falde mere lige efter træningen.
+---
 
 ## Konklusion
 
-Restitutionspulsen kan være en måde at følge dine træningsfremskridt på. Hvis din restitutionspuls falder over tid, så indikerer det, at dit hjerte bliver mere effektivt til at pumpe blod og [restituere sig efter træning](/restitution/).
+Din restitutionspuls er en enkel og gratis indikator for din hjerte-kar-sundhed og din fysiske form. Ved regelmæssigt at måle dit pulsfald efter 1 eller 2 minutter kan du hurtigt se, om din træning bærer frugt.
 
-Der er flere måder at måle din restitutionspuls på. Jeg foretrækker at gøre det med [et pulsur](/pulsure/), men du kan også tælle din puls manuelt. 
+---
 
-Du skal bare huske at konsekvent i den måde, du måler pulsfaldet på, hvis du gerne vil sammenligne.
+## Ofte stillede spørgsmål om restitutionspuls
 
-{% comment %}
-
-
-
-Hvad er en god restitutionspuls?
-
-Hvor hurtigt falder pulsen efter en løbetur?
-
-Restitutionspuls garmin
-
-
-
-
-
-
-
-Link fra restitutionssider
-
-Link fra puls
-
-Link fra pulstræning
-
-
-
-{% endcomment %}
+{% include motionsplan/faq.html %}
