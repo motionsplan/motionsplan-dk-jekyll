@@ -1,7 +1,7 @@
 ---
 title: Beregn dit ligevægtsindtag og daglige energibehov ⚖️
-seo_title: "Ligevægtsindtag & TDEE-beregner: Beregn dit daglige energibehov"
-description: "Beregn dit præcise ligevægtsindtag og daglige energiforbrug (TDEE). Vælg mellem hurtig PAL-beregning eller detaljeret tidsregistrering."
+seo_title: "Ligevægtsberegner: Beregn dit ligevægtsindtag nemt & gratis"
+description: "Beregn dit præcise ligevægtsindtag (TDEE). Indtast din højde, vægt og aktivitet, og find ud af præcis hvor mange kalorier du skal spise om dagen!"
 permalink: /ligevaegtsindtag-beregner/
 classes: wide
 redirect_from:
@@ -61,6 +61,8 @@ faq:
   answer: TEE (Total Energy Expenditure) og TDEE (Total Daily Energy Expenditure) er de videnskabelige betegnelser for dit samlede daglige energiforbrug. Ligevægtsindtag er det antal kalorier, du skal spise for at matche dette energiforbrug præcist.
 - question: Kan jeg beregne min forbrænding nøjagtigt, hvis jeg ønsker at tabe mig?
   answer: Ja, ved at kende din daglige forbrænding og dit ligevægtsindtag kan du oprette et præcist kalorieunderskud (fx 500 kcal om dagen) for at opnå et jævnt og sundt vægttab.
+- question: Er en beregner til ligevægtsindtag præcis?
+  answer: 'En online beregner giver et kvalificeret skøn baseret på gennemsnitlige værdier for basalstofskifte og fysisk aktivitet. Den kan være utrolig præcis for mange, men individuelle faktorer som kropssammensætning, genetik, søvn og stress kan skabe variationer.'
 feature_row_needed:
 - title: ⚖️
   excerpt: '**Køkkenvægt**<br>For at registrere dit faktiske kalorieindtag skal du veje din mad. Uden en køkkenvægt risikerer du markant at under- eller overvurdere dit kalorieindtag.'
@@ -87,7 +89,22 @@ I denne beregner kan du vælge mellem to metoder:
 2. **Den normal metode:** Indtast din tidsfordeling over døgnets 24 timer i forskellige kategorier for et mere nøjagtigt resultat.
 2. **Den avancerede metode:** Indtast din tidsfordeling for alle døgnets 24 timer på specifikke aktiviteter for et mere nøjagtigt resultat.
 
-[<i class='fas fa-calculator'></i> Hop direkte til ligevægtsberegneren](#calculator){: .btn .btn--success .btn--jump }
+## Beregn dit ligevægtsindtag (TDEE) og energibehov
+{: id="calculator" }
+
+Vælg den formel for hvilestofskiftet, der passer bedst til dig (beregneren vælger automatisk den anbefalede ud fra alder og køn). Derefter angiver du dit aktivitetsniveau enten via drop-down eller via præcis tidsregistrering.
+
+{% include calc/bmr-calculator.html 
+  title="Beregn dit ligevægtsindtag (TDEE)"
+  description="Beregn dit samlede energibehov på en dag ud fra hvilestofskiftet (BMR) og dit daglige aktivitetsniveau (PAL)."
+%}
+
+{: .notice--info}
+**Kender du din fedtprocent?**  
+Hvis du er meget veltrænet eller har en høj muskelmasse, kan du benytte vores [BMR-beregner ud fra fedtfri masse (FFM)](/bmr-beregner-ffm/).
+
+Med denne beregner kan du udregne dit samlede daglige energibehov, dit daglige stofskifte og din totale forbrænding (TEE / TDEE). Resultatet giver et præcist estimat baseret på gennemsnitsværdier for dit køn, din alder, din vægt og dit fysiske aktivitetsniveau.
+
 
 *[BMR]: Basic Metabolic Rate
 *[REE]: Resting Energy Expenditure
@@ -113,30 +130,6 @@ $$
 * **Fysisk aktivitet (PAL):** Energiforbruget fra al bevægelse – både struktureret træning, arbejde og hverdagsbevægelse.
 
 Du kan læse mere om [fysiologien bag stofskiftet her](/stofskifte/).
-
----
-
-## Beregn dit daglige stofskifte, energiforbrug og forbrænding
-
-Med denne beregner kan du udregne dit samlede daglige energibehov, dit daglige stofskifte og din totale forbrænding (TEE / TDEE). Resultatet giver et præcist estimat baseret på gennemsnitsværdier for dit køn, din alder, din vægt og dit fysiske aktivitetsniveau.
-
-[<i class='fas fa-calculator'></i> Hop direkte til ligevægtsberegneren](#calculator){: .btn .btn--success .btn--jump }
-
----
-
-## Beregn dit ligevægtsindtag (TDEE)
-{: id="calculator" }
-
-Vælg den formel for hvilestofskiftet, der passer bedst til dig (beregneren vælger automatisk den anbefalede ud fra alder og køn). Derefter angiver du dit aktivitetsniveau enten via drop-down eller via præcis tidsregistrering.
-
-{% include calc/bmr-calculator.html 
-  title="Beregn dit ligevægtsindtag (TDEE)"
-  description="Beregn dit samlede energibehov på en dag ud fra hvilestofskiftet (BMR) og dit daglige aktivitetsniveau (PAL)."
-%}
-
-{: .notice--info}
-**Kender du din fedtprocent?**  
-Hvis du er meget veltrænet eller har en høj muskelmasse, kan du benytte vores [BMR-beregner ud fra fedtfri masse (FFM)](/bmr-beregner-ffm/).
 
 ---
 
@@ -213,6 +206,8 @@ For at finde dit empirisk 100% præcise ligevægtsindtag skal du gennemføre en 
    * **Vægten stiger:** Du er i kalorieoverskud. Sænk dit daglige indtag med 150–300 kcal.
    * **Vægten falder:** Du er i kalorieunderskud. Øg dit daglige indtag med 150–300 kcal.
 
+Ønsker du den mest **nøjagtige TEE-beregning**, kan du enten benytte vores [tidsregistrering med MET-skema](#metode-2-praecis-tidsregistrering-24-timers-skema) eller følge vores 14-dages test med kostregistrering og badevægt.
+
 ---
 
 ## Hvad kan jeg bruge ligevægtsindtaget og energiforbruget til?
@@ -223,11 +218,7 @@ Når du kender dit ligevægtsindtag og din daglige forbrænding, har du det idee
 - **Vægttab (Cut):** Læg dig 300–500 kcal under dit ligevægtsindtag for et kontrolleret fedttab uden tab af muskelmasse.
 - **Muskelopbygning (Bulk):** Læg dig 200–400 kcal over dit ligevægtsindtag for at give kroppen de nødvendige byggesten til at opbygge ny muskelmasse.
 
-## Er en beregner til ligevægtsindtag præcis?
-
-En online beregner giver et kvalificeret skøn baseret på gennemsnitlige værdier for basalstofskifte og fysisk aktivitet. Den kan være utrolig præcis for mange, men individuelle faktorer som kropssammensætning, genetik, søvn og stress kan skabe variationer. 
-
-Ønsker du den mest **nøjagtige TEE-beregning**, kan du enten benytte vores [tidsregistrering med MET-skema](#metode-2-praecis-tidsregistrering-24-timers-skema) eller følge vores 14-dages test med kostregistrering og badevægt.
+---
 
 ## Brug ligevægtsberegneren igen, når din vægt ændrer sig
 
