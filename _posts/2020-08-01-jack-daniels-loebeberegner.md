@@ -1,9 +1,8 @@
 ---
-title: 'Løbsberegner: Beregn løbetempo med Jack Daniels løbeberegner'
-seo_title: 'Løbsberegner: Beregn løbetider for træning og konkurrence'
-excerpt: Har du brug for at få udregnet din løbehastighed og løbepace? I denne løbsberegner kan du beregne det og dine konkurrencetider
-  ud fra Jack Daniels Running Formula.
-description: Beregn din løbehastighed, træningstempo og konkurrencetider ud fra Jack Daniels Running Formula med denne løbsberegner.
+title: 'Jack Daniels Løbeberegner: Udregn VDOT, pace og træningszoner'
+seo_title: 'Jack Daniels Løbeberegner: Beregn VDOT & Træningstempo'
+excerpt: Har du brug for at få udregnet din løbehastighed og løbepace? I denne løbsberegner kan du beregne det og dine konkurrencetider ud fra Jack Daniels Running Formula.
+description: 'Gratis Jack Daniels løbeberegner. Indtast din løbetid og få beregnet din VDOT-værdi, træningszoner (E, M, T, I, R) og estimerede konkurrencetider.'
 permalink: /loebesiden-jack-daniels-loebeberegner/
 last_modified_at: '2025-04-28T09:41:09Z'
 language: da
@@ -53,50 +52,21 @@ template:
   btn_class: btn--info
   rel: nofollow noopener
 faq:
-- question: Hvad er Jack Daniels løbsberegner?
-  answer: 'Jack Daniels løbsberegner er et værktøj, der hjælper dig med at beregne dit ideelle løbetempo og estimere dine
-    konkurrencetider baseret på dine aktuelle løbetider. Beregneren er baseret på Jack Daniels'' Running Formula, som anvender
-    VDOT-værdien til at bestemme dine træningstempoer og forventede tider på forskellige distancer.
-
-    '
-- question: Hvordan beregnes mit løbetempo?
-  answer: 'For at beregne dit løbetempo skal du indtaste en nylig løbetid (f.eks. en 5 km- eller 10 km-tid) i beregneren.
-    Beregneren anvender din tid til at estimere din VDOT-værdi, som derefter bruges til at anbefale tempoer for forskellige
-    træningsformer, såsom intervaller, tempoture og restitutionsløb.
-
-    '
-- question: Hvad er VDOT?
-  answer: 'VDOT er en værdi, der reflekterer din løbeevne og er baseret på din bedste præstation på en given distance. Det
-    er Jack Daniels'' alternative mål for VO₂max, som afspejler din faktiske løbeøkonomi og ydeevne i praksis. To løbere med
-    samme VDOT kan have forskellige VO₂max-værdier, men de vil stadig præstere på samme niveau i praksis.
-
-    '
-- question: Er beregneren kun for erfarne løbere?
-  answer: 'Nej, beregneren er for både begyndere og erfarne løbere. Hvis du er nybegynder, kan du bruge beregneren til at
-    finde et realistisk tempo for din træning. Det er dog vigtigt at huske, at nybegyndere ikke altid kan overføre en 5 km-tid
-    direkte til længere distancer som maraton, og det anbefales at justere tiderne for maraton og længere distancer.
-
-    '
-- question: Hvilke træningszoner bruger Jack Daniels?
-  answer: "Jack Daniels definerer fem hovedtræningszoner: \n- **E (Easy Run)**: Forbedrer aerob udholdenhed og løbeøkonomi.\n\
-    - **M (Maraton-tempo)**: Specifik træning for maratondistancen.\n- **T (Tærskel)**: Forbedrer din evne til at holde høje\
-    \ hastigheder i længere tid.\n- **I (Intervaller)**: Forbedrer den maksimale iltoptagelse (VO₂max).\n- **R (Repetitions)**:\
-    \ Øger hastigheden og løbeøkonomien på kortere distancer.\n"
-- question: Kan jeg bruge beregneren til at estimere konkurrencetider?
-  answer: 'Ja, beregneren kan estimere dine konkurrencetider på distancer som 5 km, 10 km, halvmaraton og maraton, baseret
-    på din aktuelle løbetid på en kortere distance. Det giver dig en idé om, hvad du kan forvente at præstere under konkurrenceforhold,
-    hvis du træner effektivt.'
-- question: Hvordan kan jeg bruge resultaterne fra beregneren til at planlægge min træning?
-  answer: 'Du kan bruge beregnerens resultater til at planlægge din træning ved at justere dine tempoer i forhold til de anbefalede
-    træningszoner. For eksempel, hvis du skal træne intervaller, kan du bruge den beregnede VDOT-værdi til at finde ud af,
-    hvilket tempo du skal sigte efter. Du kan også bruge beregneren til at tilpasse din træning baseret på dine konkurrenceforventninger
-    og gradvist forbedre din præstation.
-
-    '
-- question: Er der nogen forbehold, når jeg bruger løbsberegneren?
-  answer: Ja, der er nogle vigtige forbehold. For det første er de estimerede konkurrencetider teoretiske baseret på optimal
-    træning og dagsform. Hvis du er nybegynder, kan det være svært at konvertere en kort løbetid som 5 km til en realistisk
-    maratontid. Desuden skal erfarne løbere følge et målrettet træningsprogram for at opnå de tidspunkter, beregneren estimerer.
+  - question: Hvad er Jack Daniels løbeberegner?
+    answer: >
+      Jack Daniels løbeberegner er et værktøj, der beregner dit ideelle løbetempo og estimerer dine konkurrencetider (på alt fra 5 km til maraton) baseret på din VDOT-værdi fra en nylig løbepræstation.
+  - question: Hvad betyder VDOT i Jack Daniels' system?
+    answer: >
+      VDOT er et tal for din reelle løbeform, som kombinerer din maksimale iltoptagelse (VO₂max) og din løbeøkonomi ud fra dine faktiske konkurrenceresultater i praksis.
+  - question: Hvilke træningszoner udregner beregneren?
+    answer: >
+      Beregneren opdeler din træning i fem primære zoner: Easy (E) til opbygning og restitution, Maraton (M) til specifik maratontræning, Tærskel (T) til mælkesyretærskel, Intervaller (I) til VO₂max og Repetitions (R) til hurtighed og løbeteknik.
+  - question: Er beregneren kun for erfarne løbere?
+    answer: >
+      Nej, beregneren kan bruges af både begyndere og erfarne løbere til at finde de rette træningshastigheder. Nybegyndere bør dog være opmærksomme på, at det kan kræve tilvænning at overføre en kort 5 km-tid direkte til lange distancer som maraton.
+  - question: Er der nogle forbehold ved de estimerede konkurrencetider?
+    answer: >
+      Ja, de udregnede konkurrencetider er teoretisk optimale tider. De forudsætter, at du har trænet specifikt mod distancen, har udholdenheden på plads og rammer en optimal dagsform.
 ---
 
 Brug denne beregner til at finde dine ideelle træningstempoer og forventede konkurrencetider – baseret på den anerkendte **Jack Daniels Running Formula**.
@@ -111,7 +81,22 @@ Jack Daniels har udviklet metoden i bogen [*Running Formula*](https://www.partne
 
 Før Jack Daniels' metode blev udbredt, brugte mange løbere [Pete Riegels formel](/riegels-loebeberegner/) til at beregne konkurrencetider, men Daniels' tilgang er i dag den foretrukne, især når det gælder tempoanbefalinger til træning.
 
+👉 **Vil du nørde bogen og teorien bag?** Læs vores dybdegående guide til [Jack Daniels' Træningsfilosofi & Running Formula](/jack-daniels-running-formula/).
+
 {% include figure image_path="https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="løber efter løbsberegner fra jack daniels" %}
+
+## Jack Daniels' Løbeberegner
+{: id="calculator" }
+
+Indtast en nylig løbetid for at beregne din VDOT og dine anbefalede træningstempi:
+
+{% include calculator/calculate-jack-daniels.html %}
+
+{% include calc/running-performance.html %}
+
+Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
+
+Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/omregner-tempo-fart/). Du kan også være interesseret i vores andre [hastighedsberegnere](/hastighed/).
 
 ## Om Løbesidens løbsberegner
 
@@ -153,28 +138,19 @@ Jack Daniels har defineret forskellige løbetempi til fx restitutionsløb, tempo
 **Husk:** Brug kun tider, du rent faktisk har løbet. Hvis du taster en drømmetid ind, får du alt for høje træningstempoer – og risikerer overtræning og skader.
 {: .notice .notice--info }
 
-## Løbeberegner
-{: id="calculator" }
-
-{% include calculator/calculate-jack-daniels.html %}
-
-{% include calc/running-performance.html %}
-
-Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval](/hvor-langt-per-interval/)?
-
-Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/omregner-tempo-fart/). Du kan også være interesseret i vores andre [hastighedsberegnere](/hastighed/).
-
-## Tabel over træningszoner og løbetempo
+## Skema over Jack Daniels træningszoner
 
 <div class="full" markdown="1">
 
-| | Type | %VO2max | %HR<sub>max</sub> | Effekt | Ugentlig træning |
-|-|-|-|-|-|-|
-| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer omkring musklerne. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. | 1 lang tur om ugen. Resterende del af træningen skal også være i denne zone |
-| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet | Max 25 % |
-| T | Tærskel | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles komfortable hårde - og i en hastighed, som du kan holde i 45-60 minutter | Max 10%. 30 minutter om ugen |
-| I | Intervaller | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. | Max 8% |
-| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. | Max 5% |
+## Skema over Jack Daniels træningszoner
+
+| Zone | Navn | Intensitetsmål | Formål med zonen |
+| :---: | :--- | :---: | :--- |
+| **E** | Easy Run | 65–79% $\text{HR}_{\text{max}}$ | Opbygger aerob base, sener og led. Anvendes til opvarmning og afjog. |
+| **M** | Marathon Pace | 80–90% $\text{HR}_{\text{max}}$ | Træner specifik udholdenhed og tempofornemmelse til maraton. |
+| **T** | Threshold (Tærskel) | 88–92% $\text{HR}_{\text{max}}$ | Øger mælkesyregrænsen. Det tempo, du kan holde i 45–60 minutter. |
+| **I** | Intervaller | 98–100% $\text{HR}_{\text{max}}$ | Maksimerer din $\text{VO}_2\text{max}$. Typisk intervaller af 3–5 min. varighed. |
+| **R** | Repetitions | Hurtighed | Forbedrer løbeøkonomi, spændstighed og stride-teknik (med lange pauser). |
 
 </div>
 

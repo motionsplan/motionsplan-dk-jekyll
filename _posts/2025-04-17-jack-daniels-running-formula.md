@@ -1,8 +1,8 @@
 ---
-title: &title "Jack Daniels Running Formula - træningsfilosofi"
-seo_title: "Jack Daniels Running Formula: Forstå træningsfilosofien"
-description: "Forstå principperne bag Jack Daniels' Running Formula og lær hvordan VDOT, træningszoner og progressiv belastning kan gøre dig til en bedre løber."
-excerpt: "Forstå principperne bag Jack Daniels' Running Formula og lær hvordan VDOT, træningszoner og progressiv belastning kan gøre dig til en bedre løber."
+title: "Jack Daniels' Running Formula: Træningsfilosofi, faser og opbygning"
+seo_title: "Jack Daniels Running Formula: Forstå bogen og filosofien"
+description: "Dybdegående guide til Jack Daniels' Running Formula. Lær om VDOT, de 5 træningszoner (E, M, T, I, R) og opbygningen af løbeprogrammer i fase I-IV."
+excerpt: "Forstå principperne bag Jack Daniels' Running Formula. Lær om VDOT, træningszoner, fysiologiske tilpasninger og opbygningen af et struktureret løbeprogram."
 permalink: /jack-daniels-running-formula/
 language: da
 header:
@@ -15,181 +15,181 @@ tags:
   - træning
   - løb
   - træningsfilosofi
-last_modified_at: 2025-01-27T22:21:26Z
-gallery:
-  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-e241281f.webp
-    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets.webp
-  - image_path: /assets/images/stronglifts.com/madcow-5x5-ramp-sets-workout-c-b6b1365c.webp
-    credit: https://stronglifts.com/wp-content/uploads/madcow-5x5-ramp-sets-workout-c.webp
+last_modified_at: '2026-07-25T18:00:00Z'
 faq:
-  - question: Hvad er VDOT, og hvordan bruges det i træningen?
-    answer: >
-      VDOT er et mål for din løbepræstation og effektivitet baseret på dit maksimale iltoptag (VO₂max). Det bruges til at bestemme dine træningszoner og give dig en præcis måling af din kapacitet i forskellige træningsfaser.
-  - question: Hvad er forskellen mellem de forskellige træningszoner i Jack Daniels’ system?
-    answer: >
-      Jack Daniels arbejder med fem træningszoner:
-      - **Easy (E)**: Lav intensitet, bruges til restitution og aerobe base.
-      - **Marathon (M)**: Moderat intensitet, fokuserer på udholdenhed.
-      - **Threshold (T)**: Højere intensitet, hjælper med at øge mælkesyregrænsen.
-      - **Interval (I)**: Meget høj intensitet, forbedrer VO₂max.
-      - **Repetition (R)**: Meget høj intensitet, fokuserer på hurtighed og teknik.
-  - question: Hvordan bygger jeg et træningsprogram med Jack Daniels’ filosofi?
-    answer: >
-      Daniels' træningsprogrammer opdeles i tre faser:
-      1. **Basefase**: Fokus på lav intensitet og volumen for at opbygge fundamentet.
-      2. **Udviklingsfase**: Introduktion af højere intensitet for specifik fremgang.
-      3. **Konkurrencefase**: Vedligeholdelse af høj intensitet og spidsbelastning mod konkurrencen.
-  - question: Kan jeg bruge Jack Daniels’ system til at træne for forskellige distancer?
-    answer: >
-      Ja, Jack Daniels’ system kan tilpasses til træning for alt fra 5 km til maraton. Træningsfaserne og zonerne justeres afhængigt af målet, så du kan optimere din præstation uanset distance.
-  - question: Er der nogen kritik af Jack Daniels’ Running Formula?
-    answer: >
-      Nogle kritikere mener, at træningszonerne er for stive og ikke altid tilpasset individuelle behov. Andre mener, at der mangler fleksibilitet til at tilpasse træningen efter dagsform og kontekst. Dog er systemet for de fleste motionsløbere et solidt udgangspunkt.
+  - question: Hvad er Jack Daniels' Running Formula?
+    answer: Det er en verdenskendt løbefilosofi og bog skrevet af træningsfysiologen Jack Daniels. Metoden bruges til at tilpasse træningszoner og løbeprogrammer ud fra løberens reelle præstationsniveau (VDOT).
+  - question: Hvad er forskellen på VO2max og VDOT?
+    answer: VO2max er et rent laboratoriemål for din maksimale iltoptagelse, mens VDOT kombinerer din VO2max med din reelle løbeøkonomi baseret på dine faktiske løbetider.
+  - question: Hvordan opbygges et Jack Daniels træningsprogram?
+    answer: Et klassisk program opdeles i op til fire faser - Fase I (Base & Opbygning), Fase II (Tidlig kvalitet / Repetitions), Fase III (Hovedfase / Intervaller) og Fase IV (Toppræstation & Tapering).
+  - question: Hvilke træningszoner bruges i Jack Daniels' system?
+    answer: Systemet arbejder med fem primære zoner - Easy (E), Marathon Pace (M), Threshold (T), Interval (I) og Repetition (R).
 meta:
-  name: Lydiard
+  name: Jack Daniels Running Formula
   author: Mehdi Hadim
-  level: begynder
+  level: alle
   goal: generel
 ---
 
-Jack Daniels er en amerikansk træningsfysiolog og coach, som har haft stor indflydelse på moderne løbetræning. Hans bog *Jack Daniels’ Running Formula* er blevet et af de mest udbredte værktøjer til planlægning af løbetræning, både for begyndere og erfarne løbere.
+**Jack Daniels** (Ph.D. i idrætsfysiologi og tofoldig OL-medaljevinder i moderne femkamp) er af magasinet *Runner's World* blevet kåret som "Verdens bedste løbetræner". Hans banebrydende bog, *Jack Daniels' Running Formula*, har siden første udgave revolutioneret måden, vi strukturerer løbetræning på.
 
-I denne artikel gennemgår vi de vigtigste principper bag hans filosofi – med fokus på **VDOT**, **de fem træningsintensiteter** og **opbygningen af træningsprogrammer**.
+> 🏃‍♂️ **Leder du efter løbeberegneren?** 
+> Hvis du bare vil udregne din VDOT og dine personlige træningstempoer med det samme, kan du gå direkte til vores online **[Jack Daniels Løbeberegner her](/loebesiden-jack-daniels-loebeberegner/)**.
 
-## Grundlæggende træningsprincipper
-
-Jack Daniels’ træningsfilosofi bygger på nogle få enkle, men vigtige principper:
-
-- **Løb er stress** for kroppen – og kroppen tilpasser sig ved at blive stærkere.
-- **Specifik stress giver specifik tilpasning**, så træningen bør målrettes det, du vil forbedre.
-- **For lidt stress giver ingen udvikling** – men **for meget stress kan føre til overtræning og skader**.
-- **Træning skal justeres over tid**, fordi kroppen vænner sig til belastningen.
-- **Du skal ikke altid træne maksimalt** – det handler om at finde den rette balance mellem belastning og restitution.
-
-> Målet er at finde “sweet spot”: Hård nok træning til at udvikle dig, men ikke så hård, at du går i stykker.
+I denne dybdegående artikel gennemgår vi teorien bag systemet: De fysiologiske Grundprincipper, **VDOT-begrebet**, de **fem træningszoner** og opbygningen af et **4-faset træningsprogram**.
 
 ---
 
-## VDOT – effektivitet frem for kapacitet
+## Grundlæggende træningsprincipper i Daniels' filosofi
 
-En central del af Jack Daniels’ metode er begrebet **VDOT** – et mål for, hvor hurtigt du kan løbe, når du er på dit maksimale iltoptag (VO₂max).
+Jack Daniels’ tilgang er udpræget videnskabelig og praktisk på samme tid. Hans filosofi bygger på otte grundlæggende principper:
 
-Modsat mange andre bruger Daniels **VDOT som en kombination af præstation og fysiologi**. Det handler ikke bare om, hvor meget ilt du kan optage, men hvor effektivt du bruger den ilt. Derfor er VDOT et bedre værktøj end VO₂max alene, når man skal planlægge træning.
-
-Du kan finde din VDOT baseret på en **nylig løbspræstation** og bruge det til at finde passende **træningszoner og konkurrencetider**.
-
-➡️ Prøv vores [VDOT-beregner](/loebesiden-jack-daniels-loebeberegner/)
-
----
-
-## Træningsintensiteter i Daniels’ system
-
-Jack Daniels arbejder med **fem primære træningszoner**, der hver har et specifikt formål:
-
-### Easy (E) – Rolige ture
-
-- **Intensitet:** Lav
-- **Formål:** Øge den aerobe base og understøtte restitution
-- **Typisk tempo:** Snakke-tempo
-- **Bruges til:** Hovedparten af ugens træning
+1. **Kroppens reaktion på stress:** Løbetræning udsætter kroppen for en kontrolleret nedbrydning. Det er i [restitutionsfasen](/restitution/), at kroppen genopbygges og bliver stærkere (*superkompensation*).
+2. **Specifik tilpasning:** Specifik træning giver specifikke fysiologiske tilpasninger. Du bliver god til det, du træner.
+3. **Mæssig belastning (Dosis-Respons):** For lidt træning giver ingen fremgang – for meget træning fører til skader og overtræning. Målet er at opnå det **største fysiologiske udbytte med den mindst mulige belastning**.
+4. **Træningsintensitet vs. volumen:** Du bør aldrig øge både ugentlig distancemængde (kilometer) og træningsintensitet på samme tid.
+5. **Aftagende udbytte:** Jo tættere du kommer på dit genetiske potentiale, desto mere træning kræves der for blot at hente små forbedringer.
+6. **Symptom- og dagsformsstyring:** Træningszonerne skal tilpasses ud fra din nuværende form – ikke et håbefuldt fremtidigt mål eller en "drømmetid".
+7. **Klimatiske faktorer:** Varme, højde og terræn påvirker den fysiologiske belastning og kræver justering af tempoet.
+8. **Konsistens over tid:** Kontinuerlig træning over måneder og år slår altid ultrahårde, men uregelmæssige ryk.
 
 ---
 
-### Marathon (M) – Marathonpace
+## VDOT – Løbekapacitet i praksis
 
-- **Intensitet:** Moderat
-- **Formål:** Øge udholdenhed ved en stabil, hård men overkommelig indsats
-- **Typisk tempo:** Marathon-tempo
-- **Bruges til:** Lange ture og kontinuerlig indsats
+Det mest berømte koncept fra Jack Daniels er **VDOT**. 
 
----
+I et laboratorium måler man atletens maksimale iltoptagelse ($\text{VO}_2\text{max}$). Men to løbere med præcis samme $\text{VO}_2\text{max}$ løber sjældent lige hurtigt på en 10 km. Hvorfor? Fordi den ene kan have en væsentligt bedre **[løbeøkonomi](/lobeokonomi/)** (udnytter ilten mere effektivt i musklerne).
 
-### Threshold (T) – Mælkesyregrænse
+Daniels opfandt **VDOT** som et pseudo-VO2max mål, der kombinerer laboratorieudstyrets teorier med dit **reelle præstationsniveau i praksis**:
 
-- **Intensitet:** Højere, men kontrolleret
-- **Formål:** Øge evnen til at klare højt laktatniveau
-- **Typisk tempo:** Det tempo du kan holde i ca. 60 min
-- **Bruges til:** Tempoture eller længere intervaller (f.eks. 2x15 min)
+$$
+\text{VDOT} \approx \text{VO}_2\text{max} \times \text{Løbeøkonomi}
+$$
 
----
+### Hvordan bruges VDOT?
+* Du tager en nylig og maksimal konkurrencetid (fx en 5 km eller 10 km).
+* Via VDOT-tabellen (eller vores [beregner](/loebesiden-jack-daniels-loebeberegner/)) finder du dit specifikke VDOT-tal.
+* Dette tal dikterer præcis, hvilke tempoer du skal holde i dine fem træningszoner.
 
-### Interval (I) – VO₂max-træning
-
-- **Intensitet:** Meget høj
-- **Formål:** Forbedre VO₂max og iltoptag
-- **Typisk tempo:** Hurtigere end 5 km-tempo
-- **Varighed:** 3–5 min intervaller med kort pause
+Hvis du taster en for hurtig tid ind, vil dit VDOT-tal blive for højt, hvilket medfører for høje træningshastigheder, nedbrudte muskelfibre og skader.
 
 ---
 
-### Repetition (R) – Hurtighed og teknik
+## De 5 Træningszoner i detaljer
 
-- **Intensitet:** Meget høj
-- **Formål:** Forbedre løbeøkonomi og koordination
-- **Typisk tempo:** 1500 m–mile pace
-- **Varighed:** ≤2 min med lang pause
+Jack Daniels inddeler træningen i fem specifikke zoner, som hver især har et unikt fysiologisk formål.
 
----
+### 1. Easy Run (E) – Roligt løb og restitution
+* **Intensitet:** 65–79% af max-puls ($\text{HR}_{\text{max}}$) / 59–74% af $\text{VO}_2\text{max}$.
+* **Tempo:** Behageligt snakketempo.
+* **Fysiologisk formål:**
+  * Styrker hjertets myokardie (øger hjertets slagvolumen).
+  * Opbygger tætheden af kapillærer (små blodkar) i musklerne.
+  * Øger antallet af mitokondrier (cellernes kraftværker).
+  * Styrker sener, led og knogler uden at belaste nervesystemet.
+* **Anvendelse:** Udgør **60–80 %** af den samlede ugentlige mængde (inklusiv opvarmning, afjog og lange ture).
 
-## Jack Daniels træningszoner i tabel
+### 2. Marathon Pace (M) – Maraton-tempo
+* **Intensitet:** 80–90% af $\text{HR}_{\text{max}}$ / 75–84% af $\text{VO}_2\text{max}$.
+* **Tempo:** Det specifikke tempo, du planlægger at holde under et maratonløb.
+* **Fysiologisk formål:**
+  * Opbygger mental og fysiologisk vænning til konkurrencetempo over lang tid.
+  * Lærer kroppen effektivt at brænde en blanding af kulhydrat og fedt af ved højere hastigheder.
+* **Anvendelse:** Bruges under lange ture (op til 18–25 km) for løbere, der træner specifikt mod halvmaraton eller maraton. Bør udgøre max 15–20 % af ugemængden.
 
-| **Træningszone** | **Intensitet**   | **Formål**                        | **Typisk tempo**               | **Bruges til**                       |
-|------------------|------------------|-----------------------------------|---------------------------------|--------------------------------------|
-| **Easy (E)**     | Lav              | Øge aerobe base, restitution      | Snakke-tempo                   | Langt størstedelen af træningen     |
-| **Marathon (M)** | Moderat          | Øge udholdenhed                   | Marathon-tempo                 | Lange ture, kontinuerlig indsats   |
-| **Threshold (T)**| Høj              | Øge evnen til at klare laktat     | Tempo du kan holde i 60 min     | Tempoture, længere intervaller      |
-| **Interval (I)** | Meget høj        | Forbedre VO₂max og iltoptag      | Hurtigere end 5 km-tempo        | Intervalløb (3-5 min intervaller)   |
-| **Repetition (R)**| Meget høj       | Forbedre løbeøkonomi og teknik    | 1500 m–mile pace               | Hurtighedsarbejde, korte intervaller|
+### 3. Threshold (T) – Tærskelløb / Laktattærskel
+* **Intensitet:** 88–92% af $\text{HR}_{\text{max}}$ / 83–88% af $\text{VO}_2\text{max}$.
+* **Tempo:** "Komfortabelt hårdt". Det tempo, en veltrænet løber maksimalt kan holde i **60 minutter** (ofte tæt på 15 km–halvmaratonpace).
+* **Fysiologisk formål:**
+  * Sænker mælkesyreophobningen ved at øge kroppens evne til at recirkulere og fjerne laktat fra blodet.
+* **Træningsformer:**
+  * *Tempo Run:* Kontinuerligt løb i 20–30 minutter i T-tempo.
+  * *Cruise Intervals:* Fx $3 \times 10 \text{ min}$ eller $5 \times 6 \text{ min}$ i T-tempo med kort pause (fx 1 minuts jog).
+* **Anvendelse:** Højst 10 % af den ugentlige mængde (maksimalt 30 minutters samlet effektiv T-tid pr. pas).
 
+### 4. Interval (I) – VO₂max-træning
+* **Intensitet:** 98–100% af $\text{HR}_{\text{max}}$ / 95–100% af $\text{VO}_2\text{max}$.
+* **Tempo:** Hårdt og intenst (typisk svarende til dit 3 km til 5 km konkurrencetempo).
+* **Fysiologisk formål:**
+  * Stimulerer det maksimale iltoptag ($\text{VO}_2\text{max}$) og øger pumpekapaciteten i kredsløbet.
+* **Træningsformer:**
+  * Intervaller af **3 til 5 minutters varighed** (fx $5 \times 1000 \text{ m}$ eller $4 \times 4 \text{ min}$). Pausen skal være aktiv jog og vare lidt kortere end arbejdsperioden (fx 2–3 min jog).
+* **Anvendelse:** Højst 8 % af den ugentlige mængde (maksimalt 10 km samlet arbejdsdistance pr. uge).
 
----
-
-## Træningsopbygning efter Jack Daniels
-
-Jack Daniels opdeler træningen op mod et mål i **tre faser**:
-
-1. **Basefase:** Fokus på E- og evt. M-træning – opbygning af volumen og skadesforebyggelse.
-2. **Udviklingsfase:** Introduktion af R-, I- og T-træning for at skabe specifik fremgang.
-3. **Konkurrencefase:** Fokus på T-træning og vedligeholdelse af I-intensitet. Mængden justeres mod toppen.
-
-Eksempel:
-
-### Træning mod 5 km
-
-- **Fase 1:** Repetition (R) + Easy
-- **Fase 2:** Intervaller (I) + Easy
-- **Fase 3:** Threshold (T) + vedligeholdelse af I
-
-### Træning mod halvmaraton
-
-- **Fase 1:** R + T
-- **Fase 2:** I + T
-- **Fase 3:** Primært T og lange M-ture
-
----
-
-## Mulige kritikpunkter
-
-Jack Daniels’ system er meget struktureret, og **ikke alle reagerer ens på den samme belastning**. Kritikere som Steve Magness har fremhævet, at:
-
-- Træningszonerne er **for faste**, og nogle løbere har forskellige styrker (f.eks. anaerobe vs. aerobe).
-- Der er **for lidt fleksibilitet** til at tilpasse træningen baseret på dagsform og kontekst.
-- Fokus er mere på **intensitetsstyring** end **adaptationsbaseret planlægning**.
-
-Men: For de fleste motionsløbere er Daniels’ model **et fremragende udgangspunkt**.
+### 5. Repetition (R) – Løbeøkonomi og hurtighed
+* **Intensitet:** Anaerob / Meget høj (over 100% $\text{VO}_2\text{max}$).
+* **Tempo:** Svarende til 800 m – 1500 m konkurrencetempo.
+* **Fysiologisk formål:**
+  * Forbedrer den mekaniske løbeøkonomi, neuromuskulære koordination og skridtafvikling.
+  * Øger evnen til at løbe afslappet ved høj hastighed.
+* **Træningsformer:**
+  * Korte intervaller på $\le 2 \text{ minutter}$ (fx $10 \times 200 \text{ m}$ eller $8 \times 400 \text{ m}$) med **lang pause** (fuld restitution, fx dobbelt så lang pause som arbejdstid), så der ikke ophobes stor mælkesyre.
+* **Anvendelse:** Højst 5 % af den ugentlige mængde (maksimalt 8 km samlet R-distance pr. uge).
 
 ---
 
-## Opsummering
+## Sammenligningsoversigt over Daniels' 5 zoner
 
-Jack Daniels’ Running Formula er et komplet system til løbetræning, som:
+| Zone | Navn | Puls (%HRmax) | Typisk varighed pr. interval | Maks. ugentlig mængde | Hovedformål |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **E** | Easy | 65–79% | Continuous (30–150 min) | 60–80% | Aerob base, kapillærer, restitution |
+| **M** | Marathon | 80–90% | Continuous (60–150 min) | 15–20% | Specifik maratonudholdenhed |
+| **T** | Threshold | 88–92% | 5–20 min (samlet 20–60 min) | 10% | Hæve laktattærsklen |
+| **I** | Interval | 98–100% | 3–5 min | 8% | Maksimere iltoptagelsen ($\text{VO}_2\text{max}$) |
+| **R** | Repetition | Anaerob | 30 sek – 2 min | 5% | Løbeøkonomi, hurtighed og teknik |
 
-- Bygger på **fysiologiske principper og VDOT**
-- Arbejder med **fem tydelige træningszoner**
-- Gør det let at strukturere og tilpasse træningsplaner
-- Hjælper dig med at finde balancen mellem udvikling og overtræning
+---
 
-Vil du blive en mere effektiv løber, uden at presse kroppen for hårdt? Så er Jack Daniels’ metode et godt sted at starte.
+## Opbygning af løbeprogram: De 4 Fasere (I til IV)
+
+I bogen opdeler Jack Daniels et typisk makrocyklus-træningsprogram (fx over 18–24 uger mod et hovedmål) i **fire faser på hver 4–6 ugers varighed**:
+
+* **Fase I:** Base & Fundament *(Roligt E-løb)*
+* **Fase II:** Tidlig Kvalitet *(R-træning / Løbeøkonomi)*
+* **Fase III:** Hovedfase *(I/T-intervaller & VO2max)*
+* **Fase IV:** Toppræstation *(Tapering & Konkurrence)*
+
+### Fase I: Fundament og opbygning (Base Phase)
+* **Fokus:** E-løb og gradvis øgning af den samlede ugentlige distancemængde.
+* **Formål:** Gøre sener, knogler og hjerte klar til at modstå den kommende hårde træning utan skader.
+
+### Fase II: Tidlig kvalitet (Early Quality / Repetitions)
+* **Fokus:** E-løb suppleret med **R-træning** (hurtighed) og let **T-træning**.
+* **Formål:** Forbedre løbeøkonomien tidligt i forløbet. Da R-træning løbes med lange pauser, belastes kropsfysiologien ikke med mælkesyre på dette tidspunkt.
+
+### Fase III: Hovedfase (Transition Quality / Intervaller)
+* **Fokus:** Introduktion af den tungeste og mest krævende træning: **I-træning** ($\text{VO}_2\text{max}$-intervaller) og hårde **T-tempoture**.
+* **Formål:** At flytte kroppens fysiologiske loft så højt op som muligt. Dette er forløbets hårdeste fase.
+
+### Fase IV: Toppræstation og nedtrapning (Final Quality & Tapering)
+* **Fokus:** Reduktion i den samlede kilometermængde (tapering), men med fastholdelse af **M- og T-tempoer** for at bevare friskheden og løberytmen.
+* **Formål:** Sikre, at kroppen topper med fulde energidepoter på selve løbsdagen.
+
+---
+
+## Jack Daniels vs. andre træningssystemer
+
+Selvom Jack Daniels' tilgang er en af de mest anerkendte i verden, er det værd at kende alternativerne:
+
+### Jack Daniels vs. Claus Hechmann
+* **Daniels:** Bruger din bedste tid på f.eks. 5 km til at udregne alle zoner ud fra VDOT.
+* **Hechmann (*Løb som eliten*):** Kritiserer Daniels for at undervurdere fedtforbrændingen hos løbere med dårlig aerob base. Hechmann kræver to separate tests (10 min og 60 min) for at adskille $\text{VO}_2\text{max}$ og laktattærskel nøjagtigt.
+
+### Jack Daniels vs. Polarized Training (80/20)
+* **Daniels:** Bruger en del tid i tærskelzonen (T) og maratonzonen (M) – altså "mellemhård" intensitet.
+* **Polarized 80/20:** Tilstræber at holde 80 % helt roligt (zone 1) og 20 % ultrahårdt (zone 3), mens tærskelzonen (zone 2) stort set undgås for at minimere autonom træthed.
+
+---
+
+## Konklusion
+
+Jack Daniels' *Running Formula* giver et fysiologisk velfunderet og overskueligt system til at strukturere din løbetræning. Ved at kende din præcise VDOT-værdi undgår du at træne i "ingenmandsland" – du løber hverken for hurtigt på de rolige ture eller for langsomt på intervallerne.
+
+Er du klar til at finde dine egne træningstempoer?
+
+👉 **[Prøv vores online Jack Daniels Løbeberegner her](/loebesiden-jack-daniels-loebeberegner/)**
 
 ---
 
@@ -200,6 +200,6 @@ Vil du blive en mere effektiv løber, uden at presse kroppen for hårdt? Så er 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Daniels, J. (2021). *Daniels' Running Formula*. Human Kinetics.
-- Magness, S. (2014). *The Science of Running*.
+- Daniels, Jack. 2021. *Daniels' Running Formula*. 4. udg. Human Kinetics.
+- Magness, Steve. 2014. *The Science of Running: How to find your limit and train to maximize your performance*. Origin Press.
 </details>
