@@ -1,55 +1,63 @@
 {% assign met_type = include.type | default: "" %}
 
-{% if met_type contains "walking" %}
-  {% assign met_values = site.data.met | where_exp: "item", "item.Group contains met_type" | sort: "MET" %}
+{% if met_type != "" %}
+  {% assign met_values = site.data.met | where: "Group", met_type | sort: "MET" %}
+  {% if met_values.size == 0 %}
+    {% assign met_values = site.data.met | where_exp: "item", "item.Group contains met_type" | sort: "MET" %}
+  {% endif %}
 {% else %}
-  {% assign met_values = site.data.met %}
+  {% assign met_values = site.data.met | sort: "MET" %}
 {% endif %}
+
+<div class="form-group" style="margin-bottom: 1rem;">
+  <input type="text" id="met_search" onkeyup="METSearch()" placeholder="Søg efter aktiviteter..." class="form-control">
+</div>
+
+<table id="METTable" class="table">
+  <thead>
+    <tr>
+      <th>Gruppe</th>
+      <th>Kode</th>
+      <th>MET</th>
+      <th>Aktivitet</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in met_values %}
+    <tr>
+      <td>{{ row.Group }}</td>
+      <td>{{ row.Code }}</td>
+      <td>{{ row.MET }}</td>
+      <td>{{ row.Activity }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <script>
 function METSearch() {
-  // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("met_search");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("METTable");
-  tr = table.getElementsByTagName("tr");
+  var input = document.getElementById("met_search");
+  var filter = input.value.toUpperCase();
+  var table = document.getElementById("METTable");
+  var tr = table.getElementsByTagName("tr");
 
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[1];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
+  // Gennemgå alle rækker i tbody (spring over overskriften ved index 0)
+  for (var i = 1; i < tr.length; i++) {
+    var visible = false;
+    var tds = tr[i].getElementsByTagName("td");
+    
+    // Søg på tværs af alle kolonner i rækken
+    for (var j = 0; j < tds.length; j++) {
+      if (tds[j]) {
+        var txtValue = tds[j].textContent || tds[j].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          visible = true;
+          break;
+        }
       }
     }
+    
+    tr[i].style.display = visible ? "" : "none";
   }
 }
 </script>
-
-<input type="text" id="met_search" onkeyup="METSearch()" placeholder="Søg efter aktiviteter...">
-
-<table id="METTable">
-  {% for row in met_values %}
-    {% if forloop.first %}
-    <thead>
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    </thead>
-    {% endif %}
-    {% if forloop.length == 1 %}
-    <tbody>
-    {% endif %}
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-    {% if forloop.last %}
-    {% endif %}
-  {% endfor %}
-</table>

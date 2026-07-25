@@ -1,5 +1,5 @@
 ---
-title: 'Super-Hastigheds & Paceberegner'
+title: 'Hastighedsberegner & Paceberegner'
 seo_title: 'Hastighedsberegner: Beregn km/t, pace (min/km), tid & distance'
 description: Samlet hastigheds- og paceberegner til løb og cykling ✔ Beregn km/t, pace (min/km), løbetid og distance ✔ Omregn lynhurtigt mellem enheder.
 permalink: /hastighed/
@@ -14,7 +14,7 @@ language: da
 header:
   teaser: /assets/images/unsplash/photo-1585218059208-5cfd7659560b.jpg
   credit: https://images.unsplash.com/photo-1585218059208-5cfd7659560b
-  caption: 'Super-Hastigheds & Paceberegner'
+  caption: 'Hastighedsberegner & Paceberegner'
 category:
 - Beregnere
 tags:

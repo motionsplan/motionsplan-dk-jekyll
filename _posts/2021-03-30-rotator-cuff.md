@@ -6,9 +6,8 @@ description: Lær om de fire muskler i rotator cuffen. Se liste over muskler, de
 permalink: /rotator-cuff/
 language: da
 header:
-  overlay_image: /assets/images/unsplash/photo-1576037722139-10871f993f4d.jpg
-  credit: https://images.unsplash.com/photo-1576037722139-10871f993f4d
-  teaser: /assets/images/unsplash/photo-1576037722139-10871f993f4d.jpg
+  overlay_image: /assets/images/blog/rotatorcuff.jpg
+  teaser: /assets/images/blog/rotatorcuff.jpg
   caption: 'Rotator cuffen: Skulderens dybe stabilisatorer'
 category:
 - Anatomi

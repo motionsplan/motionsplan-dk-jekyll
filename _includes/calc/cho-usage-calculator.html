@@ -1,0 +1,331 @@
+{% assign calc_title = include.title | default: "⚡ Kulhydratforbrug & Energi til Idræt" %}
+{% assign data_id = include.calc_id | default: "cho-usage-calculator" %}
+{% assign default_mode = include.mode | default: "cycling" %}
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-cho-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 6px !important; border: 1.5px solid #cbd5e1 !important; background: #ffffff !important; }
+  
+  /* MODE SWITCH KNAPPER */
+  .mp-mode-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.65rem; margin-bottom: 1.25rem; }
+  .mp-mode-btn { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 0.85rem 0.5rem; 
+    background: #ffffff; 
+    border: 1.5px solid #cbd5e1; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    transition: all 0.15s ease; 
+    text-align: center; 
+    gap: 0.15rem; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+  .mp-mode-btn:hover:not(.is-active) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-mode-btn.is-active { background: #eff6ff; border-color: #2563eb; box-shadow: 0 3px 10px rgba(37, 99, 235, 0.12); }
+
+  .mp-mode-icon { font-size: 1.4rem !important; line-height: 1 !important; margin-bottom: 0.2rem !important; display: block !important; }
+  .mp-mode-title { font-size: 0.85rem !important; font-weight: 800 !important; line-height: 1.2 !important; color: #0f172a !important; }
+  .mp-mode-btn.is-active .mp-mode-title { color: #1e40af !important; }
+  .mp-mode-sub { font-size: 0.675rem !important; font-weight: 600 !important; color: #64748b !important; line-height: 1.2 !important; }
+
+  /* 2x2 GRID TIL INDSTILLINGER */
+  .mp-settings-grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
+  }
+
+  /* TABELLER */
+  .mp-zone-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin: 0; table-layout: fixed; }
+  .mp-zone-table th { background: #f8fafc; text-align: left; font-size: 0.7rem; font-weight: 800; color: #475569; text-transform: uppercase; padding: 0.65rem 0.5rem; border-bottom: 1.5px solid #e2e8f0; }
+  .mp-zone-table td { padding: 0.5rem; border-bottom: 1px solid #f1f5f9; vertical-align: middle; color: #0f172a; }
+  .mp-zone-table tr.sum-row td { background: #eff6ff; font-weight: 800; border-top: 2px solid #bfdbfe; border-bottom: none; }
+
+  /* PERFEKT SYMMETRISK GLYKOGEN-GRID UDEN YDRE BOKS */
+  .mp-formula-card-container {
+    margin-bottom: 1.15rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .mp-formula-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 18px minmax(0, 1fr) 18px minmax(0, 1fr);
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .mp-formula-op {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #64748b;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .mp-formula-box {
+    height: 94px !important;
+    padding: 0.5rem 0.25rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 12px;
+    box-sizing: border-box !important;
+    text-align: center;
+    width: 100% !important;
+    min-width: 0 !important; /* Tvinger absolut symmetri i grid */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  }
+  .mp-formula-box.highlight { background: #dbeafe; border-color: #2563eb; color: #1e40af; }
+  .mp-formula-box.alert { background: #fef2f2; border-color: #f87171; color: #991b1b; }
+  
+  .mp-formula-icon { font-size: 1.15rem; line-height: 1; display: block; }
+  .mp-formula-val { font-size: 1.1rem; font-weight: 900; color: #0f172a; line-height: 1; margin: 0.15rem 0; }
+  .mp-formula-box.highlight .mp-formula-val { color: #1d4ed8; }
+  .mp-formula-box.alert .mp-formula-val { color: #dc2626; }
+  
+  .mp-formula-lbl { 
+    font-size: 0.65rem !important; 
+    color: #64748b !important; 
+    line-height: 1.15 !important; 
+    font-weight: 700 !important;
+    height: 2.3em !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  /* HERO FUEL BOKS */
+  .mp-hero-fuel-box { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; }
+  .mp-fuel-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.75rem; margin-top: 0.85rem; text-align: center; }
+  .mp-fuel-card { background: #ffffff; border: 1px solid #dbeafe; border-radius: 10px; padding: 0.75rem 0.5rem; }
+
+  /* DYNAMISK FORKLARINGSBOKS */
+  .mp-summary-explanation-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.825rem;
+    color: #334155;
+    line-height: 1.5;
+  }
+
+  .mp-panel-info-btn { position: absolute !important; top: 12px !important; right: 12px !important; width: 24px !important; height: 24px !important; border-radius: 50% !important; background: #eff6ff !important; color: #2563eb !important; border: 1px solid #bfdbfe !important; font-size: 0.775rem !important; font-weight: 900 !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; z-index: 10 !important; }
+  .mp-panel-info-overlay { position: absolute !important; inset: 0 !important; background: #ffffff !important; border-radius: inherit !important; z-index: 20 !important; padding: 1.15rem !important; box-sizing: border-box !important; display: none; flex-direction: column !important; overflow-y: auto !important; box-shadow: inset 0 0 0 1px #e2e8f0; }
+  .mp-panel-info-close { position: absolute !important; top: 10px !important; right: 10px !important; background: #f1f5f9 !important; border: none !important; border-radius: 50% !important; width: 28px !important; height: 28px !important; font-size: 1rem !important; font-weight: 800 !important; color: #64748b !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="cho-usage-ui" data-default-mode="{{ default_mode }}">
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregning af kulhydrat- og fedtforbrænding samt optimal energi- og væskestrategi under træning.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div style="width: 100%;">
+    <!-- MODE SWITCH KNAPPER -->
+    <div class="mp-mode-grid">
+      <button type="button" class="mp-mode-btn js-mode-btn is-active" data-mode="cycling">
+        <span class="mp-mode-icon">🚴‍♂️</span>
+        <span class="mp-mode-title">Cykling</span>
+        <span class="mp-mode-sub">Watt & Nyttevirkning</span>
+      </button>
+      <button type="button" class="mp-mode-btn js-mode-btn" data-mode="general">
+        <span class="mp-mode-icon">🏃‍♂️</span>
+        <span class="mp-mode-title">Generel Idræt</span>
+        <span class="mp-mode-sub">% VO2max & Kondital</span>
+      </button>
+    </div>
+
+    <!-- STAMDATA (RENT 2x2 GRID) -->
+    <div class="mp-calc-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; position: relative;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="cho_info" title="Information om kulhydratforbrænding">i</button>
+      
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">1. Profil & Glykogenlager</h4>
+
+      <div class="mp-settings-grid-2x2">
+        <!-- RÆKKE 1, FELT 1: VÆGT -->
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Vægt (kg)</label>
+          <input type="number" min="30" max="200" step="0.5" class="mp-cho-input js-cho-input" data-key="weight" value="75" style="width:100%;">
+        </div>
+
+        <!-- RÆKKE 1, FELT 2: NYTTEVIRKNING ELLER KONDITAL -->
+        <div class="js-field-efficiency">
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Nyttevirkning (%)</label>
+          <input type="number" min="15" max="30" step="0.5" class="mp-cho-input js-cho-input" data-key="efficiency" value="23" style="width:100%;">
+        </div>
+
+        <div class="js-field-kondital" style="display: none;">
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Kondital (ml/kg/min)</label>
+          <input type="number" min="20" max="95" step="1" class="mp-cho-input js-cho-input" data-key="fitness_level" value="55" style="width:100%;">
+        </div>
+
+        <!-- RÆKKE 2, FELT 1: GLYKOGENKAPACITET -->
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Glykogen (g/kg krop)</label>
+          <input type="number" min="4" max="15" step="0.5" class="mp-cho-input js-cho-input" data-key="glycogen_per_kg" value="8" style="width:100%;">
+        </div>
+
+        <!-- RÆKKE 2, FELT 2: SIKKERHEDSTÆRSKEL -->
+        <div>
+          <label style="font-size: 0.725rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.25rem;">Sikkerhedstærskel (%)</label>
+          <input type="number" min="20" max="90" step="5" class="mp-cho-input js-cho-input" data-key="glycogen_threshold" value="60" style="width:100%;">
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. TRÆNINGSZONER & VARIGHED (INPUT TABLE) -->
+    <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; overflow-x: auto;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">2. Træningszoner & Varighed</h4>
+
+      <table class="mp-zone-table">
+        <thead>
+          <tr>
+            <th style="width: 25%;">Zone</th>
+            <th style="width: 22%;">Tid (min)</th>
+            <th style="width: 30%;" class="js-col-intensity-header">Intensitet (Watt)</th>
+            <th style="width: 23%;">R-værdi (RER)</th>
+          </tr>
+        </thead>
+        <tbody class="js-zone-rows">
+          <!-- Zoner bygges dynamisk -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 3. DETALJERET RESULTATTABEL PR. ZONE -->
+    <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; margin-bottom: 1.25rem; overflow: hidden; box-sizing: border-box;">
+      <div style="padding: 0.85rem 1.15rem 0.5rem 1.15rem; border-bottom: 1px solid #f1f5f9;">
+        <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0;">📊 Energiforbrug fordelt på zoner</h4>
+      </div>
+      <div style="overflow-x: auto;">
+        <table class="mp-zone-table">
+          <thead>
+            <tr>
+              <th style="width: 22%;">Zone</th>
+              <th style="width: 15%; text-align: right;">Tid</th>
+              <th style="width: 21%; text-align: right;">Kalorier</th>
+              <th style="width: 21%; text-align: right;">Fedt (g)</th>
+              <th style="width: 21%; text-align: right;">CHO (g)</th>
+            </tr>
+          </thead>
+          <tbody class="js-results-table-body">
+            <!-- Rækker & Sum-række genereres dynamisk -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- HERO FUEL BOKS & GLYKOGEN-LIGNING -->
+    <div class="mp-hero-fuel-box">
+      <div style="font-size: 0.725rem; font-weight: 800; color: #2563eb; text-transform: uppercase; margin-bottom: 0.85rem;">
+        🏁 Glykogen-Balance & Refueling Formel
+      </div>
+
+      <!-- VISUEL GLYKOGEN-LIGNING (DEN RENE SYMMETRISKE OPSTILLING) -->
+      <div class="mp-formula-card-container">
+        <!-- Ligning 1: Accepteret tømning -->
+        <div class="mp-formula-row" style="margin-bottom: 0.65rem;">
+          <div class="mp-formula-box">
+            <span class="mp-formula-icon">🔋</span>
+            <div class="mp-formula-val js-eq-capacity">- g</div>
+            <div class="mp-formula-lbl">Glykogenkapacitet</div>
+          </div>
+          <span class="mp-formula-op">−</span>
+          <div class="mp-formula-box">
+            <span class="mp-formula-icon">🛡️</span>
+            <div class="mp-formula-val js-eq-reserve">- g</div>
+            <div class="mp-formula-lbl">Sikkerhedstærskel</div>
+          </div>
+          <span class="mp-formula-op">=</span>
+          <div class="mp-formula-box highlight">
+            <span class="mp-formula-icon">🪫</span>
+            <div class="mp-formula-val js-eq-allowed-depletion">- g</div>
+            <div class="mp-formula-lbl">Tilladt tømning</div>
+          </div>
+        </div>
+
+        <!-- Ligning 2: Behov for genopfyldning -->
+        <div class="mp-formula-row">
+          <div class="mp-formula-box">
+            <span class="mp-formula-icon">🔥</span>
+            <div class="mp-formula-val js-eq-total-burned">- g</div>
+            <div class="mp-formula-lbl">Kulhydrat forbrændt</div>
+          </div>
+          <span class="mp-formula-op">−</span>
+          <div class="mp-formula-box highlight">
+            <span class="mp-formula-icon">🪫</span>
+            <div class="mp-formula-val js-eq-allowed-depletion-2">- g</div>
+            <div class="mp-formula-lbl">Tilladt tømning</div>
+          </div>
+          <span class="mp-formula-op">=</span>
+          <div class="mp-formula-box alert">
+            <span class="mp-formula-icon">⚡</span>
+            <div class="mp-formula-val js-eq-required-refuel">- g</div>
+            <div class="mp-formula-lbl">Genopfyldningsbehov</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STATUS MEDDELELSE -->
+      <div style="font-size: 0.775rem; color: #334155; line-height: 1.4; margin-bottom: 0.85rem;" class="js-res-glycogen-msg">
+        -
+      </div>
+
+      <!-- TIMER-STRATEGI (GLUKOSE / FRUKTOSE) -->
+      <div style="font-size: 0.725rem; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 0.35rem; border-top: 1px solid #bfdbfe; padding-top: 0.75rem;">
+        Anbefalet Indtag i Timen under passet:
+      </div>
+      <div class="mp-fuel-grid">
+        <div class="mp-fuel-card">
+          <div style="font-size: 0.675rem; font-weight: 800; color: #64748b;">I ALT / TIME</div>
+          <div style="font-size: 1.25rem; font-weight: 900; color: #2563eb;" class="js-res-intake-hour">- g</div>
+        </div>
+        <div class="mp-fuel-card">
+          <div style="font-size: 0.675rem; font-weight: 800; color: #64748b;">GLUKOSE</div>
+          <div style="font-size: 1.25rem; font-weight: 900; color: #0f172a;" class="js-res-glucose-hour">- g</div>
+        </div>
+        <div class="mp-fuel-card">
+          <div style="font-size: 0.675rem; font-weight: 800; color: #64748b;">FRUKTOSE</div>
+          <div style="font-size: 1.25rem; font-weight: 900; color: #0f172a;" class="js-res-fructose-hour">- g</div>
+        </div>
+      </div>
+      <div style="text-align: center; font-size: 0.725rem; font-weight: 700; color: #64748b; margin-top: 0.65rem;" class="js-res-ratio-label">
+        Ratio: -
+      </div>
+    </div>
+
+    <!-- DYNAMISK FORKLARINGSTEKST / EKSEMPEL -->
+    <div class="mp-summary-explanation-box">
+      <strong style="color: #0f172a; display: block; margin-bottom: 0.35rem; font-size: 0.85rem;">💡 Fysiologisk opsummering:</strong>
+      <div class="js-res-summary-text">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+  </div>
+</div>

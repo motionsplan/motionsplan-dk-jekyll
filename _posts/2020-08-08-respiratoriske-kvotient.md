@@ -150,6 +150,8 @@ Hvis du fx arbejder og bruger 2 L O₂/min, og min R-værdi er 0,85, så forbræ
 
 {% include calculator/calculate-rer.html %}
 
+{% include calc/vo2-rer-calculator.html rer_mode="vco2" title="🔬 Energiforbrug (VCO₂ / VO₂)" %}
+
 ## Konklusion
 
 RER-værdien er forholdet mellem det udskilte CO₂ og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).

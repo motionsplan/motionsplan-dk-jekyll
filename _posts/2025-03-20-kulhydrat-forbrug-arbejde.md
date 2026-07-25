@@ -1,11 +1,11 @@
 ---
-title: Kulhydratforbrug – Beregn dit behov under træning
-seo_title: Kulhydratforbrug – Beregn dit behov til løb og cykling
+title: Beregn kulhydratforbrug – Hvor meget sukker til løb og cykling?
+seo_title: Beregn kulhydratforbrug – Hvor meget energi skal du medbringe?
 permalink: /kulhydratforbrug/
-excerpt: Beregn dit kulhydratforbrug under løb og cykling. Brug denne beregner til at planlægge dit kulhydratindtag og optimere
-  din præstation.
-description: Beregn dit kulhydratforbrug under løb og cykling. Brug denne beregner til at planlægge dit kulhydratindtag og
-  optimere din præstation.
+redirect_from:
+  - /kulhydratforbrug-cykling-watt/
+excerpt: Hvor meget sukker og kulhydrat skal du have med på din cykeltur eller løbetur? Beregn dit præcise kulhydratforbrug og undgå at møde muren.
+description: Beregn dit kulhydratforbrug under løb og cykling. Få svar på, hvor meget sukker, gels og energi du skal indtage pr. time for at optimere din præstation.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
@@ -14,71 +14,90 @@ header:
 category:
 - Kost & Ernæring
 meta:
-  name: Beregn kulhydratforbrug ved aktivitet
-  measures: CHO-forbrug
+  name: Beregn kulhydratforbrug ved cykling, løb og idræt
+  measures: CHO-forbrug og energiindtag
   type: beregner
-  equipment: se beskrivelse
-  max: n/a
-  direct: n/a
+  equipment: wattmåler eller pulsmåler
 tags:
 - beregner
 - værktøj
 - kost & ernæring
-- makronæringsstof
-- featured
-last_modified_at: '2025-07-15T19:14:14Z'
-feature_row_tests_loeb:
-- image_path: /assets/images/unsplash/photo-1562245376-3f9dae9f0e73.jpg
-  credit: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73
-  alt: Løbetests og kondition
-  title: Andre løbetests
-  excerpt: Der er mange forskellige måder at teste din kondition på. Vi har samlet en lang række forskellige løbetests, hvor
-    du også kan estimere dit kondital.
-  url: /tests/loeb/
-  btn_label: Se flere løbetests
-  btn_class: btn--success
+- kulhydratforbrug
+- energi til træning
+- cykling
+- løb
+last_modified_at: '2026-07-25T10:00:00Z'
 faq:
-- question: Hvordan fungerer beregneren?
-  answer: 'Beregneren udnytter, at når du kender iltoptagelsen og R-værdien, så kender du nogenlunde også forbruget af næringsstoffer.
-
-
-    Som udgangspunkt er beregneren sat til en person, som har en fornuftig metabolisk profil ift. fedtforbrænding og kulhydratforbrænding.'
+- question: Hvor meget sukker skal jeg have med på min cykeltur eller løbetur?
+  answer: Det afhænger af varigheden og intensiteten. På ture under 60 minutter behøver du sjældent ekstra sukker. Ved intensiv træning over 90 minutter bør du typisk indtage mellem 60 og 90 gram kulhydrat (sukker) i timen.
+- question: Hvordan beregner man sit kulhydratforbrug?
+  answer: Beregneren estimerer dit kulhydratforbrug ud fra enten dine trådte watt (cykling) eller dit iltforbrug og intensitetszoner (løb/idræt). Ud fra din fysiologiske R-værdi beregnes fordelingen mellem fedt- og kulhydratforbrænding.
 ---
 
-Når du træner eller konkurrerer i udholdenhedssport som løb og cykling, er det vigtigt at sikre en tilstrækkelig tilførsel af kulhydrater for at opretholde energiniveauet.
+Når du tager afsted på en lang cykeltur eller en hård løbetur, opstår det klassiske spørgsmål: **Hvor meget sukker og energi skal jeg have med i lommerne eller flaskerne?**
 
-Denne beregner hjælper dig med at estimere dit kulhydratforbrug baseret på din vægt, intensitet og varighed af aktiviteten. På den måde kan du planlægge dit kulhydratindtag optimalt og undgå energimangel undervejs.
+Hvis du indtager for lidt kulhydrat undervejs, risikerer du at tømme kroppens glykogenlagre og "møde muren" (bonker). Indtager du omvendt alt for meget, eller den forkerte type sukker, protesterer mave-tarmsystemet.
 
-Du kan også tjekke en endnu mere [præcis kulhydratforbrugberegner til cykling baseret på watt](/kulhydratforbrug-cykling-watt/).
+Vores samlede **kulhydratforbrug-beregner** hjælper dig med at udregne dit præcise energiforbrug under både løb og cykling, så du ved nøjagtigt, hvor mange gram kulhydrat, gels eller energidrik du skal medbringe for at holde dampen oppe.
 
-## Beregn dit kulhydratforbrug
+## Beregn dit kulhydratforbrug (Cykling & Løb)
+
+*(Vælg fanen "Cykling" hvis du træner efter watt, eller "Generel Idræt" hvis du tager udgangspunkt i din iltoptagelse/intensitet).*
 
 {% include calculator/calculate-kulhydrat-forbrug.html %}
 
-## Hvor meget kulhydrat kan jeg lagre?
+{% include calc/cho-usage-calculator.html mode="cycling" title="🚴‍♂️ Kulhydratforbrug ved Cykling" %}
 
-Du lagrer kulhydrat i musklerne og i leveren. Hvor meget du lagrer er afhængig af din træningstilstand, men også hvor meget du kulhydrat du spiser. Og du kan endda lave [strategisk carb-loading](/carb-loading/), hvor du fylder depoterne yderligere.
+---
 
-| Tilstand            | Kulhydratlager (g/kg) |
-|---------------------|-----------------------|
-| Almindelig utrænet | 6 g/kg               |
-| Almindelig trænet | 8 g/kg               |
-| Carbloadet lav      | 9 g/kg                 |
-| Carbloadet høj      | 10–12 g/kg             |
+## Hvor meget sukker skal du medbringe på turen?
 
-I beregneren har vi brugt en standardværdi på 8 g/kg, men du kan selv indstille den højere, hvis du har carboladet.
+Svaret på, hvor meget energi og sukker du skal indtage undervejs, afhænger direkte af **hvor hurtigt du forbrænder dine egne kulhydratdepoter** i forhold til turens varighed:
 
-## Sådan matcher du dit kulhydratforbrug med indtag
+1. **Korte pas (< 60 min):** Kroppens egne sukkerlagre (glykogen) rækker fint. Rent vand er som regel nok.
+2. **Runder på 1-2 timer:** Du forbrænder mere kulhydrat end fedt ved moderat til høj intensitet. Et supplerende indtag på **30–60 gram sukker/kulhydrat pr. time** holder præstationen i top.
+3. **Lange ture (> 2-3 timer):** Her bliver din ernæringsstrategi afgørende. Dit kulhydratforbrug vil ofte overstige **60–90 gram pr. time**, og du er nødt til aktivt at supplere med gels, energidrik eller barer.
 
-Har du først beregnet dit kulhydratforbrug under træning, er næste skridt at sikre, at du faktisk kan **optage nok kulhydrat til at følge med energiforbruget**.
+> 💡 **Hvad svarer det til i praksis?** 1 banan indeholder ca. 20-25 g kulhydrat, en typisk energigel indeholder 20-30 g sukker, og 500 ml blandet sportsdrik indeholder ofte 30-40 g kulhydrat.
 
-Selvom du måske forbrænder over 100 gram i timen, sætter kroppens optagelsesevne en naturlig grænse. **Op til 90 gram kulhydrat i timen** kan optages effektivt, hvis du **kombinerer glukose og fruktose i et 2:1-forhold** – for eksempel 60 g glukose og 30 g fruktose.
+## Sådan beregner vi dit kulhydratforbrug
 
-Hvis du har brug for endnu mere energi, kan du eksperimentere med højere indtag, fx op til **120 g/t** i et **1:1- eller 1:0,8-forhold**, men det kræver, at du **træner din tarm til at klare det**. Det kaldes “gut training” og bør afprøves i træning – ikke til løbsdagen.
+Kroppen forbrænder altid en blanding af fedt og kulhydrat under arbejde. Jo hårdere du presser dig selv, desto større en procentdel af energien skal komme fra kulhydrater.
 
-> 💡 Få styr på strategien og læs [guiden til det optimale kulhydratforhold](/optimale-kulhydrat-forhold/)
+* **På cyklen:** Når du træder et bestemt antal watt, kender vi din mekaniske effekt. Ud fra din fysiologiske nyttevirkning (hvor effektivt kroppen omsætter energi til fremdrift) udregnes det præcise kalorie- og kulhydratforbrug pr. time.
+* **Ved løb og idræt:** Her udregnes energiforbruget ud fra din vægt, dit iltoptagelsesniveau og dine træningszoner. R-værdien (forholdet mellem udskilt CO₂ og optaget O₂) fortæller os præcist, hvor mange gram kulhydrat der forbrændes i minuttet.
 
-Vil du tage fuld kontrol over din ernæring? Så kan du med fordel [blande din egen sportsdrik](/sportsdrik/) med præcis det forhold, du ønsker.
+Hvis du ikke kender dit præcise iltoptagelsesniveau, kan du estimere det ud fra et [kondital fundet via en af vores løbetests](/tests/loeb/).
+
+## Optimal sukkerstrategi: Glukose vs. Fruktose
+
+Når du har beregnet dit timelige kulhydratbehov og fundet ud af, hvor meget energi du mangler, handler det om at få sukkeret optaget i blodet uden at få ondt i maven.
+
+Kroppens optagelse af sukker styres af transportproteiner i tarmen:
+
+* **Op til 60 gram kulhydrat/t:** Kan bestå af almindelig glukose eller maltodextrin (som benytter SGLT1-transporteren).
+* **Op til 90 gram kulhydrat/t:** Kræver, at du kombinerer **glukose og fruktose i et 2:1-forhold** (fx 60 g glukose + 30 g fruktose). Fruktose benytter en anden transportvej (GLUT5) i tarmen, hvilket gør, at du kan optage langt mere energi i timen uden maverepressalier.
+* **100–120 gram kulhydrat/t:** Bruges i moderne elitesport og kræver ofte et **1:1 eller 1:0,8 forhold** mellem glukose og fruktose – samt grundig tarmtræning ("gut training") i ugerne op til et løb.
+
+> **⚠️ Pas på med at "overfylde" med kulhydrat**  
+> Indtager du markant mere sukker end nødvendigt – særligt på de roligere ture – stiger blodsukkeret og insulinniveauet, hvilket kan undertrykke kroppens naturlige fedtforbrænding. Målet er at dække det reelle energunderskud og bevare ydeevnen, ikke at oversvømme systemet.
+{: .notice--warning }
+
+> 📖 Læs mere i vores dybdegående guide om det [optimale kulhydratforhold til træning og konkurrence](/optimale-kulhydrat-forhold/).
+
+## Undgå at løbe tør: Kend dine glykogenlagre
+
+Din krop lagrer sukker som **glykogen** i leveren og i de arbejdende muskler. Et veltrænet menneske har typisk omkring 400–600 gram sukker lagret i kroppen.
+
+| Din træningstilstand | Estimeret sukkerlager (g/kg kropsvægt) |
+| :--- | :--- |
+| Utrænet / Hverdagstilstand | ~6 g/kg |
+| Godt trænet udholdenhedsatlet | ~8 g/kg |
+| Fyldte lagre efter [carb-loading](/carb-loading/) | 10–12 g/kg |
+
+I beregneren øverst tager vi højde for din kropsvægt og dine startlagre. Dermed kan du se præcist, hvornår i dit pas du krydser den kritiske grænse, hvis ikke du indtager supplerende energi undervejs.
+
+Vil du spare penge på dyre gels? Så kan du nemt [blande din egen sportsdrik](/sportsdrik/) med den rette balance af glukose, fruktose og elektrolytter.
 
 ## Konklusion
 
@@ -96,5 +115,16 @@ Brug beregneren til at finde det rigtige indtag og optimere din præstation.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
+
+  * **Burke, L. M., Hawley, J. A., Wong, S. H., & Jeukendrup, A. E. (2011).** Carbohydrates for training and competition. *Journal of Sports Sciences*, 29(sup1), S17-S27.  
+    *(Standardværket for kulhydratbehov, glykogenlagrenes kapacitet (g/kg) og anbefalinger til træning/konkurrence).*
+  * **Currell, K., & Jeukendrup, A. E. (2008).** Superior endurance performance with ingestion of multiple transportable carbohydrates. *Medicine & Science in Sports & Exercise*, 40(2), 275-281.  
+    *(Studiet der påviste den præstationsfremmende effekt ved kombinationen af glukose og fruktose via forskellige transportører).*
+  * **Jeukendrup, A. E. (2014).** A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Medicine*, 44(1), 25-33.  
+    *(Kildegrundlaget for de klassiske retningslinjer om 30, 60 og 90 gram kulhydrat i timen afhængigt af varighed).*
+  * **Jeukendrup, A. E. (2017).** Training the gut for athletes. *Sports Medicine*, 47(1), 101-110.  
+    *(Referencen på "gut training" og hvordan mave-tarmsystemet tilvænnes højere energiindtag uden ubehag).*
+  * **Viribay, A., et al. (2020).** Effects of 120 g/h of Carbohydrate Intake during a Mountain Marathon on Exercise-Induced Muscle Damage in Elite Runners. *Nutrients*, 12(5), 1367.  
+    *(Studie der dokumenterer effekten og tolerancen af meget høje kulhydratindtag helt op til 120 g/t hos trænede atleter).*
 
 </details>

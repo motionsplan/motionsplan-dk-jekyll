@@ -3,7 +3,7 @@
 export const SPEED_PACE_FORMULAS = {
   'speed-pace-all': {
     id: 'speed-pace-all',
-    name: 'Super-Hastigheds & Paceberegner',
+    name: 'Hastighedsberegner',
 
     // Konverter km/t til sekunder pr. km
     kmhToPaceSec(kmh) {

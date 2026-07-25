@@ -1,9 +1,12 @@
 {% assign met_type = include.type | default: "" %}
 
-{% if met_type contains "walking" %}
-  {% assign met_values = site.data.met | where_exp: "item", "item.Group contains met_type" | sort: "MET" %}
+{% if met_type != "" %}
+  {% assign met_values = site.data.met | where: "Group", met_type | sort: "MET" %}
+  {% if met_values.size == 0 %}
+    {% assign met_values = site.data.met | where_exp: "item", "item.Group contains met_type" | sort: "MET" %}
+  {% endif %}
 {% else %}
-  {% assign met_values = site.data.met %}
+  {% assign met_values = site.data.met | sort: "MET" %}
 {% endif %}
 
 <form class="calculator" id="calculator_met_standalone">
@@ -14,14 +17,14 @@
             <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
         </div>
         <div class="form-group">
-            <label for="answers">Aktivitet (MET)</label>
-            <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput">
+            <label for="answerInput">Aktivitet (MET)</label>
+            <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput" required autocomplete="off">
             <datalist id="answers">
-                {% for row in met_values offset:2 %}
-                <option value="{{ row.Activity }}" data-met="{{ row.MET }}">{{ row.Activity }}</option>
+                {% for row in met_values %}
+                <option value="{{ row.Activity }}" data-met="{{ row.MET }}">{{ row.Activity }} (MET: {{ row.MET }})</option>
                 {% endfor %}
-              </datalist>
-            <input type="hidden" name="answer" id="answerInput-hidden">
+            </datalist>
+            <input type="hidden" name="answer_met" id="answerInput-hidden">
         </div>
         <div class="form-group">
             <label for="time">Tid (timer)</label>
@@ -51,34 +54,38 @@
 
 <script>
     document.querySelector('#answerInput').addEventListener('input', function (e) {
-    var input = e.target;
-    var list = document.querySelector('#answers');
-    var options = list.getElementsByTagName('option');
-    var hiddenInput = document.getElementById('answerInput-hidden');
-    
-    hiddenInput.value = ''; // Reset hidden input
+        var input = e.target;
+        var list = document.querySelector('#answers');
+        var options = list.getElementsByTagName('option');
+        var hiddenInput = document.getElementById('answerInput-hidden');
+        
+        hiddenInput.value = ''; // Nulstil skjult felt
 
-    for (var i = 0; i < options.length; i++) {
-        if (options[i].value === input.value) {
-            hiddenInput.value = options[i].getAttribute('data-met'); // Set MET value
-            break;
+        for (var i = 0; i < options.length; i++) {
+            if (options[i].value === input.value) {
+                hiddenInput.value = options[i].getAttribute('data-met');
+                break;
+            }
         }
-    }
-});
+    });
 
-function calculateMET() {
-    var met = $("#answerInput-hidden").val();
-    var weight = $("#weight").val();
-    var time = $("#time").val();
+    function calculateMET() {
+        var met = document.getElementById("answerInput-hidden").value;
+        var weight = document.getElementById("weight").value;
+        var time = document.getElementById("time").value;
 
-    if (!met || !weight || !time) {
-        alert("Please select an activity and fill in all fields.");
+        if (!met || !weight || !time) {
+            alert("Vælg venligst en aktivitet fra listen og udfyld alle felter.");
+            return false;
+        }
+
+        met = parseFloat(met);
+        weight = parseFloat(weight);
+        time = parseFloat(time);
+
+        document.getElementById("kcal").value = (met * weight * time).toFixed(1);
+        document.getElementById("kcal_min").value = (met * weight / 60).toFixed(1);
+        document.getElementById("met_hours").value = (met * time).toFixed(2);
         return false;
     }
-
-    $("#kcal").val((met * weight * time).toFixed(1));
-    $("#kcal_min").val((met * weight / 60).toFixed(1));
-    $("#met_hours").val((met * time).toFixed(2));
-    return false;
-}
 </script>

@@ -144,7 +144,7 @@ Når du forbrænder flere kalorier gennem bevægelse, tvinger du kroppen til at 
 
 ## Mere læsning på Motionsplan.dk
 
-- [Energiforbrug ved træning – hvor mange kalorier bruger du?](/udregne-energiforbrug-og-effektivitet/)
+- [Energiforbrug ved træning – hvor mange kalorier bruger du?](/beregn-bevaegelsesokonomi-effektivitet/)
 - [Træningsprincipper: 10 grundlæggende regler](/traeningsprincipper/)
 
 ## Ofte stilledes spørgsmål

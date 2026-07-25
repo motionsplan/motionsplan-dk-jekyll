@@ -1,0 +1,273 @@
+{% assign calc_title = include.title | default: "🔬 Energiforbrug & Nyttevirkning (VO₂ / RER)" %}
+{% assign data_id = include.calc_id | default: "vo2-rer-calculator" %}
+{% assign default_rer_mode = include.rer_mode | default: "direct" %}
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-vo2-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 8px !important; border: 1.5px solid #cbd5e1 !important; background: #ffffff !important; margin: 0 !important; }
+
+  /* TOGGLE SWITCHER (SITATER PRÆCIST PÅ BASELINEN AF INPUTS) */
+  .mp-rer-toggle-group {
+    display: flex !important;
+    background: #e2e8f0 !important;
+    border-radius: 8px !important;
+    padding: 3px !important;
+    height: 42px !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    min-width: 130px !important;
+    border: 1.5px solid transparent !important;
+    margin: 0 !important;
+  }
+  .mp-rer-toggle-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    height: 100% !important;
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #64748b;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    white-space: nowrap;
+  }
+  .mp-rer-toggle-btn.is-active {
+    background: #ffffff;
+    color: #2563eb;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  /* FORMEL BADGE & PICKER */
+  .mp-vo2-auto-badge { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 0.65rem 0.85rem; display: flex; flex-direction: column; gap: 0.15rem; }
+  .mp-vo2-badge-header { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 0.5rem; }
+  .mp-vo2-badge-title-group { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+  .mp-vo2-badge-title { font-size: 0.85rem; font-weight: 800; color: #0f172a; }
+  .mp-vo2-rec-tag { font-size: 0.65rem; font-weight: 800; color: #1e40af; background: #dbeafe; padding: 2px 6px; border-radius: 5px; }
+
+  .mp-vo2-btn-gear { background: #ffffff !important; border: 1px solid #93c5fd !important; color: #2563eb !important; font-size: 1rem !important; width: 32px !important; height: 32px !important; border-radius: 8px !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.15s ease !important; }
+  .mp-vo2-btn-gear:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  .mp-vo2-picker-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .mp-vo2-picker-card { background: #ffffff; border: 2px solid #e2e8f0; border-radius: 10px; padding: 0.65rem 0.85rem; cursor: pointer; transition: all 0.15s ease; text-align: left; }
+  .mp-vo2-picker-card:hover:not(.is-selected) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-vo2-picker-card.is-selected { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  .mp-vo2-check-icon { width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; color: #94a3b8; font-size: 0.7rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+  .mp-vo2-picker-card.is-selected .mp-vo2-check-icon { background: #2563eb; color: #ffffff; }
+
+  /* 3 TOP-KORT GRID */
+  .mp-test-hero-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-bottom: 0.85rem; }
+  .mp-test-hero-card { background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 12px; padding: 0.85rem 0.5rem; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.02); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .mp-test-hero-card.highlight { background: #dbeafe; border-color: #2563eb; }
+  .mp-test-hero-title { font-size: 0.675rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 0.15rem; }
+  .mp-test-hero-card.highlight .mp-test-hero-title { color: #1e40af; }
+  .mp-test-hero-val { font-size: 1.75rem; font-weight: 900; color: #0f172a; line-height: 1; margin: 0.15rem 0; }
+  .mp-test-hero-card.highlight .mp-test-hero-val { color: #1d4ed8; }
+  .mp-test-hero-sub { font-size: 0.7rem; font-weight: 700; color: #64748b; }
+
+  /* 2 SUBSTRAT-KORT */
+  .mp-substrate-grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 0.5rem; }
+  .mp-substrate-card { border-radius: 12px; padding: 0.85rem 0.75rem; border: none; box-shadow: 0 1px 3px rgba(0,0,0,0.02); }
+  .mp-substrate-card.cho { background: #eff6ff; }
+  .mp-substrate-card.fat { background: #ecfdf5; }
+
+  /* PROCENT BADGE I KORT */
+  .mp-sub-pct-badge {
+    font-size: 0.875rem !important;
+    font-weight: 800 !important;
+    padding: 2px 8px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  .mp-sub-pct-badge.cho { color: #1d4ed8; background: #dbeafe; }
+  .mp-sub-pct-badge.fat { color: #047857; background: #d1fae5; }
+
+  /* VISUEL SLIDER BAR */
+  .mp-substrate-bar-wrapper {
+    height: 10px;
+    border-radius: 6px;
+    background: #e2e8f0;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    display: flex;
+  }
+  .mp-substrate-bar-cho { height: 100%; background: #2563eb; transition: width 0.3s ease; }
+  .mp-substrate-bar-fat { height: 100%; background: #10b981; transition: width 0.3s ease; }
+
+  /* EFFEKTIVITETS BOKS */
+  .mp-efficiency-card { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.85rem 1.15rem; margin-bottom: 1.15rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.85rem; text-align: center; }
+
+  .mp-summary-explanation-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.9rem 1.15rem; margin-bottom: 1.25rem; font-size: 0.825rem; color: #334155; line-height: 1.5; }
+
+  .mp-panel-info-btn { position: absolute !important; top: 12px !important; right: 12px !important; width: 24px !important; height: 24px !important; border-radius: 50% !important; background: #eff6ff !important; color: #2563eb !important; border: 1px solid #bfdbfe !important; font-size: 0.775rem !important; font-weight: 900 !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; z-index: 10 !important; }
+  .mp-panel-info-overlay { position: absolute !important; inset: 0 !important; background: #ffffff !important; border-radius: inherit !important; z-index: 20 !important; padding: 1.15rem !important; box-sizing: border-box !important; display: none; flex-direction: column !important; overflow-y: auto !important; box-shadow: inset 0 0 0 1px #e2e8f0; }
+  .mp-panel-info-close { position: absolute !important; top: 10px !important; right: 10px !important; background: #f1f5f9 !important; border: none !important; border-radius: 50% !important; width: 28px !important; height: 28px !important; font-size: 1rem !important; font-weight: 800 !important; color: #64748b !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="vo2-rer-ui" data-default-rer-mode="{{ default_rer_mode }}">
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn øjeblikkelig metabolisk effekt (Watts / J/s), kcal/min, fedt- vs. kulhydratfordeling samt nyttevirkning.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div style="width: 100%;">
+    
+    <!-- 1. MÅLEVÆRDIER INPUTS -->
+    <div class="mp-calc-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem; position: relative;">
+      <button type="button" class="mp-panel-info-btn js-info-btn" data-info-type="vo2_info" title="Information om iltoptagelse og RER">i</button>
+      
+      <div class="js-section-info-overlay mp-panel-info-overlay">
+        <button type="button" class="mp-panel-info-close js-info-close">✕</button>
+        <div class="js-info-overlay-body"></div>
+      </div>
+
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">1. Indtast laboratoriemålinger</h4>
+
+      <!-- LINJE 1: STRICT FLEXBOX ALIGNED TO BOTTOM -->
+      <div style="display: flex; align-items: flex-end; gap: 0.65rem; margin-bottom: 0.85rem;">
+        <!-- VO2 INPUT (LEFT) -->
+        <div style="flex: 1; min-width: 0;">
+          <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem; line-height: 1.2;">VO₂ (L/min)</label>
+          <input type="number" min="0.5" max="7.0" step="0.01" class="mp-vo2-input js-vo2-input" data-key="vo2" value="1.89" style="width:100%;">
+        </div>
+
+        <!-- TOGGLE SWITCH (CENTER - NO DUMMY LABELS/SPACERS, ALIGNS DIRECTLY AT BOTTOM) -->
+        <div style="flex: 0 0 auto;">
+          <div class="mp-rer-toggle-group">
+            <button type="button" class="mp-rer-toggle-btn js-rer-mode-btn is-active" data-rer-mode="direct">R-værdi</button>
+            <button type="button" class="mp-rer-toggle-btn js-rer-mode-btn" data-rer-mode="vco2">VCO₂</button>
+          </div>
+        </div>
+
+        <!-- RER / VCO2 DYNAMISK INPUT (RIGHT) -->
+        <div style="flex: 1; min-width: 0;">
+          <!-- DIRECT R-VALUE FIELD -->
+          <div class="js-rer-direct-wrapper">
+            <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem; line-height: 1.2;">R-værdi</label>
+            <input type="number" min="0.70" max="1.15" step="0.01" class="mp-vo2-input js-vo2-input" data-key="rer" value="0.90" style="width:100%;">
+          </div>
+
+          <!-- VCO2 FIELD -->
+          <div class="js-vco2-wrapper" style="display: none;">
+            <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem; line-height: 1.2;">VCO₂ (L/min)</label>
+            <input type="number" min="0.3" max="7.0" step="0.01" class="mp-vo2-input js-vo2-input" data-key="vco2" value="1.70" style="width:100%;">
+          </div>
+        </div>
+      </div>
+
+      <!-- WORKRATE WATT (FULD BREDDE) -->
+      <div style="border-top: 1px dashed #cbd5e1; padding-top: 0.85rem;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem; line-height: 1.2;">Ydre Watt (valgfri belastning)</label>
+        <input type="number" min="0" max="1000" step="5" class="vbt-input-mega mp-vo2-input js-vo2-input" data-key="workrate" placeholder="fx 100" value="100" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- 2. FORMEL VÆLGER SEKTION -->
+    <div style="margin-bottom: 1.25rem;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+        2. Vælg formel for energiforbrug
+      </label>
+
+      <!-- COLLAPSED BAR -->
+      <div class="js-vo2-formula-bar mp-vo2-auto-badge">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+
+      <!-- EXPANDED LISTE AF FORMELKORT -->
+      <div class="js-vo2-manual-dropdown-wrapper" style="display: none;">
+        <div class="js-vo2-picker-container mp-vo2-picker-list" style="margin-top: 0.5rem;">
+          <!-- Genereres dynamisk i JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. TOP-RESULTATER (3 SYMMETRISKE KORT) -->
+    <div class="mp-test-hero-grid-3">
+      <div class="mp-test-hero-card highlight">
+        <div class="mp-test-hero-title">Metabolisk Effekt</div>
+        <div class="mp-test-hero-val js-res-watts">-</div>
+        <div class="mp-test-hero-sub" style="color: #2563eb;">Watts (J/s)</div>
+      </div>
+
+      <div class="mp-test-hero-card">
+        <div class="mp-test-hero-title">Energi Rate</div>
+        <div class="mp-test-hero-val js-res-kcalmin">-</div>
+        <div class="mp-test-hero-sub">kcal / min</div>
+      </div>
+
+      <div class="mp-test-hero-card">
+        <div class="mp-test-hero-title">Målt R-værdi</div>
+        <div class="mp-test-hero-val js-res-rer-val" style="color: #0f172a;">-</div>
+        <div class="mp-test-hero-sub">RER (VCO₂/VO₂)</div>
+      </div>
+    </div>
+
+    <!-- 4. SUBSTRATKORT (KULHYDRAT VS FEDT MED BADGES) -->
+    <div class="mp-substrate-grid-2">
+      <!-- KULHYDRAT KORT -->
+      <div class="mp-substrate-card cho">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+          <span style="font-size: 0.725rem; font-weight: 800; color: #1e40af; text-transform: uppercase;">🍞 Kulhydrat</span>
+          <span class="mp-sub-pct-badge cho js-res-cho-pct">- %</span>
+        </div>
+        <div style="font-size: 1.6rem; font-weight: 900; color: #1e3a8a; line-height: 1.1;" class="js-res-cho-rate">- g/t</div>
+        <div style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-top: 0.25rem;" class="js-res-cho-kcal">- kcal/min</div>
+      </div>
+
+      <!-- FEDT KORT -->
+      <div class="mp-substrate-card fat">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+          <span style="font-size: 0.725rem; font-weight: 800; color: #065f46; text-transform: uppercase;">🥑 Fedt</span>
+          <span class="mp-sub-pct-badge fat js-res-fat-pct">- %</span>
+        </div>
+        <div style="font-size: 1.6rem; font-weight: 900; color: #064e3b; line-height: 1.1;" class="js-res-fat-rate">- g/t</div>
+        <div style="font-size: 0.7rem; font-weight: 700; color: #64748b; margin-top: 0.25rem;" class="js-res-fat-kcal">- kcal/min</div>
+      </div>
+    </div>
+
+    <!-- VISUEL SUBSTRAT SLIDER BAR -->
+    <div class="mp-substrate-bar-wrapper">
+      <div class="mp-substrate-bar-cho js-bar-cho" style="width: 50%;"></div>
+      <div class="mp-substrate-bar-fat js-bar-fat" style="width: 50%;"></div>
+    </div>
+
+    <!-- 5. NYTTEVIRKNING & CYKELØKONOMI (VISES NÅR WATT > 0) -->
+    <div class="mp-efficiency-card js-efficiency-wrapper" style="display: none;">
+      <div>
+        <div style="font-size: 0.675rem; font-weight: 800; color: #1e40af; text-transform: uppercase;">Brutto Nyttevirkning</div>
+        <div style="font-size: 1.5rem; font-weight: 900; color: #2563eb; line-height: 1.1;" class="js-res-efficiency">- %</div>
+        <div style="font-size: 0.675rem; font-weight: 700; color: #64748b;">Gross Efficiency</div>
+      </div>
+      <div>
+        <div style="font-size: 0.675rem; font-weight: 800; color: #1e40af; text-transform: uppercase;">Cykeløkonomi</div>
+        <div style="font-size: 1.5rem; font-weight: 900; color: #2563eb; line-height: 1.1;" class="js-res-economy">- kJ/L</div>
+        <div style="font-size: 0.675rem; font-weight: 700; color: #64748b;">Arbejde pr. L O₂</div>
+      </div>
+    </div>
+
+    <!-- DYNAMISK DOKUMENTERENDE EKSEMPELTEKST -->
+    <div class="mp-summary-explanation-box">
+      <strong style="color: #0f172a; display: block; margin-bottom: 0.35rem; font-size: 0.85rem;">💡 Fysiologisk opsummering:</strong>
+      <div class="js-res-summary-text">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag et billede</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+  </div>
+</div>

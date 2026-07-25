@@ -83,7 +83,7 @@ Hvis du vil have en mere præcis vurdering af din intensitet under gang, så kan
 
 ## MET-tabel for gang
 
-{% include table/table-met.html type="walking" %}
+{% include table/table-met.html type="Gang" %}
 
 ## Forbrændingen af kalorier ved gang er et estimat
 
@@ -164,7 +164,7 @@ Du indtaster din vægt, din intensitet under gang og tidsforbruget for din gåtu
 
 Her kan du udregne hvor meget energi og kalorier, du forbrænder ved at gå.
 
-{% include calculator/calculate-met.html type="walking" %}
+{% include calculator/calculate-met.html type="Gang" %}
 
 ## Eksempel fra kalorieberegneren til gang
 
