@@ -1,0 +1,438 @@
+<!-- Interaktiv Varedeklaration (Embedded Header Search & Låst Layout) -->
+<div class="vd-app" data-default-food="{{ include.food | default: 'Havregryn, uspec.' }}">
+
+  <!-- Presets (Hurtig-knapper) -->
+  <div class="vd-presets">
+    <span class="vd-preset-title">💡 Eksempler:</span>
+    <button type="button" class="vd-preset-btn" data-food="Havregryn, uspec.">🥣 Havregryn</button>
+    <button type="button" class="vd-preset-btn" data-food="Rugbrød, fuldkorn, industrifremstillet">🍞 Rugbrød</button>
+    <button type="button" class="vd-preset-btn" data-food="Sødmælk">🥛 Sødmælk</button>
+    <button type="button" class="vd-preset-btn" data-food="Chokolade, mørk">🍫 Mørk Chokolade</button>
+    <button type="button" class="vd-preset-btn" data-food="Jordbær, rå">🍓 Jordbær</button>
+  </div>
+
+  <!-- SELVE VAREDEKLARATIONEN -->
+  <div class="vd-label-container">
+    <div class="vd-card">
+      
+      <!-- Card Header med indbygget overskrift-søgning -->
+      <div class="vd-card-header">
+        <div class="vd-header-top">
+          <span class="vd-card-title">NÆRINGSINDHOLD</span>
+          <div class="vd-portion-inline">
+            pr. <input type="number" class="vd-gram-input" value="100" min="1" max="2000" /> g
+          </div>
+        </div>
+
+        <!-- Søgekasse udformet som produktets overskrift -->
+        <div class="vd-search-box">
+          <input type="text" class="vd-search-input" placeholder="🔍 Søg fødevare..." autocomplete="off" />
+          <div class="vd-dropdown" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- Næringstabel -->
+      <table class="vd-table">
+        <tbody>
+          <!-- Energi -->
+          <tr class="vd-row-main vd-row-border-thick">
+            <td><strong>Energi</strong></td>
+            <td class="text-right">
+              <strong class="vd-val-kj">0 kJ</strong> / 
+              <strong class="vd-val-kcal">0 kcal</strong>
+            </td>
+          </tr>
+
+          <!-- Fedt -->
+          <tr class="vd-row-main">
+            <td><strong>Fedt</strong></td>
+            <td class="text-right"><strong class="vd-val-fedt">0 g</strong></td>
+          </tr>
+          <tr class="vd-row-sub">
+            <td>- heraf mættede fedtsyrer</td>
+            <td class="text-right"><span class="vd-val-maettet">-</span></td>
+          </tr>
+
+          <!-- Kulhydrat -->
+          <tr class="vd-row-main vd-row-border-top">
+            <td><strong>Kulhydrat</strong></td>
+            <td class="text-right"><strong class="vd-val-kulh">0 g</strong></td>
+          </tr>
+          <tr class="vd-row-sub">
+            <td>- heraf sukkerarter</td>
+            <td class="text-right"><span class="vd-val-sukker">0 g</span></td>
+          </tr>
+
+          <!-- Kostfibre -->
+          <tr class="vd-row-main vd-row-border-top">
+            <td><strong>Kostfibre</strong></td>
+            <td class="text-right"><strong class="vd-val-fibre">0 g</strong></td>
+          </tr>
+
+          <!-- Protein -->
+          <tr class="vd-row-main vd-row-border-top">
+            <td><strong>Protein</strong></td>
+            <td class="text-right"><strong class="vd-val-protein">0 g</strong></td>
+          </tr>
+
+          <!-- Salt -->
+          <tr class="vd-row-main vd-row-border-top vd-row-border-thick">
+            <td><strong>Salt</strong> (estimeret)</td>
+            <td class="text-right"><span class="vd-val-salt">&lt; 0,1 g</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Bundlinje med 100% LÅST højde for at forhindre hop -->
+      <div class="vd-card-footer">
+        <span class="vd-food-group-display">Kategori: -</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<style>
+.vd-app {
+  margin: 2rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+.vd-app *, .vd-app *::before, .vd-app *::after { box-sizing: border-box; }
+
+/* Presets */
+.vd-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+.vd-preset-title { font-size: 0.85rem; font-weight: 600; color: #495057; }
+.vd-preset-btn {
+  background: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  padding: 5px 13px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.vd-preset-btn:hover { background: #007bff; color: #fff; border-color: #007bff; }
+
+/* Centreret & Bredere Varedeklaration Boks */
+.vd-label-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.vd-card {
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  padding: 16px 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  color: #000000;
+}
+
+/* Header sektion med integreret overskrift-søgning */
+.vd-card-header {
+  border-bottom: 3px solid #000000;
+  padding-bottom: 10px;
+  margin-bottom: 6px;
+}
+
+.vd-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.vd-card-title {
+  font-size: 1.35rem;
+  font-weight: 900;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -0.3px;
+}
+
+/* Inline Gram Input i overskriften */
+.vd-portion-inline {
+  font-size: 1.05rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.vd-gram-input {
+  width: 50px;
+  height: 26px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-align: center;
+  outline: none;
+  background: #f8f9fa;
+  padding: 0 2px;
+}
+.vd-gram-input::-webkit-outer-spin-button,
+.vd-gram-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.vd-gram-input[type=number] { -moz-appearance: textfield; }
+
+/* Søgefelt udformet som en overskriftskasse i mærkatet */
+.vd-search-box {
+  position: relative;
+  width: 100%;
+}
+
+.vd-search-input {
+  width: 100%;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #000;
+  border: 1px dashed #666;
+  border-radius: 4px;
+  outline: none;
+  background: #fafafa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.vd-search-input:hover, .vd-search-input:focus {
+  border-style: solid;
+  border-color: #007bff;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
+}
+
+/* Dropdown til søgeresultater */
+.vd-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 100;
+  margin-top: 4px;
+}
+.vd-dropdown-item {
+  padding: 9px 12px;
+  font-size: 0.90rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+.vd-dropdown-item:hover { background: #007bff; color: #fff; }
+.vd-dropdown-item small { display: block; opacity: 0.8; font-size: 0.78rem; }
+
+/* Næringstabel styling */
+.vd-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.vd-table td {
+  padding: 6px 0;
+  vertical-align: middle;
+}
+
+.text-right { text-align: right; }
+
+.vd-row-main { font-weight: 400; }
+.vd-row-sub { font-size: 0.90rem; color: #222; }
+.vd-row-sub td:first-child { padding-left: 16px; }
+
+.vd-row-border-top { border-top: 1px solid #000000; }
+.vd-row-border-thick { border-bottom: 2px solid #000000; }
+
+/* LÅST BUNDLINJE */
+.vd-card-footer {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px solid #ccc;
+  font-size: 0.82rem;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+  height: 24px;
+  line-height: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+</style>
+
+<script>
+(function() {
+  if (!window.kalorieDataPromise) {
+    function parseNum(val) {
+      if (typeof val === 'number') return val;
+      if (!val) return 0;
+      const cleaned = String(val).replace(',', '.').trim();
+      const num = parseFloat(cleaned);
+      return isNaN(num) ? 0 : num;
+    }
+
+    window.kalorieDataPromise = fetch('/assets/data/kalorietabel.json')
+      .then(res => res.json())
+      .then(rawList => {
+        return rawList
+          .filter(item => item.Navn && item.Navn !== 'Navn')
+          .map(item => ({
+            navn: item.Navn || '',
+            gruppe: item.Gruppe || '',
+            kcal: parseNum(item.kcal),
+            kj: parseNum(item.kJ),
+            protein: parseNum(item.Protein),
+            kulhydrat: parseNum(item.Kulhydrat),
+            fedt: parseNum(item.Fedt),
+            kostfibre: parseNum(item.Kostfibre),
+            sukker: parseNum(item.Sukker)
+          }));
+      });
+  }
+
+  function smartFindItem(query, dataList) {
+    if (!query) return null;
+    const q = query.toLowerCase().trim();
+
+    let found = dataList.find(d => d.navn.toLowerCase() === q);
+    if (found) return found;
+
+    found = dataList.find(d => d.navn.toLowerCase().startsWith(q));
+    if (found) return found;
+
+    try {
+      const regex = new RegExp('\\b' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      found = dataList.find(d => regex.test(d.navn));
+      if (found) return found;
+    } catch(e) {}
+
+    found = dataList.find(d => d.navn.toLowerCase().includes(q));
+    if (found) return found;
+
+    return null;
+  }
+
+  function initVaredeklaration(app) {
+    if (app.dataset.initialized === 'true') return;
+    app.dataset.initialized = 'true';
+
+    let allData = [];
+    let currentItem = null;
+
+    const searchInput = app.querySelector('.vd-search-input');
+    const dropdown = app.querySelector('.vd-dropdown');
+    const gramInput = app.querySelector('.vd-gram-input');
+    const foodGroupDisplay = app.querySelector('.vd-food-group-display');
+
+    window.kalorieDataPromise.then(data => {
+      allData = data;
+
+      const defaultFood = app.dataset.defaultFood || 'Havregryn, uspec.';
+      currentItem = smartFindItem(defaultFood, allData) || allData[0];
+
+      if (currentItem) {
+        searchInput.value = currentItem.navn;
+        updateLabel();
+      }
+    });
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase().trim();
+      if (!query) { dropdown.style.display = 'none'; return; }
+
+      const matches = allData.filter(d => d.navn.toLowerCase().includes(query)).slice(0, 7);
+      if (matches.length === 0) { dropdown.style.display = 'none'; return; }
+
+      let html = '';
+      matches.forEach(m => {
+        html += `<div class="vd-dropdown-item" data-navn="${m.navn}">
+                  <strong>${m.navn}</strong>
+                  <small>${m.gruppe} • ${m.kcal} kcal / 100g</small>
+                 </div>`;
+      });
+      dropdown.innerHTML = html;
+      dropdown.style.display = 'block';
+    });
+
+    dropdown.addEventListener('click', e => {
+      const row = e.target.closest('.vd-dropdown-item');
+      if (row) {
+        const navn = row.dataset.navn;
+        const found = allData.find(d => d.navn === navn);
+        if (found) {
+          currentItem = found;
+          searchInput.value = found.navn;
+          dropdown.style.display = 'none';
+          updateLabel();
+        }
+      }
+    });
+
+    document.addEventListener('click', e => {
+      if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+        dropdown.style.display = 'none';
+      }
+    });
+
+    gramInput.addEventListener('input', updateLabel);
+
+    app.querySelectorAll('.vd-preset-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const foodName = btn.dataset.food;
+        const found = smartFindItem(foodName, allData);
+        if (found) {
+          currentItem = found;
+          searchInput.value = found.navn;
+          updateLabel();
+        }
+      });
+    });
+
+    function updateLabel() {
+      if (!currentItem) return;
+
+      const grams = parseFloat(gramInput.value) || 100;
+      const ratio = grams / 100;
+
+      const kj = Math.round(currentItem.kj * ratio);
+      const kcal = Math.round(currentItem.kcal * ratio);
+      const fedt = (currentItem.fedt * ratio).toFixed(1).replace('.', ',');
+      const kulh = (currentItem.kulhydrat * ratio).toFixed(1).replace('.', ',');
+      const sukker = (currentItem.sukker * ratio).toFixed(1).replace('.', ',');
+      const fibre = (currentItem.kostfibre * ratio).toFixed(1).replace('.', ',');
+      const protein = (currentItem.protein * ratio).toFixed(1).replace('.', ',');
+
+      foodGroupDisplay.textContent = `Kategori: ${currentItem.gruppe}`;
+
+      app.querySelector('.vd-val-kj').textContent = `${kj} kJ`;
+      app.querySelector('.vd-val-kcal').textContent = `${kcal} kcal`;
+      app.querySelector('.vd-val-fedt').textContent = `${fedt} g`;
+      app.querySelector('.vd-val-kulh').textContent = `${kulh} g`;
+      app.querySelector('.vd-val-sukker').textContent = `${sukker} g`;
+      app.querySelector('.vd-val-fibre').textContent = `${fibre} g`;
+      app.querySelector('.vd-val-protein').textContent = `${protein} g`;
+    }
+  }
+
+  document.querySelectorAll('.vd-app').forEach(initVaredeklaration);
+})();
+</script>

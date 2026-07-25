@@ -1,0 +1,751 @@
+<!-- Proteinberegner (Finpudset UI, Top-placeret Tandhjul & Fuldbredde Inputs) -->
+<div class="protein-app" data-default-food="Kylling, kød, rå">
+  
+  <div class="pc-card">
+    <!-- Header med beskrivelse og adskillelseslinje -->
+    <div class="pc-header">
+      <h3 class="pc-title">⚡ Beregn dit daglige proteinbehov</h3>
+      <p class="pc-subtitle">Vælg din målsætning, indtast din vægt og se hvor meget mad det svarer til.</p>
+    </div>
+
+    <!-- Inputs -->
+    <div class="pc-body">
+      
+      <!-- TRIN 1: Målsætning (Aktivitetsniveau forrest) -->
+      <div class="pc-field">
+        <label class="pc-label">1. Vælg din målsætning</label>
+        
+        <!-- LUKKET TILSTAND: Forhåndsvisning med tandhjul øverst til højre -->
+        <div class="pc-selected-preview-card">
+          <div class="pc-sp-left">
+            <div class="pc-sp-title-row">
+              <strong class="pc-sp-title">Styrke & Vægttab – 1,6 g/kg</strong>
+              <span class="pc-badge-rec">⭐ Anbefalet</span>
+            </div>
+            <p class="pc-sp-desc">Optimal for de fleste (ISSN anbefaling for træning & vægttab)</p>
+          </div>
+          <button type="button" class="pc-gear-toggle-btn" title="Skift målsætning">⚙️</button>
+        </div>
+
+        <!-- ÅBEN TILSTAND: Lodret liste (Skjult som standard) -->
+        <div class="pc-options-list" style="display: none;">
+          
+          <!-- Option 1: 0.8 -->
+          <div class="pc-option-card" data-factor="0.8" data-title="Sundhedsstyrelsen – 0,8 g/kg" data-desc="Minimumsanbefaling for almindeligt helbred og stillesiddende" data-rec="false">
+            <div class="pc-opt-info">
+              <strong class="pc-opt-title">Sundhedsstyrelsen – 0,8 g/kg</strong>
+              <p class="pc-opt-desc">Minimumsanbefaling for almindeligt helbred og stillesiddende</p>
+            </div>
+            <div class="pc-opt-check">
+              <svg class="pc-check-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>
+            </div>
+          </div>
+
+          <!-- Option 2: 1.2 -->
+          <div class="pc-option-card" data-factor="1.2" data-title="Aktiv hverdag – 1,2 g/kg" data-desc="Til dig der løber, cykler eller har et aktivt arbejde" data-rec="false">
+            <div class="pc-opt-info">
+              <strong class="pc-opt-title">Aktiv hverdag – 1,2 g/kg</strong>
+              <p class="pc-opt-desc">Til dig der løber, cykler eller har et aktivt arbejde</p>
+            </div>
+            <div class="pc-opt-check">
+              <svg class="pc-check-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>
+            </div>
+          </div>
+
+          <!-- Option 3: 1.6 (Default Active & Anbefalet) -->
+          <div class="pc-option-card active" data-factor="1.6" data-title="Styrke & Vægttab – 1,6 g/kg" data-desc="Optimal for de fleste (ISSN anbefaling for træning & vægttab)" data-rec="true">
+            <div class="pc-opt-info">
+              <div class="pc-opt-title-row">
+                <strong class="pc-opt-title">Styrke & Vægttab – 1,6 g/kg</strong>
+                <span class="pc-badge-rec">⭐ Anbefalet</span>
+              </div>
+              <p class="pc-opt-desc">Optimal for de fleste (ISSN anbefaling for træning & vægttab)</p>
+            </div>
+            <div class="pc-opt-check">
+              <svg class="pc-check-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>
+            </div>
+          </div>
+
+          <!-- Option 4: 2.2 -->
+          <div class="pc-option-card" data-factor="2.2" data-title="Muskelopbygning – 2,2 g/kg" data-desc="Maksimal stimulering af muskeltilvækst ved hård styrketræning" data-rec="false">
+            <div class="pc-opt-info">
+              <strong class="pc-opt-title">Muskelopbygning – 2,2 g/kg</strong>
+              <p class="pc-opt-desc">Maksimal stimulering af muskeltilvækst ved hård styrketræning</p>
+            </div>
+            <div class="pc-opt-check">
+              <svg class="pc-check-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-6"/></svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- TRIN 2: Inputs for Kropsvægt og Protein/kg (Deler hele bredden 50/50) -->
+      <div class="pc-field">
+        <label class="pc-label">2. Indtast kropsvægt & proteinindstilling</label>
+        <div class="pc-weight-calc-row">
+          
+          <div class="pc-calc-box">
+            <span class="pc-sublabel">Kropsvægt</span>
+            <div class="pc-input-wrapper">
+              <input type="number" class="pc-weight-input" value="80" min="30" max="250" placeholder="Fx 80" />
+              <span class="pc-unit">kg</span>
+            </div>
+          </div>
+
+          <div class="pc-calc-box">
+            <span class="pc-sublabel">Protein / kg</span>
+            <div class="pc-input-wrapper">
+              <input type="number" class="pc-factor-input" value="1.6" step="0.1" min="0.5" max="3.5" />
+              <span class="pc-unit">g/kg</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TRIN 3: Fødevare Sammenligning (1-Linje Presets) -->
+      <div class="pc-field">
+        <label class="pc-label">3. Sammenlign med fødevare</label>
+        <div class="pc-search-box">
+          <input type="text" class="pc-search-input" placeholder="🔍 Søg fødevare..." autocomplete="off" />
+          <div class="pc-dropdown" style="display:none;"></div>
+        </div>
+        
+        <div class="pc-food-presets-singleline">
+          <button type="button" class="pc-food-btn" data-alias="kylling">🍗 Kylling</button>
+          <button type="button" class="pc-food-btn" data-alias="æg">🥚 Æg</button>
+          <button type="button" class="pc-food-btn" data-alias="skyr">🥣 Skyr</button>
+          <button type="button" class="pc-food-btn" data-alias="oksekød">🥩 Oksekød</button>
+          <button type="button" class="pc-food-btn" data-alias="bønner">🫘 Bønner</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TRIN 4: 50/50 Resultatkort -->
+    <div class="pc-result-box">
+      <!-- Venstre Boks (50%) -->
+      <div class="pc-res-col">
+        <span class="pc-res-label">DAGLIGT PROTEINBEHOV</span>
+        <div class="pc-res-number">
+          <span class="pc-val-protein">128</span> <small>g</small>
+        </div>
+        <div class="pc-res-subtext">protein / dag</div>
+      </div>
+
+      <div class="pc-res-divider"></div>
+
+      <!-- Højre Boks (50%) -->
+      <div class="pc-res-col">
+        <span class="pc-res-label">SVARER TIL I MÅLTID</span>
+        <div class="pc-res-food-wrapper">
+          <div class="pc-res-food-main">
+            <div class="pc-res-number">
+              <span class="pc-val-food-gram">600</span> <small>g</small>
+            </div>
+            <div class="pc-res-food-title pc-val-food-name">Kylling, kød, rå</div>
+          </div>
+          
+          <div class="pc-res-egg-side">
+            <span class="pc-egg-emoji">🥚</span>
+            <div class="pc-egg-text"><strong class="pc-val-eggs">20</strong> æg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<style>
+.protein-app {
+  margin: 2rem 0;
+  font-family: inherit;
+  box-sizing: border-box;
+  width: 100%;
+}
+.protein-app *, .protein-app *::before, .protein-app *::after { box-sizing: border-box; }
+
+.pc-card {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+}
+
+/* Header & Adskillelseslinje */
+.pc-header {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e9ecef;
+}
+.pc-title { font-size: 1.25rem; font-weight: 800; color: #212529; margin: 0 0 4px 0; }
+.pc-subtitle {
+  font-size: 0.84rem;
+  color: #6c757d;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.pc-body { display: flex; flex-direction: column; gap: 20px; margin-bottom: 24px; }
+.pc-field { display: flex; flex-direction: column; gap: 8px; }
+
+.pc-label { font-size: 0.78rem; font-weight: 700; color: #495057; text-transform: uppercase; letter-spacing: 0.4px; }
+.pc-sublabel { font-size: 0.75rem; font-weight: 600; color: #6c757d; margin-bottom: 4px; display: block; }
+
+/* TRIN 1: Kompakt Forhåndsvisning Boks (Lukket Tilstand) */
+.pc-selected-preview-card {
+  background: #f0f6ff;
+  border: 1.5px solid #0066cc;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: flex-start; /* Tandhjul øverst i højre hjørne */
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.pc-selected-preview-card:hover { background: #e6f0ff; }
+
+.pc-sp-left { flex: 1; }
+.pc-sp-title-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pc-sp-title { font-size: 0.92rem; font-weight: 800; color: #003366; }
+.pc-sp-desc { font-size: 0.78rem; color: #4a607a; margin: 2px 0 0 0; line-height: 1.3; }
+
+.pc-badge-rec {
+  background: #dbeafe;
+  color: #1e40af;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
+}
+
+/* Tandhjul placeret øverst til højre */
+.pc-gear-toggle-btn {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.90rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  flex-shrink: 0;
+  margin-left: 12px;
+  align-self: flex-start; /* Helt oppe i hjørnet */
+  transition: all 0.15s ease;
+}
+.pc-gear-toggle-btn:hover { background: #f8f9fa; border-color: #0066cc; }
+
+/* TRIN 1: Lodret Liste af Kort (Åben Tilstand) */
+.pc-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.pc-option-card {
+  background: #ffffff;
+  border: 1.5px solid #dbe3ed;
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.pc-option-card:hover {
+  border-color: #0066cc;
+  background: #f8faff;
+}
+
+.pc-option-card.active {
+  background: #f0f6ff;
+  border: 2px solid #0066cc;
+}
+
+.pc-opt-info { flex: 1; padding-right: 12px; }
+.pc-opt-title-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pc-opt-title { font-size: 0.90rem; font-weight: 800; color: #212529; }
+.pc-option-card.active .pc-opt-title { color: #003366; }
+.pc-opt-desc { font-size: 0.76rem; color: #6c757d; margin: 2px 0 0 0; line-height: 1.3; }
+
+/* Flueben Ikon Cirkel */
+.pc-opt-check { flex-shrink: 0; width: 22px; height: 22px; }
+.pc-check-icon { width: 100%; height: 100%; }
+.pc-check-icon circle { fill: #e9ecef; transition: fill 0.15s; }
+.pc-check-icon path { fill: none; stroke: #ffffff; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+
+.pc-option-card.active .pc-check-icon circle { fill: #0066cc; }
+
+/* TRIN 2: Inputs for Kropsvægt og Protein (Deler hele bredden 50/50) */
+.pc-weight-calc-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: 100%;
+}
+
+.pc-calc-box { 
+  display: flex; 
+  flex-direction: column; 
+  flex: 1; /* Deler rækken ligeligt */
+  width: 50%;
+}
+
+.pc-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 0 10px;
+  background: #fff;
+  height: 38px;
+  width: 100%; /* Udfylder hele pc-calc-box */
+}
+
+.pc-weight-input, .pc-factor-input {
+  width: 100%;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+  outline: none;
+  background: transparent;
+}
+.pc-weight-input::-webkit-outer-spin-button,
+.pc-weight-input::-webkit-inner-spin-button,
+.pc-factor-input::-webkit-outer-spin-button,
+.pc-factor-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.pc-weight-input[type=number], .pc-factor-input[type=number] { -moz-appearance: textfield; }
+
+.pc-unit { font-size: 0.82rem; color: #6c757d; font-weight: 600; flex-shrink: 0; margin-left: 2px; }
+
+/* TRIN 3: Fødevare Knapper (1 Linje) */
+.pc-food-presets-singleline {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  width: 100%;
+  margin-top: 4px;
+}
+.pc-food-btn {
+  flex: 1 1 0px;
+  min-width: 0;
+  background: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 8px 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pc-food-btn:hover { background: #007bff; color: #fff; border-color: #007bff; }
+
+/* Søgefelt */
+.pc-search-box { position: relative; width: 100%; }
+.pc-search-input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 0.92rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  outline: none;
+  background: #fff;
+}
+.pc-search-input:focus { border-color: #007bff; box-shadow: 0 0 0 3px rgba(0,123,255,0.12); }
+
+.pc-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 100;
+  margin-top: 4px;
+}
+.pc-dropdown-item {
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f3f5;
+}
+.pc-dropdown-item:hover { background: #007bff; color: #fff; }
+.pc-dropdown-item small { display: block; opacity: 0.75; font-size: 0.75rem; }
+
+/* TRIN 4: 50/50 Resultatkort */
+.pc-result-box {
+  background: #1e4263;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 22px 24px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .pc-result-box { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .pc-res-divider { display: none; }
+  .pc-food-presets-singleline { overflow-x: auto; }
+}
+
+.pc-res-col { 
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.pc-res-label { 
+  font-size: 0.72rem; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  letter-spacing: 0.6px; 
+  opacity: 0.80; 
+  display: block; 
+  margin-bottom: 6px; 
+  white-space: nowrap;
+}
+
+.pc-res-number { display: flex; align-items: baseline; gap: 4px; line-height: 1; }
+.pc-val-protein, .pc-val-food-gram { font-size: 2.4rem; font-weight: 900; color: #ffffff; }
+.pc-res-number small { font-size: 1.1rem; font-weight: 700; opacity: 0.9; }
+
+.pc-res-subtext { 
+  font-size: 0.88rem; 
+  font-weight: 500; 
+  opacity: 0.85; 
+  margin-top: 4px; 
+  line-height: 1.3;
+  min-height: 2.6rem;
+}
+
+.pc-res-food-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.pc-res-food-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.pc-res-food-title { 
+  font-size: 0.92rem; 
+  font-weight: 600; 
+  opacity: 0.95; 
+  margin-top: 4px; 
+  line-height: 1.3;
+  min-height: 2.6rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.pc-res-egg-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  width: 60px;
+}
+
+.pc-egg-emoji { font-size: 1.8rem; line-height: 1; }
+.pc-egg-text {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #ffc107;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.pc-res-divider { width: 1px; background: rgba(255,255,255,0.2); align-self: stretch; }
+</style>
+
+<script>
+(function() {
+  if (!window.kalorieDataPromise) {
+    function parseNum(val) {
+      if (typeof val === 'number') return val;
+      if (!val) return 0;
+      const cleaned = String(val).replace(',', '.').trim();
+      const num = parseFloat(cleaned);
+      return isNaN(num) ? 0 : num;
+    }
+
+    window.kalorieDataPromise = fetch('/assets/data/kalorietabel.json')
+      .then(res => res.json())
+      .then(rawList => {
+        return rawList
+          .filter(item => item.Navn && item.Navn !== 'Navn')
+          .map(item => ({
+            navn: item.Navn || '',
+            gruppe: item.Gruppe || '',
+            kcal: parseNum(item.kcal),
+            protein: parseNum(item.Protein)
+          }));
+      });
+  }
+
+  const aliasMap = {
+    'kylling': 'Kylling, kød, rå',
+    'æg': 'Friske æg',
+    'skyr': 'Skyr',
+    'oksekød': 'Oksekød, hakket, 10-15% fedt, rå',
+    'bønner': 'Bælgplanter'
+  };
+
+  function smartFindItem(query, dataList) {
+    if (!query) return null;
+    const q = query.toLowerCase().trim();
+
+    if (aliasMap[q]) {
+      const aliasMatch = dataList.find(d => d.navn.toLowerCase().includes(aliasMap[q].toLowerCase()) || d.gruppe.toLowerCase().includes(aliasMap[q].toLowerCase()));
+      if (aliasMatch) return aliasMatch;
+    }
+
+    let found = dataList.find(d => d.navn.toLowerCase() === q);
+    if (found) return found;
+
+    found = dataList.find(d => d.navn.toLowerCase().startsWith(q));
+    if (found) return found;
+
+    try {
+      const regex = new RegExp('\\b' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      found = dataList.find(d => regex.test(d.navn) || regex.test(d.gruppe));
+      if (found) return found;
+    } catch(e) {}
+
+    found = dataList.find(d => d.navn.toLowerCase().includes(q) || d.gruppe.toLowerCase().includes(q));
+    if (found) return found;
+
+    return null;
+  }
+
+  function initProteinBeregn(app) {
+    if (app.dataset.initialized === 'true') return;
+    app.dataset.initialized = 'true';
+
+    let allData = [];
+    let currentFood = null;
+
+    const weightInput = app.querySelector('.pc-weight-input');
+    const factorInput = app.querySelector('.pc-factor-input');
+    const searchInput = app.querySelector('.pc-search-input');
+    const dropdown = app.querySelector('.pc-dropdown');
+
+    const previewCard = app.querySelector('.pc-selected-preview-card');
+    const gearBtn = app.querySelector('.pc-gear-toggle-btn');
+    const optionsList = app.querySelector('.pc-options-list');
+
+    const spTitle = app.querySelector('.pc-sp-title');
+    const spDesc = app.querySelector('.pc-sp-desc');
+    const spTitleRow = app.querySelector('.pc-sp-title-row');
+
+    const valProtein = app.querySelector('.pc-val-protein');
+    const valFoodGram = app.querySelector('.pc-val-food-gram');
+    const valFoodName = app.querySelector('.pc-val-food-name');
+    const valEggs = app.querySelector('.pc-val-eggs');
+
+    window.kalorieDataPromise.then(data => {
+      allData = data;
+
+      const defaultFood = app.dataset.defaultFood || 'Kylling, kød, rå';
+      currentFood = smartFindItem(defaultFood, allData) || allData[0];
+
+      if (currentFood) {
+        searchInput.value = currentFood.navn;
+        calculate();
+      }
+    });
+
+    weightInput.addEventListener('input', calculate);
+    
+    // Manuel ændring i factor-feltet
+    factorInput.addEventListener('input', () => {
+      const val = parseFloat(factorInput.value);
+      app.querySelectorAll('.pc-option-card').forEach(card => {
+        if (parseFloat(card.dataset.factor) === val) {
+          selectOptionCard(card);
+        } else {
+          card.classList.remove('active');
+        }
+      });
+      calculate();
+    });
+
+    // Åbn/Luk options ved klik på tandhjul eller forhåndsvisningskort
+    function toggleOptions() {
+      const isHidden = optionsList.style.display === 'none';
+      if (isHidden) {
+        optionsList.style.display = 'flex';
+        previewCard.style.display = 'none';
+      } else {
+        optionsList.style.display = 'none';
+        previewCard.style.display = 'flex';
+      }
+    }
+
+    gearBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleOptions();
+    });
+
+    previewCard.addEventListener('click', toggleOptions);
+
+    // Vælg et kort i den åbne liste
+    function selectOptionCard(card) {
+      app.querySelectorAll('.pc-option-card').forEach(c => c.classList.remove('active'));
+      card.classList.add('active');
+
+      const factor = card.dataset.factor;
+      const title = card.dataset.title;
+      const desc = card.dataset.desc;
+      const isRec = card.dataset.rec === 'true';
+
+      factorInput.value = factor;
+
+      // Opdater den lukkede forhåndsvisningsboks
+      spTitle.textContent = title;
+      spDesc.textContent = desc;
+
+      // Fjern/tilføj Anbefalet badge i forhåndsvisningsboksen
+      let existingBadge = spTitleRow.querySelector('.pc-badge-rec');
+      if (isRec) {
+        if (!existingBadge) {
+          const badge = document.createElement('span');
+          badge.className = 'pc-badge-rec';
+          badge.textContent = '⭐ Anbefalet';
+          spTitleRow.appendChild(badge);
+        }
+      } else {
+        if (existingBadge) existingBadge.remove();
+      }
+
+      // Luk listen og vis forhåndsvisningen igen
+      optionsList.style.display = 'none';
+      previewCard.style.display = 'flex';
+
+      calculate();
+    }
+
+    app.querySelectorAll('.pc-option-card').forEach(card => {
+      card.addEventListener('click', () => selectOptionCard(card));
+    });
+
+    // Fødevare-knapper (1 linje)
+    app.querySelectorAll('.pc-food-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const aliasKey = btn.dataset.alias;
+        const found = smartFindItem(aliasKey, allData);
+        if (found) {
+          currentFood = found;
+          searchInput.value = found.navn;
+          calculate();
+        }
+      });
+    });
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase().trim();
+      if (!query) { dropdown.style.display = 'none'; return; }
+
+      const matches = allData.filter(d => d.navn.toLowerCase().includes(query) || d.gruppe.toLowerCase().includes(query)).slice(0, 6);
+      if (matches.length === 0) { dropdown.style.display = 'none'; return; }
+
+      let html = '';
+      matches.forEach(m => {
+        html += `<div class="pc-dropdown-item" data-navn="${m.navn}">
+                  <strong>${m.navn}</strong>
+                  <small>${m.gruppe} • ${m.protein}g protein / 100g</small>
+                 </div>`;
+      });
+      dropdown.innerHTML = html;
+      dropdown.style.display = 'block';
+    });
+
+    dropdown.addEventListener('click', e => {
+      const row = e.target.closest('.pc-dropdown-item');
+      if (row) {
+        const navn = row.dataset.navn;
+        const found = allData.find(d => d.navn === navn);
+        if (found) {
+          currentFood = found;
+          searchInput.value = found.navn;
+          dropdown.style.display = 'none';
+          calculate();
+        }
+      }
+    });
+
+    document.addEventListener('click', e => {
+      if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+        dropdown.style.display = 'none';
+      }
+    });
+
+    function calculate() {
+      const weight = parseFloat(weightInput.value) || 0;
+      const factor = parseFloat(factorInput.value) || 0;
+
+      const totalProtein = Math.round(weight * factor);
+      valProtein.textContent = totalProtein;
+
+      if (currentFood && currentFood.protein > 0) {
+        const neededGrams = Math.round((totalProtein / currentFood.protein) * 100);
+        valFoodGram.textContent = neededGrams;
+        valFoodName.textContent = currentFood.navn;
+      } else {
+        valFoodGram.textContent = '0';
+        valFoodName.textContent = '-';
+      }
+
+      // Æg-beregning (~6.3g protein pr. æg)
+      const approxEggs = Math.round(totalProtein / 6.3);
+      valEggs.textContent = approxEggs;
+    }
+  }
+
+  document.querySelectorAll('.protein-app').forEach(initProteinBeregn);
+})();
+</script>

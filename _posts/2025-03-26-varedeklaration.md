@@ -58,6 +58,8 @@ Du kan se en god gennemgang i denne video fra [Maxer](https://maxer.dk/videoer/s
 
 En varedeklaration er den information, der findes på emballagen af fødevarer, og som giver forbrugeren indsigt i produktets indhold og næringsværdi. Deklarationen er lovpligtig og skal indeholde oplysninger om ingredienser, næringsindhold, allergener og eventuelle tilsætningsstoffer.
 
+{% include components/varedeklaration.html %}
+
 ## Hvorfor er det godt at kunne læse varedeklarationen?
 
 Formålet med varedeklarationen er at hjælpe forbrugeren med at træffe informerede valg ved at give gennemsigtighed om, hvad et produkt indeholder.
