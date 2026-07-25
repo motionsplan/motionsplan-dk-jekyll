@@ -69,9 +69,27 @@
     {% assign og_layout_num = page.og_layout | default: "1" %}
     {% assign og_domain = site.url | remove: 'https://' | remove: 'http://' %}
 
-    {% comment %} 3. Byg preview-URL {% endcomment %}
-    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title | url_encode }}&excerpt={{ og_excerpt | url_encode }}&author_name={{ og_author_name | url_encode }}&author_img={{ og_author_img | url_encode }}&post_img={{ og_post_img | url_encode }}&logo={{ og_logo | url_encode }}&date={{ og_date | url_encode }}&domain={{ og_domain | url_encode }}&layout={{ og_layout_num }}{% endcapture %}
-    
+    {% comment %} Calculate if modified within last 30 days {% endcomment %}
+    {% assign now_seconds = site.time | date: "%s" | plus: 0 %}
+    {% assign post_date = page.last_modified_at | default: page.date %}
+    {% assign post_seconds = post_date | date: "%s" | plus: 0 %}
+    {% assign diff_seconds = now_seconds | minus: post_seconds %}
+    {% assign thirty_days_in_seconds = 2592000 %}
+
+    {% assign og_badge = "" %}
+    {% if diff_seconds <= thirty_days_in_seconds and diff_seconds >= 0 %}
+      {% if page.last_modified_at %}
+        {% assign og_badge = "OPDATERET" %}
+      {% else %}
+        {% assign og_badge = "NY" %}
+      {% endif %}
+    {% endif %}
+
+    {% assign og_v = 2 | default: 1 %}
+
+    {% comment %} Send 'badge' med i din raw_preview_url {% endcomment %}
+    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title }}&excerpt={{ og_excerpt }}&author_name={{ og_author_name }}&author_img={{ og_author_img }}&post_img={{ og_post_img }}&logo={{ og_logo }}&date={{ og_date }}&domain={{ og_domain }}&badge={{ og_badge | url_encode }}&layout={{ og_layout_num }}v={{ og_version }}{% endcapture %}    
+
     {% comment %} 4. Send til 11ty screenshot service {% endcomment %}
     {% assign encoded_preview_url = raw_preview_url | url_encode %}
     {% assign og_image = "https://v1.screenshot.11ty.dev/" | append: encoded_preview_url | append: "/opengraph/" %}

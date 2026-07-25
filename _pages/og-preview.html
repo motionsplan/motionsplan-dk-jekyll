@@ -27,8 +27,31 @@ permalink: /og-preview/
       position: relative;
     }
 
+    /* Badges for 'NY' og 'OPDATERET' */
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #10b981; /* Grøn for NY */
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 8px 18px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+
+    .badge-pill.OPDATERET {
+      background: #2563eb; /* Blå for OPDATERET */
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+    }
+
     /* ============================================================
-       LAYOUT 1: DeepakNess Minimalist (Med Motionsplan Logo)
+       LAYOUT 1: DeepakNess Minimalist
        ============================================================ */
     .layout-1 {
       width: 1200px;
@@ -66,7 +89,7 @@ permalink: /og-preview/
       font-size: 28px;
       font-weight: 400;
       color: #475569;
-      margin-top: 28px;
+      margin-top: 24px;
       line-height: 1.5;
       max-width: 1020px;
     }
@@ -120,7 +143,7 @@ permalink: /og-preview/
     .layout-1 .domain-box {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       font-size: 25px;
       font-weight: 700;
       color: #475569;
@@ -175,13 +198,16 @@ permalink: /og-preview/
       color: #64748b;
     }
 
+    .layout-2 .middle-content {
+      margin: auto 0;
+    }
+
     .layout-2 .title {
       font-size: 52px;
       font-weight: 800;
       color: #1e293b;
       line-height: 1.18;
       max-width: 600px;
-      margin: auto 0;
     }
 
     .layout-2 .author-box {
@@ -286,29 +312,40 @@ permalink: /og-preview/
   <script>
     const params = new URLSearchParams(window.location.search);
     
-    function getParam(key) {
-      const val = params.get(key) || '';
+    // Sikker dekodning af parametre (håndterer dobbelt-encoding)
+    function safeDecode(val) {
+      if (!val) return '';
+      let decoded = val;
       try {
-        return decodeURIComponent(val);
+        // Dekoder op til 2 gange hvis URL'en er dobbelt-encoded af 11ty
+        if (decoded.includes('%3A') || decoded.includes('%2F')) {
+          decoded = decodeURIComponent(decoded);
+        }
+        if (decoded.includes('%3A') || decoded.includes('%2F')) {
+          decoded = decodeURIComponent(decoded);
+        }
       } catch (e) {
-        return val;
+        console.error('Decode error', e);
       }
+      return decoded;
     }
 
-    const title = getParam('title');
-    const excerpt = getParam('excerpt');
-    const authorName = getParam('author_name') || 'Lars Olesen';
-    let authorImg = getParam('author_img');
-    let postImg = getParam('post_img');
-    let logo = getParam('logo') || '/android-chrome-192x192.png';
-    const date = getParam('date');
-    const layout = getParam('layout') || '2';
+    const title = safeDecode(params.get('title'));
+    const excerpt = safeDecode(params.get('excerpt'));
+    const authorName = safeDecode(params.get('author_name')) || 'Lars Olesen';
+    let authorImg = safeDecode(params.get('author_img'));
+    let postImg = safeDecode(params.get('post_img'));
+    let logo = safeDecode(params.get('logo')) || '/android-chrome-192x192.png';
+    const date = safeDecode(params.get('date'));
+    const badge = safeDecode(params.get('badge'));
+    const layout = safeDecode(params.get('layout')) || '1';
 
-    if (authorImg.includes('%3A')) authorImg = decodeURIComponent(authorImg);
-    if (postImg.includes('%3A')) postImg = decodeURIComponent(postImg);
-    if (logo.includes('%3A')) logo = decodeURIComponent(logo);
+    // FALLBACK: Hvis postImg mangler/er tom, brug logoet i stedet for at lave en tom url('')
+    if (!postImg || postImg.trim() === '') {
+      postImg = logo;
+    }
 
-    let domain = getParam('domain') || 'motionsplan.dk';
+    let domain = safeDecode(params.get('domain')) || 'motionsplan.dk';
     domain = domain.replace(/^https?:\/\//, '').replace(/:[0-9]+/, '').replace(/\/$/, '');
     if (domain.includes('localhost') || domain.includes('127.0.0.1')) {
       domain = 'motionsplan.dk';
@@ -321,12 +358,15 @@ permalink: /og-preview/
         <div class="layout-2">
           <div class="left-panel">
             <div class="brand-header">
-              <img class="site-logo" src="${logo}" alt="">
+              <img class="site-logo" src="${logo}" alt="" onerror="this.style.opacity='0'">
               <span class="site-domain">${domain}</span>
             </div>
-            <h1 class="title">${title}</h1>
+            <div class="middle-content">
+              ${badge ? `<div><span class="badge-pill ${badge}">🔥 ${badge}</span></div>` : ''}
+              <h1 class="title">${title}</h1>
+            </div>
             <div class="author-box">
-              ${authorImg ? `<img class="avatar" src="${authorImg}" alt="">` : ''}
+              ${authorImg ? `<img class="avatar" src="${authorImg}" alt="" onerror="this.style.opacity='0'">` : ''}
               <span class="author-name">${authorName}</span>
             </div>
           </div>
@@ -337,11 +377,12 @@ permalink: /og-preview/
       container.innerHTML = `
         <div class="layout-3" style="background-image: url('${postImg}');">
           <div class="content-top">
+            ${badge ? `<div><span class="badge-pill ${badge}">🔥 ${badge}</span></div>` : ''}
             <h1 class="title"><span>${title}</span></h1>
           </div>
           <div class="footer-bar">
             <div class="badge">
-              <img src="${logo}" alt="">
+              <img src="${logo}" alt="" onerror="this.style.opacity='0'">
               <span>${domain}</span>
             </div>
             ${date ? `<div class="badge"><span>${date}</span></div>` : ''}
@@ -349,10 +390,11 @@ permalink: /og-preview/
         </div>
       `;
     } else {
-      // LAYOUT 1: DeepakNess Minimalist med eget logo i bund
+      // LAYOUT 1
       container.innerHTML = `
         <div class="layout-1">
           <div>
+            ${badge ? `<div><span class="badge-pill ${badge}">🔥 ${badge}</span></div>` : ''}
             <h1 class="title">${title}</h1>
             ${excerpt ? `<p class="excerpt">${excerpt}</p>` : ''}
           </div>
@@ -365,7 +407,7 @@ permalink: /og-preview/
               <span class="author-name">${authorName}</span>
             </div>
             <div class="domain-box">
-              <img src="${logo}" alt="">
+              <img src="${logo}" alt="" onerror="this.style.opacity='0'">
               <span>${domain}</span>
             </div>
           </div>
