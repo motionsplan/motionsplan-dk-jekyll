@@ -48,15 +48,35 @@
 
 {% comment %} begin custom og images {% endcomment %}
 {% unless page.header.og_image %}
-{% if page.layout == 'single' %}
-{% assign size = page.permalink.size | minus: 1 %}
-{% capture path %}{{ page.permalink | slice: 0, size | remove_first: "/" | replace: "/", "-" | append: ".jpg" | prepend: "/assets/images/og/generated/" }}{% endcapture %}
-{% assign file_exists = site.static_files | where: "path", path %}
+  {% if page.layout == 'single' or page.layout == 'post' %}
+    
+    {% comment %} 1. Slå forfatter op i _data/authors.yml (ligesom generate-image.js) {% endcomment %}
+    {% assign author_key = page.author | default: "lsolesen" %}
+    {% assign author_data = site.data.authors[author_key] %}
 
-{% if file_exists.size != 0 %}
-  {% assign og_image = path %}
-{% endif %}
-{% endif %}
+    {% assign og_author_name = author_data.name | default: site.author.name | default: "Lars Olesen" %}
+    {% assign og_author_img = author_data.avatar | default: site.author.avatar %}
+    {% if og_author_img %}
+      {% assign og_author_img = og_author_img | absolute_url %}
+    {% endif %}
+
+    {% comment %} 2. Hent titel, beskrivelse/excerpt og featured image {% endcomment %}
+    {% assign og_title = page.seo_title | default: page.title %}
+    {% assign og_excerpt = page.description | default: page.excerpt | strip_html | strip_newlines | replace: "  ", " " | truncate: 220 %}
+    {% assign og_post_img = page.header.featured_image | default: page.header.image | default: page.header.overlay_image | default: page.header.teaser | default: "https://images.unsplash.com/photo-1535743686920-55e4145369b9?w=1200&q=80" | absolute_url %}
+    {% assign og_logo = "/android-chrome-192x192.png" | absolute_url %}
+    {% assign og_date = page.last_modified_at | default: page.date | date: "%d. %b %Y" %}
+    {% assign og_layout_num = page.og_layout | default: "1" %}
+    {% assign og_domain = site.url | remove: 'https://' | remove: 'http://' %}
+
+    {% comment %} 3. Byg preview-URL {% endcomment %}
+    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title | url_encode }}&excerpt={{ og_excerpt | url_encode }}&author_name={{ og_author_name | url_encode }}&author_img={{ og_author_img | url_encode }}&post_img={{ og_post_img | url_encode }}&logo={{ og_logo | url_encode }}&date={{ og_date | url_encode }}&domain={{ og_domain | url_encode }}&layout={{ og_layout_num }}{% endcapture %}
+    
+    {% comment %} 4. Send til 11ty screenshot service {% endcomment %}
+    {% assign encoded_preview_url = raw_preview_url | url_encode %}
+    {% assign og_image = "https://v1.screenshot.11ty.dev/" | append: encoded_preview_url | append: "/opengraph/" %}
+    
+  {% endif %}
 {% endunless %}
 {% comment %} end custom og images {% endcomment %}
 
