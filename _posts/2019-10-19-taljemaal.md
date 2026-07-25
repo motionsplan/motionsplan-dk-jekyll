@@ -1,7 +1,7 @@
 ---
 title: 'Taljemål, Talje-Højde & Talje-Hofte Ratio: Mål din sundhed'
 seo_title: 'Taljemål & Ratios: Beregn din livvidde, WHR og talje-højde-forhold'
-description: 'Tag dit taljemål og beregn både ren livvidde, talje-hofte-ratio (WHR) og talje-højde-ratio. Få den fulde guide med videoer, skemaer og videnskabelige grænseværdier.'
+description: 'Beregn din talje-hofte-ratio (WHR) og talje-højde-ratio. Indtast dit taljemål, få en præcis vurdering ud fra videnskabelige grænseværdier og skemaer.'
 excerpt: 'Dit taljemål og dets forhold til din højde og hofte siger meget om din sundhed og risikoprofil. Brug vores samlede beregner-dashboard og følg de grundige måle-guides.'
 permalink: /taljemaal/
 redirect_from:
