@@ -1,63 +1,59 @@
 ---
-permalink: /skridtlaengde-gang/
 title: Sådan måler du din skridtlængde præcist
+permalink: /skridtlaengde-gang/
 seo_title: 'Skridtlængde: Sådan finder du dit antal skridt per km'
 description: Find din skridtlængde nemt – mål den selv eller brug vores beregner til at se dine skridt per kilometer.
-excerpt: Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til
-  at finde ud af, hvor mange skridt du tager per kilometer.
+excerpt: Vil du kende din præcise skridtlængde? Lær, hvordan du måler den med en nem metode eller bruger vores beregner til at finde ud af, hvor mange skridt du tager per kilometer.
 header:
   teaser: /assets/images/unsplash/photo-1530902815270-606a8f82b563.jpg
-  credit: https://images.unsplash.com/photo-1530902815270-606a8f82b563
+  credit: "https://images.unsplash.com/photo-1530902815270-606a8f82b563"
   caption: Hvor lang er din skridtlængde?
-category:
-- Træning
-- Gang
+categories:
+  - Træning
+  - Gang
 tags:
-- beregner
-- sundhed
-- skridt
-- gang
-- gangtest
-- populær
+  - beregner
+  - sundhed
+  - skridt
+  - gang
+  - gangtest
+  - populær
 meta:
   name: Find din skridtlængde
   equipment: ingen
   measures: skridt og distance
   type: gang
-popular: 'true'
+popular: true
+last_modified_at: '2026-07-05T08:12:14.000Z'
+toc: true
 feature_row:
-- image_path: https://imgcdn.saxo.com/_9788702259803/0x500
-  alt: Gå-bogen af Bente Klarlund
-  title: Gå-bogen af Bente Klarlund
-  excerpt: Med _Gå-bogen_ får du en klog og lærerig bog, der lærer dig om alle fordelene ved at gå. Bente Klarlund Pedersen
-    står bag værket, der handler om at gå.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-bogen_bente-klarlund-pedersen_indbundet_9788702259803
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-- image_path: https://imgcdn.saxo.com/_9788790524814/0x500
-  alt: Gå - eller kunsten at leve et vildt og poetisk liv
-  title: Gå - eller kunsten at leve et vildt og poetisk liv
-  excerpt: Tomas Espedal starter med at gå, der hvor han bor, han vandrer i Bergens gader, ud på landet, besøger venner, forfattere
-    og litterater. Himlen er hans tag, og mens han går, fører han samtaler med filosoffer og digtere som Rousseau, Wordsworth,
-    Baudelaire, Kierkegaard og Nietzsche.
-  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-eller-kunsten-at-leve-et-vildt-og-poetisk-liv_tomas-espedal_haeftet_9788790524814
-  btn_label: Tjek prisen
-  btn_class: btn--success
-  rel: sponsored nofollow noopener
-last_modified_at: '2025-02-05T08:12:14.000Z'
-toc: 'true'
+  - image_path: https://imgcdn.saxo.com/_9788702259803/0x500
+    alt: Gå-bogen af Bente Klarlund
+    title: Gå-bogen af Bente Klarlund
+    excerpt: "Med _Gå-bogen_ får du en klog og lærerig bog, der lærer dig om alle fordelene ved at gå. Bente Klarlund Pedersen står bag værket, der handler om at gå."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-bogen_bente-klarlund-pedersen_indbundet_9788702259803"
+    btn_label: Tjek prisen
+    btn_class: btn--success
+    rel: sponsored nofollow noopener
+  - image_path: https://imgcdn.saxo.com/_9788790524814/0x500
+    alt: Gå - eller kunsten at leve et vildt og poetisk liv
+    title: Gå - eller kunsten at leve et vildt og poetisk liv
+    excerpt: "Tomas Espedal starter med at gå, der hvor han bor, han vandrer i Bergens gader, ud på landet, besøger venner, forfattere og litterater. Himlen er hans tag, og mens han går, fører han samtaler med filosoffer og digtere som Rousseau, Wordsworth, Baudelaire, Kierkegaard og Nietzsche."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/gaa-eller-kunsten-at-leve-et-vildt-og-poetisk-liv_tomas-espedal_haeftet_9788790524814"
+    btn_label: Tjek prisen
+    btn_class: btn--success
+    rel: sponsored nofollow noopener
 faq:
-- question: Hvor mange skridt er 1 km?
-  answer: Det afhænger af din skridtlængde! Hvis du regner i almindelige hverdags-skridt (trin), tager mænd med en gennemsnitlig skridtlængde på 79 cm ca. 1.266 skridt på 1 km. Kvinder med en gennemsnitlig skridtlængde på 66 cm tager ca. 1.515 skridt på 1 km. Regner du i hele gangcyklusser (2 trin = 132-158 cm), er tallet ca. 633-757.
-- question: Hvor mange km er 10.000 skridt?
-  answer: 10.000 hverdags-skridt svarer i gennemsnit til ca. 7,9 km for mænd (skridtlængde på 79 cm) og ca. 6,6 km for kvinder (skridtlængde på 66 cm). Du kan bruge vores beregner her på siden til at taste dit eget præcise tal ind.
-- question: Hvad er forskellen mellem skridtlængde og trinlængde?
-  answer: I daglig tale kalder vi ofte et enkelt trin for et skridt. I ganganalyse er der dog forskel: Et **trin** (step length) er afstanden fra den ene fod til den anden. En **skridtlængde** (stride length) – også kaldet en **gangcyklus** – er afstanden fra den ene fod, indtil den samme fod rammer jorden igen (altså 2 trin). I vores beregner tager vi udgangspunkt i de enkelte trin, da det er det, skridttællere måler.
-- question: Hvordan kan jeg måle min skridtlængde?
-  answer: 'Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling: 1. Sæt et kridtmærke ved hælen på din sko. 2. Gå 10 skridt (5 med højre ben og 5 med venstre). 3. Mål afstanden mellem de to kridtstreger. 4. Del afstanden med 10 for at finde længden af et skridt.'
-- question: Hvad er den gennemsnitlige skridtlængde?
-  answer: I daglig tale er den gennemsnitlige skridtlængde (længden på ét trin) ca. 79 cm for mænd og 66 cm for kvinder. I faglige sammenhænge er en skridtlængde (en hel gangcyklus / to trin) i gennemsnit 158 cm for mænd og 132 cm for kvinder.
+  - question: Hvor mange skridt er 1 km?
+    answer: "Det afhænger af din skridtlængde! Hvis du regner i almindelige hverdags-skridt (trin), tager mænd med en gennemsnitlig skridtlængde på 79 cm ca. 1.266 skridt på 1 km. Kvinder med en gennemsnitlig skridtlængde på 66 cm tager ca. 1.515 skridt på 1 km. Regner du i hele gangcyklusser (2 trin = 132-158 cm), er tallet ca. 633-757."
+  - question: Hvor mange km er 10.000 skridt?
+    answer: "10.000 hverdags-skridt svarer i gennemsnit til ca. 7,9 km for mænd (skridtlængde på 79 cm) og ca. 6,6 km for kvinder (skridtlængde på 66 cm). Du kan bruge vores beregner her på siden til at taste dit eget præcise tal ind."
+  - question: Hvad er forskellen mellem skridtlængde og trinlængde?
+    answer: "I daglig tale kalder vi ofte et enkelt trin for et skridt. I ganganalyse er der dog forskel: Et **trin** (step length) er afstanden fra den ene fod til den anden. En **skridtlængde** (stride length) – også kaldet en **gangcyklus** – er afstanden fra den ene fod, indtil den samme fod rammer jorden igen (altså 2 trin). I vores beregner tager vi udgangspunkt i de enkelte trin, da det er det, skridttællere måler."
+  - question: Hvordan kan jeg måle min skridtlængde?
+    answer: "Du kan måle din skridtlængde på en enkel måde ved hjælp af et kridt og en måling: 1. Sæt et kridtmærke ved hælen på din sko. 2. Gå 10 skridt (5 med højre ben og 5 med venstre). 3. Mål afstanden mellem de to kridtstreger. 4. Del afstanden med 10 for at finde længden af et skridt."
+  - question: Hvad er den gennemsnitlige skridtlængde?
+    answer: "I daglig tale er den gennemsnitlige skridtlængde (længden på ét trin) ca. 79 cm for mænd og 66 cm for kvinder. I faglige sammenhænge er en skridtlængde (en hel gangcyklus / to trin) i gennemsnit 158 cm for mænd og 132 cm for kvinder."
 ---
 
 Hvis du vil omregne skridt til kilometer nøjagtigt, er det vigtigt at kende din egen skridtlængde. Gennemsnitsværdier kan give et godt estimat, men der kan være stor individuel variation.

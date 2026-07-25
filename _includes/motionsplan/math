@@ -1,2 +1,0 @@
-{% assign loading = include.loading | default: 'lazy' %}
-<img src="https://latex.codecogs.com/svg.latex?{{ include.formula }}" title="{{ include.formula }}" alt="{{ include.formula }}" loading="{{ loading }}">
