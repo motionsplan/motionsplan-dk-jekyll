@@ -50,7 +50,7 @@
 {% unless page.header.og_image %}
   {% if page.layout == 'single' or page.layout == 'post' %}
     
-    {% comment %} 1. Slå forfatter op i _data/authors.yml (ligesom generate-image.js) {% endcomment %}
+    {% comment %} 1. Slå forfatter op i _data/authors.yml {% endcomment %}
     {% assign author_key = page.author | default: "lsolesen" %}
     {% assign author_data = site.data.authors[author_key] %}
 
@@ -85,10 +85,8 @@
       {% endif %}
     {% endif %}
 
-    {% assign og_v = 2 | default: 1 %}
-
-    {% comment %} Send 'badge' med i din raw_preview_url {% endcomment %}
-    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title }}&excerpt={{ og_excerpt }}&author_name={{ og_author_name }}&author_img={{ og_author_img }}&post_img={{ og_post_img }}&logo={{ og_logo }}&date={{ og_date }}&domain={{ og_domain }}&badge={{ og_badge | url_encode }}&layout={{ og_layout_num }}v={{ og_version }}{% endcapture %}    
+    {% comment %} Send 'badge' og 'post_seconds' (som cachebuster v) med i raw_preview_url {% endcomment %}
+    {% capture raw_preview_url %}{{ site.url }}/og-preview/?title={{ og_title }}&excerpt={{ og_excerpt }}&author_name={{ og_author_name }}&author_img={{ og_author_img }}&post_img={{ og_post_img }}&logo={{ og_logo }}&date={{ og_date }}&domain={{ og_domain }}&badge={{ og_badge | url_encode }}&layout={{ og_layout_num }}&v={{ post_seconds }}{% endcapture %}    
 
     {% comment %} 4. Send til 11ty screenshot service {% endcomment %}
     {% assign encoded_preview_url = raw_preview_url | url_encode %}

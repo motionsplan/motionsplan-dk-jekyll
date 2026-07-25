@@ -142,8 +142,6 @@ Jack Daniels har defineret forskellige løbetempi til fx restitutionsløb, tempo
 
 <div class="full" markdown="1">
 
-## Skema over Jack Daniels træningszoner
-
 | Zone | Navn | Intensitetsmål | Formål med zonen |
 | :---: | :--- | :---: | :--- |
 | **E** | Easy Run | 65–79% $\text{HR}_{\text{max}}$ | Opbygger aerob base, sener og led. Anvendes til opvarmning og afjog. |
