@@ -5,8 +5,7 @@ permalink: /baenkpres-biomekanik/
 author: jye.schmidt
 excerpt: Forstå bænkpres fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og få indsigt i, hvordan teknik og
   antropometri påvirker løftet.
-description: Forstå bænkpres fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og få indsigt i, hvordan teknik
-  og antropometri påvirker løftet.
+description: Analyser armlængde, opspænd og gribebredde. Se med tændstikmand-modellen, hvordan du optimerer din bevægebane og reducerer momentet over skulderleddet.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1652363722833-509b3aac287b.jpg

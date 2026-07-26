@@ -1,5 +1,7 @@
 ---
 title: &title "Find konditallet for børn ud fra Watt-max testen på cykel"
+seo_title: Watt-max test for børn (7-15 år) – Beregn børns kondital
+description: Test børns kondital med den validerede Wedderkopp-protokol på cykelergometer. Få trin-for-trin guide og tilpasset beregner til børn.
 permalink: /kondital-wattmax-boern/
 excerpt: "Watt-max test for børn er en trinvist stigende maksimaltest på ergometercykel, som du kan bruge til at udregne konditallet. Testen er tilpasset børn fra 7 - 15 år og lavet af danske forskere."
 language: da
@@ -37,6 +39,12 @@ breadcrumbs: true
 
 Dette er en modificeret udgave af [Watt-max-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der kan køre sig selv til grænsen af sin maksimale ydeevne. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation i forhold til iltoptagelsesmålinger lavet i et laboratorium.
 
+> **Er du voksen?**
+> Spring i stedet til siden med [Watt-max-testen for voksne](/kondital-wattmax/).
+{: .notice--info }
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Instruktion til watt-max-testen for børn
 
 1. Først vejer du dig.
@@ -47,8 +55,11 @@ Dette er en modificeret udgave af [Watt-max-testen for voksne](/kondital-wattmax
 6. Beregn dit kondital i nedenstående beregner.
 
 ## Beregn kondital for børn
+{: id="calculator" }
 
 {% include calculator/calculate-fitness-wattmax-children.html %}
+
+{% include calc/wattmax-test.html %}
 
 ## Om Watt-max-testen for børn
 
@@ -78,7 +89,7 @@ $$
 
 ## Andre konditionstests for børn
 
-Hvis du har en større gruppe børn, du gerne vil teste på en gang, så bør du kigge på [Andersen testen](/andersen-test/), som er en let måde at teste flere børn ad gangen med mindre udstyr.
+Hvis du har en større gruppe børn, du gerne vil teste på en gang, så bør du kigge på [Andersen testen](/andersen-test/) eller [Cooper-test til børn](/cooper-test/), som er en let måde at teste flere børn ad gangen med mindre udstyr.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

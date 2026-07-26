@@ -104,11 +104,11 @@ I den engelske litteratur bruges sommetider VO₂-max med enheden (ml/kg/min). M
 Du kan teste din kondition med enten laboratorietests eller felt-tests:
 
 - **Direkte tests**: Udføres typisk i et laboratorie, hvor iltoptagelsen måles præcist ved hjælp af avanceret udstyr. Eksempel: VO2 max-test på løbebånd.
-- **Indirekte tests**: Estimerer konditionen baseret på præstation i en fysisk test. Eksempel: Cooper-testen eller bip-testen.
+- **Indirekte tests**: Estimerer konditionen baseret på præstation i en fysisk test. Eksempel: Cooper-testen eller [bip-testen](/bip-test/).
 
 Testene kan desuden inddeles efter intensitetsniveau:
 
-- **Maksimale tests**: Kræver, at du yder maksimalt, indtil du ikke kan fortsætte længere. Eksempel: Cooper-testen.
+- **Maksimale tests**: Kræver, at du yder maksimalt, indtil du ikke kan fortsætte længere. Eksempel: [Cooper-testen](/cooper-test/).
 - **Submaksimale tests**: Måler konditionen ved en moderat indsats og estimerer VO2 max baseret på hjertefrekvensrespons. Eksempel: YMCA step-testen.
 
 Vælg en test, der passer til dit niveau og dine mål, og gentag den regelmæssigt for at følge din udvikling.

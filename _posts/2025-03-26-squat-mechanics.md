@@ -4,8 +4,7 @@ seo_title: 'Squatmekanik: En biomekanisk model af squat'
 permalink: /squat-biomekanik/
 excerpt: Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil du
   ikke gerne være en tændstikmand?
-description: Forstå squat fra et biomekanisk perspektiv. Se hvordan teknik og antropometri har betydning for dit løft. Vil
-  du ikke gerne være en tændstikmand?
+description: Forstå din squat ud fra din kropsbygning. Juster lårben, ryglængde og ankelmobilitet og se, hvorfor din dybde og rygvinkel ser ud, som den gør.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1541600383005-565c949cf777.jpg

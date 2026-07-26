@@ -1,217 +1,87 @@
 ---
-title: &title "Træning til politiets fysiske test – Bliv klar til optagelse"
-seo_title: "Sådan træner du op til politiets fysiske optagelsesprøve"
+title: &title "Træning til Politiets Fysiske Test: Træningsprogram & Forberedelse 🏋️"
+seo_title: "Træning til Politiets fysiske test – Træningsprogram & råd"
 permalink: /traening-politiets-fysiske-test/
-excerpt: "Vil du bestå politiets fysiske test? Få tips til forberedelse, målrettet træning og programmer, der hjælper dig i form til optagelsesprøven."
-last_modified_at: 2024-08-17T09:41:09Z
+excerpt: "Vil du bestå politiets fysiske test? Få konkrete træningsprogrammer, opbygning af din form og ekspertråd til forberedelsen."
+description: "Træningsprogram og forberedelse til Politiets fysiske optagelsesprøve. Lær hvordan du træner op til kropshævninger, bænkpres, 2400m løb og hurtighed."
+last_modified_at: 2026-07-26T20:45:00Z
 language: da
 header:
   overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
   teaser: /assets/images/blog/politiets-fysiske-test.jpeg
   caption: *title
   actions:
-    - label: "<i class='fas fa-download'></i> Hop til træningsprogrammer"
+    - label: "<i class='fas fa-download'></i> Se træningsprogrammer"
       url: "#programs"
 category:
   - Træningsprogrammer
 tags:
   - optagelsesprøve
   - politi
+  - træning
+  - forberedelse
 keywords:
   - træningsprogram politiets optagelsesprøve
   - forberedelse til politiets fysiske test
   - træning til politibetjent optagelse
-feature_row_police_program:
-  - image_path: "/assets/images/blog/politi-square.png"
-    alt: "Træningsprogram til optagelsesprøven"
-    title: "Træningsprogram til optagelsesprøven"
-    excerpt: "Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter."
-    url: "/politi-traeningsprogram/"
-    btn_label: "Prøv programmet"
-    btn_class: "btn--success"
 ---
 
-For at bestå politiets optagelsesprøve skal du kunne leve op til en række fysiske krav, som tester både din styrke, kondition og eksplosivitet. Hvis du endnu ikke har styr på kravene, kan du læse mere her:
+For at bestå Politiets fysiske optagelsesprøve kræves en målrettet og velstruktureret træningsindsats. Prøven samler udholdenhed, maksimal styrke, eksplosivitet og hurtighed på én enkelt dag.
 
-👉 [Se de fysiske krav til politiets optagelsesprøve »](/politiets-fysiske-tests-krav-optagelsesproeve/)
+Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve. Jeg oplever ofte, at aspiranter bliver lidt overraskede over, hvor hård den samlede prøve er, fordi de i deres forberedelse primært har trænet disciplinerne enkeltvis. Til selve prøven skal du dog præstere under akkumuleret træthed over cirka 3 timer.
 
-På denne side finder du konkrete træningsprogrammer og råd, der hjælper dig med at blive klar til testen – uanset om du kæmper med kropshævninger, løbetesten eller vil have en komplet plan frem mod prøven.
+> 📋 **Vil du se de præcise minimumskrav og karakterskalaer?**  
+> Læs vores komplette oversigtsartikel over [Politiets Fysiske Krav & Karakterskala](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-[<i class='fas fa-download'></i> Hop direkte til træningsprogrammer](#programs){: .btn .btn--success .btn--jump }
+---
 
-## Hvad er politiets fysiske tests?
+## De 3 gyldne principper i din politiforberedelse
 
-[Politiets fysiske tests består af](/politiets-fysiske-tests-krav-optagelsesproeve/) opvarmning, hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meters løbetest.
+Når du sammensætter din træning op til optagelsesprøven, bør din struktur bygge på tre grundlæggende træningsprincipper:
 
-Når du søger ind til Politiet og er så heldig at komme til optagelsesprøve, så vil du allerede på første prøvedag i optagelsesforløbet skulle gennemgå en fysisk optagelsesprøve.
+1. **Progressivt Overload:** Start din forberedelse i god tid (gerne 12-16 uger før). Øg gradvist belastningen, løbedistancen eller antallet af sæt uge for uge. Du skal bygge din form op til målet i stedet for at lægge ud i overgear.
+2. **Specificitet og Strikt Teknik:** Du bliver god til det, du træner. Træn øvelserne med præcis samme teknik og standarder, som bedømmerne kræver på Politiskolen. Det er utroligt ærgerligt at spilde dyrebare kræfter på **underkendte forsøg** under selve prøven, fordi du har slækket på dybden eller ikke fået hagen over bommen i træningen.
+3. **Træn Sammenhængen (Kombinationstræning):** Kør testens øvelser igennem i rækkefølge i dine sidste træningsuger. Du skal vænne din krop til at løbe 2400 meter med trætte ben efter opvarmningsdelen og styrkeøvelserne.
 
-Den fysiske optagelsesprøve til Politiet tager omkring tre timer inklusiv tilbagemelding på din præstation i de fysiske tests.
+---
 
-Så det gælder om at være klar.
+## Sådan træner du op til de enkelte delprøver
 
-Jeg gennemgår i det følgende de forskellige fysiske [krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og fysiske [krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation.
+Her er de vigtigste fokuspunkter, når du træner op til prøvens fem elementer:
 
-## Træn til hele den fysiske test
+### 1. Opvarmningen (Kredsløb & Udholdenhed)
+Opvarmningen varer ca. 15 minutter og indeholder både løb, hop og styrkeøvelser.
+* **Træningsfokus:** Byg en solid grundkondition med let løb og kropsvægtscircuits. Væn dig til hurtige skift mellem øvelser uden lange pauser.
+* 📖 [Guide: Se det præcise opvarmningsprogram her](/politiets-fysiske-test/opvarmning/)
 
-Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve.
+### 2. Hurtighedstest (8-tals løb)
+* **Træningsfokus:** Arbejd med din acceleration, kropskontrol og vendinger omkring kegler. Træn korte sprintøvelser og væn dig til stående start med hænder og knæ i gulvet.
 
-Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner disciplinerne enkeltvis.
+### 3. Længdespring
+* **Træningsfokus:** Eksplosiv underkropsstyrke og afsætsteknik. Kombiner tunge squats med plyometrisk træning (f.eks. jump squats og horisontale hop).
+* 📖 [Guide: Læs mere om træning til længdespringstesten](/broadjump/)
 
-Politiets fysiske test har både en opvarmningsdel og fem delprøver. De fem delprøver bliver vurderet efter syvtrinsskalaen, og du skal leve op til minimumskravene i alle prøverne for at bestå den samlede prøve.
+### 4. Kropshævninger (Pullups / Bodyrows)
+* **Træningsfokus (Mænd - Pullups):** Fokuser på rygmuskulaturen og grebsstyrke. Hvis du endnu ikke kan tage 4 godkendte pullups, så brug elastik-assist eller eksocentriske (langsomt sænkende) gentagelser.
+* **Træningsfokus (Kvinder - Bodyrows):** Træn kropsstammen (core) til at holde en lige linje under hele øvelsen, mens du arbejder med at trække brystet helt op til bommen.
+* 📖 [Guide: Lær at tage flere kropshævninger med vores træningsprogram]({% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %})
 
-Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.
+### 5. Bænkpres
+* **Træningsfokus:** Arbejd både med din maksimale styrke (tunge løft med 3-5 gentagelser) og din udholdenhed (sæt med 10-12 gentagelser på din ønskede testvægt).
+* **Tip:** Sørg for at træne med strikt teknik uden at lade stangen "bounce" på brystet, da det giver underkendte gentagelser.
 
-## Forberedelse til politiprøvens fysiske krav
+### 6. 2400-meter løbetest
+* **Træningsfokus:** 2400-meter testen kræver en veludviklet aerob motor. Kombiner lange, rolige ture med intervaltræning (f.eks. 400m eller 800m intervaller i dit ønskede prøvetempo).
+* 🧮 [Beregner: Test dit kondital på 2400-meter testen](/kondital-2400-meter/)
 
-Uanset om du er mand eller kvinde, så bør forberedelserne være nogenlunde ens. Du skal naturligvis sørge for at træne specifikt til netop de fysiske krav og øvelser, du kommer ud for i selve prøven.
+---
 
-Når du træner op til prøverne, så husk følgende træningsprincipper:
-
-- Princippet om **progressivt overload**. Byg langsomt mere og mere på din træning og lav en fornuftig plan. Du skal ikke starte din træning med det du gerne vil opnå, men bygge op til dine mål.
-- Princippet om **specificitet**. Du bliver god til det du træner. Hvis du gerne vil blive bedre på længdespringet og 2400-meter-testen, så skal du træne de discipliner. Det kommer ikke af sig selv ved at lave bænkpres.
-- **Træn sammenhængen**. Det hænger egentlig sammen med princippet om specificitet. Prøven er lang, og du skal lave både opvarmning og delprøver til den fysiske optagelsesprøve hos politet. Derfor er det godt at få trænet elementerne i den rækkefølge sommetider også.
-
-Sæt dig grundigt ind i den politiprøvens fysiske krav, så du kender alle øvelserne, hvordan de udføres, og hvordan du griber dem an. **Du bliver god til det du træner**, så derfor gælder det om at udføre øvelserne perfekt hver gang, så dine forsøg lever op til de fysiske krav, der stilles til prøven. Det er ærgerligt at få underkendt forsøg.
-
-## Tests du skal forberede dig til
-
-Elementerne i den fysiske optagelsesprøve er nogenlunde ens for både mænd og kvinder ud over kropshævninger, hvor der er valgt to forskellige øvelser. Desuden bedømmes øvelserne lidt forskelligt. Her får du lige en hurtig oversigt, men du kan også dykke yderligere ned i vores detaljerede beskrivelse af [kravene til politiprøven](/politiets-fysiske-tests-krav-optagelsesproeve/).
-
-Øvelserne du skal træne til er følgende:
-
-***
-
-<details markdown="1" class="faq">
-  <summary><h3>1️⃣ Opvarmning til politiets fysiske test</h3></summary>
-
-Opvarmningen udgør den første del af politiets fysiske optagelsesprøve. Formålet er at forberede kroppen til de efterfølgende elementer, men mange bliver overraskede over, at opvarmningen i sig selv kan være udmattende.
-
-{% include video provider="youtube" id="isDmCC3_fPk" %}
-
-Opvarmningen varer cirka 15 minutter og består af tre sektioner: løb, hop og styrketræning. Du kan finde det fulde program i denne [PDF](https://politi.dk/politiskolen/om-politiskolen/optagelsespr%C3%B8ven).
-
-Forberedelse er vigtig, da opvarmningen altid indeholder de samme øvelser. For at bestå opvarmningen skal du gennemføre alle øvelserne korrekt og følge anvisningerne.
-
-**Læs**: [Opvarmning til politiets fysiske test](/politiets-fysiske-test/opvarmning/)
-{: .notice }
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>2️⃣ Hurtighedstest</h3></summary>
-
-**Udgangsstilling**: Start med keglen på din venstre side. Placer hænder, knæ og tæer på gulvet, så dine arme og lår er parallelle med gulvet.
-
-**Udførelse**: Når dommeren siger "Færdige ---- Løb", starter du tidtagningen og løber 2 1/4 gange i et ottetal rundt om keglerne. Du skal undgå at røre keglerne, som er placeret 13,40 meter fra hinanden.
-
-{% include video provider="youtube" id="TbaBYiS7JrU" %}
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>3️⃣ Længdespring</h3></summary>
-
-**Udgangsstilling:** Start med begge fødder bag 0-centimeter markeringen.
-
-**Udførelse:** Hop fremad med begge fødder samtidig. Din længde aflæses, når du lander stående med begge fødder, og dommerne kan aflæse landingspunktet.
-
-{% include video provider="youtube" id="A4s-dNy_H4s" %}
-
-Testen fortsætter, indtil der er to aflæste forsøg. Længden af springet måles fra 0-centimeter markeringen til hælene og rundes ned til nærmeste 5 centimeter. Det bedste af dine to forsøg bestemmer din score.
-
-**Læs**: [Alt om længdespringstesten og hvordan du forbereder dig](/broadjump/)
-{: .notice }
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>4️⃣ Kropshævninger</h3></summary>
-
-<details markdown="1" class="faq">
-  <summary><h3>Kropshævninger for mænd</h3></summary>
-
-{% include video provider="youtube" id="ZgFmCNBh-UY" %}
-
-Du har ét forsøg til at gennemføre op til 14 kropshævninger.
-
-Bommen er indstillet, så du kan hænge udstrakt uden at røre gulvet.
-
-**Udgangsstilling:** Hold bommen med overhåndsgreb og hæng med strakte arme.
-
-**Udførelse:** Træk dig op, så hagen er over bommen, og sænk dig tilbage til udgangsstillingen.
-
-Din score afhænger af, hvor mange godkendte gentagelser du gennemfører.
-
-Brug af handsker eller magnesium er tilladt for at øge friktionen.
-
-Jeg har skrevet en grundigere vejledning til, [hvordan du lærer at tage en pull-up]( {% link _posts/2011-08-18-vil-du-gerne-tage-en-kropshaevning.md %}).
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>Kropshævninger for kvinder</h3></summary>
-
-{% include video provider="youtube" id="5hdTHhQJQp8" %}
-
-Du har ét forsøg til at gennemføre op til 22 kropshævninger.
-
-Bommen er justeret til cirka 90 cm, og en plintkasse er placeret omkring 40 cm høj, en kropslængde fra bommen.
-
-**Udgangsstilling:** Grib bommen med overhåndsgreb, hæng med strakte arme og fødderne på plinten.
-
-**Udførelse:** Træk dig op med strakt krop, så brystet rører bommens underkant, og sænk dig tilbage til udgangsstilling.
-
-Din score afgøres af antallet af godkendte gentagelser.
-
-Brug af handsker eller magnesium er tilladt for at øge friktionen.
-</details>
-
-</details>
-
-<details markdown="1" class="faq">
-  <summary><h3>5️⃣ Bænkpres</h3></summary>
-
-{% include video provider="youtube" id="lc1CIASe2So" %}
-
-Du skal vælge en vægtbelastning (kg), du ønsker at teste med.
-
-Du har ét forsøg til at gennemføre maksimalt 12 gentagelser med en forudbestemt vægt.
-
-**Udgangsstilling:** Læg dig på bænken med vægtstangen i strakte arme.
-
-**Udførelse:** Sænk vægtstangen til brystet og pres den op til udgangsstillingen.
-
-Skulderparti og sæde skal være i kontakt med bænken under hele testen.
-
-Din score baseres på antallet af godkendte gentagelser.
-
-Brug af handsker eller magnesium er tilladt for at øge friktionen.
-
-**Læs**: [Alt om 2400-meter testen og træning til den](/kondital-2400-meter/)
-{: .notice }
-
-</details>
-<details markdown="1" class="faq">
-  <summary><h3>6️⃣ 2400 meter løb</h3></summary>
-
-Politiets krav inkluderer også [Coopers 2400 meter test](/kondital-2400-meter/). Politiet har sine egne specifikke krav til testen. Se testen herunder.
-
-**Udførelse:** Løb en strækning på 2400 meter.
-
-{% include video provider="youtube" id="YldNonx193c" %}
-
-Din score afgøres ud fra den tid, du bruger. Det er tilladt at bruge et løbeur under testen.
-
-Bemærk, at løbeunderlaget og vejret kan variere under prøven.
-
-</details>
-
-***
-
-## Træningsprogrammer til politiets fysiske test
+## Målrettede Træningsprogrammer
 {: id="programs" }
 
-{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where: "tags", "politi" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+Vi har samlet strukturerede træningsprogrammer udarbejdet af erfarne undervisere fra Vejle Idrætshøjskole, som dagligt forbereder aspiranter til Politiskolen:
+
+{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where: "tags", "politi" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 <div class="feature__wrapper" markdown="1">
 
@@ -221,22 +91,14 @@ Bemærk, at løbeunderlaget og vejret kan variere under prøven.
   {% endfor %}
 {% endif %}
 
-[Se kravene til testen](/politiets-fysiske-tests-krav-optagelsesproeve/){: .btn .btn--success .btn--center }
-
 </div>
 
-## Her finder du mere information om forberedelse
+---
 
-Politiet tilbyder en [træningsvejledning](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/traeningsvejledning-opdateret-161219-aa.pdf), som giver nogle retningslinjer for at træne til de enkelte discipliner, men træningsplanen er ikke integreret.
+## Øvrige forberedelsesmuligheder
 
-Du skal således selv i gang med stykke en samlet træningsplan sammen eller måske vælge et højskoleophold, hvor lærerne kan hjælpe dig med at forberede dig til politiets optagelsesprøve på [idrætshøjskole](https://www.vih.dk/fag/politi) eller også skal du have fat i en [personlig træner](https://styrkmig.dk/ep-134-politiets-optagelsesprove-sadan-bestar-du-den-fysiske-del/).
+Ud over selvstændig træning benytter mange aspiranter sig af følgende forberedelsesmuligheder:
 
-## Opsummering: Træning til politiets fysiske tests
-
-Måske kunne du også tænke dig at se, hvad [forsvarets fysiske krav](/forsvarets-fysiske-test/) er.
-
-{% comment %}
-
-## Sådan laver du træning til politiets optagelsesprøve
-
-{% endcomment %}
+* **Træningsvejledning:** Politiet udgiver deres egen [officielle træningsvejledning](https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/politiskolen/fysisk-proeveforloeb-vejledninger/traeningsvejledning-opdateret-161219-aa.pdf) med øvelsesforslag.
+* **Højskoleophold:** Et målrettet politiforberedende højskoleophold (f.eks. på [Vejle Idrætshøjskole](https://www.vih.dk/fag/politi)) giver dig adgang til fagkyndig sparring, testfaciliteter og fællestræning.
+* **Podcast & Personlig træner:** Hør mere om, hvordan du forbereder dig til prøven, i denne podcast-episode om [Politiets optagelsesprøve på StyrkMig.dk](https://styrkmig.dk/ep-134-politiets-optagelsesprove-sadan-bestar-du-den-fysiske-del/).

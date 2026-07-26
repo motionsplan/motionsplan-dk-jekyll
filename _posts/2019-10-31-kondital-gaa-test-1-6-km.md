@@ -50,7 +50,9 @@ Rockports gå-test er særligt egnet til utrænede, folk i dårlig form, ældre 
 > Hvis ikke du kan gå så langt, så kan du overveje [6 minutters gang-test (6MWT)](/gaatest-6min/).
 {: .notice--info }
 
-Du kan også bruge vores beregner til raske mennesker i bedre form. Der kan du overveje at vælge formlen fra Lunt et al (2013) som dit udgangspunkt.
+I vores beregner kan du vælge mellem to formler, hvor formlen af Lunt et al (2013) henvender sig til yngre, raske mennesker i god form.
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ## Sådan udfører du gå-testen på 1,6 km
 
@@ -70,10 +72,9 @@ Følg disse trin for at gennemføre testen:
 6. Indtast værdierne i beregneren nedenunder for at få dit kondital.
 
 ## Udregn dit kondital ud fra 1,6 km gang-test
+{: id="calculator" }
 
 Du kan udregne dit kondital i denne beregner til gå-testen.
-
-{% include calculator/calculate-fitness-walktest.html %}
 
 {% include calc/walkingtest-rockport.html %}
 
@@ -112,11 +113,15 @@ $$ \text{Kondital} = 51{,}047 + 8{,}336 \cdot \text{Køn} + \frac{635{,}012}{\te
 
 ## Hvor god form er jeg i?
 
-Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder](/kondital/). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests](/kondition/tests/).
+Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder](/kondital/). 
 
 Du kan lade 1,6 km gå-testen være en del af dit mål om at komme i bedre form. Du kan sammenligne din egen tid med [hvor hurtigt man normalt går](/tid-at-gaa/).
 
 Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
+
+> **Andre konditionstests**
+> Vi har mange [flere konditionstests](/kondition/tests/), du kan lade dig inspirere af.
+{: .notice--info }
 
 ## Ofte stillede spørgsmål om gå-testen
 

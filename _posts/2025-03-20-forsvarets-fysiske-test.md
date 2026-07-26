@@ -1,13 +1,14 @@
 ---
-title: &title "Parat til Forsvarets fysiske test - sådan klarer du kravene"
+title: &title "Forsvarets fysiske test: Krav til Værnepligt & Basistest 🪖"
+seo_title: "Forsvarets fysiske test – Krav til værnepligt og basistest"
 permalink: /forsvarets-fysiske-test/
-seo_title: "Forsvarets fysiske test og krav – sådan klarer du dem"
-excerpt: "Forsvarets optagelsesprøve inkluderer fysiske tests som løb og styrketræning. Se kravene, og få træningstips til at bestå."
-last_modified_at: 2025-03-17T09:41:09Z
+excerpt: "Skal du til optagelsesprøve i Forsvaret eller aftjene værnepligt? Se alle fysiske krav, basistesten, og bliv klar til prøven."
+description: "Se de fysiske krav til Forsvarets optagelsesprøve og værnepligt. Få overblik over basistesten, Cooper-test for militæret og gode træningstips."
+last_modified_at: 2026-07-26T19:30:00Z
 language: da
 header:
-  overlay_image: /assets/images/blog/politiets-fysiske-test.jpeg
-  teaser: /assets/images/blog/politiets-fysiske-test.jpeg
+  overlay_image: /assets/images/blog/forsvarets-fysiske-test.jpeg
+  teaser: /assets/images/blog/forsvarets-fysiske-test.jpeg
   caption: *title
 category:
   - Tests
@@ -15,8 +16,10 @@ tags:
   - test
   - optagelsesprøve
   - forsvaret
+  - værnepligt
+  - basistest
 meta:
-  name: Forsvaret fysiske test
+  name: Forsvarets fysiske test
   measures: fysisk form
   type: fysisk test
   equipment: se testbeskrivelse
@@ -35,76 +38,81 @@ tmf:
     url: /assets/images/apps/tmf-3.jpg
     title: "Træn med Forsvaret trænings app" 
     alt: "Træn med Forsvaret træningsapp"
+faq:
+  - question: "Er kravene de samme for værnepligt og sprogofficer?"
+    answer: "Ja, udgangspunktet for både værnepligt (Hærens, Søværnets og Flyvevåbnets Basisuddannelse) og uddannelser som sprogofficer er Forsvarets Basistest (Niveau 1). Enkelte specialuddannelser stiller dog højere krav (Niveau 2 eller 3)."
+  - question: "Kan jeg selv vælge mellem Cooper-test og Bip-test?"
+    answer: "Til selve optagelsesprøven er det som udgangspunkt prøveafholderen, der bestemmer testformen – oftest enten udendørs 12-minutters Cooper-test på løbebane eller indendørs Bip-test i en idrætshal. Det anbefales at have prøvet begge dele under din træning."
+  - question: "Hvad sker der, hvis jeg dumper en enkelt øvelse?"
+    answer: "Forsvarets basistest bedømmes samlet. Hvis du underpræsterer eller ikke rammer minimumskravet i blot én af de fire styrkeøvelser eller udholdenhedstesten, er den samlede prøve ikke bestået. Du kan dog søge om at gå til omprøve på et senere tidspunkt."
+  - question: "Hvor meget pause er der mellem løb og styrketesten?"
+    answer: "Der er typisk omkring 10-15 minutters pause fra du gennemfører udholdenhedstesten (Cooper eller Bip), til I går i gang med de fire styrkeøvelser. Det er derfor afgørende at have trænet styrkeøvelserne med høj puls og trætte ben på forhånd."
 ---
 
-Forsvarets fysiske test er en afgørende del af optagelsesprøven, hvor du bliver testet i kondition og styrke. For at bestå skal du leve op til minimumskravene for øvelser som 12 minutters løb eller en bip-test og en række styrkeøvelser. 
+Forsvarets fysiske test er en afgørende del af optagelsesprøven, hvor du bliver testet i din kondition og funktionelle styrke. For at bestå skal du leve op til minimumskravene i enten **12 minutters løb (Cooper-test)** eller en **bip-test**, samt fire specifikke styrkeøvelser. 
 
-Her får du en gennemgang af alle de fysiske krav, du skal mestre for at bestå forsvarets fysiske optagelsesprøve.
+Her får du en samlet gennemgang af de fysiske krav og øvelser, du skal mestre for at bestå Forsvarets optagelsesprøve og gennemføre basistesten.
 
-Du får også konkrete træningstips, så du kan optimere din præstation.
+> 💡 **Søger du i stedet Politiets optagelsesprøve?**  
+> Læs vores komplette guide til [Politiets fysiske krav og 2400-meter testen](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-## Hvad er forsvaerets fysiske tests?
+---
 
-**Forsvarets fysiske tests består af 12 minutters løb eller en bip-test efterfulgt af en række styrkeøvelser: Splitsquat, dips på bænk, liggende kropshævninger og burpees. Testene bedømmes forskelligt for mænd og kvinder. Du skal bestå alle tests for at bestå de fysiske krav.**
+## Hvad er Forsvarets fysiske tests?
 
-Når du søger ind til Forsvaeret og er så heldig at komme til optagelsesprøve, så vil du gennemgå en fysisk optagelsesprøve.
+**Forsvarets fysiske test består af en udholdenhedstest (valgfrit mellem 12 minutters Cooper-test eller Bip-test) efterfulgt af fire styrkeøvelser: Split squat, dips på bænk, liggende kropshævninger og burpees. Du skal bestå alle elementer for at gennemføre prøven.**
 
-Den fysiske optagelsesprøve til Forsvaret tager omkring 1 time inklusiv tilbagemelding på din præstation i de fysiske tests.
+Når du søger ind til Forsvaret, vil du gennemgå denne fysiske optagelsesprøve. Prøven tager omkring 1 time inklusiv opvarmning og tilbagemelding på din præstation.
 
-## Træn til hele den fysiske test
+### Gælder kravene også for Værnepligten og Sprogofficer?
+Ja, uanset om du skal aftjene **værnepligt**, søger ind som **sprogofficer** eller vil optages på en officeruddannelse, skal du gennemføre **Forsvarets Basistest (Niveau 1)**. Testen er den officielle standard i det danske militær for at vurdere, om din fysiske form er tilstrækkelig til tjeneste.
 
-Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til [politiets optagelsesprøve](/politiets-optagelsesproeve/).
+---
 
-Jeg oplever mange elever, der bliver lidt overraskede over hvor hård [politiets fysiske krav](/politiets-fysiske-tests-krav-optagelsesproeve/) er, fordi de ofte træner disciplinerne enkeltvis. Heldigvis er Forsvarets optagelsesprøve lidt lettere, men du bør stadig træne tingene samlet, så du ved hor hårdt det er.
+## Forsvarets fysiske delprøver (Basistesten)
 
-Forsvarets fysiske test har både en opvarmningsdel, en udholdenhedsdel og fire styrkeøvelser. 
+Elementerne i Forsvarets basistest udføres altid i følgende rækkefølge:
 
-Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.
+1. **Opvarmning:** Generel opvarmning af led og muskler (ca. 10-15 minutter).
+2. **Udholdenhedstest:** Valgfrit mellem [12 minutters Cooper-test](/cooper-test/) eller [Bip-testen (Multi-stage fitness test)](/bip-test/).
+3. **Styrketest:** Bestående af fire funktionelle øvelser:
+   * **Split squat** (benstyrke og balance)
+   * **Dips på bænk** (triceps og bryst)
+   * **Liggende kropshævninger** (ryg og biceps)
+   * **Burpees** (helkropsudholdenhed)
 
-## Forberedelse til forsvarets fysiske krav
+Se de præcise karakterkrav og aldersgrupper direkte på [Forsvarets karriereside](https://karriere.forsvaret.dk/uddannelse/optagelsesprove-officer/fysisk-test-niveau-1/).
 
-Uanset om du er mand eller kvinde, så bør forberedelserne være nogenlunde ens. Du skal naturligvis sørge for at træne specifikt til netop de fysiske krav og øvelser, du kommer ud for i selve prøven.
+---
 
-Når du træner op til prøverne, så husk følgende træningsprincipper:
+## Forberedelse og træningsprincipper
 
-- Princippet om **progressivt overload**. Byg langsomt mere og mere på din træning og lav en fornuftig plan. Du skal ikke starte din træning med det du gerne vil opnå, men bygge op til dine mål.
-- Princippet om **specificitet**. Du bliver god til det du træner. Hvis du gerne vil blive bedre på længdespringet og 2400-meter-testen, så skal du træne de discipliner. Det kommer ikke af sig selv ved at lave bænkpres.
-- **Træn sammenhængen**. Det hænger egentlig sammen med princippet om specificitet. Prøven er lang, og du skal lave både opvarmning og delprøver til den fysiske optagelsesprøve hos politet. Derfor er det godt at få trænet elementerne i den rækkefølge sommetider også.
+Når du træner op til militærets fysiske krav, bør din forberedelse bygge på tre grundlæggende principper:
 
-Sæt dig grundigt ind i den forsvarets fysiske krav, så du kender alle øvelserne, hvordan de udføres, og hvordan du griber dem an. **Du bliver god til det du træner**, så derfor gælder det om at udføre øvelserne perfekt hver gang, så dine forsøg lever op til de fysiske krav, der stilles til prøven. Det er ærgerligt at få underkendt forsøg.
+* **Progressivt overload:** Byg langsomt mere volumen og intensitet på din træning. Start i god tid før prøvedagen i stedet for at gå i panik de sidste to uger.
+* **Specificitet:** Du bliver god til det, du træner. Vil du have et bedre resultat på din militære Cooper-test eller kunne køre flere burpees, skal du træne netop de øvelser regelmæssigt.
+* **Træn sammenhængen:** Prøven afvikles med begrænset pause mellem udholdenhedstesten og styrkeøvelserne. Træn derfor hele prøven samlet igennem et par gange før den gældende test.
+
+Sæt dig grundigt ind i øvelsesbeskrivelserne, så du udfører alle repeterede øvelser med godkendt teknik – underkendte gentagelser koster dyre kræfter!
+
+---
 
 ## Træningsappen: 'Træn med Forsvaret'
 
-Det er rimeligt tjekket, at du kan bruge Forsvarets egen app 'Træn med Forsvaret', som vi også har fremhævet under vores [Fitness apps](/fitness-apps/).
+Forsvaret har developed deres egen officielle app **'Træn med Forsvaret'**, som er et oplagt redskab i din forberedelse (vi har også beskrevet den i vores oversigt over [Fitness apps](/fitness-apps/)).
 
 {% include gallery id="tmf" %}
 
-Her får du en enkel måde at forberede dig til prøven på.
+Appen indeholder strukturerede træningsprogrammer tilpasset det niveau (f.eks. Niveau 1 eller 2), du skal opnå til værnepligten eller din specifikke uddannelse.
 
-## Forsvarets fysiske tests til optagelsesprøven
+---
 
-Elementerne i den fysiske optagelsesprøve er ens for både mænd og kvinder.
+## Hvordan bedømmes prøven?
 
-Forskellen mellem mænd og kvinder er, hvordan de enkelte øvelser bedømmes, hvor meget vægt man skal løfte, og så er der valgt to forskellige øvelser for kropshævninger.
+Forsvarets fysiske test bedømmes som **Bestået / Ikke bestået**. Kravene til tilbagelagt løbedistance og antal styrkegentagelser afhænger af din alder, køn og det specifikke niveau, som stilles til den uddannelse eller tjeneste, du søger.
 
-Øvelserne i forsvarets fysiske optagelsesprøve er følgende:
+---
 
-- Opvarmning
-- Udholdenhedstest - [Cooper 12 minutters løbetest](/cooper-test/) eller [bip udholdenhedstesten](/bip-test/).
-- Styrketest - split squat, dips på bænk, træk til bryst og burpees.
+## Ofte stillede spørgsmål
 
-Tjek de samlede krav på [forsvarets hjemmeside](https://karriere.forsvaret.dk/uddannelse/optagelsesprove-officer/fysisk-test-niveau-1/).
-
-## Hvordan bedømmes forsvarets fysiske optagelsesprøve?
-
-Du skal gennemføre det hele for at bestå. Det er bestået / ikke bestået og din karakter er afhængig af din alder og præstation. 
-
-## Træning til forsvarets fysiske tests
-
-Nu er det egentlig bare at komme i gang med træningen til forsvarets fysiske tests, så du kan leve op til de krav forsvarets optagelsesprøve stiller.
-
-For at opfylde forsvarets optagelseskrav, så er det vigtigt, at du forbereder dig ordentligt til de fysiske krav.
-
-Det kan du gøre med appen 'Træn med Forsvaret'.
-
-God træning.
+{% include motionsplan/faq.html %}

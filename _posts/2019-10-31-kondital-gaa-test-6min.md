@@ -72,7 +72,7 @@ Testen er en såkaldt *submaksimal funktionstest*, der er specielt egnet til fys
 
 Først tjekker du naturligvis om forsøgspersonen er sund og rask og har [en normal puls](/puls/).
 
-{% include figure image_path="https://www.researchgate.net/profile/Parul_Sharma9/publication/317952000/figure/fig1/AS:509936111190016@1498589651200/6-minutes-walk-test-diagram.png" alt="skema til 6 min gangtest (6MWT)" %}
+{% include figure image_path="/assets/images/researchgate.net/6-minutes-walk-test-diagram.webp" alt="skema til 6 min gangtest (6MWT)" %}
 
 1. 6-minutters gangtesten udføres på en 30 meter strækning, der tilbagelægges flere gange. Du kan sætte testen op overalt, og det påvirker ikke testens resultat selvom strækningen mellem vendepunkterne er mellem 20 - 50 meter i stedet for 30 meter.
 2. Testresultaterne påvirkes en del af, hvor meget opmuntring testpersonerne får undervejs. Opmuntring kan påvirke resultatet [med op til 30%](https://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"}. Det er altså vigtigt, at du som testleder standardiserer, hvor meget opmuntring du giver forsøgspersonerne undervejs. Du kan finde inspiration i de oprindelige studier, hvor de bruger sætningerne: "You are doing well", "Keep up the good work" og en tidsangivelse for, hvornår testen er færdig.
@@ -86,11 +86,7 @@ Først tjekker du naturligvis om forsøgspersonen er sund og rask og har [en nor
 
 Indtast din tilbagelagte distance, alder, køn, højde og vægt i vores **6 min gangtest beregner** for at se, hvordan din præstation svarer til forventede referenceværdier:
 
-{% include calculator/calculate-fitness-walktest-6min.html %}
-
 {% include calc/walkingtest-6min.html %}
-
----
 
 ---
 

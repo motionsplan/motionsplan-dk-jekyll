@@ -173,7 +173,7 @@ I næste afsnit kan du læse mere om, hvad en normal fedtprocent er.
 
 ## Hvad er en normal og sund fedtprocent?
 
-En normal fedtprocent varierer i høj grad afhængigt af dit køn og din alder[cite: 3, 4]. Kvinder har fysiologisk set brug for en højere fedtprocent end mænd på grund af kønsspecifikke depoter.
+En normal fedtprocent varierer i høj grad afhængigt af dit køn og din alder. Kvinder har fysiologisk set brug for en højere fedtprocent end mænd på grund af kønsspecifikke depoter.
 
 [📊 Se det komplette fedtprocent-skema for mænd og kvinder her](/fedtprocent-normer/){: .btn .btn--primary }
 

@@ -1,5 +1,5 @@
 ---
-title: Find konditallet med Watt-Max testen på cykel
+title: Watt-max test på cykel (inkl. Beregner)
 seo_title: 'Watt-max test: Find dit kondital på cykel'
 permalink: /kondital-wattmax/
 description: Vil du prøve en Watt-max test? Her får du en forklaring på, hvordan du kan bruge max watt testen til at lave
@@ -48,11 +48,17 @@ feature_row:
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
 *[MPO]: Maksimale Power Output
 
-Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium.
+Watt max-testen er en nem og præcis [konditest](/kondition/tests/) til at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen.
+
+Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium.
 
 Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkelig hårde.
 
-Jeg har også skrevet lidt om [Watt-max-testen til børn]({% link _posts/2019-10-31-kondital-watt-max-children-test.md %}).
+> **👦 Skal du teste børn (7–15 år)?**
+> Børn skal køre med en anden belastningsstigning (Wedderkopp-protokollen). Gå til den specifikke [Wattmax-test for børn]({% link _posts/2019-10-31-kondital-watt-max-children-test.md %}).
+{: .notice--info }
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ## Hvad er en Watt-max test?
 
@@ -65,8 +71,8 @@ Du kan lære mere om, hvordan du laver Watt Max-testen i denne glimrende Youtube
 ## Sådan laver du Watt max-testen
 
 1. Start med at veje dig.
-2. Varm op i fem minutter ved at cykle 5 min på 100 watt for mænd eller 70 watt for kvinder.
-3. Øg belastningen med 35 watt _hvert andet minut_, indtil du ikke længere kan holde belastningen.
+2. Varm op i fem minutter ved at cykle 5 min på **100 watt for mænd** eller **70 watt for kvinder**.
+3. Øg belastningen med _35 watt hvert andet minut_, indtil du ikke længere kan holde belastningen.
 4. Notér den højeste belastning (watt), og antallet af sekunder du kunne køre på denne belastning.
 
 I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cykel, hvor watt stiger og falder med, hvor hurtigt du træder i pedalerne, behøver du ikke tænke på kadencen. Du skal bare sørge for at træde de rigtige watt.
@@ -75,8 +81,11 @@ I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cy
 {% include video provider="youtube" id="orNRI38Mkc0" %}
 
 ## Udregn dit kondital fra Watt max-testen
+{: id="calculator" }
 
 {% include calculator/calculate-fitness-wattmax.html %}
+
+{% include calc/wattmax-test.html %}
 
 ## Videnskabelig baggrund for max watt testen
 

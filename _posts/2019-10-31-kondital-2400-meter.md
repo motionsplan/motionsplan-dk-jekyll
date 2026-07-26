@@ -1,11 +1,9 @@
 ---
-title: '2400-meter løbetest: Sådan beregner du dit kondital 🏃'
-seo_title: Prøv 2400-meter testen - Beregn dit kondital i vores værktøj
+title: '2400-meter løbetest: Beregn dit kondital (Politiets test) 🏃'
+seo_title: 2400-meter løbetest - Beregn dit kondital & se normer
 permalink: /kondital-2400-meter/
-excerpt: På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital
-  og sammenligne dig med normerne.
-description: Test din kondition med 2400-meter løbetesten. Beregn dit kondital, sammenlign dine resultater, og få tips til
-  at forbedre dit resultat.
+excerpt: På 2400-meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt. Beregn dit kondital og sammenlign med normerne her.
+description: Test din kondition med 2400-meter løbetesten. Beregn dit kondital ud fra din tid, se normtabeller for mænd og kvinder, og gør dig klar til politiets optagelsesprøve.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1585855822554-4d21c841708c.jpg
@@ -33,126 +31,140 @@ tags:
 - aerob test
 - populær
 - politi
-last_modified_at: '2022-10-06T22:12:12Z'
+last_modified_at: '2026-07-26T18:00:00Z'
 gallery_whyiexercise:
 - image_path: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-women-by-age-group_jpg_pagespeed_ic_KhNsKxmeOD-1eac3be7.webp
   credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
   url: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-women-by-age-group_jpg_pagespeed_ic_KhNsKxmeOD-1eac3be7.webp
-  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-women-by-age-group.jpg.pagespeed.ic.KhNsKxmeOD.webp
   title: Normer for kvinder for 2400 meter testen
 - image_path: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-men-by-age-group_jpg_pagespeed_ic_--y1eSzhzE-ad60d1d2.webp
-  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
+  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group_jpg_pagespeed_ic.--y1eSzhzE.webp
   url: /assets/images/whyiexercise.com/xcooper-1_5-mile-run-score-chart-men-by-age-group_jpg_pagespeed_ic_--y1eSzhzE-ad60d1d2.webp
-  credit: https://www.whyiexercise.com/images/xcooper-1.5-mile-run-score-chart-men-by-age-group.jpg.pagespeed.ic.--y1eSzhzE.webp
   title: Normer for mænd for 2400 meter testen
+faq:
+  - question: "Hvor mange runder på en løbebane er 2400 meter?"
+    answer: "På en standard 400-meters atletikbane svarer 2400 meter til præcis 6 hele runder i bane 1 (den inderste bane)."
+  - question: "Kan man træne til 2400-meter testen på et løbebånd?"
+    answer: "Ja, det kan du sagtens. Det anbefales at indstille løbebåndet til 1 % hældning for at opveje den manglende vindmodstand og bedre efterligne udendørs løb."
+  - question: "Hvad er forskellen på 2400-meter testen og Cooper-testen?"
+    answer: "På 2400-meter testen løber du en fast distance på tid (så hurtigt som muligt). På den klassiske Cooper-test løber du i et fast tidsrum på 12 minutter og måler, hvor lang en distance du når."
+  - question: "Hvor hurtigt skal man løbe 2400 meter for at bestå Politiets test?"
+    answer: "Mænd skal løbe 2400 meter på maksimalt 12:00 minutter for at opnå beståkarakteren 02 (9:00 min giver 12). Kvinder skal løbe på maksimalt 13:30 minutter for at bestå (10:30 min giver 12)."
 ---
 
-Hvis du vil kende dit kondital, kan du tage 2400-meter testen. Her får du både en beregner og en guide til, hvordan du gennemfører Coopers modificerede test.
+**2400-meter løbetesten** er en simpel og effektiv test af din aerobe kapacitet. Formålet er simpelt: Du skal løbe distancen på 2400 meter så hurtigt som overhovedet muligt. Ud fra din sluttid kan du beregne dit præcise kondital.
 
-På 2400-meter testen gælder det om at løbe distancen så hurtigt som muligt. Ud fra din tid kan du estimere dit kondital og sammenligne det med normerne.
+> 💡 **Leder du efter den klassiske 12-minutters løbetest?**  
+> Hvis du vil løbe i præcis 12 minutter og måle din distance, skal du benytte vores [Cooper-test beregner og normtabel](/cooper-test/). Denne side handler om den faste distance på **2400 meter** (også kendt som 1,5 mile testen eller Politiets løbetest).
 
-2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til [Politiets optagelsesprøve](/politiets-optagelsesproeve/), hvor den er sidste del af den [fysiske test](/politiets-fysiske-tests-krav-optagelsesproeve/).
+Testen anvendes blandt andet som den afsluttende løbetest i [Politiets optagelsesprøve](/politiets-optagelsesproeve/).
 
-I dette indlæg finder du:
+[<i class='fas fa-calculator'></i> Hop direkte til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
-- En guide til, hvordan du gennemfører 2400-meter testen
-- Et overblik over, hvor lang tid det typisk tager at løbe 2400 meter
-- En beregner til at udregne dit kondital baseret på din testtid
-- En tabel med referenceværdier for 2400-meter testen
+---
 
-{% include figure image_path="https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&h=600&q=60" alt="løber på 2400-meter test" %}
+## Beregner til 2400-meter testen
+{: id="calculator" }
 
-{% comment %}
-***
-Hvad er 2400-meter løbetesten?
-(Introduktion til testen og dens relevans.)
+Indtast din tid på 2400 meter nedenfor for at udregne dit estimerede kondital ($VO_2max$).
 
-Sådan gennemfører du Coopers 2400 meter test korrekt
-(En detaljeret guide til, hvordan du udfører testen korrekt.)
+{% include calc/runningtest-2400m.html %}
 
-Beregning af kondital ud fra 2400-meter løbetesten
-(Hvordan du bruger din tid på testen til at beregne kondital.)
+> **📊 Vil du dykke dybere ned i dit kondital?**
+>
+> 2400-meter testen giver dig et estimeret kondital ($VO_2max$) baseret på din løbetid. 
+>
+>Hvis du vil se de officielle **alders- og kønsspecifikke normtabeller**, læse om hvad der definerer et "godt" kondital, eller se hvordan du effektivt forbedrer din iltoptagelse, har vi samlet det hele ét sted.
+>
+>👉 [**Se vores samlede guide til kondital, normer og beregning her**](/kondital/){: .btn .btn--info }
+{: .notice--info }
 
-Normer for Coopers 2400 meter test
-(En oversigt over de gængse normer for testen baseret på alder og køn.)
+---
 
-Hvad betyder din tid på 2400-meter testen?
-(Vurdering af, hvad din tid betyder for din kondition og hvordan du sammenligner dig med normerne.)
+## Normer for 2,4 km testen
 
-Sådan forbedrer du din tid på 2400-meter løbetesten
-(Træningstips og strategier for at forbedre din præstation.)
+### Aldersopdelte normer for 2400-meter testen
 
-Formel til beregning af kondital fra 2400-meter løbetesten
-(Den matematiske formel og et praktisk eksempel.)
+Vil du sammenligne dine resultater i forhold til din specifikke alder, kan du bruge skemaerne herunder:
 
-Hvor hurtigt bør du kunne løbe 2400 meter?
-(Afslutning med et perspektiv på, hvad der er et godt resultat.)
-***
-{% endcomment %}
+{% include gallery id="gallery_whyiexercise" caption="Aldersopdelte normer for 2400-meter testen for mænd og kvinder." alt="2400 meter testen aldersopdelte normer" %}
 
-## Hvad er 2400-meter-testen?
+### Politiets karakterkrav for 2400 meter
 
-**2400 meter testen er en simpel løbetest for din aerobe kredsløbsmotor, som kun kræver et stopur og en løbebane for at estimere dit kondital. Formålet med testen er at løbe så hurtigt som muligt på distancen.**
+Skal du op til Politiets fysiske optagelsesprøve, gælder følgende specifikke tidskrav for mænd og kvinder:
 
-2400-meter testen er et alternativ til Coopers 12 minutters test, og testen kan sagtens bruges til at finde konditallet i stedet for ifølge [Coopers Institute](https://www.cooperinstitute.org/2018/06/08/50-years-of-the-cooper-12-minute-run).
+| Karakter | Mænd (tid) | Kvinder (tid) |
+| :--- | :--- | :--- |
+| **12** | ≤ 09:00 min | ≤ 10:30 min |
+| **10** | 09:01 - 09:40 min | 10:31 - 11:30 min |
+| **7**  | 09:41 - 10:20 min | 11:31 - 12:00 min |
+| **4**  | 10:21 - 11:00 min | 12:01 - 12:40 min |
+| **02** | 11:01 - 12:00 min | 12:41 - 13:30 min |
 
-Sammen med [Cooper-testen](/cooper-test/) vurderes 2400-meter testen af [Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) i deres systematiske meta-analyse af 123 studier og forskellige løbetests til at have den højeste kriterie-validitet.
+👉 [**Se de samlede krav til alle øvelser i Politiets fysiske test her**](/politiets-fysiske-tests-krav-optagelsesproeve/){: .btn .btn--primary }
 
-2400 meter løbetesten er en del af politiets fysiske optagelsesprøve.
+---
 
-## Sådan udfører du 2400-meter testen
+## Sådan udfører du testen korrekt
 
 {% include video provider="youtube" id="YldNonx193c" %}
 
-Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt. 2400 meter testen er også den test politiet har valgt som løbetest.
+1. **Opvarmning:** Udfør 10-15 minutters let jog efterfulgt af et par korte stigningsløb og dynamiske strækøvelser.
+2. **Start:** Testen startes fra stående start på en opmålt løbebane (f.eks. 6 runder på en standard 400-meter bane) eller en helt flad, udmålt strækning.
+3. **Pacing:** Læg ud i et jævnt og realistisk tempo. Løber du for hurtigt på de første 800 meter, ophober du mælkesyre for tidligt.
+4. **Måltagning:** Stop uret nøjagtigt, idet du passerer 2400-meter mærket, og indtast din tid i beregneren ovenfor.
 
-## Beregner til kondital for 2400-meter testen
+---
 
-I nedenstående beregner kan du udregne dit kondital på baggrund af 2400-meter testen.
+### Tempo- og hastighedstabel for 2400 meter
 
-{% include calculator/calculate-fitness-2400-meter.html %}
+Brug tabellen herunder til at se, hvilket pace (min/km) og hvilken hastighed på løbebåndet der kræves for at ramme din måltid på 2400 meter:
 
-## Normer for 2400 meter konditionstesten
+| Sluttid (2400 m) | Nødvendigt pace | Hastighed (løbebånd) | Relevans / Politikrav |
+| :--- | :--- | :--- | :--- |
+| **08:00 min** | 03:20 min/km | 18,0 km/t | Eliteniveau |
+| **09:00 min** | 03:45 min/km | 16,0 km/t | **Karakter 12** (Mænd) |
+| **09:40 min** | 04:02 min/km | 14,9 km/t | **Karakter 10** (Mænd) |
+| **10:00 min** | 04:10 min/km | 14,4 km/t | Super god grundform |
+| **10:30 min** | 04:23 min/km | 13,7 km/t | **Karakter 12** (Kvinder) / Karakter 7 (Mænd) |
+| **11:00 min** | 04:35 min/km | 13,1 km/t | **Karakter 4** (Mænd) / Karakter 10 (Kvinder) |
+| **12:00 min** | 05:00 min/km | 12,0 km/t | **Karakter 02** (Mænd) / Karakter 7 (Kvinder) |
+| **12:40 min** | 05:16 min/km | 11,4 km/t | **Karakter 4** (Kvinder) |
+| **13:30 min** | 05:37 min/km | 10,7 km/t | **Karakter 02** (Kvinder) |
 
-Følgende klassifikation af 2400 meter testen gælder for mænd og kvinder i alderen 20-29 år og er publiceret af [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm). Den oprindelige kilde er ikke kendt.
-
-| Rating    | Males       | Females     |
-|-----------|-------------|-------------|
-| Very poor	| > 16:01	    | > 19:01     |
-| Poor	    | 16:00-14:01	| 19:00-18:31 |
-| Fair	    | 14:00-12:01	| 18:30-15:55 |
-| Good	    | 12:00-10:46	| 15:54-13:31 |
-| Excellent	| 10:45-9:45	| 13:30-12:30 |
-| Superior	| < 9:44	    | < 12:29     |
-
-På [www.whyiexercise.com](https://www.whyiexercise.com/) kan du finde følgende normer for 2400-meter-testen.
-
-{% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" alt="2400 meter testen normer" %}
+---
 
 ## Hvor hurtigt kan man løbe 2400 meter?
 
-Hvor hurtigt du kan løbe 2400 meter er meget afhængigt af din maksimale iltoptagelse, løbeøkonomi og evne til at gå allout.
+Din tid på 2400 meter afhænger af din maksimale iltoptagelse ($VO_2max$), din løbeøkonomi og din mentale evne til at presse dig selv.
 
-Jeg har fundet verdensrekorderne på 3000 meter og smidt tallene ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}).
+Til sammenligning løb verdensrekordholderen på 3000 meter for mænd, **Daniel Komen**, distancen på 7:20.67. Det svarer til en gennemsnitshastighed på 24,49 km/t (pace 2:27 min/km). Med det tempo tilbagelægger han 2400 meter på blot **5:53**.
 
-Hvis vi kigger på **verdensrekordholderen for mænd på 3000 meter**, Daniel Komen, så har han løbet 3000 meter på 7:20.67. Det svarer til en hastighed på 24,49 km/t med et pace på 2:27 min/km. Daniel Komen løber altså 2400 meter på 5:53.
+Den kvindelige verdensrekordholder på 3000 meter, **Wang Junxia**, løb på 8:06.11 (22,22 km/t, pace 2:42 min/km). I samme tempo svarer det til en 2400-meter tid på **6:29**.
 
-{% include video provider="youtube" id="c6gLVIAXWQo" %}
+---
 
-Den **kvindelige verdensrekordholder på 3000 meter**, Wang Junxia, løb 3000 meter på 8:06.11, hvilket svarer til 22,22 km/t og et pace på 2:42 min/km. Wang Junxia kunne således med samme hastighed løbe 2400 meter på 6:29.
+## Formel til beregning af kondital
 
-{% include video provider="youtube" id="-ZMjcBD5EdM" %}
+Beregneren benytter den anerkendte formel til estimering af kondital ud fra 2400-meter testen, hvor tiden angives i minutter:
 
-## Formel til at udregne konditallet
+$$\text{Kondital} = \frac{483}{\text{tid i minutter}} + 3{,}5$$
 
-Her er den formel fra [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm), der forudsiger konditallet fra tiden (minutter) fra 2400 meter testen, og som bruges i ovenstående beregner.
+*Eksempel:* Løber du 2400 meter på 10 minutter og 00 sekunder (10,0 minutter), bliver beregningen:
 
-$$
-\text{kondital} = \frac{483}{\text{tid}} + 3{,}5
-$$
+$$\text{Kondital} = \frac{483}{10{,}0} + 3{,}5 = 51{,}8 \text{ ml } O_2 / \text{kg} / \text{min}$$
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit fundne resultat direkte i vores samlede [tabel for kondital for mænd og kvinder](/kondital/).
 
-## Konklusion om 2400-meter testen
+## Ofte stillede spørgsmål
 
-2400-meter testen bruges som en del af [Politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
+{% include motionsplan/faq.html %}
+
+
+## Litteratur og referencer
+
+* **Cooper, K. H. (1968).** *A means of assessing maximal oxygen intake: Correlation between field and treadmill testing.* Journal of the American Medical Association (JAMA), 203(3), 201–204.
+* **Mayorga-Vega, D., Bocanegra, O. L., Peña, J., & Viciana, J. (2016).** *Criterion-related validity of the distance- and time-based walk/run field tests for estimating maximal oxygen uptake: A systematic review and meta-analysis.* PLOS ONE, 11(3), e0151671. [PubMed ID: 26987118](https://pubmed.ncbi.nlm.nih.gov/26987118/)
+* **The Cooper Institute (2018).** *50 Years of the Cooper 12-Minute Run.* Tilgængelig online via [cooperinstitute.org](https://www.cooperinstitute.org/2018/06/08/50-years-of-the-cooper-12-minute-run).
+* **Politiskolen / Rigspolitiet.** *Politiets fysiske optagelsesprøve – Krav og protokoller for 2400-meter løbetest.*
+* **TopEndSports.** *2.4 km Run Test (1.5 Mile Run).* Normer og beregningsformel for 2,4 km testen. Tilgængelig via [topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm).

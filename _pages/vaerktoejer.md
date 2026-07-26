@@ -83,30 +83,36 @@ feature_row_biomekanik:
 - image_path: /assets/images/blog/biomekanik-squat.jpg
   alt: Biomekanik i squat - se dig selv som en tændstikmand
   title: Squat model
-  excerpt: 'I squat kan du indstille en tændstikmand til at have dine kropsmål for: overkrop, lår og underben. Så kan du se,
-    hvordan løftet alt andet lige vil se ud.'
+  excerpt: 'Forstå din squat ud fra din kropsbygning. Juster lårben, ryglængde og ankelmobilitet i vores tændstikmand-model og se, hvorfor din dybde og rygvinkel ser ud, som den gør.'
   url: /squat-biomekanik/
   btn_label: Prøv det
   btn_class: btn--primary
 - image_path: /assets/images/blog/biomekanik-benchpress.jpg
   alt: Biomekanik i bænkpres - forstå kraftoverførsel
   title: Bænkpres model
-  excerpt: I bænkpres kan du indstille, hvordan du ligger på bænken, og hvordan du gerne vil have stangens bane til at være.
-    Gør det individuelt med din armlængde.
+  excerpt: Analyser armlængde, opspænd og gribebredde. Se med tændstikmand-modellen, hvordan du optimerer din bevægebane (bar path) og reducerer momentet over skulderleddet.
   url: /baenkpres-biomekanik/
   btn_label: Prøv det
   btn_class: btn--primary
 - image_path: /assets/images/blog/biomekanik-doedloeft.jpg
   alt: Biomekanik i dødløft - den rette løftevinkel
   title: Dødløft model
-  excerpt: I dødløft kan du indstille en tændstikmand med længden på din overkrop, lårben og underben. Se, hvordan et konventionelt
-    dødløft alt andet lige vil se ud.
+  excerpt: Er du bygget til konventionel eller sumo? Indtast dine arm- og torso-proportioner i modellen og se, hvordan din antropometri påvirker dit startpunkt og vægtstangens bane.
   url: /doedloeft-biomekanik/
   btn_label: Prøv det
   btn_class: btn--primary
 ---
 
 Her finder du en samlet oversigt over alle værktøjer på Motionsplan. beregnere og tests. De fleste tests har også en tilhørende beregner, der hjælper dig med at få dit resultat.
+
+{% comment %}
+---
+
+{% include components/tools-table.html %}
+
+---
+{% endcomment %}
+
 
 Derudover finder du beregnere, der kan omregne værdier eller give indsigt i din kost, sundhed og træning.
 

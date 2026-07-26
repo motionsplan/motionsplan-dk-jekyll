@@ -193,7 +193,7 @@ Derfor er det bedre at teste maxpulsen direkte. Det kan du enten gøre selv elle
 
 Resultaterne fra en udregning kan være med til at identificere, hvis man har talt forkert i pulsmålingerne, eller at pulsbæltet og pulsuret har målt et uforklarligt _spike_ i pulsen.
 
-> 🏃 **Tag næste skridt:** Da alle aldersbestemte formler har en høj standardafvigelse, anbefaler vi altid at udføre en **[fysisk maxpuls-test](/max-puls-test/)**, hvis du planlægger din træning efter pulszoner[cite: 16, 17].
+> 🏃 **Tag næste skridt:** Da alle aldersbestemte formler har en høj standardafvigelse, anbefaler vi altid at udføre en **[fysisk maxpuls-test](/max-puls-test/)**, hvis du planlægger din træning efter pulszoner.
 
 ## Hvad kan jeg bruge max-pulsen til?
 

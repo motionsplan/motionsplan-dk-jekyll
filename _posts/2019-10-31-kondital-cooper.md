@@ -77,8 +77,8 @@ I denne guide gennemgår vi:
 
 **⚡ Spring direkte til:**
 
-[🧮 Beregn kondital](#calculator){: .btn .btn--danger .btn--small }
-[📊 Skema & Tabeller](#cooper-test-skema-og-tabeller-normtal){: .btn .btn--info .btn--small }
+[🧮 Beregn kondital](#calculator){: .btn .btn--danger }
+[📊 Skema & Tabeller](#cooper-test-skema-og-tabeller-normtal){: .btn .btn--info }
 
 {% include figure image_path="https://images.unsplash.com/photo-1496163668521-39614a16b23f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" %}
 
@@ -106,8 +106,6 @@ Testens fysiologiske pålidelighed til at udregne konditallet forudsætter, at d
 {: id="calculator" }
 
 Indtast din løbedistance fra de 12 minutter herunder for at udregne dit kondital:
-
-{% include calculator/calculate-fitness-cooper.html %}
 
 {% include calc/cooper-test.html %}
 

@@ -1,0 +1,302 @@
+<!-- ================================================================= -->
+<!-- MOTIONSPLAN HUB - REPARATION & OPGRADERING                         -->
+<!-- ================================================================= -->
+
+<div class="tools-hub-container">
+
+  <!-- FILTER DASHBOARD -->
+  <div class="filter-dashboard">
+    
+    <!-- 1. Søgefelt øverst -->
+    <div class="search-row">
+      <input type="text" id="searchInput" placeholder="🔍 Søg efter værktøj, test eller mål (fx '1RM', 'målebånd', 'børn')..." class="main-search-input">
+    </div>
+
+    <!-- 2. Filter-række (alt på 1 snorlige linje) -->
+    <div class="filters-row">
+      <button type="button" id="popToggleBtn" class="filter-elem pop-btn">
+        ⭐ Populære
+      </button>
+
+      <select id="catSelect" class="filter-elem">
+        <option value="all">Alle kategorier</option>
+        <option value="loeb">🏃 Løb & Gang</option>
+        <option value="styrke">🏋️ Styrketræning</option>
+        <option value="krop">🥑 Krop & Fedt</option>
+        <option value="kalorier">🔥 Kalorier & BMR</option>
+        <option value="oevrige">🧬 Fysiologi & Øvrige</option>
+      </select>
+
+      <select id="equipSelect" class="filter-elem">
+        <option value="all">Alt udstyr</option>
+        <option value="ingen">🙌 Uden udstyr</option>
+        <option value="målebånd">📐 Målebånd / Vægt</option>
+        <option value="vægtstang">🏋️ Vægtstang / Vægte</option>
+        <option value="puls">⏱️ Pulsmåler / Rute</option>
+      </select>
+
+      <select id="typeSelect" class="filter-elem">
+        <option value="all">Alle typer</option>
+        <option value="sofa">🛋️ Indtastning</option>
+        <option value="test">💦 Fysisk test</option>
+      </select>
+
+      <button type="button" id="resetBtn" class="filter-elem reset-btn">
+        🔄 Nulstil
+      </button>
+    </div>
+
+  </div>
+
+  {% assign all_tools = site.posts | where_exp: "post", "post.tags contains 'værktøj'" | sort: "title" %}
+
+  <!-- SAMLET SIKKER TABEL -->
+  <div class="table-responsive">
+    <table class="clean-tools-table">
+      <thead>
+        <tr>
+          <th style="width: 50%;">Værktøj / Test</th>
+          <th style="width: 25%;">Måler</th>
+          <th style="width: 25%;">Udstyr</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tool in all_tools %}
+          {% comment %} Fejlsikret udtræk af meta-data {% endcomment %}
+          {% assign tool_title = tool.meta.name | default: tool.title %}
+          {% assign tool_measures = tool.meta.measures | default: "-" %}
+          {% assign tool_equipment = tool.meta.equipment | default: "Ingen" %}
+          {% assign tool_type = tool.meta.type | default: "sofa" %}
+          
+          {% assign m_down = tool_measures | downcase %}
+          {% assign t_down = tool.tags | join: " " | downcase %}
+          {% assign eq_down = tool_equipment | downcase %}
+
+          {% comment %} Tildel kategorier til JavaScript-filtering {% endcomment %}
+          {% assign cat_tags = "" %}
+          {% if m_down contains "løb" or m_down contains "kondital" or m_down contains "pace" or m_down contains "cooper" or m_down contains "bip" or m_down contains "gang" or t_down contains "løb" %}
+            {% assign cat_tags = cat_tags | append: "loeb " %}
+          {% endif %}
+          {% if m_down contains "styrke" or m_down contains "1rm" or m_down contains "bænkpres" or m_down contains "max" or m_down contains "vægtstang" or t_down contains "styrke" %}
+            {% assign cat_tags = cat_tags | append: "styrke " %}
+          {% endif %}
+          {% if m_down contains "fedtprocent" or m_down contains "bmi" or m_down contains "krop" or t_down contains "krop" %}
+            {% assign cat_tags = cat_tags | append: "krop " %}
+          {% endif %}
+          {% if m_down contains "bmr" or m_down contains "hvilestofskifte" or m_down contains "kalorier" or m_down contains "energi" or t_down contains "kalorier" %}
+            {% assign cat_tags = cat_tags | append: "kalorier " %}
+          {% endif %}
+          {% if cat_tags == "" %}
+            {% assign cat_tags = "oevrige " %}
+          {% endif %}
+
+          <tr class="tool-row" 
+              data-search="{{ tool_title | downcase }} {{ m_down }} {{ eq_down }} {{ t_down }}"
+              data-cat="{{ cat_tags }}"
+              data-type="{{ tool_type }}"
+              data-equipment="{{ eq_down }}"
+              data-pop="{% if t_down contains 'featured' or t_down contains 'populær' %}true{% else %}false{% endif %}">
+            <td>
+              <a href="{{ tool.url }}" class="tool-link">{{ tool_title }}</a>
+            </td>
+            <td>{{ tool_measures | capitalize }}</td>
+            <td>{{ tool_equipment | capitalize }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- CSS -->
+<style>
+.tools-hub-container {
+  margin-top: 15px;
+}
+
+.filter-dashboard {
+  background: #fdfdfd;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.search-row {
+  margin-bottom: 10px;
+}
+
+.main-search-input {
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.main-search-input:focus {
+  border-color: #0073e6;
+}
+
+/* Flex-række der holder alt på 1 linje uden nedskub */
+.filters-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-elem {
+  padding: 6px 8px;
+  font-size: 0.8rem;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  outline: none;
+  height: 34px;
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pop-btn {
+  border-color: #ffc107;
+  background: #fff8e1;
+  color: #856404;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pop-btn.active {
+  background: #ffc107;
+  color: #000;
+}
+
+.reset-btn {
+  background: #f5f5f5;
+  color: #555;
+  border-color: #ddd;
+  cursor: pointer;
+  font-weight: 600;
+  flex: 0 0 auto;
+  padding: 6px 12px;
+}
+
+.reset-btn:hover {
+  background: #e2e6ea;
+  color: #000;
+}
+
+.clean-tools-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.clean-tools-table th {
+  background-color: #f8f9fa;
+  padding: 10px 12px;
+  border-bottom: 2px solid #ddd;
+  font-size: 0.88rem;
+  color: #555;
+}
+
+.clean-tools-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.tool-link {
+  font-weight: 600;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.tool-link:hover {
+  text-decoration: underline;
+}
+</style>
+
+<!-- JAVASCRIPT LOGIK -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const searchInput = document.getElementById("searchInput");
+  const catSelect = document.getElementById("catSelect");
+  const equipSelect = document.getElementById("equipSelect");
+  const typeSelect = document.getElementById("typeSelect");
+  const popToggleBtn = document.getElementById("popToggleBtn");
+  const resetBtn = document.getElementById("resetBtn");
+  const rows = document.querySelectorAll(".tool-row");
+
+  let onlyPopular = false;
+
+  if (popToggleBtn) {
+    popToggleBtn.addEventListener("click", function() {
+      onlyPopular = !onlyPopular;
+      this.classList.toggle("active", onlyPopular);
+      filterAll();
+    });
+  }
+
+  if (resetBtn) {
+    resetBtn.addEventListener("click", function() {
+      if (searchInput) searchInput.value = "";
+      if (catSelect) catSelect.value = "all";
+      if (equipSelect) equipSelect.value = "all";
+      if (typeSelect) typeSelect.value = "all";
+      onlyPopular = false;
+      if (popToggleBtn) popToggleBtn.classList.remove("active");
+      filterAll();
+    });
+  }
+
+  function filterAll() {
+    const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+    const selectedCat = catSelect ? catSelect.value : "all";
+    const selectedEquip = equipSelect ? equipSelect.value : "all";
+    const selectedType = typeSelect ? typeSelect.value : "all";
+
+    rows.forEach(row => {
+      const searchData = row.getAttribute("data-search") || "";
+      const rowCats = row.getAttribute("data-cat") || "";
+      const rowType = row.getAttribute("data-type") || "";
+      const rowEquip = row.getAttribute("data-equipment") || "";
+      const isPop = row.getAttribute("data-pop") === "true";
+
+      const matchesSearch = query === "" || searchData.includes(query);
+      const matchesCat = selectedCat === "all" || rowCats.includes(selectedCat);
+      const matchesType = selectedType === "all" || rowType === selectedType;
+      
+      let matchesEquip = true;
+      if (selectedEquip !== "all") {
+        if (selectedEquip === "ingen") {
+          matchesEquip = rowEquip === "ingen" || rowEquip === "" || rowEquip.includes("ingen");
+        } else {
+          matchesEquip = rowEquip.includes(selectedEquip);
+        }
+      }
+
+      const matchesPop = !onlyPopular || isPop;
+
+      if (matchesSearch && matchesCat && matchesType && matchesEquip && matchesPop) {
+        row.style.display = "";
+      } else {
+        row.style.display = "none";
+      }
+    });
+  }
+
+  if (searchInput) searchInput.addEventListener("keyup", filterAll);
+  if (catSelect) catSelect.addEventListener("change", filterAll);
+  if (equipSelect) equipSelect.addEventListener("change", filterAll);
+  if (typeSelect) typeSelect.addEventListener("change", filterAll);
+});
+</script>

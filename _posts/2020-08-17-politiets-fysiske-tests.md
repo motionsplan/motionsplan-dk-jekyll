@@ -1,10 +1,10 @@
 ---
-title: &title "Krav til Politiets fysiske test (Guide)"
-seo_title: "Politiets fysiske tests og krav – sådan klarer du dem"
 permalink: /politiets-fysiske-tests-krav-optagelsesproeve/
-excerpt: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bænkpres og længdespring. Se kravene, og få træningstips til at bestå."
-description: "Politiets optagelsesprøve inkluderer fysiske tests som løb, bænkpres og længdespring. Se kravene, og få træningstips til at bestå."
-last_modified_at: 2024-08-17T09:41:09Z
+title: &title "Politiets Fysiske Test: Krav, Karakterskala & Løbetest (Mænd & Kvinder)"
+seo_title: "Politiets fysiske test – Se kravene for mænd & kvinder"
+excerpt: "Skal du til optagelsesprøve hos Politiet? Se alle fysiske krav, karakterskalaen, løbetest og styrkeøvelser for mænd og kvinder."
+description: "Se de fysiske krav til Politiets optagelsesprøve. Få fuldt overblik over karakterskalaen, 2400m løbetest, bænkpres og specifikke kravene for mænd og kvinder."
+last_modified_at: 2026-08-17T09:41:09Z
 language: da
 header:
   overlay_image: /assets/images/blog/police-training.png
@@ -241,9 +241,11 @@ Det er tilladt at anvende handsker eller magnesium, der øger friktionen.
 
 ## 6️⃣ 2400 meter løb
 
-Politiets fysiske krav inkluderer også [Coopers 2400 meter test](/kondital-2400-meter/). Politiet har lavet sine egne krav til testen. Tjek testen ud herunder.
+Den afsluttende del af Politiets fysiske optagelsesprøve er en 2400-meter løbetest. Formålet er at gennemføre distancen så hurtigt som overhovedet muligt.
 
-**Udførelse:** Du løber en strækning på 2400 meter.
+> ⏱️ **Vil du teste din tid og beregne dit kondital?**  
+> Brug vores dedikerede [2400-meter test beregner](/kondital-2400-meter/), hvor du kan indtaste din løbetid og se dit estimerede kondital ($VO_2max$).
+{: .notice--info }
 
 {% include video provider="youtube" id="YldNonx193c" %}
 
@@ -264,7 +266,7 @@ Ved prøven kan der være forskelligt løbeunderlag og vekslende vejrforhold.
 
 ***
 
-## Hvordan bedømmes politiets fysiske optagelsesprøve?
+## Karakterskala og bedømmelse af Politiets fysiske test
 
 Alle de fem fysiske delprøver vægtes lige, og det samlede resultat er det matematiske gennemsnit af de karakterer, du opnår i hurtighedstest, længdespring, kropshævninger, bænkpres og 2400 meter løb. Til sidst afrundes din karakter til den nærmeste hele karakter på 7-trinsskalaen.
 

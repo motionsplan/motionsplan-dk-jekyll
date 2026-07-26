@@ -5,8 +5,7 @@ permalink: /doedloeft-biomekanik/
 author: jye.schmidt
 excerpt: Forstå dødløft fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og se, hvordan teknik og antropometri
   påvirker løftet.
-description: Forstå dødløft fra et biomekanisk perspektiv. Se dig selv som en tændstikmand og se, hvordan teknik og antropometri
-  påvirker løftet.
+description: Er du bygget til konventionel eller sumo? Indtast dine arm- og torso-proportioner i modellen og se, hvordan det påvirker dit startpunkt og vægtstangens bane.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1623946724822-ba48a838f3da.jpg

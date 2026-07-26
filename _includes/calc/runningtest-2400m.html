@@ -1,0 +1,232 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-2400-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 8px !important; border: 1.5px solid #cbd5e1 !important; background: #ffffff !important; margin: 0 !important; }
+
+  /* FORMEL BADGE STYLES */
+  .mp-2400-auto-badge { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .mp-2400-badge-header { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 0.5rem; }
+  .mp-2400-badge-title-group { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+  .mp-2400-badge-title { font-size: 0.85rem; font-weight: 800; color: #0f172a; }
+  .mp-2400-rec-tag { font-size: 0.65rem; font-weight: 800; color: #1e40af; background: #dbeafe; padding: 2px 6px; border-radius: 5px; }
+
+  .mp-2400-btn-gear { background: #ffffff !important; border: 1px solid #93c5fd !important; color: #2563eb !important; font-size: 1rem !important; width: 34px !important; height: 34px !important; border-radius: 8px !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.15s ease !important; padding: 0 !important; }
+  .mp-2400-btn-gear:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  .mp-2400-picker-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .mp-2400-picker-card { background: #ffffff; border: 2px solid #e2e8f0; border-radius: 10px; padding: 0.75rem 0.9rem; cursor: pointer; transition: all 0.15s ease; text-align: left; }
+  .mp-2400-picker-card:hover:not(.is-selected) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-2400-picker-card.is-selected { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  .mp-2400-check-icon { width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; color: #94a3b8; font-size: 0.7rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+  .mp-2400-picker-card.is-selected .mp-2400-check-icon { background: #2563eb; color: #ffffff; }
+
+  /* BADGE KNAP I HERO */
+  .mp-badge-btn-hero {
+    margin-top: 0.85rem;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    background: #e2e8f0;
+    color: #64748b;
+    transition: all 0.15s ease;
+    align-self: center;
+  }
+  .mp-badge-btn-hero:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .mp-clickable-box {
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .mp-clickable-box:hover {
+    border-color: #93c5fd !important;
+    background-color: #f8fafc !important;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="runningtest-2400m" data-ui-module="runningtest-2400m-ui" style="max-width: 650px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.85rem; margin-bottom: 1.15rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">🏃‍♀️ 2400 Meter Løbetest</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dit kondital ud fra din tid på 2,4 km løb.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- 1. MÅLEVÆRDIER INPUTS -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+    <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">1. Indtast løbetid og stamdata</h4>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.85rem;">
+      <div>
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Tid (minutter)</label>
+        <input type="number" name="r24_min" class="mp-2400-input js-r24-input" min="4" max="40" placeholder="10" value="10" style="width:100%;">
+      </div>
+      <div>
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Tid (sekunder)</label>
+        <input type="number" name="r24_sec" class="mp-2400-input js-r24-input" min="0" max="59" placeholder="30" value="30" style="width:100%;">
+      </div>
+    </div>
+
+    <div style="border-top: 1px dashed #cbd5e1; padding-top: 0.85rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+      <div>
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Alder (år)</label>
+        <input type="number" name="r24_age" class="mp-2400-input js-r24-input" min="10" max="100" placeholder="30" value="30" style="width:100%;">
+      </div>
+      <div>
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">Køn</label>
+        <div class="mp-toggle-group" style="height: 42px;">
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="r24_gender" value="male" class="js-r24-input" checked style="display:none;">
+            <div class="mp-toggle-btn" style="height:42px; display:flex; align-items:center; justify-content:center; font-size: 0.85rem; font-weight:800; border-radius:8px; border:1.5px solid #cbd5e1; cursor:pointer;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative;">
+            <input type="radio" name="r24_gender" value="female" class="js-r24-input" style="display:none;">
+            <div class="mp-toggle-btn" style="height:42px; display:flex; align-items:center; justify-content:center; font-size: 0.85rem; font-weight:800; border-radius:8px; border:1.5px solid #cbd5e1; cursor:pointer;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. FORMEL VÆLGER -->
+  <div style="margin-bottom: 1.25rem;">
+    <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+      2. Vælg beregningsformel
+    </label>
+
+    <div class="js-r24-formula-bar mp-2400-auto-badge">
+      <!-- Genereres dynamisk i JS -->
+    </div>
+
+    <div class="js-r24-manual-dropdown-wrapper" style="display: none;">
+      <div class="js-r24-picker-container mp-2400-picker-list" style="margin-top: 0.5rem;">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. RESULTATER -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    <div class="mp-results-split">
+      
+      <!-- Venstre: Kondital, Slider & Integreret Badge/Tabel-knap -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 1.25rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; margin-bottom: 0.25rem; color: #1e40af; font-weight: 700;">
+            Estimeret Kondital
+          </div>
+          
+          <div class="js-r24-fitness" style="font-size: 3.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.25rem 0;">-</div>
+          <div style="font-size: 0.95rem; font-weight: 800; color: #3b82f6;">ml/kg/min</div>
+          
+          <!-- Slider Continuum -->
+          <div class="mp-fitness-continuum" style="margin-top: 1rem;">
+            <div class="mp-continuum-bar-wrapper">
+              <div class="mp-continuum-bar">
+                <div class="mp-segment" style="background: #ef4444;"></div>
+                <div class="mp-segment" style="background: #f97316;"></div>
+                <div class="mp-segment" style="background: #eab308;"></div>
+                <div class="mp-segment" style="background: #22c55e;"></div>
+                <div class="mp-segment" style="background: #3b82f6;"></div>
+              </div>
+              <div class="js-r24-continuum-marker mp-continuum-marker" style="display: none;"></div>
+            </div>
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 4px; text-transform: uppercase;">
+              <span>Lav</span>
+              <span>Høj</span>
+            </div>
+          </div>
+
+          <!-- KONDITAL BADGE MED INTEGRERET TABEL-IKON -->
+          <button type="button" class="mp-badge-btn-hero js-open-popup-btn js-r24-eval-badge" data-popup-type="vo2max" title="Klik for at se kondital normtabel">
+            <span class="js-r24-eval-text">Mangler data</span>
+            <span style="font-size: 0.85rem; line-height: 1;">📊</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Højre: Dobbelt Vurderingsbokse + Hastighed -->
+      <div class="mp-results-boxes">
+        
+        <!-- BOKS 1: Politiprøven -->
+        <div class="mp-result-box-split mp-clickable-box js-open-popup-btn" data-popup-type="police" style="padding: 0.75rem 0.85rem; align-items: center; justify-content: space-between; gap: 0.5rem;" title="Klik for at se Politiprøvens karakterskala">
+          <div class="mp-box-left" style="display: flex; align-items: center; gap: 0.4rem; min-width: 0;">
+            <span class="js-r24-police-icon" style="font-size: 1.4rem; line-height: 1; flex-shrink: 0;">👮‍♂️</span>
+            <div style="font-weight: 800; font-size: 0.8rem; color: #475569; line-height: 1.2;">Politiprøve</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; flex-shrink: 0;">
+            <div class="js-r24-police-badge" style="display: inline-flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.25rem 0.65rem; border-radius: 8px; background: #e2e8f0; color: #64748b; min-width: 60px;">
+              <span class="js-r24-police-grade" style="font-size: 1.35rem; font-weight: 900; line-height: 1;">-</span>
+              <span class="js-r24-police-status" style="font-size: 0.6rem; font-weight: 800; opacity: 0.95; margin-top: 2px;">-</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOKS 2: Cooper aldersnorm (LØST OVERLAP MED BR) -->
+        <div class="mp-result-box-split mp-clickable-box js-open-popup-btn" data-popup-type="cooper" style="padding: 0.75rem 0.85rem; align-items: center; justify-content: space-between; gap: 0.5rem;" title="Klik for at se Coopers aldersnormer">
+          <div class="mp-box-left" style="min-width: 0; flex: 1;">
+            <div style="font-weight: 800; font-size: 0.8rem; color: #475569; line-height: 1.25;">
+              Cooper<br>aldersnorm
+            </div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; flex-shrink: 0;">
+            <div class="js-r24-cooper-badge" style="font-size: 0.775rem; font-weight: 800; padding: 0.35rem 0.6rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
+              -
+            </div>
+          </div>
+        </div>
+
+        <!-- BOKS 3: Gennemsnitshastighed -->
+        <div class="mp-result-box-split" style="padding: 0.75rem 0.85rem; align-items: center; justify-content: space-between; gap: 0.5rem;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div style="font-weight: 800; font-size: 0.8rem; color: #475569; line-height: 1.2;">Gns. hastighed</div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1; flex-shrink: 0;">
+            <div class="js-r24-speed" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">km/t</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- POPUP OVERLAY -->
+    <div class="js-r24-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 class="js-r24-popup-title" style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Tabel</h4>
+        <button type="button" class="js-r24-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="flex: 1; overflow-y: auto;">
+        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+          <tbody class="js-r24-table-body">
+            <!-- Udfyldes dynamisk i JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+  </div>
+</div>
