@@ -1,0 +1,218 @@
+<!-- Interaktivt Sportsfilter til Motionsplan.dk -->
+<div class="sports-filter-wrapper">
+  
+  <!-- Søgbar overdel -->
+  <div class="sports-filter-controls">
+    <div class="search-box">
+      <input type="text" id="sportSearchInput" placeholder="🔍 Søg efter sportsgren..." onkeyup="filterSports()">
+    </div>
+    
+    <div class="filter-dropdowns">
+      <!-- Kategori Filter -->
+      <select id="kategoriFilter" onchange="filterSports()">
+        <option value="">Alle kategorier</option>
+        <option value="Bold- og ketchersport">⚽ Bold- & Ketchersport</option>
+        <option value="Kampsport og selvforsvar">🥋 Kampsport & Selvforsvar</option>
+        <option value="Vandsport">🏊 Vandsport</option>
+        <option value="Løb fitness og styrke">🏃 Løb, Fitness & Styrke</option>
+        <option value="Præcision og spil">🎯 Præcision & Spil</option>
+        <option value="Vintersport og is">⛷️ Vintersport & Is</option>
+        <option value="Friluft og motorsport">🏎️ Friluft & Motorsport</option>
+      </select>
+
+      <!-- Form Filter -->
+      <select id="formFilter" onchange="filterSports()">
+        <option value="">Hold eller individuel?</option>
+        <option value="Hold">Holdsport</option>
+        <option value="Individuel">Individuel sport</option>
+        <option value="Både hold og individuel">Både hold & individuel</option>
+      </select>
+
+      <!-- Sted Filter -->
+      <select id="stedFilter" onchange="filterSports()">
+        <option value="">Indendørs eller udendørs?</option>
+        <option value="Indendørs">Indendørs</option>
+        <option value="Udendørs">Udendørs</option>
+        <option value="Begge">Begge dele</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Tæller -->
+  <div class="sports-count-status">
+    Viser <span id="visibleSportsCount">{{ site.data.sportsgrene.size }}</span> af {{ site.data.sportsgrene.size }} sportsgrene
+    <button id="resetSportsBtn" onclick="resetSportsFilters()" style="display:none;">Nulstil filtre</button>
+  </div>
+
+  <!-- Trik/Tabel -->
+  <div class="sports-table-container">
+    <table id="sportsFilterTable">
+      <thead>
+        <tr>
+          <th>Sportsgren</th>
+          <th>Kategori</th>
+          <th>Form</th>
+          <th>Sted</th>
+          <th>Beskrivelse</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.data.sportsgrene %}
+        <tr class="sport-item-row" 
+            data-name="{{ row.Sportsgren | downcase }}" 
+            data-kategori="{{ row.Kategori }}" 
+            data-form="{{ row.Form }}" 
+            data-sted="{{ row.Sted }}">
+          <td class="sport-title"><strong>{{ row.Sportsgren }}</strong></td>
+          <td><span class="badge cat-badge">{{ row.Kategori }}</span></td>
+          <td>{{ row.Form }}</td>
+          <td>{{ row.Sted }}</td>
+          <td class="sport-desc">{{ row.Beskrivelse }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  
+  <div id="noSportsFound" style="display:none;" class="no-results-msg">
+    <p>Ingen sportsgrene matchede din søgning. Prøv at nulstille dine filtre.</p>
+  </div>
+</div>
+
+<!-- Letvægts CSS styling -->
+<style>
+.sports-filter-wrapper {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 25px 0;
+}
+.sports-filter-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.search-box input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.search-box input:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+.filter-dropdowns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+.filter-dropdowns select {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background: white;
+  font-size: 14px;
+}
+.sports-count-status {
+  margin: 15px 0 10px 0;
+  font-size: 14px;
+  color: #6c757d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#resetSportsBtn {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 13px;
+}
+.sports-table-container {
+  overflow-x: auto;
+}
+#sportsFilterTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 5px;
+}
+#sportsFilterTable th, #sportsFilterTable td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 14px;
+}
+#sportsFilterTable th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+}
+.badge.cat-badge {
+  background: #e7f5ff;
+  color: #1864ab;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.no-results-msg {
+  text-align: center;
+  padding: 30px;
+  color: #868e96;
+}
+@media (max-width: 600px) {
+  #sportsFilterTable th:nth-child(2),
+  #sportsFilterTable td:nth-child(2) { display: none; } /* Skjul Kategori på mobil for plads */
+}
+</style>
+
+<!-- Lynhurtigt Vanilla JavaScript -->
+<script>
+function filterSports() {
+  const searchVal = document.getElementById('sportSearchInput').value.toLowerCase().trim();
+  const kategoriVal = document.getElementById('kategoriFilter').value;
+  const formVal = document.getElementById('formFilter').value;
+  const stedVal = document.getElementById('stedFilter').value;
+  
+  const rows = document.querySelectorAll('.sport-item-row');
+  let visibleCount = 0;
+  
+  rows.forEach(row => {
+    const name = row.getAttribute('data-name');
+    const kategori = row.getAttribute('data-kategori');
+    const form = row.getAttribute('data-form');
+    const sted = row.getAttribute('data-sted');
+    
+    const matchesSearch = name.includes(searchVal);
+    const matchesKategori = !kategoriVal || kategori === kategoriVal;
+    const matchesForm = !formVal || form === formVal || form === "Både hold og individuel";
+    const matchesSted = !stedVal || sted === stedVal || sted === "Begge";
+    
+    if (matchesSearch && matchesKategori && matchesForm && matchesSted) {
+      row.style.display = '';
+      visibleCount++;
+    } else {
+      row.style.display = 'none';
+    }
+  });
+  
+  document.getElementById('visibleSportsCount').innerText = visibleCount;
+  document.getElementById('noSportsFound').style.display = visibleCount === 0 ? 'block' : 'none';
+  
+  const isFiltered = searchVal !== '' || kategoriVal !== '' || formVal !== '' || stedVal !== '';
+  document.getElementById('resetSportsBtn').style.display = isFiltered ? 'inline' : 'none';
+}
+
+function resetSportsFilters() {
+  document.getElementById('sportSearchInput').value = '';
+  document.getElementById('kategoriFilter').value = '';
+  document.getElementById('formFilter').value = '';
+  document.getElementById('stedFilter').value = '';
+  filterSports();
+}
+</script>

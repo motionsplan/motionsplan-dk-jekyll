@@ -1,13 +1,12 @@
 ---
 title: 'De fem tibetanere: Komplet guide til de 5 yoga øvelser'
-seo_title: De fem tibetanere | Komplet guide til de 5 yoga øvelser
-description: 'Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder og
-  videoer, der viser øvelserne trin for trin.'
-excerpt: 'Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder og videoer,
-  der viser øvelserne trin for trin.'
+seo_title: De fem tibetanere | Komplet guide til de 5 yoga øvelser & historien
+description: 'Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder, videoer, vejrtrækning og historien bag riterne.'
+excerpt: 'Lær de fem tibetanere: Yogaøvelser for styrke, fleksibilitet og velvære. Få en komplet guide med billeder, videoer, vejrtrækning og historien bag riterne.'
 permalink: /artikel/de-fem-tibetanere/
 redirect_from:
 - /2009-07-01-de-fem-tibetanere/
+- /artikel/de-fem-tibetanere/historie/
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1599901860904-17e6ed7083a0.jpg
@@ -24,14 +23,13 @@ tags:
 - begynder
 category:
 - Yoga
-last_modified_at: '2025-04-04T09:41:09Z'
+last_modified_at: '2026-07-26T12:00:00Z'
 feature_row:
 - image_path: /assets/images/denintelligentekrop.dk/de-fem-tibetanere-1-77eebdf6.jpg
   credit: https://imgcdn.saxo.com/_9788777594281/0x500
   alt: Bogen De 5 tibetanere af Peter Kelder
   title: De fem tibetanere (bog 1)
-  excerpt: Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder.
-    Solgt i mere end 2 millioner eksemplarer. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære.
+  excerpt: Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser er skrevet af Peter Kelder og solgt i mere end 2 millioner eksemplarer.
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/de-fem-tibetanere-bog1_peter-kelder_paperback_9788777594281
   btn_label: Tjek prisen
   btn_class: btn--success
@@ -39,8 +37,7 @@ feature_row:
 - image_path: https://imgcdn.saxo.com/_9788777594304/0x500
   alt: Peter Kelders anden bog om de 5 tibetanere
   title: De fem tibetanere (bog 2)
-  excerpt: Den gamle hemmelighed om ungdommens kilde er opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er på 302 sider
-    og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner.
+  excerpt: Opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er mere omfattende og præsenterer blandt andet den sjette tibetaner.
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/de-fem-tibetanere-bog-2_brugtbog_sx106906273
   btn_label: Tjek prisen
   btn_class: btn--success
@@ -50,8 +47,7 @@ feature_row_yogamat:
   credit: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/960x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
   alt: Manduka X Yoga Mat
   title: Manduka X Yoga Mat
-  excerpt: Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan
-    fx kigge på denne Manduka X Yoga Mat.
+  excerpt: Hvis du laver meget træning og yoga, anbefaler vi at investere i en yogamåtte af høj kvalitet for bedre greb og komfort.
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat
   btn_label: Tjek prisen
   btn_class: btn--success
@@ -79,285 +75,261 @@ gallery:
   title: 'Rite 5: De 5 tibetanere'
 faq:
 - question: Hvad er de 5 tibetanere?
-  answer: 'De 5 tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til
-    vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere. De fem tibetanske riter skal laves
-    21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom.'
+  answer: De 5 tibetanere er fem yogabaserede øvelser skabt af tibetanske munke. Yogaøvelserne blev bragt til Vesten af Oberst Bradford og beskrevet af Peter Kelder i hans berømte bog. De fem tibetanske riter laves op til 21 gange hver og tager 10-20 minutter.
 - question: Hvordan skal jeg trække vejret ved de fem tibetanere?
-  answer: 'Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Du kan læse om vejrtrækningen i øvelsesbeskrivelserne.
-    Vejrtrækningen stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
-
-    '
+  answer: Vejrtrækningen er en helt central del af riterne. Tommelfingerreglen er, at du trækker vejret ind på de løftende eller udvidende bevægelser, og puster ud på de sænkende eller sammentrækkende bevægelser.
 - question: Hvor lang tid tager det at lave de 5 tibetanere?
-  answer: Det tager kun omkring 10-20 minutter at lave de fem tibetanere.
+  answer: Det tager kun omkring 10-20 minutter at gennemføre alle fem riter med 21 gentagelser hver.
 - question: Virker de 5 tibetanere?
-  answer: 'Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning
-    direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre
-    tibetanerne.
-
-
-    Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere.
-    Stay tuned.
-
-    '
-- question: Hvorfor er der 5 tibetanere?
-  answer: 'Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er
-    nok, at det er et godt tal. Der er mange der søger på: "de syv tibetanere" eller "de 7 tibetanere øvelser". Hvis du ved,
-    hvor for det er endt på 5, så brug rigtig gerne kommentarerne.
-
-    '
+  answer: Riterne opbygger kropsstamme, mobilitet og balance. Mange oplever øget energi, bedre søvn og større mental klarhed ved daglig praksis.
+- question: Hvorfor skal man lave præcis 21 gentagelser?
+  answer: 21 anses ifølge den østerlandske filosofi for det optimale antal gentagelser til at stimulere kropsenergien og chakraerne uden at overbelaste systemet.
 - question: Hvad er den sjette tibetaner?
-  answer: 'I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som jeg ikke har kunnet finde så mange referencer
-    til.
-
-
-    Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite:
-
-
-    > **"It should be practiced only when you feel an excess of sexual energy..."**
-
-    >
-
-    > — <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
-
-
-    Hvis du vil vide mere, så kan du dykke yderligere ned i [historien bag ved de tibetanske riter](/artikel/de-fem-tibetanere/historie/).
-
-    '
-toc_sticy: 'true'
+  answer: Den sjette tibetaner er en supplerende rite beskrevet i Peter Kelders bog nr. 2. Den er designet til at omdanne overskydende seksuel energi til livskraft og udføres kun efter behov.
+- question: Findes der "de syv tibetanere"?
+  answer: Mange søger på "de 7 tibetanere" eller "de syv tibetanere øvelser", men det oprindelige program består af 5 riter (plus den valgfri 6. rite). Forvekslingen opstår ofte, fordi øvelserne stimulerer kroppens 7 chakraer.
+- question: Findes der forskning om de fem tibetanere?
+  answer: Der findes ikke direkte kliniske forsøg på det samlede program med de 5 tibetanere. Men forskningen i de enkelte elementer (Hatha Yoga, vestibulær balancetræning, kropstammestyrke og kontrolleret vejrtrækning) dokumenterer klare fordele som forbedret smidighed, lavere stressniveau og bedre balance.
+toc_sticky: 'true'
 ---
 
-Vil du gerne vide mere om de fem tibetanere? Her lærer du, hvordan du udfører de 5 yogaøvelser, og hvilken virkning øvelserne har på kroppen. Lad os dykke ned i hemmelighederne bag ungdommens kilde.
+Vil du gerne lære **de fem tibetanere**? Her finder du den komplette guide til de 5 klassiske yogaøvelser. Du får **trin-for-trin instruktioner med billeder og video**, vejledning i vejrtrækning samt den fascinerende **historiske baggrund** om Oberst Bradford og munkene i Himalaya.
 
 {% include figure image_path="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="øvelse fra de 5 tibetanere" %}
 
-De fem tibetanske riter er en rigtig god introduktion til yoga, og de simple yogaøvelser er lette at implementere i din hverdag. De fem øvelser kan udføres hvor som helst.
+De fem tibetanske riter er en fantastisk introduktion til yoga og enkle at implementere i din hverdag. Øvelserne kan udføres hvor som helst uden særligt udstyr, og det tager kun omkring 15-20 minutter at gennemføre programmet.
 
-Du skal udføre yogaøvelserne 21 gange hver, og det tager omkring 15-20 minutter at lave alle øvelserne.
+> Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller som en hurtig træning i hverdagen. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde](/artikel/solhilsen-a-b-surya-namaskar/).
+{: .notice--info }
 
-{% comment %}
-
-De blev beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0.
-
-Øvelserne har vundet større og større indpas i den vestlige verden og udføres dagligt af flere millioner mennesker.
-
-{% endcomment %}
-
-Jeg har samlet den vigtigste information om de fem tibetanere i dette indlæg.
-
-Lær **hvordan riterne skal laves med både video og illustrationer**, fordele og ulemper og historien og den filosofiske baggrund bag de 5 tibetanere.
-
-{% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Illustration af de fem tibetanere. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
+---
 
 ## Hvad er de fem tibetanere?
 
-De fem tibetanere stammer fra tibetanske munke. De fem enkle yogaøvelser er efter sigende kilden til evig ungdom, når du udfører dem hver dag.
+De fem tibetanere stammer oprindeligt fra tibetanske munke. I den vestlige verden kaldes riterne ofte for "ungdommens kilde", fordi den daglige udøvelse påstås at give fornyet livskraft, styrke og smidighed.
 
-Yogaøvelserne blev bragt til vesten af Oberst Bradford, og vennen Peter Kelder beskrev i slutningen af 1930'erne øvelserne i en [ret interessant bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
+Øvelserne blev bragt til Vesten af den britiske officer Oberst Bradford, og hans ven Peter Kelder beskrev øvelserne i slutningen af 1930'erne i bogen *De Fem Tibetanere*.
 
-I denne lidt ældre video fra Youtube kan du lære endnu mere om øvelserne.
+{% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Oversigt over de fem tibetanske riter. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
 
-{% include video provider="youtube" id="x2lOypwVfKo" %}
+---
 
-Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
+## Sådan udfører du de fem tibetanere (Trin-for-trin)
 
-{% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere og hans erfaringer med øvelserne. Du kan købe bøgerne hos [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
+Lyt altid til kroppen, når du udfører riterne. Selvom slutmålet er **21 gentagelser** af hver øvelse, skal du starte roligt ud (fx 3-5 gentagelser) og gradvist opbygge din form.
 
-## Sådan udfører du de fem tibetanere
+*Det må aldrig gøre ondt at udføre øvelserne.*
 
-Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
-
-Vi har samlet både videoer, illustrationer og forklaringer i det følgende.
-
-Jeg beskriver og illustrerer med billeder i dette afsnit, hvordan du skal udføre de fem tibetanere.
-
-## Video af tibetanerne på Youtube
-
-Jeg har udvalgt de bedste videoer fra Youtube, hvor danske yogainstruktører forklarer de fem yogaøvelser og sammenhængen mellem riterne.
-
-Du kan prøve at se alle videoerne for at se, hvilken instruktør, du helst vil have til at forklare øvelserne.
-
-Yogainstruktøren, Brian Dernje Nielsen, **forklarer og viser øvelserne i denne video**, hvor der er lidt yogamusik til øvelserne også.
-
-{% include video provider="youtube" id="EIptSu574mc" %}
-
-Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og grundigt i denne video:
-
-{% include video provider="youtube" id="qDAsEM1VLNk" %}
-
-## Illustreret øvelsesbeskrivelse af de 5 tibetanere
-
-Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter med illustrationer af øvelserne.
-
-Husk at lytte til kroppen, når du laver øvelserne. Selvom målet er at lave 21 gentagelser af hver rite, så start stille og roligt med øvelserne, når du går i gang første gang.
-
-_Det er ikke meningen, at du skal opleve smerte eller ubehag, når du gennemfører riterne._
-
-### Rite 1
+### Rite 1: Hvirvleren
 
 {% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-f4980e3f.jpg" caption="Rite 1 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_01-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 1 for de fem tibetanere" %}
 
-I den første rite skal du stå oprejst og strække armene ud til siden. Drej rundt om dig selv i urets retning i det tempo, der passer dig. Træk vejret dybt og langsomt for at undgå at blive svimmel. Denne øvelse er måske den der for de fleste voksne kræver mest tilvænning.
+* **Startposition:** Stå oprejst med fødderne i hoftebredde. Stræk armene ud til siden i skulderhøjde med håndfladerne vendt nedad.
+* **Bevægelse:** Drej rundt om dig selv i urets retning. Træk vejret dybt og find et roligt tempo for at undgå svimmelhed.
+* **Vejrtrækning:** Træk vejret dybt og jævnt ind og ud gennem næsen.
 
-### Rite 2
+### Rite 2: Benløftet
 
 {% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-7dcd6f30.jpg" caption="Rite 2 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_02-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 2 for de 5 tibetanere" %}
 
-I den anden rite skal du lægge dig fladt på ryggen. Armene skal ligge langs siden og dine håndflader skal vende mod gulvet. Løft nu hovedet op fra gulvet og træk hagen ned mod brystet, mens du løfter dine ben strakte og lodret op. Sænk herefter ben og hoved tilbage igen, så du ender i startpositionen.
+* **Startposition:** Læg dig fladt på ryggen på din yogamåtte med armene langs siden og håndfladerne mod gulvet.
+* **Bevægelse:** Løft hovedet og træk hagen mod brystet, samtidig med at du løfter dine strakte ben lodret op mod loftet. Sænk derefter roligt ben og hoved tilbage til startpositionen.
+* **Vejrtrækning:** Indånding når du løfter hoved og ben. Udånding når du sænker dem.
+* *Modifikation:* Bøj knæene let, hvis baglårene eller lænden er for stramme.
 
-Træk vejret ind, når du løfter hoved og ben og pust ud, når du sænker dem.
-
-Hvis denne øvelse er for hård, kan du med fordele bøje dine ben i stedet for at have dem fuldt udstrakte.
-
-### Rite 3
+### Rite 3: Diamanten (Knæløftet)
 
 {% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-0215a9e5.jpg" caption="Rite 3 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 3 for de fem tibetanere" %}
 
-Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen.
+* **Startposition:** Sæt dig på knæene med lodret overkrop. Tæerne bøjes ind under dig, og hænderne placeres på bagsiden af lårene eller ballerne.
+* **Bevægelse:** Bøj først hovedet fremover og træk hagen mod brystet. Svaj derefter roligt bagud i rygsøjlen, mens du lader hovedet følge med bagover.
+* **Vejrtrækning:** Indånding når du svajer bagud. Udånding når du returnerer og bøjeri nakken fremover.
 
-Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forover.
-
-### Rite 4
+### Rite 4: Broen (Bordet)
 
 {% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-fa0675bc.jpg" caption="Rite 4 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 4 for de fem tibetanere" %}
 
-Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen mod brystet. Ryk derefter hovedet så langt tilbage det kan komme, og løft kroppen op i en ”bro”, ved at spænde i alle muskler. Slap herefter af i musklerne og kør din krop tilbage til startpositionen.
+* **Startposition:** Sæt dig på gulvet med strakte ben og placer håndfladerne på gulvet ved siden af hofterne. Træk hagen mod brystet.
+* **Bevægelse:** Læg hovedet bagud og løft hoften op, så kroppen danner en vandret "bro" eller et "bord". Spænd kortvarigt i muskulaturen og sænk dig derefter kontrolleret tilbage.
+* **Vejrtrækning:** Indånding når du løfter kroppen op. Udånding når du sænker dig ned.
 
-Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen på en udånding.
-
-### Rite 5
+### Rite 5: Hundestrækket (Pyramiden)
 
 {% include figure image_path="/assets/images/post.healthline.com/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-fb348283.jpg" caption="Rite 5 [📷](https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg){: rel='nofollow noopener' }" alt="Rite 5 for de fem tibetanere" %}
 
-For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en "pyramide". Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger.
+* **Startposition:** Lig på mave med hænderne under skuldrene. Stræk armene og løft brystet op (svarende til *Upward Dog*), mens hoften hænger tæt over gulvet.
+* **Bevægelse:** Skub hoften op og bagud, så kroppen danner et omvendt V (svarende til *Downward Dog*). Bøj hovedet ind mod brystet. Skift kontrolleret mellem de to stillinger.
+* **Vejrtrækning:** Indånding i den lave stilling (Upward Dog). Udånding når du skubber hoften op i V-stillingen.
 
-Du tager her en indånding, når du går ned og lungerne har mest plads, mens du puster al luften ud, når du går op i "pyramiden".
+---
 
-## Udskriv de fem tibetanere
+## Download og udskriv øvelsesguiden
 
-De første gange jeg selv udførte de fem tibetanere havde jeg udskrevet en guide, som jeg havde liggende ved siden af mig, når jeg udførte øvelserne.
+Når du skal lære øvelserne, er det praktisk at have en trykt guide liggende ved siden af yogamåtten:
 
-Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme selv kan udføre øvelserne.
+[Udskriv PDF-øvelsesguiden](https://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
 
-[Udskriv øvelserne med forklaring](https://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
+---
 
-## Hvor ofte skal du lave de fem tibetanere?
+## Instruktionsvideoer med danske yogalærere
 
-De fem riter skal gentages 21 gange hver dag. Du kan fx udføre øvelserne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng.
+Vil du gerne se øvelserne udført i praksis med grundige forklaringer? Her er to af de bedste danske instruktionsvideoer fra YouTube:
 
-Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove. Du skal derfor selv finde ud af, hvilken tid på dagen, der passer dig bedst.
+Yogainstruktør **Brian Dernje Nielsen** viser og forklarer riterne med behagelig baggrundsmusik:
 
-Hvis du ikke kan afse tid til at lave riterne hver dag, så er det bedre at lave dem nogle gange om ugen end slet ikke at lave dem. Vi anbefaler at du prøver dig frem.
+{% include video provider="youtube" id="EIptSu574mc" %}
 
-Det er vigtigt, at du tager dig god tid til at lave øvelserne rigtigt og fokusere på vejrtrækningen, så det tager omkring 15-20 minutter at lave øvelserne.
+Yogainstruktør **Jette Weimar** gennemgår øvelserne pædagogisk og roligt:
 
-Det handler om at få de fem øvelser til at passe ind, så de gør en forskel i dit liv og dit energiniveau.
+{% include video provider="youtube" id="qDAsEM1VLNk" %}
 
-## Sådan kommer du i gang med øvelserne - Træningsforslag
+---
 
-De gamle forskrifter siger, at hver af de 5 øvelser skal gentages 21 gange hver dag. Det er dog bedre at lave tre gentagelser end slet ikke at udføre øvelserne. Så hvis du en dag ikke har tid eller har lyst til at springe over, så tager det det under 5 minutter at lave tre gentagelser.
+## Træningsprogram: Fra 3 til 21 gentagelser
 
-I begyndelsen skal du ikke regne med, at du kan lave alle 21 gentagelser af hver øvelse.
+I de oprindelige forskrifter skal hver rite udføres **21 gange dagligt**. 21 betragtes som det optimale antal gentagelser for at stimulere kroppens energisystem uden at overbelaste det.
 
-For at **komme i gang med de fem tibetanere, så anbefaler jeg**, at du starter langsomt.
+Hvis du er nybegynder, bør du dog aldrig starte direkte med 21 gentagelser!
 
-Start fx med at lave 3 gentagelser af hver øvelse og trap så langsomt op hver uge, så du når op til 21 gentagelser i løbet af en måneds tid. **21 gentagelser er det optimale antal gentagelser af de enkelte riter**, og du bør ikke lave flere gentagelser, for så skubber du til energibalancerne i kroppen. Selvom du er i god fysisk form, skal du altså maksimalt gentage øvelserne det foreskrevne antal gange.
+### Anbefalet progressionsplan:
+* **Uge 1:** 3 gentagelser af hver rite.
+* **Uge 2:** 5 gentagelser af hver rite.
+* **Uge 3:** 7 gentagelser af hver rite.
+* **Uge 4 og frem:** Øg med 2 gentagelser om ugen, indtil du rammer **21 gentagelser**.
 
-Find dit eget tempo til hver af øvelserne - det handler ikke om at kunne gøre dem hurtigt, men om at føle dig godt tilpas med øvelserne.
+> **Tip:** Det tager under 5 minutter at lave 3 gentagelser. Har du en travl dag, er det bedre at lave 3 gentagelser end slet ingen!
 
-Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange du kan med overskud. Derefter går du videre til den næste tibetaner. Du bliver efterhånden stærkere og stærkere, så du kan lave flere gentagelser.
+---
 
-## Vejrtrækning: Hvordan skal jeg trække vejret?
+## Vejrtrækning og udstyr
 
-Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører de tibetanske riter.
+Vejrtrækningen fungerer som benzin for riterne. Når du koordinerer ind- og udånding med bevægelserne, opnår du den optimale iltning af blodet og ro i nervesystemet.
 
-Vejrtrækningen har stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
-
-## Har jeg brug for udstyr til de fem tibetanere?
-
-Du behøver ikke noget udstyr for at kunne udføre de fem tibetanere. Jeg plejer dog for det meste at bruge en yogamåtte, når jeg laver tibetanerne.
-
-Det synes jeg især er rart til de øvelser, hvor man ligger ned, men det giver også et meget bedre greb, når man fx laver rite 5, som også kaldes _downward dog_.
-
-Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men især hvis du også laver anden træning. Så kan det godt betale sig at investere i en yogamåtte af høj kvalitet. På [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/){: rel="sponsored nofollow noopener" } har de masser af udstyr til yoga, og du kunne starte med at kigge på Manduka X Yoga Mat, som er virkelig lækker.
-
-Jeg har også skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).
+Du behøver i princippet intet udstyr, men en god **yogamåtte** er en kæmpe hjælp. Den giver stødabsorbering til ryggen i Rite 2 og sikrer et godt skridsikkert greb i Rite 4 og 5.
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
-## Hvordan virker de 5 tibetanere?
+Hvis du ønsker mere ro og fokus under din træning, kan du også overveje at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
-Tanken bag de 5 tibetanere er, at gennemførelsen af øvelserne skal stimulere strømmen af naturlig livsenergi gennem kroppen. Påstanden er at øvelserne har en gennemgribende virkning på kroppen og kroppens energibalance.
+---
 
-Når du gennemfører riterne bliver de 7 nøgle-chakraer i din krop aktiveret og stimuleret, og på den måde stimuleres alle kirtlerne i det hormonelle system.
+## Hvordan virker de 5 tibetanere? (Fysiologi & Chakra)
 
-**Chakra** er et indisk ord, som kan oversættes til ”hvirvlende energihjul”. Chakraerne modtager og regulerer livsenerig og videresender den ud i hele kroppen. Det er vigtigt, at dine chakraer er fri for negativ energi, så de kan være nøglen til gnistrende livskraft.
+Filosofien bag de fem tibetanere bygger på ideen om at stimulere kroppens livsenergi (*Prana*). 
 
-De fem _riter_ **øger rotationshastigheden i chakraerne og koordinerer dem**. På den måde kommer chakraerne i fuldstændig harmoni og kan fordele ren energi til det hormonelle system - og i øvrigt også lige alle andre systemer i kroppen.
+Ifølge østerlandsk tradition aktiverer riterne de 7 primære **chakraer** (energihjul) i kroppen. Når chakraerne roterer i samme høje hastighed og harmoni, stimuleres det hormonelle (endokrine) system og kirtlerne.
 
-Det hormonelle (endokrine) system har ansvar for hele kroppens generelle funktionsniveau. Det betyder, at udførelsen af de fem riter påvirker funktionen af alle dine organer og systemer.
+Fysiologisk set giver øvelserne en lang række dokumenterbare fordele:
+* **Øget kjernestyrke:** Særligt mave, ryg og hoftebøjere styrkes i Rite 2 og 4.
+* **Forbedret fleksibilitet:** Baglår, skuldre og rygsøjle strækkes i Rite 3 og 5.
+* **Bedre balance og ro:** Det fokuserede åndedræt dæmper stresshormonet kortisol.
 
-Da det i høj grad handler om at få kroppen til at fungere bedre og få mere energi. På den måde påstås de fem tibetanere at være _kilde til evig ungdom_.
+Efter du har gennemført riterne, kan det i øvrigt anbefales at slutte af med et par minutters stilletid eller [mindfulness meditation](/mindfulness-meditation/) for at forankre roen i kroppen.
 
-## Hvilke fordele er der ved de 5 tibetanere?
+---
 
-Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksempler på fordele ved at udføre øvelserne: foryngelse, [bedre søvn](/soevn-optimering/), friskhed og energi, bedre hukommelse og så videre.
+## Den historiske baggrund: Fra klosteret i Himalaya til Vesten
 
-Det er nogle rigtig gode salgsargumenter for øvelserne.
+Historien om, hvordan de fem tibetanere nåede fra fjerne tibetanske klostre til den vestlige verden, er en fascinerende fortælling om eventyr og søgen efter ungdommens kilde.
 
-De 5 tibetanere påstås allerede efter et par ugers træning at have følgende virkning:
+{% include video provider="youtube" id="x2lOypwVfKo" %}
 
-- Sænke aldringsprocessen ved at dreje dit biologiske ur tilbage
-- Øge dit energiniveau
-- Forbedre din mentale klarhed og skærpe fokus
-- Mindske [stressniveauet]({% link _posts/2021-11-10-stress.md %}) og berolige dit sind
-- Tabe dig og stramme op
-- Forbedre din styrke og bevægelighed
-- Forbedre din søvn, så du vågner fyldt med energi
+### Oberst Bradfords opdagelse
+Nogle år før sin pensionering var den britiske officer **Oberst Bradford** udstationeret i Indien som en del af det diplomatiske korps. Her hørte han lokale fortælle rygter om et afsidesliggende kloster i Himalaya, hvor munkene kendte hemmeligheden bag genvunden sundhed, ungdom og energi.
 
-## Den historiske baggrund for de tibetanske riter
+Inspireret af ideen om at vende aldringsprocessen drog den pensionerede oberst på en farefuld rejse gennem Himalayas dybe dale. Efter måneders søgen fandt han frem til klosteret. 
 
-I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
+Munkene tog imod ham, og over flere måneder blev han oplært i de 5 tibetanske riter. Obersten berettede om, hvordan han allerede efter få uger smed sin stok og oplevede markant øget livskraft og smidighed.
 
-Men hvordan fik Peter Kelder øjnene op for De fem tibetanere og hemmeligheden om _ungdommens kilde_.
+### Himalayaklubben og Peter Kelder
+Da Oberst Bradford vendte tilbage til Vesten, delte han sine oplevelser med sin ven **Peter Kelder**. Kelder blev så begejstret, at han fik overbragt obersten til at undervise andre.
 
-Dette var i mange tusind år forbeholdt de tibetanske munke, og du kan dykke længere ned i baggrunden i vores artikel om [historien bag de 5 tibetanere](/artikel/de-fem-tibetanere/historie/).
+Obersten opstillede tre klare betingelser for holdet:
+1. Holdet skulle bestå af både mænd og kvinder fra forskellige samfundslag.
+2. Alle deltagere skulle være over 50 år.
+3. Der måtte maksimalt være 15 deltagere på holdet.
 
-## Er de fem tibetanske riter for dig?
+Dette hold blev døbt **Himalayaklubben**, og deltagernes oplevede bemærkelsesværdige fremskridt i deres helbred og energi. Mødet med Himalayaklubben fik Peter Kelder til at udgive sin berømte bog i slutningen af 1930'erne, som siden er solgt i over 2 millioner eksemplarer.
 
-Hvis det er rigtigt, at de fem tibetanere normaliserer hormonelle ubalancer i kroppen, så bør alle mennesker jo lave dem.
+---
 
-Riterne vækker dine chakraer og stimulerer dem til at rotere hurtigt og ved samme hastighed. Derved kan chakrerne påvirke dit energiniveau og det endokrine, hormonelle system.
+## Hvad er den sjette tibetaner?
 
-Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og i samme hastighed.
+I Peter Kelders opfølgende bog (*De Fem Tibetanere - Bog 2*) præsenteres en **sjette tibetansk rite**. 
 
-Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde](/artikel/solhilsen-a-b-surya-namaskar/).
+Den sjette rite er ulig de første fem ikke en daglig motionsøvelse. Kelder understreger, at den sjette rite udelukkende bør udføres, når man oplever et overskud af seksuel energi, som man ønsker at omdanne til åndelig og kropslig livskraft:
 
-Vi har et andet indlæg her på sitet, der handler om [mindfulness meditation](/mindfulness-meditation/), og vi har også skrevet et andet indlæg om at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
+> *"It should be practiced only when you feel an excess of sexual energy..."*
+>
+> — <cite>Peter Kelder via [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
-{% comment %}
+### Udførelse af den 6. rite:
+1. Stå oprejst og pust al luften helt ud af lungerne.
+2. Bøj dig fremover med hænderne på knæene.
+3. Ret dig op med tomme lunger, placer hænderne på hofterne og pres nedad.
+4. Træk maven så langt ind som muligt og løft brystkassen. Hold stillingen så længe du kan.
+5. Indånd roligt gennem næsen, fyld lungerne helt og udånd gennem munden.
 
-## Bog om de fem tibetanere
+---
 
-{% include gallery id="feature_row" caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
+### Hvad så med "de syv tibetanere"?
+Mange søger efter *"de 7 tibetanere"* eller *"de syv tibetanere øvelser"*. Der findes dog ikke et officielt program med syv riter. Forvekslingen opstår typisk, fordi øvelserne aktiverer kroppens **7 chakraer**, eller fordi man tæller den 6. rite samt den afsluttende vejrtrækning/afspænding med som selvstændige øvelser.
 
-{% endcomment %}
+---
 
-{% comment %}
+## Hvad siger forskningen om de fem tibetanere?
 
-TODO
+Der findes på nuværende tidspunkt **ingen direkte, kliniske studier**, der har undersøgt "De fem tibetanere" som et samlet, isoleret træningsprogram i et videnskabeligt laboratorieforsøg.
 
-## Plakat med de fem tibetanere
+Effekten af de fem riter skal i stedet forstås igennem den omfattende forskning, der findes på de fysiologiske grundpiller, som øvelserne bygger på:
 
-{% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
+### 1. Hatha Yoga, smidighed og ryghelbred
+Forskning i Hatha Yoga (som de 5 riter er afledt af) viser entydigt, at regelmæssig udøvelse forbedrer fleksibilitet, muskelstyrke og leddenes bevægelighed (*Woodyard, 2011*). I en stor sammenlignende undersøgelse af *Ross & Thomas (2010)* konkluderes det, at yoga er lige så effektivt – og på visse parametre mere effektivt – end almindelig motion til at dæmpe stivhed og forbedre kropsholdningen. Desuden dokumenterer en omfattende meta-analyse af *Cramer et al. (2013)*, at yoga er en af de mest effektive ikke-medicinske metoder mod kroniske lændesmerter.
 
-{% endcomment %}
+### 2. Vestibulær balancetræning (Rite 1)
+Når du drejer rundt om dig selv i Rite 1, stimulerer du det **vestibulære system** (balancesystemet i det indre øre). Videnskabelige studier inden for balancetræning og faldforebyggelse (*Herdman et al., 2015*) viser, at kontrolleret vestibulær stimulation over tid skaber en tilpasning i hjernen (kaldet *habituering*). Dette forbedrer balancen og gør, at du oplever mindre svimmelhed i hverdagen.
+
+### 3. Kropstammestyrke og rygstøtte (Rite 2, 4 og 5)
+Rite 2 (benløft), Rite 4 (omvendt planke/bro) og Rite 5 (hundestræk) fungerer som funktionel kropsvægtstræning. Biomekanisk forskning af bl.a. rygeksperten Prof. Stuart McGill (*2010*) viser, at disse bevægelser aktiverer den dybe kropstammemuskulatur (*transversus abdominis* og *multifiderne*), hvilket skaber et naturligt kropskorset, der beskytter rygsøjlen.
+
+### 4. Vejrtrækning, vagusnerve og stressreduktion
+Vejrtrækningen under riterne aktiverer det parasympatiske nervesystem via **vagusnerven**. Forskning af *Streeter et al. (2012)* samt *Russo et al. (2017)* viser, at langsom, dyb vejrtrækning koblet til fysisk bevægelse dæmper kroppens stressrespons, sænker hvilepulsen og øger hjerterytmevariabiliteten (HRV).
+
+---
+
+## Bøger om de fem tibetanere
+
+Vil du dykke endnu dybere ned i filosofien og de oprindelige beretninger, kan Peter Kelders klassiske bøger stærkt anbefales:
+
+{% include feature_row type="left" %}
+
+---
 
 ## Ofte stillede spørgsmål
 
 {% include motionsplan/faq.html %}
 
-## Bogen om de fem tibetanere
+---
 
-De fem tibetanere blev for alvor udbredt i den vestlige verden i Peter Kelders bog med hans erfaringer med øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
+## Relaterede artikler om yoga og meditation
 
-{% include feature_row type="left" %}
+Vil du gerne opbygge en endnu stærkere daglig praksis? Læs også vores andre guides:
+
+* **[Yoga Solhilsen (A & B): Trin-for-trin guide til Surya Namaskar](/artikel/solhilsen-a-b-surya-namaskar/)** – Lær den klassiske, dynamiske yoga-sekvens.
+* **[Find den bedste musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %})** – Få inspiration og afspilningslister til at skabe ro under din træning.
+* **[Kom i gang med mindfulness meditation](/mindfulness-meditation/)** – Enkle øvelser til at skabe ro i sindet efter dine riter.
+
+---
+
+## Kilder og litteratur
+
+Hvis du vil dykke dybere ned i den videnskabelige litteratur bag fysiologien i øvelserne, kan du læse de oprindelige fagfællebedømte studier her:
+
+1. **Woodyard, C. (2011):** *"Exploring the therapeutic effects of yoga and its ability to increase quality of life."* International Journal of Yoga, 4(2), 49–54. [Læs studiet på PubMed (PMC3193654)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3193654/){: rel="nofollow noopener" target="_blank"}
+2. **Cramer, H. et al. (2013):** *"A systematic review and meta-analysis of yoga for low back pain."* The Clinical Journal of Pain, 29(5), 450–460. [Læs studiet på PubMed (PMID: 23246998)](https://pubmed.ncbi.nlm.nih.gov/23246998/){: rel="nofollow noopener" target="_blank"}
+3. **Ross, A. & Thomas, S. (2010):** *"The health benefits of yoga and exercise: a review of comparison studies."* Journal of Alternative and Complementary Medicine, 16(1), 3–12. [Læs studiet på PubMed (PMID: 20105062)](https://pubmed.ncbi.nlm.nih.gov/20105062/){: rel="nofollow noopener" target="_blank"}
+4. **Streeter, C. C. et al. (2012):** *"Effects of yoga on the autonomic nervous system, gamma-aminobutyric acid, and allostasis."* Medical Hypotheses, 78(5), 571–579. [Læs studiet på PubMed (PMID: 22314329)](https://pubmed.ncbi.nlm.nih.gov/22314329/){: rel="nofollow noopener" target="_blank"}
+5. **Russo, M. A. et al. (2017):** *"The physiological effects of slow breathing in the healthy human."* Breathe (European Respiratory Society), 13(4), 298–309. [Læs studiet hos ERS (PMC5709795)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5709795/){: rel="nofollow noopener" target="_blank"}
+6. **Gerritsen, R. J. & Band, G. P. (2018):** *"Breath of Life: The Respiratory Vagal Stimulation Model of Contemplative Activity."* Frontiers in Human Neuroscience, 12, 397. [Læs studiet på Frontiers (PMC6189422)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6189422/){: rel="nofollow noopener" target="_blank"}
+7. **McGill, S. M. (2010):** *"Core Training: Evidence-Based Concepts with Implications for Performance and Injury Prevention."* Strength and Conditioning Journal, 32(5), 33–46.
+8. **Herdman, S. J. et al. (2015):** *"Vestibular Rehabilitation Therapy."* Physical Therapy / Oxford Academic.

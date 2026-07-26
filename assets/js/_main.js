@@ -124,7 +124,7 @@
           e.preventDefault();
           var iframe = document.createElement("iframe");
           iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" +
-              this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0");
+              this.parentNode.dataset.id + "?autoplay=1&wmode=opaque&enablejsapi=1&controls=1");
           iframe.setAttribute("frameborder", "0");
           iframe.setAttribute("allowfullscreen", "allowfullscreen");
           iframe.setAttribute("id", "youtube-iframe-" + this.parentNode.dataset.id);
