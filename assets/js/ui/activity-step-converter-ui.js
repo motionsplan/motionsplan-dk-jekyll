@@ -1,7 +1,7 @@
 // assets/js/ui/activity-step-converter-ui.js
-import { ACTIVITY_STEP_RATES, calculateStepEquivalent } from '../core/activity-step-converter.js';
+import { fetchStepData, calculateStepEquivalent } from '../core/activity-step-converter.js';
 
-export function initActivityStepUI(container, calcId = 'activity-step-converter') {
+export async function initActivityStepUI(container, calcId = 'activity-step-converter') {
   if (!container) return;
 
   const pagePath = window.location.pathname.replace(/[^a-zA-Z0-9_-]/g, '_');
@@ -9,6 +9,9 @@ export function initActivityStepUI(container, calcId = 'activity-step-converter'
 
   const activitySelect = container.querySelector('.js-step-activity');
   const durationInput = container.querySelector('.js-step-duration');
+  
+  // Preset knapper
+  const actPresetBtns = container.querySelectorAll('.js-preset-act');
   const timePresetBtns = container.querySelectorAll('.js-preset-time');
 
   // Outputs
@@ -20,14 +23,16 @@ export function initActivityStepUI(container, calcId = 'activity-step-converter'
   const resetBtn = container.querySelector('.js-reset-btn');
   const downloadBtn = container.querySelector('.js-download-btn');
 
-  // Opbyg grupperet dropdown med alle aktiviteter
-  function populateSelect() {
-    if (!activitySelect) return;
+  // Hent data direkte fra Jekyll's JSON-endpoint
+  const stepData = await fetchStepData();
 
-    const categories = [...new Set(ACTIVITY_STEP_RATES.map(a => a.cat))];
+  function populateSelect() {
+    if (!activitySelect || !stepData.length) return;
+
+    const categories = [...new Set(stepData.map(a => a.cat))];
     
     activitySelect.innerHTML = categories.map(cat => {
-      const items = ACTIVITY_STEP_RATES.filter(a => a.cat === cat);
+      const items = stepData.filter(a => a.cat === cat);
       const optionsHtml = items.map(item => `<option value="${item.key}">${item.name} (${item.stepsPerMin} skridt/min)</option>`).join('');
       return `<optgroup label="── ${cat} ──">${optionsHtml}</optgroup>`;
     }).join('');
@@ -60,7 +65,7 @@ export function initActivityStepUI(container, calcId = 'activity-step-converter'
     const activityKey = activitySelect?.value;
     const durationMinutes = durationInput?.value;
 
-    const result = calculateStepEquivalent(activityKey, durationMinutes);
+    const result = calculateStepEquivalent(activityKey, durationMinutes, stepData);
 
     if (!result.isValid) {
       if (resSteps) resSteps.textContent = '-';
@@ -74,7 +79,7 @@ export function initActivityStepUI(container, calcId = 'activity-step-converter'
     if (resKm) resKm.textContent = result.estKm.toString().replace('.', ',');
   }
 
-  // Events
+  // Initialisér UI og event handlers
   populateSelect();
   loadState();
 
@@ -83,6 +88,18 @@ export function initActivityStepUI(container, calcId = 'activity-step-converter'
     ['input', 'change', 'keyup'].forEach(ev => durationInput.addEventListener(ev, calculate));
   }
 
+  // Genveje til Aktivitet
+  actPresetBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const actKey = btn.getAttribute('data-act');
+      if (activitySelect && actKey) {
+        activitySelect.value = actKey;
+        calculate();
+      }
+    });
+  });
+
+  // Genveje til Varighed
   timePresetBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const min = btn.getAttribute('data-min');

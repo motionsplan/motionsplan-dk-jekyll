@@ -1,79 +1,79 @@
-Activity,Steps
-Aerobics,209
-Archery,123
-Badminton,157
-Baseball,143
-Basketball,186
-Beach Volleyball,229
-Bicycling – Leisure,100
-Bicycling – Moderate,229
-Bicycling - Competitive,343
-Boxing - Punching Bag,157
-Boxing - Sparring,223
-Canoeing,166
-Circuit Training,229
-Cricket,137
-Cross-country Skiing,257
-Dancing,209
-Desk Bike,66
-Desk Treadmill,66
-Diving,86
-Downhill Skiing,151
-Elliptical trainer,143
-Field Hockey,223
-Gardening,114
-Golf,123
-Gymnastics,109
-Handball,229
-Heavy Resistance training,171
-HIIT,229
-Ice Hockey,229
-Ice skating,200
-Judo,151
-Karate,151
-Kayaking,143
-Kickboxing,151
-Kitesurfing,314
-Lacrosse,229
-Lawn bowling,94
-Light Resistance training,100
-Netball,186
-Pilates,86
-Polo,229
-Rock climbing,166
-Roller blading,214
-Roller skating,200
-Rowing,166
-Rowing machine,137
-Rugby Union,180
-Running - low effort,237
-Running - moderate effort,329
-Running - high effort,414
-Sailing,86
-SCUBA diving,200
-Skateboarding,143
-Snorkelling,143
-Snowboarding,151
-Soccer,200
-Softball,143
-Spin Class,243
-Squash,209
-Standing Desk,10
-Stationary Bike - high effort,251
-Stationary Bike - moderate effort,137
-Stationary Bike - low effort,100
-Surfing,86
-Swim - Competitive,286
-Swim - Moderate,237
-Swim - Leisure,171
-Table Tennis,114
-Tae Kwan Do,151
-Tennis,209
-Volleyball,114
-Wakeboarding,171
-Water Aerobics,157
-Water Polo,286
-Water skiing,171
-Windsurfing,143
-Wrestling,171
-Yoga,71
+key,name,stepsPerMin,cat
+running_low,"Løb – Roligt tempo / Jogging",237,"Løb & Gang"
+running_mod,"Løb – Moderat tempo",329,"Løb & Gang"
+running_high,"Løb – Høj fart / Intervaller",414,"Løb & Gang"
+desk_treadmill,"Gåbånd ved skrivebord",66,"Løb & Gang"
+bicycling_leisure,"Cykling – Hygge / Roligt (<15 km/t)",100,"Cykling"
+bicycling_mod,"Cykling – Moderat tempo (15-20 km/t)",229,"Cykling"
+bicycling_comp,"Cykling – Høj fart / Konkurrence (>20 km/t)",343,"Cykling"
+spin_class,"Spinning / Cirkelcykling",243,"Cykling"
+stat_bike_low,"Motionscykel – Let belastning",100,"Cykling"
+stat_bike_mod,"Motionscykel – Moderat belastning",137,"Cykling"
+stat_bike_high,"Motionscykel – Høj belastning",251,"Cykling"
+desk_bike,"Kontorcykel",66,"Cykling"
+aerobics,"Aerobics",209,"Fitness"
+circuit_training,"Cirkeltræning",229,"Fitness"
+elliptical,"Crosstrainer / Ellipsecykel",143,"Fitness"
+hiit,"HIIT (Højintensiv intervaltræning)",229,"Fitness"
+heavy_resistance,"Styrketræning – Tung / Intens",171,"Fitness"
+light_resistance,"Styrketræning – Let / Moderat",100,"Fitness"
+pilates,"Pilates",86,"Fitness"
+rowing_machine,"Romaskine",137,"Fitness"
+yoga,"Yoga / Udstrækning",71,"Fitness"
+swim_leisure,"Svømning – Brystsvømning / Roligt",171,"Vandsport"
+swim_mod,"Svømning – Moderat tempo",237,"Vandsport"
+swim_comp,"Svømning – Konkurrence / Hårdt",286,"Vandsport"
+water_aerobics,"Vandgymnastik / Vand-aerobics",157,"Vandsport"
+water_polo,"Vandpolo",286,"Vandsport"
+canoeing,"Kano",166,"Vandsport"
+kayaking,"Kajak",143,"Vandsport"
+rowing,"Roning (i båd)",166,"Vandsport"
+sailing,"Sejlads",86,"Vandsport"
+scuba,"Dykning (Scuba)",200,"Vandsport"
+snorkelling,"Snorkling",143,"Vandsport"
+surfing,"Surfing",86,"Vandsport"
+windsurfing,"Windsurfing",143,"Vandsport"
+kitesurfing,"Kitesurfing",314,"Vandsport"
+wakeboarding,"Wakeboard",171,"Vandsport"
+water_skiing,"Vandski",171,"Vandsport"
+diving,"Udspring / Dykning",86,"Vandsport"
+badminton,"Badminton",157,"Boldspil & Racket"
+baseball,"Baseball / Rundbold",143,"Boldspil & Racket"
+basketball,"Basketball",186,"Boldspil & Racket"
+beach_volleyball,"Beachvolleyball",229,"Boldspil & Racket"
+cricket,"Cricket",137,"Boldspil & Racket"
+field_hockey,"Hockey",223,"Boldspil & Racket"
+handball,"Håndbold",229,"Boldspil & Racket"
+lacrosse,"Lacrosse",229,"Boldspil & Racket"
+netball,"Netball",186,"Boldspil & Racket"
+rugby,"Rugby",180,"Boldspil & Racket"
+soccer,"Fodbold",200,"Boldspil & Racket"
+softball,"Softball",143,"Boldspil & Racket"
+squash,"Squash",209,"Boldspil & Racket"
+table_tennis,"Bordtennis",114,"Boldspil & Racket"
+tennis,"Tennis",209,"Boldspil & Racket"
+volleyball,"Volleyball",114,"Boldspil & Racket"
+boxing_bag,"Boksning – Sandsæk",157,"Kampsport"
+boxing_sparring,"Boksning – Sparring / Kamp",223,"Kampsport"
+judo,"Judo / Jiu-Jitsu",151,"Kampsport"
+karate,"Karate",151,"Kampsport"
+kickboxing,"Kickboksning",151,"Kampsport"
+tae_kwan_do,"Taekwondo",151,"Kampsport"
+wrestling,"Brydning",171,"Kampsport"
+cross_country_skiing,"Langrend (Ski)",257,"Vintersport & Outdoor"
+downhill_skiing,"Alpint skiløb",151,"Vintersport & Outdoor"
+snowboarding,"Snowboard",151,"Vintersport & Outdoor"
+ice_hockey,"Ishockey",229,"Vintersport & Outdoor"
+ice_skating,"Skøjteløb",200,"Vintersport & Outdoor"
+rock_climbing,"Klatring / Bouldering",166,"Vintersport & Outdoor"
+archery,"Bueskydning",123,"Hverdag & Fritid"
+dancing,"Dans / Disko",209,"Hverdag & Fritid"
+gardening,"Havearbejde",114,"Hverdag & Fritid"
+golf,"Golf",123,"Hverdag & Fritid"
+gymnastics,"Gymnastik",109,"Hverdag & Fritid"
+lawn_bowling,"Krocket / Petanque / Bowling",94,"Hverdag & Fritid"
+polo,"Polo",229,"Hverdag & Fritid"
+roller_blading,"Rulleskøjter (Inliners)",214,"Hverdag & Fritid"
+roller_skating,"Rulleskøjter (Side-by-side)",200,"Hverdag & Fritid"
+skateboarding,"Skateboard",143,"Hverdag & Fritid"
+standing_desk,"Stående skrivebord",10,"Hverdag & Fritid"

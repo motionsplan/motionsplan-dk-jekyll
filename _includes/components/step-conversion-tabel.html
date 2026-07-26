@@ -1,0 +1,209 @@
+{% assign step_data = site.data.step_conversion | default: site.data['step-conversion'] %}
+
+<style>
+  .mp-table-wrapper {
+    margin: 1.5rem 0;
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 1.15rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+  }
+  
+  .mp-table-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  /* SØGEFELT */
+  .mp-search-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 0.85rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: #0f172a;
+    outline: none;
+    transition: all 0.15s ease;
+  }
+  .mp-search-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  }
+
+  /* KATEGORI FILTER KNAPPER */
+  .mp-cat-filter-group {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+  .mp-cat-btn {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    font-size: 0.725rem;
+    font-weight: 800;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .mp-cat-btn:hover, .mp-cat-btn.is-active {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+  }
+
+  /* CONTAINER MED FAST HØJDE OG STICKY HEADER */
+  .mp-table-container {
+    overflow-x: auto;
+    max-height: 480px;
+    overflow-y: auto;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+  }
+  .mp-step-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.825rem;
+    margin: 0;
+  }
+  .mp-step-table th {
+    background: #f8fafc;
+    color: #0f172a;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0.75rem 0.85rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #e2e8f0;
+    z-index: 2;
+  }
+  .mp-step-table td {
+    padding: 0.65rem 0.85rem;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+    vertical-align: middle;
+  }
+  .mp-step-table tr:hover td {
+    background: #eff6ff;
+  }
+  .mp-step-table tr.is-hidden {
+    display: none !important;
+  }
+
+  .mp-badge-cat {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #64748b;
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 0.4rem;
+    display: inline-block;
+  }
+</style>
+
+<div class="mp-table-wrapper js-step-table-wrapper">
+  
+  <div class="mp-table-controls">
+    <!-- SØGEINPUT -->
+    <input type="text" class="mp-search-input js-step-search" placeholder="🔍 Søg efter aktivitet (fx cykling, løb, havearbejde)...">
+
+    <!-- KATEGORI KNAPPER -->
+    <div class="mp-cat-filter-group js-step-cat-group">
+      <button type="button" class="mp-cat-btn is-active" data-cat="all">Alle</button>
+      <button type="button" class="mp-cat-btn" data-cat="Løb & Gang">🏃 Løb & Gang</button>
+      <button type="button" class="mp-cat-btn" data-cat="Cykling">🚴 Cykling</button>
+      <button type="button" class="mp-cat-btn" data-cat="Fitness">🏋️ Fitness</button>
+      <button type="button" class="mp-cat-btn" data-cat="Vandsport">🏊 Vandsport</button>
+      <button type="button" class="mp-cat-btn" data-cat="Boldspil & Racket">⚽ Boldspil</button>
+      <button type="button" class="mp-cat-btn" data-cat="Kampsport">🥊 Kampsport</button>
+      <button type="button" class="mp-cat-btn" data-cat="Vintersport & Outdoor">⛷️ Outdoor</button>
+      <button type="button" class="mp-cat-btn" data-cat="Hverdag & Fritid">🧹 Hverdag</button>
+    </div>
+  </div>
+
+  <!-- BORD-TABEL MED STICKY HEADER -->
+  <div class="mp-table-container">
+    <table class="mp-step-table">
+      <thead>
+        <tr>
+          <th>Aktivitet</th>
+          <th style="text-align: right;">Skridt / min</th>
+          <th style="text-align: right;">30 min</th>
+          <th style="text-align: right;">1 time</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in step_data %}
+          {% assign steps_min = row.stepsPerMin | default: row.Steps | plus: 0 %}
+          {% assign act_name = row.name | default: row.Activity %}
+          {% assign act_cat = row.cat | default: "Diverse" %}
+          
+          <tr data-cat="{{ act_cat }}" data-search="{{ act_name | downcase }}">
+            <td>
+              <strong style="color: #0f172a;">{{ act_name }}</strong>
+              <span class="mp-badge-cat">{{ act_cat }}</span>
+            </td>
+            <td style="text-align: right; font-weight: 700;">{{ steps_min }}</td>
+            <td style="text-align: right; color: #2563eb; font-weight: 700;">{{ steps_min | times: 30 }}</td>
+            <td style="text-align: right; color: #1e3a8a; font-weight: 900;">{{ steps_min | times: 60 }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+  (function() {
+    var wrapper = document.querySelector('.js-step-table-wrapper');
+    if (!wrapper) return;
+
+    var searchInput = wrapper.querySelector('.js-step-search');
+    var catBtns = wrapper.querySelectorAll('.js-step-cat-group .mp-cat-btn');
+    var rows = wrapper.querySelectorAll('tbody tr');
+    var activeCat = 'all';
+
+    function filterTable() {
+      var query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+
+      rows.forEach(function(row) {
+        var rowCat = row.getAttribute('data-cat');
+        var rowSearch = row.getAttribute('data-search');
+
+        var matchCat = (activeCat === 'all' || rowCat === activeCat);
+        var matchSearch = (!query || rowSearch.indexOf(query) !== -1);
+
+        if (matchCat && matchSearch) {
+          row.classList.remove('is-hidden');
+        } else {
+          row.classList.add('is-hidden');
+        }
+      });
+    }
+
+    catBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        catBtns.forEach(function(b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        activeCat = btn.getAttribute('data-cat');
+        filterTable();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener('input', filterTable);
+    }
+  })();
+</script>

@@ -1,111 +1,35 @@
 // assets/js/core/activity-step-converter.js
 
-export const ACTIVITY_STEP_RATES = [
-  // LØB & GANG
-  { key: 'running_low', name: 'Løb – Roligt tempo / Jogging', stepsPerMin: 237, cat: 'Løb & Gang' },
-  { key: 'running_mod', name: 'Løb – Moderat tempo', stepsPerMin: 329, cat: 'Løb & Gang' },
-  { key: 'running_high', name: 'Løb – Høj fart / Intervaller', stepsPerMin: 414, cat: 'Løb & Gang' },
-  { key: 'desk_treadmill', name: 'Gåbånd ved skrivebord', stepsPerMin: 66, cat: 'Løb & Gang' },
+let cachedData = null;
 
-  // CYKLING
-  { key: 'bicycling_leisure', name: 'Cykling – Hygge / Roligt (<15 km/t)', stepsPerMin: 100, cat: 'Cykling' },
-  { key: 'bicycling_mod', name: 'Cykling – Moderat tempo (15-20 km/t)', stepsPerMin: 229, cat: 'Cykling' },
-  { key: 'bicycling_comp', name: 'Cykling – Høj fart / Konkurrence (>20 km/t)', stepsPerMin: 343, cat: 'Cykling' },
-  { key: 'spin_class', name: 'Spinning / Cirkelcykling', stepsPerMin: 243, cat: 'Cykling' },
-  { key: 'stat_bike_low', name: 'Motionscykel – Let belastning', stepsPerMin: 100, cat: 'Cykling' },
-  { key: 'stat_bike_mod', name: 'Motionscykel – Moderat belastning', stepsPerMin: 137, cat: 'Cykling' },
-  { key: 'stat_bike_high', name: 'Motionscykel – Høj belastning', stepsPerMin: 251, cat: 'Cykling' },
-  { key: 'desk_bike', name: 'Kontorcykel', stepsPerMin: 66, cat: 'Cykling' },
+export async function fetchStepData() {
+  if (cachedData) return cachedData;
+  try {
+    const res = await fetch('/assets/data/step-conversion.json');
+    const rawData = await res.json();
+    
+    // Tvinger talstørrelsen til int, så der ikke opstår streng-konkatenering i JS
+    cachedData = rawData.map(item => ({
+      ...item,
+      stepsPerMin: parseInt(item.stepsPerMin, 10) || 0
+    }));
+    
+    return cachedData;
+  } catch (e) {
+    console.error('Fejl ved indlæsning af skridt-data fra Jekyll JSON:', e);
+    return [];
+  }
+}
 
-  // FITNESS & STYRKE
-  { key: 'aerobics', name: 'Aerobics', stepsPerMin: 209, cat: 'Fitness' },
-  { key: 'circuit_training', name: 'Cirkeltræning', stepsPerMin: 229, cat: 'Fitness' },
-  { key: 'elliptical', name: 'Crosstrainer / Ellipsecykel', stepsPerMin: 143, cat: 'Fitness' },
-  { key: 'hiit', name: 'HIIT (Højintensiv intervaltræning)', stepsPerMin: 229, cat: 'Fitness' },
-  { key: 'heavy_resistance', name: 'Styrketræning – Tung / Intens', stepsPerMin: 171, cat: 'Fitness' },
-  { key: 'light_resistance', name: 'Styrketræning – Let / Moderat', stepsPerMin: 100, cat: 'Fitness' },
-  { key: 'pilates', name: 'Pilates', stepsPerMin: 86, cat: 'Fitness' },
-  { key: 'rowing_machine', name: 'Romaskine', stepsPerMin: 137, cat: 'Fitness' },
-  { key: 'yoga', name: 'Yoga / Udstrækning', stepsPerMin: 71, cat: 'Fitness' },
-
-  // SVØMNING & VANDSPORT
-  { key: 'swim_leisure', name: 'Svømning – Brystsvømning / Roligt', stepsPerMin: 171, cat: 'Vandsport' },
-  { key: 'swim_mod', name: 'Svømning – Moderat tempo', stepsPerMin: 237, cat: 'Vandsport' },
-  { key: 'swim_comp', name: 'Svømning – Konkurrence / Hårdt', stepsPerMin: 286, cat: 'Vandsport' },
-  { key: 'water_aerobics', name: 'Vandgymnastik / Vand-aerobics', stepsPerMin: 157, cat: 'Vandsport' },
-  { key: 'water_polo', name: 'Vandpolo', stepsPerMin: 286, cat: 'Vandsport' },
-  { key: 'canoeing', name: 'Kano', stepsPerMin: 166, cat: 'Vandsport' },
-  { key: 'kayaking', name: 'Kajak', stepsPerMin: 143, cat: 'Vandsport' },
-  { key: 'rowing', name: 'Roning (i båd)', stepsPerMin: 166, cat: 'Vandsport' },
-  { key: 'sailing', name: 'Sejlads', stepsPerMin: 86, cat: 'Vandsport' },
-  { key: 'scuba', name: 'Dykning (Scuba)', stepsPerMin: 200, cat: 'Vandsport' },
-  { key: 'snorkelling', name: 'Snorkling', stepsPerMin: 143, cat: 'Vandsport' },
-  { key: 'surfing', name: 'Surfing', stepsPerMin: 86, cat: 'Vandsport' },
-  { key: 'windsurfing', name: 'Windsurfing', stepsPerMin: 143, cat: 'Vandsport' },
-  { key: 'kitesurfing', name: 'Kitesurfing', stepsPerMin: 314, cat: 'Vandsport' },
-  { key: 'wakeboarding', name: 'Wakeboard', stepsPerMin: 171, cat: 'Vandsport' },
-  { key: 'water_skiing', name: 'Vandski', stepsPerMin: 171, cat: 'Vandsport' },
-  { key: 'diving', name: 'Udspring / Dykning', stepsPerMin: 86, cat: 'Vandsport' },
-
-  // BOLDSPIL & RACKET
-  { key: 'badminton', name: 'Badminton', stepsPerMin: 157, cat: 'Boldspil & Racket' },
-  { key: 'baseball', name: 'Baseball / Rundbold', stepsPerMin: 143, cat: 'Boldspil & Racket' },
-  { key: 'basketball', name: 'Basketball', stepsPerMin: 186, cat: 'Boldspil & Racket' },
-  { key: 'beach_volleyball', name: 'Beachvolleyball', stepsPerMin: 229, cat: 'Boldspil & Racket' },
-  { key: 'cricket', name: 'Cricket', stepsPerMin: 137, cat: 'Boldspil & Racket' },
-  { key: 'field_hockey', name: 'Hockey', stepsPerMin: 223, cat: 'Boldspil & Racket' },
-  { key: 'handball', name: 'Håndbold', stepsPerMin: 229, cat: 'Boldspil & Racket' },
-  { key: 'lacrosse', name: 'Lacrosse', stepsPerMin: 229, cat: 'Boldspil & Racket' },
-  { key: 'netball', name: 'Netball', stepsPerMin: 186, cat: 'Boldspil & Racket' },
-  { key: 'rugby', name: 'Rugby', stepsPerMin: 180, cat: 'Boldspil & Racket' },
-  { key: 'soccer', name: 'Fodbold', stepsPerMin: 200, cat: 'Boldspil & Racket' },
-  { key: 'softball', name: 'Softball', stepsPerMin: 143, cat: 'Boldspil & Racket' },
-  { key: 'squash', name: 'Squash', stepsPerMin: 209, cat: 'Boldspil & Racket' },
-  { key: 'table_tennis', name: 'Bordtennis', stepsPerMin: 114, cat: 'Boldspil & Racket' },
-  { key: 'tennis', name: 'Tennis', stepsPerMin: 209, cat: 'Boldspil & Racket' },
-  { key: 'volleyball', name: 'Volleyball', stepsPerMin: 114, cat: 'Boldspil & Racket' },
-
-  // KAMPSPORT
-  { key: 'boxing_bag', name: 'Boksning – Sandsæk', stepsPerMin: 157, cat: 'Kampsport' },
-  { key: 'boxing_sparring', name: 'Boksning – Sparring / Kamp', stepsPerMin: 223, cat: 'Kampsport' },
-  { key: 'judo', name: 'Judo / Jiu-Jitsu', stepsPerMin: 151, cat: 'Kampsport' },
-  { key: 'karate', name: 'Karate', stepsPerMin: 151, cat: 'Kampsport' },
-  { key: 'kickboxing', name: 'Kickboksning', stepsPerMin: 151, cat: 'Kampsport' },
-  { key: 'tae_kwan_do', name: 'Taekwondo', stepsPerMin: 151, cat: 'Kampsport' },
-  { key: 'wrestling', name: 'Brydning', stepsPerMin: 171, cat: 'Kampsport' },
-
-  // WINTER & OUTDOOR
-  { key: 'cross_country_skiing', name: 'Langrend (Ski)', stepsPerMin: 257, cat: 'Vintersport & Outdoor' },
-  { key: 'downhill_skiing', name: 'Alpint skiløb', stepsPerMin: 151, cat: 'Vintersport & Outdoor' },
-  { key: 'snowboarding', name: 'Snowboard', stepsPerMin: 151, cat: 'Vintersport & Outdoor' },
-  { key: 'ice_hockey', name: 'Ishockey', stepsPerMin: 229, cat: 'Vintersport & Outdoor' },
-  { key: 'ice_skating', name: 'Skøjteløb', stepsPerMin: 200, cat: 'Vintersport & Outdoor' },
-  { key: 'rock_climbing', name: 'Klatring / Bouldering', stepsPerMin: 166, cat: 'Vintersport & Outdoor' },
-
-  // HVERDAG, DANS & SPORT
-  { key: 'archery', name: 'Bueskydning', stepsPerMin: 123, cat: 'Hverdag & Fritid' },
-  { key: 'dancing', name: 'Dans / Disko', stepsPerMin: 209, cat: 'Hverdag & Fritid' },
-  { key: 'gardening', name: 'Havearbejde', stepsPerMin: 114, cat: 'Hverdag & Fritid' },
-  { key: 'golf', name: 'Golf', stepsPerMin: 123, cat: 'Hverdag & Fritid' },
-  { key: 'gymnastics', name: 'Gymnastik', stepsPerMin: 109, cat: 'Hverdag & Fritid' },
-  { key: 'lawn_bowling', name: 'Krocket / Petanque / Bowling', stepsPerMin: 94, cat: 'Hverdag & Fritid' },
-  { key: 'polo', name: 'Polo', stepsPerMin: 229, cat: 'Hverdag & Fritid' },
-  { key: 'roller_blading', name: 'Rulleskøjter (Inliners)', stepsPerMin: 214, cat: 'Hverdag & Fritid' },
-  { key: 'roller_skating', name: 'Rulleskøjter (Side-by-side)', stepsPerMin: 200, cat: 'Hverdag & Fritid' },
-  { key: 'skateboarding', name: 'Skateboard', stepsPerMin: 143, cat: 'Hverdag & Fritid' },
-  { key: 'standing_desk', name: 'Stående skrivebord', stepsPerMin: 10, cat: 'Hverdag & Fritid' }
-];
-
-export function calculateStepEquivalent(activityKey, durationMinutes) {
+export function calculateStepEquivalent(activityKey, durationMinutes, dataList = []) {
   const duration = parseFloat(durationMinutes) || 0;
-  const activity = ACTIVITY_STEP_RATES.find(a => a.key === activityKey);
+  const activity = dataList.find(a => a.key === activityKey);
 
   if (!activity || duration <= 0) {
     return { isValid: false };
   }
 
   const totalSteps = Math.round(activity.stepsPerMin * duration);
-  // Estimeret distance baseret på gennemsnitlig skridtlængde 0.75 meter
   const estKm = (totalSteps * 0.00075).toFixed(2);
 
   return {

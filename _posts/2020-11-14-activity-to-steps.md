@@ -31,42 +31,30 @@ faq:
 - question: Hvordan omregner jeg svømning til skridt?
   answer: I gennemsnit kan du omregne svømning til mellem 171 - 286 alt efter, hvor hurtigt du svømmer. Se tabellen med omregningsfaktor
     mellem sport og aktivitet.
+- question: Hvordan omregner du aktivitet til skridt?
+  answer: Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Så kan du lave en omregning til det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab. Du kan også bruge tabellen her på siden.
+
 ---
 
 Hvis du gerne vil have svar på hvor mange skridt 10 km cykling svarer til - eller hvor mange skridt du kan skrive i regnskabet for anden motion, sport og aktivitet, så tjek vores "tæl skridt beregner" og motionsomregner.
 
 Mangler du skridt i regnskabet? Vælg din aktivitet herunder, indtast antallet af minutter, og få omregnet din **cykling**, **svømning** eller **styrketræning** til skridt med det samme.
 
-{% include calc/activity-step-converter.html %}
-
-Omregningen af aktivitet, motion og sport til skridt er baseret på [MET](/met/), så det er kun en tilnærmelse, men hvis du hovedsageligt holder øje med dine skridt, så kan det være en hjælp. Du kan læse mere om at omregne motion, sport og aktivitet til skridt på [verywellfit.com](https://www.verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742).
-
----
-
 ## Skridtomregner: Omregn aktivitet, motion og sport til skridt
 
 Du kan omregne anden motion, sport og aktivitet til skridt i vores "Tæl skridt beregner" og motionsomregner.
 
-{% include calculator/calculate-activity-to-steps.html %}
+{% include calc/activity-step-converter.html %}
+
+Omregningen af aktivitet, motion og sport til skridt er baseret på [MET](/met/), så det er kun en tilnærmelse, men hvis du hovedsageligt holder øje med dine skridt, så kan det være en hjælp. Du kan læse mere om at omregne motion, sport og aktivitet til skridt på [verywellfit.com](https://www.verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742).
 
 Omregn den motion du ikke kan tælle med din skridttæller til skridt i denne omregner.
 
 ---
 
-## Omregningsfaktor fra motion til skridt
+## Tabel: Omregningsfaktor fra motion til skridt
 
-Vores "Tæl skridt-beregner" bruger omregningsfaktoreren fra aktivitet til skridt fra [Global Challenge](https://globalchallenge.zendesk.com/hc/en-gb/articles/360000440186-What-activities-can-be-converted-). Omregningsfaktoren tager udgangspunkt i MET og kan ses i føglende tabel.
-
-{% assign met_values = site.data.step-conversion %}
-| Aktivitet | Skridt/min | Skridt/30 min | Skridt/timen |
-|-|-|
-{% for row in met_values offset:2 -%}
-| {{ row.Activity }} | {{ row.Steps }} | {{ row.Steps | times: 30 }} | {{ row.Steps | times: 60 }} |
-{% endfor %}
-
-## Hvordan omregner du aktivitet til skridt?
-
-Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Så kan du lave en omregning til det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab.
+{% include components/step-conversion-tabel.html %}
 
 ---
 

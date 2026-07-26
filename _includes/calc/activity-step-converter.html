@@ -19,26 +19,29 @@
     outline: none !important;
   }
 
-  /* QUICK TIME PRESETS */
-  .mp-time-presets {
+  /* QUICK PRESETS (BÅDE TIL AKTIVITET OG TID) */
+  .mp-preset-row {
     display: flex;
     gap: 0.4rem;
     margin-top: 0.4rem;
+    flex-wrap: wrap;
   }
-  .mp-time-btn {
+  .mp-preset-btn-sm {
     flex: 1;
+    min-width: 65px;
     background: #ffffff;
     border: 1px solid #cbd5e1;
     border-radius: 6px;
-    padding: 0.3rem 0.2rem;
+    padding: 0.35rem 0.2rem;
     font-size: 0.725rem;
     font-weight: 800;
     color: #475569;
     cursor: pointer;
     transition: all 0.15s ease;
     text-align: center;
+    white-space: nowrap;
   }
-  .mp-time-btn:hover {
+  .mp-preset-btn-sm:hover {
     background: #2563eb;
     color: #ffffff;
     border-color: #2563eb;
@@ -107,30 +110,38 @@
     <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
       <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">1. Indtast din aktivitet</h4>
 
-      <!-- AKTIVITET DROPDOWN -->
-      <div style="margin-bottom: 0.85rem;">
+      <!-- AKTIVITET DROPDOWN + GENVEJE -->
+      <div style="margin-bottom: 1rem;">
         <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">
           Aktivitet / Motionsform
         </label>
         <select class="mp-step-input js-step-activity">
           <!-- Udfyldes dynamisk i JS med kategorier -->
         </select>
+        
+        <!-- HURTIGVALG AKTIVITETER -->
+        <div class="mp-preset-row">
+          <button type="button" class="mp-preset-btn-sm js-preset-act" data-act="bicycling_mod">🚴 Cykling</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-act" data-act="running_mod">🏃 Løb</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-act" data-act="swim_mod">🏊 Svømning</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-act" data-act="heavy_resistance">🏋️ Styrke</button>
+        </div>
       </div>
 
-      <!-- TID I MINUTTER -->
+      <!-- TID I MINUTTER + GENVEJE -->
       <div>
         <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">
           Varighed (minutter)
         </label>
         <input type="number" min="1" max="1440" step="1" class="mp-step-input js-step-duration" value="30" placeholder="fx 45" style="text-align: center; font-size: 1.1rem; font-weight: 800;">
         
-        <!-- HURTIGVALG KNAPPER -->
-        <div class="mp-time-presets">
-          <button type="button" class="mp-time-btn js-preset-time" data-min="15">+15 min</button>
-          <button type="button" class="mp-time-btn js-preset-time" data-min="30">30 min</button>
-          <button type="button" class="mp-time-btn js-preset-time" data-min="45">45 min</button>
-          <button type="button" class="mp-time-btn js-preset-time" data-min="60">60 min</button>
-          <button type="button" class="mp-time-btn js-preset-time" data-min="90">90 min</button>
+        <!-- HURTIGVALG TID -->
+        <div class="mp-preset-row">
+          <button type="button" class="mp-preset-btn-sm js-preset-time" data-min="15">15 min</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-time" data-min="30">30 min</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-time" data-min="45">45 min</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-time" data-min="60">60 min</button>
+          <button type="button" class="mp-preset-btn-sm js-preset-time" data-min="90">90 min</button>
         </div>
       </div>
     </div>
