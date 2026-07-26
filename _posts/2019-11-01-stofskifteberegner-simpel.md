@@ -24,7 +24,7 @@ tags:
 - beregner
 - stofskifte
 - stofskifteberegner
-last_modified_at: '2025-03-06T23:14:14Z'
+last_modified_at: '2026-07-06T23:14:14Z'
 feature_row:
 - image_path: https://imgcdn.saxo.com/_9781975217303/0x500
   alt: Exercise Physiology - Nutrition, Energy, and Human Performance

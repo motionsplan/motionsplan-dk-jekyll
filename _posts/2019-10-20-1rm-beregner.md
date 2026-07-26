@@ -37,7 +37,7 @@ meta:
   measures: styrke
   equipment: vægtudstyr
   type: styrketræning
-last_modified_at: '2025-02-24T07:14:14Z'
+last_modified_at: '2026-07-24T07:14:14Z'
 toc: 'true'
 feature_row_sheet:
 - image_path: /assets/images/freebies/rmberegner.png

@@ -20,7 +20,7 @@ meta:
   equipment: hudfoldsmåler
   measures: fedtprocent
   target: børn
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/e/accumeasure-fat-caliper.jpg

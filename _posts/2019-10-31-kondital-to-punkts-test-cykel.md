@@ -28,7 +28,7 @@ tags:
   - cykeltest
   - testberegner
   - populær
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2026-03-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V

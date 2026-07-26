@@ -15,7 +15,7 @@ tags:
 - kost & ernæring
 - protein
 - populær
-last_modified_at: '2024-05-18T10:30:00Z'
+last_modified_at: '2026-07-18T10:30:00Z'
 toc: true
 faq:
 - question: Hvor meget protein har man brug for om dagen?

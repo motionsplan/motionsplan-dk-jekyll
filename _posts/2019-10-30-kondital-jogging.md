@@ -29,7 +29,7 @@ tags:
 - tracking
 - testberegner
 - begynder
-last_modified_at: '2022-10-12T10:14:14Z'
+last_modified_at: '2026-07-12T10:14:14Z'
 ---
 
 Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit [kondital](/kondital/) over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.

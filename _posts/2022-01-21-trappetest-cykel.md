@@ -16,7 +16,7 @@ tags:
 - test
 - kondition
 - cykeltest
-last_modified_at: '2022-01-20T08:14:14Z'
+last_modified_at: '2026-07-20T08:14:14Z'
 toc: 'true'
 meta:
   name: Trappetest på cykel

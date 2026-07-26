@@ -18,14 +18,12 @@ feature_row_training:
   credit: https://images.unsplash.com/photo-1546778316-dfda79f1c84e
   alt: Sådan forbedrer du dine resultater
   title: Træn og få bedre resultater
-  excerpt: 'Brug dine testresultater til at målrette din træning og forbedre din præstation. Med den rette indsats kan du
-    opnå endnu bedre resultater næste gang! Find flere træningstips her 🚴‍♂️💪"
-
-    '
+  excerpt: 'Brug dine testresultater til at målrette din træning og forbedre din præstation. Med den rette indsats kan du opnå endnu bedre resultater næste gang! Find flere træningstips her 🚴‍♂️💪'
   url: /cykling/
   btn_label: Læs mere
   btn_class: btn--success
 classes: wide
+last_modified_at: 2026-03-29T17:21:31.000Z
 ---
 
 Hvad enten du vil kende din **FTP** (*Functional Threshold Power*) til struktureret watt-træning, estimere dit [kondital](/kondital/), eller måle din eksplosive sprintstyrke på cyklen, finder du den rette testmetode og beregner herunder.

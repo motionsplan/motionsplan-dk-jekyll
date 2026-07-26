@@ -32,7 +32,7 @@ tags:
 - løb
 - testberegner
 - featured
-last_modified_at: '2024-01-11T08:14:14Z'
+last_modified_at: '2026-07-11T08:14:14Z'
 feature_row:
 - image_path: /assets/images/freebies/andersen-notering.png
   url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing

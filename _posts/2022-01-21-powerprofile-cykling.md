@@ -11,6 +11,7 @@ header:
 category:
 - Cykling
 tags:
+- test
 - cykeltest
 last_modified_at: '2022-01-20T08:14:14Z'
 toc: 'true'
@@ -22,6 +23,13 @@ feature_row:
   excerpt: Pioneering cycling coach Hunter Allen and exercise physiologists Dr. Andy Coggan and Stephen McGregor show how
     to use a power meter to find your baseline power data, profile your strengths and weaknesses, measure fitness and fatigue,
     optimize your daily workouts, peak for races, and set and adjust your racing strategy during af race.
+meta:
+  name: Powerprofil på cykel
+  measures: powerprofil
+  type: cykeltest
+  equipment: cykelergometer
+  max: maksimal test
+  direct: direkte test
 ---
 
 Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt i, hvilken type rytter du er.

@@ -31,7 +31,7 @@ tags:
 - tracking
 - featured
 - populær
-last_modified_at: '2022-10-13T10:14:14Z'
+last_modified_at: '2026-07-13T10:14:14Z'
 ---
 
 Vil du gerne kende dit kondital ud fra en gå-test? Så er Rockports 1,6 km gå-test helt oplagt. Her får du både baggrunden for testen og en beregner til at udregne dit resultat.

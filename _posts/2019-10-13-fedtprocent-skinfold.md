@@ -27,7 +27,7 @@ tags:
   - metode
   - fitnesstest
   - antropometri
-last_modified_at: 2022-09-19T08:14:14Z
+last_modified_at: 2026-07-19T08:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/e/accumeasure-fat-caliper.jpg

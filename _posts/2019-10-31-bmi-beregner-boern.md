@@ -23,7 +23,7 @@ meta:
   measures: BMI
   type: kropskomposition
 popular: 'true'
-last_modified_at: '2022-09-13T10:14:14Z'
+last_modified_at: '2026-07-13T10:14:14Z'
 faq:
 - question: Hvad er normal BMI for børn?
   answer: Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne

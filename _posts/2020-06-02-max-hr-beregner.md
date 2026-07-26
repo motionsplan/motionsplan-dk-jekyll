@@ -21,7 +21,7 @@ meta:
   equipment: ingen
   max: let
   direct: indirekte test
-last_modified_at: 2025-03-02T08:14:14Z
+last_modified_at: 2026-07-02T08:14:14Z
 faq:
   - question: "Hvordan beregnes min maxpuls?"
     answer: "Din maxpuls beregnes typisk med en formel baseret på din alder. Der findes flere formler, som giver forskellige estimater. Du kan bruge vores maxpuls-beregner på denne side til at få en hurtig beregning."
