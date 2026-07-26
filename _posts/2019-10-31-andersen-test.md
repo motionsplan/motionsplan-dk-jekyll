@@ -1,10 +1,8 @@
 ---
 title: 'Andersen Test: Beregn kondital for børn og unge'
-seo_title: 'Andersen Test: Find kondital for børn og unge (Beregner)'
-description: Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering
-  af deres kondition.
-excerpt: Beregn kondital for børn og unge med Andersen testen. Download skema og beregner til Andersen testen, og få vurdering
-  af deres kondition.
+seo_title: "Andersen-test: Beregner, skema & kondital for børn"
+description: 'Tag Andersen-testen (15/15 intervalløb). Beregn børns kondital direkte med vores beregner, download gratis noteringsark til klassen og se normskemaer.'
+excerpt: 'Beregn kondital for børn og unge med Andersen-testen (Andersens test). Download gratis noteringsark, skema og beregner til skoleidræt.'
 permalink: /andersen-test/
 language: da
 header:
@@ -49,17 +47,24 @@ feature_row:
   btn_class: btn--success
   btn_label: <i class='fas fa-file-excel'></i> Lav en kopi i Google Sheet
   rel: nofollow noopener
+faq:
+  - question: "Hvorfor får piger et lavere kondital end drenge ved samme distance?"
+    answer: |
+      I formlen trækkes der 5,92 point fra for piger ved samme løbedistance. Det skyldes primært fysiologiske forskelle:
+
+      1. **Kropssammensætning:** Konditallet er skaleret i forhold til den samlede kropsvægt og ikke den fedtfri masse. Piger har naturligt en højere fedtprocent end drenge fra puberteten. Da fedtvæv ikke forbruger ilt, bliver den vægtkorrigerede iltoptagelse lavere.
+      2. **Bevægelsesøkonomi:** Hvis piger har en mere effektiv løbeøkonomi eller vindingsteknik, bruger de mindre ilt pr. tilbagelagt meter.
 ---
 
-Andersen testen er en [konditionstest](/kondition/tests/), hvor du skiftevis løber og holde pause i 10 minutter. Testen kan bruges til at estimere konditallet på gruppeniveau. Testen er særligt velegnet til børn og kan udføres med større grupper, hvor alle er aktivitet undervejs.
+**Andersen-testen** (også ofte kaldet *Andersens test* eller *Andersen løbetest*) er en populær [konditionstest](/kondition/tests/) for børn og unge. Testen er opbygget som et 10-minutters **15/15 intervalløb**, hvor man skiftevis løber i 15 sekunder og holder pause i 15 sekunder.
 
-Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/).
-
-Testen er let at udføre og let at organsiere.
+Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/)., da den er nem at organisere på et 20-meters område (f.eks. bredden af en håndboldhal) og engagerer hele klassen på én gang.
 
 Testen er egnet fordi den ikke udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
 
-Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), men datagrundlaget for testen er lidt spinkelt. Derfor er udregningen af konditallet ud fra testen behæftet med flere ting, du skal være opmærksom på.
+Andersen-testen udstiller ikke de mindst trænede børn, da alle løber frem og tilbage på den samme bane samtidig, så man kan umiddelbart ikke se, hvem der har løbet kortest og længst. Derfor kan testen være et godt alterantiv til fx [Cooper-testen](/kondital-cooper-test/).
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ## Hvad er Andersen Test?
 
@@ -69,7 +74,10 @@ Testen er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet. Ford
 
 Du kan udregne elevernes kondital ud fra testens resultat. Men sørg for at læse lidt videre for at forstå mere om udregningen.
 
-## Instruktion til Andersens Test
+Testen er videnskabeligt dokumenteret og valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), men datagrundlaget for testen er lidt spinkelt. Derfor er udregningen af konditallet ud fra testen behæftet med flere ting, du skal være opmærksom på.
+
+
+## Instruktion: Sådan udføres Andersens løbetest
 
 Du kan se mere om Andersen testen i følgende Youtube-video.
 
@@ -77,33 +85,39 @@ Du kan se mere om Andersen testen i følgende Youtube-video.
 
 Hvis du foretrækker at læse, hvordan du laver testen, så tjek her:
 
-- Banen til Andersen Testen skal være 20 m lang og markeres med en streg i hver ende.
-- Stil fx kegler for hver 5. meter på banen. Dette gør måling af distance nemmere.
-- Deltagerne løber frem og tilbage mellem stregerne. Ved hver vending skal deltageren sætte foden på stregen og røre gulvet med hånden.
-- Deltagerne løber i 15 sekunder og holder pause i 15 sekunder. Det letteste er klart at have forberedt enten en automatisk timer eller et stykke musik, der angiver intervallerne. Se lidt længere nede på siden for forslag til, hvordan du tager tid.
-- Testen varer i alt 10 minutter. Deltagerne skal altså løbe 20 intervaller i alt.
-- Klassen kan fx deles op i 2 hold. Det ene hold løber, og det andet hold tæller, hvor mange baner de løber. Bagefter byttes der.
-- Husk at eleverne skal varme grundigt op før testen, 5-10 minutter efterfulgt af nogle minutters pause.
+1. **Banen:** Opmål en bane på 20 meter med en klar streg i hver ende. Sæt gerne kegler for hver 5. meter for at gøre opmålingen nemmere.
+2. **Vendinger:** Ved hver vending skal eleven sætte foden på stregen og røre gulvet med hånden.
+3. **Intervaller:** Eleverne løber i 15 sekunder og hviler i 15 sekunder. Brug en automatisk interval-timer eller musik (se forslag længere nede).
+4. **Organisering:** Klassen kan med fordel opdeles i to hold. Hold 1 løber, mens Hold 2 står som tællere ved sidelinjen og krydser af for hver bane. Bagefter byttes der roller.
+5. **Opvarmning:** Sørg for 5–10 minutters opvarmning med lette stræk og jog før start.
 
-Det kan være en god ide at prøve testen to gange, så eleverne lærer hvordan de skal pace sig selv i testen for at kunne løbe så langt som muligt. Som med alle tests er der altid en læringseffekt i tests.
+*Tip:* Det er en god idé at lade eleverne prøve 2–3 intervaller som generalprøve, så de forstår at pace sig selv jævnt i stedet for at sprinte i det første interval.
 
 ## Beregn kondital med Andersen Testen
+{: id="calculator" }
+
+Indtast deltagerens køn og samlede løbedistance i meter herunder for at beregne det estimerede kondital:
 
 {% include calculator/calculate-fitness-andersen-test.html %}
 
 {% include calc/andersen-test.html %}
 
-## Test-materiale til Andersens Test
+## Gratis test-materiale og skemaer
 
-Hvis du gerne vil lave testen, så er der nogle dokumenter her, som du kan bruge.
+Skal du afvikle Andersen-testen med en klasse? Hent vores færdige skemaer og regneark:
 
 {% include feature_row type="right" %}
 
-## Timer til Andersen testen
+## Timer og musik til Andersen-testen
 
-Det kan være en fordel at have noget musik til testen eller en _timer_, så du ikke behøver at tage tid undervejs. Du kan finde timere på Youtube, men du kan også bruge din egen interval timer.
+For at undgå at skulle holde øje med et stopur hvert 15. sekund, anbefales det at bruge en interval-timer app eller en færdig Youtube-timer.
 
-Når jeg skal tage tid på fx [cirkeltræning](/cirkeltraening/) bruger jeg selv den gratis app **[Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da){: rel="nofollow noopener" }** (som dog har reklamer) fra Google Play Store. Her kan jeg sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Youtube Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568){: rel="nofollow noopener" }.
+I appen **[Interval Timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da){: rel="nofollow noopener" }** (Android) eller **[Interval Timer HIIT](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568){: rel="nofollow noopener" }** (iOS) kan du indstille:
+* **Work:** 15 sekunder
+* **Rest:** 15 sekunder
+* **Rounds:** 20
+
+Du kan afspille musik fra Spotify eller Youtube Music i baggrunden, mens appen bipper ved hver skift.
 
 {% include figure image_path="/assets/images/blog/andersen-test-timer.png" caption="Andersen Test timer med 20 gentagelser af 15/15 lavet på [www.intervaltimer.com](https://www.intervaltimer.com/timers/11192285-andersen-test){: rel='nofollow noopener' }." alt="Andersen Test Timer" %}
 
@@ -111,7 +125,7 @@ Du kan også finde videoer på Youtube, fx denne timer til at styre tiden underv
 
 {% include video provider="youtube" id="tOh-Lgz-eYg" %}
 
-## Har jeg et godt kondital?
+## Normer: Har barnet et godt kondital?
 
 Nedenunder har jeg sakset kondital for børn og unge fra [tabellerne over normale kondital](/kondital/).
 
@@ -131,7 +145,7 @@ Du kan altså sammenligne dit resultat fra Andersen Testen med andre børn på d
 | 5-14 år | < 38 | 38-43 | 44-51 | 52-56 | > 57 |
 | 15-19 år | < 43 | 44-48 | 49-56 | 57-61 | > 62 |
 
-## Hvad er formlen til at udregne konditallet med Andersen Testen?
+## Formel bag Andersen-testen
 
 Andersen testen benytter denne formel for at udregne konditallet. Det er den samme formel, vi bruger i beregneren ovenfor.
 
@@ -155,9 +169,11 @@ Den store inter-individuelle variation i data gør som sagt, at testen ikke er s
 
 Aadland et al (2014) foreslår en ny formel for testen, der giver en bedre forudsigelse på resultaterne på de 10-årige børn i dette studium.
 
-VO<sub>2peak</sub> = 23,262 + 0,050 * Andersen distance – 3,858 * køn – 0,376 * kropsvægt (kg)
+$$ \text{VO}_{2\text{peak}} = 23{,}262 + 0{,}050 \cdot \text{Andersen-distance} - 3{,}858 \cdot \text{køn} - 0{,}376 \cdot \text{kropsvægt} $$
 
-Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
+* **$\text{Andersen-distance}$:** samlet tilbagelagt distance i meter
+* **$\text{køn}$:** Dreng = 0, Pige = 1
+* **$\text{kropsvægt}$:** vægt i kg
 
 ## Hvorfor er der forskel på piger og drenge?
 
@@ -185,11 +201,15 @@ Men først og fremmest skal du altså være varsom med at betragte konditallet s
 
 Piger har typisk en højere fedtprocent, og da fedt ikke forbruger ilt, så vil de også skaleret ift. vægt have en lavere iltoptagelse.
 
-## Andre konditionstests til børn
+---
 
-Andersen-testen er en fin konditionstest, når du har en større gruppe børn, som du gerne vil teste på en gang. Hvis du har brug for en anden præcis konditionstest til børn, så kan du også bruge [Watt-max testen på cykel for børn](/kondital-wattmax-boern/). Denne test kræver imidlertid, at du har adgang til et præcist cykelergometer.
+## Andre konditionstests til børn og unge
 
-Ellers kan du naturligvis også prøve [bip-testen](/bip-test/). Fordelen ved bip-testen er, at her skal deltagerne ikke lære at pace testen, fordi de bare skal følge tempoet i testen. Det er fordelen ved en ramp-test.
+Ønsker du at supplere eller bruge et alternativ til Andersen-testen?
+
+* 🔊 **[Bip-test (Shuttle Run Test)](/bip-test/):** Et godt alternativ, hvor eleverne følger en lydfil med stigende tempo i stedet for selv at skulle pace 15/15-intervallerne.
+* 🚴 **[Wattmax-test for børn](/kondital-wattmax-boern/):** En præcis cykeltest på ergometercykel til individuel testning.
+* 🏃 **[Submaksimal 1,6 km jogging-test](/submaximal-jogging-test-vo2/):** En nem løbetest for begyndere og unge, der vil teste formen med rolig jogging.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

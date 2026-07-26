@@ -1,6 +1,7 @@
 ---
-title: '1,6 km gå-test: Find dit kondital med Rockports test 🚶‍'
-seo_title: '1,6 km gå-test: Find dit kondital med Rockports test'
+title: 'Gå-test (1,6 km Rockport): Beregn dit kondital med gang 🚶‍'
+seo_title: 'Gå-test: Beregn dit kondital med Rockport 1,6 km gangtest'
+description: 'Tag en simpel gå-test og beregn dit kondital ud fra Rockports 1,6 km gangtest. Den ideelle konditionstest for dig, der vil i form ved at gå.'
 permalink: /gaatest/
 excerpt: Rockports 1,6 km gå-test er en submaksimal gang-test til at estimere konditallet ud fra tiden det tager at gennemføre
   gangtesten. Gå-testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige.
@@ -32,6 +33,11 @@ tags:
 - featured
 - populær
 last_modified_at: '2026-07-13T10:14:14Z'
+faq:
+  - question: Hvem egner Rockports gå-test sig til?
+    answer: Rockport 1,6 km gå-testen er ideel til motionister, begyndere, overvægtige eller folk, der ønsker at teste deres kondition uden at skulle løbe.
+  - question: Hvor hurtigt skal man gå 1,6 km?
+    answer: Tempoet skal være rask gang i et jævnt tempo, hvor du bliver moderat forpustet. Du kan sammenligne din tid med vores oversigt over, [hvor hurtigt man normalt går](/tid-at-gaa/).
 ---
 
 Vil du gerne kende dit kondital ud fra en gå-test? Så er Rockports 1,6 km gå-test helt oplagt. Her får du både baggrunden for testen og en beregner til at udregne dit resultat.
@@ -40,7 +46,9 @@ Vil du gerne kende dit kondital ud fra en gå-test? Så er Rockports 1,6 km gå-
 
 Rockports gå-test er særligt egnet til utrænede, folk i dårlig form, ældre og overvægtige. Testen kræver blot, at du kan gå 1,6 km, tage tid på det og måle pulsen til sidst i gang-testen.
 
-Hvis ikke du kan gå så langt, så kan du overveje [6 minutters gang-test (6MWT)]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}).
+> **Er du ikke så godt gående?**
+> Hvis ikke du kan gå så langt, så kan du overveje [6 minutters gang-test (6MWT)](/gaatest-6min/).
+{: .notice--info }
 
 Du kan også bruge vores beregner til raske mennesker i bedre form. Der kan du overveje at vælge formlen fra Lunt et al (2013) som dit udgangspunkt.
 
@@ -109,6 +117,10 @@ Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne
 Du kan lade 1,6 km gå-testen være en del af dit mål om at komme i bedre form. Du kan sammenligne din egen tid med [hvor hurtigt man normalt går](/tid-at-gaa/).
 
 Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
+
+## Ofte stillede spørgsmål om gå-testen
+
+{% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>

@@ -1,9 +1,9 @@
 ---
 title: &title "6 minutters gangtest (6MWT) for ældre mennesker 🚶‍♀️"
-seo_title: "6 min gangtest (6MWT): Beregner, normalværdier og skema"
+seo_title: "6 min gangtest (6MWT): Beregner, skema og normalværdier"
+description: "Tag 6 minutters gangtest (6MWT) for ældre og svækkede. Udregn din forventede distance med vores beregner og se vejledende normalværdier og referenceformler."
 permalink: /gaatest-6min/
 excerpt: "6 minutters gangtest (6MWT) er en gåtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker i samme aldersgruppe som dig selv. Gangtesten henvender sig til relativt fysisk svage personer."
-description: "Tag 6 minutters gangtest (6MWT) for ældre og svækkede. Udregn din forventede distance med vores beregner og se vejledende normalværdier og referenceformler."
 language: da
 header:
   teaser: /assets/images/static1.straitstimes.com.sg/20170904_1504497527583_2073451859691958_16_amyama4_zuann-903e30dc.jpg
@@ -48,11 +48,11 @@ I **6 minutters gangtest (6MWT)** gælder det om at gå så langt som muligt på
 
 Testen er en såkaldt *submaksimal funktionstest*, der er specielt egnet til fysisk svækkede personer, f.eks. ældre, hjerte- eller lungesyge patienter. Testen kaldes derfor også ofte for en *Senior Fitness Test*. 
 
-*(Er du i god fysisk form og rask, anbefaler vi at bruge [1,6 km gåtesten (Rockport Walking Test)](/gaatest/) i stedet).*
+> **Er du i god fysisk form og rask?**
+> For dig i god fysisk form, så anbefaler vi at bruge [1,6 km gåtesten (Rockport Walking Test)](/gaatest/) i stedet.
+{: .notice--info }
 
 *[6MWT]: 6 Minutes Walk Test
-
-{% include figure image_path="/assets/images/static1.straitstimes.com.sg/20170904_1504497527583_2073451859691958_16_amyama4_zuann-903e30dc.jpg" alt="asiatiske kvinder gennemfører 6 min gangtest (6MWT)" caption="[📷](https://static1.straitstimes.com.sg/s3fs-public/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg){: rel='nofollow noopener' }" %}
 
 ---
 

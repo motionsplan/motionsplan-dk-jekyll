@@ -1,10 +1,9 @@
 ---
-title: ️Submaksimal 1609 m løbetest til at finde VO2max
+title: "Løbetest for begyndere: Submaksimal 1,6 km jogging-test"
+seo_title: "Løbetest for begyndere: Test dit kondital med 1,6 km jog"
 permalink: /submaximal-jogging-test-vo2/
-description: I denne løbetest på 1609 meter kan du finde dit kondital og VO2max. Du skal bare bruge en nøjagtigt opmålt rute,
-  et stopur og et pulsur.
-excerpt: Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge
-  en nøjagtigt opmålt rute, et stopur og et pulsur.
+description: "Nem submaksimal løbetest for begyndere. Mål dit kondital med rolig 1,6 km jogging med bare et stopur og en pulsmåler."
+excerpt: Submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.
 language: da
 header:
   teaser: /assets/images/unsplash/photo-1600679472183-07cc4f68b140.jpg
@@ -32,7 +31,34 @@ tags:
 last_modified_at: '2026-07-12T10:14:14Z'
 ---
 
-Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit [kondital](/kondital/) over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.
+Vil du gerne teste din form og kende dit [kondital](/kondital/), og foretrækker du en overkommelig test?
+
+Denne **submaksimale løbetest på 1,6 km (1 mil)** er velegnet som **løbetests for begyndere**. I stedet for at skulle løbe så hurtigt som muligt, skal du blot jogge i et roligt og jævnt tempo over 1609 meter og måle din puls og tid undervejs.
+
+Testen er også oplagt til at **tracke hvordan det går med formen**, fordi du let kan lave den en gang om ugen som en del af opvarmningen.
+
+> **Kan du ikke løbe?**
+> Hvis du ikke kan løbe, så kan du tjekke [Rockports 1,6 km gangtest](/gaatest/) ud.
+{: .notice--info }
+
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
+---
+
+## Hvorfor er dette en god løbetest for begyndere?
+
+En submaksimal test bygger på den fysiologiske sammenhæng mellem dit arbejdstempo og din puls i *steady state*. 
+
+Testen (oprindeligt kaldet *1-Mile Track Jog Test*) blev udviklet af George et al. (1993) og er senere valideret af Hunt et al. (2000) til teenagere i alderen 13–17 år.
+
+Det gør den ideel som begynder- og undervisningstest:
+* **Ingen krav om løbeerfaring:** Du behøver ikke at kende dit krampe- eller max-tempo på forhånd.
+* **Overskuelig at gennemføre:** Testen giver elever og begyndere en succesoplevelse med løb og pulsmåling.
+* **Nem at gentage:** Du kan tage testen løbende i din træning. Når din puls over tid falder ved det samme joggetempo, ved du, at din kondition er forbedret.
+
+---
+
+## Hvad er 1609 meter joggingtesten?
 
 George et al (1993) har udformet denne _1 mile track jog_-test for at estimere den maksimale iltoptagelse for college-studenter.
 
@@ -40,19 +66,18 @@ Den oprindelige test er lavet på sunde college elever og Hunt et al (2000) vali
 
 Selvom du er ældre end en college student, så kan du stadig bruge udregningerne, men måske får du ikke dit nøjagtige kondital. Men ved at bruge den samme udregning hver gang, så kan du stadig bruge tallet til at tracke din fremgang.
 
-Hvis du er på udkig efter [1,6 km gangtesten, så har vi beskrevet den her](/gaatest/).
-
 Når du har lavet testen, så kan du bruge beregneren lidt længere nede på siden.
 
 {% include figure image_path="https://images.unsplash.com/photo-1600679472183-07cc4f68b140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="løbere i jogging-testen" %}
 
-## Hvordan laver en testen?
+## Sådan udfører du 1,6 km begynder-testen
 
-Du starter tiden, når du begynder at løbe og du stopper tiden, når du er færdig. Pulsen skulle gerne være nogenlunde _steady state_ undervejs.
+Alt du skal bruge er en opmålt rute (f.eks. en 400 meter løbebane), et stopur og et pulsur eller pulsbælte.
 
-Mænd skal helst bruge mere en 8 minutter og kvinder mere end 9 minutter for at gennemføre distancen. Det var nu ikke noget problem for mig at jogge i det tempo.
-
-Du kan gå efter at pulsen ligger fra 140 - 160 slag i minuttet. Husk at det er en submaksimal test.
+1. **Opvarmning:** Gå eller jog let i 5–10 minutter.
+2. **Tempo:** Løb i et roligt og behageligt joggetempo. Mænd bør bruge over 8 minutter, og kvinder over 9 minutter på distancen.
+3. **Puls:** Sigt efter en stabil gennemsnitspuls på omkring 140–160 slag/minut.
+4. **Gennemførelse:** Løb de 1,6 km (1609 meter), stop tiden ved målstregen og noter din puls.
 
 Jeg synes det er lettest at bruge mit pulsur og appen fra min telefon. Så kan jeg efterfølgende kigge på pulsværdierne og tempoet.
 
@@ -62,7 +87,10 @@ Det ser sådan her ud i Garmin Connect:
 
 På baggrund af disse målinger kan du så udregne dit kondital i beregneren nedenunder.
 
-## Beregn kondital med jogging test
+## Beregn kondital ud fra jogging test
+{: id="calculator" }
+
+Indtast din tid, puls, alder og vægt i beregneren herunder for at beregne dit estimerede kondital:
 
 {% include calculator/calculate-fitness-jog-vo2.html %}
 
@@ -93,6 +121,16 @@ Testen er let at lave. Du kan bruge den som en del af din opvarmning. En af de s
 At testen er submaksimal er også en ulempe. Samtidig er testen indirekte, og derfor får du kun et tilnærmet kondital. Tallet kan således kun bruges til at holde styr på din egen træning.
 
 Du skal huske på, at pulsen er relativt påvirkelig af mange faktorer. Du kan gå i dybden i vores [guide til puls](/puls/) og lære endnu mere om, [hvordan du kan bruge pulstræning](/pulstraening/).
+
+
+## Klar til mere krævende løbetests?
+
+Da denne jogging-test er en begyndertest med moderat belastning, giver den et *estimeret* kondital. Det er perfekt til at følge din egen fremgang over tid.
+
+Har du eller dine elever opbygget en god grundform og mod på mere direkte præstationstests, kan I i stedet vælge en af vores klassiske maksimale løbetests:
+
+* 🏃 **[Cooper-test (12 min. løbetest)](/cooper-test/):** Klassikeren hvor du måler, hvor lang en distance du kan tilbagelægge på nøjagtigt 12 minutter.
+* 🔊 **[Bip-test (Multi-Stage Fitness Test)](/bip-test/):** Populær pendulløbstest med stigende tempo, som er oplagt til idrætstimer og holdtræning.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
