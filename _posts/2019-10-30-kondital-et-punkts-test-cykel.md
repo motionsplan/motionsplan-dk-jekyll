@@ -109,8 +109,8 @@ Zacho bruger også sin formel i nedenstående beregner til Åstrands etpunktstes
 
 I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
 
-- kvinder: VO₂max = (0,00193 x workload + 0.326) / (0,769 x HRss - 56.1) x 100
-- mænd: VO<sub>2max</sub> = (0,00212 x workload + 0.299) / (0,769 x HRss - 48.5) x 100
+- **Kvinder:** $\text{VO}_2\text{max} = \frac{0{,}00193 \cdot \text{Workload} + 0{,}326}{0{,}769 \cdot \text{HR}_{\text{ss}} - 56{,}1} \cdot 100$
+- **Mænd:** $\text{VO}_2\text{max} = \frac{0{,}00212 \cdot \text{Workload} + 0{,}299}{0{,}769 \cdot \text{HR}_{\text{ss}} - 48{,}5} \cdot 100$
 
 Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 

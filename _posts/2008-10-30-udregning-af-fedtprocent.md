@@ -129,11 +129,11 @@ Durnin & Womersley bruger i sin formel BMI og køn.
 
 #### Mænd: Udregn din fedtprocent
 
-Fedtprocent = 1,34 * BMI - 12,47
+$$ \text{Fedtprocent} = 1{,}34 \cdot \text{BMI} - 12{,}47 $$
 
 #### Kvinder: Udregn din fedtprocent
 
-Fedtprocent = 1,37 * BMI - 3,47
+$$ \text{Fedtprocent} = 1{,}37 \cdot \text{BMI} - 3{,}47 $$
 
 </details>
 
@@ -168,18 +168,18 @@ $$
 <details markdown="1" class="equation">
   <summary><h3 id="duerenberg-equation">Duerenberg et al. (1991)</h3></summary>
 
-Fedtprocent = 1,20 * BMI + 0,23 * age - 10,8 * gender - 5,4;
+$$ \text{Fedtprocent} = 1{,}20 \cdot \text{BMI} + 0{,}23 \cdot \text{Age} - 10{,}8 \cdot \text{Gender} - 5{,}4 $$
 
-gender: men = 1; female = 0
+- **Gender:** Mænd = 1; Kvinder = 0
 
 </details>
 
 <details markdown="1" class="equation">
   <summary><h3 class="duerenberg-equation">Duerenberg et al. (1998)</h3></summary>
 
-Adult Body Fat % = (1,29 * BMI) + (0,20 * Age) - (11,4 * gender) - 8,0
+$$ \text{Adult Body Fat \%} = 1{,}29 \cdot \text{BMI} + 0{,}20 \cdot \text{Age} - 11{,}4 \cdot \text{Gender} - 8{,}0 $$
 
-gender: men = 1; female = 0
+- **Gender:** Mænd = 1; Kvinder = 0
 
 </details>
 
@@ -190,18 +190,20 @@ gender: men = 1; female = 0
 
 Men samtidig bruger Gallagher et al (2000) også etnicitet, da de har fundet ud af, at fedtprocenten og BMI hænger lidt anderledes sammen for asiater og _african americans_. Denne detalje har jeg endnu ikke indkorporeret i beregneren, så den regner bare med folk af europæisk afstamning.
 
-Fedtprocent = 63,7 - 864 * (1/BMI) - 12,1 * gender + 0,12 * age + (129 * asian * (1/BMI)) - (0,091 * asian * age) - (0,030 * afro * age)
+$$ \text{Fedtprocent} = 63{,}7 - \frac{864}{\text{BMI}} - 12{,}1 \cdot \text{Gender} + 0{,}12 \cdot \text{Age} + \frac{129 \cdot \text{Asian}}{\text{BMI}} - 0{,}091 \cdot \text{Asian} \cdot \text{Age} - 0{,}030 \cdot \text{Afro} \cdot \text{Age} $$
 
-hvor gender = 1 for mænd og 0 er for kvinder, asian = 1 for asiater, afro = 1 for African Americans.
+- **Gender:** 1 for mænd, 0 for kvinder
+- **Asian:** 1 for asiater
+- **Afro:** 1 for African Americans
 
 </details>
 
 <details markdown="1" class="equation">
   <summary><h3 class="jackson-equation">Formel fra Heritage-studiet - Jackson et al (2002)</h3></summary>
 
-Adult Body Fat % = (1,39 * BMI) + (0,16 * age) - (10,34 * gender) - 9
+$$ \text{Adult Body Fat \%} = 1{,}39 \cdot \text{BMI} + 0{,}16 \cdot \text{Age} - 10{,}34 \cdot \text{Gender} - 9 $$
 
-gender: men = 1; female = 0
+- **Gender:** Mænd = 1; Kvinder = 0
 </details>
 
 ## Usikkerhed i udregningen af fedtprocent

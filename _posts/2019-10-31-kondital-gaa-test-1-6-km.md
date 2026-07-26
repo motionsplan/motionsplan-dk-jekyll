@@ -81,21 +81,26 @@ Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan a
 
 ## Formel bag Rockports 1600 meters gå-test
 
+### Kline (1987) - Standard Rockport Walk Test
+
 Testen er oprindeligt udviklet af Kline et al (1987). De udviklede denne formel for at estimere konditallet med en målgruppe mellem 30-69 år:
 
-Kondital = 132,853 - (0,169535479 × Kropsvægt) - (0,3877 × Alder) + (6,315 × Køn) - (3,2649 × Tid) - (0,1565 × HR)
+$$ \text{Kondital} = 132{,}853 - 0{,}169535479 \cdot \text{Kropsvægt} - 0{,}3877 \cdot \text{Alder} + 6{,}315 \cdot \text{Køn} - 3{,}2649 \cdot \text{Tid} - 0{,}1565 \cdot \text{HR} $$
 
 Hvor:
 
-- Kropsvægt i kg.
-- Køn - Hvis man er en mand, så skal der stå 1 i formlen, mens der skal stå 0 for kvinder
-- Tid - Tiden skal være i minutter og 100-dele af minutter.
-- HR (Heart Rate) er i pulsslag / min.
-- Alder i år.
+* **$\text{VO}_2\text{max}$** = Kondital (ml $\text{O}_2$ / kg / min)
+* **$m$** = Kropsvægt (kg)
+* **$A$** = Alder (år)
+* **$S$** = Køn ($\text{Mand} = 1$, $\text{Kvinde} = 0$)
+* **$t$** = Tid i minutter og decimaler (f.eks. 15 min. og 30 sek. = $15{,}5$ min)
+* **$HR$** = Puls / Heart Rate (slag/min)
+
+### Lunt et al. (2013)
 
 Lunt et al (2013) undersøgte militærpersonale i alderen 18-39 år. De fandt, at følgende formel var endnu mere præcis til at forudsige det korrekte kondital for deltagerne i deres test.
 
-Kondital = 51,047 + (8,336 * Køn) + (635,012 * 1 / Tid) - (0,225 * HR) - (0,271 * Kropsvægt) - (0,231 * Alder)
+$$ \text{Kondital} = 51{,}047 + 8{,}336 \cdot \text{Køn} + \frac{635{,}012}{\text{Tid}} - 0{,}225 \cdot \text{HR} - 0{,}271 \cdot \text{Kropsvægt} - 0{,}231 \cdot \text{Alder} $$
 
 ## Hvor god form er jeg i?
 

@@ -77,7 +77,7 @@ For at udregne konditallet ud fra resultatet i Bruce-testen, skal du bruge en fo
 
 Der er en generel formel, der passer til begge køn:
 
-VO₂-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
+$$ \text{VO}_2\text{max} = 14{,}8 - 1{,}379 \cdot T + 0{,}451 \cdot T^2 - 0{,}012 \cdot T^3 $$
 
 Hvor T er er tiden i minutter, du har løbet i Bruce-testen. Sekunderne skal være fraktioner af minutter, så 9 minutter og 15 sekunder er 9.25.
 

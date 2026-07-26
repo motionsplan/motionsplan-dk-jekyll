@@ -112,9 +112,9 @@ Mål: Hypertrofi
 
 Personen laver 10 reps/gentagelser, men kan vælge to forskellige slags tempi.
 
-Ved det ene set køres der  i tempo 1010 – Dvs. hurtig op og hurtig ned. Arbejdstiden for dette set bliver i alt: 10 x (1+1) = 20 sek.
+Ved det ene set køres der i tempo 1010 – Dvs. hurtig op og hurtig ned. Arbejdstiden for dette set bliver i alt: $10 \cdot (1 + 1) = 20\text{ sek.}$
 
-Ved det andet set køres der med tempo 4010 – Dvs. langsomt ned, og hurtigt op. Arbejdestiden bliver for dette set: 10 x (4+1) = 50 sek.
+Ved det andet set køres der med tempo 4010 – Dvs. langsomt ned, og hurtigt op. Arbejdestiden bliver for dette set: $10 \cdot (4 + 1) = 50\text{ sek.}$
 
 Ved set 2 er der
 

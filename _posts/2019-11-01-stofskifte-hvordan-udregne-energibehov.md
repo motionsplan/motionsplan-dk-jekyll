@@ -62,26 +62,25 @@ Dit **hvilestofskifte** (Basal Metabolic Rate, BMR) er den mængde energi, din k
 
 En af de mest populære måder at beregne BMR på er **Mifflin-St. Jeor-formlen**:
 
-- **For mænd**:  
-  `BMR = (10 × vægt i kg) + (6.25 × højde i cm) - (5 × alder) + 5`
+- **For mænd:**
+  $$ \text{BMR} = (10 \cdot \text{Vægt}) + (6{,}25 \cdot \text{Højde}) - (5 \cdot \text{Alder}) + 5 $$
 
-- **For kvinder**:  
-  `BMR = (10 × vægt i kg) + (6.25 × højde i cm) - (5 × alder) - 161`
+- **For kvinder:**
+  $$ \text{BMR} = (10 \cdot \text{Vægt}) + (6{,}25 \cdot \text{Højde}) - (5 \cdot \text{Alder}) - 161 $$
 
 ### Eksempel:
 
 En mand på 30 år, der vejer 75 kg og er 180 cm høj:
 
-    BMR = (10 × 75) + (6.25 × 180) - (5 × 30) + 5
-    BMR = 750 + 1125 - 150 + 5
-    BMR = 1730 kcal/dag
-
+$$ \text{BMR} = (10 \cdot 75) + (6{,}25 \cdot 180) - (5 \cdot 30) + 5 $$
+$$ \text{BMR} = 750 + 1125 - 150 + 5 $$
+$$ \text{BMR} = 1730 \text{ kcal/dag} $$
 
 En kvinde på 30 år, der vejer 60 kg og er 165 cm høj:
 
-    BMR = (10 × 60) + (6.25 × 165) - (5 × 30) - 161
-    BMR = 600 + 1031.25 - 150 - 161
-    BMR = 1320 kcal/dag
+$$ \text{BMR} = (10 \cdot 60) + (6{,}25 \cdot 165) - (5 \cdot 30) - 161 $$
+$$ \text{BMR} = 600 + 1031{,}25 - 150 - 161 $$
+$$ \text{BMR} = 1320{,}25 \text{ kcal/dag} $$
 
 Du kan også bruge vores [BMR-beregner](/bmr-beregner/) for at få en hurtigere beregning. Eller du kan se nogle af alle de andre [formler til hvilestofskiftet](/hvilestofskiftet-formler/).
 
@@ -105,12 +104,11 @@ Lad os bruge det tidligere eksempel for en mand med et BMR på 1730 kcal/dag:
 
 Hvis han har **moderat aktivitet** (3-5 dage træning om ugen), vil hans TDEE være:
 
-    TDEE = 1730 × 1.55 = 2681 kcal/dag
-
+$$ \text{TDEE} = 1730 \cdot 1{,}55 = 2681 \text{ kcal/dag} $$
 
 Hvis han derimod har **let aktivitet** (1-3 dage træning om ugen), vil hans TDEE være:
 
-    TDEE = 1730 × 1.375 = 2378 kcal/dag
+$$ \text{TDEE} = 1730 \cdot 1{,}375 = 2378 \text{ kcal/dag} $$
 
 
 ***

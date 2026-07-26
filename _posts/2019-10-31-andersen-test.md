@@ -135,9 +135,9 @@ Du kan altså sammenligne dit resultat fra Andersen Testen med andre børn på d
 
 Andersen testen benytter denne formel for at udregne konditallet. Det er den samme formel, vi bruger i beregneren ovenfor.
 
-Kondital = 18,38 + (0,03301 x løbedistance) – (5,92 x dit køn)
+$$ \text{Kondital} = 18{,}38 + 0{,}03301 \cdot \text{Løbedistance} - 5{,}92 \cdot \text{Køn} $$
 
-Hvis du er en dreng = 0, mens en pige = 1 for dit køn.
+- **Køn:** Dreng = 0, Pige = 1
 
 ## Reliabilitet og validitet for testen
 

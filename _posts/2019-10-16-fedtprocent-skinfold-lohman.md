@@ -66,8 +66,8 @@ I nedenstående beregner kan du udregne fedtprocenten baseret på dine målinger
 
 Jeg bruger i beregneren formlen som præsenteres på [www.topendsports.com](https://www.topendsports.com/testing/bodyfat-equation-slaughter-lohman.htm).
 
-- Drenge: Fedtprocent = 0,735 (triceps + læg) + 1,0
-- Piger: Fedtprocent = 0,610 (triceps + læg) + 5,1
+- **Drenge:** $\text{Fedtprocent} = 0{,}735 \cdot (\text{Triceps} + \text{Læg}) + 1{,}0$
+- **Piger:** $\text{Fedtprocent} = 0{,}610 \cdot (\text{Triceps} + \text{Læg}) + 5{,}1$
 
 ## Konklusion
 

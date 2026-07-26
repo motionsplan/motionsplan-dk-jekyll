@@ -128,11 +128,11 @@ Når du laver pulstræning så er det altså vigtigt at vide, hvilket intensitet
 
 Hvis vi baserer udregningen på den **relative arbejdsintensitet i forhold til pulsreserven** ser det sådan her ud:
 
-AP(60%) = 0,6 x (200-50) + 50 = 140 bpm
+$$ \text{AP}(60\%) = 0{,}6 \cdot (200 - 50) + 50 = 140 \text{ bpm} $$
 
 Hvis vi derimod baserer eksemplet i forhold til **maxpulsen** får vi følgende resultat.
 
-AP(60%) = 0,6 x 200 = 120 bpm
+$$ \text{AP}(60\%) = 0{,}6 \cdot 200 = 120 \text{ bpm} $$
 
 Der er unægtelig lidt forskal på at ramme den ene eller ande puls i pulstræningen.
 

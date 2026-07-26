@@ -43,11 +43,10 @@ Den maksimale puls afhænger af alderen. Mange studier har lavet [aldersrelatede
 
 Vælg den formel du helst vil bruge. Indtast derefter din alder, og få dit resultat med det samme.
 
-{% include calculator/calculate-max-hr.html %}
-
 {% include calc/max-hr.html %}
 
 > ⚠️ **Husk usikkerheden på formler**
+>
 > Da aldersbaserede formler har en usikkerhed på $\pm 10\text{--}15\text{ slag/min}$, giver de kun et gennemsnitligt estimat. 
 > 
 > * Vil du have helt præcise pulszoner? 👉 **[Læs vores guide til at teste din maxpuls selv](/max-puls-test/)**
@@ -57,14 +56,16 @@ Vælg den formel du helst vil bruge. Indtast derefter din alder, og få dit resu
 
 Beregneren bruger en af de mange formler, der findes til at beregne maxpuls. 
 
-Den mest anerkendte formel virker i øjeblikket til at være formlen lavet af Tanaka et al (2001). De lavede en meta-analyse på 351 tidligere studier (i alt 18.712 forsøgsdeltagere) og samtidig undersøgte de selv 512 nye forsøgspersoner. Deres studier gav en ret **enkel formel som du kan bruge til at beregne din max-puls**.
+Den mest anerkendte formel er Tanaka et al (2001). De lavede en meta-analyse på 351 tidligere studier (i alt 18.712 forsøgsdeltagere) og samtidig undersøgte de selv 512 nye forsøgspersoner. Deres studier gav en ret **enkel formel som du kan bruge til at beregne din max-puls**.
 
-- HR<sub>max</sub> = 208 - 0,7 x alder
+$$\text{HR}_{\text{max}} = 208 - 0{,}7 \cdot \text{alder}$$
 
 Tanaka et al (2001) konkluderer i deres studie, at den maksimalt opnåelige puls ikke er påvirket af det daglige aktivitetsniveau eller køn. **Max pulsen er altså ikke afhængig af, om man er kvinde eller mand**.
 
-**Læs meget mere**: [Sammenligning af maxpuls-formlerne](/max-puls-formler/)
-{: .notice }
+> **Men hvorfor ikke 220-alder**
+>
+> **Læs meget mere**: [Sammenligning af maxpuls-formlerne](/max-puls-formler/)
+{: .notice--info }
 
 ## Hvor præcis er en maxpuls-beregning?
 

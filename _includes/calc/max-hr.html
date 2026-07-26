@@ -5,27 +5,86 @@
   .mp-hover-btn:hover { background-color: #f1f5f9 !important; border-color: #cbd5e1 !important; }
   .mp-popup-overlay::-webkit-scrollbar { width: 6px; }
   .mp-popup-overlay::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+
+  /* FORMEL BADGE & PICKER STYLES */
+  .mp-mh-auto-badge {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+  .mp-mh-badge-header { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 0.5rem; }
+  .mp-mh-badge-title-group { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+  .mp-mh-badge-title { font-size: 0.875rem; font-weight: 800; color: #0f172a; }
+  .mp-mh-rec-tag { font-size: 0.65rem; font-weight: 800; color: #1e40af; background: #dbeafe; padding: 2px 7px; border-radius: 5px; }
+
+  .mp-mh-btn-gear {
+    background: #ffffff !important;
+    border: 1px solid #93c5fd !important;
+    color: #2563eb !important;
+    font-size: 1rem !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.15s ease !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+  .mp-mh-btn-gear:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  .mp-mh-picker-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .mp-mh-picker-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.75rem 0.9rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: left;
+  }
+  .mp-mh-picker-card:hover:not(.is-selected) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-mh-picker-card.is-selected { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+
+  .mp-mh-check-icon {
+    width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; color: #94a3b8;
+    font-size: 0.7rem; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .mp-mh-picker-card.is-selected .mp-mh-check-icon { background: #2563eb; color: #ffffff; }
 </style>
 
-<!-- TILFØJET position: relative; til hovedkortet -->
 <div class="mp-calc-card" data-calculator="max-hr" style="position: relative; max-width: 600px; margin: 0 auto; padding: 1.25rem; background: #ffffff; border: 1.5px solid #e2e8f0; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
   
   <!-- Header -->
-  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;">
-    <h3 class="mp-calc-title" style="margin: 0; font-size: 1.2rem; color: #0f172a;">Udregn maxpulsen (HRmax)</h3>
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.75rem; margin-bottom: 1.15rem; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0; font-size: 1.2rem; color: #0f172a;">Udregn maxpulsen (HRmax)</h3>
+      <p style="margin: 2px 0 0 0; font-size: 0.8rem; color: #64748b;">Estimer din maksimale hjertefrekvens ud fra anerkendte fysiologiske formler.</p>
+    </div>
     <div data-html2canvas-ignore="true">
-      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
     </div>
   </div>
 
-  <!-- Demografi -->
-  <div class="mp-form-grid" style="display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap;">
+  <!-- 1. DEMOGRAFI (ALDER OG KØN STÅR NU ØVERST) -->
+  <div class="mp-form-grid" style="display: flex; gap: 0.75rem; margin-bottom: 1.15rem; flex-wrap: wrap;">
     <div class="mp-form-group" style="flex: 1; min-width: 120px;">
-      <label style="display: block; font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; color: #1e293b;">Alder (år)</label>
-      <input type="number" name="mh_age" class="js-mh-input" min="5" max="120" placeholder="F.eks. 30" style="width: 100%; padding: 0.5rem; border-radius: 8px; border: 1.5px solid #cbd5e1; font-size: 1.1rem; font-weight: 700; text-align: center; box-sizing: border-box; height: 48px; outline: none;">
+      <label style="display: block; font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; color: #1e293b;">1. Alder (år)</label>
+      <input type="number" name="mh_age" class="js-mh-input" min="5" max="120" placeholder="fx 30" style="width: 100%; padding: 0.5rem; border-radius: 8px; border: 1.5px solid #cbd5e1; font-size: 1.1rem; font-weight: 700; text-align: center; box-sizing: border-box; height: 48px; outline: none;">
     </div>
-    <div class="mp-form-group" style="flex: 2; min-width: 220px;">
-      <label style="display: block; font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; color: #1e293b;">Køn</label>
+
+    <div class="mp-form-group js-mh-gender-group" style="flex: 2; min-width: 220px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+        <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #1e293b;">Køn</label>
+        <span class="js-mh-gender-hint" style="font-size: 0.675rem; color: #64748b; font-weight: 600;"></span>
+      </div>
       <div style="display: flex; gap: 0.5rem; height: 48px;">
         <label style="flex: 1; cursor: pointer; height: 100%;">
           <input type="radio" name="mh_gender" value="male" checked style="display: none;" class="js-mh-input">
@@ -39,25 +98,26 @@
     </div>
   </div>
 
-  <!-- Formel -->
-  <div class="mp-form-group" style="margin-bottom: 1.25rem;">
-    <label style="display: block; font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; color: #1e293b;">Formel for udregning</label>
-    <select name="mh_formula" class="js-mh-input" style="width: 100%; padding: 0.6rem; border-radius: 8px; border: 1.5px solid #cbd5e1; font-size: 0.95rem; font-weight: 500; background: #fff; cursor: pointer; outline: none;">
-      <option value="tanaka">Tanaka (2001) (Mest anerkendte)</option>
-      <option value="aastrand">Åstrand</option>
-      <option value="fox">Haskell & Fox (220 - alder)</option>
-      <option value="gellish">Gellish (Ikke-lineær)</option>
-      <option value="gellish_linear">Gellish (Lineær)</option>
-      <option value="gulati">Gulati (Kun kvinder)</option>
-      <option value="fairbarn">Fairbarn (Køns-specifik)</option>
-      <option value="whyte">Whyte (Køns-specifik)</option>
-      <option value="inbar">Inbar</option>
-      <option value="nes">Nes</option>
-      <option value="londeree_moeschberger">Londeree & Moeschberger</option>
-    </select>
+  <!-- 2. FORMEL VÆLGER SEKTION (NEDENUNDER) -->
+  <div style="margin-bottom: 1.25rem;">
+    <label style="display: block; font-size: 0.8rem; font-weight: 700; margin-bottom: 0.4rem; color: #1e293b;">
+      2. Vælg beregningsformel
+    </label>
+
+    <!-- COLLAPSED BAR -->
+    <div class="js-mh-formula-bar mp-mh-auto-badge">
+      <!-- Genereres dynamisk i JS -->
+    </div>
+
+    <!-- EXPANDED LISTE AF FORMELKORT -->
+    <div class="js-mh-manual-dropdown-wrapper" style="display: none;">
+      <div class="js-mh-picker-container mp-mh-picker-list" style="margin-top: 0.5rem;">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+    </div>
   </div>
 
-  <!-- Hovedresultat Grid (Den indre wrapper er fjernet) -->
+  <!-- HOVEDRESULTAT GRID -->
   <div class="mp-result-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 0.75rem;">
     
     <!-- Venstre: Kæmpe tal og valgt formel -->
@@ -76,7 +136,7 @@
     <div style="display: flex; flex-direction: column; gap: 0.4rem; justify-content: space-between;">
       
       <!-- Gennemsnit -->
-      <div class="js-mh-avg-btn mp-hover-btn" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.6rem 0.75rem; cursor: pointer; transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; flex: 1;" title="Klik for at se alle formler">
+      <div class="js-mh-avg-btn mp-hover-btn" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.6rem 0.75rem; cursor: pointer; transition: all 0.2s; display: flex; justify-content: space-between; align-items: center; flex: 1;" title="Klik for at se alle formler sammenlignet">
         <div style="display: flex; flex-direction: column; gap: 2px;">
           <div style="font-weight: 800; font-size: 0.8rem; color: #475569;">Gennemsnit</div>
           <div style="font-size: 0.65rem; color: #64748b; font-weight: 600;">📋 Se alle formler</div>
@@ -117,14 +177,14 @@
   <!-- Disclaimer -->
   <div style="text-align: center; margin-bottom: 1.25rem; padding: 0 1rem;">
     <p style="margin: 0; font-size: 0.75rem; color: #64748b; line-height: 1.4;">
-      <strong style="color: #475569;">Bemærk:</strong> Dette er en teoretisk udregning. Den reelle maxpuls kan individuelt variere med op til ±10 slag/minut.
+      <strong style="color: #475569;">Bemærk:</strong> Dette er et teoretisk skøn. Den reelle maxpuls varierer individuelt med op til ±10 slag/minut.
     </p>
   </div>
 
   <!-- Selvstændigt graf-punkt -->
   <details class="js-mh-chart-details" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 1.25rem;">
     <summary style="padding: 0.8rem 1rem; font-weight: 700; font-size: 0.95rem; cursor: pointer; color: #0f172a; outline: none; list-style-position: inside;">
-      📈 Se udvikling over tid (Graf)
+      📈 Se alderskurve for alle formler (Graf)
     </summary>
     <div style="padding: 1rem; border-top: 1px solid #e2e8f0;">
       <div style="position: relative; height: 220px; width: 100%;">
@@ -133,26 +193,25 @@
     </div>
   </details>
 
-  <!-- Actions (Lagt før copyright) -->
+  <!-- Actions -->
   <div class="mp-action-group" style="display: flex; gap: 0.5rem; margin-bottom: 1rem;" data-html2canvas-ignore="true">
     <button type="button" class="mp-btn-action-wide js-download-btn" style="flex: 1; padding: 0.75rem; background: #2563eb; color: #fff; font-weight: 700; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">📸 Tag billede</button>
     <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter" style="padding: 0.75rem 1.2rem; background: #f1f5f9; color: #64748b; font-weight: 700; border: none; border-radius: 8px; cursor: pointer; font-size: 1.2rem;">🗑️</button>
   </div>
   
-  <!-- Copyright (Helt i bunden) -->
+  <!-- Copyright -->
   <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
 
-<!-- Popup / Overlay lagt heeelt yderst i kortet, så det dækker 100% -->
+  <!-- Popup / Overlay for alle formler sammenlignet -->
   <div class="js-mh-popup mp-popup-overlay" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.97); backdrop-filter: blur(5px); z-index: 50; padding: 1.5rem; box-sizing: border-box; border-radius: 12px; flex-direction: column; align-items: stretch; overflow-y: auto;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">
       <h4 style="margin: 0; color: #0f172a; font-size: 1.1rem;">Alle formler sammenlignet</h4>
       <button type="button" class="js-mh-popup-close" style="background: none; border: none; font-size: 2rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
     </div>
     
-    <!-- Tvunget til 100% bredde -->
     <table style="width: 100%; display: table; text-align: left; border-collapse: collapse;">
       <tbody class="js-mh-table-body">
-        <!-- Udfyldes af JS -->
+        <!-- Udfyldes dynamisk i JS -->
       </tbody>
     </table>
   </div>
