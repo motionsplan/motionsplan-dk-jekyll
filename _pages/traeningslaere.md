@@ -83,28 +83,6 @@ Træningslære er fundamentet for at forstå, hvordan kroppen reagerer på træn
 
 Denne guide giver dig et indblik i, hvordan musklerne arbejder, hvordan restitution fungerer, og hvordan du kan anvende træningsteorier i praksis for at opbygge en stærk og sund krop. Uanset om du er begynder eller erfaren, er træningslære en vigtig del af din træningsrejse.
 
-## Sådan laver du din egen træningsplanlægning
-
-{% include feature_row id="feature_row_planning" type="left" %}
-
-## 10 principper i træningslæren
-
-{% include feature_row id="feature_row_principles" type="left" %}
-
-## Artikler om træningslære
-
-{% assign site_posts = site.posts | where: "tags", "træningslære" | sort: "last_modified_at" | reverse %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
 ## Emner inden for træningslæren
 
 <details markdown="1" class="faq">
@@ -137,6 +115,28 @@ Kroppens bevægelser påvirkes af både muskelkræfter og de mekaniske forhold m
 
 [Læs meget mere om biomekanik](/biomekanik/).
 </details>
+
+## Sådan laver du din egen træningsplanlægning
+
+{% include feature_row id="feature_row_planning" type="left" %}
+
+## 10 principper i træningslæren
+
+{% include feature_row id="feature_row_principles" type="left" %}
+
+## Artikler om træningslære
+
+{% assign site_posts = site.posts | where: "tags", "træningslære" | sort: "last_modified_at" | reverse %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include_cached archive-single.html post=post type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Biomekanik - se dig selv som en tændstikmand
 

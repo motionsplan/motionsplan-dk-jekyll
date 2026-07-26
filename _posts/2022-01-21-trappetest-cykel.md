@@ -1,5 +1,6 @@
 ---
 title: 'Trappetest på cykel: En enkel cykeltest du kan lave selv'
+seo_title: "Trappetest og ramptest på cykel: Beregn VO2max og FTP"
 permalink: /trappetest-cykel/
 excerpt: En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest,
   som du let kan udføre selv.
@@ -24,11 +25,26 @@ meta:
   equipment: cykelergometer
   max: maksimal test
   direct: indirekte test
+faq:
+- question: "Hvad er forskellen på en trappetest og en ramptest?"
+  answer: "Det er det samme. Pointen er at man kører ved en given intensitet i et specifikt tidsrum, hvor intensiteten så stiger. Det betyer, at testudøveren ikke selv skal pace testen."
+- question: Hvor ofte bør jeg køre en trappetest?
+  answer: Hver 4.–6. uge i forbindelse med restitution efter en træningsblok er ideelt for at justere dine træningszoner.
+- question: "Hvordan køre jeg en ramptest på cykel?"
+  answer: En ramptest på cykel køres bedst på en hometrainer i ERG-mode. Du starter ved lav intensitet, og belastningen øges automatisk med faste intervaller, indtil du ikke kan træde mere rundt.
+---
+
+En **trappetest på cykel** – også ofte omtalt som en **ramptest på cykel** – er et af de mest effektive redskaber, hvis du vil måle din form og fremgang over tid.
+
+Med en simpel protokol kan du estimere din maksimale iltoptagelse (VO₂max) og finde dit [Functional Threshold Power (FTP)](/ftp-cykling/)-niveau direkte fra din hometrainer.
+
+I denne artikel gennemgår vi **Hawleys klassiske trappetest-protokol**, hvordan du udregner din Peak Power Output (PPO), og hvordan du bruger resultaterne aktivt i din træningsplanlægning.
+
 ---
 
 En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest, som du let kan udføre selv.
 
-Der findes mange foreskellige cykeltests. Nogle af dem kan du få lavet i laboratorier, og andre tests kan du lave selv. Testene kan være gode til at monitorere om din form bliver bedre og om din træning virker.
+Der findes mange forskellige cykeltests. Nogle af dem kan du få lavet i laboratorier, og andre tests kan du lave selv. Testene kan være gode til at monitorere om din form bliver bedre og om din træning virker.
 
 Når du har din testresultater, så kan du også planlægge din næste træningsblokke. Så kan du fx træne ud fra [træningszoner og intensitetszoner](/traeningszoner/).
 
@@ -40,6 +56,21 @@ Du kan også lave mere avancerede tests med måling af [laktat og mælkesyre](/m
 
 Med en trappetest på cykel kan du få de nødvendige informationer om puls og watt, som du kan bruge i din træningsplanlægning.
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
+---
+
+## Hvad er en trappetest (eller ramp-test) på cykel?
+
+En trappetest (også kendt som en form for *ramptest*) er en indirekte, maksimal cykeltest. Testen er kendetegnet ved, at belastningen øges i faste trin indtil udmattelse (*"all-out"*).
+
+Fordelen ved en trappetest frem for f.eks. en klassisk 20-minutters FTP-test er **pacing**:
+* **Ingen taktik:** Du skal ikke bekymre dig om at lægge for hårdt ud eller gemme på kræfterne.
+* **Præcis udmattelse:** Du træder blot, til benene ikke kan køre rundt mere.
+* **Løbende måling:** Du får værdifulde data om både puls og watt gennem alle pulszoner.
+
+---
+
 ## Trappetesten cykeltest
 
 Trappetesten er en ofte brugt cykeltest. Testen kan give et godt estimat på din maksimale iltoptagelse, og den kan også være med til at give en indikation af dit [Functional Threshold Power (FTP)](/ftp-cykling/)-niveau.
@@ -49,6 +80,8 @@ Trappetesten kan altså ikke stå i stedet for en FTP-test, men den kan hjælpe 
 Hvis du kører trappetesten med jævne mellemrum, fx hver måned, så kan du følge med i, hvordan din VO₂max udvikler sig over tid. Den maksimale iltoptagelse er sammen med Functional Threshold Power afgørende fysiologiske parametre, når du kører cykelløb.
 
 Hvis du har en hometrainer, så kan du køre en trappetest hjemme. Testen giver dig et hurtigt og præcist billede af din aerobe præstationsevne med høje intensiteter.
+
+---
 
 ## Sådan udfører du trappetesten i cykling
 
@@ -60,7 +93,25 @@ Den belastning kører du med i 2,5 minutter. Herefter øges belastningen med 25 
 
 Husk at notere, hvor længe du kan køre på den højeste belastning i testen.
 
-## Sådan finder du VO₂max
+---
+
+## Hawley & Noakes-protokollen (1992)
+
+Den mest anerkendte videnskabelige protokol til trappetesten på cykel blev udviklet af **John A. Hawley og Timothy D. Noakes i 1992**. 
+
+### Sådan udfører du testen trin-for-trin
+
+1. **Forberedelse:** Sæt din hometrainer i ERG-mode, så belastningen styres automatisk og præcist.
+2. **Startbelastning:** Læg ud ved 1,5–3 watt/kg kropsvægt (rundet ned til nærmeste tal deleligt med 25 watt). Vejer du f.eks. 80 kg, kan du starte på 150 watt.
+3. **Trinlængde:** Du kører i **2,5 minutter (150 sekunder)** på hver belastning.
+4. **Stigning:** Efter hvert trin øges belastningen med **25 watt**.
+5. **Udmattelse:** Fortsæt indtil du ikke længere kan opretholde trådet/kadencen.
+
+> **Husk!** Notér præcist, hvor mange sekunder du nåede at køre på det sidste, uafsluttede trin.
+
+---
+
+## Sådan finder du VO₂max med ramp-testen
 
 I denne Youtube-video kan du se, hvordan du kan estimere din VO₂max på baggrund af resultaterne i testen.
 
@@ -70,7 +121,8 @@ Videoen er rigtig god til at forklare, hvad den maksimale iltoptagelse er, og hv
 
 Jeg har lavet en beregner, hvis du foretrækker ikke selv skulle lave beregningerne.
 
-## Beregner til cykel trappetesten
+## Beregner til trappetesten på cykel
+{: id="calculator" }
 
 {% include calculator/calculate-fitness-trappetest.html %}
 
@@ -100,23 +152,59 @@ VO₂ = 0,01141 * PPO + 0,435
 
 ***
 
-## Ulemper ved trappetesten?
 
-Hvis du ikke er veltrænet, så er din effektivitet på cyklen måske ikke helt lige så god, som udgangspunktet for formlen. Det betyder, at formlen kan underestimere ikke så veltrænede cykelryttere.
+---
 
-For det andet undersøgte Hawley (1992) kun mænd. Det betyder, at formlen formentlig vil overestimere kvinders maksimale iltoptagelse. Lige nu er de ved at lave et studie, der vil lave en formel, som virker for kvinder også.
+## Sådan beregner du Peak Power Output (PPO) og VO₂max
 
-## Hvordan finder jeg mit FTP-niveau?
+Når testen er gennemført, skal du først udregne din **Peak Power Output (PPO)**. PPO tager højde for det seneste fuldførte trin plus den brøkdel, du nåede af det sidste trin.
 
-Når du har fundet dine watt ved VO₂max, så kan du typisk estimere at dit FTP-niveau er på omkring 82,5%.
+### Formel til Peak Power Output (PPO)
+Hvis dit seneste gennemførte trin var $W_{\text{sidste}}$ watt, og du holdt i $t$ sekunder på det næste trin (+25 watt), er formlen:
 
-Hvis du fx kørte 400 watt ved din maksimale iltoptagelse, så vil din FTP altså omtrentligt være 330 watt.
+$$PPO = W_{\text{sidste}} + 25 \times \left( \frac{t}{150} \right)$$
 
-## Følg din udvikling i trappetesten over tid
+*Eksempel:* Du gennemførte 375 watt. På 400 watt-trinnet holdt du i 120 sekunder.
+$$PPO = 375 + 25 \times \left( \frac{120}{150} \right) = 375 + 20 = 395 \text{ watt}$$
 
-Hvis du tester dig selv med trappetesten, så er det væsentligt at du følger den samme fremgangsmåde hver gang.
+### Beregning af VO₂max (Hawley, 1992)
+Hawley (1992) påviste en stærk lineær sammenhæng mellem PPO og den maksimale iltoptagelse hos veltrænede cykelryttere. Formlen for absolut VO₂max (i liter ilt pr. minut) lyder:
 
-Men ud over at være konsekvent i udførelsen af testen, så er det også en god ide at føre en log over dine tests. En testlog giver et godt overblik over, hvordan din træning er gået.
+$$\text{VO}_2\text{max (L/min)} = 0{,}01141 \times PPO + 0{,}435$$
+
+For at finde dit relative kondital (mL O₂/kg/min), dividerer du tallet med din vægt i kg og ganger med 1000.
+
+---
+
+## Hvordan finder du dit FTP-niveau ud fra trappetesten?
+
+Selvom trappetesten primært måler din aerobe spidskapacitet (VO₂max), kan du udlede et godt estimat på dit **Functional Threshold Power (FTP)**:
+
+* **FTP-estimat:** Ca. **82,5% af din PPO**.
+* *Eksempel:* Hvis din PPO er 400 watt, vil din FTP typisk ligge omkring **330 watt** ($400 \times 0{,}825$).
+
+> **Bemærk:** I nyere hometrainer-apps (som Zwift eller TrainerRoad) med 1-minuts trin bruges en lavere faktor (ca. 75% af højeste 1-minut wattage). Da Hawleys trin varer 2,5 minutter, er belastningen mere udmattende undervejs, hvorfor faktoren her er højere (82,5%).
+
+---
+
+## Begrænsninger ved Hawley-formlen
+
+Det er vigtigt at huske, at testresultaterne er et øjebliksbillede og bygger på statistiske modeller:
+
+1. **Arbejdseffektivitet:** Mindre trænede ryttere har ofte lavere cykeleffektivitet end forsøgspersonerne i Hawleys studie, hvilket kan føre til en lille underestimering af VO₂max.
+2. **Kønsspecifik formel:** Hawley (1992) undersøgte primært mandlige cykelryttere. Formlen kan derfor have en tendens til at overestimere kvinders VO₂max en smule.
+
+---
+
+## Før en testlog og følg din udvikling
+
+For at få det maksimale ud af dine tests bør du udføre trappetesten regelmæssigt (f.eks. hver 4.–6. uge) under ensartede forhold. 
+
+Notér følgende i din træningsdagbog:
+* Dato og vægt
+* Slut-watt og gennemført tid på sidste trin (PPO)
+* Maksimalpuls ($\text{HR}_{\text{max}}$)
+* Noter om dagsform og oplevet anstrengelse (RPE)
 
 [Menschmachine.dk](https://menschmaschine.dk/simpel-cykeltest-du-kan-lave-hjemme/) foreslår at køre testen hver 4-6 uge og så skrive dine observationer ned som data, watt, maxpuls og en kommentar til dine resultater og præstation.
 
@@ -160,16 +248,11 @@ Kør evt. testen hver 5-6. uge, sådan at du kan nå at lægge lidt til niveauet
 
 {% endcomment %}
 
-## Flere cykeltests
+> 🚴 **Leder du efter andre cykeltests?**
+> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene.
 
-{% assign site_posts = site.posts | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+---
 
-<div class="feature__wrapper">
+## Ofte stillede spørgsmål (FAQ)
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include_cached archive-single.html post=post type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
+{% include motionsplan/faq.html %}

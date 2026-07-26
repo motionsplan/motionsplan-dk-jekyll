@@ -1,7 +1,9 @@
 ---
-title: &title "Åstrands to-punktstest: Konditionstest på cykel 🚴"
-permalink: /topunktstest/
+title: "Åstrands 2-punktstest – Præcis konditionstest på cykel"
+seo_title: "Åstrands 2-punktstest: Beregn kondital let (Beregner)"
 excerpt: "Åstrands to-punktstest er en submaksimal konditionstest på en ergometercykel, hvor du måler belastning og puls."
+description: "Beregn dit kondital præcist med Åstrands 2-punktstest (to-punktstest) på cykel. Submaksimal cykeltest med to belastninger for et nøjagtigt resultat."
+permalink: /topunktstest/
 language: da
 header:
   overlay_image: /assets/images/i.ytimg.com/maxresdefault-7aae0c63.jpg
@@ -39,13 +41,24 @@ feature_row:
 breadcrumbs: true
 ---
 
-Åstrands to-punktstest er en submaksimal [konditionstest](/kondition/tests/) på en ergometercykel, hvor du på baggrund af måling af belastning og puls kan estimere konditallet.
+Vil du gerne kende dit [kondital](/kondital/) uden at skulle køre dig helt i sænk? **Åstrands 2-punktstest** er en meget brugt **konditionstest på cykel**. Ved at måle din puls på en kondicykel ved to forskellige belastninger kan du estimere din maksimale iltoptagelse (VO₂max) og finde dit præcise kondital.
 
-Jeg beskriver i det følgende, hvad Åstrands to-punktstest er, og hvordan testen udføres?
+Herunder gennemgår vi, hvordan testen fungerer, hvordan du udfører den i praksis, og lader dig beregne dit resultat direkte i vores interaktive testberegner.
 
-Hvad er Åstrands to-punktstest? **Åstrands to-punktstest er en submaksimal konditionstest, der udføres på en kondicykel. På baggrund af belastningen og pulsfrekvensen kan du estimere forsøgspersonens kondital.**
+> ⚡ **Leder du efter den hurtige udgave?**
+> To-punktstesten giver et mere præcist kondital, men tager længere tid og kræver to belastningsintervaller. 
+> Vil du blot have et hurtigt og nemt estimat på 6 minutter, kan du prøve vores [Åstrands et-punktstest her](/etpunktstest/).
+{: .notice--info}
 
-Hvis du leder efter [Åstrands et-punktstest, så har jeg skrevet om den her](/etpunktstest/).
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
+## Hvad er Åstrands 2-punktstest (to-punktstest)?
+
+**Åstrands 2-punktstest** (også skrevet som *to-punktstest*) er en klassisk, submaksimal **kondicykel test**, som bruges til at estimere din maksimale iltoptagelse og dit samlede kondital.
+
+I modsætning til en 1-punktstest cykler du under denne test med to forskellige belastninger (watt) og måler din puls i *steady state* ved begge trin. 
+
+Da sammenhængen mellem din puls og arbejdsbelastning er lineær ved moderat til hårdt arbejde, giver de to datapunkter en mere præcis vurdering af din kondition, fordi testen bedre kompenserer for individuelle forskelle i din pulskurve.
 
 ## Hvordan udføres Åstrands to-punktstest?
 
@@ -59,6 +72,9 @@ I topunktstesten skal du køre med to forskellige belastninger målt i watt:
 - **Anden belastning**: din puls skal ramme _steady state_ omkring 150-170 slag/min efter yderligere 4-5 minutters cykling.
 
 Du kan beregne dit kondital ved at indtaste værdierne i beregneren nedenunder, lave et regneark eller bruge en formel til at finde dit kondital.
+
+## Beregner
+{: id="calculator" }
 
 {% include calculator/calculate-topunkttest.html %}
 
@@ -103,6 +119,16 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 ## Usikkerheder i Åstrands topunktstest?
 
 Når du laver indirekte, submaksimale tests skal du fortolke resultatet varsomt. En usikkerhed ved Åstrands topunktstest er bl.a. om du kender din nøjagtige maxpuls.
+
+## Hvad er forskellen på 1-punkts og 2-punkts testen?
+
+* **2-punktstest:** Højere præcision (to belastningsintervaller). God hvis du vil tættere på dit reelle kondital.
+* **1-punktstest:** Hurtigere (kun ét interval på 6 minutter). Ideel til hurtig tracking i hverdagen.
+
+👉 **Mangler du tid i dag?** [Prøv den hurtige Åstrand 1-punktstest her](/etpunktstest/){: .btn .btn--info}
+
+> 🚴 **Leder du efter andre cykeltests?**
+> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene.
 
 ## Reference til Åstrands konditionstest
 

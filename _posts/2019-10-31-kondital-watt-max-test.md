@@ -124,6 +124,9 @@ Watt-max-testen er let at udføre. Når du har resultaterne fra testen, så har 
 
 Du kan nemlig kaste dig over [V<sub>max</sub>-træning på cyklen](/vmax-cykling/). Her kan du skræddersy et program, som retter sig mod at forbedre din [VO2-max](/maksimale-iltoptagelse-vo2max/).
 
+> 🚴 **Leder du efter andre cykeltests?**
+> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene.
+
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 

@@ -1,8 +1,9 @@
 ---
-title: &title "Åstrands et-punktstest: Konditionstest på cykel 🚴‍♀️"
-seo_title: "Åstrands et-punktstest: Konditionstest på cykel"
+title: &title "Åstrands cykeltest (1-punktstest) – Beregn dit kondital"
+seo_title: "Åstrands cykeltest: Test dit kondital med 1-punktstest"
 permalink: /etpunktstest/
 excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvor du måler belastning og puls. Fortrinlig til at måle ændringer i kondition over tid."
+description: "Beregn dit kondital med Åstrands 1-punktstest (et-punktstest). Nem og hurtig submaksimal konditionstest på cykel på kun 6 minutter."
 language: da
 header:
   overlay_image: /assets/images/healthcheckshop.com/12A0041-8c979225.jpg
@@ -46,11 +47,16 @@ feature_row:
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 
+[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
+
 ## Hvad er Åstrands etpunktstest?
 
 **Åstrands et-punktstest er en enkel, submaksimal konditionstest udført på cykel, som pålideligt kan vise belastningen. Åstrands test kan bruges til at estimere forsøgspersonens maksimale iltoptagelse og kondital baseret på belastningen, pulsen og kropsvægten.**
 
-Jeg har også skrevet om [Åstrands to-punktstest]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}), som er et alternativ til at finde dit kondital med en simpel cykeltest og pulsen.
+> 💡 **Søger du højere præcision?**
+> Et-punktstesten er hurtig og simpel (kun 6 minutter), men er behæftet med usikkerhed i forhold til din max-puls. 
+> Ønsker du en mere nøjagtig beregning med to forskellige belastninger, kan du i stedet benytte vores [Åstrands to-punktstest her](/topunktstest/).
+{: .notice--info}
 
 ## Hvordan udfører du Åstrands etpunktstest?
 
@@ -79,6 +85,7 @@ Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 puls
 {% include video provider="youtube" id="6KOoejoYP8A" %}
 
 ## Beregn kondital med Åstrands etpunktstest
+{: id="calculator" }
 
 {% include calculator/calculate-etpunkttest.html %}
 
@@ -145,6 +152,16 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 Du kan læse mere om testen fra [Monark](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/), som laver de legendariske Monark-cykler, som er blevet brugt i rigtig mange år i testcentre rundt omkring i verden.
 
 Et alternativ til etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har Ekblom-Bak-testen udbredelse i Danmark?
+
+## Hvad er forskellen på 1-punkts og 2-punkts testen?
+
+* **1-punktstest:** Hurtigst (6 minutter, 1 belastning). God til at måle din egen fremgang over tid.
+* **2-punktstest:** Mere præcis. Bruger to belastningspunkter til at tegne din pulskurve op mod max-pulsen.
+
+👉 **Klar til en mere præcis måling?** [Prøv Åstrands 2-punktstest her](/topunktstest/){: .btn .btn--info}
+
+> 🚴 **Leder du efter andre cykeltests?**
+> Se vores samlede oversigt over [konditionstests på cykel](/tests/cykling/), hvor du kan sammenligne Åstrand-, Wattmax- og Ekblom-Bak-testene.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
