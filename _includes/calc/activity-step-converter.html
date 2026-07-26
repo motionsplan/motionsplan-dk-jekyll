@@ -1,0 +1,174 @@
+{% assign calc_title = include.title | default: "🚶‍♂️ Aktivitet til Skridt Omregner" %}
+{% assign data_id = include.calc_id | default: "activity-step-converter" %}
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-step-input {
+    height: 44px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
+    border: 1.5px solid #cbd5e1 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    width: 100% !important;
+  }
+  .mp-step-input:focus {
+    border-color: #2563eb !important;
+    outline: none !important;
+  }
+
+  /* QUICK TIME PRESETS */
+  .mp-time-presets {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+  .mp-time-btn {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0.3rem 0.2rem;
+    font-size: 0.725rem;
+    font-weight: 800;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+  }
+  .mp-time-btn:hover {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+  }
+
+  /* HERO BOKS TIL SKRIDT */
+  .mp-step-hero-card {
+    background: #eff6ff;
+    border: 1.5px solid #bfdbfe;
+    border-radius: 14px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    margin-bottom: 1.15rem;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.05);
+  }
+  .mp-step-hero-val {
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #1e3a8a;
+    line-height: 1;
+    margin: 0.35rem 0;
+  }
+
+  /* METADATA SEKUNDÆR GRID */
+  .mp-step-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .mp-step-meta-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  .mp-summary-explanation-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 0.9rem 1.15rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.825rem;
+    color: #334155;
+    line-height: 1.5;
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="{{ data_id }}" data-ui-module="activity-step-converter-ui">
+  <!-- Header -->
+  <div class="mp-calc-header vbt-header-spacing" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; margin-bottom: 1.25rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">{{ calc_title }}</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Omregn over 70 forskellige sportsgrene og motionsformer til tilsvarende antal skridt.
+      </p>
+    </div>
+    <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px; flex-shrink: 0; margin-left: 10px;">
+  </div>
+
+  <div style="width: 100%;">
+    
+    <!-- 1. VÆLG AKTIVITET OG TID -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+      <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">1. Indtast din aktivitet</h4>
+
+      <!-- AKTIVITET DROPDOWN -->
+      <div style="margin-bottom: 0.85rem;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">
+          Aktivitet / Motionsform
+        </label>
+        <select class="mp-step-input js-step-activity">
+          <!-- Udfyldes dynamisk i JS med kategorier -->
+        </select>
+      </div>
+
+      <!-- TID I MINUTTER -->
+      <div>
+        <label style="font-size: 0.75rem; font-weight: 800; color: #475569; display: block; margin-bottom: 0.35rem;">
+          Varighed (minutter)
+        </label>
+        <input type="number" min="1" max="1440" step="1" class="mp-step-input js-step-duration" value="30" placeholder="fx 45" style="text-align: center; font-size: 1.1rem; font-weight: 800;">
+        
+        <!-- HURTIGVALG KNAPPER -->
+        <div class="mp-time-presets">
+          <button type="button" class="mp-time-btn js-preset-time" data-min="15">+15 min</button>
+          <button type="button" class="mp-time-btn js-preset-time" data-min="30">30 min</button>
+          <button type="button" class="mp-time-btn js-preset-time" data-min="45">45 min</button>
+          <button type="button" class="mp-time-btn js-preset-time" data-min="60">60 min</button>
+          <button type="button" class="mp-time-btn js-preset-time" data-min="90">90 min</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. SKRIDT RESULTAT HERO KORT -->
+    <div class="mp-step-hero-card">
+      <div style="font-size: 0.75rem; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.05em;">
+        Svarer til i alt
+      </div>
+      <div class="mp-step-hero-val js-res-steps">-</div>
+      <div style="font-size: 0.9rem; font-weight: 800; color: #2563eb;">Skridt</div>
+    </div>
+
+    <!-- 3. SEKUNDÆRE NØGLETAL -->
+    <div class="mp-step-meta-grid">
+      <div class="mp-step-meta-card">
+        <div style="font-size: 0.675rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Omregningsfaktor</div>
+        <div style="font-size: 1.35rem; font-weight: 900; color: #0f172a; margin-top: 2px;" class="js-res-rate">-</div>
+        <div style="font-size: 0.675rem; font-weight: 700; color: #64748b;">skridt / min</div>
+      </div>
+
+      <div class="mp-step-meta-card">
+        <div style="font-size: 0.675rem; font-weight: 800; color: #64748b; text-transform: uppercase;">Estimeret Distance</div>
+        <div style="font-size: 1.35rem; font-weight: 900; color: #0f172a; margin-top: 2px;" class="js-res-km">-</div>
+        <div style="font-size: 0.675rem; font-weight: 700; color: #64748b;">kilometer (km)</div>
+      </div>
+    </div>
+
+    <!-- FORKLARING OG METODE -->
+    <div class="mp-summary-explanation-box">
+      <strong style="color: #0f172a; display: block; margin-bottom: 0.35rem; font-size: 0.85rem;">💡 Om metoden:</strong>
+      Går du efter de klassiske 10.000 skridt om dagen, men dyrker svømning eller cykling? Denne omregner er baseret på <em>Physical Activity Step Conversion Chart</em>. Metoden omdanner den forbrændte energi (MET-værdier) fra ikkegående aktiviteter til det tilsvarende antal skridt, du skulle have gået.
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mp-action-group" style="margin-top: 1rem; width: 100%;" data-html2canvas-ignore="true">
+      <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+      <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+    </div>
+  </div>
+</div>
