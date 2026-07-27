@@ -1,10 +1,8 @@
 ---
 title: Queens College Step Test – Standardiseret konditionstest (QCST)
 seo_title: 'Queens College Step Test: Test din kondition nemt'
-excerpt: Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast
-  step-rutine.
-description: Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter
-  en fast step-rutine.
+excerpt: Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine.
+description: Queens College Step Test er en populær step test, der bruges til at estimere VO2 max baseret på pulsen efter en fast step-rutine.
 permalink: /queens-college-step-test/
 language: da
 header:
@@ -32,40 +30,70 @@ toc: 'true'
 breadcrumbs: 'true'
 ---
 
-Queens College Step Test er en simpel og effektiv metode til at vurdere din kardiovaskulære kondition. Ved at følge denne test kan du få et hurtigt mål for din kondition, baseret på din puls efter testen.
+Queens College Step Test (også kendt som McArdle Step Test eller QCST) er en simpel, standardiseret og effektiv metode til at vurdere din kardiovaskulære kondition. Ved at gennemføre en 3-minutters step-rutine og måle din puls efterfølgende kan du estimere dit kondital ($\text{VO}_2\text{max}$).
 
-Hvis du synes boksen på 41 centimer er lidt for høj, så kan du vælge [YMCA steptest](/ymca-3-minutters-steptest/) med en boks på 30 centimeter, eller den [modificerede YMCA-steptest](/ymca-modified-steptest/), hvor boksen udregnes efter din højde.
+Hvis du synes boksen på 41,3 cm er for høj, kan du vælge [YMCA steptest](/ymca-3-minutters-steptest/) med en boks på 30 cm, eller den [modificerede YMCA-steptest](/ymca-modified-steptest/), hvor boksen udregnes direkte efter din kropshøjde.
+
+[<i class='fas fa-calculator'></i> Hop til beregner](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-clock'></i> Hop til timer](#timer){: .btn .btn--success .btn--jump }
+
+## Hvad er Queens College Step Test?
+
+Queens College Step Test er en submaksimal konditionstest udviklet af McArdle et al. i 1972. Testen måler, hvor hurtigt dit kredsløb genvinder sin hviletilstand efter en fast arbejdsbelastning på 3 minutter.
+
+Testen adskiller sig fra andre steptests ved at have **forskelligt tempo for mænd og kvinder**:
+* **Mænd:** 24 step/minut (96 taktslag/minut)
+* **Kvinder:** 22 step/minut (88 taktslag/minut)
 
 ## Sådan udfører du Queens College Step Test
 
 1. **Forberedelse**  
-   Find en skammel, der er 41,3 cm høj. Du skal bruge en metronom, der er indstillet på 96 taktslag pr. minut. Hvis du ikke har en metronom, kan du bruge en af de mange metronom-apps, der findes til smartphones.
-
+   Find en bænk eller skammel, der er **41,3 cm høj**.
 2. **Start testen**  
-   - Start metronomen og indstil den til 96 taktslag pr. minut.  
-   - Start timeren på 3 minutter.  
-   - Begynd at træde op og ned på skamlen i takt med metronomen i 3 minutter.
-
+   Start timeren i vores interaktive guide nedenfor. Vælg timeren til dit køn, så tempoet passer. Træd op og ned af skamlen i takt med afspilleren i præcis 3 minutter.
 3. **Mål din puls**  
-   Når de 3 minutter er gået, skal du straks sætte dig ned og måle din puls i ét minut. Det er vigtigt, at du tager din puls hurtigt efter, at du har afsluttet testen for at få den korrekte måling.
-
+   Når de 3 minutter er gået, skal du straks blive stående, vente 5 sekunder og derefter **måle din puls i 15 sekunder** (sekund 5–20 efter stoppet). Gang dette tal med 4 for at få din genoprettelsespuls i minut-relevante slag (BPM).
 4. **Beregn dit resultat**  
-   Brug din pulsmåling til at beregne din kondition. Det er vigtigt, at du er opmærksom på din puls én minut efter testen for at få den korrekte score.
+   Indtast din minut-puls i beregneren nedenfor for at få dit estimerede kondital.
 
-## Beregn din kondition
+## Tag testen med interaktive guides
+{: id="timer" }
 
-Når du har målt din puls, kan du bruge vores beregner nedenfor til at estimere dit kondital baseret på din puls og testens varighed.
+Brug timeren nedenfor til at holde den korrekte kadence under testen. Skærmen holdes automatisk tændt på din enhed.
+
+### For mænd (96 BPM / 24 step pr. min)
+{% include components/steptest-timer.html type="queens-m" %}
+
+### For kvinder (88 BPM / 22 step pr. min)
+{% include components/steptest-timer.html type="queens-f" %}
+
+## Beregn dit resultat
+{: id="calculator" }
+
+Når du har målt din puls i 15 sekunder efter testen og ganget tallet med 4, kan du bruge vores beregner herunder til at estimere dit kondital.
 
 {% include calculator/calculate-steptest-queens-college.html %}
 
-### Find ud af mere om steptests
+{% include calc/steptest.html test="queens" %}
 
-Queens College Step Test er blot en af de mange steptests, der kan hjælpe dig med at vurdere din kondition. Hvis du er interesseret i at udforske flere steptests, kan du se vores [oversigt over steptests](/kondital-fra-steptest/).
+## Formlen bag beregning af konditallet
+
+Queens College Step Test benytter de klassiske formler fra *McArdle et al. (1972)* til at estimere den maksimale iltoptagelse ($\text{VO}_2\text{max}$):
+
+**For mænd:**
+$$ \text{VO}_2\text{max} = 111{,}33 - (0{,}42 \times \text{puls}) $$
+
+**For kvinder:**
+$$ \text{VO}_2\text{max} = 65{,}81 - (0{,}1847 \times \text{puls}) $$
+
+*Bemærk:* $\text{puls}$ repræsenterer din genoprettelsespuls omregnet til minut-slag (15-sekunders måling $\times 4$), taget umiddelbart efter testens afslutning.
+
+## Find ud af mere om steptests
+
+Queens College Step Test er blot én af flere anerkendte steptests. Se vores samlede [oversigt over steptests](/kondital-fra-steptest/) for at finde den test, der passer bedst til dit niveau og udstyr.
 
 <details markdown="1" class="references">
   <summary><h2 id="references">Referencer</h2></summary>
 
-- Formula from ACSM’s Resources for the Personal Trainer, 3rd Edition 2010.
-
-
+- McArdle, W. D., Katch, F. I., Pechar, G. S., Jacobson, L., & Ruck, S. (1972). Reliability and interrelationships between maximal oxygen intake, physical work capacity and step-test scores in college women. *Medicine and Science in Sports*, 4(4), 182–186.
+- ACSM’s Resources for the Personal Trainer, 3rd Edition, 2010.
 </details>

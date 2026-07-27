@@ -23,19 +23,11 @@ breadcrumbs: 'true'
 last_modified_at: '2026-03-19T08:14:14.000Z'
 faq:
 - question: Hvad er skeletmuskler?
-  answer: Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede
-    skeletmuskulatur”.
-- question: Hvor mange muskler har man i kroppen?
-  answer: Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter
-    og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler har vi i kroppen](/hvor-mange-muskler-i-kroppen/).
-- question: Hvad er kroppens største muskel?
-  answer: Kroppens største muskel er den store sædemuskel - gluteus maximus. Ballemusklerne er kroppens største og stærkeste
-    muskel, som også er vigtig for at du kan holde dig oprejst og bevæge dig rundt.
+  answer: Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”, og de er direkte knyttet til skelettet.
+- question: Hvad er musklernes funktion?
+  answer: Musklerne udgør en funktionel enhed sammen med kroppens knogler og led. Når musklerne trækker sig sammen (kontraherer) via signaler fra nervesystemet, trækker de i knoglerne og skaber derved bevægelse.
 - question: Hvor meget af kroppens vægt er muskler?
-  answer: Omkring 50-60 % af din kropsvægt består af muskler. Hvor mange muskler du har i din krop afhænger af mange faktorer
-    som alder, genetik, køn og motion.
-- question: Hvad er den mindste muskel i kroppen?
-  answer: Den mindste muskel i menneskekroppen er stapedius, som hæfter til bøjlebenet i mellemøret.
+  answer: Omkring 50-60 % af din kropsvægt består af muskler. Den præcise andel afhænger af faktorer som alder, genetik, køn og dit generelle aktivitetsniveau.
 ---
 
 Som underviser i anatomi og fysiologi får jeg ofte spørgsmål om, hvordan kroppens over 700 muskler egentlig arbejder sammen. Her har jeg samlet en komplet oversigt over muskler i kroppen, muskelgrupper og deres latinske navne, så du kan få styr på anatomien bag din træning.
@@ -47,6 +39,9 @@ De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede sk
 Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres [anatomi](/anatomi/). Derefter kigger jeg på de forskellige muskelgrupper.
 
 Der er naturligvis ikke [forskel på mænds og kvinders muskler?](/maend-kvinder-muskler/), så du kan roligt læse videre. Du får heller ikke [ømme muskler](/omme-muskler-efter-traening/) af at læse.
+
+> ❓ **Hvor mange muskler har vi egentlig i kroppen?**  
+> Få det præcise antal og læs om, hvordan de er fordelt i vores artikel om [antallet af muskler i menneskekroppen →](/hvor-mange-muskler-i-kroppen/)
 
 ## Hvad er muskler og skeletmuskler?
 
@@ -64,18 +59,18 @@ Teorien om "sliding filaments" er den mest populære forklaring på, hvordan en 
 
 {% include video provider="youtube" id="7V-zFVnFkWg" %}
 
-Læs: [Sliding Filament Teorien: Hvordan trækker musklen sig sammen?]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
-{: .notice }
+👉 **Læs også:** [Sliding Filament Teorien: Hvordan trækker musklen sig sammen? →]({% link _posts/2020-06-06-muskelsammentraekning.md %})
+{: .notice--info }
 
 ## Skeletmusklernes opdeling
 
 Der findes forskellige muskeltyper, men i forbindelse med analyser af bevægelser er skeletmusklerne de mest relevante.
 
-Skeletmusklerne kan opdeles i tre kategorier.
+Skeletmusklerne kan opdeles i tre kategorier:
 
-- **Stabiliserende muskler**. Disse muskler er mindre lednære muskler, som skal stabilisere og kontrollere leddene. Fx findes der små muskler ned langs rygsøjlen.
-- **Åndedrætsmuskler**. Musklerne indgår i åndedrættet og kan være med til at lave bugtryk.
-- **Bevægelsesmuskler**. Muskler som har til opgave at bevæge kroppen og styre bevægelserne.
+- **Stabiliserende muskler:** Disse muskler er mindre lednære muskler, som skal stabilisere og kontrollere leddene. Fx findes der små muskler ned langs rygsøjlen.
+- **Åndedrætsmuskler:** Musklerne indgår i åndedrættet og kan være med til at lave bugtryk.
+- **Bevægelsesmuskler:** Muskler som har til opgave at bevæge kroppen og styre bevægelserne.
 
 I nedenstående figur er det mest relevante muskler i forhold til træning vist på skelettet. Alle musklerne er relevante for træningen.
 
@@ -99,6 +94,9 @@ I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuld
 
 {% include table/table-muscles.html %}
 
+> 💪 **Hvad er kroppens største (og mindste) muskel?**  
+> Gæt med, og se svaret i vores fascinerende gennemgang af [kroppens største og mindste muskler →](/stoerste-og-mindste-muskel-i-kroppen/)
+
 ---
 
 ## 🔍 Anatomisk opslagstabel (Udspring, Hæfte & Funktion)
@@ -119,14 +117,12 @@ Musklerne består af muskelfibre. Typen af muskelfibre bestemmes af, hvordan mus
 
 Jeg har skrevet meget mere om de forskellige muskelfibertyper i nedenstående indlæg.
 
-Læs: [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx](/muskelfibertyper/)
-{: .notice }
+👉 **Læs også:** [Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx →](/muskelfibertyper/)
+{: .notice--info }
 
 ## Muskler og muskelgrupper i kroppen
 
-Nedenfor kan du finde musklerne grupperet deres anatomiske placering i kroppen.
-
-Du kan finde dedikerede sider om de enkelte muskelgrupper.
+Nedenfor kan du finde musklerne grupperet efter deres anatomiske placering i kroppen. Du kan finde dedikerede sider om de enkelte muskelgrupper ved at folde boksene ud.
 
 <details markdown="1" class="faq">
   <summary><h3 id="benmuskler">Benmuskler</h3></summary>
@@ -183,7 +179,7 @@ Læs mere om [armmuskler og effektive armøvelser](/muskler/arme/).
 
 Musklerne består af små enheder, der kaldes muskelfibre. For at få musklerne til at vokse skal du stimulere muskelfibrene til at vokse. Dette gøres ved at træne med vægte, der er tunge nok til at få musklerne til at arbejde hårdt - eller ved at løfte nok gange til at udtrætte musklerne. Når musklerne skal vokse, så kalder man det også **hypertrofi**.
 
-Før du dykker mere ned i, hvordan du kan få dine muskler til at vokse, så kan du måske være interesseret i at læse disse indlæg.
+Før du dykker mere ned i, hvordan du kan få dine muskler til at vokse, så kan du måske være interesseret i at læse disse indlæg:
 
 - [Hvordan vokser muskler?](/hvordan-vokser-muskler/)
 - [Hvor hurtigt vokser dine muskler?](/hvor-hurtigt-vokser-muskler/)

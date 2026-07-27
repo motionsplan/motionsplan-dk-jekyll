@@ -3,7 +3,7 @@ title: Hvor mange muskler har mennesket i kroppen? 💪
 seo_title: Hvor mange muskler har vi? (Og har mænd flere end kvinder?)
 description: Kroppen har omkring 700 skeletmuskler. Men har mænd og kvinder lige mange muskler? Få det præcise svar, og bliv klogere på vores muskeltyper.
 permalink: /hvor-mange-muskler-i-kroppen/
-last_modified_at: '2021-01-18T09:41:09Z'
+last_modified_at: '2026-04-18T09:41:09Z'
 author: lsolesen
 language: da
 header:
@@ -28,90 +28,78 @@ faq:
 
 Leder du efter det hurtige svar på, hvor mange muskler vi har i kroppen, og om der er forskel på kønnene? 
 
-**Et menneske har omkring 700 navngivne skeletmuskler i kroppen – og mænd og kvinder har anatomisk set nøjagtig det samme antal.** 
+> ❓ **Hvor mange muskler har et menneske? (Det korte svar):**
+> * **Antal:** Et menneske har omkring **700 navngivne skeletmuskler**.
+> * **Køn:** Mænd og kvinder har anatomisk set nøjagtig det **samme antal** muskler.
+> * **Muskeltyper:** Kroppen har 3 muskeltyper; skeletmuskler (dem vi træner), glat muskulatur (i organerne) og hjertemusklen.
 
-Selvom mænd fra naturens side generelt har en større samlet muskelmasse, er selve *antallet* af skeletmuskler altså ens. (Der findes dog enkelte kønsunikke undtagelser, som f.eks. livmoderen hos kvinder).
+Selvom mænd fra naturens side generelt har en større samlet muskelmasse, er selve *antallet* af skeletmuskler altså ens. Der findes dog enkelte kønsunikke undtagelser (som f.eks. livmoderen hos kvinder).
 
-Det præcise samlede antal er dog overraskende svært at slå fast. Herunder får du hele forklaringen på hvorfor, og hvordan kroppens 3 forskellige muskeltyper fungerer.
+Det præcise samlede antal er dog overraskende svært at slå fast. Herunder får du hele forklaringen på hvorfor, og hvordan kroppens muskler egentlig fordeler sig.
 
-**Bonusinfo: Der er kun 200-300 muskler, som selv massageterapeuter og fysioterapeuter er interesserede i.**
+---
 
-## Hvor mange muskler har vi i kroppen?
+## Hvorfor er det svært at tælle kroppens muskler?
 
-På [Wikipedia](https://da.wikipedia.org/wiki/Krop) står der meget præcist, at der er 639 muskler i kroppen. Alle mennesker har de samme muskler, men størrelsen og formen på musklerne kan variere, og derfor ser vi ret forskellige ud.
+På steder som [Wikipedia](https://da.wikipedia.org/wiki/Krop) kan man ofte læse meget specifikke tal – fx at der er præcis 639 muskler i kroppen. Sandheden er dog lidt mere nuanceret. Alle mennesker har de samme muskler (selvom størrelsen og formen varierer), men anatomiske eksperter er ikke altid enige om, hvordan man skal tælle dem.
 
-Det er dog tankevækkende, at der ikke er nogen kildeansvisning på Wikipedia.
+Tæller man et muskelkompleks (som fx *Quadriceps* på forlåret) som én stor muskel eller som fire separate muskler? 
 
-Der er omkring 700 navngivne skeletmuskler i kroppen, hvilket er inklusiv omkring 400 muskler, som de fleste er lige glade med. Der er kun en hjertemuskel, og der er virkelig mange glatte muskler (som primært arbejder for det autonome nervesystem, og de glatte muskler bruger det meste af tiden på at presse og klemme på ting i rør i kroppen).
+Forfatter og videnskabsformidler Paul Ingraham fra [Painscience](https://www.painscience.com/articles/how-many-muscles.php) sætter det meget godt i perspektiv. Han opdeler kroppens muskulatur i en mere praktisk liste:
 
-Men det afhænger faktisk af hvordan, du tæller. Så hvor mange muskler er der i virkeligheden i menneskekroppen?
+* **~100 muskler** som har direkte relevans for fitness og træning.
+* **~200 yderligere muskler**, som fysioterapeuter og massører lærer om på deres studie.
+* **~400 små skeletmuskler**, som primært kun speciallæger og nørder kender til.
+* **1 hjertemuskel** (Myokardiet).
+* **Flere millioner bittesmå muskler**, hvis eneste opgave er at rejse hårene på vores hud (gåsehud).
+* **Flere milliarder muskelceller** af glat muskulatur, som driver vores organer.
 
-Paul Ingraham skriver på [Painscience](https://www.painscience.com/articles/how-many-muscles.php):
+Det er altså kun **skeletmusklerne**, vi reelt kan tælle og navngive.
 
-> It’s surprisingly hard to tell. You wouldn’t think the total number would be ambiguous, but it’s difficult to know what to include and exclude, and anatomists don’t always agree.
->
-> — <cite>[Paul Ingraham](https://www.painscience.com/articles/how-many-muscles.php)</cite>
-
-## Hvor mange muskeltyper har mennesket?
-
-Muskler kommer i tre forskellige muskeltyper:
-
-1. Skeletmuskulatur, der bevæger os
-2. Hjertemuskel, som flytter blodet rundt
-3. Glat muskulatur, som flytter ting rundt i kroppen
-
-Hvis den glatte muskulatur er med i optællingen, så har vi en umulig opgave. Den glatte muskulatur er organernes muskler, laver arbejdet for det autonome nervesystem, flytter ting rundt i kroppens forskellige rør, rejser hårene og skubber babyer ud. Med andre ord så kan det ikke lade sig gøre at tælle den glatte muskulatur med.
-
-De ikke-viljestyrede muskler mangler det tværstribede mønster. Den kaldes derfor for glat muskulatur.
-
-De ikke-viljestyrede muskler, som dem vi har i hjertet og i fordøjelseskanalen, fungerer normalt uden for vores bevidstheds kontrol eller opmærksomhed.
-
-Det er til gengæld noget lettere at tælle hjertemusklen. Der skal vi nemlig bare tælle til én. Men hvilke én.
-
-Det er altså **skeletmusklerne**, som er det mest interessante i forhold til, hvor mange muskler vi har i kroppen.
-
-Det er også **skeletmusklerne** vi forsøger at træne og forme.
-
-Paul Ingraham samler derfor følgende liste i forhold til, hvor mange muskler der er i kroppen.
-
-- ~100 muskler som har relevans for træning (og der er naturligvis kun et fåtal af dem, der får den meste opmærksomhed)
-- ~200 flere muskler, som fysioteraputer og massageterapeuter også lærer om i løbet af deres studietid, og som de måske fortsat kan huske.
-- omkring ~400 flere skeletmuskler, som kun specialister kender til.
-- flere millioner muskler til at rejse hårene
-- flere milliarder glatte muskelceller, som er blandet sammen
-- nøjagtig 1 hjertemuskel
-
-## Hvor mange skeletmuskler har vi?
-
-Skeletmusklerne kaldes også den tværstribede skeletmuskulatur. Den er under hjernens kontrol.
-
-Den viljestyrede muskulatur har et tværstribet mønster. Viljestyrede muskler, som dem vi har i armene og benene, er under bevidsthedens kontrol. De trækker sig kun sammen, når hjernen giver besked om det.
-
-Ønsker du at bøje albuen, instruerer din hjerne biceps-musklen i overarmen i at trække sig sammen. Ønsker du at strække ud i albuen, giver din hjerne signal til biceps om at slappe af, mens triceps-musklen på bagsiden af overarmen instrueres i at trække sig sammen.
-
-Men skeletmusklerne omfatter også musculus intercostales, som findes mellem ribbenene, eller den mindste af typen musculus stapedius i øret.
-
-Signalerne fra hjernen overføres via nervesystemet.
+---
 
 ## Har mænd og kvinder lige mange muskler?
 
-Mænd og kvinder har anatomisk samme antal skeletmuskler. Mænds muskler er i nogle tilfælde større end kvinders muskler. Der er [ikke forskel på mænds og kvinders muskler]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}).
+Ja. Mænd og kvinder har anatomisk set præcis det samme antal skeletmuskler. Mænds muskler er oftest større på grund af testosteron og genetik, men der er [helt grundlæggende ikke forskel på selve opbygningen af mænds og kvinders muskler]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}).
 
-Der findes dog speciel kønsspecifik muskulatur: det er fx kun kvinder der har en livmoder som mestendels består af muskulatur, ligesom det kun er mænd der har musculus cremaster, som er den muskel der ligger i huden af pungen.
+Når vi taler om *antallet*, findes der dog en speciel, kønsspecifik muskulatur:
+* Det er kun kvinder, der har en livmoder, som mestendels består af stærk, glat muskulatur.
+* Det er kun mænd, der har *musculus cremaster*, som er den muskel, der ligger i huden af pungen for at regulere temperaturen.
+
+---
+
+## Kroppens 3 muskeltyper
+
+Når vi tæller muskler, er vi nødt til at skelne mellem kroppens tre vidt forskellige muskeltyper:
+
+### 1. Skeletmuskulatur (Den viljestyrede)
+Skeletmusklerne kaldes også den tværstribede muskulatur. Det er de muskler, der sidder fast på knoglerne og bevæger vores krop. Dem har vi ca. 700 af. De er under hjernens bevidste kontrol – når du vil bøje armen, sender hjernen et nervesignal til biceps, om at den skal trække sig sammen. 
+
+### 2. Glat muskulatur (Den automatiske)
+Den glatte muskulatur mangler det tværstribede mønster og er ikke under viljens kontrol. Den styres af det autonome nervesystem. Den findes i vores blodkar, tarmsystem og organer, hvor den bruger døgnets 24 timer på at klemme og presse ting (som blod og mad) rundt i kroppens "rør". Dem kan vi umuligt tælle, da der er milliarder af celler.
+
+### 3. Hjertemusklen (Myokardiet)
+Hjertet har sin helt egen muskeltype. Den er tværstribet som en skeletmuskel, men fungerer fuldstændig automatisk som den glatte muskulatur. Den arbejder uafbrudt fra før vi bliver født, til vi dør.
+
+---
 
 ## Hvilken kropsdel har flest muskler?
 
-Jeg har ikke kunnet finde et definitivt svar på dette, men mon ikke det er ansigtet. Hvis du ved mere om, hvilken kropsdel der har flest muskler, så brug endelig kommentarerne.
+Det sted på kroppen, hvor vi finder den absolut tætteste koncentration af små muskler, er i **ansigtet og på halsen**. Her sidder der over 40-50 forskellige små mimiske muskler, hvis primære formål er at lade os tygge, synke, tale og vise komplekse følelser. 
 
-## Hvor mange muskler har mennesket?
+Derudover er vores **hænder og fødder** også fyldt med et enormt antal bittesmå muskler (både dem der sidder i selve hånden, og dem der styres via sener fra underarmen), hvilket giver os vores finmotorik.
 
-Hvilket antal man kommer frem til afhænger derfor meget af om man udelukkende tæller tværstribet skeletmuskulatur eller også medregner fx glat muskulatur.
+> 💪 **Vil du vide, hvilken muskel der er størst?**  
+> Læs vores fascinerende gennemgang af [kroppens største og mindste muskler →](/stoerste-og-mindste-muskel-i-kroppen/)
 
-Men hvis du kun tæller skeletmuskulaturen med, så er der omkring 700 muskler. Men det er formentlig kun omkring 100 af de muskler, du nogensinde stifter bekendtskab med.
+## Læs mere om kroppens anatomi
 
-Jeg har skrevet mere om, hvordan [muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}) og jeg har også lavet en [muskeloversigt]({% link _pages/anatomy/muscles.md %}), hvor du kan se de mest nødvendige muskler i forhold til træning.
+Hvis du vil dykke dybere ned i kroppens maskinrum, har jeg skrevet en række andre artikler:
+* Læs alt om [hvordan muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
+* Se min store, detaljerede [muskeloversigt over kroppens vigtigste muskelgrupper]({% link _pages/anatomy/muscles.md %}).
+* Bliv klogere på skelettet og se [hvor mange knogler menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}).
 
-Hvis du leder efter, hvor mange [knogler menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.
+---
 
 ## Ofte stillede spørgsmål om kroppens muskler
 

@@ -31,7 +31,7 @@ Den Danske Steptest eller Den Nye Steptest er en præstationsbegrænset submaksi
 
 I forhold til de andre [steptests](/kondital-fra-steptest/) så er fordelen, at du i denne test ikke skal tælle din puls efterfølgende.
 
-Jeg kigger lidt på, om testen kan bruges til at finde konditallet?
+I denne artikel gennemgår vi protokollen for Den Danske Steptest, og hvordan du kan bruge den til at estimere dit kondital uden brug af pulsmåler.
 
 *[MET]: Metabolic equivalent of Task
 

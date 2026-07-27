@@ -81,7 +81,11 @@ feature_row:
   rel: sponsored nofollow noopener
 ---
   
-Den **Université de Montréal Track Test (UM-TT)**, også kendt som **Montreal Track Test**, er en maksimal, kontinuerlig, indirekte multistage-løbetest, der vurderer den aerobe kapacitet baseret på løbets energiforbrug. Denne test blev først beskrevet af **Léger & Boucher (1980)** og var en forløber for den mere kendte [Bip Test](/bip-test/).  
+Den **Université de Montréal Track Test (UM-TT)**, også kendt som **Montreal Track Test**, er en maksimal, kontinuerlig, indirekte multistage-løbetest, der vurderer den aerobe kapacitet baseret på løbets energiforbrug. Denne test blev først beskrevet af **Léger & Boucher (1980)** og var en forløber for den mere kendte [Bip Test](/bip-test/).
+
+**Gå direkte til det, du skal bruge:**
+
+- [<i class='fas fa-volume-up'></i> **Bip-test lydfil**](#timer) – Gratis online afspiller til 20-meter testen
 
 ## Formål
 
@@ -121,7 +125,20 @@ Montreal Track Test gennemføres på en **400 meter løbebane**, hvor kegler pla
 Deltageren fortsætter, indtil de:  
 
 - Ikke når inden for **5 meter** af den påkrævede markering.  
-- Ikke længere kan følge med testens tempo.  
+- Ikke længere kan følge med testens tempo.
+
+## Interaktiv Montreal Track Test Afspiller & Lyd
+{: id="timer" }
+
+Da det oprindelige lydspor til Montreal Track Test (UMTT) ikke længere kan købes eller findes på CD, har vi bygget denne interaktive afspiller. Den gør det muligt at afvikle testen direkte på telefonen eller computeren ude på atletikbanen.
+
+{% include components/montreal-track-test-timer.html %}
+
+**Funktioner i afspilleren:**
+* **Visuel 400m bane:** Følg løberens placering i realtid rundt på banen med kegler for hver 50 meter.
+* **Præcise bip-signaler:** Afspilleren bipper automatisk ved hver keglepassage samt med et dobbeltbip ved niveauskift (hvert 2. minut).
+* **Live VO₂max-beregning:** Beregner løbende dit estimerede kondital ud fra den opnåede sluthastighed.
+* **Download WAV-lydfil:** Klik på knappen i bunden for at hente et komplet lydspor direkte ned på din telefon, så du kan afspille testen over en bærbar højttaler uden internetforbindelse.
 
 ## Scoring og VO2max-beregning  
 
@@ -144,16 +161,16 @@ Montreal Track Test er velegnet til atleter i **holdbaserede sportsgrene** såso
 
 ## Fordele  
 
-✔ Let at administrere på en standard løbebane  
-✔ Kan udføres af store grupper samtidigt  
-✔ Minimal omkostning, når testmaterialet er anskaffet  
+- ✔ Let at administrere på en standard løbebane  
+- ✔ Kan udføres af store grupper samtidigt  
+- ✔ Minimal omkostning, når testmaterialet er anskaffet  
 
 ## Ulemper  
 
-❌ Kræver motiverede deltagere, da præstationen kan påvirkes af indsatsniveau  
-❌ Subjektiv vurdering af, hvornår en deltager falder fra  
-❌ Miljøforhold (vind, temperatur, underlag) kan påvirke testresultaterne  
-❌ **Biptesten** blev udviklet for at muliggøre en **indendørs test med mindre pladsbehov**  
+- ❌ Kræver motiverede deltagere, da præstationen kan påvirkes af indsatsniveau  
+- ❌ Subjektiv vurdering af, hvornår en deltager falder fra  
+- ❌ Miljøforhold (vind, temperatur, underlag) kan påvirke testresultaterne  
+- ❌ **[Biptesten](/bip-test/)** blev udviklet for at muliggøre en **indendørs test med mindre pladsbehov**  
 
 ## Andre overvejelser  
 

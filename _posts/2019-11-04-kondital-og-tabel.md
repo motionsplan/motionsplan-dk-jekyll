@@ -88,8 +88,8 @@ Hvad er et godt kondital, og hvordan finder du det? Konditallet siger meget om, 
 - **Fysiske konditionstests:** Find de mest populære løbe-, cykel- og gangtests til at måle dit præcise tal.
 - **Sundhed & rekordtal:** Læs om konditallets betydning for sygdomsrisiko, retfærdig vurdering for overvægtige og de højeste kondital nogensinde målt.
 
-[<i class='fas fa-table'></i> Hop til kondital-tabellen](#kondital-tabel-for-mænd-normalbefolkning){: .btn .btn--success .btn--jump }
-[<i class='fas fa-calculator'></i> Hop til beregnere](#saadan-beregner-du-kondital-uden-test){: .btn .btn--info .btn--jump }
+[<i class='fas fa-table'></i> Hop til kondital-tabellen](#tabel){: .btn .btn--success .btn--jump }
+[<i class='fas fa-calculator'></i> Hop til beregnere](#calculator){: .btn .btn--info .btn--jump }
 
 *[BMI]: Body Mass Index
 
@@ -115,6 +115,7 @@ Du kan se de præcise værdier for alle aldersgrupper i tabellerne nedenunder.
 [Test din kondition](/kondition/tests/){: .btn .btn--large .btn--info }
 
 ## Kondital tabel for mænd (normalbefolkning)
+{: id="tabel" }
 
 | Alder | Meget lavt | Lavt  | Middel | Højt  | Meget højt |
 |:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
@@ -195,13 +196,14 @@ Du kan forbedre dit kondital på to måder: enten ved at forbedre din maksimale 
 
 
 ## Beregn dit kondital uden fysisk test (fra sofaen)
+{: id="calculator" }
 
 Vil du have et hurtigt bud på dit kondital direkte fra sofaen, er der to veje at gå: ud fra din **puls** (mest præcis) eller ud fra din **alder og aktivitetsniveau**.
 
 ### 1. Ud fra din puls (Uth-formlen)
 Hvis du kender din maxpuls og hvilepuls, giver Uth-formlen et bud på dit kondital:
 
-{% include calculator/calculate-vo2-max-hr.html %}
+{% include calc/vo2max-maxpuls-uth.html %}
 
 ---
 
@@ -255,6 +257,7 @@ Her kan du finde vores mest populære fysiske konditionstests:
 * **[Watt-max test](/kondital-wattmax/)** — cykeltest der giver et præcist kondital.
 * **[6-minutters gangtest](/gaatest-6min/)** — velegnet til ældre og utrænede.
 * **[Andersen-test](/andersen-test/)** — intervaltest velegnet til børn og unge.
+* **[Vilkårlig løbedistance](/kondital-loeb-distance-tid/)** — intervaltest velegnet til børn og unge.
 
 Du kan også finde flere [løbetests](/tests/loeb/), [cykeltests](/tests/cykling/), [rotests](/tests/roing/) eller [gangtests](/tests/gang/) på vores samleside.
 

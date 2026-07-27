@@ -1,0 +1,235 @@
+{% assign preset_test = include.test | default: "auto" %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-st-input { 
+    height: 42px !important; 
+    border-radius: 8px !important; 
+    text-align: center !important; 
+    font-weight: 800 !important; 
+    box-sizing: border-box !important; 
+    padding: 0 6px !important; 
+    border: 1.5px solid #cbd5e1 !important; 
+    background: #ffffff !important; 
+    margin: 0 !important; 
+    width: 100% !important;
+  }
+
+  /* FLEKSIBELT CONTAINER-LAYOUT DER FORHINDRER KLEMTE KNAPPER OG OVERLAP */
+  .mp-st-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    align-items: flex-end;
+  }
+
+  .mp-st-field {
+    flex: 1 1 110px;
+    min-width: 0;
+  }
+
+  .mp-st-gender-field {
+    flex: 1.5 1 170px;
+    min-width: 170px;
+  }
+
+  .mp-st-auto-badge { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .mp-st-badge-header { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 0.5rem; }
+  .mp-st-badge-title-group { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+  .mp-st-badge-title { font-size: 0.85rem; font-weight: 800; color: #0f172a; }
+  .mp-st-rec-tag { font-size: 0.65rem; font-weight: 800; color: #1e40af; background: #dbeafe; padding: 2px 6px; border-radius: 5px; }
+
+  .mp-st-btn-gear { background: #ffffff !important; border: 1px solid #93c5fd !important; color: #2563eb !important; font-size: 1rem !important; width: 34px !important; height: 34px !important; border-radius: 8px !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.15s ease !important; padding: 0 !important; }
+  .mp-st-btn-gear:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  .mp-st-picker-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .mp-st-picker-card { background: #ffffff; border: 2px solid #e2e8f0; border-radius: 10px; padding: 0.75rem 0.9rem; cursor: pointer; transition: all 0.15s ease; text-align: left; }
+  .mp-st-picker-card:hover:not(.is-selected) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-st-picker-card.is-selected { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  .mp-st-check-icon { width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; color: #94a3b8; font-size: 0.7rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+  .mp-st-picker-card.is-selected .mp-st-check-icon { background: #2563eb; color: #ffffff; }
+
+  .mp-badge-btn-hero {
+    margin-top: 0.85rem; border: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+    gap: 0.35rem; font-size: 0.8rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; transition: all 0.15s ease; align-self: center;
+  }
+  .mp-badge-btn-hero:hover { transform: translateY(-1px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="steptest" data-ui-module="steptest-ui" data-preset-test="{{ preset_test }}" style="max-width: 680px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.85rem; margin-bottom: 1.15rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title js-st-main-title" style="margin: 0 0 4px 0;">🪜 Steptest Beregner</h3>
+      <p class="js-st-main-desc" style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Beregn dit kondital ud fra din testpuls efter steptesten.
+      </p>
+    </div>
+    <div data-html2canvas-ignore="true">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
+    </div>
+  </div>
+
+  <!-- 1. FORMEL / TEST VÆLGER -->
+  <div class="js-st-formula-section" style="margin-bottom: 1.25rem;">
+    <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+      1. Vælg beregningsformel / test
+    </label>
+
+    <div class="js-st-formula-bar mp-st-auto-badge"></div>
+
+    <div class="js-st-manual-dropdown-wrapper" style="display: none;">
+      <div class="js-st-picker-container mp-st-picker-list" style="margin-top: 0.5rem;"></div>
+    </div>
+  </div>
+
+  <!-- 2. STAMDATA INPUTS -->
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.15rem; margin-bottom: 1.25rem;">
+    <h4 style="font-size: 0.825rem; font-weight: 800; color: #0f172a; margin: 0 0 0.85rem 0;">2. Indtast din puls og stamdata</h4>
+
+    <div class="mp-st-flex-container">
+      <!-- Testpuls -->
+      <div class="mp-st-field">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Testpuls <span class="js-st-hr-unit" style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(slag/min)</span>
+        </label>
+        <input type="number" name="st_hr" class="mp-st-input js-st-input" min="40" max="220" placeholder="120" value="120">
+      </div>
+
+      <!-- Alder -->
+      <div class="mp-st-field">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Alder <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(år)</span>
+        </label>
+        <input type="number" name="st_age" class="mp-st-input js-st-input" min="15" max="90" placeholder="40" value="40">
+      </div>
+
+      <!-- Højde -->
+      <div class="mp-st-field js-st-height-wrapper" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Højde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
+        </label>
+        <input type="number" name="st_height" class="mp-st-input js-st-input" min="120" max="220" placeholder="180" value="180">
+      </div>
+
+      <!-- Vægt -->
+      <div class="mp-st-field js-st-weight-wrapper" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Vægt <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(kg)</span>
+        </label>
+        <input type="number" name="st_weight" class="mp-st-input js-st-input" min="30" max="200" placeholder="80" value="80">
+      </div>
+
+      <!-- Stephøjde -->
+      <div class="mp-st-field js-st-step-height-wrapper" style="display: none;">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Stephøjde <span style="font-weight: 600; color: #64748b; font-size: 0.7rem;">(cm)</span>
+        </label>
+        <input type="number" name="st_step_height" class="mp-st-input js-st-input" min="10" max="60" step="0.5" placeholder="30.5" value="30.5">
+      </div>
+
+      <!-- Køn Toggle -->
+      <div class="mp-st-field mp-st-gender-field">
+        <label style="font-size: 0.75rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem;">
+          Køn
+        </label>
+        <div style="height: 42px; display: flex; background: #ffffff; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box; width: 100%;">
+          <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+            <input type="radio" name="st_gender" value="male" class="js-st-input" checked style="display:none;">
+            <div class="js-st-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Mand</div>
+          </label>
+          <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+            <input type="radio" name="st_gender" value="female" class="js-st-input" style="display:none;">
+            <div class="js-st-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Kvinde</div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. RESULTATER -->
+  <div style="margin-bottom: 1.5rem; position: relative !important;">
+    <div class="mp-results-split">
+      
+      <!-- Venstre Hero-kort: Kondital & Slider -->
+      <div class="mp-results-left">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 1.25rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; margin-bottom: 0.25rem; color: #1e40af; font-weight: 700;">
+            Estimeret Kondital
+          </div>
+          
+          <div class="js-st-fitness" style="font-size: 3.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.25rem 0;">-</div>
+          <div style="font-size: 0.95rem; font-weight: 800; color: #3b82f6;">ml/kg/min</div>
+
+          <div class="mp-fitness-continuum" style="margin-top: 0.85rem;">
+            <div class="mp-continuum-bar-wrapper">
+              <div class="mp-continuum-bar">
+                <div class="mp-segment" style="background: #ef4444;"></div>
+                <div class="mp-segment" style="background: #f97316;"></div>
+                <div class="mp-segment" style="background: #eab308;"></div>
+                <div class="mp-segment" style="background: #22c55e;"></div>
+                <div class="mp-segment" style="background: #3b82f6;"></div>
+              </div>
+              <div class="js-st-continuum-marker mp-continuum-marker" style="display: none;"></div>
+            </div>
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 4px; text-transform: uppercase;">
+              <span>Lav</span>
+              <span>Høj</span>
+            </div>
+          </div>
+
+          <button type="button" class="mp-badge-btn-hero js-st-table-btn js-st-eval-badge" title="Klik for at se normtabel">
+            <span class="js-st-eval-text">Mangler data</span>
+            <span style="font-size: 0.85rem; line-height: 1;">📊</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Højre: Sekundære bokse -->
+      <div class="mp-results-boxes">
+        
+        <div class="mp-result-box-split js-st-harvard-box" style="padding: 0.85rem 1rem; align-items: center; justify-content: space-between; gap: 0.5rem; display: none;">
+          <div class="mp-box-left" style="min-width: 0;">
+            <div style="font-weight: 800; font-size: 0.825rem; color: #475569; line-height: 1.2;">Fitness Index<br><span style="font-size: 0.675rem; color: #94a3b8; font-weight: 600;">(Harvard score)</span></div>
+          </div>
+          <div class="mp-box-right" style="text-align: right; flex-shrink: 0;">
+            <div class="js-st-fitness-index" style="font-weight: 900; font-size: 1.35rem; color: #0f172a;">-</div>
+          </div>
+        </div>
+
+        <div class="mp-result-box-split" style="padding: 0.85rem 1rem; align-items: flex-start; flex-direction: column; justify-content: center; background: #f8fafc; gap: 0.25rem;">
+          <div style="display: flex; align-items: center; gap: 0.35rem; width: 100%;">
+            <span style="font-size: 0.85rem;">ℹ️</span>
+            <strong style="font-weight: 800; font-size: 0.8rem; color: #334155;" class="js-st-info-title">Valgt Steptest</strong>
+          </div>
+          <div style="font-size: 0.725rem; color: #64748b; line-height: 1.35;" class="js-st-info-desc">
+            Indtast din testpuls for at se dit kondital.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- POPUP OVERLAY FOR NORM-TABEL -->
+    <div class="js-st-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
+        <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
+        <button type="button" class="js-st-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
+      </div>
+
+      <div style="flex: 1; overflow-y: auto;">
+        <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
+          <tbody class="js-st-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
+  </div>
+</div>

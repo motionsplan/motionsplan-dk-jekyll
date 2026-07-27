@@ -1,0 +1,590 @@
+{% assign test_type = include.type | default: page.meta.type_id | default: "custom" %}
+{% assign bpm = include.bpm | default: page.meta.bpm | default: 96 %}
+{% assign duration = include.duration | default: page.meta.duration | default: 180 %}
+
+<div class="steptest-widget" 
+     data-preset="{{ test_type }}" 
+     data-bpm="{{ bpm }}" 
+     data-duration="{{ duration }}">
+  
+  <!-- Topbar med Vælger, Lydindstilling & Status Badge -->
+  <div class="steptest-topbar">
+    <select class="steptest-select">
+      <option value="ymca">YMCA 3-Minutters / Modified (96 BPM)</option>
+      <option value="queens-m">Queens College – Mænd (96 BPM)</option>
+      <option value="queens-f">Queens College – Kvinder (88 BPM)</option>
+      <option value="dansk">Den Danske Steptest (Progressiv 60-120 BPM)</option>
+      <option value="chester">Chester Step Test (Progressiv 60-140 BPM)</option>
+      <option value="harvard">Harvard Step Test (120 BPM)</option>
+      <option value="astrand">Åstrand-Ryhming (90 BPM)</option>
+      <option value="custom">Brugerdefineret</option>
+    </select>
+
+    <div class="topbar-subrow">
+      <select class="sound-select" title="Metronom-lyd">
+        <option value="all">🔊 Lyd: Alle trin</option>
+        <option value="first">🔔 Lyd: Kun 1. trin</option>
+        <option value="off">🔇 Lyd: Slået fra</option>
+      </select>
+      <div class="wakelock-status">📱 Skærm holdes tændt</div>
+    </div>
+  </div>
+
+  <!-- Boks med Live Status (BPM og Niveau) -->
+  <div class="steptest-info-bar">
+    <div class="info-badge">
+      <span class="info-label">TEMPO</span>
+      <span class="info-value bpm-display">96 BPM</span>
+    </div>
+    <div class="info-badge">
+      <span class="info-label">NIVEAU</span>
+      <span class="info-value stage-display">1 / 1</span>
+    </div>
+  </div>
+
+  <!-- Timer & Fremdriftsbar -->
+  <div class="steptest-timer-container">
+    <div class="steptest-timer timer-display">03:00</div>
+    <div class="steptest-progress-track" title="Samlet fremdrift">
+      <div class="steptest-progress-bar progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- Visuel Stepbænk -->
+  <div class="steptest-visualizer">
+    <div class="bench-zone top-zone">
+      <span class="zone-label">PÅ BÆNK</span>
+      <div class="foot-slot foot-left-top">V</div>
+      <div class="foot-slot foot-right-top">H</div>
+    </div>
+    
+    <div class="bench-divider"></div>
+
+    <div class="bench-zone bottom-zone">
+      <span class="zone-label">PÅ GULV</span>
+      <div class="foot-slot active foot-left-bottom">V</div>
+      <div class="foot-slot active foot-right-bottom">H</div>
+    </div>
+  </div>
+
+  <!-- Instruktions-tekst -->
+  <div class="steptest-instruction">Klar til start</div>
+
+  <!-- Kontroller -->
+  <div class="steptest-controls">
+    <button class="btn btn--primary btn-start">Start</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+</div>
+
+<style>
+.steptest-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 480px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+}
+
+.steptest-widget * {
+  box-sizing: border-box;
+}
+
+.steptest-topbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.steptest-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-weight: bold;
+  font-size: 0.95rem;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+.topbar-subrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.sound-select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background: #f8f9fa;
+  color: #495057;
+  cursor: pointer;
+}
+
+.wakelock-status {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #2b8a3e;
+  background: #ebfbee;
+  border: 1px solid #b2f2bb;
+  padding: 4px 10px;
+  border-radius: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.wakelock-status.active { 
+  opacity: 1; 
+}
+
+.steptest-info-bar {
+  display: flex;
+  justify-content: space-around;
+  background: #f1f3f5;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.info-badge { display: flex; flex-direction: column; }
+.info-label { font-size: 0.65rem; font-weight: 800; color: #868e96; letter-spacing: 0.5px; }
+.info-value { font-size: 1.1rem; font-weight: 800; color: #212529; }
+
+.steptest-timer-container { 
+  margin: 10px 0 16px 0; 
+}
+
+.steptest-timer {
+  font-size: 3.8rem;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  color: #1c7ed6;
+  line-height: 1;
+}
+
+.steptest-progress-track {
+  width: 100%;
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.steptest-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #228be6;
+  border-radius: 4px;
+  transition: width 0.3s linear;
+}
+
+.steptest-visualizer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #dee2e6;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+
+.bench-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 14px;
+  border-radius: 8px;
+  position: relative;
+  min-height: 65px;
+}
+
+.top-zone { background: #339af0; }
+.bottom-zone { background: #adb5bd; }
+
+.zone-label {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: rgba(255,255,255,0.7);
+}
+
+.foot-slot {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.5);
+  transition: all 0.08s ease-in-out;
+}
+
+.foot-slot.active {
+  background: #40c057;
+  color: white;
+  transform: scale(1.15);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.steptest-instruction {
+  font-size: 1.3rem;
+  font-weight: 800;
+  min-height: 2.2rem;
+  color: #1c7ed6;
+  margin-bottom: 16px;
+}
+
+.steptest-controls { display: flex; gap: 8px; justify-content: center; }
+.steptest-controls button {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+.steptest-controls button:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const PRESETS = {
+    'ymca': {
+      name: 'YMCA Steptest',
+      stages: [{ duration: 180, bpm: 96, label: 'Standard' }]
+    },
+    'queens-m': {
+      name: 'Queens College (Mænd)',
+      stages: [{ duration: 180, bpm: 96, label: 'Mænd' }]
+    },
+    'queens-f': {
+      name: 'Queens College (Kvinder)',
+      stages: [{ duration: 180, bpm: 88, label: 'Kvinder' }]
+    },
+    'dansk': {
+      name: 'Den Danske Steptest',
+      alternateLead: true,
+      stages: [
+        { duration: 60, bpm: 60, label: 'Niveau 1' },
+        { duration: 60, bpm: 72, label: 'Niveau 2' },
+        { duration: 60, bpm: 84, label: 'Niveau 3' },
+        { duration: 60, bpm: 96, label: 'Niveau 4' },
+        { duration: 60, bpm: 108, label: 'Niveau 5' },
+        { duration: 60, bpm: 120, label: 'Niveau 6' }
+      ]
+    },
+    'chester': {
+      name: 'Chester Step Test',
+      stages: [
+        { duration: 120, bpm: 60, label: 'Niveau 1' },
+        { duration: 120, bpm: 80, label: 'Niveau 2' },
+        { duration: 120, bpm: 100, label: 'Niveau 3' },
+        { duration: 120, bpm: 120, label: 'Niveau 4' },
+        { duration: 120, bpm: 140, label: 'Niveau 5' }
+      ]
+    },
+    'harvard': {
+      name: 'Harvard Step Test',
+      stages: [{ duration: 300, bpm: 120, label: 'Standard' }]
+    },
+    'astrand': {
+      name: 'Åstrand-Ryhming',
+      stages: [{ duration: 300, bpm: 90, label: 'Standard' }]
+    },
+    'custom': {
+      name: 'Brugerdefineret',
+      stages: [{ duration: 180, bpm: 96, label: 'Custom' }]
+    }
+  };
+
+  const widgets = document.querySelectorAll(".steptest-widget");
+
+  widgets.forEach(function(widget) {
+    const customBpm = parseInt(widget.dataset.bpm) || 96;
+    const customDuration = parseInt(widget.dataset.duration) || 180;
+    
+    const localPresets = JSON.parse(JSON.stringify(PRESETS));
+    localPresets.custom.stages = [{ duration: customDuration, bpm: customBpm, label: 'Custom' }];
+
+    let currentPresetKey = widget.dataset.preset && localPresets[widget.dataset.preset] ? widget.dataset.preset : 'ymca';
+    let activeStages = localPresets[currentPresetKey].stages;
+    let stageIndex = 0;
+    let stageSecondsLeft = activeStages[0].duration;
+    let currentBeat = 0; 
+    let leadFoot = 'right';
+    let isRunning = false;
+    let beatTimeoutId = null;
+    let timerIntervalId = null;
+    let wakeLock = null;
+    let audioCtx = null;
+
+    // Lokale DOM elementer
+    const testSelector = widget.querySelector(".steptest-select");
+    const soundSelector = widget.querySelector(".sound-select");
+    const bpmDisplay = widget.querySelector(".bpm-display");
+    const stageDisplay = widget.querySelector(".stage-display");
+    const timerDisplay = widget.querySelector(".timer-display");
+    const progressBar = widget.querySelector(".progress-bar");
+    const instruction = widget.querySelector(".steptest-instruction");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+    const btnStart = widget.querySelector(".btn-start");
+    const btnPause = widget.querySelector(".btn-pause");
+    const btnReset = widget.querySelector(".btn-reset");
+
+    const feet = {
+      leftTop: widget.querySelector(".foot-left-top"),
+      rightTop: widget.querySelector(".foot-right-top"),
+      leftBottom: widget.querySelector(".foot-left-bottom"),
+      rightBottom: widget.querySelector(".foot-right-bottom")
+    };
+
+    let soundMode = soundSelector.value; // 'all', 'first', 'off'
+
+    testSelector.value = currentPresetKey;
+
+    soundSelector.addEventListener("change", (e) => {
+      soundMode = e.target.value;
+    });
+
+    function loadPreset(key) {
+      if (isRunning) stopTest();
+      currentPresetKey = key;
+      activeStages = localPresets[key].stages;
+      stageIndex = 0;
+      stageSecondsLeft = activeStages[0].duration;
+      leadFoot = 'right';
+      updateUI();
+    }
+
+    function getTotalTestDuration() {
+      return activeStages.reduce((acc, stage) => acc + stage.duration, 0);
+    }
+
+    function getElapsedSecondsTotal() {
+      let elapsed = 0;
+      for (let i = 0; i < stageIndex; i++) {
+        elapsed += activeStages[i].duration;
+      }
+      elapsed += (activeStages[stageIndex].duration - stageSecondsLeft);
+      return elapsed;
+    }
+
+    function updateUI() {
+      const currentStage = activeStages[stageIndex];
+      bpmDisplay.textContent = `${currentStage.bpm} BPM`;
+      stageDisplay.textContent = `${stageIndex + 1} / ${activeStages.length}`;
+
+      const mins = Math.floor(stageSecondsLeft / 60).toString().padStart(2, '0');
+      const secs = (stageSecondsLeft % 60).toString().padStart(2, '0');
+      timerDisplay.textContent = `${mins}:${secs}`;
+
+      const totalDuration = getTotalTestDuration();
+      const elapsed = getElapsedSecondsTotal();
+      const progressPct = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
+      progressBar.style.width = `${progressPct}%`;
+    }
+
+    function playBeep(isFirstStep) {
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.frequency.value = isFirstStep ? 880 : 440;
+        gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.06);
+
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.06);
+      } catch(e) {}
+    }
+
+    function handleAudioForBeat(beat) {
+      if (soundMode === 'all') {
+        playBeep(beat === 0);
+      } else if (soundMode === 'first' && beat === 0) {
+        playBeep(true);
+      }
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try {
+          wakeLock = await navigator.wakeLock.request('screen');
+          wakelockStatus.classList.add("active");
+        } catch (err) {}
+      }
+    }
+
+    function releaseWakeLock() {
+      if (wakeLock) {
+        wakeLock.release();
+        wakeLock = null;
+        wakelockStatus.classList.remove("active");
+      }
+    }
+
+    function scheduleNextBeat() {
+      if (!isRunning) return;
+
+      const currentPreset = localPresets[currentPresetKey];
+
+      if (currentBeat === 0 && currentPreset.alternateLead) {
+        if (getElapsedSecondsTotal() > 0) {
+          leadFoot = (leadFoot === 'right') ? 'left' : 'right';
+        }
+      }
+
+      Object.values(feet).forEach(el => el.classList.remove("active"));
+      
+      // Afspil lyd baseret på valgt lydindstilling
+      handleAudioForBeat(currentBeat);
+
+      if (leadFoot === 'right') {
+        switch(currentBeat) {
+          case 0:
+            feet.rightTop.classList.add("active");
+            feet.leftBottom.classList.add("active");
+            instruction.textContent = "1. Højre OP";
+            break;
+          case 1:
+            feet.rightTop.classList.add("active");
+            feet.leftTop.classList.add("active");
+            instruction.textContent = "2. Venstre OP";
+            break;
+          case 2:
+            feet.leftTop.classList.add("active");
+            feet.rightBottom.classList.add("active");
+            instruction.textContent = "3. Højre NED";
+            break;
+          case 3:
+            feet.leftBottom.classList.add("active");
+            feet.rightBottom.classList.add("active");
+            instruction.textContent = "4. Venstre NED";
+            break;
+        }
+      } else {
+        switch(currentBeat) {
+          case 0:
+            feet.leftTop.classList.add("active");
+            feet.rightBottom.classList.add("active");
+            instruction.textContent = "1. Venstre OP";
+            break;
+          case 1:
+            feet.leftTop.classList.add("active");
+            feet.rightTop.classList.add("active");
+            instruction.textContent = "2. Højre OP";
+            break;
+          case 2:
+            feet.rightTop.classList.add("active");
+            feet.leftBottom.classList.add("active");
+            instruction.textContent = "3. Venstre NED";
+            break;
+          case 3:
+            feet.leftBottom.classList.add("active");
+            feet.rightBottom.classList.add("active");
+            instruction.textContent = "4. Højre NED";
+            break;
+        }
+      }
+
+      currentBeat = (currentBeat + 1) % 4;
+
+      const currentBpm = activeStages[stageIndex].bpm;
+      const intervalMs = (60 / currentBpm) * 1000;
+      beatTimeoutId = setTimeout(scheduleNextBeat, intervalMs);
+    }
+
+    function startTest() {
+      if (isRunning) return;
+      isRunning = true;
+      requestWakeLock();
+
+      btnStart.disabled = true;
+      btnPause.disabled = false;
+      btnReset.disabled = false;
+      testSelector.disabled = true;
+
+      scheduleNextBeat();
+
+      timerIntervalId = setInterval(() => {
+        stageSecondsLeft--;
+        updateUI();
+
+        if (stageSecondsLeft <= 0) {
+          if (stageIndex < activeStages.length - 1) {
+            stageIndex++;
+            stageSecondsLeft = activeStages[stageIndex].duration;
+            updateUI();
+          } else {
+            stopTest();
+            instruction.textContent = "🎉 Test færdig! Mål din puls med det samme.";
+          }
+        }
+      }, 1000);
+    }
+
+    function pauseTest() {
+      isRunning = false;
+      clearTimeout(beatTimeoutId);
+      clearInterval(timerIntervalId);
+      releaseWakeLock();
+
+      btnStart.disabled = false;
+      btnPause.disabled = true;
+      instruction.textContent = "Pauset";
+    }
+
+    function stopTest() {
+      pauseTest();
+      stageIndex = 0;
+      stageSecondsLeft = activeStages[0].duration;
+      currentBeat = 0;
+      leadFoot = 'right';
+      testSelector.disabled = false;
+      updateUI();
+      
+      Object.values(feet).forEach(el => el.classList.remove("active"));
+      feet.leftBottom.classList.add("active");
+      feet.rightBottom.classList.add("active");
+    }
+
+    testSelector.addEventListener("change", (e) => loadPreset(e.target.value));
+    btnStart.addEventListener("click", startTest);
+    btnPause.addEventListener("click", pauseTest);
+    btnReset.addEventListener("click", stopTest);
+
+    loadPreset(currentPresetKey);
+  });
+});
+</script>

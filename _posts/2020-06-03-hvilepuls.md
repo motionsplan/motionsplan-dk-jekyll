@@ -54,10 +54,12 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 - hvordan du måler den korrekt
 - hvordan du forbedrer din hvilepuls med træning
 
+[<i class='fas fa-heartbeat'></i> Tjek din hvilepuls i beregneren →](#calculator){: .btn .btn--success .btn--jump }
+
 {% include figure image_path="https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="hvilepuls for mænd og kvinder" %}
 
-Læs: [Hvad er normal puls - alt om hjertets rytme](/puls/)
-{: .notice }
+> 👉 **Læs også:** [Hvad er normal puls – alt om hjertets rytme →](/puls/)
+{: .notice--info }
 
 ## Hvad er hvilepuls?
 
@@ -115,27 +117,46 @@ En hvilepuls under 60 slag/min betegnes medicinsk som bradykardi, men er helt no
 
 Ifølge et stort studie af Avram et al. (2019) i *NPJ Digital Medicine*, baseret på data fra over 92.000 personer, er den gennemsnitlige hvilepuls ca. 65 slag/min for mænd og ca. 68 slag/min for kvinder. Tallene varierer med alder og viser et tydeligt mønster: jo bedre kondition, jo lavere hvilepuls.
 
-## Tabel over hvilepuls for mænd og kvinder
+## Test din hvilepuls
+{: id="calculator" }
 
-Her har jeg samlet retningslinjer baseret på [bgh.dk](https://bgh.dk/hvilepuls/) for hvilepuls for mænd og kvinder. Pulsskemaet kan bruges til at vurdere din hvilepuls i forhold til andre på dit konditionsniveau.
+Indtast din alder, dit køn og din hvilepuls herunder for at få en øjeblikkelig vurdering af dit niveau:
 
-| Kategori            | Hvilepuls for kvinder | Hvilepuls for mænd |
-|---------------------|-----------------------|--------------------|
-| Sportsudøver        | 54–60                 | 49–56              |
-| Glimrende           | 60–64                 | 57–61              |
-| God                 | 65–68                 | 62–66              |
-| Over gennemsnittet  | 69–73                 | 67–70              |
-| Gennemsnitlig       | 74–78                 | 71–75              |
-| Under gennemsnittet | 79–84                 | 76–81              |
-| Dårlig              | 85+                   | 82+                |
+{% include calc/resting-hr.html %}
 
-Nogle lidt grovere retningslinjer for hvilepulsen kan ifølge [sportshojskolen.dk](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen) se sådan ud:
+## Tabel over hvilepuls for mænd og kvinder (alder og percentiler)
 
-- **Hvilepuls 80**: Uhyre dårlig kondition – bør forbedres alene set ud fra en sundhedsmæssig vinkel
-- **Hvilepuls 70**: Dårlig kondition – bør stadig forbedres, både af sundhedsmæssige og præstationsfremmende hensyn
-- **Hvilepuls 60**: Rimelig kondition – passer fint til fritidsmotionisten, men kan stadig med fordel forbedres
-- **Hvilepuls 50**: Rigtig god kondition – her ligger den ambitiøse amatørmotionist
-- **Hvilepuls 40**: Suveræn kondition – forbeholdt de få; oftest elitefolk
+Mange standard-skemaer på nettet deler hvilepuls op i vilkårlige kasser. I den fysiologiske forskning benytter man i stedet **percentiler** opdelt på alder og køn, da det giver et mere retvisende billede af, hvor du ligger i forhold til befolkningen:
+
+- **10. percentil (Top 10%):** De 10% med den laveste hvilepuls (oftest atleter eller personer i fremragende form).
+- **25. percentil (Top 25%):** Rigtig god kondition.
+- **50. percentil (Gennemsnit):** Befolkningens median.
+- **75. percentil:** Under gennemsnittet / moderat form.
+- **90. percentil:** De 10% med den højeste hvilepuls (oftest utrænede).
+
+### Hvilepuls for mænd (slag/min)
+
+| Aldersgruppe | Top 10% (Fremragende) | Top 25% (God) | 50% (Gennemsnit) | 75% (Under gennemsnit) | 90% (Utrænet) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **18–25 år** | < 56 | 57–61 | 62–69 | 70–75 | > 76 |
+| **26–35 år** | < 55 | 56–61 | 62–70 | 71–76 | > 77 |
+| **36–45 år** | < 57 | 58–62 | 63–71 | 72–77 | > 78 |
+| **46–55 år** | < 58 | 59–63 | 64–72 | 73–78 | > 79 |
+| **56–65 år** | < 57 | 58–62 | 63–71 | 72–77 | > 78 |
+| **65+ år** | < 56 | 57–61 | 62–69 | 70–75 | > 76 |
+
+### Hvilepuls for kvinder (slag/min)
+
+| Aldersgruppe | Top 10% (Fremragende) | Top 25% (God) | 50% (Gennemsnit) | 75% (Under gennemsnit) | 90% (Utrænet) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **18–25 år** | < 61 | 62–65 | 66–73 | 74–78 | > 79 |
+| **26–35 år** | < 60 | 61–64 | 65–72 | 73–78 | > 79 |
+| **36–45 år** | < 60 | 61–65 | 66–73 | 74–79 | > 80 |
+| **46–55 år** | < 61 | 62–65 | 66–73 | 74–79 | > 80 |
+| **56–65 år** | < 60 | 61–64 | 65–73 | 74–78 | > 79 |
+| **65+ år** | < 59 | 60–64 | 65–72 | 73–77 | > 78 |
+
+*Datagrundlag: Percentil-værdierne er baseret på Tabel 4 i CDC's NHANES-rapport (Ostchega et al., 2011) i kombination med YMCA Physical Fitness Test Manual (Golding, 2000).*
 
 Som udgangspunkt er en lav hvilepuls altså at foretrække.
 
@@ -240,8 +261,10 @@ Regelmæssig [konditionstræning](/konditionstraening/) sænker hvilepulsen over
 {% include motionsplan/faq.html %}
 
 <details markdown="1" class="references">
-  <summary><h2 id="references">Referencer</h2></summary>
+  <summary><h2 id="references">Referencer og datagrundlag</h2></summary>
 
 - Reimers, A. K., Knapp, G., & Reimers, C.-D. (2018). Effects of Exercise on the Resting Heart Rate: A Systematic Review and Meta-Analysis of Interventional Studies. *Journal of Clinical Medicine*, 7(12), 503. <https://doi.org/10.3390/jcm7120503>
 - Avram, R., Tison, G. H., Aschbacher, K., Kuhar, P., Vittinghoff, E., Butzner, M., Runge, R., Wu, N., Pletcher, M. J., Marcus, G. M., & Olgin, J. (2019). Real-world heart rate norms in the Health eHeart study. *NPJ Digital Medicine*, 2, 58. <https://doi.org/10.1038/s41746-019-0134-9>
+- Ostchega, Y., Porter, K. S., Hughes, J. P., Dillon, C. F., & Nwankwo, T. (2011). *Resting pulse rate reference data for children, adolescents, and adults: United States, 1999–2008*. National Health Statistics Reports, 41, 1–16. (Se specifikt Tabel 4, s. 10 for alders- og kønsopdelte percentiler). <https://www.cdc.gov/nchs/data/nhsr/nhsr041.pdf>
+- Golding, L. A. (Ed.). (2000). *YMCA Physical Fitness Test Manual* (4th ed.). Human Kinetics, Champaign, IL. (Resting Heart Rate Percentile Tables, s. 62–65).
 </details>

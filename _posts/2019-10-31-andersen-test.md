@@ -60,11 +60,12 @@ faq:
 
 Andersen testen bliver ofte brugt til at test af børns kondition. Det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/)., da den er nem at organisere på et 20-meters område (f.eks. bredden af en håndboldhal) og engagerer hele klassen på én gang.
 
+[<i class='fas fa-calculator'></i> Beregner](#calculator){: .btn .btn--success .btn--jump } [<i class='fas fa-paperclip'></i> Materialer](#materialer){: .btn .btn--success .btn--jump } [<i class='fas fa-clock'></i> Timer og musik](#timer){: .btn .btn--success .btn--jump }
+
 Testen er egnet fordi den ikke udstiller _ikke_ de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane. Derfor kan testen være et godt alternativ til [Coopers 12 minutters løbetest](/cooper-test/).
 
 Andersen-testen udstiller ikke de mindst trænede børn, da alle løber frem og tilbage på den samme bane samtidig, så man kan umiddelbart ikke se, hvem der har løbet kortest og længst. Derfor kan testen være et godt alterantiv til fx [Cooper-testen](/kondital-cooper-test/).
 
-[<i class='fas fa-calculator'></i> Hop til beregneren](#calculator){: .btn .btn--success .btn--jump }
 
 ## Hvad er Andersen Test?
 
@@ -98,17 +99,17 @@ Hvis du foretrækker at læse, hvordan du laver testen, så tjek her:
 
 Indtast deltagerens køn og samlede løbedistance i meter herunder for at beregne det estimerede kondital:
 
-{% include calculator/calculate-fitness-andersen-test.html %}
-
 {% include calc/andersen-test.html %}
 
 ## Gratis test-materiale og skemaer
+{: id="materialer" }
 
 Skal du afvikle Andersen-testen med en klasse? Hent vores færdige skemaer og regneark:
 
 {% include feature_row type="right" %}
 
 ## Timer og musik til Andersen-testen
+{: id="timer" }
 
 For at undgå at skulle holde øje med et stopur hvert 15. sekund, anbefales det at bruge en interval-timer app eller en færdig Youtube-timer.
 

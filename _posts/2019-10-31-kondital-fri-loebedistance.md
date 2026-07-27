@@ -1,9 +1,9 @@
 ---
 title: Beregn kondital ud fra løb (tid og distance)
+permalink: "/kondital-loeb-distance-tid/"
 seo_title: "Beregn kondital ud fra løb: Indtast tid & distance"
 description: "Brug denne nemme beregner til at udregne dit kondital baseret på en løbetur. Indtast blot din distanceret og tid for at få dit resultat."
-excerpt: I denne beregner kan du indtaste en vilkårlig løbedistance og tiden for at gennemføre distancen. Hvis det var et
-  maksimalt løb, kan du få estimeret dit kondital.
+excerpt: "Brug denne nemme beregner til at udregne dit kondital baseret på en løbetur. Indtast blot din distanceret og tid for at få dit resultat."
 language: da
 header:
   overlay_image: /assets/images/unsplash/photo-1596358985970-ff88f3ad4cb3.jpg
@@ -72,13 +72,26 @@ I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
 Når du har udregnet dit tal i beregneren ovenfor, kan du sammenligne det med alderssvarende normer for mænd og kvinder:
 
-👉 **[Se den komplette kondital-tabel her og find ud af, om dit tal er højt eller lavt](/kondital/#kondital-tabel-for-mænd-normalbefolkning)**
+👉 **[Se den komplette kondital-tabel her og find ud af, om dit tal er højt eller lavt](/kondital/)**
+
+---
+
+## Få dine træningszoner med VDOT
+
+Ud over dit kondital (VO₂max) estimerer beregneren ovenfor også din **VDOT-værdi**. 
+
+VDOT er et begreb udviklet af den legendariske løbecoach Jack Daniels. Hvor konditallet fortæller, hvor stor din biologiske 'motor' er, tager VDOT også højde for din løbeøkonomi. Det gør VDOT ideelt til at planlægge din træning.
+
+👉 **[Brug vores Jack Daniels Løbeberegner til at finde dine specifikke træningstempi og VDOT-forudsigelser](/jack-daniels-loebeberegner/)**
 
 ---
 
 ## Andre konditionstests
 
 Du kan også bruge en [Cooper Test til at finde dit kondital](/cooper-test/) eller se alle de andre måder at lave en [beregning af dit kondital](/kondital/). Tjek også alle de andre [test af din kondition](/kondition/tests/).
+
+> 📊 **Skal du lave en beregning af dit kondital?**  
+> Brug vores samlede [kondital beregner](/kondital/) til at udregne dit formniveau hurtigt og præcist.
 
 **For flere smarte løbeværktøjer**, besøg vores [fulde samling af beregnere og værktøjer](/loeb/vaerktoejer/).
 

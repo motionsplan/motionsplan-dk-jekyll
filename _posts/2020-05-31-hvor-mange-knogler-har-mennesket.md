@@ -1,6 +1,6 @@
 ---
 title: Hvor mange knogler har et menneske i kroppen? 🦴️
-seo_title: Hvor mange knogler har et menneske? (Se det præcise tal her)
+seo_title: 'Hvor mange knogler har vi? (Og har mænd flere end kvinder?)'
 description: Vidste du, at voksne og babyer ikke har lige mange knogler? Få det præcise svar, se den fulde liste over knogler i kroppen, og bliv klogere på din anatomi.
 permalink: /hvor-mange-knogler-har-mennesket/
 language: da
@@ -21,69 +21,100 @@ sidebar:
   nav: anatomi
 faq:
 - question: Hvem har flest knogler - mænd eller kvinder?
-  answer: Hos voksne ses forskellene mellem mænd og kvinder især på kraniet og bækkenet. Her ses at mænd generelt har længere
-    knogler og større led end kvinder. Desuden har mænd større muskeltilhæftninger og dermed kraftigere knogler end kvinder.
-    Grundlæggende har mænd og kvinder dog det samme antal knogler i kroppen.
+  answer: Grundlæggende har mænd og kvinder nøjagtig det samme antal knogler i kroppen (206 som voksne). Forskellen ligger udelukkende i knoglernes størrelse og form, især omkring bækkenet og kraniet, hvor mænd generelt har kraftigere knogler, mens kvinders bækken er bredere af hensyn til børnefødsler.
 - question: Hvor mange ribben har et menneske?
-  answer: Både mænd og kvinder har 24 ribben i kroppen.
+  answer: Både mænd og kvinder har 24 ribben, som er fordelt på 12 par, der danner brystkassen og beskytter de vitale organer.
 - question: Hvor mange knogler har et menneske i hånden?
-  answer: I hænderne er der 27 små knogler i hver hånd. Håndleddet er et meget komplekst led, der består af underarmsknoglen,
-    spolebenet og 8 håndrodsknogler.
+  answer: I hver hånd er der 27 små knogler. De fordeler sig på 8 håndrodsknogler, 5 mellemhåndsknogler og 14 fingerknogler (falanks).
 - question: Hvor mange led har vi i kroppen?
-  answer: Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop. Vi har skrevet meget mere om [led og
-    ledtyper](/led/).
-- question: Hvor mange knogler har man, når man bliver født?
-  answer: Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
+  answer: Vi har i alt omkring 360 led i vores krop. Leddene er det, der forbinder knoglerne og gør skelettet bevægeligt.
 - question: Hvad er den største knogle i kroppen?
-  answer: Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer
-    omkring 1 kg.
+  answer: Den længste, tungeste og stærkeste knogle i menneskekroppen er lårbensknoglen (Femur). I en voksen mand på 80 kg vejer den omkring 1 kg.
 - question: Hvor mange knogler er der i foden?
-  answer: Selve fodens skelet består af 26 fodknogler, der holdes sammen af kraftige ledbånd. Du kan læse mere om fodens knogler
-    under [ankelleddet og fodleddet](/joints/ankelleddet-og-fodleddet/).
+  answer: Selve foden består af 26 knogler (7 fodrodsknogler, 5 mellemfodsknogler og 14 tåknogler), der holdes sammen af et komplekst netværk af ledbånd.
 - question: Hvor mange knogler har en baby?
-  answer: Vi er født med omkring 300 forskellige knogler, som dog i begyndelsen hovedsageligt er brusk. Efterhånden som vi vokser, så vokser knoglerne sammen, og som voksen har vi altså kun omkring 206 knogler.
-- question: Hvor mange muskler har et menneske?
-  answer: Et menneske har omkring 700 navngivne skeletmuskler, men det samlede antal afhænger helt af, hvordan man tæller. Læs det fulde svar i vores dedikerede artikel om [hvor mange muskler mennesket har i kroppen](/hvor-mange-muskler-i-kroppen/).
+  answer: En baby bliver født med omkring 300 knogler. Mange af disse består af brusk og vokser sammen til større knogler (f.eks. i kraniet og rygsøjlen) i takt med, at barnet vokser.
+- question: Har mænd flere knogler end kvinder?
+  answer: Nej, både mænd og kvinder har nøjagtig 206 knogler. En kendt myte siger, at mænd mangler et ribben, men anatomisk set har begge køn præcis 24 ribben. Forskellen på de to skeletter ligger i stedet i knoglernes tykkelse og bækkenets bredde.
 ---
 
-Leder du efter det hurtige svar på, hvor mange knogler vi har i kroppen? Her er det:
+Leder du efter det hurtige svar på, hvor mange knogler vi har i skelettet? 
 
-**Et fuldvoksent menneske har 206 knogler i kroppen.** 
+> ❓ **Hvor mange knogler har vi? (Det korte svar):**
+> * **Voksne:** Et fuldvoksent menneske har præcis **206 knogler** i kroppen.
+> * **Babyer:** En nyfødt baby har omkring **300 knogler**.
+> * **Køn:** Mænd og kvinder har *præcis samme* antal knogler.
+> * **Størst og mindst:** Den største er lårbensknoglen (Femur), og den mindste er stigbøjlen (Stapes) inde i øret.
 
-**En baby bliver derimod født med omkring 300 knogler.** 
+Hvorfor "forsvinder" der næsten 100 knogler fra vi bliver født, til vi er voksne? Efterhånden som vi vokser, vokser mange af de små børne-knogler (som i starten primært består af blød brusk) simpelthen sammen til større, solide enheder. 
 
-Hvorfor forsvinder der næsten 100 knogler undervejs? Efterhånden som vi vokser, vokser flere af børne-knoglerne (som i starten primært består af brusk) simpelthen sammen. 
+Herunder kan du dykke ned i anatomien bag skelettet, eller du kan springe direkte til vores [fulde liste over alle knoglerne i kroppen på dansk og latin →](#liste-over-knogler-i-kroppen).
 
-Læs videre herunder for at se, hvordan de 206 knogler er fordelt, eller spring direkte til vores [fulde liste over alle knoglerne i kroppen på dansk og latin](#liste-over-knogler-i-kroppen).
+---
 
-## Hvor mange knogler er der i et menneske?
+## Fra 300 til 206 knogler: Hvordan hænger det sammen?
 
-Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [forskellige led](/led/). Alle mennesker har knogler, der ligner hinanden, men størrelsen og længden kan være forskellige. Derfor har vi forskellig kropsbygning.
+Når en baby bliver født, er skelettet ekstremt fleksibelt. Det skyldes, at mange af knoglerne endnu ikke er fuldt forbenede, men derimod udgøres af brusk. Dette er en enorm fysiologisk fordel, især under selve fødslen. Et klassisk eksempel er babyens kranie, som er opdelt i flere ufærdige "plader" med bløde punkter (fontaneller) imellem, der tillader kraniet at give efter.
 
-Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
+I løbet af barndommen og teenageårene sker der en proces kaldet *ossifikation* (forbening). Her smelter flere af knoglerne fysisk sammen. Det ser man blandt andet her:
+* **Kraniet:** Vokser sammen fra adskillige dele til én stærk, beskyttende kasse.
+* **Korsbenet (Os sacrum):** Består oprindeligt af 5 separate, små ryghvirvler, der smelter helt sammen til én stor knogle nederst i rygsøjlen.
+* **Halebenet:** Starter også som 3-5 små hvirvler, der langsomt vokser sammen.
 
-Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
+Når vi når voksenalderen omkring de 20-25 år, er fusionen komplet, og vi ender på det velkendte tal: **206 knogler**. Skelettet udgør på dette tidspunkt ca. 14-18 % af din samlede kropsvægt. 
+*(Læs mere i vores artikel om [hvad knoglerne vejer](/hvad-vejer-skelettet/))*
 
-{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Det voksne menneske har i alt 206 knogler" alt="Hvor mange knogler har mennesket" %}
+{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Det voksne menneske har i alt 206 stærke knogler." alt="Hvor mange knogler har mennesket" %}
 
-## Ofte stillede spørgsmål
+---
 
-{% include motionsplan/faq.html %}
+---
+
+## Har mænd flere knogler end kvinder? (Og hvad med ribbenet?)
+
+Et af de oftest stillede spørgsmål er, om mænd og kvinder har det samme antal knogler. Svaret er et rungende **ja**. Både mænd og kvinder har præcis 206 knogler.
+
+En af de mest sejlivede myter i den vestlige verden er, at mænd skulle mangle et ribben, fordi Eva ifølge den bibelske skabelsesberetning blev skabt af Adams ribben. Det er en fascinerende historie, men anatomisk passer den ikke. Begge køn har nøjagtig **24 ribben** (fordelt på 12 par).
+
+Selvom antallet er ens, er der dog **to store forskelle** på et mandligt og kvindeligt skelet:
+
+1. **Bækkenets form:** Kvinders bækken er mærkbart bredere, fladere og mere åbent for at gøre plads til, at de kan gennemføre en graviditet og børnefødsel.
+2. **Knogletæthed og størrelse:** Fordi mænd fra naturens side generelt producerer mere testosteron og har en større muskelmasse, er deres knogler nødt til at være kraftigere og tungere for at kunne bære musklerne.
+
+---
+
+## Flere anatomiske fun facts om skelettet
+
+Hvis du interesserer dig for, hvordan kroppen er skruet sammen, vil du også finde disse anatomiske rekorder spændende:
+
+> 🦵 **Hvad er den største knogle?**  
+> Det er *Femur* (Lårbensknoglen). Den bærer størstedelen af kroppens vægt og er ubetinget den længste, tungeste og stærkeste knogle, vi har.
+
+> 👂 **Hvad er den mindste knogle?**  
+> Det er *Stapes* (Stigbøjlen). Den sidder dybt inde i mellemøret og måler kun 2-3 millimeter. Sjovt nok er den hæftet direkte til [kroppens absolut mindste muskel](/stoerste-og-mindste-muskel-i-kroppen/).
+
+> 🤝 **Hvor mange led har kroppen?**  
+> De 206 knogler er indbyrdes forbundet af omkring **360 led**, som tilsammen skaber den fantastiske bevægelighed, menneskekroppen har. Få det fulde overblik over [kroppens led og ledtyper her →](/led/).
+
+---
 
 ## Liste over knogler i kroppen
+{: id="liste-over-knogler-i-kroppen" }
+
+Herunder finder du en komplet oversigt over kroppens vigtigste knogler med både deres danske og latinske betegnelser. Den er et perfekt opslagsværk, hvis du er i gang med at lære anatomi.
 
 {% include table/table-bones.html %}
 
-## Opsamling: Hvor mange knogler er der i kroppen?
-
-Skelettet består af 206 knogler for voksne og udgør ca. 14-18% af din kropsvægt.
-
-Du kan også få svar på, [hvad knogler vejer](/hvad-vejer-skelettet/) og se de forskellige [knogletyper]({% link _pages/anatomy/bones.md %}).
+---
 
 <div class="notice--info" markdown="1">
 **📚 Studerer du anatomi eller fysiologi?**
 
-Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede plancher til væggen, har jeg samlet mine personlige anbefalinger her:
+Hvis du leder efter de absolut bedste lærebøger til studiet eller detaljerede plancher til at hænge op på væggen, har jeg samlet mine personlige anbefalinger her:
 
 👉 [**Se anbefalinger til anatomibøger og plakater her**](/anatomi/udstyr-og-boeger/)
 </div>
+
+## Ofte stillede spørgsmål
+
+{% include motionsplan/faq.html %}

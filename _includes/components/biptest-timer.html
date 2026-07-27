@@ -1,0 +1,984 @@
+{% assign test_type = include.type | default: page.meta.type_id | default: "leger" %}
+
+<div class="biptest-widget" data-preset="{{ test_type }}">
+  
+  <!-- Fuld Overlay Modal til Niveauskema -->
+  <div class="biptest-table-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Niveauskema</h4>
+        <span class="modal-subtitle-text">Gennemgang af hastigheder og distancer</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk skema">✖</button>
+    </div>
+    <div class="modal-body">
+      <!-- Tabel genereres dynamisk via JS -->
+    </div>
+  </div>
+
+  <!-- Topbar med Interaktiv Kort-Vælger & Lyd -->
+  <div class="biptest-topbar">
+    <div class="biptest-selector-wrapper">
+      <!-- Aktivt Valgt Kort (Når den er klappet sammen) -->
+      <div class="biptest-active-card" title="Klik for at skifte bip-test">
+        <div class="card-text-group">
+          <div class="card-title-row">
+            <span class="card-title active-title">Léger 20m Bip-test</span>
+            <button class="table-icon-btn" type="button" title="Åbn niveauskema for denne test">📊</button>
+          </div>
+          <div class="card-desc active-desc">Standard skolestest, Politi & Forsvar. Kontinuerligt løb (start 8,0 km/t).</div>
+        </div>
+        <button class="card-gear-btn" type="button" aria-label="Skift test">⚙️</button>
+      </div>
+
+      <!-- Liste med alle tilgængelige test-kort (Vises/skjules ved klik) -->
+      <div class="biptest-cards-list" style="display: none;">
+        <!-- Genereres dynamisk via JS -->
+      </div>
+    </div>
+
+    <div class="topbar-subrow">
+      <select class="sound-select" title="Lydindstilling">
+        <option value="on">🔊 Lyd slået til</option>
+        <option value="off">🔇 Lydløs</option>
+      </select>
+      <div class="wakelock-status">📱 Skærm holdes tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-display med Niveauer, Hastighed & Distance -->
+  <div class="biptest-stats-grid">
+    <div class="stat-box">
+      <span class="stat-value level-display">1.1</span>
+      <span class="stat-label">NIVEAU / TUR</span>
+    </div>
+    <div class="stat-box highlight">
+      <span class="stat-value speed-display">8.0</span>
+      <span class="stat-label">HASTIGHED (KM/T)</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value distance-display">0</span>
+      <span class="stat-label">DISTANCE (M)</span>
+    </div>
+  </div>
+
+  <!-- Progress Bar for samlet test-fremgang -->
+  <div class="biptest-progress-container">
+    <div class="progress-label-row">
+      <span>TEST FREMGANG</span>
+      <span class="progress-pct-display">0%</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Status / Fase-indikator med nedtælling -->
+  <div class="biptest-phase-badge phase-indicator">Klar til start</div>
+
+  <!-- Visuel Løbebane med Animering og Kridtstreger -->
+  <div class="biptest-track-container">
+    <div class="track-line line-a"></div>
+    <div class="track-field">
+      <div class="runner-avatar">🏃</div>
+    </div>
+    <div class="track-line line-b"></div>
+  </div>
+
+  <!-- Bip-nedtælling & Live Kondital -->
+  <div class="biptest-countdown-bar" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="countdown-text">Næste bip/fase om: <strong class="time-to-beep">0.0s</strong></div>
+    <div class="live-vo2-text" style="font-size: 0.75rem; color: #868e96; font-weight: 700;">Live Kondital: <strong class="live-vo2-display" style="color: #212529;">0.0</strong></div>
+  </div>
+
+  <!-- Kontroller & Advarsels-system -->
+  <div class="biptest-controls">
+    <button class="btn btn--primary btn-start">Start Test</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Advarsels-knap -->
+  <div class="biptest-warning-zone">
+    <button class="btn btn--fault btn-fault" disabled>⚠️ Registrér Fejl/Forsinkelse (<span class="fault-count">0</span>/2)</button>
+  </div>
+
+  <!-- Nedtonet Download-zone -->
+  <div class="biptest-download-zone">
+    <button class="btn btn--download btn-download">📥 Download Lydspor (WAV)</button>
+  </div>
+</div>
+
+<style>
+.biptest-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.biptest-widget * { box-sizing: border-box; }
+
+.biptest-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; text-align: left; }
+
+.biptest-selector-wrapper { position: relative; width: 100%; }
+
+.biptest-active-card {
+  background: #e7f5ff;
+  border: 1px solid #a5d8ff;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.biptest-active-card:hover {
+  border-color: #74c0fc;
+  box-shadow: 0 2px 8px rgba(34,139,230,0.15);
+}
+
+.card-text-group { flex: 1; padding-right: 10px; }
+.card-title-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; line-height: 1.25; }
+
+.table-icon-btn {
+  background: transparent;
+  border: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 6px;
+  transition: background 0.2s ease, transform 0.1s ease;
+  line-height: 1;
+}
+.table-icon-btn:hover {
+  background: rgba(34, 139, 230, 0.2);
+  transform: scale(1.1);
+}
+
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+.card-gear-btn {
+  background: #ffffff;
+  border: 1px solid #a5d8ff;
+  border-radius: 8px;
+  padding: 5px 7px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+}
+
+.biptest-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.biptest-option-card {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+.biptest-option-card:hover { border-color: #228be6; background: #f8f9fa; }
+.biptest-option-card.selected { border-color: #228be6; background: #e7f5ff; }
+
+.check-badge {
+  width: 22px; height: 22px; border-radius: 50%; background: #e9ecef; color: #adb5bd;
+  display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 800;
+  flex-shrink: 0; margin-left: 10px;
+}
+.biptest-option-card.selected .check-badge { background: #228be6; color: #ffffff; }
+
+.biptest-table-modal {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #ffffff;
+  z-index: 20;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f1f3f5;
+  margin-bottom: 12px;
+}
+.modal-title-text { font-size: 1.05rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.78rem; color: #868e96; display: block; margin-top: 2px; }
+
+.modal-close-btn {
+  background: #f1f3f5;
+  border: none;
+  color: #868e96;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, color 0.2s ease;
+  flex-shrink: 0;
+}
+.modal-close-btn:hover { background: #ffe3e3; color: #c92a2a; }
+
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.biptest-modal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  table-layout: auto;
+}
+.biptest-modal-table th {
+  background: #f8f9fa;
+  color: #495057;
+  font-weight: 800;
+  padding: 8px 12px;
+  border-bottom: 2px solid #dee2e6;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+.biptest-modal-table th:first-child { text-align: left; }
+
+.biptest-modal-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f1f3f5;
+  text-align: center;
+  color: #212529;
+}
+.biptest-modal-table td:first-child { text-align: left; }
+.biptest-modal-table tr:nth-child(even) { background: #f8f9fa; }
+
+.topbar-subrow { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 4px; }
+.sound-select {
+  padding: 6px 10px; border-radius: 8px; border: 1px solid #ced4da;
+  font-weight: bold; font-size: 0.8rem; background: #f8f9fa; color: #495057; cursor: pointer;
+}
+.wakelock-status {
+  font-size: 0.75rem; font-weight: bold; color: #2b8a3e; background: #ebfbee;
+  border: 1px solid #b2f2bb; padding: 4px 10px; border-radius: 12px; opacity: 0; transition: opacity 0.3s ease;
+}
+.wakelock-status.active { opacity: 1; }
+
+.biptest-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat-box {
+  background: #f1f3f5; padding: 10px 4px; border-radius: 10px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.stat-box.highlight { background: #e7f5ff; border: 1px solid #a5d8ff; }
+.stat-value { font-size: 1.4rem; font-weight: 900; color: #212529; line-height: 1.1; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; letter-spacing: 0.02em; white-space: nowrap; }
+
+.biptest-progress-container { margin-bottom: 14px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.65rem; font-weight: 800; color: #868e96; margin-bottom: 4px; letter-spacing: 0.03em; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; position: relative; }
+.progress-bar-fill { background: #228be6; height: 100%; width: 0%; border-radius: 4px; transition: width 0.3s ease; }
+
+.biptest-phase-badge {
+  padding: 8px 12px; border-radius: 8px; font-weight: 800; font-size: 1rem;
+  background: #e9ecef; color: #495057; margin-bottom: 14px; transition: background 0.2s ease, color 0.2s ease;
+}
+.biptest-phase-badge.running { background: #d0ebff; color: #1864ab; }
+.biptest-phase-badge.resting { background: #fff3bf; color: #f59f00; }
+.biptest-phase-badge.finished { background: #ffe3e3; color: #c92a2a; }
+
+.biptest-track-container {
+  background: #2b8a3e; border-radius: 12px; position: relative; height: 60px;
+  margin: 16px 0; box-shadow: inset 0 4px 10px rgba(0,0,0,0.15);
+}
+.track-line { position: absolute; top: 0; bottom: 0; width: 4px; background: rgba(255,255,255,0.9); border-radius: 4px; }
+.line-a { left: 10%; } .line-b { right: 10%; }
+.track-field { position: absolute; left: 10%; right: 10%; top: 0; bottom: 0; }
+.runner-avatar { position: absolute; top: 50%; left: 0%; transform: translate(-50%, -50%) scaleX(1); font-size: 1.8rem; z-index: 3; }
+
+.biptest-countdown-bar { font-size: 0.95rem; color: #495057; margin-bottom: 14px; }
+
+.biptest-controls { display: flex; gap: 8px; justify-content: center; margin-bottom: 10px; }
+.biptest-controls button {
+  flex: 1; padding: 12px; font-size: 1rem; font-weight: 800;
+  border-radius: 8px; cursor: pointer; border: none;
+}
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+.btn--fault { background: #ff922b; color: white; width: 100%; padding: 10px; font-weight: 800; border: none; border-radius: 8px; cursor: pointer; }
+
+.biptest-download-zone {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px dashed #e9ecef;
+}
+.btn--download {
+  background: transparent;
+  color: #6c757d;
+  border: 1px solid #ced4da;
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; border-color: #adb5bd; }
+
+.biptest-controls button:disabled, .btn--fault:disabled, .btn--download:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const BIPTES_PRESETS = {
+    'leger': {
+      name: "Léger 20m Bip-test", type: "continuous", maxDistance: 4940,
+      description: "Standard skolestest, Politi & Forsvar. Kontinuerligt løb (start 8,0 km/t).",
+      levels: [
+        { level: 1,  speed: 8.0,  shuttles: 7 },
+        { level: 2,  speed: 9.0,  shuttles: 8 },
+        { level: 3,  speed: 9.5,  shuttles: 8 },
+        { level: 4,  speed: 10.0, shuttles: 9 },
+        { level: 5,  speed: 10.5, shuttles: 9 },
+        { level: 6,  speed: 11.0, shuttles: 10 },
+        { level: 7,  speed: 11.5, shuttles: 10 },
+        { level: 8,  speed: 12.0, shuttles: 11 },
+        { level: 9,  speed: 12.5, shuttles: 11 },
+        { level: 10, speed: 13.0, shuttles: 11 },
+        { level: 11, speed: 13.5, shuttles: 12 },
+        { level: 12, speed: 14.0, shuttles: 12 },
+        { level: 13, speed: 14.5, shuttles: 13 },
+        { level: 14, speed: 15.0, shuttles: 13 },
+        { level: 15, speed: 15.5, shuttles: 13 },
+        { level: 16, speed: 16.0, shuttles: 14 },
+        { level: 17, speed: 16.5, shuttles: 14 },
+        { level: 18, speed: 17.0, shuttles: 15 },
+        { level: 19, speed: 17.5, shuttles: 15 },
+        { level: 20, speed: 18.0, shuttles: 16 },
+        { level: 21, speed: 18.5, shuttles: 16 }
+      ]
+    },
+    'yyir1': {
+      name: "Yo-Yo IR1 (Intermittent Recovery Level 1)", type: "intermittent", restDuration: 10, maxDistance: 3640,
+      description: "Mest udbredt i fodbold & boldspil! 10s gå-pause efter hver 2x20m (start 10 km/t).",
+      levels: [
+        { level: 5,  speed: 10.0, shuttles: 1 },
+        { level: 9,  speed: 12.0, shuttles: 1 },
+        { level: 11, speed: 13.0, shuttles: 2 },
+        { level: 12, speed: 13.5, shuttles: 3 },
+        { level: 13, speed: 14.0, shuttles: 4 },
+        { level: 14, speed: 14.5, shuttles: 8 },
+        { level: 15, speed: 15.0, shuttles: 8 },
+        { level: 16, speed: 15.5, shuttles: 8 },
+        { level: 17, speed: 16.0, shuttles: 8 },
+        { level: 18, speed: 16.5, shuttles: 8 },
+        { level: 19, speed: 17.0, shuttles: 8 },
+        { level: 20, speed: 17.5, shuttles: 8 },
+        { level: 21, speed: 18.0, shuttles: 8 },
+        { level: 22, speed: 18.5, shuttles: 8 },
+        { level: 23, speed: 19.0, shuttles: 8 }
+      ]
+    },
+    'yyir2': {
+      name: "Yo-Yo IR2 (Intermittent Recovery Level 2)", type: "intermittent", restDuration: 10, maxDistance: 2680,
+      description: "Elite-version til professionelle boldspillere. Højere starthastighed (13 km/t) med 10s gå-pause.",
+      levels: [
+        { level: 11, speed: 13.0, shuttles: 1 },
+        { level: 15, speed: 15.0, shuttles: 1 },
+        { level: 17, speed: 16.0, shuttles: 2 },
+        { level: 18, speed: 16.5, shuttles: 3 },
+        { level: 19, speed: 17.0, shuttles: 4 },
+        { level: 20, speed: 17.5, shuttles: 8 },
+        { level: 21, speed: 18.0, shuttles: 8 },
+        { level: 22, speed: 18.5, shuttles: 8 },
+        { level: 23, speed: 19.0, shuttles: 8 },
+        { level: 24, speed: 19.5, shuttles: 8 },
+        { level: 25, speed: 20.0, shuttles: 8 },
+        { level: 26, speed: 20.5, shuttles: 8 }
+      ]
+    },
+    'yyie1': {
+      name: "Yo-Yo IE1 (Intermittent Endurance Level 1)", type: "intermittent", restDuration: 5, maxDistance: 4320,
+      description: "Aerob udholdenhed med 5s gå-pause. Starter ved 8,0 km/t (Speed Level 1).",
+      levels: [
+        { level: "1",    speed: 8.0,   shuttles: 2 },
+        { level: "3",    speed: 9.0,   shuttles: 2 },
+        { level: "5",    speed: 10.0,  shuttles: 2 },
+        { level: "6",    speed: 10.5,  shuttles: 8 },
+        { level: "6.5",  speed: 10.75, shuttles: 8 },
+        { level: "7",    speed: 11.0,  shuttles: 8 },
+        { level: "7.5",  speed: 11.25, shuttles: 3 },
+        { level: "8",    speed: 11.5,  shuttles: 3 },
+        { level: "8.5",  speed: 11.75, shuttles: 6 },
+        { level: "9",    speed: 12.0,  shuttles: 6 },
+        { level: "9.5",  speed: 12.25, shuttles: 6 },
+        { level: "10",   speed: 12.5,  shuttles: 6 },
+        { level: "10.5", speed: 12.75, shuttles: 6 },
+        { level: "11",   speed: 13.0,  shuttles: 6 },
+        { level: "11.5", speed: 13.25, shuttles: 6 },
+        { level: "12",   speed: 13.5,  shuttles: 6 },
+        { level: "12.5", speed: 13.75, shuttles: 6 },
+        { level: "13",   speed: 14.0,  shuttles: 6 },
+        { level: "13.5", speed: 14.25, shuttles: 6 },
+        { level: "14",   speed: 14.5,  shuttles: 6 }
+      ]
+    },
+    'yyie2': {
+      name: "Yo-Yo IE2 (Intermittent Endurance Level 2)", type: "intermittent", restDuration: 5, maxDistance: 4320,
+      description: "Elite-version af Intermittent Endurance (5s pause). Start v. 11,5 km/t (Speed Level 8).",
+      levels: [
+        { level: "8",    speed: 11.5,  shuttles: 2 },
+        { level: "10",   speed: 12.5,  shuttles: 2 },
+        { level: "12",   speed: 13.5,  shuttles: 2 },
+        { level: "13",   speed: 14.0,  shuttles: 8 },
+        { level: "13.5", speed: 14.25, shuttles: 8 },
+        { level: "14",   speed: 14.5,  shuttles: 8 },
+        { level: "14.5", speed: 14.75, shuttles: 3 },
+        { level: "15",   speed: 15.0,  shuttles: 3 },
+        { level: "15.5", speed: 15.25, shuttles: 6 },
+        { level: "16",   speed: 15.5,  shuttles: 6 },
+        { level: "16.5", speed: 15.75, shuttles: 6 },
+        { level: "17",   speed: 16.0,  shuttles: 6 },
+        { level: "17.5", speed: 16.25, shuttles: 6 },
+        { level: "18",   speed: 16.5,  shuttles: 6 },
+        { level: "18.5", speed: 16.75, shuttles: 6 },
+        { level: "19",   speed: 17.0,  shuttles: 6 },
+        { level: "19.5", speed: 17.25, shuttles: 6 },
+        { level: "20",   speed: 17.5,  shuttles: 6 },
+        { level: "20.5", speed: 17.75, shuttles: 6 },
+        { level: "21",   speed: 18.0,  shuttles: 6 }
+      ]
+    },
+    'yye1': {
+      name: "Yo-Yo Endurance Level 1", type: "continuous", maxDistance: 4460,
+      description: "Kontinuerlig Yo-Yo test uden pauser til vurdering af den generelle aerobe udholdenhed (start 8,0 km/t).",
+      levels: [
+        { level: 1,  speed: 8.0,  shuttles: 7 },
+        { level: 2,  speed: 8.5,  shuttles: 8 },
+        { level: 3,  speed: 9.0,  shuttles: 8 },
+        { level: 4,  speed: 9.5,  shuttles: 8 },
+        { level: 5,  speed: 10.0, shuttles: 9 },
+        { level: 6,  speed: 10.5, shuttles: 9 },
+        { level: 7,  speed: 11.0, shuttles: 10 },
+        { level: 8,  speed: 11.5, shuttles: 10 },
+        { level: 9,  speed: 12.0, shuttles: 11 },
+        { level: 10, speed: 12.5, shuttles: 11 },
+        { level: 11, speed: 13.0, shuttles: 11 },
+        { level: 12, speed: 13.5, shuttles: 12 },
+        { level: 13, speed: 14.0, shuttles: 12 },
+        { level: 14, speed: 14.5, shuttles: 13 },
+        { level: 15, speed: 15.0, shuttles: 13 },
+        { level: 16, speed: 15.5, shuttles: 13 },
+        { level: 17, speed: 16.0, shuttles: 14 },
+        { level: 18, speed: 16.5, shuttles: 14 },
+        { level: 19, speed: 17.0, shuttles: 15 },
+        { level: 20, speed: 17.5, shuttles: 15 }
+      ]
+    },
+    'yye2': {
+      name: "Yo-Yo Endurance Level 2", type: "continuous", maxDistance: 3600,
+      description: "Kontinuerlig Yo-Yo test til veltrænede uden pauser. Starter ved 11,5 km/t (Speed Level 8).",
+      levels: [
+        { level: 8,  speed: 11.5, shuttles: 10 },
+        { level: 9,  speed: 12.0, shuttles: 11 },
+        { level: 10, speed: 12.5, shuttles: 11 },
+        { level: 11, speed: 13.0, shuttles: 11 },
+        { level: 12, speed: 13.5, shuttles: 12 },
+        { level: 13, speed: 14.0, shuttles: 12 },
+        { level: 14, speed: 14.5, shuttles: 13 },
+        { level: 15, speed: 15.0, shuttles: 13 },
+        { level: 16, speed: 15.5, shuttles: 13 },
+        { level: 17, speed: 16.0, shuttles: 14 },
+        { level: 18, speed: 16.5, shuttles: 14 },
+        { level: 19, speed: 17.0, shuttles: 15 },
+        { level: 20, speed: 17.5, shuttles: 15 },
+        { level: 21, speed: 18.0, shuttles: 16 }
+      ]
+    }
+  };
+
+  function calcLiveVO2Max(key, level, shuttle, maxShuttlesOnLevel, distance) {
+    if (distance <= 0) return "0.0";
+    if (key === 'yyir1') return ((distance * 0.0084) + 36.4).toFixed(1);
+    if (key === 'yyir2') return ((distance * 0.0136) + 45.3).toFixed(1);
+    if (key === 'yyie1') return ((distance * 0.0078) + 41.1).toFixed(1);
+    if (key === 'yyie2') return ((distance * 0.0121) + 45.0).toFixed(1);
+
+    if (key === 'leger') {
+      const found = BIPTES_PRESETS['leger'].levels.find(l => l.level == level);
+      const speed = found ? found.speed : 8.0;
+      const vo2 = 31.025 + (3.238 * speed) - (3.248 * 25) + (0.1536 * speed * 25);
+      return vo2 > 0 ? vo2.toFixed(1) : "0.0";
+    }
+
+    if (key === 'yye1' || key === 'yye2') {
+      const score = Number(level) + (shuttle / (maxShuttlesOnLevel || 1));
+      const vo2 = (0.0028 * Math.pow(score, 3)) - (0.0968 * Math.pow(score, 2)) + (4.5226 * score) + 5.5137;
+      return vo2 > 0 ? vo2.toFixed(1) : "0.0";
+    }
+
+    return "-";
+  }
+
+  function scheduleBeep(ctx, type, time) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    if (type === 'tick') {
+      osc.frequency.value = 400;
+      gain.gain.setValueAtTime(0.1, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.1);
+      osc.start(time); osc.stop(time + 0.1);
+    } else if (type === 'start') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.3, time);
+      gain.gain.setValueAtTime(0.3, time + 0.4);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.6);
+      osc.start(time); osc.stop(time + 0.6);
+    } else if (type === 'single') {
+      osc.frequency.value = 750;
+      gain.gain.setValueAtTime(0.2, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.12);
+      osc.start(time); osc.stop(time + 0.12);
+    } else if (type === 'double') {
+      osc.frequency.value = 1100;
+      gain.gain.setValueAtTime(0.3, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.25);
+      osc.start(time); osc.stop(time + 0.25);
+    }
+  }
+
+  function audioBufferToWav(buffer) {
+    let numChannels = 1; let sampleRate = buffer.sampleRate; let format = 1; let bitDepth = 16;
+    let result = new Float32Array(buffer.length); buffer.copyFromChannel(result, 0, 0);
+    let dataLength = result.length * 2; let bufferLength = 44 + dataLength;
+    let arrayBuffer = new ArrayBuffer(bufferLength); let view = new DataView(arrayBuffer);
+    function writeString(view, offset, string) { for (let i = 0; i < string.length; i++) { view.setUint8(offset + i, string.charCodeAt(i)); } }
+    writeString(view, 0, 'RIFF'); view.setUint32(4, 36 + dataLength, true); writeString(view, 8, 'WAVE'); writeString(view, 12, 'fmt ');
+    view.setUint32(16, 16, true); view.setUint16(20, format, true); view.setUint16(22, numChannels, true); view.setUint32(24, sampleRate, true);
+    view.setUint32(28, sampleRate * numChannels * 2, true); view.setUint16(32, numChannels * 2, true); view.setUint16(34, bitDepth, true);
+    writeString(view, 36, 'data'); view.setUint32(40, dataLength, true);
+    let offset = 44;
+    for (let i = 0; i < result.length; i++, offset += 2) {
+      let s = Math.max(-1, Math.min(1, result[i])); view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+    }
+    return new Blob([view], { type: 'audio/wav' });
+  }
+
+  const widgets = document.querySelectorAll(".biptest-widget");
+
+  widgets.forEach(function(widget) {
+    let presetKey = widget.dataset.preset && BIPTES_PRESETS[widget.dataset.preset] ? widget.dataset.preset : 'leger';
+    let isRunning = false; let hasStarted = false; let isResting = false;
+    let levelIdx = 1; let shuttleIdx = 1; let totalDistance = 0; let faults = 0;
+    let audioCtx = null; let wakeLock = null; let stepTimerId = null; let animFrameId = null; let nextStepCallback = null;
+    let shuttleStartTime = 0; let currentShuttleDuration = 0; let currentSpeed = 8.5; let shuttleWay = 'outbound'; 
+
+    const activeCard = widget.querySelector(".biptest-active-card");
+    const activeTitle = widget.querySelector(".active-title");
+    const activeDesc = widget.querySelector(".active-desc");
+    const tableIconBtn = widget.querySelector(".table-icon-btn");
+    const cardsList = widget.querySelector(".biptest-cards-list");
+    const tableModal = widget.querySelector(".biptest-table-modal");
+    const modalCloseBtn = widget.querySelector(".modal-close-btn");
+    const modalTitleText = widget.querySelector(".modal-title-text");
+    const modalBody = widget.querySelector(".modal-body");
+
+    const soundSelect = widget.querySelector(".sound-select");
+    const wakelockStatus = widget.querySelector(".wakelock-status");
+    const levelDisplay = widget.querySelector(".level-display");
+    const speedDisplay = widget.querySelector(".speed-display");
+    const distanceDisplay = widget.querySelector(".distance-display");
+    const progressBarFill = widget.querySelector(".progress-bar-fill");
+    const progressPctDisplay = widget.querySelector(".progress-pct-display");
+    const phaseIndicator = widget.querySelector(".phase-indicator");
+    const timeToBeepDisplay = widget.querySelector(".time-to-beep");
+    const liveVo2Display = widget.querySelector(".live-vo2-display");
+    const runnerAvatar = widget.querySelector(".runner-avatar");
+    const btnStart = widget.querySelector(".btn-start");
+    const btnPause = widget.querySelector(".btn-pause");
+    const btnReset = widget.querySelector(".btn-reset");
+    const btnFault = widget.querySelector(".btn-fault");
+    const faultCountDisplay = widget.querySelector(".fault-count");
+    const btnDownload = widget.querySelector(".btn-download");
+
+    function renderCards() {
+      cardsList.innerHTML = '';
+      Object.keys(BIPTES_PRESETS).forEach(key => {
+        const item = BIPTES_PRESETS[key];
+        const isSelected = key === presetKey;
+        const cardEl = document.createElement("div");
+        cardEl.className = `biptest-option-card ${isSelected ? 'selected' : ''}`;
+        cardEl.dataset.key = key;
+        cardEl.innerHTML = `
+          <div class="card-text-group">
+            <div class="card-title">${item.name}</div>
+            <div class="card-desc">${item.description}</div>
+          </div>
+          <div class="check-badge">${isSelected ? '✓' : '✓'}</div>
+        `;
+        cardEl.addEventListener("click", () => selectPreset(key));
+        cardsList.appendChild(cardEl);
+      });
+    }
+
+    function toggleCardsList(show) {
+      if (show === undefined) {
+        cardsList.style.display = cardsList.style.display === 'none' ? 'flex' : 'none';
+      } else {
+        cardsList.style.display = show ? 'flex' : 'none';
+      }
+    }
+
+    function renderModalTable() {
+      const p = BIPTES_PRESETS[presetKey];
+      modalTitleText.textContent = `${p.name} – Skema`;
+      let html = `<table class="biptest-modal-table">
+        <thead>
+          <tr>
+            <th>Niveau</th>
+            <th>Fart</th>
+            <th>Ture</th>
+            <th>Dist.</th>
+          </tr>
+        </thead>
+        <tbody>`;
+
+      let accumDist = 0;
+      p.levels.forEach(item => {
+        const shuttleDist = (p.type === 'continuous') ? 20 : 40;
+        const shuttleText = (p.type === 'continuous') ? `${item.shuttles} x 20m` : `${item.shuttles} x (2x20m)`;
+        accumDist += item.shuttles * shuttleDist;
+        html += `<tr>
+          <td><strong>Level ${item.level}</strong></td>
+          <td>${item.speed.toFixed(2).replace(/\.00$/, '').replace(/\.50$/, '.5')} km/t</td>
+          <td>${shuttleText}</td>
+          <td>${accumDist} m</td>
+        </tr>`;
+      });
+
+      html += `</tbody></table>`;
+      modalBody.innerHTML = html;
+    }
+
+    function openModalTable(e) {
+      if (e) e.stopPropagation();
+      renderModalTable();
+      tableModal.style.display = "flex";
+    }
+
+    function closeModalTable() {
+      tableModal.style.display = "none";
+    }
+
+    function selectPreset(key) {
+      if (key === presetKey && cardsList.style.display !== 'none') {
+        toggleCardsList(false);
+        return;
+      }
+
+      if (isRunning || hasStarted || totalDistance > 0) {
+        if (!confirm("Er du sikker på, at du vil skifte test? Dit nuværende resultat går tabt.")) {
+          return;
+        }
+      }
+
+      presetKey = key;
+      toggleCardsList(false);
+      renderCards();
+      loadPreset(presetKey);
+    }
+
+    function loadPreset(key) {
+      if (isRunning) stopTest(true);
+      presetKey = key;
+      const p = BIPTES_PRESETS[presetKey];
+      if (activeTitle) activeTitle.textContent = p.name;
+      if (activeDesc) activeDesc.textContent = p.description;
+
+      resetState();
+      updateUI();
+    }
+
+    function resetState() {
+      isRunning = false; hasStarted = false; isResting = false;
+      const p = BIPTES_PRESETS[presetKey];
+      levelIdx = p.levels[0].level;
+      shuttleIdx = 1; totalDistance = 0; faults = 0; shuttleWay = 'outbound';
+      nextStepCallback = null;
+      faultCountDisplay.textContent = '0';
+      btnFault.disabled = true;
+      btnStart.textContent = "Start Test";
+      runnerAvatar.style.left = '0%';
+      runnerAvatar.style.transform = 'translate(-50%, -50%) scaleX(1)';
+      phaseIndicator.className = "biptest-phase-badge";
+      phaseIndicator.textContent = "Klar til start";
+      timeToBeepDisplay.textContent = "0.0s";
+      progressBarFill.style.width = '0%';
+      progressPctDisplay.textContent = '0%';
+      liveVo2Display.textContent = "0.0";
+    }
+
+    function getLevelData(lvl) {
+      const p = BIPTES_PRESETS[presetKey];
+      const found = p.levels.find(l => l.level == lvl) || p.levels[p.levels.length - 1];
+      return { speed: found.speed, shuttles: found.shuttles };
+    }
+
+    function playBeepLive(type) {
+      if (soundSelect.value === 'off') return;
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      scheduleBeep(audioCtx, type, audioCtx.currentTime);
+    }
+
+    async function requestWakeLock() {
+      if ('wakeLock' in navigator) {
+        try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (err) {}
+      }
+    }
+    function releaseWakeLock() {
+      if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+    }
+
+    function updateUI() {
+      const p = BIPTES_PRESETS[presetKey];
+      const data = getLevelData(levelIdx);
+      currentSpeed = data.speed;
+      levelDisplay.textContent = `${levelIdx}.${shuttleIdx}`;
+      speedDisplay.textContent = `${currentSpeed.toFixed(1)}`;
+      distanceDisplay.textContent = `${totalDistance}`;
+      
+      const maxDist = p.maxDistance || 3000;
+      const pct = Math.min(100, Math.round((totalDistance / maxDist) * 100));
+      progressBarFill.style.width = `${pct}%`;
+      progressPctDisplay.textContent = `${pct}%`;
+
+      liveVo2Display.textContent = calcLiveVO2Max(presetKey, levelIdx, shuttleIdx, data.shuttles, totalDistance);
+    }
+
+    function animateRunner() {
+      if (!isRunning) return;
+      const now = performance.now();
+      const elapsed = (now - shuttleStartTime) / 1000;
+      const remaining = Math.max(0, (currentShuttleDuration / 1000) - elapsed);
+      timeToBeepDisplay.textContent = `${remaining.toFixed(1)}s`;
+
+      if (isResting) {
+        const restRemaining = Math.ceil(remaining);
+        phaseIndicator.textContent = `🚶 RESTITUTION (${restRemaining}s)`;
+      } else {
+        let progress = Math.min(1, elapsed / (currentShuttleDuration / 1000));
+        let posPct = 0;
+        if (BIPTES_PRESETS[presetKey].type === 'intermittent') {
+          if (progress <= 0.5) { posPct = progress * 2 * 100; runnerAvatar.style.transform = 'translate(-50%, -50%) scaleX(1)'; } 
+          else { posPct = (1 - ((progress - 0.5) * 2)) * 100; runnerAvatar.style.transform = 'translate(-50%, -50%) scaleX(-1)'; }
+        } else {
+          if (shuttleWay === 'outbound') { posPct = progress * 100; runnerAvatar.style.transform = 'translate(-50%, -50%) scaleX(1)'; } 
+          else { posPct = (1 - progress) * 100; runnerAvatar.style.transform = 'translate(-50%, -50%) scaleX(-1)'; }
+        }
+        runnerAvatar.style.left = `${posPct}%`;
+      }
+      animFrameId = requestAnimationFrame(animateRunner);
+    }
+
+    function startFirstShuttle() {
+      const p = BIPTES_PRESETS[presetKey]; const d = getLevelData(levelIdx);
+      if (p.type === 'intermittent') {
+        isResting = false; phaseIndicator.className = "biptest-phase-badge running"; phaseIndicator.textContent = "🏃 LØB 2x20m";
+        currentShuttleDuration = (40 / (d.speed / 3.6)) * 1000;
+        nextStepCallback = () => { processNextPhase(); };
+      } else {
+        totalDistance += 20; phaseIndicator.className = "biptest-phase-badge running"; phaseIndicator.textContent = "🏃 LØB (20m)";
+        currentShuttleDuration = (20 / (d.speed / 3.6)) * 1000;
+        nextStepCallback = () => { shuttleWay = (shuttleWay === 'outbound') ? 'inbound' : 'outbound'; advanceShuttleCount(d); processNextPhase(); };
+      }
+      shuttleStartTime = performance.now();
+      animFrameId = requestAnimationFrame(animateRunner);
+      stepTimerId = setTimeout(nextStepCallback, currentShuttleDuration);
+      updateUI();
+    }
+
+    function processNextPhase() {
+      if (!isRunning) return;
+      const p = BIPTES_PRESETS[presetKey]; const d = getLevelData(levelIdx);
+      if (p.type === 'intermittent') {
+        if (isResting) {
+          isResting = false; playBeepLive('single'); phaseIndicator.className = "biptest-phase-badge running"; phaseIndicator.textContent = "🏃 LØB 2x20m";
+          currentShuttleDuration = (40 / (d.speed / 3.6)) * 1000; nextStepCallback = () => { processNextPhase(); };
+        } else {
+          totalDistance += 40; playBeepLive('double'); isResting = true; phaseIndicator.className = "biptest-phase-badge resting";
+          runnerAvatar.style.left = '0%'; runnerAvatar.style.transform = 'translate(-50%, -50%) scaleX(1)';
+          currentShuttleDuration = p.restDuration * 1000; nextStepCallback = () => { advanceShuttleCount(d); processNextPhase(); };
+        }
+      } else {
+        playBeepLive('single'); totalDistance += 20; phaseIndicator.className = "biptest-phase-badge running"; phaseIndicator.textContent = "🏃 LØB (20m)";
+        currentShuttleDuration = (20 / (d.speed / 3.6)) * 1000;
+        nextStepCallback = () => { shuttleWay = (shuttleWay === 'outbound') ? 'inbound' : 'outbound'; advanceShuttleCount(d); processNextPhase(); };
+      }
+      shuttleStartTime = performance.now(); stepTimerId = setTimeout(nextStepCallback, currentShuttleDuration); updateUI();
+    }
+
+    function advanceShuttleCount(d) {
+      if (shuttleIdx < d.shuttles) { 
+        shuttleIdx++; 
+      } else { 
+        const p = BIPTES_PRESETS[presetKey];
+        const currentPos = p.levels.findIndex(l => l.level == levelIdx);
+        if (currentPos >= 0 && currentPos < p.levels.length - 1) {
+          levelIdx = p.levels[currentPos + 1].level;
+        } else {
+          levelIdx++;
+        }
+        shuttleIdx = 1; 
+        playBeepLive('double'); 
+      }
+    }
+
+    function startTest() {
+      if (isRunning) return;
+      isRunning = true; requestWakeLock();
+      btnStart.disabled = true; btnStart.textContent = "Start Test"; btnPause.disabled = false; btnReset.disabled = false; btnFault.disabled = false;
+
+      if (!hasStarted) {
+        hasStarted = true; let countdown = 3; phaseIndicator.className = "biptest-phase-badge resting";
+        function doCountdown() {
+          if (!isRunning) return;
+          if (countdown > 0) { phaseIndicator.textContent = `Starter om ${countdown}...`; playBeepLive('tick'); countdown--; stepTimerId = setTimeout(doCountdown, 1000); } 
+          else { playBeepLive('start'); startFirstShuttle(); }
+        }
+        doCountdown();
+      } else {
+        shuttleStartTime = performance.now(); animFrameId = requestAnimationFrame(animateRunner); stepTimerId = setTimeout(nextStepCallback, currentShuttleDuration);
+        if (isResting) { phaseIndicator.className = "biptest-phase-badge resting"; } 
+        else { phaseIndicator.className = "biptest-phase-badge running"; phaseIndicator.textContent = BIPTES_PRESETS[presetKey].type === 'intermittent' ? "🏃 LØB 2x20m" : "🏃 LØB (20m)"; }
+      }
+    }
+
+    function pauseTest() {
+      isRunning = false; clearTimeout(stepTimerId); cancelAnimationFrame(animFrameId); releaseWakeLock();
+      const now = performance.now(); const elapsed = now - shuttleStartTime; currentShuttleDuration = Math.max(0, currentShuttleDuration - elapsed);
+      btnStart.disabled = false; btnStart.textContent = "Genoptag Test"; btnPause.disabled = true; phaseIndicator.className = "biptest-phase-badge"; phaseIndicator.textContent = "Pauset";
+    }
+
+    function stopTest(force = false) {
+      if (!force && (isRunning || hasStarted || totalDistance > 0)) {
+        const confirmReset = confirm("Er du sikker på, at du vil nulstille testen? Dit nuværende resultat går tabt.");
+        if (!confirmReset) return;
+      }
+      pauseTest(); resetState(); updateUI();
+    }
+
+    function registerFault() {
+      faults++; faultCountDisplay.textContent = faults;
+      if (faults >= 2) { pauseTest(); phaseIndicator.className = "biptest-phase-badge finished"; phaseIndicator.textContent = "🛑 TEST SLUTTET (2 advarsler)"; btnFault.disabled = true; btnStart.disabled = true; }
+    }
+
+    async function generateAndDownloadAudio() {
+      btnDownload.disabled = true;
+      let originalText = btnDownload.textContent;
+      btnDownload.textContent = "⏳ Genererer lydfil...";
+      
+      const p = BIPTES_PRESETS[presetKey];
+      let events = [];
+      events.push({time: 0.5, type: 'tick'});
+      events.push({time: 1.5, type: 'tick'});
+      events.push({time: 2.5, type: 'tick'});
+      events.push({time: 3.5, type: 'start'});
+      
+      let curT = 3.5; 
+      let lvl = p.levels[0].level; 
+      let shut = 1;
+      let maxLvl = p.levels[p.levels.length - 1].level;
+
+      while (lvl <= maxLvl) {
+        let d = getLevelData(lvl);
+
+        if (p.type === 'intermittent') {
+          curT += (40 / (d.speed / 3.6)); events.push({time: curT, type: 'double'}); curT += p.restDuration;
+          if (shut < d.shuttles) { shut++; events.push({time: curT, type: 'single'}); } 
+          else { 
+            const currentPos = p.levels.findIndex(l => l.level == lvl);
+            if (currentPos >= 0 && currentPos < p.levels.length - 1) { lvl = p.levels[currentPos + 1].level; } else { break; }
+            shut = 1; 
+            if (lvl <= maxLvl) events.push({time: curT, type: 'single'}); 
+          }
+        } else {
+          curT += (20 / (d.speed / 3.6));
+          if (shut < d.shuttles) { shut++; events.push({time: curT, type: 'single'}); } 
+          else { 
+            const currentPos = p.levels.findIndex(l => l.level == lvl);
+            if (currentPos >= 0 && currentPos < p.levels.length - 1) { lvl = p.levels[currentPos + 1].level; } else { break; }
+            shut = 1; 
+            if (lvl <= maxLvl) events.push({time: curT, type: 'double'}); 
+          }
+        }
+      }
+
+      let totalSeconds = curT + 2; let sampleRate = 16000;
+      
+      try {
+        let offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, sampleRate * totalSeconds, sampleRate);
+        events.forEach(ev => scheduleBeep(offlineCtx, ev.type, ev.time));
+        const renderedBuffer = await offlineCtx.startRendering();
+        const wavBlob = audioBufferToWav(renderedBuffer);
+        const url = URL.createObjectURL(wavBlob);
+        const a = document.createElement("a");
+        a.href = url; a.download = `${p.name.replace(/\s+/g, '-').toLowerCase()}-lydspor.wav`; a.click();
+        URL.revokeObjectURL(url);
+      } catch (err) { alert("Der opstod en fejl ved generering af lydfilen i din browser."); }
+      
+      btnDownload.textContent = originalText; btnDownload.disabled = false;
+    }
+
+    activeCard.addEventListener("click", () => toggleCardsList());
+    tableIconBtn.addEventListener("click", openModalTable);
+    modalCloseBtn.addEventListener("click", closeModalTable);
+
+    btnStart.addEventListener("click", startTest);
+    btnPause.addEventListener("click", pauseTest);
+    btnReset.addEventListener("click", () => stopTest(false));
+    btnFault.addEventListener("click", registerFault);
+    btnDownload.addEventListener("click", generateAndDownloadAudio);
+
+    renderCards();
+    loadPreset(presetKey);
+  });
+});
+</script>

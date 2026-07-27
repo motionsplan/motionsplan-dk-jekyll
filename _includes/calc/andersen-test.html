@@ -1,94 +1,152 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
-<div class="mp-calc-card" data-calculator="andersen-test" data-ui-module="andersen-test-ui" style="max-width: 700px; margin: 0 auto; position: relative;">
+<style>
+  .mp-calc-card { position: relative !important; }
+  .mp-at-input { height: 42px !important; border-radius: 8px !important; text-align: center !important; font-weight: 800 !important; box-sizing: border-box !important; padding: 0 6px !important; border: 1.5px solid #cbd5e1 !important; background: #ffffff !important; margin: 0 !important; }
 
-  <!-- Header & Introduktion -->
-  <div class="mp-calc-header" style="margin-bottom: 0.35rem;">
-    <h3 class="mp-calc-title" style="margin-bottom: 0;">🏃‍♂️ Andersen-test (10 min. intervaltest)</h3>
+  /* EEN LINJE FORM GRID */
+  .mp-at-inline-grid {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  /* FORMEL BADGE STYLES */
+  .mp-at-auto-badge { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .mp-at-badge-header { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 0.5rem; }
+  .mp-at-badge-title-group { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+  .mp-at-badge-title { font-size: 0.85rem; font-weight: 800; color: #0f172a; }
+  .mp-at-rec-tag { font-size: 0.65rem; font-weight: 800; color: #1e40af; background: #dbeafe; padding: 2px 6px; border-radius: 5px; }
+
+  .mp-at-btn-gear { background: #ffffff !important; border: 1px solid #93c5fd !important; color: #2563eb !important; font-size: 1rem !important; width: 34px !important; height: 34px !important; border-radius: 8px !important; cursor: pointer !important; display: flex !important; align-items: center !important; justify-content: center !important; transition: all 0.15s ease !important; padding: 0 !important; }
+  .mp-at-btn-gear:hover { background: #2563eb !important; color: #ffffff !important; border-color: #2563eb !important; }
+
+  .mp-at-picker-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .mp-at-picker-card { background: #ffffff; border: 2px solid #e2e8f0; border-radius: 10px; padding: 0.75rem 0.9rem; cursor: pointer; transition: all 0.15s ease; text-align: left; }
+  .mp-at-picker-card:hover:not(.is-selected) { border-color: #93c5fd; background: #f8fafc; }
+  .mp-at-picker-card.is-selected { border-color: #2563eb; background: #eff6ff; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12); }
+  .mp-at-check-icon { width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; color: #94a3b8; font-size: 0.7rem; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+  .mp-at-picker-card.is-selected .mp-at-check-icon { background: #2563eb; color: #ffffff; }
+
+  /* BADGE KNAP I HERO */
+  .mp-badge-btn-hero {
+    margin-top: 0.85rem;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    background: #e2e8f0;
+    color: #64748b;
+    transition: all 0.15s ease;
+    align-self: center;
+  }
+  .mp-badge-btn-hero:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+</style>
+
+<div class="mp-calc-card vbt-premium-card" data-calculator="andersen-test" data-ui-module="andersen-test-ui" style="max-width: 680px; margin: 0 auto; position: relative;">
+
+  <!-- Header -->
+  <div class="mp-calc-header" style="border-bottom: 2px solid #e2e8f0; padding-bottom: 0.85rem; margin-bottom: 1.15rem; display: flex; justify-content: space-between; align-items: flex-start;">
+    <div>
+      <h3 class="mp-calc-title" style="margin: 0 0 4px 0;">🏃‍♂️ Andersen-test</h3>
+      <p style="margin: 0; font-size: 0.825rem; color: #64748b; font-weight: 500;">
+        Estimer dit kondital ved at løbe 15 sekunders intervaller / 15 sekunders pause i 10 minutter.
+      </p>
+    </div>
     <div data-html2canvas-ignore="true">
-      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 32px; height: 32px; object-fit: contain; border-radius: 6px;">
+      <img src="/assets/images/logo-40x40.png" alt="Motionsplan.dk" style="width: 36px; height: 36px; object-fit: contain; border-radius: 6px;">
     </div>
   </div>
-  
-  <p class="mp-calc-description" style="margin-top: 0.25rem; margin-bottom: 1rem; font-size: 0.85rem; color: #64748b; line-height: 1.4;">
-    Estimer dit kondital ved at løbe 15 sekunders intervaller / 15 sekunders pause i 10 minutter.
-  </p>
 
-  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 0 0 1.25rem 0;">
-
-  <!-- 1. Stamdata & Testresultat -->
-  <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.25rem; align-items: flex-start;">
-    
-    <!-- Distance (meter) -->
-    <div class="mp-form-group" style="flex: 1.1; min-width: 130px;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Distance <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(meter)</span></label>
-      <input type="number" name="at_distance" class="mp-form-control js-at-input" min="300" max="2500" step="5" placeholder="1150" style="padding: 0.4rem; text-align: center;">
+  <!-- 1. STAMDATA INPUTS (ALT PÅ ÉN LINJE) -->
+  <div class="mp-at-inline-grid">
+    <!-- Distance -->
+    <div style="flex: 1.1; min-width: 0;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem; white-space: nowrap;">Distance <span style="font-weight: 600; color: #64748b;">(meter)</span></label>
+      <input type="number" name="at_distance" class="mp-at-input js-at-input" min="300" max="3000" step="5" placeholder="1150" value="1150" style="width:100%;">
     </div>
 
     <!-- Alder -->
-    <div class="mp-form-group" style="flex: 0 0 85px;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Alder <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(år)</span></label>
-      <input type="number" name="at_age" class="mp-form-control js-at-input" min="6" max="90" placeholder="12" style="padding: 0.4rem; text-align: center;">
+    <div style="flex: 0.8; min-width: 0;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem; white-space: nowrap;">Alder <span style="font-weight: 600; color: #64748b;">(år)</span></label>
+      <input type="number" name="at_age" class="mp-at-input js-at-input" min="6" max="90" placeholder="12" value="12" style="width:100%;">
     </div>
-    
-    <!-- Valgfri vægt (kg) -->
-    <div class="mp-form-group" style="flex: 1; min-width: 120px; position: relative;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Valgfri vægt <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(kg)</span></label>
-      <input type="number" name="at_weight" class="mp-form-control js-at-input" min="15" max="200" step="0.1" placeholder="45" style="padding: 0.4rem; text-align: center;">
-      <div class="js-at-weight-helper" style="font-size: 0.65rem; color: #94a3b8; font-weight: 600; margin-top: 3px; text-align: center; white-space: nowrap;">
+
+    <!-- Valgfri Vægt -->
+    <div style="flex: 1.1; min-width: 0;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem; white-space: nowrap;">Valgfri vægt <span style="font-weight: 600; color: #64748b;">(kg)</span></label>
+      <input type="number" name="at_weight" class="mp-at-input js-at-input" min="15" max="200" step="0.1" placeholder="45" style="width:100%;">
+      <div class="js-at-weight-helper" style="font-size: 0.625rem; color: #94a3b8; font-weight: 600; margin-top: 4px; text-align: center; white-space: nowrap;">
         Valgfri (kræves kun v. Aadland)
       </div>
     </div>
 
-    <!-- Køn -->
-    <div class="mp-form-group" style="flex: 1.1; min-width: 130px;">
-      <label style="font-size: 0.8rem; font-weight: 700;">Køn</label>
-      <div class="mp-toggle-group" style="height: 38px;">
-        <label style="flex: 1; margin: 0; position: relative;">
-          <input type="radio" name="at_gender" value="male" class="js-at-input" checked>
-          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Dreng</div>
+    <!-- Køn Toggle med dynamiske labels -->
+    <div style="flex: 1.2; min-width: 0;">
+      <label style="font-size: 0.775rem; font-weight: 800; color: #0f172a; display: block; margin-bottom: 0.35rem; white-space: nowrap;">Køn</label>
+      <div style="height: 42px; display: flex; background: #f1f5f9; border-radius: 8px; padding: 2px; border: 1.5px solid #cbd5e1; box-sizing: border-box;">
+        <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+          <input type="radio" name="at_gender" value="male" class="js-at-input" checked style="display:none;">
+          <div class="js-at-label-male" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Dreng</div>
         </label>
-        <label style="flex: 1; margin: 0; position: relative;">
-          <input type="radio" name="at_gender" value="female" class="js-at-input">
-          <div class="mp-toggle-btn" style="padding: 0 0.4rem; font-size: 0.85rem;">Pige</div>
+        <label style="flex: 1; margin: 0; position: relative; cursor: pointer;">
+          <input type="radio" name="at_gender" value="female" class="js-at-input" style="display:none;">
+          <div class="js-at-label-female" style="height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.825rem; font-weight: 800; border-radius: 6px; transition: all 0.15s ease;">Pige</div>
         </label>
       </div>
     </div>
-
   </div>
 
-  <!-- 2. Formel-valg -->
-  <div class="mp-form-group" style="margin-bottom: 1.5rem;">
-    <label style="font-size: 0.8rem; font-weight: 700; color: #334155;">Formel</label>
-    <select name="at_formula" class="mp-form-control js-at-input js-at-formula" style="display: block; width: 100%; height: 42px !important; min-height: 42px !important; padding: 0 0.75rem !important; font-size: 0.85rem !important; line-height: 42px !important; box-sizing: border-box !important; background-color: #ffffff;">
-      <option value="auto" selected>✨ Vælg bedste formel (Automatisk)</option>
-      <option value="andersen_2008" class="js-opt-andersen">Andersen et al. (2008) – Standard (Uden vægt) 🏆</option>
-      <option value="aadland_2014" class="js-opt-aadland">Aadland et al. (2014) – Med kropsvægt</option>
-    </select>
+  <!-- 2. FORMEL VÆLGER SEKTION -->
+  <div style="margin-bottom: 1.25rem;">
+    <label style="font-size: 0.775rem; font-weight: 800; color: #334155; display: block; margin-bottom: 0.5rem;">
+      2. Vælg beregningsformel
+    </label>
+
+    <!-- COLLAPSED BADGE -->
+    <div class="js-at-formula-bar mp-at-auto-badge">
+      <!-- Genereres dynamisk i JS -->
+    </div>
+
+    <!-- EXPANDED PICKER -->
+    <div class="js-at-manual-dropdown-wrapper" style="display: none;">
+      <div class="js-at-picker-container mp-at-picker-list" style="margin-top: 0.5rem;">
+        <!-- Genereres dynamisk i JS -->
+      </div>
+    </div>
   </div>
 
-  <!-- 3. Resultater -->
+  <!-- 3. RESULTATER -->
   <div style="margin-bottom: 1.5rem; position: relative !important;">
-    
     <div class="mp-results-split">
       
-      <!-- Venstre: Kondital, SD & Slider -->
+      <!-- Venstre: Kondital, Slider & Badge/Tabel-knap -->
       <div class="mp-results-left">
-        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 0.85rem 1rem; text-align: center;">
-          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; color: #1e40af; font-weight: 700; line-height: 1.1;">
+        <div class="mp-result-box mp-result-box-primary mp-hero-fullheight" style="flex-direction: column; align-items: stretch; justify-content: center; padding: 1.25rem; text-align: center;">
+          <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; margin-bottom: 0.25rem; color: #1e40af; font-weight: 700;">
             Estimeret Kondital
           </div>
           
-          <div class="js-at-fitness" style="font-size: 3.2rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.15rem 0;">-</div>
-          <div style="font-size: 0.9rem; font-weight: 800; color: #3b82f6; line-height: 1;">ml/kg/min</div>
+          <div class="js-at-fitness" style="font-size: 3.8rem; font-weight: 900; color: #1e3a8a; line-height: 1; margin: 0.25rem 0;">-</div>
+          <div style="font-size: 0.95rem; font-weight: 800; color: #3b82f6;">ml/kg/min</div>
           
-          <!-- Standardafvigelse -->
-          <div class="js-at-sd-text" style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.15rem; margin-bottom: 0.15rem;">
+          <div class="js-at-sd-text" style="font-size: 0.7rem; font-weight: 600; color: #64748b; margin-top: 0.2rem;">
             ± 4.2 ml/kg/min
           </div>
-          
-          <!-- Slider -->
-          <div class="mp-fitness-continuum" style="margin-top: 0.5rem;">
+
+          <!-- Slider Continuum -->
+          <div class="mp-fitness-continuum" style="margin-top: 0.85rem;">
             <div class="mp-continuum-bar-wrapper">
               <div class="mp-continuum-bar">
                 <div class="mp-segment" style="background: #ef4444;"></div>
@@ -99,51 +157,41 @@
               </div>
               <div class="js-at-continuum-marker mp-continuum-marker" style="display: none;"></div>
             </div>
-            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 3px; text-transform: uppercase;">
+            <div class="mp-continuum-labels" style="display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 4px; text-transform: uppercase;">
               <span>Lav</span>
               <span>Høj</span>
             </div>
           </div>
 
+          <!-- KONDITAL BADGE MED INTEGRERET TABEL-IKON -->
+          <button type="button" class="mp-badge-btn-hero js-at-table-btn js-at-eval-badge" title="Klik for at se normtabel">
+            <span class="js-at-eval-text">Mangler data</span>
+            <span style="font-size: 0.85rem; line-height: 1;">📊</span>
+          </button>
         </div>
       </div>
 
-      <!-- Højre: 3 Sekundære bokse -->
+      <!-- Højre: Sekundære bokse -->
       <div class="mp-results-boxes">
         
-        <!-- Boks 1: Vurdering Badge + Knap -->
-        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center; justify-content: space-between;">
+        <!-- Boks 1: Iltoptagelse -->
+        <div class="mp-result-box-split" style="padding: 0.85rem 1rem; align-items: center; justify-content: space-between; gap: 0.5rem;">
           <div class="mp-box-left" style="min-width: 0;">
-            <div class="js-at-eval-badge" style="font-size: 0.85rem; font-weight: 800; padding: 0.35rem 0.75rem; border-radius: 6px; background: #e2e8f0; color: #64748b; white-space: nowrap; display: inline-block;">
-              -
-            </div>
+            <div style="font-weight: 800; font-size: 0.825rem; color: #475569; line-height: 1.2;">Maksimal<br>iltoptagelse</div>
           </div>
-          <div class="mp-box-right">
-            <button type="button" class="js-at-table-btn mp-btn-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: none; border: none; padding: 0; cursor: pointer; outline: none;">
-              <span style="font-size: 1.2rem; line-height: 1; margin-bottom: 2px;">📊</span>
-              <span style="font-size: 0.65rem; color: #64748b; font-weight: 700;">Se tabel</span>
-            </button>
-          </div>
-        </div>
-        
-        <!-- Boks 2: Iltoptagelse -->
-        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: center;">
-          <div class="mp-box-left">
-            <div style="font-weight: 800; font-size: 0.85rem; color: #475569; line-height: 1.2;">Maksimal<br>iltoptagelse</div>
-          </div>
-          <div class="mp-box-right" style="text-align: right; line-height: 1;">
-            <div class="mp-box-value js-at-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
-            <div class="mp-box-unit" style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
+          <div class="mp-box-right" style="text-align: right; line-height: 1; flex-shrink: 0;">
+            <div class="js-at-vo2max" style="font-weight: 900; font-size: 1.4rem; color: #0f172a;">-</div>
+            <div style="font-size: 0.65rem; color: #64748b; font-weight: 700; margin-top: 2px;">L/min</div>
           </div>
         </div>
 
-        <!-- Boks 3: Anvendt Formel Info -->
-        <div class="mp-result-box-split" style="padding: 0.65rem 1rem; align-items: flex-start; flex-direction: column; justify-content: center; background: #f8fafc;">
-          <div style="display: flex; align-items: center; gap: 0.35rem; width: 100%; margin-bottom: 0.15rem;">
-            <span style="font-size: 0.8rem;" class="js-at-info-icon">ℹ️</span>
-            <div style="font-weight: 800; font-size: 0.75rem; color: #334155;" class="js-at-formula-title">Anvendt formel</div>
+        <!-- Boks 2: Anvendt Formel Info -->
+        <div class="mp-result-box-split" style="padding: 0.85rem 1rem; align-items: flex-start; flex-direction: column; justify-content: center; background: #f8fafc; gap: 0.25rem;">
+          <div style="display: flex; align-items: center; gap: 0.35rem; width: 100%;">
+            <span style="font-size: 0.85rem;" class="js-at-info-icon">ℹ️</span>
+            <strong style="font-weight: 800; font-size: 0.8rem; color: #334155;" class="js-at-formula-title">Anvendt formel</strong>
           </div>
-          <div style="font-size: 0.7rem; color: #64748b; line-height: 1.3;" class="js-at-formula-desc">
+          <div style="font-size: 0.725rem; color: #64748b; line-height: 1.35;" class="js-at-formula-desc">
             Indtast distance for at beregne.
           </div>
         </div>
@@ -151,9 +199,8 @@
       </div>
     </div>
 
-    <!-- Popup-tabel -->
+    <!-- POPUP OVERLAY FOR NORM-TABEL -->
     <div class="js-at-popup" style="display: none; position: absolute !important; top: 0; bottom: 0; left: 0; right: 0; background: #ffffff; z-index: 30; padding: 1rem 1.25rem; box-sizing: border-box; border-radius: 10px; border: 1px solid #cbd5e1; flex-direction: column; align-items: stretch; justify-content: flex-start; overflow-y: auto; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
-      
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 0.4rem; flex-shrink: 0;">
         <h4 style="margin: 0; color: #0f172a; font-size: 0.95rem; font-weight: 800;">Kondital for din alder</h4>
         <button type="button" class="js-at-popup-close" style="background: none; border: none; font-size: 1.6rem; line-height: 1; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
@@ -162,20 +209,16 @@
       <div style="flex: 1; overflow-y: auto;">
         <table style="width: 100%; display: table; text-align: left; border-collapse: collapse; background: #ffffff;">
           <tbody class="js-at-table-body">
-            <!-- Udfyldes af JS -->
+            <!-- Udfyldes dynamisk i JS -->
           </tbody>
         </table>
       </div>
-
     </div>
-
   </div>
 
-  <!-- Action knapper -->
+  <!-- Actions -->
   <div class="mp-action-group" style="margin-bottom: 1rem;" data-html2canvas-ignore="true">
-    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Tag billede</button>
-    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Ryd felter">🗑️</button>
+    <button type="button" class="mp-btn-action-wide js-download-btn">📸 Download rapport</button>
+    <button type="button" class="mp-btn-action-reset js-reset-btn" title="Nulstil">🗑️</button>
   </div>
-  <div style="text-align: center; font-size: 0.7rem; color: #94a3b8; font-weight: 600;">&copy; motionsplan.dk</div>
-
 </div>

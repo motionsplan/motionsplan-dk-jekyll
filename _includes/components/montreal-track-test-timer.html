@@ -1,0 +1,610 @@
+<div class="montreal-widget">
+  
+  <!-- Fuld Overlay Modal til Niveauskema -->
+  <div class="montreal-table-modal" style="display: none;">
+    <div class="modal-header">
+      <div class="modal-title-group">
+        <h4 class="modal-title-text">Montreal Track Test – Niveauskema</h4>
+        <span class="modal-subtitle-text">400m bane • Kegler for hver 50m • +1,2 km/t hvert 2. minut</span>
+      </div>
+      <button class="modal-close-btn" type="button" aria-label="Luk skema">✖</button>
+    </div>
+    <div class="modal-body">
+      <!-- Tabel genereres dynamisk via JS -->
+    </div>
+  </div>
+
+  <!-- Topbar med Lyd & Status -->
+  <div class="montreal-topbar">
+    <div class="montreal-header-card">
+      <div class="card-text-group">
+        <div class="card-title-row">
+          <span class="card-title">Université de Montréal Track Test (UM-TT)</span>
+          <button class="table-icon-btn" type="button" title="Åbn niveauskema for testen">📊</button>
+        </div>
+        <div class="card-desc">400m bane med kegler for hver 50m. Start: 6,0 km/t (+1,2 km/t hvert 2. min).</div>
+      </div>
+    </div>
+
+    <div class="topbar-subrow">
+      <select class="sound-select" title="Lydindstilling">
+        <option value="on">🔊 Lyd slået til</option>
+        <option value="off">🔇 Lydløs</option>
+      </select>
+      <div class="wakelock-status">📱 Skærm holdes tændt</div>
+    </div>
+  </div>
+
+  <!-- Hoved-display med Niveauer, Hastighed & Distance -->
+  <div class="montreal-stats-grid">
+    <div class="stat-box">
+      <span class="stat-value level-display">Niveau 1</span>
+      <span class="stat-label">NIVEAU (2 MIN)</span>
+    </div>
+    <div class="stat-box highlight">
+      <span class="stat-value speed-display">6.0</span>
+      <span class="stat-label">HASTIGHED (KM/T)</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-value distance-display">0</span>
+      <span class="stat-label">DISTANCE (M)</span>
+    </div>
+  </div>
+
+  <!-- Progress Bar for samlet test-fremgang -->
+  <div class="montreal-progress-container">
+    <div class="progress-label-row">
+      <span>NIVEAU FREMGANG (2 MIN)</span>
+      <span class="level-time-display">00:00 / 02:00</span>
+    </div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Status / Fase-indikator -->
+  <div class="montreal-phase-badge phase-indicator">Klar til start</div>
+
+  <!-- Visuel Oval 400m Løbebane med 8 Kegler og Animering -->
+  <div class="montreal-track-wrapper">
+    <svg class="montreal-track-svg" viewBox="0 0 400 200">
+      <!-- Løbebane stribe/græs -->
+      <rect x="10" y="10" width="380" height="180" rx="90" ry="90" fill="#2b8a3e" stroke="#e9ecef" stroke-width="2" />
+      <!-- Inderbane græs -->
+      <rect x="70" y="50" width="260" height="100" rx="50" ry="50" fill="#37b24d" stroke="#ffffff" stroke-width="2" />
+      
+      <!-- Hoved løbespor (Path på 400m i skala) -->
+      <path id="montreal-track-path" d="M 120,30 L 280,30 A 70,70 0 0,1 280,170 L 120,170 A 70,70 0 0,1 120,30 Z" fill="none" stroke="#d9480f" stroke-width="18" stroke-linecap="round" />
+      <path d="M 120,30 L 280,30 A 70,70 0 0,1 280,170 L 120,170 A 70,70 0 0,1 120,30 Z" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="4,4" />
+
+      <!-- Start/Mållinje -->
+      <line x1="120" y1="20" x2="120" y2="40" stroke="#ffffff" stroke-width="3" />
+
+      <!-- 8 Kegler (placeret for hver 50m: 0m, 50m, 100m, 150m, 200m, 250m, 300m, 350m) -->
+      <g id="montreal-cones-group"></g>
+
+      <!-- Løber Avatar -->
+      <g id="montreal-runner" transform="translate(120, 30)">
+        <circle r="12" fill="#228be6" stroke="#ffffff" stroke-width="2" />
+        <text y="4" text-anchor="middle" font-size="12" fill="#ffffff">🏃</text>
+      </g>
+    </svg>
+  </div>
+
+  <!-- Bip-nedtælling & Live Kondital -->
+  <div class="montreal-countdown-bar" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+    <div class="countdown-text">Næste kegle-bip om: <strong class="time-to-beep">0.0s</strong></div>
+    <div class="live-vo2-text" style="font-size: 0.75rem; color: #868e96; font-weight: 700;">Live VO₂max: <strong class="live-vo2-display" style="color: #212529;">0.0</strong></div>
+  </div>
+
+  <!-- Kontroller & Advarsels-system -->
+  <div class="montreal-controls" style="margin-top: 14px;">
+    <button class="btn btn--primary btn-start">Start Test</button>
+    <button class="btn btn--secondary btn-pause" disabled>Pause</button>
+    <button class="btn btn--warning btn-reset" disabled>Nulstil</button>
+  </div>
+
+  <!-- Advarsels-knap -->
+  <div class="montreal-warning-zone" style="margin-top: 8px;">
+    <button class="btn btn--fault btn-fault" disabled>⚠️ Registrér Fejl/Forsinkelse (>5m fra kegle) (<span class="fault-count">0</span>/2)</button>
+  </div>
+
+  <!-- Download-zone -->
+  <div class="montreal-download-zone">
+    <button class="btn btn--download btn-download">📥 Download Montreal Lydspor (WAV)</button>
+  </div>
+</div>
+
+<style>
+.montreal-widget {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.montreal-widget * { box-sizing: border-box; }
+
+.montreal-topbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; text-align: left; }
+.montreal-header-card {
+  background: #e7f5ff;
+  border: 1px solid #a5d8ff;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.card-title-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.card-title { font-weight: 800; font-size: 0.95rem; color: #1e293b; }
+.table-icon-btn {
+  background: transparent; border: none; font-size: 1.1rem; cursor: pointer; padding: 2px 4px;
+  border-radius: 6px; transition: transform 0.1s ease;
+}
+.table-icon-btn:hover { transform: scale(1.15); }
+.card-desc { font-size: 0.78rem; color: #475569; margin-top: 4px; line-height: 1.35; }
+
+/* Modal Overlay */
+.montreal-table-modal {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: #ffffff; z-index: 20; padding: 20px; display: flex; flex-direction: column; text-align: left;
+}
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 10px; border-bottom: 2px solid #f1f3f5; }
+.modal-title-text { font-size: 1rem; font-weight: 800; color: #212529; margin: 0; }
+.modal-subtitle-text { font-size: 0.75rem; color: #868e96; }
+.modal-close-btn { background: #f1f3f5; border: none; font-size: 1rem; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+.modal-body { flex: 1; overflow-y: auto; margin-top: 10px; }
+
+.montreal-modal-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.montreal-modal-table th { background: #f8f9fa; padding: 8px; border-bottom: 2px solid #dee2e6; text-align: center; }
+.montreal-modal-table td { padding: 6px 8px; border-bottom: 1px solid #f1f3f5; text-align: center; }
+
+.topbar-subrow { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
+.sound-select { padding: 6px 10px; border-radius: 8px; border: 1px solid #ced4da; font-weight: bold; font-size: 0.8rem; background: #f8f9fa; }
+.wakelock-status { font-size: 0.75rem; font-weight: bold; color: #2b8a3e; background: #ebfbee; border: 1px solid #b2f2bb; padding: 4px 10px; border-radius: 12px; opacity: 0; }
+.wakelock-status.active { opacity: 1; }
+
+.montreal-stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat-box { background: #f1f3f5; padding: 10px 4px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; }
+.stat-box.highlight { background: #e7f5ff; border: 1px solid #a5d8ff; }
+.stat-value { font-size: 1.3rem; font-weight: 900; color: #212529; }
+.stat-label { font-size: 0.62rem; font-weight: 800; color: #868e96; margin-top: 4px; }
+
+.montreal-progress-container { margin-bottom: 10px; text-align: left; }
+.progress-label-row { display: flex; justify-content: space-between; font-size: 0.68rem; font-weight: 800; color: #868e96; margin-bottom: 4px; }
+.progress-bar-track { background: #e9ecef; height: 8px; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { background: #228be6; height: 100%; width: 0%; transition: width 0.2s linear; }
+
+.montreal-phase-badge { padding: 8px 12px; border-radius: 8px; font-weight: 800; font-size: 0.95rem; background: #e9ecef; color: #495057; margin-bottom: 10px; }
+.montreal-phase-badge.running { background: #d0ebff; color: #1864ab; }
+.montreal-phase-badge.finished { background: #ffe3e3; color: #c92a2a; }
+
+.montreal-track-wrapper { background: #f8f9fa; border-radius: 12px; padding: 10px; border: 1px solid #e9ecef; }
+.montreal-track-svg { width: 100%; height: auto; display: block; }
+
+.montreal-controls { display: flex; gap: 8px; }
+.montreal-controls button { flex: 1; padding: 12px; font-size: 0.95rem; font-weight: 800; border-radius: 8px; border: none; cursor: pointer; }
+.btn--primary { background: #228be6; color: white; }
+.btn--secondary { background: #868e96; color: white; }
+.btn--warning { background: #fa5252; color: white; }
+.btn--fault { background: #ff922b; color: white; width: 100%; padding: 10px; font-weight: 800; border: none; border-radius: 8px; cursor: pointer; }
+
+.montreal-download-zone { margin-top: 12px; padding-top: 8px; border-top: 1px dashed #e9ecef; }
+.btn--download { background: transparent; color: #6c757d; border: 1px solid #ced4da; padding: 6px 12px; font-size: 0.78rem; font-weight: 700; border-radius: 6px; cursor: pointer; }
+.btn--download:hover:not(:disabled) { background: #f8f9fa; color: #212529; }
+
+.montreal-controls button:disabled, .btn--fault:disabled, .btn--download:disabled { opacity: 0.4; cursor: not-allowed; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Montreal Track Test Specifikationer (Ahmaidi / Léger & Boucher 1980)
+  // Starter v. 6.0 km/t, stiger 1.2 km/t hvert 2. minut (120s)
+  const STAGE_DURATION = 120; // 2 minutter pr. niveau
+  const CONE_DISTANCE = 50;   // Kegle for hver 50 meter (8 kegler på 400m)
+
+  let isRunning = false;
+  let hasStarted = false;
+  let startTime = 0;
+  let pausedTime = 0;
+  let totalElapsed = 0;
+  let currentDistance = 0;
+  let faults = 0;
+
+  let animFrameId = null;
+  let audioCtx = null;
+  let wakeLock = null;
+  let lastBeepSegment = -1;
+
+  const widget = document.querySelector(".montreal-widget");
+  if (!widget) return;
+
+  const trackPath = widget.querySelector("#montreal-track-path");
+  const conesGroup = widget.querySelector("#montreal-cones-group");
+  const runner = widget.querySelector("#montreal-runner");
+  const pathLength = trackPath.getTotalLength();
+
+  const levelDisplay = widget.querySelector(".level-display");
+  const speedDisplay = widget.querySelector(".speed-display");
+  const distanceDisplay = widget.querySelector(".distance-display");
+  const progressBarFill = widget.querySelector(".progress-bar-fill");
+  const levelTimeDisplay = widget.querySelector(".level-time-display");
+  const phaseIndicator = widget.querySelector(".phase-indicator");
+  const timeToBeepDisplay = widget.querySelector(".time-to-beep");
+  const liveVo2Display = widget.querySelector(".live-vo2-display");
+  const soundSelect = widget.querySelector(".sound-select");
+  const wakelockStatus = widget.querySelector(".wakelock-status");
+
+  const btnStart = widget.querySelector(".btn-start");
+  const btnPause = widget.querySelector(".btn-pause");
+  const btnReset = widget.querySelector(".btn-reset");
+  const btnFault = widget.querySelector(".btn-fault");
+  const faultCountDisplay = widget.querySelector(".fault-count");
+  const btnDownload = widget.querySelector(".btn-download");
+
+  const tableModal = widget.querySelector(".montreal-table-modal");
+  const tableIconBtn = widget.querySelector(".table-icon-btn");
+  const modalCloseBtn = widget.querySelector(".modal-close-btn");
+  const modalBody = widget.querySelector(".modal-body");
+
+  // Tegn de 8 kegler på SVG-banen (hver 50m)
+  function renderTrackCones() {
+    conesGroup.innerHTML = '';
+    for (let i = 0; i < 8; i++) {
+      const distPct = i / 8;
+      const pt = trackPath.getPointAtLength(distPct * pathLength);
+      const cone = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
+      // Kegle trekant koordinater
+      const points = `${pt.x},${pt.y-7} ${pt.x-5},${pt.y+5} ${pt.x+5},${pt.y+5}`;
+      cone.setAttribute("points", points);
+      cone.setAttribute("fill", "#ffd43b");
+      cone.setAttribute("stroke", "#d9480f");
+      cone.setAttribute("stroke-width", "1");
+      
+      const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      label.setAttribute("x", pt.x);
+      label.setAttribute("y", pt.y + 14);
+      label.setAttribute("font-size", "7");
+      label.setAttribute("font-weight", "bold");
+      label.setAttribute("fill", "#ffffff");
+      label.setAttribute("text-anchor", "middle");
+      label.textContent = `${i * 50}m`;
+
+      conesGroup.appendChild(cone);
+      conesGroup.appendChild(label);
+    }
+  }
+
+  // Beregn nuværende hastighed ud fra samlet tid
+  function getSpeedAtTime(seconds) {
+    const stage = Math.floor(seconds / STAGE_DURATION);
+    return 6.0 + (stage * 1.2);
+  }
+
+  // Beregn samlet tilbagelagt distance ud fra tid
+  function getDistanceAtTime(seconds) {
+    let dist = 0;
+    let remTime = seconds;
+    let stage = 0;
+
+    while (remTime > 0) {
+      const timeInStage = Math.min(remTime, STAGE_DURATION);
+      const speedKmH = 6.0 + (stage * 1.2);
+      const speedMS = speedKmH / 3.6;
+      dist += timeInStage * speedMS;
+      remTime -= timeInStage;
+      stage++;
+    }
+    return dist;
+  }
+
+  // Ahmaidi et al. (1992) VO2max formel for Montreal Track Test
+  function calcVO2Max(speedKmH) {
+    if (speedKmH <= 0) return "0.0";
+    const vo2 = 1.353 + (3.163 * speedKmH) + (0.0122586 * Math.pow(speedKmH, 2));
+    return vo2.toFixed(1);
+  }
+
+  function playBeep(type) {
+    if (soundSelect.value === 'off') return;
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    const now = audioCtx.currentTime;
+    if (type === 'cone') {
+      osc.frequency.value = 800;
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+      osc.start(now); osc.stop(now + 0.15);
+    } else if (type === 'stage') {
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.3, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+      osc.start(now); osc.stop(now + 0.35);
+    }
+  }
+
+  async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+      try { wakeLock = await navigator.wakeLock.request('screen'); wakelockStatus.classList.add("active"); } catch (e) {}
+    }
+  }
+  function releaseWakeLock() {
+    if (wakeLock) { wakeLock.release(); wakeLock = null; wakelockStatus.classList.remove("active"); }
+  }
+
+  function update() {
+    if (!isRunning) return;
+
+    const now = performance.now();
+    totalElapsed = (now - startTime) / 1000;
+    currentDistance = getDistanceAtTime(totalElapsed);
+
+    const stageIdx = Math.floor(totalElapsed / STAGE_DURATION);
+    const stageLevel = stageIdx + 1;
+    const currentSpeed = 6.0 + (stageIdx * 1.2);
+    const timeInCurrentStage = totalElapsed % STAGE_DURATION;
+
+    // UI Opdatering
+    levelDisplay.textContent = `Niveau ${stageLevel}`;
+    speedDisplay.textContent = currentSpeed.toFixed(1);
+    distanceDisplay.textContent = Math.floor(currentDistance);
+
+    const stagePct = (timeInCurrentStage / STAGE_DURATION) * 100;
+    progressBarFill.style.width = `${stagePct}%`;
+
+    const mins = Math.floor(timeInCurrentStage / 60).toString().padStart(2, '0');
+    const secs = Math.floor(timeInCurrentStage % 60).toString().padStart(2, '0');
+    levelTimeDisplay.textContent = `${mins}:${secs} / 02:00`;
+
+    // Løber placering på 400m banen
+    const lapDistance = currentDistance % 400;
+    const trackProgress = lapDistance / 400;
+    const pt = trackPath.getPointAtLength(trackProgress * pathLength);
+    runner.setAttribute("transform", `translate(${pt.x}, ${pt.y})`);
+
+    // Kegle Bip Logik (Hver 50m)
+    const currentSegment = Math.floor(currentDistance / CONE_DISTANCE);
+    if (currentSegment > lastBeepSegment) {
+      if (lastBeepSegment !== -1) {
+        // Tjek om det også er niveauskift (hvert 2. min)
+        if (timeInCurrentStage < 1.0 && stageIdx > 0) {
+          playBeep('stage');
+        } else {
+          playBeep('cone');
+        }
+      }
+      lastBeepSegment = currentSegment;
+    }
+
+    // Tid til næste 50m kegle-bip
+    const speedMS = currentSpeed / 3.6;
+    const distToNextCone = CONE_DISTANCE - (currentDistance % CONE_DISTANCE);
+    const timeToNextCone = distToNextCone / speedMS;
+    timeToBeepDisplay.textContent = `${timeToNextCone.toFixed(1)}s`;
+
+    liveVo2Display.textContent = calcVO2Max(currentSpeed);
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function startTest() {
+    if (isRunning) return;
+    isRunning = true;
+    requestWakeLock();
+
+    btnStart.disabled = true;
+    btnPause.disabled = false;
+    btnReset.disabled = false;
+    btnFault.disabled = false;
+
+    phaseIndicator.className = "montreal-phase-badge running";
+    phaseIndicator.textContent = "🏃 TEST I GANG";
+
+    if (!hasStarted) {
+      hasStarted = true;
+      startTime = performance.now();
+    } else {
+      startTime = performance.now() - pausedTime;
+    }
+
+    animFrameId = requestAnimationFrame(update);
+  }
+
+  function pauseTest() {
+    if (!isRunning) return;
+    isRunning = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    pausedTime = performance.now() - startTime;
+    btnStart.disabled = false;
+    btnStart.textContent = "Genoptag Test";
+    btnPause.disabled = true;
+
+    phaseIndicator.className = "montreal-phase-badge";
+    phaseIndicator.textContent = "Pauset";
+  }
+
+  function resetTest() {
+    if (isRunning || hasStarted) {
+      if (!confirm("Vil du nulstille Montreal Track Testen?")) return;
+    }
+    isRunning = false;
+    hasStarted = false;
+    cancelAnimationFrame(animFrameId);
+    releaseWakeLock();
+
+    totalElapsed = 0;
+    currentDistance = 0;
+    faults = 0;
+    lastBeepSegment = -1;
+
+    faultCountDisplay.textContent = '0';
+    btnFault.disabled = true;
+    btnStart.disabled = false;
+    btnStart.textContent = "Start Test";
+    btnPause.disabled = true;
+    btnReset.disabled = true;
+
+    levelDisplay.textContent = "Niveau 1";
+    speedDisplay.textContent = "6.0";
+    distanceDisplay.textContent = "0";
+    progressBarFill.style.width = "0%";
+    levelTimeDisplay.textContent = "00:00 / 02:00";
+    phaseIndicator.className = "montreal-phase-badge";
+    phaseIndicator.textContent = "Klar til start";
+    timeToBeepDisplay.textContent = "0.0s";
+    liveVo2Display.textContent = "0.0";
+
+    const startPt = trackPath.getPointAtLength(0);
+    runner.setAttribute("transform", `translate(${startPt.x}, ${startPt.y})`);
+  }
+
+  function registerFault() {
+    faults++;
+    faultCountDisplay.textContent = faults;
+    if (faults >= 2) {
+      pauseTest();
+      phaseIndicator.className = "montreal-phase-badge finished";
+      phaseIndicator.textContent = "🛑 TEST SLUTTET (2 advarsler)";
+      btnFault.disabled = true;
+      btnStart.disabled = true;
+    }
+  }
+
+  function renderModalTable() {
+    let html = `<table class="montreal-modal-table">
+      <thead>
+        <tr>
+          <th>Niveau</th>
+          <th>Fart</th>
+          <th>Tid pr. 50m</th>
+          <th>Niveau Dist.</th>
+          <th>Samlet Dist.</th>
+        </tr>
+      </thead>
+      <tbody>`;
+
+    let accumDist = 0;
+    for (let stage = 0; stage < 12; stage++) {
+      const spd = 6.0 + (stage * 1.2);
+      const timePer50m = (50 / (spd / 3.6)).toFixed(1);
+      const levelDist = Math.round((spd / 3.6) * 120);
+      accumDist += levelDist;
+
+      html += `<tr>
+        <td><strong>Niveau ${stage + 1}</strong></td>
+        <td>${spd.toFixed(1)} km/t</td>
+        <td>${timePer50m} s</td>
+        <td>${levelDist} m</td>
+        <td>${accumDist} m</td>
+      </tr>`;
+    }
+    html += `</tbody></table>`;
+    modalBody.innerHTML = html;
+  }
+
+  // Generer WAV-lydfil til download
+  async function generateWavFile() {
+    btnDownload.disabled = true;
+    const origText = btnDownload.textContent;
+    btnDownload.textContent = "⏳ Genererer lydfil...";
+
+    // 12 niveauer á 2 min = 24 minutter totalt
+    const TOTAL_TEST_TIME = 12 * 120;
+    let events = [];
+
+    let elapsed = 0;
+    let dist = 0;
+    let lastSeg = 0;
+
+    while (elapsed <= TOTAL_TEST_TIME) {
+      const spd = getSpeedAtTime(elapsed);
+      dist += (spd / 3.6) * 0.1; // 0.1s opløsning
+      elapsed += 0.1;
+
+      const seg = Math.floor(dist / 50);
+      if (seg > lastSeg) {
+        const isStageChange = Math.abs((elapsed % 120)) < 0.2 && elapsed > 2;
+        events.push({ time: elapsed, type: isStageChange ? 'stage' : 'cone' });
+        lastSeg = seg;
+      }
+    }
+
+    const sampleRate = 16000;
+    const totalSamples = Math.ceil(sampleRate * (TOTAL_TEST_TIME + 2));
+    
+    try {
+      const offlineCtx = new (window.OfflineAudioContext || window.webkitOfflineAudioContext)(1, totalSamples, sampleRate);
+      
+      events.forEach(ev => {
+        const osc = offlineCtx.createOscillator();
+        const gain = offlineCtx.createGain();
+        osc.connect(gain);
+        gain.connect(offlineCtx.destination);
+        osc.frequency.value = ev.type === 'stage' ? 1200 : 800;
+        gain.gain.setValueAtTime(0.3, ev.time);
+        gain.gain.exponentialRampToValueAtTime(0.001, ev.time + (ev.type === 'stage' ? 0.35 : 0.15));
+        osc.start(ev.time);
+        osc.stop(ev.time + 0.4);
+      });
+
+      const renderedBuffer = await offlineCtx.startRendering();
+      
+      // WAV header konvertering
+      let result = new Float32Array(renderedBuffer.length);
+      renderedBuffer.copyFromChannel(result, 0, 0);
+      let dataLength = result.length * 2;
+      let buffer = new ArrayBuffer(44 + dataLength);
+      let view = new DataView(buffer);
+
+      function writeString(v, offset, str) { for (let i = 0; i < str.length; i++) v.setUint8(offset + i, str.charCodeAt(i)); }
+      writeString(view, 0, 'RIFF'); view.setUint32(4, 36 + dataLength, true); writeString(view, 8, 'WAVE'); writeString(view, 12, 'fmt ');
+      view.setUint32(16, 16, true); view.setUint16(20, 1, true); view.setUint16(22, 1, true); view.setUint32(24, sampleRate, true);
+      view.setUint32(28, sampleRate * 2, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true); writeString(view, 36, 'data');
+      view.setUint32(40, dataLength, true);
+
+      let offset = 44;
+      for (let i = 0; i < result.length; i++, offset += 2) {
+        let s = Math.max(-1, Math.min(1, result[i]));
+        view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+      }
+
+      const blob = new Blob([view], { type: 'audio/wav' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "montreal-track-test-audio.wav";
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      alert("Fejl ved generering af lydfil.");
+    }
+
+    btnDownload.textContent = origText;
+    btnDownload.disabled = false;
+  }
+
+  btnStart.addEventListener("click", startTest);
+  btnPause.addEventListener("click", pauseTest);
+  btnReset.addEventListener("click", resetTest);
+  btnFault.addEventListener("click", registerFault);
+  btnDownload.addEventListener("click", generateWavFile);
+
+  tableIconBtn.addEventListener("click", () => { renderModalTable(); tableModal.style.display = "flex"; });
+  modalCloseBtn.addEventListener("click", () => { tableModal.style.display = "none"; });
+
+  renderTrackCones();
+});
+</script>

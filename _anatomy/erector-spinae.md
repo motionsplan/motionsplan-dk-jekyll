@@ -35,7 +35,7 @@ function:
       extended: "This means that the erector spinae muscles straighten the spine or bend it backward."
     - short: Lateral flexion of the spine.
       extended: "When acting unilaterally, the muscles bend the spine to the same side."
-image: /assets/images/anatomy/erector-spinae.jpg
+image: /assets/images/anatomy/erector-spinae.png
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin }}*. Musklen sørger primært for {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} samt {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en helt central del af {{ page.functional_group | join: ", " | downcase }}.

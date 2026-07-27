@@ -3,20 +3,24 @@
 export const ANDERSEN_FORMULAS = {
   andersen_2008: {
     id: 'andersen_2008',
-    name: 'Andersen et al. (2008)',
+    name: 'Andersen et al. (2008) – Standard (Uden vægt)',
+    shortName: 'Andersen (2008)',
+    desc: 'Oprindelig formel til børn og unge. Kræver ikke kropsvægt.',
+    see: '±4.2 ml/kg/min',
     sd: 4.2,
     sdUnit: 'ml/kg/min',
-    description: 'Den oprindelige formel til børn og unge (6–17 år). Kræver ikke kropsvægt.',
     requiresWeight: false,
     calc: ({ distance, isFemale }) =>
       18.38 + (0.03301 * distance) - (5.92 * isFemale)
   },
   aadland_2014: {
     id: 'aadland_2014',
-    name: 'Aadland et al. (2014)',
+    name: 'Aadland et al. (2014) – Med kropsvægt',
+    shortName: 'Aadland (2014)',
+    desc: 'Justeret formel der inddrager kropsvægt for øget præcision.',
+    see: '±3.8 ml/kg/min',
     sd: 3.8,
     sdUnit: 'ml/kg/min',
-    description: 'Justeret formel der inddrager kropsvægt for øget præcision.',
     requiresWeight: true,
     calc: ({ distance, isFemale, bodyweight }) =>
       23.262 + (0.050 * distance) - (3.858 * isFemale) - (0.376 * bodyweight)
@@ -35,8 +39,7 @@ export function getRecommendedAndersenFormula(bodyweight) {
  * Hovedfunktion til Andersen-test beregning
  */
 export function calculateAndersenTest(sex, distance, bodyweight, chosenFormulaKey = 'auto') {
-  // Piger/kvinder = 1, Drenge/mænd = 0
-  const isFemale = (sex === 'female' || sex === 'woman' || sex === 'kvinde' || sex === 1 || sex === '1') ? 1 : 0;
+  const isFemale = (sex === 'female' || sex === 'woman' || sex === 'pige' || sex === 'kvinde' || sex === 1 || sex === '1') ? 1 : 0;
   const dist = parseFloat(distance);
   const weight = parseFloat(bodyweight) || 0;
 
@@ -57,6 +60,7 @@ export function calculateAndersenTest(sex, distance, bodyweight, chosenFormulaKe
       isValid: false, 
       missingWeight: true,
       activeFormulaKey: activeKey,
+      recommendedFormulaKey: recKey,
       formulaName: ANDERSEN_FORMULAS[activeKey].name
     };
   }
@@ -68,7 +72,6 @@ export function calculateAndersenTest(sex, distance, bodyweight, chosenFormulaKe
     return { isValid: false };
   }
 
-  // Beregn iltoptagelse i L/min hvis vægt er angivet
   const vo2max = weight > 0 ? (weight * fitnessLevel) / 1000 : null;
   const activeFormula = ANDERSEN_FORMULAS[activeKey];
 
@@ -82,11 +85,10 @@ export function calculateAndersenTest(sex, distance, bodyweight, chosenFormulaKe
     recommendedFormulaKey: recKey,
     isRecommended: activeKey === recKey,
     formulaName: activeFormula.name,
-    description: activeFormula.description,
+    description: activeFormula.desc,
     sd: activeFormula.sd,
     sdUnit: activeFormula.sdUnit,
 
-    // Bagudkompatibilitet
     getFitnessLevel: () => fitnessLevel,
     getVO2max: () => vo2max
   };

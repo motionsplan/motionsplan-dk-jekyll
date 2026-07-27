@@ -49,7 +49,7 @@ faq:
 
 Under mine anatomiundervisninger spørger mange, hvor meget knoglerne i kroppen vejer? Det er et spændende spørgsmål, og jeg har kigget nærmere på det for at give et præcist svar.
 
-Hvis du vil lære mere om, hvor mange knogler der er i menneskekroppen, kan du finde detaljeret information [om antallet af knogler i menneskekroppen her](https://www.motionsplan.dk/hvor-mange-knogler-har-mennesket/).
+Hvis du vil lære mere om, hvor mange knogler der er i menneskekroppen, kan du finde detaljeret information [om antallet af knogler i menneskekroppen her](/hvor-mange-knogler-har-mennesket/).
 
 ## Hvor meget vejer skelettet?
 

@@ -161,7 +161,7 @@ export const RUNNING_ADJUSTMENT_FORMULAS = {
         flyerDiffFormatted,
         targetSpec,
         subUnit: 'tid',
-        text: `Din faktiske tid på **${distanceLabel}** på **${this.formatSeconds(totalSec)}** svarer fysiologisk til **${this.formatSeconds(ageAdjustedSec)}** i din biologiske topalder (20–30 år) med en WMA-alderspræstation på **${agePerformancePct}%**. Justeret for både alder og kropsvægt (standardiseret til ${targetSpec}) svarer din præstation til **${this.formatSeconds(flyerAdjustedSec)}** på denne distance (korrektion: **${flyerDiffFormatted}**).`
+        text: `<strong>WMA</strong>: Din faktiske tid på **${distanceLabel}** på **${this.formatSeconds(totalSec)}** svarer til **${this.formatSeconds(ageAdjustedSec)}** i din biologiske topalder (20–30 år) med en WMA-alderspræstation på **${agePerformancePct}%**. <strong>Flyer Handicap</strong>: Justeret for både alder og kropsvægt (standardiseret til ${targetSpec}) svarer din præstation til **${this.formatSeconds(flyerAdjustedSec)}** på denne distance (korrektion: **${flyerDiffFormatted}**).`
       };
     }
   }

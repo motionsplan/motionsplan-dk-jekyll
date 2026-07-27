@@ -34,7 +34,7 @@ function:
     - short: Abducts the hip.
     - short: Stabilizes the pelvis.
     - short: Medially rotates the hip.
-image: /assets/images/anatomy/gluteus-minimus.jpg
+image: /assets/images/anatomy/gluteus-minimus.png
 ---
 
 {{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin }}*. Musklen sørger primært for {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} samt {% endif %}{{ f.short | downcase }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en vigtig del af {{ page.functional_group | join: ", " | downcase }}.
